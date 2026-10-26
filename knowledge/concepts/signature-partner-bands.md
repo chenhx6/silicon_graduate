@@ -95,3 +95,9 @@ pseudospin是另一类近似intrinsic对称，不能由Rzπ或相同α推得；�
 [[koike-2004-chiral-bands-selection-rules]] KOIKE04-D23-001/002回核表明，原文C指unitary价p/n交换，A才是该交换加core四分之一圈；它们与本页π转动signature及antiunitary手征Cχ按操作定义分别处理。同一个字母或±标签不能代替定义，也不能把原A标签写成parity eigenvalue。
 
 源规则只在特殊H/coreE2/near-isovector M1条件下成立，且原文说即使未形成手征几何也成立。[[qi-2009-135nd-particle-rotor-chirality]]的任务S比较保轴/参数/截断条件，不恢复SP/wobbling/TiP/MR/AMR的统一δ/W.u.门。新needs_review:true。
+
+## Day23：h9/2、f7/2和α分别属于哪一层
+
+[[liang-2016-pseudospin-symmetry-review]] LIANG16-D23-001–003的标准2f7/2–1h9/2 pair共有pseudo-l4、κ=−4/+5，是单粒子近似对称关系；1h9/2–1h11/2则是普通spin pair。它们都不等于同组态π转动的两个signature分支。PSS可组织变形转动带，但仍需完整模型/波函数表示，不能由相同α或近简并自动识别。
+
+在本卡实际Au对照中，[[guo-2022-low-spin-wobbling-187au]] GU22-D23-012的#19/#21是两条带的主要mixedorbitals，不能仅因h9/f7成分出现就认证为上述PSS双态，亦不因mixing就排除任何有效PSS可能。原文提出的single-particle excitation与支持方ordinarySP也不是同一句标签。[[signature-tip-shears-discrimination-contract]]保逐线EM与完整算符/定标集合，不新增M1零、统一δ门或Au归属认证。新needs_review:true。

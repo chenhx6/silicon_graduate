@@ -1,0 +1,5 @@
+{
+  "path": "knowledge/sources/liang-2016-pseudospin-symmetry-review.md",
+  "old_claim_row": "| LIANG16-2 | `dΣ/dr≈0` is the spherical PSS condition; exact constant `Σ` has no normal bound spectrum, so realistic PSS is approximate. | model-result/limitation | direct | PDF pp.3–5, Eqs.7–13 | true |",
+  "scope": "narrow physical-domain wording only, reviewflag unchanged"
+}

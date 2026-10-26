@@ -771,3 +771,11 @@ A槽因此分成“图示向量可读”“源条件profile可读”“实际共
 Markov不是iid：声明ρ=.9的stationary AR1给τint19，数学N19000的mean-ESS约1000.50；这不是γcount或实际chain长度。若两谷分开且只见A内条件密度，πp=p fA+(1−p)fB对任意p都有同一π(x∣A)=fA，故局部posterior histogram不能独自给另一谷质量。它没有推两谷必等深，原fixedσ大根条件支持仍保。
 
 实际鉴别还需同一likelihood/先验下的跨谷可达性与权重方法、sample history/函数相关时间、未用于定标的观测检验。既不由短局部链自动认证global branch，也不据缺日志认定原算法失败。[[135pr-wobbling-controversy]]保具体科学争议；新needs_review:true，无新δ/Q/τ/CI或机时。
+
+## Day23：替代组态须声明是signature、orbital excitation还是PSS
+
+[[liang-2016-pseudospin-symmetry-review]] LIANG16-D23-001/002将本卡容易混用的h/f例子具体化：standard2f7/2–1h9/2满足κ和1/共同pseudo-l4，ordinary1h9/2–1h11/2满足κ和−1/共同l5；signature则是π转动的α分类，根本不是这个κ配对。PSS在变形模型也有表示（LIANG16-D23-003），不能把球形标签直接当triaxialmixedband测量。
+
+对[[guo-2022-low-spin-wobbling-187au]] GU22-D23-012/021，#19/#21与h/f分量仍需全带符号振幅、BCS/radial及EM operators；这些不能由“两个h9主导”或“近degenerateh/f”补齐。B槽的counterexplanation保counts/levels/H/operator，再明确不同候选mapping及未用于定标的强度/连接预测。若另换势来强制exactPSS，已改变H；若仅label变换，也未产生一份独立物理解释。
+
+[[signature-partner-bands]]和[[187au-longitudinal-wobbling-controversy]]承接该边界，新needs_review:true；不由PSS名推出所有M1为0或相同，不恢复δ/W.u.硬门。

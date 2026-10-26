@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-26T02:44:25.570543+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "Liang原PDF1–8/生成元核，formalh/f κ配对与actualAu#19/#21分列；旧物理域措辞收窄，未认证AuPSS",
+  "next_route": "重建候选，优先历史186Pt评价archive的原尺度或actual共同response/未定标EM；不打开Day25",
+  "missing_inputs": [
+    "actualAu radial/BCS/coherent mixedorbitals and PSSrepresentation",
+    "fullcommonH/operator and heldoutEM",
+    "historicalB(E2) mapping and originalresponse/Cov"
+  ],
+  "Day25_opened": false
+}

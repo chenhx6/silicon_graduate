@@ -59,7 +59,7 @@ The review asks how quasi-degenerate pseudospin doublets arise in nuclear single
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | LIANG16-1 | PSS quasi-degeneracy is a relativistic Dirac symmetry distinct from spin symmetry. | model-framework | direct | PDF pp.1–5, Eqs.1–13 | false |
-| LIANG16-2 | `dΣ/dr≈0` is the spherical PSS condition; exact constant `Σ` has no normal bound spectrum, so realistic PSS is approximate. | model-result/limitation | direct | PDF pp.3–5, Eqs.7–13 | true |
+| LIANG16-2 | `dΣ/dr=0` 是球形Dirac SU(2) PSS的形式条件；对真实核的结合势，作者指出 `Σ=0` 的该极限不能维持核子结合态，实际PSS近似成立。此物理域说明不扩成任意势/任意constantΣ的普遍无谱命题。 | model-result/limitation | direct | PDF p.5, Eqs.11–13 and physical-bound-state paragraph | true |
 | LIANG16-3 | SUSY partner Hamiltonians encode pseudospin doublets and intruder-state exceptions. | model-framework | direct | PDF pp.5–10, Eqs.14–18 | true |
 | LIANG16-4 | PSS organizes deformed shell evolution, identical/superdeformed bands and quantized alignment, but symmetry breaking depends on potentials, tensor terms, deformation and continuum. | review-synthesis | contextual | PDF pp.1–4, 10–20 | true |
 
@@ -112,3 +112,22 @@ Near-degeneracy can be accidental or configuration/mixing driven; deformed and c
 ## L3/L4 Follow-up
 
 - L3 question: in A≈130 high-spin spectra, can pseudospin partner diagnostics (lower-component wave-function overlaps, deformed RMF splittings, alignment and M1/E2) distinguish true PSS from signature or configuration-mixing coincidences? No L4 run: no raw calculations/code supplied.
+
+## Day23：h/f例子的pseudospin量子数与旋称分类
+
+本次原21页v1/hash42addac07765e3bcdc15eefd3c72266f254ea8a7ce97a5e9e9ab23dc26eb5f01保持；定向读PDF1–8，fresh视觉核Fig1及PDF7的生成元/径向关系，不重复宣称新21页通读。原LIANG16-1的旧self-audit false与其它reviewflags保留；LIANG16-2只按PDF5物理措辞收窄适用域，旧行存pre-correction059，不声称证明任何数学势的无谱定理。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LIANG16-D23-001 | Fig1的标准2f7/2–1h9/2为形式pseudospin pair，共同pseudo-l=4；按Eq5 κ定义，κ=−4/+5，κ和=1且κ(κ−1)=20相同。相对地1h9/2–1h11/2是spin pair，κ=+5/−6、和−1且κ(κ+1)=30。这是源量子数规则的声明算术，不是Au实际径向n/轨道近简并或PSS测量。 | original-definition-and-Codex-quantum-number-exercise | directly-read-and-derived | PDF1Fig1; PDF4Eq5; PDF5Eq13; PDF7Eqs26/27 | true |
+| LIANG16-D23-002 | PSS的Dirac SU(2)生成元Eq34有upper block tilde-s=(σ·p-hat)s(σ·p-hat)、lower block s；exactlimit要求与H对易，径向波函数还满足Fa=Fb及(∂r+κa/r)Ga=(∂r+κb/r)Gb。它们不是π空间转动signature的r=±i定义，也不由能量接近、同α或一个dominant subshell标签自动得到。 | original-symmetry-operator-and-wavefunction-criterion | directly-read-theory | PDF7Eqs34–37 | true |
+| LIANG16-D23-003 | 原文对deformedPSS给asymptotic Nilsson[N,n3,Λ]Ω=Λ+1/2与[N,n3,Λ+2]Ω=Λ+3/2的配对及特定Nilsson模型vls/vll=4；这说明PSS也能组织变形转动带，但不是普适parameter门。球形κ配对、形变混合后的PSS生成元/波函数关系与实际电磁矩阵元需在各自模型中一致检查。 | deformed-PSS-scope-and-transfer-boundary | directly-read-review-not-newexperiment | PDF2Fig2 and rotatingpotential paragraphs | true |
+
+| 关系 | 判断对象 | 本例明确需要的输入 |
+|---|---|---|
+| signature partners | 同一组态的旋称序列、奇A常用α=±1/2 | π转动/轴与I对应，不能仅凭相反α指定ordinarySP而排wobbling |
+| formalPSS pair | 2f7/2与1h9/2的单粒子关系 | 径向n、共同pseudo-l、H/生成元及波函数；本表不认证任何Au带 |
+| ordinaryspin pair | 1h9/2与1h11/2 | 同l的spin-orbit关系，不能改叫pseudospin |
+| GuoAu #19/#21 | 原QTR两个mixedsp orbitals、两带主要成分 | [[guo-2022-low-spin-wobbling-187au]] GU22-D23-012/021的actual空间、带符号混合/BCS/radial/operator，不能由编号自动套PSS |
+
+GU22的SI列h9/f7来源而未给全套本页的径向/对称生成元检验；其“single-particle excitation”不等同“pseudospin partner已验证”。另一方面，有mixing也不自动排PSS，需具体effective symmetry表示与破缺诊断。此处不新增Auδ、能级、τ、g或M1零；正支持与竞争模型仍依实际输入比较，新needs_review:true。

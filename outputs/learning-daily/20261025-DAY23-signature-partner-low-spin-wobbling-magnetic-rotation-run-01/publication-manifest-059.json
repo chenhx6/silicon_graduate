@@ -1,0 +1,29 @@
+{
+  "scope": "original Day23 checkpoint059 orbital PSS/signature definitions and narrow physical domain; no Au PSS assignment/formal credit",
+  "subject": "Day23: distinguish signature branches from pseudospin orbital pairs",
+  "paths": [
+    "knowledge/concepts/signature-partner-bands.md",
+    "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+    "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+    "knowledge/sources/liang-2016-pseudospin-symmetry-review.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/run.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+    "system/handoff.md",
+    "system/log.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/input-contract-059.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/quantum-number-map-059.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/pre-correction-059.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/reading-scope-059.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/checkpoint-baseline-059.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/required-checks-059.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/runtime-snapshot-059.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/candidate-pool-059.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/next-continuation-059.md",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/task-publication-receipt-058.json",
+    "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/publication-manifest-059.json"
+  ],
+  "H2_EOL": {
+    "exit_code": 1,
+    "unsafe_mixed": 0
+  }
+}

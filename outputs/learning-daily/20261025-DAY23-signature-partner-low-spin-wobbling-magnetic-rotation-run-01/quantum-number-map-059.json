@@ -1,0 +1,63 @@
+{
+  "scope": {
+    "pair_reference": "Liang2016Fig1 formal2f7/2,1h9/2 pseudospin pair, not actualAu radialassignment",
+    "rows": [
+      {
+        "orbit": "2f7/2",
+        "n": 2,
+        "l": 3,
+        "two_j": 7,
+        "kappa": -4
+      },
+      {
+        "orbit": "1h9/2",
+        "n": 1,
+        "l": 5,
+        "two_j": 9,
+        "kappa": 5
+      },
+      {
+        "orbit": "1h11/2",
+        "n": 1,
+        "l": 5,
+        "two_j": 11,
+        "kappa": -6
+      }
+    ],
+    "formal_relations": [
+      "PSS κa+κb=1 andκ(κ−1)=tilde_l(tilde_l+1)",
+      "SS κa+κb=−1 andκ(κ+1)=l(l+1)",
+      "PSS lowerF equality and upperderivativerelation Eqs36/37 require fullmodelwavefunctions",
+      "signature r=e−iπα not κ relation"
+    ],
+    "prohibited": "no actualAuPSS quantumidentity or commonshape/exactzero M1 inferred"
+  },
+  "formal_PSS_pair": {
+    "orbits": [
+      "2f7/2",
+      "1h9/2"
+    ],
+    "sum_kappa": 1,
+    "pseudo_centrifugal": [
+      20,
+      20
+    ],
+    "pseudo_l": 4,
+    "common_pair_pseudo_n": 1
+  },
+  "formal_spin_pair": {
+    "orbits": [
+      "1h9/2",
+      "1h11/2"
+    ],
+    "sum_kappa": -1,
+    "centrifugal": [
+      30,
+      30
+    ],
+    "common_l": 5
+  },
+  "interpretation": "simple definedquantumnumber arithmetic, no new physicalstate, energy, PSSmeasure or EMprediction",
+  "same_parity_between_formalPSS_orbits": true,
+  "formal_PSS_orbit_parity": -1
+}

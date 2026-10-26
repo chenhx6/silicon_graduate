@@ -425,3 +425,9 @@ flowchart TD
 [[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-7/8从原Fig3的376/462黑点各提7个native中心，保独立于040红fit的图像对象；它们仍是同一Au支持采集的公开表达，不新增独立票。左右ordinate scale、tickrounding和90°marker裁切均声明，五提取控制与视觉叠图过。
 
 这使“实际点中心在哪里”可复核，但大部分errorbars仍被marker覆盖，不能把点径/黑bbox当σ或强行作Poisson fit。当前没有新的χ²/δ/root裁决；需要原峰面积/efficiency/归一/Cov才能把公开点向量与Table4.4/自由fit/红fit并入同一响应。与GuoP–Rac的同线对照、全局likelihood缺口及两配置的未定标预测继续保留。新增needs_review:true。
+
+## Day23：configuration替代不借pseudospin名称补输入
+
+[[liang-2016-pseudospin-symmetry-review]] LIANG16-D23-001–003核standard2f7/2–1h9/2 PSS pair及其波函数/生成元条件。[[guo-2022-low-spin-wobbling-187au]] GU22-D23-012/021给实际Au#19/#21 h9主导mixedorbitals与h/f算符缺口；这套空间不能凭两个subshell名字自动通过PSS认证，Guo所称single-particle excitation也不自动等ordinarysignaturepartner。
+
+B槽只改configuration mapping时，应先声明是同intrinsicconfiguration的另一signature、同H的另一mixedorbital激发，还是另有可核的近似PSS；三者的H/算符映射及未定标EM预报不同。源已有counts/levels不变，形式命名不增加可信度，也不因可写PSS标签便补径向/BCS/phase/低分量。[[signature-partner-bands]]保量子数区分，新增needs_review:true，无新δ/Q/τ或机时。
