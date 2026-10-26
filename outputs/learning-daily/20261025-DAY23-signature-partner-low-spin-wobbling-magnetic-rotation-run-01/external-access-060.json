@@ -1,0 +1,82 @@
+{
+  "discovery": [
+    {
+      "name": "archive",
+      "url": "https://www.nndc.bnl.gov/ensarch/",
+      "status": 404,
+      "bytes": 771,
+      "path": "tmp/day23-originals/pt186-archive060-archive.html",
+      "sha256": "af515593f0b65b527b274fcf1466453ff7444d2e0643e6d00e8b54d872b4f778"
+    },
+    {
+      "name": "ensdf",
+      "url": "https://www.nndc.bnl.gov/ensdf/",
+      "status": 200,
+      "bytes": 107399,
+      "path": "tmp/day23-originals/pt186-archive060-ensdf.html",
+      "sha256": "d6143657cad8649f70c887bd747e1f13ac139713a95508e270afda9a9735b84a"
+    }
+  ],
+  "actual_index": {
+    "url": "https://www.nndc.bnl.gov/ensdfarchivals/",
+    "status": 200,
+    "path": "tmp/day23-originals/pt186-archive060-index.html",
+    "bytes": 12080,
+    "sha256": "9514d7aafb2f17cf591b387583a24eca4a6abf09b9ca0630e50eaa54554d4204"
+  },
+  "actual_files": {
+    "url": "https://www.nndc.bnl.gov/ensdfarchivals/distributions/files.json",
+    "status": 200,
+    "path": "tmp/day23-originals/pt186-archive060-files.json",
+    "sha256": "63cf653a1970341be7f945c8561956c021c7006cdb890229ec84f9ee3990ed1d"
+  },
+  "downloads": [
+    {
+      "url": "https://www.nndc.bnl.gov/ensdfarchivals/distributions/dist04/ensdf_0403_293.zip",
+      "year": "2004",
+      "status": 200,
+      "bytes": 5162266,
+      "path": "tmp/day23-originals/archive060-2004-ensdf_0403_293.zip",
+      "sha256": "c7cf8128b252d1da5f49821696f9cddad036a4e0ffeefaec3c769c4e05306965",
+      "member_count": 97,
+      "selected_members": [
+        {
+          "name": "ENSDF.186",
+          "bytes": 1014039,
+          "path": "tmp/day23-originals/archive060-2004-ENSDF.186",
+          "sha256": "7c17f7e98958cb9f6ae6f865f7c85f101947fd8c027fb92d85401a43ebba7067"
+        },
+        {
+          "name": "ENSDF.187",
+          "bytes": 631233,
+          "path": "tmp/day23-originals/archive060-2004-ENSDF.187",
+          "sha256": "6b97dd06c0f16c5a3e860be5401614dfa54175a3499b490d6ccad0d8fe6c35ca"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nndc.bnl.gov/ensdfarchivals/distributions/dist09/ensdf_0910_199.zip",
+      "year": "2009",
+      "status": 200,
+      "bytes": 16442693,
+      "path": "tmp/day23-originals/archive060-2009-ensdf_0910_199.zip",
+      "sha256": "c702ed2120cec8ca1f6000764899de6fdd90d8ac19a4129f8bd6805001ee4f26",
+      "member_count": 100,
+      "selected_members": [
+        {
+          "name": "ensdf.186",
+          "bytes": 1045386,
+          "path": "tmp/day23-originals/archive060-2009-ensdf.186",
+          "sha256": "61398f218e2223b7d0ae0bc8be48e42741b776059870182e8ca7ff981b76683e"
+        },
+        {
+          "name": "ensdf.187",
+          "bytes": 1498500,
+          "path": "tmp/day23-originals/archive060-2009-ensdf.187",
+          "sha256": "a661d56dee52a4c1174328017ed494fa2423fa819367af4fd13df9e1f7d75cae"
+        }
+      ]
+    }
+  ],
+  "raw_archival": "deferred"
+}

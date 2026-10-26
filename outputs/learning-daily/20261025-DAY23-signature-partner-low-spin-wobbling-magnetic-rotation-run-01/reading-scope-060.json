@@ -1,0 +1,11 @@
+{
+  "scope": "targeted historical186PtAdopted/186AuEC191.53 and187AuAdoptedreferenceclock only, notwholemasschain/NDS/primary",
+  "source_claims": [
+    "PT03-D23-001",
+    "PT03-D23-002",
+    "PT03-D23-003",
+    "AU09-D23-001"
+  ],
+  "no_new_acquisition": true,
+  "needs_review": true
+}

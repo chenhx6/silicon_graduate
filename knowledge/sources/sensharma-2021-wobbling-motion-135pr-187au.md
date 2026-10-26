@@ -277,3 +277,9 @@ Eq3.6把角分布fit写为A0(1+A2P2+A4P4)，并称由峰面积拟合得experimen
 [[sensharma-2020-longitudinal-wobbling-187au]] DL10-D23-001–005给实际Delaroche2010原53页与CEA作者表。186Pt该模型的minimum(β=.249,γ15°)、collective mean(.245,20°)和RMS宽(.053,11°)分别列明；这是另一个明确的模型/数据版本，不能直接改写RG2010的minimum或本thesis采用(.23,23°)。20±11不是实验parameterCI，mean/宽度也不唯一决定EM非线性量。
 
 所以动态mean与staticminimum不同是一条已核方法边界，而“23°就是该动态mean”的具体猜想本次未成立。原producer取值/版本/EM定义仍缺；.84/1.44、Au1.49/原RDM1.18等引用映射不靠这份表自动修复。新needs_review:true，不改模型采用值或旧审核状态。
+
+## Day23：Baglin2003归档已读，但.84/1.44引用仍未闭合
+
+[[sensharma-2020-longitudinal-wobbling-187au]] PT03-D23-001–003现从官方2004/2009快照真正读到Baglin2003、CUT4-Apr-2003的186Pt target记录：2+191.53keV的T1/2=260(12)ps、BE2W94(5)，同一Adopted块逐行相同。声明WU单位换算中央约.59287e²b²，而本thesis引1.44、Letter引.84的具体映射仍未建立，不能以现代102WU或实际producer未明的解释默填。
+
+AU09-D23-001亦核2009Basunia Au参考188WU/56ps与原1995RDM谱系；不是新争议母态寿命。两文β仍同.23，不能把引用差自动当参数实际更改。新needs_review:true，不改原文字引用、核态或旧审核。

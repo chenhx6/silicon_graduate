@@ -779,3 +779,11 @@ Markov不是iid：声明ρ=.9的stationary AR1给τint19，数学N19000的mean-E
 对[[guo-2022-low-spin-wobbling-187au]] GU22-D23-012/021，#19/#21与h/f分量仍需全带符号振幅、BCS/radial及EM operators；这些不能由“两个h9主导”或“近degenerateh/f”补齐。B槽的counterexplanation保counts/levels/H/operator，再明确不同候选mapping及未用于定标的强度/连接预测。若另换势来强制exactPSS，已改变H；若仅label变换，也未产生一份独立物理解释。
 
 [[signature-partner-bands]]和[[187au-longitudinal-wobbling-controversy]]承接该边界，新needs_review:true；不由PSS名推出所有M1为0或相同，不恢复δ/W.u.硬门。
+
+## Day23：历史evaluation不能由archive日期或现代API代替
+
+[[sensharma-2020-longitudinal-wobbling-187au]] PT03-D23-001–003核2004/2009的同一Baglin2003 Ptrecord，94WU/260ps与现代102WU/240ps按版本分列；AU09-D23-001核2009 Au188WU/56ps到原1995RDM的依赖。官方archive是可复核的历史评价表达，不是另一份实验；字段相同也不补jointCov、producer或原primary。
+
+在声明的WU定义下只作乘法换单位，得到历史中央.59287与1.19426e²b²；不需要假装已闭合所有branch，也不由此新反演τ或生成CI。S20/thesis引用.84/1.44和1.49的映射仍缺，保持原字和actualβ不动。若以后更换EM尺度，那是operator/calibration改变，不应冒作B槽纯configuration重指派。
+
+Pt g2+=.27(3)另有相对192Pt .30(1)的TF参考链，适合作为进一步operator companion的原件入口，未获原primary前不移作oddAu gR或第三份选根证据。[[187au-longitudinal-wobbling-controversy]]保逐量来源及历史尺度边界，newneeds_review:true，不新增δ/Q/τ或机时。

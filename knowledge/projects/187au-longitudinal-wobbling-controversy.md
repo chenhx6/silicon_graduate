@@ -33,6 +33,9 @@ tags: [187au, longitudinal-wobbling, signature-partner, controversy, evidence-ma
 - 实际2022 Analysis书章的Band3门谱/版本对照见SE22-D23-001–005；总体Pt比不当峰纯度界，具体原Pt级联待核。
 - source模型β/参考core与多轨道算符迁移仍需冻结实际producer；[[signature-tip-shears-discrimination-contract]]保raw/相位/response输入边界，不作最终LW/SP终审。
 
+- Day23历史reference现已读到Baglin2003原归档94WU/260ps与Basunia2009 Au188WU/56ps，引用.84/1.44及1.49仍未映射；见PT03-D23-001–003/AU09-D23-001。
+- 新原RDM、共同HFB/CEA形状定义、AD黑点与未分辨误差/actualresponse边界见WA95/RG10/DL10/AU20-D23-7/8；这些均非新的独立采集或最终LW/SP认证。
+
 ## Research Question
 
 1. bands (1)/(2) 是否满足 `n_w=0/1` longitudinal-wobbling（LW）判据？
@@ -431,3 +434,15 @@ flowchart TD
 [[liang-2016-pseudospin-symmetry-review]] LIANG16-D23-001–003核standard2f7/2–1h9/2 PSS pair及其波函数/生成元条件。[[guo-2022-low-spin-wobbling-187au]] GU22-D23-012/021给实际Au#19/#21 h9主导mixedorbitals与h/f算符缺口；这套空间不能凭两个subshell名字自动通过PSS认证，Guo所称single-particle excitation也不自动等ordinarysignaturepartner。
 
 B槽只改configuration mapping时，应先声明是同intrinsicconfiguration的另一signature、同H的另一mixedorbital激发，还是另有可核的近似PSS；三者的H/算符映射及未定标EM预报不同。源已有counts/levels不变，形式命名不增加可信度，也不因可写PSS标签便补径向/BCS/phase/低分量。[[signature-partner-bands]]保量子数区分，新增needs_review:true，无新δ/Q/τ或机时。
+
+## Day23：历史参考尺度的版本缺口已具体化
+
+[[sensharma-2020-longitudinal-wobbling-187au]] PT03-D23-001–003/AU09-D23-001把原“只见现代API”的边界推进到2003Pt/2009Au的实际归档字段。
+
+| 目标与版本 | 实际时钟/强度字段 | 引用/模型仍缺的映射 |
+|---|---|---|
+| Baglin2003 Pt2+191.53 | T1/2=260(12)ps、94(5)WU，clock1972Fi12 | .84/1.44尚未由该目标记录闭合；不倒用2022的240ps/102WU |
+| Basunia2009 Au(13/2−)353.66→9/2− | 56(5)ps、188(17)WU、Qt6.08(.31)，原1995RDM | 原WalpeTableII1.18与后引1.49仍须归一/出处映射；不移作376/462母态τ |
+| Pt2+ g-reference | .27(3)相对192Pt2+ .30(1)，1996St12TF/IMPAC | actualoddAu g/operator未由它直接定标，原primary未读 |
+
+声明WU定义下的中央单位换算分别约.59287/1.19426e²b²，是字段对账而非新实验、重拟合或CI。归档日期、评价日期、采集日期分开；两Pt快照同一record不重复计票。该结果不补fullresponse或改变固定H/EM的B槽定义，也不取消既有支持链。新增needs_review:true。

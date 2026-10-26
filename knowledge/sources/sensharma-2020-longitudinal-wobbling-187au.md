@@ -258,3 +258,18 @@ p3确实用17角环和两run合并高统计作AD，并说效率、alignment、at
 | 7 | (657.8,42.0) | (1214.8,24.3) |
 
 五项hash/点数/局部定位/threshold稳定/角序控制通过，只核图像提取；没有对这些点做任何拟合。要进入共同实验likelihood仍需原角组净峰面积、误差/Cov、各组efficiency/归一及gate/response。像素敏感性不当实验CI，原条件大δ支持和新HIRFL小δ冲突均不因这一步被覆盖。新增needs_review:true，原审核flags不变。
+
+## Day23：官方历史归档中的实际参考尺度
+
+本节为外部ENSDF历史记录，不归为S20实验新测。由[ENSDF官方入口](https://www.nndc.bnl.gov/ensdf/)实际导航到[ENSDF Archives](https://www.nndc.bnl.gov/ensdfarchivals/)，再读其ui.js与[真实files.json](https://www.nndc.bnl.gov/ensdfarchivals/distributions/files.json)列出的下载路径。旧猜测/ensarch/实际404已剔，未把归档首页静态placeholder文件名/日期当已下载版本。
+
+实际取得[2004March archive](https://www.nndc.bnl.gov/ensdfarchivals/distributions/dist04/ensdf_0403_293.zip)，5162266bytes/SHA c7cf8128b252d1da5f49821696f9cddad036a4e0ffeefaec3c769c4e05306965，选member ENSDF.186 SHA7c17f7e98958cb9f6ae6f865f7c85f101947fd8c027fb92d85401a43ebba7067；[2009October archive](https://www.nndc.bnl.gov/ensdfarchivals/distributions/dist09/ensdf_0910_199.zip)，16442693bytes/SHA c702ed2120cec8ca1f6000764899de6fdd90d8ac19a4129f8bd6805001ee4f26，选ensdf.186 SHA61398f218e2223b7d0ae0bc8be48e42741b776059870182e8ca7ff981b76683e、ensdf.187 SHAa661d56dee52a4c1174328017ed494fa2423fa819367af4fd13df9e1f7d75cae。只定向读186Pt Adopted/186AuEC目标及187Au Adopted参考clock；未称完整质量链/NDS通读。两包仅tmp暂存，不执行内容、不写raw，正式归档deferred。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PT03-D23-001 | 两archive中的186Pt Adopted目标块逐行相同，header明确Coral M.Baglin、NDS99,1(2003)、CUT4-Apr-2003、200306。191.53(4)keV 2+母态T1/2=260(12)ps，191.53(4)γ为E2、αtot=.422、BE2W=94(5)。2004/2009是快照时间，不能当两次测量/两次新评价；现代2022字段240ps/102WU也不能倒写成这一历史版本。 | actual-historical-evaluation-version-and-target-fields | directly-read-official-archive | dist04ENSDF.186 anddist09ensdf.186, 186PTADOPTED H/L191.53/G191.53/BE2W | true |
+| PT03-D23-002 | 同版186AuEC(10.7m) dataset的191.53母态明确T来自1972Fi12，multipolarity另由1970Jo02转换subshell及1985Va07取向约束；目标g=.27(3)来自1996St12 transient-field IMPAC、相对192Pt2+的g=.30(1)。clock/EM身份/g的来源不同，不能把g直接填成oddAu的gR或把其参考标尺当独立再次测量。原1972/1996正文未读。 | historical-per-observable-provenance-and-operator-companion | directly-read-evaluated-record-not-primary | dist04ENSDF.186 186AUEC10.7m L191.53 cL T/gcomments | true |
+| PT03-D23-003 | 在声明的Weisskopf定义r0=1.2fm、B_W(E2)=(1/4π)(3/5)²R⁴和1b²=10⁴fm⁴下，历史94WU中央仅作单位换算约.59287e²b²。它未闭合S20引用.84或thesis引用1.44的具体映射；不能因找到2003archive就默称那两个数已核实，也不据差异改actualβ或宣布模式错误。无新τ反演/branch假设/CI。 | conditional-unit-crosscheck-and-quoted-scale-nonclosure | declared-unit-arithmetic-on-historical-field | PT03-D23-001 BE2W; S20printed052501-4 referenceBparagraph; SE21printed128 | true |
+| AU09-D23-001 | 2009archive的187Au Adopted为Basunia NDS110,999(2009)、CUT1-Nov-2008；L353.66(13/2−)列56(5)ps、Qt6.08(.31)eb，G233.4 E2/αtot.224、BE2W188(17)，header明确T取1995Wa18RDM。按同WU定义188中央约1.19426e²b²，与已读Walpe原TableII1.18(.12)沿同测量谱系，非新独立一致性确认；S20引1.49仍未闭合。2004archive的Au则是1991旧评价，不能以其不含后来的RDMclock判测量不存在。 | historical-Au-clock-and-scale-lineage | directly-read-official-archive-and-primary-comparison | dist09ensdf.187 187AUADOPTED H/cL T/L353.66/G233.4; Walpeprinted282TableII | true |
+
+本次“旧Baglin2003实际字段尚未取得”的缺口已缩小到具体archive记录，仍未读完整NDS原刊或1972/1996primary response。NSR1996ST12已核身份为A.E.Stuchbery et al., *Measured Magnetic Moments and Shape Coexistence in the Neutron-Deficient Nuclei184,186,188Pt*, PRL76,2246(1996)，DOI10.1103/PhysRevLett.76.2246；这里只作下一原件入口，不拿题名推M1/shape终审。历史94WU与现代102WU都是评价派生的强度字段，同源clock/ICC不能另乘一次likelihood，也不恢复任何WU硬门或旧88倍论证。新增needs_review:true，原reviewflags与源引用原字保留。

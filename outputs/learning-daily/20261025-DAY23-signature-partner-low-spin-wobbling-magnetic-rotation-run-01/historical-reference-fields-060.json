@@ -1,0 +1,53 @@
+{
+  "scope": "actual archive field crosscheck and declared Weisskopf unit conversion, no lifetime/branch inversion or newmeasurement",
+  "Pt2003_archived_in": [
+    "2004March",
+    "2009October"
+  ],
+  "Pt_record_identical": true,
+  "selected_block_hashes": {
+    "tmp/day23-originals/archive060-2004-pt186-adopted.ens": "beb61bccdb1f2632c18bc3c4cf4740b6e68bcda91baf57a46d6bd02fb1de48e7",
+    "tmp/day23-originals/archive060-2009-pt186-adopted.ens": "beb61bccdb1f2632c18bc3c4cf4740b6e68bcda91baf57a46d6bd02fb1de48e7",
+    "tmp/day23-originals/archive060-2009-au187-adopted.ens": "3274699970852544d6c798f99f0c978efb5e4596139fca4a5b61fd3eea67b86f",
+    "tmp/day23-originals/archive060-2004-pt186-auEC.ens": "a7793d1105d4f33d67d6133dc8343e08b6625a3cff666c3bacaaacc8d2a20364"
+  },
+  "literal_targets": [
+    {
+      "nuclide": "186Pt",
+      "evaluation": "Baglin2003/NDS99,1/cut4Apr2003",
+      "parent_E_keV": "191.53(4)",
+      "Jpi": "2+",
+      "gamma_E_keV": "191.53(4)",
+      "T_half_ps": "260(12)",
+      "alpha_total": "0.422",
+      "BE2W": "94(5)",
+      "clock_source": "1972Fi12 via186AuEC10.7m dataset",
+      "g_factor": "0.27(3) relativeg192Pt2+=0.30(1),1996St12TF/IMPAC",
+      "B_E2_central_in_e2b2_under_declared_WU": 0.592874448253209
+    },
+    {
+      "nuclide": "187Au",
+      "evaluation": "Basunia2009/NDS110,999/cut1Nov2008",
+      "parent_E_keV": "353.66(15)",
+      "Jpi": "(13/2−)",
+      "gamma_E_keV": "233.4(2)",
+      "T_half_ps": "56(5)",
+      "alpha_total": "0.224",
+      "BE2W": "188(17)",
+      "clock_source": "1995Wa18RDM",
+      "B_E2_central_in_e2b2_under_declared_WU": 1.194256495997026
+    }
+  ],
+  "WU_definition": "B_W(E2)=(1/4pi)(3/5)^2*(1.2 A^(1/3)fm)^4,1b²=1e4fm⁴; linearunit arithmetic only",
+  "unresolved": [
+    "S20Pt.84 andthesis1.44 notcertifiedbythese targetfields",
+    "S20Au1.49 notmappedto188WU/rawWalpe1.18",
+    "oldsourcefullprimaryresponse/Cov notobtained"
+  ],
+  "limits": [
+    "two snapshots sameevaluation notnewexperiment",
+    "2004Auadopted is1991olderversion, not1995RDMclockabsenceproof",
+    "gcorecalibration notactualoddAu g/operator validation",
+    "do notmodifycitednumbers/β actualproducer fromfielddifference"
+  ]
+}
