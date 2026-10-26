@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-26T01:27:09.031805+00:00",
+  "scope": "Day23 core-shape input semantics along actual RG2010Ref87; public Delaroche2010 5DCH source, noDay25",
+  "hypothesis_to_test": "static HFBminimum gamma and correlatedcollective meangamma differ in definition; do actual186Pt tablevalues close23 and12?",
+  "not_assumed": [
+    "dynamicmean23 actual186Pt",
+    "S20actualsourceorproducerusesDelaroche",
+    "guaranteedbothvaluesareequivalent"
+  ],
+  "source": "10.1103/PhysRevC.81.014303 arxiv0910.2940v2 actual53pages",
+  "readiness": "source definitions/body actualread inprogress; CEA/APSSupp accesspending, no valuefabrication",
+  "prediction_requirements": [
+    "identify tableheaders/statisticalquantity andexactZ78N108 row",
+    "if unavailable keep genericdefinition distinction and explicittargetinputgap",
+    "no fullreproduction of original5DCH/PRM/QTR"
+  ],
+  "prohibited": [
+    "mass/potential/EMgamma identity assumption",
+    "modelvalues upgradedtomeasuredshape",
+    "newAuδ/tau/Q/CI orbeamtime",
+    "newdaycardcredit/114producers/rawmutation"
+  ],
+  "bounded_exercise": {
+    "type": "moment information counterexample, not actual eigenstate or configuration alternative",
+    "source_inputs_literal_model": {
+      "gamma_mean_degrees": 20,
+      "delta_gamma_rms_degrees": 11,
+      "support_degrees": [
+        0,
+        60
+      ]
+    },
+    "additional_conditions": "exact printed central modelmoments, constantbeta ifrelatingcos3gamma to a normalized quadrupole invariant; no actual jointbetagammadistribution",
+    "two_point_construction": "x=mu−a, y=mu+b; ab=sigma²; weights b/(a+b),a/(a+b)",
+    "cases_a_degrees": [
+      11,
+      20,
+      3.025
+    ],
+    "outputs": [
+      "probabilities and mean/variance",
+      "Ecos3gamma compared to cos(3Egamma)",
+      "noexperimental gamma/CI or fullchargeinvariant"
+    ],
+    "checks": [
+      "support/positive/normalization",
+      "analytic mean and secondmoment",
+      "symmetriccosidentity",
+      "zero width limit",
+      "fixedmoments but unequal nonlinear expectation"
+    ],
+    "prohibited": "not a pair of sameH eigenstates, not actualPt distribution, not clinicalCI or measuredshape; no replacement of S20gamma23"
+  }
+}

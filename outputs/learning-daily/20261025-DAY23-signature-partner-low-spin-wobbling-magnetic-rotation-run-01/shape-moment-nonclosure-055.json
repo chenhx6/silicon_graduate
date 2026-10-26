@@ -1,0 +1,86 @@
+{
+  "scope": "moment information counterexample, not actual eigenstate or configuration alternative",
+  "inputs": {
+    "type": "moment information counterexample, not actual eigenstate or configuration alternative",
+    "source_inputs_literal_model": {
+      "gamma_mean_degrees": 20,
+      "delta_gamma_rms_degrees": 11,
+      "support_degrees": [
+        0,
+        60
+      ]
+    },
+    "additional_conditions": "exact printed central modelmoments, constantbeta ifrelatingcos3gamma to a normalized quadrupole invariant; no actual jointbetagammadistribution",
+    "two_point_construction": "x=mu−a, y=mu+b; ab=sigma²; weights b/(a+b),a/(a+b)",
+    "cases_a_degrees": [
+      11,
+      20,
+      3.025
+    ],
+    "outputs": [
+      "probabilities and mean/variance",
+      "Ecos3gamma compared to cos(3Egamma)",
+      "noexperimental gamma/CI or fullchargeinvariant"
+    ],
+    "checks": [
+      "support/positive/normalization",
+      "analytic mean and secondmoment",
+      "symmetriccosidentity",
+      "zero width limit",
+      "fixedmoments but unequal nonlinear expectation"
+    ],
+    "prohibited": "not a pair of sameH eigenstates, not actualPt distribution, not clinicalCI or measuredshape; no replacement of S20gamma23"
+  },
+  "rows": [
+    {
+      "support_degrees": [
+        9,
+        31.0
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "mean": 20.0,
+      "variance": 121.0,
+      "mean_cos3gamma": 0.419335283972712
+    },
+    {
+      "support_degrees": [
+        0,
+        26.05
+      ],
+      "weights": [
+        0.23224568138195775,
+        0.7677543186180422
+      ],
+      "mean": 20.0,
+      "variance": 121.0,
+      "mean_cos3gamma": 0.38990418181248654
+    },
+    {
+      "support_degrees": [
+        16.975,
+        60.0
+      ],
+      "weights": [
+        0.9296920395119117,
+        0.07030796048808832
+      ],
+      "mean": 20.0,
+      "variance": 121.0,
+      "mean_cos3gamma": 0.5157114545332765
+    }
+  ],
+  "cos_of_three_times_mean": 0.5000000000000001,
+  "symmetric_analytic": 0.41933528397271214,
+  "max_moment_residual": 0.0,
+  "controls": {
+    "positive_probabilities_on_domain": true,
+    "moment_constraints": true,
+    "symmetric_cos_identity": true,
+    "nonlinear_nonuniqueness": true
+  },
+  "interpretation": "No given state distribution, CI, measuredshape, or pair of sameH eigenstates. Nonlinear EM invariants require the actual jointbeta,gamma state; literal source moments alone do not supply it.",
+  "all_controls_pass": true
+}

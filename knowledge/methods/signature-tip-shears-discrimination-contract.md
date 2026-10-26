@@ -741,3 +741,11 @@ WA95-D23-002/004同时给真正clock的角色：τ81.3ps是原RDM的Au13/2−母
 [[guo-2022-low-spin-wobbling-187au]] GU22-D23-022–024定位到原Rupnik1994thesis的明确机构item/DOI与1995/1998家族，但单篇PDF尚403。可恢复的检索身份缩小了“缺哪一件输入”，并未提供conversion原表、efficiency/归一或eventledger。外部元数据中的application/pdf、摘要的h/f模型解释和同作者论文数，都不能越过到共同likelihood/独立实验证据。
 
 因此A槽保“旧αK已从评价明确归属，原谱/误差仍待”，B槽保“混合configuration可写，实际相干operator/未定标输出仍缺”。身份核验是实际进展；形式可行不推两配置等可信，也不提前裁定Pr大根/小根或Au模式。[[187au-longitudinal-wobbling-controversy]]保持对应readiness，新needs_review:true。
+
+## Day23：形状minimum、mean与width不能替代共同响应输入
+
+[[sensharma-2020-longitudinal-wobbling-187au]] DL10-D23-001–004以真实作者表说明同一个γ字样背后有不同对象：186Ptminimum15°、collective mean20°、模型RMS宽11°，并不等于23°已获实验误差支持。原5DCH仅even-even低能J≤6/nearzeroω且无2qp，不能绕过oddAu的configuration/operator输入；它的表ECORR与原Eq15反号、B栏的单位/版本不闭合也须先对账。
+
+DL10-D23-005给一个确定性反例：mean20/variance121、support0–60的三组正分布具有〈cos3γ〉=.419335/.389904/.515711，而cos(3mean)=.5。只在β固定的声明控制下比较这一非线性项；真实三阶charge信息还需β³与γ的联合分布及电磁矩阵元。不能把某个mean当唯一rigidγ，不能把modelwidth当CI，也不能把人工分布说成同H配置候选。
+
+A槽应记录每篇模型的shape quantity、单位/约定和actual输入版本；B槽冻结这些后才改变组态映射，并预先列未定标量。若换static为5D软芯、改inertia或更换functional，须记为H变化。[[187au-longitudinal-wobbling-controversy]]新增谱系图保共享理论来源和原时钟依赖，needs_review:true，无新物理δ/Q/τ或机时。

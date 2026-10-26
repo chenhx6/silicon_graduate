@@ -217,3 +217,21 @@ p3确实用17角环和两run合并高统计作AD，并说效率、alignment、at
 | RG10-D23-003 | 原文将184–196Pt的三轴区域描述为γ-soft，强调static meanfield不足以定量预测能谱/约化跃迁，需symmetry restoration和β/γfluctuations；原selfconsistent cranking MoI普遍高估实验，作者联系meanfield pairing不足。本原件不提供两篇Au具体PRM/QTR的完整H/operator或新绝对B(E2)，亦不由coreminimum唯一认证oddAu模式。 | external-original-author-limit-and-transfer-boundary | directly-read-theory | RG2010 PDF10Fig6discussion; PDF11–12 beyondmeanfield paragraph; PDF16Conclusions | true |
 
 本次使“原Au寿命source尚未读”缩小为：Walpe短文原表和setup已读，LIFETIME原code/input、逐distance Au spectra、fullfeeding/ICC/branch/errorCov及历史评价到1.49的映射仍未取得。B=1.18的原实验支持既有h9/2带的集体E2尺度；它不是争议激发母态的τ，也不由这一个尺度裁决δ根。对186Pt历史.84/1.44也未以现代API.64替代。新增needs_review:true，旧sourceflags不变。
+
+## Day23：外部5DCH原件与core形状的三个统计对象
+
+沿RG2010原Ref87继续读J.-P.Delaroche et al.，*Structure of even-even nuclei using a mapped collective Hamiltonian and the D1S Gogny interaction*，PRC81,014303(2010)，DOI[10.1103/PhysRevC.81.014303](https://doi.org/10.1103/PhysRevC.81.014303)，[arXiv0910.2940v2](https://arxiv.org/abs/0910.2940v2)。实际PDF为53页（metadata comment写51页），2239596bytes，SHA256 0f83fdd2af1934daad5f9524e87e53e5636d6f14753006724b5c893bb7c7d82d，tmp/day23-originals/delaroche-5dch055.pdf；全主线/公式/图caption/内表/refs文字已读，fresh视觉核PDF6/8/9/11/15/18/48。未复现原HFB/5DCH或声称这是S20实际producer。
+
+原Ref1的CEA入口先返回HTML meta-refresh；真正跟到[作者数据表](https://www-phynu.cea.fr/science_en_ligne/carte_potentiels_microscopiques/tables/HFB-5DCH-table.htm)以及其链接[HFB-5DCH-table-2009.txt](https://www-phynu.cea.fr/science_en_ligne/carte_potentiels_microscopiques/tables/HFB-5DCH-table-2009.txt)，均实际200取得，另核英文tooltip；不是把入口200当数据已得。HTML与text为同一表的两种表示，不是独立计算。原件/表仅tmp公开暂存，正式raw归档deferred。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| DL10-D23-001 | 原CHFB+5DCH在GognyD1S的CHFB网格上构建集体Hamiltonian；转动MoI用ω=.002MeV附近的自洽响应，振动mass用cranking近似、缺动态重排，ZPE亦有明列截断。原适用域为even-even低能J≤6、near-zero-frequency参数且无2及更多qp激发；“无额外effectivecharge”不等无functional定标或可直接预测oddAu全部带。 | external-original-model-input-and-domain | directly-read-theory | DL2010 PDF5–6 scope; PDF8–10 Eqs7–14 | true |
+| DL10-D23-002 | 原Eq16定义δβ/δγ为sqrt variance，γ均值/二阶矩在0<γ<π/3的sextant上取。HFBminimum、集体波函数mean和该物理分布的RMS宽度为三个对象；宽度不是实验误差或parameterCI。原Eq13/14的EM矩阵元还需完整集体振幅/局部charge矩阵元，不能只由meanβ/γ给出。 | external-original-shape-statistics-and-EM-definition | directly-read-theory | DL2010 PDF10 Eqs13/14; PDF11 Eq16; PDF17–18 Figs3/4discussion | true |
+| DL10-D23-003 | 实际CEA表Z=78,N=108列BMIN=.249/GMIN=15°、BET01=.245/GAM01=20°、DELB01=.053/DELG01=11°。HTML与链接text的完整35字段相同；这是该表的模型预测，非186Pt新测shape、误差条或Au实测γ。它既不是RG2010另一个producer的逐点重现，也没有给S20的23°取值映射；不从20±11把23说成实验CI内已验证。 | external-authored-model-table | directly-read-literal-model-data | CEA HFB-5DCH-table-2009 row Z78 N108 columns4/5/11–14 | true |
+| DL10-D23-004 | 该CEA行EHFB=−1472.636、EABS=−1477.107、ECORR=−4.471MeV，字面ECORR=EABS−EHFB，与paperEq15的EHFB−E5DCH反号；可明确对应记号，不因表为负就判非物理。B列tooltip字面e²b²而数值为thousands；paperTableI明确e²fm⁴且Sm152第一B为6671，现CEA62/90同列6736.10不精确相同，故unit/版本映射须保留，未自动输出Pt新physicalB或认证table完全重现paper。 | external-table-sign-unit-and-version-boundary | actual-table-and-original-comparison | CEA Z78 N108 columns3/9/10; CEA Z62 N90 column24; DL2010 PDF10Eq15/PDF15TableI | true |
+| DL10-D23-005 | 以该表meanγ=20°、RMS宽11°仅作精确打印值的条件信息练习，固定β时三组正分布都可有相同前两矩，却给〈cos3γ〉约.419335/.389904/.515711，不等由mean单独算的cos60°=.5。因此mean/宽度不足以补非线性形状/EM输入；这些是人工概率构造，不是三组真实Pt波函数、同H本征态或configuration解释，也不裁决Au模式。 | Codex-source-motivated-moment-counterexample | declared-conditional-math | DL2010 PDF11Eq16; CEA Z78 N108 GAM01/DELG01; stated two-point construction below | true |
+
+条件构造可直接复算：μ=20、σ=11，取x=μ−a、y=μ+b、ab=σ²，权重p_x=b/(a+b)、p_y=a/(a+b)。a=11给(9°,31°)、(.5,.5)；a=20给(0°,26.05°)、(.23224568,.76775432)；a=121/40给(16.975°,60°)、(.92969204,.07030796)。均落在同sextant、mean20/variance121；对称例的〈cos3γ〉=cos(3μ)cos(3σ)提供独立解析核对。这里未恢复实际P(β,γ)、β³–cos3γ相关或charge tensor，不能把结果填成有效实验γ/CI。
+
+本次supports将staticminimum与动态mean/宽度分别记账，limits“同名Gogny/γ即同输入”的快捷比较。作者原文对非yrast0+与部分跨带E2/E0失败、2qp缺失和inertia改进也明确，不能将全局平均模型符合度用于本Au具体δ的独立证明。新增needs_review:true，原S20 flags与LW/SP争议保留。

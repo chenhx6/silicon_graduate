@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-26T01:43:23.543510+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "Delaroche2010原53页/CEA186Pt实表分static15/mean20/width11；同矩不同cos3反例，23°映射仍缺",
+  "next_route": "继续原两槽：Au历史core尺度/原PRM算符或Pr/Au未定标configuration预测；不重复已饱和retrieval、不打开Day25",
+  "missing_inputs": [
+    "actualS20 gamma23 extraction/version and charge/potentialgamma mapping",
+    "fullPr/Au H/operator/mixing and trueheldoutobservables",
+    "originalhistoricalconversionbody/response and originalclockfeedingCov"
+  ],
+  "Day25_opened": false
+}

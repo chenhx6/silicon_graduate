@@ -402,3 +402,20 @@ B槽下一检验仍须保持实测核素/计数/能级不变，固定完整opera
 [[guo-2022-low-spin-wobbling-187au]] GU22-D23-022–024给Rupnik1994论文的LSU5753/DOI10.31390/gradschool_disstheses.5753、1995/1998NSR身份和真实正文403边界。机构摘要确认Hg→Au，不靠Guo的Ag字面赋真实母核；但无逐母态spin/selection或target转换表，不能把非观察变成排他证据。
 
 谱系图中该thesis只能作为已有Rupnik研究家族的文献节点，不能新增独立采集票或称conversion原件已读。原计数/能级不变的configuration方案仍需完整混合振幅、径向/BCS/EM输入及未定标检验量；摘要提h/f混合不补这些缺口。新增needs_review:true，不改已测δ、外标B或原sourceflags。
+
+## Day23：定标谱系图补入实际原件与动态形状边界
+
+下图只表示文献/输入关系，非新增采集计票。数值与locator见[[sensharma-2020-longitudinal-wobbling-187au]] WA95-D23-001–004、RG10-D23-001–003、DL10-D23-001–005；[[guo-2022-low-spin-wobbling-187au]]保376/462本次新观测及历史转换来源。
+
+```mermaid
+flowchart TD
+    RDM["Walpe1995 RDM: yrast13/2 clock, B1.18"] --> EV["Basunia评价: 同源56ps/Qt6.08"]
+    EV -. "引1.49的具体映射待核" .-> S20["S20 PRM: beta.23 gamma23; 引用尺度定标"]
+    RG["RG2010: massPES; 186Pt gamma图读10–15"] --> G22["Guo QTR: epsilon.21 gamma12"]
+    RG -. "共同引用; 23取值映射待核" .-> S20
+    DL["Delaroche2010/CEA: min15, mean20, RMS11"] --> DEF["static / mean / width分别记账"]
+    DEF -. "不建立23来源, 不改actualproducer" .-> S20
+    RDM --> SCALE["已有yrast绝对E2尺度; 非争议母态tau"]
+```
+
+两个模型H/operator输入尚未一致，改变core的γ分布或惯量本身会改变H，不能冒充B槽只改configuration assignment的反证。仅mean20/宽11不能补完整EM：三组条件正分布同矩而〈cos3γ〉不同，既不构成actualPt替代态，也不赋解释同等可信。下一最直接输入仍是原PRM/QTR的取值版本、完整振幅/算符与未用于定标的母态/连接检验。新增needs_review:true，无新Auδ/τ/Q或机时。

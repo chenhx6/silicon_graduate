@@ -1,0 +1,310 @@
+{
+  "scope": "actual authored CEA HTML/linkedtext selectedrows, not independent data or original5DCHproducer",
+  "headers": [
+    {
+      "label": "Z",
+      "tooltip": "Nombre de protons"
+    },
+    {
+      "label": "N",
+      "tooltip": "Nombre de neutrons"
+    },
+    {
+      "label": "E HFB",
+      "tooltip": "Minimum de l'énergie HFB (MeV)"
+    },
+    {
+      "label": "β MIN",
+      "tooltip": "Déformation β au minimum de l'énergie HFB"
+    },
+    {
+      "label": "γ MIN",
+      "tooltip": "Déformation γ (degré) au minimum de l'énergie HFB"
+    },
+    {
+      "label": "R C (HFB)",
+      "tooltip": "Rayon de charge (fm) au minimum de l'énergie HFB"
+    },
+    {
+      "label": "R P (HFB)",
+      "tooltip": "Rayon proton (fm) au minimum de l'énergie HFB"
+    },
+    {
+      "label": "R N (HFB)",
+      "tooltip": "Rayon neutron (fm) au minimum de l'énergie HFB"
+    },
+    {
+      "label": "E ABS",
+      "tooltip": "Energie CHFB+5DCH du fondamental (MeV)"
+    },
+    {
+      "label": "E CORR",
+      "tooltip": "Energie de corrélation (MeV)"
+    },
+    {
+      "label": "β 01",
+      "tooltip": "Déformation β moyenne du fondamental"
+    },
+    {
+      "label": "γ 01",
+      "tooltip": "Déformation γ moyenne (degré) du fondamental"
+    },
+    {
+      "label": "δβ 01",
+      "tooltip": "Variance de la déformation β du fondamental"
+    },
+    {
+      "label": "δγ 01",
+      "tooltip": "Variance de la déformation γ (degré) du fondamental"
+    },
+    {
+      "label": "E(2 + 1 )",
+      "tooltip": "Energie de l'état yrast 2+ (MeV)"
+    },
+    {
+      "label": "E(4 + 1 )",
+      "tooltip": "Energie de l'état yrast 4+ (MeV)"
+    },
+    {
+      "label": "E(6 + 1 )",
+      "tooltip": "Energie de l'état yrast 6+ (MeV)"
+    },
+    {
+      "label": "E(0 + 2 )",
+      "tooltip": "Energie du premier état excité 0+ (MeV)"
+    },
+    {
+      "label": "E(2 + 2 )",
+      "tooltip": "Energie du second état excité 2+ (MeV)"
+    },
+    {
+      "label": "E(2 + 3 )",
+      "tooltip": "Energie du troisème état excité 2+ (MeV)"
+    },
+    {
+      "label": "P(K=0,2_1)",
+      "tooltip": "P(K=0) pour l'état yrast 2+ (%)"
+    },
+    {
+      "label": "P(K=2,2_2)",
+      "tooltip": "P(K=2) pour le deuxième état 2+ (%)"
+    },
+    {
+      "label": "P(K=2,2_3)",
+      "tooltip": "P(K=2) pour le troisième état 2+ (%)"
+    },
+    {
+      "label": "B(E2;2_1-0_1)",
+      "tooltip": "B(E2,2+1 --> 0+1) (e**2 b**2)"
+    },
+    {
+      "label": "B(E2;2_3-0_1)",
+      "tooltip": "B(E2,2+3 --> 0+1) (e**2 b**2)"
+    },
+    {
+      "label": "B(E2;2_1-0_2)",
+      "tooltip": "B(E2,2+1 --> 0+2) (e**2 b**2)"
+    },
+    {
+      "label": "B(E2;4_1-2_1)",
+      "tooltip": "B(E2,4+1 --> 2+1) (e**2 b**2)"
+    },
+    {
+      "label": "B(E2;2_3-2_1)",
+      "tooltip": "B(E2,2+3 --> 2+1) (e**2 b**2)"
+    },
+    {
+      "label": "B(E2;2_3-0_2)",
+      "tooltip": "B(E2,2+3 --> 0+2) (e**2 b**2)"
+    },
+    {
+      "label": "RC5DCH",
+      "tooltip": "Rayon de charge CHFB+5DCH (fm)"
+    },
+    {
+      "label": "RP5DCH",
+      "tooltip": "Rayon proton CHFB+5DCH (fm)"
+    },
+    {
+      "label": "RN5DCH",
+      "tooltip": "Rayon neutron CHFB+5DCH (fm)"
+    },
+    {
+      "label": "ROE0TH",
+      "tooltip": "Carré de l'élément de matrice (CHFB+5DCH) de transition E0"
+    },
+    {
+      "label": "NMIN",
+      "tooltip": "Nombre de neutron à la drip-line proton 5DCH (à Z donné)"
+    },
+    {
+      "label": "NMAX",
+      "tooltip": "Nombre de neutron à la drip-line neutron 5DCH (à Z donné)"
+    }
+  ],
+  "html_rows": {
+    "62,90": [
+      "62",
+      "90",
+      "-1247.807",
+      "0.273",
+      "0.",
+      "5.06",
+      "5.02",
+      "5.12",
+      "-1251.524",
+      "-3.717",
+      "0.306",
+      "13.",
+      "0.065",
+      "8.",
+      "0.123",
+      "0.370",
+      "0.725",
+      "0.937",
+      "1.114",
+      "1.260",
+      "1.00",
+      "0.29",
+      "0.71",
+      "0.673610E+04",
+      "0.429101E+03",
+      "0.523907E+03",
+      "0.102780E+05",
+      "0.117158E+03",
+      "0.111702E+04",
+      "5.08",
+      "5.04",
+      "5.15",
+      "0.477E+00",
+      "66",
+      "124"
+    ],
+    "78,108": [
+      "78",
+      "108",
+      "-1472.636",
+      "0.249",
+      "15.",
+      "5.41",
+      "5.38",
+      "5.45",
+      "-1477.107",
+      "-4.471",
+      "0.245",
+      "20.",
+      "0.053",
+      "11.",
+      "0.177",
+      "0.484",
+      "0.907",
+      "0.951",
+      "0.611",
+      "1.247",
+      "0.98",
+      "0.96",
+      "0.16",
+      "0.889990E+04",
+      "0.221592E+03",
+      "0.841701E+03",
+      "0.140016E+05",
+      "0.348934E+03",
+      "0.848664E+04",
+      "5.42",
+      "5.38",
+      "5.45",
+      "0.470E+00",
+      "90",
+      "180"
+    ]
+  },
+  "text_rows": {
+    "62,90": [
+      "62",
+      "90",
+      "-1247.807",
+      "0.273",
+      "0.",
+      "5.06",
+      "5.02",
+      "5.12",
+      "-1251.524",
+      "-3.717",
+      "0.306",
+      "13.",
+      "0.065",
+      "8.",
+      "0.123",
+      "0.370",
+      "0.725",
+      "0.937",
+      "1.114",
+      "1.260",
+      "1.00",
+      "0.29",
+      "0.71",
+      "0.673610E+04",
+      "0.429101E+03",
+      "0.523907E+03",
+      "0.102780E+05",
+      "0.117158E+03",
+      "0.111702E+04",
+      "5.08",
+      "5.04",
+      "5.15",
+      "0.477E+00",
+      "66",
+      "124"
+    ],
+    "78,108": [
+      "78",
+      "108",
+      "-1472.636",
+      "0.249",
+      "15.",
+      "5.41",
+      "5.38",
+      "5.45",
+      "-1477.107",
+      "-4.471",
+      "0.245",
+      "20.",
+      "0.053",
+      "11.",
+      "0.177",
+      "0.484",
+      "0.907",
+      "0.951",
+      "0.611",
+      "1.247",
+      "0.98",
+      "0.96",
+      "0.16",
+      "0.889990E+04",
+      "0.221592E+03",
+      "0.841701E+03",
+      "0.140016E+05",
+      "0.348934E+03",
+      "0.848664E+04",
+      "5.42",
+      "5.38",
+      "5.45",
+      "0.470E+00",
+      "90",
+      "180"
+    ]
+  },
+  "same_representations": true,
+  "text_encoding": "Latin1; firststrictUTF8 readfailed, preservedbytes unchanged",
+  "hashes": {
+    "au-shape055-cea-actual-table.html": "0553f76e3614fd0be95a3897166cab7d2818a60d70addf23369a6b09724202f7",
+    "au-shape055-cea-table2009.txt": "c93a92ebb366dc8e2c15aca6ee5ea9b4439a8e859b2b17f075ed522bc35ccfc8",
+    "au-shape055-cea-eng.html": "cd1c4046c93570e0f0ec8683980f564d344c7d70008bd53707a986e9e967abc5"
+  },
+  "observed_boundary": [
+    "HTML/text Btooltip says e2b2 whereas literal values arethousands; paperTableI e2fm4 and currentSmrownotexactlypaperTableI",
+    "tableECORR=EABS−EHFB, oppositearticleEq15 sign; do not call it unphysicalnegativecorr",
+    "source momentwidthsarequantum/modeldistribution notexperimentalCI",
+    "Pt row min15/mean20 neitherestablishesS20gamma23mapping"
+  ]
+}

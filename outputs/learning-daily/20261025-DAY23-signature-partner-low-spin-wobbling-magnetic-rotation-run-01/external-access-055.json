@@ -1,0 +1,58 @@
+{
+  "source": {
+    "url": "https://arxiv.org/pdf/0910.2940v2",
+    "status": 200,
+    "bytes": 2239596,
+    "sha256": "0f83fdd2af1934daad5f9524e87e53e5636d6f14753006724b5c893bb7c7d82d",
+    "pages": 53
+  },
+  "initial_access": [
+    {
+      "name": "cea-table",
+      "url": "https://www-phynu.cea.fr/HFB-5DCH-table.htm",
+      "status": 200,
+      "final_url": "https://www-phynu.cea.fr/HFB-5DCH-table.htm",
+      "bytes": 668,
+      "path": "tmp/day23-originals/au-shape055-cea-table.html",
+      "sha256": "60d498d531bc50571144edd3978cad008a4a03bf536f1b395afa324719802075"
+    },
+    {
+      "name": "cea-table-http",
+      "url": "http://www-phynu.cea.fr/HFB-5DCH-table.htm",
+      "status": 200,
+      "final_url": "https://www-phynu.cea.fr/HFB-5DCH-table.htm",
+      "bytes": 668,
+      "path": "tmp/day23-originals/au-shape055-cea-table-http.html",
+      "sha256": "60d498d531bc50571144edd3978cad008a4a03bf536f1b395afa324719802075"
+    },
+    {
+      "name": "aps-supp-page",
+      "url": "https://journals.aps.org/prc/supplemental/10.1103/PhysRevC.81.014303",
+      "status": 403,
+      "final_url": "https://journals.aps.org/prc/supplemental/10.1103/PhysRevC.81.014303",
+      "bytes": 5589,
+      "path": "tmp/day23-originals/au-shape055-aps-supp-page.html",
+      "sha256": "c4fcd80a34a60b6be75b7d91203e5b3163c749689c15980daf5e76a40801a7a3"
+    }
+  ],
+  "actual_CEA_HTML": {
+    "url": "https://www-phynu.cea.fr/science_en_ligne/carte_potentiels_microscopiques/tables/HFB-5DCH-table.htm",
+    "status": 200,
+    "bytes": 1253172,
+    "path": "tmp/day23-originals/au-shape055-cea-actual-table.html",
+    "sha256": "0553f76e3614fd0be95a3897166cab7d2818a60d70addf23369a6b09724202f7"
+  },
+  "linked_text": {
+    "url": "https://www-phynu.cea.fr/science_en_ligne/carte_potentiels_microscopiques/tables/HFB-5DCH-table-2009.txt",
+    "status": 200,
+    "bytes": 688176,
+    "path": "tmp/day23-originals/au-shape055-cea-table2009.txt",
+    "sha256": "c93a92ebb366dc8e2c15aca6ee5ea9b4439a8e859b2b17f075ed522bc35ccfc8"
+  },
+  "english_HTML": {
+    "path": "tmp/day23-originals/au-shape055-cea-eng.html",
+    "sha256": "cd1c4046c93570e0f0ec8683980f564d344c7d70008bd53707a986e9e967abc5"
+  },
+  "raw_archive": "deferred",
+  "originalProducer": "notobtained/replayed"
+}
