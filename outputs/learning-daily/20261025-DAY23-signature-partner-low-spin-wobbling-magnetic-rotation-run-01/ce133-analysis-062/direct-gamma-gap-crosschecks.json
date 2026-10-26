@@ -1,0 +1,138 @@
+{
+  "rows": [
+    {
+      "row_id": "B1-S13of2",
+      "source_edges": [
+        "T5.1-r01",
+        "T5.1-r02",
+        "T5.1-r04"
+      ],
+      "gamma_gap_S_keV": 182.1,
+      "level_combination_S_keV": 182.1,
+      "difference_keV": 0.0
+    },
+    {
+      "row_id": "B1-S15of2",
+      "source_edges": [
+        "T5.1-r02",
+        "T5.1-r04",
+        "T5.1-r06"
+      ],
+      "gamma_gap_S_keV": -216.15,
+      "level_combination_S_keV": -216.15,
+      "difference_keV": 0.0
+    },
+    {
+      "row_id": "B1-S17of2",
+      "source_edges": [
+        "T5.1-r04",
+        "T5.1-r06",
+        "T5.1-r08"
+      ],
+      "gamma_gap_S_keV": 277.3,
+      "level_combination_S_keV": 277.3,
+      "difference_keV": 0.0
+    },
+    {
+      "row_id": "B1-S19of2",
+      "source_edges": [
+        "T5.1-r06",
+        "T5.1-r08",
+        "T5.1-r10"
+      ],
+      "gamma_gap_S_keV": -318.6,
+      "level_combination_S_keV": -318.6,
+      "difference_keV": 0.0
+    },
+    {
+      "row_id": "B1-S21of2",
+      "source_edges": [
+        "T5.1-r08",
+        "T5.1-r10",
+        "T5.1-r12"
+      ],
+      "gamma_gap_S_keV": 345.25,
+      "level_combination_S_keV": 345.25,
+      "difference_keV": 0.0
+    },
+    {
+      "row_id": "B1-S23of2",
+      "source_edges": [
+        "T5.1-r10",
+        "T5.1-r12",
+        "T5.1-r14"
+      ],
+      "gamma_gap_S_keV": -342.5,
+      "level_combination_S_keV": -342.5,
+      "difference_keV": 0.0
+    },
+    {
+      "row_id": "B1-S25of2",
+      "source_edges": [
+        "T5.1-r12",
+        "T5.1-r14",
+        "T5.1-r16"
+      ],
+      "gamma_gap_S_keV": 351.35,
+      "level_combination_S_keV": 351.35,
+      "difference_keV": 0.0
+    },
+    {
+      "row_id": "B4-S17of2",
+      "source_edges": [
+        "T5.2-r01",
+        "T5.2-r02",
+        "T5.2-r04"
+      ],
+      "gamma_gap_S_keV": -175.05,
+      "level_combination_S_keV": -175.05,
+      "difference_keV": 0.0
+    },
+    {
+      "row_id": "B4-S19of2",
+      "source_edges": [
+        "T5.2-r02",
+        "T5.2-r04",
+        "T5.2-r06"
+      ],
+      "gamma_gap_S_keV": 49.6,
+      "level_combination_S_keV": 49.6,
+      "difference_keV": 0.0
+    },
+    {
+      "row_id": "B4-S21of2",
+      "source_edges": [
+        "T5.2-r04",
+        "T5.2-r06",
+        "T5.2-r08"
+      ],
+      "gamma_gap_S_keV": 100.55,
+      "level_combination_S_keV": 100.55,
+      "difference_keV": 0.0
+    },
+    {
+      "row_id": "B4-S23of2",
+      "source_edges": [
+        "T5.2-r06",
+        "T5.2-r08",
+        "T5.2-r10"
+      ],
+      "gamma_gap_S_keV": -166.8,
+      "level_combination_S_keV": -166.8,
+      "difference_keV": 0.0
+    },
+    {
+      "row_id": "B4-S25of2",
+      "source_edges": [
+        "T5.2-r08",
+        "T5.2-r10",
+        "T5.2-r12"
+      ],
+      "gamma_gap_S_keV": 247.65,
+      "level_combination_S_keV": 247.65,
+      "difference_keV": 0.0
+    }
+  ],
+  "all_exactly_agree": true,
+  "scope": "Independent transcription path from three adjacent measured DeltaI1 lines; unavailable high-spin gaps not fabricated"
+}

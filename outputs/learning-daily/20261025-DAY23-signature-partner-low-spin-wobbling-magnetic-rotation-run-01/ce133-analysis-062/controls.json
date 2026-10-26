@@ -1,0 +1,104 @@
+{
+  "checks": [
+    {
+      "row_id": "B1-S13of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B1-S15of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B1-S17of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B1-S19of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B1-S21of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B1-S23of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B1-S25of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B1-S27of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B1-S29of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B4-S17of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B4-S19of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B4-S21of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B4-S23of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    },
+    {
+      "row_id": "B4-S25of2",
+      "independent_gap_difference": true,
+      "constant_shift_invariance": true,
+      "ideal_quadratic_rotor_zero_S": true,
+      "finite_perturbation_gradient_matches_L": true
+    }
+  ],
+  "all_pass": true,
+  "scope": "Conditional linear algebra only; does not authenticate band identity or a nuclear mode"
+}

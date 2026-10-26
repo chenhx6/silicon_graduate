@@ -1,0 +1,16 @@
+{
+  "scope": "prepublication draft corrections, not new measured data",
+  "lint_initial_failures": [
+    "missing project confidentiality",
+    "missing Risks and Blockers heading"
+  ],
+  "lint_fixed": true,
+  "scientific_draft_corrections": [
+    "rM1 inversion corrected to .7 Ea² rE2/delta² before publication; bounded arithmetic code was already correct",
+    "WK22-21 trend attributed to Fig6.16 and author prose because Table6.9 differs",
+    "WK22-23 explicit energy/B units and same reference contract",
+    "raw-citation keys for130Ba not uniquely matched, now correctly empty"
+  ],
+  "new_claims_needs_review": true,
+  "human_review_added": false
+}

@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-26T04:24:34.117012+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "133Ce全主线/关键图表读、母末态矩阵和S/强度依赖推导；Nobs模型辅助Jπ条件链",
+  "next_route": "133Ce Ch3/6逐段理解、QTR组件和未定标预测检验，同时继续Day23两槽",
+  "missing_inputs": [
+    "133Ce原event/AD/P response/Cov",
+    "作者producer/input/fullwavefunctions",
+    "582 out/out分母和表图不闭合",
+    "全论文中文reader仍draft"
+  ],
+  "Day25_opened": false
+}

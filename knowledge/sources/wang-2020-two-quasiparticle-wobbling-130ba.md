@@ -16,7 +16,7 @@ status: ai-draft
 review_status: unreviewed
 source_type: theory-article
 reading_depth: deep-read
-citation_key: wang_2020_twoquasiparticle130ba
+citation_key: ""
 doi: 10.1016/j.physletb.2020.135246
 nuclei: [130ba]
 ---
@@ -54,3 +54,5 @@ PSM为两准粒子wobbling提供模型支持，复用2019实验，不是新采�
 ## Extracted Pages
 
 [[chen-2019-transverse-wobbling-even-even]] · [[signature-tip-shears-discrimination-contract]]。新主张needs_review:true，未新增human-reviewed。
+
+本地Bib未唯一匹配，citation_key留空；早先临时本地命名不当作Zotero引文key。

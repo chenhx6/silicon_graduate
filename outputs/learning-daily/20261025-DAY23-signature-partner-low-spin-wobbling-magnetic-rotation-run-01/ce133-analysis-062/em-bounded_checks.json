@@ -1,0 +1,198 @@
+{
+  "units": {
+    "Egamma": "MeV",
+    "r_e2": "dimensionless",
+    "r_m1": "mu_N^2 / (e^2 b^2)"
+  },
+  "coefficient": 0.7,
+  "coefficient_locator": "Thesis Eq3.24, printed37/PDF48",
+  "experimental_rows": [
+    {
+      "line": "624.6 keV",
+      "printed_label_keV": 625,
+      "e_mev": 0.6246,
+      "parent": "Band4 13/2-",
+      "final": "Band1 11/2-",
+      "delta": -1.5,
+      "delta_minus": 5.7,
+      "delta_plus": 0.97,
+      "r_outout_e2": 1.15,
+      "r_outout_m1": 0.14,
+      "intensity_out": 3.3,
+      "e_reference_mev": 0.7948,
+      "intensity_reference": 8.0,
+      "reference_identity": "Band4 13/2- -> Band1 9/2-, 794.8keV E2",
+      "conditional_intensity_denominator": "out/out",
+      "central_E2_photon_fraction_from_delta": 0.6923076923076923,
+      "printed_delta_endpoint_image_NOT_new_CI": [
+        0.21929893043953474,
+        0.9810749432248297
+      ],
+      "outout_central_ratio_delta_closure": {
+        "delta_squared_printed": 2.25,
+        "delta_squared_from_ratio_and_observed_Egamma": 2.2432196699999998,
+        "relative_central_discrepancy": -0.003013480000000124,
+        "meaning": "Algebraic dependence/rounding check, NOT independent evidence or a significance test"
+      },
+      "conditional_same_parent_printed_intensity_reconstruction": {
+        "r_e2": 0.9528016547784995,
+        "r_m1": 0.11564370160582617,
+        "assumptions": [
+          "Table5.2 intensities are efficiency-corrected photon intensities for the same sample/gates",
+          "reference is pure E2 and shares the exact parent",
+          "Table6.11 central delta is applicable to these intensity estimates",
+          "No separately introduced internal-conversion factor for a direct photon-rate ratio"
+        ],
+        "boundary": "These are conditional recombinations of printed summaries, not recovered author inputs. No Cov, likelihood, significance or CI is supplied."
+      }
+    },
+    {
+      "line": "582.7 keV",
+      "printed_label_keV": 582,
+      "e_mev": 0.5827,
+      "parent": "Band4 17/2-",
+      "final": "Band1 15/2-",
+      "delta": -0.55,
+      "delta_minus": 0.25,
+      "delta_plus": 0.12,
+      "r_outout_e2": 5.06,
+      "r_outout_m1": 3.95,
+      "r_outin_e2": 0.33,
+      "r_outin_m1": 0.25,
+      "intensity_out": 3.53,
+      "e_reference_mev": 0.5778,
+      "intensity_reference": 3.22,
+      "reference_identity": "Band4 17/2- -> Band4 13/2-, 577.8keV E2",
+      "conditional_intensity_denominator": "out/in",
+      "central_E2_photon_fraction_from_delta": 0.2322456813819578,
+      "printed_delta_endpoint_image_NOT_new_CI": [
+        0.15604692379103724,
+        0.39024390243902446
+      ],
+      "outout_central_ratio_delta_closure": {
+        "delta_squared_printed": 0.30250000000000005,
+        "delta_squared_from_ratio_and_observed_Egamma": 0.30446788991898727,
+        "relative_central_discrepancy": 0.006505421219792362,
+        "meaning": "Algebraic dependence/rounding check, NOT independent evidence or a significance test"
+      },
+      "outin_central_ratio_delta_closure": {
+        "delta_squared_printed": 0.30250000000000005,
+        "delta_squared_from_ratio_and_observed_Egamma": 0.31373430396,
+        "relative_central_discrepancy": 0.03713819490909076,
+        "meaning": "Algebraic dependence/rounding check, NOT independent evidence or a significance test"
+      },
+      "conditional_same_parent_printed_intensity_reconstruction": {
+        "r_e2": 0.2440782482981937,
+        "r_m1": 0.19177490443678896,
+        "assumptions": [
+          "Table5.2 intensities are efficiency-corrected photon intensities for the same sample/gates",
+          "reference is pure E2 and shares the exact parent",
+          "Table6.11 central delta is applicable to these intensity estimates",
+          "No separately introduced internal-conversion factor for a direct photon-rate ratio"
+        ],
+        "boundary": "These are conditional recombinations of printed summaries, not recovered author inputs. No Cov, likelihood, significance or CI is supplied."
+      }
+    },
+    {
+      "line": "464.4 keV",
+      "printed_label_keV": 465,
+      "e_mev": 0.4644,
+      "parent": "Band4 19/2-",
+      "final": "Band1 17/2-",
+      "delta": -0.17,
+      "delta_minus": 0.2,
+      "delta_plus": 0.09,
+      "r_outout_e2": 1.06,
+      "r_outout_m1": 5.54,
+      "r_outin_e2": 0.09,
+      "r_outin_m1": 0.47,
+      "intensity_out": 1.89,
+      "e_reference_mev": 0.6083,
+      "intensity_reference": 1.89,
+      "reference_identity": "Band4 19/2- -> Band4 15/2-, 608.3keV E2",
+      "conditional_intensity_denominator": "out/in",
+      "central_E2_photon_fraction_from_delta": 0.028088249586937515,
+      "printed_delta_endpoint_image_NOT_new_CI": [
+        0.006359300476947539,
+        0.1204151640425719
+      ],
+      "outout_central_ratio_delta_closure": {
+        "delta_squared_printed": 0.028900000000000006,
+        "delta_squared_from_ratio_and_observed_Egamma": 0.02888541175451263,
+        "relative_central_discrepancy": -0.000504783580878021,
+        "meaning": "Algebraic dependence/rounding check, NOT independent evidence or a significance test"
+      },
+      "outin_central_ratio_delta_closure": {
+        "delta_squared_printed": 0.028900000000000006,
+        "delta_squared_from_ratio_and_observed_Egamma": 0.02890860357446808,
+        "relative_central_discrepancy": 0.0002977015386875781,
+        "meaning": "Algebraic dependence/rounding check, NOT independent evidence or a significance test"
+      },
+      "conditional_same_parent_printed_intensity_reconstruction": {
+        "r_e2": 0.10830604636569979,
+        "r_m1": 0.5657666215989495,
+        "assumptions": [
+          "Table5.2 intensities are efficiency-corrected photon intensities for the same sample/gates",
+          "reference is pure E2 and shares the exact parent",
+          "Table6.11 central delta is applicable to these intensity estimates",
+          "No separately introduced internal-conversion factor for a direct photon-rate ratio"
+        ],
+        "boundary": "These are conditional recombinations of printed summaries, not recovered author inputs. No Cov, likelihood, significance or CI is supplied."
+      }
+    }
+  ],
+  "model_rows": [
+    {
+      "table": "6.9",
+      "model": "nine-orbital QTR",
+      "spin": "17/2-",
+      "delta": -2.24,
+      "r_e2": 0.75,
+      "r_m1": 0.01,
+      "conditional_algebraic_Egamma_MeV_implied_by_printed_triple": 0.3091493705853747,
+      "boundary": "Consistency target only; model-predicted transition energies/producer unknown. Do NOT insert experimental Egamma to declare a model algebra error."
+    },
+    {
+      "table": "6.9",
+      "model": "nine-orbital QTR",
+      "spin": "19/2-",
+      "delta": -2.72,
+      "r_e2": 0.32,
+      "r_m1": 0.03,
+      "conditional_algebraic_Egamma_MeV_implied_by_printed_triple": 0.995418074407504,
+      "boundary": "Consistency target only; model-predicted transition energies/producer unknown. Do NOT insert experimental Egamma to declare a model algebra error."
+    },
+    {
+      "table": "6.10",
+      "model": "single-orbital FA",
+      "spin": "17/2-",
+      "delta": -0.49,
+      "r_e2": 0.44,
+      "r_m1": 0.19,
+      "conditional_algebraic_Egamma_MeV_implied_by_printed_triple": 0.3848553447253089,
+      "boundary": "Consistency target only; model-predicted transition energies/producer unknown. Do NOT insert experimental Egamma to declare a model algebra error."
+    },
+    {
+      "table": "6.10",
+      "model": "single-orbital FA",
+      "spin": "19/2-",
+      "delta": -0.49,
+      "r_e2": 0.11,
+      "r_m1": 0.062,
+      "conditional_algebraic_Egamma_MeV_implied_by_printed_triple": 0.43968997342135596,
+      "boundary": "Consistency target only; model-predicted transition energies/producer unknown. Do NOT insert experimental Egamma to declare a model algebra error."
+    }
+  ],
+  "Table6_3_9over2plus_partial_normalization": {
+    "locator": "Table6.3, printed71/PDF82",
+    "printed_amplitudes": [
+      0.982,
+      -0.202,
+      0.185
+    ],
+    "sum_of_three_squares": 1.039353,
+    "minimum_with_half_last_decimal_rounding": 1.0379847500000001,
+    "boundary": "Under the stated orthonormal strong-coupling basis and squared-amplitude interpretation, this partial sum exceeds 1. Actual producer/basis normalization missing; do not repair or renormalize the printed row."
+  },
+  "scope": "No independent experiments; no parameter fitting; no confidence intervals; no actual model-producer replay; no physics mode classification."
+}

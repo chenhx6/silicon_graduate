@@ -323,3 +323,7 @@ The formal Day7 report initially over-read the Table 4.4 “Band 4” grouping a
 ### checkpoint146：保留暂定排序，不由缺测排除模式
 
 145的错误1.34eb输入、同态2.58(12)错配与29.68倍强度阶梯均撤回。131Ce静态矩正确值0.92(10)eb；6/11仅纯K候选公式，非实际PTR。原Current Hypotheses维持provisional：组态/签名耦合优先；γ软背景为模型可行；chirality/wobbling在当前Bands1–7缺必要目标核电磁证据，不能写成核素层面完全排除；ND与独立HD带不自动成为已证混合共存伙伴。依据[[ionescu-bujor-1998-static-moments-129-131ce]] IB98-D20-R146-1/2、[[singh-2016-lifetime-131ce-133pr]] SI16-D20-R146-1。没有新实验、原拟合或置信区间。
+
+## 133Ce重要补充：独立深入学习工程
+
+用户明确133Ce硕士论文应像131Ce学位论文一样作为数据分析蓝本；现以[[133ce-thesis-analysis-blueprint]]持续推进。[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-01–28提供本核原件，不迁移131Ce旧标签或review。新增Band4为低spin单准粒子线，不能按band号拼入旧MχD pair；其计数/能级/响应与模型输入分别核查。用户独立实验数据本轮未读取。

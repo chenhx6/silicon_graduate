@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-26T04:25:09.474953+00:00",
+  "source_sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+  "review_report": "tmp/day23-theses/nobs-worker/ce-independent-review.md",
+  "reviewed_claims": [
+    "WK22-01",
+    "WK22-03",
+    "WK22-04",
+    "WK22-08",
+    "WK22-15",
+    "WK22-19",
+    "WK22-20",
+    "WK22-21",
+    "WK22-22",
+    "WK22-23",
+    "WK22-27",
+    "WK22-28"
+  ],
+  "required_tightening": [
+    "WK22-23 units MeV/eb/muN",
+    "WK22-21 attribute trend to figure/text in presence of table conflict"
+  ],
+  "canonical_modified": false,
+  "git_operations": false,
+  "day22_producers_run": false
+}

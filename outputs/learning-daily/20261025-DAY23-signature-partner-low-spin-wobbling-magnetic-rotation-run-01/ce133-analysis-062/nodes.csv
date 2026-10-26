@@ -1,0 +1,30 @@
+node_id,band,twice_J,state_suffix,parity,Ex_keV,Ex_literal,Ex_error_keV,Ex_status,locator,J_pi,needs_review
+B1-J9of2-m,1,9,,-,37.2,,,derived_consistently_from_two_Table5.1_edges,Table5.1 rows1/3:207.4−170.2 and592.1−554.9,9/2-,True
+B1-J11of2-m,1,11,,-,207.4,207.4,,printed_table_initial_energy,Table5.1 row1,11/2-,True
+B1-J13of2-m,1,13,,-,592.1,592.1,,printed_table_initial_energy,Table5.1 row3,13/2-,True
+B1-J15of2-m,1,15,,-,827.1,827.1,,printed_table_initial_energy,Table5.1 row5,15/2-,True
+B1-J17of2-m,1,17,,-,1344.7,1344.7,,printed_table_initial_energy,Table5.1 row7,17/2-,True
+B1-J19of2-m,1,19,,-,1590.3,1590.3,,printed_table_initial_energy,Table5.1 row9,19/2-,True
+B1-J21of2-m,1,21,,-,2201.1,2201.1,,printed_table_initial_energy,Table5.1 row11,21/2-,True
+B1-J23of2-m,1,23,,-,2486.6,2486.6,,printed_table_initial_energy,Table5.1 row13,23/2-,True
+B1-J25of2-m,1,25,,-,3131.8,3131.8,,printed_table_initial_energy,Table5.1 row15,25/2-,True
+B1-J27of2-m,1,27,,-,3434.0,3434.0,,printed_table_initial_energy,Table5.1 row17,27/2-,True
+B1-J29of2-m,1,29,,-,4132.4,4132.4,,printed_table_initial_energy,Table5.1 row18,29/2-,True
+B1-J31of2-m,1,31,,-,4406.4,4406.4,,printed_table_initial_energy,Table5.1 row19,31/2-,True
+B1-J35of2-m,1,35,,-,5401.8,5401.8,,printed_table_initial_energy,Table5.1 row20,35/2-,True
+B2-J7of2-p,2,7,,+,340,340,,printed_table_initial_energy,Table5.3 row12,7/2+,True
+B2-J9of2-p,2,9,,+,678.1,678.1,,printed_table_initial_energy,Table5.3 row1,9/2+,True
+B2-J11of2-p,2,11,,+,1033.4,1033.4,,printed_table_initial_energy,Table5.3 row3,11/2+,True
+B2-J13of2-p,2,13,,+,1459.9,1459.9,,printed_table_initial_energy,Table5.3 row5,13/2+,True
+B2-J15of2-p,2,15,,+,1852.7,1852.7,,printed_table_initial_energy,Table5.3 row7,15/2+,True
+B2-J17of2-p,2,17,,+,2304.1,2304.1,,printed_table_initial_energy,Table5.3 row9,17/2+,True
+B2-J19aof2-p,2,19,a,+,2733.4,2733.4,,printed_table_initial_energy,Table5.3 row10,19/2+,True
+B2-J19bof2-p,2,19,b,+,2739.5,2739.5,,printed_table_initial_energy,Table5.3 row11,19/2+,True
+B4-J13of2-m,4,13,,-,832.0,832.0,,printed_table_initial_energy,Table5.2 row15,13/2-,True
+B4-J15of2-m,4,15,,-,1200.8,1200.8,,printed_table_initial_energy,Table5.2 row17,15/2-,True
+B4-J17of2-m,4,17,,-,1409.8,1409.8,,printed_table_initial_energy,Table5.2 row18,17/2-,True
+B4-J19of2-m,4,19,,-,1809.1,1809.1,,printed_table_initial_energy,Table5.2 row20,19/2-,True
+B4-J21of2-m,4,21,,-,2299.5,2299.5,,printed_table_initial_energy,Table5.2 row22,21/2-,True
+B4-J23of2-m,4,23,,-,2679.9,2679.9,,printed_table_initial_energy,Table5.2 row24,23/2-,True
+B4-J25of2-m,4,25,,-,3283.9,3283.9,,printed_table_initial_energy,Table5.2 row26,25/2-,True
+B4-J27of2-m,4,27,,-,3616.2,3616.2,,printed_table_initial_energy,Table5.2 row28,27/2-,True

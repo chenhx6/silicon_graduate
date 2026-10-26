@@ -1,0 +1,180 @@
+{
+  "timestamp_UTC": "2026-10-26T04:20:35.523211+00:00",
+  "scope": "Chapters4/5 only; no full-thesis completion claim",
+  "PDF_pages": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+  ],
+  "printed_pages": [
+    40,
+    63
+  ],
+  "substantive_text_block_coverage_complete": true,
+  "missing_source_blocks": [],
+  "duplicate_source_blocks": [],
+  "excluded_running_headers_and_page_numbers": [
+    {
+      "PDF_page": 51,
+      "block": 21,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 52,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 53,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 54,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 55,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 56,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 57,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 58,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 59,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 60,
+      "block": 15,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 61,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 62,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 63,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 64,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 65,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 66,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 67,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 68,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 69,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 70,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 71,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 72,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 73,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 74,
+      "block": 0,
+      "reason": "running header / printed page number"
+    }
+  ],
+  "translated_body_paragraphs": 42,
+  "translated_headings": 29,
+  "translated_captions": 12,
+  "figure_crops": 7,
+  "table_crops": 5,
+  "equation_crops": 6,
+  "all_linked_assets_present": true,
+  "citation_markers_preserved": true,
+  "math_validation": {
+    "ready": true,
+    "strict": true,
+    "summary": {
+      "fail": 0,
+      "warn": 0
+    },
+    "findings": []
+  },
+  "source_sha256_after": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+  "source_modified": false,
+  "visual_QA": "All 7 figures, all 6 equation crops and all 5 tables inspected; F004 orientation/margins corrected before delivery",
+  "scientific_boundary": "Coverage/math/asset validation only, not validation of physical claims or author producer"
+}

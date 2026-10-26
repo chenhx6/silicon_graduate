@@ -1,0 +1,35 @@
+{
+  "edge_count": 60,
+  "max_abs_residual_keV": 0.5,
+  "nonzero": [
+    {
+      "edge_id": "T5.1-r18",
+      "residual_keV": 0.2
+    },
+    {
+      "edge_id": "T5.3-r01",
+      "residual_keV": 0.3
+    },
+    {
+      "edge_id": "T5.3-r03",
+      "residual_keV": 0.3
+    },
+    {
+      "edge_id": "T5.3-r04",
+      "residual_keV": 0.1
+    },
+    {
+      "edge_id": "T5.3-r09",
+      "residual_keV": -0.2
+    },
+    {
+      "edge_id": "T5.3-r10",
+      "residual_keV": -0.5
+    },
+    {
+      "edge_id": "T5.3-r12",
+      "residual_keV": -0.3
+    }
+  ],
+  "no_statistical_acceptance_test": true
+}

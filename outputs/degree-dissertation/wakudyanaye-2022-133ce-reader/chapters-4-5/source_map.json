@@ -1,0 +1,3943 @@
+{
+  "paper": {
+    "title": "Triaxiality and Rotational Bands in 133Ce — Chapters 4 and 5",
+    "author": "Ignasio Wakudyanaye",
+    "degree": "Magister Scientiae",
+    "year": 2022,
+    "source_type": "pdf-text",
+    "source_path": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "assigned_PDF_pages": [
+      51,
+      74
+    ],
+    "assigned_printed_pages": [
+      40,
+      63
+    ],
+    "whole_thesis_complete": false
+  },
+  "blocks": [
+    {
+      "id": "S001",
+      "page": 51,
+      "type": "heading",
+      "order": 1,
+      "original_text": "Chapter 4 Experimental Techniques",
+      "extracted_text_raw_reflow": "Chapter 4 Experimental Techniques",
+      "translation": "第4章 实验技术",
+      "source_segments": [
+        {
+          "page": 51,
+          "printed_page": 40,
+          "PDF_text_block_indices_zero_based": [
+            0,
+            1
+          ],
+          "bbox": [
+            108.0,
+            172.671142578125,
+            415.38360595703125,
+            266.5321350097656
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S002",
+      "page": 51,
+      "type": "heading",
+      "order": 2,
+      "original_text": "4.1 Introduction",
+      "extracted_text_raw_reflow": "4.1 Introduction",
+      "translation": "4.1 引言",
+      "source_segments": [
+        {
+          "page": 51,
+          "printed_page": 40,
+          "PDF_text_block_indices_zero_based": [
+            2,
+            2
+          ],
+          "bbox": [
+            108.0,
+            326.3018798828125,
+            258.76898193359375,
+            343.5168762207031
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S003",
+      "page": 51,
+      "type": "paragraph",
+      "order": 3,
+      "original_text": "Spectroscopic investigations of γ-ray transitions emitted by excited nuclei are among the most important tools used to study nuclear structure. This chapter is devoted to the experimental techniques used in the production and spectroscopic studies of nuclei at high excitation energy and high angular momenta. In particular it discusses the production of nuclei through the heavy-ion fusion evaporation (HIFE) reactions, the emission of γ rays, the features of high-purity germanium (HPGe) detectors and the AFRican Omnipurpose Detector for Innovative Techniques (AFRODITE) array, and the experimental data analyses used to build a level scheme and assign spin and parity to the nuclear states.",
+      "extracted_text_raw_reflow": "Spectroscopic investigations of γ-ray transitions emitted by excited nuclei are among the most important tools used to study nuclear structure. This chapter is devoted to the experimental techniques used in the production and spectroscopic studies of nuclei at high excitation energy and high angular momenta. In particular it discusses the production of nuclei through the heavy-ion fusion evaporation (HIFE) reactions, the emission of γ rays, the features of high-purity germanium (HPGe) detectors and the AFRican Omnipurpose Detector for Innovative Techniques (AFRODITE) array, and the experimental data analyses used to build a level scheme and assign spin and parity to the nuclear states.",
+      "translation": "对激发态原子核所发射γ跃迁开展谱学研究，是研究核结构最重要的手段之一。本章介绍产生处于高激发能、高角动量状态的原子核并对其进行谱学研究所用的实验技术。具体包括通过重离子融合蒸发（heavy-ion fusion evaporation，HIFE）反应产生原子核、γ射线发射、高纯锗（high-purity germanium，HPGe）探测器与AFRODITE（AFRican Omnipurpose Detector for Innovative Techniques）阵列的特点，以及用于构建能级纲图并指定核态自旋和宇称的实验数据分析。",
+      "source_segments": [
+        {
+          "page": 51,
+          "printed_page": 40,
+          "PDF_text_block_indices_zero_based": [
+            3,
+            11
+          ],
+          "bbox": [
+            108.0,
+            371.32574462890625,
+            523.92529296875,
+            533.5177001953125
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S004",
+      "page": 51,
+      "type": "heading",
+      "order": 4,
+      "original_text": "4.2 Heavy-Ion Fusion Evaporation",
+      "extracted_text_raw_reflow": "4.2 Heavy-Ion Fusion Evaporation",
+      "translation": "4.2 重离子融合蒸发",
+      "source_segments": [
+        {
+          "page": 51,
+          "printed_page": 40,
+          "PDF_text_block_indices_zero_based": [
+            12,
+            12
+          ],
+          "bbox": [
+            108.0,
+            574.255859375,
+            410.260986328125,
+            591.4708251953125
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S005",
+      "page": 51,
+      "type": "paragraph",
+      "order": 5,
+      "original_text": "The heavy-ion fusion evaporation reaction mechanism involves the fusing of an incident projectile nucleus with a target nucleus, resulting in the formation of a compound system. The compound system can decay via several channels, for instance the compound nucleus can emit one or more particles such as protons (p), neutrons (n), and alpha (α) particles to produce a daughter nucleus in an excited state, which proceeds to decay via γ-ray emission. HIFE reactions provide the most efficient way of producing nuclei at high-spin states. Nuclear states with sufficient energy and cross section (reaction probability) can be reached with a greater degree of selectivity [59]. HIFE reactions can occur if the incident projectile nucleus possess sufficient kinetic energy to overcome the Coulomb barrier of the target nucleus VC, which can be approximated (in MeV) by [36];",
+      "extracted_text_raw_reflow": "The heavy-ion fusion evaporation reaction mechanism involves the fusing of an incident projectile nucleus with a target nucleus, resulting in the formation of a compound system. The compound system can decay via several channels, for instance the compound nucleus can emit one or more particles such as protons (p), neutrons (n), and alpha (α) particles to produce a daughter nucleus in an excited state, which proceeds to decay via γ-ray emission. HIFE reactions provide the most efficient way of producing nuclei at high-spin states. Nuclear states with sufficient energy and cross section (reaction probability) can be reached with a greater degree of selectivity [59]. HIFE reactions can occur if the incident projectile nucleus possess sufficient kinetic energy to overcome the Coulomb barrier of the target nucleus VC, which can be approximated (in MeV) by [36];",
+      "translation": "重离子融合蒸发反应是入射的弹核与靶核融合、形成复合体系的过程。复合核可以通过若干反应道衰变，例如发射一个或多个质子（p）、中子（n）和α粒子，生成处于激发态的子核，后者继续通过发射γ射线退激。HIFE反应是产生高自旋核态最有效的途径。对于具有足够能量和反应截面（反应概率）的核态，可以获得较高的选择性[59]。如果入射弹核具有足够的动能来克服靶核的库仑势垒$V_C$，HIFE反应便可发生。该势垒可用下式近似，单位为MeV[36]：",
+      "source_segments": [
+        {
+          "page": 51,
+          "printed_page": 40,
+          "PDF_text_block_indices_zero_based": [
+            13,
+            20
+          ],
+          "bbox": [
+            108.0,
+            619.2797241210938,
+            523.9503784179688,
+            762.6917114257812
+          ]
+        },
+        {
+          "page": 52,
+          "printed_page": 41,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            3
+          ],
+          "bbox": [
+            108.0,
+            83.73778533935547,
+            523.9385375976562,
+            134.1742401123047
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "E001",
+      "page": 52,
+      "type": "equation",
+      "order": 6,
+      "equation_number": "4.1",
+      "latex": null,
+      "bbox": [
+        270,
+        148,
+        530,
+        197
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E001.png",
+      "original_text": "VC = ZpZt 4πε0re2, (4.1)",
+      "translation": "原文给出的库仑势垒近似式；请以裁图中的原式为准。",
+      "source_segments": [
+        {
+          "page": 52,
+          "printed_page": 41,
+          "PDF_text_block_indices_zero_based": [
+            4,
+            5
+          ],
+          "bbox": [
+            278.85601806640625,
+            161.0627899169922,
+            523.9283447265625,
+            190.22923278808594
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S006",
+      "page": 52,
+      "type": "paragraph",
+      "order": 7,
+      "original_text": "with $r=1.2(A_p^{1/3}+A_t^{1/3})$ fm. Here $Z_p$ and $A_p$ are the atomic number and the mass number of the incident projectile nucleus, and $Z_t$ and $A_t$ represent the atomic number and the mass number of the target nucleus.",
+      "extracted_text_raw_reflow": "with r = 1.2(A 1 3p + A 1 3 t ) fm. Here Zp and Ap are the atomic number and the mass number of the incident projectile nucleus, and Zt and At represent the atomic number and the mass number of the target nucleus.",
+      "translation": "其中$r=1.2(A_p^{1/3}+A_t^{1/3})$ fm。$Z_p$和$A_p$分别为入射弹核的原子序数与质量数，$Z_t$和$A_t$分别为靶核的原子序数与质量数。",
+      "source_segments": [
+        {
+          "page": 52,
+          "printed_page": 41,
+          "PDF_text_block_indices_zero_based": [
+            6,
+            10
+          ],
+          "bbox": [
+            107.99993896484375,
+            213.2078094482422,
+            373.54443359375,
+            262.7228088378906
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S007",
+      "page": 52,
+      "type": "paragraph",
+      "order": 8,
+      "original_text": "A compound nucleus forms if the lifetime of the compound system is long enough (of the order of $\\sim10^{-20}$ s). The probability of decay is solely dependent on the total energy imparted on the compound system, and is independent of the formation process [15]. Shortly after formation (of the order of $\\sim10^{-19}$ s), the compound system resembles a hot, charged, rotating liquid drop and is highly unstable. It decays rapidly by evaporating particles away, which carry with them a large amount of energy, but very little angular momentum of ∼1ħ. Due to the Coulomb barrier, proton emission is hindered in the early stages of particle emissions from the compound system and neutron emission is the dominant decay path.",
+      "extracted_text_raw_reflow": "A compound nucleus forms if the lifetime of the compound system is long enough (of the order of $\\sim10^{-20}$ s). The probability of decay is solely dependent on the total energy imparted on the compound system, and is independent of the formation process [15]. Shortly after formation (of the order of $\\sim10^{-19}$ s), the compound system resembles a hot, charged, rotating liquid drop and is highly unstable. It decays rapidly by evaporating particles away, which carry with them a large amount of energy, but very little angular momentum of ∼1ħ. Due to the Coulomb barrier, proton emission is hindered in the early stages of particle emissions from the compound system and neutron emission is the dominant decay path.",
+      "translation": "若复合体系的寿命足够长，达到约$10^{-20}$ s的量级，就会形成复合核。其衰变概率只取决于传递给复合体系的总能量，而与形成过程无关[15]。形成后不久，约$10^{-19}$ s量级，复合体系类似于一个高温、带电且旋转的液滴，极不稳定。它迅速通过蒸发粒子而衰变；这些粒子带走大量能量，但带走的角动量很少，约为$1\\hbar$。由于库仑势垒的作用，在复合体系粒子发射的早期阶段，质子发射受到抑制，中子发射成为主要衰变途径。",
+      "source_segments": [
+        {
+          "page": 52,
+          "printed_page": 41,
+          "PDF_text_block_indices_zero_based": [
+            11,
+            19
+          ],
+          "bbox": [
+            107.99993896484375,
+            279.841796875,
+            523.9263305664062,
+            442.0337829589844
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S008",
+      "page": 52,
+      "type": "paragraph",
+      "order": 9,
+      "original_text": "When particle emission is no longer a favorable decay path, a compound nucleus decays via the emission of electromagnetic radiation (γ rays). The first set of γ rays that are emitted are statistical, their strengths are dictated by random overlaps between the initial and final states wavefunctions, typically states that lie close to each other in energy and spin. These statistical γ decays are predominantly non-collective electric dipole E1 transitions that carry large amounts of excitation energy, but very little angular momentum.",
+      "extracted_text_raw_reflow": "When particle emission is no longer a favorable decay path, a compound nucleus decays via the emission of electromagnetic radiation (γ rays). The first set of γ rays that are emitted are statistical, their strengths are dictated by random overlaps between the initial and final states wavefunctions, typically states that lie close to each other in energy and spin. These statistical γ decays are predominantly non-collective electric dipole E1 transitions that carry large amounts of excitation energy, but very little angular momentum.",
+      "translation": "当粒子发射不再是有利的衰变途径时，复合核便通过发射电磁辐射，即γ射线而衰变。最先发射的一组γ射线具有统计性质，其强度取决于初末态波函数的随机重叠；这些核态的能量与自旋通常彼此接近。这些统计γ衰变主要是非集体的电偶极E1跃迁，带走大量激发能，但带走的角动量很少。",
+      "source_segments": [
+        {
+          "page": 52,
+          "printed_page": 41,
+          "PDF_text_block_indices_zero_based": [
+            20,
+            26
+          ],
+          "bbox": [
+            107.99993896484375,
+            459.1528015136719,
+            523.9501953125,
+            583.7857666015625
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S009",
+      "page": 52,
+      "type": "heading",
+      "order": 10,
+      "original_text": "4.3 Gamma Decay",
+      "extracted_text_raw_reflow": "4.3 Gamma Decay",
+      "translation": "4.3 γ衰变",
+      "source_segments": [
+        {
+          "page": 52,
+          "printed_page": 41,
+          "PDF_text_block_indices_zero_based": [
+            27,
+            27
+          ],
+          "bbox": [
+            107.99995422363281,
+            624.52392578125,
+            276.3282470703125,
+            641.7388916015625
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S010",
+      "page": 52,
+      "type": "paragraph",
+      "order": 11,
+      "original_text": "A γ ray is a high energy photon that is emitted when a nucleus decays by electromagnetic radiation. The energy of the emitted γ ray contains information about the nucleus, for instance the energy of a γ ray, Eγ, is the energy difference between the initial nuclear state Ei and final nuclear state Ef; Eγ = Ei −Ef. The emission of a γ ray is dictated by conservation laws and quantum mechanical selection rules for angular momentum and parity [36]. The multipole order of the emitted γ ray is given by:",
+      "extracted_text_raw_reflow": "A γ ray is a high energy photon that is emitted when a nucleus decays by electromagnetic radiation. The energy of the emitted γ ray contains information about the nucleus, for instance the energy of a γ ray, Eγ, is the energy difference between the initial nuclear state Ei and final nuclear state Ef; Eγ = Ei −Ef. The emission of a γ ray is dictated by conservation laws and quantum mechanical selection rules for angular momentum and parity [36]. The multipole order of the emitted γ ray is given by:",
+      "translation": "γ射线是原子核通过电磁辐射衰变时发射的高能光子。所发射γ射线的能量包含核结构信息。例如，γ射线能量$E_\\gamma$等于初始核态能量$E_i$与末态能量$E_f$之差，即$E_\\gamma=E_i-E_f$。γ射线的发射受到角动量与宇称守恒定律以及相应量子力学选择定则的约束[36]。所发射γ射线的多极阶数由下式给出：",
+      "source_segments": [
+        {
+          "page": 52,
+          "printed_page": 41,
+          "PDF_text_block_indices_zero_based": [
+            28,
+            32
+          ],
+          "bbox": [
+            107.99995422363281,
+            669.5477905273438,
+            523.94970703125,
+            756.6207885742188
+          ]
+        },
+        {
+          "page": 53,
+          "printed_page": 42,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            2
+          ],
+          "bbox": [
+            108.0,
+            83.73778533935547,
+            523.9257202148438,
+            114.4717788696289
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "E002",
+      "page": 53,
+      "type": "equation",
+      "order": 12,
+      "equation_number": "4.2",
+      "latex": null,
+      "bbox": [
+        250,
+        137,
+        530,
+        177
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E002.png",
+      "original_text": "|Ii −If| ≤L ≤Ii + If, (4.2)",
+      "translation": "式中初态与末态自旋对多极阶数的约束，保留原式。",
+      "source_segments": [
+        {
+          "page": 53,
+          "printed_page": 42,
+          "PDF_text_block_indices_zero_based": [
+            3,
+            3
+          ],
+          "bbox": [
+            257.4210205078125,
+            150.21585083007812,
+            523.9283447265625,
+            164.11978149414062
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S011",
+      "page": 53,
+      "type": "paragraph",
+      "order": 13,
+      "original_text": "with Ii and If as the angular momenta of the initial and final state, respectively. L is the multipole order of the emitted γ ray. Stretched transitions have L = |Ii −If| and unstretched transitions have L > |Ii −If|. Electric and magnetic multipoles of the same order have opposite parity, such that π(EL) = (−1)L for electric transitions and π(ML) = (−1)(L+1) for magnetic transitions. Transitions between states of the same parity are of the even multipole order for electric transitions and of the odd multipole order for magnetic transitions (M1, E2, M3, E4, ...), while transitions that involve parity change are of the odd multipole order for the electric transitions and of the even multipole order for magnetic transitions (E1, M2, E3, M4, ...). This information is summarized in Table 4.1. Transitions between two states with I = 0, cannot proceed through γ decay as a photon should carry a minimum L = 1ħof angular momentum. Such a 0 →0 transition proceeds through emission of internal conversion electrons.",
+      "extracted_text_raw_reflow": "with Ii and If as the angular momenta of the initial and final state, respectively. L is the multipole order of the emitted γ ray. Stretched transitions have L = |Ii −If| and unstretched transitions have L > |Ii −If|. Electric and magnetic multipoles of the same order have opposite parity, such that π(EL) = (−1)L for electric transitions and π(ML) = (−1)(L+1) for magnetic transitions. Transitions between states of the same parity are of the even multipole order for electric transitions and of the odd multipole order for magnetic transitions (M1, E2, M3, E4, ...), while transitions that involve parity change are of the odd multipole order for the electric transitions and of the even multipole order for magnetic transitions (E1, M2, E3, M4, ...). This information is summarized in Table 4.1. Transitions between two states with I = 0, cannot proceed through γ decay as a photon should carry a minimum L = 1ħof angular momentum. Such a 0 →0 transition proceeds through emission of internal conversion electrons.",
+      "translation": "其中$I_i$与$I_f$分别为初态和末态的角动量，$L$为发射γ射线的多极阶数。伸展跃迁满足$L=|I_i-I_f|$，非伸展跃迁满足$L>|I_i-I_f|$。相同阶数的电多极与磁多极具有相反的宇称：电跃迁有$\\pi(EL)=(-1)^L$，磁跃迁有$\\pi(ML)=(-1)^{L+1}$。相同宇称核态之间的电跃迁具有偶数多极阶数，磁跃迁具有奇数多极阶数，即M1、E2、M3、E4等；改变宇称的电跃迁具有奇数多极阶数，磁跃迁具有偶数多极阶数，即E1、M2、E3、M4等。表4.1汇总了这些信息。两个$I=0$的核态之间不能通过γ衰变跃迁，因为光子应至少携带$L=1\\hbar$的角动量。这种$0\\to0$跃迁通过发射内转换电子进行。",
+      "source_segments": [
+        {
+          "page": 53,
+          "printed_page": 42,
+          "PDF_text_block_indices_zero_based": [
+            4,
+            16
+          ],
+          "bbox": [
+            107.99993896484375,
+            187.86375427246094,
+            523.9109497070312,
+            425.173828125
+          ]
+        }
+      ],
+      "refs": [
+        "T001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "T001",
+      "page": 53,
+      "type": "table",
+      "order": 14,
+      "original_text": "Table 4.1",
+      "translation": "γ跃迁多极性与宇称",
+      "bbox": [
+        113,
+        435,
+        488,
+        489
+      ],
+      "image_path": "assets/tables/T001.png",
+      "refs": [
+        "C001"
+      ],
+      "insert_after": "S011",
+      "confidence": "high"
+    },
+    {
+      "id": "C001",
+      "page": 53,
+      "type": "caption",
+      "order": 15,
+      "original_text": "Table 4.1: Multipolarity of a γ ray transition with multipole order L, linking initial and final states with parities of πi and πf, respectively.",
+      "translation": "表4.1：多极阶数为$L$的γ跃迁的多极性；该跃迁连接宇称分别为$\\pi_i$和$\\pi_f$的初态与末态。",
+      "source_segments": [
+        {
+          "page": 53,
+          "printed_page": 42,
+          "PDF_text_block_indices_zero_based": [
+            18,
+            19
+          ],
+          "bbox": [
+            127.92500305175781,
+            496.68798828125,
+            504.01409912109375,
+            525.165283203125
+          ]
+        }
+      ],
+      "refs": [
+        "T001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "S012",
+      "page": 53,
+      "type": "heading",
+      "order": 16,
+      "original_text": "4.4 Detection of Gamma Radiation",
+      "extracted_text_raw_reflow": "4.4 Detection of Gamma Radiation",
+      "translation": "4.4 γ射线的探测",
+      "source_segments": [
+        {
+          "page": 53,
+          "printed_page": 42,
+          "PDF_text_block_indices_zero_based": [
+            20,
+            20
+          ],
+          "bbox": [
+            108.0,
+            569.8889770507812,
+            418.3003234863281,
+            587.1039428710938
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S013",
+      "page": 53,
+      "type": "paragraph",
+      "order": 17,
+      "original_text": "When a nucleus de-excites through γ decay, it is possible to measure the properties of the emitted γ ray when it interacts with the detector material. Germanium, which is a semiconductor, is the material of choice used by nuclear physicists to detect γ rays. Electron-hole pairs can form inside a semiconductor crystal when a γ ray with sufficient energy passes through the semiconductor material. If the crystal is placed between a pair of electrodes, it is possible to collect the created charge in the material. Germanium has an ionisation energy of ∼2.9 eV, which allows greater power to resolve the energy of the emitted γ rays.",
+      "extracted_text_raw_reflow": "When a nucleus de-excites through γ decay, it is possible to measure the properties of the emitted γ ray when it interacts with the detector material. Germanium, which is a semiconductor, is the material of choice used by nuclear physicists to detect γ rays. Electron-hole pairs can form inside a semiconductor crystal when a γ ray with sufficient energy passes through the semiconductor material. If the crystal is placed between a pair of electrodes, it is possible to collect the created charge in the material. Germanium has an ionisation energy of ∼2.9 eV, which allows greater power to resolve the energy of the emitted γ rays.",
+      "translation": "当原子核通过γ衰变退激时，可以利用γ射线与探测器材料的相互作用测量其性质。锗是一种半导体，是核物理研究中探测γ射线的常用材料。当能量足够高的γ射线穿过半导体晶体时，晶体内可以产生电子–空穴对。如果将晶体置于一对电极之间，就能够收集材料中产生的电荷。锗的电离能约为2.9 eV，因此能以较高分辨能力测量所发射γ射线的能量。",
+      "source_segments": [
+        {
+          "page": 53,
+          "printed_page": 42,
+          "PDF_text_block_indices_zero_based": [
+            21,
+            28
+          ],
+          "bbox": [
+            108.0,
+            614.9127807617188,
+            523.9188842773438,
+            758.3247680664062
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S014",
+      "page": 54,
+      "type": "heading",
+      "order": 18,
+      "original_text": "4.5 The AFRODITE Detector Array",
+      "extracted_text_raw_reflow": "4.5 The AFRODITE Detector Array",
+      "translation": "4.5 AFRODITE探测阵列",
+      "source_segments": [
+        {
+          "page": 54,
+          "printed_page": 43,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            1
+          ],
+          "bbox": [
+            108.0,
+            87.6169204711914,
+            431.4182434082031,
+            104.83191680908203
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S015",
+      "page": 54,
+      "type": "paragraph",
+      "order": 19,
+      "original_text": "The AFRODITE High Purity Germanium (HPGe) detector array at iThemba LABS is mounted on a rhombicuboctahedron frame with 16 detector positions [54]. The array consists of eight clover detectors, four positioned at 90◦and four at 135◦. The array also comprises of 7 low energy photon spectrometers (LEPS), two placed at 45◦, three at 90◦and two at 135◦. The clover detectors are similar to those of EUROBALL III [67]. Each clover consists of four 50 x 70 mm HPGe crystals and eight clovers subtend a solid angle of ∼9.8% of 4π. The detectors are suitable for measuring high-energy γ rays due to their large volume. The crystals are closely packed without any material between them which enables a good energy resolution for signals added from more than one crystal. The distance between the front face of the detector and the center of the AFRODITE array is 17.6 cm. Figure 4.1 shows the schematic diagram of the orientations of the clover detectors in the AFRODITE array. Recently the array was upgraded to comprise 17 clover detectors.",
+      "extracted_text_raw_reflow": "The AFRODITE High Purity Germanium (HPGe) detector array at iThemba LABS is mounted on a rhombicuboctahedron frame with 16 detector positions [54]. The array consists of eight clover detectors, four positioned at 90◦and four at 135◦. The array also comprises of 7 low energy photon spectrometers (LEPS), two placed at 45◦, three at 90◦and two at 135◦. The clover detectors are similar to those of EUROBALL III [67]. Each clover consists of four 50 x 70 mm HPGe crystals and eight clovers subtend a solid angle of ∼9.8% of 4π. The detectors are suitable for measuring high-energy γ rays due to their large volume. The crystals are closely packed without any material between them which enables a good energy resolution for signals added from more than one crystal. The distance between the front face of the detector and the center of the AFRODITE array is 17.6 cm. Figure 4.1 shows the schematic diagram of the orientations of the clover detectors in the AFRODITE array. Recently the array was upgraded to comprise 17 clover detectors.",
+      "translation": "iThemba LABS的AFRODITE高纯锗（HPGe）探测阵列安装在一个具有16个探测器位置的小斜方截半立方体框架上[54]。阵列由8个Clover探测器组成，其中4个置于90°、4个置于135°。阵列还包括7个低能光子谱仪（low energy photon spectrometers，LEPS）：45°方向2个、90°方向3个、135°方向2个。Clover探测器与EUROBALL III使用的探测器相似[67]。每个Clover由4块50×70 mm的HPGe晶体组成，8个Clover覆盖的立体角约为$4\\pi$的9.8%。由于体积较大，这些探测器适于测量高能γ射线。晶体紧密排列，其间没有其它材料，因此将多块晶体的信号相加时仍可获得良好的能量分辨率。探测器前端面至AFRODITE阵列中心的距离为17.6 cm。图4.1给出了阵列中Clover探测器的方位示意。近期该阵列已升级为包含17个Clover探测器。",
+      "source_segments": [
+        {
+          "page": 54,
+          "printed_page": 43,
+          "PDF_text_block_indices_zero_based": [
+            2,
+            15
+          ],
+          "bbox": [
+            107.99998474121094,
+            132.6407928466797,
+            523.9384765625,
+            388.7309265136719
+          ]
+        }
+      ],
+      "refs": [
+        "F001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "F001",
+      "page": 55,
+      "type": "figure",
+      "order": 20,
+      "original_text": "Figure 4.1",
+      "translation": "AFRODITE探测器方位",
+      "bbox": [
+        76,
+        80,
+        560,
+        445
+      ],
+      "image_path": "assets/figures/F001.png",
+      "refs": [
+        "C002"
+      ],
+      "insert_after": "S015",
+      "confidence": "high"
+    },
+    {
+      "id": "C002",
+      "page": 55,
+      "type": "caption",
+      "order": 21,
+      "original_text": "Figure 4.1: A schematic illustration of the detector orientation in the AFRODITE array. The corresponding number of LEPS and clover detectors placed at 45◦, 90◦, and 135◦is given at the bottom of the figure. Adapted from Ref. [41].",
+      "translation": "图4.1：AFRODITE阵列中探测器方位的示意图。图底部给出了45°、90°和135°处LEPS与Clover探测器的相应数量。改编自文献[41]。",
+      "source_segments": [
+        {
+          "page": 55,
+          "printed_page": 44,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            2
+          ],
+          "bbox": [
+            127.92500305175781,
+            452.5019836425781,
+            504.0345153808594,
+            506.4412841796875
+          ]
+        }
+      ],
+      "refs": [
+        "F001"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "S016",
+      "page": 54,
+      "type": "heading",
+      "order": 22,
+      "original_text": "4.6 Data Analysis",
+      "extracted_text_raw_reflow": "4.6 Data Analysis",
+      "translation": "4.6 数据分析",
+      "source_segments": [
+        {
+          "page": 54,
+          "printed_page": 43,
+          "PDF_text_block_indices_zero_based": [
+            16,
+            16
+          ],
+          "bbox": [
+            107.99998474121094,
+            429.4690856933594,
+            270.90557861328125,
+            446.68408203125
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S017",
+      "page": 54,
+      "type": "paragraph",
+      "order": 23,
+      "original_text": "Two experimental data sets are presented and discussed in this work. The first experiment was carried out at iThemba LABS (iTL), South Africa. The second one was performed at the Laborotori Nazionali di Legnaro (LNL), Italy. Both experimental data sets were analysed with the collaboration of Chinese, French and South African researchers and students [22]. The experimental data collected at LNL were analysed by the collaborators, but the theoretical calculations were performed as part of this work and presented in Chapter 6. Thus the experimental data on $^{131}$Ba is also presented in Chapter 5. The second experiment performed at iTL collected data on $^{133}$Ce. The preliminary analysis of these data, including calibrations and data sorting in matrices were carried out by our collaborators. However, the analysis of the γ-γ coincidence matrix and building and extending the level scheme of $^{133}$Ce, as well as the theoretical calculations, were performed in this work. In this section the γ-coincidence analysis used to build the $^{133}$Ce level scheme is discussed, while theoretical calculations are discussed in Chapter 6.",
+      "extracted_text_raw_reflow": "Two experimental data sets are presented and discussed in this work. The first experiment was carried out at iThemba LABS (iTL), South Africa. The second one was performed at the Laborotori Nazionali di Legnaro (LNL), Italy. Both experimental data sets were analysed with the collaboration of Chinese, French and South African researchers and students [22]. The experimental data collected at LNL were analysed by the collaborators, but the theoretical calculations were performed as part of this work and presented in Chapter 6. Thus the experimental data on $^{131}$Ba is also presented in Chapter 5. The second experiment performed at iTL collected data on $^{133}$Ce. The preliminary analysis of these data, including calibrations and data sorting in matrices were carried out by our collaborators. However, the analysis of the γ-γ coincidence matrix and building and extending the level scheme of $^{133}$Ce, as well as the theoretical calculations, were performed in this work. In this section the γ-coincidence analysis used to build the $^{133}$Ce level scheme is discussed, while theoretical calculations are discussed in Chapter 6.",
+      "translation": "本工作给出并讨论了两组实验数据。第一个实验在南非iThemba LABS（iTL）完成，第二个在意大利Legnaro国家实验室（LNL）完成。两组实验数据由中国、法国和南非的研究人员及学生合作分析[22]。LNL采集的实验数据由合作人员分析，理论计算则是本工作的一部分，并在第6章给出。因此，第5章也给出了$^{131}$Ba的实验数据。在iTL开展的第二个实验采集了$^{133}$Ce数据；其初步分析，包括校准和矩阵分选，由合作人员完成。然而，γ–γ符合矩阵的分析、$^{133}$Ce能级纲图的构建与扩展，以及理论计算均在本工作中完成。本节讨论用于构建$^{133}$Ce能级纲图的γ符合分析，理论计算则在第6章讨论。",
+      "source_segments": [
+        {
+          "page": 54,
+          "printed_page": 43,
+          "PDF_text_block_indices_zero_based": [
+            17,
+            30
+          ],
+          "bbox": [
+            107.99996948242188,
+            474.4929504394531,
+            523.9143676757812,
+            730.5828857421875
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S018",
+      "page": 55,
+      "type": "paragraph",
+      "order": 24,
+      "original_text": "The AFRODITE detector array at iThemba LABS makes it possible to detect more than one γ ray simultaneously. By detecting γ rays simultaneously it is possible to construct a coincidence matrix, which represents the γ rays in coincidence. Figure 4.2 illustrates such a matrix. The γ rays of each event are arranged in pairs and each pair is counted in the coincidence matrix. For instance, γ rays a and b that were observed simultaneously and thus belong to one event are in coincidence and will be arranged as (a, b) and (b, a) pairs. Likewise, γ rays d and e are in coincidence and will be arranged as (d, e) and (e, d) pairs. The count numbers (the z axis in a coincidence matrix) will be increased by one at coordinated x = a and y = b when the pair (a, b) is counted, and similarly for all other pairs.",
+      "extracted_text_raw_reflow": "The AFRODITE detector array at iThemba LABS makes it possible to detect more than one γ ray simultaneously. By detecting γ rays simultaneously it is possible to construct a coincidence matrix, which represents the γ rays in coincidence. Figure 4.2 illustrates such a matrix. The γ rays of each event are arranged in pairs and each pair is counted in the coincidence matrix. For instance, γ rays a and b that were observed simultaneously and thus belong to one event are in coincidence and will be arranged as (a, b) and (b, a) pairs. Likewise, γ rays d and e are in coincidence and will be arranged as (d, e) and (e, d) pairs. The count numbers (the z axis in a coincidence matrix) will be increased by one at coordinated x = a and y = b when the pair (a, b) is counted, and similarly for all other pairs.",
+      "translation": "iThemba LABS的AFRODITE探测阵列能够同时探测多条γ射线。通过同时探测γ射线，可以构建表示符合γ射线关系的符合矩阵，图4.2给出了这种矩阵的示意。将每个事件中的γ射线两两配对，并把每一对填入符合矩阵。例如，同时观测到、因而属于同一事件的γ射线a和b构成符合，将被组成(a,b)和(b,a)两对。同样，符合的γ射线d和e将被组成(d,e)和(e,d)两对。将(a,b)这一对计入矩阵时，在$x=a$、$y=b$坐标处的计数，即符合矩阵的z轴数值增加1；其它γ射线对也按同样方式处理。",
+      "source_segments": [
+        {
+          "page": 55,
+          "printed_page": 44,
+          "PDF_text_block_indices_zero_based": [
+            3,
+            12
+          ],
+          "bbox": [
+            108.00001525878906,
+            530.6598510742188,
+            523.9502563476562,
+            711.6318359375
+          ]
+        }
+      ],
+      "refs": [
+        "F002"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "F002",
+      "page": 56,
+      "type": "figure",
+      "order": 25,
+      "original_text": "Figure 4.2",
+      "translation": "对称γ–γ矩阵示意",
+      "bbox": [
+        107,
+        80,
+        534,
+        414
+      ],
+      "image_path": "assets/figures/F002.png",
+      "refs": [
+        "C003"
+      ],
+      "insert_after": "S018",
+      "confidence": "high"
+    },
+    {
+      "id": "C003",
+      "page": 56,
+      "type": "caption",
+      "order": 26,
+      "original_text": "Figure 4.2: Schematic representation of a symmetric γ-γ matrix. γ ray a is in coincidence with all γ rays (b, c, d and e, shown by the red and blue squares). γ ray b is in coincidence only with γ rays a and c. Similarly, γ ray c is in coincident with a and b. γ ray d is coincident with a and e, etc...",
+      "translation": "图4.2：对称γ–γ矩阵示意。γ射线a与全部其它γ射线，即红色和蓝色方格表示的b、c、d、e符合。γ射线b仅与a和c符合。同样，γ射线c与a和b符合，γ射线d与a和e符合，等等。",
+      "source_segments": [
+        {
+          "page": 56,
+          "printed_page": 45,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            2
+          ],
+          "bbox": [
+            127.92500305175781,
+            420.9750061035156,
+            503.9947814941406,
+            474.915283203125
+          ]
+        }
+      ],
+      "refs": [
+        "F002"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "S019",
+      "page": 55,
+      "type": "paragraph",
+      "order": 27,
+      "original_text": "The spectra of coincident γ rays can be produced by such an arrangement of events in a coincident matrix. By gating on a single γ ray energy, it will show only those γ rays that are in the decay path of the γ ray chosen as a gate. In such a way it becomes possible to construct this γ decay path. Gamma-ray emissions that proceed through the same path will be in coincidence, while those that do not belong to the same decay path will be anti-coincident to each other, that is, they will not ”see” each other when gated on. To make the point more clear, in Figure 4.2, γ rays c and d are anti-coincident so when gating on either one, it is not possible to see the other. In Figure 4.3 a representative level scheme and sample gated spectra are shown for the symmetric matrix presented in Figure 4.2. It is possible to use the apparent strength of the detected γ rays in the gated spectra as transitions that are close to each other on the decay path see each other more strongly.",
+      "extracted_text_raw_reflow": "The spectra of coincident γ rays can be produced by such an arrangement of events in a coincident matrix. By gating on a single γ ray energy, it will show only those γ rays that are in the decay path of the γ ray chosen as a gate. In such a way it becomes possible to construct this γ decay path. Gamma-ray emissions that proceed through the same path will be in coincidence, while those that do not belong to the same decay path will be anti-coincident to each other, that is, they will not ”see” each other when gated on. To make the point more clear, in Figure 4.2, γ rays c and d are anti-coincident so when gating on either one, it is not possible to see the other. In Figure 4.3 a representative level scheme and sample gated spectra are shown for the symmetric matrix presented in Figure 4.2. It is possible to use the apparent strength of the detected γ rays in the gated spectra as transitions that are close to each other on the decay path see each other more strongly.",
+      "translation": "通过这种将事件排列在符合矩阵中的方法，可以得到符合γ射线的能谱。在一条γ射线能量处设门后，谱中只显示与所选门γ处于同一衰变路径上的γ射线，由此可以构建该γ衰变路径。沿同一路径发生的γ发射彼此符合，不属于同一衰变路径的γ射线则彼此反符合，也就是在一条线上设门时不会“看到”另一条。更明确地说，图4.2中的γ射线c和d彼此反符合，因此在其中任意一条上设门都看不到另一条。图4.3给出了与图4.2对称矩阵对应的能级纲图示例及门谱。门谱中所探测γ射线的表观强度也可以使用，因为处于衰变路径中相近位置的跃迁会更强地“看到”彼此。",
+      "source_segments": [
+        {
+          "page": 55,
+          "printed_page": 44,
+          "PDF_text_block_indices_zero_based": [
+            13,
+            14
+          ],
+          "bbox": [
+            108.00004577636719,
+            728.7507934570312,
+            523.9400024414062,
+            759.4857788085938
+          ]
+        },
+        {
+          "page": 56,
+          "printed_page": 45,
+          "PDF_text_block_indices_zero_based": [
+            3,
+            13
+          ],
+          "bbox": [
+            107.99993896484375,
+            499.1338195800781,
+            523.94287109375,
+            698.884765625
+          ]
+        }
+      ],
+      "refs": [
+        "F003"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "F003",
+      "page": 57,
+      "type": "figure",
+      "order": 28,
+      "original_text": "Figure 4.3",
+      "translation": "符合关系、纲图与门谱",
+      "bbox": [
+        107,
+        80,
+        572,
+        391
+      ],
+      "image_path": "assets/figures/F003.png",
+      "refs": [
+        "C004"
+      ],
+      "insert_after": "S019",
+      "confidence": "high"
+    },
+    {
+      "id": "C004",
+      "page": 57,
+      "type": "caption",
+      "order": 29,
+      "original_text": "Figure 4.3: Schematic diagram showing coincidences between γ rays on the same decay path. The spectrum gated on transition a (top, right) shows all other transitions and indicates γ rays in coincidence with γ ray a. The spectrum gated on γ ray b (middle spectrum, right) shows only γ rays a and c as they are in coincident and belong to the same decay path. The spectrum gated on γ ray d shows only γ rays a and e as those are the transitions that are on the same decay path as d. The corresponding level scheme is drawn in the top left of the figure.",
+      "translation": "图4.3：同一衰变路径上γ射线符合关系的示意图。在跃迁a上设门所得的谱，位于右上，显示其余全部跃迁，并标出与γ射线a符合的γ射线。在γ射线b上设门所得的谱，位于右侧中间，仅显示γ射线a和c，因为它们与b符合并属于同一衰变路径。在γ射线d上设门所得的谱，仅显示γ射线a和e，因为它们位于d的同一衰变路径上。相应能级纲图绘于左上。",
+      "source_segments": [
+        {
+          "page": 57,
+          "printed_page": 46,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            2
+          ],
+          "bbox": [
+            127.92498779296875,
+            398.4750061035156,
+            504.0133972167969,
+            506.6123046875
+          ]
+        }
+      ],
+      "refs": [
+        "F003"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "S020",
+      "page": 56,
+      "type": "paragraph",
+      "order": 30,
+      "original_text": "Coincident spectroscopy techniques such as γ-γ matrices, γ-γ-γ cubes, and so forth offer powerful tools to study the coincidence relationships of γ ray transitions, which in turn allow to build level schemes and give insight into the structure of the nucleus.",
+      "extracted_text_raw_reflow": "Coincident spectroscopy techniques such as γ-γ matrices, γ-γ-γ cubes, and so forth offer powerful tools to study the coincidence relationships of γ ray transitions, which in turn allow to build level schemes and give insight into the structure of the nucleus.",
+      "translation": "γ–γ矩阵、γ–γ–γ立方体等符合谱学技术，是研究γ跃迁符合关系的有力工具，进而能够用于建立能级纲图并了解核结构。",
+      "source_segments": [
+        {
+          "page": 56,
+          "printed_page": 45,
+          "PDF_text_block_indices_zero_based": [
+            14,
+            15
+          ],
+          "bbox": [
+            107.99993896484375,
+            716.0047607421875,
+            523.9368286132812,
+            746.73876953125
+          ]
+        },
+        {
+          "page": 57,
+          "printed_page": 46,
+          "PDF_text_block_indices_zero_based": [
+            3,
+            4
+          ],
+          "bbox": [
+            108.00004577636719,
+            530.8308715820312,
+            523.9384155273438,
+            561.5658569335938
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S021",
+      "page": 57,
+      "type": "heading",
+      "order": 31,
+      "original_text": "4.7 Correlations of Gamma Ray Transitions",
+      "extracted_text_raw_reflow": "4.7 Correlations of Gamma Ray Transitions",
+      "translation": "4.7 γ跃迁的角关联",
+      "source_segments": [
+        {
+          "page": 57,
+          "printed_page": 46,
+          "PDF_text_block_indices_zero_based": [
+            5,
+            5
+          ],
+          "bbox": [
+            108.00004577636719,
+            602.3030395507812,
+            491.653564453125,
+            619.5180053710938
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S022",
+      "page": 57,
+      "type": "heading",
+      "order": 32,
+      "original_text": "4.7.1 Angular Distribution",
+      "extracted_text_raw_reflow": "4.7.1 Angular Distribution",
+      "translation": "4.7.1 角分布",
+      "source_segments": [
+        {
+          "page": 57,
+          "printed_page": 46,
+          "PDF_text_block_indices_zero_based": [
+            6,
+            6
+          ],
+          "bbox": [
+            108.00004577636719,
+            652.5421752929688,
+            306.21875,
+            666.88818359375
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S023",
+      "page": 57,
+      "type": "paragraph",
+      "order": 33,
+      "original_text": "Following HIFE reactions, the populated states are found to have their spins aligned perpendicular to the beam axis so that the emitted γ rays exhibit angular distributions depending upon their multipolarities and spins. Therefore, the measurement of angular distributions provides information on the γ ray multipolarities. The normalized empirical γ ray intensities at each angle are fitted to the Legendre expansion:",
+      "extracted_text_raw_reflow": "Following HIFE reactions, the populated states are found to have their spins aligned perpendicular to the beam axis so that the emitted γ rays exhibit angular distributions depending upon their multipolarities and spins. Therefore, the measurement of angular distributions provides information on the γ ray multipolarities. The normalized empirical γ ray intensities at each angle are fitted to the Legendre expansion:",
+      "translation": "HIFE反应后，被布居核态的自旋表现为垂直于束轴取向，因此所发射γ射线具有依赖于其多极性和自旋的角分布。所以，测量角分布可以提供γ射线多极性的信息。各角度处归一化的实验γ射线强度用下列勒让德展开进行拟合：",
+      "source_segments": [
+        {
+          "page": 57,
+          "printed_page": 46,
+          "PDF_text_block_indices_zero_based": [
+            7,
+            9
+          ],
+          "bbox": [
+            108.00003051757812,
+            691.2058715820312,
+            523.9502563476562,
+            740.7208862304688
+          ]
+        },
+        {
+          "page": 58,
+          "printed_page": 47,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            3
+          ],
+          "bbox": [
+            107.99998474121094,
+            83.73778533935547,
+            523.9290161132812,
+            133.25180053710938
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "E003",
+      "page": 58,
+      "type": "equation",
+      "order": 34,
+      "equation_number": "4.3",
+      "latex": null,
+      "bbox": [
+        195,
+        155,
+        531,
+        192
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E003.png",
+      "original_text": "W(θ) = A0[1 + a2P2(cos θ) + a4P4(cos θ)], (4.3)",
+      "translation": "归一化实验强度所拟合的勒让德展开，保留原式。",
+      "source_segments": [
+        {
+          "page": 58,
+          "printed_page": 47,
+          "PDF_text_block_indices_zero_based": [
+            4,
+            4
+          ],
+          "bbox": [
+            209.62098693847656,
+            169.1508026123047,
+            523.9282836914062,
+            182.0282440185547
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S024",
+      "page": 58,
+      "type": "paragraph",
+      "order": 35,
+      "original_text": "where the Pi(cos θ) are the Legendre polynomials. The a2 and a4 coefficients are characteristic to the transitions and their mixing ratios δE2/M1:",
+      "extracted_text_raw_reflow": "where the Pi(cos θ) are the Legendre polynomials. The a2 and a4 coefficients are characteristic to the transitions and their mixing ratios δE2/M1:",
+      "translation": "其中$P_i(\\cos\\theta)$为勒让德多项式。系数$a_2$和$a_4$反映跃迁及其混合比$\\delta_{E2/M1}$的特征：",
+      "source_segments": [
+        {
+          "page": 58,
+          "printed_page": 47,
+          "PDF_text_block_indices_zero_based": [
+            5,
+            6
+          ],
+          "bbox": [
+            107.99990844726562,
+            206.64378356933594,
+            523.9161987304688,
+            238.36717224121094
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "E004",
+      "page": 58,
+      "type": "equation",
+      "order": 36,
+      "equation_number": "4.4",
+      "latex": null,
+      "bbox": [
+        247,
+        253,
+        530,
+        305
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E004.png",
+      "original_text": "δE2/M1 = ⟨ψf| ˆE2 |ψi⟩ ⟨ψf| ˆ M1 |ψi⟩ , (4.4)",
+      "translation": "原文写出的E2/M1矩阵元比；未在译文中补入其它章节的能量或单位因子。",
+      "source_segments": [
+        {
+          "page": 58,
+          "printed_page": 47,
+          "PDF_text_block_indices_zero_based": [
+            7,
+            9
+          ],
+          "bbox": [
+            257.28790283203125,
+            263.79583740234375,
+            523.9284057617188,
+            288.7207946777344
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S025",
+      "page": 58,
+      "type": "paragraph",
+      "order": 37,
+      "original_text": "where |ψi⟩and ⟨ψf| are the initial and final states of the transitions, respectively. ˆE2 and ˆ M1 represent the electric quadruple and the magnetic dipole operators, respectively. The mixing ratios δE2/M1 represent the ratios of the relative matrix elements for E2 and M1 components for transitions with mixed M1+E2 multipolarity (see Chapter 3, equation 3.24).",
+      "extracted_text_raw_reflow": "where |ψi⟩and ⟨ψf| are the initial and final states of the transitions, respectively. ˆE2 and ˆ M1 represent the electric quadruple and the magnetic dipole operators, respectively. The mixing ratios δE2/M1 represent the ratios of the relative matrix elements for E2 and M1 components for transitions with mixed M1+E2 multipolarity (see Chapter 3, equation 3.24).",
+      "translation": "其中$|\\psi_i\\rangle$和$\\langle\\psi_f|$分别表示跃迁的初态与末态。$\\hat E2$和$\\hat M1$分别表示电四极算符和磁偶极算符。对于M1+E2混合多极跃迁，混合比$\\delta_{E2/M1}$表示E2和M1分量相对矩阵元的比值，参见第3章式3.24。",
+      "source_segments": [
+        {
+          "page": 58,
+          "printed_page": 47,
+          "PDF_text_block_indices_zero_based": [
+            10,
+            14
+          ],
+          "bbox": [
+            108.0,
+            316.7789001464844,
+            523.946044921875,
+            404.0068054199219
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S026",
+      "page": 58,
+      "type": "paragraph",
+      "order": 38,
+      "original_text": "In practice in most fusion evaporation reaction experiments the nuclear spins are not fully aligned orthogonally with respect to the beam direction when the γ rays are emitted, which leads to some attenuation of the theoretical a2 and a4 coefficients. The attenuation is usually evaluated from the experimental data.",
+      "extracted_text_raw_reflow": "In practice in most fusion evaporation reaction experiments the nuclear spins are not fully aligned orthogonally with respect to the beam direction when the γ rays are emitted, which leads to some attenuation of the theoretical a2 and a4 coefficients. The attenuation is usually evaluated from the experimental data.",
+      "translation": "实际中，在大多数融合蒸发反应实验里，发射γ射线时的核自旋并未完全垂直于束流方向取向，因此理论$a_2$和$a_4$系数会受到一定衰减。这种衰减通常由实验数据评估。",
+      "source_segments": [
+        {
+          "page": 58,
+          "printed_page": 47,
+          "PDF_text_block_indices_zero_based": [
+            15,
+            17
+          ],
+          "bbox": [
+            107.9990234375,
+            421.1268310546875,
+            523.9492797851562,
+            489.4197998046875
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S027",
+      "page": 58,
+      "type": "heading",
+      "order": 39,
+      "original_text": "4.7.2 Angular Correlations",
+      "extracted_text_raw_reflow": "4.7.2 Angular Correlations",
+      "translation": "4.7.2 角关联",
+      "source_segments": [
+        {
+          "page": 58,
+          "printed_page": 47,
+          "PDF_text_block_indices_zero_based": [
+            18,
+            18
+          ],
+          "bbox": [
+            107.99905395507812,
+            525.9331665039062,
+            306.691162109375,
+            540.2791748046875
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S028",
+      "page": 58,
+      "type": "paragraph",
+      "order": 40,
+      "original_text": "Angular correlation measurements involve the determination of coincidence intensities for a cascade of two γ ray transitions detected in coincidence by two detectors at different angles. The multipolarity of an emitted γ ray can be obtained using the Directional Correlation from Oriented states (DCO) ratios (RDCO) [35, 37]. Such RDCO values can be extracted by sorting the data from all detectors into an asymmetric γ-γ matrix, constructed in such a way that coincidence events detected by the detectors mounted at one angle (say 90◦) are on one axis and those detected by a detector mounted at another angle (say 135◦) are on the other axis. The RDCO ratios are calculated using the γ ray intensities (Iγ) extracted from this matrix as:",
+      "extracted_text_raw_reflow": "Angular correlation measurements involve the determination of coincidence intensities for a cascade of two γ ray transitions detected in coincidence by two detectors at different angles. The multipolarity of an emitted γ ray can be obtained using the Directional Correlation from Oriented states (DCO) ratios (RDCO) [35, 37]. Such RDCO values can be extracted by sorting the data from all detectors into an asymmetric γ-γ matrix, constructed in such a way that coincidence events detected by the detectors mounted at one angle (say 90◦) are on one axis and those detected by a detector mounted at another angle (say 135◦) are on the other axis. The RDCO ratios are calculated using the γ ray intensities (Iγ) extracted from this matrix as:",
+      "translation": "角关联测量要确定由不同角度处的两台探测器符合探测到的两级γ级联的符合强度。可以利用取向态定向关联（Directional Correlation from Oriented states，DCO）比$R_{DCO}$确定所发射γ射线的多极性[35,37]。将全部探测器数据分选为非对称γ–γ矩阵，便可提取该比值：一个轴记录某角度探测器，例如90°，探测的符合事件，另一个轴记录另一角度探测器，例如135°，探测的事件。利用从该矩阵中提取的γ射线强度$I_\\gamma$，按下式计算$R_{DCO}$：",
+      "source_segments": [
+        {
+          "page": 58,
+          "printed_page": 47,
+          "PDF_text_block_indices_zero_based": [
+            19,
+            28
+          ],
+          "bbox": [
+            107.99905395507812,
+            564.5968017578125,
+            523.9375610351562,
+            745.5687866210938
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "E005",
+      "page": 59,
+      "type": "equation",
+      "order": 41,
+      "equation_number": "4.5",
+      "latex": null,
+      "bbox": [
+        215,
+        80,
+        532,
+        135
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E005.png",
+      "original_text": "RDCO = I135◦ γ1 (gated on γ2 at 90◦) I90◦ γ1 (gated on γ2 at 135◦), (4.5)",
+      "translation": "DCO比的分子、分母具有互换的目标角与门角；保留原式。",
+      "source_segments": [
+        {
+          "page": 59,
+          "printed_page": 48,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            3
+          ],
+          "bbox": [
+            226.3769989013672,
+            92.17752838134766,
+            523.9283447265625,
+            128.12075805664062
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S029",
+      "page": 59,
+      "type": "paragraph",
+      "order": 42,
+      "original_text": "where, I135◦ γ1 (gated on γ2 at 90◦) is the intensity of γ ray 1 at an angle of 135◦as seen from a gate set on γ ray 2 at an angle of 90◦, I90◦ γ1 (gated on γ2 at 135◦) is the intensity of γ ray 1 at an angle of 90◦as seen from a gate set on γ ray 2 at an angle of 135◦. For stretched quadrupole transitions, RDCO values of ≈1 are obtained and for stretched pure dipole transitions RDCO values are ≈0.5 when gating on stretched quadrupole transitions (that is γ2 is E2). When we gate on a stretched dipole transitions RDCO values of ≈1.0 are obtained for pure stretched dipoles while RDCO values of ≈2.0 are obtained for stretched quadrupole transitions.",
+      "extracted_text_raw_reflow": "where, I135◦ γ1 (gated on γ2 at 90◦) is the intensity of γ ray 1 at an angle of 135◦as seen from a gate set on γ ray 2 at an angle of 90◦, I90◦ γ1 (gated on γ2 at 135◦) is the intensity of γ ray 1 at an angle of 90◦as seen from a gate set on γ ray 2 at an angle of 135◦. For stretched quadrupole transitions, RDCO values of ≈1 are obtained and for stretched pure dipole transitions RDCO values are ≈0.5 when gating on stretched quadrupole transitions (that is γ2 is E2). When we gate on a stretched dipole transitions RDCO values of ≈1.0 are obtained for pure stretched dipoles while RDCO values of ≈2.0 are obtained for stretched quadrupole transitions.",
+      "translation": "其中，$I_{\\gamma1}^{135^\\circ}$（在90°探测的γ2上设门）是在90°的γ2上设门后得到的135°处γ1强度；$I_{\\gamma1}^{90^\\circ}$（在135°探测的γ2上设门）是在135°的γ2上设门后得到的90°处γ1强度。在伸展四极跃迁上设门，即γ2为E2时，伸展四极跃迁的$R_{DCO}\\approx1$，伸展纯偶极跃迁的$R_{DCO}\\approx0.5$。若在伸展偶极跃迁上设门，纯伸展偶极跃迁有$R_{DCO}\\approx1.0$，伸展四极跃迁则有$R_{DCO}\\approx2.0$。",
+      "source_segments": [
+        {
+          "page": 59,
+          "printed_page": 48,
+          "PDF_text_block_indices_zero_based": [
+            4,
+            13
+          ],
+          "bbox": [
+            107.99996948242188,
+            143.7624969482422,
+            506.513916015625,
+            291.5259094238281
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S030",
+      "page": 59,
+      "type": "paragraph",
+      "order": 43,
+      "original_text": "The data on $^{133}$Ce, obtained with the AFRODITE array at iTL were analysed using angular distribution ratios,",
+      "extracted_text_raw_reflow": "The data on $^{133}$Ce, obtained with the AFRODITE array at iTL were analysed using angular distribution ratios,",
+      "translation": "使用角分布比分析iTL的AFRODITE阵列获得的$^{133}$Ce数据：",
+      "source_segments": [
+        {
+          "page": 59,
+          "printed_page": 48,
+          "PDF_text_block_indices_zero_based": [
+            14,
+            15
+          ],
+          "bbox": [
+            107.99995422363281,
+            305.62823486328125,
+            523.946044921875,
+            337.58685302734375
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "E006",
+      "page": 59,
+      "type": "equation",
+      "order": 44,
+      "equation_number": "4.6",
+      "latex": null,
+      "bbox": [
+        197,
+        351,
+        532,
+        407
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E006.png",
+      "original_text": "RAD = I135◦ γ1 (gated on γ2 in all detectors) I90◦ γ1 (gated on γ2 in all detectors) , (4.6)",
+      "translation": "目标γ的两个角度强度相除，门γ在全部探测器中选取；保留原式。",
+      "source_segments": [
+        {
+          "page": 59,
+          "printed_page": 48,
+          "PDF_text_block_indices_zero_based": [
+            16,
+            18
+          ],
+          "bbox": [
+            207.93997192382812,
+            363.1465759277344,
+            523.9284057617188,
+            399.0897216796875
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S031",
+      "page": 59,
+      "type": "paragraph",
+      "order": 45,
+      "original_text": "where I135◦ γ1 is the intensity of γ ray 1 at an angle of 135◦, when a gate is set on γ ray 2, where this γ ray is detected in all detectors. Similarly, I90◦ γ1 corresponds to the intensity of γ ray 1 at an angle of 90◦, when a gate is set on γ ray 2, where this γ ray is detected in all detectors.",
+      "extracted_text_raw_reflow": "where I135◦ γ1 is the intensity of γ ray 1 at an angle of 135◦, when a gate is set on γ ray 2, where this γ ray is detected in all detectors. Similarly, I90◦ γ1 corresponds to the intensity of γ ray 1 at an angle of 90◦, when a gate is set on γ ray 2, where this γ ray is detected in all detectors.",
+      "translation": "其中$I_{\\gamma1}^{135^\\circ}$是在γ2上设门后得到的135°处γ1强度，γ2由全部探测器探测。同样，$I_{\\gamma1}^{90^\\circ}$是在γ2上设门后得到的90°处γ1强度，门γ2也由全部探测器探测。",
+      "source_segments": [
+        {
+          "page": 59,
+          "printed_page": 48,
+          "PDF_text_block_indices_zero_based": [
+            19,
+            24
+          ],
+          "bbox": [
+            108.0,
+            414.73046875,
+            299.6156005859375,
+            485.58172607421875
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S032",
+      "page": 59,
+      "type": "paragraph",
+      "order": 46,
+      "original_text": "The RAD values do not depend on the multipolarity of the gated γ ray. For the AFRODITE array, the values obtained were RAD ∼1.3 for stretched quadrupole transitions and RAD ∼0.8 for stretched dipole transitions. The angular distribution analysis for $^{133}$Ce and the spin and parity assignments for the new levels were carried out by our Chinese collaborators. The experimental results for $^{133}$Ce and $^{131}$Ba are presented in Chapter 5.",
+      "extracted_text_raw_reflow": "The RAD values do not depend on the multipolarity of the gated γ ray. For the AFRODITE array, the values obtained were RAD ∼1.3 for stretched quadrupole transitions and RAD ∼0.8 for stretched dipole transitions. The angular distribution analysis for $^{133}$Ce and the spin and parity assignments for the new levels were carried out by our Chinese collaborators. The experimental results for $^{133}$Ce and $^{131}$Ba are presented in Chapter 5.",
+      "translation": "$R_{AD}$不依赖门γ射线的多极性。对AFRODITE阵列，伸展四极跃迁得到$R_{AD}\\sim1.3$，伸展偶极跃迁得到$R_{AD}\\sim0.8$。$^{133}$Ce的角分布分析以及新能级的自旋宇称指定由我们的中国合作人员完成。第5章给出$^{133}$Ce和$^{131}$Ba的实验结果。",
+      "source_segments": [
+        {
+          "page": 59,
+          "printed_page": 48,
+          "PDF_text_block_indices_zero_based": [
+            25,
+            30
+          ],
+          "bbox": [
+            107.99998474121094,
+            502.70172119140625,
+            523.92724609375,
+            608.5547485351562
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S033",
+      "page": 60,
+      "type": "heading",
+      "order": 47,
+      "original_text": "Chapter 5 Results",
+      "extracted_text_raw_reflow": "Chapter 5 Results",
+      "translation": "第5章 实验结果",
+      "source_segments": [
+        {
+          "page": 60,
+          "printed_page": 49,
+          "PDF_text_block_indices_zero_based": [
+            0,
+            1
+          ],
+          "bbox": [
+            108.0,
+            172.671142578125,
+            230.91873168945312,
+            266.5321350097656
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S034",
+      "page": 60,
+      "type": "heading",
+      "order": 48,
+      "original_text": "5.1 Introduction",
+      "extracted_text_raw_reflow": "5.1 Introduction",
+      "translation": "5.1 引言",
+      "source_segments": [
+        {
+          "page": 60,
+          "printed_page": 49,
+          "PDF_text_block_indices_zero_based": [
+            2,
+            2
+          ],
+          "bbox": [
+            108.0,
+            326.3018798828125,
+            258.76898193359375,
+            343.5168762207031
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S035",
+      "page": 60,
+      "type": "paragraph",
+      "order": 49,
+      "original_text": "Theoretical and experimental studies have shown that odd-N nuclei in the A ≈130 region present one of the richest regions across the nuclear chart to study exotic nuclear phenomena across extended spin ranges. Nuclear triaxiality is one such phenomenon, which results when there is unequal density distribution across the three intrinsic nuclear axes.",
+      "extracted_text_raw_reflow": "Theoretical and experimental studies have shown that odd-N nuclei in the A ≈130 region present one of the richest regions across the nuclear chart to study exotic nuclear phenomena across extended spin ranges. Nuclear triaxiality is one such phenomenon, which results when there is unequal density distribution across the three intrinsic nuclear axes.",
+      "translation": "理论和实验研究表明，$A\\approx130$区的奇中子数原子核，是整个核素图中在较大自旋范围研究奇特核现象最丰富的区域之一。核三轴性就是其中一种现象：沿原子核三个内禀主轴的密度分布不相等时，会出现三轴性。",
+      "source_segments": [
+        {
+          "page": 60,
+          "printed_page": 49,
+          "PDF_text_block_indices_zero_based": [
+            3,
+            7
+          ],
+          "bbox": [
+            108.0,
+            371.1708068847656,
+            523.9279174804688,
+            458.39971923828125
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S036",
+      "page": 60,
+      "type": "paragraph",
+      "order": 50,
+      "original_text": "This chapter presents the results obtained from two experiments. The first experiment was performed at the separated sector cyclotron of iThemba LABS in Cape Town, South Africa. The experiment populated high-spin states in $^{133}$Ce. In the second experiment excited states in $^{131}$Ba were populated via the fusion-evaporation $^{122}$Sn($^{13}$C, 4n)$^{131}$Ba reaction at the XTU Tandem accelerator of Laborotori Nazionali di Legnaro, Italy.",
+      "extracted_text_raw_reflow": "This chapter presents the results obtained from two experiments. The first experiment was performed at the separated sector cyclotron of iThemba LABS in Cape Town, South Africa. The experiment populated high-spin states in $^{133}$Ce. In the second experiment excited states in $^{131}$Ba were populated via the fusion-evaporation $^{122}$Sn($^{13}$C, 4n)$^{131}$Ba reaction at the XTU Tandem accelerator of Laborotori Nazionali di Legnaro, Italy.",
+      "translation": "本章给出两个实验的结果。第一个实验在南非开普敦iThemba LABS的分离扇形回旋加速器上完成，布居了$^{133}$Ce的高自旋态。第二个实验在意大利Legnaro国家实验室的XTU串列加速器上，利用融合蒸发反应$^{122}$Sn($^{13}$C,4n)$^{131}$Ba布居了$^{131}$Ba的激发态。",
+      "source_segments": [
+        {
+          "page": 60,
+          "printed_page": 49,
+          "PDF_text_block_indices_zero_based": [
+            8,
+            13
+          ],
+          "bbox": [
+            107.99998474121094,
+            475.51873779296875,
+            523.91455078125,
+            581.3717041015625
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S037",
+      "page": 60,
+      "type": "paragraph",
+      "order": 51,
+      "original_text": "The discussion of the results presented here is deferred to the next chapter.",
+      "extracted_text_raw_reflow": "The discussion of the results presented here is deferred to the next chapter.",
+      "translation": "本章所给结果的讨论留到下一章进行。",
+      "source_segments": [
+        {
+          "page": 60,
+          "printed_page": 49,
+          "PDF_text_block_indices_zero_based": [
+            14,
+            14
+          ],
+          "bbox": [
+            107.99998474121094,
+            598.49072265625,
+            494.4095458984375,
+            610.4457397460938
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S038",
+      "page": 61,
+      "type": "heading",
+      "order": 52,
+      "original_text": "5.2 $^{133}$Ce Results",
+      "extracted_text_raw_reflow": "5.2 $^{133}$Ce Results",
+      "translation": "5.2 133Ce的结果",
+      "source_segments": [
+        {
+          "page": 61,
+          "printed_page": 50,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            1
+          ],
+          "bbox": [
+            108.0,
+            85.47978973388672,
+            261.70416259765625,
+            104.83191680908203
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S039",
+      "page": 61,
+      "type": "heading",
+      "order": 53,
+      "original_text": "5.2.1 Experimental Details",
+      "extracted_text_raw_reflow": "5.2.1 Experimental Details",
+      "translation": "5.2.1 实验细节",
+      "source_segments": [
+        {
+          "page": 61,
+          "printed_page": 50,
+          "PDF_text_block_indices_zero_based": [
+            2,
+            2
+          ],
+          "bbox": [
+            108.0,
+            137.8551025390625,
+            306.8642272949219,
+            152.20111083984375
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S040",
+      "page": 61,
+      "type": "paragraph",
+      "order": 54,
+      "original_text": "The experiment was performed at the separated sector cyclotron of iThemba LABS in Cape Town, South Africa. High-spin states in $^{133}$Ce were populated via the $^{125}$Te($^{12}$C, 4n) $^{133}$Ce at a beam energy of 57 MeV and an intensity of 5 pnA. The target was an isotopically enriched $^{125}$Te metallic foil with a thickness of 2 mg/cm² on an 8 mg/cm² gold backing. The γ rays emitted by the excited residual nuclei have been measured with the AFRODITE array [54, 68] which consists of thirteen Compton-suppressed clover detectors arranged in three rings at 45◦(one clover), 90◦(eight clovers) and 135◦(four clovers) with respect to the beam direction. A total of $2.8\\times10^{10}$ doubleand $5.4\\times10^9$ tripleand higher coincidence events were collected and sorted into twoand three-dimensional matrices for off-line analysis by our Chinese collaborators. However the data analysis is part of the present work, and it was carried out using the RADWARE software package [60].",
+      "extracted_text_raw_reflow": "The experiment was performed at the separated sector cyclotron of iThemba LABS in Cape Town, South Africa. High-spin states in $^{133}$Ce were populated via the $^{125}$Te($^{12}$C, 4n) $^{133}$Ce at a beam energy of 57 MeV and an intensity of 5 pnA. The target was an isotopically enriched $^{125}$Te metallic foil with a thickness of 2 mg/cm² on an 8 mg/cm² gold backing. The γ rays emitted by the excited residual nuclei have been measured with the AFRODITE array [54, 68] which consists of thirteen Compton-suppressed clover detectors arranged in three rings at 45◦(one clover), 90◦(eight clovers) and 135◦(four clovers) with respect to the beam direction. A total of $2.8\\times10^{10}$ doubleand $5.4\\times10^9$ tripleand higher coincidence events were collected and sorted into twoand three-dimensional matrices for off-line analysis by our Chinese collaborators. However the data analysis is part of the present work, and it was carried out using the RADWARE software package [60].",
+      "translation": "实验在南非开普敦iThemba LABS的分离扇形回旋加速器上进行。利用$^{125}$Te($^{12}$C,4n)$^{133}$Ce反应，在57 MeV束流能量和5 pnA束流强度下布居$^{133}$Ce的高自旋态。靶为厚度2 mg/cm²、同位素富集的$^{125}$Te金属箔，置于8 mg/cm²的金背衬上。用AFRODITE阵列[54,68]测量激发剩余核发射的γ射线；该阵列由13个带康普顿抑制的Clover探测器组成，相对束流方向分为三个环：45°处1个、90°处8个、135°处4个。共采集$2.8\\times10^{10}$个双重符合事件和$5.4\\times10^9$个三重及更高重数符合事件，由我们的中国合作人员分选为二维与三维矩阵，供离线分析。数据分析属于本工作的一部分，并使用RADWARE软件包[60]完成。",
+      "source_segments": [
+        {
+          "page": 61,
+          "printed_page": 50,
+          "PDF_text_block_indices_zero_based": [
+            3,
+            14
+          ],
+          "bbox": [
+            108.0,
+            176.51976013183594,
+            523.9384155273438,
+            395.05084228515625
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S041",
+      "page": 61,
+      "type": "heading",
+      "order": 55,
+      "original_text": "5.2.2 $^{133}$Ce Experimental Results",
+      "extracted_text_raw_reflow": "5.2.2 $^{133}$Ce Experimental Results",
+      "translation": "5.2.2 133Ce的实验结果",
+      "source_segments": [
+        {
+          "page": 61,
+          "printed_page": 50,
+          "PDF_text_block_indices_zero_based": [
+            15,
+            15
+          ],
+          "bbox": [
+            108.00003051757812,
+            429.78265380859375,
+            349.3419494628906,
+            445.9092102050781
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S042",
+      "page": 61,
+      "type": "paragraph",
+      "order": 56,
+      "original_text": "In this work the γ-γ coincidence matrix for the $^{133}$Ce data were analysed. The deduced level scheme of $^{133}$Ce is shown in Figure 5.1. The ordering of transitions within the proposed level scheme is based on γ-ray coincidences and their relative intensities. A number of new transition were identified. The experimental results will be discussed in two sections, one for the negative-parity bands and the other for the positive-parity bands.",
+      "extracted_text_raw_reflow": "In this work the γ-γ coincidence matrix for the $^{133}$Ce data were analysed. The deduced level scheme of $^{133}$Ce is shown in Figure 5.1. The ordering of transitions within the proposed level scheme is based on γ-ray coincidences and their relative intensities. A number of new transition were identified. The experimental results will be discussed in two sections, one for the negative-parity bands and the other for the positive-parity bands.",
+      "translation": "本工作分析了$^{133}$Ce数据的γ–γ符合矩阵。得到的$^{133}$Ce能级纲图如图5.1所示。拟定纲图中跃迁的先后次序依据γ射线符合关系和相对强度确定，并识别出若干新跃迁。实验结果分为负宇称带和正宇称带两部分讨论。",
+      "source_segments": [
+        {
+          "page": 61,
+          "printed_page": 50,
+          "PDF_text_block_indices_zero_based": [
+            16,
+            21
+          ],
+          "bbox": [
+            107.99996948242188,
+            469.00323486328125,
+            523.9173583984375,
+            576.079833984375
+          ]
+        }
+      ],
+      "refs": [
+        "F004"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "F004",
+      "page": 65,
+      "type": "figure",
+      "order": 57,
+      "original_text": "Figure 5.1",
+      "translation": "133Ce部分能级纲图",
+      "bbox": [
+        172,
+        74,
+        490,
+        720
+      ],
+      "image_path": "assets/figures/F004.png",
+      "refs": [
+        "C005"
+      ],
+      "insert_after": "S042",
+      "confidence": "high"
+    },
+    {
+      "id": "C005",
+      "page": 65,
+      "type": "caption",
+      "order": 58,
+      "original_text": "Figure 5.1: A partial level scheme deduced for $^{133}$Ce from this work. The width of the arrows is proportional to the relative intensity (normalized to the 170 keV transition). Energies are labelled in keV, new levels and new transitions are marked in red, while known transitions are shown in black.",
+      "translation": "图5.1：本工作得到的$^{133}$Ce部分能级纲图。箭头宽度与相对强度成正比，强度归一到170 keV跃迁。能量单位为keV。新能级与新跃迁以红色标出，已知跃迁以黑色标出。",
+      "source_segments": [
+        {
+          "page": 65,
+          "printed_page": 54,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            1
+          ],
+          "bbox": [
+            128.927001953125,
+            726.2739868164062,
+            506.84637451171875,
+            776.51025390625
+          ]
+        }
+      ],
+      "refs": [
+        "F004"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "S043",
+      "page": 61,
+      "type": "heading",
+      "order": 59,
+      "original_text": "5.2.2.1 The Negative-Parity Bands",
+      "extracted_text_raw_reflow": "5.2.2.1 The Negative-Parity Bands",
+      "translation": "5.2.2.1 负宇称带",
+      "source_segments": [
+        {
+          "page": 61,
+          "printed_page": 50,
+          "PDF_text_block_indices_zero_based": [
+            22,
+            22
+          ],
+          "bbox": [
+            107.99996948242188,
+            609.9288330078125,
+            320.6793518066406,
+            621.8838500976562
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S044",
+      "page": 61,
+      "type": "heading",
+      "order": 60,
+      "original_text": "Band 1",
+      "extracted_text_raw_reflow": "Band 1",
+      "translation": "Band 1",
+      "source_segments": [
+        {
+          "page": 61,
+          "printed_page": 50,
+          "PDF_text_block_indices_zero_based": [
+            23,
+            23
+          ],
+          "bbox": [
+            107.99996948242188,
+            646.7238159179688,
+            150.26087951660156,
+            658.6788330078125
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S045",
+      "page": 61,
+      "type": "paragraph",
+      "order": 61,
+      "original_text": "This negative-parity band structure has been previously identified in Refs. [7, 47, 52]. It constitutes the yrast band, a sequence of rotational states with the least amount of excitation energy for a given spin. It is built on the $I^\\pi=9/2^-$state and extends up to the $I^\\pi=35/2^-$state. Band 1 is based on a neutron hole in the $\\nu h_{11/2}$ sub-shell that is coupled to a rotating triaxial core. The γ-ray energies, relative intensities, spins and parities for the intraband transitions in Band 1 are listed in Table 5.1 and the corresponding level scheme is shown in Figure 5.1. No new transitions were found for Band 1.",
+      "extracted_text_raw_reflow": "This negative-parity band structure has been previously identified in Refs. [7, 47, 52]. It constitutes the yrast band, a sequence of rotational states with the least amount of excitation energy for a given spin. It is built on the $I^\\pi=9/2^-$state and extends up to the $I^\\pi=35/2^-$state. Band 1 is based on a neutron hole in the $\\nu h_{11/2}$ sub-shell that is coupled to a rotating triaxial core. The γ-ray energies, relative intensities, spins and parities for the intraband transitions in Band 1 are listed in Table 5.1 and the corresponding level scheme is shown in Figure 5.1. No new transitions were found for Band 1.",
+      "translation": "该负宇称带结构已在文献[7,47,52]中识别。它构成yrast带，即对给定自旋具有最低激发能的一系列转动态。该带建立在$I^\\pi=9/2^-$态上，延伸至$I^\\pi=35/2^-$。Band 1以$\\nu h_{11/2}$子壳层中的一个中子空穴为基础，该空穴与旋转的三轴核芯耦合。表5.1列出了Band 1带内跃迁的γ能量、相对强度、自旋和宇称，相应能级纲图见图5.1。本工作没有在Band 1中发现新跃迁。",
+      "source_segments": [
+        {
+          "page": 61,
+          "printed_page": 50,
+          "PDF_text_block_indices_zero_based": [
+            24,
+            28
+          ],
+          "bbox": [
+            107.99996948242188,
+            665.5038452148438,
+            523.9216918945312,
+            754.4368286132812
+          ]
+        },
+        {
+          "page": 62,
+          "printed_page": 51,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            3
+          ],
+          "bbox": [
+            108.0,
+            83.73778533935547,
+            523.9502563476562,
+            133.25180053710938
+          ]
+        }
+      ],
+      "refs": [
+        "T002"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "T002",
+      "page": 66,
+      "type": "table",
+      "order": 62,
+      "original_text": "Table 5.1",
+      "translation": "133Ce yrast Band 1的跃迁",
+      "bbox": [
+        121,
+        78,
+        513,
+        450
+      ],
+      "image_path": "assets/tables/T002.png",
+      "refs": [
+        "C006"
+      ],
+      "insert_after": "S045",
+      "confidence": "high"
+    },
+    {
+      "id": "C006",
+      "page": 66,
+      "type": "caption",
+      "order": 63,
+      "original_text": "Table 5.1: Transitions in the yrast band (Band 1) of $^{133}$Ce. Gamma-ray energies, relative intensities, spins and parities for the intraband M1+E2 and the E2 transitions assigned to Band 1 are presented where the intensities are given relative to that of the 170- keV transition. The error on the transition energies is within 0.3 keV for transitions with Iγ ≥10 and up to 0.7 keV for transitions with Iγ < 10.",
+      "translation": "表5.1：$^{133}$Ce yrast带Band 1中的跃迁。表中列出归属于Band 1的带内M1+E2和E2跃迁的γ能量、相对强度、自旋与宇称，强度均相对于170 keV跃迁给出。对于$I_\\gamma\\ge10$的跃迁，跃迁能量误差在0.3 keV以内；对于$I_\\gamma<10$的跃迁，能量误差最高为0.7 keV。",
+      "source_segments": [
+        {
+          "page": 66,
+          "printed_page": 55,
+          "PDF_text_block_indices_zero_based": [
+            5,
+            6
+          ],
+          "bbox": [
+            127.92498779296875,
+            459.6739807128906,
+            504.05645751953125,
+            542.3493041992188
+          ]
+        }
+      ],
+      "refs": [
+        "T002"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "S046",
+      "page": 62,
+      "type": "heading",
+      "order": 64,
+      "original_text": "Band 4",
+      "extracted_text_raw_reflow": "Band 4",
+      "translation": "Band 4",
+      "source_segments": [
+        {
+          "page": 62,
+          "printed_page": 51,
+          "PDF_text_block_indices_zero_based": [
+            4,
+            4
+          ],
+          "bbox": [
+            108.00100708007812,
+            150.3707733154297,
+            150.26193237304688,
+            162.32577514648438
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S047",
+      "page": 62,
+      "type": "paragraph",
+      "order": 65,
+      "original_text": "All intraband transitions of Band 4 are new and they constitute a new band, see Figure 5.1. The lowest observed state in the band is the $I^\\pi=13/2^-$state and the band was extended up to $I^\\pi=27/2^-$. The new transitions were observed in the AFRODITE data. Six intraband E2 transitions with energies of 578, 608, 890, 871, 984, and 936 keV and six new intraband M1+E2 transitions with energies of 369, 209, 399, 490, 380, 604 and 332 keV were observed in this work. In addition, seven new interband E2 transitions with energies of 795, 993, 982, 955, 1090, 1083, and 1130 keV and eight interband M1+E2 transitions with energies of 625, 609, 583, 464, 709, 479, 797 and 484 keV were observed to feed into the yrast band (Band 1). Experimental information about the transitions in this band are presented in Table. 5.2. In Figure 5.2, spectra gated on the 608-, 871-, 936- and 795- keV transitions are presented to illustrate the transitions of Band 4.",
+      "extracted_text_raw_reflow": "All intraband transitions of Band 4 are new and they constitute a new band, see Figure 5.1. The lowest observed state in the band is the $I^\\pi=13/2^-$state and the band was extended up to $I^\\pi=27/2^-$. The new transitions were observed in the AFRODITE data. Six intraband E2 transitions with energies of 578, 608, 890, 871, 984, and 936 keV and six new intraband M1+E2 transitions with energies of 369, 209, 399, 490, 380, 604 and 332 keV were observed in this work. In addition, seven new interband E2 transitions with energies of 795, 993, 982, 955, 1090, 1083, and 1130 keV and eight interband M1+E2 transitions with energies of 625, 609, 583, 464, 709, 479, 797 and 484 keV were observed to feed into the yrast band (Band 1). Experimental information about the transitions in this band are presented in Table. 5.2. In Figure 5.2, spectra gated on the 608-, 871-, 936- and 795- keV transitions are presented to illustrate the transitions of Band 4.",
+      "translation": "Band 4的全部带内跃迁都是新发现的，并构成一条新带，见图5.1。该带观测到的最低态为$I^\\pi=13/2^-$，向上延伸到$I^\\pi=27/2^-$。这些新跃迁在AFRODITE数据中被观测到。本工作观测到了6条带内E2跃迁，能量为578、608、890、871、984和936 keV，以及6条新的带内M1+E2跃迁，所列能量为369、209、399、490、380、604和332 keV。此外，还观测到7条新的带间E2跃迁，能量为795、993、982、955、1090、1083和1130 keV，以及8条带间M1+E2跃迁，能量为625、609、583、464、709、479、797和484 keV；它们馈入yrast带Band 1。该带跃迁的实验信息见表5.2。图5.2给出了分别在608、871、936和795 keV跃迁上设门的能谱，以展示Band 4的跃迁。",
+      "source_segments": [
+        {
+          "page": 62,
+          "printed_page": 51,
+          "PDF_text_block_indices_zero_based": [
+            5,
+            16
+          ],
+          "bbox": [
+            108.00100708007812,
+            169.1508026123047,
+            523.951416015625,
+            387.6819152832031
+          ]
+        }
+      ],
+      "refs": [
+        "T003",
+        "F005"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "T003",
+      "page": 67,
+      "type": "table",
+      "order": 66,
+      "original_text": "Table 5.2",
+      "translation": "133Ce Band 4的跃迁",
+      "bbox": [
+        121,
+        78,
+        513,
+        606
+      ],
+      "image_path": "assets/tables/T003.png",
+      "refs": [
+        "C007"
+      ],
+      "insert_after": "S047",
+      "confidence": "high"
+    },
+    {
+      "id": "C007",
+      "page": 67,
+      "type": "caption",
+      "order": 67,
+      "original_text": "Table 5.2: Transitions in Band 4 of $^{133}$Ce. Gamma-ray energies, relative intensities, spins and parities for the transitions assigned to Band 4 (where the intensities are given relative to the 170- keV transition of Band 1). The error on the transition energies is within 0.3 keV for transitions with energies below 1000 keV and up to 0.5 keV for transitions with energies above 1000 keV.",
+      "translation": "表5.2：$^{133}$Ce Band 4中的跃迁。表中列出归属于Band 4的跃迁的γ能量、相对强度、自旋与宇称；强度相对于Band 1的170 keV跃迁给出。对能量低于1000 keV的跃迁，跃迁能量误差在0.3 keV以内；对能量高于1000 keV的跃迁，误差最高为0.5 keV。",
+      "source_segments": [
+        {
+          "page": 67,
+          "printed_page": 56,
+          "PDF_text_block_indices_zero_based": [
+            6,
+            7
+          ],
+          "bbox": [
+            127.92500305175781,
+            615.68798828125,
+            504.0238037109375,
+            683.17724609375
+          ]
+        }
+      ],
+      "refs": [
+        "T003"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "F005",
+      "page": 68,
+      "type": "figure",
+      "order": 68,
+      "original_text": "Figure 5.2",
+      "translation": "133Ce Band 4的四组门谱",
+      "bbox": [
+        17,
+        99,
+        546,
+        570
+      ],
+      "image_path": "assets/figures/F005.png",
+      "refs": [
+        "C008"
+      ],
+      "insert_after": "S047",
+      "confidence": "high"
+    },
+    {
+      "id": "C008",
+      "page": 68,
+      "type": "caption",
+      "order": 69,
+      "original_text": "Figure 5.2: Spectra gated on (a) the 608- , (b) 870- , (c) 936- , and (d) 795- keV transitions of Band 4. New transitions and new levels are shown in red. Known transitions and levels are shown in black.",
+      "translation": "图5.2：分别在Band 4的(a)608、(b)870、(c)936和(d)795 keV跃迁上设门得到的能谱。新跃迁与新能级以红色标出，已知跃迁与能级以黑色标出。",
+      "source_segments": [
+        {
+          "page": 68,
+          "printed_page": 57,
+          "PDF_text_block_indices_zero_based": [
+            74,
+            75
+          ],
+          "bbox": [
+            127.92500305175781,
+            599.927978515625,
+            504.0238037109375,
+            640.3192749023438
+          ]
+        }
+      ],
+      "refs": [
+        "F005"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "S048",
+      "page": 62,
+      "type": "paragraph",
+      "order": 70,
+      "original_text": "See panel (b) of Figure 5.2, for instance when we gate on 871- keV we do not ’see’ the 490- and 380- keV transitions, but we ’see’ the 490- and 380- keV transitions if we gate on 936- keV they show, therefore, the 490- and 380- keV transitions are in coincidence with the 936- keV transition, but anti-coincidence with the 871- keV transition, so they are placed in parallel to the 871- keV transition.",
+      "extracted_text_raw_reflow": "See panel (b) of Figure 5.2, for instance when we gate on 871- keV we do not ’see’ the 490- and 380- keV transitions, but we ’see’ the 490- and 380- keV transitions if we gate on 936- keV they show, therefore, the 490- and 380- keV transitions are in coincidence with the 936- keV transition, but anti-coincidence with the 871- keV transition, so they are placed in parallel to the 871- keV transition.",
+      "translation": "例如看图5.2(b)，在871 keV上设门时看不到490和380 keV跃迁，但在936 keV上设门时可以看到它们。因此，490和380 keV跃迁与936 keV跃迁符合，与871 keV跃迁反符合，所以将它们放置在与871 keV跃迁平行的退激支路中。",
+      "source_segments": [
+        {
+          "page": 62,
+          "printed_page": 51,
+          "PDF_text_block_indices_zero_based": [
+            17,
+            21
+          ],
+          "bbox": [
+            108.00199127197266,
+            404.8009338378906,
+            523.9541015625,
+            491.8739013671875
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S049",
+      "page": 62,
+      "type": "paragraph",
+      "order": 71,
+      "original_text": "Two transitions with very similar energies of 608 keV and 609 keV were placed in Band 4. When a gate is set on the 608 keV transition linking the 19/2−and the 15/2−states of Band 4, the resulting spectrum consists of all γ rays in coincidence with transitions in the energy range of 607 to 609 keV. Similarly, when a gate is set on the 609 keV transition linking the 15/2−state of Band 4 with the 13/2−state of Band 1, the resulting spectra consists of all γ rays in coincidence with transitions in the energy range of 608 to 610 keV. The pair (608, 609) is in coincident, that is they lie on the same decay path. Because the two transitions have an overlapping energy range when gated on such a pair is known as a ’doublet’ transition. Panel (a) of Figure 5.2 shows the spectrum when a gate is set on the 608- keV transition. The 608- keV γ ray ’sees’ the 609- keV transition. The 608 keV gate also ’sees’ the 209- and 399- keV transitions in the gated spectra, this may appear puzzling, because the 209- and 399- keV transitions are placed in a parallel decay branch with the 608- keV transition in Figure 5.1. This becomes easy to understand when one recalls that the 608- and 609- keV transitions are a doublet pair, thus the 209- and 399- keV transitions observed in this gate are in coincidence, not with the 608- keV transition, but rather the 609- keV transition.",
+      "extracted_text_raw_reflow": "Two transitions with very similar energies of 608 keV and 609 keV were placed in Band 4. When a gate is set on the 608 keV transition linking the 19/2−and the 15/2−states of Band 4, the resulting spectrum consists of all γ rays in coincidence with transitions in the energy range of 607 to 609 keV. Similarly, when a gate is set on the 609 keV transition linking the 15/2−state of Band 4 with the 13/2−state of Band 1, the resulting spectra consists of all γ rays in coincidence with transitions in the energy range of 608 to 610 keV. The pair (608, 609) is in coincident, that is they lie on the same decay path. Because the two transitions have an overlapping energy range when gated on such a pair is known as a ’doublet’ transition. Panel (a) of Figure 5.2 shows the spectrum when a gate is set on the 608- keV transition. The 608- keV γ ray ’sees’ the 609- keV transition. The 608 keV gate also ’sees’ the 209- and 399- keV transitions in the gated spectra, this may appear puzzling, because the 209- and 399- keV transitions are placed in a parallel decay branch with the 608- keV transition in Figure 5.1. This becomes easy to understand when one recalls that the 608- and 609- keV transitions are a doublet pair, thus the 209- and 399- keV transitions observed in this gate are in coincidence, not with the 608- keV transition, but rather the 609- keV transition.",
+      "translation": "Band 4中放置了两条能量十分接近的跃迁，分别为608和609 keV。在连接Band 4中$19/2^-$与$15/2^-$态的608 keV跃迁上设门时，所得能谱包含与607–609 keV能区内跃迁符合的全部γ射线。同样，在连接Band 4中$15/2^-$态与Band 1中$13/2^-$态的609 keV跃迁上设门时，所得能谱包含与608–610 keV能区内跃迁符合的全部γ射线。608和609 keV这一对跃迁彼此符合，也就是位于同一衰变路径上。由于在它们上设门时所覆盖的能量区间相互重叠，这样的一对跃迁称为双峰跃迁（doublet）。图5.2(a)给出了在608 keV跃迁上设门的能谱。608 keV γ射线“看到”609 keV跃迁。608 keV门谱里还“看到”209和399 keV跃迁，这似乎令人困惑，因为图5.1中209和399 keV跃迁被放在与608 keV跃迁平行的衰变支路上。回想608和609 keV构成双峰就容易理解：这一门谱中观测到的209和399 keV跃迁实际上与609 keV跃迁符合，而不是与608 keV跃迁符合。",
+      "source_segments": [
+        {
+          "page": 62,
+          "printed_page": 51,
+          "PDF_text_block_indices_zero_based": [
+            22,
+            35
+          ],
+          "bbox": [
+            108.00199127197266,
+            508.99395751953125,
+            523.9642944335938,
+            765.0839233398438
+          ]
+        },
+        {
+          "page": 63,
+          "printed_page": 52,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            3
+          ],
+          "bbox": [
+            108.0,
+            83.73778533935547,
+            523.9862670898438,
+            133.25180053710938
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S050",
+      "page": 63,
+      "type": "paragraph",
+      "order": 72,
+      "original_text": "The gate set on the 936- keV transition shown in panel (c) of Figure 5.2 ’sees’, all intraband transitions except the 332-, 604 and 984- keV transitions because the three transitions are in parallel. The 936 keV gate also ’sees’ all linking interband transitions except for the 484-, 1130-, 797, and 1083 keV transitions, thus the gated spectra doesn’t contain them because all they are anti-coincident.",
+      "extracted_text_raw_reflow": "The gate set on the 936- keV transition shown in panel (c) of Figure 5.2 ’sees’, all intraband transitions except the 332-, 604 and 984- keV transitions because the three transitions are in parallel. The 936 keV gate also ’sees’ all linking interband transitions except for the 484-, 1130-, 797, and 1083 keV transitions, thus the gated spectra doesn’t contain them because all they are anti-coincident.",
+      "translation": "图5.2(c)中的936 keV门“看到”除332、604和984 keV之外的全部带内跃迁；这3条跃迁处于平行支路。936 keV门也“看到”除484、1130、797和1083 keV之外的所有带间连接跃迁；这些例外跃迁都与门跃迁反符合，因此门谱中不包含它们。",
+      "source_segments": [
+        {
+          "page": 63,
+          "printed_page": 52,
+          "PDF_text_block_indices_zero_based": [
+            4,
+            8
+          ],
+          "bbox": [
+            107.99899291992188,
+            150.3707733154297,
+            523.907958984375,
+            237.44485473632812
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S051",
+      "page": 63,
+      "type": "paragraph",
+      "order": 73,
+      "original_text": "The gate set on the 795- keV transition shown in panel (d) of Figure 5.2 ’sees’ all intraband transitions as this transition is one of the two transitions (the other is the 625 keV transition) that depopulates the band head state of 13/2−which is linked to all the levels in Band 4. However, the spectra resulting from the 795 keV gate does not see any linking transitions between Band 4 and Band 1 because it is in parallel to all of them.",
+      "extracted_text_raw_reflow": "The gate set on the 795- keV transition shown in panel (d) of Figure 5.2 ’sees’ all intraband transitions as this transition is one of the two transitions (the other is the 625 keV transition) that depopulates the band head state of 13/2−which is linked to all the levels in Band 4. However, the spectra resulting from the 795 keV gate does not see any linking transitions between Band 4 and Band 1 because it is in parallel to all of them.",
+      "translation": "图5.2(d)中的795 keV门“看到”全部带内跃迁，因为该跃迁是使$13/2^-$带头态退激的两条跃迁之一，另一条为625 keV，而这一带头态与Band 4的全部能级相连。然而，795 keV门谱看不到Band 4与Band 1之间的任何连接跃迁，因为795 keV跃迁与这些连接跃迁均处于平行支路。",
+      "source_segments": [
+        {
+          "page": 63,
+          "printed_page": 52,
+          "PDF_text_block_indices_zero_based": [
+            9,
+            14
+          ],
+          "bbox": [
+            107.99896240234375,
+            254.56382751464844,
+            523.9198608398438,
+            360.4168701171875
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S052",
+      "page": 63,
+      "type": "heading",
+      "order": 74,
+      "original_text": "5.2.2.2 The Positive-Parity Bands",
+      "extracted_text_raw_reflow": "5.2.2.2 The Positive-Parity Bands",
+      "translation": "5.2.2.2 正宇称带",
+      "source_segments": [
+        {
+          "page": 63,
+          "printed_page": 52,
+          "PDF_text_block_indices_zero_based": [
+            15,
+            15
+          ],
+          "bbox": [
+            107.99896240234375,
+            394.264892578125,
+            315.35833740234375,
+            406.2198791503906
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S053",
+      "page": 63,
+      "type": "heading",
+      "order": 75,
+      "original_text": "Band 2",
+      "extracted_text_raw_reflow": "Band 2",
+      "translation": "Band 2",
+      "source_segments": [
+        {
+          "page": 63,
+          "printed_page": 52,
+          "PDF_text_block_indices_zero_based": [
+            16,
+            16
+          ],
+          "bbox": [
+            107.99896240234375,
+            431.0608825683594,
+            150.2598876953125,
+            443.015869140625
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S054",
+      "page": 63,
+      "type": "paragraph",
+      "order": 76,
+      "original_text": "The 844- and 782 keV transitions that form the positive-signature branch ($\\alpha=+1/2$) of Band 2 were previously identified (as band Q1 in Ref. [7]). This sequence was found to decay to the 340- keV level with, $I^\\pi=7/2^+$, state via a dipole transition of 338 keV. In this work, this band structure is extended and a further four intraband E2 transitions with energies of 693, 819, 881 and 887 keV, forming the negative-signature branch ($\\alpha=-1/2$) of Band 2, and four M1+E2 transitions with energies of 355, 426, 393, and 451 keV connecting the signature partners, were observed. In addition, an interband M1+E2 transition of 412 keV from Band 3 was also observed. Table 5.3 presents experimental details on the transitions of this band observed in this work.",
+      "extracted_text_raw_reflow": "The 844- and 782 keV transitions that form the positive-signature branch ($\\alpha=+1/2$) of Band 2 were previously identified (as band Q1 in Ref. [7]). This sequence was found to decay to the 340- keV level with, $I^\\pi=7/2^+$, state via a dipole transition of 338 keV. In this work, this band structure is extended and a further four intraband E2 transitions with energies of 693, 819, 881 and 887 keV, forming the negative-signature branch ($\\alpha=-1/2$) of Band 2, and four M1+E2 transitions with energies of 355, 426, 393, and 451 keV connecting the signature partners, were observed. In addition, an interband M1+E2 transition of 412 keV from Band 3 was also observed. Table 5.3 presents experimental details on the transitions of this band observed in this work.",
+      "translation": "构成Band 2正旋称支$\\alpha=+1/2$的844和782 keV跃迁此前已被识别，在文献[7]中称为Q1带。该序列通过一条338 keV偶极跃迁退激到能量340 keV、$I^\\pi=7/2^+$的能级。本工作扩展了该带结构，进一步观测到4条带内E2跃迁，能量为693、819、881和887 keV，构成Band 2的负旋称支$\\alpha=-1/2$；还观测到4条连接旋称伙伴的M1+E2跃迁，能量为355、426、393和451 keV。此外，还观测到一条来自Band 3的412 keV带间M1+E2跃迁。表5.3给出了本工作观测到的该带跃迁的实验细节。",
+      "source_segments": [
+        {
+          "page": 63,
+          "printed_page": 52,
+          "PDF_text_block_indices_zero_based": [
+            17,
+            26
+          ],
+          "bbox": [
+            107.99891662597656,
+            478.9148864746094,
+            523.917724609375,
+            659.8858642578125
+          ]
+        }
+      ],
+      "refs": [
+        "T004"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "T004",
+      "page": 69,
+      "type": "table",
+      "order": 77,
+      "original_text": "Table 5.3",
+      "translation": "133Ce Band 2的跃迁",
+      "bbox": [
+        121,
+        78,
+        487,
+        330
+      ],
+      "image_path": "assets/tables/T004.png",
+      "refs": [
+        "C009"
+      ],
+      "insert_after": "S054",
+      "confidence": "high"
+    },
+    {
+      "id": "C009",
+      "page": 69,
+      "type": "caption",
+      "order": 78,
+      "original_text": "Table 5.3: Transitions in Band 2 of $^{133}$Ce. Gamma-ray energies, relative intensities, spins and parities for the transitions assigned to Band 2 (where the intensities are given relative to the 170- keV transition of Band 1). The error on the transition energies is within 0.3 keV for transitions with energies below 1000 keV and up to 0.5 keV for transitions with energies above 1000 keV.",
+      "translation": "表5.3：$^{133}$Ce Band 2中的跃迁。表中列出归属于Band 2的跃迁的γ能量、相对强度、自旋与宇称；强度相对于Band 1的170 keV跃迁给出。对能量低于1000 keV的跃迁，跃迁能量误差在0.3 keV以内；对能量高于1000 keV的跃迁，误差最高为0.5 keV。",
+      "source_segments": [
+        {
+          "page": 69,
+          "printed_page": 58,
+          "PDF_text_block_indices_zero_based": [
+            6,
+            7
+          ],
+          "bbox": [
+            127.92500305175781,
+            338.3299865722656,
+            504.0238037109375,
+            405.81927490234375
+          ]
+        }
+      ],
+      "refs": [
+        "T004"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "S055",
+      "page": 63,
+      "type": "paragraph",
+      "order": 79,
+      "original_text": "In Figure 5.3, spectra gated on the 303-, 693-, 819- and 338- keV transitions are presented to illustrate the transitions of Band 2. The 303- keV transition is a known transition, and can be seen in panel (a) of Figure 5.3, it is in coincidence with all other γ-ray transitions in this band as it is the main channel to depopulate Band 2. The 693- keV transition is in coincident with the 303- keV transition, however it is anti-coincident with the 338- and 355- keV transitions (see panel (b) of Figure 5.3) and is therefore placed in a parallel branch to the 338- and 355- keV γ rays. Similarly, the 393- and 426- keV transitions are in parallel branch to the 819- keV transition as these transitions are absent in the spectra gated on the 819- keV transition (see panel (c) of Figure 5.3).",
+      "extracted_text_raw_reflow": "In Figure 5.3, spectra gated on the 303-, 693-, 819- and 338- keV transitions are presented to illustrate the transitions of Band 2. The 303- keV transition is a known transition, and can be seen in panel (a) of Figure 5.3, it is in coincidence with all other γ-ray transitions in this band as it is the main channel to depopulate Band 2. The 693- keV transition is in coincident with the 303- keV transition, however it is anti-coincident with the 338- and 355- keV transitions (see panel (b) of Figure 5.3) and is therefore placed in a parallel branch to the 338- and 355- keV γ rays. Similarly, the 393- and 426- keV transitions are in parallel branch to the 819- keV transition as these transitions are absent in the spectra gated on the 819- keV transition (see panel (c) of Figure 5.3).",
+      "translation": "图5.3给出了分别在303、693、819和338 keV跃迁上设门的能谱，用于展示Band 2的跃迁。303 keV是已知跃迁，在图5.3(a)中可见；它是Band 2的主要退激通道，因此与该带其余全部γ跃迁符合。693 keV跃迁与303 keV跃迁符合，但与338和355 keV跃迁反符合，见图5.3(b)，因而被放在与338、355 keV γ跃迁平行的支路上。同样，在819 keV上设门的能谱中看不到393和426 keV跃迁，见图5.3(c)，因此将这两条跃迁放在与819 keV跃迁平行的支路上。",
+      "source_segments": [
+        {
+          "page": 63,
+          "printed_page": 52,
+          "PDF_text_block_indices_zero_based": [
+            27,
+            31
+          ],
+          "bbox": [
+            107.99891662597656,
+            677.005859375,
+            523.9977416992188,
+            764.078857421875
+          ]
+        },
+        {
+          "page": 64,
+          "printed_page": 53,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            5
+          ],
+          "bbox": [
+            108.0,
+            83.73778533935547,
+            523.9503173828125,
+            170.81082153320312
+          ]
+        }
+      ],
+      "refs": [
+        "F006"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "F006",
+      "page": 70,
+      "type": "figure",
+      "order": 80,
+      "original_text": "Figure 5.3",
+      "translation": "133Ce Band 2的四组门谱",
+      "bbox": [
+        8,
+        181,
+        544,
+        601
+      ],
+      "image_path": "assets/figures/F006.png",
+      "refs": [
+        "C010"
+      ],
+      "insert_after": "S055",
+      "confidence": "high"
+    },
+    {
+      "id": "C010",
+      "page": 70,
+      "type": "caption",
+      "order": 81,
+      "original_text": "Figure 5.3: Spectra gated on (a) the 303-, (b) 693-, (c) 819-, and (d) 338- keV, illustrating the transitions of Band 2. New transitions and new levels are shown in red. Known transitions and levels are shown in black.",
+      "translation": "图5.3：分别在(a)303、(b)693、(c)819和(d)338 keV处设门得到的能谱，用以展示Band 2的跃迁。新跃迁与新能级以红色标出，已知跃迁与能级以黑色标出。",
+      "source_segments": [
+        {
+          "page": 70,
+          "printed_page": 59,
+          "PDF_text_block_indices_zero_based": [
+            61,
+            62
+          ],
+          "bbox": [
+            127.92500305175781,
+            626.0029907226562,
+            504.0237121582031,
+            666.393310546875
+          ]
+        }
+      ],
+      "refs": [
+        "F006"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "S056",
+      "page": 64,
+      "type": "heading",
+      "order": 82,
+      "original_text": "Band 3",
+      "extracted_text_raw_reflow": "Band 3",
+      "translation": "Band 3",
+      "source_segments": [
+        {
+          "page": 64,
+          "printed_page": 53,
+          "PDF_text_block_indices_zero_based": [
+            6,
+            6
+          ],
+          "bbox": [
+            108.0,
+            187.9308319091797,
+            150.26092529296875,
+            199.88583374023438
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S057",
+      "page": 64,
+      "type": "paragraph",
+      "order": 83,
+      "original_text": "Band 3 is built on the $I^\\pi=1/2^+$ ground state. It was first reported in Ref [47]. The 318-, 498-, 630- and 726- keV transitions make up the positive-signature branch of the band, while the 436-, 631-, and 732- keV transitions form the negativesignature branch of Band 3. These two branches are interlinked by the 134-, 184-, 252-, 246-, 386- and 244- keV transitions. Two interband E2 transitions with energies of 712 and 768 keV feed into Band 2 [7]. A new 412- keV M1+E2 transition link the $I^\\pi=13/2^+$ state of Band 3 to the $I^\\pi=11/2^+$ state of Band 2. Table 5.4 presents the transitions observed.",
+      "extracted_text_raw_reflow": "Band 3 is built on the $I^\\pi=1/2^+$ ground state. It was first reported in Ref [47]. The 318-, 498-, 630- and 726- keV transitions make up the positive-signature branch of the band, while the 436-, 631-, and 732- keV transitions form the negativesignature branch of Band 3. These two branches are interlinked by the 134-, 184-, 252-, 246-, 386- and 244- keV transitions. Two interband E2 transitions with energies of 712 and 768 keV feed into Band 2 [7]. A new 412- keV M1+E2 transition link the $I^\\pi=13/2^+$ state of Band 3 to the $I^\\pi=11/2^+$ state of Band 2. Table 5.4 presents the transitions observed.",
+      "translation": "Band 3建立在$I^\\pi=1/2^+$基态上，最初发表于文献[47]。318、498、630和726 keV跃迁组成该带的正旋称支，436、631和732 keV跃迁组成负旋称支。两个旋称支由134、184、252、246、386和244 keV跃迁相互连接。两条能量为712和768 keV的带间E2跃迁馈入Band 2[7]。一条新的412 keV M1+E2跃迁把Band 3的$I^\\pi=13/2^+$态连接到Band 2的$I^\\pi=11/2^+$态。表5.4列出了观测到的跃迁。",
+      "source_segments": [
+        {
+          "page": 64,
+          "printed_page": 53,
+          "PDF_text_block_indices_zero_based": [
+            7,
+            14
+          ],
+          "bbox": [
+            107.99993896484375,
+            231.4458465576172,
+            523.94482421875,
+            379.1968688964844
+          ]
+        }
+      ],
+      "refs": [
+        "T005"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "T005",
+      "page": 71,
+      "type": "table",
+      "order": 84,
+      "original_text": "Table 5.4",
+      "translation": "133Ce Band 3的跃迁",
+      "bbox": [
+        121,
+        78,
+        487,
+        399
+      ],
+      "image_path": "assets/tables/T005.png",
+      "refs": [
+        "C011"
+      ],
+      "insert_after": "S057",
+      "confidence": "high"
+    },
+    {
+      "id": "C011",
+      "page": 71,
+      "type": "caption",
+      "order": 85,
+      "original_text": "Table 5.4: Transitions in Band 3 of $^{133}$Ce. Gamma-ray energies, relative intensities, spins and parities for the transitions assigned to Band 3 (where the intensities are given relative to the 170- keV transition of Band 1). The error on transition energies is within 0.3 keV for transitions with energies below 1000 keV and up to 0.5 keV for transitions with energies above 1000 keV.",
+      "translation": "表5.4：$^{133}$Ce Band 3中的跃迁。表中列出归属于Band 3的跃迁的γ能量、相对强度、自旋与宇称；强度相对于Band 1的170 keV跃迁给出。对能量低于1000 keV的跃迁，跃迁能量误差在0.3 keV以内；对能量高于1000 keV的跃迁，误差最高为0.5 keV。",
+      "source_segments": [
+        {
+          "page": 71,
+          "printed_page": 60,
+          "PDF_text_block_indices_zero_based": [
+            6,
+            7
+          ],
+          "bbox": [
+            127.92500305175781,
+            407.66998291015625,
+            504.0238952636719,
+            475.1582946777344
+          ]
+        }
+      ],
+      "refs": [
+        "T005"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "S058",
+      "page": 72,
+      "type": "heading",
+      "order": 86,
+      "original_text": "5.3 $^{131}$Ba Results",
+      "extracted_text_raw_reflow": "5.3 $^{131}$Ba Results",
+      "translation": "5.3 131Ba的结果",
+      "source_segments": [
+        {
+          "page": 72,
+          "printed_page": 61,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            1
+          ],
+          "bbox": [
+            108.0,
+            85.47978973388672,
+            262.065673828125,
+            104.83191680908203
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S059",
+      "page": 72,
+      "type": "heading",
+      "order": 87,
+      "original_text": "5.3.1 Experimental Details",
+      "extracted_text_raw_reflow": "5.3.1 Experimental Details",
+      "translation": "5.3.1 实验细节",
+      "source_segments": [
+        {
+          "page": 72,
+          "printed_page": 61,
+          "PDF_text_block_indices_zero_based": [
+            2,
+            2
+          ],
+          "bbox": [
+            108.0,
+            137.8551025390625,
+            306.8642272949219,
+            152.20111083984375
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S060",
+      "page": 72,
+      "type": "paragraph",
+      "order": 88,
+      "original_text": "In this experiment excited states in $^{131}$Ba were populated via the fusion-evaporation $^{122}$Sn($^{13}$C, 4n)$^{131}$Ba reaction. A 65 MeV , $^{13}$C beam with an intensity of 5 pnA was provided by the XTU Tandem accelerator at the Laborotori Nazionali di Legnaro, Italy. The target was a stack of two self-supported $^{122}$Sn foils with a thickness of 0.5 mg/cm² each. The emitted γ-rays were detected with the GALILEO spectrometer, which consists of 25 Compton suppressed HPGe detectors, placed on four rings at 90◦(10 detectors), 119◦(5 detectors), 129◦(5 detectors), and 152◦(5 detectors). The EUCLIDES [8] silicon ball was used to detect charged particles, while neutrons were detected by the Neutron Wall array [43] in order to separate the different reaction channels.",
+      "extracted_text_raw_reflow": "In this experiment excited states in $^{131}$Ba were populated via the fusion-evaporation $^{122}$Sn($^{13}$C, 4n)$^{131}$Ba reaction. A 65 MeV , $^{13}$C beam with an intensity of 5 pnA was provided by the XTU Tandem accelerator at the Laborotori Nazionali di Legnaro, Italy. The target was a stack of two self-supported $^{122}$Sn foils with a thickness of 0.5 mg/cm² each. The emitted γ-rays were detected with the GALILEO spectrometer, which consists of 25 Compton suppressed HPGe detectors, placed on four rings at 90◦(10 detectors), 119◦(5 detectors), 129◦(5 detectors), and 152◦(5 detectors). The EUCLIDES [8] silicon ball was used to detect charged particles, while neutrons were detected by the Neutron Wall array [43] in order to separate the different reaction channels.",
+      "translation": "本实验利用融合蒸发反应$^{122}$Sn($^{13}$C,4n)$^{131}$Ba布居$^{131}$Ba的激发态。意大利Legnaro国家实验室的XTU串列加速器提供能量65 MeV、强度5 pnA的$^{13}$C束流。靶由两层自支撑$^{122}$Sn箔叠成，每层厚度0.5 mg/cm²。所发射γ射线由GALILEO谱仪探测；该谱仪由25个带康普顿抑制的HPGe探测器组成，分布在4个角度环上：90°处10个，119°处5个，129°处5个，152°处5个。采用EUCLIDES硅球[8]探测带电粒子，采用Neutron Wall阵列[43]探测中子，以区分不同反应道。",
+      "source_segments": [
+        {
+          "page": 72,
+          "printed_page": 61,
+          "PDF_text_block_indices_zero_based": [
+            3,
+            12
+          ],
+          "bbox": [
+            107.99993896484375,
+            175.29518127441406,
+            525.5009155273438,
+            357.4908447265625
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S061",
+      "page": 72,
+      "type": "paragraph",
+      "order": 89,
+      "original_text": "Using the GALILEO data acquisition system [13], a total of $1.2\\times10^9$ tripleor higher fold events were recorded. Doppler correction was performed on the γ spectra and the coincidence γγγ events were sorted into a three dimensional cube. The data analysis of this experiment was carried out using the RADWARE and GASPware software packages by our Chinese collaborators. The experimental results are presented in this section. The theoretical calculations that were used to interpret these results are part of the present work and they are presented in Chapter 6.",
+      "extracted_text_raw_reflow": "Using the GALILEO data acquisition system [13], a total of $1.2\\times10^9$ tripleor higher fold events were recorded. Doppler correction was performed on the γ spectra and the coincidence γγγ events were sorted into a three dimensional cube. The data analysis of this experiment was carried out using the RADWARE and GASPware software packages by our Chinese collaborators. The experimental results are presented in this section. The theoretical calculations that were used to interpret these results are part of the present work and they are presented in Chapter 6.",
+      "translation": "使用GALILEO数据获取系统[13]，共记录$1.2\\times10^9$个三重及更高符合重数事件。对γ能谱进行多普勒校正，并将γγγ符合事件分选为三维立方体。本实验数据由我们的中国合作人员使用RADWARE与GASPware软件包分析。本节给出实验结果，用于解释这些结果的理论计算属于本工作的一部分，并在第6章给出。",
+      "source_segments": [
+        {
+          "page": 72,
+          "printed_page": 61,
+          "PDF_text_block_indices_zero_based": [
+            13,
+            20
+          ],
+          "bbox": [
+            107.99990844726562,
+            370.2718811035156,
+            523.9132080078125,
+            518.0228271484375
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S062",
+      "page": 72,
+      "type": "heading",
+      "order": 90,
+      "original_text": "5.3.2 $^{131}$Ba Experimental Results",
+      "extracted_text_raw_reflow": "5.3.2 $^{131}$Ba Experimental Results",
+      "translation": "5.3.2 131Ba的实验结果",
+      "source_segments": [
+        {
+          "page": 72,
+          "printed_page": 61,
+          "PDF_text_block_indices_zero_based": [
+            21,
+            21
+          ],
+          "bbox": [
+            107.99990844726562,
+            552.754638671875,
+            349.6430358886719,
+            568.8812255859375
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S063",
+      "page": 72,
+      "type": "paragraph",
+      "order": 91,
+      "original_text": "The deduced partial level scheme for $^{131}$Ba is presented in Figure 5.4. The ordering of the transitions within the proposed level scheme is based on γ-ray coincidences. The arrow thickness represents the relative intensities of the γ rays. The experimental results will be discussed in two sections, one for the negative-parity yrast band (Band 1) and one for the two-positive parity bands (Band 2 and Band 3). A number of new transitions were identified and placed in the $^{131}$Ba level scheme.",
+      "extracted_text_raw_reflow": "The deduced partial level scheme for $^{131}$Ba is presented in Figure 5.4. The ordering of the transitions within the proposed level scheme is based on γ-ray coincidences. The arrow thickness represents the relative intensities of the γ rays. The experimental results will be discussed in two sections, one for the negative-parity yrast band (Band 1) and one for the two-positive parity bands (Band 2 and Band 3). A number of new transitions were identified and placed in the $^{131}$Ba level scheme.",
+      "translation": "得到的$^{131}$Ba部分能级纲图见图5.4。所提出能级纲图中跃迁的先后次序依据γ射线符合关系确定，箭头的粗细表示γ射线的相对强度。实验结果分两部分讨论：负宇称yrast带Band 1，以及两条正宇称带Band 2和Band 3。若干新跃迁被识别并放入$^{131}$Ba能级纲图。",
+      "source_segments": [
+        {
+          "page": 72,
+          "printed_page": 61,
+          "PDF_text_block_indices_zero_based": [
+            22,
+            27
+          ],
+          "bbox": [
+            107.99990844726562,
+            591.9752197265625,
+            523.9188232421875,
+            699.0528564453125
+          ]
+        }
+      ],
+      "refs": [
+        "F007"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "F007",
+      "page": 73,
+      "type": "figure",
+      "order": 92,
+      "original_text": "Figure 5.4",
+      "translation": "131Ba部分能级纲图",
+      "bbox": [
+        107,
+        80,
+        563,
+        387
+      ],
+      "image_path": "assets/figures/F007.png",
+      "refs": [
+        "C012"
+      ],
+      "insert_after": "S063",
+      "confidence": "high"
+    },
+    {
+      "id": "C012",
+      "page": 73,
+      "type": "caption",
+      "order": 93,
+      "original_text": "Figure 5.4: Partial level scheme of $^{131}$Ba. The arrows indicate relative intensities. New transitions are marked in red.",
+      "translation": "图5.4：$^{131}$Ba部分能级纲图。箭头表示相对强度，新跃迁以红色标出。",
+      "source_segments": [
+        {
+          "page": 73,
+          "printed_page": 62,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            2
+          ],
+          "bbox": [
+            127.92500305175781,
+            393.7659912109375,
+            503.9920654296875,
+            420.6082458496094
+          ]
+        }
+      ],
+      "refs": [
+        "F007"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "S064",
+      "page": 73,
+      "type": "heading",
+      "order": 94,
+      "original_text": "5.3.2.1 The Negative-Parity Band",
+      "extracted_text_raw_reflow": "5.3.2.1 The Negative-Parity Band",
+      "translation": "5.3.2.1 负宇称带",
+      "source_segments": [
+        {
+          "page": 73,
+          "printed_page": 62,
+          "PDF_text_block_indices_zero_based": [
+            3,
+            3
+          ],
+          "bbox": [
+            107.9999771118164,
+            473.0287780761719,
+            315.3714294433594,
+            484.9837646484375
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S065",
+      "page": 73,
+      "type": "heading",
+      "order": 95,
+      "original_text": "Band 1",
+      "extracted_text_raw_reflow": "Band 1",
+      "translation": "Band 1",
+      "source_segments": [
+        {
+          "page": 73,
+          "printed_page": 62,
+          "PDF_text_block_indices_zero_based": [
+            4,
+            4
+          ],
+          "bbox": [
+            107.9999771118164,
+            509.82476806640625,
+            150.2609100341797,
+            521.77978515625
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S066",
+      "page": 73,
+      "type": "paragraph",
+      "order": 96,
+      "original_text": "This negative-parity band structure was observed in a prior work and is built on the $I^\\pi=9/2^-$state [46]. States in this band were established up to the $I^\\pi=27/2^-$ state. In this experiment a new quadrupole transition feeding into the $I^\\pi=27/2^-$ with γ-ray energy of 1132 keV was found. The $\\alpha=+1/2$ signature branch of this band consist of the 519-, 752-, 899- and 1043- keV quadrupole transitions. The 611-, 748-, 929-, 1106- and 1132-keV quadrupole transitions form the $\\alpha=-1/2$ signature branch of the band. The 100-, 419-, 192-, 560-, 224-, 675-, 254-, 789- and 317- keV dipole transitions interlink the two signature branches of Band 1.",
+      "extracted_text_raw_reflow": "This negative-parity band structure was observed in a prior work and is built on the $I^\\pi=9/2^-$state [46]. States in this band were established up to the $I^\\pi=27/2^-$ state. In this experiment a new quadrupole transition feeding into the $I^\\pi=27/2^-$ with γ-ray energy of 1132 keV was found. The $\\alpha=+1/2$ signature branch of this band consist of the 519-, 752-, 899- and 1043- keV quadrupole transitions. The 611-, 748-, 929-, 1106- and 1132-keV quadrupole transitions form the $\\alpha=-1/2$ signature branch of the band. The 100-, 419-, 192-, 560-, 224-, 675-, 254-, 789- and 317- keV dipole transitions interlink the two signature branches of Band 1.",
+      "translation": "该负宇称带结构已在此前工作中观测到，建立在$I^\\pi=9/2^-$态上[46]，该带核态此前已建立至$I^\\pi=27/2^-$。本实验发现一条新的四极跃迁，γ能量为1132 keV，馈入$I^\\pi=27/2^-$态。该带$\\alpha=+1/2$旋称支由519、752、899和1043 keV四极跃迁构成。611、748、929、1106和1132 keV四极跃迁构成$\\alpha=-1/2$旋称支。100、419、192、560、224、675、254、789和317 keV偶极跃迁连接Band 1的两个旋称支。",
+      "source_segments": [
+        {
+          "page": 73,
+          "printed_page": 62,
+          "PDF_text_block_indices_zero_based": [
+            5,
+            12
+          ],
+          "bbox": [
+            107.99996948242188,
+            557.6787719726562,
+            523.962158203125,
+            701.0907592773438
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S067",
+      "page": 74,
+      "type": "heading",
+      "order": 97,
+      "original_text": "5.3.2.2 The Positive-Parity Bands",
+      "extracted_text_raw_reflow": "5.3.2.2 The Positive-Parity Bands",
+      "translation": "5.3.2.2 正宇称带",
+      "source_segments": [
+        {
+          "page": 74,
+          "printed_page": 63,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            1
+          ],
+          "bbox": [
+            108.0,
+            84.92778778076172,
+            315.359375,
+            96.8827896118164
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S068",
+      "page": 74,
+      "type": "heading",
+      "order": 98,
+      "original_text": "Band 2",
+      "extracted_text_raw_reflow": "Band 2",
+      "translation": "Band 2",
+      "source_segments": [
+        {
+          "page": 74,
+          "printed_page": 63,
+          "PDF_text_block_indices_zero_based": [
+            2,
+            2
+          ],
+          "bbox": [
+            108.0,
+            121.72380828857422,
+            150.26092529296875,
+            133.67880249023438
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S069",
+      "page": 74,
+      "type": "paragraph",
+      "order": 99,
+      "original_text": "Band 2 is a new band, deduced in the experiment. The band is built on the $I^\\pi=7/2^+$ state with an excitation energy of 526 keV and was established in prior works [46, 69]. This assignment was proposed based on the quadrupole character of the 417- keV transition to the $I^\\pi=3/2^+$ state of the ground-state band (Band 3). This structure consists of seven levels, three quadrupole transitions with γ-ray energies of 684, 778, and 814 keV were found forming the $\\alpha=-1/2$ signature branch. The $\\alpha=+1/2$ signature branch of the band consists of the 742 and 827- keV transitions. The two signature branches are connected by the 356-, 330-, 412- and 461- keV dipole transitions. In addition, Band 2 is connected to a new structure, for which two new levels were deduced, the $I^\\pi=21/2^+$ state at 2904 keV and the $I^\\pi=19/2^+$ state at 2778 keV. The $I^\\pi=19/2^+$ state decays towards Band 2 via a 330- keV dipole transition into the $I^\\pi=17/2^+$ state.",
+      "extracted_text_raw_reflow": "Band 2 is a new band, deduced in the experiment. The band is built on the $I^\\pi=7/2^+$ state with an excitation energy of 526 keV and was established in prior works [46, 69]. This assignment was proposed based on the quadrupole character of the 417- keV transition to the $I^\\pi=3/2^+$ state of the ground-state band (Band 3). This structure consists of seven levels, three quadrupole transitions with γ-ray energies of 684, 778, and 814 keV were found forming the $\\alpha=-1/2$ signature branch. The $\\alpha=+1/2$ signature branch of the band consists of the 742 and 827- keV transitions. The two signature branches are connected by the 356-, 330-, 412- and 461- keV dipole transitions. In addition, Band 2 is connected to a new structure, for which two new levels were deduced, the $I^\\pi=21/2^+$ state at 2904 keV and the $I^\\pi=19/2^+$ state at 2778 keV. The $I^\\pi=19/2^+$ state decays towards Band 2 via a 330- keV dipole transition into the $I^\\pi=17/2^+$ state.",
+      "translation": "Band 2是本实验得到的一条新带。它建立在激发能526 keV、$I^\\pi=7/2^+$的态上，该态已在此前工作[46,69]中建立。这个自旋宇称指定基于通往基态带Band 3中$I^\\pi=3/2^+$态的417 keV跃迁所具有的四极性质。该结构包含7个能级；发现了3条γ能量为684、778和814 keV的四极跃迁，构成$\\alpha=-1/2$旋称支。该带$\\alpha=+1/2$旋称支由742和827 keV跃迁组成。两个旋称支由356、330、412和461 keV偶极跃迁相连。此外，Band 2还与一个新结构相连，其中得到两个新能级：2904 keV的$I^\\pi=21/2^+$态和2778 keV的$I^\\pi=19/2^+$态。该$I^\\pi=19/2^+$态通过一条330 keV偶极跃迁退激到Band 2的$I^\\pi=17/2^+$态。",
+      "source_segments": [
+        {
+          "page": 74,
+          "printed_page": 63,
+          "PDF_text_block_indices_zero_based": [
+            3,
+            14
+          ],
+          "bbox": [
+            107.99990844726562,
+            169.5778045654297,
+            523.9144897460938,
+            388.1078796386719
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S070",
+      "page": 74,
+      "type": "heading",
+      "order": 100,
+      "original_text": "Band 3",
+      "extracted_text_raw_reflow": "Band 3",
+      "translation": "Band 3",
+      "source_segments": [
+        {
+          "page": 74,
+          "printed_page": 63,
+          "PDF_text_block_indices_zero_based": [
+            15,
+            15
+          ],
+          "bbox": [
+            107.9998779296875,
+            405.2279052734375,
+            150.26080322265625,
+            417.1828918457031
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    },
+    {
+      "id": "S071",
+      "page": 74,
+      "type": "paragraph",
+      "order": 101,
+      "original_text": "Similar to Band 3 of $^{133}$Ce, this band is built on the $I^\\pi=1/2^+$ ground state and extends up to the $I^\\pi=21/2^+$ state. It has been previously observed in Refs. [46, 69]. A new 277-keV dipole transition from the $I^\\pi=9/2^+$ state of Band 3 was observed to decay to the $I^\\pi=7/2^+$ state of Band 2.",
+      "extracted_text_raw_reflow": "Similar to Band 3 of $^{133}$Ce, this band is built on the $I^\\pi=1/2^+$ ground state and extends up to the $I^\\pi=21/2^+$ state. It has been previously observed in Refs. [46, 69]. A new 277-keV dipole transition from the $I^\\pi=9/2^+$ state of Band 3 was observed to decay to the $I^\\pi=7/2^+$ state of Band 2.",
+      "translation": "与$^{133}$Ce的Band 3相似，这条带建立在$I^\\pi=1/2^+$基态上，并延伸到$I^\\pi=21/2^+$态。该带此前已在文献[46,69]中观测到。新观测到一条277 keV偶极跃迁，从Band 3的$I^\\pi=9/2^+$态退激到Band 2的$I^\\pi=7/2^+$态。",
+      "source_segments": [
+        {
+          "page": 74,
+          "printed_page": 63,
+          "PDF_text_block_indices_zero_based": [
+            16,
+            19
+          ],
+          "bbox": [
+            107.99984741210938,
+            419.66888427734375,
+            523.9308471679688,
+            492.3008728027344
+          ]
+        }
+      ],
+      "refs": [],
+      "confidence": "high"
+    }
+  ],
+  "pages": [
+    {
+      "page": 51,
+      "printed_page": 40,
+      "block_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005"
+      ]
+    },
+    {
+      "page": 52,
+      "printed_page": 41,
+      "block_ids": [
+        "S005",
+        "E001",
+        "S006",
+        "S007",
+        "S008",
+        "S009",
+        "S010"
+      ]
+    },
+    {
+      "page": 53,
+      "printed_page": 42,
+      "block_ids": [
+        "S010",
+        "E002",
+        "S011",
+        "T001",
+        "C001",
+        "S012",
+        "S013"
+      ]
+    },
+    {
+      "page": 54,
+      "printed_page": 43,
+      "block_ids": [
+        "S014",
+        "S015",
+        "S016",
+        "S017"
+      ]
+    },
+    {
+      "page": 55,
+      "printed_page": 44,
+      "block_ids": [
+        "F001",
+        "C002",
+        "S018",
+        "S019"
+      ]
+    },
+    {
+      "page": 56,
+      "printed_page": 45,
+      "block_ids": [
+        "F002",
+        "C003",
+        "S019",
+        "S020"
+      ]
+    },
+    {
+      "page": 57,
+      "printed_page": 46,
+      "block_ids": [
+        "F003",
+        "C004",
+        "S020",
+        "S021",
+        "S022",
+        "S023"
+      ]
+    },
+    {
+      "page": 58,
+      "printed_page": 47,
+      "block_ids": [
+        "S023",
+        "E003",
+        "S024",
+        "E004",
+        "S025",
+        "S026",
+        "S027",
+        "S028"
+      ]
+    },
+    {
+      "page": 59,
+      "printed_page": 48,
+      "block_ids": [
+        "E005",
+        "S029",
+        "S030",
+        "E006",
+        "S031",
+        "S032"
+      ]
+    },
+    {
+      "page": 60,
+      "printed_page": 49,
+      "block_ids": [
+        "S033",
+        "S034",
+        "S035",
+        "S036",
+        "S037"
+      ]
+    },
+    {
+      "page": 61,
+      "printed_page": 50,
+      "block_ids": [
+        "S038",
+        "S039",
+        "S040",
+        "S041",
+        "S042",
+        "S043",
+        "S044",
+        "S045"
+      ]
+    },
+    {
+      "page": 62,
+      "printed_page": 51,
+      "block_ids": [
+        "S045",
+        "S046",
+        "S047",
+        "S048",
+        "S049"
+      ]
+    },
+    {
+      "page": 63,
+      "printed_page": 52,
+      "block_ids": [
+        "S049",
+        "S050",
+        "S051",
+        "S052",
+        "S053",
+        "S054",
+        "S055"
+      ]
+    },
+    {
+      "page": 64,
+      "printed_page": 53,
+      "block_ids": [
+        "S055",
+        "S056",
+        "S057"
+      ]
+    },
+    {
+      "page": 65,
+      "printed_page": 54,
+      "block_ids": [
+        "F004",
+        "C005"
+      ]
+    },
+    {
+      "page": 66,
+      "printed_page": 55,
+      "block_ids": [
+        "T002",
+        "C006"
+      ]
+    },
+    {
+      "page": 67,
+      "printed_page": 56,
+      "block_ids": [
+        "T003",
+        "C007"
+      ]
+    },
+    {
+      "page": 68,
+      "printed_page": 57,
+      "block_ids": [
+        "F005",
+        "C008"
+      ]
+    },
+    {
+      "page": 69,
+      "printed_page": 58,
+      "block_ids": [
+        "T004",
+        "C009"
+      ]
+    },
+    {
+      "page": 70,
+      "printed_page": 59,
+      "block_ids": [
+        "F006",
+        "C010"
+      ]
+    },
+    {
+      "page": 71,
+      "printed_page": 60,
+      "block_ids": [
+        "T005",
+        "C011"
+      ]
+    },
+    {
+      "page": 72,
+      "printed_page": 61,
+      "block_ids": [
+        "S058",
+        "S059",
+        "S060",
+        "S061",
+        "S062",
+        "S063"
+      ]
+    },
+    {
+      "page": 73,
+      "printed_page": 62,
+      "block_ids": [
+        "F007",
+        "C012",
+        "S064",
+        "S065",
+        "S066"
+      ]
+    },
+    {
+      "page": 74,
+      "printed_page": 63,
+      "block_ids": [
+        "S067",
+        "S068",
+        "S069",
+        "S070",
+        "S071"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "F001",
+      "page": 55,
+      "number": "4.1",
+      "type": "figure",
+      "bbox": [
+        76,
+        80,
+        560,
+        445
+      ],
+      "title": "AFRODITE探测器方位",
+      "caption_id": "C002",
+      "image_path": "assets/figures/F001.png",
+      "placed_after": "S015",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [],
+      "source_caption_segments": [
+        {
+          "page": 55,
+          "printed_page": 44,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            2
+          ],
+          "bbox": [
+            127.92500305175781,
+            452.5019836425781,
+            504.0345153808594,
+            506.4412841796875
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F002",
+      "page": 56,
+      "number": "4.2",
+      "type": "figure",
+      "bbox": [
+        107,
+        80,
+        534,
+        414
+      ],
+      "title": "对称γ–γ矩阵示意",
+      "caption_id": "C003",
+      "image_path": "assets/figures/F002.png",
+      "placed_after": "S018",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [],
+      "source_caption_segments": [
+        {
+          "page": 56,
+          "printed_page": 45,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            2
+          ],
+          "bbox": [
+            127.92500305175781,
+            420.9750061035156,
+            503.9947814941406,
+            474.915283203125
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F003",
+      "page": 57,
+      "number": "4.3",
+      "type": "figure",
+      "bbox": [
+        107,
+        80,
+        572,
+        391
+      ],
+      "title": "符合关系、纲图与门谱",
+      "caption_id": "C004",
+      "image_path": "assets/figures/F003.png",
+      "placed_after": "S019",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [],
+      "source_caption_segments": [
+        {
+          "page": 57,
+          "printed_page": 46,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            2
+          ],
+          "bbox": [
+            127.92498779296875,
+            398.4750061035156,
+            504.0133972167969,
+            506.6123046875
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F004",
+      "page": 65,
+      "number": "5.1",
+      "type": "figure",
+      "bbox": [
+        172,
+        74,
+        490,
+        720
+      ],
+      "title": "133Ce部分能级纲图",
+      "rotate": 90,
+      "caption_id": "C005",
+      "image_path": "assets/figures/F004.png",
+      "placed_after": "S042",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [],
+      "source_caption_segments": [
+        {
+          "page": 65,
+          "printed_page": 54,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            1
+          ],
+          "bbox": [
+            128.927001953125,
+            726.2739868164062,
+            506.84637451171875,
+            776.51025390625
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F005",
+      "page": 68,
+      "number": "5.2",
+      "type": "figure",
+      "bbox": [
+        17,
+        99,
+        546,
+        570
+      ],
+      "title": "133Ce Band 4的四组门谱",
+      "caption_id": "C008",
+      "image_path": "assets/figures/F005.png",
+      "placed_after": "S047",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [
+        {
+          "page": 68,
+          "printed_page": 57,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            73
+          ],
+          "bbox": [
+            63.41596221923828,
+            118.5715103149414,
+            185.98252868652344,
+            277.94091796875
+          ]
+        }
+      ],
+      "source_caption_segments": [
+        {
+          "page": 68,
+          "printed_page": 57,
+          "PDF_text_block_indices_zero_based": [
+            74,
+            75
+          ],
+          "bbox": [
+            127.92500305175781,
+            599.927978515625,
+            504.0238037109375,
+            640.3192749023438
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F006",
+      "page": 70,
+      "number": "5.3",
+      "type": "figure",
+      "bbox": [
+        8,
+        181,
+        544,
+        601
+      ],
+      "title": "133Ce Band 2的四组门谱",
+      "caption_id": "C010",
+      "image_path": "assets/figures/F006.png",
+      "placed_after": "S055",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [
+        {
+          "page": 70,
+          "printed_page": 59,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            60
+          ],
+          "bbox": [
+            63.42796325683594,
+            247.5564422607422,
+            429.17144775390625,
+            522.81494140625
+          ]
+        }
+      ],
+      "source_caption_segments": [
+        {
+          "page": 70,
+          "printed_page": 59,
+          "PDF_text_block_indices_zero_based": [
+            61,
+            62
+          ],
+          "bbox": [
+            127.92500305175781,
+            626.0029907226562,
+            504.0237121582031,
+            666.393310546875
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F007",
+      "page": 73,
+      "number": "5.4",
+      "type": "figure",
+      "bbox": [
+        107,
+        80,
+        563,
+        387
+      ],
+      "title": "131Ba部分能级纲图",
+      "caption_id": "C012",
+      "image_path": "assets/figures/F007.png",
+      "placed_after": "S063",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [],
+      "source_caption_segments": [
+        {
+          "page": 73,
+          "printed_page": 62,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            2
+          ],
+          "bbox": [
+            127.92500305175781,
+            393.7659912109375,
+            503.9920654296875,
+            420.6082458496094
+          ]
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "T001",
+      "page": 53,
+      "number": "4.1",
+      "type": "table",
+      "bbox": [
+        113,
+        435,
+        488,
+        489
+      ],
+      "title": "γ跃迁多极性与宇称",
+      "caption_id": "C001",
+      "image_path": "assets/tables/T001.png",
+      "placed_after": "S011",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [
+        {
+          "page": 53,
+          "printed_page": 42,
+          "PDF_text_block_indices_zero_based": [
+            17,
+            17
+          ],
+          "bbox": [
+            115.989990234375,
+            442.3927917480469,
+            483.3309631347656,
+            485.4317932128906
+          ]
+        }
+      ],
+      "source_caption_segments": [
+        {
+          "page": 53,
+          "printed_page": 42,
+          "PDF_text_block_indices_zero_based": [
+            18,
+            19
+          ],
+          "bbox": [
+            127.92500305175781,
+            496.68798828125,
+            504.01409912109375,
+            525.165283203125
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T002",
+      "page": 66,
+      "number": "5.1",
+      "type": "table",
+      "bbox": [
+        121,
+        78,
+        513,
+        450
+      ],
+      "title": "133Ce yrast Band 1的跃迁",
+      "caption_id": "C006",
+      "image_path": "assets/tables/T002.png",
+      "placed_after": "S045",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [
+        {
+          "page": 66,
+          "printed_page": 55,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            4
+          ],
+          "bbox": [
+            125.93247985839844,
+            83.09120178222656,
+            479.8990478515625,
+            445.75799560546875
+          ]
+        }
+      ],
+      "source_caption_segments": [
+        {
+          "page": 66,
+          "printed_page": 55,
+          "PDF_text_block_indices_zero_based": [
+            5,
+            6
+          ],
+          "bbox": [
+            127.92498779296875,
+            459.6739807128906,
+            504.05645751953125,
+            542.3493041992188
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T003",
+      "page": 67,
+      "number": "5.2",
+      "type": "table",
+      "bbox": [
+        121,
+        78,
+        513,
+        606
+      ],
+      "title": "133Ce Band 4的跃迁",
+      "caption_id": "C007",
+      "image_path": "assets/tables/T003.png",
+      "placed_after": "S047",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [
+        {
+          "page": 67,
+          "printed_page": 56,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            5
+          ],
+          "bbox": [
+            125.93220520019531,
+            83.09120178222656,
+            479.898681640625,
+            601.77294921875
+          ]
+        }
+      ],
+      "source_caption_segments": [
+        {
+          "page": 67,
+          "printed_page": 56,
+          "PDF_text_block_indices_zero_based": [
+            6,
+            7
+          ],
+          "bbox": [
+            127.92500305175781,
+            615.68798828125,
+            504.0238037109375,
+            683.17724609375
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T004",
+      "page": 69,
+      "number": "5.3",
+      "type": "table",
+      "bbox": [
+        121,
+        78,
+        487,
+        330
+      ],
+      "title": "133Ce Band 2的跃迁",
+      "caption_id": "C009",
+      "image_path": "assets/tables/T004.png",
+      "placed_after": "S054",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [
+        {
+          "page": 69,
+          "printed_page": 58,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            5
+          ],
+          "bbox": [
+            125.93278503417969,
+            83.09120178222656,
+            425.8107604980469,
+            324.4139709472656
+          ]
+        }
+      ],
+      "source_caption_segments": [
+        {
+          "page": 69,
+          "printed_page": 58,
+          "PDF_text_block_indices_zero_based": [
+            6,
+            7
+          ],
+          "bbox": [
+            127.92500305175781,
+            338.3299865722656,
+            504.0238037109375,
+            405.81927490234375
+          ]
+        }
+      ]
+    },
+    {
+      "id": "T005",
+      "page": 71,
+      "number": "5.4",
+      "type": "table",
+      "bbox": [
+        121,
+        78,
+        487,
+        399
+      ],
+      "title": "133Ce Band 3的跃迁",
+      "caption_id": "C011",
+      "image_path": "assets/tables/T005.png",
+      "placed_after": "S057",
+      "placement_hint": "near_first_substantive_mention",
+      "source_segments": [
+        {
+          "page": 71,
+          "printed_page": 60,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            5
+          ],
+          "bbox": [
+            125.93287658691406,
+            83.09120178222656,
+            451.5418395996094,
+            393.7539978027344
+          ]
+        }
+      ],
+      "source_caption_segments": [
+        {
+          "page": 71,
+          "printed_page": 60,
+          "PDF_text_block_indices_zero_based": [
+            6,
+            7
+          ],
+          "bbox": [
+            127.92500305175781,
+            407.66998291015625,
+            504.0238952636719,
+            475.1582946777344
+          ]
+        }
+      ]
+    }
+  ],
+  "equations": [
+    {
+      "id": "E001",
+      "page": 52,
+      "type": "equation",
+      "order": 6,
+      "equation_number": "4.1",
+      "latex": null,
+      "bbox": [
+        270,
+        148,
+        530,
+        197
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E001.png",
+      "original_text": "VC = ZpZt 4πε0re2, (4.1)",
+      "translation": "原文给出的库仑势垒近似式；请以裁图中的原式为准。",
+      "source_segments": [
+        {
+          "page": 52,
+          "printed_page": 41,
+          "PDF_text_block_indices_zero_based": [
+            4,
+            5
+          ],
+          "bbox": [
+            278.85601806640625,
+            161.0627899169922,
+            523.9283447265625,
+            190.22923278808594
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E002",
+      "page": 53,
+      "type": "equation",
+      "order": 12,
+      "equation_number": "4.2",
+      "latex": null,
+      "bbox": [
+        250,
+        137,
+        530,
+        177
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E002.png",
+      "original_text": "|Ii −If| ≤L ≤Ii + If, (4.2)",
+      "translation": "式中初态与末态自旋对多极阶数的约束，保留原式。",
+      "source_segments": [
+        {
+          "page": 53,
+          "printed_page": 42,
+          "PDF_text_block_indices_zero_based": [
+            3,
+            3
+          ],
+          "bbox": [
+            257.4210205078125,
+            150.21585083007812,
+            523.9283447265625,
+            164.11978149414062
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E003",
+      "page": 58,
+      "type": "equation",
+      "order": 34,
+      "equation_number": "4.3",
+      "latex": null,
+      "bbox": [
+        195,
+        155,
+        531,
+        192
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E003.png",
+      "original_text": "W(θ) = A0[1 + a2P2(cos θ) + a4P4(cos θ)], (4.3)",
+      "translation": "归一化实验强度所拟合的勒让德展开，保留原式。",
+      "source_segments": [
+        {
+          "page": 58,
+          "printed_page": 47,
+          "PDF_text_block_indices_zero_based": [
+            4,
+            4
+          ],
+          "bbox": [
+            209.62098693847656,
+            169.1508026123047,
+            523.9282836914062,
+            182.0282440185547
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E004",
+      "page": 58,
+      "type": "equation",
+      "order": 36,
+      "equation_number": "4.4",
+      "latex": null,
+      "bbox": [
+        247,
+        253,
+        530,
+        305
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E004.png",
+      "original_text": "δE2/M1 = ⟨ψf| ˆE2 |ψi⟩ ⟨ψf| ˆ M1 |ψi⟩ , (4.4)",
+      "translation": "原文写出的E2/M1矩阵元比；未在译文中补入其它章节的能量或单位因子。",
+      "source_segments": [
+        {
+          "page": 58,
+          "printed_page": 47,
+          "PDF_text_block_indices_zero_based": [
+            7,
+            9
+          ],
+          "bbox": [
+            257.28790283203125,
+            263.79583740234375,
+            523.9284057617188,
+            288.7207946777344
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E005",
+      "page": 59,
+      "type": "equation",
+      "order": 41,
+      "equation_number": "4.5",
+      "latex": null,
+      "bbox": [
+        215,
+        80,
+        532,
+        135
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E005.png",
+      "original_text": "RDCO = I135◦ γ1 (gated on γ2 at 90◦) I90◦ γ1 (gated on γ2 at 135◦), (4.5)",
+      "translation": "DCO比的分子、分母具有互换的目标角与门角；保留原式。",
+      "source_segments": [
+        {
+          "page": 59,
+          "printed_page": 48,
+          "PDF_text_block_indices_zero_based": [
+            1,
+            3
+          ],
+          "bbox": [
+            226.3769989013672,
+            92.17752838134766,
+            523.9283447265625,
+            128.12075805664062
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E006",
+      "page": 59,
+      "type": "equation",
+      "order": 44,
+      "equation_number": "4.6",
+      "latex": null,
+      "bbox": [
+        197,
+        351,
+        532,
+        407
+      ],
+      "confidence": "high",
+      "representation": "original-crop-fallback",
+      "image_path": "assets/equations/E006.png",
+      "original_text": "RAD = I135◦ γ1 (gated on γ2 in all detectors) I90◦ γ1 (gated on γ2 in all detectors) , (4.6)",
+      "translation": "目标γ的两个角度强度相除，门γ在全部探测器中选取；保留原式。",
+      "source_segments": [
+        {
+          "page": 59,
+          "printed_page": 48,
+          "PDF_text_block_indices_zero_based": [
+            16,
+            18
+          ],
+          "bbox": [
+            207.93997192382812,
+            363.1465759277344,
+            523.9284057617188,
+            399.0897216796875
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "heavy-ion fusion evaporation (HIFE)",
+      "translation": "重离子融合蒸发",
+      "note": "保留反应道与靶/束身份"
+    },
+    {
+      "term": "high-purity germanium (HPGe)",
+      "translation": "高纯锗",
+      "note": "探测器材料与技术"
+    },
+    {
+      "term": "clover detector",
+      "translation": "Clover探测器",
+      "note": "不与单晶HPGe的探测器数混用"
+    },
+    {
+      "term": "low energy photon spectrometers (LEPS)",
+      "translation": "低能光子谱仪",
+      "note": "保留LEPS缩写"
+    },
+    {
+      "term": "gamma-gamma coincidence",
+      "translation": "γ–γ符合",
+      "note": "正文γγγ对应三重符合"
+    },
+    {
+      "term": "anti-coincidence",
+      "translation": "反符合",
+      "note": "本章主要用于门谱/平行支路关系"
+    },
+    {
+      "term": "gate / gated spectrum",
+      "translation": "门 / 门谱",
+      "note": "保留门线及能区"
+    },
+    {
+      "term": "doublet transition",
+      "translation": "双峰跃迁",
+      "note": "本文指608/609 keV近邻线及重叠门区"
+    },
+    {
+      "term": "level scheme",
+      "translation": "能级纲图",
+      "note": "跃迁箭头须保留母末态"
+    },
+    {
+      "term": "yrast band",
+      "translation": "yrast带",
+      "note": "对给定自旋激发能最低的一系列态"
+    },
+    {
+      "term": "signature branch / signature partner",
+      "translation": "旋称支 / 旋称伙伴",
+      "note": "旋称与宇称分别记录"
+    },
+    {
+      "term": "stretched / unstretched transition",
+      "translation": "伸展 / 非伸展跃迁",
+      "note": "角动量选择定则中的术语"
+    },
+    {
+      "term": "multipolarity / mixing ratio",
+      "translation": "多极性 / 混合比",
+      "note": "保留E2/M1顺序与δ约定"
+    },
+    {
+      "term": "angular distribution / angular correlation",
+      "translation": "角分布 / 角关联",
+      "note": "AD与DCO门角色不同"
+    },
+    {
+      "term": "Directional Correlation from Oriented states (DCO)",
+      "translation": "取向态定向关联",
+      "note": "实际比值依赖门的多极性"
+    },
+    {
+      "term": "intraband / interband",
+      "translation": "带内 / 带间",
+      "note": "表格分组标题不能代替终态带身份"
+    },
+    {
+      "term": "fold",
+      "translation": "符合重数",
+      "note": "event数不等于矩阵pair条目数"
+    },
+    {
+      "term": "Compton-suppressed",
+      "translation": "带康普顿抑制的",
+      "note": "装置run配置须逐项核实"
+    }
+  ],
+  "normalization_notes": [
+    "NFKC ligature/spacing normalization",
+    "line-end English hyphen joining only",
+    "original grammatical, numerical and scientific assertions are not silently corrected",
+    "all display equations and table cells are preserved as exact source crops"
+  ]
+}

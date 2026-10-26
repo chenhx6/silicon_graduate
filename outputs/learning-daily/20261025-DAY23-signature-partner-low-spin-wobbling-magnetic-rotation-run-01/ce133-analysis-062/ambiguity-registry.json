@@ -1,0 +1,44 @@
+{
+  "missing_states": [
+    {
+      "band": 1,
+      "twice_J": 33,
+      "parity": "-",
+      "Ex_keV": null,
+      "status": "absent from Table5.1; no interpolation"
+    }
+  ],
+  "duplicate_spin_states": [
+    {
+      "band": 2,
+      "twice_J": 19,
+      "parity": "+",
+      "node_ids": [
+        "B2-J19aof2-p",
+        "B2-J19bof2-p"
+      ],
+      "Ex_keV": [
+        2733.4,
+        2739.5
+      ],
+      "status": "distinct printed rows; do not merge"
+    }
+  ],
+  "terminal_anchor": {
+    "node_id": "B1-J9of2-m",
+    "Ex_keV": 37.2,
+    "status": "derived from Table5.1 rows1/3, not independent measured Ex"
+  },
+  "close_lines": {
+    "edge_ids": [
+      "T5.2-r05",
+      "T5.2-r16"
+    ],
+    "energies_keV": [
+      608.3,
+      608.7
+    ],
+    "status": "different initial and final states; doublet caution in PDF63 printed52"
+  },
+  "needs_review": true
+}

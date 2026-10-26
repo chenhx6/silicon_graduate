@@ -1,0 +1,197 @@
+---
+type: project
+title: "133Ce学位论文深入学习与数据分析蓝本"
+aliases: [133Ce thesis analysis blueprint, Wakudyanaye深入学习]
+created: 2026-10-26
+updated: 2026-10-26
+status: active
+review_status: unreviewed
+confidentiality: public
+project_stage: source-grounded-deep-learning-and-bounded-analysis
+nuclei: [133ce, 131ce, 131ba]
+tags: [thesis, deep-learning, spectroscopy, qtr, analysis-blueprint]
+---
+
+# 133Ce学位论文：持续深入学习与实际分析蓝本
+
+## Research Question
+
+怎样把[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]]的实验分析、signature/Coriolis机制和QTR电磁检验真正转为可迁移的研究能力，并为用户尚未完成的分析提供步骤、输入及失败检查？用户明确要求像[[alwaleedi-2013-band-structures-131ce]]支撑其131Ce分析那样严格对待；这是整体知识的重要补充，不能以source建页/普通摄入或一次summary结束。本轮主体仍是Day23；本项目不另启课程卡、不自动替代主课学分。
+
+用户独立实验event和未公开拟合本轮未读取；原开题材料仅用于识别相关研究问题，未复制全文，也不将用户称重合度超过80%写成测得文本相似度。
+
+## Current Hypotheses
+
+|问题|当前可以支持的解释|竞争/边界|
+|---|---|---|
+|g7/2正宇称Band2的S|三轴性和邻s1/2/d3/2的Coriolis混合共同影响|固定χ的γ偏好不等于唯一形状测量，更不等于γ-rigid|
+|h11/2负宇称Band1/4|作者九轨道QTR/TiP比较有部分能量/S与rE2支持|FA连接δ较近，两模型rM1趋势都与实验不同；不认证“全观测通过”|
+|configuration替代|保持实测计数/能级和响应不变，改变候选态与模型本征态的组态映射，比较全链接网络|若改算符、形变和定标则已额外改模型；若只重命名则无新可检验内容|
+|是否wobbling/MR/AMR|需按[[signature-tip-shears-discrimination-contract]]共同观测向量逐项比较|小δ不能唯一指定MR/TiP；不恢复跨核δ/W.u.硬门|
+
+## Evidence Available
+
+主source WK22-01–28提供原件定位与分层。所有新分析needs_review:true；“核过原字面”不等于实验/模式认证。正文主线已读，关键实验/模型图表已核；完整reader翻译仍draft。
+
+
+### 逐量、母态与未闭合矩阵
+
+
+原件SHA及读区见 `alignment_matrix.md`；仅局部self-audit，所有尚未解释的不闭合保留。图点约数是视觉量级读数，未作精确digitization；不能与表值平均。原件裁切精确页/坐标见 `visual_crop_manifest.json`。
+
+## 实验三线与两种分母
+
+Table5.2/PDF67给出的实际γ能量用于同母态身份；Table6.11/PDF112使用整数标签625、582、465，不据标签差异创建第二条线。
+
+| ID | 母态与主出口（Band4→Band1） | δ原字面值 | out/out的E2分母 | out/out：[rE2,rM1] | out/in的E2分母 | out/in：[rE2,rM1] |
+|---|---|---|---|---|---|---|
+| C133-EXP-625 | Ex832.0，13/2−→11/2−，624.6keV，Iγ3.3(4) | −1.5 +.97/−5.7 | 同母态→Band1 9/2−，794.8keV E2，Iγ8.0(14) | [1.15 +.48/−.79, .14 +.21/−.13] | 无Table6.11条目 | [—,—]，**不能补0** |
+| C133-EXP-582 | Ex1409.8，17/2−→15/2−，582.7keV，Iγ3.53(25) | −.55 +.12/−.25 | Table6.11未显式命名；当前Table5.2/Fig5.1未提供相同母态17/2−→Band1 13/2−的可直接确认ΔI=2行 | [5.06 +3.45/−1.66, 3.95 +.39/−.81] | 同母态→Band4 13/2−，577.8keV，Iγ3.22(21) | [.33 +.28/−.13, .25 +.03/−.05] |
+| C133-EXP-465 | Ex1809.1，19/2−→17/2−，464.4keV，Iγ1.89(18) | −.17 +.09/−.2 | 同母态→Band1 15/2−，982.0keV E2，Iγ1.95(17)，作为待核分母候选 | [1.06 +3.49/−.82, 5.54 +.12/−.53] | 同母态→Band4 15/2−，608.3keV，Iγ1.89(18) | [.09 +.34/−.07, .47 +.01/−.04] |
+
+单位：rE2为无量纲；rM1为 μN²/(e²b²)。out/out和out/in不能混列为同一“B比”。上述out/out分母候选按带身份给出，尚未取得作者实际强度/转换校正producer；尤其582这一格保持missing。
+
+## 确定可以做的条件算术
+
+按论文Eq3.24/印37/PDF48，`δ²=.7 Eγ² B(E2)out/B(M1)out`；实验同一分母的打印比值给约束 `δ²≈.7 Eγ² rE2/rM1`。`bounded_checks.py`实际执行并输出JSON。
+
+| 线 | δ中央值的E2光子份额 δ²/(1+δ²) | Table6.11 out/out闭合所得δ² vs 原δ² | Table6.11 out/in闭合所得δ² vs 原δ² |
+|---|---:|---|---|
+| 624.6 | .69231 | 2.24322 vs2.25（约−.30%） | missing |
+| 582.7 | .23225 | .30447 vs.3025（约+.65%） | .31373 vs.3025（约+3.71%） |
+| 464.4 | .02809 | .028885 vs.0289（约−.05%） | .028909 vs.0289（约+.03%） |
+
+这说明这些表列复用同δ与强度分支；差异仅作打印/单位/依赖诊断，不给显著性。**正文印100/PDF111称582有“约30%”E2，按−.55中央δ重算为23.2%**；不是30%的独立测量。δ端点区间的单调映射保存在JSON，仅是打印端点像，不是新置信区间。
+
+以Table5.2打印Iγ/能量、Table6.11中央δ、同parent纯E2分母为条件（效率校正光子yield、门/污染一致且相对归一可消去）：
+
+| 线 / 分母类型 | 条件重组 [rE2,rM1] | Table6.11打印 [rE2,rM1] | 判断 |
+|---|---|---|---|
+| 624.6 /794.8 out/out | [.95280,.11564] | [1.15,.14] | 中央summary不完全相等；原强度/δproducer和Cov缺失，不解释为显著冲突 |
+| 582.7 /577.8 out/in | [.24408,.19177] | [.33,.25] | 同上；不靠误差条重叠宣布“通过” |
+| 464.4 /608.3 out/in | [.10831,.56577] | [.09,.47] | 同上；608.3/608.7近双峰尤其需实际gates |
+
+这里τ相消，无需ICC额外因子是**直接光子部分衰变率比**的条件；如果输入Iγ是总转换校正强度而非光子yield，需恢复对应(1+α)口径。得到绝对B必须另有τ和完整BR/ICC；本任务不从这些比值反演寿命、绝对B或CI。
+
+## 模型与图表原字面值
+
+| ID | 来源 / 模型 | I=17/2− δ,rE2,rM1 | I=19/2− δ,rE2,rM1 | 视觉图像 |
+|---|---|---|---|---|
+| C133-MOD-QTR | Table6.9/PDF111，9轨道 | −2.24,.75,.01 | −2.72,.32,.03 | Fig6.16(a)/PDF114黑点约.10,.03；第一rM1与表差约10倍量级 |
+| C133-MOD-FA | Table6.10/PDF111，单轨道18 | −.49,.44,.19 | −.49,.11,.062 | Fig6.16(b)/PDF114绿色点约.044,.011；rE2与表差约10倍量级 |
+
+Table6.9/6.10还各列13/2−→11/2−的δ=.89/−.58，但两r缺失。其父态模型能量、实际operator/transition output不齐；不能用实测625/582/465替作者模型Eγ宣判代数错误。
+
+把打印三元组代入 `Eγ=sqrt(δ² rM1/(.7 rE2))`只得“所需一致性目标”：QTR17/2为.30915MeV、19/2为.99542MeV；FA17/2为.38486MeV、19/2为.43969MeV。这些**不是模型预测、实验测量或恢复的实际作者输入**。它们规定应向actual producer检查哪种能量/单位/矩阵元定义；也不能用Eγ目标逆向“修正”表或图。
+
+## 原子审计状态
+
+| ID | 已核文字/视觉 | 状态与下一必要输入 |
+|---|---|---|
+| C133-A01 | Table6.1/PDF77 Ce正宇称ε4=.1；正文=.01 | actual input-card missing；两值各保留；负宇称ε4=.015不受此字面冲突自动波及 |
+| C133-A02 | Table6.9 rM1首点=.01，Fig6.16约.10 | table/curve internal mismatch，actual transition output missing |
+| C133-A03 | Table6.10 rE2=.44,.11，Fig6.16约.044,.011 | 同上；不可自行选用小10倍图值 |
+| C133-A04 | Fig6.16(b) caption in/out倒置，图轴/正文out/in | 字面in/out冲突已核；不能按caption反转实验母/末态 |
+| C133-A05 | Table6.11三线δ与两率大体代数相关 | 不能把δ、rE2、rM1作为三次独立拟合约束；原Cov missing |
+| C133-A06 | Table5.2的Iγ重组不同于Table6.11中央结果 | summary-lineage mismatch open；未做显著性检验；需实际gate/背景/效率/所选分支/转换口径 |
+| C133-A07 | PDF113 FA跨带δ较近；PDF114两模型rM1趋势均错 | 保留分项失效；不得总称“TiP所有观测通过” |
+| C133-A08 | 582 out/out分母未能由现有Table5.2确认 | identity missing，不以相邻state补齐；需作者transition ledger |
+| C133-A09 | δ²份额使582中央23.2%而正文“∼30%” | 条件算术已执行；不把近似散文当额外实验 |
+| C133-A10 | Table6.3/PDF82 9/2+行振幅字面.982,−.202,+.185；caption声明贡献为振幅平方 | 父代理先发现、本worker独立visual回核；在所述正交basis/归一态假设下，仅三项平方和1.039353>1，甚至按末位±.0005舍入最小和仍>1；不能靠截断遗漏补回归一。actual producer/basis convention缺失，不改.982、不静默重归一 |
+
+所有新解释保持 `needs_review: true`；“已核”仅指对应字面/视觉位置，不表示整篇论文、模式标签或用户数据分析通过。
+
+## Risks and Blockers
+
+缺原event与run ledger、sorting与逐门背景/peak fit、效率及共同归一Cov、AD/P response和δ所有根、模型版本/输入卡/完整波函数/transition output。582 out/out分母没有直接身份；Tables6.9/6.10与Fig6.16不能凭中央值任选一边。未取得用户数据不等于用户没有这些数据；这些是本轮可用输入的边界，不自动变成用户待办。
+
+## Analysis or Reasoning
+
+### 四能级S与重复计权
+
+原Eq2.37可写为
+
+$$S_I=\tfrac12 E_{I-2}-\tfrac32E_{I-1}+\tfrac32E_I-\tfrac12E_{I+1}.$$
+
+即$S=LE$，$\mathrm{Cov}(S)=L\mathrm{Cov}(E)L^T$。相邻S共享能级；若能量进入拟合后又把S当独立数据，联合向量$(E,S)=(1,L)E$有冗余。它们能以不同图形暴露不同spin结构，却不能增加独立实验维数。所有旋称劈裂定义必须先核原式，勿与$E_\gamma/(2I)$混用。
+
+依据Tables5.1/5.2重建Band1/4后，Band1的I=13/2到29/2可用S中央值依次182.10、−216.15、277.30、−318.60、345.25、−342.50、351.35、−369.60、410.30keV；Band4 I=17/2到25/2为−175.05、49.60、100.55、−166.80、247.65keV。9/2−的37.2keV由表边推得，33/2−缺态不插值；不提供没有Cov支持的实验误差条。这是原表中央值练习，未重分析event。
+
+### 同母态强度比的可识别输入
+
+令混合线a的效率校正光子yield为$Y_a$，同母态纯E2线b为$Y_b$。若峰分解、门接受度与归一一致，$u=Y_a/Y_b$，则
+
+$$r_{E2}=u\frac{\delta^2}{1+\delta^2}(E_b/E_a)^5,$$
+
+$$r_{M1}=0.7 E_a^2\frac{r_{E2}}{\delta^2}=\frac{0.7u}{1+\delta^2}\frac{E_b^5}{E_a^3}.$$
+
+第二式用论文Eq3.24，此式$E_a,E_b$均以MeV、B(E2)以e²b²、B(M1)以μN²；δ=0处须用第一式消去δ²的连续极限计算rM1，不能数值0/0。若输入yield已作conversion总强度校正，先恢复其光子口径；无同母态则τ不能相消。绝对B另需τ、完整分支与ICC。$\delta,r_{E2},r_{M1}$在固定$E_a,E_b$与reference身份后依赖两个基本输入$(\delta,u)$，至少一个代数约束，不能当三份独立测量。
+
+### QTR的交叉项与磁算符
+
+从原Eq3.14逐轴展开$R_k^2=(I_k-j_k)^2$，保留$-I_kj_k-j_kI_k$交叉项和$j_k^2$。在相应可交换表示里可写$-2I_kj_k$；不能像背景Eq2.24字面少写一倍交叉项后直接编程。Coriolis attenuation是对指定耦合项的处方，需实际输入确认，不等于将所有H或g缩放。
+
+Eq3.22以$R=I-l-s$重写为$\Gamma(M1)=g_R I+(g_l-g_R)l+(g_s-g_R)s$（保留作者的算符归一合同）。总I生成元不连接不同I表示；跨I的M1来自相对磁矩项及态之间矩阵元。冻结一条内禀j或一条轨道不能据此推出所有M1为零。实际B计算仍需完整带符号波函数、BCS因子、算符单位与轴约定，三个主成分平方不能恢复干涉。
+
+### 组态重指派的可证伪问题
+
+在冻结125Te+12C实验的计数、能级、spin/parity和响应后，若把Band4从主要轨道18加额外芯转动的候选，改映到近Fermi的另一负宇称轨道所生的orbital-excited带，能否在不重调g/Q/惯量的同一模型合同下，同时描述624.6/582.7/464.4的δ符号与spin趋势、带内M1/E2及跨带ΔI2分支？这是待计算的替代解释，尚无量化预测，不能称与原模型等可信。
+
+先用能量和明确的一组定标量冻结合同，留未用于定标的双向links、完整branch或已有独立磁/四极观测检验；若只按rE2单一比值选模型，无法检验rM1趋势失配。需要完整模型本征态/算符输出、共同实验Cov和line ledger；不编造δ、Q(E)、τ或设施率。该问题连接Day23的B槽，同时133Ce作为独立案例保留自己的实验身份。
+
+## Learning Decision
+
+已形成比普通摄入更具体的学习工程：有来源化母末态矩阵、内部不闭合、S中央值/设计矩阵、强度依赖推导、模型合同和替代解释检验。当前decision=limits-and-refines：强化分析流程和逐量判断，不认证任何普适模式；继续完成逐段reader、有限模型组件及实际输入可追溯性。
+
+## Next Actions
+
+
+此稿落实用户最新澄清：Wakudyanaye 2022 的133Ce硕士论文是整体研究知识和实际分析蓝本的重要补充，含用户尚未做而论文已示范的分析。它应像131Ce《Band structures of 131Ce》一样持续支撑数据分析、推导和反证训练，不以“一次摄入/summary完成”作终点。当前主任务仍是Day23 signature/wobbling/TiP/MR/AMR；本合同不另启课程卡或声称今日已完成长期课题。
+
+## 问题绑定和阶段交付
+
+绑定开题报告P52/P59：131Ba/133Ce/135Nd `νh11/2` 非晕结构和S相位演化的机制；P53：低自旋新结构；P54：强γ的P/AD/δ；P41/P59：γ软硬与进动/振动竞争。所有研究练习保留原始obs、派生量、模型输出和我们的推断四层。
+
+| 学习单元 | 必须实际做出的工作 | 反证/失败练习 | 完成后留下什么 |
+|---|---|---|---|
+| A 原件/带/谱线身份 | 重建Band1/4节点边表；把Tables5.1–2、Fig5.1和选门文本逐项对齐；检查能量闭合 | 608/609双峰使并行路径出现在同gate，故单门见峰不足以建立唯一link；将一个终态误标后验证哪些强度比立刻失效 | 带/母态/终态/门/误差/谱系manifest，不靠band编号跨文合并 |
+| B S(I)与signature | 由Eq2.37推导四能级线性组合，重算Band1/4各可用spin的S；若无Cov则只出中央值和缺口 | 固定能谱，改变spin/带归属会否伪造phase reversal；验证S是派生量，重复纳入χ²会重复计权 | 原能量→S的线性矩阵及条件Cov，不作模式认证 |
+| C AD/P与δ | 从探测器角度/选门/取向/有限几何到Wθ，再到实测不对称与Q；保留所有允许根 | 同一δ²给相同率却偏振干涉项可异；改变gate/背景或Q迁移时检查选根稳定性 | 真正需要的计数/response输入表；若actual data未齐，只有条件练习 |
+| D 强度与依赖 | 推导同parent τ消去、Eγ幂、δ²拆分与单位；重组Table6.11并与Table5.2核对 | 故意混out/out与out/in、将相对Iγ当绝对B、把δ和两派生率计三次；应被身份/维数/秩检查抓住 | `bounded_checks.py/json`本地已开始；下一步actual输入闭合，不编统计CI |
+| E QTR空间与近似 | 写清GAMPN→ASYMO→PROBMO输入/输出；从Hcoll=Σ(Ik−jk)²/2Jk识别cross terms及j自由度；逐行检查basis、系数归一 | 仅限制一条Nilsson轨道是否真正冻结所有j方向，和完整九轨道/高自旋HFA差别分别检验；Table6.3/PDF82 9/2+三振幅平方和1.039353>1，在所述正交basis下不闭合，不擅改或重归一 | 可复现Hamiltonian/空间/轴/算符合同；没有作者producer时不叫复现 |
+| F γ–Coriolis可辨识性 | 正宇称g7/2控制线扫描γ、χ、邻轨道能差及惯量；负宇称单独参数；定义能量与电磁holdout | 使不同γ/χ同时拟合S，检查哪些未定标量能分开；固定γ最佳值不等于测得γ刚性 | 参数退化和holdout预测矩阵，不能跨组态套γ |
+| G 逐量模型优劣 | 预先冻结训练量与holdout，分别列能量、S、δ、rE2、rM1，不用summary结论投票 | 全空间能量/S较好但跨带δ差，FAδ近但能量/S差；两模型rM1 spin趋势错，能否找到共同失效参数/模型假设 | observable-by-observable残差、actual模型误差/响应缺口；表–图冲突保留 |
+| H γ软硬、振动与MR/AMR | 提出γ-soft/γ-rigid/particle-core、vibrational、signature/Coriolis、TiP以及shears候选的共同可检验向量 | 小δ不等于MR，固定转子不预测动态γ软度；寿命、完整branch、静态矩/其它结构观测是否能提供独立量 | 原则上可分预测和最小补测/补分析；没有量化预测不承诺一次观测排他 |
+
+## 用户现有数据分析的迁移合同
+
+这三列区分“可以学习的步骤”“尚缺输入”和“不能直接搬用的数值/判断”。用户原始数据本轮未读取，不能把论文中的实验过程写成用户实际已完成。
+
+| 可迁移的实验分析步骤 | 尚缺的实际输入 | 不可直接跨核/跨run套用 |
+|---|---|---|
+| 原event排序、particle gate/反应道纯度、2Dγγ/3Dγγγ符合构建 | 用户数据manifest、runID、反应、timestamp、触发/死时间、particle PID/效率、sorting版本 | 不能把GALILEO EUCLIDES/NeutronWall道选择当AFRODITE或用户阵列现成筛选 |
+| 能量/效率校准、各角Doppler校正、门和背景侧带 | 用户source runs、峰表、增益漂移、角度/速度、efficiency误差/共享Cov | 不搬57/65MeV、Te/Au厚度、13或8-clover配置、相关rAD参考值 |
+| 从互符合/反符合、cascade能量和相对yield建/扩纲图 | 用户逐门谱、peak-fits、双峰分解与污染、上限/缺测 | 不搬133Ce Band4等标签到131Ce Band4；不以同spin差推同带身份 |
+| AD/DCO/Rac/P共同提多极/δ | 实际角组与acceptance、reference transition、取向/feeding、a/Q/plane convention、所有roots | 不搬另阵列Q、R_DCO≈.5或R_AD≈.8/1.3作通用硬门；不以论文缺P说明用户也无P |
+| 同parent branching→relative B比，τ+BR→absolute B | 实际同parent line ledger、光子/总强度口径、conversion、τ定义与response | 不搬Table6.11δ/误差、tau、g或Qt；不同parent寿命不能相消 |
+| S、J(1)/J(2)、alignment/crossings等spin演化比较 | 目标能级/Jπ、参考参数/ω定义、缺态/交叉窗 | 不搬g7/2的γ/Coriolis参数解释h11/2，也不搬133Ce的J0/J1到131Ce |
+| 候选模式预先规定模型、训练量与holdout | 目标核PES/core、空间、Fermi/pairing、算符、实际代码和输入卡 | 不因133Ce论文“TiP”就标签用户的低自旋带；MR/AMR需要专门几何和绝对强度比较 |
+
+## 131Ce现有工程可借鉴的结构（本轮只读定位）
+
+1. `knowledge/sources/alwaleedi-2013-band-structures-131ce.md`：Key Results AW13-9（line91）保留δ=0派生比；AW13-16/19/20/21/22（lines98–104）分开611.1、504.9、871.2、538.3、994.3、1108及其同parent分母；line132汇总table/figure/prose交叉定位。可复用的是**先身份、后observable、再模型**，不能把131Ce具体线表搬到133Ce。
+2. `knowledge/projects/131ce-collective-mode-discrimination.md`：line139的band/transition manifest；line155公共来源seed；line198的same-parent E2条件重算；line214的互向Band1/4链接与四阶段检验。该项目已显式区分论文数据和用户独立实验，延续这一约束。
+3. 131Ce已有模型比较、lifetime/Qt及source-lineage是结构参照；现有页面的review标签不替代133Ce当前逐量审核。133Ce新工程应新增自己的独立source和model-input manifest，而不是把新论文塞进旧结论。
+4. 本轮仅为定位打开上述canonical页面相关部分，未重读131Ce原始PDF，未改canonical/Git，未读取用户独立数据。
+
+## 当前立即可推进的路线和未完成边界
+
+当前最高信息路线是`atomic_matrix.md`中A01–A10：先找Table6.9/6.10与Fig6.16、ε4表–正文和Table6.3归一的actual输入/输出；并在同一母态账本下核Table6.11的out/out分母，尤其582keV。只用打印中央值做的条件算术已保存；真实δ根拟合、Cov、绝对强度和模型Eγ未恢复。
+
+随后完成h11/2 Band1/4能级→S的有界重算与wavefunction/空间练习，再以g7/2线理解Coriolis/γ退化，逐项提出实际数据可做而用户尚未做的分析。每个阶段只在真实输入和验证达到合同后标完成；完成全文阅读、一个checkpoint或一次摄入均不表示长期学习收束。
+
+## Linked Sources
+
+- [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-01–28为本工程直接原件边界。
+- [[ding-2021-131ba-133ce-signature-splitting]]为正宇称同源论文；[[alwaleedi-2013-band-structures-131ce]]和[[131ce-collective-mode-discrimination]]为分析工程参照，未把旧review状态转移到本工程。
+- [[frauendorf-2014-transverse-wobbling]]、[[chen-2019-transverse-wobbling-even-even]]保留支持链；[[lv-2022-evidence-against-wobbling-135pr]]、[[guo-2022-low-spin-wobbling-187au]]保逐线反证和独立性边界。

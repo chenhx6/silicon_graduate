@@ -16,7 +16,7 @@ status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model-article
 reading_depth: deep-read
-citation_key: petrache_2019_diversity130ba
+citation_key: ""
 doi: 10.1016/j.physletb.2019.06.040
 nuclei: [130ba]
 ---
@@ -65,3 +65,5 @@ good-K对照：p245 Fig5前后原文解释，低自旋同一good-K带的CG系数
 ## Extracted Pages
 
 [[chen-2019-transverse-wobbling-even-even]] · [[signature-tip-shears-discrimination-contract]]。新主张needs_review:true，未新增human-reviewed。
+
+本地Bib未唯一匹配，citation_key留空；早先临时本地命名不当作Zotero引文key。

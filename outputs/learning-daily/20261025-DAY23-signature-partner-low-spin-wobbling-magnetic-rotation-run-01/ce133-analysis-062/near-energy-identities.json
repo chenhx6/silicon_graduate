@@ -1,0 +1,18 @@
+[
+  {
+    "edge1": "T5.1-r16",
+    "edge2": "T5.3-r12",
+    "delta_Egamma_keV": 0.9,
+    "same_initial_node": false,
+    "same_final_node": false,
+    "action": "retain distinct identity"
+  },
+  {
+    "edge1": "T5.2-r05",
+    "edge2": "T5.2-r16",
+    "delta_Egamma_keV": 0.4,
+    "same_initial_node": false,
+    "same_final_node": false,
+    "action": "retain distinct identity"
+  }
+]

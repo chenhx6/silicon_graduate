@@ -1,0 +1,384 @@
+{
+  "formula": "Eq2.37",
+  "rows": [
+    {
+      "row_id": "B1-S13of2",
+      "band": 1,
+      "I": "13/2",
+      "S_keV": 182.1,
+      "stencil_nodes": [
+        "B1-J9of2-m",
+        "B1-J11of2-m",
+        "B1-J13of2-m",
+        "B1-J15of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": 182.1,
+      "uses_derived_terminal_Ex": true,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B1-S15of2",
+      "band": 1,
+      "I": "15/2",
+      "S_keV": -216.15,
+      "stencil_nodes": [
+        "B1-J11of2-m",
+        "B1-J13of2-m",
+        "B1-J15of2-m",
+        "B1-J17of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": -216.15,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B1-S17of2",
+      "band": 1,
+      "I": "17/2",
+      "S_keV": 277.3,
+      "stencil_nodes": [
+        "B1-J13of2-m",
+        "B1-J15of2-m",
+        "B1-J17of2-m",
+        "B1-J19of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": 277.3,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B1-S19of2",
+      "band": 1,
+      "I": "19/2",
+      "S_keV": -318.6,
+      "stencil_nodes": [
+        "B1-J15of2-m",
+        "B1-J17of2-m",
+        "B1-J19of2-m",
+        "B1-J21of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": -318.6,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B1-S21of2",
+      "band": 1,
+      "I": "21/2",
+      "S_keV": 345.25,
+      "stencil_nodes": [
+        "B1-J17of2-m",
+        "B1-J19of2-m",
+        "B1-J21of2-m",
+        "B1-J23of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": 345.25,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B1-S23of2",
+      "band": 1,
+      "I": "23/2",
+      "S_keV": -342.5,
+      "stencil_nodes": [
+        "B1-J19of2-m",
+        "B1-J21of2-m",
+        "B1-J23of2-m",
+        "B1-J25of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": -342.5,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B1-S25of2",
+      "band": 1,
+      "I": "25/2",
+      "S_keV": 351.35,
+      "stencil_nodes": [
+        "B1-J21of2-m",
+        "B1-J23of2-m",
+        "B1-J25of2-m",
+        "B1-J27of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": 351.35,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B1-S27of2",
+      "band": 1,
+      "I": "27/2",
+      "S_keV": -369.6,
+      "stencil_nodes": [
+        "B1-J23of2-m",
+        "B1-J25of2-m",
+        "B1-J27of2-m",
+        "B1-J29of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": -369.6,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B1-S29of2",
+      "band": 1,
+      "I": "29/2",
+      "S_keV": 410.3,
+      "stencil_nodes": [
+        "B1-J25of2-m",
+        "B1-J27of2-m",
+        "B1-J29of2-m",
+        "B1-J31of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": 410.3,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B4-S17of2",
+      "band": 4,
+      "I": "17/2",
+      "S_keV": -175.05,
+      "stencil_nodes": [
+        "B4-J13of2-m",
+        "B4-J15of2-m",
+        "B4-J17of2-m",
+        "B4-J19of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": -175.05,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B4-S19of2",
+      "band": 4,
+      "I": "19/2",
+      "S_keV": 49.6,
+      "stencil_nodes": [
+        "B4-J15of2-m",
+        "B4-J17of2-m",
+        "B4-J19of2-m",
+        "B4-J21of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": 49.6,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B4-S21of2",
+      "band": 4,
+      "I": "21/2",
+      "S_keV": 100.55,
+      "stencil_nodes": [
+        "B4-J17of2-m",
+        "B4-J19of2-m",
+        "B4-J21of2-m",
+        "B4-J23of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": 100.55,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B4-S23of2",
+      "band": 4,
+      "I": "23/2",
+      "S_keV": -166.8,
+      "stencil_nodes": [
+        "B4-J19of2-m",
+        "B4-J21of2-m",
+        "B4-J23of2-m",
+        "B4-J25of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": -166.8,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    },
+    {
+      "row_id": "B4-S25of2",
+      "band": 4,
+      "I": "25/2",
+      "S_keV": 247.65,
+      "stencil_nodes": [
+        "B4-J21of2-m",
+        "B4-J23of2-m",
+        "B4-J25of2-m",
+        "B4-J27of2-m"
+      ],
+      "weights": [
+        0.5,
+        -1.5,
+        1.5,
+        -0.5
+      ],
+      "finite_difference_S_keV": 247.65,
+      "uses_derived_terminal_Ex": false,
+      "uncertainty_keV": null,
+      "needs_review": true
+    }
+  ],
+  "not_evaluated": [
+    {
+      "band": 1,
+      "I": "9/2",
+      "missing_twice_J": [
+        5,
+        7
+      ],
+      "action": "not evaluated; no interpolation"
+    },
+    {
+      "band": 1,
+      "I": "11/2",
+      "missing_twice_J": [
+        7
+      ],
+      "action": "not evaluated; no interpolation"
+    },
+    {
+      "band": 1,
+      "I": "31/2",
+      "missing_twice_J": [
+        33
+      ],
+      "action": "not evaluated; no interpolation"
+    },
+    {
+      "band": 1,
+      "I": "33/2",
+      "missing_twice_J": [
+        33
+      ],
+      "action": "not evaluated; no interpolation"
+    },
+    {
+      "band": 1,
+      "I": "35/2",
+      "missing_twice_J": [
+        33,
+        37
+      ],
+      "action": "not evaluated; no interpolation"
+    },
+    {
+      "band": 4,
+      "I": "13/2",
+      "missing_twice_J": [
+        9,
+        11
+      ],
+      "action": "not evaluated; no interpolation"
+    },
+    {
+      "band": 4,
+      "I": "15/2",
+      "missing_twice_J": [
+        11
+      ],
+      "action": "not evaluated; no interpolation"
+    },
+    {
+      "band": 4,
+      "I": "27/2",
+      "missing_twice_J": [
+        29
+      ],
+      "action": "not evaluated; no interpolation"
+    }
+  ],
+  "central_values_only": true,
+  "no_experimental_CI": true
+}

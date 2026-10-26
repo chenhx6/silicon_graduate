@@ -34,6 +34,12 @@ updated: 2026-10-23
 
 ## Sources
 
+### 133Ce深入学习与两篇学位论文补充
+
+- [[133ce-thesis-analysis-blueprint]] — 持续深入学习/实际分析蓝本，非普通摄入完成。
+- [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] — 两条主线、逐量模型比较及原件输入边界。
+- [[nobs-2017-spin-parity-102y-thesis]] — population/校准、BCS/GM模型辅助指认，非本核AD/P直接测量。
+
 ### Day23原实验与模型复用控制
 
 - [[petrache-2019-diversity-shapes-rotations-130ba]] — 原实验与4页补充的scope/符号边界。

@@ -795,3 +795,7 @@ Pt g2+=.27(3)另有相对192Pt .30(1)的TF参考链，适合作为进一步opera
 来源：[[petrache-2019-diversity-shapes-rotations-130ba]] BA130-D23-061-01/03/04，[[wang-2020-two-quasiparticle-wobbling-130ba]] BA130-D23-061-07/08/10，[[chen-2019-transverse-wobbling-even-even]] BA130-D23-061-09。新needs_review:true。
 
 在明确固定Q、同一good-K带的控制中，CG比为2K²(2I−1)/((I+1)((I−1)²−K²))。K8、I10/12/16/20得到13.00535/3.97301/1.44976/.800385；标准库精确阶乘Wigner求和独立复核。它不是S1′→S1拟合、实际E2/τ或新rate。
+
+## Day23：学位论文作为分析蓝本的两种控制
+
+[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-04/20/21/23给近双峰、分母身份和模型逐量优劣；[[nobs-2017-spin-parity-102y-thesis]] NOBS-03/06/07/08给共同归一旧模板、同能γ异支路、邻核定标和模型辅助Jπ控制。后者不是wobbling/MR/AMR新实验。GM doublet、signature partner、pseudospin partner不混用；不同模型或学位/论文转述不是独立采集。可复用推导/实际步骤在[[133ce-thesis-analysis-blueprint]]，新needs_review:true。
