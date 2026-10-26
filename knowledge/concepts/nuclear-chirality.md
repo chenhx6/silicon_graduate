@@ -203,3 +203,9 @@ S被破后不能把其期待值当精确量子数，源模型选择关系也不�
 [[koike-2004-chiral-bands-selection-rules]] KOIKE04-D23-001–004补实际原文的轴/惯量、A/Cpn、EM简化与bandlabel安排。选择规则对specialH所有态适用，所以规则相符不足以证明手征；Eq10的两带率对应相等另有左右手因子化/跨手EM消失条件。
 
 源EM计算限制lowest/highest single-particle levels，近简并区又用E2连接组织两带，不能将modelenergyordinal与稳定bandlabel混用或与任务fullj矩阵假装同实现。[[signature-tip-shears-discrimination-contract]]保这些输入，新增needs_review:true；同raw重新回读不新增独立实验，Day24无学分。
+
+## Day23内的Day24无学分预习：bandfamily配对的信息来源
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-018给同H/EM矩阵不变的两种family名称关联。E2 I→I−2只连同奇偶自旋链，不能单独固定even与odd链如何组成ΔI1 family；M1和实际energy/连接则可提供另一个约束，其是否已用于赋名必须记录。
+
+该示例响应[[koike-2004-chiral-bands-selection-rules]] KOIKE04-D23-003的E2组织标签，不能将同一E2二次计票或把名称重排当新的物理配置。[[signature-tip-shears-discrimination-contract]]保source/calibration/holdout区别，Day24仍不计卡，新增needs_review:true。

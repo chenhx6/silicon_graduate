@@ -703,3 +703,11 @@ CoreE2在S下odd；M1按源系数分成.05(jp+jn) even与.65(jp−jn) odd。若m
 原A=core quarterrotation×Cpn，Cpn是unitary价p/n交换，不是antiunitary Cχ、parity或signature。same-A coreE2零与near-isovector M1较弱的源规则适用于specialH所有态，原文直接说不要求手征几何。Eq10则另需左右手态及cross-handedEM理想消失，不从两个energy接近或A±单独推出。
 
 原文在近简并区用强E2组织两带，在低spin用能量；bandlabel/in-out因而需要明确mapping。若用某EM量定标/配对带，再以同一EM相符称独立验证，会循环；仍需未用于定标的连接/独立absolute-scale或实际相干块信息。[[qi-2009-135nd-particle-rotor-chirality]]任务S/矩阵是可复核例，不重现原简化EM或实际nucleus。此次两条旧Day19四支柱/精确泄漏/实验排他认证撤回，原文保存pre-correction049，原sourceflags与Day21/22credit不改。[[signature-partner-bands]]和[[nuclear-chirality]]保分类及唯一Day24无学分，newneeds_review:true。
+
+## Day23桥接Day24预习：用于配对的量不能再算独立检验
+
+[[koike-2004-chiral-bands-selection-rules]] KOIKE04-D23-003指出原数值例近简并区按E2组织bandlabel。[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-018以另一个明确固定variant作信息角色检查：仅最大化开放E2 I→I−2的两family链内和，even/odd链分别定序，但odd链整体f/u交换不改任何E2score。两种相对配对的M1 I→I−1 in/out则交换，完整物理矩阵未改变。
+
+这说明in/out/staggering图既含测量/矩阵内容，也含bandfamily mapping输入。若E2用于组织family，它不是随后检验同一mapping的独立票；若M1再用于选择两种relativepairing，M1亦进入定标集合，下一检验须另选真正未使用的量。能量连续性/已确立placement可给不同映射不同支持，不能从E2score平局推出等可信。
+
+此处只是模型label association，不是B槽实际configuration重指派本身，也不是保持H却造出新核态。真实B槽仍冻结核素、实测计数/能级/response与H/operator，然后明确不同候选configuration对应的未定标预测。开放Eγ mask与形式强度分开，2态截断不认证completeprojector，强度表行列置换下总和/|det|也不补相干phase。八项计算/映射门过，新needs_review:true，无新measuredδ/g/B/Q/τ/CI/机时；[[nuclear-chirality]]保唯一Day24无学分范围。

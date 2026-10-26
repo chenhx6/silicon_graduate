@@ -1,0 +1,1316 @@
+{
+  "scope": "fixedH/operator modelbandfamily mapping usingE2only, comparetwoevenoddrelativepairingswithM1notused; no actualexperimentalconfigurationassignment ornewobservables",
+  "formal_day_index": 23,
+  "only_uncredited_preview": 24,
+  "conditions": {
+    "recorded_at": "2026-10-26T00:32:05.320387+00:00",
+    "scope": "fixedH/operator modelbandfamily mapping usingE2only, comparetwoevenoddrelativepairingswithM1notused; no actualexperimentalconfigurationassignment ornewobservables",
+    "formalday": 23,
+    "onlyuncreditedpreview": 24,
+    "H_contract": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/input-contract-044.json",
+    "H_contract_sha256": "77264c9b7471002e79960d96f03c2892e1b9ab05e5706cc57d9d6f62f2066c46",
+    "code_hashes": {
+      "system/scripts/day23_unpaired_ph_prm.py": "87e9151616b4a33ec51c89722296aa0b6801fe59a049ff272ce32e224f7d8cc3",
+      "system/scripts/day23_prm_em_tensors.py": "22a66b25d6619a754103fe9f7c274d9c587a0ca9922669a72dfb631986e085e7"
+    },
+    "spin_range": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "anchors": "evenI12 f=lowerordinal0;oddI13 pairingA f=lower0;pairingB flipsalloddspinf/u globally, leavingevenchain unchanged",
+    "construction": "forI>=14choosepermutationof2loweststatesmaximizingopenE2inbandsumtoI−2mappedf/u; allEgamma masksrecorded. OnlyE2used, no M1/energycurve optimization",
+    "comparison": "twofamilymappings haveidenticalE2score; holdoutmodelM1in/out sums mayexchange. Fullphysical2x2matrixFrobeniusnorm/absdet invariantunderrow/colpermutations. StateenergiesandRMEimmutable, no newconfigurationH or nucleardatafit",
+    "source": "Koike04p3/4 organizes bandsbyE2near-degenerate regime; actualsourceaxes/parameters/truncation differfromtaskvariant",
+    "controls": [
+      "fixedH/operatorcodehash",
+      "eigensolverresidual",
+      "eachspinone-to-onestatepermutation",
+      "E2openphotonmaskseparatefromformalB",
+      "E2assignmentscoreequalfortwopairings",
+      "M1fullmatrixinvariantsunchanged",
+      "allM1in/outsumsexchangeunderglobaloddchainflip"
+    ],
+    "prohibited": [
+      "E2usedforbandpairingthencountedindependentvalidation",
+      "relativeparitypairingscalledphysicallyequallycredibleoractualconfigalternatives",
+      "energyordinaldirectlyequatedexperimentalband",
+      "modelM1predictioncalledmeasurement/δ/Q/tau/CI/rate/time",
+      "branchgraphcompletenessfrom2stateprojection",
+      "sourceKoikefullproducerreproduction/Day24credit/Day25+",
+      "run114producer/rawmutation"
+    ]
+  },
+  "contract_sha256": "b0134223a1a2ca708e8a6a3442b92ec87c3ac7b4028ede90e205fd1d6e414254",
+  "implementation_sha256": "2348fdbe460fa68c994cca0dc797de1fd81aa99dbeec8f43f3eacea44b363e69",
+  "maps": {
+    "pairingA": {
+      "12": [
+        0,
+        1
+      ],
+      "13": [
+        0,
+        1
+      ],
+      "14": [
+        1,
+        0
+      ],
+      "15": [
+        0,
+        1
+      ],
+      "16": [
+        1,
+        0
+      ],
+      "17": [
+        1,
+        0
+      ],
+      "18": [
+        1,
+        0
+      ],
+      "19": [
+        1,
+        0
+      ],
+      "20": [
+        1,
+        0
+      ]
+    },
+    "pairingB_odd_family_flip": {
+      "12": [
+        0,
+        1
+      ],
+      "13": [
+        1,
+        0
+      ],
+      "14": [
+        1,
+        0
+      ],
+      "15": [
+        1,
+        0
+      ],
+      "16": [
+        1,
+        0
+      ],
+      "17": [
+        0,
+        1
+      ],
+      "18": [
+        1,
+        0
+      ],
+      "19": [
+        0,
+        1
+      ],
+      "20": [
+        1,
+        0
+      ]
+    }
+  },
+  "E2_only_decisions": [
+    {
+      "I": 14,
+      "E2_open_inband_scores_identity_vs_swap": [
+        2.0315406894040708e-26,
+        0.31746105440717914
+      ],
+      "chosen_family_to_energy_ordinal": [
+        1,
+        0
+      ]
+    },
+    {
+      "I": 15,
+      "E2_open_inband_scores_identity_vs_swap": [
+        0.4116385159511743,
+        1.8119548181204802e-26
+      ],
+      "chosen_family_to_energy_ordinal": [
+        0,
+        1
+      ]
+    },
+    {
+      "I": 16,
+      "E2_open_inband_scores_identity_vs_swap": [
+        3.6202264399163036e-26,
+        0.5177395119420601
+      ],
+      "chosen_family_to_energy_ordinal": [
+        1,
+        0
+      ]
+    },
+    {
+      "I": 17,
+      "E2_open_inband_scores_identity_vs_swap": [
+        3.763788238971252e-27,
+        0.6099225472611188
+      ],
+      "chosen_family_to_energy_ordinal": [
+        1,
+        0
+      ]
+    },
+    {
+      "I": 18,
+      "E2_open_inband_scores_identity_vs_swap": [
+        2.4519593886117148e-28,
+        0.682802818206852
+      ],
+      "chosen_family_to_energy_ordinal": [
+        1,
+        0
+      ]
+    },
+    {
+      "I": 19,
+      "E2_open_inband_scores_identity_vs_swap": [
+        1.838878534570327e-26,
+        0.7430011001417067
+      ],
+      "chosen_family_to_energy_ordinal": [
+        1,
+        0
+      ]
+    },
+    {
+      "I": 20,
+      "E2_open_inband_scores_identity_vs_swap": [
+        5.391455779454048e-28,
+        0.790682728029623
+      ],
+      "chosen_family_to_energy_ordinal": [
+        1,
+        0
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "kind": "E2",
+      "Ii": 14,
+      "If": 12,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.14028978767126687,
+              9.016020727593808e-27
+            ],
+            [
+              1.1299386166446898e-26,
+              0.17717126673591227
+            ]
+          ],
+          "inband_sum": 0.31746105440717914,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -2.620288062553846,
+            -2.657946754179537
+          ],
+          "family_energies_final_MeV": [
+            -3.47983750167067,
+            -3.3257552236333985
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.14028978767126687,
+              9.016020727593808e-27
+            ],
+            [
+              1.1299386166446898e-26,
+              0.17717126673591227
+            ]
+          ],
+          "inband_sum": 0.31746105440717914,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -2.620288062553846,
+            -2.657946754179537
+          ],
+          "family_energies_final_MeV": [
+            -3.47983750167067,
+            -3.3257552236333985
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.8218907474911332,
+          0.8595494391168241
+        ],
+        [
+          0.6678084694538615,
+          0.7054671610795524
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "E2",
+      "Ii": 15,
+      "If": 13,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.18621590459857104,
+              8.294858401121502e-27
+            ],
+            [
+              9.8246897800833e-27,
+              0.22542261135260327
+            ]
+          ],
+          "inband_sum": 0.4116385159511743,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -2.2234624235419838,
+            -2.216209146966125
+          ],
+          "family_energies_final_MeV": [
+            -3.0814186210550214,
+            -2.9967116186829226
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.22542261135260327,
+              9.8246897800833e-27
+            ],
+            [
+              8.294858401121502e-27,
+              0.18621590459857104
+            ]
+          ],
+          "inband_sum": 0.4116385159511743,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -2.216209146966125,
+            -2.2234624235419838
+          ],
+          "family_energies_final_MeV": [
+            -2.9967116186829226,
+            -3.0814186210550214
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.8579561975130376,
+          0.8652094740888963
+        ],
+        [
+          0.7732491951409388,
+          0.7805024717167974
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "E2",
+      "Ii": 16,
+      "If": 14,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.26544957649497,
+              1.7736423098793139e-26
+            ],
+            [
+              1.8465841300369895e-26,
+              0.25228993544709016
+            ]
+          ],
+          "inband_sum": 0.5177395119420601,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -1.759013379853469,
+            -1.803804845825419
+          ],
+          "family_energies_final_MeV": [
+            -2.620288062553846,
+            -2.657946754179537
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.26544957649497,
+              1.7736423098793139e-26
+            ],
+            [
+              1.8465841300369895e-26,
+              0.25228993544709016
+            ]
+          ],
+          "inband_sum": 0.5177395119420601,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -1.759013379853469,
+            -1.803804845825419
+          ],
+          "family_energies_final_MeV": [
+            -2.620288062553846,
+            -2.657946754179537
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.854141908354118,
+          0.8989333743260679
+        ],
+        [
+          0.816483216728427,
+          0.861274682700377
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "E2",
+      "Ii": 17,
+      "If": 15,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.3094963184991381,
+              1.7594355029244896e-27
+            ],
+            [
+              2.0043527360467623e-27,
+              0.3004262287619807
+            ]
+          ],
+          "inband_sum": 0.6099225472611188,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -1.3224318556312387,
+            -1.3264506838388102
+          ],
+          "family_energies_final_MeV": [
+            -2.2234624235419838,
+            -2.216209146966125
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.3004262287619807,
+              2.0043527360467623e-27
+            ],
+            [
+              1.7594355029244896e-27,
+              0.3094963184991381
+            ]
+          ],
+          "inband_sum": 0.6099225472611188,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -1.3264506838388102,
+            -1.3224318556312387
+          ],
+          "family_energies_final_MeV": [
+            -2.216209146966125,
+            -2.2234624235419838
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.8970117397031736,
+          0.9010305679107451
+        ],
+        [
+          0.889758463127315,
+          0.8937772913348865
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "E2",
+      "Ii": 18,
+      "If": 16,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.33473091942014016,
+              1.1367525908028236e-28
+            ],
+            [
+              1.3152067978088911e-28,
+              0.34807189878671185
+            ]
+          ],
+          "inband_sum": 0.682802818206852,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -0.7986720291100778,
+            -0.8860141434185324
+          ],
+          "family_energies_final_MeV": [
+            -1.759013379853469,
+            -1.803804845825419
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.33473091942014016,
+              1.1367525908028236e-28
+            ],
+            [
+              1.3152067978088911e-28,
+              0.34807189878671185
+            ]
+          ],
+          "inband_sum": 0.682802818206852,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -0.7986720291100778,
+            -0.8860141434185324
+          ],
+          "family_energies_final_MeV": [
+            -1.759013379853469,
+            -1.803804845825419
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.9177907024068866,
+          1.0051328167153413
+        ],
+        [
+          0.8729992364349367,
+          0.9603413507433912
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "E2",
+      "Ii": 19,
+      "If": 17,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.37151845567355807,
+              9.187106141139075e-27
+            ],
+            [
+              9.201679204564197e-27,
+              0.3714826444681487
+            ]
+          ],
+          "inband_sum": 0.7430011001417067,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -0.32136246170997734,
+            -0.3695008273031721
+          ],
+          "family_energies_final_MeV": [
+            -1.3224318556312387,
+            -1.3264506838388102
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.3714826444681487,
+              9.201679204564197e-27
+            ],
+            [
+              9.187106141139075e-27,
+              0.37151845567355807
+            ]
+          ],
+          "inband_sum": 0.7430011001417067,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            -0.3695008273031721,
+            -0.32136246170997734
+          ],
+          "family_energies_final_MeV": [
+            -1.3264506838388102,
+            -1.3224318556312387
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.956949856535638,
+          1.0050882221288329
+        ],
+        [
+          0.9529310283280665,
+          1.0010693939212614
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "E2",
+      "Ii": 20,
+      "If": 18,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.38813898005291214,
+              2.865703251348175e-28
+            ],
+            [
+              2.5257525281058725e-28,
+              0.4025437479767109
+            ]
+          ],
+          "inband_sum": 0.790682728029623,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            0.2496917910577982,
+            0.12078982616640897
+          ],
+          "family_energies_final_MeV": [
+            -0.7986720291100778,
+            -0.8860141434185324
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.38813898005291214,
+              2.865703251348175e-28
+            ],
+            [
+              2.5257525281058725e-28,
+              0.4025437479767109
+            ]
+          ],
+          "inband_sum": 0.790682728029623,
+          "interband_sum": 0.0,
+          "family_energies_initial_MeV": [
+            0.2496917910577982,
+            0.12078982616640897
+          ],
+          "family_energies_final_MeV": [
+            -0.7986720291100778,
+            -0.8860141434185324
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          1.0068039695849413,
+          1.1357059344763305
+        ],
+        [
+          0.9194618552764868,
+          1.048363820167876
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "M1",
+      "Ii": 13,
+      "If": 12,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              2.1319222774340196,
+              0.002376870721761877
+            ],
+            [
+              0.0018978578603232842,
+              2.330022244905005
+            ]
+          ],
+          "inband_sum": 4.461944522339024,
+          "interband_sum": 0.004274728582085885,
+          "family_energies_initial_MeV": [
+            -3.0814186210550214,
+            -2.9967116186829226
+          ],
+          "family_energies_final_MeV": [
+            -3.47983750167067,
+            -3.3257552236333985
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.002376870721761877,
+              2.1319222774340196
+            ],
+            [
+              2.330022244905005,
+              0.0018978578603232842
+            ]
+          ],
+          "inband_sum": 0.0042747285820851615,
+          "interband_sum": 4.461944522339025,
+          "family_energies_initial_MeV": [
+            -2.9967116186829226,
+            -3.0814186210550214
+          ],
+          "family_energies_final_MeV": [
+            -3.47983750167067,
+            -3.3257552236333985
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.3984188806156488,
+          0.4831258829877476
+        ],
+        [
+          0.24433660257837708,
+          0.3290436049504759
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "M1",
+      "Ii": 14,
+      "If": 13,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.002904231651504811,
+              2.016833076440738
+            ],
+            [
+              2.2154951606965643,
+              0.003114000701489783
+            ]
+          ],
+          "inband_sum": 0.006018232352994594,
+          "interband_sum": 4.232328237137302,
+          "family_energies_initial_MeV": [
+            -2.620288062553846,
+            -2.657946754179537
+          ],
+          "family_energies_final_MeV": [
+            -3.0814186210550214,
+            -2.9967116186829226
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              2.2154951606965643,
+              0.003114000701489783
+            ],
+            [
+              0.002904231651504811,
+              2.016833076440738
+            ]
+          ],
+          "inband_sum": 4.2323282371373026,
+          "interband_sum": 0.006018232352993813,
+          "family_energies_initial_MeV": [
+            -2.620288062553846,
+            -2.657946754179537
+          ],
+          "family_energies_final_MeV": [
+            -2.9967116186829226,
+            -3.0814186210550214
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.42347186687548444,
+          0.46113055850117535
+        ],
+        [
+          0.3387648645033856,
+          0.3764235561290765
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "M1",
+      "Ii": 15,
+      "If": 14,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              2.165773317780864,
+              0.00393488141141811
+            ],
+            [
+              0.003743288591609841,
+              2.030388359256689
+            ]
+          ],
+          "inband_sum": 4.196161677037553,
+          "interband_sum": 0.007678170003027951,
+          "family_energies_initial_MeV": [
+            -2.2234624235419838,
+            -2.216209146966125
+          ],
+          "family_energies_final_MeV": [
+            -2.620288062553846,
+            -2.657946754179537
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.00393488141141811,
+              2.165773317780864
+            ],
+            [
+              2.030388359256689,
+              0.003743288591609841
+            ]
+          ],
+          "inband_sum": 0.007678170003027951,
+          "interband_sum": 4.196161677037553,
+          "family_energies_initial_MeV": [
+            -2.216209146966125,
+            -2.2234624235419838
+          ],
+          "family_energies_final_MeV": [
+            -2.620288062553846,
+            -2.657946754179537
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.4344843306375532,
+          0.4417376072134118
+        ],
+        [
+          0.3968256390118623,
+          0.4040789155877209
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "M1",
+      "Ii": 16,
+      "If": 15,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.004300818820162239,
+              2.138029895692061
+            ],
+            [
+              2.01826599134354,
+              0.004599516148923226
+            ]
+          ],
+          "inband_sum": 0.008900334969085464,
+          "interband_sum": 4.1562958870356015,
+          "family_energies_initial_MeV": [
+            -1.759013379853469,
+            -1.803804845825419
+          ],
+          "family_energies_final_MeV": [
+            -2.2234624235419838,
+            -2.216209146966125
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              2.01826599134354,
+              0.004599516148923226
+            ],
+            [
+              0.004300818820162239,
+              2.138029895692061
+            ]
+          ],
+          "inband_sum": 4.156295887035601,
+          "interband_sum": 0.008900334969085932,
+          "family_energies_initial_MeV": [
+            -1.759013379853469,
+            -1.803804845825419
+          ],
+          "family_energies_final_MeV": [
+            -2.216209146966125,
+            -2.2234624235419838
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.41965757771656476,
+          0.4644490436885147
+        ],
+        [
+          0.41240430114070614,
+          0.4571957671126561
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "M1",
+      "Ii": 17,
+      "If": 16,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              2.0701074643364823,
+              0.0050823247293038986
+            ],
+            [
+              0.004628387399692535,
+              2.0235667889961246
+            ]
+          ],
+          "inband_sum": 4.0936742533326065,
+          "interband_sum": 0.009710712128996768,
+          "family_energies_initial_MeV": [
+            -1.3224318556312387,
+            -1.3264506838388102
+          ],
+          "family_energies_final_MeV": [
+            -1.759013379853469,
+            -1.803804845825419
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.0050823247293038986,
+              2.0701074643364823
+            ],
+            [
+              2.0235667889961246,
+              0.004628387399692535
+            ]
+          ],
+          "inband_sum": 0.009710712128996433,
+          "interband_sum": 4.0936742533326065,
+          "family_energies_initial_MeV": [
+            -1.3264506838388102,
+            -1.3224318556312387
+          ],
+          "family_energies_final_MeV": [
+            -1.759013379853469,
+            -1.803804845825419
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.47735416198660885,
+          0.48137299019418034
+        ],
+        [
+          0.4325626960146589,
+          0.4365815242222304
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "M1",
+      "Ii": 18,
+      "If": 17,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.004911158434293441,
+              2.1123616696452117
+            ],
+            [
+              1.8717916092363809,
+              0.005290502473013719
+            ]
+          ],
+          "inband_sum": 0.010201660907307161,
+          "interband_sum": 3.984153278881593,
+          "family_energies_initial_MeV": [
+            -0.7986720291100778,
+            -0.8860141434185324
+          ],
+          "family_energies_final_MeV": [
+            -1.3224318556312387,
+            -1.3264506838388102
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              1.8717916092363809,
+              0.005290502473013719
+            ],
+            [
+              0.004911158434293441,
+              2.1123616696452117
+            ]
+          ],
+          "inband_sum": 3.9841532788815925,
+          "interband_sum": 0.010201660907307009,
+          "family_energies_initial_MeV": [
+            -0.7986720291100778,
+            -0.8860141434185324
+          ],
+          "family_energies_final_MeV": [
+            -1.3264506838388102,
+            -1.3224318556312387
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.4404365404202778,
+          0.5277786547287323
+        ],
+        [
+          0.4364177122127063,
+          0.5237598265211608
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "M1",
+      "Ii": 19,
+      "If": 18,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              1.9419222607693336,
+              0.00577687217115665
+            ],
+            [
+              0.004774325024685923,
+              1.9342779021111303
+            ]
+          ],
+          "inband_sum": 3.8762001628804637,
+          "interband_sum": 0.010551197195842743,
+          "family_energies_initial_MeV": [
+            -0.32136246170997734,
+            -0.3695008273031721
+          ],
+          "family_energies_final_MeV": [
+            -0.7986720291100778,
+            -0.8860141434185324
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.00577687217115665,
+              1.9419222607693336
+            ],
+            [
+              1.9342779021111303,
+              0.004774325024685923
+            ]
+          ],
+          "inband_sum": 0.010551197195842573,
+          "interband_sum": 3.8762001628804637,
+          "family_energies_initial_MeV": [
+            -0.3695008273031721,
+            -0.32136246170997734
+          ],
+          "family_energies_final_MeV": [
+            -0.7986720291100778,
+            -0.8860141434185324
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.5165133161153603,
+          0.564651681708555
+        ],
+        [
+          0.42917120180690577,
+          0.4773095674001005
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    },
+    {
+      "kind": "M1",
+      "Ii": 20,
+      "If": 19,
+      "versions": {
+        "pairingA": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              0.0051235334773962055,
+              2.084087745930333
+            ],
+            [
+              1.6623951582624281,
+              0.005358914203362913
+            ]
+          ],
+          "inband_sum": 0.010482447680759118,
+          "interband_sum": 3.746482904192761,
+          "family_energies_initial_MeV": [
+            0.2496917910577982,
+            0.12078982616640897
+          ],
+          "family_energies_final_MeV": [
+            -0.32136246170997734,
+            -0.3695008273031721
+          ]
+        },
+        "pairingB_odd_family_flip": {
+          "model_B_family_rows_final_columns_initial": [
+            [
+              1.6623951582624281,
+              0.005358914203362913
+            ],
+            [
+              0.0051235334773962055,
+              2.084087745930333
+            ]
+          ],
+          "inband_sum": 3.746482904192761,
+          "interband_sum": 0.010482447680759233,
+          "family_energies_initial_MeV": [
+            0.2496917910577982,
+            0.12078982616640897
+          ],
+          "family_energies_final_MeV": [
+            -0.3695008273031721,
+            -0.32136246170997734
+          ]
+        }
+      },
+      "source_energy_ordinal_open_mask": [
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ]
+      ],
+      "source_energy_ordinal_Egamma_MeV": [
+        [
+          0.49029065346958106,
+          0.6191926183609703
+        ],
+        [
+          0.44215228787638633,
+          0.5710542527677755
+        ]
+      ],
+      "note": "Fixed model strengths only; family names and scoring do not create new physical data."
+    }
+  ],
+  "controls": {
+    "fixed_H_and_EM_hashes_and_scope": true,
+    "eigenvectors_converged": true,
+    "each_family_map_is_a_permutation": true,
+    "E2_score_identical_under_relative_odd_chain_flip": true,
+    "full_open_strength_sum_permutation_invariant": true,
+    "absolute_determinant_of_strength_matrix_permutation_invariant": true,
+    "M1_in_out_sums_exchange_under_odd_flip": true,
+    "photon_masks_reported_not_assumed": true
+  },
+  "all_controls_pass": true,
+  "errors": {
+    "eigen_residual_MeV": 1.5264591515288422e-13,
+    "E2_score_pairing_difference": 0.0,
+    "total_strength_invariant": 8.881784197001252e-16,
+    "absdet_strength_invariant": 8.881784197001252e-16,
+    "M1_in_out_exchange": 8.881784197001252e-16
+  },
+  "limitations": [
+    "Family mappings describe model-label association only, not actual configuration alternatives or experimental band identities.",
+    "E2 used to construct the map cannot then serve as an independent validation of that map.",
+    "Energy continuity, actual observed links or unused M1 information may constrain relative pairing, with their calibration role recorded.",
+    "No low-two-state projector completeness, actual nucleus, paired author producer or source Koike numerical reproduction.",
+    "No new physical g/delta/Q/lifetime/CI, facilities rate or beamtime."
+  ]
+}

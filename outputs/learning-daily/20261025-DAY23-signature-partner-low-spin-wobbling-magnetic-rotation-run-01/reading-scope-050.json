@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-26T00:36:35.108176+00:00",
+  "source_scope": "fixedsourcevariant/actualKoikebandorganizationalreadyread; no newfullpaper",
+  "eight_controls_pass": true,
+  "label_association_not_actualconfiguration": true,
+  "E2used_M1unused_role_explicit": true,
+  "strength_matrix_absdet_only_permutation_check": true,
+  "not_complete_coherent_unitary_invariant": true,
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true,
+  "formalday": 23,
+  "onlyuncreditedpreview": 24
+}

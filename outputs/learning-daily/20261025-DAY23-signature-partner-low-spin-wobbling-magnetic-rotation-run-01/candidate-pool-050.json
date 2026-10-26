@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-26T00:41:22.766425+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "同H E2only家族配对八门，奇偶相对配对E2平局/M1inout互换，非actual配置等可信",
+  "next_route": "回当前Day23 AMR105Cd原DSAM/2013CommentReply实际证据缺口，已有微观模型source016不算新数据；先元数据/访问再判有无body",
+  "missing_inputs": [
+    "105CdChoudhury2010 primary lifetime/branch/SF/stopping tables",
+    "actual Pr/Au complete response/operator state assignment",
+    "source EM/band mapping calibration-role ledger"
+  ],
+  "Day25_opened": false
+}

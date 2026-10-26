@@ -260,3 +260,15 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 [[koike-2004-chiral-bands-selection-rules]] KOIKE04-D23-001–004直接原文给coreR3 quarterrotation加价p/n交换A。047的任务S在轴对齐后是相同结构的特殊H操作，但原Koikeγ90/3m与J0惯量定义、原数值g/β和EM低/高levels简化均须单列，不称任务参数/全EM重现了该文Fig3。
 
 源选择关系明确不要求已达手征几何，且近简并区按E2连接组织bandlabel；这进一步限制用energyordinal及model零作实际band/mode认证。原source对配对只称合理近似、未展开，不将其自动扩为所有actualqp/multiorbital实现。新增needs_review:true，Day24仍不授分。
+
+## Day23桥接Day24无学分预习：E2组织bandfamily后的M1输入
+
+沿044/046固定H/operator及[[koike-2004-chiral-bands-selection-rules]] KOIKE04-D23-003的bandlabel问题，只检验任务模型标签与信息角色，不赋实际核配置。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZH07-D24P-018 | 在fixedH I12–20低两态中，仅以开放E2 I→I−2强度和最大化作even/odd链内配对，I12/13先各按energyordinal0作f锚。将整条odd链f/u交换给第二种相对配对，所有E2链内score完全相同；M1 I→I−1的in/out总强度却精确互换，而每条物理2×2强度表总和及行列交换下|det|不变。这是label-association例，不是两个实际配置/新H，E2分数相同也不赋它们物理等可信。 | fixedmodel-band-mapping-and-information-role | same-H-EM-plus-task-label-construction | task input-contract050/modelE2assignment/M1unused rows; KOIKE04-D23-003 motivation | true |
+
+例如I14的pairingA模型M1 in/out总和约.006018/4.232328μN²，pairingB将其交换；I15为4.196162/.007678后交换。真实modelRME和能量没有变化，仅“带内/带间”依相对family映射变化。八门核codehash/solver/排列/E2score/M1互换，均过；表的|det|这里只检行列置换，不声称强度模方就恢复了相干RME的所有unitary不变量。
+
+若以某EM量定标/组织family，再把同一量算成独立验证，会循环；需要预先明确energycontinuity、实际连接或尚未用于配对的M1等约束。真正configuration assignment还须固定observedband对应、H/operators并给未定标量预测，本label例不替代该B槽。[[nuclear-chirality]]与[[signature-tip-shears-discrimination-contract]]保此范围，新needs_review:true，Day24无学分。

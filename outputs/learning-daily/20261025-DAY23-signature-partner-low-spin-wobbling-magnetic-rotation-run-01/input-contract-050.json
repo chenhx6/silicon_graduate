@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-10-26T00:32:05.320387+00:00",
+  "scope": "fixedH/operator modelbandfamily mapping usingE2only, comparetwoevenoddrelativepairingswithM1notused; no actualexperimentalconfigurationassignment ornewobservables",
+  "formalday": 23,
+  "onlyuncreditedpreview": 24,
+  "H_contract": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/input-contract-044.json",
+  "H_contract_sha256": "77264c9b7471002e79960d96f03c2892e1b9ab05e5706cc57d9d6f62f2066c46",
+  "code_hashes": {
+    "system/scripts/day23_unpaired_ph_prm.py": "87e9151616b4a33ec51c89722296aa0b6801fe59a049ff272ce32e224f7d8cc3",
+    "system/scripts/day23_prm_em_tensors.py": "22a66b25d6619a754103fe9f7c274d9c587a0ca9922669a72dfb631986e085e7"
+  },
+  "spin_range": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "anchors": "evenI12 f=lowerordinal0;oddI13 pairingA f=lower0;pairingB flipsalloddspinf/u globally, leavingevenchain unchanged",
+  "construction": "forI>=14choosepermutationof2loweststatesmaximizingopenE2inbandsumtoI−2mappedf/u; allEgamma masksrecorded. OnlyE2used, no M1/energycurve optimization",
+  "comparison": "twofamilymappings haveidenticalE2score; holdoutmodelM1in/out sums mayexchange. Fullphysical2x2matrixFrobeniusnorm/absdet invariantunderrow/colpermutations. StateenergiesandRMEimmutable, no newconfigurationH or nucleardatafit",
+  "source": "Koike04p3/4 organizes bandsbyE2near-degenerate regime; actualsourceaxes/parameters/truncation differfromtaskvariant",
+  "controls": [
+    "fixedH/operatorcodehash",
+    "eigensolverresidual",
+    "eachspinone-to-onestatepermutation",
+    "E2openphotonmaskseparatefromformalB",
+    "E2assignmentscoreequalfortwopairings",
+    "M1fullmatrixinvariantsunchanged",
+    "allM1in/outsumsexchangeunderglobaloddchainflip"
+  ],
+  "prohibited": [
+    "E2usedforbandpairingthencountedindependentvalidation",
+    "relativeparitypairingscalledphysicallyequallycredibleoractualconfigalternatives",
+    "energyordinaldirectlyequatedexperimentalband",
+    "modelM1predictioncalledmeasurement/δ/Q/tau/CI/rate/time",
+    "branchgraphcompletenessfrom2stateprojection",
+    "sourceKoikefullproducerreproduction/Day24credit/Day25+",
+    "run114producer/rawmutation"
+  ]
+}
