@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点046（Day24仅无学分预习）
+## Active handoff — Day23检查点047（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-045已published。046 fixedunpairedH sourceEM Afi=Ef†CG⊗tEi，B=|A|²pref，sourceQ0=3.5/gdiff.7,−.6为modelinputs；十门过。I14M1大diagonal/E2off，I18反向pattern，非actualband/普适禁戒。I9formalE2向If7ordinal1 B.01449但Eγ−.41645MeV非出口；M1IfI−1/E2IfI−2不能反演δ。ZH07-D24P-011–013/方法/概念needs_review。下一已实现S特殊symmetry047通过，待canonical写回，不给signature/pseudospin/chiralC归属。
+046已published。047 specialγ30/equalj/oppositeC/unpaired H联合p/n交换与π/2S，physicalD2S²1、[H,S]~2.1e−14MeV；E2odd/M1sumEven/diffOdd，七门过，forbiddenA≤1.4e−12。源M1=.05sum+.65diff解释通道弱强，labels不是signature/pseudospin/C、不强制degeneracy。ZH07-D24P-014/015/概念含signature/方法needs_review。下一J2/3微扰only受控taskablation，不source或实验fit。
 
-详next-continuation-046.md/candidate-pool-046.json；检查以required-checks-046.json为准。Git指针main · Day23: keep model transition matrices and open outlets separate；actualhash/H3仅task-publication-receipt-046.json。
+详next-continuation-047.md/candidate-pool-047.json；检查以required-checks-047.json为准。Git指针main · Day23: identify the special symmetry behind model selection rules；actualhash/H3仅task-publication-receipt-047.json。
 
 ## Previous handoff — Day22 closeout
 

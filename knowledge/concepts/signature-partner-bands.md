@@ -77,3 +77,9 @@ wobbling在非谐情形的phonon标签还依作者所用topology定义，不能�
 unitary r不会因态整体phase改变；C=RyπT为antiunitary，其eigenphase有不同的gauge边界，不能把C的±写成额外signature/parity。普通T的Kramers关系也不把实际非零频qp signature branches锁成等能：推转Routhian在T下同时改变ω符号，fixedω本身不是零场T对称问题。任务finite-j toy的86控制只核这个代数关系，不给实际转动band的能量/Jπ或新核态。
 
 pseudospin是另一类近似intrinsic对称，不能由Rzπ或相同α推得；更不能把“signature partner”翻译或计票为“pseudospin partner”。普通SP连接M1经验/典型E2启发式都不是充分模式判据；原[[sensharma-2019-two-phonon-wobbling-135pr]] S19-D23-4已说明ordinarySP和one-phonon候选都可有相反signature，仍需逐线矩阵元/组态/模型有效域。新needs_review:true，原flags保持。
+
+## Day23：模型中的±标签须先识别操作
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-014/015给特殊无配对p-hole H的一种unitary S：p/n模型标签交换加body四分之一圈。即使S²=1、有±本征标签，它也不是本页π转动signature，更不是pseudospin或反幺正手征C；不能因都给“两支”便把这些量子数互换。
+
+该S的EM选择关系只在所列等j/相反谱/γ30/MoI条件与算符截断下成立，源实际M1还混有S-even与odd两分量。它不提供所有SP/wobbling/TiP/MR/AMR的δ或W.u.硬门，不从两个S扇区必推出简并。具体逐线强度、响应与configuration仍分别检验；新增needs_review:true，Day24仅已有无学分预习，不新增卡信用。

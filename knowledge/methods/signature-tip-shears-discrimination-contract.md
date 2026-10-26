@@ -679,3 +679,11 @@ $$f_+^2+(u_Av_B-v_Au_B)^2=1,qquad f_-^2+(u_Av_B+v_Au_B)^2=1.$$
 得到的低ordinal矩阵可随I改变dominant channel，特殊γ30下还出现数值近零项。这不把能量排序当稳定configuration/band标签，也不把该参数点的零当实测absence、全局δ/W.u.门或chirality认证。完整张量还要先检查目标出口：例如modelI9 ordinal0到If7 ordinal1为上跃，虽有非零formalE2 RME也不能产生该方向γ。与Pr早前526候选相同，形式强度与开放退激必须分开。
 
 固定If的全部formal终态之和可包含upward/sameI benchmark，低2final states也没有自动封闭EM projector；它们都不是实验total lifetime/branch库存。当前M1是I→I−1、coreE2是I→I−2，分母/末态不同，不能从这两表恢复某条混合δ。十数值/角动量门只核该variant的EM，不代原paired/multiqp producer或actualresponse/Cov。[[nuclear-chirality]]保唯一Day24无学分预习，新增needs_review:true，无新measuredB/δ/τ/CI/设施率或机时。
+
+## Day23桥接Day24预习：选择规则来自哪一种对称性
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-014/015给044特殊H的任务推导。γ30使hsp=C/(2√3)(j3²−j2²)，J2=J3；p/n交换与绕body1的π/2联合S保持H。full product作用实现为exp(+iπIbody1/2)⊗exp(−iπjp1/2)⊗exp(−iπjn1/2)Ppn，physicalD2内S²=1。七项unitarity/D2/H/lowstate labels/tensor covariance/forbiddenmatrix控制过，不是原作者code或实际核对称性认证。
+
+CoreE2在S下odd；M1按源系数分成.05(jp+jn) even与.65(jp−jn) odd。若modelstates带sf、si，张量parityη只允许sf si=η，但允许项还可能因其它原因消失。由此可解释046矩阵随energyordinal排序改变dominant channel以及特殊E2近零，不能把energyordinal、S标签和实测band/configuration视作同一量。
+
+[[signature-partner-bands]]的signature是另一个π转动，S还含p/n交换与π/2，不因有±就等同；[[nuclear-chirality]]的C是antiunitary，亦不与此S互换。S²1不保护能量简并，模型交换也不是对真实proton/neutron的实验转化。改变sourceH的γ、MoI、配对/轨道或operator会改变这些选择关系，因此不恢复统一δ/W.u.硬门、不抹F14冻结j仍有M1，也不判Pr/Au两个root必等深或所有支持案例不成立。新增needs_review:true，无新measuredδ/g/B/Q/τ/CI/机时。

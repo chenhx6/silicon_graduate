@@ -232,3 +232,14 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 | ZH07-D24P-013 | 形式RME与开放γ出口须分：I9 ordinal0→If7 ordinal1的模型E2 B约.014488e²b²，但该fixedH中Einitial−Efinal≈−.416448MeV，是向上连接。所有固定If终态的形式强度范数也可含这种项，不能乘它作开放γ宽度/缺失branch或新机时。这里M1计算If=Ii−1、E2计算If=Ii−2，不是同一混合跃迁的两分量，未由二者反演δ。 | model-kinematic-outlet-and-mixing-identity-boundary | declared-H-energies-and-formal-RME | task prm-em-tensors046 Ii9/If7 rowfinal1/columninitial0; input-contract046 | true |
 
 `system/scripts/day23_prm_em_tensors.py`十项门通过，最大矩阵reverse差1.8e−15、eigen残差2.6e−12MeV；两低final态只占固定If形式总强度的一部分，不能据低2×2表宣称projector封闭。[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]分别保model/probability/EM/experimental层次与唯一Day24无学分范围；新needs_review:true，无新measuredB/g/Q/δ/τ/CI或设施率/机时。
+
+## Day23桥接Day24无学分预习：特殊H的额外幺正对称性
+
+本节是由实际源H/EM的明确参数推导出的任务对称操作，不声称原文给了同名S、原producer已核或实际核精确具此对称性。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZH07-D24P-014 | 对044等j、p/h相反同幅C、无配对、γ30且J2=J3的H，hsp=C/(2√3)(j3²−j2²)。交换p/n模型标签再把全部body向量绕1轴转π/2，两次变号使Hintr不变，Hcoll亦不变。任务S为unitary，S²等于D2的π1操作，在physicalsector为1；它给±标签但不要求两能量简并，更不是physicalsignature、pseudospin或antiunitarychiralC。 | derived-extra-unitary-model-symmetry | source-H-plus-explicit-task-algebra | sourceZH07v1Eqs2/4/6/7 and fixedγ30model; task input-contract047 | true |
+| ZH07-D24P-015 | 同一S下coreE2为odd，M1的jp+jn分量even、jp−jn分量odd，故允许相应sf si=±的modelRME；允许不保证非零。源采用M1 .7jp−.6jn可分.05(jp+jn)+.65(jp−jn)，不同强弱通道及部分E2近零由特殊条件/标签解释。七数值门核H commutator≤2.1e−14MeV、tensorcovariance≤5e−15、forbiddenamplitude≤1.4e−12，不能转为实测禁戒或统一δ/W.u.判门。 | derived-model-selection-and-scope | source-operator-plus-task-symmetry-and-numerics | sourceZH07v1Eq15/18; task input-contract047; fixedsourceg inputs | true |
+
+`system/scripts/day23_prm_exchange_symmetry.py`对完整product态作小矩阵旋转/交换，不在RMS箭头上猜phase；核D2映射、S²、H与RME作用。源p/n交换是理想模型操作，真实Coulomb/轨道/配对/形变或EM项未必保它。改变γ、MoI比、粒子/空穴谱、配对或组态空间可破选择关系；它不覆盖实际Pr/Au或其它核支持/反证。[[signature-partner-bands]]与[[nuclear-chirality]]保操作分类，[[signature-tip-shears-discrimination-contract]]保适用条件，新增needs_review:true。

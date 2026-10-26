@@ -4467,3 +4467,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 2026-10-26T07:44:24.441208+08:00 Day23检查点045：同H三轴marginal七门，ρ/P/fullRMS一致；谱gap非所有分布距离单调代理；继续同无配对H的EM约化张量组件，先scalar/freeR0/详细平衡/完整finalspace角闭合，再低ordinal转移矩阵；sourceQ0/g只模型输入。原15:00/partial[23,24]/next23保持。Git指针main · Day23: keep spin marginals distinct from classical orientation；actualhash/H3仅task-publication-receipt-045.json。
 
 2026-10-26T07:57:17.402772+08:00 Day23检查点046：sourcecoreE2/M1同H约化tensor十门，specialnearzeros/ordinal通道变化只模型；formalupward不能当γ；继续特殊γ30 p-holeH的额外unitary S与E2/M1分量选择，核条件性及非signature/chiralC范围。原15:00/partial[23,24]/next23保持。Git指针main · Day23: keep model transition matrices and open outlets separate；actualhash/H3仅task-publication-receipt-046.json。
+
+2026-10-26T08:07:20.435385+08:00 Day23检查点047：derivedunitaryexchange/quarterrotationS七门，E2odd/M1sumEven/diffOdd，非signature/pseudospin/chiralC；继续只扰动J2/J3的同operator受控ablation，检model零的脆弱性与±epsilon对称，不改configuration或实测数据。原15:00/partial[23,24]/next23保持。Git指针main · Day23: identify the special symmetry behind model selection rules；actualhash/H3仅task-publication-receipt-047.json。

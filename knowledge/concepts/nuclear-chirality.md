@@ -185,3 +185,9 @@ full-space平方范数给RMS而非带符号平均矢量，低gap/RMS相近也不
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-011–013在已固定H上补source采用尺度的EM矩阵和独立自由/张量检查；它比marginals多保留了相干算符信息，仍不是实测partner强度或作者pairedproducer。
 
 特殊参数下某些E2近0、强M1在ordinal通道之间变化，不能直接称普遍手征/旋称判据。形式矩阵元可对应向上连接，固定If完整角空间也不等完整γ出口；不同If的M1与E2不能合成某条δ。[[signature-tip-shears-discrimination-contract]]保这些输入身份，新增needs_review:true，Day24无学分。
+
+## Day23内的Day24无学分预习：额外unitary S不等于手征C
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-014/015的S是特殊H的交换/旋转unitary对称，物理D2扇区内S²=1；它与antiunitaryC的操作类型、以及Kramers T²保护分别处理，不能只看平方或±标签。S分扇区不强迫谱简并，也不单独认证左右手构型。
+
+S-even/odd的modelEM零与强弱关系有明确γ/惯量/谱/配对/算符条件。[[signature-partner-bands]]和[[signature-tip-shears-discrimination-contract]]承接分类与迁移边界，原Pr/Au及其它核正支持链不由此一概否决。新增needs_review:true，Day24仍不授分。

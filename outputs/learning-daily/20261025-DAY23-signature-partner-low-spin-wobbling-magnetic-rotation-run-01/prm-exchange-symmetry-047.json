@@ -1,0 +1,281 @@
+{
+  "scope": "extra unitaryexchange/quarterrotation symmetry ofexplicitγ30unpairedp-holeH, not physicalsignature/pseudospin orantiunitarychiralC",
+  "formal_day_index": 23,
+  "only_uncredited_preview": 24,
+  "conditions": {
+    "recorded_at": "2026-10-25T23:50:49.553143+00:00",
+    "scope": "extra unitaryexchange/quarterrotation symmetry ofexplicitγ30unpairedp-holeH, not physicalsignature/pseudospin orantiunitarychiralC",
+    "formalday": 23,
+    "onlyuncreditedpreview": 24,
+    "H_contract": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/input-contract-044.json",
+    "H_contract_sha256": "77264c9b7471002e79960d96f03c2892e1b9ab05e5706cc57d9d6f62f2066c46",
+    "H_code_sha256": "87e9151616b4a33ec51c89722296aa0b6801fe59a049ff272ce32e224f7d8cc3",
+    "EM_code_sha256": "22a66b25d6619a754103fe9f7c274d9c587a0ca9922669a72dfb631986e085e7",
+    "derivation": "γ30 hsp=C/(2sqrt3)(j3²−j2²),J2=J3; swapp/n andπ/2rotateallbodyvectorsabout1eachflipHintrtwice=>Hunchanged. S=U_I(+π/2Ibody1)⊗U_p(−π/2jp1)⊗U_n(−π/2jn1)Ppn; equalj,oppositeC,no pairing required. S²=D2π1=1 onphysicalsector",
+    "operator_prediction": "coreE2changes sign underquarterrotationsoSf A_E2 Si=−A_E2; particleM1split(gp+gn)/2(jsum) S-even and(gp−gn)/2(jdiff) S-odd afterallbodyrotation, modelcoeff .05/.65, no newg. Neednumericalchecks in declaredconvention,notassumedphenomenologicalrule",
+    "acceptance": [
+      "productrotationunitary",
+      "S mapsD2sectortoitself/S²1",
+      "Hcommutator onrandomphysicalstatesandloweigenstates",
+      "lowstatesSexpectation±1 fornondegenerateeigenvalues",
+      "E2odd/M1sum even/M1diff odd tensorcovariance using independentrandomvectors",
+      "matrixentries violatingderivedselectionnumericallyzero, allowedentriesnotrequirednonzero"
+    ],
+    "prohibited": [
+      "S is signaturepartneroperator orpseudospin/chiralC",
+      "modelselectionrule universalactualnucleusδ/WUhardgate",
+      "M1particleexchangephysicalprotonneutrondualitycertified",
+      "degeneracyforcedbyS²1",
+      "newmeasuredg/B/delta/Q/tau/CI/rate/time",
+      "sourcepairedproducer orDay24credit/Day25+",
+      "run114producer/rawmutation"
+    ]
+  },
+  "contract_sha256": "dd92fac5331babfcaf19d662a9b7bd5dde8dc242a789c14ca5cfa4724a6b9fbc",
+  "implementation_sha256": "52b1caffe41859523a6fbaaa1d72cdba20ad7f393c1060f4ab632657612bc56a",
+  "rows": [
+    {
+      "kind": "E2",
+      "Ii": 9,
+      "If": 7,
+      "tensor_S_parity": -1,
+      "initial_ordinal_S_labels": [
+        1,
+        -1
+      ],
+      "final_ordinal_S_labels": [
+        1,
+        -1
+      ],
+      "normalized_angular_strength_rows_final_columns_initial": [
+        [
+          7.118249111517376e-30,
+          0.10199972965406423
+        ],
+        [
+          0.011889832534983122,
+          4.3913128661973365e-30
+        ]
+      ]
+    },
+    {
+      "kind": "M1_sum",
+      "Ii": 9,
+      "If": 8,
+      "tensor_S_parity": 1,
+      "initial_ordinal_S_labels": [
+        1,
+        -1
+      ],
+      "final_ordinal_S_labels": [
+        -1,
+        1
+      ],
+      "normalized_angular_strength_rows_final_columns_initial": [
+        [
+          3.1161238351394374e-28,
+          3.9583098636948035
+        ],
+        [
+          0.41841127710681464,
+          2.7733391199176196e-30
+        ]
+      ]
+    },
+    {
+      "kind": "M1_diff",
+      "Ii": 9,
+      "If": 8,
+      "tensor_S_parity": -1,
+      "initial_ordinal_S_labels": [
+        1,
+        -1
+      ],
+      "final_ordinal_S_labels": [
+        -1,
+        1
+      ],
+      "normalized_angular_strength_rows_final_columns_initial": [
+        [
+          28.371138943655822,
+          2.518241224691775e-27
+        ],
+        [
+          2.935351428327385e-27,
+          29.199726362699625
+        ]
+      ]
+    },
+    {
+      "kind": "E2",
+      "Ii": 14,
+      "If": 12,
+      "tensor_S_parity": -1,
+      "initial_ordinal_S_labels": [
+        -1,
+        1
+      ],
+      "final_ordinal_S_labels": [
+        -1,
+        1
+      ],
+      "normalized_angular_strength_rows_final_columns_initial": [
+        [
+          1.3619509563752327e-26,
+          0.11513034875343019
+        ],
+        [
+          0.14539753796041946,
+          1.667976454777255e-26
+        ]
+      ]
+    },
+    {
+      "kind": "M1_sum",
+      "Ii": 14,
+      "If": 13,
+      "tensor_S_parity": 1,
+      "initial_ordinal_S_labels": [
+        -1,
+        1
+      ],
+      "final_ordinal_S_labels": [
+        1,
+        -1
+      ],
+      "normalized_angular_strength_rows_final_columns_initial": [
+        [
+          3.034731717622296e-25,
+          4.866086837775928
+        ],
+        [
+          5.217558254520401,
+          3.397421311438231e-25
+        ]
+      ]
+    },
+    {
+      "kind": "M1_diff",
+      "Ii": 14,
+      "If": 13,
+      "tensor_S_parity": -1,
+      "initial_ordinal_S_labels": [
+        -1,
+        1
+      ],
+      "final_ordinal_S_labels": [
+        1,
+        -1
+      ],
+      "normalized_angular_strength_rows_final_columns_initial": [
+        [
+          19.995480793571335,
+          1.1966815705519866e-24
+        ],
+        [
+          1.3401623991556733e-24,
+          21.965075568940147
+        ]
+      ]
+    },
+    {
+      "kind": "E2",
+      "Ii": 18,
+      "If": 16,
+      "tensor_S_parity": -1,
+      "initial_ordinal_S_labels": [
+        -1,
+        1
+      ],
+      "final_ordinal_S_labels": [
+        1,
+        -1
+      ],
+      "normalized_angular_strength_rows_final_columns_initial": [
+        [
+          0.28564901097779816,
+          2.102798290591603e-26
+        ],
+        [
+          1.992361440022601e-26,
+          0.2747005903359134
+        ]
+      ]
+    },
+    {
+      "kind": "M1_sum",
+      "Ii": 18,
+      "If": 17,
+      "tensor_S_parity": 1,
+      "initial_ordinal_S_labels": [
+        -1,
+        1
+      ],
+      "final_ordinal_S_labels": [
+        -1,
+        1
+      ],
+      "normalized_angular_strength_rows_final_columns_initial": [
+        [
+          8.864321974899852,
+          7.382512351348234e-25
+        ],
+        [
+          7.051346007578025e-25,
+          8.228724937448419
+        ]
+      ]
+    },
+    {
+      "kind": "M1_diff",
+      "Ii": 18,
+      "If": 17,
+      "tensor_S_parity": -1,
+      "initial_ordinal_S_labels": [
+        -1,
+        1
+      ],
+      "final_ordinal_S_labels": [
+        -1,
+        1
+      ],
+      "normalized_angular_strength_rows_final_columns_initial": [
+        [
+          1.5947735891603965e-24,
+          18.557496705729907
+        ],
+        [
+          20.94257957580164,
+          1.7147997816582043e-24
+        ]
+      ]
+    }
+  ],
+  "controls": {
+    "frozen_H_and_EM_implementations": true,
+    "special_S_unitary_and_D2_mapping": true,
+    "Ssquare_one_in_physical_D2_sector": true,
+    "S_commutes_with_fixed_special_H": true,
+    "resolved_low_states_S_labels_plus_minus1": true,
+    "coreE2odd_M1sum_even_M1diff_odd_covariance": true,
+    "forbidden_entries_match_special_S_selection": true
+  },
+  "all_controls_pass": true,
+  "errors": {
+    "norm_unitarity": 7.771561172376096e-16,
+    "D2_mapping": 1.781270573691676e-15,
+    "S_square": 3.3642720212122135e-15,
+    "H_commutator_MeV": 2.0452570509493577e-14,
+    "low_state_S_eigenvalue": 2.886579864025407e-15,
+    "low_state_S_residual": 5.456669645049133e-13,
+    "tensor_covariance": 4.9717772346545414e-15,
+    "selection_forbidden_amplitude": 1.3095036394215193e-12
+  },
+  "limitations": [
+    "S is a derived extra unitary exchange/rotation of this special equal-j unpaired Hamiltonian, not measured signature, pseudospin or the antiunitary chiral operation.",
+    "Ssquare1 labels sectors and does not require energy degeneracy.",
+    "Changing gamma, inertias, particle/hole spectra, pairing or model space can break these selection relations.",
+    "Source g coefficients split .05 times jp+jn and .65 times jp-jn; they are model inputs, not newly measured g factors.",
+    "No actual nuclear assignment, experimental forbidden line, delta/W.u. hard gate, covariance, confidence, rates or time."
+  ]
+}

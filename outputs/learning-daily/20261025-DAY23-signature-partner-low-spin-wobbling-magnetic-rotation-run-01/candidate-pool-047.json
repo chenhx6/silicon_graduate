@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-26T00:07:20.435385+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "derivedunitaryexchange/quarterrotationS七门，E2odd/M1sumEven/diffOdd，非signature/pseudospin/chiralC",
+  "next_route": "只扰动J2/J3的同operator受控ablation，检model零的脆弱性与±epsilon对称，不改configuration或实测数据",
+  "missing_inputs": [
+    "actual model inertia/pairing/space domain",
+    "experimental fullresponse and globalbranchcovariance",
+    "original paired/multiqp authorproducer"
+  ],
+  "Day25_opened": false
+}
