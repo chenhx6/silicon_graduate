@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-26T00:16:57.973776+00:00",
+  "scope": "actualKoike2004specialchiralEMselectionrule primary, compare assumptions/operation/axes toderivedS047, not newexperiment or universalrule",
+  "formal_day": 23,
+  "only_uncredited_preview": 24,
+  "source_pdf": "tmp/day23-originals/koike04-body049-83c136e5.pdf",
+  "sha256": "f39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e",
+  "doi": "10.1103/PhysRevLett.93.172502",
+  "actual_body": "TohokuinstitutionalPDF200,4pages/748455bytes, publisherPDF403; metadataCrossref/Inspire/OpenAlexverified; no OAlicenseinferencefromreadability",
+  "before_mainreading": "title/abstractfirstpageactualseen, demonstratesauthorsdeclarelimitingcase/specialconfiguration; notblindrecall",
+  "goals": [
+    "actualγ/axis/inertia/shell/particlehole/charge/gapproximations",
+    "unitaryoperationAdefinitionandrelationtohandedness/degeneracy",
+    "fullEMselectionconditions/lowIandhighIlimits/figuretables",
+    "comparederivedSwithaxismappingexplicit ratherthansameword",
+    "preserveauthorloss-of-generalityandseparateexperiment frommodel"
+  ],
+  "prohibited": [
+    "rulefromabstractasgeneralempiricalcondition",
+    "S/A numericalmatch proofactualPrAu/Lu/Pd/BaNdassigned",
+    "newmeasuredg/B/delta/Q/tau/CI/rate/time",
+    "countmodelpaperindependentexperimentalacquisition",
+    "sourcegammaanglecopiedwithoutaxestranslation",
+    "run114producer/raw/oldreview/Day24creditmutation"
+  ],
+  "overlap_audit_at": "2026-10-26T00:23:16.017601+00:00",
+  "existing_canonical": "knowledge/sources/koike-2004-chiral-bands-selection-rules.md, existingrawsamehash; no duplicate source or newindependent measurement",
+  "new_gap_focus": "existingKOIKE04-1..13alreadycovermainselectionlimits; newtargetEMnumericaltruncation/state-labelarrangement/axesinertiadefinitionandderivedSbridge, plus withdrawtwoDay19overcertificationsnowdirectprimarychecked"
+}

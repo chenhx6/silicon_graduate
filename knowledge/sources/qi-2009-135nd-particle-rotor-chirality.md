@@ -254,3 +254,9 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 | ZH07-D24P-017 | 原S禁戒的modelE2 ordinal0→0通道在ε0 B≈数值0，ε.001/.003/.01给约1.6496e−7/1.4849e−6/1.6533e−5e²b²；B/ε²由.164960到.164990再.165334，smallε前两点变化约.0183%。十门过，只说明该H/算符的特殊零依赖惯量对称性，不给实际核线强度、排他性或统一δ/W.u.门；改H不能充作只改assignment的B槽。 | model-selection-rule-stability-boundary | controlled-ablation-not-experiment | task prm-symmetry-breaking048 Ii14If12 B00; sourcefixedoperators asZH07-D24P-011 | true |
 
 `system/scripts/day23_prm_symmetry_breaking.py`保原code/hash，不改变任何实测count/level；与不同source/核实验无identity关联。状态跟踪依据overlap而非盲用能量ordinal，并记录实际indices；允许强度与ε符号映射不作为实验coverage/CI。[[signature-partner-bands]]、[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]保model条件、量子数与原data分层；newneeds_review:true，Day24继续无学分。
+
+## Day23桥接Day24无学分预习：额外S的原理论脉络
+
+[[koike-2004-chiral-bands-selection-rules]] KOIKE04-D23-001–004直接原文给coreR3 quarterrotation加价p/n交换A。047的任务S在轴对齐后是相同结构的特殊H操作，但原Koikeγ90/3m与J0惯量定义、原数值g/β和EM低/高levels简化均须单列，不称任务参数/全EM重现了该文Fig3。
+
+源选择关系明确不要求已达手征几何，且近简并区按E2连接组织bandlabel；这进一步限制用energyordinal及model零作实际band/mode认证。原source对配对只称合理近似、未展开，不将其自动扩为所有actualqp/multiorbital实现。新增needs_review:true，Day24仍不授分。

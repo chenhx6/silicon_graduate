@@ -197,3 +197,9 @@ S-even/odd的modelEM零与强弱关系有明确γ/惯量/谱/配对/算符条件
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-016/017给额外S的受控惯量破缺。以overlap连续匹配而非能量排序定义同一个模型态，±ε由S关联，原forbiddenE2随smallε²打开；该结果不提供实际核隧穿率、静态手征分数或实验禁戒显著性。
 
 S被破后不能把其期待值当精确量子数，源模型选择关系也不能升级为普遍fingerprint。[[signature-partner-bands]]和[[signature-tip-shears-discrimination-contract]]区分这个改H实验与configuration-only解释；Day24仍无学分，新needs_review:true。
+
+## Day23内的Day24无学分预习：原选择关系还受EM截断与带配对影响
+
+[[koike-2004-chiral-bands-selection-rules]] KOIKE04-D23-001–004补实际原文的轴/惯量、A/Cpn、EM简化与bandlabel安排。选择规则对specialH所有态适用，所以规则相符不足以证明手征；Eq10的两带率对应相等另有左右手因子化/跨手EM消失条件。
+
+源EM计算限制lowest/highest single-particle levels，近简并区又用E2连接组织两带，不能将modelenergyordinal与稳定bandlabel混用或与任务fullj矩阵假装同实现。[[signature-tip-shears-discrimination-contract]]保这些输入，新增needs_review:true；同raw重新回读不新增独立实验，Day24无学分。

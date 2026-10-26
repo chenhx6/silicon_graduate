@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-26T00:26:31.136000+00:00",
+  "actual_source": "existingcanonicalKoike2004samehashraw, downloadedduplicateTohokucopydoesnotaddindepdata",
+  "sha256": "f39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e",
+  "scope": "all4pagebody/Eqs1–10/Figs1–3; freshvisualPDF2–4",
+  "overlap": "KOIKE04-1..13alreadycovermainline, newfocusEMtruncation/bandmapping/axes/inertia and2oldtaskclaimswithdrawal",
+  "oldsourceclaims_reviewflags_unchanged": true,
+  "newclaims_needs_review": true,
+  "oldtaskrows_preserved": "pre-correction-049.json",
+  "not_newexperiment": true,
+  "formalday": 23,
+  "onlyuncreditedpreview": 24
+}

@@ -113,7 +113,7 @@ This is a theoretical model result, not an experimental measurement. Rule compat
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| KOIKE04-D19-1 | Koike 2004 证明了在 $\gamma = 90^\circ$ 粒子—转子模型中，$\hat{\mathcal{A}} = \exp(i \frac{\pi}{2} R_3) \hat{\mathcal{P}}_{pn}$ 算符所导出的电磁选择定则（同 $\mathcal{A}$ 禁戒集体 $E2$、抑制单粒子 $M1$ 达两个数量级以上）适用于该哈密顿量的所有本征态，而无需事先建立非共面手征几何。在手征双重带中，由于左右手态隧穿形成的宇称本征态具有相反的 $\mathcal{A} = \pm 1$ 本征值，能带内部态沿自旋序列呈周期为 4 的符号更替，导致带内 $\Delta I = 1$ $M1$ 跃迁与带间 $\Delta I = 1$ $M1$ 跃迁呈现严格的反相奇偶交错。该定则在 $^{128}\text{Cs}$ 高自旋中被实验电磁对称性证实，但在 $^{134}\text{Pr}$ 中因偏角偏离 $\gamma = 90^\circ$（出现 $B(E2)$ 翻倍与选择定则破缺）而失效，确立了三轴偏角几何与电磁对称性的直接映射判据。 | quantitative-audit-and-criterion | derived-and-source-boundary | PRL 93, 172502 pp.2-3; Eqs.(5)-(10); chiral-selection-rule-a-result-038.json | true |
+| KOIKE04-D19-1 | superseded at Day23checkpoint049：撤回旧四支柱/实验排他或跨核闭环认证、未由本源支持的精确泄漏式/百分数及把A当parity的表述。以KOIKE04-1至13和KOIKE04-D23-001至004的源条件为准；旧全文保pre-correction049。 | withdrawn-task-certification | rejected-and-replaced | checkpoint049 originalPRL pp2–4 | true |
 
 
 ## Day19量化审计：Koike-Hamamoto A算符代数、选择定则与三轴对称破缺泄漏定理
@@ -125,4 +125,17 @@ This is a theoretical model result, not an experimental measurement. Rule compat
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| KOIKE04-D19-2 | 对 Koike 2004 与 Hamamoto 2011 粒子—转子模型（PRM）中 $\mathcal{A}$ 量子数选择定则、三轴度偏离泄漏与四支柱手征门禁执行严格量化审计：(1) $\mathcal{A}$ 算符代数与选择定则：证明在理想点 $\gamma = 30^\circ$ 且 $j_p = j_n$ 下，$\mathcal{A} = \mathcal{R}_i(\pi/2) \mathcal{T}_{pn}$ 算符二分系统能级为 $\mathcal{A} = \pm 1$；相同 $\mathcal{A}$ 的集体 $E2$ 跃迁严格为零，异 $\mathcal{A}$ $M1$ 跃迁被强烈增强达一个数量级以上；(2) 三轴度 $\gamma$ 偏离泄漏定理：微积分证明当三轴度偏离理想点（$|30^\circ - \gamma| > 0$）时，禁戒跃迁强度按 $\sim \sin^2(30^\circ - \gamma)$ 泄漏；在 $\gamma = 20^\circ$ 处禁戒 $E2$ 泄漏达 $3.02\%$，在 $\gamma = 0^\circ$（长椭球极限）泄漏达 $25.00\%$；(3) $^{128}\text{Cs}$ 跨代实验闭环：成功闭环调和低自旋带头共面手征振动（TDPAD $g = +0.59, \langle \hat{o} \rangle \approx 0.15$）与高自旋稳定手征转动（DSAM 双带 $B(E2)$ 强度对称，比值 $1.04$），确立临界自旋 $I_c \approx 13\hbar$ 处能级差达到极小值 $\Delta E = 85\text{ keV}$ 的 V 形动态手征涌现曲线；(4) $^{106}\text{Ag}$ 伪手征排他证伪：重构 Rather 2014 双交叉比值 $S(15)/S(17) = 7.2863$ 偏离手征基准 $7.29$ 倍的事实，排他性证伪其为手征双重带；(5) 交付涵盖 $B(E2)$ 对称性、$B(M1)$ 反相交错、$\Delta E$ 能级极小与三矢量非共面度 $\langle \hat{o} \rangle$ 的四支柱手征门禁标准。 | task-chiral-prm-selection-audit | derived-and-boundary | PRL 93, 172502; IJMPE 20, 373; chiral-selection-rules-prm-result-077.json | true |
+| KOIKE04-D19-2 | superseded at Day23checkpoint049：撤回旧四支柱/实验排他或跨核闭环认证、未由本源支持的精确泄漏式/百分数及把A当parity的表述。以KOIKE04-1至13和KOIKE04-D23-001至004的源条件为准；旧全文保pre-correction049。 | withdrawn-task-certification | rejected-and-replaced | checkpoint049 originalPRL pp2–4 | true |
+
+## Day23定向原件回核：轴、EM截断和带标签
+
+本次完整回读4页正文/Eqs1–10/Figs1–3，fresh视觉核pp2–4；新下载Tohoku副本与既有raw同SHA f39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e。既有KOIKE04-1至13已覆盖主线，不以重复阅读冒充新独立证据。此次补下列实际缺口并定向撤回两条旧任务过认证；不改原raw/Bib/既有flags，不新增human-reviewed。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KOIKE04-D23-001 | 本源γ90°以3轴为m量子化轴、1l/2s/3m，明确等价Lundγ−30°。Eq1的Hrot=ħ²[R3²+4(R1²+R2²)]/(8J0)，惯量为(Jl,Js,Jm)=(J0,J0,4J0)，数值例J0=8.55ħ²/MeV而非任务ZH07variant的Jm=30/Js=Jl=7.5。二者结构可在明确轴变换后比较，不能裸抄γ/J0或称数值输入已相同。 | source-coordinate-and-inertia-definition | direct-original-visual-and-bounded-model-comparison | printed172502-2 Eqs1–4/axis paragraph; printed172502-3 numericalinputs | true |
+| KOIKE04-D23-002 | A由绕core R3的π/2或3π/2与价p/n交换C组合；这里C是unitary标签交换，不是本Wiki常写的antiunitary手征Cχ。same-A coreE2为0，same-A M1在near-isovector采用g条件下较弱，不是普遍严格M1零；源明确选择规则对该H任意本征态成立，无论是否达手征几何。A分扇区并不强迫能量简并。 | source-operation-identity-and-selection-domain | direct-original-plus-operator-boundary | printed172502-2 Eq5/6 and lastparagraph | true |
+| KOIKE04-D23-003 | 作者说明全basis H对角化后，lowest/highest single-particle levels的粒子/空穴成分近bandhead约98%，到I15降约70%；随后EM计算改用限制这两个levels的simplifiedmodel。Fig3在近简并区按B(E2;I→I−2)组织两带，低spin按能量；因此in/out的bandlabel不是全程energyordinal定义，未公开的EM简化也不能被任务fullj矩阵静默代替或相反。 | source-EM-truncation-and-band-mapping | direct-original | printed172502-3 Fig3organizationparagraph; printed172502-4 first/secondcolumns and Fig3caption | true |
+| KOIKE04-D23-004 | Eq10两组partner对应率相等使用Eq7/8左右手线性组合及Eq9 cross-handed EM≈0的理想极限；不是近简并独自推出。数值例另用gR=55/130、gs,eff=.6gs,free和core-only E2，说明实际偏离简化条件可改规则。源所说staticquadrupole moment0是本模型same-A lab静态量，不是intrinsicQ0=0或detector Q(E)=0。旧精确sin²泄漏百分数、128Cs实验closedloop/106Ag排他四支柱均非本PRL的新测量或证明。 | source-factorization-and-overreach-correction | direct-original-and-scope-audit | printed172502-2 coreE2paragraph; printed172502-3 Eqs7–10; printed172502-4 EM/limitations | true |
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-014–017的任务S与这里A有相同“core quarterrotation+交换”结构；须先将轴明确对齐，任务H参数及fullEM实现仍不等原数值例。[[signature-partner-bands]]、[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]保这个比较与真实experiment分别处理，新增needs_review:true，仅Day24无学分预习，不改原Day21/22credit。

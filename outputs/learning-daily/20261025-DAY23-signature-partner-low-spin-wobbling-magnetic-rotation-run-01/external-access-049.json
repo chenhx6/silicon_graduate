@@ -1,0 +1,127 @@
+{
+  "discovery": [
+    {
+      "url": "https://api.crossref.org/works/10.1103/PhysRevLett.93.172502",
+      "status": 200,
+      "path": "tmp/day23-originals/koike04-discovery049-6eb34096.txt",
+      "sha256": "0d34bbae00d56e46000e946b4f57857e331a209e1e9a6047d01d045f77c892a1",
+      "title": [
+        "Chiral Bands, Dynamical Spontaneous Symmetry Breaking, and the Selection Rule for Electromagnetic Transitions in the Chiral Geometry"
+      ],
+      "authors": [
+        {
+          "given": "T.",
+          "family": "Koike",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Starosta",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "I.",
+          "family": "Hamamoto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "URL": "http://link.aps.org/article/10.1103/PhysRevLett.93.172502",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.93.172502/fulltext",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "url": "https://inspirehep.net/api/literature?q=doi:10.1103/PhysRevLett.93.172502",
+      "status": 200,
+      "path": "tmp/day23-originals/koike04-discovery049-2e5b68f6.txt",
+      "sha256": "67786c17e6e08b77a040a8f49e6a86891fd9fee85f355932ef0cecd321c693da",
+      "hits": [
+        {
+          "titles": [
+            {
+              "title": "Chiral Bands, Dynamical Spontaneous Symmetry Breaking, and the Selection Rule for Electromagnetic Transitions in the Chiral Geometry"
+            }
+          ],
+          "arxiv_eprints": null,
+          "documents": null
+        }
+      ]
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevLett.93.172502",
+      "status": 200,
+      "path": "tmp/day23-originals/koike04-discovery049-f9e159d3.txt",
+      "sha256": "c05f108a194d16ea40d706737828245f0be601613a29044b3eb6a98bc80b4341",
+      "locations": [
+        {
+          "landing": "https://doi.org/10.1103/physrevlett.93.172502",
+          "pdf": null
+        },
+        {
+          "landing": "https://pubmed.ncbi.nlm.nih.gov/15525069",
+          "pdf": null
+        },
+        {
+          "landing": "https://tohoku.repo.nii.ac.jp/records/5332",
+          "pdf": "https://tohoku.repo.nii.ac.jp/record/5332/files/PhysRevLett.93.172502.pdf"
+        },
+        {
+          "landing": "https://lup.lub.lu.se/record/263648",
+          "pdf": null
+        }
+      ]
+    }
+  ],
+  "body": [
+    {
+      "url": "https://tohoku.repo.nii.ac.jp/record/5332/files/PhysRevLett.93.172502.pdf",
+      "status": 200,
+      "path": "tmp/day23-originals/koike04-body049-83c136e5.pdf",
+      "bytes": 748455,
+      "pdf": true,
+      "sha256": "f39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e",
+      "pages": 4
+    },
+    {
+      "url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.93.172502",
+      "status": 403,
+      "path": "tmp/day23-originals/koike04-body049-271a7029.html",
+      "bytes": 5571,
+      "pdf": false,
+      "sha256": "9180315f01fc68ceafb82a1fab5b0485c56bb564532d209ea001a9c73c138855"
+    }
+  ],
+  "existingraw_hashmatches": true,
+  "raw_mutation": false
+}

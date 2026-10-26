@@ -89,3 +89,9 @@ pseudospin是另一类近似intrinsic对称，不能由Rzπ或相同α推得；�
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-016/017在固定其它参数/算符时只令J2≠J3，原额外S的E2零被打开。它检验的是047理想模型unitaryS的适用条件，未改变真实signature定义，也没有给Pr/Au/Lu等实际转动带新归属或δ/W.u.门。
 
 由于该ablation明确改变H，不能冒作本卡“只改configuration assignment且计数/能级冻结”的替代解释。B槽仍要预先固定H/算符与实际数据，再检未定标预测；形式可写/某模型零可破不赋不同解释同等可信。新增needs_review:true。
+
+## Day23：原A操作与signature、Cχ的名称边界
+
+[[koike-2004-chiral-bands-selection-rules]] KOIKE04-D23-001/002回核表明，原文C指unitary价p/n交换，A才是该交换加core四分之一圈；它们与本页π转动signature及antiunitary手征Cχ按操作定义分别处理。同一个字母或±标签不能代替定义，也不能把原A标签写成parity eigenvalue。
+
+源规则只在特殊H/coreE2/near-isovector M1条件下成立，且原文说即使未形成手征几何也成立。[[qi-2009-135nd-particle-rotor-chirality]]的任务S比较保轴/参数/截断条件，不恢复SP/wobbling/TiP/MR/AMR的统一δ/W.u.门。新needs_review:true。

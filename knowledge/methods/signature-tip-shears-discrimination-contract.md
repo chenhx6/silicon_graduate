@@ -695,3 +695,11 @@ CoreE2在S下odd；M1按源系数分成.05(jp+jn) even与.65(jp−jn) odd。若m
 以最大overlap匹配ε0的低6态，低两态overlap至少.99863；S将Hε映到H−ε，匹配谱和模型B对ε符号为偶。原I14→12的E2 forbidden00在smallε打开且B≈.165ε²e²b²；十门过，比例仅该model/源采用Q0的局部描述，未作实验统计fit或新核素测量。
 
 该检验给出“特殊选择规则为何不能作普遍硬门”的具体控制，但它不否定所有模型支持或恢复任何最终Pr/Au归属。变H与改assignment必须分别记录；后者仍需同一数据/H/operator与未定标量预测，不能用此ablation偷换。[[nuclear-chirality]]和[[signature-partner-bands]]保量子数分类，newneeds_review:true，无actualδ/g/Q/τ/CI、设施率或机时。
+
+## Day23桥接Day24预习：理论原件约束model复现与带标签
+
+[[koike-2004-chiral-bands-selection-rules]] KOIKE04-D23-001–004的既有同hash原件本次补核了具体缺口，原13条主线已存在，未重复计新证据。源轴为(1l,2s,3m)、γ90（等价Lund−30），Hrot的惯量=(J0,J0,4J0)。与任务044–048的(1m,2s,3l)、γ30、(30,7.5,7.5)比较，先作proper轴变换；源数值J0=8.55并不等任务Jm=30或源ZH07J0=30，EM也另有低/高单粒子levels简化。结构对称相同不等数值/producer相同。
+
+原A=core quarterrotation×Cpn，Cpn是unitary价p/n交换，不是antiunitary Cχ、parity或signature。same-A coreE2零与near-isovector M1较弱的源规则适用于specialH所有态，原文直接说不要求手征几何。Eq10则另需左右手态及cross-handedEM理想消失，不从两个energy接近或A±单独推出。
+
+原文在近简并区用强E2组织两带，在低spin用能量；bandlabel/in-out因而需要明确mapping。若用某EM量定标/配对带，再以同一EM相符称独立验证，会循环；仍需未用于定标的连接/独立absolute-scale或实际相干块信息。[[qi-2009-135nd-particle-rotor-chirality]]任务S/矩阵是可复核例，不重现原简化EM或实际nucleus。此次两条旧Day19四支柱/精确泄漏/实验排他认证撤回，原文保存pre-correction049，原sourceflags与Day21/22credit不改。[[signature-partner-bands]]和[[nuclear-chirality]]保分类及唯一Day24无学分，newneeds_review:true。
