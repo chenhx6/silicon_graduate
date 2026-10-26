@@ -320,3 +320,15 @@ v1 γ SHA为f585ef106e48aed4edba408273c3ec6067cd1e860b24ee02aa0559b82a761801；U
 | GU22-D23-021 | 沿本页GU22-D23-012实际#21/#22的h9/2/f7/2来源，任务补不同l角算符组件：标准l/s M1保l，bare h/f直接块0，而r²C2有允许的h/f角块；各l,j对角磁投影不同。它解释为何不能仅凭dominant h9/2把完整QTR的M1/E2共同因子/径向量全部消去，但未计算作者实际矩阵元、混合核态B/δ或证明偏差显著。 | source-motivated-conditional-operator-transfer | actual-model-space-plus-declared-task-algebra | SI PDF4 Table1/PDF5Fig3; H02-D23-005; task input-contract038 | true |
 
 源模型内容来自原件既有定向核查，本轮只复用该输入、非新全文阅读。完整推导回链[[hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles]] H02-D23-003/005；[[signature-tip-shears-discrimination-contract]]把不同l的径向/相干/BCS条件具体化，不补physicalg/Q/δ或核态。新增needs_review:true，原G22审核保持。
+
+## Day23：Rupnik历史学位论文的精确身份与正文边界
+
+本节只保存外部原作者机构元数据/NSR，不冒称读到转换原表。经[NSR1994RUZX](https://www.nndc.bnl.gov/nsr/?search-type=keynumber&key=1994RuZX)与LSU公开OAI metadata定位到Dubravka Rupnik，*Complete Spectroscopy in the Mercury-187m,g Decay: The Structure of Gold-187.* (1994)，[LSU item5753](https://repository.lsu.edu/gradschool_disstheses/5753)，DOI10.31390/gradschool_disstheses.5753。OAI identifier的内部article6752与公开item5753是不同字段，不拼成同一数字。机构页面实际200且列259页、1994授位、advisor E.F.Zganjar；2017-03入库不是新实验年。公开摘要与原259页正文严格分层。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GU22-D23-022 | LSU原作者摘要明确对象为187g/mHg的β+/EC后187Au，并说γ与conversion electrons在ORNL/UNISOR线上采集。这进一步核清本源印刷187Ag的母核疑点，但摘要不足以确定逐母态spin/feed选择、每条αK或SP序列非观察灵敏度。不能从摘要重建376/462的原表。 | external-original-author-metadata-and-parent-boundary | direct-institutional-abstract-not-body | LSU5753 Abstract; OAI oai:repository.lsu.edu:gradschool_disstheses-6752 dc:description | true |
+| GU22-D23-023 | NSR1994RUZX为同题thesis；1995RU07对应PRC51,R2867、DOI10.1103/PhysRevC.51.R2867；1998RU04为PRC58,771、DOI10.1103/PhysRevC.58.771。三记录共同指向Hg decay/γ-ce/PTRM研究谱系，但NSR身份和共同作者不能证明逐event或所有observable完全同源，也不能当三份独立conversion采集。 | external-bibliographic-lineage-and-independence-boundary | direct-official-NSR-metadata | NSR1994RUZX; NSR1995RU07; NSR1998RU04 | true |
+| GU22-D23-024 | LSU单篇landing提供公开Download与OAI精确PDF地址，但本次对cgi/viewcontent.cgi?article=6752&context=gradschool_disstheses及context/gradschool_disstheses/article/6752/viewcontent/9502140.pdf的正常单篇请求均403，未获得PDF。没有绕过challenge、批量采正文或把application/pdf元数据当已读body；原1998/1978conversion谱/校准/误差仍缺。此为本次access边界，不是世界范围全文不存在或旧观测无效。 | external-access-and-reading-scope | actual-single-item-access | LSU5753 Download; OAI dc:identifier PDF URL; 1994 thesis landing availability | true |
+
+OAI metadata允许正常索引；本次只读元数据定位目标，未下载库中其它正文。精确原件路线比旧模糊检索更可恢复，然而GU22-D23-013的αK当前仍是官方评价转述。摘要所称h9/2–f7/2混合是作者解释线索，未据此填完整wavefunction/operator/δ，亦不重复计算采集票。新needs_review:true，原G22人审范围不变。

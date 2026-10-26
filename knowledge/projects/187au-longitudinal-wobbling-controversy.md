@@ -396,3 +396,9 @@ B槽下一检验仍须保持实测核素/计数/能级不变，固定完整opera
 | 原HFB支持与限制 | 支持core三轴/soft景观，作者还明列pairing/MoI与动态涨落缺口 | 不能由minimum把oddAu唯一归LW/SP或由图判实际producer错误 |
 
 本轮supports原h9/2带确有绝对E2集体尺度，limits把引用尺度当争议母态τ/独立holdout。争议376/462母态仍无本次新寿命，fewW.u.仍是外标估计；实际AD条件大根、HIRFL小根、旧P身份与SP带身份均保留。新增needs_review:true。
+
+## Day23：旧转换资料的学位论文入口已精确定位
+
+[[guo-2022-low-spin-wobbling-187au]] GU22-D23-022–024给Rupnik1994论文的LSU5753/DOI10.31390/gradschool_disstheses.5753、1995/1998NSR身份和真实正文403边界。机构摘要确认Hg→Au，不靠Guo的Ag字面赋真实母核；但无逐母态spin/selection或target转换表，不能把非观察变成排他证据。
+
+谱系图中该thesis只能作为已有Rupnik研究家族的文献节点，不能新增独立采集票或称conversion原件已读。原计数/能级不变的configuration方案仍需完整混合振幅、径向/BCS/EM输入及未定标检验量；摘要提h/f混合不补这些缺口。新增needs_review:true，不改已测δ、外标B或原sourceflags。

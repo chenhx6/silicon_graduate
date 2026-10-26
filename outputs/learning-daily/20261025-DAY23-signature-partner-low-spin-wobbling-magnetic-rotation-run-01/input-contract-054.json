@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-26T01:26:01.677193+00:00",
+  "scope": "Day23 actual Au conversion source identity/metadata readiness; no experimental new likelihood",
+  "premise": "NSR1994RuZX/1995Ru07/1998Ru04/1978Bo05 just checked from official API; thesis offers independent originaldocument path, not independent acquisition",
+  "allowed": "LSU OAI explicitly permits metadata commercial/noncommercial; locate exact title/author in public metadata only",
+  "boundary": "OAIIdentify dataPolicy says fullcontent robot harvest needs priorwrittenapproval; no automatic fulltext harvesting through thisroute; no questionsneeded because independent publicsource work remains",
+  "maximum_metadata_pages": 100,
+  "rejection": [
+    "fuzzycrossref irrelevantresults",
+    "publicsearch403challenge",
+    "no targetin431physicsmetadata; notproofthesisabsent"
+  ],
+  "next": "exacthistoricalOAI metadata iflocated; separately read publicarxiv5DCH and actualsupplement table definitions for shape-input comparison",
+  "prohibited": [
+    "repeatcounts asindependentpublication",
+    "invent conversionvalues or use metadata as body",
+    "newcard/credit",
+    "old114producers",
+    "raw/PLAN/Bib mutations"
+  ],
+  "boundary_interpretation": "OAI fullcontent harvesting restriction excludes automated collectionwide body harvesting. This task uses only metadata traversal and, if the exact single-item landing provides a public ordinary download, may inspect that one requested primary through normal access; no challenge bypass or bulkfulltext."
+}

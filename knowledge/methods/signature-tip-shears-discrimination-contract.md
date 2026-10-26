@@ -735,3 +735,9 @@ B槽若只改变configuration assignment而保留实测计数/能级，候选占
 WA95-D23-002/004同时给真正clock的角色：τ81.3ps是原RDM的Au13/2−母态，不是争议11/2−/15/2−激发母态；评价56ps与其同源。原B1.18与后引1.49的出处映射仍缺。若用既有B定标β/charge尺度，该点已进入训练集合，不能再作同模型独立holdout；而保持所有计数/能级的configuration替代应优先预报未定标母态寿命/branch或其它EM矩阵，完整输入不齐时只给readiness边界。
 
 本次没有以13/2钟替换所有out/in分母，没有把quotedreference差当actualβ变化，也没有由HFBsoft景观否定全部低spin模式。[[187au-longitudinal-wobbling-controversy]]保逐量账本，newneeds_review:true，无新δ/Q/机时。
+
+## Day23：找到文献身份与获得实验响应是两道门
+
+[[guo-2022-low-spin-wobbling-187au]] GU22-D23-022–024定位到原Rupnik1994thesis的明确机构item/DOI与1995/1998家族，但单篇PDF尚403。可恢复的检索身份缩小了“缺哪一件输入”，并未提供conversion原表、efficiency/归一或eventledger。外部元数据中的application/pdf、摘要的h/f模型解释和同作者论文数，都不能越过到共同likelihood/独立实验证据。
+
+因此A槽保“旧αK已从评价明确归属，原谱/误差仍待”，B槽保“混合configuration可写，实际相干operator/未定标输出仍缺”。身份核验是实际进展；形式可行不推两配置等可信，也不提前裁定Pr大根/小根或Au模式。[[187au-longitudinal-wobbling-controversy]]保持对应readiness，新needs_review:true。

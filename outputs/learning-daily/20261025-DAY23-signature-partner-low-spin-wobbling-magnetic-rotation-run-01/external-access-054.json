@@ -1,0 +1,47 @@
+{
+  "institutional_landing": [
+    {
+      "name": "thesis-landing",
+      "url": "https://repository.lsu.edu/gradschool_disstheses/5753",
+      "status": 200,
+      "bytes": 39422,
+      "path": "tmp/day23-originals/au-conversion054-thesis-landing.txt",
+      "sha256": "fcc28733ba11c37b5a1253f3c1e41feb6953ccf5dfecec428f267632082844f7",
+      "challenge": false
+    },
+    {
+      "name": "thesis-doi",
+      "error": "ConnectionError"
+    }
+  ],
+  "exact_OAI_match": [
+    {
+      "page": 57,
+      "xml": "<ns0:record xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:ns0=\"http://www.openarchives.org/OAI/2.0/\" xmlns:ns1=\"http://www.openarchives.org/OAI/2.0/oai_dc/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n\t<ns0:header>\n\t\t<ns0:identifier>oai:repository.lsu.edu:gradschool_disstheses-6752</ns0:identifier>\n\t\t<ns0:datestamp>2017-03-14T19:24:08Z</ns0:datestamp>\n\t\t\t\t<ns0:setSpec>publication:gradschool</ns0:setSpec>\n\t\t\t\t<ns0:setSpec>publication:colleges_academic</ns0:setSpec>\n\t\t\t\t<ns0:setSpec>publication:gradschool_disstheses</ns0:setSpec>\n\t\t\t</ns0:header>\n\t<ns0:metadata>\n\t\t<ns1:dc xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd\">\n\t\t\t<dc:title>Complete Spectroscopy in the Mercury-187m,g Decay: The Structure of Gold-187.</dc:title>\n<dc:creator>Rupnik, Dubravka</dc:creator>\n<dc:description>Nuclear spectroscopy studies were performed on transitions in $\\sp{187}$Au following the $\\beta\\sp+$/EC decay of $\\sp{187g}$Hg and $\\sp{187m}$Hg in order to determine the origin of the extensive shape coexistence observed in the low-energy structure of this nucleus; and, through particle-core coupling analysis, to probe the shape coexistence observed in its neighboring even-even nuclei, $\\sp{186}$Pt and $\\sp{188}$Hg. Gamma-ray and conversion electron data were collected, on-line, at the UNISOR isotope separator facility at the Oak Ridge National Laboratory. The $\\sp{187m.g}$Hg activity was produced in heavy-ion induced reactions using the HHIRF 25 MV tandem accelerator. Nine transitions with enhanced electric monopole strength were found in $\\sp{187}$Au between states having I$\\sbsp{i}{\\pi}\\ = {\\rm I}\\sbsp{f}{\\pi}$ and are interpreted as arising from the mixing of shape coexisting configurations. The coexisting shapes are described by an odd proton particle (or hole) coupled to the strongly deformed prolate and the weakly deformed oblate bands in the core nucleus $\\sp{186}$Pt (or $\\sp{188}$Hg). The experimentally developed band structure was compared with the results of calculations using the particle-plus-triaxial-rotor model, PTRM. In addition to the identification and classification of configurations involving the s$\\sb{1/2}$-d$\\sb{3/2}$-d$\\sb{5/2}$, h$\\sb{11/2}$, and i$\\sb{13/2}$ single-particle orbitals, this analysis led to three important findings: first, the remarkable agreement between the experimental and calculated structures for the h$\\sb{9/2}$-f-$\\sb{7/2}$ bands indicates that these single-particle configurations are mixed in $\\sp{187}$Au; second, the great similarity between the experimental structure of the h$\\sb{9/2}$-f$\\sb{7/2}$ and (h$\\sb{9/2}$-f$\\sb{7/2})\\sp\\prime$ bands requires similar deformation parameters in the PTRM calculations for these prolate deformed bands; and third, the E0 enhanced transitions are mainly found between states that correspond to the mostly pure h$\\sb{9/2}$ PTRM orbitals, while no enhanced E0 transitions are found between PTRM orbitals that have h$\\sb{9/2}$ nd f$\\sb{7/2}$ contributions. The first finding is not surprising in view of the near degeneracy of the h$\\sb{9/2}$ and f$\\sb{7/2}$ single-particle orbitals; the second points to prolate-oblate mixing in $\\sp{186}$Pt; and the third represents the first observation of an effect which may provide an experimental key to the eventual theoretical understanding of shape coexistence in these nuclei.</dc:description>\n<dc:date>1994-01-01T08:00:00Z</dc:date>\n<dc:type>text</dc:type>\n<dc:format>application/pdf</dc:format>\n<dc:identifier>https://repository.lsu.edu/gradschool_disstheses/5753</dc:identifier>\n<dc:identifier>info:doi/10.31390/gradschool_disstheses.5753</dc:identifier>\n<dc:identifier>https://repository.lsu.edu/context/gradschool_disstheses/article/6752/viewcontent/9502140.pdf</dc:identifier>\n<dc:source>LSU Historical Dissertations and Theses</dc:source>\n<dc:language>English</dc:language>\n<dc:publisher>LSU Scholarly Repository</dc:publisher>\n<dc:subject>Operations research</dc:subject>\n\n\t\t</ns1:dc>\n\t</ns0:metadata>\n</ns0:record>\n\n\t\t\t\n",
+      "text": "\n\t \n\t\t oai:repository.lsu.edu:gradschool_disstheses-6752 \n\t\t 2017-03-14T19:24:08Z \n\t\t\t\t publication:gradschool \n\t\t\t\t publication:colleges_academic \n\t\t\t\t publication:gradschool_disstheses \n\t\t\t \n\t \n\t\t \n\t\t\t Complete Spectroscopy in the Mercury-187m,g Decay: The Structure of Gold-187. \n Rupnik, Dubravka \n Nuclear spectroscopy studies were performed on transitions in $\\sp{187}$Au following the $\\beta\\sp+$/EC decay of $\\sp{187g}$Hg and $\\sp{187m}$Hg in order to determine the origin of the extensive shape coexistence observed in the low-energy structure of this nucleus; and, through particle-core coupling analysis, to probe the shape coexistence observed in its neighboring even-even nuclei, $\\sp{186}$Pt and $\\sp{188}$Hg. Gamma-ray and conversion electron data were collected, on-line, at the UNISOR isotope separator facility at the Oak Ridge National Laboratory. The $\\sp{187m.g}$Hg activity was produced in heavy-ion induced reactions using the HHIRF 25 MV tandem accelerator. Nine transitions with enhanced electric monopole strength were found in $\\sp{187}$Au between states having I$\\sbsp{i}{\\pi}\\ = {\\rm I}\\sbsp{f}{\\pi}$ and are interpreted as arising from the mixing of shape coexisting configurations. The coexisting shapes are described by an odd proton particle (or hole) coupled to the strongly deformed prolate and the weakly deformed oblate bands in the core nucleus $\\sp{186}$Pt (or $\\sp{188}$Hg). The experimentally developed band structure was compared with the results of calculations using the particle-plus-triaxial-rotor model, PTRM. In addition to the identification and classification of configurations involving the s$\\sb{1/2}$-d$\\sb{3/2}$-d$\\sb{5/2}$, h$\\sb{11/2}$, and i$\\sb{13/2}$ single-particle orbitals, this analysis led to three important findings: first, the remarkable agreement between the experimental and calculated structures for the h$\\sb{9/2}$-f-$\\sb{7/2}$ bands indicates that these single-particle configurations are mixed in $\\sp{187}$Au; second, the great similarity between the experimental structure of the h$\\sb{9/2}$-f$\\sb{7/2}$ and (h$\\sb{9/2}$-f$\\sb{7/2})\\sp\\prime$ bands requires similar deformation parameters in the PTRM calculations for these prolate deformed bands; and third, the E0 enhanced transitions are mainly found between states that correspond to the mostly pure h$\\sb{9/2}$ PTRM orbitals, while no enhanced E0 transitions are found between PTRM orbitals that have h$\\sb{9/2}$ nd f$\\sb{7/2}$ contributions. The first finding is not surprising in view of the near degeneracy of the h$\\sb{9/2}$ and f$\\sb{7/2}$ single-particle orbitals; the second points to prolate-oblate mixing in $\\sp{186}$Pt; and the third represents the first observation of an effect which may provide an experimental key to the eventual theoretical understanding of shape coexistence in these nuclei. \n 1994-01-01T08:00:00Z \n text \n application/pdf \n https://repository.lsu.edu/gradschool_disstheses/5753 \n info:doi/10.31390/gradschool_disstheses.5753 \n https://repository.lsu.edu/context/gradschool_disstheses/article/6752/viewcontent/9502140.pdf \n LSU Historical Dissertations and Theses \n English \n LSU Scholarly Repository \n Operations research \n\n\t\t \n\t \n"
+    }
+  ],
+  "metadata_page_count": 58,
+  "single_item_downloads": [
+    {
+      "url": "https://repository.lsu.edu/cgi/viewcontent.cgi?article=6752&context=gradschool_disstheses",
+      "status": 403,
+      "bytes": 5742,
+      "sha256": "2e37667a045b0c726526e223cb1ba722b818095564aab7b53c6758b4723ec87c",
+      "path": "tmp/day23-originals/rupnik1994-au054-download-response.html",
+      "validated_pdf": false,
+      "scope": "singleexactpublicDownload link, no bulkfullcontentharvest"
+    },
+    {
+      "url": "https://repository.lsu.edu/context/gradschool_disstheses/article/6752/viewcontent/9502140.pdf",
+      "status": 403,
+      "bytes": 5878,
+      "sha256": "d40a0d99d329fdff0d808565b1cc7fd2ebc08b46e0ebb578f263ad2549a57878",
+      "path": "tmp/day23-originals/rupnik1994-au054-direct-response.html",
+      "validated_pdf": false,
+      "scope": "singleexactOAIpublicfileURL normalrequest, nosecurity bypass"
+    }
+  ],
+  "body_read": false,
+  "fulltext_harvest": false
+}
