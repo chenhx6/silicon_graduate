@@ -1,0 +1,187 @@
+{
+  "scope": "conditional Pauli/angularmomentum capacity ofsourcephenomenologicalalignedsubset πg9/2holes2⊗ν[h11/2(g7/2)2], no full105Cdmicroscopicstate or AMRrejection",
+  "formal_day_index": 23,
+  "conditions": {
+    "recorded_at": "2026-10-26T01:03:33.615455+00:00",
+    "scope": "conditional Pauli/angularmomentum capacity ofsourcephenomenologicalalignedsubset πg9/2holes2⊗ν[h11/2(g7/2)2], no full105Cdmicroscopicstate or AMRrejection",
+    "formalday": 23,
+    "source_motivation": "actualZhao2011Ref11configuration andRaju2015v1PDF10sameassignment, KU25-D23-001/002/RA15-D23-004 sourceboundaries",
+    "pairs": [
+      {
+        "role": "twoidenticalprotonholesg9/2",
+        "two_j": 9,
+        "expected_J": [
+          0,
+          2,
+          4,
+          6,
+          8
+        ],
+        "dimension": 45
+      },
+      {
+        "role": "twoidenticalneutronsg7/2",
+        "two_j": 7,
+        "expected_J": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "dimension": 28
+      }
+    ],
+    "remaining_explicit_single_neutron_two_j": 11,
+    "basis": "normalizedwedge|m1,m2>=(|m1m2>−|m2m1>)/√2,physicalJtot=j1+j2 preservesfermionicantisymmetric2particlesector; holesfermion angularrep samej",
+    "conditional_assumption": "allotherdegreespairedJ0 orcoreR0 tointerpret explicitvalencesubset spinmax; notanassumptionofselfconsistentZhao2011whichhasallnucleons/lowjmix/corelikecontribution",
+    "target_spin_examples": [
+      {
+        "two_I": 43,
+        "source_role": "Raju/ENSDFB4 tentativehighspinassignment, conditionalonly"
+      },
+      {
+        "two_I": 47,
+        "source_role": "Rajuhigheststate(47/2−)tentative,no automaticvalidation"
+      }
+    ],
+    "prediction": "exactPauliJpairmax2j−1,not2j; explicitg9pairmax8,g7pairmax6+singleh5.5=>maxneutrons11.5,totalvalence19.5(39/2). Ifcorrectsameoccupancy/highIspinthenadditionalangularmomentum lowerboundmax(0,I−19.5), notnewmeasuredcoreR",
+    "checks": [
+      "wedgeE†E1/sectorleak0",
+      "JtotHermiticity/commutators/Casimirrepresentation",
+      "J²irrepmultiplicitiesexact2J+1 expectedJsumdimension",
+      "maximumMz=2j−1 andnoJ=2j",
+      "couplingtriangles/prodspace15120dimension",
+      "positivefermionholeinterpretationnotphysicalg",
+      "raw/sourcefixed noδ/Q/tau/CI/rates/time"
+    ],
+    "prohibited": [
+      "AMRor2010experimentalstate disprovedbyinertcoreconditionalbound",
+      "classicalbladesjp addedasexactquantumoccupancyspin",
+      "extraRbound interpretedmeasuredcoreoruniquepartition",
+      "actualoccupancies/orbitalmixamplitudesinvented",
+      "newphysicalg/B/delta/Q/tau/CI/beamtime",
+      "Day24credit/Day25/raw/oldreviewmutation/run114producer"
+    ]
+  },
+  "contract_sha256": "492fbaf1602ffa4631ee472b2d3cceb16ae2d75e9379c2a000c777c8b4cbdbde",
+  "implementation_sha256": "d4c878ab004fc0fb2f3e4fa320df8ef839c23b11a71bdddbf5fb8663185334a7",
+  "pair_representations": [
+    {
+      "two_j": 9,
+      "dimension": 45,
+      "allowed_J_multiplicities_in_Jsquare_spectrum": {
+        "0": 1,
+        "2": 5,
+        "4": 9,
+        "6": 13,
+        "8": 17
+      },
+      "maximum_Mz": 7.999999999999998,
+      "expected_Pauli_maximum_J": 8.0,
+      "errors": {
+        "embedding_orthogonality": 2.220446049250313e-16,
+        "vector_sector_leakage": 8.881784197001252e-16,
+        "projected_J_Hermiticity": 0.0,
+        "commutator": 5.773159728050814e-15,
+        "integer_J_from_Casimir": 1.865174681370263e-14,
+        "Casimir_eigenvalue": 5.684341886080802e-14
+      },
+      "role": "twoidenticalprotonholesg9/2"
+    },
+    {
+      "two_j": 7,
+      "dimension": 28,
+      "allowed_J_multiplicities_in_Jsquare_spectrum": {
+        "0": 1,
+        "2": 5,
+        "4": 9,
+        "6": 13
+      },
+      "maximum_Mz": 5.999999999999999,
+      "expected_Pauli_maximum_J": 6.0,
+      "errors": {
+        "embedding_orthogonality": 2.220446049250313e-16,
+        "vector_sector_leakage": 8.881784197001252e-16,
+        "projected_J_Hermiticity": 0.0,
+        "commutator": 3.885780586188048e-15,
+        "integer_J_from_Casimir": 9.769962616701378e-15,
+        "Casimir_eigenvalue": 2.842170943040401e-14
+      },
+      "role": "twoidenticalneutronsg7/2"
+    }
+  ],
+  "neutron_total_twoJ_multiplicities": {
+    "1": 1,
+    "3": 2,
+    "5": 2,
+    "7": 3,
+    "9": 3,
+    "11": 4,
+    "13": 3,
+    "15": 3,
+    "17": 2,
+    "19": 2,
+    "21": 1,
+    "23": 1
+  },
+  "explicit_valence_total_twoJ_multiplicities": {
+    "1": 23,
+    "3": 45,
+    "5": 63,
+    "7": 79,
+    "9": 88,
+    "11": 95,
+    "13": 94,
+    "15": 92,
+    "17": 83,
+    "19": 75,
+    "21": 62,
+    "23": 52,
+    "25": 39,
+    "27": 30,
+    "29": 20,
+    "31": 14,
+    "33": 8,
+    "35": 5,
+    "37": 2,
+    "39": 1
+  },
+  "coupled_dimension": 15120,
+  "maximum_explicit_valence_J_hbar": 19.5,
+  "conditional_spin_examples": [
+    {
+      "source": {
+        "two_I": 43,
+        "source_role": "Raju/ENSDFB4 tentativehighspinassignment, conditionalonly"
+      },
+      "conditional_additional_angular_momentum_floor_hbar": 2.0,
+      "meaning": "necessary only if specified occupancy/spin and all remaining degrees J0 or explicit core partition are valid; not a measured core"
+    },
+    {
+      "source": {
+        "two_I": 47,
+        "source_role": "Rajuhigheststate(47/2−)tentative,no automaticvalidation"
+      },
+      "conditional_additional_angular_momentum_floor_hbar": 4.0,
+      "meaning": "necessary only if specified occupancy/spin and all remaining degrees J0 or explicit core partition are valid; not a measured core"
+    }
+  ],
+  "controls": {
+    "wedge_dimensions_and_expected_even_J_set": true,
+    "wedge_orthonormal_and_invariant_under_total_J": true,
+    "closed_sector_J_Hermiticity_and_commutators": true,
+    "Casimir_integer_J_and_eigenvalue": true,
+    "each_pair_irrep_once_with_2Jplus1_states": true,
+    "maximum_Mz_is_2j_minus1_not_2j": true,
+    "two_pair_plus_single_coupling_dimension": true,
+    "explicit_neutron_maximum23half_total39half": true
+  },
+  "all_controls_pass": true,
+  "limitations": [
+    "The angular capacity applies only to the explicitly named frozen subset; the full105Cd system contains other active nucleons.",
+    "A self-consistent model with neutron mixing/core-like response is not excluded by an inert-remainder conditional bound.",
+    "Additional angular momentum is not a uniquely defined or newly measured core rotor in a microscopic density.",
+    "The highest-source spins are tentative and no new spin or configuration is assigned.",
+    "No physical g/B/delta/Q/lifetime/CI, facility count rate or beamtime."
+  ]
+}

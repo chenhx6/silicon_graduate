@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-26T01:08:50.776061+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "两pair反对称空间/CG耦合得显式39/2上界，八数学控制通过；保无inertcore源模型正支持",
+  "next_route": "重建两槽候选，回Pr/Au未定标组态检验与实际响应输入；继续现有窗口，不开Day25",
+  "missing_inputs": [
+    "actual105Cd highspin Jπ/occupancy and fullcorelikepartition",
+    "Pr/Au sharedresponse/Cov and configuration-specific EM/operator inputs",
+    "original2010Cd body/feeding/stopping and originalAuconversionbody"
+  ],
+  "Day25_opened": false
+}

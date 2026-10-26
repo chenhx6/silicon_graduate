@@ -1,0 +1,62 @@
+{
+  "recorded_at": "2026-10-26T01:03:33.615455+00:00",
+  "scope": "conditional Pauli/angularmomentum capacity ofsourcephenomenologicalalignedsubset πg9/2holes2⊗ν[h11/2(g7/2)2], no full105Cdmicroscopicstate or AMRrejection",
+  "formalday": 23,
+  "source_motivation": "actualZhao2011Ref11configuration andRaju2015v1PDF10sameassignment, KU25-D23-001/002/RA15-D23-004 sourceboundaries",
+  "pairs": [
+    {
+      "role": "twoidenticalprotonholesg9/2",
+      "two_j": 9,
+      "expected_J": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "dimension": 45
+    },
+    {
+      "role": "twoidenticalneutronsg7/2",
+      "two_j": 7,
+      "expected_J": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "dimension": 28
+    }
+  ],
+  "remaining_explicit_single_neutron_two_j": 11,
+  "basis": "normalizedwedge|m1,m2>=(|m1m2>−|m2m1>)/√2,physicalJtot=j1+j2 preservesfermionicantisymmetric2particlesector; holesfermion angularrep samej",
+  "conditional_assumption": "allotherdegreespairedJ0 orcoreR0 tointerpret explicitvalencesubset spinmax; notanassumptionofselfconsistentZhao2011whichhasallnucleons/lowjmix/corelikecontribution",
+  "target_spin_examples": [
+    {
+      "two_I": 43,
+      "source_role": "Raju/ENSDFB4 tentativehighspinassignment, conditionalonly"
+    },
+    {
+      "two_I": 47,
+      "source_role": "Rajuhigheststate(47/2−)tentative,no automaticvalidation"
+    }
+  ],
+  "prediction": "exactPauliJpairmax2j−1,not2j; explicitg9pairmax8,g7pairmax6+singleh5.5=>maxneutrons11.5,totalvalence19.5(39/2). Ifcorrectsameoccupancy/highIspinthenadditionalangularmomentum lowerboundmax(0,I−19.5), notnewmeasuredcoreR",
+  "checks": [
+    "wedgeE†E1/sectorleak0",
+    "JtotHermiticity/commutators/Casimirrepresentation",
+    "J²irrepmultiplicitiesexact2J+1 expectedJsumdimension",
+    "maximumMz=2j−1 andnoJ=2j",
+    "couplingtriangles/prodspace15120dimension",
+    "positivefermionholeinterpretationnotphysicalg",
+    "raw/sourcefixed noδ/Q/tau/CI/rates/time"
+  ],
+  "prohibited": [
+    "AMRor2010experimentalstate disprovedbyinertcoreconditionalbound",
+    "classicalbladesjp addedasexactquantumoccupancyspin",
+    "extraRbound interpretedmeasuredcoreoruniquepartition",
+    "actualoccupancies/orbitalmixamplitudesinvented",
+    "newphysicalg/B/delta/Q/tau/CI/beamtime",
+    "Day24credit/Day25/raw/oldreviewmutation/run114producer"
+  ]
+}

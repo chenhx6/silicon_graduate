@@ -87,3 +87,9 @@ New concept page; review pending.
 [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] RA15-D23-001–004和CD19-D23-001/002单独标识实际2015谱学原件与官方2019评价。2015独立采集确认/扩展105Cd的EM与level网络，B4多条stretched E2有RDCO与ΔIPDCO支持，但AMR寿命/B(E2)趋势沿用2010DSAM；2019评价又合并时钟和新γ资料，不能按三份新寿命计票。
 
 105Cd其它band到B4的1009M1连接与AMR特定横向磁矩抵消可以并存，不能将AMR定义为所有M1/静态μ为0。模型shape/γ与occupation解释各有输入与截断，不由2015energyfit替换原DSAM或终审AMR。原2010body/feeding/stopping/branchCov缺口保持，[[signature-tip-shears-discrimination-contract]]保逐量来源/半衰期角色，新增needs_review:true。
+
+## Day23：经典blade与量子占据的最大自旋不同
+
+[[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] KU25-D23-004/005给明确条件例：固定$\pi(g_{9/2})^{-2}\otimes\nu[h_{11/2}(g_{7/2})^2]$时，Pauli允许的两空穴最大J=8、两g7/2中子最大J=6，显式子集最大39/2。只有再加“其余自由度J=0”才构成整个模型的终止界；高自旋超界提示需要其它角动量或修订占据/spin输入，不能单凭此判AMR失败。
+
+原Zhao微观模型明确无inert core，并有中子混合，故不属于这个冻结余部模型。条件2/4ℏ下界不是新测core R；经典双剪刀和精确有限壳层量子态比较时，应先对齐占据、Pauli、余自由度与spin映射，再检验能量/EM。最高(47/2−)保源括号，新needs_review:true，无新核态或寿命。

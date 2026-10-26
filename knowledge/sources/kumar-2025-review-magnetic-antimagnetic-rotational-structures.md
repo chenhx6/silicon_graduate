@@ -173,3 +173,14 @@ Knowledge Impact and Learning Decision：supports本卡AMR有具体微观支持�
 注：上条CD19-D23-001的记录尾日期实际字面为202002，对应文件版本；不据排版串改实验年份。原2010PRC82,061308全文仍未取得，源停能/SF/全branch/likelihood仍缺；2013Roy/Chattopadhyay Comment DOI10.1103/PhysRevC.87.059801仅metadata核定，未据题名臆测内容。猜测Reply87.059802返回ResourceNotFound，未建立该Reply身份；猜测Raju91.024320实际是无关Cr/Fe论文，已剔，正式本源DOI为verified91.024319。访问失败/无关结果不当物理反证，未把它们纳入AMR判票。
 
 [[antimagnetic-rotation]]和[[signature-tip-shears-discrimination-contract]]承接AMR正支持、actualmultipole与寿命/模型依赖的分层。新claims均needs_review:true，原综述/来源review状态不变，不移植任何τ/Q/机时到Pr/Au。
+
+## Day23：显式AMR子组态的Pauli角动量容量
+
+本节为任务条件推导，原动机限于外部Zhao2011 PDF5引用的现象学占据，以及Raju2015 PDF10的同一组态：$\pi(g_{9/2})^{-2}\otimes\nu[h_{11/2}(g_{7/2})^2]$。两相同核子或空穴必须反对称化；不能将两个经典blade各长j直接相加成精确量子最大J。代码system/scripts/day23_amr_pauli_capacity.py从归一wedge嵌入构造完整两粒子空间中的总J，Casimir给出允许多重态，再按三角规则耦合。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KU25-D23-004 | 在冻结的上述显式占据内，两相同g9/2质子空穴允许J=0,2,4,6,8，wedge维数45；两g7/2中子允许J=0,2,4,6，维数28。再加不同轨道h11/2中子，显式中子子集最大J=23/2，总显式子集最大J=39/2；耦合总维数45×28×12=15120。此为Pauli/角动量条件数学，不是105Cd全部核子的微观模型。 | Codex-conditional-angular-momentum-derivation | derived-from-stated-occupancy | Zhao2011 PDF5 phenomenological configuration paragraph; Raju2015 PDF10 SecIV A configuration paragraph | true |
+| KU25-D23-005 | 仅在其余自由度J=0且该占据冻结时，显式子集不能给I>39/2。若保持占据且接受源中较高自旋指派，(43/2−)/(47/2−)在该分解至少需另有2/4ℏ角动量。该必要下界既不测出唯一core R，也不否定AMR；最高自旋括号仍保留。Zhao自洽模型含全部核子、低j混合和corelike贡献，未假设这个inert remainder，不能被此条件界排除。 | Codex-conditional-bound-and-model-domain | derived-and-source-limited | Zhao2011 PDF5–7 all-nucleon and neutron-mixing paragraphs; Raju2015 PDF1 tentative47/2 abstract | true |
+
+八项限定控制实际通过：wedge正交/总J扇区封闭、Hermiticity/对易代数、Casimir与每个J的2J+1维数、Pauli最大Mz和耦合维度。最大矩阵残差约6×10⁻14，只说明所述角代数实现；不认证实际占据、spin或实验模式。高spin Jπ、其它中子混合/参与和组态连续性是必要伴随检验；未生成新δ/g/B/Q/τ、CI、设施率或机时。见[[antimagnetic-rotation]]与[[signature-tip-shears-discrimination-contract]]；新needs_review:true，旧review不变。

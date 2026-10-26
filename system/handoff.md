@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点051（Day24仅无学分预习）
+## Active handoff — Day23检查点052（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-050已published。051Raju2015v1实际13页DOI91.024319/SHA c237e3c4...新75MeVMo92/TIFR15cloverγ谱，2010Zr94/IUAC93/14cloverDSAM另采集；2019ENSDF合T2010与E/RI/mult2015。原2010body仍缺，Reply87.059802未识别，CommentRoymetadataonly。ΔIPDCO/a.99非P/δ，B4E2与1009crossbandM1并存；CSM/TPSMshape模型条件。RA15/CD19source/AMR/methodneeds_review。下一Pauli显式占据上界条件算术，非实际核终审。
+051已H3 published。052固定源phenomπg9/2−2⊗ν[h11/2g7/2²]，wedge45/28只偶pairJmax8/6，总15120/max39/2。余J0才限整个模型；高(43/2)/(47/2)额外至少2/4ℏ非measuredcore/非否AMR或Zhao无inertcore，最高括号保。三页needs_review写回，8controls实际过。继续Pr/Au实际输入/未定标检验，不开Day25。
 
-详next-continuation-051.md/candidate-pool-051.json；检查以required-checks-051.json为准。Git指针main · Day23: separate the Cd gamma data from inherited lifetime inputs；actualhash/H3仅task-publication-receipt-051.json。
+详next-continuation-052.md/candidate-pool-052.json；检查以required-checks-052.json为准。Git指针main · Day23: bound the angular capacity of the frozen AMR subset；actualhash/H3仅task-publication-receipt-052.json。
 
 ## Previous handoff — Day22 closeout
 

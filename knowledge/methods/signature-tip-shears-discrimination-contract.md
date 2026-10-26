@@ -719,3 +719,11 @@ CoreE2在S下odd；M1按源系数分成.05(jp+jn) even与.65(jp−jn) odd。若m
 Raju的ΔIPDCO为带a=.99的散射asymmetry，非完整P或新δ；同采集105In差谱是参考，非另一份Cd测量。E2身份、绝对强度和AMR几何分别检验；1009跨带M1不等否决所有AMR，同时也不靠仅无inbandM1就唯一归AMR。CSM/TPSM的γ/多qp输入与Zhao自洽模型另列，不把能量符合度当独立寿命检验。
 
 官方目标T栏为half-life，未读原2010表前不混作meanτ。一般恒等τ=T1/2/ln2只作定义；把T1/2误代meanτ会给率反演带1/ln2的中央尺度误差，但本任务不据此生成这些核态新τ/B/CI。单一列出出口不证明分支闭合，原SF/stopping与全Cov仍缺。[[antimagnetic-rotation]]保正支持与限制，当前无Pr/Au或Cd新的physicalδ/Q/τ/机时，新增needs_review:true。
+
+## Day23：替代组态先过Pauli与角动量容量检验
+
+[[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] KU25-D23-004/005以源AMR现象学占据为有界练习。对两个相同half-integer j费米子，交换相位$(-1)^{2j-J}$须为−1，因此本例pair只有偶J、最大2j−1。显式g9/2空穴pair、g7/2中子pair、h11/2单中子给总最大39/2；wedge/CG独立维数15120及八控制相符。
+
+B槽若只改变configuration assignment而保留实测计数/能级，候选占据仍须能容纳源spin。超出显式子集容量时，需要声明额外自由度或更改占据的模型输入；不能静默把j+j经典上界当量子容量。反之，容量足够仅是必要一致性，不提供可信度平票，也不替代未定标EM、g/形变/组态连续性的预测。
+
+这里(43/2−)/(47/2−)需额外至少2/4ℏ仅为冻结占据分解的条件下界，不是实际core测量；Zhao无inert core模型不受该附加J0假设。[[antimagnetic-rotation]]保AMR正支持与适用域，新needs_review:true，无新δ/Q/τ或机时。
