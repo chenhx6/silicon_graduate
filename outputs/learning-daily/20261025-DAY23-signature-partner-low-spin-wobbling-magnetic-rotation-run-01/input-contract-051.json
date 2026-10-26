@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-26T00:42:56.684677+00:00",
+  "formalday": 23,
+  "scope": "currentDay23AMRpositivecontrol original105CdDSAMandcommentreply sourcegap, not sourceZhao modelre-reading asnewmeasurement",
+  "existing_model": "Kumar2025KU25-D23-001..003/Zhao2011actualbody alreadyread016, datafromChoudhury2010PRC82061308",
+  "actual_primary_identity": "Crossref/Inspire/OpenAlex exact2010title Evidenceofantimagneticrotationinodd-A105Cd, authorsDeepikaChoudhury etal; no publicrepositorybodyyet",
+  "goals": [
+    "original lifetime/SF/stopping/branch covariance roles ifactualbodyavailable",
+    "2013comment/replyexactidentity beforecontents; no inferencefromtitle",
+    "retainpositiveAMRsupport andwhichobservations vs theoretical ablations areindependent",
+    "testnotallM1/cancellation ordecliningE2uniquecriteria"
+  ],
+  "prohibited": [
+    "inventCdtableδ/Q/tau orcopytheoryfigureasnewexperiment",
+    "primarybodyunavailable treatedasphysicalnegative",
+    "unboundedrepeatclosedpublisher retries",
+    "polarizationdensityrearrangement misreadphotonP",
+    "newrate/beamtime/CI or actualAMRterminalassignment",
+    "Day24credit/Day25 orraw/oldreviewmutation",
+    "run114producer"
+  ],
+  "revision_at": "2026-10-26T00:51:05.579415+00:00",
+  "new_actual_inputs": {
+    "Raju2015": "arxiv1501.07655v1 13pages/834222bytes/SHA c237e3c4d71df3de9369b31235a798aa900ad585321654ff8ef0d69e20bad3f2, true75MeV92Mo16O2pnnewγspectroscopy, not2010DSAM",
+    "official105Cd": "2019NDS1611/LalkovskiTimarElekes cut1Apr2019, adopted803/HI339prelines, HI explicit T from2010Ch54DSAM, E/RI/multipoles from2015Ra02"
+  },
+  "revised_reading_scope": "newactualRaju2015mainline13p/readmethods/figtable/limits; original2010body remainsunavailable, official quotedτfieldT1/2 roles identified, no formalrawingest",
+  "identifier_guard": "guessedReply87.059802 returnedResourceNotFound, guessedRaju91.024320metadatais unrelatedCrFearticle, both rejected asidentities. Usearxivmetadata/verifiedDOIonly; no contentinference."
+}

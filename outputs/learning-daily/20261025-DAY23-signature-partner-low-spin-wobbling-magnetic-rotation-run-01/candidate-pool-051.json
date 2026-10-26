@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-26T01:01:18.774183+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "Raju2015实际13页body/official2019targetclock定向核，独立γ采集vs2010DSAM/理论引用分开，asym非P/δ",
+  "next_route": "冻结105Cd文献显式2protonholes+3alignedneutrons占据的Pauli角动量上界与额外角动量条件；不判实际AMR失败或猜τ",
+  "missing_inputs": [
+    "original2010body/SF/stopping/Σ andCommentbody/Replyidentity",
+    "fullparentbranchledger and highspin tentativeJπ controls",
+    "actualvalence/core partition in selfconsistentmixedmodel"
+  ],
+  "Day25_opened": false
+}

@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-10-26T00:55:33.601471+00:00",
+  "actual_new_body": {
+    "title": "HighSpinSpectroscopyandShapeEvolutionin105Cd",
+    "authors": "M.KumarRaju etal",
+    "arxiv": "1501.07655v1",
+    "doi": "10.1103/PhysRevC.91.024319",
+    "path": "tmp/day23-originals/cd105-read051-raju2015.pdf",
+    "sha256": "c237e3c4d71df3de9369b31235a798aa900ad585321654ff8ef0d69e20bad3f2",
+    "scope": "all13pbody/table/refs, freshvisualPDF3/6/11, extractedmethodsEq1/2andmodelresults; notVoRbodyexactcomparison",
+    "compilation_date_not_measurement": "arxivJan2015vsPDFDatedOct2018"
+  },
+  "actual_official_inputs": {
+    "adopted": "105048001,2019NDS1611cut1Apr2019/803prelines",
+    "HI": "105048006/339prelines, targetedheaders andBchainclock/gamma contexts,notwholeNDS",
+    "scope": "TfieldsDSAMfrom2010Ch54 vsE/RI/Multfrom2015Ra02, notnewindependentdata fromevaluation"
+  },
+  "still_unavailable": "original2010PRC82061308body, completeDSAMSF/stopping/Σ; CommentRoy2013identityonly; Replynotidentified",
+  "rejected_identifiers": [
+    "87.059802returnedResourceNotFound,notverifiedReply",
+    "91.024320is unrelatedCrFeshellmodelarticle,notRaju; actualverified91.024319"
+  ],
+  "newclaims_needs_review": true,
+  "oldflags_preserved": true,
+  "rawarchive": "deferred,tmp only",
+  "formalday": 23,
+  "onlyuncreditedpreview": 24
+}

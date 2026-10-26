@@ -81,3 +81,9 @@ New concept page; review pending.
 该例说明AMR几何不排斥随spin变化的电荷形状与其它粒子alignment；能量、J2与B(E2)须联合检查。若仅在固定角几何/charge normalization下令E2振幅∝β，则(.14/.2)²=.49只是条件尺度算术，不是原文实测B比或新Q/τ。fullmodel的角度/混合也在变，不能由这一个比例宣布shears/shape机制各占多少。
 
 模型所谓“no M1”保在该理想对称带内图像；不据此删所有跨带M1或称静态μ=0。原Simons2003/2005正文当前未得，105Cd2010 DSAM及2013Comment/Reply尚待核，不从2025混合来源表恢复旧未经原件认证的Cd数列/统一J2-B阈值。新内容needs_review:true，不新增humanreview。
+
+## Day23：105Cd新γ谱与旧寿命的独立角色
+
+[[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] RA15-D23-001–004和CD19-D23-001/002单独标识实际2015谱学原件与官方2019评价。2015独立采集确认/扩展105Cd的EM与level网络，B4多条stretched E2有RDCO与ΔIPDCO支持，但AMR寿命/B(E2)趋势沿用2010DSAM；2019评价又合并时钟和新γ资料，不能按三份新寿命计票。
+
+105Cd其它band到B4的1009M1连接与AMR特定横向磁矩抵消可以并存，不能将AMR定义为所有M1/静态μ为0。模型shape/γ与occupation解释各有输入与截断，不由2015energyfit替换原DSAM或终审AMR。原2010body/feeding/stopping/branchCov缺口保持，[[signature-tip-shears-discrimination-contract]]保逐量来源/半衰期角色，新增needs_review:true。

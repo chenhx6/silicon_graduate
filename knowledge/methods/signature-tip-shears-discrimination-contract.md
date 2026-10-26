@@ -711,3 +711,11 @@ CoreE2在S下odd；M1按源系数分成.05(jp+jn) even与.65(jp−jn) odd。若m
 这说明in/out/staggering图既含测量/矩阵内容，也含bandfamily mapping输入。若E2用于组织family，它不是随后检验同一mapping的独立票；若M1再用于选择两种relativepairing，M1亦进入定标集合，下一检验须另选真正未使用的量。能量连续性/已确立placement可给不同映射不同支持，不能从E2score平局推出等可信。
 
 此处只是模型label association，不是B槽实际configuration重指派本身，也不是保持H却造出新核态。真实B槽仍冻结核素、实测计数/能级/response与H/operator，然后明确不同候选configuration对应的未定标预测。开放Eγ mask与形式强度分开，2态截断不认证completeprojector，强度表行列置换下总和/|det|也不补相干phase。八项计算/映射门过，新needs_review:true，无新measuredδ/g/B/Q/τ/CI/机时；[[nuclear-chirality]]保唯一Day24无学分范围。
+
+## Day23：AMR对照也要按逐量来源与响应比较
+
+[[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] RA15-D23-001–004/CD19-D23-001/002把105Cd正支持链推进到实际γ谱原件和具体评价字段。2010IUAC/94Zr93MeV14clover的DSAM时钟、2015TIFR/92Mo75MeV15clover的Eγ/Iγ/RDCO/ΔIPDCO及2019评价合并是三种角色；source papers/编译对象不能重复乘似然，反应/feeding和校准也不能跨装置默移。
+
+Raju的ΔIPDCO为带a=.99的散射asymmetry，非完整P或新δ；同采集105In差谱是参考，非另一份Cd测量。E2身份、绝对强度和AMR几何分别检验；1009跨带M1不等否决所有AMR，同时也不靠仅无inbandM1就唯一归AMR。CSM/TPSM的γ/多qp输入与Zhao自洽模型另列，不把能量符合度当独立寿命检验。
+
+官方目标T栏为half-life，未读原2010表前不混作meanτ。一般恒等τ=T1/2/ln2只作定义；把T1/2误代meanτ会给率反演带1/ln2的中央尺度误差，但本任务不据此生成这些核态新τ/B/CI。单一列出出口不证明分支闭合，原SF/stopping与全Cov仍缺。[[antimagnetic-rotation]]保正支持与限制，当前无Pr/Au或Cd新的physicalδ/Q/τ/机时，新增needs_review:true。

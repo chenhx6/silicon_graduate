@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-26T00:42:56.684677+00:00",
+  "formalday": 23,
+  "scope": "currentDay23AMRpositivecontrol original105CdDSAMandcommentreply sourcegap, not sourceZhao modelre-reading asnewmeasurement",
+  "existing_model": "Kumar2025KU25-D23-001..003/Zhao2011actualbody alreadyread016, datafromChoudhury2010PRC82061308",
+  "actual_primary_identity": "Crossref/Inspire/OpenAlex exact2010title Evidenceofantimagneticrotationinodd-A105Cd, authorsDeepikaChoudhury etal; no publicrepositorybodyyet",
+  "goals": [
+    "original lifetime/SF/stopping/branch covariance roles ifactualbodyavailable",
+    "2013comment/replyexactidentity beforecontents; no inferencefromtitle",
+    "retainpositiveAMRsupport andwhichobservations vs theoretical ablations areindependent",
+    "testnotallM1/cancellation ordecliningE2uniquecriteria"
+  ],
+  "prohibited": [
+    "inventCdtableδ/Q/tau orcopytheoryfigureasnewexperiment",
+    "primarybodyunavailable treatedasphysicalnegative",
+    "unboundedrepeatclosedpublisher retries",
+    "polarizationdensityrearrangement misreadphotonP",
+    "newrate/beamtime/CI or actualAMRterminalassignment",
+    "Day24credit/Day25 orraw/oldreviewmutation",
+    "run114producer"
+  ]
+}

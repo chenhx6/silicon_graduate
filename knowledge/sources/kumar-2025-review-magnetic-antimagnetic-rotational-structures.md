@@ -154,3 +154,22 @@ Page and all KU25 claims remain unreviewed with `needs_review: true`. Human revi
 | KU25-D23-003 | 外部原Zhao2011的“without polarization”是先求每频率107Sn势，再移去两个g9/2质子而冻结该势、放弃105Cd自洽重排；与selfconsistent情形相比，非自洽对照约17ℏ达最大I，Ω≥.5MeV处E2受压制。selfconsistent结果β约.2→.14、γ≤9°。polarization指密度/形变重排，非γ线偏振P；该ablation改变势/自洽性，不是固定H只换configuration标签，也不是第二次实验。 | external-model-ablation-and-observable-identity | directly-read-external-model | Zhao2011 arXiv1105.3622v2 PDF7–9 Fig.3/4 and107Sn frozen-potential paragraphs | true |
 
 Knowledge Impact and Learning Decision：supports本卡AMR有具体微观支持链及形变/混合/自洽性伴随检验；limits把理想双剪刀闭合、M1抵消或decreasingB(E2)升级为唯一模式/硬门。原DSAM论文正文、2013Comment/Reply及原τ/feeding/branch系统误差未取得，不重造Cd逐点曲线或物理终审。Simons closed路线保为P1 retrieval/readiness，非技术性全局硬停。新claims仅Codex self-audit needs_review:true。
+
+## Day23：105Cd实际γ谱新原件与DSAM评价字段
+
+本节单独标明外部原文/评价，不把它们归为2025综述的新采集。M. Kumar Raju et al.，*High Spin Spectroscopy and Shape Evolution in105Cd*，arXiv1501.07655v1，对应PRC91,024319(2015)，DOI[10.1103/PhysRevC.91.024319](https://doi.org/10.1103/PhysRevC.91.024319)，由arXiv metadata与精确Crossref核定；v1实际13页/834222bytes，SHA256 c237e3c4d71df3de9369b31235a798aa900ad585321654ff8ef0d69e20bad3f2。正文/表/refs主线实际读完，fresh视觉核PDF3/6/11，未逐点重算所有模型曲线或称已核VoR内容。上传Jan2015与PDF题头Oct24,2018编译分开。PDF仅tmp/day23-originals/cd105-read051-raju2015.pdf，正式raw归档deferred。
+
+另按[NNDC真实表单](https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet)取得105048001,105CD adopted与105048006,105CD HI：两200/pre文本803/339行，只定向读header及目标B链时钟/γ，不称全NDS原读。response SHA依次8e64f15d2e1cbaa0f6ee0be954660fed580cc284cf0126858bce5792b8098103、30498af198124f733a74c9cfacb6cd25783a08c34c73ea33e7354121992a3da5，暂存tmp，未改raw。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| RA15-D23-001 | 实际2015原实验为92Mo(16O,2pn)、75MeV、1mg/cm²靶/10mgAu背衬、TIFR15clover，>2×10^9 fold≥2记录；它与评价所述2010Ch54的IUAC93MeV16O+94Zr、1.35mg靶/8.86mgAu、14clover不同采集。共享INGA名或低spin采用值不把逐事件/feeding/归一合成同样本。2015本文未给新DSAM寿命表，AMR/B(E2)趋势引用其Ref13的2010数据。 | primary-campaign-and-reused-lifetime-lineage | directly-read-external-primary-and-evaluation | Raju2015v1PDF1/2/10; PDF13Ref13; HI105048006 experimentheader | true |
+| RA15-D23-002 | Eq1的RDCO用157/90角矩阵、TableI按539keV E2门；Eq2 ΔIPDCO=(aNperp−Nparallel)/(aNperp+Nparallel)，a=.99由133Ba/152Eu定，是散射asymmetry而非已除完整Q(E)的P或δ。105In强通道差谱用作同一采集的EM参考，不能当独立Cd偏振实验。近0仅可为可能混合提示，未由此唯一选δ。 | primary-response-and-observable-semantics | direct-external-primary | Raju2015v1PDF2Eqs1/2; PDF3Figs1/2; PDF6TableIcaption | true |
+| RA15-D23-003 | TableI对yrast负宇称B4的905/1044/1179/1331分别采用E2，列ΔIPDCO约+.04(2)/+.12(7)/+.08(5)/+.22(9)；这些支持本次谱学EM身份，不是四个新绝对B(E2)。同表1009线27/2−→27/2−被指认为M1、Δ≈−.12(4)，属B3→B4连接。AMR特定对称横向磁矩抵消不等本核所有跨带M1被禁戒；该连接也不单独推翻B4的AMR解释。 | primary-companion-observables-and-M1-scope | direct-external-table-and-author-assignment | Raju2015v1PDF6TableI targetrows; PDF7/8B3discussion | true |
+| RA15-D23-004 | 本文CSM/shape分析用β2约.151/γ约6°解释crossing，TPSM在固定β2=.150下扫γ，γ25.01°使若干激发带能量更合、yrast B4对γ较不敏感；γ-soft/rigid为作者模型解释而非新直接形变测量。作者指出高spin B3/B2波函数/能量偏差反映未含5或更多qp；这些模型与Zhao2011无pairing自洽2DTAC输入不同，不能说只换configuration同H或新独立寿命验证。 | primary-model-input-and-author-limit | direct-external-model-discussion | Raju2015v1PDF9–12 Figs11–16 andSecsIV A/B | true |
+| CD19-D23-001 | 官方header为Lalkovski/Timar/Elekes，NDS161,1(2019)，CUT1-Apr-2019，记录block实际尾日期为202002，编译日期不作新采集年。HI明确cL T来自2010Ch54 DSAM，E/RI来自2015Ra02，多极性主要2015/1978资料；评价把不同观测来源归在同scheme，不自动提供它们的联合Cov或原2010stopping/SF误差。 | evaluated-field-provenance-and-version | actual-official-record | 105048006 H/cL T/cG E,RI/cG M headers; 105048001 H | true |
+| CD19-D23-002 | HI B链的(27/2−)4248.0、(31/2−)5291.6、(35/2−)6471.0、(39/2−)7802.0、(43/2−)9267.0keV母态在ENSDF T1/2栏列.74PS(+10−7)/.43PS(6)/.277PS(+31−21)/.143PS(+21−20)/.164PS(+32−34)，相关γ为905/1044/1179/1331/1465。它们是评价转述的2010时钟，不是2015新寿命或meanτ；末态/其它band同spin时钟不能移用，目标只列一γ也不证明branch完整。本任务不据这些字段重建新τ/B或CI。 | evaluated-state-clock-and-quantity-role | actual-official-fixed-field-record | 105048006 L4248.0/G905; L5291.6/G1044; L6471.0/G1179; L7802.0/G1331; L9267.0/G1465 | true |
+
+注：上条CD19-D23-001的记录尾日期实际字面为202002，对应文件版本；不据排版串改实验年份。原2010PRC82,061308全文仍未取得，源停能/SF/全branch/likelihood仍缺；2013Roy/Chattopadhyay Comment DOI10.1103/PhysRevC.87.059801仅metadata核定，未据题名臆测内容。猜测Reply87.059802返回ResourceNotFound，未建立该Reply身份；猜测Raju91.024320实际是无关Cr/Fe论文，已剔，正式本源DOI为verified91.024319。访问失败/无关结果不当物理反证，未把它们纳入AMR判票。
+
+[[antimagnetic-rotation]]和[[signature-tip-shears-discrimination-contract]]承接AMR正支持、actualmultipole与寿命/模型依赖的分层。新claims均needs_review:true，原综述/来源review状态不变，不移植任何τ/Q/机时到Pr/Au。

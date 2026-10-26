@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点050（Day24仅无学分预习）
+## Active handoff — Day23检查点051（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-049已published。050fixedH I12–20 low2用openE2only配sameparity链，oddchain全局翻f/u保持E2score但M1in/out交换；八门过，source矩阵/能级不改，不称两actualconfig等可信。ZH07-D24P-018/概念方法needs_review。固定H micro路线局部饱和，回Day23AMRactualprimarygap：Choudhury2010DOI10.1103/PhysRevC.82.061308 metadata/locations请求session54603已完成可看ledger，2013Comment87.059801/Reply待核；不重复016Zhao模型为新实验。
+050已published。051Raju2015v1实际13页DOI91.024319/SHA c237e3c4...新75MeVMo92/TIFR15cloverγ谱，2010Zr94/IUAC93/14cloverDSAM另采集；2019ENSDF合T2010与E/RI/mult2015。原2010body仍缺，Reply87.059802未识别，CommentRoymetadataonly。ΔIPDCO/a.99非P/δ，B4E2与1009crossbandM1并存；CSM/TPSMshape模型条件。RA15/CD19source/AMR/methodneeds_review。下一Pauli显式占据上界条件算术，非实际核终审。
 
-详next-continuation-050.md/candidate-pool-050.json；检查以required-checks-050.json为准。Git指针main · Day23: separate band pairing inputs from independent checks；actualhash/H3仅task-publication-receipt-050.json。
+详next-continuation-051.md/candidate-pool-051.json；检查以required-checks-051.json为准。Git指针main · Day23: separate the Cd gamma data from inherited lifetime inputs；actualhash/H3仅task-publication-receipt-051.json。
 
 ## Previous handoff — Day22 closeout
 

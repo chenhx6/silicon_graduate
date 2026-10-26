@@ -1,0 +1,409 @@
+{
+  "observed_at": "2026-10-26T00:55:33.601471+00:00",
+  "actual_ledgers": [
+    {
+      "file": "cd105-primary051-ledger.json",
+      "result": [
+        {
+          "url": "https://inspirehep.net/api/literature?q=doi:10.1103/PhysRevC.82.061308",
+          "status": 200,
+          "path": "tmp/day23-originals/cd105-primary051-0863be30.txt",
+          "sha256": "b0e85b08970aaae730c3b99e3331ec02fc204011588e8804d7db023d4b3d262c",
+          "hits": [
+            {
+              "titles": [
+                {
+                  "title": "Evidence of antimagnetic rotation in odd-A Cd-105"
+                }
+              ],
+              "arxiv_eprints": null,
+              "documents": null,
+              "urls": null
+            }
+          ]
+        },
+        {
+          "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.82.061308",
+          "status": 200,
+          "path": "tmp/day23-originals/cd105-primary051-ac6037c6.txt",
+          "sha256": "931d60af3635c62d7274279e927800a9e34aa730b051b468842bd0722c60751b",
+          "locations": [
+            {
+              "landing": "https://doi.org/10.1103/physrevc.82.061308",
+              "pdf": null
+            }
+          ]
+        },
+        {
+          "url": "https://api.crossref.org/works/10.1103/PhysRevC.82.061308",
+          "status": 200,
+          "path": "tmp/day23-originals/cd105-primary051-5e3c56a8.txt",
+          "sha256": "068ce697953962402c96ad49ae94754161946b79d2fcad9cd19746c4d443e941",
+          "title": [
+            "Evidence of antimagnetic rotation in odd-\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:mrow>\n                        <mml:mi>A</mml:mi>\n                      </mml:mrow>\n                    </mml:math>\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:mmultiscripts>\n                        <mml:mi mathvariant=\"normal\">Cd</mml:mi>\n                        <mml:mprescripts/>\n                        <mml:none/>\n                        <mml:mrow>\n                          <mml:mn>105</mml:mn>\n                        </mml:mrow>\n                      </mml:mmultiscripts>\n                    </mml:math>"
+          ],
+          "authors": [
+            {
+              "given": "Deepika",
+              "family": "Choudhury",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "A. K.",
+              "family": "Jain",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "M.",
+              "family": "Patial",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "N.",
+              "family": "Gupta",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "P.",
+              "family": "Arumugam",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "URL": "http://link.aps.org/article/10.1103/PhysRevC.82.061308",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.82.061308/fulltext",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "cd105-gap051-ledger.json",
+      "result": [
+        {
+          "name": "comment",
+          "url": "https://api.crossref.org/works/10.1103/PhysRevC.87.059801",
+          "status": 200,
+          "path": "tmp/day23-originals/cd105-gap051-comment.txt",
+          "sha256": "6544798c244d3559b06f7a2b365a3d07675522ba1cdf69889bc68074063637f0",
+          "title": [
+            "Comment on “Evidence of antimagnetic rotation in odd-\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:mi>A</mml:mi>\n                    </mml:math>\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:msup>\n                        <mml:mrow/>\n                        <mml:mn>105</mml:mn>\n                      </mml:msup>\n                    </mml:math>\n                    Cd”"
+          ],
+          "authors": [
+            {
+              "given": "Santosh",
+              "family": "Roy",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "S.",
+              "family": "Chattopadhyay",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "URL": "http://link.aps.org/article/10.1103/PhysRevC.87.059801",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.87.059801/fulltext",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        },
+        {
+          "name": "reply",
+          "error": "JSONDecodeError"
+        },
+        {
+          "name": "arxiv",
+          "url": "https://export.arxiv.org/api/query?search_query=all:%22105Cd%22&max_results=20",
+          "status": 200,
+          "path": "tmp/day23-originals/cd105-gap051-arxiv.txt",
+          "sha256": "0da84c0e8232383e3f490d0c5ab631830b02f6e5b2665ed64b7ec0d5843a80d7",
+          "entries": [
+            {
+              "id": "http://arxiv.org/abs/1501.07655v1",
+              "title": "High Spin Spectroscopy and Shape Evolution in 105Cd"
+            },
+            {
+              "id": "http://arxiv.org/abs/1205.0867v1",
+              "title": "Covariant density functional theory for antimagnetic rotation"
+            },
+            {
+              "id": "http://arxiv.org/abs/1105.3622v2",
+              "title": "Antimagnetic Rotation Band in Nuclei: A Microscopic Description"
+            }
+          ]
+        },
+        {
+          "name": "s2",
+          "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1103/PhysRevC.82.061308?fields=title,openAccessPdf,url,externalIds",
+          "status": 200,
+          "path": "tmp/day23-originals/cd105-gap051-s2.txt",
+          "sha256": "773d7049bcfeac6afda9b456cbefa23da015da6733eedd1b6b828f25e232a0d2",
+          "metadata": {
+            "paperId": "63da2a312302c75475462b4d785628d0e94cb795",
+            "externalIds": {
+              "MAG": "1971072545",
+              "DOI": "10.1103/PHYSREVC.82.061308",
+              "CorpusId": 119852643
+            },
+            "url": "https://www.semanticscholar.org/paper/63da2a312302c75475462b4d785628d0e94cb795",
+            "title": "Evidence of antimagnetic rotation in odd-A Cd-105",
+            "openAccessPdf": {
+              "url": "",
+              "status": "CLOSED",
+              "license": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "file": "cd105-source051-ledger.json",
+      "result": [
+        {
+          "name": "reply-identity",
+          "url": "https://api.crossref.org/works?query.title=Reply+Evidence+antimagnetic+rotation+105Cd&rows=5",
+          "status": 200,
+          "path": "tmp/day23-originals/cd105-source051-reply-identity.txt",
+          "bytes": 50861,
+          "sha256": "63cc5497b1b0e7cd89de09cf798060f5e835ba1c8944392f07746a313580618c",
+          "pdf": false,
+          "items": [
+            {
+              "title": [
+                "Nuclear current and antimagnetic rotation in 105Cd"
+              ],
+              "DOI": "10.1007/s11433-012-4906-3",
+              "authors": [
+                "Liu",
+                "Zhao"
+              ]
+            },
+            {
+              "title": [
+                "Possible antimagnetic rotation in 99Pd"
+              ],
+              "DOI": "10.1142/s0218301322500203",
+              "authors": [
+                "Sihotra"
+              ]
+            },
+            {
+              "title": [
+                "Possible antimagnetic rotation in 97,99Mo"
+              ],
+              "DOI": "10.1142/s0218301326500552",
+              "authors": [
+                "Joshi",
+                "Sihotra",
+                "Tawseef"
+              ]
+            },
+            {
+              "title": [
+                "Possible antimagnetic rotation in 101Ru"
+              ],
+              "DOI": "10.1142/s0218301324500423",
+              "authors": [
+                "Chauhan",
+                "Sihotra",
+                "Joshi"
+              ]
+            },
+            {
+              "title": [
+                "Study of antimagnetic rotation in 109,111Cd"
+              ],
+              "DOI": "10.1142/s0218301318500349",
+              "authors": [
+                "Majumder",
+                "Sharma",
+                "Chakraborty"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "arxiv2015",
+          "url": "https://export.arxiv.org/api/query?id_list=1501.07655",
+          "status": 200,
+          "path": "tmp/day23-originals/cd105-source051-arxiv2015.txt",
+          "bytes": 3457,
+          "sha256": "07b5fad5d689cbb6b3c46ff71d62d8e927ba68f973410e0e34f73d90f3503ba0",
+          "pdf": false,
+          "entries": [
+            {
+              "id": "http://arxiv.org/abs/1501.07655v1",
+              "title": "High Spin Spectroscopy and Shape Evolution in 105Cd",
+              "authors": [
+                "M. Kumar Raju",
+                "D. Negi",
+                "S. Muralithar",
+                "R. P. Singh",
+                "J. A. Sheikh",
+                "G. H. Bhat",
+                "R. Kumar",
+                "Indu Bala",
+                "T. Trivedi",
+                "A. Dhal",
+                "K. Rani",
+                "R. Gurjar",
+                "D. Singh",
+                "R. Palit",
+                "B. S. Naidu",
+                "S. Saha",
+                "J. Sethi",
+                "R. Donthi",
+                "S. Jadhav"
+              ],
+              "summary": "High spin states in 105Cd were studied using 16O beam on 92Mo reaction at an incident beam energy of 75 MeV. The level scheme of 105Cd has been observed up to an excitation energy of 10.8 MeV with the addition of 30 new gamma transitions to the previous work. Spin and parity for most of the reported levels are assigned from the DCO ratios and linear polarization measurements. The microscopic origin of the investigated band structures is discussed in the context of triaxial projected shell model. The energies of observed positive and negative parity bands agree with the predictions of the TPSM by considering triaxial deformation for the observed excited band structures. The shape evolution with increasing angular momentum is explained in the framework of Cranked Shell Model and the Total Routhian Surface calculations."
+            }
+          ]
+        },
+        {
+          "name": "aps-primary",
+          "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.82.061308",
+          "status": 403,
+          "path": "tmp/day23-originals/cd105-source051-aps-primary.txt",
+          "bytes": 5562,
+          "sha256": "6297023930cac6fa41b825635cf3b2719fab9b15b50764c78fd8f5fb9cff5b31",
+          "pdf": false
+        }
+      ]
+    },
+    {
+      "file": "cd105-read051-ledger.json",
+      "result": [
+        {
+          "name": "adopted",
+          "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+          "method": "POST",
+          "form": {
+            "dbclass": "ensdf",
+            "page-source": "singular",
+            "datasetcheck": "105048001,105CD",
+            "chooseit": "ENSDF text format"
+          },
+          "status": 200,
+          "bytes": 65510,
+          "pdf": false,
+          "path": "tmp/day23-originals/cd105-read051-adopted.html",
+          "sha256": "8e64f15d2e1cbaa0f6ee0be954660fed580cc284cf0126858bce5792b8098103"
+        },
+        {
+          "name": "hi",
+          "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+          "method": "POST",
+          "form": {
+            "dbclass": "ensdf",
+            "page-source": "singular",
+            "datasetcheck": "105048006,105CD",
+            "chooseit": "ENSDF text format"
+          },
+          "status": 200,
+          "bytes": 27926,
+          "pdf": false,
+          "path": "tmp/day23-originals/cd105-read051-hi.html",
+          "sha256": "30498af198124f733a74c9cfacb6cd25783a08c34c73ea33e7354121992a3da5"
+        },
+        {
+          "name": "raju2015",
+          "url": "https://arxiv.org/pdf/1501.07655v1",
+          "method": "GET",
+          "form": {},
+          "status": 200,
+          "bytes": 834222,
+          "pdf": true,
+          "path": "tmp/day23-originals/cd105-read051-raju2015.pdf",
+          "sha256": "c237e3c4d71df3de9369b31235a798aa900ad585321654ff8ef0d69e20bad3f2",
+          "pages": 13
+        }
+      ]
+    },
+    {
+      "file": "cd105-official051-list-access.json",
+      "result": {
+        "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+        "method": "POST",
+        "form": {
+          "nuc": "105CD",
+          "searchType": "quick",
+          "datasource": "ensdf",
+          "nsrch": "Search"
+        },
+        "status": 200,
+        "bytes": 9466,
+        "path": "tmp/day23-originals/cd105-official051-list.html",
+        "sha256": "b704d483d2bb0c67e71e4020856a7be29610cacf6d2a358c3f79645e411bdbcd"
+      }
+    }
+  ],
+  "identifier_scope": "noReplyidentityinferredfromnumber; unrelatedguessedDOIrejected; sourcearxivmetadataactualRajuDOIverified",
+  "formalrawarchive": "deferred"
+}
