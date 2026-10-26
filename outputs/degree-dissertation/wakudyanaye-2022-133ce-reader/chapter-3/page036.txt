@@ -1,0 +1,36 @@
+Chapter 3
+Nuclear Triaxiality
+3.1
+Introduction
+In the preceding chapter we looked at the axially symmetric rotor and the band
+structures arising from such nuclear rotations where K, the projection of the total
+nuclear spin I, was a good quantum number. When the nucleus is triaxial, there is
+no axis of symmetry and K is no longer a good quantum number. A triaxial nucleus
+can rotate around any one of its body-ﬁxed axes simultaneously. The spectra of
+triaxial nuclei can exhibit complex patterns. This chapter is devoted to reviewing
+the current understanding of the rotational states in non-axially deformed nuclei.
+3.2
+The Asymmetric Particle-Plus-Rotor Model
+Rotations of triaxially deformed even-even core is governed by:
+Hrot = ℏ2
+3
+X
+k=1
+R2
+2ℑk
+= ℏ2[ R2
+1
+2ℑ1
++ R2
+2
+2ℑ2
++ R2
+3
+2ℑ3
+]
+= ℏ2[A1R2
+1 + A2R2
+2 + A3R2
+3],
+(3.1)
+25

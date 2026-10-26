@@ -1,0 +1,44 @@
+{
+  "path": "tmp/day23-theses/ragnarsson-semmes-1988.pdf",
+  "sha256": "af5b8588ac78f40ecb7ac5eb8f2dd8070c3457296e8fdcd63e9ea0d828a2fa6d",
+  "pages": 18,
+  "scope_pdf_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "scope_printed_pages": [
+    427,
+    428,
+    429,
+    430,
+    431,
+    432
+  ],
+  "reading_scope": "targeted formalism, not entire article",
+  "additional_targeted_pdf_pages": [
+    4,
+    17,
+    18
+  ],
+  "additional_targeted_printed_pages": [
+    426,
+    439,
+    440
+  ],
+  "identity_text_page": 3,
+  "actual_visual_pdf_pages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    17,
+    18
+  ]
+}

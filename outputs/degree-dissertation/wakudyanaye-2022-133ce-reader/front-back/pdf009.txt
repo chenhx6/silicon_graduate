@@ -1,0 +1,90 @@
+List of Figures
+2.1
+Nuclear potentials . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2.2
+Nuclear shell structure with various potentials . . . . . . . . . . . .
+9
+2.3
+The Lund convention . . . . . . . . . . . . . . . . . . . . . . . . . .
+12
+2.4
+Angular momentum coupling in the Nilsson model . . . . . . . . . .
+14
+2.5
+Nilsson diagram for neutrons . . . . . . . . . . . . . . . . . . . . . .
+15
+2.6
+Nilsson diagram for protons
+. . . . . . . . . . . . . . . . . . . . . .
+16
+2.7
+Particle-core coupling . . . . . . . . . . . . . . . . . . . . . . . . . .
+20
+2.8
+Staggering curve
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+3.1
+Irrotational-ﬂow MoIs
+. . . . . . . . . . . . . . . . . . . . . . . . .
+26
+3.2
+Spectrum of a triaxial even-even rotor . . . . . . . . . . . . . . . . .
+28
+3.3
+Tip bands based on h11/2 conﬁguration
+. . . . . . . . . . . . . . .
+31
+4.1
+Detector orientation in the AFRODITE array . . . . . . . . . . . .
+44
+4.2
+Schematic representation of a symmetric γ-γ matrix . . . . . . . . .
+45
+4.3
+Schematic diagram showing coincidences between γ rays on the
+same decay path
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+5.1
+133Ce partial level scheme
+. . . . . . . . . . . . . . . . . . . . . . .
+54
+5.2
+133Ce Band 4 gated spectra
+. . . . . . . . . . . . . . . . . . . . . .
+57
+5.3
+133Ce Band 2 gated spectra
+. . . . . . . . . . . . . . . . . . . . . .
+59
+5.4
+131Ba partial level scheme
+. . . . . . . . . . . . . . . . . . . . . . .
+62
+6.1
+The energy spectra E(I) and signature splitting S(I) for Band 2 of
+133Ce at γ = 0◦and 10◦, and Coriolis interaction (χ) at full strength. 69
+6.2
+The energy spectra E(I) and signature splitting S(I) for Band 2 of
+133Ce at γ = 15◦and 20◦, and Coriolis interaction (χ) at full strength. 70
+6.3
+QTR model wavefunctions for Band 2 of 133Ce . . . . . . . . . . . .
+72
+6.4
+The energy spectra E(I) and signature splitting S(I) for Band 2 of
+133Ce at γ = 0◦and 10◦, and Coriolis interaction (χ) at 70% of the
+usual strength.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+74
+6.5
+The energy spectra E(I) and signature splitting S(I) for Band 2
+of 133Ce at γ = 15◦and 20◦, and Coriolis interaction at 70% of the
+usual strength.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+75
+6.6
+The energy spectra E(I) and signature splitting S(I) for Band 2 of
+131Ba at γ = 0◦and 10◦, and Coriolis interaction (χ) at full strength. 78
+viii

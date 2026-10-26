@@ -1,6 +1,6 @@
 {
   "observed_at": "2026-10-26T04:32:49.553279+00:00",
-  "scope": "checkpoint062 originalDay23:actual historical Pt/Au evaluated reference fields and declared WU unit comparison; no new acquisition or isotope certification; no experimental or mode certification",
+  "scope": "checkpoint062:133Ce thesis deep reading/analysis blueprint and Nobs conditional assignment; original table S and EM dependence arithmetic only",
   "commands": {
     "boundary": {
       "argv": [
@@ -163,5 +163,6 @@
     "change_check": "run-snapshot",
     "error": null
   },
-  "all_pass": true
+  "all_pass": true,
+  "scope_metadata_correction": "Previous helper copied a Pt/Au060 scope label; only the descriptive scope corrected, actual commands/results/timestamps unchanged."
 }

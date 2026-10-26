@@ -1,0 +1,9 @@
+{
+  "ready": true,
+  "strict": true,
+  "summary": {
+    "fail": 0,
+    "warn": 0
+  },
+  "findings": []
+}

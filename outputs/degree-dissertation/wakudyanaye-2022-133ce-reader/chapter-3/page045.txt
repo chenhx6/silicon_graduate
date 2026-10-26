@@ -1,0 +1,36 @@
+Chapter 3. Nuclear Triaxiality
+34
+and new experimental data suggesting that the mixing ratios are in fact less than
+one were shown for 135Pr [44].
+3.3
+The Quasiparticle-Plus-Triaxial Rotor (QTR)
+Model Formalism
+The quasiparticle-plus-triaxial rotor (QTR) model has been used extensively to
+study triaxiality in odd-mass atomic nuclei [44, 52, 61]. The model Hamiltonian
+takes the form;
+H = Hcoll + Hint.
+(3.13)
+The collective component of the Hamiltonian was discussed in Sections 2.4.2 and
+3.2. In the presence of a valence nucleon, the Hamiltonian can be written down
+as:
+Hcoll =
+3
+X
+k=1
+R2
+2ℑk
+=
+3
+X
+k=1
+(Ik −jk)2
+2ℑk
+,
+(3.14)
+where⃗I,⃗R,⃗j have their usual meaning as the total, collective core, and the single-
+particle angular momentum vectors and⃗R =⃗I −⃗j. The ℑk are the moments of
+inertia along the k axis, with k = 1, 2, 3. Irrotational-ﬂow type moments of inertia
+are assumed.
+3.3.1
+QTR energies and wavefunctions
+The intrinsic part of the Hamiltonian can be written down as,

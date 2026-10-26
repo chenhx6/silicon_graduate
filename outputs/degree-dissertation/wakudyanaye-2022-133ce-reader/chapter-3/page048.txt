@@ -1,0 +1,40 @@
+Chapter 3. Nuclear Triaxiality
+37
+The Hamiltonian in relation 3.14 possesses a particle-hole symmetry arising from
+the permutations of the intrinsic nuclear axes [51]. One consequence of this sym-
+metry is that a particle coupled to a core with parameters (ε2, γ, λF) and a quasi-
+particle (hole) coupled to a core with parameters (ε2, 60◦−γ, −λF) have exactly
+same energy spectrum.
+3.3.2
+QTR transitions probabilities
+Electromagnetic transition probabilities are given as in Ref. [15], and have the
+general form;
+B(Oλ; Ii →If) =
+1
+2Ii + 1| ⟨If| Γ(Oλ) |Ii⟩|2,
+(3.21)
+where Γ(Oλ) is the electromagnetic operator, O stands for the type of operator
+(magnetic/electric), λ is the order of the transition, B is the reduced transition
+probability and |Ii⟩and ⟨If| stand for the initial state before the transition, and
+the Hermitian conjugate of the ﬁnal state after the transition. The magnetic dipole
+(λ = 1) moment operator is deﬁned as;
+Γ(M1) = gR⃗R +
+X
+(gl⃗l + gs⃗s),
+(3.22)
+the sum is performed over the odd particle(s), gR = Z/A is the core g-factor,
+gl and gs are the single-particle orbital angular momentum and spin g-factors,
+respectively [36].⃗R,⃗l and⃗s have their usual meanings. The electric quadruple
+(λ = 2) operator is deﬁned as;
+Γ(E2) =
+Z
+d3r[ρ(r)r2Y µ
+2 ],
+(3.23)
+which splits into a dominant core component and an odd particle(s) component.
+The mixing ratio, δE2/M1, is deﬁned as;
+δE2/M1 =
+√
+0.7 ⟨I| Γ(E2) |I −1⟩
+⟨I| Γ(M1) |I −1⟩Eγ,
+(3.24)

@@ -1,0 +1,34 @@
+Chapter 3. Nuclear Triaxiality
+38
+where Γ(E2) and Γ(M1) are the electric quadruple and magnetic dipole operators
+and Eγ is the γ-ray energy, which corresponds to the usual deﬁnition of
+δ2
+E2/M1 = T(E2, I →I −1)
+T(M1, I →I −1),
+(3.25)
+where T(E2) and T(M1) are the corresponding electric and magnetic transition
+probabilities, respectively.
+3.4
+QTR Model Calculations
+In this work the QTR model codes of Ragnarson and Semmes [39, 40], the three
+programs called GAMPN, ASYMO and PROBMO, in this particular sequence,
+were run one after the other. GAMPN calculates the single-particle eigenstates and
+matrix elements. ASYMO calculates the triaxial rotor states and couples them to
+the single particle states produced by GAMPN. The last program PROBMO uses
+the outputs of the previous two programs to calculate electromagnetic transition
+properties of the nucleus [66].
+3.4.1
+GAMPN
+As stated previously, the program GAMPN calculates the single-particle states of
+the QTR model Hamiltonian. To run the calculations for a particular nucleus with
+a proton number Z and a mass number A, the program requires the quadruple
+deformation parameter ε2, the axial asymmetry deformation γ and the hexade-
+capole deformation parameter ε4, the valence nucleon(s) conﬁguration, as well
+as the standard Nilsson parameters κ and µ. In these calculations the standard
+Nilsson parameters were adopted as in Ref. [11]. In general ε2 and γ can be de-
+duced from potential energy surface (PES) calculations or from experimental data.
+In addition, the program requires one to specify the single-particle conﬁguration
+space of interest, that is to specify the orbitals near the Fermi level that will be
+included in the calculations.
+The program outputs the single particle energies εν, single-particle matrix element
+and the single-particle eigenstates |ν⟩, expanded in the basis |NLJΩ⟩. For an

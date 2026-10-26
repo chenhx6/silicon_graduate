@@ -1,0 +1,25 @@
+Chapter 7
+Conclusion
+Detailed data sets were collected and analyzed in the N = 75 isotones of 133Ce and
+131Ba within a collaboration consisting of researchers from South Africa, China and
+France. The 133Ce experiment was conducted at the separated sector cyclotron of
+iThemba LABS near Cape Town, South Africa, while the 131Ba experiment was
+carried out at the XTU Tandem accelerator of Laborotori Nazionali di Legnaro,
+Italy.
+The γ-decay spectroscopy on these experiments revealed a number of new results.
+One positive-parity band built on the Iπ = 7/2+ state was discovered in both
+133Ce and 131Ba nuclei. As part of this work the γ-γ coincidence from the 133Ce
+data was studied. The performed γ-coincidence analysis revealed a new strongly
+coupled positive-parity band in 133Ce, consisting of nine new transitions and four
+new levels. The analysis of the 131Ba data was carried out by the collaborators.
+It revealed thirteen new transitions and eight new levels, in a similar strongly
+coupled positive-parity band built on the Iπ = 7/2+ state. Both bands show a
+considerable signature splitting.
+The collaborators provided potential energy surface (PES) calculations, which
+suggested a quadruple deformation of ε2 = 0.185 and a γ deformation of γ ∼10◦
+for 133Ce and a quadruple deformation of ε2 = 0.170 and a γ deformation of γ ∼9◦
+for 131Ba. The interpretation of the two bands was carried out as part of this work.
+It is based on quasiparticle-plus-triaxial rotor (QTR) calculations.
+A detailed QTR study of these positive-parity bands was carried out as part of
+this work. A space of ten QTR model orbitals close to the Fermi level was used
+105

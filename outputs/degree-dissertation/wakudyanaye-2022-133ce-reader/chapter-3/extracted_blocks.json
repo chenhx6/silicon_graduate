@@ -1,0 +1,6554 @@
+[
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 0,
+    "bbox": [
+      108.0,
+      172.671142578125,
+      230.91873168945312,
+      197.45814514160156
+    ],
+    "text": "Chapter 3\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 1,
+    "bbox": [
+      108.0,
+      241.7451171875,
+      338.5687255859375,
+      266.5321350097656
+    ],
+    "text": "Nuclear Triaxiality\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 2,
+    "bbox": [
+      108.0,
+      326.3018798828125,
+      258.76898193359375,
+      343.5168762207031
+    ],
+    "text": "3.1\nIntroduction\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 3,
+    "bbox": [
+      108.0,
+      371.32574462890625,
+      523.9623413085938,
+      383.2807312011719
+    ],
+    "text": "In the preceding chapter we looked at the axially symmetric rotor and the band\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 4,
+    "bbox": [
+      108.0,
+      390.1057434082031,
+      523.9392700195312,
+      402.06072998046875
+    ],
+    "text": "structures arising from such nuclear rotations where K, the projection of the total\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 5,
+    "bbox": [
+      108.0,
+      408.8847351074219,
+      523.942138671875,
+      420.8397216796875
+    ],
+    "text": "nuclear spin I, was a good quantum number. When the nucleus is triaxial, there is\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 6,
+    "bbox": [
+      108.0,
+      427.66473388671875,
+      523.9569091796875,
+      439.6197204589844
+    ],
+    "text": "no axis of symmetry and K is no longer a good quantum number. A triaxial nucleus\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 7,
+    "bbox": [
+      108.00001525878906,
+      446.4447326660156,
+      523.962158203125,
+      458.39971923828125
+    ],
+    "text": "can rotate around any one of its body-ﬁxed axes simultaneously. The spectra of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 8,
+    "bbox": [
+      108.00001525878906,
+      465.2237243652344,
+      523.9503784179688,
+      477.1787109375
+    ],
+    "text": "triaxial nuclei can exhibit complex patterns. This chapter is devoted to reviewing\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 9,
+    "bbox": [
+      108.00001525878906,
+      484.00372314453125,
+      523.9623413085938,
+      495.9587097167969
+    ],
+    "text": "the current understanding of the rotational states in non-axially deformed nuclei.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 10,
+    "bbox": [
+      108.00001525878906,
+      536.6968994140625,
+      524.0693969726562,
+      553.911865234375
+    ],
+    "text": "3.2\nThe Asymmetric Particle-Plus-Rotor Model\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 11,
+    "bbox": [
+      108.00001525878906,
+      581.7207641601562,
+      430.5699462890625,
+      593.67578125
+    ],
+    "text": "Rotations of triaxially deformed even-even core is governed by:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 12,
+    "bbox": [
+      231.61700439453125,
+      645.9968872070312,
+      279.4590759277344,
+      662.3567504882812
+    ],
+    "text": "Hrot = ℏ2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 13,
+    "bbox": [
+      281.9520263671875,
+      636.7791137695312,
+      299.2150573730469,
+      657.8027954101562
+    ],
+    "text": "3\nX\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 14,
+    "bbox": [
+      282.8650207519531,
+      665.8261108398438,
+      298.30230712890625,
+      673.796142578125
+    ],
+    "text": "k=1\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 15,
+    "bbox": [
+      305.342041015625,
+      639.297119140625,
+      318.58209228515625,
+      652.4757690429688
+    ],
+    "text": "R2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 16,
+    "bbox": [
+      302.40899658203125,
+      656.65478515625,
+      321.30340576171875,
+      669.6871948242188
+    ],
+    "text": "2ℑk\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 17,
+    "bbox": [
+      256.3429870605469,
+      676.1431884765625,
+      300.3870544433594,
+      697.4097900390625
+    ],
+    "text": "= ℏ2[ R2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 18,
+    "bbox": [
+      284.4070129394531,
+      676.1431884765625,
+      336.4150695800781,
+      706.533203125
+    ],
+    "text": "1\n2ℑ1\n+ R2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 19,
+    "bbox": [
+      320.4360046386719,
+      676.1431884765625,
+      372.4440612792969,
+      706.533203125
+    ],
+    "text": "2\n2ℑ2\n+ R2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 20,
+    "bbox": [
+      356.4639892578125,
+      683.4371948242188,
+      380.1307678222656,
+      706.533203125
+    ],
+    "text": "3\n2ℑ3\n]\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 21,
+    "bbox": [
+      256.3429870605469,
+      709.9679565429688,
+      309.9600524902344,
+      725.4572143554688
+    ],
+    "text": "= ℏ2[A1R2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 22,
+    "bbox": [
+      305.6289978027344,
+      710.7581787109375,
+      400.2965087890625,
+      727.4898071289062
+    ],
+    "text": "1 + A2R2\n2 + A3R2\n3],\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 23,
+    "bbox": [
+      499.8509521484375,
+      675.7617797851562,
+      523.9283447265625,
+      687.716796875
+    ],
+    "text": "(3.1)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 36,
+    "printed_page": 25,
+    "block": 24,
+    "bbox": [
+      310.10394287109375,
+      775.7968139648438,
+      321.81982421875,
+      787.7518310546875
+    ],
+    "text": "25\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n26\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.93603515625,
+      95.69278717041016
+    ],
+    "text": "where k = 1, 2, 3 are the intrinsic (body-ﬁxed) axes, representing the intermediate,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 2,
+    "bbox": [
+      108.0,
+      102.3618392944336,
+      523.9224853515625,
+      115.39518737792969
+    ],
+    "text": "short and long axes respectively. The moments of inertia (MoI) ℑk, are usually\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 3,
+    "bbox": [
+      108.0,
+      121.29680633544922,
+      454.4494323730469,
+      133.25180053710938
+    ],
+    "text": "described by the irrotational ﬂow model and are deﬁned as [20, 21]:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 4,
+    "bbox": [
+      252.10601806640625,
+      161.0627899169922,
+      288.65997314453125,
+      182.89883422851562
+    ],
+    "text": "ℑk = 4\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 5,
+    "bbox": [
+      282.802001953125,
+      161.0627899169922,
+      523.9284057617188,
+      189.30679321289062
+    ],
+    "text": "3ℑ0 sin2(γ −2π\n3 k).\n(3.2)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 6,
+    "bbox": [
+      108.0,
+      205.31591796875,
+      523.923095703125,
+      220.39181518554688
+    ],
+    "text": "Among them ℑ1 is the largest. For 0◦< γ < 30◦, ℑ1 > ℑ2 > ℑ3 and if 30◦< γ <\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 7,
+    "bbox": [
+      108.00003051757812,
+      224.09588623046875,
+      523.9396362304688,
+      239.17178344726562
+    ],
+    "text": "60◦, ℑ1 > ℑ3 > ℑ2. In this work irrotational-ﬂow MoI’s are assumed as this choice\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 8,
+    "bbox": [
+      108.00004577636719,
+      244.2028045654297,
+      523.9505004882812,
+      256.1578063964844
+    ],
+    "text": "is supported by experimental evidence [2]. The rotation proceeds mostly around\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 9,
+    "bbox": [
+      108.00004577636719,
+      262.98284912109375,
+      523.9383544921875,
+      274.9378356933594
+    ],
+    "text": "the intermediate axis which is favored, as this axis has the largest MoI and thus\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 10,
+    "bbox": [
+      108.00004577636719,
+      281.7618408203125,
+      523.944580078125,
+      293.7168273925781
+    ],
+    "text": "rotation around this axis needs minimum energy. The Hamiltonian (equation 3.1)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 11,
+    "bbox": [
+      108.00006103515625,
+      300.5418701171875,
+      153.90725708007812,
+      312.4968566894531
+    ],
+    "text": "becomes:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 12,
+    "bbox": [
+      250.2140655517578,
+      346.5742492675781,
+      300.4261169433594,
+      361.27325439453125
+    ],
+    "text": "H = A1I2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 13,
+    "bbox": [
+      295.2540588378906,
+      346.5742492675781,
+      523.9284057617188,
+      363.30584716796875
+    ],
+    "text": "1 + A2I2\n2 + A3I2\n3,\n(3.3)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 14,
+    "bbox": [
+      108.0,
+      383.277099609375,
+      523.9066772460938,
+      399.6368713378906
+    ],
+    "text": "where Ak = ℏ2/2ℑk. The solutions to the Hamiltonian presented in relation 3.3\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 15,
+    "bbox": [
+      108.0,
+      404.6678771972656,
+      523.9501953125,
+      416.62286376953125
+    ],
+    "text": "is a series of rotational states, which include the ground-state band and several\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 16,
+    "bbox": [
+      108.0,
+      423.2929382324219,
+      523.9338989257812,
+      435.4028625488281
+    ],
+    "text": "excited rotational bands. The excited bands are often termed γ−bands [74]. To\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 17,
+    "bbox": [
+      108.0,
+      442.2278747558594,
+      523.9187622070312,
+      454.182861328125
+    ],
+    "text": "distinguish these exited low-lying rotational states from the K = 2, K = 4, etc.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 18,
+    "bbox": [
+      108.0,
+      460.8519287109375,
+      523.9537963867188,
+      472.96185302734375
+    ],
+    "text": "γ−bands that result from the Bohr Hamiltonian [15], which are produced by cou-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 19,
+    "bbox": [
+      108.0,
+      479.786865234375,
+      524.0101928710938,
+      491.7418518066406
+    ],
+    "text": "pling the rotational and vibration collective modes, the rotational bands in triaxial\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 20,
+    "bbox": [
+      108.0,
+      498.56585693359375,
+      523.9024047851562,
+      510.5208435058594
+    ],
+    "text": "nuclei were called Tilted Precession Bands [42] as they represent the simultaneous\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 21,
+    "bbox": [
+      108.0,
+      517.3458862304688,
+      481.00213623046875,
+      529.3009033203125
+    ],
+    "text": "precession of the nucleus around all three nuclear axes, see Section 3.2.1.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 22,
+    "bbox": [
+      127.92500305175781,
+      721.4760131835938,
+      504.0080871582031,
+      734.768310546875
+    ],
+    "text": "Figure 3.1: Empirically measured MoIs for some nuclei as a function of the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 37,
+    "printed_page": 26,
+    "block": 23,
+    "bbox": [
+      223.9359893798828,
+      737.4092407226562,
+      408.00677490234375,
+      748.3182983398438
+    ],
+    "text": "γ-deformation. Adapted from Ref. [2].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n27\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.9234619140625,
+      95.69278717041016
+    ],
+    "text": "The excited bands arise from the solutions of the 3D Hamiltonian.\nThere is\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 2,
+    "bbox": [
+      108.0,
+      102.51677703857422,
+      523.925537109375,
+      114.4717788696289
+    ],
+    "text": "exactly one state with I = 0, no state with I = 1, two states with I = 2, one\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 3,
+    "bbox": [
+      108.0,
+      121.29680633544922,
+      523.9271850585938,
+      133.25180053710938
+    ],
+    "text": "state with I = 3, three states with I = 4, two states with I = 5, four states\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 4,
+    "bbox": [
+      107.99996948242188,
+      140.0768280029297,
+      523.918701171875,
+      152.03182983398438
+    ],
+    "text": "with I = 6 etc. That is the spin sequence predicted by the model goes like: I =\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 5,
+    "bbox": [
+      107.99996948242188,
+      158.70089721679688,
+      523.9373168945312,
+      170.81082153320312
+    ],
+    "text": "{0, 2, 2, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, ...}. These states can be organized in the following\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 6,
+    "bbox": [
+      107.99996948242188,
+      177.63584899902344,
+      523.986083984375,
+      189.59085083007812
+    ],
+    "text": "way to form rotational bands; the ground state band is formed by the lowest energy\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 7,
+    "bbox": [
+      107.99996948242188,
+      196.4148406982422,
+      523.9259033203125,
+      208.36984252929688
+    ],
+    "text": "states with spin sequence I = 0, 2, 4, 6, ..., the ﬁrst excited band consists of the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 8,
+    "bbox": [
+      107.99995422363281,
+      215.1948699951172,
+      523.9189453125,
+      227.14987182617188
+    ],
+    "text": "sequence I = 2, 3, 4, 5, 6..., the next excited band is formed by I = 4, 5, 6, 7, 8....\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 9,
+    "bbox": [
+      107.99996948242188,
+      233.9748992919922,
+      523.92626953125,
+      245.92990112304688
+    ],
+    "text": "The third excited band is made up of the spin sequence I = 6, 7, 8, ... with K = 6\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 10,
+    "bbox": [
+      108.0,
+      252.75389099121094,
+      523.9861450195312,
+      264.7088928222656
+    ],
+    "text": "etc. The arrangement of rotational states of a triaxial rotor is presented in Figure\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 11,
+    "bbox": [
+      108.0,
+      271.533935546875,
+      383.2996826171875,
+      283.4889221191406
+    ],
+    "text": "3.2, and described in more details in the next section.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 12,
+    "bbox": [
+      108.0,
+      320.00128173828125,
+      323.76385498046875,
+      334.3472900390625
+    ],
+    "text": "3.2.1\nTilted-precession bands\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 13,
+    "bbox": [
+      108.0,
+      358.6659240722656,
+      523.9623413085938,
+      370.62091064453125
+    ],
+    "text": "Perhaps a better way to describe the excited rotational bands that result from\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 14,
+    "bbox": [
+      108.0,
+      377.4449157714844,
+      523.9383544921875,
+      389.39990234375
+    ],
+    "text": "the rotation of even-even triaxial nuclei is by modelling them as a consequence of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 15,
+    "bbox": [
+      108.0,
+      396.22491455078125,
+      523.9261474609375,
+      408.1799011230469
+    ],
+    "text": "the tilting of the total angular momentum vector⃗I away from the intermediate\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 16,
+    "bbox": [
+      108.0,
+      415.00390625,
+      523.9503784179688,
+      426.9588928222656
+    ],
+    "text": "axis and precessing around this axis. As stated previously, the intermediate axis\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 17,
+    "bbox": [
+      108.0,
+      433.7839050292969,
+      523.97412109375,
+      445.7388916015625
+    ],
+    "text": "has the largest moment of inertia and rotation around this axis is preferred. At\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 18,
+    "bbox": [
+      108.0,
+      451.23602294921875,
+      523.9496459960938,
+      464.5188903808594
+    ],
+    "text": "γ = 30◦the Hamiltonian (equation 3.3) exhibits a symmetry, and the moments of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 19,
+    "bbox": [
+      108.00001525878906,
+      471.1879577636719,
+      523.9156494140625,
+      485.0918884277344
+    ],
+    "text": "inertia along the short and long axes (2 and 3, respectively) are equal (ℑ2 = ℑ3).\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 20,
+    "bbox": [
+      108.0,
+      490.1228942871094,
+      333.81793212890625,
+      502.077880859375
+    ],
+    "text": "Thus one can write the Hamiltonian as [42]:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 21,
+    "bbox": [
+      246.27000427246094,
+      527.2770385742188,
+      291.466064453125,
+      549.931884765625
+    ],
+    "text": "H = 3ℏ2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 22,
+    "bbox": [
+      273.8340148925781,
+      536.1552124023438,
+      378.64007568359375,
+      559.05517578125
+    ],
+    "text": "8ℑ0\n[4I(I + 1) −3R2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 23,
+    "bbox": [
+      374.3100280761719,
+      537.976806640625,
+      523.9284057617188,
+      552.0162353515625
+    ],
+    "text": "1].\n(3.4)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 24,
+    "bbox": [
+      108.0,
+      575.4697875976562,
+      324.05078125,
+      587.4248046875
+    ],
+    "text": "The corresponding energy eigenvalues are:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 25,
+    "bbox": [
+      249.40499877929688,
+      612.6240234375,
+      293.3450927734375,
+      635.27880859375
+    ],
+    "text": "E = 3ℏ2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 26,
+    "bbox": [
+      275.7130126953125,
+      621.5011596679688,
+      523.9284057617188,
+      644.4011840820312
+    ],
+    "text": "8ℑ0\n[4I(I + 1) −3i2],\n(3.5)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 27,
+    "bbox": [
+      108.00003051757812,
+      664.414794921875,
+      523.9234008789062,
+      676.5247802734375
+    ],
+    "text": "where i is the projection of⃗I on the intermediate axis. When i = |I|, it corresponds\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 28,
+    "bbox": [
+      108.00003051757812,
+      683.3497924804688,
+      523.9447021484375,
+      695.3048095703125
+    ],
+    "text": "to a full alignment of⃗I along the intermediate axis, see Figure 3.2 (d) and the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 29,
+    "bbox": [
+      108.00003051757812,
+      702.1298217773438,
+      523.9557495117188,
+      714.0848388671875
+    ],
+    "text": "resulting sequence of ∆I = 2 states forms the g.s. band as shown in Figure 3.2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 30,
+    "bbox": [
+      108.00003051757812,
+      720.9088134765625,
+      523.9356689453125,
+      732.8638305664062
+    ],
+    "text": "(a). The excited bands are formed by tilting I away from the intermediate axis\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 38,
+    "printed_page": 27,
+    "block": 31,
+    "bbox": [
+      108.00003051757812,
+      739.5338134765625,
+      523.9251708984375,
+      751.643798828125
+    ],
+    "text": "see panels (e) and (f) of Figure 3.2. When i = I −1 and i = I −2, the resulting\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n28\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 1,
+    "bbox": [
+      171.3065948486328,
+      143.2051544189453,
+      172.76853942871094,
+      149.67860412597656
+    ],
+    "text": " \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 2,
+    "bbox": [
+      171.3065948486328,
+      161.0596160888672,
+      172.92774963378906,
+      168.23284912109375
+    ],
+    "text": " \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 3,
+    "bbox": [
+      160.53114318847656,
+      338.4998779296875,
+      167.49449157714844,
+      346.25787353515625
+    ],
+    "text": "0+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 4,
+    "bbox": [
+      160.53114318847656,
+      321.26849365234375,
+      167.49449157714844,
+      329.0264892578125
+    ],
+    "text": "2+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 5,
+    "bbox": [
+      160.53114318847656,
+      298.0334167480469,
+      167.49449157714844,
+      305.79144287109375
+    ],
+    "text": "4+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 6,
+    "bbox": [
+      160.53114318847656,
+      263.3172912597656,
+      167.49449157714844,
+      271.0753173828125
+    ],
+    "text": "6+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 7,
+    "bbox": [
+      163.41603088378906,
+      215.9114990234375,
+      170.37937927246094,
+      223.66952514648438
+    ],
+    "text": "8+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 8,
+    "bbox": [
+      273.54217529296875,
+      314.0952453613281,
+      280.48992919921875,
+      321.853271484375
+    ],
+    "text": "2+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 9,
+    "bbox": [
+      273.54217529296875,
+      294.9146423339844,
+      280.48992919921875,
+      302.6726379394531
+    ],
+    "text": "3+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 10,
+    "bbox": [
+      273.54217529296875,
+      278.5409240722656,
+      280.48992919921875,
+      286.2989501953125
+    ],
+    "text": "4+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 11,
+    "bbox": [
+      273.54217529296875,
+      260.7442626953125,
+      280.48992919921875,
+      268.5022888183594
+    ],
+    "text": "5+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 12,
+    "bbox": [
+      273.54217529296875,
+      241.25177001953125,
+      280.48992919921875,
+      249.009765625
+    ],
+    "text": "6+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 13,
+    "bbox": [
+      271.90478515625,
+      217.3929443359375,
+      278.8525390625,
+      225.15097045898438
+    ],
+    "text": "7+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 14,
+    "bbox": [
+      271.90478515625,
+      201.95489501953125,
+      278.8525390625,
+      209.71292114257812
+    ],
+    "text": "8+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 15,
+    "bbox": [
+      374.0584716796875,
+      256.3779602050781,
+      381.0062255859375,
+      264.135986328125
+    ],
+    "text": "4+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 16,
+    "bbox": [
+      374.0584716796875,
+      237.82110595703125,
+      381.0062255859375,
+      245.57913208007812
+    ],
+    "text": "5+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 17,
+    "bbox": [
+      374.0584716796875,
+      210.53158569335938,
+      381.0062255859375,
+      218.28961181640625
+    ],
+    "text": "6+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 18,
+    "bbox": [
+      374.0584716796875,
+      188.38812255859375,
+      381.0062255859375,
+      196.1461181640625
+    ],
+    "text": "7+ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 19,
+    "bbox": [
+      187.2904510498047,
+      356.8617858886719,
+      213.70346069335938,
+      364.0350341796875
+    ],
+    "text": "g.s band \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 20,
+    "bbox": [
+      187.2904510498047,
+      370.93536376953125,
+      188.31248474121094,
+      375.4576110839844
+    ],
+    "text": " \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 21,
+    "bbox": [
+      291.9430847167969,
+      333.97760009765625,
+      339.83807373046875,
+      341.7356262207031
+    ],
+    "text": "1st excited band \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 22,
+    "bbox": [
+      391.9915771484375,
+      275.3441467285156,
+      425.36602783203125,
+      283.1021728515625
+    ],
+    "text": "2nd excited \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 23,
+    "bbox": [
+      198.51553344726562,
+      179.48416137695312,
+      313.6772155761719,
+      196.50477600097656
+    ],
+    "text": "(a) \n(b) \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 24,
+    "bbox": [
+      408.4432373046875,
+      167.39883422851562,
+      418.42340087890625,
+      176.70042419433594
+    ],
+    "text": "(c) \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 25,
+    "bbox": [
+      197.19003295898438,
+      474.14166259765625,
+      203.26296997070312,
+      484.8645935058594
+    ],
+    "text": "𝑰⃗ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 26,
+    "bbox": [
+      161.1549072265625,
+      446.00811767578125,
+      178.85020446777344,
+      456.46368408203125
+    ],
+    "text": "i = I \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 27,
+    "bbox": [
+      187.6802978515625,
+      409.77459716796875,
+      312.21527099609375,
+      430.18780517578125
+    ],
+    "text": "i \n  i \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 28,
+    "bbox": [
+      248.9036407470703,
+      443.0452575683594,
+      293.24908447265625,
+      463.0131530761719
+    ],
+    "text": "i = I - 2 \n i = I -1 \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 29,
+    "bbox": [
+      312.6051025390625,
+      472.0364685058594,
+      318.67803955078125,
+      482.7593688964844
+    ],
+    "text": "𝑰⃗ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 30,
+    "bbox": [
+      319.77838134765625,
+      494.33587646484375,
+      325.8512878417969,
+      505.07830810546875
+    ],
+    "text": "𝑰⃗ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 31,
+    "bbox": [
+      397.91729736328125,
+      406.34393310546875,
+      406.88385009765625,
+      419.19403076171875
+    ],
+    "text": "  i \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 32,
+    "bbox": [
+      353.94219970703125,
+      469.5550842285156,
+      382.7716369628906,
+      480.0106201171875
+    ],
+    "text": "i = I - 4 \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 33,
+    "bbox": [
+      345.8333435058594,
+      449.0489501953125,
+      374.6627502441406,
+      459.5045166015625
+    ],
+    "text": "i = I - 3 \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 34,
+    "bbox": [
+      424.9143981933594,
+      486.69482421875,
+      448.2187194824219,
+      512.8753051757812
+    ],
+    "text": "𝑰⃗ \n𝑰⃗ \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 35,
+    "bbox": [
+      185.73104858398438,
+      586.69287109375,
+      407.0202941894531,
+      595.9944458007812
+    ],
+    "text": "(d) \n(e) \n(f) \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 36,
+    "bbox": [
+      127.92498779296875,
+      651.9849853515625,
+      504.03369140625,
+      733.0233154296875
+    ],
+    "text": "Figure 3.2:\nSpectrum of a triaxial even-even rotor.\nPanel (a) shows the\nground-state band, (i = I) (in red). Panel (b) shows the ﬁrst excited band\n(blue states, i = I −2.\nlight-blue states i = I −1).\nPanel (c) shows the\nsecond excited band (green states, i = I −4; light-green states, i = I −3).\nBlack arrows denote E2 transitions, mixed M1+E2 transitions are represented\nby yellow arrows. Panels (d) −(f) show the corresponding tilting of the angular\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 39,
+    "printed_page": 28,
+    "block": 37,
+    "bbox": [
+      269.0929870605469,
+      735.6632080078125,
+      362.81219482421875,
+      746.572265625
+    ],
+    "text": "momentum vectors.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n29\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.900146484375,
+      95.69278717041016
+    ],
+    "text": "sequence of states are the ∆I = 2, odd- and even- spin sequences of the ﬁrst excited\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 2,
+    "bbox": [
+      108.00001525878906,
+      102.3618392944336,
+      523.917724609375,
+      114.4717788696289
+    ],
+    "text": "band (shown in Figure 3.2 (b) in black), respectively. If i = I −3 and i = I −4,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 3,
+    "bbox": [
+      107.99899291992188,
+      121.29680633544922,
+      523.9373779296875,
+      133.25180053710938
+    ],
+    "text": "the corresponding rotational states form the odd- and even- spin sequences of the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 4,
+    "bbox": [
+      107.99899291992188,
+      140.0768280029297,
+      523.9287719726562,
+      152.03182983398438
+    ],
+    "text": "second excited band (shown in Figure 3.2 (c) in black). In fact, excited bands\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 5,
+    "bbox": [
+      107.99800109863281,
+      158.70089721679688,
+      477.4929504394531,
+      170.81082153320312
+    ],
+    "text": "result when i < |I|, that is by tilting⃗I away from the intermediate axis.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 6,
+    "bbox": [
+      107.99800109863281,
+      187.9308319091797,
+      523.9118041992188,
+      199.88583374023438
+    ],
+    "text": "In odd-A nuclei, the rotational angular momentum of the core⃗R, is coupled to⃗j,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 7,
+    "bbox": [
+      107.998046875,
+      206.70982360839844,
+      523.9246826171875,
+      218.66482543945312
+    ],
+    "text": "the single-particle angular momentum of the nucleon (hole). Because the interme-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 8,
+    "bbox": [
+      107.998046875,
+      225.48985290527344,
+      523.916259765625,
+      237.44485473632812
+    ],
+    "text": "diate axis is the preferred axis of rotation for a triaxial rotor, generally⃗R points\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 9,
+    "bbox": [
+      107.998046875,
+      244.2688446044922,
+      523.921875,
+      256.2238464355469
+    ],
+    "text": "in this direction. The single-particle angular momentum⃗j can be coupled longitu-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 10,
+    "bbox": [
+      107.998046875,
+      263.04888916015625,
+      523.90380859375,
+      275.0038757324219
+    ],
+    "text": "dinally (parallel) to⃗R or, transversely (perpendicular) to⃗R in the extreme limits\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 11,
+    "bbox": [
+      107.99801635742188,
+      281.82891845703125,
+      523.9117431640625,
+      293.7839050292969
+    ],
+    "text": "[23]. The total angular momentum of a rotational state is the sum,⃗I =⃗R +⃗j.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 12,
+    "bbox": [
+      107.99798583984375,
+      300.60791015625,
+      523.9601440429688,
+      312.5628967285156
+    ],
+    "text": "The Hamiltonian of the system for longitudinal and transverse coupling can be\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 13,
+    "bbox": [
+      107.99798583984375,
+      319.387939453125,
+      174.19276428222656,
+      331.3429260253906
+    ],
+    "text": "expressed as:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 14,
+    "bbox": [
+      166.87799072265625,
+      362.3059387207031,
+      288.8750305175781,
+      380.8349914550781
+    ],
+    "text": "H = A1(I1 −j)2 + A2I2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 15,
+    "bbox": [
+      283.7029724121094,
+      365.4203186035156,
+      523.9515380859375,
+      382.15191650390625
+    ],
+    "text": "2 + A3I2\n3 , for longitudinal coupling\n(3.6)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 16,
+    "bbox": [
+      107.99797058105469,
+      394.43994140625,
+      126.86295318603516,
+      406.3949279785156
+    ],
+    "text": "and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 17,
+    "bbox": [
+      170.06497192382812,
+      408.2829284667969,
+      292.06097412109375,
+      426.81298828125
+    ],
+    "text": "H = A2(I2 −j)2 + A1I2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 18,
+    "bbox": [
+      286.8899230957031,
+      411.3973083496094,
+      523.92626953125,
+      428.1299133300781
+    ],
+    "text": "1 + A3I2\n3 , for transverse coupling.\n(3.7)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 19,
+    "bbox": [
+      107.99789428710938,
+      450.7119445800781,
+      523.9082641601562,
+      462.66693115234375
+    ],
+    "text": "Longitudinal coupling results when the single-particle angular momentum⃗j is\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 20,
+    "bbox": [
+      107.99786376953125,
+      469.491943359375,
+      523.9243774414062,
+      481.4469299316406
+    ],
+    "text": "aligned along the intermediate axis. It occurs when the valence nucleon occupies\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 21,
+    "bbox": [
+      107.99786376953125,
+      488.2719421386719,
+      523.9215698242188,
+      500.2269287109375
+    ],
+    "text": "an orbital near the middle of a given sub-shell. This results in a series of ∆I = 2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 22,
+    "bbox": [
+      107.99786376953125,
+      507.05096435546875,
+      523.914794921875,
+      519.0059814453125
+    ],
+    "text": "states that form the yrast rotational band starting oﬀwith I = j and proceeds\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 23,
+    "bbox": [
+      107.99786376953125,
+      525.8309326171875,
+      523.9281005859375,
+      537.7859497070312
+    ],
+    "text": "with I = j + 2, j + 4, j + 6, ... Excited bands result from tilting⃗I away from\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 24,
+    "bbox": [
+      107.997802734375,
+      544.6099243164062,
+      523.919677734375,
+      556.56494140625
+    ],
+    "text": "the intermediate axis. There are two distinct ways of doing this: (i) by tilting\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 25,
+    "bbox": [
+      107.997802734375,
+      563.3899536132812,
+      523.9554443359375,
+      575.344970703125
+    ],
+    "text": "the collective angular momentum⃗R or, (ii) by tilting the single-particle angular\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 26,
+    "bbox": [
+      107.99777221679688,
+      582.169921875,
+      347.0667419433594,
+      594.1249389648438
+    ],
+    "text": "momentum⃗j away from the intermediate axis.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 27,
+    "bbox": [
+      107.99776458740234,
+      611.2439575195312,
+      523.9361572265625,
+      623.198974609375
+    ],
+    "text": "When the single-particle angular momentum is transversely coupled to an even-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 28,
+    "bbox": [
+      107.99776458740234,
+      630.02392578125,
+      523.9228515625,
+      641.9789428710938
+    ],
+    "text": "even triaxial core,⃗R points mainly along the intermediate axis and⃗j points in a\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 29,
+    "bbox": [
+      107.99777221679688,
+      648.8029174804688,
+      523.9960327148438,
+      660.7579345703125
+    ],
+    "text": "direction that is orthogonal to the intermediate axis, that is either along the short\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 30,
+    "bbox": [
+      107.99777221679688,
+      667.5829467773438,
+      523.960205078125,
+      679.5379638671875
+    ],
+    "text": "axis or along the long axis. In this case the valence nucleon occupies an orbital\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 31,
+    "bbox": [
+      107.99777221679688,
+      686.3629150390625,
+      523.9839477539062,
+      698.3179321289062
+    ],
+    "text": "near the bottom (top) of a given sub-shell and points along the short (long) nuclear\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 32,
+    "bbox": [
+      107.99777221679688,
+      705.1419067382812,
+      523.9601440429688,
+      717.096923828125
+    ],
+    "text": "axis as it behaves as a particle (hole). The angular momentum in a transversely\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 33,
+    "bbox": [
+      107.99777221679688,
+      723.9219360351562,
+      523.9112548828125,
+      736.761962890625
+    ],
+    "text": "coupled rotational band can be generated in two ways; (i) by increasing R||, the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 40,
+    "printed_page": 29,
+    "block": 34,
+    "bbox": [
+      107.99777221679688,
+      742.700927734375,
+      523.9840087890625,
+      754.6559448242188
+    ],
+    "text": "component of the rotational angular momentum along the intermediate axis which\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n30\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.9599609375,
+      96.51192474365234
+    ],
+    "text": "results in bands of ∆I = 1 nature or, (ii) by increasing R⊥, the rotational angular\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 2,
+    "bbox": [
+      107.99996948242188,
+      102.51677703857422,
+      523.9259033203125,
+      114.4717788696289
+    ],
+    "text": "momentum along the perpendicular axis, which results in bands of ∆I = 2 nature.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 3,
+    "bbox": [
+      107.99996948242188,
+      131.59178161621094,
+      523.938232421875,
+      143.54678344726562
+    ],
+    "text": "For bands of ∆I = 1 type and when the nuclear shape is axially symmetric the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 4,
+    "bbox": [
+      107.99996948242188,
+      150.3707733154297,
+      523.9207763671875,
+      162.32577514648438
+    ],
+    "text": "projections on the symmetry axis of the total angular momentum, K, and the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 5,
+    "bbox": [
+      107.99996948242188,
+      169.1508026123047,
+      523.9501342773438,
+      181.10580444335938
+    ],
+    "text": "single-particle angular momentum, Ω, are good quantum numbers. The band is\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 6,
+    "bbox": [
+      107.99996948242188,
+      187.9308319091797,
+      523.923095703125,
+      199.88583374023438
+    ],
+    "text": "built on the I = Ω= K state, and proceeds with K + 1, K + 2, K + 3, ..., forming\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 7,
+    "bbox": [
+      107.99996948242188,
+      206.70982360839844,
+      523.9430541992188,
+      218.66482543945312
+    ],
+    "text": "the yrast band shown in black in panel (a) of Figure 3.3. High spin states in the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 8,
+    "bbox": [
+      107.99996948242188,
+      225.48985290527344,
+      523.9978637695312,
+      237.44485473632812
+    ],
+    "text": "yrast band are formed by increasing the rotational angular momentum along the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 9,
+    "bbox": [
+      107.99996948242188,
+      244.2688446044922,
+      524.0018310546875,
+      257.1099548339844
+    ],
+    "text": "intermediate axis (R||). Due to triaxiality additional rotational bands are brought\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 10,
+    "bbox": [
+      107.99996948242188,
+      263.04888916015625,
+      523.921875,
+      275.0038757324219
+    ],
+    "text": "down in energy, shown in blue and red in panel (a) of Figure 3.3. K and Ωare not\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 11,
+    "bbox": [
+      107.99996948242188,
+      281.82891845703125,
+      523.9622802734375,
+      293.7839050292969
+    ],
+    "text": "good quantum numbers in the triaxial case, however, it has been shown that for\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 12,
+    "bbox": [
+      107.99996948242188,
+      299.281005859375,
+      523.9408569335938,
+      314.4228820800781
+    ],
+    "text": "a nucleon in an i13/2 or h11/2 sub-shell and γ ≈30◦, K and Ωare approximately\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 13,
+    "bbox": [
+      107.99996948242188,
+      319.387939453125,
+      420.93414306640625,
+      331.3429260253906
+    ],
+    "text": "good quantum numbers, particularly near the bandhead [51].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 14,
+    "bbox": [
+      107.99996948242188,
+      348.4619445800781,
+      523.9508666992188,
+      360.41693115234375
+    ],
+    "text": "To generate excited bands of ∆I = 1 nature the nucleus increases its rotation along\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 15,
+    "bbox": [
+      107.99996948242188,
+      364.6301574707031,
+      523.9154052734375,
+      380.01605224609375
+    ],
+    "text": "the orthogonal axis (long or short, depending on the orientation of⃗j) by R⊥≈2ℏ.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 16,
+    "bbox": [
+      107.99996948242188,
+      385.8659973144531,
+      523.9213256835938,
+      397.9759216308594
+    ],
+    "text": "Thus the ﬁrst excited band must have a bandhead of I ≈Ω+ 2. For instance\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 17,
+    "bbox": [
+      108.0,
+      404.8009338378906,
+      523.9556884765625,
+      418.61590576171875
+    ],
+    "text": "a ﬁrst excited band built on the h11/2 orbital with Ω= 9/2 has a bandhead of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 18,
+    "bbox": [
+      108.00001525878906,
+      423.5809326171875,
+      523.9336547851562,
+      435.5359191894531
+    ],
+    "text": "I = 13/2. It consists of states with I = 13/2, 15/2, 17/2, 19/2..., shown in blue\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 19,
+    "bbox": [
+      108.00003051757812,
+      442.35992431640625,
+      523.9288330078125,
+      454.3149108886719
+    ],
+    "text": "in panel (a) of Figure 3.3. A second excited band is created by a further increase\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 20,
+    "bbox": [
+      108.0000228881836,
+      458.52813720703125,
+      523.9407348632812,
+      473.9140319824219
+    ],
+    "text": "of ≈2ℏin R⊥, shown in red in panel (a) of Figure 3.3. Panel (b) of Figure 3.3\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 21,
+    "bbox": [
+      108.00003051757812,
+      479.9189147949219,
+      523.9742431640625,
+      491.8739013671875
+    ],
+    "text": "shows the generation of angular momentum for the yrast band (black), the ﬁrst\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 22,
+    "bbox": [
+      108.00003051757812,
+      498.5439758300781,
+      523.916015625,
+      510.6539001464844
+    ],
+    "text": "excited band (blue), and the second excited band (red). The symbols || and ⊥\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 23,
+    "bbox": [
+      108.00006103515625,
+      517.4789428710938,
+      523.986328125,
+      529.4339599609375
+    ],
+    "text": "denote components along the intermediate axis and in a direction orthogonal to\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 24,
+    "bbox": [
+      108.00006103515625,
+      536.2578735351562,
+      285.3524169921875,
+      548.212890625
+    ],
+    "text": "the intermediate axis, respectively.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 25,
+    "bbox": [
+      108.00006103515625,
+      565.3329467773438,
+      523.9385375976562,
+      577.2879638671875
+    ],
+    "text": "The rotational bands can be classiﬁed by the projection of the single-particle\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 26,
+    "bbox": [
+      108.00006103515625,
+      584.1118774414062,
+      523.9540405273438,
+      596.8870239257812
+    ],
+    "text": "angular momentum on the orthogonal axis Ω⊥, the projection of the total angular\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 27,
+    "bbox": [
+      108.00007629394531,
+      602.8919067382812,
+      523.9722290039062,
+      615.6659545898438
+    ],
+    "text": "momentum on the orthogonal axis K⊥, and the projection of the rotational angular\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 28,
+    "bbox": [
+      108.00004577636719,
+      621.6719360351562,
+      523.9240112304688,
+      634.4459838867188
+    ],
+    "text": "momentum on the orthogonal axis R⊥; (Ω⊥, K⊥, R⊥). The yrast band consists of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 29,
+    "bbox": [
+      108.00009155273438,
+      640.4508666992188,
+      523.9208984375,
+      653.2249755859375
+    ],
+    "text": "states with (Ω⊥, K⊥, R⊥) = (9/2, 9/2, 0), the ﬁrst excited band consists of states\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 30,
+    "bbox": [
+      108.00013732910156,
+      659.2308959960938,
+      523.919921875,
+      672.0049438476562
+    ],
+    "text": "with (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2), and the second excited band consists of states\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 31,
+    "bbox": [
+      108.00016784667969,
+      678.0098876953125,
+      288.25677490234375,
+      690.7849731445312
+    ],
+    "text": "with (Ω⊥, K⊥, R⊥) = (9/2, 17/2, 4).\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 32,
+    "bbox": [
+      108.00019836425781,
+      707.0848999023438,
+      523.9577026367188,
+      719.0399169921875
+    ],
+    "text": "The bands of ∆I = 2 type can form when the strength of the Coriolis interaction\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 33,
+    "bbox": [
+      108.00020599365234,
+      725.8638916015625,
+      522.9757690429688,
+      737.8189086914062
+    ],
+    "text": "is strong [44]. It is possible in some nuclei that the states with the same spin I\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 41,
+    "printed_page": 30,
+    "block": 34,
+    "bbox": [
+      108.00021362304688,
+      743.4202880859375,
+      523.9140625,
+      757.41796875
+    ],
+    "text": "and R⊥≈2 lie lower in energy than the states with R⊥≈0. For instance in 135Pr\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n31\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 1,
+    "bbox": [
+      127.92498779296875,
+      387.6549987792969,
+      504.0345153808594,
+      441.59527587890625
+    ],
+    "text": "Figure 3.3: An illustration of transversely coupled for bands in odd-A triaxial\nnuclei based on the h11/2 orbital with Ω= 9/2.\nPanel (a) shows ∆I = 1\nbands and panel (b) illustrates the angular momentum generation mechanism.\nPanel (c) shows bands of ∆I = 2 nature and panel (c) shows the corresponding\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 2,
+    "bbox": [
+      147.3199920654297,
+      444.23529052734375,
+      484.62628173828125,
+      455.144287109375
+    ],
+    "text": "mechanism of angular momentum generation. Adapted from Ref. [44].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 3,
+    "bbox": [
+      107.99999237060547,
+      479.3628234863281,
+      523.9191284179688,
+      492.137939453125
+    ],
+    "text": "the 13/2 state with the conﬁguration (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2), lies lower in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 4,
+    "bbox": [
+      107.99996948242188,
+      498.142822265625,
+      523.9357299804688,
+      510.91693115234375
+    ],
+    "text": "energy than the 13/2 state with conﬁguration (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2) [45].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 5,
+    "bbox": [
+      108.0,
+      516.9227905273438,
+      523.9503173828125,
+      528.8778076171875
+    ],
+    "text": "In this case the yrast rotational band consists of states with the lowest energy,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 6,
+    "bbox": [
+      108.0,
+      535.7018432617188,
+      523.9396362304688,
+      548.4758911132812
+    ],
+    "text": "which do not have the same (Ω⊥, K⊥, R⊥). In fact, each state in the rotational\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 7,
+    "bbox": [
+      107.99996948242188,
+      551.8699951171875,
+      523.944580078125,
+      567.2559204101562
+    ],
+    "text": "band with I > Ω⊥has an extra 2ℏof angular momentum than the immediately\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 8,
+    "bbox": [
+      107.99993896484375,
+      573.2608032226562,
+      523.9563598632812,
+      585.2158203125
+    ],
+    "text": "preceding state forming ∆I = 2 nature rotational states of the band, thus in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 9,
+    "bbox": [
+      107.99993896484375,
+      592.0408325195312,
+      523.9741821289062,
+      603.995849609375
+    ],
+    "text": "such bands the rotation proceeds along the orthogonal axis. This is illustrated\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 10,
+    "bbox": [
+      107.99993896484375,
+      610.82080078125,
+      523.975830078125,
+      622.7758178710938
+    ],
+    "text": "in panel (c) of Figure 3.3. Excited rotational bands are formed by increasing the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 11,
+    "bbox": [
+      107.99993896484375,
+      629.5997924804688,
+      523.9743041992188,
+      641.5548095703125
+    ],
+    "text": "rotational angular momentum along the intermediate axis. The ﬁrst excited band\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 12,
+    "bbox": [
+      107.99993896484375,
+      648.3798217773438,
+      523.9065551757812,
+      662.1278076171875
+    ],
+    "text": "has a bandhead spin of Ibandhead = Ω+ 1 and proceeds with the spin sequence;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 13,
+    "bbox": [
+      107.99995422363281,
+      667.1587524414062,
+      523.92578125,
+      680.9078369140625
+    ],
+    "text": "I = Ibandhead + 2, Ibandhead + 4, Ibandhead + 6, .... The next excited band is built\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 14,
+    "bbox": [
+      107.99993896484375,
+      683.3269653320312,
+      523.9261474609375,
+      697.893798828125
+    ],
+    "text": "on a state with extra 1ℏthan the bandhead spin of the immediately preceding\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 15,
+    "bbox": [
+      107.99992370605469,
+      704.7188110351562,
+      523.94775390625,
+      716.673828125
+    ],
+    "text": "rotational band. Panel (c) of Figure 3.3 illustrates the ∆I = 2 type rotational\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 16,
+    "bbox": [
+      107.99993896484375,
+      723.497802734375,
+      523.94140625,
+      735.4528198242188
+    ],
+    "text": "bands and panel (d) of Figure 3.3 represents the mechanisms of angular momentum\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 42,
+    "printed_page": 31,
+    "block": 17,
+    "bbox": [
+      107.99995422363281,
+      742.2777709960938,
+      164.5949249267578,
+      754.2327880859375
+    ],
+    "text": "generation.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n32\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 1,
+    "bbox": [
+      108.0,
+      86.23211669921875,
+      335.7714538574219,
+      100.57811737060547
+    ],
+    "text": "3.2.2\nNuclear wobbling motion\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 2,
+    "bbox": [
+      108.0,
+      124.89678192138672,
+      523.9384155273438,
+      136.85177612304688
+    ],
+    "text": "Nuclear wobbling motion was proposed by Bohr and Mottelson for even-even nu-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 3,
+    "bbox": [
+      108.0,
+      143.67576599121094,
+      523.91455078125,
+      155.63076782226562
+    ],
+    "text": "clei in Ref. [15] as a collective mode of excitation which results when the nu-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 4,
+    "bbox": [
+      108.0,
+      162.45579528808594,
+      523.950439453125,
+      174.41079711914062
+    ],
+    "text": "clear density distribution along the three principle nuclear axes is unequal. For\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 5,
+    "bbox": [
+      108.0,
+      181.23582458496094,
+      523.94140625,
+      193.19082641601562
+    ],
+    "text": "even-even triaxial rotors, the wobbling approximation replaces the 3D rotational\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 6,
+    "bbox": [
+      108.0,
+      200.0148162841797,
+      523.958984375,
+      211.96981811523438
+    ],
+    "text": "Hamiltonian (equation 3.3) by simple 1D rotation coupled to wobbling phonon\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 7,
+    "bbox": [
+      108.00001525878906,
+      218.7948455810547,
+      166.2806396484375,
+      230.74984741210938
+    ],
+    "text": "excitations,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 8,
+    "bbox": [
+      236.67601013183594,
+      258.56085205078125,
+      386.2429504394531,
+      279.5262756347656
+    ],
+    "text": "H = A1[I(I + 1)] + ℏω(n + 1\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 9,
+    "bbox": [
+      380.385009765625,
+      266.6488037109375,
+      523.9284057617188,
+      286.8038024902344
+    ],
+    "text": "2).\n(3.8)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 10,
+    "bbox": [
+      108.0,
+      304.14178466796875,
+      523.9622802734375,
+      316.0967712402344
+    ],
+    "text": "The solutions of the wobbling Hamiltonian describe a set of rotational bands called\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 11,
+    "bbox": [
+      108.0,
+      322.9207763671875,
+      523.9330444335938,
+      334.8757629394531
+    ],
+    "text": "wobbling bands, where ω is the wobbling frequency, n = 0, 1, 2, ... is the number\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 12,
+    "bbox": [
+      108.0,
+      341.7007751464844,
+      523.9273681640625,
+      353.65576171875
+    ],
+    "text": "of excited wobbling phonons, where n = 0 corresponds to the g.s. band, n = 1\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 13,
+    "bbox": [
+      108.0,
+      360.4797668457031,
+      523.9111938476562,
+      372.43475341796875
+    ],
+    "text": "and n = 2 correspond to the odd and even spin sequences of the ﬁrst excited (γ-)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 14,
+    "bbox": [
+      107.99996948242188,
+      379.259765625,
+      523.9382934570312,
+      391.2147521972656
+    ],
+    "text": "band, respectively etc. In fact each phonon excitation corresponds to an excited\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 15,
+    "bbox": [
+      107.99996948242188,
+      398.0397644042969,
+      523.9979858398438,
+      409.9947509765625
+    ],
+    "text": "rotational band.\nWithin the wobbling approximation, each phonon excitation\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 16,
+    "bbox": [
+      107.99996948242188,
+      416.8187561035156,
+      523.9862060546875,
+      428.77374267578125
+    ],
+    "text": "causes a tilt of the rotational angular momentum away from the intermediate\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 17,
+    "bbox": [
+      107.99996948242188,
+      435.5987548828125,
+      131.15679931640625,
+      447.5537414550781
+    ],
+    "text": "axis.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 18,
+    "bbox": [
+      107.99996948242188,
+      464.6727600097656,
+      379.49859619140625,
+      476.62774658203125
+    ],
+    "text": "The wobbling frequency, ω is deﬁned by the relation:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 19,
+    "bbox": [
+      245.02496337890625,
+      496.3829650878906,
+      523.9282836914062,
+      510.9497375488281
+    ],
+    "text": "ℏω = E(n, I) −E(n −1, I).\n(3.9)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 20,
+    "bbox": [
+      107.99990844726562,
+      543.6107788085938,
+      523.9503173828125,
+      555.5657958984375
+    ],
+    "text": "Wobbling bands exhibit characteristic quantized behaviour for the excitation en-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 21,
+    "bbox": [
+      107.99990844726562,
+      562.3897094726562,
+      356.32928466796875,
+      574.3447265625
+    ],
+    "text": "ergies and transition probabilities. In particular:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 22,
+    "bbox": [
+      107.99990844726562,
+      591.4647216796875,
+      455.6602478027344,
+      603.4197387695312
+    ],
+    "text": "(i) the energy of a rotational band has a linear dependence on n as;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 23,
+    "bbox": [
+      223.5839080810547,
+      631.2307739257812,
+      399.3348388671875,
+      652.1961669921875
+    ],
+    "text": "E(n, I) = A1[I(I + 1)] + ℏω(n + 1\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 24,
+    "bbox": [
+      393.47698974609375,
+      639.3187866210938,
+      523.933349609375,
+      659.4738159179688
+    ],
+    "text": "2).\n(3.10)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 25,
+    "bbox": [
+      108.0,
+      676.810791015625,
+      523.9263916015625,
+      688.7658081054688
+    ],
+    "text": "This relationship is manifested as equal spacing of excitation energies between two\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 26,
+    "bbox": [
+      108.0,
+      695.5907592773438,
+      523.9384155273438,
+      707.5457763671875
+    ],
+    "text": "successive wobbling bands, for instance the excitation energy plots of the wobbling\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 27,
+    "bbox": [
+      108.0,
+      714.3707885742188,
+      523.9506225585938,
+      726.3258056640625
+    ],
+    "text": "bands corresponding to n = 0 and n = 1 have the same energy spacing as that\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "block": 28,
+    "bbox": [
+      108.0,
+      733.1497802734375,
+      350.5959167480469,
+      745.1047973632812
+    ],
+    "text": "between wobbling bands with n = 1 and n = 2.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n33\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.9588012695312,
+      95.69278717041016
+    ],
+    "text": "(ii) the intraband B(E2) transition probabilities are identical for all wobbling\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 2,
+    "bbox": [
+      107.99999237060547,
+      102.3618392944336,
+      523.9622802734375,
+      114.4717788696289
+    ],
+    "text": "bands, because they all correspond to rotations around the same axis−the inter-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 3,
+    "bbox": [
+      107.99999237060547,
+      121.29680633544922,
+      175.37832641601562,
+      133.25180053710938
+    ],
+    "text": "mediate axis;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 4,
+    "bbox": [
+      222.74298095703125,
+      161.0627899169922,
+      523.933349609375,
+      189.30679321289062
+    ],
+    "text": "B(E2; n, I −→n, I ± 2) =\n5\n16πe2Q2\n2,\n(3.11)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 5,
+    "bbox": [
+      108.0,
+      206.64378356933594,
+      523.9173583984375,
+      218.59878540039062
+    ],
+    "text": "(iii) the interband B(E2) transition probabilities are linearly dependent on n, as\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 6,
+    "bbox": [
+      108.0,
+      225.4227752685547,
+      364.0521240234375,
+      237.37777709960938
+    ],
+    "text": "they link bands with diﬀerent phonon excitations;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 7,
+    "bbox": [
+      149.42800903320312,
+      262.6488342285156,
+      353.57452392578125,
+      293.4327697753906
+    ],
+    "text": "B(E2; n, I −→n −1, I −1) =\n5\n16πe2(\n√\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 8,
+    "bbox": [
+      353.5790100097656,
+      262.6488342285156,
+      404.65753173828125,
+      286.1551818847656
+    ],
+    "text": "3Q0x −\n√\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 9,
+    "bbox": [
+      404.6619873046875,
+      265.1898193359375,
+      523.933349609375,
+      293.4327697753906
+    ],
+    "text": "2Q2y)2n\nI ,\n(3.12)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 10,
+    "bbox": [
+      108.0,
+      310.769775390625,
+      523.9252319335938,
+      324.5177917480469
+    ],
+    "text": "where Q0 and Q2 denote the intrinsic and spectroscopic quadrupole moments,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 11,
+    "bbox": [
+      108.00000762939453,
+      329.5497741699219,
+      523.958740234375,
+      341.5047607421875
+    ],
+    "text": "respectively. The wobbling approximation of the 3D rotational Hamiltonian is only\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 12,
+    "bbox": [
+      108.0,
+      348.3287658691406,
+      523.9740600585938,
+      360.28375244140625
+    ],
+    "text": "valid at high spins [15]. Probably that is why wobbling had not been observed so\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 13,
+    "bbox": [
+      108.0,
+      367.1087646484375,
+      523.9382934570312,
+      379.0637512207031
+    ],
+    "text": "far at low spins in even-even nuclei. Wobbling motion was observed experimentally\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 14,
+    "bbox": [
+      108.0,
+      384.5608825683594,
+      523.9297485351562,
+      397.84375
+    ],
+    "text": "in the A ≈160 mass region, in the odd-A, 161−167Lu and 167Ta isotopes, and the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 15,
+    "bbox": [
+      107.99996948242188,
+      404.6677551269531,
+      523.9326782226562,
+      416.62274169921875
+    ],
+    "text": "rotational bands corresponded to triaxial superdeformed nuclear shapes [4, 16, 31,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 16,
+    "bbox": [
+      107.99996948242188,
+      423.44775390625,
+      163.93739318847656,
+      435.4027404785156
+    ],
+    "text": "34, 55, 63].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 17,
+    "bbox": [
+      107.99897003173828,
+      452.5217590332031,
+      523.9373168945312,
+      464.47674560546875
+    ],
+    "text": "Recently nuclear wobbling was investigated in odd-mass nuclei by Frauendorf\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 18,
+    "bbox": [
+      107.99897003173828,
+      471.3017578125,
+      523.97314453125,
+      483.2567443847656
+    ],
+    "text": "and D¨onau [23], and the concepts of transverse and longitudinal wobbling were\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 19,
+    "bbox": [
+      107.99897003173828,
+      490.08074951171875,
+      523.9375,
+      502.0357360839844
+    ],
+    "text": "proposed depending on whether the single-particle angular momentum was ori-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 20,
+    "bbox": [
+      107.99897003173828,
+      508.86077880859375,
+      523.9615478515625,
+      520.8157958984375
+    ],
+    "text": "ented perpendicular or parallel to the intermediate axis, respectively. Longitudinal\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 21,
+    "bbox": [
+      107.99897003173828,
+      527.6407470703125,
+      523.9494018554688,
+      539.5957641601562
+    ],
+    "text": "(transverse) wobbling bands are expected to have (i) increasing (decreasing) wob-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 22,
+    "bbox": [
+      107.99897003173828,
+      546.2647705078125,
+      523.9271850585938,
+      558.374755859375
+    ],
+    "text": "bling frequency with increasing spin and, (ii) the B(E2; n, I −→n −1, I −1) and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 23,
+    "bbox": [
+      107.99899291992188,
+      565.0447998046875,
+      523.9598388671875,
+      577.15478515625
+    ],
+    "text": "B(M1; n, I −→n−1, I−1) reduced transition probabilities should be proportional\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 24,
+    "bbox": [
+      107.9990005493164,
+      583.9786987304688,
+      132.5514373779297,
+      595.9337158203125
+    ],
+    "text": "to n.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 25,
+    "bbox": [
+      107.9990005493164,
+      613.0537109375,
+      523.9612426757812,
+      625.0087280273438
+    ],
+    "text": "In addition two wobbling bands based on the same one-quasiparticle conﬁguration\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 26,
+    "bbox": [
+      107.9990005493164,
+      631.8327026367188,
+      523.917724609375,
+      643.7877197265625
+    ],
+    "text": "and diﬀering by one wobbling phonon ∆n = 1, should be linked with ∆I =\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 27,
+    "bbox": [
+      107.99899291992188,
+      650.6127319335938,
+      523.9849853515625,
+      662.5677490234375
+    ],
+    "text": "1, M1 + E2 transitions with dominant E2 nature, that is with a mixing ratio\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 28,
+    "bbox": [
+      107.99899291992188,
+      669.23779296875,
+      523.9567260742188,
+      681.3477783203125
+    ],
+    "text": "|δ| > 1. Therefore, measuring mixing ratios with magnitudes larger than one is\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 29,
+    "bbox": [
+      107.99899291992188,
+      688.1716918945312,
+      523.9375,
+      700.126708984375
+    ],
+    "text": "the necessary supporting experimental evidence for the wobbling interpretation.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 30,
+    "bbox": [
+      107.99899291992188,
+      706.9517211914062,
+      523.9733276367188,
+      718.90673828125
+    ],
+    "text": "Mixing ratios with magnitudes larger than one were reported for several linking\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 31,
+    "bbox": [
+      107.99899291992188,
+      724.507080078125,
+      523.9376831054688,
+      737.6857299804688
+    ],
+    "text": "transitions in 135Pr, 105Pd, 183Au, 133La, 187Au, 130Ba and 127Xe [49, 65], [73], [53],\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 44,
+    "printed_page": 33,
+    "block": 32,
+    "bbox": [
+      107.99899291992188,
+      744.5107421875,
+      523.90771484375,
+      756.4657592773438
+    ],
+    "text": "[14], [64], [18, 58], [17]. However, recently these results were questioned [27, 29, 45]\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n34\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.9742431640625,
+      95.69278717041016
+    ],
+    "text": "and new experimental data suggesting that the mixing ratios are in fact less than\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 2,
+    "bbox": [
+      108.0,
+      101.29316711425781,
+      260.9284362792969,
+      114.4717788696289
+    ],
+    "text": "one were shown for 135Pr [44].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 3,
+    "bbox": [
+      108.00001525878906,
+      155.20993041992188,
+      531.45458984375,
+      172.42494201660156
+    ],
+    "text": "3.3\nThe Quasiparticle-Plus-Triaxial Rotor (QTR)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 4,
+    "bbox": [
+      152.11502075195312,
+      183.70291137695312,
+      300.4394836425781,
+      200.9179229736328
+    ],
+    "text": "Model Formalism\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 5,
+    "bbox": [
+      108.00001525878906,
+      228.72776794433594,
+      523.9503784179688,
+      240.68276977539062
+    ],
+    "text": "The quasiparticle-plus-triaxial rotor (QTR) model has been used extensively to\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 6,
+    "bbox": [
+      108.00001525878906,
+      247.5067596435547,
+      523.9138793945312,
+      259.4617614746094
+    ],
+    "text": "study triaxiality in odd-mass atomic nuclei [44, 52, 61]. The model Hamiltonian\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 7,
+    "bbox": [
+      107.9990234375,
+      266.28680419921875,
+      185.1326904296875,
+      278.2417907714844
+    ],
+    "text": "takes the form;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 8,
+    "bbox": [
+      271.697021484375,
+      314.14080810546875,
+      523.932373046875,
+      327.8888244628906
+    ],
+    "text": "H = Hcoll + Hint.\n(3.13)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 9,
+    "bbox": [
+      107.9990234375,
+      351.6338195800781,
+      523.9320068359375,
+      363.58880615234375
+    ],
+    "text": "The collective component of the Hamiltonian was discussed in Sections 2.4.2 and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 10,
+    "bbox": [
+      107.9990234375,
+      370.4128112792969,
+      523.9375,
+      382.3677978515625
+    ],
+    "text": "3.2. In the presence of a valence nucleon, the Hamiltonian can be written down\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 11,
+    "bbox": [
+      107.9990234375,
+      389.19281005859375,
+      121.7233657836914,
+      401.1477966308594
+    ],
+    "text": "as:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 12,
+    "bbox": [
+      259.6820068359375,
+      456.080810546875,
+      295.3147277832031,
+      469.82879638671875
+    ],
+    "text": "Hcoll =\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 13,
+    "bbox": [
+      298.6310119628906,
+      444.2511901855469,
+      315.89404296875,
+      465.27484130859375
+    ],
+    "text": "3\nX\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 14,
+    "bbox": [
+      299.54400634765625,
+      473.2981872558594,
+      314.9812927246094,
+      481.2681884765625
+    ],
+    "text": "k=1\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 15,
+    "bbox": [
+      322.0210266113281,
+      446.7691650390625,
+      335.2610778808594,
+      459.9477844238281
+    ],
+    "text": "R2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 16,
+    "bbox": [
+      319.0889892578125,
+      464.1268615722656,
+      337.9833984375,
+      477.1591796875
+    ],
+    "text": "2ℑk\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 17,
+    "bbox": [
+      286.2070007324219,
+      496.6398010253906,
+      295.31671142578125,
+      508.59478759765625
+    ],
+    "text": "=\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 18,
+    "bbox": [
+      298.6319885253906,
+      484.8101806640625,
+      315.89501953125,
+      505.8338317871094
+    ],
+    "text": "3\nX\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 19,
+    "bbox": [
+      299.54498291015625,
+      513.857177734375,
+      314.9822692871094,
+      521.8272094726562
+    ],
+    "text": "k=1\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 20,
+    "bbox": [
+      319.0889892578125,
+      487.3281555175781,
+      367.2820129394531,
+      502.1458435058594
+    ],
+    "text": "(Ik −jk)2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 21,
+    "bbox": [
+      333.6319885253906,
+      496.6398010253906,
+      372.2297668457031,
+      517.7182006835938
+    ],
+    "text": "2ℑk\n,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 22,
+    "bbox": [
+      493.99798583984375,
+      476.3608093261719,
+      523.933349609375,
+      488.3157958984375
+    ],
+    "text": "(3.14)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 23,
+    "bbox": [
+      108.0,
+      550.3148193359375,
+      523.9484252929688,
+      562.2698364257812
+    ],
+    "text": "where⃗I,⃗R,⃗j have their usual meaning as the total, collective core, and the single-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 24,
+    "bbox": [
+      108.0,
+      568.9388427734375,
+      523.9169311523438,
+      582.841796875
+    ],
+    "text": "particle angular momentum vectors and⃗R =⃗I −⃗j. The ℑk are the moments of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 25,
+    "bbox": [
+      108.0,
+      587.8738403320312,
+      523.9566040039062,
+      599.828857421875
+    ],
+    "text": "inertia along the k axis, with k = 1, 2, 3. Irrotational-ﬂow type moments of inertia\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 26,
+    "bbox": [
+      107.99998474121094,
+      606.6527709960938,
+      173.812255859375,
+      618.6077880859375
+    ],
+    "text": "are assumed.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 27,
+    "bbox": [
+      107.99998474121094,
+      655.1211547851562,
+      389.49725341796875,
+      669.4671630859375
+    ],
+    "text": "3.3.1\nQTR energies and wavefunctions\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 45,
+    "printed_page": 34,
+    "block": 28,
+    "bbox": [
+      107.99998474121094,
+      693.7847900390625,
+      426.4931335449219,
+      705.7398071289062
+    ],
+    "text": "The intrinsic part of the Hamiltonian can be written down as,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n35\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 1,
+    "bbox": [
+      152.697998046875,
+      113.42076873779297,
+      247.68380737304688,
+      127.1697769165039
+    ],
+    "text": "Hint = Hsp + Hpair\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 2,
+    "bbox": [
+      177.2960205078125,
+      139.2977752685547,
+      186.40573120117188,
+      151.25277709960938
+    ],
+    "text": "=\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 3,
+    "bbox": [
+      189.7210235595703,
+      136.53582763671875,
+      206.98403930664062,
+      148.49082946777344
+    ],
+    "text": "X\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 4,
+    "bbox": [
+      190.60302734375,
+      156.1602325439453,
+      206.1051025390625,
+      164.13023376464844
+    ],
+    "text": "ν>0\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 5,
+    "bbox": [
+      208.98202514648438,
+      137.47523498535156,
+      272.0382385253906,
+      152.89093017578125
+    ],
+    "text": "|εν −λF|(a+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 6,
+    "bbox": [
+      265.45501708984375,
+      137.46327209472656,
+      311.0132141113281,
+      154.20785522460938
+    ],
+    "text": "ν aν + a+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 7,
+    "bbox": [
+      304.42999267578125,
+      131.20970153808594,
+      352.956298828125,
+      154.27175903320312
+    ],
+    "text": "ν aν) −∆\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 8,
+    "bbox": [
+      345.1520080566406,
+      147.49778747558594,
+      351.00994873046875,
+      159.45278930664062
+    ],
+    "text": "2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 9,
+    "bbox": [
+      356.1440124511719,
+      136.53582763671875,
+      373.40704345703125,
+      148.49082946777344
+    ],
+    "text": "X\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 10,
+    "bbox": [
+      357.0260009765625,
+      156.1602325439453,
+      372.5280456542969,
+      164.13023376464844
+    ],
+    "text": "ν>0\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 11,
+    "bbox": [
+      373.4119873046875,
+      137.47523498535156,
+      390.6932067871094,
+      151.25180053710938
+    ],
+    "text": "(a+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 12,
+    "bbox": [
+      384.1099853515625,
+      137.46327209472656,
+      403.9222106933594,
+      154.20785522460938
+    ],
+    "text": "ν a+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 13,
+    "bbox": [
+      397.3389892578125,
+      130.4987030029297,
+      523.933349609375,
+      154.27175903320312
+    ],
+    "text": "ν + aνaν),\n(3.15)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 14,
+    "bbox": [
+      108.0,
+      189.8796844482422,
+      523.9483032226562,
+      203.62771606445312
+    ],
+    "text": "where λF denotes the Fermi energy, ∆is the pairing gap parameter and is cal-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 15,
+    "bbox": [
+      107.99998474121094,
+      208.50375366210938,
+      523.9125366210938,
+      220.61380004882812
+    ],
+    "text": "culated following particle conservation [51] and |ν⟩is the time-reversal state of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 16,
+    "bbox": [
+      107.99996948242188,
+      227.28390502929688,
+      523.9354248046875,
+      239.39382934570312
+    ],
+    "text": "|ν⟩. The single-particle states |ν⟩and the corresponding energies are obtained\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 17,
+    "bbox": [
+      107.99998474121094,
+      246.2178192138672,
+      523.9248657226562,
+      259.0962219238281
+    ],
+    "text": "by diagonalizing the Hamiltonian Hsp. Similar to Refs. [39, 62], a Nilsson type\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 18,
+    "bbox": [
+      108.0,
+      264.99786376953125,
+      238.14208984375,
+      276.9528503417969
+    ],
+    "text": "Hamiltonian is employed,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 19,
+    "bbox": [
+      119.24099731445312,
+      321.04022216796875,
+      171.96006774902344,
+      344.1008605957031
+    ],
+    "text": "Hsp = ( p2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 20,
+    "bbox": [
+      159.11099243164062,
+      322.2648010253906,
+      264.6570739746094,
+      350.5077819824219
+    ],
+    "text": "2m + 1\n2mω0ρ2 −2\n3ε2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 21,
+    "bbox": [
+      265.1570129394531,
+      320.162841796875,
+      277.11199951171875,
+      332.11785888671875
+    ],
+    "text": "r\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 22,
+    "bbox": [
+      278.3080139160156,
+      322.2648010253906,
+      389.89385986328125,
+      350.5077819824219
+    ],
+    "text": "4π\n3 ℏω0ρ2[cos γY 0\n2 + 1\n√\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 23,
+    "bbox": [
+      389.01800537109375,
+      328.4268798828125,
+      482.7596435546875,
+      351.8377685546875
+    ],
+    "text": "2 sin γ(Y 2\n2 + Y −2\n2\n)]\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 24,
+    "bbox": [
+      140.27301025390625,
+      355.14678955078125,
+      314.2781066894531,
+      371.4781799316406
+    ],
+    "text": "−κℏ(ω){2⃗l ·⃗s + µ(⃗l2−<⃗l2 >N)},\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 25,
+    "bbox": [
+      493.99798583984375,
+      340.41180419921875,
+      523.933349609375,
+      352.3667907714844
+    ],
+    "text": "(3.16)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 26,
+    "bbox": [
+      108.0,
+      399.36981201171875,
+      523.9208984375,
+      413.1177978515625
+    ],
+    "text": "with ρ as the radius in a stretched coordinate system, ε2 and γ are the usual Nilsson\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 27,
+    "bbox": [
+      108.00003051757812,
+      416.2129211425781,
+      259.59033203125,
+      430.10479736328125
+    ],
+    "text": "deformation parameters, Y ±2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 28,
+    "bbox": [
+      246.17404174804688,
+      416.9252014160156,
+      302.3611145019531,
+      432.1651916503906
+    ],
+    "text": "2\nand Y 0\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 29,
+    "bbox": [
+      295.5280456542969,
+      418.14984130859375,
+      523.9232177734375,
+      433.059814453125
+    ],
+    "text": "2 are the second-order spherical harmonics,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 30,
+    "bbox": [
+      108.00004577636719,
+      436.9288330078125,
+      364.30889892578125,
+      448.8838195800781
+    ],
+    "text": "and κ and µ are the standard Nilsson parameters.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 31,
+    "bbox": [
+      108.00003814697266,
+      466.00384521484375,
+      314.4150390625,
+      477.9588317871094
+    ],
+    "text": "The single-particle states are written as;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 32,
+    "bbox": [
+      235.20904541015625,
+      527.5772094726562,
+      247.93727111816406,
+      541.3538818359375
+    ],
+    "text": "a+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 33,
+    "bbox": [
+      241.3540496826172,
+      529.243896484375,
+      276.68475341796875,
+      544.1548461914062
+    ],
+    "text": "ν |0⟩=\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 34,
+    "bbox": [
+      281.4630432128906,
+      526.6378173828125,
+      298.72607421875,
+      538.5928344726562
+    ],
+    "text": "X\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 35,
+    "bbox": [
+      280.00103759765625,
+      546.6162109375,
+      300.19000244140625,
+      554.5862426757812
+    ],
+    "text": "NljΩ\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 36,
+    "bbox": [
+      302.18603515625,
+      527.5772094726562,
+      311.3843688964844,
+      541.3538818359375
+    ],
+    "text": "cν\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 37,
+    "bbox": [
+      307.2240295410156,
+      527.5772094726562,
+      347.11700439453125,
+      543.439208984375
+    ],
+    "text": "NljΩΨNl\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 38,
+    "bbox": [
+      337.0190124511719,
+      529.3988647460938,
+      350.9617919921875,
+      543.439208984375
+    ],
+    "text": "jΩ,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 39,
+    "bbox": [
+      235.20901489257812,
+      561.5442504882812,
+      247.93724060058594,
+      575.3328857421875
+    ],
+    "text": "a+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 40,
+    "bbox": [
+      241.35400390625,
+      563.2228393554688,
+      276.6847229003906,
+      578.1978149414062
+    ],
+    "text": "ν |0⟩=\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 41,
+    "bbox": [
+      281.4630126953125,
+      560.6168212890625,
+      298.7260437011719,
+      572.5718383789062
+    ],
+    "text": "X\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 42,
+    "bbox": [
+      280.0010070800781,
+      580.5951538085938,
+      300.1899719238281,
+      588.565185546875
+    ],
+    "text": "NljΩ\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 43,
+    "bbox": [
+      300.1929931640625,
+      561.4529418945312,
+      350.7323303222656,
+      575.3328247070312
+    ],
+    "text": "(−1)j−Ωcν\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 44,
+    "bbox": [
+      346.5719909667969,
+      561.5562133789062,
+      386.4580383300781,
+      577.418212890625
+    ],
+    "text": "NljΩΨNl\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 45,
+    "bbox": [
+      376.3680114746094,
+      563.3778076171875,
+      396.70379638671875,
+      577.418212890625
+    ],
+    "text": "j−Ω,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 46,
+    "bbox": [
+      108.00003051757812,
+      615.3607788085938,
+      523.9185180664062,
+      627.3157958984375
+    ],
+    "text": "where Ωis the projection of the single-particle angular momentum operator j on\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 47,
+    "bbox": [
+      108.00003051757812,
+      633.98583984375,
+      523.974609375,
+      646.0958251953125
+    ],
+    "text": "the 3-axis and is restricted to the values ..., −7/2, −3/2, +1/2, +5/2, ... due to\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 48,
+    "bbox": [
+      108.00006103515625,
+      652.9197998046875,
+      259.2786560058594,
+      664.8748168945312
+    ],
+    "text": "time reversal degeneracy [51].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 49,
+    "bbox": [
+      108.00006103515625,
+      681.9948120117188,
+      523.974365234375,
+      693.9498291015625
+    ],
+    "text": "The QTR model solutions can be obtained by diagonalizing the Hamiltonian (equa-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 50,
+    "bbox": [
+      108.00006103515625,
+      700.7738037109375,
+      523.9147338867188,
+      712.7288208007812
+    ],
+    "text": "tion 3.13) in a complete basis space, which couples the inert core with the intrinsic\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 51,
+    "bbox": [
+      108.00006103515625,
+      719.5537719726562,
+      523.9503784179688,
+      731.5087890625
+    ],
+    "text": "wavefunctions of the valence nucleon. When the pairing interaction is ignored, a\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 46,
+    "printed_page": 35,
+    "block": 52,
+    "bbox": [
+      108.00006103515625,
+      738.3338012695312,
+      333.68658447265625,
+      750.288818359375
+    ],
+    "text": "strong coupling basis can be constructed as;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n36\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 1,
+    "bbox": [
+      143.85499572753906,
+      104.55281829833984,
+      200.28770446777344,
+      116.66275787353516
+    ],
+    "text": "|IMKν⟩=\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 2,
+    "bbox": [
+      203.60299682617188,
+      94.51880645751953,
+      215.55799865722656,
+      106.47380065917969
+    ],
+    "text": "r\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 3,
+    "bbox": [
+      216.75399780273438,
+      96.62078094482422,
+      222.61195373535156,
+      124.86380767822266
+    ],
+    "text": "1\n2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 4,
+    "bbox": [
+      223.80299377441406,
+      94.28583526611328,
+      235.75799560546875,
+      106.24082946777344
+    ],
+    "text": "r\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 5,
+    "bbox": [
+      236.9530029296875,
+      96.62078094482422,
+      315.14117431640625,
+      124.86380767822266
+    ],
+    "text": "2I + 1\n8π2 [DI\nM,Ka+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 6,
+    "bbox": [
+      308.5579528808594,
+      102.78307342529297,
+      402.93414306640625,
+      119.46399688720703
+    ],
+    "text": "ν |0⟩+ (−1)I−KDI\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 7,
+    "bbox": [
+      398.9339904785156,
+      102.87440490722656,
+      437.315185546875,
+      118.74839782714844
+    ],
+    "text": "M,−Ka+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 8,
+    "bbox": [
+      430.73199462890625,
+      104.55281829833984,
+      523.933349609375,
+      119.52783966064453
+    ],
+    "text": "ν |0⟩],\n(3.17)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 9,
+    "bbox": [
+      108.0,
+      142.40711975097656,
+      156.691162109375,
+      155.58572387695312
+    ],
+    "text": "where DI\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 10,
+    "bbox": [
+      152.69200134277344,
+      143.63072204589844,
+      523.9244995117188,
+      158.60671997070312
+    ],
+    "text": "M,K denote the rotational D functions, which describe transformations\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 11,
+    "bbox": [
+      107.99998474121094,
+      162.41075134277344,
+      523.9080200195312,
+      174.36575317382812
+    ],
+    "text": "between diﬀerently oriented coordinate systems. In the equation above, K assumes\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 12,
+    "bbox": [
+      107.99996948242188,
+      181.03585815429688,
+      523.9200439453125,
+      193.14578247070312
+    ],
+    "text": "the values of ..., −7/2, −3/2, +1/2, +5/2, ... and the restriction on K is due to\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 13,
+    "bbox": [
+      107.99996948242188,
+      199.9697723388672,
+      523.9036865234375,
+      212.8481903076172
+    ],
+    "text": "the fact that the basis states are symmetrized under the point group D2, which\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 14,
+    "bbox": [
+      107.99996948242188,
+      217.42193603515625,
+      523.9241333007812,
+      230.70480346679688
+    ],
+    "text": "requires the wave function to be invariant under a rotation of 180◦around the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 15,
+    "bbox": [
+      107.99996948242188,
+      234.97178649902344,
+      523.9298095703125,
+      249.48379516601562
+    ],
+    "text": "body-ﬁxed ˆ1-axis, this leads to K −Ωbeing an even integer [40]. The matrix\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 16,
+    "bbox": [
+      107.99996948242188,
+      256.308837890625,
+      523.9310913085938,
+      270.0568542480469
+    ],
+    "text": "elements of Hcoll and Hint can be evaluated in this basis (equation 3.17), and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 17,
+    "bbox": [
+      107.99996948242188,
+      275.0888671875,
+      523.9503784179688,
+      287.0438537597656
+    ],
+    "text": "the diagonalization yields the eigenenergies and eigenstates of the QTR model\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 18,
+    "bbox": [
+      107.99996948242188,
+      293.86785888671875,
+      174.67300415039062,
+      305.8228454589844
+    ],
+    "text": "Hamiltonian.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 19,
+    "bbox": [
+      107.99996948242188,
+      322.94287109375,
+      523.9503173828125,
+      334.8978576660156
+    ],
+    "text": "Pairing eﬀects can be included in a straightforward manner in the QTR model\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 20,
+    "bbox": [
+      107.99996948242188,
+      340.49822998046875,
+      309.63818359375,
+      353.6768493652344
+    ],
+    "text": "by replacing the single-particle state a+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 21,
+    "bbox": [
+      303.0549621582031,
+      341.5669250488281,
+      523.9288940429688,
+      356.4779052734375
+    ],
+    "text": "ν |0⟩in the basis state (equation 3.17) with\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 22,
+    "bbox": [
+      107.99996948242188,
+      359.2772521972656,
+      244.01919555664062,
+      372.45684814453125
+    ],
+    "text": "BCS quasiparticle state a+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 23,
+    "bbox": [
+      237.43597412109375,
+      366.5712585449219,
+      241.5963134765625,
+      374.541259765625
+    ],
+    "text": "ν\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 24,
+    "bbox": [
+      246.51296997070312,
+      357.94488525390625,
+      256.3559265136719,
+      378.06390380859375
+    ],
+    "text": "\f\f˜0\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 25,
+    "bbox": [
+      256.3509826660156,
+      359.4139099121094,
+      261.9937438964844,
+      371.3689270019531
+    ],
+    "text": "\u000b\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 26,
+    "bbox": [
+      265.4939880371094,
+      360.50189208984375,
+      447.0784912109375,
+      372.4568786621094
+    ],
+    "text": "to get a new expansion basis, where\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 27,
+    "bbox": [
+      450.5619812011719,
+      357.9449157714844,
+      460.4049072265625,
+      378.0639343261719
+    ],
+    "text": "\f\f˜0\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 28,
+    "bbox": [
+      460.39996337890625,
+      359.4139404296875,
+      466.042724609375,
+      371.36895751953125
+    ],
+    "text": "\u000b\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 29,
+    "bbox": [
+      469.54296875,
+      360.5019226074219,
+      523.9024047851562,
+      372.4569091796875
+    ],
+    "text": "is the BCS\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 30,
+    "bbox": [
+      107.99996948242188,
+      378.05731201171875,
+      343.08819580078125,
+      391.2369079589844
+    ],
+    "text": "vacuum state. The quasiparticle operators α+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 31,
+    "bbox": [
+      336.4289855957031,
+      379.28094482421875,
+      413.1837463378906,
+      394.1919250488281
+    ],
+    "text": "ν are given by;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 32,
+    "bbox": [
+      241.17999267578125,
+      434.81494140625,
+      250.64834594726562,
+      446.76995849609375
+    ],
+    "text": " \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 33,
+    "bbox": [
+      250.64498901367188,
+      436.8153381347656,
+      264.74920654296875,
+      449.99493408203125
+    ],
+    "text": "α+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 34,
+    "bbox": [
+      251.63400268554688,
+      444.1093444824219,
+      263.2403259277344,
+      469.6961669921875
+    ],
+    "text": "ν\nαν\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 35,
+    "bbox": [
+      265.2509765625,
+      434.8147888183594,
+      274.7193298339844,
+      446.7698059082031
+    ],
+    "text": "!\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 36,
+    "bbox": [
+      278.0359802246094,
+      446.6617736816406,
+      287.14569091796875,
+      458.61676025390625
+    ],
+    "text": "=\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 37,
+    "bbox": [
+      290.46197509765625,
+      434.8147888183594,
+      299.9303283691406,
+      446.7698059082031
+    ],
+    "text": " \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 38,
+    "bbox": [
+      299.92596435546875,
+      437.8848571777344,
+      340.8512878417969,
+      469.6961669921875
+    ],
+    "text": "uν\n−vν\nvν\nuν\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 39,
+    "bbox": [
+      341.8729553222656,
+      434.8147888183594,
+      362.80615234375,
+      446.7698059082031
+    ],
+    "text": "! \n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 40,
+    "bbox": [
+      362.7949523925781,
+      436.815185546875,
+      375.5231628417969,
+      449.9947814941406
+    ],
+    "text": "a+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 41,
+    "bbox": [
+      363.7459411621094,
+      444.10919189453125,
+      374.05133056640625,
+      469.6961669921875
+    ],
+    "text": "ν\naν\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 42,
+    "bbox": [
+      376.02398681640625,
+      434.8147888183594,
+      385.4923400878906,
+      446.7698059082031
+    ],
+    "text": "!\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 43,
+    "bbox": [
+      387.48199462890625,
+      446.6617736816406,
+      523.933349609375,
+      458.61676025390625
+    ],
+    "text": ",\n(3.18)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 44,
+    "bbox": [
+      108.0,
+      497.5361633300781,
+      152.64907836914062,
+      510.71575927734375
+    ],
+    "text": "where u2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 45,
+    "bbox": [
+      148.41700744628906,
+      497.53619384765625,
+      178.08409118652344,
+      513.6707763671875
+    ],
+    "text": "ν + v2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 46,
+    "bbox": [
+      173.4230194091797,
+      498.7608337402344,
+      523.9335327148438,
+      513.6708374023438
+    ],
+    "text": "ν = 1. In this new basis, the wavefunctions of the QTR Hamiltonian\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 47,
+    "bbox": [
+      108.00001525878906,
+      517.5398559570312,
+      200.08932495117188,
+      529.494873046875
+    ],
+    "text": "can be written as;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 48,
+    "bbox": [
+      249.6420135498047,
+      565.2388916015625,
+      288.7187194824219,
+      577.348876953125
+    ],
+    "text": "|IM⟩=\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 49,
+    "bbox": [
+      292.03399658203125,
+      562.6328125,
+      309.2970275878906,
+      574.5878295898438
+    ],
+    "text": "X\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 50,
+    "bbox": [
+      293.53399658203125,
+      582.522216796875,
+      307.2822265625,
+      590.4922485351562
+    ],
+    "text": "K,ν\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 51,
+    "bbox": [
+      311.2959899902344,
+      563.5722045898438,
+      331.9659423828125,
+      577.348876953125
+    ],
+    "text": "CIK\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 52,
+    "bbox": [
+      319.6709899902344,
+      565.2388916015625,
+      523.933349609375,
+      579.4342041015625
+    ],
+    "text": "ν\n|IMKν⟩,\n(3.19)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 53,
+    "bbox": [
+      108.0,
+      611.1301879882812,
+      329.0062255859375,
+      624.309814453125
+    ],
+    "text": "here ν represents the quasiparticle states α+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 54,
+    "bbox": [
+      322.3470153808594,
+      618.4241943359375,
+      326.5073547363281,
+      626.3942260742188
+    ],
+    "text": "ν\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 55,
+    "bbox": [
+      331.5,
+      609.7978515625,
+      341.3429260253906,
+      629.9168701171875
+    ],
+    "text": "\f\f˜0\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 56,
+    "bbox": [
+      341.3379821777344,
+      611.266845703125,
+      346.9807434082031,
+      623.2218627929688
+    ],
+    "text": "\u000b\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 57,
+    "bbox": [
+      349.865966796875,
+      612.3548583984375,
+      523.9188842773438,
+      624.3098754882812
+    ],
+    "text": "instead of the single-particle states\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 58,
+    "bbox": [
+      107.99996948242188,
+      629.9102172851562,
+      120.72818756103516,
+      643.0888671875
+    ],
+    "text": "a+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 59,
+    "bbox": [
+      114.14496612548828,
+      631.1338500976562,
+      523.9136962890625,
+      646.0448608398438
+    ],
+    "text": "ν . The single-particle energies εν must be replaced by the quasiparticle energies\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 60,
+    "bbox": [
+      107.99993896484375,
+      649.9138793945312,
+      113.47532653808594,
+      661.868896484375
+    ],
+    "text": "ε\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 61,
+    "bbox": [
+      113.47793579101562,
+      647.3566284179688,
+      131.09063720703125,
+      664.8238525390625
+    ],
+    "text": "′\nν =\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 62,
+    "bbox": [
+      134.4059295654297,
+      648.287841796875,
+      146.36093139648438,
+      660.2428588867188
+    ],
+    "text": "p\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 63,
+    "bbox": [
+      146.36199951171875,
+      646.4597778320312,
+      434.0193786621094,
+      663.5068359375
+    ],
+    "text": "(εν −λF)2 + ∆2. The total Hamiltonian is expressed as;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 64,
+    "bbox": [
+      228.3810272216797,
+      697.7677612304688,
+      289.7177429199219,
+      711.5158081054688
+    ],
+    "text": "H = Hcoll +\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 65,
+    "bbox": [
+      292.3700256347656,
+      695.0057983398438,
+      309.633056640625,
+      706.9608154296875
+    ],
+    "text": "X\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 66,
+    "bbox": [
+      298.6620178222656,
+      714.6301879882812,
+      302.8223571777344,
+      722.6002197265625
+    ],
+    "text": "ν\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 67,
+    "bbox": [
+      311.6310119628906,
+      697.7677612304688,
+      317.1064147949219,
+      709.7227783203125
+    ],
+    "text": "ε\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 68,
+    "bbox": [
+      317.1090087890625,
+      694.612548828125,
+      340.9482421875,
+      711.8071899414062
+    ],
+    "text": "′\nν(α+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 69,
+    "bbox": [
+      334.2890319824219,
+      695.9341430664062,
+      382.6002502441406,
+      712.6777954101562
+    ],
+    "text": "ν αν + α+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 47,
+    "printed_page": 36,
+    "block": 70,
+    "bbox": [
+      375.9410095214844,
+      697.7677612304688,
+      523.933349609375,
+      712.7427978515625
+    ],
+    "text": "ν αν).\n(3.20)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n37\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.9623413085938,
+      95.69278717041016
+    ],
+    "text": "The Hamiltonian in relation 3.14 possesses a particle-hole symmetry arising from\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 2,
+    "bbox": [
+      108.0,
+      102.51677703857422,
+      523.9263916015625,
+      114.4717788696289
+    ],
+    "text": "the permutations of the intrinsic nuclear axes [51]. One consequence of this sym-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 3,
+    "bbox": [
+      108.0,
+      121.29680633544922,
+      523.9254150390625,
+      134.1742401123047
+    ],
+    "text": "metry is that a particle coupled to a core with parameters (ε2, γ, λF) and a quasi-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 4,
+    "bbox": [
+      108.0,
+      138.74896240234375,
+      523.921630859375,
+      152.9542694091797
+    ],
+    "text": "particle (hole) coupled to a core with parameters (ε2, 60◦−γ, −λF) have exactly\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 5,
+    "bbox": [
+      108.00003051757812,
+      158.85581970214844,
+      225.1949005126953,
+      170.81082153320312
+    ],
+    "text": "same energy spectrum.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 6,
+    "bbox": [
+      108.00003051757812,
+      207.32415771484375,
+      365.6255187988281,
+      221.670166015625
+    ],
+    "text": "3.3.2\nQTR transitions probabilities\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 7,
+    "bbox": [
+      108.00003051757812,
+      245.98777770996094,
+      523.974365234375,
+      257.9427795410156
+    ],
+    "text": "Electromagnetic transition probabilities are given as in Ref. [15], and have the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 8,
+    "bbox": [
+      108.00003051757812,
+      264.767822265625,
+      175.31861877441406,
+      276.7228088378906
+    ],
+    "text": "general form;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 9,
+    "bbox": [
+      205.60403442382812,
+      304.5338134765625,
+      523.933349609375,
+      334.56976318359375
+    ],
+    "text": "B(Oλ; Ii →If) =\n1\n2Ii + 1| ⟨If| Γ(Oλ) |Ii⟩|2,\n(3.21)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 10,
+    "bbox": [
+      108.00003051757812,
+      351.290771484375,
+      523.9424438476562,
+      363.2457580566406
+    ],
+    "text": "where Γ(Oλ) is the electromagnetic operator, O stands for the type of operator\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 11,
+    "bbox": [
+      108.00004577636719,
+      370.0707702636719,
+      523.924072265625,
+      382.0257568359375
+    ],
+    "text": "(magnetic/electric), λ is the order of the transition, B is the reduced transition\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 12,
+    "bbox": [
+      108.00003051757812,
+      388.69482421875,
+      523.94873046875,
+      401.7281494140625
+    ],
+    "text": "probability and |Ii⟩and ⟨If| stand for the initial state before the transition, and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 13,
+    "bbox": [
+      108.00003051757812,
+      407.6297607421875,
+      523.9624633789062,
+      419.5847473144531
+    ],
+    "text": "the Hermitian conjugate of the ﬁnal state after the transition. The magnetic dipole\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 14,
+    "bbox": [
+      108.00003051757812,
+      426.4097595214844,
+      307.6219787597656,
+      438.36474609375
+    ],
+    "text": "(λ = 1) moment operator is deﬁned as;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 15,
+    "bbox": [
+      236.65603637695312,
+      474.2637634277344,
+      320.55377197265625,
+      488.0117492675781
+    ],
+    "text": "Γ(M1) = gR⃗R +\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 16,
+    "bbox": [
+      323.2050476074219,
+      471.50177001953125,
+      340.46807861328125,
+      483.456787109375
+    ],
+    "text": "X\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 17,
+    "bbox": [
+      340.47406005859375,
+      474.2637634277344,
+      523.9334106445312,
+      488.0117492675781
+    ],
+    "text": "(gl⃗l + gs⃗s),\n(3.22)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 18,
+    "bbox": [
+      108.00006103515625,
+      511.75579833984375,
+      523.9197998046875,
+      525.5047607421875
+    ],
+    "text": "the sum is performed over the odd particle(s), gR = Z/A is the core g-factor,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 19,
+    "bbox": [
+      108.00006103515625,
+      530.5357666015625,
+      523.9163818359375,
+      544.2838134765625
+    ],
+    "text": "gl and gs are the single-particle orbital angular momentum and spin g-factors,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 20,
+    "bbox": [
+      108.00006103515625,
+      549.3157348632812,
+      523.9266357421875,
+      561.270751953125
+    ],
+    "text": "respectively [36].⃗R,⃗l and⃗s have their usual meanings. The electric quadruple\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 21,
+    "bbox": [
+      108.00004577636719,
+      568.0947875976562,
+      262.42022705078125,
+      580.0498046875
+    ],
+    "text": "(λ = 2) operator is deﬁned as;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 22,
+    "bbox": [
+      249.175048828125,
+      615.9487915039062,
+      293.2531433105469,
+      627.90380859375
+    ],
+    "text": "Γ(E2) =\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 23,
+    "bbox": [
+      296.5590515136719,
+      608.2727661132812,
+      303.2060241699219,
+      620.227783203125
+    ],
+    "text": "Z\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 24,
+    "bbox": [
+      310.5070495605469,
+      613.3961791992188,
+      375.7358703613281,
+      627.90380859375
+    ],
+    "text": "d3r[ρ(r)r2Y µ\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 25,
+    "bbox": [
+      368.0410461425781,
+      615.9487915039062,
+      523.9334106445312,
+      630.8347778320312
+    ],
+    "text": "2 ],\n(3.23)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 26,
+    "bbox": [
+      108.00006103515625,
+      654.9197387695312,
+      523.9623413085938,
+      666.874755859375
+    ],
+    "text": "which splits into a dominant core component and an odd particle(s) component.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 27,
+    "bbox": [
+      108.00006103515625,
+      673.6997680664062,
+      308.48333740234375,
+      686.6431884765625
+    ],
+    "text": "The mixing ratio, δE2/M1, is deﬁned as;\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 28,
+    "bbox": [
+      225.30905151367188,
+      721.5537719726562,
+      271.28875732421875,
+      735.3677978515625
+    ],
+    "text": "δE2/M1 =\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 29,
+    "bbox": [
+      274.60504150390625,
+      710.9248046875,
+      284.5635681152344,
+      722.8798217773438
+    ],
+    "text": "√\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 48,
+    "printed_page": 37,
+    "block": 30,
+    "bbox": [
+      284.5669860839844,
+      713.310791015625,
+      523.933349609375,
+      741.7088012695312
+    ],
+    "text": "0.7 ⟨I| Γ(E2) |I −1⟩\n⟨I| Γ(M1) |I −1⟩Eγ,\n(3.24)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n38\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.9486083984375,
+      95.69278717041016
+    ],
+    "text": "where Γ(E2) and Γ(M1) are the electric quadruple and magnetic dipole operators\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 2,
+    "bbox": [
+      108.00000762939453,
+      102.51677703857422,
+      475.2969665527344,
+      116.26578521728516
+    ],
+    "text": "and Eγ is the γ-ray energy, which corresponds to the usual deﬁnition of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 3,
+    "bbox": [
+      242.22300720214844,
+      148.54920959472656,
+      252.08807373046875,
+      162.32577514648438
+    ],
+    "text": "δ2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 4,
+    "bbox": [
+      247.40699768066406,
+      142.12893676757812,
+      383.6478271484375,
+      165.28182983398438
+    ],
+    "text": "E2/M1 = T(E2, I →I −1)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 5,
+    "bbox": [
+      292.7139892578125,
+      150.3707733154297,
+      523.933349609375,
+      170.52676391601562
+    ],
+    "text": "T(M1, I →I −1),\n(3.25)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 6,
+    "bbox": [
+      108.0,
+      190.23680114746094,
+      523.9580078125,
+      202.19180297851562
+    ],
+    "text": "where T(E2) and T(M1) are the corresponding electric and magnetic transition\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 7,
+    "bbox": [
+      108.0,
+      209.0157928466797,
+      240.4733123779297,
+      220.97079467773438
+    ],
+    "text": "probabilities, respectively.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 8,
+    "bbox": [
+      108.0,
+      261.7089538574219,
+      365.07159423828125,
+      278.9239501953125
+    ],
+    "text": "3.4\nQTR Model Calculations\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 9,
+    "bbox": [
+      108.0,
+      306.73284912109375,
+      523.9147338867188,
+      318.6878356933594
+    ],
+    "text": "In this work the QTR model codes of Ragnarson and Semmes [39, 40], the three\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 10,
+    "bbox": [
+      108.0,
+      325.5128479003906,
+      523.9264526367188,
+      337.46783447265625
+    ],
+    "text": "programs called GAMPN, ASYMO and PROBMO, in this particular sequence,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 11,
+    "bbox": [
+      108.0,
+      344.2918395996094,
+      523.9146728515625,
+      356.246826171875
+    ],
+    "text": "were run one after the other. GAMPN calculates the single-particle eigenstates and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 12,
+    "bbox": [
+      108.0,
+      363.07183837890625,
+      523.9622192382812,
+      375.0268249511719
+    ],
+    "text": "matrix elements. ASYMO calculates the triaxial rotor states and couples them to\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 13,
+    "bbox": [
+      108.0,
+      381.8518371582031,
+      523.9263305664062,
+      393.80682373046875
+    ],
+    "text": "the single particle states produced by GAMPN. The last program PROBMO uses\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 14,
+    "bbox": [
+      108.0,
+      400.6308288574219,
+      523.9745483398438,
+      412.5858154296875
+    ],
+    "text": "the outputs of the previous two programs to calculate electromagnetic transition\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 15,
+    "bbox": [
+      108.0,
+      419.41082763671875,
+      259.33837890625,
+      431.3658142089844
+    ],
+    "text": "properties of the nucleus [66].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 16,
+    "bbox": [
+      108.0,
+      467.878173828125,
+      221.18991088867188,
+      482.22418212890625
+    ],
+    "text": "3.4.1\nGAMPN\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 17,
+    "bbox": [
+      108.0,
+      506.54278564453125,
+      523.9384155273438,
+      518.497802734375
+    ],
+    "text": "As stated previously, the program GAMPN calculates the single-particle states of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 18,
+    "bbox": [
+      108.0,
+      525.3218383789062,
+      523.96240234375,
+      537.27685546875
+    ],
+    "text": "the QTR model Hamiltonian. To run the calculations for a particular nucleus with\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 19,
+    "bbox": [
+      108.0,
+      544.101806640625,
+      523.9366455078125,
+      556.0568237304688
+    ],
+    "text": "a proton number Z and a mass number A, the program requires the quadruple\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 20,
+    "bbox": [
+      108.0,
+      562.8807983398438,
+      523.9149169921875,
+      575.7592163085938
+    ],
+    "text": "deformation parameter ε2, the axial asymmetry deformation γ and the hexade-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 21,
+    "bbox": [
+      108.0,
+      581.6608276367188,
+      523.927978515625,
+      594.5382080078125
+    ],
+    "text": "capole deformation parameter ε4, the valence nucleon(s) conﬁguration, as well\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 22,
+    "bbox": [
+      108.0,
+      600.4407958984375,
+      523.9219360351562,
+      612.3958129882812
+    ],
+    "text": "as the standard Nilsson parameters κ and µ. In these calculations the standard\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 23,
+    "bbox": [
+      107.99998474121094,
+      619.2197875976562,
+      523.9039306640625,
+      632.9688110351562
+    ],
+    "text": "Nilsson parameters were adopted as in Ref. [11]. In general ε2 and γ can be de-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 24,
+    "bbox": [
+      108.0,
+      637.9998168945312,
+      523.9622802734375,
+      649.954833984375
+    ],
+    "text": "duced from potential energy surface (PES) calculations or from experimental data.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 25,
+    "bbox": [
+      108.0,
+      656.77978515625,
+      523.9622802734375,
+      668.7348022460938
+    ],
+    "text": "In addition, the program requires one to specify the single-particle conﬁguration\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 26,
+    "bbox": [
+      108.0,
+      675.5587768554688,
+      523.9385986328125,
+      687.5137939453125
+    ],
+    "text": "space of interest, that is to specify the orbitals near the Fermi level that will be\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 27,
+    "bbox": [
+      108.0,
+      694.3388061523438,
+      251.7947998046875,
+      706.2938232421875
+    ],
+    "text": "included in the calculations.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 28,
+    "bbox": [
+      108.0,
+      723.4127807617188,
+      523.9239501953125,
+      736.2901611328125
+    ],
+    "text": "The program outputs the single particle energies εν, single-particle matrix element\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 49,
+    "printed_page": 38,
+    "block": 29,
+    "bbox": [
+      108.0,
+      742.0377807617188,
+      523.9190673828125,
+      754.1477661132812
+    ],
+    "text": "and the single-particle eigenstates |ν⟩, expanded in the basis |NLJΩ⟩. For an\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9229736328125,
+      61.40378189086914
+    ],
+    "text": "Chapter 3. Nuclear Triaxiality\n39\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.9622192382812,
+      95.69278717041016
+    ],
+    "text": "axially symmetric nuclear shape the output of the program is a pure Nilsson state,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 2,
+    "bbox": [
+      108.0,
+      102.51677703857422,
+      523.9383544921875,
+      114.4717788696289
+    ],
+    "text": "while for the asymmetric nuclear shape, the output is a mixture of basis states\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 3,
+    "bbox": [
+      108.0,
+      121.29680633544922,
+      523.9622802734375,
+      133.25180053710938
+    ],
+    "text": "with the same parity but diﬀering in occupation probabilities. This information\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 4,
+    "bbox": [
+      108.0,
+      140.0768280029297,
+      342.6526794433594,
+      152.03182983398438
+    ],
+    "text": "is passed down to the next program ASYMO.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 5,
+    "bbox": [
+      108.0,
+      188.544189453125,
+      218.13424682617188,
+      202.89019775390625
+    ],
+    "text": "3.4.2\nASYMO\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 6,
+    "bbox": [
+      108.0,
+      227.2078094482422,
+      523.9385375976562,
+      239.16281127929688
+    ],
+    "text": "The program ASYMO couples the core rotation to the selected single-particle\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 7,
+    "bbox": [
+      108.0,
+      245.83291625976562,
+      523.9442138671875,
+      257.9428405761719
+    ],
+    "text": "matrix elements and eigenstates |ν⟩that are passed down from the program\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 8,
+    "bbox": [
+      108.00001525878906,
+      264.76788330078125,
+      523.9622802734375,
+      276.7228698730469
+    ],
+    "text": "GAMPN and constructs the quasiparticle+triaxial rotor sates. A maximum of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 9,
+    "bbox": [
+      108.00001525878906,
+      283.546875,
+      523.9382934570312,
+      295.5018615722656
+    ],
+    "text": "15 single-particle states can be used in the calculations, typically a subset of the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 10,
+    "bbox": [
+      108.00001525878906,
+      302.326904296875,
+      523.9265747070312,
+      314.2818908691406
+    ],
+    "text": "single-particle states lying close to the Fermi level are included. The inputs to\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 11,
+    "bbox": [
+      108.00001525878906,
+      321.10589599609375,
+      523.9384155273438,
+      333.0608825683594
+    ],
+    "text": "ASYMO comprise information on these single-particle states (the same states as\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 12,
+    "bbox": [
+      108.00001525878906,
+      339.8858947753906,
+      523.9264526367188,
+      351.84088134765625
+    ],
+    "text": "in GAMPN or, fewer). The moments of inertia of the core can be extracted from\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 13,
+    "bbox": [
+      108.00001525878906,
+      354.326904296875,
+      523.95166015625,
+      370.6208801269531
+    ],
+    "text": "the experimental energy of the ﬁrst 2+ state [51] or can be parametrized by Harris\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 14,
+    "bbox": [
+      107.99998474121094,
+      377.44488525390625,
+      516.3294067382812,
+      389.3998718261719
+    ],
+    "text": "parameters, which takes into account the spin dependence of the MoI’s [30, 48].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 15,
+    "bbox": [
+      108.0,
+      425.9132385253906,
+      231.00265502929688,
+      440.2592468261719
+    ],
+    "text": "3.4.3\nPROBMO\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 16,
+    "bbox": [
+      108.0,
+      464.576904296875,
+      523.9381713867188,
+      476.5318908691406
+    ],
+    "text": "The results of GAMPN and ASYMO are passed down to the program PROBMO,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 17,
+    "bbox": [
+      108.0,
+      483.3569030761719,
+      523.950439453125,
+      495.3118896484375
+    ],
+    "text": "which uses them to calculate the electromagnetic transition properties of all tran-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 18,
+    "bbox": [
+      108.0,
+      502.1358947753906,
+      523.9208374023438,
+      514.0908813476562
+    ],
+    "text": "sitions that link all calculated nuclear states. That includes the B(E2) and B(M1)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 19,
+    "bbox": [
+      108.0,
+      520.9158935546875,
+      523.9308471679688,
+      534.7299194335938
+    ],
+    "text": "transition probabilities as well as the mixing ratios δE2/M1 for the M1+E2 transi-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 50,
+    "printed_page": 39,
+    "block": 20,
+    "bbox": [
+      108.00003051757812,
+      539.6948852539062,
+      352.03753662109375,
+      551.64990234375
+    ],
+    "text": "tions and the quadruple moment for each state.\n",
+    "block_type": 0
+  }
+]

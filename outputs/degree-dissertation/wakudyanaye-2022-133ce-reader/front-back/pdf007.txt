@@ -1,0 +1,133 @@
+Contents
+vi
+3.2.2
+Nuclear wobbling motion . . . . . . . . . . . . . . . . . . . .
+32
+3.3
+The Quasiparticle-Plus-Triaxial Rotor (QTR) Model Formalism . .
+34
+3.3.1
+QTR energies and wavefunctions
+. . . . . . . . . . . . . . .
+34
+3.3.2
+QTR transitions probabilities
+. . . . . . . . . . . . . . . . .
+37
+3.4
+QTR Model Calculations . . . . . . . . . . . . . . . . . . . . . . . .
+38
+3.4.1
+GAMPN . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+38
+3.4.2
+ASYMO . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+3.4.3
+PROBMO . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+4
+Experimental Techniques
+40
+4.1
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+40
+4.2
+Heavy-Ion Fusion Evaporation . . . . . . . . . . . . . . . . . . . . .
+40
+4.3
+Gamma Decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+41
+4.4
+Detection of Gamma Radiation
+. . . . . . . . . . . . . . . . . . . .
+42
+4.5
+The AFRODITE Detector Array
+. . . . . . . . . . . . . . . . . . .
+43
+4.6
+Data Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+43
+4.7
+Correlations of Gamma Ray Transitions
+. . . . . . . . . . . . . . .
+46
+4.7.1
+Angular Distribution . . . . . . . . . . . . . . . . . . . . . .
+46
+4.7.2
+Angular Correlations . . . . . . . . . . . . . . . . . . . . . .
+47
+5
+Results
+49
+5.1
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+5.2
+133Ce Results
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+5.2.1
+Experimental Details . . . . . . . . . . . . . . . . . . . . . .
+50
+5.2.2
+133Ce Experimental Results
+. . . . . . . . . . . . . . . . . .
+50
+5.2.2.1
+The Negative-Parity Bands
+. . . . . . . . . . . . .
+50
+5.2.2.2
+The Positive-Parity Bands . . . . . . . . . . . . . .
+52
+5.3
+131Ba Results
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+61
+5.3.1
+Experimental Details . . . . . . . . . . . . . . . . . . . . . .
+61
+5.3.2
+131Ba Experimental Results
+. . . . . . . . . . . . . . . . . .
+61
+5.3.2.1
+The Negative-Parity Band . . . . . . . . . . . . . .
+62
+5.3.2.2
+The Positive-Parity Bands . . . . . . . . . . . . . .
+63
+6
+Discussion
+64
+6.1
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+64
+6.2
+Part I: Interpretation of the g7/2[404]7/2+ structures in 133Ce and
+131Ba . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+65
+6.2.1
+Signature splitting in Band 2 of 133Ce . . . . . . . . . . . . .
+66
+6.2.2
+Signature splitting in Band 2 of 131Ba . . . . . . . . . . . . .
+76
+6.2.3
+Signature splitting in the πg7/2[404]7/2+ bands of the Z =
+75 isotopes . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+85
+6.2.4
+Summary of Part I . . . . . . . . . . . . . . . . . . . . . . .
+86
+6.3
+Part II: Interpretation of the negative-parity structure in 133Ce . . .
+87
+6.3.1
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . .
+87
+6.3.2
+Tilted precession (TiP) interpretation for h11/2 bands in 133Ce 87

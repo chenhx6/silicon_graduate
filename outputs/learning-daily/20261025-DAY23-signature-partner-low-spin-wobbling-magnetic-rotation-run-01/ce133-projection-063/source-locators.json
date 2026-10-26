@@ -1,0 +1,41 @@
+{
+  "raw": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+  "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+  "locators": [
+    {
+      "pdf_page": 45,
+      "printed_page": 34,
+      "object": "Eq3.14",
+      "read_status": "native text read and visually read in earlier same-worker formula review"
+    },
+    {
+      "pdf_page": 48,
+      "printed_page": 37,
+      "object": "Eq3.22/3.24",
+      "read_status": "native text read and visually read in earlier same-worker formula review"
+    },
+    {
+      "pdf_page": 99,
+      "printed_page": 88,
+      "object": "Table6.6 |18>",
+      "read_status": "native text read and fresh full source page visually checked"
+    },
+    {
+      "pdf_page": 107,
+      "printed_page": 96,
+      "object": "Section6.3.3 one-orbital FA definition",
+      "read_status": "native text read"
+    },
+    {
+      "pdf_page": 108,
+      "printed_page": 97,
+      "object": "FA discussion and energy-restriction explanation",
+      "read_status": "native text read"
+    }
+  ],
+  "nonclaims": [
+    "No full-paper reread",
+    "No recovery of exact source eigenstate from top3",
+    "No paper-producer reproduction"
+  ]
+}

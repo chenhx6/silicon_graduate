@@ -1,0 +1,54 @@
+Chapter 3. Nuclear Triaxiality
+28
+
+
+0+
+2+
+4+
+6+
+8+
+2+
+3+
+4+
+5+
+6+
+7+
+8+
+4+
+5+
+6+
+7+
+g.s band
+
+1st excited band
+2nd excited
+(a)
+(b)
+(c)
+𝑰⃗
+i = I
+i
+  i
+i = I - 2
+ i = I -1
+𝑰⃗
+𝑰⃗
+  i
+i = I - 4
+i = I - 3
+𝑰⃗
+𝑰⃗
+(d)
+(e)
+(f)
+Figure 3.2:
+Spectrum of a triaxial even-even rotor.
+Panel (a) shows the
+ground-state band, (i = I) (in red). Panel (b) shows the ﬁrst excited band
+(blue states, i = I −2.
+light-blue states i = I −1).
+Panel (c) shows the
+second excited band (green states, i = I −4; light-green states, i = I −3).
+Black arrows denote E2 transitions, mixed M1+E2 transitions are represented
+by yellow arrows. Panels (d) −(f) show the corresponding tilting of the angular
+momentum vectors.

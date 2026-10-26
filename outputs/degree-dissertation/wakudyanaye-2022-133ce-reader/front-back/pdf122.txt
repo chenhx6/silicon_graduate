@@ -1,0 +1,55 @@
+Bibliography
+111
+C. Andreoiu, A. Astier, A. Avaa, T. B¨ack, R. A. Bark, D. Bazzacco, A. Boso,
+T. D. Bucher, B. Cederwall, M. V. Chisapi, H. L. Fan, F. Galtarossa, F. H.
+Garcia, A. Goasduﬀ, G. Jaworski, P. Jones, I. Kuti, J. J. Lawrie, G. S. Li,
+R. Li, M. L. Liu, Z. Liu, B. Lomberg, B. F. Lv, T. Marchlewski, L. Mdletshe,
+L. Msebi, S. H. Mthembu, D. R. Napoli, A. Netshiya, M. F. Nkalanga, J. N.
+Orce, K. Ortner, F. Recchia, S. Riccetto, A. Rohilla, T. W. Seakamela,
+M. Siciliano, M. A. Sithole, D. Sohler, J. Srebrny, D. Testov, A. Tucholski,
+J. J. Valiente-Dob´on, F. Wentzel, K. Whitmore, Y. H. Zhang, K. K. Zheng,
+X. H. Zhou, and B. R. Zikhali, “Signature splitting of the g7/2[404]7/2+
+bands in 131Ba and 133Ce,” Physical Review C, vol. 104, p. 064304, Dec 2021.
+[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.104.064304
+[23] S. Frauendorf and F. D¨onau, “Transverse wobbling: A collective mode in
+odd-A triaxial nuclei,” Physical Review C, vol. 89, p. 014322, Jan 2014.
+[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.89.014322
+[24] P. E. Garrett and J. L. Wood, “On the robustness of surface vibrational
+modes: case studies in the Cd region,” Journal of Physics G: Nuclear and
+Particle Physics, vol. 37, no. 6, p. 064028, apr 2010. [Online]. Available:
+https://doi.org/10.1088/0954-3899/37/6/064028
+[25] J. Gizon, A. Gizon, and J. Meyer-Ter-Vehn, “Triaxial shape and onset of
+high-spin bands in 129Ba,” Nuclear Physics A, vol. 277, no. 3, pp. 464–476,
+1977. [Online]. Available:
+https://www.sciencedirect.com/science/article/
+pii/037594747790714X
+[26] A. Granderath, P. Mantica, R. Bengtsson, R. Wyss, P. von Brentano,
+A.
+Gelberg,
+and
+F.
+Seiﬀert,
+“Shapes
+and
+rotational
+structures
+of
+neutron h11/2 conﬁgurations in the Xe-Ba-Ce region,” Nuclear Physics
+A, vol. 597,
+no. 3,
+pp. 427–471,
+1996. [Online]. Available:
+https:
+//www.sciencedirect.com/science/article/pii/037594749500484X
+[27] S. Guo, “Comment on ”Transverse Wobbling in
+135Pr [Phys. Rev. Lett.
+114, 082501 (2015)]”,” 2021. [Online]. Available: https://arxiv.org/abs/2011.
+14364
+[28] S. Guo,
+C. Petrache,
+D. Mengoni,
+Y. Qiang,
+Y. Wang,
+Y. Wang,
+J. Meng, Y. Wang, S. Zhang, P. Zhao, A. Astier, J. Wang, H. Fan,
+E. Dupont, B. Lv, D. Bazzacco, A. Boso, A. Goasduﬀ, F. Recchia,

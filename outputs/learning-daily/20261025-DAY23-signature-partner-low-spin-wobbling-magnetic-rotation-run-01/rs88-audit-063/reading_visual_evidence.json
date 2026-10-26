@@ -1,0 +1,37 @@
+{
+  "scope": "Targeted independent reading, not full article",
+  "actually_viewed_pdf_pages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    17,
+    18
+  ],
+  "printed_pages": [
+    426,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    439,
+    440
+  ],
+  "identity_text_only_pdf3": true,
+  "key_claims_verified_from_images": true,
+  "ocr_quality": "poor; search aid only",
+  "raw_sha_unchanged": true,
+  "source_limits": [
+    "No author producer",
+    "No Ref1/10/11/28 direct fulltext",
+    "No independent new experiment",
+    "No model rerun",
+    "No general CI or mode validation"
+  ],
+  "needs_review": true
+}

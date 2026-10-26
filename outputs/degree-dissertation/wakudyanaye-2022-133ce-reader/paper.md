@@ -1,6 +1,6 @@
-# 133Ce学位论文逐段中英阅读工程（draft）
+# 133Ce学位论文逐段中英阅读工程（正文逐段对照，目录/参考保留原件）
 
-原件130页，SHA25648556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080。正文主线已读与全篇逐段翻译完成是不同状态。当前完成[Chapter4–5逐段对照](chapters-4-5/paper.md)；其它章节中文逐段对照待续，未用摘要冒充译文。
+原件130页，SHA25648556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080。正文主线已读与全篇逐段翻译完成是不同状态。当前完成[Chapter1–2逐段对照](chapters-1-2/paper.md)、[前置与Chapter7](front-back/paper.md)、[Chapter3逐段对照](chapter-3/paper.md)、[Chapter4–5逐段对照](chapters-4-5/paper.md)、[Chapter6逐段对照](chapter-6/paper.md)。正文Ch1–7与前置实质段落均有对照；目录/图表清单原图回退、74参考文献保留原文，未逐条中文翻译或独立验证，故不笼统称130页所有文字已译。长期深入学习继续，译稿完成不等于分析能力或科研问题已结项。
 
 [长期深入学习工程](../../../knowledge/projects/133ce-thesis-analysis-blueprint.md)和[source](../../../knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md)保存可复用事实、推导、反证和输入缺口。此处保存阅读交付，不作为第二事实源。source_map.json是全130页原生block位置，提取覆盖不等于逐块翻译或全部视觉核准。
 

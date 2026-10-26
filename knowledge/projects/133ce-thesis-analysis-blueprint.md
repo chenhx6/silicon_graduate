@@ -31,7 +31,7 @@ tags: [thesis, deep-learning, spectroscopy, qtr, analysis-blueprint]
 
 ## Evidence Available
 
-主source WK22-01–28提供原件定位与分层。所有新分析needs_review:true；“核过原字面”不等于实验/模式认证。正文主线已读，关键实验/模型图表已核；完整reader翻译仍draft。
+主source WK22-01–28提供原件定位与分层。所有新分析needs_review:true；“核过原字面”不等于实验/模式认证。正文主线已读，关键实验/模型图表已核；正文Ch1–7/前置逐段对照现已齐备，目录/参考保留原件；深入学习继续。
 
 
 ### 逐量、母态与未闭合矩阵
@@ -195,3 +195,26 @@ Eq3.22以$R=I-l-s$重写为$\Gamma(M1)=g_R I+(g_l-g_R)l+(g_s-g_R)s$（保留作�
 - [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-01–28为本工程直接原件边界。
 - [[ding-2021-131ba-133ce-signature-splitting]]为正宇称同源论文；[[alwaleedi-2013-band-structures-131ce]]和[[131ce-collective-mode-discrimination]]为分析工程参照，未把旧review状态转移到本工程。
 - [[frauendorf-2014-transverse-wobbling]]、[[chen-2019-transverse-wobbling-even-even]]保留支持链；[[lv-2022-evidence-against-wobbling-135pr]]、[[guo-2022-low-spin-wobbling-187au]]保逐线反证和独立性边界。
+
+
+## 单轨道投影、经典冻结与变分比较的三个边界
+
+来源动机为[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-18/29；selected lab单$j=11/2$、$P=\mathrm{span}\{|m=9/2\rangle,|m=-9/2\rangle\}$，$Q=1-P$、ħ=1，仅作解析控制，非真实轨道18或作者FA。对任一Hermitian $j_k$：
+
+$$Pj_k^2P-(Pj_kP)^2=Pj_kQj_kP=(Qj_kP)^\dagger(Qj_kP)\ge0.$$
+
+本P内$Pj_xP=Pj_yP=0$，但$Pj_x^2P=Pj_y^2P=31/4$、$Pj_z^2P=81/4$（均乘二维单位矩阵），最高权重$m=j$也仍有横向二阶矩$j/2=11/4$。因此限制内禀空间与严格经典向量零横向涨落是不同假设。压缩一阶算符不再自动满足完整su(2)；时间反演完整Kramers对子保持$T^2=-1$。本例P与原轨道18完整展开/BCS未等同，不能推出本核任何EM量或模式标签。
+
+在另一个人为外部spin-L2张量矩阵中取$A_x=1/3,A_y=2/5,A_z=1/2$，对$H=\sum_kA_k(X_k-j_k)^2$，精确$PHP$与把$Pj_kP$直接代入后平方的差为$(31/4)(A_x+A_y)\mathbf1=341/60\mathbf1$。固定A/此P下它只共同平移能量，不改变该空间内劈裂；I依赖惯量或不同block/不同空间之间不能统一当常数消去。此X不是已经验证的body-fixed总I实现，此H不产生133Ce谱或新δ。
+
+Rayleigh–Ritz只约束同一H、同参数/零点、真正嵌套空间的有序绝对能量。各空间分别减自己的ground不保相同gap单调：diag(0,1,100)限制到后两态给gap99而fullgap1；diag(0,99,100)同样限制给gap1而fullgap99。不同I、模型定标/组态映射变化更不能直接套用变分排序。原论文FA能量偏高可保留为作者解释，尚未由本练习复现实际两套输入/状态逐点对应。
+
+## QTR原方法与本论文输入不能合并
+
+[[ragnarsson-semmes-1988-particle-rotor-moments]] RS88-02/03/04/05/08/09/10给出具体核验项目：physical operator与stretched basis转换、bodyfixed I±的K作用、core-H的UU′+VV′配对与offdiagonal ξ、good-core-R基中的ERα、M1/E2及静态矩、gs=.7/coreQ microscopic与本论文gs=.6/Harris的版本差。程序名相同不能证明这些选项相同；coreR不是总I的无条件替代。
+
+原方法185Au Table2也有能量/部分rate可描述而一条M1/E2性质错配，Table3对两种strongcoupled候选给不同δ符号，是待原观测检验的模型预测；它们支持本工程按观测逐量检验的做法，不给187Au或133Ce新增实验票。所有新推导/综合needs_review:true，实际producer缺口保留。
+
+## 单粒子能、Fermi能和程序接口的未闭合输入
+
+[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-30核ε表头MeV/5.45–6.51与正宇称λ50.6/51.0的字面，现有文本未闭合共同零点/单位。不可凭背景ħω约8MeV把某一列自改成ħω单位，也不能把正宇称λ当负宇称输入。后续要保存各核素/宇称的GAMPN输出header、ASYMO λ/Δ、统一offset/换算、对应轨道ID和实际版本；未取得前不输入数值求BCS占据或产physicalδ。这个缺口不证明实际代码错，而是论文summary不足以直接复制输入。

@@ -1,0 +1,37 @@
+Bibliography
+116
+[55] S. W. Ødeg˚ard, G. B. Hagemann, D. R. Jensen, M. Bergstr¨om, B. Herskind,
+G. Sletten, S. T¨orm¨anen, J. N. Wilson, P. O. Tjøm, I. Hamamoto, K. Spohr,
+H. H¨ubel, A. G¨orgen, G. Sch¨onwasser, A. Bracco, S. Leoni, A. Maj, C. M.
+Petrache, P. Bednarczyk, and D. Curien, “Evidence for the Wobbling Mode
+in Nuclei,” Physical Review Letters, vol. 86, pp. 5866–5869, Jun 2001.
+[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevLett.86.5866
+[56] E. S. Paul, R. Ma, C. W. Beausang, S. A. Forbes, D. B. Fossan, J. Gizon,
+J. R. Hughes, Y. Liang, S. M. Mullins, P. J. Nolan, W. F. Piel, R. J. Poynter,
+P. H. Regan, R. Wadsworth, and N. Xu, “Electromagnetic properties of
+N=75 isotones: evidence for triaxiality at low spin,” Journal of Physics G:
+Nuclear and Particle Physics, vol. 17, no. 5, pp. 605–617, may 1991. [Online].
+Available: https://doi.org/10.1088/0954-3899/17/5/009
+[57] C. M. Petrache, Q. B. Chen, S. Guo, A. D. Ayangeakaa, U. Garg, J. T.
+Matta, B. K. Nayak, D. Patel, J. Meng, M. P. Carpenter, C. J. Chiara,
+R. V. F. Janssens, F. G. Kondev, T. Lauritsen, D. Seweryniak, S. Zhu, S. S.
+Ghugre, and R. Palit, “Triaxial-band structures, chirality, and magnetic
+rotation in 133La,” Physical Review C, vol. 94, p. 064309, Dec 2016. [Online].
+Available: https://link.aps.org/doi/10.1103/PhysRevC.94.064309
+[58] C. Petrache, P. Walker, S. Guo, Q. Chen, S. Frauendorf, Y. Liu, R. Wyss,
+D. Mengoni, Y. Qiang, A. Astier, E. Dupont, R. Li, B. Lv, K. Zheng,
+D. Bazzacco, A. Boso, A. Goasduﬀ, F. Recchia, D. Testov, F. Galtarossa,
+G. Jaworski, D. Napoli, S. Riccetto, M. Siciliano, J. Valiente-Dobon, M. Liu,
+X. Zhou, J. Wang, C. Andreoiu, F. Garcia, K. Ortner, K. Whitmore, T. B¨ack,
+B. Cederwall, E. Lawrie, I. Kuti, D. Sohler, J. Tim´ar, T. Marchlewski,
+J. Srebrny, and A. Tucholski, “Diversity of shapes and rotations in the
+γ-soft 130Ba nucleus: First observation of a t-band in the A = 130 mass
+region,” Physics Letters B, vol. 795, pp. 241–247, 2019. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/S0370269319304228
+[59] P. A. Pipidis, “Structural Behavior of
+157,158,159Dy in the I= 30- 50L
+Spin Regime and the High-Spin Domain of 158Er Up to and Above Band
+Termination.” Ph.D. dissertation, Florida State University, 2006. [Online].
+Available: https://diginole.lib.fsu.edu/islandora/object/fsu%3A168848
+[60] D. Radford, “ESCL8R and LEVIT8R: Software for interactive graphical
+analysis of HPGe coincidence data sets,” Nuclear Instruments and Methods

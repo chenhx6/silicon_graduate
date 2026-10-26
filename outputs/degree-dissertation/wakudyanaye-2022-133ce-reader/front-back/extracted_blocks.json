@@ -1,0 +1,6626 @@
+[
+  {
+    "pdf_page": 1,
+    "block": 0,
+    "bbox": [
+      160.63900756835938,
+      153.6041259765625,
+      471.2729187011719,
+      167.95013427734375
+    ],
+    "text": "UNIVERSITY OF THE WESTERN CAPE\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 1,
+    "bbox": [
+      114.80000305175781,
+      230.07012939453125,
+      517.2914428710938,
+      254.8571319580078
+    ],
+    "text": "Triaxiality and Rotational Bands\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 2,
+    "bbox": [
+      268.79498291015625,
+      261.4073486328125,
+      363.1225280761719,
+      291.9481506347656
+    ],
+    "text": "in 133Ce\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 3,
+    "bbox": [
+      305.94097900390625,
+      348.8463439941406,
+      325.9841003417969,
+      369.50933837890625
+    ],
+    "text": "by\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 4,
+    "bbox": [
+      226.156982421875,
+      382.7443542480469,
+      405.84246826171875,
+      403.4073486328125
+    ],
+    "text": "Ignasio Wakudyanaye\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 5,
+    "bbox": [
+      121.67898559570312,
+      457.453125,
+      510.2403564453125,
+      471.79913330078125
+    ],
+    "text": "A thesis submitted in conformity with the requirements for the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 6,
+    "bbox": [
+      229.8809814453125,
+      479.7071228027344,
+      402.0473327636719,
+      494.0531311035156
+    ],
+    "text": "degree of Magister Scientiae\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 7,
+    "bbox": [
+      298.00799560546875,
+      525.8721313476562,
+      333.90167236328125,
+      540.2181396484375
+    ],
+    "text": "in the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 8,
+    "bbox": [
+      260.6470031738281,
+      548.1261596679688,
+      371.26898193359375,
+      562.47216796875
+    ],
+    "text": "Faculty of Science\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 9,
+    "bbox": [
+      196.24899291992188,
+      570.3811645507812,
+      435.68377685546875,
+      584.7271728515625
+    ],
+    "text": "Department of Physics and Astronomy\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 10,
+    "bbox": [
+      157.41099548339844,
+      624.1741333007812,
+      469.8381042480469,
+      638.5201416015625
+    ],
+    "text": "Supervisor: Dr. Elena A. Lawrie (iThemba LABS)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 11,
+    "bbox": [
+      187.51300048828125,
+      646.4281616210938,
+      444.421142578125,
+      660.774169921875
+    ],
+    "text": "Co-Supervisor: Prof Jos´e N. Orce (UWC)\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 1,
+    "block": 12,
+    "bbox": [
+      275.583984375,
+      707.26708984375,
+      356.3567199707031,
+      724.4820556640625
+    ],
+    "text": "March 2022\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 2,
+    "block": 0,
+    "bbox": [
+      108.0,
+      122.858154296875,
+      248.81494140625,
+      147.64515686035156
+    ],
+    "text": "Declaration\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 2,
+    "block": 1,
+    "bbox": [
+      108.0,
+      329.2647705078125,
+      523.9861450195312,
+      341.2197570800781
+    ],
+    "text": "I, Ignasio Wakudyanaye, declare that this thesis “ Triaxiality and Rotational Bands\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 2,
+    "block": 2,
+    "bbox": [
+      108.0,
+      346.8201599121094,
+      523.9509887695312,
+      359.999755859375
+    ],
+    "text": "in 133Ce” is my own work, that it has not been submitted before for any degree or\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 2,
+    "block": 3,
+    "bbox": [
+      108.00000762939453,
+      366.8237609863281,
+      523.950439453125,
+      378.77874755859375
+    ],
+    "text": "assessment at any other university, and that all the sources I have used or quoted\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 2,
+    "block": 4,
+    "bbox": [
+      108.00000762939453,
+      385.603759765625,
+      477.8399658203125,
+      397.5587463378906
+    ],
+    "text": "have been indicated and acknowledged by means of complete references.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 2,
+    "block": 5,
+    "bbox": [
+      108.00000762939453,
+      526.0867309570312,
+      521.9707641601562,
+      538.041748046875
+    ],
+    "text": "Signature: . . . . . . . . . . . . . . . . . . . . . . . .\nDate: . . . . . . . . . . . . . . . . . . . . . . . .\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 2,
+    "block": 6,
+    "bbox": [
+      314.3310241699219,
+      775.7967529296875,
+      317.5827941894531,
+      787.7517700195312
+    ],
+    "text": "i\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 3,
+    "block": 0,
+    "bbox": [
+      108.0,
+      396.62579345703125,
+      523.9144287109375,
+      408.5807800292969
+    ],
+    "text": "“Physics is like sex: sure, it may give some practical results, but that’s not why\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 3,
+    "block": 1,
+    "bbox": [
+      108.0,
+      415.4057922363281,
+      163.88961791992188,
+      427.36077880859375
+    ],
+    "text": "we do it. ”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 3,
+    "block": 2,
+    "bbox": [
+      419.0539855957031,
+      457.4307861328125,
+      523.9234008789062,
+      469.3857727050781
+    ],
+    "text": "Richard P. Feynman\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 0,
+    "bbox": [
+      108.0,
+      124.5181884765625,
+      214.63368225097656,
+      149.30519104003906
+    ],
+    "text": "Abstract\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 1,
+    "bbox": [
+      108.0,
+      188.3018035888672,
+      523.9277954101562,
+      200.25680541992188
+    ],
+    "text": "The neutron-deﬁcient nuclei between the N = 50 and N = 82 shell closures provide\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 2,
+    "bbox": [
+      107.99996948242188,
+      205.8572540283203,
+      523.9086303710938,
+      219.03683471679688
+    ],
+    "text": "rich information on the shape and structure of the nucleus. The isotones of 133Ce\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 3,
+    "bbox": [
+      107.99996948242188,
+      224.63722229003906,
+      523.9561157226562,
+      237.81582641601562
+    ],
+    "text": "and 131Ba (N = 75) lie in this region of the nuclear chart. The properties of two\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 4,
+    "bbox": [
+      107.99998474121094,
+      244.64085388183594,
+      523.9261474609375,
+      258.4558410644531
+    ],
+    "text": "recently discovered positive-parity rotational bands based on the g7/2 orbital were\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 5,
+    "bbox": [
+      108.00003051757812,
+      262.19622802734375,
+      523.4122314453125,
+      275.3748474121094
+    ],
+    "text": "studied in this work. The rotational bands in both nuclei are based on the 7/2+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 6,
+    "bbox": [
+      108.00003051757812,
+      282.1998291015625,
+      523.97412109375,
+      294.1548156738281
+    ],
+    "text": "state.\nThe quasiparticle+triaxial rotor (QTR) model was used to understand\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 7,
+    "bbox": [
+      108.00003051757812,
+      300.9798583984375,
+      523.9264526367188,
+      312.9348449707031
+    ],
+    "text": "the dependence of the excitation energies and the signature splitting in these\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 8,
+    "bbox": [
+      108.00003051757812,
+      319.75885009765625,
+      523.9744873046875,
+      331.7138366699219
+    ],
+    "text": "bands as a function of triaxiality.\nIn addition to triaxiality, the eﬀects of the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 9,
+    "bbox": [
+      108.00003051757812,
+      338.5388488769531,
+      523.974365234375,
+      350.49383544921875
+    ],
+    "text": "Coriolis interaction on the excitation energies and the signature splitting was also\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 10,
+    "bbox": [
+      108.00003051757812,
+      357.31884765625,
+      172.126708984375,
+      369.2738342285156
+    ],
+    "text": "investigated.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 11,
+    "bbox": [
+      108.00003051757812,
+      386.38421630859375,
+      523.9109497070312,
+      399.5628356933594
+    ],
+    "text": "A new negative-parity band was also identiﬁed in the 133Ce nuclei. It is built on\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 12,
+    "bbox": [
+      108.0,
+      405.0599670410156,
+      523.9387817382812,
+      418.34283447265625
+    ],
+    "text": "the I = 13/2−state. Thirteen new intraband transitions and ﬁfteen new interband\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 13,
+    "bbox": [
+      107.99999237060547,
+      425.1668395996094,
+      523.9620971679688,
+      437.121826171875
+    ],
+    "text": "transitions linking this exited band to the yrast band are identiﬁed in this work.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 14,
+    "bbox": [
+      107.99999237060547,
+      442.61993408203125,
+      523.955078125,
+      456.8912048339844
+    ],
+    "text": "A triaxial one-quasiparticle ν(h11/2)−1[514]9/2−conﬁguration, with a triaxiality of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 15,
+    "bbox": [
+      108.0,
+      461.3989562988281,
+      523.921630859375,
+      474.68182373046875
+    ],
+    "text": "∼20◦is proposed for the structure. These new experimental results are compared\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 16,
+    "bbox": [
+      107.99999237060547,
+      481.5058288574219,
+      523.9620971679688,
+      493.4608154296875
+    ],
+    "text": "with two sets of QTR model calculations, (i) with a conﬁguration space of nine\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 17,
+    "bbox": [
+      107.99999237060547,
+      500.28582763671875,
+      523.9503173828125,
+      512.2408447265625
+    ],
+    "text": "negative-parity orbitals close to the Fermi level, which corresponds to a description\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 18,
+    "bbox": [
+      107.99999237060547,
+      519.0648193359375,
+      523.9359741210938,
+      531.0198364257812
+    ],
+    "text": "as a 3D tilted precession of the nucleus and (ii) with a conﬁguration space of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 19,
+    "bbox": [
+      108.0,
+      537.8447875976562,
+      523.9862060546875,
+      549.7998046875
+    ],
+    "text": "one negative-parity orbital (the frozen alignment approximation used previously\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 20,
+    "bbox": [
+      108.0,
+      556.6248168945312,
+      523.9501342773438,
+      568.579833984375
+    ],
+    "text": "to describe wobbling).\nThe QTR with a conﬁguration space of nine negative-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 21,
+    "bbox": [
+      108.0,
+      575.40380859375,
+      523.9385986328125,
+      587.3588256835938
+    ],
+    "text": "parity orbitals close to the Fermi level describes the experimentally observed band\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 22,
+    "bbox": [
+      108.0,
+      594.1837768554688,
+      358.5289611816406,
+      606.1387939453125
+    ],
+    "text": "properties better than the frozen alignment case.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 23,
+    "bbox": [
+      108.0,
+      653.2991943359375,
+      228.51438903808594,
+      678.086181640625
+    ],
+    "text": "Keywords\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 24,
+    "bbox": [
+      108.0,
+      693.6168212890625,
+      523.9743041992188,
+      705.5718383789062
+    ],
+    "text": "Signature Splitting, wobbling, Nuclear Triaxiality, Tilted Precession, Rotational\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 25,
+    "bbox": [
+      108.0,
+      712.3967895507812,
+      139.76443481445312,
+      724.351806640625
+    ],
+    "text": "Bands\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 4,
+    "block": 26,
+    "bbox": [
+      311.0789794921875,
+      775.7968139648438,
+      320.83428955078125,
+      787.7518310546875
+    ],
+    "text": "iii\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 0,
+    "bbox": [
+      108.0,
+      78.9671630859375,
+      339.41143798828125,
+      103.75416564941406
+    ],
+    "text": "Acknowledgements\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 1,
+    "bbox": [
+      108.0,
+      247.0258026123047,
+      381.2674560546875,
+      258.9808044433594
+    ],
+    "text": "First and foremost, I thank myself, for coming so far!\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 2,
+    "bbox": [
+      108.0,
+      271.7828369140625,
+      523.9740600585938,
+      283.7378234863281
+    ],
+    "text": "I would like to thank my family for giving me their unwavering support to further\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 3,
+    "bbox": [
+      108.0,
+      290.56182861328125,
+      523.9501953125,
+      302.5168151855469
+    ],
+    "text": "my education. Under their guidance and support, I had come so far up to this\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 4,
+    "bbox": [
+      108.0,
+      309.34185791015625,
+      276.0394287109375,
+      321.2968444824219
+    ],
+    "text": "point. Further still, I have to go.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 5,
+    "bbox": [
+      108.0,
+      334.0988464355469,
+      523.9503173828125,
+      346.0538330078125
+    ],
+    "text": "I would especially like to express my eternal gratitude to my supervisor Dr Elena\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 6,
+    "bbox": [
+      108.0,
+      352.87884521484375,
+      523.9981079101562,
+      364.8338317871094
+    ],
+    "text": "Lawrie for her outstanding guidance, inspiration and motivation. Thank you for\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 7,
+    "bbox": [
+      108.0,
+      371.6578369140625,
+      523.950439453125,
+      383.6128234863281
+    ],
+    "text": "being so understanding and patient with me. I would also like to thank my co-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 8,
+    "bbox": [
+      108.0,
+      390.4378356933594,
+      523.9502563476562,
+      402.392822265625
+    ],
+    "text": "supervisor Prof Jos´e Nicol´as Orce for his support and guidance during my studies.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 9,
+    "bbox": [
+      108.0,
+      415.19482421875,
+      523.96240234375,
+      427.1498107910156
+    ],
+    "text": "I would also like to thank my co-workers from the nuclear structure group at\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 10,
+    "bbox": [
+      108.0,
+      433.9748229980469,
+      523.9503173828125,
+      445.9298095703125
+    ],
+    "text": "iThemba LABS and the Nuclear Warriors group from UWC. To the department\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 11,
+    "bbox": [
+      108.0,
+      452.7538146972656,
+      523.9385375976562,
+      464.70880126953125
+    ],
+    "text": "of physics and astronomy at the University of the Western Cape, iThemba LABS,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 12,
+    "bbox": [
+      108.0,
+      471.5338134765625,
+      523.974365234375,
+      483.4888000488281
+    ],
+    "text": "and the National Research Foundation (NRF) of South Africa, I extend my grati-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 13,
+    "bbox": [
+      108.0,
+      490.3138122558594,
+      523.9503784179688,
+      502.268798828125
+    ],
+    "text": "tude for providing ﬁnancial assistance for my studies through the MANuS/MatSci\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 14,
+    "bbox": [
+      108.0,
+      509.09283447265625,
+      154.19412231445312,
+      521.0478515625
+    ],
+    "text": "program.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 15,
+    "bbox": [
+      108.0,
+      533.8497924804688,
+      523.9382934570312,
+      545.8048095703125
+    ],
+    "text": "Indeed, the list of people that have helped me to this point is long, and I’m very\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 16,
+    "bbox": [
+      108.0,
+      552.6298217773438,
+      523.9624633789062,
+      564.5848388671875
+    ],
+    "text": "lucky and grateful for that! To everyone else who has been part of my journey so\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 5,
+    "block": 17,
+    "bbox": [
+      108.0,
+      571.4097900390625,
+      431.1555480957031,
+      583.3648071289062
+    ],
+    "text": "far, THANK YOU SO MUCH! especially Prof Robert Lindsay.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 6,
+    "block": 0,
+    "bbox": [
+      108.0,
+      154.40618896484375,
+      216.98843383789062,
+      179.1931915283203
+    ],
+    "text": "Contents\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 6,
+    "block": 1,
+    "bbox": [
+      108.0,
+      231.43382263183594,
+      523.9149169921875,
+      243.38882446289062
+    ],
+    "text": "Declaration of Authorship\ni\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 6,
+    "block": 2,
+    "bbox": [
+      107.99996948242188,
+      270.287841796875,
+      523.9267578125,
+      282.2428283691406
+    ],
+    "text": "Abstract\niii\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 6,
+    "block": 3,
+    "bbox": [
+      107.99993896484375,
+      309.141845703125,
+      523.9267578125,
+      321.0968322753906
+    ],
+    "text": "Keywords\niii\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 6,
+    "block": 4,
+    "bbox": [
+      107.99993896484375,
+      347.995849609375,
+      523.9141235351562,
+      359.9508361816406
+    ],
+    "text": "Acknowledgements\niv\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 6,
+    "block": 5,
+    "bbox": [
+      107.99990844726562,
+      386.849853515625,
+      523.93798828125,
+      398.8048400878906
+    ],
+    "text": "List of Figures\nviii\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 6,
+    "block": 6,
+    "bbox": [
+      107.99990844726562,
+      413.99786376953125,
+      523.9141235351562,
+      425.9528503417969
+    ],
+    "text": "List of Tables\nx\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 6,
+    "block": 7,
+    "bbox": [
+      107.9998779296875,
+      464.557861328125,
+      523.9265747070312,
+      491.954833984375
+    ],
+    "text": "1\nIntroduction\n1\n1.1\nIntroduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n1\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 6,
+    "block": 8,
+    "bbox": [
+      107.99992370605469,
+      507.14788818359375,
+      523.92724609375,
+      688.9658203125
+    ],
+    "text": "2\nTheoretical Framework\n4\n2.1\nIntroduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n4\n2.2\nNuclear Potentials and The Shell Model\n. . . . . . . . . . . . . . .\n5\n2.2.1\nThe Spin-Orbit Term . . . . . . . . . . . . . . . . . . . . . .\n8\n2.3\nNuclear Deformations . . . . . . . . . . . . . . . . . . . . . . . . . .\n10\n2.3.1\nThe Nilsson Model . . . . . . . . . . . . . . . . . . . . . . .\n11\n2.4\nNuclear Collectivity . . . . . . . . . . . . . . . . . . . . . . . . . . .\n17\n2.4.1\nNuclear Rotations . . . . . . . . . . . . . . . . . . . . . . . .\n17\n2.4.2\nParticle-Rotor Coupling\n. . . . . . . . . . . . . . . . . . . .\n18\n2.4.2.1\nStrong-coupling limit . . . . . . . . . . . . . . . . .\n19\n2.4.2.2\nRotational alignment limit . . . . . . . . . . . . . .\n22\n2.5\nSignature splitting\n. . . . . . . . . . . . . . . . . . . . . . . . . . .\n22\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 6,
+    "block": 9,
+    "bbox": [
+      107.99995422363281,
+      704.1588134765625,
+      523.9332275390625,
+      762.4408569335938
+    ],
+    "text": "3\nNuclear Triaxiality\n25\n3.1\nIntroduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n25\n3.2\nThe Asymmetric Particle-Plus-Rotor Model\n. . . . . . . . . . . . .\n25\n3.2.1\nTilted-precession bands . . . . . . . . . . . . . . . . . . . . .\n27\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 6,
+    "block": 10,
+    "bbox": [
+      312.8679504394531,
+      775.7968139648438,
+      319.0486755371094,
+      787.7518310546875
+    ],
+    "text": "v\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 7,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.91650390625,
+      61.40378189086914
+    ],
+    "text": "Contents\nvi\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 7,
+    "block": 1,
+    "bbox": [
+      125.55899047851562,
+      83.73778533935547,
+      523.9288330078125,
+      203.78689575195312
+    ],
+    "text": "3.2.2\nNuclear wobbling motion . . . . . . . . . . . . . . . . . . . .\n32\n3.3\nThe Quasiparticle-Plus-Triaxial Rotor (QTR) Model Formalism . .\n34\n3.3.1\nQTR energies and wavefunctions\n. . . . . . . . . . . . . . .\n34\n3.3.2\nQTR transitions probabilities\n. . . . . . . . . . . . . . . . .\n37\n3.4\nQTR Model Calculations . . . . . . . . . . . . . . . . . . . . . . . .\n38\n3.4.1\nGAMPN . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n38\n3.4.2\nASYMO . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n39\n3.4.3\nPROBMO . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n39\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 7,
+    "block": 2,
+    "bbox": [
+      108.00001525878906,
+      218.9799041748047,
+      523.9277954101562,
+      369.9139404296875
+    ],
+    "text": "4\nExperimental Techniques\n40\n4.1\nIntroduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n40\n4.2\nHeavy-Ion Fusion Evaporation . . . . . . . . . . . . . . . . . . . . .\n40\n4.3\nGamma Decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n41\n4.4\nDetection of Gamma Radiation\n. . . . . . . . . . . . . . . . . . . .\n42\n4.5\nThe AFRODITE Detector Array\n. . . . . . . . . . . . . . . . . . .\n43\n4.6\nData Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n43\n4.7\nCorrelations of Gamma Ray Transitions\n. . . . . . . . . . . . . . .\n46\n4.7.1\nAngular Distribution . . . . . . . . . . . . . . . . . . . . . .\n46\n4.7.2\nAngular Correlations . . . . . . . . . . . . . . . . . . . . . .\n47\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 7,
+    "block": 3,
+    "bbox": [
+      108.00007629394531,
+      385.1069641113281,
+      523.933349609375,
+      566.9248046875
+    ],
+    "text": "5\nResults\n49\n5.1\nIntroduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n49\n5.2\n133Ce Results\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n50\n5.2.1\nExperimental Details . . . . . . . . . . . . . . . . . . . . . .\n50\n5.2.2\n133Ce Experimental Results\n. . . . . . . . . . . . . . . . . .\n50\n5.2.2.1\nThe Negative-Parity Bands\n. . . . . . . . . . . . .\n50\n5.2.2.2\nThe Positive-Parity Bands . . . . . . . . . . . . . .\n52\n5.3\n131Ba Results\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n61\n5.3.1\nExperimental Details . . . . . . . . . . . . . . . . . . . . . .\n61\n5.3.2\n131Ba Experimental Results\n. . . . . . . . . . . . . . . . . .\n61\n5.3.2.1\nThe Negative-Parity Band . . . . . . . . . . . . . .\n62\n5.3.2.2\nThe Positive-Parity Bands . . . . . . . . . . . . . .\n63\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 7,
+    "block": 4,
+    "bbox": [
+      108.00006103515625,
+      582.1188354492188,
+      523.933349609375,
+      763.8038330078125
+    ],
+    "text": "6\nDiscussion\n64\n6.1\nIntroduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n64\n6.2\nPart I: Interpretation of the g7/2[404]7/2+ structures in 133Ce and\n131Ba . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n65\n6.2.1\nSignature splitting in Band 2 of 133Ce . . . . . . . . . . . . .\n66\n6.2.2\nSignature splitting in Band 2 of 131Ba . . . . . . . . . . . . .\n76\n6.2.3\nSignature splitting in the πg7/2[404]7/2+ bands of the Z =\n75 isotopes . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n85\n6.2.4\nSummary of Part I . . . . . . . . . . . . . . . . . . . . . . .\n86\n6.3\nPart II: Interpretation of the negative-parity structure in 133Ce . . .\n87\n6.3.1\nIntroduction . . . . . . . . . . . . . . . . . . . . . . . . . . .\n87\n6.3.2\nTilted precession (TiP) interpretation for h11/2 bands in 133Ce 87\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 8,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.916259765625,
+      61.40378189086914
+    ],
+    "text": "Contents\nvii\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 8,
+    "block": 1,
+    "bbox": [
+      152.4829864501953,
+      83.73778533935547,
+      523.9279174804688,
+      141.02279663085938
+    ],
+    "text": "6.3.3\nThe frozen alignment (FA) approximation for h11/2 Bands\nin 133Ce\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n96\n6.3.4\nElectromagnetic Properties . . . . . . . . . . . . . . . . . . .\n99\n6.3.5\nSummary of Part II . . . . . . . . . . . . . . . . . . . . . . . 104\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 8,
+    "block": 2,
+    "bbox": [
+      107.99998474121094,
+      156.21580505371094,
+      523.9329223632812,
+      168.17080688476562
+    ],
+    "text": "7\nConclusion\n105\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 8,
+    "block": 3,
+    "bbox": [
+      107.99996948242188,
+      230.1877899169922,
+      523.9329223632812,
+      242.14279174804688
+    ],
+    "text": "Bibliography\n108\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 9,
+    "block": 0,
+    "bbox": [
+      108.0,
+      154.40618896484375,
+      285.3014221191406,
+      179.1931915283203
+    ],
+    "text": "List of Figures\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 9,
+    "block": 1,
+    "bbox": [
+      125.55899047851562,
+      219.7278289794922,
+      523.9277954101562,
+      339.77691650390625
+    ],
+    "text": "2.1\nNuclear potentials . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n7\n2.2\nNuclear shell structure with various potentials . . . . . . . . . . . .\n9\n2.3\nThe Lund convention . . . . . . . . . . . . . . . . . . . . . . . . . .\n12\n2.4\nAngular momentum coupling in the Nilsson model . . . . . . . . . .\n14\n2.5\nNilsson diagram for neutrons . . . . . . . . . . . . . . . . . . . . . .\n15\n2.6\nNilsson diagram for protons\n. . . . . . . . . . . . . . . . . . . . . .\n16\n2.7\nParticle-core coupling . . . . . . . . . . . . . . . . . . . . . . . . . .\n20\n2.8\nStaggering curve\n. . . . . . . . . . . . . . . . . . . . . . . . . . . .\n24\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 9,
+    "block": 2,
+    "bbox": [
+      125.55902099609375,
+      353.2269287109375,
+      523.9393310546875,
+      396.0658874511719
+    ],
+    "text": "3.1\nIrrotational-ﬂow MoIs\n. . . . . . . . . . . . . . . . . . . . . . . . .\n26\n3.2\nSpectrum of a triaxial even-even rotor . . . . . . . . . . . . . . . . .\n28\n3.3\nTip bands based on h11/2 conﬁguration\n. . . . . . . . . . . . . . .\n31\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 9,
+    "block": 3,
+    "bbox": [
+      125.55902099609375,
+      409.5158996582031,
+      523.927001953125,
+      466.8008728027344
+    ],
+    "text": "4.1\nDetector orientation in the AFRODITE array . . . . . . . . . . . .\n44\n4.2\nSchematic representation of a symmetric γ-γ matrix . . . . . . . . .\n45\n4.3\nSchematic diagram showing coincidences between γ rays on the\nsame decay path\n. . . . . . . . . . . . . . . . . . . . . . . . . . . .\n46\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 9,
+    "block": 4,
+    "bbox": [
+      125.55900573730469,
+      479.0262756347656,
+      523.9056396484375,
+      538.5318603515625
+    ],
+    "text": "5.1\n133Ce partial level scheme\n. . . . . . . . . . . . . . . . . . . . . . .\n54\n5.2\n133Ce Band 4 gated spectra\n. . . . . . . . . . . . . . . . . . . . . .\n57\n5.3\n133Ce Band 2 gated spectra\n. . . . . . . . . . . . . . . . . . . . . .\n59\n5.4\n131Ba partial level scheme\n. . . . . . . . . . . . . . . . . . . . . . .\n62\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 9,
+    "block": 5,
+    "bbox": [
+      125.55890655517578,
+      551.9818725585938,
+      523.9168701171875,
+      742.267822265625
+    ],
+    "text": "6.1\nThe energy spectra E(I) and signature splitting S(I) for Band 2 of\n133Ce at γ = 0◦and 10◦, and Coriolis interaction (χ) at full strength. 69\n6.2\nThe energy spectra E(I) and signature splitting S(I) for Band 2 of\n133Ce at γ = 15◦and 20◦, and Coriolis interaction (χ) at full strength. 70\n6.3\nQTR model wavefunctions for Band 2 of 133Ce . . . . . . . . . . . .\n72\n6.4\nThe energy spectra E(I) and signature splitting S(I) for Band 2 of\n133Ce at γ = 0◦and 10◦, and Coriolis interaction (χ) at 70% of the\nusual strength.\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n74\n6.5\nThe energy spectra E(I) and signature splitting S(I) for Band 2\nof 133Ce at γ = 15◦and 20◦, and Coriolis interaction at 70% of the\nusual strength.\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n75\n6.6\nThe energy spectra E(I) and signature splitting S(I) for Band 2 of\n131Ba at γ = 0◦and 10◦, and Coriolis interaction (χ) at full strength. 78\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 9,
+    "block": 6,
+    "bbox": [
+      307.9898986816406,
+      775.7968139648438,
+      323.9259338378906,
+      787.7518310546875
+    ],
+    "text": "viii\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 10,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.91650390625,
+      61.40378189086914
+    ],
+    "text": "List of Figures\nix\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 10,
+    "block": 1,
+    "bbox": [
+      125.55888366699219,
+      83.73778533935547,
+      523.9263305664062,
+      321.3458557128906
+    ],
+    "text": "6.7\nThe energy spectra E(I) and signature splitting S(I) for Band 2\n131Ba at γ = 15◦and 20◦, and Coriolis interaction (χ) at full strength. 79\n6.8\n131Ba νg7/2(404)7/2+ Wave functions . . . . . . . . . . . . . . . . .\n81\n6.9\nThe energy spectra E(I) and signature splitting S(I) for Band 2 of\n131Ba at γ = 0◦and 10◦, and Coriolis interaction (χ) at 70% of the\nusual strength.\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n83\n6.10 The energy spectra E(I) and signature splitting S(I) for Band 2 of\n131Ba at γ = 15◦and 20◦, and Coriolis interaction (χ) at 70% of\nthe usual strength.\n. . . . . . . . . . . . . . . . . . . . . . . . . . .\n84\n6.11 Excitation energy, E(I) and S(I) plot for Band 1 and Band 4 in 133Ce 90\n6.12 133Ce Yrast band wave functions . . . . . . . . . . . . . . . . . . . .\n92\n6.13 133Ce Band 4 Wave functions plot . . . . . . . . . . . . . . . . . . .\n94\n6.14 133Ce νh11/2(514)9/2−HFA approximation . . . . . . . . . . . . . .\n98\n6.15 Mixing ratios, δE2/M1 . . . . . . . . . . . . . . . . . . . . . . . . . . 102\n6.16 Electromagnetic ratios for connecting transitions from Band 4 to\nBand 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 11,
+    "block": 0,
+    "bbox": [
+      108.0,
+      154.40618896484375,
+      273.0318298339844,
+      179.1931915283203
+    ],
+    "text": "List of Tables\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 11,
+    "block": 1,
+    "bbox": [
+      125.55899810791016,
+      219.7278289794922,
+      523.923583984375,
+      231.68283081054688
+    ],
+    "text": "4.1\nγ decay selection rules\n. . . . . . . . . . . . . . . . . . . . . . . . .\n42\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 11,
+    "block": 2,
+    "bbox": [
+      125.55897521972656,
+      243.90821838378906,
+      523.9223022460938,
+      303.4138488769531
+    ],
+    "text": "5.1\nTransitions in the yrast band of 133Ce . . . . . . . . . . . . . . . . .\n55\n5.2\nTransitions in Band 4 of 133Ce . . . . . . . . . . . . . . . . . . . . .\n56\n5.3\nTransitions in Band 2 of 133Ce . . . . . . . . . . . . . . . . . . . . .\n58\n5.4\nTransitions in Band 3 of 133Ce . . . . . . . . . . . . . . . . . . . . .\n60\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 11,
+    "block": 3,
+    "bbox": [
+      125.55891418457031,
+      316.8638916015625,
+      523.9248046875,
+      526.5767822265625
+    ],
+    "text": "6.1\nDeformation parameters . . . . . . . . . . . . . . . . . . . . . . . .\n66\n6.2\nNeutron single-particle orbitals for the νg7/2(404)7/2+ band in 133Ce 67\n6.3\nMain components of the QTR model wave functions for states in\nBand 2 of 133Ce . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n71\n6.4\nQTR model positive-parity neutron orbitals for 131Ba . . . . . . . .\n77\n6.5\nMain components of the QTR model wave functions for states in\nBand 2 of 131Ba . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n80\n6.6\nNegative-parity single-particle orbitals of 133Ce . . . . . . . . . . . .\n88\n6.7\nQTR model wavefunctions for states in the Band 1 of 133Ce . . . . .\n91\n6.8\nBand 4 of 133Ce Wave functions . . . . . . . . . . . . . . . . . . . .\n93\n6.9\nQTR model electromagnetic transition properties for Band 4 of 133Ce100\n6.10 QTR model electromagnetic transition properties for Band 4 of\n133Ce with FA approximation\n. . . . . . . . . . . . . . . . . . . . . 100\n6.11 experimental electromagnetic transition properties for Band 4 of 133Ce101\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 11,
+    "block": 4,
+    "bbox": [
+      312.8678894042969,
+      775.7968139648438,
+      319.0486145019531,
+      787.7518310546875
+    ],
+    "text": "x\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 0,
+    "bbox": [
+      108.0,
+      172.671142578125,
+      230.91873168945312,
+      197.45814514160156
+    ],
+    "text": "Chapter 7\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 1,
+    "bbox": [
+      108.0,
+      241.7451171875,
+      241.45321655273438,
+      266.5321350097656
+    ],
+    "text": "Conclusion\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 2,
+    "bbox": [
+      108.0,
+      319.47509765625,
+      523.916748046875,
+      332.6537170410156
+    ],
+    "text": "Detailed data sets were collected and analyzed in the N = 75 isotones of 133Ce and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 3,
+    "bbox": [
+      107.99996948242188,
+      338.2550964355469,
+      523.9649658203125,
+      351.4337158203125
+    ],
+    "text": "131Ba within a collaboration consisting of researchers from South Africa, China and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 4,
+    "bbox": [
+      107.99996948242188,
+      357.03411865234375,
+      523.9390869140625,
+      370.2137145996094
+    ],
+    "text": "France. The 133Ce experiment was conducted at the separated sector cyclotron of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 5,
+    "bbox": [
+      107.99998474121094,
+      375.8140869140625,
+      523.9055786132812,
+      388.9927062988281
+    ],
+    "text": "iThemba LABS near Cape Town, South Africa, while the 131Ba experiment was\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 6,
+    "bbox": [
+      108.0,
+      395.8177185058594,
+      523.9981689453125,
+      407.772705078125
+    ],
+    "text": "carried out at the XTU Tandem accelerator of Laborotori Nazionali di Legnaro,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 7,
+    "bbox": [
+      108.0,
+      414.5967102050781,
+      134.33685302734375,
+      426.55169677734375
+    ],
+    "text": "Italy.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 8,
+    "bbox": [
+      108.0,
+      443.6717224121094,
+      523.9061889648438,
+      455.626708984375
+    ],
+    "text": "The γ-decay spectroscopy on these experiments revealed a number of new results.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 9,
+    "bbox": [
+      108.0,
+      458.1127014160156,
+      523.9189453125,
+      474.40570068359375
+    ],
+    "text": "One positive-parity band built on the Iπ = 7/2+ state was discovered in both\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 10,
+    "bbox": [
+      108.0,
+      480.007080078125,
+      523.9086303710938,
+      493.1856994628906
+    ],
+    "text": "133Ce and 131Ba nuclei. As part of this work the γ-γ coincidence from the 133Ce\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 11,
+    "bbox": [
+      108.0,
+      500.0107116699219,
+      523.9263916015625,
+      511.9656982421875
+    ],
+    "text": "data was studied. The performed γ-coincidence analysis revealed a new strongly\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 12,
+    "bbox": [
+      108.0,
+      517.5661010742188,
+      523.9323120117188,
+      530.7447509765625
+    ],
+    "text": "coupled positive-parity band in 133Ce, consisting of nine new transitions and four\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 13,
+    "bbox": [
+      108.0,
+      536.3450927734375,
+      523.9656372070312,
+      549.5247192382812
+    ],
+    "text": "new levels. The analysis of the 131Ba data was carried out by the collaborators.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 14,
+    "bbox": [
+      108.0,
+      556.3486938476562,
+      523.9384155273438,
+      568.3037109375
+    ],
+    "text": "It revealed thirteen new transitions and eight new levels, in a similar strongly\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 15,
+    "bbox": [
+      108.0,
+      570.7907104492188,
+      523.9266357421875,
+      587.083740234375
+    ],
+    "text": "coupled positive-parity band built on the Iπ = 7/2+ state. Both bands show a\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 16,
+    "bbox": [
+      108.0,
+      593.90869140625,
+      270.79119873046875,
+      605.8637084960938
+    ],
+    "text": "considerable signature splitting.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 17,
+    "bbox": [
+      108.0,
+      622.9827270507812,
+      523.9503784179688,
+      634.937744140625
+    ],
+    "text": "The collaborators provided potential energy surface (PES) calculations, which\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 18,
+    "bbox": [
+      108.0,
+      640.434814453125,
+      523.4130859375,
+      655.5107421875
+    ],
+    "text": "suggested a quadruple deformation of ε2 = 0.185 and a γ deformation of γ ∼10◦\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 19,
+    "bbox": [
+      108.00003051757812,
+      659.2147827148438,
+      523.4130859375,
+      674.2907104492188
+    ],
+    "text": "for 133Ce and a quadruple deformation of ε2 = 0.170 and a γ deformation of γ ∼9◦\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 20,
+    "bbox": [
+      108.00003051757812,
+      678.0970458984375,
+      523.9661254882812,
+      691.2767333984375
+    ],
+    "text": "for 131Ba. The interpretation of the two bands was carried out as part of this work.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 21,
+    "bbox": [
+      108.00003051757812,
+      698.1016845703125,
+      447.03192138671875,
+      710.0567016601562
+    ],
+    "text": "It is based on quasiparticle-plus-triaxial rotor (QTR) calculations.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 22,
+    "bbox": [
+      108.00003051757812,
+      727.1756591796875,
+      523.9622802734375,
+      739.1306762695312
+    ],
+    "text": "A detailed QTR study of these positive-parity bands was carried out as part of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 23,
+    "bbox": [
+      108.00003051757812,
+      745.9556884765625,
+      523.9384765625,
+      757.9107055664062
+    ],
+    "text": "this work. A space of ten QTR model orbitals close to the Fermi level was used\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 116,
+    "block": 24,
+    "bbox": [
+      307.1770324707031,
+      775.7966918945312,
+      324.7508544921875,
+      787.751708984375
+    ],
+    "text": "105\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Chapter 7. Conclusion\n106\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.58284759521484,
+      523.9276733398438,
+      95.69278717041016
+    ],
+    "text": "in the calculations.\nThe bands are mainly based on QTR orbital |ν⟩= |20⟩,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 2,
+    "bbox": [
+      108.00003051757812,
+      102.51677703857422,
+      523.9650268554688,
+      114.4717788696289
+    ],
+    "text": "with a projection of 7/2 on the long axis, which corresponds approximately to the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 3,
+    "bbox": [
+      108.00003814697266,
+      116.95879364013672,
+      523.9115600585938,
+      134.24119567871094
+    ],
+    "text": "νg7/2[404]7/2+ Nilsson orbital. The calculations for 133Ce were consistent with a\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 4,
+    "bbox": [
+      108.0,
+      138.74896240234375,
+      523.9181518554688,
+      152.03182983398438
+    ],
+    "text": "triaxiality of 0◦≤γ ≤15◦, while for 131Ba, a triaxiality of γ ∼15◦was required\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 5,
+    "bbox": [
+      108.00003051757812,
+      158.85581970214844,
+      523.9623413085938,
+      170.81082153320312
+    ],
+    "text": "to reproduce the observed excitation energies and energy staggering of the bands.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 6,
+    "bbox": [
+      108.00003051757812,
+      177.63584899902344,
+      523.9502563476562,
+      189.59085083007812
+    ],
+    "text": "In addition, it was found that the bands in both nuclei are strongly inﬂuenced\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 7,
+    "bbox": [
+      108.00003051757812,
+      196.4148406982422,
+      523.9505004882812,
+      208.36984252929688
+    ],
+    "text": "by the Coriolis interaction which causes re-alignment of the angular momentum\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 8,
+    "bbox": [
+      108.00003051757812,
+      215.1948699951172,
+      523.9190673828125,
+      229.00985717773438
+    ],
+    "text": "of the νg7/2 neutron away from the long axis. Furthermore, the nearby νs1/2 and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 9,
+    "bbox": [
+      108.00006103515625,
+      233.9748992919922,
+      523.9349975585938,
+      247.78890991210938
+    ],
+    "text": "νd3/2 orbitals which have a signiﬁcant K = 1/2 component in their wave functions\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 10,
+    "bbox": [
+      108.00007629394531,
+      252.75389099121094,
+      523.9451904296875,
+      266.5688781738281
+    ],
+    "text": "strongly mix with the dominant νg7/2 conﬁguration of the band. The theoretical\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 11,
+    "bbox": [
+      108.00006103515625,
+      271.533935546875,
+      523.9143676757812,
+      283.4889221191406
+    ],
+    "text": "results presented in this work were included in a paper that was just published in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 12,
+    "bbox": [
+      108.00006103515625,
+      290.31396484375,
+      229.032470703125,
+      302.2689514160156
+    ],
+    "text": "Physical Review C [22].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 13,
+    "bbox": [
+      108.00006103515625,
+      318.163330078125,
+      523.90869140625,
+      331.3429260253906
+    ],
+    "text": "As part of this work, the analysis of the coincidence relationships in the 133Ce\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 14,
+    "bbox": [
+      108.00006103515625,
+      338.1679382324219,
+      523.9505615234375,
+      350.1229248046875
+    ],
+    "text": "data was carried out. It revealed many new transitions that were placed in a new\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 15,
+    "bbox": [
+      108.00006103515625,
+      352.6089172363281,
+      523.9180297851562,
+      368.90191650390625
+    ],
+    "text": "negative-parity band built above the Iπ = 13/2−state. Thirteen new intraband\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 16,
+    "bbox": [
+      108.00006103515625,
+      375.7269287109375,
+      523.9146728515625,
+      387.6819152832031
+    ],
+    "text": "and ﬁfteen interband transitions, and eight new levels were discovered. The spin\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 17,
+    "bbox": [
+      108.00006103515625,
+      394.50592041015625,
+      523.9622802734375,
+      406.4609069824219
+    ],
+    "text": "and parity assignments of the new levels and the mixing ratios of the transitions\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 18,
+    "bbox": [
+      108.00006103515625,
+      413.2859191894531,
+      523.9383544921875,
+      425.24090576171875
+    ],
+    "text": "were performed by our Chinese collaborators. The new band decays to a known\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 19,
+    "bbox": [
+      108.00006103515625,
+      430.738037109375,
+      523.939453125,
+      445.0093078613281
+    ],
+    "text": "negative-parity band with ν(h11/2)−1[514]9/2−conﬁguration. The interpretation\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 20,
+    "bbox": [
+      108.00006103515625,
+      450.84490966796875,
+      523.9503784179688,
+      462.7998962402344
+    ],
+    "text": "of the known yrast band and the new excited negative-parity bands was performed\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 21,
+    "bbox": [
+      108.00006103515625,
+      469.6249084472656,
+      523.9622192382812,
+      481.57989501953125
+    ],
+    "text": "as part of this work. The measured mixing ratios for the transitions of these bands\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 22,
+    "bbox": [
+      108.00006103515625,
+      488.4039001464844,
+      468.7539978027344,
+      500.35888671875
+    ],
+    "text": "precludes an interpretation of these bands as possible wobbling bands.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 23,
+    "bbox": [
+      108.00006103515625,
+      517.4789428710938,
+      523.9503784179688,
+      529.4339599609375
+    ],
+    "text": "Detailed QTR model calculations were carried for these negative-parity bands in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 24,
+    "bbox": [
+      108.00006103515625,
+      535.0343017578125,
+      523.9293212890625,
+      548.2129516601562
+    ],
+    "text": "133Ce. Nine QTR orbitals close to the Fermi level with negative-parity were used\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 25,
+    "bbox": [
+      108.00006103515625,
+      555.0379028320312,
+      523.9044189453125,
+      568.8529052734375
+    ],
+    "text": "in the calculations. Six of the orbitals used were from the h11/2 sub-shell with\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 26,
+    "bbox": [
+      108.00009155273438,
+      573.8179321289062,
+      523.9644165039062,
+      585.77294921875
+    ],
+    "text": "projections on the long axis of 1/2 to 11/2. The yrast band is mainly built on the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 27,
+    "bbox": [
+      108.00009155273438,
+      592.596923828125,
+      523.96142578125,
+      606.4119262695312
+    ],
+    "text": "h11/2 orbital with a single-particle projection of 9/2 on the long axis. The excited\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 28,
+    "bbox": [
+      108.00008392333984,
+      608.7650756835938,
+      523.975341796875,
+      623.3319091796875
+    ],
+    "text": "band is built on a state with an extra 2ℏof rotational angular momentum along\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 29,
+    "bbox": [
+      108.00007629394531,
+      630.1559448242188,
+      523.9743041992188,
+      642.1109619140625
+    ],
+    "text": "the long axis than the yrast band.\nThe calculations revealed that in addition\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 30,
+    "bbox": [
+      108.00007629394531,
+      648.9359130859375,
+      523.9263916015625,
+      662.7509155273438
+    ],
+    "text": "to the h11/2 orbital with projection of 9/2 on the long axis, the h11/2 orbitals\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 31,
+    "bbox": [
+      108.00009155273438,
+      667.7158813476562,
+      523.9983520507812,
+      679.6708984375
+    ],
+    "text": "with projections of 5/2, 7/2 and 11/2 also play a signiﬁcant role in the states of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 32,
+    "bbox": [
+      108.00009155273438,
+      686.4949340820312,
+      523.9384765625,
+      698.449951171875
+    ],
+    "text": "both bands. The mixing of these components generates the observed large energy\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 33,
+    "bbox": [
+      108.00009155273438,
+      705.27490234375,
+      240.8798828125,
+      717.2299194335938
+    ],
+    "text": "staggering in these bands.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 34,
+    "bbox": [
+      108.00009155273438,
+      734.348876953125,
+      523.9503784179688,
+      746.3038940429688
+    ],
+    "text": "The calculations were also performed with a frozen alignment (FA) approxima-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 117,
+    "block": 35,
+    "bbox": [
+      108.00009155273438,
+      753.12890625,
+      523.9503784179688,
+      765.0839233398438
+    ],
+    "text": "tion, where the angular momentum of the valence nucleon was ﬁrmly aligned with\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Chapter 7. Conclusion\n107\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.9383544921875,
+      95.69278717041016
+    ],
+    "text": "the long axis. This set of calculations failed to describe the the experimentally\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 2,
+    "bbox": [
+      108.0,
+      102.51677703857422,
+      523.9502563476562,
+      114.4717788696289
+    ],
+    "text": "observed signature splitting and the excitation energies of the states in both the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 3,
+    "bbox": [
+      108.0,
+      121.29680633544922,
+      523.9502563476562,
+      133.25180053710938
+    ],
+    "text": "yrast band and the excited band. It was found that when the angular momen-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 4,
+    "bbox": [
+      108.0,
+      140.0768280029297,
+      523.962158203125,
+      152.03182983398438
+    ],
+    "text": "tum of the valence neutron is ﬁrmly aligned along the long axis, components of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 5,
+    "bbox": [
+      108.0,
+      158.85581970214844,
+      523.9743041992188,
+      170.81082153320312
+    ],
+    "text": "the wave functions that would otherwise be favorable to construct the rotational\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 6,
+    "bbox": [
+      108.0,
+      177.63584899902344,
+      523.9381713867188,
+      189.59085083007812
+    ],
+    "text": "states are left out. This resulted in the rotational states predicted from the FA\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 7,
+    "bbox": [
+      108.0,
+      196.4148406982422,
+      523.9981689453125,
+      208.36984252929688
+    ],
+    "text": "approximation to lie higher in energy than the rotational states calculated with a\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 8,
+    "bbox": [
+      108.0,
+      215.1948699951172,
+      523.9862670898438,
+      227.14987182617188
+    ],
+    "text": "large conﬁguration space. Furthermore, it was found that the energy staggering is\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 9,
+    "bbox": [
+      108.0,
+      233.9748992919922,
+      523.9743041992188,
+      245.92990112304688
+    ],
+    "text": "generated by mixing with other orbitals therefore running QTR calculations with\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 10,
+    "bbox": [
+      108.0,
+      252.75389099121094,
+      364.48260498046875,
+      264.7088928222656
+    ],
+    "text": "FA cannot in principle produce energy staggering.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 11,
+    "bbox": [
+      108.0,
+      280.60430908203125,
+      523.9150390625,
+      295.6429138183594
+    ],
+    "text": "A manuscript on the new results on the h11/2 bands in 133Ce and their interpreta-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 12,
+    "bbox": [
+      107.99996948242188,
+      300.60791015625,
+      523.9503784179688,
+      312.5628967285156
+    ],
+    "text": "tion based on the present QTR model calculations is in preparation for submission\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 118,
+    "block": 13,
+    "bbox": [
+      107.99996948242188,
+      319.387939453125,
+      221.2257843017578,
+      331.3429260253906
+    ],
+    "text": "to Physical Review C.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 0,
+    "bbox": [
+      108.0,
+      172.06817626953125,
+      264.4059753417969,
+      196.8551788330078
+    ],
+    "text": "Bibliography\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 1,
+    "bbox": [
+      113.85299682617188,
+      240.72679138183594,
+      523.9338989257812,
+      252.68179321289062
+    ],
+    "text": "[1] “APPENDIX NUCLEAR STRUCTURE,” http://dbserv.pnpi.spb.ru/elbib/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 2,
+    "bbox": [
+      132.06201171875,
+      259.5068359375,
+      441.4936828613281,
+      271.4618225097656
+    ],
+    "text": "tablisot/toi98/www/struct/struct.pdf, accessed: 2021-09-30.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 3,
+    "bbox": [
+      113.85299682617188,
+      287.08184814453125,
+      523.9693603515625,
+      299.0368347167969
+    ],
+    "text": "[2] J. Allmond and J. Wood, “Empirical moments of inertia of axially asymmetric\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 4,
+    "bbox": [
+      132.06199645996094,
+      305.86187744140625,
+      523.993896484375,
+      317.8168640136719
+    ],
+    "text": "nuclei,” Physics Letters B, vol. 767, pp. 226–231, 2017. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 5,
+    "bbox": [
+      132.06199645996094,
+      324.6418762207031,
+      494.25067138671875,
+      336.59686279296875
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/S0370269317300916\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 6,
+    "bbox": [
+      113.85299682617188,
+      350.9932556152344,
+      523.9204711914062,
+      364.171875
+    ],
+    "text": "[3] M. Alwaleedi, “Band structures of 131Ce ,” Ph.D. dissertation, University\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 7,
+    "bbox": [
+      132.06201171875,
+      370.99688720703125,
+      523.973876953125,
+      382.9518737792969
+    ],
+    "text": "of Liverpool, 2013. [Online]. Available: https://livrepository.liverpool.ac.uk/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 8,
+    "bbox": [
+      132.06201171875,
+      389.77587890625,
+      167.20974731445312,
+      401.7308654785156
+    ],
+    "text": "15073/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 9,
+    "bbox": [
+      113.85301208496094,
+      417.35186767578125,
+      523.95751953125,
+      429.3068542480469
+    ],
+    "text": "[4] H. Amro, W. Ma, G. Hagemann, R. Diamond, J. Domscheit, P. Fallon,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 10,
+    "bbox": [
+      132.06201171875,
+      436.130859375,
+      523.9112548828125,
+      448.0858459472656
+    ],
+    "text": "A. G¨orgen, B. Herskind, H. H¨ubel, D. Jensen, Y. Li, A. Macchiavelli,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 11,
+    "bbox": [
+      132.06201171875,
+      454.9108581542969,
+      523.9349975585938,
+      466.8658447265625
+    ],
+    "text": "D.\nRoux,\nG.\nSletten,\nJ.\nThompson,\nD.\nWard,\nI.\nWiedenh¨over,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 12,
+    "bbox": [
+      132.06201171875,
+      472.4662170410156,
+      523.9075317382812,
+      485.64483642578125
+    ],
+    "text": "J. Wilson,\nand J. Winger,\n“The wobbling mode in\n167Lu,”\nPhysics\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 13,
+    "bbox": [
+      132.06198120117188,
+      492.4698486328125,
+      524.0066528320312,
+      504.4248352050781
+    ],
+    "text": "Letters\nB,\nvol.\n553,\nno.\n3,\npp.\n197–203,\n2003.\n[Online].\nAvailable:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 14,
+    "bbox": [
+      132.06198120117188,
+      511.24981689453125,
+      494.25067138671875,
+      523.204833984375
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/S0370269302031994\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 15,
+    "bbox": [
+      113.85298156738281,
+      538.8248901367188,
+      523.9453735351562,
+      550.7799072265625
+    ],
+    "text": "[5] G. Andersson, S. Larsson, G. Leander, P. M¨oller, S. Nilsson, I. Ragnarsson,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 16,
+    "bbox": [
+      132.06198120117188,
+      555.4908447265625,
+      523.9422607421875,
+      569.5598754882812
+    ],
+    "text": "S. ˚Aberg, R. Bengtsson, J. Dudek, B. Nerlo-Pomorska, K. Pomorski, and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 17,
+    "bbox": [
+      132.06198120117188,
+      576.3838500976562,
+      523.9586791992188,
+      588.3388671875
+    ],
+    "text": "Z. Szyma´nski, “Nuclear shell structure at very high angular momentum,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 18,
+    "bbox": [
+      132.06198120117188,
+      595.1638793945312,
+      524.0006103515625,
+      607.118896484375
+    ],
+    "text": "Nuclear Physics A, vol. 268, no. 2, pp. 205–256, 1976. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 19,
+    "bbox": [
+      132.06198120117188,
+      613.94384765625,
+      487.7471618652344,
+      625.8988647460938
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/0375947476904619\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 20,
+    "bbox": [
+      113.85298156738281,
+      641.5188598632812,
+      523.96923828125,
+      653.473876953125
+    ],
+    "text": "[6] A. D. Ayangeakaa,\nU. Garg,\nM. D. Anthony,\nS. Frauendorf,\nJ. T.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 21,
+    "bbox": [
+      132.06198120117188,
+      660.298828125,
+      523.9351196289062,
+      672.2538452148438
+    ],
+    "text": "Matta, B. K. Nayak, D. Patel, Q. B. Chen, S. Q. Zhang, P. W. Zhao,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 22,
+    "bbox": [
+      132.06198120117188,
+      679.0778198242188,
+      523.9110717773438,
+      691.0328369140625
+    ],
+    "text": "B. Qi, J. Meng, R. V. F. Janssens, M. P. Carpenter, C. J. Chiara,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 23,
+    "bbox": [
+      132.06198120117188,
+      697.8578491210938,
+      523.9110107421875,
+      709.8128662109375
+    ],
+    "text": "F. G. Kondev, T. Lauritsen, D. Seweryniak, S. Zhu, S. S. Ghugre,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 24,
+    "bbox": [
+      132.06198120117188,
+      715.4132080078125,
+      523.914306640625,
+      728.5918579101562
+    ],
+    "text": "and R. Palit, “Evidence for Multiple Chiral Doublet Bands in\n133Ce,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 25,
+    "bbox": [
+      132.06198120117188,
+      735.4168701171875,
+      523.9967651367188,
+      747.3718872070312
+    ],
+    "text": "Physical Review Letters, vol. 110, p. 172504, Apr 2013. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 26,
+    "bbox": [
+      132.06198120117188,
+      754.1968383789062,
+      429.7414855957031,
+      766.15185546875
+    ],
+    "text": "https://link.aps.org/doi/10.1103/PhysRevLett.110.172504\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 119,
+    "block": 27,
+    "bbox": [
+      307.177001953125,
+      775.7968139648438,
+      324.7508239746094,
+      787.7518310546875
+    ],
+    "text": "108\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Bibliography\n109\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 1,
+    "bbox": [
+      113.85299682617188,
+      83.73778533935547,
+      523.9453125,
+      95.69278717041016
+    ],
+    "text": "[7] A. D. Ayangeakaa, U. Garg, C. M. Petrache, S. Guo, P. W. Zhao, J. T.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 2,
+    "bbox": [
+      132.06199645996094,
+      102.51677703857422,
+      523.9232177734375,
+      114.4717788696289
+    ],
+    "text": "Matta, B. K. Nayak, D. Patel, R. V. F. Janssens, M. P. Carpenter, C. J.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 3,
+    "bbox": [
+      132.06199645996094,
+      121.29680633544922,
+      523.923095703125,
+      133.25180053710938
+    ],
+    "text": "Chiara, F. G. Kondev, T. Lauritsen, D. Seweryniak, S. Zhu, S. S. Ghugre,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 4,
+    "bbox": [
+      132.06199645996094,
+      140.0768280029297,
+      523.9228515625,
+      152.03182983398438
+    ],
+    "text": "and R. Palit, “In-beam spectroscopy of medium- and high-spin states in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 5,
+    "bbox": [
+      132.06199645996094,
+      157.63221740722656,
+      523.9924926757812,
+      170.81082153320312
+    ],
+    "text": "133Ce,” Physical Review C, vol. 93, p. 054317, May 2016. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 6,
+    "bbox": [
+      132.06199645996094,
+      177.63584899902344,
+      410.70904541015625,
+      189.59085083007812
+    ],
+    "text": "https://link.aps.org/doi/10.1103/PhysRevC.93.054317\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 7,
+    "bbox": [
+      113.85299682617188,
+      206.3458709716797,
+      523.921630859375,
+      218.30087280273438
+    ],
+    "text": "[8] R. Bark, G. Hagemann, B. Herskind, H. Jensen, W. Korten, J. Wrzesinski,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 8,
+    "bbox": [
+      132.06199645996094,
+      225.12486267089844,
+      523.9349365234375,
+      237.07986450195312
+    ],
+    "text": "H. Carlsson, M. Bergstr¨om, A. Brockstedt, A. Nordlund, H. Ryde, P. Bosetti,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 9,
+    "bbox": [
+      132.06199645996094,
+      242.68031311035156,
+      523.9207763671875,
+      255.85989379882812
+    ],
+    "text": "S. Leoni, F. Ingebretsen, and P. Tjøm, “More than thirty bands in 177Re,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 10,
+    "bbox": [
+      132.06204223632812,
+      262.68389892578125,
+      524.0006103515625,
+      274.6388854980469
+    ],
+    "text": "Nuclear Physics A, vol. 591, no. 2, pp. 265–322, 1995. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 11,
+    "bbox": [
+      132.06204223632812,
+      281.46392822265625,
+      487.7471618652344,
+      293.4189147949219
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/0375947495001876\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 12,
+    "bbox": [
+      113.85304260253906,
+      310.1739501953125,
+      523.945556640625,
+      322.1289367675781
+    ],
+    "text": "[9] D. Bazzacco, F. Brandolini, G. Falconi, S. Lunardi, N. H. Medina, P. Pavan,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 13,
+    "bbox": [
+      132.06204223632812,
+      328.95294189453125,
+      523.9351196289062,
+      340.9079284667969
+    ],
+    "text": "C. Rossi Alvarez, G. de Angelis, D. De Acuna, M. De Poli, D. R. Napoli,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 14,
+    "bbox": [
+      132.06204223632812,
+      347.7329406738281,
+      523.9348754882812,
+      359.68792724609375
+    ],
+    "text": "J. Rico, D. Bucurescu, M. Ionescu-Bujor, and C. A. Ur, “Rotational bands\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 15,
+    "bbox": [
+      132.06204223632812,
+      365.288330078125,
+      523.9835205078125,
+      378.4679260253906
+    ],
+    "text": "in 133Nd,” Physical Review C, vol. 58, pp. 2002–2021, Oct 1998. [Online].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 16,
+    "bbox": [
+      132.06204223632812,
+      385.29193115234375,
+      454.9071960449219,
+      397.2469177246094
+    ],
+    "text": "Available: https://link.aps.org/doi/10.1103/PhysRevC.58.2002\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 17,
+    "bbox": [
+      108.00003814697266,
+      414.0019226074219,
+      523.9623413085938,
+      425.9569091796875
+    ],
+    "text": "[10] R. Bengtsson, H. Frisk, F. R. May, and J. A. Pinston, “Signature inversion\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 18,
+    "bbox": [
+      132.06204223632812,
+      432.6269836425781,
+      523.9708251953125,
+      444.7369079589844
+    ],
+    "text": "−a ﬁngerprint of triaxiality,” Nuclear Physics A, vol. 415, pp. 189–214,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 19,
+    "bbox": [
+      132.06204223632812,
+      451.5609130859375,
+      504.2590637207031,
+      463.5158996582031
+    ],
+    "text": "1984. [Online]. Available: https://doi.org/10.1016/0375-9474(84)90620-1\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 20,
+    "bbox": [
+      108.00001525878906,
+      480.2709045410156,
+      523.9860229492188,
+      492.22589111328125
+    ],
+    "text": "[11] T. Bengtsson and I. Ragnarsson, “Rotational bands and particle-hole\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 21,
+    "bbox": [
+      132.06201171875,
+      499.0509033203125,
+      523.9446411132812,
+      511.0058898925781
+    ],
+    "text": "excitations at very high spin,” Nuclear Physics A, vol. 436, no. 1, pp.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 22,
+    "bbox": [
+      132.06198120117188,
+      517.8298950195312,
+      523.9022216796875,
+      529.784912109375
+    ],
+    "text": "14–82, 1985. [Online]. Available:\nhttps://www.sciencedirect.com/science/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 23,
+    "bbox": [
+      132.06199645996094,
+      536.6099243164062,
+      285.2892150878906,
+      548.56494140625
+    ],
+    "text": "article/pii/037594748590541X\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 24,
+    "bbox": [
+      108.0,
+      565.3198852539062,
+      523.9503173828125,
+      577.27490234375
+    ],
+    "text": "[12] N. Bernier, “Decay spectroscopy of neutron-rich cadmium around the N\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 25,
+    "bbox": [
+      132.06199645996094,
+      584.098876953125,
+      523.9471435546875,
+      596.0538940429688
+    ],
+    "text": "= 82 shell closure,” Ph.D. dissertation, University of British Columbia,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 26,
+    "bbox": [
+      132.06199645996094,
+      602.8788452148438,
+      523.9374389648438,
+      614.8338623046875
+    ],
+    "text": "2018. [Online]. Available: https://open.library.ubc.ca/collections/ubctheses/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 27,
+    "bbox": [
+      132.06199645996094,
+      621.6588745117188,
+      232.9861602783203,
+      633.6138916015625
+    ],
+    "text": "24/items/1.0376019\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 28,
+    "bbox": [
+      108.0,
+      650.3678588867188,
+      523.9265747070312,
+      662.3228759765625
+    ],
+    "text": "[13] L. Berti, M. Biasotto, S. Fantinel, A. A. Gozzelino, M. Gulmini, and N. To-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 29,
+    "bbox": [
+      132.06199645996094,
+      669.1478881835938,
+      499.1334533691406,
+      681.1029052734375
+    ],
+    "text": "niolo, “Lnl infn annual report,” LNL INFN Annual Report, p. 93, 2014.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 30,
+    "bbox": [
+      108.0,
+      697.8578491210938,
+      523.9385375976562,
+      709.8128662109375
+    ],
+    "text": "[14] S. Biswas,\nR. Palit,\nS. Frauendorf,\nU. Garg,\nW. Li,\nG. H. Bhat,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 31,
+    "bbox": [
+      132.06199645996094,
+      716.6369018554688,
+      523.9348754882812,
+      728.5919189453125
+    ],
+    "text": "J. A. Sheikh, J. Sethi, S. Saha, P. Singh, D. Choudhury, J. Matta,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 32,
+    "bbox": [
+      132.06199645996094,
+      735.4168701171875,
+      523.9948120117188,
+      747.3718872070312
+    ],
+    "text": "D.\nAyangeakaa,\nW.\nDar,\nV.\nSingh,\nand\nS.\nSihotra,\n“Longitudinal\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 120,
+    "block": 33,
+    "bbox": [
+      132.06199645996094,
+      752.9722290039062,
+      523.9330444335938,
+      766.1519165039062
+    ],
+    "text": "wobbling in\n133La,” The European Physical Journal A, vol. 55, no. 9,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Bibliography\n110\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 1,
+    "bbox": [
+      132.06199645996094,
+      83.73778533935547,
+      523.9847412109375,
+      95.69278717041016
+    ],
+    "text": "2019. [Online]. Available:\nhttps://epja.epj.org/articles/epja/abs/2019/09/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 2,
+    "bbox": [
+      132.06201171875,
+      102.51677703857422,
+      423.6800842285156,
+      114.4717788696289
+    ],
+    "text": "10050 2019 Article 12856/10050 2019 Article 12856.html\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 3,
+    "bbox": [
+      108.0,
+      129.9857635498047,
+      523.9180297851562,
+      141.94076538085938
+    ],
+    "text": "[15] A. Bohr and B. R. Mottelson, Nuclear Structure. World Scientiﬁc Publishing\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 4,
+    "bbox": [
+      132.06199645996094,
+      148.76475524902344,
+      523.9262084960938,
+      160.71975708007812
+    ],
+    "text": "Company, 1998. [Online]. Available: https://www.worldscientiﬁc.com/doi/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 5,
+    "bbox": [
+      132.06198120117188,
+      167.54478454589844,
+      222.58531188964844,
+      179.49978637695312
+    ],
+    "text": "abs/10.1142/3530\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 6,
+    "bbox": [
+      107.99998474121094,
+      195.01377868652344,
+      523.9144287109375,
+      206.96878051757812
+    ],
+    "text": "[16] P. Bringel, G. B. Hagemann, H. H¨ubel, A. Al-Khatib, P. Bednarczyk,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 7,
+    "bbox": [
+      132.06198120117188,
+      213.7927703857422,
+      523.9349975585938,
+      225.74777221679688
+    ],
+    "text": "A. B¨urger, D. Curien, G. Gangopadhyay, B. Herskind, D. R. Jensen,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 8,
+    "bbox": [
+      132.06198120117188,
+      232.5727996826172,
+      523.9348754882812,
+      244.52780151367188
+    ],
+    "text": "D. T. Joss, T. Kr¨oll, G. Lo Bianco, S. Lunardi, W. C. Ma, N. Nenoﬀ,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 9,
+    "bbox": [
+      132.06198120117188,
+      251.35179138183594,
+      523.899169921875,
+      263.3067932128906
+    ],
+    "text": "A. Neußer-Neﬀgen, C. M. Petrache, G. Sch¨onwasser, J. Simpson, A. K.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 10,
+    "bbox": [
+      132.06198120117188,
+      268.908203125,
+      523.9207153320312,
+      282.0868225097656
+    ],
+    "text": "Singh, N. Singh, and G. Sletten, “Evidence for wobbling excitation in 161Lu,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 11,
+    "bbox": [
+      132.06201171875,
+      288.911865234375,
+      523.9946899414062,
+      300.8668518066406
+    ],
+    "text": "The European Physical Journal A, vol. 24, no. 2, p. 167–172, 2005. [Online].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 12,
+    "bbox": [
+      132.06201171875,
+      307.69085693359375,
+      412.8614196777344,
+      319.6458435058594
+    ],
+    "text": "Available: https://doi.org/10.1140/epja/i2005-10005-7\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 13,
+    "bbox": [
+      108.00000762939453,
+      335.15985107421875,
+      523.9622802734375,
+      347.1148376464844
+    ],
+    "text": "[17] S.\nChakraborty,\nH.\nSharma,\nS.\nTiwary,\nC.\nMajumder,\nA.\nGupta,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 14,
+    "bbox": [
+      132.06201171875,
+      353.9388427734375,
+      523.9588623046875,
+      365.8938293457031
+    ],
+    "text": "P. Banerjee, S. Ganguly, S. Rai, Pragati, Mayank, S. Kumar, A. Kumar,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 15,
+    "bbox": [
+      132.06201171875,
+      372.7188415527344,
+      523.9707641601562,
+      384.673828125
+    ],
+    "text": "R. Palit, S. Bhattacharjee, R. Singh, and S. Muralithar, “Multiphonon\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 16,
+    "bbox": [
+      132.06201171875,
+      390.27423095703125,
+      523.9619750976562,
+      403.4538269042969
+    ],
+    "text": "longitudinal wobbling in\n127Xe,” Physics Letters B, vol. 811, p. 135854,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 17,
+    "bbox": [
+      132.06201171875,
+      410.27783203125,
+      523.9022827148438,
+      422.2328186035156
+    ],
+    "text": "2020. [Online]. Available:\nhttps://www.sciencedirect.com/science/article/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 18,
+    "bbox": [
+      132.06202697753906,
+      429.0578308105469,
+      251.1578369140625,
+      441.0128173828125
+    ],
+    "text": "pii/S0370269320306572\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 19,
+    "bbox": [
+      108.00003051757812,
+      456.52581787109375,
+      523.9385986328125,
+      468.4808044433594
+    ],
+    "text": "[18] Q. B. Chen, S. Frauendorf, and C. M. Petrache, “Transverse wobbling in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 20,
+    "bbox": [
+      132.06202697753906,
+      475.3058166503906,
+      523.9802856445312,
+      487.26080322265625
+    ],
+    "text": "an even-even nucleus,” Physical Review C, vol. 100, p. 061301, Dec 2019.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 21,
+    "bbox": [
+      132.06201171875,
+      494.0858154296875,
+      519.968017578125,
+      506.0408020019531
+    ],
+    "text": "[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.100.061301\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 22,
+    "bbox": [
+      108.00001525878906,
+      521.5537719726562,
+      523.9384765625,
+      533.5087890625
+    ],
+    "text": "[19] R. M. Clark and A. O. Macchiavelli, “The Shears Mechanism in Nuclei,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 23,
+    "bbox": [
+      132.06201171875,
+      540.3338012695312,
+      523.958984375,
+      552.288818359375
+    ],
+    "text": "Annual Review of Nuclear and Particle Science, vol. 50, no. 1, pp. 1–36,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 24,
+    "bbox": [
+      132.06201171875,
+      559.11279296875,
+      491.1924133300781,
+      571.0678100585938
+    ],
+    "text": "2000. [Online]. Available: https://doi.org/10.1146/annurev.nucl.50.1.1\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 25,
+    "bbox": [
+      108.00001525878906,
+      586.581787109375,
+      523.9861450195312,
+      598.5368041992188
+    ],
+    "text": "[20] A.\nDavydov\nand\nG.\nFilippov,\n“Rotational\nstates\nin\neven\natomic\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 26,
+    "bbox": [
+      132.06201171875,
+      605.3607788085938,
+      523.98486328125,
+      617.3157958984375
+    ],
+    "text": "nuclei,” Nuclear Physics, vol. 8, pp. 237–249, 1958. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 27,
+    "bbox": [
+      132.06201171875,
+      624.1408081054688,
+      487.7471618652344,
+      636.0958251953125
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/0029558258901536\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 28,
+    "bbox": [
+      108.00001525878906,
+      651.6098022460938,
+      523.9863891601562,
+      663.5648193359375
+    ],
+    "text": "[21] A. Davydov and V. Rostovsky, “Relative transition probabilities between\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 29,
+    "bbox": [
+      132.06201171875,
+      670.3887329101562,
+      523.9364013671875,
+      682.34375
+    ],
+    "text": "rotational levels of non-axial nuclei,” Nuclear Physics, vol. 12, no. 1, pp.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 30,
+    "bbox": [
+      132.06202697753906,
+      689.1687622070312,
+      523.9022216796875,
+      701.123779296875
+    ],
+    "text": "58–68, 1959. [Online]. Available:\nhttps://www.sciencedirect.com/science/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 31,
+    "bbox": [
+      132.06202697753906,
+      707.94775390625,
+      282.3722229003906,
+      719.9027709960938
+    ],
+    "text": "article/pii/0029558259901270\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 32,
+    "bbox": [
+      108.00003051757812,
+      735.416748046875,
+      523.9263305664062,
+      747.3717651367188
+    ],
+    "text": "[22] B. Ding, C. M. Petrache, S. Guo, E. A. Lawrie, I. Wakudyanaye, Z. H.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 121,
+    "block": 33,
+    "bbox": [
+      132.06202697753906,
+      754.19677734375,
+      523.9470825195312,
+      766.1517944335938
+    ],
+    "text": "Zhang, H. L. Wang, H. Y. Meng, D. Mengoni, Y. H. Qiang, J. G. Wang,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Bibliography\n111\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 1,
+    "bbox": [
+      132.06199645996094,
+      83.73778533935547,
+      523.93505859375,
+      95.69278717041016
+    ],
+    "text": "C. Andreoiu, A. Astier, A. Avaa, T. B¨ack, R. A. Bark, D. Bazzacco, A. Boso,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 2,
+    "bbox": [
+      132.06199645996094,
+      102.51677703857422,
+      523.9109497070312,
+      114.4717788696289
+    ],
+    "text": "T. D. Bucher, B. Cederwall, M. V. Chisapi, H. L. Fan, F. Galtarossa, F. H.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 3,
+    "bbox": [
+      132.06199645996094,
+      121.29680633544922,
+      523.923095703125,
+      133.25180053710938
+    ],
+    "text": "Garcia, A. Goasduﬀ, G. Jaworski, P. Jones, I. Kuti, J. J. Lawrie, G. S. Li,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 4,
+    "bbox": [
+      132.06199645996094,
+      140.0768280029297,
+      523.9111328125,
+      152.03182983398438
+    ],
+    "text": "R. Li, M. L. Liu, Z. Liu, B. Lomberg, B. F. Lv, T. Marchlewski, L. Mdletshe,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 5,
+    "bbox": [
+      132.06199645996094,
+      158.85581970214844,
+      523.9349365234375,
+      170.81082153320312
+    ],
+    "text": "L. Msebi, S. H. Mthembu, D. R. Napoli, A. Netshiya, M. F. Nkalanga, J. N.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 6,
+    "bbox": [
+      132.06199645996094,
+      177.63584899902344,
+      523.9471435546875,
+      189.59085083007812
+    ],
+    "text": "Orce, K. Ortner, F. Recchia, S. Riccetto, A. Rohilla, T. W. Seakamela,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 7,
+    "bbox": [
+      132.06199645996094,
+      196.4148406982422,
+      523.9349365234375,
+      208.36984252929688
+    ],
+    "text": "M. Siciliano, M. A. Sithole, D. Sohler, J. Srebrny, D. Testov, A. Tucholski,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 8,
+    "bbox": [
+      132.06199645996094,
+      215.1948699951172,
+      523.9231567382812,
+      227.14987182617188
+    ],
+    "text": "J. J. Valiente-Dob´on, F. Wentzel, K. Whitmore, Y. H. Zhang, K. K. Zheng,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 9,
+    "bbox": [
+      132.06199645996094,
+      231.2772979736328,
+      523.4121704101562,
+      246.91831970214844
+    ],
+    "text": "X. H. Zhou, and B. R. Zikhali, “Signature splitting of the g7/2[404]7/2+\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 10,
+    "bbox": [
+      132.06198120117188,
+      251.53028869628906,
+      523.9746704101562,
+      264.7088928222656
+    ],
+    "text": "bands in 131Ba and 133Ce,” Physical Review C, vol. 104, p. 064304, Dec 2021.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 11,
+    "bbox": [
+      132.06198120117188,
+      271.533935546875,
+      519.9679565429688,
+      283.4889221191406
+    ],
+    "text": "[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.104.064304\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 12,
+    "bbox": [
+      107.99998474121094,
+      300.27593994140625,
+      523.9623413085938,
+      312.2309265136719
+    ],
+    "text": "[23] S. Frauendorf and F. D¨onau, “Transverse wobbling: A collective mode in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 13,
+    "bbox": [
+      132.06198120117188,
+      319.05596923828125,
+      523.9785766601562,
+      331.0109558105469
+    ],
+    "text": "odd-A triaxial nuclei,” Physical Review C, vol. 89, p. 014322, Jan 2014.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 14,
+    "bbox": [
+      132.06198120117188,
+      337.8349609375,
+      514.1099853515625,
+      349.7899475097656
+    ],
+    "text": "[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.89.014322\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 15,
+    "bbox": [
+      107.99998474121094,
+      366.5779724121094,
+      523.9622192382812,
+      378.532958984375
+    ],
+    "text": "[24] P. E. Garrett and J. L. Wood, “On the robustness of surface vibrational\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 16,
+    "bbox": [
+      132.06198120117188,
+      385.3569641113281,
+      523.9175415039062,
+      397.31195068359375
+    ],
+    "text": "modes: case studies in the Cd region,” Journal of Physics G: Nuclear and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 17,
+    "bbox": [
+      132.06199645996094,
+      404.136962890625,
+      523.9947509765625,
+      416.0919494628906
+    ],
+    "text": "Particle Physics, vol. 37, no. 6, p. 064028, apr 2010. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 18,
+    "bbox": [
+      132.06199645996094,
+      422.91595458984375,
+      380.2357482910156,
+      434.8709411621094
+    ],
+    "text": "https://doi.org/10.1088/0954-3899/37/6/064028\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 19,
+    "bbox": [
+      108.0,
+      451.6589660644531,
+      523.9263305664062,
+      463.61395263671875
+    ],
+    "text": "[25] J. Gizon, A. Gizon, and J. Meyer-Ter-Vehn, “Triaxial shape and onset of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 20,
+    "bbox": [
+      132.06199645996094,
+      469.2143249511719,
+      523.9777221679688,
+      482.3929443359375
+    ],
+    "text": "high-spin bands in 129Ba,” Nuclear Physics A, vol. 277, no. 3, pp. 464–476,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 21,
+    "bbox": [
+      132.06199645996094,
+      489.21795654296875,
+      523.9022216796875,
+      501.1729431152344
+    ],
+    "text": "1977. [Online]. Available:\nhttps://www.sciencedirect.com/science/article/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 22,
+    "bbox": [
+      132.06199645996094,
+      507.99798583984375,
+      247.5712890625,
+      519.9530029296875
+    ],
+    "text": "pii/037594747790714X\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 23,
+    "bbox": [
+      108.0,
+      536.7399291992188,
+      523.9503784179688,
+      548.6949462890625
+    ],
+    "text": "[26] A. Granderath, P. Mantica, R. Bengtsson, R. Wyss, P. von Brentano,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 24,
+    "bbox": [
+      132.06199645996094,
+      555.5189819335938,
+      523.9468383789062,
+      567.4739990234375
+    ],
+    "text": "A.\nGelberg,\nand\nF.\nSeiﬀert,\n“Shapes\nand\nrotational\nstructures\nof\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 25,
+    "bbox": [
+      132.06199645996094,
+      574.2989501953125,
+      523.9122924804688,
+      588.1139526367188
+    ],
+    "text": "neutron h11/2 conﬁgurations in the Xe-Ba-Ce region,” Nuclear Physics\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 26,
+    "bbox": [
+      132.06198120117188,
+      593.0789184570312,
+      523.9273681640625,
+      605.033935546875
+    ],
+    "text": "A, vol. 597,\nno. 3,\npp. 427–471,\n1996. [Online]. Available:\nhttps:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 27,
+    "bbox": [
+      132.06198120117188,
+      611.8579711914062,
+      461.003662109375,
+      623.81298828125
+    ],
+    "text": "//www.sciencedirect.com/science/article/pii/037594749500484X\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 28,
+    "bbox": [
+      107.99998474121094,
+      639.3763427734375,
+      523.9194946289062,
+      652.554931640625
+    ],
+    "text": "[27] S. Guo, “Comment on ”Transverse Wobbling in\n135Pr [Phys. Rev. Lett.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 29,
+    "bbox": [
+      132.06198120117188,
+      659.3799438476562,
+      523.9873657226562,
+      671.3349609375
+    ],
+    "text": "114, 082501 (2015)]”,” 2021. [Online]. Available: https://arxiv.org/abs/2011.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 30,
+    "bbox": [
+      132.06198120117188,
+      678.1599731445312,
+      161.3517608642578,
+      690.114990234375
+    ],
+    "text": "14364\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 31,
+    "bbox": [
+      107.99998474121094,
+      706.9019165039062,
+      523.9503173828125,
+      718.85693359375
+    ],
+    "text": "[28] S. Guo,\nC. Petrache,\nD. Mengoni,\nY. Qiang,\nY. Wang,\nY. Wang,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 32,
+    "bbox": [
+      132.06198120117188,
+      725.6819458007812,
+      523.9349975585938,
+      737.636962890625
+    ],
+    "text": "J. Meng, Y. Wang, S. Zhang, P. Zhao, A. Astier, J. Wang, H. Fan,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 122,
+    "block": 33,
+    "bbox": [
+      132.06198120117188,
+      744.4609375,
+      523.9231567382812,
+      756.4159545898438
+    ],
+    "text": "E. Dupont, B. Lv, D. Bazzacco, A. Boso, A. Goasduﬀ, F. Recchia,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Bibliography\n112\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 1,
+    "bbox": [
+      132.06199645996094,
+      83.73778533935547,
+      523.9591674804688,
+      95.69278717041016
+    ],
+    "text": "D. Testov, F. Galtarossa, G. Jaworski, D. Napoli, S. Riccetto, M. Siciliano,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 2,
+    "bbox": [
+      132.06199645996094,
+      102.51677703857422,
+      523.9229736328125,
+      114.4717788696289
+    ],
+    "text": "J. Valiente-Dobon, M. Liu, G. Li, X. Zhou, Y. Zhang, C. Andreoiu,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 3,
+    "bbox": [
+      132.06199645996094,
+      121.29680633544922,
+      523.9232177734375,
+      133.25180053710938
+    ],
+    "text": "F. Garcia, K. Ortner, K. Whitmore, A. Ata¸c-Nyberg, T. B¨ack, B. Cederwall,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 4,
+    "bbox": [
+      132.06199645996094,
+      140.0768280029297,
+      523.9229736328125,
+      152.03182983398438
+    ],
+    "text": "E. Lawrie, I. Kuti, D. Sohler, T. Marchlewski, J. Srebrny, and A. Tucholski,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 5,
+    "bbox": [
+      132.06199645996094,
+      158.85581970214844,
+      523.9230346679688,
+      170.81082153320312
+    ],
+    "text": "“Evidence for pseudospin-chiral quartet bands in the presence of octupole\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 6,
+    "bbox": [
+      132.06199645996094,
+      177.63584899902344,
+      523.9949951171875,
+      189.59085083007812
+    ],
+    "text": "correlations,” Physics Letters B, vol. 807, p. 135572, 2020. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 7,
+    "bbox": [
+      132.06199645996094,
+      196.4148406982422,
+      494.2506103515625,
+      208.36984252929688
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/S0370269320303762\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 8,
+    "bbox": [
+      108.0,
+      223.6498260498047,
+      523.9266967773438,
+      235.60482788085938
+    ],
+    "text": "[29] S. Guo, X. H. Zhou, C. M. Petrache, E. A. Lawrie, S. Mthembu, Y. D. Fang,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 9,
+    "bbox": [
+      132.06199645996094,
+      242.4298553466797,
+      523.934814453125,
+      254.38485717773438
+    ],
+    "text": "H. Y. Wu, H. L. Wang, H. Y. Meng, G. S. Li, Y. H. Qiang, J. G. Wang,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 10,
+    "bbox": [
+      132.06199645996094,
+      261.20989990234375,
+      523.93505859375,
+      273.1648864746094
+    ],
+    "text": "M. L. Liu, Y. Zheng, B. Ding, W. Q. Zhang, A. Rohilla, K. R. Mukhi, Y. Y.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 11,
+    "bbox": [
+      132.06199645996094,
+      279.9888916015625,
+      523.9351196289062,
+      291.9438781738281
+    ],
+    "text": "Yang, H. J. Ong, J. B. Ma, S. W. Xu, Z. Bai, H. L. Fan, J. F. Huang, J. H.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 12,
+    "bbox": [
+      132.06199645996094,
+      298.7689208984375,
+      523.9348754882812,
+      310.7239074707031
+    ],
+    "text": "Li, J. H. Xu, B. F. Lv, W. Hua, Z. G. Gan, and Y. H. Zhang, “Probing the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 13,
+    "bbox": [
+      132.06199645996094,
+      317.54791259765625,
+      523.94677734375,
+      329.5028991699219
+    ],
+    "text": "nature of the conjectured low-spin wobbling bands in atomic nuclei,” 2021.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 14,
+    "bbox": [
+      132.06199645996094,
+      336.3279113769531,
+      407.041015625,
+      348.28289794921875
+    ],
+    "text": "[Online]. Available: https://arxiv.org/abs/2011.14354\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 15,
+    "bbox": [
+      108.0,
+      363.56292724609375,
+      523.97412109375,
+      375.5179138183594
+    ],
+    "text": "[30] S.\nM.\nHarris,\n“Higher\nOrder\nCorrections\nto\nthe\nCranking\nModel,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 16,
+    "bbox": [
+      132.06199645996094,
+      382.3419189453125,
+      523.9852294921875,
+      394.2969055175781
+    ],
+    "text": "Physical Review, vol. 138, pp. B509–B513, May 1965. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 17,
+    "bbox": [
+      132.06199645996094,
+      401.1219177246094,
+      398.8258361816406,
+      413.076904296875
+    ],
+    "text": "https://link.aps.org/doi/10.1103/PhysRev.138.B509\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 18,
+    "bbox": [
+      108.0,
+      428.35693359375,
+      523.950439453125,
+      440.3119201660156
+    ],
+    "text": "[31] D. J. Hartley, R. V. F. Janssens, L. L. Riedinger, M. A. Riley, A. Aguilar,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 19,
+    "bbox": [
+      132.06199645996094,
+      447.1369323730469,
+      523.9349365234375,
+      459.0919189453125
+    ],
+    "text": "M. P. Carpenter, C. J. Chiara, P. Chowdhury, I. G. Darby, U. Garg,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 20,
+    "bbox": [
+      132.06199645996094,
+      465.9159240722656,
+      523.9349365234375,
+      477.87091064453125
+    ],
+    "text": "Q. A. Ijaz, F. G. Kondev, S. Lakshmi, T. Lauritsen, A. Ludington,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 21,
+    "bbox": [
+      132.06199645996094,
+      484.6959228515625,
+      523.9110717773438,
+      496.6509094238281
+    ],
+    "text": "W. C. Ma,\nE. A. McCutchan,\nS. Mukhopadhyay,\nR. Pifer,\nE. P.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 22,
+    "bbox": [
+      132.06199645996094,
+      503.47491455078125,
+      523.9230346679688,
+      515.429931640625
+    ],
+    "text": "Seyfried, I. Stefanescu, S. K. Tandel, U. Tandel, J. R. Vanhoy, X. Wang,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 23,
+    "bbox": [
+      132.06199645996094,
+      521.0313110351562,
+      523.9165649414062,
+      534.2099609375
+    ],
+    "text": "S. Zhu, I. Hamamoto, and S. Frauendorf, “Wobbling mode in\n167Ta,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 24,
+    "bbox": [
+      132.06198120117188,
+      541.034912109375,
+      523.98779296875,
+      552.9899291992188
+    ],
+    "text": "Physical Review C, vol. 80, p. 041304, Oct 2009. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 25,
+    "bbox": [
+      132.06198120117188,
+      559.8139038085938,
+      410.7090759277344,
+      571.7689208984375
+    ],
+    "text": "https://link.aps.org/doi/10.1103/PhysRevC.80.041304\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 26,
+    "bbox": [
+      107.99998474121094,
+      587.0488891601562,
+      523.9382934570312,
+      599.00390625
+    ],
+    "text": "[32] O. Haxel, J. H. D. Jensen, and H. E. Suess, “On the ”Magic Numbers”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 27,
+    "bbox": [
+      132.06198120117188,
+      605.8289184570312,
+      523.9927978515625,
+      617.783935546875
+    ],
+    "text": "in Nuclear Structure,” Physical Review, vol. 75, pp. 1766–1766, Jun 1949.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 28,
+    "bbox": [
+      132.0619659423828,
+      624.60791015625,
+      503.0516052246094,
+      636.5629272460938
+    ],
+    "text": "[Online]. Available: https://link.aps.org/doi/10.1103/PhysRev.75.1766.2\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 29,
+    "bbox": [
+      107.99996948242188,
+      651.8428955078125,
+      523.9501953125,
+      663.7979125976562
+    ],
+    "text": "[33] S. Ingelman, C. Ekstrom, M. Olsmats, and B. Wannberg, “Nuclear Spins of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 30,
+    "bbox": [
+      132.0619659423828,
+      670.6229248046875,
+      523.9302368164062,
+      682.5779418945312
+    ],
+    "text": "Neutron-Deﬁcient Lanthanum and Cerium Isotopes,” Physica Scripta, vol. 7,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 31,
+    "bbox": [
+      132.06195068359375,
+      689.4019165039062,
+      523.9739990234375,
+      701.35693359375
+    ],
+    "text": "p. 24, 1973. [Online]. Available: https://iopscience.iop.org/article/10.1088/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 32,
+    "bbox": [
+      132.06195068359375,
+      708.1819458007812,
+      240.4341278076172,
+      720.136962890625
+    ],
+    "text": "0031-8949/7/1-2/002\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 33,
+    "bbox": [
+      107.99995422363281,
+      735.4169311523438,
+      523.9502563476562,
+      747.3719482421875
+    ],
+    "text": "[34] D. R. Jensen, G. B. Hagemann, I. Hamamoto, S. W. Ødeg˚ard, B. Herskind,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 123,
+    "block": 34,
+    "bbox": [
+      132.06195068359375,
+      754.1968994140625,
+      523.9110107421875,
+      766.1519165039062
+    ],
+    "text": "G. Sletten, J. N. Wilson, K. Spohr, H. H¨ubel, P. Bringel, A. Neußer,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Bibliography\n113\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 1,
+    "bbox": [
+      132.06199645996094,
+      83.73778533935547,
+      523.9348754882812,
+      95.69278717041016
+    ],
+    "text": "G. Sch¨onwaßer, A. K. Singh, W. C. Ma, H. Amro, A. Bracco, S. Leoni,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 2,
+    "bbox": [
+      132.06199645996094,
+      102.51677703857422,
+      523.8873901367188,
+      114.4717788696289
+    ],
+    "text": "G. Benzoni, A. Maj, C. M. Petrache, G. L. Bianco, P. Bednarczyk,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 3,
+    "bbox": [
+      132.06199645996094,
+      121.29680633544922,
+      523.9070434570312,
+      133.25180053710938
+    ],
+    "text": "and D. Curien, “Evidence for Second-Phonon Nuclear Wobbling,” Physical\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 4,
+    "bbox": [
+      132.06201171875,
+      140.0768280029297,
+      523.9828491210938,
+      152.03182983398438
+    ],
+    "text": "Review\nLetters,\nvol.\n89,\np.\n142503,\nSep\n2002.\n[Online].\nAvailable:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 5,
+    "bbox": [
+      132.06201171875,
+      158.85581970214844,
+      423.883544921875,
+      170.81082153320312
+    ],
+    "text": "https://link.aps.org/doi/10.1103/PhysRevLett.89.142503\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 6,
+    "bbox": [
+      108.00001525878906,
+      187.44290161132812,
+      523.9159545898438,
+      199.55282592773438
+    ],
+    "text": "[35] K. S. Krane, “E2,M1 multipole mixing ratios in even-even nuclei, A ≥\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 7,
+    "bbox": [
+      132.06198120117188,
+      206.3778533935547,
+      523.9755249023438,
+      218.33285522460938
+    ],
+    "text": "152,” Atomic Data and Nuclear Data Tables, vol. 16, no. 4, pp. 383–408,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 8,
+    "bbox": [
+      132.06198120117188,
+      225.1578826904297,
+      523.9022216796875,
+      237.11288452148438
+    ],
+    "text": "1975. [Online]. Available:\nhttps://www.sciencedirect.com/science/article/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 9,
+    "bbox": [
+      132.0619659423828,
+      243.93687438964844,
+      247.57125854492188,
+      255.89187622070312
+    ],
+    "text": "pii/0092640X75900182\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 10,
+    "bbox": [
+      107.99996948242188,
+      272.67987060546875,
+      523.9382934570312,
+      284.6348571777344
+    ],
+    "text": "[36] K. S. Krane, Introductory Nuclear Physics.\nNew York, NY: Wiley, 1988.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 11,
+    "bbox": [
+      132.06195068359375,
+      291.4588623046875,
+      411.225341796875,
+      303.4138488769531
+    ],
+    "text": "[Online]. Available: https://cds.cern.ch/record/359790\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 12,
+    "bbox": [
+      107.99995422363281,
+      320.20086669921875,
+      523.9263916015625,
+      332.1558532714844
+    ],
+    "text": "[37] A. Kr¨amer-Flecken, T. Morek, R. Lieder, W. Gast, G. Hebbinghaus,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 13,
+    "bbox": [
+      132.06195068359375,
+      338.9808654785156,
+      523.9707641601562,
+      350.93585205078125
+    ],
+    "text": "H. J¨ager, and W. Urban, “Use of DCO ratios for spin determination\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 14,
+    "bbox": [
+      132.06195068359375,
+      357.7608642578125,
+      523.92724609375,
+      369.7158508300781
+    ],
+    "text": "in γ-γ coincidence measurements,” Nuclear Instruments and Methods in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 15,
+    "bbox": [
+      132.06198120117188,
+      376.53985595703125,
+      523.9348754882812,
+      388.4948425292969
+    ],
+    "text": "Physics Research Section A: Accelerators, Spectrometers, Detectors and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 16,
+    "bbox": [
+      132.06198120117188,
+      395.3198547363281,
+      524.0067138671875,
+      407.27484130859375
+    ],
+    "text": "Associated Equipment, vol. 275, no. 2, pp. 333–339, 1989. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 17,
+    "bbox": [
+      132.06198120117188,
+      414.0988464355469,
+      487.7471618652344,
+      426.0538330078125
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/0168900289907067\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 18,
+    "bbox": [
+      107.99998474121094,
+      442.84185791015625,
+      523.908447265625,
+      454.7968444824219
+    ],
+    "text": "[38] L. D. Landau and E. M. Lifshitz, Mechanics, Third Edition:\nVolume 1\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 19,
+    "bbox": [
+      132.06198120117188,
+      461.620849609375,
+      523.9168701171875,
+      473.5758361816406
+    ],
+    "text": "(Course of Theoretical Physics), 3rd ed.\nButterworth-Heinemann, Jan.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 20,
+    "bbox": [
+      132.06198120117188,
+      480.4008483886719,
+      485.9798889160156,
+      492.3558349609375
+    ],
+    "text": "1976. [Online]. Available: http://www.worldcat.org/isbn/0750628960\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 21,
+    "bbox": [
+      107.99995422363281,
+      509.14288330078125,
+      523.9384765625,
+      521.097900390625
+    ],
+    "text": "[39] S. E. Larsson, “The Nuclear Potential-energy Surface with Inclusion of Axial\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 22,
+    "bbox": [
+      132.06195068359375,
+      527.9228515625,
+      523.9769287109375,
+      539.8778686523438
+    ],
+    "text": "Asymmetry,” Physica Scripta, vol. 8, no. 1-2, pp. 17–31, jul 1973. [Online].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 23,
+    "bbox": [
+      132.06195068359375,
+      546.7018432617188,
+      422.9752197265625,
+      558.6568603515625
+    ],
+    "text": "Available: https://doi.org/10.1088/0031-8949/8/1-2/003\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 24,
+    "bbox": [
+      107.99994659423828,
+      575.4448852539062,
+      523.962158203125,
+      587.39990234375
+    ],
+    "text": "[40] S. Larsson, G. Leander, and I. Ragnarsson, “Nuclear core-quasiparticle cou-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 25,
+    "bbox": [
+      132.06195068359375,
+      594.2238159179688,
+      523.9989624023438,
+      606.1788330078125
+    ],
+    "text": "pling,” Nuclear Physics A, vol. 307, no. 2, pp. 189–223, 1978. [Online]. Avail-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 26,
+    "bbox": [
+      132.06195068359375,
+      613.0038452148438,
+      517.01318359375,
+      624.9588623046875
+    ],
+    "text": "able: https://www.sciencedirect.com/science/article/pii/0375947478906139\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 27,
+    "bbox": [
+      107.99995422363281,
+      641.745849609375,
+      523.9144897460938,
+      653.7008666992188
+    ],
+    "text": "[41] E. A. Lawrie, J. Lawrie, P. Mutshena, S. Mukherjee, S. Mullins, R. Newman,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 28,
+    "bbox": [
+      132.06195068359375,
+      660.5258178710938,
+      523.9230346679688,
+      672.4808349609375
+    ],
+    "text": "J. Sharpey-Schafer, and F. Smit, “New Nanosecond Isomers Identiﬁed With\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 29,
+    "bbox": [
+      132.06195068359375,
+      679.3048706054688,
+      386.35675048828125,
+      691.2598876953125
+    ],
+    "text": "The AFRODITE Array,” private communication.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 30,
+    "bbox": [
+      107.99995422363281,
+      708.0478515625,
+      523.938232421875,
+      720.0028686523438
+    ],
+    "text": "[42] E. A. Lawrie, O. Shirinda, and C. M. Petrache, “Tilted precession and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 31,
+    "bbox": [
+      132.06195068359375,
+      726.8268432617188,
+      523.9883422851562,
+      738.7818603515625
+    ],
+    "text": "wobbling in triaxial nuclei,” Physical Review C, vol. 101, p. 034306, Mar 2020.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 124,
+    "block": 32,
+    "bbox": [
+      132.06195068359375,
+      745.6068115234375,
+      519.9679565429688,
+      757.5618286132812
+    ],
+    "text": "[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.101.034306\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Bibliography\n114\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.9622802734375,
+      95.69278717041016
+    ],
+    "text": "[43] J. Ljungvall, M. Palacz, and J. Nyberg, “Monte Carlo simulations of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 2,
+    "bbox": [
+      132.06199645996094,
+      102.51677703857422,
+      523.93017578125,
+      114.4717788696289
+    ],
+    "text": "the Neutron Wall detector system,” Nuclear Instruments and Methods in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 3,
+    "bbox": [
+      132.06199645996094,
+      121.29680633544922,
+      523.9349365234375,
+      133.25180053710938
+    ],
+    "text": "Physics Research Section A: Accelerators, Spectrometers, Detectors and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 4,
+    "bbox": [
+      132.06199645996094,
+      140.0768280029297,
+      524.0066528320312,
+      152.03182983398438
+    ],
+    "text": "Associated Equipment, vol. 528, no. 3, pp. 741–762, 2004. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 5,
+    "bbox": [
+      132.06199645996094,
+      158.85581970214844,
+      497.1676330566406,
+      170.81082153320312
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/S016890020400988X\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 6,
+    "bbox": [
+      108.0,
+      187.5978240966797,
+      523.914794921875,
+      199.55282592773438
+    ],
+    "text": "[44] B. F. Lv, C. M. Petrache, E. A. Lawrie, A. Astier, E. Dupont, K. K. Zheng,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 7,
+    "bbox": [
+      132.06199645996094,
+      206.3778533935547,
+      523.9112548828125,
+      218.33285522460938
+    ],
+    "text": "P. Greenlees, H. Badran, T. Calverley, D. M. Cox, T. Grahn, J. Hilton,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 8,
+    "bbox": [
+      132.06199645996094,
+      225.1578826904297,
+      523.9468994140625,
+      237.11288452148438
+    ],
+    "text": "R. Julin, S. Juutinen, J. Konki, J. Pakarinen, P. Papadakis, J. Partanen,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 9,
+    "bbox": [
+      132.06199645996094,
+      243.93687438964844,
+      523.9468994140625,
+      255.89187622070312
+    ],
+    "text": "P. Rahkila, P. Ruotsalainen, M. Sandzelius, J. Saren, C. Scholey, J. Sorri,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 10,
+    "bbox": [
+      132.06199645996094,
+      262.7169189453125,
+      523.9349975585938,
+      274.6719055175781
+    ],
+    "text": "S. Stolze,\nJ. Uusitalo,\nB. Cederwall,\nA. Ertoprak,\nH. Liu,\nS. Guo,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 11,
+    "bbox": [
+      132.06199645996094,
+      281.49591064453125,
+      523.9227905273438,
+      293.4508972167969
+    ],
+    "text": "J. G. Wang, H. J. Ong, X. H. Zhou, Z. Y. Sun, I. Kuti, J. Tim´ar,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 12,
+    "bbox": [
+      132.06199645996094,
+      300.27593994140625,
+      523.9230346679688,
+      312.2309265136719
+    ],
+    "text": "A. Tucholski, J. Srebrny, and C. Andreoiu, “Tilted precession bands in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 13,
+    "bbox": [
+      132.06199645996094,
+      317.831298828125,
+      523.9906616210938,
+      331.0108947753906
+    ],
+    "text": "135Nd,” Physical Review C, vol. 103, p. 044308, Apr 2021. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 14,
+    "bbox": [
+      132.06198120117188,
+      337.83489990234375,
+      416.5669860839844,
+      349.7898864746094
+    ],
+    "text": "https://link.aps.org/doi/10.1103/PhysRevC.103.044308\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 15,
+    "bbox": [
+      107.99998474121094,
+      366.5779113769531,
+      523.9264526367188,
+      378.53289794921875
+    ],
+    "text": "[45] B. Lv, C. Petrache, E. Lawrie, S. Guo, A. Astier, K. Zheng, H. Ong,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 16,
+    "bbox": [
+      132.06198120117188,
+      385.3569030761719,
+      523.9111328125,
+      397.3118896484375
+    ],
+    "text": "J. Wang, X. Zhou, Z. Sun, P. Greenlees, H. Badran, T. Calverley, D. Cox,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 17,
+    "bbox": [
+      132.06198120117188,
+      404.13690185546875,
+      523.9349365234375,
+      416.0918884277344
+    ],
+    "text": "T. Grahn, J. Hilton, R. Julin, S. Juutinen, J. Konki, J. Pakarinen,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 18,
+    "bbox": [
+      132.06198120117188,
+      422.9158935546875,
+      523.947021484375,
+      434.8708801269531
+    ],
+    "text": "P. Papadakis, J. Partanen, P. Rahkila, P. Ruotsalainen, M. Sandzelius,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 19,
+    "bbox": [
+      132.06198120117188,
+      441.6958923339844,
+      523.9351196289062,
+      453.65087890625
+    ],
+    "text": "J. Sar´en, C. Scholey, J. Sorri, S. Stolze, J. Uusitalo, B. Cederwall,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 20,
+    "bbox": [
+      132.06198120117188,
+      460.47589111328125,
+      523.9469604492188,
+      472.4308776855469
+    ],
+    "text": "A. Ertoprak, H. Liu, I. Kuti, J. Tim´ar, A. Tucholski, J. Srebrny, and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 21,
+    "bbox": [
+      132.06198120117188,
+      479.2548828125,
+      523.9348754882812,
+      491.2098693847656
+    ],
+    "text": "C. Andreoiu, “Evidence against the wobbling nature of low-spin bands in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 22,
+    "bbox": [
+      132.06198120117188,
+      496.8102722167969,
+      523.9868774414062,
+      509.9898681640625
+    ],
+    "text": "135Pr,” Physics Letters B, vol. 824, p. 136840, 2022. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 23,
+    "bbox": [
+      132.06198120117188,
+      516.8139038085938,
+      494.2506103515625,
+      528.7689208984375
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/S0370269321007802\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 24,
+    "bbox": [
+      107.99998474121094,
+      545.556884765625,
+      523.9503784179688,
+      557.5119018554688
+    ],
+    "text": "[46] R. Ma, Y. Liang, E. S. Paul, N. Xu, D. B. Fossan, L. Hildingsson, and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 25,
+    "bbox": [
+      132.06198120117188,
+      564.3358764648438,
+      523.9826049804688,
+      576.2908935546875
+    ],
+    "text": "R. A. Wyss, “Competing proton and neutron rotational alignments: Band\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 26,
+    "bbox": [
+      132.06198120117188,
+      581.8912353515625,
+      523.9815063476562,
+      595.0709228515625
+    ],
+    "text": "structures in 131Ba,” Physical Review C, vol. 41, pp. 717–729, Feb 1990.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 27,
+    "bbox": [
+      132.06199645996094,
+      601.8958740234375,
+      496.53619384765625,
+      613.8508911132812
+    ],
+    "text": "[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.41.717\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 28,
+    "bbox": [
+      108.0,
+      630.6378784179688,
+      523.9382934570312,
+      642.5928955078125
+    ],
+    "text": "[47] R. Ma, E. S. Paul, C. W. Beausang, S. Shi, N. Xu, and D. B. Fossan,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 29,
+    "bbox": [
+      132.06199645996094,
+      648.1932373046875,
+      523.97314453125,
+      661.3718872070312
+    ],
+    "text": "“Rotational bands in 133Ce,” Physical Review C, vol. 36, pp. 2322–2329,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 30,
+    "bbox": [
+      132.06198120117188,
+      668.1968383789062,
+      523.9736938476562,
+      680.15185546875
+    ],
+    "text": "Dec 1987. [Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 31,
+    "bbox": [
+      132.06198120117188,
+      686.9768676757812,
+      170.4614715576172,
+      698.931884765625
+    ],
+    "text": "36.2322\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 32,
+    "bbox": [
+      107.99998474121094,
+      715.7188720703125,
+      523.9383544921875,
+      727.6738891601562
+    ],
+    "text": "[48] M. A. J. Mariscotti, G. Scharﬀ-Goldhaber, and B. Buck, “Phenomenological\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 125,
+    "block": 33,
+    "bbox": [
+      132.06198120117188,
+      734.4988403320312,
+      523.9160766601562,
+      746.453857421875
+    ],
+    "text": "Analysis of Ground-State Bands in Even-Even Nuclei,” Physical Review, vol.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Bibliography\n115\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 1,
+    "bbox": [
+      132.06199645996094,
+      83.73778533935547,
+      523.9345703125,
+      95.69278717041016
+    ],
+    "text": "178, pp. 1864–1886, Feb 1969. [Online]. Available: https://link.aps.org/doi/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 2,
+    "bbox": [
+      132.06198120117188,
+      102.51677703857422,
+      268.7555236816406,
+      114.4717788696289
+    ],
+    "text": "10.1103/PhysRev.178.1864\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 3,
+    "bbox": [
+      107.99998474121094,
+      131.25975036621094,
+      523.9742431640625,
+      143.21475219726562
+    ],
+    "text": "[49] J. T. Matta, U. Garg, W. Li, S. Frauendorf, A. D. Ayangeakaa, D. Patel,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 4,
+    "bbox": [
+      132.06198120117188,
+      150.0387420654297,
+      523.947021484375,
+      161.99374389648438
+    ],
+    "text": "K. W. Schlax, R. Palit, S. Saha, J. Sethi, T. Trivedi, S. S. Ghugre, R. Raut,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 5,
+    "bbox": [
+      132.06198120117188,
+      168.8187713623047,
+      523.9110717773438,
+      180.77377319335938
+    ],
+    "text": "A. K. Sinha, R. V. F. Janssens, S. Zhu, M. P. Carpenter, T. Lauritsen,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 6,
+    "bbox": [
+      132.06198120117188,
+      187.59776306152344,
+      523.9230346679688,
+      199.55276489257812
+    ],
+    "text": "D. Seweryniak, C. J. Chiara, F. G. Kondev, D. J. Hartley, C. M. Petrache,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 7,
+    "bbox": [
+      132.06198120117188,
+      206.37779235839844,
+      523.9588623046875,
+      218.33279418945312
+    ],
+    "text": "S. Mukhopadhyay, D. V. Lakshmi, M. K. Raju, P. V. Madhusudhana Rao,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 8,
+    "bbox": [
+      132.06198120117188,
+      223.93324279785156,
+      523.9185791015625,
+      237.11282348632812
+    ],
+    "text": "S. K. Tandel, S. Ray, and F. D¨onau, “Transverse Wobbling in\n135Pr,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 9,
+    "bbox": [
+      132.06195068359375,
+      243.9368133544922,
+      523.9938354492188,
+      255.89181518554688
+    ],
+    "text": "Physical Review Letters, vol. 114, p. 082501, Feb 2015. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 10,
+    "bbox": [
+      132.06195068359375,
+      262.71685791015625,
+      429.7414245605469,
+      274.6718444824219
+    ],
+    "text": "https://link.aps.org/doi/10.1103/PhysRevLett.114.082501\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 11,
+    "bbox": [
+      107.99995422363281,
+      291.4588623046875,
+      523.9255981445312,
+      303.4138488769531
+    ],
+    "text": "[50] M. G. Mayer, “On Closed Shells in Nuclei. II,” Physical Review, vol. 75, pp.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 12,
+    "bbox": [
+      132.06192016601562,
+      310.2388916015625,
+      523.9708862304688,
+      322.1938781738281
+    ],
+    "text": "1969–1970, Jun 1949. [Online]. Available: https://link.aps.org/doi/10.1103/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 13,
+    "bbox": [
+      132.06190490722656,
+      329.01788330078125,
+      218.65199279785156,
+      340.9728698730469
+    ],
+    "text": "PhysRev.75.1969\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 14,
+    "bbox": [
+      107.99990844726562,
+      357.7608947753906,
+      523.9264526367188,
+      369.71588134765625
+    ],
+    "text": "[51] J. Meyer-Ter-Vehn,\n“Collective model description of transitional odd-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 15,
+    "bbox": [
+      132.06190490722656,
+      376.5398864746094,
+      523.9130249023438,
+      388.494873046875
+    ],
+    "text": "A nuclei:\n(I). The triaxial-rotor-plus-particle model,” Nuclear Physics\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 16,
+    "bbox": [
+      132.06192016601562,
+      395.31988525390625,
+      523.9273071289062,
+      407.2748718261719
+    ],
+    "text": "A, vol. 249,\nno. 1,\npp. 111–140,\n1975. [Online]. Available:\nhttps:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 17,
+    "bbox": [
+      132.06192016601562,
+      414.098876953125,
+      458.0865783691406,
+      426.0538635253906
+    ],
+    "text": "//www.sciencedirect.com/science/article/pii/0375947475900950\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 18,
+    "bbox": [
+      107.99992370605469,
+      442.8418884277344,
+      523.9263916015625,
+      454.796875
+    ],
+    "text": "[52] J. Meyer-Ter-Vehn,\n“Collective model description of transitional odd-\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 19,
+    "bbox": [
+      132.06192016601562,
+      461.6208801269531,
+      523.9229736328125,
+      473.57586669921875
+    ],
+    "text": "A nuclei:\n(II). Comparison with unique parity states of nuclei in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 20,
+    "bbox": [
+      132.06192016601562,
+      480.40087890625,
+      523.9190063476562,
+      492.3558654785156
+    ],
+    "text": "the\nA\n=\n135\nand\nA\n=\n190\nmass\nregions,”\nNuclear\nPhysics\nA,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 21,
+    "bbox": [
+      132.06192016601562,
+      499.1808776855469,
+      523.9293212890625,
+      511.1358642578125
+    ],
+    "text": "vol.\n249,\nno.\n1,\npp.\n141–165,\n1975.\n[Online].\nAvailable:\nhttps:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 22,
+    "bbox": [
+      132.06192016601562,
+      517.9598999023438,
+      458.0865783691406,
+      529.9149169921875
+    ],
+    "text": "//www.sciencedirect.com/science/article/pii/0375947475900962\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 23,
+    "bbox": [
+      107.99992370605469,
+      546.7018432617188,
+      523.9264526367188,
+      558.6568603515625
+    ],
+    "text": "[53] S.\nNandi,\nG.\nMukherjee,\nQ.\nB.\nChen,\nS.\nFrauendorf,\nR.\nBanik,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 24,
+    "bbox": [
+      132.06192016601562,
+      565.4818725585938,
+      523.9827880859375,
+      577.4368896484375
+    ],
+    "text": "S. Bhattacharya, S. Dar, S. Bhattacharyya, C. Bhattacharya, S. Chatterjee,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 25,
+    "bbox": [
+      132.06192016601562,
+      584.2619018554688,
+      523.9588623046875,
+      596.2169189453125
+    ],
+    "text": "S. Das, S. Samanta, R. Raut, S. S. Ghugre, S. Rajbanshi, S. Ali, H. Pai,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 26,
+    "bbox": [
+      132.06192016601562,
+      603.0408325195312,
+      523.9346923828125,
+      614.995849609375
+    ],
+    "text": "M. A. Asgar, S. Das Gupta, P. Chowdhury, and A. Goswami, “First\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 27,
+    "bbox": [
+      132.06192016601562,
+      621.8208618164062,
+      523.9228515625,
+      633.77587890625
+    ],
+    "text": "Observation of Multiple Transverse Wobbling Bands of Diﬀerent Kinds in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 28,
+    "bbox": [
+      132.06192016601562,
+      639.376220703125,
+      523.974365234375,
+      652.5548706054688
+    ],
+    "text": "183Au,” Physical Review Letters, vol. 125, p. 132501, Sep 2020. [Online].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 29,
+    "bbox": [
+      132.06195068359375,
+      659.3798217773438,
+      485.65533447265625,
+      671.3348388671875
+    ],
+    "text": "Available: https://link.aps.org/doi/10.1103/PhysRevLett.125.132501\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 30,
+    "bbox": [
+      107.99994659423828,
+      688.1218872070312,
+      523.9503173828125,
+      700.076904296875
+    ],
+    "text": "[54] R. Newman, J. Lawrie, B. Babu, M. Fetea, S. F¨orstch, S. Naguleswaran,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 31,
+    "bbox": [
+      132.06195068359375,
+      706.90185546875,
+      523.91748046875,
+      718.8568725585938
+    ],
+    "text": "J. Pilcher, D. Raave, C. Rigollet, J. Sharpey-Schafer et al., “Balkan phys.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 126,
+    "block": 32,
+    "bbox": [
+      132.06195068359375,
+      725.6818237304688,
+      307.89306640625,
+      737.6368408203125
+    ],
+    "text": "lett,” Special Issue, vol. 182, 1998.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Bibliography\n116\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.73778533935547,
+      523.9384765625,
+      95.69278717041016
+    ],
+    "text": "[55] S. W. Ødeg˚ard, G. B. Hagemann, D. R. Jensen, M. Bergstr¨om, B. Herskind,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 2,
+    "bbox": [
+      132.06199645996094,
+      102.51677703857422,
+      523.9468383789062,
+      114.4717788696289
+    ],
+    "text": "G. Sletten, S. T¨orm¨anen, J. N. Wilson, P. O. Tjøm, I. Hamamoto, K. Spohr,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 3,
+    "bbox": [
+      132.06199645996094,
+      121.29680633544922,
+      523.9230346679688,
+      133.25180053710938
+    ],
+    "text": "H. H¨ubel, A. G¨orgen, G. Sch¨onwasser, A. Bracco, S. Leoni, A. Maj, C. M.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 4,
+    "bbox": [
+      132.06199645996094,
+      140.0768280029297,
+      523.9230346679688,
+      152.03182983398438
+    ],
+    "text": "Petrache, P. Bednarczyk, and D. Curien, “Evidence for the Wobbling Mode\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 5,
+    "bbox": [
+      132.06199645996094,
+      158.85581970214844,
+      523.9940185546875,
+      170.81082153320312
+    ],
+    "text": "in Nuclei,” Physical Review Letters, vol. 86, pp. 5866–5869, Jun 2001.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 6,
+    "bbox": [
+      132.06198120117188,
+      177.63584899902344,
+      515.5685424804688,
+      189.59085083007812
+    ],
+    "text": "[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevLett.86.5866\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 7,
+    "bbox": [
+      107.99998474121094,
+      206.3778533935547,
+      523.9265747070312,
+      218.33285522460938
+    ],
+    "text": "[56] E. S. Paul, R. Ma, C. W. Beausang, S. A. Forbes, D. B. Fossan, J. Gizon,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 8,
+    "bbox": [
+      132.06198120117188,
+      225.1578826904297,
+      523.9351196289062,
+      237.11288452148438
+    ],
+    "text": "J. R. Hughes, Y. Liang, S. M. Mullins, P. J. Nolan, W. F. Piel, R. J. Poynter,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 9,
+    "bbox": [
+      132.06198120117188,
+      243.93687438964844,
+      523.958984375,
+      255.89187622070312
+    ],
+    "text": "P. H. Regan, R. Wadsworth, and N. Xu, “Electromagnetic properties of\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 10,
+    "bbox": [
+      132.06198120117188,
+      262.7169189453125,
+      523.9085693359375,
+      274.6719055175781
+    ],
+    "text": "N=75 isotones: evidence for triaxiality at low spin,” Journal of Physics G:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 11,
+    "bbox": [
+      132.06198120117188,
+      281.4969482421875,
+      523.9946899414062,
+      293.4519348144531
+    ],
+    "text": "Nuclear and Particle Physics, vol. 17, no. 5, pp. 605–617, may 1991. [Online].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 12,
+    "bbox": [
+      132.06198120117188,
+      300.27593994140625,
+      418.5757751464844,
+      312.2309265136719
+    ],
+    "text": "Available: https://doi.org/10.1088/0954-3899/17/5/009\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 13,
+    "bbox": [
+      107.9999771118164,
+      329.0179443359375,
+      523.9382934570312,
+      340.9729309082031
+    ],
+    "text": "[57] C. M. Petrache, Q. B. Chen, S. Guo, A. D. Ayangeakaa, U. Garg, J. T.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 14,
+    "bbox": [
+      132.06198120117188,
+      347.7979431152344,
+      523.9349975585938,
+      359.7529296875
+    ],
+    "text": "Matta, B. K. Nayak, D. Patel, J. Meng, M. P. Carpenter, C. J. Chiara,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 15,
+    "bbox": [
+      132.06198120117188,
+      366.57794189453125,
+      523.9110717773438,
+      378.5329284667969
+    ],
+    "text": "R. V. F. Janssens, F. G. Kondev, T. Lauritsen, D. Seweryniak, S. Zhu, S. S.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 16,
+    "bbox": [
+      132.06198120117188,
+      385.35693359375,
+      523.958740234375,
+      397.3119201660156
+    ],
+    "text": "Ghugre, and R. Palit, “Triaxial-band structures, chirality, and magnetic\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 17,
+    "bbox": [
+      132.06198120117188,
+      402.9123229980469,
+      523.9722290039062,
+      416.0919189453125
+    ],
+    "text": "rotation in 133La,” Physical Review C, vol. 94, p. 064309, Dec 2016. [Online].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 18,
+    "bbox": [
+      132.06198120117188,
+      422.9159240722656,
+      466.6230163574219,
+      434.87091064453125
+    ],
+    "text": "Available: https://link.aps.org/doi/10.1103/PhysRevC.94.064309\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 19,
+    "bbox": [
+      107.9999771118164,
+      451.658935546875,
+      523.938232421875,
+      463.6139221191406
+    ],
+    "text": "[58] C. Petrache, P. Walker, S. Guo, Q. Chen, S. Frauendorf, Y. Liu, R. Wyss,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 20,
+    "bbox": [
+      132.06198120117188,
+      470.43792724609375,
+      523.9352416992188,
+      482.3929138183594
+    ],
+    "text": "D. Mengoni, Y. Qiang, A. Astier, E. Dupont, R. Li, B. Lv, K. Zheng,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 21,
+    "bbox": [
+      132.06198120117188,
+      489.2179260253906,
+      523.93505859375,
+      501.17291259765625
+    ],
+    "text": "D. Bazzacco, A. Boso, A. Goasduﬀ, F. Recchia, D. Testov, F. Galtarossa,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 22,
+    "bbox": [
+      132.06198120117188,
+      507.9979248046875,
+      523.947021484375,
+      519.9529418945312
+    ],
+    "text": "G. Jaworski, D. Napoli, S. Riccetto, M. Siciliano, J. Valiente-Dobon, M. Liu,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 23,
+    "bbox": [
+      132.06198120117188,
+      526.7769165039062,
+      523.93505859375,
+      538.73193359375
+    ],
+    "text": "X. Zhou, J. Wang, C. Andreoiu, F. Garcia, K. Ortner, K. Whitmore, T. B¨ack,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 24,
+    "bbox": [
+      132.06198120117188,
+      545.5569458007812,
+      523.9112548828125,
+      557.511962890625
+    ],
+    "text": "B. Cederwall, E. Lawrie, I. Kuti, D. Sohler, J. Tim´ar, T. Marchlewski,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 25,
+    "bbox": [
+      132.06198120117188,
+      564.3358764648438,
+      523.9468994140625,
+      576.2908935546875
+    ],
+    "text": "J. Srebrny, and A. Tucholski, “Diversity of shapes and rotations in the\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 26,
+    "bbox": [
+      132.06198120117188,
+      581.8922729492188,
+      523.9476318359375,
+      595.0709228515625
+    ],
+    "text": "γ-soft 130Ba nucleus: First observation of a t-band in the A = 130 mass\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 27,
+    "bbox": [
+      132.06198120117188,
+      601.8959350585938,
+      523.9920654296875,
+      613.8509521484375
+    ],
+    "text": "region,” Physics Letters B, vol. 795, pp. 241–247, 2019. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 28,
+    "bbox": [
+      132.0619659423828,
+      620.6748657226562,
+      494.2506103515625,
+      632.6298828125
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/S0370269319304228\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 29,
+    "bbox": [
+      107.99996948242188,
+      648.1932983398438,
+      523.9321899414062,
+      661.3719482421875
+    ],
+    "text": "[59] P. A. Pipidis, “Structural Behavior of\n157,158,159Dy in the I= 30- 50L\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 30,
+    "bbox": [
+      132.06198120117188,
+      666.9732666015625,
+      523.928466796875,
+      680.1519165039062
+    ],
+    "text": "Spin Regime and the High-Spin Domain of 158Er Up to and Above Band\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 31,
+    "bbox": [
+      132.06198120117188,
+      686.9768676757812,
+      523.9708862304688,
+      698.931884765625
+    ],
+    "text": "Termination.” Ph.D. dissertation, Florida State University, 2006. [Online].\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 32,
+    "bbox": [
+      132.06198120117188,
+      705.7559204101562,
+      494.2869567871094,
+      717.7109375
+    ],
+    "text": "Available: https://diginole.lib.fsu.edu/islandora/object/fsu%3A168848\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 33,
+    "bbox": [
+      107.9999771118164,
+      734.4989013671875,
+      523.9862670898438,
+      746.4539184570312
+    ],
+    "text": "[60] D. Radford, “ESCL8R and LEVIT8R: Software for interactive graphical\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 127,
+    "block": 34,
+    "bbox": [
+      132.06198120117188,
+      753.2778930664062,
+      523.92333984375,
+      765.23291015625
+    ],
+    "text": "analysis of HPGe coincidence data sets,” Nuclear Instruments and Methods\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Bibliography\n117\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 1,
+    "bbox": [
+      132.06199645996094,
+      83.73778533935547,
+      523.9349975585938,
+      95.69278717041016
+    ],
+    "text": "in Physics Research Section A: Accelerators, Spectrometers, Detectors and\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 2,
+    "bbox": [
+      132.06199645996094,
+      102.51677703857422,
+      524.0066528320312,
+      114.4717788696289
+    ],
+    "text": "Associated Equipment, vol. 361, no. 1, pp. 297–305, 1995. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 3,
+    "bbox": [
+      132.06199645996094,
+      121.29680633544922,
+      487.7471008300781,
+      133.25180053710938
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/0168900295001832\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 4,
+    "bbox": [
+      108.0,
+      150.03880310058594,
+      523.9147338867188,
+      161.99380493164062
+    ],
+    "text": "[61] I.\nRagnarsson\nand\nS.\nG.\nNilsson,\nShapes\nand\nShells\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 5,
+    "bbox": [
+      132.06201171875,
+      168.81883239746094,
+      523.947021484375,
+      180.77383422851562
+    ],
+    "text": "in\nNuclear\nStructure.\nCambridge\nUniversity\nPress,\n1995.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 6,
+    "bbox": [
+      132.06201171875,
+      187.5978240966797,
+      523.9618530273438,
+      199.55282592773438
+    ],
+    "text": "[Online].\nAvailable:\nhttps://www.cambridge.org/core/books/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 7,
+    "bbox": [
+      132.06202697753906,
+      206.3778533935547,
+      517.1564331054688,
+      218.33285522460938
+    ],
+    "text": "shapes-and-shells-in-nuclear-structure/shell-structure-and-magic-numbers/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 8,
+    "bbox": [
+      132.06202697753906,
+      225.1578826904297,
+      340.41375732421875,
+      237.11288452148438
+    ],
+    "text": "C8382249108DB5290FAE78147CA8F673\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 9,
+    "bbox": [
+      108.00003051757812,
+      253.89988708496094,
+      523.9384765625,
+      265.8548889160156
+    ],
+    "text": "[62] I. Ragnarsson and P. B. Semmes,\n“Description of nuclear moments\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 10,
+    "bbox": [
+      132.06202697753906,
+      272.679931640625,
+      523.9221801757812,
+      284.6349182128906
+    ],
+    "text": "and nuclear spectra in the particle-rotor model,” Hyperﬁne Interactions,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 11,
+    "bbox": [
+      132.06201171875,
+      291.45892333984375,
+      523.9173583984375,
+      303.4139099121094
+    ],
+    "text": "vol.\n43,\nno.\n1-4,\np.\n423–440,\n1988.\n[Online].\nAvailable:\nhttps:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 12,
+    "bbox": [
+      132.06201171875,
+      310.23895263671875,
+      291.8047180175781,
+      322.1939392089844
+    ],
+    "text": "//doi.org/10.1007/BF02398323\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 13,
+    "bbox": [
+      108.00001525878906,
+      338.98095703125,
+      523.9265747070312,
+      350.9359436035156
+    ],
+    "text": "[63] G. Sch¨onwaßer, H. H¨ubel, G. Hagemann, P. Bednarczyk, G. Benzoni,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 14,
+    "bbox": [
+      132.06201171875,
+      357.7609558105469,
+      523.9111328125,
+      369.7159423828125
+    ],
+    "text": "A. Bracco, P. Bringel, R. Chapman, D. Curien, J. Domscheit, B. Herskind,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 15,
+    "bbox": [
+      132.06201171875,
+      376.5399475097656,
+      523.9230346679688,
+      388.49493408203125
+    ],
+    "text": "D. Jensen,\nS. Leoni,\nG. Lo Bianco,\nW. Ma,\nA. Maj,\nA. Neußer,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 16,
+    "bbox": [
+      132.06201171875,
+      395.3199462890625,
+      523.9469604492188,
+      407.2749328613281
+    ],
+    "text": "S.\nØdeg˚ard,\nC.\nPetrache,\nD.\nRoßbach,\nH.\nRyde,\nK.\nSpohr,\nand\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 17,
+    "bbox": [
+      132.06201171875,
+      412.87530517578125,
+      523.9207763671875,
+      426.0539245605469
+    ],
+    "text": "A. Singh, “One- and two-phonon wobbling excitations in triaxial 165Lu,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 18,
+    "bbox": [
+      132.06204223632812,
+      432.8789367675781,
+      523.991943359375,
+      444.83392333984375
+    ],
+    "text": "Physics Letters B, vol. 552, no. 1, pp. 9–16, 2003. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 19,
+    "bbox": [
+      132.06204223632812,
+      451.658935546875,
+      494.250732421875,
+      463.6139221191406
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/S0370269302030952\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 20,
+    "bbox": [
+      108.00004577636719,
+      480.40093994140625,
+      523.9385375976562,
+      492.3559265136719
+    ],
+    "text": "[64] N. Sensharma, U. Garg, Q. B. Chen, S. Frauendorf, D. P. Burdette,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 21,
+    "bbox": [
+      132.06204223632812,
+      499.1809387207031,
+      523.8991088867188,
+      511.13592529296875
+    ],
+    "text": "J. L. Cozzi, K. B. Howard, S. Zhu, M. P. Carpenter, P. Copp, F. G.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 22,
+    "bbox": [
+      132.06204223632812,
+      517.9598999023438,
+      523.9470825195312,
+      529.9149169921875
+    ],
+    "text": "Kondev, T. Lauritsen, J. Li, D. Seweryniak, J. Wu, A. D. Ayangeakaa,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 23,
+    "bbox": [
+      132.06204223632812,
+      536.7399291992188,
+      523.9230346679688,
+      548.6949462890625
+    ],
+    "text": "D. J. Hartley,\nR. V. F. Janssens,\nA. M. Forney,\nW. B. Walters,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 24,
+    "bbox": [
+      132.06204223632812,
+      554.2952880859375,
+      523.9182739257812,
+      567.4739379882812
+    ],
+    "text": "S. S. Ghugre, and R. Palit, “Longitudinal Wobbling Motion in\n187Au,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 25,
+    "bbox": [
+      132.06204223632812,
+      574.2988891601562,
+      523.9938354492188,
+      586.25390625
+    ],
+    "text": "Physical Review Letters, vol. 124, p. 052501, Feb 2020. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 26,
+    "bbox": [
+      132.06204223632812,
+      593.0789184570312,
+      429.7415466308594,
+      605.033935546875
+    ],
+    "text": "https://link.aps.org/doi/10.1103/PhysRevLett.124.052501\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 27,
+    "bbox": [
+      108.00004577636719,
+      621.8209228515625,
+      523.9622802734375,
+      633.7759399414062
+    ],
+    "text": "[65] N. Sensharma, U. Garg, S. Zhu, A. Ayangeakaa, S. Frauendorf, W. Li,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 28,
+    "bbox": [
+      132.06204223632812,
+      640.5999145507812,
+      523.9111938476562,
+      652.554931640625
+    ],
+    "text": "G. Bhat,\nJ. Sheikh,\nM. Carpenter,\nQ. Chen,\nJ. Cozzi,\nS. Ghugre,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 29,
+    "bbox": [
+      132.06204223632812,
+      659.3799438476562,
+      523.9230346679688,
+      671.3349609375
+    ],
+    "text": "Y. Gupta, D. Hartley, K. Howard, R. Janssens, F. Kondev, T. McMaken,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 30,
+    "bbox": [
+      132.06204223632812,
+      678.159912109375,
+      523.958740234375,
+      690.1149291992188
+    ],
+    "text": "R. Palit, J. Sethi, D. Seweryniak, and R. Singh, “Two-phonon wobbling in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 31,
+    "bbox": [
+      132.06204223632812,
+      695.7152709960938,
+      523.9937744140625,
+      708.8939208984375
+    ],
+    "text": "135Pr,” Physics Letters B, vol. 792, pp. 170–174, 2019. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 128,
+    "block": 32,
+    "bbox": [
+      132.0620574951172,
+      715.7189331054688,
+      494.250732421875,
+      727.6739501953125
+    ],
+    "text": "https://www.sciencedirect.com/science/article/pii/S0370269319301959\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Bibliography\n118\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 1,
+    "bbox": [
+      108.0,
+      83.58284759521484,
+      523.9700317382812,
+      95.69278717041016
+    ],
+    "text": "[66] O. Shirinda, “Studying Chirality In A ∼100, 130 And 190 Mass Regions,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 2,
+    "bbox": [
+      132.0619659423828,
+      102.51677703857422,
+      523.9469604492188,
+      114.4717788696289
+    ],
+    "text": "Ph.D. dissertation, University of the Western Cape, 2006. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 3,
+    "bbox": [
+      132.0619659423828,
+      121.29680633544922,
+      375.3581237792969,
+      133.25180053710938
+    ],
+    "text": "http://etd.uwc.ac.za/xmlui/handle/11394/1792\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 4,
+    "bbox": [
+      107.99996948242188,
+      150.00682067871094,
+      523.9284057617188,
+      161.96182250976562
+    ],
+    "text": "[67] J. Simpson, “The euroball spectrometer,” Zeitschrift f¨ur Physik A Hadrons\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 5,
+    "bbox": [
+      132.0619659423828,
+      168.7858123779297,
+      368.6034851074219,
+      180.74081420898438
+    ],
+    "text": "and Nuclei, vol. 358, no. 2, pp. 139–143, 1997.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 6,
+    "bbox": [
+      107.99996948242188,
+      197.49583435058594,
+      523.91455078125,
+      209.45083618164062
+    ],
+    "text": "[68] M. A. Sithole,\nJ. F. S. Schafer,\nS. N. T. Majola,\nT. D. Bucher,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 7,
+    "bbox": [
+      132.0619659423828,
+      216.27586364746094,
+      523.9468994140625,
+      228.23086547851562
+    ],
+    "text": "T. R. S. Dinoko, S. S. Ntshangase, E. A. Lawrie, N. A. Khumalo,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 8,
+    "bbox": [
+      132.0619659423828,
+      235.0548553466797,
+      523.9111328125,
+      247.00985717773438
+    ],
+    "text": "S.\nJongile,\nL.\nMdletshe,\nR.\nA.\nL.\nMdletshe,\nBark,\nN.\nErasmus,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 9,
+    "bbox": [
+      132.0619659423828,
+      253.8348846435547,
+      523.9109497070312,
+      265.7898864746094
+    ],
+    "text": "P. Jones, B. V. Kheswa, J. J. Lawrie, L. Makhathini, B. Malatji, K.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 10,
+    "bbox": [
+      132.0619659423828,
+      272.61492919921875,
+      523.947021484375,
+      284.5699157714844
+    ],
+    "text": "L.and Maqabuka, S. P. Noncolela, J. Ndayishimye, O. Shirinda, Z. B. R.,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 11,
+    "bbox": [
+      132.0619659423828,
+      290.1702880859375,
+      523.9127197265625,
+      303.3489074707031
+    ],
+    "text": "and P. L. Masiteng, “New collective structures in the 163Yb nucleus,” The\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 12,
+    "bbox": [
+      132.06195068359375,
+      310.1739501953125,
+      523.9707641601562,
+      322.1289367675781
+    ],
+    "text": "European Physical Journal A, vol. 55, no. 10, 2019. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 13,
+    "bbox": [
+      132.06195068359375,
+      328.95294189453125,
+      356.947509765625,
+      340.9079284667969
+    ],
+    "text": "https://doi.org/10.1140/epja/i2019-12866-3\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 14,
+    "bbox": [
+      107.99995422363281,
+      357.6629333496094,
+      523.9266357421875,
+      369.617919921875
+    ],
+    "text": "[69] G. Suliman, D. Bucurescu, R. Hertenberger, H. F. Wirth, T. Faestermann,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 15,
+    "bbox": [
+      132.06195068359375,
+      376.44293212890625,
+      523.89892578125,
+      388.3979187011719
+    ],
+    "text": "R. Kr¨ucken, T. Behrens, V. Bildstein, K. Eppinger, C. Hinke, and et al.,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 16,
+    "bbox": [
+      132.06195068359375,
+      393.998291015625,
+      523.91357421875,
+      407.1769104003906
+    ],
+    "text": "“Study of the\n131Ba nucleus with the (d, t) reaction,” The European\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 17,
+    "bbox": [
+      132.06195068359375,
+      414.0019226074219,
+      523.9946899414062,
+      425.9569091796875
+    ],
+    "text": "Physical Journal A, vol. 46, no. 2, p. 187–195, 2010. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 18,
+    "bbox": [
+      132.06195068359375,
+      432.78192138671875,
+      356.9474792480469,
+      444.7369079589844
+    ],
+    "text": "https://doi.org/10.1140/epja/i2010-11046-5\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 19,
+    "bbox": [
+      107.99995422363281,
+      461.49090576171875,
+      523.9322509765625,
+      473.4458923339844
+    ],
+    "text": "[70] Z. Szymanski, Fast nuclear rotation.\nClarendon Press Oxford [Oxfordshire],\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 20,
+    "bbox": [
+      132.06195068359375,
+      480.2709045410156,
+      158.7455291748047,
+      492.22589111328125
+    ],
+    "text": "1983.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 21,
+    "bbox": [
+      107.99995422363281,
+      508.98089599609375,
+      523.97412109375,
+      520.9359130859375
+    ],
+    "text": "[71] K. Tanabe and K. Sugawara-Tanabe, “Stability of the wobbling motion in\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 22,
+    "bbox": [
+      132.06195068359375,
+      526.5362548828125,
+      523.9348754882812,
+      539.7149047851562
+    ],
+    "text": "an odd-mass nucleus and the analysis of 135Pr,” Physical Review C, vol. 95,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 23,
+    "bbox": [
+      132.06195068359375,
+      546.5398559570312,
+      523.98583984375,
+      558.494873046875
+    ],
+    "text": "p. 064315, Jun 2017. [Online]. Available: https://link.aps.org/doi/10.1103/\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 24,
+    "bbox": [
+      132.06195068359375,
+      565.3198852539062,
+      238.82012939453125,
+      577.27490234375
+    ],
+    "text": "PhysRevC.95.064315\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 25,
+    "bbox": [
+      107.99995422363281,
+      594.0288696289062,
+      523.9860229492188,
+      605.98388671875
+    ],
+    "text": "[72] K. Tanabe and K. Sugawara-Tanabe, “Reply to “Comment on ‘Stability\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 26,
+    "bbox": [
+      132.06195068359375,
+      611.5852661132812,
+      523.91357421875,
+      624.763916015625
+    ],
+    "text": "of the wobbling motion in an odd-mass nucleus and the analysis of 135Pr’\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 27,
+    "bbox": [
+      132.06192016601562,
+      631.5888671875,
+      523.9877319335938,
+      643.5438842773438
+    ],
+    "text": "”,” Physical Review C, vol. 97, p. 069802, Jun 2018. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 28,
+    "bbox": [
+      132.06192016601562,
+      650.3678588867188,
+      410.7090148925781,
+      662.3228759765625
+    ],
+    "text": "https://link.aps.org/doi/10.1103/PhysRevC.97.069802\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 29,
+    "bbox": [
+      107.99992370605469,
+      679.077880859375,
+      523.9263305664062,
+      691.0328979492188
+    ],
+    "text": "[73] J. Tim´ar, Q. B. Chen, B. Kruzsicz, D. Sohler, I. Kuti, S. Q. Zhang,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 30,
+    "bbox": [
+      132.06192016601562,
+      697.8578491210938,
+      523.9467163085938,
+      709.8128662109375
+    ],
+    "text": "J. Meng, P. Joshi, R. Wadsworth, K. Starosta, A. Algora, P. Bednarczyk,\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 31,
+    "bbox": [
+      132.06192016601562,
+      716.6369018554688,
+      523.9110107421875,
+      728.5919189453125
+    ],
+    "text": "D. Curien,\nZ. Dombr´adi,\nG. Duchˆene,\nA. Gizon,\nJ. Gizon,\nD. G.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 32,
+    "bbox": [
+      132.06192016601562,
+      735.4168701171875,
+      523.9467163085938,
+      747.3718872070312
+    ],
+    "text": "Jenkins, T. Koike, A. Krasznahorkay, J. Moln´ar, B. M. Nyak´o, E. S.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 129,
+    "block": 33,
+    "bbox": [
+      132.06192016601562,
+      754.1968994140625,
+      523.9349365234375,
+      766.1519165039062
+    ],
+    "text": "Paul,\nG. Rainovski,\nJ. N. Scheurer,\nA. J. Simons,\nC. Vaman,\nand\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 130,
+    "block": 0,
+    "bbox": [
+      108.0,
+      49.44878387451172,
+      523.9279174804688,
+      61.40378189086914
+    ],
+    "text": "Bibliography\n119\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 130,
+    "block": 1,
+    "bbox": [
+      132.06199645996094,
+      82.51319885253906,
+      523.9163208007812,
+      95.69278717041016
+    ],
+    "text": "L. Zolnai, “Experimental Evidence for Transverse Wobbling in\n105Pd,”\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 130,
+    "block": 2,
+    "bbox": [
+      132.06201171875,
+      102.51677703857422,
+      523.9938354492188,
+      114.4717788696289
+    ],
+    "text": "Physical Review Letters, vol. 122, p. 062501, Feb 2019. [Online]. Available:\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 130,
+    "block": 3,
+    "bbox": [
+      132.06201171875,
+      121.29680633544922,
+      429.7414855957031,
+      133.25180053710938
+    ],
+    "text": "https://link.aps.org/doi/10.1103/PhysRevLett.122.062501\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 130,
+    "block": 4,
+    "bbox": [
+      108.00001525878906,
+      150.03880310058594,
+      523.9384155273438,
+      161.99380493164062
+    ],
+    "text": "[74] J. L. Wood, A.-M. Oros-Peusquens, R. Zaballa, J. M. Allmond, and W. D.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 130,
+    "block": 5,
+    "bbox": [
+      132.06201171875,
+      168.81883239746094,
+      523.9471435546875,
+      180.77383422851562
+    ],
+    "text": "Kulp, “Triaxial rotor model for nuclei with independent inertia and electric\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 130,
+    "block": 6,
+    "bbox": [
+      132.06201171875,
+      187.5978240966797,
+      523.9678955078125,
+      199.55282592773438
+    ],
+    "text": "quadrupole tensors,” Physical Review C, vol. 70, p. 024308, Aug 2004.\n",
+    "block_type": 0
+  },
+  {
+    "pdf_page": 130,
+    "block": 7,
+    "bbox": [
+      132.06201171875,
+      206.3778533935547,
+      514.1100463867188,
+      218.33285522460938
+    ],
+    "text": "[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.70.024308\n",
+    "block_type": 0
+  }
+]

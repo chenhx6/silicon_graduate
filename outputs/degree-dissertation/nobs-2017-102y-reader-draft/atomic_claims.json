@@ -1,0 +1,177 @@
+{
+  "source_sha256": "acb846d63e4a8cc61491d6f5ba04a4858bf3efd3e98bb9152b50383987b76a57",
+  "claims": [
+    {
+      "id": "NOBS-01",
+      "claim": "首轮Ramsey未干净分离两态，随频率强度变化在大误差下不明确",
+      "evidence_layer": "experiment-plus-author-assessment",
+      "pdf_pages": [
+        59,
+        60
+      ],
+      "paragraph_ids": [
+        "S0101",
+        "S0102"
+      ],
+      "locator": "printed p41–42; Fig4.3",
+      "boundary": "不定义统计置信上限",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "NOBS-02",
+      "claim": "第一次效率源在β探测器外，第二次源才在植入点",
+      "evidence_layer": "calibration",
+      "pdf_pages": [
+        53,
+        54
+      ],
+      "paragraph_ids": [
+        "S0088",
+        "S0090"
+      ],
+      "locator": "printed p35–36; Figs3.15/3.16",
+      "boundary": "不同geometry/efficiency不直接合并",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "NOBS-03",
+      "claim": "混合系数以旧模板Eq4.1逐线计算后平均",
+      "evidence_layer": "author-analysis-with-inherited-input",
+      "pdf_pages": [
+        64,
+        65
+      ],
+      "paragraph_ids": [
+        "S0112",
+        "S0113"
+      ],
+      "locator": "printed p46–47; Table4.1/Eq4.1",
+      "boundary": "82:18和后文78:22均保留；非绝对产生率",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "NOBS-04",
+      "claim": "两RIKEN路径326keV相对强度为8(1)和48(3)，152归一100",
+      "evidence_layer": "direct-reported-table",
+      "pdf_pages": [
+        83
+      ],
+      "paragraph_ids": [],
+      "locator": "printed p65; Table6.1",
+      "boundary": "criterion1=Sr,2=Y; relative photon intensities",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "NOBS-05",
+      "claim": "Sr路径用20ms谱按244keV归一扣除Y成分",
+      "evidence_layer": "analysis-definition",
+      "pdf_pages": [
+        81,
+        82
+      ],
+      "paragraph_ids": [
+        "S0141",
+        "S0142"
+      ],
+      "locator": "printed p63–64; Fig6.5",
+      "boundary": "短窗纯度是工作近似，无完整残余污染上界",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "NOBS-06",
+      "claim": "1059keV放置保留统计不足和近等能双跃迁两个解释",
+      "evidence_layer": "competing-explanations",
+      "pdf_pages": [
+        114,
+        115,
+        120
+      ],
+      "paragraph_ids": [
+        "S0223",
+        "S0224",
+        "S0234"
+      ],
+      "locator": "printed p96–97/102",
+      "boundary": "不能唯一认证双线",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "NOBS-07",
+      "claim": "质子μ由.57改.32以解决BCS不收敛，再按邻核校正",
+      "evidence_layer": "model-calibration",
+      "pdf_pages": [
+        105,
+        106,
+        107
+      ],
+      "paragraph_ids": [
+        "S0195",
+        "S0197",
+        "S0199",
+        "S0200"
+      ],
+      "locator": "printed p87–89; Tables7.2/7.3",
+      "boundary": "Table7.3单位疑点；无原代码/input",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "NOBS-08",
+      "claim": "ν5/2[532]⊗π5/2[422]给5−/0−候选，GM取5−较低",
+      "evidence_layer": "model-assisted-assignment",
+      "pdf_pages": [
+        107,
+        108,
+        109
+      ],
+      "paragraph_ids": [
+        "S0205",
+        "S0206",
+        "S0207"
+      ],
+      "locator": "printed p89–91; Table7.4/Eq7.13",
+      "boundary": "prolate-only及邻核经验校正；非独立AD/P指认",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "NOBS-09",
+      "claim": "300keV为默认双态split，最终图以未知X<100keV替代",
+      "evidence_layer": "model-versus-experiment-boundary",
+      "pdf_pages": [
+        111,
+        123
+      ],
+      "paragraph_ids": [
+        "S0215",
+        "S0238"
+      ],
+      "locator": "printed p93/105; Fig8.7",
+      "boundary": "非300keV质量差测量；100keV上限无CL",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "NOBS-10",
+      "claim": "Fig8.8的1+及logft4.5/5.3继承Hill1986",
+      "evidence_layer": "inherited-figure",
+      "pdf_pages": [
+        123,
+        125
+      ],
+      "paragraph_ids": [
+        "S0239"
+      ],
+      "locator": "printed p105/107; Fig8.8 and Ref37",
+      "boundary": "非Nobs新absoluteβfeeding/logft，旧能量零点与X分层",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    }
+  ]
+}

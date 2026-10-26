@@ -1,0 +1,30 @@
+Abstract
+The neutron-deﬁcient nuclei between the N = 50 and N = 82 shell closures provide
+rich information on the shape and structure of the nucleus. The isotones of 133Ce
+and 131Ba (N = 75) lie in this region of the nuclear chart. The properties of two
+recently discovered positive-parity rotational bands based on the g7/2 orbital were
+studied in this work. The rotational bands in both nuclei are based on the 7/2+
+state.
+The quasiparticle+triaxial rotor (QTR) model was used to understand
+the dependence of the excitation energies and the signature splitting in these
+bands as a function of triaxiality.
+In addition to triaxiality, the eﬀects of the
+Coriolis interaction on the excitation energies and the signature splitting was also
+investigated.
+A new negative-parity band was also identiﬁed in the 133Ce nuclei. It is built on
+the I = 13/2−state. Thirteen new intraband transitions and ﬁfteen new interband
+transitions linking this exited band to the yrast band are identiﬁed in this work.
+A triaxial one-quasiparticle ν(h11/2)−1[514]9/2−conﬁguration, with a triaxiality of
+∼20◦is proposed for the structure. These new experimental results are compared
+with two sets of QTR model calculations, (i) with a conﬁguration space of nine
+negative-parity orbitals close to the Fermi level, which corresponds to a description
+as a 3D tilted precession of the nucleus and (ii) with a conﬁguration space of
+one negative-parity orbital (the frozen alignment approximation used previously
+to describe wobbling).
+The QTR with a conﬁguration space of nine negative-
+parity orbitals close to the Fermi level describes the experimentally observed band
+properties better than the frozen alignment case.
+Keywords
+Signature Splitting, wobbling, Nuclear Triaxiality, Tilted Precession, Rotational
+Bands
+iii

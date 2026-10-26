@@ -1,0 +1,24 @@
+Chapter 3. Nuclear Triaxiality
+39
+axially symmetric nuclear shape the output of the program is a pure Nilsson state,
+while for the asymmetric nuclear shape, the output is a mixture of basis states
+with the same parity but diﬀering in occupation probabilities. This information
+is passed down to the next program ASYMO.
+3.4.2
+ASYMO
+The program ASYMO couples the core rotation to the selected single-particle
+matrix elements and eigenstates |ν⟩that are passed down from the program
+GAMPN and constructs the quasiparticle+triaxial rotor sates. A maximum of
+15 single-particle states can be used in the calculations, typically a subset of the
+single-particle states lying close to the Fermi level are included. The inputs to
+ASYMO comprise information on these single-particle states (the same states as
+in GAMPN or, fewer). The moments of inertia of the core can be extracted from
+the experimental energy of the ﬁrst 2+ state [51] or can be parametrized by Harris
+parameters, which takes into account the spin dependence of the MoI’s [30, 48].
+3.4.3
+PROBMO
+The results of GAMPN and ASYMO are passed down to the program PROBMO,
+which uses them to calculate the electromagnetic transition properties of all tran-
+sitions that link all calculated nuclear states. That includes the B(E2) and B(M1)
+transition probabilities as well as the mixing ratios δE2/M1 for the M1+E2 transi-
+tions and the quadruple moment for each state.

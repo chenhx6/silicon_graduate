@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-26T04:34:57.945971+00:00",
+  "blueprint_current_sha256": "6d94d93010b367cdd433485f1685b005d8b830b75e1ab0f01b0250923b7b2b45",
+  "review": "tmp/day23-theses/nobs-worker/ce-blueprint-formula-review.md",
+  "formula_findings": "Current rM1, S coefficients, QTR anticommutator expansion and M1 rewriting are correct.",
+  "recommended_conditions": [
+    "Both Ea and Eb in MeV",
+    "Two-input count conditional on fixed energies and reference identity",
+    "Model trend attribution to figure/prose retains table conflict"
+  ],
+  "missing_links": [],
+  "producer_rerun": false,
+  "canonical_modified": false,
+  "git_operations": false
+}

@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-26T05:03:20.317881+00:00",
+  "source_sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+  "report": "tmp/day23-theses/nobs-worker/ce-energy-unit-input-review.md",
+  "finding": "Literal epsilon table MeV versus lambda MeV scale requires actual common unit/zero producer contract; no unique conversion recovered",
+  "lambdas": {
+    "133Ce_positive_MeV": "50.6",
+    "131Ba_positive_MeV": "51.0",
+    "133Ce_negative_actual_lambda": "not specified on the checked negative-parity pages; do not inherit positive lambda"
+  },
+  "hbar_omega_conversion_performed": false,
+  "canonical_modified": false,
+  "raw_modified": false,
+  "git_operations": false
+}

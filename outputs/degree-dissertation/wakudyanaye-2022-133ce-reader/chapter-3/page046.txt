@@ -1,0 +1,64 @@
+Chapter 3. Nuclear Triaxiality
+35
+Hint = Hsp + Hpair
+=
+X
+ν>0
+|εν −λF|(a+
+ν aν + a+
+ν aν) −∆
+2
+X
+ν>0
+(a+
+ν a+
+ν + aνaν),
+(3.15)
+where λF denotes the Fermi energy, ∆is the pairing gap parameter and is cal-
+culated following particle conservation [51] and |ν⟩is the time-reversal state of
+|ν⟩. The single-particle states |ν⟩and the corresponding energies are obtained
+by diagonalizing the Hamiltonian Hsp. Similar to Refs. [39, 62], a Nilsson type
+Hamiltonian is employed,
+Hsp = ( p2
+2m + 1
+2mω0ρ2 −2
+3ε2
+r
+4π
+3 ℏω0ρ2[cos γY 0
+2 + 1
+√
+2 sin γ(Y 2
+2 + Y −2
+2
+)]
+−κℏ(ω){2⃗l ·⃗s + µ(⃗l2−<⃗l2 >N)},
+(3.16)
+with ρ as the radius in a stretched coordinate system, ε2 and γ are the usual Nilsson
+deformation parameters, Y ±2
+2
+and Y 0
+2 are the second-order spherical harmonics,
+and κ and µ are the standard Nilsson parameters.
+The single-particle states are written as;
+a+
+ν |0⟩=
+X
+NljΩ
+cν
+NljΩΨNl
+jΩ,
+a+
+ν |0⟩=
+X
+NljΩ
+(−1)j−Ωcν
+NljΩΨNl
+j−Ω,
+where Ωis the projection of the single-particle angular momentum operator j on
+the 3-axis and is restricted to the values ..., −7/2, −3/2, +1/2, +5/2, ... due to
+time reversal degeneracy [51].
+The QTR model solutions can be obtained by diagonalizing the Hamiltonian (equa-
+tion 3.13) in a complete basis space, which couples the inert core with the intrinsic
+wavefunctions of the valence nucleon. When the pairing interaction is ignored, a
+strong coupling basis can be constructed as;

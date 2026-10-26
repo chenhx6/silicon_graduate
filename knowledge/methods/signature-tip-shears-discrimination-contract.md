@@ -799,3 +799,7 @@ Pt g2+=.27(3)另有相对192Pt .30(1)的TF参考链，适合作为进一步opera
 ## Day23：学位论文作为分析蓝本的两种控制
 
 [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-04/20/21/23给近双峰、分母身份和模型逐量优劣；[[nobs-2017-spin-parity-102y-thesis]] NOBS-03/06/07/08给共同归一旧模板、同能γ异支路、邻核定标和模型辅助Jπ控制。后者不是wobbling/MR/AMR新实验。GM doublet、signature partner、pseudospin partner不混用；不同模型或学位/论文转述不是独立采集。可复用推导/实际步骤在[[133ce-thesis-analysis-blueprint]]，新needs_review:true。
+
+## Day23：冻结空间不等于先置经典向量
+
+[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-29的selected projection控制区分Pj²P与(PjP)²，固定系数例中差仅共同平移，不能拿它证明本核劈裂变动或FA失败。[[ragnarsson-semmes-1988-particle-rotor-moments]] RS88-03/04/05/09约束bodyfixed算符、coreR惯量/配对/ξ与参数版本；RS88-13/14提供真实原文的EM失配和模型特定δ符号预测。B槽若同时改这些选项已超出configuration-only。[[133ce-thesis-analysis-blueprint]]保推导/条件；新needs_review:true，不补原j/R几何或实验δ/τ。

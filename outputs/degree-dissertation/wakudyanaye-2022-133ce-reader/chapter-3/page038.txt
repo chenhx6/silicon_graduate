@@ -1,0 +1,39 @@
+Chapter 3. Nuclear Triaxiality
+27
+The excited bands arise from the solutions of the 3D Hamiltonian.
+There is
+exactly one state with I = 0, no state with I = 1, two states with I = 2, one
+state with I = 3, three states with I = 4, two states with I = 5, four states
+with I = 6 etc. That is the spin sequence predicted by the model goes like: I =
+{0, 2, 2, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, ...}. These states can be organized in the following
+way to form rotational bands; the ground state band is formed by the lowest energy
+states with spin sequence I = 0, 2, 4, 6, ..., the ﬁrst excited band consists of the
+sequence I = 2, 3, 4, 5, 6..., the next excited band is formed by I = 4, 5, 6, 7, 8....
+The third excited band is made up of the spin sequence I = 6, 7, 8, ... with K = 6
+etc. The arrangement of rotational states of a triaxial rotor is presented in Figure
+3.2, and described in more details in the next section.
+3.2.1
+Tilted-precession bands
+Perhaps a better way to describe the excited rotational bands that result from
+the rotation of even-even triaxial nuclei is by modelling them as a consequence of
+the tilting of the total angular momentum vector⃗I away from the intermediate
+axis and precessing around this axis. As stated previously, the intermediate axis
+has the largest moment of inertia and rotation around this axis is preferred. At
+γ = 30◦the Hamiltonian (equation 3.3) exhibits a symmetry, and the moments of
+inertia along the short and long axes (2 and 3, respectively) are equal (ℑ2 = ℑ3).
+Thus one can write the Hamiltonian as [42]:
+H = 3ℏ2
+8ℑ0
+[4I(I + 1) −3R2
+1].
+(3.4)
+The corresponding energy eigenvalues are:
+E = 3ℏ2
+8ℑ0
+[4I(I + 1) −3i2],
+(3.5)
+where i is the projection of⃗I on the intermediate axis. When i = |I|, it corresponds
+to a full alignment of⃗I along the intermediate axis, see Figure 3.2 (d) and the
+resulting sequence of ∆I = 2 states forms the g.s. band as shown in Figure 3.2
+(a). The excited bands are formed by tilting I away from the intermediate axis
+see panels (e) and (f) of Figure 3.2. When i = I −1 and i = I −2, the resulting

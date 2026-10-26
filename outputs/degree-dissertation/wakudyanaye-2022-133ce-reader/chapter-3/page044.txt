@@ -1,0 +1,44 @@
+Chapter 3. Nuclear Triaxiality
+33
+(ii) the intraband B(E2) transition probabilities are identical for all wobbling
+bands, because they all correspond to rotations around the same axis−the inter-
+mediate axis;
+B(E2; n, I −→n, I ± 2) =
+5
+16πe2Q2
+2,
+(3.11)
+(iii) the interband B(E2) transition probabilities are linearly dependent on n, as
+they link bands with diﬀerent phonon excitations;
+B(E2; n, I −→n −1, I −1) =
+5
+16πe2(
+√
+3Q0x −
+√
+2Q2y)2n
+I ,
+(3.12)
+where Q0 and Q2 denote the intrinsic and spectroscopic quadrupole moments,
+respectively. The wobbling approximation of the 3D rotational Hamiltonian is only
+valid at high spins [15]. Probably that is why wobbling had not been observed so
+far at low spins in even-even nuclei. Wobbling motion was observed experimentally
+in the A ≈160 mass region, in the odd-A, 161−167Lu and 167Ta isotopes, and the
+rotational bands corresponded to triaxial superdeformed nuclear shapes [4, 16, 31,
+34, 55, 63].
+Recently nuclear wobbling was investigated in odd-mass nuclei by Frauendorf
+and D¨onau [23], and the concepts of transverse and longitudinal wobbling were
+proposed depending on whether the single-particle angular momentum was ori-
+ented perpendicular or parallel to the intermediate axis, respectively. Longitudinal
+(transverse) wobbling bands are expected to have (i) increasing (decreasing) wob-
+bling frequency with increasing spin and, (ii) the B(E2; n, I −→n −1, I −1) and
+B(M1; n, I −→n−1, I−1) reduced transition probabilities should be proportional
+to n.
+In addition two wobbling bands based on the same one-quasiparticle conﬁguration
+and diﬀering by one wobbling phonon ∆n = 1, should be linked with ∆I =
+1, M1 + E2 transitions with dominant E2 nature, that is with a mixing ratio
+|δ| > 1. Therefore, measuring mixing ratios with magnitudes larger than one is
+the necessary supporting experimental evidence for the wobbling interpretation.
+Mixing ratios with magnitudes larger than one were reported for several linking
+transitions in 135Pr, 105Pd, 183Au, 133La, 187Au, 130Ba and 127Xe [49, 65], [73], [53],
+[14], [64], [18, 58], [17]. However, recently these results were questioned [27, 29, 45]

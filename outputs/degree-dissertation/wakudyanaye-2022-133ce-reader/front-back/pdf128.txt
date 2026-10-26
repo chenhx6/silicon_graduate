@@ -1,0 +1,84 @@
+Bibliography
+117
+in Physics Research Section A: Accelerators, Spectrometers, Detectors and
+Associated Equipment, vol. 361, no. 1, pp. 297–305, 1995. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/0168900295001832
+[61] I.
+Ragnarsson
+and
+S.
+G.
+Nilsson,
+Shapes
+and
+Shells
+in
+Nuclear
+Structure.
+Cambridge
+University
+Press,
+1995.
+[Online].
+Available:
+https://www.cambridge.org/core/books/
+shapes-and-shells-in-nuclear-structure/shell-structure-and-magic-numbers/
+C8382249108DB5290FAE78147CA8F673
+[62] I. Ragnarsson and P. B. Semmes,
+“Description of nuclear moments
+and nuclear spectra in the particle-rotor model,” Hyperﬁne Interactions,
+vol.
+43,
+no.
+1-4,
+p.
+423–440,
+1988.
+[Online].
+Available:
+https:
+//doi.org/10.1007/BF02398323
+[63] G. Sch¨onwaßer, H. H¨ubel, G. Hagemann, P. Bednarczyk, G. Benzoni,
+A. Bracco, P. Bringel, R. Chapman, D. Curien, J. Domscheit, B. Herskind,
+D. Jensen,
+S. Leoni,
+G. Lo Bianco,
+W. Ma,
+A. Maj,
+A. Neußer,
+S.
+Ødeg˚ard,
+C.
+Petrache,
+D.
+Roßbach,
+H.
+Ryde,
+K.
+Spohr,
+and
+A. Singh, “One- and two-phonon wobbling excitations in triaxial 165Lu,”
+Physics Letters B, vol. 552, no. 1, pp. 9–16, 2003. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/S0370269302030952
+[64] N. Sensharma, U. Garg, Q. B. Chen, S. Frauendorf, D. P. Burdette,
+J. L. Cozzi, K. B. Howard, S. Zhu, M. P. Carpenter, P. Copp, F. G.
+Kondev, T. Lauritsen, J. Li, D. Seweryniak, J. Wu, A. D. Ayangeakaa,
+D. J. Hartley,
+R. V. F. Janssens,
+A. M. Forney,
+W. B. Walters,
+S. S. Ghugre, and R. Palit, “Longitudinal Wobbling Motion in
+187Au,”
+Physical Review Letters, vol. 124, p. 052501, Feb 2020. [Online]. Available:
+https://link.aps.org/doi/10.1103/PhysRevLett.124.052501
+[65] N. Sensharma, U. Garg, S. Zhu, A. Ayangeakaa, S. Frauendorf, W. Li,
+G. Bhat,
+J. Sheikh,
+M. Carpenter,
+Q. Chen,
+J. Cozzi,
+S. Ghugre,
+Y. Gupta, D. Hartley, K. Howard, R. Janssens, F. Kondev, T. McMaken,
+R. Palit, J. Sethi, D. Seweryniak, and R. Singh, “Two-phonon wobbling in
+135Pr,” Physics Letters B, vol. 792, pp. 170–174, 2019. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/S0370269319301959

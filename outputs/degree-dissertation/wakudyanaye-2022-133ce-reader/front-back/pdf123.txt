@@ -1,0 +1,50 @@
+Bibliography
+112
+D. Testov, F. Galtarossa, G. Jaworski, D. Napoli, S. Riccetto, M. Siciliano,
+J. Valiente-Dobon, M. Liu, G. Li, X. Zhou, Y. Zhang, C. Andreoiu,
+F. Garcia, K. Ortner, K. Whitmore, A. Ata¸c-Nyberg, T. B¨ack, B. Cederwall,
+E. Lawrie, I. Kuti, D. Sohler, T. Marchlewski, J. Srebrny, and A. Tucholski,
+“Evidence for pseudospin-chiral quartet bands in the presence of octupole
+correlations,” Physics Letters B, vol. 807, p. 135572, 2020. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/S0370269320303762
+[29] S. Guo, X. H. Zhou, C. M. Petrache, E. A. Lawrie, S. Mthembu, Y. D. Fang,
+H. Y. Wu, H. L. Wang, H. Y. Meng, G. S. Li, Y. H. Qiang, J. G. Wang,
+M. L. Liu, Y. Zheng, B. Ding, W. Q. Zhang, A. Rohilla, K. R. Mukhi, Y. Y.
+Yang, H. J. Ong, J. B. Ma, S. W. Xu, Z. Bai, H. L. Fan, J. F. Huang, J. H.
+Li, J. H. Xu, B. F. Lv, W. Hua, Z. G. Gan, and Y. H. Zhang, “Probing the
+nature of the conjectured low-spin wobbling bands in atomic nuclei,” 2021.
+[Online]. Available: https://arxiv.org/abs/2011.14354
+[30] S.
+M.
+Harris,
+“Higher
+Order
+Corrections
+to
+the
+Cranking
+Model,”
+Physical Review, vol. 138, pp. B509–B513, May 1965. [Online]. Available:
+https://link.aps.org/doi/10.1103/PhysRev.138.B509
+[31] D. J. Hartley, R. V. F. Janssens, L. L. Riedinger, M. A. Riley, A. Aguilar,
+M. P. Carpenter, C. J. Chiara, P. Chowdhury, I. G. Darby, U. Garg,
+Q. A. Ijaz, F. G. Kondev, S. Lakshmi, T. Lauritsen, A. Ludington,
+W. C. Ma,
+E. A. McCutchan,
+S. Mukhopadhyay,
+R. Pifer,
+E. P.
+Seyfried, I. Stefanescu, S. K. Tandel, U. Tandel, J. R. Vanhoy, X. Wang,
+S. Zhu, I. Hamamoto, and S. Frauendorf, “Wobbling mode in
+167Ta,”
+Physical Review C, vol. 80, p. 041304, Oct 2009. [Online]. Available:
+https://link.aps.org/doi/10.1103/PhysRevC.80.041304
+[32] O. Haxel, J. H. D. Jensen, and H. E. Suess, “On the ”Magic Numbers”
+in Nuclear Structure,” Physical Review, vol. 75, pp. 1766–1766, Jun 1949.
+[Online]. Available: https://link.aps.org/doi/10.1103/PhysRev.75.1766.2
+[33] S. Ingelman, C. Ekstrom, M. Olsmats, and B. Wannberg, “Nuclear Spins of
+Neutron-Deﬁcient Lanthanum and Cerium Isotopes,” Physica Scripta, vol. 7,
+p. 24, 1973. [Online]. Available: https://iopscience.iop.org/article/10.1088/
+0031-8949/7/1-2/002
+[34] D. R. Jensen, G. B. Hagemann, I. Hamamoto, S. W. Ødeg˚ard, B. Herskind,
+G. Sletten, J. N. Wilson, K. Spohr, H. H¨ubel, P. Bringel, A. Neußer,

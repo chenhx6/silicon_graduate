@@ -1,0 +1,74 @@
+Bibliography
+115
+178, pp. 1864–1886, Feb 1969. [Online]. Available: https://link.aps.org/doi/
+10.1103/PhysRev.178.1864
+[49] J. T. Matta, U. Garg, W. Li, S. Frauendorf, A. D. Ayangeakaa, D. Patel,
+K. W. Schlax, R. Palit, S. Saha, J. Sethi, T. Trivedi, S. S. Ghugre, R. Raut,
+A. K. Sinha, R. V. F. Janssens, S. Zhu, M. P. Carpenter, T. Lauritsen,
+D. Seweryniak, C. J. Chiara, F. G. Kondev, D. J. Hartley, C. M. Petrache,
+S. Mukhopadhyay, D. V. Lakshmi, M. K. Raju, P. V. Madhusudhana Rao,
+S. K. Tandel, S. Ray, and F. D¨onau, “Transverse Wobbling in
+135Pr,”
+Physical Review Letters, vol. 114, p. 082501, Feb 2015. [Online]. Available:
+https://link.aps.org/doi/10.1103/PhysRevLett.114.082501
+[50] M. G. Mayer, “On Closed Shells in Nuclei. II,” Physical Review, vol. 75, pp.
+1969–1970, Jun 1949. [Online]. Available: https://link.aps.org/doi/10.1103/
+PhysRev.75.1969
+[51] J. Meyer-Ter-Vehn,
+“Collective model description of transitional odd-
+A nuclei:
+(I). The triaxial-rotor-plus-particle model,” Nuclear Physics
+A, vol. 249,
+no. 1,
+pp. 111–140,
+1975. [Online]. Available:
+https:
+//www.sciencedirect.com/science/article/pii/0375947475900950
+[52] J. Meyer-Ter-Vehn,
+“Collective model description of transitional odd-
+A nuclei:
+(II). Comparison with unique parity states of nuclei in
+the
+A
+=
+135
+and
+A
+=
+190
+mass
+regions,”
+Nuclear
+Physics
+A,
+vol.
+249,
+no.
+1,
+pp.
+141–165,
+1975.
+[Online].
+Available:
+https:
+//www.sciencedirect.com/science/article/pii/0375947475900962
+[53] S.
+Nandi,
+G.
+Mukherjee,
+Q.
+B.
+Chen,
+S.
+Frauendorf,
+R.
+Banik,
+S. Bhattacharya, S. Dar, S. Bhattacharyya, C. Bhattacharya, S. Chatterjee,
+S. Das, S. Samanta, R. Raut, S. S. Ghugre, S. Rajbanshi, S. Ali, H. Pai,
+M. A. Asgar, S. Das Gupta, P. Chowdhury, and A. Goswami, “First
+Observation of Multiple Transverse Wobbling Bands of Diﬀerent Kinds in
+183Au,” Physical Review Letters, vol. 125, p. 132501, Sep 2020. [Online].
+Available: https://link.aps.org/doi/10.1103/PhysRevLett.125.132501
+[54] R. Newman, J. Lawrie, B. Babu, M. Fetea, S. F¨orstch, S. Naguleswaran,
+J. Pilcher, D. Raave, C. Rigollet, J. Sharpey-Schafer et al., “Balkan phys.
+lett,” Special Issue, vol. 182, 1998.

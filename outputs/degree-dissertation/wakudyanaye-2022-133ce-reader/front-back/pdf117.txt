@@ -1,0 +1,39 @@
+Chapter 7. Conclusion
+106
+in the calculations.
+The bands are mainly based on QTR orbital |ν⟩= |20⟩,
+with a projection of 7/2 on the long axis, which corresponds approximately to the
+νg7/2[404]7/2+ Nilsson orbital. The calculations for 133Ce were consistent with a
+triaxiality of 0◦≤γ ≤15◦, while for 131Ba, a triaxiality of γ ∼15◦was required
+to reproduce the observed excitation energies and energy staggering of the bands.
+In addition, it was found that the bands in both nuclei are strongly inﬂuenced
+by the Coriolis interaction which causes re-alignment of the angular momentum
+of the νg7/2 neutron away from the long axis. Furthermore, the nearby νs1/2 and
+νd3/2 orbitals which have a signiﬁcant K = 1/2 component in their wave functions
+strongly mix with the dominant νg7/2 conﬁguration of the band. The theoretical
+results presented in this work were included in a paper that was just published in
+Physical Review C [22].
+As part of this work, the analysis of the coincidence relationships in the 133Ce
+data was carried out. It revealed many new transitions that were placed in a new
+negative-parity band built above the Iπ = 13/2−state. Thirteen new intraband
+and ﬁfteen interband transitions, and eight new levels were discovered. The spin
+and parity assignments of the new levels and the mixing ratios of the transitions
+were performed by our Chinese collaborators. The new band decays to a known
+negative-parity band with ν(h11/2)−1[514]9/2−conﬁguration. The interpretation
+of the known yrast band and the new excited negative-parity bands was performed
+as part of this work. The measured mixing ratios for the transitions of these bands
+precludes an interpretation of these bands as possible wobbling bands.
+Detailed QTR model calculations were carried for these negative-parity bands in
+133Ce. Nine QTR orbitals close to the Fermi level with negative-parity were used
+in the calculations. Six of the orbitals used were from the h11/2 sub-shell with
+projections on the long axis of 1/2 to 11/2. The yrast band is mainly built on the
+h11/2 orbital with a single-particle projection of 9/2 on the long axis. The excited
+band is built on a state with an extra 2ℏof rotational angular momentum along
+the long axis than the yrast band.
+The calculations revealed that in addition
+to the h11/2 orbital with projection of 9/2 on the long axis, the h11/2 orbitals
+with projections of 5/2, 7/2 and 11/2 also play a signiﬁcant role in the states of
+both bands. The mixing of these components generates the observed large energy
+staggering in these bands.
+The calculations were also performed with a frozen alignment (FA) approxima-
+tion, where the angular momentum of the valence nucleon was ﬁrmly aligned with

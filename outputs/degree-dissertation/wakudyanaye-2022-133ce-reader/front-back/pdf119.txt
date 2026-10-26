@@ -1,0 +1,56 @@
+Bibliography
+[1] “APPENDIX NUCLEAR STRUCTURE,” http://dbserv.pnpi.spb.ru/elbib/
+tablisot/toi98/www/struct/struct.pdf, accessed: 2021-09-30.
+[2] J. Allmond and J. Wood, “Empirical moments of inertia of axially asymmetric
+nuclei,” Physics Letters B, vol. 767, pp. 226–231, 2017. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/S0370269317300916
+[3] M. Alwaleedi, “Band structures of 131Ce ,” Ph.D. dissertation, University
+of Liverpool, 2013. [Online]. Available: https://livrepository.liverpool.ac.uk/
+15073/
+[4] H. Amro, W. Ma, G. Hagemann, R. Diamond, J. Domscheit, P. Fallon,
+A. G¨orgen, B. Herskind, H. H¨ubel, D. Jensen, Y. Li, A. Macchiavelli,
+D.
+Roux,
+G.
+Sletten,
+J.
+Thompson,
+D.
+Ward,
+I.
+Wiedenh¨over,
+J. Wilson,
+and J. Winger,
+“The wobbling mode in
+167Lu,”
+Physics
+Letters
+B,
+vol.
+553,
+no.
+3,
+pp.
+197–203,
+2003.
+[Online].
+Available:
+https://www.sciencedirect.com/science/article/pii/S0370269302031994
+[5] G. Andersson, S. Larsson, G. Leander, P. M¨oller, S. Nilsson, I. Ragnarsson,
+S. ˚Aberg, R. Bengtsson, J. Dudek, B. Nerlo-Pomorska, K. Pomorski, and
+Z. Szyma´nski, “Nuclear shell structure at very high angular momentum,”
+Nuclear Physics A, vol. 268, no. 2, pp. 205–256, 1976. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/0375947476904619
+[6] A. D. Ayangeakaa,
+U. Garg,
+M. D. Anthony,
+S. Frauendorf,
+J. T.
+Matta, B. K. Nayak, D. Patel, Q. B. Chen, S. Q. Zhang, P. W. Zhao,
+B. Qi, J. Meng, R. V. F. Janssens, M. P. Carpenter, C. J. Chiara,
+F. G. Kondev, T. Lauritsen, D. Seweryniak, S. Zhu, S. S. Ghugre,
+and R. Palit, “Evidence for Multiple Chiral Doublet Bands in
+133Ce,”
+Physical Review Letters, vol. 110, p. 172504, Apr 2013. [Online]. Available:
+https://link.aps.org/doi/10.1103/PhysRevLett.110.172504
+108

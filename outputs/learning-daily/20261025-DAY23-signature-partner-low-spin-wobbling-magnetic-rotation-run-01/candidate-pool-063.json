@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-26T05:06:46.165635+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "原RS88全文主线/关键视觉、坐标/配对/coreR/gs合同；selected projection与RR边界；Ce Ch3–6reader；Ce Ch1–7/前置实质段落reader齐，目录参考原件；ε/λ单位零点输入缺口",
+  "next_route": "继续Day23 A/B共同观测与133Ce已有模型输入/EM非闭合的有界核验，未到原15:00不收束",
+  "missing_inputs": [
+    "实际2022模型producer/input/fullstate",
+    "真实AD/P/Cov/582reference",
+    "RS88所引1978明确矩阵元原件",
+    "ε/λ同单位零点/具体宇称接口header"
+  ],
+  "Day25_opened": false
+}

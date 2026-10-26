@@ -1,0 +1,23 @@
+Chapter 3. Nuclear Triaxiality
+31
+Figure 3.3: An illustration of transversely coupled for bands in odd-A triaxial
+nuclei based on the h11/2 orbital with Ω= 9/2.
+Panel (a) shows ∆I = 1
+bands and panel (b) illustrates the angular momentum generation mechanism.
+Panel (c) shows bands of ∆I = 2 nature and panel (c) shows the corresponding
+mechanism of angular momentum generation. Adapted from Ref. [44].
+the 13/2 state with the conﬁguration (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2), lies lower in
+energy than the 13/2 state with conﬁguration (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2) [45].
+In this case the yrast rotational band consists of states with the lowest energy,
+which do not have the same (Ω⊥, K⊥, R⊥). In fact, each state in the rotational
+band with I > Ω⊥has an extra 2ℏof angular momentum than the immediately
+preceding state forming ∆I = 2 nature rotational states of the band, thus in
+such bands the rotation proceeds along the orthogonal axis. This is illustrated
+in panel (c) of Figure 3.3. Excited rotational bands are formed by increasing the
+rotational angular momentum along the intermediate axis. The ﬁrst excited band
+has a bandhead spin of Ibandhead = Ω+ 1 and proceeds with the spin sequence;
+I = Ibandhead + 2, Ibandhead + 4, Ibandhead + 6, .... The next excited band is built
+on a state with extra 1ℏthan the bandhead spin of the immediately preceding
+rotational band. Panel (c) of Figure 3.3 illustrates the ∆I = 2 type rotational
+bands and panel (d) of Figure 3.3 represents the mechanisms of angular momentum
+generation.

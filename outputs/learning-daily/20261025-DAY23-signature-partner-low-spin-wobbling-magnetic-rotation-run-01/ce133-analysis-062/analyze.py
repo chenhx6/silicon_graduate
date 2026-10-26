@@ -235,7 +235,7 @@ save('closure-summary.json',dict(edge_count=len(edges),max_abs_residual_keV=max(
                                  no_statistical_acceptance_test=True))
 
 def csvwrite(name, data):
-    fields=list(data[0]); stream=io.StringIO();w=csv.DictWriter(stream,fieldnames=fields)
+    fields=list(data[0]); stream=io.StringIO();w=csv.DictWriter(stream,fieldnames=fields,lineterminator="\n")
     w.writeheader();w.writerows(data);(OUT/name).write_text(stream.getvalue())
 csvwrite('nodes.csv',[nodes[k] for k in nodes_order])
 csvwrite('edges.csv',edges)

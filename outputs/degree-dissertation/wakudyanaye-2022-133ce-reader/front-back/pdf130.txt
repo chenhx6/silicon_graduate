@@ -1,0 +1,10 @@
+Bibliography
+119
+L. Zolnai, “Experimental Evidence for Transverse Wobbling in
+105Pd,”
+Physical Review Letters, vol. 122, p. 062501, Feb 2019. [Online]. Available:
+https://link.aps.org/doi/10.1103/PhysRevLett.122.062501
+[74] J. L. Wood, A.-M. Oros-Peusquens, R. Zaballa, J. M. Allmond, and W. D.
+Kulp, “Triaxial rotor model for nuclei with independent inertia and electric
+quadrupole tensors,” Physical Review C, vol. 70, p. 024308, Aug 2004.
+[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.70.024308

@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-26T04:11:56.708176+00:00",
+  "checks": {
+    "source_sha_matches": true,
+    "exact_138_page_inventory": true,
+    "unique_native_blocks": true,
+    "native_blocks_all_visible_anchored": true,
+    "every_page_has_blocks": true,
+    "every_image_asset_linked": true,
+    "no_missing_local_links": true,
+    "translated_ids_valid": true,
+    "all_equation_ids_valid": true,
+    "no_misidentified_energy_as_equation": true,
+    "original_and_chinese_markers_present": true,
+    "full_translation_claim_not_made": true
+  },
+  "missing_links": [],
+  "native_block_count": 3612,
+  "native_block_anchors_missing": [],
+  "image_assets": 85,
+  "equation_count": 40,
+  "scientific_limit": "Structural checks and math syntax do not certify numerical or scientific conclusions; 199 paragraph translations and 122 page visual checks remain pending.",
+  "all_pass": true
+}

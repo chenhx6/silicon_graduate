@@ -1,0 +1,47 @@
+Bibliography
+113
+G. Sch¨onwaßer, A. K. Singh, W. C. Ma, H. Amro, A. Bracco, S. Leoni,
+G. Benzoni, A. Maj, C. M. Petrache, G. L. Bianco, P. Bednarczyk,
+and D. Curien, “Evidence for Second-Phonon Nuclear Wobbling,” Physical
+Review
+Letters,
+vol.
+89,
+p.
+142503,
+Sep
+2002.
+[Online].
+Available:
+https://link.aps.org/doi/10.1103/PhysRevLett.89.142503
+[35] K. S. Krane, “E2,M1 multipole mixing ratios in even-even nuclei, A ≥
+152,” Atomic Data and Nuclear Data Tables, vol. 16, no. 4, pp. 383–408,
+1975. [Online]. Available:
+https://www.sciencedirect.com/science/article/
+pii/0092640X75900182
+[36] K. S. Krane, Introductory Nuclear Physics.
+New York, NY: Wiley, 1988.
+[Online]. Available: https://cds.cern.ch/record/359790
+[37] A. Kr¨amer-Flecken, T. Morek, R. Lieder, W. Gast, G. Hebbinghaus,
+H. J¨ager, and W. Urban, “Use of DCO ratios for spin determination
+in γ-γ coincidence measurements,” Nuclear Instruments and Methods in
+Physics Research Section A: Accelerators, Spectrometers, Detectors and
+Associated Equipment, vol. 275, no. 2, pp. 333–339, 1989. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/0168900289907067
+[38] L. D. Landau and E. M. Lifshitz, Mechanics, Third Edition:
+Volume 1
+(Course of Theoretical Physics), 3rd ed.
+Butterworth-Heinemann, Jan.
+1976. [Online]. Available: http://www.worldcat.org/isbn/0750628960
+[39] S. E. Larsson, “The Nuclear Potential-energy Surface with Inclusion of Axial
+Asymmetry,” Physica Scripta, vol. 8, no. 1-2, pp. 17–31, jul 1973. [Online].
+Available: https://doi.org/10.1088/0031-8949/8/1-2/003
+[40] S. Larsson, G. Leander, and I. Ragnarsson, “Nuclear core-quasiparticle cou-
+pling,” Nuclear Physics A, vol. 307, no. 2, pp. 189–223, 1978. [Online]. Avail-
+able: https://www.sciencedirect.com/science/article/pii/0375947478906139
+[41] E. A. Lawrie, J. Lawrie, P. Mutshena, S. Mukherjee, S. Mullins, R. Newman,
+J. Sharpey-Schafer, and F. Smit, “New Nanosecond Isomers Identiﬁed With
+The AFRODITE Array,” private communication.
+[42] E. A. Lawrie, O. Shirinda, and C. M. Petrache, “Tilted precession and
+wobbling in triaxial nuclei,” Physical Review C, vol. 101, p. 034306, Mar 2020.
+[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.101.034306

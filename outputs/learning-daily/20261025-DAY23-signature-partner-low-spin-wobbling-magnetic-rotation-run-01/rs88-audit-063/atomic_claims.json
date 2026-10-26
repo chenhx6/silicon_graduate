@@ -1,0 +1,171 @@
+{
+  "source_manifest": {
+    "path": "tmp/day23-theses/ragnarsson-semmes-1988.pdf",
+    "sha256": "af5b8588ac78f40ecb7ac5eb8f2dd8070c3457296e8fdcd63e9ea0d828a2fa6d",
+    "pages": 18,
+    "scope_pdf_pages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "scope_printed_pages": [
+      427,
+      428,
+      429,
+      430,
+      431,
+      432
+    ],
+    "reading_scope": "targeted formalism, not entire article",
+    "additional_targeted_pdf_pages": [
+      4,
+      17,
+      18
+    ],
+    "additional_targeted_printed_pages": [
+      426,
+      439,
+      440
+    ],
+    "identity_text_page": 3,
+    "actual_visual_pdf_pages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      17,
+      18
+    ]
+  },
+  "claims": [
+    {
+      "id": "RS88-W-01",
+      "statement": "Hcore=ΣAiRi²=ΣAi(Ii−ji)²，Ai=ℏ²/(2Ji)；Eq12体固连I+降低K、I−升高K，Eq13使用D2对称化BCS强耦合基。",
+      "claim_kind": "model-formalism",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed427 §2.2 Eqs11–13 and paragraph below Eq13",
+      "boundary": "Do not use laboratory ladder conventions or repair thesis units by assumption.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "RS88-W-02",
+      "statement": "R依赖核芯惯量/能谱经R²基与重耦合Eq14–15进入；不同总I和coreR不能替换。单奇粒子实现当时为recent implementation，Ref10待刊。",
+      "claim_kind": "model-recoupling-and-implementation-boundary",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed427 final paragraph Eq14; printed428 first paragraphs Eq15; printed440 Ref10",
+      "boundary": "No author producer/source package or oddodd recoupling implementation obtained.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "RS88-W-03",
+      "statement": "core矩阵元段落把single-particle矩阵元乘UUprime+VVprime，ξ仅明确作用于off-diagonal single-particle矩阵元；oddodd对p/n分别加pairing因子。",
+      "claim_kind": "model-operator-prescription",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed427 paragraph below Eq13; printed428 final paragraph after Eq21",
+      "boundary": "This is not universal attenuation of H or all electromagnetic operators; exact compound-term code handling remains unknown.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "RS88-W-04",
+      "statement": "物理算符在physical(spherical)坐标表达，转入stretched基须变换矩阵元；十六极δ4与ε4取同数一般不达最佳形状匹配。",
+      "claim_kind": "model-coordinate-contract",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed426 §2.1 final three paragraphs, following Eq7",
+      "boundary": "Only coordinate context extension to requested scope; no numerical mapping invented.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "RS88-W-05",
+      "statement": "oddodd的K=Ωp±Ωn伙伴来源于两个不同p/n时间反演product；三轴基仍保相应奇偶K扇区。",
+      "claim_kind": "model-basis-construction",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed428 §2.3 Eqs16–21",
+      "boundary": "Not a claim that K is conserved in a generic triaxial eigenstate.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "RS88-W-06",
+      "statement": "Vpn为有限程含中心/自旋/空间交换/张量项的现象学力；Eq23张量采用标准3倍形式的三分之一；配对A/B含四U/V因子，occupied-state sums被归core并丢弃。",
+      "claim_kind": "model-residual-force-contract",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed429 §2.4 Eqs22–25 and explanatory paragraphs",
+      "boundary": "Do not replace tensor normalization with same numerical coefficient, or reduce A/B to a single UUprime+VVprime factor.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "RS88-W-07",
+      "statement": "u0通常不影响Newby shift与给定partner对GM splitting，但可通过不同p-n组态对角元改变带头；作者方案包括offdiagonal Vpn。",
+      "claim_kind": "author-model-limit",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed429 paragraph below Eq25; printed430 §2.7 Vpn parameter paragraph",
+      "boundary": "No new force strengths or fit; source in examples setsu0=0 and tests−50MeV only in stated cases.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "RS88-W-08",
+      "statement": "EM用约化矩阵元定义B并给M1/E2一般算符与δ/μ/Qs关系，但显式M1/E2矩阵元回Ref1，不能由当前PDF宣称代码级归一和producer已闭合。",
+      "claim_kind": "model-electromagnetic-formalism-and-boundary",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed429 §2.5 Eqs26–28; printed430 Eqs29–31 and first paragraph; printed440 Ref1",
+      "boundary": "B strengths alone do not determine delta sign; physical tensor conventions and energy units require explicit contract.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "RS88-W-09",
+      "statement": "本文参数方案gs=.7gfree、gR=Z/A、coreQ微观；λF/BCS gap按所选pairing parameters导出而非普适自由输入；惯量按Grodzin，ξ只在明说时使用。",
+      "claim_kind": "model-parameter-calibration",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed430 §2.7 entire parameter paragraph",
+      "boundary": "No transfer to133Ce thesis .6 scheme; model setup and selection observables must be recorded before holdout.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "RS88-W-10",
+      "statement": "Ho示例中Coriolis/组态/参数改变影响排序与磁矩；作者称Vpn主要造成约50–100keV配置相关位移且通常附加混合不大。",
+      "claim_kind": "author-model-example",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed431 §3.1–3.2; printed432 Fig2 and caption",
+      "boundary": "These are conditional model comparisons reusingRefs18/19; not independent measurements or universal effect sizes.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "RS88-W-11",
+      "statement": "185Au Table2同时显示部分到5/2基态E2再现和(7/2)1→(9/2)1的M1失败：实验BM1=(1.1±.5)×10^-2(nm)^2，calc3×10^-5；作者称模型近乎纯E2，提示态不可简单描述。",
+      "claim_kind": "source-reported-experiment-input-and-model-failure",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed439 Table2 row3 and immediately following paragraph; printed440 Ref28",
+      "boundary": "Observation is borrowedRef28 Bourgeois1982, not new acquisition. Keep table empty cells empty; do not transfer to187Au.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    },
+    {
+      "id": "RS88-W-12",
+      "statement": "185Au Table3各strongcoupled候选内ΔI1连接给prolateh11/2 δ+.256to+.262和oblateh9/2 δ−.72to−.69；作者称强ξ衰减/离轴20度仍基本不变；末段intraband字面与cross-talk语境张力原样保留。",
+      "claim_kind": "model-prediction-and-source-ambiguity",
+      "evidence_level": "direct-original-targeted-read",
+      "locator": "printed439 Table3 all8rows and preceding/following discussion",
+      "boundary": "These are model predictions inside candidate sequences, not measured interband delta or an187Au reassignment; robustness is author qualitative statement, not statistical CI.",
+      "needs_review": true,
+      "review_status": "codex-source-self-audit-not-human-reviewed"
+    }
+  ],
+  "claim_count": 12,
+  "producer_obtained": false,
+  "canonical_written": false
+}

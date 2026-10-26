@@ -1,0 +1,912 @@
+{
+  "created_utc": "2026-10-26T04:50:36.081796+00:00",
+  "scope": "selected lab single-j analytic control, not actual 133Ce |18>, not paper FA reproduction",
+  "units": "hbar=1; j dimensionless; external A in arbitrary consistent energy units",
+  "j": "11/2",
+  "selected_m_order": [
+    "9/2",
+    "-9/2"
+  ],
+  "basis_m_ascending": [
+    "-11/2",
+    "-9/2",
+    "-7/2",
+    "-5/2",
+    "-3/2",
+    "-1/2",
+    "1/2",
+    "3/2",
+    "5/2",
+    "7/2",
+    "9/2",
+    "11/2"
+  ],
+  "selected_time_reversal_U": [
+    [
+      {},
+      {
+        "1": {
+          "real": "1",
+          "imag": "0"
+        }
+      }
+    ],
+    [
+      {
+        "1": {
+          "real": "-1",
+          "imag": "0"
+        }
+      },
+      {}
+    ]
+  ],
+  "time_reversal_convention": "T|j,m>=(-1)^(j-m)|j,-m>; T=U complex_conjugation",
+  "projection_results": {
+    "x": {
+      "PjP": [
+        [
+          {},
+          {}
+        ],
+        [
+          {},
+          {}
+        ]
+      ],
+      "Pj2P": [
+        [
+          {
+            "1": {
+              "real": "31/4",
+              "imag": "0"
+            }
+          },
+          {}
+        ],
+        [
+          {},
+          {
+            "1": {
+              "real": "31/4",
+              "imag": "0"
+            }
+          }
+        ]
+      ],
+      "PjP_squared": [
+        [
+          {},
+          {}
+        ],
+        [
+          {},
+          {}
+        ]
+      ],
+      "leakage": [
+        [
+          {
+            "1": {
+              "real": "31/4",
+              "imag": "0"
+            }
+          },
+          {}
+        ],
+        [
+          {},
+          {
+            "1": {
+              "real": "31/4",
+              "imag": "0"
+            }
+          }
+        ]
+      ]
+    },
+    "y": {
+      "PjP": [
+        [
+          {},
+          {}
+        ],
+        [
+          {},
+          {}
+        ]
+      ],
+      "Pj2P": [
+        [
+          {
+            "1": {
+              "real": "31/4",
+              "imag": "0"
+            }
+          },
+          {}
+        ],
+        [
+          {},
+          {
+            "1": {
+              "real": "31/4",
+              "imag": "0"
+            }
+          }
+        ]
+      ],
+      "PjP_squared": [
+        [
+          {},
+          {}
+        ],
+        [
+          {},
+          {}
+        ]
+      ],
+      "leakage": [
+        [
+          {
+            "1": {
+              "real": "31/4",
+              "imag": "0"
+            }
+          },
+          {}
+        ],
+        [
+          {},
+          {
+            "1": {
+              "real": "31/4",
+              "imag": "0"
+            }
+          }
+        ]
+      ]
+    },
+    "z": {
+      "PjP": [
+        [
+          {
+            "1": {
+              "real": "9/2",
+              "imag": "0"
+            }
+          },
+          {}
+        ],
+        [
+          {},
+          {
+            "1": {
+              "real": "-9/2",
+              "imag": "0"
+            }
+          }
+        ]
+      ],
+      "Pj2P": [
+        [
+          {
+            "1": {
+              "real": "81/4",
+              "imag": "0"
+            }
+          },
+          {}
+        ],
+        [
+          {},
+          {
+            "1": {
+              "real": "81/4",
+              "imag": "0"
+            }
+          }
+        ]
+      ],
+      "PjP_squared": [
+        [
+          {
+            "1": {
+              "real": "81/4",
+              "imag": "0"
+            }
+          },
+          {}
+        ],
+        [
+          {},
+          {
+            "1": {
+              "real": "81/4",
+              "imag": "0"
+            }
+          }
+        ]
+      ],
+      "leakage": [
+        [
+          {},
+          {}
+        ],
+        [
+          {},
+          {}
+        ]
+      ]
+    }
+  },
+  "xy_commutator_leakage": [
+    [
+      {
+        "1": {
+          "real": "0",
+          "imag": "9/2"
+        }
+      },
+      {}
+    ],
+    [
+      {},
+      {
+        "1": {
+          "real": "0",
+          "imag": "-9/2"
+        }
+      }
+    ]
+  ],
+  "independent_ladder_action": [
+    {
+      "m": "9/2",
+      "branches": [
+        {
+          "direction": 1,
+          "destination_m": "11/2",
+          "amplitude_squared": "11",
+          "jx_amplitude_squared": "11/4"
+        },
+        {
+          "direction": -1,
+          "destination_m": "7/2",
+          "amplitude_squared": "20",
+          "jx_amplitude_squared": "5"
+        }
+      ],
+      "transverse_second_moment": "31/4",
+      "analytic_formula": "31/4"
+    },
+    {
+      "m": "-9/2",
+      "branches": [
+        {
+          "direction": 1,
+          "destination_m": "-7/2",
+          "amplitude_squared": "20",
+          "jx_amplitude_squared": "5"
+        },
+        {
+          "direction": -1,
+          "destination_m": "-11/2",
+          "amplitude_squared": "11",
+          "jx_amplitude_squared": "11/4"
+        }
+      ],
+      "transverse_second_moment": "31/4",
+      "analytic_formula": "31/4"
+    },
+    {
+      "m": "11/2",
+      "branches": [
+        {
+          "direction": 1,
+          "destination_m": "None",
+          "amplitude_squared": "0",
+          "jx_amplitude_squared": "0"
+        },
+        {
+          "direction": -1,
+          "destination_m": "9/2",
+          "amplitude_squared": "11",
+          "jx_amplitude_squared": "11/4"
+        }
+      ],
+      "transverse_second_moment": "11/4",
+      "analytic_formula": "11/4"
+    },
+    {
+      "m": "-11/2",
+      "branches": [
+        {
+          "direction": 1,
+          "destination_m": "-9/2",
+          "amplitude_squared": "11",
+          "jx_amplitude_squared": "11/4"
+        },
+        {
+          "direction": -1,
+          "destination_m": "None",
+          "amplitude_squared": "0",
+          "jx_amplitude_squared": "0"
+        }
+      ],
+      "transverse_second_moment": "11/4",
+      "analytic_formula": "11/4"
+    }
+  ],
+  "uncertainty": {
+    "selected_m_plus": {
+      "mean_j": [
+        "0",
+        "0",
+        "9/2"
+      ],
+      "variance_j": [
+        "31/4",
+        "31/4",
+        "0"
+      ],
+      "delta_jx_delta_jy": "31/4",
+      "Robertson_lower_bound_abs_m_over_2": "9/4"
+    },
+    "highest_weight_plus": {
+      "m": "11/2",
+      "variance_jx": "11/4",
+      "variance_jy": "11/4",
+      "Robertson_product_equals_bound": true
+    },
+    "arbitrary_normalized_state_in_P": "jx and jy mean zero and second moments31/4 for every state; jz variance depends on Kramers superposition"
+  },
+  "external_H_control": {
+    "X_spin_L": 2,
+    "Axyz": [
+      "1/3",
+      "2/5",
+      "1/2"
+    ],
+    "not_physical_QTR_total_I": true,
+    "recoil_shift": "341/60",
+    "recoil_shift_numeric": 5.683333333333334,
+    "compression_residual": 3.552713678800501e-15,
+    "TR_residual": 3.552713678800501e-15,
+    "classical_plus_sector_residual": 3.552713678800501e-15,
+    "spectra_nested_same_H": [
+      {
+        "space": "P_m9pair",
+        "intrinsic_m": [
+          "9/2",
+          "-9/2"
+        ],
+        "dimension": 10,
+        "eigenvalues": [
+          9.540879303871831,
+          9.540879303871849,
+          13.640555692695905,
+          13.640555692695907,
+          18.008421419555418,
+          18.008421419555418,
+          22.64277764063742,
+          22.642777640637426,
+          27.54236594323941,
+          27.542365943239417
+        ],
+        "Kramers_pair_max_gap": 1.7763568394002505e-14
+      },
+      {
+        "space": "P_m9_m7pairs",
+        "intrinsic_m": [
+          "9/2",
+          "-9/2",
+          "7/2",
+          "-7/2"
+        ],
+        "dimension": 20,
+        "eigenvalues": [
+          8.41472402509474,
+          8.414724025094744,
+          9.509789322434182,
+          9.50978932243419,
+          11.230233273013301,
+          11.230233273013305,
+          14.784645643629805,
+          14.784645643629823,
+          15.776589137071825,
+          15.776589137071827,
+          19.192075682428364,
+          19.192075682428367,
+          20.461918514396032,
+          20.46191851439604,
+          24.27284952280193,
+          24.27284952280194,
+          24.926191671401686,
+          24.926191671401703,
+          28.84764987439475,
+          28.84764987439476
+        ],
+        "Kramers_pair_max_gap": 1.7763568394002505e-14
+      },
+      {
+        "space": "full",
+        "intrinsic_m": [
+          "-11/2",
+          "-9/2",
+          "-7/2",
+          "-5/2",
+          "-3/2",
+          "-1/2",
+          "1/2",
+          "3/2",
+          "5/2",
+          "7/2",
+          "9/2",
+          "11/2"
+        ],
+        "dimension": 60,
+        "eigenvalues": [
+          7.424943607849878,
+          7.424943607849884,
+          7.582332140584212,
+          7.58233214058422,
+          7.740784780549659,
+          7.740784780549673,
+          7.880583682121641,
+          7.8805836821216415,
+          8.0056686370655,
+          8.005668637065508,
+          8.193287166972619,
+          8.19328716697262,
+          8.474799829931698,
+          8.474799829931705,
+          8.870376134792224,
+          8.870376134792227,
+          13.717744487602271,
+          13.717744487602271,
+          13.756287426104734,
+          13.75628742610474,
+          13.8513954961757,
+          13.851395496175703,
+          13.966359554581459,
+          13.966359554581468,
+          14.141307167895523,
+          14.141307167895544,
+          14.477455496587499,
+          14.477455496587512,
+          15.025033047887119,
+          15.025033047887124,
+          18.89786714060405,
+          18.897867140604053,
+          18.983177404953672,
+          18.983177404953683,
+          18.998630244090783,
+          18.998630244090787,
+          19.273306729949798,
+          19.273306729949798,
+          19.834905258428954,
+          19.834905258428957,
+          20.759095784428677,
+          20.759095784428688,
+          22.856720120602546,
+          22.856720120602574,
+          23.140993143648565,
+          23.140993143648586,
+          23.61023884217962,
+          23.610238842179626,
+          24.681196566693803,
+          24.681196566693806,
+          26.01066449798506,
+          26.01066449798506,
+          26.240100914418264,
+          26.24010091441827,
+          27.52709916489654,
+          27.52709916489656,
+          29.326345772270717,
+          29.326345772270724,
+          31.667966424813727,
+          31.66796642481378
+        ],
+        "Kramers_pair_max_gap": 5.3290705182007514e-14
+      }
+    ],
+    "Rayleigh_Ritz_margins": [
+      {
+        "smaller": "P_m9pair",
+        "larger": "P_m9_m7pairs",
+        "min_ordered_small_minus_large": 1.126155278777091
+      },
+      {
+        "smaller": "P_m9_m7pairs",
+        "larger": "full",
+        "min_ordered_small_minus_large": 0.9897804172448597
+      }
+    ],
+    "different_reference_excitation_counterexamples": [
+      {
+        "label": "gap_increases",
+        "full_same_H_diagonal": [
+          "0",
+          "1",
+          "100"
+        ],
+        "restricted_indices": [
+          1,
+          2
+        ],
+        "restricted_absolute_eigenvalues": [
+          "1",
+          "100"
+        ],
+        "full_first_gap": "1",
+        "restricted_first_gap": "99",
+        "ordered_absolute_bounds_hold": true,
+        "interpretation": "same H nested spaces bound each ordered absolute eigenvalue; subtracting each own ground permits either gap direction"
+      },
+      {
+        "label": "gap_decreases",
+        "full_same_H_diagonal": [
+          "0",
+          "99",
+          "100"
+        ],
+        "restricted_indices": [
+          1,
+          2
+        ],
+        "restricted_absolute_eigenvalues": [
+          "99",
+          "100"
+        ],
+        "full_first_gap": "99",
+        "restricted_first_gap": "1",
+        "ordered_absolute_bounds_hold": true,
+        "interpretation": "same H nested spaces bound each ordered absolute eigenvalue; subtracting each own ground permits either gap direction"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "P_Hermitian",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "P_idempotent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Q_orthogonal_complement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ladder_hermiticity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hermitian_x",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hermitian_y",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hermitian_z",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_SU2_xy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_Casimir",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_T_squared_minus_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_TR_projector_invariant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_TR_odd_x",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_TR_odd_y",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_TR_odd_z",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compression_identity_x",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "second_moment_x",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "leak_exact_diagonal_PSD_x",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "second_TR_even_x",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compression_identity_y",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "second_moment_y",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "leak_exact_diagonal_PSD_y",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "second_TR_even_y",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compression_identity_z",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "second_moment_z",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "leak_exact_diagonal_PSD_z",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "second_TR_even_z",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "projected_x_zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "projected_y_zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "projected_z_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "projected_SU2_leakage_balance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ladder_analytic_second_moment_m_9/2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ladder_matrix_second_moment_m_9/2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ladder_analytic_second_moment_m_-9/2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ladder_matrix_second_moment_m_-9/2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ladder_analytic_second_moment_m_11/2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ladder_matrix_second_moment_m_11/2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ladder_analytic_second_moment_m_-11/2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ladder_matrix_second_moment_m_-11/2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "highest_weight_transverse_j_over_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selected_T_squared_minus_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selected_pauli_TR_odd_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selected_pauli_TR_odd_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selected_pauli_TR_odd_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "m_half_projected_x_nonzero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "m_half_projected_x_offdiag_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "m_half_transverse_leak_35_over_4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selected_projected_SU2_not_closed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rankone_orientation_not_TR_invariant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "full_space_zero_leakage_x",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "full_space_zero_leakage_y",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "full_space_zero_leakage_z",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent_float_vs_exact_ladder_matrices",
+      "passed": true,
+      "detail": 0.0
+    },
+    {
+      "name": "external_H_Hermitian",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "projected_H_recoil_identity",
+      "passed": true,
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "name": "external_H_TR_even",
+      "passed": true,
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "name": "external_total_T_squared_minus_identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "classical_plus_sector_recoil_difference",
+      "passed": true,
+      "detail": 3.552713678800501e-15
+    },
+    {
+      "name": "Kramers_degeneracy_P_m9pair",
+      "passed": true,
+      "detail": 1.7763568394002505e-14
+    },
+    {
+      "name": "Kramers_degeneracy_P_m9_m7pairs",
+      "passed": true,
+      "detail": 1.7763568394002505e-14
+    },
+    {
+      "name": "Kramers_degeneracy_full",
+      "passed": true,
+      "detail": 5.3290705182007514e-14
+    },
+    {
+      "name": "Rayleigh_Ritz_nested_P_m9pair",
+      "passed": true,
+      "detail": 1.126155278777091
+    },
+    {
+      "name": "Rayleigh_Ritz_nested_P_m9_m7pairs",
+      "passed": true,
+      "detail": 0.9897804172448597
+    },
+    {
+      "name": "RR_absolute_ordered_bounds_gap_increases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excitation_gap_gap_increases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent_eigencompression_gap_increases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "RR_absolute_ordered_bounds_gap_decreases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "excitation_gap_gap_decreases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent_eigencompression_gap_decreases",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_pass": true
+}

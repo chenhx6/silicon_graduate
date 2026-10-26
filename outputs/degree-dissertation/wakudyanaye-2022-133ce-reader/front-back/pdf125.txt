@@ -1,0 +1,40 @@
+Bibliography
+114
+[43] J. Ljungvall, M. Palacz, and J. Nyberg, “Monte Carlo simulations of
+the Neutron Wall detector system,” Nuclear Instruments and Methods in
+Physics Research Section A: Accelerators, Spectrometers, Detectors and
+Associated Equipment, vol. 528, no. 3, pp. 741–762, 2004. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/S016890020400988X
+[44] B. F. Lv, C. M. Petrache, E. A. Lawrie, A. Astier, E. Dupont, K. K. Zheng,
+P. Greenlees, H. Badran, T. Calverley, D. M. Cox, T. Grahn, J. Hilton,
+R. Julin, S. Juutinen, J. Konki, J. Pakarinen, P. Papadakis, J. Partanen,
+P. Rahkila, P. Ruotsalainen, M. Sandzelius, J. Saren, C. Scholey, J. Sorri,
+S. Stolze,
+J. Uusitalo,
+B. Cederwall,
+A. Ertoprak,
+H. Liu,
+S. Guo,
+J. G. Wang, H. J. Ong, X. H. Zhou, Z. Y. Sun, I. Kuti, J. Tim´ar,
+A. Tucholski, J. Srebrny, and C. Andreoiu, “Tilted precession bands in
+135Nd,” Physical Review C, vol. 103, p. 044308, Apr 2021. [Online]. Available:
+https://link.aps.org/doi/10.1103/PhysRevC.103.044308
+[45] B. Lv, C. Petrache, E. Lawrie, S. Guo, A. Astier, K. Zheng, H. Ong,
+J. Wang, X. Zhou, Z. Sun, P. Greenlees, H. Badran, T. Calverley, D. Cox,
+T. Grahn, J. Hilton, R. Julin, S. Juutinen, J. Konki, J. Pakarinen,
+P. Papadakis, J. Partanen, P. Rahkila, P. Ruotsalainen, M. Sandzelius,
+J. Sar´en, C. Scholey, J. Sorri, S. Stolze, J. Uusitalo, B. Cederwall,
+A. Ertoprak, H. Liu, I. Kuti, J. Tim´ar, A. Tucholski, J. Srebrny, and
+C. Andreoiu, “Evidence against the wobbling nature of low-spin bands in
+135Pr,” Physics Letters B, vol. 824, p. 136840, 2022. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/S0370269321007802
+[46] R. Ma, Y. Liang, E. S. Paul, N. Xu, D. B. Fossan, L. Hildingsson, and
+R. A. Wyss, “Competing proton and neutron rotational alignments: Band
+structures in 131Ba,” Physical Review C, vol. 41, pp. 717–729, Feb 1990.
+[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.41.717
+[47] R. Ma, E. S. Paul, C. W. Beausang, S. Shi, N. Xu, and D. B. Fossan,
+“Rotational bands in 133Ce,” Physical Review C, vol. 36, pp. 2322–2329,
+Dec 1987. [Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.
+36.2322
+[48] M. A. J. Mariscotti, G. Scharﬀ-Goldhaber, and B. Buck, “Phenomenological
+Analysis of Ground-State Bands in Even-Even Nuclei,” Physical Review, vol.

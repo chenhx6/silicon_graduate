@@ -1,0 +1,49 @@
+List of Tables
+4.1
+γ decay selection rules
+. . . . . . . . . . . . . . . . . . . . . . . . .
+42
+5.1
+Transitions in the yrast band of 133Ce . . . . . . . . . . . . . . . . .
+55
+5.2
+Transitions in Band 4 of 133Ce . . . . . . . . . . . . . . . . . . . . .
+56
+5.3
+Transitions in Band 2 of 133Ce . . . . . . . . . . . . . . . . . . . . .
+58
+5.4
+Transitions in Band 3 of 133Ce . . . . . . . . . . . . . . . . . . . . .
+60
+6.1
+Deformation parameters . . . . . . . . . . . . . . . . . . . . . . . .
+66
+6.2
+Neutron single-particle orbitals for the νg7/2(404)7/2+ band in 133Ce 67
+6.3
+Main components of the QTR model wave functions for states in
+Band 2 of 133Ce . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+71
+6.4
+QTR model positive-parity neutron orbitals for 131Ba . . . . . . . .
+77
+6.5
+Main components of the QTR model wave functions for states in
+Band 2 of 131Ba . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+80
+6.6
+Negative-parity single-particle orbitals of 133Ce . . . . . . . . . . . .
+88
+6.7
+QTR model wavefunctions for states in the Band 1 of 133Ce . . . . .
+91
+6.8
+Band 4 of 133Ce Wave functions . . . . . . . . . . . . . . . . . . . .
+93
+6.9
+QTR model electromagnetic transition properties for Band 4 of 133Ce100
+6.10 QTR model electromagnetic transition properties for Band 4 of
+133Ce with FA approximation
+. . . . . . . . . . . . . . . . . . . . . 100
+6.11 experimental electromagnetic transition properties for Band 4 of 133Ce101
+x

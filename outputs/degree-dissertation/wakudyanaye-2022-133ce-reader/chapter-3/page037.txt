@@ -1,0 +1,30 @@
+Chapter 3. Nuclear Triaxiality
+26
+where k = 1, 2, 3 are the intrinsic (body-ﬁxed) axes, representing the intermediate,
+short and long axes respectively. The moments of inertia (MoI) ℑk, are usually
+described by the irrotational ﬂow model and are deﬁned as [20, 21]:
+ℑk = 4
+3ℑ0 sin2(γ −2π
+3 k).
+(3.2)
+Among them ℑ1 is the largest. For 0◦< γ < 30◦, ℑ1 > ℑ2 > ℑ3 and if 30◦< γ <
+60◦, ℑ1 > ℑ3 > ℑ2. In this work irrotational-ﬂow MoI’s are assumed as this choice
+is supported by experimental evidence [2]. The rotation proceeds mostly around
+the intermediate axis which is favored, as this axis has the largest MoI and thus
+rotation around this axis needs minimum energy. The Hamiltonian (equation 3.1)
+becomes:
+H = A1I2
+1 + A2I2
+2 + A3I2
+3,
+(3.3)
+where Ak = ℏ2/2ℑk. The solutions to the Hamiltonian presented in relation 3.3
+is a series of rotational states, which include the ground-state band and several
+excited rotational bands. The excited bands are often termed γ−bands [74]. To
+distinguish these exited low-lying rotational states from the K = 2, K = 4, etc.
+γ−bands that result from the Bohr Hamiltonian [15], which are produced by cou-
+pling the rotational and vibration collective modes, the rotational bands in triaxial
+nuclei were called Tilted Precession Bands [42] as they represent the simultaneous
+precession of the nucleus around all three nuclear axes, see Section 3.2.1.
+Figure 3.1: Empirically measured MoIs for some nuclei as a function of the
+γ-deformation. Adapted from Ref. [2].

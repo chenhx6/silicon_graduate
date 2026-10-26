@@ -1,0 +1,35 @@
+Chapter 3. Nuclear Triaxiality
+32
+3.2.2
+Nuclear wobbling motion
+Nuclear wobbling motion was proposed by Bohr and Mottelson for even-even nu-
+clei in Ref. [15] as a collective mode of excitation which results when the nu-
+clear density distribution along the three principle nuclear axes is unequal. For
+even-even triaxial rotors, the wobbling approximation replaces the 3D rotational
+Hamiltonian (equation 3.3) by simple 1D rotation coupled to wobbling phonon
+excitations,
+H = A1[I(I + 1)] + ℏω(n + 1
+2).
+(3.8)
+The solutions of the wobbling Hamiltonian describe a set of rotational bands called
+wobbling bands, where ω is the wobbling frequency, n = 0, 1, 2, ... is the number
+of excited wobbling phonons, where n = 0 corresponds to the g.s. band, n = 1
+and n = 2 correspond to the odd and even spin sequences of the ﬁrst excited (γ-)
+band, respectively etc. In fact each phonon excitation corresponds to an excited
+rotational band.
+Within the wobbling approximation, each phonon excitation
+causes a tilt of the rotational angular momentum away from the intermediate
+axis.
+The wobbling frequency, ω is deﬁned by the relation:
+ℏω = E(n, I) −E(n −1, I).
+(3.9)
+Wobbling bands exhibit characteristic quantized behaviour for the excitation en-
+ergies and transition probabilities. In particular:
+(i) the energy of a rotational band has a linear dependence on n as;
+E(n, I) = A1[I(I + 1)] + ℏω(n + 1
+2).
+(3.10)
+This relationship is manifested as equal spacing of excitation energies between two
+successive wobbling bands, for instance the excitation energy plots of the wobbling
+bands corresponding to n = 0 and n = 1 have the same energy spacing as that
+between wobbling bands with n = 1 and n = 2.

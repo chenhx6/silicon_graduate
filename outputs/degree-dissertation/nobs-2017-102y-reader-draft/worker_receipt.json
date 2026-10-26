@@ -1,0 +1,827 @@
+{
+  "task": "Day23 Nobs supplementary thesis reading",
+  "created_utc": "2026-10-26T04:12:44.094210+00:00",
+  "source": {
+    "title": "Spin and parity assignment for the ground and isomeric states in 102Y",
+    "author": "Chantal Rebecca Nobs",
+    "date_on_title": "June 2017",
+    "source_type": "pdf",
+    "language": "en",
+    "source_path": "raw/papers/degree dissertation/nobs_thesis.pdf",
+    "sha256": "acb846d63e4a8cc61491d6f5ba04a4858bf3efd3e98bb9152b50383987b76a57",
+    "pages": 138
+  },
+  "scope": "exclusive tmp/day23-theses/nobs-worker only; no scientific/review/card/credit changes",
+  "status": "text-reading-complete-translation-partial",
+  "coverage": {
+    "text_pages_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138
+    ],
+    "unread_text_pages": [],
+    "visual_pages_checked": [
+      54,
+      57,
+      59,
+      60,
+      64,
+      83,
+      107,
+      109,
+      111,
+      113,
+      114,
+      117,
+      119,
+      123,
+      125,
+      129
+    ],
+    "visual_pages_pending": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      55,
+      56,
+      58,
+      61,
+      62,
+      63,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      108,
+      110,
+      112,
+      115,
+      116,
+      118,
+      120,
+      121,
+      122,
+      124,
+      126,
+      127,
+      128,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138
+    ],
+    "native_blocks": 3612,
+    "paragraph_fragments": 262,
+    "translated_paragraph_fragments": 63,
+    "pending_paragraph_fragments": 199,
+    "figure_count": 69,
+    "table_count": 15,
+    "figures_tables_with_crops": 18,
+    "equation_fallback_count": 40,
+    "full_translation_complete": false,
+    "all_figures_visual_verified": false,
+    "all_equation_crops_verified": false
+  },
+  "verification_path": "tmp/day23-theses/nobs-worker/verification.json",
+  "math_validation_path": "tmp/day23-theses/nobs-worker/math-validation.txt",
+  "files": [
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-2.1.png",
+      "bytes": 8839,
+      "sha256": "1a237456e40b8be6c7acbf2cecb745c08320a4f8f7ee8c02ab8f6f160eedcca2"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-2.2.png",
+      "bytes": 14060,
+      "sha256": "d948ff2567cc5ffbc0e9a33345b923127012df69ff4e2af02cc72c232e2a124d"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-2.3.png",
+      "bytes": 12189,
+      "sha256": "739010c3e63dbffce8d6e7329aef0f9c252fd39f4b95f6b6f0525764ed46eb9f"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-2.4.png",
+      "bytes": 8650,
+      "sha256": "072a43f85a383374c40d9e44453d31fc2406df941b9ff852581215c4fb7cbbac"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-2.5.png",
+      "bytes": 13924,
+      "sha256": "b94b6de67c17ac2c1642a872c9b18060f7392ebb19e20b2b4f16afe28176edec"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-2.6.png",
+      "bytes": 7177,
+      "sha256": "c347e29bf7608156b257229106250dcd7c6ef3ec5e4f2268d985ed54a7715c5e"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-2.7.png",
+      "bytes": 12741,
+      "sha256": "7f86d01bc0bab3e90095990cdab788a8a43d723b78a56d66c0a9db3616fd3cb9"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-2.8.png",
+      "bytes": 12442,
+      "sha256": "fc9611d0e8bc2da3a89f89bc92b86cef6da5c4985cc725673f67e9fa73c213b6"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-3.1.png",
+      "bytes": 12462,
+      "sha256": "003d217146adc5ef052871f0e04281d178c511e8592445f604a9727541d9be8c"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-3.2.png",
+      "bytes": 19009,
+      "sha256": "d0643e17de537eb915fad44fee36d20a2c0753c90c6b04d4cdc3838efee4271d"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-3.3.png",
+      "bytes": 14205,
+      "sha256": "f4add8bfa31c19d88988f2597bac4cc546e47684e77cb8395cde3c6480fd1de9"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-3.4.png",
+      "bytes": 15494,
+      "sha256": "256c15e21f22d9b3712a97683311dc9420fd60420b6e8288847547ba62c3273a"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-3.5.png",
+      "bytes": 14082,
+      "sha256": "0f462550b121625f98a2a23aa92f7ad3fd90d6ff8fca7892bd00c05f2f2d504e"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-4.1.png",
+      "bytes": 12247,
+      "sha256": "d23185bb27b9f7f1553bdcf911d12c5db1dc339eb6344e628ba816323425b303"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-5.1.png",
+      "bytes": 14037,
+      "sha256": "33fea8b9181b3e830a7a1c06902e084308259acaf25cd8fea9f3b2fc259f1cc9"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.1.png",
+      "bytes": 5299,
+      "sha256": "4cb48ff11bf183f209d99dff158a2c3dfe4997ab1979ea29c47bb0325fa3c789"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.10a.png",
+      "bytes": 5950,
+      "sha256": "2203178e30c7ef69d31ce6d72f37d06e2494092b4b8bd32cafe2072f6123a6b0"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.10b.png",
+      "bytes": 10939,
+      "sha256": "bfcf0c11f2208e8e918af2c315c5d700ce4738c4241c030b9857289a0e23090b"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.11.png",
+      "bytes": 6543,
+      "sha256": "73c035ef51ee196c8842b867b47c5d29127ccef7e358aed1aa57eb539d936985"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.12.png",
+      "bytes": 6817,
+      "sha256": "591fbcd052495349b3b6edc6155379bbd1413f13eb142a6e922b2760a55567d9"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.13a.png",
+      "bytes": 12446,
+      "sha256": "2abc24717e90c50cff78c7e3bdfc44a98a7a5ff89dfe22eb7654e1a0528337a5"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.13b.png",
+      "bytes": 12454,
+      "sha256": "f338217efbb78787bf86f14a4a6b25dfdd8e54fa2cc3b4368bd04e4b621351e7"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.14.png",
+      "bytes": 12326,
+      "sha256": "3181098ac21e95c94ebf6cbfb3cfd4f2744e9b132c72abb59d502b05a207444d"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.15.png",
+      "bytes": 20613,
+      "sha256": "504445b87e57373fdb0cf08bd2dcf06f14052167a562b78f38417c0228726ce9"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.2.png",
+      "bytes": 6503,
+      "sha256": "ff93c7a51e78574e5b27cd2abd7666703cc0bfae5db7a609e9b514a8e2fad063"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.3a.png",
+      "bytes": 12444,
+      "sha256": "5d2b57d3735fe4501f62032a115e6d044c5416fba2776327d3bfb29f712c31fa"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.3b.png",
+      "bytes": 14343,
+      "sha256": "ed5caafc53b0816b2daae33458a701f9bc2e864819a1dbfad17cb452045e6d33"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.4a.png",
+      "bytes": 3906,
+      "sha256": "c5d3afebb665c762e55db8369ac0c7494126ef0fa275393621db2d8802f8869b"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.4b.png",
+      "bytes": 12722,
+      "sha256": "569c9a87029a84c7ade0846388102f431fce8245c8a281cf06e1d28a311e90a3"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.5a.png",
+      "bytes": 4453,
+      "sha256": "7e897b500d07809bb98de3c768a1c822f126a651ba83accf2c6c20b94384196d"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.5b.png",
+      "bytes": 12372,
+      "sha256": "1b3932dd320ba55a82426e12113c6b566164479817e4af2aae580b69ec67f2d3"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.6.png",
+      "bytes": 12845,
+      "sha256": "b9cecc5eb7bd1ca1343f21f7b1b0076d2977af30edf6e99f292bcddca61751af"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.7.png",
+      "bytes": 15944,
+      "sha256": "6deff8ae8fddc566554857c97a360c2b8b4fe0110508a422f1f08aa90e9f5047"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.8a.png",
+      "bytes": 7051,
+      "sha256": "5ba33ced47d170eac5b09707c64bcdf01b44449a4b4d985d75383bccc9605b14"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.8b.png",
+      "bytes": 12584,
+      "sha256": "a548c6b4bfb80899d1ade7e211a502a82f414d3c8b80a929a41f75dca08e492e"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.9a.png",
+      "bytes": 7877,
+      "sha256": "8d94f12d1358fca493dee6a25abe6cbce3f228923c7c994c53092f741021f4ae"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-7.9b.png",
+      "bytes": 15699,
+      "sha256": "6bfdc0326d5467904653c51a35a217023dd1a49addcb4ce4c7a2be503f00cacd"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-8.1a.png",
+      "bytes": 8407,
+      "sha256": "3c5d8ed86036071fc22cdc077fb69b1a5a78d4a4bfb34cf57d60c27149057ddd"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-8.1b.png",
+      "bytes": 11825,
+      "sha256": "7b58ea5fa38277fc3a0bccc2a83e15aca8b6a1109b8f095b6931ba2d5b0d4f7a"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/equations/eq-8.1c.png",
+      "bytes": 10768,
+      "sha256": "ca102973e9ac5a98e90be948408c8319750cec855b49681e0b87a3d903d7ac79"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/check-pdf107.png",
+      "bytes": 27313,
+      "sha256": "41fddaf77eac312eeaf03e625f4f43b6c6be4c9de35b453cd86edf66a9d79bca"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/check-pdf119.png",
+      "bytes": 121981,
+      "sha256": "9b7bce9784953cf94c5a35650904ded915c65f1505a8d2e40d2e8c2f2105451a"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/check-pdf125.png",
+      "bytes": 231895,
+      "sha256": "6d55e3853bbba83a9bfaa45a2a1f6f4e590a935cba571f4a90e2c12352833fae"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/check-pdf129.png",
+      "bytes": 85320,
+      "sha256": "220c29b46edb47ad14e9eb803ac9e1fa88b4d33035b47b5116ef26ac209bc2e9"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-3_15.png",
+      "bytes": 21042,
+      "sha256": "71945805720c12a57c89f4fe1a4ee11f001d8802a48efea79a9e5e79f5db0c44"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-3_16.png",
+      "bytes": 22018,
+      "sha256": "e6cca97677dfc0ca62d4f1e99c8e1b2ed2e1c0a38a8e95ef61672200792c60d7"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-4_1.png",
+      "bytes": 46498,
+      "sha256": "b3845b198b3f5e1e60e67cfdca65771f1332fd3a3591ac4a19ada6bfe0c864d3"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-4_3.png",
+      "bytes": 107730,
+      "sha256": "e19bc677b153123251168c4ccd630baf6d1437987b652a19b9ebca2ec29c975f"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-6_6.png",
+      "bytes": 64911,
+      "sha256": "eb8bb16ddb817f3eedcd734eda20651db076a1034567fc9a68712cedc0dc3a34"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-8_1.png",
+      "bytes": 46775,
+      "sha256": "d4da3063d541dbb898c647afe2514437851dfdb19ca7607efb74726ad1d3cf1f"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-8_2.png",
+      "bytes": 83523,
+      "sha256": "899cbafb9aacbf0aa7372b87e229f5803a0f78eaf5af6c2ffadadf23d228905e"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-8_3.png",
+      "bytes": 85268,
+      "sha256": "de8451506a6a6333736323612931c41ae25a3dae09c2fc93db196fb7d5a371e0"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-8_4.png",
+      "bytes": 28881,
+      "sha256": "a4e33c88573a1cb08c63e3c85d5467588808e9ebb4f1f16bcf1f7d293a958d00"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-8_5.png",
+      "bytes": 42489,
+      "sha256": "8fb6967473c9bde4d4e7f4c764621b77a69dae64b4747480af1624e63e139224"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-8_7.png",
+      "bytes": 44016,
+      "sha256": "c75a07fa3a97b43288574481e86450baa6963c414c3d000bf1dfabee82e9fc08"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/figure-8_8.png",
+      "bytes": 143361,
+      "sha256": "11e5e49ba114c155e3ae2c98273941247f434f023d8613e87fd1f9baff27cae8"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/table-4_1.png",
+      "bytes": 47893,
+      "sha256": "1fc0f19761c17c2d552b8d9499d02ad5747dfe95017ffc7d09e048f0c1c25fef"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/table-6_1.png",
+      "bytes": 52289,
+      "sha256": "176001a8f8db90f7f198bf969b4402855062fe169320f685a7c8f5a251415ae0"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/table-7_3.png",
+      "bytes": 22275,
+      "sha256": "24bc990547deb230b370008d6fdb53f6814d615f950194ed354798b6cdb22a43"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/table-7_4.png",
+      "bytes": 31378,
+      "sha256": "c08dee84da15d583efe6764f1bbdc56ecbd6b31e324f6c6bffe86379858e899f"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/table-7_6.png",
+      "bytes": 30349,
+      "sha256": "eb1ba27157b4f505a5c0c9b002f5d9925ec0b8d722c4dca2bcf506af39587d2a"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/figures/table-7_7.png",
+      "bytes": 27895,
+      "sha256": "be946480078e10318bde5edd8341100e82651a08a72cb8e74ee7eed2efe0b74f"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/contact-1.jpg",
+      "bytes": 321588,
+      "sha256": "fa8b208a3a8067194021170159edd3f8737b6d45de157fd0d73f8691de22f430"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/contact-2.jpg",
+      "bytes": 343623,
+      "sha256": "fe7c99506be271cca6571915b6ddeca84c2a329c747b5cc8ecda557c2c3e5b36"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/contact-3.jpg",
+      "bytes": 319247,
+      "sha256": "c72c924c046cf511e891acf5d2d382e6742f83ea872d4b78a20343dc329abed5"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/contact-4.jpg",
+      "bytes": 376908,
+      "sha256": "1f1665596bc13bd4edf13a3e7d580ec1f6aedd59b71f81abdae2d5b1250cb35b"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/crop-contact-1.jpg",
+      "bytes": 217016,
+      "sha256": "20071008d2bf730780050c3ef9511e42375b752edb26f68614a32925cfd47f24"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/crop-contact-2.jpg",
+      "bytes": 216320,
+      "sha256": "cf13c5dea7ce8105ada6f028668bfa076e2705dca587d15c9c8e58186baf2869"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/crop-contact-3.jpg",
+      "bytes": 195604,
+      "sha256": "ee5518802b5b20eb0e94b27eb976f50d6ff84ed6e74e52091c591f7f9295849a"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf054.png",
+      "bytes": 119420,
+      "sha256": "209dfdcf84ef145863512c2829866d9d7e0d0d610f43fc5908cd249d0ab09b16"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf057.png",
+      "bytes": 147314,
+      "sha256": "a4724596b011d768a33fd3f5c019153070f61cf61171fbd904eafe12eab506db"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf059.png",
+      "bytes": 170271,
+      "sha256": "29017ead493b81643ba6ab0a1135effd82dd963b5a4c9f725347da4689ec38c4"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf060.png",
+      "bytes": 124924,
+      "sha256": "1cf6ff84c9b486ce8fdda0450f522ec3ddfd23ba8cc16f532716d65636cc5712"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf064.png",
+      "bytes": 174650,
+      "sha256": "5da45fe631466abafda003e0bce4d98b4b0f4b5d111310dc7302d44e69bae3d5"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf083.png",
+      "bytes": 160254,
+      "sha256": "f7d325a8e460e75fecfb5ab1c723451c4dad5315f2bc3fbb191e09962346c483"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf107.png",
+      "bytes": 143478,
+      "sha256": "d5b73d50c9b5cedf1c3bccb97cb6578eccc8635224c70b23611865a1013a0ae2"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf109.png",
+      "bytes": 151939,
+      "sha256": "ecf3e524d452066531cbe2eaeadc1d6688011b6699324754ba5dfe47af5fb7f8"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf111.png",
+      "bytes": 137541,
+      "sha256": "21e6cb2ee22dfe3e9690d93f6abb4dd234f032077dd74bd375132af1f7f3a889"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf113.png",
+      "bytes": 157211,
+      "sha256": "01dbd8a539d640422a179d58910ae51a245dd0ca1e3c17b9dd329442b191ccb7"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf114.png",
+      "bytes": 196253,
+      "sha256": "33449f829ae3f931a27bd74e0ab44f40280dc1a7d151e98df75b767417feb79b"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf117.png",
+      "bytes": 113552,
+      "sha256": "e290dc08742f5d6b1cde48dd7cfbf106ae36cb4dac873acd2c30c5a3ede1f9f2"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf119.png",
+      "bytes": 138243,
+      "sha256": "6b9b440b12c659704c7c9fbf706f6a2cf4beb0ccfa353fc76a4f9beb1255a6c0"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf123.png",
+      "bytes": 170614,
+      "sha256": "1cf3f1bc7c60025e906c727821b96825b644ae8685e61d794e991a33f4fa0115"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf125.png",
+      "bytes": 187126,
+      "sha256": "2f5415daafbe5d94e6b442860c20b9e496aa25dd6beabef9f25f885dcc0caadf"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/assets/pages/pdf129.png",
+      "bytes": 207379,
+      "sha256": "454bfeac62762943314c575ab1c1bcae33aa6bec73f735337ad4e0627b4b2e0d"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/atomic_claims.json",
+      "bytes": 5114,
+      "sha256": "261bce1e20fbc048e31b90c4ecc6f8810198fe9b8d4380409f015f9988a6e227"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/build_reader.py",
+      "bytes": 2439,
+      "sha256": "2d79123a5bf42cca317edd82c288a62c93aa12cae90eafb18dd2476860450150"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/correct_crops.py",
+      "bytes": 1373,
+      "sha256": "f6609962bcadce3b8185fd08ed5279566322246969306d0e61eaa226652b677a"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/coverage.json",
+      "bytes": 2750,
+      "sha256": "72f51933b3ff90cdac50538fec7e23452228e306d4df7db8185f9963b2b1aabb"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/enhance_reader.py",
+      "bytes": 4468,
+      "sha256": "4423bbe5b6ce32ad677d5bf6ee9f931ae4d2b05a73627970c1208c7797f01603"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/finish_reader.py",
+      "bytes": 8960,
+      "sha256": "b690c9d18f923dca7475548b3a1a2d91e7e32e71f3661e796c0999e5925df9fb"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/make_paragraphs.py",
+      "bytes": 1466,
+      "sha256": "cb9bcd4ad7f62d10b2dda5063f0f1ea36ff5bd0f0fe36cc4120387404ae3e10f"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/math-validation.txt",
+      "bytes": 40,
+      "sha256": "d9daab92a3d2188366af0e9b0802c3095f3916b4fecfd58a90fd72a184014e9d"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/notes.md",
+      "bytes": 16179,
+      "sha256": "8d3810a95d2b3db34c9d165319e3becb427199c7e27c91a626a3b54e84a51a50"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/paper.md",
+      "bytes": 778681,
+      "sha256": "b39192c36dfbf58014d8f0c39253040c30c07dd488c94a5c4ba6c27cf831e960"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/paragraph_index.txt",
+      "bytes": 38562,
+      "sha256": "34c794bd09666ffaf900441299a1938d98294da5230a9d2e21d3b99119274b7d"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/source_map.json",
+      "bytes": 2823200,
+      "sha256": "29533f2dae1c044db3e1f78ac565c4d6fb5383ea76808f25c61135d85f906f55"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/translation_notes.md",
+      "bytes": 6695,
+      "sha256": "90df1f453ecf30d7b97d1643aa045f4f31b1f30195feeb55ed4ce72bbf77e1b9"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/translations.json",
+      "bytes": 23602,
+      "sha256": "6dc6638db213c67c561579894b3a6308abce18e433cfc16600a62cfd48e64ce0"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/verification.json",
+      "bytes": 886,
+      "sha256": "dbfa9e84c639f48dcc1e7d2bb8071c5fa727a8bbfa2d158dd3bbb7e1d6f3a92f"
+    },
+    {
+      "path": "tmp/day23-theses/nobs-worker/verify_reader.py",
+      "bytes": 2672,
+      "sha256": "73ca876366f19796c586c29fc05718904e2dcbe0095afc1f25ba245c6dcbeb28"
+    }
+  ],
+  "external_network_calls": 0,
+  "raw_written": false,
+  "day22_producers_run": false,
+  "git_mutations": false,
+  "missing_user_input": null,
+  "further_inputs_for_reanalysis": "event/peak integrals and covariance, source efficiency geometry, BCS code/input and correction units, directly retrieved Hill/Shizuma/Cheal/Durell primaries"
+}

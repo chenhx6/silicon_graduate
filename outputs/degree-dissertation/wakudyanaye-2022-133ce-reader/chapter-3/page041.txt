@@ -1,0 +1,36 @@
+Chapter 3. Nuclear Triaxiality
+30
+results in bands of ∆I = 1 nature or, (ii) by increasing R⊥, the rotational angular
+momentum along the perpendicular axis, which results in bands of ∆I = 2 nature.
+For bands of ∆I = 1 type and when the nuclear shape is axially symmetric the
+projections on the symmetry axis of the total angular momentum, K, and the
+single-particle angular momentum, Ω, are good quantum numbers. The band is
+built on the I = Ω= K state, and proceeds with K + 1, K + 2, K + 3, ..., forming
+the yrast band shown in black in panel (a) of Figure 3.3. High spin states in the
+yrast band are formed by increasing the rotational angular momentum along the
+intermediate axis (R||). Due to triaxiality additional rotational bands are brought
+down in energy, shown in blue and red in panel (a) of Figure 3.3. K and Ωare not
+good quantum numbers in the triaxial case, however, it has been shown that for
+a nucleon in an i13/2 or h11/2 sub-shell and γ ≈30◦, K and Ωare approximately
+good quantum numbers, particularly near the bandhead [51].
+To generate excited bands of ∆I = 1 nature the nucleus increases its rotation along
+the orthogonal axis (long or short, depending on the orientation of⃗j) by R⊥≈2ℏ.
+Thus the ﬁrst excited band must have a bandhead of I ≈Ω+ 2. For instance
+a ﬁrst excited band built on the h11/2 orbital with Ω= 9/2 has a bandhead of
+I = 13/2. It consists of states with I = 13/2, 15/2, 17/2, 19/2..., shown in blue
+in panel (a) of Figure 3.3. A second excited band is created by a further increase
+of ≈2ℏin R⊥, shown in red in panel (a) of Figure 3.3. Panel (b) of Figure 3.3
+shows the generation of angular momentum for the yrast band (black), the ﬁrst
+excited band (blue), and the second excited band (red). The symbols || and ⊥
+denote components along the intermediate axis and in a direction orthogonal to
+the intermediate axis, respectively.
+The rotational bands can be classiﬁed by the projection of the single-particle
+angular momentum on the orthogonal axis Ω⊥, the projection of the total angular
+momentum on the orthogonal axis K⊥, and the projection of the rotational angular
+momentum on the orthogonal axis R⊥; (Ω⊥, K⊥, R⊥). The yrast band consists of
+states with (Ω⊥, K⊥, R⊥) = (9/2, 9/2, 0), the ﬁrst excited band consists of states
+with (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2), and the second excited band consists of states
+with (Ω⊥, K⊥, R⊥) = (9/2, 17/2, 4).
+The bands of ∆I = 2 type can form when the strength of the Coriolis interaction
+is strong [44]. It is possible in some nuclei that the states with the same spin I
+and R⊥≈2 lie lower in energy than the states with R⊥≈0. For instance in 135Pr

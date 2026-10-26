@@ -1,0 +1,51 @@
+Bibliography
+109
+[7] A. D. Ayangeakaa, U. Garg, C. M. Petrache, S. Guo, P. W. Zhao, J. T.
+Matta, B. K. Nayak, D. Patel, R. V. F. Janssens, M. P. Carpenter, C. J.
+Chiara, F. G. Kondev, T. Lauritsen, D. Seweryniak, S. Zhu, S. S. Ghugre,
+and R. Palit, “In-beam spectroscopy of medium- and high-spin states in
+133Ce,” Physical Review C, vol. 93, p. 054317, May 2016. [Online]. Available:
+https://link.aps.org/doi/10.1103/PhysRevC.93.054317
+[8] R. Bark, G. Hagemann, B. Herskind, H. Jensen, W. Korten, J. Wrzesinski,
+H. Carlsson, M. Bergstr¨om, A. Brockstedt, A. Nordlund, H. Ryde, P. Bosetti,
+S. Leoni, F. Ingebretsen, and P. Tjøm, “More than thirty bands in 177Re,”
+Nuclear Physics A, vol. 591, no. 2, pp. 265–322, 1995. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/0375947495001876
+[9] D. Bazzacco, F. Brandolini, G. Falconi, S. Lunardi, N. H. Medina, P. Pavan,
+C. Rossi Alvarez, G. de Angelis, D. De Acuna, M. De Poli, D. R. Napoli,
+J. Rico, D. Bucurescu, M. Ionescu-Bujor, and C. A. Ur, “Rotational bands
+in 133Nd,” Physical Review C, vol. 58, pp. 2002–2021, Oct 1998. [Online].
+Available: https://link.aps.org/doi/10.1103/PhysRevC.58.2002
+[10] R. Bengtsson, H. Frisk, F. R. May, and J. A. Pinston, “Signature inversion
+−a ﬁngerprint of triaxiality,” Nuclear Physics A, vol. 415, pp. 189–214,
+1984. [Online]. Available: https://doi.org/10.1016/0375-9474(84)90620-1
+[11] T. Bengtsson and I. Ragnarsson, “Rotational bands and particle-hole
+excitations at very high spin,” Nuclear Physics A, vol. 436, no. 1, pp.
+14–82, 1985. [Online]. Available:
+https://www.sciencedirect.com/science/
+article/pii/037594748590541X
+[12] N. Bernier, “Decay spectroscopy of neutron-rich cadmium around the N
+= 82 shell closure,” Ph.D. dissertation, University of British Columbia,
+2018. [Online]. Available: https://open.library.ubc.ca/collections/ubctheses/
+24/items/1.0376019
+[13] L. Berti, M. Biasotto, S. Fantinel, A. A. Gozzelino, M. Gulmini, and N. To-
+niolo, “Lnl infn annual report,” LNL INFN Annual Report, p. 93, 2014.
+[14] S. Biswas,
+R. Palit,
+S. Frauendorf,
+U. Garg,
+W. Li,
+G. H. Bhat,
+J. A. Sheikh, J. Sethi, S. Saha, P. Singh, D. Choudhury, J. Matta,
+D.
+Ayangeakaa,
+W.
+Dar,
+V.
+Singh,
+and
+S.
+Sihotra,
+“Longitudinal
+wobbling in
+133La,” The European Physical Journal A, vol. 55, no. 9,

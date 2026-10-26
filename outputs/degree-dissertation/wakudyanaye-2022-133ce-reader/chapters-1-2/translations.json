@@ -1,0 +1,183 @@
+{
+  "excitation": "当原子核在不改变内部组态的情况下被激发时，会发射γ射线，即高能光子，释放体系中的多余能量并达到基态，也就是能量最低的状态。这一量子力学过程遵从多种物理定律。原子核可以发生两类激发：一类是单粒子激发，产生不规则的γ跃迁序列；另一类是集体激发，涉及体系中全部核子的相干运动，产生规则的γ跃迁序列。集体激发包括振动和转动。",
+  "vibration_rotation": "核振动曾被认为是球形核常用的退激机制，因为球形核不能转动；不过，这一观点近期受到质疑，见文献[24]。自然界多数原子核的基态并非球形，而具有形变。形变核偏好转动，因为其激发能低于振动；当然，形变核也可以振动。轴对称形变是最简单的形变核形状，呈旋转椭球体，类似鸡蛋或薄饼。",
+  "triaxial_regions": "除轴对称形变核外，还可以存在非轴对称形变核，即三轴形变核。在$A=80$、100、130和190质量区已观测到核三轴性。除转动与振动外，三轴核还可以产生wobbling运动和手征性等激发模式。因此，这些区域为在核素图上检验核结构理论提供了有意义的机会。",
+  "spectroscopy": "γ谱学研究原子核退激时发射的γ射线，提供核态自旋、宇称以及γ跃迁能量等重要信息，可以与核过程理论比较。由南非、中国和法国研究人员组成的合作组，对$N=75$同中子素$^{133}$Ce和$^{131}$Ba开展了详细谱学研究；同中子素是中子数相同的原子核。$^{133}$Ce实验在南非开普敦iThemba LABS的分离扇形回旋加速器上完成，$^{131}$Ba实验在意大利Legnaro国家实验室的XTU串列加速器上完成。所采集并分析的数据表明，在$^{133}$Ce和$^{131}$Ba中各有一条新的正宇称带，基于沿长轴投影为$7/2$的$g_{7/2}$中子轨道。在$^{133}$Ce中还发现一条新的强耦合负宇称带，基于沿长轴投影为$9/2$的$h_{11/2}$中子轨道。",
+  "work_roles": "本工作研究了$^{133}$Ce数据的γ–γ符合关系，据此构建了部分能级纲图并发现两条新转动带。$^{133}$Ce新带的自旋宇称指定，以及$^{131}$Ba中$g_{7/2}$带的数据分析由合作人员完成。准粒子加三轴转子（quasiparticle-plus-triaxial rotor，QTR）模型计算属于本工作的一部分。$^{133}$Ce和$^{131}$Ba中新观测$g_{7/2}$带的解释基于这些计算，结果近期发表于Physical Review C[22]。$^{133}$Ce中$h_{11/2}$带的结果正在准备发表。",
+  "outline_intro": "论文其余部分安排如下：",
+  "outline2": "第2章“理论基础”：概述核物理基础，重点介绍核形变和Nilsson模型；对于理解轴对称形变核转动中的单粒子自由度，这些内容尤其重要。",
+  "outline3": "第3章“核三轴性”：考察非轴对称形变核的转动，讨论研究核三轴性的两种模型，即倾斜进动（tilted precession，TiP）和核wobbling运动，以及各自的模型预言。",
+  "outline4": "第4章“实验技术”：介绍用于产生和研究高自旋原子核的一些实验技术。",
+  "outline5a": "第5章“实验结果”：给出$^{133}$Ce和$^{131}$Ba两个实验的结果。第一个实验在开普敦NRF iThemba LABS完成，观测到两条新的激发带结构：第一条为建立在$I^\\pi=7/2^+$态上的正宇称带，第二条为建立在$I=13/2^-$态上的负宇称结构。",
+  "outline5b": "第二个实验在意大利Legnaro国家实验室完成，发现了一条建立在$I=7/2^+$态上的新带结构。",
+  "outline6a": "第6章“讨论”：使用QTR模型解释第5章结果。依据所观测带性质，将$Z=75$同中子素$^{133}$Ce与$^{131}$Ba的两条正宇称结构指认为近似的$\\nu g_{7/2}[404]7/2^+$ Nilsson组态。这些带表现出旋称劈裂，使用QTR模型研究三轴性和Coriolis相互作用对实验劈裂的影响。",
+  "outline6b": "使用QTR模型研究$^{133}$Ce中与中子$h_{11/2}$组态相关的yrast带和激发负宇称带，考虑了TiP带与横向wobbling带两种替代解释。包括激发能和旋称劈裂在内的观测带性质支持TiP解释，实验电磁跃迁性质提供的进一步证据也支持这一解释。",
+  "outline7": "第7章“结论”：总结对$^{133}$Ce、$^{131}$Ba中$g_{7/2}$带，以及$^{133}$Ce中$h_{11/2}$带开展的工作。",
+  "schrodinger": "原子核是量子体系，其行为在任何时刻都完全由求解定态Schrödinger方程得到的本征态Ψ确定：",
+  "hamiltonian_intro": "其中$E$是体系Hamiltonian算符$\\hat H$的本征值；该算符定义为动能算符$\\hat T$与势能算符$\\hat V$之和，即：",
+  "momentum": "这里$\\hat p=-i\\hbar\\nabla$为动量算符，$\\hbar$为约化Planck常数，$A$为体系的核子数，$m$为核子质量，$V(\\vec r_{i,j})$为依赖第$i$和第$j$个核子坐标的核子–核子相互作用。",
+  "models": "由于支配原子核内部核子相互作用的核势的真实本质难以把握，因此需要使用核模型来理解核实验的观测量。",
+  "magic_intro": "20世纪的实验证据表明，原子核的质子数和中子数存在幻数。与相邻核相比，这些原子核结合得更紧，要从中移除一个核子，需要显著更多能量。这提示存在壳层闭合，使早期核物理学家类比原子物理中的电子壳结构，提出原子核内部也有壳结构。质子与中子的幻数为：",
+  "meanfield": "最后一个幻数仅属于中子。为解释这些“幻数”，人们建立了壳模型。壳模型假设，原子核中的每个核子都是独立的，运动在其它$A-1$个核子产生的平均场中心势中。这一巧妙想法把原先难以处理的$A$体问题，即式2.2，转化为独立的单粒子运动，得到$A$个单粒子态及其对应能谱。随之而来的问题是：怎样的平均场中心势才合适？",
+  "residual": "可以在式2.2中同时加入和减去一个仅依赖第$i$个核子坐标的平均中心势$v(\\vec r_i)$。这样便把Hamiltonian分为无相互作用部分$\\hat H_0$和剩余相互作用$W_{Res}$，后者计入核子之间的两体相互作用。体系Hamiltonian可写成：",
+  "square_intro": "在无相互作用壳模型中，$W_{Res}=0$。核中心势的一阶近似是球对称无限深方势阱，即$v(\\vec r_i)\\to v(r_i)$，另见图2.1：",
+  "square_magic": "这一势可以再现前3个幻数2、8和20，见图2.2(a)。每个能级可以容纳一定数目的质子和中子；每一类核子都按照Pauli不相容原理，占据各自的势阱。",
+  "ho_intro": "作为第二种近似，采用图2.1中的谐振子势[61]：",
+  "ho_spectrum": "其中$M$为核子质量，$\\omega_0$为经典谐振子频率。把这一势代入定态Schrödinger方程2.1求解，得到以下能级：",
+  "oscillator_quantum": "其中$N=2(n-1)+l$为谐振子壳层量子数，由径向量子数$n=1,2,3,\\ldots$和轨道角动量量子数$l=0,1,2,3,\\ldots,(n-1)$定义。谐振子壳层量子数取$N=0,1,2,3,\\ldots$。每个$N$壳层包含一组$l$不同的简并能级。对$l$的选择规则是：$N$为偶数时$l$为偶数，$N$为奇数时$l$为奇数。这个势能够再现前3个幻数，见图2.2(b)。",
+  "ws_intro": "谐振子势（H.O.）和无限深方势阱都有一个缺点：要从核中移除核子，需要无限大的能量，因为当$r$趋于无穷时，这两种势都趋于无穷。Woods–Saxon（W–S）势是更实际的核势，见图2.1：",
+  "ws_parameters": "其中$V_0$为势阱深度，$R=1.25A^{1/3}$ fm为平均核半径，$a=0.524$ fm为核表皮厚度。该势兼有方势阱的平底特征和H.O.势的抛物线上升特征，能够再现前3个幻数，见图2.2(c)。",
+  "modified_ho": "在谐振子势式2.6中加入一个正比于$l^2$的项，相当于在方势阱与H.O.势之间插值，使其接近W–S势。对W–S势，或者带$l^2$项的H.O.势，再加入自旋–轨道项，就可以成功再现幻数[32,50]。带W–S势的Schrödinger方程只能数值求解，而带$l^2$项的谐振子势允许解析解。",
+  "spinorbit_intro": "如前所述，为再现正确的幻数，必须计入自旋–轨道耦合[32,50]。轨道角动量$\\vec l$与内禀角动量，即自旋$\\vec s$，耦合形成总角动量$\\vec j=\\vec l+\\vec s$。自旋–轨道项具有如下形式：",
+  "spinorbit_splitting": "其中$f_{so}(r)$是相互作用强度。该相互作用将简并能级劈裂为$j=l\\pm1/2$的两个分量，$j=l+1/2$分量的能量低于$j=l-1/2$分量。对给定$j$，每个态最多可以填入$2j+1$个核子，见图2.2(d)。",
+  "ws_modified": "计入上述修正后，W–S势可写为：",
+  "ho_modified": "谐振子势则变为：",
+  "coulomb": "其中$C$与$D$为比例常数，通过拟合使其再现球形壳模型。前面讨论省略了库仑势$V_c\\propto e(Z-1)$，因为它只是通过使质子势阱变浅而降低体系结合能，并不改变幻数的顺序。当核子为质子时，很容易将其加入式2.10和式2.11的势中处理。",
+  "spectroscopic_labels": "图2.2中，每个单粒子态先用主壳层量子数$N$标记，再写角动量量子数$l$。谱学记号中，$l=0$记为s，$l=1$记为p，$l=2$记为d，$l=3$记为f，其后按字母顺序命名。能级宇称为$\\pi=(-1)^l$。壳模型在预言多数接近幻数原子核的基态性质方面十分成功[36]。",
+  "deformation_evidence": "除闭壳及其附近的原子核外，自然界大多数原子核的基态都具有形变，即多数并非球形[15]。实验证据包括转动带的存在，以及测得的大四极矩。核表面形变可以用球谐函数的无限级数展开参数化：",
+  "surface_symbols": "其中$R(\\theta,\\phi)$为从原点指向核表面某点的半径矢量长度，$R_0$为与该核等体积球的半径矢量长度，$Y(\\theta,\\phi)$为球谐函数，$\\alpha_{\\lambda\\mu}$为展开系数，$\\lambda$为展开的多极阶数。",
+  "quadrupole_coefficients": "式2.12中，$\\lambda=2$对应核的静态四极形变。在与核主轴重合的坐标系中，由于四极形状的反射对称性，5个展开系数$\\alpha_{2\\mu}$约化为两个独立系数$\\alpha_{20}$与$\\alpha_{22}$，满足$\\alpha_{21}=\\alpha_{2,-1}=0$、$\\alpha_{22}=\\alpha_{2,-2}$。这些系数可通过下列关系与形变参数$\\beta_2$和γ联系起来：",
+  "and": "以及",
+  "beta_gamma": "这样，核形状只需用四极形变$\\beta_2$和非对称参数γ描述；前者度量四极形变，即拉长程度，后者表示偏离轴对称的程度。$\\beta_2$与γ通过比值$\\delta R_i/R_0$定义，其中$\\delta R_i$是在第$i$轴方向，即核内禀坐标系的x、y、z方向上，相对于等体积球的半径矢量偏离量，$R_0$为该球的半径矢量大小。比值$\\delta R_i/R_0$与$\\beta_2$的关系为：",
+  "lund": "当$\\beta_2>0$且$\\gamma=0^\\circ$时，核形状对应轴对称长椭形变；当$\\gamma=60^\\circ$时，对应轴对称扁椭形变。核形状和转动的组合最好用Lund约定表示，见图2.3。$\\gamma=0^\\circ$时形状为长椭，转动方向垂直于对称轴，称为集体长椭；$\\gamma=-60^\\circ$时为集体扁椭，因为核形状为扁椭，且绕垂直对称轴的轴转动。非集体长椭与非集体扁椭分别出现在$\\gamma=-120^\\circ$和$60^\\circ$，因为转动绕对称轴发生。若$\\beta_2>0$，且γ不等于0°、±60°、−120°，原子核就是三轴的。",
+  "epsilon_beta": "应指出，用$(\\beta_2,\\gamma)$参数化核形变并非唯一选择。另一种方法是采用Nilsson形变参数$(\\varepsilon_2,\\gamma)$；其中γ与前面相同，$\\varepsilon_2$为Nilsson拉长参数，与$\\beta_2$意义相同，但数值稍有差别，约有$\\varepsilon_2\\approx0.95\\beta_2$。",
+  "higher_multipoles": "除四极形变外，原子核也可能具有更高阶形变。例如式2.12中$\\lambda=3$对应八极形变核形状，$\\lambda=4$对应十六极形变核形状。一般说来，这些高阶形变比四极形变更少见。",
+  "nilsson_intro": "多数原子核的基态具有稳定四极形变，Nilsson模型就是为解释这一点而建立的。它基于修正谐振子。式2.10的势假定径向对称且沿全部核轴均一；Nilsson模型不要求如此。当原子核具有轴对称四极形变，即$\\lambda=2$时，若内禀对称轴z较长，$z>x=y$，则为长椭，$\\varepsilon_2>0$；若z较短，$z<x=y$，则为扁椭，$\\varepsilon_2<0$。核势随核物质分布变化：长椭形变时沿z轴延伸更远，扁椭形变时在z方向缩短。",
+  "nilsson_ham_intro": "对于形变核体系，修正谐振子势式2.11的Hamiltonian具有如下形式：",
+  "nilsson_frequencies_intro": "其中$\\hat T$为§2.1定义的动能算符，$\\omega_x$、$\\omega_y$和$\\omega_z$与形变参数$(\\varepsilon_2,\\gamma)$的关系见文献[39]。轴对称情况下，$\\omega_x^2=\\omega_y^2=\\omega_\\perp^2\\ne\\omega_z^2$；$\\omega_\\perp$与$\\omega_z$分别是垂直和平行于内禀对称轴z方向的谐振子频率：",
+  "axial_ham_intro": "在轴对称形变情况下，Hamiltonian变为：",
+  "volume_conservation": "为保证核体积不变，施加体积守恒条件$\\omega_x\\omega_y\\omega_z=\\omega_0^3=\\mathrm{const}$。其中$\\omega_0$为球形谐振子频率，通过$\\hbar\\omega_0=41A^{-1/3}$ MeV与质量数$A$联系。",
+  "nilsson_splitting": "四极形变使球形壳模型的简并能级劈裂。球形壳模型中，同一子壳层中总角动量$j$相同的全部态能量相同；Nilsson模型中，该子壳层按单粒子总角动量$\\vec j$在核对称轴上的投影不同，劈裂为能量不同的态。",
+  "gseven_example": "例如，球形壳模型中的$1g_{7/2}$子壳层总共可以容纳$2(7/2)+1=8$个能量相同的核子。在形变Nilsson模型中，$1g_{7/2}$劈裂为$(2j+1)/2$个不同轨道，角动量在对称轴上的投影为$\\Omega=7/2,5/2,3/2,1/2$，见图2.5和图2.6。子壳层的总容纳数不变；根据Pauli不相容原理，每个Nilsson轨道容纳两个核子。长椭情况下，$\\Omega=7/2$轨道能量最高，其次为$5/2$，依此类推，$1/2$最低；扁椭情况下则相反，$7/2$最低，$1/2$最高。在$\\varepsilon_2=0$时，子壳层劈裂为不同轨道的现象消失，Nilsson模型等同于球形壳模型。",
+  "nilsson_quantum": "每个Nilsson轨道可由量子数$\\Omega[N,n_z,\\Lambda]$唯一标识。$\\Omega$为单粒子角动量$j$在对称轴上的投影，$N$为谐振子壳层量子数，$n_z$为对称轴方向的谐振量子数。模型中$\\Omega=\\Lambda+\\Sigma$，其中$\\Lambda$为轨道角动量在对称轴上的投影，$\\Sigma$为内禀自旋角动量在对称轴上的投影。",
+  "nilsson_coupling": "图2.4展示Nilsson模型中的角动量耦合。$\\vec R$为核的转动角动量，$M$为核总自旋$\\vec I=\\vec R+\\vec j$在实验室z轴上的投影。没有转动时，宇称π和$\\Omega$是Nilsson模型的好量子数。注意，轴对称核只能绕垂直于对称轴的轴转动。因此，带头处有$I=\\Omega=K$。",
+  "pairing": "由于Nilsson模型中的配对相互作用，核芯内部所有核子都成对。对于奇偶核或偶奇核，基态的全部核自旋$I$完全来自未配对的奇核子，即非转动核有$I=j$。对于奇奇核，单粒子角动量为两个未配对核子单粒子角动量的矢量和，$\\vec j=\\vec j_\\pi+\\vec j_\\nu$，其中$\\vec j_\\pi$和$\\vec j_\\nu$分别表示质子、中子的单粒子角动量。图2.5与图2.6分别给出了中子和质子的Nilsson图，两者的占据数均在50与82之间。",
+  "collectivity": "原子核吸收能量后可以表现出两种极端行为：一是单个价核子被激发至另一单粒子态；二是以大量核子相干运动为特征的集体激发。单粒子激发改变核的内部组态，其能谱为不规则态序列，由多极性不同的γ跃迁连接。振动和转动等集体激发则保持核内部单粒子组态不变。核振动虽然处理起来直接[15]，但对理解当前工作并不十分重要，因此不再详细讨论，下面只讨论核转动。单粒子与集体自由度的相互作用，是多种核结构现象的基础。",
+  "rotation_symmetry": "由于球对称性，量子力学禁止球形核体系的转动，因为这种转动只给波函数引入一个平凡相位因子，也就是说，无法区分旋转的球形核与静止的球形核。只有形变核才能产生转动激发模式[19]，表现为角动量逐步增加的规则态序列。核绕垂直于对称轴的轴转动；在体固连坐标系中，此轴为2轴，见图2.4。",
+  "rigid_rotor": "经典情况下，刚性转子的能量作为转动角动量$\\vec R$的函数，由下式给出[38]：",
+  "quantize": "其中$ℑ$为刚性转子的转动惯量。将式2.21量子化得到：",
+  "even_even_band": "对偶偶核，$\\vec R=\\vec I$，其中$\\vec I$为核总自旋。算符$\\hat{\\vec I}^{\\,2}$的本征值为$I(I+1)$。此时式2.22的能量本征值对应自旋序列$I=0,2,4,6,8,\\ldots$的正宇称态，以$I=0$为基态。这些态由$\\Delta I=2$的γ跃迁连接，形成所谓基态（g.s.）转动带。",
+  "rotational_band": "转动态可以从核γ能谱的全部态中区分出来，因为态能量与角动量之间具有规则关系$E\\propto I(I+1)$。这些态通过伸展纯E2跃迁连接。也可以存在其它转动带，例如破坏一对核子、将其提升到不同壳模型组态，就可能形成激发转动带。转动带的最低态可以有$I=K$，也可以建立在$I=j$态上。",
+  "triaxial_rotation": "与轴对称形变核不同，三轴形变核可以绕三个核主轴中的任意一个转动，因为体系中不存在对称轴。",
+  "particle_rotor_intro": "在奇质量形变核中，单粒子与集体自由度耦合，共同描述核的行为。核总自旋为：",
+  "coupling_limits": "因此，转动角动量为$\\vec R=\\vec I-\\vec j$。在描述轴对称形变奇质量核时，依据Coriolis相互作用强度以及单粒子角动量$\\vec j$与转动角动量$\\vec R$的相对取向，会出现两种极限情况：二者彼此正交，即强耦合，或彼此平行，即转动对齐。",
+  "strong_quantum": "对轴对称核，低激发态性质由价核子决定。核总自旋$\\vec I$在对称轴上的投影为$K$，核绕垂直于对称轴的轴转动。不存在绕对称轴的集体转动，$\\vec R$的3轴分量为零，因此$\\vec I$在对称轴上的投影完全来自单粒子角动量$\\vec j$的投影$\\Omega$，即$I_3=\\Omega=K$。因此，$\\Omega$和$K$都是体系的好量子数。",
+  "strong_wavefunction": "在这一耦合方案中，整个体系的Hamiltonian具有可加性，相应核总波函数是惰性核芯波函数与内禀单粒子波函数的简单乘积。",
+  "strong_ham_intro": "粒子–核芯体系的Hamiltonian可写成：",
+  "strong_ham_symbols": "其中$H_{coll}=AR^2$为集体转动Hamiltonian，$A=\\hbar^2/(2ℑ)$且$\\vec R=\\vec I-\\vec j$；$H_{int}$对应形变内禀单粒子Hamiltonian，例如Nilsson模型Hamiltonian。注意到$\\vec j=\\vec j_1+\\vec j_2+\\vec j_3$，沿3轴量子化，并将$\\vec j_1$、$\\vec j_2$用升降算符表示，可以进一步简化式2.24：",
+  "coriolis_recoil": "最后两项经典地对应Coriolis力和离心力。它们给出形变势中价核子运动与旋转核芯运动之间的耦合，并造成态混合。在强耦合区域，即绝热近似下，对较小$I$，旋转核芯对单粒子运动的影响可忽略，只有Coriolis项的对角矩阵元影响体系。$j_+$与$j_-$的选择规则意味着这些算符只在$\\Omega=\\pm1/2$时起作用。反冲项$j_1^2+j_2^2$仅受单粒子波函数影响，对给定转动带近乎为常数、且较小，可以忽略。",
+  "nilsson_intrinsic": "Nilsson模型给出$H_{int}\\psi_\\nu=\\varepsilon_\\nu\\psi_\\nu$，其中$\\varepsilon_\\nu$为与算符$H_{int}$相关的单粒子能量；$\\psi_\\nu$为用Nilsson量子数标识的相应本征态，即$\\psi_\\nu=|NLJ\\Omega\\rangle$。",
+  "strong_energy_intro": "给定$I$和$K$时，态能量为：",
+  "strong_energy_band": "能量相对于费米面$\\lambda_F$计算。yrast带，即对给定$I$由最低能量态组成的转动带，其带头自旋为$I=K$，带内各态的自旋按$I=K,K+1,K+2,K+3,\\ldots$递增，见图2.7(a)、(c)。这些态既通过伸展纯E2跃迁相连，对应$\\Delta I=2$、图2.7中的红色箭头，也通过M1+E2混合跃迁相连，对应$\\Delta I=1$、蓝色箭头。除yrast带外，还可能观测其它转动带，例如将奇核子提升至较高Nilsson轨道，并在新组态上构建转动带。",
+  "khalf_intro": "对$K=1/2$，算符$I_+j_-+I_-j_+$的矩阵元的对角贡献不为零，此时转动带能量按下式计算：",
+  "decoupling_intro": "其中$a$称为退耦参数，对每个$K=1/2$轨道具有固定值，定义为：",
+  "decoupling_effect": "它对应粒子运动与转子的退耦，会根据$a$的取值显著影响转动带的态顺序。若$a=0$，顺序与式2.26相同；若$|a|=1$，态成对简并。当$a=-1$时，$1/2$与$3/2$简并，随后为$(5/2,7/2)$、$(9/2,11/2)$等；当$a=+1$时，简并对为$(3/2,5/2)$、$(7/2,9/2)$、$(11/2,13/2)$等。若$|a|>1$，转动带的自旋序列不再单调。一般来说，Coriolis项会使$\\Delta K=\\pm1$的两条不同转动带混合。",
+  "rotation_alignment": "在这一极限情况下，价核子角动量$\\vec j$平行于核芯转动角动量$\\vec R$。偶偶核的转动带建立在$0^+$基态上，由一系列纯E2跃迁连接各态。另一方面，若奇质量核的单粒子角动量沿核芯转动方向对齐，其转动带建立在自旋$I=\\alpha$的基态上，其中$\\alpha$为$\\vec j$在转动轴上的投影，见图2.7(b)。带内态自旋为$I=\\alpha,\\alpha+2,\\alpha+4,\\ldots$，由纯E2跃迁连接。也就是说，转动对齐时只观测到一条E2跃迁序列，见图2.7(b)、(d)。转动对齐极限的带结构类似于相邻偶偶核的基态带。",
+  "aligned_energy_intro": "在转动对齐情况下，转动态能量为：",
+  "signature_intro": "没有转动时，宇称π和$\\vec j$在核对称轴上的投影$\\Omega$是Nilsson模型的好量子数。引入核转动会破坏体系的时间反演对称性，从而使$\\Omega$变为二重简并。由于时间反演对称性丧失，需要额外的量子数，即旋称$\\alpha$，标记转动带内的态。旋称量子数描述轴对称势在绕垂直于对称轴的轴转动180°时的不变性。旋转算符为[70]：",
+  "signature_definition": "其中$k$表示核内禀的1、2、3轴，$j_k$为单粒子角动量沿$k$轴的投影。旋称量子数$\\alpha$定义为：",
+  "signature_spin": "其中$r$为旋转算符$\\hat R$的本征值。旋称量子数与总角动量$I$的关系为：",
+  "signature_even": "即对偶质量核，旋称与角动量的关系为：",
+  "signature_odd": "对奇质量核：",
+  "signature_partners": "建立在给定内禀组态、$K\\ne0$上的转动带，劈裂为两组具有不同旋称的$\\Delta I=2$序列，称为旋称伙伴带，彼此相差$1\\hbar$。一般而言，旋称伙伴带的能量不一定相同。能量较低者称为“有利”组态，能量较高者称为“不利”组态，由此产生旋称劈裂。Coriolis相互作用对它有很大影响。旋称劈裂通常用下列参数$S(I)$表征：",
+  "signature_inversion": "将$S(I)$对核自旋$I$作图，会得到典型的交错曲线，见图2.8。在某些情况下，有利与不利旋称伙伴带会交叉并互换角色，使旋称劈裂在某一自旋处改变相位，这称为旋称反转[10]。对于高$j$轨道上的单准粒子组态，有利旋称由下式给出：",
+  "fig1": "图2.1：不同核势的比较。改编自文献[3]。",
+  "fig2": "图2.2：由(a)无限深方势阱、(b)谐振子势、(c)Woods–Saxon势以及(d)含自旋–轨道项的W–S势预言的核壳结构。圆圈内数字为幻数；(d)中右侧数字为各相应能级的容纳数。改编自Krane[12,36]。",
+  "fig3": "图2.3：在$(\\beta_2,\\gamma)$平面参数化核形状的Lund约定[5]。",
+  "fig4": "图2.4：Nilsson模型中角动量耦合的示意。改编自文献[1]。",
+  "fig5": "图2.5：中子Nilsson图，$50\\le N\\le82$，$\\varepsilon_4=\\varepsilon_2^2/6$。实线表示正宇称轨道$\\pi=+1$，虚线表示负宇称轨道$\\pi=-1$。每个轨道以渐近Nilsson量子数$\\Omega[N,n_z,\\Lambda]$标识。改编自文献[1]。",
+  "fig6": "图2.6：质子Nilsson图，$50\\le N\\le82$，$\\varepsilon_4=\\varepsilon_2^2/6$。实线表示正宇称轨道$\\pi=+1$，虚线表示负宇称轨道$\\pi=-1$。每个轨道以渐近Nilsson量子数$\\Omega[N,n_z,\\Lambda]$标识。改编自文献[1]。",
+  "fig7": "图2.7：粒子–核芯角动量耦合：(a)强耦合极限，(b)转动对齐极限；相应观测带结构为(c)强耦合极限、(d)转动对齐极限。连接(c)、(d)各带态的跃迁以箭头表示：蓝色为M1+E2跃迁，红色为纯E2跃迁。",
+  "fig8": "图2.8：典型能量交错曲线示意。实心圆表示有利旋称支，空心圆表示不利旋称支。",
+  "_glossary": [
+    {
+      "term": "single-particle / collective excitation",
+      "translation": "单粒子 / 集体激发",
+      "note": "作者的基础分类，不据规则谱线单独判机制"
+    },
+    {
+      "term": "quasiparticle-plus-triaxial rotor (QTR)",
+      "translation": "准粒子加三轴转子",
+      "note": "后续第3/6章模型入口"
+    },
+    {
+      "term": "magic number / shell closure",
+      "translation": "幻数 / 壳层闭合",
+      "note": "保留原文列数与适用语境"
+    },
+    {
+      "term": "mean-field / residual interaction",
+      "translation": "平均场 / 剩余相互作用",
+      "note": "Hamiltonian分解中的不同层次"
+    },
+    {
+      "term": "infinite square well / harmonic oscillator",
+      "translation": "无限深方势阱 / 谐振子",
+      "note": "各模型条件分别记录"
+    },
+    {
+      "term": "Woods–Saxon (W–S)",
+      "translation": "Woods–Saxon势",
+      "note": "不与修正H.O.势混用"
+    },
+    {
+      "term": "spin–orbit / Coriolis coupling",
+      "translation": "自旋–轨道 / Coriolis耦合",
+      "note": "来源与角动量对象不同"
+    },
+    {
+      "term": "quadrupole / octupole / hexadecapole",
+      "translation": "四极 / 八极 / 十六极",
+      "note": "保留β、ε的不同参数化"
+    },
+    {
+      "term": "prolate / oblate / triaxial",
+      "translation": "长椭 / 扁椭 / 三轴",
+      "note": "Lund约定还含转轴语境"
+    },
+    {
+      "term": "Nilsson quantum numbers",
+      "translation": "Nilsson量子数",
+      "note": "N、nz、Λ、Σ、Ω按原定义"
+    },
+    {
+      "term": "strong coupling / rotational alignment",
+      "translation": "强耦合 / 转动对齐",
+      "note": "本文讨论的两个极限"
+    },
+    {
+      "term": "decoupling parameter a",
+      "translation": "退耦参数a",
+      "note": "不能与实验取向参数或几何a混淆"
+    },
+    {
+      "term": "signature / parity",
+      "translation": "旋称 / 宇称",
+      "note": "原文α与r的约定矛盾另审计，不能混同"
+    },
+    {
+      "term": "favored / unfavored signature",
+      "translation": "有利 / 不利旋称",
+      "note": "按能量排序区分"
+    },
+    {
+      "term": "signature splitting / inversion",
+      "translation": "旋称劈裂 / 旋称反转",
+      "note": "采用原式2.37，不套其它S定义"
+    },
+    {
+      "term": "yrast band",
+      "translation": "yrast带",
+      "note": "对给定自旋最低激发能"
+    }
+  ],
+  "_audit": "以下是独立阅读审计，不属于原文或正文翻译；只核对具体字面与内部一致性，不把它写成对整套核模型的最终裁决。\n\n1. **式2.24交叉项字面。** PDF30/印19最后一行印$A(\\vec I^{\\,2}+\\vec j^{\\,2}-\\vec I\\cdot\\vec j)+H_{int}$，前一行则为$A(\\vec I-\\vec j)^2+H_{int}$。裁图保留原样；普通可交换矢量展开应出现2倍交叉项，但是否涉及该处排版、算符/单位约定，应与相邻式2.25及actual推导逐项核对，不能直接改原式或据此宣布作者计算producer错误。\n2. **式2.15的β/π系数。** PDF22/印11三行半径偏离式字面均为$(5/4)^{1/2}$乘余弦，未显β2，也未显π；前文却说该比值与β2联系。此处按原图保留，标为与式2.12–14及零形变极限待核的公式边界，不悄悄补入习见系数。\n3. **旋称r与α的号约定。** PDF34/印23式2.31印$r=e^{i\\pi\\alpha}$；式2.35却把$\\alpha=+1/2$配$r=-i$，式2.36把$\\alpha=-1/2$配$r=+i$。在式2.31字面指数约定下，两者不能直接同时成立。式2.30的旋转算符也按原号保留；需先固定主动/被动旋转、指数号和态的定义，不能只改一个r号。\n4. **α在相邻小节有不同角色。** §2.4.2.2把α定义为j沿转动轴的投影；§2.5把α定义为旋称。reader保留各处原定义，不将两者默认等同；特别是式2.29的$+2\\alpha$应连同该节量纲/能量零点单独核，不自动拿来作数值producer。\n5. **时间反演与简并句子忠实保留。** §2.5正文说引入转动破坏时间反演、使Ω二重简并；译文不按教科书直觉静默反转句意。这是需要对照原Hamiltonian及Kramers适用前提的概念核查点。\n6. **核数与图注标签。** PDF14的第6章提纲将133Ce/131Ba称Z=75同中子素，原字面保留；它们实际为N=75。图2.6写“protons”却仍印$50\\le N\\le82$，也保留N而不静默换Z。\n7. **基础模型陈述不作无条件推广。** 关于球形核“不能转动”、纯E2序列、强耦合下j±作用、轨道占据与简并等语句，是本章特定模型/极限中的作者表述。实际核的角动量激发、完整模型及多体混合应另核，不能把这些简写变成跨核普适排他门。\n8. **第1章TiP结论为作者概述。** §1.1声称能谱及电磁量支持TiP，正文译文保留；第6章逐量分析仍揭示FA跨带δ更近、两模型BM1趋势不足及表图冲突，不能用引言概述替代后续证据。\n9. **公式原件回退边界。** 38个原编号式全部有裁图。裁图解决排版与追溯问题，不等于所有系数、求和、量纲和符号已通过独立物理推导；特别是2.2/2.4的求和定义、2.7后量子数范围、2.29等只保留字面，不扩大裁决。\n\n下一步应围绕这些原式做有边界的维数、零形变、耦合极限、旋转约定和S重算练习，再回到具体带的实验向量。章节或全文翻译完成都不代表长期深入学习已经完成。",
+  "_notes": "# 第1–2章对照稿说明\n\n范围为用户提供的Wakudyanaye2022硕士论文PDF12–35，印刷1–24，即完整Chapter1和Chapter2。只声明本次指定范围的段落对照完成，不把它等同长期课题掌握。\n\n所有正文段落、标题与8幅图的caption逐项对照。38个原编号公式2.1–2.38均按委派要求使用原件裁图回退；本范围没有表格。公式图显示一次，正文引入/定义/解释全部翻译。跨页段落合并但源页、文字block序号、bbox分别留在source_map。\n\n图在首次实质讨论处插入；图2.5/2.6含位于嵌入图外的PDF文字标注，裁图包括这些标注与坐标轴。图2.7是矢量/小图组合，以整幅语义区域裁切，不误用单个小image对象。caption保留引文、ε4关系及图2.6的N标签。\n\nOriginal仅规范连字、英文行末断词、空白和可核行内数学排版；公式物理系数/号不修。式2.15、2.24、2.30–36等具体字面疑点另列独立审计。译文不悄悄纠正原作者的历史、量纲或模型概念陈述。\n\n构建/覆盖/数学验证脚本均在本目录；raw/canonical/PLAN/Git不改，不联网，不引入新source/课程卡，不读取用户事件数据。source_map/coverage_receipt/validation_math记录当前范围及检查局限。",
+  "_original_overrides": {
+    "fig5": "Figure 2.5: Nilsson diagram for neutrons, $50\\le N\\le82$ ($\\varepsilon_4=\\varepsilon_2^2/6$). The solid lines represent orbitals with positive parity, $\\pi=+1$ and the dashed lines are orbitals with negative parity $\\pi=-1$. Each orbital is labelled with the asymptotic Nilsson quantum numbers $\\Omega[N,n_z,\\Lambda]$. Adapted from Ref. [1].",
+    "fig6": "Figure 2.6: Nilsson diagram for protons, $50\\le N\\le82$ ($\\varepsilon_4=\\varepsilon_2^2/6$). The solid lines represent orbitals with positive parity, $\\pi=+1$ and the dashed lines are orbitals with negative parity $\\pi=-1$. Each orbital is labelled with the asymptotic Nilsson quantum numbers $\\Omega[N,n_z,\\Lambda]$. Adapted from Ref. [1].",
+    "oscillator_quantum": "where $N=2(n-1)+l$ is the oscillator shell number, $N$ is defined in terms of the radial quantum number, $n=1,2,3,\\ldots$, and the orbital angular momentum quantum number, $l=0,1,2,3,\\ldots,(n-1)$. The oscillator shell number $N$, assumes the values of $N=0,1,2,3,\\ldots$. Each $N$ shell has a degenerate group of levels with different $l$. The selection rule on $l$ is that $l$ is even (odd) when $N$ is even (odd). This potential is able to reproduce the first three magic numbers, see panel (b) of Figure 2.2.",
+    "gseven_example": "For instance, in the context of the spherical shell model, the sub-shell $1g_{7/2}$ can accommodate a total of $2(7/2)+1=8$ nucleons, all with the same energy. In the deformed Nilsson model, the $1g_{7/2}$ is split into $(2j+1)/2$ different orbitals with differing $j$ projections onto the symmetry axis ($\\Omega=7/2,5/2,3/2,1/2$) (see Figure 2.5 and 2.6). The total occupation number of the sub-shell does not change. Each Nilsson orbital accommodates two nucleons, in accordance with the Pauli exclusion principle. In the prolate (oblate) case, the Nilsson orbital with projection of $\\Omega=7/2$ lies highest (lowest) in energy, followed by the orbital with projection $\\Omega=5/2$ and so forth, the Nilsson orbital with projection of $\\Omega=1/2$ is lowest (highest) in energy. At $\\varepsilon_2=0$ the degeneracy of the sub-shells into different orbitals disappears and the Nilsson model becomes equivalent to the spherical shell model.",
+    "decoupling_effect": "and it corresponds to the decoupling of the particle motion from the rotor. This decoupling profoundly affects the order of the states in a rotational band, depending on the value of $a$. If $a=0$, the ordering is identical to that predicted by relation 2.26. If $|a|=1$, the states occur in degenerate pairs. For $a=-1$, the $1/2$ and $3/2$ states are degenerate and have the following pairs of states $(5/2,7/2)$, $(9/2,11/2)$,... When $a=+1$, the degenerate pairs are: $(3/2,5/2)$, $(7/2,9/2)$, $(11/2,13/2)$... If $|a|>1$, the spin sequence in a rotational band is no longer monotonic. In general the Coriolis term has the effect of mixing two different rotational bands for which $\\Delta K=\\pm1$."
+  }
+}

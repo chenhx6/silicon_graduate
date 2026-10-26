@@ -1,0 +1,57 @@
+Bibliography
+110
+2019. [Online]. Available:
+https://epja.epj.org/articles/epja/abs/2019/09/
+10050 2019 Article 12856/10050 2019 Article 12856.html
+[15] A. Bohr and B. R. Mottelson, Nuclear Structure. World Scientiﬁc Publishing
+Company, 1998. [Online]. Available: https://www.worldscientiﬁc.com/doi/
+abs/10.1142/3530
+[16] P. Bringel, G. B. Hagemann, H. H¨ubel, A. Al-Khatib, P. Bednarczyk,
+A. B¨urger, D. Curien, G. Gangopadhyay, B. Herskind, D. R. Jensen,
+D. T. Joss, T. Kr¨oll, G. Lo Bianco, S. Lunardi, W. C. Ma, N. Nenoﬀ,
+A. Neußer-Neﬀgen, C. M. Petrache, G. Sch¨onwasser, J. Simpson, A. K.
+Singh, N. Singh, and G. Sletten, “Evidence for wobbling excitation in 161Lu,”
+The European Physical Journal A, vol. 24, no. 2, p. 167–172, 2005. [Online].
+Available: https://doi.org/10.1140/epja/i2005-10005-7
+[17] S.
+Chakraborty,
+H.
+Sharma,
+S.
+Tiwary,
+C.
+Majumder,
+A.
+Gupta,
+P. Banerjee, S. Ganguly, S. Rai, Pragati, Mayank, S. Kumar, A. Kumar,
+R. Palit, S. Bhattacharjee, R. Singh, and S. Muralithar, “Multiphonon
+longitudinal wobbling in
+127Xe,” Physics Letters B, vol. 811, p. 135854,
+2020. [Online]. Available:
+https://www.sciencedirect.com/science/article/
+pii/S0370269320306572
+[18] Q. B. Chen, S. Frauendorf, and C. M. Petrache, “Transverse wobbling in
+an even-even nucleus,” Physical Review C, vol. 100, p. 061301, Dec 2019.
+[Online]. Available: https://link.aps.org/doi/10.1103/PhysRevC.100.061301
+[19] R. M. Clark and A. O. Macchiavelli, “The Shears Mechanism in Nuclei,”
+Annual Review of Nuclear and Particle Science, vol. 50, no. 1, pp. 1–36,
+2000. [Online]. Available: https://doi.org/10.1146/annurev.nucl.50.1.1
+[20] A.
+Davydov
+and
+G.
+Filippov,
+“Rotational
+states
+in
+even
+atomic
+nuclei,” Nuclear Physics, vol. 8, pp. 237–249, 1958. [Online]. Available:
+https://www.sciencedirect.com/science/article/pii/0029558258901536
+[21] A. Davydov and V. Rostovsky, “Relative transition probabilities between
+rotational levels of non-axial nuclei,” Nuclear Physics, vol. 12, no. 1, pp.
+58–68, 1959. [Online]. Available:
+https://www.sciencedirect.com/science/
+article/pii/0029558259901270
+[22] B. Ding, C. M. Petrache, S. Guo, E. A. Lawrie, I. Wakudyanaye, Z. H.
+Zhang, H. L. Wang, H. Y. Meng, D. Mengoni, Y. H. Qiang, J. G. Wang,

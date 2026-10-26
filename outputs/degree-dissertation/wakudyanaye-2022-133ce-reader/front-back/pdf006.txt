@@ -1,0 +1,72 @@
+Contents
+Declaration of Authorship
+i
+Abstract
+iii
+Keywords
+iii
+Acknowledgements
+iv
+List of Figures
+viii
+List of Tables
+x
+1
+Introduction
+1
+1.1
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1
+2
+Theoretical Framework
+4
+2.1
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+2.2
+Nuclear Potentials and The Shell Model
+. . . . . . . . . . . . . . .
+5
+2.2.1
+The Spin-Orbit Term . . . . . . . . . . . . . . . . . . . . . .
+8
+2.3
+Nuclear Deformations . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+2.3.1
+The Nilsson Model . . . . . . . . . . . . . . . . . . . . . . .
+11
+2.4
+Nuclear Collectivity . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17
+2.4.1
+Nuclear Rotations . . . . . . . . . . . . . . . . . . . . . . . .
+17
+2.4.2
+Particle-Rotor Coupling
+. . . . . . . . . . . . . . . . . . . .
+18
+2.4.2.1
+Strong-coupling limit . . . . . . . . . . . . . . . . .
+19
+2.4.2.2
+Rotational alignment limit . . . . . . . . . . . . . .
+22
+2.5
+Signature splitting
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+22
+3
+Nuclear Triaxiality
+25
+3.1
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+3.2
+The Asymmetric Particle-Plus-Rotor Model
+. . . . . . . . . . . . .
+25
+3.2.1
+Tilted-precession bands . . . . . . . . . . . . . . . . . . . . .
+27
+v

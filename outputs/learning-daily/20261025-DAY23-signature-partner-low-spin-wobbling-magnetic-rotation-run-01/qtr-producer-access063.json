@@ -1,0 +1,64 @@
+{
+  "time": "2026-10-26T04:38:34.079136+00:00",
+  "results": [
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1007/BF02398323",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 13303,
+      "is_pdf": false,
+      "title": "Description of nuclear moments and nuclear spectra in the particle-rotor model",
+      "oa": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "locations": [
+        {
+          "landing_page_url": "https://doi.org/10.1007/bf02398323",
+          "pdf_url": null,
+          "is_oa": false
+        },
+        {
+          "landing_page_url": "https://lup.lub.lu.se/record/5c73ceb1-f8d1-44b7-91eb-82406d3c97bb",
+          "pdf_url": null,
+          "is_oa": false
+        }
+      ]
+    },
+    {
+      "url": "https://link.springer.com/content/pdf/10.1007/BF02398323.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 894599,
+      "is_pdf": true
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/0375-9474(78)90613-9",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 13840,
+      "is_pdf": false,
+      "title": "Nuclear core-quasiparticle coupling",
+      "oa": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "locations": [
+        {
+          "landing_page_url": "https://doi.org/10.1016/0375-9474(78)90613-9",
+          "pdf_url": null,
+          "is_oa": false
+        },
+        {
+          "landing_page_url": "https://lup.lub.lu.se/record/cc48a0c8-76c2-432c-8950-e7b99cfbbc76",
+          "pdf_url": null,
+          "is_oa": false
+        }
+      ]
+    }
+  ]
+}

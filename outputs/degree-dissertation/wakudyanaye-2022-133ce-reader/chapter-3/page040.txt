@@ -1,0 +1,40 @@
+Chapter 3. Nuclear Triaxiality
+29
+sequence of states are the ∆I = 2, odd- and even- spin sequences of the ﬁrst excited
+band (shown in Figure 3.2 (b) in black), respectively. If i = I −3 and i = I −4,
+the corresponding rotational states form the odd- and even- spin sequences of the
+second excited band (shown in Figure 3.2 (c) in black). In fact, excited bands
+result when i < |I|, that is by tilting⃗I away from the intermediate axis.
+In odd-A nuclei, the rotational angular momentum of the core⃗R, is coupled to⃗j,
+the single-particle angular momentum of the nucleon (hole). Because the interme-
+diate axis is the preferred axis of rotation for a triaxial rotor, generally⃗R points
+in this direction. The single-particle angular momentum⃗j can be coupled longitu-
+dinally (parallel) to⃗R or, transversely (perpendicular) to⃗R in the extreme limits
+[23]. The total angular momentum of a rotational state is the sum,⃗I =⃗R +⃗j.
+The Hamiltonian of the system for longitudinal and transverse coupling can be
+expressed as:
+H = A1(I1 −j)2 + A2I2
+2 + A3I2
+3 , for longitudinal coupling
+(3.6)
+and
+H = A2(I2 −j)2 + A1I2
+1 + A3I2
+3 , for transverse coupling.
+(3.7)
+Longitudinal coupling results when the single-particle angular momentum⃗j is
+aligned along the intermediate axis. It occurs when the valence nucleon occupies
+an orbital near the middle of a given sub-shell. This results in a series of ∆I = 2
+states that form the yrast rotational band starting oﬀwith I = j and proceeds
+with I = j + 2, j + 4, j + 6, ... Excited bands result from tilting⃗I away from
+the intermediate axis. There are two distinct ways of doing this: (i) by tilting
+the collective angular momentum⃗R or, (ii) by tilting the single-particle angular
+momentum⃗j away from the intermediate axis.
+When the single-particle angular momentum is transversely coupled to an even-
+even triaxial core,⃗R points mainly along the intermediate axis and⃗j points in a
+direction that is orthogonal to the intermediate axis, that is either along the short
+axis or along the long axis. In this case the valence nucleon occupies an orbital
+near the bottom (top) of a given sub-shell and points along the short (long) nuclear
+axis as it behaves as a particle (hole). The angular momentum in a transversely
+coupled rotational band can be generated in two ways; (i) by increasing R||, the
+component of the rotational angular momentum along the intermediate axis which

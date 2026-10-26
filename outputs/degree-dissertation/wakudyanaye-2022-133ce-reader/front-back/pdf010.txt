@@ -1,0 +1,29 @@
+List of Figures
+ix
+6.7
+The energy spectra E(I) and signature splitting S(I) for Band 2
+131Ba at γ = 15◦and 20◦, and Coriolis interaction (χ) at full strength. 79
+6.8
+131Ba νg7/2(404)7/2+ Wave functions . . . . . . . . . . . . . . . . .
+81
+6.9
+The energy spectra E(I) and signature splitting S(I) for Band 2 of
+131Ba at γ = 0◦and 10◦, and Coriolis interaction (χ) at 70% of the
+usual strength.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+83
+6.10 The energy spectra E(I) and signature splitting S(I) for Band 2 of
+131Ba at γ = 15◦and 20◦, and Coriolis interaction (χ) at 70% of
+the usual strength.
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+84
+6.11 Excitation energy, E(I) and S(I) plot for Band 1 and Band 4 in 133Ce 90
+6.12 133Ce Yrast band wave functions . . . . . . . . . . . . . . . . . . . .
+92
+6.13 133Ce Band 4 Wave functions plot . . . . . . . . . . . . . . . . . . .
+94
+6.14 133Ce νh11/2(514)9/2−HFA approximation . . . . . . . . . . . . . .
+98
+6.15 Mixing ratios, δE2/M1 . . . . . . . . . . . . . . . . . . . . . . . . . . 102
+6.16 Electromagnetic ratios for connecting transitions from Band 4 to
+Band 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103

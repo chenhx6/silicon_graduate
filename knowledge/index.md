@@ -36,6 +36,8 @@ updated: 2026-10-23
 
 ### 133Ce深入学习与两篇学位论文补充
 
+- [[ragnarsson-semmes-1988-particle-rotor-moments]] — 实际取得的原模型方法，坐标/配对/coreR/算符和参数版本，非2022producer。
+
 - [[133ce-thesis-analysis-blueprint]] — 持续深入学习/实际分析蓝本，非普通摄入完成。
 - [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] — 两条主线、逐量模型比较及原件输入边界。
 - [[nobs-2017-spin-parity-102y-thesis]] — population/校准、BCS/GM模型辅助指认，非本核AD/P直接测量。

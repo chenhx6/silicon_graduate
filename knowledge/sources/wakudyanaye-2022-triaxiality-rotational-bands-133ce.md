@@ -33,7 +33,7 @@ Ignasio Wakudyanaye，*Triaxiality and Rotational Bands in 133Ce*，University o
 
 主代理完成正文Ch1–7及参考文献的主线文本阅读，Ch3和Ch6关键形式/比较回读；不把3806个native block的提取当阅读。视觉实际核PDF77/82/111/112/114整页，PDF65纲图旋转大图，PDF48/67/68/69/70/80/81/85/86/89/90/94/95/101/103/105/109/113的contact sheet；子代理独立核关键表图。小字/曲线只作所述范围核验，未逐一数字化所有图。
 
-Covered：两实验来源/实际装置、Band1–4符合逻辑、AD与DCO/RAD区别、g7/2 signature/Coriolis主线、h11/2 TiP/FA主线、QTR basis/程序分工、逐线δ/两类相对B分母、图表内部差异与实际输入缺口。Not covered：引用74篇原件的独立全文、作者GAMPN/ASYMO/PROBMO版本与输入卡/输出、原event/效率/AD/P/协方差、完整逐段中文翻译、用户独立数据重分析。
+Covered：两实验来源/实际装置、Band1–4符合逻辑、AD与DCO/RAD区别、g7/2 signature/Coriolis主线、h11/2 TiP/FA主线、QTR basis/程序分工、逐线δ/两类相对B分母、图表内部差异与实际输入缺口。Not covered：引用74篇原件的独立全文、作者GAMPN/ASYMO/PROBMO版本与输入卡/输出、原event/效率/AD/P/协方差、目录/参考逐条中文翻译、用户独立数据重分析。
 
 `deep-read`表示本source主线和关键证据达到相应阅读深度；不表示用户要求的长期深入学习已完成。后续分析蓝本、推导、核对、反证及可复现练习在[[133ce-thesis-analysis-blueprint]]持续推进。
 
@@ -45,7 +45,7 @@ Covered：两实验来源/实际装置、Band1–4符合逻辑、AD与DCO/RAD区
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| WK22-01 | 133Ce实验由125Te(12C,4n)在57MeV进行，靶2mg/cm² Te、8mg/cm² Au背衬；实际配置13clovers为45°1、90°8、135°4，与Ch4的阵列一般介绍8clovers分开。 | experimental-method | direct-original-or-explicit-task-derivation | PDF61, §5.2.1 | true |
+| WK22-01 | 133Ce实验由125Te(12C,4n)在57MeV进行，靶2mg/cm² Te、8mg/cm² Au背衬；论文§5.2.1报告13clovers为45°1、90°8、135°4，与Ch4一般介绍及Ding2021两版本所写8clovers的实际run对应尚待ledger核查。 | experimental-method | direct-original-or-explicit-task-derivation | PDF61, §5.2.1 | true |
 | WK22-02 | 论文报告2.8×10^10双符合和5.4×10^9三重及以上事件；校准和sorting由合作方，作者做γγ符合/纲图分析及QTR解释，不能把总events当某弱线有效计数。 | experimental-report-and-provenance | direct-original-or-explicit-task-derivation | PDF61, §5.2.1; PDF54 §4.6 | true |
 | WK22-03 | Band4从832.0keV、13/2−延伸到3616.2keV、27/2−；Table5.2列13条带内及15条带间跃迁，正文“six”mixed后实际列七条。 | experimental-level-scheme | direct-original-or-explicit-task-derivation | PDF67, Table5.2; PDF62 | true |
 | WK22-04 | 608.3keV Band4内19/2−→15/2−与608.7keV Band4→Band1的15/2−→13/2−构成重叠gate；209/399在608门出现不能直接判与608.3共路径。 | experimental-analysis-example | direct-original-or-explicit-task-derivation | PDF62–63, §5.2.2.1; PDF68 Fig5.2 | true |
@@ -73,6 +73,8 @@ Covered：两实验来源/实际装置、Band1–4符合逻辑、AD与DCO/RAD区
 | WK22-26 | 作者以abs(δ)>1必要条件拒绝Band4 wobbling；本库保留其原解释但不恢复跨核硬门：130Ba两准粒子M1占优仍有真实支持链；HFA有效域、完整非谐拓扑、电磁量须分检。 | author-interpretation-and-calibration-boundary | direct-original-or-explicit-task-derivation | PDF110–111, §6.3.4 | true |
 | WK22-27 | AD/DCO/RAD定义及典型参考值属于该阵列/门/取向条件，实际133Ce用all-detector gate RAD；论文未交付联合AD/P原计数、response和逐线δ likelihood，不能据该文本重拟CI。 | experimental-method-and-input-boundary | direct-original-or-explicit-task-derivation | PDF58–59, Eqs4.3–4.6 | true |
 | WK22-28 | Table5.2打印Iγ与Table6.11中央δ条件重组的比值不全等于6.11；只说明summary/处理谱系未闭合，原gate/效率/双峰/Cov缺失，未做显著性或实验错误判决。 | task-derived-summary-audit | direct-original-or-explicit-task-derivation | PDF67 Table5.2; PDF112 Table6.11 | true |
+| WK22-29 | 由Eq3.14所含j²提出selected lab单j11/2、P=span(m±9/2)控制：PjxP=PjyP=0而Pjx²P=Pjy²P=31/4；这是任务定义的算符投影练习，非真实轨道18/作者FA复现或实验值，不能把top3归一冒实际态。 | task-derived-projection-control | conditional-mathematics-not-nuclear-fit | PDF45 Eq3.14; PDF99 Table6.6; PDF107 §6.3.3 | true |
+| WK22-30 | Tables6.2/6.4 ε列标MeV且约5.45–6.51，正文正宇称Ce λF50.6MeV/Ba λF51.0MeV；本轮未找到这些具体量共同零点/转换说明。不能据背景ħω自动改表单位，负宇称λ更不能继承正宇称值；需实际GAMPN/ASYMO接口header与λ/Δ合同。 | source-literal-and-input-unit-gap | direct-original-and-readiness-boundary | PDF78 Table6.2 and preceding paragraph; PDF87–88 Table6.4; PDF47 Eq3.20 | true |
 
 ## Experimental or Theoretical Setup
 
@@ -93,3 +95,9 @@ Ref22 [[ding-2021-131ba-133ce-signature-splitting]]与本论文正宇称工作�
 ## Extracted Pages
 
 [[133ce-thesis-analysis-blueprint]]为本轮新深入学习工程，连接[[131ce-collective-mode-discrimination]]、[[133ce]]、[[133ce-band-2]]、[[afrodite-133ce-c12-57mev]]和[[signature-tip-shears-discrimination-contract]]。source self-audit不新增human-reviewed，所有新claim保持needs_review:true。
+
+## Day23原方法追溯
+
+Ref62已取得并读[[ragnarsson-semmes-1988-particle-rotor-moments]] RS88-02–10：stretched/physical坐标、BCS/core-H因子、coreR基变换及历史参数各有合同；1988 gs=.7不能覆盖本论文负宇称.6。程序实际版本/input仍缺。
+
+正文Ch1–7和前置实质段落的逐段reader目前齐备；目录/参考未逐条译/独立源核验。可用输出入口outputs/degree-dissertation/wakudyanaye-2022-133ce-reader/paper.md。它服务于深入学习，不是本source全部科学结论已闭合的认证。

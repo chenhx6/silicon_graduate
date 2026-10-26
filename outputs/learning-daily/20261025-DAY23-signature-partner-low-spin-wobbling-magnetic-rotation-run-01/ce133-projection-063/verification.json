@@ -1,0 +1,110 @@
+{
+  "created_utc": "2026-10-26T04:51:22.668275+00:00",
+  "all_checks_pass": true,
+  "check_count": 68,
+  "source_sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+  "script_AST_ok": true,
+  "local_links_missing": [],
+  "scope": "selected analytic control only; not actual 133Ce |18> or author FA reproduction",
+  "changed_paths": [
+    "contract.md",
+    "derivation.md",
+    "projection_control.py",
+    "refine_gap_and_math.py",
+    "results.json",
+    "source-locators.json",
+    "source-pdf099-table6-6.png",
+    "verification.json"
+  ],
+  "canonical_modified": false,
+  "raw_modified": false,
+  "git_operations": false,
+  "day22_producers_run": false,
+  "further_missing_actual_inputs": [
+    "full |18> and time-reversed wavefunctions",
+    "BCS convention and model basis",
+    "author Hamiltonian/transition operator code and parameters",
+    "shared energy zero and basis embedding across FA/full spaces"
+  ],
+  "files": [
+    {
+      "path": "contract.md",
+      "sha256": "584e86785f293f4ddc2fad4a7bef53184fba63411c63a07a14eef1eabe468c1d",
+      "bytes": 2812
+    },
+    {
+      "path": "derivation.md",
+      "sha256": "e9b8c8a4937271154624c5802ec759a10a146ab9b835bd5ce79bcb90f6ebcebf",
+      "bytes": 11415
+    },
+    {
+      "path": "projection_control.py",
+      "sha256": "4f0472359973de95c540ff99a1db485adbdb92d79dd01bb4c109e5616fc0b26d",
+      "bytes": 13952
+    },
+    {
+      "path": "refine_gap_and_math.py",
+      "sha256": "86d92b127ee6956d1c044132c26bab293cc1e8724a95710462d960214404517d",
+      "bytes": 5092
+    },
+    {
+      "path": "results.json",
+      "sha256": "20ce013371d9944700ef6853ae185204ac1cfd93eca5e2b7e6657bf9e18cdbb1",
+      "bytes": 18852
+    },
+    {
+      "path": "source-locators.json",
+      "sha256": "f4a7259a509cf90a53a10399965d61660f852e406c59dad18a562463e709fb18",
+      "bytes": 1213
+    },
+    {
+      "path": "source-pdf099-table6-6.png",
+      "sha256": "f766cc8f31d490c7238dd64c9643ecbe476e508bdd9b8f81d22c125ca5ba5dbd",
+      "bytes": 257150
+    }
+  ],
+  "RR_gap_counterexamples": [
+    {
+      "label": "gap_increases",
+      "full_same_H_diagonal": [
+        "0",
+        "1",
+        "100"
+      ],
+      "restricted_indices": [
+        1,
+        2
+      ],
+      "restricted_absolute_eigenvalues": [
+        "1",
+        "100"
+      ],
+      "full_first_gap": "1",
+      "restricted_first_gap": "99",
+      "ordered_absolute_bounds_hold": true,
+      "interpretation": "same H nested spaces bound each ordered absolute eigenvalue; subtracting each own ground permits either gap direction"
+    },
+    {
+      "label": "gap_decreases",
+      "full_same_H_diagonal": [
+        "0",
+        "99",
+        "100"
+      ],
+      "restricted_indices": [
+        1,
+        2
+      ],
+      "restricted_absolute_eigenvalues": [
+        "99",
+        "100"
+      ],
+      "full_first_gap": "99",
+      "restricted_first_gap": "1",
+      "ordered_absolute_bounds_hold": true,
+      "interpretation": "same H nested spaces bound each ordered absolute eigenvalue; subtracting each own ground permits either gap direction"
+    }
+  ],
+  "markdown_inline_delimiters_paired": true,
+  "no_bare_latex_outside_math": true
+}

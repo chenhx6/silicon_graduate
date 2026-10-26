@@ -1,0 +1,282 @@
+{
+  "timestamp_UTC": "2026-10-26T04:39:49.431753+00:00",
+  "scope": "Chapter6 only; no full-thesis completion claim",
+  "PDF_pages": [
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "printed_pages": [
+    64,
+    104
+  ],
+  "substantive_text_block_coverage_complete": true,
+  "missing_source_blocks": [],
+  "duplicate_source_blocks": [],
+  "excluded_running_headers_and_page_numbers": [
+    {
+      "PDF_page": 75,
+      "block": 20,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 76,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 77,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 78,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 79,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 80,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 81,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 82,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 83,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 84,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 85,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 86,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 87,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 88,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 89,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 90,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 91,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 92,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 93,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 94,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 95,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 96,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 97,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 98,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 99,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 100,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 101,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 102,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 103,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 104,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 105,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 106,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 107,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 108,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 109,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 110,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 111,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 112,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 113,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 114,
+      "block": 0,
+      "reason": "running header / printed page number"
+    },
+    {
+      "PDF_page": 115,
+      "block": 0,
+      "reason": "running header / printed page number"
+    }
+  ],
+  "translated_body_paragraphs": 66,
+  "translated_headings": 15,
+  "translated_captions": 27,
+  "figure_crops": 16,
+  "table_crops": 11,
+  "equation_crops": 0,
+  "all_linked_assets_present": true,
+  "citation_markers_preserved": true,
+  "math_validation": {
+    "ready": true,
+    "strict": true,
+    "summary": {
+      "fail": 0,
+      "warn": 0
+    },
+    "findings": []
+  },
+  "source_sha256_after": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+  "source_modified": false,
+  "visual_QA": "All 16 figures and all 11 tables inspected in contact sheets; F014 vector frame/upper curves crop corrected against the full source page",
+  "scientific_boundary": "Coverage/math/asset validation only, not validation of physical claims or author producer"
+}

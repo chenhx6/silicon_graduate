@@ -1,0 +1,96 @@
+Chapter 3. Nuclear Triaxiality
+36
+|IMKν⟩=
+r
+1
+2
+r
+2I + 1
+8π2 [DI
+M,Ka+
+ν |0⟩+ (−1)I−KDI
+M,−Ka+
+ν |0⟩],
+(3.17)
+where DI
+M,K denote the rotational D functions, which describe transformations
+between diﬀerently oriented coordinate systems. In the equation above, K assumes
+the values of ..., −7/2, −3/2, +1/2, +5/2, ... and the restriction on K is due to
+the fact that the basis states are symmetrized under the point group D2, which
+requires the wave function to be invariant under a rotation of 180◦around the
+body-ﬁxed ˆ1-axis, this leads to K −Ωbeing an even integer [40]. The matrix
+elements of Hcoll and Hint can be evaluated in this basis (equation 3.17), and
+the diagonalization yields the eigenenergies and eigenstates of the QTR model
+Hamiltonian.
+Pairing eﬀects can be included in a straightforward manner in the QTR model
+by replacing the single-particle state a+
+ν |0⟩in the basis state (equation 3.17) with
+BCS quasiparticle state a+
+ν
+
+
+˜0
+
+
+to get a new expansion basis, where
+
+
+˜0
+
+
+is the BCS
+vacuum state. The quasiparticle operators α+
+ν are given by;
+
+α+
+ν
+αν
+!
+=
+
+uν
+−vν
+vν
+uν
+!
+a+
+ν
+aν
+!
+,
+(3.18)
+where u2
+ν + v2
+ν = 1. In this new basis, the wavefunctions of the QTR Hamiltonian
+can be written as;
+|IM⟩=
+X
+K,ν
+CIK
+ν
+|IMKν⟩,
+(3.19)
+here ν represents the quasiparticle states α+
+ν
+
+
+˜0
+
+
+instead of the single-particle states
+a+
+ν . The single-particle energies εν must be replaced by the quasiparticle energies
+ε
+′
+ν =
+p
+(εν −λF)2 + ∆2. The total Hamiltonian is expressed as;
+H = Hcoll +
+X
+ν
+ε
+′
+ν(α+
+ν αν + α+
+ν αν).
+(3.20)

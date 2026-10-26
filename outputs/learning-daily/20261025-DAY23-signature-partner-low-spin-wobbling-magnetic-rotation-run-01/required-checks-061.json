@@ -1,6 +1,6 @@
 {
   "observed_at": "2026-10-26T04:04:14.279791+00:00",
-  "scope": "checkpoint061 originalDay23:actual historical Pt/Au evaluated reference fields and declared WU unit comparison; no new acquisition or isotope certification; no experimental or mode certification",
+  "scope": "checkpoint061: actual130Ba experiment/supp/PRM/PSM source dependence; corrected scissors direction; declared goodK CG control only",
   "commands": {
     "boundary": {
       "argv": [
@@ -144,5 +144,6 @@
     "change_check": "run-snapshot",
     "error": null
   },
-  "all_pass": true
+  "all_pass": true,
+  "scope_metadata_correction": "Previous helper copied a Pt/Au060 scope label; only the descriptive scope corrected, actual commands/results/timestamps unchanged."
 }

@@ -1,0 +1,3530 @@
+{
+  "paper": {
+    "title": "Triaxiality and Rotational Bands in 133Ce — Chapter3 Nuclear Triaxiality",
+    "author": "Ignasio Wakudyanaye",
+    "source_type": "pdf",
+    "source_format": "pdf-text",
+    "source_path": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "language": "en",
+    "scope_pdf_pages": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  "blocks": [
+    {
+      "id": "S001",
+      "page": 36,
+      "printed_page": 25,
+      "type": "heading",
+      "order": 1,
+      "original_text": "Chapter 3 Nuclear Triaxiality",
+      "raw_extraction": "Chapter 3\nNuclear Triaxiality\n",
+      "translation": "第3章　原子核三轴性",
+      "bbox": [
+        108.0,
+        172.671142578125,
+        338.5687255859375,
+        266.5321350097656
+      ],
+      "source_block_indices": [
+        0,
+        1
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S002",
+      "page": 36,
+      "printed_page": 25,
+      "type": "heading",
+      "order": 2,
+      "original_text": "3.1 Introduction",
+      "raw_extraction": "3.1\nIntroduction\n",
+      "translation": "3.1　引言",
+      "bbox": [
+        108.0,
+        326.3018798828125,
+        258.76898193359375,
+        343.5168762207031
+      ],
+      "source_block_indices": [
+        2
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S003",
+      "page": 36,
+      "printed_page": 25,
+      "type": "paragraph",
+      "order": 3,
+      "original_text": "In the preceding chapter we looked at the axially symmetric rotor and the band structures arising from such nuclear rotations where K, the projection of the total nuclear spin I, was a good quantum number. When the nucleus is triaxial, there is no axis of symmetry and K is no longer a good quantum number. A triaxial nucleus can rotate around any one of its body-fixed axes simultaneously. The spectra of triaxial nuclei can exhibit complex patterns. This chapter is devoted to reviewing the current understanding of the rotational states in non-axially deformed nuclei.",
+      "raw_extraction": "In the preceding chapter we looked at the axially symmetric rotor and the band\nstructures arising from such nuclear rotations where K, the projection of the total\nnuclear spin I, was a good quantum number. When the nucleus is triaxial, there is\nno axis of symmetry and K is no longer a good quantum number. A triaxial nucleus\ncan rotate around any one of its body-ﬁxed axes simultaneously. The spectra of\ntriaxial nuclei can exhibit complex patterns. This chapter is devoted to reviewing\nthe current understanding of the rotational states in non-axially deformed nuclei.\n",
+      "translation": "上一章讨论了轴对称转子，以及这类核转动产生的能带结构；其中，总核自旋 $I$ 的投影 $K$ 是好量子数。当原子核呈三轴形变时，不存在对称轴，$K$ 也不再是好量子数。三轴原子核可以同时绕其体固连轴转动。三轴核的能谱可能呈现复杂图样。本章综述目前对非轴对称形变核中转动态的认识。",
+      "bbox": [
+        108.0,
+        371.32574462890625,
+        523.9623413085938,
+        495.9587097167969
+      ],
+      "source_block_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S004",
+      "page": 36,
+      "printed_page": 25,
+      "type": "heading",
+      "order": 4,
+      "original_text": "3.2 The Asymmetric Particle-Plus-Rotor Model",
+      "raw_extraction": "3.2\nThe Asymmetric Particle-Plus-Rotor Model\n",
+      "translation": "3.2　非对称粒子加转子模型",
+      "bbox": [
+        108.00001525878906,
+        536.6968994140625,
+        524.0693969726562,
+        553.911865234375
+      ],
+      "source_block_indices": [
+        10
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S005",
+      "page": 36,
+      "printed_page": 25,
+      "type": "paragraph",
+      "order": 5,
+      "original_text": "Rotations of triaxially deformed even-even core is governed by:",
+      "raw_extraction": "Rotations of triaxially deformed even-even core is governed by:\n",
+      "translation": "三轴形变偶偶核芯的转动由下式支配：",
+      "bbox": [
+        108.00001525878906,
+        581.7207641601562,
+        430.5699462890625,
+        593.67578125
+      ],
+      "source_block_indices": [
+        11
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E001",
+      "page": 36,
+      "printed_page": 25,
+      "type": "equation",
+      "order": 6,
+      "original_text": "Hrot = ℏ2 3 X k=1 R2 2ℑk = ℏ2[ R2 1 2ℑ1 + R2 2 2ℑ2 + R2 3 2ℑ3 ] = ℏ2[A1R2 1 + A2R2 2 + A3R2 3], (3.1)",
+      "raw_extraction": "Hrot = ℏ2\n3\nX\nk=1\nR2\n2ℑk\n= ℏ2[ R2\n1\n2ℑ1\n+ R2\n2\n2ℑ2\n+ R2\n3\n2ℑ3\n]\n= ℏ2[A1R2\n1 + A2R2\n2 + A3R2\n3],\n(3.1)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        231.61700439453125,
+        636.7791137695312,
+        523.9283447265625,
+        727.4898071289062
+      ],
+      "source_block_indices": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.1",
+      "latex": null,
+      "image_path": "assets/equations/E001.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S006",
+      "page": 37,
+      "printed_page": 26,
+      "type": "paragraph",
+      "order": 7,
+      "original_text": "where k = 1, 2, 3 are the intrinsic (body-fixed) axes, representing the intermediate, short and long axes respectively. The moments of inertia (MoI) ℑk, are usually described by the irrotational flow model and are defined as [20, 21]:",
+      "raw_extraction": "where k = 1, 2, 3 are the intrinsic (body-ﬁxed) axes, representing the intermediate,\nshort and long axes respectively. The moments of inertia (MoI) ℑk, are usually\ndescribed by the irrotational ﬂow model and are deﬁned as [20, 21]:\n",
+      "translation": "其中，$k=1,2,3$ 是内禀（体固连）轴，分别代表中轴、短轴和长轴。转动惯量（MoI）$\\mathcal{J}_k$ 通常由无旋流模型描述，定义如下[20,21]：",
+      "bbox": [
+        108.0,
+        83.73778533935547,
+        523.93603515625,
+        133.25180053710938
+      ],
+      "source_block_indices": [
+        1,
+        2,
+        3
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E002",
+      "page": 37,
+      "printed_page": 26,
+      "type": "equation",
+      "order": 8,
+      "original_text": "ℑk = 4 3ℑ0 sin2(γ −2π 3 k). (3.2)",
+      "raw_extraction": "ℑk = 4\n3ℑ0 sin2(γ −2π\n3 k).\n(3.2)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        252.10601806640625,
+        161.0627899169922,
+        523.9284057617188,
+        189.30679321289062
+      ],
+      "source_block_indices": [
+        4,
+        5
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.2",
+      "latex": null,
+      "image_path": "assets/equations/E002.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S007",
+      "page": 37,
+      "printed_page": 26,
+      "type": "paragraph",
+      "order": 9,
+      "original_text": "Among them ℑ1 is the largest. For 0◦< γ < 30◦, ℑ1 > ℑ2 > ℑ3 and if 30◦< γ < 60◦, ℑ1 > ℑ3 > ℑ2. In this work irrotational-flow MoI’s are assumed as this choice is supported by experimental evidence [2]. The rotation proceeds mostly around the intermediate axis which is favored, as this axis has the largest MoI and thus rotation around this axis needs minimum energy. The Hamiltonian (equation 3.1) becomes:",
+      "raw_extraction": "Among them ℑ1 is the largest. For 0◦< γ < 30◦, ℑ1 > ℑ2 > ℑ3 and if 30◦< γ <\n60◦, ℑ1 > ℑ3 > ℑ2. In this work irrotational-ﬂow MoI’s are assumed as this choice\nis supported by experimental evidence [2]. The rotation proceeds mostly around\nthe intermediate axis which is favored, as this axis has the largest MoI and thus\nrotation around this axis needs minimum energy. The Hamiltonian (equation 3.1)\nbecomes:\n",
+      "translation": "其中 $\\mathcal{J}_1$ 最大。在 $0^\\circ<\\gamma<30^\\circ$ 时，$\\mathcal{J}_1>\\mathcal{J}_2>\\mathcal{J}_3$；在 $30^\\circ<\\gamma<60^\\circ$ 时，$\\mathcal{J}_1>\\mathcal{J}_3>\\mathcal{J}_2$。本研究假定无旋流型转动惯量，因为这一选择得到实验证据支持[2]。转动主要绕有利的中轴进行：该轴转动惯量最大，因此绕该轴转动所需能量最低。哈密顿量（式3.1）变为：",
+      "bbox": [
+        108.0,
+        205.31591796875,
+        523.9505004882812,
+        312.4968566894531
+      ],
+      "source_block_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E003",
+      "page": 37,
+      "printed_page": 26,
+      "type": "equation",
+      "order": 10,
+      "original_text": "H = A1I2 1 + A2I2 2 + A3I2 3, (3.3)",
+      "raw_extraction": "H = A1I2\n1 + A2I2\n2 + A3I2\n3,\n(3.3)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        250.2140655517578,
+        346.5742492675781,
+        523.9284057617188,
+        363.30584716796875
+      ],
+      "source_block_indices": [
+        12,
+        13
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.3",
+      "latex": null,
+      "image_path": "assets/equations/E003.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S008",
+      "page": 37,
+      "printed_page": 26,
+      "type": "paragraph",
+      "order": 11,
+      "original_text": "where Ak = ℏ2/2ℑk. The solutions to the Hamiltonian presented in relation 3.3 is a series of rotational states, which include the ground-state band and several excited rotational bands. The excited bands are often termed γ−bands [74]. To distinguish these exited low-lying rotational states from the K = 2, K = 4, etc. γ−bands that result from the Bohr Hamiltonian [15], which are produced by coupling the rotational and vibration collective modes, the rotational bands in triaxial nuclei were called Tilted Precession Bands [42] as they represent the simultaneous precession of the nucleus around all three nuclear axes, see Section 3.2.1.",
+      "raw_extraction": "where Ak = ℏ2/2ℑk. The solutions to the Hamiltonian presented in relation 3.3\nis a series of rotational states, which include the ground-state band and several\nexcited rotational bands. The excited bands are often termed γ−bands [74]. To\ndistinguish these exited low-lying rotational states from the K = 2, K = 4, etc.\nγ−bands that result from the Bohr Hamiltonian [15], which are produced by cou-\npling the rotational and vibration collective modes, the rotational bands in triaxial\nnuclei were called Tilted Precession Bands [42] as they represent the simultaneous\nprecession of the nucleus around all three nuclear axes, see Section 3.2.1.\n",
+      "translation": "其中 $A_k=\\hbar^2/(2\\mathcal{J}_k)$。式3.3所示哈密顿量的解是一系列转动态，包括基态带和若干激发转动带。激发带常被称为 $\\gamma$ 带[74]。为将这些激发的低能转动态与 Bohr 哈密顿量[15]中由转动、振动集体模式耦合产生的 $K=2$、$K=4$ 等 $\\gamma$ 带区分开，三轴核中的这些转动带被称为倾斜进动带[42]，因为它们表征原子核同时绕三条核轴的进动，见3.2.1节。",
+      "bbox": [
+        108.0,
+        383.277099609375,
+        524.0101928710938,
+        529.3009033203125
+      ],
+      "source_block_indices": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "C001",
+      "page": 37,
+      "printed_page": 26,
+      "type": "caption",
+      "order": 12,
+      "original_text": "Figure 3.1: Empirically measured MoIs for some nuclei as a function of the γ-deformation. Adapted from Ref. [2].",
+      "raw_extraction": "Figure 3.1: Empirically measured MoIs for some nuclei as a function of the\nγ-deformation. Adapted from Ref. [2].\n",
+      "translation": "图3.1：若干原子核的经验测定转动惯量随 $\\gamma$ 形变的变化。改编自文献[2]。",
+      "bbox": [
+        127.92500305175781,
+        721.4760131835938,
+        504.0080871582031,
+        748.3182983398438
+      ],
+      "source_block_indices": [
+        22,
+        23
+      ],
+      "confidence": "medium",
+      "refs": [
+        "F001"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "S009",
+      "page": 38,
+      "printed_page": 27,
+      "type": "paragraph",
+      "order": 13,
+      "original_text": "The excited bands arise from the solutions of the 3D Hamiltonian. There is exactly one state with I = 0, no state with I = 1, two states with I = 2, one state with I = 3, three states with I = 4, two states with I = 5, four states with I = 6 etc. That is the spin sequence predicted by the model goes like: I = {0, 2, 2, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, ...}. These states can be organized in the following way to form rotational bands; the ground state band is formed by the lowest energy states with spin sequence I = 0, 2, 4, 6, ..., the first excited band consists of the sequence I = 2, 3, 4, 5, 6..., the next excited band is formed by I = 4, 5, 6, 7, 8.... The third excited band is made up of the spin sequence I = 6, 7, 8, ... with K = 6 etc. The arrangement of rotational states of a triaxial rotor is presented in Figure 3.2, and described in more details in the next section.",
+      "raw_extraction": "The excited bands arise from the solutions of the 3D Hamiltonian.\nThere is\nexactly one state with I = 0, no state with I = 1, two states with I = 2, one\nstate with I = 3, three states with I = 4, two states with I = 5, four states\nwith I = 6 etc. That is the spin sequence predicted by the model goes like: I =\n{0, 2, 2, 3, 4, 4, 4, 5, 5, 6, 6, 6, 6, ...}. These states can be organized in the following\nway to form rotational bands; the ground state band is formed by the lowest energy\nstates with spin sequence I = 0, 2, 4, 6, ..., the ﬁrst excited band consists of the\nsequence I = 2, 3, 4, 5, 6..., the next excited band is formed by I = 4, 5, 6, 7, 8....\nThe third excited band is made up of the spin sequence I = 6, 7, 8, ... with K = 6\netc. The arrangement of rotational states of a triaxial rotor is presented in Figure\n3.2, and described in more details in the next section.\n",
+      "translation": "激发带来自三维哈密顿量的解。$I=0$ 恰有一个态，$I=1$ 没有态，$I=2$ 有两个态，$I=3$ 有一个态，$I=4$ 有三个态，$I=5$ 有两个态，$I=6$ 有四个态，依此类推。模型预言的自旋序列因而为 $I=\\{0,2,2,3,4,4,4,5,5,6,6,6,6,\\ldots\\}$。这些态可以按如下方式组织成转动带：自旋 $I=0,2,4,6,\\ldots$ 的最低能态构成基态带；第一激发带由 $I=2,3,4,5,6,\\ldots$ 构成；下一激发带由 $I=4,5,6,7,8,\\ldots$ 构成；第三激发带的自旋序列为 $I=6,7,8,\\ldots$，$K=6$，等等。图3.2给出了三轴转子转动态的排列，下一节进一步讨论。",
+      "bbox": [
+        107.99995422363281,
+        83.73778533935547,
+        523.9861450195312,
+        283.4889221191406
+      ],
+      "source_block_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S010",
+      "page": 38,
+      "printed_page": 27,
+      "type": "heading",
+      "order": 14,
+      "original_text": "3.2.1 Tilted-precession bands",
+      "raw_extraction": "3.2.1\nTilted-precession bands\n",
+      "translation": "3.2.1　倾斜进动带",
+      "bbox": [
+        108.0,
+        320.00128173828125,
+        323.76385498046875,
+        334.3472900390625
+      ],
+      "source_block_indices": [
+        12
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S011",
+      "page": 38,
+      "printed_page": 27,
+      "type": "paragraph",
+      "order": 15,
+      "original_text": "Perhaps a better way to describe the excited rotational bands that result from the rotation of even-even triaxial nuclei is by modelling them as a consequence of the tilting of the total angular momentum vector⃗I away from the intermediate axis and precessing around this axis. As stated previously, the intermediate axis has the largest moment of inertia and rotation around this axis is preferred. At γ = 30◦the Hamiltonian (equation 3.3) exhibits a symmetry, and the moments of inertia along the short and long axes (2 and 3, respectively) are equal (ℑ2 = ℑ3). Thus one can write the Hamiltonian as [42]:",
+      "raw_extraction": "Perhaps a better way to describe the excited rotational bands that result from\nthe rotation of even-even triaxial nuclei is by modelling them as a consequence of\nthe tilting of the total angular momentum vector⃗I away from the intermediate\naxis and precessing around this axis. As stated previously, the intermediate axis\nhas the largest moment of inertia and rotation around this axis is preferred. At\nγ = 30◦the Hamiltonian (equation 3.3) exhibits a symmetry, and the moments of\ninertia along the short and long axes (2 and 3, respectively) are equal (ℑ2 = ℑ3).\nThus one can write the Hamiltonian as [42]:\n",
+      "translation": "描述偶偶三轴核转动产生的激发转动带，一种也许更合适的方法，是把它们视为总角动量矢量 $\\vec I$ 偏离中轴并绕中轴进动的结果。如前所述，中轴的转动惯量最大，绕它转动更有利。在 $\\gamma=30^\\circ$ 时，哈密顿量（式3.3）具有一种对称性：短轴和长轴（分别为2轴、3轴）的转动惯量相等，即 $\\mathcal{J}_2=\\mathcal{J}_3$。因此可以将哈密顿量写为[42]：",
+      "bbox": [
+        108.0,
+        358.6659240722656,
+        523.97412109375,
+        502.077880859375
+      ],
+      "source_block_indices": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E004",
+      "page": 38,
+      "printed_page": 27,
+      "type": "equation",
+      "order": 16,
+      "original_text": "H = 3ℏ2 8ℑ0 [4I(I + 1) −3R2 1]. (3.4)",
+      "raw_extraction": "H = 3ℏ2\n8ℑ0\n[4I(I + 1) −3R2\n1].\n(3.4)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        246.27000427246094,
+        527.2770385742188,
+        523.9284057617188,
+        559.05517578125
+      ],
+      "source_block_indices": [
+        21,
+        22,
+        23
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.4",
+      "latex": null,
+      "image_path": "assets/equations/E004.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S012",
+      "page": 38,
+      "printed_page": 27,
+      "type": "paragraph",
+      "order": 17,
+      "original_text": "The corresponding energy eigenvalues are:",
+      "raw_extraction": "The corresponding energy eigenvalues are:\n",
+      "translation": "相应的能量本征值为：",
+      "bbox": [
+        108.0,
+        575.4697875976562,
+        324.05078125,
+        587.4248046875
+      ],
+      "source_block_indices": [
+        24
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E005",
+      "page": 38,
+      "printed_page": 27,
+      "type": "equation",
+      "order": 18,
+      "original_text": "E = 3ℏ2 8ℑ0 [4I(I + 1) −3i2], (3.5)",
+      "raw_extraction": "E = 3ℏ2\n8ℑ0\n[4I(I + 1) −3i2],\n(3.5)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        249.40499877929688,
+        612.6240234375,
+        523.9284057617188,
+        644.4011840820312
+      ],
+      "source_block_indices": [
+        25,
+        26
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.5",
+      "latex": null,
+      "image_path": "assets/equations/E005.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S013",
+      "page": 38,
+      "printed_page": 27,
+      "type": "paragraph",
+      "order": 19,
+      "original_text": "where i is the projection of⃗I on the intermediate axis. When i = |I|, it corresponds to a full alignment of⃗I along the intermediate axis, see Figure 3.2 (d) and the resulting sequence of ∆I = 2 states forms the g.s. band as shown in Figure 3.2 (a). The excited bands are formed by tilting I away from the intermediate axis see panels (e) and (f) of Figure 3.2. When i = I −1 and i = I −2, the resulting",
+      "raw_extraction": "where i is the projection of⃗I on the intermediate axis. When i = |I|, it corresponds\nto a full alignment of⃗I along the intermediate axis, see Figure 3.2 (d) and the\nresulting sequence of ∆I = 2 states forms the g.s. band as shown in Figure 3.2\n(a). The excited bands are formed by tilting I away from the intermediate axis\nsee panels (e) and (f) of Figure 3.2. When i = I −1 and i = I −2, the resulting\n",
+      "translation": "其中 $i$ 为 $\\vec I$ 在中轴上的投影。当 $i=|I|$ 时，$\\vec I$ 完全沿中轴排列，见图3.2(d)；所得 $\\Delta I=2$ 态序列构成图3.2(a)所示基态带。激发带通过使 $I$ 偏离中轴而形成，见图3.2(e)、(f)。当 $i=I-1$ 和 $i=I-2$ 时，所得……〔原段下接PDF40〕",
+      "bbox": [
+        108.00003051757812,
+        664.414794921875,
+        523.9557495117188,
+        751.643798828125
+      ],
+      "source_block_indices": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "C002",
+      "page": 39,
+      "printed_page": 28,
+      "type": "caption",
+      "order": 20,
+      "original_text": "Figure 3.2: Spectrum of a triaxial even-even rotor. Panel (a) shows the ground-state band, (i = I) (in red). Panel (b) shows the first excited band (blue states, i = I −2. light-blue states i = I −1). Panel (c) shows the second excited band (green states, i = I −4; light-green states, i = I −3). Black arrows denote E2 transitions, mixed M1+E2 transitions are represented by yellow arrows. Panels (d) −(f) show the corresponding tilting of the angular momentum vectors.",
+      "raw_extraction": "Figure 3.2:\nSpectrum of a triaxial even-even rotor.\nPanel (a) shows the\nground-state band, (i = I) (in red). Panel (b) shows the ﬁrst excited band\n(blue states, i = I −2.\nlight-blue states i = I −1).\nPanel (c) shows the\nsecond excited band (green states, i = I −4; light-green states, i = I −3).\nBlack arrows denote E2 transitions, mixed M1+E2 transitions are represented\nby yellow arrows. Panels (d) −(f) show the corresponding tilting of the angular\nmomentum vectors.\n",
+      "translation": "图3.2：三轴偶偶转子的能谱。(a)为基态带，$i=I$（红色）。(b)为第一激发带：蓝色态 $i=I-2$，浅蓝色态 $i=I-1$。(c)为第二激发带：绿色态 $i=I-4$，浅绿色态 $i=I-3$。黑色箭头表示E2跃迁，黄色箭头表示混合M1+E2跃迁。(d)至(f)为相应的角动量矢量倾斜。",
+      "bbox": [
+        127.92498779296875,
+        651.9849853515625,
+        504.03369140625,
+        746.572265625
+      ],
+      "source_block_indices": [
+        36,
+        37
+      ],
+      "confidence": "medium",
+      "refs": [
+        "F002"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "S014",
+      "page": 40,
+      "printed_page": 29,
+      "type": "paragraph",
+      "order": 21,
+      "original_text": "sequence of states are the ∆I = 2, odd- and even- spin sequences of the first excited band (shown in Figure 3.2 (b) in black), respectively. If i = I −3 and i = I −4, the corresponding rotational states form the odd- and even- spin sequences of the second excited band (shown in Figure 3.2 (c) in black). In fact, excited bands result when i < |I|, that is by tilting⃗I away from the intermediate axis.",
+      "raw_extraction": "sequence of states are the ∆I = 2, odd- and even- spin sequences of the ﬁrst excited\nband (shown in Figure 3.2 (b) in black), respectively. If i = I −3 and i = I −4,\nthe corresponding rotational states form the odd- and even- spin sequences of the\nsecond excited band (shown in Figure 3.2 (c) in black). In fact, excited bands\nresult when i < |I|, that is by tilting⃗I away from the intermediate axis.\n",
+      "translation": "〔续PDF38原段〕……态序列分别为第一激发带的 $\\Delta I=2$ 奇自旋和偶自旋序列（图3.2(b)中以黑色显示）。如果 $i=I-3$ 和 $i=I-4$，对应转动态分别构成第二激发带的奇自旋和偶自旋序列（图3.2(c)中以黑色显示）。实际上，激发带出现在 $i<|I|$ 时，也就是 $\\vec I$ 偏离中轴时。",
+      "bbox": [
+        107.99800109863281,
+        83.73778533935547,
+        523.9373779296875,
+        170.81082153320312
+      ],
+      "source_block_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S015",
+      "page": 40,
+      "printed_page": 29,
+      "type": "paragraph",
+      "order": 22,
+      "original_text": "In odd-A nuclei, the rotational angular momentum of the core⃗R, is coupled to⃗j, the single-particle angular momentum of the nucleon (hole). Because the intermediate axis is the preferred axis of rotation for a triaxial rotor, generally⃗R points in this direction. The single-particle angular momentum⃗j can be coupled longitudinally (parallel) to⃗R or, transversely (perpendicular) to⃗R in the extreme limits [23]. The total angular momentum of a rotational state is the sum,⃗I =⃗R +⃗j. The Hamiltonian of the system for longitudinal and transverse coupling can be expressed as:",
+      "raw_extraction": "In odd-A nuclei, the rotational angular momentum of the core⃗R, is coupled to⃗j,\nthe single-particle angular momentum of the nucleon (hole). Because the interme-\ndiate axis is the preferred axis of rotation for a triaxial rotor, generally⃗R points\nin this direction. The single-particle angular momentum⃗j can be coupled longitu-\ndinally (parallel) to⃗R or, transversely (perpendicular) to⃗R in the extreme limits\n[23]. The total angular momentum of a rotational state is the sum,⃗I =⃗R +⃗j.\nThe Hamiltonian of the system for longitudinal and transverse coupling can be\nexpressed as:\n",
+      "translation": "在奇质量核中，核芯的转动角动量 $\\vec R$ 与核子（空穴）的单粒子角动量 $\\vec j$ 耦合。中轴是三轴转子优先选择的转动轴，因此 $\\vec R$ 一般指向该方向。在极限情况下，单粒子角动量 $\\vec j$ 可与 $\\vec R$ 纵向（平行）或横向（垂直）耦合[23]。一个转动态的总角动量为两者之和，$\\vec I=\\vec R+\\vec j$。纵向和横向耦合系统的哈密顿量可写成：",
+      "bbox": [
+        107.99798583984375,
+        187.9308319091797,
+        523.9601440429688,
+        331.3429260253906
+      ],
+      "source_block_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E006",
+      "page": 40,
+      "printed_page": 29,
+      "type": "equation",
+      "order": 23,
+      "original_text": "H = A1(I1 −j)2 + A2I2 2 + A3I2 3 , for longitudinal coupling (3.6)",
+      "raw_extraction": "H = A1(I1 −j)2 + A2I2\n2 + A3I2\n3 , for longitudinal coupling\n(3.6)\n",
+      "translation": "原式见上图；图中“for longitudinal coupling”意为“用于纵向耦合”。保留原符号与单位写法。",
+      "bbox": [
+        166.87799072265625,
+        362.3059387207031,
+        523.9515380859375,
+        382.15191650390625
+      ],
+      "source_block_indices": [
+        14,
+        15
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.6",
+      "latex": null,
+      "image_path": "assets/equations/E006.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S016",
+      "page": 40,
+      "printed_page": 29,
+      "type": "paragraph",
+      "order": 24,
+      "original_text": "and",
+      "raw_extraction": "and\n",
+      "translation": "以及",
+      "bbox": [
+        107.99797058105469,
+        394.43994140625,
+        126.86295318603516,
+        406.3949279785156
+      ],
+      "source_block_indices": [
+        16
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E007",
+      "page": 40,
+      "printed_page": 29,
+      "type": "equation",
+      "order": 25,
+      "original_text": "H = A2(I2 −j)2 + A1I2 1 + A3I2 3 , for transverse coupling. (3.7)",
+      "raw_extraction": "H = A2(I2 −j)2 + A1I2\n1 + A3I2\n3 , for transverse coupling.\n(3.7)\n",
+      "translation": "原式见上图；图中“for transverse coupling”意为“用于横向耦合”。保留原符号与单位写法。",
+      "bbox": [
+        170.06497192382812,
+        408.2829284667969,
+        523.92626953125,
+        428.1299133300781
+      ],
+      "source_block_indices": [
+        17,
+        18
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.7",
+      "latex": null,
+      "image_path": "assets/equations/E007.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S017",
+      "page": 40,
+      "printed_page": 29,
+      "type": "paragraph",
+      "order": 26,
+      "original_text": "Longitudinal coupling results when the single-particle angular momentum⃗j is aligned along the intermediate axis. It occurs when the valence nucleon occupies an orbital near the middle of a given sub-shell. This results in a series of ∆I = 2 states that form the yrast rotational band starting offwith I = j and proceeds with I = j + 2, j + 4, j + 6, ... Excited bands result from tilting⃗I away from the intermediate axis. There are two distinct ways of doing this: (i) by tilting the collective angular momentum⃗R or, (ii) by tilting the single-particle angular momentum⃗j away from the intermediate axis.",
+      "raw_extraction": "Longitudinal coupling results when the single-particle angular momentum⃗j is\naligned along the intermediate axis. It occurs when the valence nucleon occupies\nan orbital near the middle of a given sub-shell. This results in a series of ∆I = 2\nstates that form the yrast rotational band starting oﬀwith I = j and proceeds\nwith I = j + 2, j + 4, j + 6, ... Excited bands result from tilting⃗I away from\nthe intermediate axis. There are two distinct ways of doing this: (i) by tilting\nthe collective angular momentum⃗R or, (ii) by tilting the single-particle angular\nmomentum⃗j away from the intermediate axis.\n",
+      "translation": "当单粒子角动量 $\\vec j$ 沿中轴排列时，形成纵向耦合。这出现在价核子占据给定子壳中部附近轨道的情形。它产生一系列 $\\Delta I=2$ 态，构成从 $I=j$ 开始、随后为 $I=j+2,j+4,j+6,\\ldots$ 的晕转动带。激发带由 $\\vec I$ 偏离中轴形成。可以通过两种不同方式实现：(i)使集体角动量 $\\vec R$ 偏离中轴，或(ii)使单粒子角动量 $\\vec j$ 偏离中轴。",
+      "bbox": [
+        107.99777221679688,
+        450.7119445800781,
+        523.9554443359375,
+        594.1249389648438
+      ],
+      "source_block_indices": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S018",
+      "page": 40,
+      "printed_page": 29,
+      "type": "paragraph",
+      "order": 27,
+      "original_text": "When the single-particle angular momentum is transversely coupled to an even-even triaxial core,⃗R points mainly along the intermediate axis and⃗j points in a direction that is orthogonal to the intermediate axis, that is either along the short axis or along the long axis. In this case the valence nucleon occupies an orbital near the bottom (top) of a given sub-shell and points along the short (long) nuclear axis as it behaves as a particle (hole). The angular momentum in a transversely coupled rotational band can be generated in two ways; (i) by increasing R||, the component of the rotational angular momentum along the intermediate axis which",
+      "raw_extraction": "When the single-particle angular momentum is transversely coupled to an even-\neven triaxial core,⃗R points mainly along the intermediate axis and⃗j points in a\ndirection that is orthogonal to the intermediate axis, that is either along the short\naxis or along the long axis. In this case the valence nucleon occupies an orbital\nnear the bottom (top) of a given sub-shell and points along the short (long) nuclear\naxis as it behaves as a particle (hole). The angular momentum in a transversely\ncoupled rotational band can be generated in two ways; (i) by increasing R||, the\ncomponent of the rotational angular momentum along the intermediate axis which\n",
+      "translation": "当单粒子角动量与偶偶三轴核芯横向耦合时，$\\vec R$ 主要沿中轴，$\\vec j$ 指向垂直于中轴的方向，即短轴或长轴。在此情形，价核子占据给定子壳底部（顶部）附近的轨道，作为粒子（空穴）而沿短（长）核轴取向。横向耦合转动带可通过两种方式产生角动量：(i)增大 $R_{\\parallel}$，即沿中轴的转动角动量分量，这会……〔续下页〕",
+      "bbox": [
+        107.99776458740234,
+        611.2439575195312,
+        523.9960327148438,
+        754.6559448242188
+      ],
+      "source_block_indices": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S019",
+      "page": 41,
+      "printed_page": 30,
+      "type": "paragraph",
+      "order": 28,
+      "original_text": "results in bands of ∆I = 1 nature or, (ii) by increasing R⊥, the rotational angular momentum along the perpendicular axis, which results in bands of ∆I = 2 nature.",
+      "raw_extraction": "results in bands of ∆I = 1 nature or, (ii) by increasing R⊥, the rotational angular\nmomentum along the perpendicular axis, which results in bands of ∆I = 2 nature.\n",
+      "translation": "〔续上页原段〕……产生 $\\Delta I=1$ 类型的能带；或(ii)增大 $R_{\\perp}$，即沿垂直轴的转动角动量，产生 $\\Delta I=2$ 类型的能带。",
+      "bbox": [
+        107.99996948242188,
+        83.73778533935547,
+        523.9599609375,
+        114.4717788696289
+      ],
+      "source_block_indices": [
+        1,
+        2
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S020",
+      "page": 41,
+      "printed_page": 30,
+      "type": "paragraph",
+      "order": 29,
+      "original_text": "For bands of ∆I = 1 type and when the nuclear shape is axially symmetric the projections on the symmetry axis of the total angular momentum, K, and the single-particle angular momentum, Ω, are good quantum numbers. The band is built on the I = Ω= K state, and proceeds with K + 1, K + 2, K + 3, ..., forming the yrast band shown in black in panel (a) of Figure 3.3. High spin states in the yrast band are formed by increasing the rotational angular momentum along the intermediate axis (R||). Due to triaxiality additional rotational bands are brought down in energy, shown in blue and red in panel (a) of Figure 3.3. K and Ωare not good quantum numbers in the triaxial case, however, it has been shown that for a nucleon in an i13/2 or h11/2 sub-shell and γ ≈30◦, K and Ωare approximately good quantum numbers, particularly near the bandhead [51].",
+      "raw_extraction": "For bands of ∆I = 1 type and when the nuclear shape is axially symmetric the\nprojections on the symmetry axis of the total angular momentum, K, and the\nsingle-particle angular momentum, Ω, are good quantum numbers. The band is\nbuilt on the I = Ω= K state, and proceeds with K + 1, K + 2, K + 3, ..., forming\nthe yrast band shown in black in panel (a) of Figure 3.3. High spin states in the\nyrast band are formed by increasing the rotational angular momentum along the\nintermediate axis (R||). Due to triaxiality additional rotational bands are brought\ndown in energy, shown in blue and red in panel (a) of Figure 3.3. K and Ωare not\ngood quantum numbers in the triaxial case, however, it has been shown that for\na nucleon in an i13/2 or h11/2 sub-shell and γ ≈30◦, K and Ωare approximately\ngood quantum numbers, particularly near the bandhead [51].\n",
+      "translation": "对于 $\\Delta I=1$ 类型的能带，当核形状轴对称时，总角动量及单粒子角动量在对称轴上的投影 $K$、$\\Omega$ 都是好量子数。能带建立在 $I=\\Omega=K$ 态上，随后为 $K+1,K+2,K+3,\\ldots$，形成图3.3(a)中黑色的晕带。晕带中的高自旋态通过增大沿中轴的转动角动量 $R_{\\parallel}$ 形成。三轴性使额外转动带的能量降低，图3.3(a)用蓝色和红色表示。在三轴情况下 $K$、$\\Omega$ 不是好量子数；但已有研究表明，对处于 $i_{13/2}$ 或 $h_{11/2}$ 子壳、且 $\\gamma\\approx30^\\circ$ 的核子而言，特别是在带头附近，$K$、$\\Omega$ 近似为好量子数[51]。",
+      "bbox": [
+        107.99996948242188,
+        131.59178161621094,
+        524.0018310546875,
+        331.3429260253906
+      ],
+      "source_block_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S021",
+      "page": 41,
+      "printed_page": 30,
+      "type": "paragraph",
+      "order": 30,
+      "original_text": "To generate excited bands of ∆I = 1 nature the nucleus increases its rotation along the orthogonal axis (long or short, depending on the orientation of⃗j) by R⊥≈2ℏ. Thus the first excited band must have a bandhead of I ≈Ω+ 2. For instance a first excited band built on the h11/2 orbital with Ω= 9/2 has a bandhead of I = 13/2. It consists of states with I = 13/2, 15/2, 17/2, 19/2..., shown in blue in panel (a) of Figure 3.3. A second excited band is created by a further increase of ≈2ℏin R⊥, shown in red in panel (a) of Figure 3.3. Panel (b) of Figure 3.3 shows the generation of angular momentum for the yrast band (black), the first excited band (blue), and the second excited band (red). The symbols || and ⊥ denote components along the intermediate axis and in a direction orthogonal to the intermediate axis, respectively.",
+      "raw_extraction": "To generate excited bands of ∆I = 1 nature the nucleus increases its rotation along\nthe orthogonal axis (long or short, depending on the orientation of⃗j) by R⊥≈2ℏ.\nThus the ﬁrst excited band must have a bandhead of I ≈Ω+ 2. For instance\na ﬁrst excited band built on the h11/2 orbital with Ω= 9/2 has a bandhead of\nI = 13/2. It consists of states with I = 13/2, 15/2, 17/2, 19/2..., shown in blue\nin panel (a) of Figure 3.3. A second excited band is created by a further increase\nof ≈2ℏin R⊥, shown in red in panel (a) of Figure 3.3. Panel (b) of Figure 3.3\nshows the generation of angular momentum for the yrast band (black), the ﬁrst\nexcited band (blue), and the second excited band (red). The symbols || and ⊥\ndenote components along the intermediate axis and in a direction orthogonal to\nthe intermediate axis, respectively.\n",
+      "translation": "要产生 $\\Delta I=1$ 类型的激发带，原子核沿垂直轴（长轴或短轴，取决于 $\\vec j$ 的方向）的转动增加约 $R_{\\perp}\\approx2\\hbar$。因此第一激发带的带头应约为 $I\\approx\\Omega+2$。例如，建立在 $\\Omega=9/2$ 的 $h_{11/2}$ 轨道上的第一激发带，其带头为 $I=13/2$；它包含 $I=13/2,15/2,17/2,19/2,\\ldots$ 态，如图3.3(a)蓝色所示。$R_{\\perp}$ 再增加约 $2\\hbar$ 便形成第二激发带，如图3.3(a)红色所示。图3.3(b)给出了晕带（黑色）、第一激发带（蓝色）和第二激发带（红色）的角动量产生机制。符号 $\\parallel$、$\\perp$ 分别表示沿中轴和垂直于中轴方向的分量。",
+      "bbox": [
+        107.99996948242188,
+        348.4619445800781,
+        523.986328125,
+        548.212890625
+      ],
+      "source_block_indices": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S022",
+      "page": 41,
+      "printed_page": 30,
+      "type": "paragraph",
+      "order": 31,
+      "original_text": "The rotational bands can be classified by the projection of the single-particle angular momentum on the orthogonal axis Ω⊥, the projection of the total angular momentum on the orthogonal axis K⊥, and the projection of the rotational angular momentum on the orthogonal axis R⊥; (Ω⊥, K⊥, R⊥). The yrast band consists of states with (Ω⊥, K⊥, R⊥) = (9/2, 9/2, 0), the first excited band consists of states with (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2), and the second excited band consists of states with (Ω⊥, K⊥, R⊥) = (9/2, 17/2, 4).",
+      "raw_extraction": "The rotational bands can be classiﬁed by the projection of the single-particle\nangular momentum on the orthogonal axis Ω⊥, the projection of the total angular\nmomentum on the orthogonal axis K⊥, and the projection of the rotational angular\nmomentum on the orthogonal axis R⊥; (Ω⊥, K⊥, R⊥). The yrast band consists of\nstates with (Ω⊥, K⊥, R⊥) = (9/2, 9/2, 0), the ﬁrst excited band consists of states\nwith (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2), and the second excited band consists of states\nwith (Ω⊥, K⊥, R⊥) = (9/2, 17/2, 4).\n",
+      "translation": "可按单粒子角动量、总角动量及转动角动量在垂直轴上的投影 $\\Omega_{\\perp}$、$K_{\\perp}$、$R_{\\perp}$ 对转动带分类，记为 $(\\Omega_{\\perp},K_{\\perp},R_{\\perp})$。晕带由 $(9/2,9/2,0)$ 态构成；第一激发带由 $(9/2,13/2,2)$ 态构成；第二激发带由 $(9/2,17/2,4)$ 态构成。",
+      "bbox": [
+        108.00004577636719,
+        565.3329467773438,
+        523.9722290039062,
+        690.7849731445312
+      ],
+      "source_block_indices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S023",
+      "page": 41,
+      "printed_page": 30,
+      "type": "paragraph",
+      "order": 32,
+      "original_text": "The bands of ∆I = 2 type can form when the strength of the Coriolis interaction is strong [44]. It is possible in some nuclei that the states with the same spin I and R⊥≈2 lie lower in energy than the states with R⊥≈0. For instance in 135Pr",
+      "raw_extraction": "The bands of ∆I = 2 type can form when the strength of the Coriolis interaction\nis strong [44]. It is possible in some nuclei that the states with the same spin I\nand R⊥≈2 lie lower in energy than the states with R⊥≈0. For instance in 135Pr\n",
+      "translation": "当 Coriolis 相互作用较强时，可形成 $\\Delta I=2$ 类型的能带[44]。在某些核中，同一自旋 $I$、$R_{\\perp}\\approx2$ 的态可能低于 $R_{\\perp}\\approx0$ 的态。例如在 $^{135}\\mathrm{Pr}$ 中……〔续下页〕",
+      "bbox": [
+        108.00019836425781,
+        707.0848999023438,
+        523.9577026367188,
+        757.41796875
+      ],
+      "source_block_indices": [
+        32,
+        33,
+        34
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "C003",
+      "page": 42,
+      "printed_page": 31,
+      "type": "caption",
+      "order": 33,
+      "original_text": "Figure 3.3: An illustration of transversely coupled for bands in odd-A triaxial nuclei based on the h11/2 orbital with Ω= 9/2. Panel (a) shows ∆I = 1 bands and panel (b) illustrates the angular momentum generation mechanism. Panel (c) shows bands of ∆I = 2 nature and panel (c) shows the corresponding mechanism of angular momentum generation. Adapted from Ref. [44].",
+      "raw_extraction": "Figure 3.3: An illustration of transversely coupled for bands in odd-A triaxial\nnuclei based on the h11/2 orbital with Ω= 9/2.\nPanel (a) shows ∆I = 1\nbands and panel (b) illustrates the angular momentum generation mechanism.\nPanel (c) shows bands of ∆I = 2 nature and panel (c) shows the corresponding\nmechanism of angular momentum generation. Adapted from Ref. [44].\n",
+      "translation": "图3.3：基于 $\\Omega=9/2$ 的 $h_{11/2}$ 轨道，示意奇质量三轴核中横向耦合的能带。(a)为 $\\Delta I=1$ 带；(b)示意角动量产生机制。(c)为 $\\Delta I=2$ 类型的带；图注接着仍写(c)，表示相应角动量产生机制。改编自文献[44]。",
+      "bbox": [
+        127.92498779296875,
+        387.6549987792969,
+        504.0345153808594,
+        455.144287109375
+      ],
+      "source_block_indices": [
+        1,
+        2
+      ],
+      "confidence": "medium",
+      "refs": [
+        "F003"
+      ],
+      "needs_review": true
+    },
+    {
+      "id": "S024",
+      "page": 42,
+      "printed_page": 31,
+      "type": "paragraph",
+      "order": 34,
+      "original_text": "the 13/2 state with the configuration (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2), lies lower in energy than the 13/2 state with configuration (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2) [45]. In this case the yrast rotational band consists of states with the lowest energy, which do not have the same (Ω⊥, K⊥, R⊥). In fact, each state in the rotational band with I > Ω⊥has an extra 2ℏof angular momentum than the immediately preceding state forming ∆I = 2 nature rotational states of the band, thus in such bands the rotation proceeds along the orthogonal axis. This is illustrated in panel (c) of Figure 3.3. Excited rotational bands are formed by increasing the rotational angular momentum along the intermediate axis. The first excited band has a bandhead spin of Ibandhead = Ω+ 1 and proceeds with the spin sequence; I = Ibandhead + 2, Ibandhead + 4, Ibandhead + 6, .... The next excited band is built on a state with extra 1ℏthan the bandhead spin of the immediately preceding rotational band. Panel (c) of Figure 3.3 illustrates the ∆I = 2 type rotational bands and panel (d) of Figure 3.3 represents the mechanisms of angular momentum generation.",
+      "raw_extraction": "the 13/2 state with the conﬁguration (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2), lies lower in\nenergy than the 13/2 state with conﬁguration (Ω⊥, K⊥, R⊥) = (9/2, 13/2, 2) [45].\nIn this case the yrast rotational band consists of states with the lowest energy,\nwhich do not have the same (Ω⊥, K⊥, R⊥). In fact, each state in the rotational\nband with I > Ω⊥has an extra 2ℏof angular momentum than the immediately\npreceding state forming ∆I = 2 nature rotational states of the band, thus in\nsuch bands the rotation proceeds along the orthogonal axis. This is illustrated\nin panel (c) of Figure 3.3. Excited rotational bands are formed by increasing the\nrotational angular momentum along the intermediate axis. The ﬁrst excited band\nhas a bandhead spin of Ibandhead = Ω+ 1 and proceeds with the spin sequence;\nI = Ibandhead + 2, Ibandhead + 4, Ibandhead + 6, .... The next excited band is built\non a state with extra 1ℏthan the bandhead spin of the immediately preceding\nrotational band. Panel (c) of Figure 3.3 illustrates the ∆I = 2 type rotational\nbands and panel (d) of Figure 3.3 represents the mechanisms of angular momentum\ngeneration.\n",
+      "translation": "〔续上页原段〕……组态 $(\\Omega_{\\perp},K_{\\perp},R_{\\perp})=(9/2,13/2,2)$ 的13/2态，低于组态同样写成 $(9/2,13/2,2)$ 的13/2态[45]。在此情况下，晕转动带由最低能态构成，它们不具有同一组 $(\\Omega_{\\perp},K_{\\perp},R_{\\perp})$。实际上，在 $I>\\Omega_{\\perp}$ 的转动带中，每个态相对紧邻的前一态多 $2\\hbar$ 角动量，形成 $\\Delta I=2$ 的转动态；因此这类能带沿垂直轴转动，如图3.3(c)所示。增大沿中轴的转动角动量会形成激发转动带。第一激发带带头自旋为 $I_{\\mathrm{bandhead}}=\\Omega+1$，随后为 $I=I_{\\mathrm{bandhead}}+2,I_{\\mathrm{bandhead}}+4,I_{\\mathrm{bandhead}}+6,\\ldots$。下一激发带建立在比前一带带头多 $1\\hbar$ 的态上。图3.3(c)示意 $\\Delta I=2$ 类型的转动带；(d)表示角动量产生机制。",
+      "bbox": [
+        107.99992370605469,
+        479.3628234863281,
+        523.975830078125,
+        754.2327880859375
+      ],
+      "source_block_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S025",
+      "page": 43,
+      "printed_page": 32,
+      "type": "heading",
+      "order": 35,
+      "original_text": "3.2.2 Nuclear wobbling motion",
+      "raw_extraction": "3.2.2\nNuclear wobbling motion\n",
+      "translation": "3.2.2　原子核摆动运动",
+      "bbox": [
+        108.0,
+        86.23211669921875,
+        335.7714538574219,
+        100.57811737060547
+      ],
+      "source_block_indices": [
+        1
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S026",
+      "page": 43,
+      "printed_page": 32,
+      "type": "paragraph",
+      "order": 36,
+      "original_text": "Nuclear wobbling motion was proposed by Bohr and Mottelson for even-even nuclei in Ref. [15] as a collective mode of excitation which results when the nuclear density distribution along the three principle nuclear axes is unequal. For even-even triaxial rotors, the wobbling approximation replaces the 3D rotational Hamiltonian (equation 3.3) by simple 1D rotation coupled to wobbling phonon excitations,",
+      "raw_extraction": "Nuclear wobbling motion was proposed by Bohr and Mottelson for even-even nu-\nclei in Ref. [15] as a collective mode of excitation which results when the nu-\nclear density distribution along the three principle nuclear axes is unequal. For\neven-even triaxial rotors, the wobbling approximation replaces the 3D rotational\nHamiltonian (equation 3.3) by simple 1D rotation coupled to wobbling phonon\nexcitations,\n",
+      "translation": "Bohr 和 Mottelson 在文献[15]中为偶偶核提出了核摆动运动：当核密度分布沿三条核主轴不相同时，产生这种集体激发模式。对偶偶三轴转子，摆动近似以简单一维转动耦合摆动声子激发，替代三维转动哈密顿量（式3.3）：",
+      "bbox": [
+        108.0,
+        124.89678192138672,
+        523.958984375,
+        230.74984741210938
+      ],
+      "source_block_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E008",
+      "page": 43,
+      "printed_page": 32,
+      "type": "equation",
+      "order": 37,
+      "original_text": "H = A1[I(I + 1)] + ℏω(n + 1 2). (3.8)",
+      "raw_extraction": "H = A1[I(I + 1)] + ℏω(n + 1\n2).\n(3.8)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        236.67601013183594,
+        258.56085205078125,
+        523.9284057617188,
+        286.8038024902344
+      ],
+      "source_block_indices": [
+        8,
+        9
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.8",
+      "latex": null,
+      "image_path": "assets/equations/E008.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S027",
+      "page": 43,
+      "printed_page": 32,
+      "type": "paragraph",
+      "order": 38,
+      "original_text": "The solutions of the wobbling Hamiltonian describe a set of rotational bands called wobbling bands, where ω is the wobbling frequency, n = 0, 1, 2, ... is the number of excited wobbling phonons, where n = 0 corresponds to the g.s. band, n = 1 and n = 2 correspond to the odd and even spin sequences of the first excited (γ-) band, respectively etc. In fact each phonon excitation corresponds to an excited rotational band. Within the wobbling approximation, each phonon excitation causes a tilt of the rotational angular momentum away from the intermediate axis.",
+      "raw_extraction": "The solutions of the wobbling Hamiltonian describe a set of rotational bands called\nwobbling bands, where ω is the wobbling frequency, n = 0, 1, 2, ... is the number\nof excited wobbling phonons, where n = 0 corresponds to the g.s. band, n = 1\nand n = 2 correspond to the odd and even spin sequences of the ﬁrst excited (γ-)\nband, respectively etc. In fact each phonon excitation corresponds to an excited\nrotational band.\nWithin the wobbling approximation, each phonon excitation\ncauses a tilt of the rotational angular momentum away from the intermediate\naxis.\n",
+      "translation": "摆动哈密顿量的解描述一组称为摆动带的转动带。其中 $\\omega$ 为摆动频率，$n=0,1,2,\\ldots$ 为被激发的摆动声子数；$n=0$ 对应基态带，$n=1$ 和 $n=2$ 分别对应第一激发（$\\gamma$）带的奇自旋和偶自旋序列，依此类推。实际上，每一个声子激发对应一个激发转动带。在摆动近似内，每次声子激发都会使转动角动量偏离中轴。",
+      "bbox": [
+        107.99996948242188,
+        304.14178466796875,
+        523.9979858398438,
+        447.5537414550781
+      ],
+      "source_block_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S028",
+      "page": 43,
+      "printed_page": 32,
+      "type": "paragraph",
+      "order": 39,
+      "original_text": "The wobbling frequency, ω is defined by the relation:",
+      "raw_extraction": "The wobbling frequency, ω is deﬁned by the relation:\n",
+      "translation": "摆动频率 $\\omega$ 由下式定义：",
+      "bbox": [
+        107.99996948242188,
+        464.6727600097656,
+        379.49859619140625,
+        476.62774658203125
+      ],
+      "source_block_indices": [
+        18
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E009",
+      "page": 43,
+      "printed_page": 32,
+      "type": "equation",
+      "order": 40,
+      "original_text": "ℏω = E(n, I) −E(n −1, I). (3.9)",
+      "raw_extraction": "ℏω = E(n, I) −E(n −1, I).\n(3.9)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        245.02496337890625,
+        496.3829650878906,
+        523.9282836914062,
+        510.9497375488281
+      ],
+      "source_block_indices": [
+        19
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.9",
+      "latex": null,
+      "image_path": "assets/equations/E009.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S029",
+      "page": 43,
+      "printed_page": 32,
+      "type": "paragraph",
+      "order": 41,
+      "original_text": "Wobbling bands exhibit characteristic quantized behaviour for the excitation energies and transition probabilities. In particular:",
+      "raw_extraction": "Wobbling bands exhibit characteristic quantized behaviour for the excitation en-\nergies and transition probabilities. In particular:\n",
+      "translation": "摆动带的激发能和跃迁概率表现出特征性的量子化行为。具体而言：",
+      "bbox": [
+        107.99990844726562,
+        543.6107788085938,
+        523.9503173828125,
+        574.3447265625
+      ],
+      "source_block_indices": [
+        20,
+        21
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S030",
+      "page": 43,
+      "printed_page": 32,
+      "type": "paragraph",
+      "order": 42,
+      "original_text": "(i) the energy of a rotational band has a linear dependence on n as;",
+      "raw_extraction": "(i) the energy of a rotational band has a linear dependence on n as;\n",
+      "translation": "(i)转动带的能量线性依赖于 $n$：",
+      "bbox": [
+        107.99990844726562,
+        591.4647216796875,
+        455.6602478027344,
+        603.4197387695312
+      ],
+      "source_block_indices": [
+        22
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E010",
+      "page": 43,
+      "printed_page": 32,
+      "type": "equation",
+      "order": 43,
+      "original_text": "E(n, I) = A1[I(I + 1)] + ℏω(n + 1 2). (3.10)",
+      "raw_extraction": "E(n, I) = A1[I(I + 1)] + ℏω(n + 1\n2).\n(3.10)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        223.5839080810547,
+        631.2307739257812,
+        523.933349609375,
+        659.4738159179688
+      ],
+      "source_block_indices": [
+        23,
+        24
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.10",
+      "latex": null,
+      "image_path": "assets/equations/E010.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S031",
+      "page": 43,
+      "printed_page": 32,
+      "type": "paragraph",
+      "order": 44,
+      "original_text": "This relationship is manifested as equal spacing of excitation energies between two successive wobbling bands, for instance the excitation energy plots of the wobbling bands corresponding to n = 0 and n = 1 have the same energy spacing as that between wobbling bands with n = 1 and n = 2.",
+      "raw_extraction": "This relationship is manifested as equal spacing of excitation energies between two\nsuccessive wobbling bands, for instance the excitation energy plots of the wobbling\nbands corresponding to n = 0 and n = 1 have the same energy spacing as that\nbetween wobbling bands with n = 1 and n = 2.\n",
+      "translation": "这种关系表现为相邻两条摆动带的激发能等间隔。例如，$n=0$ 与 $n=1$ 摆动带激发能曲线之间的间距，与 $n=1$ 和 $n=2$ 摆动带之间的间距相同。",
+      "bbox": [
+        108.0,
+        676.810791015625,
+        523.9506225585938,
+        745.1047973632812
+      ],
+      "source_block_indices": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S032",
+      "page": 44,
+      "printed_page": 33,
+      "type": "paragraph",
+      "order": 45,
+      "original_text": "(ii) the intraband B(E2) transition probabilities are identical for all wobbling bands, because they all correspond to rotations around the same axis−the intermediate axis;",
+      "raw_extraction": "(ii) the intraband B(E2) transition probabilities are identical for all wobbling\nbands, because they all correspond to rotations around the same axis−the inter-\nmediate axis;\n",
+      "translation": "(ii)所有摆动带内的 $B(E2)$ 跃迁概率相同，因为它们都对应绕同一轴——中轴——的转动：",
+      "bbox": [
+        107.99999237060547,
+        83.73778533935547,
+        523.9622802734375,
+        133.25180053710938
+      ],
+      "source_block_indices": [
+        1,
+        2,
+        3
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E011",
+      "page": 44,
+      "printed_page": 33,
+      "type": "equation",
+      "order": 46,
+      "original_text": "B(E2; n, I −→n, I ± 2) = 5 16πe2Q2 2, (3.11)",
+      "raw_extraction": "B(E2; n, I −→n, I ± 2) =\n5\n16πe2Q2\n2,\n(3.11)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        222.74298095703125,
+        161.0627899169922,
+        523.933349609375,
+        189.30679321289062
+      ],
+      "source_block_indices": [
+        4
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.11",
+      "latex": null,
+      "image_path": "assets/equations/E011.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S033",
+      "page": 44,
+      "printed_page": 33,
+      "type": "paragraph",
+      "order": 47,
+      "original_text": "(iii) the interband B(E2) transition probabilities are linearly dependent on n, as they link bands with different phonon excitations;",
+      "raw_extraction": "(iii) the interband B(E2) transition probabilities are linearly dependent on n, as\nthey link bands with diﬀerent phonon excitations;\n",
+      "translation": "(iii)带间 $B(E2)$ 跃迁概率线性依赖于 $n$，因为它们连接不同声子激发的能带：",
+      "bbox": [
+        108.0,
+        206.64378356933594,
+        523.9173583984375,
+        237.37777709960938
+      ],
+      "source_block_indices": [
+        5,
+        6
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E012",
+      "page": 44,
+      "printed_page": 33,
+      "type": "equation",
+      "order": 48,
+      "original_text": "B(E2; n, I −→n −1, I −1) = 5 16πe2( √ 3Q0x − √ 2Q2y)2n I , (3.12)",
+      "raw_extraction": "B(E2; n, I −→n −1, I −1) =\n5\n16πe2(\n√\n3Q0x −\n√\n2Q2y)2n\nI ,\n(3.12)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        149.42800903320312,
+        262.6488342285156,
+        523.933349609375,
+        293.4327697753906
+      ],
+      "source_block_indices": [
+        7,
+        8,
+        9
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.12",
+      "latex": null,
+      "image_path": "assets/equations/E012.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S034",
+      "page": 44,
+      "printed_page": 33,
+      "type": "paragraph",
+      "order": 49,
+      "original_text": "where Q0 and Q2 denote the intrinsic and spectroscopic quadrupole moments, respectively. The wobbling approximation of the 3D rotational Hamiltonian is only valid at high spins [15]. Probably that is why wobbling had not been observed so far at low spins in even-even nuclei. Wobbling motion was observed experimentally in the A ≈160 mass region, in the odd-A, 161−167Lu and 167Ta isotopes, and the rotational bands corresponded to triaxial superdeformed nuclear shapes [4, 16, 31, 34, 55, 63].",
+      "raw_extraction": "where Q0 and Q2 denote the intrinsic and spectroscopic quadrupole moments,\nrespectively. The wobbling approximation of the 3D rotational Hamiltonian is only\nvalid at high spins [15]. Probably that is why wobbling had not been observed so\nfar at low spins in even-even nuclei. Wobbling motion was observed experimentally\nin the A ≈160 mass region, in the odd-A, 161−167Lu and 167Ta isotopes, and the\nrotational bands corresponded to triaxial superdeformed nuclear shapes [4, 16, 31,\n34, 55, 63].\n",
+      "translation": "其中 $Q_0$、$Q_2$ 分别表示内禀四极矩和谱学四极矩。三维转动哈密顿量的摆动近似仅在高自旋处有效[15]。这也许正是迄今尚未在偶偶核低自旋处观察到摆动的原因。在 $A\\approx160$ 质量区的奇质量 $^{161\\text{–}167}\\mathrm{Lu}$ 和 $^{167}\\mathrm{Ta}$ 中，已从实验观察到摆动运动；这些转动带对应三轴超形变核形状[4,16,31,34,55,63]。",
+      "bbox": [
+        107.99996948242188,
+        310.769775390625,
+        523.9740600585938,
+        435.4027404785156
+      ],
+      "source_block_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S035",
+      "page": 44,
+      "printed_page": 33,
+      "type": "paragraph",
+      "order": 50,
+      "original_text": "Recently nuclear wobbling was investigated in odd-mass nuclei by Frauendorf and D¨onau [23], and the concepts of transverse and longitudinal wobbling were proposed depending on whether the single-particle angular momentum was oriented perpendicular or parallel to the intermediate axis, respectively. Longitudinal (transverse) wobbling bands are expected to have (i) increasing (decreasing) wobbling frequency with increasing spin and, (ii) the B(E2; n, I −→n −1, I −1) and B(M1; n, I −→n−1, I−1) reduced transition probabilities should be proportional to n.",
+      "raw_extraction": "Recently nuclear wobbling was investigated in odd-mass nuclei by Frauendorf\nand D¨onau [23], and the concepts of transverse and longitudinal wobbling were\nproposed depending on whether the single-particle angular momentum was ori-\nented perpendicular or parallel to the intermediate axis, respectively. Longitudinal\n(transverse) wobbling bands are expected to have (i) increasing (decreasing) wob-\nbling frequency with increasing spin and, (ii) the B(E2; n, I −→n −1, I −1) and\nB(M1; n, I −→n−1, I−1) reduced transition probabilities should be proportional\nto n.\n",
+      "translation": "近期 Frauendorf 和 Dönau 研究了奇质量核中的摆动[23]，按单粒子角动量分别垂直或平行于中轴的情况，提出横向和纵向摆动的概念。预期纵向（横向）摆动带具有：(i)摆动频率随自旋增大而升高（降低）；(ii)约化跃迁概率 $B(E2;n,I\\to n-1,I-1)$ 和 $B(M1;n,I\\to n-1,I-1)$ 应正比于 $n$。",
+      "bbox": [
+        107.99897003173828,
+        452.5217590332031,
+        523.97314453125,
+        595.9337158203125
+      ],
+      "source_block_indices": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S036",
+      "page": 44,
+      "printed_page": 33,
+      "type": "paragraph",
+      "order": 51,
+      "original_text": "In addition two wobbling bands based on the same one-quasiparticle configuration and differing by one wobbling phonon ∆n = 1, should be linked with ∆I = 1, M1 + E2 transitions with dominant E2 nature, that is with a mixing ratio |δ| > 1. Therefore, measuring mixing ratios with magnitudes larger than one is the necessary supporting experimental evidence for the wobbling interpretation. Mixing ratios with magnitudes larger than one were reported for several linking transitions in 135Pr, 105Pd, 183Au, 133La, 187Au, 130Ba and 127Xe [49, 65], [73], [53], [14], [64], [18, 58], [17]. However, recently these results were questioned [27, 29, 45]",
+      "raw_extraction": "In addition two wobbling bands based on the same one-quasiparticle conﬁguration\nand diﬀering by one wobbling phonon ∆n = 1, should be linked with ∆I =\n1, M1 + E2 transitions with dominant E2 nature, that is with a mixing ratio\n|δ| > 1. Therefore, measuring mixing ratios with magnitudes larger than one is\nthe necessary supporting experimental evidence for the wobbling interpretation.\nMixing ratios with magnitudes larger than one were reported for several linking\ntransitions in 135Pr, 105Pd, 183Au, 133La, 187Au, 130Ba and 127Xe [49, 65], [73], [53],\n[14], [64], [18, 58], [17]. However, recently these results were questioned [27, 29, 45]\n",
+      "translation": "此外，两条建立在同一单准粒子组态上、相差一个摆动声子 $\\Delta n=1$ 的摆动带，应由以E2成分为主的 $\\Delta I=1$ 混合M1+E2跃迁连接，即混合比 $|\\delta|>1$。因此，测得模大于1的混合比，是支持摆动解释所必需的实验证据。已有报道在 $^{135}\\mathrm{Pr}$、$^{105}\\mathrm{Pd}$、$^{183}\\mathrm{Au}$、$^{133}\\mathrm{La}$、$^{187}\\mathrm{Au}$、$^{130}\\mathrm{Ba}$ 和 $^{127}\\mathrm{Xe}$ 的若干连接跃迁中得到模大于1的混合比，引用依次为[49,65]、[73]、[53]、[14]、[64]、[18,58]、[17]。但近期这些结果受到质疑[27,29,45]……〔续下页〕",
+      "bbox": [
+        107.99899291992188,
+        613.0537109375,
+        523.9849853515625,
+        756.4657592773438
+      ],
+      "source_block_indices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S037",
+      "page": 45,
+      "printed_page": 34,
+      "type": "paragraph",
+      "order": 52,
+      "original_text": "and new experimental data suggesting that the mixing ratios are in fact less than one were shown for 135Pr [44].",
+      "raw_extraction": "and new experimental data suggesting that the mixing ratios are in fact less than\none were shown for 135Pr [44].\n",
+      "translation": "〔续上页原段〕……并且 $^{135}\\mathrm{Pr}$ 的新实验数据提示混合比实际上小于1[44]。",
+      "bbox": [
+        108.0,
+        83.73778533935547,
+        523.9742431640625,
+        114.4717788696289
+      ],
+      "source_block_indices": [
+        1,
+        2
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S038",
+      "page": 45,
+      "printed_page": 34,
+      "type": "heading",
+      "order": 53,
+      "original_text": "3.3 The Quasiparticle-Plus-Triaxial Rotor (QTR) Model Formalism",
+      "raw_extraction": "3.3\nThe Quasiparticle-Plus-Triaxial Rotor (QTR)\nModel Formalism\n",
+      "translation": "3.3　准粒子加三轴转子（QTR）模型形式体系",
+      "bbox": [
+        108.00001525878906,
+        155.20993041992188,
+        531.45458984375,
+        200.9179229736328
+      ],
+      "source_block_indices": [
+        3,
+        4
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S039",
+      "page": 45,
+      "printed_page": 34,
+      "type": "paragraph",
+      "order": 54,
+      "original_text": "The quasiparticle-plus-triaxial rotor (QTR) model has been used extensively to study triaxiality in odd-mass atomic nuclei [44, 52, 61]. The model Hamiltonian takes the form;",
+      "raw_extraction": "The quasiparticle-plus-triaxial rotor (QTR) model has been used extensively to\nstudy triaxiality in odd-mass atomic nuclei [44, 52, 61]. The model Hamiltonian\ntakes the form;\n",
+      "translation": "准粒子加三轴转子（QTR）模型已被广泛用于研究奇质量原子核的三轴性[44,52,61]。模型哈密顿量采用下列形式：",
+      "bbox": [
+        107.9990234375,
+        228.72776794433594,
+        523.9503784179688,
+        278.2417907714844
+      ],
+      "source_block_indices": [
+        5,
+        6,
+        7
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E013",
+      "page": 45,
+      "printed_page": 34,
+      "type": "equation",
+      "order": 55,
+      "original_text": "H = Hcoll + Hint. (3.13)",
+      "raw_extraction": "H = Hcoll + Hint.\n(3.13)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        271.697021484375,
+        314.14080810546875,
+        523.932373046875,
+        327.8888244628906
+      ],
+      "source_block_indices": [
+        8
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.13",
+      "latex": null,
+      "image_path": "assets/equations/E013.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S040",
+      "page": 45,
+      "printed_page": 34,
+      "type": "paragraph",
+      "order": 56,
+      "original_text": "The collective component of the Hamiltonian was discussed in Sections 2.4.2 and 3.2. In the presence of a valence nucleon, the Hamiltonian can be written down as:",
+      "raw_extraction": "The collective component of the Hamiltonian was discussed in Sections 2.4.2 and\n3.2. In the presence of a valence nucleon, the Hamiltonian can be written down\nas:\n",
+      "translation": "哈密顿量的集体部分已在2.4.2和3.2节讨论。在存在一个价核子的情况下，哈密顿量可写为：",
+      "bbox": [
+        107.9990234375,
+        351.6338195800781,
+        523.9375,
+        401.1477966308594
+      ],
+      "source_block_indices": [
+        9,
+        10,
+        11
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E014",
+      "page": 45,
+      "printed_page": 34,
+      "type": "equation",
+      "order": 57,
+      "original_text": "Hcoll = 3 X k=1 R2 2ℑk = 3 X k=1 (Ik −jk)2 2ℑk , (3.14)",
+      "raw_extraction": "Hcoll =\n3\nX\nk=1\nR2\n2ℑk\n=\n3\nX\nk=1\n(Ik −jk)2\n2ℑk\n,\n(3.14)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        259.6820068359375,
+        444.2511901855469,
+        523.933349609375,
+        521.8272094726562
+      ],
+      "source_block_indices": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.14",
+      "latex": null,
+      "image_path": "assets/equations/E014.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S041",
+      "page": 45,
+      "printed_page": 34,
+      "type": "paragraph",
+      "order": 58,
+      "original_text": "where⃗I,⃗R,⃗j have their usual meaning as the total, collective core, and the singleparticle angular momentum vectors and⃗R =⃗I −⃗j. The ℑk are the moments of inertia along the k axis, with k = 1, 2, 3. Irrotational-flow type moments of inertia are assumed.",
+      "raw_extraction": "where⃗I,⃗R,⃗j have their usual meaning as the total, collective core, and the single-\nparticle angular momentum vectors and⃗R =⃗I −⃗j. The ℑk are the moments of\ninertia along the k axis, with k = 1, 2, 3. Irrotational-ﬂow type moments of inertia\nare assumed.\n",
+      "translation": "其中 $\\vec I$、$\\vec R$、$\\vec j$ 分别按通常含义表示总角动量、集体核芯角动量及单粒子角动量，并有 $\\vec R=\\vec I-\\vec j$。$\\mathcal{J}_k$ 是沿 $k$ 轴的转动惯量，$k=1,2,3$。这里假定无旋流型转动惯量。",
+      "bbox": [
+        107.99998474121094,
+        550.3148193359375,
+        523.9566040039062,
+        618.6077880859375
+      ],
+      "source_block_indices": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S042",
+      "page": 45,
+      "printed_page": 34,
+      "type": "heading",
+      "order": 59,
+      "original_text": "3.3.1 QTR energies and wavefunctions",
+      "raw_extraction": "3.3.1\nQTR energies and wavefunctions\n",
+      "translation": "3.3.1　QTR能量和波函数",
+      "bbox": [
+        107.99998474121094,
+        655.1211547851562,
+        389.49725341796875,
+        669.4671630859375
+      ],
+      "source_block_indices": [
+        27
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S043",
+      "page": 45,
+      "printed_page": 34,
+      "type": "paragraph",
+      "order": 60,
+      "original_text": "The intrinsic part of the Hamiltonian can be written down as,",
+      "raw_extraction": "The intrinsic part of the Hamiltonian can be written down as,\n",
+      "translation": "哈密顿量的内禀部分可写为：",
+      "bbox": [
+        107.99998474121094,
+        693.7847900390625,
+        426.4931335449219,
+        705.7398071289062
+      ],
+      "source_block_indices": [
+        28
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E015",
+      "page": 46,
+      "printed_page": 35,
+      "type": "equation",
+      "order": 61,
+      "original_text": "Hint = Hsp + Hpair = X ν>0 |εν −λF|(a+ ν aν + a+ ν aν) −∆ 2 X ν>0 (a+ ν a+ ν + aνaν), (3.15)",
+      "raw_extraction": "Hint = Hsp + Hpair\n=\nX\nν>0\n|εν −λF|(a+\nν aν + a+\nν aν) −∆\n2\nX\nν>0\n(a+\nν a+\nν + aνaν),\n(3.15)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        152.697998046875,
+        113.42076873779297,
+        523.933349609375,
+        164.13023376464844
+      ],
+      "source_block_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.15",
+      "latex": null,
+      "image_path": "assets/equations/E015.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S044",
+      "page": 46,
+      "printed_page": 35,
+      "type": "paragraph",
+      "order": 62,
+      "original_text": "where $\\lambda_F$ denotes the Fermi energy, $\\Delta$ is the pairing gap parameter and is calculated following particle conservation [51] and $|\\bar\\nu\\rangle$ is the time-reversal state of $|\\nu\\rangle$. The single-particle states $|\\nu\\rangle$ and the corresponding energies are obtained by diagonalizing the Hamiltonian $H_{sp}$. Similar to Refs. [39, 62], a Nilsson type Hamiltonian is employed,",
+      "raw_extraction": "where λF denotes the Fermi energy, ∆is the pairing gap parameter and is cal-\nculated following particle conservation [51] and |ν⟩is the time-reversal state of\n|ν⟩. The single-particle states |ν⟩and the corresponding energies are obtained\nby diagonalizing the Hamiltonian Hsp. Similar to Refs. [39, 62], a Nilsson type\nHamiltonian is employed,\n",
+      "translation": "其中 $\\lambda_F$ 为费米能，$\\Delta$ 为配对能隙参数，按粒子数守恒条件计算[51]；$|\\bar\\nu\\rangle$ 为 $|\\nu\\rangle$ 的时间反演态。单粒子态 $|\\nu\\rangle$ 及相应能量通过对角化 $H_{\\mathrm{sp}}$ 得到。与文献[39,62]类似，这里采用 Nilsson 型哈密顿量：",
+      "bbox": [
+        107.99996948242188,
+        189.8796844482422,
+        523.9483032226562,
+        276.9528503417969
+      ],
+      "source_block_indices": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E016",
+      "page": 46,
+      "printed_page": 35,
+      "type": "equation",
+      "order": 63,
+      "original_text": "Hsp = ( p2 2m + 1 2mω0ρ2 −2 3ε2 r 4π 3 ℏω0ρ2[cos γY 0 2 + 1 √ 2 sin γ(Y 2 2 + Y −2 2 )] −κℏ(ω){2⃗l ·⃗s + µ(⃗l2−<⃗l2 >N)}, (3.16)",
+      "raw_extraction": "Hsp = ( p2\n2m + 1\n2mω0ρ2 −2\n3ε2\nr\n4π\n3 ℏω0ρ2[cos γY 0\n2 + 1\n√\n2 sin γ(Y 2\n2 + Y −2\n2\n)]\n−κℏ(ω){2⃗l ·⃗s + µ(⃗l2−<⃗l2 >N)},\n(3.16)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        119.24099731445312,
+        320.162841796875,
+        523.933349609375,
+        371.4781799316406
+      ],
+      "source_block_indices": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.16",
+      "latex": null,
+      "image_path": "assets/equations/E016.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S045",
+      "page": 46,
+      "printed_page": 35,
+      "type": "paragraph",
+      "order": 64,
+      "original_text": "with ρ as the radius in a stretched coordinate system, ε2 and γ are the usual Nilsson deformation parameters, Y ±2 2 and Y 0 2 are the second-order spherical harmonics, and κ and µ are the standard Nilsson parameters.",
+      "raw_extraction": "with ρ as the radius in a stretched coordinate system, ε2 and γ are the usual Nilsson\ndeformation parameters, Y ±2\n2\nand Y 0\n2 are the second-order spherical harmonics,\nand κ and µ are the standard Nilsson parameters.\n",
+      "translation": "其中 $\\rho$ 为拉伸坐标系中的半径，$\\varepsilon_2$、$\\gamma$ 是通常的 Nilsson 形变参数，$Y_2^{\\pm2}$、$Y_2^0$ 为二阶球谐函数，$\\kappa$、$\\mu$ 为标准 Nilsson 参数。",
+      "bbox": [
+        108.0,
+        399.36981201171875,
+        523.9232177734375,
+        448.8838195800781
+      ],
+      "source_block_indices": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S046",
+      "page": 46,
+      "printed_page": 35,
+      "type": "paragraph",
+      "order": 65,
+      "original_text": "The single-particle states are written as;",
+      "raw_extraction": "The single-particle states are written as;\n",
+      "translation": "单粒子态写为：",
+      "bbox": [
+        108.00003814697266,
+        466.00384521484375,
+        314.4150390625,
+        477.9588317871094
+      ],
+      "source_block_indices": [
+        31
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E017",
+      "page": 46,
+      "printed_page": 35,
+      "type": "equation",
+      "order": 66,
+      "original_text": "a+ ν |0⟩= X NljΩ cν NljΩΨNl jΩ, a+ ν |0⟩= X NljΩ (−1)j−Ωcν NljΩΨNl j−Ω,",
+      "raw_extraction": "a+\nν |0⟩=\nX\nNljΩ\ncν\nNljΩΨNl\njΩ,\na+\nν |0⟩=\nX\nNljΩ\n(−1)j−Ωcν\nNljΩΨNl\nj−Ω,\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        235.20901489257812,
+        526.6378173828125,
+        396.70379638671875,
+        588.565185546875
+      ],
+      "source_block_indices": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": null,
+      "latex": null,
+      "image_path": "assets/equations/E017.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S047",
+      "page": 46,
+      "printed_page": 35,
+      "type": "paragraph",
+      "order": 67,
+      "original_text": "where Ωis the projection of the single-particle angular momentum operator j on the 3-axis and is restricted to the values ..., −7/2, −3/2, +1/2, +5/2, ... due to time reversal degeneracy [51].",
+      "raw_extraction": "where Ωis the projection of the single-particle angular momentum operator j on\nthe 3-axis and is restricted to the values ..., −7/2, −3/2, +1/2, +5/2, ... due to\ntime reversal degeneracy [51].\n",
+      "translation": "其中 $\\Omega$ 为单粒子角动量算符 $j$ 在3轴上的投影；由于时间反演简并，它被限制为 $\\ldots,-7/2,-3/2,+1/2,+5/2,\\ldots$ [51]。",
+      "bbox": [
+        108.00003051757812,
+        615.3607788085938,
+        523.974609375,
+        664.8748168945312
+      ],
+      "source_block_indices": [
+        46,
+        47,
+        48
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S048",
+      "page": 46,
+      "printed_page": 35,
+      "type": "paragraph",
+      "order": 68,
+      "original_text": "The QTR model solutions can be obtained by diagonalizing the Hamiltonian (equation 3.13) in a complete basis space, which couples the inert core with the intrinsic wavefunctions of the valence nucleon. When the pairing interaction is ignored, a strong coupling basis can be constructed as;",
+      "raw_extraction": "The QTR model solutions can be obtained by diagonalizing the Hamiltonian (equa-\ntion 3.13) in a complete basis space, which couples the inert core with the intrinsic\nwavefunctions of the valence nucleon. When the pairing interaction is ignored, a\nstrong coupling basis can be constructed as;\n",
+      "translation": "将惰性核芯与价核子的内禀波函数耦合，在完整基空间中对角化哈密顿量（式3.13），可得到QTR模型的解。忽略配对相互作用时，可构造强耦合基：",
+      "bbox": [
+        108.00006103515625,
+        681.9948120117188,
+        523.974365234375,
+        750.288818359375
+      ],
+      "source_block_indices": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E018",
+      "page": 47,
+      "printed_page": 36,
+      "type": "equation",
+      "order": 69,
+      "original_text": "|IMKν⟩= r 1 2 r 2I + 1 8π2 [DI M,Ka+ ν |0⟩+ (−1)I−KDI M,−Ka+ ν |0⟩], (3.17)",
+      "raw_extraction": "|IMKν⟩=\nr\n1\n2\nr\n2I + 1\n8π2 [DI\nM,Ka+\nν |0⟩+ (−1)I−KDI\nM,−Ka+\nν |0⟩],\n(3.17)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        143.85499572753906,
+        94.28583526611328,
+        523.933349609375,
+        124.86380767822266
+      ],
+      "source_block_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.17",
+      "latex": null,
+      "image_path": "assets/equations/E018.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S049",
+      "page": 47,
+      "printed_page": 36,
+      "type": "paragraph",
+      "order": 70,
+      "original_text": "where $D^I_{M,K}$ denote the rotational $D$ functions, which describe transformations between differently oriented coordinate systems. In the equation above, $K$ assumes the values of ..., $-7/2,-3/2,+1/2,+5/2$, ... and the restriction on $K$ is due to the fact that the basis states are symmetrized under the point group $D_2$, which requires the wave function to be invariant under a rotation of $180^\\circ$ around the body-fixed $\\hat1$-axis, this leads to $K-\\Omega$ being an even integer [40]. The matrix elements of $H_{coll}$ and $H_{int}$ can be evaluated in this basis (equation 3.17), and the diagonalization yields the eigenenergies and eigenstates of the QTR model Hamiltonian.",
+      "raw_extraction": "where DI\nM,K denote the rotational D functions, which describe transformations\nbetween diﬀerently oriented coordinate systems. In the equation above, K assumes\nthe values of ..., −7/2, −3/2, +1/2, +5/2, ... and the restriction on K is due to\nthe fact that the basis states are symmetrized under the point group D2, which\nrequires the wave function to be invariant under a rotation of 180◦around the\nbody-ﬁxed ˆ1-axis, this leads to K −Ωbeing an even integer [40]. The matrix\nelements of Hcoll and Hint can be evaluated in this basis (equation 3.17), and\nthe diagonalization yields the eigenenergies and eigenstates of the QTR model\nHamiltonian.\n",
+      "translation": "其中 $D^I_{M,K}$ 表示转动D函数，描述不同取向坐标系之间的变换。上式中 $K$ 取 $\\ldots,-7/2,-3/2,+1/2,+5/2,\\ldots$。对 $K$ 的限制源自基态在点群 $D_2$ 下的对称化：该条件要求波函数绕体固连 $\\hat1$ 轴转动180°后不变，由此得到 $K-\\Omega$ 为偶整数[40]。可在这一基（式3.17）中计算 $H_{\\mathrm{coll}}$、$H_{\\mathrm{int}}$ 的矩阵元；对角化给出QTR模型哈密顿量的本征能和本征态。",
+      "bbox": [
+        107.99996948242188,
+        142.40711975097656,
+        523.9503784179688,
+        305.8228454589844
+      ],
+      "source_block_indices": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S050",
+      "page": 47,
+      "printed_page": 36,
+      "type": "paragraph",
+      "order": 71,
+      "original_text": "Pairing effects can be included in a straightforward manner in the QTR model by replacing the single-particle state $a_\\nu^+|0\\rangle$ in the basis state (equation 3.17) with BCS quasiparticle state $a_\\nu^+|\\tilde0\\rangle$ to get a new expansion basis, where $|\\tilde0\\rangle$ is the BCS vacuum state. The quasiparticle operators $\\alpha_\\nu^+$ are given by;",
+      "raw_extraction": "Pairing eﬀects can be included in a straightforward manner in the QTR model\nby replacing the single-particle state a+\nν |0⟩in the basis state (equation 3.17) with\nBCS quasiparticle state a+\nν\n\f\f˜0\n\u000b\nto get a new expansion basis, where\n\f\f˜0\n\u000b\nis the BCS\nvacuum state. The quasiparticle operators α+\nν are given by;\n",
+      "translation": "在QTR模型中，可以直接纳入配对效应：把基态（式3.17）中的单粒子态 $a_\\nu^+|0\\rangle$ 替换成BCS准粒子态（本段原文写成 $a_\\nu^+|\\tilde0\\rangle$），得到新的展开基，其中 $|\\tilde0\\rangle$ 是BCS真空态。准粒子算符 $\\alpha_\\nu^+$ 给为：",
+      "bbox": [
+        107.99996948242188,
+        322.94287109375,
+        523.9503173828125,
+        394.1919250488281
+      ],
+      "source_block_indices": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E019",
+      "page": 47,
+      "printed_page": 36,
+      "type": "equation",
+      "order": 72,
+      "original_text": "α+ ν αν ! = uν −vν vν uν ! a+ ν aν ! , (3.18)",
+      "raw_extraction": " \nα+\nν\nαν\n!\n=\n \nuν\n−vν\nvν\nuν\n! \na+\nν\naν\n!\n,\n(3.18)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        241.17999267578125,
+        434.8147888183594,
+        523.933349609375,
+        469.6961669921875
+      ],
+      "source_block_indices": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.18",
+      "latex": null,
+      "image_path": "assets/equations/E019.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S051",
+      "page": 47,
+      "printed_page": 36,
+      "type": "paragraph",
+      "order": 73,
+      "original_text": "where $u_\\nu^2+v_\\nu^2=1$. In this new basis, the wavefunctions of the QTR Hamiltonian can be written as;",
+      "raw_extraction": "where u2\nν + v2\nν = 1. In this new basis, the wavefunctions of the QTR Hamiltonian\ncan be written as;\n",
+      "translation": "其中 $u_\\nu^2+v_\\nu^2=1$。在新基中，QTR哈密顿量的波函数可写为：",
+      "bbox": [
+        108.0,
+        497.5361633300781,
+        523.9335327148438,
+        529.494873046875
+      ],
+      "source_block_indices": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E020",
+      "page": 47,
+      "printed_page": 36,
+      "type": "equation",
+      "order": 74,
+      "original_text": "|IM⟩= X K,ν CIK ν |IMKν⟩, (3.19)",
+      "raw_extraction": "|IM⟩=\nX\nK,ν\nCIK\nν\n|IMKν⟩,\n(3.19)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        249.6420135498047,
+        562.6328125,
+        523.933349609375,
+        590.4922485351562
+      ],
+      "source_block_indices": [
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.19",
+      "latex": null,
+      "image_path": "assets/equations/E020.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S052",
+      "page": 47,
+      "printed_page": 36,
+      "type": "paragraph",
+      "order": 75,
+      "original_text": "here $\\nu$ represents the quasiparticle states $\\alpha_\\nu^+|\\tilde0\\rangle$ instead of the single-particle states $a_\\nu^+$. The single-particle energies $\\varepsilon_\\nu$ must be replaced by the quasiparticle energies $\\varepsilon_\\nu^{\\prime}=\\sqrt{(\\varepsilon_\\nu-\\lambda_F)^2+\\Delta^2}$. The total Hamiltonian is expressed as;",
+      "raw_extraction": "here ν represents the quasiparticle states α+\nν\n\f\f˜0\n\u000b\ninstead of the single-particle states\na+\nν . The single-particle energies εν must be replaced by the quasiparticle energies\nε\n′\nν =\np\n(εν −λF)2 + ∆2. The total Hamiltonian is expressed as;\n",
+      "translation": "这里 $\\nu$ 表示准粒子态 $\\alpha_\\nu^+|\\tilde0\\rangle$，而非单粒子态 $a_\\nu^+$。单粒子能量 $\\varepsilon_\\nu$ 必须换成准粒子能量 $\\varepsilon_\\nu^{\\prime}=\\sqrt{(\\varepsilon_\\nu-\\lambda_F)^2+\\Delta^2}$。总哈密顿量写为：",
+      "bbox": [
+        107.99993896484375,
+        609.7978515625,
+        523.9188842773438,
+        664.8238525390625
+      ],
+      "source_block_indices": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E021",
+      "page": 47,
+      "printed_page": 36,
+      "type": "equation",
+      "order": 76,
+      "original_text": "H = Hcoll + X ν ε ′ ν(α+ ν αν + α+ ν αν). (3.20)",
+      "raw_extraction": "H = Hcoll +\nX\nν\nε\n′\nν(α+\nν αν + α+\nν αν).\n(3.20)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        228.3810272216797,
+        694.612548828125,
+        523.933349609375,
+        722.6002197265625
+      ],
+      "source_block_indices": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.20",
+      "latex": null,
+      "image_path": "assets/equations/E021.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S053",
+      "page": 48,
+      "printed_page": 37,
+      "type": "paragraph",
+      "order": 77,
+      "original_text": "The Hamiltonian in relation 3.14 possesses a particle-hole symmetry arising from the permutations of the intrinsic nuclear axes [51]. One consequence of this symmetry is that a particle coupled to a core with parameters (ε2, γ, λF) and a quasiparticle (hole) coupled to a core with parameters (ε2, 60◦−γ, −λF) have exactly same energy spectrum.",
+      "raw_extraction": "The Hamiltonian in relation 3.14 possesses a particle-hole symmetry arising from\nthe permutations of the intrinsic nuclear axes [51]. One consequence of this sym-\nmetry is that a particle coupled to a core with parameters (ε2, γ, λF) and a quasi-\nparticle (hole) coupled to a core with parameters (ε2, 60◦−γ, −λF) have exactly\nsame energy spectrum.\n",
+      "translation": "式3.14中的哈密顿量具有源自核内禀轴置换的粒子—空穴对称性[51]。一个结果是：与参数 $(\\varepsilon_2,\\gamma,\\lambda_F)$ 核芯耦合的粒子，与参数 $(\\varepsilon_2,60^\\circ-\\gamma,-\\lambda_F)$ 核芯耦合的准粒子（空穴），具有完全相同的能谱。",
+      "bbox": [
+        108.0,
+        83.73778533935547,
+        523.9623413085938,
+        170.81082153320312
+      ],
+      "source_block_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S054",
+      "page": 48,
+      "printed_page": 37,
+      "type": "heading",
+      "order": 78,
+      "original_text": "3.3.2 QTR transitions probabilities",
+      "raw_extraction": "3.3.2\nQTR transitions probabilities\n",
+      "translation": "3.3.2　QTR跃迁概率",
+      "bbox": [
+        108.00003051757812,
+        207.32415771484375,
+        365.6255187988281,
+        221.670166015625
+      ],
+      "source_block_indices": [
+        6
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S055",
+      "page": 48,
+      "printed_page": 37,
+      "type": "paragraph",
+      "order": 79,
+      "original_text": "Electromagnetic transition probabilities are given as in Ref. [15], and have the general form;",
+      "raw_extraction": "Electromagnetic transition probabilities are given as in Ref. [15], and have the\ngeneral form;\n",
+      "translation": "电磁跃迁概率按文献[15]给出，一般形式为：",
+      "bbox": [
+        108.00003051757812,
+        245.98777770996094,
+        523.974365234375,
+        276.7228088378906
+      ],
+      "source_block_indices": [
+        7,
+        8
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E022",
+      "page": 48,
+      "printed_page": 37,
+      "type": "equation",
+      "order": 80,
+      "original_text": "B(Oλ; Ii →If) = 1 2Ii + 1| ⟨If| Γ(Oλ) |Ii⟩|2, (3.21)",
+      "raw_extraction": "B(Oλ; Ii →If) =\n1\n2Ii + 1| ⟨If| Γ(Oλ) |Ii⟩|2,\n(3.21)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        205.60403442382812,
+        304.5338134765625,
+        523.933349609375,
+        334.56976318359375
+      ],
+      "source_block_indices": [
+        9
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.21",
+      "latex": null,
+      "image_path": "assets/equations/E022.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S056",
+      "page": 48,
+      "printed_page": 37,
+      "type": "paragraph",
+      "order": 81,
+      "original_text": "where Γ(Oλ) is the electromagnetic operator, O stands for the type of operator (magnetic/electric), λ is the order of the transition, B is the reduced transition probability and |Ii⟩and ⟨If| stand for the initial state before the transition, and the Hermitian conjugate of the final state after the transition. The magnetic dipole (λ = 1) moment operator is defined as;",
+      "raw_extraction": "where Γ(Oλ) is the electromagnetic operator, O stands for the type of operator\n(magnetic/electric), λ is the order of the transition, B is the reduced transition\nprobability and |Ii⟩and ⟨If| stand for the initial state before the transition, and\nthe Hermitian conjugate of the ﬁnal state after the transition. The magnetic dipole\n(λ = 1) moment operator is deﬁned as;\n",
+      "translation": "其中 $\\Gamma(O\\lambda)$ 是电磁算符，$O$ 代表算符类型（磁/电），$\\lambda$ 为跃迁阶数，$B$ 为约化跃迁概率；$|I_i\\rangle$ 和 $\\langle I_f|$ 分别表示跃迁前的初态及跃迁后末态的厄米共轭。磁偶极（$\\lambda=1$）矩算符定义为：",
+      "bbox": [
+        108.00003051757812,
+        351.290771484375,
+        523.9624633789062,
+        438.36474609375
+      ],
+      "source_block_indices": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E023",
+      "page": 48,
+      "printed_page": 37,
+      "type": "equation",
+      "order": 82,
+      "original_text": "Γ(M1) = gR⃗R + X (gl⃗l + gs⃗s), (3.22)",
+      "raw_extraction": "Γ(M1) = gR⃗R +\nX\n(gl⃗l + gs⃗s),\n(3.22)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        236.65603637695312,
+        471.50177001953125,
+        523.9334106445312,
+        488.0117492675781
+      ],
+      "source_block_indices": [
+        15,
+        16,
+        17
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.22",
+      "latex": null,
+      "image_path": "assets/equations/E023.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S057",
+      "page": 48,
+      "printed_page": 37,
+      "type": "paragraph",
+      "order": 83,
+      "original_text": "the sum is performed over the odd particle(s), gR = Z/A is the core g-factor, gl and gs are the single-particle orbital angular momentum and spin g-factors, respectively [36].⃗R,⃗l and⃗s have their usual meanings. The electric quadruple (λ = 2) operator is defined as;",
+      "raw_extraction": "the sum is performed over the odd particle(s), gR = Z/A is the core g-factor,\ngl and gs are the single-particle orbital angular momentum and spin g-factors,\nrespectively [36].⃗R,⃗l and⃗s have their usual meanings. The electric quadruple\n(λ = 2) operator is deﬁned as;\n",
+      "translation": "求和遍历奇粒子；$g_R=Z/A$ 为核芯g因子，$g_l$、$g_s$ 分别为单粒子轨道角动量及自旋g因子[36]。$\\vec R$、$\\vec l$、$\\vec s$ 取通常含义。电四极（$\\lambda=2$）算符定义为：",
+      "bbox": [
+        108.00004577636719,
+        511.75579833984375,
+        523.9266357421875,
+        580.0498046875
+      ],
+      "source_block_indices": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E024",
+      "page": 48,
+      "printed_page": 37,
+      "type": "equation",
+      "order": 84,
+      "original_text": "Γ(E2) = Z d3r[ρ(r)r2Y µ 2 ], (3.23)",
+      "raw_extraction": "Γ(E2) =\nZ\nd3r[ρ(r)r2Y µ\n2 ],\n(3.23)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        249.175048828125,
+        608.2727661132812,
+        523.9334106445312,
+        630.8347778320312
+      ],
+      "source_block_indices": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.23",
+      "latex": null,
+      "image_path": "assets/equations/E024.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S058",
+      "page": 48,
+      "printed_page": 37,
+      "type": "paragraph",
+      "order": 85,
+      "original_text": "which splits into a dominant core component and an odd particle(s) component. The mixing ratio, δE2/M1, is defined as;",
+      "raw_extraction": "which splits into a dominant core component and an odd particle(s) component.\nThe mixing ratio, δE2/M1, is deﬁned as;\n",
+      "translation": "它可分为占主导的核芯部分和奇粒子部分。混合比 $\\delta_{E2/M1}$ 定义为：",
+      "bbox": [
+        108.00006103515625,
+        654.9197387695312,
+        523.9623413085938,
+        686.6431884765625
+      ],
+      "source_block_indices": [
+        26,
+        27
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E025",
+      "page": 48,
+      "printed_page": 37,
+      "type": "equation",
+      "order": 86,
+      "original_text": "δE2/M1 = √ 0.7 ⟨I| Γ(E2) |I −1⟩ ⟨I| Γ(M1) |I −1⟩Eγ, (3.24)",
+      "raw_extraction": "δE2/M1 =\n√\n0.7 ⟨I| Γ(E2) |I −1⟩\n⟨I| Γ(M1) |I −1⟩Eγ,\n(3.24)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        225.30905151367188,
+        710.9248046875,
+        523.933349609375,
+        741.7088012695312
+      ],
+      "source_block_indices": [
+        28,
+        29,
+        30
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.24",
+      "latex": null,
+      "image_path": "assets/equations/E025.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S059",
+      "page": 49,
+      "printed_page": 38,
+      "type": "paragraph",
+      "order": 87,
+      "original_text": "where Γ(E2) and Γ(M1) are the electric quadruple and magnetic dipole operators and Eγ is the γ-ray energy, which corresponds to the usual definition of",
+      "raw_extraction": "where Γ(E2) and Γ(M1) are the electric quadruple and magnetic dipole operators\nand Eγ is the γ-ray energy, which corresponds to the usual deﬁnition of\n",
+      "translation": "其中 $\\Gamma(E2)$、$\\Gamma(M1)$ 分别为电四极和磁偶极算符，$E_\\gamma$ 为γ射线能量。这与通常的下列定义对应：",
+      "bbox": [
+        108.0,
+        83.73778533935547,
+        523.9486083984375,
+        116.26578521728516
+      ],
+      "source_block_indices": [
+        1,
+        2
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "E026",
+      "page": 49,
+      "printed_page": 38,
+      "type": "equation",
+      "order": 88,
+      "original_text": "δ2 E2/M1 = T(E2, I →I −1) T(M1, I →I −1), (3.25)",
+      "raw_extraction": "δ2\nE2/M1 = T(E2, I →I −1)\nT(M1, I →I −1),\n(3.25)\n",
+      "translation": "原式见上图；保留原符号、系数和单位写法，不在译文重写公式。",
+      "bbox": [
+        242.22300720214844,
+        142.12893676757812,
+        523.933349609375,
+        170.52676391601562
+      ],
+      "source_block_indices": [
+        3,
+        4,
+        5
+      ],
+      "confidence": "low",
+      "refs": [],
+      "needs_review": true,
+      "equation_number": "3.25",
+      "latex": null,
+      "image_path": "assets/equations/E026.png",
+      "representation": "original-equation-image",
+      "transcription_status": "LaTeX transcription unavailable; original formula retained intentionally"
+    },
+    {
+      "id": "S060",
+      "page": 49,
+      "printed_page": 38,
+      "type": "paragraph",
+      "order": 89,
+      "original_text": "where T(E2) and T(M1) are the corresponding electric and magnetic transition probabilities, respectively.",
+      "raw_extraction": "where T(E2) and T(M1) are the corresponding electric and magnetic transition\nprobabilities, respectively.\n",
+      "translation": "其中 $T(E2)$、$T(M1)$ 分别为相应的电跃迁和磁跃迁概率。",
+      "bbox": [
+        108.0,
+        190.23680114746094,
+        523.9580078125,
+        220.97079467773438
+      ],
+      "source_block_indices": [
+        6,
+        7
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S061",
+      "page": 49,
+      "printed_page": 38,
+      "type": "heading",
+      "order": 90,
+      "original_text": "3.4 QTR Model Calculations",
+      "raw_extraction": "3.4\nQTR Model Calculations\n",
+      "translation": "3.4　QTR模型计算",
+      "bbox": [
+        108.0,
+        261.7089538574219,
+        365.07159423828125,
+        278.9239501953125
+      ],
+      "source_block_indices": [
+        8
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S062",
+      "page": 49,
+      "printed_page": 38,
+      "type": "paragraph",
+      "order": 91,
+      "original_text": "In this work the QTR model codes of Ragnarson and Semmes [39, 40], the three programs called GAMPN, ASYMO and PROBMO, in this particular sequence, were run one after the other. GAMPN calculates the single-particle eigenstates and matrix elements. ASYMO calculates the triaxial rotor states and couples them to the single particle states produced by GAMPN. The last program PROBMO uses the outputs of the previous two programs to calculate electromagnetic transition properties of the nucleus [66].",
+      "raw_extraction": "In this work the QTR model codes of Ragnarson and Semmes [39, 40], the three\nprograms called GAMPN, ASYMO and PROBMO, in this particular sequence,\nwere run one after the other. GAMPN calculates the single-particle eigenstates and\nmatrix elements. ASYMO calculates the triaxial rotor states and couples them to\nthe single particle states produced by GAMPN. The last program PROBMO uses\nthe outputs of the previous two programs to calculate electromagnetic transition\nproperties of the nucleus [66].\n",
+      "translation": "本研究采用 Ragnarson 和 Semmes 的QTR模型代码[39,40]，依 GAMPN、ASYMO、PROBMO 的次序逐一运行三个程序。GAMPN计算单粒子本征态和矩阵元；ASYMO计算三轴转子态，并将其与GAMPN生成的单粒子态耦合；最后，PROBMO利用前两个程序的输出计算核电磁跃迁性质[66]。",
+      "bbox": [
+        108.0,
+        306.73284912109375,
+        523.9745483398438,
+        431.3658142089844
+      ],
+      "source_block_indices": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S063",
+      "page": 49,
+      "printed_page": 38,
+      "type": "heading",
+      "order": 92,
+      "original_text": "3.4.1 GAMPN",
+      "raw_extraction": "3.4.1\nGAMPN\n",
+      "translation": "3.4.1　GAMPN",
+      "bbox": [
+        108.0,
+        467.878173828125,
+        221.18991088867188,
+        482.22418212890625
+      ],
+      "source_block_indices": [
+        16
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S064",
+      "page": 49,
+      "printed_page": 38,
+      "type": "paragraph",
+      "order": 93,
+      "original_text": "As stated previously, the program GAMPN calculates the single-particle states of the QTR model Hamiltonian. To run the calculations for a particular nucleus with a proton number Z and a mass number A, the program requires the quadruple deformation parameter ε2, the axial asymmetry deformation γ and the hexadecapole deformation parameter ε4, the valence nucleon(s) configuration, as well as the standard Nilsson parameters κ and µ. In these calculations the standard Nilsson parameters were adopted as in Ref. [11]. In general ε2 and γ can be deduced from potential energy surface (PES) calculations or from experimental data. In addition, the program requires one to specify the single-particle configuration space of interest, that is to specify the orbitals near the Fermi level that will be included in the calculations.",
+      "raw_extraction": "As stated previously, the program GAMPN calculates the single-particle states of\nthe QTR model Hamiltonian. To run the calculations for a particular nucleus with\na proton number Z and a mass number A, the program requires the quadruple\ndeformation parameter ε2, the axial asymmetry deformation γ and the hexade-\ncapole deformation parameter ε4, the valence nucleon(s) conﬁguration, as well\nas the standard Nilsson parameters κ and µ. In these calculations the standard\nNilsson parameters were adopted as in Ref. [11]. In general ε2 and γ can be de-\nduced from potential energy surface (PES) calculations or from experimental data.\nIn addition, the program requires one to specify the single-particle conﬁguration\nspace of interest, that is to specify the orbitals near the Fermi level that will be\nincluded in the calculations.\n",
+      "translation": "如前所述，GAMPN计算QTR模型哈密顿量的单粒子态。对质子数为 $Z$、质量数为 $A$ 的特定核进行计算时，程序需要四极形变参数 $\\varepsilon_2$、轴不对称形变 $\\gamma$、十六极形变参数 $\\varepsilon_4$、价核子组态，以及标准 Nilsson 参数 $\\kappa$、$\\mu$。本计算采用文献[11]中的标准 Nilsson 参数。通常可由势能面（PES）计算或实验数据推得 $\\varepsilon_2$、$\\gamma$。此外还必须指定感兴趣的单粒子组态空间，即指定计算中纳入哪些费米面附近轨道。",
+      "bbox": [
+        107.99998474121094,
+        506.54278564453125,
+        523.96240234375,
+        706.2938232421875
+      ],
+      "source_block_indices": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S065",
+      "page": 49,
+      "printed_page": 38,
+      "type": "paragraph",
+      "order": 94,
+      "original_text": "The program outputs the single particle energies εν, single-particle matrix element and the single-particle eigenstates |ν⟩, expanded in the basis |NLJΩ⟩. For an",
+      "raw_extraction": "The program outputs the single particle energies εν, single-particle matrix element\nand the single-particle eigenstates |ν⟩, expanded in the basis |NLJΩ⟩. For an\n",
+      "translation": "程序输出单粒子能量 $\\varepsilon_\\nu$、单粒子矩阵元，以及在 $|NLJ\\Omega\\rangle$ 基中展开的单粒子本征态 $|\\nu\\rangle$。对……〔续下页〕",
+      "bbox": [
+        108.0,
+        723.4127807617188,
+        523.9239501953125,
+        754.1477661132812
+      ],
+      "source_block_indices": [
+        28,
+        29
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S066",
+      "page": 50,
+      "printed_page": 39,
+      "type": "paragraph",
+      "order": 95,
+      "original_text": "axially symmetric nuclear shape the output of the program is a pure Nilsson state, while for the asymmetric nuclear shape, the output is a mixture of basis states with the same parity but differing in occupation probabilities. This information is passed down to the next program ASYMO.",
+      "raw_extraction": "axially symmetric nuclear shape the output of the program is a pure Nilsson state,\nwhile for the asymmetric nuclear shape, the output is a mixture of basis states\nwith the same parity but diﬀering in occupation probabilities. This information\nis passed down to the next program ASYMO.\n",
+      "translation": "〔续上页原段〕……轴对称核形状，程序输出为纯 Nilsson 态；对非对称核形状，输出则是宇称相同、占据概率不同的基态混合。该信息传给下一程序ASYMO。",
+      "bbox": [
+        108.0,
+        83.73778533935547,
+        523.9622802734375,
+        152.03182983398438
+      ],
+      "source_block_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S067",
+      "page": 50,
+      "printed_page": 39,
+      "type": "heading",
+      "order": 96,
+      "original_text": "3.4.2 ASYMO",
+      "raw_extraction": "3.4.2\nASYMO\n",
+      "translation": "3.4.2　ASYMO",
+      "bbox": [
+        108.0,
+        188.544189453125,
+        218.13424682617188,
+        202.89019775390625
+      ],
+      "source_block_indices": [
+        5
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S068",
+      "page": 50,
+      "printed_page": 39,
+      "type": "paragraph",
+      "order": 97,
+      "original_text": "The program ASYMO couples the core rotation to the selected single-particle matrix elements and eigenstates |ν⟩that are passed down from the program GAMPN and constructs the quasiparticle+triaxial rotor sates. A maximum of 15 single-particle states can be used in the calculations, typically a subset of the single-particle states lying close to the Fermi level are included. The inputs to ASYMO comprise information on these single-particle states (the same states as in GAMPN or, fewer). The moments of inertia of the core can be extracted from the experimental energy of the first 2+ state [51] or can be parametrized by Harris parameters, which takes into account the spin dependence of the MoI’s [30, 48].",
+      "raw_extraction": "The program ASYMO couples the core rotation to the selected single-particle\nmatrix elements and eigenstates |ν⟩that are passed down from the program\nGAMPN and constructs the quasiparticle+triaxial rotor sates. A maximum of\n15 single-particle states can be used in the calculations, typically a subset of the\nsingle-particle states lying close to the Fermi level are included. The inputs to\nASYMO comprise information on these single-particle states (the same states as\nin GAMPN or, fewer). The moments of inertia of the core can be extracted from\nthe experimental energy of the ﬁrst 2+ state [51] or can be parametrized by Harris\nparameters, which takes into account the spin dependence of the MoI’s [30, 48].\n",
+      "translation": "ASYMO把核芯转动与从GAMPN传来的所选单粒子矩阵元和本征态 $|\\nu\\rangle$ 耦合，构造准粒子加三轴转子态。计算最多可使用15个单粒子态，通常只纳入靠近费米面的单粒子态子集。ASYMO输入包含这些单粒子态的信息（与GAMPN所用的态相同，或更少）。核芯转动惯量可以从第一 $2^+$ 态的实验能量提取[51]，也可用考虑转动惯量自旋依赖的Harris参数表示[30,48]。",
+      "bbox": [
+        107.99998474121094,
+        227.2078094482422,
+        523.9622802734375,
+        389.3998718261719
+      ],
+      "source_block_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S069",
+      "page": 50,
+      "printed_page": 39,
+      "type": "heading",
+      "order": 98,
+      "original_text": "3.4.3 PROBMO",
+      "raw_extraction": "3.4.3\nPROBMO\n",
+      "translation": "3.4.3　PROBMO",
+      "bbox": [
+        108.0,
+        425.9132385253906,
+        231.00265502929688,
+        440.2592468261719
+      ],
+      "source_block_indices": [
+        15
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    },
+    {
+      "id": "S070",
+      "page": 50,
+      "printed_page": 39,
+      "type": "paragraph",
+      "order": 99,
+      "original_text": "The results of GAMPN and ASYMO are passed down to the program PROBMO, which uses them to calculate the electromagnetic transition properties of all transitions that link all calculated nuclear states. That includes the B(E2) and B(M1) transition probabilities as well as the mixing ratios δE2/M1 for the M1+E2 transitions and the quadruple moment for each state.",
+      "raw_extraction": "The results of GAMPN and ASYMO are passed down to the program PROBMO,\nwhich uses them to calculate the electromagnetic transition properties of all tran-\nsitions that link all calculated nuclear states. That includes the B(E2) and B(M1)\ntransition probabilities as well as the mixing ratios δE2/M1 for the M1+E2 transi-\ntions and the quadruple moment for each state.\n",
+      "translation": "GAMPN和ASYMO的结果传给PROBMO，用于计算所有已算核态之间全部连接跃迁的电磁性质，包括 $B(E2)$、$B(M1)$ 跃迁概率、M1+E2跃迁的混合比 $\\delta_{E2/M1}$，以及每个态的四极矩。",
+      "bbox": [
+        108.0,
+        464.576904296875,
+        523.950439453125,
+        551.64990234375
+      ],
+      "source_block_indices": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "confidence": "medium",
+      "refs": [],
+      "needs_review": true
+    }
+  ],
+  "pages": [
+    {
+      "page": 36,
+      "printed_page": 25,
+      "block_ids": [
+        "S001",
+        "S002",
+        "S003",
+        "S004",
+        "S005",
+        "E001"
+      ],
+      "figure_ids": []
+    },
+    {
+      "page": 37,
+      "printed_page": 26,
+      "block_ids": [
+        "S006",
+        "E002",
+        "S007",
+        "E003",
+        "S008",
+        "C001"
+      ],
+      "figure_ids": [
+        "F001"
+      ]
+    },
+    {
+      "page": 38,
+      "printed_page": 27,
+      "block_ids": [
+        "S009",
+        "S010",
+        "S011",
+        "E004",
+        "S012",
+        "E005",
+        "S013"
+      ],
+      "figure_ids": []
+    },
+    {
+      "page": 39,
+      "printed_page": 28,
+      "block_ids": [
+        "C002"
+      ],
+      "figure_ids": [
+        "F002"
+      ]
+    },
+    {
+      "page": 40,
+      "printed_page": 29,
+      "block_ids": [
+        "S014",
+        "S015",
+        "E006",
+        "S016",
+        "E007",
+        "S017",
+        "S018"
+      ],
+      "figure_ids": []
+    },
+    {
+      "page": 41,
+      "printed_page": 30,
+      "block_ids": [
+        "S019",
+        "S020",
+        "S021",
+        "S022",
+        "S023"
+      ],
+      "figure_ids": []
+    },
+    {
+      "page": 42,
+      "printed_page": 31,
+      "block_ids": [
+        "C003",
+        "S024"
+      ],
+      "figure_ids": [
+        "F003"
+      ]
+    },
+    {
+      "page": 43,
+      "printed_page": 32,
+      "block_ids": [
+        "S025",
+        "S026",
+        "E008",
+        "S027",
+        "S028",
+        "E009",
+        "S029",
+        "S030",
+        "E010",
+        "S031"
+      ],
+      "figure_ids": []
+    },
+    {
+      "page": 44,
+      "printed_page": 33,
+      "block_ids": [
+        "S032",
+        "E011",
+        "S033",
+        "E012",
+        "S034",
+        "S035",
+        "S036"
+      ],
+      "figure_ids": []
+    },
+    {
+      "page": 45,
+      "printed_page": 34,
+      "block_ids": [
+        "S037",
+        "S038",
+        "S039",
+        "E013",
+        "S040",
+        "E014",
+        "S041",
+        "S042",
+        "S043"
+      ],
+      "figure_ids": []
+    },
+    {
+      "page": 46,
+      "printed_page": 35,
+      "block_ids": [
+        "E015",
+        "S044",
+        "E016",
+        "S045",
+        "S046",
+        "E017",
+        "S047",
+        "S048"
+      ],
+      "figure_ids": []
+    },
+    {
+      "page": 47,
+      "printed_page": 36,
+      "block_ids": [
+        "E018",
+        "S049",
+        "S050",
+        "E019",
+        "S051",
+        "E020",
+        "S052",
+        "E021"
+      ],
+      "figure_ids": []
+    },
+    {
+      "page": 48,
+      "printed_page": 37,
+      "block_ids": [
+        "S053",
+        "S054",
+        "S055",
+        "E022",
+        "S056",
+        "E023",
+        "S057",
+        "E024",
+        "S058",
+        "E025"
+      ],
+      "figure_ids": []
+    },
+    {
+      "page": 49,
+      "printed_page": 38,
+      "block_ids": [
+        "S059",
+        "E026",
+        "S060",
+        "S061",
+        "S062",
+        "S063",
+        "S064",
+        "S065"
+      ],
+      "figure_ids": []
+    },
+    {
+      "page": 50,
+      "printed_page": 39,
+      "block_ids": [
+        "S066",
+        "S067",
+        "S068",
+        "S069",
+        "S070"
+      ],
+      "figure_ids": []
+    }
+  ],
+  "equations": [
+    {
+      "id": "E001",
+      "page": 36,
+      "equation_number": "3.1",
+      "latex": null,
+      "image_path": "assets/equations/E001.png",
+      "bbox": [
+        231.61700439453125,
+        636.7791137695312,
+        523.9283447265625,
+        727.4898071289062
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E002",
+      "page": 37,
+      "equation_number": "3.2",
+      "latex": null,
+      "image_path": "assets/equations/E002.png",
+      "bbox": [
+        252.10601806640625,
+        161.0627899169922,
+        523.9284057617188,
+        189.30679321289062
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E003",
+      "page": 37,
+      "equation_number": "3.3",
+      "latex": null,
+      "image_path": "assets/equations/E003.png",
+      "bbox": [
+        250.2140655517578,
+        346.5742492675781,
+        523.9284057617188,
+        363.30584716796875
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E004",
+      "page": 38,
+      "equation_number": "3.4",
+      "latex": null,
+      "image_path": "assets/equations/E004.png",
+      "bbox": [
+        246.27000427246094,
+        527.2770385742188,
+        523.9284057617188,
+        559.05517578125
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E005",
+      "page": 38,
+      "equation_number": "3.5",
+      "latex": null,
+      "image_path": "assets/equations/E005.png",
+      "bbox": [
+        249.40499877929688,
+        612.6240234375,
+        523.9284057617188,
+        644.4011840820312
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E006",
+      "page": 40,
+      "equation_number": "3.6",
+      "latex": null,
+      "image_path": "assets/equations/E006.png",
+      "bbox": [
+        166.87799072265625,
+        362.3059387207031,
+        523.9515380859375,
+        382.15191650390625
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E007",
+      "page": 40,
+      "equation_number": "3.7",
+      "latex": null,
+      "image_path": "assets/equations/E007.png",
+      "bbox": [
+        170.06497192382812,
+        408.2829284667969,
+        523.92626953125,
+        428.1299133300781
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E008",
+      "page": 43,
+      "equation_number": "3.8",
+      "latex": null,
+      "image_path": "assets/equations/E008.png",
+      "bbox": [
+        236.67601013183594,
+        258.56085205078125,
+        523.9284057617188,
+        286.8038024902344
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E009",
+      "page": 43,
+      "equation_number": "3.9",
+      "latex": null,
+      "image_path": "assets/equations/E009.png",
+      "bbox": [
+        245.02496337890625,
+        496.3829650878906,
+        523.9282836914062,
+        510.9497375488281
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E010",
+      "page": 43,
+      "equation_number": "3.10",
+      "latex": null,
+      "image_path": "assets/equations/E010.png",
+      "bbox": [
+        223.5839080810547,
+        631.2307739257812,
+        523.933349609375,
+        659.4738159179688
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E011",
+      "page": 44,
+      "equation_number": "3.11",
+      "latex": null,
+      "image_path": "assets/equations/E011.png",
+      "bbox": [
+        222.74298095703125,
+        161.0627899169922,
+        523.933349609375,
+        189.30679321289062
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E012",
+      "page": 44,
+      "equation_number": "3.12",
+      "latex": null,
+      "image_path": "assets/equations/E012.png",
+      "bbox": [
+        149.42800903320312,
+        262.6488342285156,
+        523.933349609375,
+        293.4327697753906
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E013",
+      "page": 45,
+      "equation_number": "3.13",
+      "latex": null,
+      "image_path": "assets/equations/E013.png",
+      "bbox": [
+        271.697021484375,
+        314.14080810546875,
+        523.932373046875,
+        327.8888244628906
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E014",
+      "page": 45,
+      "equation_number": "3.14",
+      "latex": null,
+      "image_path": "assets/equations/E014.png",
+      "bbox": [
+        259.6820068359375,
+        444.2511901855469,
+        523.933349609375,
+        521.8272094726562
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E015",
+      "page": 46,
+      "equation_number": "3.15",
+      "latex": null,
+      "image_path": "assets/equations/E015.png",
+      "bbox": [
+        152.697998046875,
+        113.42076873779297,
+        523.933349609375,
+        164.13023376464844
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E016",
+      "page": 46,
+      "equation_number": "3.16",
+      "latex": null,
+      "image_path": "assets/equations/E016.png",
+      "bbox": [
+        119.24099731445312,
+        320.162841796875,
+        523.933349609375,
+        371.4781799316406
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E017",
+      "page": 46,
+      "equation_number": null,
+      "latex": null,
+      "image_path": "assets/equations/E017.png",
+      "bbox": [
+        235.20901489257812,
+        526.6378173828125,
+        396.70379638671875,
+        588.565185546875
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E018",
+      "page": 47,
+      "equation_number": "3.17",
+      "latex": null,
+      "image_path": "assets/equations/E018.png",
+      "bbox": [
+        143.85499572753906,
+        94.28583526611328,
+        523.933349609375,
+        124.86380767822266
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E019",
+      "page": 47,
+      "equation_number": "3.18",
+      "latex": null,
+      "image_path": "assets/equations/E019.png",
+      "bbox": [
+        241.17999267578125,
+        434.8147888183594,
+        523.933349609375,
+        469.6961669921875
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E020",
+      "page": 47,
+      "equation_number": "3.19",
+      "latex": null,
+      "image_path": "assets/equations/E020.png",
+      "bbox": [
+        249.6420135498047,
+        562.6328125,
+        523.933349609375,
+        590.4922485351562
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E021",
+      "page": 47,
+      "equation_number": "3.20",
+      "latex": null,
+      "image_path": "assets/equations/E021.png",
+      "bbox": [
+        228.3810272216797,
+        694.612548828125,
+        523.933349609375,
+        722.6002197265625
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E022",
+      "page": 48,
+      "equation_number": "3.21",
+      "latex": null,
+      "image_path": "assets/equations/E022.png",
+      "bbox": [
+        205.60403442382812,
+        304.5338134765625,
+        523.933349609375,
+        334.56976318359375
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E023",
+      "page": 48,
+      "equation_number": "3.22",
+      "latex": null,
+      "image_path": "assets/equations/E023.png",
+      "bbox": [
+        236.65603637695312,
+        471.50177001953125,
+        523.9334106445312,
+        488.0117492675781
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E024",
+      "page": 48,
+      "equation_number": "3.23",
+      "latex": null,
+      "image_path": "assets/equations/E024.png",
+      "bbox": [
+        249.175048828125,
+        608.2727661132812,
+        523.9334106445312,
+        630.8347778320312
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E025",
+      "page": 48,
+      "equation_number": "3.24",
+      "latex": null,
+      "image_path": "assets/equations/E025.png",
+      "bbox": [
+        225.30905151367188,
+        710.9248046875,
+        523.933349609375,
+        741.7088012695312
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "E026",
+      "page": 49,
+      "equation_number": "3.25",
+      "latex": null,
+      "image_path": "assets/equations/E026.png",
+      "bbox": [
+        242.22300720214844,
+        142.12893676757812,
+        523.933349609375,
+        170.52676391601562
+      ],
+      "confidence": "low"
+    }
+  ],
+  "figures": [
+    {
+      "id": "F001",
+      "page": 37,
+      "printed_number": "3.1",
+      "caption_id": "C001",
+      "image_path": "assets/figures/F001.png",
+      "bbox": [
+        219,
+        540,
+        413,
+        716
+      ],
+      "placement_hint": "near_first_substantive_discussion_in_source_order",
+      "placed_after": "C001",
+      "alt_text": "Original Figure3.1",
+      "confidence": "medium"
+    },
+    {
+      "id": "F002",
+      "page": 39,
+      "printed_number": "3.2",
+      "caption_id": "C002",
+      "image_path": "assets/figures/F002.png",
+      "bbox": [
+        153,
+        163,
+        455,
+        600
+      ],
+      "placement_hint": "near_first_substantive_discussion_in_source_order",
+      "placed_after": "C002",
+      "alt_text": "Original Figure3.2",
+      "confidence": "medium"
+    },
+    {
+      "id": "F003",
+      "page": 42,
+      "printed_number": "3.3",
+      "caption_id": "C003",
+      "image_path": "assets/figures/F003.png",
+      "bbox": [
+        103,
+        79,
+        533,
+        381
+      ],
+      "placement_hint": "near_first_substantive_discussion_in_source_order",
+      "placed_after": "C003",
+      "alt_text": "Original Figure3.3",
+      "confidence": "medium"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "triaxiality",
+      "translation": "三轴性",
+      "note": "与γ形变和惯量合同一起解释"
+    },
+    {
+      "term": "particle-plus-rotor",
+      "translation": "粒子加转子",
+      "note": "本文模型框架"
+    },
+    {
+      "term": "quasiparticle-plus-triaxial rotor (QTR)",
+      "translation": "准粒子加三轴转子",
+      "note": "保留QTR缩写"
+    },
+    {
+      "term": "intermediate / short / long axis",
+      "translation": "中轴／短轴／长轴",
+      "note": "本章1/2/3轴依次对应"
+    },
+    {
+      "term": "irrotational-flow moments of inertia",
+      "translation": "无旋流型转动惯量",
+      "note": "作者采用的模型假设"
+    },
+    {
+      "term": "tilted-precession bands",
+      "translation": "倾斜进动带",
+      "note": "不自动等同摆动带"
+    },
+    {
+      "term": "yrast band",
+      "translation": "晕带",
+      "note": "给定自旋最低能态序列"
+    },
+    {
+      "term": "wobbling",
+      "translation": "摆动",
+      "note": "声子近似须保留高自旋适用条件"
+    },
+    {
+      "term": "longitudinal / transverse coupling",
+      "translation": "纵向／横向耦合",
+      "note": "j相对中轴的理想取向"
+    },
+    {
+      "term": "pairing gap",
+      "translation": "配对能隙",
+      "note": "Δ"
+    },
+    {
+      "term": "time-reversal state",
+      "translation": "时间反演态",
+      "note": "ν上横线按原图保留"
+    },
+    {
+      "term": "strong-coupling basis",
+      "translation": "强耦合基",
+      "note": "D2对称化合同"
+    },
+    {
+      "term": "BCS vacuum",
+      "translation": "BCS真空",
+      "note": "不补解出的u/v数值"
+    },
+    {
+      "term": "mixing ratio",
+      "translation": "混合比",
+      "note": "δE2/M1"
+    },
+    {
+      "term": "quadrupole / hexadecapole deformation",
+      "translation": "四极／十六极形变",
+      "note": "原文quadruple按物理含义译四极"
+    },
+    {
+      "term": "GAMPN / ASYMO / PROBMO",
+      "translation": "GAMPN／ASYMO／PROBMO",
+      "note": "单粒子→耦合能级→电磁性质"
+    }
+  ],
+  "extraction_coverage": {
+    "mapped_raw_block_count": 489,
+    "excluded_running_items": [
+      {
+        "pdf_page": 36,
+        "block": 24,
+        "reason": "running header or page number",
+        "text": "25\n"
+      },
+      {
+        "pdf_page": 37,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n26\n"
+      },
+      {
+        "pdf_page": 38,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n27\n"
+      },
+      {
+        "pdf_page": 39,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n28\n"
+      },
+      {
+        "pdf_page": 40,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n29\n"
+      },
+      {
+        "pdf_page": 41,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n30\n"
+      },
+      {
+        "pdf_page": 42,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n31\n"
+      },
+      {
+        "pdf_page": 43,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n32\n"
+      },
+      {
+        "pdf_page": 44,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n33\n"
+      },
+      {
+        "pdf_page": 45,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n34\n"
+      },
+      {
+        "pdf_page": 46,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n35\n"
+      },
+      {
+        "pdf_page": 47,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n36\n"
+      },
+      {
+        "pdf_page": 48,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n37\n"
+      },
+      {
+        "pdf_page": 49,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n38\n"
+      },
+      {
+        "pdf_page": 50,
+        "block": 0,
+        "reason": "running header or page number",
+        "text": "Chapter 3. Nuclear Triaxiality\n39\n"
+      }
+    ],
+    "unmapped": []
+  },
+  "source_identity": {
+    "path": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "pdf_pages": 130,
+    "selected_pdf_pages": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "source_format": "pdf-text"
+  }
+}
