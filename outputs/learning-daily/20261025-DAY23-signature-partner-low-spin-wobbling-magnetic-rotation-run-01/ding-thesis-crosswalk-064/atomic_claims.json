@@ -1,0 +1,131 @@
+[
+  {
+    "id": "Ding-canonical-Ce-experiment",
+    "source": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+    "sha256": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+    "PDF_page": 2,
+    "section": "II.A Measurements, second experiment paragraph",
+    "text_block_indices_zero_based": [
+      9
+    ],
+    "bboxes": [
+      [
+        317.0135803222656,
+        425.49127197265625,
+        562.1435546875,
+        653.1378784179688
+      ]
+    ],
+    "original_text": "The second experiment was performed at the separated sector cyclotron of iThemba LABS near Cape Town, South Africa. High-spin states in 133Ce were populated via the 125Te(12C,4n)133Ce reaction at a beam energy of 57 MeV and an intensity of 5 pnA. The target was an isotopically enriched (95.3%) 125Te metallic foil with a thickness of 2 mg/cm2 on an 8 mg/cm2 gold backing. The γ rays emitted by the excited residual nuclei were measured with the AFRODITE array [65, 66] consisting of eight Compton-suppressed clover detectors arranged in two rings at 90◦(four clovers) and 135◦(four clovers) with respect to the beam direction. 2.8×1010 double- and 5.4×109 triple- and higher-fold coincidence events were collected and sorted into two- and three-dimensional ma- trices for oﬄine analysis. Data analysis was similar to that of 131Ba as mentioned above. Typical Rac ratios were ≈1.27 for stretched-quadrupole and ≈0.74 for stretched-dipole transitions, which were deduced from the known stretched quadrupole and dipole transitions in nuclei populated in the reaction. ",
+    "extracted_values": {
+      "clovers": 8,
+      "angle_groups": {
+        "90deg": 4,
+        "135deg": 4
+      },
+      "beam_MeV": 57,
+      "beam_pnA": 5,
+      "Te125_mg_per_cm2": 2,
+      "Au_mg_per_cm2": 8,
+      "enrichment_percent": 95.3,
+      "double_events": 28000000000.0,
+      "triple_or_higher_events": 5400000000.0
+    },
+    "boundary": "Printed report only; actual detector/event configuration not independently recovered"
+  },
+  {
+    "id": "Ding-canonical-QTR-inputs",
+    "source": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+    "sha256": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+    "PDF_page": 11,
+    "section": "III.C",
+    "text_block_indices_zero_based": [
+      7
+    ],
+    "bbox": [
+      54.0,
+      552.1875,
+      299.1197814941406,
+      723.7401123046875
+    ],
+    "original_text": "The QTR model [45] is applied to investigate the ob- served signature staggering in the g7/2 bands of 131Ba and 133Ce. The model is based on the Nilsson potential and includes pairing. The γ dependence of the moments of inertia is described with the irrotational-ﬂow model. Ten positive-parity orbitals near the neutron Fermi level are included in the conﬁguration space. The calculations are carried out using the shape parameters listed in Ta- ble III, that is ϵ2 = 0.185, γ = 10◦and ϵ4 = 0.01 for 133Ce and ϵ2 = 0.170, γ = 8◦and ϵ4 = 0.003 for 131Ba. Here the ϵ parameterization is used, while in Table III the deformation parameters are given in terms of the Woods-Saxon parameterization. An approximate rela- tion between them is ϵ2 ≈0.95β2 (for more details see Refs. [74–76]). ",
+    "extracted_values": {
+      "Ce133_epsilon2": 0.185,
+      "Ce133_gamma_deg": 10,
+      "Ce133_epsilon4": 0.01,
+      "Ba131_epsilon2": 0.17,
+      "Ba131_gamma_deg": 8,
+      "Ba131_epsilon4": 0.003,
+      "positive_parity_orbitals": 10
+    },
+    "boundary": "Author model-description inputs; not recovered actual input deck"
+  },
+  {
+    "id": "Ding-alternate-Ce-experiment",
+    "source": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+    "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+    "PDF_page": 2,
+    "section": "II.A Measurements, second experiment paragraph",
+    "text_block_indices_zero_based": [
+      10,
+      11
+    ],
+    "bboxes": [
+      [
+        303.9245300292969,
+        329.8585205078125,
+        549.01416015625,
+        397.1060485839844
+      ],
+      [
+        303.9259948730469,
+        394.982421875,
+        549.0170288085938,
+        546.0469970703125
+      ]
+    ],
+    "original_text": "The second experiment was performed at the separated sector cyclotron of iThemba LABS near Cape Town, South Africa. High-spin states in 133Ce were populated via the 125Te(12C, 4n) 133Ce reaction at a beam energy of 57 MeV and an intensity of 5 pnA. The target was an isotopically enriched (95.3%) 125Te metallic foil with a thickness of 2 mg/cm2 on an 8 mg/cm2 gold backing. The γ rays emitted by the excited residual nuclei were measured with the AFRODITE array [55,56] consisting of eight Compton-suppressed clover detectors arranged in two rings at 90◦(four clovers) and 135◦(four clovers) with respect to the beam direction. For ofﬂine analysis, 2.8 × 1010 double- and 5.4 × 109 triple- and higher-fold coincidence events were collected and sorted into two- and three-dimensional matrices. Data analysis was similar to that of 131Ba as mentioned above. Typical Rac ratios were ≈1.27 for stretched-quadrupole and ≈0.74 for stretched-dipole transitions, which were deduced from the known stretched-quadrupole and -dipole transitions in nuclei populated in the reaction. ",
+    "extracted_values": {
+      "clovers": 8,
+      "angle_groups": {
+        "90deg": 4,
+        "135deg": 4
+      },
+      "beam_MeV": 57,
+      "beam_pnA": 5,
+      "Te125_mg_per_cm2": 2,
+      "Au_mg_per_cm2": 8,
+      "enrichment_percent": 95.3,
+      "double_events": 28000000000.0,
+      "triple_or_higher_events": 5400000000.0
+    },
+    "boundary": "Printed report only; actual detector/event configuration not independently recovered"
+  },
+  {
+    "id": "Ding-alternate-QTR-inputs",
+    "source": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+    "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+    "PDF_page": 10,
+    "section": "III.C",
+    "text_block_indices_zero_based": [
+      3
+    ],
+    "bbox": [
+      40.91107177734375,
+      522.9894409179688,
+      286.0096130371094,
+      681.89306640625
+    ],
+    "original_text": "The QTR model [44] is applied to investigate the observed signature staggering in the g7/2 bands of 131Ba and 133Ce. The model is based on the Nilsson potential and includes pairing. The γ dependence of the moments of inertia is de- scribed with the irrotational-ﬂow model. Ten positive-parity orbitals near the neutron Fermi level are included in the con- ﬁguration space. The calculations are carried out using the shape parameters listed in Table III, that is, ϵ2 = 0.185, γ = 10◦, and ϵ4 = 0.01 for 133Ce and ϵ2 = 0.170, γ = 8◦, and ϵ4 = 0.003 for 131Ba. Here the ϵ parametrization is used, while in Table III the deformation parameters are given in terms of the Woods-Saxon parametrization. An approximate relation between them is ϵ2 ≈0.95β2 (for more details see Refs. [73–75]). ",
+    "extracted_values": {
+      "Ce133_epsilon2": 0.185,
+      "Ce133_gamma_deg": 10,
+      "Ce133_epsilon4": 0.01,
+      "Ba131_epsilon2": 0.17,
+      "Ba131_gamma_deg": 8,
+      "Ba131_epsilon4": 0.003,
+      "positive_parity_orbitals": 10
+    },
+    "boundary": "Author model-description inputs; not recovered actual input deck"
+  }
+]

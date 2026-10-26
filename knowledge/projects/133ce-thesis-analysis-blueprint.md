@@ -218,3 +218,47 @@ Rayleigh–Ritz只约束同一H、同参数/零点、真正嵌套空间的有序
 ## 单粒子能、Fermi能和程序接口的未闭合输入
 
 [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-30核ε表头MeV/5.45–6.51与正宇称λ50.6/51.0的字面，现有文本未闭合共同零点/单位。不可凭背景ħω约8MeV把某一列自改成ħω单位，也不能把正宇称λ当负宇称输入。后续要保存各核素/宇称的GAMPN输出header、ASYMO λ/Δ、统一offset/换算、对应轨道ID和实际版本；未取得前不输入数值求BCS占据或产physicalδ。这个缺口不证明实际代码错，而是论文summary不足以直接复制输入。
+
+## 同源装置与参数账本：8/13不能任选
+
+[[ding-2021-131ba-133ce-signature-splitting]] D21-D23-064-1–4和[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-31将实际版本对齐：Ding16页稿本/15页正式版的8clovers两环，同thesis13clovers三环相抵；反应/束流/靶/事件数对应，actual detector/event ledger仍缺。这使“同观测向量/同响应”不能仅由标题/事件总数宣布完成。PES β4与QTR ε4不互换，alignment Harris参考与核芯Harris不互换，期刊QTR ε4=.01支持正文谱系但不修实际input或表.1。
+
+## 整体M1缩放与configuration-only的区别
+
+固定H、所有态/相位、E2算符、能量和母末态/reference，仅作整个M1乘η>0，则δ→δ/η、rM1→η²rM1、rE2不变。原表两spin从δ分别需要QTR η=4.07273/16、FA .890909/2.88235；从rM1需QTR5/3.95811、FA1.14708/2.75330。625 QTR中心+.89到实测中心−1.5无正η解，但其大误差/其它根未纳入，不能据中心判sign排除或成分占优。
+
+这些只是Tables6.9–11打印中央值不能被单个共同正η精确同化的条件诊断，不是显著性/模型错误/实际g拟合。rM1(19/2)/rM1(17/2)在整体η²下不变，表QTR3、FA31/95，实验47/25；图QTR约.10→.03的下降分支另外保留，不用它替表.01。FA rE2表/图10倍冲突同样不受M1整体缩放改变。
+
+模型mixed photon yield u不是冻结量：u(η)=u(1)(η²+δ(1)²)/(1+δ(1)²)。实验计数保原数据，改变的是模型预测；如果模型yield也强制不变就与固定E2/仅改M1的合同冲突。单改gs会因l/s/core干涉产生逐线不同变化，不等同整体η。若B槽同时调整g、Q、惯量或态空间，必须登记新增模型自由度，不能称只重指派configuration。
+
+## BCS与reduced-B归一的独立练习
+
+[[ragnarsson-semmes-1988-particle-rotor-moments]] RS88-17/18限定86项精确控制：选定u/v=(3/5,4/5)、(5/13,12/13)，Fock散射T-odd63/65、T-even−33/65；对角电算符的qp总期望1减真空32/25才为−7/25。它不确定实际核素占据、不恢复1978显式EM矩阵元。声明3j约定下固定Mi完整Mf/q和已给B，不能重复初态平均；数学rank0控制不对应单光子γ。
+
+上述数学修正服务于后续读/编真实模型，但当前1978正文及2022实际producer仍缺，不能把条件控制精确度写成实验精度。所有新增分析needs_review:true，长期学习继续。
+
+## 冻结实验层的组态重指派：实际预测仍需共同producer
+
+[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-33把三种操作分开：同一态纯relabel无新预测；固定同H/T本征态集合的mapping须同时过Ex/Jπ/全链接网络；新增3qp、pairing/势/算符已是实质模型改变。原表相对Iγ不等原始N，当前可冻结公开21节点/48边，但不称已重放缺失N/AD/P/Cov。
+
+Ce Band4 #17/#16本已在九轨道空间和原混合内；裸ε差不能预测qp带头，因为同Δ时能序还依(εν−ε18)(εν+ε18−2λ)。负宇称λ/Δ/零点未知，3qp的pair-breaking/blocking/core与残余能也未得，832keV仅是已测带头而非能量可行性证明。Au保持[[sensharma-2020-longitudinal-wobbling-187au]]的Band2原wobbling、Band3普通SP身份；[[guo-2022-low-spin-wobbling-187au]]中不同主轨道解释仍需统一H/算符后才是纯mapping对比。
+
+选定球形纯j控制νh11/2在gs=.6free时gj=−.208691，对Ω5/2、7/2、9/2相同；渐近Nilsson gK是另一个极限，不能拿其差异当实际mixedQTR预测。轴对称goodK带内M1/E2公式含K²，实际δ符号需相干signed RME，gK或B平方不够；跨带Table6.11不能套带内CG比。3qp→1qp也非物理一体算符普适禁戒，Bogoliubov变换有qp数差±2项。τ、完整BR/ICC/Cov与静态矩等只有在预冻结模型预测向量可分且未定标时，才提供联合holdout；不承诺一量终判。
+
+## 131Ce/133Ce逐带与分析操作迁移
+
+[[alwaleedi-2013-band-structures-131ce]] AW13-D23-064-1–3与WK22-34支持按源/带头/具体links对照。131Ce Band3为61.8keV低态，133Ce同号为ground；133Ce Band3/2 13/2+差14.1和412.4/767.7links是same-spin身份练习，不是ωc或混合强度。133Ce论文未给可配套实验ix/crossing数值，保持unknown，模型Rl≈2不当cranking ix。两个“Band4”的head spin/解释也不相同，不合并成同一声子。
+
+| 同定义selected路径S（keV） | 131Ce | 133Ce |
+|---|---:|---:|
+| Band1 I13/2 | 180.80 | 182.10 |
+| Band1 I15/2 | −237.80 | −216.15 |
+| Band1 I17/2 | 320.50 | 277.30 |
+| Band4 I19/2 | 65.20 | 49.60 |
+| Band4 I21/2 | 17.15 | 100.55 |
+
+这些只是透明选定相邻M1路径的中央算术，不是原作者完整adopted S、未给Cov/CI或γ反演。131Ce Fig5.2 caption/正文身份差保留，回原γ rows避免一图双用。
+
+可迁移步骤：先作run/detector/line manifest；608.3/608.7重叠门用原响应、独立互符合/反符合和第三门检验候选拓扑，缺峰用上限而非零；AD/RAD/DCO/Rac按实际角组/门/取向/效率处理，dipole不单独定E/M；branch先同母态/分母出口再消τ，完整BR/ICC和mean/half定义齐才求absoluteB。131Ce已有Li/Singh寿命与静态矩各按具体态/带接入，不说全核无τ或把DSAM/RDDS当充分判据。
+
+附属研究下一日优先选一个实际输入可得的问题：582 out/out分母身份；程序ε/λ单位和完整input卡；131Ce Band3零点及互链；高spin3qp/crossing逐态mapping；真实角响应/双峰；既有独立τ能否接到目标母态。主日课程优先，缺口不靠插值/补δ/τ/机时关闭。全部新增推断needs_review:true。

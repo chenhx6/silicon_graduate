@@ -31,11 +31,11 @@
   "curriculum_cards_completed": 0,
   "closeout_window_ends_at": "2026-10-26T16:00:00+08:00",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-26T13:06:46.165635+08:00",
-    "hard_deadline": "2026-10-26T15:00:00+08:00",
+    "now_local": "2026-10-26T15:01:37.045543+08:00",
+    "hard_deadline": "2026-10-26T17:00:00+08:00",
     "next_scheduled_start": "2026-10-26T16:00:00+08:00",
-    "minutes_to_deadline": 113,
-    "minutes_to_next_start": 173,
+    "minutes_to_deadline": 118,
+    "minutes_to_next_start": 58,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
@@ -65,8 +65,16 @@
     "-a",
     "never"
   ],
-  "checkpoint_receipt": "runtime-snapshot-063.json",
-  "latest_continuation": "next-continuation-063.md",
+  "checkpoint_receipt": "runtime-snapshot-064.json",
+  "latest_continuation": "next-continuation-064.md",
   "uncredited_preview_day_index": 24,
-  "preview_entry": "preview-entry-017.json"
+  "preview_entry": "preview-entry-017.json",
+  "effective_overnight_until": "2026-10-26T17:00:00+08:00",
+  "original_overnight_until": "2026-10-26T15:00:00+08:00",
+  "deadline_override_receipt": "user-deadline-override-064.json",
+  "effective_closeout_window_ends_at": "2026-10-26T18:00:00+08:00",
+  "deadline_override_status": "explicit-user-authorized-active",
+  "deadline_override_sha256": "64b046d569cc2bc1143a8910a559cd244d839f90485cbe989b6ff9870a3c59be",
+  "baseline_reconstruction_receipt": "baseline-reconstruction-064.json",
+  "baseline_reconstruction_sha256": "106cdfb96a4ca1e7c0f3403f6527052aaf3514b229521085f923ba71626ad9f8"
 }

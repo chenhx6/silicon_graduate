@@ -1,0 +1,219 @@
+Chapter 6. Discussion
+93
+Wave functions for Band 4
+Band 4 is built on the same intrinsic conﬁguration as the yrast band. It is gener-
+ated by increasing the rotational angular momentum along the intermediate axis,
+and it also comprises 2ℏof rotation around the long axis. All QTR model states
+that form Band 4 have Rl ≈2ℏ, consequently, Kl ≈Ωl+2; thus at the bandhead of
+this band, is expected to have dominant components of (Ωl + 2, Ωl) = (13/2, 9/2);
+(11/2, 7/2); (9/2, 5/2);(15/2, 11/2) and so forth. Table 6.12 lists the three domi-
+nant components of the wave functions for each state in this band.
+Iπ
+contribution in terms of |Klν⟩
+13
+2
+−
+0.788
+
+
+ 13
+2 18
+
+
+−0.437
+
+
+−11
+2 17
+
+
++ 0.262
+
+
+−11
+2 19
+
+
+15
+2
+−
+0.692
+
+
+ 13
+2 18
+
+
+−0.473
+
+
+−11
+2 17
+
+
++ 0.350
+
+
+−15
+2 19
+
+
+17
+2
+−
+0.632
+
+
+ 13
+2 18
+
+
++ 0.505
+
+
+−11
+2 17
+
+
+−0.297
+
+
+−15
+2 19
+
+
+19
+2
+−
+0.514
+
+
+−11
+2 17
+
+
+−0.509
+
+
+ 13
+2 18
+
+
++ 0.326
+
+
+ 9
+216
+
+
+21
+2
+−
+−0.498
+
+
+−11
+2 17
+
+
+−0.442
+
+
+ 13
+2 18
+
+
+−0.352
+
+
+ 9
+216
+
+
+23
+2
+−
+0.461
+
+
+ 9
+218
+
+
++ 0.336
+
+
+−11
+2 19
+
+
+−0.331
+
+
+−3
+215
+
+
+25
+2
+−
+0.450
+
+
+−11
+2 17
+
+
++ 0.378
+
+
+ 9
+216
+
+
++ 0.281
+
+
+ 5
+218
+
+
+27
+2
+−
+−0.439
+
+
+ 9
+218
+
+
++ 0.339
+
+
+−3
+215
+
+
+−0.246
+
+
+ 1
+215
+
+
+Table 6.8: Main components of the QTR model wave functions for states in
+Band 4 of 133Ce expanded in a strong coupling basis |Klν⟩.
+In a similar fashion to Figure 6.12, Figure 6.13 shows the plot of the wave functions
+of the states in Band 4. The band head state, Iπ = 13/2−, consists primarily
+(∼62%) of (Kl, Ωl) = (13/2, 9/2) component, (see the tall dark-blue column
+in Figure 6.13).
+There is also a presence of the (11/2, 7/2) component which
+corresponds to the h11/2 orbital with single-particle angular momentum projection
+of 7/2 on the long axis.
+This means that this state has the same |ν⟩= |18⟩
+orbital as the band head state of the yrast band (h11/2 orbital with single-particle
+angular momentum projection of 9/2 on the long axis) and an additional ∼2ℏof
+rotational angular momentum (Kl = Ωl + Rl). At the band head the dominant
+component corresponds to (13/2, 9/2), thus I = Kl, suggesting that the total
+angular momentum is aligned along the long axis.

@@ -1,0 +1,334 @@
+Chapter 6. Discussion
+91
+suggests that already at the band head, the single-particle angular momentum is
+not fully aligned along the long axis.
+The states with Iπ = 9/2−to Iπ = 17/2−in Band 1 have a dominant Ωl = 9/2
+nature because the (Kl, Ωl) = (9/2, 9/2) component has the largest contributions
+to the wavefunctions of the states. While the (9/2, 9/2) component is dominant
+for these states, the magnitude of this contribution is decreasing with increasing
+spin (see the light-blue column in Figure 6.12). In fact, the (7/2, 7/2), (11/2, 11/2)
+and (5/2, 5/2) components are also present at low spins and their contributions to
+the wave functions increase with increasing spin (see the yellow, green, and grey
+columns, respectively in Figure 6.12). This is due to the Coriolis interaction which
+causes the misalignment of the single-particle angular momentum of the valence
+hole,⃗j, leading to components with Ωl = 7/2 and Ωl = 5/2.
+Iπ
+contribution in terms of |Klν⟩
+9
+2
+−
+−0.846
+
+
+ 9
+218
+
+
+−0.477
+
+
+−7
+217
+
+
++ 0.205
+
+
+ 5
+216
+
+
+11
+2
+−
+0.715
+
+
+ 9
+218
+
+
+−0.460
+
+
+−7
+217
+
+
++ 0.412
+
+
+−11
+2 19
+
+
+13
+2
+−
+−0.705
+
+
+ 9
+218
+
+
+−0.489
+
+
+−7
+217
+
+
++ 0.391
+
+
+−11
+2 19
+
+
+15
+2
+−
+−0.606
+
+
+ 9
+218
+
+
++ 0.508
+
+
+−7
+217
+
+
++ 0.325
+
+
+ 5
+216
+
+
+17
+2
+−
+−0.618
+
+
+ 9
+218
+
+
+−0.503
+
+
+−7
+217
+
+
++ 0.299
+
+
+ 11
+2 19
+
+
+19
+2
+−
+−0.478
+
+
+ 9
+218
+
+
++ 0.475
+
+
+−7
+217
+
+
++ 0.356
+
+
+ 5
+216
+
+
+21
+2
+−
+0.528
+
+
+ 9
+218
+
+
++ 0.472
+
+
+−7
+217
+
+
+−0.360
+
+
+ 13
+2 18
+
+
+23
+2
+−
+0.438
+
+
+−7
+217
+
+
+−0.395
+
+
+ 9
+218
+
+
++ 0.366
+
+
+ 5
+216
+
+
+25
+2
+−
+0.472
+
+
+ 9
+218
+
+
++ 0.450
+
+
+ 7
+217
+
+
+−0.375
+
+
+ 13
+2 18
+
+
+27
+2
+−
+0.408
+
+
+−7
+217
+
+
++ 0.37
+
+
+ 5
+216
+
+
+−0.340
+
+
+ 9
+218
+
+
+29
+2
+−
+−0.434
+
+
+ 9
+218
+
+
+−0.432
+
+
+−7
+217
+
+
++ 0.368
+
+
+ 13
+2 18
+
+
+31
+2
+−
+−0.385
+
+
+−7
+217
+
+
+−0.372
+
+
+ 5
+216
+
+
++ 0.320
+
+
+ 1
+216
+
+
+35
+2
+−
+−0.371
+
+
+ 5
+216
+
+
+−0.366
+
+
+ −7
+2 17
+
+
++ 0.329
+
+
+ 1
+216
+
+
+Table 6.7: The amplitudes and main components of the QTR model wave
+functions for states in the yrast band of 133Ce expanded in a strong coupling
+basis |Klν⟩. The contribution of each |Klν⟩is the square of the amplitude.
+At spins Iπ = 23/2−to Iπ = 29/2−, the (7/2, 7/2), (11/2, 11/2), (13/2, 9/2) and
+(5/2, 5/2) components come so low in energy that for some states these components
+are favored and they become the dominant components in the wave functions.

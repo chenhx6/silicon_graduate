@@ -1,0 +1,150 @@
+430
+I. Ragnarsson, RB. Semmes, The particle-rotor model
+particle(s).
+In
+the
+odd case, explicit formulae for the MI and E2 matrix elements
+are given in /i/. Equivalent formulae are straightforward although tedious to derive
+also in the odd-odd case. The mixing ~atio 6 is given by
+6 : ~
+E
+<IH,~(E2)UI-I>
+y <III.~(MI)III-I>
+(29)
+Magnetic moments ~ and electric quadrupole moments Qs are obtained as
+O s =
+<III.M(E2)III>
+_~ 0
+(31)
+In the present computer code, it is also possible to
+calculate
+the
+hyperfine
+anomaly, the Bohr-Weisskopf effect. Similar matrix
+elements
+as
+for
+the
+magnetic
+moment enter. However, the operators ~ and ~
+are
+multiplied
+by
+radial
+functions
+which can be expanded in powers of r 2 where it is generally sufficient
+to
+consider
+only the r 2 and r 4 terms /13/. Additionally, a tensor term proportional
+to
+[~'Y2 ]I
+is of some importance. Also for the magnetic moment, a term of this type enters /12/
+but it is of much less importance and is generally neglected.
+2.6
+Total energy calculations
+For even nuclei, the total energy is calculated (e.g.
+/14/)
+as
+a
+sum
+of
+a
+macroscopic energy (e.g. the liquid drop energy), the
+Strutinsky
+shell
+correction
+energy and the pairing energy
+Etot(S) = Emacr(e) +Eshell(S) + Epair(~)
+(32)
+where
+a
+is
+a
+shorthand notation of the shape parameters, a=(s163
+). For odd
+nuclei one particle is unpaired which leads to a specialisation energy. For deformed
+nuclei,
+this
+specialisation energy has generally been calculated in a rather crude
+approximation
+with
+no proper coupling between the core spin and the particle spin.
+However, within our particle-rotor approach the full expression for the energy asso-
+ciated
+with the Hamiltonian of eq. (I) Or (2) is very straightforward to calculate.
+This
+specialisation
+energy
+is
+then
+added
+to
+the
+"even
+nucleus" total energy
+expression of eq. (32) which is calculated in an analogous way also for odd nuclei.
+2.7
+Parameters
+Our
+standard values for the single-particle parameters K and g are those given
+in
+/7/.
+For
+detailed
+fits
+in
+specific regions, small adjustments are sometimes
+necessary
+as
+discussed below. The pairing parameters are those of /14/. Then, with
+our
+methods,
+the Fermi level and the BCS gap parameter are derived quantities, not
+input
+parameters.
+In
+the
+applications
+presented
+here, the moment of inertia is
+chosen according to Grodzin's relation. Only when explicitly stated, the possibility
+to
+attenuate the Coriolis matrix elements (5<1) is exploited. The effective spin g-
+factor
+is
+taken
+70% of the free nucleon value /15/ for both protons and neutrons.
+The core g-factor is chosen equal to Z/A while the core quadrupole moment was calcu-
+lated microscopically. For odd nuclei, we include 10-15 deformed orbitals IV> in the
+basis, eq. (13), so that full convergence is achieved. For odd-odd nuclei, typically
+4
+neutron
+and
+proton states are included in the basis, eq. (19). The errors which
+are
+introduced
+due
+to this somewhat more severe cut-off should be negligible. The
+residual neutron-proton interaction Vpn was chosen as the central force of ref. /ii/
+(p.131), with u 0 of eg. (22) set to zero. In a few cases a value of -50 MeV was also
+used
+for
+u 0 (as suggested in ref. /35/), but this did not change the main results.
+For
+the
+Ho
+isotopes
+(sect.
+3),
+ground
+state deformations (all assumed axially
+symmetric) were estimated from /16/. In the case of 185Au (sect. 4) where the energy
+is
+considered
+as function of ~ and ~, E 4 was chosen equal to zero for oblate shape
+and increasing in a monotonic way for prolate shape (e.g. s
+for s
+(~=0)).
+In
+the y-plane, a smoothly yarying function was then chosen. These values of C 4 are
+obtained from total energy calculation of neighbouring even nuclei, e.g. ref. /17/.

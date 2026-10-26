@@ -1,0 +1,289 @@
+Chapter 6. Discussion
+88
+for the MoI’s of the core was used with J0 = 10 ℏ2MeV−1 and J1 = 25 ℏ4MeV−3.
+The electromagnetic transition probabilities were calculated with an eﬀective gs
+factor of gs = 0.6gfree and a core g-factor of gR = Z/A = 0.44 was used [62].
+Table 6.6 presents the nine negative-parity orbitals close to the Fermi surface
+used in the calculations and includes; the orbital, |ν⟩, the approximate Nilsson
+quantum numbers, the single-particle energies (ε) and the main components of |ν⟩
+expanded in a basis |NLJΩ⟩, where N is the major oscillator shell number, L is the
+orbital angular momentum quantum number, J is the total single-particle angular
+momentum quantum and Ωl is the projection of J on the long axis.
+Orbitals
+|14⟩to |19⟩originate from the h11/2 sub-shell with projections on the long axis of
+Ωl = 1/2 to Ωl = 11/2, respectively (see Table 6.6).
+Single-particle information
+|ν⟩
+Ωπ[NnzΛ]
+ε(MeV)
+main components in terms of |NLJΩl⟩
+|14⟩
+1/2−[550]
+5.6569
+0.783
+
+
+
+5h 11
+2
+1
+2
+E
++0.512
+
+
+
+5h 11
+2 −3
+2
+E
++0.246
+
+
+
+5h 11
+2
+5
+2
+E
+|15⟩
+3/2−[541]
+5.7429
+0.772
+
+
+
+5h 11
+2 −3
+2
+E
+−0.404
+
+
+
+5h 11
+2
+1
+2
+E
+−0.359
+
+
+
+5h 11
+2
+5
+2
+E
+|16⟩
+5/2−[532]
+5.8083
+−0.864
+
+
+
+5h 11
+2
+5
+2
+E
++0.360
+
+
+
+5h 11
+2
+1
+2
+E
++0.185
+
+
+
+5f 7
+2
+1
+2
+E
+|17⟩
+7/2−[523]
+5.9012
+−0.955
+
+
+
+5h 11
+2
+7
+2
+E
++0.192
+
+
+
+5h 11
+2
+−3
+2
+E
++0.152
+
+
+
+5f 7
+2 −3
+2
+E
+|18⟩
+9/2−[514]
+6.0356
+0.981
+
+
+
+5h 11
+2
+9
+2
+E
+−0.149
+
+
+
+5f 7
+2
+5
+2
+E
+−0.104
+
+
+
+5h 11
+2
+5
+2
+E
+|19⟩
+11/2−[505]
+6.2121
+0.986
+
+
+
+5h 11
+2 −11
+2
+E
+−0.155
+
+
+
+5f 7
+2 −7
+2
+E
+−0.049
+
+
+
+5h 11
+2 −7
+2
+E
+|20⟩
+1/2−[541]
+6.2637
+−0746
+
+
+
+5f 7
+2
+1
+2
+E
+−0.400
+
+
+
+5p 3
+2 −3
+2
+E
+−0.299
+
+
+
+5f 7
+2 −3
+2
+E
+|21⟩
+1/2−[530]
+6.3212
+−0.724
+
+
+
+5h 9
+2
+1
+2
+E
+−0.463
+
+
+
+5h 9
+2 −3
+2
+E
+−0.317
+
+
+
+5f 5
+2
+1
+2
+E
+|22⟩
+3/2−[532]
+6.3921
+−0.606
+
+
+
+5f 7
+2 −3
+2
+E
++0.437
+
+
+
+5h 9
+2
+1
+2
+E
++0.320
+
+
+
+5h 9
+2 −3
+2
+E
+Table 6.6: Neutron single-particle orbitals, |ν⟩with negative-parity lying close
+to the Fermi level for 133Ce, expanded in the basis |NLJΩl⟩together with the
+single particle energies (ε) and approximate Nilsson quantum numbers at the
+deformation parameters listed in Table 6.1. The contribution of |NLJΩl⟩to |ν⟩
+is the square of the amplitude of |NLJΩl⟩.
+The orbital closest to the Fermi level is |ν⟩= |18⟩. The yrast band (Band 1) is
+thus mainly associated with orbital |18⟩which consists predominantly (96%) of
+the h11/2 orbital with a projection of 9/2 on the long axis. The projections K
+and Ωdo not have sharp values on any intrinsic nuclear axis. Each |ν⟩consists
+of contributions with diﬀerent Ωon the long axis. The excited band (Band 4)
+has the same intrinsic conﬁguration as Band 1, that is it is associated mainly

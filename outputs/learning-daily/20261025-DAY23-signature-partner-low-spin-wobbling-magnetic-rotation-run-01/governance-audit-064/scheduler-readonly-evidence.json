@@ -1,0 +1,38 @@
+{
+  "observed_at_UTC": "2026-10-26T06:14:40.890834+00:00",
+  "scheduler_state_path": "outputs/learning-milestones/2026-09-one-month-scheduler-state.json",
+  "scheduler_state_sha256": "4a1cfdb94d652e7852da9dc1181cfbe25378c3cc8747007984f876b0c8fd36d1",
+  "scheduler_fields": {
+    "last_scheduled_date": "2026-10-25",
+    "last_status": "failed",
+    "last_runner_exit": 130,
+    "updated_at": "2026-10-25T20:17:11.150199+08:00",
+    "schedule_id": "wiki-daily-learning"
+  },
+  "script_processes": [],
+  "learning_locks": [
+    {
+      "path": "/tmp/wiki-one-month-daily-learning-daemon.lock",
+      "token": "00:84:458516",
+      "kernel_records": []
+    },
+    {
+      "path": "/tmp/wiki-one-month-daily-learning.lock",
+      "token": "00:84:458588",
+      "kernel_records": []
+    }
+  ],
+  "recent_running_receipts": [
+    {
+      "path": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/run.json",
+      "run_id": "2026-10-25-day-23-01",
+      "day_index": 23,
+      "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+      "status": "running",
+      "effective_overnight_until": "2026-10-26T17:00:00+08:00",
+      "overnight_until": "2026-10-26T15:00:00+08:00"
+    }
+  ],
+  "current_report_check_ignore_exit": null,
+  "boundary": "Read-only snapshot, not a future scheduling guarantee; no queue/finalize/start/run/locks mutated."
+}

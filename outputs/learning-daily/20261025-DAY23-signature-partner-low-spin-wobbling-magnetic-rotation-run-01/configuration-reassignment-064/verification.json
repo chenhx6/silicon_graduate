@@ -1,0 +1,1127 @@
+{
+  "status": "computed-conditional",
+  "all_checks_passed": true,
+  "check_count": 119,
+  "checks": [
+    {
+      "name": "lande_vs_spinCG_neutron_0.6_h11/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_0.6_h11/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_0.6_h11/2_11/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_0.6_h9/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_0.6_h9/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_0.6_h9/2_9/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_0.6_f7/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_0.6_f7/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_0.6_f7/2_7/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_1.0_h11/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_1.0_h11/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_1.0_h11/2_11/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_1.0_h9/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_1.0_h9/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_1.0_h9/2_9/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_1.0_f7/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_1.0_f7/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_neutron_1.0_f7/2_7/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_0.6_h11/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_0.6_h11/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_0.6_h11/2_11/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_0.6_h9/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_0.6_h9/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_0.6_h9/2_9/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_0.6_f7/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_0.6_f7/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_0.6_f7/2_7/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_1.0_h11/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_1.0_h11/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_1.0_h11/2_11/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_1.0_h9/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_1.0_h9/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_1.0_h9/2_9/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_1.0_f7/2_1/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_1.0_f7/2_3/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "lande_vs_spinCG_proton_1.0_f7/2_7/2",
+      "passed": true,
+      "scope": "selected pure spherical l,j model; not actual mixed QTR gK"
+    },
+    {
+      "name": "same_h11_j_same_g_for_threeOmega",
+      "passed": true,
+      "scope": "different Omega alone does not distinguish purej gj"
+    },
+    {
+      "name": "single_hole_has_same_gj",
+      "passed": true,
+      "scope": "hole angular momentum and magnetic moment both reverse relative to removed particle"
+    },
+    {
+      "name": "M1CG_closed_17/2_5/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_17/2_5/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_17/2_5/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "M1CG_closed_17/2_7/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_17/2_7/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_17/2_7/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "M1CG_closed_17/2_9/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_17/2_9/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_17/2_9/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "M1CG_closed_17/2_13/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_17/2_13/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_17/2_13/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "M1CG_closed_21/2_5/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_21/2_5/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_21/2_5/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "M1CG_closed_21/2_7/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_21/2_7/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_21/2_7/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "M1CG_closed_21/2_9/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_21/2_9/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_21/2_9/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "M1CG_closed_21/2_13/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_21/2_13/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_21/2_13/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "M1CG_closed_25/2_5/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_25/2_5/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_25/2_5/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "M1CG_closed_25/2_7/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_25/2_7/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_25/2_7/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "M1CG_closed_25/2_9/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_25/2_9/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_25/2_9/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "M1CG_closed_25/2_13/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "E2CG_closed_25/2_13/2",
+      "passed": true,
+      "scope": "goodK intraband transition only"
+    },
+    {
+      "name": "ratioCG_closed_25/2_13/2",
+      "passed": true,
+      "scope": "Ksquare required in M1 rotor formula"
+    },
+    {
+      "name": "Q0_inverse_square_selected_collective_Rl2_17/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_collective_Rl2_17/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "Q0_inverse_square_selected_collective_Rl2_21/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_collective_Rl2_21/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "Q0_inverse_square_selected_collective_Rl2_25/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_collective_Rl2_25/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "Q0_inverse_square_selected_orbital_7of2_17/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_orbital_7of2_17/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "Q0_inverse_square_selected_orbital_7of2_21/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_orbital_7of2_21/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "Q0_inverse_square_selected_orbital_7of2_25/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_orbital_7of2_25/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "Q0_inverse_square_selected_orbital_5of2_17/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_orbital_5of2_17/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "Q0_inverse_square_selected_orbital_5of2_21/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_orbital_5of2_21/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "Q0_inverse_square_selected_orbital_5of2_25/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_orbital_5of2_25/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "Q0_inverse_square_selected_3qp_Jp2_17/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_3qp_Jp2_17/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "Q0_inverse_square_selected_3qp_Jp2_21/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_3qp_Jp2_21/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "Q0_inverse_square_selected_3qp_Jp2_25/2",
+      "passed": true,
+      "scope": "chosen Q0 reference unit, not measuredQ"
+    },
+    {
+      "name": "M1_zero_gK_equals_gR_selected_3qp_Jp2_25/2",
+      "passed": true,
+      "scope": "axial intraband rotational M1 component only"
+    },
+    {
+      "name": "compositeCoreCancellation",
+      "passed": true,
+      "scope": "selected locked axial core+particle moment; no actual j/R measurement"
+    },
+    {
+      "name": "Ce_number_parity_1qp_vs3qp",
+      "passed": true,
+      "scope": "both require odd neutron and even proton speciesparity; not full occupations"
+    },
+    {
+      "name": "identical_h11_protons_maxJ10",
+      "passed": true,
+      "scope": "Pauli bound for two particles in samej shell, not nucleus maximumI"
+    },
+    {
+      "name": "threeqp_negative_spatialparity",
+      "passed": true,
+      "scope": "chosen neutronh and two protonh; generic pi² parity unspecified"
+    },
+    {
+      "name": "threeqp_intrinsic_capacity_31of2",
+      "passed": true,
+      "scope": "selected valence subspace only; core may add angular momentum"
+    },
+    {
+      "name": "qp_order_can_reverse_with_Fermi",
+      "passed": true,
+      "scope": "dimensionless selected BCS control; not actual Ce energy zero or pairing input"
+    },
+    {
+      "name": "sameGap_pair_cost_atleast2Delta",
+      "passed": true,
+      "scope": "fixed reference quasiparticle sum only, not total band excitation after blocking/core/residual changes"
+    },
+    {
+      "name": "onebody_operator_can_connect_0and2qp",
+      "passed": true,
+      "scope": "two-mode BCS Fockcontrol n1, not a claimed nuclear electromagnetic matrix element"
+    },
+    {
+      "name": "M1_spin_triangle_disallows_DeltaI2",
+      "passed": true,
+      "scope": "exact angular momentum triangle, independent of configuration labels"
+    },
+    {
+      "name": "Kmixing_not_universalM1ban",
+      "passed": true,
+      "scope": "only selected exactK components, not actual triaxial band prohibition"
+    },
+    {
+      "name": "delta_sign_not_from_B",
+      "passed": true,
+      "scope": "change relative physicalRME sign, not arbitrary statephase; B values identical"
+    },
+    {
+      "name": "state_rephase_leaves_delta",
+      "passed": true,
+      "scope": "common initial/final statephase cancels between amplitudes"
+    },
+    {
+      "name": "conversion_coefficient_not_delta_sign",
+      "passed": true,
+      "scope": "selected alpha values only; independent conversion measurement constrains mixture magnitude, not relative sign"
+    },
+    {
+      "name": "conversion_pure_limits",
+      "passed": true,
+      "scope": "specifiedshell/theoryversion must be matched for actualtarget"
+    },
+    {
+      "name": "same_staticg_opposite_delta_possible",
+      "passed": true,
+      "scope": "selected two-amplitude mathematical counterexample, not a QTR Hamiltonianfit"
+    },
+    {
+      "name": "photon_and_conversion_rate_closure",
+      "passed": true,
+      "scope": "completebranch chosen control, tau is arbitrary unit"
+    },
+    {
+      "name": "tau_rescales_all_B_not_sign",
+      "passed": true,
+      "scope": "samebranches andICC; doubling lifetime halves each absoluteB, notmodeidentity"
+    },
+    {
+      "name": "D_frozen_Ce_TiP_source",
+      "passed": true,
+      "scope": "hashcheck freezes published transcription, not unprovided rawcounts or covariance"
+    },
+    {
+      "name": "D_frozen_Ce_orbital17_hypothesis",
+      "passed": true,
+      "scope": "hashcheck freezes published transcription, not unprovided rawcounts or covariance"
+    },
+    {
+      "name": "D_frozen_Ce_orbital16_hypothesis",
+      "passed": true,
+      "scope": "hashcheck freezes published transcription, not unprovided rawcounts or covariance"
+    },
+    {
+      "name": "D_frozen_Ce_3qp_hypothesis",
+      "passed": true,
+      "scope": "hashcheck freezes published transcription, not unprovided rawcounts or covariance"
+    }
+  ],
+  "adopted_background_constants": {
+    "gs_free": {
+      "neutron": -3.826,
+      "proton": 5.586
+    },
+    "gs_quench_choices": [
+      0.6,
+      1.0
+    ],
+    "gl_neutron": 0.0,
+    "gl_proton": 1.0,
+    "core_gR_selected": {
+      "Ce": 0.43609022556390975,
+      "Au": 0.42245989304812837
+    },
+    "source_Ce_rounded_gR": 0.44,
+    "Q0_reference_eb": 1.0,
+    "actual_Q0_supplied": false
+  },
+  "purej_g_controls": [
+    {
+      "species": "neutron",
+      "gl": 0.0,
+      "gs": -2.2956,
+      "quench": 0.6,
+      "orbital": "h11/2",
+      "gj": -0.2086909090909091,
+      "input_status": "selected_background_not_nuclear_measurement"
+    },
+    {
+      "species": "neutron",
+      "gl": 0.0,
+      "gs": -2.2956,
+      "quench": 0.6,
+      "orbital": "h9/2",
+      "gj": 0.2086909090909091,
+      "input_status": "selected_background_not_nuclear_measurement"
+    },
+    {
+      "species": "neutron",
+      "gl": 0.0,
+      "gs": -2.2956,
+      "quench": 0.6,
+      "orbital": "f7/2",
+      "gj": -0.3279428571428571,
+      "input_status": "selected_background_not_nuclear_measurement"
+    },
+    {
+      "species": "neutron",
+      "gl": 0.0,
+      "gs": -3.826,
+      "quench": 1.0,
+      "orbital": "h11/2",
+      "gj": -0.34781818181818186,
+      "input_status": "selected_background_not_nuclear_measurement"
+    },
+    {
+      "species": "neutron",
+      "gl": 0.0,
+      "gs": -3.826,
+      "quench": 1.0,
+      "orbital": "h9/2",
+      "gj": 0.34781818181818186,
+      "input_status": "selected_background_not_nuclear_measurement"
+    },
+    {
+      "species": "neutron",
+      "gl": 0.0,
+      "gs": -3.826,
+      "quench": 1.0,
+      "orbital": "f7/2",
+      "gj": -0.5465714285714286,
+      "input_status": "selected_background_not_nuclear_measurement"
+    },
+    {
+      "species": "proton",
+      "gl": 1.0,
+      "gs": 3.3516,
+      "quench": 0.6,
+      "orbital": "h11/2",
+      "gj": 1.2137818181818183,
+      "input_status": "selected_background_not_nuclear_measurement"
+    },
+    {
+      "species": "proton",
+      "gl": 1.0,
+      "gs": 3.3516,
+      "quench": 0.6,
+      "orbital": "h9/2",
+      "gj": 0.7862181818181818,
+      "input_status": "selected_background_not_nuclear_measurement"
+    },
+    {
+      "species": "proton",
+      "gl": 1.0,
+      "gs": 3.3516,
+      "quench": 0.6,
+      "orbital": "f7/2",
+      "gj": 1.335942857142857,
+      "input_status": "selected_background_not_nuclear_measurement"
+    },
+    {
+      "species": "proton",
+      "gl": 1.0,
+      "gs": 5.586,
+      "quench": 1.0,
+      "orbital": "h11/2",
+      "gj": 1.416909090909091,
+      "input_status": "selected_background_not_nuclear_measurement"
+    },
+    {
+      "species": "proton",
+      "gl": 1.0,
+      "gs": 5.586,
+      "quench": 1.0,
+      "orbital": "h9/2",
+      "gj": 0.5830909090909091,
+      "input_status": "selected_background_not_nuclear_measurement"
+    },
+    {
+      "species": "proton",
+      "gl": 1.0,
+      "gs": 5.586,
+      "quench": 1.0,
+      "orbital": "f7/2",
+      "gj": 1.6551428571428572,
+      "input_status": "selected_background_not_nuclear_measurement"
+    }
+  ],
+  "asymptotic_gK_controls": [
+    {
+      "label": "[514]9/2",
+      "Omega": "9/2",
+      "Lambda": 4,
+      "Sigma": "1/2",
+      "gK_asymptotic_spin_product": -0.25506666666666666,
+      "comparison_purej_gj": -0.2086909090909091,
+      "limit": "selected axial asymptotic LambdaSigma product; different limit from purej; not actual QTR"
+    },
+    {
+      "label": "[523]7/2",
+      "Omega": "7/2",
+      "Lambda": 3,
+      "Sigma": "1/2",
+      "gK_asymptotic_spin_product": -0.3279428571428571,
+      "comparison_purej_gj": -0.2086909090909091,
+      "limit": "selected axial asymptotic LambdaSigma product; different limit from purej; not actual QTR"
+    },
+    {
+      "label": "[532]5/2",
+      "Omega": "5/2",
+      "Lambda": 2,
+      "Sigma": "1/2",
+      "gK_asymptotic_spin_product": -0.45912,
+      "comparison_purej_gj": -0.2086909090909091,
+      "limit": "selected axial asymptotic LambdaSigma product; different limit from purej; not actual QTR"
+    }
+  ],
+  "CG_checks": [
+    {
+      "I": "17/2",
+      "K": "5/2",
+      "M1_CG2_exact": "22/51",
+      "E2_CG2_exact": "55/204",
+      "ratio_geometry_factor_exact": "24",
+      "ratio_geometry_factor": 24.0
+    },
+    {
+      "I": "17/2",
+      "K": "7/2",
+      "M1_CG2_exact": "20/51",
+      "E2_CG2_exact": "11/51",
+      "ratio_geometry_factor_exact": "588/11",
+      "ratio_geometry_factor": 53.45454545454545
+    },
+    {
+      "I": "17/2",
+      "K": "9/2",
+      "M1_CG2_exact": "52/153",
+      "E2_CG2_exact": "13/85",
+      "ratio_geometry_factor_exact": "108",
+      "ratio_geometry_factor": 108.0
+    },
+    {
+      "I": "17/2",
+      "K": "13/2",
+      "M1_CG2_exact": "10/51",
+      "E2_CG2_exact": "7/204",
+      "ratio_geometry_factor_exact": "4056/7",
+      "ratio_geometry_factor": 579.4285714285714
+    },
+    {
+      "I": "21/2",
+      "K": "5/2",
+      "M1_CG2_exact": "104/231",
+      "E2_CG2_exact": "312/1045",
+      "ratio_geometry_factor_exact": "475/21",
+      "ratio_geometry_factor": 22.61904761904762
+    },
+    {
+      "I": "21/2",
+      "K": "7/2",
+      "M1_CG2_exact": "14/33",
+      "E2_CG2_exact": "273/1045",
+      "ratio_geometry_factor_exact": "1862/39",
+      "ratio_geometry_factor": 47.743589743589745
+    },
+    {
+      "I": "21/2",
+      "K": "9/2",
+      "M1_CG2_exact": "30/77",
+      "E2_CG2_exact": "45/209",
+      "ratio_geometry_factor_exact": "3078/35",
+      "ratio_geometry_factor": 87.94285714285714
+    },
+    {
+      "I": "21/2",
+      "K": "13/2",
+      "M1_CG2_exact": "68/231",
+      "E2_CG2_exact": "816/7315",
+      "ratio_geometry_factor_exact": "3211/12",
+      "ratio_geometry_factor": 267.5833333333333
+    },
+    {
+      "I": "25/2",
+      "K": "5/2",
+      "M1_CG2_exact": "6/13",
+      "E2_CG2_exact": "189/598",
+      "ratio_geometry_factor_exact": "460/21",
+      "ratio_geometry_factor": 21.904761904761905
+    },
+    {
+      "I": "25/2",
+      "K": "7/2",
+      "M1_CG2_exact": "144/325",
+      "E2_CG2_exact": "432/1495",
+      "ratio_geometry_factor_exact": "1127/25",
+      "ratio_geometry_factor": 45.08
+    },
+    {
+      "I": "25/2",
+      "K": "9/2",
+      "M1_CG2_exact": "136/325",
+      "E2_CG2_exact": "1904/7475",
+      "ratio_geometry_factor_exact": "5589/70",
+      "ratio_geometry_factor": 79.84285714285714
+    },
+    {
+      "I": "25/2",
+      "K": "13/2",
+      "M1_CG2_exact": "114/325",
+      "E2_CG2_exact": "513/2990",
+      "ratio_geometry_factor_exact": "15548/75",
+      "ratio_geometry_factor": 207.30666666666667
+    }
+  ],
+  "selected_axial_rate_ratio_controls": [
+    {
+      "label": "selected_collective_Rl2",
+      "I": "17/2",
+      "K": "13/2",
+      "gK_control": -0.010296713812503291,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 115.45769019479042,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "selected fixed axial vector limit only; not fullTiP"
+    },
+    {
+      "label": "selected_collective_Rl2",
+      "I": "21/2",
+      "K": "13/2",
+      "gK_control": -0.010296713812503291,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 53.31900276356641,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "selected fixed axial vector limit only; not fullTiP"
+    },
+    {
+      "label": "selected_collective_Rl2",
+      "I": "25/2",
+      "K": "13/2",
+      "gK_control": -0.010296713812503291,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 41.30819582524724,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "selected fixed axial vector limit only; not fullTiP"
+    },
+    {
+      "label": "selected_orbital_7of2",
+      "I": "17/2",
+      "K": "7/2",
+      "gK_control": -0.2086909090909091,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 22.223337674979295,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "pureh11 samegj,goodK=Omega; not sourceorbital17 eigenband"
+    },
+    {
+      "label": "selected_orbital_7of2",
+      "I": "21/2",
+      "K": "7/2",
+      "gK_control": -0.2086909090909091,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 19.849049461840487,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "pureh11 samegj,goodK=Omega; not sourceorbital17 eigenband"
+    },
+    {
+      "label": "selected_orbital_7of2",
+      "I": "25/2",
+      "K": "7/2",
+      "gK_control": -0.2086909090909091,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 18.741681439232543,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "pureh11 samegj,goodK=Omega; not sourceorbital17 eigenband"
+    },
+    {
+      "label": "selected_orbital_5of2",
+      "I": "17/2",
+      "K": "5/2",
+      "gK_control": -0.2086909090909091,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 9.977825078562137,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "pureh11 samegj,goodK=Omega; not sourceorbital16 eigenband"
+    },
+    {
+      "label": "selected_orbital_5of2",
+      "I": "21/2",
+      "K": "5/2",
+      "gK_control": -0.2086909090909091,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 9.403704191105188,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "pureh11 samegj,goodK=Omega; not sourceorbital16 eigenband"
+    },
+    {
+      "label": "selected_orbital_5of2",
+      "I": "25/2",
+      "K": "5/2",
+      "gK_control": -0.2086909090909091,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 9.106745111386076,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "pureh11 samegj,goodK=Omega; not sourceorbital16 eigenband"
+    },
+    {
+      "label": "selected_3qp_Jp2",
+      "I": "17/2",
+      "K": "13/2",
+      "gK_control": 0.22899300699300704,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 24.85126145769229,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "chosen sameparity protonpair Jp=Kp=2; energy feasibility unknown"
+    },
+    {
+      "label": "selected_3qp_Jp2",
+      "I": "21/2",
+      "K": "13/2",
+      "gK_control": 0.22899300699300704,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 11.476450603725953,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "chosen sameparity protonpair Jp=Kp=2; energy feasibility unknown"
+    },
+    {
+      "label": "selected_3qp_Jp2",
+      "I": "25/2",
+      "K": "13/2",
+      "gK_control": 0.22899300699300704,
+      "gR_chosen": 0.43609022556390975,
+      "Q0_reference_eb": 1.0,
+      "BM1_over_BE2_muN2_per_e2b2": 8.891229099307687,
+      "measurable_object": "intraband M1(I→I−1) / intraband E2(I→I−2)",
+      "actual_nuclear_prediction": false,
+      "boundary": "chosen sameparity protonpair Jp=Kp=2; energy feasibility unknown"
+    }
+  ],
+  "axial_K_selection_controls": [
+    {
+      "candidate": "axial_K13of2",
+      "final_K": "9/2",
+      "DeltaK": "2",
+      "M1_K_allowed": false,
+      "E2_K_allowed": true,
+      "exact_spin_parity_result": "sameparity DeltaI1 permitsM1andE2 by triangle/parity",
+      "approximation": "axial exactgoodK only; triaxialKmixing liftsKforbidden strength"
+    },
+    {
+      "candidate": "axial_K7of2",
+      "final_K": "9/2",
+      "DeltaK": "1",
+      "M1_K_allowed": true,
+      "E2_K_allowed": true,
+      "exact_spin_parity_result": "sameparity DeltaI1 permitsM1andE2 by triangle/parity",
+      "approximation": "axial exactgoodK only; triaxialKmixing liftsKforbidden strength"
+    },
+    {
+      "candidate": "axial_K5of2",
+      "final_K": "9/2",
+      "DeltaK": "2",
+      "M1_K_allowed": false,
+      "E2_K_allowed": true,
+      "exact_spin_parity_result": "sameparity DeltaI1 permitsM1andE2 by triangle/parity",
+      "approximation": "axial exactgoodK only; triaxialKmixing liftsKforbidden strength"
+    }
+  ],
+  "dimensionless_BCS_order_controls": [
+    {
+      "lambda_selected": -0.5,
+      "eps_selected": [
+        -0.5,
+        0.5
+      ],
+      "gap_selected": 1.0,
+      "qp": [
+        1.0,
+        1.4142135623730951
+      ]
+    },
+    {
+      "lambda_selected": 0.0,
+      "eps_selected": [
+        -0.5,
+        0.5
+      ],
+      "gap_selected": 1.0,
+      "qp": [
+        1.118033988749895,
+        1.118033988749895
+      ]
+    },
+    {
+      "lambda_selected": 0.5,
+      "eps_selected": [
+        -0.5,
+        0.5
+      ],
+      "gap_selected": 1.0,
+      "qp": [
+        1.4142135623730951,
+        1.0
+      ]
+    }
+  ],
+  "signed_RME_controls": {
+    "delta_plus": 0.4183300132670378,
+    "delta_minus": -0.4183300132670378,
+    "mixing": [
+      {
+        "theta_chosen_radian": 0.0,
+        "ME2": 1.0,
+        "MM1": 1.0,
+        "delta_control": 0.4183300132670378,
+        "static_g_control": 0.2,
+        "actual_eigenstate": false
+      },
+      {
+        "theta_chosen_radian": 0.39269908169872414,
+        "ME2": 0.5411961001461969,
+        "MM1": 1.3065629648763766,
+        "delta_control": 0.17327796504292378,
+        "static_g_control": 0.2,
+        "actual_eigenstate": false
+      },
+      {
+        "theta_chosen_radian": 0.7853981633974483,
+        "ME2": 1.1102230246251565e-16,
+        "MM1": 1.414213562373095,
+        "delta_control": 3.2840839953582984e-17,
+        "static_g_control": 0.2,
+        "actual_eigenstate": false
+      },
+      {
+        "theta_chosen_radian": 1.1780972450961724,
+        "ME2": -0.5411961001461969,
+        "MM1": 1.3065629648763766,
+        "delta_control": -0.17327796504292378,
+        "static_g_control": 0.2,
+        "actual_eigenstate": false
+      },
+      {
+        "theta_chosen_radian": 1.5707963267948966,
+        "ME2": -0.9999999999999999,
+        "MM1": 1.0,
+        "delta_control": -0.4183300132670377,
+        "static_g_control": 0.2,
+        "actual_eigenstate": false
+      }
+    ]
+  },
+  "frozen_Ce_published_D_sha256": "d613d33a9b136985f90b28520bcab88ae41869f613a59d959f1e2a069020b0d3",
+  "frozen_Ce_nodes": 21,
+  "frozen_Ce_edges": 48,
+  "original_event_counts_available": false,
+  "author_producer_replayed": false,
+  "actual_model_prediction_generated": false,
+  "experimental_CI_generated": false,
+  "mode_certified": false,
+  "needs_review": true,
+  "source_note": "CeTable5.1/5.2 direct-PDFtranscription reused; sourcechosencontrols not actualmixed-state prediction"
+}

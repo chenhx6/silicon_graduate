@@ -1,11 +1,17 @@
 from __future__ import annotations
 
 import json
+import contextlib
+import hashlib
+import io
+import os
 import tempfile
 import unittest
 from datetime import datetime, timedelta
 from pathlib import Path
 from unittest.mock import patch
+from dataclasses import replace
+from system.tests.test_wiki_learning_deadline import install_override
 
 
 import sys
@@ -549,3 +555,167 @@ class DailyLearningRunnerTests(unittest.TestCase):
             result = run_daily_learning.run_preflight(REPO_ROOT)
         self.assertEqual(result["exit"], 0)
         self.assertIn("ok", result["stdout_tail"])
+
+
+class SameSessionCloseoutIntegrationTests(unittest.TestCase):
+    def setUp(self) -> None:
+        self.temp = tempfile.TemporaryDirectory(prefix="closeout-contract-test-")
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        (self.root / "README.md").write_text("fixture")
+        (self.root / ".git").mkdir()
+        (self.root / "knowledge").mkdir()
+        self.paths = replace(run_daily_learning.get_paths(self.root), lock_file=self.root / "fixture.lock")
+        self.run_dir = self.paths.daily_root / "20261025-DAY23-test-run-01"
+        self.run_dir.mkdir(parents=True)
+        self.receipt_path = self.run_dir / "run.json"
+        self.thread = "01a172fd-cbfb-7a13-b715-cfa0c479e08e"
+        self.report = self.paths.daily_root / f"{run_daily_learning.daily_file_stem('2026-10-25',23)}.md"
+        self.report.write_text(f"closeout_event_id: `closeout`\nsession_id: {self.thread}\n")
+        self.receipt = {
+            "run_id": "2026-10-25-day-23-01", "run_date": "2026-10-25", "day_index": 23,
+            "session_id": self.thread, "status": "running", "project_root": str(self.root),
+            "schedule_id": "wiki-daily-learning", "session_mode": "new-session-per-run",
+            "overnight_until": "2026-10-26T15:00:00+08:00",
+            "closeout_window_ends_at": "2026-10-26T16:00:00+08:00",
+            "started_at": "2026-10-25T20:00:00+08:00", "report": str(self.report),
+        }
+        install_override(self.run_dir, self.receipt)
+        self.write(self.receipt_path, self.receipt)
+        self.write(self.run_dir / "baseline.json", {
+            "run_id": self.receipt["run_id"], "day_index": 23, "report_existed_before": False,
+            "knowledge_sha256_before": {"knowledge/fixture.md": "0"*64},
+        })
+        self.write(self.paths.state_file, {"next_day_index":23,"completed_day_count":22,"status":"active"})
+        self.attestation = {
+            "status":"closeout-turn-completed", "run_id":self.receipt["run_id"], "session_id":self.thread,
+            "closeout_event_id":"closeout", "hard_deadline":"2026-10-26T17:00:00+08:00",
+            "original_hard_deadline":"2026-10-26T15:00:00+08:00",
+            "deadline_override_sha256":self.receipt["deadline_override_sha256"],
+            "closeout_at":"2026-10-26T17:00:00+08:00",
+            "report_sha256":hashlib.sha256(self.report.read_bytes()).hexdigest(), "window_missed":False,
+        }
+        self.clock_state = {
+            "thread":self.thread,"run_date":"2026-10-25","day_index":23,
+            "deadline":"2026-10-26T17:00:00+08:00",
+            "deadline_override_sha256":self.receipt["deadline_override_sha256"],
+            "events":{"closeout":{"status":"queued"}},
+        }
+        self.write(self.run_dir / "interactive-closeout-attestation.json", self.attestation)
+        self.write(self.run_dir / "clock-state.json", self.clock_state)
+
+    @staticmethod
+    def write(path: Path, value: dict) -> None:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(value))
+
+    def finalize_at(self, hour: int, minute: int = 0, second: int = 0, *, complete: bool = True) -> int:
+        fixed = datetime(2026,10,26,hour,minute,second,tzinfo=run_daily_learning.TIMEZONE)
+        coverage = {
+            "valid":True,"completed_day_indices":[23] if complete else [],
+            "partial_day_indices":[24] if complete else [23,24],
+            "curriculum_cards_completed":1 if complete else 0,"next_day_index":24 if complete else 23,
+        }
+        checks = {
+            "preflight":{"exit":0},"report_exists":True,"report_changed":True,"report_valid":True,
+            "durable_knowledge":{"valid":True},"lint_exit":0,"git_diff_check_exit":0,
+            "curriculum_coverage":coverage,
+        }
+        with patch.object(run_daily_learning,"datetime",wraps=datetime) as mock_date, \
+             patch.object(run_daily_learning,"run_preflight",return_value={"exit":0}), \
+             patch.object(run_daily_learning,"run_checks",return_value=checks), \
+             patch.object(run_daily_learning,"prepare_next_prompt",return_value=self.root/"next.md"), \
+             patch.dict(os.environ,{"CODEX_SESSION_ID":self.thread}), contextlib.redirect_stdout(io.StringIO()):
+            mock_date.now.return_value=fixed
+            return run_daily_learning.finalize_interactive_closeout(self.paths,self.receipt_path)
+
+    def test_effective_window_early_and_late_reject_without_state_or_receipt_mutation(self) -> None:
+        before=(self.receipt_path.read_bytes(),self.paths.state_file.read_bytes())
+        for at in ((16,59,59),(18,0,0)):
+            with self.subTest(at=at), self.assertRaisesRegex(RuntimeError,"effective closeout window"):
+                self.finalize_at(*at)
+            self.assertEqual(before,(self.receipt_path.read_bytes(),self.paths.state_file.read_bytes()))
+
+    def test_effective_window_success_preserves_original_fields_and_advances_once(self) -> None:
+        self.assertEqual(self.finalize_at(17),0)
+        result=json.loads(self.receipt_path.read_text());state=json.loads(self.paths.state_file.read_text())
+        self.assertEqual(result["status"],"completed")
+        self.assertEqual(result["overnight_until"],"2026-10-26T15:00:00+08:00")
+        self.assertEqual(result["effective_overnight_until"],"2026-10-26T17:00:00+08:00")
+        self.assertEqual(state["next_day_index"],24)
+        self.assertEqual(state["completed_day_count"],23)
+        self.assertEqual(self.finalize_at(17,5),0)
+        self.assertEqual(json.loads(self.paths.state_file.read_text()),state)
+
+    def test_partial_primary_and_preview_do_not_receive_credit(self) -> None:
+        before=self.paths.state_file.read_bytes()
+        self.assertEqual(self.finalize_at(17,complete=False),0)
+        self.assertEqual(self.paths.state_file.read_bytes(),before)
+        result=json.loads(self.receipt_path.read_text())
+        self.assertEqual(result["status"],"completed-partial")
+        self.assertEqual(result["completed_day_indices"],[])
+        self.assertEqual(result["partial_day_indices"],[23,24])
+
+    def test_finalizer_requires_both_attestation_and_clock_override_hashes(self) -> None:
+        for target,original in (("interactive-closeout-attestation.json",self.attestation),("clock-state.json",self.clock_state)):
+            self.write(self.run_dir/target,{**original,"deadline_override_sha256":"0"*64})
+            with self.subTest(target=target),self.assertRaisesRegex(RuntimeError,"bound.*override"):
+                self.finalize_at(17)
+            self.write(self.run_dir/target,original)
+
+    def test_finalizer_rejects_wrong_session_and_report_changes(self) -> None:
+        with patch.dict(os.environ,{"CODEX_SESSION_ID":"another"}):
+            with self.assertRaisesRegex(RuntimeError,"same CODEX_SESSION_ID"):
+                run_daily_learning.finalize_interactive_closeout(self.paths,self.receipt_path)
+        self.report.write_text(self.report.read_text()+"changed after attestation")
+        with self.assertRaisesRegex(RuntimeError,"report changed"):
+            self.finalize_at(17)
+
+    def test_main_guard_defers_with_no_new_directory_exec_state_or_prompt(self) -> None:
+        before_files={p.relative_to(self.root):p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
+        with patch.object(run_daily_learning,"get_paths",return_value=self.paths), \
+             patch.object(run_daily_learning,"dry_run",return_value={}), \
+             patch.object(run_daily_learning,"datetime",wraps=datetime) as mock_date, \
+             patch.object(run_daily_learning.subprocess,"run") as spawn, \
+             patch.object(sys,"argv",["runner","--root",str(self.root)]), \
+             contextlib.redirect_stdout(io.StringIO()) as output:
+            mock_date.now.return_value=datetime(2026,10,26,16,tzinfo=run_daily_learning.TIMEZONE)
+            self.assertEqual(run_daily_learning.main(),75)
+            spawn.assert_not_called()
+        result=json.loads(output.getvalue())
+        self.assertEqual(result["status"],"deferred-existing-run")
+        self.assertFalse(result["new_session_created"])
+        self.assertFalse(result["run_allocated"])
+        after_files={p.relative_to(self.root):p.read_bytes() for p in self.root.rglob('*') if p.is_file() and p.name!='fixture.lock'}
+        self.assertEqual(before_files,after_files)
+        from system.scripts.run_daily_learning_daemon import is_retryable_model_error
+        self.assertFalse(is_retryable_model_error(result["failure_reason"]))
+
+    def test_new_run_persists_original_entry_baseline_before_codex_execution(self) -> None:
+        self.receipt["status"]="completed"
+        self.write(self.receipt_path,self.receipt)
+        knowledge=self.root/"knowledge/fixture.md"
+        knowledge.write_text("entry knowledge, before any new session\n")
+        observed=[]
+
+        def fake_exec(*args,**kwargs):
+            baselines=list(self.paths.daily_root.glob('20261026-*-run-*/baseline.json'))
+            self.assertEqual(len(baselines),1)
+            data=json.loads(baselines[0].read_text())
+            self.assertEqual(data["kind"],"runner-entry-baseline")
+            self.assertFalse(data["report_existed_before"])
+            self.assertEqual(data["knowledge_sha256_before"]["knowledge/fixture.md"],hashlib.sha256(knowledge.read_bytes()).hexdigest())
+            observed.append(data)
+            raise RuntimeError("fixture stopped before any real Codex execution")
+
+        with patch.object(run_daily_learning,"get_paths",return_value=self.paths), \
+             patch.object(run_daily_learning,"dry_run",return_value={}), \
+             patch.object(run_daily_learning,"local_date",return_value="2026-10-26"), \
+             patch.object(run_daily_learning,"run_preflight",return_value={"exit":0}), \
+             patch.object(run_daily_learning,"validate_codex_home",return_value=self.root), \
+             patch.object(run_daily_learning,"render_prompt",return_value="fixture prompt"), \
+             patch.object(run_daily_learning.subprocess,"run",side_effect=fake_exec), \
+             patch.object(sys,"argv",["runner","--root",str(self.root)]), \
+             contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+            self.assertEqual(run_daily_learning.main(),2)
+        self.assertEqual(len(observed),1)

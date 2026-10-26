@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-25-day-23-01",
+  "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+  "recorded_at": "2026-10-26T05:56:00.983456+00:00",
+  "authorization_kind": "explicit-current-user-instruction",
+  "user_instruction": "既然具体下午3时收束仅仅剩下90分钟（如有必要，今日学习允许下午5时左右开始收束）；广开subagents或者其它手段，不设置最大并发数量，多多研究，最大化扩大学习成果；133Ce未学习/预计来不及内容可写下一日prompt，作为附属研究不可喧宾夺主。",
+  "original_research_deadline": "2026-10-26T15:00:00+08:00",
+  "effective_research_deadline": "2026-10-26T17:00:00+08:00",
+  "effective_closeout_window_ends_at": "2026-10-26T18:00:00+08:00",
+  "decision": "Use the explicitly authorized extension for substantive Day23 and133Ce supplemental work; begin closeout at17:00 Asia/Shanghai",
+  "scope": "same native goal/run/session; Day23 principal, Day24 only prior uncredited preview; no Day25",
+  "original_receipt_snapshot": "run-before-user-extension-064.json",
+  "original_receipt_snapshot_sha256": "a0ef255723ea0c070b20ea55f27e7b1d577a77622fe3e0bd63fe78177828982f",
+  "original_overnight_until_preserved": true,
+  "new_session_created": false,
+  "daemon_restarted": false,
+  "tool_concurrency": "Use all available platform worker slots and successive independent work waves; no assistant-imposed concurrency cap. Platform hard limits remain.",
+  "new_research_routing": "Refresh time gates against effective17:00; keep original15:00 and latest user override auditable."
+}

@@ -1,0 +1,16 @@
+{
+  "path": "tmp/day23-theses/ragnarsson-semmes-1988.pdf",
+  "sha256": "af5b8588ac78f40ecb7ac5eb8f2dd8070c3457296e8fdcd63e9ea0d828a2fa6d",
+  "pages": 18,
+  "read_pages": [
+    5,
+    7,
+    8
+  ],
+  "printed_pages": [
+    427,
+    429,
+    430
+  ],
+  "status": "fallback-targeted-formalism-read-not-1978-original"
+}

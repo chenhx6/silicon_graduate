@@ -1,0 +1,409 @@
+{
+  "created_utc": "2026-10-26T05:26:30.557347+00:00",
+  "scope": "Fixed H/states/E2/energies, entire M1 operator times common real eta>0; no actual g fit",
+  "source_sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+  "units": {
+    "eta": "dimensionless",
+    "rE2": "dimensionless",
+    "rM1": "muN^2/(e^2 b^2)",
+    "delta": "dimensionless"
+  },
+  "experimental_printed_table6.11": [
+    {
+      "label": "625",
+      "Ei": "832.0",
+      "I_i": "13/2-",
+      "I_f": "11/2-",
+      "delta": "-1.5",
+      "delta_printed_plus": "0.97",
+      "delta_printed_minus": "5.7",
+      "rE2_in": null,
+      "rM1_in": null,
+      "rE2_out": "1.15",
+      "rM1_out": "0.14",
+      "photon_energy_exact_keV": "624.6"
+    },
+    {
+      "label": "582",
+      "Ei": "1409.8",
+      "I_i": "17/2-",
+      "I_f": "15/2-",
+      "delta": "-0.55",
+      "delta_printed_plus": "0.12",
+      "delta_printed_minus": "0.25",
+      "rE2_in": "0.33",
+      "rM1_in": "0.25",
+      "rE2_out": "5.06",
+      "rM1_out": "3.95",
+      "photon_energy_exact_keV": "582.7"
+    },
+    {
+      "label": "465",
+      "Ei": "1809.1",
+      "I_i": "19/2-",
+      "I_f": "17/2-",
+      "delta": "-0.17",
+      "delta_printed_plus": "0.09",
+      "delta_printed_minus": "0.2",
+      "rE2_in": "0.09",
+      "rM1_in": "0.47",
+      "rE2_out": "1.06",
+      "rM1_out": "5.54",
+      "photon_energy_exact_keV": "464.4"
+    }
+  ],
+  "models_printed": {
+    "QTR_table6.9": {
+      "pdf_page": 111,
+      "delta": [
+        "0.89",
+        "-2.24",
+        "-2.72"
+      ],
+      "rE2_in": [
+        null,
+        "0.75",
+        "0.32"
+      ],
+      "rM1_in": [
+        null,
+        "0.01",
+        "0.03"
+      ]
+    },
+    "FA_table6.10": {
+      "pdf_page": 111,
+      "delta": [
+        "-0.58",
+        "-0.49",
+        "-0.49"
+      ],
+      "rE2_in": [
+        null,
+        "0.44",
+        "0.11"
+      ],
+      "rM1_in": [
+        null,
+        "0.19",
+        "0.062"
+      ]
+    }
+  },
+  "required_scales": [
+    {
+      "model": "QTR_table6.9",
+      "rows": [
+        {
+          "label": "625",
+          "I_i": "13/2-",
+          "model_delta": "89/100",
+          "experimental_delta": "-3/2",
+          "eta_delta_signed_candidate": "-89/150",
+          "positive_eta_delta_exists": false,
+          "eta_from_delta": null,
+          "eta_magnitude_only_not_a_signed_solution": 0.5933333333333334,
+          "model_rM1_in": null,
+          "experimental_rM1_in": null,
+          "eta_from_rM1": null,
+          "missing_reason": "No out/in ratio for this line in model and Table6.11; do not use the out/out value"
+        },
+        {
+          "label": "582",
+          "I_i": "17/2-",
+          "model_delta": "-56/25",
+          "experimental_delta": "-11/20",
+          "eta_delta_signed_candidate": "224/55",
+          "positive_eta_delta_exists": true,
+          "eta_from_delta": 4.072727272727272,
+          "eta_magnitude_only_not_a_signed_solution": null,
+          "model_rM1_in": "1/100",
+          "experimental_rM1_in": "1/4",
+          "eta_squared_from_rM1": "25",
+          "eta_from_rM1": 5.0,
+          "eta_from_delta_squared": "50176/3025",
+          "eta_delta_vs_rM1_squared_equal_exact": false,
+          "model_rE2_in_unchanged": "0.75",
+          "experimental_rE2_in": "0.33",
+          "rE2_central_equal_before_and_after_any_eta": false
+        },
+        {
+          "label": "465",
+          "I_i": "19/2-",
+          "model_delta": "-68/25",
+          "experimental_delta": "-17/100",
+          "eta_delta_signed_candidate": "16",
+          "positive_eta_delta_exists": true,
+          "eta_from_delta": 16.0,
+          "eta_magnitude_only_not_a_signed_solution": null,
+          "model_rM1_in": "3/100",
+          "experimental_rM1_in": "47/100",
+          "eta_squared_from_rM1": "47/3",
+          "eta_from_rM1": 3.958114029012639,
+          "eta_from_delta_squared": "256",
+          "eta_delta_vs_rM1_squared_equal_exact": false,
+          "model_rE2_in_unchanged": "0.32",
+          "experimental_rE2_in": "0.09",
+          "rE2_central_equal_before_and_after_any_eta": false
+        }
+      ],
+      "invariants": {
+        "rM1_19over17_model": "3",
+        "rM1_19over17_experimental": "47/25",
+        "delta_19over17_model": "17/14",
+        "delta_19over17_experimental": "17/55",
+        "central_common_eta_exactly_closes_two_delta_points": false,
+        "central_common_eta_exactly_closes_two_rate_points": false,
+        "meaning": "Exact central-summary diagnosis only, not a confidence/coverage or model-error test"
+      }
+    },
+    {
+      "model": "FA_table6.10",
+      "rows": [
+        {
+          "label": "625",
+          "I_i": "13/2-",
+          "model_delta": "-29/50",
+          "experimental_delta": "-3/2",
+          "eta_delta_signed_candidate": "29/75",
+          "positive_eta_delta_exists": true,
+          "eta_from_delta": 0.38666666666666666,
+          "eta_magnitude_only_not_a_signed_solution": null,
+          "model_rM1_in": null,
+          "experimental_rM1_in": null,
+          "eta_from_rM1": null,
+          "missing_reason": "No out/in ratio for this line in model and Table6.11; do not use the out/out value"
+        },
+        {
+          "label": "582",
+          "I_i": "17/2-",
+          "model_delta": "-49/100",
+          "experimental_delta": "-11/20",
+          "eta_delta_signed_candidate": "49/55",
+          "positive_eta_delta_exists": true,
+          "eta_from_delta": 0.8909090909090909,
+          "eta_magnitude_only_not_a_signed_solution": null,
+          "model_rM1_in": "19/100",
+          "experimental_rM1_in": "1/4",
+          "eta_squared_from_rM1": "25/19",
+          "eta_from_rM1": 1.1470786693528088,
+          "eta_from_delta_squared": "2401/3025",
+          "eta_delta_vs_rM1_squared_equal_exact": false,
+          "model_rE2_in_unchanged": "0.44",
+          "experimental_rE2_in": "0.33",
+          "rE2_central_equal_before_and_after_any_eta": false
+        },
+        {
+          "label": "465",
+          "I_i": "19/2-",
+          "model_delta": "-49/100",
+          "experimental_delta": "-17/100",
+          "eta_delta_signed_candidate": "49/17",
+          "positive_eta_delta_exists": true,
+          "eta_from_delta": 2.8823529411764706,
+          "eta_magnitude_only_not_a_signed_solution": null,
+          "model_rM1_in": "31/500",
+          "experimental_rM1_in": "47/100",
+          "eta_squared_from_rM1": "235/31",
+          "eta_from_rM1": 2.753297143660728,
+          "eta_from_delta_squared": "2401/289",
+          "eta_delta_vs_rM1_squared_equal_exact": false,
+          "model_rE2_in_unchanged": "0.11",
+          "experimental_rE2_in": "0.09",
+          "rE2_central_equal_before_and_after_any_eta": false
+        }
+      ],
+      "invariants": {
+        "rM1_19over17_model": "31/95",
+        "rM1_19over17_experimental": "47/25",
+        "delta_19over17_model": "1",
+        "delta_19over17_experimental": "17/55",
+        "central_common_eta_exactly_closes_two_delta_points": false,
+        "central_common_eta_exactly_closes_two_rate_points": false,
+        "meaning": "Exact central-summary diagnosis only, not a confidence/coverage or model-error test"
+      }
+    }
+  ],
+  "figure_conflict_branch": {
+    "source": "Fig6.16/PDF114; visual order-of-magnitude, not digitized points",
+    "QTR_rM1_first": "about 0.10 in figure versus 0.01 in Table6.9",
+    "QTR_rM1_second": "about 0.03 in figure and Table6.9",
+    "QTR_qualitative_trend_figure": "decreasing; unchanged by a positive common eta-squared",
+    "QTR_qualitative_trend_table": "increasing 0.01 to0.03, preserved as a different source branch",
+    "FA_rE2_figure": "about .044/.011 versus Table6.10 .44/.11; no M1 scaling changes either branch rE2",
+    "graph_eta_fit_performed": false,
+    "graph_values_substituted_into_table": false
+  },
+  "independent_matrix_element_control": {
+    "eta": "7/3",
+    "E2_element": "3/2",
+    "M1_element": "-2/3",
+    "E2_reference": "5/4",
+    "Ea_MeV": "3/5",
+    "base_rE2": "36/25",
+    "base_rM1": "64/225",
+    "base_delta2": "5103/4000",
+    "scaled_rE2": "36/25",
+    "scaled_rM1": "3136/2025",
+    "scaled_delta2": "6561/28000",
+    "pure_E2_reference_Eb_MeV": "4/5",
+    "mixed_photon_yield_before": "27309/44800",
+    "mixed_photon_yield_after": "34561/19200",
+    "mixed_yield_fixed": false
+  },
+  "checks": [
+    {
+      "name": "QTR_table6.9_sign_preserved_625",
+      "passed": true
+    },
+    {
+      "name": "QTR_table6.9_sign_preserved_582",
+      "passed": true
+    },
+    {
+      "name": "QTR_table6.9_delta_exact_match_582",
+      "passed": true
+    },
+    {
+      "name": "QTR_table6.9_rate_exact_match_582",
+      "passed": true
+    },
+    {
+      "name": "QTR_table6.9_summary_delta_rate_required_scale_distinct_582",
+      "passed": true
+    },
+    {
+      "name": "QTR_table6.9_sign_preserved_465",
+      "passed": true
+    },
+    {
+      "name": "QTR_table6.9_delta_exact_match_465",
+      "passed": true
+    },
+    {
+      "name": "QTR_table6.9_rate_exact_match_465",
+      "passed": true
+    },
+    {
+      "name": "QTR_table6.9_summary_delta_rate_required_scale_distinct_465",
+      "passed": true
+    },
+    {
+      "name": "QTR_table6.9_central_delta_no_common_scale",
+      "passed": true
+    },
+    {
+      "name": "QTR_table6.9_central_rM1_no_common_scale",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_sign_preserved_625",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_delta_exact_match_625",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_sign_preserved_582",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_delta_exact_match_582",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_rate_exact_match_582",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_summary_delta_rate_required_scale_distinct_582",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_sign_preserved_465",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_delta_exact_match_465",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_rate_exact_match_465",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_summary_delta_rate_required_scale_distinct_465",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_central_delta_no_common_scale",
+      "passed": true
+    },
+    {
+      "name": "FA_table6.10_central_rM1_no_common_scale",
+      "passed": true
+    },
+    {
+      "name": "matrix_element_control_E2_invariant",
+      "passed": true
+    },
+    {
+      "name": "matrix_element_control_M1_scales_eta2",
+      "passed": true
+    },
+    {
+      "name": "matrix_element_control_delta2_inverse_eta2",
+      "passed": true
+    },
+    {
+      "name": "matrix_element_control_positive_eta_preserves_M1_sign",
+      "passed": true
+    },
+    {
+      "name": "dependency_delta2_rE2_rM1_control",
+      "passed": true
+    },
+    {
+      "name": "dependency_after_scaling_control",
+      "passed": true
+    },
+    {
+      "name": "mixed_yield_changes_control",
+      "passed": true
+    },
+    {
+      "name": "mixed_yield_transformation_control",
+      "passed": true
+    },
+    {
+      "name": "branch_reconstruction_before_control",
+      "passed": true
+    },
+    {
+      "name": "branch_reconstruction_after_control",
+      "passed": true
+    },
+    {
+      "name": "spin_ratio_invariant_control",
+      "passed": true
+    },
+    {
+      "name": "delta_relative_sign_invariant_control",
+      "passed": true
+    },
+    {
+      "name": "gs_only_not_whole_operator_control",
+      "passed": true
+    }
+  ],
+  "all_pass": true,
+  "nonclaims": [
+    "No significance or confidence interval",
+    "No lifetime or absolute B estimate",
+    "No actualresponse or global g-factor fit",
+    "No exclusion of arbitrary gs/gl/gR/H/space changes",
+    "No model-producer error judgment",
+    "Printed signed-error endpoints are not coverage"
+  ]
+}

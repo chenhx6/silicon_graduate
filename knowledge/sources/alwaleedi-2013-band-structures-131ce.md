@@ -222,3 +222,15 @@ L3 pilot 将独立保存跨来源推理；本页不把后来形成的 wobbling/c
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | AW13-D20-R139-1 | checkpoint146撤回旧认证；同态/分支/几何/单位与Cov未逐claim重审之前，不恢复旧数据及过强推论。 | withdrawn-task-certification | rejected-and-replaced | checkpoint146; history-before-repair-146.json | true |
+
+## Day23：与133Ce分析蓝本对照的带身份和S口径
+
+本轮定向核原件相关band/selected γ路径，旧review及原claim flags保留。新条目仅self-audit，不称用户独立数据已分析。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AW13-D23-064-1 | 本论文Band3是Ex61.8keV、1/2+低激发带，作者提出possible νs1/2[400]1/2+；133Ce thesis同号Band3为ground。相同band号不是组态/零点相同，不搬s/d混合系数或ix/ωc。 | cross-source-band-identity | direct-original-and-bounded-comparison | printed82 §5.2.2 Band3 (PDF86); Table4.4; WK22PDF71 Table5.4 | true |
+| AW13-D23-064-2 | Eq5.5与WK22 Eq2.37同四能量S；任务选定原表相邻M1路径的131Ce Band1 I13/2/15/2/17/2给180.8/−237.8/320.5keV、Band4 I19/2/21/2给65.2/17.15。它不是完整adopted S、无Cov/CI；Fig5.2caption写Band4而邻近§5.2.1谈Band1，身份冲突保留，不双计该图。 | task-selected-path-arithmetic-and-source-conflict | conditional-summary-not-new-measurement | Eq5.5 printed78; Tables4.1–4.4 selected γ rows; Fig5.2 printed79; §5.2.1 | true |
+| AW13-D23-064-3 | Bands1–7的目标link/partner-specific τ/δ网络未齐，不等全核无τ；其它131Ce DSAM/RDDS/静态矩只在实际母末态匹配后可接入，不能搬其它带τ，DSAM/RDDS非模式普适充分门。 | evidence-gap-and-transfer-boundary | direct-scope-and-method-inference | §5.2/Table5.1; Eq5.6; Tables4.1–4.4 | true |
+
+比较和可执行清单见[[133ce-thesis-analysis-blueprint]]。g7/2旋称伙伴、γ振动、TiP、wobbling和3qp解释分层；源的Band5高spin两分量e⊗AEFG按既有用户审核保持，不作f重映射。

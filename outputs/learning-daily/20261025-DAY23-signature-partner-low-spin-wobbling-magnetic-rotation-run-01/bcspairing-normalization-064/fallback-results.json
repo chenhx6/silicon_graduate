@@ -1,0 +1,867 @@
+{
+  "created_utc": "2026-10-26T06:00:39.319231+00:00",
+  "scope": "Exact selected controls, not1978 original or author code/actual133Ce calculation",
+  "fock_modes": [
+    "1",
+    "bar1",
+    "2",
+    "bar2"
+  ],
+  "Fock_dimension": 16,
+  "time_reversal_convention": "T c_i^dag T^-1=c_bar_i^dag, T c_bar_i^dag T^-1=-c_i^dag; real U and complex conjugation",
+  "toy_BCS_uv": [
+    {
+      "u": "3/5",
+      "v": "4/5"
+    },
+    {
+      "u": "5/13",
+      "v": "12/13"
+    }
+  ],
+  "BCS_scattering": {
+    "odd_direct_Fock": "63/65",
+    "even_direct_Fock": "-33/65",
+    "plus_formula": "63/65",
+    "minus_formula": "-33/65",
+    "T_even_diagonal_vacuum_expectation": "32/25",
+    "T_even_diagonal_qp_expectation": "1",
+    "T_even_diagonal_connected": "-7/25"
+  },
+  "WE_normalization": [
+    {
+      "Ji": "1/2",
+      "Jf": "3/2",
+      "rank": "1",
+      "reduced_matrix_element_squared": "9/4",
+      "B": "9/8",
+      "rows": [
+        {
+          "Mi": "-1/2",
+          "sum_Mf_q": "9/8",
+          "transitions": [
+            {
+              "Mf": "-3/2",
+              "q": "-1",
+              "matrix_element_squared": "9/16"
+            },
+            {
+              "Mf": "-1/2",
+              "q": "0",
+              "matrix_element_squared": "3/8"
+            },
+            {
+              "Mf": "1/2",
+              "q": "1",
+              "matrix_element_squared": "3/16"
+            }
+          ]
+        },
+        {
+          "Mi": "1/2",
+          "sum_Mf_q": "9/8",
+          "transitions": [
+            {
+              "Mf": "-1/2",
+              "q": "-1",
+              "matrix_element_squared": "3/16"
+            },
+            {
+              "Mf": "1/2",
+              "q": "0",
+              "matrix_element_squared": "3/8"
+            },
+            {
+              "Mf": "3/2",
+              "q": "1",
+              "matrix_element_squared": "9/16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Ji": "3/2",
+      "Jf": "1/2",
+      "rank": "1",
+      "reduced_matrix_element_squared": "9/4",
+      "B": "9/16",
+      "rows": [
+        {
+          "Mi": "-3/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "-1/2",
+              "q": "1",
+              "matrix_element_squared": "9/16"
+            }
+          ]
+        },
+        {
+          "Mi": "-1/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "-1/2",
+              "q": "0",
+              "matrix_element_squared": "3/8"
+            },
+            {
+              "Mf": "1/2",
+              "q": "1",
+              "matrix_element_squared": "3/16"
+            }
+          ]
+        },
+        {
+          "Mi": "1/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "-1/2",
+              "q": "-1",
+              "matrix_element_squared": "3/16"
+            },
+            {
+              "Mf": "1/2",
+              "q": "0",
+              "matrix_element_squared": "3/8"
+            }
+          ]
+        },
+        {
+          "Mi": "3/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "1/2",
+              "q": "-1",
+              "matrix_element_squared": "9/16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Ji": "3/2",
+      "Jf": "3/2",
+      "rank": "2",
+      "reduced_matrix_element_squared": "9/4",
+      "B": "9/16",
+      "rows": [
+        {
+          "Mi": "-3/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "-3/2",
+              "q": "0",
+              "matrix_element_squared": "9/80"
+            },
+            {
+              "Mf": "-1/2",
+              "q": "1",
+              "matrix_element_squared": "9/40"
+            },
+            {
+              "Mf": "1/2",
+              "q": "2",
+              "matrix_element_squared": "9/40"
+            }
+          ]
+        },
+        {
+          "Mi": "-1/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "-3/2",
+              "q": "-1",
+              "matrix_element_squared": "9/40"
+            },
+            {
+              "Mf": "-1/2",
+              "q": "0",
+              "matrix_element_squared": "9/80"
+            },
+            {
+              "Mf": "3/2",
+              "q": "2",
+              "matrix_element_squared": "9/40"
+            }
+          ]
+        },
+        {
+          "Mi": "1/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "-3/2",
+              "q": "-2",
+              "matrix_element_squared": "9/40"
+            },
+            {
+              "Mf": "1/2",
+              "q": "0",
+              "matrix_element_squared": "9/80"
+            },
+            {
+              "Mf": "3/2",
+              "q": "1",
+              "matrix_element_squared": "9/40"
+            }
+          ]
+        },
+        {
+          "Mi": "3/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "-1/2",
+              "q": "-2",
+              "matrix_element_squared": "9/40"
+            },
+            {
+              "Mf": "1/2",
+              "q": "-1",
+              "matrix_element_squared": "9/40"
+            },
+            {
+              "Mf": "3/2",
+              "q": "0",
+              "matrix_element_squared": "9/80"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Ji": "5/2",
+      "Jf": "3/2",
+      "rank": "2",
+      "reduced_matrix_element_squared": "9/4",
+      "B": "3/8",
+      "rows": [
+        {
+          "Mi": "-5/2",
+          "sum_Mf_q": "3/8",
+          "transitions": [
+            {
+              "Mf": "-3/2",
+              "q": "1",
+              "matrix_element_squared": "9/56"
+            },
+            {
+              "Mf": "-1/2",
+              "q": "2",
+              "matrix_element_squared": "3/14"
+            }
+          ]
+        },
+        {
+          "Mi": "-3/2",
+          "sum_Mf_q": "3/8",
+          "transitions": [
+            {
+              "Mf": "-3/2",
+              "q": "0",
+              "matrix_element_squared": "27/140"
+            },
+            {
+              "Mf": "-1/2",
+              "q": "1",
+              "matrix_element_squared": "3/280"
+            },
+            {
+              "Mf": "1/2",
+              "q": "2",
+              "matrix_element_squared": "6/35"
+            }
+          ]
+        },
+        {
+          "Mi": "-1/2",
+          "sum_Mf_q": "3/8",
+          "transitions": [
+            {
+              "Mf": "-3/2",
+              "q": "-1",
+              "matrix_element_squared": "81/560"
+            },
+            {
+              "Mf": "-1/2",
+              "q": "0",
+              "matrix_element_squared": "9/280"
+            },
+            {
+              "Mf": "1/2",
+              "q": "1",
+              "matrix_element_squared": "15/112"
+            },
+            {
+              "Mf": "3/2",
+              "q": "2",
+              "matrix_element_squared": "9/140"
+            }
+          ]
+        },
+        {
+          "Mi": "1/2",
+          "sum_Mf_q": "3/8",
+          "transitions": [
+            {
+              "Mf": "-3/2",
+              "q": "-2",
+              "matrix_element_squared": "9/140"
+            },
+            {
+              "Mf": "-1/2",
+              "q": "-1",
+              "matrix_element_squared": "15/112"
+            },
+            {
+              "Mf": "1/2",
+              "q": "0",
+              "matrix_element_squared": "9/280"
+            },
+            {
+              "Mf": "3/2",
+              "q": "1",
+              "matrix_element_squared": "81/560"
+            }
+          ]
+        },
+        {
+          "Mi": "3/2",
+          "sum_Mf_q": "3/8",
+          "transitions": [
+            {
+              "Mf": "-1/2",
+              "q": "-2",
+              "matrix_element_squared": "6/35"
+            },
+            {
+              "Mf": "1/2",
+              "q": "-1",
+              "matrix_element_squared": "3/280"
+            },
+            {
+              "Mf": "3/2",
+              "q": "0",
+              "matrix_element_squared": "27/140"
+            }
+          ]
+        },
+        {
+          "Mi": "5/2",
+          "sum_Mf_q": "3/8",
+          "transitions": [
+            {
+              "Mf": "1/2",
+              "q": "-2",
+              "matrix_element_squared": "3/14"
+            },
+            {
+              "Mf": "3/2",
+              "q": "-1",
+              "matrix_element_squared": "9/56"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Ji": "3/2",
+      "Jf": "3/2",
+      "rank": "0",
+      "reduced_matrix_element_squared": "9/4",
+      "B": "9/16",
+      "rows": [
+        {
+          "Mi": "-3/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "-3/2",
+              "q": "0",
+              "matrix_element_squared": "9/16"
+            }
+          ]
+        },
+        {
+          "Mi": "-1/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "-1/2",
+              "q": "0",
+              "matrix_element_squared": "9/16"
+            }
+          ]
+        },
+        {
+          "Mi": "1/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "1/2",
+              "q": "0",
+              "matrix_element_squared": "9/16"
+            }
+          ]
+        },
+        {
+          "Mi": "3/2",
+          "sum_Mf_q": "9/16",
+          "transitions": [
+            {
+              "Mf": "3/2",
+              "q": "0",
+              "matrix_element_squared": "9/16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "CAR_creation_annihilation_0_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_0_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_0_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_0_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_1_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_1_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_1_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_1_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_2_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_2_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_2_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_2_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_3_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_3_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_3_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "CAR_creation_annihilation_3_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "time_reversal_T2_fermion_parity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "creation_time_reversal_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "creation_time_reversal_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "creation_time_reversal_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "creation_time_reversal_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "uv_norm_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "uv_norm_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "BCS_vacuum_normalized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "BCS_vacuum_TR_even",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qp_annihilates_BCS_vacuum_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qp_annihilates_BCS_vacuum_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qp_annihilates_BCS_vacuum_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "qp_annihilates_BCS_vacuum_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_0_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_0_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_0_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_0_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_1_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_1_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_1_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_1_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_2_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_2_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_2_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_2_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_3_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_3_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_3_2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_qp_orthonormal_3_3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prototype_even_operator_TR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prototype_odd_operator_TR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T_odd_scattering_plus_factor",
+      "passed": true,
+      "detail": "63/65"
+    },
+    {
+      "name": "T_even_scattering_minus_factor",
+      "passed": true,
+      "detail": "-33/65"
+    },
+    {
+      "name": "T_even_diagonal_core_subtraction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "T_odd_diagonal_factor_one",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unpaired_limit_plus_equals_minus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji1/2_Jf3/2_k1_Mi-1/2",
+      "passed": true,
+      "detail": "9/8"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji1/2_Jf3/2_k1_Mi1/2",
+      "passed": true,
+      "detail": "9/8"
+    },
+    {
+      "name": "WE_all_Mi_sum_reduced_Ji1/2_Jf3/2_k1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WE_initial_average_Ji1/2_Jf3/2_k1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf1/2_k1_Mi-3/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf1/2_k1_Mi-1/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf1/2_k1_Mi1/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf1/2_k1_Mi3/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_all_Mi_sum_reduced_Ji3/2_Jf1/2_k1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WE_initial_average_Ji3/2_Jf1/2_k1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf3/2_k2_Mi-3/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf3/2_k2_Mi-1/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf3/2_k2_Mi1/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf3/2_k2_Mi3/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_all_Mi_sum_reduced_Ji3/2_Jf3/2_k2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WE_initial_average_Ji3/2_Jf3/2_k2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji5/2_Jf3/2_k2_Mi-5/2",
+      "passed": true,
+      "detail": "3/8"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji5/2_Jf3/2_k2_Mi-3/2",
+      "passed": true,
+      "detail": "3/8"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji5/2_Jf3/2_k2_Mi-1/2",
+      "passed": true,
+      "detail": "3/8"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji5/2_Jf3/2_k2_Mi1/2",
+      "passed": true,
+      "detail": "3/8"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji5/2_Jf3/2_k2_Mi3/2",
+      "passed": true,
+      "detail": "3/8"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji5/2_Jf3/2_k2_Mi5/2",
+      "passed": true,
+      "detail": "3/8"
+    },
+    {
+      "name": "WE_all_Mi_sum_reduced_Ji5/2_Jf3/2_k2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WE_initial_average_Ji5/2_Jf3/2_k2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf3/2_k0_Mi-3/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf3/2_k0_Mi-1/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf3/2_k0_Mi1/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_fixed_Mi_sum_Ji3/2_Jf3/2_k0_Mi3/2",
+      "passed": true,
+      "detail": "9/16"
+    },
+    {
+      "name": "WE_all_Mi_sum_reduced_Ji3/2_Jf3/2_k0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WE_initial_average_Ji3/2_Jf3/2_k0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "known_CG_1half_to3half_q-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "known_CG_1half_to3half_q0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "known_CG_1half_to3half_q1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "WE_detailed_balance_same_Hermitian_tensor",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_pass": true,
+  "nonclaims": [
+    "No actual lambda, gap, operator normalization or source state recovered",
+    "No1978 fulltext read",
+    "No spinor phase reconstruction for every body-fixed source orbital",
+    "Single-particle coherence factors do not multiply whole core+particle E2/M1 by one number"
+  ]
+}

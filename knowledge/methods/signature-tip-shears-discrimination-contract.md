@@ -803,3 +803,7 @@ Pt g2+=.27(3)另有相对192Pt .30(1)的TF参考链，适合作为进一步opera
 ## Day23：冻结空间不等于先置经典向量
 
 [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-29的selected projection控制区分Pj²P与(PjP)²，固定系数例中差仅共同平移，不能拿它证明本核劈裂变动或FA失败。[[ragnarsson-semmes-1988-particle-rotor-moments]] RS88-03/04/05/09约束bodyfixed算符、coreR惯量/配对/ξ与参数版本；RS88-13/14提供真实原文的EM失配和模型特定δ符号预测。B槽若同时改这些选项已超出configuration-only。[[133ce-thesis-analysis-blueprint]]保推导/条件；新needs_review:true，不补原j/R几何或实验δ/τ。
+
+## Day23：响应版本与M1算符自由度的联合边界
+
+[[ding-2021-131ba-133ce-signature-splitting]] D21-D23-064-1/2把8vs13clovers、β4/ε4等版本分开；[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-32的整体M1 η只在固定H/态/E2下变δ/rM1而保持rE2，其模型mixed yield也变，实验counts不变。它不是单改gs、不是任意g解，也不是B槽纯configuration映射。[[ragnarsson-semmes-1988-particle-rotor-moments]] RS88-17/18补一体BCS奇偶与约化B归一的条件控制，未代读1978正文。实际共同response/Cov及producer仍缺，不创造CI/τ/机时。

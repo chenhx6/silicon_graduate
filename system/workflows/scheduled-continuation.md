@@ -245,3 +245,9 @@ Safe suspend 是一次受控停点，不是让当前任务自动睡眠并原地�
 只有以上证据成立，才能报告“已执行”或“已完成”。没有运行记录时写“未触发”；有记录但产物未核验时写“已触发、未验证”；不得用预定时间推断执行结果。
 
 一次性任务完成或失败后应删除，避免残留触发。
+
+## 当前用户明确延期的同run兼容路径
+
+默认15:00研究截止与16:00正常启动不变。活动run获明确延期时，保留原receipt timing及原快照，以run-local SHA绑定override登记effective截止；`wiki_learning_deadline.py`验证用户授权文字、run/date/day/session、原snapshot和绝对时间。runner/clock统一使用effective时间门，不用旧CLI `--until`默改历史。下一正常schedule未因此自动改时，有活动run则新run分配前锁内defer，记录真实触发结果而非创建重复session。
+
+交互式单次closeout只在有效截止后一小时内、同session及existing locks内初始化one-shot、选择closeout并真实attempt；不start daemon、补历史execution或重发unknown。queued与实际收束/attestation分开。显式重构baseline仅为兼容已记录的首次快照和可审计历史证据，保留其来源/时刻/局限，禁止收束后拍快照冒entry。具体接口与限定tests见[脚本指南](../scripts/README.md)。

@@ -1,0 +1,356 @@
+{
+  "task": "Day23 B configuration reassignment, sameobservedD",
+  "created_at": "2026-10-26T07:27:14.889907+00:00",
+  "source_contracts": [
+    {
+      "source": "Wakudyanaye2022",
+      "path": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+      "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+      "locators": [
+        "PDF67 Table5.2 observedBand4",
+        "PDF99 Table6.6 orbitals16/17/18 and gR,gs",
+        "PDF104 Table6.8 Band4mixedstates",
+        "PDF107 §6.3.3 FAdefinition",
+        "PDF111–112 Tables6.9–6.11 EMcomparisons"
+      ],
+      "this_batch_text_pages": [
+        98,
+        99,
+        102,
+        104,
+        107,
+        111,
+        112
+      ],
+      "fresh_visual_pages": [
+        99,
+        104
+      ]
+    },
+    {
+      "source": "Guo2022",
+      "canonical": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "locators": [
+        "GU22-D23-012 SI4 Table1/SI5 Fig3 actualh/f/modelspace",
+        "G22-17/G22-20 Band2orbitalexcitation",
+        "G22-4 Band3identitychallenge"
+      ],
+      "this_batch": "canonical sourcecontract read, no claim of freshwholePDFread"
+    },
+    {
+      "source": "Sensharma2020",
+      "canonical": "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+      "locators": [
+        "AU20-9 Band1/2wobbling",
+        "AU20-10 Band3associatedSP",
+        "AU20-11 modelinputs"
+      ],
+      "this_batch": "sourcecontract via canonical project; no new fullread"
+    },
+    {
+      "source": "Day23method",
+      "canonical": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "locators": [
+        "Day23 保持计数的组态替代解释与留出检验",
+        "Day23：原QTR多轨道算符迁移边界",
+        "Day23：configuration relabel的可检验范围"
+      ],
+      "role": "method synthesis, not primary data"
+    }
+  ],
+  "corrected_band_identity": "187AuBand3 originallySP; mainwobblingcomparison isBand2, Band3keptasidentitycontrol",
+  "frozen_experimental_contract": {
+    "E_x": true,
+    "E_gamma": true,
+    "Jpi": true,
+    "published_Igamma": true,
+    "measured_AD_or_P_response": true,
+    "delta_roots_and_calibration": true,
+    "original_counts_provided": false,
+    "no_missing_measurement_set_zero": true,
+    "Ce_published_nodes": 21,
+    "Ce_published_edges": 48,
+    "Ce_published_D_sha256": "d613d33a9b136985f90b28520bcab88ae41869f613a59d959f1e2a069020b0d3"
+  },
+  "mutation_taxonomy": [
+    "labelonly: no newprediction",
+    "sameH_sameT mapping: mustfitenergiesandfullnetwork withoutrefit",
+    "model/space/operatorchange: explicit competingmodel, not puremapping"
+  ],
+  "candidates": [
+    {
+      "id": "CE-TIP-SOURCE",
+      "nucleus": "133Ce",
+      "experimental_band": "Band4",
+      "role": "source author interpretation",
+      "configuration": "dominant orbital18≈nu[514]9/2minus with mixedK and otherorbitals; source Rl≈2 model component",
+      "source_locator": "PDF99/104 Tables6.6/6.8",
+      "same_observed_D": true,
+      "physical_status": "partly supported source model; not all EM observables reproduced",
+      "sameH_mapping_ready": false,
+      "requires_model_change": false,
+      "low_energy_gate": "original model comparesEx; fullproducer/input units stillmissing",
+      "actual_gK": null,
+      "actual_signed_delta_prediction": null,
+      "new_absolute_B_prediction": null,
+      "needs_review": true,
+      "missing_inputs": [
+        "full signed eigenvector amplitudes and phase convention",
+        "common H/EM operator, shape/MoI/pairing/radial/BCS inputs",
+        "actual author producer/version/input/output",
+        "calibration/fit versus holdout data split",
+        "raw event/gate/background response and full covariance"
+      ],
+      "actual_model_falsified": false,
+      "actual_model_confirmed": false
+    },
+    {
+      "id": "CE-ORB17",
+      "nucleus": "133Ce",
+      "experimental_band": "Band4",
+      "role": "task hypothesis not fitted",
+      "configuration": "another sameH eigenband dominated by orbital17≈nu[523]7/2minus",
+      "source_locator": "PDF99 Table6.6 row17, not evidence of a full matchingband",
+      "same_observed_D": true,
+      "physical_status": "kinematic and speciesparity permitted; no demonstrated Exfit or equalcredibility",
+      "sameH_mapping_ready": false,
+      "requires_model_change": false,
+      "conditional_model_change_warning": "If shape/MoI/pairing retuned, comparison no longer puremapping",
+      "low_energy_gate": "need actual qpenergy and coremixing, not bareepsilon difference",
+      "actual_gK": null,
+      "actual_signed_delta_prediction": null,
+      "new_absolute_B_prediction": null,
+      "needs_review": true,
+      "missing_inputs": [
+        "full signed eigenvector amplitudes and phase convention",
+        "common H/EM operator, shape/MoI/pairing/radial/BCS inputs",
+        "actual author producer/version/input/output",
+        "calibration/fit versus holdout data split",
+        "raw event/gate/background response and full covariance"
+      ],
+      "actual_model_falsified": false,
+      "actual_model_confirmed": false
+    },
+    {
+      "id": "CE-ORB16",
+      "nucleus": "133Ce",
+      "experimental_band": "Band4",
+      "role": "task hypothesis not fitted",
+      "configuration": "another sameH eigenband dominated by orbital16≈nu[532]5/2minus",
+      "source_locator": "PDF99 Table6.6 row16",
+      "same_observed_D": true,
+      "physical_status": "formal orbital exists; no wholeband Ex/eigenvector match established",
+      "sameH_mapping_ready": false,
+      "requires_model_change": false,
+      "low_energy_gate": "same lambda/Delta/zero and fullrotor Hamiltonian required",
+      "actual_gK": null,
+      "actual_signed_delta_prediction": null,
+      "new_absolute_B_prediction": null,
+      "needs_review": true,
+      "missing_inputs": [
+        "full signed eigenvector amplitudes and phase convention",
+        "common H/EM operator, shape/MoI/pairing/radial/BCS inputs",
+        "actual author producer/version/input/output",
+        "calibration/fit versus holdout data split",
+        "raw event/gate/background response and full covariance"
+      ],
+      "actual_model_falsified": false,
+      "actual_model_confirmed": false
+    },
+    {
+      "id": "CE-3QP",
+      "nucleus": "133Ce",
+      "experimental_band": "Band4",
+      "role": "additional multiqp model hypothesis",
+      "configuration": "nu(h11/2) times two proton quasiparticles with parityproduct plus",
+      "source_locator": "not proposed as actualBand4configuration by thesis; taskhypothesis only",
+      "same_observed_D": true,
+      "physical_status": "numberparity and some angularcouplings allowed; energyfeasibility unknown",
+      "sameH_mapping_ready": false,
+      "requires_model_change": true,
+      "low_energy_gate": "832keV13/2bandhead cannotbe endorsed or excluded without blocking,Delta_p,residual/coreenergy; fixedreference paircost>=2Delta_p not universalband bound",
+      "actual_gK": null,
+      "actual_signed_delta_prediction": null,
+      "new_absolute_B_prediction": null,
+      "needs_review": true,
+      "missing_inputs": [
+        "full signed eigenvector amplitudes and phase convention",
+        "common H/EM operator, shape/MoI/pairing/radial/BCS inputs",
+        "actual author producer/version/input/output",
+        "calibration/fit versus holdout data split",
+        "raw event/gate/background response and full covariance"
+      ],
+      "actual_model_falsified": false,
+      "actual_model_confirmed": false
+    },
+    {
+      "id": "AU-B2-WOBBLING",
+      "nucleus": "187Au",
+      "experimental_band": "Band2",
+      "role": "Sensharma author hypothesis",
+      "configuration": "same dominant protonh9/2 intrinsicconfiguration asBand1, assigned n_w1",
+      "source_locator": "AU20-9/11",
+      "same_observed_D": true,
+      "physical_status": "supporting AD/PRM chain retained alongside independent P-Rac conflict",
+      "sameH_mapping_ready": false,
+      "requires_model_change": false,
+      "low_energy_gate": "source model Exfit conditional on different H/MoI/shape fromGuo",
+      "actual_gK": null,
+      "actual_signed_delta_prediction": null,
+      "new_absolute_B_prediction": null,
+      "needs_review": true,
+      "missing_inputs": [
+        "full signed eigenvector amplitudes and phase convention",
+        "common H/EM operator, shape/MoI/pairing/radial/BCS inputs",
+        "actual author producer/version/input/output",
+        "calibration/fit versus holdout data split",
+        "raw event/gate/background response and full covariance"
+      ],
+      "actual_model_falsified": false,
+      "actual_model_confirmed": false
+    },
+    {
+      "id": "AU-B2-ORBITAL",
+      "nucleus": "187Au",
+      "experimental_band": "Band2",
+      "role": "Guo author alternative, not new fit",
+      "configuration": "dominant mixedorbital21 vsBand1orbital19, includingh9/2/f7/2components",
+      "source_locator": "G22-17/20; GU22-D23-012",
+      "same_observed_D": true,
+      "physical_status": "source QTR reinterpretation exists; not sameH controlledcomparison toSensharma",
+      "sameH_mapping_ready": false,
+      "requires_model_change": true,
+      "low_energy_gate": "first freeze common Hamiltonian and state network; originalmodels differ",
+      "actual_gK": null,
+      "actual_signed_delta_prediction": null,
+      "new_absolute_B_prediction": null,
+      "needs_review": true,
+      "missing_inputs": [
+        "full signed eigenvector amplitudes and phase convention",
+        "common H/EM operator, shape/MoI/pairing/radial/BCS inputs",
+        "actual author producer/version/input/output",
+        "calibration/fit versus holdout data split",
+        "raw event/gate/background response and full covariance"
+      ],
+      "actual_model_falsified": false,
+      "actual_model_confirmed": false
+    },
+    {
+      "id": "AU-B3-CONTROL",
+      "nucleus": "187Au",
+      "experimental_band": "SensharmaBand3",
+      "role": "identity/ordinarySP comparator",
+      "configuration": "original associated unfavouredSP, not originalwobblingBand2; possible furtherorbital/MR hypothesis unbuilt",
+      "source_locator": "AU20-10; G22-4",
+      "same_observed_D": true,
+      "physical_status": "identity disputed; no new MR configuration or equalityofcredibility asserted",
+      "sameH_mapping_ready": false,
+      "requires_model_change": false,
+      "low_energy_gate": "must establishAuidentity and samegates first; Pt reassignment would alter identity and exceedconfigurationonly",
+      "actual_gK": null,
+      "actual_signed_delta_prediction": null,
+      "new_absolute_B_prediction": null,
+      "needs_review": true,
+      "missing_inputs": [
+        "full signed eigenvector amplitudes and phase convention",
+        "common H/EM operator, shape/MoI/pairing/radial/BCS inputs",
+        "actual author producer/version/input/output",
+        "calibration/fit versus holdout data split",
+        "raw event/gate/background response and full covariance"
+      ],
+      "actual_model_falsified": false,
+      "actual_model_confirmed": false
+    }
+  ],
+  "holdout_observables": [
+    {
+      "id": "MAGNETIC-INTRABAND",
+      "object": "M1 I→I−1 within candidate band over E2 I→I−2 within sameband",
+      "conditional_result": "(8/5)(gK−gR)^2K^2/Q0^2 *(I−1)(2I−1)/((I−1)^2−K^2)",
+      "numerical_controls": "verification.selected_axial_rate_ratio_controls",
+      "what_is_testable": "coupled geometry/magnetic/quadrupole combination after actualH/T predictions",
+      "cannot_establish": "actualgK from j/Omega; not Table6.11 interbandout/in; no unique mode from ratio"
+    },
+    {
+      "id": "SIGNED-DELTA",
+      "object": "specific sameparent interband M1/E2 link with signed RME",
+      "conditional_result": "delta proportionaltoEgamma*ME2/MM1 with conventions fixed",
+      "actual_prediction": null,
+      "what_is_testable": "relative signedcoherent EM amplitudes, not onlyB magnitudes or diagonal gK",
+      "missing": [
+        "signedfulltransitionmatrix",
+        "phase/RMEconvention",
+        "energy/operatorunits",
+        "bothdelta roots andresponseCov"
+      ]
+    },
+    {
+      "id": "BRANCH-FAMILY",
+      "object": "full sameparent decay network toidentified Band1/otherfinalstates",
+      "conditional_result": "exactJpi/triangle samefor all frozenJpi candidates; goodK selection conditionalonly",
+      "numerical_controls": "verification.axial_K_selection_controls",
+      "what_is_testable": "quantitative strengths or suppression with measured response/upperlimits",
+      "cannot_establish": "all3qp→1qp forbidden, Kforbidden exact in triaxialstate, or mandatoryobservability fromallowedmultipole"
+    },
+    {
+      "id": "LIFETIME-ABSOLUTE-B",
+      "object": "targetinitialstate mean tau plus completephotonBR/ICC anddelta",
+      "conditional_result": "lambda_gamma_i=Y_i/[tau sum_jY_j(1+alpha_j)]",
+      "actual_prediction": null,
+      "what_is_testable": "absoluteEMvector if calibratedcandidatepredictions separate",
+      "cannot_establish": "tau alone definitivelydistinguishes allmodes or providesdeltasign",
+      "missing": [
+        "realmeanlifetime orproperhalf-life",
+        "DSAM/RDMtiming/feeding/stoppingresponse",
+        "completebranchandICC",
+        "sharedBR/delta/tauCov",
+        "prefrozenmodeluncertainty"
+      ]
+    },
+    {
+      "id": "STATICMOMENT-TRANSFER",
+      "object": "targetstate staticmu/Qs or configuration-sensitive transfer/links",
+      "actual_prediction": null,
+      "what_is_testable": "complementarymatrixelements after fullmodelpredicts distinguishable ranges",
+      "cannot_establish": "purej gj uniquelychanges betweenOmega labels or asingle g alwaysselectsmode",
+      "missing": [
+        "targetstateidentity",
+        "actualoperatorcalibration",
+        "model/spectroscopic factors",
+        "independentmeasurementresponse"
+      ]
+    },
+    {
+      "id": "CONVERSION-ICC",
+      "object": "independently measured electron/photon ratio for specifiedshell",
+      "conditional_result": "alphaMix=(alphaM1+delta2alphaE2)/(1+delta2)",
+      "actual_prediction": null,
+      "what_is_testable": "mixing magnitude after matching theoryversion, shell andnormalization",
+      "cannot_establish": "delta sign or independent evidence if alpha wasderivedfromsame delta",
+      "missing": [
+        "actualconversion electroncounts/efficiency/normalization",
+        "BrIcc orother exactversion/shell",
+        "sharedCov andbranchidentity"
+      ]
+    }
+  ],
+  "selected_numeric_controls": {
+    "verification_file": "verification.json",
+    "check_count": 119,
+    "actual_experiment_or_author_model": false
+  },
+  "equal_credibility_assigned": false,
+  "experimental_CI_generated": false,
+  "actual_nuclear_gK_or_delta_invented": false,
+  "author_producer_replayed": false,
+  "requirements_still_missing": [
+    "real absolute lifetimes",
+    "conversion electron coefficients for actualtarget withversion/normalization",
+    "fullbranch covariance",
+    "fullsignedEMauthorproducer",
+    "lowspin3qp energy feasibility"
+  ],
+  "falsifiable_question": "With unchanged observed network and a priori frozen H/T/training set, does each reassigned eigenstate chain match Ex and predict a distinguishable complete heldout decay/absoluteEM/staticmoment vector under shared response and model uncertainty?",
+  "limitations": "No actualalternativeband or numericalinterbanddelta is claimed; null fields are deliberate input boundaries; mathematicalchecks are not mode certification",
+  "needs_review": true
+}

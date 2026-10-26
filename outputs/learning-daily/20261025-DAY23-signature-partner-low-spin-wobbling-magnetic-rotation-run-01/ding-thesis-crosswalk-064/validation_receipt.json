@@ -1,0 +1,33 @@
+{
+  "timestamp_UTC": "2026-10-26T05:22:51.037184+00:00",
+  "sources": [
+    {
+      "source": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+      "sha256_after": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+      "pages": 16,
+      "text_layer_982_matches": [],
+      "scope": "All pages text-layer search; absence alone is not an eigenvector proof"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+      "sha256_after": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+      "pages": 15,
+      "text_layer_982_matches": [],
+      "scope": "All pages text-layer search; absence alone is not an eigenvector proof"
+    },
+    {
+      "source": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+      "sha256_after": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+      "pages": 130
+    }
+  ],
+  "crops": 16,
+  "all_crop_paths_and_source_hashes_verified": true,
+  "thesis_partial_amplitude_square_sum": 1.039353,
+  "thesis_normalization_boundary": "Under stated orthonormal basis; no coefficient correction or renormalization",
+  "actual_detector_configuration_recovered": false,
+  "actual_event_ledger_recovered": false,
+  "actual_model_input_deck_recovered": false,
+  "canonical_or_review_state_modified": false,
+  "scope": "Targeted current-source crosswalk only; not publication gate or scientific final mode decision"
+}

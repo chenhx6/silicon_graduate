@@ -1,0 +1,258 @@
+[
+  {
+    "id": "canonical-p2-Ce-experiment",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/canonical-p2-Ce-experiment.png",
+    "source": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+    "sha256": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+    "PDF_page": 2,
+    "source_section": "II.A / III.C / TableIII as named",
+    "bbox_PDF_points": [
+      311,
+      420,
+      568,
+      659
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "published-p2-Ce-experiment",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/published-p2-Ce-experiment.png",
+    "source": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+    "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+    "PDF_page": 2,
+    "source_section": "II.A / III.C / TableIII as named",
+    "bbox_PDF_points": [
+      298,
+      324,
+      555,
+      551
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "canonical-p2-Ba-experiment",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/canonical-p2-Ba-experiment.png",
+    "source": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+    "sha256": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+    "PDF_page": 2,
+    "source_section": "II.A / III.C / TableIII as named",
+    "bbox_PDF_points": [
+      311,
+      98,
+      568,
+      429
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "published-p2-Ba-experiment-start",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/published-p2-Ba-experiment-start.png",
+    "source": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+    "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+    "PDF_page": 2,
+    "source_section": "II.A / III.C / TableIII as named",
+    "bbox_PDF_points": [
+      35,
+      701,
+      292,
+      746
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "published-p2-Ba-experiment-continuation",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/published-p2-Ba-experiment-continuation.png",
+    "source": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+    "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+    "PDF_page": 2,
+    "source_section": "II.A / III.C / TableIII as named",
+    "bbox_PDF_points": [
+      298,
+      65,
+      555,
+      328
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "canonical-p13-PES-TableIII",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/canonical-p13-PES-TableIII.png",
+    "source": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+    "sha256": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+    "PDF_page": 13,
+    "source_section": "II.A / III.C / TableIII as named",
+    "bbox_PDF_points": [
+      49,
+      56,
+      568,
+      279
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "published-p8-PES-TableIII",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/published-p8-PES-TableIII.png",
+    "source": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+    "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+    "PDF_page": 8,
+    "source_section": "II.A / III.C / TableIII as named",
+    "bbox_PDF_points": [
+      35,
+      61,
+      556,
+      281
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "canonical-p11-QTR-inputs",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/canonical-p11-QTR-inputs.png",
+    "source": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+    "sha256": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+    "PDF_page": 11,
+    "source_section": "II.A / III.C / TableIII as named",
+    "bbox_PDF_points": [
+      49,
+      547,
+      305,
+      729
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "canonical-p11-QTR-results-wavefunction",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/canonical-p11-QTR-results-wavefunction.png",
+    "source": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+    "sha256": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+    "PDF_page": 11,
+    "source_section": "II.A / III.C / TableIII as named",
+    "bbox_PDF_points": [
+      311,
+      569,
+      568,
+      706
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "published-p10-QTR-inputs-results",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/published-p10-QTR-inputs-results.png",
+    "source": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+    "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+    "PDF_page": 10,
+    "source_section": "II.A / III.C / TableIII as named",
+    "bbox_PDF_points": [
+      35,
+      517,
+      292,
+      745
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "published-p10-wavefunction",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/published-p10-wavefunction.png",
+    "source": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+    "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+    "PDF_page": 10,
+    "source_section": "II.A / III.C / TableIII as named",
+    "bbox_PDF_points": [
+      298,
+      403,
+      555,
+      481
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "thesis-p54-general-AFRODITE",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/thesis-p54-general-AFRODITE.png",
+    "source": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "PDF_page": 54,
+    "printed_page": 43,
+    "bbox_PDF_points": [
+      102,
+      83,
+      530,
+      394
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "thesis-p61-Ce-experiment",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/thesis-p61-Ce-experiment.png",
+    "source": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "PDF_page": 61,
+    "printed_page": 50,
+    "bbox_PDF_points": [
+      102,
+      132,
+      530,
+      402
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "thesis-p72-Ba-experiment",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/thesis-p72-Ba-experiment.png",
+    "source": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "PDF_page": 72,
+    "printed_page": 61,
+    "bbox_PDF_points": [
+      102,
+      133,
+      530,
+      523
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "thesis-p77-PES-and-epsilon4",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/thesis-p77-PES-and-epsilon4.png",
+    "source": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "PDF_page": 77,
+    "printed_page": 66,
+    "bbox_PDF_points": [
+      102,
+      299,
+      530,
+      586
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  },
+  {
+    "id": "thesis-p82-Table6-3",
+    "path": "tmp/day23-theses/ding-thesis-crosswalk/assets/thesis-p82-Table6-3.png",
+    "source": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "PDF_page": 82,
+    "printed_page": 71,
+    "bbox_PDF_points": [
+      120,
+      77,
+      510,
+      279
+    ],
+    "scale": 2.8,
+    "edits": "none"
+  }
+]

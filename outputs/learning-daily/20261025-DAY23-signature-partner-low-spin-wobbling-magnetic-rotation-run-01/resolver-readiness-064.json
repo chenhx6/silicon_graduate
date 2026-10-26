@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-26T07:48:27.548771+00:00",
+  "scope": "pure resolver read only; no finalization/queue/state increment/newsession/daemon",
+  "original": "2026-10-26T15:00:00+08:00",
+  "effective": "2026-10-26T17:00:00+08:00",
+  "closeout_end": "2026-10-26T18:00:00+08:00",
+  "override_hash": "64b046d569cc2bc1143a8910a559cd244d839f90485cbe989b6ff9870a3c59be",
+  "baseline_paths": 717,
+  "baseline_provenance": {
+    "kind": "reconstructed-entry-witness",
+    "path": "/workspace/wiki/outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/baseline-reconstruction-064.json",
+    "sha256": "106cdfb96a4ca1e7c0f3403f6527052aaf3514b229521085f923ba71626ad9f8",
+    "source_baseline": "/workspace/wiki/outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/baseline-001.json",
+    "source_sha256": "3f51de609f9b91619a44a3d35b43f8194ceb095778076aa6a9447acd2748b74b",
+    "source_observed_at": "2026-10-25T12:18:53.915992+00:00",
+    "evidence_path": "/workspace/wiki/outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/baseline-readonly-evidence-064.json",
+    "evidence_sha256": "d06aa4e29b198df16edc28b333a7e08fd7d799651dc41a9ec9a87886656f257f",
+    "report_absence_evidence_kind": "head-tree-status-and-ignore-policy",
+    "boundary": "Historical captured status plus tracked HEAD policy is a reconstruction witness, not a missing original report_existed_before field; historical changes to external/global excludes cannot be excluded by current config alone."
+  },
+  "active_run": "2026-10-25-day-23-01"
+}

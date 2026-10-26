@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-10-26T07:01:37.045543+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "8vs13clover同源冲突、PES/QTR参数分列、M1共同η及BCS/WE归一；用户explicitextension effective17",
+  "next_route": "Day23组态重指派和131/133Ce迁移综合，runner延期/基线/one-shot窄支持；高价值未完Ce写次日附属区",
+  "missing_inputs": [
+    "actualrun/event geometry ledger",
+    "2022作者producer和共同ε/λ单位零点",
+    "1978正文未得/原read0页",
+    "真实AD/P response/Cov/τ"
+  ],
+  "Day25_opened": false
+}

@@ -25,6 +25,11 @@ from typing import Any
 from zoneinfo import ZoneInfo
 
 from wiki_knowledge_writeback import snapshot_knowledge, validate_writeback
+from wiki_learning_deadline import (
+    find_active_learning_receipt,
+    resolve_baseline_knowledge,
+    resolve_deadline_info,
+)
 
 
 TIMEZONE = ZoneInfo("Asia/Shanghai")
@@ -517,7 +522,7 @@ def ensure_schedule_gate_contract(prompt: str) -> str:
             "## 时间判断与学习收束",
             "候选问题或来源达到局部证据饱和时，先读取最新 Runtime schedule snapshot；手动恢复且没有新快照时，调用当前时间工具，并按 Asia/Shanghai 与回执中的 overnight_until 比较。",
             "距离硬截止至少 120 分钟：继续当前高信息问题；若当前选定问题已饱和，检查下一张未完成日卡，只有其全部交付项能在剩余时段完成时才整卡前移。",
-            "距离硬截止 90–119 分钟：继续当前问题或做有边界的预览，不给下一日卡完整学分。少于 90 分钟：不打开新来源或新卡，只完成当前分析。硬截止后停止研究，用 15:00–16:00 收束。",
+            "距离硬截止 90–119 分钟：继续当前问题或做有边界的预览，不给下一日卡完整学分。少于 90 分钟：不打开新来源或新卡，只完成当前分析。硬截止后停止研究，在回执的有效截止后一小时内收束；默认15:00–16:00，显式用户延期按已校验的effective窗口执行。",
             "不能仅因两个候选槽位饱和而提前结束；须重建候选池、检查下一张可行日卡，并记录时间快照和决定。用户明确停止、硬证据/数据/权限阻塞或运行故障可提前结束，但必须保留未完成状态和续接命令。",
             "每次调用生成的新 Runtime snapshot 优先于本文件中的旧快照。课程学分只沿连续完整日卡推进；部分预览不得推进 next_day_index。",
             "",
@@ -1121,19 +1126,9 @@ def resume_running_receipt(paths: Paths, receipt_path: Path, args: argparse.Name
         )
     if not run_id.startswith(f"{run_date}-day-{day_index:02d}-"):
         raise RuntimeError("resume receipt run_id/date/path do not match")
-    schedule_deadline = datetime.fromisoformat(str(receipt.get("overnight_until")))
-    expected_deadline = planned_closeout_for_run_date(run_date)
-    if schedule_deadline != expected_deadline:
-        raise RuntimeError("resume receipt deadline is not run_date + 1 at 15:00 Asia/Shanghai")
-    baseline_path = run_dir / "baseline.json"
-    baseline = json.loads(baseline_path.read_text(encoding="utf-8"))
-    if baseline.get("run_id") != run_id or baseline.get("day_index") != day_index:
-        raise RuntimeError("resume baseline identity does not match the receipt")
-    if baseline.get("report_existed_before") is not False:
-        raise RuntimeError("resume requires a verified baseline showing the report was absent at entry")
-    knowledge_before = baseline.get("knowledge_sha256_before")
-    if not isinstance(knowledge_before, dict) or not knowledge_before:
-        raise RuntimeError("resume baseline has no original knowledge-page snapshot")
+    deadline_info = resolve_deadline_info(receipt_path, receipt, root)
+    schedule_deadline = deadline_info["effective_deadline"]
+    knowledge_before, baseline_provenance = resolve_baseline_knowledge(run_dir, receipt, root)
     report_path = paths.daily_root / f"{daily_file_stem(run_date, day_index)}.md"
     if Path(str(receipt.get("report"))).resolve() != report_path.resolve():
         raise RuntimeError("resume report path does not match the canonical daily report")
@@ -1375,6 +1370,7 @@ def resume_running_receipt(paths: Paths, receipt_path: Path, args: argparse.Name
                 "deliverables_passed": deliverables_passed,
                 "next_prompt_file": str(next_prompt_file) if next_prompt_file else None,
                 "next_prompt_error": next_prompt_error,
+                "baseline_provenance": baseline_provenance,
             }
         )
         if success:
@@ -1423,20 +1419,15 @@ def finalize_interactive_closeout(paths: Paths, receipt_path: Path) -> int:
         raise RuntimeError("receipt is missing run identity fields")
     if day_index != int(read_state(paths.state_file).get("next_day_index", 1)):
         raise RuntimeError("receipt day_index does not match current course next_day_index")
-    deadline = datetime.fromisoformat(str(receipt.get("overnight_until")))
-    expected_deadline = planned_closeout_for_run_date(run_date)
-    closeout_end = closeout_window_end(deadline)
+    deadline_info = resolve_deadline_info(receipt_path, receipt, root)
+    deadline = deadline_info["effective_deadline"]
+    closeout_end = deadline_info["effective_closeout_end"]
     now = datetime.now(TIMEZONE)
-    if deadline != expected_deadline or not (deadline <= now < closeout_end):
-        raise RuntimeError("interactive finalization is allowed only in the run's recorded 15:00–16:00 closeout window")
+    if not (deadline <= now < closeout_end):
+        raise RuntimeError("interactive finalization is allowed only in the validated effective closeout window")
 
     run_dir = receipt_path.parent
-    baseline = json.loads((run_dir / "baseline.json").read_text(encoding="utf-8"))
-    if baseline.get("run_id") != run_id or baseline.get("day_index") != day_index or baseline.get("report_existed_before") is not False:
-        raise RuntimeError("original run baseline identity/report state is not eligible for closeout")
-    knowledge_before = baseline.get("knowledge_sha256_before")
-    if not isinstance(knowledge_before, dict) or not knowledge_before:
-        raise RuntimeError("original knowledge snapshot is missing from baseline")
+    knowledge_before, baseline_provenance = resolve_baseline_knowledge(run_dir, receipt, root)
     report_path = paths.daily_root / f"{daily_file_stem(run_date, day_index)}.md"
     if Path(str(receipt.get("report"))).resolve() != report_path.resolve():
         raise RuntimeError("receipt report path does not match canonical daily report")
@@ -1452,6 +1443,11 @@ def finalize_interactive_closeout(paths: Paths, receipt_path: Path) -> int:
         or attestation.get("hard_deadline") != deadline.isoformat()
     ):
         raise RuntimeError("interactive closeout attestation does not match receipt identity/deadline")
+    if deadline_info["is_override"] and (
+        attestation.get("deadline_override_sha256") != deadline_info["override_sha256"]
+        or attestation.get("original_hard_deadline") != deadline_info["original_deadline"].isoformat()
+    ):
+        raise RuntimeError("interactive closeout attestation is not bound to the user deadline override")
     closeout_at = datetime.fromisoformat(str(attestation.get("closeout_at")))
     if not (deadline <= closeout_at < closeout_end) or closeout_at > now:
         raise RuntimeError("attested closeout timestamp is outside the recorded closeout window")
@@ -1474,6 +1470,8 @@ def finalize_interactive_closeout(paths: Paths, receipt_path: Path) -> int:
         or clock_state.get("events", {}).get("closeout", {}).get("status") != "queued"
     ):
         raise RuntimeError("run-local clock ledger does not prove the same-session closeout reminder was queued")
+    if deadline_info["is_override"] and clock_state.get("deadline_override_sha256") != deadline_info["override_sha256"]:
+        raise RuntimeError("run-local clock ledger is not bound to the user deadline override")
 
     preflight = run_preflight(root)
     if preflight["exit"] != 0:
@@ -1559,6 +1557,7 @@ def finalize_interactive_closeout(paths: Paths, receipt_path: Path) -> int:
             "next_prompt_file": str(next_prompt_file) if next_prompt_file else None,
             "next_prompt_error": next_prompt_error,
             "interactive_closeout_attestation": str(attestation_path),
+            "baseline_provenance": baseline_provenance,
         }
     )
     if success:
@@ -1619,6 +1618,8 @@ def main() -> int:
         validate_root(root)
         if args.resume_receipt is not None and args.finalize_receipt is not None:
             raise RuntimeError("--resume-receipt and --finalize-receipt are mutually exclusive")
+        if (args.finalize_receipt is not None or args.resume_receipt is not None) and args.until is not None:
+            raise RuntimeError("existing receipts require a hash-bound user deadline override; --until cannot replace their history")
         if args.finalize_receipt is not None:
             if args.mode != "daily-learning" or args.prepare_prompt is not None or args.prompt_file is not None:
                 raise RuntimeError("--finalize-receipt requires daily-learning mode and cannot prepare/override a prompt")
@@ -1682,73 +1683,90 @@ def main() -> int:
             raise RuntimeError(
                 f"daily-learning must start at next_day_index={state_next_day_index}; requested day_index={day_index}"
             )
-        phase = phase_for_day(day_index)
-        run_date = local_date()
-        if schedule_deadline is None and args.mode == "daily-learning":
-            schedule_deadline = planned_closeout_for_run_date(run_date)
-        file_stem = daily_file_stem(run_date, day_index)
-        run_number = next_run_number(paths.daily_root, run_date, day_index)
-        run_id = f"{run_date}-day-{day_index:02d}-{run_number:02d}"
-        run_dir = paths.daily_root / f"{file_stem}-run-{run_number:02d}"
-        run_dir.mkdir(parents=True, exist_ok=False)
-        report_path = paths.daily_root / f"{file_stem}.md"
-        report_before = report_signature(report_path)
-        events_path = run_dir / "events.jsonl"
-        stderr_path = run_dir / "stderr.log"
-        last_message = run_dir / "last-message.md"
-        run_kind = "acceptance-only" if args.mode == "acceptance" else "substantive"
-        run_started_at = datetime.now(TIMEZONE)
-        initial_closeout_snapshot = (
-            closeout_snapshot(
-                run_started_at,
-                schedule_deadline,
-                next_scheduled_start_for_run_date(run_date),
-            )
-            if args.mode == "daily-learning" and schedule_deadline is not None
-            else None
-        )
-        receipt = {
-            "schema_version": 1,
-            "run_id": run_id,
-            "run_date": run_date,
-            "day_index": day_index,
-            "phase": phase,
-            "cycle": CYCLE_NAME,
-            "schedule_id": SCHEDULE_ID,
-            "schedule_name": SCHEDULE_NAME,
-            "project_root": str(root),
-            "run_kind": run_kind,
-            "acceptance_only": args.mode == "acceptance",
-            "overnight_until": schedule_deadline.isoformat() if schedule_deadline else None,
-            "max_continuations": args.max_continuations,
-            "continuation_count": 0,
-            "continuation_batch_count": 0,
-            "continuation_batches": 1,
-            "counted_in_substantive_test": False,
-            "session_mode": SESSION_MODE,
-            "session_reuse": False,
-            "session_scope": "one-new-session-for-each-schedule-run",
-            "codex_home": str(validate_codex_home()),
-            "status": "running",
-            "started_at": run_started_at.isoformat(),
-            "report": str(report_path),
-            "completed_day_indices": [],
-            "partial_day_indices": [],
-            "curriculum_cards_completed": 0,
-            "closeout_window_ends_at": (
-                closeout_window_end(schedule_deadline).isoformat() if schedule_deadline else None
-            ),
-            "last_closeout_snapshot": initial_closeout_snapshot,
-        }
-        write_json_atomic(run_dir / "run.json", receipt)
-        with paths.lock_file.open("w", encoding="utf-8") as lock_handle:
+        # Allocate a new run only after the runner lock and existing-session guard.
+        # Interactive writers may outlive the original runner process and its flock.
+        with paths.lock_file.open("a", encoding="utf-8") as lock_handle:
             try:
                 fcntl.flock(lock_handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
             except BlockingIOError:
-                receipt.update({"status": "overlap-blocked", "exit_code": 75})
-                write_json_atomic(run_dir / "run.json", receipt)
-                print(json.dumps(receipt, ensure_ascii=False, indent=2))
+                print(json.dumps({"status": "overlap-blocked", "exit_code": 75,
+                                  "new_session_created": False, "run_allocated": False}))
                 return 75
+            if args.mode == "daily-learning":
+                active = find_active_learning_receipt(paths.daily_root, root, datetime.now(TIMEZONE))
+                if active is not None:
+                    old = active["receipt"]
+                    print(json.dumps({
+                        "status": "deferred-existing-run", "run_id": old["run_id"],
+                        "session_id": old["session_id"], "receipt": str(active["receipt_path"]),
+                        "effective_overnight_until": active["deadline_info"]["effective_deadline"].isoformat(),
+                        "effective_closeout_window_ends_at": active["deadline_info"]["effective_closeout_end"].isoformat(),
+                        "resume_command": build_resume_command(root, old["session_id"]),
+                        "new_session_created": False, "run_allocated": False,
+                        "course_state_changed": False,
+                        "failure_reason": "existing same-project learning run remains in its effective window",
+                    }, ensure_ascii=False))
+                    # A bounded non-model deferral: the scheduler must not try fallback models.
+                    return 75
+            phase = phase_for_day(day_index)
+            run_date = local_date()
+            if schedule_deadline is None and args.mode == "daily-learning":
+                schedule_deadline = planned_closeout_for_run_date(run_date)
+            file_stem = daily_file_stem(run_date, day_index)
+            run_number = next_run_number(paths.daily_root, run_date, day_index)
+            run_id = f"{run_date}-day-{day_index:02d}-{run_number:02d}"
+            run_dir = paths.daily_root / f"{file_stem}-run-{run_number:02d}"
+            run_dir.mkdir(parents=True, exist_ok=False)
+            report_path = paths.daily_root / f"{file_stem}.md"
+            report_before = report_signature(report_path)
+            events_path = run_dir / "events.jsonl"
+            stderr_path = run_dir / "stderr.log"
+            last_message = run_dir / "last-message.md"
+            run_kind = "acceptance-only" if args.mode == "acceptance" else "substantive"
+            run_started_at = datetime.now(TIMEZONE)
+            initial_closeout_snapshot = (
+                closeout_snapshot(
+                    run_started_at,
+                    schedule_deadline,
+                    next_scheduled_start_for_run_date(run_date),
+                )
+                if args.mode == "daily-learning" and schedule_deadline is not None
+                else None
+            )
+            receipt = {
+                "schema_version": 1,
+                "run_id": run_id,
+                "run_date": run_date,
+                "day_index": day_index,
+                "phase": phase,
+                "cycle": CYCLE_NAME,
+                "schedule_id": SCHEDULE_ID,
+                "schedule_name": SCHEDULE_NAME,
+                "project_root": str(root),
+                "run_kind": run_kind,
+                "acceptance_only": args.mode == "acceptance",
+                "overnight_until": schedule_deadline.isoformat() if schedule_deadline else None,
+                "max_continuations": args.max_continuations,
+                "continuation_count": 0,
+                "continuation_batch_count": 0,
+                "continuation_batches": 1,
+                "counted_in_substantive_test": False,
+                "session_mode": SESSION_MODE,
+                "session_reuse": False,
+                "session_scope": "one-new-session-for-each-schedule-run",
+                "codex_home": str(validate_codex_home()),
+                "status": "running",
+                "started_at": run_started_at.isoformat(),
+                "report": str(report_path),
+                "completed_day_indices": [],
+                "partial_day_indices": [],
+                "curriculum_cards_completed": 0,
+                "closeout_window_ends_at": (
+                    closeout_window_end(schedule_deadline).isoformat() if schedule_deadline else None
+                ),
+                "last_closeout_snapshot": initial_closeout_snapshot,
+            }
+            write_json_atomic(run_dir / "run.json", receipt)
             preflight = run_preflight(root)
             if preflight["exit"] != 0:
                 receipt.update(
@@ -1763,6 +1781,14 @@ def main() -> int:
                 print(json.dumps(receipt, ensure_ascii=False, indent=2))
                 return 3
             knowledge_before = snapshot_knowledge(root)
+            write_json_atomic(run_dir / "baseline.json", {
+                "schema_version": 1, "kind": "runner-entry-baseline",
+                "run_id": run_id, "run_date": run_date, "day_index": day_index,
+                "observed_at": datetime.now(TIMEZONE).isoformat(),
+                "report_existed_before": report_before is not None,
+                "report_signature_before": report_before,
+                "knowledge_sha256_before": knowledge_before,
+            })
             prompt = render_prompt(
                 paths,
                 run_id,

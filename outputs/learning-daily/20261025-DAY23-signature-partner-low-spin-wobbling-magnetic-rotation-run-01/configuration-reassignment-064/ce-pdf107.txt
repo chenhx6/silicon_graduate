@@ -1,0 +1,35 @@
+Chapter 6. Discussion
+96
+6.3.3
+The frozen alignment (FA) approximation for h11/2
+Bands in 133Ce
+In Ref. [23], Frauendorf and D¨onau proposed transverse wobbling motion in 135Pr.
+They approximated the three-dimensional rotational Hamiltonian (simultaneous
+rotation around the three principle nuclear axes) by 1D rotation about the or-
+thogonal (long/short) axis coupled with small-amplitude oscillations of this axis
+(or coupled with excitations of wobbling phonons). In order for the approxima-
+tion to be valid it is necessary, (i) that the single-particle angular momentum,⃗j,
+is ﬁrmly aligned (’frozen’) along the orthogonal (long/short) axis. This is needed
+to exclude the tilting of⃗I due to mis-alignment of⃗j caused by the Coriolis inter-
+action. Wobbling is a collective mode of excitation, therefore, the single-particle
+degrees of freedom have to be excluded. However, this is not suﬃcient to approx-
+imate 3D rotation with wobbling motion, thus in addition, (ii) the rotation along
+the wobbling axis should be much larger than the rotation orthogonal to it, i.e.
+the projection of the rotational angular momentum⃗R on the long axis, Rl, should
+be much larger than the projection of the rotational angular momentum⃗R on the
+intermediate axis, Ri, that is Rl >> Ri. This is needed because only if this is
+true one can approximate the rotation that is orthogonal to the long axis with
+excitations of wobbling phonons.
+The FA approximation is a valid approximation for wobbling motion if the two
+conditions outlined above are fulﬁlled. The last condition is not fulﬁlled in 133Ce,
+where the rotation along the intermediate axis is dominant. It had already been
+shown that this condition is in general not fulﬁlled for one-quasiparticle bands and
+transverse coupling of the angular momenta [42].
+Calculations were performed using the QTR model with the FA approximation as
+in Ref. [23], where it is assumed that the angular momentum of the odd neutron is
+ﬁrmly aligned with the long axis. This is equivalent to the calculations presented
+in Section 6.3.2, but with a restricted conﬁgurations space, that consists of only
+one orbital, (orbital |18⟩, listed in Table 6.6). The deformation parameters used
+in the calculations are presented in Table 6.1. The assumed MoIs are the same
+as those presented in Section 6.3.2, that is with J0 = 10 ℏ2MeV−1 and J1 = 25
+ℏ4MeV−3.

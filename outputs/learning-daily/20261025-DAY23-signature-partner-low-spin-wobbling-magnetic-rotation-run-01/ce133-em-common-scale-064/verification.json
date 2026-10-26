@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-26T05:28:20.794309+00:00",
+  "all_algebra_checks_pass": true,
+  "check_count": 36,
+  "script_AST_ok": true,
+  "missing_links": [],
+  "math_delimiters_checked": true,
+  "figure_fitting_performed": false,
+  "whole_M1_scale_not_gs_only": true,
+  "625_missing_reference_preserved": true,
+  "table6_9_point_001_not_replaced": true,
+  "statistical_exclusion_claim": false,
+  "canonical_modified": false,
+  "raw_modified": false,
+  "git_operations": false,
+  "files": [
+    {
+      "path": "tmp/day23-theses/ce133-em-common-scale-064/common_scale.py",
+      "sha256": "7eb170ace82065a0e0533d36c7ed8b22f3bf76be17e4460626de6a29a091116e",
+      "bytes": 8400
+    },
+    {
+      "path": "tmp/day23-theses/ce133-em-common-scale-064/contract.md",
+      "sha256": "0b68d2e384121a1489dfa9c4cb6f7ee77ce1f6a73c2acbf0d2def79b42b5a245",
+      "bytes": 1474
+    },
+    {
+      "path": "tmp/day23-theses/ce133-em-common-scale-064/derivation.md",
+      "sha256": "74768d6e8d8feb7e8ca37842b8b7f7f2a29bdd150d152d1de84a513312ffc89d",
+      "bytes": 7289
+    },
+    {
+      "path": "tmp/day23-theses/ce133-em-common-scale-064/results.json",
+      "sha256": "a485f70a2f2bf9e66bdad64e0e19e1049efa6c6e47054f86bc30ddf90fba1217",
+      "bytes": 11926
+    },
+    {
+      "path": "tmp/day23-theses/ce133-em-common-scale-064/run-summary.json",
+      "sha256": "2facbe4f2a4b5b1ef979efd9af7fdc048082375426c9a2da4f23d53ec137d3cc",
+      "bytes": 5267
+    }
+  ]
+}

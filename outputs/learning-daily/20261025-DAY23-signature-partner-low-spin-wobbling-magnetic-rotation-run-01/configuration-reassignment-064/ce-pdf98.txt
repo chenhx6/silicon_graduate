@@ -1,0 +1,36 @@
+Chapter 6. Discussion
+87
+6.3
+Part II: Interpretation of the negative-parity
+structure in 133Ce
+6.3.1
+Introduction
+As we have seen in Chapter 3, triaxially deformed nuclei can access a variety of ex-
+citation modes including vibrations, three-dimensional rotational motion, nuclear
+wobbling motion as proposed in Ref. [15], and chirality. The last three modes
+necessarily being unique to triaxial nuclei. Nuclear chirality has been reported in
+the A = 130 mass region (see for instance works on chiral bands in 131Ba [28],
+133La [57], and 133Ce [6]). Evidence for nuclear wobbling motion was reported in
+the A = 160 mass region where the observed bands were built on the πi13/2 con-
+ﬁguration and corresponded to a large nuclear deformation of ε2 ≈0.40, see for
+instance published results for 161,163,165,167Lu [16, 34, 55, 63], and 167Ta [31]. The
+longitudinal wobbling bands reported in these Lu isotopes were later re-interpreted
+in terms of transverse wobbling motion in Ref. [23], but this new interpretation
+remains controversial [42, 71, 72].
+The negative-parity structure, Band 1 of 133Ce (see Figure 5.1), forms the yrast
+rotational sequence.
+It was observed in previous works and a 1-quasineutron
+ν(h11/2)−1[514]9/2−conﬁguration with a triaxiality of ∼20◦[33, 52, 56] was as-
+signed to this band. Nuclei in the A = 130 mass region are predicted to exhibit
+large triaxiality at low to medium spins, while the valence protons from the bot-
+tom of the h11/2 shell favor prolate nuclear shapes, valence neutrons from the top
+of the h11/2 shell favour oblate shapes. It is this competing mechanisms that drives
+these nuclei to triaxial shapes [56].
+6.3.2
+Tilted precession (TiP) interpretation for h11/2 bands
+in 133Ce
+QTR model calculations were performed with the deformation parameters pre-
+sented in Table 6.1. A single-particle conﬁguration space spanning nine negative-
+parity orbitals close to the Fermi surface were used to account for the single-particle
+degrees of freedom. The MoI’s of the core were assumed to follow the irrotational-
+ﬂow dependence with respect to the γ deformation [48]. Harris parametrization

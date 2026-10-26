@@ -1,0 +1,57 @@
+# Deadline / runner / clock治理独立审查
+
+状态：首次发现一项Important缺口，作者已窄修，最终字节复查及纯内存fake确认闭合；当前未见未修实质发布blocker。只读审查治理文件与diff，不改canonical/scripts/tests/Git；唯一审查产物写本tmp文件。不实际queue、start、resume、tick或finalize。
+
+范围：system/scripts/wiki_learning_deadline.py；run_daily_learning.py及run_learning_session_clock.py当前新diff；test_wiki_learning_deadline.py、test_daily_learning_runner.py、test_learning_session_clock.py新增测试。实际先读git diff/new模块全文及调用上下文。没有派生agent。
+
+## Important：直接one-shot绕过已取消的run receipt
+
+首次审读版本的run_learning_session_clock.py:506–510重读current spec后，只调用completed_receipt(current)；stopped/cancelled/interrupted检查仅在tick():547–550。新fresh one-shot直接initialize_one_shot()+attempt(closeout)，不会经过tick。若同run receipt已经cancelled而Farmer快照missing/stale或未同步，farmer_control返回continue，直接attempt仍会queue。
+
+复现只在内存构造Supervisor对象，save/log/heartbeat为no-op、load_spec patched返回receipt_status='cancelled'、queue为记录列表的lambda；未写fixture、未起进程、未调用真正queue。实际结果：fake_queue_calls=1，closeout event状态queued。故它是terminal receipt边界缺口，不是风格意见。
+
+最小修复：把terminal receipt检查放到attempt重读身份后，同时供tick共用；至少completed/completed-partial停止投递，stopped/cancelled/interrupted按原tick语义停止，不因Farmer未知而继续。新增fake测试验证当前receipt终止状态在one-shot路径不入队，并保留in-flight/unknown不重发。
+
+作者反馈：已接收，准备抽公共terminal_receipt guard；尚未在本文首次写入时完成最终字节复查。修补后无需扩展到其它生命周期设计。
+
+## 当前审读支持的关键边界
+
+- 默认仍为run_date+1的15:00、默认closeout+1h，未把全局默认改成17:00；override sidecar必须有hash、明确user_instruction/authorization_kind、run/session匹配。
+- override强制原overnight_until和原closeout_window_ends_at保持默认值；原receipt snapshot的hash、run_id/session/date/day及原时刻均核；current effective字段必须与同侧回执相同。
+- resume/finalize禁止用--until改既有历史；finalizer与clock共用同一deadline resolver，attestation和clock-state再绑override hash；有效17:00前与18:00后不走该finalization窗口。
+- baseline标准路径和reconstructed-entry-witness分开返回provenance。重构路径要求source snapshot和proof的各自hash、历史HEAD/observed_at、知识清单/计数、EOL解释、report absence与ignore-policy witness，metadata没有把重构改名成原runner入口stat。
+- 该proof是保存的历史证据及其审计结果，不是模块重新运行历史Git或凭空证明当时外部exclude政策；它明确携带boundary。不要在发布措辞中把它升级成“原始runner baseline已找到”。
+- 新run的baseline确在model execution前落盘；没有用closeout末尾现拍knowledge替换旧入口。
+- active-run guard位于runner flock之后、分配新run目录/receipt之前；有效override窗口内running/failed-verification回执返回deferred-existing-run，包含原session/resume而不分配新run。新reason不触发模型fallback；旧不完整receipt在最晚可能窗口后跳过，近期无效override fail closed。
+- attempt新实时时钟检查阻止用future now参数提前queue，closeout窗口结束后不重播普通提醒；queued/unknown是terminal event状态，in-flight恢复为unknown不盲重发。
+- fresh one-shot的first_start_origin明确，不冒clock daemon历史；farmer_reference_at用study_started_at而非one-shot刚初始化时刻，避免漏掉初始化前几秒的鲜活cancel/recovery。
+- Fresh one-shot仍需只选择closeout event；作者正增加origin-specific closeout-only guard，防直接attempt历史checkpoint绕过tick coalescing。
+
+## 必须保留的caller执行合同：同一clock锁保护one-shot
+
+Supervisor方法自己不持进程锁，常规main是在acquire_locks(LOCK_PATHS)作用域内构造并运行。17点真实one-shot调用者也应在同样锁域内完成“构造Supervisor→initialize_one_shot→attempt(closeout)”。如果两个调用者先各自读取pending ledger，方法内部的单实例去重无法阻止双方各queue一次。
+
+这是具体调用边界，不要求扩大本次实现：父代理执行时使用现有锁即可。不能把单实例unknown/queued测试描述成任意多调用者的无条件exactly-once保证。timeout=unknown与queue exit0=broker accepted、不等于delivery observed或实际closeout完成的语义保留。
+
+## 验证范围与未执行动作
+
+没有运行整个测试套件，以免把模拟closeout测试与真实动作混淆或重复作者已执行检查；已逐条读新增测试，作者负责其最终字节完整suite。独立复现仅对原terminal receipt缺口做了内存fake，不调用真实runner或clock流程。
+
+没有改变run.json、baseline、override sidecar、clock ledger、course state、Farmer或schedule。没有实际queue/start/resume/finalize，无Git mutation。此次审查只能评价所列代码路径，不证明实际17点queue/finalizer已经执行。
+
+## 最终修补闭环（本轮真实复查）
+
+最终diff已见：completed_receipt接受completed-partial；新terminal_receipt同时供attempt重读spec后与tick调用，stopped/cancelled/interrupted停止，completed/completed-partial终止delivery。fresh one-shot还以first_start_origin限制event_id必须closeout；unknown/in-flight逻辑保留。
+
+独立再次执行纯内存fake，分别使重读receipt为stopped、cancelled、interrupted、completed、completed-partial。五种fake_queue_calls均为0；前三个clock_status=interrupted，后两个=completed。无文件fixture、无真实queue/subprocess、无start/resume/tick/finalize。新增对应五状态fake测试和非closeout事件测试的代码已读；作者完整suite结果由其独立回执负责，本审查不虚称自己跑过完整suite。
+
+结论：在现有信任边界、hash-bound历史证据及one-shot caller持existing clock锁的执行合同下，指定代码范围未见尚未解决的实质发布blocker。此结论不表示17点closeout已执行。父代理真实执行时仍必须同锁内构造/初始化/attempt，保留queue acceptance与delivery的区别。
+
+复核时间UTC：2026-10-26T08:20:00.703306+00:00
+
+- system/scripts/wiki_learning_deadline.py SHA256 c9938c460fa42c11fdcf8fa39bd6a6e1d119d709f80283382018a2031337d99e
+- system/scripts/run_daily_learning.py SHA256 f65e9a92d1c0029e8bba5fdc68e161d389d4a07f8f67a086a1d2ed03b31d3b5f
+- system/scripts/run_learning_session_clock.py SHA256 ec39fdcab01ab40a7b43da84e62bdb99d8d0aaedfc1763b8cb4ef481a0f58464
+- system/tests/test_wiki_learning_deadline.py SHA256 7a704b65677a9c5c53cbab95ab6df25134c7e8c2671cad69355a7fbd57205c6b
+- system/tests/test_daily_learning_runner.py SHA256 888840e6e427b159e30aa781279604f615f11553a1317b49662293e0d2b30d1c
+- system/tests/test_learning_session_clock.py SHA256 c47be8c783f60476dbfc07df06a13de0a21ca47d72bd70184c3e8657c0e683f0

@@ -1,0 +1,54 @@
+Chapter 6. Discussion
+101
+Iπ
+i
+Iπ
+f
+Eγ
+δ
+B(E2)out(I→I−1)
+B(E2)out(I→I−2),
+B(M1)out(I→I−1)
+B(E2)out(I→I−2) ,
+B(E2)out(I→I−1)
+B(E2)in(I→I−2) ,
+B(M1)out(I→I−1)
+B(E2)in(I→I−2)
+13/2−
+11/2−
+625
+−1.5+0.97
+−5.7
+1.15+0.48
+−0.79
+0.14+0.21
+−0.13
+−
+−
+17/2−
+15/2−
+582
+−0.55+0.12
+−0.25
+5.06+3.45
+−1.66
+3.95+0.39
+−0.81
+0.33+0.28
+−0.13
+0.25+0.03
+−0.05
+19/2−
+17/2−
+465
+−0.17+0.09
+−0.2
+1.06+3.49
+−0.82
+5.54+0.12
+−0.53
+0.09+0.34
+−0.07
+0.47+0.01
+−0.04
+Table 6.11: Experimental data on the mixing ratios δ, and the measured reduced transition probabilities for Band 4 of 133Ce.

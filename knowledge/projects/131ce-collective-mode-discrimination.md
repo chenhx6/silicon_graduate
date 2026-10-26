@@ -327,3 +327,7 @@ The formal Day7 report initially over-read the Table 4.4 “Band 4” grouping a
 ## 133Ce重要补充：独立深入学习工程
 
 用户明确133Ce硕士论文应像131Ce学位论文一样作为数据分析蓝本；现以[[133ce-thesis-analysis-blueprint]]持续推进。[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-01–28提供本核原件，不迁移131Ce旧标签或review。新增Band4为低spin单准粒子线，不能按band号拼入旧MχD pair；其计数/能级/响应与模型输入分别核查。用户独立实验数据本轮未读取。
+
+## Day23深入补充的迁移边界
+
+[[133ce-thesis-analysis-blueprint]]新增两核逐带/selected S/操作清单。[[alwaleedi-2013-band-structures-131ce]] AW13-D23-064-1–3保Band3低61.8、Fig5.2caption/正文冲突及目标τ网络缺口；[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-33/34保configuration-only与same-spin近邻身份。用户独立数据未读，新claimsneeds_review:true，旧Band5两高spin分量e⊗AEFG审核保持，不以133Ce同号带替换。

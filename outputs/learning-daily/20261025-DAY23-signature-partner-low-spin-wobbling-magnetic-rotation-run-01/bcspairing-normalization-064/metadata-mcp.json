@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"title\": \"Nuclear core-quasiparticle coupling\",\n  \"authors\": [\n    \"S.E. Larsson\",\n    \"G. Leander\",\n    \"I. Ragnarsson\"\n  ],\n  \"year\": 1978,\n  \"doi\": \"10.1016/0375-9474(78)90613-9\",\n  \"journal\": \"Nuclear Physics A\",\n  \"source\": \"crossref\",\n  \"citation_count\": 253,\n  \"abstract\": \"\",\n  \"volume\": \"307\",\n  \"issue\": \"2\",\n  \"pages\": \"189-223\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 56,\n  \"url\": \"https://doi.org/10.1016/0375-9474(78)90613-9\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "result": "{\n  \"title\": \"Nuclear core-quasiparticle coupling\",\n  \"authors\": [\n    \"S.E. Larsson\",\n    \"G. Leander\",\n    \"I. Ragnarsson\"\n  ],\n  \"year\": 1978,\n  \"doi\": \"10.1016/0375-9474(78)90613-9\",\n  \"journal\": \"Nuclear Physics A\",\n  \"source\": \"crossref\",\n  \"citation_count\": 253,\n  \"abstract\": \"\",\n  \"volume\": \"307\",\n  \"issue\": \"2\",\n  \"pages\": \"189-223\",\n  \"publisher\": \"Elsevier BV\",\n  \"type\": \"journal-article\",\n  \"references_count\": 56,\n  \"url\": \"https://doi.org/10.1016/0375-9474(78)90613-9\"\n}"
+    },
+    "isError": false
+  },
+  "discovery": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"doi\": \"10.1016/0375-9474(78)90613-9\",\n  \"accessDiscovery\": {\n    \"status\": \"not_found\",\n    \"landingUrl\": \"https://linkinghub.elsevier.com/retrieve/pii/0375947478906139\",\n    \"landingHost\": \"linkinghub.elsevier.com\",\n    \"reason\": \"no_candidate\",\n    \"fallback\": {\n      \"attempted\": false,\n      \"combinationsAttempted\": 0\n    },\n    \"targetStatus\": 200,\n    \"candidateCount\": 0,\n    \"candidatesTruncated\": false,\n    \"candidateUrls\": [],\n    \"fetchedAt\": \"2026-10-26T05:45:12.685Z\"\n  }\n}"
+      }
+    ]
+  },
+  "scholar": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool 'search_google_scholar': google_scholar search failed: Dire****************** out"
+      }
+    ],
+    "isError": true
+  }
+}

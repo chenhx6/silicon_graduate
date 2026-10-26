@@ -75,10 +75,14 @@ Covered：两实验来源/实际装置、Band1–4符合逻辑、AD与DCO/RAD区
 | WK22-28 | Table5.2打印Iγ与Table6.11中央δ条件重组的比值不全等于6.11；只说明summary/处理谱系未闭合，原gate/效率/双峰/Cov缺失，未做显著性或实验错误判决。 | task-derived-summary-audit | direct-original-or-explicit-task-derivation | PDF67 Table5.2; PDF112 Table6.11 | true |
 | WK22-29 | 由Eq3.14所含j²提出selected lab单j11/2、P=span(m±9/2)控制：PjxP=PjyP=0而Pjx²P=Pjy²P=31/4；这是任务定义的算符投影练习，非真实轨道18/作者FA复现或实验值，不能把top3归一冒实际态。 | task-derived-projection-control | conditional-mathematics-not-nuclear-fit | PDF45 Eq3.14; PDF99 Table6.6; PDF107 §6.3.3 | true |
 | WK22-30 | Tables6.2/6.4 ε列标MeV且约5.45–6.51，正文正宇称Ce λF50.6MeV/Ba λF51.0MeV；本轮未找到这些具体量共同零点/转换说明。不能据背景ħω自动改表单位，负宇称λ更不能继承正宇称值；需实际GAMPN/ASYMO接口header与λ/Δ合同。 | source-literal-and-input-unit-gap | direct-original-and-readiness-boundary | PDF78 Table6.2 and preceding paragraph; PDF87–88 Table6.4; PDF47 Eq3.20 | true |
+| WK22-31 | 同源Ding2021稿本/正式版均写8clovers两环，thesis具体段13三环；同事件计数等字段只给强同源线索，actual geometry/run ledger缺，不能据13或8任一描述直接认证δ响应。 | cross-source-apparatus-and-dependency | direct-original-and-readiness | PDF61 §5.2.1; DingmanuscriptPDF2 §II.A; Dingpublished064304-2 §II.A | true |
+| WK22-32 | 固定H/态/E2/能量，仅整个M1算符乘共同正η时δ除η、rM1乘η²、rE2不变；打印表中央值所需逐线η不同只作条件诊断，不是g拟合/CI/原模型排除。模型mixed光子yield会变，实验counts不变；单改gs也不等同整体η。 | task-derived-operator-scale-control | conditional-mathematics-not-model-replay | PDF48 Eq3.22–3.25; PDF111 Tables6.9–6.10; PDF112 Table6.11 | true |
+| WK22-33 | Band4的#17/#16轨道激发替代须在同H/算符/空间下找到能量和全连接匹配的本征序列；两轨道已在原九轨道混合内，仅换标签无新预测。3qp另增空间/blocking/残余力，低832keV可行性未知，不与TiP自动等可信；真实gK、signedδ预测当前缺输入，保持unknown。 | task-configuration-design | source-grounded-candidate-not-fitted-model | PDF99 Table6.6; PDF104 Table6.8; PDF107 §6.3.3 | true |
+| WK22-34 | 与AW13对照时Band3不可按同号合并：本论文Band3为1/2+ground，Band2的13/2+1459.9与Band3同spin1445.8相差14.1keV，412.4/767.7跨带links可定位；不等于已测ωc/混合矩阵元。 | source-identity-and-analysis-boundary | direct-original-and-explicit-central-difference | PDF69 Table5.3; PDF71 Table5.4; AW13 printed82 §5.2.2 Band3 (PDF86) | true |
 
 ## Experimental or Theoretical Setup
 
-13-clover AFRODITE的133Ce与GALILEO的131Ba是不同采集。论文Ch4对阵列历史/一般结构的描述不能替代Ch5具体run配置。相对Iγ按170.2keV归一；同归一的误差相关性应恢复。原能级、光子强度、多极/δ提取、PES和QTR输出分别建账。
+论文具体段报告的13-clover133Ce与Ding8-clover描述仍待actual ledger；133Ce与GALILEO的131Ba是不同目标核采集。论文Ch4对阵列历史/一般结构的描述不能替代Ch5具体run配置。相对Iγ按170.2keV归一；同归一的误差相关性应恢复。原能级、光子强度、多极/δ提取、PES和QTR输出分别建账。
 
 QTR合同：H=Hint+Σ(Ik−jk)²/(2Jk)，D2 strong basis和BCS；正宇称10轨道、负宇称9轨道、FA1轨道互不混用。三程序接口只是程序角色描述，尚不具有可复跑完整输入。gs与gR是算符选项而非额外磁测量。
 

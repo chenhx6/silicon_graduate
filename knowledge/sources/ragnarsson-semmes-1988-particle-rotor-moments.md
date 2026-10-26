@@ -74,3 +74,12 @@ OpenAlex/发现工具的closed/restricted只说明其索引/端点状态，本�
 ## Extracted Pages
 
 [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] Ref62、WK22-10/11/16/18与本原文逐项对照；[[133ce-thesis-analysis-blueprint]]保存可复用合同/推导。[[signature-tip-shears-discrimination-contract]]承接Day23 A槽响应与B槽configuration-only边界。新claims全部needs_review:true，无human-reviewed晋升。
+
+## Ref1访问边界与独立BCS/张量归一控制
+
+本轮沿Ref1 Larsson/Leander/Ragnarsson NPA307(1978)189–223、DOI10.1016/0375-9474(78)90613-9核书目；受检合法入口未获全文，实际1978正文阅读0页。ScienceDirect403/API406、Lund无附件、OpenAlex无PDF、Scholar timeout及S2一次429均留访问记录，不重复撞失败端点；不以摘要冒显式矩阵元。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| RS88-17 | Eq10相位动机下，任务构造4模式16维精确Fock控制：T-odd一体散射给uu′+vv′，T-even prototype给uu′−vv′，对角电算符须分开BCS真空/core贡献。它不替Ref1完整M1/E2公式，不意味着整个particle+core E2统一乘minus，也不恢复actual λ/Δ。 | task-derived-BCS-control | conditional-Fock-algebra-not-author-code | printed427 Eq10 and paragraph afterEq13; printed429 Eqs26–28 | true |
+| RS88-18 | 按声明Wigner–Eckart约定，固定Mi对所有Mf/q求和已为B=R²/(2Ji+1)，不可再除一次；反向详细平衡依初态spin权重。精确3j²控制为数学归一，非本核矩阵元或g/τ。 | task-derived-tensor-normalization | conditional-exact-angular-algebra | printed429 Eq26; printed430 Eqs29–31 | true |

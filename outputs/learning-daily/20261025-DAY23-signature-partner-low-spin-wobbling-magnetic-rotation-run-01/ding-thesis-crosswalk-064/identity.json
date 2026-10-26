@@ -1,0 +1,40 @@
+[
+  {
+    "tag": "Ding-canonical",
+    "path": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+    "sha256": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+    "pages": 16,
+    "metadata": {
+      "format": "PDF 1.5",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "LaTeX with hyperref package",
+      "producer": "pdfTeX-1.40.18",
+      "creationDate": "D:20211109090447-05'00'",
+      "modDate": "D:20211109090447-05'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  {
+    "tag": "Ding-alternate",
+    "path": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+    "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+    "pages": 15,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "Signature splitting of the $g_{7/2}$[404]7/2$^{+}$ bands in $\\sideset{^{131}}{}{\\mathop {\\rm Ba}}$ and $\\sideset{^{133}}{}{\\mathop {\\rm Ce}}$",
+      "author": "B. Ding",
+      "subject": "Phys. Rev. C 104, 064304 (2021). doi:10.1103/PhysRevC.104.064304",
+      "keywords": "doi:10.1103/PhysRevC.104.064304 url:https://doi.org/10.1103/PhysRevC.104.064304",
+      "creator": "Copyright 2021 American Physical Society",
+      "producer": "Acrobat Distiller 10.0.0 (Windows)",
+      "creationDate": "D:20211209134021+05'30'",
+      "modDate": "D:20211209134050+05'30'",
+      "trapped": "",
+      "encryption": null
+    }
+  }
+]

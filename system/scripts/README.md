@@ -127,7 +127,7 @@ python3 system/scripts/run_daily_learning.py --root /workspace/wiki \
   outputs/learning-daily/<existing-run-dir>/run.json
 ```
 
-`--finalize-receipt` 要求当前 `CODEX_SESSION_ID` 与 receipt 一致、处于 receipt 的 15:00–16:00
+`--finalize-receipt` 要求当前 `CODEX_SESSION_ID` 与 receipt 一致、处于经验证的有效截止后一小时（默认15:00–16:00）
 收束窗、run-local clock ledger 已接受 closeout 提醒，attestation 与日报哈希一致，且原
 baseline、报告、唯一 writeback、lint、diff 与逐卡验收全部通过；通过后仍由普通 runner 的
 state updater 与 next-prompt preparer 推进状态和生成下一卡。此入口不补做缺失的 closeout
@@ -219,3 +219,15 @@ Day19 的旧 `day19_execute_closeout.py` 已退役，不能据其旧“100%就�
 课程解析允许今日卡等待收束门时，同时记录今日partial与恰好Day+1的无学分preview
 （例如completed为空、partial为[19,20]）。这不推进学分或next_day_index；
 跳卡、第三张partial或Day+2仍被拒绝。正式19完成后改为completed[19]/partial[20]。
+
+## 活动学习run的显式延期与一次收束
+
+默认次日15:00及正常16:00 schedule不变。当前用户明确延期时，使用同run/session、SHA绑定的user override sidecar和原run完整快照；保留原`overnight_until`/`closeout_window_ends_at`，另设effective字段。`wiki_learning_deadline.py`共用解析身份/原快照/授权/绝对时区时间，runner resume/finalize及clock使用同一结果。活动receipt上的`--until`不得静默替换历史；本次用户延期不成为全局默认。
+
+新run在runner锁内分配目录前检查活动receipt；有同项目有效窗口的run则`deferred-existing-run`/75，不新建session、run目录、fallback或学分。旧daemon可能把这次触发记failed，不能宣称schedule时间已自动延后。普通研究与收束仍保原身份。
+
+缺旧`baseline.json`时，仅接受独立SHA绑定的`reconstructed-entry-witness`及原首次快照、历史HEAD/status/ignore与EOL证明；明确记录重构时刻和历史证据局限，不能在收束时重拍快照冒原基线。新run会在session前保存entry baseline。
+
+已有交互式session需要一次closeout时，必须在`acquire_locks(LOCK_PATHS)`作用域内构造Supervisor，真实有效收束小时调用`initialize_one_shot()`，选择event_id=`closeout`并`attempt`一次。不调用start/run/tick，不补发过去checkpoint。首次初始化记录真实now并核Farmer，取消/终止run不入队；timeout或遗留in-flight为unknown，不盲重发。queued只表示broker接受，实际处理与attestation另证。普通loop流程不变。
+
+限定回归：`python3 -m unittest system.tests.test_daily_learning_runner system.tests.test_learning_session_clock system.tests.test_wiki_learning_deadline`；全部使用temporary/fake queue，不执行生产session、queue或课程推进。

@@ -36,6 +36,8 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 
 ## A. 会话记忆与治理
 
+- [ ] 活动run若有当前用户明确延期，原deadline/完整receipt快照保留，effective截止仅由同run/session且SHA绑定的sidecar解析；runner/clock共用resolver，`--until`不默改历史。one-shot只在真实有效收束小时、现有两锁内构造并一次closeout；取消/终态不送、unknown不盲重发。缺旧baseline仅接受显式重构来源/原快照/HEAD-status-ignore/EOL证据，不伪造原runner基线。新run锁内活动receipt guard通过才分配目录/session，延期不自动改全局schedule或授分。
+
 - [ ] 使用 Web of Science 时按 `system/workflows/literature-access.md` 加载私有凭据；文档/日志不含密钥，Starter/Expanded 权限和全文访问授权分别记录，未联网验证不写成已验证可用。
 - [ ] 已按 `AGENTS.md` 的顺序读取固定启动文件；`README.md` 只作为稳定入口，不因其中链接自动扩展读取；`system/handoff.md` 只读 `Active handoff`，`system/log.md` 只读最近 10 条记录；仅在规定触发条件成立或用户明确要求时额外读取 `PLAN.md`。
 - [ ] `PLAN.md` 保持宏观计划、个人好奇心与研究方向草稿性质，未被当作 cite-key 文献清单、执行日志或必须立即执行的任务列表。

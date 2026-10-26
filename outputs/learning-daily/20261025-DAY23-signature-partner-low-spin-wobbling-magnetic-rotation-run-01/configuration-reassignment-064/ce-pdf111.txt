@@ -1,0 +1,74 @@
+Chapter 6. Discussion
+100
+presented in Table 6.11. The measured mixing ratio for the 625 keV transition
+linking the 13/2−state from Band 4 to the 11/2−state from the yrast band
+was |δE2/M1| ∼1.5+0.97
+−5.7 . The 582 keV transition linking the 17/2−state to the
+15/2−state was well resolved in the data and a magnitude of the mixing ra-
+tio of |δE2/M1| ∼0.55+0.12
+−0.25 was extracted. A magnitude of the mixing ratio of
+|δE2/M1| ∼0.17+0.09
+−0.2
+was extracted for the 465 keV transition linking the 19/2−
+state to the 17/2−state. The 582- and the 465- keV transitions have a dominant
+magnetic character as they have only ∼30% and ∼3% E2 fraction, respectively,
+while the mixing ratios for the 625- keV transition was measured with large uncer-
+tainty, which does not allow to determine which component (M1 or E2) is larger.
+Based on the measured mixing ratios the excited band (Band 4) in 133Ce cannot
+be associated with wobbling.
+The calculations carried out with a large conﬁguration space and with FA approx-
+imation were both able to reproduce the experimentally measured mixing ratios
+for both intraband transitions in the yrast band, see Figure 6.15.
+Iπ
+i
+Iπ
+f
+δ
+B(E2)out(I→I−1)
+B(E2)in(I→I−2) ,
+B(M1)out(I→I−1)
+B(E2)in(I→I−2)
+13/2−
+11/2−
+0.89
+−
+−
+17/2−
+15/2−
+−2.24
+0.75
+0.01
+19/2−
+17/2−
+−2.72
+0.32
+0.03
+Table 6.9: QTR model electromagnetic transition properties for Band 4 of
+133Ce.
+Iπ
+i
+Iπ
+f
+δ
+B(E2)out(I→I−1)
+B(E2)in(I→I−2) ,
+B(M1)out(I→I−1)
+B(E2)in(I→I−2)
+13/2−
+11/2−
+−0.58
+−
+−
+17/2−
+15/2−
+−0.49
+0.44
+0.19
+19/2−
+17/2−
+−0.49
+0.11
+0.062
+Table 6.10: QTR model electromagnetic transition properties for Band 4 of
+133Ce assuming a frozen alignment approximation. The parameter employed
+are the same as those used for panel (a) of Figure 6.14.

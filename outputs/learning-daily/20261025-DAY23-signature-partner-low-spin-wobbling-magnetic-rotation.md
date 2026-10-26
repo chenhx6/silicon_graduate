@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续研究checkpoint060）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（持续学习，133Ce重要补充）
 
 ## Run state
 
@@ -17,10 +17,12 @@ updated: 2026-10-26
 - completed_day_indices: []
 - partial_day_indices: [23, 24]
 - original_deadline: 2026-10-26T15:00:00+08:00
-- closeout_window: 2026-10-26 15:00–16:00 Asia/Shanghai
-- checked_at: 2026-10-26T13:06:46.165635+08:00
+- effective_research_deadline: 2026-10-26T17:00:00+08:00
+- deadline_override_receipt: user-deadline-override-064.json
+- closeout_window: 2026-10-26 17:00–18:00 Asia/Shanghai（本轮明确用户授权延长；原15:00记录保留）
+- checked_at: 2026-10-26T15:01:37.045543+08:00
 
-当前仍在原始研究窗口，继续研究，未授Day23学分。checkpoint017起仅打开Day24无学分预习，课程next仍23、不开Day25；本run正式信用只限Day23。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session或改deadline。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
+当前继续研究；用户最新明确授权必要时约17:00开始收束，已采用该延长并保留原15:00记录，未授Day23学分。checkpoint017起仅打开Day24无学分预习，课程next仍23、不开Day25；本run正式信用只限Day23。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session；仅最新明确用户授权形成effective17:00，未静默改原始15:00字段。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
 Day22四份回执交叉核对：final-session与card-credit均只授[22]，partial[23]、累计22、next23；run completed，task-publication标published，H3的18项命令退出码全0，postcommit reconciliation passed。该核验不重加学分。精确旧hash只见Day22任务回执。Farmer原PID2698持续运行，dry-run/status/ensure已执行，无重启；不把本轮用户续接当瞬时故障自动恢复事件。
 
@@ -35,6 +37,8 @@ Day22四份回执交叉核对：final-session与card-credit均只授[22]，parti
 | 谱系图/可证伪问题 | in-progress | 已写图及问题框架；待伴随观测和真实输入进一步约束 |
 
 ## Candidate pool and selection
+
+064用户明确允许必要时延至约17:00开始收束，已采用effective2026-10-26T17:00+08并保存user-deadline-override-064.json/原run副本SHA，原15:00与原身份不覆盖。按effective窗口重建候选池继续Day23两槽和133Ce附属深入学习；平台可用worker slots分批推进，不设人为额外并发上限、不承诺越过平台硬限制。未完成高价值133Ce问题允许进入下一日prompt附属区，Day24主体不变。
 
 检查点060官方历史archive路线实际成功：补Baglin2003 Pt字段，原现代API不能认证旧值的缺口被缩小；继续两槽引用/算符输入，不打开新日卡。
 
@@ -204,6 +208,14 @@ checkpoint002实际选读Zheng2013 printed044328-4/5与Herzáň2015 PDF2/7/10并
 联网核验实际返回：arXiv2011.14354 landing 200、两篇PLB Crossref DOI均200，题名/年份匹配；详见`network-verification-001.json`。元数据验证不代替原文物理证据。
 
 ## Theory/analysis exercise
+
+064后续恢复完成B槽119条件控制及两Ce迁移46检查：原N/响应缺失不冒已重放，Ce3qp超原1qp空间且低带头可行性未定；Au Band2原wobbling、Band3原SP身份纠正。[[133ce-thesis-analysis-blueprint]]和[[131ce-collective-mode-discrimination]]固化actual gK/δ未知、带内/跨带比不同、Band3低61.8/ground、五个selected S及分母/角组/独立τ接口。次日附属问题已成清单，后续prompt只附属择高价值路线，Day24主线不替换。
+
+### 深入补充064：装置版本、共同M1尺度与BCS/约化矩阵元归一
+
+[[ding-2021-131ba-133ce-signature-splitting]]新D21-D23-064-1–4定向原件核8/13clover冲突和β/ε/Harris用途，不覆盖旧review；[[133ce-thesis-analysis-blueprint]]固化逐项输入账本。[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-31/32的共同η控制保表/图分支、mixedyield变化和非gs-only边界，36代数检查不等实验检验。[[ragnarsson-semmes-1988-particle-rotor-moments]] RS88-17/18的86精确Fock/3j控制补BCS奇偶和B归一；1978目标正文未得、实际原读0页，不以metadata或fallback冒代读。
+
+同源矩阵/算符自由度回Day23 A/B槽，不新授卡、不把数学控制当核态认证。当前原模型、多轨道/响应/Cov/单位/line ledger缺口仍可恢复，未因译稿或局部饱和收束。
 
 063补WK22-30：实际核单粒子能表/λF单位零点缺口，未凭ħω换算修数或把正宇称λ移负宇称；模型实际header/input仍缺。
 
@@ -778,7 +790,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     },
     {
       "knowledge": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
-      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补signature unitaryphase与cranking T/C/Kramers及pseudospin区分。 补sameWU/τ因子相消的actualadopted比值和同源依赖，不认证原producer或新CI。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。 补δ/Iγ到derivedB向量的joint变换/phase loss/未知Cov及denpurity边界，不增独立票。 补实际旧评价母态clock/endpoint/版本合同，末态半衰期不移作母τ。 补实际ENSDF转述旧αK与评价MR/API依赖，不增独立票；保留primary和母态ledger缺口。 补实际Au两能量FO理论K分量与旧αK/δ中央条件前向比较；未反演或赋CI。 补印刷δ端点的确定性ICC像/逐点相交，保留联合置信/归一缺口。 补支持方实际AD/定标向量、printed端点及先选根再局部采样条件；旧转换仅作条件比较。 补同线Fig4.12/Table4.4阶段差和声明AD前向模型，未经绑定不作原始共同向量。 补源F/Racah与photon AD坐标数学桥；原处理链/producer缺口保持。 补实际2022书章版本map/Band3门谱与总体yield-局部purity边界；身份与configuration区分。 补实际Pt2014primary端点/门谱/派生g与旧τ；Pt2017body未得，不由近能量裁identity。 补Pt2018评价/2022XUNDL端点与编译spin差，保同源及primary/同门缺口。 补Au实际h/f内容的M1/E2角块与径向/相干输入合同，不产physicalB或δ。 补rank4/E2正布居条件界，源坐标未绑定物理层时不报实测fraction/δ界。 补原显示fit曲线几何形状/像素敏感性以分AD阶段；不取原counts/CI。 补新读qpPRM原EM/BCS算符与模拟多空穴适用边界，仅Day24无学分。 补源BCS轨道对Gram矩阵/零gapFermi占据边界，非physical核带强度。 补精确Fock时间奇/偶配对因子和1qp/3qp投影闭合，非核态/γbranch认证。 补固定无配对p-hole PRM有限I/D2/自由极限闭环，modelgap不作核态或手征认证。 补同H三轴概率边缘与partner描述距离，非联合取向/实验手征认证。 补同H源EM约化tensor/形式与开放出口区别，不反演δ或当actualB。 补特殊H额外unitary S及条件EM选择，区分signature/pseudospin/chiralC，不作globalgate。 补惯量only受控破缺/overlap态追踪，specialmodel零条件化，不偷换configuration-onlyB。 补Koike原件轴/EM简化/带配对与A操作条件，撤相关旧超认证，不增实验票。 补E2配对/奇偶family关联与未使用M1的信息角色，平局非等可信/名称非新配置。 补actual105Cd2015γ谱/2010时钟评价角色与AMR正支持边界，保asym/P/τ/模型区别。 加冻结AMR占据的Pauli容量/39/2条件界与非inertcore限制。 补实际WalpeRDM原表与共同HFB形状源，保1.49/1.18及γ取值映射缺口。 追加Rupnik1994明确身份/NSR谱系和正文访问边界。 加Delaroche/CEA真实shape列、moment信息反例与更新谱系图，保gamma23/actualproducer边界。 补AD黑点native向量与未分辨σ/计数/响应边界，未拟合。 补SH26矢量点/误差线、源条件profile读数与任务D非闭合边界。 加actualMCMC引用链、参数/prior身份、函数相关与全局谷权重信息边界。 加h/f PSS与signature/actualorbital配置区别，保完整operator与径向缺口。 补official历史Pt/Au评价的actualclock/BE2字段与引用尺度未闭合，保版本/同源。 061核原实验依赖及scissor方向。 062补133Ce深入学习/Nobs方法比较。 063核原模型合同/selected projection边界。",
+      "summary": "逐线响应合同、同源强度Jacobian秩2及保持计数的轨道重指派/留出检验。 补外借Q共享能量误差/迁移κ与固定H检验边界。 补已发表B8/9组态交换和748.4连接的parity可检验预测。 明确母核导出空值、version总数不作exposure及core定标差别。 撤回006过强历史核验/参数变化认证，区分同源评价的条件rate/WU中央值与引用数字版本差。 补PRM D2基底/两路Hcoll组件与原C处方readiness。 补无配对固定H的ordinal映射/44keV诊断与静态g几何系数、处方敏感性边界。 补declared core-E2、finiteI/独立积分控制及非开放526/分母诊断。 补同H normalized particle-j/M1、生成元/静态Casimir控制、共同scale跨线双比和缺失τ/response边界。 补原QTR模型空间/EM输入与单j投影迁移边界，exact跨j l/s角代数不冒充核态。 补halfspin singles振幅/干涉及Gaussian/finitegate迁移边界。 补实际upstream gate身份与halfspin条件density/4pi trace边界；不认定原实验bias。 补低阶azimuth acceptance moments与selectedpair权重条件，限制pointgate外推。 补外部原AMR微观模型、density-polarization身份、sameH ablation/独立性与原DSAM缺口。 补同parent/absolute-vs-selectednormalizer条件诊断，不判作者归一或paper错。 补basis/relabel/physicalmixing、完整块/loopphase与actualmissingcell输入边界。 补signature unitaryphase与cranking T/C/Kramers及pseudospin区分。 补sameWU/τ因子相消的actualadopted比值和同源依赖，不认证原producer或新CI。 补KS/RB/Efield计数轴桥与conditional前向响应，未认证actualPrproducer或fit。 补actual名义角组与conditionalη/finitegate响应合同，不认证actualfit/bias。 补δ/Iγ到derivedB向量的joint变换/phase loss/未知Cov及denpurity边界，不增独立票。 补实际旧评价母态clock/endpoint/版本合同，末态半衰期不移作母τ。 补实际ENSDF转述旧αK与评价MR/API依赖，不增独立票；保留primary和母态ledger缺口。 补实际Au两能量FO理论K分量与旧αK/δ中央条件前向比较；未反演或赋CI。 补印刷δ端点的确定性ICC像/逐点相交，保留联合置信/归一缺口。 补支持方实际AD/定标向量、printed端点及先选根再局部采样条件；旧转换仅作条件比较。 补同线Fig4.12/Table4.4阶段差和声明AD前向模型，未经绑定不作原始共同向量。 补源F/Racah与photon AD坐标数学桥；原处理链/producer缺口保持。 补实际2022书章版本map/Band3门谱与总体yield-局部purity边界；身份与configuration区分。 补实际Pt2014primary端点/门谱/派生g与旧τ；Pt2017body未得，不由近能量裁identity。 补Pt2018评价/2022XUNDL端点与编译spin差，保同源及primary/同门缺口。 补Au实际h/f内容的M1/E2角块与径向/相干输入合同，不产physicalB或δ。 补rank4/E2正布居条件界，源坐标未绑定物理层时不报实测fraction/δ界。 补原显示fit曲线几何形状/像素敏感性以分AD阶段；不取原counts/CI。 补新读qpPRM原EM/BCS算符与模拟多空穴适用边界，仅Day24无学分。 补源BCS轨道对Gram矩阵/零gapFermi占据边界，非physical核带强度。 补精确Fock时间奇/偶配对因子和1qp/3qp投影闭合，非核态/γbranch认证。 补固定无配对p-hole PRM有限I/D2/自由极限闭环，modelgap不作核态或手征认证。 补同H三轴概率边缘与partner描述距离，非联合取向/实验手征认证。 补同H源EM约化tensor/形式与开放出口区别，不反演δ或当actualB。 补特殊H额外unitary S及条件EM选择，区分signature/pseudospin/chiralC，不作globalgate。 补惯量only受控破缺/overlap态追踪，specialmodel零条件化，不偷换configuration-onlyB。 补Koike原件轴/EM简化/带配对与A操作条件，撤相关旧超认证，不增实验票。 补E2配对/奇偶family关联与未使用M1的信息角色，平局非等可信/名称非新配置。 补actual105Cd2015γ谱/2010时钟评价角色与AMR正支持边界，保asym/P/τ/模型区别。 加冻结AMR占据的Pauli容量/39/2条件界与非inertcore限制。 补实际WalpeRDM原表与共同HFB形状源，保1.49/1.18及γ取值映射缺口。 追加Rupnik1994明确身份/NSR谱系和正文访问边界。 加Delaroche/CEA真实shape列、moment信息反例与更新谱系图，保gamma23/actualproducer边界。 补AD黑点native向量与未分辨σ/计数/响应边界，未拟合。 补SH26矢量点/误差线、源条件profile读数与任务D非闭合边界。 加actualMCMC引用链、参数/prior身份、函数相关与全局谷权重信息边界。 加h/f PSS与signature/actualorbital配置区别，保完整operator与径向缺口。 补official历史Pt/Au评价的actualclock/BE2字段与引用尺度未闭合，保版本/同源。 061核原实验依赖及scissor方向。 062补133Ce深入学习/Nobs方法比较。 063核原模型合同/selected projection边界。 064补装置版本/算符尺度/BCS归一合同。",
       "anchor": "Day23 同线观测向量与响应合同",
       "sources": [
         {
@@ -1508,6 +1520,14 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
           "locator": "RS88-14"
+        },
+        {
+          "path": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+          "locator": "D21-D23-064-1"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-32"
         }
       ]
     },
@@ -3650,7 +3670,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     {
       "knowledge": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
       "anchor": "Key Results",
-      "summary": "133Ce重要补充深入学习/可复用分析蓝本或Nobs条件证据链；非普通摄入完成。 063核原模型合同/selected projection边界。 另核单粒子能/λ共同单位零点缺口。",
+      "summary": "133Ce重要补充深入学习/可复用分析蓝本或Nobs条件证据链；非普通摄入完成。 063核原模型合同/selected projection边界。 另核单粒子能/λ共同单位零点缺口。 064补装置版本/算符尺度/BCS归一合同。 B槽及Ce迁移限定综合。",
       "sources": [
         {
           "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
@@ -3671,6 +3691,22 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
           "locator": "WK22-30"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-31"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-32"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-33"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-34"
         }
       ]
     },
@@ -3692,7 +3728,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     {
       "knowledge": "knowledge/projects/133ce-thesis-analysis-blueprint.md",
       "anchor": "Research Question",
-      "summary": "133Ce重要补充深入学习/可复用分析蓝本或Nobs条件证据链；非普通摄入完成。 063核原模型合同/selected projection边界。 另核单粒子能/λ共同单位零点缺口。",
+      "summary": "133Ce重要补充深入学习/可复用分析蓝本或Nobs条件证据链；非普通摄入完成。 063核原模型合同/selected projection边界。 另核单粒子能/λ共同单位零点缺口。 064补装置版本/算符尺度/BCS归一合同。 B槽及Ce迁移限定综合。",
       "sources": [
         {
           "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
@@ -3721,17 +3757,45 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
           "locator": "WK22-30"
+        },
+        {
+          "path": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+          "locator": "D21-D23-064-1"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-32"
+        },
+        {
+          "path": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+          "locator": "RS88-17"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-33"
+        },
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-D23-064-1"
         }
       ]
     },
     {
       "knowledge": "knowledge/projects/131ce-collective-mode-discrimination.md",
       "anchor": "133Ce重要补充：独立深入学习工程",
-      "summary": "133Ce重要补充深入学习/可复用分析蓝本或Nobs条件证据链；非普通摄入完成。",
+      "summary": "133Ce重要补充深入学习/可复用分析蓝本或Nobs条件证据链；非普通摄入完成。 B槽及Ce迁移限定综合。",
       "sources": [
         {
           "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
           "locator": "WK22-06"
+        },
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-D23-064-1"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-34"
         }
       ]
     },
@@ -3749,7 +3813,7 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
     {
       "knowledge": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
       "anchor": "Key Results",
-      "summary": "实际原模型方法及坐标/配对/惯量/算符合同，不冒2022producer。",
+      "summary": "实际原模型方法及坐标/配对/惯量/算符合同，不冒2022producer。 064补装置版本/算符尺度/BCS归一合同。",
       "sources": [
         {
           "path": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
@@ -3762,6 +3826,59 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
         {
           "path": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
           "locator": "RS88-14"
+        },
+        {
+          "path": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+          "locator": "RS88-17"
+        },
+        {
+          "path": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+          "locator": "RS88-18"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+      "anchor": "Day23：稿本、正式版与学位论文的装置和模型输入交叉核查",
+      "summary": "064定向原件版本/响应可比性、模型输入和EM算符边界；新claims保持needs_review。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+          "locator": "D21-D23-064-1"
+        },
+        {
+          "path": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+          "locator": "D21-D23-064-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/experiments/afrodite-133ce-c12-57mev.md",
+      "anchor": "Day23：装置描述冲突须回run ledger",
+      "summary": "064定向原件版本/响应可比性、模型输入和EM算符边界；新claims保持needs_review。",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+          "locator": "D21-D23-064-1"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-31"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "anchor": "Day23：与133Ce分析蓝本对照的带身份和S口径",
+      "summary": "按原件核两Ce band身份/selected S和分析迁移，未测项unknown。",
+      "sources": [
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-D23-064-1"
+        },
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-D23-064-2"
         }
       ]
     }
@@ -3781,6 +3898,10 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
 L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖推导和可证伪设计active。L4真实实验共同response/Cov/计数与固定producer不齐，not-ready；本轮数值只为声明输入的代数控制。新claims均needs_review:true，无human-reviewed升级；课程及Day21/22既有学分不变。
 
 ## Verification and continuation
+
+064最终验收：boundary/lint/diff、M1共同尺度、BCS/张量归一、Ding–thesis交叉、configuration控制及runner/clock/resolver回归实际退出均0；105项治理tests通过。独立代码审查发现one-shot取消回执绕过，已共用terminal guard修复、终态fake零入队；caller必须在existing两锁内构造/初始化/单次closeout。真实override/effective17与717页显式重构基线resolver只读通过，未执行提前queue/finalize或新session。历史原15字段/缺原baseline.json事实保留，回执明确reconstructed-entry-witness而非伪原runnerbaseline。lint0error/228warnings（含187 citation-key缺项和公开staging raw未归档等），不冒科学全认证。
+
+检查点064以required-checks-064.json为实际退出码/原runner门记录，续接见next-continuation-064.md。验证限原件/有限数学，active卡未授分；运行延期支持仍独立待验。 Git指针main · Day23: retain apparatus conflicts and operator-scaling boundaries；actualhash/H3仅task-publication-receipt-064.json。 effective17:00截止（user override064，原15:00保留）、Day24无学分边界保持。
 
 检查点063以required-checks-063.json为实际退出码/原runner门记录，续接见next-continuation-063.md。仅原文/reader覆盖与有限算符控制，不认证actual producer、核态或模式。 Git指针main · Day23: trace QTR conventions and bound frozen-orbit projection；actualhash/H3仅task-publication-receipt-063.json。 原15:00截止、Day24无学分边界保持。
 

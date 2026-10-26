@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "kind": "reconstructed-entry-witness",
+  "run_id": "2026-10-25-day-23-01",
+  "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+  "run_date": "2026-10-25",
+  "day_index": 23,
+  "recorded_at": "2026-10-26T07:44:03.782766+00:00",
+  "source_baseline": "baseline-001.json",
+  "source_baseline_sha256": "3f51de609f9b91619a44a3d35b43f8194ceb095778076aa6a9447acd2748b74b",
+  "source_observed_at": "2026-10-25T12:18:53.915992+00:00",
+  "source_head": "ee0163b4dc9eb882874df0d70cd33bd388d8fba7",
+  "evidence_file": "baseline-readonly-evidence-064.json",
+  "evidence_sha256": "d06aa4e29b198df16edc28b333a7e08fd7d799651dc41a9ec9a87886656f257f",
+  "provenance_statement": "Uses the actually recorded first-write snapshot and audited historical HEAD/status/ignore-policy evidence. This is an explicit reconstruction now, not a runner-created original baseline.json or invented historical filesystem stat.",
+  "limits": "Historical captured status plus tracked HEAD policy is a reconstruction witness, not a missing original report_existed_before field; historical changes to external/global excludes cannot be excluded by current config alone."
+}

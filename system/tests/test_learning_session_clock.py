@@ -13,6 +13,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from system.scripts import run_learning_session_clock as clock
+from system.tests.test_wiki_learning_deadline import install_override
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -81,6 +82,140 @@ class LearningSessionClockTests(unittest.TestCase):
         stamp = self.now().timestamp() - age_seconds
         os.utime(path, (stamp, stamp))
         return path
+
+    def test_fresh_one_shot_initialization_uses_actual_time_and_no_daemon_start(self) -> None:
+        self.now.now = self.spec.deadline
+        supervisor = clock.Supervisor(self.spec, clock=self.now, queue=self.queue)
+        supervisor.initialize_one_shot()
+        self.assertEqual(supervisor.state["first_supervisor_started_at"], self.now().isoformat())
+        self.assertEqual(supervisor.state["farmer_reference_at"], self.spec.study_started_at.isoformat())
+        self.assertNotIn("pid", supervisor.state)
+        self.assertEqual(supervisor.state["status"], "one-shot")
+        event = next(e for e in supervisor.events if e.event_id == "closeout")
+        supervisor.attempt(event, self.now(), "running")
+        self.assertEqual(self.queue.calls[0][0][:5], ["codex", "-C", str(self.root), "queue", "--thread"])
+        record = supervisor.state["events"]["closeout"]
+        self.assertEqual(record["status"], "queued")
+        self.assertFalse(record["delivery_observed"])
+        events = supervisor.events_path.read_text()
+        self.assertIn('"event": "one-shot-initialized"', events)
+        self.assertNotIn('"event": "clock-started"', events)
+
+    def test_one_shot_rejects_early_late_and_naive_initialization(self) -> None:
+        supervisor = clock.Supervisor(self.spec, clock=self.now, queue=self.queue)
+        for at in (self.spec.deadline-timedelta(seconds=1), self.spec.closeout_end,
+                   self.spec.deadline.replace(tzinfo=None)):
+            self.now.now = at
+            with self.subTest(at=at), self.assertRaises(ValueError):
+                supervisor.initialize_one_shot()
+        self.assertFalse(supervisor.state_path.exists())
+        self.assertEqual(self.queue.calls, [])
+
+    def test_one_shot_observes_fresh_farmer_control_before_initialization(self) -> None:
+        self.now.now = self.spec.deadline
+        for status in ("cancelled", "manual-attention-required", "recovery-pending", "waiting-retry"):
+            if (self.run_dir / "clock-state.json").exists():
+                (self.run_dir / "clock-state.json").unlink()
+            self.write_farmer(status, event_at=self.now()-timedelta(seconds=1))
+            supervisor = clock.Supervisor(self.spec, clock=self.now, queue=self.queue)
+            supervisor.initialize_one_shot()
+            event = next(e for e in supervisor.events if e.event_id == "closeout")
+            supervisor.attempt(event, self.now(), "running")
+            with self.subTest(status=status):
+                self.assertEqual(self.queue.calls, [])
+                self.assertEqual(supervisor.state["farmer_observation"]["status"], status)
+                self.assertNotEqual(supervisor.state["events"]["closeout"]["status"], "queued")
+
+    def test_one_shot_timeout_remains_unknown_and_is_not_requeued(self) -> None:
+        self.now.now = self.spec.deadline
+        fake = FakeQueue([clock.QueueResult(None, timed_out=True)])
+        supervisor = clock.Supervisor(self.spec, clock=self.now, queue=fake)
+        supervisor.initialize_one_shot()
+        event = next(e for e in supervisor.events if e.event_id == "closeout")
+        supervisor.attempt(event, self.now(), "running")
+        self.assertEqual(supervisor.state["events"]["closeout"]["status"], "unknown")
+        restarted = clock.Supervisor(self.spec, clock=self.now, queue=fake)
+        restarted.initialize_one_shot()
+        restarted.attempt(event, self.now(), "running")
+        self.assertEqual(len(fake.calls), 1)
+
+    def test_one_shot_inflight_restart_records_unknown_without_resending(self) -> None:
+        self.now.now = self.spec.deadline
+        supervisor = clock.Supervisor(self.spec, clock=self.now, queue=self.queue)
+        supervisor.initialize_one_shot()
+        record=supervisor.state["events"]["closeout"]
+        record.update(status="in-flight",attempts=1)
+        supervisor.save()
+        restarted=clock.Supervisor(self.spec,clock=self.now,queue=self.queue)
+        restarted.initialize_one_shot()
+        event=next(e for e in restarted.events if e.event_id=="closeout")
+        restarted.attempt(event,self.now(),"running")
+        self.assertEqual(self.queue.calls,[])
+        self.assertEqual(restarted.state["events"]["closeout"]["status"],"unknown")
+
+    def test_fresh_one_shot_never_queues_historical_checkpoint_or_other_event(self) -> None:
+        self.now.now=self.spec.deadline
+        supervisor=clock.Supervisor(self.spec,clock=self.now,queue=self.queue)
+        supervisor.initialize_one_shot()
+        # Status can change during handling; immutable initialization origin is
+        # the boundary that restricts this helper to the one closeout event.
+        supervisor.state['status']='running'
+        for event in supervisor.events:
+            if event.event_id!='closeout':
+                supervisor.attempt(event,self.now(),"running")
+        self.assertEqual(self.queue.calls,[])
+        self.assertTrue(all(r['attempts']==0 for r in supervisor.state['events'].values()))
+        event=next(e for e in supervisor.events if e.event_id=='closeout')
+        supervisor.attempt(event,self.now(),"running")
+        self.assertEqual(len(self.queue.calls),1)
+        self.assertEqual(supervisor.state['events']['closeout']['status'],'queued')
+
+    def test_one_shot_rechecks_real_terminal_receipt_before_queue_without_farmer(self) -> None:
+        self.now.now=self.spec.deadline
+        for status in ('stopped','cancelled','interrupted','completed','completed-partial'):
+            path=self.run_dir/'clock-state.json'
+            if path.exists():path.unlink()
+            self.document['status']='running'
+            self.write_receipt()
+            supervisor=clock.Supervisor(self.spec,clock=self.now,queue=self.queue)
+            supervisor.initialize_one_shot()
+            # The run changes after the helper loaded its original SessionSpec.
+            self.document['status']=status
+            self.write_receipt()
+            event=next(e for e in supervisor.events if e.event_id=='closeout')
+            supervisor.attempt(event,self.now(),'running')
+            with self.subTest(status=status):
+                self.assertEqual(self.queue.calls,[])
+                self.assertNotEqual(supervisor.state['events']['closeout']['status'],'queued')
+                self.assertEqual(json.loads(self.receipt.read_text())['status'],status)
+                self.assertIn(supervisor.state['status'],{'interrupted','completed'})
+
+    def test_override_clock_binds_hash_and_uses_effective_times_in_messages(self) -> None:
+        self.document["run_id"] = "2026-10-07-day-08-01"
+        install_override(self.run_dir, self.document)
+        self.write_receipt()
+        spec = clock.load_spec(self.root, self.receipt, THREAD, 2)
+        self.assertEqual(spec.deadline.hour, 17)
+        self.assertEqual(spec.closeout_end.hour, 18)
+        self.assertEqual(spec.original_deadline.hour, 15)
+        self.assertEqual(clock.identity(spec)["deadline_override_sha256"], self.document["deadline_override_sha256"])
+        self.now.now = spec.deadline
+        supervisor = clock.Supervisor(spec, clock=self.now, queue=self.queue)
+        supervisor.initialize_one_shot()
+        event = next(e for e in supervisor.events if e.event_id == "closeout")
+        supervisor.attempt(event, self.now(), "running")
+        message = self.queue.calls[0][0][-1]
+        self.assertIn("17:00-18:00", message)
+        self.assertNotIn("15:00-16:00", message)
+        reminder = next(e for e in supervisor.events if e.event_id == "closeout-reminder")
+        self.assertIn("17:45", clock.message_for(spec, reminder, self.now()))
+        self.assertIn("before 18:00", clock.message_for(spec, reminder, self.now()))
+
+    def test_attempt_does_not_queue_effective_closeout_early_even_with_future_now_argument(self) -> None:
+        supervisor = self.supervisor()
+        event = next(e for e in supervisor.events if e.event_id == "closeout")
+        supervisor.attempt(event, self.spec.deadline, "running")
+        self.assertEqual(self.queue.calls, [])
 
     def test_fresh_farmer_cancellation_stops_without_receipt_update(self) -> None:
         supervisor = self.supervisor()

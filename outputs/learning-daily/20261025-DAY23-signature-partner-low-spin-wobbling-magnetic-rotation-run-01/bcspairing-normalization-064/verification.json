@@ -1,0 +1,141 @@
+{
+  "created_utc": "2026-10-26T06:02:56.450235+00:00",
+  "target_doi": "10.1016/0375-9474(78)90613-9",
+  "target_identity_verified": true,
+  "target_fulltext_acquired": false,
+  "target_fulltext_pages_read": 0,
+  "target_pdf_sha256": null,
+  "target_redistribution_claim": false,
+  "fallback_source_sha256": "af5b8588ac78f40ecb7ac5eb8f2dd8070c3457296e8fdcd63e9ea0d828a2fa6d",
+  "fallback_read_pdf_pages": [
+    5,
+    7,
+    8
+  ],
+  "fallback_visual_pdf_pages": [
+    5,
+    7,
+    8
+  ],
+  "fallback_exact_checks": 86,
+  "fallback_all_pass": true,
+  "markdown_math_checked": true,
+  "publisher_endpoints_retried": false,
+  "raw_modified": false,
+  "canonical_modified": false,
+  "credentials_modified": false,
+  "git_operations": false,
+  "new_cards": false,
+  "files": [
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/access-and-reading-notes.md",
+      "bytes": 8246,
+      "sha256": "b96b77a15dd209fd1509db3f35784c644700708f720840710e2100beebc9b648"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/access-probes.json",
+      "bytes": 7057,
+      "sha256": "42ac226ceeb5ee3a9c839da9c9662c78036134d45ff30676fd212e3357723676"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/fallback-contract.md",
+      "bytes": 1473,
+      "sha256": "0f763a1474d8df4547c9c74c99536591eb44b675c98bd6f93c49872d22fb51f5"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/fallback-results.json",
+      "bytes": 18963,
+      "sha256": "b31eea70fd09b0045ea51535c31eaa95cce576d2638b6131761e90c47d5740c1"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/fallback-source.json",
+      "bytes": 315,
+      "sha256": "8311713e7377b0d9136fdb6ede66310dcfe9e5fd7d6af7400148620539d852f7"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/fallback_controls.py",
+      "bytes": 8120,
+      "sha256": "90896539886befb2f1a60d8e45b7bf05f6fabba4948155d243beaebd95a8ddc3"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/lund_institutional.html",
+      "bytes": 46380,
+      "sha256": "0416f1966c9a095c44c421f197cc9939075d18a66a359998a6cae9e997074f76"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/lund_lup_record.html",
+      "bytes": 38534,
+      "sha256": "335aaa27a31c17fd149ba1fbff29d129d0bf37d99b6ef85951c85af95a49734d"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/lund_lup_record.json",
+      "bytes": 5181,
+      "sha256": "0b5bdb0868bb0b45bc65614357c4ba3a873c614630703cde0c4c1c5b3f422f3e"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/metadata-mcp.json",
+      "bytes": 2191,
+      "sha256": "36601663d2f9c77f0d9da26c8a17f2c093bdbb5151188f42c7ee4125fef4b659"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/openalex_doi.json",
+      "bytes": 13840,
+      "sha256": "859a4b829800ede3e4d9d225d563514f619f23594cf9292fee5830d9c8db96e6"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/probe_access.py",
+      "bytes": 1966,
+      "sha256": "d8a1d2671882001f8229fe748a4c887a15850d330e8f6e68408f39d054c8461b"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/publisher_api_pdf.html",
+      "bytes": 162,
+      "sha256": "8896659c8776e3601cba7215e75d52d13a0aa4cde5150bbf00660945a33f39b7"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/publisher_landing.html",
+      "bytes": 1209702,
+      "sha256": "1e9d529674a8a27c188a9aa58eb82e1247bd85931796d74cf803f2cf66502e42"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/publisher_pdfft.html",
+      "bytes": 1209720,
+      "sha256": "045ecd18c74f1361cc40eaf33b92aab4b07251d618afbbc87712ad1e24c4ff52"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/rs88-pdf05.png",
+      "bytes": 245002,
+      "sha256": "ebf25a9d6e399c80af346fbbaa754e7929eba60c3b840e0b69d668fd2c4ed808"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/rs88-pdf05.txt",
+      "bytes": 2656,
+      "sha256": "35dbd52c060e14f49b2bd0631354900cf8d17c92079526f233a6ab7ccdc6702e"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/rs88-pdf07.png",
+      "bytes": 238445,
+      "sha256": "215bfaac913fadbb2ef4d897c442681497a38a8e8b642085fe30edf460aeaad4"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/rs88-pdf07.txt",
+      "bytes": 2519,
+      "sha256": "56ff9feabbeff5eac2c3ea7721ac2a84a10d890d1849962f7ff4718703aa9236"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/rs88-pdf08.png",
+      "bytes": 341503,
+      "sha256": "8eeb446f7eaade1a10f0d4f1b22655f4ee7a17acb04f234e9267cd3082106bd9"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/rs88-pdf08.txt",
+      "bytes": 3883,
+      "sha256": "2ebfd2ac6beda663276a15335a111de19fccc783775355afc6d7a967d88a9af1"
+    },
+    {
+      "path": "tmp/day23-theses/larsson1978-worker/semantic-scholar-attempt.json",
+      "bytes": 250,
+      "sha256": "3ba24a473fc86f389be68687664620e3ccb24f00220c037e4cb47aa476bead5e"
+    }
+  ]
+}

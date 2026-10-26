@@ -1,0 +1,213 @@
+{
+  "audit_kind": "read-only-day23-card-readiness-prepare",
+  "recorded_at_utc": "2026-10-26T06:19:15.635843+00:00",
+  "formal_completed": false,
+  "formal_credit_awarded": false,
+  "readiness_for_later_formal_audit": "substantive_deliverables_present_with_explicit_boundaries",
+  "real_experimental_L4_ready": false,
+  "card_credit_requires_controversy_resolved": false,
+  "invariant_course_state": {
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      23,
+      24
+    ],
+    "next_day_index": 23,
+    "curriculum_cards_completed": 0,
+    "Day24_only_uncredited_preview": true,
+    "Day25_opened": false
+  },
+  "timing": {
+    "original_receipt_deadline": "2026-10-26T15:00:00+08:00",
+    "original_deadline_utc": "2026-10-26T07:00:00+00:00",
+    "effective_user_authorized_closeout_start": "2026-10-26T17:00:00+08:00",
+    "effective_closeout_start_utc": "2026-10-26T09:00:00+00:00",
+    "override_provenance": "Parent relayed newest explicit user authorization during this readiness task; original receipt retained as history",
+    "run_deadline_as_read": "2026-10-26T15:00:00+08:00",
+    "no_automatic_credit_at_either_clock": true
+  },
+  "actual_locatable_deliverables": [
+    {
+      "role": "five_mechanisms",
+      "path": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+      "line": 354,
+      "verified_text": "暴露后回忆（primed，已见准备提示/继承页面，非盲测评分）：signature partner是同组态的旋称分支关系，不是pseudospin；wobbling要区分几何、局部harmonic声子与完整量子拓扑；TiP在相应QTR术语中是3D进动/重定向的模型解释；MR需粒子/空穴叶片几何及绝对M1随spin的证据；AMR的理想双剪刀横向磁矩相消需其对称条件，弱E2/无M1不是无条件唯一判据。基础校准见[[../../knowledge/concepts/signature-partner-bands|旋称伙伴]]、[[../../knowledge/concepts/magnetic-rotation|MR]]、[[../../knowledge/concepts/antimagnetic-rotation|AMR]]，本段未新认证这些页全部历史数值。",
+      "exists": true
+    },
+    {
+      "role": "signature_anchor",
+      "path": "knowledge/concepts/signature-partner-bands.md",
+      "line": 18,
+      "verified_text": "## Definition",
+      "exists": true
+    },
+    {
+      "role": "guo_anchor",
+      "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "line": 44,
+      "verified_text": "## Scope and Reading Depth",
+      "exists": true
+    },
+    {
+      "role": "lv_anchor",
+      "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "line": 44,
+      "verified_text": "## Scope and Reading Depth",
+      "exists": true
+    },
+    {
+      "role": "support_counter_dependency",
+      "path": "knowledge/projects/low-spin-wobbling-controversies.md",
+      "line": 27,
+      "verified_text": "| 证据节点 | 支持/反证与依赖 | 新增采集还是同源派生 | 可复核来源 |",
+      "exists": true
+    },
+    {
+      "role": "same_line_observable_contract",
+      "path": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "line": 69,
+      "verified_text": "## Day23 同线观测向量与响应合同",
+      "exists": true
+    },
+    {
+      "role": "derived_dependence",
+      "path": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "line": 83,
+      "verified_text": "### 同源派生强度的秩约束",
+      "exists": true
+    },
+    {
+      "role": "fixed_counts_configuration",
+      "path": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "line": 97,
+      "verified_text": "## Day23 保持计数的组态替代解释与留出检验",
+      "exists": true
+    },
+    {
+      "role": "published_configuration_swap",
+      "path": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "line": 143,
+      "verified_text": "## Day23 已发表的计数不变组态交换：110In的对照练习",
+      "exists": true
+    },
+    {
+      "role": "lineage_graph",
+      "path": "knowledge/projects/low-spin-wobbling-controversies.md",
+      "line": 41,
+      "verified_text": "```mermaid",
+      "exists": true
+    },
+    {
+      "role": "calibration_lineage",
+      "path": "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+      "line": 409,
+      "verified_text": "## Day23：定标谱系图补入实际原件与动态形状边界",
+      "exists": true
+    },
+    {
+      "role": "falsifiable_question",
+      "path": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "line": 101,
+      "verified_text": "只更换文字标签不会产生可证伪性。必须固定两套候选Hamiltonian、形变/惯量/配对、算符/effective charges/g及模型误差，再计算未参与调参的量。可证伪问题是：当已用于定标的能量、参考B(E2)与所选分支保持固定时，两种组态归属对同一母态完整退激向量与绝对E2/M1尺度，能否给出在共同响应/不确定度下可分离的预测？",
+      "exists": true
+    }
+  ],
+  "deliverable_categories_covered": 6,
+  "source_snapshots": [
+    {
+      "path": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+      "sha256": "57d7c4f6739d76398155607a283ecbcbf9d9868ddc32c81adee373331112e693"
+    },
+    {
+      "path": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/run.json",
+      "sha256": "58c18daf121cae31a630609e96ed27b729805dd3d307e637030ebdb133319ee7"
+    },
+    {
+      "path": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/preview-entry-017.json",
+      "sha256": "7b3b02a4343fa9460c60c9feab5a0c1d1ba10c6b941a4cfb86ab36ced142c327"
+    }
+  ],
+  "knowledge_writeback": {
+    "location": "embedded knowledge-writeback fenced JSON in daily report; no standalone file",
+    "status": "updated",
+    "items": 48,
+    "unique_knowledge_targets": 48,
+    "source_locator_references": 704,
+    "navigation_integrity_failures": [],
+    "scientific_claim_certification": false
+  },
+  "remaining_scientific_gaps": [
+    "A: actual counts/background, gates/run ledger, orientation/feeding, finite response, Q transfer and jointCov",
+    "B: actual multi-orbital amplitudes/radial/BCS/phase/occupancy, fixed fit set and author producer",
+    "Au isotope identity vs configuration assignment, same-gate Pt comparison and missing2017body",
+    "independent absolute lifetime/strength scales, original DSAM/feeding/stopping/branchCov in some controls",
+    "SH26 plot-level sample membership and historical conversion acquisition family"
+  ],
+  "documentation_findings": [
+    {
+      "severity": "low",
+      "finding": "report title checkpoint060 lags latest063;063 verification paragraph duplicated",
+      "locator": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+      "duplicate_lines_as_read": [
+        3787,
+        3789
+      ],
+      "impact": "navigation only, no extra event or credit"
+    },
+    {
+      "severity": "low",
+      "finding": "Au historical future/not-ingested TiP paragraphs conflict with current source coverage",
+      "locator": "knowledge/projects/187au-longitudinal-wobbling-controversy.md:197,214",
+      "impact": "read active summary and direct sources; do not inflate human-review scope"
+    },
+    {
+      "severity": "boundary",
+      "finding": "recall is primed, not blind-scored",
+      "locator": {
+        "role": "five_mechanisms",
+        "path": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+        "line": 354,
+        "verified_text": "暴露后回忆（primed，已见准备提示/继承页面，非盲测评分）：signature partner是同组态的旋称分支关系，不是pseudospin；wobbling要区分几何、局部harmonic声子与完整量子拓扑；TiP在相应QTR术语中是3D进动/重定向的模型解释；MR需粒子/空穴叶片几何及绝对M1随spin的证据；AMR的理想双剪刀横向磁矩相消需其对称条件，弱E2/无M1不是无条件唯一判据。基础校准见[[../../knowledge/concepts/signature-partner-bands|旋称伙伴]]、[[../../knowledge/concepts/magnetic-rotation|MR]]、[[../../knowledge/concepts/antimagnetic-rotation|AMR]]，本段未新认证这些页全部历史数值。",
+        "exists": true
+      },
+      "impact": "do not invent exam score"
+    },
+    {
+      "severity": "boundary",
+      "finding": "thesis supplements and readers do not replaceDay23threeanchors or imply130pages allChinese translation",
+      "impact": "keep supplementation and reader coverage explicit"
+    }
+  ],
+  "day24_miscredit_check": {
+    "run_completed_empty": true,
+    "partial_23_24": true,
+    "next23": true,
+    "preview_credit_false": true,
+    "Day25_not_opened": true,
+    "miscredit_found": false
+  },
+  "prohibited_overclaims_checked": [
+    "mode winner chosen",
+    "shared-derived values counted as independent experiments",
+    "allADminima equal under freeorientation",
+    "fullauthorproducer reproduced",
+    "newexperimentalCI or beamtime",
+    "humanreview upgraded",
+    "Day24formalcredit",
+    "130pages Chinese translation complete"
+  ],
+  "actions_performed": [
+    "read existing matrix/run/report/canonical pages",
+    "parse writeback and check locators",
+    "write only tmp/day23-closeout-prep/card-readiness.md/json"
+  ],
+  "actions_not_performed": [
+    "no canonical edit",
+    "no Git mutation",
+    "no source retrieval",
+    "no new course card",
+    "no producer execution",
+    "no formal closeout"
+  ],
+  "implementation_note": "First hardcoded report line check detected concurrent report append and failed safely before JSON write; locators now found by exact markers within read snapshots; no source re-reading or scientific change"
+}

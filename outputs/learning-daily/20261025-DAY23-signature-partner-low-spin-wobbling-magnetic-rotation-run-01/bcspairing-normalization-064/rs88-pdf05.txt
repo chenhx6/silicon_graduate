@@ -1,0 +1,143 @@
+I. Ragnarsson, 17.13. Semmes, The particle-rotor model
+427
+The
+diagonalisation
+of
+the
+Ilamiltonian,
+eg. (3), leads to adiabatic single
+particle states written as expansions
+Iv> = Z
+c (~)
+IN~j~>
+Nj~
+Ns
+(81
+with ~ restricted to ...-3/2, +1/2, +5/2, .... We define the conjugate orbitals as
+I~> = Z (-)J-~ c v
+Njfl
+Ngjn [Ns
+(9)
+To
+include pairing effects, quasiparticle operators must be introduced. These are
++
+given here, for later use. We define quasiproton operators a V by
++
++
+=Us
+-Va
+~
+V
+99
+99
++
+at
+(I0)
+~'=U
++Va
+9
+99
+9~
+where a~ is the creation operator for a proton
+in
+the
+orbital
+19>.
+Quasineutron
+operators are similarly defined and are denoted 8~. In the following, when
+an
+odd-
+odd nucleus is considered, subscripts 9 and
+~
+will
+always
+refer
+to
+proton
+and
+neutron orbJtals, respectively.
+2.2
+Basis states and core Hamiitonian for odd nuclei
+The core Hamiltonian of a trixial rotor takes the form
+h 2
+Z
+2
+Z Ai(li-]i )2
+=
+=
+'
+;
+A i
+=
+(II)
+llc~
+AiRi
+i
+Where
+on the right hand side we have introduced the total nuclear spin T instead of
+the
+core
+spin
+~ while ~ is the spin of the odd particle(s). For one odd particle,
+the Hamiltonian can now be expanded as
+.2.2
+1
+[ 12-1
++ 3 -]3
+(l§
+Ilcore = ~ (AI+A 2)
+(12)
+1
+[l~+I~
+.2 .2
+.
+2
++ ~(AI-A2)
++ 3++3- - 2(l+j++l_j_)] + A3(13-33)
+which
+is the appropriate form if the intrinsic 3-axis is used as quantisation axis.
+The
+basis
+states
+should
+be symmetrized under the point group D 2. When written in
+terms of quasiparticle operators and with the conjugate state defined as in eq. (9),
+they take the form
+where K is projection of I on the intrinsic quantisation axis and
+10>
+is
+the
+BCS
+vacuum state.
+With the core Hamiltonian expressed as in eq. (12),
+the
+matrix
+elements
+can
+easily be evaluated in the basis, eq. (13), noting that
+I+
+and
+I_
+refer
+to
+the
+intrinsic system and are lowering and raising operators acting on the index
+K.
+The
+necessary single particle, matrix elements are given explicltly
+in /I/.
+With
+the
+inclusion of pairing the single particle matrix elements must be multiplied
+by
+the
+pairing factor UU'+VV'. An ad hoc Coriolis attenuation parameter ~ is sometimes used
+to multiply the off-diagonal single particle matrix elements.
+One disadvantage of the basis states in, eq. (13) is that it is not possible to
+use different moments of inertia for different spins, R, of the rotor for example in
+the form of the VMI model. This becomes possible is instead states with R 2 as a good
+quantum number are used:
+IIMRoNs
+= ~ <RMRjmIIM> [R~MR>[Ns
+(14)
+MRm

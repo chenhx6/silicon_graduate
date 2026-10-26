@@ -61,3 +61,7 @@ AFRODITE 8 个 Compton-suppressed clover，90° 和 135° 各四个。
 
 - 2026-07-01：由 2021 signature-splitting 论文建立。
 
+
+## Day23：装置描述冲突须回run ledger
+
+[[ding-2021-131ba-133ce-signature-splitting]] D21-D23-064-1的稿本/正式版均报告8clovers=4@90°+4@135°；[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-31的具体实验段报告13=1@45°+8@90°+4@135°。束流/靶/总事件字段相同，强同源候选不重复计实验票；不能据此裁定actual配置。后续需要run dates/ID、active detectors、45°event存在性和sorting geometry/目标线角门，不补造response；新needs_review:true，旧人审/claims保留。

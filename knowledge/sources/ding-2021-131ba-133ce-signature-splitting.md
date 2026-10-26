@@ -176,3 +176,16 @@ configuration-constrained PES、cranked shell model（CSM）和 quasiparticle-pl
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | D21-D19-1 | 在 $N=75$ 同中子异位素（$^{133}\text{Ce}$ 与 $^{131}\text{Ba}$）中，强耦合带（$\nu g_{7/2}[404]7/2^+$）实测出交替的强旋称劈裂（$^{133}\text{Ce}$ 的 $S(11/2) \approx +29.0\text{ keV}$；$^{131}\text{Ba}$ 的 $S(11/2) \approx +52.8\text{ keV}$），其幅度达到奇 $Z$ 核 Ta/Re 质子 $g_{7/2}$ 类比带的 10 倍以上。理论审计证实该劈裂由三轴非轴性（$V_{\text{tri}} \propto \sin\gamma$）与近邻低-$j$ 轨道（$\nu s_{1/2}[400]1/2^+$，解耦参数 $a \approx 1$）的科里奥利混合共同驱动，且在能谱上形成连续的单参数简并山谷：实测 $S(11/2) = 29.0\text{ keV}$ 既可由中等形变加全科里奥利耦合（$\gamma = 10^\circ, \xi = 0.92$）精确复现，亦可由大三轴形变加重度衰减耦合（$\gamma = 26^\circ, \xi = 0.0$）复现。因此，仅凭能级旋称劈裂无法独立反演三轴形变 $\gamma$。打破该简并的排他观测量为跃迁几率比 $B(M1)/B(E2)$：纯三轴转子导致平滑的 $B(M1)/B(E2) \approx 0.23\ (\mu_N/e\text{b})^2$；而 $s_{1/2}$ 轨道的大自旋回转因子（$g_s = -3.826$）在科里奥利混合下必然引发 $>3.5$ 倍的 $B(M1)/B(E2)$ 奇偶交错震荡（$0.42 \text{ vs } 0.11$）。 | quantitative-audit-and-criterion | derived-and-source-boundary | PRC 104, 064304 pp.9-12; Figs.5,8-9; signature-splitting-coriolis-result-039.json | true |
+
+## Day23：稿本、正式版与学位论文的装置和模型输入交叉核查
+
+本轮定向原读两份本地Ding：规范raw实际16页（Nov9,2021稿本，SHA752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37），alternate正式PRC15页（SHA47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652）。具体§II.A、QTR段和PES表视觉核，不新增“再次全文已读”声明。旧human-reviewed与旧claim flags保持，本节仅新Codex self-audit。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| D21-D23-064-1 | 两Ding版本均报告133Ce AFRODITE8clovers、4@90°+4@135°；学位论文具体实验段为13、1@45°+8@90°+4@135°。两边57MeV/5pnA、Te2/Au8mgcm−2、double2.8e10/≥triple5.4e9等字段对应，构成强同源候选，但actual8/13需run/event ledger，不按两份Ding+thesis算三次独立采集。 | source-dependency-and-apparatus-conflict | direct-original-and-explicit-readiness | manuscriptPDF2 §II.A; published064304-2 §II.A; WakudyanayePDF61 §5.2.1 | true |
+| D21-D23-064-2 | 两版QTR正文均给Ce ε2=.185/γ10°/ε4=.01，Ba .170/8°/.003；PES TableIII用Woods–Saxon β，Ce7/2+为.195/−10.5°/−.023，不能把ε2≈.95β2套给四阶参数，也不能据论文描述静默修thesis表.1为.01或冒actual input。 | model-input-version-and-parameterization | direct-original | manuscriptPDF11 §III.C and PDF13 TableIII; published064304-10 §III.C and064304-8 TableIII | true |
+| D21-D23-064-3 | 两Ding的QTR wavefunction讨论仅定性主g7/2加附近s1/2，未给与thesisTable6.3相同逐态完整系数；不能修thesis9/2+的.982归一。intrinsic轨道20展开与QTR总态Kν展开、不同核/γ版本分别处理。 | wavefunction-identity-and-input-gap | direct-original-and-bounded-comparison | manuscriptPDF11–12 QTR discussion; published064304-10–11; WakudyanayePDF78 Table6.2 andPDF82 Table6.3 | true |
+| D21-D23-064-4 | 本文alignment图所用Harris参考J0=13.4/J1=33.2，与thesisQTR核芯10.4/35.7用途不同；稿本/正式版页码、Ref号也不同。不能因同名Harris或同source题名直接置换。 | analysis-reference-versus-model-input | direct-original | manuscriptPDF6 alignment paragraph; published064304-5; WakudyanayePDF78 §6.2.1 | true |
+
+装置冲突不撤销原实验谱学/模型支持；它限制重放共同response。[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]]和[[133ce-thesis-analysis-blueprint]]保存本轮分析蓝本，不把输出历史认证当事实源。需要detectorID/active mask/角度表/45°事件、sorting geometry版本和逐线选门，而非擅补一套响应。

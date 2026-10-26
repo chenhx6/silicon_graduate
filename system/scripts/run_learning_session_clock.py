@@ -29,6 +29,11 @@ from typing import Any, Callable, Iterator
 from uuid import UUID
 from zoneinfo import ZoneInfo
 
+try:
+    from wiki_learning_deadline import resolve_deadline_info
+except ModuleNotFoundError:
+    from system.scripts.wiki_learning_deadline import resolve_deadline_info
+
 
 TIMEZONE = ZoneInfo("Asia/Shanghai")
 LOCK_PATHS = (
@@ -55,6 +60,8 @@ class SessionSpec:
     closeout_end: datetime
     checkpoint_hours: float
     receipt_status: str
+    original_deadline: datetime | None = None
+    deadline_override_sha256: str | None = None
 
 
 @dataclass(frozen=True)
@@ -143,19 +150,18 @@ def load_spec(root: Path, receipt: Path, thread: str, checkpoint_hours: float) -
     day_index = document.get("day_index")
     if type(day_index) is not int or not 1 <= day_index <= 30:
         raise ValueError("receipt.day_index must be an integer in 1..30")
-    deadline = aware_datetime(document.get("overnight_until"), "overnight_until")
-    expected = datetime.combine(run_date + timedelta(days=1), daytime(15), tzinfo=TIMEZONE)
-    if deadline != expected:
-        raise ValueError("overnight_until must equal run_date + 1 day at 15:00 Asia/Shanghai")
-    closeout_end = deadline + timedelta(hours=1)
-    if document.get("closeout_window_ends_at") is not None:
-        if aware_datetime(document["closeout_window_ends_at"], "closeout_window_ends_at") != closeout_end:
-            raise ValueError("closeout_window_ends_at must equal overnight_until + 1 hour")
+    try:
+        deadline_info = resolve_deadline_info(receipt, document, root)
+        deadline = deadline_info["effective_deadline"]
+        closeout_end = deadline_info["effective_closeout_end"]
+    except RuntimeError as exc:
+        raise ValueError(f"invalid deadline contract in receipt: {exc}") from exc
     started = aware_datetime(document.get("started_at"), "started_at")
     if started.date() != run_date or started >= deadline:
         raise ValueError("started_at must belong to run_date and precede the deadline")
     return SessionSpec(root, receipt, thread, run_date, day_index, started, deadline,
-                       closeout_end, checkpoint_hours, str(document.get("status", "unknown")))
+                       closeout_end, checkpoint_hours, str(document.get("status", "unknown")),
+                       deadline_info["original_deadline"], deadline_info["override_sha256"])
 
 
 def plan_events(spec: SessionSpec) -> list[ClockEvent]:
@@ -190,13 +196,13 @@ def message_for(spec: SessionSpec, event: ClockEvent, now: datetime) -> str:
                   "With under 90 minutes left, finish current analysis without new sources/cards. ")
     elif event.kind == "closeout":
         action = ("The research cutoff has arrived. Stop all new research now and use the reserved "
-                  "15:00-16:00 hour for the daily report, canonical knowledge writeback, card audit, "
+                  f"{spec.deadline.strftime('%H:%M')}-{spec.closeout_end.strftime('%H:%M')} hour for the daily report, canonical knowledge writeback, card audit, "
                   "runner validation, receipt, next-day plan prompt and authorized publication. "
                   "Advance course state only after validation and publication gates pass. ")
     elif event.kind == "closeout-reminder":
-        action = ("The run receipt is not completed at 15:45. Perform bounded closeout only: "
+        action = (f"The run receipt is not completed at {(spec.deadline + timedelta(minutes=45)).strftime('%H:%M')}. Perform bounded closeout only: "
                   "finish checks, next-day plan prompt, publication and an honest resumable receipt "
-                  "before 16:00. Keep unresolved items explicit; stop adding research. ")
+                  f"before {spec.closeout_end.strftime('%H:%M')}. Keep unresolved items explicit; stop adding research. ")
     else:
         action = ("The reserved closeout hour has ended and the run receipt remains incomplete. "
                   "Record the overdue/partial state and exact resume command; do not invent completion "
@@ -260,10 +266,14 @@ def write_atomic(path: Path, value: dict[str, Any]) -> None:
 
 
 def identity(spec: SessionSpec) -> dict[str, Any]:
-    return {"receipt": str(spec.receipt), "thread": spec.thread, "run_date": spec.run_date.isoformat(),
+    result = {"receipt": str(spec.receipt), "thread": spec.thread, "run_date": spec.run_date.isoformat(),
             "day_index": spec.day_index, "study_started_at": spec.study_started_at.isoformat(),
             "deadline": spec.deadline.isoformat(), "closeout_end": spec.closeout_end.isoformat(),
             "checkpoint_hours": spec.checkpoint_hours}
+    if spec.deadline_override_sha256:
+        result.update(original_deadline=spec.original_deadline.isoformat(),
+                      deadline_override_sha256=spec.deadline_override_sha256)
+    return result
 
 
 def first_clock_start(state: dict[str, Any], events_path: Path, thread: str,
@@ -377,9 +387,33 @@ class Supervisor:
         self.save()
         self.log("clock-resumed" if restarted else "clock-started", **identity(self.spec))
 
+    def initialize_one_shot(self) -> None:
+        """Record a real single-attempt initialization; never starts a clock loop."""
+        current = aware_datetime(self.clock().isoformat(), "one-shot initialized_at")
+        if not self.spec.deadline <= current < self.spec.closeout_end:
+            raise ValueError("one-shot closeout initialization requires the effective closeout hour")
+        if self.state_path.exists() and "first_supervisor_started_at" in self.state:
+            for event_id, record in self.state["events"].items():
+                if record["status"] == "in-flight":
+                    record.update(status="unknown", reason="one-shot resumed after in-flight call; acceptance unknown; not resent")
+                    self.log("queue-outcome-unknown", event_id=event_id, reason=record["reason"])
+            self.save()
+            return
+        self.state.update(
+            first_supervisor_started_at=current.isoformat(),
+            first_start_origin="one-shot-initialized-now",
+            farmer_reference_at=self.spec.study_started_at.isoformat(),
+            one_shot_initialized_at=current.isoformat(),
+            session_execution_observed=False,
+        )
+        self.state.setdefault("status", "one-shot")
+        self.save()
+        self.log("one-shot-initialized", **identity(self.spec))
+
     def farmer_control(self, now: datetime) -> str:
         first_started = aware_datetime(self.state["first_supervisor_started_at"], "first_supervisor_started_at")
-        observation = farmer_snapshot(self.spec, first_started, now)
+        reference = aware_datetime(self.state.get("farmer_reference_at", first_started.isoformat()), "farmer_reference_at")
+        observation = farmer_snapshot(self.spec, reference, now)
         previous = self.state.get("farmer_observation") or {}
         keys = ("observation", "action", "status", "event_at", "reason")
         self.state["farmer_observation"] = observation
@@ -410,13 +444,23 @@ class Supervisor:
 
     def completed_receipt(self, current: SessionSpec) -> bool:
         """Final run completion ends delivery; card completion stays running."""
-        if current.receipt_status != "completed":
+        if current.receipt_status not in {"completed", "completed-partial"}:
             return False
         self.heartbeat(self.clock().astimezone(TIMEZONE), current.receipt_status)
         for event in self.events:
             self.skip(event, "run receipt completed; no new queued messages")
         self.finish("completed", "run receipt completed; reminder delivery stopped")
         return True
+
+    def terminal_receipt(self, current: SessionSpec) -> bool:
+        """Apply the same real-receipt stop boundary to loops and one-shot calls."""
+        if self.completed_receipt(current):
+            return True
+        if current.receipt_status in {"stopped", "cancelled", "interrupted"}:
+            self.heartbeat(self.clock().astimezone(TIMEZONE), current.receipt_status)
+            self.finish("interrupted", f"run receipt records {current.receipt_status}; no automatic restart")
+            return True
+        return False
 
     def pending_checkpoints(self) -> list[str]:
         """Keep at most one unacknowledged routine reminder in the broker."""
@@ -442,7 +486,23 @@ class Supervisor:
         return pending
 
     def attempt(self, event: ClockEvent, now: datetime, receipt_status: str) -> None:
+        if self.state.get("first_start_origin") == "one-shot-initialized-now" and event.event_id != "closeout":
+            return
+        if self.state.get("status") in {"interrupted", "manual-attention-required", "completed", "window-ended"}:
+            return
+        actual_now = self.clock().astimezone(TIMEZONE)
+        if now < event.at or actual_now < event.at:
+            return
+        now = actual_now
+        if actual_now >= self.spec.closeout_end and event.kind != "overdue":
+            self.skip(event, "effective closeout hour ended; reminder not replayed")
+            return
         record = self.state["events"][event.event_id]
+        if record["status"] == "in-flight":
+            record.update(status="unknown", reason="prior in-flight call has unknown acceptance; not resent")
+            self.save()
+            self.log("queue-outcome-unknown", event_id=event.event_id, reason=record["reason"])
+            return
         if record["status"] in TERMINAL_EVENT_STATUSES:
             return
         if record["status"] == "retry-wait" and now < aware_datetime(record["next_at"], "next_at"):
@@ -458,7 +518,7 @@ class Supervisor:
         current = load_spec(self.spec.root, self.spec.receipt, self.spec.thread, self.spec.checkpoint_hours)
         if identity(current) != identity(self.spec):
             raise ValueError("receipt timing or identity changed before queue call")
-        if self.completed_receipt(current):
+        if self.terminal_receipt(current):
             return
         if event.kind == "checkpoint":
             pending = self.pending_checkpoints()
@@ -494,11 +554,7 @@ class Supervisor:
         current = load_spec(self.spec.root, self.spec.receipt, self.spec.thread, self.spec.checkpoint_hours)
         if identity(current) != identity(self.spec):
             raise ValueError("receipt timing or identity changed while the clock was running")
-        if self.completed_receipt(current):
-            return False
-        if current.receipt_status in {"stopped", "cancelled", "interrupted"}:
-            self.heartbeat(now, current.receipt_status)
-            self.finish("interrupted", f"run receipt records {current.receipt_status}; no automatic restart")
+        if self.terminal_receipt(current):
             return False
         control = self.farmer_control(now)
         if control.startswith("stop-"):

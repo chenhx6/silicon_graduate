@@ -1,0 +1,291 @@
+{
+  "created_utc": "2026-10-26T07:41:52.315749+00:00",
+  "status": "four_artifacts_complete_with_explicit_scientific_gaps",
+  "checks": [
+    {
+      "name": "four_required_artifacts_present",
+      "passed": true
+    },
+    {
+      "name": "source_sha_AW13",
+      "passed": true
+    },
+    {
+      "name": "source_sha_WK22",
+      "passed": true
+    },
+    {
+      "name": "source_sha_D21",
+      "passed": true
+    },
+    {
+      "name": "nuclei_neutron_number",
+      "passed": true
+    },
+    {
+      "name": "source_local_band_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "band3_not_merged_ground_identity",
+      "passed": true
+    },
+    {
+      "name": "band3_131_literal_618",
+      "passed": true
+    },
+    {
+      "name": "band3_same_spin_nearby_141",
+      "passed": true
+    },
+    {
+      "name": "crosslink_4124_closes",
+      "passed": true
+    },
+    {
+      "name": "crosslink_7677_closes",
+      "passed": true
+    },
+    {
+      "name": "unknown_133_ix_B1_comparison",
+      "passed": true
+    },
+    {
+      "name": "unknown_133_omega_B1_comparison",
+      "passed": true
+    },
+    {
+      "name": "unknown_133_ix_B4_comparison",
+      "passed": true
+    },
+    {
+      "name": "unknown_133_omega_B4_comparison",
+      "passed": true
+    },
+    {
+      "name": "unknown_133_ix_B2_comparison",
+      "passed": true
+    },
+    {
+      "name": "unknown_133_omega_B2_comparison",
+      "passed": true
+    },
+    {
+      "name": "unknown_133_ix_B3_comparison",
+      "passed": true
+    },
+    {
+      "name": "unknown_133_omega_B3_comparison",
+      "passed": true
+    },
+    {
+      "name": "independent_four_energy_S_AW13-B1_13/2",
+      "passed": true
+    },
+    {
+      "name": "independent_four_energy_S_AW13-B1_15/2",
+      "passed": true
+    },
+    {
+      "name": "independent_four_energy_S_AW13-B1_17/2",
+      "passed": true
+    },
+    {
+      "name": "independent_four_energy_S_WK22-B1_13/2",
+      "passed": true
+    },
+    {
+      "name": "independent_four_energy_S_WK22-B1_15/2",
+      "passed": true
+    },
+    {
+      "name": "independent_four_energy_S_WK22-B1_17/2",
+      "passed": true
+    },
+    {
+      "name": "independent_four_energy_S_AW13-B4_19/2",
+      "passed": true
+    },
+    {
+      "name": "independent_four_energy_S_AW13-B4_21/2",
+      "passed": true
+    },
+    {
+      "name": "independent_four_energy_S_WK22-B4_17/2",
+      "passed": true
+    },
+    {
+      "name": "independent_four_energy_S_WK22-B4_19/2",
+      "passed": true
+    },
+    {
+      "name": "independent_four_energy_S_WK22-B4_21/2",
+      "passed": true
+    },
+    {
+      "name": "608_doublet_energy_sum",
+      "passed": true
+    },
+    {
+      "name": "requested_topic_61.8",
+      "passed": true
+    },
+    {
+      "name": "requested_topic_14.1",
+      "passed": true
+    },
+    {
+      "name": "requested_topic_unknown",
+      "passed": true
+    },
+    {
+      "name": "requested_topic_DSAM",
+      "passed": true
+    },
+    {
+      "name": "requested_topic_RDDS",
+      "passed": true
+    },
+    {
+      "name": "requested_topic_out/in",
+      "passed": true
+    },
+    {
+      "name": "requested_topic_out/out",
+      "passed": true
+    },
+    {
+      "name": "requested_topic_Gammasphere",
+      "passed": true
+    },
+    {
+      "name": "requested_topic_AFRODITE",
+      "passed": true
+    },
+    {
+      "name": "requested_topic_GALILEO",
+      "passed": true
+    },
+    {
+      "name": "requested_topic_972",
+      "passed": true
+    },
+    {
+      "name": "lifetime_existing_evidence_not_lost",
+      "passed": true
+    },
+    {
+      "name": "next_day_supplement_not_main_card",
+      "passed": true
+    },
+    {
+      "name": "all_local_links_exist",
+      "passed": true
+    },
+    {
+      "name": "script_ASTs_parse",
+      "passed": true
+    }
+  ],
+  "all_pass": true,
+  "missing_links": [],
+  "source_hashes": {
+    "AW13": "b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1",
+    "WK22": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "D21": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37"
+  },
+  "scientific_limits": [
+    "No experimental ix/omega_c fabricated",
+    "Selected gamma-path S controls only, no full adopted ledger/Cov",
+    "No all-nucleus lifetime absence claim",
+    "No universal AD/Rac gate-independence theorem",
+    "DSAM/RDDS not sufficient collective-mode certification",
+    "No user independent events read"
+  ],
+  "canonical_modified": false,
+  "raw_modified": false,
+  "git_operations": false,
+  "new_cards": false,
+  "files": [
+    {
+      "path": "assets/al-figure4-1-low-region.png",
+      "bytes": 175547,
+      "sha256": "4889ac6dee3419fab287f5db9fa34508dae4ae3c4b8aa9b0fe41c83f196a03d6"
+    },
+    {
+      "path": "assets/al-pdf57-large.png",
+      "bytes": 330355,
+      "sha256": "950a348040cd6ab7f0e279644385c9e660c4ccfd8b11ab7df7b3a51d6edd5638"
+    },
+    {
+      "path": "assets/al-pdf57.png",
+      "bytes": 155050,
+      "sha256": "b1ae629da31f957edb0769fe2b3190c55e3d42deac47d066a96b3cf008e19fac"
+    },
+    {
+      "path": "assets/al-pdf79.png",
+      "bytes": 123753,
+      "sha256": "0437590633bbd0f56af3316a067031fd7153eb3b473d7cf81ae64b6394aeb942"
+    },
+    {
+      "path": "assets/al-pdf82.png",
+      "bytes": 177505,
+      "sha256": "37caf589acdc9878e6cc74486be6972d4567b7795d92aed127107497a1cd84a6"
+    },
+    {
+      "path": "assets/al-pdf83.png",
+      "bytes": 88515,
+      "sha256": "4f686250c3b143cc5456db3372ffbb7699e4c1cc93a60a9264131b6cc76514a3"
+    },
+    {
+      "path": "assets/al-pdf85.png",
+      "bytes": 194656,
+      "sha256": "b5dfb6d59a3ec8c64e6552540a6b4b91d045dce2d6d87daa55693984f32e0aa5"
+    },
+    {
+      "path": "assets/al-pdf86.png",
+      "bytes": 181586,
+      "sha256": "489f3324efc887c16a11d022ccba7472658f695b0f00e50b4b4b152cf7298223"
+    },
+    {
+      "path": "assets/al-pdf87.png",
+      "bytes": 111611,
+      "sha256": "36ff1fee7fa21b1432c14a547376aea3d96f952ef7efe995162224ca6902fc76"
+    },
+    {
+      "path": "blueprint_checklist.md",
+      "bytes": 10010,
+      "sha256": "17a52a0d2faf5b361165d1113e5d3febd8fe9c0975219128fb7b44cb07747a89"
+    },
+    {
+      "path": "build_comparison.py",
+      "bytes": 13714,
+      "sha256": "21792c3f6c06f3b39a573ddd281254424bed70e5f0d24487dbb466c7a0dd5f17"
+    },
+    {
+      "path": "comparison_matrix.json",
+      "bytes": 24608,
+      "sha256": "e0c3c39338f59a2869d0bea63cf5eeecbb9dae341545b434a4d02475a04d15fa"
+    },
+    {
+      "path": "next_day_supplement_questions.md",
+      "bytes": 5231,
+      "sha256": "666ec8237106f853d2cafc80aa8bdd85960ecf7e6795452ef9f6b0f422dabdc4"
+    },
+    {
+      "path": "reading-and-validation-scope.md",
+      "bytes": 3555,
+      "sha256": "20f91d67e3e300d06260bc91f3c7fae2079626f1f337f79861ceceed80fe0b23"
+    },
+    {
+      "path": "synthesis_report.md",
+      "bytes": 11858,
+      "sha256": "bb3dd83628f0b4377c08d43412c8500099893dd8f4248a8dcb4d0ecb64334fe7"
+    },
+    {
+      "path": "validate_comparison.py",
+      "bytes": 4082,
+      "sha256": "4bcc74e2f5c22f03e0250662aad438f7ecc6e556cc957ef8047c938db73364ad"
+    }
+  ]
+}

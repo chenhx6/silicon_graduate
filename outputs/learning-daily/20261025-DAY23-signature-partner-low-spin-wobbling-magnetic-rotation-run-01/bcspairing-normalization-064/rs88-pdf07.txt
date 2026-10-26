@@ -1,0 +1,129 @@
+I. Ragnarsson, RB. Semmes, The particle-rotor model
+429
+2.4
+The residual proton-neutron interaction
+For the residual interaction, a phenomenological [inite range force of the type
+described in /Ii/ is used:
+2
+2
+=
+-r /rolu0
+Vpn
+e
++ Ul~p'~n + U2Pm + U3~p "~npm + VTSI2 + VTMSI2Pm)
+(22)
+where Pm is the space exchange operator, ~ is a Pauli spin matrix
+and
+S12
+is
+the
+tensor force,
+
+9
++
+.+
++
+§
+
+9
+2
+1
++
+-'-
+S12 = {fOp rl(0n'rl~/r
+- ~(Op'0n).
+(23)
+The different terms are characterized by strength parameters u 0, u I, u 2, u3, V T
+and
+VTM, and r O is the range of the force. When this residual interaction is
+calculated
+in the strong coupling basis given above, we obtain for odd K
+<IK'V'U'IVpnlIKVU> = 6K,K[A<~'IJ'IVpnIVP>
+-
+B<u';IVpnlV;'>]
++ (-III+I6K,_K[A<~'~ ' IVpnl~p> + B<~p'~Vpnl~)'p>]
+124a)
+and for even K
+<IK'v'~' IVpnlIKv~> = 6K,K[A<V'~' lVpnlU;> - B<v'PlVpnIVP '>]
++ (-I)I+16K,_K[A<~'~ ' IVpnlVP> + B<;U' IVpnI~'P>]
+(24b)
+where A and B are pairing factors
+A = U ,U Up,U + V v,VvV
+~,vp
+B = U ,UvVp,V p + Vv,VvU~,U ~
+(25)
+and
+the matrix elements like <u'II'IVpnlVp> involve the proton and neutron adiabatic
+single
+particle
+states IV>, IB>, etc. These are calculated by the methods of /II/.
+We
+also obtain additional terms involving sums over all occupied proton and neutron
+states;
+these
+terms
+must
+represent
+part
+of the core contribution and have been
+discarded.
+It
+should
+be
+noted
+that
+the
+first term (u0) in eq. (22) is usually
+omitted in Vpn calculations since it does not contribute to the Newby shift, and its
+contributions
+cancel
+out when considering the Gallagher-Moszkowski
+splitting for a
+given pair of partner states /Ii/. Even so, its diagonal matrix elements will differ
+for
+different
+p-n
+configurations,
+and
+thus
+can
+affect
+bandhead
+energies.
+Furthermore,
+we point out that off-diagonal as well as diagonal matrix elements are
+included in the above scheme; they have usually been neglected previously.
+2.5
+Moments, transition probabilities r etc.
+With
+definitions
+of
+Bohc
+and
+Mottelson
+/12/,
+electromagnetic
+transition
+probabilities are defined as
+B(O~;
+zi§
+f)
+= _ 1 .i<i_|,M(oX)iizi>l
+2.
+(26)
+21.+I
+t
+1
+The MI operator can be writLen
+.M(MI) = 9R~ + s
++ gs~).
+1271
+where the sum is performed over the odd partlcles. The genera] expression for the E2
+operator
+.M(E2,p) = ;p(r)r2Y2pd3r
+(28)
+splits
+into
+one
+core
+part which is generally dominating and one term for the odd
