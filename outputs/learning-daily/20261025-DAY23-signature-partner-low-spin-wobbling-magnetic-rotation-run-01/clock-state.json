@@ -69,7 +69,9 @@
         }
       ],
       "queued_at": "2026-10-26T17:06:36.920227+08:00",
-      "delivery_observed": false
+      "delivery_observed": true,
+      "delivery_observed_at": "2026-10-26T17:45:42.138401+08:00",
+      "delivery_disposition": "already-completed-delivery-only"
     },
     "closeout-reminder": {
       "status": "pending",

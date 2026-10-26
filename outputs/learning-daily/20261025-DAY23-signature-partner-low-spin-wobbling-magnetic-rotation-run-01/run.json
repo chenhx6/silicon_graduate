@@ -284,5 +284,19 @@
     "evidence_sha256": "d06aa4e29b198df16edc28b333a7e08fd7d799651dc41a9ec9a87886656f257f",
     "report_absence_evidence_kind": "head-tree-status-and-ignore-policy",
     "boundary": "Historical captured status plus tracked HEAD policy is a reconstruction witness, not a missing original report_existed_before field; historical changes to external/global excludes cannot be excluded by current config alone."
-  }
+  },
+  "observed_clock_executions": [
+    {
+      "clock_event_id": "closeout",
+      "same_session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+      "observed_at": "2026-10-26T17:45:42.138401+08:00",
+      "queued_snapshot_at": "2026-10-26T17:06:36.527841+08:00",
+      "action": "delivery-only-run-already-completed",
+      "status_at_delivery": "completed",
+      "new_research_started": false,
+      "new_session_created": false,
+      "daemon_restarted": false,
+      "credit_or_course_state_changed": false
+    }
+  ]
 }

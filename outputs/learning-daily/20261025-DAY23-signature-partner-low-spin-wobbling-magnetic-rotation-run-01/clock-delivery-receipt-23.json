@@ -1,0 +1,30 @@
+{
+  "run_id": "2026-10-25-day-23-01",
+  "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+  "recorded_at": "2026-10-26T17:45:42.138401+08:00",
+  "kind": "late-clock-delivery-acknowledgment",
+  "clock_event_id": "closeout",
+  "disposition": "delivery only; completed run not reopened",
+  "observation": {
+    "clock_event_id": "closeout",
+    "same_session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+    "observed_at": "2026-10-26T17:45:42.138401+08:00",
+    "queued_snapshot_at": "2026-10-26T17:06:36.527841+08:00",
+    "action": "delivery-only-run-already-completed",
+    "status_at_delivery": "completed",
+    "new_research_started": false,
+    "new_session_created": false,
+    "daemon_restarted": false,
+    "credit_or_course_state_changed": false
+  },
+  "completed_day_indices": [
+    23
+  ],
+  "partial_day_indices": [
+    24
+  ],
+  "next_day_index": 24,
+  "course_state_unchanged": true,
+  "original_completed_fields_unchanged": true,
+  "publication_receipt": "clock-delivery-publication-receipt-23.json"
+}
