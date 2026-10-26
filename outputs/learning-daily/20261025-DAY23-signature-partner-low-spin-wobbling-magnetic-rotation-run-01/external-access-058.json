@@ -1,0 +1,31 @@
+{
+  "Howard": {
+    "url": "https://arxiv.org/pdf/2004.02362",
+    "status": 200,
+    "bytes": 12245878,
+    "sha256": "4e137af925c309e1486a9b5eb6f078eac22d9f02163970c942b9ca31f28c9fa7",
+    "path": "tmp/day23-originals/howard2020-method058.pdf",
+    "pages": 189
+  },
+  "emcee": [
+    {
+      "name": "emcee-pdf",
+      "url": "https://arxiv.org/pdf/1202.3665",
+      "status": 200,
+      "bytes": 183607,
+      "sha256": "d9db50484bd46ddc29e966a69f3775061cb240dc7c10111d7d3505c711ad56b6",
+      "path": "tmp/day23-originals/emcee-pdf-058.pdf",
+      "pages": 15
+    },
+    {
+      "name": "emcee-meta",
+      "url": "https://export.arxiv.org/api/query?id_list=1202.3665",
+      "status": 200,
+      "bytes": 2785,
+      "sha256": "f6342fec51859d2e3824b68afaf0fb49fd6be0be4bbf6ea4cbc2c3cd5db966d9",
+      "path": "tmp/day23-originals/emcee-meta-058.xml"
+    }
+  ],
+  "raw_archival": "deferred",
+  "code_installed_or_executed": false
+}

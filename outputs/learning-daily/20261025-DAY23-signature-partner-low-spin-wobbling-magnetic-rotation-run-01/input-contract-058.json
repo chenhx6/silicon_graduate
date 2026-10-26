@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-10-26T02:14:52.879487+00:00",
+  "scope": "Day23 actual SH26Ref54 method-dependency audit only, not a GMR daycard",
+  "source_lead": "K.B.Howard2020 arxiv2004.02362 exact citation fromSH26PDF17Ref54",
+  "question": "What likelihood/normalization/uncertainty definitions are actually described in the cited MCMC method, and what remains unspecified when transferred to AD?",
+  "not_assumed": [
+    "Howardmethod is exact ADproducer",
+    "same code/options/Cov is used",
+    "extraerrorinflation explainsFig12nonclosure"
+  ],
+  "allowed": "publicoriginaltext+targetedMCMCmethod section and definitions; no newAu/Pr likelihood fit until actualinputs",
+  "prohibited": [
+    "infer actual AD nuisance from bibliography alone",
+    "newdelta/CI/Q/tau/rate/time",
+    "Day25/newcardcredit/114producers/rawmutation"
+  ],
+  "bounded_mathematical_control": {
+    "scope": "general Markov/affine/localbranch counterexamples, not actual Pr/Au sampling diagnostics",
+    "AR1": {
+      "rho": 0.9,
+      "stationary_mean": 0,
+      "stationary_variance": 1,
+      "formula": "Xnext=rhoX+sqrt(1−rho²)epsilon; corr(k)=rho^k; tau_int asymptotic=(1+rho)/(1−rho)",
+      "N_chosen_control": 19000,
+      "meaning": "retained mathematical chain positions, not gammaevents or actualsourcechainlength"
+    },
+    "affine_shear": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "localbranch": "pi_p=p fA+(1−p)fB on disjointsupport; pi(x|A)=fA independentp; local-onlychaincannotrecoverglobalbranchweights",
+    "prohibited": [
+      "actualsourceESS/CI assigned",
+      "equalvalleysorunknownbranchweights guessed",
+      "paperimplementationerror inferredfromschematicprose/pseudocode"
+    ]
+  }
+}

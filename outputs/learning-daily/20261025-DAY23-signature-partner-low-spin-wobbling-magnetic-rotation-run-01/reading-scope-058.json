@@ -1,0 +1,14 @@
+{
+  "Howard": "PDF94–105 method context only; title/contents/relevantRefs; 189pages not whole-read",
+  "emcee": "all15pages mainline/formulas/algorithms/refs/appendices; PDF9/10visual",
+  "new_claims": [
+    "HW20-D23-001",
+    "HW20-D23-002",
+    "FM13-D23-001",
+    "FM13-D23-002",
+    "FM13-D23-003",
+    "FM13-D23-004"
+  ],
+  "needs_review": true,
+  "actualPrAuSamplerReproduced": false
+}

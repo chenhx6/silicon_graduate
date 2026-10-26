@@ -356,3 +356,9 @@ Bpair只能保存δ²，P/AD干涉的sign/branch信息另检验；这项信息�
 [[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D23-4–6直接核原Fig12vector的21点/42caps与显示curves。主图在σ/I=.2的大根优势确实存在，746/812/754的红/蓝χ²标签几何读数约2.3/6.6、47/423、5.8/375；它们是源作者图示量，不是本任务新fit、置信度或对任意取向的保证。
 
 按图示半误差线作额外对角1σ假设的D也偏红，但数值不同，未闭合源profile。该差异使actualobjective/normalizer/error-Cov/样本处理链缺口更具体；不抹掉条件支持，不预判自由nuisance时两谷必等深，也不直接判论文计算错误。原Lv新P–Rac和Matta旧asymmetry的量身份/版本继续分别记账。新增needs_review:true，无新δ或最终TiP/TW裁决。
+
+## Day23：方法引用不补原AD似然或全局分支权重
+
+[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] HW20-D23-001/002与FM13-D23-001–004核实际Howard方法段及其emcee primary。Howard的Aλ是EWSR份额，不是AD A2/A4；其一般χ²公式仍不提供本核的counts/Cov/取向/归一。原emcee文特别区分谷内相关时间和跨谷迁移，不能由附近采样或简单步数恢复全局分支权重。
+
+这限定了如何解释支持方的MCMC，却不把固定σ/I=.2的大根优势取消，也不给小根预设等权。真正可复核的下一输入是共同目标/先验/原链与独立holdout，而非引用方法论文次数。人工AR1/双区间例仅说明信息不足，未对实际Pr/Au链赋ESS或δCI。新增needs_review:true。

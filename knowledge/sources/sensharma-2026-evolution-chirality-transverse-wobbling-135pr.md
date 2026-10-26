@@ -188,3 +188,22 @@ Knowledge Impact and Learning Decision：revises“论文整体独立/重复”�
 D在PDF纵向坐标直接计算，轴的共同平移/尺度不影响它，实际affine控制差≤5.1×10⁻12。最终用literal polyline插值，不依赖将曲线再拟成P2/P4；探索性P2/P4重构及单一归一probe亦未闭合，未将它们冒充作者程序或用于改数据。源χ²是原图名义标签，D是任务声明的另一诊断；图示halfbar的coverage、完整Cov和objective正常数未恢复，故本页没有Δχ²置信检验。
 
 七项几何/hash/cap/中点/正半长/affine/非闭合保留控制实际通过，仅验证本提取。公开曲线与误差图元可读比“只能看近似形状”前进了一步，却仍不提供共同response与原producer。SH26-D23-1/2/3的部分run重叠及逐图ledger缺口原样保留；本图不是一次新偏振或独立采集。新增needs_review:true，旧source self-audit flags不变。
+
+## Day23：MCMC所引方法原件与AD迁移边界
+
+本次沿原PDF17Ref54取得K.B.Howard，*Structure effects on the giant monopole resonance and determinations of the nuclear incompressibility*，arXiv[2004.02362v2](https://arxiv.org/abs/2004.02362v2)，PDF封面明确v2/Aug2020，189页/12245878bytes/SHA256 4e137af925c309e1486a9b5eb6f078eac22d9f02163970c942b9ca31f28c9fa7。**只定向读PDF94–105、printed79–90的MDA/MCMC方法、题名/目录与相关refs，不称189页通读**；关键PDF95/97/98/99/100/104已render，98/100实际视觉核。原文的GMR测量与不可压缩系数不作为本Day23新核物理结果。
+
+再沿其Ref31取得Foreman-Mackey/Hogg/Lang/Goodman，*emcee: The MCMC Hammer*，PASP125,306(2013)，DOI[10.1086/670067](https://doi.org/10.1086/670067)，公开[arXiv1202.3665v4](https://arxiv.org/abs/1202.3665v4)，15页/183607bytes/SHA256 d9db50484bd46ddc29e966a69f3775061cb240dc7c10111d7d3505c711ad56b6。全主线/算法/公式/refs/附录已文字读，PDF9/10fresh视觉；没有安装或执行附录命令，也未称当前package或原AD代码版本已核。两PDF只在tmp/day23-originals/公开暂存，正式raw归档deferred。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HW20-D23-001 | Howard原Eq4.5为α散射DWBA多极分解，Aλ是各Ex bin的EWSR份额，λmax8/10；Eq4.9给[0,1] uniform prior。这里A0/A2/A4不是γ AD的强度归一与Legendre系数，非负EWSR先验不能直接移给可为负的AD A2/A4，更不是δ的先验。 | external-cited-method-parameter-identity | directly-read-original-method | HowardPDF95Eq4.5; PDF99–100Eq4.9 | true |
+| HW20-D23-002 | 所读方法Eq4.6是Σ[(yj−f)/δyj]²，Eq4.7取exp(−χ²/2)，Eq4.8/4.9另定义prior；该段给通用固定误差形式，未给本Pr/Au AD的原输入/Cov/取向/归一或具体目标函数版本。因此引用Howard不能完成Fig12共同响应重放，也不授权本任务补一个未知noise参数去强行闭合057。 | external-cited-likelihood-and-transfer-readiness | directly-read-method-not-AD-producer | HowardPDF99Eqs4.6–4.8; PDF100Eq4.9 | true |
+| FM13-D23-001 | emcee原Sec3明确独立样本数受integrated autocorrelation time约束，Eq12为τf=1+2ΣCf(T)/Cf(0)，并依赖所估函数f；Markov只规定给定当前态后的条件依赖，不等连续每步iid。HowardPDF97的口头“essentially independent”不能当一般定理，亦不能由MCMC名/步数认证实际Pr/Au的ESS或误差。 | external-primary-method-and-precision-boundary | directly-read-primary-plus-bounded-inference | emceePDF5 M–Hdiscussion; PDF9Eqs11–13; HowardPDF97paragraph | true |
+| FM13-D23-002 | 原Sec4明确谷内autocorrelation可短而跨谷migration很慢，短链可能看不见长时间尺度；分谷独立采样还需“properly”合并，不由局部样本数直接给global权重。此方法限制不意味着本Pr/Au两谷等深；真实固定σ条件偏好保留，actualtarget/prior/chain跨谷记录仍需。 | external-primary-multimode-limit | directly-read-primary-and-scope | emceePDF10–12Sec4 multimodaldiscussion | true |
+| FM13-D23-003 | 原emceeEq3/9及Algorithms2/3的affine invariance涉及参数重参数化/伸缩move和正确acceptance，并非删除原数据Cov、无条件完成marginalization或保证跨谷。HowardPDF100 footnote对affine“保角”的一般化不成立：剪切T=((1,1),(0,1))的明确矩阵例见下，能保parallel而改夹角。此为数学术语校准，不判原emcee或核数据实际实现错误。 | primary-sampler-definition-and-Codex-math-boundary | directly-read-method-and-declared-counterexample | emceePDF4Eq3; PDF6Eq9; PDF7Algorithm3; HowardPDF100footnote5 | true |
+| FM13-D23-004 | 声明的stationary AR(1)控制ρ=.9给corr1=.9、渐近τint19；选数学链N19000，有限N的mean-ESS约1000.50。另取disjoint A/B的πp=p fA+(1−p)fB，则π(x∣A)=fA与p无关，局部样本不能单独恢复global谷权重。这些是条件信息反例，不是实际Pr/Au链诊断、γevents、CI或束流率。 | Codex-conditional-sampling-information-exercise | declared-math-with-source-definition | emceePDF9Eq12; stated AR1 anddisjointmixture below | true |
+
+矩阵例明确采用T=((1,1),(0,1))，将两条正交unitaxes变成(1,0)与(1,1)，夹角45°，parallel仍保持；不把它与057的观测纵轴共同单位变换D不变混为同一性质。AR控制为Xt+1=.9Xt+sqrt(1−.9²)εt，stationary variance1，直接有限Cov求和与几何级数闭式相合；这里ESS只针对sample mean。局部例用p=.2/.8、fA=(.3,.7)、fB=(.6,.4)，两组conditional A均(.3,.7)，从未给实际δ根赋这些权重。
+
+HowardAlgorithm1是示意pseudocode而实际方法选emcee；具体缓存更新、proposal条件、伸缩因子与版本不能靠示意替代执行代码。本次不据其简写判GMR/AD代码有错。对SH26正文“先选较低χ²再附近采样”的应用，应分别取得global目标与先验、参数约束、各链跨谷/mixing证据以及未定标检验；局部MCMC不能替代这些，也不因此抹条件大根优势。五限定数学控制通过，只核反例；新增needs_review:true，原review状态不变。

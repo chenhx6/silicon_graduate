@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点057（Day24仅无学分预习）
+## Active handoff — Day23检查点058（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-056已H3published。057SH26同hashPDF14Fig12vector无bitmap，21circles/21stems/42caps直接核，midpoint误差4.6e−5pt、Daffine5e−12，7controls过。源σ/I.2 profile在打印δ处几何χ标签约2.3/6.6、47/423、5.8/375，保大根条件优势；新D=Σ(point−polyline)²/halfbar²约140/456、138/1114、42/820，额外独立1σ假设，数值不闭合原目标，未判paper错/未新δCI。SH26-D23-4..6三页needs_review。继续原15:00窗口/noDay25。
+057已H3published。058Howard2004.02362v2实际189p/SHA4e137...只读PDF94–105MDA/MCMCcontext，不whole；emcee1202.3665v4/15p全读SHA d9db5...，DOI10.1086/670067。HW20-D23-001/002+FM13-D23-001..004三页needs_review；Aλ[0,1]是EWSR非ADprior，genericχ²不补actualADinput。原emceeτf/跨谷慢限制核；AR1ρ.9τ19/N19000meanESS1000.5及局部conditional不定globalmass仅math，5controls过，不赋actualESS/CI/等谷。继续原15:00。
 
-详next-continuation-057.md/candidate-pool-057.json；检查以required-checks-057.json为准。Git指针main · Day23: retain the Pr conditional profile and expose plot replay limits；actualhash/H3仅task-publication-receipt-057.json。
+详next-continuation-058.md/candidate-pool-058.json；检查以required-checks-058.json为准。Git指针main · Day23: trace the cited sampler method and separate local from global weights；actualhash/H3仅task-publication-receipt-058.json。
 
 ## Previous handoff — Day22 closeout
 

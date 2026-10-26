@@ -763,3 +763,11 @@ A槽应记录每篇模型的shape quantity、单位/约定和actual输入版本�
 若另设D=Σ[(ypoint−ycurve)/(图示halfbar)]²，它必须连同独立1σ/显示归一/插值等附加条件登记。当前D方向与源相同、数值未闭合；affine强度单位变换的控制并不能补原objective的归一或所有nuisance。不能用missingclosure去反向制造作者错误，也不能把方向相同夸成原likelihood复现或用它给p-value/δCI。
 
 A槽因此分成“图示向量可读”“源条件profile可读”“实际共享响应可重放”三项，前两已推进，第三仍缺输入；它们不是三份独立测量。[[135pr-wobbling-controversy]]保本核反证/支持与未定标检验，新needs_review:true，不新增τ/Q/设施率或机时。
+
+## Day23：MCMC的参数、目标、相关时间与谷权重分列
+
+[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] HW20-D23-001/002核本领域实际引用Howard的方法，而FM13-D23-001–004回到emcee原论文。EWSR Aλ的[0,1]先验不迁为AD A2/A4或δ先验；算法论文不给当前实验的Cov/response；affine sampler性质也不删除这些输入。应冻结的是实际target density、参数化/prior/Jacobian、观测Cov及采样范围，而不是“MCMC”一个名称。
+
+Markov不是iid：声明ρ=.9的stationary AR1给τint19，数学N19000的mean-ESS约1000.50；这不是γcount或实际chain长度。若两谷分开且只见A内条件密度，πp=p fA+(1−p)fB对任意p都有同一π(x∣A)=fA，故局部posterior histogram不能独自给另一谷质量。它没有推两谷必等深，原fixedσ大根条件支持仍保。
+
+实际鉴别还需同一likelihood/先验下的跨谷可达性与权重方法、sample history/函数相关时间、未用于定标的观测检验。既不由短局部链自动认证global branch，也不据缺日志认定原算法失败。[[135pr-wobbling-controversy]]保具体科学争议；新needs_review:true，无新δ/Q/τ/CI或机时。

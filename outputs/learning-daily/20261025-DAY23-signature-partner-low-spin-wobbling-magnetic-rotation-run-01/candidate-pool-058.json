@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-26T02:30:44.350232+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "HowardMDA定向段+emcee15页原读，EWSR/AD先验、相关时间/局部谷权重分列，五数学控制非实际chain诊断",
+  "next_route": "回本卡signature/pseudospin与h9f7组态身份/未定标预测，或核尚有价值actualresponse输入；不开Day25",
+  "missing_inputs": [
+    "actualPrAu likelihood/prior/chain/modeweight and responseCov",
+    "fullH/operator and configuration-specific heldout observables",
+    "precisegamma23 and historicalB/alpha source mappings"
+  ],
+  "Day25_opened": false
+}

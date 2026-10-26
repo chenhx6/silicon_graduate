@@ -1,0 +1,74 @@
+{
+  "scope": {
+    "scope": "general Markov/affine/localbranch counterexamples, not actual Pr/Au sampling diagnostics",
+    "AR1": {
+      "rho": 0.9,
+      "stationary_mean": 0,
+      "stationary_variance": 1,
+      "formula": "Xnext=rhoX+sqrt(1−rho²)epsilon; corr(k)=rho^k; tau_int asymptotic=(1+rho)/(1−rho)",
+      "N_chosen_control": 19000,
+      "meaning": "retained mathematical chain positions, not gammaevents or actualsourcechainlength"
+    },
+    "affine_shear": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "localbranch": "pi_p=p fA+(1−p)fB on disjointsupport; pi(x|A)=fA independentp; local-onlychaincannotrecoverglobalbranchweights",
+    "prohibited": [
+      "actualsourceESS/CI assigned",
+      "equalvalleysorunknownbranchweights guessed",
+      "paperimplementationerror inferredfromschematicprose/pseudocode"
+    ]
+  },
+  "lag1_correlation": 0.9,
+  "asymptotic_tau_int": 19.000000000000004,
+  "finite_N_tau": 18.990526315789477,
+  "finite_N_samplemean_ESS": 1000.4988636993513,
+  "sheared_unit_axes_cosine": 0.7071067811865475,
+  "sheared_unit_axes_angle_degrees": 45,
+  "localbranch_proof": "forx∈A pi_p(x)/integral_A pi_p=p fA/p=fA; p remainsunknown fromconditional samples",
+  "not_actual_experiment_or_source_chain": true,
+  "local_discrete_mixture_controls": [
+    {
+      "chosen_global_A_mass": 0.2,
+      "global_probabilities": [
+        0.06,
+        0.13999999999999999,
+        0.48,
+        0.32000000000000006
+      ],
+      "conditional_A": [
+        0.3,
+        0.7
+      ]
+    },
+    {
+      "chosen_global_A_mass": 0.8,
+      "global_probabilities": [
+        0.24,
+        0.5599999999999999,
+        0.11999999999999997,
+        0.07999999999999999
+      ],
+      "conditional_A": [
+        0.3,
+        0.7
+      ]
+    }
+  ],
+  "finite_N_closed_form_tau": 18.990526315789477,
+  "controls": {
+    "stationary_AR1_variance": true,
+    "Markov_with_nonzero_lag1_correlation": true,
+    "direct_covariance_sum_matches_geometric_closed_form": true,
+    "affine_shear_changes_orthogonal_angle_but_preserves_parallelism": true,
+    "same_local_distribution_with_different_global_mass": true
+  },
+  "all_controls_pass": true
+}
