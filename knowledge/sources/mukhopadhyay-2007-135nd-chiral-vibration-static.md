@@ -33,6 +33,10 @@ tags: [135Nd, chirality, chiral-vibration, static-chirality, TAC, RPA, DSAM]
 
 # From chiral vibration to static chirality in `135Nd`
 
+## Day24 active evidence entry
+
+正式研究的逐伙伴账本见[[135nd-chiral-partner-resolved-evidence-map]]。Day23的D24P预习保留原身份/无学分标签；本轮的新原读claim为MU07-D24-001/002，不覆盖旧撤回和人审范围。
+
 > Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
 
 ## Day20正式原读：真实寿命两倍差异与分支补偿核验（checkpoint005）
@@ -413,3 +417,20 @@ NuDat3 `getdataset.jsp?nucleus=135ND&unc=nds`本次HTTP429，未自动循环重�
 `system/scripts/day24_preview_nd135_same_unit_ratios.py`直接读源CSV和原TeX/PS，45个源ID/同parent/正输入/同WU与τ相消的Fraction控制通过；控制没有把两组中央值的“接近”设为物理通过门。七个可算pair中，B比与Iγ-E式的中央相对残差约−.82%到+2.82%，仅是所印中心的派生比较，不能从中识别精确误差或原normalizer。原multipolarity的[]/()、blankunc_B/δ都按字面保留，不把空误差当0、不将括号采用值升级成独立多极测量。
 
 这些adopted同WU比与019图点/TableI构成的conditional ratio不同；两者可能有parent/component/normalizer/历史版本等差别，原notes和γ账未闭合前不称测得的真实B矛盾、不选某个作者错误，也不把API加作第二/第三次实验。恒等式能消去一个共同单位因子，**不能**消去物理量身份和分支选样条件。旧MU07-D24P-006/007仍只是compound H_abs/H_cond/H_other诊断，不恢复Qt代理CI、225.8P或机时排他结论。新needs_review:true。
+
+
+## Day24原件主线回读：谐振等强、配对输入与临界区
+
+本轮原期刊4页全文主线文本回读，fresh视觉PDF2/3/4的TableI、Fig1–4、Eq1–3和非谐段。raw SHA9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425一致；本轮未重放原DSAM/微观producer。Crossref HTTP200核同DOI、题名、PRL99及2007-10-23出版日期，不算独立实验。原claims/flags保持，新增needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MU07-D24-001 | Eq3后明确RPA以平衡均场附近谐振描述取向、形状和两qp自由度，不改变算符期望值，带内率保持TAC结果；Fig2/3的共同TAC曲线因此不是对两partner各自独立计算出的等强检验。实验点的相近仍为原实验支持；RPA波函数给带间率。原文承认带间E2偏小及带间M1 spin行为差异，近transition TAC+RPA breakdown，不能用共同曲线消除这些局限。 | approximation-order-and-model-data-provenance | direct-original-and-bounded-inference | printed172501-3 Eq3 and followingparagraph; printed172501-4 firsttwoparagraphs | true |
+| MU07-D24-002 | PQTAC在N4/5 shells用QQ力和constant pair gap，参数拟合Strutinsky PES，质子/中子gap取odd-even mass difference的50%/80%；最低RPA模由取向涨落主导并混少量γ振动。作者称非谐性可使两带平均θ及B(E2)不同、θ≈45°附近敏感；额外h11/2 quasiproton使135Nd较134Pr推迟instability并延长near-harmonic区。RPA零能/meanfield非零φ的临界比实验最近接近点高约1ℏ，是特定模型比较，不是实验直接测得的临界spin或全领域阈值。 | model-input-and-anharmonic-validity-boundary | direct-original | printed172501-2 Eq1; printed172501-3 Eq2/3 and criticalparagraph; printed172501-4 anharmonicityparagraph | true |
+
+[[135nd-chiral-partner-resolved-evidence-map]]给本轮harmonic算符展开推导；仅说明截断阶次，不用内禀对角期望冒充跨spin B。当前完整signedRME/branch/normalizer/Cov及双partner g仍缺，既有D24P库存诊断保持compound-hypothesis范围，不判作者归一或paper错误。
+
+
+### Day24 checkpoint001 Agent self-audit triage
+
+P0: none identified（本次新增范围无未隔离技术hard P0）。P1：MU07-D24-001/002已对Eq3/图/非谐段回核；共同TAC曲线与实验支持分开，完整line/normalizer仍缺。后续论文/关键问答仍按具体claim回源，未触发用户人审事件。

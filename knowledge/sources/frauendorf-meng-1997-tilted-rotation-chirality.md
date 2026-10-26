@@ -126,3 +126,19 @@ Nuclear Physics A 617 (1997) 131-147。理论论文，共 17 页。
 | FM97-D24P-001 | Sec3.1把PAC的I=α+2n序列、planar TAC的相反signature组合成一条ΔI1，以及aplanar的两组intrinsic handedness分别组织；printed141–142明确finitePRM同I态仍有splitting，归因左右态之间tunnelling。因此普通signature序列、intrinsic meanfield双解和量子partner bands不是同一个“伙伴”定义，TAC的理想degeneracy不能直接认证实测两带精确简并。 | direct-model-symmetry-and-quantum-restoration-boundary | direct-original-and-bounded-inference | printed138–142 Sec.3.1, Figs.5–6 and finalPRM paragraph | true |
 
 与[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]] F01-D24P-001/002配合：C²=+1及两态toy仅检查逻辑，不代本文原PRM。未增加新实验、MχD/shape-coexistence卡内容或Day24课程信用；不恢复旧Qt代理CI/225.8偏振符号/机时排他认证。
+
+## Day24原件主线回读：模型范围与未见跃迁的条件
+
+本轮重新读期刊17页全部文本主线，fresh视觉检查PDF2/3/5–10/12–16，覆盖Figs1–9和Eqs3/6–12/16–19的关键条件；实际raw SHA与页首相符。图中文字/趋势作所述核验，未数字化曲线、未复现PRM producer。原FM97-1–6及human review保持；新增仅Codex self-audit、needs_review:true。Crossref本轮HTTP200核到相同DOI/题名/NPA617/131–147；元数据核验不增加物理证据。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| FM97-D24-001 | 模型在给定形状下耦合h11/2粒子/空穴和转子，Eq7取irrotational惯量，示例C=.25MeV、𝒥=40MeV⁻¹；TAC把I换为经典J并令〈j²〉≈〈j〉²。Fig8的25°<−γ<40°属于这套参数/约定的有利区间，不能作实核普适手征硬门；printed145要求对四极矩自洽的微观TAC来检查形状稳定。 | model-assumptions-and-transfer-boundary | direct-original | printed134 Eqs6–9; printed143–145 Sec3.3 and Fig8 | true |
+| FM97-D24-002 | Fig7在本模型aplanar区显示低多极带间强度抑制，作者明确纯TAC不能计算带间概率；134Pr实例中crossing附近两向links与band mixing相关，crossing以上未见links同时受弱布居限制，不能当有效强度上限。结论又明确高j粒子/芯/空穴三分量只是实现chiral TAC的一种方式，未规定所有候选必须严格具有该理想对齐。 | model-result-and-negative-evidence-boundary | direct-original | printed143 Fig7 and finalSec3.2; printed144–146 Sec3.3/conclusion | true |
+
+[[135nd-chiral-partner-resolved-evidence-map]]将本理论与MU07三qp实验/TAC-RPA分开；本文固定形状及未见links不替代目标核的形状分布、branch限或g观测。
+
+
+### Day24 checkpoint001 Agent self-audit triage
+
+P0: none identified（本次新增范围无未隔离技术hard P0）。P1：FM97-D24-001/002已对原参数、Fig7及弱布居字面回核；迁移/负证据边界保留，未核actualPRMproducer。后续论文/关键问答仍按具体claim回源，未触发用户人审事件。

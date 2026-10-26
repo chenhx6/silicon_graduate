@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.crossref.org/works/10.1016/S0375-9474(97)00004-3",
+    "http_status": 200,
+    "sha256": "5a7b2bf8d96bb51fe4ebc5c3118eeb88a26ae56e9eee954d0e5a224e0cc24ee6",
+    "doi": "10.1016/s0375-9474(97)00004-3",
+    "title": [
+      "Tilted rotation of triaxial nuclei"
+    ],
+    "journal": [
+      "Nuclear Physics A"
+    ],
+    "volume": "617",
+    "page": "131-147",
+    "published": {
+      "date-parts": [
+        [
+          1997,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "url": "https://api.crossref.org/works/10.1103/PhysRevLett.99.172501",
+    "http_status": 200,
+    "sha256": "9eedce7d66476032be74ae3d3a3ca518522ce807c9eaab44f7a316a8e4fd41b4",
+    "doi": "10.1103/physrevlett.99.172501",
+    "title": [
+      "From Chiral Vibration to Static Chirality in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi>Nd</mml:mi><mml:mprescripts/><mml:none/><mml:mn>135</mml:mn></mml:mmultiscripts></mml:math>"
+    ],
+    "journal": [
+      "Physical Review Letters"
+    ],
+    "volume": "99",
+    "page": null,
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          10,
+          23
+        ]
+      ]
+    }
+  }
+]

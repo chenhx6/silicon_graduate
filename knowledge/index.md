@@ -716,6 +716,8 @@ updated: 2026-10-23
 
 ## Projects
 
+- [[135nd-chiral-partner-resolved-evidence-map]] — Day24正式研究入口：135Nd逐伙伴实验、TAC/RPA与竞争解释矩阵；模型临界/等强近似和缺失g/normalizer分开，未授分。依据[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24-001与[[frauendorf-meng-1997-tilted-rotation-chirality]] FM97-D24-001。
+
 - [[a130-thesis-evidence-matrix]] - A≈130 博士论文管线的持久证据矩阵；保存可复用的观测、判据、解释边界、必要伴随观测和 source lineage。
 - [[a130-model-choice-card]] - Day 3 的 A≈130 高自旋模型选择卡；分开 mean-field/CSM/QTR/投影模型输出与实验 companion observables。
 - [[a130-shell-gap-orbital-observable]] - Day 2 的壳层闭合、形变壳隙、轨道组态与 A≈130 观测量桥接页。

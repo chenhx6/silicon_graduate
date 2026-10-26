@@ -14,6 +14,10 @@ tags: [thesis, deep-learning, spectroscopy, qtr, analysis-blueprint]
 
 # 133Ce学位论文：持续深入学习与实际分析蓝本
 
+## Agent active summary
+
+本项目继续作为133Ce实际分析蓝本，不能以source/译稿完成结项。Day24先完成手征主卡原件与逐伙伴证据图的高价值工作，再推进本页“有限all-detector门的接受度练习”；13/8clovers的actual run仍待ledger。新推断needs_review:true，不改变既有Band5用户审核、raw或模型actual输入边界。
+
 ## Research Question
 
 怎样把[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]]的实验分析、signature/Coriolis机制和QTR电磁检验真正转为可迁移的研究能力，并为用户尚未完成的分析提供步骤、输入及失败检查？用户明确要求像[[alwaleedi-2013-band-structures-131ce]]支撑其131Ce分析那样严格对待；这是整体知识的重要补充，不能以source建页/普通摄入或一次summary结束。本轮主体仍是Day23；本项目不另启课程卡、不自动替代主课学分。
@@ -262,3 +266,48 @@ Ce Band4 #17/#16本已在九轨道空间和原混合内；裸ε差不能预测qp
 可迁移步骤：先作run/detector/line manifest；608.3/608.7重叠门用原响应、独立互符合/反符合和第三门检验候选拓扑，缺峰用上限而非零；AD/RAD/DCO/Rac按实际角组/门/取向/效率处理，dipole不单独定E/M；branch先同母态/分母出口再消τ，完整BR/ICC和mean/half定义齐才求absoluteB。131Ce已有Li/Singh寿命与静态矩各按具体态/带接入，不说全核无τ或把DSAM/RDDS当充分判据。
 
 附属研究下一日优先选一个实际输入可得的问题：582 out/out分母身份；程序ε/λ单位和完整input卡；131Ce Band3零点及互链；高spin3qp/crossing逐态mapping；真实角响应/双峰；既有独立τ能否接到目标母态。主日课程优先，缺口不靠插值/补δ/τ/机时关闭。全部新增推断needs_review:true。
+
+
+## 有限all-detector门的接受度练习
+
+来源：[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-35、原PDF54/58/59/61；[[ding-2021-131ba-133ce-signature-splitting]] D21-D23-064-1，稿本PDF2。当前是Day24附属研究的有边界进展，不替代[[135nd-chiral-partner-resolved-evidence-map]]主卡。
+
+本轮回读thesis PDF54–61方法连续段，fresh视觉PDF59/61；定向读Ding稿本PDF2，原SHA匹配。thesis Ch4一般介绍为8clovers+LEPS，Ch5具体run为13clovers；Ding稿本与此前已核正式版为8clovers。同一束流/靶/2.8×10¹⁰双符合和5.4×10⁹高fold事件数只给强同源线索。已查入口为这些原件段、其source、AFRODITE实验页和既有crosswalk；它们未提供run ID/date、active detector mask、45°events、实际sorting geometry或逐门counts。没有声称搜索穷尽全库/设施档案，未反复请求旧失败端点，也未把一般阵列图视作actual mask。
+
+### 连续对象、近似与可计算量
+
+真实目标是门条件下的联合响应积分，而非只读一条single-γ角分布：
+
+$$N_{t,G}\propto\int d\Omega_t\,d\Omega_g\,
+A_t(\Omega_t,E_t)A_G(\Omega_g,E_g)\,
+W(\Omega_t,\Omega_g;\rho,\delta_t,\delta_g,\ldots).$$
+
+actual A包含效率、有限立体角、active mask、addback/self-pair veto与sorting。Eq4.6分子分母的G虽然名为同一“all”，仍须这些条件匹配，不能把有限求和直接替换成对4π均匀积分。
+
+为隔离这一点，本任务只定义**无取向母态、点角度、各探测器等权、各环作方位平均**的数学族；不作AFRODITE实测响应。设两光子开角核为
+
+$$W(\hat n_t\!\cdot\!\hat n_g)=1+\sum_{k=2,4}a_kP_k(\hat n_t\!\cdot\!\hat n_g),\qquad
+G_k={\sum_rw_rP_k(\cos\theta_r)\over\sum_rw_r}.$$
+
+Legendre addition theorem在方位平均后给
+
+$$\overline W_G(\theta_t)=1+\sum_{k=2,4}a_kP_k(\cos\theta_t)G_k.$$
+
+均匀4π gate对k>0有Gk=0；有限环一般不满足。两套原件的极角/数量分别作equalweight条件输入：
+
+|描述布局（未选择为actual）|G2|G4|
+|---|---|---|
+|4@90°+4@135°|−1/8=−.125|−1/64=−.015625|
+|1@45°+8@90°+4@135°|−11/52≈−.211538|31/416≈.074519|
+
+数量只在此练习充当权重；真实能量效率/晶体或clover合并、非均匀方位、coincidence排除等会改变响应。尤其单个45°探测器不等同一个方位均匀环；这是假定的方位平均控制，不掩饰实际缺口。
+
+### 两条计算路线、极限与误差
+
+`system/scripts/day24_finite_gate_acceptance.py`以exact Fraction给独立polar基准，以开角核直接做128/256方位节点积分，与addition-theorem结果比较；还检查全球Gauss积分的rank0归一和rank2/4消去、权重整体缩放/顺序、偶rank前后角镜像。32个有限数学控制通过，双路线差的检查界2×10⁻¹⁵只限舍入/此多项式求积，不是实验系统误差。
+
+为展示残余项可影响条件比，另选positive kernel a2=.2、a4=.1（W≥.7），得到synthetic W135/W90分别约.982677和.963326；均匀4π gate为1。这些系数没有绑定真实cascade，数值**不是实测/理论预测的R_AD、DCO或Rac**，不能和1.3/.8或1.27/.74做拟合或指认修正。零关联a2=a4=0时响应退回常数；有orientation的实际反应需更完整张量响应，而非直接套本无取向例。
+
+### 知识影响与下一个可得输入
+
+`limits`的是将“all-detectors”升级成任意有限阵列的精确门无关定理；保留作者实验校准及其经验适用范围。此练习不能裁定论文错误、选择8还是13、给共同response likelihood或为未测线分配δ。若actual ledger可得，优先核run/active mask/45°事件及两种sorting用的同门已知参考线，再纳入有限立体角/效率/取向和Cov。没有该输入时继续可解析的模型/节点问题，不重复空缺mask检索。582 out/out分母、ε/λ零点、signed EM和高spin迁移缺口全部保持；817.7不变成观测线。

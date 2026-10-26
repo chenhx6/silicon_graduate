@@ -209,3 +209,8 @@ S被破后不能把其期待值当精确量子数，源模型选择关系也不�
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-018给同H/EM矩阵不变的两种family名称关联。E2 I→I−2只连同奇偶自旋链，不能单独固定even与odd链如何组成ΔI1 family；M1和实际energy/连接则可提供另一个约束，其是否已用于赋名必须记录。
 
 该示例响应[[koike-2004-chiral-bands-selection-rules]] KOIKE04-D23-003的E2组织标签，不能将同一E2二次计票或把名称重排当新的物理配置。[[signature-tip-shears-discrimination-contract]]保source/calibration/holdout区别，Day24仍不计卡，新增needs_review:true。
+
+
+## Day24正式研究入口：伙伴分辨与模型有效域
+
+[[135nd-chiral-partner-resolved-evidence-map]]把已有预习与本轮原件回读接为一张实验/TAC-RPA/推断矩阵：保留135Nd实验正支持、拆开谐振共同带内曲线与独立观测、保留近临界非谐及counter-model输入边界。来源为[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24-001/002与[[frauendorf-meng-1997-tilted-rotation-chirality]] FM97-D24-001/002；新综合needs_review:true。Day23预习身份保持，课程信用仍按正式runner门。

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "kind": "checkpoint-validation-not-card-credit",
+  "observed_at": "2026-10-26T18:29:09.285030+08:00",
+  "checks": {
+    "initial_lint_exit": 1,
+    "initial_lint_errors": 5,
+    "resolved": "new project schema headings and index entry",
+    "final_lint_exit": 0,
+    "final_lint_summary": "SUMMARY pages=721 wikilinks=9625 hashes=352 errors=0 warnings=228 info=4680",
+    "boundary_exit": 0,
+    "git_diff_check_exit": 0,
+    "runner_report_valid": true,
+    "runner_writeback_valid": true,
+    "runner_curriculum_valid": true,
+    "finite_gate_exit": 0,
+    "finite_gate_controls": 32,
+    "precommit_eol_exit": 1,
+    "precommit_eol_classification": "6 task-owned substantive existing knowledge files; 0 unsafe/mixed; new project untracked",
+    "warnings": "228 inherited warnings; needs_review informational flags retained; no missing locator/kind",
+    "protected_unchanged": {
+      "PLAN.md": true,
+      "raw/zotero/wiki-inbox.bib": true
+    }
+  },
+  "completed_day_indices": [],
+  "partial_day_indices": [
+    24
+  ]
+}

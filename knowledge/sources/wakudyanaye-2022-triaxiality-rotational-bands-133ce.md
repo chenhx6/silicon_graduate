@@ -79,6 +79,7 @@ Covered：两实验来源/实际装置、Band1–4符合逻辑、AD与DCO/RAD区
 | WK22-32 | 固定H/态/E2/能量，仅整个M1算符乘共同正η时δ除η、rM1乘η²、rE2不变；打印表中央值所需逐线η不同只作条件诊断，不是g拟合/CI/原模型排除。模型mixed光子yield会变，实验counts不变；单改gs也不等同整体η。 | task-derived-operator-scale-control | conditional-mathematics-not-model-replay | PDF48 Eq3.22–3.25; PDF111 Tables6.9–6.10; PDF112 Table6.11 | true |
 | WK22-33 | Band4的#17/#16轨道激发替代须在同H/算符/空间下找到能量和全连接匹配的本征序列；两轨道已在原九轨道混合内，仅换标签无新预测。3qp另增空间/blocking/残余力，低832keV可行性未知，不与TiP自动等可信；真实gK、signedδ预测当前缺输入，保持unknown。 | task-configuration-design | source-grounded-candidate-not-fitted-model | PDF99 Table6.6; PDF104 Table6.8; PDF107 §6.3.3 | true |
 | WK22-34 | 与AW13对照时Band3不可按同号合并：本论文Band3为1/2+ground，Band2的13/2+1459.9与Band3同spin1445.8相差14.1keV，412.4/767.7跨带links可定位；不等于已测ωc/混合矩阵元。 | source-identity-and-analysis-boundary | direct-original-and-explicit-central-difference | PDF69 Table5.3; PDF71 Table5.4; AW13 printed82 §5.2.2 Band3 (PDF86) | true |
+| WK22-35 | Eq4.6把135°/90°目标线都用all-detectors门，正文说R_AD不依赖gate multipolarity并给约1.3/0.8；它是本文方法/经验校准表述，不单由“all”一词推出任意有限acceptance的精确4π消去。在声明equalweight point-ring条件下，13布局的rank2/4 gate acceptance moments为−11/52、31/416；Ding8布局为−1/8、−1/64，均非零。此数学练习不认定actual geometry、不预测真实R_AD或重拟δ。 | literal-method-and-task-acceptance-boundary | direct-original-plus-declared-mathematical-exercise | PDF59 Eq4.6 andfollowingparagraph; PDF61 §5.2.1; DingmanuscriptPDF2 §II.A | true |
 
 ## Experimental or Theoretical Setup
 
@@ -105,3 +106,8 @@ Ref22 [[ding-2021-131ba-133ce-signature-splitting]]与本论文正宇称工作�
 Ref62已取得并读[[ragnarsson-semmes-1988-particle-rotor-moments]] RS88-02–10：stretched/physical坐标、BCS/core-H因子、coreR基变换及历史参数各有合同；1988 gs=.7不能覆盖本论文负宇称.6。程序实际版本/input仍缺。
 
 正文Ch1–7和前置实质段落的逐段reader目前齐备；目录/参考未逐条译/独立源核验。可用输出入口outputs/degree-dissertation/wakudyanaye-2022-133ce-reader/paper.md。它服务于深入学习，不是本source全部科学结论已闭合的认证。
+
+
+### Day24 checkpoint001 Agent self-audit triage
+
+P0: none identified（本次新增范围无未隔离技术hard P0）。P1：WK22-35对PDF59/61原字面回核；接受度数学的假设/actualmask缺口保存于133ce-thesis-analysis-blueprint，非实测response。后续论文/关键问答仍按具体claim回源，未触发用户人审事件。

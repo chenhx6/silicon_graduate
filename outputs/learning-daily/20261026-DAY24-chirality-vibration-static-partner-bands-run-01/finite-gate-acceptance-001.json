@@ -1,0 +1,230 @@
+{
+  "status": "conditional-mathematical-exercise",
+  "sources": [
+    {
+      "source": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+      "raw": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+      "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+      "locator": "PDF61 §5.2.1; PDF59 Eq4.6"
+    },
+    {
+      "source": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+      "raw": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+      "sha256": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+      "locator": "manuscript PDF2 §II.A"
+    }
+  ],
+  "dimensionless": true,
+  "actual_run_geometry_selected": false,
+  "assumptions": [
+    "equal detector weights independent of energy",
+    "point detector polar angles; each ring azimuth averaged",
+    "unoriented initial ensemble with W=1+0.2P2(cos opening)+0.1P4(cos opening)",
+    "coefficients are task-chosen positive kernel, not an assigned physical cascade"
+  ],
+  "layouts": {
+    "published_8_description": {
+      "polar_moments": [
+        -0.12500000000000006,
+        -0.015625
+      ],
+      "polar_moments_exact": [
+        "-1/8",
+        "-1/64"
+      ],
+      "synthetic_kernel_values": [
+        {
+          "theta_degrees": 0.0,
+          "conditional_kernel_integral": 0.9734375000000001
+        },
+        {
+          "theta_degrees": 45.0,
+          "conditional_kernel_integral": 0.9943847656249999
+        },
+        {
+          "theta_degrees": 90.0,
+          "conditional_kernel_integral": 1.0119140624999998
+        },
+        {
+          "theta_degrees": 135.0,
+          "conditional_kernel_integral": 0.9943847656249999
+        },
+        {
+          "theta_degrees": 180.0,
+          "conditional_kernel_integral": 0.9734375000000001
+        }
+      ],
+      "synthetic_kernel_ratio_135_over_90": 0.9826770893649875
+    },
+    "thesis_13_description": {
+      "polar_moments": [
+        -0.21153846153846156,
+        0.07451923076923077
+      ],
+      "polar_moments_exact": [
+        "-11/52",
+        "31/416"
+      ],
+      "synthetic_kernel_values": [
+        {
+          "theta_degrees": 0.0,
+          "conditional_kernel_integral": 0.9651442307692307
+        },
+        {
+          "theta_degrees": 45.0,
+          "conditional_kernel_integral": 0.9863957331730767
+        },
+        {
+          "theta_degrees": 90.0,
+          "conditional_kernel_integral": 1.0239483173076922
+        },
+        {
+          "theta_degrees": 135.0,
+          "conditional_kernel_integral": 0.9863957331730767
+        },
+        {
+          "theta_degrees": 180.0,
+          "conditional_kernel_integral": 0.9651442307692307
+        }
+      ],
+      "synthetic_kernel_ratio_135_over_90": 0.9633257035537165
+    }
+  },
+  "controls": [
+    {
+      "name": "published_8_description_exact_polar_moments",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_weight_scale_invariance",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_order_invariance",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_even_rank_mirror",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_addition_theorem_0",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_azimuth_convergence_0",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_addition_theorem_45",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_azimuth_convergence_45",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_addition_theorem_90",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_azimuth_convergence_90",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_addition_theorem_135",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_azimuth_convergence_135",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_addition_theorem_180",
+      "passed": true
+    },
+    {
+      "name": "published_8_description_azimuth_convergence_180",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_exact_polar_moments",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_weight_scale_invariance",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_order_invariance",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_even_rank_mirror",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_addition_theorem_0",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_azimuth_convergence_0",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_addition_theorem_45",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_azimuth_convergence_45",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_addition_theorem_90",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_azimuth_convergence_90",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_addition_theorem_135",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_azimuth_convergence_135",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_addition_theorem_180",
+      "passed": true
+    },
+    {
+      "name": "thesis_13_description_azimuth_convergence_180",
+      "passed": true
+    },
+    {
+      "name": "full_sphere_P2_P4_vanish",
+      "passed": true
+    },
+    {
+      "name": "full_sphere_rank0_normalization",
+      "passed": true
+    },
+    {
+      "name": "synthetic_kernel_positive_lower_bound",
+      "passed": true
+    },
+    {
+      "name": "finite_moments_are_not_full_sphere",
+      "passed": true
+    }
+  ],
+  "all_controls_pass": true,
+  "limits": [
+    "No real active mask, azimuths, finite solid angle, efficiency, self-pair veto, addback or sorting geometry.",
+    "No reaction alignment or real gate-spin/multipole/feeding response is fitted.",
+    "Ratios are not measured or predicted experimental RAD/DCO/Rac values; no delta or beamtime is derived.",
+    "Nonzero moments disprove automatic full-sphere cancellation in this declared family, not the empirical calibration of the paper."
+  ]
+}

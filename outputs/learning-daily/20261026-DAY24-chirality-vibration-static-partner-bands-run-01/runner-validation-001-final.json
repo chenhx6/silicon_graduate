@@ -1,0 +1,40 @@
+{
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "knowledge_writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md",
+      "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+      "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "knowledge/concepts/nuclear-chirality.md",
+      "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+      "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+      "knowledge/index.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/nuclear-chirality.md",
+      "knowledge/index.md",
+      "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+      "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md",
+      "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+      "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "curriculum": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      24
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 24,
+    "error": null
+  }
+}
