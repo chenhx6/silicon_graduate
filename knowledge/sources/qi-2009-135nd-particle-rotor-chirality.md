@@ -243,3 +243,14 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 | ZH07-D24P-015 | 同一S下coreE2为odd，M1的jp+jn分量even、jp−jn分量odd，故允许相应sf si=±的modelRME；允许不保证非零。源采用M1 .7jp−.6jn可分.05(jp+jn)+.65(jp−jn)，不同强弱通道及部分E2近零由特殊条件/标签解释。七数值门核H commutator≤2.1e−14MeV、tensorcovariance≤5e−15、forbiddenamplitude≤1.4e−12，不能转为实测禁戒或统一δ/W.u.判门。 | derived-model-selection-and-scope | source-operator-plus-task-symmetry-and-numerics | sourceZH07v1Eq15/18; task input-contract047; fixedsourceg inputs | true |
 
 `system/scripts/day23_prm_exchange_symmetry.py`对完整product态作小矩阵旋转/交换，不在RMS箭头上猜phase；核D2映射、S²、H与RME作用。源p/n交换是理想模型操作，真实Coulomb/轨道/配对/形变或EM项未必保它。改变γ、MoI比、粒子/空穴谱、配对或组态空间可破选择关系；它不覆盖实际Pr/Au或其它核支持/反证。[[signature-partner-bands]]与[[nuclear-chirality]]保操作分类，[[signature-tip-shears-discrimination-contract]]保适用条件，新增needs_review:true。
+
+## Day23桥接Day24无学分预习：惯量单参数破缺检验
+
+本节固定源variant的γ/hsp/EM与所有其它参数，只把惯量改为J1=30、J2=7.5(1+ε)、J3=7.5(1−ε)。这是任务ablation，已经离开源γ30 irrotational惯量等式，不声称原作者改参数或实验config-only比较。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZH07-D24P-016 | 对固定Ii14→If12的coreE2，ε=0及±.001/±.003/±.01逐点求H，用对ε0低6态的最大overlap一一匹配跟踪；最低两态retained overlap均≥.99863。S满足S H(ε)=H(−ε) S，±ε的匹配谱/强度相合至1.5e−14MeV/4.6e−15e²b²；非零ε时S期待值不再作为精确量子数。 | controlled-inertia-only-symmetry-ablation | declared-H-operator-and-numerical-model | task input-contract048; specialS asZH07-D24P-014/015 | true |
+| ZH07-D24P-017 | 原S禁戒的modelE2 ordinal0→0通道在ε0 B≈数值0，ε.001/.003/.01给约1.6496e−7/1.4849e−6/1.6533e−5e²b²；B/ε²由.164960到.164990再.165334，smallε前两点变化约.0183%。十门过，只说明该H/算符的特殊零依赖惯量对称性，不给实际核线强度、排他性或统一δ/W.u.门；改H不能充作只改assignment的B槽。 | model-selection-rule-stability-boundary | controlled-ablation-not-experiment | task prm-symmetry-breaking048 Ii14If12 B00; sourcefixedoperators asZH07-D24P-011 | true |
+
+`system/scripts/day23_prm_symmetry_breaking.py`保原code/hash，不改变任何实测count/level；与不同source/核实验无identity关联。状态跟踪依据overlap而非盲用能量ordinal，并记录实际indices；允许强度与ε符号映射不作为实验coverage/CI。[[signature-partner-bands]]、[[nuclear-chirality]]和[[signature-tip-shears-discrimination-contract]]保model条件、量子数与原data分层；newneeds_review:true，Day24继续无学分。

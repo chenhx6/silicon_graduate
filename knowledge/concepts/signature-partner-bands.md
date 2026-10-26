@@ -83,3 +83,9 @@ pseudospin是另一类近似intrinsic对称，不能由Rzπ或相同α推得；�
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-014/015给特殊无配对p-hole H的一种unitary S：p/n模型标签交换加body四分之一圈。即使S²=1、有±本征标签，它也不是本页π转动signature，更不是pseudospin或反幺正手征C；不能因都给“两支”便把这些量子数互换。
 
 该S的EM选择关系只在所列等j/相反谱/γ30/MoI条件与算符截断下成立，源实际M1还混有S-even与odd两分量。它不提供所有SP/wobbling/TiP/MR/AMR的δ或W.u.硬门，不从两个S扇区必推出简并。具体逐线强度、响应与configuration仍分别检验；新增needs_review:true，Day24仅已有无学分预习，不新增卡信用。
+
+## Day23：破缺模型选择关系不改写实测旋称
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-016/017在固定其它参数/算符时只令J2≠J3，原额外S的E2零被打开。它检验的是047理想模型unitaryS的适用条件，未改变真实signature定义，也没有给Pr/Au/Lu等实际转动带新归属或δ/W.u.门。
+
+由于该ablation明确改变H，不能冒作本卡“只改configuration assignment且计数/能级冻结”的替代解释。B槽仍要预先固定H/算符与实际数据，再检未定标预测；形式可写/某模型零可破不赋不同解释同等可信。新增needs_review:true。

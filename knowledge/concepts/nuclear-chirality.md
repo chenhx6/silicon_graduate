@@ -191,3 +191,9 @@ full-space平方范数给RMS而非带符号平均矢量，低gap/RMS相近也不
 [[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-014/015的S是特殊H的交换/旋转unitary对称，物理D2扇区内S²=1；它与antiunitaryC的操作类型、以及Kramers T²保护分别处理，不能只看平方或±标签。S分扇区不强迫谱简并，也不单独认证左右手构型。
 
 S-even/odd的modelEM零与强弱关系有明确γ/惯量/谱/配对/算符条件。[[signature-partner-bands]]和[[signature-tip-shears-discrimination-contract]]承接分类与迁移边界，原Pr/Au及其它核正支持链不由此一概否决。新增needs_review:true，Day24仍不授分。
+
+## Day23内的Day24无学分预习：特殊对称性与量子态连续跟踪
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-016/017给额外S的受控惯量破缺。以overlap连续匹配而非能量排序定义同一个模型态，±ε由S关联，原forbiddenE2随smallε²打开；该结果不提供实际核隧穿率、静态手征分数或实验禁戒显著性。
+
+S被破后不能把其期待值当精确量子数，源模型选择关系也不能升级为普遍fingerprint。[[signature-partner-bands]]和[[signature-tip-shears-discrimination-contract]]区分这个改H实验与configuration-only解释；Day24仍无学分，新needs_review:true。

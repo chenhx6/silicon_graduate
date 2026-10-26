@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-26T00:15:14.358177+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "J2/J3only微扰十门，低态overlap≥.99863，原model零按ε²打开/±ε对称，不当config-only",
+  "next_route": "实际Koike2004selectionrule primary，核假设/操作定义与本任务S的关系，不按title推公式",
+  "missing_inputs": [
+    "actual nuclear operator/H domain and complete dataresponse",
+    "original paired/multiqp producer and state mapping",
+    "primary rule assumptions until bodyread"
+  ],
+  "Day25_opened": false
+}

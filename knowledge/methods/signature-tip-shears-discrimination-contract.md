@@ -687,3 +687,11 @@ $$f_+^2+(u_Av_B-v_Au_B)^2=1,qquad f_-^2+(u_Av_B+v_Au_B)^2=1.$$
 CoreE2在S下odd；M1按源系数分成.05(jp+jn) even与.65(jp−jn) odd。若modelstates带sf、si，张量parityη只允许sf si=η，但允许项还可能因其它原因消失。由此可解释046矩阵随energyordinal排序改变dominant channel以及特殊E2近零，不能把energyordinal、S标签和实测band/configuration视作同一量。
 
 [[signature-partner-bands]]的signature是另一个π转动，S还含p/n交换与π/2，不因有±就等同；[[nuclear-chirality]]的C是antiunitary，亦不与此S互换。S²1不保护能量简并，模型交换也不是对真实proton/neutron的实验转化。改变sourceH的γ、MoI、配对/轨道或operator会改变这些选择关系，因此不恢复统一δ/W.u.硬门、不抹F14冻结j仍有M1，也不判Pr/Au两个root必等深或所有支持案例不成立。新增needs_review:true，无新measuredδ/g/B/Q/τ/CI/机时。
+
+## Day23桥接Day24预习：用受控破缺明确选择关系的条件
+
+[[qi-2009-135nd-particle-rotor-chirality]] ZH07-D24P-016/017固定044的hsp、γ、sourceEM/Q0/g和所有其它输入，只设J2/J3=7.5(1±ε)，ε0/±.001/±.003/±.01。它是任务受控H变体，非源irrotational输入重现，更不是B槽只换configuration的方案。
+
+以最大overlap匹配ε0的低6态，低两态overlap至少.99863；S将Hε映到H−ε，匹配谱和模型B对ε符号为偶。原I14→12的E2 forbidden00在smallε打开且B≈.165ε²e²b²；十门过，比例仅该model/源采用Q0的局部描述，未作实验统计fit或新核素测量。
+
+该检验给出“特殊选择规则为何不能作普遍硬门”的具体控制，但它不否定所有模型支持或恢复任何最终Pr/Au归属。变H与改assignment必须分别记录；后者仍需同一数据/H/operator与未定标量预测，不能用此ablation偷换。[[nuclear-chirality]]和[[signature-partner-bands]]保量子数分类，newneeds_review:true，无actualδ/g/Q/τ/CI、设施率或机时。

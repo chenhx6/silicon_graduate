@@ -1,0 +1,493 @@
+{
+  "scope": "controlled inertia-only extraSbreaking ablation ofdeclaredmodel, not sourceirrotationalinput refit/configuration-only experiment oractualnuclearprediction",
+  "formal_day_index": 23,
+  "only_uncredited_preview": 24,
+  "conditions": {
+    "recorded_at": "2026-10-26T00:09:14.849152+00:00",
+    "scope": "controlled inertia-only extraSbreaking ablation ofdeclaredmodel, not sourceirrotationalinput refit/configuration-only experiment oractualnuclearprediction",
+    "formalday": 23,
+    "onlyuncreditedpreview": 24,
+    "H_contract": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/input-contract-044.json",
+    "H_contract_sha256": "77264c9b7471002e79960d96f03c2892e1b9ab05e5706cc57d9d6f62f2066c46",
+    "frozen_code_hashes": {
+      "system/scripts/day23_unpaired_ph_prm.py": "87e9151616b4a33ec51c89722296aa0b6801fe59a049ff272ce32e224f7d8cc3",
+      "system/scripts/day23_prm_em_tensors.py": "22a66b25d6619a754103fe9f7c274d9c587a0ca9922669a72dfb631986e085e7",
+      "system/scripts/day23_prm_exchange_symmetry.py": "52b1caffe41859523a6fbaaa1d72cdba20ad7f393c1060f4ab632657612bc56a"
+    },
+    "Ii": 14,
+    "If": 12,
+    "epsilon": [
+      0.0,
+      -0.01,
+      -0.003,
+      -0.001,
+      0.001,
+      0.003,
+      0.01
+    ],
+    "inertia": "J1=30,J2=7.5(1+eps),J3=7.5(1−eps),hbar²/MeV",
+    "fixed": "gamma30,hsp,C.3,j11/2p+hole,coreE2operator/Q0=3.5,gadopted,Hintr andexperimentaldata unchanged; onlyJ2/3 varied",
+    "tracking": "match sixlowstates toeps0eigenvectors bymaxoverlapassignment; keep actualoverlap/reordering, notenergyordinalblindconfigurationlabels",
+    "expectation": "S mapsH(eps)toH(−eps),spectraandstrengthseveneps forcontinuouslymatchednondegeneratestates; exactSlabelsbrokenfornonzeroeps",
+    "checks": [
+      "basis/H/eigenresidual",
+      "randomphysicalstate S H(eps)=H(−eps) S",
+      "one-to-oneoverlapassignment/minretainedoverlap reported",
+      "eps± energies/B agreement",
+      "forbiddenE2at0 numericalzero andactivation tracked atnonzero",
+      "small epsB/eps² stability asdescriptiveasymptotic notstatisticalfit"
+    ],
+    "prohibited": [
+      "Sbreaking test provesactualnuclearforbiddenline",
+      "stateassignmentfromenergyindexequivalentconfiguration",
+      "Hchangepresentedasconfiguration-onlyB",
+      "ΔJinertiareinterpretedactualfacilityorτ/time/CI",
+      "fitnewphysicalg/Q/delta/B or experimentalcounts",
+      "newformalDay24credit/Day25 orrun114producer/rawmutation"
+    ]
+  },
+  "contract_sha256": "f7981af3bbe972fa1a3cbcaa54253b17e827af6d4aa43078cd500fc14609c172",
+  "implementation_sha256": "54f53ba4d2adb7108a08ad9719d740ee23cca7e09c3ecd98b758a8e5647472c5",
+  "rows": [
+    {
+      "epsilon": 0.0,
+      "inertias": [
+        30.0,
+        7.5,
+        7.5
+      ],
+      "initial_matched_energies_MeV": [
+        -2.657946754179543,
+        -2.6202880625538585
+      ],
+      "final_matched_energies_MeV": [
+        -3.479837501670661,
+        -3.3257552236333874
+      ],
+      "initial_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "final_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "initial_retained_overlaps": [
+        1.0000000000000027,
+        1.000000000000004
+      ],
+      "final_retained_overlaps": [
+        1.0000000000000022,
+        1.0000000000000044
+      ],
+      "initial_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -1.0000000000000018,
+        1.0000000000000018
+      ],
+      "final_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -1.0000000000000004,
+        1.0000000000000022
+      ],
+      "model_coreE2_B_e2b2_rows_final_columns_initial": [
+        [
+          7.898730868703175e-27,
+          0.14028978767126765
+        ],
+        [
+          0.1771712667359131,
+          1.0093367906937338e-26
+        ]
+      ],
+      "formerly_forbidden00_B_over_epsilon_squared": null
+    },
+    {
+      "epsilon": -0.01,
+      "inertias": [
+        30.0,
+        7.425,
+        7.575
+      ],
+      "initial_matched_energies_MeV": [
+        -2.6579310481728347,
+        -2.6202917118803764
+      ],
+      "final_matched_energies_MeV": [
+        -3.479834658124219,
+        -3.325717833401556
+      ],
+      "initial_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "final_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "initial_retained_overlaps": [
+        0.9988797000944947,
+        0.9986337218719493
+      ],
+      "final_retained_overlaps": [
+        0.9996106510018056,
+        0.9994182877300349
+      ],
+      "initial_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9977596520722178,
+        0.9972676312035204
+      ],
+      "final_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9992213573119428,
+        0.9988365886011903
+      ],
+      "model_coreE2_B_e2b2_rows_final_columns_initial": [
+        [
+          1.6533423872626122e-05,
+          0.14027217808843068
+        ],
+        [
+          0.17712989963618977,
+          4.0354275048244265e-05
+        ]
+      ],
+      "formerly_forbidden00_B_over_epsilon_squared": 0.1653342387262612
+    },
+    {
+      "epsilon": -0.003,
+      "inertias": [
+        30.0,
+        7.4775,
+        7.522499999999999
+      ],
+      "initial_matched_energies_MeV": [
+        -2.657945340317773,
+        -2.620288391838557
+      ],
+      "final_matched_energies_MeV": [
+        -3.479837245953065,
+        -3.3257518589045
+      ],
+      "initial_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "final_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "initial_retained_overlaps": [
+        0.9998991956654197,
+        0.9998770412068381
+      ],
+      "final_retained_overlaps": [
+        0.9999649500292598,
+        0.9999476306702388
+      ],
+      "initial_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9997983933699864,
+        0.9997540839324123
+      ],
+      "final_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9999299005066797,
+        0.9998952614469487
+      ],
+      "model_coreE2_B_e2b2_rows_final_columns_initial": [
+        [
+          1.4849126326506385e-06,
+          0.14028820564147138
+        ],
+        [
+          0.17716754915995245,
+          3.626374665758507e-06
+        ]
+      ],
+      "formerly_forbidden00_B_over_epsilon_squared": 0.1649902925167376
+    },
+    {
+      "epsilon": -0.001,
+      "inertias": [
+        30.0,
+        7.4925,
+        7.507499999999999
+      ],
+      "initial_matched_energies_MeV": [
+        -2.657946597080638,
+        -2.620288099149289
+      ],
+      "final_matched_energies_MeV": [
+        -3.4798374732595625,
+        -3.325754849778463
+      ],
+      "initial_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "final_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "initial_retained_overlaps": [
+        0.9999887997397108,
+        0.9999863379728575
+      ],
+      "final_retained_overlaps": [
+        0.999996105475164,
+        0.9999941810368237
+      ],
+      "initial_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9999775995045896,
+        0.9999726759644572
+      ],
+      "final_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9999922109558605,
+        0.9999883620749568
+      ],
+      "model_coreE2_B_e2b2_rows_final_columns_initial": [
+        [
+          1.6496008370590172e-07,
+          0.14028961191781655
+        ],
+        [
+          0.1771708537252405,
+          4.0287673245641626e-07
+        ]
+      ],
+      "formerly_forbidden00_B_over_epsilon_squared": 0.16496008370590173
+    },
+    {
+      "epsilon": 0.001,
+      "inertias": [
+        30.0,
+        7.507499999999999,
+        7.4925
+      ],
+      "initial_matched_energies_MeV": [
+        -2.6579465970806524,
+        -2.620288099149292
+      ],
+      "final_matched_energies_MeV": [
+        -3.4798374732595625,
+        -3.3257548497784692
+      ],
+      "initial_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "final_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "initial_retained_overlaps": [
+        0.9999887997397097,
+        0.9999863379728549
+      ],
+      "final_retained_overlaps": [
+        0.9999961054751623,
+        0.9999941810368228
+      ],
+      "initial_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9999775995045931,
+        0.9999726759644585
+      ],
+      "final_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9999922109558597,
+        0.9999883620749569
+      ],
+      "model_coreE2_B_e2b2_rows_final_columns_initial": [
+        [
+          1.6496008365567566e-07,
+          0.14028961191781683
+        ],
+        [
+          0.17717085372524122,
+          4.0287673235305257e-07
+        ]
+      ],
+      "formerly_forbidden00_B_over_epsilon_squared": 0.16496008365567566
+    },
+    {
+      "epsilon": 0.003,
+      "inertias": [
+        30.0,
+        7.522499999999999,
+        7.4775
+      ],
+      "initial_matched_energies_MeV": [
+        -2.6579453403177635,
+        -2.6202883918385464
+      ],
+      "final_matched_energies_MeV": [
+        -3.4798372459530604,
+        -3.3257518589044945
+      ],
+      "initial_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "final_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "initial_retained_overlaps": [
+        0.9998991956653953,
+        0.999877041206813
+      ],
+      "final_retained_overlaps": [
+        0.9999649500292576,
+        0.9999476306702373
+      ],
+      "initial_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9997983933699573,
+        0.9997540839323831
+      ],
+      "final_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9999299005066753,
+        0.9998952614469474
+      ],
+      "model_coreE2_B_e2b2_rows_final_columns_initial": [
+        [
+          1.4849126332240728e-06,
+          0.14028820564146974
+        ],
+        [
+          0.17716754915994787,
+          3.626374666799545e-06
+        ]
+      ],
+      "formerly_forbidden00_B_over_epsilon_squared": 0.16499029258045253
+    },
+    {
+      "epsilon": 0.01,
+      "inertias": [
+        30.0,
+        7.575,
+        7.425
+      ],
+      "initial_matched_energies_MeV": [
+        -2.6579310481728293,
+        -2.6202917118803652
+      ],
+      "final_matched_energies_MeV": [
+        -3.47983465812422,
+        -3.325717833401555
+      ],
+      "initial_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "final_low6_matching_to_epsilon0_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "initial_retained_overlaps": [
+        0.9988797000944698,
+        0.9986337218719237
+      ],
+      "final_retained_overlaps": [
+        0.9996106510018058,
+        0.9994182877300396
+      ],
+      "initial_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9977596520722165,
+        0.9972676312035204
+      ],
+      "final_S_expectations_not_quantum_numbers_at_nonzero_eps": [
+        -0.9992213573119416,
+        0.998836588601192
+      ],
+      "model_coreE2_B_e2b2_rows_final_columns_initial": [
+        [
+          1.6533423872743128e-05,
+          0.1402721780884305
+        ],
+        [
+          0.17712989963618878,
+          4.035427504836372e-05
+        ]
+      ],
+      "formerly_forbidden00_B_over_epsilon_squared": 0.16533423872743128
+    }
+  ],
+  "controls": {
+    "frozen_H_operator_and_ablation_scope": true,
+    "all_D2_Hermitian_basis_checks": true,
+    "low_eigenvectors_residual": true,
+    "S_maps_epsilon_to_minus_epsilon_H": true,
+    "tracked_states_keep_large_reference_overlap": true,
+    "paired_epsilon_spectra_even": true,
+    "paired_epsilon_strengths_even": true,
+    "zero_epsilon_forbidden_channel_nearzero": true,
+    "nonzero_epsilon_forbidden_channel_activated": true,
+    "small_epsilon_quadratic_strength_scaling": true
+  },
+  "all_controls_pass": true,
+  "diagnostics": {
+    "eigen_residual_MeV": 1.7354713812739416e-11,
+    "S_parameter_mapping_error_MeV": 1.374551403022311e-14,
+    "plus_minus_energy_difference_MeV": 1.4210854715202004e-14,
+    "plus_minus_strength_difference_e2b2": 4.579669976578771e-15,
+    "minimum_retained_state_overlap": 0.9986337218719237,
+    "relative_B_over_eps2_change_0point001_to_0point003": 0.000183128694575041
+  },
+  "limitations": [
+    "Changing J2/J3 breaks the source irrotational gamma30 equality and is explicitly a task ablation, not configuration-only assignment or an experimental parameter fit.",
+    "S is not an exact quantum number at nonzero epsilon; reference overlap labels are model-state tracking, not measured bands.",
+    "Opening a model channel does not establish actual nuclear transition strengths or experimental non-observation significance.",
+    "No delta, lifetime, physical fitted g/Q, covariance, confidence, facility rate or beamtime."
+  ]
+}

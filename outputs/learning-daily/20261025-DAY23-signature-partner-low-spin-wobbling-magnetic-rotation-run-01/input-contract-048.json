@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-10-26T00:09:14.849152+00:00",
+  "scope": "controlled inertia-only extraSbreaking ablation ofdeclaredmodel, not sourceirrotationalinput refit/configuration-only experiment oractualnuclearprediction",
+  "formalday": 23,
+  "onlyuncreditedpreview": 24,
+  "H_contract": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/input-contract-044.json",
+  "H_contract_sha256": "77264c9b7471002e79960d96f03c2892e1b9ab05e5706cc57d9d6f62f2066c46",
+  "frozen_code_hashes": {
+    "system/scripts/day23_unpaired_ph_prm.py": "87e9151616b4a33ec51c89722296aa0b6801fe59a049ff272ce32e224f7d8cc3",
+    "system/scripts/day23_prm_em_tensors.py": "22a66b25d6619a754103fe9f7c274d9c587a0ca9922669a72dfb631986e085e7",
+    "system/scripts/day23_prm_exchange_symmetry.py": "52b1caffe41859523a6fbaaa1d72cdba20ad7f393c1060f4ab632657612bc56a"
+  },
+  "Ii": 14,
+  "If": 12,
+  "epsilon": [
+    0.0,
+    -0.01,
+    -0.003,
+    -0.001,
+    0.001,
+    0.003,
+    0.01
+  ],
+  "inertia": "J1=30,J2=7.5(1+eps),J3=7.5(1−eps),hbar²/MeV",
+  "fixed": "gamma30,hsp,C.3,j11/2p+hole,coreE2operator/Q0=3.5,gadopted,Hintr andexperimentaldata unchanged; onlyJ2/3 varied",
+  "tracking": "match sixlowstates toeps0eigenvectors bymaxoverlapassignment; keep actualoverlap/reordering, notenergyordinalblindconfigurationlabels",
+  "expectation": "S mapsH(eps)toH(−eps),spectraandstrengthseveneps forcontinuouslymatchednondegeneratestates; exactSlabelsbrokenfornonzeroeps",
+  "checks": [
+    "basis/H/eigenresidual",
+    "randomphysicalstate S H(eps)=H(−eps) S",
+    "one-to-oneoverlapassignment/minretainedoverlap reported",
+    "eps± energies/B agreement",
+    "forbiddenE2at0 numericalzero andactivation tracked atnonzero",
+    "small epsB/eps² stability asdescriptiveasymptotic notstatisticalfit"
+  ],
+  "prohibited": [
+    "Sbreaking test provesactualnuclearforbiddenline",
+    "stateassignmentfromenergyindexequivalentconfiguration",
+    "Hchangepresentedasconfiguration-onlyB",
+    "ΔJinertiareinterpretedactualfacilityorτ/time/CI",
+    "fitnewphysicalg/Q/delta/B or experimentalcounts",
+    "newformalDay24credit/Day25 orrun114producer/rawmutation"
+  ]
+}
