@@ -5,7 +5,7 @@ created: 2026-10-25
 updated: 2026-10-26
 ---
 
-# Day23：旋称伙伴、低自旋wobbling与磁转动（持续学习，133Ce重要补充）
+# Day23：旋称伙伴、低自旋wobbling与磁转动（正式交付；133Ce重要补充）
 
 ## Run state
 
@@ -13,28 +13,34 @@ updated: 2026-10-26
 - day_index: 23
 - session_id: 01a172fd-cbfb-7a13-b715-cfa0c479e08e
 - schedule_id: wiki-daily-learning
-- status: active-checkpoint
-- completed_day_indices: []
-- partial_day_indices: [23, 24]
+- status: closeout-deliverables-complete (formal result in final-session-receipt-23.json)
+- completed_day_indices: [23]
+- partial_day_indices: [24]
 - original_deadline: 2026-10-26T15:00:00+08:00
 - effective_research_deadline: 2026-10-26T17:00:00+08:00
 - deadline_override_receipt: user-deadline-override-064.json
 - closeout_window: 2026-10-26 17:00–18:00 Asia/Shanghai（本轮明确用户授权延长；原15:00记录保留）
-- checked_at: 2026-10-26T15:01:37.045543+08:00
+- checked_at: 2026-10-26T17:21:12.119722+08:00
 
-当前继续研究；用户最新明确授权必要时约17:00开始收束，已采用该延长并保留原15:00记录，未授Day23学分。checkpoint017起仅打开Day24无学分预习，课程next仍23、不开Day25；本run正式信用只限Day23。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session；仅最新明确用户授权形成effective17:00，未静默改原始15:00字段。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
+研究已于明确授权effective17:00截止转收束；原runner已通过正式交付验收，单次信用见card-credit-23回执，原15:00历史保留。checkpoint017起Day24仅无学分预习；本次只完成Day23，课程next现24，不开Day25；本run正式信用只限Day23。原始身份取本run `events.jsonl` 的thread.started，与原生goal线程一致；截止取既有 `run.json`，未由准备prompt创建新session；仅最新明确用户授权形成effective17:00，未静默改原始15:00字段。可复制恢复命令：`codex resume 01a172fd-cbfb-7a13-b715-cfa0c479e08e -C /workspace/wiki -s danger-full-access -a never`。
 
 Day22四份回执交叉核对：final-session与card-credit均只授[22]，partial[23]、累计22、next23；run completed，task-publication标published，H3的18项命令退出码全0，postcommit reconciliation passed。该核验不重加学分。精确旧hash只见Day22任务回执。Farmer原PID2698持续运行，dry-run/status/ensure已执行，无重启；不把本轮用户续接当瞬时故障自动恢复事件。
 
-### Day 23 card progress audit（未完成授分）
+- Day 23 card audit: complete
+- closeout_event_id: `closeout`
 
-| matrix交付 | 本checkpoint状态 | 证据与下一缺口 |
+### Day 23 card completion audit
+
+| Day23 matrix deliverable | Evidence/artifact | status |
 |---|---|---|
-| 五机制区分 | in-progress | 暴露后回忆与Clark/Chiara原件对照已形成；保持非盲测及机制/分类分层 |
-| 两篇主线 | in-progress | Guo主文/SI与Lv主线/SI实际回读；剩余支持方定标/response深入核验 |
-| 支持—反证—依赖矩阵 | in-progress | canonical项目新表/图；需继续查外部Q与cross-campaign ledger |
-| 只改configuration | in-progress | 冻结D的替代设计、固定单j H的两mapping能量/E2/M1诊断；原多轨道producer与实际operator/response仍缺 |
-| 谱系图/可证伪问题 | in-progress | 已写图及问题框架；待伴随观测和真实输入进一步约束 |
+| 回忆五机制并区分pseudospin | [[signature-partner-bands]]、[[magnetic-rotation]]、[[antimagnetic-rotation]]及本报告primed回忆；非盲测分数 | complete |
+| 三anchor原件主线与实际缺口 | [[guo-2022-low-spin-wobbling-187au]] GU22-D23-001/002；[[lv-2022-evidence-against-wobbling-135pr]] L22-D23-001；[[signature-partner-bands]] Definition | complete |
+| 支持—反证—依赖矩阵 | [[low-spin-wobbling-controversies]] Day23谱系/矩阵；[[signature-tip-shears-discrimination-contract]] 同线向量/派生秩/定标/真实新增观测 | complete |
+| 冻结实测层的组态替代 | [[signature-tip-shears-discrimination-contract]] 冻结D与fixed-H mapping；[[133ce-thesis-analysis-blueprint]] WK22-33；run内configuration-reassignment-064 | complete |
+| 争议谱系图与可证伪问题 | [[low-spin-wobbling-controversies]] Mermaid谱系；[[187au-longitudinal-wobbling-controversy]] 定标/同门身份与holdout问题；真实response/ledger缺口保留 | complete |
+| 用户指定的重要学位论文补充 | [[133ce-thesis-analysis-blueprint]]及WK22-01–34；[[nobs-2017-spin-parity-102y-thesis]]；Ce正文逐段读本、模型/EM/BCS/投影、131/133分析迁移，长期课题未冒结项 | complete |
+
+本卡交付完成不等于争议终结或所有真实L4输入就绪。只申请Day23一张正式卡；Day24已有知识仅partial[24]，下一prompt为准备且含133Ce附属问题，不创建新session/Day25或给预习学分。
 
 ## Candidate pool and selection
 
@@ -3898,6 +3904,10 @@ revises：一处Au误差抄写；limits：主/SI、δ/强度和不同门的重�
 L1/L2实际原件/哈希/联网核验完成本checkpoint；L3证据图、依赖推导和可证伪设计active。L4真实实验共同response/Cov/计数与固定producer不齐，not-ready；本轮数值只为声明输入的代数控制。新claims均needs_review:true，无human-reviewed升级；课程及Day21/22既有学分不变。
 
 ## Verification and continuation
+
+最终同session原runner finalizer实际退出0、statuscompleted、deliverablespassed/studywindowclosed/closeoutontimetrue；课程22→23张/next23→24仅一次，本runcompleted[23]/partial[24]。51知识写回的原runner报告/原子writeback/逐卡门及boundary/lint/diff均过；105治理tests在064通过，最终文档修订不重复代码测试。原15:00与显式useroverride17:00、基线重构kind和真实one-shot queued/未声称delivery均留证。下一Day24准备prompt含133Ce重要附属问题，未创建Day24session。最终Git稳定指针main · Day23: complete learning card with deep133Ce supplement，实际hash/非force H3结果只看task-publication-receipt-23.json。
+
+已到用户授权effective17:00，停止新增研究，进入同session收束。closeout-local-checks/原runner最终门、正式回执和H3依次实际执行；以下checkpoint为过程历史，不覆盖本次最终状态。
 
 064最终验收：boundary/lint/diff、M1共同尺度、BCS/张量归一、Ding–thesis交叉、configuration控制及runner/clock/resolver回归实际退出均0；105项治理tests通过。独立代码审查发现one-shot取消回执绕过，已共用terminal guard修复、终态fake零入队；caller必须在existing两锁内构造/初始化/单次closeout。真实override/effective17与717页显式重构基线resolver只读通过，未执行提前queue/finalize或新session。历史原15字段/缺原baseline.json事实保留，回执明确reconstructed-entry-witness而非伪原runnerbaseline。lint0error/228warnings（含187 citation-key缺项和公开staging raw未归档等），不冒科学全认证。
 

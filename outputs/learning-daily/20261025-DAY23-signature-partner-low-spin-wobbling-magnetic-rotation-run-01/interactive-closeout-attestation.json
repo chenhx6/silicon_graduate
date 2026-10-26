@@ -1,0 +1,27 @@
+{
+  "status": "closeout-turn-completed",
+  "run_id": "2026-10-25-day-23-01",
+  "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+  "closeout_event_id": "closeout",
+  "hard_deadline": "2026-10-26T17:00:00+08:00",
+  "original_hard_deadline": "2026-10-26T15:00:00+08:00",
+  "deadline_override_sha256": "64b046d569cc2bc1143a8910a559cd244d839f90485cbe989b6ff9870a3c59be",
+  "closeout_at": "2026-10-26T17:21:22.371093+08:00",
+  "report_sha256": "3bbae50c64e271f11edf0dc841ac1fcae3b0e8db68e70936daebdf07e509de3c",
+  "window_missed": false,
+  "time_snapshot": {
+    "now_local": "2026-10-26T17:09:11.734007+08:00",
+    "hard_deadline": "2026-10-26T17:00:00+08:00",
+    "next_scheduled_start": "2026-10-26T16:00:00+08:00",
+    "minutes_to_deadline": -10,
+    "minutes_to_next_start": -70,
+    "minimum_current_block_minutes": 90,
+    "minimum_forward_card_block_minutes": 120,
+    "can_continue_current": false,
+    "can_complete_forward_card": false,
+    "decision": "closeout-only"
+  },
+  "scientific_scope": "Day23 deliverables complete; explicit actualinput/scientific unresolved boundaries retained",
+  "previous_report_sha256_before_documentary_reconciliation": "dfc67a87f07b64d3b9d40a26e41981f65d14a63692921558579f4e7a0343e321",
+  "documentary_recheck": "Actual same-session documentary reconciliation after successful finalizer; fresh report/writeback/card checks passed; no second state/credit mutation."
+}

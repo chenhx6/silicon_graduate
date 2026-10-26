@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "transition_id": "2026-10-25-day-23-01/formal-Day23",
+  "observed_at": "2026-10-26T17:16:37.335626+08:00",
+  "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+  "formal_completed": [
+    23
+  ],
+  "uncredited_preview": [
+    24
+  ],
+  "completed_day_count": 23,
+  "next_day_index": 24,
+  "before_state_receipt": "curriculum-state-before-closeout-23.json",
+  "no_double_credit_guard": "Original same-session runner applied only next23→24/count22→23. This receipt reconciliation changes no state. Day24 not credited; Day21/22 old credits unchanged.",
+  "applied_at": "2026-10-26T17:12:46.498511+08:00"
+}

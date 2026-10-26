@@ -1,0 +1,230 @@
+{
+  "observed_at": "2026-10-26T17:16:37.335626+08:00",
+  "run_id": "2026-10-25-day-23-01",
+  "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+  "status": "complete",
+  "scope": "Day23 course deliverables and technical gates; not experimental mode/whole-library certification or human review",
+  "deliverables": [
+    {
+      "role": "five_mechanisms",
+      "path": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+      "anchor": "暴露后回忆（primed，已见准备提示/继承页面，非盲测评分）：signature partner是同组态的旋称分支关系，不是pseudospin；wobbling要区分几何、局部harmonic声子与完整量子拓扑；TiP在相应QTR术语中是3D进动/重定向的模型解释；MR需粒子/空穴叶片几何及绝对M1随spin的证据；AMR的理想双剪刀横向磁矩相消需其对称条件，弱E2/无M1不是无条件唯一判据。基础校准见[[../../knowledge/concepts/signature-partner-bands|旋称伙伴]]、[[../../knowledge/concepts/magnetic-rotation|MR]]、[[../../knowledge/concepts/antimagnetic-rotation|AMR]]，本段未新认证这些页全部历史数值。",
+      "status": "complete"
+    },
+    {
+      "role": "signature_anchor",
+      "path": "knowledge/concepts/signature-partner-bands.md",
+      "anchor": "## Definition",
+      "status": "complete"
+    },
+    {
+      "role": "guo_anchor",
+      "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "anchor": "## Scope and Reading Depth",
+      "status": "complete"
+    },
+    {
+      "role": "lv_anchor",
+      "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "anchor": "## Scope and Reading Depth",
+      "status": "complete"
+    },
+    {
+      "role": "support_counter_dependency",
+      "path": "knowledge/projects/low-spin-wobbling-controversies.md",
+      "anchor": "| 证据节点 | 支持/反证与依赖 | 新增采集还是同源派生 | 可复核来源 |",
+      "status": "complete"
+    },
+    {
+      "role": "same_line_observable_contract",
+      "path": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "anchor": "## Day23 同线观测向量与响应合同",
+      "status": "complete"
+    },
+    {
+      "role": "derived_dependence",
+      "path": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "anchor": "### 同源派生强度的秩约束",
+      "status": "complete"
+    },
+    {
+      "role": "fixed_counts_configuration",
+      "path": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "anchor": "## Day23 保持计数的组态替代解释与留出检验",
+      "status": "complete"
+    },
+    {
+      "role": "published_configuration_swap",
+      "path": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "anchor": "## Day23 已发表的计数不变组态交换：110In的对照练习",
+      "status": "complete"
+    },
+    {
+      "role": "lineage_graph",
+      "path": "knowledge/projects/low-spin-wobbling-controversies.md",
+      "anchor": "```mermaid",
+      "status": "complete"
+    },
+    {
+      "role": "calibration_lineage",
+      "path": "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+      "anchor": "## Day23：定标谱系图补入实际原件与动态形状边界",
+      "status": "complete"
+    },
+    {
+      "role": "falsifiable_question",
+      "path": "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+      "anchor": "只更换文字标签不会产生可证伪性。必须固定两套候选Hamiltonian、形变/惯量/配对、算符/effective charges/g及模型误差，再计算未参与调参的量。可证伪问题是：当已用于定标的能量、参考B(E2)与所选分支保持固定时，两种组态归属对同一母态完整退激向量与绝对E2/M1尺度，能否给出在共同响应/不确定度下可分离的预测？",
+      "status": "complete"
+    }
+  ],
+  "report_audit_heading": "Day 23 card completion audit",
+  "original_runner_checks": {
+    "preflight": {
+      "exit": 0,
+      "stdout_tail": "{\"schema_version\":1,\"ok\":true,\"root\":\"/workspace/wiki\",\"expected_profile\":\"\",\"actual_profile\":null,\"warnings\":[],\"write_probes\":[{\"path\":\"/workspace/wiki\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null},{\"path\":\"/workspace/wiki/.git\",\"created\":true,\"read_back\":true,\"deleted\":true,\"error\":null}],\"error\":null,\"path_boundary\":{\"schema_version\":1,\"root\":\"/workspace/wiki\",\"ok\":true,\"errors\":[],\"warnings\":[],\"checks\":{\"required_dirs\":{\"expected\":[\"raw\",\"knowledge\",\"outputs\",\"system\",\"tools\",\"tmp\"],\"missing\":[]},\"forbidden_dirs\":{\"expected_absent\":[\"docs/plans\"],\"present\":[]},\"moved_knowledge\":{\"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\":{\"old_exists\":false,\"canonical\":\"knowledge/projects/a130-thesis-evidence-matrix.md\",\"canonical_exists\":true}},\"outputs\":{\"allowed_roots\":[\"degree-dissertation\",\"high-spin\",\"l3\",\"l4\",\"learning-daily\",\"learning-milestones\",\"learning-weekly\",\"literature-acquisition\",\"paper-cards\",\"plans\",\"self-tests\"],\"unknown_roots\":[],\"knowledge_page_types_in_outputs\":[]},\"qmd\":{\"checked\":true,\"available\":true,\"command\":[\"/opt/qmd/bin/qmd\",\"collection\",\"show\",\"nuclear-knowledge\"],\"exit\":0,\"path\":\"/workspace/wiki/knowledge\",\"pattern\":\"**/*.md\"}}},\"config_default\":null,\"protected_bib\":{\"path\":\"/workspace/wiki/raw/zotero/wiki-inbox.bib\",\"baseline_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"actual_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"status\":\"matched\"},\"exit_code\":0}\n",
+      "stderr_tail": ""
+    },
+    "report_exists": true,
+    "report_changed": true,
+    "report_valid": true,
+    "report_missing_headings": [],
+    "durable_knowledge": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+        "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+        "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+        "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+        "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+        "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+        "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+        "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+        "knowledge/sources/zheng-2013-linear-polarization-91ru.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+        "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+        "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+        "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+        "knowledge/sources/droste-1996-pdco-formalism.md",
+        "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+        "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+        "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+        "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+        "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+        "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+        "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+        "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+        "knowledge/sources/koike-2004-chiral-bands-selection-rules.md",
+        "knowledge/sources/liang-2016-pseudospin-symmetry-review.md",
+        "knowledge/sources/petrache-2019-diversity-shapes-rotations-130ba.md",
+        "knowledge/sources/wang-2020-two-quasiparticle-wobbling-130ba.md",
+        "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+        "knowledge/sources/nobs-2017-spin-parity-102y-thesis.md",
+        "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+        "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+        "knowledge/projects/low-spin-wobbling-controversies.md",
+        "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+        "knowledge/sources/lv-2021-tilted-precession-135nd.md",
+        "knowledge/questions.md",
+        "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+        "knowledge/sources/clark-2000-shears-mechanism.md",
+        "knowledge/concepts/shears-mechanism.md",
+        "knowledge/concepts/antimagnetic-rotation.md",
+        "knowledge/projects/135pr-wobbling-controversy.md",
+        "knowledge/concepts/signature-partner-bands.md",
+        "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+        "knowledge/concepts/nuclear-chirality.md",
+        "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md",
+        "knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md",
+        "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+        "knowledge/methods/doppler-shift-attenuation-method.md",
+        "knowledge/index.md",
+        "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+        "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+        "knowledge/projects/131ce-collective-mode-discrimination.md",
+        "knowledge/nuclei/133ce.md",
+        "knowledge/experiments/afrodite-133ce-c12-57mev.md"
+      ],
+      "changed_paths": [
+        "knowledge/concepts/antimagnetic-rotation.md",
+        "knowledge/concepts/nuclear-chirality.md",
+        "knowledge/concepts/shears-mechanism.md",
+        "knowledge/concepts/signature-partner-bands.md",
+        "knowledge/experiments/afrodite-133ce-c12-57mev.md",
+        "knowledge/index.md",
+        "knowledge/methods/doppler-shift-attenuation-method.md",
+        "knowledge/methods/signature-tip-shears-discrimination-contract.md",
+        "knowledge/nuclei/133ce.md",
+        "knowledge/projects/131ce-collective-mode-discrimination.md",
+        "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+        "knowledge/projects/135pr-wobbling-controversy.md",
+        "knowledge/projects/187au-longitudinal-wobbling-controversy.md",
+        "knowledge/projects/low-spin-wobbling-controversies.md",
+        "knowledge/questions.md",
+        "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+        "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+        "knowledge/sources/bark-2024-investigations-nuclear-chirality-ithembalabs.md",
+        "knowledge/sources/chen-2019-transverse-wobbling-even-even.md",
+        "knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md",
+        "knowledge/sources/clark-2000-shears-mechanism.md",
+        "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+        "knowledge/sources/droste-1996-pdco-formalism.md",
+        "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+        "knowledge/sources/frauendorf-2014-transverse-wobbling.md",
+        "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+        "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+        "knowledge/sources/hamamoto-2002-wobbling-excitations-odd-a-high-j-aligned-particles.md",
+        "knowledge/sources/herzan-2015-193bi-spectroscopy.md",
+        "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+        "knowledge/sources/koike-2004-chiral-bands-selection-rules.md",
+        "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+        "knowledge/sources/lange-kumar-hamilton-1982-multipole-admixtures.md",
+        "knowledge/sources/liang-2016-pseudospin-symmetry-review.md",
+        "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+        "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+        "knowledge/sources/nndc-2008-135pr-selected-mixing-records.md",
+        "knowledge/sources/nobs-2017-spin-parity-102y-thesis.md",
+        "knowledge/sources/petrache-2019-diversity-shapes-rotations-130ba.md",
+        "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+        "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+        "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+        "knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md",
+        "knowledge/sources/sensharma-2020-longitudinal-wobbling-187au.md",
+        "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
+        "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+        "knowledge/sources/starosta-1999-pdco-experimental-test.md",
+        "knowledge/sources/streck-2018-behavior-collective-rotor-wobbling.md",
+        "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+        "knowledge/sources/wang-2020-two-quasiparticle-wobbling-130ba.md",
+        "knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    },
+    "curriculum_coverage": {
+      "valid": true,
+      "completed_day_indices": [
+        23
+      ],
+      "partial_day_indices": [
+        24
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 24,
+      "error": null
+    },
+    "lint_exit": 0,
+    "lint_tail": " ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-9 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-10 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-14 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-15 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-16 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-17 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-18 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-19 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-20 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-11 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-12 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-13 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-14 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-15 awaits human review\nGOVERNANCE page_unreviewed=642 source_unreviewed=329 claims=5388 claim_needs_review=4675 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=187\nSUMMARY pages=720 wikilinks=9606 hashes=352 errors=0 warnings=228 info=4675\n",
+    "git_diff_check_exit": 0,
+    "git_diff_check_tail": ""
+  },
+  "completed_day_indices": [
+    23
+  ],
+  "partial_day_indices": [
+    24
+  ],
+  "next_day_index": 24
+}

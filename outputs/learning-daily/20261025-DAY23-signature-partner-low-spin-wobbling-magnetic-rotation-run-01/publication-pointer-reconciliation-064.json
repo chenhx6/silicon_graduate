@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-10-26T08:56:23.163967+00:00",
+  "previous_checkpoint": 64,
+  "actual_branch": "main",
+  "actual_subject": "Day23: preserve evidence boundaries and support authorized extended closeout",
+  "publication_status": "published",
+  "prior_progress_pointer_subject": "Day23: retain apparatus conflicts and operator-scaling boundaries",
+  "disposition": "Prior progress helper subject differed from actual commit subject. Actual commit/publication receipt authoritative; final handoff uses the final commit branch+subject, no history rewrite.",
+  "new_scientific_fact": false
+}

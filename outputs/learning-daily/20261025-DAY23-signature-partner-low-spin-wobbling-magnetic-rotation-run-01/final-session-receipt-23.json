@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "run_id": "2026-10-25-day-23-01",
+  "session_id": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "started_at": "2026-10-25T20:16:26.996821+08:00",
+  "original_deadline": "2026-10-26T15:00:00+08:00",
+  "effective_deadline": "2026-10-26T17:00:00+08:00",
+  "deadline_override_receipt": "user-deadline-override-064.json",
+  "deadline_override_sha256": "64b046d569cc2bc1143a8910a559cd244d839f90485cbe989b6ff9870a3c59be",
+  "original_closeout_window_ends_at": "2026-10-26T16:00:00+08:00",
+  "effective_closeout_window_ends_at": "2026-10-26T18:00:00+08:00",
+  "finished_at": "2026-10-26T17:12:46.498511+08:00",
+  "completed_day_indices": [
+    23
+  ],
+  "partial_day_indices": [
+    24
+  ],
+  "curriculum_cards_completed": 1,
+  "next_day_index": 24,
+  "cumulative_completed_day_count": 23,
+  "single_credit_receipt": "card-credit-23.json",
+  "card_audit": {
+    "report": "outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation.md",
+    "section": "Day 23 card completion audit",
+    "deliverable_rows": 6,
+    "receipt": "curriculum-deliverable-audit-23.json",
+    "scope": "learning-card completion, not final resolution of physics controversies"
+  },
+  "governance_compliance": {
+    "new_needs_review_preserved": true,
+    "no_human_review_promoted": true,
+    "protected_Bib_PLAN_unchanged": true,
+    "writeback_items": 51,
+    "governance_tests": 105,
+    "baseline_provenance": {
+      "kind": "reconstructed-entry-witness",
+      "path": "/workspace/wiki/outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/baseline-reconstruction-064.json",
+      "sha256": "106cdfb96a4ca1e7c0f3403f6527052aaf3514b229521085f923ba71626ad9f8",
+      "source_baseline": "/workspace/wiki/outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/baseline-001.json",
+      "source_sha256": "3f51de609f9b91619a44a3d35b43f8194ceb095778076aa6a9447acd2748b74b",
+      "source_observed_at": "2026-10-25T12:18:53.915992+00:00",
+      "evidence_path": "/workspace/wiki/outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/baseline-readonly-evidence-064.json",
+      "evidence_sha256": "d06aa4e29b198df16edc28b333a7e08fd7d799651dc41a9ec9a87886656f257f",
+      "report_absence_evidence_kind": "head-tree-status-and-ignore-policy",
+      "boundary": "Historical captured status plus tracked HEAD policy is a reconstruction witness, not a missing original report_existed_before field; historical changes to external/global excludes cannot be excluded by current config alone."
+    }
+  },
+  "runtime": {
+    "same_session_original_runner_finalizer": true,
+    "new_sessions_created_by_closeout": 0,
+    "daemon_restarted": false,
+    "genuine_queue_receipt": "closeout-one-shot-queue-23.json",
+    "queue_status": "queued",
+    "queue_acceptance_is_not_delivery": true,
+    "interactive_attestation": "interactive-closeout-attestation.json",
+    "study_window_closed": true,
+    "closeout_on_time": true
+  },
+  "supplement": {
+    "133Ce": "Important continuing analysis-blueprint project; full body chapters/foreground bilingual reader, canonical evidence/input/falsifier/method matrices; not ordinary ingestion or permanently finished thesis study",
+    "Nobs": "full native mainline read, source evidence and model-assisted-spin boundaries; reader remains partial translation",
+    "next_day_role": "supplement only, Day24 chirality main card preserved"
+  },
+  "publication_spec": {
+    "branch": "main",
+    "subject": "Day23: complete learning card with deep133Ce supplement",
+    "refspec": "HEAD:main",
+    "non_force": true,
+    "result_receipt": "task-publication-receipt-23.json"
+  },
+  "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261026-DAY24-chirality-vibration-static-partner-bands.md",
+  "open_science": [
+    "actual common counts/response/Cov and multi-campaign eventledger",
+    "Au identity/absolute scale/old conversion primary inputs",
+    "133Ce582 out/out reference,8/13detector mask,tablefigure disagreements",
+    "QTR ε/λ units/input/version/fullstates/signedEM and1978body",
+    "131Ce/133Ce target-specific lifetime/branch mapping and alternative-configuration predictions"
+  ]
+}

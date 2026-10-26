@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "receipt": "/workspace/wiki/outputs/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation-run-01/run.json",
+  "thread": "01a172fd-cbfb-7a13-b715-cfa0c479e08e",
+  "run_date": "2026-10-25",
+  "day_index": 23,
+  "study_started_at": "2026-10-25T20:16:26.996821+08:00",
+  "deadline": "2026-10-26T17:00:00+08:00",
+  "closeout_end": "2026-10-26T18:00:00+08:00",
+  "checkpoint_hours": 2,
+  "original_deadline": "2026-10-26T15:00:00+08:00",
+  "deadline_override_sha256": "64b046d569cc2bc1143a8910a559cd244d839f90485cbe989b6ff9870a3c59be",
+  "sent_event_ids": [
+    "closeout"
+  ],
+  "events": {
+    "checkpoint-001": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-002": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-003": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-004": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-005": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-006": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-007": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-008": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-009": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "checkpoint-010": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "closeout": {
+      "status": "queued",
+      "attempts": 1,
+      "attempted_at": "2026-10-26T17:06:36.527841+08:00",
+      "attempt_history": [
+        {
+          "attempt": 1,
+          "finished_at": "2026-10-26T17:06:36.920227+08:00",
+          "returncode": 0,
+          "timed_out": false,
+          "stdout": "Queued message 01a17776-30ec-7202-a1b5-ca43a46f16ca for thread 01a172fd-cbfb-7a13-b715-cfa0c479e08e.\n",
+          "stderr": ""
+        }
+      ],
+      "queued_at": "2026-10-26T17:06:36.920227+08:00",
+      "delivery_observed": false
+    },
+    "closeout-reminder": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "overdue": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "queue_success_semantics": "exit 0 means queued; delivery has not been observed",
+  "first_supervisor_started_at": "2026-10-26T17:06:36.502605+08:00",
+  "first_start_origin": "one-shot-initialized-now",
+  "farmer_reference_at": "2026-10-25T20:16:26.996821+08:00",
+  "one_shot_initialized_at": "2026-10-26T17:06:36.502605+08:00",
+  "session_execution_observed": false,
+  "status": "one-shot",
+  "farmer_observation": {
+    "path": "/workspace/wiki/tmp/farmer/state.json",
+    "observation": "observed",
+    "action": "continue",
+    "status": "complete",
+    "event_at": "2026-10-26T16:24:26.700000+08:00",
+    "reason": "fresh-thread-event",
+    "file_age_seconds": 0.43807220458984375
+  },
+  "queue_paused": false,
+  "heartbeat_at": "2026-10-26T17:06:36.920227+08:00",
+  "phase": "closeout-window",
+  "receipt_status": "running"
+}
