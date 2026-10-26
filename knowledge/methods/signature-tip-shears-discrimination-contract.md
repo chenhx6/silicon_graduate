@@ -727,3 +727,11 @@ Raju的ΔIPDCO为带a=.99的散射asymmetry，非完整P或新δ；同采集105I
 B槽若只改变configuration assignment而保留实测计数/能级，候选占据仍须能容纳源spin。超出显式子集容量时，需要声明额外自由度或更改占据的模型输入；不能静默把j+j经典上界当量子容量。反之，容量足够仅是必要一致性，不提供可信度平票，也不替代未定标EM、g/形变/组态连续性的预测。
 
 这里(43/2−)/(47/2−)需额外至少2/4ℏ仅为冻结占据分解的条件下界，不是实际core测量；Zhao无inert core模型不受该附加J0假设。[[antimagnetic-rotation]]保AMR正支持与适用域，新needs_review:true，无新δ/Q/τ或机时。
+
+## Day23：共同core引用与具体H输入不能合并
+
+[[sensharma-2020-longitudinal-wobbling-187au]] RG10-D23-001–003把S20γ23与Guoγ12追到同一个HFB原件。原mass-quadrupole γ、Nilsson potential γ和PRM惯量/EM γ须分别声明，即使都用“γ”字样。仅在同一张量/轴约定下，12°与23°的cos3γ约.8090/.3584，irrotational归一惯量无序三元组约(.0432,.5523,.9045)/(.1527,.3622,.9851)；单纯改轴顺序或公共J0因子不能把两组变为同一输入。这是输入几何的条件算术，不是实测惯量、误差或最终模式检验。
+
+WA95-D23-002/004同时给真正clock的角色：τ81.3ps是原RDM的Au13/2−母态，不是争议11/2−/15/2−激发母态；评价56ps与其同源。原B1.18与后引1.49的出处映射仍缺。若用既有B定标β/charge尺度，该点已进入训练集合，不能再作同模型独立holdout；而保持所有计数/能级的configuration替代应优先预报未定标母态寿命/branch或其它EM矩阵，完整输入不齐时只给readiness边界。
+
+本次没有以13/2钟替换所有out/in分母，没有把quotedreference差当actualβ变化，也没有由HFBsoft景观否定全部低spin模式。[[187au-longitudinal-wobbling-controversy]]保逐量账本，newneeds_review:true，无新δ/Q/机时。

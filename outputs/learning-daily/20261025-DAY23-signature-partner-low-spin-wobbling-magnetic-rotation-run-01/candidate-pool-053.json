@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-26T01:19:06.592450+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "Walpe1995原4页TableII与RG2010HFB18页实际读，clock同源与B1.18vs引1.49/γ12vs23映射缺口具体化",
+  "next_route": "继续Au历史评价/转换原件或同Hconfiguration未定标EM检验，保source/actualproducer边界",
+  "missing_inputs": [
+    "historicalBaglin2003/quoted1.49 attribution and fullAuRDMinput",
+    "mass/potential/EMgamma extraction and complete PRM/QTRproducer",
+    "Pr/Au actualcount/Cov/response/eventledger and configuration-specific holdouts"
+  ],
+  "Day25_opened": false
+}

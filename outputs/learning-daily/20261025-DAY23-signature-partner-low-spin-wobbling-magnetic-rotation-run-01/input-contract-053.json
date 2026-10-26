@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-26T01:11:55.543329+00:00",
+  "scope": "Day23 Au reference-scale lineage and model-shape input comparability, not new Au τ/B or mode judgment",
+  "active_recall": [
+    "PRM β.23 γ23 and Guo ε2.21 γ12 differ; both model inputs, not experimentalshape",
+    "reference B(E2) was part of scale selection; not heldout",
+    "current evaluation fields do not establish historical Baglin2003 value"
+  ],
+  "questions": [
+    "Which actual original measurement supplies Au353.66ps clock / oldBscale?",
+    "Do the two shape inputs derive differentmodelminimum/differentfunctional or same source?",
+    "Are missing original evaluation/producer inputs recoverable?"
+  ],
+  "prohibited": [
+    "replace .84/1.44 with current .64 as though sameversion",
+    "invent any targetτ/δ/Q or beamtime",
+    "treat quotedreference/derivedB as independent vote",
+    "run Day22 quarantine114 producers",
+    "newdaycard/credit"
+  ],
+  "next": "exactauthor/NSR identity and originalHFB source search; actualbody or boundedretrievalrecord"
+}

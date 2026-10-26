@@ -383,3 +383,16 @@ B槽下一检验仍须保持实测核素/计数/能级不变，固定完整opera
 [[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-6只对原376红色显示fit作图像形状提取，A2≈−.672、A4≈.389，声明图像敏感性范围含条件Gaussian前向值约−.668/.390；不是原实验计数的重拟合或新δ提取。[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8/9/10的Fig4.12初始freefit与Table4.4值仍各自保留。
 
 [[signature-tip-shears-discrimination-contract]]将该结果用于阶段绑定线索，不据此认证原producer/全response、table去衰减或两根全球权重。完整净峰、校正输出、似然链与共同Cov仍是缺口，新needs_review:true，LW/SP及Band3身份争议保持。
+
+## Day23：定标来源从评价推进到原RDM与共同HFB
+
+[[sensharma-2020-longitudinal-wobbling-187au]] WA95-D23-001–004补实际Walpe1995原件，RG10-D23-001–003补双方所引HFB原件；独立性矩阵的新增是“取得已有测量/计算的原件”，没有新采集。
+
+| 输入/观测 | 原件结果与关系 | 可检验后果与仍缺输入 |
+|---|---|---|
+| Au353.66(13/2−)→120.33(9/2−) | WalpeTableII233.4keV，meanτ81.3(8.5)ps、B1.18(.12)、Qt6.08(.31)；官方56ps半衰期沿同RDM来源 | 与S20引1.49映射未闭合；需历史评价/branch/ICC/归一，不把二者平均或多计票 |
+| 高spin带内时钟 | Walpe29/2−一行带feeding未分的upperlimit | 上限不可混作普通τ点；Au原distance spectra/feedingCov未得 |
+| Coreγ的理论来源 | S20γ23与Guoγ12共同引RG2010；该原Fig6的186Ptminimum图读约10–15° | 先核mass/potential/轴/取值版本，再比较两H；不是两次独立shape观测 |
+| 原HFB支持与限制 | 支持core三轴/soft景观，作者还明列pairing/MoI与动态涨落缺口 | 不能由minimum把oddAu唯一归LW/SP或由图判实际producer错误 |
+
+本轮supports原h9/2带确有绝对E2集体尺度，limits把引用尺度当争议母态τ/独立holdout。争议376/462母态仍无本次新寿命，fewW.u.仍是外标估计；实际AD条件大根、HIRFL小根、旧P身份与SP带身份均保留。新增needs_review:true。

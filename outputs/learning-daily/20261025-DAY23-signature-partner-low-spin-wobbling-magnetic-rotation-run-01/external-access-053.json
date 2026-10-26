@@ -1,0 +1,62 @@
+{
+  "direct_downloads": [
+    {
+      "url": "https://arxiv.org/pdf/1001.4893v1",
+      "status": 200,
+      "path": "tmp/day23-originals/hfb-pt053.pdf",
+      "bytes": 1008527,
+      "sha256": "7b160fd70bbb8e767b886bbb230186a4d11bda513c25901262596cbf55fc8fae",
+      "pages": 18
+    },
+    {
+      "url": "https://www.nndc.bnl.gov/nsr/js/search/keynumber.js?v=1.016",
+      "status": 200,
+      "path": "tmp/day23-originals/au-reference053-nsr-keyjs.js",
+      "bytes": 1510,
+      "sha256": "95767dc0b0bb349c9f1f6f809c191e8589ca97af9bb7f727671a0502c76fce89"
+    },
+    {
+      "url": "https://www.nndc.bnl.gov/nsr/js/entry-search.js?v=1.016",
+      "status": 200,
+      "path": "tmp/day23-originals/au-reference053-nsr-entryjs.js",
+      "bytes": 5368,
+      "sha256": "661d02b932da9244aa36c4e9703bf1afa69349fd6622af51fa9083b7f4acbcbd"
+    },
+    {
+      "name": "walpe-page",
+      "url": "https://www.actaphys.uj.edu.pl/R/26/2/279",
+      "final_url": "https://www.actaphys.uj.edu.pl/index_n.php?I=R&V=26&N=2#279",
+      "status": 200,
+      "bytes": 85154,
+      "path": "tmp/day23-originals/au-reference053-walpe-page.html",
+      "sha256": "f31d42fb5cf2f8b333558ecb078635e9b342f0f72ed261740164b7453a964099",
+      "pdf": false
+    },
+    {
+      "name": "walpe-pdf",
+      "url": "https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=26&page=279",
+      "final_url": "https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=26&page=279",
+      "status": 200,
+      "bytes": 162661,
+      "path": "tmp/day23-originals/au-reference053-walpe-pdf.pdf",
+      "sha256": "c1c23b63494e18a25b31bb3611cd3434c6b7698902a280c301de7c17b724c9b5",
+      "pdf": true
+    },
+    {
+      "name": "walpe-pdfalt",
+      "url": "https://www.actaphys.uj.edu.pl/R/26/2/279/pdf",
+      "final_url": "https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=26&page=279",
+      "status": 200,
+      "bytes": 162661,
+      "path": "tmp/day23-originals/au-reference053-walpe-pdfalt.pdf",
+      "sha256": "c1c23b63494e18a25b31bb3611cd3434c6b7698902a280c301de7c17b724c9b5",
+      "pdf": true
+    }
+  ],
+  "discovery_boundaries": [
+    "GoogleScholar queries timedout; Crossref fuzzyclockquery returned irrelevant statistics and was rejected",
+    "NSR actualnewclient KeyNumberSearchServlet established1995WA18 identity; no DOI invented",
+    "HFB title/DOI matched viaCrossref/arXiv/Inspire"
+  ],
+  "formal_raw_archive": "deferred"
+}

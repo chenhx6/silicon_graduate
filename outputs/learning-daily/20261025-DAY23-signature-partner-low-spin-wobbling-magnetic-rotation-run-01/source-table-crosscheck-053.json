@@ -1,0 +1,38 @@
+{
+  "scope": "literal source-table crosscheck and fixed-gamma conditional geometry arithmetic, no experimental fit/newmeasurement/CI",
+  "walpe_literal_TableII": {
+    "transition": "13/2−→9/2−",
+    "E_keV": 233.4,
+    "reported_mean_tau_ps": 81.3,
+    "reported_tau_uncertainty_ps": 8.5,
+    "reported_B_E2_e2b2": 1.18,
+    "reported_B_uncertainty_e2b2": 0.12,
+    "reported_Qt_eb": 6.08,
+    "reported_Qt_uncertainty_eb": 0.31
+  },
+  "definition_only_T_half_ps": 56.35286577952355,
+  "quoted_support_B_over_original_B": 1.2627118644067796,
+  "interpretation": "same RDM clock lineage; central consistency, no uncertainty equality or independent confirmation; unresolved1.49 attribution",
+  "conditional_same_convention_gamma_geometry": [
+    {
+      "gamma_degrees": 12,
+      "irrotational_normalized_eigenvalues_sorted": [
+        0.043227271178699775,
+        0.5522642316338264,
+        0.9045084971874738
+      ],
+      "cos3gamma": 0.8090169943749475,
+      "meaning": "dimensionless shape/input comparison only; requires same tensor/axis convention, not actual MoI/likelihood"
+    },
+    {
+      "gamma_degrees": 23,
+      "irrotational_normalized_eigenvalues_sorted": [
+        0.15267081477050146,
+        0.3621813220915001,
+        0.9851478631379984
+      ],
+      "cos3gamma": 0.35836794954530016,
+      "meaning": "dimensionless shape/input comparison only; requires same tensor/axis convention, not actual MoI/likelihood"
+    }
+  ]
+}

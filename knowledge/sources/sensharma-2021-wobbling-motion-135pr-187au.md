@@ -265,3 +265,9 @@ Eq3.6把角分布fit写为A0(1+A2P2+A4P4)，并称由峰面积拟合得experimen
 | SE22-D23-005 | Fig4.20(e,f)实际打印763.7 δ=−4.51(+.24/−.26)、855.2 δ=−5.54(+1.45/−2.52)，均为Band2→yrast高spin links的同分析AD结果；不是Guo对这两线新增P或新采集。未因最低376/462的分支冲突便自动把所有高spin测量重指为小根，也不把这些源条件δ当独立模式终审。 | source-highspin-companion-and-coverage | actual2022-figure-visual | sameAD-pipeline-and-campaign | 2022printed86 Fig4.20(e,f) | true |
 
 当前比较关系见[[187au-longitudinal-wobbling-controversy]]及[[signature-tip-shears-discrimination-contract]]。[[guo-2022-low-spin-wobbling-187au]]的独立non-observation/188Pt重归属与本支持巧合谱并列，未获同一门/净峰/response/event对象的联合重放。原PRL待刊Ref26尚未由有界检索唯一识别为某篇期刊后续文；此次得到的是确切书章版本，不据搜索空结果宣称后续文不存在。新增claims均needs_review:true。
+
+## Day23：引用尺度与共同HFB源的原件映射尚未闭合
+
+[[sensharma-2020-longitudinal-wobbling-187au]] WA95-D23-001–004现实际核阅Walpe1995四页：13/2−→9/2−的meanτ81.3(8.5)ps、B1.18(.12)e²b²、Qt6.08(.31)eb，mean到half的中央值与官方56ps同源对应。本thesis与Letter引用1.49的具体历史归一/评价映射仍未闭合；不将它静默改成1.18，也不恢复其正parity字面去改核态。
+
+同页RG10-D23-001–003实际核了双方引用的Rodríguez-Guzmán2010HFB原18页。186Pt原minimum在图中γ约10–15°，S20/thesis采用γ23°、Guo采用γ12°的取值版本/坐标映射需明确。原PES为massshape、static meanfield且作者强调动态shape/pairing限制；既不提供本thesis完整producer也不自动解释.84/1.44的引用差。新needs_review:true，不新增shape/δ/τ测量或人审。
