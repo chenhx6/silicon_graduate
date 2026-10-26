@@ -755,3 +755,11 @@ A槽应记录每篇模型的shape quantity、单位/约定和actual输入版本�
 [[sensharma-2020-longitudinal-wobbling-187au]] AU20-D23-7/8给376/462公开AD图的14个native黑点中心。可再现的图像定位提高了逐线观测合同的可读性，但source ordinate为图示Iγ、不是每个ring的net counts；右轴刻度rounding、edgeclipped centroid与未分辨errorbar均限制定量使用。
 
 不得从fillmarker直径或其black component extent赋实验σ，也不由高像素稳定性宣称统计精度或原likelihood已重现。这里没有拟合；红fit路径、黑点、自由A2/A4与经校准的Table4.4参数仍为不同处理对象。同源导出不能重复乘likelihood，真实A槽还需group净峰面积/efficiency/gate/归一/Cov。[[187au-longitudinal-wobbling-controversy]]保两模型/观测条件，新needs_review:true，无新δ/Q/τ或机时。
+
+## Day23：从vector误差线到原目标函数仍有一步
+
+[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D23-4–6比Au056多恢复了误差stem/caps的vector几何，但这些plot primitives仍不是原counts/Cov。源固定σ/I=.2 profile保大根条件优势，不能因图中red/blue近似相邻而假定等谷。
+
+若另设D=Σ[(ypoint−ycurve)/(图示halfbar)]²，它必须连同独立1σ/显示归一/插值等附加条件登记。当前D方向与源相同、数值未闭合；affine强度单位变换的控制并不能补原objective的归一或所有nuisance。不能用missingclosure去反向制造作者错误，也不能把方向相同夸成原likelihood复现或用它给p-value/δCI。
+
+A槽因此分成“图示向量可读”“源条件profile可读”“实际共享响应可重放”三项，前两已推进，第三仍缺输入；它们不是三份独立测量。[[135pr-wobbling-controversy]]保本核反证/支持与未定标检验，新needs_review:true，不新增τ/Q/设施率或机时。

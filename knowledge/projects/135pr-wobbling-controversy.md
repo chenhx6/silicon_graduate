@@ -350,3 +350,9 @@ Bpair只能保存δ²，P/AD干涉的sign/branch信息另检验；这项信息�
 [[nndc-2008-135pr-selected-mixing-records]] N135-D23-001/002/003核官方IAEA旧评价导出：端点候选对应新Lv526/747、726/813，旧线为527/747.1、726/814；必须保留版本与原括号Jπ，不用窄能窗的漏选宣称不存在。争议母33/54寿命为空，较低yrast末态10/29的22.9/2.4ps半衰期不能移作母τ；新测量的缺口仍需母态寿命、完整branch/转换与共同响应。
 
 该接口publication cutoff2008，不是本轮新增采集或2026评价。旧relativeI比不同于Lv新中心，未知共同Cov不报显著性/新独立票；D标签不填δ/P，空B不当0。[[signature-tip-shears-discrimination-contract]]保留这个逐态readiness门。新增needs_review:true，不扩原人审范围，不改变747/813配对或SH26固定σ/I条件支持。
+
+## Day23：支持方图示大根优势保留，原目标函数仍未重放
+
+[[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]] SH26-D23-4–6直接核原Fig12vector的21点/42caps与显示curves。主图在σ/I=.2的大根优势确实存在，746/812/754的红/蓝χ²标签几何读数约2.3/6.6、47/423、5.8/375；它们是源作者图示量，不是本任务新fit、置信度或对任意取向的保证。
+
+按图示半误差线作额外对角1σ假设的D也偏红，但数值不同，未闭合源profile。该差异使actualobjective/normalizer/error-Cov/样本处理链缺口更具体；不抹掉条件支持，不预判自由nuisance时两谷必等深，也不直接判论文计算错误。原Lv新P–Rac和Matta旧asymmetry的量身份/版本继续分别记账。新增needs_review:true，无新δ或最终TiP/TW裁决。

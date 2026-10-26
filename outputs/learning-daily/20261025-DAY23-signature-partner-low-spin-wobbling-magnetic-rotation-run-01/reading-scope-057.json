@@ -1,0 +1,12 @@
+{
+  "scope": "samehashoriginalSH26PDF14Fig12andIII.B targeted; freshvisual fullpage andlargeinset",
+  "raw_read_only": true,
+  "source_package_code_executed": false,
+  "analysis": "publishedvectorprimitives/conditionaldiagnostic only; no originalobjective certification",
+  "needs_review": true,
+  "new_claims": [
+    "SH26-D23-4",
+    "SH26-D23-5",
+    "SH26-D23-6"
+  ]
+}

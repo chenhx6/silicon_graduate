@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-26T02:12:03.753606+00:00",
+  "day_index": 23,
+  "completed": [],
+  "partial": [
+    23,
+    24
+  ],
+  "next": 23,
+  "decision": "continue original research window",
+  "bounded_result": "SH26原Fig12点/caps/profile恢复；fixedσ.2大根条件支持保，任务halfbar D方向同但数值未闭合源χ²",
+  "next_route": "重建两槽候选，核原χ²定义/输入版本或未定标configuration EM；不由localnonclosure停窗口",
+  "missing_inputs": [
+    "sourceobjective/normalizer/Cov and completecountresponse",
+    "perfigure event/run ledger",
+    "completecommonH/operator and independentheldoutpredictions"
+  ],
+  "Day25_opened": false
+}

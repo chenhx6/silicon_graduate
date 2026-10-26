@@ -1,0 +1,93 @@
+{
+  "recorded_at": "2026-10-26T02:01:51.739459+00:00",
+  "scope": "extract vector primitives from published SH26 Fig12, retain fixedsigma/I.2 conditional large-root support; no new rawresponse/globalfit",
+  "source_pdf": "raw/papers/gpt/_incoming/20260912-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf",
+  "sha256": "294f791a230a12005ef43a237afb25b9bf731f8f520a1a65d6b32d0386ef91b3",
+  "page_index": 13,
+  "panels": [
+    {
+      "printed_energy_keV": 746.3,
+      "published_delta_red": -1.4,
+      "published_delta_blue": -0.59,
+      "profile_path_index": 35,
+      "red_path_index": 83,
+      "blue_path_index": 84,
+      "inset_roi": [
+        461.79,
+        123.28,
+        556.52,
+        184.19
+      ],
+      "profile_axis_calibration": {
+        "y_low": 198.9522,
+        "log_low": 0.5,
+        "y_high": 61.4072,
+        "log_high": 3.5,
+        "phi0_x": 452.9959411621094,
+        "one_radian_pdfpoints": 62.68890380859375
+      }
+    },
+    {
+      "printed_energy_keV": 811.6,
+      "published_delta_red": -1.63,
+      "published_delta_blue": -0.52,
+      "profile_path_index": 140,
+      "red_path_index": 186,
+      "blue_path_index": 187,
+      "inset_roi": [
+        460.43,
+        309,
+        555.2,
+        375
+      ],
+      "profile_axis_calibration": {
+        "y_low": 377.5317,
+        "log_low": 2.0,
+        "y_high": 247.6174,
+        "log_high": 5.0,
+        "phi0_x": 452.9959411621094,
+        "one_radian_pdfpoints": 62.68890380859375
+      }
+    },
+    {
+      "printed_energy_keV": 754.2,
+      "published_delta_red": -2.16,
+      "published_delta_blue": -0.4,
+      "profile_path_index": 243,
+      "red_path_index": 291,
+      "blue_path_index": 292,
+      "inset_roi": [
+        460.43,
+        495,
+        555.2,
+        561
+      ],
+      "profile_axis_calibration": {
+        "y_low": 567.8519,
+        "log_low": 1.0,
+        "y_high": 445.5464,
+        "log_high": 4.0,
+        "phi0_x": 452.9959411621094,
+        "one_radian_pdfpoints": 62.68890380859375
+      }
+    }
+  ],
+  "extract": [
+    "filledblackequaldiametercircularmarkers distinctfromlegend",
+    "underlyingverticalerrorstems and twohorizontalcaps matchingcenter, not markerradius",
+    "publishedred/bluecurvepolylinepositions",
+    "publishedblacklog10chi profile coordinates withsourceaxiscalibration ifrecoverable"
+  ],
+  "bounded_diagnostic": "If stems/caps validated, describe D=sum[(point−publishedcurve)/plottedhalfbar]^2 under extra diagonal/one-sigma reading; no nuisance refit, no actualoriginal/fullsharedresponse reproduction. Preserve ifclosurefails.",
+  "prohibited": [
+    "newphysicaldelta or experimentalCI/rootpvalue",
+    "sourceplottedI as rawcounts",
+    "assume same number ofacquisitions as publications",
+    "equal-depthvalleys preclaim",
+    "overwrite746.3/811.6withmodern747.3/813.2 withoutendpointledger",
+    "run114producer",
+    "Day25 ornewcredit"
+  ],
+  "adaptive_diagnostic_note": "Initial vector halfbar diagonal D does not match printed blackprofile normalization, even freeP2P4 descriptive fit stayslarge; preserve this nonclosure. Pixel curve RMS.006pdfpt is nonzero so exact smoothcurve reconstruction and bar identity need independent checks before claims. One extra normalization-only probe also did not close; not originalproducer or confidence.",
+  "final_diagnostic": "Use literal vector polyline interpolation (no Legendre model needed) and matching verticalstems/horizontalcaps. D is declared diagonal/plotted-halfbar diagnostic only. Compare separately to readouts of author profile at printedroot positions; mismatch retained, not failure/forced fit. No nuisance refit in finalproducer."
+}

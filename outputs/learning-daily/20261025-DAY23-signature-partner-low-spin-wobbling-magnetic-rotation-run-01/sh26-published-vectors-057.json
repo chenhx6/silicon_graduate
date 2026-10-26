@@ -1,0 +1,695 @@
+{
+  "scope": "extract vector primitives from published SH26 Fig12, retain fixedsigma/I.2 conditional large-root support; no new rawresponse/globalfit",
+  "formal_day_index": 23,
+  "conditions": {
+    "recorded_at": "2026-10-26T02:01:51.739459+00:00",
+    "scope": "extract vector primitives from published SH26 Fig12, retain fixedsigma/I.2 conditional large-root support; no new rawresponse/globalfit",
+    "source_pdf": "raw/papers/gpt/_incoming/20260912-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf",
+    "sha256": "294f791a230a12005ef43a237afb25b9bf731f8f520a1a65d6b32d0386ef91b3",
+    "page_index": 13,
+    "panels": [
+      {
+        "printed_energy_keV": 746.3,
+        "published_delta_red": -1.4,
+        "published_delta_blue": -0.59,
+        "profile_path_index": 35,
+        "red_path_index": 83,
+        "blue_path_index": 84,
+        "inset_roi": [
+          461.79,
+          123.28,
+          556.52,
+          184.19
+        ],
+        "profile_axis_calibration": {
+          "y_low": 198.9522,
+          "log_low": 0.5,
+          "y_high": 61.4072,
+          "log_high": 3.5,
+          "phi0_x": 452.9959411621094,
+          "one_radian_pdfpoints": 62.68890380859375
+        }
+      },
+      {
+        "printed_energy_keV": 811.6,
+        "published_delta_red": -1.63,
+        "published_delta_blue": -0.52,
+        "profile_path_index": 140,
+        "red_path_index": 186,
+        "blue_path_index": 187,
+        "inset_roi": [
+          460.43,
+          309,
+          555.2,
+          375
+        ],
+        "profile_axis_calibration": {
+          "y_low": 377.5317,
+          "log_low": 2.0,
+          "y_high": 247.6174,
+          "log_high": 5.0,
+          "phi0_x": 452.9959411621094,
+          "one_radian_pdfpoints": 62.68890380859375
+        }
+      },
+      {
+        "printed_energy_keV": 754.2,
+        "published_delta_red": -2.16,
+        "published_delta_blue": -0.4,
+        "profile_path_index": 243,
+        "red_path_index": 291,
+        "blue_path_index": 292,
+        "inset_roi": [
+          460.43,
+          495,
+          555.2,
+          561
+        ],
+        "profile_axis_calibration": {
+          "y_low": 567.8519,
+          "log_low": 1.0,
+          "y_high": 445.5464,
+          "log_high": 4.0,
+          "phi0_x": 452.9959411621094,
+          "one_radian_pdfpoints": 62.68890380859375
+        }
+      }
+    ],
+    "extract": [
+      "filledblackequaldiametercircularmarkers distinctfromlegend",
+      "underlyingverticalerrorstems and twohorizontalcaps matchingcenter, not markerradius",
+      "publishedred/bluecurvepolylinepositions",
+      "publishedblacklog10chi profile coordinates withsourceaxiscalibration ifrecoverable"
+    ],
+    "bounded_diagnostic": "If stems/caps validated, describe D=sum[(point−publishedcurve)/plottedhalfbar]^2 under extra diagonal/one-sigma reading; no nuisance refit, no actualoriginal/fullsharedresponse reproduction. Preserve ifclosurefails.",
+    "prohibited": [
+      "newphysicaldelta or experimentalCI/rootpvalue",
+      "sourceplottedI as rawcounts",
+      "assume same number ofacquisitions as publications",
+      "equal-depthvalleys preclaim",
+      "overwrite746.3/811.6withmodern747.3/813.2 withoutendpointledger",
+      "run114producer",
+      "Day25 ornewcredit"
+    ],
+    "adaptive_diagnostic_note": "Initial vector halfbar diagonal D does not match printed blackprofile normalization, even freeP2P4 descriptive fit stayslarge; preserve this nonclosure. Pixel curve RMS.006pdfpt is nonzero so exact smoothcurve reconstruction and bar identity need independent checks before claims. One extra normalization-only probe also did not close; not originalproducer or confidence.",
+    "final_diagnostic": "Use literal vector polyline interpolation (no Legendre model needed) and matching verticalstems/horizontalcaps. D is declared diagonal/plotted-halfbar diagnostic only. Compare separately to readouts of author profile at printedroot positions; mismatch retained, not failure/forced fit. No nuisance refit in finalproducer."
+  },
+  "contract_sha256": "7a0d76531e9bce8f1cf945891f7907fe58c9d883c3a3b540c1c46cf12e0b320c",
+  "implementation_sha256": "de8dcce9b472617705fa63e9a478fcf535f15db169988b97133bdc1d050d8d33",
+  "targets": [
+    {
+      "printed_energy_keV": 746.3,
+      "points": [
+        {
+          "marker_path_index": 85,
+          "center_pdfpoints": [
+            479.8082275390625,
+            174.19232177734375
+          ],
+          "stem_path_index": 62,
+          "stem_y_pdfpoints": [
+            173.82615661621094,
+            174.55848693847656
+          ],
+          "cap_path_indices": [
+            76,
+            69
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.3661651611328125,
+          "marker_stem_midpoint_residual_pdfpoints": 0.0
+        },
+        {
+          "marker_path_index": 86,
+          "center_pdfpoints": [
+            497.86639404296875,
+            168.8726043701172
+          ],
+          "stem_path_index": 63,
+          "stem_y_pdfpoints": [
+            168.4085693359375,
+            169.33663940429688
+          ],
+          "cap_path_indices": [
+            77,
+            70
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.4640350341796875,
+          "marker_stem_midpoint_residual_pdfpoints": 0.0
+        },
+        {
+          "marker_path_index": 87,
+          "center_pdfpoints": [
+            514.02587890625,
+            153.9515838623047
+          ],
+          "stem_path_index": 64,
+          "stem_y_pdfpoints": [
+            153.7487030029297,
+            154.15444946289062
+          ],
+          "cap_path_indices": [
+            78,
+            71
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.20287322998046875,
+          "marker_stem_midpoint_residual_pdfpoints": 7.62939453125e-06
+        },
+        {
+          "marker_path_index": 88,
+          "center_pdfpoints": [
+            522.5907592773438,
+            146.58883666992188
+          ],
+          "stem_path_index": 65,
+          "stem_y_pdfpoints": [
+            146.50967407226562,
+            146.66799926757812
+          ],
+          "cap_path_indices": [
+            79,
+            72
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.07916259765625,
+          "marker_stem_midpoint_residual_pdfpoints": 0.0
+        },
+        {
+          "marker_path_index": 89,
+          "center_pdfpoints": [
+            534.6295166015625,
+            135.27786254882812
+          ],
+          "stem_path_index": 66,
+          "stem_y_pdfpoints": [
+            135.1792449951172,
+            135.37649536132812
+          ],
+          "cap_path_indices": [
+            80,
+            73
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.09862518310546875,
+          "marker_stem_midpoint_residual_pdfpoints": 7.62939453125e-06
+        },
+        {
+          "marker_path_index": 90,
+          "center_pdfpoints": [
+            545.24951171875,
+            128.5191192626953
+          ],
+          "stem_path_index": 67,
+          "stem_y_pdfpoints": [
+            128.45855712890625,
+            128.57969665527344
+          ],
+          "cap_path_indices": [
+            81,
+            74
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.06056976318359375,
+          "marker_stem_midpoint_residual_pdfpoints": 7.62939453125e-06
+        },
+        {
+          "marker_path_index": 91,
+          "center_pdfpoints": [
+            555.6817626953125,
+            127.0146369934082
+          ],
+          "stem_path_index": 68,
+          "stem_y_pdfpoints": [
+            126.92233276367188,
+            127.10697174072266
+          ],
+          "cap_path_indices": [
+            82,
+            75
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.09231948852539062,
+          "marker_stem_midpoint_residual_pdfpoints": 1.52587890625e-05
+        }
+      ],
+      "responses": {
+        "red": {
+          "published_delta_label": -1.4,
+          "curve_path_index": 83,
+          "curve_y_at_points_pdfpoints": [
+            174.74182693080115,
+            167.35231037389693,
+            154.69760303424965,
+            146.57027532345563,
+            135.49439597746397,
+            128.54778780468348,
+            126.05350534265692
+          ],
+          "D_diagonal_plotted_halfbars_not_original_chi2": 139.99496043930492,
+          "residuals_in_plotted_halfbars": [
+            -1.5007029935818799,
+            3.276248309371313,
+            -3.6772676809886993,
+            0.23447116461288794,
+            -2.1955186476488766,
+            -0.4733144143435108,
+            10.410929112621155
+          ],
+          "author_profile_readout_at_printed_delta": {
+            "log10chi_label": 0.35733874904178464,
+            "chi_label": 2.2768726956034433
+          },
+          "polyline_vertex_count": 34
+        },
+        "blue": {
+          "published_delta_label": -0.59,
+          "curve_path_index": 84,
+          "curve_y_at_points_pdfpoints": [
+            177.896633989894,
+            167.39430126913487,
+            153.29859672092195,
+            145.3041783664293,
+            135.08253989093032,
+            128.99933463903307,
+            126.84458183189491
+          ],
+          "D_diagonal_plotted_halfbars_not_original_chi2": 456.3771243262229,
+          "residuals_in_plotted_halfbars": [
+            -10.116506445042884,
+            3.1857575228034944,
+            3.21869544565147,
+            16.22809687310883,
+            1.9804541978789398,
+            -7.92830202888802,
+            1.8420288525160016
+          ],
+          "author_profile_readout_at_printed_delta": {
+            "log10chi_label": 0.8182019296054144,
+            "chi_label": 6.579636931086077
+          },
+          "polyline_vertex_count": 34
+        }
+      },
+      "direction_agreement_only": true,
+      "numerical_closure": "not reproduced: declared D and author chi-profile readouts have different values; original objective/response/normalization/sample input absent"
+    },
+    {
+      "printed_energy_keV": 811.6,
+      "points": [
+        {
+          "marker_path_index": 188,
+          "center_pdfpoints": [
+            478.4550476074219,
+            360.2492980957031
+          ],
+          "stem_path_index": 165,
+          "stem_y_pdfpoints": [
+            360.08477783203125,
+            360.4137878417969
+          ],
+          "cap_path_indices": [
+            179,
+            172
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.1645050048828125,
+          "marker_stem_midpoint_residual_pdfpoints": 1.52587890625e-05
+        },
+        {
+          "marker_path_index": 189,
+          "center_pdfpoints": [
+            496.5132141113281,
+            353.18408203125
+          ],
+          "stem_path_index": 166,
+          "stem_y_pdfpoints": [
+            353.0166015625,
+            353.3515625
+          ],
+          "cap_path_indices": [
+            180,
+            173
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.16748046875,
+          "marker_stem_midpoint_residual_pdfpoints": 0.0
+        },
+        {
+          "marker_path_index": 190,
+          "center_pdfpoints": [
+            512.6727142333984,
+            341.64996337890625
+          ],
+          "stem_path_index": 167,
+          "stem_y_pdfpoints": [
+            341.5003662109375,
+            341.799560546875
+          ],
+          "cap_path_indices": [
+            181,
+            174
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.14959716796875,
+          "marker_stem_midpoint_residual_pdfpoints": 0.0
+        },
+        {
+          "marker_path_index": 191,
+          "center_pdfpoints": [
+            521.2376098632812,
+            335.6979675292969
+          ],
+          "stem_path_index": 168,
+          "stem_y_pdfpoints": [
+            335.5279541015625,
+            335.867919921875
+          ],
+          "cap_path_indices": [
+            182,
+            175
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.16998291015625,
+          "marker_stem_midpoint_residual_pdfpoints": 3.0517578125e-05
+        },
+        {
+          "marker_path_index": 192,
+          "center_pdfpoints": [
+            533.2763671875,
+            324.60406494140625
+          ],
+          "stem_path_index": 169,
+          "stem_y_pdfpoints": [
+            324.4353942871094,
+            324.772705078125
+          ],
+          "cap_path_indices": [
+            183,
+            176
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.1686553955078125,
+          "marker_stem_midpoint_residual_pdfpoints": 1.52587890625e-05
+        },
+        {
+          "marker_path_index": 193,
+          "center_pdfpoints": [
+            543.8963623046875,
+            316.5830078125
+          ],
+          "stem_path_index": 170,
+          "stem_y_pdfpoints": [
+            316.45208740234375,
+            316.7138671875
+          ],
+          "cap_path_indices": [
+            184,
+            177
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.130889892578125,
+          "marker_stem_midpoint_residual_pdfpoints": 3.0517578125e-05
+        },
+        {
+          "marker_path_index": 194,
+          "center_pdfpoints": [
+            554.32861328125,
+            312.5502624511719
+          ],
+          "stem_path_index": 171,
+          "stem_y_pdfpoints": [
+            312.1194763183594,
+            312.98095703125
+          ],
+          "cap_path_indices": [
+            185,
+            178
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.4307403564453125,
+          "marker_stem_midpoint_residual_pdfpoints": 4.57763671875e-05
+        }
+      ],
+      "responses": {
+        "red": {
+          "published_delta_label": -1.63,
+          "curve_path_index": 186,
+          "curve_y_at_points_pdfpoints": [
+            359.84466646302917,
+            353.81486024811426,
+            342.27262549665767,
+            334.5159421528779,
+            323.8108413944024,
+            316.9790816751901,
+            314.510009765625
+          ],
+          "D_diagonal_plotted_halfbars_not_original_chi2": 137.8914767197073,
+          "residuals_in_plotted_halfbars": [
+            2.4596919282923912,
+            -3.766279265708453,
+            -4.162258725923796,
+            6.9537895035002,
+            4.703220698131117,
+            -3.026008004809915,
+            -4.5497183747210315
+          ],
+          "author_profile_readout_at_printed_delta": {
+            "log10chi_label": 1.6760805268385908,
+            "chi_label": 47.432992731368955
+          },
+          "polyline_vertex_count": 34
+        },
+        "blue": {
+          "published_delta_label": -0.52,
+          "curve_path_index": 187,
+          "curve_y_at_points_pdfpoints": [
+            363.9313548422366,
+            353.6069140320392,
+            340.19731736005497,
+            332.7026016955325,
+            323.3850316315423,
+            317.8206787109375,
+            315.881591796875
+          ],
+          "D_diagonal_plotted_halfbars_not_original_chi2": 1113.6378865041058,
+          "residuals_in_plotted_halfbars": [
+            -22.38264269926889,
+            -2.5246645411552517,
+            9.710384485050762,
+            17.62157049206298,
+            7.227953224938431,
+            -9.455817206808113,
+            -7.733961528924156
+          ],
+          "author_profile_readout_at_printed_delta": {
+            "log10chi_label": 2.6259818848777465,
+            "chi_label": 422.6509844446983
+          },
+          "polyline_vertex_count": 34
+        }
+      },
+      "direction_agreement_only": true,
+      "numerical_closure": "not reproduced: declared D and author chi-profile readouts have different values; original objective/response/normalization/sample input absent"
+    },
+    {
+      "printed_energy_keV": 754.2,
+      "points": [
+        {
+          "marker_path_index": 293,
+          "center_pdfpoints": [
+            478.4550476074219,
+            541.3702392578125
+          ],
+          "stem_path_index": 270,
+          "stem_y_pdfpoints": [
+            540.92041015625,
+            541.8200073242188
+          ],
+          "cap_path_indices": [
+            284,
+            277
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.449798583984375,
+          "marker_stem_midpoint_residual_pdfpoints": 3.0517578125e-05
+        },
+        {
+          "marker_path_index": 294,
+          "center_pdfpoints": [
+            496.5132141113281,
+            541.0458374023438
+          ],
+          "stem_path_index": 271,
+          "stem_y_pdfpoints": [
+            540.681396484375,
+            541.4102172851562
+          ],
+          "cap_path_indices": [
+            285,
+            278
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.364410400390625,
+          "marker_stem_midpoint_residual_pdfpoints": 3.0517578125e-05
+        },
+        {
+          "marker_path_index": 295,
+          "center_pdfpoints": [
+            512.6727142333984,
+            531.0435791015625
+          ],
+          "stem_path_index": 272,
+          "stem_y_pdfpoints": [
+            530.7091064453125,
+            531.3779907226562
+          ],
+          "cap_path_indices": [
+            286,
+            279
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.334442138671875,
+          "marker_stem_midpoint_residual_pdfpoints": 3.0517578125e-05
+        },
+        {
+          "marker_path_index": 296,
+          "center_pdfpoints": [
+            521.2376098632812,
+            521.2750854492188
+          ],
+          "stem_path_index": 273,
+          "stem_y_pdfpoints": [
+            520.890625,
+            521.6594848632812
+          ],
+          "cap_path_indices": [
+            287,
+            280
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.384429931640625,
+          "marker_stem_midpoint_residual_pdfpoints": 3.0517578125e-05
+        },
+        {
+          "marker_path_index": 297,
+          "center_pdfpoints": [
+            533.2763671875,
+            509.5640869140625
+          ],
+          "stem_path_index": 274,
+          "stem_y_pdfpoints": [
+            509.1612854003906,
+            509.966796875
+          ],
+          "cap_path_indices": [
+            288,
+            281
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.4027557373046875,
+          "marker_stem_midpoint_residual_pdfpoints": 4.57763671875e-05
+        },
+        {
+          "marker_path_index": 298,
+          "center_pdfpoints": [
+            543.8963623046875,
+            503.23480224609375
+          ],
+          "stem_path_index": 275,
+          "stem_y_pdfpoints": [
+            503.0230407714844,
+            503.44647216796875
+          ],
+          "cap_path_indices": [
+            289,
+            282
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.2117156982421875,
+          "marker_stem_midpoint_residual_pdfpoints": 4.57763671875e-05
+        },
+        {
+          "marker_path_index": 299,
+          "center_pdfpoints": [
+            554.32861328125,
+            498.61260986328125
+          ],
+          "stem_path_index": 276,
+          "stem_y_pdfpoints": [
+            498.1854553222656,
+            499.0396728515625
+          ],
+          "cap_path_indices": [
+            290,
+            283
+          ],
+          "plotted_halfbar_pdfpoints_not_experimental_sigma": 0.4271087646484375,
+          "marker_stem_midpoint_residual_pdfpoints": 4.57763671875e-05
+        }
+      ],
+      "responses": {
+        "red": {
+          "published_delta_label": -2.16,
+          "curve_path_index": 291,
+          "curve_y_at_points_pdfpoints": [
+            541.9965401175723,
+            540.2230737885554,
+            530.6070395233321,
+            522.5751850116468,
+            510.63631780075036,
+            502.60363659485637,
+            499.643310546875
+          ],
+          "D_diagonal_plotted_halfbars_not_original_chi2": 41.975920114820305,
+          "residuals_in_plotted_halfbars": [
+            -1.3924029155715414,
+            2.25779399519432,
+            1.3052768409027813,
+            -3.381889534146398,
+            -2.662236157983547,
+            2.9811943869904893,
+            -2.413204244221357
+          ],
+          "author_profile_readout_at_printed_delta": {
+            "log10chi_label": 0.7602803506529555,
+            "chi_label": 5.758115217119319
+          },
+          "polyline_vertex_count": 35
+        },
+        "blue": {
+          "published_delta_label": -0.4,
+          "curve_path_index": 292,
+          "curve_y_at_points_pdfpoints": [
+            549.7793284877346,
+            539.1860890656927,
+            526.0288085741314,
+            518.8360609327332,
+            510.0716226830833,
+            504.9469612057817,
+            503.1449279785156
+          ],
+          "D_diagonal_plotted_halfbars_not_original_chi2": 820.2381275793564,
+          "residuals_in_plotted_halfbars": [
+            -18.695232776042236,
+            5.103444727860374,
+            14.994433857364921,
+            6.344522930554838,
+            -1.260157763157735,
+            -8.087066636548386,
+            -10.61162516523168
+          ],
+          "author_profile_readout_at_printed_delta": {
+            "log10chi_label": 2.5739221420729894,
+            "chi_label": 374.90578517253647
+          },
+          "polyline_vertex_count": 33
+        }
+      },
+      "direction_agreement_only": true,
+      "numerical_closure": "not reproduced: declared D and author chi-profile readouts have different values; original objective/response/normalization/sample input absent"
+    }
+  ],
+  "controls": {
+    "raw_hash_and_vector_source_checked": true,
+    "seven_circle_markers_with_underlying_stems_each_panel": true,
+    "two_caps_verified_per_stem": true,
+    "stem_midpoints_coincide_with_markers": true,
+    "positive_plotted_halfbars": true,
+    "diagnostic_invariant_under_affine_intensity_units": true,
+    "missing_original_chi_closure_retained": true
+  },
+  "all_controls_pass": true,
+  "numeric_control_errors": {
+    "max_marker_stem_midpoint_pdfpoints": 4.57763671875e-05,
+    "max_affine_D_difference": 5.002220859751105e-12
+  },
+  "limitations": [
+    "D uses the extra convention that published halfbars act as independent one-sigma errors; that convention is not a recovered original likelihood.",
+    "Author chi-profile readings are geometric readouts from the published fixed-sigma/I=.2 figure, not newly fitted experimental values.",
+    "Direction agreement does not make the values close, certify the objective or supply the original producer.",
+    "No p-values, confidence intervals, new delta or equal-depth premise; source conditional large-root support is retained.",
+    "Printed746.3/811.6/754.2 labels are preserved; publication lineage/event ledger still required."
+  ]
+}

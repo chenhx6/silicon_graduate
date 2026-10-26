@@ -3,13 +3,13 @@ graph-excluded: true
 updated: 2026-10-26
 ---
 
-## Active handoff — Day23检查点056（Day24仅无学分预习）
+## Active handoff — Day23检查点057（Day24仅无学分预习）
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-055已H3published。056原PRL图xref88的376/462各7黑点中心已提、叠图Codex核；threshold60/100/140最大span.365px，5controls过，原PDF到freshderivedtmp重建exit0/raw只读。误差条多marker覆盖，90°点clipped/rightaxislabelsrounded，bbox不当σ，Iγ不当rawcounts，未拟合/新χ²或δ。AU20-D23-7/8三canonical页native表needs_review。继续原15:00窗口与两槽；无Day25。
+056已H3published。057SH26同hashPDF14Fig12vector无bitmap，21circles/21stems/42caps直接核，midpoint误差4.6e−5pt、Daffine5e−12，7controls过。源σ/I.2 profile在打印δ处几何χ标签约2.3/6.6、47/423、5.8/375，保大根条件优势；新D=Σ(point−polyline)²/halfbar²约140/456、138/1114、42/820，额外独立1σ假设，数值不闭合原目标，未判paper错/未新δCI。SH26-D23-4..6三页needs_review。继续原15:00窗口/noDay25。
 
-详next-continuation-056.md/candidate-pool-056.json；检查以required-checks-056.json为准。Git指针main · Day23: recover plotted Au AD centers while retaining error boundaries；actualhash/H3仅task-publication-receipt-056.json。
+详next-continuation-057.md/candidate-pool-057.json；检查以required-checks-057.json为准。Git指针main · Day23: retain the Pr conditional profile and expose plot replay limits；actualhash/H3仅task-publication-receipt-057.json。
 
 ## Previous handoff — Day22 closeout
 

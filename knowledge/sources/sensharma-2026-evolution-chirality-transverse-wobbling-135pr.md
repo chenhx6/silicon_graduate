@@ -168,3 +168,23 @@ Knowledge Impact and Learning Decision：revises“论文整体独立/重复”�
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | SH26-D23-3 | 本v2 SecII的63Ge/697μg靶、合并Ref16 DGS与[[sensharma-2021-wobbling-motion-135pr-187au]] printed71 Run4描述相匹配，但学位论文合并数1.52×10^10、本v2为2.5×10^10。该采集成分已在2021来源中出现，不能把“相对S19的新run”误说成确认于2026才采集；也不能缺event ledger便认定两版本完整事件集相同或哪版印错。固定σ/I=.2条件χ²支持保持，未由总数差重估显著性。 | cross-version-event-summary-boundary | direct-original-and-cross-source | PDF2 Sec.II; SE21-D23-1 | true |
+
+## Day23：Fig12矢量图示输入与原χ²目标分开核验
+
+本次只定向核既有同hash arXivv2 PDF14 Fig12/III.B，fresh原页与747 inset放大视觉核，不重复称新17页通读。原raw SHA294f791a230a12005ef43a237afb25b9bf731f8f520a1a65d6b32d0386ef91b3。该页无embedded bitmap而有vector paths，故与Au栅格提点不同：system/scripts/day23_sh26_published_vectors.py直接读取黑色circle、其下的vertical stem与两端horizontal caps，以及红/蓝和主图黑曲线的polyline。PDF只读，未执行源包代码或隔离producer。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SH26-D23-4 | Fig12三inset各有7个黑色circle，可在vector图元中分别配到vertical errorstem和两条cap，共21点/42caps；marker与stem中点最大差约4.6×10⁻5 PDFpoint。该结果恢复的是公开图示位置/半误差线长度，非原ring峰面积/协方差或真实统计coverage。图示能量按原件746.3/811.6/754.2keV保留，不能默改成其它来源747.3/813.2的精确能量。 | published-vector-observation-and-errorbar-geometry | original-vector-primitives-and-declared-extraction | arXivv2 PDF14 Fig12 threeinsets | true |
+| SH26-D23-5 | 按主图Arctanδ及log10χ²的刻度对黑profile作几何读数，在打印红/蓝δ处，746.3约χ²2.3/6.6、811.6约47/423、754.2约5.8/375。它们是作者图在σ/I=.2下的显示读数，不是本任务重新拟合或新统计量；保留大根条件偏好，不推全部nuisance自由后的唯一性，也不预判两谷必等深。无dof/CI/p-value/排除σ数。 | published-author-profile-geometric-readout | direct-original-vector-readout-with-conditional-scope | arXivv2 PDF14 Fig12 mainprofiles andcaption sigma/I=.2 | true |
+| SH26-D23-6 | 本任务另定义D=Σ[(图示点−同x处显示曲线)/图示halfbar]²，附加“halfbar当独立1σ”的条件、保持显示归一、不refit。直接polyline给红/蓝D约140/456、138/1114、42/820，方向均偏红，但数值未重现主图χ²读数。D与作者目标不应混称；原objective/归一/误差与样本处理链仍缺，不能把非闭合直接判paper错误或相反强行认证共同likelihood已复现。 | Codex-conditional-plot-diagnostic-and-nonclosure | declared-conditional-analysis-not-original-fit | arXivv2 PDF14 Fig12 main/inset comparison; explicit Ddefinition below | true |
+
+| 图示能量keV | 打印δ红/蓝 | 主图χ²标签的近似读数红/蓝 | 本任务D红/蓝（附加对角halfbar条件） |
+|---|---|---|---|
+| 746.3 | −1.40 / −.59 | 2.3 / 6.6 | 140 / 456 |
+| 811.6 | −1.63 / −.52 | 47 / 423 | 138 / 1114 |
+| 754.2 | −2.16 / −.40 | 5.8 / 375 | 42 / 820 |
+
+D在PDF纵向坐标直接计算，轴的共同平移/尺度不影响它，实际affine控制差≤5.1×10⁻12。最终用literal polyline插值，不依赖将曲线再拟成P2/P4；探索性P2/P4重构及单一归一probe亦未闭合，未将它们冒充作者程序或用于改数据。源χ²是原图名义标签，D是任务声明的另一诊断；图示halfbar的coverage、完整Cov和objective正常数未恢复，故本页没有Δχ²置信检验。
+
+七项几何/hash/cap/中点/正半长/affine/非闭合保留控制实际通过，仅验证本提取。公开曲线与误差图元可读比“只能看近似形状”前进了一步，却仍不提供共同response与原producer。SH26-D23-1/2/3的部分run重叠及逐图ledger缺口原样保留；本图不是一次新偏振或独立采集。新增needs_review:true，旧source self-audit flags不变。
