@@ -214,6 +214,7 @@ def main() -> int:
     sigma_grid = [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90, 1.00]
     result = {
         "schema": "pado-jacobian-sign-audit-011",
+        "exit_code": 0,
         "command": root_cmd,
         "scope": "conditional finite-mesh diagnostic; not a producer, experiment result, global invertibility proof, or global-fold proof",
         "source_scope": {

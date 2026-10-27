@@ -1,6 +1,7 @@
 {
   "schema": "pado-jacobian-sign-audit-011",
-  "command": "PYTHONPATH=raw/writing/pado/Upload:<existing-dependency-path> python3 pado-jacobian-sign-audit-011.py",
+  "exit_code": 0,
+  "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=raw/writing/pado/Upload:tmp/day25-pado-venv/lib/python3.12/site-packages:/opt/venv/lib/python3.12/site-packages python3 outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/pado-jacobian-sign-audit-011.py",
   "scope": "conditional finite-mesh diagnostic; not a producer, experiment result, global invertibility proof, or global-fold proof",
   "source_scope": {
     "physics": "raw/writing/pado/Upload/p_ado/physics/pado.py",
