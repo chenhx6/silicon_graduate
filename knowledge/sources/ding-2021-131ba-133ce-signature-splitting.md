@@ -87,6 +87,7 @@ configuration-constrained PES、cranked shell model（CSM）和 quasiparticle-pl
 | D21-7 | PES 对 7/2+ 候选给出 `131Ba: β2=0.180, γ=9.1°`，`133Ce: β2=0.195, γ=-10.5°`；这些是模型极小值，不是直接实验形变。 | model-result | direct | PDF p.13, Table III | false |
 | D21-8 | 作者把 N=73 `129Ba`、`131Ce`、`133Nd` 的 `νg7/2[404]7/2+` 带作系统比较：首次 up-bending 前的 initial alignment 和 `J^(2)` 相近，且三带分别延伸到 `55/2+`、`51/2+`、`67/2+`，被解释为共同组态的 contextual support；三核旧数据分别引自 refs.46/47/48。 | author-interpretation | contextual | PDF pp.5-6, Figs.4-5 and captions; p.9, Fig.6 and paragraph below; refs.46-48 on pp.14-15 | true |
 | D21-9 | 作者在 Nilsson 图中提出 N=74 的 `νg7/2[404]7/2+` 与 `νh11/2[514]9/2−` 间隙，并用它定性解释 N=73 相对 N=75 同中子数核的激发能与布居差异；这是模型解释，不是直接测得的能隙。 | model-result | direct | PDF p.10, discussion before Sec. III.C; Figs.4-5 | true |
+| D21-10 | Table II 明确将 133Ce 约 2.73 MeV 处列为两个分立母态 2733.9(19/2+) 与 2739.3((19/2+))，分别经 881.4 与 886.8 keV 射线退激至 1852.5 keV(15/2+)，两线中心闭合残差严格为 0.0 keV；依注 a 弱线(Iγ≤10)误差为 ±0.8 keV，证明两态独立存在。 | experimental-fact | direct | PDF p.8, Table II | true |
 
 ## Nuclear Structure Information
 
