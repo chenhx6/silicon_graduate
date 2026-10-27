@@ -5,249 +5,120 @@ created: 2026-10-27
 updated: 2026-10-27
 ---
 
-# Day 25：手征反例、形状共存主线与 133Ce 分析蓝本深入学习
+# Day25：手征反例、形状竞争与133Ce实际分析蓝本
 
 ## Run state
 
 - run_id: 2026-10-27-day-25-01
-- run_date: 2026-10-27
+- session_id: 01a17cdd-58b4-7a53-b782-5248260f526a
 - day_index: 25
-- day_topic: chirality-反例与-shape-coexistence
-- phase: chirality-and-shape-coexistence
 - schedule_id: wiki-daily-learning
-- schedule_name: Wiki 30-day substantive daily learning
-- completed_day_indices: [25]
-- partial_day_indices: [26]
-- curriculum_cards_completed: 1
-- next_day_index: 26
-- Day 25 card audit: complete
+- status: running
+- completed_day_indices: []
+- partial_day_indices: [25, 26]
+- curriculum_cards_completed: 0
+- next_day_index: 25
 - hard_deadline: 2026-10-28T15:00:00+08:00
 - closeout_window: 2026-10-28 15:00–16:00 Asia/Shanghai
 
-### Day 25 card completion audit
+本报告为持续研究checkpoint005，不授分、不提前收束。原run.json仍status:running、counted:false，其此前写入的completed[25]与本报告旧“已授分”不构成正式信用；课程state实际累计24/next25，Day25尚无card-credit/final-session回执。保留原runner字段，不擅改历史身份/截止；正式信用待截止后原runner门。
 
-| Day 25 matrix deliverable | Evidence / artifact and locators | status |
+Day24本次直接核run.json、card-credit-24.json、final-session-receipt-24.json与task-publication-receipt-24.json：completed、formal[24]、preview[25]；发布回执为published。未新增Day24信用，Day21/22/23既有人审/撤回不改。
+
+### Day 25 card readiness audit
+
+|课程matrix交付|当前可审查证据|状态|
 |---|---|---|
-| 回忆“近简并”非充分条件及区分形状共存与手征双重带 | [[chirality-shape-coexistence-companion-matrix]] 理论判据；[[triaxial-shape-coexistence]] 五维判据表；HW11-D25P-001/002 | complete |
-| 主线阅读 Petrache 2006、Lv 2019 与 triaxial-shape-coexistence 原件 | [[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D25-001/002；[[lv-2019-chirality-135nd-reexamined]] LV19-D25-001/002；[[triaxial-shape-coexistence]] | complete |
-| 练习：对 134Pr/135Nd/136Nd 做三行比较（直接观测、作者解释、替代解释） | [[chirality-shape-coexistence-companion-matrix]] 三核三行分对比较表；本报告第三节及第四节 | complete |
-| 反证：写出最小 companion observables 组合，说明缺一项时结论如何降级 | [[chirality-shape-coexistence-companion-matrix]] 最小伴随量组合与四级降级阶梯；本报告第五节 | complete |
-| 交付：chirality/shape-coexistence 竞争解释矩阵 | [[chirality-shape-coexistence-companion-matrix]] 正式交付；本报告第七节 | complete |
-| 重要附属研究：133Ce 分析蓝本持续深入学习（131Ce/133Ce 拓扑节点与 582 分母约束） | [[133ce-thesis-analysis-blueprint]] Day 25 深入学习节；WK22-07/14/34；AW13-1/7 | complete |
+|近简并非充分、共存与手征区分|[[chirality-shape-coexistence-companion-matrix]] 理论判据；PE06 printed112502-1–4；[[triaxial-shape-coexistence]] Day25段|ready-for-final-audit|
+|三源主线阅读|PE06原四页回读/TableI视觉；LV19既有主线ledger+本次PDF2/5定向核；HW11原读ledger及概念校准|ready-for-final-audit|
+|134Pr/135Nd/136Nd三行对照|竞争矩阵Evidence Available，实验/作者/替代分列且保family|ready-for-final-audit|
+|companion最小组合与缺一项降级|竞争矩阵“最小companion组合是问题设计，不是普适终判”|ready-for-final-audit|
+|持久化竞争解释矩阵|knowledge/projects/chirality-shape-coexistence-companion-matrix.md及本报告唯一写回块|ready-for-final-audit|
 
 ## Candidate pool and selection
 
-本轮在 Day 24 正式收束与 Day 25 启动后，重新构建并评估了高增益候选池。当前距离 Asia/Shanghai 次日 15:00 硬截止时间充足（大于 120 分钟），执行原则为：优先高质量完成 Day 25 主卡任务与 133Ce 附属蓝本，随后对下一张未完成课程卡（Day 26）开展无学分预习。
+回忆在读源前提出：能谱相近不足以测几何；同一个B比可以隐藏绝对尺度；自由非对角元与数据相容不等于证明手征。读源后的修正是：近简并也不是动态手征的普遍必要条件，未见线必须有实际灵敏度才构成反证。
 
-| 候选主题 / 槽位 | 输入完备度与预期增益 | 本轮学习决定 |
+|候选|信息增益/实际输入|选择|
 |---|---|---|
-| **主槽：Day 25 手征反例与形状共存主线** | 原件齐备（Petrache 2006 PRL、Lv 2019 PRC、Petrache 2018 PRC、Heyde 2011 RMP）；三核观测事实明确 | **主选推进**：系统完成两带解混合敏感性分析、三核逐 family 分层比较与伴随量降级阶梯构建。 |
-| **附属槽：133Ce 分析蓝本持续深入学习** | 原件 WK22、AW13 与 GZ74 对账清晰；582 分母与同自旋近邻态拓扑待闭合 | **主选推进**：落实 131Ce/133Ce 能级节点与带头翻转对照，明确 582 keV 出带分母未闭合之严格证据边界。 |
-| **预习槽：Day 26 八极关联、E1/E3 与磁转动** | Bucher 2016/2017 (144/146Ba) 与 Garg 2015 (135Pr) 知识库已建立 | **有界预习**：对三级证据梯度与 E1/E3 关联展开概念预习，记录于 partial_day_indices: [26]，不提前授分。 |
+|134Pr off-diagonal E2与TableI身份|四页原件及真实实验/计算两列齐备，可反向核验旧扫描|连续主问题|
+|133Ce程序/双分母实际合同|已有原表、1997原方法与错误倒算的直接反例|不重叠附属问题|
+|GAMPN实际job重放|版本/header/BCS/blocking/signed核缺失|记录缺口，不反复撞端点|
+|Day26既有八极/MR preview|仅复核已存在稿中的普适硬门/归因，未增加课程范围|partial[26]、无学分|
+
+用户另要求巡查五个子会话，作为本run执行可靠性的有界支持任务处理；未替代核结构主线。
 
 ## Sources and evidence
 
-本轮深度核对并闭合了以下核心文献的原件与证据链：
+|来源|本checkpoint实际读区与证据角色|限制|
+|---|---|---|
+|[[petrache-2006-near-degenerate-chiral-misinterpretation]]|父代理回读四页主线，PDF3 fresh视觉TableI/Eqs3–5；独立代理交叉核|非新实验；Ref11/Ref9不同不证明统计独立|
+|[[lv-2019-chirality-135nd-reexamined]]|复用既有全文ledger；本次独立代理定向PDF2/5、VoR024314-8/Figs5–6|正pair本篇未给成对absoluteEM，不作全领域无寿命断言|
+|[[petrache-2018-chiral-bands-even-even-136nd]]|独立代理定向Fig3/TableI/Fig6及MU08 TableII谱系|D5比值与D3模型几何不拼成同pair完整实测|
+|[[heyde-wood-2011-shape-coexistence-review]]|复用既有原读HW11-D25P-001/002/006，核本轮概念量词|E0不唯一测形状/混合，不强制所有核有E0+Coulex|
+|[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]]|父代理PDF67/78文字视觉、112文字；独立代理49/50/54/59/61/69/71/77/98/99|关键页再核，不新称130页全文重读|
+|[[emediato-1997-133ce-rdds-lifetimes]]|父代理PDF2/2106 fresh视觉参数；独立代理方法/表II–III|负λ50.6为旧job直接反例，不恢复WK22 actual输入|
+|AW13、Li04、Singh16、Joss98|独立代理按节点与时钟迁移定向回原件|不同clock/组态/spin/实验不能直接合并|
+|BU16/BU17、Garg15|只核已存在Day26 preview所用原段|来源/模型层分开，不给Day26信用|
 
-1. **[[petrache-2006-near-degenerate-chiral-misinterpretation]] (PE06)**：
-   - Physical Review Letters 96, 112502 (2006)，DOI: 10.1103/PhysRevLett.96.112502；
-   - 核心观测：134Pr 在自旋 I=14–18 区间，能隙虽仅为 36 与 44 keV，但两带 alignment 差约 2ℏ（PDF p.2, Fig.1）；
-   - 模型推导：基于两带解混合波函数（Eqs.1–3）及实测 B(E2) 分支比（Ref. 11），在假定无非对角 E2 矩阵元和短自旋段 V 固定的前提下，提取出相互作用矩阵元 |V| ≈ 14–17 keV，以及两带内禀四极矩比值 Q0,1/Q0,2 = 2.0(4)（允许区间 1.6–2.4，Table I）；
-   - 证据结论：该四极矩不对称直接推翻了理想手征双重带假设，表明该自旋段的近简并实际上是由多个四准粒子交叉（4-qp crossings）压缩能隙所致的伪简并。
+实际文件签名、页数、SHA及本次覆盖记录在本run source-fingerprint-005.json；缺文件会明确记录，不用搜索摘要补正文。公开来源入口/DOI沿各source。Paul1991本次另定向核PDF2/3/4/6及公式/引用，纠正元数据、branching字典和分母；不重新声称14页通读。
 
-2. **[[lv-2019-chirality-135nd-reexamined]] (LV19)**：
-   - Physical Review C 100, 024314 (2019)，DOI: 10.1103/PhysRevC.100.024314；
-   - 实验谱学：JUROGAM2 阵列在 JYFL 开展 100Mo(40Ar,5n)135Nd 反应，建立正宇称 D3/D4 双带，扩展负宇称 D5/D6 双带；
-   - 证据分层：负宇称 D5/D6 拥有 Mukhopadhyay 2007 (Gammasphere DSAM) 的双方实测寿命与绝对 B(E2)/B(M1) 支撑；正宇称 D3/D4 仅测得单个 D3 带内比值，完全缺乏配对成员的寿命与绝对电磁强度尺度；
-   - 局部拓扑边界：正文关于 589/649 keV 跃迁终态指向存在 D2/D3 笔误，Table I 中 D2 行 Ei = 2588.3 keV 与三条出带能差存在 30 keV 算术差，均忠实记录原件字面，不破坏能带整体正宇称拓扑。
-
-3. **[[petrache-2018-chiral-bands-even-even-136nd]] (PE18)**：
-   - Physical Review C 97, 041304(R) (2018)，DOI: 10.1103/PhysRevC.97.041304；
-   - 偶偶多手征候选：报道 5 对候选双重带（D1–D5），但各对完整度极不均衡；
-   - 实验反差：仅正宇称六准粒子对 D5/D5-C 在两个带内均测得了重合的实验 B(M1)/B(E2) 比值；其余 4 对弱伙伴带均缺乏带内偶极跃迁与分支比测量；
-   - 理论反差：三维推转 TAC-CDFT 仅在负宇称 D3 态（组态 D*）上在 ħω > 0.5 MeV 展现了明确的非共面旋转解（φ > 0），不能将单一态的非共面性无条件推至全核。
-
-4. **[[heyde-wood-2011-shape-coexistence-review]] (HW11)**：
-   - Reviews of Modern Physics 83, 1467 (2011)，DOI: 10.1103/RevModPhys.83.1467；
-   - 理论基准：系统确立形状共存的定义、势能面多极小特征及单极跃迁探针；
-   - 判据约束：强 E0 跃迁 ρ²(E0) ~ Z²/R0⁴ a²(1-a²)[Δ⟨r²⟩]² 约束的是组态混合幅度与均方电荷半径差的乘积，不能未声明模型直接反演为唯一的 β 或 γ 形变。
-
-5. **133Ce 学位论文与关联文献**：
-   - [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] (WK22)、[[alwaleedi-2013-band-structures-131ce]] (AW13) 与 [[gizon-1974-deformed-states-cerium-neodymium]] (GZ74)；
-   - 澄清了 131Ce (N=73) 与 133Ce (N=75) 带头零点翻转与同自旋近邻态拓扑，锁定了 582.7 keV out/out 分母缺失的实验事实。
+Tonev2006/2007复用同实验，实测E2不对称、TQPTR/IBFFM结果和作者动态解释分层；模型失败不等于所有静态手征或刚性共存已被无模型排除。新claims均needs_review:true，不增加human-reviewed。
 
 ## Theory/analysis exercise
 
-### 1. 两带解混合模型与非对角 E2 矩阵元敏感性推导
+### 134Pr：先区分实验与计算，再做前向核
 
-在 Petrache 2006 (PE06) 框架中，未扰动转动基底 |1⟩ 与 |2⟩ 在每个自旋 I 下通过正交旋转矩阵 R_I 混合为物理观测的 yrast 态 |y⟩ 与 non-yrast 态 |ny⟩：
+PE06 TableI的17ny/17y/18ny实验为.3(1)/.6(1)/.22(9)，18y为<.08；.33/.70/.17/.062属于Q比2的计算列。旧χ²/95%表因目标列错误且无likelihood/producer而撤回，不能用Δχ²=4直接比较总χ²。
 
-$$
-\begin{pmatrix} |y\rangle \\ |ny\rangle \end{pmatrix} = R_I \begin{pmatrix} |1\rangle \\ |2\rangle \end{pmatrix}, \qquad R_I = \begin{pmatrix} a_I & b_I \\ b_I & -a_I \end{pmatrix}, \quad a_I = \alpha_I, \quad b_I = \sqrt{1 - a_I^2}
-$$
+固定原α、正b、共同实对称forward核Q/q1的两行分别为(1,x)与(x,y)；M=Rf Q Riᵀ。17→15跨连续带身份交换，Table out/in须取raw跨/内比倒数；18→16不倒。
 
-跃迁矩阵元在未扰动基底中表示为四极矩算符 Q。在 PE06 原假定中，Q 为纯对角形式（即忽略非对角矩阵元 q12 = 0）：
+|x|y|R17ny|R17y|R18ny|R18y|
+|---|---|---|---|---|---|
+|0|.50|.333870|.703522|.170382|.062384|
+|.04|.73|.315145|.647261|.187283|.067046|
+|.08|1|.303851|.600031|.201070|.073618|
 
-$$
-Q = \begin{pmatrix} q_1 & 0 \\ 0 & q_2 \end{pmatrix}
-$$
+这证明条件前向敏感性；没有八行联合fit、Cov、上限likelihood或新CI。α复用原提取，q12对称为额外ansatz；q1=q2不等于完整形状相同或chiral波函数。UC为ultimate cranking约1.25，TRS另约1.7。
 
-在此条件下，实验室系初态 i 到末态 f 的跃迁算符矩阵元为 M_{fi} = R_f^T Q R_i。当考虑两个相邻自旋跃迁（如 I=17 → 15 与 I=18 → 16）时，带内与出带跃迁强度的比值可直接化简为：
+### 133Ce：双分母、协方差与能量原点
 
-$$
-\frac{B(E2)_{out}}{B(E2)_{in}} = f\left(a_i, a_f, \frac{q_1}{q_2}\right)
-$$
+一致光子yield、同母、非零分子时，out/out与out/in相除可消去混合线、δ与τ，得到(Yin/Yout)(Eout/Ein)^5。能量相关效率/gate接受度不自动消去。
 
-**非对角 E2 敏感性扩展（本任务代数推导）**：
-若放弃 q12 = 0 的人为简化假定，引入实对称前向跃迁核 q12 = q21：
+465的原表中心给10.62663，Table6.11打印商11.77778/11.78723；仅ρ=0时一阶σ=1.37205，ρ=−1/+1时为1.93848/.08564。实际Cov未得，不报真实CI，不由重叠证明底层计数同源。
 
-$$
-Q = \begin{pmatrix} q_1 & q_{12} \\ q_{12} & q_2 \end{pmatrix}
-$$
+582假设817.7分母的反演.882/1.157/1.192均只是summary条件目标。Table5.2弱线不构成该局部门谱upper limit，分母仍未闭合，禁止逆造线。
 
-此时，跃迁矩阵元演化为：
+Table6.2中|18–20〉实值5.8046/5.8239/5.8985；6.423是50.6−5.5ħω倒算，不能证明原点。Emediato负νh11/2实际用λ50.6、Δ.92、ħω8.41及N4/5空间，直接反驳旧跨壳禁令；不能转填WK22。标准BCS共同移位ε/λ不改u/v，须核actual单位与header。
 
-$$
-M_{fi} = \begin{pmatrix}
-a_f a_i q_1 + b_f b_i q_2 + (a_f b_i + b_f a_i) q_{12} & a_f b_i q_1 - b_f a_i q_2 - (a_f a_i - b_f b_i) q_{12} \\
-b_f a_i q_1 - a_f b_i q_2 + (b_f b_i - a_f a_i) q_{12} & b_f b_i q_1 + a_f a_i q_2 - (b_f a_i + a_f b_i) q_{12}
-\end{pmatrix}
-$$
+四点S的条件协方差另补第三邻ρ=−.05，仅lag≥4为零；实际Cov(E)不由独立等方差控制恢复。
 
-由此得到两项关键代数结论：
-1. **干涉项对四极矩比值的扭曲**：由于交叉项 (a_f b_i ± b_f a_i) q12 的引入，原 q1/q2 = 2.0(4) 的解并不唯一。非对角跃迁矩 q12 的干涉可以显著改变由相同分支比反演出的未扰动四极矩之比；
-2. **Frobenius 模不变量与行列式约束**：对任意固定 Q，正交基底变换严格保持矩阵模与行列式平方：
-   $$\|M\|_F^2 = q_1^2 + q_2^2 + 2q_{12}^2, \qquad (\det M)^2 = (q_1 q_2 - q_{12}^2)^2$$
-   这表明，仅测得单侧分支比或比值无法约束矩阵的绝对尺度；必须测得带内绝对跃迁几率（寿命 τ）与完整跃迁回路，才能实现对内禀形状矩阵元 Q 的闭合反演。
+实际producer：本run forward-checks-005.py/json；独立矩阵乘法复核最大差1.11×10⁻¹⁶。代码只是条件算术，不调用114隔离producer。
 
-### 2. 136Nd 真实出口比值与联合响应合同推导
+### Paul1991：分母与单位复核
 
-利用 Lv 2019 学位论文 Table 5.1 的未截断跃迁表，针对正宇称 D5-C 伙伴带母态 20+ (7543.0 keV) 与 21+ (7927.1 keV) 的实测 E2 出口跃迁，开展同母态分母消去计算：
-
-- **母态 20+ (7543.0 keV)**：
-  - 带内跃迁：611.4 keV（至 C 18+），Iγ = 0.21(5)；
-  - 跨带跃迁：1021.2 keV（至 D5 18+），Iγ = 0.60(10)；
-  - 条件分母消去比：
-    $$R_{20} = \frac{B(E2)_{out}}{B(E2)_{in}} = \frac{I_\gamma(1021.2)}{I_\gamma(611.4)} \left(\frac{611.4}{1021.2}\right)^5 = \frac{0.60}{0.21} \times (0.5987)^5 \approx 0.2198$$
-
-- **母态 21+ (7927.1 keV)**：
-  - 带内跃迁：714.1 keV（至 C 19+），Iγ = 0.18(4)；
-  - 跨带跃迁：1060.7 keV（至 D5 19+），Iγ = 0.80(4)；
-  - 条件分母消去比：
-    $$R_{21} = \frac{B(E2)_{out}}{B(E2)_{in}} = \frac{I_\gamma(1060.7)}{I_\gamma(714.1)} \left(\frac{714.1}{1060.7}\right)^5 = \frac{0.80}{0.18} \times (0.6732)^5 \approx 0.6147$$
-
-- **相邻母态双比对平滑探测效率误差的免疫性**：
-  定义双比 D = R21 / R20 ≈ 2.797。在探测效率遵循能量幂律 f(E) = (E/E0)^s 的假定下，残余对数偏差为：
-  $$\ln(\widehat{D}/D) = \left[ \ln\left(\frac{1060.7}{714.1}\right) - \ln\left(\frac{1021.2}{611.4}\right) \right] s = (0.3957 - 0.5130) s = -0.1173 s$$
-  相比单侧比值高达 0.513 s 的系统学漂移，双比的系统学敏感度降低了 4.4 倍，证明了相邻母态联合比值在消除探测器全局效率不确定度方面的有效性。
-
-### 3. 133Ce 分析蓝本的理论标度解耦与角响应有理数闭合
-
-在 133Ce 硕士论文（Wakudyanaye 2022）的持续深入研究中，本轮完成了三项关键理论与分析推演：
-1. **单粒子能与费米能的壳基准还原**：
-   正文给出的费米能 $\lambda_F = 50.6\text{ MeV}$ 与 Table 6.2 相对单粒子能 $\varepsilon_\nu = 5.45–6.51\text{ MeV}$ 的表面脱节，源于基准定义不同。在唯象谐振子标度 $\hbar\omega_0 \approx 41 A^{-1/3} \approx 8.032\text{ MeV}$ 下，$N=4$ 正宇称壳层零点为 $E_0(N=4) = 5.5 \hbar\omega_0 \approx 44.177\text{ MeV}$。将相对单粒子能 $\varepsilon \approx 6.423\text{ MeV}$ 叠加后得到 $E^{\text{abs}} = 50.600\text{ MeV}$，与 $\lambda_F$ **精确吻合**。同时确立：负宇称 $h_{11/2}$ 轨道源自 $N=5$ 壳层（基准 $52.209\text{ MeV}$，高出约 $8.03\text{ MeV}$），严禁跨壳混用正宇称 $\lambda_F$；
-2. **AFRODITE 阵列有限环接受矩的精确有理数推导**：
-   在开角核展开与方位平均下，Ding 2021（8 个 clover：4@90°, 4@135°）的二阶与四阶门控接受矩精确为 $\langle P_2 \rangle_8 = -1/8 = -0.125$ 与 $\langle P_4 \rangle_8 = -1/64 = -0.015625$；Wakudyanaye 2022（13 个 clover：1@45°, 8@90°, 4@135°）精确为 $\langle P_2 \rangle_{13} = -11/52 \approx -0.2115$ 与 $\langle P_4 \rangle_{13} = 31/416 \approx +0.0745$。两者均非零，证明“all-detector gate”消去门控多极性仅是经验近似而非严格定理，参考比值具有布局敏感性；
-3. **低激发 3-qp 假设的能量学受挫**：
-   在 $A \approx 130$ 质量区，配对破除能量 $2\Delta \approx 1.8–2.2\text{ MeV}$，一个位于仅 $832.0\text{ keV}$ 的低激发带头极难容纳纯粹的 3-qp 构型（同核确认 3-qp 带头均在 $2.5\text{ MeV}$ 以上），低激发 3-qp 假说在能量学上高度受挫。
-
-
-### 4. 133Ce Table 6.11 出带与入带强度比消去定理与 582 keV 幽灵分母的精确代数反演
-
-针对 Wakudyanaye 2022 Table 6.11 列出的 out/out 与 out/in 两组跃迁比率，本任务推导了严格的同母态分支比消去定理：
-对于母态 $|\text{Band 4}, I\rangle$ 退激的混合出带跃迁 $\gamma_1$（$\Delta I=1$）、纯 $E2$ 跨带跃迁 $\gamma_2$（$\Delta I=2$, out/out 分母）与纯 $E2$ 带内跃迁 $\gamma_3$（$\Delta I=2$, out/in 分母）：
-$$\mathcal{R}_{E2} \equiv \frac{r_{E2}(\text{out/out})}{r_{E2}(\text{out/in})} = \frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)} = \frac{I_{\gamma,3}}{I_{\gamma,2}} \left(\frac{E_{\gamma,2}}{E_{\gamma,3}}\right)^5$$
-$$\mathcal{R}_{M1} \equiv \frac{r_{M1}(\text{out/out})}{r_{M1}(\text{out/in})} = \frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)}$$
-
-**定理推论与数值闭环**：
-1. **与混合线 $\gamma_1$ 完全正交**：比值 $\mathcal{R}$ 完全独立于出带混合线 $\gamma_1$ 的能量 $E_{\gamma,1}$、光子强度 $I_{\gamma,1}$ 以及误差极大的混合比 $\delta_1$；母态寿命 $\tau$ 亦完全相消，直接反映带内集体四极跃迁相对于跨带微观四极跃迁的内禀相对强度；
-2. **465 keV ($I=19/2^-$) 实验一致性验证**：
-   Table 6.11 报告比值 $\mathcal{R}_{E2} = 1.06 / 0.09 = 11.778$，$\mathcal{R}_{M1} = 5.54 / 0.47 = 11.787$（两通道在 $0.08\%$ 内重合）。代入 Table 5.2 实验光子强度（$\gamma_3 = 608.3\text{ keV}, I_{\gamma,3}=1.89(18)$；$\gamma_2 = 982.0\text{ keV}, I_{\gamma,2}=1.95(17)$），实测强度比结合能量五次方因子 $(982.0/608.3)^5 = 10.964$，给出实测比率 $10.63 \pm 1.37$。Table 6.11 的理论值 $11.78$ 稳固落在实验 $1\sigma$ 置信区间内，确凿证明作者在 465 keV 处的两组比值源自同一套实验光子数据；
-3. **582 keV ($I=17/2^-$) 幽灵分母的定量反演**：
-   Table 6.11 给出 $\mathcal{R}_{E2} = 5.06 / 0.33 = 15.333$。带内跃迁 $\gamma_3 = 577.8\text{ keV}, I_{\gamma,3}=3.22(21)$。假想跨带跃迁能差 $E_{\gamma,2} = 1409.8 - 592.1 = 817.7\text{ keV}$，能量因子 $(817.7/577.8)^5 = 5.6765$。若此比值源自真实观测线，则其实测强度必须达到 $I_{\gamma,2}(817.7\text{ keV}) \approx 1.19$（或直接由 $r_{E2}=5.06$ 反推得 $\approx 0.88$）。在 Table 5.2 弱线检出限达 $I_\gamma \sim 0.2–0.4$ 的背景下，一条强度达 $1.0$ 的跃迁在 Table 5.2 账本和 Figure 5.1 纲图中完全缺失，无可辩驳地证明：582 keV out/out 分母并无已确认观测线支撑，属于未闭合的幽灵分母，严禁在后续工作中逆向虚构 817.7 keV 观测线。
-
-### 5. 134Pr 两带解混合非对角 E2 敏感性扫描与 Paul 1991 谱系闭环
-
-1. **134Pr 非对角 E2 矩阵元干涉全网格扫描（见专门研究笔记 [[134pr-two-band-mixing-offdiagonal-e2-sensitivity]]）**：
-   - 在 Petrache 2006 (PE06) 两带解混合模型中，假定未扰动基底之间的非对角四极跃迁矩阵元严格为零（$q_{12} \equiv 0$），由此反演得到内禀四极矩比值 $Q_{0,1}/Q_{0,2} = 2.0(4)$，据此宣告两带具有显著不同形状；
-   - 本任务建立广义四极跃迁算符 $Q = q_1 \begin{pmatrix} 1 & x \\ x & y \end{pmatrix}$（$x = q_{12}/q_1, y = q_2/q_1$），在二维参数空间对 Table I 四个实测分支比进行卡方扫描：
-     * 当强制 $x = 0$ 时，模型要求 $Q_{0,1}/Q_{0,2} \approx 2.04$ 才能打破两分支比的强制简并；
-     * 当允许微弱非对角跃迁 $x = q_{12}/q_1 \approx +0.04$（仅 $4\%$）时，所需内禀四极矩比值立即降至 $Q_{0,1}/Q_{0,2} \approx 1.37$（$\chi^2 = 0.458$），与微观 TRS 和超形变推转（UC）势能面极小预言的 $\sim 1.25–1.4$ 完美调和；
-     * 当 $x \approx +0.08$（仅 $8\%$）时，严格等形状解（$Q_{0,1} = Q_{0,2}$）的卡方仅为 $1.68$，远低于 $95\%$ 排除阈值（$\Delta\chi^2 = 4.0$）；
-   - **定论**：PE06 的“形状共存”推论具有极强的模型假定依赖性；非对角四极跃迁干涉足以在微弱形状差甚至等形状前提下重现实测分支比，单凭分支比无法排他性排除手征动力学；
-2. **Paul 1991 (1991Pa04) 谱系闭环与 133Ce 来源建立（见 [[paul-1991-n75-electromagnetic-properties-triaxiality]]）**：
-   - 深度通读用户提供的 14 页原件，建立规范来源页并提取 PA91-01–06 核心原子证据；
-   - 确立 Stony Brook 串列加速器 120Sn(16O,3n) 反应（69 MeV，5 角度 HPGe）测定的 133Ce 带内 mixing ratio $\delta(E2/M1) < 0$ 采用 Yamazaki 1967 约定；
-   - 确认 WK22 Figure 6.15(a) 中引用的 133Ce Band 1 带内 $\delta$ 完全直接源自本篇，彻底闭合两文献间的实验数据谱系。
-
-### 6. AFRODITE 阵列几何、全探测器门 $R_{AD}$ 算符偏差与 QTR 代码链输入合同闭环
-
-基于独立技术研究笔记 [[133ce-afrodite-rad-finite-geometry-and-qtr-code-contract]]，本任务完成了关于 $^{133}\text{Ce}$ 实验阵列与微观模型输入层面的四项核心规范闭环：
-1. **AFRODITE 阵列 8 vs 13 Clovers 几何同源性**：Ding 2021 正文描述 8 Clovers（4@90°, 4@135°）；WK22 §4.5 述及基础架构为 8 Clovers + 7 LEPS，但 §5.2.1 报告该次 $^{133}\text{Ce}$ 实验具体配置为 13 Compton-suppressed Clovers（1@45°, 8@90°, 4@135°）。两文报告的物理事件数完全相同（$2.8 \times 10^{10}$ 个双符合、$5.4 \times 10^9$ 个高阶符合），证实两者为同一束流数据的离线排序差异。45° 单 Clover 在非对称排序中可能被掩模，角响应完全特定于本次 iThemba LABS 几何，严禁跨阵列套用；
-2. **全探测器门 $R_{AD}$ 的角关联消去定理与有限阵列微观残余**：在 $4\pi$ 均匀连续角积分极限下，门跃迁 $\gamma_2$ 的各向异性项在球壳积分中精确为零，使得 $R_{AD}^{4\pi} = W_1(135^\circ)/W_1(90^\circ)$ 严格独立于门线多极性；然而 AFRODITE 具有 8@90° 与 4@135° 的 2:1 立体角非对称性，全探测器门求和使 $90^\circ$ 门权重达 $\sim 60\%–70\%$，导致强烈各向异性门线产生微观残余偏置。$R_{AD} \sim 1.3$（四极）与 $R_{AD} \sim 0.8$（偶极）仅为该阵列粗分多极性的经验基准，不可作为高精度 $\delta$ 拟合依据，且绝对禁止跨阵列移植；
-3. **正宇称形变参数 $\varepsilon_4$ 的字面冲突与处理规范**：Table 6.1 列 $\varepsilon_4 = 0.1$，而紧接正文与同源 Ding 2021 正文均写 $\varepsilon_4 = 0.01$。物理上 $\varepsilon_4 = 0.1$ 会夸大十六极效应近 10 倍，但未经实际输入卡核验前，严禁擅自改写原表；必须在模型复现中同时保留两套候选输入边界；
-4. **化学势 $\lambda_F$ 跨壳隔离红线**：正宇称 $\lambda_F = 50.60\text{ MeV}$ 叠合 $N=4$ 主振子壳层基准 $E_0(N=4) = 5.5 \hbar\omega_0 \approx 44.18\text{ MeV}$，精确解释单粒子能 $\varepsilon \approx 6.42\text{ MeV}$；负宇称 $h_{11/2}$ 属于 $N=5$ 壳层，其基准高出 $\hbar\omega_0 \approx 8.03\text{ MeV}$；WK22 正文未显式记录负宇称 $\lambda_{F,-}$。严禁在负宇称计算中套用正宇称 $\lambda_F = 50.6\text{ MeV}$，否则将导致准粒子激发能虚假增加 $\sim 8\text{ MeV}$ 并引发 BCS 占有几率灾难性崩溃。
+原Eq6是.697 E2^5/(E1^3 λpure)，λpure为纯M1分量branching比。用整条混合光子线Λ时需(1+δ²)；旧source漏E1²及E2份额已纠正。原Fig2低spin约1/高spin约5倍是ΔI1 E2分母，不能转作Fig3 ΔI2分母。Table1反应元数据与N.Xu作者亦按原页修正，具体PA91-D25-A005-01–04。
 
 ## Counter-evidence and missing companion observables
 
-### 1. 134Pr / 135Nd / 136Nd 三核三行分对竞争矩阵
-
-将 134Pr、135Nd 和 136Nd 的实验事实、作者解释与竞争解释进行分层对照：
-
-| 核素及候选能带 | 直接观测与实验支持（Direct Observations） | 作者解释与采纳模型（Author Interpretation） | 竞争解释与未闭合缺口（Alternative Explanations） |
+|核/family|直接观测|作者/模型解释|替代与缺口|
 |---|---|---|---|
-| **134Pr**<br>(旧 Band 1/2，交叉自旋段 I=13–19) | - 能隙极小：I=15, 16 处分别仅为 36 keV 与 44 keV；<br>- alignment 存在系统性差异：Δi ≈ 2ℏ；<br>- Tonev 2006/2007 测得双方寿命，带内 B(E2) 存在 2–4 倍不对称（如 I=14 时分别为 0.153 与 0.039 e²b²）；<br>- 实测出带/带内 B(E2) 分支比。 | - Petrache 2006：两带解混合模型提取 Q0,1/Q0,2 = 2.0(4)，否定理想手征，归因为准粒子交叉；<br>- Tonev 2006/2007：TQPTR 与 IBFFM 模型比较，提出由弱三轴涨落主导的“动态手征”（dynamic chirality）。 | - **准粒子带交叉与两带混合**：4-qp 组态随转动介入，反交叉导致表观伪简并；<br>- **三轴形状共存**：两带在不同形变势阱中演化；<br>- **未闭合缺口**：Tonev 2007 模型存在交叉失败与能隙过大问题；两带解混合忽略了非对角 E2 矩阵元。 |
-| **135Nd**<br>(负宇称对 D5/D6，经典手征带) | - 双方寿命由 Gammasphere DSAM (Mukhopadhyay 2007) 精确测定；<br>- 带内 B(E2) 与 B(M1) 在实验误差内高度相等，且随自旋呈现共同演化；<br>- 低自旋端展现特征的 B(M1)/B(E2) 交错。 | - Mukhopadhyay 2007：TAC+RPA 结合，解释为从低自旋手征振动（chiral vibration）向高自旋静态手征（static chirality）的相干演化。 | - 经典手征双重带的最佳候选之一；<br>- **未闭合缺口**：TAC+RPA 在临界转变频率处存在谐振近似发散困难；有限量子 PRM 预测的隧穿能隙与实验存在约 20% 偏差。 |
-| **135Nd**<br>(正宇称对 D3/D4，3-qp 双重带) | - JUROGAM2 建立完整能带拓扑与相互跃迁（Lv 2019）；<br>- 修订了自旋宇称指认，由 1184 keV E1 跃迁连接到低能态；<br>- 仅测得单个 D3 的带内比值。 | - Lv 2019：结合约束协变密度泛函理论（CDFT）与 PRM，指认为多重手征双重带（MχD）。 | - **多准粒子激发或共存极小**；<br>- **重大缺口**：完全缺乏 D4 的寿命测量，无配对的绝对 B(E2)/B(M1) 强度；正文 589/649 keV 存在指向笔误；目前不能排除形状共存或带交叉解释。 |
-| **136Nd**<br>(正宇称对 D5/D5-C，六准粒子对) | - JUROGAM2 谱学建立能带（Petrache 2018, Lv 2019）；<br>- 五对中唯一在两成员带内均测得重合 B(M1)/B(E2) 实验比值的能带；<br>- 存在明确的带间跨带 E2 连接。 | - Petrache 2018：偶偶核首例 MχD 候选；<br>- Chen 2018：四壳层 PRM 再现带内电磁比值与角动量取向。 | - **三轴多极小共存**：组态 C 在微观势能面上具有不同的形变深度；<br>- **重大缺口**：缺乏该对的实验寿命测定；TAC 3D 偏转解仅在 D3 给出，D5 缺乏显式微观 3D 证明。 |
-| **136Nd**<br>(弱伙伴对 D1–D4 及旧负宇称带) | - D1–D4 仅观察到能级相近与弱连接跃迁，缺少伙伴带带内偶极线与比值；<br>- Mukhopadhyay 2008 曾测得旧负宇称 Bands 1/2 寿命不对称。 | - Petrache 2018：将全核 5 对统称为 MχD 体系；在 D3 上展示了 3D-TAC-CDFT 非共面解。 | - **异质证据拼凑**：不能把 D5 的比值支持与 D3 的模型几何拼成单对的完整证明；<br>- 旧 Bands 1/2 对应 D4 与 D3 主带，其寿命不对称直接否定了两主带互为手征对，支持形状共存与多准粒子交叉。 |
+|134Pr旧Band1/2|谱/对齐/E2分支、Tonev绝对E2不同|PE06简化解混合；Tonev涨落/动态手征|配置交叉/混合、offdiag E2须检；不证形状唯一|
+|135Nd正D3/D4、负D5/D6|正pair一个D3比值；负pair双方τ和绝对B(E2)、B(M1)|CDFT/PRM、TAC/RPA各有限域|正pair不借负pair强支持；本篇缺匹配absoluteEM|
+|136Nd五pair|D5双方relative比；旧MU08的D4/D3主带EM|D3显式3DTAC；不同配置交叉/混合|弱C伙伴缺自己的比；旧主带互比不替新伙伴，也不否定正D5|
 
----
-
-### 2. 最小伴随观测量（Companion Observables）组合与四级降级阶梯
-
-为了防止“按单一特征打勾即宣称模式成立”的偏颇，严格定义模式裁决所需的最小伴随量组合及缺失时的降级阶梯：
-
-```
-Level 1: 拓扑身份与谱线纯度 (Topological & Branch Identity)
-   ↓ [缺失：终态/门控歧义] → 降级为：未定属候选能级对（Candidate Placement Only）
-Level 2: 实测时钟与绝对电磁标度 (Clock & Absolute Strength Scale)
-   ↓ [缺失：寿命 τ / 绝对 B(E2)] → 降级为：相对比值相容候选带（Relative-Ratio Candidate Only）
-Level 3: 固定模型空间的可失败预报 (Frozen-Model Falsifiable Predictions)
-   ↓ [缺失：未冻结自由度 / 事后调参] → 降级为：后验参数拟合描述（Post-hoc Parameter Description）
-Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-factor, Qs, E0)
-   ↓ [缺失：独立正交检验] → 降级为：多重竞争假设并存（Multiple Viable Hypotheses）
-```
-
-**四级阶梯详细说明**：
-1. **第一级（母态/终态/family/Jπ 确定性与成分纯度）**：
-   - 要求每条谱线具有明确的门控关联、探测效率校正、内转换系数处理及未见分支上限；
-   - **缺项降级**：若存在类似 Lv 2019 的 589/649 keV 端点歧义或双峰重叠，该能级在未澄清前不得作为电磁对称性核算输入，结论降级为“拓扑未闭合的候选对”。
-2. **第二级（实测时钟与绝对电磁尺度）**：
-   - 要求具备双方同自旋态逐态可绑定的寿命测量（DSAM / RDDS / fast-timing）及完整的绝对分支比，提取绝对 B(E2) 与 B(M1)；
-   - **缺项降级**：若仅有 B(M1)/B(E2) 相对比值而缺乏寿命（如 135Nd 正宇称对与 136Nd D5 对），无法检验两带内禀四极矩 Q0 是否相等，结论降级为“分支比相容但形状对称性未检”，不能排除三轴形状共存。
-3. **第三级（固定空间/形变参数的微观或半微观模型预报）**：
-   - 要求模型输入参数（形变 β, γ、单粒子能、惯量比、配对隙）预先冻结，给出可被实验反驳的独立物理量预报（如交叉频率、带间跃迁、能量劈裂趋势）；
-   - **缺项降级**：若每增添一个观测点就重新调整 γ 角或科里奥利衰减因子（over-tuning），模型失去证伪能力，结论降级为“条件参数拟合”，不能排除替代模型。
-4. **第四级（独立正交结构 Holdout 检验）**：
-   - 要求具备角动量几何敏感的独立观测量，如特定态的 g 因子（TDPAD / 瞬态场）、静电四极矩 Qs、电单极跃迁 E0 或单核子转移反应截面；
-   - **缺项降级**：在无独立 holdout 的情况下，即使前三项吻合良好，亦不能断言该模式具有数学唯一性，必须保留形状共存与多准粒子混合的竞争可能性。
+最小组合按具体问题选取：身份/响应→匹配absoluteEM尺度→固定空间/参数的可失败预报→有分离预报的独立结构holdout。缺身份则暂缓对应matched比较；缺clock且无其它绝对约束则只得relativeEM；缺BR/ICC/response则复算仍条件化；缺独立holdout则保留等效解释。g/Qs只是可选互补量，完整组合也不保证唯一模式。
 
 ## Knowledge Impact and Learning Decision
 
-1. **知识影响（Knowledge Impact）**：
-   - 彻底确立了“能级近简并绝非手征充分条件”的科学共识，纠正了单纯以能量相近识别手征双重带的片面方法；
-   - 明确了三轴形状共存与核手征性的物理判据边界，建立了涵盖四级降级阶梯的最小伴随观测量规范；
-   - 梳理了 134Pr、135Nd 与 136Nd 在实验完备度与模型有效域上的真实层级，阻断了在不同核素和能带之间跨领域借用证据的错误实践；
-   - 深化了 133Ce 分析蓝本的拓扑根基，锁定了 131Ce/133Ce 带头翻转及 582 keV 出带分母缺失的不可逆证据底线。
-
-2. **学习决定（Learning Decision）**：
-   - 对 134Pr 的解混合四极矩反例与形状共存解释判定为 `supports`（支持作为经典反例和方法标杆）；
-   - 对 135Nd 负宇称对的手征振动与静态手征演化判定为 `supports`（有强绝对电磁支撑）；
-   - 对 135Nd 正宇称对及 136Nd D1–D4 对的全称手征认证判定为 `limits`（受限于缺失的绝对跃迁强度与未闭合端点）；
-   - 对 133Ce 的 582 keV 出带比判定为 `limits`（分母缺失，禁止逆向造线）。
+- supports：134Pr对近简并充分性的原反例；135Nd负pair绝对EM强支持；136Nd D5有限relative支持。
+- revises：旧Table计算列当实验、无依据CI、壳offset恢复、假检出限、3qp相对Ex下限与Au相位错误归因。
+- limits：PES/RMS几何、相同B比或弱线缺失的解释范围；动态/共存/配置解释均须具体预报。
+- Day26 preview只纠正既有MR普适下降/AMR严格禁戒、SCCM宏微观归因；没有新卡信用。
 
 ## Durable knowledge delta
+
+长期结果已写入竞争矩阵、概念页、133Ce蓝本及三研究笔记；来源原子claim保留输入/模型/条件推导。输出脚本和巡检回执只供复现，不作为第二知识库。下列唯一块兼顾本run此前增量与当前修订；旧结论保留Git/入口快照，正文已替换为当前可支持版本。
 
 ```knowledge-writeback
 {
@@ -255,20 +126,16 @@ Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-fa
   "items": [
     {
       "knowledge": "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
-      "summary": "Formal Day 25 delivery: chirality vs shape coexistence companion matrix, near-degeneracy counterexamples, 134Pr/135Nd/136Nd three-nucleus comparison, and 4-tier companion observables degradation ladder.",
       "anchor": "## 理论判据：近简并为什么不是手征充分条件及手征与形状共存的鉴别",
+      "summary": "三核逐family比较；纠正普适必要/充分硬门、计算列误作实验及无依据CI。",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
-          "locator": "PE06-D25-001"
+          "locator": "PE06-D25-A005-01"
         },
         {
           "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
-          "locator": "PE06-D25-002"
-        },
-        {
-          "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
-          "locator": "LV19-D25-001"
+          "locator": "PE06-D25-A005-03"
         },
         {
           "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
@@ -277,18 +144,18 @@ Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-fa
         {
           "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
           "locator": "PE18-D25-001"
+        },
+        {
+          "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+          "locator": "PE18-D25-003"
         }
       ]
     },
     {
       "knowledge": "knowledge/concepts/triaxial-shape-coexistence.md",
-      "summary": "Formal Day 25 criteria distinguishing triaxial shape coexistence from chiral doublets across five physical dimensions.",
       "anchor": "## Day 25 正式核验：三轴形状共存与核手征性的鉴别边界",
+      "summary": "区分结构/模型层次，E0和EM/holdout设计不作为所有核的强制终判。",
       "sources": [
-        {
-          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
-          "locator": "PE06-D25-001"
-        },
         {
           "path": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
           "locator": "HW11-D25P-001"
@@ -296,29 +163,45 @@ Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-fa
         {
           "path": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
           "locator": "HW11-D25P-002"
+        },
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D25-001"
         }
       ]
     },
     {
       "knowledge": "knowledge/projects/133ce-thesis-analysis-blueprint.md",
-      "summary": "Formal Day 25 subsidiary research on 133Ce thesis analysis blueprint: 131Ce/133Ce level topology contrast, bandhead ground/isomer inversion, and 582 keV out/out missing denominator constraint.",
       "anchor": "## Day 25 持续深入学习：131Ce/133Ce 拓扑节点对照、带头零点翻转与 582 keV 出带分母未闭合之严格约束",
+      "summary": "逐节点/双分母/相关误差；撤回壳offset、检出限、3qp伪下限；实际输入缺口保持。",
       "sources": [
         {
           "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
-          "locator": "WK22-07"
+          "locator": "WK22-D25-A005-01"
         },
         {
           "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
-          "locator": "WK22-14"
+          "locator": "WK22-D25-A005-02"
         },
         {
           "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
-          "locator": "WK22-34"
+          "locator": "WK22-D25-A005-03"
         },
         {
-          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
-          "locator": "AW13-1"
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-D25-A005-04"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-D25-A005-05"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-D25-A005-06"
+        },
+        {
+          "path": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+          "locator": "EM97-D25-A005-01"
         },
         {
           "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
@@ -328,61 +211,152 @@ Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-fa
     },
     {
       "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
-      "summary": "Added Day 25 evidence rows: 134Pr/135Nd/136Nd chirality counterevidence vs shape coexistence, and 133Ce triaxial scale decoupling and unclosed 582 keV denominator.",
       "anchor": "## Evidence matrix",
+      "summary": "两条Day25证据行保留观测/模型/实际输入缺口，长期蓝本未结项。",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
-          "locator": "PE06-D25-001"
+          "locator": "PE06-D25-A005-01"
         },
         {
           "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
-          "locator": "WK22-07"
+          "locator": "WK22-D25-A005-03"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/134pr-two-band-mixing-offdiagonal-e2-sensitivity.md",
-      "summary": "Sensitivity analysis of off-diagonal E2 matrix element q12 in 134Pr two-band unmixing model, proving reconciliation with microscopic TRS/UC and equal-shape viability.",
-      "anchor": "## 1. 研究问题与背景",
+      "anchor": "## Research Trigger",
+      "summary": "原八行TableI分列，补17→15倒数；可执行前向例替代旧统计认证。",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
-          "locator": "PE06-D25-001"
-        }
-      ]
-    },
-    {
-      "knowledge": "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
-      "summary": "Full scientific reading and source establishment for Paul 1991 N=75 isotones electromagnetic properties, providing the in-beam angular distribution data and Yamazaki mixing ratio convention for 133Ce Band 1.",
-      "anchor": "## Bibliographic Record",
-      "sources": [
-        {
-          "path": "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
-          "locator": "PA91-01"
+          "locator": "PE06-D25-A005-01"
         },
         {
-          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
-          "locator": "WK22-25"
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D25-A005-02"
+        },
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D25-A005-03"
         }
       ]
     },
     {
       "knowledge": "knowledge/research-notes/133ce-afrodite-rad-finite-geometry-and-qtr-code-contract.md",
-      "summary": "Investigation of AFRODITE array geometry, all-detectors gate RAD finite-angle cancellation theorem, and QTR code pipeline input contract for 133Ce.",
-      "anchor": "## 1. 核心问题与研究背景",
+      "anchor": "## Research Trigger",
+      "summary": "程序角色与actual输入分开；BCS共同零点不变性及负宇称50.6的原文反例。",
       "sources": [
         {
           "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
-          "locator": "WK22-01"
-        },
-        {
-          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
-          "locator": "WK22-27"
-        },
-        {
-          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
           "locator": "WK22-30"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-31"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-35"
+        },
+        {
+          "path": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+          "locator": "EM97-D25-A005-01"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/131ce-133ce-topological-nodes-configuration-substitution-contract.md",
+      "anchor": "## Research Trigger",
+      "summary": "节点闭合、全links替代和相位规范；不以3Δ作相对Ex下限。",
+      "sources": [
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-33"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-46"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-D25-A005-04"
+        },
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-7"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+      "anchor": "## Bibliographic Record",
+      "summary": "补齐source结构并据原公式纠正能量幂/混合份额、分母身份、反应和作者元数据；本checkpoint为定向读区。",
+      "sources": [
+        {
+          "path": "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+          "locator": "PA91-D25-A005-01"
+        },
+        {
+          "path": "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+          "locator": "PA91-D25-A005-02"
+        },
+        {
+          "path": "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+          "locator": "PA91-D25-A005-03"
+        },
+        {
+          "path": "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+          "locator": "PA91-D25-A005-04"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+      "anchor": "## Day25内Day26无学分preview：相消机制的实际分解",
+      "summary": "纠正已存在preview中的宏微观归因，保留原SCCM中子/质子贡献边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+          "locator": "BU17-D25P-A005-01"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+      "anchor": "## Day25内Day26无学分preview：比值趋势与模型条件",
+      "summary": "Garg原比值上升反例；候选MR与寿命方法不设普适硬门，原review保持。",
+      "sources": [
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-D25P-A005-01"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-D25P-A005-02"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "anchor": "### 133Ce深入学习与两篇学位论文补充",
+      "summary": "增加本run来源/受控研究笔记的导航，不把推理页当source证据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-D25-A005-01"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/overview.md",
+      "anchor": "## Current Snapshot: 2026-10-27 Day25 checkpoint005",
+      "summary": "同步实际lint/目录统计；科学纠错例来自PE06，计数本身仅由lint给出。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D25-A005-01"
         }
       ]
     }
@@ -392,36 +366,22 @@ Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-fa
 
 ## Open questions and belief revision
 
-1. **未决问题（Open Questions）**：
-   - 在 134Pr 中，非对角 E2 矩阵元 q12 与带间相互作用矩阵元 V 的真实物理量级如何通过微观模型（如包含四准粒子空间的投影壳模型或三维推转）独立确定？
-   - 135Nd 正宇称 D3/D4 伙伴带是否存在可行的快时钟实验方案（如使用薄靶结合高速反冲的 RDDS），以获得决定性的绝对 B(E2) 检验？
-   - 133Ce 的 582.7 keV 跃迁是否存在其它未被纲图放置的微弱分支通道，能否从原始符合矩阵中提取该母态的实际探测上限？
+1. 134Pr实际联合likelihood、上限置信定义、α/V/能隙Cov与signed E2核未得；下一步不能把自由q12拟合相容当手征证成。
+2. WK22 actual GAMPN/ASYMO/PROBMO header/input、ε4冲突、单位/零点/负λ、BCS/blocking、signedEM仍缺。
+3. 817.7同母gate背景/效率/局部upper limit和582分母身份未闭合；不靠其它弱线填值。
+4. 832keV的3qp可行性unknown；新空间须给能量/Jπ/全部links预报。两个19/2+原表行保存，.5keV闭合差不抹平。
+5. 已核131/133Ce时钟不能跨态/核/组态移植，单Qt不测γ软度。
 
-2. **信念修正（Belief Revision）**：
-   - **修正前**：容易倾向于认为在三轴形变区只要观察到同宇称、同自旋、能量近简并且具有某种带内比值特征的双重带，即可初步推定为手征双重带；
-   - **修正后**：深刻认识到多准粒子能带交叉、反交叉能级排斥和多极小形状共存是低能核结构中的普遍现象，均能在有限角动量窗口内伪造高保真度的近简并能谱。没有实测绝对四极矩（寿命 τ）与特征带间选择定则支撑的候选带，只能停留在未闭合的候选层级，必须保留形状共存与带交叉的对等竞争解释。
+信念修订：更多术语、漂亮算式或lint通过不增加科学证据。实际原表列身份、母末态和响应合同决定可做的推断；没有输入时保持unknown，并继续有可解析输入的问题。
 
 ## L0–L4 state
 
-- **L0（文献摄入与原始元数据校验）**：全部 6 篇关联文献（Petrache 2006, Lv 2019, Petrache 2018, Heyde 2011, Tonev 2006/2007）完成原始 DOI、PDF 指纹与全文字面核验；
-- **L1（能级纲图、能带拓扑与自旋指认）**：134Pr、135Nd、136Nd 及 133Ce 纲图完成逐带逐线端点对账，记录局部排版歧义与闭合差；
-- **L2（电磁跃迁率、分支比与寿命分析）**：严格分离分支比派生量与绝对强度测量，建立两带解混合敏感性模型，完成 136Nd 相邻母态比值合同；
-- **L3（竞争模式判别与多源综合）**：构建并交付三核手征反例与形状共存竞争解释矩阵，建立四级伴随观测量降级阶梯；
-- **L4 准备边界**：保持对用户未公开数据、事件级协方差与私有代码的隔离边界；未获得实际符合矩阵与探测器响应前，不强行反演不可测参数。
+L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条件前向振幅和误差传播；L3：三核竞争矩阵、可失败设计；L4：actual事件/response/Cov/producer缺失，未宣称重分析或复现。自审中的科学未决为P1/明确隔离的解释边界，不冒充技术验证失败或用户待办；人工review标志保持。
 
 ## Verification and continuation
 
-1. **环境与代码验证**：
-   - 执行路径契约检查：python3 system/scripts/wiki_boundary_check.py --root .，确认 0 violations；
-   - 执行代码与格式规范检查：python3 system/scripts/wiki_lint.py --fail-on error，确认 0 errors，267 warnings；
-   - 执行差异检查：git diff --check，确认无悬挂空白或冲突标记（0 errors）；
-   - 执行多代理并行学习与专项档案构建：三项深度分析档案已沉淀至 outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/：
-     * ce133-cancellation-proof.md（Table 6.11 出带/入带比率消去定理完整证明、465 keV 误差传播与 582 keV 幽灵分母排他性反演）；
-     * day26-octupole-dossier.md（144,146Ba GOSIA 库仑激发多步拟合、E1/E3 相对符号与微观 D0=D0(macro)+D0(micro) 抵消机制）；
-     * day26-magnetic-rotation-dossier.md（135Pr TAC 3-qp/5-qp 构型演化、剪刀机构闭合角推导与高自旋四模式鉴别矩阵）；
-   - 执行权威写回与课程验证：通过 validate_report、validate_curriculum_coverage 与 validate_durable_knowledge 权威核验（valid=True, error=None, 7 writeback items, 13 knowledge paths）。
+本checkpoint正式检查结果写required-checks-005.json，未执行前不写通过。科学核验与结构检查分开；runner写回验证须用真实原baseline和当前checkpoint入口两套快照，不用未传baseline的valid冒称run-change检查。
 
-2. **后续续接建议（Continuation）**：
-   - 本次运行正式完成 Day 25 的全部核心与附属任务，授予以 Day 25 为限的正式课程学分；
-   - 依据 30 天计划守卫规则，在距离次日 15:00 仍有充裕时间的情况下，已将 Day 26 纳入 partial_day_indices: [26] 进行前置预习；
-   - 下一阶段工作将针对 Day 26 主线（八极关联、E1/E3 跃迁与磁/反磁转动，聚焦 144Ba/146Ba 直接八极跃迁与 135Pr 磁转动证据梯度），在正式 Day 26 runner 启动后开展全面深化研究。
+用户所列五子会话的巡检见subagent-supervision-005.json：一个capacity失败、四个已完成；失败线程已用原生协作续接并完成有界只读核对。Farmer误把子id归到父session_id的问题已用失败回归复现并修正；v2禁止直接app-server子输入，故改为父线程接通知后原生协作恢复。父未运行时不唤醒历史子失败，dry-run零恢复动作；10项AgentOps测试通过。新监督器live PID442391，保持原root session/model，不新建daily run或改deadline。
+
+next-continuation-005.md保留可恢复研究问题。仅本次15:00截止后启动正式收束/信用审计与Day26准备；现在继续Day25，Day26无学分，Day27不打开。Git发布只显式本run文件，raw/PLAN/Bib、旧dirty及114保持。用户回复只给必要结果，完整执行证据留回执。

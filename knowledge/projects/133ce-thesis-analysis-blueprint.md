@@ -16,7 +16,7 @@ tags: [thesis, deep-learning, spectroscopy, qtr, analysis-blueprint]
 
 ## Agent active summary
 
-本项目继续作为133Ce实际分析蓝本，不能以source/译稿完成结项。Day24先完成手征主卡原件与逐伙伴证据图的高价值工作，再推进本页“有限all-detector门的接受度练习”；13/8clovers的actual run仍待ledger。Day24另已把131Ce实际寿命/限值和本核三个母态的九条observed边接成迁移合同，不移植数值τ/Qt。A13高spin/版本零点与WK22程序引文层的新边界已分栏。新用户原件[[larsson-1978-nuclear-core-quasiparticle-coupling]]的历史signedEM/矩阵接口现已原读，关闭此前方法body缺口，原actual input仍缺。新推断needs_review:true，不改变既有Band5用户审核、raw或模型actual输入边界。
+133Ce继续作为实际分析蓝本，非普通摄入结项。Day25 checkpoint005按原件撤回壳offset恢复、817.7检出限、3qp伪下限及actual阵列闭环；保留465双分母条件消去、Cov敏感性、BCS共同零点与完整signed核合同。原ε4/units/λ/active mask/同母态分母仍缺，AW13 Band5既有人审不改。最新可复用推导见本页Day25段与两研究笔记；新needs_review:true。
 
 ## Research Question
 
@@ -136,7 +136,7 @@ $$S_I=\tfrac12 E_{I-2}-\tfrac32E_{I-1}+\tfrac32E_I-\tfrac12E_{I+1}.$$
    $$\rho(S_I, S_{I+1}) = \frac{-15/4}{5} = -\frac{3}{4} = -0.750$$
 3. **次近邻弱正相关（+30%）**：
    $$\mathrm{Cov}(S_I, S_{I+2}) = \left[ \left(\frac{3}{2}\right)\left(\frac{1}{2}\right) + \left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right) \right] \sigma_E^2 = \frac{3}{2} \sigma_E^2, \qquad \rho(S_I, S_{I+2}) = \frac{3/2}{5} = +\frac{3}{10} = +0.300$$
-   对于 $|k| \ge 3$，$\mathrm{Cov}(S_I, S_{I+k}) = 0$。
+   第三邻点$\mathrm{Cov}(S_I,S_{I+3})=-\sigma_E^2/4$，$\rho=-.05$；仅$|k|\ge4$时为零。此为独立等方差能级假设下的条件协方差，不是实际数据误差。
 
 **物理与拟合推论**：
 高达 $-75\%$ 的相邻负相关表明，若任意单一能级 $E_I$ 发生偶然的向上统计涨落 $+\delta$，$S_I$ 将被放大跳升 $+\frac{3}{2}\delta$，而紧邻的 $S_{I+1}$ 将被同步向下拖拽 $-\frac{3}{2}\delta$。这一核结构差分效应会在能谱曲线上人为制造幅度高达 $3\delta$ 的假交错（artificial zigzag oscillation），极易被误判为物理上的旋称反转（signature inversion）或刚性三轴摇摆！因此，严禁将能级 $E$ 与 $S(I)$ 同时作为独立数据输入拟合；在对 $S(I)$ 曲线开展 $\chi^2$ 检验时，必须引入完整的非对角协方差矩阵 $L \mathrm{Cov}(E) L^T$。
@@ -638,205 +638,80 @@ Joss1998 的高自旋 normal-triaxial 带给 `Q_t≈2.2(1) eb`、`T(E2)≈35 W.u
 
 ## Day 25 持续深入学习：131Ce/133Ce 拓扑节点对照、带头零点翻转与 582 keV 出带分母未闭合之严格约束
 
-Day 25 在主卡手征反例与形状共存分析完成的基础上，对 133Ce 分析蓝本开展定向深入学习，在核素拓扑、带头翻转、同自旋近邻态解耦及出带分母身份上建立确凿的结构证据：
+checkpoint005按原件修订此前Day25新增段；旧“精确恢复零点/排他幽灵分母/配对下限排除3qp/全量闭环”认证撤回。此前633行以内的逐量账本与Day24输入边界仍有效；新增判断needs_review:true。长期蓝本保持active，非本日结项对象。
 
-### 1. 131Ce 与 133Ce 带头与低激发拓扑基准之本质差异
+### 1. 拓扑节点与带头零点
 
-通过对 [[alwaleedi-2013-band-structures-131ce]] (AW13) 与 [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] (WK22) 能级拓扑的逐带逐线对账，确立了奇 A 铈同位素低激发态的核心翻转事实：
-- **131Ce ($N=73$)**：实验确立的基态为 $7/2^+$（$
-u g_{7/2}[404]7/2^+$ 准粒子态），其能带结构中的 Band 3 是带头激发能为 $E_x = 61.8\text{ keV}$ 的 $1/2^+$ 激发态（作者解释为可能混有 $\nu s_{1/2}[400]1/2^+$）；
-- **133Ce ($N=75$)**：随中子数由 73 增至 75，费米面向上移动，单粒子能级漂移导致 $1/2^+$ 态下沉为基态（$E_x = 0.0\text{ keV}, T_{1/2} = 97(4)\text{ min}$）；而经典负宇称三轴转动带的带头 $9/2^-$ 异构态位于 $E_x = 37.2(7)\text{ keV}$（$T_{1/2} = 5.1(3)\text{ h}$）。在 WK22 中，同号的 Band 3 正是以 $1/2^+$ 基态为带头演化的能带。
+[[alwaleedi-2013-band-structures-131ce]] PDF86/printed82的Band3为61.8keV、1/2+，作者提出possible νs1/2[400]1/2+；WK22 Band3为1/2+基态。两个带号不建立跨核组态或参数同一性；不由两点确定费米面/形变导致的轨道重排机制。
 
-**分析合同约束**：
-两篇学位论文虽然都在各自体系中将某条正宇称带编号为“Band 3”，但 131Ce 的 Band 3 是 $61.8\text{ keV}$ 激发带，133Ce 的 Band 3 是基态带。两者的费米能级位置、单粒子轨道组成与科里奥利混合强度迥异，绝对禁止因带号相同而跨核移植能级零点、参数或寿命。
+WK22-46：1445.8/13/2+的412.4与767.7分别通Band2 1033.4/11/2+与678.1/9/2+；1459.9/13/2+所列为426.4与781.8。14.1keV仅中心能差，不测ωc或V。
 
----
+Table5.3的2733.4、2739.5两19/2+原表行分别保留，不能同spin合并。若均到1852.7/15/2+，881.2与886.8两行的Ei−Ef−Eγ分别−.5/0keV；前一行闭合待核，不擅改表或据此认证两个独立物理母态。详细可恢复账本见[[131ce-133ce-topological-nodes-configuration-substitution-contract]]。
 
-### 2. 133Ce 内部同自旋近邻多重态的精细拓扑与解耦
+AW13 Fig5.2 caption Band4/正文Band1冲突保留；Band5高spin e⊗AEFG既有人审不改。
 
-对 WK22 第五章实验能级纲图进行拓扑追踪，澄清两组极易引起误判的近邻同自旋态：
-1. **$13/2^+$ 近邻双态（WK22 Table 5.4）**：
-   - Band 3 的 $13/2^+$ 态位于 $1445.8\text{ keV}$，而 Band 2 的 $13/2^+$ 态位于 $1459.9\text{ keV}$，两者中央能差仅 $14.1\text{ keV}$；
-   - 实验谱学给出的跃迁连接显示：$412.4\text{ keV}$（跃迁至 Band 2 的 $1033.4\text{ keV}, 11/2^+$）与 $767.7\text{ keV}$（跃迁至 Band 2 的 $678.1\text{ keV}, 9/2^+$）均完全发自 $1445.8\text{ keV}$ 单一母态，绝非两个 $13/2^+$ 态各发一条；
-   - 这一近邻结构提供了同自旋态波函数混合的严格实验探针，但在缺乏带间绝对跃迁速率和相互作用矩阵元的情况下，不能简单推定转动交叉频率 $\omega_c$ 或宣告完全混合。
-2. **$19/2^+$ 近邻双态（WK22 Table 5.3）**：
-   - Table 5.3 在 Band 2 列出 $2733.4\text{ keV}$ 与 $2739.5\text{ keV}$，两者能量差仅 $6.1\text{ keV}$，分别由 $881.2\text{ keV}$ 与 $886.8\text{ keV}$ 跃迁馈入；
-   - 两能态在实验图表中具有独立的退激与馈入路径，必须严格作为独立节点保留，禁止因自旋相同而机械合并。
+### 2. 同母态双分母消去与465keV的条件误差
 
----
+设a为同母态混合线，b为out/out纯E2分母，c为out/in纯E2分母。分子与分母非零时：
 
-### 3. AW13 内部排版冲突与 Band 5 人工审核的严格继承
+$$\mathcal R=\frac{r_{E2}^{out/out}}{r_{E2}^{out/in}}
+=\frac{r_{M1}^{out/out}}{r_{M1}^{out/in}}
+=\frac{B(E2;c)}{B(E2;b)}
+=\frac{Y_c}{Y_b}\left(\frac{E_b}{E_c}\right)^5.$$
 
-在 131Ce 论文比对中，确认并继承已有的人工审核边界：
-- **AW13 Figure 5.2 图文排版冲突**：Figure 5.2 图注将曲线标记为 Band 4，而正文 §5.2.1 则明确作为 Band 1 讨论；此属于文献原生排版冲突，忠实记录，不擅改正文或图注；
-- **AW13 Table 5.3 Band 5 映射的人工审核**：Table 5.3 将 Band 5 低自旋两个 signature 分量在高自旋端均映射为 $e \otimes AEFG$。2026-08-11 经用户显式审核裁定，严格保持原表字面，绝不擅自重构为 $f \otimes AEFG$。本蓝本严格继承这一人工审核边界。
+Y须是效率及gate接受度校正、一致归一的光子yield；全局归一、同母τ、混合线a与δa可相消，能量相关效率/污染/门接受度不自动消失。转换总强度输入另需恢复光子口径；δ=0使E2通道0/0时不直接用该商。
 
----
+WK22 Table5.2/PDF67：608.3的1.89(.18)、982.0的1.95(.17)给中心10.62663；Table6.11/PDF112打印商为11.77778与11.78723。打印商不是理论模型预报，也不是独立实验票。
 
-### 4. 582.7 keV out/out 分母未闭合之严格定论
+令a=.18/1.89、b=.17/1.95，忽略能量误差的一阶传播为：
 
-针对 WK22 Table 6.11 给出的 582 keV 出带比（$[r_{E2}=5.06, r_{M1}=3.95]$），对其分母跃迁进行逐级审定：
-1. **能级差推算**：母态 Band 4 $17/2^-$（$1409.8\text{ keV}$）若向 Band 1 $13/2^-$（$592.1\text{ keV}$）发射同母态 $\Delta I = 2$ 跃迁，其能量差为 $1409.8 - 592.1 = 817.7\text{ keV}$；
-2. **实验账本与纲图核查**：全面复核 WK22 Table 5.2 与 Figure 5.1，均未出现 817.7 keV 跃迁，亦未记录其光子强度 $I_\gamma$、DCO 或探测限。817.7 keV 纯属能级能量差，非已观测 $\gamma$ 射线；
-3. **历史文献比对**：Gizon 1974 Table 4 列有一条未指认（unassigned）弱线 817.3 keV（相对强度3.4），但无任何符合或门谱证据将其绑定于 1409.8 keV 母态，无法作为同母态参考；
-4. **规范定论**：Table 6.11 的 582 keV out/out 分母身份缺失直接实验支持，分母保持严格未闭合；禁止从能级差逆向虚构观测线或捏造 $I_\gamma$。
+$$\frac{\sigma_{\mathcal R}^2}{\mathcal R^2}=a^2+b^2-2\rho ab.$$
 
----
+仅条件ρ=0时σ=1.37205；ρ=−1/+1则σ=1.93848/.08564。actual Cov、门/效率/双峰及producer未知，不能把±1.37叫实际CI，亦不能由误差重叠证明两表同底层计数。此修订保留双分母作为依赖诊断的价值。
 
-### 5. GAMPN→ASYMO→PROBMO 实际合同与输入边界
+### 3. 582keV分母仍未闭合，不能伪造检出限
 
-- **形变参数冲突**：正宇称 Table 6.1 印 $\varepsilon_4 = 0.1$，而紧接正文（PDF 77）印 $0.01$；Ding 2021 正文 $0.01$ 仅提供了引用谱系线索，并不证明哪一个是实际计算输入，两者各保留；负宇称参数另为 $\varepsilon_4 = 0.015$（WK22-16），不与正宇称冲突混同；
-- **单粒子能与费米能零点**：Tables 6.2/6.4 的 $\varepsilon(\text{MeV})$ 与正宇称 Ce/Ba 的 $\lambda_F = 50.6/51.0\text{ MeV}$ 之间共同零点未闭合，负宇称 $\lambda$ 未知，严禁凭经验 $\hbar\omega \approx 8\text{ MeV}$ 逆向反推实际输入；
-- **计算代码保全**：要求必须保留原计算版本、输入卡 header、BCS 阻塞与 core-R 惯量选项，方可判定 QTR 实际计算的收敛性与有效性。
+1409.8−592.1=817.7keV仍是能差，不是WK22 Table5.2/Fig5.1已记录的线；Gizon未定属817.3不绑定现代母态（WK22-44）。
 
-### 6. GAMPN→ASYMO→PROBMO 标度解耦：单粒子能与绝对费米能的壳基准还原
+假设存在该纯E2分母且处理口径一致，Table6.11双商可反演Yb约1.1921或1.1569；直接用582.7的Y=3.53、δ=−.55和out/out rE2=5.06给约.8817。这些是不同summary输入的条件目标，不是新增观测，差异亦不证明造线/理论输入。
 
-通过对标准 Nilsson 谐振子势能量标度与论文正文数值的代数对比，彻底解耦了此前被视为未解悬案的单粒子能与费米能表面矛盾：
-1. **谐振子标度与壳层零点**：
-   在 $A=133$ 质量区，唯象谐振子能量标度为 $\hbar\omega_0 \approx 41 A^{-1/3} \approx 8.032\text{ MeV}$。
-   对于正宇称态所在的 $N=4$ 主振子壳层（包含 $g_{7/2}, d_{5/2}, d_{3/2}, s_{1/2}$ 轨道），其振子势阱底部的零点能量为：
-   $$E_0(N=4) = \left(4 + \frac{3}{2}\right)\hbar\omega_0 = 5.5 \times 8.0322\text{ MeV} \approx 44.177\text{ MeV}$$
-2. **Table 6.2 相对单粒子能与正文绝对费米能 $\lambda_F$ 的精确对齐**：
-   Table 6.2 列出的正宇称单粒子能量为 $\varepsilon_\nu = 5.45–6.51\text{ MeV}$，这是**相对于 $N=4$ 壳层基准的单粒子激发能**。若将其加上 $N=4$ 壳层零点：
-   $$E_\nu^{\text{abs}} = 44.177\text{ MeV} + 6.423\text{ MeV} = 50.600\text{ MeV}$$
-   这与正文（physical PDF 78）明确给出的 $^{133}\text{Ce}$ 费米能 $\lambda_F = 50.6\text{ MeV}$（以及 $^{131}\text{Ba}$ 的 $\lambda_F = 51.0\text{ MeV}$）**完全精确吻合**！
-3. **负宇称态跨壳不可共用费米能的结构约束**：
-   负宇称带（如 Band 1/4）基于来自 $N=5$ 壳层的 $h_{11/2}$ 闯入单粒子轨道。$N=5$ 壳层的基准能量为：
-   $$E_0(N=5) = \left(5 + \frac{3}{2}\right)\hbar\omega_0 = 6.5 \times 8.0322\text{ MeV} \approx 52.209\text{ MeV}$$
-   相比 $N=4$ 壳基准高出整整一个振子量子 $\hbar\omega_0 \approx 8.03\text{ MeV}$。
-   **关键规范**：严禁将正宇称费米能 $\lambda_F = 50.6\text{ MeV}$ 直接套用于负宇称 $h_{11/2}$ 轨道！若错误继承该值，会导致准粒子能量计算 $E_\nu = \sqrt{(\varepsilon_\nu - \lambda)^2 + \Delta^2}$ 中出现约 $8\text{ MeV}$ 的虚假能量漂移，彻底颠覆单粒子占有几率 $v_\nu^2$ 与能带劈裂排序。负宇称计算必须使用其自身的化学势 $\lambda_{F,-}$。
+Table5.2的弱线强度不是817.7局部门谱的上限。原表380.4=.66(.12)、490.4=.80(.16)，旧稿的.44/.43例值与本表不符，所谓“.2–.4检出限”撤回。当前只能说分母身份未闭合；需该母态门、局部背景、效率和upper-limit procedure，不猜其来源或断言“不可能漏检”。
 
----
+### 4. actual QTR输入与能量原点
 
-### 7. 阵列角响应几何与有限接受矩的精确有理数闭合
+WK22-30/38/39保留：正ε4表.1/正文.01冲突；Ce/Ba正λ50.6/51.0MeV和ε表的共同单位/零点未闭合；负宇称actual λ未知。6.423不是Table6.2数据，而是50.6−5.5ħω倒算；|18–20〉实际5.8046/5.8239/5.8985，正空间还含N6。撤回按N4壳offset“精确恢复”的结论。
 
-针对 Ding 2021（8 个 clover）与 Wakudyanaye 2022（13 个 clover）装置描述的差异，通过开角核对角化严格导出两套布局的有限环接受矩：
-- **Legendre 多项式极角基准**：
-  $P_2(45^\circ) = 1/4, \quad P_2(90^\circ) = -1/2, \quad P_2(135^\circ) = 1/4$；
-  $P_4(45^\circ) = -13/32, \quad P_4(90^\circ) = 3/8, \quad P_4(135^\circ) = -13/32$。
-- **Ding 2021 8-clover 布局（4@90°, 4@135°）**：
-  $$\langle P_2 \rangle_8 = \frac{4(-1/2) + 4(1/4)}{8} = -\frac{1}{8} = -0.125$$
-  $$\langle P_4 \rangle_8 = \frac{4(3/8) + 4(-13/32)}{8} = -\frac{1}{64} = -0.015625$$
-- **Wakudyanaye 2022 13-clover 布局（1@45°, 8@90°, 4@135°）**：
-  $$\langle P_2 \rangle_{13} = \frac{1(1/4) + 8(-1/2) + 4(1/4)}{13} = -\frac{11}{52} \approx -0.211538$$
-  $$\langle P_4 \rangle_{13} = \frac{1(-13/32) + 8(3/8) + 4(-13/32)}{13} = \frac{31}{416} \approx +0.074519$$
-- **实验物理结论**：
-  两套布局的二阶与四阶门控接受矩均非零，说明在有限离散探测器环中，“all-detector gate”消去门控多极性影响只是一种经验近似，在数学上绝非严格定理。且由于 $\langle P_2 \rangle$ 在两套布局中分别为 $-0.125$ 与 $-0.2115$，参考强度比值（如 $R_{AD}$ 典型阈值 1.3 与 0.8）具有布局敏感性，不可跨阵列生搬硬套。
+BCS仅依赖同单位同原点的ε−λ及Δ。共同移位不改E/u/v，不同宇称可在同mean field共用λ；不能规定必须另加一个ħω。[[emediato-1997-133ce-rdds-lifetimes]] PDF2/2106的负νh11/2 PTR实际用50.6、Δ.92、ħω8.41，是反对旧普适禁令的直接反例；不替WK22填参数。
 
----
+GAMPN→ASYMO→PROBMO角色已知，actual版本、header、BCS/blocking、core-R惯量、signed wavefunctions和EM输出仍缺。Hcore(R)=ΣAk(Ik−jk)²已含Coriolis，不二次加入交叉项。详细推导见[[133ce-afrodite-rad-finite-geometry-and-qtr-code-contract]]。
 
-### 8. 组态替代假设的物理可行性与能量边界
+### 5. 阵列与角响应
 
-在探讨 Band 4 竞争解释时，对“单准粒子轨道激发”与“三准粒子（3-qp）激发”两种替代假说确立严格的鉴别边界：
-1. **同空间轨道激发（1-qp orbital excitation）**：
-   若将 Band 4 视为主要基于轨道 17 或 16 的激发带，这些轨道本身已包含在作者的 9-轨道粒子-转子耦合空间内。若仅改变主成分标签而不重新求解本征态，属于无预测能力的纯 relabel；若将其对应于同一哈密顿量的更高本征态，则必须同时解释带头能量（$832.0\text{ keV}$）、交错趋势 $S(I)$ 以及与 Band 1 的多条实测跨带连接跃迁；
-2. **多准粒子空间扩展（3-qp configuration expansion）**：
-   若假设 Band 4 为 3-qp 带（如 $\nu(h_{11/2})^3$ 或 $\pi^2 \otimes \nu$），则属于希尔伯特空间的实质扩充。在 $A \approx 130$ 质量区，破除一个核子对的配对能量约为 $2\Delta \approx 1.8–2.2\text{ MeV}$。在缺乏剧烈形变突变或对关联完全塌缩的前提下，一个位于仅 $832.0\text{ keV}$ 的低激发带头极难容纳纯粹的 3-qp 构型（同核中确认的 3-qp 带头均位于 $2.5\text{ MeV}$ 以上）。因此，低激发 3-qp 假设在能量学上极度受挫，不能与原 1-qp 倾斜进动或三轴粒子-转子模型等权并论；
-3. **电磁跃迁相干性要求**：
-   无论采纳何种组态指认，跨带 $M1$ 与 $E2$ 跃迁均由科里奥利混合波函数中的非对角矩阵元决定，无法使用渐近单粒子 $g_K$ 公式或简单的球形 Clebsch-Gordan 系数替代。完整的 signed RME 输出与实验探测器响应依然是不可逾越的证据关口。
+Ding两版本8=4@90°+4@135°，WK22具体段13=1@45°+8@90°+4@135°；同事件数只给强同源线索，未证明sorting差异。actual run/mask/45°events及同门counts仍缺。
 
----
+equal-weight point-ring条件下rank2/4矩分别(−1/8,−1/64)、(−11/52,31/416)；不把它们升格实际响应偏差或60–70%门份额。all-detector不等4π；有序gate与布居转移也需明确。R_AD/DCO/Rac参考只在各自校准合同下使用。
 
-### 9. 跨核寿命网络与高自旋迁移合同（131Ce 与 133Ce 对照）
+### 6. 组态替代与相位一致性
 
-通过对 $^{131}\text{Ce}$ 与 $^{133}\text{Ce}$ 历史独立寿命测量原件的系统溯源，建立严格的跨核寿命对比与实验迁移合同：
-1. **$^{131}\text{Ce}$ ($N=73$) 寿命与形变演化**：
-   - Li 2004 (CIAE HI-13 DSAM) 测得负宇称 yrast 带平均 $Q_t = 3.09(61)\text{ eb}$，正宇称带平均 $Q_t = 4.56(1.45)\text{ eb}$；
-   - Singh 2016 (IUAC GDA RDDS+DSAM) 精确测定负宇称带 4 个态寿命（$15/2^-$ 至 $35/2^-$，平均 $Q_t \approx 2.5–3.0\text{ eb}$），有限点加权斜率仅为 $-0.030(47)\text{ eb}/\hbar$，排除了转动驱动的突然形变塌缩假说。
-2. **$^{133}\text{Ce}$ ($N=75$) 寿命谱系**：
-   - **低自旋端**：Emediato 1997 (Köln Plunger RDDS) 测得负宇称基准带态寿命：$11/2^-$ 为 $\tau = 76(3)\text{ ps}$（对应 ENSDF $T_{1/2} = 52.7(2.1)\text{ ps}$），$13/2^-$ 为 $7.9(5)\text{ ps}$，$15/2^-$ 为 $3.8(8)\text{ ps}$，更高态 $\le 1\text{ ps}$；正宇称 3-qp 态（$17/2^+, 19/2^+, 21/2^+$）为 $4.5–5.3\text{ ps}$；
-   - **高自旋端**：Joss 1998 (Gammasphere DSAM) 测得高自旋三轴带四条跃迁（887.4, 999.3, 1097.6, 1188.1 keV）的有效平均寿命：$1.11(13), 0.33(4), 0.20(2), 0.21(2)\text{ ps}$，对应加权过渡四极矩 $Q_t \approx 2.2(1)\text{ eb}$。
-3. **结构演化与迁移合同红线**：
-   - 随中子数从 73 增至 75，负宇称序列的过渡四极矩从 $Q_t \approx 3.09\text{ eb}$ 轻微减小至高自旋端的 $Q_t \approx 2.2(1)\text{ eb}$，反映中子填充使得四极形变略微减弱、三轴软度增加的系统学演化趋势；
-   - **事实纠偏**：严禁断言“$^{133}\text{Ce}$ 全核无寿命数据”，Emediato 1997 与 Joss 1998 提供了确凿的实验时钟；
-   - **迁移不可逆边界**：所有已测寿命**均未覆盖现代 Wakudyanaye 2022 的 Band 4 母态**（$832.0, 1409.8, 1809.1\text{ keV}$）。Joss 1998 的高自旋三轴带缺乏连接至低激发带的级联跃迁，不能按名称移植给 Band 4；Emediato 1997 的低自旋时钟属于 Band 1，不能用于消去 Band 4 发射的 $582.7\text{ keV}$ 跃迁母态寿命。因此，Band 4 的绝对 $B(E2)$ 与内禀四极矩依然保持严格未知。
+N、Ex、Jπ与response固定；纯relabel无新预测，同H本征态mapping须检能量与完整links；3qp是新增空间，832keV可行性unknown。3Δ不是相对奇A基态Ex下限，经验2Δ亦非目标态排除门。
 
+完整signed相干核缺失限制δ符号/绝对B/gK预测，但基底同步rephasing不改变观测。E2与M1同初末态整体phase相消，不能把任意基矢符号称物理选择定则翻转。Au原Band2=wobbling、Band3=SP；后续反证不证明旧模型有RME符号错误。
 
----
+### 7. 独立寿命与迁移条件
 
-### 10. Table 6.11 出带与入带强度比消去定理与 582 keV 幽灵分母的精确代数反演
+[[li-2004-lifetimes-131ce]]的平均Qt3.09(.61)/4.56(1.45)eb是作者按转子/feeding处理提取；[[singh-2016-lifetime-131ce-133pr]]有限负态为15/2、27/2、31/2、35/2，限值另记。条件线性回归未检出趋势不等于排除任何突变模型。
 
-针对 WK22 Table 6.11 给出的 out/out 与 out/in 两组跃迁比率，通过严格的分支比与多极性代数推导，确立跨带/带内比率消去定理，并对 582 keV 跃迁的分母缺失进行定量反演：
+[[emediato-1997-133ce-rdds-lifetimes]]为São Paulo本实验室plunger RDDS，非Köln；TableII的11/2− meanτ76(3)ps与adopted T1/2有ln2转换，正态17/2、19/2、21/2的TableIII meanτ分别5.3(.6)/4.5(.5)/5.3(.6)ps。[[joss-1998-133ce-triaxial-band-lifetimes]] TableI给四高spin平均寿命及Qt≈2.2(.1)eb，但spin估计/缺低能link/阻停系统学随数据保留。
 
-#### 1. 严格代数消去定理
+本次已核时钟尚未建立与WK22 Band4三个母态的逐态匹配，不移植τ；目标absoluteB仍缺。跨核且跨spin/组态的Qt差不是受控同位素趋势，更不测γ软度。不写“全核无寿命”或“所有文献均未覆盖”的全称判断。
 
-设母态 $|\text{Band 4}, I\rangle$ 退激发射三条跃迁：
-- 混合出带跃迁 $\gamma_1$（$\Delta I = 1$, Band $4 \to 1$）：能量 $E_{\gamma,1}$，光子强度 $I_{\gamma,1}$，多极混合比 $\delta_1$；
-- 纯 $E2$ 跨带跃迁 $\gamma_2$（$\Delta I = 2$, Band $4 \to 1$，out/out 分母）：能量 $E_{\gamma,2}$，光子强度 $I_{\gamma,2}$；
-- 纯 $E2$ 带内跃迁 $\gamma_3$（$\Delta I = 2$, Band $4 \to 4$，out/in 分母）：能量 $E_{\gamma,3}$，光子强度 $I_{\gamma,3}$。
+### 8. Paul1991：同一个λ符号不能混淆分支与化学势
 
-由 WK22 公式定义：
-$$r_{E2}(\text{out/out}) = \frac{B(E2; \text{out}, \Delta I=1)}{B(E2; \text{out}, \Delta I=2)}, \quad r_{E2}(\text{out/in}) = \frac{B(E2; \text{out}, \Delta I=1)}{B(E2; \text{in}, \Delta I=2)}$$
-$$r_{M1}(\text{out/out}) = \frac{B(M1; \text{out}, \Delta I=1)}{B(E2; \text{out}, \Delta I=2)}, \quad r_{M1}(\text{out/in}) = \frac{B(M1; \text{out}, \Delta I=1)}{B(E2; \text{in}, \Delta I=2)}$$
+[[paul-1991-n75-electromagnetic-properties-triaxiality]] PA91-D25-A005-01回核原Eq6：
+B(M1)1/B(E2)2=.697 E2^5/(E1^3 λpure)，能量MeV。λpure=T(E2)2/T(M1)1，是纯M1分量的branching比，不是BCS Fermi能。若用整条混合光子线Y1定义Λ=Y2/Y1，则λpure=Λ(1+δ²)，E2/E2比同样须乘δ²/(1+δ²)。原source曾漏能量平方与混合份额，现已纠正，不把式子相近视作actualproducer一致。
 
-两比率相除，分子 $B(E2; \text{out}, \Delta I=1)$ 或 $B(M1; \text{out}, \Delta I=1)$ 精确相消：
-$$\mathcal{R}_{E2} \equiv \frac{r_{E2}(\text{out/out})}{r_{E2}(\text{out/in})} = \frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)}$$
-$$\mathcal{R}_{M1} \equiv \frac{r_{M1}(\text{out/out})}{r_{M1}(\text{out/in})} = \frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)}$$
+PA91-D25-A005-02/03另纠正reaction元数据与Fig2同ΔI1分母被误记为Fig3 ΔI2分母。Band1旧δ来源不补Band4独立观测。
 
-代入纯 $E2$ 跃迁强度公式 $I_\gamma \propto E_\gamma^5 B(E2)$，得到与实验光子强度的直接对应关系：
-$$\frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)} = \frac{I_{\gamma,3}}{I_{\gamma,2}} \left(\frac{E_{\gamma,2}}{E_{\gamma,3}}\right)^5$$
+### Learning Decision与下一输入
 
-**定理特征与物理推论**：
-1. **与混合线 $\gamma_1$ 完全正交**：比值 $\mathcal{R}$ 完全独立于混合线 $\gamma_1$ 的能量 $E_{\gamma,1}$、强度 $I_{\gamma,1}$ 以及误差极大的混合比 $\delta_1$；
-2. **寿命与绝对标度相消**：母态平均寿命 $\tau$ 与整体探测效率归一因子完全相消，直接反映带内集体四极跃迁相对于跨带单粒子/微观四极跃迁的内禀相对强度；
-3. **两通道恒等检验**：在精确算术下，必定有 $\mathcal{R}_{E2} \equiv \mathcal{R}_{M1}$。
-
----
-
-#### 2. 465 keV ($I=19/2^-$) 实验一致性闭环验证
-
-对 Table 6.11 中数据完备的 465 keV（$1809.1\text{ keV}$ 母态）执行消去验证：
-- **Table 6.11 报告比值**：
-  $$\mathcal{R}_{E2} = \frac{1.06}{0.09} = 11.7778, \quad \mathcal{R}_{M1} = \frac{5.54}{0.47} = 11.7872$$
-  两通道比值在千分之八（$0.08\%$）内严格重合，完全符合两位有效数字修约精度；
-- **Table 5.2 实验光子强度重构**：
-  - $\gamma_3 = 608.3\text{ keV}$（Band 4 内 $19/2^- \to 15/2^-$），$I_{\gamma,3} = 1.89(18)$；
-  - $\gamma_2 = 982.0\text{ keV}$（Band 4 $\to$ 1 跨带 $19/2^- \to 15/2^-$），$I_{\gamma,2} = 1.95(17)$；
-  - 能量比五次方因子：$(E_{\gamma,2} / E_{\gamma,3})^5 = (982.0 / 608.3)^5 = 10.964$；
-  - 实测比率：
-    $$\frac{I_{\gamma,3}}{I_{\gamma,2}} \left(\frac{E_{\gamma,2}}{E_{\gamma,3}}\right)^5 = \frac{1.89(18)}{1.95(17)} \times 10.964 = 10.63 \pm 1.37$$
-- **结论**：Table 6.11 的理论比值 $11.78$ 稳固落在实验 $1\sigma$ 置信区间 $[9.26, 12.00]$ 内。这确凿证明作者在 465 keV 处的两组比值确实源自 Table 5.2 相同的底层光子计数。
-
----
-
-#### 3. 582 keV ($I=17/2^-$) 幽灵分母的定量反演与排除
-
-将消去定理应用于 $1409.8\text{ keV}$ 母态的 582 keV 跃迁：
-- **Table 6.11 报告比值**：
-  $$\mathcal{R}_{E2} = \frac{5.06}{0.33} = 15.3333, \quad \mathcal{R}_{M1} = \frac{3.95}{0.25} = 15.8000$$
-  同样保持 $\mathcal{R}_{E2} \approx \mathcal{R}_{M1}$ 的内禀自洽性；
-- **反演所需 $\gamma_2$ 强度**：
-  - 带内跃迁 $\gamma_3 = 577.8\text{ keV}$，实测 $I_{\gamma,3} = 3.22(21)$；
-  - 能差推导的假想跨带跃迁 $E_{\gamma,2} = 1409.8 - 592.1 = 817.7\text{ keV}$；
-  - 能量比五次方因子：$(E_{\gamma,2} / E_{\gamma,3})^5 = (817.7 / 577.8)^5 = 5.6765$；
-  - 若 Table 6.11 确系通过实测 $I_{\gamma,2}$ 计算，则该线强度必须达到：
-    $$I_{\gamma,2}(817.7\text{ keV}) = \frac{I_{\gamma,3} \times (E_2/E_3)^5}{\mathcal{R}} = \frac{3.22 \times 5.6765}{15.333} \approx 1.192$$
-  - （若直接从 $r_{E2}(\text{out/out})=5.06$ 与实测 $\delta=-0.55$ 反推，亦需 $I_{\gamma,2} \approx 0.88$）；
-- **实验矛盾与最终判定**：
-  在 WK22 Table 5.2 中，该能区的弱线检出限可达 $I_\gamma \sim 0.2–0.4$（如 $380.0\text{ keV}$ 的 $I_\gamma=0.44(9)$、$490.4\text{ keV}$ 的 $I_\gamma=0.43(7)$）。一条强度高达 $I_\gamma \approx 0.9–1.2$ 的 $817.7\text{ keV}$ 跃迁若在 $\gamma$-$\gamma$ 符合矩阵中真实存在，绝无可能在 Table 5.2 跃迁账本及 Figure 5.1 能级纲图中完全隐形！
-  这以无可辩驳的代数与实验证据表明：Table 6.11 中 582 keV 的 out/out 分母并非来自已被确认的观测线，其数值可能采自局部未定属背景拟合或理论输入预设。**该分母在物理上保持未闭合，严禁在后续分析中逆向虚构 817.7 keV 观测跃迁**。
-
----
-
-### 11. AFRODITE 阵列几何、全探测器门 $R_{AD}$ 算符与 QTR 程序链输入合同闭环
-
-基于独立技术研究笔记 [[133ce-afrodite-rad-finite-geometry-and-qtr-code-contract]]，确立实验阵列与微观模型输入层面的四项核心规范：
-
-#### 1. AFRODITE 阵列 8 vs 13 Clovers 几何同源性
-- **事实对照**：Ding 2021 正文描述 8 Clovers（4@90°, 4@135°）；WK22 §4.5 述及基础架构为 8 Clovers + 7 LEPS，但 §5.2.1 报告该次 $^{133}\text{Ce}$ 实验具体配置为 13 Compton-suppressed Clovers（1@45°, 8@90°, 4@135°）；
-- **同源性证明**：两文报告的物理事件数完全相同（$2.8 \times 10^{10}$ 个双符合、$5.4 \times 10^9$ 个高阶符合），证实两者为同一束流数据的离线排序差异；
-- **分析规范**：45° 单 Clover 在非对称排序中可能被掩模；角响应完全特定于本次 iThemba LABS 几何，严禁跨阵列套用。
-
-#### 2. 全探测器门 $R_{AD}$ 的角关联消去定理与有限阵列微观残余
-- **连续极限定理**：在 $4\pi$ 均匀连续角积分极限下，门跃迁 $\gamma_2$ 的各向异性项在球壳积分中精确为零，使得 $R_{AD}^{4\pi} = W_1(135^\circ)/W_1(90^\circ)$ 严格独立于门线多极性；
-- **离散残余偏置**：AFRODITE 具有 8@90° 与 4@135° 的 2:1 立体角非对称性，全探测器门求和使 $90^\circ$ 门权重达 $\sim 60\%–70\%$，导致强烈各向异性门线产生微观残余偏置；
-- **规范红线**：$R_{AD} \sim 1.3$（四极）与 $R_{AD} \sim 0.8$（偶极）仅为该阵列粗分多极性的经验基准，不可作为高精度 $\delta$ 拟合依据，且**绝对禁止跨阵列移植**。
-
-#### 3. 正宇称形变参数 $\varepsilon_4$ 的字面冲突与处理规范
-- Table 6.1 列 $\varepsilon_4 = 0.1$，而紧接正文与同源 Ding 2021 正文均写 $\varepsilon_4 = 0.01$；
-- 物理上 $\varepsilon_4 = 0.1$ 会夸大十六极效应近 10 倍，但未经实际输入卡核验前，严禁擅自改写原表；必须在模型复现中同时保留两套候选输入边界。
-
-#### 4. 化学势 $\lambda_F$ 跨壳隔离红线
-- 正宇称 $\lambda_F = 50.60\text{ MeV}$ 叠合 $N=4$ 主振子壳层基准 $E_0(N=4) = 5.5 \hbar\omega_0 \approx 44.18\text{ MeV}$，精确解释单粒子能 $\varepsilon \approx 6.42\text{ MeV}$；
-- 负宇称 $h_{11/2}$ 属于 $N=5$ 壳层，其基准高出 $\hbar\omega_0 \approx 8.03\text{ MeV}$；WK22 正文未显式记录负宇称 $\lambda_{F,-}$；
-- **红线规范**：严禁在负宇称计算中套用正宇称 $\lambda_F = 50.6\text{ MeV}$，否则将导致准粒子激发能虚假增加 $\sim 8\text{ MeV}$ 并引发 BCS 占有几率灾难性崩溃。
+revises此前Day25过强认证，supports逐量依赖和输入合同。实际下一步是同母态计数/效率Cov或author header；受阻时继续现有可解析问题，不反复撞失败端点。计算与精确输入在本run forward-checks-005.py/json，长期结论在本页及两research notes。

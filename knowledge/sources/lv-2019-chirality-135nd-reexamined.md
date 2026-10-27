@@ -343,5 +343,5 @@ Day 25 学习主线对 Lv 2019 原文（arXiv v1 与 PRC 100, 024314）进行了
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | LV19-D25-001 | Lv 等（2019）通过 JUROGAM2 在 JYFL 开展的 $^{100}\text{Mo}(^{40}\text{Ar},5n)^{135}\text{Nd}$ 实验，在正宇称建立 D3/D4 双带，在负宇称扩展 D5/D6 双带，提出奇中子核中存在多重手征双重带（$M\chi D$）。 | experimental-multiband-report | direct-original | PRC 100, 024314 PDF pp.1–3 | true |
-| LV19-D25-002 | 负宇称 D5/D6 拥有 Mukhopadhyay 2007 的双方实测寿命与绝对 $B(E2)/B(M1)$ 支撑；而正宇称 D3/D4 仅有一个 D3 的 $B(M1)/B(E2)$ 实验比，完全缺失配对成员的绝对电磁跃迁强度尺度，两组双带的证据梯度截然不同。 | partner-resolved-evidence-contrast | direct-original-and-lineage | PRC 100, 024314 PDF pp.2, 5, Table I | true |
+| LV19-D25-002 | 负D5/D6有MU07双方寿命及绝对B(E2)与B(M1)的历史支持；LV19正D3/D4仅提取一个D3相对比值点，本篇未给正pair成对absoluteEM或新寿命。此限定不宣称全领域D4从未测寿命。 | partner-resolved-evidence-contrast | direct-original-and-lineage | arXivPDF5 Figs5–6 discussion | true |
 | LV19-D25-003 | 原文正文 D4 段关于 589/649 keV 跃迁指向在前后句存在 D2/D3 笔误冲突，且 Table I 中 D2 行 $E_i = 2588.3\text{ keV}$ 与三条关联跃迁能量闭合差 30 keV；这些局部排版歧义予以保留，不擅改原表，亦不否定总体正宇称能带拓扑。 | typographical-and-topological-boundary | direct-original | PRC 100, 024314 PDF pp.2–4, Table I | true |

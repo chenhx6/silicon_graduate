@@ -64,7 +64,19 @@ def parse_session_events(lines: list[str], project_root: str | Path) -> dict[str
                 latest_started = item
     if not meta or not inside(str(meta.get("cwd") or ""), project_root) or not latest:
         return None
-    return {"id": meta.get("session_id") or meta.get("id"), "cwd": meta.get("cwd"), "latest": latest, "latest_started": latest_started}
+    # Child rollouts may carry the parent's session_id.  Queue recovery to
+    # the proper owner; otherwise siblings collapse into the parent state.
+    thread_id = meta.get("id") or meta.get("session_id")
+    source = meta.get("source")
+    subagent = source.get("subagent") if isinstance(source, dict) else None
+    spawn = subagent.get("thread_spawn") if isinstance(subagent, dict) else None
+    spawn = spawn if isinstance(spawn, dict) else {}
+    return {
+        "id": thread_id, "cwd": meta.get("cwd"), "latest": latest,
+        "latest_started": latest_started,
+        "parent_thread_id": spawn.get("parent_thread_id"),
+        "agent_path": spawn.get("agent_path"),
+    }
 
 
 def read_rollout(path: Path, project_root: Path) -> dict[str, object] | None:
@@ -126,9 +138,26 @@ def recovery_step(session: dict[str, object], previous: dict[str, object] | None
     if now < float(previous.get("next_at", 0)):
         return {**previous, "status": "waiting-retry", "error_class": error_class}
     message = "[farmer resume]\nContinue the existing task from the last completed checkpoint.\nPreserve the original objective, context, files, model, and current working state.\nDo not reinterpret the task or start a new one."
-    exit_code = queue(str(session["id"]), message)
+    queue_target = str(session["id"])
+    parent = session.get("parent_thread_id")
+    if parent and parent != session["id"]:
+        # Multi-agent v2 rejects direct app-server input to child threads.
+        # Notify the parent once; it can resume its worker through native
+        # collaboration after checking whether the work was already replaced.
+        queue_target = str(parent)
+        message = (
+            "[farmer child recovery]\n"
+            f"Worker thread: {session['id']}\n"
+            f"Agent path: {session.get('agent_path') or 'unknown'}\n"
+            f"Transient error class: {error_class}\n"
+            "Inspect this worker's latest state and existing deliverables. "
+            "If still needed, use native collaboration to continue the same "
+            "worker from its checkpoint, preserving its model and file scope. "
+            "Do not restart completed/replaced work or create a new daily run."
+        )
+    exit_code = queue(queue_target, message)
     attempts = int(previous.get("attempts", 0)) + 1
-    return {**previous, "status": "recovery-pending" if exit_code == 0 else "waiting-retry", "error_class": error_class, "attempts": attempts, "pending": exit_code == 0, "next_at": now + backoff_seconds(attempts), "last_exit_code": exit_code, "last_action_at": datetime.now(timezone.utc).isoformat(), "last_event_timestamp": event.get("timestamp")}
+    return {**previous, "status": "recovery-pending" if exit_code == 0 else "waiting-retry", "error_class": error_class, "attempts": attempts, "pending": exit_code == 0, "queue_target": queue_target, "next_at": now + backoff_seconds(attempts), "last_exit_code": exit_code, "last_action_at": datetime.now(timezone.utc).isoformat(), "last_event_timestamp": event.get("timestamp")}
 
 
 def walk_rollouts(codex_home: Path) -> list[Path]:
@@ -189,7 +218,23 @@ def process_once(root: Path, codex_home: Path, dry_run: bool = False, max_attemp
                 return 0
             result = subprocess.run(["codex", "queue", "--thread", thread, "--message", message], text=True, capture_output=True, check=False, timeout=15)
             return result.returncode
-        next_state = recovery_step(session, previous, now, queue, max_attempts)
+        parent = session.get("parent_thread_id")
+        payload = (session["latest"].get("payload") or {})
+        parent_entry = latest_sessions.get(str(parent)) if parent else None
+        parent_event = ((parent_entry[1]["latest"].get("payload") or {})
+                        if parent_entry else {})
+        if (parent and payload.get("type") == "task_complete"
+                and classify_error(payload.get("error"))
+                and parent_event.get("type") != "task_started"):
+            # Newly visible historical children must not wake a completed or
+            # cancelled parent just because their own last event was an error.
+            event_key = f"{session_id}:{payload.get('turn_id')}:{session['latest'].get('timestamp')}"
+            same_event = previous if previous and previous.get("event_key") == event_key else {}
+            next_state = {**same_event, "status": "parent-inactive",
+                          "event_key": event_key, "pending": bool(same_event.get("pending")),
+                          "last_event_timestamp": session["latest"].get("timestamp")}
+        else:
+            next_state = recovery_step(session, previous, now, queue, max_attempts)
         sessions[session_id] = {"cwd": session["cwd"], "status": next_state.get("status"), "event": (session["latest"].get("payload") or {}).get("type")}
         states[session_id] = next_state
     if not dry_run:

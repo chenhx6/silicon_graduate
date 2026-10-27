@@ -1,0 +1,141 @@
+{
+  "scope": {
+    "experiment_refit": false,
+    "author_input_recovered": false,
+    "confidence_interval": false,
+    "human_review": false,
+    "source": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "locators": [
+      "physicalPDF67 Table5.2",
+      "physicalPDF78 Table6.2",
+      "physicalPDF112 Table6.11",
+      "PE06 physicalPDF3 TableI"
+    ]
+  },
+  "ce133_465": {
+    "ratio_from_printed_photon_yields": 10.62662975373978,
+    "table611_ratio_E2": 11.777777777777779,
+    "table611_ratio_M1": 11.787234042553193,
+    "conditional_sigma_by_assumed_correlation": {
+      "-1": 1.93848410892396,
+      "0": 1.3720521379228474,
+      "1": 0.08563584416933079
+    },
+    "warning": "rho, efficiency/gate covariance and underlying producer unknown; no CI or lineage proof"
+  },
+  "ce133_582_hypothetical_only": {
+    "unobserved_energy_difference_keV": 817.6999999999999,
+    "intensity_from_table611_double_ratio_E2": 1.1920695537643888,
+    "intensity_from_table611_double_ratio_M1": 1.1568607483789426,
+    "intensity_from_printed_delta_yield_and_outout": 0.8816916622194582,
+    "detection_limit": null,
+    "observed_denominator": null
+  },
+  "energy_zero_diagnostic": {
+    "hbaromega_empirical_MeV": 8.03217773150031,
+    "backsolved_residual_NOT_a_table_energy": 6.423022476748294,
+    "actual_table62_eps18_19_20_header_MeV": [
+      5.8046,
+      5.8239,
+      5.8985
+    ],
+    "actual_table62_eps23_N6": 6.4922,
+    "actual_conversion": null,
+    "actual_negative_parity_lambda": null
+  },
+  "S_equal_independent_energy_variance": {
+    "assumption": "Cov(E)=sigma_E^2 identity; not actual level covariance",
+    "variance_factor": 5,
+    "lag_covariance_factors": [
+      5,
+      -3.75,
+      1.5,
+      -0.25,
+      0
+    ],
+    "lag_correlations": [
+      1,
+      -0.75,
+      0.3,
+      -0.05,
+      0
+    ]
+  },
+  "ce133_table53_closure": {
+    "rows_preserved_separately": [
+      {
+        "Ei": 2733.4,
+        "Ef_hypothesis": 1852.7,
+        "Eg": 881.2,
+        "Ei_minus_Ef_minus_Eg": -0.5
+      },
+      {
+        "Ei": 2739.5,
+        "Ef_hypothesis": 1852.7,
+        "Eg": 886.8,
+        "Ei_minus_Ef_minus_Eg": 0.0
+      }
+    ],
+    "interpretation": "printed row identity not proof of two independently established physical levels"
+  },
+  "pr134_conditional_forward": {
+    "source": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+    "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+    "locator": "printed112502-3 TableI/Eqs4-5",
+    "experiment_R_17ny_17y_18ny": [
+      0.3,
+      0.6,
+      0.22
+    ],
+    "printed_errors_17ny_17y_18ny": [
+      0.1,
+      0.1,
+      0.09
+    ],
+    "experiment_18y_upper_bound": 0.08,
+    "bound_likelihood": null,
+    "original_model_R": [
+      0.33,
+      0.7,
+      0.17,
+      0.062
+    ],
+    "assumptions": "fixed original alphas, positive b; common symmetric real forward Q; invert 17->15 for continuous-band identity",
+    "examples": [
+      {
+        "x_q12_over_q1": 0,
+        "y_q2_over_q1": 0.5,
+        "R_17ny_17y_18ny_18y": [
+          0.33387018009304537,
+          0.7035217259732104,
+          0.1703817872048239,
+          0.062384066976510076
+        ]
+      },
+      {
+        "x_q12_over_q1": 0.04,
+        "y_q2_over_q1": 0.73,
+        "R_17ny_17y_18ny_18y": [
+          0.3151452572517969,
+          0.6472612493736201,
+          0.18728331371134022,
+          0.06704590720311152
+        ]
+      },
+      {
+        "x_q12_over_q1": 0.08,
+        "y_q2_over_q1": 1,
+        "R_17ny_17y_18ny_18y": [
+          0.3038511756017699,
+          0.600031197428761,
+          0.2010704910042969,
+          0.07361831710305655
+        ]
+      }
+    ],
+    "chi_square": null,
+    "confidence_interval": null,
+    "interpretation": "partial observable degeneracy only; equal diagonal Q is not chiral geometry or an equal-shape measurement"
+  }
+}

@@ -7,6 +7,14 @@ updated: 2026-10-27
 
 # Knowledge Base Health Dashboard
 
+## Current Snapshot: 2026-10-27 Day25 checkpoint005
+
+本次为Day25进行中的证据纠错与结构检查，不是课程结项或全库科学终审。目录共749篇Markdown，lint扫描746篇类型页，source 410篇；page/source unreviewed为668/350。claims共5705，needs_review 4994，缺locator/kind均0，source缺citation_key 207。实际lint exit0、0 errors、267 warnings，警告保留；计数来自本次工具，不是论文证据。
+
+[[chirality-shape-coexistence-companion-matrix]]区分三核family/模型/缺项；[[133ce-thesis-analysis-blueprint]]撤回零点恢复、伪检出限与3qp硬门。原件纠错例为[[petrache-2006-near-degenerate-chiral-misinterpretation]] PE06-D25-A005-01的实验/计算列身份，以及[[paul-1991-n75-electromagnetic-properties-triaxiality]] PA91-D25-A005-01的branching/能量因子；它们支持科学使用边界，不认证治理统计。新claims不扩张human review，课程仍24/next25，Day26仅无学分preview。
+
+QMD refresh/embed/cleanup继续deferred；boundary仅核collection路径与pattern，不把collection通过当所有新页已刷新。使用rg/canonical/source直接读取。
+
 ## Current Snapshot: 2026-10-27 Day24 closeout
 
 本次为Day24实际lint与目录对账，不是全库科学终审。knowledge共745篇Markdown，lint扫描742篇类型页，另3篇为根层导航/治理页；source为409篇。page/source unreviewed为664/349；5672项claim中4960保留needs_review，缺locator/kind为0/0，source缺citation_key为207。lint为0 error、267 warning；未消警告保持原治理边界，不代表新增科学认证。

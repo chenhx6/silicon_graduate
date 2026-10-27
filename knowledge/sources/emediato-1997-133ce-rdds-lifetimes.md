@@ -94,3 +94,14 @@ This primary closes a real 133Ce low/high-spin lifetime route and the τ-to-eval
 
 
 Day24 source link: [[emediato-1997-133ce-rdds-lifetimes]]
+
+## Day25 checkpoint005：原方法对化学势禁令的直接反例
+
+独立代理定向回读4页，父代理fresh文字/视觉核PDF2；SHA39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df相符。本次新读为原有body的参数反例，不是新增实验或2022代码复现。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| EM97-D25-A005-01 | 作者为负宇称νh11/2 yrast PTR比较用λ50.6MeV、Δ.92MeV、ħω0=8.41MeV，并含N4/5壳；这直接反驳不同宇称必须相差一个经验ħω或负宇称禁用50.6的普适规则，不恢复WK22 actual参数。 | direct-model-input-counterexample | direct-original-and-visual | PDF2 printed2106 PTR parameter paragraph | true |
+| EM97-D25-A005-02 | 本工作为São Paulo本实验室建造plunger的RDDS，不是Köln采集；几何与效率不能由其它plunger名转移。 | direct-experimental-identity | direct-original | PDF1 printed2105 experimental paragraph | true |
+
+此修订与[[133ce-thesis-analysis-blueprint]] actual输入边界联动；全signed核、BR/ICC/Cov仍按原页缺口保留。

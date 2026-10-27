@@ -1,0 +1,204 @@
+{
+  "observed_at": "2026-10-27T13:07:15.068276+00:00",
+  "scope": "read identity only; reading coverage separate",
+  "sources": [
+    {
+      "source": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "declared": {
+        "raw_file": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+        "raw_sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f"
+      },
+      "actual_file": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.4",
+      "bytes": 274213,
+      "pages": 4,
+      "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "declared": {
+        "raw_file": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
+        "raw_sha256": "97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303"
+      },
+      "actual_file": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.4",
+      "bytes": 285508,
+      "pages": 10,
+      "sha256": "97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+      "declared": {
+        "raw_file": "raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+        "raw_sha256": "D2615FC0D95428B06C056EB8946AFA2F62940CE58D79C1FC1CC3F50E19C73EF3"
+      },
+      "actual_file": "raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.6",
+      "bytes": 1155420,
+      "pages": 7,
+      "sha256": "d2615fc0d95428b06c056eb8946afa2f62940ce58d79c1fc1cc3f50e19c73ef3",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+      "declared": {
+        "raw_file": "raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+        "raw_sha256": "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183"
+      },
+      "actual_file": "raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.4",
+      "bytes": 3400392,
+      "pages": 55,
+      "sha256": "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+      "declared": {
+        "raw_file": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+        "raw_sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080"
+      },
+      "actual_file": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.6",
+      "bytes": 7891630,
+      "pages": 130,
+      "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+      "declared": {
+        "actual_body_file": "tmp/day24-emediato1997-ce133-rdds-072/publisher-direct-pdf.pdf",
+        "raw_file": "raw/papers/1997_Emediato_133Ce_Lifetime_Measurements.pdf",
+        "raw_sha256": "39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df"
+      },
+      "actual_file": "tmp/day24-emediato1997-ce133-rdds-072/publisher-direct-pdf.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.1",
+      "bytes": 102259,
+      "pages": 4,
+      "sha256": "39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "declared": {
+        "raw_file": "raw/papers/degree dissertation/Band structures of 131Ce.pdf",
+        "raw_sha256": "B50C22877418DE560F06002588BB46D34F5BA670C6880E30A89D1509C79AD8C1"
+      },
+      "actual_file": "raw/papers/degree dissertation/Band structures of 131Ce.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.4",
+      "bytes": 769364,
+      "pages": 97,
+      "sha256": "b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "declared": {
+        "raw_file": "raw/papers/2004_Lifetimes of Excited Levels in 131Ce.pdf",
+        "raw_sha256": "100A06FC1BB6D7061A153552529C9245F123248F213A93F022B202AF97DCDCC5"
+      },
+      "actual_file": "raw/papers/2004_Lifetimes of Excited Levels in 131Ce.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.4",
+      "bytes": 358795,
+      "pages": 3,
+      "sha256": "100a06fc1bb6d7061a153552529c9245f123248f213a93f022b202af97dcdcc5",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "declared": {
+        "raw_file": "raw/papers/2016_Singh et al_Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr.pdf",
+        "raw_sha256": "95E0831B9864A58FD1A896A1B20E227D88D9B7AA5DE56C738C3792441CAA1A30"
+      },
+      "actual_file": "raw/papers/2016_Singh et al_Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.4",
+      "bytes": 1202741,
+      "pages": 11,
+      "sha256": "95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md",
+      "declared": {
+        "actual_body_file": "tmp/day24-joss1998-133ce-triaxial-lifetime-078/publisher-pdf.pdf",
+        "raw_file": "raw/papers/1998_Joss_133Ce_Triaxial_Band_Lifetimes.pdf",
+        "raw_sha256": "81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a"
+      },
+      "actual_file": "tmp/day24-joss1998-133ce-triaxial-lifetime-078/publisher-pdf.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.1",
+      "bytes": 120604,
+      "pages": 4,
+      "sha256": "81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+      "declared": {
+        "raw_file": "raw/papers/1991_Electromagnetic properties of N=75 isotones_evidence for triaxiality at low spin.pdf",
+        "raw_sha256": "1c3859a03a76e200048b8e087e91131d7dc5f21fb8a683cd39155ab00e0818c9"
+      },
+      "actual_file": "raw/papers/1991_Electromagnetic properties of N=75 isotones_evidence for triaxiality at low spin.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.3",
+      "bytes": 652280,
+      "pages": 14,
+      "sha256": "1c3859a03a76e200048b8e087e91131d7dc5f21fb8a683cd39155ab00e0818c9",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+      "declared": {
+        "raw_file": "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
+        "raw_sha256": "f0da6d0a56cd10d1023633aed1a25d021f88a0ff48787c4569a26031e1b3dc4d"
+      },
+      "actual_file": "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.4",
+      "bytes": 881225,
+      "pages": 5,
+      "sha256": "f0da6d0a56cd10d1023633aed1a25d021f88a0ff48787c4569a26031e1b3dc4d",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+      "declared": {
+        "raw_file": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+        "raw_sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb"
+      },
+      "actual_file": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.5",
+      "bytes": 1423088,
+      "pages": 6,
+      "sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",
+      "declared_hash_matches": true
+    },
+    {
+      "source": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+      "declared": {
+        "raw_file": "raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
+        "raw_sha256": "c74e7c12614cf405861c639194e132f3096d5f46d22062b0164fa166282b9e88"
+      },
+      "actual_file": "raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
+      "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
+      "signature": "%PDF-1.6",
+      "bytes": 571281,
+      "pages": 9,
+      "sha256": "c74e7c12614cf405861c639194e132f3096d5f46d22062b0164fa166282b9e88",
+      "declared_hash_matches": true
+    }
+  ]
+}

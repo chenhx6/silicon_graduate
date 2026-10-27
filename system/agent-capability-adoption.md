@@ -66,6 +66,8 @@ python3 system/scripts/wiki_farmer.py stop --root .
 
 恢复消息只要求原线程从最后检查点继续，不能改变研究目标、模型、文件范围或审核状态。Farmer 不能保证应用或机器在关闭后重新启动；长任务仍需按 `scheduled-continuation.md` 写 handoff。
 
+子代理 rollout 的 `session_id` 可指向父会话；监督采用其实际 `id`，旧格式缺 `id` 才回退 `session_id`。父/子/兄弟线程分别维护事件与 pending 状态。multi-agent v2 拒绝直接 app-server 子线程输入，故子故障只向父线程通知一次具体 child ID/agent path；父线程用原生协作续接并避免重复已完成或已有替代成果的任务。`notLoaded` 不是失败；恢复须核真实 `task_started`/`task_complete`，排队成功不等于已执行。
+
 ## Evolution 采用门
 
 候选能力先记录来源 URL、固定提交、许可证、内容哈希、测试和兼容性，再标记为 `new`、`extend`、`merge`、`reference-only` 或 `reject`。发现候选不等于采用；未知安装器、自动 hook、凭据访问、破坏性脚本和未确认许可均保持阻塞。完整的单轮升级流程见 [`system/agent-capability-upgrade.md`](agent-capability-upgrade.md)。采用后仍需 `git diff --check`、相关测试、Wiki lint 和受保护文件边界检查。

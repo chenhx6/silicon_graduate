@@ -185,6 +185,18 @@ Day 25 学习主线对本源进行了正式深度复核与核对。本篇确立�
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| PE06-D25-001 | 134Pr 在 $I=14–18$ 间能隙虽小（36与44 keV），但两带 alignment 差约 $2\hbar$；两带解混合模型结合实测分支比给出内禀四极矩比值 $Q_{0,1}/Q_{0,2} = 2.0(4)$（允许区间1.6–2.4），证伪了两带具有相同内禀形状的理想手征假设。 | counter-evidence-and-unmixing | direct-original-and-model | PRL 96, 112502 PDF pp.1–3, Table I | true |
-| PE06-D25-002 | 两带解混合模型假定相互作用矩阵元在奇/偶自旋分别固定（$|V| pprox 14/17	ext{ keV}$），且忽略了非对角 $E2$ 矩阵元；作者反对简单理想手征带模型，但明确指出不能因此排除手征几何残余或动态手征涨落的存在。 | model-scope-and-author-boundary | direct-original | PRL 96, 112502 PDF pp.2–4 | true |
-| PE06-D25-003 | 134Pr 的分支比来自文献 Ref. 11，寿命定性对照来自 Ref. 9（Tonev 2006）；两组数据来自不同实验与处理，强调内禀四极矩不对称的判断必须结合寿命与分支比，单凭能谱简并不足以建立模式归属。 | data-lineage-and-companion-observables | direct-original | PRL 96, 112502 PDF p.4, Refs. 9, 11 | true |
+| PE06-D25-001 | 134Pr小能隙与约2ħ alignment差为观测/谱学对照；无offdiagonal E2、短spin段固定V的解混合给Q0,1/Q0,2允许1.6–2.4，原作者据此反对简单ideal pair。它不是无模型形状测量、Gaussian CI或所有手征动力学排除。 | counter-evidence-and-model-range | direct-original-with-explicit-assumptions | printed112502-3 Eqs3–5/TableI | true |
+| PE06-D25-002 | 奇/偶段V约14/17keV、忽略offdiagonal E2；原结论问手征几何残余是否及多大程度仍存在。动态手征解释应另引Tonev06/07，不能写成PE06已明确验证动态涨落。 | model-scope-and-author-boundary | direct-original | printed112502-4 conclusion | true |
+| PE06-D25-003 | 分支来自Ref11、寿命定性对照来自Ref9；不同书目不证明不同实验/统计独立。Tonev06/07明确共享实验，不能重复计票。 | reference-lineage-boundary | direct-original-and-limited-cross-source | printed112502-4 Refs9/11 | true |
+
+## Day25 checkpoint005：TableI实验列与计算列分开
+
+父代理fresh读physicalPDF3文字/视觉，独立代理核四页及已有identity控制；raw SHA ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f相符。旧χ²/95%区间无实际likelihood依据，已撤回，非推翻原作者全部分析。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE06-D25-A005-01 | TableI的17ny/17y/18ny实验为.3(1)/.6(1)/.22(9)，18y为<.08；.33/.70/.17/.062是Q比2的计算列，不能当实验目标或把上限转成高斯中心。 | direct-table-column-identity | direct-original-and-visual | printed112502-3 TableI | true |
+| PE06-D25-A005-02 | 原UC=ultimate cranking给Q比约1.25，TRS另给约1.7；不写两者共同1.25–1.4。 | direct-model-comparison | direct-original-and-visual | printed112502-3 Fig3 discussion | true |
+| PE06-D25-A005-03 | 固定原α、正根b与共同实对称forward核，17→15按连续带交换取倒数，18→16不倒，可重现原四个计算值；x=.04/y=.73及x=.08/y=1是条件敏感性例子，非实际联合fit/CI/等形状或手征认证。 | conditional-forward-kernel-exercise | direct-premise-plus-reproducible-task-algebra | printed112502-3 Eqs4–5 | true |
+
+实际forward-checks-005.py/json与[[134pr-two-band-mixing-offdiagonal-e2-sensitivity]]保存数值/相位约定；α复用原提取，不当独立输入；q12=q21为额外ansatz。

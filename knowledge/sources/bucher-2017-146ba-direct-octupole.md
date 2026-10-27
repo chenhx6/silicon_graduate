@@ -105,7 +105,7 @@ The high-spin alignment and sudden E1 reduction had motivated quenched-octupole,
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| BU17-D19-1 | Bucher 2017 测得 $^{146}\text{Ba}$ 的基态八极矩阵元 $\langle 3^- \Vert \mathcal{M}(E3) \Vert 0^+ \rangle = 0.65_{-0.20}^{+0.14}\ e\text{b}^{3/2}$，对应跃迁几率 $B(E3) = 48_{-29}^{+21}\text{ W.u.}$ 及内禀八极矩 $Q_3 = (1.75_{-0.54}^{+0.38}) \times 10^3\ e\text{fm}^3$，与同中子偶核 $^{144}\text{Ba}$ 完全等同（比值严格为 $1.000$）。与此形成鲜明对比的是，其实测内禀电偶极矩 $|D_0| \le 0.030\ e\cdot\text{fm}$（较 $^{144}\text{Ba}$ 的 $0.130\ e\cdot\text{fm}$ 跌落超过 $4.33$ 倍，对应 $B(E1)$ 跌落超过 $18.8$ 倍）。基于 Gogny D1S 的对称性守恒组态混合（SCCM）计算揭示，宏观液滴电荷质心漂移所产生的电偶极矩 $D_0^{\text{macro}} \approx +0.22\ e\cdot\text{fm}$ 被增加的 2 个中子占据 $\nu i_{13/2}$ 侵入轨道所诱导的微观壳修正偶极矩（$D_0^{\text{shell}} \approx -0.21\ e\cdot\text{fm}$）发生了高达 $93\%$ 的相消干涉，导致表观电偶极矩趋近于零。该测量彻底推翻了以 $E1$ 跃迁强弱作为八极形变存在与否的传统指标，确立了直接 $E3$ 测量在八极物理中的最高证据层级。 | quantitative-benchmark-and-criterion | direct-and-derived | PRL 118, 152504 pp.1-5; Table I, Figs.3-5; ba144-ba146-octupole-e1-result-046.json | true |
+| BU17-D19-1 | withdrawn：旧“严格1.000/宏观+.22微观−.21/93%相消/普适最高终判”认证缺原件支持；适用当前记录为EXT146-1–3及BU17-D25P-A005-01。保留强E3与E1非单调代理的有界结论，原字节在Git历史。 | withdrawn-overclaim | rejected-and-replaced | BU17-D25P-A005-01 | true |
 
 
 ## Day19量化审计：宏观微观电偶极矩D0相消、八极形变非可逆定理与单纯形带崩塌
@@ -122,3 +122,13 @@ The high-spin alignment and sudden E1 reduction had motivated quenched-octupole,
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | EXT146-D21-1 | Bucher 2017 测得 $^{146}\text{Ba}$ 维持了与 $^{144}\text{Ba}$ 相同的强八极跃迁几率 $B(E3; 3^- \to 0^+) = 48_{-29}^{+21}\text{ W.u.}$，但其实测电偶极跃迁矩阵元 $|\langle 1^- \Vert M(E1) \Vert 0^+ \rangle| = 0.000223\ e\text{b}^{1/2}$（$B(E1) \approx 9.3 \times 10^{-7}\text{ W.u.}$），内禀电偶极矩 $|D_0| \le 0.01\ e\text{fm}$ 较 $^{144}\text{Ba}$（$0.13\ e\text{fm}$）骤降逾 13 倍。该实验确证 $B(E1)$ 不是指示八极集体性强弱的单调代理量；另外，Table I 中激发态矩阵元与轴对称刚性转子预测的高度吻合源自 GOSIA 拟合所施加的转子耦合约束，在释放该约束时矩阵元误差扩大至 $+68\%/-80\%$，未构成转子模型的独立统计检验。 | claim-boundary-audit | direct-and-derived | PRL 118, 152504 pp.2-5, Table I; octupole-ba-audit-006.json | true |
+
+## Day25内Day26无学分preview：相消机制的实际分解
+
+checkpoint005独立代理定向核原PDF2–5/Figs4–5，保持已有Day19/21撤回，不将历史脚本算术作为实验证明。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| BU17-D25P-A005-01 | SCCM将E1变化联系到中子占据引起的偶极贡献与质子贡献几乎相消；原段未认证+.22/−.21或宏观液滴/微观壳项的逐项对应。E3与144Ba报告中心舍入相同且误差相容，不证明严格恒定或静态刚性梨形。 | direct-model-explanation-and-observable-boundary | direct-original | PDF5 first paragraph | true |
+
+E1低态约束主要来自既有寿命/BR，与本次CoulEx的E3提取须分谱系；70为纳入网络的矩阵元数而非70项独立无约束数据。正式Day26信用仍保留到自己的run。

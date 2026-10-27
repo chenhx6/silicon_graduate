@@ -119,3 +119,14 @@ Garg *et al.* provide an A≈130 high-spin magnetic-rotation candidate with dire
 ### Ref32 actualprimary续接
 
 [[palit-2000-rh99-clover-polarimetry]] P00-1–12实际原读补齐本文Ref32的方法入口：Eu a与polarizedreference Q的两层校准。原source单clovera≈1、C/D来自其特定数据/能区；本文a≈.93(.06)及未知Q/Cov仍独立保存，不以引用链搬入数值或替代2019勘误。
+
+## Day25内Day26无学分preview：比值趋势与模型条件
+
+checkpoint005独立代理回核PDF7–8；此处是既有原件定向核，不新增独立采集。GA15-3既有人审及GA15-9勘误body未得边界保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GA15-D25P-A005-01 | 作者报告本带B(M1)/B(E2)上升至约35/2，非本档案曾要求的普适陡降；候选MR解释结合TAC配置与谱学。等长刚性双叶且忽略core的下降抛物线仅条件算例，不是该带实际拟合或身份硬门。 | direct-trend-and-model-domain | direct-original-plus-explicit-boundary | PDF7 Fig6 discussion | true |
+| GA15-D25P-A005-02 | 结论称未来寿命可能有帮助，未规定只能薄靶反冲或必须few-W.u.加单调陡降才可确立。绝对B缺失须按本篇范围表述，旧相对B比不是不存在。 | author-limitation-and-nonuniversal-design | direct-original | PDF8 conclusion | true |
+
+正式Day26仍未授分；此校准仅纠正已存在preview，不开下一张卡。数学模型不能凭比值演化代替本带时钟。

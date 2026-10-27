@@ -6,141 +6,109 @@ created: 2026-10-27
 updated: 2026-10-27
 status: active
 review_status: unreviewed
+reasoning_status: provisional
+evidence_sources: [wakudyanaye-2022-triaxiality-rotational-bands-133ce, ding-2021-131ba-133ce-signature-splitting, emediato-1997-133ce-rdds-lifetimes, ragnarsson-semmes-1988-particle-rotor-moments, larsson-1978-nuclear-core-quasiparticle-coupling]
+created_from: Day25 checkpoint005 source audit
 confidentiality: public
 tags: [133ce, afrodite, rad, dco, qtr, gampn, asymo, probmo, analysis-blueprint]
 ---
 
-# $^{133}\text{Ce}$ AFRODITE 阵列几何、全探测器门 $R_{AD}$ 算符偏差与 QTR 代码链输入合同
+# 133Ce：阵列接受度与QTR接口的可恢复边界
 
-## 1. 核心问题与研究背景
+## Research Trigger
 
-在针对 $^{133}\text{Ce}$ 高自旋能带结构与三轴形变开展深入学习（[[133ce-thesis-analysis-blueprint]]、[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]]，WK22）的过程中，为了使学位论文方法真正转化为可迁移、可复现的专业数据分析能力，必须彻底厘清实验数据采集与理论模型输入两个层面的底层合同：
-1. **探测器阵列几何与角分布比率**：AFRODITE 探测器阵列的实际 Clover 数量在同源文献中存在 8 个与 13 个的分歧；同时，实验采用的“全探测器门角分布比率”（$R_{AD}$）常被散文简化为“完全不依赖门跃迁多极性”，其实际有效性依赖于有限立体角积分的对称性近似。
-2. **三轴粒子-转子模型（QTR）代码链输入合同**：基于 Ragnarsson–Semmes（RS88）谱系的 GAMPN $\to$ ASYMO $\to$ PROBMO 程序链，其形变参数存在 $\varepsilon_4 = 0.1$ 与 $0.01$ 的字面冲突；单粒子能量与化学势 $\lambda_F$ 存在跨主振子壳层（$N=4$ 与 $N=5$）的零点对齐机制，直接决定 BCS 配对与准粒子演化。
+继续[[133ce-thesis-analysis-blueprint]]的实际分析蓝本。checkpoint005回读WK22 PDF49/50/54/59/61/77/78/98/99；父代理fresh视觉核Table6.2，独立代理核方法原件。新增判断均needs_review:true。
 
----
+旧版“44.177+6.423精确恢复λ”“负宇称λ应为58.2”“相同事件数证明sorting差异”“门占比60–70%/实际残差数个百分点”认证撤回。Git与tmp/day25-audit005快照保留旧稿；结构lint不构成科学认证。
 
-## 2. AFRODITE 探测器几何与实验 Run 配置同源分歧
+## Grounded Evidence
 
-### 2.1 文献报道的分歧对照
+|来源|实际所述|边界|
+|---|---|---|
+|[[ding-2021-131ba-133ce-signature-splitting]]，PRC104,064304(2021)，§II.A|8 clovers：4@90°、4@135°|装置描述，不是actual mask|
+|[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-01/31，PDF54/61|通用8 clovers+7 LEPS，具体段13 clovers：1@45°、8@90°、4@135°|冲突保留，不任选一组认证响应|
+|两源报告事件数|2.8×10¹⁰双符合、5.4×10⁹高阶符合|强同源线索，不证明同event stream或差异成因|
 
-对于 $^{125}\text{Te}(^{12}\text{C}, 4n)^{133}\text{Ce}$（$E_{\text{beam}} = 57\text{ MeV}$，iThemba LABS 分离扇回旋加速器）实验：
-- **Ding et al. 2021 (*Phys. Rev. C* 103, 034311)**：
-  正文明确描述 AFRODITE 阵列由 **8 个 Compton-suppressed Clover 探测器** 组成，分别位于 $90^\circ$（4 个）和 $135^\circ$（4 个）；
-- **Wakudyanaye 2022 学位论文**：
-  - **第 4.5 节（通用阵列介绍，PDF 54）**：描述 AFRODITE 基本框架为“8 个 Clover（4@90°, 4@135°）外加 7 个 LEPS 探测器（2@45°, 3@90°, 2@135°）”，并注明“近期已升级至 17 个 Clover”；
-  - **第 5.2.1 节（具体实验细节，PDF 61）**：明确写道：“...measured with the AFRODITE array which consists of **thirteen Compton-suppressed clover detectors arranged in three rings at $45^\circ$ (one clover), $90^\circ$ (eight clovers) and $135^\circ$ (four clovers)** with respect to the beam direction.”
+run ID、active mask、45°events、sorting geometry和同门counts仍缺。45°被关闭仅是候选原因；去掉它也不会把8@90°变成4@90°。
 
-### 2.2 事件计数与同源性线索
+## Provisional Reasoning
 
-两篇文献报告的完全相同的统计量表明它们基于同一批物理数据：
-- 双符合事件数：$2.8 \times 10^{10}$；
-- 三重及更高阶符合事件数：$5.4 \times 10^9$。
+WK22-27/35（PDF59 Eq4.6）定义135°/90°目标线在all-detector门下的比值，报告约1.3/0.8的经验参考。响应需由有序级联核与逐pair接受度求和：
 
-**物理与离线排序审计**：
-1. **活动探测器掩模（Active Detector Mask）**：在离线构建 $\gamma$-$\gamma$ 符合矩阵时，位于 $45^\circ$ 的单 Clover 探测器由于缺少对称环伙伴，其立体角较小且几何不对称；若分析人员未对 $45^\circ$ 探测器加门，仅将其作为辅助符合线，或在某些矩阵排序（sorting）中关闭了 $45^\circ$ 通道，则实际参与对称矩阵构建的有效阵列仍等效于特定子集；
-2. **角响应不可跨阵列移植**：由于探测器环角设置（$45^\circ, 90^\circ, 135^\circ$）及各环 Clover 数目不同，本实验的峰位效率响应曲线、极化不对称度响应与角关联接收度完全特定于本次 iThemba LABS run，**绝对禁止将该阵列的比值阈值套用到 GALILEO、EUROBALL、Gammasphere 或 INGA 实验中**。
+$$Y_a(g)=\sum_{i\in a,j}\int A_{ij}(\Omega_1,\Omega_2,E_1,E_2)
+W_g(\Omega_1,\Omega_2)\,d\Omega_1d\Omega_2.$$
 
----
+A包含效率、mask、固角、门宽、同detector排除及sorting，不能由clover数量恢复。门在线之后、方向/偏振完整无偏求和且无其它选择耦合时，可trace后续光子，恢复先前光子的边缘分布；门在线之前，上游辐射仍可通过布居转移影响后续取向。不能无序地把任意gate说成严格不依赖多极性。
 
-## 3. 全探测器门 $R_{AD}$ 算符与有限阵列角关联偏差的解析推导
+仅在equal-weight point-ring及方位平均条件下：
 
-### 3.1 定向态角关联理论基础
+$$q_k=\frac{\sum_j n_jP_k(\cos\theta_j)}{\sum_j n_j},\quad
+(q_2,q_4)_8=(-1/8,-1/64),\quad(q_2,q_4)_{13}=(-11/52,31/416).$$
 
-在重离子熔合蒸发反应中，余核角动量高度取向于垂直束流轴（$z$ 轴）的平面内（高斯磁子能级分布 $P(m) \propto \exp[-m^2/(2\sigma^2)]$）。两连发级联跃迁 $\gamma_1 - \gamma_2$ 的符合角关联由五维几何与统计张量决定：
-$$W(\theta_1, \theta_2, \phi) = \sum_{k_1, k_2, k} A_{k_1 k_2}^k \, P_{k_1}(\cos\theta_1) P_{k_2}(\cos\theta_2) + \text{干涉项}$$
-其中 $\theta_1, \theta_2$ 分别为两光子相对于束流方向的极角，$\phi$ 为二者相对方位角。
+非零矩说明“all”不能保证4π消去；它不决定具体级联偏差的正负、大小甚至是否非零。8/13=61.54%仅等权数量比例，不是实测门份额。实际R_AD/δ需本run响应与校准，不跨阵列搬值。
 
-### 3.2 理想 $4\pi$ 连续积分极限下的消去定理
+## 4. 程序角色不等于actual输入
 
-若门跃迁 $\gamma_2$ 在整个 $4\pi$ 空间进行无偏均匀积分：
-$$\int_{4\pi} W(\theta_1, \theta_2, \phi) \, d\Omega_2 = 4\pi \, W_1(\theta_1)$$
-其中 $W_1(\theta_1) = A_0 [1 + a_2 P_2(\cos\theta_1) + a_4 P_4(\cos\theta_1)]$ 是未加门时单一光子 $\gamma_1$ 从定向核发射的纯粹角分布。
+WK22-38/39（PDF49–50）说明GAMPN生成sp态/矩阵，ASYMO耦合转子，PROBMO计算EM；未交付2022版本、header、units、BCS/blocking、core-R惯量、完整signed wavefunctions与EM输出。
 
-**理论推论**：
-在连续 $4\pi$ 积分下，门跃迁 $\gamma_2$ 的多极性（无论是四极 $E2$、偶极 $M1$ 还是混合跃迁）其各向异性项在角积分中完全为零（$\int P_k(\cos\theta_2) d\Omega_2 = 0, \, k \ge 2$）。因此，理想“全空间门角分布比率”：
-$$R_{AD}^{4\pi} \equiv \frac{W_1(135^\circ)}{W_1(90^\circ)} = \frac{1 + a_2 P_2(\cos 135^\circ) + a_4 P_4(\cos 135^\circ)}{1 + a_2 P_2(\cos 90^\circ) + a_4 P_4(\cos 90^\circ)}$$
-该比值**严格独立于门跃迁 $\gamma_2$ 的多极性**，仅由观察跃迁 $\gamma_1$ 自身的多极性 $L$、混合比 $\delta$ 及初态取向程度 $\sigma/I$ 唯一决定。
+[[ragnarsson-semmes-1988-particle-rotor-moments]] RS88-03/05和[[larsson-1978-nuclear-core-quasiparticle-coupling]]原formalism：
 
-### 3.3 有限离散探测器阵列的残余偏置
+$$H=H_{\rm intr}+H_{\rm core}(R),\qquad
+H_{\rm core}=\sum_k A_k(I_k-j_k)^2,\quad A_k=\hbar^2/(2\mathcal J_k).$$
 
-在实际实验中，“all-detectors gate”并非 $4\pi$ 积分，而是有限离散探测器的代数求和：
-$$I_{\gamma_1}(\theta_1, \text{gate in all}) = \sum_{j \in \text{detectors}} \epsilon_j \, \Omega_j \, W(\theta_1, \theta_j, \phi_{1j})$$
-此时角分布比率变为：
-$$R_{AD}^{\text{finite}} = \frac{\sum_j \epsilon_j \Omega_j W(135^\circ, \theta_j, \phi_{1j})}{\sum_j \epsilon_j \Omega_j W(90^\circ, \theta_j, \phi_{1j})}$$
+I、j按ħ为单位。展开已含一次Coriolis交叉项，不能在含R的Hcore后再减同项。常惯量展开不能替代实际core-R依赖Harris的recoupling合同。
 
-**离散残余偏差分析**：
-1. **立体角权重失衡**：在 AFRODITE 阵列中，第 5.2.1 节报告 8 个 Clover 位于 $90^\circ$，仅 4 个 Clover 位于 $135^\circ$（数量比 2:1）。在全探测器门中，$90^\circ$ 探测器捕获的门事件占总门事件的 $\sim 60\%–70\%$；
-2. **残余关联项**：
-   $$R_{AD}^{\text{finite}} = R_{AD}^{4\pi} \left[ 1 + \Delta_{\text{geom}}(\gamma_2) \right]$$
-   若门跃迁 $\gamma_2$ 是一条强烈各向异性的纯 $E2$ 跃迁（$a_2 \approx +0.3$），其在 $90^\circ$（$P_2(0) = -0.5$）的产额比 $135^\circ$（$P_2(-1/\sqrt{2}) = +0.25$）低约 $25\%$。由于 $90^\circ$ 探测器权重过大，导致求和中偶极分量与四极分量无法精确抵消，产生数个百分点的微观残余偏移 $\Delta_{\text{geom}}$；
-3. **经验校准的有效性边界**：论文报告 $R_{AD} \sim 1.3$（stretched quadrupole）与 $R_{AD} \sim 0.8$（stretched dipole）。这两个经验数值已经吸收了 AFRODITE 特定有限阵列的有效几何因子，**可以作为本实验多极性粗分类的定性判据，但不能反向作为无模型误差的高精度 $\delta$ 拟合依据**。
+## 5. BCS共同零点不变性与反向构造的失败
 
----
+WK22-30（PDF78 Table6.2）表头确写MeV；|18〉、|19〉、|20〉为5.8046、5.8239、5.8985，|23〉为6.4922且主要含N6分量。正Ce/Baλ=50.6/51.0MeV；负宇称实际λ未给。
 
-## 4. QTR 三级程序链（GAMPN $\to$ ASYMO $\to$ PROBMO）输入合同与内部冲突
+经验41A^(-1/3)在A133约8.03218MeV，6.42302正是50.6−5.5ħω的倒算残差，不是原表数据。Fermi不必精确落在本征能；加法相等不证明表值的N4相对原点，也不能由N5推出λ≈58.2。表头误标振子单位、原点差或其它接口/排版问题都只是待核候选，不改表。
 
-### 4.1 程序流与数据接口传递
+标准BCS中：
 
-依据 Ragnarsson & Semmes 1988（RS88）与 Larsson et al. 1978（LLR78）：
-1. **GAMPN**：
-   - 输入：核参数 $(Z, A)$，形变参数 $(\varepsilon_2, \gamma, \varepsilon_4)$，Nilsson 单粒子参数 $(\kappa, \mu)$，价核子单粒子空间（选取费米面近邻的 $N_p$ 个轨道）；
-   - 求解：变形 Nilsson 势单粒子本征态 $|\nu\rangle$ 与单粒子能量 $\varepsilon_\nu$；
-   - 输出：单粒子波函数展开系数（在 $|NLJ\Omega_l\rangle$ 基下）与单粒子矩阵元文件。
-2. **ASYMO**：
-   - 输入：GAMPN 输出文件，化学势 $\lambda_F$，配对能隙 $\Delta$，科里奥利衰减因子 $\xi$，转动惯量参数（Harris 参数 $J_0, J_1$ 或实验 $2_1^+$ 能量），芯转动能量谱；
-   - 求解：对单粒子态执行 BCS 准粒子变换（$u_\nu, v_\nu$ 占有几率），通过将强耦合基（strong-coupling basis）重耦合到好芯角动量基（good-core-$R$ basis），求解非共面粒子-转子耦合哈密顿量：
-     $$H = H_{\text{core}}(\vec{R}) + \sum_\nu \varepsilon_\nu a_\nu^\dagger a_\nu + H_{\text{pair}} - \sum_k \frac{\hbar^2}{\mathcal{J}_k} I_k j_k$$
-   - 输出：核能级能谱 $E(I)$、旋称劈裂 $S(I)$ 与多组态混合波函数 $|\Psi_I\rangle$。
-3. **PROBMO**：
-   - 输入：GAMPN 的单粒子算符矩阵元、ASYMO 的态混合波函数、有效电荷 $(e_{\text{eff}})$ 与有效旋磁比 $(g_s^{\text{eff}}, g_R, g_l)$；
-   - 求解：计算电四极跃迁几率 $B(E2)$、磁偶极跃迁几率 $B(M1)$、多极混合比 $\delta$ 与静态电磁矩（$Q, \mu$）。
+$$E_\nu=\sqrt{(\epsilon_\nu-\lambda)^2+\Delta^2},\qquad
+v_\nu^2=\tfrac12[1-(\epsilon_\nu-\lambda)/E_\nu].$$
 
-### 4.2 正宇称形变参数 $\varepsilon_4$ 的字面冲突与谱系追溯
+ε→ε+C、λ→λ+C共同移位不改变E与u/v；单位换算则ε、λ、Δ必须共同变换。不同宇称可在同mean field共用化学势，分别形变/阻塞job也可不同；必须由actual input判断。
 
-在 WK22 正宇称计算中：
-- **Table 6.1（第 66 页，PDF 77）**：列出 $^{133}\text{Ce}$ $7/2^+$ 基态形变参数为：
-  $$\varepsilon_2 = 0.185, \quad \gamma = 10^\circ, \quad \varepsilon_4 = 0.1$$
-- **紧接正文散文（第 66 页，PDF 77）**：
-  “Constrained potential energy surface (PES) calculations [22]... suggest a quadruple deformation of $\varepsilon_2 = 0.185$ and a hexadecapole deformation of **$\varepsilon_4 = 0.01$** for the $\nu g_{7/2}$ orbital... (see Table 6.1).”
-- **同源文献 Ding 2021 (Ref. [22])**：正文使用 $\varepsilon_4 = 0.01$。
+直接反例：[[emediato-1997-133ce-rdds-lifetimes]] PDF2/2106的负宇称νh11/2 PTR计算明确用λ=50.6MeV、Δ=.92MeV、ħω0=8.41MeV及N4/5空间。这反驳“负宇称禁止50.6”的普适红线，但不恢复WK22实际参数。
 
-**物理与代数鉴别**：
-1. 在 $A \approx 130$ 质量区，十六极形变参数的物理量级典型为 $|\varepsilon_4| \sim 0.01–0.03$；若取 $\varepsilon_4 = 0.1$，其十六极势阱深度将被夸大近一个数量级，会在低激发谱中引发虚假的轨道交叉；
-2. 尽管物理上 $\varepsilon_4 = 0.01$ 具有压倒性的系统学合理性，但在缺少作者实际运行输入卡（actual input deck）的归档证据前，**严禁在代码复现中静默修改 Table 6.1 表值**，必须同时保留“表列值 0.1”与“正文/同源值 0.01”两套候选输入边界。
+## 6. ε4与下一必要输入
 
-### 4.3 单粒子能量与化学势的谐振子壳层基准解耦
+WK22 PDF77 Table6.1正宇称.1/正文.01同时保留，Ding正文.01只补谱系；负宇称.015另记。不由典型量级选择actual值或证明轨道交叉“虚假”。下一高信息输入为实际header/input/output；被阻时转可解析的同母态依赖/相干相位问题。
 
-#### 1. 正宇称（$N=4$ 壳层）
-在 Table 6.2 中，正宇称单粒子能量列为 $\varepsilon \approx 5.45–6.49\text{ MeV}$，而正文报告费米面为 $\lambda_F = 50.60\text{ MeV}$。
-- $A=133$ 谐振子能级间隔：
-  $$\hbar\omega_0 \approx 41 \, A^{-1/3}\text{ MeV} = 41 \times 133^{-1/3} \approx 8.0322\text{ MeV}$$
-- $N=4$ 主振子壳层基准能量：
-  $$E_0(N=4) = \left(4 + \frac{3}{2}\right)\hbar\omega_0 = 5.5 \times 8.0322\text{ MeV} \approx 44.1770\text{ MeV}$$
-- 叠加相对单粒子能量（费米面附近轨道 18–20，$\varepsilon \approx 6.4230\text{ MeV}$）：
-  $$E_0(N=4) + \varepsilon \approx 44.1770 + 6.4230 = 50.6000\text{ MeV} \equiv \lambda_F$$
-  **精确证明 $\lambda_F = 50.6\text{ MeV}$ 是以三维谐振子零点为绝对基准的单粒子化学势**。
+## Learning Decision
 
-#### 2. 负宇称（$N=5$ 壳层）的跨壳隔离红线
-负宇称 $h_{11/2}$ 轨道属于 $N=5$ 主振子壳层：
-- $N=5$ 基准能量：
-  $$E_0(N=5) = \left(5 + \frac{3}{2}\right)\hbar\omega_0 = 6.5 \times 8.0322\text{ MeV} \approx 52.2091\text{ MeV}$$
-- 壳基准跃迁差值：
-  $$\Delta E_0 = E_0(N=5) - E_0(N=4) = 1.0 \, \hbar\omega_0 \approx 8.0322\text{ MeV}$$
-- **致命物理陷阱**：
-  在 WK22 第 6.3.2 节负宇称计算中，作者**完全未在正文中记录负宇称使用的 $\lambda_{F,-}$ 数值**。
-  若后续研究者误将正宇称的 $\lambda_F = 50.60\text{ MeV}$ 直接代入负宇称计算，由于 $N=5$ 单粒子绝对能量高出 $\sim 8\text{ MeV}$，单粒子能减化学势将出现：
-  $$E_\nu - \lambda_F \approx 58.2\text{ MeV} - 50.6\text{ MeV} \approx +7.6\text{ MeV}$$
-  该差值远大于配对能隙（$\Delta \approx 0.9–1.0\text{ MeV}$），将导致准粒子激发能暴增为 $\sim 8\text{ MeV}$，BCS 占有几率发生极端畸变（$v^2 \to 0$），彻底摧毁负宇称能带的科里奥利混合。
-  **结论**：负宇称必须使用自身的绝对费米能（$\lambda_{F,-} \approx 58.2\text{ MeV}$ 或重置相对基准后的 $\varepsilon - \lambda_{F,-}^{\text{rel}} \approx 0$）。
+revises旧零点/实际响应认证；supports字段级程序合同、条件接受度和共同能量原点检查。actual作者job未复现。
 
----
+## Assumptions
 
-## 5. 结论与分析蓝本规范总结
+点环矩仅equal weight/point acceptance/方位平均控制。BCS共同移位保持同一Δ和配对处方；不同job不由此自动建立参数相同。Hcore展开仅常惯量说明。
 
-| 分析维度 | 已核实事实 / 原文字面 | 物理机制与代数结论 | 分析蓝本规范红线 |
-|---|---|---|---|
-| **AFRODITE 探测器数** | Ding 2021 写 8 Clover；WK22 §4.5 写 8 Clover，§5.2.1 写 13 Clover（1@45°, 8@90°, 4@135°）。 | 双符合 $2.8 \times 10^{10}$ 与高阶符合 $5.4 \times 10^9$ 完全重合，属同一实验事件流的离线排序差异。 | 保留探测器掩模缺口，禁止断言“两文实验不同”或“完全相同几何”。 |
-| **全探测器门 $R_{AD}$** | WK22 Eq 4.6 采用 all-detectors 门，正文称不依赖门线多极性（四极 $\sim 1.3$，偶极 $\sim 0.8$）。 | $4\pi$ 连续角积分下门线多极性严格相消；有限离散阵列因立体角不对称（8@90° vs 4@135°）存在残余偏置。 | $R_{AD}$ 为该阵列粗分多极性的经验基准，**严禁跨阵列移植套用**。 |
-| **正宇称 $\varepsilon_4$ 冲突** | Table 6.1 列 $\varepsilon_4 = 0.1$；紧接正文写 $\varepsilon_4 = 0.01$；Ding 2021 写 0.01。 | $\varepsilon_4 = 0.1$ 夸大十六极效应近 10 倍，物理合理值为 0.01；但表列值未授权改写。 | 两套参数均予以保留，标记为待实际输入卡闭合的不一致性。 |
-| **化学势 $\lambda_F$ 壳偏置** | 正宇称 $\lambda_F = 50.6\text{ MeV}$，单粒子能 $\varepsilon \approx 5.45–6.49\text{ MeV}$；负宇称 $\lambda_{F,-}$ 未显式记录。 | 差值 $44.18\text{ MeV}$ 精确对应 $N=4$ 壳基准 $5.5\hbar\omega_0$；$N=5$ 负宇称基准高出 $\sim 8.03\text{ MeV}$。 | **建立跨壳隔离红线**：严禁在负宇称计算中直接混用正宇称 $\lambda_F = 50.6\text{ MeV}$。 |
+## Competing Explanations
+
+装置描述差异可能来自文字、升级或sorting子集，当前不能择一。ε表的单位/原点/接口问题是待核类别，不由数字近似选择实际转换。
+
+## Transfer Conditions
+
+实际角响应需本run逐pair校准；单位转换须共同处理ε、λ与Δ；历史PTR参数和代码角色不能直接迁为2022输入。
+
+## Failure Conditions
+
+仅用8/13推实际门份额、用壳数给λ强制差一个ħω、在Hcore(R)后再加Coriolis，均不满足当前合同。
+
+## Falsification or Reverse Tests
+
+共同平移ε与λ后BCS的E/u/v保持；将仅λ平移则不再是参考零点变换。负νh11/2原job的λ50.6反驳普适禁令，但不验证WK22 actual值。
+
+## Open Questions
+
+run/mask/45°events/sorting与actual header、ε4选择、配对/阻塞、完整signedEM仍缺。获取受阻时保留已查入口，转可解析问题。
+
+## Human Review
+
+本页未发生用户claim裁决，review_status保持unreviewed；不迁移其它source或Band5的人审到本推理。
+
+## Promotion or Rejection History
+
+2026-10-27 checkpoint005撤回旧强认证，以原件和声明条件的前向控制替代；reasoning_status为provisional。旧稿在Git和入口快照保留，未将self-audit写成human-reviewed。

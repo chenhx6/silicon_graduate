@@ -73,6 +73,8 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] `system/log.md` 只追加，没有重写历史记录；启动或普通恢复未用 `ReadAllText(system/log.md)` 读取完整 log。
 - [ ] 若使用定时续跑，已遵循 `system/workflows/scheduled-continuation.md`，并说明本机应用、调度服务与电脑可用性前提。
 - [ ] 若启用 Wiki farmer，已先运行 dry-run；监控范围仅为 Wiki 根目录内的公开 rollout JSONL，会话状态只写入 `tmp/farmer/`，没有读取 Codex SQLite、凭据或 raw。
+- [ ] Farmer 使用 rollout 的实际 thread `id`；旧格式缺 `id` 才回退 `session_id`，未把子代理的父 `session_id` 当作自身。父/子/兄弟事件分开；v2 子故障向父线程通知后由原生协作续接，同事件最多一个 pending；`notLoaded` 不等于失败，排队成功另核真实执行。
+- [ ] 历史子故障的父线程未处于当前 `task_started` 时不唤醒父任务，标为 `parent-inactive`；completed/cancelled父任务不因监控身份修正被批量重开。
 - [ ] Hook 只通过 `system/scripts/wiki_hook.py` 显式调用；输入按数据处理，未自动修改 Codex 配置、source/eval 目标文件或执行外部安装器。
 - [ ] 创建分支、提交、fetch 或 push 前运行 `python3 system/scripts/wiki_automation_preflight.py --root .`；不依赖 PowerShell、ACL、运行时 marker 或项目 sandbox profile。
 - [ ] 定时任务正文未通过 shell、补丁或文件 API 读写 Codex 宿主 automation memory、global state、sandbox state 或任何 Wiki 外文件；宿主状态仅由 Codex automation 功能维护。

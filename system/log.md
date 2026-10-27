@@ -4558,3 +4558,7 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-27T19:55:00+08:00 Day25 checkpoint003：完成 134Pr 两带解混合非对角 E2 敏感性扫描（建立 134pr-two-band-mixing-offdiagonal-e2-sensitivity.md，证明 q12/q1 ~ 4% 调和微观 TRS/UC、~8% 容纳等形状手征解）；完成用户提供 Paul 1991 (1991Pa04) 原件全文核读并建立来源页 paul-1991-n75-electromagnetic-properties-triaxiality.md（PA91-01–06，闭合 133Ce 带内角分布与 Yamazaki 约定）；更新 chirality 矩阵与 133Ce 蓝本；日报追加第 5 节分析；全套检查及写回验证全绿（6 items, 9 changed paths）。
 
 - 2026-10-27T20:30:00+08:00 Day25 checkpoint004：深入学习 133Ce 分析蓝本之实验阵列几何与 QTR 模型输入合同；建立独立技术研究笔记 133ce-afrodite-rad-finite-geometry-and-qtr-code-contract.md，彻底闭环 AFRODITE 阵列 8 vs 13 Clovers 同源性与事件数重合、全探测器门 R_AD 有限角积分消去定理与离散残余偏差（8@90° vs 4@135° 不对称），以及 GAMPN→ASYMO→PROBMO 程序链中 ε4=0.1 vs 0.01 冲突、N=4 正宇称单粒子能/化学势谐振子壳偏置（50.6 MeV）与 N=5 负宇称跨壳隔离红线；同步更新 133ce-thesis-analysis-blueprint.md 第 11 节与正式日报；全量验证保持全绿（7 items, 13 mapped paths）。继续驻守学习至次日 15:00 收束。
+
+- 2026-10-27T21:08:37+08:00 Day25 checkpoint005：按原件撤回Pr实验/计算列混用、无依据CI及Ce壳offset/检出限/3qp硬门，重建可执行前向控制、三核矩阵和蓝本。用户指定五子会话巡检：一容量失败已原生续接完成，四既有完成；Farmer修正child id与parent通知路由，inactive父不唤醒，9项回归通过。正式学分仍未授、原截止不改；实际检查与发布留本run回执。
+
+- 2026-10-27 Day25 checkpoint005续：监督回归补至10项并核inactive父不重复通知，监督器以最终代码重新加载为PID442391；Paul1991原件Eq6能量幂/混合份额、Fig2分母及反应/作者元数据已修正，保留实际校正合同与原needs_review。结构首检发现研究笔记schema/导航缺失，已按真实source与条件推导补齐，未将旧“检查全绿”作为证据。

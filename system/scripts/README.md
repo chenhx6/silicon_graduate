@@ -44,6 +44,10 @@ python3 system/scripts/wiki_hook.py session-summary --root .
 
 Farmer 只读取 `CODEX_HOME/sessions/**/*.jsonl`，对 Wiki 根目录内的白名单瞬态失败排队一次固定续接消息；状态写入被忽略的 `tmp/farmer/`，不访问 Codex SQLite，也不执行 Git 发布：
 
+有独立 `session_meta.id` 的子代理按自己的 thread ID 分别监控；其 `session_id` 可能是父会话，不能用来合并兄弟线程。仅旧格式缺少 `id` 时回退 `session_id`。multi-agent v2 不接受对子线程的直接 app-server 输入，因此瞬态故障只向父线程排队一次带子 ID/agent path 的恢复通知，由父线程核对既有成果后用原生协作续接。已完成的子代理不因 `notLoaded` 显示而重启；通知接受不等于新 turn 已运行，须另核该线程事件。
+
+父线程没有当前 `task_started` 时，历史子故障标为 `parent-inactive`，不会唤醒已完成、取消或未载入的父任务；待父任务明确恢复后再由其判断是否仍需续接。
+
 ```bash
 python3 system/scripts/wiki_farmer.py once --root . --dry-run
 python3 system/scripts/wiki_farmer.py ensure --root .

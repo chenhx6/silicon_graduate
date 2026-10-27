@@ -3,41 +3,17 @@ graph-excluded: true
 updated: 2026-10-27
 ---
 
-## Active handoff — Day 25 学习主线交付与 133Ce 分析蓝本深入
+## Active handoff — Day25 checkpoint005：原件纠错与子会话监督恢复
 
-2026-10-27T19:50:00+08:00，run 2026-10-27-day-25-01 / session 01a17cdd-58b4-7a53-b782-5248260f526a。依据用户持续学习与 auto 无人值守多代理授权推进。当前全面完成 Day 25 主线全部交付、133Ce 深入学习与三项专项子代理研究，并在 Day 26 开展深化无学分预习；硬截止保持次日 2026-10-28 15:00，收束窗口 15:00–16:00。
+2026-10-27T21:08:37+08:00，同run 2026-10-27-day-25-01 / session 01a17cdd-58b4-7a53-b782-5248260f526a，原截止2026-10-28 15:00（15–16收束）不改。Day25仍running，report completed[] partial[25,26]；课程真实累计24/next25。此前report/原run早写completed25不是正式信用，原字段保留，未再授分。
 
-核心交付全量达成：
-1. **理论判据澄清**：系统论证“近简并”（near-degeneracy）是手征对称性自发破缺恢复的必要表象而非充分条件，多准粒子带交叉（4-qp crossings）、反交叉能级排斥与形状共存均可在有限角动量窗口内伪造近简并能谱；
-2. **五维鉴别对照**：从物理机制/波函数、内禀四极矩与绝对 B(E2) 阶梯、单极电跃迁 E0、带间手征选择定则跃迁、自旋/频率演化五个维度，确立三轴形状共存与手征双重带的鉴别边界；
-3. **134Pr/135Nd/136Nd 三核三行分对矩阵**：
-   - 134Pr：I=14–18 处能隙虽仅 36/44 keV，但两带 alignment 差约 2ℏ，两带解混合模型得出 Q0,1/Q0,2 = 2.0(4)，彻底排除理想手征；
-   - 135Nd：负宇称对（D5/D6）拥有 Mukhopadhyay 2007 的实测寿命与绝对 B(E2)/B(M1) 强支撑；正宇称对（D3/D4）新谱学角分布完备但缺少配对绝对强度，保留多极小或交叉竞争解释；
-   - 136Nd：五对中仅正宇称六准粒子 D5/D5-C 对在两成员均测得重合的 B(M1)/B(E2) 比值；D3 展现 3D-TAC 非共面解，其余弱伙伴对缺乏跃迁比；旧 Mukhopadhyay 2008 寿命不对称对应 D4 与 D3 主带，不支持手征；
-4. **伴随观测量四级降级阶梯**：建立“拓扑身份/谱线纯度 → 实测时钟/绝对电磁标度 → 固定模型可失败预报 → 独立正交结构 holdout”的四级鉴别与逐项缺失降级规范；
-5. **133Ce 分析蓝本持续深入与代数闭环**：
-   - 131Ce (N=73) Band 3 为 Ex=61.8 keV 的 1/2+ 激发态，而 133Ce (N=75) 同号 Band 3 为 1/2+ 基态（0 keV），确立低激发基准与带头零点翻转；
-   - 133Ce 近邻 13/2+ 双能级（1445.8 与 1459.9 keV，差 14.1 keV）中，412.4 与 767.7 keV 跃迁均完全来自 1445.8 keV 单一母态，非两态各发一条；2733.4 与 2739.5 keV 两 19/2+ 态保留独立节点；
-   - Table 6.11 出带与入带强度比消去定理成立：r_E2(out/out) / r_E2(out/in) = r_M1(out/out) / r_M1(out/in) = B(E2; in, ΔI=2) / B(E2; out, ΔI=2) = [I_γ(in) / I_γ(out)] * [E_γ(out) / E_γ(in)]^5，完全独立于混合线 γ1、δ1 与母态寿命；465 keV 实测光子传播给出 10.63 ± 1.37，覆盖理论值 11.78；
-   - 582 keV 反演所需 817.7 keV 假想线强度高达 0.88–1.19，在检出限 0.2–0.4 的 Table 5.2 中完全缺失，排他性证明 817.7 keV 为幽灵分母，严禁逆向造线；
-   - 谐振子标度统一正宇称单粒子能与绝对费米能（44.177 + 6.423 = 50.600 MeV），负宇称 h11/2（N=5 壳基准 52.209 MeV）严禁共用正宇称 λ_F；
-   - Paul 1991 (1991Pa04) 原件全文核读并建立来源页 [[paul-1991-n75-electromagnetic-properties-triaxiality]]，闭合 133Ce Band 1 带内角分布 δ<0（Yamazaki 1967 约定）及 N=75 三轴系统学谱系；
-   - 建立独立技术研究笔记 [[133ce-afrodite-rad-finite-geometry-and-qtr-code-contract]]，彻底闭环 AFRODITE 阵列 8 vs 13 Clovers 同源性、全探测器门 R_AD 有限角积分残余偏差，以及 GAMPN→ASYMO→PROBMO 中 ε4=0.1 vs 0.01 冲突与 λ_F 跨壳隔离红线。
-6. **134Pr 两带解混合非对角 E2 敏感性研究**：
-   - 独立建立研究笔记 [[134pr-two-band-mixing-offdiagonal-e2-sensitivity]]，证明 PE06 导出 Q0,1/Q0,2=2.0 依赖于 q12=0 的人为先验；微弱非对角元 q12/q1 ~ 4% 即可完全调和微观 TRS/UC 预测（Q1/Q2 ~ 1.37, χ²=0.458），q12/q1 ~ 8% 允许严格等形状手征解（Q1/Q2=1.00, χ²=1.68 < 4.0）。
-7. **多代理并行预习成果**：
-   - 产出三项深度分析档案：ce133-cancellation-proof.md、day26-octupole-dossier.md 与 day26-magnetic-rotation-dossier.md；深入剖析 144,146Ba 库仑激发 GOSIA 拟合、E1/E3 相对符号与微观 D0 相消机制，以及 135Pr 剪刀机构 TAC 动力学与 A≈130 高自旋四模式鉴别矩阵。
+主线：PE06原TableI实验/计算列分开；17→15倒数回核，撤回无producer的χ²/95%、普适近简并必要与“等对角即手征”。新forward-checks-005.py/json复现原四点并作条件q12例子，独立矩阵乘法误差1.11e−16。三核矩阵按135Nd正/负pair、136Nd各pair分观测与模型；Tonev共享实验不重复计票。
 
-验证全绿：
-- wiki_boundary_check: 0 violations；
-- wiki_lint: 0 errors, 267 warnings (744 pages / 9930 wikilinks)；
-- git diff --check: 0 errors；
-- validate_report: valid=True；
-- validate_curriculum_coverage: valid=True, completed=[25], partial=[26], next=26；
-- validate_durable_knowledge: valid=True, mode="updated", 7 items, 13 changed paths。
+133Ce长期蓝本继续active：撤回壳offset恢复、.2–.4假检出限、3qp伪下限及跨核Qt测γ软度；465±1.37仅Cov=0条件；817.7未列观测分母，actual header/ε4/单位/零点/负λ/mask/signedEM缺口保持。Emediato1997负νh11/2用λ50.6的原文是反对普适跨壳禁令的直接反例，不替WK22填参数。新needs_review:true，AW13 Band5及Day21/22/23既有人审/撤回、raw/PLAN/Bib、旧dirty与114保持。
 
-Next Actions：
-保持当前有界分析与会话监督（farmer ensure 运行），继续 Day 26 知识深化，待次日 15:00 准时启动正式收束。
+用户五子会话已实查：一capacity失败、四完成；失败原线程经native collaboration已完成只读核对，未新daily run。Farmer实际thread id误归父session_id已修；v2子故障由父接通知再原生续接，父inactive不唤醒历史故障。10项AgentOps测试通过、dry-run零动作；新live PID442391，旧2698监督器已替换，不影响研究session。
+
+检查/发布实际门见本run required-checks-005.json / subagent-supervision-005.json / checkpoint-publication-005.json。稳定提交subject：Day25: correct evidence boundaries and restore child supervision；精确hash仅发布回执。续接next-continuation-005.md；继续高信息问题至原截止，Day26只无学分preview、不开Day27。用户只关注结果，避免大段执行汇报。
 
 ## Previous handoff — Day24正式完成，Day25仅预习 — Day24正式完成，Day25仅预习
 

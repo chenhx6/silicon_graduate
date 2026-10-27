@@ -231,3 +231,18 @@ Day24 primary link: [[butler-1975-la129-la131-rd-lifetimes]]
 | WK22-46 | Table5.4两条跨Band3→Band2连接均出自1445.8 keV/13/2+母态：412.4 keV到1033.4/11/2+，Iγ=.20(9)、M1+E2；767.7 keV到678.1/9/2+，Iγ=.58(7)、E2。1459.9/13/2+属于Table5.3 Band2，其所列出口为426.4/781.8，不能把412.4指给该母态或造1047.5节点。 | direct-transition-identity-and-correction | direct-original-plus-explicit-energy-arithmetic | physicalPDF71 Table5.4 | true |
 
 098直接回读physicalPDF69/71并视觉复核Table5.4；14.1 keV仅为两13/2+的中央能差，未在此拟合混合矩阵元或交叉频率。错误扩写的原副本保存在本run pre-correction-098，现行知识以原表为准。
+
+## Day25 checkpoint005：原件反向核验与条件推导
+
+父代理fresh文字/视觉核physicalPDF67/78/112，独立代理定向核49/50/54/59/61/69/71/77/98/99及历史方法；这是关键输入审计，不新增130页全文阅读声明。raw SHA仍48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080。旧Day25“零点恢复/检出限/3qp下限”认证撤回，WK22-30/31/33/35输入边界继续有效。新claims均needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WK22-D25-A005-01 | Table6.2表头MeV，18/19/20轨道为5.8046/5.8239/5.8985，23为6.4922且含N6主分量；6.42302不在该表，它只是50.6−5.5×41A^(-1/3)的倒算残差，不能认证共同原点/单位或负宇称λ。 | direct-table-and-rejected-inverse-inference | direct-original-plus-explicit-arithmetic | physicalPDF78 Table6.2 | true |
+| WK22-D25-A005-02 | 两种分母比在同母、非零分子及一致光子yield口径下可消去混合线与τ；465中心10.62663、打印商11.77778/11.78723。σ1.37205仅条件Cov=0所得；实际Cov/响应未知，不叫实际CI或证明计数谱系。 | conditional-dependence-and-error-propagation | direct-input-plus-declared-task-algebra | physicalPDF112 Table6.11 | true |
+| WK22-D25-A005-03 | Table5.2没有817.7行或该母态局部检出上限；其它弱线不构成该线upper limit。假设分母的强度反演.882/1.157/1.192只是不同summary输入的条件目标，不证明真实线或其来源。旧.2–.4检出限及排他幽灵认证撤回。 | missing-edge-and-limit-boundary | direct-original-plus-conditional-arithmetic | physicalPDF67 Table5.2 | true |
+| WK22-D25-A005-04 | Table5.3原印2733.4/881.2与2739.5/886.8两19/2+行，分别保存；若同终态1852.7，闭合残差−.5/0keV，前行待核，不擅改或据此认证两独立物理态。 | printed-rows-versus-physical-identity | direct-original-and-central-arithmetic | physicalPDF69 Table5.3 | true |
+| WK22-D25-A005-05 | 标准BCS共同平移ε与λ保持ε−λ及u/v不变；不同宇称不是必须相差一个ħω的化学势规则。实际负λ、单位/零点、blocking/header继续缺失，不用历史方法补作者job。 | conditional-energy-reference-invariance | source-premise-plus-task-algebra | physicalPDF47 Eq3.20 | true |
+| WK22-D25-A005-06 | 独立等方差能级的四点S线性组合得到lag3协方差−σE²/4、相关−.05，仅lag≥4为零；该条件不恢复实际能级Cov，也不能据派生S重复计权。 | conditional-covariance-correction | task-algebra-with-declared-assumptions | physicalPDF35 Eq2.37 | true |
+
+计算producer与完整精度见本run forward-checks-005.py/json；可复用边界同步[[133ce-thesis-analysis-blueprint]]与两research notes。Emediato1997负宇称50.6MeV的直接反例另见[[emediato-1997-133ce-rdds-lifetimes]] EM97-D25-A005-01，不移植其参数。

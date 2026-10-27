@@ -6,82 +6,96 @@ created: 2026-10-27
 updated: 2026-10-27
 status: ai-draft
 review_status: unreviewed
-reasoning_status: verified-analytical-exercise
+reasoning_status: provisional
 evidence_sources: [petrache-2006-near-degenerate-chiral-misinterpretation, tonev-2006-134pr-lifetime-chiral, tonev-2007-134pr-dynamic-chirality]
 created_from: Day25 task continuation
 promotion_target: chirality-shape-coexistence-companion-matrix
 tags: [134Pr, chirality, shape-coexistence, band-mixing, E2-matrix-elements, sensitivity-analysis]
 ---
 
-# 134Pr 两带解混合模型中的非对角 E2 矩阵元干涉与内禀四极矩比值敏感性研究
+# 134Pr两带混合：实验列、模型列与非对角E2敏感性
 
-## 1. 研究问题与背景
+## Research Trigger
 
-在手征双重带反例研究中，[[petrache-2006-near-degenerate-chiral-misinterpretation]] (PE06) 是里程碑式的批判性工作。该文通过建立两能带解混合模型（two-band unmixing model），利用实验测得的出带/带内 E2 分支比，反演得到 134Pr 两个未扰动能带的内禀电四极矩比值为 Q_{0,1}/Q_{0,2} = 2.0(4)（允许区间 1.6–2.4）。由于该比值远大于微观 TRS 与超形变推转（UC）势能面计算所预测的形变极小比值（~1.25–1.4），作者由此断定两带具有截然不同的内禀形状（三轴形状共存），从而排除了理想手征双重带假说。
+[[petrache-2006-near-degenerate-chiral-misinterpretation]] Eqs1–5/TableI在无off-diagonal E2、短spin段固定V等假定下给Q0,1/Q0,2允许1.6–2.4；不是直接静态形状测量。checkpoint005父/子代理fresh视觉核printed112502-3，新增needs_review:true。
 
-然而，PE06 在推导该比值时引入了一项关键简化假定：**严格忽略两个未扰动基底态之间的非对角 E2 跃迁矩阵元（即假定 q12 = 0）**。本研究笔记通过严格代数推导与全参数空间数值扫描，定量回答以下核心问题：
-当放弃 q12 = 0 的先验约束、允许未扰动态之间存在微观合理的非对角 E2 跃迁矩阵元时，反演得到的内禀四极矩比值 Q_{0,1}/Q_{0,2} 将如何漂移？两带是否可能在保持相同内禀四极形变（Q_{0,1} = Q_{0,2}）的前提下完全再现实测的 E2 出带分支比？
+旧版把计算列当实验目标、未写17→15连续带交换、无实际likelihood/producer，故撤回旧χ²/95%区间与“4–8%证明等形状手征/完全解释”。UC=ultimate cranking约1.25；TRS另约1.7，非共同1.25–1.4。旧稿由Git和入口快照保留。
 
-## 2. 广义两带混合 E2 跃迁算符代数框架
+## Grounded Evidence
 
-设每个自旋 I 下，物理观测的 yrast 态 |y> 与 non-yrast 态 |ny> 由未扰动基底 |1> 与 |2> 经正交旋转混合而成：
-
-$$\begin{pmatrix} |y\rangle \\ |ny\rangle \end{pmatrix} = \begin{pmatrix} a_I & b_I \\ b_I & -a_I \end{pmatrix} \begin{pmatrix} |1\rangle \\ |2\rangle \end{pmatrix}, \quad b_I = \sqrt{1 - a_I^2}$$
-
-在未扰动基底 (|1>, |2>) 中，包含非对角跃迁矩阵元的内禀四极矩算符矩阵记为：
-
-$$Q = \begin{pmatrix} q_1 & q_{12} \\ q_{12} & q_2 \end{pmatrix} = q_1 \begin{pmatrix} 1 & x \\ x & y \end{pmatrix}$$
-
-式中无量纲参数定义为：
-- $y \equiv q_2 / q_1 = Q_{0,2} / Q_{0,1}$ 为未扰动态内禀四极矩之比；
-- $x \equiv q_{12} / q_1$ 为非对角跃迁矩阵元与对角基准之比。
-
-初态 $i = (I)$ 到末态 $f = (I-2)$ 的实验室系 E2 跃迁矩阵元由正交变换投影给出：$M_{fi} = \vec{v}_f^T Q \vec{v}_i$。各跃迁通道解析形式如下：
-1. **Yrast 带内跃迁（$|y, I\rangle \to |y, I-2\rangle$）**：
-   $$M(y \to y) = a_f a_i + b_f b_i y + (a_f b_i + b_f a_i) x$$
-2. **Yrast 跨带跃迁（$|y, I\rangle \to |ny, I-2\rangle$）**：
-   $$M(y \to ny) = b_f a_i - a_f b_i y + (b_f b_i - a_f a_i) x$$
-3. **Non-yrast 跨带跃迁（$|ny, I\rangle \to |y, I-2\rangle$）**：
-   $$M(ny \to y) = a_f b_i - b_f a_i y - (a_f a_i - b_f b_i) x$$
-4. **Non-yrast 带内跃迁（$|ny, I\rangle \to |ny, I-2\rangle$）**：
-   $$M(ny \to ny) = b_f b_i + a_f a_i y - (b_f a_i + a_f b_i) x$$
-
-出带与带内跃迁强度比值分别为：$R_y = [M(y \to ny) / M(y \to y)]^2$，$R_{ny} = [M(ny \to y) / M(ny \to ny)]^2$。
-
-## 3. 对称性与干涉消除机制
-
-### 3.1 为何当 $x=0$ 且 $y=1$ 时解混合模型必然失效？
-若假定 $q_1 = q_2 = q_0$（$y=1$）且 $q_{12} = 0$（$x=0$），矩阵元严格化简为：
-$$M(y \to ny) = q_0 (b_f a_i - a_f b_i) = - q_0 \sin(\theta_i - \theta_f)$$
-$$M(ny \to y) = q_0 (a_f b_i - b_f a_i) = + q_0 \sin(\theta_i - \theta_f)$$
-$$M(y \to y) = M(ny \to ny) = q_0 \cos(\theta_i - \theta_f)$$
-此时两个出带分支比在数学上发生**强制严格简并**：
-$$R_y \equiv R_{ny} = \tan^2(\theta_i - \theta_f)$$
-然而实验测得的分支比高度不对称（Table I 给出 17->15 为 0.33 与 0.70；18->16 为 0.17 与 0.062）。在 $x=0$ 下，唯有强行打破对角元对称性（引入 $y \approx 0.5$，即 $q_1/q_2 \approx 2.0$），才能产生不同分支比。**这是 PE06 导出 $Q_{0,1}/Q_{0,2} = 2.0$ 的数学根源**。
-
-### 3.2 非对角项 $x$ 如何恢复分支不对称度？
-当引入 $x \neq 0$ 时，非对角干涉项在 $M(y \to ny)$ 与 $M(ny \to y)$ 中具有不同的符号与三角组合：
-$$\Delta M_{12}(y \to ny) = - x \cos(\theta_i + \theta_f)$$
-$$\Delta M_{12}(ny \to y) = - x \cos(\theta_i + \theta_f)$$
-虽然两者的非对角修正项相同，但与对角项干涉时产生相消与相长的分化，迅速打破了 $R_y = R_{ny}$ 的强制简并，从而在不需要剧烈形状差异的前提下拟合实验数据。
-
-## 4. 全参数空间网格扫描与定量结果
-
-以 PE06 报告的自旋 17 与 18 态混合振幅（$a_{17}=0.118, a_{15}=0.894$；$a_{18}=0.099, a_{16}=0.427$）为输入，针对 Table I 的四个目标分支比（17->15: 0.33, 0.70；18->16: 0.17, 0.062），在二维参数空间 $(x \in [-0.6, 0.6], y \in [0.25, 1.30])$ 进行卡方扫描：
-
-| 内禀比值 $Q_{0,1}/Q_{0,2}$ | $y = Q_{0,2}/Q_{0,1}$ | 最优非对角项 $x = q_{12}/q_1$ | 最小 $\chi^2$ | $95\%$ 置信容许 $x$ 区间 ($\Delta\chi^2 \le 4$) | 物理评注 |
+|初态|Eγ,out/in, keV|Experiment|Calculation，Q1/Q2=2|abs(V), keV|αI|
 |---|---|---|---|---|---|
-| **2.04** | 0.49 | 0.00 | 0.027 | [-0.02, +0.02] | PE06 原解：要求 $q_{12} \approx 0$，大形状差异 |
-| **1.82** | 0.55 | +0.01 | 0.021 | [-0.01, +0.03] | 优良拟合区 |
-| **1.49** | 0.67 | +0.03 | 0.264 | [+0.01, +0.06] | 落在 TRS 计算预言区间（~1.4）内 |
-| **1.37** | 0.73 | +0.04 | 0.458 | [+0.02, +0.07] | 完美契合微观 UC 势能面极小比值（~1.25–1.4） |
-| **1.18** | 0.85 | +0.06 | 0.944 | [+0.04, +0.09] | 形状差异仅 18%，依然在 $1\sigma$ 统计容许内 |
-| **1.03** | 0.97 | +0.08 | 1.540 | [+0.06, +0.10] | **近似等形状解**：仅需 $8\%$ 非对角跃迁矩阵元 |
-| **1.00** | 1.00 | +0.08 | 1.680 | [+0.06, +0.11] | **严格等形状解**：仍显著优于 $95\%$ 排除阈值 |
+|17ny|991/1027|.3(1)|.33|14|.118|
+|17y|909/873|.6(1)|.70|14|—|
+|15y|671/892|0(1)|.034|14|.894|
+|15ny|928/707|1.1(5)|.78|14|—|
+|18ny|1113/1069|.22(9)|.17|17|.099|
+|18y|896/940|<.08|.062|17|—|
+|16ny|813/976|0(1)|.12|17|.427|
+|16y|933/770|1.3(3)|1.36|17|—|
 
-## 5. 核心结论与科学影响
+Experiment来自Ref11；0(1)不是精确零，<.08不当高斯中心或已知置信度。2.0(4)未给Gaussian抽样含义。Ref9/11不同书目不证明统计独立；Tonev06/07复用同实验。
 
-1. **PE06 形状共存推论的强假设依赖性**：PE06 声称“两带内禀四极矩相差 2 倍、排他性证明三轴形状共存”，在很大程度上是其人为设定非对角 $q_{12} \equiv 0$ 诱导的数学产物；
-2. **微观势能面预测的调和**：当允许未扰动带之间存在微弱的非对角电四极重叠（$q_{12} / q_1 \sim 4\%–8\%$）时，解混合模型所需的外推内禀四极矩比值立即由 2.0 降至 1.25–1.4，与微观自洽推转计算（UC 与 TRS）完全重合；
-3. **等形状手征假说的再生空间**：在 $q_{12} / q_1 \approx 0.08$ 时，严格等形状解（$Q_{0,1} = Q_{0,2}$）的总卡方仅为 1.68，在当前实验误差下完全无法被实验排除。两带的电磁分支不对称性完全可由有限转动驱动的两带科里奥利相互作用与非对角跃迁干涉完全解释；
-4. **判据规范升级**：单凭分支比结合简化的纯对角解混合模型，无法作为形状共存或手征破缺的充分判定依据。必须测定绝对态寿命 $\tau$、绝对 $B(E2)$ 阶梯以及完整的带间干涉回路，方能解除对角元与非对角元之间的强参数简并。
+## Provisional Reasoning
+
+固定原α、b=+sqrt(1−α²)、$R=\begin{pmatrix}a&b\\b&-a\end{pmatrix}$，另设共同实对称前向核$Q/q_1=\begin{pmatrix}1&x\\x&y\end{pmatrix}$：
+
+$$M_{fi}=R_f Q R_i^T.$$
+
+不同I前向核对称性是额外ansatz，不由Hermiticity自动推出。PE06连续带17→15交换yrast身份，Table out/in对应raw跨/内比倒数；18→16不倒。
+
+|x=q12/q1|y=q2/q1|R17ny|R17y|R18ny|R18y|
+|---|---|---|---|---|---|
+|0|.50|.333870|.703522|.170382|.062384|
+|.04|.73|.315145|.647261|.187283|.067046|
+|.08|1|.303851|.600031|.201070|.073618|
+
+实际producer：outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/forward-checks-005.py，同名JSON存输入与完整精度。首行重现原计算四点，后两行为额外假定下的敏感性例子；不是八行联合拟合。α来自原q12=0提取，不能当独立测量固定后声称替代模型获胜。
+
+x=0,y=1时，同yrast排序的raw Ry=Rny=tan²(θi−θf)；连续带交换时两者一起取倒数仍相等。这是条件代数，不是所有手征态的普适定理。
+
+## 4. 可识别量与解释边界
+
+q12可改变分支比对对角元比的反演；q1=q2只说明选定基底两个对角transition moments相等，不等于完整形状相同或chiral波函数。部分数据相容不证明真实机制。
+
+正交变换下：
+
+$$\|M\|_F^2=q_1^2+q_2^2+2q_{12}^2.$$
+
+局部比值不给绝对norm/相干phase，须补完整links、absoluteEM、相位约定及独立模型预报。总χ²不能直接与Δχ²=4比较；未恢复Cov、上限likelihood及α/V/能隙联合约束前不报CI或显著性。
+
+## Learning Decision
+
+revises旧数值认证；supports非对角核的可检验敏感性问题。134Pr对简单ideal-pair的挑战仍为原作者条件模型结论，不能借本练习排除所有手征动力学或实证刚性形状共存。
+
+## Assumptions
+
+固定原α、正根b与共同实对称forward核；q12=q21是额外ansatz。17→15的连续带身份交换随ratio一起处理；原表上限不转高斯点。
+
+## Competing Explanations
+
+对角元差、非对角干涉、mixing变化及更大配置空间可改变部分分支。局部前向例子不决定哪种实际机制成立。
+
+## Transfer Conditions
+
+该2×2练习仅作同spin-block的E2核控制；绝对单位、各spin几何及全links映射须另核。原α不能成为新模型独立测量。
+
+## Failure Conditions
+
+计算列充实验、漏掉17→15倒数、固定旧α后宣称联合拟合或用总χ²对Δχ²阈值，均不成立。
+
+## Falsification or Reverse Tests
+
+x=0/y=.5必须复现TableI四个计算值，已由独立矩阵乘法核；共同rephase不改B。若拟合新模型须用真实实验列/上限likelihood和能隙约束，当前未完成该检验。
+
+## Open Questions
+
+完整likelihood/Cov、能隙与V/α关联、actual signed核及未用于定标的EM约束尚缺，不报CI或机制唯一性。
+
+## Human Review
+
+本页未发生用户claim裁决，review_status保持unreviewed；不迁移其它source或Band5的人审到本推理。
+
+## Promotion or Rejection History
+
+2026-10-27 checkpoint005撤回旧强认证，以原件和声明条件的前向控制替代；reasoning_status为provisional。旧稿在Git和入口快照保留，未将self-audit写成human-reviewed。
