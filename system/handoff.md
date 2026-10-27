@@ -1,7 +1,11 @@
 ---
 graph-excluded: true
-updated: 2026-10-27
+updated: 2026-10-28
 ---
+
+## Active handoff — Day25 checkpoint006：PDM source登记与科学边界审计
+
+2026-10-28T02:15+08:00，仍在原run/session与15:00硬截止内。完成PDM原始手稿source登记（15页、SHA、公式/假设/基准与代码入口），并将日报与canonical页面中的PDM“无条件客观/八条全重叠/排他确立”、奇异值排他证明、E0唯一判据、133Ce 3-qp硬阈值和g因子无模型证明等措辞降级为条件结论。17项writeback验证、boundary、lint和diff-check通过；尚未授Day25正式信用，未创建Day26正式run，Day26仅partial preview。下一步继续高信息审计，15:00后按原runner执行正式收束、回执和Day26准备。
 
 ## Active handoff — Day25 checkpoint005：原件纠错与子会话监督恢复
 

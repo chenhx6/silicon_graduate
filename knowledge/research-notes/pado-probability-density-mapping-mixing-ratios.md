@@ -7,7 +7,7 @@ updated: 2026-10-28
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [sensharma-2020-longitudinal-wobbling-187au, guo-2022-low-spin-wobbling-187au, lv-2022-evidence-against-wobbling-135pr, yamazaki-1967-aligned-angular-coefficients, der-mateosian-sunyar-1974-angular-coefficients]
+evidence_sources: [chen-2026-pdm-probability-density-mapping, sensharma-2020-longitudinal-wobbling-187au, guo-2022-low-spin-wobbling-187au, lv-2022-evidence-against-wobbling-135pr, yamazaki-1967-aligned-angular-coefficients, der-mateosian-sunyar-1974-angular-coefficients]
 created_from: raw/writing/pado research integration
 promotion_target: angular-distribution
 tags: [mixing-ratio, p-ado, pdm, angular-distribution, linear-polarization, spin-alignment, jacobian, marginalization]

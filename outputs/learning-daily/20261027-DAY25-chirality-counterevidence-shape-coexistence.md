@@ -53,6 +53,7 @@ Day24本次直接核run.json、card-credit-24.json、final-session-receipt-24.js
 |来源|本checkpoint实际读区与证据角色|限制|
 |---|---|---|
 |[[petrache-2006-near-degenerate-chiral-misinterpretation]]|父代理回读四页主线，PDF3 fresh视觉TableI/Eqs3–5；独立代理交叉核|非新实验；Ref11/Ref9不同不证明统计独立|
+|[[chen-2026-pdm-probability-density-mapping]]|直接核对用户提供PDM手稿15页、Eq. 1/9–14、Table 1与代码入口|未发表方法稿；误差独立性、对齐权重、响应网格和输入PDF是条件假设，非独立实验|
 |[[lv-2019-chirality-135nd-reexamined]]|复用既有全文ledger；本次独立代理定向PDF2/5、VoR024314-8/Figs5–6|正pair本篇未给成对absoluteEM，不作全领域无寿命断言|
 |[[petrache-2018-chiral-bands-even-even-136nd]]|独立代理定向Fig3/TableI/Fig6及MU08 TableII谱系|D5比值与D3模型几何不拼成同pair完整实测|
 |[[heyde-wood-2011-shape-coexistence-review]]|复用既有原读HW11-D25P-001/002/006，核本轮概念量词|E0不唯一测形状/混合，不强制所有核有E0+Coulex|
@@ -430,6 +431,25 @@ Table6.2中|18–20〉实值5.8046/5.8239/5.8985；6.423是50.6−5.5ħω倒算�
         {
           "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
           "locator": "L22-17"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+      "summary": "建立raw/writing/pado原始方法手稿source页，记录PDM公式、对齐权重、基准表与适用边界。",
+      "anchor": "## Key results and contracts",
+      "sources": [
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-03"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-04"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-05"
         }
       ]
     }
