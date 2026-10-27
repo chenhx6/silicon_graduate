@@ -41,6 +41,7 @@ updated: 2026-10-26
 - [[ragnarsson-semmes-1988-particle-rotor-moments]] — 实际取得的原模型方法，坐标/配对/coreR/算符和参数版本，非2022producer。
 
 - [[131ce-133ce-topological-nodes-configuration-substitution-contract]] — 同spin节点/3qp空间与相位规范的条件练习。
+- [[131ce-133ce-lifetime-lineage-and-high-spin-migration]] — 131Ce与133Ce独立能级寿命谱系、时钟拓扑与高自旋多准粒子迁移合同。
 - [[133ce-afrodite-rad-finite-geometry-and-qtr-code-contract]] — 接受度与actual输入边界，旧壳offset认证已撤回。
 - [[134pr-two-band-mixing-offdiagonal-e2-sensitivity]] — TableI列身份及固定α条件前向例，非实际CI或模式认证.
 - [[a130-chirality-counterexamples-and-shape-coexistence-systematics]] — A≈130手征反例与三轴形状共存系统学：近简并破缺、电磁跃迁伴随量判据与四核多维比对.
