@@ -359,6 +359,21 @@ Table6.2中|18–20〉实值5.8046/5.8239/5.8985；6.423是50.6−5.5ħω倒算�
           "locator": "PE06-D25-A005-01"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/a130-chirality-counterexamples-and-shape-coexistence-systematics.md",
+      "anchor": "## Research Trigger",
+      "summary": "A≈130手征反例与三轴形状共存系统学：近简并破缺、电磁跃迁伴随量判据与四核多维比对。",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D25-A005-01"
+        },
+        {
+          "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+          "locator": "GR06-D18-4"
+        }
+      ]
     }
   ]
 }

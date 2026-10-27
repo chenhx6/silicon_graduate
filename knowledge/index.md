@@ -42,7 +42,8 @@ updated: 2026-10-26
 
 - [[131ce-133ce-topological-nodes-configuration-substitution-contract]] — 同spin节点/3qp空间与相位规范的条件练习。
 - [[133ce-afrodite-rad-finite-geometry-and-qtr-code-contract]] — 接受度与actual输入边界，旧壳offset认证已撤回。
-- [[134pr-two-band-mixing-offdiagonal-e2-sensitivity]] — TableI列身份及固定α条件前向例，非实际CI或模式认证。
+- [[134pr-two-band-mixing-offdiagonal-e2-sensitivity]] — TableI列身份及固定α条件前向例，非实际CI或模式认证.
+- [[a130-chirality-counterexamples-and-shape-coexistence-systematics]] — A≈130手征反例与三轴形状共存系统学：近简并破缺、电磁跃迁伴随量判据与四核多维比对.
 - [[133ce-thesis-analysis-blueprint]] — 持续深入学习/实际分析蓝本，非普通摄入完成。
 - [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] — 两条主线、逐量模型比较及原件输入边界。
 - [[nobs-2017-spin-parity-102y-thesis]] — population/校准、BCS/GM模型辅助指认，非本核AD/P直接测量。

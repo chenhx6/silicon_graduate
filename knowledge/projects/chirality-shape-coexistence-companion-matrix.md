@@ -26,6 +26,8 @@ tags: [chirality, shape-coexistence, band-mixing, companion-observables]
 
 近简并只约束能谱，不直接测角动量取向或形状。静态手征近似、弱隧穿时预期双带劈裂小；有限spin的手征振动不要求同样近简并。不同组态交叉、形状共存或偶然相遇也可产生相近能量。
 
+系统学反例与最小伴随可观测量判据体系详见研究笔记[[a130-chirality-counterexamples-and-shape-coexistence-systematics]]。
+
 以两能级混合为条件例：
 
 $$\Delta E_{\rm obs}=\sqrt{(E_1-E_2)^2+4|V|^2}\ge2|V|.$$
