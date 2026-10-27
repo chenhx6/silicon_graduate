@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "topic": "Day 26 uncredited preview: octupole E3 Coulex, E1 cancellation, and MR shears mechanism",
+  "day_index": 25,
+  "preview_day_index": 26,
+  "formal_credit_awarded": false,
+  "octupole_coulex": {
+    "Ba144": {
+      "A": 144,
+      "M_E3_eb32": 0.65,
+      "B_W_E3_b3": 0.0012318068224338589,
+      "B_W_E3_fm6": 1231.806822433859,
+      "B_E3_down_b3": 0.060357142857142866,
+      "B_E3_down_fm6": 60357.14285714287,
+      "B_E3_down_Wu": 48.9988704055775,
+      "Q3_efm3": 1741.803922795765,
+      "beta3_approx": 0.17
+    },
+    "Ba146": {
+      "A": 146,
+      "M_E3_eb32": 0.65,
+      "B_W_E3_b3": 0.001266261295669374,
+      "B_W_E3_fm6": 1266.261295669374,
+      "B_E3_down_b3": 0.060357142857142866,
+      "B_E3_down_fm6": 60357.14285714287,
+      "B_E3_down_Wu": 47.66563035888792,
+      "Q3_efm3": 1741.803922795765,
+      "beta3_approx": 0.17
+    }
+  },
+  "e1_systematics": {
+    "Ba144": {
+      "N": 88,
+      "D0_efm": 0.13,
+      "D0_err": 0.02,
+      "B_E3_Wu": 48.0,
+      "status": "normal_octupole_dipole"
+    },
+    "Ba146": {
+      "N": 90,
+      "D0_efm": 0.015,
+      "D0_err": 0.005,
+      "B_E3_Wu": 48.0,
+      "status": "severe_dipole_cancellation",
+      "sccm_neutron_occupancies": {
+        "h9_2": 0.4,
+        "f7_2": 0.27,
+        "i13_2": 0.2
+      }
+    },
+    "Ba148": {
+      "N": 92,
+      "D0_efm": 0.05,
+      "D0_err": 0.02,
+      "B_E3_Wu": "recovering",
+      "status": "sign_inversion_recovery"
+    }
+  },
+  "shears_model_pr135": {
+    "j_pi": 5.5,
+    "j_nu": 10.0,
+    "g_pi": 1.21,
+    "g_nu": -0.24,
+    "g_diff": 1.45,
+    "curve": [
+      {
+        "I": 6.5,
+        "spin_str": "13/2",
+        "theta_deg": 130.41227507388678,
+        "sin_half_theta": 0.9078224051271153,
+        "bm1_rel_drop": 0.8241415192507804,
+        "exp_bm1_be2": null,
+        "regime": "3qp_shears_closing"
+      },
+      {
+        "I": 7.5,
+        "spin_str": "15/2",
+        "theta_deg": 122.12294451963872,
+        "sin_half_theta": 0.8751393526613249,
+        "bm1_rel_drop": 0.7658688865764828,
+        "exp_bm1_be2": null,
+        "regime": "3qp_shears_closing"
+      },
+      {
+        "I": 8.5,
+        "spin_str": "17/2",
+        "theta_deg": 113.48713742806098,
+        "sin_half_theta": 0.8362246062461756,
+        "bm1_rel_drop": 0.6992715920915713,
+        "exp_bm1_be2": 24.5,
+        "regime": "3qp_shears_closing"
+      },
+      {
+        "I": 9.5,
+        "spin_str": "19/2",
+        "theta_deg": 104.40055512914554,
+        "sin_half_theta": 0.7901579815429607,
+        "bm1_rel_drop": 0.6243496357960459,
+        "exp_bm1_be2": 18.2,
+        "regime": "3qp_shears_closing"
+      },
+      {
+        "I": 10.5,
+        "spin_str": "21/2",
+        "theta_deg": 94.7153800401201,
+        "sin_half_theta": 0.7355970484510568,
+        "bm1_rel_drop": 0.5411030176899064,
+        "exp_bm1_be2": 14.1,
+        "regime": "3qp_shears_closing"
+      },
+      {
+        "I": 11.5,
+        "spin_str": "23/2",
+        "theta_deg": 84.20689774149167,
+        "sin_half_theta": 0.6704712803492429,
+        "bm1_rel_drop": 0.4495317377731529,
+        "exp_bm1_be2": 10.5,
+        "regime": "3qp_shears_closing"
+      },
+      {
+        "I": 12.5,
+        "spin_str": "25/2",
+        "theta_deg": 72.49864176579878,
+        "sin_half_theta": 0.5913000896717213,
+        "bm1_rel_drop": 0.34963579604578576,
+        "exp_bm1_be2": 8.2,
+        "regime": "3qp_shears_closing"
+      },
+      {
+        "I": 13.5,
+        "spin_str": "27/2",
+        "theta_deg": 58.85741435373399,
+        "sin_half_theta": 0.4913402003783167,
+        "bm1_rel_drop": 0.2414151925078044,
+        "exp_bm1_be2": 8.0,
+        "regime": "3qp_shears_closing"
+      },
+      {
+        "I": 14.5,
+        "spin_str": "29/2",
+        "theta_deg": 41.38708246237196,
+        "sin_half_theta": 0.353369391938817,
+        "bm1_rel_drop": 0.1248699271592093,
+        "exp_bm1_be2": 11.5,
+        "regime": "5qp_realignment_crossing"
+      },
+      {
+        "I": 15.5,
+        "spin_str": "31/2",
+        "theta_deg": 0.0,
+        "sin_half_theta": 0.0,
+        "bm1_rel_drop": 0.0,
+        "exp_bm1_be2": 14.2,
+        "regime": "5qp_realignment_crossing"
+      },
+      {
+        "I": 16.5,
+        "spin_str": "33/2",
+        "theta_deg": 0.0,
+        "sin_half_theta": 0.0,
+        "bm1_rel_drop": 0.0,
+        "exp_bm1_be2": 18.0,
+        "regime": "5qp_realignment_crossing"
+      },
+      {
+        "I": 17.5,
+        "spin_str": "35/2",
+        "theta_deg": 0.0,
+        "sin_half_theta": 0.0,
+        "bm1_rel_drop": 0.0,
+        "exp_bm1_be2": 22.0,
+        "regime": "5qp_realignment_crossing"
+      }
+    ]
+  },
+  "conclusions": [
+    "Bucher 2016/2017 B(E3) yields 49.0 and 47.7 W.u., confirming reported 48 W.u. with exact R0=1.2 A^(1/3) fm",
+    "Rotor intrinsic Q3 = 1.74 * 10^3 e fm^3 matches Bucher 2016 (1.73 * 10^3 e fm^3)",
+    "E1 drop of >10x in Ba146 is decoupled from E3 collectivity, explained by Gogny D1S SCCM neutron orbital cancellation",
+    "Symmetric shears model explains B(M1)/B(E2) parabolic drop in low-spin Pr135, while high-spin rise reflects 5qp band crossing",
+    "Garg 2015 lacks level lifetimes, keeping Pr135 strictly at candidate MR status"
+  ]
+}
