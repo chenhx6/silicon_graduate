@@ -401,6 +401,28 @@ Table6.2中|18–20〉实值5.8046/5.8239/5.8985；6.423是50.6−5.5ħω倒算�
           "locator": "L22-17"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+      "summary": "增加D21-10：133Ce在2.73 MeV处两个19/2+母态分别退激至1852.5 keV，能量闭合残差严格为0.0 keV。",
+      "anchor": "## Key Results",
+      "sources": [
+        {
+          "path": "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+          "locator": "D21-10"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "summary": "建立PDM概率密度映射法与135Pr混合比合同交叉核验，无偏边缘化确定小负解并排除横向摆动。",
+      "anchor": "## Provisional Reasoning",
+      "sources": [
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-17"
+        }
+      ]
     }
   ]
 }
