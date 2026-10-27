@@ -1,0 +1,76 @@
+---
+type: research-note
+title: "基于无预设自旋取向度的概率密度映射法（PDM/P-ADO）提取多极混合比研究"
+aliases: [PDM概率密度映射法, P-ADO混合比提取方法, probability-density-mapping-mixing-ratios]
+created: 2026-10-28
+updated: 2026-10-28
+status: ai-draft
+review_status: unreviewed
+reasoning_status: provisional
+evidence_sources: [sensharma-2020-longitudinal-wobbling-187au, guo-2022-low-spin-wobbling-187au, lv-2022-evidence-against-wobbling-135pr, yamazaki-1967-aligned-angular-coefficients, der-mateosian-sunyar-1974-angular-coefficients]
+created_from: raw/writing/pado research integration
+promotion_target: angular-distribution
+tags: [mixing-ratio, p-ado, pdm, angular-distribution, linear-polarization, spin-alignment, jacobian, marginalization]
+---
+
+# 基于无预设自旋取向度的概率密度映射法（PDM/P-ADO）提取多极混合比研究
+
+## Research Trigger
+
+在低能核结构高自旋能带的竞争解释甄别（如手征双重带、三轴摆动模式、签名伙伴态、三轴形状共存等）中，带间 Delta I = 1 连接跃迁的电多极混合比 delta(E2/M1) 是排他性判定机制的核心物理量。然而，传统从角分布各向异性（R_ADO 或 R_ac）与康普顿散射线偏振度（P）提取 delta 的方法，强烈受制于发射态未知的自旋取向度参数 sigma/I。传统上固定预设 sigma/I（如假定 sigma/I = 0.25 或 0.30）的做法容易造成人为压缩误差或锁定错误解（如 187Au 中的横向与纵向摆动争议）。本笔记系统吸收 raw/writing/pado/（Chen et al., 2026）的概率密度映射法（Probability Density Mapping, PDM / P-ADO），解析其无预设自旋取向度、局部雅可比测度变换以及全局边缘化积分的数学物理机制。
+
+## Grounded Evidence
+
+1. **紧致角坐标参数化 xi = arctan(delta)**：在 M1+E2 混合跃迁中，正交归一的辐射振幅满足直角三角形几何。定义紧致坐标 xi = arctan(delta) in (-pi/2, +pi/2)，将无限实轴 delta in (-inf, +inf) 单调保序映射至紧致有界区间 xi in (-90 deg, +90 deg)，避免了纯 E2 极限处的数值发散与网格截断效应。
+2. **局部测度守恒与雅可比行列式变换**：可观测量空间 O(R_ADO, P) 与参数空间 P(xi, sigma/I) 通过响应函数关联。由测量不确定度构建的可观测量联合概率密度，通过雅可比行列式转换为参数空间密度：f_P(xi, sigma/I) = f_O[F(xi, sigma/I)] * |J(xi, sigma/I)|，严格满足微分微元面积变换规律 dA_O = |J| dA_P。
+3. **响应曲面的全局拓扑分类（Inside vs Outside 构型）**：各向同性极限点 o0 = (R_ADO, P) = (1, 0) 相对于响应曲线的相对位置决定了全局解的拓扑分化：Inside 构型下 o0 位于曲线内部，响应曲面呈直立帽子状，参数到观测量是一对一单值映射；Outside 构型下 o0 位于曲线外部，响应曲面呈倾斜帽子状并在投影面发生全局折叠（Global Folding），同一对测量值会与响应曲面相交于两个不同的点，产生两个完全合法的候选解。
+4. **自旋取向度的边缘化积分与非对称区间**：对未知取向度 sigma/I 进行权重积分消除取向度自由度，得到一维边缘后验概率密度 f(xi)，从中提取 68% 最高密度区间（HDI）与等尾区间，并在出现双峰或多峰时分别汇报各分支的局部模式与概率质量。
+
+## Provisional Reasoning
+
+### 1. 消除预设 sigma/I 偏差的统计优势
+传统分析中预设固定 sigma/I 实质上是将先验分布退化为狄拉克 delta 函数。当反应机制或退激去极化使得真实取向度偏离假定值时，拟合得到的 delta 将产生系统性平移，并严重人为低估误差包络。PDM 采用连续积分边缘化，将取向度的全部实验不确定度严密传播至 xi 轴，保证了后验区间的客观性。
+
+### 2. 解决多极性双解争端的实证范式（187Au 与 135Pr）
+- **187Au 376 keV 跃迁（11/2- -> 9/2-）**：输入 P = -0.12(+0.11/-0.12) 与 R_ADO = 0.39(5)，PDM 边缘化计算给出 68% HDI 为 delta = -0.24(+0.07/-0.15)（等尾区间为 -0.30(+0.09/-0.18)）。后验概率质量高度聚集于小幅值区域（|delta| < 0.4），表明跨带跃迁绝大多数为磁偶极成分（E2 份额 < 10%），排他性排除了大 |delta| 解，确立了 Band 2 为单粒子未优签名伙伴态而非纵向摆动声子带。
+- **135Pr 关键跨带线**：针对 17/2-、19/2-、21/2- 三条连接跃迁，PDM 方法给出一致的小负解（delta ~ -0.26 至 -0.42），与独立偏振实验完全吻合，消除了因取向度争议引起的模式误判。
+
+## Assumptions
+
+1. 假定反冲激发态的磁子能级布居遵循标准高斯对齐假定 P(M) prop exp[-M^2/(2 sigma^2)]；
+2. 假定两角度角分布比 R_ADO 与线偏振度 P 的实验误差相互独立，联合概率密度采用因子化模型 f_O = f(R) * f(P)；
+3. 假定探测器的有效几何衰减因子 Q2, Q4 与分段偏振灵敏度已经完成独立源刻度。
+
+## Competing Explanations
+
+1. **固定取向度拟合**：以单一典型值（如 sigma/I = 0.30）提取解，虽然计算简便但存在系统偏差风险；
+2. **纯角分布 chi^2 扫描**：缺乏偏振约束时存在二次双解简并，容易误选大 |delta| 解导致物理机制误判；
+3. **PDM 概率密度映射**：通过全参数空间映射与边缘化完整保留非对称尾部与多峰结构，是更完备的统计推断方案。
+
+## Transfer Conditions
+
+PDM 方法适用于所有通过重离子或轻离子融合蒸发反应布居、并发射 mixed M1+E2 Delta I = 1 跃迁的对齐核态系统（如 A≈130 偶奇核、奇奇核以及 A≈180 区域）。
+
+## Failure Conditions
+
+1. 当实验点落入 J(xi, sigma/I) = 0 的奇异切线点附近时，局部线性化展开失效，需加密网格或引入高阶插值；
+2. 在各向同性极限 o0 = (1, 0) 处，响应曲面收缩为单点，可观测量完全丧失对混合比的敏感性，PDM 无法提供有意义的区间约束；
+3. 若实验线谱受到未识别杂质峰污染导致 R_ADO 或 P 发生物理不可达偏移，后验密度将发散至边界。
+
+## Falsification or Reverse Tests
+
+1. 在 61Ni、135Pr 与 187Au 等 8 条基准跃迁中，PDM 提取的 68% HDI 区间与文献经过独立多角拟合的结果在统计误差内完全重叠；
+2. 当在 PDM 中人为设定极其狭窄的高斯取向权重时，计算结果精确退化为传统单取向度 P-ADO 曲线切点，完成了逆向一致性检验。
+
+## Open Questions
+
+1. 当大探测器阵列给出多角度全矩阵（如 17 环或 39 探测器）时，如何将 PDM 推广至多维协方差不为零的高阶张量空间？
+2. 如何在 PDM 中显式纳入上游未观测级联的退极化退取向张量 Uk 作为先验约束？
+
+## Human Review
+
+本笔记整合了 raw/writing/pado/ 原始手稿（Chen et al., 2026）的理论推导与算法定义，review_status 保持 unreviewed。文中涉及的方法比较未声明为 human-reviewed。
+
+## Promotion or Rejection History
+
+2026-10-28 由 Day 25 任务根据用户指令将 raw/writing/pado/ 的既有混合比研究成果纳入知识库，作为角分布与偏振方法学的核心补充，提升至 angular-distribution。

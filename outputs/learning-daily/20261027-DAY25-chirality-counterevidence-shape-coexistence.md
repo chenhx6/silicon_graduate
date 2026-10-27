@@ -387,6 +387,21 @@ e sigma_2$），则直接在正交群轨道不变量层次证明未微扰构型�
           "locator": "GR06-D18-4"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/pado-probability-density-mapping-mixing-ratios.md",
+      "anchor": "## Research Trigger",
+      "summary": "吸收raw/writing/pado手稿：PDM/P-ADO概率密度映射提取混合比，紧致坐标与边缘化消除预设取向度偏差。",
+      "sources": [
+        {
+          "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+          "locator": "G22-7"
+        },
+        {
+          "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+          "locator": "L22-17"
+        }
+      ]
     }
   ]
 }

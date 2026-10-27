@@ -65,6 +65,8 @@ This `alpha_k` must not be merged with detector solid-angle attenuation. Laurits
 
 [[summary-2013-bases-spin-parity-assignments]] adds reference-guide background that high-spin assignment heuristics are often quoted with a typical orientation parameter, here `σ/I = 0.3`, but that guide-level value is not by itself a demonstrated universal Gaussian prior.
 
+为消除预设单一取向度 σ/I 引入的系统偏差与伪高精度，采用紧致坐标 ξ = arctan(δ) 与雅可比面积变换的概率密度映射法（PDM / P-ADO）实现了在取向度全域上的边缘化无偏提取，详见研究笔记[[pado-probability-density-mapping-mixing-ratios]]。
+
 Angular-distribution evidence is one of the standard inputs collected on [[spin-parity-assignment]] pages.
 
 Liu 2016 将 ADO 与 linear polarization 联合用于 `78Br` linking transitions，并由 404.3 keV line 的 `R_ADO=0.79` 与负 polarization 支持 `M1/E2` 及相对 spin revision。
