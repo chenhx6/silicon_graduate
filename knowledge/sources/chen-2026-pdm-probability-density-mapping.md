@@ -59,6 +59,14 @@ tags: [PDM, P-ADO, mixing-ratio, alignment, angular-distribution, polarization]
 - PDM 结果不能替代态寿命、完整分支比、ICC、静态矩、组态映射或独立结构 holdout；这些量缺失时结论必须降级。
 - 本页不把手稿的基准结果或其代码输出当作新的实验测量，也不清除任何 `needs_review` 状态。
 
+## Reproducibility checks
+
+## Reproducibility checks
+
+- 2026-10-28：仓库测试集未能启动，当前环境没有 `pytest`；`unittest discover` 也因测试依赖 `pytest`、且未设置包路径而失败。
+- 设置 `PYTHONPATH=raw/writing/pado/Upload` 后，独立检查 `theta_deg_to_delta` 与 `delta_to_theta_deg` 在 $\pm30^\circ$、$\pm60^\circ$ 和 $0^\circ$ 网格上的往返误差处于浮点舍入范围；依赖 `sympy` 的完整响应/雅可比测试仍未运行。
+- 这些是运行环境边界，不把未运行的测试写成通过，也不改变方法稿的 `needs_review` 状态。
+
 ## Extracted Pages
 
 - [[pado-probability-density-mapping-mixing-ratios]]
