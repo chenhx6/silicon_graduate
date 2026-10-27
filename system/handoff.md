@@ -21,7 +21,8 @@ updated: 2026-10-27
    - Table 6.11 出带与入带强度比消去定理成立：r_E2(out/out) / r_E2(out/in) = r_M1(out/out) / r_M1(out/in) = B(E2; in, ΔI=2) / B(E2; out, ΔI=2) = [I_γ(in) / I_γ(out)] * [E_γ(out) / E_γ(in)]^5，完全独立于混合线 γ1、δ1 与母态寿命；465 keV 实测光子传播给出 10.63 ± 1.37，覆盖理论值 11.78；
    - 582 keV 反演所需 817.7 keV 假想线强度高达 0.88–1.19，在检出限 0.2–0.4 的 Table 5.2 中完全缺失，排他性证明 817.7 keV 为幽灵分母，严禁逆向造线；
    - 谐振子标度统一正宇称单粒子能与绝对费米能（44.177 + 6.423 = 50.600 MeV），负宇称 h11/2（N=5 壳基准 52.209 MeV）严禁共用正宇称 λ_F；
-   - Paul 1991 (1991Pa04) 原件全文核读并建立来源页 [[paul-1991-n75-electromagnetic-properties-triaxiality]]，闭合 133Ce Band 1 带内角分布 δ<0（Yamazaki 1967 约定）及 N=75 三轴系统学谱系。
+   - Paul 1991 (1991Pa04) 原件全文核读并建立来源页 [[paul-1991-n75-electromagnetic-properties-triaxiality]]，闭合 133Ce Band 1 带内角分布 δ<0（Yamazaki 1967 约定）及 N=75 三轴系统学谱系；
+   - 建立独立技术研究笔记 [[133ce-afrodite-rad-finite-geometry-and-qtr-code-contract]]，彻底闭环 AFRODITE 阵列 8 vs 13 Clovers 同源性、全探测器门 R_AD 有限角积分残余偏差，以及 GAMPN→ASYMO→PROBMO 中 ε4=0.1 vs 0.01 冲突与 λ_F 跨壳隔离红线。
 6. **134Pr 两带解混合非对角 E2 敏感性研究**：
    - 独立建立研究笔记 [[134pr-two-band-mixing-offdiagonal-e2-sensitivity]]，证明 PE06 导出 Q0,1/Q0,2=2.0 依赖于 q12=0 的人为先验；微弱非对角元 q12/q1 ~ 4% 即可完全调和微观 TRS/UC 预测（Q1/Q2 ~ 1.37, χ²=0.458），q12/q1 ~ 8% 允许严格等形状手征解（Q1/Q2=1.00, χ²=1.68 < 4.0）。
 7. **多代理并行预习成果**：
@@ -33,7 +34,7 @@ updated: 2026-10-27
 - git diff --check: 0 errors；
 - validate_report: valid=True；
 - validate_curriculum_coverage: valid=True, completed=[25], partial=[26], next=26；
-- validate_durable_knowledge: valid=True, mode="updated", 6 items, 9 changed paths。
+- validate_durable_knowledge: valid=True, mode="updated", 7 items, 13 changed paths。
 
 Next Actions：
 保持当前有界分析与会话监督（farmer ensure 运行），继续 Day 26 知识深化，待次日 15:00 准时启动正式收束。

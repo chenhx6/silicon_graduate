@@ -155,8 +155,7 @@ $$
 ### 4. 133Ce Table 6.11 出带与入带强度比消去定理与 582 keV 幽灵分母的精确代数反演
 
 针对 Wakudyanaye 2022 Table 6.11 列出的 out/out 与 out/in 两组跃迁比率，本任务推导了严格的同母态分支比消去定理：
-对于母态 $|Band 4, I
-angle$ 退激的混合出带跃迁 $\gamma_1$（$\Delta I=1$）、纯 $E2$ 跨带跃迁 $\gamma_2$（$\Delta I=2$, out/out 分母）与纯 $E2$ 带内跃迁 $\gamma_3$（$\Delta I=2$, out/in 分母）：
+对于母态 $|\text{Band 4}, I\rangle$ 退激的混合出带跃迁 $\gamma_1$（$\Delta I=1$）、纯 $E2$ 跨带跃迁 $\gamma_2$（$\Delta I=2$, out/out 分母）与纯 $E2$ 带内跃迁 $\gamma_3$（$\Delta I=2$, out/in 分母）：
 $$\mathcal{R}_{E2} \equiv \frac{r_{E2}(\text{out/out})}{r_{E2}(\text{out/in})} = \frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)} = \frac{I_{\gamma,3}}{I_{\gamma,2}} \left(\frac{E_{\gamma,2}}{E_{\gamma,3}}\right)^5$$
 $$\mathcal{R}_{M1} \equiv \frac{r_{M1}(\text{out/out})}{r_{M1}(\text{out/in})} = \frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)}$$
 
@@ -180,6 +179,14 @@ $$\mathcal{R}_{M1} \equiv \frac{r_{M1}(\text{out/out})}{r_{M1}(\text{out/in})} =
    - 深度通读用户提供的 14 页原件，建立规范来源页并提取 PA91-01–06 核心原子证据；
    - 确立 Stony Brook 串列加速器 120Sn(16O,3n) 反应（69 MeV，5 角度 HPGe）测定的 133Ce 带内 mixing ratio $\delta(E2/M1) < 0$ 采用 Yamazaki 1967 约定；
    - 确认 WK22 Figure 6.15(a) 中引用的 133Ce Band 1 带内 $\delta$ 完全直接源自本篇，彻底闭合两文献间的实验数据谱系。
+
+### 6. AFRODITE 阵列几何、全探测器门 $R_{AD}$ 算符偏差与 QTR 代码链输入合同闭环
+
+基于独立技术研究笔记 [[133ce-afrodite-rad-finite-geometry-and-qtr-code-contract]]，本任务完成了关于 $^{133}\text{Ce}$ 实验阵列与微观模型输入层面的四项核心规范闭环：
+1. **AFRODITE 阵列 8 vs 13 Clovers 几何同源性**：Ding 2021 正文描述 8 Clovers（4@90°, 4@135°）；WK22 §4.5 述及基础架构为 8 Clovers + 7 LEPS，但 §5.2.1 报告该次 $^{133}\text{Ce}$ 实验具体配置为 13 Compton-suppressed Clovers（1@45°, 8@90°, 4@135°）。两文报告的物理事件数完全相同（$2.8 \times 10^{10}$ 个双符合、$5.4 \times 10^9$ 个高阶符合），证实两者为同一束流数据的离线排序差异。45° 单 Clover 在非对称排序中可能被掩模，角响应完全特定于本次 iThemba LABS 几何，严禁跨阵列套用；
+2. **全探测器门 $R_{AD}$ 的角关联消去定理与有限阵列微观残余**：在 $4\pi$ 均匀连续角积分极限下，门跃迁 $\gamma_2$ 的各向异性项在球壳积分中精确为零，使得 $R_{AD}^{4\pi} = W_1(135^\circ)/W_1(90^\circ)$ 严格独立于门线多极性；然而 AFRODITE 具有 8@90° 与 4@135° 的 2:1 立体角非对称性，全探测器门求和使 $90^\circ$ 门权重达 $\sim 60\%–70\%$，导致强烈各向异性门线产生微观残余偏置。$R_{AD} \sim 1.3$（四极）与 $R_{AD} \sim 0.8$（偶极）仅为该阵列粗分多极性的经验基准，不可作为高精度 $\delta$ 拟合依据，且绝对禁止跨阵列移植；
+3. **正宇称形变参数 $\varepsilon_4$ 的字面冲突与处理规范**：Table 6.1 列 $\varepsilon_4 = 0.1$，而紧接正文与同源 Ding 2021 正文均写 $\varepsilon_4 = 0.01$。物理上 $\varepsilon_4 = 0.1$ 会夸大十六极效应近 10 倍，但未经实际输入卡核验前，严禁擅自改写原表；必须在模型复现中同时保留两套候选输入边界；
+4. **化学势 $\lambda_F$ 跨壳隔离红线**：正宇称 $\lambda_F = 50.60\text{ MeV}$ 叠合 $N=4$ 主振子壳层基准 $E_0(N=4) = 5.5 \hbar\omega_0 \approx 44.18\text{ MeV}$，精确解释单粒子能 $\varepsilon \approx 6.42\text{ MeV}$；负宇称 $h_{11/2}$ 属于 $N=5$ 壳层，其基准高出 $\hbar\omega_0 \approx 8.03\text{ MeV}$；WK22 正文未显式记录负宇称 $\lambda_{F,-}$。严禁在负宇称计算中套用正宇称 $\lambda_F = 50.6\text{ MeV}$，否则将导致准粒子激发能虚假增加 $\sim 8\text{ MeV}$ 并引发 BCS 占有几率灾难性崩溃。
 
 ## Counter-evidence and missing companion observables
 
@@ -359,6 +366,25 @@ Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-fa
           "locator": "WK22-25"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/133ce-afrodite-rad-finite-geometry-and-qtr-code-contract.md",
+      "summary": "Investigation of AFRODITE array geometry, all-detectors gate RAD finite-angle cancellation theorem, and QTR code pipeline input contract for 133Ce.",
+      "anchor": "## 1. 核心问题与研究背景",
+      "sources": [
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-01"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-27"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-30"
+        }
+      ]
     }
   ]
 }
@@ -393,7 +419,7 @@ Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-fa
      * ce133-cancellation-proof.md（Table 6.11 出带/入带比率消去定理完整证明、465 keV 误差传播与 582 keV 幽灵分母排他性反演）；
      * day26-octupole-dossier.md（144,146Ba GOSIA 库仑激发多步拟合、E1/E3 相对符号与微观 D0=D0(macro)+D0(micro) 抵消机制）；
      * day26-magnetic-rotation-dossier.md（135Pr TAC 3-qp/5-qp 构型演化、剪刀机构闭合角推导与高自旋四模式鉴别矩阵）；
-   - 执行权威写回与课程验证：通过 validate_report、validate_curriculum_coverage 与 validate_durable_knowledge 权威核验（valid=True, error=None, 6 writeback items, 9 changed paths）。
+   - 执行权威写回与课程验证：通过 validate_report、validate_curriculum_coverage 与 validate_durable_knowledge 权威核验（valid=True, error=None, 7 writeback items, 13 knowledge paths）。
 
 2. **后续续接建议（Continuation）**：
    - 本次运行正式完成 Day 25 的全部核心与附属任务，授予以 Day 25 为限的正式课程学分；
