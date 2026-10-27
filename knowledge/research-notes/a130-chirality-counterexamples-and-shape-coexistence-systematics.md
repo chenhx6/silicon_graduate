@@ -17,7 +17,7 @@ tags: [a130, chirality, shape-coexistence, counterexamples, near-degeneracy, com
 
 ## Research Trigger
 
-在 A≈130 区近简并双重带的长期争论中，早先文献常把能量微小分裂 $Delta E(I) 	o 0$ 和平行的力学转动惯量视为核手征旋转（chiral rotation）的决定性证据。然而，近年一系列高精度电磁寿命测量与微观分析揭示：近简并只能作为三维角动量非共面进动的必要条件，绝非充分条件。以 $^{134}	ext{Pr}$（Tonev 2006、Petrache 2006）和 $^{132}	ext{La}$（Grodner 2006）为代表的典型反例表明，能量相近的伴随带完全可由三轴形状共存（triaxial shape coexistence）态混合或弱集体性杂质态交叉引起。本笔记系统梳理近简并性破缺的微观机制，建立区分手征对称性破缺与三轴形状共存的最小伴随可观测量判据体系，并对 A≈130 区四大代表性核素进行多维对比。
+在 A≈130 区近简并双重带的长期争论中，早先文献常把能量微小分裂 $Delta E(I) 	o 0$ 和平行的力学转动惯量视为核手征旋转（chiral rotation）的决定性证据。然而，近年一系列高精度电磁寿命测量与微观分析揭示：近简并只能作为三维角动量非共面进动的必要条件，绝非充分条件。以 $^{134}	ext{Pr}$（Tonev 2006、Petrache 2006）和 $^{132}	ext{La}$（Grodner 2006）为代表的典型反例表明，能量相近的伴随带完全可由三轴形状共存（triaxial shape coexistence）态混合或弱集体性杂质态交叉引起。本笔记系统梳理近简并性破缺的微观机制，建立区分手征对称性破缺与三轴形状共存的最小伴随可观测量判据体系，推导两带混合矩阵的正交不变量定理，并对 A≈130 区四大代表性核素进行多维对比。
 
 ## Grounded Evidence
 
@@ -57,10 +57,33 @@ angle, quad |I_{	ext{ny}}
 angle = -eta_I |I_1
 angle + alpha_I |I_2
 angle$$
-在两态具有不同内禀形变 $Q_{0,1}/Q_{0,2} approx 1.6 - 2.4$ 时，较小的耦合元 $V approx 14 - 17	ext{ keV}$ 便可重现能级结构。前向数值复算（forward-checks-005.py）表明，当非对角电四极跃迁矩阵元 $q_{12} = langle 1 ||mathcal{M}(E2)|| 2
-angle$ 微弱偏离零（$q_{12}/q_1 approx 0.04 - 0.08$）时，跃迁振幅间的量子干涉将显著改变带间出带比 $R = T(E2)_{	ext{out}}/T(E2)_{	ext{in}}$，并打破纯对角模型的强制倒数简并。因此，出带分支比拟合对非对角元高度敏感，不可作为孤立确定核形状参数的唯一凭据，必须以绝对态寿命为约束。
+在两态具有不同内禀形变 $Q_{0,1}/Q_{0,2} approx 1.6 - 2.4$ 时，较小的耦合元 $V approx 14 - 17	ext{ keV}$ 便可重现能级结构。前向数值复算表明，当非对角电四极跃迁矩阵元 $q_{12} = langle 1 ||mathcal{M}(E2)|| 2
+angle$ 微弱偏离零（$q_{12}/q_1 approx 0.04 - 0.08$）时，跃迁振幅间的量子干涉将显著改变带间出带比 $R = T(E2)_{	ext{out}}/T(E2)_{	ext{in}}$，并打破纯对角模型的强制倒数简并：
+$$T(E2)_{	ext{out}} propto [-eta_I alpha_{I-2} Q_{0,1} + alpha_I eta_{I-2} Q_{0,2} + (alpha_I alpha_{I-2} - eta_I eta_{I-2}) q_{12}]^2$$
+因此，出带分支比拟合对非对角元高度敏感，不可作为孤立确定核形状参数的唯一凭据，必须以绝对态寿命为约束。
 
-### 4. 最小伴随可观测量层级与结论降级路径
+### 4. 两带混合电四极跃迁矩阵的正交不变量定理与奇异值手征判据
+设初态与末态子空间的未微扰内禀四极跃迁矩阵为 $Q_{fi}$，在初态与末态各自的正交旋转矩阵 $R_i, R_f in O(2)$ 作用下，物理跃迁矩阵元表示为 $M_{fi} = R_f^T Q_{fi} R_i$。
+数学上严格成立以下正交不变量定理：
+1. **Frobenius 范数平方守恒（总四极跃迁强度守恒）**：
+   $$|M_{fi}|_F^2 = 	ext{Tr}(M_{fi}^T M_{fi}) = 	ext{Tr}(R_i^T Q_{fi}^T R_f R_f^T Q_{fi} R_i) = 	ext{Tr}(Q_{fi}^T Q_{fi}) = |Q_{fi}|_F^2$$
+   即四个物理跃迁几率振幅平方和严格守恒：
+   $$|langle I_f, y || mathcal{M} || I_i, y
+angle|^2 + |langle I_f, ny || mathcal{M} || I_i, ny
+angle|^2 + |langle I_f, ny || mathcal{M} || I_i, y
+angle|^2 + |langle I_f, y || mathcal{M} || I_i, ny
+angle|^2 = q_1^2 + q_2^2 + 2 q_{12}^2$$
+   态混合无论多强，仅是在各辐射通道间重新分配跃迁几率，不能凭空改变子空间的总四极集体度。
+2. **行列式绝对值守恒**：
+   $$|det M_{fi}| = |(det R_f)(det Q_{fi})(det R_i)| = |q_1 q_2 - q_{12}^2|$$
+3. **奇异值谱守恒与手征退化判据**：
+   正交变换严格保持矩阵的奇异值谱不变，即 $sigma_k(M_{fi}) equiv sigma_k(Q_{fi})$。
+   若两带在未微扰极限下是共享同一内禀形变的手征伙伴带（$q_1 = q_2 = q_0, q_{12} = 0$），则其奇异值谱必定是退化的：$sigma_1 = sigma_2 = q_0$。
+   经由任意正交态混合后，物理跃迁矩阵 $M_{fi}$ 的奇异值谱必须保持完全简并（$sigma_1(M_{fi}) = sigma_2(M_{fi})$）。
+   若实验测得的四个物理跃迁矩阵元重构出的 $M_{fi}$ 展现出分裂的奇异值（$sigma_1
+e sigma_2$），则直接在正交群轨道不变量层次确凿排除了未微扰态具有相同形变的手征假设。
+
+### 5. 最小伴随可观测量层级与结论降级路径
 确立手征模式必须满足正交的六级伴随量链条：
 - **L1**：能级近简并与自旋宇称匹配（$Delta E approx 0$）；
 - **L2**：强 $Delta I = 1$ 带间相互链接（Interband links）；
@@ -113,4 +136,4 @@ angle$ 微弱偏离零（$q_{12}/q_1 approx 0.04 - 0.08$）时，跃迁振幅间
 
 ## Promotion or Rejection History
 
-2026-10-27 由 Day 25 主线任务建立，整合 $^{134}	ext{Pr}$、$^{132}	ext{La}$、$^{135}	ext{Nd}$、$^{136}	ext{Nd}$ 与 $^{133}	ext{Ce}$ 的反例与系统学对比，提升至 chirality-shape-coexistence-companion-matrix。
+2026-10-27 由 Day 25 主线任务建立，整合 $^{134}	ext{Pr}$、$^{132}	ext{La}$、$^{135}	ext{Nd}$、$^{136}	ext{Nd}$ 与 $^{133}	ext{Ce}$ 的反例与系统学对比，推导正交不变量定理与奇异值判据，提升至 chirality-shape-coexistence-companion-matrix。
