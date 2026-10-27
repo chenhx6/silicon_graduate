@@ -5,7 +5,7 @@ updated: 2026-10-28
 
 ## Active handoff — Day25 checkpoint010：PADO analysis兼容与HDI边界审计
 
-2026-10-28T04:27:37.479794+08:00，原run/session及2026-10-28 15:00研究截止不变，formal累计24/next25，completed[]/partial[25,26]。三核与综合页已按family撤回普适必要、全核无τ、六级硬门与奇异值排他认证；PDM双PDF/TeX身份、HDI坐标、折叠分支测度和Pr端点份额写回canonical。PADO既有包测试24通过，条件数学10项控制通过；新增analysis模块审计发现NumPy2.5.3的np.trapz兼容断点、默认delta-HDI与稿件xi-HDI坐标差及平顶HDI质量边界；临时内存适配控制写入analysis-and-phase-controls-010.py/json，raw源码哈希未变，未重现八条基准/HDI或actual实验。boundary/lint/diff及原baseline写回门通过，18items，749页/267warnings。五个指定子会话complete；farmer既有监督继续。下一步见本run next-continuation-009.md：analysis模块投影/HDI及依赖合同，仍不改raw/PLAN/Bib、不运行114、不新run/授分。发布稳定指针main / Day25: audit PDM versions and probability measure contract；推送实况只认本run checkpoint-publication-009.json。恢复命令保存在原run.json及续接文件。
+2026-10-28T04:27:37.479794+08:00，原run/session及2026-10-28 15:00研究截止不变，formal累计24/next25，completed[]/partial[25,26]。三核与综合页已按family撤回普适必要、全核无τ、六级硬门与奇异值排他认证；PDM双PDF/TeX身份、HDI坐标、折叠分支测度和Pr端点份额写回canonical。PADO既有包测试24通过，条件数学10项控制通过；新增analysis模块审计发现NumPy2.5.3的np.trapz兼容断点、默认delta-HDI与稿件xi-HDI坐标差及平顶HDI质量边界；临时内存适配控制写入analysis-and-phase-controls-010.py/json，raw源码哈希未变，未重现八条基准/HDI或actual实验。boundary/lint/diff及原baseline写回门通过，18items，749页/267warnings。五个指定子会话complete；farmer既有监督继续。下一步见本run next-continuation-009.md：analysis模块审计已完成，继续仅做有界数学/输入检查，仍不改raw/PLAN/Bib、不运行114、不新run/授分。发布稳定指针main / Day25: audit PADO analysis projection and HDI boundaries；当前已通过origin HEAD:main dry-run与非force push，精确hash见本run checkpoint-publication-010.json。恢复命令保存在原run.json及续接文件。
 
 ## Previous handoff — Day25 checkpoint006：PDM source登记与科学边界审计
 
