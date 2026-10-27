@@ -73,10 +73,10 @@ $$T(E2)_{\text{out}} \propto [-\beta_I \alpha_{I-2} Q_{0,1} + \alpha_I \beta_{I-
 确立手征模式必须满足正交的六级伴随量链条：
 - **L1**：能级近简并与自旋宇称匹配（$\Delta E \approx 0$）；
 - **L2**：强 $\Delta I = 1$ 带间相互链接（Interband links）；
-- **L3**：角分布比与线偏振度（DCO, $R_{
-m ax}$, $P$ 锁定多极性与混合比 $\delta$）；
+- **L3**：角分布比与线偏振度（DCO, $R_{\rm ax}$, $P$ 锁定多极性与混合比 $\delta$）；
 - **L4**：绝对态寿命测量（RDDS / DSAM 确定 $\tau$）；
 - **L5**：绝对跃迁矩阵元对称性（$B(E2)_1 \approx B(E2)_2$，$B(M1)$ 交错，$Q_t$ 比 $\approx 1$）；
+- **L5B（$E0$ 单极跃迁强度 $\rho^2(E0)$，Heyde & Wood 2011）**：两带同自旋态间（$I_A \to I_B, \Delta I = 0$）的电单极跃迁强度满足 $\rho^2(E0) \approx \frac{9Z^2}{64\pi^2} \sin^2(2\theta) [\beta_2(1)^2 - \beta_2(2)^2]^2$。未微扰手征双重带因形变相同必有 $\rho^2(E0) \equiv 0$；若转化电子谱测得两带同自旋态间存在非零 $E0$ 跃迁，直接排他性证明两态具有不同均方电荷半径（$\Delta\langle r^2 \rangle \neq 0$），确立形状共存；
 - **L6**：磁矩与 $g$ 因子测量（TDPAD 检验 aplanar 矢量取向）。
 
 **结论降级规则**：
