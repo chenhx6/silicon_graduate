@@ -203,7 +203,13 @@ def one_pair(ji: float, jf: float, xis: list[float], sigma_grid: list[float]) ->
 
 
 def main() -> int:
-    root_cmd = "PYTHONPATH=raw/writing/pado/Upload:<existing-dependency-path> python3 pado-jacobian-sign-audit-011.py"
+    root_cmd = (
+        "PYTHONDONTWRITEBYTECODE=1 "
+        "PYTHONPATH=raw/writing/pado/Upload:tmp/day25-pado-venv/lib/python3.12/"
+        "site-packages:/opt/venv/lib/python3.12/site-packages "
+        "python3 outputs/learning-daily/20261027-DAY25-chirality-"
+        "counterevidence-shape-coexistence-run-01/pado-jacobian-sign-audit-011.py"
+    )
     xis = [-85.0, -80.0, -60.0, -40.0, -20.0, 0.0, 20.0, 40.0, 60.0, 80.0, 85.0]
     sigma_grid = [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90, 1.00]
     result = {
