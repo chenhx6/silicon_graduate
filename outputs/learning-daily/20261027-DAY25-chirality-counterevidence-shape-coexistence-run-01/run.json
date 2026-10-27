@@ -73,18 +73,35 @@
       ],
       "formal_credit_awarded": false,
       "day27_opened": false
+    },
+    {
+      "clock_event_id": "checkpoint-006",
+      "same_session_id": "01a17cdd-58b4-7a53-b782-5248260f526a",
+      "observed_at_utc": "2026-10-27T22:41:02.238457+00:00",
+      "observed_at_local": "2026-10-28T06:41:02.238466+08:00",
+      "queued_snapshot_at": "2026-10-28T06:17:10.645367+08:00",
+      "research_cutoff": "2026-10-28T15:00:00+08:00",
+      "receipt_status_observed": "running",
+      "decision": "continue-current-high-information-issue",
+      "delivery_observed": true,
+      "current_day_index": 25,
+      "partial_day_indices": [
+        26
+      ],
+      "formal_credit_awarded": false,
+      "day27_opened": false
     }
   ],
   "last_clock_observation": {
-    "clock_event_id": "checkpoint-005",
+    "clock_event_id": "checkpoint-006",
     "same_session_id": "01a17cdd-58b4-7a53-b782-5248260f526a",
-    "observed_at_utc": "2026-10-27T20:54:37.041666+00:00",
-    "observed_at_local": "2026-10-28T04:54:37.041666+08:00",
-    "queued_snapshot_at": "2026-10-28T04:51:40.234271+08:00",
+    "observed_at_utc": "2026-10-27T22:41:02.238457+00:00",
+    "observed_at_local": "2026-10-28T06:41:02.238466+08:00",
+    "queued_snapshot_at": "2026-10-28T06:17:10.645367+08:00",
     "research_cutoff": "2026-10-28T15:00:00+08:00",
     "receipt_status_observed": "running",
     "decision": "continue-current-high-information-issue",
-    "delivery_observed": false,
+    "delivery_observed": true,
     "current_day_index": 25,
     "partial_day_indices": [
       26
