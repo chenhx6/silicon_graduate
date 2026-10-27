@@ -1,0 +1,121 @@
+{
+  "schema": "pado-jacobian-root-refinement-012",
+  "scope": "conditional bisection of finite-mesh detJ sign brackets for Ji=19/2->17/2; not a global-fold or mode proof",
+  "source": "pado-jacobian-sign-audit-011",
+  "roots": [
+    {
+      "xi_deg": -85,
+      "bracket": [
+        0.5,
+        0.6
+      ],
+      "root_sigma_over_i": 0.5068963736295844,
+      "det_at_root": 1.878835837206935e-12,
+      "det_left": -7.011945202858973e-13,
+      "det_right": 1.878835837206935e-12,
+      "h_delta": 1e-05,
+      "h_sigma_over_i": 1e-05,
+      "step_sensitivity": [
+        {
+          "xi_deg": -85,
+          "bracket": [
+            0.5,
+            0.6
+          ],
+          "root_sigma_over_i": 0.5068963920034038,
+          "det_at_root": 4.023884731098546e-14,
+          "det_left": -1.42477172927989e-13,
+          "det_right": 4.023884731098546e-14,
+          "h_delta": 0.0001,
+          "h_sigma_over_i": 0.0001
+        },
+        {
+          "xi_deg": -85,
+          "bracket": [
+            0.5,
+            0.6
+          ],
+          "root_sigma_over_i": 0.5068963736295844,
+          "det_at_root": 1.878835837206935e-12,
+          "det_left": -7.011945202858973e-13,
+          "det_right": 1.878835837206935e-12,
+          "h_delta": 1e-05,
+          "h_sigma_over_i": 1e-05
+        },
+        {
+          "xi_deg": -85,
+          "bracket": [
+            0.5,
+            0.6
+          ],
+          "root_sigma_over_i": 0.5068963721255113,
+          "det_at_root": 1.420738216746352e-11,
+          "det_left": -2.1393226179061985e-11,
+          "det_right": 1.420738216746352e-11,
+          "h_delta": 1e-06,
+          "h_sigma_over_i": 1e-06
+        }
+      ]
+    },
+    {
+      "xi_deg": 80,
+      "bracket": [
+        0.4,
+        0.5
+      ],
+      "root_sigma_over_i": 0.4969152092906768,
+      "det_at_root": -1.046943845067653e-12,
+      "det_left": -1.046943845067653e-12,
+      "det_right": 3.671645429780801e-13,
+      "h_delta": 1e-05,
+      "h_sigma_over_i": 1e-05,
+      "step_sensitivity": [
+        {
+          "xi_deg": 80,
+          "bracket": [
+            0.4,
+            0.5
+          ],
+          "root_sigma_over_i": 0.49691522916219166,
+          "det_at_root": -2.50929361265019e-13,
+          "det_left": -2.50929361265019e-13,
+          "det_right": 1.95119974752755e-13,
+          "h_delta": 0.0001,
+          "h_sigma_over_i": 0.0001
+        },
+        {
+          "xi_deg": 80,
+          "bracket": [
+            0.4,
+            0.5
+          ],
+          "root_sigma_over_i": 0.4969152092906768,
+          "det_at_root": -1.046943845067653e-12,
+          "det_left": -1.046943845067653e-12,
+          "det_right": 3.671645429780801e-13,
+          "h_delta": 1e-05,
+          "h_sigma_over_i": 1e-05
+        },
+        {
+          "xi_deg": 80,
+          "bracket": [
+            0.4,
+            0.5
+          ],
+          "root_sigma_over_i": 0.4969152090937311,
+          "det_at_root": -5.845723100385039e-12,
+          "det_left": -5.845723100385039e-12,
+          "det_right": 2.0793301759775408e-12,
+          "h_delta": 1e-06,
+          "h_sigma_over_i": 1e-06
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "two_roots_refined": true,
+    "residuals_small": true,
+    "steps_recorded": true
+  },
+  "passed": true
+}

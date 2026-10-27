@@ -137,6 +137,10 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
 
 直接调用当前 `physics/pado.py`/`compute/jacobian.py`，不运行CLI producer、不改raw源码。xi={−85,−80,−60,−40,−20,0,20,40,60,80,85}°、sigma/I=.1–1.0小网格中，11/2→9/2的signed J_delta全负；19/2→17/2出现9个相邻符号变化（沿xi与sigma/I方向），说明当前实现对新Ji/Jf出现局部detJ过零警示。此结果只是有限网格条件诊断，不能称global fold、global non-invertibility或实验模式结论；大sigma/I向P=0、ADO=1、J=0的各向同性极限与有限差分相容。theta/radian与delta的Jacobian按1+delta²缩放，degree坐标另乘pi/180。脚本/JSON为pado-jacobian-sign-audit-011.py/json。
 
+### Jacobian 过零的有界细化（checkpoint012）
+
+对 checkpoint011 已发现的两个 19/2→17/2 符号括区做二分，并用有限差分步长 $10^{-4},10^{-5},10^{-6}$ 复算：xi=−85° 的根为 sigma/I≈0.50689637，xi=+80° 的根为≈0.49691521，步长敏感性约 $2\times10^{-8}$。这只支持当前实现的局部 detJ 诊断；不构成全局折叠、第二原像、实验模式或方法普适性结论。脚本与JSON为 `pado-jacobian-root-refinement-012.py/json`，未调用CLI producer、未修改raw。
+
 ## Counter-evidence and missing companion observables
 
 |核/family|直接观测|作者/模型解释|替代与缺口|
@@ -418,7 +422,7 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
     {
       "knowledge": "knowledge/research-notes/pado-probability-density-mapping-mixing-ratios.md",
       "anchor": "## Research Trigger",
-      "summary": "区分PDM稿件版本、HDI坐标、全局折叠测度、Pr份额、analysis兼容性及有限网格Jacobian边界。",
+      "summary": "区分PDM稿件版本、HDI坐标、全局折叠测度、Pr份额、analysis兼容性、有限网格Jacobian及过零细化边界。",
       "sources": [
         {
           "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
@@ -547,6 +551,8 @@ L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条�
 ## Verification and continuation
 
 checkpoint009：已补齐两篇研究笔记缺失的正文source链接，并撤回综合笔记中残留的普适必要、全核无寿命、六级必需链及排他认证。PADO现有测试24 passed/exit0（15.05s），临时依赖环境与源码哈希见pado-tests-009.json；这解除历史依赖阻塞，不构成八条基准/HDI重现。数学控制10项通过。新的required-checks-009.json记录本checkpoint实际结构门，旧005结果仅作历史。
+checkpoint012：对两个detJ符号括区做步长敏感性二分，根位置稳定到约2×10^-8，仍只作局部条件诊断。
+
 checkpoint011：有限网格Jacobian诊断记录19/2→17/2的局部detJ符号变化，未升级为全局折叠或模式结论。
 
 checkpoint010：analysis模块审计发现NumPy2.5.3的np.trapz兼容断点、默认delta-HDI与稿件xi-HDI坐标差、平顶HDI质量字段边界；临时内存适配后的双峰synthetic控制与signed-phase同强度矩阵控制写入analysis-and-phase-controls-010.py/json，raw analysis源码哈希未变，未作八条基准重放。

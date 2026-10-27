@@ -113,6 +113,8 @@ $$
 
 不运行CLI producer、不改raw源码，直接调用 `physics/pado.py` 与 `compute/jacobian.py`，在xi={−85,−80,−60,−40,−20,0,20,40,60,80,85}°、sigma/I=.1–1.0的小网格上作条件诊断。11/2→9/2的signed $J_\delta$ 在该网格全负；19/2→17/2出现9个相邻符号变化，提示当前实现对该新Ji/Jf存在局部detJ过零。它不能外推为全局折叠、全局不可逆或实验模式结论；需更细网格、步长敏感性和独立解析/producer合同确认。大sigma/I样本趋向P→0、ADO→1、J→0；theta/radian与delta的Jacobian按 $1+\delta^2$ 缩放，degree坐标还需乘$\pi/180$。脚本/JSON为本run `pado-jacobian-sign-audit-011.py/json`。
 
+在两个符号括区做二分并以h=(10^-4,10^-5,10^-6)复算，19/2→17/2的局部过零位置为xi=-85°、sigma/I≈0.50689637，以及xi=+80°、sigma/I≈0.49691521；步长敏感性约2×10^-8。该收敛只加强“当前响应实现存在局部detJ零点”的数值诊断，不提供全局第二原像、实验模式或PDM方法普适性结论。结果见本run `pado-jacobian-root-refinement-012.py/json`。
+
 ## Open Questions
 
 1. 当大探测器阵列给出多角度全矩阵（如 17 环或 39 探测器）时，如何将 PDM 推广至多维协方差不为零的高阶张量空间？

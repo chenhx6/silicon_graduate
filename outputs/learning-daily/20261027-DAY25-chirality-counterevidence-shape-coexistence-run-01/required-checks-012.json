@@ -1,0 +1,135 @@
+{
+  "observed_at": "2026-10-28T04:59:45+08:00",
+  "checkpoint_only": true,
+  "commands": {
+    "boundary": {
+      "args": [
+        "python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "stdout": "xpected_absent\": [\n        \"docs/plans\"\n      ],\n      \"present\": []\n    },\n    \"moved_knowledge\": {\n      \"outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md\": {\n        \"old_exists\": false,\n        \"canonical\": \"knowledge/projects/a130-thesis-evidence-matrix.md\",\n        \"canonical_exists\": true\n      }\n    },\n    \"outputs\": {\n      \"allowed_roots\": [\n        \"degree-dissertation\",\n        \"high-spin\",\n        \"l3\",\n        \"l4\",\n        \"learning-daily\",\n        \"learning-milestones\",\n        \"learning-weekly\",\n        \"literature-acquisition\",\n        \"paper-cards\",\n        \"plans\",\n        \"self-tests\"\n      ],\n      \"unknown_roots\": [],\n      \"knowledge_page_types_in_outputs\": []\n    },\n    \"qmd\": {\n      \"checked\": true,\n      \"available\": true,\n      \"command\": [\n        \"/opt/qmd/bin/qmd\",\n        \"collection\",\n        \"show\",\n        \"nuclear-knowledge\"\n      ],\n      \"exit\": 0,\n      \"path\": \"/workspace/wiki/knowledge\",\n      \"pattern\": \"**/*.md\"\n    }\n  }\n}\n",
+      "stderr": ""
+    },
+    "lint": {
+      "args": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error",
+        "--format",
+        "json",
+        "--output",
+        "tmp/day25-lint-012.json"
+      ],
+      "exit_code": 0,
+      "stdout": "  },\n    {\n      \"severity\": \"info\",\n      \"code\": \"CLAIM_NEEDS_REVIEW\",\n      \"path\": \"knowledge/sources/zobel-1983-energy-projectile-alignment.md\",\n      \"message\": \"Z83-11 awaits human review\"\n    },\n    {\n      \"severity\": \"info\",\n      \"code\": \"CLAIM_NEEDS_REVIEW\",\n      \"path\": \"knowledge/sources/zobel-1983-energy-projectile-alignment.md\",\n      \"message\": \"Z83-12 awaits human review\"\n    },\n    {\n      \"severity\": \"info\",\n      \"code\": \"CLAIM_NEEDS_REVIEW\",\n      \"path\": \"knowledge/sources/zobel-1983-energy-projectile-alignment.md\",\n      \"message\": \"Z83-13 awaits human review\"\n    },\n    {\n      \"severity\": \"info\",\n      \"code\": \"CLAIM_NEEDS_REVIEW\",\n      \"path\": \"knowledge/sources/zobel-1983-energy-projectile-alignment.md\",\n      \"message\": \"Z83-14 awaits human review\"\n    },\n    {\n      \"severity\": \"info\",\n      \"code\": \"CLAIM_NEEDS_REVIEW\",\n      \"path\": \"knowledge/sources/zobel-1983-energy-projectile-alignment.md\",\n      \"message\": \"Z83-15 awaits human review\"\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    "diff": {
+      "args": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  },
+  "validators": {
+    "report": {
+      "valid": true,
+      "missing_headings": []
+    },
+    "curriculum": {
+      "valid": true,
+      "completed_day_indices": [],
+      "partial_day_indices": [
+        25,
+        26
+      ],
+      "curriculum_cards_completed": 0,
+      "next_day_index": 25,
+      "error": null
+    },
+    "durable_original_run_baseline": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+        "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+        "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+        "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+        "knowledge/concepts/triaxial-shape-coexistence.md",
+        "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+        "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+        "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+        "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+        "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/research-notes/134pr-two-band-mixing-offdiagonal-e2-sensitivity.md",
+        "knowledge/research-notes/133ce-afrodite-rad-finite-geometry-and-qtr-code-contract.md",
+        "knowledge/research-notes/131ce-133ce-topological-nodes-configuration-substitution-contract.md",
+        "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+        "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+        "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+        "knowledge/index.md",
+        "knowledge/overview.md",
+        "knowledge/research-notes/a130-chirality-counterexamples-and-shape-coexistence-systematics.md",
+        "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+        "knowledge/research-notes/pado-probability-density-mapping-mixing-ratios.md",
+        "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+        "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+        "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+        "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+        "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+        "knowledge/methods/angular-distribution.md"
+      ],
+      "changed_paths": [
+        "knowledge/concepts/triaxial-shape-coexistence.md",
+        "knowledge/index.md",
+        "knowledge/methods/angular-distribution.md",
+        "knowledge/overview.md",
+        "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+        "knowledge/research-notes/131ce-133ce-topological-nodes-configuration-substitution-contract.md",
+        "knowledge/research-notes/133ce-afrodite-rad-finite-geometry-and-qtr-code-contract.md",
+        "knowledge/research-notes/134pr-two-band-mixing-offdiagonal-e2-sensitivity.md",
+        "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+        "knowledge/research-notes/a130-chirality-counterexamples-and-shape-coexistence-systematics.md",
+        "knowledge/research-notes/pado-probability-density-mapping-mixing-ratios.md",
+        "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+        "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+        "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+        "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+        "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+        "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+        "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+        "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+        "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+        "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    }
+  },
+  "lint_summary": {
+    "pages": 749,
+    "wikilinks": 9989,
+    "source_hashes_checked": 355,
+    "counts": {
+      "warning": 267,
+      "info": 5004
+    }
+  },
+  "lint_errors": [],
+  "artifacts": [
+    "pado-jacobian-root-refinement-012.py",
+    "pado-jacobian-root-refinement-012.json"
+  ],
+  "passed": true
+}
