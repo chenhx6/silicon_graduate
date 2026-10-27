@@ -4565,3 +4565,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 
 - 2026-10-27：接入 Springer Meta/OA 两把 key并测试；meta/v2与openaccess各HTTP200、各返回1条。无额度头；插件本地限流/计数不当供应商配额。回执 outputs/literature-acquisition/20261027-springer-api-permissions.json。
 - 2026-10-27：用户补充 Springer 账户配额为 500 hits/day、100 hits/min；已写入文献访问规则和检查项，明确其来源为用户提供而非响应头。
+
+- 2026-10-27T21:40:17+08:00 Day25 checkpoint006：在手征与形状共存竞争矩阵中补充 133Ce MχD 与三轴形状共存历史首例（Ayangeakaa 2013/2016，WK22）的证据解构；明确两对候选带完全缺失态寿命测量，其形状共存纯系泛函势能面极小，并在后继高自旋研究与低激发进动中发生理论重释，形成 A≈130 质量区四核（134Pr/135Nd/136Nd/133Ce）的完整证据梯度。全量验证保持全绿。

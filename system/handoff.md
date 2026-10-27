@@ -7,7 +7,7 @@ updated: 2026-10-27
 
 2026-10-27T21:08:37+08:00，同run 2026-10-27-day-25-01 / session 01a17cdd-58b4-7a53-b782-5248260f526a，原截止2026-10-28 15:00（15–16收束）不改。Day25仍running，report completed[] partial[25,26]；课程真实累计24/next25。此前report/原run早写completed25不是正式信用，原字段保留，未再授分。
 
-主线：PE06原TableI实验/计算列分开；17→15倒数回核，撤回无producer的χ²/95%、普适近简并必要与“等对角即手征”。新forward-checks-005.py/json复现原四点并作条件q12例子，独立矩阵乘法误差1.11e−16。三核矩阵按135Nd正/负pair、136Nd各pair分观测与模型；Tonev共享实验不重复计票。
+主线：PE06原TableI实验/计算列分开；17→15倒数回核，撤回无producer的χ²/95%、普适近简并必要与“等对角即手征”。新forward-checks-005.py/json复现原四点并作条件q12例子，独立矩阵乘法误差1.11e−16。三核矩阵按135Nd正/负pair、136Nd各pair分观测与模型，并补充133Ce MχD/形状共存历史首例（A13/A16/WK22）的证据解构与谱学重释；Tonev共享实验不重复计票。
 
 133Ce长期蓝本继续active：撤回壳offset恢复、.2–.4假检出限、3qp伪下限及跨核Qt测γ软度；465±1.37仅Cov=0条件；817.7未列观测分母，actual header/ε4/单位/零点/负λ/mask/signedEM缺口保持。Emediato1997负νh11/2用λ50.6的原文是反对普适跨壳禁令的直接反例，不替WK22填参数。新needs_review:true，AW13 Band5及Day21/22/23既有人审/撤回、raw/PLAN/Bib、旧dirty与114保持。
 
