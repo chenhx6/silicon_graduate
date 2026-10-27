@@ -760,61 +760,58 @@ u g_{7/2}[404]7/2^+$ 准粒子态），其能带结构中的 Band 3 是带头激
 
 #### 1. 严格代数消去定理
 
-设母态 $|Band 4, I
-angle$ 退激发射三条跃迁：
-- 混合出带跃迁 $\gamma_1$（$\Delta I = 1$, Band $4 	o 1$）：能量 $E_{\gamma,1}$，光子强度 $I_{\gamma,1}$，多极混合比 $\delta_1$；
-- 纯 $E2$ 跨带跃迁 $\gamma_2$（$\Delta I = 2$, Band $4 	o 1$，out/out 分母）：能量 $E_{\gamma,2}$，光子强度 $I_{\gamma,2}$；
-- 纯 $E2$ 带内跃迁 $\gamma_3$（$\Delta I = 2$, Band $4 	o 4$，out/in 分母）：能量 $E_{\gamma,3}$，光子强度 $I_{\gamma,3}$。
+设母态 $|\text{Band 4}, I\rangle$ 退激发射三条跃迁：
+- 混合出带跃迁 $\gamma_1$（$\Delta I = 1$, Band $4 \to 1$）：能量 $E_{\gamma,1}$，光子强度 $I_{\gamma,1}$，多极混合比 $\delta_1$；
+- 纯 $E2$ 跨带跃迁 $\gamma_2$（$\Delta I = 2$, Band $4 \to 1$，out/out 分母）：能量 $E_{\gamma,2}$，光子强度 $I_{\gamma,2}$；
+- 纯 $E2$ 带内跃迁 $\gamma_3$（$\Delta I = 2$, Band $4 \to 4$，out/in 分母）：能量 $E_{\gamma,3}$，光子强度 $I_{\gamma,3}$。
 
 由 WK22 公式定义：
-$$r_{E2}(	ext{out/out}) = rac{B(E2; 	ext{out}, \Delta I=1)}{B(E2; 	ext{out}, \Delta I=2)}, \quad r_{E2}(	ext{out/in}) = rac{B(E2; 	ext{out}, \Delta I=1)}{B(E2; 	ext{in}, \Delta I=2)}$$
-$$r_{M1}(	ext{out/out}) = rac{B(M1; 	ext{out}, \Delta I=1)}{B(E2; 	ext{out}, \Delta I=2)}, \quad r_{M1}(	ext{out/in}) = rac{B(M1; 	ext{out}, \Delta I=1)}{B(E2; 	ext{in}, \Delta I=2)}$$
+$$r_{E2}(\text{out/out}) = \frac{B(E2; \text{out}, \Delta I=1)}{B(E2; \text{out}, \Delta I=2)}, \quad r_{E2}(\text{out/in}) = \frac{B(E2; \text{out}, \Delta I=1)}{B(E2; \text{in}, \Delta I=2)}$$
+$$r_{M1}(\text{out/out}) = \frac{B(M1; \text{out}, \Delta I=1)}{B(E2; \text{out}, \Delta I=2)}, \quad r_{M1}(\text{out/in}) = \frac{B(M1; \text{out}, \Delta I=1)}{B(E2; \text{in}, \Delta I=2)}$$
 
-两比率相除，分子 $B(E2; 	ext{out}, \Delta I=1)$ 或 $B(M1; 	ext{out}, \Delta I=1)$ 精确相消：
-$$\mathcal{R}_{E2} \equiv rac{r_{E2}(	ext{out/out})}{r_{E2}(	ext{out/in})} = rac{B(E2; 	ext{in}, \Delta I=2)}{B(E2; 	ext{out}, \Delta I=2)}$$
-$$\mathcal{R}_{M1} \equiv rac{r_{M1}(	ext{out/out})}{r_{M1}(	ext{out/in})} = rac{B(E2; 	ext{in}, \Delta I=2)}{B(E2; 	ext{out}, \Delta I=2)}$$
+两比率相除，分子 $B(E2; \text{out}, \Delta I=1)$ 或 $B(M1; \text{out}, \Delta I=1)$ 精确相消：
+$$\mathcal{R}_{E2} \equiv \frac{r_{E2}(\text{out/out})}{r_{E2}(\text{out/in})} = \frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)}$$
+$$\mathcal{R}_{M1} \equiv \frac{r_{M1}(\text{out/out})}{r_{M1}(\text{out/in})} = \frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)}$$
 
 代入纯 $E2$ 跃迁强度公式 $I_\gamma \propto E_\gamma^5 B(E2)$，得到与实验光子强度的直接对应关系：
-$$rac{B(E2; 	ext{in}, \Delta I=2)}{B(E2; 	ext{out}, \Delta I=2)} = rac{I_{\gamma,3}}{I_{\gamma,2}} \left(rac{E_{\gamma,2}}{E_{\gamma,3}}
-ight)^5$$
+$$\frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)} = \frac{I_{\gamma,3}}{I_{\gamma,2}} \left(\frac{E_{\gamma,2}}{E_{\gamma,3}}\right)^5$$
 
 **定理特征与物理推论**：
 1. **与混合线 $\gamma_1$ 完全正交**：比值 $\mathcal{R}$ 完全独立于混合线 $\gamma_1$ 的能量 $E_{\gamma,1}$、强度 $I_{\gamma,1}$ 以及误差极大的混合比 $\delta_1$；
-2. **寿命与绝对标度相消**：母态平均寿命 $	au$ 与整体探测效率归一因子完全相消，直接反映带内集体四极跃迁相对于跨带单粒子/微观四极跃迁的内禀相对强度；
+2. **寿命与绝对标度相消**：母态平均寿命 $\tau$ 与整体探测效率归一因子完全相消，直接反映带内集体四极跃迁相对于跨带单粒子/微观四极跃迁的内禀相对强度；
 3. **两通道恒等检验**：在精确算术下，必定有 $\mathcal{R}_{E2} \equiv \mathcal{R}_{M1}$。
 
 ---
 
 #### 2. 465 keV ($I=19/2^-$) 实验一致性闭环验证
 
-对 Table 6.11 中数据完备的 465 keV（$1809.1	ext{ keV}$ 母态）执行消去验证：
+对 Table 6.11 中数据完备的 465 keV（$1809.1\text{ keV}$ 母态）执行消去验证：
 - **Table 6.11 报告比值**：
-  $$\mathcal{R}_{E2} = rac{1.06}{0.09} = 11.7778, \quad \mathcal{R}_{M1} = rac{5.54}{0.47} = 11.7872$$
+  $$\mathcal{R}_{E2} = \frac{1.06}{0.09} = 11.7778, \quad \mathcal{R}_{M1} = \frac{5.54}{0.47} = 11.7872$$
   两通道比值在千分之八（$0.08\%$）内严格重合，完全符合两位有效数字修约精度；
 - **Table 5.2 实验光子强度重构**：
-  - $\gamma_3 = 608.3	ext{ keV}$（Band 4 内 $19/2^- 	o 15/2^-$），$I_{\gamma,3} = 1.89(18)$；
-  - $\gamma_2 = 982.0	ext{ keV}$（Band 4 $	o$ 1 跨带 $19/2^- 	o 15/2^-$），$I_{\gamma,2} = 1.95(17)$；
+  - $\gamma_3 = 608.3\text{ keV}$（Band 4 内 $19/2^- \to 15/2^-$），$I_{\gamma,3} = 1.89(18)$；
+  - $\gamma_2 = 982.0\text{ keV}$（Band 4 $\to$ 1 跨带 $19/2^- \to 15/2^-$），$I_{\gamma,2} = 1.95(17)$；
   - 能量比五次方因子：$(E_{\gamma,2} / E_{\gamma,3})^5 = (982.0 / 608.3)^5 = 10.964$；
   - 实测比率：
-    $$rac{I_{\gamma,3}}{I_{\gamma,2}} \left(rac{E_{\gamma,2}}{E_{\gamma,3}}
-ight)^5 = rac{1.89(18)}{1.95(17)} 	imes 10.964 = 10.63 \pm 1.37$$
+    $$\frac{I_{\gamma,3}}{I_{\gamma,2}} \left(\frac{E_{\gamma,2}}{E_{\gamma,3}}\right)^5 = \frac{1.89(18)}{1.95(17)} \times 10.964 = 10.63 \pm 1.37$$
 - **结论**：Table 6.11 的理论比值 $11.78$ 稳固落在实验 $1\sigma$ 置信区间 $[9.26, 12.00]$ 内。这确凿证明作者在 465 keV 处的两组比值确实源自 Table 5.2 相同的底层光子计数。
 
 ---
 
 #### 3. 582 keV ($I=17/2^-$) 幽灵分母的定量反演与排除
 
-将消去定理应用于 $1409.8	ext{ keV}$ 母态的 582 keV 跃迁：
+将消去定理应用于 $1409.8\text{ keV}$ 母态的 582 keV 跃迁：
 - **Table 6.11 报告比值**：
-  $$\mathcal{R}_{E2} = rac{5.06}{0.33} = 15.3333, \quad \mathcal{R}_{M1} = rac{3.95}{0.25} = 15.8000$$
-  同样保持 $\mathcal{R}_{E2} pprox \mathcal{R}_{M1}$ 的内禀自洽性；
+  $$\mathcal{R}_{E2} = \frac{5.06}{0.33} = 15.3333, \quad \mathcal{R}_{M1} = \frac{3.95}{0.25} = 15.8000$$
+  同样保持 $\mathcal{R}_{E2} \approx \mathcal{R}_{M1}$ 的内禀自洽性；
 - **反演所需 $\gamma_2$ 强度**：
-  - 带内跃迁 $\gamma_3 = 577.8	ext{ keV}$，实测 $I_{\gamma,3} = 3.22(21)$；
-  - 能差推导的假想跨带跃迁 $E_{\gamma,2} = 1409.8 - 592.1 = 817.7	ext{ keV}$；
+  - 带内跃迁 $\gamma_3 = 577.8\text{ keV}$，实测 $I_{\gamma,3} = 3.22(21)$；
+  - 能差推导的假想跨带跃迁 $E_{\gamma,2} = 1409.8 - 592.1 = 817.7\text{ keV}$；
   - 能量比五次方因子：$(E_{\gamma,2} / E_{\gamma,3})^5 = (817.7 / 577.8)^5 = 5.6765$；
   - 若 Table 6.11 确系通过实测 $I_{\gamma,2}$ 计算，则该线强度必须达到：
-    $$I_{\gamma,2}(817.7	ext{ keV}) = rac{I_{\gamma,3} 	imes (E_2/E_3)^5}{\mathcal{R}} = rac{3.22 	imes 5.6765}{15.333} pprox 1.192$$
-  - （若直接从 $r_{E2}(	ext{out/out})=5.06$ 与实测 $\delta=-0.55$ 反推，亦需 $I_{\gamma,2} pprox 0.88$）；
+    $$I_{\gamma,2}(817.7\text{ keV}) = \frac{I_{\gamma,3} \times (E_2/E_3)^5}{\mathcal{R}} = \frac{3.22 \times 5.6765}{15.333} \approx 1.192$$
+  - （若直接从 $r_{E2}(\text{out/out})=5.06$ 与实测 $\delta=-0.55$ 反推，亦需 $I_{\gamma,2} \approx 0.88$）；
 - **实验矛盾与最终判定**：
-  在 WK22 Table 5.2 中，该能区的弱线检出限可达 $I_\gamma \sim 0.2–0.4$（如 $380.0	ext{ keV}$ 的 $I_\gamma=0.44(9)$、$490.4	ext{ keV}$ 的 $I_\gamma=0.43(7)$）。一条强度高达 $I_\gamma pprox 0.9–1.2$ 的 $817.7	ext{ keV}$ 跃迁若在 $\gamma$-$\gamma$ 符合矩阵中真实存在，绝无可能在 Table 5.2 跃迁账本及 Figure 5.1 能级纲图中完全隐形！
+  在 WK22 Table 5.2 中，该能区的弱线检出限可达 $I_\gamma \sim 0.2–0.4$（如 $380.0\text{ keV}$ 的 $I_\gamma=0.44(9)$、$490.4\text{ keV}$ 的 $I_\gamma=0.43(7)$）。一条强度高达 $I_\gamma \approx 0.9–1.2$ 的 $817.7\text{ keV}$ 跃迁若在 $\gamma$-$\gamma$ 符合矩阵中真实存在，绝无可能在 Table 5.2 跃迁账本及 Figure 5.1 能级纲图中完全隐形！
   这以无可辩驳的代数与实验证据表明：Table 6.11 中 582 keV 的 out/out 分母并非来自已被确认的观测线，其数值可能采自局部未定属背景拟合或理论输入预设。**该分母在物理上保持未闭合，严禁在后续分析中逆向虚构 817.7 keV 观测跃迁**。
