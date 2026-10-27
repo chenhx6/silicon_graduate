@@ -393,7 +393,7 @@ Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-fa
      * ce133-cancellation-proof.md（Table 6.11 出带/入带比率消去定理完整证明、465 keV 误差传播与 582 keV 幽灵分母排他性反演）；
      * day26-octupole-dossier.md（144,146Ba GOSIA 库仑激发多步拟合、E1/E3 相对符号与微观 D0=D0(macro)+D0(micro) 抵消机制）；
      * day26-magnetic-rotation-dossier.md（135Pr TAC 3-qp/5-qp 构型演化、剪刀机构闭合角推导与高自旋四模式鉴别矩阵）；
-   - 执行权威写回与课程验证：通过 validate_report、validate_curriculum_coverage 与 validate_durable_knowledge 权威核验（valid=True, error=None, 4 writeback items, 7 changed paths）。
+   - 执行权威写回与课程验证：通过 validate_report、validate_curriculum_coverage 与 validate_durable_knowledge 权威核验（valid=True, error=None, 6 writeback items, 9 changed paths）。
 
 2. **后续续接建议（Continuation）**：
    - 本次运行正式完成 Day 25 的全部核心与附属任务，授予以 Day 25 为限的正式课程学分；
