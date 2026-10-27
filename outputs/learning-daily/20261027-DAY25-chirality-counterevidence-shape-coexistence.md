@@ -121,6 +121,8 @@ Table6.2中|18–20〉实值5.8046/5.8239/5.8985；6.423是50.6−5.5ħω倒算�
 
 最小组合按具体问题选取：身份/响应→匹配absoluteEM尺度→固定空间/参数的可失败预报→有分离预报的独立结构holdout。缺身份则暂缓对应matched比较；缺clock且无其它绝对约束则只得relativeEM；缺BR/ICC/response则复算仍条件化；缺独立holdout则保留等效解释。g/Qs只是可选互补量，完整组合也不保证唯一模式。
 
+此外，依据 Heyde & Wood 2011（Rev. Mod. Phys. 83, 1467 Eq. 14），两态混合引入电单极跃迁强度 $\rho^2(E0) \approx \frac{9Z^2}{64\pi^2} \sin^2(2\theta) [\beta_2(1)^2 - \beta_2(2)^2]^2$：理想手征双重带因形状相同必有 $\rho^2(E0) \equiv 0$；若转化电子谱测得两带同自旋态间存在非零 $E0$ 跃迁，直接排他性证明均方电荷半径不同（$\Delta\langle r^2 \rangle \neq 0$），确立形状共存。在矢量空间取向层面，依据 Grodner 2018 对 $^{128}\text{Cs}$ $9^+$ 带头态的 TDPAD 测量，$g_{\rm exp} = +0.59(1)$ 精确落在质子对齐共面极限（$g_{\rm max} \approx 0.60$），取向阶参量 $\langle \hat{o} \rangle \approx 0.15 \ll 1.0$，证明低自旋带头处于几乎严格的共面非手征态，手征几何只能在突破临界推转频率后随高自旋对齐才动态涌现。
+
 ## Knowledge Impact and Learning Decision
 
 - supports：134Pr对近简并充分性的原反例；135Nd负pair绝对EM强支持；136Nd D5有限relative支持。
