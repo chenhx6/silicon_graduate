@@ -125,7 +125,21 @@ Table6.9/6.10还各列13/2−→11/2−的δ=.89/−.58，但两r缺失。其父
 
 $$S_I=\tfrac12 E_{I-2}-\tfrac32E_{I-1}+\tfrac32E_I-\tfrac12E_{I+1}.$$
 
-即$S=LE$，$\mathrm{Cov}(S)=L\mathrm{Cov}(E)L^T$。相邻S共享能级；若能量进入拟合后又把S当独立数据，联合向量$(E,S)=(1,L)E$有冗余。它们能以不同图形暴露不同spin结构，却不能增加独立实验维数。所有旋称劈裂定义必须先核原式，勿与$E_\gamma/(2I)$混用。
+即 $S=LE$，其协方差严格服从 $\mathrm{Cov}(S)=L\mathrm{Cov}(E)L^T$。
+
+**协方差与人工交错（Staggering）传播定理**：
+若假定各能级激发能测量具有独立的等方差不确定度 $\sigma_E^2$（即 $\mathrm{Cov}(E) = \sigma_E^2 \mathbf{1}$），则 $S_I$ 的方差与相邻点协方差为严格有理数：
+1. **单点方差放大**：
+   $$\mathrm{Var}(S_I) = \left[\left(\frac{1}{2}\right)^2 + \left(-\frac{3}{2}\right)^2 + \left(\frac{3}{2}\right)^2 + \left(-\frac{1}{2}\right)^2\right] \sigma_E^2 = 5 \sigma_E^2, \qquad \sigma(S_I) = \sqrt{5}\sigma_E \approx 2.236 \sigma_E$$
+2. **相邻点的强负自相关（-75%）**：
+   $$\mathrm{Cov}(S_I, S_{I+1}) = \left[ \left(-\frac{3}{2}\right)\left(\frac{1}{2}\right) + \left(\frac{3}{2}\right)\left(-\frac{3}{2}\right) + \left(-\frac{1}{2}\right)\left(\frac{3}{2}\right) \right] \sigma_E^2 = -\frac{15}{4} \sigma_E^2$$
+   $$\rho(S_I, S_{I+1}) = \frac{-15/4}{5} = -\frac{3}{4} = -0.750$$
+3. **次近邻弱正相关（+30%）**：
+   $$\mathrm{Cov}(S_I, S_{I+2}) = \left[ \left(\frac{3}{2}\right)\left(\frac{1}{2}\right) + \left(-\frac{1}{2}\right)\left(-\frac{3}{2}\right) \right] \sigma_E^2 = \frac{3}{2} \sigma_E^2, \qquad \rho(S_I, S_{I+2}) = \frac{3/2}{5} = +\frac{3}{10} = +0.300$$
+   对于 $|k| \ge 3$，$\mathrm{Cov}(S_I, S_{I+k}) = 0$。
+
+**物理与拟合推论**：
+高达 $-75\%$ 的相邻负相关表明，若任意单一能级 $E_I$ 发生偶然的向上统计涨落 $+\delta$，$S_I$ 将被放大跳升 $+\frac{3}{2}\delta$，而紧邻的 $S_{I+1}$ 将被同步向下拖拽 $-\frac{3}{2}\delta$。这一核结构差分效应会在能谱曲线上人为制造幅度高达 $3\delta$ 的假交错（artificial zigzag oscillation），极易被误判为物理上的旋称反转（signature inversion）或刚性三轴摇摆！因此，严禁将能级 $E$ 与 $S(I)$ 同时作为独立数据输入拟合；在对 $S(I)$ 曲线开展 $\chi^2$ 检验时，必须引入完整的非对角协方差矩阵 $L \mathrm{Cov}(E) L^T$。
 
 依据Tables5.1/5.2重建Band1/4后，Band1的I=13/2到29/2可用S中央值依次182.10、−216.15、277.30、−318.60、345.25、−342.50、351.35、−369.60、410.30keV；Band4 I=17/2到25/2为−175.05、49.60、100.55、−166.80、247.65keV。9/2−的37.2keV由表边推得，33/2−缺态不插值；不提供没有Cov支持的实验误差条。这是原表中央值练习，未重分析event。
 
