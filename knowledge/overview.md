@@ -2,10 +2,18 @@
 type: system-overview
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-25
+updated: 2026-10-27
 ---
 
 # Knowledge Base Health Dashboard
+
+## Current Snapshot: 2026-10-27 Day24 closeout
+
+本次为Day24实际lint与目录对账，不是全库科学终审。knowledge共745篇Markdown，lint扫描742篇类型页，另3篇为根层导航/治理页；source为409篇。page/source unreviewed为664/349；5672项claim中4960保留needs_review，缺locator/kind为0/0，source缺citation_key为207。lint为0 error、267 warning；未消警告保持原治理边界，不代表新增科学认证。
+
+科学入口为[[135nd-chiral-partner-resolved-evidence-map]]和持续研究的[[133ce-thesis-analysis-blueprint]]。[[frauendorf-meng-1997-tilted-rotation-chirality]] FM97-D24-001及[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24-001分别提供均场/有限核与逐伙伴实验分层的来源；它们不支持上述治理计数。g、完整响应/Cov及actual producer缺口保持，新增claims不扩张human review。Day24只授本卡，Day25仍无学分预习；实际正式信用与发布看本run最终回执。
+
+QMD refresh/embed/cleanup继续deferred：本轮boundary核对collection路径及pattern，不改项目外缓存；使用rg及canonical/source直接读取，不把collection通过当745页已全量刷新。历史快照保留原日期。
 
 ## Current Snapshot: 2026-10-25 Day22 evidence audit
 

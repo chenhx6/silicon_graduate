@@ -3,7 +3,7 @@ type: source
 title: "Grodner et al. 2006 - 128Cs partner-band lifetimes and transition strengths"
 aliases: [Grodner 2006 128Cs chiral doublet]
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: experiment
@@ -126,3 +126,19 @@ Absolute strengths depend on lifetime, feeding, and pure-M1 assumptions. Figure-
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | GR06-D21-1 | 依据推断阶梯审计，Grodner 2006 关于 128Cs 最佳手征对称性破缺的排他性确证被严格限制：(1) 有限能隙事实：实测双重带能量差在全自旋区间维持在 Delta E = 105–224 keV，从未发生能量简并，排他性证实其处于量子隧穿的手征振动状态而非静态手征破缺；(2) 侧馈外推系统误差：未观测侧馈参数由 131La 借用，引入约 +/-15% 的系统误差；(3) 纯 M1 假定局限：Delta I = 1 跃迁假定 delta=0 未经线偏振检验；(4) 确立“有限能隙不可断言静态手征破缺”的核心证据门准则。 | source-result-and-boundary | derived-and-boundary | pp.1-4, Figs.2, 4; chiral-selection-rules-cs-audit-021.json | true |
+
+
+## Day24独立伴随链：高spin DSAM与bandhead g逐态分开
+
+本轮原4页主线文本回读，fresh视觉PDF2–4的Fig1–6及方法，raw SHA654527dc34f2ff9e455d3dc16f88e83f7e846ec457c97c453e652e22c51f01c9一致。不是原DSAM/side-feeding重拟合；原Day18纠正及claims/review状态保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GR06-D24-001 | Fig2中128Cs yrast的(18)+态有寿命.82(+.20/−.14)ps、930keV向(16)+支；Fig3正反角line shape示例也为该930线。该ps高spin寿命不等于GR18的9+、56ns异能态半衰期；本图没有给出9+ isomer的新DSAM寿命。对不同状态的τ/g作共同几何推断，须给spin/branch/模型随spin映射，不能只按核名合并。 | state-clock-and-transition-identity | direct-original-and-cross-source-boundary | printed172501-2 Fig2 128Csyrast(18)+; printed172501-3 Fig3caption | true |
+| GR06-D24-002 | 本文用Warsaw U200P、55MeV10B、40mg/cm²Sn和10HPGe OSIRIS-II测128Cs；该实验段总述约1e8符合，未凭此分配各子run事件数；GR18 Orsay同反应/55MeV却用22mg/cm²Sn、pulsedbeam/磁场/LEPS，Stony另为47MeV。三者在所述范围是不同采集，不能因同反应或作者重叠并成同run；spin/assignment/模型参考仍可共享，不把所有派生B/γ行当独立几何证据。 | acquisition-independence-with-shared-physics-inputs | direct-original-and-cross-source-comparison | printed172501-1 experimentparagraph; GR18printed022502-2/3 experimentparagraphs | true |
+
+与[[grodner-2018-128cs-chiral-g-factor]] GR18-D24-001/002组成逐态companion设计，固化于[[135nd-chiral-partner-resolved-evidence-map]]的128Cs对照。本文τ/B/feeding链和GR18 g/模型几何各自保留，未把g搬入135Nd或132La，也未恢复“全带手征”排他认证。
+
+### Day24 checkpoint004 Agent self-audit triage
+
+P0: none identified（新增范围）。P1：选定(18)+/.82ps/930线在原Fig2/3核清；beam/target/detector独立性按直接方法段核，commonphysics与共同Cov仍保留。g跨态迁移必须模型化，不把ps/ns钟裸比或变成新寿命/静态阈值。新needs_review:true，无human-review事件。

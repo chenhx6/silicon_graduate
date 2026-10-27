@@ -3,7 +3,7 @@ type: source
 title: "Petrache et al. 2018 - Evidence of chiral bands in even-even nuclei"
 aliases: [Petrache 2018 136Nd, even-even chirality in 136Nd]
 created: 2026-08-11
-updated: 2026-09-20
+updated: 2026-10-26
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -21,9 +21,9 @@ citation_key: petrache_2018_Evidencechiral
 raw_file: "raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
 raw_sha256: D2615FC0D95428B06C056EB8946AFA2F62940CE58D79C1FC1CC3F50E19C73EF3
 additional_raw_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
-additional_raw_sha256: "1a67acb9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697"
-supplementary_raw_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
-supplementary_raw_sha256: "1a67acb9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697"
+additional_raw_sha256: "1a67cab9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697"
+previously_misidentified_supplementary_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
+previously_misidentified_supplementary_sha256: "1a67cab9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697"
 published_version_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/实验/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
 published_version_sha256: "5e6f1c01501598b5cf765d838d86a2b37a4fcf252039ba9058e631ccc7517f81"
 nuclei: [136nd]
@@ -37,6 +37,8 @@ tags: [experiment-ingest, project-ingest, a130, even-even, nuclear-chirality, mu
 
 # Evidence of Chiral Bands in Even-Even Nuclei
 
+> Day24内Day25预习的原件身份更正：旧“supplementary audit”把另一份cover+六页正文reprint当作SI，所谓Bands1–3的δ/绝对B表无本文件支持，已撤回；附本不是新实验/补充数据。PE18-D19-2中D5/C的旧简化组态也已纠正为原TableI六准粒子组态，D5真实partner-ratio支持保持，全部reviewflags不变。
+
 ## Bibliographic Record
 
 Physical Review C 97, 041304(R) (2018), DOI `10.1103/PhysRevC.97.041304`. The protected BibTeX key is `petrache_2018_Evidencechiral`.
@@ -48,7 +50,7 @@ Physical Review C 97, 041304(R) (2018), DOI `10.1103/PhysRevC.97.041304`. The pr
 - Not covered: the promised full level scheme/angular-correlation paper, raw matrices, numerical transition table, the earlier disputed `136Nd` lifetime paper, or any later MQ-PRM calculation in full.
 - Coverage caveats: many in-band dipoles are unobserved; four weak partner bands lack measured `B(M1)/B(E2)`; 3D TAC-CDFT is shown only for D3; details of the summary's MQ-PRM statement are not presented in the body.
 - 2026 full-source reuse audit: the HS-012 electronic reprint is a distinct byte version of the same DOI/article. Its title page, abstract, six journal pages, figures, Table I and conclusions were reread; no material claim change was found relative to this source page. The new copy is linked as an additional raw artifact, not a new experiment or source.
-- 2026 supplementary audit: the HS-012 PDF includes the electronic reprint and the article's detailed Table I/figures; the tabulated `Eγ`, intensities, `R_ADO`, polarization, `δ`, `B(M1)` and `B(E2)` rows for Bands 1-3 and interband decays were read. Upper limits for the missing high-energy band-2→band-1 E2 links remain explicit, and the material is attached evidence for this parent source, not an independent experiment.
+- 2026-10-26 correction of the old supplementary audit: the HS-012 file is a seven-page cover-plus-article reprint of this DOI. It contains the configuration Table I and article figures, not the claimed Bands1–3 transition/δ/absolute-B supplementary tables. Those reading/upper-limit claims are withdrawn for this artifact; an actual SI has not been established by the local copies.
 - HS-053 published PRC PDF audit (2026-09-20): the six-page article was reread end-to-end; its five-pair `136Nd` scheme, DCO/`R_ac`/polarization limits, D5 partner-ratio evidence and TAC/CDFT caveats agree with this page. No material claim change; the published PDF is a same-experiment version, not an independent source.
 
 ## Extracted Pages
@@ -173,6 +175,21 @@ P0: none identified.
 | PE18-D18-2 | TableI A为正宇称、beta=.21/gamma21°，pi(h11/2)^1(d5/2g7/2)^−1 ⊗ nu(h11/2)^−1(s1/2d3/2)^−1；B为正宇称、.22/19°，proton h11/2为3，其余上述空穴相同；作者把D1/D1-C与D2/D2-C分别指认A/B。它们不是MU08两条负宇称带的组态。 | model-input-and-assignment | direct | PDF5 TableI与左栏；PDF3 Fig1 | true |
 | PE18-D18-3 | Fig1低spin级联支持MU08 Band1→D4、Band2→D3；作者分别把D4/D4-C与D3/D3-C指认D与D*。D/D*为pi(h11/2)^2 ⊗ nu(h11/2)^−1(s1/2d3/2)^−1，标Omega≈+3/2和−3/2，beta/gamma为.22/19°与.21/22°；这些是模型指认，D3高spin新拓扑与未列Ex使全域映射仍需full scheme逐态核对。 | task-identity-and-model-boundary | direct-and-conditional | PDF3 Fig1；PDF5 TableI/正文；MU08-D18-6 | true |
 
+## Day24内Day25预习：实际reprint身份与D5组态更正
+
+root重新逐文件计算hash/页数：canonical d2615fc…3ef3为7页cover+六页正文；additional实际SHA为`1a67cab9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697`（旧frontmatter的acb9为转录错位），同为7页cover+正文；published_version `5e6f1c…7f81`为6页期刊正文。additional与旧supplementary字段指向同一个实际文件，现改成previously_misidentified字段保历史、不再认证SI。raw文件未改。
+
+worker读主线/所有图表，root实际读PDF5 TableI/正文及其fresh visual，独立核三文件身份；本节新claim全部needs_review:true，Day25只无学分preview。正式科学交付仍绑定该原件，不以旧outputs的passed恢复不存在的表。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE18-D25P-001 | 旧称supplementary的1a67cab9…文件实际cover+六页同DOI正文reprint，不含所称Bands1–3逐线δ/绝对B补充表。旧supplementary阅读/upper-limit认证撤回；未建立actualSI，不作全网无SI判断，D5真实比值支持不变。 | actual-artifact-identity-and-correction | directly-inspected-local-originals | additional reprint PDF1cover/PDF2–7article; TableI printed041304-4 | true |
+| PE18-D25P-002 | TableI的C为π(h11/2)^2(d5/2g7/2)^−2 ⊗ ν(h11/2)^−1(f7/2h9/2)^1、正、β.26/γ23°、Ex3.704MeV；作者将D5/D5-C指认C。这是六qp候选model配置，旧PE18-D19-2的πh11²⊗νh11^−2不符原表；不改实验线或把配置测量化。 | direct-table-and-author-assignment-correction | direct-original | canonicalPDF5 printed041304-4 TableI/Crow/leftcolumn | true |
+| PE18-D25P-003 | 本文D5两伙伴ratio最完整，显式3D apLanarity却只示D3/D*；不能把两pair字段拼成同一闭合向量。四弱partner缺自己的B比，不等D1–D4主带全无比；本文没有新τ/绝对B/g/Q表。 | pair-resolved-coverage-and-output-scope | direct-original | canonicalPDF3–6 Figs1/3/6/Conclusion | true |
+| PE18-D25P-004 | D2/D3/D4 backbend的8/6/6qp crossing与configurationmixing是作者待扩展解释，当前TAC未计算；shape/组态极小为模型层。多个相关模型共享本实验/输入，不计独立数据；绝对companion须逐pair/段绑定。 | alternative-and-source-independence-boundary | direct-original-plus-comparison-design | canonicalPDF5 printed041304-4; PDF6 Conclusion | true |
+
+Day25无学分三核对照见[[chirality-shape-coexistence-companion-matrix]]；D5比值支持和D3几何支持各自保留，不因旧SI/组态更正一概否决。MU08负Band1→D4、Band2→D3为既有对照，本单元未重新读取MU08、不迁到正D1/D2或新D4-C/D3-C。原Harris参考与模型Ex零点也不搬成实验带头。
+
 [实际审计结果](../../outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01/mu08-pe18-identity-correction-result-046.json)核真实原表，不从B输出反推虚构input。2018计算对crossing/configuration mixing的局限保留，beta平方不是已认证的实际B(E2)比。2008两带间的mixing与2018每条主带各自的候选伙伴必须分对象。Related primary：[[mukhopadhyay-2008-136nd-transition-rates]]。
 
 ## Day19量化审计：五对候选MchiD谱系与单对实测证据层级
@@ -184,7 +201,7 @@ P0: none identified.
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| PE18-D19-2 | 对五对候选手征双重带（D1-D5）的实验观测基底进行多维层级审计，证实仅有正宇称 D5/D5-chiral（$\pi h_{11/2}^2 \otimes \nu h_{11/2}^{-2}$ 组态 C）在双带内均测得了几乎重合的 $B(M1)/B(E2)$ 实验比值；其余四对（D1-D4）的弱伙伴带均缺乏带内偶极线与分支比测量。三维推转 TAC-CDFT 仅在 D3（组态 $D^*$）上在临界频率 $\hbar\omega \approx 0.5\text{ MeV}$ 以上展示了明确的非共面旋转解（$\phi > 0$），将手征性推广至全部五对属于模型空间排除假设而非逐对微观计算验证。 | task-mchid-hierarchy-audit | derived-and-boundary | PDF pp.4-6 Figs.3-6; Table I; nd136-chiral-wobbling-crossing-result-049.json | true |
+| PE18-D19-2 | 对五对候选手征双重带（D1-D5）的实验观测基底进行多维层级审计，证实仅有正宇称 D5/D5-chiral（组态C为原TableI的π(h11/2)^2(d5/2g7/2)^−2 ⊗ ν(h11/2)^−1(f7/2h9/2)^1；旧πh11²⊗νh11^−2简写已纠正）在双带内均测得了几乎重合的 $B(M1)/B(E2)$ 实验比值；其余四对（D1-D4）的弱伙伴带均缺乏带内偶极线与分支比测量。三维推转 TAC-CDFT 仅在 D3（组态 $D^*$）上在临界频率 $\hbar\omega \approx 0.5\text{ MeV}$ 以上展示了明确的非共面旋转解（$\phi > 0$），将手征性推广至全部五对属于模型空间排除假设而非逐对微观计算验证。 | task-mchid-hierarchy-audit | derived-and-boundary | PDF pp.4-6 Figs.3-6; Table I; nd136-chiral-wobbling-crossing-result-049.json | true |
 
 ## Day20量化审计：手征与摆动三维角动量几何判据与共存边界
 

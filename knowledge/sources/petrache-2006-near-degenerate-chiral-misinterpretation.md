@@ -3,7 +3,7 @@ type: source
 title: "Petrache et al. 2006 - Risk of misinterpretation of nearly degenerate pair bands as chiral partners"
 aliases: [Petrache 2006 chiral-band caution]
 created: 2026-09-21
-updated: 2026-10-23
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: critical-analysis-and-model
@@ -91,6 +91,18 @@ Petrache *et al.* establish a reusable critical test: near-degeneracy is necessa
 ## Extracted Pages
 
 - Project/concept: [[nuclear-chirality-and-multiple-chiral-doublet-bands]], [[signature-inversion]]。
+
+## Day24内Day25无学分预习：134Pr比较行
+
+root本次重新读VoR四页全文文本，fresh visual PDF2–4覆盖Figs1–4/Eqs1–5/TableI，raw SHA `ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f`相符。与既有PE06-D18-1/PE06-D21-R45-1–4相符，不另造新的2.0(4)测量或回归；可复用增量是[[chirality-shape-coexistence-companion-matrix]]中的原件支撑比较/companion设计。Tonev2006寿命正文仍未取得，本文的定性引用不代该body。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE06-D25P-001 | 本文是既有134Pr资料的critical analysis；near-gap/不同alignment和crossing支持检验简单ideal-pair。分支数据Ref11与寿命Ref9不同，Q比1.6–2.4依忽略off-diagonalE2/短段固定V的解混合，不是独立新τ/直接形状测量/已知Gaussian CI。 | direct-input-model-and-comparison-scope | direct-original | printed112502-1 scope; 112502-2 mixingassumptions; 112502-3 Eqs3–5/TableI; 112502-4 Refs9/11 | true |
+| PE06-D25P-002 | UC与TRS势面/shape解释是条件模型支持，不证明实验多个刚性形状或唯一分解；源结论仍问手征几何残余存在程度。三核companion对照可限制近简并充分性，不把此核结论推成所有手征动力学否定。 | direct-author-conclusion-and-labelled-synthesis | direct-original-plus-design-boundary | printed112502-3 Fig3/UCcomparison; 112502-4 conclusion | true |
+| PE06-D25P-003 | 在源两带空间引入额外real symmetric forward-E2 q12时，M=Rf^T Q Ri的振幅干涉会改变Eq4/5捷径；对固定Q的Frobenius/det²/SVD基变换不变量仍在，但仅两个parent比没有绝对列norm/branch-loop sign，不能恢复它们。q12=q21本身是额外ansatz，非Hermiticity自动结论；源α仅原提取的前向基线，未重fit或证明替代获胜。 | declared-two-band-operator-extension | source-premise-plus-task-algebra | printed112502-2 Eqs1–2/assumptions; 112502-3 Eqs3–5/TableI; task two-band-em-022 | true |
+
+有界推导和script结果进入[[chirality-shape-coexistence-companion-matrix]]“非对角E2扩展”，保17→15的原带continuity与y/ny端点倒数、18→16不倒数。该组件说明额外transition-kernel自由度如何改变推理条件，不把旧Q允许范围重命名新CI或实际equal-shape fit，不改变本源作者结论的历史身份。
 
 ## Day18参照核验：2.0(4)的实际提取链
 

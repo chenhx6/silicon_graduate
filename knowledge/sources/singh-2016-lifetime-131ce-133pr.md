@@ -3,7 +3,7 @@ type: source
 title: "Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr"
 aliases: [Singh 2016 131Ce lifetime, Singh 2016 133Pr lifetime]
 created: 2026-07-28
-updated: 2026-10-23
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -265,3 +265,19 @@ checkpoint032：SI16-D20-F10的009脚本认证尚待逐式重审；原表/原文
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | SI16-D20-R146-1 | 原件为Pramana87:7，DOI10.1007/s12043-016-1218-6。27/2− Present为τ=1.25(+.41/−.25)ps、Qt=2.26(+.37/−.23)eb；2.58(12)和1.37(13)不属于这行。2.57894附近是所选多点条件加权常数，不能写成该态独立测量。143/145的跨实验室Z、零漂移与8倍B认证撤回；几何/branch/响应/Cov未恢复。 | direct-original-correction | source-and-bounded-self-audit | PDF5 Table1; PDF9 Eqs4/5 | true |
+
+
+## Day24：131Ce实际节点、clock与目标核迁移
+
+独立worker本轮11页主线文本读、fresh visual PDF3–10覆盖12图/两表/关键式，另高分辨率Fig1；leader独立抽核PDF5 Table1和其单位/limits段。实际raw SHA95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30相符；不冒称leader单独重读所有图。原Day20更正、用户flags及未闭合producer/Cov保持。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SI16-D24-001 | Table1 present负宇称15/2、27/2、31/2、35/2的meanτ为9.6(+1.9/−3.8)、1.25(+.41/−.25)、.51(5)、.60(+.11/−.10)ps，分别走510/827/892/922keV的ΔI2边；19/2、23/2、39/2为<7.31/>1.3/<.54ps。Ref32列27/2的1.23(23)复用Li而非present1.25，其Qt2.28(21)为本表Eq1的再转换。Fig5旧星/菱形不加实验票；不能把23/2正文约3ps上界与>1.3拼成完整联合置信区间。 | direct-state-clock-and-reuse-identity | direct-original-and-independent-worker-check | PDF3 Fig1; PDF5 Table1/caption and firstparagraph; PDF6 Fig5 | true |
+| SI16-D24-002 | Fig1的7/2+基态10.3min和9/2−异构态88ns标注为half-lives，不能塞作Table1 present meanτ/sidefeeding；本工作低spin plunger拟合又用高spin DSAM矩作约束，两个方法输出非全独立。本文只给该νh11/2 yrast参考链，PDF9称近15ℏ另一变yrast带因统计不足未测寿命，因此不提供完整双partner absoluteB矩阵或本核全部band的τ。 | clock-analysis-dependency-and-network-coverage | direct-original-and-scope-boundary | PDF3 Fig1/analysis; PDF5 errorparagraph; PDF9 discussion | true |
+
+逐态方法/feeding/旧列机器台账在本run workers/singh-state-005，root已抽核；可复用长期合同见[[133ce-thesis-analysis-blueprint]]及[[li-2004-lifetimes-131ce]] LI04-D24-001/002。Ex由整数γ加和的版本只作身份辅助，不把它当精确采用值或跨核共零点；不搬本核10%误差处方、sidefeeding、Qt/K/TRS到133Ce。
+
+### Day24 checkpoint005 Agent self-audit triage
+
+P0: none identified（新增范围）。P1：worker原读/leader抽核支持Table1行身份、限值方向、Ref32依赖和clock区分；jointCov/各limit likelihood及actualproducer不补造。旧均场/Qt/趋势认证未由本次提取恢复，人审状态不变。

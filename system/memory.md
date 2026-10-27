@@ -1,7 +1,7 @@
 ---
 type: system-memory
 graph-excluded: true
-updated: 2026-09-10
+updated: 2026-10-27
 ---
 
 # 长期记忆
@@ -9,6 +9,8 @@ updated: 2026-09-10
 这里只保存跨项目、跨会话仍应成立的规则。临时任务状态写入 `system/handoff.md`。
 
 ## 已确认规则
+
+- 2026-10-27 用户重申每日学习长期授权：“DAY每日学习不许问。默认能学尽学，应学就学，自行获取应该获取的文章、文件等等一切资源。”在 `daily-learning` 中，正文、Supporting Information（SI）、必要附件/数据/代码及其它应学资源由 Codex 自主选择、检索、获取和核验；默认正文及可用SI，不再询问要不要下载或要不要SI，也不因外部skill的SI确认提示中断学习。该要求跨日、跨session沿用，不只是当前批次偏好。输入不可得时记录已查路线和缺口，继续可解析问题，不把普通学习选择变成用户待办。
 
 - 2026-10-26 用户补齐 Rupnik1994、Bourgeois1978、Choudhury2010 和 Larsson1978 四份 PDF，原路径/页数/SHA/阅读边界见 `outputs/literature-acquisition/20261026-user-pdfs-elsevier-access.json`，相关 source 页已追加可用性更新；不要沿旧失败记录继续索取这些文件。Elsevier 私有配置与 Paper Search 仓库内下载目录见 `system/workflows/literature-access.md`；已实测目标元数据/PDF/Scopus 接口成功，不能外推全库全文权限。
 - 2026-10-24 用户授权文献检索接入 Web of Science；凭据仅保存在 `raw/personal/.env` 的 `WEB_OF_SCIENCE_API_KEY`。本地 Paper Search MCP 经 `system/scripts/run_paper_search_mcp.py` 映射为 `WOS_API_KEY`，新进程加载。检索/权限/全文获取边界见 `system/workflows/literature-access.md`；配置存在不代表已验证 API 或开通 Expanded。

@@ -1,7 +1,7 @@
 ---
 type: system-workflow
 graph-excluded: true
-updated: 2026-10-26
+updated: 2026-10-27
 ---
 
 # 文献检索与访问配置
@@ -49,5 +49,7 @@ args = ["<wiki>/system/scripts/run_paper_search_mcp.py", "<paper-search-install>
 调用时使用 `savePath: "/workspace/wiki/raw/papers/gpt/_incoming/downloads/<run-id>"`，或相对于该 downloads 根的 run 子目录。`tmp/day23-originals/...` 和仓库外路径仍不属于允许目录，需改用上述入口；路径及符号链接越界检查保留。每次使用独立 run 子目录，核验后再归档，避免覆盖已有原件。当前会话的旧 MCP 不热加载，下一会话生效；本轮未发起实际下载。已用插件实际路径校验函数核对：绝对/相对隔离区子路径允许，旧 tmp 路径、仓库外路径和目录穿越拒绝，详见 [路径回执](../../outputs/literature-acquisition/20261026-download-path-check.json)。
 
 ## 全文访问与归档
+
+`daily-learning` 的用户长期授权已包含应读正文、SI和必要附件/数据/代码等资源；默认自主获取并核验，不再询问是否下载或是否需要SI。下载器要求SI flag时直接用 `--si`；这是已重申的每日学习规则，见 [continuous learning](continuous-learning.md#每日学习的资源获取默认) 与 `system/memory.md`，覆盖外部skill的通用SI询问步骤。
 
 WoS 用于发现文献、书目核对和授权范围内的引文信息，不提供出版商全文访问授权。取得 DOI/出版商链接后按既有 Nature-first 流程补查 Scholar，使用 `nature-downloader` 获取公开或已有授权的全文。候选 PDF 在 `raw/papers/gpt/_incoming/<run-id>/` 核对身份与哈希后归档；去凭据获取记录保存到 `outputs/literature-acquisition/`。科学结论仍回到原文和 `knowledge/sources/`。

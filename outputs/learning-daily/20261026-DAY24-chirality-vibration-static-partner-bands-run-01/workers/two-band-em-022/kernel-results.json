@@ -1,0 +1,388 @@
+{
+  "scope": "Day25 uncredited method preview inside Day24; source forward baseline and conditional extra q12 only; no fit/CI/geometry claim",
+  "units": "q1,q2,q12,M in same arbitrary positive Qref unit; ratios dimensionless; no physical absolute Q scale chosen",
+  "source": "PE06 PRL96,112502 Eqs1\u20135/TableI",
+  "transitions": {
+    "17to15": {
+      "ai": 0.118,
+      "af": 0.894,
+      "Table_continuity_swaps_y_ny_endpoints": true,
+      "cases": {
+        "source_forward_baseline": {
+          "Q_in_Qref_units": [
+            [
+              2.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "M_in_Qref_units": [
+            [
+              0.6559205820698495,
+              1.722636406795453
+            ],
+            [
+              -0.7820103516048554,
+              0.995365164139699
+            ]
+          ],
+          "Eq4_ratio_ny": 2.995176148170264,
+          "Eq5_ratio_y": 1.4214202107499367,
+          "source_continuity_out_in_ny_y": [
+            0.33387018009304537,
+            0.7035217259732104
+          ],
+          "Frobenius2": 4.999999999999999,
+          "det": 1.9999999999999993,
+          "singular_values": [
+            1.9999999999999998,
+            1.0
+          ]
+        },
+        "conditional_positive_cross_kernel": {
+          "Q_in_Qref_units": [
+            [
+              2.0,
+              0.25
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          "M_in_Qref_units": [
+            [
+              0.8910770958674988,
+              1.8074975523129153
+            ],
+            [
+              -0.6971492060873931,
+              0.7602086503420495
+            ]
+          ],
+          "Eq4_ratio_ny": 5.65314104949993,
+          "Eq5_ratio_y": 0.6120979327330904,
+          "source_continuity_out_in_ny_y": [
+            0.17689280901428397,
+            1.6337254980340816
+          ],
+          "Frobenius2": 5.124999999999999,
+          "det": 1.9374999999999993,
+          "singular_values": [
+            2.059016994374947,
+            0.9409830056250524
+          ]
+        },
+        "conditional_negative_cross_kernel": {
+          "Q_in_Qref_units": [
+            [
+              2.0,
+              -0.25
+            ],
+            [
+              -0.25,
+              1.0
+            ]
+          ],
+          "M_in_Qref_units": [
+            [
+              0.4207640682722001,
+              1.6377752612779906
+            ],
+            [
+              -0.8668714971223179,
+              1.2305216779373482
+            ]
+          ],
+          "Eq4_ratio_ny": 1.7714548002486898,
+          "Eq5_ratio_y": 4.244554906882257,
+          "source_continuity_out_in_ny_y": [
+            0.5645077705960168,
+            0.23559596281310155
+          ],
+          "Frobenius2": 5.124999999999999,
+          "det": 1.9374999999999993,
+          "singular_values": [
+            2.0590169943749475,
+            0.9409830056250525
+          ]
+        },
+        "equal_diagonal_not_equal_ratios": {
+          "Q_in_Qref_units": [
+            [
+              1.0,
+              0.3
+            ],
+            [
+              0.3,
+              1.0
+            ]
+          ],
+          "M_in_Qref_units": [
+            [
+              0.8326163986270286,
+              0.9367156274210575
+            ],
+            [
+              -0.733048878179148,
+              0.26824076551267023
+            ]
+          ],
+          "Eq4_ratio_ny": 12.194555420815464,
+          "Eq5_ratio_y": 0.7751325000537277,
+          "source_continuity_out_in_ny_y": [
+            0.08200380952741029,
+            1.2901020147273992
+          ],
+          "Frobenius2": 2.1799999999999993,
+          "det": 0.9099999999999997,
+          "singular_values": [
+            1.3,
+            0.6999999999999998
+          ]
+        }
+      }
+    },
+    "18to16": {
+      "ai": 0.099,
+      "af": 0.427,
+      "Table_continuity_swaps_y_ny_endpoints": false,
+      "cases": {
+        "source_forward_baseline": {
+          "Q_in_Qref_units": [
+            [
+              2.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "M_in_Qref_units": [
+            [
+              0.9843554278951515,
+              0.7602837572731335
+            ],
+            [
+              -0.2458605124320557,
+              1.8418918557903032
+            ]
+          ],
+          "Eq4_ratio_ny": 0.1703817872048239,
+          "Eq5_ratio_y": 0.06238406697651009,
+          "source_continuity_out_in_ny_y": [
+            0.1703817872048239,
+            0.06238406697651009
+          ],
+          "Frobenius2": 5.0,
+          "det": 1.9999999999999998,
+          "singular_values": [
+            2.0,
+            1.0
+          ]
+        },
+        "conditional_positive_cross_kernel": {
+          "Q_in_Qref_units": [
+            [
+              2.0,
+              0.25
+            ],
+            [
+              0.25,
+              1.0
+            ]
+          ],
+          "M_in_Qref_units": [
+            [
+              1.1129612391054209,
+              0.9746678642469214
+            ],
+            [
+              -0.031476405458267825,
+              1.7132860445800338
+            ]
+          ],
+          "Eq4_ratio_ny": 0.3236335518408322,
+          "Eq5_ratio_y": 0.0007998530089871414,
+          "source_continuity_out_in_ny_y": [
+            0.3236335518408322,
+            0.0007998530089871414
+          ],
+          "Frobenius2": 5.125,
+          "det": 1.9374999999999998,
+          "singular_values": [
+            2.0590169943749475,
+            0.9409830056250524
+          ]
+        },
+        "conditional_negative_cross_kernel": {
+          "Q_in_Qref_units": [
+            [
+              2.0,
+              -0.25
+            ],
+            [
+              -0.25,
+              1.0
+            ]
+          ],
+          "M_in_Qref_units": [
+            [
+              0.8557496166848821,
+              0.5458996502993457
+            ],
+            [
+              -0.4602446194058436,
+              1.9704976670005725
+            ]
+          ],
+          "Eq4_ratio_ny": 0.07674918672738866,
+          "Eq5_ratio_y": 0.28925709043018377,
+          "source_continuity_out_in_ny_y": [
+            0.07674918672738866,
+            0.28925709043018377
+          ],
+          "Frobenius2": 5.125,
+          "det": 1.9374999999999998,
+          "singular_values": [
+            2.059016994374947,
+            0.9409830056250528
+          ]
+        },
+        "equal_diagonal_not_equal_ratios": {
+          "Q_in_Qref_units": [
+            [
+              1.0,
+              0.3
+            ],
+            [
+              0.3,
+              1.0
+            ]
+          ],
+          "M_in_Qref_units": [
+            [
+              1.096409401347475,
+              0.5926423516036085
+            ],
+            [
+              -0.0781204948665176,
+              0.7877554544428282
+            ]
+          ],
+          "Eq4_ratio_ny": 0.5659818834462436,
+          "Eq5_ratio_y": 0.005076734713977502,
+          "source_continuity_out_in_ny_y": [
+            0.5659818834462436,
+            0.005076734713977502
+          ],
+          "Frobenius2": 2.18,
+          "det": 0.91,
+          "singular_values": [
+            1.3000000000000003,
+            0.6999999999999998
+          ]
+        }
+      }
+    }
+  },
+  "diagonal_limits": [
+    {
+      "ai": 0.118,
+      "af": 0.894,
+      "diagonal_equal_Q_shortcut": true,
+      "diagonal_ai_zero_shortcut": true,
+      "cross_kernel_ai_zero_shortcut_fails": true
+    },
+    {
+      "ai": 0.099,
+      "af": 0.427,
+      "diagonal_equal_Q_shortcut": true,
+      "diagonal_ai_zero_shortcut": true,
+      "cross_kernel_ai_zero_shortcut_fails": true
+    }
+  ],
+  "Table17_central_ratio_only_examples": [
+    {
+      "label": "ratio-only illustration; NOT symmetric-Q fit",
+      "A": 1.0,
+      "B": 1.0,
+      "sy": 1,
+      "sn": 1,
+      "c": 0.9168634181859494,
+      "M": [
+        [
+          0.6123724356957945,
+          0.8770580193070291
+        ],
+        [
+          0.7905694150420948,
+          0.4803844614152613
+        ]
+      ],
+      "Frobenius2": 1.9999999999999993,
+      "det2": 0.15936147239237636,
+      "sigma2": [
+        1.9168634181859494,
+        0.08313658181405059
+      ]
+    },
+    {
+      "label": "ratio-only illustration; NOT symmetric-Q fit",
+      "A": 1.0,
+      "B": 1.0,
+      "sy": 1,
+      "sn": -1,
+      "c": -0.1573088928731996,
+      "M": [
+        [
+          0.6123724356957945,
+          -0.8770580193070291
+        ],
+        [
+          0.7905694150420948,
+          0.4803844614152613
+        ]
+      ],
+      "Frobenius2": 1.9999999999999993,
+      "det2": 0.9752539122230078,
+      "sigma2": [
+        1.1573088928731996,
+        0.8426911071268004
+      ]
+    },
+    {
+      "label": "ratio-only illustration; NOT symmetric-Q fit",
+      "A": 1.0,
+      "B": 4.0,
+      "sy": 1,
+      "sn": 1,
+      "c": 0.9168634181859494,
+      "M": [
+        [
+          0.6123724356957945,
+          1.7541160386140582
+        ],
+        [
+          0.7905694150420948,
+          0.9607689228305226
+        ]
+      ],
+      "Frobenius2": 4.999999999999998,
+      "det2": 0.6374458895695054,
+      "sigma2": [
+        4.8690829682454115,
+        0.13091703175458802
+      ]
+    }
+  ],
+  "invariant_scope": "orthogonal basis changes at FIXED Q preserve norms/determinant/singular values; changing q12 changes their values",
+  "ratio_only_scope": "These examples use unrestricted real M to prove what two ratios alone omit; they are not asserted to satisfy the extra symmetric-Q ansatz with source alphas.",
+  "producer_executed": false,
+  "data_fit": false,
+  "confidence_interval": false
+}

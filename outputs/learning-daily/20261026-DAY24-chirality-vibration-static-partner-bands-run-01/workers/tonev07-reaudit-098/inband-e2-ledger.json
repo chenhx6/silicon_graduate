@@ -1,0 +1,125 @@
+{
+  "unit": "e2b2",
+  "source": "TableII printed044313-12/13/14; visually checked original columns",
+  "rows": [
+    {
+      "band": 1,
+      "initial_I": 11,
+      "final_I": 9,
+      "B_E2": 0.268,
+      "printed_parenthetical_error_as_absolute": 0.033,
+      "pdf_page": 12
+    },
+    {
+      "band": 1,
+      "initial_I": 12,
+      "final_I": 10,
+      "B_E2": 0.198,
+      "printed_parenthetical_error_as_absolute": 0.029,
+      "pdf_page": 12
+    },
+    {
+      "band": 1,
+      "initial_I": 13,
+      "final_I": 11,
+      "B_E2": 0.151,
+      "printed_parenthetical_error_as_absolute": 0.027,
+      "pdf_page": 12
+    },
+    {
+      "band": 1,
+      "initial_I": 14,
+      "final_I": 12,
+      "B_E2": 0.153,
+      "printed_parenthetical_error_as_absolute": 0.021,
+      "pdf_page": 12
+    },
+    {
+      "band": 1,
+      "initial_I": 15,
+      "final_I": 13,
+      "B_E2": 0.148,
+      "printed_parenthetical_error_as_absolute": 0.021,
+      "pdf_page": 12
+    },
+    {
+      "band": 1,
+      "initial_I": 16,
+      "final_I": 14,
+      "B_E2": 0.115,
+      "printed_parenthetical_error_as_absolute": 0.019,
+      "pdf_page": 12
+    },
+    {
+      "band": 1,
+      "initial_I": 17,
+      "final_I": 15,
+      "B_E2": 0.108,
+      "printed_parenthetical_error_as_absolute": 0.022,
+      "pdf_page": 12
+    },
+    {
+      "band": 1,
+      "initial_I": 18,
+      "final_I": 16,
+      "B_E2": 0.147,
+      "printed_parenthetical_error_as_absolute": 0.027,
+      "pdf_page": 12
+    },
+    {
+      "band": 2,
+      "initial_I": 14,
+      "final_I": 12,
+      "B_E2": 0.039,
+      "printed_parenthetical_error_as_absolute": 0.019,
+      "pdf_page": 13
+    },
+    {
+      "band": 2,
+      "initial_I": 15,
+      "final_I": 13,
+      "B_E2": 0.089,
+      "printed_parenthetical_error_as_absolute": 0.02,
+      "pdf_page": 13
+    },
+    {
+      "band": 2,
+      "initial_I": 16,
+      "final_I": 14,
+      "B_E2": 0.05,
+      "printed_parenthetical_error_as_absolute": 0.018,
+      "pdf_page": 14
+    },
+    {
+      "band": 2,
+      "initial_I": 17,
+      "final_I": 15,
+      "B_E2": 0.047,
+      "printed_parenthetical_error_as_absolute": 0.017,
+      "pdf_page": 14
+    }
+  ],
+  "same_spin_central_ratios_B1_over_B2": [
+    {
+      "I": 14,
+      "ratio": 3.923076923076923,
+      "kind": "audit arithmetic, no CI or covariance claimed"
+    },
+    {
+      "I": 15,
+      "ratio": 1.6629213483146068,
+      "kind": "audit arithmetic, no CI or covariance claimed"
+    },
+    {
+      "I": 16,
+      "ratio": 2.3,
+      "kind": "audit arithmetic, no CI or covariance claimed"
+    },
+    {
+      "I": 17,
+      "ratio": 2.2978723404255317,
+      "kind": "audit arithmetic, no CI or covariance claimed"
+    }
+  ],
+  "excluded": "13_2->11_2 has no measured B(E2); 13_2->11_1=0.0030(5) is interband, never substitute for missing inband; blanks not zeros"
+}

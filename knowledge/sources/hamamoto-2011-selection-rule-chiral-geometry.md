@@ -3,7 +3,7 @@ type: source
 title: "Hamamoto 2011 - Selection rule for electromagnetic transitions in chiral geometry"
 aliases: [Hamamoto 2011 chiral transition selection rule]
 created: 2026-10-10
-updated: 2026-10-10
+updated: 2026-10-27
 status: ai-draft
 review_status: unreviewed
 source_type: theory
@@ -36,7 +36,7 @@ raw_sha256: "dafe5f8f25081661413c5c8e2dc0b1d44a48c12ec4f5169bd1b06b0facd1c205"
 
 - Ikuko Hamamoto, “Selection Rule for Electromagnetic Transitions in Nuclear Chiral Geometry,” *International Journal of Modern Physics E* **20**(2), 373–379 (2011), DOI 10.1142/S0218301311017740.
 - Crossref verifies the title, author, journal, volume, issue, pages, and February 2011 publication record. The arXiv record identifies version 1 as 1102.0163, posted 2011-02-01.
-- Locators below use the arXiv manuscript pagination, distinct from the Crossref journal pages 373–379. The arXiv PDF was downloaded to the run-local temporary directory and SHA-256 checked as dafe5f8f25081661413c5c8e2dc0b1d44a48c12ec4f5169bd1b06b0facd1c205. The temporary copy is not a durable raw artifact; the public arXiv URL and hash are retained for reproducibility.
+- Locators below use the arXiv manuscript pagination, distinct from the Crossref journal pages 373–379. The arXiv PDF was downloaded to the run-local temporary directory and SHA-256 checked as dafe5f8f25081661413c5c8e2dc0b1d44a48c12ec4f5169bd1b06b0facd1c205. 早期临时下载记录保留；本轮核实frontmatter所列raw原件实际存在，12个physical页，哈希一致。正文1–7、TableI页8、captions页9、Figs1–3页10–12；不把7页正文误写为整个PDF页数。
 
 ## Scope and Reading Depth
 
@@ -67,8 +67,8 @@ When a chiral pair is formed, the left- and right-handed configurations combine 
 | HM11-11 | The numerical particle-rotor example has approximate partner-band degeneracy over 13 < I < 24. | model-result | model | Figure 2(b) | true |
 | HM11-12 | The calculated angular-momentum vectors favor coplanar low-spin and high-spin aligned limits, leaving moderate spin as the candidate chiral region. | model-result | model | Figure 3 | true |
 | HM11-13 | The author reports that measured electromagnetic properties of 128Cs and 126Cs are consistent with the proposed rules. | author-comparison | interpretation | arXiv PDF p. 7 | true |
-| HM11-14 | The author summarizes the 134Pr in-band B(E2) values as differing by at least a factor of two. | author-summary | interpretation | arXiv PDF p. 7 | true |
-| HM11-15 | The author reports that measured 134Pr M1 transitions violate the proposed rule. | author-summary | interpretation | arXiv PDF p. 7 | true |
+| HM11-14 | The author summarizes the 134Pr in-band B(E2) values as differing by at least a factor of two. | author-summary | interpretation | arXiv PDF p. 6 | true |
+| HM11-15 | The author reports that measured 134Pr M1 transitions violate the proposed rule. | author-summary | interpretation | arXiv PDF p. 6 | true |
 | HM11-16 | The author cautions that deviations from the special model assumptions can modify the selection rule. | applicability-limit | interpretation | arXiv PDF p. 7 | true |
 | HM11-17 | The 128Cs comparison cites Grodner et al. 2006, so the article adds no independent 128Cs transition-strength dataset. | source-lineage | direct | Reference [8] | true |
 | HM11-18 | The numerical illustration uses A=130, Z=55, beta=0.3, and a core moment-of-inertia parameter of 8.55 hbar-squared/MeV. | model-input | model | arXiv PDF p. 5 | true |
@@ -116,8 +116,32 @@ The rules depend on the selected gamma=90° and same-j particle-hole model. Koik
 > checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
 
 
-依据独立审计程序 `system/scripts/day19_chiral_selection_rule_a_audit.py` 的 79 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiral-selection-rule-a-result-038.json`，系统核准了 $\mathcal{A}$ 量子数（$\pi/2$ 转动 + 质子中子对易）的代数选择定则与实验判据边界：
+依据独立审计程序 `system/scripts/day19_chiral_selection_rule_a_audit.py` 的 79 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiral-selection-rule-a-result-038.json`，旧草稿曾声称核准了 $\mathcal{A}$ 量子数（$\pi/2$ 转动 + 质子中子交换）的代数选择定则与实验判据边界；其过强结论已由下列superseded行及Day24逐项更正：
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| HM11-D19-1 | 在 $\gamma = 90^\circ$（Lund 约定 $\gamma = -30^\circ$，中轴为量子化轴）三轴转子与同单-$j$ 壳层质子粒子—中子空穴模型中，体系哈密顿量在离散算符 $\hat{\mathcal{A}} = \exp(i \frac{\pi}{2} R_3) \hat{\mathcal{P}}_{pn}$ 下严格守恒，本征值 $\mathcal{A} = \pm 1$。集体核芯 $E2$ 算符因 $\gamma = 90^\circ$ 下 $\Delta R_3 = 0$ 矩阵元严格为零，仅允许 $|\Delta R_3| = 2$ 且 $\Delta C = 0$，代数证明同 $\mathcal{A}$ 态之间跃迁完全禁戒（$B(E2; \Delta \mathcal{A} = 0) \equiv 0$），$E2$ 跃迁充要条件为 $\Delta \mathcal{A} \neq 0$；对于单粒子 $M1$ 算符，有效回转磁比使算符在对易下呈高度反对称，同 $\mathcal{A}$ 跃迁受到几何压制达三个数量级（有效单粒子 $B(M1)$ 抑制比 $>1000$，自旋部分抑制 $>100\times$）。在手征双重带中，能级沿自旋呈周期 4 排布（$I, I+1$ 具有相同 $\mathcal{A}$，而在 $I+2, I+3$ 翻转），必然导出：(1) 带内 $\Delta I = 2$ 跨能级 $E2$ 严格允许；(2) 带内 $\Delta I = 1$ $M1$ 与带间 $\Delta I = 1$ $M1$ 在自旋序列上呈严格的反相奇偶交错（当带内强时带间弱，当带内弱时带间强）；(3) $^{128}\text{Cs}$ 实测带内 $B(E2)$ 对称性（比值 ~1.0）与交错反相吻合该定则，而 $^{134}\text{Pr}$ 实测带内 $B(E2)$ 差异超 2 倍并破坏该定则，确立了三轴偏角偏离 $\gamma = 90^\circ$（$^{134}\text{Pr}$ 实测 $\gamma \approx 16^\circ\text{--}20^\circ$）对手征对称性的破缺机制。同时严格确认该定则是哈密顿量代数对称性的必然结果，在共面低自旋区即使未建立三维非共面手征几何，只要满足该模型代数结构仍严格成立；因此符合该定则是手征几何的必要条件，而非充分几何证据。 | quantitative-audit-and-criterion | derived-and-source-boundary | arXiv:1102.0163v1 pp.3-7; Table 1, Fig.2; chiral-selection-rule-a-result-038.json | true |
+| HM11-D19-1 | superseded by HM11-D24-001–006：保留special-model A对称和同A collective E2禁戒；撤回旧“ΔA改变是非零E2充要条件”、固定g系数平方等于actual B(M1)比/普适1000压制、固定period4足证实测交错、134Pr实测γ16–20及唯一破缺机制、该规则为所有实际手征核一般必要条件的认证。旧行完整保存在本run hamamoto-oldclaim-withdrawal-062.json；原脚本79项通过只覆盖其指定算术/硬编码，不补实验或波函数。 | superseded-source-and-quantifier-audit | direct-original-recheck-and-withdrawal | PDF4 Eq5–7; PDF7 limitations; PDF9 Fig2caption | true |
+
+
+## Day24 checkpoint062：选择规则的逻辑、输入和奇A迁移
+
+本轮先作Wiki-primed recall，root连续读同SHA原件physical1–12全部科学主线/TableI/captions，视觉核3–7方法/结论及10–12全部三图。没有新测量、谱数字化、实际本征态/波函数复现；未运行会覆盖历史输出的Day19 producer。旧HM11-1至18 review/needs_review保持，新行只作source self-audit。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HM11-D24-001 | Eq5是B(E2)非零蕴涵ΔA非零：同A严格零，异A只是对称允许。角动量三角规则、其它量子数、相干抵消仍可令异A矩阵元零；不能说充要条件。该结论限同single-j p-particle/n-hole、γ90、core-only E2。 | source-logical-implication-and-domain | direct-original-plus-logical-inference | physicalPDF4 Eq5 | true |
+| HM11-D24-002 | A=±1在是否有chiral geometry时都可定义。Fig2带内ΔI2 enhanced/allowed是组织band的前提，由此A(I+2)=−A(I)；period4图例不是任意band排序/混合下的普适实验定理。 | symmetry-and-band-assignment-boundary | direct-original | physicalPDF4 A paragraph; physicalPDF5 Eq9; physicalPDF11 Fig2 | true |
+| HM11-D24-003 | 正文Eq6示例gR=.5给p/n系数±.5与2.848/−2.792；实际Fig2caption另用gR=55/130=.423、gs=.6free。Eq7是近似强弱关系，未给实核所有态B比下界；两组gR不能混当同一个数值job。 | operator-input-and-strength-boundary | direct-original | physicalPDF4 Eqs6–7; physicalPDF9 Fig2caption | true |
+| HM11-D24-004 | 将原印刷rounding的Eq6系数投影到h11/2 j=l+1/2并只改gR，exchange antisym/sym系数平方比由78000.51(.5)变80.03(55/130)；这是任务算符系数算术，不是作者actual Fig2或两实际B比，更不排除态矩阵元干涉/零值。 | task-source-coefficient-crosscheck | conditional-operator-algebra-not-rate | physicalPDF4 Eq6; physicalPDF9 Fig2caption | true |
+| HM11-D24-005 | 134Pr B(E2)差异和M1规则不符是作者对Refs5/6的实验总结；本文未给实测γ16–20或唯一几何破缺机制。128Cs/126Cs支持来自Refs8/9，其中126Cs当时workshop/to-be-published；不是本篇新增独立dataset。 | experimental-attribution-and-unsupported-claim-withdrawal | direct-original | physicalPDF6–7 §III; physicalPDF7 Refs5–9 | true |
+| HM11-D24-006 | 作者明确说实核偏离模型会修改规则，并将odd-A Nd中以aligned S-band angular momentum替代jp的选择规则列为should be worked out。不能把本odd-odd A标记直接移给MU07 odd-A三qp或133Ce单qp，也不据不满足此特殊规则普适否决手征。 | explicit-oddA-readiness-boundary | direct-original | physicalPDF7 final paragraph | true |
+
+### 同一个M1算符也需核数值job
+
+固定single-j h11/2且忽略跨j耦合时，P l P=(10/11)j、P s P=(1/11)j。令c_p,c_n为含−gR后的有效系数，算符相应部分为a(jp+jn)+b(jp−jn)，a=(cp+cn)/2、b=(cp−cn)/2。原页4rounded输入给gR=.5时a=.00254545、b=.71090909；仅按caption换gR55/130给a=.07946853而b不变。b²/a²分别78000.51和80.03。
+
+它们衡量系数接近exchange-odd的程度，不是两跃迁B的比率。真实allowed/weak振幅另含不同态RME、coherent组分、能级binding与实际有效g，任何一项可有抵消。故原“>1000”旧算术即使成立也不认证全态或实核强弱下界；这里也不把80.03变成新的硬门。source的Eq7近似趋势与原Fig2数值支持仍保留。
+
+### 主线与反证的影响
+
+特殊A symmetry、实验近简并、L/R高I且无隧穿的理想等强、实际几何是四项不同命题。本文自身的共面/高I alignment图保有限spin窗口；p7为oddA规则留白，不能以别核一条选择模式给135Nd补完整EM核或排除所有替代解释。本次decision为revises旧强认证、supports有条件模型诊断、limits未经验证的迁移；不改变MU07的实验正支持。

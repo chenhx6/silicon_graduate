@@ -3,7 +3,7 @@ type: source
 title: "Grodner et al. 2018 - g factor of the 128Cs chiral-band isomer"
 aliases: [Grodner 2018 128Cs g factor]
 created: 2026-09-21
-updated: 2026-10-09
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-PRM-CDFT
@@ -175,3 +175,19 @@ Ref14元数据已核为Starosta等“Chirality in odd–odd triaxial nuclei”, 
 | GR18-D22-R119-1 | 对三个通常独立lab自旋、ħ=1，定义A=jp·jn、B=jn·R、C=R·jp，Si=ji(ji+1)，Sym(ABC)是六种次序的平均。精确χ²=S1S2S3−S1B²−S2C²−S3A²+2Sym(ABC)−[S3A+S2C+S1B+{A,B}+{B,C}+{C,A}]/3。直接Cartesian矩阵对该式在当前三个chosen耦合控制误差≤1.9e−12；非将原Eq3改为此式或辨认其producer。 | conditional-exact-operator-identity | task-derivation-and-independent-matrix-check | 022502-4Eq3context;three-vector-orientation-controls-119.json | true |
 
 推导使用各自旋分量积ji,a ji,b={ji,a,ji,b}/2+i εabc ji,c/2，再收缩两个Levi-Civita张量。恢复有量纲角动量时最后方括号乘ħ²；这里全部j为无量纲。取期望后仍有二阶方差、对称三乘积及反对易关联项，不能把它们分别替换成各平均值乘积。小spin全空间算术probe亦相符，仅为同一算符推导的控制；初选SymPy不可用后改以NumPy显式epsilon求和，无新增依赖。八项当前限定控制通过，不改变GR18实测g/作者PRM解释和Ref14缺口。
+
+
+## Day24逐态companion核验：同isomer多γ与高spin寿命不是同一输入
+
+本轮原5页全文主线文本回读，fresh视觉PDF2/3/4的Fig1–4、TablesI/II及相关公式，raw SHA与页首一致；没有重做原time-fit、外场到localfield校准或PRM/CDFT producer。原GR18-D19-8/9、D22-R114/116/119及其定义边界全部保留。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| GR18-D24-001 | Fig1的9+指认按systematics采用，低于64keV处未见高转换支路导致spin链边界；TableI九条γ来自该56ns isomer的级联，下游态足够快时保留母态角分布，故其共同ωL归属于isomer，不等于九个level分别测得g。Stony为另一采集；当前只直接获得bandhead g，本文结论明确高positive-parity ps态需新测量技术。 | parent-observable-and-state-scope | direct-original | printed022502-2 Fig1/TableI and lastparagraph; printed022502-3 firstparagraphs; printed022502-5 finalscientificparagraph | true |
+| GR18-D24-002 | 条件尺度练习：56ns half-life转换mean为80.7909ns；与GR06 Fig2 yrast(18)+的.82ps寿命之比约98525.5。仅若假设该高spin态具有同参考absωL=.0625e9rad/s，Eq1的2ωLτ在isomer mean内约10.0989rad、在.82ps内约1.025e−4rad。此为已声明频率的clock算术，非(18)+实测g/time response或机时/精度预算；不填localfield桥或重拟原g。 | conditional-timescale-and-design-arithmetic | exact-definition-plus-declared-reference-frequency | printed022502-2 Eq1/TableI114keV; GR06printed172501-2 Fig2yrast(18)+ | true |
+
+[[grodner-2006-128cs-chiral-doublet-lifetimes]]记录另一高spin采集的branch/τ/side-feeding合同；[[135nd-chiral-partner-resolved-evidence-map]]给逐态/逐run对照。核g是有价值的独立伴随观测；把它转为near-planar几何仍依赖指定PRM/CDFT与算符定义，不用“实测g”替代几何推断，也不据此否定同核高spin chiral解释。
+
+### Day24 checkpoint004 Agent self-audit triage
+
+P0: none identified（新增范围）。P1：GR18-D24-001的共parent和采用spin/转换支路原件已核；GR18-D24-002仅说明2ω与两种寿命口径的条件尺度，误差/Cov/真实highspin g未取得，不做新CI/物理阈值。既有Eq3 signed/RMS/Gram及Ref14缺口不因本次回读关闭。全部新增needs_review:true，无human-review升级。

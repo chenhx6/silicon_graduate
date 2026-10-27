@@ -2,7 +2,7 @@
 type: system-workflow
 graph-excluded: true
 operation: continuous-learning
-updated: 2026-10-06
+updated: 2026-10-27
 ---
 
 # Continuous learning：90 天核结构专家型“硅基研究生”
@@ -22,6 +22,12 @@ updated: 2026-10-06
 - 每日任务遵守 [`system/path-contract.md`](../path-contract.md)：日报、周报、审计、回执、调度状态和任务计划书写入 `outputs/`（计划书用 `outputs/plans/`），可复用知识增量必须写入 `knowledge/`；`docs/plans/` 不得重新创建。
 - 2026-09-23 起，Docker 内的 30 天实质学习周期得到用户明确授权：每日运行可自主推进 L1/L2/L3/L4，启用网络和 `danger-full-access`，并以 Gitee 作为容器外恢复远端。每次 runner 调用创建新的 Codex session；需要讨论或优化某日时，使用该日回执中的 `session_id` 和 `resume_command`。
 - 调度对象名为 `wiki-daily-learning`，项目根目录固定为 `/workspace/wiki`。这是 Docker-local schedule，不会自动出现在宿主机 Codex GUI 的 Scheduled 列表；`run.json` 与 scheduler JSONL 记录每次新 session，是本地 schedule 的 canonical session index。
+
+## 每日学习的资源获取默认
+
+用户已长期授权 `daily-learning` 自主获取应学资源，2026-10-27再次明确“DAY每日学习不许问。默认能学尽学，应学就学”。因此正文、Supporting Information（SI）、必要附件、数据、代码和其它学习资源默认由Codex按问题与信息增益自行选择、检索、获取、核验；不逐篇或逐批询问是否下载、是否需要SI。该规则跨日、跨session沿用。
+
+使用外部下载skill时，以这条用户指令覆盖通用的SI询问步骤，直接传 `--si` 或相应包含补充材料的选项，不把skill的确认提示当成新的用户许可缺口。已查来源不可得就记录访问结果/缺口，转可解析问题；继续保存URL/DOI、实际文件签名/页数/哈希、来源与阅读范围，不把首页预览或metadata当完整原件。资源选择以学习价值为准，不为数量无差别下载。
 
 ## 来源阅读闭环
 

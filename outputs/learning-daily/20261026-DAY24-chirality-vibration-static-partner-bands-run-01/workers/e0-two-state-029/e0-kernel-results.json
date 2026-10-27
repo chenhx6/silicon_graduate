@@ -1,0 +1,132 @@
+{
+  "scope": "same-Ipi two-state scalar/radius operator; conditional arbitrary numbers, not any isotope",
+  "convention": "Ucolumns(lower,upper);H12=Wexp(i phi);T12=t;R1/R2mean-square radii",
+  "units": {
+    "H": "MeV",
+    "T": "fm2",
+    "E0rho": "dimensionlessafterZ/R0\u00b2factor"
+  },
+  "diagonal_HW14_limit": {
+    "delta_MeV": 0.7,
+    "W_MeV": 0.3,
+    "phi": 0.0,
+    "eta": 0.12037169881735171,
+    "D_MeV": 0.9219544457292886,
+    "config_R1_fm2": 10.0,
+    "config_R2_fm2": 12.0,
+    "t_fm2": [
+      0.0,
+      0.0
+    ],
+    "mixed_radius_lower_fm2": 10.240743397634702,
+    "mixed_radius_upper_fm2": 11.759256602365298,
+    "mixed_amplitude_fm2": [
+      -0.6507913734559686,
+      0.0
+    ],
+    "T_eigenvalues_fm2": [
+      10.0,
+      12.0
+    ],
+    "commutator_Frobenius2_MeV2fm4": 0.7199999999999992
+  },
+  "general_complex_example": {
+    "delta_MeV": 0.7,
+    "W_MeV": 0.3,
+    "phi": 0.37,
+    "eta": 0.12037169881735171,
+    "D_MeV": 0.9219544457292886,
+    "config_R1_fm2": 10.0,
+    "config_R2_fm2": 12.0,
+    "t_fm2": [
+      0.6,
+      0.2
+    ],
+    "mixed_radius_lower_fm2": 9.829625800653927,
+    "mixed_radius_upper_fm2": 12.170374199346073,
+    "mixed_amplitude_fm2": [
+      -0.17115417697839733,
+      -0.03050379005777029
+    ],
+    "T_eigenvalues_fm2": [
+      9.816784043380077,
+      12.183215956619923
+    ],
+    "commutator_Frobenius2_MeV2fm4": 0.05138119695856992
+  },
+  "cancellation_without_zero_Hmixing_or_zero_config_radius_difference": {
+    "delta_MeV": 0.7071067811865475,
+    "W_MeV": 0.35355339059327373,
+    "phi": 0.0,
+    "eta": 0.1464466094067262,
+    "D_MeV": 0.9999999999999999,
+    "config_R1_fm2": 10.0,
+    "config_R2_fm2": 12.0,
+    "t_fm2": [
+      1.0,
+      0.0
+    ],
+    "mixed_radius_lower_fm2": 9.585786437626904,
+    "mixed_radius_upper_fm2": 12.414213562373094,
+    "mixed_amplitude_fm2": [
+      0.0,
+      0.0
+    ],
+    "T_eigenvalues_fm2": [
+      9.585786437626904,
+      12.414213562373096
+    ],
+    "commutator_Frobenius2_MeV2fm4": 0.0
+  },
+  "exact_unmixed_crossing_real_t_does_not_cancel_Delta": {
+    "delta_MeV": 0.0,
+    "W_MeV": 0.5,
+    "phi": 0.0,
+    "eta": 0.5,
+    "D_MeV": 1.0,
+    "config_R1_fm2": 10.0,
+    "config_R2_fm2": 12.0,
+    "t_fm2": [
+      1.0,
+      0.0
+    ],
+    "mixed_radius_lower_fm2": 10.0,
+    "mixed_radius_upper_fm2": 12.0,
+    "mixed_amplitude_fm2": [
+      -1.0,
+      0.0
+    ],
+    "T_eigenvalues_fm2": [
+      9.585786437626904,
+      12.414213562373096
+    ],
+    "commutator_Frobenius2_MeV2fm4": 2.0000000000000004
+  },
+  "zero_Hmixing_but_offdiagonal_T": {
+    "delta_MeV": 1.0,
+    "W_MeV": 0.0,
+    "phi": 0.0,
+    "eta": 0.0,
+    "D_MeV": 1.0,
+    "config_R1_fm2": 10.0,
+    "config_R2_fm2": 12.0,
+    "t_fm2": [
+      0.4,
+      0.2
+    ],
+    "mixed_radius_lower_fm2": 10.0,
+    "mixed_radius_upper_fm2": 12.0,
+    "mixed_amplitude_fm2": [
+      0.4,
+      0.2
+    ],
+    "T_eigenvalues_fm2": [
+      9.904554884989668,
+      12.095445115010325
+    ],
+    "commutator_Frobenius2_MeV2fm4": 0.4
+  },
+  "no_actual_Z_or_R0_assigned": true,
+  "no_data_fit": true,
+  "no_nuclear_mixing_percent_assigned": true
+}

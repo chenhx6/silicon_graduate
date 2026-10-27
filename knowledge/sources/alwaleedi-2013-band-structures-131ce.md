@@ -3,7 +3,7 @@ type: source
 title: Band Structures of 131Ce
 aliases: [Alwaleedi 2013 131Ce thesis]
 created: 2026-07-27
-updated: 2026-10-06
+updated: 2026-10-26
 status: active
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -234,3 +234,23 @@ L3 pilot 将独立保存跨来源推理；本页不把后来形成的 wobbling/c
 | AW13-D23-064-3 | Bands1–7的目标link/partner-specific τ/δ网络未齐，不等全核无τ；其它131Ce DSAM/RDDS/静态矩只在实际母末态匹配后可接入，不能搬其它带τ，DSAM/RDDS非模式普适充分门。 | evidence-gap-and-transfer-boundary | direct-scope-and-method-inference | §5.2/Table5.1; Eq5.6; Tables4.1–4.4 | true |
 
 比较和可执行清单见[[133ce-thesis-analysis-blueprint]]。g7/2旋称伙伴、γ振动、TiP、wobbling和3qp解释分层；源的Band5高spin两分量e⊗AEFG按既有用户审核保持，不作f重映射。
+
+
+## Day24：正宇称寿命family映射与未闭合的表图端点
+
+独立worker本轮读AW13相关连续Ch4/5段、Tables4.4–4.7、Fig4.1/4.11/5.1/5.2及§5.2.2，另核Li原PDF2/3；leader fresh视觉Tables4.4/4.5/4.6/4.7、Fig4.1及PDF86正文，抽核相应文字。不是重读全97页。raw SHAb50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1相符；Band5高spin既有两分量人审与旧review flags保持，新增needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AW13-D24-001 | AW13 Band1为负宇称且作者关联νh11/2，作者将正Band2带头关联νg7/2；Band3在正文直接给1/2+、Ex61.8keV，νs1/2为possible interpretation而非直接轨道测量。Band号须source内使用，不能与133Ce同号ground band混同。 | source-band-and-reference-zero-identity | direct-original | PDF58/82 Band1paragraph; PDF86 printed82 §5.2.2 Band2/3 | true |
+| AW13-D24-002 | Li04正257/610/725/796/649链与AW13 Band2的255.8/607.7/723.7/793.6/647.4在同π/Ji/Jf及连续拓扑上支持provisional family对应，但Li−AW分别1.2/2.3/1.3/2.4/1.6keV，不当精确同值或已知误差内相容。Li三finite meanτ及25/2+ effective上界只能作为所绑定family/源的旧参考，AW13未重新测τ；不迁入Band3/Band5同spin或133Ce。 | cross-source-family-and-lifetime-provenance | direct-original-comparison-with-limits | PDF72 Table4.5; PDF73 Table4.6 255.8row; Li04PDF2 Fig1/PDF3 Table1 | true |
+| AW13-D24-003 | Table4.6字面344.9为13/2+→11/2+、410.1为15/2+→13/2+，Fig4.1却画约345为15/2+→13/2+、410为21/2+→19/2+，并另有321/378/384等低spin links。表中285.1+344.9−607.7=22.3keV，不能用整表盲闭合Ex/S或用整数舍入抹掉。保table与figure两条身份记录，未选某行作实际错误判决。 | literal-table-figure-endpoint-boundary | direct-original-and-declared-arithmetic | PDF73 Table4.6; PDF72 Table4.5; PDF57 Fig4.1 | true |
+| AW13-D24-004 | Table4.4 Band3分组的743.3(19/2+→15/2+，Iγ6.2(.5))与Table4.7的743.4(同spin，Iγ20.1(.9))分别保留；后者与Fig4.1的Band5→Band3 link支持对应，前者不能仅凭分组认证Band3新19/2+，也不能自动判作重复或独立两条物理γ。913.2又有Table4.7终态17/2与图似15/2的边界，未凭此补精确节点。Band2与Band5两个19/2+继续分开。 | grouped-row-versus-node-and-edge-identity | direct-original-with-explicit-unresolved-fields | PDF70 Table4.4; PDF76 Table4.7; PDF57 Fig4.1; PDF59/66 linksparagraphs | true |
+
+两来源各自选7/2+ ground参考时，Li整数链13/2+路径和867keV，而AW13 selected path255.8+607.7=863.5；这不是adopted Ex或带Cov拟合。其它signature与受冲突影响的dipole links不能强制并入这条选路。Fig5.1 Routhian reference也不替Ex零点。
+
+[[133ce-thesis-analysis-blueprint]]保留Li→AW13 Band2 family参照与131/133Ce Band3不同零点。原Fig5.2 caption Band4/邻正文Band1及Table5.1 parity冲突不关闭；没有把一图算两条独立数据。Band5高spin配置的原用户审核范围不因低spin节点核验而改变。
+
+### Day24 checkpoint007 Agent self-audit triage
+
+P0: none identified（冲突行已与confirmed ledger隔离）。P1：leader/worker按原表/图确认family和明确数值差；743/913及dipole端点不硬选、不造节点、不用缺误差作统计结论。原测量/canonicalreview不因本自审升级，所有新结论needs_review:true。

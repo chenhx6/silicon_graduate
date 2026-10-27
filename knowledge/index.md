@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-23
+updated: 2026-10-26
 ---
 
 # Wiki Index
@@ -42,7 +42,22 @@ updated: 2026-10-23
 - [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] — 两条主线、逐量模型比较及原件输入边界。
 - [[nobs-2017-spin-parity-102y-thesis]] — population/校准、BCS/GM模型辅助指认，非本核AD/P直接测量。
 
+### Day24手征模型的量子化与有限域
+
+- [[chen-2017-128cs-angular-momentum-projection-chirality]] — good-I/N/Z投影的有限κ/K空间、metric与相干核/几何图信息边界；复用GR06，非新实验。
+
+- [[wu-2018-two-dimensional-collective-electromagnetic-transitions]] — EM PartII的单ρ局部TAC带内率平均，保good-I/交错失败与未给coherent跨带振幅；非实核新数据。
+
+- [[chen-2016-two-dimensional-collective-chiral-wobbling]] — θ/φ交叉质量、periodic域及实际PRM比较；保低spin失败/Ω假定/晚期LW与原1D差别。
+
+- [[chen-2013-collective-hamiltonian-chiral-modes]] — 一维φ集体量子化的势/质量/测度/盒边界，有限隧穿与second-vibration遗漏；示意体系，非目标核新数据。
+
+- [[olbratowski-2002-critical-frequency-preprint]] — Day24新读2002三作者早期稿：132La经典gyro/HF临界频率、planar/axial-l替代与量子边界；与2004四作者VoR分开，非实验spin阈值。
+
 ### Day23原实验与模型复用控制
+
+
+
 
 - [[petrache-2019-diversity-shapes-rotations-130ba]] — 原实验与4页补充的scope/符号边界。
 - [[wang-2020-two-quasiparticle-wobbling-130ba]] — 复用实验的PSM，非新采集。
@@ -118,6 +133,17 @@ updated: 2026-10-23
 - [[musangu-2021-chiral-vibrations-104mo-106mo]] — 打印强度上限、共享归一与统计定义；原文/模型/条件推导分层，见最新Day18修订。
 
 - [[kuti-2014-multiple-chiral-doublets-103rh]] — 不同宇称的寿命基准不能互换；见最新Day18源页修订。
+- [[chen-2018-four-j-shell-prm-136nd]] — Day24内Day25预习：D5的good-I PRM支持与未交付的两E2 out/in预测。
+- [[larsson-1978-nuclear-core-quasiparticle-coupling]] — 新用户原件恢复历史芯—qp矩阵/相干EM合同；2022实际producer仍缺。
+- [[leander-larsson-1975-potential-energy-surfaces-n-equals-z]] — Ref23原件：历史dimensionless坐标/CG归一/轴向对角Q与staticPES边界，不代actual Ce输入。
+- [[bengtsson-ragnarsson-1985-rotational-bands-particle-hole]] — WK22 Ref11 κμ原表、固定组态/diabatic追踪与130Ce例；actual2022输入仍单独核。
+- [[nolan-1983-ce130-high-spin-moment-inertia]] — BR85 Ref63原实验：谷宽Jband、最高线/污染边界与rigidreference分开。
+- [[meyer-ter-vehn-1975-triaxial-rotor-particle-model]] — WK22 Ref51：单j particle–hole等谱的完整条件、signedEM与近似分类边界。
+- [[meyer-ter-vehn-1975-odd-a-unique-parity-comparison]] — 邻芯/目标定标、历史133Ce负谱与γsoft/rigid极限的直接原文边界。
+- [[gizon-1974-deformed-states-cerium-neodymium]] — 真22页Ce/Nd原实验；历史zero、已观测未指认线与AD/feeding合同。
+- [[nndc-2011-133ce-low-level-reference-records]] — 实际2011adopted与reaction记录；133Ce低态zero、不同版本/共享Cov/IT未知边界。
+- [[emediato-1997-133ce-rdds-lifetimes]] — 133Ce RDDS原始寿命、T1/2转换与三qp时钟边界。
+- [[joss-1998-133ce-triaxial-band-lifetimes]] — 133Ce高自旋DSAM/Qt、sidefeeding与组态映射边界。
 
 - [[liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br]] — 跨核多极性与D0提取的几何输入；见最新Day18源页修订。
 
@@ -716,6 +742,8 @@ updated: 2026-10-23
 
 ## Projects
 
+- [[chirality-shape-coexistence-companion-matrix]] — Day24内恰好Day25无学分预习，三核逐family观测/模型/替代与companion缺项降级；不授下一卡。
+
 - [[135nd-chiral-partner-resolved-evidence-map]] — Day24正式研究入口：135Nd逐伙伴实验、TAC/RPA与竞争解释矩阵；模型临界/等强近似和缺失g/normalizer分开，未授分。依据[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24-001与[[frauendorf-meng-1997-tilted-rotation-chirality]] FM97-D24-001。
 
 - [[a130-thesis-evidence-matrix]] - A≈130 博士论文管线的持久证据矩阵；保存可复用的观测、判据、解释边界、必要伴随观测和 source lineage。
@@ -920,3 +948,15 @@ updated: 2026-10-23
 - [[yamazaki-1967-aligned-angular-coefficients]] YA67-D22-R096-1/2：A4条件反演和正布居歧义见证。
 
 其它Day22未完成原件逐claim核验的新增认证已移run历史，不作为本索引科学事实。
+
+
+Day24 primary link: [[butler-1975-la129-la131-rd-lifetimes]]
+
+
+Day24 SD primary link: [[hauschild-1995-133ce-superdeformed-bands]]
+
+
+Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
+
+- [[tonev-2006-134pr-lifetime-chiral]] — 134Pr Euroball IV RDDS/DSAM；特定双带静态极限限制、动态解释及PE06引用谱系。
+- [[tonev-2007-134pr-dynamic-chirality]] — 134Pr 26页PRC详细实验/模型表；同2006实验，保跨带δ缺口与IBFFM交叉失败。

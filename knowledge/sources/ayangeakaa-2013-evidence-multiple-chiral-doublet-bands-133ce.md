@@ -3,7 +3,7 @@ type: source
 title: "Evidence for Multiple Chiral Doublet Bands in 133Ce"
 aliases: [Ayangeakaa 2013 133Ce MχD]
 created: 2026-07-13
-updated: 2026-09-20
+updated: 2026-10-26
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment
@@ -38,6 +38,10 @@ tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectrosco
 
 # Ayangeakaa 等（2013）：`133Ce` 中多个手征双带证据
 
+## Day24 active source/version entry
+
+实际raw为8页CHORUS accepted（PDF1cover，正文PDF2–8），alternate为5页PRL reprint（PDF1–5对应printed172504-1…5）。旧PDF页码不能默认为当前raw物理页；本轮A13-D24-001–004按版本明确定位，旧人审范围/flags保留。Band4、37.2keV零点与跨版本label差见下方新节。
+
 > Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
 
 ## Bibliographic Record
@@ -67,7 +71,7 @@ tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectrosco
 | A13-2 | 本文显著扩展既有能级纲图；新能级的 spin/parity 主要依据 DCO ratios，并在可行处用 angular-distribution analyses 复核。 | experimental-assignment | direct | PDF p.1, final experimental paragraph; Fig.1 | false |
 | A13-3 | 正宇称候选对 Bands 2–3 被延伸至 `33/2+`，新增 crossover 与 linking transitions；带内 `Delta I=1` 和 328/338/391 keV links 被指认为 mixed `M1/E2`，544/615 keV links 为 `E2`，共同支持两带同宇称。 | experimental-assignment | direct | PDF pp.1-2, Fig.1 and paragraph below | false |
 | A13-4 | 作者根据相互连接/共同退激结构及 RMF 计算，把 Bands 2–3 指认为 `pi(g7/2)^-1(h11/2)^1 x nu(h11/2)^-1`；这是实验结构与模型联合的 configuration assignment，不是直接测量。 | author-interpretation | direct | PDF p.2, paragraph below Fig.1 | false |
-| A13-5 | 负宇称候选对 Bands 5–6 中 Band 6 为新带；其 363/367/442/423/468/491 keV 带内线被指认为 `M1/E2`，711/779 keV links 的 `A2/A0` 分别为 `-0.622(13)`、`-0.7312(32)`，1074/1146 keV links 的 DCO ratios 与 stretched `E2` 相容，从而支持 Band 6 与 Band 5 同为负宇称。 | experimental-assignment | direct | PDF pp.2-3, Fig.1 inset and first paragraph on p.3 | false |
+| A13-5 | 负宇称候选对 Bands 5–6 中 Band 6 为新带；其 363/367/442/423/468/491 keV 带内线被指认为 `M1/E2`，711/779 keV links 的 `A2/A0` 分别为 `-0.622(13)`、`-0.7312 ± 0.032`，1074/1146 keV links 的 DCO ratios 与 stretched `E2` 相容，从而支持 Band 6 与 Band 5 同为负宇称。 | experimental-assignment | direct | PDF pp.2-3, Fig.1 inset and first paragraph on p.3 | false |
 | A13-6 | Fig.2 给出两对带的实验 excitation energies、`S(I)` 与 `B(M1)/B(E2)` ratios；论文明确说明这些带未能进行 lifetime measurements，因此没有获得作者所称的重要 transition-probability 独立确认。 | observed-fact | direct | PDF p.3, Fig.2 caption and paragraph above Fig.2 | false |
 | A13-7 | Bands 5–6 的能量间隔约 400 keV 并在较宽自旋区近似恒定；Bands 2–3 约 100 keV。作者结合近恒定 `S(I)` 和相似 `B(M1)/B(E2)` 趋势，将两组解释为 chiral partners。 | author-interpretation | direct | PDF pp.4-5, discussion of Fig.2 | false |
 | A13-8 | constrained RMF（PK1）给出 ground-state 三轴且 gamma-soft 的 `(beta2,gamma)=(0.20,11.1 deg)`；states a/b 被分别视为 Bands 2/5 的 bandhead states，计算形变为 `(0.22,17.5 deg)`、`(0.23,15.2 deg)`。这些 bandhead 对应、形变与组态是模型结果。 | model-result | direct | PDF pp.3-4, Fig.3 and Table I | false |
@@ -173,3 +177,21 @@ tags: [multiple-chiral-doublet, triaxial-shape-coexistence, high-spin-spectrosco
 | A13-D21-R57-1 | superseded：124撤回本条新科学认证；改用本页A13-6的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
 | A13-D21-R57-2 | superseded：124撤回本条新科学认证；改用本页A13-6的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
 | A13-D21-R57-3 | superseded：124撤回本条新科学认证；改用本页A13-6的有限范围。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+
+
+## Day24：两版本、带号、能量零点与高spin输入边界
+
+本轮worker读主线/关键表图，两raw SHA相符；leader重新读5页reprint全文文本并fresh视觉PDF2/3/4、accepted PDF3的Fig1，核caption37.2、TableI与版本label。不是leader重读全部accepted8页/全部原谱。原A13-1等user flags保持，新增仅self-audit、needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| A13-D24-001 | canonical raw实际8页accepted，alternate为5页reprint，同一文章/采集谱系而非独立实验；Fig1上端Band5的accepted602/1174keV与reprint600/1173标签不同，不静默称全部数值相同。原raw SHA91ec60…5e837与alternate3c5a3d…c2d0f均本轮核到；本节以reprint作主ledger。 | version-and-locator-identity | direct-original-two-versions | acceptedPDF3 Fig1; reprintprinted172504-2 Fig1 | true |
+| A13-D24-002 | A13负宇称低lying Band4的170/385/555/235/620等网及9/2−isomer支持其与WK22 Band1的family对应；WK22新Band4的832.0/1200.8/1409.8/1809.1节点及624.6/582.7/464.4 links未映为A13 MχD Bands5/6。A13的516/751与WK22的517.6/752.6差异须保，不按band号或近Eγ合并。两篇描述的Gammasphere112MeV与AFRODITE57MeV采集不同，但knownlevels/前人文献可共享，非每条level独立票。 | source-scoped-family-crosswalk-and-data-lineage | direct-original-and-bounded-comparison | reprint172504-1/2 Fig1; WK22PDF66/67 Tables5.1/5.2; WK22PDF119 Ref6 | true |
+| A13-D24-003 | Fig1caption直接给最低9/2−isomer为ground上37.2keV；TableI却列Band2 19/2+ Ex2.378MeV与Band5 29/2− Ex3.734MeV。按该图integer标签从isomer向上，B2的555+751+1072=2378、B5的555+751+856+287+750+140+155+240=3734keV；加caption37.2分别为conditional ground-reference2415.2/3771.2。保literalTable值与条件重建，原零点合同未明确闭合，不判paper错误或擅自替换Ex。B6两integer路径给相对isomer4162/4163，不造精确新head。 | literal-versus-reconstructed-energy-reference | direct-original-plus-declared-arithmetic | reprint172504-2 Fig1caption/paths; reprint172504-4 TableI | true |
+| A13-D24-004 | reprint原文711/779keV links的A2/A0字面为−(.622±.013)、−(.7312±.032)，后者不是旧Wiki“.7312(32)”所表达的.0032误差；本轮已将A13-5转录改为显式±.032，保旧flags但不冒称新增用户审核。1074/1146支持E2；这些angular量不提供δ各根或absoluteB。作者承认未能测所报bands的寿命，3qp/crossing及chiral-vibration是结合RMF/TPRM的解释而非测得粒子数/声子数。 | original-uncertainty-transcription-and-model-boundary | direct-original-visual | reprint172504-3 firstparagraph/lifetimeparagraph; reprint172504-3/4 modeldiscussion | true |
+
+与[[133ce-thesis-analysis-blueprint]]及[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]]对照：A13的B2/B3正宇称19/2+对与B5/B6负宇称29/2−比较head各有自己的configuration/model参数；WK22的一qp QTR延伸不能代替实际3qp空间或原model producer。连接到低lyingB4的750/1037γ建立退激路径，不把相隔750keV的同spin节点变成同一态。Band5图上另有低于TableI所选29/2−head的23/2−等levels，不能把表head当作整列最低画点。
+
+### Day24 checkpoint006 Agent self-audit triage
+
+P0: none identified（新身份/零点歧义均已隔离，未混作actual input）。P1：leader核版本label/37.2caption/TableI/±.032，worker全network对照；literal/conditional保持，unsignedgamma配相同spin不认证identity。原user flags是历史范围，当前转录纠错与新综合均为Codex self-audit。具体absoluteB、g、δ、精确head误差/branch/响应及actualproducer仍缺。

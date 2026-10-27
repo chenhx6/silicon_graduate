@@ -153,3 +153,21 @@ AL11-D21-R51-1/2/5/7：重要风险是将方法普适性当135Nd实证，或将�
 | AL11-D24P-002 | Eq18的振幅平方是该近谐模型约定的transition strength，不是对选中γ出口归一的photon branch。把B接到光子率仍需能量的Eγ^(2L+1)和相同母态/方向；RPA波函数/quasiboson归一、全衰变分支和选样条件概率是不同归一。这个区分是本任务结合率定义的推论，不认证135Nd实际producer。 | model-strength-versus-selection-normalization | source-formula-plus-task-inference | arXiv0709.0969v2 PDF7 RPA amplitudes; PDF11 Eq.18; LKH82 printed121 Eq.2.2 | true |
 
 实际率定义回链[[lange-kumar-hamilton-1982-multipole-admixtures]]；[[mukhopadhyay-2007-135nd-chiral-vibration-static]]的新归一诊断仅是明确compound binding hypothesis，不能由本文“not shown”缺口填成原数据或完整模型重现。
+
+## Day24主线核验：共同转频、有限窗口与模身份
+
+本轮回读arXiv0709.0969v2全部18页主线文本，fresh contact sheet PDF3–18覆盖14图/两表；另以单页分辨率核PDF5/7/14/15/16的TableII、Fig3、Eqs24–26及交叉/结论段。实际使用仍为`tmp/day21-checkpoint051/almehed-2011-arxiv07090969v2.pdf`，SHA与页首一致；原raw归档槽不存在，未创建或改raw，也未声称已核VoR。本文没有提供135Nd逐行job或实验branch，故该缺口在本轮可核范围已确认，后续不再为此机械回读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| AL11-D24-001 | Fig3图注明确实验比较量是共同ℏω网格上插值所得的两条experimental routhians之差；PDF7正文也把RPA splitting定义在给定ω。它不能未经Legendre/自旋映射直接替换为同I的EB(I)−EA(I)。本文Fig4–10还须保留各自核素与ΔI分量，不能给未展示的135Nd补具体值。 | model-data-comparison-coordinate | direct-original-and-bounded-inference | PDF7 Fig3caption and precedingparagraph; PDF9 Fig4caption | true |
+| AL11-D24-002 | PDF4明确两种失稳：φ0平面进入aplanar、再由aplanar退出至absφ90平面；136Pm TableII的φ在ℏω=.10/.15为0，.20/.25/.30/.35为20/38/52/77度，.40/.45/.50为90度。中间四行RPA列是横线，不是测得零能；返回平面后Ω列为.15/.33/.42。它是该2qp模型的有限chirality窗口，不是135Nd实验临界值或任意更高spin都更静态的定理。 | model-phase-window-and-missing-value-identity | direct-original | PDF4 firstthreeparagraphs; PDF5 TableII 136Pm; PDF8 Results | true |
+| AL11-D24-003 | PDF15将134La若干振幅曲线大跳变归因第一/第二RPA模交叉，并认为该模型的134La最低模不能再视为纯chiral vibration；不是全核实验模式否定。PDF7另列Jz诱发的E0与J+诱发的ℏω两个转动spurious modes，作者报告与physical模解耦。故跟踪最低ordinal/看到零频本身不足以判模身份；实际分量、norm/解耦与跨ω连续性仍需producer才能重验。 | mode-identity-and-numerical-readiness | direct-original-and-explicit-task-design | PDF15 134Laparagraph; PDF7 spuriousparagraph; PDF9 Fig4 | true |
+| AL11-D24-004 | 形状/取向反演用Eq2的BK修正QQ张量（正文省略BK下标），而Eq15的physical E2算符采用ep=1+Z/A、en=Z/A；二者不因同写Q就当同一观测张量。本文Eq1邻奇奇核计算gap取80%奇偶质量差，不覆盖MU07给135Nd质子50%/中子80%的特定输入；同方法谱系不等同actual input完全相同。 | operator-and-parameter-lineage-boundary | direct-original-and-cross-source-comparison | PDF2 Eq1; PDF3 Eq2/BKparagraph; PDF10 Eq15; MU07 printed172501-3 pairingparagraph | true |
+| AL11-D24-005 | 从A10/A15/A17构造φ0局部Jacobian，并独立用Cartesian traceless tensor旋转微分检验：TableII共55行中30个φ0行的normalized orientation condition number约2.712–6.678；脚本共157个有限数学控制通过，最大微分残差约1.34e−10。此欧氏坐标条件数不是模式权重/CI/质量张量；显示所选几何未被迫处在坐标奇点，不把真实软化一概归为坐标伪影。φ90/aplanar行未用本chart反演，球形/轴对称/Euler极限分别检查。 | source-grounded-local-coordinate-exercise | declared-Jacobian-and-independent-Cartesian-check | PDF14 Eqs24–26; PDF17–18 A10/A15/A17; PDF5 TableII | true |
+
+`system/scripts/day24_al11_tensor_conditioning.py`读取实际PDF5，不执行论文代码。所有数学推导、spin/routhian坐标区分和有限窗口跨来源REFLECT固化在[[135nd-chiral-partner-resolved-evidence-map]]；数值不补135Nd输入、RPA振幅或新寿命/δ/g。原review flags保持，新增needs_review:true。
+
+### Day24 checkpoint002 Agent self-audit triage
+
+P0: none identified（本次新增范围）。P1：AL11-D24-001/002的frame/核素/横线身份原件已核；AL11-D24-003的ordinal/零模区分仍缺原producer而明确隔离；AL11-D24-004不把BK模型tensor升格为实测电荷形状；AL11-D24-005的Cartesian检查只核局部运动学。后续论文/关键问答需逐claim回这些locator，不以自审改为human-reviewed。

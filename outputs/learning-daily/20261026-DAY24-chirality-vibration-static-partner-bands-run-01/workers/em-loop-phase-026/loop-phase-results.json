@@ -1,0 +1,167 @@
+{
+  "scope": "conditional forward real/complex2x2 RME block; no nuclear data or fit",
+  "mixed_counterexample_spin_scope": "generic Ii=3,If=2,sameparity;NOTPE06I->I-2;amplitudesnormalizedtoownmultipoleunitsandkappa11=1",
+  "gauge_law": "Mprime_ab=exp(-i eta_a+i chi_b) M_ab",
+  "gauge_example_before": {
+    "modulus_squared": [
+      [
+        5.000000000000001,
+        4.09
+      ],
+      [
+        9.16,
+        17.0
+      ]
+    ],
+    "Frobenius_squared": 35.25,
+    "loop_real": 36.02,
+    "loop_imag": 43.440000000000005,
+    "det_modulus_squared": 50.42440000000001,
+    "singular_values_squared": [
+      33.75621895580121,
+      1.4937810441987984
+    ]
+  },
+  "gauge_example_after": {
+    "modulus_squared": [
+      [
+        5.000000000000001,
+        4.090000000000002
+      ],
+      [
+        9.16,
+        17.0
+      ]
+    ],
+    "Frobenius_squared": 35.25,
+    "loop_real": 36.019999999999996,
+    "loop_imag": 43.44,
+    "det_modulus_squared": 50.42440000000001,
+    "singular_values_squared": [
+      33.75621895580121,
+      1.493781044198799
+    ]
+  },
+  "real_counterexample_A": {
+    "modulus_squared": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        9.0,
+        16.0
+      ]
+    ],
+    "Frobenius_squared": 30.0,
+    "loop_real": 24.0,
+    "loop_imag": 0.0,
+    "det_modulus_squared": 4.000000000000002,
+    "singular_values_squared": [
+      29.866068747318504,
+      0.13393125268149422
+    ]
+  },
+  "real_counterexample_B": {
+    "modulus_squared": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        9.0,
+        16.0
+      ]
+    ],
+    "Frobenius_squared": 30.0,
+    "loop_real": -24.0,
+    "loop_imag": 0.0,
+    "det_modulus_squared": 100.00000000000004,
+    "singular_values_squared": [
+      26.180339887498945,
+      3.819660112501054
+    ]
+  },
+  "same_signed_delta_11": 1.0,
+  "M1_block": [
+    [
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "complex_family": [
+    {
+      "phi": 0.0,
+      "modulus_squared": [
+        [
+          1.0,
+          4.0
+        ],
+        [
+          9.0,
+          16.0
+        ]
+      ],
+      "Frobenius_squared": 30.0,
+      "loop_real": 24.0,
+      "loop_imag": 0.0,
+      "det_modulus_squared": 4.000000000000002,
+      "singular_values_squared": [
+        29.866068747318504,
+        0.13393125268149422
+      ]
+    },
+    {
+      "phi": 1.5707963267948966,
+      "modulus_squared": [
+        [
+          1.0,
+          4.0
+        ],
+        [
+          9.0,
+          16.0
+        ]
+      ],
+      "Frobenius_squared": 30.0,
+      "loop_real": 1.4695761589768238e-15,
+      "loop_imag": 24.0,
+      "det_modulus_squared": 52.00000000000001,
+      "singular_values_squared": [
+        28.152946437965912,
+        1.847053562034094
+      ]
+    },
+    {
+      "phi": 3.141592653589793,
+      "modulus_squared": [
+        [
+          1.0,
+          4.0
+        ],
+        [
+          9.0,
+          16.0
+        ]
+      ],
+      "Frobenius_squared": 30.0,
+      "loop_real": -24.0,
+      "loop_imag": 2.9391523179536475e-15,
+      "det_modulus_squared": 100.00000000000004,
+      "singular_values_squared": [
+        26.180339887498945,
+        3.819660112501054
+      ]
+    }
+  ],
+  "exclusions": [
+    "No actual134Pr phase or singular value assigned.",
+    "No symmetricQ/source-alpha inverse fit claimed.",
+    "A loop invariant is not automatically measured by incoherent widths.",
+    "No quantumgeometry or sourceHamiltonian change claimed."
+  ]
+}

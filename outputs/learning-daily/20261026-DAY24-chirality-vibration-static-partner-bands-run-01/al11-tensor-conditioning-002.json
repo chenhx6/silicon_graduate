@@ -1,0 +1,1634 @@
+{
+  "kind": "source-table-and-conditional-Jacobian-audit",
+  "source": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+  "actual_pdf": "tmp/day21-checkpoint051/almehed-2011-arxiv07090969v2.pdf",
+  "sha256": "becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b",
+  "pages": 18,
+  "locators": [
+    "PDF5 TableII",
+    "PDF14 Eqs24–26",
+    "PDF17–18 AppendixA"
+  ],
+  "input_rows": [
+    {
+      "nuclide": "130Cs",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.19,
+      "gamma_deg": 33.0,
+      "theta_deg": 59.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.3
+    },
+    {
+      "nuclide": "130Cs",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.19,
+      "gamma_deg": 33.0,
+      "theta_deg": 59.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.27
+    },
+    {
+      "nuclide": "130Cs",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.19,
+      "gamma_deg": 32.0,
+      "theta_deg": 59.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.21
+    },
+    {
+      "nuclide": "130Cs",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.19,
+      "gamma_deg": 31.0,
+      "theta_deg": 60.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.12
+    },
+    {
+      "nuclide": "130Cs",
+      "hbar_omega_MeV": 0.4,
+      "epsilon": 0.19,
+      "gamma_deg": 31.0,
+      "theta_deg": 60.0,
+      "phi_deg": 19.0,
+      "hbar_Omega_MeV": null
+    },
+    {
+      "nuclide": "130Cs",
+      "hbar_omega_MeV": 0.45,
+      "epsilon": 0.19,
+      "gamma_deg": 29.0,
+      "theta_deg": 61.0,
+      "phi_deg": 34.0,
+      "hbar_Omega_MeV": null
+    },
+    {
+      "nuclide": "132La",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.21,
+      "gamma_deg": 26.0,
+      "theta_deg": 59.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.33
+    },
+    {
+      "nuclide": "132La",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.21,
+      "gamma_deg": 26.0,
+      "theta_deg": 60.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.3
+    },
+    {
+      "nuclide": "132La",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.21,
+      "gamma_deg": 26.0,
+      "theta_deg": 61.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.26
+    },
+    {
+      "nuclide": "132La",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.21,
+      "gamma_deg": 25.0,
+      "theta_deg": 62.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.19
+    },
+    {
+      "nuclide": "132La",
+      "hbar_omega_MeV": 0.4,
+      "epsilon": 0.21,
+      "gamma_deg": 24.0,
+      "theta_deg": 63.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.09
+    },
+    {
+      "nuclide": "132La",
+      "hbar_omega_MeV": 0.45,
+      "epsilon": 0.21,
+      "gamma_deg": 22.0,
+      "theta_deg": 64.0,
+      "phi_deg": 24.0,
+      "hbar_Omega_MeV": null
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.1,
+      "epsilon": 0.21,
+      "gamma_deg": 24.0,
+      "theta_deg": 57.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.3
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.15,
+      "epsilon": 0.21,
+      "gamma_deg": 24.0,
+      "theta_deg": 58.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.32
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.21,
+      "gamma_deg": 24.0,
+      "theta_deg": 59.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.31
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.21,
+      "gamma_deg": 24.0,
+      "theta_deg": 60.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.28
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.21,
+      "gamma_deg": 23.0,
+      "theta_deg": 61.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.21
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.21,
+      "gamma_deg": 22.0,
+      "theta_deg": 61.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.11
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.4,
+      "epsilon": 0.21,
+      "gamma_deg": 22.0,
+      "theta_deg": 64.0,
+      "phi_deg": 32.0,
+      "hbar_Omega_MeV": null
+    },
+    {
+      "nuclide": "136Pm",
+      "hbar_omega_MeV": 0.1,
+      "epsilon": 0.24,
+      "gamma_deg": 24.0,
+      "theta_deg": 50.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.14
+    },
+    {
+      "nuclide": "136Pm",
+      "hbar_omega_MeV": 0.15,
+      "epsilon": 0.24,
+      "gamma_deg": 24.0,
+      "theta_deg": 50.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.09
+    },
+    {
+      "nuclide": "136Pm",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.24,
+      "gamma_deg": 24.0,
+      "theta_deg": 55.0,
+      "phi_deg": 20.0,
+      "hbar_Omega_MeV": null
+    },
+    {
+      "nuclide": "136Pm",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.24,
+      "gamma_deg": 24.0,
+      "theta_deg": 58.0,
+      "phi_deg": 38.0,
+      "hbar_Omega_MeV": null
+    },
+    {
+      "nuclide": "136Pm",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.24,
+      "gamma_deg": 24.0,
+      "theta_deg": 62.0,
+      "phi_deg": 52.0,
+      "hbar_Omega_MeV": null
+    },
+    {
+      "nuclide": "136Pm",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.25,
+      "gamma_deg": 24.0,
+      "theta_deg": 66.0,
+      "phi_deg": 77.0,
+      "hbar_Omega_MeV": null
+    },
+    {
+      "nuclide": "136Pm",
+      "hbar_omega_MeV": 0.4,
+      "epsilon": 0.25,
+      "gamma_deg": 24.0,
+      "theta_deg": 69.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.15
+    },
+    {
+      "nuclide": "136Pm",
+      "hbar_omega_MeV": 0.45,
+      "epsilon": 0.25,
+      "gamma_deg": 21.0,
+      "theta_deg": 72.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.33
+    },
+    {
+      "nuclide": "136Pm",
+      "hbar_omega_MeV": 0.5,
+      "epsilon": 0.25,
+      "gamma_deg": 19.0,
+      "theta_deg": 75.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.42
+    },
+    {
+      "nuclide": "138Eu",
+      "hbar_omega_MeV": 0.05,
+      "epsilon": 0.3,
+      "gamma_deg": 21.0,
+      "theta_deg": 39.0,
+      "phi_deg": 22.0,
+      "hbar_Omega_MeV": null
+    },
+    {
+      "nuclide": "138Eu",
+      "hbar_omega_MeV": 0.1,
+      "epsilon": 0.29,
+      "gamma_deg": 21.0,
+      "theta_deg": 47.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.07
+    },
+    {
+      "nuclide": "138Eu",
+      "hbar_omega_MeV": 0.15,
+      "epsilon": 0.29,
+      "gamma_deg": 21.0,
+      "theta_deg": 54.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.14
+    },
+    {
+      "nuclide": "138Eu",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.29,
+      "gamma_deg": 22.0,
+      "theta_deg": 58.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.2
+    },
+    {
+      "nuclide": "138Eu",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.29,
+      "gamma_deg": 22.0,
+      "theta_deg": 61.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.27
+    },
+    {
+      "nuclide": "138Eu",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.29,
+      "gamma_deg": 22.0,
+      "theta_deg": 63.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.34
+    },
+    {
+      "nuclide": "138Eu",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.29,
+      "gamma_deg": 22.0,
+      "theta_deg": 65.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.4
+    },
+    {
+      "nuclide": "138Eu",
+      "hbar_omega_MeV": 0.4,
+      "epsilon": 0.29,
+      "gamma_deg": 22.0,
+      "theta_deg": 67.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.46
+    },
+    {
+      "nuclide": "140Tb",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.29,
+      "gamma_deg": 23.0,
+      "theta_deg": 53.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.27
+    },
+    {
+      "nuclide": "140Tb",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.29,
+      "gamma_deg": 24.0,
+      "theta_deg": 57.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.35
+    },
+    {
+      "nuclide": "140Tb",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.29,
+      "gamma_deg": 25.0,
+      "theta_deg": 60.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.43
+    },
+    {
+      "nuclide": "140Tb",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.28,
+      "gamma_deg": 25.0,
+      "theta_deg": 64.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.5
+    },
+    {
+      "nuclide": "140Tb",
+      "hbar_omega_MeV": 0.4,
+      "epsilon": 0.28,
+      "gamma_deg": 26.0,
+      "theta_deg": 67.0,
+      "phi_deg": 90.0,
+      "hbar_Omega_MeV": 0.58
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.1,
+      "epsilon": 0.26,
+      "gamma_deg": 9.0,
+      "theta_deg": 61.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.38
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.15,
+      "epsilon": 0.25,
+      "gamma_deg": 12.0,
+      "theta_deg": 63.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.43
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.25,
+      "gamma_deg": 13.0,
+      "theta_deg": 65.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.48
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.25,
+      "gamma_deg": 11.0,
+      "theta_deg": 66.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.53
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.25,
+      "gamma_deg": 9.0,
+      "theta_deg": 68.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.59
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.26,
+      "gamma_deg": 8.0,
+      "theta_deg": 69.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.66
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.1,
+      "epsilon": 0.15,
+      "gamma_deg": 38.0,
+      "theta_deg": 51.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.32
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.15,
+      "epsilon": 0.15,
+      "gamma_deg": 37.0,
+      "theta_deg": 52.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.42
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.15,
+      "gamma_deg": 36.0,
+      "theta_deg": 52.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.43
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.15,
+      "gamma_deg": 35.0,
+      "theta_deg": 52.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.35
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.15,
+      "gamma_deg": 35.0,
+      "theta_deg": 52.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.27
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.15,
+      "gamma_deg": 34.0,
+      "theta_deg": 52.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.19
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.4,
+      "epsilon": 0.15,
+      "gamma_deg": 33.0,
+      "theta_deg": 53.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.1
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.45,
+      "epsilon": 0.15,
+      "gamma_deg": 33.0,
+      "theta_deg": 53.0,
+      "phi_deg": 55.0,
+      "hbar_Omega_MeV": null
+    }
+  ],
+  "phi0_geometry": [
+    {
+      "nuclide": "130Cs",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.19,
+      "gamma_deg": 33.0,
+      "theta_deg": 59.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.3,
+      "normalized_singular_values": [
+        1.9972590695091479,
+        1.2957316908500585,
+        0.6542836008168106
+      ],
+      "normalized_condition_number": 3.052589224329879,
+      "maximum_derivative_error": 1.3315082370013442e-10
+    },
+    {
+      "nuclide": "130Cs",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.19,
+      "gamma_deg": 33.0,
+      "theta_deg": 59.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.27,
+      "normalized_singular_values": [
+        1.9972590695091479,
+        1.2957316908500585,
+        0.6542836008168106
+      ],
+      "normalized_condition_number": 3.052589224329879,
+      "maximum_derivative_error": 1.3315082370013442e-10
+    },
+    {
+      "nuclide": "130Cs",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.19,
+      "gamma_deg": 32.0,
+      "theta_deg": 59.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.21,
+      "normalized_singular_values": [
+        1.9987816540381913,
+        1.2727047534520544,
+        0.6702192833503716
+      ],
+      "normalized_condition_number": 2.982280133818956,
+      "maximum_derivative_error": 1.332516319507704e-10
+    },
+    {
+      "nuclide": "130Cs",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.19,
+      "gamma_deg": 31.0,
+      "theta_deg": 60.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.12,
+      "normalized_singular_values": [
+        1.9996953903127825,
+        1.2442600507046702,
+        0.6951684133401614
+      ],
+      "normalized_condition_number": 2.876562501890153,
+      "maximum_derivative_error": 1.333129162617297e-10
+    },
+    {
+      "nuclide": "132La",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.21,
+      "gamma_deg": 26.0,
+      "theta_deg": 59.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.33,
+      "normalized_singular_values": [
+        1.9951281005196484,
+        1.1745203082200153,
+        0.7155972598558564
+      ],
+      "normalized_condition_number": 2.788060005877509,
+      "maximum_derivative_error": 1.3300804901916763e-10
+    },
+    {
+      "nuclide": "132La",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.21,
+      "gamma_deg": 26.0,
+      "theta_deg": 60.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.3,
+      "normalized_singular_values": [
+        1.9951281005196484,
+        1.1722650049782224,
+        0.7243833099025642
+      ],
+      "normalized_condition_number": 2.754243607280254,
+      "maximum_derivative_error": 1.3300804901916763e-10
+    },
+    {
+      "nuclide": "132La",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.21,
+      "gamma_deg": 26.0,
+      "theta_deg": 61.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.26,
+      "normalized_singular_values": [
+        1.9951281005196484,
+        1.1699837224080385,
+        0.7329984280807003
+      ],
+      "normalized_condition_number": 2.7218722770575883,
+      "maximum_derivative_error": 1.3300804901916763e-10
+    },
+    {
+      "nuclide": "132La",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.21,
+      "gamma_deg": 25.0,
+      "theta_deg": 62.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.19,
+      "normalized_singular_values": [
+        1.9923893961834909,
+        1.1653918228728717,
+        0.7346196019571174
+      ],
+      "normalized_condition_number": 2.7121375346853247,
+      "maximum_derivative_error": 1.328259724431291e-10
+    },
+    {
+      "nuclide": "132La",
+      "hbar_omega_MeV": 0.4,
+      "epsilon": 0.21,
+      "gamma_deg": 24.0,
+      "theta_deg": 63.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.09,
+      "normalized_singular_values": [
+        1.9890437907365466,
+        1.1671952361293891,
+        0.7300109160685571
+      ],
+      "normalized_condition_number": 2.7246767780521117,
+      "maximum_derivative_error": 1.3260259557057452e-10
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.1,
+      "epsilon": 0.21,
+      "gamma_deg": 24.0,
+      "theta_deg": 57.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.3,
+      "normalized_singular_values": [
+        1.9890437907365461,
+        1.1642783829119983,
+        0.6888529852563152
+      ],
+      "normalized_condition_number": 2.8874721214954784,
+      "maximum_derivative_error": 1.3260259557057452e-10
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.15,
+      "epsilon": 0.21,
+      "gamma_deg": 24.0,
+      "theta_deg": 58.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.32,
+      "normalized_singular_values": [
+        1.9890437907365464,
+        1.1647603764118144,
+        0.6962670961270758
+      ],
+      "normalized_condition_number": 2.856725244953304,
+      "maximum_derivative_error": 1.3260259557057452e-10
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.21,
+      "gamma_deg": 24.0,
+      "theta_deg": 59.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.31,
+      "normalized_singular_values": [
+        1.9890437907365466,
+        1.1652452145272776,
+        0.7034613541398812
+      ],
+      "normalized_condition_number": 2.8275096834118782,
+      "maximum_derivative_error": 1.3260259557057452e-10
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.21,
+      "gamma_deg": 24.0,
+      "theta_deg": 60.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.28,
+      "normalized_singular_values": [
+        1.9890437907365464,
+        1.1657320508509708,
+        0.7104342180379702
+      ],
+      "normalized_condition_number": 2.7997578667167167,
+      "maximum_derivative_error": 1.3260259557057452e-10
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.21,
+      "gamma_deg": 23.0,
+      "theta_deg": 61.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.21,
+      "normalized_singular_values": [
+        1.9850923032826442,
+        1.1694281196746568,
+        0.7034718995791829
+      ],
+      "normalized_condition_number": 2.821850175494042,
+      "maximum_derivative_error": 1.323390286245285e-10
+    },
+    {
+      "nuclide": "134Pr",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.21,
+      "gamma_deg": 22.0,
+      "theta_deg": 61.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.11,
+      "normalized_singular_values": [
+        1.9805361374831403,
+        1.1755732577089466,
+        0.6863520699721054
+      ],
+      "normalized_condition_number": 2.8855979665999008,
+      "maximum_derivative_error": 1.32035493649596e-10
+    },
+    {
+      "nuclide": "136Pm",
+      "hbar_omega_MeV": 0.1,
+      "epsilon": 0.24,
+      "gamma_deg": 24.0,
+      "theta_deg": 50.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.14,
+      "normalized_singular_values": [
+        1.9890437907365464,
+        1.1610433481580111,
+        0.6309537247061595
+      ],
+      "normalized_condition_number": 3.1524400488528075,
+      "maximum_derivative_error": 1.3260259557057452e-10
+    },
+    {
+      "nuclide": "136Pm",
+      "hbar_omega_MeV": 0.15,
+      "epsilon": 0.24,
+      "gamma_deg": 24.0,
+      "theta_deg": 50.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.09,
+      "normalized_singular_values": [
+        1.9890437907365464,
+        1.1610433481580111,
+        0.6309537247061595
+      ],
+      "normalized_condition_number": 3.1524400488528075,
+      "maximum_derivative_error": 1.3260259557057452e-10
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.1,
+      "epsilon": 0.26,
+      "gamma_deg": 9.0,
+      "theta_deg": 61.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.38,
+      "normalized_singular_values": [
+        1.8671608529944035,
+        1.368314286725307,
+        0.3108339335701022
+      ],
+      "normalized_condition_number": 6.006940206138413,
+      "maximum_derivative_error": 1.2447709529794793e-10
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.15,
+      "epsilon": 0.25,
+      "gamma_deg": 12.0,
+      "theta_deg": 63.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.43,
+      "normalized_singular_values": [
+        1.9021130325903073,
+        1.3391022888656865,
+        0.41122498312864114
+      ],
+      "normalized_condition_number": 4.6254802374088255,
+      "maximum_derivative_error": 1.2680767547124105e-10
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.25,
+      "gamma_deg": 13.0,
+      "theta_deg": 65.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.48,
+      "normalized_singular_values": [
+        1.912609511926071,
+        1.340940155431839,
+        0.4447764697422087
+      ],
+      "normalized_condition_number": 4.300158938341803,
+      "maximum_derivative_error": 1.275071159767549e-10
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.25,
+      "gamma_deg": 11.0,
+      "theta_deg": 66.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.53,
+      "normalized_singular_values": [
+        1.8910371511986332,
+        1.3883408902252725,
+        0.37902926804518544
+      ],
+      "normalized_condition_number": 4.989158649809586,
+      "maximum_derivative_error": 1.2606871102605055e-10
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.25,
+      "gamma_deg": 9.0,
+      "theta_deg": 68.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.59,
+      "normalized_singular_values": [
+        1.8671608529944035,
+        1.4461056990624017,
+        0.31178904370581706
+      ],
+      "normalized_condition_number": 5.98853901600253,
+      "maximum_derivative_error": 1.2447709529794793e-10
+    },
+    {
+      "nuclide": "130La",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.26,
+      "gamma_deg": 8.0,
+      "theta_deg": 69.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.66,
+      "normalized_singular_values": [
+        1.8543677091335746,
+        1.474844859779281,
+        0.27768526701664636
+      ],
+      "normalized_condition_number": 6.677947768191861,
+      "maximum_derivative_error": 1.236244440150358e-10
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.1,
+      "epsilon": 0.15,
+      "gamma_deg": 38.0,
+      "theta_deg": 51.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.32,
+      "normalized_singular_values": [
+        1.9805361374831398,
+        1.4915028139807636,
+        0.48067983622038396
+      ],
+      "normalized_condition_number": 4.120281293794683,
+      "maximum_derivative_error": 1.3203527160499107e-10
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.15,
+      "epsilon": 0.15,
+      "gamma_deg": 37.0,
+      "theta_deg": 52.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.42,
+      "normalized_singular_values": [
+        1.985092303282644,
+        1.4552084970526085,
+        0.5093401947987262
+      ],
+      "normalized_condition_number": 3.8973800292103093,
+      "maximum_derivative_error": 1.3233925066913343e-10
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.2,
+      "epsilon": 0.15,
+      "gamma_deg": 36.0,
+      "theta_deg": 52.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.43,
+      "normalized_singular_values": [
+        1.9890437907365461,
+        1.4276091717818618,
+        0.5278551842297421
+      ],
+      "normalized_condition_number": 3.768161893946353,
+      "maximum_derivative_error": 1.326023735259696e-10
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.25,
+      "epsilon": 0.15,
+      "gamma_deg": 35.0,
+      "theta_deg": 52.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.35,
+      "normalized_singular_values": [
+        1.9923893961834906,
+        1.400224463898048,
+        0.5456749723426455
+      ],
+      "normalized_condition_number": 3.65123836929873,
+      "maximum_derivative_error": 1.3282575039852418e-10
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.3,
+      "epsilon": 0.15,
+      "gamma_deg": 35.0,
+      "theta_deg": 52.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.27,
+      "normalized_singular_values": [
+        1.9923893961834906,
+        1.400224463898048,
+        0.5456749723426455
+      ],
+      "normalized_condition_number": 3.65123836929873,
+      "maximum_derivative_error": 1.3282575039852418e-10
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.35,
+      "epsilon": 0.15,
+      "gamma_deg": 34.0,
+      "theta_deg": 52.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.19,
+      "normalized_singular_values": [
+        1.9951281005196484,
+        1.3731626188091153,
+        0.5626959327707449
+      ],
+      "normalized_condition_number": 3.5456593593906582,
+      "maximum_derivative_error": 1.3300849310837748e-10
+    },
+    {
+      "nuclide": "134La",
+      "hbar_omega_MeV": 0.4,
+      "epsilon": 0.15,
+      "gamma_deg": 33.0,
+      "theta_deg": 53.0,
+      "phi_deg": 0.0,
+      "hbar_Omega_MeV": 0.1,
+      "normalized_singular_values": [
+        1.9972590695091474,
+        1.339551051589434,
+        0.5896643441373564
+      ],
+      "normalized_condition_number": 3.3871118194046783,
+      "maximum_derivative_error": 1.3315082370013442e-10
+    }
+  ],
+  "controls": [
+    {
+      "name": "130Cs_0.2_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.2_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.2_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.2_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.2_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.25_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.25_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.25_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.25_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.25_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.3_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.3_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.3_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.3_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.3_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.35_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.35_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.35_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.35_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "130Cs_0.35_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "132La_0.2_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "132La_0.2_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "132La_0.2_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "132La_0.2_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "132La_0.2_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "132La_0.25_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "132La_0.25_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "132La_0.25_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "132La_0.25_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "132La_0.25_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "132La_0.3_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "132La_0.3_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "132La_0.3_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "132La_0.3_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "132La_0.3_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "132La_0.35_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "132La_0.35_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "132La_0.35_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "132La_0.35_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "132La_0.35_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "132La_0.4_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "132La_0.4_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "132La_0.4_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "132La_0.4_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "132La_0.4_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.1_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.1_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.1_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.1_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.1_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.15_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.15_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.15_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.15_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.15_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.2_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.2_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.2_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.2_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.2_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.25_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.25_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.25_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.25_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.25_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.3_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.3_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.3_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.3_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.3_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.35_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.35_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.35_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.35_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134Pr_0.35_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "136Pm_0.1_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "136Pm_0.1_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "136Pm_0.1_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "136Pm_0.1_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "136Pm_0.1_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "136Pm_0.15_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "136Pm_0.15_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "136Pm_0.15_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "136Pm_0.15_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "136Pm_0.15_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "130La_0.1_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "130La_0.1_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "130La_0.1_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "130La_0.1_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "130La_0.1_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "130La_0.15_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "130La_0.15_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "130La_0.15_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "130La_0.15_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "130La_0.15_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "130La_0.2_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "130La_0.2_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "130La_0.2_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "130La_0.2_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "130La_0.2_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "130La_0.25_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "130La_0.25_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "130La_0.25_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "130La_0.25_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "130La_0.25_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "130La_0.3_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "130La_0.3_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "130La_0.3_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "130La_0.3_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "130La_0.3_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "130La_0.35_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "130La_0.35_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "130La_0.35_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "130La_0.35_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "130La_0.35_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134La_0.1_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134La_0.1_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134La_0.1_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134La_0.1_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134La_0.1_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134La_0.15_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134La_0.15_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134La_0.15_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134La_0.15_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134La_0.15_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134La_0.2_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134La_0.2_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134La_0.2_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134La_0.2_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134La_0.2_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134La_0.25_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134La_0.25_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134La_0.25_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134La_0.25_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134La_0.25_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134La_0.3_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134La_0.3_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134La_0.3_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134La_0.3_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134La_0.3_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134La_0.35_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134La_0.35_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134La_0.35_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134La_0.35_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134La_0.35_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "134La_0.4_cartesian_derivative",
+      "passed": true
+    },
+    {
+      "name": "134La_0.4_derivative_convergence",
+      "passed": true
+    },
+    {
+      "name": "134La_0.4_full_local_rank",
+      "passed": true
+    },
+    {
+      "name": "134La_0.4_shape_invariants",
+      "passed": true
+    },
+    {
+      "name": "134La_0.4_normalized_shape_jacobian",
+      "passed": true
+    },
+    {
+      "name": "axial_gamma0_rank2",
+      "passed": true
+    },
+    {
+      "name": "euler_theta0_rank2",
+      "passed": true
+    },
+    {
+      "name": "spherical_unnormalized_rank0",
+      "passed": true
+    },
+    {
+      "name": "Pm_low_plane",
+      "passed": true
+    },
+    {
+      "name": "Pm_aplanar_missing_RPA",
+      "passed": true
+    },
+    {
+      "name": "Pm_upper_plane_return",
+      "passed": true
+    },
+    {
+      "name": "phi0_rows_only",
+      "passed": true
+    }
+  ],
+  "all_controls_pass": true,
+  "condition_number_range": [
+    2.7121375346853247,
+    6.677947768191861
+  ],
+  "maximum_derivative_error": 1.333129162617297e-10,
+  "limits": [
+    "Dimensionless q components are divided by C*epsilon, using radian increments and Euclidean coordinate norms.",
+    "This is local coordinate conditioning, not a mass tensor, physical mode norm, CI or RPA amplitude replay.",
+    "No phi=90 or aplanar row is decoded with the phi=0 chart.",
+    "No missing RPA energies or exact critical frequencies are interpolated; no 135Nd parameters are supplied.",
+    "Original quasiparticle/spurious-mode decomposition and actual producer remain unverified."
+  ]
+}

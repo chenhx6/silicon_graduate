@@ -3,7 +3,7 @@ type: source
 title: "Qi2009：135Nd全量子PRM、固定形变与版本参数边界"
 aliases: [Qi 2009 Nd135 PRM, 135Nd particle rotor chirality]
 created: 2026-10-23
-updated: 2026-10-23
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper
@@ -30,6 +30,10 @@ tags: [chirality, fixed-deformation, model-validity, version-boundary]
 ---
 
 # 135Nd：量子隧穿的模型解释与可观测量分层
+
+## Day24 active evidence entry
+
+本轮官方作者EPS/TeX与原PDF表示匹配，已把Fig5网格缺口缩小到positive-half-integer样点；实际fold/bin/插值和完整相干PRM波函数仍未得。见QI09-D24-001–003及[[135nd-chiral-partner-resolved-evidence-map]]，原review/撤回保持。
 
 ## Bibliographic Record
 
@@ -94,7 +98,7 @@ H=Hcoll+Hintr，Hcoll=Σ(Ik−Jk)²/(2𝓙k)，无旋惯量𝓙k=𝓙0sin²(γ�
 
 版本差异：本v1(.235,22.4,29.0)与[[lv-2019-chirality-135nd-reexamined]]所述(.24,22.2，2019再用20.2/23.5)分开；需VoR或实际原job解释差别，不能直接拼成一个参数域。
 
-原文p.7–8用P(Ki=0)/P(Ks=0)解释节点，但该核I为半整数、Eq.6/9基的K为离散半整数；未得作图网格/平滑约定时，不把图文“0”当作精确离散K=0本征投影概率。这是待核的表述/实现边界，不据此否定原模型。
+原文p.7–8用P(Ki=0)/P(Ks=0)解释节点，但该核I为半整数、Eq.6/9基的K为离散半整数。Day21尚未取得作图网格；Day24现已从官方作者EPS/PDF匹配出正半整数样点（QI09-D24-002），仍缺实际producer的fold/bin/插值合同，不能把图文“0”当作精确离散K=0本征投影概率，不据此否定原模型。
 
 ## Analytical Reconstruction
 
@@ -272,3 +276,22 @@ OpenAlex与Semantic Scholar的精确DOI记录均把可读OA指向已有arXiv稿�
 例如I14的pairingA模型M1 in/out总和约.006018/4.232328μN²，pairingB将其交换；I15为4.196162/.007678后交换。真实modelRME和能量没有变化，仅“带内/带间”依相对family映射变化。八门核codehash/solver/排列/E2score/M1互换，均过；表的|det|这里只检行列置换，不声称强度模方就恢复了相干RME的所有unitary不变量。
 
 若以某EM量定标/组织family，再把同一量算成独立验证，会循环；需要预先明确energycontinuity、实际连接或尚未用于配对的M1等约束。真正configuration assignment还须固定observedband对应、H/operators并给未定标量预测，本label例不替代该B槽。[[nuclear-chirality]]与[[signature-tip-shears-discrimination-contract]]保此范围，新needs_review:true，Day24无学分。
+
+
+## Day24正式研究：作者投影网格与有限手征窗口
+
+本轮实际回读原arXiv0812.4597v1全部16页主线文本（正文1–9、refs9–11、五图12–16），fresh视觉五图与相关公式/参数段。实际仍为tmp/day21-checkpoint053/qi-2009-0812.4597v1.pdf，SHA248546abd4a1d1597bf9ddf39cfffd5f09604802704204f0ff61647bbdb19346；raw归档槽不创建、VoR仍未核。没有重撞此前Elsevier/SUNScholar失败/空bundle端点。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| QI09-D24-001 | 官方https://arxiv.org/src/0812.4597v1本轮HTTP200、application/gzip、187831bytes，SHA9e3e5149acc47b3c6a82b922f95726b66032dcaa3df0694afc10fab3584c4707；安全检查后只读12个regular文件：paper.tex、elsarticle.cls与10个EPS。TeX仍明确写Ki0/近39/2的几处整数峰值与76keV模型劈裂；归档没有PRM code/job、原wavefunction或实验branch包。它解决表示层，不增加实验或模型独立解。 | official-author-representation-and-scope | direct-official-archive-read-as-data | arXiv0812.4597v1 source paper.tex probabilitydiscussion and memberlist | true |
+| QI09-D24-002 | fig5.eps有690个colored zero-width数据标记，分为三轴×两band×六spin的36系列，每band/axis有23/21/20/19/17/15点，对应45/2/41/2/39/2/37/2/33/2/29/2。按黑色图框/轴斜率去投影，样点与K=.5,1.5,…,I相容，最大偏差约.0669K；与原PDF16全部690标记颜色/顺序相合，经3个图框锚点固定的affine变换最大位置差约.00250pt。图样本没有literal K0点。按P轴整数坐标读得各正K系列和约.9915–1.0041，与所声明±.5绘图单位rounding合同下的1相容；不是新概率CI、精确模型归一或producer折叠约定认证。 | drawn-projection-grid-and-cross-representation-identity | actual-EPS-PDF-data-plus-bounded-coordinate-arithmetic | authorfig5.eps literalframes/coloredmarkers; storedv1PDF16 Fig5 | true |
+| QI09-D24-003 | 原v1固定β=.235、γ22.4、J0数值29能谱定标，作者称39/2处最接近静态、残余76keV为模型劈裂，较高spin返回另一振动；Fig2又承认两模型低估带间E2。作者源没有把这一参数点升为实验相界或排他验证。Ref21实际引用arXiv0709.0969v1，当前[[almehed-2011-chiral-vibrations-a135]]实际读的是v2，两版本未逐字对照，不能把v2邻核数值直接当本v1的原输入。 | fixed-input-transient-interpretation-and-version-lineage | direct-original-and-explicit-cross-source-boundary | v1PDF5–9 modeldiscussion; PDF10 Ref21; paper.tex parameter/probabilityparagraphs | true |
+
+`system/scripts/day24_qi09_projection_grid.py`纯读literal EPS命令，不执行PostScript/TeX；117个representation、rounding、nativePDF匹配和γ-sector shape-invariant控制通过。Fig5 EPS SHA728a1b079695dbef66aa9caf3730df372180848ca95ccb9b10af66af66b7b8a0；paper.tex SHAaaab1da6ab07275330e7d37bf25eabc41d74e1ae3992da205154452eb75aab76。归档只放tmp，原raw/PLAN/Bib未改。
+
+当前可消除的是“图样本究竟是否包括K0”这一表示歧义：实际识别到半整数positive-K采样，正文零点语言应保留其近原点/连续表示的待核合同。不能据此选择作者必定用了哪种bin、smoothing或fold方案，更不把单轴边缘概率、RMS箭头与signed三轴联合取向相混。完整相干波函数/actual算符、带内/带间全EM、实验normalizer仍是另一层输入，见[[135nd-chiral-partner-resolved-evidence-map]]。
+
+### Day24 checkpoint003 Agent self-audit triage
+
+P0: none identified（新增范围）。P1：QI09-D24-001的官方版本/文件清单与执行边界已核；QI09-D24-002的690marker/nativePDF匹配仅表示精度，.1K/.005pt只为解析控制而非物理模式阈值；QI09-D24-003保定标/模型/版本依赖，不以能谱定标后再现作独立无参预测。后续论文或关键问答仍按exact claim回源，全部新增needs_review:true。

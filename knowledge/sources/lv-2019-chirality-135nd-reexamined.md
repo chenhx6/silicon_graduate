@@ -3,7 +3,7 @@ type: source
 title: "Lv 等 2019：135Nd 手征重分析与多重手征双重带"
 aliases: [Lv 2019 135Nd reexamined, 135Nd positive-parity chiral doublet]
 created: 2026-09-12
-updated: 2026-10-24
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -36,6 +36,22 @@ tags: [a130, 135nd, nuclear-chirality, multiple-chiral-doublet-bands, positive-p
 ---
 
 # Lv 等（2019）：`135Nd` 手征重分析与多重手征双重带
+
+> Day24内Day25预习新增原件边界：589/649的D4目标family在同段文字有D2/D3冲突，D2两行Ei2588.3与相邻能差闭合差30keV。保持原表字面和总体正宇称/手征支持，不静默改为2558.3、不把局部歧义扩成全带否定；见LV19-D25P-001/002。
+
+## Day24内Day25预习：两个family与局部端点边界
+
+本次worker读canonical raw arXivv1全部10页/6图/TableI，root全文10页文字及PDF2/3/5/7–9关键visual；SHA `97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303`相符。worker另定向既有缓存9页VoR的024314-2/3/4/8（SHA `450a3032d7fecfdbc16f5a848be3d63842a536b0508dda73f3de55270fbf2066`），不冒全文VoR新读。新增均needs_review:true，旧flags/撤回保持；Day25只无学分preview，不修改正式课程序号。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D25P-001 | 同一D4段前句将596/673/780/919指向D3、589/649/750指向D2-3qp，后句却称589/649/780在D4与D3间为E2；两实际版本均有此文字差。保端点/表Jf歧义，1184E1与其余正family连接仍支持总体正宇称，不用此否定全带。 | direct-literal-topology-boundary | direct-original | arXivPDF2 D4paragraph/PDF3 Fig1; VoR024314-2 | true |
+| LV19-D25P-002 | D2的207.5/399.9两行印Ei2588.3；2350.8+207.5、2801.5−243.2、2158.4+399.9均2558.3，D4的3207.6−649.3也同值。2558.3只条件闭合值，不是新测量/自动改表；589.2/649.3的targetJf还需原分析澄清，不选字段强修。 | literal-tuple-plus-declared-arithmetic | direct-original-and-bounded-inference | arXivTableI PDF7–9 D2/D4rows; VoR024314-3/4 | true |
+| LV19-D25P-003 | 新152MeV JUROGAM谱学对正D3/D4及负D5/D6各有贡献；正pair只有一个D3 B比、无配对absoluteEM，负pair的absoluteB明确引MU07 Ref36，本篇新relative比相近。新采集独立性只相对MU07，不因此与PE18分开计独立campaign。未重拟MU07 DSAM/branch-normalizer，不能计新绝对寿命实验或抹去已有正支持。 | family-specific-data-lineage-and-scope | direct-original | arXivPDF2 setup/assignments; PDF5 D3/D4/D5/D6paragraphs; PDF7 Ref36 | true |
+| LV19-D25P-004 | PRM惯量J0按谱调；负D5/D6的CDFTγ22.2改为PRM20.2以再现39/2 B比增长，J0=23.5/ξ=.98；正D3/D4 β.23/γ21/J0=28/ξ=.94。这些model/calibration输入不等measuredgeometry或未触碰holdout；Harris参考11/20与PRM惯量不同。 | model-input-and-calibration-boundary | direct-original | arXivPDF4 PRM/Harrisparagraphs; PDF5 parameters/Figs3/5 | true |
+| LV19-D25P-005 | 2019 JUROGAM谱学的独立性是相对MU07 Gammasphere寿命采集；LV19 setup转Ref38、PE18同次135/136Nd产额及Lv thesis同实验描述表明与136Nd论文有campaign依赖。未得selected-event/producer/共同Cov，不宣称各核相同事件子集或完全统计独立。 | shared-campaign-and-selected-data-boundary | direct-source-crosswalk | arXivPDF2 setup/PDF7 Ref38; Lv2019thesis PDF66 printed65; PE18 canonicalPDF2–3 | true |
+
+这两family的逐列direct/model/alternative比较和最小companion设计进入[[chirality-shape-coexistence-companion-matrix]]，不把一个D3ratio当D4absoluteB。Fig6 RMS不是有符号三轴测量，源仍有真实配置支持；原字面“spin I=29ℏ”的D3单点与半整数体系边界继续保留，未替作者改字。用户既有Pr/Au/225.8P/机时撤回不动。
 
 > Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
 
@@ -70,7 +86,7 @@ Checked the official APS article page and SI routes on 2026-10-09. The landing p
 ## Evidence Chain
 
 1. `D3` 在已知 334-keV 终止位置基础上扩展至约 `33/2+`，并新增多条连向 D2-3qp 的跃迁；正文明确写其 parity based on `R_DCO`/`R_ac` 改为 positive（PDF p.2）。
-2. `D4` 的已知结构被延伸并将 spin 下调一单位；`589、649、780 keV` 的 D4↔D3 连接被判为 E2，`1184 keV` 至负宇称 D1 的连接被判为 E1，正文据此说明 D4 与 D3 同为正宇称（PDF p.2）。
+2. `D4` 的已知结构被延伸并将 spin 下调一单位；原文一处称 `589、649、780 keV` 为 D4↔D3 E2，但同段前句把589/649/750指向D2-3qp，局部目标family有歧义（新增LV19-D25P-001）。`1184 keV` 至负宇称 D1 的 E1与其余连接继续支持整体正宇称；不能把歧义三线无条件绑定到一个family（PDF p.2）。
 3. 为确认 D2–D4 的宇称，作者给出 `830、1015、1161、1184 keV` 四条连接的 IPDCO：`0.043(8)、0.089(28)、0.008(2)、0.018(5)`；正文称这些值显示 electric character，并据此 fix D2、D3、D4 的 positive parity（PDF p.2）。
 4. Table I 的 D4 行从 `21/2+→19/2+` 至 `29/2+→27/2+`，以及其续表中的 `23/2+→19/2+`、`25/2+→21/2+`、`27/2+→23/2+`、`21/2+→19/2−` 等，均与正文的正宇称 D4 叙述一致（PDF pp.8–9）。
 5. Table I 的 D3 行大部分列为正宇称，但 `334.4 keV` 一行仍写作 `27/2−→25/2+`（PDF p.8）。它与同一表 D3 的其它行、PDF p.2 的 D3 positive-parity 说明和 Fig.1 的整体标注不一致，当前只能标为残余 table-level anomaly；不能把这一孤立行当作对整条 D3 宇称的反向裁决。
@@ -81,7 +97,7 @@ Checked the official APS article page and SI routes on 2026-10-09. The landing p
 | 证据层 | 2019 PRC 的直接记录 | 与 thesis/历史论文的关系 |
 |---|---|---|
 | D3 | 正文由 `R_DCO`/`R_ac` 多条连接将 D3 改为正宇称；IPDCO 段再次把 D3 列入正宇称 D2–D4 | 吕冰峰 2019 thesis 的实验结果同段先写 changed to positive；该 thesis 的孤立负宇称句子不是后发 PRC 的结论 |
-| D4 | 正文以 D4↔D3 E2 和 D4→D1 E1 说明 D4 与 D3 同为正宇称；Table I 的 D4 行一致 | thesis physical p.127 的正/负句子冲突由此得到外部期刊版本支持；D4 不再因该文字冲突停在 `stopped` |
+| D4 | 正文以相连正宇称family的E2及D4→D1 E1支持正宇称；589/649的target和部分Ei/Jf tuple另有局部歧义，不能称全部端点一致 | thesis physical p.127 的正/负句子冲突由此得到外部期刊版本支持；D4 不再因该文字冲突停在 `stopped` |
 | D3 334.4-keV row | 表格仍保留 `27/2−→25/2+` | 作为 2019 版本内部残余 typo/表格异常保存，不扩展为整条带的负宇称结论 |
 | D5/D6 | 负宇称、既有 pair；2019 PRC 明确以此前 refs [10,36] 为谱系 | 2003 PRL 的 Band A/B 与 2007 PRL 的 electromagnetic/lifetime paper 是前史；同一物理谱系不重复计为独立实验 |
 

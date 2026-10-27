@@ -3,7 +3,7 @@ type: source
 title: "Bingfeng Lv 2019 博士论文：136Nd 与 135Nd 中的手征"
 aliases: [Bingfeng Lv chirality thesis, 136Nd 135Nd chirality thesis]
 created: 2026-09-11
-updated: 2026-09-12
+updated: 2026-10-26
 status: ai-draft
 review_status: unreviewed
 source_type: phd-thesis-experiment
@@ -168,3 +168,52 @@ TAC-CDFT 给出形变、准粒子 alignment 和 `B(M1)/B(E2)` 计算；PRM 给�
 ## Non-source Notes and Follow-up
 
 本页以实际视觉快照和章节正文为主，OCR 仅用于定位。D4 parity 的外部期刊 crosswalk 已完成；后续重点是 PRC Table I 的 D3 `334.4 keV` 局部异常、`136Nd` D5/D5-C absolute-strength evidence 和 D3/D4 的 partner-resolved strengths。未修改 raw、OCR 图片、BibTeX 或人工审核状态。
+
+## Day24内Day25预习：真实D5母态、相对强度与方法输入
+
+本轮028直接复用164页raw，SHA `84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749`相符。worker scoped连续读physicalPDF66–71（Ch4全部）、76–81（dipole段）、93–95/97（D5/C表/footnotes），另定向59–60/153–154几何、102–103比值讨论；不冒164页或全Table5.1新读。root读Ch4文本、Table93–95/97、几何与ratio关键段并视觉94/95/97/154及Fig5.6旋转crop核两条E2的parent/带内外端点。原DD-03等已有reviewflags保持，新增needs_review:true。
+
+同campaign不是新独立测量；这是真实thesis文档的细节补充，不用它冒充未取得的PRC98,044304正文，更不恢复[[petrache-2018-chiral-bands-even-even-136nd]]旧假SI的δ/absoluteB认证。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| TH19-D25P-001 | Table5.1的D5/D5-C给Eγ/Ei/Jπ、efficiency-corrected relativeIγ、部分RDCO/Rac/mode；footnoteb归一373.7keV，totalprojection/gatedspectra组合。它不提供这些态signedδ/ICC/totalBR/τ/absoluteB或逐行exactgate/Cov。 | actual-table-and-normalization-scope | directly-read-thesis | physicalPDF93–95 Table5.1; physicalPDF97 footnoteb | true |
+| TH19-D25P-002 | D5 Ei6521.8/I18+、D5-C7543.0/I20+、D5-C7927.1/I21+有下列14条打印出口；<.01是relativeI上限，不是已知coverage CI，不能删出口后把其它行归一成totalBR。daughter的Ei−Eγ计算只作条件绑定。 | parent-resolved-line-inventory | directly-read-thesis-plus-labelled-arithmetic | physicalPDF93–95 Table5.1; physicalPDF77 Fig5.6 | true |
+| TH19-D25P-003 | §3.4的名义39detectorhouses为24clover+15tapered、四polar rings；AppendixA给azimuth但非runactive-mask。TableA.1重复Q14/未另列Q17仅字面ID边界，不据此推38active或失效channel。 | geometry-and-active-producer-boundary | directly-read-thesis | physicalPDF59–60 §3.4; physicalPDF153–154 TableA.1 | true |
+| TH19-D25P-004 | Ch4给ENCAL/EFFIT、β=.0245 Doppler correction、DCO/Rac分组与TDR100MHz/10ns；TDR为event timestamp，不是D5/C ps lifetime。Eq4.10 all-angle门是本排序/校准合同，不扩成任意有限阵列的精确gate独立定理。 | processing-parameter-and-clock-scope | directly-read-thesis-and-method-boundary | physicalPDF66–71 Ch4; physicalPDF60 addbackparagraph | true |
+| TH19-D25P-005 | D5-C20+/7543.0的1021.2(.6(1))跨D5-18+与611.4(.21(10))带内E2，在源赋值/同parent可比photonresponse条件下，Bout/Bin=(.6/.21)(611.4/1021.2)^5=.21978857。τ/commonreference/E2常数消，不需完整totalBR；未得gate/Cov/coverage，非absoluteB/phase/CI或mode排他认证。 | actual-input-conditional-same-XL-ratio | source-values-plus-bounded-rate-arithmetic | physicalPDF94–95 Table5.1; physicalPDF77 Fig5.6; physicalPDF97 footnoteb | true |
+| TH19-D25P-006 | 同母态D5-C21+/7927.1的714.1(.18(4))带内到C19+/7213.0与1060.7(.8(4))跨D5到19+/6866.4均为E2；同赋值/响应条件下R21=(.8/.18)(714.1/1060.7)^5=.61468102。R21/R20中心2.79669只是描述，无Cov/coverage不报CI/显著spin变化；同campaign不同母态也不计两个独立实验。 | actual-second-parent-conditional-E2-ratio | direct-table-plus-rate-arithmetic | physicalPDF94–95 Table5.1; physicalPDF97 footnoteb | true |
+| TH19-D25P-007 | 20+打印两E2之外330为M1，不能凑第三E2；18+所选515.6/764.6/826.9三E2子集只给至多两个代数独立相对比，第三比/乘法cycle为同输入重表达，不是physical closure。951.8 E2、1330.5上限及其它出口仍在完整打印库存中；20与21的不同spin块不能拼同一2×2 EM块或补missingγ。 | subset-information-and-closure-boundary | direct-inventory-plus-labelled-algebra | physicalPDF93–95 Table5.1 | true |
+| TH19-D25P-008 | D5-C22+两E2行的Ei字面不同：812.1为8355.1，1100.5为8355.9keV；暂不合母态、不擅修表或添加R22。近能量/同spin不代替same-parent核验。 | literal-parent-identity-boundary | direct-original-visual | physicalPDF94–95 Table5.1 | true |
+| TH19-D25P-009 | 以已核四线(o20,i20,o21,i21)作任务响应分析，lnR20/lnR21/lnD的方向分别(1,−1,0,0)/(0,0,1,−1)/(−1,1,1,−1)；真正共有的normalizer/scale消，逐线gate/加性背景不消。共同效率f=(E/E*)^s子模型中lnD斜率为−.117320938；不拟合s，不排一般系统学，不是thesis报告的新实验结果。 | explicitly-task-derived-joint-response-contract | verified-source-input-plus-continuous-inference | physicalPDF94–95 Table5.1; physicalPDF97 footnoteb; task040 | true |
+
+### 逐母态打印行：没有把未知列填成零
+
+Iγ以373.7keV参考归一；下表Jf均为源赋值，family仅在Fig5.6/链能差支持处填写。δ、ICC、totalBR、τ、absoluteB、逐线exactgate/背景/联合Cov均unknown。e/f只标DCO门类，不是Iγ唯一门谱标识。
+
+|parent（family/Ei/Jπ）|Eγ keV|Iγ|mode|Jfπ|已核/条件daughter|
+|---|---:|---|---|---|---|
+|D5/6521.8/18+|283.8|2.5(4)|M1/E2|17+|D5 6238.0|
+|同上|515.6|.35(10)|E2|16+|D5 6006.2|
+|同上|579.8|1.01(8)|M1/E2|17+|Ei−Eγ=5942.0；family未指定|
+|同上|764.6|1.9(2)|E2|16+|Ei−Eγ=5757.2；不自动当D5带内|
+|同上|826.9|2.7(3)|E2|16+|Ei−Eγ=5694.9；family未指定|
+|同上|951.8|.16(2)|E2|16+|Ei−Eγ=5569.9；family未指定|
+|同上|1330.5|<.01|E2|16+|Ei−Eγ=5191.2；coverage未知|
+|D5-C/7543.0/20+|330.0|.42(9)|M1|19+|D5-C 7213.0|
+|同上|611.4|.21(10)|E2|18+|D5-C；6931.6为条件能差|
+|同上|1021.2|.6(1)|E2|18+|D5 6521.8|
+|D5-C/7927.1/21+|384.1|.6(1)|M1/E2|20+|D5-C 7543.0|
+|同上|672.5|.5(2)|M1/E2|20+|D5 7254.6；不是E2带内crossover|
+|同上|714.1|.18(4)|E2|19+|D5-C 7213.0|
+|同上|1060.7|.8(4)|E2|19+|D5 6866.4|
+
+1021.2/611.4的相对光子强度中心比2.85714，E⁵因子.076926，故上述条件E2比.21978857。源给一线很大相对误差、且共参考/门/efficiency可能相关；不自行选ρ=0或给Gaussian CI。这个可算比不要求已知τ或完整totalBR，不能把“缺τ限制绝对强度”误写成所有relativeEM均不可算。
+
+### 具体几何与处理合同
+
+名义rings为12clovers@75.5°、12clovers@104.5°、10tapered@133.6°、5tapered@157.6°。TableA.1 φ0向上、从upstream看顺时针增大；Q14在φ45/135两行重复，不擅改原ID。没有各run的activecrystals/deadtime/cuts记录，不能以名义geometry认证actualactive response。
+
+Ch4以ENCAL二次能量标定、EFFIT Eq4.2及A6.2/B1.8/C0/D5.5/E.6/F0/G20描述效率曲线；这些不是逐run完整校准/单位归一/Cov表，Iγ已经声明作效率修正，不从示例参数另造绝对计数率。Doppler统一β=.0245、clover200ns addback是数据处理，不是DSAM停止/寿命重放。RDCO用157.6与近90组，Rac用133.6+157.6对75.5+104.5并取同all-angle门/按角组效率归一；typical.8/1.4限本response，不跨阵列搬。
+
+Fig5.11给D5的230/284/345/388/463组合doublegate谱，但Tablefootnote称Iγ由多种projection/gates合取，不能把所有14行的exactgate补为这张图。该表只缩小实际输入缺口，完整response/Cov/clock及signedEM仍未闭合。方法迁移到[[133ce-thesis-analysis-blueprint]]时不能搬这些值或共同campaign；它只说明实际observed denominator与energy-only候选必须分开。

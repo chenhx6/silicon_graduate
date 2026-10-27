@@ -214,3 +214,23 @@ S被破后不能把其期待值当精确量子数，源模型选择关系也不�
 ## Day24正式研究入口：伙伴分辨与模型有效域
 
 [[135nd-chiral-partner-resolved-evidence-map]]把已有预习与本轮原件回读接为一张实验/TAC-RPA/推断矩阵：保留135Nd实验正支持、拆开谐振共同带内曲线与独立观测、保留近临界非谐及counter-model输入边界。来源为[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24-001/002与[[frauendorf-meng-1997-tilted-rotation-chirality]] FM97-D24-001/002；新综合needs_review:true。Day23预习身份保持，课程信用仍按正式runner门。
+
+
+## Day24：临界转频的模型域
+
+[[olbratowski-2002-critical-frequency-preprint]] OL02-D24-001/002/004在明确2002v1版本的固定gyro/常惯量均匀转动中给出ωcrit，并保留132La HF起始与实验候选转频的张力及planar/axial-l备选。这个onset是模型分支条件；与RPA零频、有限核隧穿gap和实验spin判据的关系必须另核，不能跨核搬.51464或.6MeV。原2004正式body未核，早期稿字面歧义不判成已发布论文错误。
+
+## Day24：集体量子化及有限本征态
+
+[[chen-2013-collective-hamiltonian-chiral-modes]] CH13-D24-001–009在示意固定γ体系量子化φ，补有限跨井波函数与gap；Pauli算符、√B测度和盒边界必须配套。偶/奇φ本征态恢复左右反射，static regime不等永久单手的非简并能量本征态；φ偶/奇也不是核空间宇称。原PRM高频再劈裂是该一维模型遗漏second vibration的直接边界，固定ω比较也不等same-I实验gap。其目标核迁移和四替代解释的需求记在[[135nd-chiral-partner-resolved-evidence-map]]，不迁移示意阈值或视作新实验。
+
+[[chen-2016-two-dimensional-collective-chiral-wobbling]] CH16-D24-001/004/007–011保θ/φ和交叉质量，实际展示高频gap重开及PRM高spin对照，但改periodic边界且低spin需假定Ω修质量；晚期LW为作者特定模式解释，不与chirality同义。两篇方法对照、测度与端点域的条件边界保存在上述partner map；CH13-D24-010的synthetic组件不替作者producer或真实核输入。
+
+
+[[wu-2018-two-dimensional-collective-electromagnetic-transitions]] WU18-D24-001/003/006/009进一步把EM输出分层：单态概率平均局部TAC带内B可有涨落修正，但不等coherent跨态RME/相位/全选择规则；PRM的odd-even strength staggering仍未复现。不能只从相近B曲线或折叠角均值认证完整手征EM网络，实际benchmark支持和失败一同保留。
+
+[[chen-2017-128cs-angular-momentum-projection-chirality]] CH17-D24-001–008提供good-I/N/Z投影和有限κ/K混合的对照；g=N^1/2f、K折叠概率与先相干的azimuthal构造分开。实际跨M1输出不等已交付全部EMkernel或纳入全部shape/配置；高spin E2偏离保留。Euler/Haar测度和角原点不能与CH detB/推转角混用，详[[135nd-chiral-partner-resolved-evidence-map]]。
+
+## Day24：动态手征与核形状涨落
+
+[[tonev-2006-134pr-lifetime-chiral]] TO06-D24-003/004/005报告134Pr候选两带的带内B(E2)不对称和无明显M1交错。作者据此限制理想静态手征解释，并比较特定TQPTR与包含形状涨落的IBFFM计算；模型中的取向/形状概率不是直接测量。[[tonev-2007-134pr-dynamic-chirality]] TO07-D24-006的进一步解释须连同能隙与crossing失败阅读，不能写为“已彻底证明唯一动力学机制”。不同核的真实EM支持各自保留，见[[chirality-shape-coexistence-companion-matrix]]与[[135nd-chiral-partner-resolved-evidence-map]]；新增综合needs_review:true。

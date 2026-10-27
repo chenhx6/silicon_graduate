@@ -1,0 +1,155 @@
+{
+  "observed_at": "2026-10-27T05:48:27.934121+00:00",
+  "kind": "readiness-draft-not-credit",
+  "day_index": 24,
+  "formal_credit_applied": false,
+  "rows": [
+    {
+      "deliverable": "回忆：三角动量、左右手、振动/静态",
+      "evidence": [
+        "recall-001.md",
+        "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md#FM97-D24-001",
+        "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md#模型有效域及所用输入"
+      ],
+      "boundary": "recall为Wiki primed，非盲测分数；有限量子体系与均场简并分开",
+      "locator_checks": [
+        {
+          "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/recall-001.md",
+          "exists": true,
+          "anchor": null,
+          "anchor_present": true
+        },
+        {
+          "path": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+          "exists": true,
+          "anchor": "FM97-D24-001",
+          "anchor_present": true
+        },
+        {
+          "path": "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md",
+          "exists": true,
+          "anchor": "模型有效域及所用输入",
+          "anchor_present": true
+        }
+      ],
+      "status": "ready-for-closeout-audit-not-credited"
+    },
+    {
+      "deliverable": "指定主线原读",
+      "evidence": [
+        "knowledge/concepts/nuclear-chirality.md",
+        "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md#FM97-D24-002",
+        "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md#MU07-D24-001"
+      ],
+      "boundary": "原读/模型比较不等producer复现",
+      "locator_checks": [
+        {
+          "path": "knowledge/concepts/nuclear-chirality.md",
+          "exists": true,
+          "anchor": null,
+          "anchor_present": true
+        },
+        {
+          "path": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+          "exists": true,
+          "anchor": "FM97-D24-002",
+          "anchor_present": true
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "exists": true,
+          "anchor": "MU07-D24-001",
+          "anchor_present": true
+        }
+      ],
+      "status": "ready-for-closeout-audit-not-credited"
+    },
+    {
+      "deliverable": "energy/B(M1)/B(E2)/geometry/g逐伙伴图",
+      "evidence": [
+        "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md#伙伴带观测账本",
+        "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md#MU07-D24-001"
+      ],
+      "boundary": "g当前unknown；实验派生B与模型几何分层，不补g或Cov",
+      "locator_checks": [
+        {
+          "path": "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md",
+          "exists": true,
+          "anchor": "伙伴带观测账本",
+          "anchor_present": true
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "exists": true,
+          "anchor": "MU07-D24-001",
+          "anchor_present": true
+        }
+      ],
+      "status": "ready-for-closeout-audit-not-credited"
+    },
+    {
+      "deliverable": "四条竞争路线检查",
+      "evidence": [
+        "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md#四条竞争路线与可证伪输入",
+        "knowledge/sources/tonev-2007-134pr-dynamic-chirality.md#TO07-D24-009",
+        "knowledge/sources/tonev-2007-134pr-dynamic-chirality.md#TO07-D24-010"
+      ],
+      "boundary": "未实际完成四套135Nd替代fit；134Pr只作有界方法反例",
+      "locator_checks": [
+        {
+          "path": "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md",
+          "exists": true,
+          "anchor": "四条竞争路线与可证伪输入",
+          "anchor_present": true
+        },
+        {
+          "path": "knowledge/sources/tonev-2007-134pr-dynamic-chirality.md",
+          "exists": true,
+          "anchor": "TO07-D24-009",
+          "anchor_present": true
+        },
+        {
+          "path": "knowledge/sources/tonev-2007-134pr-dynamic-chirality.md",
+          "exists": true,
+          "anchor": "TO07-D24-010",
+          "anchor_present": true
+        }
+      ],
+      "status": "ready-for-closeout-audit-not-credited"
+    },
+    {
+      "deliverable": "实验/TAC-RPA/任务推断分层交付及定量练习",
+      "evidence": [
+        "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md#近似阶次练习：等强来自什么",
+        "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md#MU07-D24-002"
+      ],
+      "boundary": "练习非实核拟合；TAC共同曲线不重复计证据",
+      "locator_checks": [
+        {
+          "path": "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md",
+          "exists": true,
+          "anchor": "近似阶次练习：等强来自什么",
+          "anchor_present": true
+        },
+        {
+          "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+          "exists": true,
+          "anchor": "MU07-D24-002",
+          "anchor_present": true
+        }
+      ],
+      "status": "ready-for-closeout-audit-not-credited"
+    }
+  ],
+  "next_day_preview_only": 25,
+  "closed_day": 26,
+  "future_gates": [
+    "actual closeout time",
+    "fresh report and exactly one writeback",
+    "lint/boundary/diff",
+    "original same-session finalizer with actual clock delivery",
+    "non-force exact-path H3 publication"
+  ],
+  "initial_draft_locator_failure": "third deliverable used nonexistent guessed heading 逐伙伴观测账本; corrected to actual 伙伴带观测账本 after direct read",
+  "all_artifacts_located": true
+}

@@ -3,7 +3,7 @@ type: source
 title: "Lifetimes of Excited Levels in 131Ce"
 aliases: [Li 2004 131Ce lifetimes, Guang-Sheng Li 2004]
 created: 2026-07-28
-updated: 2026-09-28
+updated: 2026-10-26
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -195,3 +195,19 @@ The Ce isotope trend mixes different odd/even systems and reference configuratio
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | LI04-D20-R146-1 | Li原27/2−为1.23(23)ps、Qt2.72(25)eb；Singh Present同态为1.25(+.41/−.25)ps、Qt2.26(+.37/−.23)eb，两篇换算约定不能直接等同。143自设2.58(12)计算Z=.505不对应原同态对账；小Z也不能排除共同系统误差。正负宇称平均Qt之比及其平方非匹配态实际B比，更不独自证明显著形状分岔。 | cross-source-identity-and-statistics-correction | source-and-bounded-self-audit | LI04-D20-R33-1/R33-2; Singh2016 PDF5 Table1 | true |
+
+
+## Day24：寿命逐态引用与133Ce迁移合同
+
+本轮leader以fresh渲染逐页视觉读原3页全文、Fig1–3/Table1，文本损坏时以图像为准，raw SHA与页首相符。LI04-1–4既有用户审核状态保持；新增仅Codex self-audit、needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LI04-D24-001 | Table1的8个寿命条目属于两条相反宇称参考序列：负19/2、23/2、27/2、31/2分别对应642/750/827/892keV；正13/2、17/2、21/2、25/2对应610/725/796/649keV。五个有限τ、一个下界及两个未作feeding correction的effective上界不能混作同一统计样本，更不是同宇称chiral partner两带的完整EM矩阵。 | state-edge-clock-type-and-scope | direct-original-visual | PDF2 printed462 Fig1 and boundparagraph; PDF3 printed463 Table1 | true |
+| LI04-D24-002 | 选择Fig1绘出的7/2+为重建零点，依整数γ标签可算负9/2=162、11/2=300、15/2=810、19/2=1452、23/2=2202、27/2=3029、31/2=3921keV；正9/2=257、13/2=867、17/2=1592、21/2=2388、25/2=3037keV。它是本任务rounded-sum ledger，不是论文另列的精确Ex/误差。Li的负27/2τ1.23(23)在Singh2016 Ref32列复用，而该列Qt按Singh约定再算；不增加独立寿命票，不借新Qt反写Li原表或其实际K/producer。 | conditional-energy-ledger-and-data-lineage | direct-original-plus-declared-arithmetic | PDF2 printed462 Fig1; PDF3 printed463 Table1; SI16PDF5 Table1 Ref32 | true |
+
+本轮typed ledger记录在li04-state-ledger-005.json；可复用方法、逐态表及目标核字段保存在[[133ce-thesis-analysis-blueprint]]，与[[singh-2016-lifetime-131ce-133pr]] SI16-D24-001/002对照。只迁移identity/clock/feeding/branch审计步骤，不把任何131Ce τ、Qt、能量或band号填入133Ce。
+
+### Day24 checkpoint005 Agent self-audit triage
+
+P0: none identified（新增范围）。P1：原图/表的初末态、finite/limit和effective标签已视觉核；相反宇称不冒同宇称伙伴，rounded能量不冒精确Ex，复用τ/重算Qt不当新实验。实际branch/ICC/共同Cov与Li producer仍缺，原review记录不变。

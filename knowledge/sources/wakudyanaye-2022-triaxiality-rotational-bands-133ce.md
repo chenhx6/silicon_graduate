@@ -111,3 +111,123 @@ Ref62已取得并读[[ragnarsson-semmes-1988-particle-rotor-moments]] RS88-02–
 ### Day24 checkpoint001 Agent self-audit triage
 
 P0: none identified（本次新增范围无未隔离技术hard P0）。P1：WK22-35对PDF59/61原字面回核；接受度数学的假设/actualmask缺口保存于133ce-thesis-analysis-blueprint，非实测response。后续论文/关键问答仍按具体claim回源，未触发用户人审事件。
+
+
+## Day24：目标母态九边合同与覆盖上界
+
+独立worker回读相关Ch5/6连续段，视觉核Fig5.1/Table5.2/Table6.11；leader抽核fresh PDF66/67 Table5.1/5.2。不是新称全文130页重读。原raw SHA48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080相符，新增needs_review:true。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WK22-36 | 三个Band4母态832.0/13/2−、1409.8/17/2−、1809.1/19/2−的Table5.2所列出口可构成9条实际边。624.6/582.7/464.4的Band1终态分别207.4/11/2−、827.1/15/2−、1344.7/17/2−；794.8、577.8、608.3、982.0为相应observed E2 reference候选，982.0确为1809.1→827.1而非能差虚构。9/2−的37.2在本thesis为207.4−170.2/592.1−554.9的派生decimal，Fig5.1只印37；不反写成Table5.1独立Ex行。582 out/out仍缺，817.7仍仅能差，625 out/in破折号不填0。 | source-scoped-node-edge-and-missing-cell | direct-original-plus-explicit-energy-arithmetic | PDF65 Fig5.1; PDF66 Table5.1; PDF67 Table5.2; PDF112 Table6.11 | true |
+| WK22-37 | 本论文讨论low-lying1qp结构但含较高spin延伸：Table5.1 Band1到35/2−5401.8，未列33/2行；Table5.2 Band4到27/2−3616.2。Tables6.7/6.8及Fig6.12/6.13的spin演化属于原九轨道1qp QTR内组分混合，不能单据这种变化或高spin范围宣称观测到3qp pair crossing。本原件没有交付可迁移的3qp/crossing producer。 | observed-coverage-versus-model-space-boundary | direct-original-and-bounded-scope | PDF66/67 Tables5.1/5.2; PDF102–106 Tables6.7/6.8 Figs6.12/6.13 | true |
+
+[[133ce-thesis-analysis-blueprint]]保存九条observed边及131Ce真实寿命参考的迁移字段；不同母态/核素/同号band不混合。目标parent的meanτ、完整BR/ICC/Cov与实际响应仍需独立输入；Au背衬/相对Iγ并非本文已测DSAM的证据。
+
+
+## Day24：历史方法、参数引用与actual代码版本分层
+
+worker定向读并视觉核原PDF49/50/78/120/124/128，leader另fresh视觉PDF49/124/128。此006时点LLR1978原body仍0页；当时Crossref/INSPIRE只核书目，不用摘要补公式。后续用户新原件与032方法原读另记如下，不回填旧阅读。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WK22-38 | §3.4称QTR codes of Ragnarson and Semmes [39,40]并列GAMPN→ASYMO→PROBMO；bibliography Ref39实际为Larsson1973势能面文、Ref40为Larsson/Leander/Ragnarsson1978 NPA307189–223，Ragnarsson/Semmes1988另Ref62。Nilsson κ/μ正文另引Ref11 Bengtsson/Ragnarsson1985；惯量/Harris另引[30,48]。这些是分别的formalism/参数/程序叙述，不能合成已核2022actual code版本或替作者自动修引文。 | literal-reference-layer-and-producer-boundary | direct-original-and-metadata-scope | PDF49 §3.4/3.4.1; PDF50 §3.4.2; PDF120 Ref11; PDF124 Ref39/40; PDF128 Ref62 | true |
+
+LLR1978身份新核为*Nuclear core-quasiparticle coupling*、DOI10.1016/0375-9474(78)90613-9，189–223共35页；006时正文未得、实际阅读0页、无body SHA/公式locator。RS88是已另读的方法，不充当1978body或2022producer。ε表MeV约5–6与正Ce λ50.6的共同零点/接口、负parityλ、ε4 .1/.01、complete signedEM仍保持missing，不能由历史引文或ħω近8补齐。可复用出处矩阵在[[133ce-thesis-analysis-blueprint]]。
+
+
+## Day24续接032：Ref40原件现已可读，actual代码边界不变
+
+[[larsson-1978-nuclear-core-quasiparticle-coupling]] LLR78-D24-001–010保存新用户原件SHA/实际方法读区，以及§2.3 Eqs8–17和AppendixA1–16的显式矩阵/EM核。它关闭历史formalism body缺口，不自动关闭WK22-38的actual程序版本/输入/参数零点边界。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WK22-39 | 本thesis Eqs3.17–3.24与新已读Ref40的D2/coherent basis、B和core+particle EM可作字段级比较；Ref40给explicit real signed核但不提供2022三程序actualheader/input/output。单竖线/RME记号、单位/phase及BCS处方需actual导出核对，ε4/ε−λ零点/negativeλ不因引用谱系自动修正。 | cross-source-method-contract-and-actual-boundary | direct-thesis-plus-direct-historical-method | physicalPDF47–48 Eqs3.17–3.24; physicalPDF49 §3.4; Ref40 AppendixA1–A4 | true |
+
+具体可恢复字段与仍缺数据见[[133ce-thesis-analysis-blueprint]]“1978原方法的新原件”；此处新claim needs_review:true，既有review和withdrawal不变。
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WK22-40 | Eq3.22字面称M1 moment，Eq3.23为标准球谐积分，Eq3.21/3.24印单竖线；与L78的前因子可建立明确conditional归一字典，但未得到actual PROBMO字段属于bare/standard、full/reduced或何单位的证据。M1/E2须一起按定义转换，不凭排版省略指责代码漏因子。 | direct-literal-plus-task-normalization-dictionary | direct-thesis-and-conditional-algebra | physicalPDF48 Eqs3.21–3.24; Ref40 AppendixA1–A4 | true |
+
+具体条件比例见[[larsson-1978-nuclear-core-quasiparticle-coupling]] LLR78-D24-021/022；普通ME/RME的既有RS88-18不重复包装为新定理。actualheader与signed transition export仍须独立核，不改原thesis或已有数值。
+
+
+历史定义再核：[[leander-larsson-1975-potential-energy-surfaces-n-equals-z]] LL75-D24-003/004补出CG-reduced角ME与轴向同态Q-like的具体例；不是本thesis实际PROBMO输出已采用该约定。Ref40的Ref23原件已取得/原读，不再沿旧未得记录空转，完整三轴/actual库的缺口另保。
+
+
+## Day24续接：Ref11参数原文及实际消费边界
+
+[[bengtsson-ragnarsson-1985-rotational-bands-particle-hole]] BR85-D24-001–006已从69页原件methods及全主线核到Table1 κ/μ的N_rot行/pn列与选参语境；这关闭“standard parameters只见引用”的来源缺口，不自动识别GAMPN实际卡。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WK22-41 | §3.4.1说采用Ref11 standard Nilsson κ/μ，Ref11实际Table1按N_rot及proton/neutron分列且连特定stretched势/近似空间；历史数表和适用域现可原核。2022各轨道如何映壳、是否改表及BCS/ε−λ共同零点/header未交，不因引表自动恢复actualinput。 | direct-parameter-reference-plus-original-context | direct-thesis-and-original-parameter-source | physicalPDF49 §3.4.1; Ref11 physicalPDF5–6 Eq7/Table1 | true |
+
+例如历史N_rot4/5 neutronκμ分别(.070,.39)/(.062,.43)，不是本thesis逐νID的已恢复输入；μ也不是λF。具体原表及虚交叉/固定组态语境见BR85源页；不由高spin no-pairing方法删本thesis BCS。
+
+
+## Day24续接：particle–hole等谱的Ref51实际适用域
+
+[[meyer-ter-vehn-1975-triaxial-rotor-particle-model]] MTV75-D24-001–012现原读PartI全主线；PartII不是同一篇。该原定理有single-j/εj=0、ph二维空间、同core与配对/轴变换合同；不是仅凭Eq3.14的rotor形式就推出实际Eq3.16多轨道Nilsson job严格等谱。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WK22-42 | PDF48开头称particle(ε2,γ,λF)与hole(ε2,60°−γ,−λF)相同谱、引Ref51。原Ref51限定single-j/εj0并同时变配对符号和轴、要求core/ph协变；本thesis actual多轨道/ε4/BCS/Harris输入尚未证明同算符等式。保原简述，不能据它认证实际两组态等谱或δ不变。 | literal-claim-and-original-theorem-domain | direct-thesis-plus-direct-Ref51 | physicalPDF48 firstparagraph; Ref51 PDF4–11 Eqs2.6/2.19–2.22/2.40–2.51 | true |
+
+λ在实际绝对offset E0下应反射2E0−λ，不能把正50.6盲取负，更不是负π λ；原模型对应E2 odd/M1 even与signedδ变号亦只限原映射/算符。数学可闭合项和actual输入unknown分别见蓝本/Ref51源页，未判程序错误，未改原数据或旧人审。
+
+
+## Day24续接：Ref52的实核应用与标准参数边界
+
+[[meyer-ter-vehn-1975-odd-a-unique-parity-comparison]]已获得并读真实PartII25页，其§3.2.4/Fig9直接比较历史133Ce负宇称谱，不是本thesis低/高spin数据的独立复测。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WK22-43 | Ref52为Meyer-ter-Vehn1975(II) NPA249141–165。原应用标准取参含邻芯选择、odd-A侧别及壳内λfit；Fig9历史11/2零点、9/2失败和βγ两例需原样保留。它不提供本thesis actual负宇称λ或2022程序导出，也不把历史effectiveγ证明为无涨落形状。 | reference-identity-and-actual-input-boundary | direct-thesis-bibliography-and-direct-Ref52 | physicalPDF126 Ref52; Ref52 PDF3–4/PDF18–19 | true |
+
+Ref52的PES论证是指定模型下定性解释，原文明确rigid形状不宜照字面取、暂无定量结论；见MTVII75-D24-012–015。实际参数/波函数/EM和observed分母合同仍保持各自缺口。
+
+
+## Day24续接：早期原实验只支持已绑定的节点与线
+
+[[gizon-1974-deformed-states-cerium-neodymium]]真实primary提供不同参考下的低负谱和55°相对Iγ，其旧ground/isomer未定。原1163.6−170≈994及1163.6≈1164可解释Ref52图数；现代37.2仅本thesis能差派生，暂定平移不认证整带。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WK22-44 | 本thesis582 out/out所需同母ΔI2outreference仍未确认。Gizon1974 Table4实际有unassigned817.3/582.2/624.8/464.6光子线，但未绑定本thesis832.0/1409.8/1809.1母态，不能据近能把现代energy-only817.7升级observedreference或填相对I。 | cross-source-observed-line-versus-edge-boundary | direct-thesis-and-direct-historical-ledger | physicalPDF67 Table5.2; physicalPDF112 Table6.11; Gizon1974 PDF16–17 Table4 | true |
+
+低支态1163.6/608.7对1200.8→592.1只构成node/edge候选，源GZ74-D24-009–012与蓝本保存真实zero、branch、tentative与图表差异。旧AD/δ不替本run角响应或2022signedexport。
+
+
+## Day24续接：派生37.2与后查评估的证据类型
+
+[[nndc-2011-133ce-low-level-reference-records]]给当前服务所载2011adopted实际L记录，并未改本thesis原数据。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WK22-45 | 本thesis9/2−37.2此前由两能差派生；本轮另查2011ENSDF adopted真实给37.2(7)keV/9/2−/5.1(3)h、GS0/1/2+/97(4)min。中心数相同不让thesis派生行继承评估误差/独立性；reaction子记录37.3(6)/4.9(4)为另一固定anchor版本，不能平均或改表。 | cross-source-reference-and-provenance | direct-thesis-plus-actual-evaluation | physicalPDF65 Fig5.1; physicalPDF66 Table5.1; ENSDF133058001 line62; ENSDF133058001 line67; ENSDF133058014 line84 | true |
+
+实际Cov、ITbranch与absoluteanchor首测路径不由同源UI补全；详N133CE11-D24-004–008。582分母、现代母末态映射及actual程序能量零点继续各自检验。
+
+
+Day24 primary link: [[butler-1975-la129-la131-rd-lifetimes]]
+
+
+## Day24续接：同反应RDDS原件与数据库T定义
+
+[[emediato-1997-133ce-rdds-lifetimes]] EM97-D24-001–009取得1997原件：170keV τ76(3)ps与ENSDF 52.7(2.1)ps的ln2关系，未把评估T当原始τ。该源只覆盖列出态，正/负三qp时钟、纯M1、双placement、完整Cov/ICC边界按原文保留；不填本thesis 582分母、现代高spin母态或GAMPN。
+
+
+## Day24续接：高自旋Joss1998时钟与现代Band身份边界
+
+[[joss-1998-133ce-triaxial-band-lifetimes]] JO98-D24-001–010的高spin DSAM四条τ/Q_t提供独立于1997低spin RDDS的时钟，但高spin标签缺低能link，不能自动映射ENSDF BandF或WK22 832/1409/1809母态。Qt≈2.2(.1)与TRS γ/β转换保模型依赖、阻停系统学、sidefeeding和缺Cov，不作为静态γ/手征证明。
+
+## Day24原页复核：正宇称跨带边与母态
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WK22-46 | Table5.4两条跨Band3→Band2连接均出自1445.8 keV/13/2+母态：412.4 keV到1033.4/11/2+，Iγ=.20(9)、M1+E2；767.7 keV到678.1/9/2+，Iγ=.58(7)、E2。1459.9/13/2+属于Table5.3 Band2，其所列出口为426.4/781.8，不能把412.4指给该母态或造1047.5节点。 | direct-transition-identity-and-correction | direct-original-plus-explicit-energy-arithmetic | physicalPDF71 Table5.4 | true |
+
+098直接回读physicalPDF69/71并视觉复核Table5.4；14.1 keV仅为两13/2+的中央能差，未在此拟合混合矩阵元或交叉频率。错误扩写的原副本保存在本run pre-correction-098，现行知识以原表为准。

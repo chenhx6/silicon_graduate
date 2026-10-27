@@ -61,6 +61,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 每份实质周测报告有 `Selection audit`，记录运行类型、是否计入轮次、候选覆盖类别、两个槽位、核心来源指纹/重叠、冷却或 deferred 原因、新增知识和 belief revision；其它重要问题写入 `Deferred important issues`。
 - [ ] 核素问题在适用时比较同位素和同中子素；L3 只使用合法、可核验的 Nature-first 获取路径和 Agent 管理的 `raw/papers/gpt/**`、`raw/zotero/gpt.bib`；关键 SI 才下载，`wiki-inbox.bib` 永不修改/暂存。
 - [ ] 一般 L4 只生成 `outputs/l4/<issue>-<date>/report.md` readiness（`ready`/`partial`/`not-ready`）；30 天 Docker daily-learning 可在输入齐全时直接执行 L4，`partial`/`not-ready` 仍如实记录，不生成代理结果。
+- [ ] `daily-learning` 已按用户长期授权自动获取应学正文、SI、必要附件/数据/代码等资源；未重复询问下载/SI偏好，未因外部skill的通用SI确认提示中断学习；真实不可得输入已记录并转可解析路线。
 - [ ] 每日 runner 每次调用 `codex exec` 创建新 session；`run.json` 含 `session_id`、`session_mode: new-session-per-run` 和 `resume_command`（若 CLI 返回 session ID）。
 - [ ] 已有交互式日学习 session 使用 `run_learning_session_clock.py` 时，先检查 dry-run、receipt/session 身份与次日 15:00 截止；同一计时进程持有 daemon/runner 锁，只向既有会话排队，不创建 session 或推进 state。心跳、队列接受和实际执行分别留证；普通checkpoint最多一条未确认，后续合并，hard-cutoff独立保留。整轮receipt completed立即退出，卡内容complete仍running；旧消息送达不得重开已完成run。用户停止时一并停止计时监督。
 - [ ] Docker daily-learning 只由 daemon 或用户显式启动的前台等待器之一持有时钟；手动等待器共用 daemon 单实例锁、记录 heartbeat/session/exit receipt，并明确不能唤醒休眠的主机或容器；Ctrl+C 在等待阶段不标记 runner 启动，在运行阶段记录失败/130。

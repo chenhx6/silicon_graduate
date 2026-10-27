@@ -1,0 +1,603 @@
+{
+  "kind": "read-only-existing-source-fingerprint-audit",
+  "observed_at": "2026-10-27T05:52:23.622141+00:00",
+  "scope": "metadata/file fingerprints only, not scientific reread or new source intake",
+  "sources": [
+    {
+      "source": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b",
+      "checked_files": [
+        {
+          "path": "raw/papers/2011_Almehed_ChiralVibrations_A135_arxiv07090969v2.pdf",
+          "exists": false
+        },
+        {
+          "path": "tmp/day21-checkpoint051/almehed-2011-arxiv07090969v2.pdf",
+          "exists": true,
+          "bytes": 487253,
+          "sha256": "becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b",
+          "matches_declared_raw_sha256": true,
+          "locator": "actual path stated in source Bibliographic Record body"
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "storage_status": null,
+      "declared_hash": "B50C22877418DE560F06002588BB46D34F5BA670C6880E30A89D1509C79AD8C1",
+      "checked_files": [
+        {
+          "path": "raw/papers/degree dissertation/Band structures of 131Ce.pdf",
+          "exists": true,
+          "bytes": 769364,
+          "sha256": "b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "storage_status": null,
+      "declared_hash": "91EC60DFA43E7D8748276E18327028D8EABDF6C5047682726B0DA4A656D5E837",
+      "checked_files": [
+        {
+          "path": "raw/papers/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 2.pdf",
+          "exists": true,
+          "bytes": 479159,
+          "sha256": "91ec60dfa43e7d8748276e18327028d8eabdf6c5047682726b0da4a656d5e837",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/bengtsson-ragnarsson-1985-rotational-bands-particle-hole.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "605e785734279f1a7a6dfd234f1d3ff6b136f983b134ccf9d6b766f3b027d6b8",
+      "checked_files": [
+        {
+          "path": "tmp/day24-bengtsson1985-046/attachment-object-response.pdf",
+          "exists": true,
+          "bytes": 4596459,
+          "sha256": "605e785734279f1a7a6dfd234f1d3ff6b136f983b134ccf9d6b766f3b027d6b8",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/1985_Bengtsson_Ragnarsson_RotationalBandsParticleHole.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/butler-1975-la129-la131-rd-lifetimes.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "231b6f427ac9bdd15688bf373959d2dff63dd7e694ee2dbb9b12cc0186ba8e0a",
+      "checked_files": [
+        {
+          "path": "tmp/day24-butler1975-la129-la131-lifetimes-071/attachment-object-response.pdf",
+          "exists": true,
+          "bytes": 268368,
+          "sha256": "231b6f427ac9bdd15688bf373959d2dff63dd7e694ee2dbb9b12cc0186ba8e0a",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/1975_Butler_TriaxialShapes_LightLa.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/chen-2013-collective-hamiltonian-chiral-modes.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "bef6182263a6282ea6c4fc3e2fbae481bbf629e484dbf9668e3ea9e622342a2c",
+      "checked_files": [
+        {
+          "path": "tmp/day24-collective-chiral-008/chen2013-collective-chiral-arxiv.pdf",
+          "exists": true,
+          "bytes": 987932,
+          "sha256": "bef6182263a6282ea6c4fc3e2fbae481bbf629e484dbf9668e3ea9e622342a2c",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/2013_Chen_CollectiveHamiltonianChiralModes_arxiv12122313v2.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/chen-2016-two-dimensional-collective-chiral-wobbling.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "158efcad3d6f9c69ec61ee3a427ace3aa54ba0e6be7dfbb6419226f3078332be",
+      "checked_files": [
+        {
+          "path": "tmp/day24-chiral-2d-012/chen2016-2d-arxiv160906967v2.pdf",
+          "exists": true,
+          "bytes": 6543288,
+          "sha256": "158efcad3d6f9c69ec61ee3a427ace3aa54ba0e6be7dfbb6419226f3078332be",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/2016_Chen_TwoDimensionalCollectiveChiralWobbling_arxiv160906967v2.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/chen-2017-128cs-angular-momentum-projection-chirality.md",
+      "storage_status": null,
+      "declared_hash": "d176aed6be49e350c18d130ec388383b680da9844173f4e0b386cb34f0c676c6",
+      "checked_files": [
+        {
+          "path": "raw/papers/codex-day10/chen-2017-128cs.pdf",
+          "exists": true,
+          "bytes": 279433,
+          "sha256": "d176aed6be49e350c18d130ec388383b680da9844173f4e0b386cb34f0c676c6",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/chen-2018-four-j-shell-prm-136nd.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "cba4fa62433207c06b8673dc484d8a2d0ecdd7db51c27eafb2329726190bee91",
+      "checked_files": [
+        {
+          "path": "tmp/day24-nd136-prm-holdout-031/chen2018-fourj-prm.pdf",
+          "exists": true,
+          "bytes": 384518,
+          "sha256": "cba4fa62433207c06b8673dc484d8a2d0ecdd7db51c27eafb2329726190bee91",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/2018_Chen_FourJShellPRM136Nd_arxiv180506162v1.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df",
+      "checked_files": [
+        {
+          "path": "tmp/day24-emediato1997-ce133-rdds-072/publisher-direct-pdf.pdf",
+          "exists": true,
+          "bytes": 102259,
+          "sha256": "39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/1997_Emediato_133Ce_Lifetime_Measurements.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/gizon-1974-deformed-states-cerium-neodymium.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+      "checked_files": [
+        {
+          "path": "tmp/day24-gizon1974-unique-parity-entry-064/attachment-object-response.pdf",
+          "exists": true,
+          "bytes": 1264150,
+          "sha256": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/1974_Gizon_DeformedStates_CeNd.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+      "storage_status": null,
+      "declared_hash": "654527dc34f2ff9e455d3dc16f88e83f7e846ec457c97c453e652e22c51f01c9",
+      "checked_files": [
+        {
+          "path": "raw/papers/codex-day10/grodner-2006-128cs.pdf",
+          "exists": true,
+          "bytes": 778613,
+          "sha256": "654527dc34f2ff9e455d3dc16f88e83f7e846ec457c97c453e652e22c51f01c9",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "storage_status": null,
+      "declared_hash": "c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2",
+      "checked_files": [
+        {
+          "path": "raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf",
+          "exists": true,
+          "bytes": 424830,
+          "sha256": "c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/hamamoto-2011-selection-rule-chiral-geometry.md",
+      "storage_status": null,
+      "declared_hash": "dafe5f8f25081661413c5c8e2dc0b1d44a48c12ec4f5169bd1b06b0facd1c205",
+      "checked_files": [
+        {
+          "path": "raw/papers/codex-day10/hamamoto-2011-selection-rule.pdf",
+          "exists": true,
+          "bytes": 1325986,
+          "sha256": "dafe5f8f25081661413c5c8e2dc0b1d44a48c12ec4f5169bd1b06b0facd1c205",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/hauschild-1995-133ce-superdeformed-bands.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "ce219bb983b42a15cb634f95e9ad99bcfbc8442bc179a5e5f0e613b9ac9958fb",
+      "checked_files": [
+        {
+          "path": "tmp/day24-ce133-primary-followup-081/1995Ha34-full.pdf",
+          "exists": true,
+          "bytes": 690165,
+          "sha256": "ce219bb983b42a15cb634f95e9ad99bcfbc8442bc179a5e5f0e613b9ac9958fb",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/1995_Hauschild_133Ce_superdeformed_bands.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "560215bbff5898a3e304f4219f35f628b3a4bd03c87ed1745dc25ae147162872",
+      "checked_files": [
+        {
+          "path": "tmp/day24-ce133-independent-primary-079/1996Ha20-aps.pdf",
+          "exists": true,
+          "bytes": 229413,
+          "sha256": "560215bbff5898a3e304f4219f35f628b3a4bd03c87ed1745dc25ae147162872",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/1996_Hauschild_133Ce_triaxial_bands.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+      "storage_status": null,
+      "declared_hash": "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183",
+      "checked_files": [
+        {
+          "path": "raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+          "exists": true,
+          "bytes": 3400392,
+          "sha256": "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a",
+      "checked_files": [
+        {
+          "path": "tmp/day24-joss1998-133ce-triaxial-lifetime-078/publisher-pdf.pdf",
+          "exists": true,
+          "bytes": 120604,
+          "sha256": "81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/1998_Joss_133Ce_Triaxial_Band_Lifetimes.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/larsson-1978-nuclear-core-quasiparticle-coupling.md",
+      "storage_status": null,
+      "declared_hash": "108c29bed9de467d99f330c0b8cef47be82a290263a85e398ba3b4f2e97d77eb",
+      "checked_files": [
+        {
+          "path": "raw/papers/1-s2.0-0375947478906139-main.pdf",
+          "exists": true,
+          "bytes": 1772577,
+          "sha256": "108c29bed9de467d99f330c0b8cef47be82a290263a85e398ba3b4f2e97d77eb",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/leander-larsson-1975-potential-energy-surfaces-n-equals-z.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "35ce50a080755f3a11dac48cfbe2e2041659694038bc6bcaf28b452d72da562d",
+      "checked_files": [
+        {
+          "path": "tmp/day24-leander1975-039/attachment-object-response.pdf",
+          "exists": true,
+          "bytes": 1736708,
+          "sha256": "35ce50a080755f3a11dac48cfbe2e2041659694038bc6bcaf28b452d72da562d",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/1975_Leander_Larsson_PotentialEnergySurfaces_NequalsZ.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "storage_status": null,
+      "declared_hash": "100A06FC1BB6D7061A153552529C9245F123248F213A93F022B202AF97DCDCC5",
+      "checked_files": [
+        {
+          "path": "raw/papers/2004_Lifetimes of Excited Levels in 131Ce.pdf",
+          "exists": true,
+          "bytes": 358795,
+          "sha256": "100a06fc1bb6d7061a153552529c9245f123248f213a93f022b202af97dcdcc5",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "storage_status": null,
+      "declared_hash": "97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303",
+      "checked_files": [
+        {
+          "path": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
+          "exists": true,
+          "bytes": 285508,
+          "sha256": "97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md",
+      "storage_status": null,
+      "declared_hash": "84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749",
+      "checked_files": [
+        {
+          "path": "raw/papers/degree dissertation/吕冰峰.pdf",
+          "exists": true,
+          "bytes": 6844285,
+          "sha256": "84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/meyer-ter-vehn-1975-odd-a-unique-parity-comparison.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d",
+      "checked_files": [
+        {
+          "path": "tmp/day24-meyer1975-partii-entry-057/attachment-object-response.pdf",
+          "exists": true,
+          "bytes": 1368683,
+          "sha256": "fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/1975_MeyerTerVehn_CollectiveOddANuclei_PartII.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/meyer-ter-vehn-1975-triaxial-rotor-particle-model.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "10cb7aca223dcbccb17ee7aa224a7a1c13fb9f1e6e58a04fcdd8ab1e4b888da9",
+      "checked_files": [
+        {
+          "path": "tmp/day24-wk22-particle-hole-symmetry-054/attachment-object-response.pdf",
+          "exists": true,
+          "bytes": 1365168,
+          "sha256": "10cb7aca223dcbccb17ee7aa224a7a1c13fb9f1e6e58a04fcdd8ab1e4b888da9",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/1975_MeyerTerVehn_CollectiveOddANuclei_PartI.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/nndc-2011-133ce-low-level-reference-records.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "4ac09f19661a52dd6061c8797cd3daeeadb869ca5be67d4423bc35040da4bced",
+      "checked_files": [
+        {
+          "path": "tmp/day24-ce133-evaluated-zero-entry-069/adopted.ensdf",
+          "exists": true,
+          "bytes": 84243,
+          "sha256": "4ac09f19661a52dd6061c8797cd3daeeadb869ca5be67d4423bc35040da4bced",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/database-records/133ce-2011-adopted-133058001.ensdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/nolan-1983-ce130-high-spin-moment-inertia.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "9085414a3cf1daafdeb3e7b685ea9bc6fdbfa44ee91f2e484c5eda353af6f927",
+      "checked_files": [
+        {
+          "path": "tmp/day24-nolan1983-ce130-companion-052/attachment-object-response.pdf",
+          "exists": true,
+          "bytes": 307863,
+          "sha256": "9085414a3cf1daafdeb3e7b685ea9bc6fdbfa44ee91f2e484c5eda353af6f927",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/1983_Nolan_Ce130_HighSpinMomentInertia.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/olbratowski-2002-critical-frequency-preprint.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+      "checked_files": [
+        {
+          "path": "tmp/day24-critical-tac-007/arxiv-0211075v1.response",
+          "exists": true,
+          "bytes": 252547,
+          "sha256": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/2002_Olbratowski_CriticalFrequency_nuclth0211075v1.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "storage_status": null,
+      "declared_hash": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+      "checked_files": [
+        {
+          "path": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+          "exists": true,
+          "bytes": 274213,
+          "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+      "storage_status": null,
+      "declared_hash": "D2615FC0D95428B06C056EB8946AFA2F62940CE58D79C1FC1CC3F50E19C73EF3",
+      "checked_files": [
+        {
+          "path": "raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+          "exists": true,
+          "bytes": 1155420,
+          "sha256": "d2615fc0d95428b06c056eb8946afa2f62940ce58d79c1fc1cc3f50e19c73ef3",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "248546abd4a1d1597bf9ddf39cfffd5f09604802704204f0ff61647bbdb19346",
+      "checked_files": [
+        {
+          "path": "raw/papers/2009_Qi_135Nd_PRM_arxiv08124597v1.pdf",
+          "exists": false
+        },
+        {
+          "path": "tmp/day21-checkpoint053/qi-2009-0812.4597v1.pdf",
+          "exists": true,
+          "bytes": 376923,
+          "sha256": "248546abd4a1d1597bf9ddf39cfffd5f09604802704204f0ff61647bbdb19346",
+          "matches_declared_raw_sha256": true,
+          "locator": "actual path stated in source Bibliographic Record body"
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "storage_status": null,
+      "declared_hash": "95E0831B9864A58FD1A896A1B20E227D88D9B7AA5DE56C738C3792441CAA1A30",
+      "checked_files": [
+        {
+          "path": "raw/papers/2016_Singh et al_Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr.pdf",
+          "exists": true,
+          "bytes": 1202741,
+          "sha256": "95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/tonev-2006-134pr-lifetime-chiral.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134",
+      "checked_files": [
+        {
+          "path": "tmp/day24-tonev134pr-primary-090/body.pdf",
+          "exists": true,
+          "bytes": 347475,
+          "sha256": "eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/2006_Tonev_134Pr_Transition_Probabilities.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/tonev-2007-134pr-dynamic-chirality.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "822780157dadbeac4adfa3cd34b919b855a3911c497c229b2216fb7697f1b8aa",
+      "checked_files": [
+        {
+          "path": "tmp/day24-tonev2007-134pr-long-095/10.1103_PhysRevC.76.044313.pdf",
+          "exists": true,
+          "bytes": 1527111,
+          "sha256": "822780157dadbeac4adfa3cd34b919b855a3911c497c229b2216fb7697f1b8aa",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/2007_Tonev_134Pr_Dynamic_Chirality.pdf",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+      "storage_status": null,
+      "declared_hash": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+      "checked_files": [
+        {
+          "path": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+          "exists": true,
+          "bytes": 7891630,
+          "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+          "matches_declared_raw_sha256": true
+        }
+      ]
+    },
+    {
+      "source": "knowledge/sources/wu-2018-two-dimensional-collective-electromagnetic-transitions.md",
+      "storage_status": "public-staging-not-archived",
+      "declared_hash": "7d7c12ebc754f23721bd5367acc050c54dd3cf0f03f2f7480de407c1f3493dcb",
+      "checked_files": [
+        {
+          "path": "tmp/day24-chiral-em-014/wu2018.response",
+          "exists": true,
+          "bytes": 276035,
+          "sha256": "7d7c12ebc754f23721bd5367acc050c54dd3cf0f03f2f7480de407c1f3493dcb",
+          "matches_declared_raw_sha256": true
+        },
+        {
+          "path": "raw/papers/2018_Wu_TwoDimensionalCollectiveEM_arxiv180904418v2.pdf",
+          "exists": false
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "source_pages": 36,
+    "with_actual_declared_hash_match": 36,
+    "missing_raw_placeholders": "expected for public-staging-not-archived; actual existing staging file verified separately",
+    "science_certification": false
+  }
+}

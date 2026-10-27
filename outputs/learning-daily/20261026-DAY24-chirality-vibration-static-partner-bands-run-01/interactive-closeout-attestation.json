@@ -1,0 +1,20 @@
+{
+  "status": "closeout-turn-completed",
+  "run_id": "2026-10-26-day-24-01",
+  "session_id": "01a177ac-521f-7212-9312-ba967400db98",
+  "closeout_event_id": "closeout",
+  "hard_deadline": "2026-10-27T15:00:00+08:00",
+  "closeout_at": "2026-10-27T15:15:37.268895+08:00",
+  "report_sha256": "7af73b45e6f332e3769508d8b222240905261fab88dc12d300639e0cb035be83",
+  "window_missed": false,
+  "time_snapshot": {
+    "now_local": "2026-10-27T15:12:04.327829+08:00",
+    "hard_deadline": "2026-10-27T15:00:00+08:00",
+    "minutes_to_deadline": -12.072130483333332,
+    "decision": "closeout-only",
+    "can_continue_current": false,
+    "can_complete_forward_card": false
+  },
+  "scientific_scope": "Day24 five deliverables complete; Day25 uncredited preview; actual-input gaps and needs_review retained",
+  "documentary_reconciliation": "Bounded correction of unsupported UI mechanism attribution; no scientific or course-state change."
+}
