@@ -1,0 +1,22 @@
+{
+  "received_at_utc": "2026-10-27T11:16:25.504891+00:00",
+  "received_from": "user",
+  "title": "Electromagnetic properties of N=75 isotones: evidence for triaxiality at low spin",
+  "authors": "E. S. Paul et al.",
+  "year": 1991,
+  "journal": "Journal of Physics G: Nuclear and Particle Physics",
+  "volume": 17,
+  "pages": "605–617",
+  "doi": "10.1088/0954-3899/17/5/009",
+  "raw_file": "raw/papers/1991_Electromagnetic properties of N=75 isotones_evidence for triaxiality at low spin.pdf",
+  "sha256": "1c3859a03a76e200048b8e087e91131d7dc5f21fb8a683cd39155ab00e0818c9",
+  "bytes": 652280,
+  "pdf_pages": 14,
+  "pdf_composition": "1 publisher cover + 13 article pages",
+  "identity_locator": "PDF pages 1–2",
+  "reading_scope": "identity pages only; full scientific reading pending",
+  "raw_action": "registered in place; no copy, move or overwrite",
+  "previous_access_gap": "1991Pa04 body unavailable in Day24; resolved by user-supplied PDF",
+  "next_reading_scope": "N=75 mixing ratios, branching ratios, low-spin triaxiality evidence and 133Ce state mapping",
+  "git_pointer": "main · Register user-supplied Paul 1991 PDF"
+}

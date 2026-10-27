@@ -603,6 +603,8 @@ TRS给γ≈−30单ν、−73三ν，高spin图还给−83与SD极小值，β由
 
 ## 1991Pa04入口缺口与1998 primary谱系
 
+**2026-10-27 获取状态更新**：用户已提供 [Paul1991 PDF](<../../raw/papers/1991_Electromagnetic properties of N=75 isotones_evidence for triaxiality at low spin.pdf>)，DOI `10.1088/0954-3899/17/5/009`。实物 14 页（出版商封面 1 页＋正文 605–617 共 13 页），652280 bytes；SHA-256 `1c3859a03a76e200048b8e087e91131d7dc5f21fb8a683cd39155ab00e0818c9`。已核 PDF 签名及首页题名、作者、年卷页，按原路径登记；此前正文获取缺口已解除。当前只核身份，混合比/分支比原表及133Ce逐态对应仍待阅读，未改变科学结论或 review 状态。[接收回执](../../outputs/literature-acquisition/20261027-paul1991-user-pdf.json)。
+
 079核对ENSDF Ref 1991Pa04为Paul等 *J Phys G*17 (1991)605–617, DOI10.1088/0954-3899/17/5/009，涉及N=75同位素低spin电磁/δ与120Sn(16O,3n)、92Mo(50Cr,n2p)；合法PDF端点只返回HTML，未把metadata冒原文。[[joss-1998-133ce-triaxial-band-lifetimes]]则为独立Gammasphere highspin primary，已完整核读并写JO98-D24-001–010；不能用Joss替代1991 body或把同TRS谱系计成独立理论票。
 
 

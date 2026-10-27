@@ -10,6 +10,8 @@ updated: 2026-10-27
 
 ## 已确认规则
 
+- 2026-10-27 用户已补齐 Paul1991（1991Pa04，DOI 10.1088/0954-3899/17/5/009）全文，原文件路径及哈希见 `outputs/literature-acquisition/20261027-paul1991-user-pdf.json`，133Ce 分析蓝本已更新获取状态；后续直接读取本地 PDF，不再沿 Day24 访问失败记录重复索取。当前只核身份，正文科学核查待续。
+
 - 2026-10-27 用户重申每日学习长期授权：“DAY每日学习不许问。默认能学尽学，应学就学，自行获取应该获取的文章、文件等等一切资源。”在 `daily-learning` 中，正文、Supporting Information（SI）、必要附件/数据/代码及其它应学资源由 Codex 自主选择、检索、获取和核验；默认正文及可用SI，不再询问要不要下载或要不要SI，也不因外部skill的SI确认提示中断学习。该要求跨日、跨session沿用，不只是当前批次偏好。输入不可得时记录已查路线和缺口，继续可解析问题，不把普通学习选择变成用户待办。
 
 - 2026-10-26 用户补齐 Rupnik1994、Bourgeois1978、Choudhury2010 和 Larsson1978 四份 PDF，原路径/页数/SHA/阅读边界见 `outputs/literature-acquisition/20261026-user-pdfs-elsevier-access.json`，相关 source 页已追加可用性更新；不要沿旧失败记录继续索取这些文件。Elsevier 私有配置与 Paper Search 仓库内下载目录见 `system/workflows/literature-access.md`；已实测目标元数据/PDF/Scopus 接口成功，不能外推全库全文权限。
