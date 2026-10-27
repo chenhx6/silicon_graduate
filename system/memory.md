@@ -11,6 +11,7 @@ updated: 2026-10-27
 ## 已确认规则
 
 - 2026-10-27 用户提供 Springer Meta/OA 两把 key；Paper Search MCP 已映射为 `SPRINGER_API_KEY`/`SPRINGER_OPENACCESS_API_KEY`，nature-downloader 私有配置已保存 Meta key。两接口实测 HTTP 200，各返回1条；无供应商额度头，插件本地保护约3次/分钟、5000/日不等于账户配额。回执 `outputs/literature-acquisition/20261027-springer-api-permissions.json`。
+- Springer 账户配额由用户补充确认：500 hits/day、100 hits/min；作为用户提供的账户信息记录，不冒称为 API 响应头实测值。
 
 - 2026-10-27 用户已补齐 Paul1991（1991Pa04，DOI 10.1088/0954-3899/17/5/009）全文，原文件路径及哈希见 `outputs/literature-acquisition/20261027-paul1991-user-pdf.json`，133Ce 分析蓝本已更新获取状态；后续直接读取本地 PDF，不再沿 Day24 访问失败记录重复索取。当前只核身份，正文科学核查待续。
 

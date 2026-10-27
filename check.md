@@ -40,6 +40,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 
 - [ ] 使用 Web of Science 时按 `system/workflows/literature-access.md` 加载私有凭据；文档/日志不含密钥，Starter/Expanded 权限和全文访问授权分别记录，未联网验证不写成已验证可用。
 - [ ] Elsevier 的元数据、PDF 和 Scopus 权限按实际请求分别记录；Springer Meta/OA 两把 key 分开映射和测试；Paper Search 新进程使用 Wiki 隔离区的 downloads 根，未关闭路径越界检查，未把单篇 PDF 可访问推为全库权限。
+- [ ] Springer 调用遵守用户提供的 500 hits/day、100 hits/min 配额；将账户配额与插件本地保护计数分开记录。
 - [ ] 已按 `AGENTS.md` 的顺序读取固定启动文件；`README.md` 只作为稳定入口，不因其中链接自动扩展读取；`system/handoff.md` 只读 `Active handoff`，`system/log.md` 只读最近 10 条记录；仅在规定触发条件成立或用户明确要求时额外读取 `PLAN.md`。
 - [ ] `PLAN.md` 保持宏观计划、个人好奇心与研究方向草稿性质，未被当作 cite-key 文献清单、执行日志或必须立即执行的任务列表。
 - [ ] `PLAN.md` 未在缺少用户明确要求时被覆盖、重写、删除、重排或机械整理。
