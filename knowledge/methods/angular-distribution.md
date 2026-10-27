@@ -65,7 +65,7 @@ This `alpha_k` must not be merged with detector solid-angle attenuation. Laurits
 
 [[summary-2013-bases-spin-parity-assignments]] adds reference-guide background that high-spin assignment heuristics are often quoted with a typical orientation parameter, here `σ/I = 0.3`, but that guide-level value is not by itself a demonstrated universal Gaussian prior.
 
-为消除预设单一取向度 σ/I 引入的系统偏差与伪高精度，采用紧致坐标 ξ = arctan(δ) 与雅可比面积变换的概率密度映射法（PDM / P-ADO）实现了在取向度全域上的边缘化无偏提取，详见研究笔记[[pado-probability-density-mapping-mixing-ratios]]。
+[[chen-2026-pdm-probability-density-mapping]] CH26-PDM-03/04提出用有界坐标xi=arctan(delta)、局部Jacobian面积变换和对齐权重边缘化构造混合比条件密度。它避免固定唯一sigma/I，但有限积分域、布居模型、观测误差与分支测度仍是输入，不能称全域无偏提取。版本/HDI坐标及全局折叠质量的边界见[[pado-probability-density-mapping-mixing-ratios]]。
 
 Angular-distribution evidence is one of the standard inputs collected on [[spin-parity-assignment]] pages.
 

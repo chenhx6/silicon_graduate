@@ -3,11 +3,15 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day25 checkpoint006：PDM source登记与科学边界审计
+## Active handoff — Day25 checkpoint009：PDM版本/测度与残留强断言纠正
+
+2026-10-28T04:27:37.479794+08:00，原run/session及2026-10-28 15:00研究截止不变，formal累计24/next25，completed[]/partial[25,26]。三核与综合页已按family撤回普适必要、全核无τ、六级硬门与奇异值排他认证；PDM双PDF/TeX身份、HDI坐标、折叠分支测度和Pr端点份额写回canonical。PADO既有包测试24通过，条件数学10项控制通过；未重现八条基准/HDI或actual实验。boundary/lint/diff及原baseline写回门通过，18items，749页/267warnings。五个指定子会话complete；farmer既有监督继续。下一步见本run next-continuation-009.md：analysis模块投影/HDI及依赖合同，仍不改raw/PLAN/Bib、不运行114、不新run/授分。发布稳定指针main / Day25: audit PDM versions and probability measure contract；推送实况只认本run checkpoint-publication-009.json。恢复命令保存在原run.json及续接文件。
+
+## Previous handoff — Day25 checkpoint006：PDM source登记与科学边界审计
 
 2026-10-28T02:15+08:00，仍在原run/session与15:00硬截止内。完成PDM原始手稿source登记（15页、SHA、公式/假设/基准与代码入口），并将日报与canonical页面中的PDM“无条件客观/八条全重叠/排他确立”、奇异值排他证明、E0唯一判据、133Ce 3-qp硬阈值和g因子无模型证明等措辞降级为条件结论。17项writeback验证、boundary、lint和diff-check通过；尚未授Day25正式信用，未创建Day26正式run，Day26仅partial preview。下一步继续高信息审计，15:00后按原runner执行正式收束、回执和Day26准备。当前发布稳定指针为 main / Day25: record PDM source audit continuation checkpoint，已通过 origin HEAD:main dry-run 与非force push。 PDM原始测试集因环境缺少pytest/sympy未运行，delta角度往返检查已通过；该限制已写入source页。
 
-## Active handoff — Day25 checkpoint005：原件纠错与子会话监督恢复
+## Previous handoff — Day25 checkpoint005：原件纠错与子会话监督恢复
 
 2026-10-27T21:08:37+08:00，同run 2026-10-27-day-25-01 / session 01a17cdd-58b4-7a53-b782-5248260f526a，原截止2026-10-28 15:00（15–16收束）不改。Day25仍running，report completed[] partial[25,26]；课程真实累计24/next25。此前report/原run早写completed25不是正式信用，原字段保留，未再授分。
 

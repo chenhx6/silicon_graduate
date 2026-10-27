@@ -28,12 +28,19 @@ tags: [PDM, P-ADO, mixing-ratio, alignment, angular-distribution, polarization]
 ## Bibliographic Record
 
 - 本地原件：`raw/writing/pado/20260722.pdf`，15 physical PDF pages，SHA-256 `f19b52b872432f6d615dae9350eef42d12cff27cfb621a041f09720699f74421`。
-- 方法手稿与其可运行代码分开保存：正文为 `raw/writing/pado/nst_sample.tex`，代码目录为 `raw/writing/pado/Upload/p_ado`。本页记录的是用户提供的未发表方法稿，不把稿件结果升级为独立实验事实。
+- 用户目录包含不同版本的未发表手稿，不能将当前TeX当作15页PDF的逐字正文；代码目录为 `raw/writing/pado/Upload/p_ado`。方法计算不作为独立实验。
+
+|版本|实际文件|physical页数|SHA-256|
+|---|---|---|---|
+|本页主原件|raw/writing/pado/20260722.pdf|15|f19b52b872432f6d615dae9350eef42d12cff27cfb621a041f09720699f74421|
+|另一PDF版本|raw/writing/pado/nst_sample.pdf|11|9a558e7d51c5d87c1ce040d9dab9b39dbfa26071dae4dabd987cee0bb8eddff9|
+|当前TeX|raw/writing/pado/nst_sample.tex|不适用|2c9ee0b7260d4b272465c875f09d84badd9e511727176816141866887a8619c2|
 - 手稿摘要将 PDM 描述为 practical spectroscopic tool；方法适用性仍受响应函数、误差模型、对齐域和校准合同限制。
 
 ## Scope and Reading Depth
 
-- 精读主线：磁子布居与 $\sigma/I$（physical PDF pp. 2–3, Eq. 1）、$R_{\rm ADO}$ 与 $P$ 响应（pp. 3–5, Eqs. 4–8）、$\xi=\arctan\delta$ 参数化与映射曲面（pp. 5–7, Eqs. 9–11）、雅可比密度变换与对齐边缘化（pp. 7–9, Eqs. 12–14）、$^{187}$Au 示例和八条基准表（pp. 9–12, Table 1）、一维误差模型（p. 15）。
+- 主原件覆盖：布居Eq1/PDF2；角响应Eqs4–8/PDF3及偏振响应Eq9/PDF4；角坐标PDF4–5 §III.A、映射Eq10/PDF5、Jacobian Eq11/PDF6；独立观测PDF与变换Eqs12–13/PDF7；边缘化Eq14/PDF8；Au示例PDF9 Figs6–7及PDF10 Fig8；Table1/PDF11；Appendix A标题在PDF12，误差密度公式在PDF13。
+- checkpoint009定向版本核对：11页PDF的相应密度变换/边缘化为PDF5 Eq11/PDF6 Eq12，Table1在PDF7；当前TeX的参数密度、边缘化与HDI段仅按其自身标签引用。没有从文件名或mtime推定唯一最终版本，也未重新编译TeX。
 - 代码入口：`raw/writing/pado/Upload/p_ado/main.py`；响应计算在 `p_ado/physics/pado.py`，雅可比与网格实现位于 `p_ado/compute/`，误差密度模型位于 `p_ado/pdf/`。
 
 ## Summary
@@ -44,13 +51,15 @@ tags: [PDM, P-ADO, mixing-ratio, alignment, angular-distribution, polarization]
 
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| CH26-PDM-01 | 手稿以离散高斯磁子布居 $P_m\propto\exp[-m^2/(2\sigma^2)]$ 表示对齐态，并以 $\sigma/I$ 作为响应参数。 | method-definition | direct-original | physical PDF p. 3 Eq. 1 | true |
-| CH26-PDM-02 | 手稿定义 $R_{\rm ADO}$ 为指定小/大角度探测组强度比，并以角分布与线偏振响应共同约束 $\delta$ 和 $\sigma/I$。 | observable-contract | direct-original | physical PDF pp. 3–5 Eqs. 4–8 | true |
-| CH26-PDM-03 | 手稿以 $\xi=\arctan\delta$ 紧致化混合比轴，并在局部可逆处用 $f_{\mathcal P}=f_{\mathcal O}\lvert J\rvert$ 作面积测度变换。 | method-equation | direct-original | physical PDF pp. 5–8 Eqs. 9–13 | true |
-| CH26-PDM-04 | 手稿对 $\sigma/I$ 进行显式权重边缘化，权重与积分上下界是方法输入；独立高斯观测误差是其基准示例假设。 | method-assumption | direct-original | physical PDF pp. 8–9 Eq. 14; p. 10 | true |
-| CH26-PDM-05 | 手稿的八条基准比较覆盖 $^{61}$Ni、$^{187}$Au、$^{135}$Pr；作者报告多数提取区间包含文献值，但部分 $^{61}$Ni 区间只有边界或部分重叠，比较不是独立 coverage 检验。 | result-with-scope | direct-original | physical PDF pp. 10–12 Table 1 and discussion | true |
-| CH26-PDM-06 | 手稿将 $^{187}$Au 示例的结果解释为在声明的观测 PDF、响应网格和对齐域下的小负、M1 主导后验；这不是无模型带身份证明。 | conditional-interpretation | direct-original | physical PDF pp. 9–11, Figs. 3–4 | true |
-| CH26-PDM-07 | 公开代码、原始输入和依赖环境构成复现合同，但实际运行结果仍依赖代码版本、网格、响应函数、输入 PDF 和对齐权重。 | reproducibility-boundary | direct-plus-code | raw/writing/pado/Upload/README.md; p_ado/main.py | true |
+| CH26-PDM-01 | 手稿以离散高斯磁子布居 $P_m\propto\exp[-m^2/(2\sigma^2)]$ 表示对齐态，并以 $\sigma/I$ 作为响应参数。 | method-definition | direct-original | 20260722.pdf physical PDF2 Eq1 | true |
+| CH26-PDM-02 | 手稿定义 $R_{\rm ADO}$ 为指定小/大角度探测组强度比，并以角分布与线偏振响应共同约束 $\delta$ 和 $\sigma/I$。 | observable-contract | direct-original | 20260722.pdf physical PDF3 Eqs4–8 | true |
+| CH26-PDM-03 | 手稿以 $\xi=\arctan\delta$ 参数化混合比，并在局部可逆分支使用 $f_{\mathcal P}=f_{\mathcal O}\lvert J\rvert$；全局折叠时逐分支计算后归一。 | method-equation | direct-original | 20260722.pdf physical PDF7 Eq13 | true |
+| CH26-PDM-04 | 手稿对 $\sigma/I$ 作权重边缘化；权重及积分域是输入。观测误差采用独立近似，对称项用Gaussian，非对称项用skew-normal或split-normal。 | method-assumption | direct-original | 20260722.pdf physical PDF8 Eq14 | true |
+| CH26-PDM-05 | 八条基准覆盖61Ni、187Au、135Pr；多数区间包含文献值，部分61Ni只有边界或部分重叠。这不是独立coverage检验，HDI在xi中求取后映至delta。 | result-with-scope | direct-original | 20260722.pdf physical PDF11 Table1 | true |
+| CH26-PDM-06 | Au示例给条件小负、M1主导混合比密度，不是无模型带身份证明。 | conditional-interpretation | direct-original | 20260722.pdf physical PDF9 Figs6–7 | true |
+| CH26-PDM-07 | 提供的代码、原始输入和依赖环境构成复现合同，但实际运行结果仍依赖代码版本、网格、响应函数、输入 PDF 和对齐权重；测试通过不自动复现稿件基准表。 | reproducibility-boundary | direct-plus-code | raw/writing/pado/Upload/p_ado/main.py | true |
+| CH26-PDM-08 | 15页版Au对齐Gaussian宽度正文.02、Fig8 caption .1不一致；当前TeX写.1，不能据此认证旧版actual输入。 | version-and-input-conflict | direct-original-version-comparison | 20260722.pdf physical PDF10 Fig8 | true |
+| CH26-PDM-09 | 原15页版PDF6称除各向同性点外处处局部可逆；当前TeX改为J非零条件。采用逆函数定理时须逐点检查J，不能沿用旧版普遍断言。 | version-and-identifiability-boundary | direct-original-plus-mathematical-audit | 20260722.pdf physical PDF6 Eq11 | true |
 
 ## Competing Interpretations and Limitations
 
@@ -61,12 +70,12 @@ tags: [PDM, P-ADO, mixing-ratio, alignment, angular-distribution, polarization]
 
 ## Reproducibility checks
 
-## Reproducibility checks
-
 - 2026-10-28：仓库测试集未能启动，当前环境没有 `pytest`；`unittest discover` 也因测试依赖 `pytest`、且未设置包路径而失败。
 - 设置 `PYTHONPATH=raw/writing/pado/Upload` 后，`python3 -m compileall -q raw/writing/pado/Upload/p_ado` 通过，说明代码树可编译，但不替代依赖完整的数值测试。
 - 设置 `PYTHONPATH=raw/writing/pado/Upload` 后，独立检查 `theta_deg_to_delta` 与 `delta_to_theta_deg` 在 $\pm30^\circ$、$\pm60^\circ$ 和 $0^\circ$ 网格上的往返误差处于浮点舍入范围；依赖 `sympy` 的完整响应/雅可比测试仍未运行。
 - 这些是运行环境边界，不把未运行的测试写成通过，也不改变方法稿的 `needs_review` 状态。
+- checkpoint009续接：在仓库`tmp/`安装pytest/sympy，使用原运行Python的numpy/scipy并显式设置包路径后，现有测试集实际 **24 passed in 15.05s，exit0**。命令启用`PYTHONDONTWRITEBYTECODE=1`、关闭pytest缓存、临时目录置于tmp，未修改raw源码。此前“缺依赖”是历史失败记录，当前测试阻塞已解除。
+- 24项覆盖响应代数/向量化、误差PDF、Jacobian、导出与报告等代码行为；未完整重放两版稿件的八条基准及HDI、实际探测器响应或输入Cov，不能将测试通过写成稿件数值/物理模式认证。环境和代码哈希见本run `pado-tests-009.json`。
 
 ## Extracted Pages
 

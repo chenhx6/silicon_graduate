@@ -1,0 +1,75 @@
+{
+  "scope": "conditional mathematical exercise, not experiment or PADO benchmark reproduction",
+  "F": "(x,s)->(x^2,s)",
+  "parameter_domain": "[-1,2]x[0,1]",
+  "observable_density": "1/4 on [0,4]x[0,1]",
+  "w": 1,
+  "Z": "5/4",
+  "branch_masses": [
+    "1/5",
+    "4/5"
+  ],
+  "observable_overlap_original": "1/4",
+  "observable_overlap_pushforward": "2/5",
+  "pointwise_split_branch_masses": [
+    "1/8",
+    "7/8"
+  ],
+  "Pr_M1_endpoint_images": [
+    {
+      "delta_center": -0.42,
+      "delta_bounds": [
+        -0.75,
+        -0.31
+      ],
+      "M1_center": 0.8500510030601837,
+      "M1_endpoint_image": [
+        0.64,
+        0.9123255177447313
+      ]
+    },
+    {
+      "delta_center": -0.26,
+      "delta_bounds": [
+        -0.43,
+        -0.19
+      ],
+      "M1_center": 0.9366804046459347,
+      "M1_endpoint_image": [
+        0.8439530762089628,
+        0.9651578033008397
+      ]
+    },
+    {
+      "delta_center": -0.29,
+      "delta_bounds": [
+        -0.43,
+        -0.2
+      ],
+      "M1_center": 0.9224241306152569,
+      "M1_endpoint_image": [
+        0.8439530762089628,
+        0.9615384615384615
+      ]
+    }
+  ],
+  "delta_89deg": 57.289961630759876,
+  "raw_fingerprints": {
+    "raw/writing/pado/20260722.pdf": "f19b52b872432f6d615dae9350eef42d12cff27cfb621a041f09720699f74421",
+    "raw/writing/pado/nst_sample.pdf": "9a558e7d51c5d87c1ce040d9dab9b39dbfa26071dae4dabd987cee0bb8eddff9",
+    "raw/writing/pado/nst_sample.tex": "2c9ee0b7260d4b272465c875f09d84badd9e511727176816141866887a8619c2"
+  },
+  "checks": {
+    "weighted_area_Z_is_5_over_4": true,
+    "normalized_branch_masses_are_1_5_and_4_5": true,
+    "overlap_reweighted_from_1_4_to_2_5": true,
+    "pointwise_split_recovers_unit_mass": true,
+    "pointwise_split_masses_are_1_8_and_7_8": true,
+    "degree_radian_density_agreement": true,
+    "Pr_first_M1_lower_is_64pct": true,
+    "Pr_all_bounds_exceed_one_half": true,
+    "Pr_uniform_85pct_lower_bound_fails": true,
+    "finite_angle_89deg_delta_is_less_than_58": true
+  },
+  "passed": true
+}

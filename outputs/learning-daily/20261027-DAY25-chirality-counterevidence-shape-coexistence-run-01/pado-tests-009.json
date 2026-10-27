@@ -1,0 +1,60 @@
+{
+  "observed_at": "2026-10-27T20:22:41.631445+00:00",
+  "scope": "provided package tests, not full manuscript benchmark reproduction",
+  "exit_code": 0,
+  "stdout": "........................ [100%]\n24 passed in 15.05s\n",
+  "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=raw/writing/pado/Upload:tmp/day25-pado-venv/lib/python3.12/site-packages python3 -m pytest -q -p no:cacheprovider --basetemp=tmp/day25-pado-pytest raw/writing/pado/Upload/tests",
+  "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+  "executable": "/opt/venv/bin/python3",
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "pytest": "9.1.1"
+  },
+  "source_sha256": {
+    "raw/writing/pado/Upload/analysis/YAnalysis.py": "435c8d7344ec68ec8765ab3c20e26a4bb6336142b7eae52ede0f8f80df547e7a",
+    "raw/writing/pado/Upload/analysis/YAnalysis_singular.py": "16c05198c0feae1cc5032e655555bf009ddb72e0d5ccc6adfc82c5cfef00b1af",
+    "raw/writing/pado/Upload/analysis/YPlot.py": "f300d00a1bc9c805981c5010a29c938480a1e5a7f6452796e61419c94573965c",
+    "raw/writing/pado/Upload/analysis/YPlot_singular.py": "82ced00e7923564aeb4b8a51512d67db528a079df21cdca0037c5476e14f3198",
+    "raw/writing/pado/Upload/analysis/draw_pado_single.py": "50129e9a950594b729b53743dacc02a8c1b920fc5716eb008fcfd06e847b4bdc",
+    "raw/writing/pado/Upload/p_ado/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "raw/writing/pado/Upload/p_ado/__main__.py": "aacea4378ad7817cadcd5968f670de0bcb66e5d6823fcc4f2f6961500073ba23",
+    "raw/writing/pado/Upload/p_ado/compute/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "raw/writing/pado/Upload/p_ado/compute/grid.py": "e82f63f0de0d237e8ecafbb67663f68fe56d98f77ed5e9382d0bd356b2ca29ca",
+    "raw/writing/pado/Upload/p_ado/compute/jacobian.py": "2e902507028f15a2ca372e46e1fa16bfef0dc9f4dcfa80d7290a677cc5d258be",
+    "raw/writing/pado/Upload/p_ado/compute/parallel.py": "3c622bc07f7211999aaf5f99dd33f28d3f297ce27fd0a14f364e5120fc2761ce",
+    "raw/writing/pado/Upload/p_ado/compute/solver.py": "2ef0ff59712705195ef20e0bb5a53c5a022381f712c324ae62cd36d62128ca4b",
+    "raw/writing/pado/Upload/p_ado/config.py": "b80986a67217d5011308340f76d89d52059666f104d127cfca0bc0b7084509e3",
+    "raw/writing/pado/Upload/p_ado/io/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "raw/writing/pado/Upload/p_ado/io/io.py": "de1aef0c17699541aa7f749718c53b239739b775162b2589f602029936c67912",
+    "raw/writing/pado/Upload/p_ado/main.py": "5ff44e7c5c3dc34c36e020768ac1d9c9300fafc7a1cecf610742087d8716bcbb",
+    "raw/writing/pado/Upload/p_ado/path_display.py": "44d86096f1096cf9a0d5cb91dab8ccbb82810b7cda47d57231183605ab843829",
+    "raw/writing/pado/Upload/p_ado/pdf/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "raw/writing/pado/Upload/p_ado/pdf/evaluators.py": "f1e612a5b23c4cad4792749356b36c956f62dc00e9ff3fbda50aca45823f91c9",
+    "raw/writing/pado/Upload/p_ado/pdf/fitters.py": "3940d1a42931b08a9ba6412b70f3ee6b4b2ddeda8408a588b4d3a7ce05d7728e",
+    "raw/writing/pado/Upload/p_ado/pdf/models.py": "bf55e498e2d03a326288430dc7fe5e084e6f06e0af92bca1dc6872beac34deeb",
+    "raw/writing/pado/Upload/p_ado/physics/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "raw/writing/pado/Upload/p_ado/physics/delta.py": "59e7594f53f8b09bfd4b026dabb53d21767afaf598e1ec65f6cc5e138bd9bf96",
+    "raw/writing/pado/Upload/p_ado/physics/pado.py": "ad5e6008dd9654142e050b7e90d03bd8cde8ae7c295ab9ceb9b1dcf5ee4cff9f",
+    "raw/writing/pado/Upload/p_ado/physics/sigmaOverI.py": "c056db5058f88614490dbe2723e375a7b96644b4dfb65410799e6af6600aab01",
+    "raw/writing/pado/Upload/p_ado/runtime_report.py": "91be3045136804c0761fbe27093be338ce960fe82635f998b49d0c428e34b1b0",
+    "raw/writing/pado/Upload/tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "raw/writing/pado/Upload/tests/test_output.py": "3c18d14662d3f684fc691996cfddc731020266b5e6ccc97534114a044346c38f",
+    "raw/writing/pado/Upload/tests/test_pdf.py": "a1236c042a6cc7c342ffbddfb8044021e8e9ca4da280db791c5726ae22ba883f",
+    "raw/writing/pado/Upload/tests/test_physics.py": "0027ec4d6a3b71513712a85b30d954a3cee5899379f7d863547ac7b7aeca52a3",
+    "raw/writing/pado/Upload/tests/test_reporting.py": "9efb45ac8cf2a6558ce2aa4f4a2a9535441f46eb2022157616a1672952400f54",
+    "raw/writing/pado/Upload/tests/test_solver.py": "fad2517f3cca0a8e7ed43d331b40c6090658223d1c27fa4142976c38f649bc8e"
+  },
+  "earlier_attempts": [
+    {
+      "exit_code": 1,
+      "failure": "test attempted before pytest installation completed"
+    },
+    {
+      "exit_code": 2,
+      "failure": "venv base site did not include original Python numpy/scipy; corrected by using original interpreter with temporary dependencies in PYTHONPATH"
+    }
+  ],
+  "raw_source_modified": false
+}

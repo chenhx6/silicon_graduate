@@ -1,0 +1,131 @@
+{
+  "observed_at": "2026-10-27T20:26:14.255977+00:00",
+  "checkpoint_only": true,
+  "commands": {
+    "boundary": {
+      "args": [
+        "python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "stdout_path": "outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/check-boundary-009.stdout",
+      "stderr_path": "outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/check-boundary-009.stderr"
+    },
+    "lint": {
+      "args": [
+        "python3",
+        "system/scripts/wiki_lint.py",
+        "--fail-on",
+        "error",
+        "--format",
+        "json",
+        "--output",
+        "tmp/day25-lint-009-final.json"
+      ],
+      "exit_code": 0,
+      "stdout_path": "outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/check-lint-009.stdout",
+      "stderr_path": "outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/check-lint-009.stderr"
+    },
+    "diff": {
+      "args": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout_path": "outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/check-diff-009.stdout",
+      "stderr_path": "outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/check-diff-009.stderr"
+    }
+  },
+  "validators": {
+    "report": {
+      "valid": true,
+      "missing_headings": []
+    },
+    "curriculum": {
+      "valid": true,
+      "completed_day_indices": [],
+      "partial_day_indices": [
+        25,
+        26
+      ],
+      "curriculum_cards_completed": 0,
+      "next_day_index": 25,
+      "error": null
+    },
+    "durable_original_run_baseline": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+        "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+        "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+        "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+        "knowledge/concepts/triaxial-shape-coexistence.md",
+        "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+        "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+        "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+        "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+        "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/research-notes/134pr-two-band-mixing-offdiagonal-e2-sensitivity.md",
+        "knowledge/research-notes/133ce-afrodite-rad-finite-geometry-and-qtr-code-contract.md",
+        "knowledge/research-notes/131ce-133ce-topological-nodes-configuration-substitution-contract.md",
+        "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+        "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+        "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+        "knowledge/index.md",
+        "knowledge/overview.md",
+        "knowledge/research-notes/a130-chirality-counterexamples-and-shape-coexistence-systematics.md",
+        "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+        "knowledge/research-notes/pado-probability-density-mapping-mixing-ratios.md",
+        "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+        "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+        "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+        "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+        "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+        "knowledge/methods/angular-distribution.md"
+      ],
+      "changed_paths": [
+        "knowledge/concepts/triaxial-shape-coexistence.md",
+        "knowledge/index.md",
+        "knowledge/methods/angular-distribution.md",
+        "knowledge/overview.md",
+        "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+        "knowledge/projects/a130-thesis-evidence-matrix.md",
+        "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+        "knowledge/research-notes/131ce-133ce-topological-nodes-configuration-substitution-contract.md",
+        "knowledge/research-notes/133ce-afrodite-rad-finite-geometry-and-qtr-code-contract.md",
+        "knowledge/research-notes/134pr-two-band-mixing-offdiagonal-e2-sensitivity.md",
+        "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+        "knowledge/research-notes/a130-chirality-counterexamples-and-shape-coexistence-systematics.md",
+        "knowledge/research-notes/pado-probability-density-mapping-mixing-ratios.md",
+        "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+        "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+        "knowledge/sources/ding-2021-131ba-133ce-signature-splitting.md",
+        "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+        "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+        "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+        "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+        "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+        "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+        "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    }
+  },
+  "lint_summary": {
+    "pages": 749,
+    "wikilinks": 9989,
+    "source_hashes_checked": 355,
+    "counts": {
+      "warning": 267,
+      "info": 5004
+    }
+  },
+  "lint_errors": [],
+  "passed": true
+}

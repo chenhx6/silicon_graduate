@@ -2,7 +2,7 @@
 type: daily-learning
 graph-excluded: true
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-28
 ---
 
 # Day25：手征反例、形状竞争与133Ce实际分析蓝本
@@ -21,7 +21,7 @@ updated: 2026-10-27
 - hard_deadline: 2026-10-28T15:00:00+08:00
 - closeout_window: 2026-10-28 15:00–16:00 Asia/Shanghai
 
-本报告为持续研究checkpoint005，不授分、不提前收束。原run.json仍status:running、counted:false，其此前写入的completed[25]与本报告旧“已授分”不构成正式信用；课程state实际累计24/next25，Day25尚无card-credit/final-session回执。保留原runner字段，不擅改历史身份/截止；正式信用待截止后原runner门。
+本报告为持续研究checkpoint009，不授分、不提前收束。原run.json仍status:running、counted:false，其此前写入的completed[25]与本报告旧“已授分”不构成正式信用；课程state实际累计24/next25，Day25尚无card-credit/final-session回执。保留原runner字段，不擅改历史身份/截止；正式信用待截止后原runner门。
 
 Day24本次直接核run.json、card-credit-24.json、final-session-receipt-24.json与task-publication-receipt-24.json：completed、formal[24]、preview[25]；发布回执为published。未新增Day24信用，Day21/22/23既有人审/撤回不改。
 
@@ -42,7 +42,7 @@ Day24本次直接核run.json、card-credit-24.json、final-session-receipt-24.js
 |候选|信息增益/实际输入|选择|
 |---|---|---|
 |134Pr off-diagonal E2与TableI身份|四页原件及真实实验/计算两列齐备，可反向核验旧扫描|连续主问题|
-|133Ce程序/双分母实际合同|已有原表、1997原方法与错误倒算的直接反例|不重叠附属问题|
+|133Ce程序/双分母实际合同及PADO方法输入|已有原表/1997方法；新增两版PDM与实际代码可解析|附属路线：版本、混合比/测度与复现合同，不补缺失实验|
 |GAMPN实际job重放|版本/header/BCS/blocking/signed核缺失|记录缺口，不反复撞端点|
 |Day26既有八极/MR preview|仅复核已存在稿中的普适硬门/归因，未增加课程范围|partial[26]、无学分|
 
@@ -55,7 +55,7 @@ Day24本次直接核run.json、card-credit-24.json、final-session-receipt-24.js
 |[[petrache-2006-near-degenerate-chiral-misinterpretation]]|父代理回读四页主线，PDF3 fresh视觉TableI/Eqs3–5；独立代理交叉核|非新实验；Ref11/Ref9不同不证明统计独立|
 |[[zhu-2003-135nd-composite-chiral-pair]]|Fig.2 与正文提供 135Nd Band B→A 的候选逐线 crosswalk：648/649、639、591、(556) keV，及 648/670 的多极性判据|556 保留括号；648/649文字冲突；弱线未逐线给角分布；箭头强度不是绝对B或寿命|
 |[[mukhopadhyay-2007-135nd-chiral-vibration-static]]|Table I 提供逐初始自旋的寿命与派生B，图2/3提供带间点|表格不写逐线Eγ/终态/协方差；图点需借ZH03候选绑定，不能唯一反演δ或逐线E2|
-|[[chen-2026-pdm-probability-density-mapping]]|直接核对用户提供PDM手稿15页、Eq. 1/9–14、Table 1与代码入口|未发表方法稿；误差独立性、对齐权重、响应网格和输入PDF是条件假设，非独立实验|
+|[[chen-2026-pdm-probability-density-mapping]]|直接核对用户提供PDM手稿15页、15页版PDF2 Eq1、PDF7 Eq13、PDF8 Eq14、PDF11 Table1，并与11页版及当前TeX分开登记|未发表方法稿；误差独立性、对齐权重、响应网格和输入PDF是条件假设，非独立实验|
 |[[lv-2019-chirality-135nd-reexamined]]|复用既有全文ledger；本次独立代理定向PDF2/5、VoR024314-8/Figs5–6|正pair本篇未给成对absoluteEM，不作全领域无寿命断言|
 |[[petrache-2018-chiral-bands-even-even-136nd]]|独立代理定向Fig3/TableI/Fig6及MU08 TableII谱系|D5比值与D3模型几何不拼成同pair完整实测|
 |[[heyde-wood-2011-shape-coexistence-review]]|复用既有原读HW11-D25P-001/002/006，核本轮概念量词|E0不唯一测形状/混合，不强制所有核有E0+Coulex|
@@ -121,9 +121,17 @@ ZH03 Fig.2 将四条 Band B→Band A 候选线映射为 31/2−→29/2− 的 64
 ### 概率密度映射法（PDM）提取多极混合比的测度守恒与基准对账
 
 吸收 raw/writing/pado/（Chen et al., 2026）手稿，建立无预设自旋取向度 $\sigma/I$ 提取 $\delta(E2/M1)$ 的概率密度映射法（PDM / P-ADO）：
-1. **紧致角坐标与微元测度守恒**：定义 $\xi = \arctan\delta \in (-90^\circ, +90^\circ)$ 消除纯 $E2$ 极限发散；雅可比行列式 $J(\xi, \sigma/I) = \det [\partial(R_{\rm ADO}, P)/\partial(\xi, \sigma/I)]$ 满足微元面积变换 $dA_{\mathcal{O}} = |J|\, dA_{\mathcal{P}}$，后验概率密度严格为 $f_{\mathcal{P}}(\xi, \sigma/I) = f_{\mathcal{O}}[F(\xi, \sigma/I)] \cdot |J|$；
+1. **紧致角坐标与微元测度守恒**：定义 $\xi = \arctan\delta \in (-90^\circ, +90^\circ)$ 消除纯 $E2$ 极限发散；雅可比行列式 $J(\xi, \sigma/I) = \det [\partial(R_{\rm ADO}, P)/\partial(\xi, \sigma/I)]$ 满足微元面积变换 $dA_{\mathcal{O}} = |J|\, dA_{\mathcal{P}}$，未归一条件映射密度为 $f_{\mathcal{P}}(\xi, \sigma/I) = f_{\mathcal{O}}[F(\xi, \sigma/I)] \cdot |J|$；
 2. **Outside 构型与全局折叠双解**：各向同性点 $\mathbf{o}_0 = (1, 0)$ 位于响应曲线外部时，曲面在投影面发生全局折叠，同一对测量值 $(R_{\rm ADO}, P)$ 产生两组独立物理参数解分支；对 $\sigma/I$ 连续边缘化积分后提取 68% HDI，多峰时分别报告各分支概率质量；
-3. **多核基准与模式裁决**：PDM给出的是依赖响应函数、对齐域和误差模型的条件后验；原稿只报告多数区间包含文献值，并非八条全部严格重叠。$^{187}\text{Au}$与$^{135}\text{Pr}$结果支持小负、M1主导分支并强烈抑制E2主导解释，但不单凭PDM确立带身份；带内比值仍须结合 $1/(1+\delta^2)$ 因子。
+3. **多核基准与模式裁决**：PDM给出的是依赖响应函数、测度、对齐域与权重及误差模型的条件密度；原稿只报告多数区间包含文献值，并非八条全部严格重叠。$^{187}\text{Au}$与$^{135}\text{Pr}$结果支持小负、M1主导分支并强烈抑制E2主导解释，但不单凭PDM确立带身份；带内比值仍须结合 $1/(1+\delta^2)$ 因子。
+
+### PDM版本、概率测度与混合比份额审计（checkpoint009）
+
+直接区分15页 `20260722.pdf`、11页 `nst_sample.pdf` 与当前TeX，各自SHA写入source。原15页Eq13/14在PDF7/8，Table1在PDF11；新版对应Eq11/12及PDF7表格。旧版Gaussian对齐宽度正文.02/caption .1的冲突不由新版静默覆盖。
+
+局部面积变换不自动确定折叠分支的全局概率。任务推导 Z=∫f_O(o)Σ_b w(s_b)do；以F(x,s)=(x²,s)、x∈[-1,2]、s∈[0,1]及均匀观测矩形作控制，w=1给Z=5/4、负/正分支质量1/5与4/5、重叠区质量从1/4变2/5。逐点1/N分配才恢复该例的观测密度。此为条件数学练习，不是PADO响应或实验重析；完整推导写入[[pado-probability-density-mapping-mixing-ratios]]，脚本/结果为本run pdm-measure-contract-009.py/json，10项控制通过。
+
+HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射出的M1份额下端为64.0%、84.4%、84.4%，撤回统一“M1>85%”和单凭PDM排除模式的旧句。δ为辐射振幅比，不可再乘Paul的0.835Eγ；跨源符号仍须核完整相位/偏振轴合同。PDM复用Lv观测，不新增独立采集，也不补133Ce/135Nd的缺测输入。
 
 ## Counter-evidence and missing companion observables
 
@@ -391,7 +399,7 @@ ZH03 Fig.2 将四条 Band B→Band A 候选线映射为 31/2−→29/2− 的 64
     {
       "knowledge": "knowledge/research-notes/a130-chirality-counterexamples-and-shape-coexistence-systematics.md",
       "anchor": "## Research Trigger",
-      "summary": "A≈130手征反例与三轴形状共存系统学：近简并破缺、电磁跃迁伴随量判据与四核多维比对。",
+      "summary": "修正近简并必要性、全核无寿命、六级必需链及奇异值排他认证；逐family保留观测与模型边界。",
       "sources": [
         {
           "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
@@ -406,7 +414,7 @@ ZH03 Fig.2 将四条 Band B→Band A 候选线映射为 31/2−→29/2− 的 64
     {
       "knowledge": "knowledge/research-notes/pado-probability-density-mapping-mixing-ratios.md",
       "anchor": "## Research Trigger",
-      "summary": "吸收raw/writing/pado手稿：在声明的响应、误差和对齐权重假设下，PDM/P-ADO用紧致坐标传播sigma/I不确定性并提取混合比。",
+      "summary": "区分PDM稿件版本、HDI坐标与混合比份额；推导局部换元到全局折叠分支质量的条件合同。",
       "sources": [
         {
           "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
@@ -415,6 +423,22 @@ ZH03 Fig.2 将四条 Band B→Band A 候选线映射为 31/2−→29/2− 的 64
         {
           "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
           "locator": "L22-17"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-03"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-04"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-05"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-08"
         }
       ]
     },
@@ -431,18 +455,22 @@ ZH03 Fig.2 将四条 Band B→Band A 候选线映射为 31/2−→29/2− 的 64
     },
     {
       "knowledge": "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
-      "summary": "建立PDM概率密度映射法与135Pr混合比合同交叉核验：条件后验偏好小负解，与Lv22作者的反wobbling解释一致，但不构成无模型排除。",
+      "summary": "撤回无偏边缘化、统一M1>85%与单方法排除；保存逐HDI端点份额及Lv输入复用。",
       "anchor": "## Provisional Reasoning",
       "sources": [
         {
           "path": "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
           "locator": "L22-17"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-05"
         }
       ]
     },
     {
       "knowledge": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
-      "summary": "建立raw/writing/pado原始方法手稿source页，记录PDM公式、对齐权重、基准表与适用边界。",
+      "summary": "按两份PDF与当前TeX独立哈希/公式页码登记，保存旧Gaussian宽度冲突与局部可逆量词差异。",
       "anchor": "## Key Results",
       "sources": [
         {
@@ -456,6 +484,29 @@ ZH03 Fig.2 将四条 Band B→Band A 候选线映射为 31/2−→29/2− 的 64
         {
           "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
           "locator": "CH26-PDM-05"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-08"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-09"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/methods/angular-distribution.md",
+      "summary": "纠正Day25早期新增的全域无偏提取表述，记录有限响应、域、权重及测度合同。",
+      "anchor": "## Source-Level Foundation",
+      "sources": [
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-03"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-04"
         }
       ]
     }
@@ -479,8 +530,10 @@ L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条�
 
 ## Verification and continuation
 
-本checkpoint正式检查结果写required-checks-005.json，未执行前不写通过。科学核验与结构检查分开；runner写回验证须用真实原baseline和当前checkpoint入口两套快照，不用未传baseline的valid冒称run-change检查。
+checkpoint009：已补齐两篇研究笔记缺失的正文source链接，并撤回综合笔记中残留的普适必要、全核无寿命、六级必需链及排他认证。PADO现有测试24 passed/exit0（15.05s），临时依赖环境与源码哈希见pado-tests-009.json；这解除历史依赖阻塞，不构成八条基准/HDI重现。数学控制10项通过。新的required-checks-009.json记录本checkpoint实际结构门，旧005结果仅作历史。
+
+checkpoint009的required-checks-009.json实际boundary/lint/diff exit0、原runner三门valid；18项写回、749页、267warnings与5004info。首次lint将矩阵文字误识别为wikilink而exit1，已改为LaTeX矩阵并复检0；历史005检查保留。科学核验与结构检查分开；runner写回验证须用真实原baseline和当前checkpoint入口两套快照，不用未传baseline的valid冒称run-change检查。
 
 用户所列五子会话的巡检见subagent-supervision-005.json：一个capacity失败、四个已完成；失败线程已用原生协作续接并完成有界只读核对。Farmer误把子id归到父session_id的问题已用失败回归复现并修正；v2禁止直接app-server子输入，故改为父线程接通知后原生协作恢复。父未运行时不唤醒历史子失败，dry-run零恢复动作；10项AgentOps测试通过。新监督器live PID442391，保持原root session/model，不新建daily run或改deadline。
 
-next-continuation-005.md保留可恢复研究问题。仅本次15:00截止后启动正式收束/信用审计与Day26准备；现在继续Day25，Day26无学分，Day27不打开。Git发布只显式本run文件，raw/PLAN/Bib、旧dirty及114保持。用户回复只给必要结果，完整执行证据留回执。
+next-continuation-009.md保留可恢复研究问题。仅本次15:00截止后启动正式收束/信用审计与Day26准备；现在继续Day25，Day26无学分，Day27不打开。Git发布只显式本run文件，raw/PLAN/Bib、旧dirty及114保持。用户回复只给必要结果，完整执行证据留回执。
