@@ -703,7 +703,7 @@ N、Ex、Jπ与response固定；纯relabel无新预测，同H本征态mapping须
 
 [[emediato-1997-133ce-rdds-lifetimes]]为São Paulo本实验室plunger RDDS，非Köln；TableII的11/2− meanτ76(3)ps与adopted T1/2有ln2转换，正态17/2、19/2、21/2的TableIII meanτ分别5.3(.6)/4.5(.5)/5.3(.6)ps。[[joss-1998-133ce-triaxial-band-lifetimes]] TableI给四高spin平均寿命及Qt≈2.2(.1)eb，但spin估计/缺低能link/阻停系统学随数据保留。
 
-本次已核时钟尚未建立与WK22 Band4三个母态的逐态匹配，不移植τ；目标absoluteB仍缺。跨核且跨spin/组态的Qt差不是受控同位素趋势，更不测γ软度。不写“全核无寿命”或“所有文献均未覆盖”的全称判断。
+本次已核时钟尚未建立与WK22 Band4三个母态的逐态匹配，不移植τ；目标absoluteB仍缺。跨核且跨spin/组态的Qt差不是受控同位素趋势，更不测γ软度。不写“全核无寿命”或“所有文献均未覆盖”的全称判断。完整寿命谱系核对、衰变网络时钟接入拓扑与高自旋多准粒子迁移合同详见专属研究笔记 [[131ce-133ce-lifetime-lineage-and-high-spin-migration]]。
 
 ### 8. Paul1991：同一个λ符号不能混淆分支与化学势
 
@@ -714,7 +714,7 @@ PA91-D25-A005-02/03另纠正reaction元数据与Fig2同ΔI1分母被误记为Fig
 
 ### 9. P-ADO / PDM 方法学输入合同、AFRODITE 几何失配与雅可比行列式高自旋局部过零边界
 
-吸收 raw/writing/pado/（Chen et al., 2026）手稿与代码库深审成果（详见 ce133-contract-audit-014.json 与 ce133-contract-audit-014.md），确立五项高信息结构化解析与操作性边界：
+吸收 raw/writing/pado/（Chen et al., 2026）手稿与代码库深审成果（详见专属研究笔记 [[pado-probability-density-mapping-mixing-ratios]]、ce133-contract-audit-014.json 与 ce133-contract-audit-014.md），确立五项高信息结构化解析与操作性边界：
 1. **辐射混合比与约化矩阵元转换合同**：P-ADO 代码提取的 $\delta(E2/M1)$ 是无量纲辐射相干振幅比，代码第 39 行采用 Yamazaki (1967) 相位规范 phase = (-1.0)**(Jf - Ji - 1)，与 Paul 1991 及 WK22 第 4 章公式严格一致。理论三轴粒子-转子模型（QTR）输出的约化矩阵元比值 $\langle E2 \rangle / \langle M1 \rangle$ 必须经由 Paul 1991 公式 (2) 的 $\delta = 0.835 E_\gamma \frac{\langle E2 \rangle}{\langle M1 \rangle}$（平方系数 $(0.835)^2 = 0.697225 \approx 0.7\text{ MeV}^2$，即 WK22 公式 3.24）转换为辐射 $\delta$ 方可输入或比对，严禁裸代入；WK22 第 100 页称 582.7 keV 具有“~30% E2”系将 $\delta^2 = 0.3025$ 误写作份额，真实光子份额 $f_{E2} = \delta^2/(1+\delta^2) = 23.225\%$；
 2. **数学上证伪手稿普适非零 Jacobian 断言**：手稿声称在物理参数域内处处非零 $|J| \ne 0$。针对 $^{133}\text{Ce}$ 三条跨带跃迁开展全网格扫描，实测证实高自旋跃迁在纯 E2 渐近极限区（$|\delta| > 5, |\xi| \ge 80^\circ, \sigma/I \sim 0.50 - 0.55$）均存在局部 $\det J = 0$ 奇异曲面（如 582.7 keV 在 $\xi = -85.0^\circ$ 的精细零点为 $\sigma/I = 0.54923653$）；但实测 M1 主导工作点 $\delta = -0.55$（$\xi = -28.81^\circ$）处，$\det J$ 严格为负且正则可逆（$\det J \in [-0.335, -0.024]$）；
 3. **阵列探测几何硬编码物理失配**：P-ADO 代码在 config.py 硬编码 JUROGAM-II 环角（$26.0^\circ$ 与 $90.0^\circ$），而 AFRODITE 阵列实测角度为 $45^\circ$、$90^\circ$ 与 $135^\circ$（无 $26^\circ$ 探测环），强行代入会导致理论响应函数几何畸变；
