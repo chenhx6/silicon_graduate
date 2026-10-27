@@ -141,6 +141,16 @@ $$
   $$\ln(\widehat{D}/D) = \left[ \ln\left(\frac{1060.7}{714.1}\right) - \ln\left(\frac{1021.2}{611.4}\right) \right] s = (0.3957 - 0.5130) s = -0.1173 s$$
   相比单侧比值高达 0.513 s 的系统学漂移，双比的系统学敏感度降低了 4.4 倍，证明了相邻母态联合比值在消除探测器全局效率不确定度方面的有效性。
 
+### 3. 133Ce 分析蓝本的理论标度解耦与角响应有理数闭合
+
+在 133Ce 硕士论文（Wakudyanaye 2022）的持续深入研究中，本轮完成了三项关键理论与分析推演：
+1. **单粒子能与费米能的壳基准还原**：
+   正文给出的费米能 $\lambda_F = 50.6\text{ MeV}$ 与 Table 6.2 相对单粒子能 $\varepsilon_\nu = 5.45–6.51\text{ MeV}$ 的表面脱节，源于基准定义不同。在唯象谐振子标度 $\hbar\omega_0 \approx 41 A^{-1/3} \approx 8.032\text{ MeV}$ 下，$N=4$ 正宇称壳层零点为 $E_0(N=4) = 5.5 \hbar\omega_0 \approx 44.177\text{ MeV}$。将相对单粒子能 $\varepsilon \approx 6.423\text{ MeV}$ 叠加后得到 $E^{\text{abs}} = 50.600\text{ MeV}$，与 $\lambda_F$ **精确吻合**。同时确立：负宇称 $h_{11/2}$ 轨道源自 $N=5$ 壳层（基准 $52.209\text{ MeV}$，高出约 $8.03\text{ MeV}$），严禁跨壳混用正宇称 $\lambda_F$；
+2. **AFRODITE 阵列有限环接受矩的精确有理数推导**：
+   在开角核展开与方位平均下，Ding 2021（8 个 clover：4@90°, 4@135°）的二阶与四阶门控接受矩精确为 $\langle P_2 \rangle_8 = -1/8 = -0.125$ 与 $\langle P_4 \rangle_8 = -1/64 = -0.015625$；Wakudyanaye 2022（13 个 clover：1@45°, 8@90°, 4@135°）精确为 $\langle P_2 \rangle_{13} = -11/52 \approx -0.2115$ 与 $\langle P_4 \rangle_{13} = 31/416 \approx +0.0745$。两者均非零，证明“all-detector gate”消去门控多极性仅是经验近似而非严格定理，参考比值具有布局敏感性；
+3. **低激发 3-qp 假设的能量学受挫**：
+   在 $A \approx 130$ 质量区，配对破除能量 $2\Delta \approx 1.8–2.2\text{ MeV}$，一个位于仅 $832.0\text{ keV}$ 的低激发带头极难容纳纯粹的 3-qp 构型（同核确认 3-qp 带头均在 $2.5\text{ MeV}$ 以上），低激发 3-qp 假说在能量学上高度受挫。
+
 ## Counter-evidence and missing companion observables
 
 ### 1. 134Pr / 135Nd / 136Nd 三核三行分对竞争矩阵
