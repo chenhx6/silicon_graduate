@@ -50,9 +50,9 @@ $$\Delta E_{\rm obs}=\sqrt{(E_1-E_2)^2+4|V|^2}\ge2|V|.$$
 
 |核/明确family|直接观测与实际实验支持|作者解释/模型|竞争路线与缺项降级|
 |---|---|---|---|
-|134Pr旧Band1/2|近能谱、alignment差、E2分支及Tonev双方绝对E2不同；PE06是既有资料分析|PE06无offdiag E2/短段固定V给Q比允许1.6–2.4；Tonev06/07讨论涨落/动态手征|不能以简化矩比独立测shape；非对角E2/配置交叉/混合待检。共享Tonev实验不重复计票|
-|135Nd正D3/D4；负D5/D6|LV19新谱学/角响应/偏振；正pair仅一个D3比值点。负pair另有MU07双方τ及绝对B(E2)、B(M1)强支持|LV19提出MχD，CDFT/PRM比较谱/比/RMS；负pairγ22.2→20.2参与比值调参|本篇未给正pair成对absoluteEM/新τ，不能把负pair支持借给它；模型相容不排尽配置混合/形状涨落；保原单点spin字面歧义|
-|136Nd D1–D5各pair|仅正D5/D5-C双方相对B(M1)/B(E2)误差内相近；四弱伙伴缺自己的比，主带有部分比。旧MU08绝对EM匹配后来负D4/D3主带低spin级联|PE18配置A/B/C/D*/D映D1/D2/D5/D3/D4；六qp为模型配置C。显式3DTAC非共面解仅D3/D*|D5比值不补absoluteB/τ，D3几何不借D5。旧D4与D3互比不替代各自新C伙伴，也不否定正D5；配置交叉/混合和各配置的动态振动保留|
+|134Pr旧Band1/2|近能谱（13<I<19, ΔE<50 keV）、alignment差Δix≈2ℏ、E2分支及Tonev实测寿命与带内B(E2)不对称（比值1.66–3.92）；跨带δ未测；PE06为既有数据分析|PE06：无offdiag E2（q12=0）、短段固定V下解混合给Q0比允许1.6–2.4（总结2.0(4)），主张不同形状；Tonev06/07：弱涨落主导动态手征，IBFFM重现B(E2)但高估能隙且I=15交叉失败，TQPTR则相反|PE06的2.0(4)属模型参数容许区间，非直接形状测量；非对角E2相干干涉可在等Q0下重现分支比；共享Vivitron Euroball IV实验不重复计票；机制保持开放|
+|135Nd正D3/D4；负D5/D6|正D3/D4：LV19新谱学/角响应/线偏振，但整对带仅D3有一个相对B比点（I=29/2ℏ），D4无分支比，全无寿命/绝对B；负D5/D6：MU07双方τ及绝对B(E2)、B(M1)强支持，τB≈2τA|LV19：提出正负宇称多重手征双重带（MχD），CDFT/PRM定性相容，但负带PRM将自洽γ由22.2°手动调为20.2°；MU07：负带解释为手征振动向静态手征转变|双家族证据链严格隔离：负带强绝对EM不借给正带；正带无寿命、无绝对EM，严格定为谱学候选带；负带τB≈2τA由退激能量Eγ³/Eγ⁵速率补偿平衡；共享JYFL 152 MeV实验池|
+|136Nd D1–D5各pair|仅正宇称6qp D5/D5-C双方相对B(M1)/B(E2)误差内相近，Lv论文测得20+/21+跨带E2比（0.22与0.61）；四弱伙伴缺自身B比；全核新带无寿命测量；旧MU08实测低spin负带在18ℏ处B(E2)发生11倍断崖塌缩|PE18：宣称偶偶核首例MχD（5对），但显式3D-TAC非共面偏转解（ϕ>0）仅计算了负D3，未计算正D5；MU08：实测11倍塌缩证伪旧Band1/2手征解释；CQ18：四壳PRM重现带内比，未交跨带E2预报|严禁跨带拼接正D5实验比与负D3模型3D几何；MU08旧Band1/2对应负主带D4/D3，否定旧主带手征假说但不直接否定新正D5；D5缺乏绝对寿命，仍属强手征候选对；弱伙伴降为单侧谱学线|
 |133Ce MχD候选对（正Bands 2–3；负Bands 5–6）与低spin带|A13扩展纲图，测得DCO、角分布、近能谱及相对B(M1)/B(E2)趋势；A16扩展至93/2ℏ并接入Q带；WK22测得低spin Band 4出带分支|A13：PRL声称首例MχD与三轴形状共存，RMF(PK1)极小为(0.22, 17.5°)与(0.23, 15.2°)；WK22：将低spin Band 4解释为单准粒子倾斜进动（TiP）|A13完全缺乏态寿命测量，无绝对B(E2)或电四极矩；“形状共存”目前主要由微观泛函势能面极小支持，缺乏实验直接Qt/τ约束；后续A16修改了部分高spin带对应，WK22低spin带转向TiP/QTR解释，不构成手征确证。A13 172504-1–5；A16 054317-1–19；WK22 PDF61/65/112|
 
 原件locator：PE06 printed112502-2/3/4；LV19 arXivPDF2/5 Figs5–6、VoR024314-8；MU07 172501-2 TableI；PE18 041304-3 Fig3、-4 TableI、-5 Fig6；MU08 034311-4 TableII、-5结论。更窄source claims见PE06-D25-A005-01–03、LV19-D25-002、PE18-D25-001/003。
@@ -60,6 +60,11 @@ $$\Delta E_{\rm obs}=\sqrt{(E_1-E_2)^2+4|V|^2}\ge2|V|.$$
 采集独立性另限：LV19的新JUROGAM数据独立于MU07的Gammasphere寿命采集，并不因此独立于PE18。两文同152MeV 40Ar/0.5mg·cm⁻² Mo/相同装置描述、PE18同次135/136Nd产额及LV19转引共同setup说明支持同campaign谱系；未取得selected-event/producer manifest或共同Cov，不把各核的event子集当已证相同或完全统计独立。参LV19原PDF2及Ref38、PE18 PDF2–3。
 
 [[lv-bingfeng-2019-chirality-136nd-135nd-thesis]]既有DD-20260910-136ND-01/02明确dependent campaign；本轮root/worker窄读physicalPDF66/printed65：同实验布居135/136Nd、同triggerless TDR记录5.1×10^10 fold≥3 pool。只确认此采集谱系，不认证相同selectedγ、各自response或Cov，也没有为新计票另建一次实验。
+
+三大同源实验池谱系归纳（系统化杜绝重复计票）：
+1. **Vivitron Euroball IV 依赖池**：Tonev 2006 与 Tonev 2007 共享同一次 $^{119}\text{Sn}(^{19}\text{F},4n)^{134}\text{Pr}$ RDDS/DSAM 实验；PE06 为唯象解混合分析，其寿命对照直接引自 Tonev 2006（Ref. 9），分支引自 Starosta（Ref. 11），三者只能计为一次实验测量加一次唯象分析；
+2. **JYFL JUROGAM II 152 MeV 依赖池**：$^{135}\text{Nd}$（LV19，5n 道）、$^{136}\text{Nd}$（PE18，4n 道）、吕冰峰 2019 博士论文及 $^{136}\text{Pr}$（LV25，1p3n 道）全部源自 JYFL 同一次 $^{40}\text{Ar}+{}^{100}\text{Mo}$ 运行（$5.1 \times 10^{10}$ 符合事件池），共享探测阵列刻度、几何效率和靶厚条件，属于同一实验周期的不同反应道分支，不能视作跨设施的独立重复；
+3. **Gammasphere 175 MeV 依赖池**：$^{135}\text{Nd}$（MU07，5n 道）与 $^{136}\text{Nd}$（MU08，4n 道）共享同一次 $^{40}\text{Ar}+{}^{100}\text{Mo}$ 实验（$2.5 \times 10^9$ 事件池）、SRIM 阻止本领与 LINESHAPE 拟合框架。MU07 的能级拓扑与带间指认还直接继承自 Zhu 2003（Ref. 8）。
 
 ## Current Hypotheses
 
@@ -102,6 +107,16 @@ PE18中D5的实验ratio与D3的模型3D几何是两条不同pair的证据，不�
 |双方同I/段可逐态绑定的实测clock（允许jointfit/共享Cov）＋完整component-resolved BR/normalizer/response|把ratio/趋势接到absolute M1/E2尺度，检验同一ratio下共同尺度变化|仅有相对γ资料且没有其它absoluteEM约束时，缺clock只得relativeEM；缺branch/normalizer则新复算/精度仍条件化，既有publishedB支持保留|
 |覆盖段的固定空间/shape/mixing模型与实际observable预报|防止每加一量就重新调γ/J/g，能对crossing/形状差别作可失败比较|只能说模型相容/conditional fit，不能说所有竞争解释已排除|
 |可行且有分离预报的独立结构holdout，如同态g或Qs/另一E2形状量|磁/电/组态给互补约束；先证预测可区分再选技术|没有holdout时可能仍有等效配置；g不是每个模式普适必测条件，也不强迫ps态作TDPAD|
+
+### 伴随可观测量四级降级阶梯架构（Minimal Companion Observables Downgrade Ladder）
+
+基于本轮定向审查（详见 `observable-ladder-audit-014.json` 与 `observable-ladder-audit-014.md`），伴随量降级阶梯由下至上建立四级可证伪准则：
+1. **Rung 1: 身份与探测响应 (Identity and Detector Response)**：母末态 $J^\pi$、带家族归属、分支跃迁角色（带内四极、带内偶极、跨带跃迁）、多极混合比 $\delta$、内转换系数 ICC 与未见线上限。缺项时暂停匹配电磁计算，隔离争议行，不连带否定全带；
+2. **Rung 2: 匹配绝对尺度与时钟 (Matched Absolute Scale and Clock)**：同自旋段逐态绑定的实测态寿命 $\tau$（RDDS/DSAM）、完整分支比与归一化响应，导出绝对 $B(E2)$、$B(M1)$ 与过渡四极矩 $Q_t$。缺项时严格降级为相对分支比相容，严禁跨核/跨带借用寿命；
+3. **Rung 3: 覆盖段的固定空间/形状/混合模型预报 (Fixed Model Space and Falsifiable Predictions)**：预先冻结单/准粒子空间、形变 $(\beta, \gamma)$ 与核芯转动惯量，给出覆盖自旋区间的逐态、逐线（特别是跨带 $E2$ 与 $M1$）数值预报。缺项时降级为唯象参数拟合，不具备排他性验证力；
+4. **Rung 4: 分离预报的独立结构 Holdout (Independent Structural Holdout)**：独立于主能带激发能与 $B$ 比的正交物理量（如态分辨 $g$ 因子、静态四极矩 $Q_s$、$E0$ 单极跃迁强度、多步库仑激发四极不变量）。缺项时多种竞争机制并存，不作终极模式裁决。
+
+三核降级实例：$^{134}\text{Pr}$ 闭合了 Rung 2（Tonev 实测寿命），证明两带内禀四极矩存在 2~4 倍不对称，打破理想手征，但因缺 Rung 4（态 $g$ 因子与静态 $Q_s$）使刚性形状共存与动态手征涨落保持并列；$^{135}\text{Nd}$ 负宇称带闭合了 Rung 2 并由速率补偿自洽解释，但正宇称带断裂于 Rung 2（零寿命测量），严格降级为谱学候选带；$^{136}\text{Nd}$ 仅正宇称 D5 闭合了 Rung 1 相对比，但因全核新带断裂于 Rung 2（无寿命），加之旧负带实测 11 倍 $B(E2)$ 塌缩反例，必须严格降级为强候选对，其余四弱伙伴降级为单侧谱学线。
 
 134Pr优先闭合原branch/clock并检验off-diagonal E2/固定V假设；正135Nd优先双方matchingEM；负135Nd优先normalizer恢复/新独立holdout；136Nd先选D5或另一个明确pair，不在不同pair间借几何/寿命。测量方法的clock、束流、停止/feeding/场标定属于各自响应合同，不能借131Ce/128Cs的时钟给高spin目标补数据。
 

@@ -141,6 +141,24 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
 
 对 checkpoint011 已发现的两个 19/2→17/2 符号括区做二分，并用有限差分步长 $10^{-4},10^{-5},10^{-6}$ 复算：xi=−85° 的根为 sigma/I≈0.50689637，xi=+80° 的根为≈0.49691521，步长敏感性约 $2\times10^{-8}$。这只支持当前实现的局部 detJ 诊断；不构成全局折叠、第二原像、实验模式或方法普适性结论。脚本与JSON为 `pado-jacobian-root-refinement-012.py/json`，未调用CLI producer、未修改raw。
 
+### 伴随量四级降级阶梯与三大同源实验池（checkpoint014）
+
+1. **三大同源实验池谱系（杜绝伪独立重复计票）**：
+   - Vivitron Euroball IV 依赖池：Tonev 2006 与 Tonev 2007 共享同一次 $^{119}\text{Sn}(^{19}\text{F},4n)^{134}\text{Pr}$ RDDS/DSAM 实验；PE06 为唯象解混合分析，寿命对照直接引自 Tonev 2006（Ref. 9），分支引自 Starosta（Ref. 11），三者只能计为一次实验测量加一次唯象分析；
+   - JYFL JUROGAM II 152 MeV 依赖池：$^{135}\text{Nd}$（LV19，5n 道）、$^{136}\text{Nd}$（PE18，4n 道）、吕冰峰 2019 博士论文及 $^{136}\text{Pr}$ 全部源自 JYFL 同一次 $^{40}\text{Ar}+{}^{100}\text{Mo}$ 运行（$5.1 \times 10^{10}$ 符合事件池），共享探测阵列刻度、几何效率和靶厚条件，不能视作跨设施的独立重复；
+   - Gammasphere 175 MeV 依赖池：$^{135}\text{Nd}$（MU07，5n 道）与 $^{136}\text{Nd}$（MU08，4n 道）共享同一次 $^{40}\text{Ar}+{}^{100}\text{Mo}$ 实验（$2.5 \times 10^9$ 事件池）、SRIM 阻止本领与 LINESHAPE 拟合框架。MU07 的能级拓扑与带间指认还直接继承自 Zhu 2003（Ref. 8）。
+2. **伴随量四级降级阶梯架构**：
+   - Rung 1: 身份与探测响应（$J^\pi$、带家族、多极混合比 $\delta$、ICC、未见线上限）；
+   - Rung 2: 匹配绝对尺度与时钟（同自旋段逐态绑定的实测态寿命 $\tau$、绝对 $B(E2)$、$B(M1)$、$Q_t$）；
+   - Rung 3: 覆盖段的固定空间/形状/混合模型预报（预先冻结单/准粒子空间、形变 $(\beta, \gamma)$、转动惯量，给出跨带可证伪预报）；
+   - Rung 4: 分离预报的独立结构 Holdout（态分辨 $g$ 因子、静态 $Q_s$、$E0$ 单极跃迁强度、多步库仑激发四极不变量）。
+   - 三核降级实例：$^{134}\text{Pr}$ 闭合了 Rung 2（Tonev 实测寿命），证明两带内禀四极矩存在 2~4 倍不对称，打破理想手征，但因缺 Rung 4（态 $g$ 因子与静态 $Q_s$）使刚性形状共存与动态手征涨落保持并列；$^{135}\text{Nd}$ 负宇称带闭合了 Rung 2 并由速率补偿自洽解释，但正宇称带断裂于 Rung 2（零寿命测量），严格降级为谱学候选带；$^{136}\text{Nd}$ 仅正宇称 D5 闭合了 Rung 1 相对比，但因全核新带断裂于 Rung 2（无寿命），加之旧负带实测 11 倍 $B(E2)$ 塌缩反例，必须严格降级为强候选对，其余四弱伙伴降级为单侧谱学线。
+3. **P-ADO / 133Ce 分析蓝本的输入合同与操作性阻断**：
+   - 辐射混合比 $\delta$ 与约化矩阵元比值转换需经由 Paul 1991 的 $0.835 E_\gamma$ 因子（平方为 $0.697 E_\gamma^2 \approx 0.7 E_\gamma^2$），代码采用 Yamazaki (1967) 相位规范；WK22 正文称 582.7 keV 具有“~30% E2”系 $\delta^2 = 0.3025$ 误写作份额，真实光子份额为 $23.225\%$；
+   - 高自旋跃迁在大 $|\delta| > 5$ 纯 E2 渐近区存在局部 $\det J = 0$ 奇异曲面，证伪手稿普适非零 Jacobian 断言；但在实验解 $\delta = -0.55$ 处正则可逆；
+   - AFRODITE 阵列几何（$45^\circ/90^\circ/135^\circ$）与 P-ADO 硬编码（$26^\circ/90^\circ$）失配，$^{133}\text{Ce}$ 缺乏线偏振度 $P$ 测量，且下游 YAnalysis.py:98 的 np.trapz 在 NumPy 2.5.3 下失效；
+   - 582.7 keV out/out 分母 817.7 keV 在 Table 5.2 与能级纲图中完全缺失，名义反演产额自相矛盾（1.19 vs 0.88），保持未闭合。
+
 ## Counter-evidence and missing companion observables
 
 |核/family|直接观测|作者/模型解释|替代与缺口|
@@ -549,6 +567,9 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
 L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条件前向振幅和误差传播；L3：三核竞争矩阵、可失败设计；L4：actual事件/response/Cov/producer缺失，未宣称重分析或复现。自审中的科学未决为P1/明确隔离的解释边界，不冒充技术验证失败或用户待办；人工review标志保持。
 
 ## Verification and continuation
+
+checkpoint014：完成三大同源实验池谱系（Vivitron、JYFL 152 MeV、Gammasphere 175 MeV）系统化归纳，杜绝跨反应道伪独立重复计票；确立伴随可观测量四级降级阶梯（Rung 1 身份响应 -> Rung 2 绝对时钟 -> Rung 3 固定模型空间 -> Rung 4 独立结构holdout），给出 134Pr/135Nd/136Nd 缺项时的严格降级裁决；确立 133Ce 与 P-ADO 方法学输入合同、角响应几何失配与雅可比行列式高自旋局部过零边界；生成 audit-day25-matrix-014.json/md、observable-ladder-audit-014.json/md 与 ce133-contract-audit-014.json/md 审计回执；全套结构与内容检查保持通过。
+
 
 checkpoint009：已补齐两篇研究笔记缺失的正文source链接，并撤回综合笔记中残留的普适必要、全核无寿命、六级必需链及排他认证。PADO现有测试24 passed/exit0（15.05s），临时依赖环境与源码哈希见pado-tests-009.json；这解除历史依赖阻塞，不构成八条基准/HDI重现。数学控制10项通过。新的required-checks-009.json记录本checkpoint实际结构门，旧005结果仅作历史。
 checkpoint012：对两个detJ符号括区做步长敏感性二分，根位置稳定到约2×10^-8，仍只作局部条件诊断。

@@ -3,7 +3,11 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day25 checkpoint012：有限网格 Jacobian 过零细化与PADO边界审计
+## Active handoff — Day25 checkpoint014：伴随量四级降级阶梯、三大同源实验池与133Ce输入合同审计
+
+2026-10-28T06:35:00+08:00，原run/session及2026-10-28 15:00研究硬截止不变，formal累计24/next25，completed[]/partial[25,26]。完成三大同源实验池谱系（Vivitron Euroball IV 134Pr、JYFL JUROGAM II 152 MeV 135/136Nd/136Pr、Gammasphere 175 MeV 135/136Nd）系统化归纳，系统化杜绝同次campaign下不同反应道的重复计票；确立伴随可观测量四级降级阶梯架构（Rung 1 身份响应 -> Rung 2 绝对时钟 -> Rung 3 固定模型空间 -> Rung 4 独立结构holdout），给出 134Pr/135Nd/136Nd 缺项时的严格降级裁决；完成 133Ce 与 P-ADO 方法学输入合同审计，澄清辐射混合比定义与约化矩阵元转换因子（0.835Eγ / 0.7Eγ²），数学证伪手稿普适处处非零Jacobian断言（高自旋跃迁在大|δ|>5纯E2渐近区存在局部detJ=0奇异曲面，实验解δ=-0.55处正则可逆），并确立阵列角度硬编码失配、线偏振P缺失及NumPy 2.5.3 np.trapz失效等操作性阻断；确立582.7 keV out/out分母817.7 keV未观测与反演产额自相矛盾事实。生成 audit-day25-matrix-014.json/md、observable-ladder-audit-014.json/md 与 ce133-contract-audit-014.json/md 审计回执；boundary、lint、diff与原baseline写回门全部exit 0通过（required-checks-014.json）。继续在当前session内保持高价值学习至15:00。
+
+## Previous handoff — Day25 checkpoint012：有限网格 Jacobian 过零细化与PADO边界审计
 
 2026-10-28T04:27:37.479794+08:00，原run/session及2026-10-28 15:00研究截止不变，formal累计24/next25，completed[]/partial[25,26]。三核与综合页已按family撤回普适必要、全核无τ、六级硬门与奇异值排他认证；PDM双PDF/TeX身份、HDI坐标、折叠分支测度和Pr端点份额写回canonical。PADO既有包测试24通过，条件数学10项控制通过；新增analysis模块审计发现NumPy2.5.3的np.trapz兼容断点、默认delta-HDI与稿件xi-HDI坐标差及平顶HDI质量边界；checkpoint011小网格发现19/2→17/2当前实现的局部detJ符号变化；checkpoint012二分细化两个过零位置并做步长敏感性，仍未升级为global fold；条件脚本/JSON均未改raw源码，未重现八条基准/HDI或actual实验。boundary/lint/diff及原baseline写回门通过，18items，749页/267warnings。五个指定子会话complete；farmer既有监督继续。下一步见本run next-continuation-011.md：analysis模块审计已完成，继续仅做有界数学/输入检查，仍不改raw/PLAN/Bib、不运行114、不新run/授分。发布稳定指针main / Day25: audit finite-mesh PADO Jacobian boundaries；当前已通过origin HEAD:main dry-run与非force push，精确hash见本run checkpoint-publication-011.json。恢复命令保存在原run.json及续接文件。
 

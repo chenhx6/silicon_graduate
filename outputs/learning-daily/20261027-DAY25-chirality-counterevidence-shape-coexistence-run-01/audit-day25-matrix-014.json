@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "audit_id": "audit-day25-matrix-014",
+  "audit_type": "three-nucleus-companion-matrix-and-locator-audit",
+  "audited_at_utc": "2026-10-28T05:30:00+08:00",
+  "mode": "read-only-deep-audit",
+  "target_canonical_pages": [
+    "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+    "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+    "knowledge/sources/tonev-2006-134pr-lifetime-chiral.md",
+    "knowledge/sources/tonev-2007-134pr-dynamic-chirality.md",
+    "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+    "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+    "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+    "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md"
+  ],
+  "primary_locators": {
+    "134Pr": {
+      "PE06": {
+        "citation": "Petrache et al., Phys. Rev. Lett. 96, 112502 (2006)",
+        "locators": {
+          "near_degeneracy_and_crossings": "printed 112502-1, Fig. 1",
+          "two_band_mixing_model_and_gap": "printed 112502-2, Eqs. (1–3), deltaE(15)=36 keV, deltaE(16)=44 keV, |V| < 18 keV",
+          "table_I_branching_and_Q_ratio": "printed 112502-3, Table I, allowed Q0,1/Q0,2 = 1.6–2.4, summarized as 2.0(4)",
+          "lineage_and_author_scope": "printed 112502-4, Ref. [9] (Tonev 2006 lifetimes), Ref. [11] (Starosta to be published branches), conclusion questions ideal chirality but explicitly asks if and to what extent reminiscence of chiral geometry is present"
+        }
+      },
+      "Tonev06": {
+        "citation": "Tonev et al., Phys. Rev. Lett. 96, 052501 (2006)",
+        "locators": {
+          "reaction_and_methods": "printed 052501-1–2, 119Sn(19F,4n)134Pr at Vivitron with Euroball IV, RDDS at 87 MeV, DSAM at 83 MeV",
+          "lifetimes": "printed 052501-3, Table I, 14 mean lifetimes across Band 1 and Band 2",
+          "intraband_B_asymmetry": "printed 052501-3–4, Fig. 3, B(E2) in Band 1 is 2–3 times that in Band 2, smooth B(M1)",
+          "author_interpretation": "printed 052501-4, does not support static chirality; consistent with dynamic chirality or shape fluctuations"
+        }
+      },
+      "Tonev07": {
+        "citation": "Tonev et al., Phys. Rev. C 76, 044313 (2007)",
+        "locators": {
+          "full_ledger": "printed 044313-9, Table I; 044313-12–14, Table II",
+          "central_ratios": "044313-13, Table II, central B(E2) ratios B1/B2 are 3.92, 1.66, 2.30, 2.30 at I=14–17",
+          "polarization_and_delta": "044313-8, Sec. III-C, missing numerical DCO table, unseparated delta for interband transitions",
+          "model_failures": "044313-25, Sec. V-F, IBFFM fails to reproduce energy gap and I=15 crossing, while TQPTR fails on EM rates",
+          "author_conclusion": "044313-25, Sec. VI, suggests weak fluctuation dominated chirality combined with an intrinsic symmetry yet to be revealed"
+        }
+      }
+    },
+    "135Nd": {
+      "LV19": {
+        "citation": "Lv et al., Phys. Rev. C 100, 024314 (2019) / arXiv:1907.12809",
+        "locators": {
+          "experiment_and_setup": "arXiv PDF p. 2 / VoR 024314-2, 152 MeV 100Mo(40Ar,5n)135Nd at JYFL with JUROGAM II",
+          "parity_assignment": "arXiv PDF p. 2, IPDCO of 830, 1015, 1161, 1184 keV are 0.043(8), 0.089(28), 0.008(2), 0.018(5)",
+          "positive_pair_ratio_scarcity": "arXiv PDF p. 5 / VoR 024314-8, only ONE experimental B(M1)/B(E2) ratio point for D3 at I=29/2 (printed as 29 hbar), ZERO for D4; zero lifetimes for D3/D4",
+          "text_and_table_anomalies": "arXiv PDF p. 2 (D4 description conflates D2/D3); PDF p. 8 Table I (334.4 keV line listed as 27/2- -> 25/2+); PDF p. 7 Table I (D2 Ei=2588.3 keV has 30 keV closure discrepancy with 2558.3 keV)"
+        }
+      },
+      "MU07": {
+        "citation": "Mukhopadhyay et al., Phys. Rev. Lett. 99, 172501 (2007)",
+        "locators": {
+          "experiment_and_setup": "printed 172501-1–2, 175 MeV 100Mo(40Ar,5n)135Nd with Gammasphere, 2.5e9 events",
+          "lifetimes_and_strengths": "printed 172501-2, Table I, Band A (29/2- to 43/2-) and Band B (31/2- to 39/2-)",
+          "lifetime_asymmetry_vs_rate_symmetry": "printed 172501-2, Table I, tau_B is ~2x tau_A at 31/2- to 37/2-, yet in-band B(E2) is nearly identical (0.28 vs 0.32 e2b2) via branching/energy compensation",
+          "interband_points_and_scheme_dependence": "printed 172501-3, Figs. 2 & 3, open circles lack line energies; level scheme relies on Zhu 2003 Ref. [8]"
+        }
+      }
+    },
+    "136Nd": {
+      "PE18": {
+        "citation": "Petrache et al., Phys. Rev. C 97, 041304(R) (2018)",
+        "locators": {
+          "experiment_and_setup": "printed 041304-1–2, 152 MeV 100Mo(40Ar,4n)136Nd with JUROGAM II, 5.1e10 prompt events",
+          "five_pairs_census": "printed 041304-2–3, Figs. 1–2, D1/D1-C, D2/D2-C, D3/D3-C, D4/D4-C, D5/D5-chiral",
+          "single_symmetric_pair": "printed 041304-3, Fig. 3, D5/D5-chiral is the ONLY pair with measured partner-resolved B(M1)/B(E2) in both partners",
+          "configuration_assignments": "printed 041304-4, Table I, D5 assigned to 6-qp positive parity configuration C; D3 assigned to negative parity D*",
+          "planar_to_aplanar_restriction": "printed 041304-5, Fig. 6, explicit 3D TAC-CDFT non-coplanar solution (phi > 0) is demonstrated ONLY for D3 (D*) above 0.5 MeV; not calculated for D5",
+          "backbends": "printed 041304-4–5, backbends in D2, D3, D4 attributed to 8-qp, 6-qp, 6-qp crossings outside the fixed model"
+        }
+      },
+      "MU08": {
+        "citation": "Mukhopadhyay et al., Phys. Rev. C 78, 034311 (2008)",
+        "locators": {
+          "experiment_and_setup": "printed 034311-1–3, 175 MeV 100Mo(40Ar,4n)136Nd with Gammasphere, 2.5e9 events",
+          "lifetime_and_rate_ledger": "printed 034311-4, Table II, Band 1 (15- to 19-) and Band 2 (15- to 19-)",
+          "B_E2_disparity": "printed 034311-4, Table II, at I=16-, Band 1 B(E2)=0.26(3) e2b2, Qt=1.73(10) eb; Band 2 B(E2)=0.51(7) e2b2, Qt=2.42(17) eb",
+          "modern_band_mapping": "Band 1 maps to D4 main band; Band 2 maps to D3 main band; directly refutes old Band 1 vs Band 2 partner hypothesis, but does NOT measure D5/D5-C or weak partner bands D3-C/D4-C"
+        }
+      }
+    }
+  },
+  "dimension_1_overly_strong_quantifiers": [
+    {
+      "nucleus": "134Pr",
+      "issue": "Treating PE06 Q0,1/Q0,2 = 2.0(4) as an empirical measurement of 2x nuclear quadrupole deformation or as an absolute falsification of all chirality.",
+      "locator": "PE06 printed 112502-3 Table I & text; printed 112502-4 conclusion",
+      "verdict": "Overclaim. 2.0(4) is an allowed parameter interval in a simplified two-band mixing model assuming q12=0 and constant V; it is not a Gaussian CI and not a direct shape measurement. PE06 asks whether chiral geometry reminiscence remains; Tonev06/07 explicitly proposed dynamic chirality/shape fluctuations.",
+      "risk_status": "partially-guarded-in-canonical-needs-explicit-strengthening"
+    },
+    {
+      "nucleus": "135Nd",
+      "issue": "Conflating positive-parity D3/D4 with negative-parity D5/D6, or asserting that both pairs in 135Nd are confirmed MchiD.",
+      "locator": "LV19 arXiv PDF p. 5, Figs. 5–6; MU07 printed 172501-2 Table I",
+      "verdict": "Overclaim. Positive pair D3/D4 has ZERO lifetimes and only ONE experimental B(M1)/B(E2) point for D3 (none for D4). MU07 lifetime evidence applies strictly to negative-parity D5/D6. Borrowing negative-parity lifetime support for positive-parity D3/D4 is an unphysical cross-configuration transfer.",
+      "risk_status": "guarded-in-matrix-must-remain-strict"
+    },
+    {
+      "nucleus": "136Nd",
+      "issue": "Splicing D3's 3D TAC aplanar rotation with D5's partner-ratio symmetry to claim complete experimental and theoretical confirmation of even-even chirality; or using MU08 to claim total falsification of D5.",
+      "locator": "PE18 printed 041304-3 Fig. 3; 041304-5 Fig. 6; MU08 printed 034311-4 Table II",
+      "verdict": "Overclaim. In PE18, ONLY D5 has partner-resolved ratios, but NO 3D TAC aplanar calculation was shown for D5 (it is a 6-qp positive-parity band). 3D TAC aplanar rotation was demonstrated ONLY for negative-parity D3. MU08 tested Band 1 vs Band 2 (D4 vs D3), not D5/D5-C or D3/D3-C. Neither total proof nor total falsification is warranted.",
+      "risk_status": "partially-guarded-in-matrix-needs-explicit-strengthening"
+    }
+  ],
+  "dimension_2_shared_experimental_dependencies": [
+    {
+      "campaign_id": "Vivitron-Euroball-IV-134Pr",
+      "papers": [
+        "Tonev 2006 (PRL 96, 052501)",
+        "Tonev 2007 (PRC 76, 044313)",
+        "PE06 (PRL 96, 112502, Ref. [9])"
+      ],
+      "nature_of_overlap": "Tonev 2006 and Tonev 2007 are the same 119Sn(19F,4n) Euroball IV experiment (RDDS 87 MeV + DSAM 83 MeV); PE06 is a theoretical critical analysis citing Tonev 2006 for lifetimes. They do not constitute independent experimental replications.",
+      "pseudoreplication_risk": "high-if-counted-separately"
+    },
+    {
+      "campaign_id": "JYFL-JUROGAM-II-152MeV-Ar40-Mo100",
+      "papers": [
+        "PE18 (PRC 97, 041304(R), 136Nd 4n channel)",
+        "LV19 (PRC 100, 024314, 135Nd 5n channel)",
+        "Lv 2019 PhD thesis (physical p. 66 / printed 65)",
+        "Lv 2025 (PRC 111, 014319, 136Pr 1p3n channel)"
+      ],
+      "nature_of_overlap": "All populated in the same 152 MeV 40Ar + 100Mo JUROGAM II campaign at JYFL with 5.1e10 prompt coincidence pool. They share detector geometry, target, triggerless TDR DAQ, and calibrations. They are different exit channels of one single campaign.",
+      "pseudoreplication_risk": "high-if-135Nd-and-136Nd-are-treated-as-independent-facility-validations"
+    },
+    {
+      "campaign_id": "Gammasphere-175MeV-Ar40-Mo100",
+      "papers": [
+        "MU07 (PRL 99, 172501, 135Nd 5n channel)",
+        "MU08 (PRC 78, 034311, 136Nd 4n channel)"
+      ],
+      "nature_of_overlap": "Both measured in the same 175 MeV 40Ar + 100Mo Gammasphere campaign (2.5e9 events). They share beam, target, SRIM stopping powers, BLUE matrices, and LINESHAPE analysis pipeline.",
+      "pseudoreplication_risk": "high-if-treated-as-independent-stopping-calibrations"
+    },
+    {
+      "campaign_id": "Zhu03-to-MU07-Scheme-Transfer",
+      "papers": [
+        "Zhu 2003 (PRL 91, 132501)",
+        "MU07 (PRL 99, 172501, Ref. [8])"
+      ],
+      "nature_of_overlap": "MU07 does not print gamma energies or independently establish level topology; its line-identification and initial-spin assignment are crosswalked from Zhu 2003.",
+      "pseudoreplication_risk": "medium-topology-is-inherited"
+    }
+  ],
+  "dimension_3_missing_counter_evidence_and_alternatives": [
+    {
+      "nucleus": "134Pr",
+      "counter_evidence": "1) Model sensitivity: If off-diagonal E2 transition matrix element q12 != 0, quantum interference substantially alters the extracted Q0 ratio, allowing symmetric diagonal moments to match experimental branching ratios under certain relative phases. 2) Competing model failure: IBFFM shape fluctuations reproduce B(E2) asymmetry but fail on energy gap and I=15 crossing; TQPTR reproduces energy and crossing but fails on EM rates.",
+      "locators": "PE06 printed 112502-2–3; Tonev07 printed 044313-25 Sec. V-F; task note 134pr-two-band-mixing-offdiagonal-e2-sensitivity"
+    },
+    {
+      "nucleus": "135Nd",
+      "counter_evidence": "1) Lifetime vs Rate disparity: In MU07 negative-parity bands, tau_B is ~2x tau_A at 31/2- to 37/2-, requiring an exact compensatory factor of ~2 from partial branches and (E_out/E_in)^5 phase space to maintain B(E2) symmetry. 2) Low-spin precession competition: Lawrie 2020 and Lv 2021 demonstrate that tilted precession (TiP) reproduces M1-dominated delta I=1 cascades in 135Nd without invoking chirality or wobbling phonons. 3) Typographical and topological anomalies in LV19 Table I (334.4 keV parity label, 30 keV loop discrepancy in D2).",
+      "locators": "MU07 printed 172501-2 Table I; Lawrie 2020 PLB 811, 135795; Lv 2021 PRC 103, 044308; LV19 arXiv PDF p. 2, p. 8 Table I"
+    },
+    {
+      "nucleus": "136Nd",
+      "counter_evidence": "1) Multi-quasiparticle crossing: D2, D3, D4 exhibit backbends attributable to 8-qp, 6-qp, 6-qp crossings, indicating extensive structural rearrangement rather than pure chiral partner rotation. 2) Complete absence of partner-resolved ratios for D1-C, D2-C, D3-C, D4-C. 3) Absence of 3D TAC aplanar calculation for D5 (the only pair with partner-resolved ratios). 4) MU08 direct counterexample: Band 1 vs Band 2 (D4 vs D3) has major B(E2) asymmetry (0.26 vs 0.51 e2b2), disproving the old negative-parity doublet hypothesis.",
+      "locators": "PE18 printed 041304-4 Table I, 041304-5 Fig. 6; MU08 printed 034311-4 Table II"
+    }
+  ],
+  "minimal_writeback_recommendations": [
+    {
+      "target_file": "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+      "section": "Evidence Available 表格 (Line 54) 135Nd 行",
+      "current_text_gist": "正pair仅一个D3比值点。负pair另有MU07双方τ及绝对B(E2)、B(M1)强支持...",
+      "recommended_amendment": "明确补充：135Nd 正宇称对 D3/D4 完全缺乏态寿命和绝对 B 值，仅 D3 测得单点相对比值（I=29/2），且伴有 Table I 334.4 keV 宇称异常与 30 keV 局部闭合差；负宇称对虽有 MU07 寿命与 B 值支持，但具有 tau_B ≈ 2 tau_A 的寿命两倍不对称与跃迁分支补偿边界；两者来自同一 152 MeV JYFL 实验池，不作多重手征已完备确证之推断。",
+      "needs_review": true
+    },
+    {
+      "target_file": "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+      "section": "Evidence Available 表格 (Line 55) 136Nd 行",
+      "current_text_gist": "仅正D5/D5-C双方相对B(M1)/B(E2)误差内相近；四弱伙伴缺自己的比... 显式3DTAC非共面解仅D3/D*...",
+      "recommended_amendment": "明确补充：严禁跨对拼接 D3 的 3D TAC 非共面解（phi > 0）与 D5 的对称实验比值；D5 属于正宇称六准粒子态，未计算 3D 偏转角，且缺乏态寿命测量；MU08 的绝对 B(E2) 巨大不对称（0.26 vs 0.51 e2b2）直接否定旧负宇称主带 D4 vs D3 的伙伴解释，但不直接否定正宇称 D5 或新弱伙伴 D3-C/D4-C。",
+      "needs_review": true
+    },
+    {
+      "target_file": "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+      "section": "采集独立性另限 (Line 60–63)",
+      "current_text_gist": "采集独立性另限：LV19的新JUROGAM数据独立于MU07... 并不因此独立于PE18...",
+      "recommended_amendment": "系统化梳理三大同源实验池关系：1) Vivitron Euroball IV (134Pr: Tonev06/Tonev07/PE06)；2) JYFL JUROGAM II 152 MeV (135Nd LV19 5n 与 136Nd PE18 4n 共享 5.1e10 事件池及刻度，属同次 campaign)；3) Gammasphere 175 MeV (135Nd MU07 5n 与 136Nd MU08 4n 共享 2.5e9 事件池及 SRIM/LINESHAPE 分析流程)。任何跨核比较均不得将同池数据作为独立测量计票。",
+      "needs_review": true
+    }
+  ],
+  "audit_conclusion": {
+    "status": "passed_bounded_audit",
+    "scientific_integrity_score": "high_after_adjustments",
+    "needs_review_preserved": true,
+    "knowledge_pages_modified": false,
+    "committed": false
+  }
+}

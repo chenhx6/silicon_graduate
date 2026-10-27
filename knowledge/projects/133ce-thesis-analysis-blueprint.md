@@ -712,6 +712,16 @@ B(M1)1/B(E2)2=.697 E2^5/(E1^3 λpure)，能量MeV。λpure=T(E2)2/T(M1)1，是�
 
 PA91-D25-A005-02/03另纠正reaction元数据与Fig2同ΔI1分母被误记为Fig3 ΔI2分母。Band1旧δ来源不补Band4独立观测。
 
+### 9. P-ADO / PDM 方法学输入合同、AFRODITE 几何失配与雅可比行列式高自旋局部过零边界
+
+吸收 raw/writing/pado/（Chen et al., 2026）手稿与代码库深审成果（详见 ce133-contract-audit-014.json 与 ce133-contract-audit-014.md），确立五项高信息结构化解析与操作性边界：
+1. **辐射混合比与约化矩阵元转换合同**：P-ADO 代码提取的 $\delta(E2/M1)$ 是无量纲辐射相干振幅比，代码第 39 行采用 Yamazaki (1967) 相位规范 phase = (-1.0)**(Jf - Ji - 1)，与 Paul 1991 及 WK22 第 4 章公式严格一致。理论三轴粒子-转子模型（QTR）输出的约化矩阵元比值 $\langle E2 \rangle / \langle M1 \rangle$ 必须经由 Paul 1991 公式 (2) 的 $\delta = 0.835 E_\gamma \frac{\langle E2 \rangle}{\langle M1 \rangle}$（平方系数 $(0.835)^2 = 0.697225 \approx 0.7\text{ MeV}^2$，即 WK22 公式 3.24）转换为辐射 $\delta$ 方可输入或比对，严禁裸代入；WK22 第 100 页称 582.7 keV 具有“~30% E2”系将 $\delta^2 = 0.3025$ 误写作份额，真实光子份额 $f_{E2} = \delta^2/(1+\delta^2) = 23.225\%$；
+2. **数学上证伪手稿普适非零 Jacobian 断言**：手稿声称在物理参数域内处处非零 $|J| \ne 0$。针对 $^{133}\text{Ce}$ 三条跨带跃迁开展全网格扫描，实测证实高自旋跃迁在纯 E2 渐近极限区（$|\delta| > 5, |\xi| \ge 80^\circ, \sigma/I \sim 0.50 - 0.55$）均存在局部 $\det J = 0$ 奇异曲面（如 582.7 keV 在 $\xi = -85.0^\circ$ 的精细零点为 $\sigma/I = 0.54923653$）；但实测 M1 主导工作点 $\delta = -0.55$（$\xi = -28.81^\circ$）处，$\det J$ 严格为负且正则可逆（$\det J \in [-0.335, -0.024]$）；
+3. **阵列探测几何硬编码物理失配**：P-ADO 代码在 config.py 硬编码 JUROGAM-II 环角（$26.0^\circ$ 与 $90.0^\circ$），而 AFRODITE 阵列实测角度为 $45^\circ$、$90^\circ$ 与 $135^\circ$（无 $26^\circ$ 探测环），强行代入会导致理论响应函数几何畸变；
+4. **线偏振度 $P$ 缺失引发测度降维**：$^{133}\text{Ce}$ 仅测定 $R_{\text{AD}}$ 与 $R_{\text{DCO}}$，线偏振度 $P$ 完全空白，无法构建二维概率密度映射测度；下游分析模块 YAnalysis.py:98 调用的 np.trapz 在容器环境（NumPy 2.5.3）中彻底失效；
+5. **582.7 keV / 817.7 keV 分母缺失与反演矛盾**：817.7 keV 在 Table 5.2 与能级纲图中完全缺失。由双比值商消去法反演的名义光子产额为 $Y_{817.7} \approx 1.1921$，而由单线代数反演法推得产额为 $0.8817$，两者显著脱节确证 Table 6.11 中的 $5.06$ 绝非源自实测光子强度的直接除法。
+
+
 ### Learning Decision与下一输入
 
 revises此前Day25过强认证，supports逐量依赖和输入合同。实际下一步是同母态计数/效率Cov或author header；受阻时继续现有可解析问题，不反复撞失败端点。计算与精确输入在本run forward-checks-005.py/json，长期结论在本页及两research notes。
