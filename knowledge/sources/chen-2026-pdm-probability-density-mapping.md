@@ -64,6 +64,7 @@ tags: [PDM, P-ADO, mixing-ratio, alignment, angular-distribution, polarization]
 ## Reproducibility checks
 
 - 2026-10-28：仓库测试集未能启动，当前环境没有 `pytest`；`unittest discover` 也因测试依赖 `pytest`、且未设置包路径而失败。
+- 设置 `PYTHONPATH=raw/writing/pado/Upload` 后，`python3 -m compileall -q raw/writing/pado/Upload/p_ado` 通过，说明代码树可编译，但不替代依赖完整的数值测试。
 - 设置 `PYTHONPATH=raw/writing/pado/Upload` 后，独立检查 `theta_deg_to_delta` 与 `delta_to_theta_deg` 在 $\pm30^\circ$、$\pm60^\circ$ 和 $0^\circ$ 网格上的往返误差处于浮点舍入范围；依赖 `sympy` 的完整响应/雅可比测试仍未运行。
 - 这些是运行环境边界，不把未运行的测试写成通过，也不改变方法稿的 `needs_review` 状态。
 
