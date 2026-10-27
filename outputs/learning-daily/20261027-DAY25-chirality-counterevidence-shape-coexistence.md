@@ -556,9 +556,33 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
           "locator": "CH26-PDM-04"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/131ce-133ce-lifetime-lineage-and-high-spin-migration.md",
+      "anchor": "## Research Trigger",
+      "summary": "131Ce与133Ce独立能级寿命谱系、衰变网络时钟拓扑与高自旋多准粒子迁移合同。",
+      "sources": [
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-D25-A005-01"
+        },
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-D24-001"
+        },
+        {
+          "path": "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md",
+          "locator": "JO98-D24-001"
+        },
+        {
+          "path": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+          "locator": "EM97-D24-001"
+        }
+      ]
     }
   ]
 }
+
 ```
 
 ## Open questions and belief revision
