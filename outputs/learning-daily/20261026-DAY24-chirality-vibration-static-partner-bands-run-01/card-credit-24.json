@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "transition_id": "2026-10-26-day-24-01/formal-Day24",
+  "observed_at": "2026-10-27T15:19:49.898031+08:00",
+  "applied_at": "2026-10-27T15:18:24.606251+08:00",
+  "session_id": "01a177ac-521f-7212-9312-ba967400db98",
+  "formal_completed": [
+    24
+  ],
+  "uncredited_preview": [
+    25
+  ],
+  "completed_day_count": 24,
+  "next_day_index": 25,
+  "before_state_receipt": "curriculum-state-before-closeout-24.json",
+  "publication_gate_receipt": "content-publication-receipt-24.json",
+  "no_double_credit_guard": "Original same-session runner applied only next24→25/count23→24 after content publication. This receipt changes no state; Day25 receives no credit; prior Day21/22/23 credits unchanged."
+}

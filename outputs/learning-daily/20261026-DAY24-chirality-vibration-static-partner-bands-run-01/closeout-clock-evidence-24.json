@@ -1,0 +1,69 @@
+{
+  "observed_at": "2026-10-27T15:19:49.898031+08:00",
+  "session_id": "01a177ac-521f-7212-9312-ba967400db98",
+  "run_id": "2026-10-26-day-24-01",
+  "deadline": "2026-10-27T15:00:00+08:00",
+  "closeout_event": {
+    "status": "queued",
+    "attempts": 1,
+    "attempted_at": "2026-10-27T15:00:00.219490+08:00",
+    "attempt_history": [
+      {
+        "attempt": 1,
+        "finished_at": "2026-10-27T15:00:00.428947+08:00",
+        "returncode": 0,
+        "timed_out": false,
+        "stdout": "Queued message 01a17c28-a317-7992-9dd9-007c1180a6c1 for thread 01a177ac-521f-7212-9312-ba967400db98.\n",
+        "stderr": ""
+      }
+    ],
+    "queued_at": "2026-10-27T15:00:00.428947+08:00",
+    "delivery_observed": false
+  },
+  "observed_clock_executions": [
+    {
+      "clock_event_id": "checkpoint-009",
+      "same_session_id": "01a177ac-521f-7212-9312-ba967400db98",
+      "observed_at": "2026-10-27T13:40:20.859513+08:00",
+      "queued_snapshot_at": "2026-10-27T13:30:11.596826+08:00",
+      "receipt_status_observed": "running",
+      "decision": "finish-current-bounded-analysis-no-new-sources-or-cards",
+      "deadline": "2026-10-27T15:00:00+08:00"
+    },
+    {
+      "clock_event_id": "checkpoint-010",
+      "same_session_id": "01a177ac-521f-7212-9312-ba967400db98",
+      "observed_at": "2026-10-27T14:06:27.937312+08:00",
+      "queued_snapshot_at": "2026-10-27T14:05:32.084065+08:00",
+      "receipt_status_observed": "running",
+      "decision": "finish-current-bounded-analysis-no-new-sources-or-cards",
+      "deadline": "2026-10-27T15:00:00+08:00"
+    },
+    {
+      "clock_event_id": "closeout",
+      "same_session_id": "01a177ac-521f-7212-9312-ba967400db98",
+      "observed_at": "2026-10-27T15:01:38.057117+08:00",
+      "queued_snapshot_at": "2026-10-27T15:00:00.219490+08:00",
+      "receipt_status_observed": "running",
+      "decision": "closeout-only",
+      "deadline": "2026-10-27T15:00:00+08:00"
+    }
+  ],
+  "closeout_at": {
+    "number": 2,
+    "returncode": 0,
+    "prompt": "/workspace/wiki/outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/interactive-closeout-attestation.json",
+    "events": null,
+    "window_missed": false,
+    "time_snapshot": {
+      "now_local": "2026-10-27T15:12:04.327829+08:00",
+      "hard_deadline": "2026-10-27T15:00:00+08:00",
+      "minutes_to_deadline": -12.072130483333332,
+      "decision": "closeout-only",
+      "can_continue_current": false,
+      "can_complete_forward_card": false
+    },
+    "interactive_session_closeout": true
+  },
+  "note": "Queue acceptance and execution distinguished; execution acknowledged in original run.json; no new session or daemon restart."
+}

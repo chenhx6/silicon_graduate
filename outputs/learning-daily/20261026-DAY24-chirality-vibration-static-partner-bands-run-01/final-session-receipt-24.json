@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "run_id": "2026-10-26-day-24-01",
+  "session_id": "01a177ac-521f-7212-9312-ba967400db98",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a177ac-521f-7212-9312-ba967400db98",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "started_at": "2026-10-26T18:05:31.808426+08:00",
+  "hard_deadline": "2026-10-27T15:00:00+08:00",
+  "finished_at": "2026-10-27T15:18:24.606251+08:00",
+  "completed_day_indices": [
+    24
+  ],
+  "partial_day_indices": [
+    25
+  ],
+  "curriculum_cards_completed": 1,
+  "next_day_index": 25,
+  "cumulative_completed_day_count": 24,
+  "single_credit_receipt": "card-credit-24.json",
+  "card_audit": {
+    "report": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands.md",
+    "section": "Day 24 card completion audit",
+    "deliverable_rows": 5,
+    "receipt": "curriculum-deliverable-audit-24.json"
+  },
+  "checks": {
+    "preflight_exit": 0,
+    "lint_exit": 0,
+    "git_diff_check_exit": 0,
+    "report_valid": true,
+    "writeback_valid": true,
+    "coverage_valid": true,
+    "lint_summary": "SUMMARY pages=742 wikilinks=9911 hashes=353 errors=0 warnings=267 info=4960",
+    "boundary_exit": 0,
+    "initial_staged_check_failure": "New worker report trailing blank line; removed; repeated staged check exit0 before commit."
+  },
+  "governance": {
+    "new_needs_review_preserved": true,
+    "no_human_review_promoted": true,
+    "protected_Bib_PLAN_unchanged": true,
+    "writeback_items": 48,
+    "changed_knowledge_pages": 48,
+    "baseline_provenance": {
+      "kind": "standard-baseline",
+      "path": "/workspace/wiki/outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/baseline.json",
+      "sha256": "81a062433ed4c05872f06d8ed963698ab2105c4ec380434f1eb2ce69ee5f9887"
+    },
+    "QMD_refresh": "deferred; collection boundary checked; rg/direct read used"
+  },
+  "runtime": {
+    "same_session_original_runner_finalizer": true,
+    "study_window_closed": true,
+    "closeout_on_time": true,
+    "new_sessions_created": 0,
+    "daemon_restarted": false,
+    "clock_evidence": "closeout-clock-evidence-24.json",
+    "interactive_attestation": "interactive-closeout-attestation.json"
+  },
+  "publication": {
+    "content": "content-publication-receipt-24.json",
+    "content_published_before_course_credit": true,
+    "final_receipts_subject": "Day24: record validated card credit and final receipts",
+    "branch": "main",
+    "refspec": "HEAD:main",
+    "non_force": true,
+    "actual_result_receipt": "task-publication-receipt-24.json"
+  },
+  "next_prompt_file": "/workspace/wiki/outputs/learning-daily/prompts/20261027-DAY25-chirality-counterevidence-shape-coexistence.md",
+  "open_science": [
+    "135Nd partner g and complete BR/ICC/Cov/response",
+    "133Ce 582keV out/out denominator; 817.7 remains arithmetic only",
+    "GAMPN/ASYMO/PROBMO actual inputs, epsilon4 conflict, epsilon/lambda units and zero, signed wavefunctions/RMEs",
+    "8/13-clover active detector mask and sorting response",
+    "state-specific lifetime/high-spin mapping and source independence"
+  ],
+  "supplement_133Ce": "Important continuing analysis-blueprint project; Day24 completion is not final completion of thesis study",
+  "subagent_incident": "Prior task_complete records and incorporated products recovered; UI read-only service mechanism unproven; no claim of UI repair."
+}

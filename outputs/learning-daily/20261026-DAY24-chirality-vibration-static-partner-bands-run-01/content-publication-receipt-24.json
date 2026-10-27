@@ -1,0 +1,12 @@
+{
+  "status": "published",
+  "run_id": "2026-10-26-day-24-01",
+  "branch": "main",
+  "subject": "Day24: complete chirality evidence map and Ce133 analysis",
+  "commit_hash": "30dabd0ad6e00da67ffb98bb77e32102c10ab48a",
+  "origin_main": "30dabd0ad6e00da67ffb98bb77e32102c10ab48a",
+  "published_at": "2026-10-27T15:17:21.004138+08:00",
+  "commands_receipt": "publication-content-h3.json",
+  "postcommit_reconciliation": "passed",
+  "git_executable": "/usr/bin/git"
+}
