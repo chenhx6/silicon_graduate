@@ -70,7 +70,7 @@ tags: [triaxiality, shape-coexistence, multiple-chiral-doublet]
 
 PE06的Q比1.6–2.4依无offdiagonal E2/短段固定V；Tonev的实验E2不对称与特定模型比较分开。两文共享实验不重复计票。135Nd负pair有历史绝对EM强支持，正pair与136Nd各pair缺项分别讨论。完整向量也未必唯一识别机制。
 
-旧“所有静态手征/刚性共存已排除”“双带绝对B必须严格相等”“所有体系必须τ+g+Qs”“两模型q12小即可证成手征”措辞撤回。条件前向核与数据列修订见[[134pr-two-band-mixing-offdiagonal-e2-sensitivity]]，不将其升格模型获胜。
+旧“所有静态手征/刚性共存已排除”“双带绝对B必须严格相等”“所有体系必须τ+g+Qs”“两模型q12小即可证成手征”措辞撤回。条件前向核与数据列修订见[[134pr-two-band-mixing-offdiagonal-e2-sensitivity]]，不将其升格模型获胜。 系统学反例比较、正交不变量定理与伴随量降级阶梯详见[[a130-chirality-counterexamples-and-shape-coexistence-systematics]]。
 
 ## Sources
 
