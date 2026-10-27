@@ -437,7 +437,7 @@ Table6.2中|18–20〉实值5.8046/5.8239/5.8985；6.423是50.6−5.5ħω倒算�
     {
       "knowledge": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
       "summary": "建立raw/writing/pado原始方法手稿source页，记录PDM公式、对齐权重、基准表与适用边界。",
-      "anchor": "## Key results and contracts",
+      "anchor": "## Key Results",
       "sources": [
         {
           "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
