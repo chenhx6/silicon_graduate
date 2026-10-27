@@ -151,6 +151,22 @@ $$
 3. **低激发 3-qp 假设的能量学受挫**：
    在 $A \approx 130$ 质量区，配对破除能量 $2\Delta \approx 1.8–2.2\text{ MeV}$，一个位于仅 $832.0\text{ keV}$ 的低激发带头极难容纳纯粹的 3-qp 构型（同核确认 3-qp 带头均在 $2.5\text{ MeV}$ 以上），低激发 3-qp 假说在能量学上高度受挫。
 
+
+### 4. 133Ce Table 6.11 出带与入带强度比消去定理与 582 keV 幽灵分母的精确代数反演
+
+针对 Wakudyanaye 2022 Table 6.11 列出的 out/out 与 out/in 两组跃迁比率，本任务推导了严格的同母态分支比消去定理：
+对于母态 $|Band 4, I
+angle$ 退激的混合出带跃迁 $\gamma_1$（$\Delta I=1$）、纯 $E2$ 跨带跃迁 $\gamma_2$（$\Delta I=2$, out/out 分母）与纯 $E2$ 带内跃迁 $\gamma_3$（$\Delta I=2$, out/in 分母）：
+$$\mathcal{R}_{E2} \equiv \frac{r_{E2}(\text{out/out})}{r_{E2}(\text{out/in})} = \frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)} = \frac{I_{\gamma,3}}{I_{\gamma,2}} \left(\frac{E_{\gamma,2}}{E_{\gamma,3}}\right)^5$$
+$$\mathcal{R}_{M1} \equiv \frac{r_{M1}(\text{out/out})}{r_{M1}(\text{out/in})} = \frac{B(E2; \text{in}, \Delta I=2)}{B(E2; \text{out}, \Delta I=2)}$$
+
+**定理推论与数值闭环**：
+1. **与混合线 $\gamma_1$ 完全正交**：比值 $\mathcal{R}$ 完全独立于出带混合线 $\gamma_1$ 的能量 $E_{\gamma,1}$、光子强度 $I_{\gamma,1}$ 以及误差极大的混合比 $\delta_1$；母态寿命 $\tau$ 亦完全相消，直接反映带内集体四极跃迁相对于跨带微观四极跃迁的内禀相对强度；
+2. **465 keV ($I=19/2^-$) 实验一致性验证**：
+   Table 6.11 报告比值 $\mathcal{R}_{E2} = 1.06 / 0.09 = 11.778$，$\mathcal{R}_{M1} = 5.54 / 0.47 = 11.787$（两通道在 $0.08\%$ 内重合）。代入 Table 5.2 实验光子强度（$\gamma_3 = 608.3\text{ keV}, I_{\gamma,3}=1.89(18)$；$\gamma_2 = 982.0\text{ keV}, I_{\gamma,2}=1.95(17)$），实测强度比结合能量五次方因子 $(982.0/608.3)^5 = 10.964$，给出实测比率 $10.63 \pm 1.37$。Table 6.11 的理论值 $11.78$ 稳固落在实验 $1\sigma$ 置信区间内，确凿证明作者在 465 keV 处的两组比值源自同一套实验光子数据；
+3. **582 keV ($I=17/2^-$) 幽灵分母的定量反演**：
+   Table 6.11 给出 $\mathcal{R}_{E2} = 5.06 / 0.33 = 15.333$。带内跃迁 $\gamma_3 = 577.8\text{ keV}, I_{\gamma,3}=3.22(21)$。假想跨带跃迁能差 $E_{\gamma,2} = 1409.8 - 592.1 = 817.7\text{ keV}$，能量因子 $(817.7/577.8)^5 = 5.6765$。若此比值源自真实观测线，则其实测强度必须达到 $I_{\gamma,2}(817.7\text{ keV}) \approx 1.19$（或直接由 $r_{E2}=5.06$ 反推得 $\approx 0.88$）。在 Table 5.2 弱线检出限达 $I_\gamma \sim 0.2–0.4$ 的背景下，一条强度达 $1.0$ 的跃迁在 Table 5.2 账本和 Figure 5.1 纲图中完全缺失，无可辩驳地证明：582 keV out/out 分母并无已确认观测线支撑，属于未闭合的幽灵分母，严禁在后续工作中逆向虚构 817.7 keV 观测线。
+
 ## Counter-evidence and missing companion observables
 
 ### 1. 134Pr / 135Nd / 136Nd 三核三行分对竞争矩阵
@@ -288,6 +304,21 @@ Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-fa
           "locator": "AW13-7"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/projects/a130-thesis-evidence-matrix.md",
+      "summary": "Added Day 25 evidence rows: 134Pr/135Nd/136Nd chirality counterevidence vs shape coexistence, and 133Ce triaxial scale decoupling and unclosed 582 keV denominator.",
+      "anchor": "## Evidence matrix",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D25-001"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-07"
+        }
+      ]
     }
   ]
 }
@@ -316,9 +347,13 @@ Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-fa
 
 1. **环境与代码验证**：
    - 执行路径契约检查：python3 system/scripts/wiki_boundary_check.py --root .，确认 0 violations；
-   - 执行代码与格式规范检查：python3 system/scripts/wiki_lint.py --fail-on error，确认 0 errors；
-   - 执行差异检查：git diff --check，确认无悬挂空白或冲突标记；
-   - 执行知识写回验证：通过 validate_writeback 权威核验，确认所有路径、锚点与原子 locator 100% 匹配。
+   - 执行代码与格式规范检查：python3 system/scripts/wiki_lint.py --fail-on error，确认 0 errors，267 warnings；
+   - 执行差异检查：git diff --check，确认无悬挂空白或冲突标记（0 errors）；
+   - 执行多代理并行学习与专项档案构建：三项深度分析档案已沉淀至 outputs/learning-daily/20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/：
+     * ce133-cancellation-proof.md（Table 6.11 出带/入带比率消去定理完整证明、465 keV 误差传播与 582 keV 幽灵分母排他性反演）；
+     * day26-octupole-dossier.md（144,146Ba GOSIA 库仑激发多步拟合、E1/E3 相对符号与微观 D0=D0(macro)+D0(micro) 抵消机制）；
+     * day26-magnetic-rotation-dossier.md（135Pr TAC 3-qp/5-qp 构型演化、剪刀机构闭合角推导与高自旋四模式鉴别矩阵）；
+   - 执行权威写回与课程验证：通过 validate_report、validate_curriculum_coverage 与 validate_durable_knowledge 权威核验（valid=True, error=None, 4 writeback items, 7 changed paths）。
 
 2. **后续续接建议（Continuation）**：
    - 本次运行正式完成 Day 25 的全部核心与附属任务，授予以 Day 25 为限的正式课程学分；

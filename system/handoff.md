@@ -5,7 +5,7 @@ updated: 2026-10-27
 
 ## Active handoff — Day 25 学习主线交付与 133Ce 分析蓝本深入
 
-2026-10-27T18:40:00+08:00，run 2026-10-27-day-25-01 / session 01a17cdd-58b4-7a53-b782-5248260f526a。依据用户持续学习与 auto 无人值守授权推进。当前完成 Day 25 主线全部交付及 133Ce 深入学习，Day 26 开展前置无学分预习；硬截止保持次日 2026-10-28 15:00，收束窗口 15:00–16:00。
+2026-10-27T19:35:00+08:00，run 2026-10-27-day-25-01 / session 01a17cdd-58b4-7a53-b782-5248260f526a。依据用户持续学习与 auto 无人值守多代理授权推进。当前已全面完成 Day 25 主线全部交付、133Ce 深入学习与三项专项子代理研究，并在 Day 26 开展深化无学分预习；硬截止保持次日 2026-10-28 15:00，收束窗口 15:00–16:00。
 
 核心交付全量达成：
 1. **理论判据澄清**：系统论证“近简并”（near-degeneracy）是手征对称性自发破缺恢复的必要表象而非充分条件，多准粒子带交叉（4-qp crossings）、反交叉能级排斥与形状共存均可在有限角动量窗口内伪造近简并能谱；
@@ -15,10 +15,16 @@ updated: 2026-10-27
    - 135Nd：负宇称对（D5/D6）拥有 Mukhopadhyay 2007 的实测寿命与绝对 B(E2)/B(M1) 强支撑；正宇称对（D3/D4）新谱学角分布完备但缺少配对绝对强度，保留多极小或交叉竞争解释；
    - 136Nd：五对中仅正宇称六准粒子 D5/D5-C 对在两成员均测得重合的 B(M1)/B(E2) 比值；D3 展现 3D-TAC 非共面解，其余弱伙伴对缺乏跃迁比；旧 Mukhopadhyay 2008 寿命不对称对应 D4 与 D3 主带，不支持手征；
 4. **伴随观测量四级降级阶梯**：建立“拓扑身份/谱线纯度 → 实测时钟/绝对电磁标度 → 固定模型可失败预报 → 独立正交结构 holdout”的四级鉴别与逐项缺失降级规范；
-5. **133Ce 分析蓝本持续深入**：
+5. **133Ce 分析蓝本持续深入与代数闭环**：
    - 131Ce (N=73) Band 3 为 Ex=61.8 keV 的 1/2+ 激发态，而 133Ce (N=75) 同号 Band 3 为 1/2+ 基态（0 keV），确立低激发基准与带头零点翻转；
    - 133Ce 近邻 13/2+ 双能级（1445.8 与 1459.9 keV，差 14.1 keV）中，412.4 与 767.7 keV 跃迁均完全来自 1445.8 keV 单一母态，非两态各发一条；2733.4 与 2739.5 keV 两 19/2+ 态保留独立节点；
-   - 582.7 keV out/out 分母严格未闭合：1409.8 keV 向 Band 1 13/2- 能差为 817.7 keV，Table 5.2/Fig 5.1 均无已观测线，禁止逆向虚构。
+   - Table 6.11 出带与入带强度比消去定理成立：r_E2(out/out) / r_E2(out/in) = r_M1(out/out) / r_M1(out/in) = B(E2; in, ΔI=2) / B(E2; out, ΔI=2) = [I_γ(in) / I_γ(out)] * [E_γ(out) / E_γ(in)]^5，完全独立于混合线 γ1、δ1 与母态寿命；
+   - 465 keV（1809.1 keV 母态）实测光子强度误差传播给出 10.63 ± 1.37，覆盖 Table 6.11 报告值 11.78；
+   - 582 keV（1409.8 keV 母态）反演所需 817.7 keV 假想线强度高达 0.88–1.19，在检出限 0.2–0.4 的 Table 5.2 中完全缺失，排他性证明 817.7 keV 为幽灵分母，严禁逆向造线；
+   - 谐振子标度统一正宇称单粒子能与绝对费米能（44.177 + 6.423 = 50.600 MeV），负宇称 h11/2（N=5 壳基准 52.209 MeV）严禁共用正宇称 λ_F。
+6. **多代理并行预习成果**：
+   - 产出三项深度分析档案：ce133-cancellation-proof.md、day26-octupole-dossier.md 与 day26-magnetic-rotation-dossier.md；
+   - 深入剖析 144,146Ba 库仑激发 GOSIA 拟合、E1/E3 相对符号与微观 D0 相消机制，以及 135Pr 剪刀机构 TAC 动力学与 A≈130 高自旋四模式鉴别矩阵。
 
 验证全绿：
 - wiki_boundary_check: 0 violations；
@@ -26,10 +32,10 @@ updated: 2026-10-27
 - git diff --check: 0 errors；
 - validate_report: valid=True；
 - validate_curriculum_coverage: valid=True, completed=[25], partial=[26], next=26；
-- validate_durable_knowledge: valid=True, mode="updated", 6 changed paths。
+- validate_durable_knowledge: valid=True, mode="updated", 4 items, 7 changed paths。
 
 Next Actions:
-保持当前有界分析与会话监督（farmer ensure 已运行），继续 Day 26 八极关联与磁转动原件前置预习，待次日 15:00 准时启动正式收束。
+保持当前有界分析与会话监督（farmer ensure 运行），继续 Day 26 知识深化，待次日 15:00 准时启动正式收束。
 
 ## Previous handoff — Day24正式完成，Day25仅预习 — Day24正式完成，Day25仅预习
 
