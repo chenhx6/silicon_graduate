@@ -105,6 +105,10 @@ $$
 
 若另以生成式likelihood L(o_obs|p)定义Bayes后验，公式是q(p|o_obs)∝Lπ。把f_O(F(p))当作该likelihood时，|J|w可对应一种隐式先验或测度，不能由测量单独决定，也不等于参数空间均匀先验。窄对齐权重极限保留f_O(F(xi,s0))|J(xi,s0)|，所以不自动等于固定对齐χ²提取。以上不判定原方法失效，而是要求将输出称作声明测度、权重和域下的条件密度；若称Bayes后验，应补齐likelihood/先验/分支合同。
 
+### analysis 模块的复现边界（checkpoint010）
+
+`raw/writing/pado/Upload/analysis/YAnalysis.py` 的投影、归一化、CDF和HDI全部经 `_trapz` 调用 `np.trapz`；当前NumPy 2.5.3已移除该接口，而 `requirements_analysis.txt` 的 `numpy>=1.24`允许该不兼容组合。当前包的24项测试不覆盖analysis模块。临时内存适配 `_trapz→numpy.trapezoid` 后，合成双峰密度的HDI分支质量和`mass`字段可对账；平顶常数密度在阈值二分下会把全域质量1记为请求的.68，故复现须另核各interval `mass`总和。默认`summary_transition`只计算delta，稿件要求的xi/AT-HDI须显式选择theta并把角度端点经tan映回delta；不能拿delta坐标HDI代替稿件结果。完整八条基准网格未取得，当前不做稿件重放。
+
 ## Open Questions
 
 1. 当大探测器阵列给出多角度全矩阵（如 17 环或 39 探测器）时，如何将 PDM 推广至多维协方差不为零的高阶张量空间？

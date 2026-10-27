@@ -414,7 +414,7 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
     {
       "knowledge": "knowledge/research-notes/pado-probability-density-mapping-mixing-ratios.md",
       "anchor": "## Research Trigger",
-      "summary": "区分PDM稿件版本、HDI坐标与混合比份额；推导局部换元到全局折叠分支质量的条件合同。",
+      "summary": "区分PDM稿件版本、HDI坐标、全局折叠测度、Pr份额与analysis模块复现边界。",
       "sources": [
         {
           "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
@@ -435,6 +435,14 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
         {
           "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
           "locator": "CH26-PDM-05"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-08"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-07"
         },
         {
           "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
@@ -531,6 +539,7 @@ L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条�
 ## Verification and continuation
 
 checkpoint009：已补齐两篇研究笔记缺失的正文source链接，并撤回综合笔记中残留的普适必要、全核无寿命、六级必需链及排他认证。PADO现有测试24 passed/exit0（15.05s），临时依赖环境与源码哈希见pado-tests-009.json；这解除历史依赖阻塞，不构成八条基准/HDI重现。数学控制10项通过。新的required-checks-009.json记录本checkpoint实际结构门，旧005结果仅作历史。
+checkpoint010：analysis模块审计发现NumPy2.5.3的np.trapz兼容断点、默认delta-HDI与稿件xi-HDI坐标差、平顶HDI质量字段边界；临时内存适配后的双峰synthetic控制与signed-phase同强度矩阵控制写入analysis-and-phase-controls-010.py/json，raw analysis源码哈希未变，未作八条基准重放。
 
 checkpoint009的required-checks-009.json实际boundary/lint/diff exit0、原runner三门valid；18项写回、749页、267warnings与5004info。首次lint将矩阵文字误识别为wikilink而exit1，已改为LaTeX矩阵并复检0；历史005检查保留。科学核验与结构检查分开；runner写回验证须用真实原baseline和当前checkpoint入口两套快照，不用未传baseline的valid冒称run-change检查。
 

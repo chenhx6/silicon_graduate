@@ -1,0 +1,138 @@
+{
+  "scope": "synthetic diagnostics and declared in-memory compatibility adaptation; no nuclear data fit",
+  "numpy": "2.5.3",
+  "raw_analysis_sha256": "435c8d7344ec68ec8765ab3c20e26a4bb6336142b7eae52ede0f8f80df547e7a",
+  "native_analysis": {
+    "status": "failed",
+    "type": "AttributeError",
+    "message": "module 'numpy' has no attribute 'trapz'"
+  },
+  "adaptation": "YAnalysis._trapz bound in memory to numpy.trapezoid; raw source unchanged",
+  "flat_hdi": {
+    "mass": 0.68,
+    "density_threshold": 1.0,
+    "intervals": [
+      {
+        "name": "interval1",
+        "left": 0.0,
+        "right": 1.0,
+        "width": 1.0,
+        "mass": 1.0,
+        "mass_fraction": 1.0,
+        "mass_rank": 1,
+        "mode": 0.0,
+        "err_minus": 0.0,
+        "err_plus": 1.0,
+        "peak_density": 1.0
+      }
+    ],
+    "global_mode": 0.0
+  },
+  "flat_actual_mass": 1.0,
+  "smooth_bimodal_hdi": {
+    "mass": 0.68,
+    "density_threshold": 0.40551807238632304,
+    "intervals": [
+      {
+        "name": "interval1",
+        "left": -2.2983384699093095,
+        "right": -1.7016615300906903,
+        "width": 0.5966769398186191,
+        "mass": 0.34000000000000014,
+        "mass_fraction": 0.5000000000000001,
+        "mass_rank": 1,
+        "mode": -2.0,
+        "err_minus": -0.29833846990930946,
+        "err_plus": 0.2983384699093097,
+        "peak_density": 0.6649038006690544
+      },
+      {
+        "name": "interval2",
+        "left": 1.7016615300906903,
+        "right": 2.2983384699093095,
+        "width": 0.5966769398186191,
+        "mass": 0.3400000000000001,
+        "mass_fraction": 0.5,
+        "mass_rank": 2,
+        "mode": 2.0,
+        "err_minus": -0.2983384699093097,
+        "err_plus": 0.29833846990930946,
+        "peak_density": 0.6649038006690544
+      }
+    ],
+    "global_mode": -2.0
+  },
+  "smooth_actual_mass": 0.6800000000000002,
+  "smooth_mass_fraction_sum": 1.0,
+  "signed_matrix_example": [
+    {
+      "matrix": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          -1.0,
+          1.0
+        ]
+      ],
+      "intensities": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "determinant": 2.0,
+      "singular_values": [
+        1.4142135623730954,
+        1.4142135623730947
+      ],
+      "loop_product": -1.0
+    },
+    {
+      "matrix": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "intensities": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "determinant": 0.0,
+      "singular_values": [
+        2.0,
+        0.0
+      ],
+      "loop_product": 1.0
+    }
+  ],
+  "checks": {
+    "raw_analysis_hash_preserved": true,
+    "native_current_stack_failure_observed": true,
+    "flat_requested_68pct_actual_unit_mass_limitation_observed": true,
+    "smooth_bimodal_hdi_has_two_components": true,
+    "smooth_bimodal_actual_hdi_mass_is_68pct": true,
+    "mass_fraction_sums_to_one": true,
+    "same_intensity_signed_matrix_pair": true,
+    "distinct_loop_signs": true,
+    "first_singular_values_degenerate": true,
+    "second_singular_values_split": true
+  },
+  "passed": true
+}

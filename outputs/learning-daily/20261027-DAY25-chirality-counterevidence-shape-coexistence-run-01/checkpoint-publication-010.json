@@ -1,0 +1,8 @@
+{
+  "checkpoint_only": true,
+  "status": "local-pending-publication",
+  "previous_published_commit": "a76f7077707a91039c0002e0436f5c5fd35c7975",
+  "current_run": "2026-10-27-day-25-01",
+  "day_credit_awarded": false,
+  "note": "Checkpoint 010 analysis audit; formal Day25 receipts remain pending original deadline."
+}
