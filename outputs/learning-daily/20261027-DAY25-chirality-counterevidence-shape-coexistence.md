@@ -53,6 +53,8 @@ Day24本次直接核run.json、card-credit-24.json、final-session-receipt-24.js
 |来源|本checkpoint实际读区与证据角色|限制|
 |---|---|---|
 |[[petrache-2006-near-degenerate-chiral-misinterpretation]]|父代理回读四页主线，PDF3 fresh视觉TableI/Eqs3–5；独立代理交叉核|非新实验；Ref11/Ref9不同不证明统计独立|
+|[[zhu-2003-135nd-composite-chiral-pair]]|Fig.2 与正文提供 135Nd Band B→A 的候选逐线 crosswalk：648/649、639、591、(556) keV，及 648/670 的多极性判据|556 保留括号；648/649文字冲突；弱线未逐线给角分布；箭头强度不是绝对B或寿命|
+|[[mukhopadhyay-2007-135nd-chiral-vibration-static]]|Table I 提供逐初始自旋的寿命与派生B，图2/3提供带间点|表格不写逐线Eγ/终态/协方差；图点需借ZH03候选绑定，不能唯一反演δ或逐线E2|
 |[[chen-2026-pdm-probability-density-mapping]]|直接核对用户提供PDM手稿15页、Eq. 1/9–14、Table 1与代码入口|未发表方法稿；误差独立性、对齐权重、响应网格和输入PDF是条件假设，非独立实验|
 |[[lv-2019-chirality-135nd-reexamined]]|复用既有全文ledger；本次独立代理定向PDF2/5、VoR024314-8/Figs5–6|正pair本篇未给成对absoluteEM，不作全领域无寿命断言|
 |[[petrache-2018-chiral-bands-even-even-136nd]]|独立代理定向Fig3/TableI/Fig6及MU08 TableII谱系|D5比值与D3模型几何不拼成同pair完整实测|
@@ -106,6 +108,10 @@ Table6.2中|18–20〉实值5.8046/5.8239/5.8985；6.423是50.6−5.5ħω倒算�
 1. **Frobenius 范数守恒（总四极强度守恒）**：$|M_{fi}|_F^2 = \text{Tr}(M_{fi}^T M_{fi}) = \text{Tr}(Q_{fi}^T Q_{fi}) = q_1^2 + q_2^2 + 2q_{12}^2$。态混合仅在两带内与两跨带通道间重分配跃迁几率，总四极集体性不变；
 2. **绝对行列式守恒**：$|\det M_{fi}| = |q_1 q_2 - q_{12}^2|$；
 3. **奇异值谱守恒与手征退化判据**：在完整2×2跃迁幅度矩阵、相位、响应和归一化合同均闭合且正交混合模型适用时，$\sigma_k(M_{fi}) \equiv \sigma_k(Q_{fi})$；分裂奇异值说明该理想等形变假设或选定子空间失配，仍需独立结构观测量判断形状共存。
+
+### 135Nd 逐线身份的条件 crosswalk
+
+ZH03 Fig.2 将四条 Band B→Band A 候选线映射为 31/2−→29/2− 的 648 keV、33/2−→31/2− 的 639 keV、35/2−→33/2− 的 591 keV 和 37/2−→35/2− 的 (556) keV；正文同页另把 648 写作 649，且 556 保持括号。MU07 Table I 只按初始自旋列寿命与 $B(M1),B(E2)$，没有逐线末态与 $E_\gamma$。因此该 crosswalk 只能作为候选身份约束，不能把 MU07 图点升级为唯一的 $\delta$ 或绝对逐线强度。
 
 ### 133Ce形状共存分辨极限与奇A核配对能阈值约束
 
