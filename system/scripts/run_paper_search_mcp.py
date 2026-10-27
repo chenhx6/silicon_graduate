@@ -11,7 +11,8 @@ import sys
 
 def read_api_key(path: Path, variable: str) -> str:
     """Read one allowlisted credential; never execute dotenv contents."""
-    if variable not in {"WEB_OF_SCIENCE_API_KEY", "ELSEVIER_API_KEY"}:
+    if variable not in {"WEB_OF_SCIENCE_API_KEY", "ELSEVIER_API_KEY",
+                        "SPRINGER_META_API_KEY", "SPRINGER_OPEN_ACCESS_API_KEY"}:
         raise ValueError("Unsupported credential variable")
     if not path.is_file():
         return ""
@@ -48,7 +49,9 @@ def main() -> int:
     env = os.environ.copy()
     wiki_root = Path(__file__).resolve().parents[2]
     for source, target in (("WEB_OF_SCIENCE_API_KEY", "WOS_API_KEY"),
-                           ("ELSEVIER_API_KEY", "ELSEVIER_API_KEY")):
+                           ("ELSEVIER_API_KEY", "ELSEVIER_API_KEY"),
+                           ("SPRINGER_META_API_KEY", "SPRINGER_API_KEY"),
+                           ("SPRINGER_OPEN_ACCESS_API_KEY", "SPRINGER_OPENACCESS_API_KEY")):
         if env.get(target, "").strip():
             continue
         key = env.get(source, "").strip()

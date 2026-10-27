@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-10-27T13:21:09.480226+00:00",
+  "credential_source": "raw/personal/.env",
+  "tests": [
+    {
+      "product": "metadata",
+      "endpoint": "https://api.springernature.com/meta/v2/json",
+      "parameters": {
+        "q": "keyword:nuclear",
+        "p": 1,
+        "s": 1
+      },
+      "attempts": 1,
+      "http_status": 200,
+      "content_type": "application/json",
+      "outcome": "search_available",
+      "total": "108153",
+      "records_returned": 1
+    },
+    {
+      "product": "open_access",
+      "endpoint": "https://api.springernature.com/openaccess/json",
+      "parameters": {
+        "q": "keyword:nuclear",
+        "p": 1,
+        "s": 1
+      },
+      "attempts": 1,
+      "http_status": 200,
+      "content_type": "application/json; charset=UTF-8",
+      "outcome": "search_available",
+      "total": "4782",
+      "records_returned": 1
+    }
+  ],
+  "limits_note": "Only response headers count as observed account quotas; plugin local limits are not subscription limits.",
+  "diagnosis": {
+    "dns": "both API hosts resolve and direct requests succeeded",
+    "local_configuration": {
+      "paper_search_meta": "SPRINGER_META_API_KEY -> SPRINGER_API_KEY",
+      "paper_search_open_access": "SPRINGER_OPEN_ACCESS_API_KEY -> SPRINGER_OPENACCESS_API_KEY",
+      "nature_downloader": "SPRINGER_META_API_KEY stored as private springer_nature api_key"
+    },
+    "limits_note": "No quota headers were returned. Paper Search plugin applies a local conservative limiter of about 3 requests/minute and a local 5000/day counter; these are not confirmed provider account quotas."
+  }
+}

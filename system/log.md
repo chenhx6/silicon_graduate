@@ -4562,3 +4562,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-27T21:08:37+08:00 Day25 checkpoint005：按原件撤回Pr实验/计算列混用、无依据CI及Ce壳offset/检出限/3qp硬门，重建可执行前向控制、三核矩阵和蓝本。用户指定五子会话巡检：一容量失败已原生续接完成，四既有完成；Farmer修正child id与parent通知路由，inactive父不唤醒，9项回归通过。正式学分仍未授、原截止不改；实际检查与发布留本run回执。
 
 - 2026-10-27 Day25 checkpoint005续：监督回归补至10项并核inactive父不重复通知，监督器以最终代码重新加载为PID442391；Paul1991原件Eq6能量幂/混合份额、Fig2分母及反应/作者元数据已修正，保留实际校正合同与原needs_review。结构首检发现研究笔记schema/导航缺失，已按真实source与条件推导补齐，未将旧“检查全绿”作为证据。
+
+- 2026-10-27：接入 Springer Meta/OA 两把 key并测试；meta/v2与openaccess各HTTP200、各返回1条。无额度头；插件本地限流/计数不当供应商配额。回执 outputs/literature-acquisition/20261027-springer-api-permissions.json。

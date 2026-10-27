@@ -10,6 +10,8 @@ updated: 2026-10-27
 
 ## 已确认规则
 
+- 2026-10-27 用户提供 Springer Meta/OA 两把 key；Paper Search MCP 已映射为 `SPRINGER_API_KEY`/`SPRINGER_OPENACCESS_API_KEY`，nature-downloader 私有配置已保存 Meta key。两接口实测 HTTP 200，各返回1条；无供应商额度头，插件本地保护约3次/分钟、5000/日不等于账户配额。回执 `outputs/literature-acquisition/20261027-springer-api-permissions.json`。
+
 - 2026-10-27 用户已补齐 Paul1991（1991Pa04，DOI 10.1088/0954-3899/17/5/009）全文，原文件路径及哈希见 `outputs/literature-acquisition/20261027-paul1991-user-pdf.json`，133Ce 分析蓝本已更新获取状态；后续直接读取本地 PDF，不再沿 Day24 访问失败记录重复索取。当前只核身份，正文科学核查待续。
 
 - 2026-10-27 用户重申每日学习长期授权：“DAY每日学习不许问。默认能学尽学，应学就学，自行获取应该获取的文章、文件等等一切资源。”在 `daily-learning` 中，正文、Supporting Information（SI）、必要附件/数据/代码及其它应学资源由 Codex 自主选择、检索、获取和核验；默认正文及可用SI，不再询问要不要下载或要不要SI，也不因外部skill的SI确认提示中断学习。该要求跨日、跨session沿用，不只是当前批次偏好。输入不可得时记录已查路线和缺口，继续可解析问题，不把普通学习选择变成用户待办。

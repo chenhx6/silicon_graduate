@@ -12,7 +12,7 @@ updated: 2026-10-27
 
 `system/scripts/run_paper_search_mcp.py` 在现有 Paper Search MCP 启动器之前运行，将该变量映射为插件读取的 `WOS_API_KEY`。优先使用已有非空 `WOS_API_KEY`，其次使用进程环境中的 `WEB_OF_SCIENCE_API_KEY`，最后读取上述文件。只解析下述白名单，不执行 `.env`。
 
-同一包装器还按白名单读取 `ELSEVIER_API_KEY`，其它 dotenv 项不会加载。本地 MCP 配置的 `paper-search-nodejs` 使用以下结构（路径替换为实际安装位置）：
+同一包装器还按白名单读取 `ELSEVIER_API_KEY`，其它 dotenv 项不会加载。Springer 的两个变量分别映射为插件读取的 `SPRINGER_API_KEY` 与 `SPRINGER_OPENACCESS_API_KEY`。本地 MCP 配置的 `paper-search-nodejs` 使用以下结构（路径替换为实际安装位置）：
 
 ```toml
 [mcp_servers.paper-search-nodejs]
@@ -39,6 +39,14 @@ args = ["<wiki>/system/scripts/run_paper_search_mcp.py", "<paper-search-install>
 - Academic Search MCP：本机 `~/.config/pybliometrics.cfg` 已配置，权限 `0600`，补齐此前缺配置的 ScienceDirect/Scopus 路线。
 
 后两者为私有配置副本，更换 dotenv 中的 key 后应同步更新；不得把密钥放入命令参数、Wiki 文档或 Git。2026-10-26 应用户要求实测：Larsson1978 的文章 META 返回 200，PDF 接口返回 200/application/pdf 且 `%PDF-` 文件头有效（仅探测开头，未重复下载全文）；Scopus DOI 检索返回 200、1 条结果。结果仅覆盖该论文和所测接口，不代表全部全文或其它 Scopus 产品权限；配额头当时报告 limit/remaining 均为 20000，不能解读成每日限额。详见 [权限回执](../../outputs/literature-acquisition/20261026-elsevier-api-permissions.json)。新启动 MCP 已实测识别密钥，pybliometrics 本地初始化通过；正在运行的每日学习进程未重启。
+
+## Springer Nature（2026-10-27）
+
+用户提供了 `SPRINGER_META_API_KEY` 与 `SPRINGER_OPEN_ACCESS_API_KEY`，已接入 Paper Search MCP；`nature-downloader` 私有凭据写入 `~/.config/lit-dl/credentials.json` 的 `springer_nature` 项（使用 Meta key，权限 0600）。两把 key 不写入 Wiki。
+
+实测 `https://api.springernature.com/meta/v2/json` 与 `https://api.springernature.com/openaccess/json` 各一次，均 HTTP 200，分别返回 1 条记录；查询词为 `keyword:nuclear`。本次响应没有账户额度头，不能据此给出供应商配额。Paper Search 代码内置约 3 次/分钟和 5000/日的本地保护计数，属于客户端保护，不等于 Springer 账户额度。权限回执见 [Springer 测试](../../outputs/literature-acquisition/20261027-springer-api-permissions.json)。
+
+Meta/OA 检索成功不等于任意 Springer 论文均有 PDF 权限；全文仍需文章级 OA、JATS/API 返回或合法机构访问。新 MCP 进程加载配置，旧进程不热加载。
 
 ## Paper Search 下载目录（2026-10-26 修正）
 
