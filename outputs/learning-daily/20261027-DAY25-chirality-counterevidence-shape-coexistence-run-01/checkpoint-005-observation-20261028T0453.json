@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "kind": "clock-checkpoint-observation",
+  "clock_event_id": "checkpoint-005",
+  "observed_at_local": "2026-10-28T04:54:37.041666+08:00",
+  "run_id": "2026-10-27-day-25-01",
+  "session_id": "01a17cdd-58b4-7a53-b782-5248260f526a",
+  "day_index": 25,
+  "status": "running",
+  "hard_deadline": "2026-10-28T15:00:00+08:00",
+  "queue": {
+    "queued_snapshot_at": "2026-10-28T04:51:40.234271+08:00",
+    "delivery_observed": false,
+    "clock_state": "running"
+  },
+  "candidate_pool": [
+    {
+      "candidate": "formal Day25 closeout readiness",
+      "information_gain": "highest before deadline: turn validated report/card audit into runner receipts without changing science",
+      "selection": "continue-preparation; no formal credit yet"
+    },
+    {
+      "candidate": "133Ce thesis blueprint input contract",
+      "information_gain": "high only if actual event/mask/header/denominator appears; current evidence remains missing",
+      "selection": "bounded readiness only"
+    },
+    {
+      "candidate": "PADO finite-mesh/Jacobian boundary",
+      "information_gain": "local detJ warning already recorded for 19/2→17/2; finer math could refine but not alter mode claim",
+      "selection": "saturated for now; no new producer/source"
+    }
+  ],
+  "evidence_gaps": [
+    {
+      "topic": "134Pr",
+      "locators": [
+        "PE06-D25-001",
+        "PE06-D25-002",
+        "PE06-D25-A005-01",
+        "PE06-D25-A005-03"
+      ],
+      "gap": "signed/off-diagonal E2/Cov/actual likelihood unavailable; model range not direct shape measurement"
+    },
+    {
+      "topic": "135Nd",
+      "locators": [
+        "LV19-D25-002",
+        "LV19-D25-003",
+        "MU07-172501-2"
+      ],
+      "gap": "positive pair lacks paired absolute EM/new lifetime; negative support is family-specific"
+    },
+    {
+      "topic": "136Nd",
+      "locators": [
+        "PE18-D25-001",
+        "PE18-D25-002",
+        "PE18-D25-003"
+      ],
+      "gap": "only D5 relative partner ratio; D3 geometry not generalized; weak partners lack own ratios"
+    },
+    {
+      "topic": "133Ce",
+      "locators": [
+        "WK22-07",
+        "WK22-14",
+        "WK22-34",
+        "AW13-1",
+        "AW13-7",
+        "EM97-D25-A005-01"
+      ],
+      "gap": "817.7 denominator, actual QTR inputs/mask/Cov/signed EM and target Band4 clock remain open"
+    },
+    {
+      "topic": "PADO/P-ADO",
+      "locators": [
+        "CH26-PDM-03",
+        "CH26-PDM-04",
+        "CH26-PDM-07",
+        "CH26-PDM-08",
+        "CH26-PDM-09"
+      ],
+      "gap": "two manuscript versions, measurement/weight/domain contract and no full eight-benchmark grid replay"
+    }
+  ],
+  "next_action": "keep day_index=25; maintain partial_day_indices=[26]; continue existing bounded analysis, then formal closeout only in 15:00–16:00 window; do not open Day27 or create a session",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a17cdd-58b4-7a53-b782-5248260f526a",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ]
+}
