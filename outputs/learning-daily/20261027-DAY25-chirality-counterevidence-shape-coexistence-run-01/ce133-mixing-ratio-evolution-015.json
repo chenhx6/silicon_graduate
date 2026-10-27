@@ -1,0 +1,50 @@
+{
+  "title": "133Ce Band 4 interband transition multipole mixing ratio and photon fraction evolution",
+  "transitions": {
+    "624.6": {
+      "Ji": 6.5,
+      "Jf": 5.5,
+      "Egamma_MeV": 0.625,
+      "delta_central": -1.5,
+      "delta_squared": 2.25,
+      "f_E2_percent": 69.231,
+      "f_M1_percent": 30.769,
+      "f_M1_interval_percent": [
+        1.893,
+        78.07
+      ],
+      "naive_delta_zero_overestimate_percent": 225.0,
+      "correction_factor_1_over_1_plus_d2": 0.30769
+    },
+    "582.7": {
+      "Ji": 8.5,
+      "Jf": 7.5,
+      "Egamma_MeV": 0.582,
+      "delta_central": -0.55,
+      "delta_squared": 0.3025,
+      "f_E2_percent": 23.225,
+      "f_M1_percent": 76.775,
+      "f_M1_interval_percent": [
+        60.976,
+        84.395
+      ],
+      "naive_delta_zero_overestimate_percent": 30.25,
+      "correction_factor_1_over_1_plus_d2": 0.76775
+    },
+    "464.4": {
+      "Ji": 9.5,
+      "Jf": 8.5,
+      "Egamma_MeV": 0.465,
+      "delta_central": -0.17,
+      "delta_squared": 0.0289,
+      "f_E2_percent": 2.809,
+      "f_M1_percent": 97.191,
+      "f_M1_interval_percent": [
+        87.958,
+        99.364
+      ],
+      "naive_delta_zero_overestimate_percent": 2.89,
+      "correction_factor_1_over_1_plus_d2": 0.97191
+    }
+  }
+}
