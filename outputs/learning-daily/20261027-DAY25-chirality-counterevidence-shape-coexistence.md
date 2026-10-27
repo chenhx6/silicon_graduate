@@ -133,6 +133,10 @@ ZH03 Fig.2 将四条 Band B→Band A 候选线映射为 31/2−→29/2− 的 64
 
 HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射出的M1份额下端为64.0%、84.4%、84.4%，撤回统一“M1>85%”和单凭PDM排除模式的旧句。δ为辐射振幅比，不可再乘Paul的0.835Eγ；跨源符号仍须核完整相位/偏振轴合同。PDM复用Lv观测，不新增独立采集，也不补133Ce/135Nd的缺测输入。
 
+### PADO实现的局部 Jacobian 诊断（checkpoint011）
+
+直接调用当前 `physics/pado.py`/`compute/jacobian.py`，不运行CLI producer、不改raw源码。xi={−85,−80,−60,−40,−20,0,20,40,60,80,85}°、sigma/I=.1–1.0小网格中，11/2→9/2的signed J_delta全负；19/2→17/2出现9个相邻符号变化（沿xi与sigma/I方向），说明当前实现对新Ji/Jf出现局部detJ过零警示。此结果只是有限网格条件诊断，不能称global fold、global non-invertibility或实验模式结论；大sigma/I向P=0、ADO=1、J=0的各向同性极限与有限差分相容。theta/radian与delta的Jacobian按1+delta²缩放，degree坐标另乘pi/180。脚本/JSON为pado-jacobian-sign-audit-011.py/json。
+
 ## Counter-evidence and missing companion observables
 
 |核/family|直接观测|作者/模型解释|替代与缺口|
@@ -414,7 +418,7 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
     {
       "knowledge": "knowledge/research-notes/pado-probability-density-mapping-mixing-ratios.md",
       "anchor": "## Research Trigger",
-      "summary": "区分PDM稿件版本、HDI坐标、全局折叠测度、Pr份额与analysis模块复现边界。",
+      "summary": "区分PDM稿件版本、HDI坐标、全局折叠测度、Pr份额、analysis兼容性及有限网格Jacobian边界。",
       "sources": [
         {
           "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
@@ -447,6 +451,10 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
         {
           "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
           "locator": "CH26-PDM-08"
+        },
+        {
+          "path": "knowledge/sources/chen-2026-pdm-probability-density-mapping.md",
+          "locator": "CH26-PDM-09"
         }
       ]
     },
@@ -539,6 +547,8 @@ L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条�
 ## Verification and continuation
 
 checkpoint009：已补齐两篇研究笔记缺失的正文source链接，并撤回综合笔记中残留的普适必要、全核无寿命、六级必需链及排他认证。PADO现有测试24 passed/exit0（15.05s），临时依赖环境与源码哈希见pado-tests-009.json；这解除历史依赖阻塞，不构成八条基准/HDI重现。数学控制10项通过。新的required-checks-009.json记录本checkpoint实际结构门，旧005结果仅作历史。
+checkpoint011：有限网格Jacobian诊断记录19/2→17/2的局部detJ符号变化，未升级为全局折叠或模式结论。
+
 checkpoint010：analysis模块审计发现NumPy2.5.3的np.trapz兼容断点、默认delta-HDI与稿件xi-HDI坐标差、平顶HDI质量字段边界；临时内存适配后的双峰synthetic控制与signed-phase同强度矩阵控制写入analysis-and-phase-controls-010.py/json，raw analysis源码哈希未变，未作八条基准重放。
 
 checkpoint009的required-checks-009.json实际boundary/lint/diff exit0、原runner三门valid；18项写回、749页、267warnings与5004info。首次lint将矩阵文字误识别为wikilink而exit1，已改为LaTeX矩阵并复检0；历史005检查保留。科学核验与结构检查分开；runner写回验证须用真实原baseline和当前checkpoint入口两套快照，不用未传baseline的valid冒称run-change检查。

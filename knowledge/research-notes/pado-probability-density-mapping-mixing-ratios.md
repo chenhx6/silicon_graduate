@@ -109,6 +109,10 @@ $$
 
 `raw/writing/pado/Upload/analysis/YAnalysis.py` 的投影、归一化、CDF和HDI全部经 `_trapz` 调用 `np.trapz`；当前NumPy 2.5.3已移除该接口，而 `requirements_analysis.txt` 的 `numpy>=1.24`允许该不兼容组合。当前包的24项测试不覆盖analysis模块。临时内存适配 `_trapz→numpy.trapezoid` 后，合成双峰密度的HDI分支质量和`mass`字段可对账；平顶常数密度在阈值二分下会把全域质量1记为请求的.68，故复现须另核各interval `mass`总和。默认`summary_transition`只计算delta，稿件要求的xi/AT-HDI须显式选择theta并把角度端点经tan映回delta；不能拿delta坐标HDI代替稿件结果。完整八条基准网格未取得，当前不做稿件重放。
 
+### 当前实现的有限网格 Jacobian 诊断（checkpoint011）
+
+不运行CLI producer、不改raw源码，直接调用 `physics/pado.py` 与 `compute/jacobian.py`，在xi={−85,−80,−60,−40,−20,0,20,40,60,80,85}°、sigma/I=.1–1.0的小网格上作条件诊断。11/2→9/2的signed $J_\delta$ 在该网格全负；19/2→17/2出现9个相邻符号变化，提示当前实现对该新Ji/Jf存在局部detJ过零。它不能外推为全局折叠、全局不可逆或实验模式结论；需更细网格、步长敏感性和独立解析/producer合同确认。大sigma/I样本趋向P→0、ADO→1、J→0；theta/radian与delta的Jacobian按 $1+\delta^2$ 缩放，degree坐标还需乘$\pi/180$。脚本/JSON为本run `pado-jacobian-sign-audit-011.py/json`。
+
 ## Open Questions
 
 1. 当大探测器阵列给出多角度全矩阵（如 17 环或 39 探测器）时，如何将 PDM 推广至多维协方差不为零的高阶张量空间？
