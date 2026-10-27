@@ -1,0 +1,282 @@
+{
+  "schema": "pado-jacobian-sign-audit-011",
+  "command": "PYTHONPATH=raw/writing/pado/Upload:<existing-dependency-path> python3 pado-jacobian-sign-audit-011.py",
+  "scope": "conditional finite-mesh diagnostic; not a producer, experiment result, global invertibility proof, or global-fold proof",
+  "source_scope": {
+    "physics": "raw/writing/pado/Upload/p_ado/physics/pado.py",
+    "alignment": "raw/writing/pado/Upload/p_ado/physics/sigmaOverI.py",
+    "jacobian": "raw/writing/pado/Upload/p_ado/compute/jacobian.py",
+    "old_locator": "raw/writing/pado/20260722.pdf printed p.6, Local invertibility §2, lines 433-443"
+  },
+  "grid": {
+    "xi_deg": [
+      -85.0,
+      -80.0,
+      -60.0,
+      -40.0,
+      -20.0,
+      0.0,
+      20.0,
+      40.0,
+      60.0,
+      80.0,
+      85.0
+    ],
+    "sigma_over_i": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "ADO_detector_angles_deg": [
+      26.0,
+      90.0
+    ],
+    "polarimeter_angle_deg": 90.0,
+    "h_delta": 1e-05,
+    "h_sigma_over_i": 1e-05,
+    "theta_scaling_h_rad": 0.0001,
+    "endpoint_policy": "exclude ±90° because tan(xi) is singular there"
+  },
+  "pairs": [
+    {
+      "Ji": 5.5,
+      "Jf": 4.5,
+      "mesh_points": 110,
+      "det_delta_sigma_range": [
+        -2.0355734175150593,
+        -1.236411012233659e-05
+      ],
+      "det_delta_sigma_positive_count": 0,
+      "det_delta_sigma_negative_count": 110,
+      "det_delta_sigma_zero_count": 0,
+      "response_finite": true,
+      "ADO_positive": true,
+      "sign_change_brackets": [],
+      "isotropic_limit": [
+        {
+          "sigma_over_i": 1.0,
+          "align2": -0.16476036677743575,
+          "align4": 0.011357440265627575,
+          "P_delta0": -0.06943812782166879,
+          "ADO_delta0": 0.9439057459798954,
+          "P_delta2": -0.07954971319038492,
+          "ADO_delta2": 1.1406736327522982
+        },
+        {
+          "sigma_over_i": 2.0,
+          "align2": -0.043016793692263286,
+          "align4": 0.0007455751505599796,
+          "P_delta0": -0.018444854799478924,
+          "ADO_delta0": 0.9850996793412532,
+          "P_delta2": -0.02056516260267634,
+          "ADO_delta2": 1.035443536225065
+        },
+        {
+          "sigma_over_i": 5.0,
+          "align2": -0.0069585830852251195,
+          "align4": 1.931600980935428e-05,
+          "P_delta0": -0.0029991765879095315,
+          "ADO_delta0": 0.9975771729646081,
+          "P_delta2": -0.0033146991225947906,
+          "ADO_delta2": 1.0056724253165434
+        },
+        {
+          "sigma_over_i": 10.0,
+          "align2": -0.0017422936612448516,
+          "align4": 1.2092288934663423e-06,
+          "P_delta0": -0.0007514985812757189,
+          "ADO_delta0": 0.9993929163467355,
+          "P_delta2": -0.0008294836109754705,
+          "ADO_delta2": 1.0014180594092295
+        },
+        {
+          "sigma_over_i": 50.0,
+          "align2": -6.972550194930025e-05,
+          "align4": 1.9357730609572893e-09,
+          "P_delta0": -3.008173681127022e-05,
+          "ADO_delta0": 0.9999756990483615,
+          "P_delta2": -3.318957320881728e-05,
+          "ADO_delta2": 1.000056721566166
+        },
+        {
+          "sigma_over_i": 100.0,
+          "align2": -1.7431638931995005e-05,
+          "align4": 1.2098769572190203e-10,
+          "P_delta0": -7.520604418917223e-06,
+          "ADO_delta0": 0.9999939246245846,
+          "P_delta2": -8.29747297129799e-06,
+          "ADO_delta2": 1.0000141803848024
+        }
+      ],
+      "theta_delta_scaling": {
+        "xi_deg": -60.0,
+        "J_delta": -0.11836654466487882,
+        "J_theta_rad": -0.47346617818395864,
+        "ratio": 3.999999995982339,
+        "expected_1_plus_delta2": 3.9999999999999982,
+        "relative_error": 1.0044147735754909e-09
+      },
+      "compute_jacobian_tiny_grid": {
+        "grid_shape": [
+          5,
+          5,
+          5
+        ],
+        "interior_shape": [
+          3,
+          3,
+          10
+        ],
+        "signed_det_range": [
+          -0.843378028619058,
+          -0.06001286451655557
+        ],
+        "signed_positive_count": 0,
+        "signed_negative_count": 9,
+        "signed_zero_count": 0,
+        "report_status": "accepted"
+      }
+    },
+    {
+      "Ji": 9.5,
+      "Jf": 8.5,
+      "mesh_points": 110,
+      "det_delta_sigma_range": [
+        -1.8064584117211608,
+        0.0012981445858963193
+      ],
+      "det_delta_sigma_positive_count": 22,
+      "det_delta_sigma_negative_count": 88,
+      "det_delta_sigma_zero_count": 0,
+      "response_finite": true,
+      "ADO_positive": true,
+      "sign_change_brackets": [
+        {
+          "xi_deg": -85.0,
+          "sigma_left": 0.5,
+          "sigma_right": 0.6,
+          "det_left": -4.259083103221986e-05,
+          "det_right": 0.0002544571815115833
+        },
+        {
+          "xi_deg": -80.0,
+          "sigma_left": 0.5,
+          "sigma_right": 0.6,
+          "det_left": -0.0005640261388046437,
+          "det_right": 0.0006582070690962419
+        },
+        {
+          "xi_deg": 80.0,
+          "sigma_left": 0.4,
+          "sigma_right": 0.5,
+          "det_left": -0.007034816019759807,
+          "det_right": 9.50168379810474e-05
+        },
+        {
+          "xi_deg": 85.0,
+          "sigma_left": 0.4,
+          "sigma_right": 0.5,
+          "det_left": -0.0016059707790055898,
+          "det_right": 5.929797068898585e-05
+        }
+      ],
+      "isotropic_limit": [
+        {
+          "sigma_over_i": 1.0,
+          "align2": -0.1552548525158636,
+          "align4": 0.010508892854604279,
+          "P_delta0": -0.059327330808844794,
+          "ADO_delta0": 0.9520735585891242,
+          "P_delta2": -0.0845100655223493,
+          "ADO_delta2": 1.1193028758762815
+        },
+        {
+          "sigma_over_i": 2.0,
+          "align2": -0.0405057451173218,
+          "align4": 0.0006924915758899373,
+          "P_delta0": -0.015707999602160454,
+          "ADO_delta0": 0.9873105950941793,
+          "P_delta2": -0.02179885613739801,
+          "ADO_delta2": 1.0302087088977943
+        },
+        {
+          "sigma_over_i": 5.0,
+          "align2": -0.006552346978680559,
+          "align4": 1.7965411088408592e-05,
+          "P_delta0": -0.0025521809346111275,
+          "ADO_delta0": 0.997938269792944,
+          "P_delta2": -0.003512722978854146,
+          "ADO_delta2": 1.0048428408629495
+        },
+        {
+          "sigma_over_i": 10.0,
+          "align2": -0.0016405911479071137,
+          "align4": 1.1249120894048395e-06,
+          "P_delta0": -0.000639428491069165,
+          "ADO_delta0": 0.999483450010377,
+          "P_delta2": -0.0008790206248302431,
+          "ADO_delta2": 1.0012109762076293
+        },
+        {
+          "sigma_over_i": 50.0,
+          "align2": -6.56555998664942e-05,
+          "align4": 1.8009170134365704e-09,
+          "P_delta0": -2.5594830886708668e-05,
+          "ADO_delta0": 0.9999793237088845,
+          "P_delta2": -3.5171469056811654e-05,
+          "ADO_delta2": 1.0000484423011744
+        },
+        {
+          "sigma_over_i": 100.0,
+          "align2": -1.6414149405532118e-05,
+          "align4": 1.1255945200265591e-10,
+          "P_delta0": -6.398845905755832e-06,
+          "ADO_delta0": 0.9999948308155917,
+          "P_delta2": -8.792950212607413e-06,
+          "ADO_delta2": 1.0000121106004098
+        }
+      ],
+      "theta_delta_scaling": {
+        "xi_deg": -60.0,
+        "J_delta": -0.07462565962034036,
+        "J_theta_rad": -0.29850263791140674,
+        "ratio": 3.9999999923624836,
+        "expected_1_plus_delta2": 3.9999999999999982,
+        "relative_error": 1.9093786551849243e-09
+      },
+      "compute_jacobian_tiny_grid": {
+        "grid_shape": [
+          5,
+          5,
+          5
+        ],
+        "interior_shape": [
+          3,
+          3,
+          10
+        ],
+        "signed_det_range": [
+          -0.7708431843740272,
+          -0.04243289989129154
+        ],
+        "signed_positive_count": 0,
+        "signed_negative_count": 9,
+        "signed_zero_count": 0,
+        "report_status": "accepted"
+      }
+    }
+  ],
+  "interpretation_boundary": [
+    "A sign bracket indicates a conditional finite-mesh local-detJ diagnostic and motivates refinement.",
+    "It does not establish a global fold, a second preimage, or mandatory non-injectivity.",
+    "The old p.6 local-invertibility sentence is scoped to that manuscript's explored transition/domain and is not transferred to the second pair.",
+    "Isotropic convergence J→0, P→0, ADO→1 is a limiting check, not an experimental measurement."
+  ]
+}
