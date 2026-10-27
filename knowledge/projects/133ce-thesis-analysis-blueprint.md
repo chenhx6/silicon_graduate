@@ -603,7 +603,7 @@ TRS给γ≈−30单ν、−73三ν，高spin图还给−83与SD极小值，β由
 
 ## 1991Pa04入口缺口与1998 primary谱系
 
-**2026-10-27 获取状态更新**：用户已提供 [Paul1991 PDF](<../../raw/papers/1991_Electromagnetic properties of N=75 isotones_evidence for triaxiality at low spin.pdf>)，DOI `10.1088/0954-3899/17/5/009`。实物 14 页（出版商封面 1 页＋正文 605–617 共 13 页），652280 bytes；SHA-256 `1c3859a03a76e200048b8e087e91131d7dc5f21fb8a683cd39155ab00e0818c9`。已核 PDF 签名及首页题名、作者、年卷页，按原路径登记；此前正文获取缺口已解除。当前只核身份，混合比/分支比原表及133Ce逐态对应仍待阅读，未改变科学结论或 review 状态。[接收回执](../../outputs/literature-acquisition/20261027-paul1991-user-pdf.json)。
+**2026-10-27 获取状态更新**：用户已提供 [Paul1991 PDF](<../../raw/papers/1991_Electromagnetic properties of N=75 isotones_evidence for triaxiality at low spin.pdf>)，DOI `10.1088/0954-3899/17/5/009`。实物 14 页（出版商封面 1 页＋正文 605–617 共 13 页），652280 bytes；SHA-256 `1c3859a03a76e200048b8e087e91131d7dc5f21fb8a683cd39155ab00e0818c9`。已核 PDF 签名及首页题名、作者、年卷页，按原路径登记；此前正文获取缺口已解除。本轮已完成全文 14 页深入核读并建立来源知识页 [[paul-1991-n75-electromagnetic-properties-triaxiality]]（PA91-01–06）。确认本篇利用 120Sn(16O,3n) 在 69 MeV 下测定 133Ce 负宇称 yrast 带内 Delta I=1 跃迁角分布，给出 Yamazaki 1967 约定下的混合比 delta(E2/M1) < 0，确立带内 B(M1)/B(E2) 跃升 ~ 5 倍与非拉伸/拉伸比 B(E2; I->I-1)/B(E2; I->I-2) ~ 2 > 1 的三轴性信号。确认 WK22 Figure 6.15(a) 的 Band 1 带内混合比直接继承自本篇。未测定态寿命 tau，保持绝对强度与 Band 4 跨带缺口。[接收回执](../../outputs/literature-acquisition/20261027-paul1991-user-pdf.json)。
 
 079核对ENSDF Ref 1991Pa04为Paul等 *J Phys G*17 (1991)605–617, DOI10.1088/0954-3899/17/5/009，涉及N=75同位素低spin电磁/δ与120Sn(16O,3n)、92Mo(50Cr,n2p)；合法PDF端点只返回HTML，未把metadata冒原文。[[joss-1998-133ce-triaxial-band-lifetimes]]则为独立Gammasphere highspin primary，已完整核读并写JO98-D24-001–010；不能用Joss替代1991 body或把同TRS谱系计成独立理论票。
 
@@ -760,7 +760,8 @@ u g_{7/2}[404]7/2^+$ 准粒子态），其能带结构中的 Band 3 是带头激
 
 #### 1. 严格代数消去定理
 
-设母态 $|Band 4, Iangle$ 退激发射三条跃迁：
+设母态 $|Band 4, I
+angle$ 退激发射三条跃迁：
 - 混合出带跃迁 $\gamma_1$（$\Delta I = 1$, Band $4 	o 1$）：能量 $E_{\gamma,1}$，光子强度 $I_{\gamma,1}$，多极混合比 $\delta_1$；
 - 纯 $E2$ 跨带跃迁 $\gamma_2$（$\Delta I = 2$, Band $4 	o 1$，out/out 分母）：能量 $E_{\gamma,2}$，光子强度 $I_{\gamma,2}$；
 - 纯 $E2$ 带内跃迁 $\gamma_3$（$\Delta I = 2$, Band $4 	o 4$，out/in 分母）：能量 $E_{\gamma,3}$，光子强度 $I_{\gamma,3}$。
@@ -774,7 +775,8 @@ $$\mathcal{R}_{E2} \equiv rac{r_{E2}(	ext{out/out})}{r_{E2}(	ext{out/in})} = r
 $$\mathcal{R}_{M1} \equiv rac{r_{M1}(	ext{out/out})}{r_{M1}(	ext{out/in})} = rac{B(E2; 	ext{in}, \Delta I=2)}{B(E2; 	ext{out}, \Delta I=2)}$$
 
 代入纯 $E2$ 跃迁强度公式 $I_\gamma \propto E_\gamma^5 B(E2)$，得到与实验光子强度的直接对应关系：
-$$rac{B(E2; 	ext{in}, \Delta I=2)}{B(E2; 	ext{out}, \Delta I=2)} = rac{I_{\gamma,3}}{I_{\gamma,2}} \left(rac{E_{\gamma,2}}{E_{\gamma,3}}ight)^5$$
+$$rac{B(E2; 	ext{in}, \Delta I=2)}{B(E2; 	ext{out}, \Delta I=2)} = rac{I_{\gamma,3}}{I_{\gamma,2}} \left(rac{E_{\gamma,2}}{E_{\gamma,3}}
+ight)^5$$
 
 **定理特征与物理推论**：
 1. **与混合线 $\gamma_1$ 完全正交**：比值 $\mathcal{R}$ 完全独立于混合线 $\gamma_1$ 的能量 $E_{\gamma,1}$、强度 $I_{\gamma,1}$ 以及误差极大的混合比 $\delta_1$；
@@ -794,7 +796,8 @@ $$rac{B(E2; 	ext{in}, \Delta I=2)}{B(E2; 	ext{out}, \Delta I=2)} = rac{I_{\gam
   - $\gamma_2 = 982.0	ext{ keV}$（Band 4 $	o$ 1 跨带 $19/2^- 	o 15/2^-$），$I_{\gamma,2} = 1.95(17)$；
   - 能量比五次方因子：$(E_{\gamma,2} / E_{\gamma,3})^5 = (982.0 / 608.3)^5 = 10.964$；
   - 实测比率：
-    $$rac{I_{\gamma,3}}{I_{\gamma,2}} \left(rac{E_{\gamma,2}}{E_{\gamma,3}}ight)^5 = rac{1.89(18)}{1.95(17)} 	imes 10.964 = 10.63 \pm 1.37$$
+    $$rac{I_{\gamma,3}}{I_{\gamma,2}} \left(rac{E_{\gamma,2}}{E_{\gamma,3}}
+ight)^5 = rac{1.89(18)}{1.95(17)} 	imes 10.964 = 10.63 \pm 1.37$$
 - **结论**：Table 6.11 的理论比值 $11.78$ 稳固落在实验 $1\sigma$ 置信区间 $[9.26, 12.00]$ 内。这确凿证明作者在 465 keV 处的两组比值确实源自 Table 5.2 相同的底层光子计数。
 
 ---

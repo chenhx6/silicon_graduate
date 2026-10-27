@@ -167,6 +167,20 @@ $$\mathcal{R}_{M1} \equiv \frac{r_{M1}(\text{out/out})}{r_{M1}(\text{out/in})} =
 3. **582 keV ($I=17/2^-$) 幽灵分母的定量反演**：
    Table 6.11 给出 $\mathcal{R}_{E2} = 5.06 / 0.33 = 15.333$。带内跃迁 $\gamma_3 = 577.8\text{ keV}, I_{\gamma,3}=3.22(21)$。假想跨带跃迁能差 $E_{\gamma,2} = 1409.8 - 592.1 = 817.7\text{ keV}$，能量因子 $(817.7/577.8)^5 = 5.6765$。若此比值源自真实观测线，则其实测强度必须达到 $I_{\gamma,2}(817.7\text{ keV}) \approx 1.19$（或直接由 $r_{E2}=5.06$ 反推得 $\approx 0.88$）。在 Table 5.2 弱线检出限达 $I_\gamma \sim 0.2–0.4$ 的背景下，一条强度达 $1.0$ 的跃迁在 Table 5.2 账本和 Figure 5.1 纲图中完全缺失，无可辩驳地证明：582 keV out/out 分母并无已确认观测线支撑，属于未闭合的幽灵分母，严禁在后续工作中逆向虚构 817.7 keV 观测线。
 
+### 5. 134Pr 两带解混合非对角 E2 敏感性扫描与 Paul 1991 谱系闭环
+
+1. **134Pr 非对角 E2 矩阵元干涉全网格扫描（见专门研究笔记 [[134pr-two-band-mixing-offdiagonal-e2-sensitivity]]）**：
+   - 在 Petrache 2006 (PE06) 两带解混合模型中，假定未扰动基底之间的非对角四极跃迁矩阵元严格为零（$q_{12} \equiv 0$），由此反演得到内禀四极矩比值 $Q_{0,1}/Q_{0,2} = 2.0(4)$，据此宣告两带具有显著不同形状；
+   - 本任务建立广义四极跃迁算符 $Q = q_1 \begin{pmatrix} 1 & x \\ x & y \end{pmatrix}$（$x = q_{12}/q_1, y = q_2/q_1$），在二维参数空间对 Table I 四个实测分支比进行卡方扫描：
+     * 当强制 $x = 0$ 时，模型要求 $Q_{0,1}/Q_{0,2} \approx 2.04$ 才能打破两分支比的强制简并；
+     * 当允许微弱非对角跃迁 $x = q_{12}/q_1 \approx +0.04$（仅 $4\%$）时，所需内禀四极矩比值立即降至 $Q_{0,1}/Q_{0,2} \approx 1.37$（$\chi^2 = 0.458$），与微观 TRS 和超形变推转（UC）势能面极小预言的 $\sim 1.25–1.4$ 完美调和；
+     * 当 $x \approx +0.08$（仅 $8\%$）时，严格等形状解（$Q_{0,1} = Q_{0,2}$）的卡方仅为 $1.68$，远低于 $95\%$ 排除阈值（$\Delta\chi^2 = 4.0$）；
+   - **定论**：PE06 的“形状共存”推论具有极强的模型假定依赖性；非对角四极跃迁干涉足以在微弱形状差甚至等形状前提下重现实测分支比，单凭分支比无法排他性排除手征动力学；
+2. **Paul 1991 (1991Pa04) 谱系闭环与 133Ce 来源建立（见 [[paul-1991-n75-electromagnetic-properties-triaxiality]]）**：
+   - 深度通读用户提供的 14 页原件，建立规范来源页并提取 PA91-01–06 核心原子证据；
+   - 确立 Stony Brook 串列加速器 120Sn(16O,3n) 反应（69 MeV，5 角度 HPGe）测定的 133Ce 带内 mixing ratio $\delta(E2/M1) < 0$ 采用 Yamazaki 1967 约定；
+   - 确认 WK22 Figure 6.15(a) 中引用的 133Ce Band 1 带内 $\delta$ 完全直接源自本篇，彻底闭合两文献间的实验数据谱系。
+
 ## Counter-evidence and missing companion observables
 
 ### 1. 134Pr / 135Nd / 136Nd 三核三行分对竞争矩阵
@@ -317,6 +331,32 @@ Level 4: 独立正交结构 Holdout 检验 (Independent Structural Holdout: g-fa
         {
           "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
           "locator": "WK22-07"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/134pr-two-band-mixing-offdiagonal-e2-sensitivity.md",
+      "summary": "Sensitivity analysis of off-diagonal E2 matrix element q12 in 134Pr two-band unmixing model, proving reconciliation with microscopic TRS/UC and equal-shape viability.",
+      "anchor": "## 1. 研究问题与背景",
+      "sources": [
+        {
+          "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+          "locator": "PE06-D25-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+      "summary": "Full scientific reading and source establishment for Paul 1991 N=75 isotones electromagnetic properties, providing the in-beam angular distribution data and Yamazaki mixing ratio convention for 133Ce Band 1.",
+      "anchor": "## Bibliographic Record",
+      "sources": [
+        {
+          "path": "knowledge/sources/paul-1991-n75-electromagnetic-properties-triaxiality.md",
+          "locator": "PA91-01"
+        },
+        {
+          "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+          "locator": "WK22-25"
         }
       ]
     }
