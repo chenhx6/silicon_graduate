@@ -3,11 +3,11 @@ type: project
 title: "手征与形状共存：134Pr/135Nd/136Nd逐伙伴竞争解释矩阵"
 aliases: [chirality shape-coexistence companion matrix]
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-27
 status: active
 review_status: unreviewed
 confidentiality: public
-project_stage: uncredited-next-card-preview
+project_stage: formal-card-deliverable-active
 nuclei: [134pr, 135nd, 136nd]
 tags: [chirality, shape-coexistence, band-mixing, companion-observables]
 ---
@@ -16,11 +16,44 @@ tags: [chirality, shape-coexistence, band-mixing, companion-observables]
 
 ## Agent active summary
 
-本页来自正式Day24 run中恰好下一卡Day25的无学分预习；不授Day25卡、不提前推进next_day_index、不打开Day26。源内真实正支持与反例保留，所有新综合`needs_review: true`。正式Day24主线见[[135nd-chiral-partner-resolved-evidence-map]]，133Ce仍见[[133ce-thesis-analysis-blueprint]]。
+本页为正式 Day 25 学习主线交付件：手征反例与形状共存竞争解释矩阵。系统阐明“近简并”为什么不是手征充分条件，明确区分 shape coexistence 与 chiral doublet，给出 134Pr / 135Nd / 136Nd 三核三行严格对照（直接观测、作者解释、替代解释），并建立最小 companion observables 组合与四级降级阶梯。所有新综合保持 `needs_review: true`；前序 Day 24 交付见 [[135nd-chiral-partner-resolved-evidence-map]]，133Ce 附属分析持续深入见 [[133ce-thesis-analysis-blueprint]]。
 
 ## Research Question
 
 近能双带的哪些信息直接来自观测、哪些是作者/模型推断？crossing、configurationchange、γ-softness、bandmixing和多个形状极小能解释哪些部分特征，还需要什么可分辨的伴随量？形状共存与手征可以在不同层次/组态上同时讨论，不能仅凭带数或一个势面就作互斥二选一。
+
+## 理论判据：近简并为什么不是手征充分条件及手征与形状共存的鉴别
+
+### 1. “近简并”为什么不是手征对称性的充分条件
+
+在转动手征性（nuclear chirality）框架中，核心图像是由三个相互正交的角动量分量（价质子/价粒子沿短轴、集体转动沿中轴、价中子/价空穴沿长轴）在核体固结坐标系中构成非共面的 aplanar 手征三脚架。在实验室坐标系中，通过量子隧穿恢复时间反演与轴转动联合对称性 $\mathcal{T}\mathcal{R}(\pi)$，产生一对自旋相同、宇称相同、$\Delta I=1$ 的能量近简并双重带。
+
+然而，实验上观测到的“能量近简并”（near-degeneracy）仅仅是手征对称破缺恢复的必要表象，绝非充分条件：
+1. **多准粒子带交叉（Band Crossings）制造表观伪简并**：在转动频率驱动下，不同准粒子构型（如两准粒子与四准粒子带）随频率演化发生交叉。在反交叉区域（level repulsion 与 band mixing），能级间隔会在有限自旋窗口内被强烈压缩（例如 134Pr 在 $I=13–19$ 之间经历若干 4-qp crossings，导致能隙压缩至仅 36–44 keV）。这种能级相近纯属交叉扰动引起的“伪简并”；
+2. **形状共存（Shape Coexistence）偶发相遇**：同一核素在不同形变势阱（如不同 $\beta_2, \gamma$ 极小）中支持的转动带，因各自带头能量与转动惯量的差异，可能在特定自旋区恰好相遇；
+3. **准自旋伙伴或 $\gamma$ 软度**：准自旋双重态或低激发 $\gamma$ 振动亦能产生能量相近的伴随带。
+
+**充分性的核心要求**：手征双重带要求两带波函数在两个相反手征状态间对称，必须同时满足：
+- 相近的角动量排列（alignment $\Delta i \approx 0$）与转动惯量；
+- 相近的内禀四极矩（$Q_{0,1} \approx Q_{0,2}$）与带内绝对 $B(E2)$ 阶梯；
+- 相同的 $B(M1)/B(E2)$ 比值和交错（staggering）趋势；
+- 满足手征选择定则的特征带间 $\Delta I=1$ 的 $M1$ 和 $E2$ 跃迁连接。
+
+如果两带的四极矩显著不等（如 134Pr 解混合得出 $Q_{0,1}/Q_{0,2} = 2.0(4)$）或 alignment 差达到 $2\hbar$，则表明两带内禀形状迥异，直接证伪了理想手征双重带假设。
+
+---
+
+### 2. 三轴形状共存与手征双重带的五维判据对照
+
+| 鉴别维度 | 三轴形状共存（Triaxial Shape Coexistence） | 核手征双重带（Chiral Doublet Bands） | 鉴别判据与失败检查 |
+|---|---|---|---|
+| **物理机制与波函数** | 同一原子核由于壳效应存在多个不同的平衡形变极小值（不同 $\beta_2, \gamma$），两带属于不同势阱的转动激发 | 单一三轴形变势阱中，粒子-转子-空穴三维角动量非共面取向导致手征自发破缺，量子隧穿恢复形成手征伙伴态 | PES 计算是否有分离极小值；波函数在三主轴角动量投影是否有 aplanar 分量 |
+| **内禀四极矩 $Q_0$ 与 $B(E2)$ 阶梯** | 两带具有显著不同的内禀四极矩 $Q_{0,1} \neq Q_{0,2}$，带内绝对 $B(E2)$ 阶梯不相称（常差 1.5–4 倍） | 理论上两带具有高度相同的内禀形状与四极矩（$Q_{0,1} \approx Q_{0,2}$），带内绝对 $B(E2)$ 在实验误差内相等 | 寿命测量 $\tau$ 结合分支比提取绝对 $B(E2)$；若比值偏离 1 则排他性挑战理想手征 |
+| **电单极跃迁 $E0$** | 同自旋同宇称态之间若发生波函数混合，可观测到强 $E0$ 跃迁（$\rho^2(E0) \sim Z^2/R_0^4 a^2(1-a^2)[\Delta \langle r^2 \rangle]^2$） | 同自旋态之间不以强 $E0$ 跃迁为主导特征；手征恢复对称态之间受宇称和转动对称性约束 | 转换电子谱测量或内转换系数核查；强 $E0$ 存在高度支持形状混合 |
+| **带间跃迁与选择定则** | 带间跃迁受到不同内禀形状波函数空间重叠小的阻尼；在远离交叉区带间跃迁极弱 | 存在特征的带间交错跃迁：$\Delta I=1$ 的 $M1$ 与 $E2$ 跃迁强度受手征算符选择定则约束，呈规律性奇偶交错 | 检验带间连接跃迁 $B(M1)_{\text{inter}}$ 与 $B(E2)_{\text{inter}}$ 是否满足交错特征 |
+| **自旋与频率演化** | 随角动量增加，不同组态在各自势阱内独立演化或经历不同 crossings；通常某一形变逐渐占优（yrast 转换） | 随角动量增加，经历低自旋手征振动（chiral vibration）向临界频率以上静态手征（static chirality）的系统演化 | 检查能量劈裂 $\Delta E(I)$ 与 $S(I)$ 随自旋的演化规律及是否随自旋趋于简并 |
+
+---
 
 ## Evidence Available
 

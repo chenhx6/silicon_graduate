@@ -3,7 +3,7 @@ type: concept
 title: 三轴形状共存
 aliases: [triaxial shape coexistence]
 created: 2026-07-13
-updated: 2026-10-26
+updated: 2026-10-27
 status: active
 review_status: unreviewed
 concept_type: nuclear-shape-coexistence
@@ -53,6 +53,24 @@ tags: [triaxiality, shape-coexistence, multiple-chiral-doublet]
 旧Day21 checkpoint009的量化认证已撤回：50–100keV普适强mixing门、186Pb固定混合百分比、E0排他唯一形状反演以及“必须E0+多步Coulex”的强制组合不再采用。原记录及025保存副本保留；实际原件校准见[[heyde-wood-2011-shape-coexistence-review]] HW11-D25P-001–006。低0+能级可有信息，但需随具体结构/空间/观测讨论，不从一组能级直接认证未混合刚性shape。
 
 124撤回本节旧科学认证与自设阈值；旧全文保存在superseded-124，原review/flags保持。
+
+## Day 25 正式核验：三轴形状共存与核手征性的鉴别边界
+
+Day 25 主线建立三轴形状共存（triaxial shape coexistence）与手征双重带（chiral doublet bands）的严格判据边界，并固化至 [[chirality-shape-coexistence-companion-matrix]]：
+
+1. **物理机制与波函数本质**：
+   - **核手征性（Chirality）**：属于在单一三轴形变势能极小（或稳定的动态三轴平均形变）背景下，价粒子（短轴）、集体转动（中轴）与价空穴（长轴）三根相互垂直的角动量分量形成的非共面 aplanar 空间三角架。在实验室系中通过隧穿恢复时间反演与 $\mathcal{R}(\pi)$ 联合对称性，形成波函数结构对称、形状相同、能量近简并的宇称相同双重态；
+   - **形状共存（Shape Coexistence）**：源于单粒子能级壳效应与残余相互作用（如粒子-空穴激发与质子-中子四极相互作用），在同一原子核中形成两个或多个不同的平衡形变极小值（不同的 $\beta_2, \gamma$），并在各自势能极小上发展出独立的转动带。
+
+2. **核心鉴别观测量与实验反证**：
+   - **内禀四极矩 $Q_0$ 与绝对 $B(E2)$ 阶梯**：理想手征双重带要求两带具有在实验误差内完全一致的内禀四极矩与带内绝对 $B(E2)$；而在形状共存中，不同形变极小通常导致显著不同的四极矩。[[petrache-2006-near-degenerate-chiral-misinterpretation]] (PE06) 通过两带解混合模型表明，134Pr 在能级近简并区（$I=14–18$）的四极矩比值高达 $Q_{0,1}/Q_{0,2} = 2.0(4)$，直接排除了理想手征带，而支持不同形状或多准粒子带交叉解释；
+   - **单极跃迁 $E0$ 与混合矩阵元**：根据 [[heyde-wood-2011-shape-coexistence-review]] (HW11)，强 $E0$ 跃迁 $\rho^2(E0) = Z^2/R_0^4 a^2(1-a^2)[\Delta \langle r^2 \rangle]^2$ 是形状共存与能级混合的有力间接探针；而纯手征带同自旋态之间不以强 $E0$ 跃迁为主导特征；
+   - **带间跃迁与手征选择定则**：手征双重带具有特征的 $\Delta I=1$ 带间 $M1$ 与 $E2$ 跃迁交错规律；形状共存带之间的跃迁通常受不同内禀形状波函数空间重叠小的阻尼，在未发生强反交叉混合时带间连接较弱；
+   - **自旋演化动力学**：手征带随自旋增加呈现从手征振动（chiral vibration）到静态手征转动（static chirality）的相干演化（如 135Nd 负宇称对，Mukhopadhyay 2007）；形状共存则表现为不同准粒子组态在转动驱动下经历各自独立的退对与交叉。
+
+3. **方法警示**：
+   - 能量近简并（near-degeneracy）是手征对称性破缺恢复的必要表现，绝非充分条件。带交叉、偶然简并或形状共存均可在有限自旋窗口内伪造近简并能谱；
+   - 必须通过涵盖母态归属、实测寿命 $\tau$、绝对电磁跃迁几率 $B(E2)/B(M1)$、以及独立结构 holdout（如 $g$ 因子或 $Q_s$）的最小伴随观测量组合进行严格模式甄别。
 
 ## Sources
 

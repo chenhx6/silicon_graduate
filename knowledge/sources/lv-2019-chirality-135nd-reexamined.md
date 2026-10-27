@@ -3,7 +3,7 @@ type: source
 title: "Lv 等 2019：135Nd 手征重分析与多重手征双重带"
 aliases: [Lv 2019 135Nd reexamined, 135Nd positive-parity chiral doublet]
 created: 2026-09-12
-updated: 2026-10-26
+updated: 2026-10-27
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -335,3 +335,13 @@ supports：新JUROGAM谱学与作者手征解释的条件支持；limits：绝�
 | LV19-D22-R110-1 | D6 4007.8keV 31/2−母态的225.8→29/2−、648.9→29/2−为M1/E2，896.8→27/2−为E2；表不列前两线δ或225.8偏振。Iγ3.8/1.8/.79为以198.8线归一的效率修正相对强度，不是每次衰变的绝对branch或阵列总谱2%。不能由跨campaign未定成分的MU07图比直接宣布δ225=.0389为实测值。 | literal-line-and-missing-input | direct-existing-VoR-and-raw-crosscheck | 024314-5TableID6rows225.8/648.9/896.8andfootnoteb;rawarXivPDF9TableI | true |
 | LV19-D22-R110-2 | checkpoint134脚本自设pureP=−.4/+.5、Q=.22、selectedComptonrate40.6/h，未给本线spin/alignment/混合相位/finitegate的有效响应或校准率来源。P按fE2线性加权还遗漏相干M1/E2干涉与强度分母，因此P≈−.40/+.13不是本文或已重放模型预测，16.3/45.3h不是可认证的设施机时，更不是已执行runtime。 | historical-design-input-audit | task-audit-not-paper-result | day21_checkpoint134_polarization_falsification_design.pyread-only;sourceTableIinputboundary | true |
 | LV19-D22-R110-3 | 即便暂沿旧假设A0=−.08770、A1=.02885，N663只使两固定均值相距约3个1/sqrtN；已知a=1、无背景的条件binomial方差下，正均值A1距0仅.743σ，不能同时宣称正号3σ。条件正号3σ的正态近似需求约10803selectedcounts，仅诊断旧检验目标不一致，不是新真实计数/小时预算。只有指定模型Θ及全部nuisance预测域被同一实测观测排除，才能反驳该版本；P>0本身不排除全部D6手征机制。 | conditional-statistical-design-boundary | old-input-task-arithmetic | polarization-design-boundary-110.json;oldscope134;Tarasprinted333Eq19/339Eq39 | true |
+
+## Day 25 正式核准：135Nd 多重手征双重带与电磁证据分层
+
+Day 25 学习主线对 Lv 2019 原文（arXiv v1 与 PRC 100, 024314）进行了正式核验。确立其在三核手征竞争矩阵中的独立定位：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| LV19-D25-001 | Lv 等（2019）通过 JUROGAM2 在 JYFL 开展的 $^{100}\text{Mo}(^{40}\text{Ar},5n)^{135}\text{Nd}$ 实验，在正宇称建立 D3/D4 双带，在负宇称扩展 D5/D6 双带，提出奇中子核中存在多重手征双重带（$M\chi D$）。 | experimental-multiband-report | direct-original | PRC 100, 024314 PDF pp.1–3 | true |
+| LV19-D25-002 | 负宇称 D5/D6 拥有 Mukhopadhyay 2007 的双方实测寿命与绝对 $B(E2)/B(M1)$ 支撑；而正宇称 D3/D4 仅有一个 D3 的 $B(M1)/B(E2)$ 实验比，完全缺失配对成员的绝对电磁跃迁强度尺度，两组双带的证据梯度截然不同。 | partner-resolved-evidence-contrast | direct-original-and-lineage | PRC 100, 024314 PDF pp.2, 5, Table I | true |
+| LV19-D25-003 | 原文正文 D4 段关于 589/649 keV 跃迁指向在前后句存在 D2/D3 笔误冲突，且 Table I 中 D2 行 $E_i = 2588.3\text{ keV}$ 与三条关联跃迁能量闭合差 30 keV；这些局部排版歧义予以保留，不擅改原表，亦不否定总体正宇称能带拓扑。 | typographical-and-topological-boundary | direct-original | PRC 100, 024314 PDF pp.2–4, Table I | true |

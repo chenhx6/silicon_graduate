@@ -3,7 +3,7 @@ type: source
 title: "Petrache et al. 2018 - Evidence of chiral bands in even-even nuclei"
 aliases: [Petrache 2018 136Nd, even-even chirality in 136Nd]
 created: 2026-08-11
-updated: 2026-10-26
+updated: 2026-10-27
 status: active
 review_status: unreviewed
 source_type: journal-article
@@ -229,3 +229,13 @@ Day25无学分三核对照见[[chirality-shape-coexistence-companion-matrix]]；
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | PE18-D20-R146-1 | 140对本篇“五对候选全部已被旧136Nd寿命证伪”的推广撤回。缺少寿命限制电磁判别强度，不单独证明作者误认；必须逐带对应、同宇称/同构型与匹配态核验，不能将MU08数据或L1/L3 wobbling解释覆盖全部候选。 | cross-source-identity-boundary | source-and-bounded-self-audit | PE18既有带身份纠错; MU08低spinBand1/2对照 | true |
+
+## Day 25 正式核准：136Nd 偶偶多重手征双重带的非对等证据链
+
+Day 25 学习主线对 Petrache 2018 原文及重印本进行了正式复核，确立其在三核手征与形状共存比较中的关键地位：
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE18-D25-001 | 136Nd 中报道的五对双重带（D1–D5）在实验和理论完备度上高度不均衡：仅有正宇称六准粒子对 D5/D5-C 在两个带内均测得了重合的实验 $B(M1)/B(E2)$ 比值；其余四对弱伙伴带均缺乏带内跃迁强度比值。 | experimental-completeness-contrast | direct-original | PRC 97, 041304(R) PDF pp.2–4, Table I | true |
+| PE18-D25-002 | 三维推转 TAC-CDFT 仅在负宇称 D3（组态 $D^*$）上展示了频率 $\hbar\omega > 0.5	ext{ MeV}$ 时的非共面旋转解（$\phi > 0$）；论文未展示其它四对的完整 3D 偏转解，不能将单一对的模型非共面性无条件推广至全核五对。 | model-scope-and-planar-limit | direct-original | PRC 97, 041304(R) PDF pp.4–6, Figs. 4, 6 | true |
+| PE18-D25-003 | Mukhopadhyay 2008 测得的旧负宇称 Bands 1/2 寿命不对称对应于本篇的 D4 与 D3 主带，而非伙伴带内部关系；因此旧寿命反例不能直接否定正宇称 D5 对，但表明不同能带具有不同形变与四极矩，支持多重形状共存或准粒子交叉的竞争解释。 | competing-interpretation-and-lineage | direct-original-and-cross-source | PRC 97, 041304(R); PRC 78, 034311 | true |

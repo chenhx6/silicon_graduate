@@ -3,7 +3,7 @@ type: source
 title: "Petrache et al. 2006 - Risk of misinterpretation of nearly degenerate pair bands as chiral partners"
 aliases: [Petrache 2006 chiral-band caution]
 created: 2026-09-21
-updated: 2026-10-26
+updated: 2026-10-27
 status: ai-draft
 review_status: unreviewed
 source_type: critical-analysis-and-model
@@ -178,3 +178,13 @@ source前回忆已冻结，明确受既有Wiki priming；本轮重读VoR四页�
 |---|---|---|---|---|---|
 | PE06-D21-R110-1 | superseded：124撤回本条过强科学认证；用PE06-D21-R45-1至4；B的平方根仅在共同几何条件下对应矩比，不能当135Nd内禀形变测量，未重拟合V；旧全文保存在superseded-124。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
 | PE06-D21-R110-2 | superseded：124撤回本条过强科学认证；用PE06-D21-R45-1至4；B的平方根仅在共同几何条件下对应矩比，不能当135Nd内禀形变测量，未重拟合V；旧全文保存在superseded-124。 | withdrawn-task-certification | rejected-and-replaced | checkpoint124 | true |
+
+## Day 25 正式核准：近简并反例、解混合模型与手征判据界限
+
+Day 25 学习主线对本源进行了正式深度复核与核对。本篇确立了手征双重带研究中至关重要的反例事实：在自旋 $I=13–19$ 区间，134Pr 的能级近简并是由多个 4-qp crossings 压缩能隙造成的表观现象，绝非理想手征对称性的充分证据。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PE06-D25-001 | 134Pr 在 $I=14–18$ 间能隙虽小（36与44 keV），但两带 alignment 差约 $2\hbar$；两带解混合模型结合实测分支比给出内禀四极矩比值 $Q_{0,1}/Q_{0,2} = 2.0(4)$（允许区间1.6–2.4），证伪了两带具有相同内禀形状的理想手征假设。 | counter-evidence-and-unmixing | direct-original-and-model | PRL 96, 112502 PDF pp.1–3, Table I | true |
+| PE06-D25-002 | 两带解混合模型假定相互作用矩阵元在奇/偶自旋分别固定（$|V| pprox 14/17	ext{ keV}$），且忽略了非对角 $E2$ 矩阵元；作者反对简单理想手征带模型，但明确指出不能因此排除手征几何残余或动态手征涨落的存在。 | model-scope-and-author-boundary | direct-original | PRL 96, 112502 PDF pp.2–4 | true |
+| PE06-D25-003 | 134Pr 的分支比来自文献 Ref. 11，寿命定性对照来自 Ref. 9（Tonev 2006）；两组数据来自不同实验与处理，强调内禀四极矩不对称的判断必须结合寿命与分支比，单凭能谱简并不足以建立模式归属。 | data-lineage-and-companion-observables | direct-original | PRL 96, 112502 PDF p.4, Refs. 9, 11 | true |
