@@ -1,0 +1,231 @@
+{
+  "title": "Microscopic Configuration Selection Rules for MR vs ER Coexistence in 104,106Ag",
+  "single_particle_g_factors": {
+    "protons": {
+      "pi(g9/2)^-1": 1.3234,
+      "pi(p1/2)^-1": 0.0299,
+      "pi(p3/2)^-1": 1.9701,
+      "pi(f5/2)^-1": 0.5843
+    },
+    "neutrons": {
+      "nu(h11/2)": -0.2435,
+      "nu(d5/2)": -0.5356,
+      "nu(g7/2)": 0.2976,
+      "nu(s1/2)": -2.6782
+    }
+  },
+  "two_quasiparticle_configurations": [
+    {
+      "configuration": "pi(g9/2)^-1 (x) nu(h11/2)",
+      "jp": 4.5,
+      "jn": 5.5,
+      "delta_g": 1.567,
+      "shears_capacity_hbar": 9.0,
+      "mu_perp_muN": 3.375,
+      "BM1_muN2": 1.36,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 16.2,
+      "predicted_mode": "Magnetic_Rotation_(Shears)"
+    },
+    {
+      "configuration": "pi(g9/2)^-1 (x) nu(d5/2)",
+      "jp": 4.5,
+      "jn": 2.5,
+      "delta_g": 1.859,
+      "shears_capacity_hbar": 5.0,
+      "mu_perp_muN": 2.7,
+      "BM1_muN2": 0.8701,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 10.37,
+      "predicted_mode": "Magnetic_Rotation_(Shears)"
+    },
+    {
+      "configuration": "pi(g9/2)^-1 (x) nu(g7/2)",
+      "jp": 4.5,
+      "jn": 3.5,
+      "delta_g": 1.026,
+      "shears_capacity_hbar": 7.0,
+      "mu_perp_muN": 1.763,
+      "BM1_muN2": 0.3709,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 4.42,
+      "predicted_mode": "Magnetic_Rotation_(Shears)"
+    },
+    {
+      "configuration": "pi(g9/2)^-1 (x) nu(s1/2)",
+      "jp": 4.5,
+      "jn": 0.5,
+      "delta_g": 4.002,
+      "shears_capacity_hbar": 1.0,
+      "mu_perp_muN": 0.1,
+      "BM1_muN2": 0.015,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 0.18,
+      "predicted_mode": "Electric_Quadrupole_Rotation_(ER)"
+    },
+    {
+      "configuration": "pi(p1/2)^-1 (x) nu(h11/2)",
+      "jp": 0.5,
+      "jn": 5.5,
+      "delta_g": 0.273,
+      "shears_capacity_hbar": 1.0,
+      "mu_perp_muN": 0.1,
+      "BM1_muN2": 0.015,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 0.18,
+      "predicted_mode": "Electric_Quadrupole_Rotation_(ER)"
+    },
+    {
+      "configuration": "pi(p1/2)^-1 (x) nu(d5/2)",
+      "jp": 0.5,
+      "jn": 2.5,
+      "delta_g": 0.566,
+      "shears_capacity_hbar": 1.0,
+      "mu_perp_muN": 0.1,
+      "BM1_muN2": 0.015,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 0.18,
+      "predicted_mode": "Electric_Quadrupole_Rotation_(ER)"
+    },
+    {
+      "configuration": "pi(p1/2)^-1 (x) nu(g7/2)",
+      "jp": 0.5,
+      "jn": 3.5,
+      "delta_g": 0.268,
+      "shears_capacity_hbar": 1.0,
+      "mu_perp_muN": 0.1,
+      "BM1_muN2": 0.015,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 0.18,
+      "predicted_mode": "Electric_Quadrupole_Rotation_(ER)"
+    },
+    {
+      "configuration": "pi(p1/2)^-1 (x) nu(s1/2)",
+      "jp": 0.5,
+      "jn": 0.5,
+      "delta_g": 2.708,
+      "shears_capacity_hbar": 1.0,
+      "mu_perp_muN": 0.1,
+      "BM1_muN2": 0.015,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 0.18,
+      "predicted_mode": "Electric_Quadrupole_Rotation_(ER)"
+    },
+    {
+      "configuration": "pi(p3/2)^-1 (x) nu(h11/2)",
+      "jp": 1.5,
+      "jn": 5.5,
+      "delta_g": 2.214,
+      "shears_capacity_hbar": 3.0,
+      "mu_perp_muN": 2.753,
+      "BM1_muN2": 0.9048,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 10.78,
+      "predicted_mode": "Magnetic_Rotation_(Shears)"
+    },
+    {
+      "configuration": "pi(p3/2)^-1 (x) nu(d5/2)",
+      "jp": 1.5,
+      "jn": 2.5,
+      "delta_g": 2.506,
+      "shears_capacity_hbar": 3.0,
+      "mu_perp_muN": 2.101,
+      "BM1_muN2": 0.527,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 6.28,
+      "predicted_mode": "Magnetic_Rotation_(Shears)"
+    },
+    {
+      "configuration": "pi(p3/2)^-1 (x) nu(g7/2)",
+      "jp": 1.5,
+      "jn": 3.5,
+      "delta_g": 1.672,
+      "shears_capacity_hbar": 3.0,
+      "mu_perp_muN": 1.659,
+      "BM1_muN2": 0.3287,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 3.92,
+      "predicted_mode": "Magnetic_Rotation_(Shears)"
+    },
+    {
+      "configuration": "pi(p3/2)^-1 (x) nu(s1/2)",
+      "jp": 1.5,
+      "jn": 0.5,
+      "delta_g": 4.648,
+      "shears_capacity_hbar": 1.0,
+      "mu_perp_muN": 0.1,
+      "BM1_muN2": 0.015,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 0.18,
+      "predicted_mode": "Electric_Quadrupole_Rotation_(ER)"
+    },
+    {
+      "configuration": "pi(f5/2)^-1 (x) nu(h11/2)",
+      "jp": 2.5,
+      "jn": 5.5,
+      "delta_g": 0.828,
+      "shears_capacity_hbar": 5.0,
+      "mu_perp_muN": 1.329,
+      "BM1_muN2": 0.2109,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 2.51,
+      "predicted_mode": "Magnetic_Rotation_(Shears)"
+    },
+    {
+      "configuration": "pi(f5/2)^-1 (x) nu(d5/2)",
+      "jp": 2.5,
+      "jn": 2.5,
+      "delta_g": 1.12,
+      "shears_capacity_hbar": 5.0,
+      "mu_perp_muN": 1.212,
+      "BM1_muN2": 0.1754,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 2.09,
+      "predicted_mode": "Magnetic_Rotation_(Shears)"
+    },
+    {
+      "configuration": "pi(f5/2)^-1 (x) nu(g7/2)",
+      "jp": 2.5,
+      "jn": 3.5,
+      "delta_g": 0.287,
+      "shears_capacity_hbar": 5.0,
+      "mu_perp_muN": 0.1,
+      "BM1_muN2": 0.015,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 0.18,
+      "predicted_mode": "Electric_Quadrupole_Rotation_(ER)"
+    },
+    {
+      "configuration": "pi(f5/2)^-1 (x) nu(s1/2)",
+      "jp": 2.5,
+      "jn": 0.5,
+      "delta_g": 3.263,
+      "shears_capacity_hbar": 1.0,
+      "mu_perp_muN": 0.1,
+      "BM1_muN2": 0.015,
+      "BE2_eb2": 0.0839,
+      "ratio_BM1_BE2": 0.18,
+      "predicted_mode": "Electric_Quadrupole_Rotation_(ER)"
+    }
+  ],
+  "104Ag_experimental_correspondence": [
+    {
+      "band": "Band A / B",
+      "assigned_config": "pi(g9/2)^-1 (x) nu(h11/2)",
+      "exp_character": "Chiral doublet candidate / planar shears precursor",
+      "exp_BM1_BE2": "5 - 15 (mu_N/eb)^2"
+    },
+    {
+      "band": "Band D / E",
+      "assigned_config": "pi(p1/2, p3/2)^-1 (x) nu(d5/2, g7/2)",
+      "exp_character": "Electric quadrupole rotation (Delta I = 2 cascade)",
+      "exp_BM1_BE2": "< 0.5 (mu_N/eb)^2"
+    },
+    {
+      "band": "Band F",
+      "assigned_config": "pi(g9/2)^-1 (x) nu(h11/2)^2 (x) nu(d5/2)",
+      "exp_character": "Magnetic rotation (Delta I = 1 M1 cascade)",
+      "exp_BM1_BE2": "15 - 35 (mu_N/eb)^2"
+    }
+  ]
+}
