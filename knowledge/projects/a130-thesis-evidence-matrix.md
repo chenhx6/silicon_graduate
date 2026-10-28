@@ -140,3 +140,20 @@ A new line or energy-sum closure may strengthen placement. It cannot by itself p
 **checkpoint108撤回旧六态“准入通过”认证，保留逐态来源。** [[klemme-1999-lifetimes-134nd-neighbors]] KL99-D19-6给134Nd2+为94.4(30)ps而非45.4；[[suzuki-2008-lifetimes-103rh-104rh]] SU08-D19-11区分103Rh两个.72ps行，均非9/2+。[[grodner-2018-128cs-chiral-g-factor]] GR18-D19-8区分角频率、普通频率、rank2调制、population和alignment。[[ionescu-bujor-1998-static-moments-129-131ce]] IB98-D19-8保共同EFG条件、local susceptibility和缺陷弛豫，不能说全部微观EFG误差被消除。[[singh-2016-lifetime-131ce-133pr]] SI16-D20-2及[[li-2004-lifetimes-131ce]] LI04-D20-2不证100%K归因。[[radeck-2012-deorientation-lifetime-98ru-rdds]] R12-D19-20/21不使RDDS免停止/几何输入。
 
 每个寿命/矩的论文用途仍需level/branch、实际response、原误差语义、共享输入和review边界。列出清单不是已通过论文证据审核，也不新增L4授权或实验CI。
+## Day 25 增量：131Ce/133Ce 独立时钟网络、跨带混合比自旋演化与 E2 猝灭机制
+
+在 Day 25 研学窗口中，结合 [[131ce-133ce-lifetime-lineage-and-high-spin-migration]]、[[pado-probability-density-mapping-mixing-ratios]] 与本 run 独立演化分析工件 ce133-mixing-ratio-evolution-015.py/json，正式闭合了 $^{131}\text{Ce}$ 与 $^{133}\text{Ce}$ 绑定具体能带与跃迁的寿命和电磁多极演化证据：
+
+1. **$^{131}\text{Ce}$ 独立寿命网络基准**：
+   - 负宇称序列（$\nu h_{11/2}$）：Li 2004（DSAM）与 Singh 2016（RDDS 柱塞法）联合确立：$15/2^-$ 510 keV 跃迁 $\tau = 9.6_{-3.8}^{+1.9}\text{ ps}$；$23/2^-$ 750 keV $\tau = 1.44(54)\text{ ps}$；$27/2^-$ 827 keV $\tau = 1.25_{-0.25}^{+0.41}\text{ ps}$；$31/2^-$ 892 keV $\tau = 0.51(5)\text{ ps}$；$35/2^-$ 922 keV $\tau = 0.60_{-0.10}^{+0.11}\text{ ps}$；
+   - 正宇称序列：Li 2004（DSAM）测定 $13/2^+ \to 9/2^+$ 610 keV $\tau = 1.46(56)\text{ ps}$；$17/2^+ \to 13/2^+$ 725 keV $\tau = 1.32(10)\text{ ps}$；$21/2^+ \to 17/2^+$ 796 keV $\tau = 0.60(26)\text{ ps}$；
+   - 证据边界：两序列宇称相反，分属不同内禀组态，严禁跨宇称借证或作为同宇称手征双重带对待；反驳了“$^{131}\text{Ce}$ 全核无寿命”的泛化断言。
+
+2. **$^{133}\text{Ce}$ 局域寿命与候选手征带时钟断裂**：
+   - Emediato 1997（RDDS）覆盖低自旋负宇称态（$11/2^-$ 平均寿命 $76(3)\text{ ps}$）；Joss 1998（DSAM）测定高自旋常规三轴带过渡电四极矩 $Q_t \approx 2.2(1)\text{ eb}$（$B(E2) \approx 35\text{ W.u.}$）；
+   - Wakudyanaye 2022（WK22）低自旋 Band 4（母态 1409.8 keV 582.7 keV 线等）以及 Ayangeakaa 2013（A13）报告的两对候选手征双重带（Bands 2–3 与 Bands 5–6）**完全缺失态寿命测量**；
+   - 严禁将 Joss 1998 的高自旋常规三轴带四极矩或 Hauschild 1995 的超形变四极矩（$Q_t \approx 7.5\text{ eb}$）跨带平移给未测寿命的候选带。
+
+3. **$^{133}\text{Ce}$ Band 4 跨带混合比自旋演化与集体 $E2$ 猝灭**：
+   - 定量提取证明：跨带连接跃迁的 $E2$ 光子份额从 $13/2^-$ 态的 $69.2\%$ 断崖式急剧骤降至 $17/2^-$ 态的 $23.2\%$，并在 $19/2^-$ 态塌缩至 $2.8\%$（$M1$ 份额上升至 $97.2\%$）；
+   - 微观转动对齐图景：核芯转动角动量 $R$ 随自旋单调增大驱动总角动量向转轴对齐，波函数重叠迅速收缩猝灭了集体跨带电四极跃迁，而单粒子磁偶极算符稳定激活；该猝灭排他性排除了 wobbling 模式（要求全程 $E2$ 占优），确立了单准粒子倾斜进动（TiP）轨道激发解释。
