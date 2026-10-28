@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "topic": "Systematic comparison of 135Pr vs 137Pr magnetic rotation bandcrossing",
+  "nuclei": {
+    "135Pr": {
+      "Z": 59,
+      "N": 76,
+      "band": "Band 3 (negative parity Delta I = 1)",
+      "bandhead_spin": "27/2- (3530.0 keV)",
+      "crossing_frequency_MeV": 0.37,
+      "crossing_spin_hbar": "33/2-",
+      "configuration_lower": "pi(h11/2)^1 x nu(h11/2)^-2 (3qp)",
+      "configuration_upper": "pi(h11/2)^1 (g7/2)^2 x nu(h11/2)^-2 (5qp)",
+      "experimental_BM1_over_BE2": [
+        {
+          "I": 15.5,
+          "E_level_keV": 4292.7,
+          "E_M1_keV": 429.7,
+          "E_E2_keV": 762.7,
+          "BM1_over_BE2": 15.78,
+          "BM1_over_BE2_err": 0.91,
+          "regime": "pre-crossing 3qp"
+        },
+        {
+          "I": 16.5,
+          "E_level_keV": 4704.1,
+          "E_M1_keV": 410.8,
+          "E_E2_keV": 840.6,
+          "BM1_over_BE2": 19.67,
+          "BM1_over_BE2_err": 1.05,
+          "regime": "pre-crossing 3qp"
+        },
+        {
+          "I": 17.5,
+          "E_level_keV": 5028.6,
+          "E_M1_keV": 325.1,
+          "E_E2_keV": 735.9,
+          "BM1_over_BE2": 94.83,
+          "BM1_over_BE2_err": 6.1,
+          "regime": "crossing peak"
+        },
+        {
+          "I": 18.5,
+          "E_level_keV": 5452.6,
+          "E_M1_keV": 424.0,
+          "E_E2_keV": null,
+          "BM1_over_BE2": null,
+          "BM1_over_BE2_err": null,
+          "regime": "post-crossing 5qp (no E2 crossover)"
+        },
+        {
+          "I": 19.5,
+          "E_level_keV": 5951.1,
+          "E_M1_keV": 498.5,
+          "E_E2_keV": null,
+          "BM1_over_BE2": null,
+          "BM1_over_BE2_err": null,
+          "regime": "post-crossing 5qp (no E2 crossover)"
+        },
+        {
+          "I": 20.5,
+          "E_level_keV": 6506.4,
+          "E_M1_keV": 555.3,
+          "E_E2_keV": null,
+          "BM1_over_BE2": null,
+          "BM1_over_BE2_err": null,
+          "regime": "post-crossing 5qp (no E2 crossover)"
+        }
+      ]
+    },
+    "137Pr": {
+      "Z": 59,
+      "N": 78,
+      "band": "Band 2 (negative parity Delta I = 1)",
+      "bandhead_spin": "25/2- (3605.0 keV)",
+      "crossing_frequency_MeV": 0.42,
+      "crossing_spin_hbar": "35/2-",
+      "configuration_lower": "pi(h11/2)^1 x nu(h11/2)^-2 (3qp)",
+      "configuration_upper": "pi(h11/2)^1 (g7/2)^2 x nu(h11/2)^-2 (5qp)",
+      "experimental_BM1_over_BE2": [
+        {
+          "I": 14.5,
+          "E_level_keV": 3959.0,
+          "E_M1_keV": 354.0,
+          "E_E2_keV": 718.0,
+          "BM1_over_BE2": 10.4,
+          "BM1_over_BE2_err": 1.5,
+          "regime": "pre-crossing 3qp"
+        },
+        {
+          "I": 15.5,
+          "E_level_keV": 4352.0,
+          "E_M1_keV": 393.0,
+          "E_E2_keV": 747.0,
+          "BM1_over_BE2": 10.5,
+          "BM1_over_BE2_err": 1.8,
+          "regime": "pre-crossing 3qp"
+        },
+        {
+          "I": 16.5,
+          "E_level_keV": 4791.0,
+          "E_M1_keV": 439.0,
+          "E_E2_keV": 832.0,
+          "BM1_over_BE2": 18.5,
+          "BM1_over_BE2_err": 2.2,
+          "regime": "crossing onset"
+        },
+        {
+          "I": 17.5,
+          "E_level_keV": 5198.0,
+          "E_M1_keV": 407.0,
+          "E_E2_keV": 846.0,
+          "BM1_over_BE2": 24.0,
+          "BM1_over_BE2_err": 3.5,
+          "regime": "crossing peak"
+        },
+        {
+          "I": 18.5,
+          "E_level_keV": 5605.0,
+          "E_M1_keV": 407.0,
+          "E_E2_keV": 814.0,
+          "BM1_over_BE2": 62.1,
+          "BM1_over_BE2_err": 12.0,
+          "regime": "5qp takeover peak"
+        },
+        {
+          "I": 19.5,
+          "E_level_keV": 6071.0,
+          "E_M1_keV": 466.0,
+          "E_E2_keV": 873.0,
+          "BM1_over_BE2": 24.5,
+          "BM1_over_BE2_err": 4.0,
+          "regime": "post-crossing 5qp closing"
+        },
+        {
+          "I": 20.5,
+          "E_level_keV": 6578.0,
+          "E_M1_keV": 507.0,
+          "E_E2_keV": 973.0,
+          "BM1_over_BE2": 17.2,
+          "BM1_over_BE2_err": 2.9,
+          "regime": "post-crossing 5qp closing"
+        }
+      ]
+    }
+  },
+  "systematic_insights": [
+    "1. In both isotopes, the 3qp shears band undergoes a crossing around hbar*omega = 0.37 - 0.42 MeV driven by the alignment of a pair of g7/2 protons, creating a 5qp configuration.",
+    "2. Crossing frequency and spin are shifted slightly between N=76 (135Pr, 0.37 MeV, 33/2-) and N=78 (137Pr, 0.42 MeV, 35/2-) due to the shifting Fermi level within the nu(h11/2) subshell.",
+    "3. Prior to the crossing, both nuclei exhibit an increase in B(M1)/B(E2) ratios (from ~10-15 up to >60-95 (mu_N/eb)^2), proving that simplistic universal monotonic drop rules fail across bandcrossing regions.",
+    "4. Above the crossing, 137Pr demonstrates the expected shears closing behavior of the 5qp configuration with B(M1)/B(E2) falling from 62.1 at 37/2- to 17.2 at 41/2-, whereas 135Pr lacks measured crossover E2 lines at high spin.",
+    "5. Neither nucleus has measured DSAM/RDDS lifetimes for these bands; both remain candidate MR bands characterized by relative electromagnetic transition signatures."
+  ],
+  "boundary": "Derived from published gamma-ray intensities and branching ratios under delta^2 << 1 assumption; stopping power and lifetime measurements remain pending."
+}

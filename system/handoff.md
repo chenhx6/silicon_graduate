@@ -3,7 +3,16 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint005：跨质量区八极系统学闭环与偶极相消微观机制对账
+## Active handoff — Day26 checkpoint006：Pr 同位素 MR 交叉反弹系统学与全套验证闭环
+
+正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26]/next26，无 Day27。上一检查点 12d7e4da 已成功推送 Gitee origin/main。
+
+本段完成镨同位素磁转动带交叉对比突破：
+1. **135Pr 与 137Pr 磁转动系统学对账**（工件 `pr135-pr137-mr-systematics-004.json`）：对比 Garg 2015（N=76）与 Agarwal 2007（N=78），确立 3qp $\to$ 5qp 顺对齐能带交叉在两核中的同源性（$\hbar\omega=0.37 \text{ vs } 0.42\text{ MeV}$），阐明逼近交叉时 $B(M1)/B(E2)$ 剧烈反弹（分别升至 $\sim 95$ 与 $62.1\ (\mu_N/e\text{b})^2$）的结构相干源头；
+2. **明确后交叉演化观测边界**：$^{137}\text{Pr}$ 测得交叉上方 5qp 剪刀闭合（强度比回落至 $17.2$），而 $^{135}\text{Pr}$ 高自旋 $E2$ 线缺失，为候选 MR 带的演化提供了严密的实验边界；
+3. **全套检查保持全绿**：`wiki_lint.py` 保持 0 error、267 warnings，runner 校验全绿，保持代码与文档干净同步。
+
+## Previous handoff — Day26 checkpoint005：跨质量区八极系统学闭环与偶极相消微观机制对账
 
 正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26]/next26，无 Day27。上一检查点 28041628 已成功推送 Gitee origin/main。
 
