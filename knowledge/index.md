@@ -11,6 +11,9 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[tac-frequency-unit-boundary]] — 3D-TAC临界频率的单位、参数敏感性与实验量分层。
+- [[parity-doublet-pairing-boundary]] — 225Ra/225Ac评价伙伴全配对歧义与条件D0。
+- [[e3-multipole-transition-ledger-boundary]] — E3矩阵元单位、初态简并、星号耦合与部分和规则边界。
 - [[octupole-sum-rule-static-dynamic-identifiability]] — 222/228Ra多跃迁E3图样与静态/动态可辨识性边界。
 
 - [[butler-2020-222-228ra-octupole-evolution]] — 222/228Ra多跃迁E3系统学与静态/振动竞争解释。

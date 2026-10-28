@@ -1,0 +1,51 @@
+{
+  "schema": "e3-multipole-transition-ledger-029/v1",
+  "scope": "cross-nucleus E3 reduced-matrix-element and intrinsic-Q3 ledger",
+  "unit_conventions": {
+    "reduced_matrix_element": "e b^(3/2) for Butler/Bucher; e fm^3 for Gaffney",
+    "conversion": "1 b = 100 fm^2; 1 b^(3/2) = 1000 fm^3",
+    "Q3": "e fm^3 under each source's stated axial rotor conversion",
+    "B_definition": "B(Eλ; Ji -> Jf)=|<Jf||M(Eλ)||Ji>|^2/(2Ji+1)",
+    "direction_warning": "Table row notation and source prose must establish which spin is initial before applying the (2Ji+1) denominator"
+  },
+  "ledger": [
+    {"nucleus":"144Ba","transition":"0+ <-> 3-","M_E3":"0.65(+0.17/-0.23) e b^(3/2)","Q3":"1.73(+0.45/-0.62)e3 e fm^3","B_down":"48(+25/-34) W.u.","coupling":"direct lowest E3 fit","locator":"Bucher_2016 PRL 116 112503 PDF p.4 Table I and text","status":"direct-plus-derived"},
+    {"nucleus":"146Ba","transition":"0+ <-> 3-","M_E3":"0.65(+0.14/-0.20) e b^(3/2)","Q3":"not used as an independent ledger value here","B_down":"48(+21/-29) W.u.","coupling":"direct lowest E3 fit","locator":"Bucher_2017 PRL 118 152504 PDF p.3 Table I and text","status":"direct-plus-derived"},
+    {"nucleus":"220Rn","transition":"0+ <-> 3-","M_E3":"810(50) e fm^3","Q3":"2180(130) e fm^3 (Table 2 lowest-transition conversion)","B_down":"33(4) W.u.","coupling":"lowest E3; multi-transition experiment","locator":"Gaffney_2013 Nature 497 PDF p.3 Table 1; p.4 Table 2","status":"direct-plus-derived"},
+    {"nucleus":"224Ra","transition":"0+ <-> 3-","M_E3":"940(30) e fm^3","Q3":"2520(90) e fm^3 (Table 2 conversion)","B_down":"42(3) W.u.","coupling":"lowest E3; multi-transition experiment","locator":"Gaffney_2013 Nature 497 PDF p.3 Table 1; p.4 Table 2","status":"direct-plus-derived"},
+    {"nucleus":"222Ra","transition":"0+ -> 3-","M_E3":"1.13(9) e b^(3/2)","Q3":"3030(240) e fm^3 per-transition; aggregate 3120(190)","B_down":"not recomputed here because row-direction convention is source-specific","coupling":"unstarred lowest coupling","locator":"Butler_2020 PRL 124 042503 PDF p.3 Table I","status":"direct-plus-derived"},
+    {"nucleus":"228Ra","transition":"0+ -> 3-","M_E3":"0.87(15) e b^(3/2)","Q3":"2300(400) e fm^3 per-transition; aggregate 2230(290)","B_down":"not recomputed here because row-direction convention is source-specific","coupling":"unstarred lowest coupling","locator":"Butler_2020 PRL 124 042503 PDF p.3 Table I","status":"direct-plus-derived"}
+  ],
+  "butler_2020_multitransition": {
+    "222Ra": [
+      {"transition":"0+->3-","M_eb32":1.13,"Q3_efm3":3030,"starred":false},
+      {"transition":"2+->1-","M_eb32":0.85,"Q3_efm3":2000,"starred":false},
+      {"transition":"2+->3-","M_eb32":-0.9,"Q3_efm3":2100,"starred":false},
+      {"transition":"2+->5-","M_eb32":1.79,"Q3_efm3":3100,"starred":false},
+      {"transition":"4+->1-","M_eb32":-2.1,"Q3_efm3":4400,"starred":true},
+      {"transition":"4+->3-","M_eb32":2.6,"Q3_efm3":5500,"starred":true},
+      {"transition":"4+->5-","M_eb32":-1.7,"Q3_efm3":3200,"starred":true},
+      {"transition":"4+->7-","M_eb32":3.3,"Q3_efm3":4600,"starred":true}
+    ],
+    "228Ra": [
+      {"transition":"0+->3-","M_eb32":0.87,"Q3_efm3":2300,"starred":false},
+      {"transition":"2+->1-","M_eb32":1.36,"Q3_efm3":3200,"starred":true},
+      {"transition":"2+->3-","M_eb32":-0.06,"Q3_efm3":150,"starred":true},
+      {"transition":"2+->5-","M_eb32":1.71,"Q3_efm3":3000,"starred":true},
+      {"transition":"4+->1-","M_eb32":0.4,"Q3_efm3":-800,"starred":true}
+    ]
+  },
+  "027_audit": {
+    "reported_square_sum_222Ra_e2b3": 30.9635,
+    "reported_square_sum_228Ra_e2b3": 5.6942,
+    "interpretation": "These are partial sums of printed |M|^2 across mixed initial spins, not a 0+ closure m0.",
+    "denominator_issue": "027's illustrative downward proxy divides by the first listed spin; because source table row direction must be checked, it is not a certified B sum.",
+    "correct_rule": "For a single transition use the actual initial Ji in B=|M|^2/(2Ji+1); do not add different Ji rows into the 0+ sum."
+  },
+  "boundary": {
+    "closure_complete": false,
+    "energy_weighted_sum_computed": false,
+    "phase_covariance_reconstructed": false,
+    "static_shape_inferred_model_independently": false
+  }
+}

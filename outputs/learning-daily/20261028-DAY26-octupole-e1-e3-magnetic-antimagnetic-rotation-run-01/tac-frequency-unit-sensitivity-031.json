@@ -1,0 +1,200 @@
+{
+  "audit_id": "DAY26-TAC-031",
+  "status": "conditional parameter/unit audit; no new HF or TAC run",
+  "course_status": "Day27 uncredited preview only; Day28 unopened",
+  "source_inputs": {
+    "Olbratowski": "arXiv nucl-th/0211075v1, PDF pp.2-4 Eqs.2-7/Figs.4-6; archived raw SHA3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+    "Starosta": "PRL 86,971-974 (2001), PDF pp.2-4/Fig.3/Table I; raw SHA9082c1e8ced3fbfeb2248f5b18c1b646f4dc1adc77af5c27c6a988855583cbf4"
+  },
+  "baseline_inputs": {
+    "Js": 8.5,
+    "Jm": 31.0,
+    "Jl": 20.0,
+    "ss": 5.43,
+    "sl": 5.0
+  },
+  "baseline_outputs": {
+    "hbar_omega_c_MeV": 0.514639046,
+    "Icrit_hbar": 15.953810437,
+    "omega_s_MeV_per_hbar": 0.241333333,
+    "omega_l_MeV_per_hbar": 0.454545455,
+    "planar_threshold_hbar_omega_MeV": 1.282266726
+  },
+  "finite_sensitivity_±10pct": [
+    {
+      "parameter": "Js",
+      "factor": 0.9,
+      "values": {
+        "hbar_omega_c_MeV": 0.510578325,
+        "Icrit_hbar": 15.827928083,
+        "omega_s_MeV_per_hbar": 0.23254818,
+        "omega_l_MeV_per_hbar": 0.454545455,
+        "planar_threshold_hbar_omega_MeV": 1.194013551
+      }
+    },
+    {
+      "parameter": "Js",
+      "factor": 1.1,
+      "values": {
+        "hbar_omega_c_MeV": 0.519149671,
+        "Icrit_hbar": 16.093639794,
+        "omega_s_MeV_per_hbar": 0.250808314,
+        "omega_l_MeV_per_hbar": 0.454545455,
+        "planar_threshold_hbar_omega_MeV": 1.384607263
+      }
+    },
+    {
+      "parameter": "Jm",
+      "factor": 0.9,
+      "values": {
+        "hbar_omega_c_MeV": 0.692039818,
+        "Icrit_hbar": 19.307910914,
+        "omega_s_MeV_per_hbar": 0.279896907,
+        "omega_l_MeV_per_hbar": 0.632911392,
+        "planar_threshold_hbar_omega_MeV": 1.282266726
+      }
+    },
+    {
+      "parameter": "Jm",
+      "factor": 1.1,
+      "values": {
+        "hbar_omega_c_MeV": 0.413205262,
+        "Icrit_hbar": 14.090299443,
+        "omega_s_MeV_per_hbar": 0.212109375,
+        "omega_l_MeV_per_hbar": 0.354609929,
+        "planar_threshold_hbar_omega_MeV": 1.282266726
+      }
+    },
+    {
+      "parameter": "Jl",
+      "factor": 0.9,
+      "values": {
+        "hbar_omega_c_MeV": 0.454060317,
+        "Icrit_hbar": 14.07586984,
+        "omega_s_MeV_per_hbar": 0.241333333,
+        "omega_l_MeV_per_hbar": 0.384615385,
+        "planar_threshold_hbar_omega_MeV": 1.552217616
+      }
+    },
+    {
+      "parameter": "Jl",
+      "factor": 1.1,
+      "values": {
+        "hbar_omega_c_MeV": 0.605709298,
+        "Icrit_hbar": 18.776988223,
+        "omega_s_MeV_per_hbar": 0.241333333,
+        "omega_l_MeV_per_hbar": 0.555555556,
+        "planar_threshold_hbar_omega_MeV": 1.092301285
+      }
+    },
+    {
+      "parameter": "ss",
+      "factor": 0.9,
+      "values": {
+        "hbar_omega_c_MeV": 0.503773173,
+        "Icrit_hbar": 15.616968376,
+        "omega_s_MeV_per_hbar": 0.2172,
+        "omega_l_MeV_per_hbar": 0.454545455,
+        "planar_threshold_hbar_omega_MeV": 1.215828267
+      }
+    },
+    {
+      "parameter": "ss",
+      "factor": 1.1,
+      "values": {
+        "hbar_omega_c_MeV": 0.526387805,
+        "Icrit_hbar": 16.318021958,
+        "omega_s_MeV_per_hbar": 0.265466667,
+        "omega_l_MeV_per_hbar": 0.454545455,
+        "planar_threshold_hbar_omega_MeV": 1.347634116
+      }
+    },
+    {
+      "parameter": "sl",
+      "factor": 0.9,
+      "values": {
+        "hbar_omega_c_MeV": 0.474970683,
+        "Icrit_hbar": 14.724091172,
+        "omega_s_MeV_per_hbar": 0.241333333,
+        "omega_l_MeV_per_hbar": 0.409090909,
+        "planar_threshold_hbar_omega_MeV": 1.219353845
+      }
+    },
+    {
+      "parameter": "sl",
+      "factor": 1.1,
+      "values": {
+        "hbar_omega_c_MeV": 0.555195261,
+        "Icrit_hbar": 17.211053089,
+        "omega_s_MeV_per_hbar": 0.241333333,
+        "omega_l_MeV_per_hbar": 0.5,
+        "planar_threshold_hbar_omega_MeV": 1.344108571
+      }
+    }
+  ],
+  "gamma_convention_audit": [
+    {
+      "gamma_deg": 27,
+      "irrotational_sin2_triplet_unscaled": [
+        0.206107374,
+        0.997260948,
+        0.296631678
+      ],
+      "normalization_note": "axis permutation and scale are unspecified; do not convert to source J values"
+    },
+    {
+      "gamma_deg": 32,
+      "irrotational_sin2_triplet_unscaled": [
+        0.280814427,
+        0.998782025,
+        0.220403548
+      ],
+      "normalization_note": "axis permutation and scale are unspecified; do not convert to source J values"
+    },
+    {
+      "gamma_deg": 45,
+      "irrotational_sin2_triplet_unscaled": [
+        0.5,
+        0.933012702,
+        0.066987298
+      ],
+      "normalization_note": "axis permutation and scale are unspecified; do not convert to source J values"
+    }
+  ],
+  "unit_checks": [
+    {
+      "expression": "s/(Jm-Jk)",
+      "units": "(hbar)/(hbar^2/MeV)=MeV/hbar",
+      "meaning": "angular-frequency component"
+    },
+    {
+      "expression": "hbar*omega_c",
+      "units": "MeV",
+      "meaning": "energy-frequency product reported by source as hbar omega"
+    },
+    {
+      "expression": "Jm*omega_c",
+      "units": "hbar",
+      "meaning": "continuous classical Icrit; not measured quantum spin"
+    },
+    {
+      "expression": "Starosta 10B(E2)",
+      "units": "(eb)^2",
+      "meaning": "table label includes factor 10; divide printed number by 10 for B(E2)"
+    }
+  ],
+  "observables_separation": {
+    "experimental_132La_pair_displacement_MeV": 0.37,
+    "Starosta_132La_TableI_barrier_keV": 12,
+    "Olbratowski_classical_hbar_omega_c_MeV": 0.514639046,
+    "Olbratowski_HF_aplanar_onset_hbar_omega_MeV": 0.6,
+    "warning": "these are different quantities; none is a direct measured critical frequency"
+  },
+  "conclusions": [
+    "Jm uncertainty dominates omega_c locally: ±10% gives 0.6920/0.4132 MeV, while ±10% ss gives 0.5038/0.5264 MeV.",
+    "Eq.5 planar threshold 1.2823 MeV is distinct from Eq.7 aplanar critical 0.5146 MeV.",
+    "gamma values 32 and 45 degrees belong to different models/conventions; irrotational sin^2 triplets cannot be mapped to source inertia without axis mapping and scale.",
+    "No sensitivity calculation creates a universal nuclear phase boundary or an experimental observable."
+  ],
+  "needs_review": true
+}
