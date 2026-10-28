@@ -1,0 +1,934 @@
+{
+  "title": "Deformation Upper Bound for the Shears Mechanism (beta2 <= 0.20)",
+  "description": "Quantitative analysis of the collapse of B(M1)/B(E2) with increasing quadrupole deformation beta2",
+  "regions": [
+    {
+      "region": "A=110 (Cd)",
+      "A": 110,
+      "Z": 48,
+      "points": [
+        {
+          "beta2": 0.02,
+          "Q0_eb": 0.242,
+          "BE2_coll_eb2": 0.00218,
+          "BE2_total_eb2": 0.00281,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 259.91,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.038,
+          "Q0_eb": 0.462,
+          "BE2_coll_eb2": 0.00795,
+          "BE2_total_eb2": 0.00858,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 85.23,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.056,
+          "Q0_eb": 0.684,
+          "BE2_coll_eb2": 0.01746,
+          "BE2_total_eb2": 0.01809,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 40.43,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.074,
+          "Q0_eb": 0.909,
+          "BE2_coll_eb2": 0.03085,
+          "BE2_total_eb2": 0.03148,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 23.23,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.092,
+          "Q0_eb": 1.137,
+          "BE2_coll_eb2": 0.04825,
+          "BE2_total_eb2": 0.04888,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 14.96,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.11,
+          "Q0_eb": 1.368,
+          "BE2_coll_eb2": 0.06983,
+          "BE2_total_eb2": 0.07046,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 10.38,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.128,
+          "Q0_eb": 1.602,
+          "BE2_coll_eb2": 0.0957,
+          "BE2_total_eb2": 0.09633,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 7.59,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.145,
+          "Q0_eb": 1.838,
+          "BE2_coll_eb2": 0.12603,
+          "BE2_total_eb2": 0.12666,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 5.77,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.163,
+          "Q0_eb": 2.077,
+          "BE2_coll_eb2": 0.16095,
+          "BE2_total_eb2": 0.16158,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 4.53,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.181,
+          "Q0_eb": 2.319,
+          "BE2_coll_eb2": 0.20062,
+          "BE2_total_eb2": 0.20125,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 3.63,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.199,
+          "Q0_eb": 2.564,
+          "BE2_coll_eb2": 0.24519,
+          "BE2_total_eb2": 0.24582,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 2.97,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.217,
+          "Q0_eb": 2.811,
+          "BE2_coll_eb2": 0.2948,
+          "BE2_total_eb2": 0.29543,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 2.48,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.235,
+          "Q0_eb": 3.061,
+          "BE2_coll_eb2": 0.34962,
+          "BE2_total_eb2": 0.35025,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 2.09,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.253,
+          "Q0_eb": 3.314,
+          "BE2_coll_eb2": 0.40979,
+          "BE2_total_eb2": 0.41042,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 1.78,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.271,
+          "Q0_eb": 3.57,
+          "BE2_coll_eb2": 0.47548,
+          "BE2_total_eb2": 0.47611,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 1.54,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.289,
+          "Q0_eb": 3.829,
+          "BE2_coll_eb2": 0.54684,
+          "BE2_total_eb2": 0.54747,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 1.34,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.307,
+          "Q0_eb": 4.09,
+          "BE2_coll_eb2": 0.62404,
+          "BE2_total_eb2": 0.62467,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 1.17,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.325,
+          "Q0_eb": 4.354,
+          "BE2_coll_eb2": 0.70723,
+          "BE2_total_eb2": 0.70786,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 1.03,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.343,
+          "Q0_eb": 4.621,
+          "BE2_coll_eb2": 0.79658,
+          "BE2_total_eb2": 0.79721,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.92,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.36,
+          "Q0_eb": 4.891,
+          "BE2_coll_eb2": 0.89226,
+          "BE2_total_eb2": 0.89289,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.82,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.378,
+          "Q0_eb": 5.163,
+          "BE2_coll_eb2": 0.99444,
+          "BE2_total_eb2": 0.99507,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.73,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.396,
+          "Q0_eb": 5.438,
+          "BE2_coll_eb2": 1.10327,
+          "BE2_total_eb2": 1.1039,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.66,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.414,
+          "Q0_eb": 5.716,
+          "BE2_coll_eb2": 1.21895,
+          "BE2_total_eb2": 1.21958,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.6,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.432,
+          "Q0_eb": 5.997,
+          "BE2_coll_eb2": 1.34162,
+          "BE2_total_eb2": 1.34225,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.54,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.45,
+          "Q0_eb": 6.281,
+          "BE2_coll_eb2": 1.47148,
+          "BE2_total_eb2": 1.47211,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.5,
+          "regime": "collective_rotor_quenched"
+        }
+      ]
+    },
+    {
+      "region": "A=135 (Pr)",
+      "A": 135,
+      "Z": 59,
+      "points": [
+        {
+          "beta2": 0.02,
+          "Q0_eb": 0.341,
+          "BE2_coll_eb2": 0.00434,
+          "BE2_total_eb2": 0.00496,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 181.82,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.038,
+          "Q0_eb": 0.65,
+          "BE2_coll_eb2": 0.01578,
+          "BE2_total_eb2": 0.01641,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 55.0,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.056,
+          "Q0_eb": 0.964,
+          "BE2_coll_eb2": 0.03466,
+          "BE2_total_eb2": 0.03529,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 25.58,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.074,
+          "Q0_eb": 1.281,
+          "BE2_coll_eb2": 0.06124,
+          "BE2_total_eb2": 0.06187,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 14.59,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.092,
+          "Q0_eb": 1.603,
+          "BE2_coll_eb2": 0.0958,
+          "BE2_total_eb2": 0.09643,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 9.36,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.11,
+          "Q0_eb": 1.928,
+          "BE2_coll_eb2": 0.13862,
+          "BE2_total_eb2": 0.13925,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 6.48,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.128,
+          "Q0_eb": 2.257,
+          "BE2_coll_eb2": 0.18999,
+          "BE2_total_eb2": 0.19062,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 4.74,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.145,
+          "Q0_eb": 2.59,
+          "BE2_coll_eb2": 0.25019,
+          "BE2_total_eb2": 0.25082,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 3.6,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.163,
+          "Q0_eb": 2.927,
+          "BE2_coll_eb2": 0.31953,
+          "BE2_total_eb2": 0.32016,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 2.82,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.181,
+          "Q0_eb": 3.268,
+          "BE2_coll_eb2": 0.39828,
+          "BE2_total_eb2": 0.39891,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 2.26,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.199,
+          "Q0_eb": 3.612,
+          "BE2_coll_eb2": 0.48675,
+          "BE2_total_eb2": 0.48738,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 1.85,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.217,
+          "Q0_eb": 3.961,
+          "BE2_coll_eb2": 0.58525,
+          "BE2_total_eb2": 0.58588,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 1.54,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.235,
+          "Q0_eb": 4.314,
+          "BE2_coll_eb2": 0.69407,
+          "BE2_total_eb2": 0.6947,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 1.3,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.253,
+          "Q0_eb": 4.67,
+          "BE2_coll_eb2": 0.81353,
+          "BE2_total_eb2": 0.81416,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 1.11,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.271,
+          "Q0_eb": 5.03,
+          "BE2_coll_eb2": 0.94393,
+          "BE2_total_eb2": 0.94456,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 0.96,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.289,
+          "Q0_eb": 5.395,
+          "BE2_coll_eb2": 1.0856,
+          "BE2_total_eb2": 1.08623,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 0.83,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.307,
+          "Q0_eb": 5.763,
+          "BE2_coll_eb2": 1.23885,
+          "BE2_total_eb2": 1.23948,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 0.73,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.325,
+          "Q0_eb": 6.135,
+          "BE2_coll_eb2": 1.40401,
+          "BE2_total_eb2": 1.40464,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 0.64,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.343,
+          "Q0_eb": 6.511,
+          "BE2_coll_eb2": 1.5814,
+          "BE2_total_eb2": 1.58203,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 0.57,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.36,
+          "Q0_eb": 6.891,
+          "BE2_coll_eb2": 1.77134,
+          "BE2_total_eb2": 1.77197,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 0.51,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.378,
+          "Q0_eb": 7.275,
+          "BE2_coll_eb2": 1.97418,
+          "BE2_total_eb2": 1.97481,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 0.46,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.396,
+          "Q0_eb": 7.663,
+          "BE2_coll_eb2": 2.19025,
+          "BE2_total_eb2": 2.19088,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 0.41,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.414,
+          "Q0_eb": 8.054,
+          "BE2_coll_eb2": 2.41988,
+          "BE2_total_eb2": 2.42051,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 0.37,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.432,
+          "Q0_eb": 8.45,
+          "BE2_coll_eb2": 2.66343,
+          "BE2_total_eb2": 2.66406,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 0.34,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.45,
+          "Q0_eb": 8.849,
+          "BE2_coll_eb2": 2.92123,
+          "BE2_total_eb2": 2.92186,
+          "BM1_shear_muN2": 0.903,
+          "ratio_BM1_BE2": 0.31,
+          "regime": "collective_rotor_quenched"
+        }
+      ]
+    },
+    {
+      "region": "A=198 (Pb)",
+      "A": 198,
+      "Z": 82,
+      "points": [
+        {
+          "beta2": 0.02,
+          "Q0_eb": 0.612,
+          "BE2_coll_eb2": 0.01395,
+          "BE2_total_eb2": 0.01458,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 219.19,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.038,
+          "Q0_eb": 1.167,
+          "BE2_coll_eb2": 0.0508,
+          "BE2_total_eb2": 0.05143,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 62.16,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.056,
+          "Q0_eb": 1.729,
+          "BE2_coll_eb2": 0.11156,
+          "BE2_total_eb2": 0.11219,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 28.49,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.074,
+          "Q0_eb": 2.299,
+          "BE2_coll_eb2": 0.19711,
+          "BE2_total_eb2": 0.19774,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 16.17,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.092,
+          "Q0_eb": 2.875,
+          "BE2_coll_eb2": 0.30835,
+          "BE2_total_eb2": 0.30898,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 10.35,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.11,
+          "Q0_eb": 3.459,
+          "BE2_coll_eb2": 0.44619,
+          "BE2_total_eb2": 0.44682,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 7.15,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.128,
+          "Q0_eb": 4.049,
+          "BE2_coll_eb2": 0.61154,
+          "BE2_total_eb2": 0.61217,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 5.22,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.145,
+          "Q0_eb": 4.646,
+          "BE2_coll_eb2": 0.80533,
+          "BE2_total_eb2": 0.80596,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 3.97,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.163,
+          "Q0_eb": 5.251,
+          "BE2_coll_eb2": 1.0285,
+          "BE2_total_eb2": 1.02913,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 3.11,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.181,
+          "Q0_eb": 5.862,
+          "BE2_coll_eb2": 1.28199,
+          "BE2_total_eb2": 1.28262,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 2.49,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.199,
+          "Q0_eb": 6.481,
+          "BE2_coll_eb2": 1.56678,
+          "BE2_total_eb2": 1.5674,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 2.04,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.217,
+          "Q0_eb": 7.106,
+          "BE2_coll_eb2": 1.88382,
+          "BE2_total_eb2": 1.88444,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 1.7,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.235,
+          "Q0_eb": 7.739,
+          "BE2_coll_eb2": 2.2341,
+          "BE2_total_eb2": 2.23473,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 1.43,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.253,
+          "Q0_eb": 8.379,
+          "BE2_coll_eb2": 2.61861,
+          "BE2_total_eb2": 2.61924,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 1.22,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.271,
+          "Q0_eb": 9.025,
+          "BE2_coll_eb2": 3.03837,
+          "BE2_total_eb2": 3.039,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 1.05,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.289,
+          "Q0_eb": 9.679,
+          "BE2_coll_eb2": 3.49438,
+          "BE2_total_eb2": 3.49501,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 0.91,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.307,
+          "Q0_eb": 10.339,
+          "BE2_coll_eb2": 3.98767,
+          "BE2_total_eb2": 3.9883,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 0.8,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.325,
+          "Q0_eb": 11.007,
+          "BE2_coll_eb2": 4.51928,
+          "BE2_total_eb2": 4.51991,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 0.71,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.343,
+          "Q0_eb": 11.682,
+          "BE2_coll_eb2": 5.09026,
+          "BE2_total_eb2": 5.09089,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 0.63,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.36,
+          "Q0_eb": 12.363,
+          "BE2_coll_eb2": 5.70166,
+          "BE2_total_eb2": 5.70229,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 0.56,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.378,
+          "Q0_eb": 13.052,
+          "BE2_coll_eb2": 6.35456,
+          "BE2_total_eb2": 6.35519,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 0.5,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.396,
+          "Q0_eb": 13.748,
+          "BE2_coll_eb2": 7.05005,
+          "BE2_total_eb2": 7.05068,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 0.45,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.414,
+          "Q0_eb": 14.45,
+          "BE2_coll_eb2": 7.7892,
+          "BE2_total_eb2": 7.78983,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 0.41,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.432,
+          "Q0_eb": 15.16,
+          "BE2_coll_eb2": 8.57313,
+          "BE2_total_eb2": 8.57376,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 0.37,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.45,
+          "Q0_eb": 15.877,
+          "BE2_coll_eb2": 9.40295,
+          "BE2_total_eb2": 9.40358,
+          "BM1_shear_muN2": 3.197,
+          "ratio_BM1_BE2": 0.34,
+          "regime": "collective_rotor_quenched"
+        }
+      ]
+    },
+    {
+      "region": "A=165 (Lu)",
+      "A": 165,
+      "Z": 71,
+      "points": [
+        {
+          "beta2": 0.02,
+          "Q0_eb": 0.469,
+          "BE2_coll_eb2": 0.0082,
+          "BE2_total_eb2": 0.00883,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 82.77,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.038,
+          "Q0_eb": 0.895,
+          "BE2_coll_eb2": 0.02987,
+          "BE2_total_eb2": 0.0305,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 23.98,
+          "regime": "shears_dominant_MR"
+        },
+        {
+          "beta2": 0.056,
+          "Q0_eb": 1.326,
+          "BE2_coll_eb2": 0.06559,
+          "BE2_total_eb2": 0.06622,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 11.04,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.074,
+          "Q0_eb": 1.763,
+          "BE2_coll_eb2": 0.11588,
+          "BE2_total_eb2": 0.11651,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 6.28,
+          "regime": "transitional_shears"
+        },
+        {
+          "beta2": 0.092,
+          "Q0_eb": 2.205,
+          "BE2_coll_eb2": 0.18129,
+          "BE2_total_eb2": 0.18192,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 4.02,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.11,
+          "Q0_eb": 2.652,
+          "BE2_coll_eb2": 0.26232,
+          "BE2_total_eb2": 0.26295,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 2.78,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.128,
+          "Q0_eb": 3.105,
+          "BE2_coll_eb2": 0.35954,
+          "BE2_total_eb2": 0.36016,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 2.03,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.145,
+          "Q0_eb": 3.563,
+          "BE2_coll_eb2": 0.47347,
+          "BE2_total_eb2": 0.4741,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 1.54,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.163,
+          "Q0_eb": 4.026,
+          "BE2_coll_eb2": 0.60467,
+          "BE2_total_eb2": 0.6053,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 1.21,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.181,
+          "Q0_eb": 4.495,
+          "BE2_coll_eb2": 0.7537,
+          "BE2_total_eb2": 0.75433,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.97,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.199,
+          "Q0_eb": 4.969,
+          "BE2_coll_eb2": 0.92113,
+          "BE2_total_eb2": 0.92176,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.79,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.217,
+          "Q0_eb": 5.449,
+          "BE2_coll_eb2": 1.10752,
+          "BE2_total_eb2": 1.10815,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.66,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.235,
+          "Q0_eb": 5.934,
+          "BE2_coll_eb2": 1.31346,
+          "BE2_total_eb2": 1.31409,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.56,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.253,
+          "Q0_eb": 6.424,
+          "BE2_coll_eb2": 1.53952,
+          "BE2_total_eb2": 1.54015,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.47,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.271,
+          "Q0_eb": 6.92,
+          "BE2_coll_eb2": 1.7863,
+          "BE2_total_eb2": 1.78693,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.41,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.289,
+          "Q0_eb": 7.421,
+          "BE2_coll_eb2": 2.05439,
+          "BE2_total_eb2": 2.05502,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.36,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.307,
+          "Q0_eb": 7.928,
+          "BE2_coll_eb2": 2.34441,
+          "BE2_total_eb2": 2.34504,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.31,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.325,
+          "Q0_eb": 8.44,
+          "BE2_coll_eb2": 2.65695,
+          "BE2_total_eb2": 2.65758,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.28,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.343,
+          "Q0_eb": 8.957,
+          "BE2_coll_eb2": 2.99263,
+          "BE2_total_eb2": 2.99326,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.24,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.36,
+          "Q0_eb": 9.48,
+          "BE2_coll_eb2": 3.35209,
+          "BE2_total_eb2": 3.35272,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.22,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.378,
+          "Q0_eb": 10.008,
+          "BE2_coll_eb2": 3.73594,
+          "BE2_total_eb2": 3.73657,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.2,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.396,
+          "Q0_eb": 10.541,
+          "BE2_coll_eb2": 4.14482,
+          "BE2_total_eb2": 4.14545,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.18,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.414,
+          "Q0_eb": 11.08,
+          "BE2_coll_eb2": 4.57938,
+          "BE2_total_eb2": 4.58001,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.16,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.432,
+          "Q0_eb": 11.624,
+          "BE2_coll_eb2": 5.04027,
+          "BE2_total_eb2": 5.0409,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.15,
+          "regime": "collective_rotor_quenched"
+        },
+        {
+          "beta2": 0.45,
+          "Q0_eb": 12.174,
+          "BE2_coll_eb2": 5.52813,
+          "BE2_total_eb2": 5.52876,
+          "BM1_shear_muN2": 0.731,
+          "ratio_BM1_BE2": 0.13,
+          "regime": "collective_rotor_quenched"
+        }
+      ]
+    }
+  ]
+}
