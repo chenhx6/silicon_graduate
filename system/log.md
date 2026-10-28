@@ -4574,3 +4574,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-28：核对共享 Python 网络能力并安装 ponytail 0.9.3；Crawl4AI/Playwright example.com成功、browser-use/ponytail导入成功、pip check通过。Docker runtime目录只读且无Docker CLI，未能直接写Dockerfile.final；持久化补丁要求见 outputs/literature-acquisition/20261028-web-automation-runtime.json。
 
 - 2026-10-28T17:04:19.613399+08:00 Day26 checkpoint001：同原run/session续接，goal与farmer启用；BU16/17/Garg原件校准与新BE16 SCCM原文进入知识层。撤回Pr27/2伪交叉/Cd无locator数列，保留Day25信用与缺失回执边界；当前partial[26]、无Day27，继续至原截止。
+
+- 2026-10-28T17:42:00+08:00 Day26 checkpoint002：复算135Pr Table I同母态强度比（15.78/19.67/94.83）重现图7；落地非正交宇称模型证明坐标密度不决定奇极跃迁；官方NNDC ENSDF Adopted数据集闭环110Cd实测能级与J2/B(E2)比值（116–341）。全套验证全绿，发布checkpoint 002并继续学习。

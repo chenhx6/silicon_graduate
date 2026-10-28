@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "model": "Two nonorthogonal parity-related packets; no angular-momentum projection or physical tensor ranks",
+  "operator_units": "D/Dref and Q3/Q3ref are separately dimensionless; no physical E1/E3 ratio or W.u. is computed",
+  "source_scope": "BE16 PDF2 Eqs4/5 and PDF4-5 Fig4: motivation only; matrices are task-chosen, not production kernels",
+  "wavefunctions_fixed_operator_changed": [
+    {
+      "s": 0.3,
+      "h_MeV": 0.5,
+      "k_MeV": -0.1,
+      "d1_scaled": 0.0,
+      "d3_scaled": 2.0,
+      "norm_condition_number": 1.8571428571428574,
+      "energies_MeV": [
+        0.3076923076923076,
+        0.8571428571428569
+      ],
+      "Fplus_density": [
+        0.4999999999999998,
+        0.4999999999999998
+      ],
+      "Fminus_density": [
+        0.4999999999999996,
+        0.4999999999999996
+      ],
+      "M1_scaled_magnitude": 0.0,
+      "M3_scaled_magnitude": 2.096569673443836,
+      "diagnostics": {
+        "norm_orthonormality": 4.440892098500626e-16,
+        "generalized_eigen_residual_MeV": 2.220446049250313e-16,
+        "parity_label_error": 4.440892098500626e-16,
+        "parity_state_inner_product": 0.0,
+        "same_coordinate_densities": 1.6653345369377348e-16,
+        "odd_kernel1_closed_form": 0.0,
+        "odd_kernel3_closed_form": 4.440892098500626e-16,
+        "energy_gap_closed_form_MeV": 1.1102230246251565e-16,
+        "norm_parity_covariance": 0.0,
+        "odd_operator_covariance": 0.0
+      }
+    },
+    {
+      "s": 0.3,
+      "h_MeV": 0.5,
+      "k_MeV": -0.1,
+      "d1_scaled": 0.01,
+      "d3_scaled": 2.0,
+      "norm_condition_number": 1.8571428571428574,
+      "energies_MeV": [
+        0.3076923076923076,
+        0.8571428571428569
+      ],
+      "Fplus_density": [
+        0.4999999999999998,
+        0.4999999999999998
+      ],
+      "Fminus_density": [
+        0.4999999999999996,
+        0.4999999999999996
+      ],
+      "M1_scaled_magnitude": 0.01048284836721918,
+      "M3_scaled_magnitude": 2.096569673443836,
+      "diagnostics": {
+        "norm_orthonormality": 4.440892098500626e-16,
+        "generalized_eigen_residual_MeV": 2.220446049250313e-16,
+        "parity_label_error": 4.440892098500626e-16,
+        "parity_state_inner_product": 0.0,
+        "same_coordinate_densities": 1.6653345369377348e-16,
+        "odd_kernel1_closed_form": 3.469446951953614e-18,
+        "odd_kernel3_closed_form": 4.440892098500626e-16,
+        "energy_gap_closed_form_MeV": 1.1102230246251565e-16,
+        "norm_parity_covariance": 0.0,
+        "odd_operator_covariance": 0.0
+      }
+    },
+    {
+      "s": 0.3,
+      "h_MeV": 0.5,
+      "k_MeV": -0.1,
+      "d1_scaled": 0.05,
+      "d3_scaled": 2.0,
+      "norm_condition_number": 1.8571428571428574,
+      "energies_MeV": [
+        0.3076923076923076,
+        0.8571428571428569
+      ],
+      "Fplus_density": [
+        0.4999999999999998,
+        0.4999999999999998
+      ],
+      "Fminus_density": [
+        0.4999999999999996,
+        0.4999999999999996
+      ],
+      "M1_scaled_magnitude": 0.052414241836095894,
+      "M3_scaled_magnitude": 2.096569673443836,
+      "diagnostics": {
+        "norm_orthonormality": 4.440892098500626e-16,
+        "generalized_eigen_residual_MeV": 2.220446049250313e-16,
+        "parity_label_error": 4.440892098500626e-16,
+        "parity_state_inner_product": 0.0,
+        "same_coordinate_densities": 1.6653345369377348e-16,
+        "odd_kernel1_closed_form": 2.0816681711721685e-17,
+        "odd_kernel3_closed_form": 4.440892098500626e-16,
+        "energy_gap_closed_form_MeV": 1.1102230246251565e-16,
+        "norm_parity_covariance": 0.0,
+        "odd_operator_covariance": 0.0
+      }
+    },
+    {
+      "s": 0.3,
+      "h_MeV": 0.5,
+      "k_MeV": -0.1,
+      "d1_scaled": 0.1,
+      "d3_scaled": 2.0,
+      "norm_condition_number": 1.8571428571428574,
+      "energies_MeV": [
+        0.3076923076923076,
+        0.8571428571428569
+      ],
+      "Fplus_density": [
+        0.4999999999999998,
+        0.4999999999999998
+      ],
+      "Fminus_density": [
+        0.4999999999999996,
+        0.4999999999999996
+      ],
+      "M1_scaled_magnitude": 0.10482848367219179,
+      "M3_scaled_magnitude": 2.096569673443836,
+      "diagnostics": {
+        "norm_orthonormality": 4.440892098500626e-16,
+        "generalized_eigen_residual_MeV": 2.220446049250313e-16,
+        "parity_label_error": 4.440892098500626e-16,
+        "parity_state_inner_product": 0.0,
+        "same_coordinate_densities": 1.6653345369377348e-16,
+        "odd_kernel1_closed_form": 4.163336342344337e-17,
+        "odd_kernel3_closed_form": 4.440892098500626e-16,
+        "energy_gap_closed_form_MeV": 1.1102230246251565e-16,
+        "norm_parity_covariance": 0.0,
+        "odd_operator_covariance": 0.0
+      }
+    }
+  ],
+  "norm_and_orthogonal_limit": [
+    {
+      "s": 0.0,
+      "h_MeV": 0.5,
+      "k_MeV": -0.1,
+      "d1_scaled": 0.05,
+      "d3_scaled": 2.0,
+      "norm_condition_number": 1.0,
+      "energies_MeV": [
+        0.4,
+        0.6
+      ],
+      "Fplus_density": [
+        0.4999999999999999,
+        0.4999999999999999
+      ],
+      "Fminus_density": [
+        0.4999999999999999,
+        0.4999999999999999
+      ],
+      "M1_scaled_magnitude": 0.049999999999999996,
+      "M3_scaled_magnitude": 1.9999999999999996,
+      "diagnostics": {
+        "norm_orthonormality": 2.220446049250313e-16,
+        "generalized_eigen_residual_MeV": 0.0,
+        "parity_label_error": 2.220446049250313e-16,
+        "parity_state_inner_product": 0.0,
+        "same_coordinate_densities": 0.0,
+        "odd_kernel1_closed_form": 6.938893903907228e-18,
+        "odd_kernel3_closed_form": 4.440892098500626e-16,
+        "energy_gap_closed_form_MeV": 5.551115123125783e-17,
+        "norm_parity_covariance": 0.0,
+        "odd_operator_covariance": 0.0
+      }
+    },
+    {
+      "s": 0.3,
+      "h_MeV": 0.5,
+      "k_MeV": -0.1,
+      "d1_scaled": 0.05,
+      "d3_scaled": 2.0,
+      "norm_condition_number": 1.8571428571428574,
+      "energies_MeV": [
+        0.3076923076923076,
+        0.8571428571428569
+      ],
+      "Fplus_density": [
+        0.4999999999999998,
+        0.4999999999999998
+      ],
+      "Fminus_density": [
+        0.4999999999999996,
+        0.4999999999999996
+      ],
+      "M1_scaled_magnitude": 0.052414241836095894,
+      "M3_scaled_magnitude": 2.096569673443836,
+      "diagnostics": {
+        "norm_orthonormality": 4.440892098500626e-16,
+        "generalized_eigen_residual_MeV": 2.220446049250313e-16,
+        "parity_label_error": 4.440892098500626e-16,
+        "parity_state_inner_product": 0.0,
+        "same_coordinate_densities": 1.6653345369377348e-16,
+        "odd_kernel1_closed_form": 2.0816681711721685e-17,
+        "odd_kernel3_closed_form": 4.440892098500626e-16,
+        "energy_gap_closed_form_MeV": 1.1102230246251565e-16,
+        "norm_parity_covariance": 0.0,
+        "odd_operator_covariance": 0.0
+      }
+    },
+    {
+      "s": 0.8,
+      "h_MeV": 0.5,
+      "k_MeV": -0.1,
+      "d1_scaled": 0.05,
+      "d3_scaled": 2.0,
+      "norm_condition_number": 9.000000000000002,
+      "energies_MeV": [
+        0.2222222222222222,
+        3.0
+      ],
+      "Fplus_density": [
+        0.4999999999999996,
+        0.4999999999999998
+      ],
+      "Fminus_density": [
+        0.4999999999999996,
+        0.4999999999999996
+      ],
+      "M1_scaled_magnitude": 0.08333333333333331,
+      "M3_scaled_magnitude": 3.333333333333332,
+      "diagnostics": {
+        "norm_orthonormality": 5.551115123125783e-16,
+        "generalized_eigen_residual_MeV": 4.440892098500626e-16,
+        "parity_label_error": 5.551115123125783e-16,
+        "parity_state_inner_product": 0.0,
+        "same_coordinate_densities": 1.6653345369377348e-16,
+        "odd_kernel1_closed_form": 4.163336342344337e-17,
+        "odd_kernel3_closed_form": 1.7763568394002505e-15,
+        "energy_gap_closed_form_MeV": 8.881784197001252e-16,
+        "norm_parity_covariance": 0.0,
+        "odd_operator_covariance": 0.0
+      }
+    }
+  ],
+  "energies_changed_kernels_fixed": [
+    {
+      "s": 0.3,
+      "h_MeV": 0.5,
+      "k_MeV": -0.2,
+      "d1_scaled": 0.05,
+      "d3_scaled": 2.0,
+      "norm_condition_number": 1.8571428571428574,
+      "energies_MeV": [
+        0.23076923076923062,
+        0.9999999999999998
+      ],
+      "Fplus_density": [
+        0.4999999999999998,
+        0.4999999999999998
+      ],
+      "Fminus_density": [
+        0.4999999999999996,
+        0.4999999999999996
+      ],
+      "M1_scaled_magnitude": 0.052414241836095894,
+      "M3_scaled_magnitude": 2.096569673443836,
+      "diagnostics": {
+        "norm_orthonormality": 4.440892098500626e-16,
+        "generalized_eigen_residual_MeV": 1.3877787807814457e-16,
+        "parity_label_error": 4.440892098500626e-16,
+        "parity_state_inner_product": 0.0,
+        "same_coordinate_densities": 1.6653345369377348e-16,
+        "odd_kernel1_closed_form": 2.0816681711721685e-17,
+        "odd_kernel3_closed_form": 4.440892098500626e-16,
+        "energy_gap_closed_form_MeV": 0.0,
+        "norm_parity_covariance": 0.0,
+        "odd_operator_covariance": 0.0
+      }
+    },
+    {
+      "s": 0.3,
+      "h_MeV": 0.5,
+      "k_MeV": -0.1,
+      "d1_scaled": 0.05,
+      "d3_scaled": 2.0,
+      "norm_condition_number": 1.8571428571428574,
+      "energies_MeV": [
+        0.3076923076923076,
+        0.8571428571428569
+      ],
+      "Fplus_density": [
+        0.4999999999999998,
+        0.4999999999999998
+      ],
+      "Fminus_density": [
+        0.4999999999999996,
+        0.4999999999999996
+      ],
+      "M1_scaled_magnitude": 0.052414241836095894,
+      "M3_scaled_magnitude": 2.096569673443836,
+      "diagnostics": {
+        "norm_orthonormality": 4.440892098500626e-16,
+        "generalized_eigen_residual_MeV": 2.220446049250313e-16,
+        "parity_label_error": 4.440892098500626e-16,
+        "parity_state_inner_product": 0.0,
+        "same_coordinate_densities": 1.6653345369377348e-16,
+        "odd_kernel1_closed_form": 2.0816681711721685e-17,
+        "odd_kernel3_closed_form": 4.440892098500626e-16,
+        "energy_gap_closed_form_MeV": 1.1102230246251565e-16,
+        "norm_parity_covariance": 0.0,
+        "odd_operator_covariance": 0.0
+      }
+    },
+    {
+      "s": 0.3,
+      "h_MeV": 0.5,
+      "k_MeV": 0.0,
+      "d1_scaled": 0.05,
+      "d3_scaled": 2.0,
+      "norm_condition_number": 1.8571428571428574,
+      "energies_MeV": [
+        0.3846153846153845,
+        0.714285714285714
+      ],
+      "Fplus_density": [
+        0.4999999999999998,
+        0.4999999999999998
+      ],
+      "Fminus_density": [
+        0.4999999999999996,
+        0.4999999999999996
+      ],
+      "M1_scaled_magnitude": 0.052414241836095894,
+      "M3_scaled_magnitude": 2.096569673443836,
+      "diagnostics": {
+        "norm_orthonormality": 4.440892098500626e-16,
+        "generalized_eigen_residual_MeV": 1.6653345369377348e-16,
+        "parity_label_error": 4.440892098500626e-16,
+        "parity_state_inner_product": 0.0,
+        "same_coordinate_densities": 1.6653345369377348e-16,
+        "odd_kernel1_closed_form": 2.0816681711721685e-17,
+        "odd_kernel3_closed_form": 4.440892098500626e-16,
+        "energy_gap_closed_form_MeV": 2.220446049250313e-16,
+        "norm_parity_covariance": 0.0,
+        "odd_operator_covariance": 0.0
+      }
+    },
+    {
+      "s": 0.3,
+      "h_MeV": 0.5,
+      "k_MeV": 0.1,
+      "d1_scaled": 0.05,
+      "d3_scaled": 2.0,
+      "norm_condition_number": 1.8571428571428574,
+      "energies_MeV": [
+        0.46153846153846145,
+        0.5714285714285712
+      ],
+      "Fplus_density": [
+        0.4999999999999998,
+        0.4999999999999998
+      ],
+      "Fminus_density": [
+        0.4999999999999996,
+        0.4999999999999996
+      ],
+      "M1_scaled_magnitude": 0.052414241836095894,
+      "M3_scaled_magnitude": 2.096569673443836,
+      "diagnostics": {
+        "norm_orthonormality": 4.440892098500626e-16,
+        "generalized_eigen_residual_MeV": 1.6653345369377348e-16,
+        "parity_label_error": 4.440892098500626e-16,
+        "parity_state_inner_product": 0.0,
+        "same_coordinate_densities": 1.6653345369377348e-16,
+        "odd_kernel1_closed_form": 2.0816681711721685e-17,
+        "odd_kernel3_closed_form": 4.440892098500626e-16,
+        "energy_gap_closed_form_MeV": 1.3877787807814457e-16,
+        "norm_parity_covariance": 0.0,
+        "odd_operator_covariance": 0.0
+      }
+    }
+  ],
+  "largest_numerical_identity_residual": 1.7763568394002505e-15,
+  "boundary": "Identical coordinate densities do not determine odd-operator transitions. This toy does not reproduce Ba occupancies, locate its dipole zero, or discriminate actual static/soft nuclear shapes."
+}

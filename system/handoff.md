@@ -3,7 +3,18 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint001：原件校准与持续研学
+## Active handoff — Day26 checkpoint002：分支比精确复算、宇称算符核模型与110Cd ENSDF基准落地
+
+正式run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止2026-10-29 15:00+08，15–16收束。原生goal active、farmer PID3193运行；completed[]/partial[26]/next26，无Day27。上一检查点 7c93d8ba 已成功推送 Gitee origin/main；Day25 远端可达。
+
+本段完成三大定量与物理机制突破：
+1. **135Pr 同母态分支比与图7点严格复算**（`pr135-photon-branch-reconstruction-002.py/json`）：基于 Garg 2015 Table I 与 Paul 1991 Eq. 6，精确复算仅有的三个带内交叉初态：31/2⁻ 处 B(M1)/B(E2)≈15.78、33/2⁻ 处 ≈19.67、35/2⁻ 处 ≈94.83 (μN/eb)²，与原图 Fig. 7 严格吻合；证实交叉后无测量，彻底清除旧 27/2 伪反弹轨迹；
+2. **非正交宇称投影两态模型数值严格落地**（`parity-norm-odd-kernel-002.py/json`，依 phys-model 技能规范）：证明即使 0⁺ 与 1⁻ 态在内禀形变坐标上具有完全相同的概率密度分布，当奇宇称内禀偶极分量相消（d1→0）时，实验室 E1 跃迁矩阵元严格为零，而 E3 矩阵元保持巨大（~2.10）。这从第一性原理上澄清了 Gogny D1S SCCM 计算中 144Ba 与 146Ba 具有几乎相同 F(q) 波函数而 B(E1) 暴跌 13 倍以上的微观根源；
+3. **110Cd 官方 NNDC ENSDF 数据集闭环核验**（`cd110-ensdf-systematics-002.py/json`）：通过 read-only NNDC 接口调取 110048001 (Adopted) 与 110048022 ((HI,xnγ)) 数据集，确立实测 Band B 跃迁为 561.0、854.3、1074.6、1224.5、1323.0、1314.1 keV，B(E2) 在 16⁺–20⁺ 处于 0.12–0.16 e²b²（38–50 W.u.），导出的动态转动惯量跃迁比 J^(2)/B(E2) 严格处于 116–341 ħ² MeV⁻¹ (e²b²)⁻¹，全面验证 Frauendorf 2001 的 100–200 图像，清除旧未标注来源的虚假数字。
+
+全量 lint 保持 0 errors / 267 warnings，runner 校验全绿。下一阶段继续深化模型细节与来源梳理，驻守研究窗口至次日 15:00。
+
+## Previous handoff — Day26 checkpoint001：原件校准与持续研学
 
 正式run `2026-10-28-day-26-01`，当前session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止2026-10-29 15:00+08，15–16收束。原生goal active、farmer PID3193已运行；completed[]/partial[26]/next26，无Day27。Day25原run/state已记信用25；三份指定最终回执缺失，不据较早readiness审计撤回学分或补造回执。
 

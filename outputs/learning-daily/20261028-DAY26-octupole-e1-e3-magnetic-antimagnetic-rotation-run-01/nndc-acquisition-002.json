@@ -1,0 +1,170 @@
+{
+  "observed_at": "2026-10-28T09:28:30.967844+00:00",
+  "nucleus": "110Cd",
+  "source": "https://www.nndc.bnl.gov",
+  "requests": [
+    {
+      "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+      "method": "POST official read-only search",
+      "status": 200,
+      "bytes": 16155
+    },
+    {
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "method": "POST official read-only record",
+      "status": 200,
+      "bytes": 212672,
+      "dataset": {
+        "record_id": "110048001",
+        "dataset": "ADOPTED LEVELS, GAMMAS",
+        "last_revised": "2012-06",
+        "references": "All references",
+        "datasetcheck": "110048001,110CD"
+      }
+    }
+  ],
+  "datasets": [
+    {
+      "record_id": "110048001",
+      "dataset": "ADOPTED LEVELS, GAMMAS",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048001,110CD"
+    },
+    {
+      "record_id": "110048049",
+      "dataset": "110AG B- DECAY (24.56 S)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048049,110CD"
+    },
+    {
+      "record_id": "110048050",
+      "dataset": "110AG B- DECAY (249.83 D)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048050,110CD"
+    },
+    {
+      "record_id": "110048051",
+      "dataset": "110IN EC DECAY (4.92 H)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048051,110CD"
+    },
+    {
+      "record_id": "110048005",
+      "dataset": "110IN EC DECAY (69.1 M)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048005,110CD"
+    },
+    {
+      "record_id": "110048006",
+      "dataset": "108PD(3HE,N)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048006,110CD"
+    },
+    {
+      "record_id": "110048007",
+      "dataset": "108PD(A,2NG),110PD(A,4NG)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048007,110CD"
+    },
+    {
+      "record_id": "110048052",
+      "dataset": "109AG(P,P),(P,N) IAR",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048052,110CD"
+    },
+    {
+      "record_id": "110048009",
+      "dataset": "109AG(3HE,D)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048009,110CD"
+    },
+    {
+      "record_id": "110048010",
+      "dataset": "110CD(G,G')",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048010,110CD"
+    },
+    {
+      "record_id": "110048011",
+      "dataset": "110CD(E,E')",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048011,110CD"
+    },
+    {
+      "record_id": "110048012",
+      "dataset": "110CD(N,N'G)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048012,110CD"
+    },
+    {
+      "record_id": "110048013",
+      "dataset": "110CD(P,P'),(D,D')",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048013,110CD"
+    },
+    {
+      "record_id": "110048014",
+      "dataset": "110CD(P,P'G)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048014,110CD"
+    },
+    {
+      "record_id": "110048015",
+      "dataset": "110CD(A,A')",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048015,110CD"
+    },
+    {
+      "record_id": "110048016",
+      "dataset": "COULOMB EXCITATION",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048016,110CD"
+    },
+    {
+      "record_id": "110048053",
+      "dataset": "111CD(POL D,T),111CD(D,T)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048053,110CD"
+    },
+    {
+      "record_id": "110048020",
+      "dataset": "112CD(P,T)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048020,110CD"
+    },
+    {
+      "record_id": "110048021",
+      "dataset": "114SN(D,6LI)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048021,110CD"
+    },
+    {
+      "record_id": "110048022",
+      "dataset": "(HI,XNG)",
+      "last_revised": "2012-06",
+      "references": "All references",
+      "datasetcheck": "110048022,110CD"
+    }
+  ],
+  "record_file": "raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-adopted.ensdf",
+  "sha256": "04975bce4e22e754b2cc556f7616a3ae9174e6a47b9f506974cc9a9b2c45ba66"
+}

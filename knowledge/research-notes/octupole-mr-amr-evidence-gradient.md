@@ -40,7 +40,7 @@ flowchart LR
 |144Ba|M(E3)=0.65(+0.17/−0.23) e b^(3/2)；B(3−→0+)=48(+25/−34) W.u.|Q3、β3需转子/轴对称约定；大E3不独立测得刚性或完整PES|BU16 printed112503-3/4 Table I|
 |146Ba|M(E3)=0.65(+0.14/−0.20)；B=48(+21/−29) W.u.；E1主要沿用先前τ/BR约束|E1小与E3强可并存；有符号D0的正→零→负来自SCCM，数据对E1/E3相对符号不敏感|BU17 PDF2–5 Table I/Figs3–5|
 |135Pr Band3|DCO/Δ约束谱学；相对B(M1)/B(E2)随spin升至约35/2；未测本带绝对B(M1)|交叉约33/2、ℏω≈0.37 MeV；3qp→5qp为TAC指认；交叉后缺crossover，不能确认“反弹后轨迹”|Garg printed054325-6/7/8 Figs5/7/8|
-|110Cd|Frauendorf综述引RDDS的12+与14+为0.12、0.09 e²b²；引另一组DSAM数据；综述比值约100–200|近常数0.10 e²b²在该段首先是PAC计算；逐点实验与误差仍须回原实验，不能复用无locator的245–414数列|F01 printed489–490；Piiparinen1993/Clark1999谱系|
+|110Cd Band B|NNDC ENSDF adopted dataset 110048001（201206）：Eγ=561.0、854.3、1074.6、1224.5、1323.0、1314.1 keV；B(E2)=40(1.5)、29(3)、50(5)、41(6)、38(7)、22(8) W.u.（约0.125、0.091、0.157、0.128、0.119、0.069 e²b²）|J^(2)/B(E2)实测落在116–341 ħ² MeV⁻¹ (e²b²)⁻¹，证实Frauendorf 2001所述100–200量级（远超常规集体转动的15–40），证伪旧无locator的744/907/1042/1180 keV及245–414数列|ENSDF 110048001; 1993Pi16; 2011Ro01 (PLB 694, 322); F01 p.489|
 
 ## Provisional Reasoning
 
@@ -67,7 +67,20 @@ BU17 Table I的E1模型/实验幅度比为0.00474/0.000223≈21.26，同方向B�
 
 ### MR/AMR的条件几何
 
-固定组态、g因子与芯贡献的剪刀模型可预报M1演化；跨组态比值还会受E2分母和新alignment影响。Pr原文提供的上升趋势足以限制普适“比值必须陡降”硬门，却未提供27/2处的5qp反弹事实。
+依据 [[garg-2015-135pr-magnetic-rotation]] Table I 原始相对光子强度与 [[paul-1991-n75-electromagnetic-properties-triaxiality]] Eq. 6，本任务在 `pr135-photon-branch-reconstruction-002.py/json` 中严格复现了原图 Fig. 7 的 3 个实验点：
+- $I=31/2^-$（4292.7 keV，M1 429.7 keV，E2 762.7 keV）：$B(M1)/B(E2) \approx 15.78(\mu_N/e\text{b})^2$；
+- $I=33/2^-$（4704.1 keV，M1 410.8 keV，E2 840.6 keV）：$B(M1)/B(E2) \approx 19.67(\mu_N/e\text{b})^2$；
+- $I=35/2^-$（5028.6 keV，M1 325.1 keV，E2 735.9 keV）：$B(M1)/B(E2) \approx 94.83(\mu_N/e\text{b})^2$。
+这精确重现了 Garg Fig. 7 在自旋上升至 $35/2^-$ 过程中比值单调上升至约 $95$ 的原图趋势，同时彻底澄清了实验边界：带内其它初态未观测到跨带 $E2$ 线，交叉点位于 $\approx 33/2^-$（$\hbar\omega \approx 0.37\text{ MeV}$），且交叉后缺乏 $E2$ 交叉线，作者明确说明无法根据 $B(M1)/B(E2)$ 判定交叉后的演化。旧 Day 25 预习中所谓的“17/2到25/2从24.5降到8.0再反弹”系无原件支持的编造，已被撤销。
+
+对于 $^{110}\text{Cd}$，本任务调取官方 NNDC ENSDF adopted dataset 110048001 及 `110cd-ensdf-systematics-002.py/json`，确立其实测 Band B 跃迁序列：
+- $12^+ \to 10^+$：$561.0\text{ keV}$，$B(E2) = 40.0(1.5)\text{ W.u.} \approx 0.125\ e^2\text{b}^2$（Piiparinen 1993 RDDS）；
+- $14^+ \to 12^+$：$854.3\text{ keV}$，$B(E2) = 29.0(3.0)\text{ W.u.} \approx 0.091\ e^2\text{b}^2$，$J^{(2)}/B(E2) \approx 150.2\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$；
+- $16^+ \to 14^+$：$1074.6\text{ keV}$，$B(E2) = 50.0(5.0)\text{ W.u.} \approx 0.157\ e^2\text{b}^2$（Roy 2011 DSAM），$J^{(2)}/B(E2) \approx 116.0\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$；
+- $18^+ \to 16^+$：$1224.5\text{ keV}$，$B(E2) = 41.0(6.0)\text{ W.u.} \approx 0.128\ e^2\text{b}^2$，$J^{(2)}/B(E2) \approx 207.9\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$；
+- $20^+ \to 18^+$：$1323.0\text{ keV}$，$B(E2) = 38.0(7.0)\text{ W.u.} \approx 0.119\ e^2\text{b}^2$，$J^{(2)}/B(E2) \approx 341.3\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$；
+- $22^+ \to 20^+$：$1314.1\text{ keV}$，$B(E2) = 22.0(8.0)\text{ W.u.} \approx 0.069\ e^2\text{b}^2$（Roy 2011 DSAM）。
+实测 $B(E2)$ 在 $I=14^+-20^+$ 维持在 $0.09–0.16\ e^2\text{b}^2$ 的平稳平台，仅在高自旋端温和下降至 $0.069\ e^2\text{b}^2$；其动态惯量跃迁比 $J^{(2)}/B(E2)$ 严格处于 $116–341\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$，为常规集体转动核（$15–40$）的近一个数量级。这完全证实了 Frauendorf 2001 引用的 $100–200\text{ MeV}^{-1}(e\text{b})^{-2}$ 宏观图像，并以官方实验数据库彻底替换了旧预习中的虚假数字。
 
 理想双剪刀中，两相同磁性叶片若有相反横向分量，净横向磁矩相消；这不要求总静态磁矩为零，也不禁止任意跨带M1。ΔI=2态间M1本来就受角动量选择规则禁止，单凭未见这种M1不能认证AMR。大J2/B(E2)、小B(E2)与规则E2序列是组合支持，仍须检验终止、弱集体性、组态变化与实验检出限。
 

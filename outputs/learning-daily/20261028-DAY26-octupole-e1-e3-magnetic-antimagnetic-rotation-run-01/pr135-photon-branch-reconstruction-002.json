@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "inputs": [
+    [
+      15.5,
+      4292.7,
+      429.7,
+      11.0,
+      0.3,
+      762.7,
+      1.58,
+      0.08
+    ],
+    [
+      16.5,
+      4704.1,
+      410.8,
+      7.6,
+      0.24,
+      840.6,
+      1.63,
+      0.07
+    ],
+    [
+      17.5,
+      5028.6,
+      325.1,
+      10.83,
+      0.25,
+      735.9,
+      0.5,
+      0.03
+    ]
+  ],
+  "source": "Garg2015 original printed054325-2 Table I, not erratum",
+  "formula_source": "Paul1991 physicalPDF6 printed609 Eq6; PA91-D25-A005-01",
+  "convention": "Radiative photon intensities, pure E2 denominator; .697 assumes MeV and returns muN2/(e2b2). M1 fraction of mixed numerator is 1/(1+delta^2).",
+  "central_delta0": [
+    {
+      "initial_spin": 15.5,
+      "initial_excitation_keV_as_printed": 4292.7,
+      "M1_gamma_keV": 429.7,
+      "E2_gamma_keV": 762.7,
+      "photon_intensity_ratio": 6.962025316455696,
+      "delta_assumed": 0.0,
+      "B_M1_over_B_E2_muN2_per_e2b2": 15.784871369691981,
+      "intensity_only_sigma_if_Cov0": 0.9078007522294251
+    },
+    {
+      "initial_spin": 16.5,
+      "initial_excitation_keV_as_printed": 4704.1,
+      "M1_gamma_keV": 410.8,
+      "E2_gamma_keV": 840.6,
+      "photon_intensity_ratio": 4.662576687116564,
+      "delta_assumed": 0.0,
+      "B_M1_over_B_E2_muN2_per_e2b2": 19.674984076559348,
+      "intensity_only_sigma_if_Cov0": 1.048786371285336
+    },
+    {
+      "initial_spin": 17.5,
+      "initial_excitation_keV_as_printed": 5028.6,
+      "M1_gamma_keV": 325.1,
+      "E2_gamma_keV": 735.9,
+      "photon_intensity_ratio": 21.66,
+      "delta_assumed": 0.0,
+      "B_M1_over_B_E2_muN2_per_e2b2": 94.82750773198093,
+      "intensity_only_sigma_if_Cov0": 6.09621572815613
+    }
+  ],
+  "delta_sensitivity_no_fit": [
+    {
+      "initial_spin": 17.5,
+      "initial_excitation_keV_as_printed": 5028.6,
+      "M1_gamma_keV": 325.1,
+      "E2_gamma_keV": 735.9,
+      "photon_intensity_ratio": 21.66,
+      "delta_assumed": 0.0,
+      "B_M1_over_B_E2_muN2_per_e2b2": 94.82750773198093,
+      "intensity_only_sigma_if_Cov0": 6.09621572815613
+    },
+    {
+      "initial_spin": 17.5,
+      "initial_excitation_keV_as_printed": 5028.6,
+      "M1_gamma_keV": 325.1,
+      "E2_gamma_keV": 735.9,
+      "photon_intensity_ratio": 21.66,
+      "delta_assumed": 0.5,
+      "B_M1_over_B_E2_muN2_per_e2b2": 75.86200618558475,
+      "intensity_only_sigma_if_Cov0": 4.876972582524904
+    },
+    {
+      "initial_spin": 17.5,
+      "initial_excitation_keV_as_printed": 5028.6,
+      "M1_gamma_keV": 325.1,
+      "E2_gamma_keV": 735.9,
+      "photon_intensity_ratio": 21.66,
+      "delta_assumed": 1.0,
+      "B_M1_over_B_E2_muN2_per_e2b2": 47.413753865990465,
+      "intensity_only_sigma_if_Cov0": 3.048107864078065
+    },
+    {
+      "initial_spin": 17.5,
+      "initial_excitation_keV_as_printed": 5028.6,
+      "M1_gamma_keV": 325.1,
+      "E2_gamma_keV": 735.9,
+      "photon_intensity_ratio": 21.66,
+      "delta_assumed": 2.0,
+      "B_M1_over_B_E2_muN2_per_e2b2": 18.965501546396187,
+      "intensity_only_sigma_if_Cov0": 1.219243145631226
+    }
+  ],
+  "boundaries": [
+    "No measured delta or new multipolarity selection is supplied.",
+    "No lifetime or absolute B is inferred.",
+    "Cov0 errors exclude shared normalizers, efficiency/energy Cov and model systematics; not a reconstructed experimental CI.",
+    "No independent ICC convention for the original producer was recovered; radiative and total branches must not be mixed.",
+    "Printed Ei and E_gamma are not silently repaired by energy subtraction.",
+    "2019 erratum body remains unacquired; comparison concerns original2015 Fig7 only."
+  ]
+}
