@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""Extract relevant 110Cd (HI,XNG) evaluated fields; no DSAM refit."""
+import json
+from pathlib import Path
+
+ROWS = [
+    {"I":18,"level_keV":7325.4,"half_life_ps":0.159,"half_life_sigma_ps":0.021,"gamma_keV":1224.5,"RI":11.2,"RI_sigma":0.2,"multipolarity":"E2"},
+    {"I":20,"level_keV":8648.3,"half_life_ps":0.118,"half_life_sigma_ps":0.021,"gamma_keV":1323.0,"RI":5.1,"RI_sigma":0.2,"multipolarity":"E2"},
+    {"I":22,"level_keV":9962.4,"half_life_ps":0.15,"half_life_sigma_ps":0.05,"gamma_keV":1314.1,"RI":2.7,"RI_sigma":0.1,"multipolarity":"E2","other_branch":{"gamma_keV":1100.0,"RI":1.0,"RI_sigma":0.3,"Roy_gate_status":"not confirmed"}},
+    {"I":24,"level_keV":11320.4,"half_life_ps":0.19,"half_life_sigma_ps":0.05,"gamma_keV":1358.0,"RI":2.5,"RI_sigma":0.1,"multipolarity":"E2"}
+]
+
+def main():
+    output={"schema":"cd110-hi-xng-audit-044/v1","evidence_status":"direct-ENSDF-fixed-column-object","source":"NNDC ENSDF 110048022 (HI,XNG), cutoff 2012-06; source lineage 1994Ju04/1990Ju01/2011Ro01","raw_file":"raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-hi-xng.ensdf","raw_sha256":"cd14b1104805f54023a420e6021b74fddaa149a7f7f5cd404be23a9c696b47d1","reaction":"96Zr(18O,4nγ), 65/73 MeV; Nordball","rows":ROWS,"boundaries":{"half_life":"ENSDF T fields are half-lives; Roy Table 1 reports mean lifetimes.","branch":"ENSDF retains a 1100-keV branch for 22+; the evaluated note says Roy did not confirm it in coincidence gates.","normalization":"RI and T fields do not provide Roy's full LINESHAPE feeding covariance or stopping-power treatment.","not_absolute_B_reanalysis":True}}
+    Path(__file__).with_suffix('.json').write_text(json.dumps(output,indent=2)+'\n',encoding='utf-8'); print(json.dumps(output,indent=2))
+
+if __name__=='__main__': main()

@@ -11,6 +11,8 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[nndc-2012-cd110-hi-xng]] — 110Cd HI,XNG评价：高自旋寿命、分支、DCO与1100-keV争议。
+
 - [[egido-robledo-retrieval-boundary]] — Egido–Robledo 1990 正文公开入口探测与证据缺口。
 
 - [[pr135-erratum-boundary]] — 勘误对135Pr MR证据链的影响边界。

@@ -100,6 +100,7 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 - **041 Pr勘误闭合**：公开APS勘误原件两页已取得并核读；813.3-keV偏振不对称从−0.20(8)改为+0.04(3)，747.5-keV从−0.05(3)改为+0.03(3)，两条均为M1+E2。它修正当前多极性入口，但不提供绝对寿命/B(M1)，也不改变作者总体解释边界。
 - **042 Egido正文获取审计**：新增 reader/ScienceDirect 公开入口探测；分别得到 TLS handshake failure 与 HTTP 403，仍无正文/页图/文本。仅更新访问边界，不把元数据或失败响应写成科学证据。
 - **043 Day26 requirement audit**：逐项标出 R1–R4 已证实、R5 正式学分/closeout 待硬截止、R6 Day25 回执缺失、R7 Day27 bounded preview；该审计不是最终 receipt。
+- **044 110Cd HI,XNG 输入契约**：完整读取 NNDC 110048022 固定栏对象；确认 18+–24+ 半衰期、E2分支和22+的1100-keV保留支线。它补齐分支身份，但不提供 Roy 的 LINESHAPE feeding 协方差或绝对 B(E2) 重放输入。
 - **036 奇A能量窗**：225Ra/225Ac同自旋异宇称候选计数随50/100/200-keV窗扩大，最近能级可误导；A–D带标签与分支连接缺失时不选定宇称伙伴。
 - **037–040 收敛审计**：MR/AMR十项观测矩阵、E3跨来源一致性、奇A跨来源一致性和离散电流边界均完成；Roy Table 1已核为归档PDF印刷p.324，p.323仅为前页线形段；Ra E1 provenance更正为229Th α-decay链，Ac才是225Ra β− L-subshell ratios。
 - **030 奇A配对**：225Ra仅1/2配对唯一、225Ac仅3/2配对唯一；其余A–D带同自旋组合多解，条件D0不能直接比较。
