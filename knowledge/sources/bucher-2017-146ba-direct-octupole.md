@@ -3,7 +3,7 @@ type: source
 title: "Bucher et al. 2017 - Direct evidence for octupole deformation in 146Ba"
 aliases: [Bucher 2017 146Ba direct E3]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-28
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -132,3 +132,17 @@ checkpoint005独立代理定向核原PDF2–5/Figs4–5，保持已有Day19/21�
 | BU17-D25P-A005-01 | SCCM将E1变化联系到中子占据引起的偶极贡献与质子贡献几乎相消；原段未认证+.22/−.21或宏观液滴/微观壳项的逐项对应。E3与144Ba报告中心舍入相同且误差相容，不证明严格恒定或静态刚性梨形。 | direct-model-explanation-and-observable-boundary | direct-original | PDF5 first paragraph | true |
 
 E1低态约束主要来自既有寿命/BR，与本次CoulEx的E3提取须分谱系；70为纳入网络的矩阵元数而非70项独立无约束数据。正式Day26信用仍保留到自己的run。
+
+## Day26：实际占据、E1定量偏差与投影算符核
+
+本次重读本地六页主线，视觉核PDF3 Table I与PDF4 Figs3–5。文件带arXiv1703.05268v1标记；内部Dated字段为September12,2018，本次不据此重定义arXiv版本或冒称VoR。原raw/SHA、旧claim与review flags保留。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BU17-D26-001 | E1实验幅度0.000223(+10/−8) e b^(1/2)，SCCM为0.00474；打印中心的模型/实验幅度比约21.26、强度比约451.8。作者的“fair agreement”不能当该E1绝对值已精确复现。E1实验约束主要来自此前τ/BR。 | direct-table-and-task-calculation | direct-original-plus-rounded-input-algebra | PDF3 Table I and following paragraph | true |
+| BU17-D26-002 | 文中列h9/2、f7/2、i13/2球形parentage的三条变形中子轨道，Kπ标签依次3/2−、5/2−、1/2+，146Ba的v²依次0.40、0.27、0.20；不是三个完整j壳的总占据。其贡献近抵消质子贡献是作者模型解释。 | model-result-and-label-boundary | direct-original | PDF4 Fig5 and last paragraph; PDF5 opening | true |
+| BU17-D26-003 | 计算D0随144→146→148由正到近零再负；实验E1/E3相对符号对产额不敏感，不能把计算的符号变化当已测符号。 | model-vs-measurement | direct-original | PDF3 after Table I; PDF4 left column | true |
+| BU17-D26-004 | 投影跃迁含collective amplitudes与算符在投影intrinsic states间的核；仅给v²或相似F图不足以恢复绝对有符号E1分解。方法的双坐标相干求和见BE16 Eq4。 | model-method-and-readiness-boundary | direct-method-plus-inference | PDF4; BE16-D26-005 | true |
+| BU17-D26-005 | 两Ba的E3区间相容且报告中心均舍入为48 W.u.，不证明严格相等，也不单独区分静态局域形状与软八极相关。0+→3−与3−→0+的B相差7倍。 | observable-and-inference-boundary | direct-original-plus-angular-momentum-definition | PDF3; BU16 printed112503-4 | true |
+
+`supports` 占据驱动的E1/E3解耦解释；`limits` 精确相消百分比、实验符号与绝对E1拟合认证；`revises` 用F图相似直接代替transition-kernel求和。方法来源为 [[bernard-2016-144ba-sccm-octupole]]，综合见 [[octupole-mr-amr-evidence-gradient]]。Egido–Robledo1990 Ref35正文与生产核仍待取得；不补写不存在的质子/中子分项数值。

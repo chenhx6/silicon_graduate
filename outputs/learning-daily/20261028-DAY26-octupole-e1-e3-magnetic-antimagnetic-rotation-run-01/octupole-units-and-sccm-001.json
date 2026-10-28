@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "source_locators": [
+    "BU16 printed112503-1/4 Table I",
+    "BU17 arXiv PDF3 Table I"
+  ],
+  "E3": [
+    {
+      "A": 144,
+      "matrix_e_b_3over2": 0.65,
+      "matrix_printed_interval": [
+        0.42000000000000004,
+        0.8200000000000001
+      ],
+      "B_3to0_e2b3": 0.060357142857142866,
+      "B_0to3_e2b3": 0.42250000000000004,
+      "one_Wu_e2fm6": 1231.806822433859,
+      "B_3to0_Wu_from_rounded_matrix": 48.99887040557749,
+      "first_order_Wu_errors_lower_upper": [
+        34.67612367163945,
+        25.630178365994382
+      ],
+      "squared_matrix_endpoint_range_Wu": [
+        20.457753229689633,
+        77.98068748097114
+      ],
+      "published_B_Wu_central_lower_upper": [
+        48,
+        34,
+        25
+      ],
+      "boundary": "Printed rounded inputs; first-order errors and squared endpoints differ. Neither reconstructs the original joint likelihood or supplies a new confidence interval."
+    },
+    {
+      "A": 146,
+      "matrix_e_b_3over2": 0.65,
+      "matrix_printed_interval": [
+        0.45,
+        0.79
+      ],
+      "B_3to0_e2b3": 0.060357142857142866,
+      "B_0to3_e2b3": 0.42250000000000004,
+      "one_Wu_e2fm6": 1266.261295669374,
+      "B_3to0_Wu_from_rounded_matrix": 47.66563035888792,
+      "first_order_Wu_errors_lower_upper": [
+        29.332695605469485,
+        20.53288692382864
+      ],
+      "squared_matrix_endpoint_range_Wu": [
+        22.84565715425989,
+        70.40975125912887
+      ],
+      "published_B_Wu_central_lower_upper": [
+        48,
+        29,
+        21
+      ],
+      "boundary": "Printed rounded inputs; first-order errors and squared endpoints differ. Neither reconstructs the original joint likelihood or supplies a new confidence interval."
+    }
+  ],
+  "E1_146Ba": {
+    "experimental_matrix_e_b_half": 0.000223,
+    "SCCM_matrix_e_b_half": 0.00474,
+    "model_to_experiment_amplitude_ratio": 21.25560538116592,
+    "model_to_experiment_strength_ratio": 451.80076011984966,
+    "B_1to0_e2b": 1.6576333333333335e-08,
+    "B_1to0_Wu": 9.274946488869298e-07,
+    "rotor_D0_efm_conditional": 0.004564037117441339,
+    "boundary": "Experimental E1 is primarily constrained by prior lifetime/branching information. D0 conversion assumes the axial K=0 rotor convention; no measured sign or independent CoulEx E1 experiment is implied."
+  },
+  "exclusions": [
+    "no Gaussian significance from interval overlap",
+    "no static/soft shape selection from one E3 strength",
+    "no reconstruction of signed dipole contributions from v^2 alone"
+  ]
+}

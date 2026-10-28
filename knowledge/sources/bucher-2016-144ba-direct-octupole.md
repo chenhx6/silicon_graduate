@@ -3,7 +3,7 @@ type: source
 title: "Bucher et al. 2016 - Direct evidence of octupole deformation in neutron-rich 144Ba"
 aliases: [Bucher 2016 144Ba E3]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-28
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment
@@ -117,3 +117,15 @@ Bucher *et al.* provide a direct E3 benchmark that is materially stronger than r
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | BU16-D25P-A005-01 | ATLAS CARIBU 垒下库仑激发直接测定 $^{144}\text{Ba}$ 的 $B(E3; 3^- \to 0^+) = 48_{-34}^{+25}\text{ W.u.}$，转子模型换算内禀 $Q_3 = (1.73_{-0.62}^{+0.45}) \times 10^3\ e\text{fm}^3$。本次库仑激发截面对一阶 $E1$ 弱敏感，表列 $E1$ 矩阵元主要受既有寿命与分支比先验约束，前角区不可视作 $E1$ 独立高灵敏度直接测量。 | direct-octupole-and-e1-sensitivity-boundary | direct-original | PRL 116, 112503 pp.3-4 | true |
+
+## Day26：E3方向、误差与形状推断
+
+本次回读PDF1–5，原raw/SHA不变。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BU16-D26-001 | 原文给0+↔3−幅度0.65(+0.17/−0.23) e b^(3/2)，向下B=48(+25/−34) W.u.；反向B需按初态简并因子换算，0+→3−为3−→0+的7倍。 | direct-report-and-definition | direct-original-plus-unit-algebra | printed112503-1/4 Table I | true |
+| BU16-D26-002 | E1/E3相反相对符号会使目标E3幅度约降低10%，作者说在报告误差内；这不等于新独立相位测量或概率分布。误差分析释放rigid-rotor约束并纳入矩阵元相关，但未提供本任务可重放的完整联合likelihood。 | fit-and-uncertainty-boundary | direct-original | printed112503-3/4 | true |
+| BU16-D26-003 | Q3、β3转换需转子/轴对称及高阶形变约定。宽E3区间与146Ba相容不证明严格等强，也不以单一跃迁独立给刚性与软性裁决。BE16的投影GCM提供具体模型比较而非新增实验。 | inference-boundary | direct-original-and-limited-synthesis | printed112503-4; BE16-D26-004/007/008 | true |
+
+`supports` 直接电磁八极集体性；`limits` 精确静态形状与区间相交的过强解释；关联 [[bernard-2016-144ba-sccm-octupole]] 与 [[octupole-mr-amr-evidence-gradient]]。打印值的舍入/一阶误差传播练习不冒称重新测量或新CI。

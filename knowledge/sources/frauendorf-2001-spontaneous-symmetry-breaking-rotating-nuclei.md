@@ -3,7 +3,7 @@ type: source
 title: "Spontaneous Symmetry Breaking in Rotating Nuclei"
 aliases: [Frauendorf 2001 rotating nuclei review, spontaneous symmetry breaking rotating nuclei]
 created: 2026-07-13
-updated: 2026-10-26
+updated: 2026-10-28
 status: ai-draft
 review_status: human-reviewed
 source_type: journal-article-review
@@ -168,3 +168,16 @@ All F01 claims were reviewed by the user on 2026-07-13; `needs_review` is cleare
 | F01-D23-001 | Eqs51–53的unitary signature r=exp(−iπα)及I=α+2n给ΔI2子序列；α不同的qp配置可有不同能量。该unitary eigenphase对核态整体phase不变，而017的antiunitary C eigenphase不是同类标签。Time reversal把固定频率Routhian hω=h0−ωjz映到h−ω，所以零频Kramers关系不要求同一非零ω的两signature branches简并；本任务在声明fixed-j intrinsic toy中作86项Rz/T/C/投影phase控制通过，不作为核能谱/实际signature splitting预报。 | source-symmetry-and-declared-cranking-control | direct-original-plus-task-math | printed475 Eq.51 and footnote4; printed476 Eqs.52–54; printed474 symmetry discussion | true |
 
 任务toy hω=.3jz²+.07(jx²−jy²)−ωjz的j只是一个固定表示，不是实验整条rotational band的各I。它说明unitary signature、ordinary T/Kramers和C=RyπT如何有不同作用域；不能由toy两block能量直接给某核α伙伴、wobbling或pseudospin归属。源文pseudo-spin段与signature空间π转动分开，本文任务没有实现hidden-SU2/pseudospin模型。
+
+## Day26：110Cd数值与实验谱系复核
+
+定向重读实际PDF26–28（printed488–490）及参考文献；此处是原综述核查，不是已取得的Cd原实验全文。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| F01-D26-001 | 近常数B(E2)≈0.10 e²b²首先是PAC计算；综述另引Piiparinen1993 RDDS的12+与14+跃迁值0.12、0.09 e²b²。未在该段提供其误差。 | review-reported-model-and-experiment | direct-review-indirect-experiment | printed489 Fig19 discussion | true |
+| F01-D26-002 | 综述引14+/16+/18+/20+的DSAM值0.11/0.12/0.09/0.10 e²b²，引用为Clark1999；参考文献把单作者Clark1999列为private communication，不能混同Clark et al.1999 PRL82,3220或Juutinen1994谱学。 | review-report-and-lineage | direct-review-indirect-experiment | printed489–490; bibliography Clark entries | true |
+| F01-D26-003 | 本段给J2/B(E2)≈100–200 MeV^−1(eb)^−2（ℏ=1约定），不是245–414。旧Day25脚本的四个Eγ、B(E2)及误差无此原表locator，不作为110Cd实测输入或阈值。 | source-correction | direct-review | printed490 first paragraph | true |
+| F01-D26-004 | 固定等长叶片、全部角动量来自shears的Eqs61–64是条件模型，不能推广为跨组态全段强度比必下降；AMR理想横向相消不等于所有M1与总静态μ为零。 | model-domain | direct-review-and-selection-boundary | printed488–490 SecIV | true |
+
+`revises` [[antimagnetic-rotation]] 的Day25数列认证；保留模型与实验的分层。已由Crossref核对Piiparinen1993 DOI10.1016/0375-9474(93)90052-Y与Juutinen1994 DOI10.1016/0375-9474(94)90173-2，正文获取受网络限制，尚未认证逐点输入。综合见 [[octupole-mr-amr-evidence-gradient]]。

@@ -1,0 +1,46 @@
+{
+  "report": {
+    "valid": true,
+    "missing_headings": []
+  },
+  "curriculum": {
+    "valid": true,
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      26
+    ],
+    "curriculum_cards_completed": 0,
+    "next_day_index": 26,
+    "error": null
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/research-notes/octupole-mr-amr-evidence-gradient.md",
+      "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+      "knowledge/sources/bernard-2016-144ba-sccm-octupole.md",
+      "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+      "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+      "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+      "knowledge/concepts/magnetic-rotation.md",
+      "knowledge/concepts/antimagnetic-rotation.md",
+      "knowledge/index.md",
+      "knowledge/overview.md"
+    ],
+    "changed_paths": [
+      "knowledge/concepts/antimagnetic-rotation.md",
+      "knowledge/concepts/magnetic-rotation.md",
+      "knowledge/index.md",
+      "knowledge/overview.md",
+      "knowledge/research-notes/octupole-mr-amr-evidence-gradient.md",
+      "knowledge/sources/bernard-2016-144ba-sccm-octupole.md",
+      "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+      "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+      "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+      "knowledge/sources/garg-2015-135pr-magnetic-rotation.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  }
+}

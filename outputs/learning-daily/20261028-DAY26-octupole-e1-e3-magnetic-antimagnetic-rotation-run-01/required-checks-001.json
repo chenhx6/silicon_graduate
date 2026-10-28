@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-28T17:15:39.464456+08:00",
+  "kind": "day26-checkpoint-not-closeout",
+  "initial_lint": {
+    "exit_code": 1,
+    "schema_errors": 9,
+    "log": "check-lint-001.stdout",
+    "errors": [
+      "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/octupole-mr-amr-evidence-gradient.md - missing ## Transfer Conditions",
+      "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/octupole-mr-amr-evidence-gradient.md - missing ## Failure Conditions",
+      "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/octupole-mr-amr-evidence-gradient.md - missing ## Falsification or Reverse Tests",
+      "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/octupole-mr-amr-evidence-gradient.md - missing ## Open Questions",
+      "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/octupole-mr-amr-evidence-gradient.md - missing ## Human Review",
+      "[ERROR  ] SECTION_REQUIRED       knowledge/research-notes/octupole-mr-amr-evidence-gradient.md - missing ## Promotion or Rejection History",
+      "[ERROR  ] FIELD_REQUIRED         knowledge/sources/bernard-2016-144ba-sccm-octupole.md - missing canonical_source",
+      "[ERROR  ] SECTION_REQUIRED       knowledge/sources/bernard-2016-144ba-sccm-octupole.md - missing ## Summary",
+      "[ERROR  ] SECTION_REQUIRED       knowledge/sources/bernard-2016-144ba-sccm-octupole.md - missing ## Competing Interpretations and Limitations"
+    ]
+  },
+  "corrected_lint": {
+    "exit_code": 0,
+    "log": "check-lint-001-recheck.stdout",
+    "errors": [],
+    "summary": [
+      "GOVERNANCE page_unreviewed=675 source_unreviewed=352 claims=5740 claim_needs_review=5029 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=207",
+      "SUMMARY pages=753 wikilinks=10041 hashes=356 errors=0 warnings=267 info=5029"
+    ]
+  },
+  "boundary": {
+    "exit_code": 0,
+    "ok": true
+  },
+  "git_diff_check": {
+    "exit_code": 0,
+    "stdout_empty": true
+  },
+  "runner_validation": {
+    "report": {
+      "valid": true,
+      "missing_headings": []
+    },
+    "curriculum": {
+      "valid": true,
+      "completed_day_indices": [],
+      "partial_day_indices": [
+        26
+      ],
+      "curriculum_cards_completed": 0,
+      "next_day_index": 26,
+      "error": null
+    },
+    "writeback": {
+      "valid": true,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/research-notes/octupole-mr-amr-evidence-gradient.md",
+        "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+        "knowledge/sources/bernard-2016-144ba-sccm-octupole.md",
+        "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+        "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+        "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+        "knowledge/concepts/magnetic-rotation.md",
+        "knowledge/concepts/antimagnetic-rotation.md",
+        "knowledge/index.md",
+        "knowledge/overview.md"
+      ],
+      "changed_paths": [
+        "knowledge/concepts/antimagnetic-rotation.md",
+        "knowledge/concepts/magnetic-rotation.md",
+        "knowledge/index.md",
+        "knowledge/overview.md",
+        "knowledge/research-notes/octupole-mr-amr-evidence-gradient.md",
+        "knowledge/sources/bernard-2016-144ba-sccm-octupole.md",
+        "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+        "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+        "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+        "knowledge/sources/garg-2015-135pr-magnetic-rotation.md"
+      ],
+      "change_check": "run-snapshot",
+      "error": null
+    }
+  },
+  "protected_bib_sha256": "037ea133de204270ad36961ca66b3ab36c0913b7d472b45f8fd013c8293be5be",
+  "scientific_scope": "Structure/writeback and declared rounded-input calculations only; no full scientific certification",
+  "formal_credit_awarded": false,
+  "raw_logs_local_only": true,
+  "protected_external_files": [
+    "system/scripts/run_daily_learning.py"
+  ],
+  "precommit_eol": {
+    "exit_code": 1,
+    "classification": "authorized substantive changes preserved",
+    "kept": [
+      "knowledge/concepts/antimagnetic-rotation.md",
+      "knowledge/concepts/magnetic-rotation.md",
+      "knowledge/index.md",
+      "knowledge/overview.md",
+      "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+      "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+      "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+      "knowledge/sources/garg-2015-135pr-magnetic-rotation.md"
+    ],
+    "unsafe_mixed": 0,
+    "initial_guard_boundary": "A previous wrapper incorrectly required exit0; exit1 is valid after classification per check.md H1."
+  },
+  "precommit_diff_check_exit": 0,
+  "protected_bib_unchanged": true,
+  "publication_staged_file_count": 23,
+  "ignored_local_runtime_files": [
+    "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/candidate-pool-001.json",
+    "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/clock-state-001.json",
+    "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/prompt.md",
+    "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/publication-scope-001.json",
+    "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/resume-state-001.json"
+  ],
+  "credential_scan": {
+    "candidate_files_checked": 28,
+    "matches": 0,
+    "values_printed": false
+  },
+  "stage_boundary": "Initial add staged only the public allowlist and reported ignored runtime files; final staged set verified exact."
+}

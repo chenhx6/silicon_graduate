@@ -4572,3 +4572,5 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-27T21:40:17+08:00 Day25 checkpoint006：在手征与形状共存竞争矩阵中补充 133Ce MχD 与三轴形状共存历史首例（Ayangeakaa 2013/2016，WK22）的证据解构；明确两对候选带完全缺失态寿命测量，其形状共存纯系泛函势能面极小，并在后继高自旋研究与低激发进动中发生理论重释，形成 A≈130 质量区四核（134Pr/135Nd/136Nd/133Ce）的完整证据梯度。全量验证保持全绿。
 
 - 2026-10-28：核对共享 Python 网络能力并安装 ponytail 0.9.3；Crawl4AI/Playwright example.com成功、browser-use/ponytail导入成功、pip check通过。Docker runtime目录只读且无Docker CLI，未能直接写Dockerfile.final；持久化补丁要求见 outputs/literature-acquisition/20261028-web-automation-runtime.json。
+
+- 2026-10-28T17:04:19.613399+08:00 Day26 checkpoint001：同原run/session续接，goal与farmer启用；BU16/17/Garg原件校准与新BE16 SCCM原文进入知识层。撤回Pr27/2伪交叉/Cd无locator数列，保留Day25信用与缺失回执边界；当前partial[26]、无Day27，继续至原截止。

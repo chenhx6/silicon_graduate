@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-28T17:15:39.464456+08:00",
+  "si_requested": true,
+  "si_inventory_boundary": "not fully established for publisher attachments",
+  "metadata_success": [
+    "Crossref DOI identities for BE16/Garg2019/Egido1990/Piiparinen1993/Juutinen1994",
+    "INSPIRE links BE16 to arXiv1604.06706 and Garg2019 as erratum"
+  ],
+  "successful_fulltext": {
+    "url": "https://arxiv.org/pdf/1604.06706",
+    "canonical_raw_file": "raw/papers/gpt/day26-20261028/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
+    "sha256": "d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997",
+    "pages": 6
+  },
+  "client_route_failures": [
+    {
+      "route": "nature-downloader open_access for two APS DOIs",
+      "status": "oa_not_found with metadata fetch failures; not evidence no OA exists"
+    },
+    {
+      "route": "nature-downloader Elsevier",
+      "status": "credentials_missing in private client config; existing Wiki dotenv key was available"
+    }
+  ],
+  "direct_route_failures": {
+    "Elsevier_API": "DNS/connection failures using existing key only in header; no publisher authorization verdict",
+    "APS_harvest_and_journals_pdf": "DNS/connection failures; Garg2019 body still unacquired",
+    "OpenAlex_exact_DOI": "DNS/connection failures"
+  },
+  "elsevier_attempt_manifest": "outputs/literature-acquisition/20261028-day26-primary-sources-001.json",
+  "credential_values_recorded": false
+}

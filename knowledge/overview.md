@@ -2,10 +2,18 @@
 type: system-overview
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-27
+updated: 2026-10-28
 ---
 
 # Knowledge Base Health Dashboard
+
+## Current Snapshot: 2026-10-28 Day26 checkpoint001
+
+目录实查756篇knowledge Markdown、412篇source；当前研学新增两页，其余是原runner基线已有内容。该计数不代表独立实验数或全文终审。初次lint检出新页9项schema缺项，已补充实际Summary、适用条件、反证和review边界；最终复检结果见Day26 required-checks-001.json。旧267项warning不因本段自动清除。
+
+科学入口为[[octupole-mr-amr-evidence-gradient]]及新来源[[bernard-2016-144ba-sccm-octupole]] BE16-D26-004/005：区分软PES、好宇称与投影算符核；Pr/Cd旧数列认证已按原文修订。上述论文支持科学边界，不支持治理计数。当前Day26 running/partial[26]、Day27未开，Day25既有信用保留；新claim未扩张human review。
+
+QMD批量更新deferred；boundary仅检查knowledge collection路径与pattern，不冒称所有新增页已重建索引。
 
 ## Current Snapshot: 2026-10-27 Day25 checkpoint005
 

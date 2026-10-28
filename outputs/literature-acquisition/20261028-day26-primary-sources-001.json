@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "kind": "day26-primary-source-acquisition",
+  "records": [
+    {
+      "doi": "10.1016/0375-9474(90)90141-8",
+      "url": "https://api.elsevier.com/content/article/pii/0375947490901418",
+      "retrieved_at": "2026-10-28T16:46:27.809148+08:00",
+      "authentication": "existing-local-key-header; value excluded",
+      "si_requested": true,
+      "si_status": "not-yet-established",
+      "error": "ConnectionError: HTTPSConnectionPool(host='api.elsevier.com', port=443): Max retries exceeded with url: /content/article/pii/0375947490901418 (Caused by NameResolutionError(\"HTTPSConnection(host='api.elsevier.com', po"
+    },
+    {
+      "doi": "10.1016/0375-9474(93)90052-Y",
+      "url": "https://api.elsevier.com/content/article/pii/037594749390052Y",
+      "retrieved_at": "2026-10-28T16:46:39.571115+08:00",
+      "authentication": "existing-local-key-header; value excluded",
+      "si_requested": true,
+      "si_status": "not-yet-established",
+      "error": "ConnectionError: HTTPSConnectionPool(host='api.elsevier.com', port=443): Max retries exceeded with url: /content/article/pii/037594749390052Y (Caused by NewConnectionError(\"HTTPSConnection(host='api.elsevier.com', por"
+    },
+    {
+      "doi": "10.1016/0375-9474(94)90173-2",
+      "url": "https://api.elsevier.com/content/article/pii/0375947494901732",
+      "retrieved_at": "2026-10-28T16:48:03.776237+08:00",
+      "authentication": "existing-local-key-header; value excluded",
+      "si_requested": true,
+      "si_status": "not-yet-established",
+      "error": "ConnectionError: HTTPSConnectionPool(host='api.elsevier.com', port=443): Max retries exceeded with url: /content/article/pii/0375947494901732 (Caused by NewConnectionError(\"HTTPSConnection(host='api.elsevier.com', por"
+    }
+  ],
+  "downloader_cli_boundary": "credentials_missing was a client configuration state; existing Wiki dotenv key used only in request headers; not publisher-denial evidence"
+}

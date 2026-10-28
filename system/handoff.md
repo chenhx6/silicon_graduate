@@ -3,7 +3,16 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day25 checkpoint027：守护配置漂移修复、全套单元测试通过与研学平稳驻守
+## Active handoff — Day26 checkpoint001：原件校准与持续研学
+
+正式run `2026-10-28-day-26-01`，当前session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止2026-10-29 15:00+08，15–16收束。原生goal active、farmer PID3193已运行；completed[]/partial[26]/next26，无Day27。Day25原run/state已记信用25；三份指定最终回执缺失，不据较早readiness审计撤回学分或补造回执。
+
+新取得并全文/图表核Bernard2016 SCCM六页；三篇Day26主源重读及关键视觉核。Pr的27/2是带低端、交叉约33/2/0.37MeV，旧低spin比值与27/2反弹认证撤回；Cd旧四点与245–414缺原表，PAC平台、RDDS与Clark private DSAM已分开。BU17 E1模型幅度高21.26倍，保留占据相消机制但限制绝对复现措辞。可复用证据图、单位/误差和模型核边界写入octupole-mr-amr-evidence-gradient与八项source/concept写回；原人审和旧撤回不变。
+
+下一当前高信息路线：BE16 Eq4/5 norm与好宇称/坐标分布；Pr原同母态强度比的有界复算；Cd/Egido原文合法仓储获取。部分网络入口DNS/连接失败，key未输出；不因访问失败停止可解析研究。继承未跟踪历史与外部run_daily_learning.py修改保持protected。日报、resume-state-001、candidate-pool-001及检查/发布回执为本段实际记录。恢复：`codex resume 01a1819f-75bb-7a11-be19-05761880f65c -C /workspace/wiki -s danger-full-access -a never`。
+
+
+## Previous handoff — Day25 checkpoint027：守护配置漂移修复、全套单元测试通过与研学平稳驻守
 
 2026-10-28T13:15:00+08:00，原 run 2026-10-27-day-25-01 / session 01a17cdd-58b4-7a53-b782-5248260f526a，2026-10-28 15:00 研究硬截止不变，formal 累计 24/next25，completed[]/partial[25,26]。排查并修复 system/scripts/run_daily_learning_daemon.py 中的模型优先级漂移历史缺陷，恢复为契约规定的 (("gpt-6-luna", "max"), ("gpt-6-sol", "high"), ("gpt-6-astra", "medium"))，守护进程 16 项自动化测试全部通过（Ran 16 tests in 0.004s, OK）；全库路径边界检查通过（wiki_boundary_check.py ok: true）；规范日报增补 checkpoint027 验证条目并交付证书 required-checks-027.json，最新代码提交 14cc05ba 已推送远端 Gitee origin/main；全库 25 项持久化知识写回有效。当前距离 15:00 硬截止仍有约 105 分钟，保持会话活跃运行，平稳推进 Day 25 研学与 Day 26 预习，驻守至 15:00 启动正式收束。
 

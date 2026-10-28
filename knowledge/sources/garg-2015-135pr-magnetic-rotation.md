@@ -3,7 +3,7 @@ type: source
 title: "Garg et al. 2015 - Negative-parity high-spin states and possible magnetic rotation in 135Pr"
 aliases: [Garg 2015 135Pr magnetic rotation]
 created: 2026-09-21
-updated: 2026-10-19
+updated: 2026-10-28
 status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-TAC
@@ -47,7 +47,7 @@ tags: [135Pr, magnetic-rotation, TAC, high-spin, M1-E2]
 
 - About `3×10^8` triple-and-higher γ coincidences were recorded with 15 INGA clovers. A negative-parity `ΔI=1` band with new crossover E2 transitions was established; RDCO/IPDCO assigned M1/E2 and E2 character for many links (PDF pp.1–4, Table I, Fig.1).
 - The band shows strong M1 transitions, small/medium E2 crossovers and a crossing in alignment/energy behavior. TAC calculations use a 3qp `πh11/2⊗νh11/2^-2` configuration for the lower band and a 5qp `πh11/2(g7/2)^2⊗νh11/2^-2` configuration above the crossing (PDF pp.5–9, Figs.4–6).
-- The authors call the band a possible magnetic-rotation band; the interpretation is based on M1/E2 pattern, alignment and TAC, while lifetime-derived `B(M1)/B(E2)` remains a requested follow-up (PDF pp.8–9).
+- The authors call the band a possible magnetic-rotation band. Relative `B(M1)/B(E2)` ratios are already reported; lifetimes and absolute strengths remain missing for this band (PDF pp.6–8, Figs.5/7 and conclusion).
 
 ## Key Results
 
@@ -59,7 +59,7 @@ tags: [135Pr, magnetic-rotation, TAC, high-spin, M1-E2]
 
 ## Summary
 
-Garg *et al.* provide an A≈130 high-spin magnetic-rotation candidate with direct multipolarity/polarization evidence and TAC configuration comparison. The paper appropriately leaves the conclusion provisional pending lifetimes and `B(M1)/B(E2)`.
+Garg *et al.* provide an A≈130 high-spin magnetic-rotation candidate with multipolarity/polarization-asymmetry evidence, relative strength ratios and TAC configuration comparison. The authors identify future lifetimes as helpful for confirming the MR interpretation; this paper does not report the band's absolute strengths.
 
 ## Competing Interpretations and Limitations
 
@@ -73,7 +73,7 @@ Garg *et al.* provide an A≈130 high-spin magnetic-rotation candidate with dire
 |---|---|---|---|---|
 | GA15-AR-1 | Assignment chain | Coincidence scheme → RDCO/IPDCO/δ → M1/E2 links and negative-parity band identity. | PDF pp.2–4, Table I | self-checking |
 | GA15-AR-2 | MR chain | Alignment/crossing + M1/E2 pattern → TAC 3qp/5qp comparison → possible MR ranking. | PDF pp.5–9 | self-checking |
-| GA15-AR-3 | Missing discriminator | Lifetimes and absolute B(M1)/B(E2) needed to distinguish MR from competing core/signature explanations. | PDF conclusion | active-L3 |
+| GA15-AR-3 | Missing discriminator | Lifetimes would supply absolute B(M1) and B(E2); relative B(M1)/B(E2) is already reported. This is a limitation of the present source, not a universal MR rule. | PDF pp.6–8, Figs.5/7 and conclusion | active-L3 |
 
 ## Knowledge Impact and Learning Decision
 
@@ -130,3 +130,16 @@ checkpoint005独立代理回核PDF7–8；此处是既有原件定向核，不�
 | GA15-D25P-A005-02 | 结论称未来寿命可能有帮助，未规定只能薄靶反冲或必须few-W.u.加单调陡降才可确立。绝对B缺失须按本篇范围表述，旧相对B比不是不存在。 | author-limitation-and-nonuniversal-design | direct-original | PDF8 conclusion | true |
 
 正式Day26仍未授分；此校准仅纠正已存在preview，不开下一张卡。数学模型不能凭比值演化代替本带时钟。
+
+## Day26原件复核：带头、交叉与强度比的数据覆盖
+
+本次重读PDF1–8主线，视觉核PDF7 Figs7/8；原2015文件/哈希不变，2019勘误正文仍未取得。以下仅认证2015原文的报告范围，不把旧表当最新更正值。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| GA15-D26-001 | Table I给3530.0-keV态27/2−，149.5-keV线27/2−→25/2(−)；正文取约3531/150。此处是带低端身份，不是5qp交叉点。 | experimental-report-and-identity | direct-original2015 | printed054325-2 Table I; -7 Band3 | true |
+| GA15-D26-002 | 作者给135Pr交叉ℏω≈0.37 MeV、I≈33/2−，并与137Pr约0.42 MeV、35/2−比较；3qp/5qp归属来自TAC。 | author-report-and-model-interpretation | direct-original2015 | printed054325-7/8 Figs5/6/8 | true |
+| GA15-D26-003 | 作者报告比值升至约35/2−；交叉后crossover未见，因此明确说不能由B(M1)/B(E2)解释该交叉。旧“17/2到25/2从24.5降到8.0、27/2反弹到35/2的22.0”无本原件支持，撤回该轨迹。 | source-correction-and-coverage | direct-original2015 | printed054325-7 Fig7 and text; -8 first paragraph | true |
+| GA15-D26-004 | 同母态强度比可在响应/分支与多极性假设下得到而不需绝对寿命；其变化不唯一给出B(M1)自身变化。本文缺绝对B，不能称比值不存在。 | observable-layer-boundary | direct-report-and-general-inference | Figs5/7; Table I; conclusion | true |
+
+`revises` [[magnetic-rotation]] 的Day25伪数列；`supports` 按配置与数据覆盖限制单调性；综合见 [[octupole-mr-amr-evidence-gradient]]。不把本次纠错扩展成对其它MR核素或2019勘误的判决。

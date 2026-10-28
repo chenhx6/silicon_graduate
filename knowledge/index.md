@@ -2,12 +2,17 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-26
+updated: 2026-10-28
 ---
 
 # Wiki Index
 
 > Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
+
+## Day26：八极与磁转动证据梯度
+
+- [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
+- [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 
 ## Day22几何、声子与观测合同
 
