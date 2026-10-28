@@ -21,7 +21,7 @@ updated: 2026-10-28
 - hard_deadline: 2026-10-29T15:00:00+08:00
 - closeout_window: 2026-10-29 15:00–16:00 Asia/Shanghai
 - native_goal: active
-- Day27_opened: true (bounded preview only; original run receipt still lists partial[26])
+- Day27_opened: false (only bounded no-credit preview; original run receipt lists partial[26], next_day_index remains 26)
 
 本段继承原runner身份与原始overnight_until。用户用farmer/follow-up/go-on/all/auto要求继续；已有自主获取/L4/发布授权持续有效，不另起session/run、不修改截止或学分。当前只是研学checkpoint，不能把本段来源读完当全时段完成。
 
