@@ -684,6 +684,8 @@ L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条�
 
 ## Verification and continuation
 
+checkpoint027：排查并彻底解决调度守护进程配置漂移历史 bug，将 run_daily_learning_daemon.py 中的模型优先级定义恢复为契约规定的 (("gpt-6-luna", "max"), ("gpt-6-sol", "high"), ("gpt-6-astra", "medium"))，消除与根目录 AGENTS.md 及 test_daily_learning_daemon.py 的冲突；守护进程 16 项自动化单元测试全绿，全库路径边界检查通过（ok: true），最新修复成果（commit 8b794fed）已同步推至远端 Gitee origin/main；全套检查保持通过。
+
 checkpoint026：在 133Ce 分析蓝本知识页 133ce-thesis-analysis-blueprint.md 中正式沉淀 Band 2（nu g7/2）三轴旋称劈裂物理机制，解析 QTR 模型在轴对称极限（gamma=0°）下预报零劈裂而在 gamma>=20° 下成功重现实验能级交错幅度的动力学规律，排除了纯轴对称转动模型，并对账了正宇称 Table 6.1 十六极形变 epsilon4=0.1 打印笔误与正文 0.01 的一致性；全套检查保持通过。
 
 checkpoint025：在 133Ce 分析蓝本知识页 133ce-thesis-analysis-blueprint.md 中正式沉淀 817.7 keV 分母未闭合定量反演证明，利用 Table 6.11 out/out（5.06）与 out/in（0.33）分支比之商消去跨带分子，结合能量五次方因子导出名义光子相对强度为 1.19；对比 Table 5.2 能分辨 0.01 弱分支之探测本领，确证 817.7 keV 强线在实验列表与纲图中彻底缺席，代数证伪该分支比来源于直接实测计数除法，确立出带分母未闭合之严格证据边界；全套检查保持通过。
