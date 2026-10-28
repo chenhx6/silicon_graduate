@@ -1,0 +1,26 @@
+{
+  "research_date": "2026-10-29",
+  "formal_run_unchanged": true,
+  "sources": [
+    {
+      "url": "https://ums.iust.ac.in/UploadedDocuments/EmployeeDocuments/ResearchPapers/1955_2R8NAR.pdf",
+      "actual_pages": 1,
+      "expected_journal_pages": 5,
+      "source_page": "knowledge/sources/rather-2014-104pd-antimagnetic-first-page.md"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1912.11990v1",
+      "actual_pages": 8,
+      "source_page": "knowledge/sources/zhang-2019-104pd-pnc-antimagnetic-rotation.md"
+    }
+  ],
+  "metadata_verification": [
+    "https://api.crossref.org/works/10.1103/PhysRevC.89.061303",
+    "https://api.crossref.org/works/10.1088/1674-1137/43/5/054107",
+    "https://export.arxiv.org/api/query?id_list=1912.11990"
+  ],
+  "failed_fulltext": {
+    "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.89.061303/fulltext",
+    "status": 401
+  }
+}

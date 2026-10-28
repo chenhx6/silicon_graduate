@@ -1,0 +1,39 @@
+{
+  "task": "independent-135Pr-MR-crossing-Racah-polarization-audit",
+  "status": "complete-with-explicit-physics-boundaries",
+  "date": "2026-10-29",
+  "knowledge_note": "knowledge/research-notes/pr135-mr-crossing-racah-polarization-source-boundary.md",
+  "original_reread": {
+    "2015": {
+      "pages": [
+        2,
+        6,
+        7,
+        8
+      ],
+      "page_count": 9,
+      "sha256": "c74e7c12614cf405861c639194e132f3096d5f46d22062b0164fa166282b9e88"
+    },
+    "2019": {
+      "pages": [
+        1,
+        2
+      ],
+      "page_count": 2,
+      "sha256": "c9fbed8bb0a1463c6d083f29e1331ff72102f5fb4edfdd96b76f3c5c0149db30"
+    }
+  },
+  "corrections": [
+    "5qp contains proton g7/2 pair, not neutron i13/2 pair",
+    "crossing about33/2, not27/2 band low end",
+    "source explicitly lacks post-crossing ratio interpretation",
+    "finite-j M1 endpoint does not imply determined zero-point energy",
+    "813 DCO=.22(2); erratum .04(3) is asymmetry Delta, not polarization P",
+    "no delta interval or M1 purity can be extracted from Delta alone",
+    "high-spin MR Band3 and low-spin candidate-wobbling Band4 are distinct objects"
+  ],
+  "new_tests_run": false,
+  "full_repo_lint_run": false,
+  "commit_push_performed": false,
+  "review_status": "unreviewed"
+}

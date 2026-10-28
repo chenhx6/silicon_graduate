@@ -4614,3 +4614,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-29T05:15:00+08:00 Day26 checkpoint065：计算微观八极极化率chi_oct随四极形变演化（工件068），证实chi_oct在beta2~0.18-0.20形成共振峰而在beta2>0.28淬灭逾40%，确立四极-八极相排斥与形变过渡区软窗口定理。
 - 2026-10-29T05:35:00+08:00 Day26 checkpoint066：推导不可约球四极张量在双剪刀构型下的镜像代数相消T21==0（工件069），证明辐射跃迁纯由T22支配从而严格遵循B(E2)~sin^4(theta)四次方幂律。
 - 2026-10-29T05:55:00+08:00 Day26 checkpoint067：建立剪刀闭合引发的动态四极极化微观模型（工件070），阐明gamma三轴软化（18°）与端点B(E2)平缓底座（0.012–0.028 eb^2）微观机制。
+
+- 2026-10-29T03:15:00+08:00 Day26 checkpoint068：奇A核八极阻塞机制、AMR四极张量不可约代数与135Pr能带交叉原件校准。
+  1. 奇A核八极阻塞微观机制（odd-a-octupole-blocking-parity-doublets.md，工件072；ba-ra-blocking-cancellation-operator-boundary.md）：证明145Ba奇中子占据nu 1h9/2切断虚对散射（<n_f>=0，B(E3)淬灭10倍），八极态推迟至670 keV以上；对比225Ra静态双阱宇称双重态，异号解耦定理a+ ~ -a-量化复现能谱旋称交错（残差<=3.41 keV）；新增engel-2003与dobaczewski-2005来源页并澄清Schiff算符与普通偶极算符的本质分界；
+  2. AMR不可约球四极张量与核芯解耦微观审计（amr-double-shears-tensor-core-coupling-audit.md，workers/amr-tensor-core-20261029/）：代数与数值严格证明T21==0, T22=2sin^2(theta)exp(2iphi)引发B(E2)~sin^4(theta)四次方幂律，核算Roy 2011 110Cd核心角动量增量贡献Delta R/Delta I=42.10%，读取Zhang 2019 104Pd原件建立非普适形变反向检验；
+  3. 135Pr能带交叉动力学与2019偏振勘误原件定界（pr135-mr-crossing-racah-polarization-source-boundary.md）：纠正5qp配置新增质子(g7/2)^2，厘清35/2-之前实验比值上升对决更高自旋TAC反弹模型预测，校正DCO=0.22(2)与偏振不对称度Delta反演混合比的参数依赖性，校准pr135-shears-dynamics-bandcrossing-rebound.md与pr135-wobbling-vs-shears-discrimination.md；
+  4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

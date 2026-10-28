@@ -17,6 +17,9 @@ updated: 2026-10-28
 - [[cd110-amr-double-shears-criteria]] — 110Cd反磁转动双剪刀对称性、B(E2)平台与J(2)/B(E2)巨比值判据体系。
 - [[cd110-relative-strength-boundary-047]] — 110Cd HI,XNG相对RI、评价BE2字段与Roy绝对寿命强度边界。
 - [[ba-e1-e3-model-boundary-046]] — 144/146Ba E1/E3单位、SCCM算符核与实验/模型证据层。
+- [[odd-a-octupole-blocking-parity-doublets]] — 奇A核八极阻塞效应与宇称双重态：145Ba微观淬灭与225Ra Coriolis旋称交错反转。
+- [[ba-ra-blocking-cancellation-operator-boundary]] — Ba/Ra微观八极与偶极算符核边界：选择定则、自洽阻塞与Schiff响应分层。
+- [[pr135-mr-crossing-racah-polarization-source-boundary]] — 135Pr能带交叉、Racah重耦合与偏振原件边界：5qp组态修正与非单调反弹核定。
 - [[cd110-branch-normalization-boundary]] — 110Cd相对分支、22⁺ 1100-keV情景与Roy B(E2)归一化边界。
 
 - [[nndc-2012-cd110-hi-xng]] — 110Cd HI,XNG评价：高自旋寿命、分支、DCO与1100-keV争议。
@@ -391,6 +394,8 @@ updated: 2026-10-28
 - [[bucher-2016-144ba-direct-octupole]] - `144Ba` CHICO2+GRETINA GOSIA 直接 E3；`B(E3)=48^{+25}_{−34} W.u.`、`Q3`/`β3` 与 rotor/higher-multipole 边界。
 - [[bucher-2017-146ba-direct-octupole]] - 外部开放获取 `146Ba` 直接 E3；`B(E3)=48(+21/−29) W.u.` 与 `144Ba` 相当，解释 E1 dipole variation 与 octupole strength 的分离。
 - [[nomura-2018-odd-mass-ba-octupole]] - DD-PC1/sdf-IBFM 对 143,145,147Ba 的八极形变和奇质量态依赖预测；保留 axial、拟合与基态自旋偏差边界。
+- [[engel-2003-ra225-selfconsistent-schiff]] - Skyrme-Hartree-Fock 与芯极化模型下 225Ra 时间反演破坏 Schiff 矩及偶极相消点。
+- [[dobaczewski-2005-ra225-schiff]] - 225Ra 宇称双重态对时间反演非对称 Schiff 矩的增强机制与能量分母敏感性。
 - [[dey-2026-116cs-multifaceted-decay]] - `116Cs`/`116Xe` 滴线多通道衰变、7.66-MeV 低能等轴八极共振、延迟 2p 与可能 `12C` cluster；数据与代码可得性边界。
 - [[hamilton-1948-successive-quanta-polarization]] - successive-γ direction–polarization formalism；16种 dipole/quadrupole 组合、相对宇称可判定性和探测效率边界。
 - [[herzan-2015-193bi-spectroscopy]] - `193Bi` JUROGAM-II/RITU/GREAT 纲图、`29/2±` 异构体、RDCO/IPDCO 标定和 `1/2[651]` SD 候选。
@@ -1044,3 +1049,9 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 
 - [[tonev-2006-134pr-lifetime-chiral]] — 134Pr Euroball IV RDDS/DSAM；特定双带静态极限限制、动态解释及PE06引用谱系。
 - [[tonev-2007-134pr-dynamic-chirality]] — 134Pr 26页PRC详细实验/模型表；同2006实验，保跨带δ缺口与IBFFM交叉失败。
+
+- [[amr-double-shears-tensor-core-coupling-audit]] — AMR磁矩与T21/T22代数、Roy核芯增量与104Pd形变反证。
+
+- [[rather-2014-104pd-antimagnetic-first-page]] — 104Pd AMR期刊第一页原件；剩余4页缺失不冒称全文。
+
+- [[zhang-2019-104pd-pnc-antimagnetic-rotation]] — 104Pd粒子数守恒推转壳模型、双剪刀两阶段和形变拟合边界。

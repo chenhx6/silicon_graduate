@@ -1,0 +1,116 @@
+{
+  "schema": "ba-ra-blocking-cancellation-operator-boundary/v1",
+  "status": "bounded-source-self-audit",
+  "knowledge_note": "knowledge/research-notes/ba-ra-blocking-cancellation-operator-boundary.md",
+  "new_source_pages": [
+    "knowledge/sources/engel-2003-ra225-selfconsistent-schiff.md",
+    "knowledge/sources/dobaczewski-2005-ra225-schiff.md"
+  ],
+  "fingerprints": [
+    {
+      "path": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "bytes": 1423088,
+      "signature_hex": "255044462d312e35",
+      "sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",
+      "pages": 6,
+      "reading_coverage": "PDF3–5, Table I and Fig5"
+    },
+    {
+      "path": "raw/papers/gpt/day26-20261028/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
+      "bytes": 1399379,
+      "signature_hex": "255044462d312e35",
+      "sha256": "d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997",
+      "pages": 6,
+      "reading_coverage": "PDF2 Eqs3–5"
+    },
+    {
+      "path": "raw/papers/gpt/day5-20261003/nomura-2018-odd-mass-ba-octupole.pdf",
+      "bytes": 791515,
+      "signature_hex": "255044462d312e35",
+      "sha256": "4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be",
+      "pages": 11,
+      "reading_coverage": "PDF6–9 targeted sections and Tables VI–VII"
+    },
+    {
+      "path": "raw/data/day26-20261028/225ra-adopted-225088001-016.html",
+      "bytes": 30920,
+      "signature_hex": "3c3f786d6c207665",
+      "sha256": "93ce30628f3f24d08bc1e69c47d2c96e739748868fd03407ddbede9e4732e31e",
+      "pages": null,
+      "reading_coverage": "A/B-band L records 0–120.36 keV"
+    },
+    {
+      "path": "tmp/day26-octupole-micros/nucl-th-0304075v2.pdf",
+      "bytes": 401642,
+      "signature_hex": "255044462d312e34",
+      "sha256": "f7e70d8ceddcb7c43e9cef9c137d2118f0d29cc6dc8239dc019120ccbd680009",
+      "pages": 10,
+      "reading_coverage": "PDF4–6, Fig3 and model limitations"
+    },
+    {
+      "path": "tmp/day26-octupole-micros/nucl-th-0503057v2.pdf",
+      "bytes": 138659,
+      "signature_hex": "255044462d312e34",
+      "sha256": "45b726e096ff69e48932761fba570efc7fdc5a69644f6e1ab318c8cac41a5f32",
+      "pages": 4,
+      "reading_coverage": "PDF1–4 targeted; Eqs1–5 and model limitations"
+    }
+  ],
+  "e1_146Ba": {
+    "exp_eb_half": 0.000223,
+    "upper_error": 1e-05,
+    "lower_error": 8e-06,
+    "sccm_eb_half": 0.00474,
+    "amplitude_ratio": 21.25560538116592,
+    "strength_ratio": 451.80076011984966,
+    "locator": "BU17 PDF3 Table I"
+  },
+  "decoupling_fit": {
+    "model": "delta_c + delta_A*(I*(I+1)-0.25) + delta_Aa*(-1)**(I+0.5)*(I+0.5)",
+    "method": "unweighted least squares; descriptive, not uncertainty-calibrated",
+    "parameters_keV": [
+      31.313172413793087,
+      0.43800000000000494,
+      -20.42834482758621
+    ],
+    "spins": [
+      0.5,
+      1.5,
+      2.5,
+      3.5
+    ],
+    "observed_keV": [
+      55.16,
+      -11.21,
+      94.95,
+      -42.24
+    ],
+    "predicted_keV": [
+      51.96051724137929,
+      -8.010517241379311,
+      96.32120689655176,
+      -43.61120689655167
+    ],
+    "residual_keV": [
+      3.1994827586207037,
+      -3.1994827586206895,
+      -1.3712068965517545,
+      1.3712068965516693
+    ],
+    "rms_keV": 2.4613917075368237,
+    "degrees_of_freedom": 1,
+    "boundary": "Intercept is convention-dependent and is not measured tunneling; residuals exceed printed level uncertainties."
+  },
+  "unresolved": [
+    "production D1S signed non-diagonal E1 kernels",
+    "full deformed orbital components and phases",
+    "blocked145Ba and225Ra matched-EDF pairing and polarization calculations",
+    "Egido-Robledo1990 exact proton/neutron decomposition"
+  ],
+  "excluded_claims": [
+    "direct rank1 E1 between pi d5/2 and h11/2",
+    "universal odd-neutron blocking suppression percentage",
+    "064 true tunneling splitting and exclusion of competing mechanisms"
+  ],
+  "no_credit_or_deadline_change": true
+}

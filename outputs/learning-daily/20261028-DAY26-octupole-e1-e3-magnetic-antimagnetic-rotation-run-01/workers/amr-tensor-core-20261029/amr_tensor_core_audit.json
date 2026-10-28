@@ -1,0 +1,291 @@
+{
+  "status": "conditional-algebra-and-literal-source-recalculation",
+  "claim_scope": "Not a microscopic nuclear wavefunction calculation or an experimental fit.",
+  "tensor_convention": {
+    "C2m": "sqrt(4*pi/5)*Y2m of unit direction; equal real quadrupole weights q1=q2=1",
+    "normalized_T2m": "(C2m(n_plus)+C2m(n_minus))/sqrt(3/8)",
+    "T21": "0",
+    "T22": "2*sin(theta)^2*exp(2i*phi); real 2*sin(theta)^2 only for phi=0",
+    "physical_strength": "Roy Eq1 supplies its own Qeff normalization; the normalized angular tensor alone does not fix absolute B(E2)"
+  },
+  "grid": {
+    "theta_count": 181,
+    "phi_count": 31,
+    "max_C21": 0.0,
+    "max_T22_identity_residual": 8.95090418262362e-16,
+    "max_mu_perp": 0.0,
+    "max_Rz_pi_tensor_invariance_residual": 2.6325398974912097e-15,
+    "max_energy_potential_derivative_residual": 5.551115123125783e-17
+  },
+  "angle_table": [
+    {
+      "theta_deg": 90,
+      "T21_abs": 0.0,
+      "normalized_T22": 2.0,
+      "BE2_over_B90": 1.0,
+      "drop_factor_from_90": 1.0,
+      "illustrative_mu_perp": 0.0,
+      "illustrative_mu_z": 1.0000000000000004
+    },
+    {
+      "theta_deg": 75,
+      "T21_abs": 0.0,
+      "normalized_T22": 1.8660254037844388,
+      "BE2_over_B90": 0.8705127018922194,
+      "drop_factor_from_90": 1.1487483155918532,
+      "illustrative_mu_perp": 0.0,
+      "illustrative_mu_z": 3.3293714059226867
+    },
+    {
+      "theta_deg": 70,
+      "T21_abs": 0.0,
+      "normalized_T22": 1.7660444431189777,
+      "BE2_over_B90": 0.7797282437678551,
+      "drop_factor_from_90": 1.2824981113518896,
+      "illustrative_mu_perp": 0.0,
+      "illustrative_mu_z": 4.0781812899310195
+    },
+    {
+      "theta_deg": 60,
+      "T21_abs": 0.0,
+      "normalized_T22": 1.4999999999999998,
+      "BE2_over_B90": 0.5624999999999999,
+      "drop_factor_from_90": 1.7777777777777781,
+      "illustrative_mu_perp": 0.0,
+      "illustrative_mu_z": 5.500000000000001
+    },
+    {
+      "theta_deg": 50,
+      "T21_abs": 0.0,
+      "normalized_T22": 1.1736481776669303,
+      "BE2_over_B90": 0.3443625112352266,
+      "drop_factor_from_90": 2.9039165628482757,
+      "illustrative_mu_perp": 0.0,
+      "illustrative_mu_z": 6.785088487178855
+    },
+    {
+      "theta_deg": 45,
+      "T21_abs": 0.0,
+      "normalized_T22": 0.9999999999999998,
+      "BE2_over_B90": 0.24999999999999992,
+      "drop_factor_from_90": 4.000000000000002,
+      "illustrative_mu_perp": 0.0,
+      "illustrative_mu_z": 7.3639610306789285
+    },
+    {
+      "theta_deg": 30,
+      "T21_abs": 0.0,
+      "normalized_T22": 0.4999999999999999,
+      "BE2_over_B90": 0.06249999999999997,
+      "drop_factor_from_90": 16.000000000000007,
+      "illustrative_mu_perp": 0.0,
+      "illustrative_mu_z": 8.794228634059948
+    },
+    {
+      "theta_deg": 15,
+      "T21_abs": 0.0,
+      "normalized_T22": 0.13397459621556132,
+      "BE2_over_B90": 0.004487298107780675,
+      "drop_factor_from_90": 222.85125168440823,
+      "illustrative_mu_perp": 0.0,
+      "illustrative_mu_z": 9.693332436601615
+    },
+    {
+      "theta_deg": 5,
+      "T21_abs": 0.0,
+      "normalized_T22": 0.015192246987791938,
+      "BE2_over_B90": 5.7701092134518306e-05,
+      "drop_factor_from_90": 17330.69449827231,
+      "illustrative_mu_perp": 0.0,
+      "illustrative_mu_z": 9.96575228282571
+    },
+    {
+      "theta_deg": 0,
+      "T21_abs": 0.0,
+      "normalized_T22": 0.0,
+      "BE2_over_B90": 0.0,
+      "drop_factor_from_90": null,
+      "illustrative_mu_perp": 0.0,
+      "illustrative_mu_z": 10.0
+    }
+  ],
+  "symmetry_breaking_sensitivity": [
+    {
+      "epsilon": 0,
+      "magnetic_weight_mismatch_mu_x": 0.0,
+      "mu_x_analytic": 0.0,
+      "BE2_weight_mismatch_abs_C21": 0.0,
+      "illustrative_semiclassical_BM1": 0.0
+    },
+    {
+      "epsilon": 0.001,
+      "magnetic_weight_mismatch_mu_x": 0.006363961030678489,
+      "mu_x_analytic": 0.006363961030678928,
+      "BE2_weight_mismatch_abs_C21": 0.0012247448713914588,
+      "illustrative_semiclassical_BM1": 4.834331396415654e-06
+    },
+    {
+      "epsilon": 0.01,
+      "magnetic_weight_mismatch_mu_x": 0.06363961030678889,
+      "mu_x_analytic": 0.06363961030678927,
+      "BE2_weight_mismatch_abs_C21": 0.01224744871391592,
+      "illustrative_semiclassical_BM1": 0.00048343313964162613
+    },
+    {
+      "epsilon": 0.05,
+      "magnetic_weight_mismatch_mu_x": 0.3181980515339471,
+      "mu_x_analytic": 0.31819805153394637,
+      "BE2_weight_mismatch_abs_C21": 0.0612372435695796,
+      "illustrative_semiclassical_BM1": 0.012085828491040855
+    },
+    {
+      "epsilon": 0.1,
+      "magnetic_weight_mismatch_mu_x": 0.6363961030678928,
+      "mu_x_analytic": 0.6363961030678927,
+      "BE2_weight_mismatch_abs_C21": 0.12247448713915887,
+      "illustrative_semiclassical_BM1": 0.04834331396416322
+    }
+  ],
+  "symmetry_boundaries": [
+    "Rz(pi) exchanges equal blades and cancels odd tensor q expectations.",
+    "T alone reverses nonzero total spin; AMR is not time reversal invariant at finite spin.",
+    "TRy(pi) preserves an xz-plane vector geometry; this planar antiunitary symmetry is also possible for MR.",
+    "mu_perp=0 is an intrinsic semiclassical expectation property, not a universal zero operator or arbitrary interband matrix element.",
+    "Signature and parity are different; Rz(pi) does not establish good parity."
+  ],
+  "roy_parameters": {
+    "jh": 4.5,
+    "jn": 10,
+    "J_hbar2_per_MeV": 19.5,
+    "Vpn_MeV": 1.2,
+    "Vhh_MeV": 0.15,
+    "n": 4,
+    "Qeff_eb": 1.1
+  },
+  "roy_spin_convention": "Literal printed Eq3, jn=10; no unreported I-offset fitted. Paper discusses a 12-hbar bandhead separately; these tabulations do not certify Fig4 reproduction.",
+  "roy_comparison": [
+    {
+      "I": 16,
+      "Egamma_keV_reported": 1075,
+      "tau_ps_reported": 0.36,
+      "tau_error_ps_reported": 0.03,
+      "BE2_reported_e2b2": 0.14,
+      "BE2_error_reported_e2b2": 0.01,
+      "theta_deg_literal_Eq3": 70.00496232251352,
+      "I_shears_hbar": 13.077448806973154,
+      "R_core_hbar": 2.9225511930268477,
+      "R_over_I": 0.18265944956417798,
+      "dR_over_dI": 0.47340723007322877,
+      "BE2_literal_Eqs1and3_e2b2": 0.14079096896885301,
+      "BE2_model_minus_reported": 0.0007909689688530008,
+      "pure_shears_BE2_same_I": 0.05572265079316931
+    },
+    {
+      "I": 18,
+      "Egamma_keV_reported": 1224,
+      "tau_ps_reported": 0.23,
+      "tau_error_ps_reported": 0.03,
+      "BE2_reported_e2b2": 0.12,
+      "BE2_error_reported_e2b2": 0.02,
+      "theta_deg_literal_Eq3": 62.56095640427098,
+      "I_shears_hbar": 14.147242031621158,
+      "R_core_hbar": 3.852757968378846,
+      "R_over_I": 0.21404210935438034,
+      "dR_over_dI": 0.4556277812386754,
+      "BE2_literal_Eqs1and3_e2b2": 0.11200910305673574,
+      "BE2_model_minus_reported": -0.007990896943264256,
+      "pure_shears_BE2_same_I": 0.007952516582333749
+    },
+    {
+      "I": 20,
+      "Egamma_keV_reported": 1323,
+      "tau_ps_reported": 0.17,
+      "tau_error_ps_reported": 0.03,
+      "BE2_reported_e2b2": 0.11,
+      "BE2_error_reported_e2b2": 0.02,
+      "theta_deg_literal_Eq3": 54.23274774754543,
+      "I_shears_hbar": 15.260446099543758,
+      "R_core_hbar": 4.739553900456246,
+      "R_over_I": 0.23697769502281232,
+      "dR_over_dI": 0.42952929392882067,
+      "BE2_literal_Eqs1and3_e2b2": 0.0782550833279167,
+      "BE2_model_minus_reported": -0.031744916672083304,
+      "pure_shears_BE2_same_I": null
+    },
+    {
+      "I": 22,
+      "Egamma_keV_reported": 1314,
+      "tau_ps_reported": 0.21,
+      "tau_error_ps_reported": 0.07,
+      "BE2_reported_e2b2": 0.09,
+      "BE2_error_reported_e2b2": 0.03,
+      "theta_deg_literal_Eq3": 44.33656028667164,
+      "I_shears_hbar": 16.437222379611875,
+      "R_core_hbar": 5.562777620388132,
+      "R_over_I": 0.25285352819946055,
+      "dR_over_dI": 0.3911624259647788,
+      "BE2_literal_Eqs1and3_e2b2": 0.04306921012893369,
+      "BE2_model_minus_reported": -0.04693078987106631,
+      "pure_shears_BE2_same_I": null
+    },
+    {
+      "I": 24,
+      "Egamma_keV_reported": 1358,
+      "tau_ps_reported": 0.27,
+      "tau_error_ps_reported": 0.07,
+      "BE2_reported_e2b2": 0.06,
+      "BE2_error_reported_e2b2": 0.02,
+      "theta_deg_literal_Eq3": 31.06641513690787,
+      "I_shears_hbar": 17.70912740784282,
+      "R_core_hbar": 6.290872592157183,
+      "R_over_I": 0.2621196913398826,
+      "dR_over_dI": 0.3324822096723597,
+      "BE2_literal_Eqs1and3_e2b2": 0.01280209488118179,
+      "BE2_model_minus_reported": -0.047197905118818204,
+      "pure_shears_BE2_same_I": null
+    }
+  ],
+  "spin_capacity": {
+    "classical_frozen_jn_pure_max": 19.0,
+    "classical_literal_coupled_max": 25.825,
+    "finite_shell_two_identical_g9over2_holes_max_J": 8,
+    "frozen_four_qp_finite_shell_max": 18,
+    "source_rejects_highest_observed_28plus_as_AMR": true
+  },
+  "core_gain_16_to_24": {
+    "delta_R_hbar": 3.3683213991303353,
+    "delta_R_over_delta_I": 0.4210401748912919,
+    "not_equal_to_total_spin_fraction_range": "R/I is 18.27%-26.21%; incremental gain fraction here is 42.10%"
+  },
+  "pd_boundary": "Zhang 2019 arXiv1912.11990v1 pp4-7: increased normal-rotation alignment does not ensure B(E2) flattening; fitting deformation epsilon2 decrease is needed for rapid high-frequency B(E2) fall; the shape fit is not an independent measurement.",
+  "acquisition_failures": [
+    {
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.89.061303/fulltext",
+      "status": 401,
+      "effect": "Rather2014 coverage remains first page only"
+    }
+  ],
+  "raw_fingerprints": [
+    {
+      "path": "raw/papers/gpt/day26-20261028/roy-2011-cd110-systematics-plb.pdf",
+      "pdf_signature_ok": true,
+      "bytes": 281553,
+      "sha256": "2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a",
+      "reading_coverage": "5/5 pages read; Eqs.1-6, Table1, Figs3-4; pp323/325 visually inspected"
+    },
+    {
+      "path": "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-prc.pdf",
+      "pdf_signature_ok": true,
+      "bytes": 52876,
+      "sha256": "873b08c05f041d702a2c82f6243e9d73768a902ed91782891353bc42dfb1025b",
+      "reading_coverage": "only first journal page 061303-1 obtained, of 5 journal pages"
+    },
+    {
+      "path": "raw/papers/gpt/day26-20261028/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf",
+      "pdf_signature_ok": true,
+      "bytes": 370918,
+      "sha256": "d0938039dd5c75f223bac9eca1d75e3c3d55f406504c41dc9f816a11d439de91",
+      "reading_coverage": "8/8 PDF pages read; method p2, Fig3 p4, occupation/alignment pp4-7"
+    }
+  ]
+}

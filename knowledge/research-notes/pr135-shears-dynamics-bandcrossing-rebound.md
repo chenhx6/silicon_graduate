@@ -17,17 +17,17 @@ tags: [135Pr, magnetic-rotation, shears-mechanism, band-crossing, M1-rebound, er
 
 ## Research Trigger
 
-在经典磁转动（Magnetic Rotation, MR）唯象剪刀模型中，常预设随着角动量增加两片磁叶片对称闭合，剪刀角 $\theta \to 0$，导致垂直磁偶极矩 $\mu_\perp \propto \sin\theta$ 持续衰减，引发跃迁强度 $B(M1) \propto \sin^2\theta$ 及比值 $B(M1)/B(E2)$ 的“单调陡降”。然而在典型核 $^{135}\text{Pr}$ 的负宇称能带（Band 3）中，实验在自旋 $27/2^- \to 35/2^-$ 区间观测到比值剧烈上升至 $\approx 95(\mu_N/e\text{b})^2$，并在高自旋交叉处呈现出显著的反弹现象。本笔记系统推导剪刀动力学微观公式，分析 3qp 态向 5qp 态能带交叉中的叶片重对齐（Shears Re-opening）微观物理，并结合 Garg 2019 偏振勘误确立严格的实验解释边界。
+在经典磁转动（Magnetic Rotation, MR）唯象剪刀模型中，常预设随着角动量增加两片磁叶片对称闭合，剪刀角 $\theta \to 0$，导致垂直磁偶极矩 $\mu_\perp \propto \sin\theta$ 持续衰减，引发跃迁强度 $B(M1) \propto \sin^2\theta$ 及比值 $B(M1)/B(E2)$ 的“单调陡降”。然而在典型核 $^{135}\text{Pr}$ 的负宇称能带（Band 3）中，实验在自旋 $27/2^- \to 35/2^-$ 区间观测到比值剧烈上升至 $\approx 95(\mu_N/e\text{b})^2$，而 TAC / 剪刀模型进一步预言在更高自旋交叉处将出现由于剪刀重新张开导致的非单调反弹。本笔记厘清实验直接测得的比值上升与模型预言反弹之间的证据分界。本笔记系统推导剪刀动力学微观公式，分析 3qp 态向 5qp 态能带交叉中的叶片重对齐（Shears Re-opening）微观物理，并结合 Garg 2019 偏振勘误确立严格的实验解释边界。
 
 ## Grounded Evidence
 
 | 标识 | 核心事实 / 主张 | 证据分层 | 文献定位 | 科学边界与限制 |
 |---|---|---|---|---|
-| PR135-MR-01 | $^{135}\text{Pr}$ Band 3 实测 $B(M1)/B(E2)$ 实验点：$31/2^-$ ($15.8$), $33/2^-$ ($19.7$), $35/2^-$ ($94.8\ (\mu_N/e\text{b})^2$) | 直接实验数据 | Garg 2015 PDF p.7-8 Table I, Fig.7 | 由相对分支比与光子能量推导，未测绝对能级寿命与绝对 $B(M1)$ |
+| PR135-MR-01 | $^{135}\text{Pr}$ Band 3 测得 $B(M1)/B(E2)$ 实验比值：$31/2^-$ ($15.8$), $33/2^-$ ($19.7$), $35/2^-$ ($94.8\ (\mu_N/e\text{b})^2$) | 实验导出比值 | Garg 2015 PDF p.7-8 Table I, Fig.7 | 由相对分支比与光子能量推导，未测绝对能级寿命；交叉后因未观测到跨带 E2 crossover 而无法给出更高自旋实验比值 |
 | PR135-MR-02 | Band 3 在自旋 $I \approx 27/2^- - 33/2^-$（$\hbar\omega \approx 0.37\text{ MeV}$）发生能带交叉，对齐增加约 $6\hbar$ | 实验转动谱学与交叉分析 | Garg 2015 PDF p.5-6 Figs.5, 6 | 组态从 3qp ($\pi h_{11/2} \otimes \nu h_{11/2}^{-2}$) 交叉至 5qp ($\pi h_{11/2}(g_{7/2}/d_{5/2})^2 \otimes \nu h_{11/2}^{-2}$) |
 | PR135-MR-03 | Garg et al. 2019 勘误将 $813.3\text{ keV}$ 线偏振不对称度从 $-0.20(8)$ 修正为 $+0.04(3)$，$747.5\text{ keV}$ 从 $-0.05(3)$ 修正为 $+0.03(3)$ | 直接公开勘误 | Garg 2019 PRC 100, 069901(E) p.1 | 修正了能量依赖探测效率系数 $a(E_\gamma)$；将两条跨带跃迁确认为 $M1+E2$ 混合跃迁 |
 | PR135-MR-04 | 剪刀模型垂直偶极矩与角动量关系：$B(M1) = \frac{3}{8\pi} (g_p - g_n)^2 \left(\frac{j_p j_n}{I}\right)^2 \sin^2\theta$ | 理论剪刀模型推导 | Macchiavelli 1998; Clark 2000 | 仅在单固定准粒子组态且叶片长度不变的理想条件下成立 |
-| PR135-MR-05 | 5qp 组态将质子叶片有效长度从 $j_p \approx 5.5\hbar$ 扩大至 $j_p' \approx 11.5\hbar$，使相同自旋下的剪刀开角 $\theta$ 被迫重新拉大（Re-opening） | 微观角动量耦合推导 | 本工作 `pr135-shears-bandcrossing-realign-051` | 解释了交叉区磁偶极强度的非单调反弹，打破唯象单调下降假设 |
+| PR135-MR-05 | 5qp 组态新增质子对 $(g_{7/2})^2$，将质子叶片有效长度扩大至 $j_p' \approx 11.5\hbar$，使剪刀开角 $\theta$ 在模型中重新拉大（Re-opening） | 理论模型预测 | Garg 2015; 本工作工件 051 | 剪刀重开提供了解释交叉区强度回升的微观机制，但交叉后的反弹轨迹属于 TAC 模型预测，非直接实验测量事实 |
 
 ## Provisional Reasoning
 
@@ -96,7 +96,7 @@ $$B(E2; I \to I-2) = \frac{15}{128\pi} Q_0^2 \sin^4\theta + B(E2)_{\text{core}}$
    $$\theta_{5qp} = 88.0^\circ$$
 3. 重新打开的巨大剪刀角使得横向偶极跃迁强度突增至 $B(M1)_{5qp} \approx 1.25\ \mu_N^2$！
 
-这在物理图像上完美阐明了高自旋处磁转动带的内在机制：**能带交叉通过吸纳新的解对价核子重塑了剪刀叶片，克服了经典剪刀的几何终止极限，通过剪刀角的突发性重新打开（Re-opening）引发电磁跃迁强度的非单调反弹**。
+这在物理图像上阐明了高自旋剪刀模型的一种可能机制：**能带交叉通过吸纳新的解配对价核子重塑了剪刀叶片，克服了单组态经典剪刀的几何终止极限；剪刀角的突发性重新打开（Re-opening）在理论上预言了电磁跃迁强度的非单调回弹**。必须保留证据分层：实验确凿测得的是 $B(M1)/B(E2)$ 在 $35/2^-$ 之前的大幅上升，而交叉更高自旋处的具体反弹轨迹属于模型解释，因未观测到 $E2$ crossover 跃迁而未被实验直接封闭（详见 [[pr135-mr-crossing-racah-polarization-source-boundary]]）。
 
 ## Garg 2015 Data Audit and 2019 Polarization Erratum Impact
 

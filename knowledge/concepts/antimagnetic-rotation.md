@@ -110,3 +110,11 @@ Day25末节列的744/907/1042/1180 keV、0.11(3)/0.10(2)/0.09(2)/0.07(3) e²b²�
 设两片等长磁性角动量 $\mathbf j_\pm=j(\cos\theta\,\pm\sin\theta,0)$，相同有效 $g$ 下横向磁矩之和为零，但纵向磁矩 $2gj\cos\theta$ 一般非零。局部电流场也不为零：单体密度给 $\mathbf j(\mathbf r)\propto(\nabla_{\mathbf r}-\nabla_{\mathbf r'})\rho(\mathbf r,\mathbf r')|_{\mathbf r'=\mathbf r}$，时间反演把它变号。两个相反环流仅使特定积分磁偶极相消，不能推出 $\boldsymbol\mu(\mathbf r)\equiv0$ 或一切跨带 M1 矩阵元为零。017 工件给出两局域涡旋的显式反例：积分偶极抵消而任一点可有非零流；其 $\mathcal R_z(\pi)\mathcal T$ 可保持，单独 $\mathcal R_z(\pi)$ 和 $\mathcal T$ 破缺。若另要求后两者各自保持，则由 $\mathcal T\mathbf j=-\mathbf j$ 必得 $\mathbf j=0$。
 
 固定同一组态、相同叶片、电荷四极张量随剪刀角的特定投影、无显著芯 E2、无混合时，可取 $Q_t(\theta)\propto\sin^2\theta$，从而 $B(E2)\propto Q_t^2\propto\sin^4\theta$。这只是受限几何模型；自洽形变 $\beta_2(\omega)$、芯 E2 与组态变化会改变幂次。带内 $\Delta I=2$ 序列缺少 M1 还有 $\Delta I\le1$ 的一般多极选择规则，不能独立证明双剪刀。比较 $\mathcal J^{(2)}$、绝对 $B(E2)$、寿命、branching 和终止时需保留误差与替代机制，不能把带单位的 $\mathcal J^{(2)}/B(E2)$ 当无量纲普适硬门。见 [[octupole-mr-amr-evidence-gradient]]。
+
+## Day26：不可约张量与核芯缓降的条件推导
+
+[[amr-double-shears-tensor-core-coupling-audit]] 给出明确归一化：对方向n±的`C2m=√(4π/5)Y2m`等权相加，再除以`√(3/8)`，可得`T21=0、T22=2sin²θ exp(2iφ)`；取刃平面φ=0才是实数`2sin²θ`。磁矩横向分量同样相消，纵向磁矩一般非零。Rz(π)交换对称刃；`Ry(π)T`保持选定平面，但非零定向自旋不保持单独T。几何相消、内禀算符期望及good-I跃迁矩阵元分层保留，不能据此宣布所有跨带M1禁戒。
+
+对[[roy-2011-cd110-systematics-antimagnetic]]打印Eqs.1、3–5的固定参数计算，16→24时R/I为18.27%→26.21%，而增量ΔR/ΔI为42.10%，二者不能混称。此literal实现的24态B(E2)=0.01280 e²b²，原Table1为0.06(2)，故不认证已完整复现Fig.4；bandhead与spin映射仍需确认。sin⁴θ在90°→15°固定幅度下降222.85倍，不是20倍，也不是已测核态角轨迹。
+
+[[zhang-2019-104pd-pnc-antimagnetic-rotation]] PDF p4 Fig.3、pp5–7说明104Pd正常对齐贡献增加仍可伴随E2快速下降；其固定ε2=0.18计算失败后，作者拟合随频率减小的形变路径。故核芯/normal-alignment贡献、Qeff和形变相干幅度是不同输入，不能从110Cd缓降解释推出全部Cd/Pd的普适平台。新内容为Codex self-audit，保持`needs_review: true`，不提升人审或恢复历史013认证。

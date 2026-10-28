@@ -1,0 +1,18 @@
+{
+  "status": "research-artifacts-ready-for-parent-integration",
+  "owned_knowledge_files": [
+    "knowledge/research-notes/amr-double-shears-tensor-core-coupling-audit.md",
+    "knowledge/sources/rather-2014-104pd-antimagnetic-first-page.md",
+    "knowledge/sources/zhang-2019-104pd-pnc-antimagnetic-rotation.md",
+    "knowledge/concepts/antimagnetic-rotation.md"
+  ],
+  "shared_index_action": "appended exactly three own source/note links, preserving existing changes",
+  "new_raw_files": [
+    "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-prc.pdf",
+    "raw/papers/gpt/day26-20261028/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf"
+  ],
+  "checks": "owned lint errors 0; repository lint currently has 22 errors in other concurrent files; boundary ok; targeted diff check passed",
+  "git_commit": null,
+  "publication": "parent to integrate; no commit or push by this worker",
+  "formal_credit_unchanged": true
+}

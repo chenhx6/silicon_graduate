@@ -1,0 +1,143 @@
+{
+  "counts": {
+    "error": 22,
+    "warning": 288,
+    "info": 5078
+  },
+  "owned_errors": [],
+  "global_errors": [
+    {
+      "severity": "error",
+      "code": "INDEX_MISSING",
+      "path": "knowledge/research-notes/ba-ra-blocking-cancellation-operator-boundary.md",
+      "message": "not linked from knowledge/index.md"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/odd-a-octupole-blocking-parity-doublets.md",
+      "message": "missing ## Assumptions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/odd-a-octupole-blocking-parity-doublets.md",
+      "message": "missing ## Competing Explanations"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/odd-a-octupole-blocking-parity-doublets.md",
+      "message": "missing ## Transfer Conditions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/odd-a-octupole-blocking-parity-doublets.md",
+      "message": "missing ## Failure Conditions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/odd-a-octupole-blocking-parity-doublets.md",
+      "message": "missing ## Falsification or Reverse Tests"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/odd-a-octupole-blocking-parity-doublets.md",
+      "message": "missing ## Open Questions"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/odd-a-octupole-blocking-parity-doublets.md",
+      "message": "missing ## Human Review"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/research-notes/odd-a-octupole-blocking-parity-doublets.md",
+      "message": "missing ## Promotion or Rejection History"
+    },
+    {
+      "severity": "error",
+      "code": "INDEX_MISSING",
+      "path": "knowledge/research-notes/pr135-mr-crossing-racah-polarization-source-boundary.md",
+      "message": "not linked from knowledge/index.md"
+    },
+    {
+      "severity": "error",
+      "code": "FIELD_REQUIRED",
+      "path": "knowledge/sources/dobaczewski-2005-ra225-schiff.md",
+      "message": "missing canonical_source"
+    },
+    {
+      "severity": "error",
+      "code": "FIELD_REQUIRED",
+      "path": "knowledge/sources/dobaczewski-2005-ra225-schiff.md",
+      "message": "missing raw_file"
+    },
+    {
+      "severity": "error",
+      "code": "FIELD_REQUIRED",
+      "path": "knowledge/sources/dobaczewski-2005-ra225-schiff.md",
+      "message": "missing raw_sha256"
+    },
+    {
+      "severity": "error",
+      "code": "INDEX_MISSING",
+      "path": "knowledge/sources/dobaczewski-2005-ra225-schiff.md",
+      "message": "not linked from knowledge/index.md"
+    },
+    {
+      "severity": "error",
+      "code": "RAW_PATH",
+      "path": "knowledge/sources/dobaczewski-2005-ra225-schiff.md",
+      "message": "raw_file must be under raw/: ''"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/dobaczewski-2005-ra225-schiff.md",
+      "message": "missing ## Summary"
+    },
+    {
+      "severity": "error",
+      "code": "FIELD_REQUIRED",
+      "path": "knowledge/sources/engel-2003-ra225-selfconsistent-schiff.md",
+      "message": "missing canonical_source"
+    },
+    {
+      "severity": "error",
+      "code": "FIELD_REQUIRED",
+      "path": "knowledge/sources/engel-2003-ra225-selfconsistent-schiff.md",
+      "message": "missing raw_file"
+    },
+    {
+      "severity": "error",
+      "code": "FIELD_REQUIRED",
+      "path": "knowledge/sources/engel-2003-ra225-selfconsistent-schiff.md",
+      "message": "missing raw_sha256"
+    },
+    {
+      "severity": "error",
+      "code": "INDEX_MISSING",
+      "path": "knowledge/sources/engel-2003-ra225-selfconsistent-schiff.md",
+      "message": "not linked from knowledge/index.md"
+    },
+    {
+      "severity": "error",
+      "code": "RAW_PATH",
+      "path": "knowledge/sources/engel-2003-ra225-selfconsistent-schiff.md",
+      "message": "raw_file must be under raw/: ''"
+    },
+    {
+      "severity": "error",
+      "code": "SECTION_REQUIRED",
+      "path": "knowledge/sources/engel-2003-ra225-selfconsistent-schiff.md",
+      "message": "missing ## Summary"
+    }
+  ],
+  "lint_returncode": 1
+}
