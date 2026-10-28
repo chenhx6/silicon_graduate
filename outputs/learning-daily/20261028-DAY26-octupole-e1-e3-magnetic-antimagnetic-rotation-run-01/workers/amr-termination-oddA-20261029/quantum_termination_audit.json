@@ -1,0 +1,68 @@
+{
+  "scope": "exact finite-single-j algebra; no full-Cd eigenstates, no EDF reproduction",
+  "pair_sectors": [
+    {
+      "j": "9/2",
+      "slater_dimension": 45,
+      "allowed_J_multiplicities": {
+        "0": 1,
+        "2": 1,
+        "4": 1,
+        "6": 1,
+        "8": 1
+      },
+      "Jmax": 8,
+      "paired_J0_SdagS": 5.000000000000001,
+      "aligned_SdagS": 0.0,
+      "endpoint_E2_B_single_reduced_q_squared": 0.025454545454545466,
+      "endpoint_E2_matrix_element": 0.1595448070434932
+    },
+    {
+      "j": "11/2",
+      "slater_dimension": 66,
+      "allowed_J_multiplicities": {
+        "0": 1,
+        "2": 1,
+        "4": 1,
+        "6": 1,
+        "8": 1,
+        "10": 1
+      },
+      "Jmax": 10,
+      "paired_J0_SdagS": 6.000000000000001,
+      "aligned_SdagS": 0.0,
+      "endpoint_E2_B_single_reduced_q_squared": 0.015615962984384042,
+      "endpoint_E2_matrix_element": 0.12496384670929445
+    }
+  ],
+  "four_qp": {
+    "frozen_configuration": "pi(g9/2)^-2 x nu(h11/2)^2; other particles frozen to J0",
+    "exact_max_spin": 18,
+    "classical_max_spin": 20,
+    "classical_with_quantum_neutron_pair": 19,
+    "I18_to_I16_E2_B_proton_single_reduced_q_squared": 0.0015482556659027272,
+    "endpoint_transition_nonzero": true
+  },
+  "oddA": {
+    "Rz_pi_half_integer_eigenvalues": [
+      "+i",
+      "-i"
+    ],
+    "transverse_expectation_zero_condition": "state or density invariant under Rz(pi), including the blocked odd orbital",
+    "antiunitary_Ry_pi_T_constraint": "only mu_y=0; mu_x is not forced to zero",
+    "not_proven": "no exclusive AMR or all-interband-M1 selection rule"
+  },
+  "ratios": {
+    "106Cd_non_effective_24over18": 0.33333333333333337,
+    "108Cd_non_effective_20over16": 0.6,
+    "108Cd_effective_22over16": 0.2,
+    "110Cd_24over16": 0.4285714285714285
+  },
+  "finite_pairing_toy": {
+    "H": "-G Sdag S - omega Jz, n=2 single-j only",
+    "g9/2_Omega": 5,
+    "aligned_J": 8,
+    "crossing_omega_over_G": 0.625,
+    "is_Cd_prediction": false
+  }
+}

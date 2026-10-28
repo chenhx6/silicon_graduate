@@ -3,7 +3,26 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint068：奇A核八极阻塞机制、AMR四极张量不可约代数与135Pr能带交叉原件校准
+## Active handoff — Day26 checkpoint069：跨区微观八极势垒与Schiff矩、Pb/Pr剪刀核芯演化及AMR量子终止态审计
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得重大微观理论与原件定界突破：
+1. **锕系与镧系微观八极双阱势垒、隧穿劈裂与 Schiff 矩**（`actinide-lanthanide-doublewell-schiff-boundary.md`，工件 `actinide-lanthanide-doublewell-schiff-boundary.json`）：
+   - 证伪简单化的“锕系统一 1–2 MeV、稀土统一 <= 0.3 MeV”二分法：Gogny-D1S 中 $^{222}\text{Ra}$ 最深势垒达 $1.5\text{ MeV}$，而 $^{144}\text{Ba}$ 势垒达 $0.7\text{ MeV}$；$^{150}\text{Sm}$ 平均场八极能量增益为 $105-204\text{ keV}$，呈现典型浅软阱；
+   - 严格推导时间反演破缺 Schiff 坐标算符 $S_z = \sum_p (r_p^2 - \frac{5}{3} \bar{r}_{\text{ch}}^2) z_p$，推导均匀密度与质心约束下的内禀解析公式 $S_{\text{intr}} = \frac{9}{20\pi\sqrt{35}} e Z R^3 \beta_2 \beta_3$；指出 $^{225}\text{Ra}$ 宇称混合有效低能分母为 $55.16\text{ keV}$（基态伙伴态），澄清 $31.56\text{ keV}$ 态因自旋为 $3/2^-$ 无法与 $1/2^+$ 发生转动标量 $W_{PT}$ 混合；新增来源页 `robledo-2010-bcp-d1s-octupole-ra-ba.md`、`rodriguez-guzman-2012-sm-gd-quadrupole-octupole.md`、`nomura-2020-ra-th-gogny-d1m-octupole.md`；
+2. **铅区与稀土区磁转动微观剪刀动力学与核芯演化**（`pb-pr-magnetic-rotation-core-crossing-systematics.md`，`cranked-shears-core-coupling-pb-vs-pr.md`，工件 `073` 与六面板曲线工件）：
+   - 纠正“铅区无核芯转动与无交叉”的先验误区：Hübel 2005 明确报告 $^{199}\text{Pb}$ Band 2 包含 $3\hbar$ 核芯转动分担并在高自旋交叉重开，$^{196}\text{Pb}$ 交叉后绝对 $B(M1)$ 激增至 $9\ \mu_N^2$；
+   - 求解平行核芯推转剪刀模型，导出角动量分配比 $\frac{R}{I} = \frac{\kappa\cos\theta}{1+\kappa\cos\theta}$（$\kappa = \frac{3\mathcal{J}_c V_2}{j_1 j_2}$）；证明在 $b_{E2} \propto b_{M1}^2$ 下，单能带单调闭合时 $B(M1)/B(E2)$ 比值仍可表观上升，确立绝对寿命测量在判定剪刀重开中的必要性；
+   - 仿真揭示 $^{135}\text{Pr}$ 弱形变（$\beta_2 \approx 0.14$）在带端提供恒定核芯四极基底（$B(E2) \sim 0.013\ e^2\text{b}^2$），阐明其平缓平台机制；
+3. **AMR 量子终止态机制与奇 A 核离散签名保护**（`amr-cd-isotopes-quantum-termination-odda-signature-audit.md`，`amr-termination-oddA-20261029/`）：
+   - 细致核算 Roy 2011 Table 1，指出 $^{110}\text{Cd}$ 属相对缓降，且配对与形变收缩（$\epsilon_2: 0.14 \to 0.12$）共同参与调控；
+   - 精确计数冻结子空间 $\pi(g_{9/2})^{-2} \otimes \nu(h_{11/2})^2$ 量子终止角动量 $I_{\text{max}} = 18\hbar$，并证明单极配对 $\langle S^\dagger S \rangle$ 在最高自旋态淬灭为零；
+   - 证明奇 A 核（如 $^{105}\text{Cd}$）在奇核子阻塞下，只要自洽态保持离散旋转对称性 $R_z(\pi) |\Psi_r\rangle = r |\Psi_r\rangle$（$r = \pm i$），轴矢量选择定则依然严格保证横向磁偶极矩相消（$\langle\mu_x\rangle = \langle\mu_y\rangle = 0$）；新增来源页 `zhang-2013-105106cd-pnc-superfluidity.md`、`zhao-2012-105cd-cdft-antimagnetic.md` 等。
+
+全量检查全绿（wiki_lint 0 error/288 warnings，boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint068：奇A核八极阻塞机制、AMR四极张量不可约代数与135Pr能带交叉原件校准
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

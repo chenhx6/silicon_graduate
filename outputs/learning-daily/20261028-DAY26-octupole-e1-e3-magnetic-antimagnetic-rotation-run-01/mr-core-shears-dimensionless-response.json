@@ -1,0 +1,33 @@
+{
+  "model": "parallel core + distinguishable fixed blades; synthetic example",
+  "isotope_fit": false,
+  "parameters": {
+    "j1": 5.0,
+    "j2": 7.0,
+    "V2_energy_scale": 1.0,
+    "kappa": [
+      0,
+      0.25,
+      1
+    ]
+  },
+  "assumptions": [
+    "V2>0",
+    "hbar=1",
+    "core parallel to shears resultant",
+    "constant g1-g2",
+    "constant effective blade Q as Clark2000 Eq8",
+    "classical electromagnetic response"
+  ],
+  "formulas": {
+    "Js": "sqrt(j1^2+j2^2+2*j1*j2*c)",
+    "kappa": "3*Jcore*V2/(j1*j2)",
+    "spin": "Js*(1+kappa*c)",
+    "core_fraction": "kappa*c/(1+kappa*c)",
+    "B_M1_norm": "(1-c^2)*(j1^2+j2^2)/Js^2",
+    "B_E2_norm": "B_M1_norm^2",
+    "energy_above_head_over_V2": "1.5*c^2*(1+kappa*Js^2/(j1*j2))"
+  },
+  "boundary": "c=1 ends the internal shears branch; finite core model can continue with aligned blades; classical ratio undefined at exact endpoint",
+  "data_dependence": "none; no experimental values imported"
+}

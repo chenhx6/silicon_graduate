@@ -1,0 +1,112 @@
+{
+  "schema": "actinide-lanthanide-doublewell-schiff-boundary/v1",
+  "status": "bounded-source-self-audit",
+  "fingerprints": [
+    {
+      "path": "tmp/day26-octupole-doublewell/1003.4311.pdf",
+      "sha256": "ae90e45da93dd20dcdd46aed4e6ca58aa077c5b50f03062892a417d2e96493c8",
+      "bytes": 388984,
+      "signature_hex": "255044462d312e34",
+      "pages": 14,
+      "reading_coverage": "PDF3–5,10–11"
+    },
+    {
+      "path": "tmp/day26-octupole-doublewell/1209.2518.pdf",
+      "sha256": "9f782b344bfd02b6fc3fcd224f3d14235fd9857339a524ae0802859549663642",
+      "bytes": 631428,
+      "signature_hex": "255044462d312e34",
+      "pages": 31,
+      "reading_coverage": "PDF4,11–15"
+    },
+    {
+      "path": "tmp/day26-octupole-doublewell/2008.08870.pdf",
+      "sha256": "c22d0422bcfb86d3f4e24a7f2012de8d6eadecec0ff264826c62d3eb44d3d4ec",
+      "bytes": 2022542,
+      "signature_hex": "255044462d312e35",
+      "pages": 15,
+      "reading_coverage": "PDF2–4"
+    },
+    {
+      "path": "tmp/day26-octupole-doublewell/1209.0927.pdf",
+      "sha256": "3936f0e15176d433900a4b1fab5b5f66f15dca98c9edda0a8ad255bd67600674",
+      "bytes": 347366,
+      "signature_hex": "255044462d312e34",
+      "pages": 17,
+      "reading_coverage": "metadata and targeted keyword scan only; not used for target-chain numeric claims"
+    }
+  ],
+  "new_source_pages": [
+    "knowledge/sources/robledo-2010-bcp-d1s-octupole-ra-ba.md",
+    "knowledge/sources/rodriguez-guzman-2012-sm-gd-quadrupole-octupole.md",
+    "knowledge/sources/nomura-2020-ra-th-gogny-d1m-octupole.md"
+  ],
+  "model_numeric_comparison": [
+    {
+      "nucleus": "222Ra",
+      "edf": "D1S",
+      "well_depth_MeV": 1.5,
+      "precision": "author approximate prose",
+      "locator": "1003.4311 PDF4 Fig1 discussion"
+    },
+    {
+      "nucleus": "144Ba",
+      "edf": "D1S",
+      "well_depth_MeV": 0.7,
+      "precision": "author approximate prose",
+      "locator": "1003.4311 PDF10 Fig9 discussion"
+    },
+    {
+      "nucleus": "150Sm",
+      "edf": "D1S",
+      "meanfield_octupole_gain_MeV": 0.204,
+      "locator": "1209.2518 PDF12"
+    },
+    {
+      "nucleus": "150Sm",
+      "edf": "D1M",
+      "meanfield_octupole_gain_MeV": 0.105,
+      "locator": "1209.2518 PDF12"
+    }
+  ],
+  "ra225_pt_denominator": {
+    "energy_keV": 55.16,
+    "Jpi": "(1/2-)",
+    "source": "225088001 L55.16",
+    "excluded_31_56_keV": "3/2-; cannot couple to J1/2 ground state via rotational scalar",
+    "excluded_31_31_keV": "descriptive decoupling-fit intercept; not physical level energy"
+  },
+  "schiff_operator": {
+    "normalization": "e/10",
+    "units": "e fm^3",
+    "parity": "odd",
+    "time_reversal": "even",
+    "pt_breaking_source": "W_PT and resulting parity mixing"
+  },
+  "uniform_density_example": {
+    "classification": "illustrative geometry only, not measured or EDF reproduction",
+    "A": 225,
+    "Z": 88,
+    "beta2": 0.18,
+    "beta3": 0.1,
+    "radius_fm": 7.298642394688079,
+    "S_intr_e_fm3": 14.911112691171219,
+    "beta1_coefficient": -0.7433000852504282
+  },
+  "denominator_only_example_ratios": {
+    "1MeV": 18.129079042784625,
+    "5MeV": 90.64539521392314,
+    "10MeV": 181.29079042784628
+  },
+  "2005_model_channel_coefficient_ratios_Ra_to_Hg_absolute": [
+    3750.0,
+    109.0909090909091,
+    444.44444444444446
+  ],
+  "rejected_generalizations": [
+    "all220-228Ra and220-226Th barriers1-2MeV",
+    "all144-148Ba barriers<=.3MeV",
+    "Schiff coordinate operator is T odd",
+    "31keV is225Ra ground-doublet PT denominator"
+  ],
+  "no_credit_or_deadline_change": true
+}

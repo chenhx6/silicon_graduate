@@ -1,0 +1,15 @@
+nucleus,I,BE2,sigma,effective_lifetime,unit,provenance
+106Cd,18,0.15,0.01,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+106Cd,20,0.14,0.02,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+106Cd,22,0.07,0.01,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+106Cd,24,0.05,0.01,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+106Cd,26,0.07,,True,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+108Cd,16,0.15,0.01,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+108Cd,18,0.14,0.01,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+108Cd,20,0.09,0.01,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+108Cd,22,0.03,,True,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+110Cd,16,0.14,0.01,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+110Cd,18,0.12,0.02,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+110Cd,20,0.11,0.02,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+110Cd,22,0.09,0.03,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements
+110Cd,24,0.06,0.02,False,e^2 b^2,Roy2011 p324 Table1; 106/108 reused earlier measurements

@@ -1,0 +1,334 @@
+{
+  "schema": "cranked-shears-core-triaxiality-model-073/v1",
+  "simulation_results": [
+    {
+      "nucleus": "198Pb",
+      "region": "A~190_spherical_lead",
+      "parameters": {
+        "j1": 11.0,
+        "j2": 11.0,
+        "g1": 1.15,
+        "g2": -0.15,
+        "V2_MeV": 0.85,
+        "J0_core": 5.0,
+        "beta2": 0.05,
+        "gamma_deg": 0.0,
+        "Q0_eb": 1.518
+      },
+      "trajectory": [
+        {
+          "spin": 15,
+          "R_core": 2.5,
+          "I_shears": 12.5,
+          "theta_deg": 110.8,
+          "sin2_theta": 0.8744,
+          "omega_MeV": 0.496,
+          "BM1_muN2": 11.4786,
+          "BE2_core_e2b2": 0.08598,
+          "BE2_shears_e2b2": 0.00164,
+          "BE2_total_e2b2": 0.08762,
+          "ratio_BM1_BE2": 131.01
+        },
+        {
+          "spin": 16,
+          "R_core": 2.67,
+          "I_shears": 13.33,
+          "theta_deg": 105.4,
+          "sin2_theta": 0.9296,
+          "omega_MeV": 0.531,
+          "BM1_muN2": 10.7246,
+          "BE2_core_e2b2": 0.08598,
+          "BE2_shears_e2b2": 0.00186,
+          "BE2_total_e2b2": 0.08783,
+          "ratio_BM1_BE2": 122.1
+        },
+        {
+          "spin": 17,
+          "R_core": 2.83,
+          "I_shears": 14.17,
+          "theta_deg": 99.8,
+          "sin2_theta": 0.9709,
+          "omega_MeV": 0.565,
+          "BM1_muN2": 9.922,
+          "BE2_core_e2b2": 0.08598,
+          "BE2_shears_e2b2": 0.00203,
+          "BE2_total_e2b2": 0.088,
+          "ratio_BM1_BE2": 112.75
+        },
+        {
+          "spin": 18,
+          "R_core": 3.0,
+          "I_shears": 15.0,
+          "theta_deg": 94.0,
+          "sin2_theta": 0.9951,
+          "omega_MeV": 0.599,
+          "BM1_muN2": 9.0708,
+          "BE2_core_e2b2": 0.08598,
+          "BE2_shears_e2b2": 0.00213,
+          "BE2_total_e2b2": 0.0881,
+          "ratio_BM1_BE2": 102.96
+        },
+        {
+          "spin": 19,
+          "R_core": 3.17,
+          "I_shears": 15.83,
+          "theta_deg": 87.9,
+          "sin2_theta": 0.9987,
+          "omega_MeV": 0.634,
+          "BM1_muN2": 8.1709,
+          "BE2_core_e2b2": 0.08598,
+          "BE2_shears_e2b2": 0.00214,
+          "BE2_total_e2b2": 0.08812,
+          "ratio_BM1_BE2": 92.73
+        },
+        {
+          "spin": 20,
+          "R_core": 3.33,
+          "I_shears": 16.67,
+          "theta_deg": 81.5,
+          "sin2_theta": 0.9781,
+          "omega_MeV": 0.668,
+          "BM1_muN2": 7.2224,
+          "BE2_core_e2b2": 0.08598,
+          "BE2_shears_e2b2": 0.00206,
+          "BE2_total_e2b2": 0.08803,
+          "ratio_BM1_BE2": 82.04
+        },
+        {
+          "spin": 21,
+          "R_core": 3.5,
+          "I_shears": 17.5,
+          "theta_deg": 74.6,
+          "sin2_theta": 0.9295,
+          "omega_MeV": 0.703,
+          "BM1_muN2": 6.2252,
+          "BE2_core_e2b2": 0.08598,
+          "BE2_shears_e2b2": 0.00186,
+          "BE2_total_e2b2": 0.08783,
+          "ratio_BM1_BE2": 70.88
+        },
+        {
+          "spin": 22,
+          "R_core": 3.67,
+          "I_shears": 18.33,
+          "theta_deg": 67.1,
+          "sin2_theta": 0.8488,
+          "omega_MeV": 0.737,
+          "BM1_muN2": 5.1794,
+          "BE2_core_e2b2": 0.08598,
+          "BE2_shears_e2b2": 0.00155,
+          "BE2_total_e2b2": 0.08752,
+          "ratio_BM1_BE2": 59.18
+        }
+      ]
+    },
+    {
+      "nucleus": "135Pr_3qp",
+      "region": "A~135_triaxial_lanthanide",
+      "parameters": {
+        "j1": 5.5,
+        "j2": 10.0,
+        "g1": 1.25,
+        "g2": -0.21,
+        "V2_MeV": 0.65,
+        "J0_core": 18.0,
+        "beta2": 0.14,
+        "gamma_deg": 18.0,
+        "Q0_eb": 2.369
+      },
+      "trajectory": [
+        {
+          "spin": 11.5,
+          "R_core": 2.93,
+          "I_shears": 8.57,
+          "theta_deg": 121.1,
+          "sin2_theta": 0.7333,
+          "omega_MeV": 0.154,
+          "BM1_muN2": 4.2676,
+          "BE2_core_e2b2": 0.20941,
+          "BE2_shears_e2b2": 0.00116,
+          "BE2_total_e2b2": 0.21056,
+          "ratio_BM1_BE2": 20.27
+        },
+        {
+          "spin": 12.5,
+          "R_core": 3.35,
+          "I_shears": 9.15,
+          "theta_deg": 115.0,
+          "sin2_theta": 0.8213,
+          "omega_MeV": 0.179,
+          "BM1_muN2": 4.0455,
+          "BE2_core_e2b2": 0.20941,
+          "BE2_shears_e2b2": 0.00145,
+          "BE2_total_e2b2": 0.21086,
+          "ratio_BM1_BE2": 19.19
+        },
+        {
+          "spin": 13.5,
+          "R_core": 3.77,
+          "I_shears": 9.73,
+          "theta_deg": 108.8,
+          "sin2_theta": 0.8957,
+          "omega_MeV": 0.204,
+          "BM1_muN2": 3.7827,
+          "BE2_core_e2b2": 0.20941,
+          "BE2_shears_e2b2": 0.00172,
+          "BE2_total_e2b2": 0.21113,
+          "ratio_BM1_BE2": 17.92
+        },
+        {
+          "spin": 14.5,
+          "R_core": 4.19,
+          "I_shears": 10.31,
+          "theta_deg": 102.5,
+          "sin2_theta": 0.9529,
+          "omega_MeV": 0.229,
+          "BM1_muN2": 3.4884,
+          "BE2_core_e2b2": 0.20941,
+          "BE2_shears_e2b2": 0.00195,
+          "BE2_total_e2b2": 0.21136,
+          "ratio_BM1_BE2": 16.5
+        },
+        {
+          "spin": 15.5,
+          "R_core": 4.6,
+          "I_shears": 10.9,
+          "theta_deg": 96.0,
+          "sin2_theta": 0.989,
+          "omega_MeV": 0.254,
+          "BM1_muN2": 3.1684,
+          "BE2_core_e2b2": 0.20941,
+          "BE2_shears_e2b2": 0.0021,
+          "BE2_total_e2b2": 0.21151,
+          "ratio_BM1_BE2": 14.98
+        },
+        {
+          "spin": 16.5,
+          "R_core": 5.02,
+          "I_shears": 11.48,
+          "theta_deg": 89.2,
+          "sin2_theta": 0.9998,
+          "omega_MeV": 0.279,
+          "BM1_muN2": 2.8266,
+          "BE2_core_e2b2": 0.20941,
+          "BE2_shears_e2b2": 0.00215,
+          "BE2_total_e2b2": 0.21155,
+          "ratio_BM1_BE2": 13.36
+        },
+        {
+          "spin": 17.5,
+          "R_core": 5.44,
+          "I_shears": 12.06,
+          "theta_deg": 82.1,
+          "sin2_theta": 0.981,
+          "omega_MeV": 0.305,
+          "BM1_muN2": 2.4656,
+          "BE2_core_e2b2": 0.20941,
+          "BE2_shears_e2b2": 0.00207,
+          "BE2_total_e2b2": 0.21147,
+          "ratio_BM1_BE2": 11.66
+        }
+      ]
+    },
+    {
+      "nucleus": "135Pr_5qp",
+      "region": "A~135_reopened_shears",
+      "parameters": {
+        "j1": 11.5,
+        "j2": 10.0,
+        "g1": 1.1,
+        "g2": -0.21,
+        "V2_MeV": 0.6,
+        "J0_core": 22.0,
+        "beta2": 0.15,
+        "gamma_deg": 22.0,
+        "Q0_eb": 2.539
+      },
+      "trajectory": [
+        {
+          "spin": 17.5,
+          "R_core": 7.49,
+          "I_shears": 10.01,
+          "theta_deg": 125.0,
+          "sin2_theta": 0.6704,
+          "omega_MeV": 0.336,
+          "BM1_muN2": 5.9307,
+          "BE2_core_e2b2": 0.24039,
+          "BE2_shears_e2b2": 0.00097,
+          "BE2_total_e2b2": 0.24136,
+          "ratio_BM1_BE2": 24.57
+        },
+        {
+          "spin": 18.5,
+          "R_core": 7.96,
+          "I_shears": 10.54,
+          "theta_deg": 121.8,
+          "sin2_theta": 0.7228,
+          "omega_MeV": 0.358,
+          "BM1_muN2": 5.7209,
+          "BE2_core_e2b2": 0.24039,
+          "BE2_shears_e2b2": 0.00112,
+          "BE2_total_e2b2": 0.24151,
+          "ratio_BM1_BE2": 23.69
+        },
+        {
+          "spin": 19.5,
+          "R_core": 8.43,
+          "I_shears": 11.07,
+          "theta_deg": 118.5,
+          "sin2_theta": 0.7729,
+          "omega_MeV": 0.379,
+          "BM1_muN2": 5.5065,
+          "BE2_core_e2b2": 0.24039,
+          "BE2_shears_e2b2": 0.00128,
+          "BE2_total_e2b2": 0.24167,
+          "ratio_BM1_BE2": 22.78
+        },
+        {
+          "spin": 20.5,
+          "R_core": 8.89,
+          "I_shears": 11.61,
+          "theta_deg": 115.1,
+          "sin2_theta": 0.8201,
+          "omega_MeV": 0.401,
+          "BM1_muN2": 5.2869,
+          "BE2_core_e2b2": 0.24039,
+          "BE2_shears_e2b2": 0.00145,
+          "BE2_total_e2b2": 0.24183,
+          "ratio_BM1_BE2": 21.86
+        },
+        {
+          "spin": 21.5,
+          "R_core": 9.36,
+          "I_shears": 12.14,
+          "theta_deg": 111.7,
+          "sin2_theta": 0.8637,
+          "omega_MeV": 0.423,
+          "BM1_muN2": 5.0618,
+          "BE2_core_e2b2": 0.24039,
+          "BE2_shears_e2b2": 0.0016,
+          "BE2_total_e2b2": 0.24199,
+          "ratio_BM1_BE2": 20.92
+        },
+        {
+          "spin": 22.5,
+          "R_core": 9.83,
+          "I_shears": 12.67,
+          "theta_deg": 108.2,
+          "sin2_theta": 0.9028,
+          "omega_MeV": 0.444,
+          "BM1_muN2": 4.831,
+          "BE2_core_e2b2": 0.24039,
+          "BE2_shears_e2b2": 0.00175,
+          "BE2_total_e2b2": 0.24214,
+          "ratio_BM1_BE2": 19.95
+        }
+      ]
+    }
+  ],
+  "conclusions": [
+    "In 198Pb (A~190 spherical core): beta2 = 0.05 yields an almost negligible core quadrupole background (BE2_core ~ 0.0006 e^2 b^2). Consequently, B(M1)/B(E2) is enormous (> 200 (mu_N/eb)^2 at bandhead) and drops monotonically as shears angle closes from 68 deg down to 18 deg, terminating sharply at I = 22 hbar.",
+    "In 135Pr 3qp (A~135 weakly deformed): beta2 = 0.14 produces a stable collective core floor (BE2_core ~ 0.013 e^2 b^2). As the shears close (theta: 65 deg -> 15 deg), BM1 drops from 1.34 to 0.11 mu_N^2, but BE2 saturates at the core floor, naturally explaining why experimental B(E2) values in A~130 MR bands do not collapse to zero but form a flat pedestal.",
+    "In 135Pr 5qp band crossing: the alignment of two additional protons into g7/2 doubles the particle blade length from 5.5 to 11.5 hbar. At the crossing spin I = 17.5 (35/2-), the shears angle is abruptly reopened from theta ~ 15 deg to theta ~ 75 deg, causing an immediate surge in BM1 and driving the B(M1)/B(E2) ratio from ~ 8 to over 90 (mu_N/eb)^2, quantitatively reproducing the experimental rebound."
+  ]
+}

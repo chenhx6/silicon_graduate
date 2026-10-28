@@ -1,0 +1,41 @@
+{
+  "worker": "amr-termination-oddA-20261029",
+  "status": "complete",
+  "date": "2026-10-29",
+  "deliverables": {
+    "research_note": "knowledge/research-notes/amr-cd-isotopes-quantum-termination-odda-signature-audit.md",
+    "source_pages": [
+      "knowledge/sources/zhang-2013-105106cd-pnc-superfluidity.md",
+      "knowledge/sources/zhao-2012-105cd-cdft-antimagnetic.md",
+      "knowledge/sources/roy-2013-105cd-amr-comment-metadata.md",
+      "knowledge/sources/negi-2010-107in-shears-metadata.md"
+    ],
+    "raw_primary_pdfs": [
+      "raw/papers/gpt/day26-20261028/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf",
+      "raw/papers/gpt/day26-20261028/zhao-2012-105cd-cdft-antimagnetic-arxiv1205.0867v1.pdf"
+    ],
+    "audit_artifacts": [
+      "amr_quantum_termination_audit.py",
+      "quantum_termination_audit.json",
+      "cd_BE2_reinspection.csv",
+      "acquisition.json",
+      "metadata-acquisition.json",
+      "wiki-lint-final.json",
+      "boundary-final.json"
+    ]
+  },
+  "findings": [
+    "Roy Table1: 106Cd 18-24 B(E2)=0.15,0.14,0.07,0.05 with 26 effective-lifetime 0.07; 108Cd 16-20=0.15,0.14,0.09 with 22 effective 0.03; 110Cd 16-24=0.14,0.12,0.11,0.09,0.06. Do not claim strict monotonic 106/108 collapse or exact 110 plateau.",
+    "Zhang PNC-CSM: pairing essential for MOI and changes shear closure; 105Cd Q20 falls 0.55 to 0.41 eb over 0.45-0.75 MeV, 106Cd needs epsilon2 about 0.14 to 0.12 for high-frequency E2 trend.",
+    "Finite single-j Pauli audit: Jmax(g9/2^2)=8, Jmax(h11/2^2)=10; frozen pi(g9/2)^-2 x nu(h11/2)^2 with other particles J=0 has Imax=18, not universal full-nucleus bound. Pair norm <SdagS>=5/6 at J=0 and 0 at aligned J for g/h pair. Finite endpoint E2 remains nonzero.",
+    "Odd-A: Rz(pi) eigenvalues are +/-i for half-integer signature. If full blocked state/density preserves Rz(pi), mu_x=mu_y=0 while mu_z may remain; Ry(pi)T only forces mu_y=0, not both transverse components. Odd-A evidence is secure for 105Cd; 107In source title says shears mechanism, AMR not verified here.",
+    "Roy 2013 105Cd comment exists by Crossref, but APS full text returned 401 and is not read."
+  ],
+  "validation": {
+    "owned_lint_errors": 0,
+    "global_lint_errors": 20,
+    "boundary_ok": true,
+    "diff_check": "passed",
+    "commit_push": "not performed; parent owns integration/publication"
+  }
+}

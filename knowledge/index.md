@@ -20,6 +20,9 @@ updated: 2026-10-28
 - [[odd-a-octupole-blocking-parity-doublets]] — 奇A核八极阻塞效应与宇称双重态：145Ba微观淬灭与225Ra Coriolis旋称交错反转。
 - [[ba-ra-blocking-cancellation-operator-boundary]] — Ba/Ra微观八极与偶极算符核边界：选择定则、自洽阻塞与Schiff响应分层。
 - [[pr135-mr-crossing-racah-polarization-source-boundary]] — 135Pr能带交叉、Racah重耦合与偏振原件边界：5qp组态修正与非单调反弹核定。
+- [[cranked-shears-core-coupling-pb-vs-pr]] — 推转剪刀与核芯耦合模型：铅区（A~190）与稀土区（A~130）磁转动微观动力学对比。
+- [[pb-pr-magnetic-rotation-core-crossing-systematics]] — 铅区与稀土区磁转动系统学：核芯转动、交叉重开与无量纲响应。
+- [[actinide-lanthanide-doublewell-schiff-boundary]] — 锕系与镧系八极双阱势垒、隧穿劈裂与Schiff矩算符证据边界。
 - [[cd110-branch-normalization-boundary]] — 110Cd相对分支、22⁺ 1100-keV情景与Roy B(E2)归一化边界。
 
 - [[nndc-2012-cd110-hi-xng]] — 110Cd HI,XNG评价：高自旋寿命、分支、DCO与1100-keV争议。
@@ -396,6 +399,9 @@ updated: 2026-10-28
 - [[nomura-2018-odd-mass-ba-octupole]] - DD-PC1/sdf-IBFM 对 143,145,147Ba 的八极形变和奇质量态依赖预测；保留 axial、拟合与基态自旋偏差边界。
 - [[engel-2003-ra225-selfconsistent-schiff]] - Skyrme-Hartree-Fock 与芯极化模型下 225Ra 时间反演破坏 Schiff 矩及偶极相消点。
 - [[dobaczewski-2005-ra225-schiff]] - 225Ra 宇称双重态对时间反演非对称 Schiff 矩的增强机制与能量分母敏感性。
+- [[robledo-2010-bcp-d1s-octupole-ra-ba]] - BCP 与 Gogny D1S 泛函下 Ra 与 Ba 同位素八极势垒深度与微观单粒子对驱动。
+- [[rodriguez-guzman-2012-sm-gd-quadrupole-octupole]] - Gogny D1S/D1M 泛函下 Sm 与 Gd 同位素四极-八极自由度耦合与浅势阱八极软化。
+- [[nomura-2020-ra-th-gogny-d1m-octupole]] - Gogny D1M 势能面微观映射 sdf-IBM 下轻锕系 Ra 与 Th 同位素八极形变与势垒核素依赖。
 - [[dey-2026-116cs-multifaceted-decay]] - `116Cs`/`116Xe` 滴线多通道衰变、7.66-MeV 低能等轴八极共振、延迟 2p 与可能 `12C` cluster；数据与代码可得性边界。
 - [[hamilton-1948-successive-quanta-polarization]] - successive-γ direction–polarization formalism；16种 dipole/quadrupole 组合、相对宇称可判定性和探测效率边界。
 - [[herzan-2015-193bi-spectroscopy]] - `193Bi` JUROGAM-II/RITU/GREAT 纲图、`29/2±` 异构体、RDCO/IPDCO 标定和 `1/2[651]` SD 候选。
@@ -1055,3 +1061,9 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[rather-2014-104pd-antimagnetic-first-page]] — 104Pd AMR期刊第一页原件；剩余4页缺失不冒称全文。
 
 - [[zhang-2019-104pd-pnc-antimagnetic-rotation]] — 104Pd粒子数守恒推转壳模型、双剪刀两阶段和形变拟合边界。
+
+- [[amr-cd-isotopes-quantum-termination-odda-signature-audit]]
+- [[zhang-2013-105106cd-pnc-superfluidity]]
+- [[zhao-2012-105cd-cdft-antimagnetic]]
+- [[roy-2013-105cd-amr-comment-metadata]]
+- [[negi-2010-107in-shears-metadata]]

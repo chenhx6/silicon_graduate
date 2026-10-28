@@ -4620,3 +4620,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. AMR不可约球四极张量与核芯解耦微观审计（amr-double-shears-tensor-core-coupling-audit.md，workers/amr-tensor-core-20261029/）：代数与数值严格证明T21==0, T22=2sin^2(theta)exp(2iphi)引发B(E2)~sin^4(theta)四次方幂律，核算Roy 2011 110Cd核心角动量增量贡献Delta R/Delta I=42.10%，读取Zhang 2019 104Pd原件建立非普适形变反向检验；
   3. 135Pr能带交叉动力学与2019偏振勘误原件定界（pr135-mr-crossing-racah-polarization-source-boundary.md）：纠正5qp配置新增质子(g7/2)^2，厘清35/2-之前实验比值上升对决更高自旋TAC反弹模型预测，校正DCO=0.22(2)与偏振不对称度Delta反演混合比的参数依赖性，校准pr135-shears-dynamics-bandcrossing-rebound.md与pr135-wobbling-vs-shears-discrimination.md；
   4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T03:30:00+08:00 Day26 checkpoint069：跨区微观八极势垒与Schiff矩、Pb/Pr剪刀核芯演化及AMR量子终止态审计。
+  1. 锕系与镧系微观八极双阱势垒、隧穿劈裂与Schiff矩（actinide-lanthanide-doublewell-schiff-boundary.md）：证伪固定势垒阈值二分法（222Ra达1.5 MeV，144Ba达0.7 MeV，150Sm为105-204 keV）；推导内禀Schiff矩几何公式S_intr = 9/(20pi sqrt(35)) e Z R^3 beta2 beta3，澄清225Ra基态PT混合有效能级分母为55.16 keV（1/2-伙伴态）；新增robledo-2010、rodriguez-guzman-2012与nomura-2020三篇来源页；
+  2. 铅区与稀土区磁转动微观剪刀动力学与核芯演化（pb-pr-magnetic-rotation-core-crossing-systematics.md，cranked-shears-core-coupling-pb-vs-pr.md，工件073与六面板曲线）：推导平行核芯推转模型R/I = kappa cos(theta)/(1 + kappa cos(theta))，证明Pb区亦存在非零核芯贡献与交叉重开（199Pb Band 2），阐明b_E2 = b_M1^2下单带闭合比值反常上升机制，数值复现135Pr四极底座（0.013 e^2b^2）与重开反弹；
+  3. AMR量子终止态机制与奇A核离散签名保护（amr-cd-isotopes-quantum-termination-odda-signature-audit.md）：核对110Cd非严格平台而属相对缓降，精确计数4qp子空间终止角动量I_max = 18hbar与单极配对淬灭，证明奇A核（105Cd）在R_z(pi)|Psi_r> = r|Psi_r>签名保护下横向磁偶极矩严格相消；新增zhang-2013、zhao-2012等四篇来源页；
+  4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
