@@ -65,6 +65,8 @@ $$I_{\text{shears}} = j_n + 2 j_h \cos\theta = 10.0 + 9.0 \cos\theta$$
 $$I_{\text{max}} = 10.0 + 9.0 = 19.0\hbar$$
 同时，四剪刀电四极跃迁几率随着夹角闭合呈四次方急剧衰减：
 $$B(E2; I \to I-2) \propto \sin^4\theta = \left[1 - \left(\frac{I - 10}{9}\right)^2\right]^2$$
+依据独立验证工件 `amr-quadrupole-tensor-sin4-proof-069.py/json` 的不可约球张量严格证明：在双剪刀镜像对称构型下，剪切耦合分量 $T_{21} \propto \cos\theta(-\sin\theta) + \cos\theta(+\sin\theta) \equiv 0$ 恒等相消，辐射场完全由非轴对称张量分量 $T_{22} \propto \sin^2\theta$ 支配，导致辐射几率严格遵从 $B(E2) \propto |T_{22}|^2 \propto \sin^4\theta$ 四次方幂律，这是对称双剪刀系统的确定性张量定理。
+
 按照纯剪刀模型，当自旋从 $14^+$ 增加到 $18^+$ 时，$B(E2)$ 将发生断崖式跌落（下降逾 $80\%$），且能带在 $19\hbar$ 处终止。这与实验在 $^{110}\text{Cd}$ 中观测到能带延伸至 $24^+$ 且 $B(E2)$ 维持平缓平台的实际情况严重矛盾。
 
 ### 2. 半刚体核芯转动耦合（Core Rotation Decoupling）

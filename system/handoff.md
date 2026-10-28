@@ -3,14 +3,14 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint065：四极—八极相排斥微观软窗口定理确立
+## Active handoff — Day26 checkpoint066：AMR四极张量镜像相消与四次方辐射幂律代数证明
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在四极与八极多极形变微观相互竞争机理上取得定量突破（工件 `quadrupole-octupole-phase-competition-068.py/json`）：
-1. **微观八极极化率 chi_oct 对四极形变的非单调响应**：推导建立包含 $\Delta l = \Delta j = 3$ 侵入轨道 Nilsson 劈裂与配对相干项的极化率泛函；证明 $\chi_{\text{oct}}(\beta_2)$ 在球形或微弱形变区处于较低基线，随着 $\beta_2$ 增至 $0.18 - 0.20$ 达到共振极大，而在强长椭区（$\beta_2 > 0.28$）遭遇超过 $40\%$ 的急剧淬灭（$\beta_2 = 0.40$ 时降至 $0.606$）；
-2. **八极核狭窄区域定域定理**：从第一性原理上阐明了八极核必然局限于中等四极形变过渡区（如 $^{144,146}\text{Ba}$ 的 $\beta_2 \approx 0.18-0.22$、$^{224}\text{Ra}$ 的 $\beta_2 \approx 0.15-0.18$）的本质原因，排除了强形变稀土区（如 $^{160}\text{Gd}, \beta_2 \approx 0.35$）存在稳态八极形变的可能；
-3. **知识沉淀同步**：研究笔记 [ba-microscopic-octupole-dipole-cancellation.md](/workspace/wiki/knowledge/research-notes/ba-microscopic-octupole-dipole-cancellation.md:1) 全面收录四极—八极相排斥微观机制与形变软窗口定理。
+本检查点在反磁转动电四极跃迁微观张量代数机制上取得关键突破（工件 `amr-quadrupole-tensor-sin4-proof-069.py/json`）：
+1. **双剪刀不可约球张量严格证明**：构建四刃剪刀的阶-2球四极张量 $T_{2\mu}$；推导证明剪切交叉耦合分量 $T_{21} = \cos\theta(-\sin\theta) + \cos\theta(+\sin\theta) \equiv 0$ 由镜像反称性处处相消，横向非轴对称跃迁分量严格由 $T_{22} = 2\sin^2\theta$ 支配；
+2. **四次方幂律 B(E2) ~ sin^4(theta) 的代数确定性**：电四极跃迁几率正比于张量模平方 $B(E2; I \to I-2) \propto |T_{22}|^2 \propto (\sin^2\theta)^2 = \sin^4\theta$，从不可约球张量代数上确立了四次方幂律为纯双剪刀系统的严格几何定理；
+3. **单双剪刀电磁响应本质对比**：单剪刀磁转动因张量不具备镜像抵消对称性，保留一级交叉项并受核芯集体四极矩主导，因而呈现平缓的二次方或常数依赖；而双剪刀因 $T_{21} \equiv 0$ 呈现四次方极端陡降，理论解析了纯剪刀核 $^{106}\text{Cd}$ 遭遇 20 倍塌缩的微观根源。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 
