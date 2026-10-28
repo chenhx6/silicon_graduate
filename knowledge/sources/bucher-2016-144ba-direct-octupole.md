@@ -112,3 +112,8 @@ Bucher *et al.* provide a direct E3 benchmark that is materially stronger than r
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | BU16-D21-1 | Bucher 2016 在 $^{144}\text{Ba}$ 中直接测定的基态跃迁矩阵元 $\langle 3^- \Vert M(E3) \Vert 0^+ \rangle = 0.65_{-0.23}^{+0.17}\ e\text{b}^{3/2}$（$B(E3) = 48_{-34}^{+25}\text{ W.u.}$）确证了强的八极跃迁集体性（对应方均根振幅 $\sqrt{\langle \beta_3^2 \rangle} \approx 0.17$），但不能排他性认证为静态梨形形变；其实测交错宇称带在低自旋存在高达 $\Delta E(1^-) = +659.1\text{ keV}$ 的声子偏移（对比 $^{224}\text{Ra}$ 的 $173.8\text{ keV} \to 0$），激发态 $2^+ \to 5^-$ 与 $4^+ \to 7^-$ 仅得上界（$<1.2$ 与 $<1.6\ e\text{b}^{3/2}$），且微观势能面势垒（$<0.5-1.0\text{ MeV}$）低于八极零点振动能量（$\sim 1.0-1.5\text{ MeV}$），表明体系呈现强八极柔软动态涨落。 | claim-boundary-audit | direct-and-derived | PRL 116, 112503 pp.3-4, Table I; octupole-ba-audit-006.json | true |
+## Day25内Day26无学分preview：直接八极与E1灵敏度边界核查
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| BU16-D25P-A005-01 | ATLAS CARIBU 垒下库仑激发直接测定 $^{144}\text{Ba}$ 的 $B(E3; 3^- \to 0^+) = 48_{-34}^{+25}\text{ W.u.}$，转子模型换算内禀 $Q_3 = (1.73_{-0.62}^{+0.45}) \times 10^3\ e\text{fm}^3$。本次库仑激发截面对一阶 $E1$ 弱敏感，表列 $E1$ 矩阵元主要受既有寿命与分支比先验约束，前角区不可视作 $E1$ 独立高灵敏度直接测量。 | direct-octupole-and-e1-sensitivity-boundary | direct-original | PRL 116, 112503 pp.3-4 | true |
