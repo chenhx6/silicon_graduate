@@ -37,9 +37,9 @@ DEFAULT_LOCK_FILE = Path("/tmp/wiki-one-month-daily-learning-daemon.lock")
 STATE_NAME = "2026-09-one-month-scheduler-state.json"
 LOG_NAME = "2026-09-one-month-scheduler.jsonl"
 MODEL_PRIORITY = (
+    ("gpt-6.1-sol", "high"),
+    ("gpt-6.1-terra", "high"),
     ("gpt-6-luna", "max"),
-    ("gpt-6-sol", "high"),
-    ("gpt-6-astra", "medium"),
 )
 
 

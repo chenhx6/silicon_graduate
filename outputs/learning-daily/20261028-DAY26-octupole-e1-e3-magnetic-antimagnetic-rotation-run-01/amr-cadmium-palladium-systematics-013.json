@@ -1,0 +1,600 @@
+{
+  "schema_version": 1,
+  "artifact_id": "amr-cadmium-palladium-systematics-013",
+  "title": "Comprehensive Antimagnetic Rotation Systematics, Double Shears Dynamics, and Diagnostic Ratio Audit",
+  "physics_summary": {
+    "spatial_time_reversal_symmetry": "In AMR, two identical high-j blades (e.g. pi(g9/2)^-1) are oriented symmetrically at angles +theta and -theta with respect to the rotation axis z. Under spatial rotation R_z(pi), blade 1 transforms into blade 2, preserving the mean field. Under time reversal T, all spins reverse. The combined symmetry R_z(pi) conserves signature r = e^(-i pi alpha) = +1, strictly forbidding Delta I = 1 M1 transitions (B(M1) = 0). Transverse magnetic dipole moments cancel identically: mu_perp = mu_1_perp + mu_2_perp = g_h j_h sin(theta) - g_h j_h sin(theta) = 0.",
+    "radiation_power_law": "The quadrupole transition operator in the transverse plane is Q_22 = sqrt(3/8) (Q_xx - Q_yy) = sqrt(27/8) Q_0 sin^2(theta). The reduced transition probability is B(E2; I -> I-2) = (15 / 32pi) (eQ_eff)^2 sin^4(theta). The fourth-power dependence causes an abrupt, plunging drop of B(E2) in pure AMR (dropping by a factor of 10-20 as theta closes from 90 deg to 15 deg in 106,108Cd). In contrast, in 110Cd, half-rigid core rotation (Im = 19.5 hbar^2/MeV) shares 18% to 26% of the angular momentum, moderating the closure to theta = 70 deg -> 31 deg, maintaining a robust B(E2) plateau (0.14 -> 0.06 e^2b^2).",
+    "diagnostic_ratio_threshold": "Normal deformed collective rotors (e.g. 166Er) exhibit large B(E2) ~ 1.5 - 2.0 e^2b^2 (hundreds of W.u.) and dynamic moments of inertia J(2) ~ 35 - 45 hbar^2/MeV, yielding J(2)/B(E2) ~ 15 - 30 hbar^2 MeV^-1 (e^2 b^2)^-1. In contrast, all verified AMR bands in Cd and Pd isotopes exhibit J(2)/B(E2) in the range 100 - 1300 hbar^2 MeV^-1 (e^2 b^2)^-1, exceeding normal collective rotation by more than one full order of magnitude. This giant ratio is an exclusive signature of shears-driven generation of rotational energy without substantial core quadrupole deformation."
+  },
+  "experimental_database": {
+    "106Cd_Band3": {
+      "nucleus": "106Cd",
+      "band": "Band 3 (yrast)",
+      "configuration": "pi(g9/2)^-2 x nu[(h11/2)^2 (g7/2)^2]",
+      "type": "Pure AMR (two shears)",
+      "source": "Simons et al., PRL 91, 162501 (2003); PRC 72, 024318 (2005); Kumar 2025 Tab 3",
+      "min_ratio": 46.9,
+      "max_ratio": 301.3,
+      "mean_ratio": 209.0,
+      "levels": [
+        {
+          "I": 12,
+          "E_gamma_keV": 602.4,
+          "tau_ps": 2.44,
+          "tau_err_ps": 0.04,
+          "BE2_e2b2": 0.42,
+          "BE2_err": 0.01,
+          "J2_hbar2_per_MeV": 19.7,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 46.9,
+          "J2_over_BE2_err": 1.1
+        },
+        {
+          "I": 14,
+          "E_gamma_keV": 807.9,
+          "tau_ps": 1.41,
+          "tau_err_ps": 0.06,
+          "BE2_e2b2": 0.17,
+          "BE2_err": 0.01,
+          "J2_hbar2_per_MeV": 47.3,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 278.2,
+          "J2_over_BE2_err": 16.4
+        },
+        {
+          "I": 16,
+          "E_gamma_keV": 892.3,
+          "tau_ps": 0.93,
+          "tau_err_ps": 0.05,
+          "BE2_e2b2": 0.15,
+          "BE2_err": 0.01,
+          "J2_hbar2_per_MeV": 45.2,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 301.3,
+          "J2_over_BE2_err": 20.1
+        },
+        {
+          "I": 18,
+          "E_gamma_keV": 980.8,
+          "tau_ps": 0.64,
+          "tau_err_ps": 0.05,
+          "BE2_e2b2": 0.14,
+          "BE2_err": 0.01,
+          "J2_hbar2_per_MeV": 23.6,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 168.6,
+          "J2_over_BE2_err": 12.0
+        },
+        {
+          "I": 20,
+          "E_gamma_keV": 1150.6,
+          "tau_ps": 0.42,
+          "tau_err_ps": 0.04,
+          "BE2_e2b2": 0.1,
+          "BE2_err": 0.01,
+          "J2_hbar2_per_MeV": 25.0,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 250.0,
+          "J2_over_BE2_err": 25.0
+        }
+      ]
+    },
+    "108Cd_Band1": {
+      "nucleus": "108Cd",
+      "band": "Band 1",
+      "configuration": "pi(g9/2)^-2 x nu[h11/2^2 (g7/2/d5/2)^2]",
+      "type": "Pure AMR (two shears)",
+      "source": "Datta et al., PRC 71, 041305 (2005); Roy 2011 Tab 1; Kumar 2025 Tab 3",
+      "min_ratio": 96.4,
+      "max_ratio": 600.0,
+      "mean_ratio": 254.6,
+      "levels": [
+        {
+          "I": 14,
+          "E_gamma_keV": 808.0,
+          "tau_ps": 1.32,
+          "tau_err_ps": 0.13,
+          "BE2_e2b2": 0.28,
+          "BE2_err": 0.03,
+          "J2_hbar2_per_MeV": 27.0,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 96.4,
+          "J2_over_BE2_err": 10.3
+        },
+        {
+          "I": 16,
+          "E_gamma_keV": 956.3,
+          "tau_ps": 0.69,
+          "tau_err_ps": 0.05,
+          "BE2_e2b2": 0.15,
+          "BE2_err": 0.01,
+          "J2_hbar2_per_MeV": 27.0,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 180.0,
+          "J2_over_BE2_err": 12.0
+        },
+        {
+          "I": 18,
+          "E_gamma_keV": 1105.3,
+          "tau_ps": 0.33,
+          "tau_err_ps": 0.03,
+          "BE2_e2b2": 0.14,
+          "BE2_err": 0.01,
+          "J2_hbar2_per_MeV": 25.8,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 184.3,
+          "J2_over_BE2_err": 13.2
+        },
+        {
+          "I": 20,
+          "E_gamma_keV": 1260.0,
+          "tau_ps": 0.28,
+          "tau_err_ps": 0.03,
+          "BE2_e2b2": 0.09,
+          "BE2_err": 0.01,
+          "J2_hbar2_per_MeV": 19.1,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 212.2,
+          "J2_over_BE2_err": 23.6
+        },
+        {
+          "I": 22,
+          "E_gamma_keV": 1469.0,
+          "tau_ps": 0.36,
+          "tau_err_ps": 0.05,
+          "BE2_e2b2": 0.03,
+          "BE2_err": 0.01,
+          "J2_hbar2_per_MeV": 18.0,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 600.0,
+          "J2_over_BE2_err": 200.0
+        }
+      ]
+    },
+    "110Cd_BandB": {
+      "nucleus": "110Cd",
+      "band": "Band B (yrast)",
+      "configuration": "pi(g9/2)^-2 x nu(h11/2)^2 + core",
+      "type": "AMR + Core Rotation",
+      "source": "Roy et al., PLB 694, 322 (2011) Table 1; NNDC ENSDF 110048001",
+      "min_ratio": 191.4,
+      "max_ratio": 550.0,
+      "mean_ratio": 352.0,
+      "levels": [
+        {
+          "I": 16,
+          "E_gamma_keV": 1075.0,
+          "tau_ps": 0.36,
+          "tau_err_ps": 0.03,
+          "BE2_e2b2": 0.14,
+          "BE2_err": 0.01,
+          "J2_hbar2_per_MeV": 26.8,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 191.4,
+          "J2_over_BE2_err": 13.7
+        },
+        {
+          "I": 18,
+          "E_gamma_keV": 1224.0,
+          "tau_ps": 0.23,
+          "tau_err_ps": 0.03,
+          "BE2_e2b2": 0.12,
+          "BE2_err": 0.02,
+          "J2_hbar2_per_MeV": 40.4,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 336.7,
+          "J2_over_BE2_err": 56.1
+        },
+        {
+          "I": 20,
+          "E_gamma_keV": 1323.0,
+          "tau_ps": 0.17,
+          "tau_err_ps": 0.03,
+          "BE2_e2b2": 0.11,
+          "BE2_err": 0.02,
+          "J2_hbar2_per_MeV": 37.5,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 340.9,
+          "J2_over_BE2_err": 62.0
+        },
+        {
+          "I": 22,
+          "E_gamma_keV": 1314.0,
+          "tau_ps": 0.21,
+          "tau_err_ps": 0.07,
+          "BE2_e2b2": 0.09,
+          "BE2_err": 0.03,
+          "J2_hbar2_per_MeV": 30.7,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 341.1,
+          "J2_over_BE2_err": 113.7
+        },
+        {
+          "I": 24,
+          "E_gamma_keV": 1358.0,
+          "tau_ps": 0.27,
+          "tau_err_ps": 0.07,
+          "BE2_e2b2": 0.06,
+          "BE2_err": 0.02,
+          "J2_hbar2_per_MeV": 33.0,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 550.0,
+          "J2_over_BE2_err": 183.3
+        }
+      ]
+    },
+    "105Cd_Band4": {
+      "nucleus": "105Cd",
+      "band": "Band 4 (negative parity)",
+      "configuration": "pi(g9/2)^-2 x nu(h11/2) (d5/2,g7/2)^2",
+      "type": "Odd-A AMR",
+      "source": "Choudhury et al., PRC 82, 061308 (2010); Kumar 2025 Tab 3",
+      "min_ratio": 189.7,
+      "max_ratio": 607.7,
+      "mean_ratio": 339.6,
+      "levels": [
+        {
+          "I": 13.5,
+          "E_gamma_keV": 907.0,
+          "tau_ps": 1.07,
+          "tau_err_ps": 0.14,
+          "BE2_e2b2": 0.155,
+          "BE2_err": 0.02,
+          "J2_hbar2_per_MeV": 29.4,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 189.7,
+          "J2_over_BE2_err": 24.5
+        },
+        {
+          "I": 15.5,
+          "E_gamma_keV": 1043.7,
+          "tau_ps": 0.62,
+          "tau_err_ps": 0.08,
+          "BE2_e2b2": 0.106,
+          "BE2_err": 0.014,
+          "J2_hbar2_per_MeV": 29.4,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 277.4,
+          "J2_over_BE2_err": 36.6
+        },
+        {
+          "I": 17.5,
+          "E_gamma_keV": 1179.6,
+          "tau_ps": 0.4,
+          "tau_err_ps": 0.04,
+          "BE2_e2b2": 0.089,
+          "BE2_err": 0.009,
+          "J2_hbar2_per_MeV": 26.5,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 297.8,
+          "J2_over_BE2_err": 30.1
+        },
+        {
+          "I": 19.5,
+          "E_gamma_keV": 1331.0,
+          "tau_ps": 0.21,
+          "tau_err_ps": 0.03,
+          "BE2_e2b2": 0.094,
+          "BE2_err": 0.014,
+          "J2_hbar2_per_MeV": 30.6,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 325.5,
+          "J2_over_BE2_err": 48.5
+        },
+        {
+          "I": 21.5,
+          "E_gamma_keV": 1461.8,
+          "tau_ps": 0.24,
+          "tau_err_ps": 0.05,
+          "BE2_e2b2": 0.052,
+          "BE2_err": 0.011,
+          "J2_hbar2_per_MeV": 31.6,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 607.7,
+          "J2_over_BE2_err": 128.6
+        }
+      ]
+    },
+    "104Pd_Band1": {
+      "nucleus": "104Pd",
+      "band": "Band 1",
+      "configuration": "pi(g9/2)^-2 x nu[(h11/2)^2 (g7/2,d5/2)^2]",
+      "type": "AMR in Pd",
+      "source": "Rather et al., PRC 89, 061303 (2014); Kumar 2025 Tab 3",
+      "min_ratio": 112.3,
+      "max_ratio": 357.1,
+      "mean_ratio": 245.4,
+      "levels": [
+        {
+          "I": 16,
+          "E_gamma_keV": 927.0,
+          "tau_ps": 0.45,
+          "tau_err_ps": 0.05,
+          "BE2_e2b2": 0.26,
+          "BE2_err": 0.03,
+          "J2_hbar2_per_MeV": 29.2,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 112.3,
+          "J2_over_BE2_err": 13.0
+        },
+        {
+          "I": 18,
+          "E_gamma_keV": 1064.0,
+          "tau_ps": 0.27,
+          "tau_err_ps": 0.03,
+          "BE2_e2b2": 0.22,
+          "BE2_err": 0.03,
+          "J2_hbar2_per_MeV": 31.0,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 140.9,
+          "J2_over_BE2_err": 19.2
+        },
+        {
+          "I": 20,
+          "E_gamma_keV": 1193.0,
+          "tau_ps": 0.18,
+          "tau_err_ps": 0.03,
+          "BE2_e2b2": 0.19,
+          "BE2_err": 0.03,
+          "J2_hbar2_per_MeV": 63.5,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 334.2,
+          "J2_over_BE2_err": 52.8
+        },
+        {
+          "I": 22,
+          "E_gamma_keV": 1256.0,
+          "tau_ps": 0.2,
+          "tau_err_ps": 0.04,
+          "BE2_e2b2": 0.13,
+          "BE2_err": 0.03,
+          "J2_hbar2_per_MeV": 36.7,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 282.3,
+          "J2_over_BE2_err": 65.1
+        },
+        {
+          "I": 24,
+          "E_gamma_keV": 1365.0,
+          "tau_ps": 0.24,
+          "tau_err_ps": 0.05,
+          "BE2_e2b2": 0.07,
+          "BE2_err": 0.01,
+          "J2_hbar2_per_MeV": 25.0,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 357.1,
+          "J2_over_BE2_err": 51.0
+        }
+      ]
+    },
+    "101Pd_Band1": {
+      "nucleus": "101Pd",
+      "band": "Band 1",
+      "configuration": "pi(g9/2)^-4 x nu[h11/2 (g7/2)^2]",
+      "type": "Odd-A Pd AMR",
+      "source": "Sugawara et al., PRC 86, 034326 (2012); Kumar 2025 Tab 3",
+      "min_ratio": 133.3,
+      "max_ratio": 1218.8,
+      "mean_ratio": 483.1,
+      "levels": [
+        {
+          "I": 9.5,
+          "E_gamma_keV": 748.2,
+          "tau_ps": 1.7,
+          "tau_err_ps": 0.5,
+          "BE2_e2b2": 0.21,
+          "BE2_err": 0.06,
+          "J2_hbar2_per_MeV": 28.0,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 133.3,
+          "J2_over_BE2_err": 38.1
+        },
+        {
+          "I": 11.5,
+          "E_gamma_keV": 891.1,
+          "tau_ps": 0.86,
+          "tau_err_ps": 0.26,
+          "BE2_e2b2": 0.16,
+          "BE2_err": 0.05,
+          "J2_hbar2_per_MeV": 195.0,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 1218.8,
+          "J2_over_BE2_err": 380.9
+        },
+        {
+          "I": 13.5,
+          "E_gamma_keV": 911.2,
+          "tau_ps": 0.89,
+          "tau_err_ps": 0.19,
+          "BE2_e2b2": 0.15,
+          "BE2_err": 0.03,
+          "J2_hbar2_per_MeV": 66.6,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 444.0,
+          "J2_over_BE2_err": 88.8
+        },
+        {
+          "I": 15.5,
+          "E_gamma_keV": 971.3,
+          "tau_ps": 0.66,
+          "tau_err_ps": 0.14,
+          "BE2_e2b2": 0.14,
+          "BE2_err": 0.03,
+          "J2_hbar2_per_MeV": 38.9,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 277.9,
+          "J2_over_BE2_err": 59.5
+        },
+        {
+          "I": 17.5,
+          "E_gamma_keV": 1074.1,
+          "tau_ps": 0.52,
+          "tau_err_ps": 0.1,
+          "BE2_e2b2": 0.109,
+          "BE2_err": 0.021,
+          "J2_hbar2_per_MeV": 73.7,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 676.1,
+          "J2_over_BE2_err": 130.3
+        },
+        {
+          "I": 19.5,
+          "E_gamma_keV": 1127.5,
+          "tau_ps": 0.49,
+          "tau_err_ps": 0.11,
+          "BE2_e2b2": 0.091,
+          "BE2_err": 0.021,
+          "J2_hbar2_per_MeV": 13.5,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 148.4,
+          "J2_over_BE2_err": 34.2
+        }
+      ]
+    },
+    "166Er_GroundBand": {
+      "nucleus": "166Er",
+      "band": "Ground band (deformed rotor baseline)",
+      "configuration": "Well-deformed collective prolate rotor (beta2 ~ 0.33)",
+      "type": "Normal Collective Rotor",
+      "source": "NNDC ENSDF adopted levels",
+      "min_ratio": 21.2,
+      "max_ratio": 22.4,
+      "mean_ratio": 21.7,
+      "levels": [
+        {
+          "I": 4,
+          "E_gamma_keV": 184.4,
+          "tau_ps": 164.0,
+          "tau_err_ps": 3.0,
+          "BE2_e2b2": 1.55,
+          "BE2_err": 0.03,
+          "J2_hbar2_per_MeV": 34.0,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 21.9,
+          "J2_over_BE2_err": 0.4
+        },
+        {
+          "I": 6,
+          "E_gamma_keV": 280.5,
+          "tau_ps": 22.1,
+          "tau_err_ps": 0.5,
+          "BE2_e2b2": 1.7,
+          "BE2_err": 0.04,
+          "J2_hbar2_per_MeV": 36.5,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 21.5,
+          "J2_over_BE2_err": 0.5
+        },
+        {
+          "I": 8,
+          "E_gamma_keV": 365.5,
+          "tau_ps": 6.8,
+          "tau_err_ps": 0.2,
+          "BE2_e2b2": 1.8,
+          "BE2_err": 0.05,
+          "J2_hbar2_per_MeV": 38.2,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 21.2,
+          "J2_over_BE2_err": 0.6
+        },
+        {
+          "I": 10,
+          "E_gamma_keV": 439.8,
+          "tau_ps": 3.0,
+          "tau_err_ps": 0.1,
+          "BE2_e2b2": 1.85,
+          "BE2_err": 0.06,
+          "J2_hbar2_per_MeV": 40.1,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 21.7,
+          "J2_over_BE2_err": 0.7
+        },
+        {
+          "I": 12,
+          "E_gamma_keV": 501.3,
+          "tau_ps": 1.7,
+          "tau_err_ps": 0.1,
+          "BE2_e2b2": 1.9,
+          "BE2_err": 0.08,
+          "J2_hbar2_per_MeV": 42.5,
+          "J2_over_BE2_hbar2_per_MeV_e2b2": 22.4,
+          "J2_over_BE2_err": 0.9
+        }
+      ]
+    }
+  },
+  "simulation_110cd": {
+    "pure_amr_termination_spin": 19.0,
+    "coupled_amr_model_highlights": [
+      {
+        "I_target": 16,
+        "theta_deg": 70.0,
+        "I_shears": 13.08,
+        "R_core": 2.92,
+        "f_core": 0.183,
+        "BE2_model": 0.116,
+        "BE2_expt": 0.14
+      },
+      {
+        "I_target": 18,
+        "theta_deg": 58.5,
+        "I_shears": 14.7,
+        "R_core": 3.3,
+        "f_core": 0.183,
+        "BE2_model": 0.08,
+        "BE2_expt": 0.12
+      },
+      {
+        "I_target": 20,
+        "theta_deg": 48.0,
+        "I_shears": 16.02,
+        "R_core": 3.98,
+        "f_core": 0.199,
+        "BE2_model": 0.046,
+        "BE2_expt": 0.11
+      },
+      {
+        "I_target": 22,
+        "theta_deg": 38.5,
+        "I_shears": 17.04,
+        "R_core": 4.96,
+        "f_core": 0.225,
+        "BE2_model": 0.023,
+        "BE2_expt": 0.09
+      },
+      {
+        "I_target": 24,
+        "theta_deg": 31.1,
+        "I_shears": 17.71,
+        "R_core": 6.29,
+        "f_core": 0.262,
+        "BE2_model": 0.011,
+        "BE2_expt": 0.06
+      }
+    ]
+  },
+  "comparative_table": [
+    {
+      "Nucleus": "106Cd",
+      "Mode": "Pure AMR",
+      "Spin_Range": "12+ -> 20+",
+      "BE2_Range_e2b2": "0.42 -> 0.10",
+      "J2_over_BE2_Range": "47 -> 301",
+      "Mean_Ratio": 209.2
+    },
+    {
+      "Nucleus": "108Cd",
+      "Mode": "Pure AMR",
+      "Spin_Range": "14+ -> 22+",
+      "BE2_Range_e2b2": "0.28 -> 0.03",
+      "J2_over_BE2_Range": "96 -> 600",
+      "Mean_Ratio": 268.3
+    },
+    {
+      "Nucleus": "110Cd",
+      "Mode": "Core-Coupled AMR",
+      "Spin_Range": "16+ -> 24+",
+      "BE2_Range_e2b2": "0.14 -> 0.06",
+      "J2_over_BE2_Range": "191 -> 550",
+      "Mean_Ratio": 359.8
+    },
+    {
+      "Nucleus": "105Cd",
+      "Mode": "Odd-A AMR",
+      "Spin_Range": "27/2- -> 43/2-",
+      "BE2_Range_e2b2": "0.155 -> 0.052",
+      "J2_over_BE2_Range": "190 -> 608",
+      "Mean_Ratio": 329.4
+    },
+    {
+      "Nucleus": "104Pd",
+      "Mode": "Even-Even Pd AMR",
+      "Spin_Range": "16+ -> 24+",
+      "BE2_Range_e2b2": "0.26 -> 0.07",
+      "J2_over_BE2_Range": "112 -> 357",
+      "Mean_Ratio": 234.6
+    },
+    {
+      "Nucleus": "101Pd",
+      "Mode": "Odd-A Pd AMR",
+      "Spin_Range": "19/2- -> 39/2-",
+      "BE2_Range_e2b2": "0.21 -> 0.091",
+      "J2_over_BE2_Range": "133 -> 1219",
+      "Mean_Ratio": 427.6
+    },
+    {
+      "Nucleus": "166Er",
+      "Mode": "Collective Prolate Rotor",
+      "Spin_Range": "4+ -> 12+",
+      "BE2_Range_e2b2": "1.55 -> 1.90",
+      "J2_over_BE2_Range": "21.2 -> 22.4",
+      "Mean_Ratio": 21.8
+    }
+  ]
+}

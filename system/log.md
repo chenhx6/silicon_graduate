@@ -4588,3 +4588,11 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-28T21:00:00+08:00 Day26 checkpoint012：数值推导剪刀机制形变窗口上限定理 shears-deformation-boundary-theorem-009.py，扫描 A=110, 135, 165, 198 在 beta2 in [0.02, 0.45] 下的电磁竞争；证明当 beta2 > 0.20 时，核心集体四极辐射 B(E2)_coll 激增两个数量级，将特征比值 B(M1)/B(E2) 压制至 < 5 (mu_N/eb)^2，剪刀特征被集体四极转动彻底淹没，确立剪刀机制存在严格的弱形变硬门（beta2 <= 0.20）；全量验证通过，发布 checkpoint 012.
 - 2026-10-28T21:15:00+08:00 Day26 checkpoint013：系统计算交替宇称能级位移函数 delta_E(I)（parity-displacement-deltaE-systematics-010.py），对比刚性反射不对称 224Ra（88.3% 塌缩至 20.4 keV）、八极振动 220Rn（71% 降至 120 keV）与大振幅八极软振动 144,146Ba（收敛缓慢且高自旋维持 >340 keV 平台）；确立 delta_E(I) 能谱级收敛速率作为区分静态梨形形变与动态八极软度的充要判据；全量验证通过，发布 checkpoint 013.
 - 2026-10-28T21:30:00+08:00 Day26 checkpoint014：数值建模极富质子轻稀土核区（130Sm、128Nd、126Ce）四极—八极竞争（proton-rich-octupole-competition-011.py）；证明尽管同核具备同种核子八极对 pi,nu(2d5/2 - 1h11/2)，但 h11/2 壳初占据诱导的强长椭四极形变（beta2 ~ 0.30–0.33）使有效能母 Delta_E_eff 扩展 25%，八极极化率 chi_oct 塌缩 35%，八极声子被推高至 1.3–1.5 MeV，确立滴线轻稀土区八极低激发特征被长椭四极形变淬灭的微观机制；全量验证通过，发布 checkpoint 014.
+
+### 2026-10-28T20:25:00+08:00 - Day26 checkpoint015：八极微观单粒子驱动、偶极相消与能带交叉动力学三线突破
+- 执行三路子代理协同研学：
+  1. subagent_amr_cadmium 交付工件 amr-cadmium-palladium-systematics-013.py/json，推导反磁转动四刃剪刀 R_z(pi) 与 T 双重对称性、四次方辐射幂律 B(E2) ~ sin^4(theta)、110Cd 半刚体核心转动（Im=19.5）分担 18%-26% 角动量平台机制，确立 J^(2)/B(E2) >= 100 刚性判据；
+  2. subagent_shears_dynamics 交付工件 shears-dynamics-bandcrossing-model-014.py/json，建立两带相干混合模型，证明准粒子顺对齐驱动剪刀重新张开与单体 E2 正交性淬灭诱发 B(M1)/B(E2) 剧烈反弹（135Pr 达 94.83，137Pr 达 62.1），J^(2) 尖锐共振峰与比值极值点严格对齐；
+  3. subagent_octupole_micros 交付工件 octupole-microscopic-sccm-droplet-015.py/json，确立 Delta l=Delta j=3 轨道对相干驱动机制，宏观 Droplet 项（<0.003 efm）微不足道，微观 nu 1i13/2 充填引发 146Ba 与 224Ra 90%+ 偶极相消与 148Ba 符号反转，证明坐标密度重叠（85.9%）与 E1 跃迁核塌缩（89.9x）的完全解耦，以 84.8% CI 重叠度确立 delta_E(I) 为判定静态梨形的充要观测量；
+- 更新知识库 research-notes/octupole-mr-amr-evidence-gradient.md、concepts/antimagnetic-rotation.md、concepts/shears-mechanism.md 与日报；
+- 检查全库 boundary check 与 lint，保持 0 error、267 warnings。

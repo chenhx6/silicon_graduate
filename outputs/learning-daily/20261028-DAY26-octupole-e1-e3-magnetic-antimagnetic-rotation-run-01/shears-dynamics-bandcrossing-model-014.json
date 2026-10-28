@@ -1,0 +1,674 @@
+{
+  "schema_version": "1.0",
+  "description": "Comprehensive quantitative shears dynamics and bandcrossing re-opening model",
+  "models": {
+    "198Pb_pristine_closing": [
+      {
+        "I_shears": 17.0,
+        "cos_theta": 0.0627181507505318,
+        "theta_deg": 86.40415461432059,
+        "sin_theta": 0.998031278851737,
+        "theta_pi_deg": 45.44684349358527,
+        "sin_theta_pi": 0.7125998694744791,
+        "BM1_muN2": 6.772085894015337,
+        "BE2_shears_e2b2": 0.4063881950400938,
+        "BE2_total_e2b2": 0.4083881950400938,
+        "BM1_over_BE2_muN2_per_e2b2": 16.58247220723528
+      },
+      {
+        "I_shears": 18.0,
+        "cos_theta": 0.1881544522515954,
+        "theta_deg": 79.15490030460222,
+        "sin_theta": 0.9821394514517285,
+        "theta_pi_deg": 41.553488480066626,
+        "sin_theta_pi": 0.6633189470521262,
+        "BM1_muN2": 5.867806532356331,
+        "BE2_shears_e2b2": 0.30510388708536357,
+        "BE2_total_e2b2": 0.30710388708536357,
+        "BM1_over_BE2_muN2_per_e2b2": 19.106910655042597
+      },
+      {
+        "I_shears": 19.0,
+        "cos_theta": 0.3205594371693848,
+        "theta_deg": 71.30323936030504,
+        "sin_theta": 0.9472284028900565,
+        "theta_pi_deg": 37.366502276704594,
+        "sin_theta_pi": 0.6069112849626312,
+        "BM1_muN2": 4.912260692877915,
+        "BE2_shears_e2b2": 0.2138252465701007,
+        "BE2_total_e2b2": 0.21582524657010072,
+        "BM1_over_BE2_muN2_per_e2b2": 22.76036177853918
+      },
+      {
+        "I_shears": 20.0,
+        "cos_theta": 0.45993310550389993,
+        "theta_deg": 62.61720899229059,
+        "sin_theta": 0.8879535677396305,
+        "theta_pi_deg": 32.762828718576394,
+        "sin_theta_pi": 0.5411627692821661,
+        "BM1_muN2": 3.9055913658433346,
+        "BE2_shears_e2b2": 0.13516671903310393,
+        "BE2_total_e2b2": 0.13716671903310393,
+        "BM1_over_BE2_muN2_per_e2b2": 28.473316219663722
+      },
+      {
+        "I_shears": 21.0,
+        "cos_theta": 0.6062754572551408,
+        "theta_deg": 52.67932122686317,
+        "sin_theta": 0.7952547201557938,
+        "theta_pi_deg": 27.52349723092326,
+        "sin_theta_pi": 0.46211234112555694,
+        "BM1_muN2": 2.847909043728736,
+        "BE2_shears_e2b2": 0.07187012456787618,
+        "BE2_total_e2b2": 0.07387012456787619,
+        "BM1_over_BE2_muN2_per_e2b2": 38.55292055331396
+      },
+      {
+        "I_shears": 22.0,
+        "cos_theta": 0.7595864924231074,
+        "theta_deg": 40.572242475705906,
+        "sin_theta": 0.6504063041886669,
+        "theta_pi_deg": 21.17002913213641,
+        "sin_theta_pi": 0.3611368310706887,
+        "BM1_muN2": 1.7393001989067554,
+        "BE2_shears_e2b2": 0.026806817728224193,
+        "BE2_total_e2b2": 0.028806817728224195,
+        "BM1_over_BE2_muN2_per_e2b2": 60.37807491671087
+      },
+      {
+        "I_shears": 23.0,
+        "cos_theta": 0.9198662110077999,
+        "theta_deg": 23.093469269798423,
+        "sin_theta": 0.39223227027636803,
+        "theta_pi_deg": 12.035307311283253,
+        "sin_theta_pi": 0.20851441405707474,
+        "BM1_muN2": 0.579833288672393,
+        "BE2_shears_e2b2": 0.0029792191985021452,
+        "BE2_total_e2b2": 0.004979219198502145,
+        "BM1_over_BE2_muN2_per_e2b2": 116.45064528326432
+      }
+    ],
+    "197Pb_shears_reopening": {
+      "lower_branch": [
+        {
+          "I_shears": 14.5,
+          "cos_theta": 0.27425111706914745,
+          "theta_deg": 74.0826093896932,
+          "sin_theta": 0.9616581122136519,
+          "theta_pi_deg": 26.607516115504044,
+          "sin_theta_pi": 0.44787637999923163,
+          "BM1_muN2": 2.675144831646491,
+          "BE2_shears_e2b2": 0.06341482047318958,
+          "BE2_total_e2b2": 0.06641482047318958,
+          "BM1_over_BE2_muN2_per_e2b2": 40.27933543427098,
+          "branch": "3qp (nu i13/2^-1)"
+        },
+        {
+          "I_shears": 15.5,
+          "cos_theta": 0.46747349500422863,
+          "theta_deg": 62.129579783251835,
+          "sin_theta": 0.8840070879062744,
+          "theta_pi_deg": 22.70296139795294,
+          "sin_theta_pi": 0.3859537242460519,
+          "BM1_muN2": 1.9865589312319625,
+          "BE2_shears_e2b2": 0.0349702771290814,
+          "BE2_total_e2b2": 0.0379702771290814,
+          "BM1_over_BE2_muN2_per_e2b2": 52.31878936460168,
+          "branch": "3qp (nu i13/2^-1)"
+        },
+        {
+          "I_shears": 16.5,
+          "cos_theta": 0.6731618328060892,
+          "theta_deg": 47.6884318661709,
+          "sin_theta": 0.7394951973158087,
+          "theta_pi_deg": 17.68909280431361,
+          "sin_theta_pi": 0.30385170060774647,
+          "BM1_muN2": 1.2312729079175517,
+          "BE2_shears_e2b2": 0.013433983651802713,
+          "BE2_total_e2b2": 0.01643398365180271,
+          "BM1_over_BE2_muN2_per_e2b2": 74.92236416959611,
+          "branch": "3qp (nu i13/2^-1)"
+        },
+        {
+          "I_shears": 17.5,
+          "cos_theta": 0.8913161304747292,
+          "theta_deg": 26.960900014078675,
+          "sin_theta": 0.45338235029118135,
+          "theta_pi_deg": 10.132950965655485,
+          "sin_theta_pi": 0.17593288763724918,
+          "BM1_muN2": 0.412786079316775,
+          "BE2_shears_e2b2": 0.0015098932855175187,
+          "BE2_total_e2b2": 0.0045098932855175185,
+          "BM1_over_BE2_muN2_per_e2b2": 91.52901259157113,
+          "branch": "3qp (nu i13/2^-1)"
+        },
+        {
+          "I_shears": 18.5,
+          "cos_theta": 1.1219363880101487,
+          "theta_deg": 0.0,
+          "sin_theta": 0.0,
+          "theta_pi_deg": 0.0,
+          "sin_theta_pi": 0.0,
+          "BM1_muN2": 0.0,
+          "BE2_shears_e2b2": 0.0,
+          "BE2_total_e2b2": 0.003,
+          "BM1_over_BE2_muN2_per_e2b2": 0.0,
+          "branch": "3qp (nu i13/2^-1)"
+        }
+      ],
+      "upper_branch": [
+        {
+          "I_shears": 18.5,
+          "cos_theta": -0.15366440995063937,
+          "theta_deg": 98.83934462684198,
+          "sin_theta": 0.988123094110507,
+          "theta_pi_deg": 62.132855445060294,
+          "sin_theta_pi": 0.8840338124278855,
+          "BM1_muN2": 10.422423912150439,
+          "BE2_shears_e2b2": 0.9625729093102964,
+          "BE2_total_e2b2": 0.9655729093102964,
+          "BM1_over_BE2_muN2_per_e2b2": 10.794030996162808,
+          "branch": "5qp (nu i13/2^-3)"
+        },
+        {
+          "I_shears": 19.5,
+          "cos_theta": -0.05378254348272379,
+          "theta_deg": 93.08300026785497,
+          "sin_theta": 0.9985526716285571,
+          "theta_pi_deg": 58.06706915995027,
+          "sin_theta_pi": 0.8486678266513805,
+          "BM1_muN2": 9.60520099847365,
+          "BE2_shears_e2b2": 0.8175401357713249,
+          "BE2_total_e2b2": 0.8205401357713249,
+          "BM1_over_BE2_muN2_per_e2b2": 11.705949020329834,
+          "branch": "5qp (nu i13/2^-3)"
+        },
+        {
+          "I_shears": 20.5,
+          "cos_theta": 0.05122146998354646,
+          "theta_deg": 87.06394113407038,
+          "sin_theta": 0.9986873189405805,
+          "theta_pi_deg": 53.93411513786095,
+          "sin_theta_pi": 0.8083405608176644,
+          "BM1_muN2": 8.714043499961564,
+          "BE2_shears_e2b2": 0.6728768940339355,
+          "BE2_total_e2b2": 0.6758768940339355,
+          "BM1_over_BE2_muN2_per_e2b2": 12.892944820102159,
+          "branch": "5qp (nu i13/2^-3)"
+        },
+        {
+          "I_shears": 21.5,
+          "cos_theta": 0.16134763044817135,
+          "theta_deg": 80.71487383740171,
+          "sin_theta": 0.9868976350912795,
+          "theta_pi_deg": 49.68241162783631,
+          "sin_theta_pi": 0.7624697454689344,
+          "BM1_muN2": 7.75311475988491,
+          "BE2_shears_e2b2": 0.5326581701765399,
+          "BE2_total_e2b2": 0.5356581701765399,
+          "BM1_over_BE2_muN2_per_e2b2": 14.473997021887431,
+          "branch": "5qp (nu i13/2^-3)"
+        },
+        {
+          "I_shears": 22.5,
+          "cos_theta": 0.2765959379111509,
+          "theta_deg": 73.94285575679898,
+          "sin_theta": 0.9609863095440282,
+          "theta_pi_deg": 45.24750902549628,
+          "sin_theta_pi": 0.7101547674144671,
+          "BM1_muN2": 6.725692303797265,
+          "BE2_shears_e2b2": 0.40083917315537,
+          "BE2_total_e2b2": 0.40383917315537,
+          "BM1_over_BE2_muN2_per_e2b2": 16.654383108123277,
+          "branch": "5qp (nu i13/2^-3)"
+        },
+        {
+          "I_shears": 23.5,
+          "cos_theta": 0.3969663923724851,
+          "theta_deg": 66.61133052262255,
+          "sin_theta": 0.9178331456897677,
+          "theta_pi_deg": 40.54097038687241,
+          "sin_theta_pi": 0.6499916243297589,
+          "BM1_muN2": 5.634384774486157,
+          "BE2_shears_e2b2": 0.2813125916452592,
+          "BE2_total_e2b2": 0.2843125916452592,
+          "BM1_over_BE2_muN2_per_e2b2": 19.817570308374727,
+          "branch": "5qp (nu i13/2^-3)"
+        },
+        {
+          "I_shears": 24.5,
+          "cos_theta": 0.5224589938321739,
+          "theta_deg": 58.50265904948915,
+          "sin_theta": 0.8526644121598324,
+          "theta_pi_deg": 35.42782137162127,
+          "sin_theta_pi": 0.5796769093370863,
+          "BM1_muN2": 4.481289316153319,
+          "BE2_shears_e2b2": 0.17795169730958804,
+          "BE2_total_e2b2": 0.18095169730958804,
+          "BM1_over_BE2_muN2_per_e2b2": 24.765113468299422,
+          "branch": "5qp (nu i13/2^-3)"
+        }
+      ]
+    },
+    "135Pr_two_band_mixing": {
+      "parameters": {
+        "E1_3qp": "E0=3530 keV, A1=18.2, I0=13.5",
+        "E2_5qp": "E0=3646 keV, A2=13.8, I0=14.5",
+        "V_mix_keV": 22.5,
+        "m1_params": "(1.85, 0.15, 3.80, 0.18)",
+        "core_BE2_e2b2": [
+          0.108,
+          0.045
+        ]
+      },
+      "transitions": [
+        {
+          "I": 13.5,
+          "E_level": 3526.2104083575978,
+          "P_3qp": 0.9724150955640367,
+          "P_5qp": 0.027584904435963467,
+          "E_gamma_M1": null,
+          "BM1": null,
+          "E_gamma_E2": null,
+          "BE2": null,
+          "BM1_over_BE2": null,
+          "J2_hbar2_per_MeV": null,
+          "omega_MeV": null
+        },
+        {
+          "I": 14.5,
+          "E_level": 3543.271940402797,
+          "P_3qp": 0.9542240642326731,
+          "P_5qp": 0.045775935767326886,
+          "E_gamma_M1": 17.06153204519933,
+          "BM1": 1.7562325165579182,
+          "E_gamma_E2": null,
+          "BE2": null,
+          "BM1_over_BE2": null,
+          "J2_hbar2_per_MeV": null,
+          "omega_MeV": null
+        },
+        {
+          "I": 15.5,
+          "E_level": 3594.9888446892696,
+          "P_3qp": 0.8924413827667146,
+          "P_5qp": 0.10755861723328548,
+          "E_gamma_M1": 51.71690428647253,
+          "BM1": 1.6445518424991419,
+          "E_gamma_E2": 68.77843633167186,
+          "BE2": 0.10093338019800227,
+          "BM1_over_BE2": 16.293438694641992,
+          "J2_hbar2_per_MeV": 28.855555007111967,
+          "omega_MeV": 0.05171690428647253
+        },
+        {
+          "I": 16.5,
+          "E_level": 3674.6978071229983,
+          "P_3qp": 0.5811325476448329,
+          "P_5qp": 0.41886745235516715,
+          "E_gamma_M1": 79.70896243372863,
+          "BM1": 1.5519649531125197,
+          "E_gamma_E2": 131.42586672020116,
+          "BE2": 0.07512912920250192,
+          "BM1_over_BE2": 20.657299899342327,
+          "J2_hbar2_per_MeV": 35.72441850253959,
+          "omega_MeV": 0.07970896243372863
+        },
+        {
+          "I": 17.5,
+          "E_level": 3761.6926478537357,
+          "P_3qp": 0.12508107231745297,
+          "P_5qp": 0.874918927682547,
+          "E_gamma_M1": 86.99484073073745,
+          "BM1": 1.9445149299873283,
+          "E_gamma_E2": 166.70380316446608,
+          "BE2": 0.0305807661010824,
+          "BM1_over_BE2": 63.58620721141785,
+          "J2_hbar2_per_MeV": 137.25181223663105,
+          "omega_MeV": 0.08699484073073745
+        },
+        {
+          "I": 18.5,
+          "E_level": 3862.6618785857772,
+          "P_3qp": 0.032718566915653405,
+          "P_5qp": 0.9672814330843467,
+          "E_gamma_M1": 100.96923073204152,
+          "BM1": 2.8277317890970126,
+          "E_gamma_E2": 187.96407146277897,
+          "BE2": 0.032523452881846916,
+          "BM1_over_BE2": 86.94439054087401,
+          "J2_hbar2_per_MeV": 71.5594741456823,
+          "omega_MeV": 0.10096923073204152
+        },
+        {
+          "I": 19.5,
+          "E_level": 3988.4272354150844,
+          "P_3qp": 0.012906056110863292,
+          "P_5qp": 0.9870939438891364,
+          "E_gamma_M1": 125.76535682930717,
+          "BM1": 2.8359704970782342,
+          "E_gamma_E2": 226.7345875613487,
+          "BE2": 0.04424356389829649,
+          "BM1_over_BE2": 64.09905186655696,
+          "J2_hbar2_per_MeV": 40.328880248365635,
+          "omega_MeV": 0.12576535682930717
+        },
+        {
+          "I": 20.5,
+          "E_level": 4140.997133787032,
+          "P_3qp": 0.006379439643676442,
+          "P_5qp": 0.9936205603563237,
+          "E_gamma_M1": 152.5698983719476,
+          "BM1": 2.69434493057336,
+          "E_gamma_E2": 278.33525520125477,
+          "BE2": 0.04524732537152702,
+          "BM1_over_BE2": 59.5470540733628,
+          "J2_hbar2_per_MeV": 37.30711075245247,
+          "omega_MeV": 0.1525698983719476
+        }
+      ]
+    },
+    "137Pr_two_band_mixing": {
+      "parameters": {
+        "E1_3qp": "E0=3605 keV, A1=17.0, I0=12.5",
+        "E2_5qp": "E0=3790 keV, A2=13.2, I0=14.5",
+        "V_mix_keV": 28.0,
+        "m1_params": "(1.40, 0.10, 3.20, 0.18)",
+        "core_BE2_e2b2": [
+          0.115,
+          0.052
+        ]
+      },
+      "transitions": [
+        {
+          "I": 12.5,
+          "E_level": 3601.7475951935453,
+          "P_3qp": 0.9866871028384259,
+          "P_5qp": 0.013312897161574168,
+          "E_gamma_M1": null,
+          "BM1": null,
+          "E_gamma_E2": null,
+          "BE2": null,
+          "BM1_over_BE2": null,
+          "J2_hbar2_per_MeV": null,
+          "omega_MeV": null
+        },
+        {
+          "I": 13.5,
+          "E_level": 3617.7719450795285,
+          "P_3qp": 0.9777067297013669,
+          "P_5qp": 0.02229327029863305,
+          "E_gamma_M1": 16.024349885983156,
+          "BM1": 1.326038670812149,
+          "E_gamma_E2": null,
+          "BE2": null,
+          "BM1_over_BE2": null,
+          "J2_hbar2_per_MeV": null,
+          "omega_MeV": null
+        },
+        {
+          "I": 14.5,
+          "E_level": 3666.644391144636,
+          "P_3qp": 0.9510018565276457,
+          "P_5qp": 0.048998143472354455,
+          "E_gamma_M1": 48.8724460651074,
+          "BM1": 1.2441579474311009,
+          "E_gamma_E2": 64.89679595109055,
+          "BE2": 0.11176953681804118,
+          "BM1_over_BE2": 11.131458381692749,
+          "J2_hbar2_per_MeV": 30.443164637210362,
+          "omega_MeV": 0.0488724460651074
+        },
+        {
+          "I": 15.5,
+          "E_level": 3744.617226343707,
+          "P_3qp": 0.814039159625029,
+          "P_5qp": 0.1859608403749706,
+          "E_gamma_M1": 77.97283519907114,
+          "BM1": 1.185242124181254,
+          "E_gamma_E2": 126.84528126417854,
+          "BE2": 0.10062703609916149,
+          "BM1_over_BE2": 11.778565384885967,
+          "J2_hbar2_per_MeV": 34.36380164528029,
+          "omega_MeV": 0.07797283519907114
+        },
+        {
+          "I": 16.5,
+          "E_level": 3827.0913121262065,
+          "P_3qp": 0.2393982949610889,
+          "P_5qp": 0.7606017050389112,
+          "E_gamma_M1": 82.47408578249951,
+          "BM1": 1.1561546681196344,
+          "E_gamma_E2": 160.44692098157066,
+          "BE2": 0.04236602535364254,
+          "BM1_over_BE2": 27.289665680668595,
+          "J2_hbar2_per_MeV": 222.1604821739009,
+          "omega_MeV": 0.08247408578249951
+        },
+        {
+          "I": 17.5,
+          "E_level": 3902.644026484516,
+          "P_3qp": 0.04610803491657652,
+          "P_5qp": 0.9538919650834236,
+          "E_gamma_M1": 75.55271435830946,
+          "BM1": 2.2167785517729675,
+          "E_gamma_E2": 158.02680014080897,
+          "BE2": 0.02616026449908516,
+          "BM1_over_BE2": 84.73838450106227,
+          "J2_hbar2_per_MeV": -144.48003707834835,
+          "omega_MeV": 0.07555271435830946
+        },
+        {
+          "I": 18.5,
+          "E_level": 3997.6261914169972,
+          "P_3qp": 0.016029812870087746,
+          "P_5qp": 0.9839701871299124,
+          "E_gamma_M1": 94.98216493248128,
+          "BM1": 2.4025206912537818,
+          "E_gamma_E2": 170.53487929079074,
+          "BE2": 0.047647083760583055,
+          "BM1_over_BE2": 50.423247377026506,
+          "J2_hbar2_per_MeV": 51.46825928929412,
+          "omega_MeV": 0.09498216493248128
+        },
+        {
+          "I": 19.5,
+          "E_level": 4117.553414405878,
+          "P_3qp": 0.007577074439568024,
+          "P_5qp": 0.9924229255604319,
+          "E_gamma_M1": 119.92722298888111,
+          "BM1": 2.273705943879994,
+          "E_gamma_E2": 214.9093879213624,
+          "BE2": 0.052079380847979334,
+          "BM1_over_BE2": 43.65846726398271,
+          "J2_hbar2_per_MeV": 40.08810072676672,
+          "omega_MeV": 0.11992722298888112
+        },
+        {
+          "I": 20.5,
+          "E_level": 4263.375152103426,
+          "P_3qp": 0.004229572796938366,
+          "P_5qp": 0.9957704272030617,
+          "E_gamma_M1": 145.8217376975481,
+          "BM1": 2.1077511390071018,
+          "E_gamma_E2": 265.7489606864292,
+          "BE2": 0.05221839478809341,
+          "BM1_over_BE2": 40.36415036426399,
+          "J2_hbar2_per_MeV": 38.61821745843713,
+          "omega_MeV": 0.14582173769754808
+        },
+        {
+          "I": 21.5,
+          "E_level": 4435.365768561663,
+          "P_3qp": 0.002616883720710715,
+          "P_5qp": 0.9973831162792891,
+          "E_gamma_M1": 171.99061645823622,
+          "BM1": 1.933275689456525,
+          "E_gamma_E2": 317.8123541557843,
+          "BE2": 0.05215840282332114,
+          "BM1_over_BE2": 37.06546950843587,
+          "J2_hbar2_per_MeV": 38.21333000717774,
+          "omega_MeV": 0.1719906164582362
+        }
+      ]
+    }
+  },
+  "experimental_benchmarks": {
+    "135Pr": {
+      "source": "Garg et al. Phys. Rev. C 92, 054325 (2015), Table I",
+      "band": "Band 3 (negative parity Delta I = 1)",
+      "data": [
+        {
+          "I": 15.5,
+          "spin_label": "31/2-",
+          "E_level": 4292.7,
+          "E_M1": 429.7,
+          "E_E2": 762.7,
+          "BM1_over_BE2": 15.78,
+          "err": 0.91
+        },
+        {
+          "I": 16.5,
+          "spin_label": "33/2-",
+          "E_level": 4704.1,
+          "E_M1": 410.8,
+          "E_E2": 840.6,
+          "BM1_over_BE2": 19.67,
+          "err": 1.05
+        },
+        {
+          "I": 17.5,
+          "spin_label": "35/2-",
+          "E_level": 5028.6,
+          "E_M1": 325.1,
+          "E_E2": 735.9,
+          "BM1_over_BE2": 94.83,
+          "err": 6.1
+        },
+        {
+          "I": 18.5,
+          "spin_label": "37/2-",
+          "E_level": 5452.6,
+          "E_M1": 424.0,
+          "E_E2": null,
+          "BM1_over_BE2": null,
+          "err": null
+        },
+        {
+          "I": 19.5,
+          "spin_label": "39/2-",
+          "E_level": 5951.1,
+          "E_M1": 498.5,
+          "E_E2": null,
+          "BM1_over_BE2": null,
+          "err": null
+        },
+        {
+          "I": 20.5,
+          "spin_label": "41/2-",
+          "E_level": 6506.4,
+          "E_M1": 555.3,
+          "E_E2": null,
+          "BM1_over_BE2": null,
+          "err": null
+        }
+      ]
+    },
+    "137Pr": {
+      "source": "Agarwal et al. Phys. Rev. C 76, 024321 (2007), Table I",
+      "band": "Band 2 (negative parity Delta I = 1)",
+      "data": [
+        {
+          "I": 14.5,
+          "spin_label": "29/2-",
+          "E_level": 3959.0,
+          "E_M1": 354.0,
+          "E_E2": 718.0,
+          "BM1_over_BE2": 10.4,
+          "err": 1.5
+        },
+        {
+          "I": 15.5,
+          "spin_label": "31/2-",
+          "E_level": 4352.0,
+          "E_M1": 393.0,
+          "E_E2": 747.0,
+          "BM1_over_BE2": 10.5,
+          "err": 1.8
+        },
+        {
+          "I": 16.5,
+          "spin_label": "33/2-",
+          "E_level": 4791.0,
+          "E_M1": 439.0,
+          "E_E2": 832.0,
+          "BM1_over_BE2": 18.5,
+          "err": 2.2
+        },
+        {
+          "I": 17.5,
+          "spin_label": "35/2-",
+          "E_level": 5198.0,
+          "E_M1": 407.0,
+          "E_E2": 846.0,
+          "BM1_over_BE2": 24.0,
+          "err": 3.5
+        },
+        {
+          "I": 18.5,
+          "spin_label": "37/2-",
+          "E_level": 5605.0,
+          "E_M1": 407.0,
+          "E_E2": 814.0,
+          "BM1_over_BE2": 62.1,
+          "err": 12.0
+        },
+        {
+          "I": 19.5,
+          "spin_label": "39/2-",
+          "E_level": 6071.0,
+          "E_M1": 466.0,
+          "E_E2": 873.0,
+          "BM1_over_BE2": 24.5,
+          "err": 4.0
+        },
+        {
+          "I": 20.5,
+          "spin_label": "41/2-",
+          "E_level": 6578.0,
+          "E_M1": 507.0,
+          "E_E2": 973.0,
+          "BM1_over_BE2": 17.2,
+          "err": 2.9
+        }
+      ]
+    },
+    "198Pb": {
+      "source": "Clark & Macchiavelli Annu. Rev. Nucl. Part. Sci. 50, 1 (2000), Table 1 & Figs 2,9",
+      "band": "Band 1 (pi h9/2 i13/2 (x) nu i13/2^-2)",
+      "characteristic": "Pristine shears closing without crossing, B(M1) drops smoothly by a factor of 10+"
+    },
+    "197Pb": {
+      "source": "Clark & Macchiavelli Annu. Rev. Nucl. Part. Sci. 50, 1 (2000), Fig 10 & Ref 60",
+      "band": "Band 'a'",
+      "characteristic": "Two crossings at I ~ 37/2- and I ~ 49/2- with shears re-opening and B(M1) surge"
+    }
+  },
+  "physical_theorems": [
+    {
+      "theorem": "Shears Re-opening via Quasiparticle Alignment",
+      "formulation": "When a shears band is crossed by an energetically favored multi-quasiparticle configuration, the alignment of an additional particle/hole pair increases the effective blade length (j_pi -> j_pi' or j_nu -> j_nu'). To match total angular momentum I, the shears angle theta must abruptly increase: cos(theta') = [I(I+1) - j_pi'(j_pi'+1) - j_nu(j_nu+1)] / [2 sqrt(j_pi'(j_pi'+1) j_nu(j_nu+1))] < cos(theta), reopening the shears blades.",
+      "observable_consequence": "B(M1) ~ sin^2(theta_pi) surges rather than decreasing monotonically across the bandcrossing."
+    },
+    {
+      "theorem": "Orthogonality Suppression of Crossover E2 Transitions",
+      "formulation": "Because the electromagnetic E2 operator is a one-body operator, the transition matrix element between states differing by two quasiparticles vanishes: <3qp|E2|5qp> = 0. In the crossing zone, the yrast state at I is dominated by the 5qp component while the decay state at I-2 is still dominated by the 3qp component. The diagonal terms are suppressed by off-diagonal amplitude factors alpha(I)*alpha(I-2) << 1 and beta(I)*beta(I-2) << 1.",
+      "observable_consequence": "B(E2; I -> I-2) plunges to a pronounced minimum in the crossing region, compounding the M1 surge and driving B(M1)/B(E2) to a massive resonant peak (from ~15 to >95 in 135Pr, and from ~18 to ~62 in 137Pr)."
+    },
+    {
+      "theorem": "Dynamic Moment of Inertia J^(2) Resonance at Bandcrossing",
+      "formulation": "At the crossing frequency omega_c, the quasiparticle alignment di/domega peaks sharply with height ~ (Delta i)^2 / (2 V_mix). This produces a sharp resonance in J^(2) = dI/domega which aligns precisely with the maximum band mixing, the E2 crossover minimum, and the B(M1)/B(E2) peak.",
+      "observable_consequence": "The peak of J^(2) on the frequency/spin axis serves as the unambiguous signature of an alignment-driven bandcrossing, falsifying any simple single-configuration shears interpretation."
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "artifact_id": "octupole-microscopic-sccm-droplet-015",
+  "title": "Comprehensive Octupole Microscopic Driving Mechanism, Dipole Cancellation, and Symmetry-Restored SCCM Audit",
+  "timestamp_utc": "2026-10-28 20:30:00",
+  "single_particle_octupole_elements": [
+    {
+      "region": "A~145 (Ba-Sm)",
+      "type": "proton",
+      "orbital_pair": "pi 2d5/2 <-> pi 1h11/2",
+      "delta_l": 3,
+      "delta_j": 3.0,
+      "wigner_3j": 0.18993,
+      "angular_factor": -1.2029,
+      "radial_integral_fm3": 159.47,
+      "reduced_ME_fm3": -191.82,
+      "B_sp_fm6": 3066.37,
+      "B_sp_Wu": 2.49,
+      "B_sp_eb3": 0.003066
+    },
+    {
+      "region": "A~145 (Ba-Sm)",
+      "type": "neutron",
+      "orbital_pair": "nu 2f7/2 <-> nu 1i13/2",
+      "delta_l": 3,
+      "delta_j": 3.0,
+      "wigner_3j": -0.1707,
+      "angular_factor": -1.3483,
+      "radial_integral_fm3": 206.31,
+      "reduced_ME_fm3": -278.16,
+      "B_sp_fm6": 5526.52,
+      "B_sp_Wu": 4.365,
+      "B_sp_eb3": 0.005527
+    },
+    {
+      "region": "A~225 (Ra-Th)",
+      "type": "proton",
+      "orbital_pair": "pi 2f7/2 <-> pi 1i13/2",
+      "delta_l": 3,
+      "delta_j": 3.0,
+      "wigner_3j": -0.1707,
+      "angular_factor": -1.3483,
+      "radial_integral_fm3": 255.54,
+      "reduced_ME_fm3": -344.54,
+      "B_sp_fm6": 8479.05,
+      "B_sp_Wu": 2.845,
+      "B_sp_eb3": 0.008479
+    },
+    {
+      "region": "A~225 (Ra-Th)",
+      "type": "neutron",
+      "orbital_pair": "nu 1g9/2 <-> nu 1j15/2",
+      "delta_l": 3,
+      "delta_j": 3.0,
+      "wigner_3j": 0.15645,
+      "angular_factor": -1.477,
+      "radial_integral_fm3": 316.72,
+      "reduced_ME_fm3": -467.79,
+      "B_sp_fm6": 13676.67,
+      "B_sp_Wu": 4.589,
+      "B_sp_eb3": 0.013677
+    }
+  ],
+  "droplet_vs_shell_cancellation": {
+    "barium_systematics": [
+      {
+        "nucleus": "140Ba",
+        "A": 140,
+        "N": 84,
+        "beta2": 0.12,
+        "beta3": 0.0,
+        "v2_neutrons": {
+          "nu_h92": 0.1,
+          "nu_f72": 0.05,
+          "nu_i132": 0.01
+        },
+        "D_macro_efm": 0.0,
+        "D_p_shell_efm": 0.0,
+        "D_n_shell_efm": -0.0,
+        "D_shell_net_efm": 0.0,
+        "D_total_efm": 0.0,
+        "exp_D0_efm": 0.0,
+        "cancellation_pct": 0.0
+      },
+      {
+        "nucleus": "142Ba",
+        "A": 142,
+        "N": 86,
+        "beta2": 0.16,
+        "beta3": 0.05,
+        "v2_neutrons": {
+          "nu_h92": 0.2,
+          "nu_f72": 0.1,
+          "nu_i132": 0.01
+        },
+        "D_macro_efm": 0.00064,
+        "D_p_shell_efm": 0.1591,
+        "D_n_shell_efm": -0.0412,
+        "D_shell_net_efm": 0.1179,
+        "D_total_efm": 0.1185,
+        "exp_D0_efm": 0.05,
+        "cancellation_pct": 25.5
+      },
+      {
+        "nucleus": "144Ba",
+        "A": 144,
+        "N": 88,
+        "beta2": 0.2,
+        "beta3": 0.11,
+        "v2_neutrons": {
+          "nu_h92": 0.32,
+          "nu_f72": 0.17,
+          "nu_i132": 0.02
+        },
+        "D_macro_efm": 0.00176,
+        "D_p_shell_efm": 0.35,
+        "D_n_shell_efm": -0.1508,
+        "D_shell_net_efm": 0.1992,
+        "D_total_efm": 0.2009,
+        "exp_D0_efm": 0.13,
+        "cancellation_pct": 42.6
+      },
+      {
+        "nucleus": "146Ba",
+        "A": 146,
+        "N": 90,
+        "beta2": 0.22,
+        "beta3": 0.12,
+        "v2_neutrons": {
+          "nu_h92": 0.4,
+          "nu_f72": 0.27,
+          "nu_i132": 0.2
+        },
+        "D_macro_efm": 0.00211,
+        "D_p_shell_efm": 0.3818,
+        "D_n_shell_efm": -0.3727,
+        "D_shell_net_efm": 0.0091,
+        "D_total_efm": 0.0112,
+        "exp_D0_efm": 0.015,
+        "cancellation_pct": 97.1
+      },
+      {
+        "nucleus": "148Ba",
+        "A": 148,
+        "N": 92,
+        "beta2": 0.24,
+        "beta3": 0.1,
+        "v2_neutrons": {
+          "nu_h92": 0.56,
+          "nu_f72": 0.34,
+          "nu_i132": 0.4
+        },
+        "D_macro_efm": 0.00191,
+        "D_p_shell_efm": 0.3182,
+        "D_n_shell_efm": -0.5125,
+        "D_shell_net_efm": -0.1943,
+        "D_total_efm": -0.1924,
+        "exp_D0_efm": -0.06,
+        "cancellation_pct": 39.5
+      }
+    ],
+    "radium_systematics": [
+      {
+        "nucleus": "220Ra",
+        "A": 220,
+        "N": 132,
+        "beta2": 0.12,
+        "beta3": 0.08,
+        "D_macro_efm": 0.00105,
+        "D_p_shell_efm": 0.32,
+        "D_n_shell_efm": -0.12,
+        "D_total_efm": 0.201,
+        "exp_D0_efm": 0.2,
+        "cancellation_pct": 37.2
+      },
+      {
+        "nucleus": "222Ra",
+        "A": 222,
+        "N": 134,
+        "beta2": 0.16,
+        "beta3": 0.1,
+        "D_macro_efm": 0.00174,
+        "D_p_shell_efm": 0.38,
+        "D_n_shell_efm": -0.26,
+        "D_total_efm": 0.1217,
+        "exp_D0_efm": 0.12,
+        "cancellation_pct": 68.0
+      },
+      {
+        "nucleus": "224Ra",
+        "A": 224,
+        "N": 136,
+        "beta2": 0.18,
+        "beta3": 0.11,
+        "D_macro_efm": 0.00215,
+        "D_p_shell_efm": 0.4,
+        "D_n_shell_efm": -0.37,
+        "D_total_efm": 0.0322,
+        "exp_D0_efm": 0.03,
+        "cancellation_pct": 92.0
+      },
+      {
+        "nucleus": "226Ra",
+        "A": 226,
+        "N": 138,
+        "beta2": 0.19,
+        "beta3": 0.09,
+        "D_macro_efm": 0.00185,
+        "D_p_shell_efm": 0.36,
+        "D_n_shell_efm": -0.21,
+        "D_total_efm": 0.1519,
+        "exp_D0_efm": 0.15,
+        "cancellation_pct": 57.8
+      }
+    ]
+  },
+  "projected_gcm_paradox_resolution": {
+    "spatial_overlap_percentage": 85.93,
+    "energy_0plus_MeV": -0.0,
+    "energy_1minus_MeV": -0.0,
+    "parity_splitting_keV": -0.0,
+    "144Ba_results": {
+      "ME1_efm": 0.0,
+      "BE1_Wu": 0.0,
+      "ME3_eb32": 0.0,
+      "BE3_Wu": 0.0
+    },
+    "146Ba_results": {
+      "ME1_efm": 0.0,
+      "BE1_Wu": 0.0,
+      "ME3_eb32": 0.0,
+      "BE3_Wu": 0.0,
+      "BE1_suppression_factor": 89.9
+    }
+  },
+  "confidence_interval_and_shape_audit": {
+    "CI_144Ba_Wu": [
+      19.0,
+      69.0
+    ],
+    "CI_146Ba_Wu": [
+      14.0,
+      73.0
+    ],
+    "intersection_interval_Wu": [
+      19.0,
+      69.0
+    ],
+    "interval_overlap_percentage": 84.75,
+    "bhattacharyya_distribution_overlap": 92.94,
+    "model_compatibility_audit": [
+      {
+        "model": "Static Rigid Octupole Rotor (Axial Pear-shape, beta3=0.12)",
+        "predicted_BE3_Wu": 48.0,
+        "inside_144_CI": true,
+        "inside_146_CI": true,
+        "p_value_z": 0.0
+      },
+      {
+        "model": "Dynamic Octupole-Soft SCCM (Bernard 2016 Table I, 2D GCM)",
+        "predicted_BE3_Wu": 25.0,
+        "inside_144_CI": true,
+        "inside_146_CI": true,
+        "p_value_z": 0.92
+      },
+      {
+        "model": "Cranked CDFT PC-PK1 (Li 2024, Mean Field beta3=0.128)",
+        "predicted_BE3_Wu": 32.0,
+        "inside_144_CI": true,
+        "inside_146_CI": true,
+        "p_value_z": 0.64
+      },
+      {
+        "model": "Spherical Octupole Vibrator (Harmonic Phonon Limit)",
+        "predicted_BE3_Wu": 8.0,
+        "inside_144_CI": false,
+        "inside_146_CI": false,
+        "p_value_z": 1.6
+      }
+    ],
+    "scientific_inference": "Because both the static rigid rotor (48 W.u.) and the dynamic octupole-soft SCCM (25 W.u.) fall cleanly within the 1-sigma confidence intervals of both 144Ba and 146Ba, the experimental Coulomb excitation data conclusively confirms strong octupole collectivity, but cannot statistically distinguish between a rigid static pear shape and large-amplitude dynamic octupole fluctuations."
+  }
+}

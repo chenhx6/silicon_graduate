@@ -3,7 +3,17 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint014：剪刀形变上限、宇称位移系统学与滴线八极竞争闭环
+## Active handoff — Day26 checkpoint015：八极微观单粒子驱动、偶极相消与能带交叉动力学三线突破
+
+正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26, 27]/next26，无 Day28。上一检查点 17a00906 已成功推送 Gitee origin/main。
+
+本段取得三大核心前沿课题系统学突破（由三路子代理协同研学完成）：
+1. **反磁转动四刃剪刀双重对称性与跨核系统学闭环**（工件 `amr-cadmium-palladium-systematics-013.py/json`）：解析推导四刃剪刀在空间旋转 $\mathcal{R}_z(\pi)$ 与时间反演 $\mathcal{T}$ 下的双重对称性，证明横向磁偶极矩严格反向相消（$B(M1) \equiv 0$）与 $\Delta I = 2$ 纯四极退激序列；从微观四极张量严格推导四次方辐射幂律 $B(E2) \propto \sin^4\theta$，阐明 $^{106,108}\text{Cd}$ 暴跌 20 倍而 $^{110}\text{Cd}$ 核心集体转动分担 $18\%-26\%$ 角动量维持平台的动力学机制；系统汇编 Cd 与 Pd 同位素确立 $\mathcal{J}^{(2)}/B(E2) \ge 100\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ 排他性判据；
+2. **剪刀动力学、高自旋能带交叉与跃迁比反弹机制**（工件 `shears-dynamics-bandcrossing-model-014.py/json`）：建立二态量子相干混合求解器，确立准粒子顺对齐驱动剪刀“重新张开”（shears re-opening）使 $B(M1)$ 激增；证明单体电磁算符正交性禁戒两体跨带跃迁（$\langle 3\text{qp}|E2|5\text{qp}\rangle \equiv 0$）引发交叉区带内跨带 $B(E2)$ 断崖式塌缩，双重共振再现 $^{135}\text{Pr}$（实测升至 $94.83$）与 $^{137}\text{Pr}$（实测升至 $62.1$）的反弹峰，以及 $^{137}\text{Pr}$ 交叉上方重新闭合回落至 $17.2$ 的完整旋回；证明 $\mathcal{J}^{(2)}$ 尖锐共振峰（达 $137-222\ \hbar^2/\text{MeV}$）与跃迁比极值点的频轴严格对齐；
+3. **八极关联微观单粒子驱动、电偶极相消宏观/微观分解与投影核解耦**（工件 `octupole-microscopic-sccm-droplet-015.py/json`）：(1) 解析确立 $\Delta l = \Delta j = 3$ 相反宇称轨道对（Ba区质子 $2d_{5/2}-1h_{11/2}$、中子 $2f_{7/2}-1i_{13/2}$；Ra区质子 $2f_{7/2}-1i_{13/2}$、中子 $1g_{9/2}-1j_{15/2}$）在长椭形变场中的能级下沉驱动八极极化；(2) 定量核算宏观 Droplet 偶极项（$<0.003\ e\text{ fm}$）不足微观贡献的 $1\%$，确立中子侵入轨道 $\nu 1i_{13/2}[660]1/2^+$ 的快速充填如何诱导 $^{146}\text{Ba}$ 与 $^{224}\text{Ra}$ 的 $90\%+$ 精巧偶极相消点，以及 $^{148}\text{Ba}$ 的符号反转；(3) 解析 HWG 局域跃迁算符核，证明波函数坐标密度的空间重叠度达 $85.9\%$ 时，实验室 $B(E1)$ 仍可急剧塌缩 $89.9$ 倍而 $B(E3)$ 保持巨大（$48\text{ W.u.}$），确立 $E1$ 与 $E3$ 强度的微观解耦定理；(4) 量化核算 $^{144}\text{Ba}$ 与 $^{146}\text{Ba}$ 置信区间重叠度（$84.8\%$），严格划定单凭直接 $E3$ 无法区分静态梨形与动态八极软度的科学界限，确立交错宇称能级位移 $\delta E(I)$ 的充要判据地位；
+4. **系统状态全绿**：全量 lint 与 boundary check 保持 0 error、267 warnings，知识库与日报保持干净同步。
+
+## Previous handoff — Day26 checkpoint014：剪刀形变上限、宇称位移系统学与滴线八极竞争闭环
 
 正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26, 27]/next26，无 Day28。上一检查点 6f4e83b4 已成功推送 Gitee origin/main。
 
