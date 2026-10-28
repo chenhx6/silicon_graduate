@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "topic": "Day 26 uncredited preview: Antimagnetic rotation (AMR) in 110Cd and J^(2)/B(E2) diagnostic ratio",
+  "day_index": 25,
+  "preview_day_index": 26,
+  "formal_credit_awarded": false,
+  "experimental_case_110cd": {
+    "nucleus": "110Cd",
+    "band": "Positive-parity AMR candidate",
+    "configuration": "pi(g9/2)^-2 x nu(h11/2)^2 (four-blade quadrupole shears)",
+    "transitions": [
+      {
+        "I_initial": 12,
+        "I_final": 10,
+        "E_gamma_keV": 744.0,
+        "B_E2_e2b2": 0.11,
+        "B_E2_err": 0.03,
+        "J2_hbar2_per_MeV": null,
+        "J2_over_BE2": null
+      },
+      {
+        "I_initial": 14,
+        "I_final": 12,
+        "E_gamma_keV": 907.0,
+        "B_E2_e2b2": 0.1,
+        "B_E2_err": 0.02,
+        "J2_hbar2_per_MeV": 24.54,
+        "J2_over_BE2": 245.4
+      },
+      {
+        "I_initial": 16,
+        "I_final": 14,
+        "E_gamma_keV": 1042.0,
+        "B_E2_e2b2": 0.09,
+        "B_E2_err": 0.02,
+        "J2_hbar2_per_MeV": 29.63,
+        "J2_over_BE2": 329.2
+      },
+      {
+        "I_initial": 18,
+        "I_final": 16,
+        "E_gamma_keV": 1180.0,
+        "B_E2_e2b2": 0.07,
+        "B_E2_err": 0.03,
+        "J2_hbar2_per_MeV": 28.99,
+        "J2_over_BE2": 414.1
+      }
+    ]
+  },
+  "mode_diagnostic_matrix": {
+    "collective_rotation_well_deformed": {
+      "description": "Standard deformed core rotation (e.g., 160Dy, 166Er)",
+      "typical_B_E2_e2b2": "0.8 - 2.5 (100 - 300 W.u.)",
+      "typical_B_M1_muN2": "< 0.01 (forbidden or core gR only)",
+      "typical_J2_over_BE2": "15 - 40 hbar^2 MeV^-1 (e^2 b^2)^-1",
+      "Delta_I_sequence": "Delta I = 2 cascade, strong E2 crossovers",
+      "angular_momentum_generation": "Collective rotation of distorted mass distribution"
+    },
+    "magnetic_rotation_MR": {
+      "description": "Single-blade shears mechanism (e.g., 199Pb, 135Pr)",
+      "typical_B_E2_e2b2": "0.01 - 0.08 (few W.u., nearly spherical core)",
+      "typical_B_M1_muN2": "1.0 - 5.0 (highly enhanced transverse dipole)",
+      "typical_B_M1_over_B_E2": "10 - 50 (mu_N / eb)^2",
+      "typical_J2_over_BE2": "Not applicable (M1 dominated)",
+      "Delta_I_sequence": "Delta I = 1 M1 cascade with weak/absent E2 crossovers",
+      "angular_momentum_generation": "Closing of proton-particle and neutron-hole shears blades"
+    },
+    "antimagnetic_rotation_AMR": {
+      "description": "Two-shears symmetric quadrupole closing (e.g., 110Cd, 106Cd)",
+      "typical_B_E2_e2b2": "0.05 - 0.15 (10 - 25 W.u., small core deformation)",
+      "typical_B_M1_muN2": "Strictly 0 (forbidden by four-blade inversion symmetry)",
+      "typical_J2_over_BE2": "150 - 400 hbar^2 MeV^-1 (e^2 b^2)^-1 (defining diagnostic)",
+      "Delta_I_sequence": "Pure Delta I = 2 E2 cascade with no M1 transitions",
+      "angular_momentum_generation": "Simultaneous symmetric closing of two opposing shears"
+    }
+  },
+  "falsification_insights": [
+    "110Cd exhibits a nearly constant B(E2) ~ 0.10 e^2b^2 from 12+ to 16+, disproving the simplistic universal hard gate that AMR B(E2) must steeply drop by factors of 3-5",
+    "The ratio J^(2)/B(E2) ~ 245 - 329 hbar^2 MeV^-1 (e^2 b^2)^-1 is an order of magnitude higher than collective rotation (~20-40), providing the robust discriminator",
+    "Complete absence of M1 transitions is enforced by the double-shears inversion symmetry, cleanly separating AMR from MR and wobbling"
+  ]
+}
