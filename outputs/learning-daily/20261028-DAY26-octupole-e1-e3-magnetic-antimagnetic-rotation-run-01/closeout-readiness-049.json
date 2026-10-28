@@ -1,0 +1,36 @@
+{
+  "schema": "day26-closeout-readiness-049/v1",
+  "observed_at_local": "2026-10-29T00:20:00+08:00",
+  "run_id": "2026-10-28-day-26-01",
+  "session_id": "01a1819f-75bb-7a11-be19-05761880f65c",
+  "overall_status": "pending-closeout-window",
+  "hard_deadline": "2026-10-29T15:00:00+08:00",
+  "closeout_window": "2026-10-29T15:00:00+08:00/2026-10-29T16:00:00+08:00",
+  "live_state": {
+    "farmer_pid": 3193,
+    "farmer_observed_alive": true,
+    "head": "d7e5767a8573a71af3361edd06269f2f6aabc497",
+    "origin_main": "d7e5767a8573a71af3361edd06269f2f6aabc497",
+    "run_json_status": "running",
+    "counted_in_substantive_test": false,
+    "completed_day_indices": [],
+    "partial_day_indices_in_receipt": [26],
+    "report_preview": "Day27 bounded no-credit; Day28 unopened"
+  },
+  "requirements": {
+    "science_writeback": "proved",
+    "source_and_unit_audit": "proved",
+    "boundary_and_lint_current_before_closeout": "needs_refresh_at_closeout",
+    "day25_named_receipts": "missing-and-recorded-without-fabrication",
+    "formal_day26_credit": "pending",
+    "final_session_receipt": "pending",
+    "next_day_preparation": "present-and-no-credit"
+  },
+  "closeout_actions": [
+    "Refresh Asia/Shanghai clock at or after 15:00",
+    "Reconcile report preview fields with original run.json without changing historical receipt",
+    "Run fresh boundary/lint/diff checks",
+    "Write final-session receipt, card audit, next-day continuation and publication reconciliation",
+    "Only then decide whether the Day26 card and goal can be marked complete"
+  ]
+}

@@ -104,6 +104,7 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 - **045 110Cd 分支归一化审计**：评价字段给出22⁺的1314.1-keV份额 2.7/(2.7+1.0)=0.7297；18⁺、20⁺、24⁺所读块无第二评价分支。该情景不能覆盖全部7–11%中心差，也不能直接修正 Roy 未确认1100-keV线。
 - **046–047 并行复核**：Ba 证据层再次确认 E1 中心差异不是精确模型验证，SCCM F 图不能替代非对角算符核；Cd HI,XNG 的 RI 仍是相对量，评价表头不等于逐线绝对 B(M1)/B(E2)。
 - **048 closeout readiness**：逐项审计标出 R1–R8 已证实或弱证据，R9 正式学分/最终 receipt 继续 pending；报告 preview 与原 run.json 的 partial 字段差异留待 closeout reconciliation。
+- **049 live closeout refresh**：00:20 Asia/Shanghai重新核对 farmer PID、`HEAD=origin/main` 和原 run.json；正式学分/最终 receipt继续pending，15:00–16:00必须重新跑门禁并完成 reconciliation。
 - **043 续接与次日准备**：已生成可复制 resume 命令、未决路线和 Day27 无学分预览；不推进 next_day_index，不打开 Day28，正式 Day27 仍等待自己的原始 runner receipt。
 - **036 奇A能量窗**：225Ra/225Ac同自旋异宇称候选计数随50/100/200-keV窗扩大，最近能级可误导；A–D带标签与分支连接缺失时不选定宇称伙伴。
 - **037–040 收敛审计**：MR/AMR十项观测矩阵、E3跨来源一致性、奇A跨来源一致性和离散电流边界均完成；Roy Table 1已核为归档PDF印刷p.324，p.323仅为前页线形段；Ra E1 provenance更正为229Th α-decay链，Ac才是225Ra β− L-subshell ratios。
