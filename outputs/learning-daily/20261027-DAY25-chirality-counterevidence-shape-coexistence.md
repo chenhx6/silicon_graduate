@@ -612,6 +612,8 @@ L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条�
 
 ## Verification and continuation
 
+checkpoint019：产出定量反证控制工件 day26-octupole-overlap-control-018.json，显式核验 Bucher 144Ba（14–73 W.u.）与 146Ba（19–69 W.u.）的 B(E3) 实验置信区间显著重叠（重叠区 19–69 W.u.，中心比 1.0），证明两核八极跃迁集体性相容，同时保持严格边界：不把区间重叠升级为严格恒定或静态刚性梨形的无模型证明；全套检查保持通过。
+
 checkpoint018：新增 BU16-D25P-A005-01，明确 144Ba 直接 E3 与 E1 弱敏感性边界；日报写回条目更新为 20，相关来源与检查均已发布。
 
 checkpoint017：落盘专属研究笔记 [[131ce-133ce-lifetime-lineage-and-high-spin-migration]]，在主索引及主干蓝本 [[133ce-thesis-analysis-blueprint]] 中建立双向权威回链；系统梳理 Li 2004 与 Singh 2016 寿命基准，确立绝对时钟衰变网络接入合同与高自旋多准粒子迁移规则，反驳“全核无寿命”断言；增补日报唯一 writeback 块第 19 项原子写回条目，经 validate_writeback_items.py 检验 19 项全部有效（valid: true）；生成独立计算脚本 day26-octupole-mr-quantitative-017.py 与数据工件 day26-octupole-mr-quantitative-017.json，完成 144,146Ba E3 维斯科普夫强度（49.0/47.7 W.u.）与 135Pr 剪刀模型高自旋偏离定量对账；全套检查（boundary、lint 0 error、diff、writeback）保持通过。
