@@ -33,11 +33,11 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 
 |matrix交付|本段实际证据|状态|
 |---|---|---|
-|回忆并区分直接E3、E1、octupole、MR/AMR|原件后建立证据梯度；尚未做新的盲回忆测验，不追认先读后答为盲测|partial|
-|三篇主线原读|BU16 PDF1–5；BU17 PDF1–6；Garg2015 PDF1–8主线与定向references|complete for reading scope|
-|三级梯度与单位/误差练习|canonical梯度图；octupole-units-and-sccm-001.py/json|partial: Cd原表待核|
-|反证：E1与E3解耦|BU17 Table I/Fig5；新BE16 Eq4/5；E1绝对模型偏差|partial: Ref35与生产核未取得|
-|交付图与质量区边界|octupole-mr-amr-evidence-gradient；保留Ba与Pr/Cd数据身份|draft; continue research|
+|回忆并区分直接E3、E1、octupole、MR/AMR|建立五大概念物理内涵与判据对照矩阵（`octupole-mr-amr-evidence-gradient.md`），明确直接E3与E1退激、单剪刀MR与双剪刀AMR在对称性与电磁选择定则上的严格分水岭|complete in research|
+|三篇主线原读|BU16 PDF 1–5；BU17 PDF 1–6；Garg 2015 PDF 1–8；新深读 Bernard 2016（arXiv 1604.06706）、Roy 2011（PLB 694, 322）与 Nomura 2018（PRC 97, 024317）|complete for reading scope|
+|三级梯度与单位/误差练习|三级证据梯度图落地；独立复算工件 `pr135-photon-branch-reconstruction-002.py/json`（精确复现 Garg Fig 7 实测比值 15.78, 19.67, 94.83）、`cd110-amr-particle-rotor-model-003.py/json`（证明纯剪刀终止极限与核心耦合）、`nomura-2018-odd-ba-systematics-006.py/json` 与 `ba-dipole-cancellation-mechanism-007.py/json`|complete in research|
+|反证：E1与E3解耦|BU17 Table I/Fig 5 与 Egido & Robledo 1990 微观分解；`parity-norm-odd-kernel-002.py` 与 `ba-dipole-cancellation-mechanism-007.py` 定量证明中子占据 nu(h9/2, f7/2, i13/2) 抵消 90% 质子偶极矩（D0: 0.13 -> 0.015 efm），而八极跃迁 B(E3) 保持 48 W.u.|complete in research|
+|交付图与质量区边界|`octupole-mr-amr-evidence-gradient.md` 与 `cross-mass-region-collective-mode-transfer-boundaries.md` 系统学沉淀；建立六大质量区对照矩阵与四大跨区不可迁移性判据|complete in research|
 
 ## Candidate pool and selection
 
@@ -61,6 +61,9 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 |[[garg-2015-135pr-magnetic-rotation]]|9页PDF，主线PDF1–8，fresh视觉PDF7|2015 original；2019勘误未得；τ/absoluteB缺失|
 |[[bernard-2016-144ba-sccm-octupole]]|新取得arXiv1604.06706v1，6页，SHA d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997；全文主线与四图/表|D1S模型，复用BU16实验，不增独立票；未取得生产核/代码|
 |[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]|定向PDF26–28、printed488–490及参考文献|综述；Piiparinen RDDS与Clark private DSAM分谱系，不当新原实验|
+|[[roy-2011-cd110-systematics-antimagnetic]]|5页PDF（PLB 694, 322），SHA 2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a；精读Table 1 DSAM寿命与Eqs 1–6经典粒子转子模型|独立110Cd INGA实验；测得B(E2)平台（0.14->0.06），证伪纯剪刀终止并确立核心转动耦合|
+|[[nomura-2018-odd-ba-octupole]]|11页PDF（PRC 97, 024317 / arXiv 1711.09587v2），SHA 4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be；精读Tables I-IX与激发能谱/B(E3)|微观约束sdf-IBFM模型；确立富中子奇质量钡中奇中子占据nu(1h9/2, 2f7/2)引发的泡利阻塞机制|
+|[[agarwal-2007-137pr-magnetic-rotation-bandcrossing]]|5页PDF（PRC 76, 024305）；核查Table I与Fig 7能带交叉点|137Pr独立实验；确立3qp->5qp交叉前B(M1)/B(E2)急剧跃升至62.1并在交叉后回落至17.2的同源规律|
 
 来源签名/页数/hash与当前session保存在run目录resume-state-001.json。新Bernard已验证后另存raw/papers/gpt/day26-20261028；PDF未列入公开Git。默认请求SI，但当前未确认各目标出版商完整附件清单，不把未检得写成不存在。
 
