@@ -4680,3 +4680,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. 225Ra与223Ra八极增强Schiff矩与CP破坏微观边界（ra225-octupole-schiff-moment-cp-violation-boundary.md，工件 ra225-schiff/）：核验225Ra 55.16 keV双重态能隙带来的18-20倍放大与Engel 2003 SkO内禀尺度（22.98 e fm3），对账相对199Hg千倍增强与等耦合通道相消；
   3. 平面转动向非平面手征转动的几何分岔微观机制（mr-amr-to-chiral-topological-transition-mechanisms.md，工件 chiral-amr-transition/）：证明三轴粒子-转子模型在I=14首次分岔出+-phi非平面镜像手征极小（chi_g != 0），对账106Ag MR/手征共存与106Cd AMR对称性；
   4. 全量检查全绿：wiki_lint.py 0 error/314 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T06:55:00+08:00 Day26 checkpoint079：手征-八极四重态选择定则、MR/AMR带终止极限及双声子八极库激阻尼机制。
+  1. 三轴八极奇奇核手征-八极四重态对称性与选择定则（chiral-octupole-quadruplets-symmetry-and-transition-rules.md，工件 chiral-octupole/）：建立四局域态双重隧穿模型与单纯形-旋称分类，计算80条多极跃迁记录并确立M1/E1/E2四通道跃迁矩阵；
+  2. 磁转动与反磁转动高自旋闭合极限与非集体带终止机制（mr-amr-band-termination-and-extreme-spin-limits.md，工件 shears-termination/）：推导两叶片/四叶片最大对齐自旋，数值验证端点幂律（MR 1.9998, AMR 3.9986），确立区分平滑带终止与重开剪刀的判据；
+  3. 多声子八极多重态（0+, 2+, 4+, 6+）库激压低微观机制（two-phonon-octupole-multiplets-damping-and-coulex-suppression.md，工件 two-phonon-octupole/）：推导二阶库激振幅失谐分母，结合doorway碎片化阻尼（展宽0.64-0.85 MeV）与IVGDR干涉相消解释实验压低成因；
+  4. 全量检查全绿：wiki_lint.py 0 error/317 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

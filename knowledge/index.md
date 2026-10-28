@@ -12,6 +12,7 @@ updated: 2026-10-28
 ## Day26：八极与磁转动证据梯度
 
 - [[amr-vpinu-neutron-number-core-polarization-audit]] — 同N的104Pd/106Cd Vπν归一、核芯极化与中子数演化的条件微观推导。
+- [[mr-amr-band-termination-and-extreme-spin-limits]] — MR/AMR剪刀闭合、固定组态最大自旋、终止附近 (B(M1))/(B(E2))/(J^{(2)}) 与交叉重开判据。
 - [[pohl-1996-107108pd-highspin-metadata]] — 107,108Pd高自旋谱学原件入口；正文未取得。
 - [[juutinen-1994-109111cd-107pd-highspin-metadata]] — 109,111Cd与107Pd高自旋谱学原件入口；正文未取得。
 
@@ -33,6 +34,7 @@ updated: 2026-10-28
 - [[e3-ewsr-transition-density-boundary]] — E3能量加权和规则双归一化、首态部分和与Tassie/RPA跃迁密度边界。
 - [[mr-to-chiral-topology-odd-odd-106ag-134pr-198bi]] — 奇奇核从平面剪刀向三维手征转动的拓扑相变：几何非共面、中轴惯量与双阱势垒。
 - [[mr-amr-to-chiral-topological-transition-mechanisms]] — MR/AMR 到非平面手征转动的几何分岔、离散对称、106Ag/106Cd/198Bi证据边界与可复现诊断。
+- [[chiral-octupole-quadruplets-symmetry-and-transition-rules]] — 三轴八极奇奇核手征-八极四重态（|L,±⟩, |R,±⟩）的离散对称性、单纯形分类与多通道跃迁选择定则。
 - [[beta2-beta3-octupole-topology-boundary]] — 四极—八极势能面拓扑适用边界：中等四极窗口去普适化与准粒子响应分析。
 - [[actinide-octupole-hexadecapole-coupling-fission-barrier]] — 锕系与超重核区 β3–β4 耦合对裂变势垒和宇称双重态的条件性重整化。
 - [[mr-bandhead-spin-i0-quantum-shears-boundary]] — 磁转动带头自旋I0的微观决定机制：P2相互作用正交极小与有限j量子修正。
@@ -77,6 +79,7 @@ updated: 2026-10-28
 - [[e3-multipole-transition-ledger-boundary]] — E3矩阵元单位、初态简并、星号耦合与部分和规则边界。
 - [[octupole-sum-rule-static-dynamic-identifiability]] — 222/228Ra多跃迁E3图样与静态/动态可辨识性边界。
 - [[octupole-cline-invariants-and-dynamic-softness-criterion]] — Cline旋转不变量闭合、`Q3²/Q2Q3²` 归一、简谐零点涨落与144/146Ba、224Ra的静态/动态判据边界。
+- [[two-phonon-octupole-multiplets-damping-and-coulex-suppression]] — 两声子八极 `0+,2+,4+,6+` 的简谐基线、doorway碎片化阻尼与IVGDR相消的示意模型及证据边界。
 
 - [[butler-2020-222-228ra-octupole-evolution]] — 222/228Ra多跃迁E3系统学与静态/振动竞争解释。
 

@@ -3,7 +3,24 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint078：135/137Pr TAC-RMF交叉动力学、225Ra八极增强Schiff矩及MR向手征拓扑转变
+## Active handoff — Day26 checkpoint079：手征-八极四重态选择定则、MR/AMR带终止极限及双声子八极库激阻尼机制
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键对称性与动力学前沿闭环：
+1. **三轴八极奇奇核手征-八极四重态对称性与选择定则**（`chiral-octupole-quadruplets-symmetry-and-transition-rules.md`，工件 `chiral-octupole/`）：
+   - 在四局域态 $|L,+\rangle, |R,+\rangle, |L,-\rangle, |R,-\rangle$ 基底中建立手征与宇称双重隧穿微观模型（$t_\chi, t_\pi, t_{\chi\pi}$）；
+   - 建立整数自旋奇奇核单纯形（$s$）与旋称（$\alpha$）复合分类，计算 7 个自旋切片下 80 条跃迁记录，形式化手征伙伴间强 $\Delta I=1$ M1、宇称伙伴间强 $\Delta I=1$ E1 与对角/手征干涉 E2 四通道跃迁选择定则；
+2. **磁转动与反磁转动高自旋闭合极限与非集体带终止机制**（`mr-amr-band-termination-and-extreme-spin-limits.md`，工件 `shears-termination/`）：
+   - 推导两叶片 MR 最大矢量自旋 $I_{\text{max}} = j_p + j_n$（$B(M1) \propto \sin^2\theta \to 0$）与四叶片 AMR 最大对齐自旋 $I_{\text{max}} = \sum j_i$（$B(E2) \propto \sin^4\theta \to 0$），数值验证端点幂律指数（MR 为 1.9998，AMR 为 3.9986）；
+   - 确立通过有效形变（$\gamma \to 60^\circ$ 扁椭化）、寿命演化与动力学转动惯量 $J^{(2)}$ 跌落区分平滑带终止与重开剪刀的判据体系；
+3. **多声子八极多重态（0+, 2+, 4+, 6+）库仑激发微观压低机制**（`two-phonon-octupole-multiplets-damping-and-coulex-suppression.md`，工件 `two-phonon-octupole/`）：
+   - 严格推导二阶库仑激发振幅与能量失谐分母，校正玻色子占据数与角动量重耦合因子；
+   - 结合 doorway 碎片化阻尼模型给出中等激发能区展宽 $\Gamma_\downarrow \approx 0.64-0.85\text{ MeV}$，分析虚偶极巨共振（IVGDR）两步跃迁干涉相消，微观解释实验上难以清晰分离双声子态的物理机制。
+
+全量检查全绿（wiki_lint 0 error/317 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint078：135/137Pr TAC-RMF交叉动力学、225Ra八极增强Schiff矩及MR向手征拓扑转变
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

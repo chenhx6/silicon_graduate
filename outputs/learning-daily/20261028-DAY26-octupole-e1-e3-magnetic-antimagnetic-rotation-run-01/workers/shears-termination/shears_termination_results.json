@@ -1,0 +1,69 @@
+{
+  "scope": "classical fixed-configuration angle model plus finite-difference response audit",
+  "not_a_claim": [
+    "not an EDF/TAC calculation",
+    "not absolute strengths for a real nucleus",
+    "negative J2 branch is a reverse-test pathology"
+  ],
+  "literature_locators": {
+    "Clark_Macchiavelli_2000": "Annual Review Nucl. Part. Sci. 50, 1-36, PDF pp. 11-18 (shears geometry and B(M1)); pp. 30-34 (core/crossing limits)",
+    "Afanasjev_1999": "Phys. Rep. 322, 1-124, PDF pp. 4-7 (fixed-configuration alignment endpoint); pp. 37-40 (J^(2), smooth/unsmooth termination); pp. 43-53 (109Sb benchmark)",
+    "Roy_2011": "Phys. Lett. B 694, 322-326, printed pp. 323-326; Eq. (1) on p. 323 gives symmetric-AMR B(E2) proportional to sin^4(theta), Table 1 p. 324 gives 110Cd lifetimes/B(E2), pp. 325-326 discuss core-plus-AMR"
+  },
+  "classical_endpoints": {
+    "MR_Imax_hbar": 15.5,
+    "AMR_Imax_hbar": 20.0,
+    "quantum_example": "pi(g9/2)^-2 Jp=8 coupled to nu(h11/2)^2 Jn=10 gives Imax=18 hbar for the frozen finite-j sector; antisymmetry and core coupling matter"
+  },
+  "endpoint_power_fits": {
+    "MR_BM1_theta_power": 1.9997812284713632,
+    "AMR_BE2_theta_power": 3.9986030894536353
+  },
+  "J2_extrema": {
+    "fixed_MR": {
+      "min": {
+        "value": 0.012461255074569787,
+        "hbar_omega_MeV": 1.4
+      },
+      "max": {
+        "value": 29.463995670397455,
+        "hbar_omega_MeV": 0.2
+      }
+    },
+    "fixed_AMR": {
+      "min": {
+        "value": 0.03160220857694252,
+        "hbar_omega_MeV": 1.4
+      },
+      "max": {
+        "value": 55.380177942580694,
+        "hbar_omega_MeV": 0.2
+      }
+    },
+    "reopening_proxy": {
+      "min": {
+        "value": 0.7833915341351083,
+        "hbar_omega_MeV": 1.4
+      },
+      "max": {
+        "value": 32.48841334027898,
+        "hbar_omega_MeV": 0.8300000000000001
+      }
+    },
+    "turnover_reverse_test": {
+      "min": {
+        "value": -18.484656378479375,
+        "hbar_omega_MeV": 0.79
+      },
+      "max": {
+        "value": 29.463995670397455,
+        "hbar_omega_MeV": 0.2
+      }
+    }
+  },
+  "source_page_hashes": {
+    "knowledge/sources/clark-2000-shears-mechanism.md": "53c6ab40a5eda91aee509c8dd79edfaa502b01715539c62dcd662d4dd7a76795",
+    "knowledge/sources/afanasjev-1999-termination-rotational-bands.md": "4029d49b1e3134fd380905a9cd59279084f40ebf1a8122da6b0db28376c0dcc5",
+    "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md": "ea0594e469f48f457f13e00beabdf03879a1237ced4a06640d623f3ca4f510f5"
+  }
+}
