@@ -1,0 +1,159 @@
+{
+  "schema": "e3-ewsr-transition-density-boundary/v1",
+  "status": "bounded-source-self-audit",
+  "formula_audit": {
+    "requested": "35/(8pi)*(hbar^2 e^2/m_N)*Z*R0^4",
+    "standard_derivation": "m1=sum_mu (hbar^2/2m)*(3*7)/(4pi)*e^2 Z <r^4> = (21 hbar^2/(8pi m))*e^2 Z <r^4>; uniform sharp sphere <r^4>=3R0^4/7 => 9/(8pi)*(hbar^2 e^2/m)*Z R0^4",
+    "verdict": "Under standard M(E3)=e sum_p r^3Y_3mu and R0=1.2 A^(1/3) fm, 35/(8pi) is larger by 35/9. It can be retained only as an explicitly user-defined normalization; its R0 definition must be stated."
+  },
+  "constants": {
+    "hbar2_over_m_MeV_fm2": 41.471,
+    "R0_fm": "1.2*A^(1/3)",
+    "B_conversion": "1 b^3=10^6 fm^6"
+  },
+  "rows": [
+    {
+      "nucleus": "144Ba",
+      "A": 144,
+      "Z": 56,
+      "E3_MeV": 0.839,
+      "B_up_e2b3": 0.42250000000000004,
+      "m1_low_MeV_e2fm6": 354477.50000000006,
+      "EWSR_user_35_over_8pi": 5061769.4429791495,
+      "pct_user_formula": 7.003035282289925,
+      "EWSR_standard_sharp_sphere_9_over_8pi": 1301597.8567660667,
+      "pct_standard": 27.23402609779416,
+      "input": [
+        "0.65(+0.17/-0.23)",
+        "paper Table I",
+        "energy approximate; 3- level not in local adopted record"
+      ]
+    },
+    {
+      "nucleus": "146Ba",
+      "A": 146,
+      "Z": 56,
+      "E3_MeV": 0.8211,
+      "B_up_e2b3": 0.42250000000000004,
+      "m1_low_MeV_e2fm6": 346914.75000000006,
+      "EWSR_user_35_over_8pi": 5155722.230865385,
+      "pct_user_formula": 6.728732357285482,
+      "EWSR_standard_sharp_sphere_9_over_8pi": 1325757.1450796702,
+      "pct_standard": 26.167292500554655,
+      "input": [
+        "0.65(+0.14/-0.20)",
+        "BU17 Table I / ENSDF 821.10(83)",
+        "direct+evaluated"
+      ]
+    },
+    {
+      "nucleus": "224Ra",
+      "A": 224,
+      "Z": 88,
+      "E3_MeV": 0.290352,
+      "B_up_e2b3": 0.8835999999999999,
+      "m1_low_MeV_e2fm6": 256555.02719999998,
+      "EWSR_user_35_over_8pi": 14336540.740351347,
+      "pct_user_formula": 1.7895183492758837,
+      "EWSR_standard_sharp_sphere_9_over_8pi": 3686539.047518918,
+      "pct_standard": 6.9592380249617705,
+      "input": [
+        "0.940(30) e b^(3/2)",
+        "Gaffney Table 1",
+        "Bup=M^2"
+      ]
+    },
+    {
+      "nucleus": "226Ra",
+      "A": 226,
+      "Z": 88,
+      "E3_MeV": 0.32154,
+      "B_up_e2b3": 1.1,
+      "m1_low_MeV_e2fm6": 353694.0,
+      "EWSR_user_35_over_8pi": 14507467.320178123,
+      "pct_user_formula": 2.4380134188415825,
+      "EWSR_standard_sharp_sphere_9_over_8pi": 3730491.5966172316,
+      "pct_standard": 9.481163295495044,
+      "input": [
+        "BE3=1.10(11) e2 b3",
+        "ENSDF 226088001",
+        "direct adopted field"
+      ]
+    },
+    {
+      "nucleus": "208Pb",
+      "A": 208,
+      "Z": 82,
+      "E3_MeV": 2.614522,
+      "B_up_e2b3": 0.611,
+      "m1_low_MeV_e2fm6": 1597472.942,
+      "EWSR_user_35_over_8pi": 12102153.086698238,
+      "pct_user_formula": 13.199906913719513,
+      "EWSR_standard_sharp_sphere_9_over_8pi": 3111982.222293832,
+      "pct_standard": 51.33297133113145,
+      "input": [
+        "B(E3)=0.611(9) e2 b3",
+        "ENSDF 208082001",
+        "BE3W=33.8(6)"
+      ]
+    }
+  ],
+  "evidence_fingerprints": [
+    {
+      "dataset": "224088001,224RA",
+      "path": "tmp/day26-ewsr-e3/224ra-adopted.html",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "bytes": 42521,
+      "signature_hex": "3c3f786d6c207665",
+      "sha256": "bf965d344c4bb2625edc6fa8215ef30117f233fb44e7afe6798a3f17090fd0fd",
+      "locator": "adopted fixed-column XML/HTML wrapper; focused 3- level and BE3 fields"
+    },
+    {
+      "dataset": "226088001,226RA",
+      "path": "tmp/day26-ewsr-e3/226ra-adopted.html",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "bytes": 30680,
+      "signature_hex": "3c3f786d6c207665",
+      "sha256": "1fe6f64814149b2b4b3542086848bb95b30d22273b98a98453a3d367f96a56ca",
+      "locator": "adopted fixed-column XML/HTML wrapper; focused 3- level and BE3 fields"
+    },
+    {
+      "dataset": "208082001,208PB",
+      "path": "tmp/day26-ewsr-e3/208pb-adopted.html",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "bytes": 232097,
+      "signature_hex": "3c3f786d6c207665",
+      "sha256": "e3e2867aa9500c7c7f1749d1cdf40bee773fecef298a99212c8298e1ccdc7e91",
+      "locator": "adopted fixed-column XML/HTML wrapper; focused 3- level and BE3 fields"
+    },
+    {
+      "path": "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
+      "bytes": 881225,
+      "signature_hex": "255044462d312e34",
+      "sha256": "f0da6d0a56cd10d1023633aed1a25d021f88a0ff48787c4569a26031e1b3dc4d",
+      "locator": "direct paper Table I; E3 matrix element"
+    },
+    {
+      "path": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "bytes": 1423088,
+      "signature_hex": "255044462d312e35",
+      "sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",
+      "locator": "direct paper Table I; E3 matrix element"
+    }
+  ],
+  "transition_density": {
+    "tassie": "delta_rho_lambda(r)= -alpha_lambda R0 d rho0/dr Y_lambda_mu; sharp surface localizes radial transition density near surface",
+    "microscopic_rpa": "delta_rho_lambda(r)=sum_ph (X_ph^nu+Y_ph^nu) <p||Y_lambda||h> R_p(r)R_h(r), with nodes and proton-neutron/interior contributions",
+    "boundary": "A single collective radial shape fit does not prove RPA wavefunction identity; compare radial nodes, proton/neutron isoscalar/isovector pieces and EWSR fractions."
+  },
+  "leor_heor": {
+    "boundary": "LEOR/HEOR separation is energy-region and probe/model dependent; electromagnetic E3 m1 fraction from one low state is not the isoscalar alpha-scattering EWSR fraction",
+    "mechanism": "low-energy collectivity concentrates strength in coherent surface ph amplitudes; high-energy giant octupole resonance carries broad incoherent/velocity-dependent strength and residual-interaction shifted EWSR; finite measured states give lower bound only"
+  },
+  "open_questions": [
+    "Direct 144Ba 3- level energy needs a stable level-scheme locator; 0.839 MeV retained conditionally.",
+    "No closure-complete E3 spectrum or covariance is available for five nuclei; percentages are first-state fractions, not total octupole exhaustion.",
+    "No common microscopic RPA transition-density files were retrieved for all five nuclei."
+  ],
+  "no_credit_or_deadline_change": true
+}

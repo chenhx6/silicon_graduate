@@ -1,0 +1,16 @@
+{
+  "model": "even azimuthal Landau landscape",
+  "formula": "E=a(x) sin^2(phi)+b sin^4(phi)",
+  "a": "0.42-x",
+  "b": 1.0,
+  "critical_control_x": 0.42,
+  "interpretation": "a>0 single planar minimum; a=0 soft mode; a<0 two degenerate minima +/-phi0",
+  "not_a_fit": true,
+  "observables_needed": [
+    "partner-resolved energies",
+    "intra/interband M1,E2 matrix elements",
+    "alignment and moments of inertia",
+    "configuration and triaxiality constraints"
+  ],
+  "boundary": "a sign change is a model diagnostic, not an experimental static-chirality proof"
+}

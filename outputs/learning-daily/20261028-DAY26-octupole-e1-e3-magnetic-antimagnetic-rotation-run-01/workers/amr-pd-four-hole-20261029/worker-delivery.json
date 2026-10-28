@@ -1,0 +1,39 @@
+{
+  "worker": "amr-pd-four-hole-20261029",
+  "status": "complete",
+  "deliverables": {
+    "research_note": "knowledge/research-notes/amr-pd-four-hole-geometry-evolution-audit.md",
+    "source_pages": [
+      "knowledge/sources/kumar-2023-amr-review.md",
+      "knowledge/sources/qiao-2025-pd-systematic-amr-metadata.md",
+      "knowledge/sources/diwanshu-2025-106cd-amr-metadata.md"
+    ],
+    "raw_files": [
+      "raw/papers/gpt/day26-20261028/kumar-2023-amr-review-arxiv2303.00499.pdf",
+      "raw/papers/gpt/day26-20261028/qiao-2025-pd-systematic-amr-crossref.json",
+      "raw/papers/gpt/day26-20261028/diwanshu-2025-106cd-amr-crossref.json"
+    ],
+    "artifacts": [
+      "pd_four_hole_audit.py",
+      "pd_four_hole_audit.json",
+      "four_hole_geometry.csv",
+      "wiki-lint-final.json",
+      "boundary-final.json"
+    ]
+  },
+  "findings": [
+    "Ideal four-hole geometry: two equal opposite-transverse pairs gives mu_perp=0, Q21=0, Rz(pi) pair exchange; equal theta,phi gives Q22 proportional 4 sin^2(theta) and fixed-amplitude B(E2) proportional 16 sin^4(theta).",
+    "R_y(pi)T preserves xz-plane vectors but is not AMR-exclusive; low-frequency PNC off-diagonal pairing terms prevent unique independent blade decomposition.",
+    "Exact identical-fermion g9/2^4 counting gives Jp,max=12, not 18; pairwise classical vector sums cannot bypass Pauli antisymmetry.",
+    "Zhang 2019: fixed epsilon2=0.18 misses 104Pd high-frequency B(E2) fall above 0.6 MeV; epsilon2 fitted toward zero near 0.75 MeV; this is an inverse fit, not independent deformation evidence. Predicted four-qp crossing near 0.8 MeV remains model result.",
+    "Kumar 2023 review references Pd AMR work in 100-104Pd and odd-A 103/105Pd, but no 106/108Pd AMR entries in its scope. This is a literature-boundary result, not a nonexistence proof.",
+    "Rather 2014 first page gives direct 104Pd DSAM scope and semiclassical two-hole formula; complete 5-page experimental table remains unavailable."
+  ],
+  "validation": {
+    "owned_lint_errors": 0,
+    "global_lint_errors": 5,
+    "boundary_ok": true,
+    "diff_check": "passed",
+    "commit_push": "not performed; parent owns integration/publication"
+  }
+}

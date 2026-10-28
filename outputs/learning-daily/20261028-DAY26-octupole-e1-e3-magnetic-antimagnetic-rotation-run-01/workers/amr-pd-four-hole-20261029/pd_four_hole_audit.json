@@ -1,0 +1,50 @@
+{
+  "scope": "ideal vector geometry and exact single-j Pauli counting; no Pd Hamiltonian or experimental fit",
+  "geometry": {
+    "grid_points": 8281,
+    "max_mu_perp": 0.0,
+    "max_q21": 0.0,
+    "max_Rz_pi_residual": 0.0,
+    "max_Ry_pi_T_residual": 0.0,
+    "q22_equal_pair_formula": "2 sin(theta_a)^2 exp(2iphi_a)+2 sin(theta_b)^2 exp(2iphi_b)",
+    "equal_theta_phi0_T22_four_blades": "4 sin(theta)^2",
+    "equal_theta_phi0_relative_B_E2": "16 sin(theta)^4"
+  },
+  "pauli": {
+    "single_j": "g9/2",
+    "two_hole_allowed_J_multiplicities": {
+      "0": 1,
+      "2": 1,
+      "4": 1,
+      "6": 1,
+      "8": 1
+    },
+    "two_hole_Jmax": 8,
+    "four_hole_allowed_J_multiplicities": {
+      "0": 2,
+      "2": 2,
+      "3": 1,
+      "4": 3,
+      "5": 1,
+      "6": 3,
+      "7": 1,
+      "8": 2,
+      "9": 1,
+      "10": 1,
+      "12": 1
+    },
+    "four_hole_Jmax": 12,
+    "fully_aligned_M": 12.0,
+    "warning": "pairwise composite blades do not bypass full j^4 antisymmetry"
+  },
+  "symmetry": {
+    "Rz_pi": "exchanges each opposite-transverse pair; requires equal pair weights/density",
+    "Ry_pi_T": "leaves every xz-plane vector invariant, but is not exclusive to AMR",
+    "odd_q": "pairwise cancellation applies to ideal equivalent pairs; pairing/off-diagonal terms require full density check"
+  },
+  "source_boundary": {
+    "104Pd": "Rather2014 first page direct DSAM scope; Zhang2019 full arXiv theory",
+    "106Pd": "no Pd AMR entry found in Kumar2023 review scope; absence is not nonexistence proof",
+    "108Pd": "no Pd AMR entry found in Kumar2023 review scope; absence is not nonexistence proof"
+  }
+}

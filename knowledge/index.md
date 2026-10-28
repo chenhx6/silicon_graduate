@@ -23,6 +23,9 @@ updated: 2026-10-28
 - [[cranked-shears-core-coupling-pb-vs-pr]] — 推转剪刀与核芯耦合模型：铅区（A~190）与稀土区（A~130）磁转动微观动力学对比。
 - [[pb-pr-magnetic-rotation-core-crossing-systematics]] — 铅区与稀土区磁转动系统学：核芯转动、交叉重开与无量纲响应。
 - [[actinide-lanthanide-doublewell-schiff-boundary]] — 锕系与镧系八极双阱势垒、隧穿劈裂与Schiff矩算符证据边界。
+- [[octupole-ewsr-and-giant-resonance-partition]] — 电八极能权求和规则（EWSR）与巨共振强度分配：从双幻核到稀土与锕系的微观系统学。
+- [[e3-ewsr-transition-density-boundary]] — E3能量加权和规则双归一化、首态部分和与Tassie/RPA跃迁密度边界。
+- [[mr-to-chiral-topology-odd-odd-106ag-134pr-198bi]] — 奇奇核从平面剪刀向三维手征转动的拓扑相变：几何非共面、中轴惯量与双阱势垒。
 - [[cd110-branch-normalization-boundary]] — 110Cd相对分支、22⁺ 1100-keV情景与Roy B(E2)归一化边界。
 
 - [[nndc-2012-cd110-hi-xng]] — 110Cd HI,XNG评价：高自旋寿命、分支、DCO与1100-keV争议。
@@ -1067,3 +1070,8 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[zhao-2012-105cd-cdft-antimagnetic]]
 - [[roy-2013-105cd-amr-comment-metadata]]
 - [[negi-2010-107in-shears-metadata]]
+
+- [[amr-pd-four-hole-geometry-evolution-audit]]
+- [[kumar-2023-amr-review]]
+- [[qiao-2025-pd-systematic-amr-metadata]]
+- [[diwanshu-2025-106cd-amr-metadata]]

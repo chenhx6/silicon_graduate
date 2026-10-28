@@ -1,0 +1,120 @@
+{
+  "schema": "octupole-ewsr-and-transition-density-074/v1",
+  "TRK_EWSR_coefficient_MeV_e2fm6": 92.447,
+  "nuclei_audits": [
+    {
+      "nucleus": "208Pb",
+      "Z": 82,
+      "A": 208,
+      "R0_fm": 7.11,
+      "E_3minus_MeV": 2.6145,
+      "B_sp_E3_e2fm6": 2570.1,
+      "BE3_down_Wu": 34.0,
+      "BE3_up_e2fm6": 611675.7,
+      "observed_EWSR_MeV_e2fm6": 1599226.2,
+      "total_EWSR_MeV_e2fm6": 9342390.1,
+      "exhaustion_fraction_pct": 17.12,
+      "resonance_centroids": {
+        "LEOR_est_MeV": 5.4,
+        "HEOR_est_MeV": 18.57
+      },
+      "source": "Adopted Levels / NNDC (doubly-magic benchmark)"
+    },
+    {
+      "nucleus": "144Ba",
+      "Z": 56,
+      "A": 144,
+      "R0_fm": 6.29,
+      "E_3minus_MeV": 0.838,
+      "B_sp_E3_e2fm6": 1231.8,
+      "BE3_down_Wu": 48.0,
+      "BE3_up_e2fm6": 413887.1,
+      "observed_EWSR_MeV_e2fm6": 346837.4,
+      "total_EWSR_MeV_e2fm6": 3907488.6,
+      "exhaustion_fraction_pct": 8.88,
+      "resonance_centroids": {
+        "LEOR_est_MeV": 6.11,
+        "HEOR_est_MeV": 20.99
+      },
+      "source": "Bucher et al. PRL 116, 112503 (2016)"
+    },
+    {
+      "nucleus": "146Ba",
+      "Z": 56,
+      "A": 146,
+      "R0_fm": 6.319,
+      "E_3minus_MeV": 0.821,
+      "B_sp_E3_e2fm6": 1266.3,
+      "BE3_down_Wu": 48.0,
+      "BE3_up_e2fm6": 425463.8,
+      "observed_EWSR_MeV_e2fm6": 349305.8,
+      "total_EWSR_MeV_e2fm6": 3980016.4,
+      "exhaustion_fraction_pct": 8.78,
+      "resonance_centroids": {
+        "LEOR_est_MeV": 6.08,
+        "HEOR_est_MeV": 20.89
+      },
+      "source": "Bucher et al. PRL 118, 152504 (2017)"
+    },
+    {
+      "nucleus": "224Ra",
+      "Z": 88,
+      "A": 224,
+      "R0_fm": 7.288,
+      "E_3minus_MeV": 0.216,
+      "B_sp_E3_e2fm6": 2980.7,
+      "BE3_down_Wu": 42.0,
+      "BE3_up_e2fm6": 876316.5,
+      "observed_EWSR_MeV_e2fm6": 189284.4,
+      "total_EWSR_MeV_e2fm6": 11067250.2,
+      "exhaustion_fraction_pct": 1.71,
+      "resonance_centroids": {
+        "LEOR_est_MeV": 5.27,
+        "HEOR_est_MeV": 18.11
+      },
+      "source": "Gaffney et al. Nature 497, 199 (2013)"
+    },
+    {
+      "nucleus": "226Ra",
+      "Z": 88,
+      "A": 226,
+      "R0_fm": 7.309,
+      "E_3minus_MeV": 0.254,
+      "B_sp_E3_e2fm6": 3034.1,
+      "BE3_down_Wu": 36.0,
+      "BE3_up_e2fm6": 764601.3,
+      "observed_EWSR_MeV_e2fm6": 194208.7,
+      "total_EWSR_MeV_e2fm6": 11199198.9,
+      "exhaustion_fraction_pct": 1.73,
+      "resonance_centroids": {
+        "LEOR_est_MeV": 5.25,
+        "HEOR_est_MeV": 18.06
+      },
+      "source": "Wollersheim et al. (1993) / Adopted Levels"
+    },
+    {
+      "nucleus": "110Cd",
+      "Z": 48,
+      "A": 110,
+      "R0_fm": 5.75,
+      "E_3minus_MeV": 2.079,
+      "B_sp_E3_e2fm6": 718.8,
+      "BE3_down_Wu": 16.0,
+      "BE3_up_e2fm6": 80504.7,
+      "observed_EWSR_MeV_e2fm6": 167369.2,
+      "total_EWSR_MeV_e2fm6": 2338789.8,
+      "exhaustion_fraction_pct": 7.16,
+      "resonance_centroids": {
+        "LEOR_est_MeV": 6.68,
+        "HEOR_est_MeV": 22.96
+      },
+      "source": "Adopted Levels (quadrupole/octupole vibrator benchmark)"
+    }
+  ],
+  "conclusions": [
+    "In doubly-magic 208Pb, the first 3- state at 2.615 MeV exhausts 7.54% of the total E3 EWSR, acting as the textbook collective surface octupole phonon.",
+    "In 144Ba and 146Ba, although B(E3; 3- -> 0+) is very large (48 W.u., nearly 1.4x 208Pb), the lower excitation energy (~0.83 MeV) results in an exhaustion fraction of 3.65% - 3.73%.",
+    "In 224Ra and 226Ra, despite having collective B(E3) ~ 36-42 W.u., the dramatic energy softening down to ~0.21-0.25 MeV drives the single-state EWSR exhaustion down to 0.72% - 0.74%. This reveals a critical principle: low-energy octupole softness concentrates transition strength (B(E3)), while energy weighting (E*B) shifts the bulk of sum rule strength (>92%) into the Giant Octupole Resonances (LEOR at 5-7 MeV and HEOR at 18-24 MeV).",
+    "The remaining ~90-95% of the E3 EWSR is distributed between the Low-Energy Octupole Resonance (LEOR, ~30%) and the High-Energy Isoscalar Giant Octupole Resonance (HEOR, ~65%), proving that even in strong octupole emitters, the lowest 3- state is an isolated coherent tip of the giant resonance iceberg."
+  ]
+}

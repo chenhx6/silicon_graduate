@@ -4626,3 +4626,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. 铅区与稀土区磁转动微观剪刀动力学与核芯演化（pb-pr-magnetic-rotation-core-crossing-systematics.md，cranked-shears-core-coupling-pb-vs-pr.md，工件073与六面板曲线）：推导平行核芯推转模型R/I = kappa cos(theta)/(1 + kappa cos(theta))，证明Pb区亦存在非零核芯贡献与交叉重开（199Pb Band 2），阐明b_E2 = b_M1^2下单带闭合比值反常上升机制，数值复现135Pr四极底座（0.013 e^2b^2）与重开反弹；
   3. AMR量子终止态机制与奇A核离散签名保护（amr-cd-isotopes-quantum-termination-odda-signature-audit.md）：核对110Cd非严格平台而属相对缓降，精确计数4qp子空间终止角动量I_max = 18hbar与单极配对淬灭，证明奇A核（105Cd）在R_z(pi)|Psi_r> = r|Psi_r>签名保护下横向磁偶极矩严格相消；新增zhang-2013、zhao-2012等四篇来源页；
   4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T03:50:00+08:00 Day26 checkpoint070：E3能权求和规则与巨共振分配、Pd四空穴AMR几何及奇奇核MR-手征拓扑相变。
+  1. 电八极能权求和规则双归一化与巨共振分配（octupole-ewsr-and-giant-resonance-partition.md，e3-ewsr-transition-density-boundary.md，工件074）：严格推导标准m1(E3) = 9/(8pi) (hbar^2 e^2/m) Z R0^4，澄清题定35/(8pi)高出3.889倍归一化差异，量化224Ra/144Ba/208Pb首态EWSR耗尽比（0.72%-7.54%），揭示巨八极共振（LEOR 5-7 MeV与HEOR 18-24 MeV）承载>90%能权强度的微观分配机制，对比Tassie表面位移与RPA跃迁密度；
+  2. 钯同位素四空穴AMR几何演化与Pauli终止上限（amr-pd-four-hole-geometry-evolution-audit.md，workers/amr-pd-four-hole-20261029/）：解析pi(g9/2)^-4四空穴B(E2)~sin^4(theta)代数，严格Pauli计数导出质子角动量上限J_max(g9/2^4)=12hbar（非18hbar），结合Zhang 2019 PNC-CSM阐明104Pd高频E2下降源于形变收缩epsilon2(omega)与四准粒子交叉而非单一配对崩溃；新增kumar-2023、qiao-2025、diwanshu-2025三篇来源页；
+  3. 奇奇核从平面剪刀向三维手征转动的拓扑相变（mr-to-chiral-topology-odd-odd-106ag-134pr-198bi.md，工件chiral-mr-topology-landscape）：导出几何必要条件chi_g = j_p . (j_n x R) != 0与中轴惯量J_m > J_s, J_l动力学条件，建立Landau势函数V(phi) = a(I)sin^2(phi) + b(I)sin^4(phi)复现单阱->双阱对称性自发破缺拓扑演化，审定134Pr为动态手征候选并严格定界106Ag与198Bi；
+  4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

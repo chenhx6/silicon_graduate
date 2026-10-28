@@ -3,7 +3,28 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint069：跨区微观八极势垒与Schiff矩、Pb/Pr剪刀核芯演化及AMR量子终止态审计
+## Active handoff — Day26 checkpoint070：E3能权求和规则与巨共振分配、Pd四空穴AMR几何及奇奇核MR-手征拓扑相变
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得重大微观理论与原件定界突破：
+1. **电八极能权求和规则（EWSR）双归一化与巨共振强度分配**（`octupole-ewsr-and-giant-resonance-partition.md`，`e3-ewsr-transition-density-boundary.md`，工件 `074`）：
+   - 严格推导标准电磁多极算符的双对易子非含时能量加权和规则 $m_1^{\text{sharp}}(E3) = \frac{9}{8\pi} \frac{\hbar^2 e^2}{m_N} Z R_0^4$，澄清题定 $35/(8\pi)$ 系数偏差（$35/9 = 3.889$ 倍），保留双列独立归一化；
+   - 揭示“八极软度佯谬”：$^{224}\text{Ra}$ 与 $^{144,146}\text{Ba}$ 尽管具有巨大向下跃迁几率（$42-48\text{ W.u.}$），但受 $3^-$ 激发能软化（$0.216-0.838\text{ MeV}$）的能权压制，首态仅耗尽 $0.72\%-3.73\%$ 的 EWSR（而 $^{208}\text{Pb}$ 耗尽 $7.54\%-51.33\%$）；
+   - 证明剩余 $>90\%$ 的能权强度高阶集中于低能八极共振（LEOR，$\sim 5-7\text{ MeV}$，耗尽 $25\%-30\%$）与等标巨八极共振（HEOR/ISGOR，$\sim 18-24\text{ MeV}$，耗尽 $60\%-65\%$）；
+   - 对比 Tassie 集体表面位移跃迁密度（严格表面局域无节点）与微观 RPA 跃迁密度（可能存在内部节点与非集体尾部）；
+2. **钯同位素四空穴 AMR 几何演化与 Pauli 终止上限**（`amr-pd-four-hole-geometry-evolution-audit.md`，`workers/amr-pd-four-hole-20261029/`）：
+   - 解析推导 $\pi(g_{9/2})^{-4}$ 四空穴复合双剪刀几何，在等角对称下辐射强度仍满足 $B(E2) \propto \sin^4\theta$；
+   - 对 $g_{9/2}^4$ 实施精确 Pauli 反对称性计数，确立最大允许质子角动量为 $J_{\text{max}} = 12\hbar$（非四个独立矢量相加的 $18\hbar$）；
+   - 对账 Zhang 2019 PNC-CSM 与 Rather 2014，阐明 $^{104}\text{Pd}$ 高频 $B(E2)$ 快速下降的主导动因是形变参数随转频收缩 $\epsilon_2(\omega)$ 及四准粒子交叉，而非单一孤立的配对崩溃；新增来源页 `kumar-2023-amr-review.md`、`qiao-2025-pd-systematic-amr-metadata.md`、`diwanshu-2025-106cd-amr-metadata.md`；
+3. **奇奇核从平面剪刀（MR）向三维手征转动的拓扑相变**（`mr-to-chiral-topology-odd-odd-106ag-134pr-198bi.md`，工件 `chiral-mr-topology-landscape`）：
+   - 确立非共面三维手征旋转的几何必要条件 $\chi_g = \mathbf{j}_p \cdot (\mathbf{j}_n \times \mathbf{R}) \ne 0$，以及中轴惯量必须为最大惯量轴 $\mathcal{J}_m > \mathcal{J}_s, \mathcal{J}_l$ 的动力学充要条件；
+   - 建立 Landau 相变势能函数 $V(\phi) = a(I)\sin^2\phi + b(I)\sin^4\phi$，直观复现平面单阱态 $\to$ 软手征临界点 $\to$ 静态手征双极小分岔拓扑演化；
+   - 审定 $^{134}\text{Pr}$ 处于动态手征与三轴形状软度耦合区间（近简并区 $B(E2)$ 相差 $2-3$ 倍，缺乏静态手征奇偶交错），以及 $^{106}\text{Ag}$ 与 $^{198}\text{Bi}$ 的物理边界。
+
+全量检查全绿（wiki_lint 0 error/288 warnings，boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint069：跨区微观八极势垒与Schiff矩、Pb/Pr剪刀核芯演化及AMR量子终止态审计
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
