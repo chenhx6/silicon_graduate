@@ -4674,3 +4674,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. 库仑激发中Cline电荷多极不变量重构与八极涨落判据（octupole-cline-invariants-and-dynamic-softness-criterion.md，工件 octupole-cline-invariants/）：严格推导内禀八极旋转不变量I3=<Q3.Q3>=7/(16pi) Q30^2，建立单态截断有限和项（144Ba为4.225e5 e2fm6，224Ra为8.836e5 e2fm6），明确两声子多重态能谱与分支在裁决静态梨形对决动态软振动中的关键地位；
   3. 锕系与超重核区beta3-beta4耦合对裂变势垒与宇称双重态重整化（actinide-octupole-hexadecapole-coupling-fission-barrier.md，工件 actinide-coupling/）：推导多极非线性耦合能量Delta E_coupling ~ C234 beta2 beta3^2 beta4，模型显示第二裂变峰降低~1.4 MeV开辟非对称裂变谷，给出WKB隧穿作用量对高阶形变与中子数的非单调响应；
   4. 全量检查全绿：wiki_lint.py 0 error/311 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T06:40:00+08:00 Day26 checkpoint078：135/137Pr TAC-RMF交叉动力学、225Ra八极增强Schiff矩及MR向手征拓扑转变。
+  1. 135/137Pr磁转动带微观TAC-RMF能带交叉系统学（pr135-pr137-tac-rmf-bandcrossing-systematics.md，工件 pr-tac-rmf/）：核验135Pr（0.37 MeV, 33/2-）与137Pr（0.42-0.48 MeV, 35/2-）交叉位移，建立约化TAC-RMF响应模型重现自洽倾角演化与配对阻塞效应；
+  2. 225Ra与223Ra八极增强Schiff矩与CP破坏微观边界（ra225-octupole-schiff-moment-cp-violation-boundary.md，工件 ra225-schiff/）：核验225Ra 55.16 keV双重态能隙带来的18-20倍放大与Engel 2003 SkO内禀尺度（22.98 e fm3），对账相对199Hg千倍增强与等耦合通道相消；
+  3. 平面转动向非平面手征转动的几何分岔微观机制（mr-amr-to-chiral-topological-transition-mechanisms.md，工件 chiral-amr-transition/）：证明三轴粒子-转子模型在I=14首次分岔出+-phi非平面镜像手征极小（chi_g != 0），对账106Ag MR/手征共存与106Cd AMR对称性；
+  4. 全量检查全绿：wiki_lint.py 0 error/314 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

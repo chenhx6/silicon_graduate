@@ -1,0 +1,219 @@
+{
+  "schema": "ra225-schiff-amplification/v1",
+  "status": "reproducible scaling calculation; not an experimental extraction",
+  "references": {
+    "dobaczewski_engel_2005": {
+      "doi": "10.1103/PhysRevLett.94.232502",
+      "raw_pdf": "raw/papers/day26-20261028/2005-dobaczewski-ra225-schiff.pdf",
+      "locators": "PDF pp. 2-4, Eqs. (1)-(8), Tables I-II"
+    },
+    "engel_et_al_2003": {
+      "doi": "10.1103/PhysRevC.68.025501",
+      "raw_pdf": "raw/papers/day26-20261028/2003-engel-ra225-schiff.pdf",
+      "locators": "PDF pp. 2-6 and 8-9, Eqs. (2)-(6), Fig. 3, Table I"
+    },
+    "nndc_225ra": {
+      "source_page": "knowledge/sources/nndc-2009-ra225-adopted-parity-doublet.md",
+      "locators": "ENSDF 225088001 adopted low-lying 1/2- at 55.16(6) keV"
+    },
+    "nndc_223ra": {
+      "source_page": "knowledge/sources/nndc-2001-223ra-reference-and-2026-intensity-records.md",
+      "locators": "ENSDF 223088001 lines 48-58 and 89-106"
+    }
+  },
+  "same_J_parity_doublets": {
+    "225Ra": {
+      "A": 225,
+      "Z": 88,
+      "J": "1/2",
+      "delta_E_keV": 55.16,
+      "denominator_scales": [
+        {
+          "delta_E_keV": 55.16,
+          "reference_E_keV": 1000.0,
+          "relative_response_ref_over_delta": 18.12907904278463
+        },
+        {
+          "delta_E_keV": 55.16,
+          "reference_E_keV": 5000.0,
+          "relative_response_ref_over_delta": 90.64539521392314
+        }
+      ],
+      "selection_rule": "J=1/2 PT scalar mixes the 1/2- partner; 31.56-keV 3/2- is not the denominator."
+    },
+    "223Ra": {
+      "A": 223,
+      "Z": 88,
+      "J": "3/2",
+      "delta_E_keV": 50.128,
+      "denominator_scales": [
+        {
+          "delta_E_keV": 50.128,
+          "reference_E_keV": 1000.0,
+          "relative_response_ref_over_delta": 19.94893073731248
+        },
+        {
+          "delta_E_keV": 50.128,
+          "reference_E_keV": 5000.0,
+          "relative_response_ref_over_delta": 99.7446536865624
+        }
+      ],
+      "selection_rule": "J=3/2 PT scalar mixes the 3/2- partner at 50.128 keV."
+    }
+  },
+  "intrinsic_geometry_225Ra": {
+    "R0_fm": 7.298642394688079,
+    "centroid_corrected_e_fm3": 22.979681447393855,
+    "compact_3_over_20pi_e_fm3": 45.31654294433205,
+    "beta2": 0.19,
+    "beta3": 0.146
+  },
+  "model_coefficient_table_e_fm3": {
+    "SkO_prime_zero_range_direct": [
+      -5.1,
+      10.4,
+      -10.1
+    ],
+    "SkO_prime_finite_range_direct": [
+      -1.9,
+      6.3,
+      -3.8
+    ],
+    "SkO_prime_finite_range_src_direct": [
+      -1.7,
+      6.0,
+      -3.5
+    ],
+    "SkO_prime_finite_range_src_direct_exchange": [
+      -1.5,
+      6.0,
+      -4.0
+    ],
+    "SIII": [
+      -1.0,
+      7.0,
+      -3.9
+    ],
+    "SkM_star": [
+      -4.7,
+      21.5,
+      -11.0
+    ],
+    "SLy4": [
+      -3.0,
+      16.9,
+      -8.8
+    ]
+  },
+  "model_coefficient_spreads": {
+    "gbar0": {
+      "min": -5.1,
+      "max": -1.0,
+      "range": 4.1,
+      "max_abs_over_min_abs": 5.1
+    },
+    "gbar1": {
+      "min": 6.0,
+      "max": 21.5,
+      "range": 15.5,
+      "max_abs_over_min_abs": 3.5833333333333335
+    },
+    "gbar2": {
+      "min": -11.0,
+      "max": -3.5,
+      "range": 7.5,
+      "max_abs_over_min_abs": 3.142857142857143
+    }
+  },
+  "channel_comparison_to_199Hg": [
+    {
+      "channel": "gbar0",
+      "ra_reference_e_fm3": -1.5,
+      "hg199_e_fm3": 0.0004,
+      "nuclear_ratio_abs": 3750.0,
+      "atomic_ratio_with_factor_3": 11250.0
+    },
+    {
+      "channel": "gbar1",
+      "ra_reference_e_fm3": 6.0,
+      "hg199_e_fm3": 0.055,
+      "nuclear_ratio_abs": 109.0909090909091,
+      "atomic_ratio_with_factor_3": 327.27272727272725
+    },
+    {
+      "channel": "gbar2",
+      "ra_reference_e_fm3": -4.0,
+      "hg199_e_fm3": 0.009,
+      "nuclear_ratio_abs": 444.44444444444446,
+      "atomic_ratio_with_factor_3": 1333.3333333333335
+    }
+  ],
+  "equal_coupling_comparison": {
+    "ra_sum_e_fm3": 0.5,
+    "hg_sum_e_fm3": 0.0644,
+    "nuclear_ratio_abs": 7.763975155279503,
+    "note": "Equal couplings expose cancellation dependence; channel ratios are more diagnostic."
+  },
+  "dynamic_octupole_toy_envelope": [
+    {
+      "beta3_rms": 0.05,
+      "coherence": 0.25,
+      "effective_intrinsic_S_e_fm3": 1.9674384800850906,
+      "interpretation": "toy dynamic response envelope; not an EDF prediction"
+    },
+    {
+      "beta3_rms": 0.05,
+      "coherence": 0.5,
+      "effective_intrinsic_S_e_fm3": 3.934876960170181,
+      "interpretation": "toy dynamic response envelope; not an EDF prediction"
+    },
+    {
+      "beta3_rms": 0.05,
+      "coherence": 1.0,
+      "effective_intrinsic_S_e_fm3": 7.869753920340362,
+      "interpretation": "toy dynamic response envelope; not an EDF prediction"
+    },
+    {
+      "beta3_rms": 0.1,
+      "coherence": 0.25,
+      "effective_intrinsic_S_e_fm3": 3.934876960170181,
+      "interpretation": "toy dynamic response envelope; not an EDF prediction"
+    },
+    {
+      "beta3_rms": 0.1,
+      "coherence": 0.5,
+      "effective_intrinsic_S_e_fm3": 7.869753920340362,
+      "interpretation": "toy dynamic response envelope; not an EDF prediction"
+    },
+    {
+      "beta3_rms": 0.1,
+      "coherence": 1.0,
+      "effective_intrinsic_S_e_fm3": 15.739507840680725,
+      "interpretation": "toy dynamic response envelope; not an EDF prediction"
+    },
+    {
+      "beta3_rms": 0.146,
+      "coherence": 0.25,
+      "effective_intrinsic_S_e_fm3": 5.744920361848464,
+      "interpretation": "toy dynamic response envelope; not an EDF prediction"
+    },
+    {
+      "beta3_rms": 0.146,
+      "coherence": 0.5,
+      "effective_intrinsic_S_e_fm3": 11.489840723696927,
+      "interpretation": "toy dynamic response envelope; not an EDF prediction"
+    },
+    {
+      "beta3_rms": 0.146,
+      "coherence": 1.0,
+      "effective_intrinsic_S_e_fm3": 22.979681447393855,
+      "interpretation": "toy dynamic response envelope; not an EDF prediction"
+    }
+  ],
+  "controls": {
+    "225Ra_denominator_factor_at_1MeV": 18.12907904278463,
+    "223Ra_denominator_factor_at_1MeV": 19.94893073731248,
+    "geometry_positive_for_positive_beta2_beta3": true,
+    "all_model_rows_have_three_channels": true
+  }
+}

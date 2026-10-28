@@ -17,6 +17,7 @@ updated: 2026-10-28
 
 - [[ba-microscopic-octupole-dipole-cancellation]] — 144,146Ba八极关联与电偶极相消微观机制、SCCM中子轨道占据与静态梨形边界。
 - [[pr135-shears-dynamics-bandcrossing-rebound]] — 135Pr剪刀动力学、3qp至5qp高自旋能带交叉与B(M1)/B(E2)非单调反弹机制。
+- [[pr135-pr137-tac-rmf-bandcrossing-systematics]] — 135Pr/137Pr 3qp→5qp 交叉、TAC-RMF/CDFT 倾角、配对阻塞与流场响应的条件性研究笔记。
 - [[pr135-wobbling-vs-shears-discrimination]] — 135Pr横向摆动对决磁转动的实验判据、偏振勘误M1纯度与排他性裁决。
 - [[cd110-amr-double-shears-criteria]] — 110Cd反磁转动双剪刀对称性、B(E2)平台与J(2)/B(E2)巨比值判据体系。
 - [[cd110-relative-strength-boundary-047]] — 110Cd HI,XNG相对RI、评价BE2字段与Roy绝对寿命强度边界。
@@ -31,6 +32,7 @@ updated: 2026-10-28
 - [[octupole-mr-three-tier-evidence-ladder]] — 八极关联、磁转动与反磁转动的“直接测量—派生强度—模型解释”三级证据梯度规范。
 - [[e3-ewsr-transition-density-boundary]] — E3能量加权和规则双归一化、首态部分和与Tassie/RPA跃迁密度边界。
 - [[mr-to-chiral-topology-odd-odd-106ag-134pr-198bi]] — 奇奇核从平面剪刀向三维手征转动的拓扑相变：几何非共面、中轴惯量与双阱势垒。
+- [[mr-amr-to-chiral-topological-transition-mechanisms]] — MR/AMR 到非平面手征转动的几何分岔、离散对称、106Ag/106Cd/198Bi证据边界与可复现诊断。
 - [[beta2-beta3-octupole-topology-boundary]] — 四极—八极势能面拓扑适用边界：中等四极窗口去普适化与准粒子响应分析。
 - [[actinide-octupole-hexadecapole-coupling-fission-barrier]] — 锕系与超重核区 β3–β4 耦合对裂变势垒和宇称双重态的条件性重整化。
 - [[mr-bandhead-spin-i0-quantum-shears-boundary]] — 磁转动带头自旋I0的微观决定机制：P2相互作用正交极小与有限j量子修正。
@@ -104,6 +106,7 @@ updated: 2026-10-28
 - [[day26-quantitative-claim-corrections]] — 直接原件与代数反例纠正旧007–015科学认证；保留来源、单位与统计边界。
 - [[octupole-cluster-dipole-dynamics-conditional-equivalence]] — 点团簇E1零点与E3条件匹配，非团簇实验证明。
 - [[nndc-2009-ra225-adopted-parity-doublet]] — NNDC评价的225Ra宇称伙伴与E1；与原实验谱系分层。
+- [[ra225-octupole-schiff-moment-cp-violation-boundary]] — 225Ra 与 223Ra 八极增强 Schiff 矩、宇称双重态小能隙放大与 CP 破坏检验微观边界。
 - [[odd-a-parity-doublet-blocking-audit]] — 奇A宇称双重态的观测、模型与阻塞归因边界。
 
 - [[cross-mass-region-collective-mode-transfer-boundaries]] — 跨质量区集体激发模式（A≈80, 110, 130, 160, 190, 220）迁移边界与四大不适用性判据。

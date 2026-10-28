@@ -3,7 +3,24 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint077：AMR四剪刀微观核芯耦合、Cline八极不变量重构及锕系β3-β4裂变势垒重整化
+## Active handoff — Day26 checkpoint078：135/137Pr TAC-RMF交叉动力学、225Ra八极增强Schiff矩及MR向手征拓扑转变
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键微观动力学与拓扑机制闭环：
+1. **135Pr 与 137Pr 磁转动带微观 TAC-RMF/CDFT 交叉与配对相干演化**（`pr135-pr137-tac-rmf-bandcrossing-systematics.md`，工件 `pr-tac-rmf/`）：
+   - 核验 135Pr（$N=76$, $\hbar\omega \approx 0.37\text{ MeV}, I \approx 33/2^-$）与 137Pr（$N=78$, $\hbar\omega \approx 0.42-0.48\text{ MeV}, I \approx 35/2^-$）能带交叉位移；
+   - 比较二者在 3qp 向 5qp 转变中的对齐角动量增益 $\Delta i$ 与流角重排，建立约化 TAC-RMF 响应模型重现自洽倾角演化，保留 PC-PK1 原件归属（直接原件为 136Pr）；
+2. **225Ra 与 223Ra 八极增强 Schiff 矩与 CP 破坏检验微观边界**（`ra225-octupole-schiff-moment-cp-violation-boundary.md`，工件 `ra225-schiff/`）：
+   - 核验 225Ra 宇称双重态小能隙 $\Delta E = 55.16\text{ keV}$（223Ra 为 $50.13\text{ keV}$）带来的 $18-20\times$ 能级放大因子；
+   - 基于 Engel 2003 SkO′ 形变输入导出内禀尺度 $22.98\ e\text{ fm}^3$（紧凑归一化 $45.32\ e\text{ fm}^3$），对账相对 199Hg 的逐通道千倍放大与等耦合通道相消；
+3. **平面转动（MR/AMR）向非平面手征转动的几何分岔微观机制**（`mr-amr-to-chiral-topological-transition-mechanisms.md`，工件 `chiral-amr-transition/`）：
+   - 严格证明三轴粒子-转子能量在 $I=8-13$ 保持共面单极小（$\phi=0$，手征标量 $\chi_g=0$），在 $I=14$ 首次分岔出 $\pm\phi$ 简并的非平面镜像手征极小（能量差为机器精度 0）；
+   - 对账 106Ag 奇奇核中 MR 与手征双带共存、106Cd 偶偶核 AMR 的 $\mathcal{R}_y(\pi)\mathcal{T}$ 复合对称性以及 198Bi 原始证据缺口。
+
+全量检查全绿（wiki_lint 0 error/314 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint077：AMR四剪刀微观核芯耦合、Cline八极不变量重构及锕系β3-β4裂变势垒重整化
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

@@ -1,0 +1,49 @@
+{
+  "model": "reduced_TAC_RMF_CDFT_response",
+  "equations": {
+    "cranked_hamiltonian": "h = h0 - omega_x Jx - omega_z Jz",
+    "orientation": "theta_J = atan2(omega_x, omega_z)",
+    "configuration_mixing": "H=[[e3,W],[W,e5]], W=0.12 MeV",
+    "current_proxy": "jp(r), jn(r) are normalized Gaussian vector fields tied to Jp/Jn and theta_J"
+  },
+  "source_anchors": {
+    "Garg2015": "135Pr crossing ~0.37 MeV, ~33/2-; 137Pr comparison ~0.42 MeV, ~35/2-; PRC 92 054325 pp.7-8",
+    "Agarwal2007": "137Pr back-bending ~0.48 MeV; 3qp/5qp TAC hybrid; PRC 76 024321 pp.6-7",
+    "Lv2025": "PC-PK1 TAC-CDFT method example is 136Pr, not 135/137Pr; source page LV25-4, LV25-13"
+  },
+  "summaries": [
+    {
+      "nuclide": "135Pr",
+      "N": 76,
+      "source_comparison_crossing_hbar_omega_MeV": 0.37,
+      "source_comparison_crossing_spin": 16.5,
+      "model_midmix_hbar_omega_MeV": 0.37,
+      "model_midmix_theta_J_deg": 35.02500000000001,
+      "model_midmix_Jp_hbar": 8.500000000000005,
+      "model_midmix_Jn_hbar": 10.0,
+      "pairing_gap_p_MeV": 1.08,
+      "pairing_gap_n_MeV": 0.764,
+      "higher_neutron_fermi_surface_scenario_shift_MeV": 0.0,
+      "status": "reduced TAC-RMF/CDFT-inspired proxy; not a PC-PK1 calculation"
+    },
+    {
+      "nuclide": "137Pr",
+      "N": 78,
+      "source_comparison_crossing_hbar_omega_MeV": 0.42,
+      "source_comparison_crossing_spin": 17.5,
+      "model_midmix_hbar_omega_MeV": 0.42000000000000004,
+      "model_midmix_theta_J_deg": 38.89999999999996,
+      "model_midmix_Jp_hbar": 8.269999999999989,
+      "model_midmix_Jn_hbar": 8.150000000000004,
+      "pairing_gap_p_MeV": 1.048,
+      "pairing_gap_n_MeV": 0.65,
+      "higher_neutron_fermi_surface_scenario_shift_MeV": 0.2,
+      "status": "reduced TAC-RMF/CDFT-inspired proxy; not a PC-PK1 calculation"
+    }
+  ],
+  "limitations": [
+    "No Dirac single-particle basis, meson fields, blocked HFB density, or self-consistent PC-PK1 iteration is implemented.",
+    "The higher-neutron-Fermi-surface shift and blocking response are controlled assumptions for sensitivity analysis.",
+    "Current fields are diagnostic proxies; they are not published jp(r)/jn(r) densities."
+  ]
+}
