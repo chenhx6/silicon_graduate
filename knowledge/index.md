@@ -37,6 +37,7 @@ updated: 2026-10-28
 - [[mr-effective-g-quenching-core-polarization-boundary]] — 磁转动有效g因子淬灭、核芯自旋极化与跨区B(M1)微观反演。
 - [[multi-band-shears-coexistence-pb-141eu-139sm-boundary]] — 同核多重剪刀带共存微观物理：141Eu第一手寿命、SPAC集体演化与能带排斥。
 - [[octupole-cluster-radioactivity-preformation-boundary]] — 八极关联、高阶形变与锕系团簇放射性：预形成概率分解与势垒曲率软化。
+- [[parity-projection-overlap-kernels-and-tunneling]] — 微观空间宇称投影、重叠算符核与八极双阱隧穿动力学。
 - [[cd110-branch-normalization-boundary]] — 110Cd相对分支、22⁺ 1100-keV情景与Roy B(E2)归一化边界。
 
 - [[nndc-2012-cd110-hi-xng]] — 110Cd HI,XNG评价：高自旋寿命、分支、DCO与1100-keV争议。

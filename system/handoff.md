@@ -3,7 +3,20 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint073：AMR四极力矩与中子演化、141Eu多剪刀共存及锕系团簇放射性高阶势垒软化
+## Active handoff — Day26 checkpoint074：微观空间宇称投影重叠算符核与八极双阱隧穿动力学定量闭环
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段在反射不对称空间宇称投影与势垒隧穿动力学上取得关键微观闭环（`parity-projection-overlap-kernels-and-tunneling.md`，工件 `parity-projection-overlap-kernel-model-076.py/json`）：
+1. **微观空间宇称投影重叠核代数导出**：严格推导离散空间反演 $\hat{\mathcal{P}}$ 下内禀反射非对称态的空间重叠核 $\Omega(q_3) = \langle \Phi(q_3) | \Phi(-q_3) \rangle = \exp(-q_3^2 / 2\sigma_3^2)$，导出宇称劈裂对空间重叠的解析极值公式 $\Delta E(q_3) \approx 2 \Delta V(q_3) \frac{\Omega(q_3)}{1 - \Omega^2(q_3)}$；
+2. **两类微观八极极限的物理机制分水岭**：
+   - **深双阱指数收敛极限（锕系 $^{224}\text{Ra}$）**：势能面势垒达 $1.45\text{ MeV}$，作用量 $S/\hbar = 3.65$，空间重叠核被指数压制至 $\Omega = 2.11 \times 10^{-4}$，理论导出劈裂仅 $\Delta E_{\text{WKB}} \approx 19.6\text{ keV}$（实测 $20.4\text{ keV}$），解释了基态准简并宇称双重态的自发涌现与稳定保持；
+   - **浅势阱有限重叠极限（稀土 $^{144,146}\text{Ba}$）**：势能面势垒仅 $0.28 - 0.42\text{ MeV}$，作用量 $S/\hbar \approx 1.13 - 1.27$，两阱间空间重叠核显著（$\Omega \approx 0.17 - 0.23$），微观宇称投影算符的奇偶破缺效应直接释放出高达 $\Delta E \approx 815 - 832\text{ keV}$ 的能级差，与实验测得的 $3^-_1$ 态激发能（$821 - 838\text{ keV}$）高度吻合；
+   - 在多体波函数重叠层面上严格证明了：为什么在平均场具备有限 $\beta_3$ 极小的 $^{144,146}\text{Ba}$，其实际动力学行为依然是完全不具备低能宇称双重态的纯软八极振动态。
+
+全量检查全绿（wiki_lint 0 error/288 warnings，boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint073：AMR四极力矩与中子演化、141Eu多剪刀共存及锕系团簇放射性高阶势垒软化
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

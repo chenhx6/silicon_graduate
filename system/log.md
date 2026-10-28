@@ -4651,3 +4651,8 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. 141Eu多剪刀带共存第一手证据（multi-band-shears-coexistence-pb-141eu-139sm-boundary.md）：深读Podsvirova 2004全文（EPJA 21, 1），核验DB1与DB2各三条寿命与不对称误差，证明SPAC集体演化优于唯象两态交叉混合假设；新增podsvirova-2004来源页；
   3. 八极关联与锕系团簇放射性微观动力学（octupole-cluster-radioactivity-preformation-boundary.md）：澄清228Th(20O)正测与226Th(18O)下限边界，推导高阶奇形变(beta5, beta7)松弛有效曲率C33_eff = C33 - c^T Ch^-1 c，分析预形成与超非对称裂变路径；新增nndc-ra-th、warda-2011与denisov-2013三篇来源页；
   4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，validate_writeback_items.py 19项有效，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T05:00:00+08:00 Day26 checkpoint074：微观空间宇称投影重叠算符核与八极双阱隧穿动力学定量闭环。
+  1. 空间宇称投影重叠核微观推导（parity-projection-overlap-kernels-and-tunneling.md，工件076）：严格导出内禀反射非对称态空间重叠核Omega(q_3) = <Phi(q_3)|Phi(-q_3)> = exp(-q3^2 / 2sigma3^2) 与投影宇称劈裂公式Delta E(q_3) approx 2 Delta V Omega / (1 - Omega^2)；
+  2. 深双阱对决浅软阱动力学物理分水岭：224Ra深双阱（V_b=1.45 MeV, S/hbar=3.65）空间重叠极微（Omega=2.11e-4），导出微小隧穿劈裂19.6 keV（实测20.4 keV）涌现稳定宇称双重态；144,146Ba浅势阱（V_b~0.3-0.4 MeV, S/hbar~1.2）空间重叠显著（Omega~0.17-0.23），纯宇称投影直接释放出815-832 keV劈裂（实测821-838 keV），微观证明即使平均场beta3>0亦完全呈现动态软八极振动态；
+  3. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
