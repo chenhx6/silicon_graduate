@@ -326,6 +326,17 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
           "locator": "RO11-D26C-003"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/pr135-wobbling-vs-shears-discrimination.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "135Pr横向摆动对决磁转动的实验判据、偏振勘误M1纯度与排他性裁决。",
+      "sources": [
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-D26-002"
+        }
+      ]
     }
   ]
 }

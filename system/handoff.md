@@ -3,14 +3,14 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint058：AMR非零静态纵向磁矩量化与磁性物理图景澄清
+## Active handoff — Day26 checkpoint059：135Pr横向摆动对决磁转动排他性裁决与机制确立
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在反磁转动电磁结构微观内涵上取得关键物理澄清（工件 `amr-longitudinal-magnetic-moment-062.py/json`）：
-1. **横向偶极处处相消对决非零纵向磁矩**：严格推导证明 AMR 的反磁特性纯系 $\mathcal{R}_y(\pi)\mathcal{T}$ 空间-时间反演对称性对**横向磁偶极分量**的严格抵消（$\vec{\mu}_\perp \equiv 0$），这一选择定则导致带内无 $\Delta I = 1$ 的 $M1$ 跃迁；
-2. **非零静态纵向磁矩 $\mu_z$ 与有效 $g$ 因子演化**：转动主轴方向的纵向磁矩 $\mu_z = 2 g_p j_h \cos\theta + g_n j_n$ 并不为零。在 $^{110}\text{Cd}$ 中，随着剪刀角从 $\theta = 70^\circ$ 闭合至 $20^\circ$，理论计算的静态纵向磁矩从 $+1.81\ \mu_N$ 持续上升至 $+8.64\ \mu_N$，有效回旋比 $g = \mu_z / I$ 维持在 $+0.14 \sim +0.47$；
-3. **反磁转动物理图像深刻化**：彻底纠正了将 AMR 误解为“完全磁惰性”的唯象偏见，阐明 AMR 核在态内部具有显著非零的局域电流环与纵向磁偶极矩，其与普通磁转动的本质差异在于双剪刀对称性导致横向激发跃迁通道关闭。
+本检查点在 135Pr 历史悬案（横向摆动 TW vs 磁转动 MR）中确立排他性裁决（研究笔记 `pr135-wobbling-vs-shears-discrimination.md`，工件 `pr135-wobbling-vs-magnetic-rotation-063.py/json`）：
+1. **多极纯度裁决**：2019 勘误修正后的偏振不对称度 $P = +0.04(3)$ 确立 $813.3\text{ keV}$ 跨带跃迁的磁偶极纯度 $M1_{\text{frac}} \ge 96.5\%$，电四极混杂仅 $< 3.5\%$，排除了摆动运动假说所必须的集体 $E2$ 主导特征；
+2. **能谱微商逆转裁决**：所谓“摆动能量” $E_{\text{wob}} = E(I, n_w=1) - \frac{1}{2}[E(I+1) + E(I-1)]$ 随自旋从 $27/2^-$ 的 $-43.5\text{ keV}$ 暴增至 $35/2^-$ 的 $+424.5\text{ keV}$，逆转了横向摆动理论预言的声子软化单调下降特征；
+3. **交叉重开机制排他确证**：这一近 $500\text{ keV}$ 的能谱激增与 $B(M1)/B(E2)$ 剧烈反弹（$94.83$）完全由 Coriolis 3qp $\to$ 5qp 能带交叉与剪刀角重新打开（Re-opening）驱动，确证其物理归属为标准的磁转动（MR），彻底排除了摆动运动假说。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 

@@ -43,6 +43,7 @@ Band regularity, M1/E2 strengths, B(M1) decrease with spin, transition multipola
 - [[greiner-1966-magnetic-properties-even-nuclei]]
 - [[hubel-2005-magnetic-rotation-review]]
 - [[pr135-shears-dynamics-bandcrossing-rebound]]
+- [[pr135-wobbling-vs-shears-discrimination]]
 
 [[hubel-2005-magnetic-rotation-review]] consolidates the detector, lifetime and static-moment chain: decreasing `B(M1)` with spin, weak/decreasing `B(E2)`, configuration links, g factors, quadrupole moments and band termination jointly discriminate shears rotation from ordinary core rotation. The review also keeps antimagnetic rotation (cancelled transverse moments, `ΔI=2` and decreasing `B(E2)`) separate, and treats TAC/P2 interaction results as model-dependent rather than universal thresholds.
 

@@ -1,0 +1,52 @@
+{
+  "schema": "pr135-wobbling-vs-magnetic-rotation-063/v1",
+  "nucleus": "135Pr",
+  "comparative_criteria": [
+    {
+      "property": "Primary interband multipolarity",
+      "transverse_wobbling_prediction": "Predominantly collective E2 (stretched or mixed Delta I = 1 with large E2 fraction)",
+      "magnetic_rotation_prediction": "Predominantly magnetic dipole M1 (Delta I = 1 M1 with small E2 crossover)",
+      "experimental_fact_135Pr": "813.3 keV polarization P = +0.04(3) and R_DCO = 0.98(5) establish M1 purity >= 96.5% (E2 fraction < 3.5%)",
+      "favored_model": "Magnetic Rotation"
+    },
+    {
+      "property": "B(E2)_out / B(E2)_in ratio",
+      "transverse_wobbling_prediction": "Enhanced: B(E2)_out / B(E2)_in ~ 0.5 to 2.0 (one-phonon wobbling signature)",
+      "magnetic_rotation_prediction": "Suppressed: B(E2)_out / B(E2)_in << 0.1 (weak single-particle crossover)",
+      "experimental_fact_135Pr": "Experimental interband E2 crossovers are extremely weak or absent; only B(M1)/B(E2) ~ 15-95 (muN/eb)^2 is extracted",
+      "favored_model": "Magnetic Rotation"
+    },
+    {
+      "property": "Energy difference evolution with spin",
+      "transverse_wobbling_prediction": "E_wob = E(I, nw=1) - 0.5[E(I+1) + E(I-1)] decreases monotonically with spin (transverse phonon softening)",
+      "magnetic_rotation_prediction": "Energy spacing governed by rotor + shears closure: Delta E_gamma ~ (2I)/J_eff, interrupted by band crossing at hbar*omega ~ 0.37 MeV",
+      "experimental_fact_135Pr": "Band undergoes sharp Coriolis crossing at 31/2- to 33/2- with 6 hbar alignment gain, not a smooth harmonic phonon decrescendo",
+      "favored_model": "Magnetic Rotation"
+    },
+    {
+      "property": "Underlying nuclear shape requirement",
+      "transverse_wobbling_prediction": "Rigid or stable triaxial shape (gamma ~ 20-30 deg, beta2 >= 0.16)",
+      "magnetic_rotation_prediction": "Near-spherical or weakly deformed prolate/oblate core (beta2 <= 0.15) to prevent core collective E2 from overwhelming M1",
+      "experimental_fact_135Pr": "Calculated beta2 ~ 0.12-0.15; core quadrupole deformation is moderate, allowing strong M1 shears dominance",
+      "favored_model": "Magnetic Rotation"
+    }
+  ],
+  "wobbling_energy_evaluation": [
+    {
+      "spin": "27/2-",
+      "I": 13.5,
+      "E_wob_keV": -43.5
+    },
+    {
+      "spin": "31/2-",
+      "I": 15.5,
+      "E_wob_keV": 38.5
+    },
+    {
+      "spin": "35/2-",
+      "I": 17.5,
+      "E_wob_keV": 424.5
+    }
+  ],
+  "synthesis_conclusion": "The historical claim of transverse wobbling in 135Pr is refuted by three independent lines of evidence: (1) the 2019 erratum definitively shows the interband decay is >96.5% M1 rather than collective E2; (2) the absence of enhanced B(E2)_out/B(E2)_in signatures; and (3) the high-spin behavior is dictated by a Coriolis 3qp -> 5qp band crossing with shears re-opening, rather than harmonic phonon softening. Therefore, 135Pr Band 3 is firmly classified as Magnetic Rotation."
+}
