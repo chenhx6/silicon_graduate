@@ -11,6 +11,10 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[amr-vpinu-neutron-number-core-polarization-audit]] — 同N的104Pd/106Cd Vπν归一、核芯极化与中子数演化的条件微观推导。
+- [[pohl-1996-107108pd-highspin-metadata]] — 107,108Pd高自旋谱学原件入口；正文未取得。
+- [[juutinen-1994-109111cd-107pd-highspin-metadata]] — 109,111Cd与107Pd高自旋谱学原件入口；正文未取得。
+
 - [[ba-microscopic-octupole-dipole-cancellation]] — 144,146Ba八极关联与电偶极相消微观机制、SCCM中子轨道占据与静态梨形边界。
 - [[pr135-shears-dynamics-bandcrossing-rebound]] — 135Pr剪刀动力学、3qp至5qp高自旋能带交叉与B(M1)/B(E2)非单调反弹机制。
 - [[pr135-wobbling-vs-shears-discrimination]] — 135Pr横向摆动对决磁转动的实验判据、偏振勘误M1纯度与排他性裁决。
@@ -31,6 +35,8 @@ updated: 2026-10-28
 - [[mr-bandhead-spin-i0-quantum-shears-boundary]] — 磁转动带头自旋I0的微观决定机制：P2相互作用正交极小与有限j量子修正。
 - [[ac225-ra225-th220-226-parity-doublet-coriolis-boundary]] — 锕系奇A核与偶偶钍核八极宇称伙伴：K=3/2解耦边界、Coriolis劈裂与E1证据。
 - [[mr-effective-g-quenching-core-polarization-boundary]] — 磁转动有效g因子淬灭、核芯自旋极化与跨区B(M1)微观反演。
+- [[multi-band-shears-coexistence-pb-141eu-139sm-boundary]] — 同核多重剪刀带共存微观物理：141Eu第一手寿命、SPAC集体演化与能带排斥。
+- [[octupole-cluster-radioactivity-preformation-boundary]] — 八极关联、高阶形变与锕系团簇放射性：预形成概率分解与势垒曲率软化。
 - [[cd110-branch-normalization-boundary]] — 110Cd相对分支、22⁺ 1100-keV情景与Roy B(E2)归一化边界。
 
 - [[nndc-2012-cd110-hi-xng]] — 110Cd HI,XNG评价：高自旋寿命、分支、DCO与1100-keV争议。
@@ -414,6 +420,10 @@ updated: 2026-10-28
 - [[robledo-2010-bcp-d1s-octupole-ra-ba]] - BCP 与 Gogny D1S 泛函下 Ra 与 Ba 同位素八极势垒深度与微观单粒子对驱动。
 - [[rodriguez-guzman-2012-sm-gd-quadrupole-octupole]] - Gogny D1S/D1M 泛函下 Sm 与 Gd 同位素四极-八极自由度耦合与浅势阱八极软化。
 - [[nomura-2020-ra-th-gogny-d1m-octupole]] - Gogny D1M 势能面微观映射 sdf-IBM 下轻锕系 Ra 与 Th 同位素八极形变与势垒核素依赖。
+- [[podsvirova-2004-141eu-dipole-lifetimes]] - EUROBALL IV DSAM 测量 141Eu 两条偶极带寿命、SPAC 剪刀开角排列与背弯机制。
+- [[denisov-2013-multidimensional-cluster-radioactivity]] - 多维微观团簇模型与重核团簇放射性半衰期计算。
+- [[warda-2011-actinide-cluster-radioactivity-gogny]] - Gogny D1S 泛函下锕系核自洽微观超非对称裂变与团簇发射路径。
+- [[nndc-ra-th-cluster-decay-adopted]] - NNDC Ra 与 Th 同位素 14C 与 20O 团簇放射性评价分支比与部分半衰期。
 - [[dey-2026-116cs-multifaceted-decay]] - `116Cs`/`116Xe` 滴线多通道衰变、7.66-MeV 低能等轴八极共振、延迟 2p 与可能 `12C` cluster；数据与代码可得性边界。
 - [[hamilton-1948-successive-quanta-polarization]] - successive-γ direction–polarization formalism；16种 dipole/quadrupole 组合、相对宇称可判定性和探测效率边界。
 - [[herzan-2015-193bi-spectroscopy]] - `193Bi` JUROGAM-II/RITU/GREAT 纲图、`29/2±` 异构体、RDCO/IPDCO 标定和 `1/2[651]` SD 候选。

@@ -1,0 +1,129 @@
+{
+  "task": "multi-band-shears-coexistence",
+  "worker": "shears_dynamics",
+  "created_at": "2026-10-29T04:51:30.538333+08:00",
+  "status": "bounded-task-complete-with-139Sm-fulltext-gap",
+  "review_status": "unreviewed",
+  "human_review": false,
+  "primary_source_breakthrough": {
+    "source": "podsvirova-2004-141eu-dipole-lifetimes",
+    "pages": 6,
+    "sha256": "31dd323d75f9a178e653bc88426482e3970a27183770dfd1771b514bbccdd503",
+    "reading": "pp1-6; Table1; Figs1-4",
+    "corrections": [
+      "Two measured bands, three lifetimes each; three model branches are not three measured lifetime bands.",
+      "SPAC changing collectivity describes the backbend better than the tested band-mixing scenario.",
+      "TAC configurations are model assumptions, not direct occupancy measurements.",
+      "E2 column scale 10^-2 e^2 b^2 retained."
+    ]
+  },
+  "evidence_boundaries": {
+    "Pb": "Clark/Huebel review-level lineage retained; no fresh primary lifetime campaign fit.",
+    "141Eu": "Six-page primary full text; two measured bands; no published W extraction.",
+    "139Sm": "Crossref identity verified; summary-level numerical lifetime claims remain provisional; Elsevier PDF route returned HTTP406."
+  },
+  "synthetic_model": {
+    "fitted_isotope": null,
+    "crossing_spin_hbar": 24.5,
+    "assumed_W_MeV": 0.04,
+    "continuous_minimum_gap_MeV": 0.08,
+    "spin_rows": 4,
+    "maximum_complete_branch_strength_sum_roundoff": 5.329070518200751e-15,
+    "transition_kernels": "Assumed real positive diagonal kernels; off-diagonal kernels zero; initial/final spins mixed separately.",
+    "output": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/multi-band-shears/multi-band-shears-mixing-model.json"
+  },
+  "retrieval_failure_handling": "An unverified arXiv identifier retrieved an unrelated Ricciardi paper; title check rejected it before use. PDF/text moved to tmp/day26-multi-band-shears-rejected; no scientific claim uses it.",
+  "checks": [
+    {
+      "command": [
+        "git",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "knowledge/research-notes/multi-band-shears-coexistence-pb-141eu-139sm-boundary.md"
+      ],
+      "returncode": 1,
+      "output": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--no-index",
+        "--check",
+        "/dev/null",
+        "knowledge/sources/podsvirova-2004-141eu-dipole-lifetimes.md"
+      ],
+      "returncode": 1,
+      "output": ""
+    }
+  ],
+  "full_repository_tests_run": false,
+  "commit_created": false,
+  "push_attempted": false,
+  "protected_files_modified": false,
+  "course_credit_or_run_identity_modified": false,
+  "artifacts": [
+    {
+      "path": "knowledge/research-notes/multi-band-shears-coexistence-pb-141eu-139sm-boundary.md",
+      "bytes": 11380,
+      "sha256": "aef6f294ce26de9e5f46db88ea2a10e293c58914959b017cb739a89e934cbfdc"
+    },
+    {
+      "path": "knowledge/sources/podsvirova-2004-141eu-dipole-lifetimes.md",
+      "bytes": 6888,
+      "sha256": "3432355f24a338d98f4a33d3f18b3bb90a3452bebfbe936c1bb832cf32445ec7"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/multi-band-shears/141eu-springer.pdf",
+      "bytes": 717914,
+      "sha256": "31dd323d75f9a178e653bc88426482e3970a27183770dfd1771b514bbccdd503"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/multi-band-shears/141eu-springer.txt",
+      "bytes": 39956,
+      "sha256": "29aac8bce12156c3e70b2e159e795992741ac3ec05ab2557ae56eb1bdfc3a0a4"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/multi-band-shears/access-attempts.json",
+      "bytes": 744,
+      "sha256": "527db15ac89b5e3ff5960540dfcb3e9e3b6a155e984ba627cea663a89e45d733"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/multi-band-shears/crossref-139sm.json",
+      "bytes": 3734,
+      "sha256": "e1652ad3c75a0fc0dde0cc8b088a88e1f26dcfa7362dab554ca41408ae777c85"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/multi-band-shears/crossref-141eu.json",
+      "bytes": 5278,
+      "sha256": "550f07889fb752876ecfdba911dd2ec7d253b1bb3351776b3bee4f1cb5542721"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/multi-band-shears/multi-band-shears-mixing-model.json",
+      "bytes": 7359,
+      "sha256": "a6adc97ea9db924c42850aabd22db136f40c108064ef62607199c9afe600098e"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/multi-band-shears/multi-band-shears-mixing-model.py",
+      "bytes": 4379,
+      "sha256": "b466eaeb4fa83855a29cf4306398eab91a960a1cf91e59ae3be8ab566eac37df"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/multi-band-shears/multi-band-shears-mixing-model.svg",
+      "bytes": 75047,
+      "sha256": "eb6f3028f0ed00b2cd3fda8bdc7a1d8282e598a570abb052131435fe62eebb1f"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/multi-band-shears/retrieval-manifest.json",
+      "bytes": 1590,
+      "sha256": "637acf8ea32df55b3b108e00f3b0171f45fc02757767ffb2f5c83a08e6a7ac13"
+    }
+  ],
+  "next_questions": [
+    "Recover Brandolini1996 139Sm full text through authorized publisher/OA routes.",
+    "Return to Pb primary lifetime papers for per-configuration V2 extraction.",
+    "Quantify 141Eu likelihood sensitivity to sidefeeding and correlated branching uncertainties if underlying data become available."
+  ]
+}

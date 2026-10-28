@@ -51,6 +51,8 @@ tags: [110Cd, antimagnetic-rotation, DSAM, shears-mechanism, even-even-Cd]
 | RO11-3 | 核心转动与双剪刀闭合的耦合自然解释了 110Cd 在 hbar omega = 0.65–0.72 MeV 处出现的 8 hbar 顺对齐增益，以及 B(E2) 未发生骤降而是在 0.06–0.14 (eb)^2 维持平缓过渡平台的实验事实。 | model-result | contextual | pp.325-326, text and Fig. 4(b) | true |
 | RO11-4 | 原Table1的110Cd跃迁初态16、18、20、22、24对应1075、1224、1323、1314、1358keV。旧116–341是选择部分ENSDF区间并以端点B配比所得，非原表报告的完整范围，撤回其直接测量认证。 | source-correction | direct | p.324 Table1；见下述有限差分边界 | true |
 
+| RO11-VPN-01 | 108Cd、106Cd的I(ω)比较采用Vπν=1.2 MeV；110Cd将该值固定，作者总结三核均取1.2 MeV。随N变化的主要显式输入是jν、n和核芯响应，而不是本论文测出Vπν随N单调变化。 | model-input-and-author-summary | direct-original | printed324–326 Eqs3–6、Fig3及结论 | true |
+
 ## Summary
 
 Roy et al. (2011) 报告了 110Cd 高自旋能级的多探测器 DSAM 线形寿命分析与反磁转动系统学研究。实验确立了 16+ 至 24+ 能级的寿命与递减的 B(E2) 跃迁几率，并用经典粒子加转子模型支持以下解释：110Cd 属于双剪刀反磁转动与核心集体转动耦合的典型案例，成功解释了其转动惯量大、顺对齐增益显著以及 B(E2) 平缓过渡的独特性质。
@@ -71,6 +73,8 @@ Roy et al. (2011) 报告了 110Cd 高自旋能级的多探测器 DSAM 线形寿�
 - Review state: Codex self-audited; not `human-reviewed`.
 
 ## Extracted Pages
+
+- [[amr-vpinu-neutron-number-core-polarization-audit]]
 
 - Concepts/notes: [[antimagnetic-rotation]], [[shears-mechanism]], [[octupole-mr-amr-evidence-gradient]].
 

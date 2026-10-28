@@ -1,0 +1,334 @@
+{
+  "schema": "octupole-cluster-radioactivity-boundary/v1",
+  "status": "bounded-source-self-audit",
+  "knowledge_note": "knowledge/research-notes/octupole-cluster-radioactivity-preformation-boundary.md",
+  "year_conversion_seconds": 31557600.0,
+  "experimental_branch_arithmetic": [
+    {
+      "parent": "222Ra",
+      "channel": {
+        "cluster_A": 14,
+        "cluster_Z": 6,
+        "daughter_A": 208,
+        "daughter_Z": 82
+      },
+      "total_half_life": {
+        "value": 33.6,
+        "uncertainty": 0.4,
+        "unit": "s"
+      },
+      "adopted_cluster_percent": 3e-08,
+      "adopted_cluster_percent_uncertainty": 1e-08,
+      "branch_fraction": 3e-10,
+      "partial_half_life_s": 112000000000.0,
+      "log10_partial_half_life_s": 11.049218022670182,
+      "approximate_first_order_partial_uncertainty_s": 37357135269.6584,
+      "uncertainty_boundary": "First-order independent propagation for reporting only; no full covariance or original likelihood available.",
+      "source_locator": "NNDC 222Ra Adopted PDF2, ground-state comment",
+      "warda2011_log10_hfb_s": 8.9,
+      "hfb_minus_adopted_log10_s": -2.1492180226701816,
+      "observed_over_hfb_half_life_ratio": 140.9996461209466
+    },
+    {
+      "parent": "224Ra",
+      "channel": {
+        "cluster_A": 14,
+        "cluster_Z": 6,
+        "daughter_A": 210,
+        "daughter_Z": 82
+      },
+      "total_half_life": {
+        "value": 3.6316,
+        "uncertainty": 0.0023,
+        "unit": "d"
+      },
+      "adopted_cluster_percent": 4e-09,
+      "adopted_cluster_percent_uncertainty": 1e-09,
+      "branch_fraction": 4.0000000000000004e-11,
+      "partial_half_life_s": 7844255999999999.0,
+      "log10_partial_half_life_s": 15.89455175857723,
+      "approximate_first_order_partial_uncertainty_s": 1961070292753423.5,
+      "uncertainty_boundary": "First-order independent propagation for reporting only; no full covariance or original likelihood available.",
+      "source_locator": "NNDC 224Ra Adopted PDF1, ground-state comment",
+      "warda2011_log10_hfb_s": 15.06,
+      "hfb_minus_adopted_log10_s": -0.8345517585772289,
+      "observed_over_hfb_half_life_ratio": 6.832061366294517
+    },
+    {
+      "parent": "226Ra",
+      "channel": {
+        "cluster_A": 14,
+        "cluster_Z": 6,
+        "daughter_A": 212,
+        "daughter_Z": 82
+      },
+      "total_half_life": {
+        "value": 1600,
+        "uncertainty": 7,
+        "unit": "y"
+      },
+      "adopted_cluster_percent": 3.2e-09,
+      "adopted_cluster_percent_uncertainty": 1.6e-09,
+      "branch_fraction": 3.2e-11,
+      "partial_half_life_s": 1.57788e+21,
+      "log10_partial_half_life_s": 21.198073971421245,
+      "approximate_first_order_partial_uncertainty_s": 7.889702010313194e+20,
+      "uncertainty_boundary": "First-order independent propagation for reporting only; no full covariance or original likelihood available.",
+      "source_locator": "NNDC 226Ra Adopted PDF1, ground-state comment",
+      "warda2011_log10_hfb_s": 18.98,
+      "hfb_minus_adopted_log10_s": -2.2180739714212443,
+      "observed_over_hfb_half_life_ratio": 165.22431933985519
+    },
+    {
+      "parent": "228Th",
+      "channel": {
+        "cluster_A": 20,
+        "cluster_Z": 8,
+        "daughter_A": 208,
+        "daughter_Z": 82
+      },
+      "total_half_life": {
+        "value": 1.9116,
+        "uncertainty": 0.0016,
+        "unit": "y"
+      },
+      "adopted_cluster_percent": 1.13e-11,
+      "adopted_cluster_percent_uncertainty": 2.2e-12,
+      "branch_fraction": 1.1300000000000001e-13,
+      "partial_half_life_s": 5.3385405451327426e+20,
+      "log10_partial_half_life_s": 20.727422545450565,
+      "approximate_first_order_partial_uncertainty_s": 1.0393714809298251e+20,
+      "uncertainty_boundary": "First-order independent propagation for reporting only; no full covariance or original likelihood available.",
+      "source_locator": "NNDC 228Th Adopted PDF1, ground-state comment",
+      "warda2011_log10_hfb_s": 19.53,
+      "hfb_minus_adopted_log10_s": -1.1974225454505643,
+      "observed_over_hfb_half_life_ratio": 15.755150113728305
+    }
+  ],
+  "th226_boundary": {
+    "requested_channel": "226Th -> 206Pb + 20O",
+    "experimental_benchmark_status": "No positive measured branch established by the acquired Adopted table or cited HFB paper.",
+    "documented_comparison_channel": "226Th -> 208Pb + 18O",
+    "documented_log10_partial_half_life_lower_limit_s": 16.76,
+    "documented_partial_half_life_lower_limit_s": 5.75439937337159e+16,
+    "hfb_log10_partial_half_life_s": 17.31,
+    "source": "Warda2011 PDF13 Table I; original experiment Ref21 not reread."
+  },
+  "theory_cross_checks": {
+    "warda224Ra_ground_state": {
+      "beta2": 0.18,
+      "beta3": 0.14,
+      "Q20_b": 8.3,
+      "Q30_b_three_half": 4.2,
+      "locator": "Warda2011 PDF5, SecIII"
+    },
+    "warda224Ra_scission": {
+      "Q30_b_three_half": 28,
+      "neck_density_fm_minus3": 0.09,
+      "transferred_nucleons_between_neck_configurations": 4.9,
+      "locator": "Warda2011 PDF12–13, Fig10"
+    },
+    "denisov228Th": {
+      "calculated_partial_half_life_s": 5e+20,
+      "reported_experimental_partial_half_life_s": 5.29e+20,
+      "reported_experimental_uncertainty_s": 1.01e+20,
+      "preformation_factor_assumed": 1,
+      "locator": "Denisov2013 PDF6 Eq21–24 and PDF9"
+    }
+  },
+  "fragment_geometry": [
+    {
+      "channel": "222Ra -> 208Pb + 14C",
+      "light_A": 14,
+      "light_Z": 6,
+      "heavy_A": 208,
+      "heavy_Z": 82,
+      "E1_coefficient_D0_per_eR": 0.4504504504504503,
+      "E3_coefficient_M30_per_eR3_without_Y30": 4.914379682823801,
+      "mass_moment_coefficients": {
+        "1": 0.0,
+        "3": 11.462705949192435,
+        "5": 10.108132467979532,
+        "7": 8.87361370971805
+      },
+      "boundary": "Two nonoverlapping point fragments with fixed A,Z and no internal polarization; coefficients do not measure cluster probability."
+    },
+    {
+      "channel": "224Ra -> 210Pb + 14C",
+      "light_A": 14,
+      "light_Z": 6,
+      "heavy_A": 210,
+      "heavy_Z": 82,
+      "E1_coefficient_D0_per_eR": 0.5,
+      "E3_coefficient_M30_per_eR3_without_Y30": 4.923828125,
+      "mass_moment_coefficients": {
+        "1": 0.0,
+        "3": 11.484375,
+        "5": 10.1385498046875,
+        "7": 8.911010026931763
+      },
+      "boundary": "Two nonoverlapping point fragments with fixed A,Z and no internal polarization; coefficients do not measure cluster probability."
+    },
+    {
+      "channel": "226Ra -> 212Pb + 14C",
+      "light_A": 14,
+      "light_Z": 6,
+      "heavy_A": 212,
+      "heavy_Z": 82,
+      "E1_coefficient_D0_per_eR": 0.5486725663716818,
+      "E3_coefficient_M30_per_eR3_without_Y30": 4.933110263587769,
+      "mass_moment_coefficients": {
+        "1": 0.0,
+        "3": 11.505677813454461,
+        "5": 10.16849981398963,
+        "7": 8.947875899684512
+      },
+      "boundary": "Two nonoverlapping point fragments with fixed A,Z and no internal polarization; coefficients do not measure cluster probability."
+    },
+    {
+      "channel": "228Th -> 208Pb + 20O",
+      "light_A": 20,
+      "light_Z": 8,
+      "heavy_A": 208,
+      "heavy_Z": 82,
+      "E1_coefficient_D0_per_eR": 0.10526315789473717,
+      "E3_coefficient_M30_per_eR3_without_Y30": 6.018661612479952,
+      "mass_moment_coefficients": {
+        "1": 0.0,
+        "3": 15.044629116651274,
+        "5": 12.63674757135775,
+        "7": 10.517900745259197
+      },
+      "boundary": "Two nonoverlapping point fragments with fixed A,Z and no internal polarization; coefficients do not measure cluster probability."
+    },
+    {
+      "channel": "226Th -> 206Pb + 20O; hypothetical comparison",
+      "light_A": 20,
+      "light_Z": 8,
+      "heavy_A": 206,
+      "heavy_Z": 82,
+      "E1_coefficient_D0_per_eR": 0.03539823008849563,
+      "E3_coefficient_M30_per_eR3_without_Y30": 6.001686884094983,
+      "mass_moment_coefficients": {
+        "1": 0.0,
+        "3": 15.00352416007518,
+        "5": 12.583032361989593,
+        "7": 10.455410783031752
+      },
+      "boundary": "Two nonoverlapping point fragments with fixed A,Z and no internal polarization; coefficients do not measure cluster probability."
+    },
+    {
+      "channel": "226Th -> 208Pb + 18O; lower-limit channel",
+      "light_A": 18,
+      "light_Z": 8,
+      "heavy_A": 208,
+      "heavy_Z": 82,
+      "E1_coefficient_D0_per_eR": 0.831858407079646,
+      "E3_coefficient_M30_per_eR3_without_Y30": 6.195268269322065,
+      "mass_moment_coefficients": {
+        "1": 0.0,
+        "3": 13.927480617119585,
+        "5": 11.885641497748619,
+        "7": 10.068310336995934
+      },
+      "boundary": "Two nonoverlapping point fragments with fixed A,Z and no internal polarization; coefficients do not measure cluster probability."
+    }
+  ],
+  "inferred_preformation_probabilities": null,
+  "measured_beta5_beta7": null,
+  "rejected_universal_claims": [
+    "A larger ground-state beta3 necessarily increases cluster P0.",
+    "beta5 or beta7 has a universal positive enhancement factor.",
+    "A small E1 or D0 implies a small cluster formation amplitude.",
+    "GCM collective weights equal a cluster projector probability.",
+    "226Th 20O is an established positive experimental benchmark."
+  ],
+  "retrieval_limitations": [
+    {
+      "resource": "Sawhney et al. PhysRevC83 064610 (2011)",
+      "doi": "10.1103/PhysRevC.83.064610",
+      "metadata": "title/authors verified with Crossref; publisher PDF 403, APS harvest401; not used for any quantitative beta5/beta7 claim"
+    }
+  ],
+  "fingerprints": [
+    {
+      "path": "tmp/day26-act-th/222Ra-adopted.pdf",
+      "archived_file": "raw/papers/gpt/day26-20261028/nndc-222ra-adopted-cluster-20261029.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/222/Ra/adopted.pdf",
+      "bytes": 178531,
+      "signature_hex": "255044462d312e34",
+      "sha256": "3a681f65303cbaa9bba9541dfc439d5155c55f276256121d43652d8dc7004042",
+      "pages": 11,
+      "reading_coverage": "PDF2, ground-state T1/2 and 14C branch",
+      "archival_hash_verified": true
+    },
+    {
+      "path": "tmp/day26-act-th/224Ra-adopted.pdf",
+      "archived_file": "raw/papers/gpt/day26-20261028/nndc-224ra-adopted-cluster-20261029.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/224/Ra/adopted.pdf",
+      "bytes": 167627,
+      "signature_hex": "255044462d312e34",
+      "sha256": "e544808533a6ce62dda356319abc53a94f7954665043fc930346bef666db3e4b",
+      "pages": 13,
+      "reading_coverage": "PDF1, ground-state T1/2 and 14C branch",
+      "archival_hash_verified": true
+    },
+    {
+      "path": "tmp/day26-act-th/226Ra-adopted.pdf",
+      "archived_file": "raw/papers/gpt/day26-20261028/nndc-226ra-adopted-cluster-20261029.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/226/Ra/adopted.pdf",
+      "bytes": 155530,
+      "signature_hex": "255044462d312e34",
+      "sha256": "34ddbf7044cfe56241e4dd2b7d21eb6a10048474bd07afe9691f0082e1d8ba65",
+      "pages": 8,
+      "reading_coverage": "PDF1, ground-state T1/2 and 14C branch",
+      "archival_hash_verified": true
+    },
+    {
+      "path": "tmp/day26-act-th/226Th-adopted.pdf",
+      "archived_file": "raw/papers/gpt/day26-20261028/nndc-226th-adopted-cluster-20261029.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/226/Th/adopted.pdf",
+      "bytes": 94655,
+      "signature_hex": "255044462d312e34",
+      "sha256": "84f713c249876cbad2fdf7bfcc0b0431deb4873e985ef932894428bc13b6bee4",
+      "pages": 5,
+      "reading_coverage": "PDF1, no cluster branch assigned in acquired Adopted table",
+      "archival_hash_verified": true
+    },
+    {
+      "path": "tmp/day26-act-th/228Th-adopted.pdf",
+      "archived_file": "raw/papers/gpt/day26-20261028/nndc-228th-adopted-cluster-20261029.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/228/Th/adopted.pdf",
+      "bytes": 640568,
+      "signature_hex": "255044462d312e34",
+      "sha256": "48f209f67c9e165d840c9118aca78c103a1ed3269a6a413ba1344ec4b41adc74",
+      "pages": 46,
+      "reading_coverage": "PDF1, ground-state T1/2 and 20O branch",
+      "archival_hash_verified": true
+    },
+    {
+      "path": "tmp/day26-cluster/1107.1478.pdf",
+      "archived_file": "raw/papers/gpt/day26-20261028/warda-2011-actinide-cluster-radioactivity-arxiv1107.1478v1.pdf",
+      "url": "https://arxiv.org/pdf/1107.1478v1",
+      "bytes": 3434371,
+      "signature_hex": "255044462d312e34",
+      "sha256": "632768452a96e8fdc9f9abc45caebbdfef154796962ee6cac41e31c360d54aa9",
+      "pages": 19,
+      "reading_coverage": "PDF1–5, PDF10–13, PDF15–17; Eqs2–7, Figs1–3 and10, Table I, EDF limitations",
+      "archival_hash_verified": true
+    },
+    {
+      "path": "tmp/day26-cluster/1311.3810.pdf",
+      "archived_file": "raw/papers/gpt/day26-20261028/denisov-2013-multidimensional-cluster-arxiv1311.3810v1.pdf",
+      "url": "https://arxiv.org/pdf/1311.3810v1",
+      "bytes": 1068033,
+      "signature_hex": "255044462d312e34",
+      "sha256": "cf00e8012f9100edb443571cbd77c1af14b251dc6a78bb81f1c1e02ef6f181be",
+      "pages": 12,
+      "reading_coverage": "PDF1–2, PDF5–10; Eqs21–31, least-action mechanism and 228Th comparison",
+      "archival_hash_verified": true
+    }
+  ],
+  "no_credit_or_deadline_change": true,
+  "commit_push": "not performed"
+}

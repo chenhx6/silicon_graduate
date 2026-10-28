@@ -4645,3 +4645,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. AMR全球40带证据分级与核素分布（amr-global-nuclide-distribution-configuration-confidence-audit.md，workers/amr-global-distribution-20261029/）：梳理全核图40条结构、28个核素，划定7条Tier A绝对寿命确认带（104Pd, 105-108Cd）、9条Tier B带、22条Tier C候选与2条Tier D准转动态（144Dy），追踪2024-2026最新文献元数据；
   3. 磁转动有效g因子淬灭与核芯极化反演（mr-effective-g-quenching-core-polarization-boundary.md）：导出剪刀模型|Delta g_eff|单能带反演闭式，阐明1+磁偶极巨共振/GT自旋极化引发的g_s淬灭机制，跨区对账198,199Pb经验g_eff/Schmidt比值（0.786）与135Pr/137Pr测量缺口；
   4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T04:45:00+08:00 Day26 checkpoint073：AMR四极力矩与中子演化、141Eu多剪刀共存及锕系团簇放射性高阶势垒软化。
+  1. AMR四极力矩与中子演化微观审计（amr-vpinu-neutron-number-core-polarization-audit.md）：澄清Rather/Roy均采用V_pinu=1.2 MeV并无Pd相互作用增强实测证据，推导粒子-空穴力矩与核芯减缓闭合导数，枚举15种g9/2 Slater空穴态与h11/2满壳四极零迹；新增pohl-1996与juutinen-1994两篇来源页；
+  2. 141Eu多剪刀带共存第一手证据（multi-band-shears-coexistence-pb-141eu-139sm-boundary.md）：深读Podsvirova 2004全文（EPJA 21, 1），核验DB1与DB2各三条寿命与不对称误差，证明SPAC集体演化优于唯象两态交叉混合假设；新增podsvirova-2004来源页；
+  3. 八极关联与锕系团簇放射性微观动力学（octupole-cluster-radioactivity-preformation-boundary.md）：澄清228Th(20O)正测与226Th(18O)下限边界，推导高阶奇形变(beta5, beta7)松弛有效曲率C33_eff = C33 - c^T Ch^-1 c，分析预形成与超非对称裂变路径；新增nndc-ra-th、warda-2011与denisov-2013三篇来源页；
+  4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，validate_writeback_items.py 19项有效，wiki_boundary_check.py ok: true，git diff --check clean。

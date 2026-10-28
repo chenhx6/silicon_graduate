@@ -1,0 +1,84 @@
+{
+  "worker": "amr-vpinu-neutron-evolution-20261029",
+  "status": "complete-with-microscopic-evidence-boundaries",
+  "skills_used": [
+    "phys-model",
+    "research-notes"
+  ],
+  "research_note": "knowledge/research-notes/amr-vpinu-neutron-number-core-polarization-audit.md",
+  "new_sources": [
+    "knowledge/sources/pohl-1996-107108pd-highspin-metadata.md",
+    "knowledge/sources/juutinen-1994-109111cd-107pd-highspin-metadata.md"
+  ],
+  "modified_sources": [
+    "knowledge/sources/rather-2014-104pd-antimagnetic-arxiv-full.md",
+    "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md"
+  ],
+  "shared_index_modified": "knowledge/index.md",
+  "critical_findings": [
+    "Rather2014 uses V_pinu=1.2 MeV in 104Pd, transferred from Cd, not a larger separately measured four-hole value; jnu=16, n=8, Jcoupling=5, Jrot=17.",
+    "Roy2011 uses V_pinu=1.2 MeV in 106,108,110Cd; it varies effective jnu (18,16,10), n, and core response, not a measured monotone V(N).",
+    "Four g9/2 holes do not imply twice the quadrupole torque: exact axial paired-hole controls give Qh=-72 for 2holes |m|=9/2, -96 for 4holes |m|=9/2,7/2, but -24 for 4holes |m|=9/2,1/2.",
+    "For Jcore=0 the fixed-blade B(E2)(I) curve is independent of V_pinu; V changes frequency/torque. For positive stable core response larger V or core inertia can slow closure per unit spin.",
+    "A quadratic core-response derivation yields induced Qpi^T Fpi^T C^-1 Fnu Qnu coupling; core quadrupole softness and rotational inertia are different response functions.",
+    "N does not uniquely fix h11/2 occupation: gd mixing, pairing and rotational crossings matter. No full even-even 102-108Pd AMR parameter chain exists in the reviewed evidence."
+  ],
+  "validation": {
+    "owned_lint_errors": 0,
+    "global_lint_counts": {
+      "error": 1,
+      "warning": 301,
+      "info": 5127
+    },
+    "boundary_ok": true,
+    "tracked_owned_diff_check": "passed",
+    "full_microscopic_EDF_or_PNC_isotope_chain": "not performed; not claimed",
+    "commit_push": "not performed; parent integrates"
+  },
+  "artifacts": [
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-vpinu-neutron-evolution-20261029/amr_vpinu_neutron_model.py",
+      "sha256": "736dd7c1e79a108eeac6444f7231c02e51a65b51c334f7be1bd2c5c2d50b9e2f"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-vpinu-neutron-evolution-20261029/boundary.json",
+      "sha256": "231a7a88757d0f9edb8643ac6f8bc78036f5a8f247cf8e2a614cbc1fc9fc72c5"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-vpinu-neutron-evolution-20261029/cd_neutron_evolution_proxy.csv",
+      "sha256": "aa015bc6640381068be34bd33657f434c18163df16b762371b7721eb0d77fe3b"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-vpinu-neutron-evolution-20261029/core_closure_sensitivity.csv",
+      "sha256": "2d4e77f7203a31a595c5337f6f1f7fee3a77fcd66a404ddbeaec1edadc0c4de2"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-vpinu-neutron-evolution-20261029/g9_2_hole_quadrupole_controls.csv",
+      "sha256": "a8e70a65e776dea75af539cbb60ea39533951aca5d93801d6ccbf4ff080b35b8"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-vpinu-neutron-evolution-20261029/h11_2_quadrupole_substates.csv",
+      "sha256": "03d09ff182beb284f61cae9398deac39bae8db38d52d551ca46f783f1bd3298c"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-vpinu-neutron-evolution-20261029/model_summary.json",
+      "sha256": "919bd9c4a356fe5d8cfee513de4ea977df14854be51467876e3e0977dc05b768"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-vpinu-neutron-evolution-20261029/provenance.json",
+      "sha256": "f5bb4727ed62f29d51539e606cedbda08d6d61e9b70a47e84a880b4b83027745"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-vpinu-neutron-evolution-20261029/same_N_106Cd_104Pd_scaling.csv",
+      "sha256": "b568d244d8affb7d82f216ac8f982d62d972dfa1715c37297ff20c5aae99f736"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-vpinu-neutron-evolution-20261029/vpinu_torque_grid.csv",
+      "sha256": "31cd13d35b1139cb71b56a7b543ca9193e79352db1544f9163bc174e88e97f36"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-vpinu-neutron-evolution-20261029/wiki-lint-global.json",
+      "sha256": "93076b3c0cb171b45b97060cd2054ba48c45bf9e8ab6fec1f6090eb92faf4aea"
+    }
+  ]
+}

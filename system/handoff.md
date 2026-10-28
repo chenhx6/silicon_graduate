@@ -3,7 +3,28 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint072：锕系K=3/2平滑宇称双重态、AMR全球40带证据分级与有效g因子淬灭微观反演
+## Active handoff — Day26 checkpoint073：AMR四极力矩与中子演化、141Eu多剪刀共存及锕系团簇放射性高阶势垒软化
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得重大微观理论与文献全文闭环：
+1. **AMR 四极相互作用强度 $V_{\pi\nu}$ 与中子数演化微观审计**（`amr-vpinu-neutron-number-core-polarization-audit.md`，`workers/amr-vpinu-neutron-evolution-20261029/`）：
+   - 纠正先验误区：Rather 2014 与 Roy 2011 均沿用经典参数 $V_{\pi\nu} = 1.2\text{ MeV}, V_{\pi\pi} = 0.2\text{ MeV}$，文献并无 $^{104}\text{Pd}$ 相互作用增强的实测证据；
+   - 推导粒子-空穴四极力矩 $|\tau_{\pi\nu}| = 3V_{\pi\nu}|\sin\theta\cos\theta|$ 与闭合导数；证明在 $\mathcal{J}_c = 0$ 时改变 $V_{\pi\nu}$ 不改变 $B(E2)$ 随自旋的轨迹，仅当核芯转动惯量 $\mathcal{J}_c > 0$ 时二者才共同减缓剪刀闭合；
+   - 枚举 15 种 $g_{9/2}$ 配对空穴 Slater 控制态反驳四空穴响应必然加倍，证明 $h_{11/2}$ 满壳角四极迹为严格零；新增来源页 `pohl-1996-107108pd-highspin-metadata.md` 与 `juutinen-1994-109111cd-107pd-highspin-metadata.md`；
+2. **同核多重磁转动带共存与 $^{141}\text{Eu}$ 全文第一手证据**（`multi-band-shears-coexistence-pb-141eu-139sm-boundary.md`，来源 `podsvirova-2004-141eu-dipole-lifetimes.md`）：
+   - 取得并深读 Podsvirova 2004 全文（EPJA 21, 1–6，EUROBALL IV DSAM），实测 $^{141}\text{Eu}$ DB1 与 DB2 各三个能级寿命与电磁跃迁几率；
+   - 证明原作者采用的 SPAC 倾斜推转模型通过集体性演化更好地描述了背弯，指出避免交叉与两态混合矩阵元（如 $W = 0.040\text{ MeV}$）属于唯象模型假定，未被实验直接测得；
+3. **八极关联、高阶奇形变与锕系团簇放射性微观动力学**（`octupole-cluster-radioactivity-preformation-boundary.md`，工件 `octupole-cluster-radioactivity-boundary`）：
+   - 澄清实验事实：文献已建立 $^{228}\text{Th} \to {}^{208}\text{Pb} + {}^{20}\text{O}$ 正测，而 $^{226}\text{Th}$ 仅为 $^{18}\text{O}$ 发射下限；换算 NNDC 评价分支得到 $^{222,224,226}\text{Ra}$（$^{14}\text{C}$）与 $^{228}\text{Th}$（$^{20}\text{O}$）的部分半衰期；
+   - 推导高阶奇形变（$\beta_5, \beta_7$）自由度松弛后的有效势垒曲率公式 $C_{33}^{\text{eff}} = C_{33} - \mathbf{c}^T C_h^{-1} \mathbf{c}$，证明形变松弛显著软化势能面，但总穿透率仍受有效惯量与全路径作用量调制；
+   - 新增来源页 `nndc-ra-th-cluster-decay-adopted.md`、`warda-2011-actinide-cluster-radioactivity-gogny.md`、`denisov-2013-multidimensional-cluster-radioactivity.md`；
+4. **日报系统同步与写回契约全绿**：
+   - 正式日报 `outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation.md` 增补 Checkpoints 063–075 理论闭环大节，`validate_writeback_items.py` 验证 19 项原子条目全通过。
+
+全量检查全绿（wiki_lint 0 error/288 warnings，boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint072：锕系K=3/2平滑宇称双重态、AMR全球40带证据分级与有效g因子淬灭微观反演
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

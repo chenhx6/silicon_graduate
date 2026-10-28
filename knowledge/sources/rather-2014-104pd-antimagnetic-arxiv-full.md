@@ -49,11 +49,15 @@ N. Rather 等，*Physical Review C* **89**, 061303(R) (2014)，DOI `10.1103/Phys
 | RA14-FULL-05 | 论文把I=16–26ℏ的单调B(E2)下降和大J(2)/B(E2)作为AMR证据；这一判断依赖DSAM、模型及其参数化，不能与PNC四空穴波函数直接等同。 | author-interpretation | direct-original | PDF pp3,5 | true |
 | RA14-FULL-06 | 论文明确把106,108Cd称为两质子空穴纯AMR对照，把110Cd称为AMR与核心转动耦合；104Pd实验构型与Zhang2019 PNC构型存在两空穴有效模型和四个部分空穴微观模型的层级差异。 | author-comparison | direct-original | PDF pp1–2 | true |
 
+| RA14-VPN-01 | 作者未给104Pd一个较大的独立拟合Vπν；直接从Cd系统学沿用Vπν=1.2 MeV、Vππ=0.2 MeV，并使用有效两空穴构型、n=8、jν=16。这里与PNC四空穴的区别是模型空间/归一化，不是测得Vπν加倍。 | model-input-and-transfer-assumption | direct-original | PDF pp4–6 Eqs4–9及结论 | true |
+
 ## Summary
 
 Rather 2014全文补足了104Pd的逐点B(E2)和J(2)/B(E2)表。由表中B(E2)与比值相乘得到的动态惯量约为29.2(3.2)、31.0(4.0)、63.5(4.7)、36.7(4.0)、38.8(7.8) ℏ²/MeV（I=16–24），说明I=20附近存在明显有限差分峰，不能把104Pd J(2)写成完全平坦平台。
 
 ## Extracted Pages
+
+- [[amr-vpinu-neutron-number-core-polarization-audit]]
 
 - [[amr-j2-dynamic-inertia-endpoint-audit]]
 - [[amr-pd-four-hole-geometry-evolution-audit]]

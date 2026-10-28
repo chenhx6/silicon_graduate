@@ -1,0 +1,30 @@
+{
+  "model": "Roy-style particle-plus-rotor proxy",
+  "equations": {
+    "I_of_c": "I = j_nu + 2*j_h*c + J_core*omega_sh(c)",
+    "omega_sh": "omega_sh = (1.5*V_pinu/j_h)*c - (6*V_pipi/(n*j_h))*(2*c^2-1)*c",
+    "B_E2_normalized": "B/B_bandhead = (1-c^2)^2",
+    "torque_magnitude": "|tau_pinu| = 3*V_pinu*c*sqrt(1-c^2)",
+    "closure_denominator": "D = dI/dc = 2*j_h + J_core*domega_sh/dc"
+  },
+  "fixed_inputs": {
+    "j_h": 4.5,
+    "V_pipi_MeV": 0.15,
+    "n": 4
+  },
+  "interpretation": [
+    "For J_core=0, c(I)=(I-j_nu)/(2*j_h), so changing V_pinu changes omega and torque but not B(E2) versus I in this fixed-length proxy.",
+    "For J_core>0, larger positive V_pinu increases D and reduces dc/dI, delaying shear closure at fixed spin; core rotation makes B(E2) decline more slowly in this convention.",
+    "A four-hole/four-blade 104Pd system cannot be assigned V_pinu=2*1.2 MeV from data. The factor-two case is a counterfactual sensitivity scenario, not a physical upper bound; pairing and configuration mixing renormalize it.",
+    "Cd chain parameters are literature/model descriptors from existing local audits, not isotope-by-isotope fitted values."
+  ],
+  "single_j_quadrupole_trace": 0.0,
+  "toy_shell_warning": "m denotes projection about the chosen quantization axis, not an experimentally assigned Nilsson orbital or an actual neutron number.",
+  "g9_2_hole_quadrupole_controls": {
+    "count": 15,
+    "two_hole_abs_m_4p5_Qh": -72.0,
+    "four_hole_abs_m_4p5_3p5_Qh": -96.0,
+    "four_hole_abs_m_4p5_0p5_Qh": -24.0,
+    "warning": "Axial T-even Slater quadrupole controls; not fitted/cranked AMR states. Common radial/angular factor omitted."
+  }
+}
