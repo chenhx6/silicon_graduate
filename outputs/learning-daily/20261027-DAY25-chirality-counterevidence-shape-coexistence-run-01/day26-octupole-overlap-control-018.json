@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "topic": "Ba144/Ba146 E3 interval overlap control",
+  "day_index": 25,
+  "preview_day_index": 26,
+  "formal_credit_awarded": false,
+  "values": {
+    "Ba144": {
+      "central_Wu": 48,
+      "minus": 34,
+      "plus": 25,
+      "interval": [
+        14,
+        73
+      ]
+    },
+    "Ba146": {
+      "central_Wu": 48,
+      "minus": 29,
+      "plus": 21,
+      "interval": [
+        19,
+        69
+      ]
+    }
+  },
+  "derived": {
+    "intersection_interval_Wu": [
+      19,
+      69
+    ],
+    "central_difference_Wu": 0,
+    "ratio_central": 1.0,
+    "ratio_interval_using_extrema": [
+      0.2028985507246377,
+      3.8421052631578947
+    ]
+  },
+  "interpretation": "误差区间显著重叠，支持两核E3集体性相容；不升级为严格恒定或静态刚性梨形的无模型证明。"
+}
