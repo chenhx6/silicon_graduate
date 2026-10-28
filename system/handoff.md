@@ -3,7 +3,26 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint075：低能集体剪刀模向MR带微观跃迁边界、宇称投影符号纠正及PNC配对相干审计
+## Active handoff — Day26 checkpoint076：144,146Ba偶极相消证据对账、135Pr剪刀交叉重开及跨质量区机制迁移矩阵
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
+1. **富中子钡同位素（144,146Ba）八极关联与电偶极相消证据对账**（`ba-microscopic-octupole-dipole-cancellation.md`，工件 `octupole-dipole-cancellation/`）：
+   - 核验 BU16/BU17 下行 $B(E3; 3^- \to 0^+)$ 分别为 $48^{+25}_{-34}$ 与 $48^{+21}_{-29}\text{ W.u.}$，重叠区间为 $[19, 69]\text{ W.u.}$；
+   - 严格导出初态简并因子换算：BU17 表中 $0^+ \to 1^-$ 矩阵元对应下行 $B(E1; 1^- \to 0^+) = 9.27 \times 10^{-7}\text{ W.u.}$，解释了较 144Ba（$7.59 \times 10^{-4}\text{ W.u.}$ 当量）的 20 倍以上骤降；
+   - 对账 BU17 三条变形中子轨道母态占据（$\nu h_{9/2}: v^2=0.40, \nu f_{7/2}: 0.27, \nu i_{13/2}: 0.20$）与 SCCM 质子偶极近抵消机制，撤回旧自设宏观液滴/分项 $D_z$ 数值，划定 GOSIA 协方差不可得时 E1/E3 联合置信区间边界；
+2. **剪刀动力学与磁转动（MR）高自旋能带交叉与反弹机制核验**（`pr135-shears-dynamics-bandcrossing-rebound.md`，工件 `shears-rebound/`）：
+   - 核验 Garg 2015 实验能带交叉定位在 $\hbar\omega \approx 0.37\text{ MeV}, I \approx 33/2^-$，高自旋组态明确为 $\pi h_{11/2}(g_{7/2})^2 \otimes \nu h_{11/2}^{-2}$ 5qp 配置（新增质子对非中子空穴）；
+   - 澄清实验直接给出的是 Fig.7 中相对比值 $B(M1)/B(E2)$ 升至约 $35/2^-$，高自旋缺乏 crossover $E2$ 导致更高自旋无法提取；交叉后绝对强度反弹属于 TAC/几何重开解释而非直接实验测量；
+   - 审计 2019 偏振勘误仅更新 $\Delta$ 与混合多极性，排除未获支持的 $\delta$ 与 $M1$ 纯度硬门；产出包含固定双叶片、平行核芯与 logistic 交叉的透明 toy 模型；
+3. **跨质量区集体运动模式迁移与四大不适用性判据深化**（`cross-mass-region-collective-mode-mechanisms-and-breakdown.md`，工件 `cross-mass-transfer/`）：
+   - 建立 A≈80, 100, 130, 160, 190, 220 六大质量区机制坐标横向矩阵（CSV 与逻辑脚本）；
+   - 系统形式化四大不适用性判据：稀土大四极集体转动压倒剪刀辐射、轻核缺乏高-j 侵入轨道导致角动量预算不足、Cd/Pd 区 $\mathcal{R}_y(\pi)\mathcal{T}$ 复合对称性驱动横向 M1 相消而出现 AMR、八极仅集中于费米面具备 $\Delta l = \Delta j = 3$ 轨道对的狭窄形变窗口。
+
+全量检查全绿（wiki_lint 0 error/308 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint075：低能集体剪刀模向MR带微观跃迁边界、宇称投影符号纠正及PNC配对相干审计
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

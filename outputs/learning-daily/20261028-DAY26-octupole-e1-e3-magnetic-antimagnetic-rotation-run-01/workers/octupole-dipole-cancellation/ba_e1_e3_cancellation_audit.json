@@ -1,0 +1,106 @@
+{
+  "title": "144Ba/146Ba E1-E3 cancellation evidence audit",
+  "status": "evidence-constrained-derived-arithmetic",
+  "source_boundary": {
+    "direct_experiments": [
+      "BU16 direct Coulomb-excitation E3; PDF pp.3-4/Table I",
+      "BU17 direct Coulomb-excitation E3 and Table-I matrix elements; PDF pp.2-5"
+    ],
+    "model": "BU17 SCCM uses Gogny D1S, axial Q20/Q30 coordinates, projection and GCM; it is not replayed here.",
+    "missing": [
+      "full GOSIA covariance/joint likelihood",
+      "SCCM projected E1/E3 transition kernels",
+      "published proton/neutron signed D_z component table"
+    ]
+  },
+  "e3": {
+    "reported": {
+      "144Ba": {
+        "matrix_element_eb32": 0.65,
+        "plus": 0.17,
+        "minus": 0.23,
+        "b_down_wu": 48.0,
+        "b_plus": 25.0,
+        "b_minus": 34.0,
+        "locator": "Bucher 2016 PRL 116 112503, PDF p.4 Table I"
+      },
+      "146Ba": {
+        "matrix_element_eb32": 0.65,
+        "plus": 0.14,
+        "minus": 0.2,
+        "b_down_wu": 48.0,
+        "b_plus": 21.0,
+        "b_minus": 29.0,
+        "locator": "Bucher 2017 PRL 118 152504, PDF p.3 Table I"
+      }
+    },
+    "reported_intervals_wu": {
+      "144Ba": [
+        14.0,
+        73.0
+      ],
+      "146Ba": [
+        19.0,
+        69.0
+      ]
+    },
+    "interval_intersection_wu": [
+      19.0,
+      69.0
+    ],
+    "interpretation": "The reported intervals overlap; this is compatibility of marginal reported intervals, not a joint confidence statement because the full covariance is unavailable."
+  },
+  "e1": {
+    "146Ba_amplitude": {
+      "center_eb_half": 0.000223,
+      "plus": 1e-05,
+      "minus": 8e-06,
+      "sccm_eb_half": 0.00474,
+      "locator": "Bucher 2017 PRL 118 152504, PDF p.3 Table I and following paragraph",
+      "fit_boundary": "E1 is primarily constrained by previous lifetime/branching-ratio data; full GOSIA covariance is unavailable."
+    },
+    "146Ba_B_E1_downward_center_Wu": 9.268871320149286e-07,
+    "146Ba_B_E1_downward_reported_interval_from_amplitude_Wu": [
+      8.61576900347686e-07,
+      1.011879899253121e-06
+    ],
+    "146Ba_D0_conditional_from_amplitude_efm": 0.004564037117441339,
+    "144Ba_D0_transcribed_efm": {
+      "center_efm": 0.13,
+      "sigma_efm": 0.01,
+      "locator": "BU17 discussion, PDF p.2; earlier E1 systematics cited there"
+    },
+    "144Ba_B_E1_conditional_from_D0_Wu": 0.0007589423677832436,
+    "144Ba_B_E1_conditional_interval_Wu": [
+      0.0006466727867502195,
+      0.0008801935152989097
+    ],
+    "conversion_boundary": "The 144Ba value is an axial-rotor conversion from a prior D0 systematics value; it is not a new BU16 Table-I E1 fit."
+  },
+  "orbital_occupancy": {
+    "146Ba_v2": {
+      "nu_h9/2_K3/2-": 0.4,
+      "nu_f7/2_K5/2-": 0.27,
+      "nu_i13/2_K1/2+": 0.2
+    },
+    "locator": "BU17 PDF p.4 Fig.5 and PDF p.5 opening paragraph",
+    "reported_effect": "The paper says these increasing occupancies produce a dipole contribution that nearly cancels the proton contribution and that the total D0 changes sign by 148Ba.",
+    "normalized_cancellation_exercise": {
+      "sum_v2": 0.8700000000000001,
+      "if_Dp_is_defined_as_1": "D_total/Dp = 1 + c_eff * sum(v2)",
+      "c_eff_required_for_zero": -1.1494252873563218,
+      "meaning": "Dimensionless sensitivity illustration only; c_eff is not a published orbital D_z matrix element."
+    },
+    "proton_orbital_boundary": "The requested pi(g7/2,d5/2,h11/2) occupancy and signed D_z pieces are not published in BU17 Table/Fig.5 and are not inferred here."
+  },
+  "confidence_and_shape": {
+    "fit_correlation": "BU16/BU17 state that quoted errors include correlations between fit parameters; BU17 says E1 is primarily constrained by prior lifetimes/branching ratios and the E1/E3 relative sign is insensitive to the data.",
+    "static_vs_dynamic": "Large direct E3 supports strong octupole correlations. It does not by itself distinguish a rigid static pear from a large-amplitude soft mode. Bernard 2016 finds a nonzero HFB minimum and a soft beta3 landscape; its projected 2D GCM gives 0.460 eb^(3/2), 25 W.u. for the 0+↔3− E3 matrix element (PDF pp.2-4, Fig.1/Table I).",
+    "conclusion": "The evidence favors an occupancy-sensitive E1 cancellation coexisting with strong E3 collectivity; a unique static-pear claim requires additional observables and/or a fully correlated model comparison."
+  },
+  "derived_checks": {
+    "model_to_experiment_E1_amplitude_ratio_146": 21.25560538116592,
+    "model_to_experiment_E1_strength_ratio_146": 451.80076011984966,
+    "e3_intersection_width_wu": 50.0
+  }
+}

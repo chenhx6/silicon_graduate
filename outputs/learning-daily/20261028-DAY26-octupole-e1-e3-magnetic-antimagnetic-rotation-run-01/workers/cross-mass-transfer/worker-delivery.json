@@ -1,0 +1,14 @@
+{
+  "worker": "cross-mass-transfer",
+  "task": "Day 27 cross-mass collective-mode transfer and non-applicability boundaries",
+  "status": "complete-provisional",
+  "knowledge_writeback": "knowledge/research-notes/cross-mass-region-collective-mode-mechanisms-and-breakdown.md",
+  "artifacts": [
+    "mode-transfer-matrix.csv",
+    "applicability_logic.py"
+  ],
+  "evidence_policy": "experimental facts, derived observables, author interpretations, model results and Codex inference are separated; all quantitative entries carry source locators",
+  "boundary": "160Dy/168Er beta2 values and A<60 direct MR census are not fully covered by current primary corpus; retained as conditional reasoning with needs_review",
+  "review_status": "unreviewed",
+  "generated_at": "2026-10-29"
+}

@@ -4662,3 +4662,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. 宇称投影公式符号纠正与小范数核奇异性（parity-projection-gcm-sign-and-small-norm-boundary.md）：纠正Delta E = 2(H00 n - h N)/(N^2 - n^2)公式符号，澄清Bernard 2016二维相关能与B(E3)=24.54 W.u.，对账076玩具模型并撤回定量绝对复现断言；
   3. PNC-CSM配对相干与能带演化审计（amr-pnc-bcs-ln-pairing-coherence-band-evolution-audit.md）：证明固定N态反常平均为零不代表配对相干消失，BCS锐对崩溃为虚假数学效应，区分三类非对角物理量；新增wu-2011与sheikh-2002两篇来源页；
   4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，validate_writeback_items.py 19项有效，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T05:55:00+08:00 Day26 checkpoint076：144,146Ba偶极相消证据对账、135Pr剪刀交叉重开及跨质量区机制迁移矩阵。
+  1. 富中子钡同位素八极关联与偶极相消证据对账（ba-microscopic-octupole-dipole-cancellation.md，工件 octupole-dipole-cancellation/）：核验BU16/BU17下行B(E3)重叠区间[19, 69] W.u.，换算146Ba下行B(E1)=9.27e-7 W.u.（初态简并因子3），对账三条中子轨道母态占据（v2=0.40, 0.27, 0.20）与SCCM抵消机制，撤回自设分项并划定GOSIA协方差边界；
+  2. 剪刀动力学与135Pr高自旋交叉反弹微观机制（pr135-shears-dynamics-bandcrossing-rebound.md，工件 shears-rebound/）：核验Garg 2015交叉位置（0.37 MeV, 33/2-）与5qp组态（pi h11/2(g7/2)^2 (x) nu h11/2^-2），区分实测相对B(M1)/B(E2)上升与交叉后绝对反弹模型解释，对账2019偏振勘误并排除无支撑的纯度硬门；
+  3. 跨质量区集体运动模式迁移与四大不适用性判据深化（cross-mass-region-collective-mode-mechanisms-and-breakdown.md，工件 cross-mass-transfer/）：建立六大质量区横向矩阵CSV与逻辑脚本，形式化稀土压倒剪刀、轻核角动量受限、AMR复合对称性与八极Delta l=Delta j=3狭窄窗口等四大机制失效判据；
+  4. 全量检查全绿：wiki_lint.py 0 error/308 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

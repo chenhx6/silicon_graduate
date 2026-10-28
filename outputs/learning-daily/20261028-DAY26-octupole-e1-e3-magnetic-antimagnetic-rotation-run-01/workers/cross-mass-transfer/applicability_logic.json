@@ -1,0 +1,48 @@
+{
+  "schema": "cross-mass-transfer-screen-v1",
+  "status": "conditional-screening-only",
+  "source_note": "knowledge/research-notes/cross-mass-region-collective-mode-mechanisms-and-breakdown.md",
+  "cases": {
+    "A80_light_high_spin": {
+      "status": "conditional",
+      "flags": [
+        "angular-momentum-budget: unverified",
+        "MR-strength-gap: absolute M1/E2 lifetime layer incomplete"
+      ],
+      "evidence_boundary": "missing inputs remain unresolved; no mode is certified"
+    },
+    "A105_AMR_candidate": {
+      "status": "conditional",
+      "flags": [
+        "angular-momentum-budget: unverified",
+        "AMR-candidate-only: DeltaI=2/no-M1 is insufficient",
+        "MR-strength-gap: absolute M1/E2 lifetime layer incomplete"
+      ],
+      "evidence_boundary": "missing inputs remain unresolved; no mode is certified"
+    },
+    "A160_strong_ER_control": {
+      "status": "conditional",
+      "flags": [
+        "strong-quadrupole-core: MR visibility is suppressed conditionally",
+        "MR-strength-gap: absolute M1/E2 lifetime layer incomplete"
+      ],
+      "evidence_boundary": "missing inputs remain unresolved; no mode is certified"
+    },
+    "A190_Pb_MR_with_crossing": {
+      "status": "conditional",
+      "flags": [
+        "MR-observable-closed: absolute M1/E2 and lifetime layer available"
+      ],
+      "evidence_boundary": "missing inputs remain unresolved; no mode is certified"
+    },
+    "A220_multi_E3": {
+      "status": "conditional",
+      "flags": [
+        "angular-momentum-budget: unverified",
+        "MR-strength-gap: absolute M1/E2 lifetime layer incomplete",
+        "octupole-discrimination-improved: multi-transition E3 pattern"
+      ],
+      "evidence_boundary": "missing inputs remain unresolved; no mode is certified"
+    }
+  }
+}

@@ -150,6 +150,10 @@ BU16 与 BU17 的测量结果：
 - [[bernard-2016-144ba-sccm-octupole]]
 - [[octupole-mr-amr-evidence-gradient]]
 
+## Human Review
+
+尚未经过人工审核，保持 `review_status: unreviewed`。
+
 ## Review Status
 
 自主研学产物，未进行人工审核。
