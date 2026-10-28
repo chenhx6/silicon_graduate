@@ -668,6 +668,8 @@ L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条�
 
 ## Verification and continuation
 
+checkpoint023：在核心矩阵页 a130-thesis-evidence-matrix.md 中正式写入 Day 25 增量章节，落实前序对铈同位素绑定带与跃迁证据的明确规划：联合 Li 2004 与 Singh 2016 寿命基准确立 131Ce 独立时钟网络，厘清 133Ce 局域时钟与候选手征双重带（Bands 2–3、5–6）零寿命断裂边界，并定量写入 133Ce Band 4 跨带 E2 份额从 69.2% 到 2.8% 断崖猝灭之转动对齐退耦合物理机制；全套检查保持通过。
+
 checkpoint022：在概念页 octupole-deformation.md 中正式沉淀 Ba 同位素直接 E3 置信区间重叠对账与 Gogny D1S SCCM 中子占据偶极相消机制，核验 144,146Ba E3 允许区间 [19, 69] W.u. 显著重叠（中心比 1.0）；日报唯一 writeback 块扩展至 24 项持久化条目，经 validate_writeback_items.py 检验全部有效（valid: true）；全套检查保持通过。
 
 checkpoint021：在概念页 magnetic-rotation.md 中正式沉淀半经典剪刀动力学抛物线公式、135Pr 5qp 交叉反弹反例与绝对寿命时钟必要性，在概念页 antimagnetic-rotation.md 中正式沉淀 110Cd 反磁转动定量基准（B(E2) ~ 0.10 e²b² 平台与 J^(2)/B(E2) ~ 245–329 ħ²MeV⁻¹(e²b²)⁻¹ 四剪刀强判据）；日报写回块扩展至 23 项条目；产出必要检查证书 required-checks-021.json；全套检查保持通过。
