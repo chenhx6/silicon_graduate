@@ -668,6 +668,10 @@ L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条�
 
 ## Verification and continuation
 
+checkpoint022：在概念页 octupole-deformation.md 中正式沉淀 Ba 同位素直接 E3 置信区间重叠对账与 Gogny D1S SCCM 中子占据偶极相消机制，核验 144,146Ba E3 允许区间 [19, 69] W.u. 显著重叠（中心比 1.0）；日报唯一 writeback 块扩展至 24 项持久化条目，经 validate_writeback_items.py 检验全部有效（valid: true）；全套检查保持通过。
+
+checkpoint021：在概念页 magnetic-rotation.md 中正式沉淀半经典剪刀动力学抛物线公式、135Pr 5qp 交叉反弹反例与绝对寿命时钟必要性，在概念页 antimagnetic-rotation.md 中正式沉淀 110Cd 反磁转动定量基准（B(E2) ~ 0.10 e²b² 平台与 J^(2)/B(E2) ~ 245–329 ħ²MeV⁻¹(e²b²)⁻¹ 四剪刀强判据）；日报写回块扩展至 23 项条目；产出必要检查证书 required-checks-021.json；全套检查保持通过。
+
 checkpoint020：构建并交付反磁转动定量系统学工件 day26-amr-cd110-systematics-019.py/json，提取 110Cd 正宇称四剪刀带（12+ 至 18+）跃迁数据，实测 B(E2) 在 12+–16+ 维持约 0.10 e²b² 平台，反驳了“AMR B(E2) 必须陡降数倍”的唯象硬门假说；精确导出动态转动惯量与跃迁比 J^(2)/B(E2) 为 245–329 ħ²MeV⁻¹(e²b²)⁻¹，证实其高出常规集体转动（15–40）达一个数量级，确立双重剪刀对称性对 M1 跃迁的严格禁戒与微观四剪刀判据；全套检查保持通过。
 
 checkpoint019：产出定量反证控制工件 day26-octupole-overlap-control-018.json，显式核验 Bucher 144Ba（14–73 W.u.）与 146Ba（19–69 W.u.）的 B(E3) 实验置信区间显著重叠（重叠区 19–69 W.u.，中心比 1.0），证明两核八极跃迁集体性相容，同时保持严格边界：不把区间重叠升级为严格恒定或静态刚性梨形的无模型证明；全套检查保持通过。
