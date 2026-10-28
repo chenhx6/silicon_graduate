@@ -1,0 +1,68 @@
+{
+  "audit_id": "DAY26-DISCRETE-SYMMETRY-034",
+  "scope": "conditional transformation audit of 017 phenomenological fields plus source-grounded TAC/good-I boundary",
+  "course_status": "Day27 uncredited preview only; Day28 unopened",
+  "source_evidence": {
+    "Frauendorf2001": "F01-5/F01-8/F01-9, PDF pp.473-476 and 484-485: intrinsic symmetry breaking, aplanar left/right solutions, lab restoration and TAC versus PRM boundary",
+    "Starosta2001": "PDF pp.1-4, Fig.1/Table I: chiral operator T R_y(pi), N=75 sidebands and 3D TAC model results",
+    "Olbratowski2002v1": "PDF pp.1-4, Eqs.2-7/Figs.4-6: planar/aplanar HF and classical branches; not a quantum projected spectrum"
+  },
+  "transformation_rules": {
+    "T": "j(r) -> -j(r) for time-odd current",
+    "Rz_pi": "j(r) -> Rz(pi) j(Rz(pi)^-1 r)",
+    "S_T_Ry_pi": "j(r) -> -Ry(pi) j(Ry(pi)^-1 r)"
+  },
+  "toy_field_results": {
+    "MR_toy": {
+      "T_only_max_residual": 0.675086901,
+      "integrated_orbital_moment_arbitrary": [
+        0.0,
+        0.912314026,
+        -0.0
+      ],
+      "grid_residuals": {
+        "Rz_pi": 0.675086901,
+        "T_Rz_pi": 0,
+        "S_T_Ry_pi": 0.675086901,
+        "Ry_pi": 0
+      },
+      "sample_local_j": [
+        0.173940694,
+        0.0,
+        -0.223638036
+      ]
+    },
+    "AMR_toy": {
+      "T_only_max_residual": 1.015426626,
+      "integrated_orbital_moment_arbitrary": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "grid_residuals": {
+        "Rz_pi": 1.015426626,
+        "T_Rz_pi": 0,
+        "S_T_Ry_pi": 1.015426626,
+        "Ry_pi": 0
+      },
+      "sample_local_j": [
+        -0.160102058,
+        -0.277015632,
+        0.0
+      ]
+    }
+  },
+  "observable_boundary": {
+    "intrinsic_vs_lab": "A nonzero intrinsic cranked current is a T-odd order parameter of an oriented mean-field solution. A good-I projected laboratory state is an eigenstate of J^2 and can be built by angular-momentum projection; it does not retain a classical direction vector as an observable.",
+    "T_invariant_state": "If the state itself is invariant under T, expectation of a T-odd current vanishes. Cranked TAC states are not T-invariant because the Routhian contains -omega dot J.",
+    "S_invariant_state": "An antiunitary S=T R_y(pi) can leave a nonzero intrinsic field invariant because rotation compensates the T sign. This is a relation of the full density/current field, not a pointwise statement that j=0.",
+    "experiment": "R_DCO/IPDCO, lifetimes, branching, absolute B(M1)/B(E2), S(I), alignment and partner mapping are laboratory observables; a residual on an arbitrary toy j(r) is none of these."
+  },
+  "warnings": [
+    "The 017 MR/AMR fields use arbitrary Gaussian vortices and do not solve an EDF or HFB equation.",
+    "The integrated AMR cancellation in this toy concerns a chosen orbital moment component; it does not prove AMR assignment or forbid all M1 matrix elements.",
+    "Rz(pi), T and T R_y(pi) labels depend on body-axis convention and operator parity; source conventions must be retained.",
+    "No residual value establishes MR, AMR or chirality in a nucleus."
+  ],
+  "needs_review": true
+}

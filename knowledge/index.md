@@ -11,6 +11,12 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[parity-doublet-e1-unit-boundary]] — 225Ra/225Ac E1 W.u.、方向简并与条件D0单位审计。
+
+- [[discrete-symmetry-current-boundary]] — 内禀电流离散对称、good-I投影与MR/AMR观测层边界。
+
+- [[butler-e1-e3-ledger-boundary]] — Butler 2020 E1/E2/E3单位、星号耦合及228Ra跨零边界。
+
 - [[tac-frequency-unit-boundary]] — 3D-TAC临界频率的单位、参数敏感性与实验量分层。
 - [[parity-doublet-pairing-boundary]] — 225Ra/225Ac评价伙伴全配对歧义与条件D0。
 - [[e3-multipole-transition-ledger-boundary]] — E3矩阵元单位、初态简并、星号耦合与部分和规则边界。

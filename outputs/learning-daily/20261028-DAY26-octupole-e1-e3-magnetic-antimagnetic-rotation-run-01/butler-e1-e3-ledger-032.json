@@ -1,0 +1,44 @@
+{
+  "schema": "butler-e1-e3-ledger-032/v1",
+  "source": "Butler et al. 2020 PRL 124 042503, Table I PDF p.3; arXiv 2001.09681 Table II appended PDF p.16",
+  "units": {
+    "E1": "e b^(1/2) for reduced matrix elements; Q1 in e fm",
+    "E2": "e b for reduced matrix elements; Q2 in e fm^2",
+    "E3": "e b^(3/2) for reduced matrix elements; Q3 in e fm^3",
+    "conversion": "b^(1/2)=10 fm; b^(3/2)=1000 fm^3; ratios E3/E1 retain units b",
+    "B": "B(Eλ;Ji→Jf)=|M|^2/(2Ji+1), with Ji verified from bra-ket direction before use"
+  },
+  "matched_central_ratios": [
+    {"nucleus":"222Ra","transition":"2+ -> 1-","M_E3":0.85,"M_E1":-0.0114,"ratio_E3_over_E1_b":-74.5614035088,"absolute_ratio_b":74.5614035088,"phase":"E1 sign follows Table II rotational-model sign convention","locator":"arXiv PDF p.16 Table II; PRL PDF p.3 Table I"},
+    {"nucleus":"222Ra","transition":"2+ -> 3-","M_E3":-0.90,"M_E1":0.026,"ratio_E3_over_E1_b":-34.6153846154,"absolute_ratio_b":34.6153846154,"phase":"E1 sign follows Table II rotational-model sign convention","locator":"arXiv PDF p.16 Table II; PRL PDF p.3 Table I"},
+    {"nucleus":"222Ra","transition":"4+ -> 3-","M_E3":2.60,"M_E1":-0.027,"ratio_E3_over_E1_b":-96.2962962963,"absolute_ratio_b":96.2962962963,"phase":"E3 row starred; E1 sign convention model-linked","locator":"arXiv PDF p.16 Table II; PRL PDF p.3 Table I"},
+    {"nucleus":"222Ra","transition":"4+ -> 5-","M_E3":-1.70,"M_E1":0.018,"ratio_E3_over_E1_b":-94.4444444444,"absolute_ratio_b":94.4444444444,"phase":"E3 row starred; E1 sign convention model-linked","locator":"arXiv PDF p.16 Table II; PRL PDF p.3 Table I"},
+    {"nucleus":"228Ra","transition":"2+ -> 1-","M_E3":1.36,"M_E1":0.0051,"ratio_E3_over_E1_b":266.6666666667,"absolute_ratio_b":266.6666666667,"phase":"E3 row starred; E1 sign convention model-linked","locator":"arXiv PDF p.16 Table II; PRL PDF p.3 Table I"},
+    {"nucleus":"228Ra","transition":"2+ -> 3-","M_E3":-0.06,"M_E1":-0.009,"ratio_E3_over_E1_b":6.6666666667,"absolute_ratio_b":6.6666666667,"phase":"both signed values are fit/model-convention quantities","locator":"arXiv PDF p.16 Table II; PRL PDF p.3 Table I"}
+  ],
+  "ground_band_comparison": [
+    {"nucleus":"222Ra","E3_0_to_3":1.13,"E1_0_to_1":0.0082,"ratio_E3_over_E1_b":137.8048780488,"absolute_ratio_b":137.8048780488,"note":"different final spins (3- versus 1-); ratio is a scale comparison, not a same-transition multipole ratio","locator":"PRL PDF p.3 Table I; arXiv PDF p.16 Table II"},
+    {"nucleus":"228Ra","E3_0_to_3":0.87,"E1_0_to_1":-0.0043,"ratio_E3_over_E1_b":-202.3255813953,"absolute_ratio_b":202.3255813953,"note":"different final spins; E1 sign is model-assumed; ratio retains unit b","locator":"PRL PDF p.3 Table I; arXiv PDF p.16 Table II"}
+  ],
+  "e3_q3_scatter": {
+    "222Ra_printed_Q3_efm3": [3030,2000,2100,3100,4400,5500,3200,4600],
+    "222Ra_unstarred_Q3_efm3": [3030,2000,2100,3100],
+    "222Ra_unstarred_range_efm3": [2000,3100],
+    "222Ra_unstarred_mean_efm3": 2557.5,
+    "222Ra_unstarred_population_sd_efm3": 509.3317,
+    "interpretation": "author's approximately constant rotor-like pattern is a qualitative/model comparison; the printed values are not numerically identical and starred entries are coupled",
+    "228Ra_near_zero_2_to_3": {"M_center_eb32":-0.06,"interval_1sigma_eb32":[-0.22,0.17],"Q3_center_efm3":150,"Q3_interval_1sigma_efm3":[-350,510],"crosses_zero":true,"new_fit":false,"locator":"PRL PDF p.3 Table I"}
+  },
+  "fit_vs_derived": {
+    "fit_or_measured_matrix_elements": "GOSIA E1/E2/E3 matrix elements; E3 starred entries are coupled and not fully independent",
+    "rotor_derived": "per-transition Q1/Q2/Q3 conversions and aggregate Q2/Q3 values fitted under rotational relations",
+    "model_assumed": "E1 signs in appended Table II follow assumed Q1/Q3 relative signs; this does not measure an absolute phase",
+    "not_computed": ["complete 0+ E3 closure m0", "energy-weighted m1", "joint covariance recreation", "new fit"]
+  },
+  "validation": {
+    "ratio_unit_is_b": true,
+    "228_near_zero_interval_crosses_zero": true,
+    "no_new_fit_performed": true,
+    "q3_near_constant_called_qualitative_only": true
+  }
+}
