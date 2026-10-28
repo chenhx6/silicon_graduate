@@ -1,0 +1,168 @@
+{
+  "method": "Cline-style rotational invariants from laboratory reduced matrix elements",
+  "conventions": {
+    "B_definition": "B(Eλ; Ji→Jf)=|<Jf||M(Eλ)||Ji>|^2/(2Ji+1)",
+    "I3_definition": "<Q3·Q3>=sum_f B(E3; i→f) for a complete closure sum",
+    "axial_conversion": "I3=7/(16π) Q30^2; 0+→3- rotor RME=sqrt(I3)",
+    "unit_conversion": "1 e b^(3/2)=1000 e fm^3",
+    "dynamic_variance": "variance_Q30_sq=<Q30^4>-<Q30^2>^2; harmonic value=2< Q30^2 >^2"
+  },
+  "source_inputs": [
+    {
+      "nucleus": "144Ba",
+      "transition": "0+ -> 3-",
+      "Ji": 0.0,
+      "rme_eb32": 0.65,
+      "rme_efm3": 650.0,
+      "rme_uncertainty_eb32": "+0.17/-0.23",
+      "source_locator": "Bucher 2016 PDF pp.3-4, Table I"
+    },
+    {
+      "nucleus": "146Ba",
+      "transition": "0+ -> 3-",
+      "Ji": 0.0,
+      "rme_eb32": 0.65,
+      "rme_efm3": 650.0,
+      "rme_uncertainty_eb32": "+0.14/-0.20",
+      "source_locator": "Bucher 2017 PDF pp.2-3, Table I"
+    },
+    {
+      "nucleus": "224Ra",
+      "transition": "0+ -> 3-",
+      "Ji": 0.0,
+      "rme_eb32": 0.94,
+      "rme_efm3": 940.0,
+      "rme_uncertainty_eb32": "source reports 940(30) e fm^3",
+      "source_locator": "Gaffney 2013 PDF pp.2-4, Tables 1-2"
+    }
+  ],
+  "finite_closure_results": [
+    {
+      "nucleus": "144Ba",
+      "transition": "0+ -> 3-",
+      "Ji": 0.0,
+      "rme_eb32": 0.65,
+      "rme_efm3": 650.0,
+      "rme_uncertainty_eb32": "+0.17/-0.23",
+      "source_locator": "Bucher 2016 PDF pp.3-4, Table I",
+      "B_down_efm6": 60357.142857142855,
+      "B_up_or_closure_efm6": 422500.0,
+      "Q30_derived_efm3": 1741.8039227957647,
+      "I3_Q3sq_efm6": 422500.0,
+      "closure_warning": "one observed 0+->3- term; no complete negative-parity closure"
+    },
+    {
+      "nucleus": "146Ba",
+      "transition": "0+ -> 3-",
+      "Ji": 0.0,
+      "rme_eb32": 0.65,
+      "rme_efm3": 650.0,
+      "rme_uncertainty_eb32": "+0.14/-0.20",
+      "source_locator": "Bucher 2017 PDF pp.2-3, Table I",
+      "B_down_efm6": 60357.142857142855,
+      "B_up_or_closure_efm6": 422500.0,
+      "Q30_derived_efm3": 1741.8039227957647,
+      "I3_Q3sq_efm6": 422500.0,
+      "closure_warning": "one observed 0+->3- term; no complete negative-parity closure"
+    },
+    {
+      "nucleus": "224Ra",
+      "transition": "0+ -> 3-",
+      "Ji": 0.0,
+      "rme_eb32": 0.94,
+      "rme_efm3": 940.0,
+      "rme_uncertainty_eb32": "source reports 940(30) e fm^3",
+      "source_locator": "Gaffney 2013 PDF pp.2-4, Tables 1-2",
+      "B_down_efm6": 126228.57142857143,
+      "B_up_or_closure_efm6": 883600.0,
+      "Q30_derived_efm3": 2518.916442196952,
+      "I3_Q3sq_efm6": 883600.0000000001,
+      "closure_warning": "one observed 0+->3- term; no complete negative-parity closure"
+    }
+  ],
+  "reported_q3_rotor_checks": [
+    {
+      "nucleus": "144Ba",
+      "Q30_efm3": 1730.0,
+      "uncertainty": "+450/-620",
+      "locator": "Bucher 2016 PDF p.4",
+      "I3_efm6": 416792.97553226695,
+      "equivalent_0_to_3_rme_efm3": 645.5950553808997
+    },
+    {
+      "nucleus": "224Ra",
+      "Q30_efm3": 2520.0,
+      "uncertainty": "90",
+      "locator": "Gaffney 2013 PDF Table 2",
+      "I3_efm6": 884360.3567844258,
+      "equivalent_0_to_3_rme_efm3": 940.4043581270909
+    }
+  ],
+  "static_control": {
+    "Q30_efm3": 1730.0,
+    "mean_Q30": 1730.0,
+    "mean_Q30_sq": 2992900.0,
+    "mean_Q30_fourth": 8957450410000.0,
+    "variance_Q30_sq": 0.0,
+    "invariant_Q3_sq": 416792.97553226695
+  },
+  "harmonic_zero_point_control": {
+    "B3": 1.0,
+    "C3": 1.0,
+    "hbar": 1.0,
+    "omega3": 1.0,
+    "zero_point_energy": 0.5,
+    "mean_Q30": 0.0,
+    "mean_Q30_sq": 0.5,
+    "mean_Q30_fourth": 0.75,
+    "variance_Q30_sq": 0.5,
+    "invariant_Q3_sq": 0.06963028760270422,
+    "invariant_Q3_sq_variance": 0.00969675390327061
+  },
+  "quadrupole_and_mixed_controls": {
+    "Q2_sq": 1.0,
+    "Q2_cube_cos3delta": 0.5000000000000001,
+    "Q3_sq": 1.0,
+    "Q2_Q3_sq": 1.0
+  },
+  "two_phonon_level_audit": {
+    "224Ra": {
+      "one_phonon_3minus_keV": 290.352,
+      "harmonic_two_phonon_target_keV": 580.704,
+      "adopted_candidates": [
+        {
+          "Jpi": "0+",
+          "E_keV": 916.38,
+          "status": "possible candidate; not a complete quartet"
+        },
+        {
+          "Jpi": "2+",
+          "E_keV": 965.65,
+          "status": "possible gamma-band candidate in ENSDF; not assigned two-octupole"
+        },
+        {
+          "Jpi": "4+",
+          "E_keV": 250.782,
+          "status": "ground-band member; exclude from two-phonon count"
+        },
+        {
+          "Jpi": "6+",
+          "E_keV": 479.12,
+          "status": "ground-band member; exclude from two-phonon count"
+        }
+      ],
+      "source_locator": "ENSDF 224Ra adopted levels, PDF pp.1-2"
+    },
+    "144Ba": {
+      "status": "no closure-complete 0+,2+,4+,6+ octupole two-phonon set in the cited Bucher source"
+    },
+    "146Ba": {
+      "status": "no closure-complete 0+,2+,4+,6+ octupole two-phonon set in the cited Bucher source"
+    }
+  },
+  "evidence_boundary": [
+    "The cited Ba experiments provide a strong 0+↔3- E3 term, not a closure-complete octupole invariant.",
+    "Cline pp.697-700 warns that missing strength and operator/model assumptions grow in importance at higher invariant order.",
+    "E1/E3 ratios are diagnostic only with common feeding, phase and efficiency treatment; E1 can cancel while E3 remains large."
+  ]
+}

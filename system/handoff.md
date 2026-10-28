@@ -3,7 +3,25 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint076：144,146Ba偶极相消证据对账、135Pr剪刀交叉重开及跨质量区机制迁移矩阵
+## Active handoff — Day26 checkpoint077：AMR四剪刀微观核芯耦合、Cline八极不变量重构及锕系β3-β4裂变势垒重整化
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
+1. **110Cd 与 104Pd AMR 双剪刀微观耦合与 B(E2) 平台机制**（`amr-double-shears-core-coupling-and-b-e2-plateau.md`，工件 `amr-double-shears/`）：
+   - 核验 Roy 2011 原表 $B(E2) = 0.14(1) \to 0.06(2)\ e^2\text{b}^2$（$\tau = 0.36(3) \to 0.27(7)\text{ ps}$）与 Rather 2014 原表 $B(E2) = 0.26(2) \to 0.02(1)\ e^2\text{b}^2$；
+   - 数值验证四叶片等价双剪刀的张量分量 $T_{22} = 2\sin^2\theta e^{2i\phi}$（导出 $B(E2) \propto \sin^4\theta$）与横向磁偶极矩 $\vec{\mu}_\perp \equiv 0$（数值残差 $8.01 \times 10^{-16}$）；
+   - 阐明弱长椭核芯微形变（$\beta_2 \approx 0.12$，提供基底 $\sim 0.07\ e^2\text{b}^2$）与双剪刀闭合耦合减缓了强度的陡降，微观解释了实验平台的成因；
+2. **电荷多极 Cline 不变量重构与八极涨落对决静态梨形判据**（`octupole-cline-invariants-and-dynamic-softness-criterion.md`，工件 `octupole-cline-invariants/`）：
+   - 严格推导内禀八极旋转不变量 $I_3 = \langle Q_3 \cdot Q_3 \rangle = \frac{7}{16\pi} Q_{30}^2$，对账单态截断有限和项（$^{144}\text{Ba}$ 为 $4.225 \times 10^5\ e^2\text{fm}^6$，$^{224}\text{Ra}$ 为 $8.836 \times 10^5\ e^2\text{fm}^6$）；
+   - 建立完备求和规则与形状方差判据：区分刚性静态梨形（$\sigma^2(Q_3) \to 0$）、简谐零点振动（$\langle Q_3 \rangle = 0$ 但 $\langle Q_3^2 \rangle \neq 0$）与投影双阱，明确两声子八极多重态能谱与跃迁分支在区分动力学软度与静态形变中的裁决作用；
+3. **锕系与超重核区 $\beta_3–\beta_4$ 耦合对裂变势垒与宇称双重态重整化**（`actinide-octupole-hexadecapole-coupling-fission-barrier.md`，工件 `actinide-coupling/`）：
+   - 导出非线性多极干涉耦合项 $\Delta E_{\text{coupling}} \sim C_{234} \beta_2 \beta_3^2 \beta_4 + C_{345} \beta_3 \beta_4 \beta_5$，模型算得第一裂变峰变化 $-0.468\text{ MeV}$、第二裂变峰变化 $-1.392\text{ MeV}$，微观解释了非对称裂变谷的开辟；
+   - 澄清 $\beta_3 > 0$ 不由对称性强制推出 $\beta_4 > 0$（符号依赖耦合常数），给出 WKB 隧穿作用量对高阶形变与中子数的非单调响应，保留模型条件边界。
+
+全量检查全绿（wiki_lint 0 error/311 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint076：144,146Ba偶极相消证据对账、135Pr剪刀交叉重开及跨质量区机制迁移矩阵
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

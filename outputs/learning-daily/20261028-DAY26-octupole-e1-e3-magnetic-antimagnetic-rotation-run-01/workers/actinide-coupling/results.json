@@ -1,0 +1,43 @@
+{
+  "model": "parity-allowed beta2-beta3-beta4-beta5 Landau sensitivity model",
+  "status": "illustrative_reduced_model_not_EDF_fit",
+  "equations": {
+    "coupling": "E_c = C234*beta2*beta3^2*beta4 + C345*beta3*beta4*beta5",
+    "reflection_rule": "beta3,beta5 -> -beta3,-beta5; beta2,beta4 -> unchanged",
+    "integrated_out_beta4": "u3_eff = u3 - 2*C234^2*beta2^2/C4 (when beta5=0)"
+  },
+  "coefficients": {
+    "fission_C234": -250.0,
+    "fission_C345": -42.0,
+    "parity_C234": -20.0
+  },
+  "fission_barriers": {
+    "first_no_coupling": {
+      "q": 0.3025,
+      "MeV": 10.137213338390653
+    },
+    "first_coupled": {
+      "q": 0.295,
+      "MeV": 9.66917925968109
+    },
+    "first_delta_coupled_minus_base_MeV": -0.4680340787095627,
+    "second_no_coupling": {
+      "q": 0.7,
+      "MeV": 8.264304541362277
+    },
+    "second_coupled": {
+      "q": 0.7175,
+      "MeV": 6.87235728295979
+    },
+    "second_delta_coupled_minus_base_MeV": -1.391947258402487
+  },
+  "parity_scope": "dimensionless WKB sensitivity; splitting is not a fitted Ra/Th level energy",
+  "parity_rows": 7,
+  "source_locators": [
+    "Warda et al., Phys. Rev. C 66, 014310 (2002), arXiv:nucl-th/0203057, PDF pp.4,7-13",
+    "Giuliani et al., Phys. Rev. C 97, 034323 (2018), arXiv:1704.00554, PDF pp.1,3-11",
+    "Butler et al., Phys. Rev. Lett. 124, 042503 (2020), PDF pp.3-5, Table I and Fig.4",
+    "Nomura et al., Phys. Rev. C 102, 064326 (2020), arXiv:2008.08870, PDF pp.2-4, Fig.1",
+    "Butler and Nazarewicz, Rev. Mod. Phys. 68, 349 (1996), PDF Secs. II-III and IV-VII"
+  ]
+}

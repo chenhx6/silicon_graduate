@@ -4668,3 +4668,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. 剪刀动力学与135Pr高自旋交叉反弹微观机制（pr135-shears-dynamics-bandcrossing-rebound.md，工件 shears-rebound/）：核验Garg 2015交叉位置（0.37 MeV, 33/2-）与5qp组态（pi h11/2(g7/2)^2 (x) nu h11/2^-2），区分实测相对B(M1)/B(E2)上升与交叉后绝对反弹模型解释，对账2019偏振勘误并排除无支撑的纯度硬门；
   3. 跨质量区集体运动模式迁移与四大不适用性判据深化（cross-mass-region-collective-mode-mechanisms-and-breakdown.md，工件 cross-mass-transfer/）：建立六大质量区横向矩阵CSV与逻辑脚本，形式化稀土压倒剪刀、轻核角动量受限、AMR复合对称性与八极Delta l=Delta j=3狭窄窗口等四大机制失效判据；
   4. 全量检查全绿：wiki_lint.py 0 error/308 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T06:20:00+08:00 Day26 checkpoint077：AMR四剪刀微观核芯耦合、Cline八极不变量重构及锕系β3-β4裂变势垒重整化。
+  1. 110Cd与104Pd AMR双剪刀微观耦合与B(E2)平台机制（amr-double-shears-core-coupling-and-b-e2-plateau.md，工件 amr-double-shears/）：核算Roy 2011原表B(E2)=0.14(1)->0.06(2) e2b2与Rather 2014原表B(E2)=0.26(2)->0.02(1) e2b2，数值验证四叶片等价双剪刀T22=2sin2(theta) exp(2iphi)与mu_perp=0，阐明核芯长椭微形变（beta2~0.12提供~0.07 e2b2）维持实验平台的机理；
+  2. 库仑激发中Cline电荷多极不变量重构与八极涨落判据（octupole-cline-invariants-and-dynamic-softness-criterion.md，工件 octupole-cline-invariants/）：严格推导内禀八极旋转不变量I3=<Q3.Q3>=7/(16pi) Q30^2，建立单态截断有限和项（144Ba为4.225e5 e2fm6，224Ra为8.836e5 e2fm6），明确两声子多重态能谱与分支在裁决静态梨形对决动态软振动中的关键地位；
+  3. 锕系与超重核区beta3-beta4耦合对裂变势垒与宇称双重态重整化（actinide-octupole-hexadecapole-coupling-fission-barrier.md，工件 actinide-coupling/）：推导多极非线性耦合能量Delta E_coupling ~ C234 beta2 beta3^2 beta4，模型显示第二裂变峰降低~1.4 MeV开辟非对称裂变谷，给出WKB隧穿作用量对高阶形变与中子数的非单调响应；
+  4. 全量检查全绿：wiki_lint.py 0 error/311 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

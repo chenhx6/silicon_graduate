@@ -1,0 +1,4 @@
+nucleus,transition,rme_eb32,rme_efm3,B_up_or_closure_efm6,B_down_efm6,Q30_derived_efm3,I3_Q3sq_efm6,closure_warning
+144Ba,0+ -> 3-,0.65,650.0,422500.0,60357.142857142855,1741.8039227957647,422500.0,one observed 0+->3- term; no complete negative-parity closure
+146Ba,0+ -> 3-,0.65,650.0,422500.0,60357.142857142855,1741.8039227957647,422500.0,one observed 0+->3- term; no complete negative-parity closure
+224Ra,0+ -> 3-,0.94,940.0,883600.0,126228.57142857143,2518.916442196952,883600.0000000001,one observed 0+->3- term; no complete negative-parity closure

@@ -32,6 +32,7 @@ updated: 2026-10-28
 - [[e3-ewsr-transition-density-boundary]] — E3能量加权和规则双归一化、首态部分和与Tassie/RPA跃迁密度边界。
 - [[mr-to-chiral-topology-odd-odd-106ag-134pr-198bi]] — 奇奇核从平面剪刀向三维手征转动的拓扑相变：几何非共面、中轴惯量与双阱势垒。
 - [[beta2-beta3-octupole-topology-boundary]] — 四极—八极势能面拓扑适用边界：中等四极窗口去普适化与准粒子响应分析。
+- [[actinide-octupole-hexadecapole-coupling-fission-barrier]] — 锕系与超重核区 β3–β4 耦合对裂变势垒和宇称双重态的条件性重整化。
 - [[mr-bandhead-spin-i0-quantum-shears-boundary]] — 磁转动带头自旋I0的微观决定机制：P2相互作用正交极小与有限j量子修正。
 - [[ac225-ra225-th220-226-parity-doublet-coriolis-boundary]] — 锕系奇A核与偶偶钍核八极宇称伙伴：K=3/2解耦边界、Coriolis劈裂与E1证据。
 - [[mr-effective-g-quenching-core-polarization-boundary]] — 磁转动有效g因子淬灭、核芯自旋极化与跨区B(M1)微观反演。
@@ -73,6 +74,7 @@ updated: 2026-10-28
 - [[parity-doublet-pairing-boundary]] — 225Ra/225Ac评价伙伴全配对歧义与条件D0。
 - [[e3-multipole-transition-ledger-boundary]] — E3矩阵元单位、初态简并、星号耦合与部分和规则边界。
 - [[octupole-sum-rule-static-dynamic-identifiability]] — 222/228Ra多跃迁E3图样与静态/动态可辨识性边界。
+- [[octupole-cline-invariants-and-dynamic-softness-criterion]] — Cline旋转不变量闭合、`Q3²/Q2Q3²` 归一、简谐零点涨落与144/146Ba、224Ra的静态/动态判据边界。
 
 - [[butler-2020-222-228ra-octupole-evolution]] — 222/228Ra多跃迁E3系统学与静态/振动竞争解释。
 
@@ -107,6 +109,7 @@ updated: 2026-10-28
 - [[cross-mass-region-collective-mode-transfer-boundaries]] — 跨质量区集体激发模式（A≈80, 110, 130, 160, 190, 220）迁移边界与四大不适用性判据。
 - [[cross-mass-region-collective-mode-mechanisms-and-breakdown]] — 跨质量区集体运动模式迁移与不适用性边界深化（Day 27 横向矩阵与机制失效判据）。
 - [[roy-2011-cd110-systematics-antimagnetic]] — 110Cd 高自旋反磁转动第一手 DSAM 寿命、B(E2) 与核心转动耦合系统学原件。
+- [[amr-double-shears-core-coupling-and-b-e2-plateau]] — 110Cd 与 104Pd 双剪刀四叶片几何、核芯长椭微变形耦合与 B(E2) 平台微观机制。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 - [[nomura-2018-odd-ba-octupole]] — 奇质量钡（143,145,147Ba）微观约束 sdf-IBFM 与奇中子阻塞机制原件。

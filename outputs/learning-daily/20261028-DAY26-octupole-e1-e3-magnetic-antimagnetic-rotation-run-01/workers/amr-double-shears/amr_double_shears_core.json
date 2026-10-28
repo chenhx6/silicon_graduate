@@ -1,0 +1,439 @@
+{
+  "status": "conditional-semiclassical-reproduction",
+  "scope": "Geometry identities and particle-plus-rotor estimates; not an EDF or projected many-body wavefunction calculation.",
+  "tensor_checks": {
+    "theta_points": 181,
+    "phi_points": 73,
+    "max_abs_C21": 0.0,
+    "max_abs_T22_identity_residual": 8.005932084973442e-16,
+    "max_abs_mu_perp": 0.0
+  },
+  "angle_rows": [
+    {
+      "theta_deg": 90,
+      "T22_abs_normalized": 2.0,
+      "BE2_over_B90": 1.0,
+      "drop_factor_from_90": 1.0
+    },
+    {
+      "theta_deg": 70,
+      "T22_abs_normalized": 1.7660444431189777,
+      "BE2_over_B90": 0.7797282437678551,
+      "drop_factor_from_90": 1.2824981113518896
+    },
+    {
+      "theta_deg": 60,
+      "T22_abs_normalized": 1.4999999999999998,
+      "BE2_over_B90": 0.5624999999999999,
+      "drop_factor_from_90": 1.7777777777777781
+    },
+    {
+      "theta_deg": 45,
+      "T22_abs_normalized": 0.9999999999999998,
+      "BE2_over_B90": 0.24999999999999992,
+      "drop_factor_from_90": 4.000000000000002
+    },
+    {
+      "theta_deg": 30,
+      "T22_abs_normalized": 0.4999999999999999,
+      "BE2_over_B90": 0.06249999999999997,
+      "drop_factor_from_90": 16.000000000000007
+    },
+    {
+      "theta_deg": 15,
+      "T22_abs_normalized": 0.13397459621556132,
+      "BE2_over_B90": 0.004487298107780675,
+      "drop_factor_from_90": 222.85125168440823
+    },
+    {
+      "theta_deg": 0,
+      "T22_abs_normalized": 0.0,
+      "BE2_over_B90": 0.0,
+      "drop_factor_from_90": null
+    }
+  ],
+  "reported_data": {
+    "110Cd": [
+      {
+        "I": 16,
+        "Egamma_keV": 1075,
+        "tau_ps": 0.36,
+        "tau_err_ps": 0.03,
+        "BE2_e2b2": 0.14,
+        "BE2_err": 0.01
+      },
+      {
+        "I": 18,
+        "Egamma_keV": 1224,
+        "tau_ps": 0.23,
+        "tau_err_ps": 0.03,
+        "BE2_e2b2": 0.12,
+        "BE2_err": 0.02
+      },
+      {
+        "I": 20,
+        "Egamma_keV": 1323,
+        "tau_ps": 0.17,
+        "tau_err_ps": 0.03,
+        "BE2_e2b2": 0.11,
+        "BE2_err": 0.02
+      },
+      {
+        "I": 22,
+        "Egamma_keV": 1314,
+        "tau_ps": 0.21,
+        "tau_err_ps": 0.07,
+        "BE2_e2b2": 0.09,
+        "BE2_err": 0.03
+      },
+      {
+        "I": 24,
+        "Egamma_keV": 1358,
+        "tau_ps": 0.27,
+        "tau_err_ps": 0.07,
+        "BE2_e2b2": 0.06,
+        "BE2_err": 0.02
+      }
+    ],
+    "104Pd": [
+      {
+        "I": 16,
+        "Egamma_keV": 927,
+        "tau_ps": 0.45,
+        "tau_err_ps": 0.03,
+        "BE2_e2b2": 0.26,
+        "BE2_err": 0.02,
+        "ratio": 112.3
+      },
+      {
+        "I": 18,
+        "Egamma_keV": 1064,
+        "tau_ps": 0.27,
+        "tau_err_ps": 0.02,
+        "BE2_e2b2": 0.22,
+        "BE2_err": 0.02,
+        "ratio": 140.9
+      },
+      {
+        "I": 20,
+        "Egamma_keV": 1193,
+        "tau_ps": 0.18,
+        "tau_err_ps": 0.01,
+        "BE2_e2b2": 0.19,
+        "BE2_err": 0.01,
+        "ratio": 334.2
+      },
+      {
+        "I": 22,
+        "Egamma_keV": 1256,
+        "tau_ps": 0.2,
+        "tau_err_ps": 0.01,
+        "BE2_e2b2": 0.13,
+        "BE2_err": 0.01,
+        "ratio": 282.3
+      },
+      {
+        "I": 24,
+        "Egamma_keV": 1365,
+        "tau_ps": 0.24,
+        "tau_err_ps": 0.02,
+        "BE2_e2b2": 0.07,
+        "BE2_err": 0.01,
+        "ratio": 554.3
+      },
+      {
+        "I": 26,
+        "Egamma_keV": 1468,
+        "tau_ps": 0.66,
+        "tau_err_ps": 0.03,
+        "BE2_e2b2": 0.02,
+        "BE2_err": 0.01
+      }
+    ]
+  },
+  "literal_model_rows": [
+    {
+      "nucleus": "110Cd",
+      "I": 16,
+      "theta_deg": 70.00496232251353,
+      "I_shears": 13.077448806973152,
+      "R_core": 2.9225511930268464,
+      "BE2_literal_model": 0.14079096896885301,
+      "BE2_reported": 0.14
+    },
+    {
+      "nucleus": "110Cd",
+      "I": 18,
+      "theta_deg": 62.56095640427101,
+      "I_shears": 14.147242031621154,
+      "R_core": 3.8527579683788438,
+      "BE2_literal_model": 0.1120091030567358,
+      "BE2_reported": 0.12
+    },
+    {
+      "nucleus": "110Cd",
+      "I": 20,
+      "theta_deg": 54.23274774754545,
+      "I_shears": 15.260446099543753,
+      "R_core": 4.739553900456244,
+      "BE2_literal_model": 0.07825508332791684,
+      "BE2_reported": 0.11
+    },
+    {
+      "nucleus": "110Cd",
+      "I": 22,
+      "theta_deg": 44.33656028667168,
+      "I_shears": 16.437222379611867,
+      "R_core": 5.56277762038813,
+      "BE2_literal_model": 0.0430692101289338,
+      "BE2_reported": 0.09
+    },
+    {
+      "nucleus": "110Cd",
+      "I": 24,
+      "theta_deg": 31.066415136907924,
+      "I_shears": 17.709127407842814,
+      "R_core": 6.290872592157181,
+      "BE2_literal_model": 0.012802094881181865,
+      "BE2_reported": 0.06
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 16,
+      "theta_deg": 90.0,
+      "I_shears": 16.0,
+      "R_core": 8.545993139894294e-31,
+      "BE2_literal_model": 0.25216111296122173,
+      "BE2_reported": 0.26
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 18,
+      "theta_deg": 79.67238055863338,
+      "I_shears": 17.613488286632734,
+      "R_core": 0.38651171336726636,
+      "BE2_literal_model": 0.23621264708294093,
+      "BE2_reported": 0.22
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 20,
+      "theta_deg": 68.92455153790412,
+      "I_shears": 19.236372996992827,
+      "R_core": 0.763627003007168,
+      "BE2_literal_model": 0.1911636101341836,
+      "BE2_reported": 0.19
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 22,
+      "theta_deg": 57.17546793794583,
+      "I_shears": 20.87861255828385,
+      "R_core": 1.1213874417161471,
+      "BE2_literal_model": 0.12574394042870912,
+      "BE2_reported": 0.13
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 24,
+      "theta_deg": 43.2866992662612,
+      "I_shears": 22.551387505121696,
+      "R_core": 1.448612494878304,
+      "BE2_literal_model": 0.05572967158437266,
+      "BE2_reported": 0.07
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 26,
+      "theta_deg": 23.26819235416089,
+      "I_shears": 24.26799243541249,
+      "R_core": 1.732007564587503,
+      "BE2_literal_model": 0.006140771147914411,
+      "BE2_reported": 0.02
+    }
+  ],
+  "beta2_core_scale_rows": [
+    {
+      "nucleus": "110Cd",
+      "A": 110,
+      "Z": 48,
+      "beta2": 0.1,
+      "I": 16,
+      "Q0_eb": 1.2011396473518625,
+      "B_E2_core_K0_e2b2": 0.05050263298785479
+    },
+    {
+      "nucleus": "110Cd",
+      "A": 110,
+      "Z": 48,
+      "beta2": 0.1,
+      "I": 20,
+      "Q0_eb": 1.2011396473518625,
+      "B_E2_core_K0_e2b2": 0.0511579986129317
+    },
+    {
+      "nucleus": "110Cd",
+      "A": 110,
+      "Z": 48,
+      "beta2": 0.1,
+      "I": 24,
+      "Q0_eb": 1.2011396473518625,
+      "B_E2_core_K0_e2b2": 0.051596893251030625
+    },
+    {
+      "nucleus": "110Cd",
+      "A": 110,
+      "Z": 48,
+      "beta2": 0.12,
+      "I": 16,
+      "Q0_eb": 1.4413675768222347,
+      "B_E2_core_K0_e2b2": 0.07272379150251088
+    },
+    {
+      "nucleus": "110Cd",
+      "A": 110,
+      "Z": 48,
+      "beta2": 0.12,
+      "I": 20,
+      "Q0_eb": 1.4413675768222347,
+      "B_E2_core_K0_e2b2": 0.07366751800262163
+    },
+    {
+      "nucleus": "110Cd",
+      "A": 110,
+      "Z": 48,
+      "beta2": 0.12,
+      "I": 24,
+      "Q0_eb": 1.4413675768222347,
+      "B_E2_core_K0_e2b2": 0.07429952628148408
+    },
+    {
+      "nucleus": "110Cd",
+      "A": 110,
+      "Z": 48,
+      "beta2": 0.14,
+      "I": 16,
+      "Q0_eb": 1.6815955062926073,
+      "B_E2_core_K0_e2b2": 0.09898516065619536
+    },
+    {
+      "nucleus": "110Cd",
+      "A": 110,
+      "Z": 48,
+      "beta2": 0.14,
+      "I": 20,
+      "Q0_eb": 1.6815955062926073,
+      "B_E2_core_K0_e2b2": 0.10026967728134611
+    },
+    {
+      "nucleus": "110Cd",
+      "A": 110,
+      "Z": 48,
+      "beta2": 0.14,
+      "I": 24,
+      "Q0_eb": 1.6815955062926073,
+      "B_E2_core_K0_e2b2": 0.10112991077201999
+    },
+    {
+      "nucleus": "104Pd",
+      "A": 104,
+      "Z": 46,
+      "beta2": 0.1,
+      "I": 16,
+      "Q0_eb": 1.1088442093973976,
+      "B_E2_core_K0_e2b2": 0.043039585658913145
+    },
+    {
+      "nucleus": "104Pd",
+      "A": 104,
+      "Z": 46,
+      "beta2": 0.1,
+      "I": 20,
+      "Q0_eb": 1.1088442093973976,
+      "B_E2_core_K0_e2b2": 0.043598104359615114
+    },
+    {
+      "nucleus": "104Pd",
+      "A": 104,
+      "Z": 46,
+      "beta2": 0.1,
+      "I": 24,
+      "Q0_eb": 1.1088442093973976,
+      "B_E2_core_K0_e2b2": 0.043972141162334666
+    },
+    {
+      "nucleus": "104Pd",
+      "A": 104,
+      "Z": 46,
+      "beta2": 0.12,
+      "I": 16,
+      "Q0_eb": 1.3306130512768768,
+      "B_E2_core_K0_e2b2": 0.0619770033488349
+    },
+    {
+      "nucleus": "104Pd",
+      "A": 104,
+      "Z": 46,
+      "beta2": 0.12,
+      "I": 20,
+      "Q0_eb": 1.3306130512768768,
+      "B_E2_core_K0_e2b2": 0.06278127027784573
+    },
+    {
+      "nucleus": "104Pd",
+      "A": 104,
+      "Z": 46,
+      "beta2": 0.12,
+      "I": 24,
+      "Q0_eb": 1.3306130512768768,
+      "B_E2_core_K0_e2b2": 0.0633198832737619
+    },
+    {
+      "nucleus": "104Pd",
+      "A": 104,
+      "Z": 46,
+      "beta2": 0.14,
+      "I": 16,
+      "Q0_eb": 1.5523818931563564,
+      "B_E2_core_K0_e2b2": 0.08435758789146974
+    },
+    {
+      "nucleus": "104Pd",
+      "A": 104,
+      "Z": 46,
+      "beta2": 0.14,
+      "I": 20,
+      "Q0_eb": 1.5523818931563564,
+      "B_E2_core_K0_e2b2": 0.0854522845448456
+    },
+    {
+      "nucleus": "104Pd",
+      "A": 104,
+      "Z": 46,
+      "beta2": 0.14,
+      "I": 24,
+      "Q0_eb": 1.5523818931563564,
+      "B_E2_core_K0_e2b2": 0.08618539667817593
+    }
+  ],
+  "interpretation": {
+    "mu_perp": "Zero requires equal blade magnetic weights; mismatch restores mu_perp linearly and B(M1) quadratically.",
+    "B_E2": "The sin^4 law is the shears angular factor. A beta2=0.12 uniform-charge K=0 core gives roughly 0.07 e2 b2 for high-spin Delta-I=2 transitions, close to the 110Cd endpoint, but this is a scale estimate rather than an extracted core fraction.",
+    "platform": "Core angular-momentum response slows theta closure; a core E2 amplitude must be added coherently if it is present. B values cannot be added incoherently without a phase convention.",
+    "ratio": "Reported J(2)/B(E2) values are large because B(E2) decreases while J(2) remains finite; the ratio is diagnostic in context, not a universal exclusive threshold."
+  },
+  "sources": [
+    {
+      "path": "raw/papers/gpt/day26-20261028/roy-2011-cd110-systematics-plb.pdf",
+      "sha256": "2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a",
+      "bytes": 281553,
+      "coverage": "Roy 2011 PDF 5/5 pages; p.324 Table 1; pp.325-326 Eqs.3-6 and Fig.4"
+    },
+    {
+      "path": "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf",
+      "sha256": "b4a74c3f549860e857b83ba87e39a34a14ad2ed30c402a981e681826f01b7e3b",
+      "bytes": 151505,
+      "coverage": "Rather 2014 arXiv v1 11/11 PDF pages; pp.1-5 model/data text; p.11 Table I"
+    }
+  ]
+}
