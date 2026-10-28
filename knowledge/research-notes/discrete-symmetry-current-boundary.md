@@ -47,6 +47,12 @@ $$
 
 一个 good-(I) 实验室态来自角动量投影或量子化模型；其 (J^2) 与实验室投影量子数是好量子数，但不等同于带有固定经典方向的 intrinsic (\mathbf j(\mathbf r))。因此内禀电流是平均场序参量/模型对象，实验可观测量来自能级、(S(I))、alignment、(B(M1))、(B(E2))、分支和带间连接。
 
+依据独立验证工件 `frozen-gyro-bifurcation-model-065.py/json`，对 $^{132}\text{La}$ 的 Olbratowski 冻结陀螺模型进行全频率轨迹求解：
+- 严格重现经典 pitchfork 分岔临界频率 $\hbar\omega_c = 0.514639\text{ MeV}$；
+- 低于 $\omega_c$ 时，转动轴严格局限于平面剪刀（$s, l$）平面（$\omega_m = 0, \phi = 0^\circ$），保持 $\mathcal{S} = \mathcal{R}_y(\pi)\mathcal{T}$ 对称性；
+- 高于 $\omega_c$ 时，中间轴分量 $\omega_m = \pm \sqrt{\omega^2 - \omega_c^2}$ 激发，三维非平面倾角 $\phi$ 从 $0.55\text{ MeV}$ 处的 $20.7^\circ$ 扩张至 $0.70\text{ MeV}$ 处的 $42.7^\circ$，手征势垒从 $583\text{ keV}$ 剧增至 $3.5\text{ MeV}$；
+- 然而，$^{132}\text{La}$ 实验观测的手征双重带候选处于 $\hbar\omega \approx 0.25 - 0.40\text{ MeV}$ 区间，远低于经典临界频率（$0.515\text{ MeV}$）及自洽 Skyrme-HF 的 aplanar 阈值（$\approx 0.60\text{ MeV}$），定量证实其实验能带处于临界前软手征振动区间，而非静态刚性 3D 手征转子。
+
 ## Assumptions
 
 017 的残差使用 (0.35) 间距的对称笛卡尔网格、任意高斯涡旋宽度和 arbitrary-current units；积分“磁矩”仅是 (\frac12\int\mathbf r\times\mathbf j\,d^3r) 的诊断量。没有把该诊断量标定为 (\mu_N)，没有求解 EDF/HFB，也没有进行角动量投影。

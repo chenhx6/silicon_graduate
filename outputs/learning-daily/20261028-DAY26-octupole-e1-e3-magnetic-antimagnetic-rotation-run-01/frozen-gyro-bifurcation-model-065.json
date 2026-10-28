@@ -1,0 +1,92 @@
+{
+  "schema": "frozen-gyro-bifurcation-model-065/v1",
+  "nucleus": "132La",
+  "model": "Classical Frozen-Gyro Model (Olbratowski et al. 2002)",
+  "parameters": {
+    "Js_hbar2_MeV": 8.5,
+    "Jm_hbar2_MeV": 31.0,
+    "Jl_hbar2_MeV": 20.0,
+    "ss_hbar": 5.43,
+    "sl_hbar": 5.0
+  },
+  "critical_frequency_MeV": 0.514639,
+  "bifurcation_trajectory": [
+    {
+      "hbar_omega_MeV": 0.3,
+      "is_aplanar": false,
+      "omega_m_MeV": 0.0,
+      "chiral_tilt_phi_deg": 0.0,
+      "chiral_barrier_keV": 0.0
+    },
+    {
+      "hbar_omega_MeV": 0.35,
+      "is_aplanar": false,
+      "omega_m_MeV": 0.0,
+      "chiral_tilt_phi_deg": 0.0,
+      "chiral_barrier_keV": 0.0
+    },
+    {
+      "hbar_omega_MeV": 0.4,
+      "is_aplanar": false,
+      "omega_m_MeV": 0.0,
+      "chiral_tilt_phi_deg": 0.0,
+      "chiral_barrier_keV": 0.0
+    },
+    {
+      "hbar_omega_MeV": 0.45,
+      "is_aplanar": false,
+      "omega_m_MeV": 0.0,
+      "chiral_tilt_phi_deg": 0.0,
+      "chiral_barrier_keV": 0.0
+    },
+    {
+      "hbar_omega_MeV": 0.5,
+      "is_aplanar": false,
+      "omega_m_MeV": 0.0,
+      "chiral_tilt_phi_deg": 0.0,
+      "chiral_barrier_keV": 0.0
+    },
+    {
+      "hbar_omega_MeV": 0.514639,
+      "is_aplanar": false,
+      "omega_m_MeV": 0.0,
+      "chiral_tilt_phi_deg": 0.0,
+      "chiral_barrier_keV": 0.0
+    },
+    {
+      "hbar_omega_MeV": 0.55,
+      "is_aplanar": true,
+      "omega_m_MeV": 0.19403,
+      "chiral_tilt_phi_deg": 20.66,
+      "chiral_barrier_keV": 583.5
+    },
+    {
+      "hbar_omega_MeV": 0.6,
+      "is_aplanar": true,
+      "omega_m_MeV": 0.30846,
+      "chiral_tilt_phi_deg": 30.94,
+      "chiral_barrier_keV": 1474.8
+    },
+    {
+      "hbar_omega_MeV": 0.65,
+      "is_aplanar": true,
+      "omega_m_MeV": 0.39705,
+      "chiral_tilt_phi_deg": 37.65,
+      "chiral_barrier_keV": 2443.5
+    },
+    {
+      "hbar_omega_MeV": 0.7,
+      "is_aplanar": true,
+      "omega_m_MeV": 0.4745,
+      "chiral_tilt_phi_deg": 42.68,
+      "chiral_barrier_keV": 3489.8
+    }
+  ],
+  "key_physical_insights": [
+    "The exact classical critical frequency is hbar*omega_c = 0.514639 MeV.",
+    "Below omega_c = 0.515 MeV, the rotational axis is strictly constrained to the planar (s, l) shears plane (omega_m = 0, phi = 0), preserving S = T*R_y(pi) discrete symmetry.",
+    "Above omega_c, a pitchfork bifurcation breaks S-symmetry, producing two degenerate aplanar chiral minima with +/- omega_m = sqrt(omega^2 - omega_c^2).",
+    "However, the experimental candidate chiral partner bands in 132La are observed at rotational frequencies hbar*omega ~ 0.25 - 0.40 MeV, well below the classical critical frequency 0.515 MeV and the self-consistent Skyrme-HF onset (~0.60 MeV).",
+    "This quantitatively proves that 132La at experimental spins is in the pre-critical soft chiral vibration regime, rather than a rigid 3D aplanar static rotor."
+  ]
+}

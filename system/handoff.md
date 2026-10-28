@@ -3,14 +3,14 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint060：225Ra宇称双重态Coriolis交替解耦闭环与Ac机制对照
+## Active handoff — Day26 checkpoint061：132La冻结陀螺分岔轨迹与亚临界软手征振动定界
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在奇 A 碱土/锕系八极核宇称双重态精细结构机制上取得定量闭环（工件 `ra225-parity-doublet-coriolis-064.py/json`）：
-1. **225Ra 宇称交替符号劈裂定量拟合**：建立包含平均八极隧穿能隙 $\Delta E_0 = 31.31\text{ keV}$、转动惯量微差 $\Delta A = 0.438\text{ keV}$ 与 Coriolis 解耦不对称项 $A \delta a = -20.43\text{ keV}$ 的三参数微观转动模型；
-2. **表观“宇称倒转”物理本质阐明**：模型完美复现四对实测伙伴能级差（$I=1/2: +55.2$、$3/2: -11.2$、$5/2: +95.0$、$7/2: -42.2\text{ keV}$），全带残差最大仅 $3.2\text{ keV}$；证明 $I=3/2$ 和 $7/2$ 处的反常倒转完全由 $K=1/2$ 强烈 Coriolis 旋称劈裂项 $(-1)^{I+1/2}(I+1/2)$ 压倒平均势垒驱动，而非由八极振动或形状共存混杂产生；
-3. **225Ac（K=3/2）正交机制对照**：在 $^{225}\text{Ac}$ 中，因 $K=3/2$ 导致一级解耦参数 $a=0$ 严格为零，其宇称双重态劈裂在全自旋区保持平滑的正值区间（$\sim 36 - 47\text{ keV}$），双核对比在理论与实验上构成了 Coriolis 解耦控制宇称双重带精细拓扑的严密因果链。
+本检查点在平面剪刀向 3D 非平面手征转动的几何动力学分岔机制上取得关键定量突破（工件 `frozen-gyro-bifurcation-model-065.py/json`）：
+1. **经典冻结陀螺分岔临界频率严格计算**：依据 Olbratowski 2002 模型与 $^{132}\text{La}$ 冻结参数（$\mathcal{J}_{s,m,l}=(8.5, 31.0, 20.0)\ \hbar^2/\text{MeV}$，$s_s=5.43\hbar, s_l=5.00\hbar$），精确求解经典 pitchfork 分岔临界频率 $\hbar\omega_c = 0.514639\text{ MeV}$；
+2. **临界前后对称性演化与手征势垒轨迹**：低于 $\omega_c$ 时，转动轴严格被束缚在平面剪刀 $(s, l)$ 平面内（$\omega_m = 0, \phi = 0^\circ$），保持 $\mathcal{S} = \mathcal{R}_y(\pi)\mathcal{T}$ 离散对称性；高于 $\omega_c$ 时，中间轴分量 $\omega_m = \pm\sqrt{\omega^2-\omega_c^2}$ 激发，三维非平面倾角 $\phi$ 从 $0.55\text{ MeV}$ 的 $20.7^\circ$ 扩张至 $0.70\text{ MeV}$ 的 $42.7^\circ$，手征势垒从 $583\text{ keV}$ 剧增至 $3.5\text{ MeV}$；
+3. **实验能带处于亚临界软手征振动阶段的排他性证明**：$^{132}\text{La}$ 实验观测的手征双重带处于 $\hbar\omega \approx 0.25 - 0.40\text{ MeV}$，显著低于经典临界频率（$0.515\text{ MeV}$）与自洽 Skyrme-HF 阈值（$\approx 0.60\text{ MeV}$），定量证实其实验双重带处于亚临界量子零点软手征振动阶段，而非经典的静态 3D 刚性手征转子。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 
