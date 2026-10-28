@@ -82,7 +82,7 @@
         0.05
       ],
       "first_to_last_BE2_factor": 3.0,
-      "table_locator": "Roy et al. 2011 Phys Lett B 694, printed p.323, Table 1",
+      "table_locator": "Roy et al. 2011 Phys Lett B 694, printed p.324, Table 1",
       "status": "reported source values; ratios calculated here; no propagated uncertainties"
     },
     "108Cd": {
@@ -99,7 +99,7 @@
         0.03
       ],
       "first_to_last_BE2_factor": 5.0,
-      "table_locator": "Roy et al. 2011 Phys Lett B 694, printed p.323, Table 1",
+      "table_locator": "Roy et al. 2011 Phys Lett B 694, printed p.324, Table 1",
       "status": "reported source values; ratios calculated here; no propagated uncertainties",
       "I22_caveat": "effective value in source table"
     },
@@ -119,7 +119,7 @@
         0.06
       ],
       "first_to_last_BE2_factor": 2.333333,
-      "table_locator": "Roy et al. 2011 Phys Lett B 694, printed p.323, Table 1",
+      "table_locator": "Roy et al. 2011 Phys Lett B 694, printed p.324, Table 1",
       "status": "reported source values; ratios calculated here; no propagated uncertainties"
     }
   },

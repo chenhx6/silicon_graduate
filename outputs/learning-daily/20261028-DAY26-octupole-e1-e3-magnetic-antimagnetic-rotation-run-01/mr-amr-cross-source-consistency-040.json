@@ -1,0 +1,70 @@
+{
+  "audit_id": "DAY26-MR-AMR-CROSS-SOURCE-CONSISTENCY-040",
+  "scope": "Read-only consistency audit of Roy, Garg, Agarwal, Frauendorf, concepts, research notes and 017/024/031/034/037 artifacts",
+  "course_status": "Day27 uncredited preview only; Day28 unopened",
+  "status": "conditional consistency report; no source or shared-page edits",
+  "findings": [
+    {
+      "id": "C040-01",
+      "topic": "J2/B(E2) units and hard threshold",
+      "status": "consistent_with_warning",
+      "finding": "037 matrix, antimagnetic concept and 017/031 notes consistently state that J^(2)/B(E2) carries units hbar^2 MeV^-1 (e^2 b^2)^-1 and has no universal >=100 hard gate. Frauendorf's quoted 100-200 scale and Roy's source-specific 116-341 range are retained as source/model contexts only.",
+      "locators": ["Frauendorf 2001 F01-D26-003 printed p.490", "Roy 2011 RO11-4 and RO11-D26C-004 Table 1/ENSDF", "mr-amr-observable-matrix-boundary.md"]
+    },
+    {
+      "id": "C040-02",
+      "topic": "Time reversal and local current",
+      "status": "consistent",
+      "finding": "017, 034, magnetic-rotation and antimagnetic-rotation boundaries all treat j(r) as time odd. They allow a combined antiunitary rotation-time operation to preserve a complete field while separate T is broken; they do not infer pointwise zero current or a mode assignment from a toy residual.",
+      "locators": ["tac-currents-shears-chiral-phase-017.json", "discrete-symmetry-current-observable-034.json", "magnetic-rotation.md Day26 section", "antimagnetic-rotation.md Day26 section"]
+    },
+    {
+      "id": "C040-03",
+      "topic": "Intrinsic versus good-I observables",
+      "status": "consistent",
+      "finding": "034 and Frauendorf F01-5/F01-8/F01-9 consistently separate oriented TAC mean fields from laboratory good-I states and symmetry restoration. 017/031/034 outputs explicitly label toy currents and frozen-gyro values as non-experimental.",
+      "locators": ["Frauendorf 2001 PDF pp.473-476, 484-485", "discrete-symmetry-current-boundary.md", "tac-frequency-unit-boundary.md"]
+    },
+    {
+      "id": "C040-04",
+      "topic": "Garg/Agarwal relative ratios",
+      "status": "consistent",
+      "finding": "Garg 2015 and Agarwal 2007 both retain relative B(M1)/B(E2) or possible-MR wording and missing absolute lifetimes. 037 correctly records numerator/denominator non-identifiability; no artifact upgrades these candidates to established MR.",
+      "locators": ["garg-2015-135pr-magnetic-rotation.md GA15-3/GA15-14", "agarwal-2007-137pr-magnetic-rotation-bandcrossing.md AG07-5/6/AG07-D22-R098-1", "mr-amr-observable-matrix-boundary.md"]
+    },
+    {
+      "id": "C040-05",
+      "topic": "Roy Table 1 page locator",
+      "status": "resolved",
+      "finding": "The 017 JSON and earlier 017 research text identify Roy Table 1 as printed p.323, while the current Roy source page uses p.324 for RO11-1/Table 1. The scientific values are not changed by this audit, but the source page and direct PDF should be treated as the canonical locator until printed-versus-PDF pagination is reconciled.",
+      "locators": ["tac-currents-shears-chiral-phase-017.json cadmium table locator", "octupole-mr-amr-evidence-gradient.md 017 Cd paragraph", "roy-2011-cd110-systematics-antimagnetic.md RO11-1"]
+    },
+    {
+      "id": "C040-06",
+      "topic": "Roy Cd values and model boundaries",
+      "status": "consistent",
+      "finding": "The 017 Cd transcription (106Cd 0.15->0.05, 108Cd 0.15->0.03 effective endpoint, 110Cd 0.14->0.06) is explicitly source-value arithmetic without propagated uncertainties. Notes reject old 013/014 platform and core-share claims as universal; Roy's core-coupling interpretation remains source-specific.",
+      "locators": ["tac-currents-shears-chiral-phase-017.json cadmium_BE2_table1_systematics", "roy-2011-cd110-systematics-antimagnetic.md RO11-1/2/3", "octupole-mr-amr-evidence-gradient.md 013 correction"]
+    },
+    {
+      "id": "C040-07",
+      "topic": "031 frequency quantities",
+      "status": "consistent",
+      "finding": "024, 031 and 034 consistently separate Starosta experimental ~0.37 MeV band displacement, Starosta 12-keV TAC barrier, Olbratowski frozen-gyro hbar omega_c=0.514639 MeV and Olbratowski HF onset ~0.6 MeV. None is treated as a measured critical frequency.",
+      "locators": ["tac-starosta-olbratowski-comparison-024.json", "tac-frequency-unit-sensitivity-031.json", "tac-frequency-unit-boundary.md", "olbratowski-2002-critical-frequency-preprint.md"]
+    },
+    {
+      "id": "C040-08",
+      "topic": "037 observable matrix",
+      "status": "consistent",
+      "finding": "037's ten-row matrix correctly classifies current residuals, multipolarity, absolute B values, ratios, J2, polarization, lifetimes, configuration/alignment and S(I) as necessary inputs, supporting evidence or non-identifying quantities. It agrees with source-level limitations and does not add a universal sufficient criterion.",
+      "locators": ["mr-amr-observable-matrix-037.json", "hubel-2005-magnetic-rotation-review.md HU05-1/HU05-AR-1", "frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md F01-10/F01-11"]
+    }
+  ],
+  "unresolved": [
+    "Keep p.324 for Table 1 and p.323 for the preceding lineshape section when using page-only citations.",
+    "Do not treat historical superseded artifact values as current evidence even when arithmetic is reproducible."
+  ],
+  "overall": "No physics-level contradiction was found among the audited current boundaries and artifacts. One locator conflict remains for Roy Table 1; it is a metadata issue, not a license to alter the reported values.",
+  "needs_review": true
+}

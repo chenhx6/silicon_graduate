@@ -11,6 +11,11 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[e3-cross-source-consistency-boundary]] — BU16/17、Bernard、Gaffney、Butler及E3工件一致性审计.
+- [[mr-amr-cross-source-consistency-boundary]] — Roy/Garg/Agarwal/Frauendorf与MR/AMR工件一致性及页码核对。
+- [[parity-doublet-cross-source-consistency-boundary]] — 225Ra/225Ac ENSDF与奇A工件数值/谱系一致性审计。
+- [[e3-cross-source-consistency-boundary]] — BU16/17、Bernard、Gaffney、Butler及E3工件一致性审计。
+
 - [[mr-amr-observable-matrix-boundary]] — MR/AMR十项观测量的必要性、支持性与不可辨识边界。
 
 - [[parity-doublet-energy-window-boundary]] — 225Ra/225Ac同自旋异宇称配对窗口的误导与带标签边界。

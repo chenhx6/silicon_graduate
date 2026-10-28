@@ -1,0 +1,97 @@
+{
+  "title": "Cross-source consistency audit for 225Ra/225Ac parity-doublet artifacts",
+  "status": "completed-with-one-provenance-wording-review",
+  "inputs": [
+    "nndc-2009-ra225-adopted-parity-doublet",
+    "nndc-2022-ac225-adopted-parity-doublet",
+    "parity-doublet-actinide-lanthanide-016.json",
+    "parity-doublet-ac225-028.json",
+    "parity-doublet-pairing-audit-030.json",
+    "parity-doublet-e1-unit-audit-033.json",
+    "parity-doublet-energy-window-036.json",
+    "odd-a-parity-doublet-blocking-audit.md",
+    "ac225-parity-doublet-evidence-audit.md",
+    "parity-doublet-pairing-boundary.md",
+    "parity-doublet-e1-unit-boundary.md",
+    "parity-doublet-energy-window-boundary.md"
+  ],
+  "checks": [
+    {
+      "id": "hash-225Ra",
+      "result": true,
+      "severity": "pass"
+    },
+    {
+      "id": "hash-225Ac",
+      "result": true,
+      "severity": "pass"
+    },
+    {
+      "id": "source-E1-values",
+      "result": true,
+      "severity": "pass"
+    },
+    {
+      "id": "W.u.-conversion",
+      "result": true,
+      "severity": "pass"
+    },
+    {
+      "id": "reduced-matrix",
+      "result": true,
+      "severity": "pass"
+    },
+    {
+      "id": "CG-and-D0",
+      "result": true,
+      "severity": "pass"
+    },
+    {
+      "id": "direction-factor",
+      "result": true,
+      "severity": "pass"
+    },
+    {
+      "id": "window-counts",
+      "result": true,
+      "severity": "pass"
+    },
+    {
+      "id": "provenance-wording",
+      "result": false,
+      "severity": "review",
+      "finding": "parity-doublet-e1-unit-boundary.md says the Ra E1 field has a 225Ra beta-minus/conversion-electron provenance; the archived 225Ra ENSDF L31.56 annotation instead says the level lifetime came from (alpha)(ce)(t) in 229Th alpha decay (1985Is03). The numeric BE1W field is intact; only the provenance sentence is inconsistent."
+    }
+  ],
+  "reconciled_values": {
+    "E1_WU_A225": 2.384497292231362,
+    "Ra": {
+      "B_e2fm2": 0.001931442806707403,
+      "M_efm": 0.08789636640288159,
+      "D0_efm": 0.1557922531113897
+    },
+    "Ac": {
+      "B_e2fm2": 0.004077490369715628,
+      "M_efm": 0.12771045955152818,
+      "D0_efm": 0.16871945017679332
+    },
+    "pair_window_counts": {
+      "225Ra": {
+        "50": 3,
+        "100": 8,
+        "200": 15
+      },
+      "225Ac": {
+        "50": 6,
+        "100": 9,
+        "200": 11
+      }
+    }
+  },
+  "adjudication": [
+    "No numerical contradiction found in hashes, W.u. conversion, reduced-matrix convention, direction degeneracy, CG², conditional D0, or window candidate counts.",
+    "The Ra E1 provenance wording in parity-doublet-e1-unit-boundary.md needs review against the raw evaluation annotation; no existing file was edited in this unit.",
+    "All D0 values remain conditional rotor inferences with unresolved sign, not direct observables.",
+    "Nearest-level and energy-window candidates remain bookkeeping outputs, not accepted physical band pairings."
+  ]
+}

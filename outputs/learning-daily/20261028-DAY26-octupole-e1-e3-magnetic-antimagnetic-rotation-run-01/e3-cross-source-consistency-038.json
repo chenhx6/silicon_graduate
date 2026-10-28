@@ -1,0 +1,26 @@
+{
+  "schema": "e3-cross-source-consistency-038/v1",
+  "scope": "read-only Day26 E3 source/note/artifact consistency audit",
+  "sources_audited": ["bucher-2016-144ba-direct-octupole", "bucher-2017-146ba-direct-octupole", "bernard-2016-144ba-sccm-octupole", "gaffney-2013-pear-shaped-rn-ra", "butler-2020-222-228ra-octupole-evolution"],
+  "artifacts_audited": ["octupole-vs-cluster-dipole-dynamics-018", "octupole-sum-rule-and-localization-027", "e3-multipole-transition-ledger-029", "butler-e1-e3-ledger-032", "e3-direction-degeneracy-035"],
+  "consistency_checks": [
+    {"id":"units-001","topic":"E3 units","result":"consistent","detail":"Bucher/Butler reduced E3 matrix elements use e b^(3/2); Gaffney uses e fm^3; 1 b^(3/2)=1000 fm^3; Q3 is e fm^3 under rotor conversion."},
+    {"id":"ba-errors-002","topic":"Ba central values and uncertainties","result":"consistent","detail":"144Ba 0.65(+0.17/-0.23), 48(+25/-34) W.u.; 146Ba 0.65(+0.14/-0.20), 48(+21/-29) W.u. Earlier reversed-order renderings are algebraically equivalent only when signs are relabeled, not a new measurement."},
+    {"id":"gaffney-003","topic":"224Ra 940 versus Q3 2520","result":"consistent","detail":"Gaffney Table 1 940(30) e fm^3 is the E3 reduced matrix element; Table 2 2520(90) e fm^3 is the intrinsic Q3 conversion. 018 records the distinction."},
+    {"id":"model-exp-004","topic":"Bernard 0.460/25 W.u. versus Bucher 0.65/48 W.u.","result":"no-conflict","detail":"Bernard is a 2D-GCM model result; Bucher is a Coulomb-excitation experimental fit. They are not duplicate measurements."},
+    {"id":"butler-stars-005","topic":"Butler starred entries","result":"consistent","detail":"Table I stars identify E3 entries coupled through rotational relations; 029/032/035 preserve the non-independent status."},
+    {"id":"direction-006","topic":"B direction and 2Ji+1","result":"guarded","detail":"035 computes conditional forward/reverse B values from printed arrows. 029 correctly warns that 027's downward proxy is not certified because row bra-ket direction must be verified; no cross-J closure sum is accepted."},
+    {"id":"closure-007","topic":"027 square sums","result":"guarded","detail":"027 raw square sums 30.9635 (222Ra) and 5.6942 (228Ra) are partial sums over mixed Ji in e^2 b^3; 029/035 explicitly reject interpreting them as 0+ m0."},
+    {"id":"near-zero-008","topic":"228Ra 2+ to 3-","result":"consistent","detail":"Central -0.06(+0.23/-0.16) e b^(3/2) gives [-0.22,0.17], crossing zero; Q3 150(+360/-500) gives [-350,510] e fm^3. No new fit is claimed."},
+    {"id":"q3-flat-009","topic":"222Ra approximately constant Q3","result":"qualified","detail":"Butler author interpretation/Fig.4 says approximately constant; printed values span 2000-3100 for unstarred rows and 3200-5500 for starred rows, so not exact equality or independent statistical constancy."},
+    {"id":"018-geometry-010","topic":"018 E3-matched alpha-cluster test","result":"qualified","detail":"018 now includes the algebraic joint solution R=219.84 fm,w=4.46e-5 and limits failure to nuclear-scale local R with common transition weight; w is not S_alpha."}
+  ],
+  "remaining_boundaries": [
+    "No complete 0+ E3 closure m0",
+    "No energy-weighted m1",
+    "No GOSIA joint covariance or released-star refit",
+    "No model-independent static density or alpha spectroscopic probability",
+    "Signed ratios depend on phase conventions"
+  ],
+  "overall": "No fatal unit or central-value contradiction found. Main residual risks are conditional direction notation, fit-coupled starred entries, and overreading partial sums or qualitative Q3 flatness."
+}

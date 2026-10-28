@@ -21,7 +21,7 @@ tags: [octupole, parity-doublet, E1, Weisskopf-unit, reduced-matrix-element, CG-
 
 ## Grounded Evidence
 
-已归档评价字段为：$^{225}$Ra 的 $3/2^-\to1/2^+$、$B(E1)=0.00081(20)$ W.u.；$^{225}$Ac 的 $3/2^+\to3/2^-$、$B(E1)=0.00171(15)$ W.u.。两者均来自 ENSDF 评价对象；Ra 的 E1 字段在 225Ra β− decay 链中带有转换电子来源，Ac 的 40.09-keV E1 字段来自 $^{225}$Ra β− decay 的 L-subshell ratios。原始实验未在本单元重读。
+已归档评价字段为：$^{225}$Ra 的 $3/2^-\to1/2^+$、$B(E1)=0.00081(20)$ W.u.；$^{225}$Ac 的 $3/2^+\to3/2^-$、$B(E1)=0.00171(15)$ W.u.。两者均来自 ENSDF 评价对象；Ra 的 E1 字段注释来自 $^{229}$Th α decay 的 $(lpha)(ce)(t)$ 链；Ac 的 40.09-keV E1 字段来自 $^{225}$Ra β− decay 的 L-subshell ratios。原始实验未在本单元重读。
 
 ## Provisional Reasoning
 

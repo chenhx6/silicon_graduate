@@ -125,7 +125,7 @@ def cadmium_systematics():
     }
     for name, row in entries.items():
         row["first_to_last_BE2_factor"] = round(row["BE2_e2b2"][0]/row["BE2_e2b2"][-1], 6)
-        row["table_locator"] = "Roy et al. 2011 Phys Lett B 694, printed p.323, Table 1"
+        row["table_locator"] = "Roy et al. 2011 Phys Lett B 694, printed p.324, Table 1"
         row["status"] = "reported source values; ratios calculated here; no propagated uncertainties"
         if name == "108Cd":
             row["I22_caveat"] = "effective value in source table"
