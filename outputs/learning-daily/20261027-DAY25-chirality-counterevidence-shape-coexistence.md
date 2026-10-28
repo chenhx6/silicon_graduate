@@ -684,6 +684,8 @@ L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条�
 
 ## Verification and continuation
 
+checkpoint025：在 133Ce 分析蓝本知识页 133ce-thesis-analysis-blueprint.md 中正式沉淀 817.7 keV 分母未闭合定量反演证明，利用 Table 6.11 out/out（5.06）与 out/in（0.33）分支比之商消去跨带分子，结合能量五次方因子导出名义光子相对强度为 1.19；对比 Table 5.2 能分辨 0.01 弱分支之探测本领，确证 817.7 keV 强线在实验列表与纲图中彻底缺席，代数证伪该分支比来源于直接实测计数除法，确立出带分母未闭合之严格证据边界；全套检查保持通过。
+
 checkpoint024：在手征与形状共存逐伙伴竞争解释矩阵页 chirality-shape-coexistence-companion-matrix.md 中正式沉淀 Rung 1 混合比门限约束章节，系统阐明带间 Delta I = 1 混合跃迁中 delta(E2/M1) 对约化跃迁几率计算的代数分解与强敏感性；吸收 raw/writing/pado/ 的概率密度映射（PDM / P-ADO）最新成果，揭示固定 sigma/I 约 0.3 与二次方程双解导致 135Pr 摆动误判的微观根源，确立通过 2D 雅可比行列式保持测度守恒、辨识 Outside 构型全局折叠双解及自旋对齐度边缘化积分的充要标准；全套检查保持通过。
 
 checkpoint023：在核心矩阵页 a130-thesis-evidence-matrix.md 中正式写入 Day 25 增量章节，落实前序对铈同位素绑定带与跃迁证据的明确规划：联合 Li 2004 与 Singh 2016 寿命基准确立 131Ce 独立时钟网络，厘清 133Ce 局域时钟与候选手征双重带（Bands 2–3、5–6）零寿命断裂边界，并定量写入 133Ce Band 4 跨带 E2 份额从 69.2% 到 2.8% 断崖猝灭之转动对齐退耦合物理机制；全套检查保持通过。
