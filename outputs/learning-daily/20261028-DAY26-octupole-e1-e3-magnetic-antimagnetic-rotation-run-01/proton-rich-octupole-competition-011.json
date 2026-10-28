@@ -1,0 +1,79 @@
+{
+  "title": "Quadrupole-Octupole Competition in Light Rare-Earth (Proton-Rich) vs Neutron-Rich Ba Isotopes",
+  "single_particle_octupole_matrix_elements": {
+    "d5_2_to_h11_2": 1.3976,
+    "f7_2_to_i13_2": 1.7747
+  },
+  "nuclei_comparison": [
+    {
+      "nucleus": "144Ba",
+      "type": "neutron_rich",
+      "Z": 56,
+      "N": 88,
+      "beta2": 0.2,
+      "beta3": 0.11,
+      "unperturbed_octupole_strength": 5.1027,
+      "effective_energy_denominator_MeV": 3.332,
+      "octupole_susceptibility": 1.5314,
+      "octupole_phonon_Ex_keV": 759.0,
+      "BE3_Wu": 48.0,
+      "octupole_regime": "pronounced_soft_octupole"
+    },
+    {
+      "nucleus": "146Ba",
+      "type": "neutron_rich",
+      "Z": 56,
+      "N": 90,
+      "beta2": 0.22,
+      "beta3": 0.12,
+      "unperturbed_octupole_strength": 5.1027,
+      "effective_energy_denominator_MeV": 3.3768,
+      "octupole_susceptibility": 1.5111,
+      "octupole_phonon_Ex_keV": 737.5,
+      "BE3_Wu": 48.0,
+      "octupole_regime": "pronounced_soft_octupole"
+    },
+    {
+      "nucleus": "130Sm",
+      "type": "proton_rich_drip_line",
+      "Z": 62,
+      "N": 68,
+      "beta2": 0.33,
+      "beta3": 0.05,
+      "unperturbed_octupole_strength": 3.9065,
+      "effective_energy_denominator_MeV": 4.0028,
+      "octupole_susceptibility": 0.9759,
+      "octupole_phonon_Ex_keV": 1450.0,
+      "BE3_Wu": 18.0,
+      "octupole_regime": "quadrupole_quenched_vibrational"
+    },
+    {
+      "nucleus": "128Nd",
+      "type": "proton_rich",
+      "Z": 60,
+      "N": 68,
+      "beta2": 0.31,
+      "beta3": 0.06,
+      "unperturbed_octupole_strength": 3.9065,
+      "effective_energy_denominator_MeV": 3.8733,
+      "octupole_susceptibility": 1.0086,
+      "octupole_phonon_Ex_keV": 1380.0,
+      "BE3_Wu": 21.0,
+      "octupole_regime": "quadrupole_quenched_vibrational"
+    },
+    {
+      "nucleus": "126Ce",
+      "type": "proton_rich",
+      "Z": 58,
+      "N": 68,
+      "beta2": 0.29,
+      "beta3": 0.07,
+      "unperturbed_octupole_strength": 3.9065,
+      "effective_energy_denominator_MeV": 3.75,
+      "octupole_susceptibility": 1.0417,
+      "octupole_phonon_Ex_keV": 1290.0,
+      "BE3_Wu": 24.0,
+      "octupole_regime": "quadrupole_quenched_vibrational"
+    }
+  ]
+}
