@@ -11,6 +11,12 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[mr-amr-observable-matrix-boundary]] — MR/AMR十项观测量的必要性、支持性与不可辨识边界。
+
+- [[parity-doublet-energy-window-boundary]] — 225Ra/225Ac同自旋异宇称配对窗口的误导与带标签边界。
+
+- [[e3-direction-degeneracy-boundary]] — Butler E3正反向B、初态简并因子与closure相加边界。
+
 - [[parity-doublet-e1-unit-boundary]] — 225Ra/225Ac E1 W.u.、方向简并与条件D0单位审计。
 
 - [[discrete-symmetry-current-boundary]] — 内禀电流离散对称、good-I投影与MR/AMR观测层边界。

@@ -1,0 +1,32 @@
+{
+  "schema": "e3-direction-degeneracy-035/v1",
+  "scope": "Butler 2020 Table I central E3 values; direction and initial-spin degeneracy audit",
+  "formula": "B(E3;Ji→Jf)=|M|^2/(2Ji+1); for the reversed matrix element B(Jf→Ji)=|M|^2/(2Jf+1)",
+  "unit": "M in e b^(3/2), B in e^2 b^3; no W.u. conversion inferred",
+  "rows": [
+    {"nucleus":"222Ra","printed_transition":"0+→3−","Ji":0,"Jf":3,"M_eb32":1.13,"M2_e2b3":1.2769,"B_printed_direction_e2b3":1.2769,"B_reversed_e2b3":0.1824142857,"B_ratio_printed_to_reversed":7.0,"stars":false},
+    {"nucleus":"222Ra","printed_transition":"2+→1−","Ji":2,"Jf":1,"M_eb32":0.85,"M2_e2b3":0.7225,"B_printed_direction_e2b3":0.1445,"B_reversed_e2b3":0.2408333333,"B_ratio_printed_to_reversed":0.6,"stars":false},
+    {"nucleus":"222Ra","printed_transition":"2+→3−","Ji":2,"Jf":3,"M_eb32":-0.9,"M2_e2b3":0.81,"B_printed_direction_e2b3":0.162,"B_reversed_e2b3":0.1157142857,"B_ratio_printed_to_reversed":1.4,"stars":false},
+    {"nucleus":"222Ra","printed_transition":"2+→5−","Ji":2,"Jf":5,"M_eb32":1.79,"M2_e2b3":3.2041,"B_printed_direction_e2b3":0.64082,"B_reversed_e2b3":0.2912818182,"B_ratio_printed_to_reversed":2.2,"stars":false},
+    {"nucleus":"222Ra","printed_transition":"4+→1−","Ji":4,"Jf":1,"M_eb32":-2.1,"M2_e2b3":4.41,"B_printed_direction_e2b3":0.49,"B_reversed_e2b3":1.47,"B_ratio_printed_to_reversed":0.3333333333,"stars":true},
+    {"nucleus":"222Ra","printed_transition":"4+→3−","Ji":4,"Jf":3,"M_eb32":2.6,"M2_e2b3":6.76,"B_printed_direction_e2b3":0.7511111111,"B_reversed_e2b3":0.9657142857,"B_ratio_printed_to_reversed":0.7777777778,"stars":true},
+    {"nucleus":"222Ra","printed_transition":"4+→5−","Ji":4,"Jf":5,"M_eb32":-1.7,"M2_e2b3":2.89,"B_printed_direction_e2b3":0.3211111111,"B_reversed_e2b3":0.2627272727,"B_ratio_printed_to_reversed":1.2222222222,"stars":true},
+    {"nucleus":"222Ra","printed_transition":"4+→7−","Ji":4,"Jf":7,"M_eb32":3.3,"M2_e2b3":10.89,"B_printed_direction_e2b3":1.21,"B_reversed_e2b3":0.726,"B_ratio_printed_to_reversed":1.6666666667,"stars":true},
+    {"nucleus":"228Ra","printed_transition":"0+→3−","Ji":0,"Jf":3,"M_eb32":0.87,"M2_e2b3":0.7569,"B_printed_direction_e2b3":0.7569,"B_reversed_e2b3":0.1081285714,"B_ratio_printed_to_reversed":7.0,"stars":false},
+    {"nucleus":"228Ra","printed_transition":"2+→1−","Ji":2,"Jf":1,"M_eb32":1.36,"M2_e2b3":1.8496,"B_printed_direction_e2b3":0.36992,"B_reversed_e2b3":0.6165333333,"B_ratio_printed_to_reversed":0.6,"stars":true},
+    {"nucleus":"228Ra","printed_transition":"2+→3−","Ji":2,"Jf":3,"M_eb32":-0.06,"M2_e2b3":0.0036,"B_printed_direction_e2b3":0.00072,"B_reversed_e2b3":0.0005142857,"B_ratio_printed_to_reversed":1.4,"stars":true},
+    {"nucleus":"228Ra","printed_transition":"2+→5−","Ji":2,"Jf":5,"M_eb32":1.71,"M2_e2b3":2.9241,"B_printed_direction_e2b3":0.58482,"B_reversed_e2b3":0.2658272727,"B_ratio_printed_to_reversed":2.2,"stars":true},
+    {"nucleus":"228Ra","printed_transition":"4+→1−","Ji":4,"Jf":1,"M_eb32":0.4,"M2_e2b3":0.16,"B_printed_direction_e2b3":0.0177777778,"B_reversed_e2b3":0.0533333333,"B_ratio_printed_to_reversed":0.3333333333,"stars":true}
+  ],
+  "closure_guard": {
+    "same_Ji_rows_may_be_compared": true,
+    "different_Ji_rows_must_not_be_added_to_one_closure": true,
+    "0plus_closure_only_0plus_to_all_3minus_states": true,
+    "energy_weighted_sum_computed": false
+  },
+  "validation": {
+    "all_reversal_ratios_use_(2Jf+1)/(2Ji+1)": true,
+    "all_B_nonnegative": true,
+    "starred_entries_remain_fit_coupled": true
+  }
+}

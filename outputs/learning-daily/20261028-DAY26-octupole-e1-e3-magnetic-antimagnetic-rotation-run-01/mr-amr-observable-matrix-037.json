@@ -1,0 +1,160 @@
+{
+  "audit_id": "DAY26-MR-AMR-OBSERVABLE-MATRIX-037",
+  "scope": "source-grounded matrix of necessary, supporting and non-identifying observables; no new experiment or EDF run",
+  "course_status": "Day27 uncredited preview only; Day28 unopened",
+  "matrix": [
+    {
+      "observable": "intrinsic current symmetry residuals",
+      "quantity": "T, Rz(pi), T Ry(pi) residual on j(r)",
+      "MR": {
+        "necessary": "Only as a self-consistency/model check after density, axis convention and occupied configuration are fixed.",
+        "supporting": "A planar TAC solution may preserve a combined antiunitary signature while breaking separate T; a self-consistent current pattern can support the shears geometry.",
+        "not_identifiable": "017/034 arbitrary Gaussian residuals cannot assign MR or distinguish it from another current-carrying configuration."
+      },
+      "AMR": {
+        "necessary": "A specified double-shears calculation must show the intended transverse cancellation and symmetry relation.",
+        "supporting": "Opposite blade/current contributions can support cancellation of a chosen transverse moment.",
+        "not_identifiable": "Zero integrated moment or a local residual does not prove AMR, pointwise zero current, or vanishing all M1 matrix elements."
+      },
+      "locator": "017/034 toy JSON; Frauendorf 2001 F01-5/F01-10/F01-11"
+    },
+    {
+      "observable": "M1/E2 multipolarity and selection",
+      "quantity": "DCO/IPDCO, angular correlations, ΔI sequence and crossover assignments",
+      "MR": {
+        "necessary": "Necessary to establish that the candidate band contains ΔI=1 M1-dominated links and identify E2 crossovers before extracting strengths.",
+        "supporting": "Regular ΔI=1 M1 links with weak crossover E2 are consistent with shears rotation.",
+        "not_identifiable": "Multipolarity alone cannot separate MR from other dipole bands or configuration mixing."
+      },
+      "AMR": {
+        "necessary": "Necessary to verify the regular ΔI=2 E2 candidate and identify any allowed cross-band M1/E1 links.",
+        "supporting": "A clean ΔI=2 E2 sequence is compatible with the ideal double-shears picture.",
+        "not_identifiable": "Absence of ΔI=2 M1 follows general selection rules and is not AMR-specific."
+      },
+      "locator": "Hübel 2005 pp.22-31,55-57; Frauendorf 2001 p.488; Agarwal 2007 PDF pp.3-7"
+    },
+    {
+      "observable": "Absolute B(M1)",
+      "quantity": "μ_N² from lifetime + branching + mixing",
+      "MR": {
+        "necessary": "Needed for a quantitative shears-strength and g-factor comparison; relative ratios alone are underdetermined.",
+        "supporting": "Large or spin-evolving B(M1), often decreasing toward blade closure, supports MR with configuration context.",
+        "not_identifiable": "A large B(M1) is not unique to MR; without lifetime the absolute numerator is unknown."
+      },
+      "AMR": {
+        "necessary": "Not a universal requirement for every candidate, but absolute M1 limits/values are needed to test transverse cancellation against alternatives.",
+        "supporting": "Small intraband transverse M1 within a specified double-shears model supports AMR.",
+        "not_identifiable": "No measured ΔI=2 M1 line cannot prove AMR; cross-band M1 can remain allowed."
+      },
+      "locator": "Hübel 2005 HU05-1/HU05-AR-1; Agarwal 2007 AG07-5; antimagnetic-rotation boundary page"
+    },
+    {
+      "observable": "Absolute B(E2)",
+      "quantity": "e²b² or W.u. from lifetime",
+      "MR": {
+        "necessary": "Needed with B(M1) to quantify weak core collectivity and separate shears from core rotation.",
+        "supporting": "Weak or slowly changing E2 crossover supports a weakly deformed magnetic band.",
+        "not_identifiable": "Weak B(E2) also occurs in termination, weak collectivity and band mixing."
+      },
+      "AMR": {
+        "necessary": "Needed to test the predicted E2 evolution with spin; requires lifetime/branching and configuration checks.",
+        "supporting": "Small/decreasing B(E2) in a regular ΔI=2 sequence supports AMR.",
+        "not_identifiable": "No universal sin⁴ law or numerical threshold applies when core E2, shape and configuration vary."
+      },
+      "locator": "Roy 2011 RO11-1 p.324 Table 1; Frauendorf 2001 p.488; Hübel 2005 pp.55-57"
+    },
+    {
+      "observable": "B(M1)/B(E2)",
+      "quantity": "ratio with units (μ_N/e b)²",
+      "MR": {
+        "necessary": "Useful comparative observable after both absolute or consistently derived strengths are identified.",
+        "supporting": "Large/evolving ratios can support magnetic dominance and crossing structure.",
+        "not_identifiable": "A ratio cannot determine whether M1 increased or E2 decreased; Agarwal 2007 explicitly lacks absolute lifetimes."
+      },
+      "AMR": {
+        "necessary": "Not sufficient or mandatory alone; must be paired with E2 lifetimes, ΔI structure and configuration.",
+        "supporting": "A large ratio may indicate weak E2 in an AMR candidate, but its units and response are source-dependent.",
+        "not_identifiable": "It is not dimensionless and has no universal ≥100 hard gate."
+      },
+      "locator": "Agarwal 2007 AG07-5/AG07-D22-R098-1; Roy 2011 RO11-D26C-004"
+    },
+    {
+      "observable": "Dynamic moment J^(2)",
+      "quantity": "dI/dω",
+      "MR": {
+        "necessary": "No; it helps locate alignment/crossing and must be interpreted with configuration and transition data.",
+        "supporting": "Smooth or anomalous response can support a TAC crossing interpretation.",
+        "not_identifiable": "A J^(2) extremum alone does not establish shears or a 3qp→5qp causal chain."
+      },
+      "AMR": {
+        "necessary": "No; it is a kinematic response, not a mode label.",
+        "supporting": "Large J^(2) relative to measured B(E2) is a comparative clue in AMR systematics.",
+        "not_identifiable": "J^(2)/B(E2) cannot be used as a universal unitless discriminator."
+      },
+      "locator": "Frauendorf 2001 F01-3/F01-11; Roy 2011 RO11-4 and RO11-D26C-004"
+    },
+    {
+      "observable": "Linear polarization / DCO",
+      "quantity": "multipolarity and electric/magnetic character",
+      "MR": {
+        "necessary": "Necessary for robust M1/E2 assignment in many in-beam datasets.",
+        "supporting": "M1 character and E2 crossover assignment support the candidate band.",
+        "not_identifiable": "Polarization does not measure an intrinsic current field or prove shears closure."
+      },
+      "AMR": {
+        "necessary": "Necessary to identify E2 sequence and constrain competing M1/E1 links.",
+        "supporting": "Consistent E2 character supports the candidate transition network.",
+        "not_identifiable": "Polarization alone cannot distinguish AMR from a termination or ordinary weak E2 band."
+      },
+      "locator": "Agarwal 2007 methods/AG07-1–6; Hübel 2005 observables/methods"
+    },
+    {
+      "observable": "Lifetime and feeding analysis",
+      "quantity": "DSAM/RDDS/RDM τ, side-feeding and branching",
+      "MR": {
+        "necessary": "Needed to convert intensities to absolute B(M1), B(E2) and test model geometry quantitatively.",
+        "supporting": "Consistent lifetimes across a band strengthen the transition-systematics chain.",
+        "not_identifiable": "A lifetime measurement without secure band identity/configuration does not assign MR."
+      },
+      "AMR": {
+        "necessary": "Needed for absolute E2 evolution and to test cancellation models; source-dependent method choice is allowed.",
+        "supporting": "A reliable B(E2) decline or plateau pattern supports a specified AMR/core-coupling model.",
+        "not_identifiable": "A single lifetime or an absent shift cannot by itself prove AMR."
+      },
+      "locator": "Hübel 2005 pp.22-31,55-57; Roy 2011 pp.322-326; antimagnetic-rotation page"
+    },
+    {
+      "observable": "Configuration, alignment and termination",
+      "quantity": "high-j particle/hole assignment, i_x, band crossings, max-spin path",
+      "MR": {
+        "necessary": "Necessary for the shears interpretation and for distinguishing core rotation, signature partners and crossing.",
+        "supporting": "Alignment additivity and a source-consistent TAC configuration support MR.",
+        "not_identifiable": "Configuration labels inferred only from a fit or one energy trend are not unique."
+      },
+      "AMR": {
+        "necessary": "Necessary to establish two coupled blades and account for core angular momentum.",
+        "supporting": "Finite-core coupling and a Pauli-consistent termination path support AMR.",
+        "not_identifiable": "A guessed blade Jmax or termination point cannot be transferred across nuclei."
+      },
+      "locator": "Clark 2000 CL00-4/5; Roy 2011 RO11-2/3; Olbratowski 2002 model-boundary"
+    },
+    {
+      "observable": "S(I) / energy staggering",
+      "quantity": "S(I)=[E(I)-E(I-1)]/(2I), band displacement",
+      "MR": {
+        "necessary": "Useful for regularity and crossing maps, but not a standalone requirement.",
+        "supporting": "Smooth ΔI=1 behavior can support a candidate sequence.",
+        "not_identifiable": "Near-degeneracy or smooth S(I) cannot distinguish MR from chirality, wobbling or signature partners."
+      },
+      "AMR": {
+        "necessary": "Regular ΔI=2 level sequence is a candidate-level structural input.",
+        "supporting": "Smooth rotational-like energies support the geometric model when EM data agree.",
+        "not_identifiable": "Energy regularity alone cannot separate AMR from termination or weak collective rotation."
+      },
+      "locator": "Frauendorf 2001 F01-6/F01-8/F01-11; Starosta 2001 PDF pp.2-4"
+    }
+  ],
+  "toy_input_status": "017/034 fields are arbitrary Gaussian current constructions; 031 is conditional frozen-gyro arithmetic. They provide unit/symmetry self-checks only.",
+  "global_conclusion": "MR and AMR are configuration-dependent interpretations requiring a convergent evidence chain. No single current residual, multipolarity, B ratio, J2, polarization or lifetime is sufficient.",
+  "needs_review": true
+}
