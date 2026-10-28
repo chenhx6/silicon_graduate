@@ -1,0 +1,13 @@
+{
+  "doi": "10.1103/PhysRevC.100.069901",
+  "title": "Erratum: Negative-parity high-spin states and a possible magnetic rotation band in 135Pr",
+  "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.100.069901",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "signature": "%PDF-1.3",
+  "bytes": 95101,
+  "pages": 2,
+  "sha256": "c9fbed8bb0a1463c6d083f29e1331ff72102f5fb4edfdd96b76f3c5c0149db30",
+  "read_pages": "1-2",
+  "status": "fulltext-obtained-and-read"
+}

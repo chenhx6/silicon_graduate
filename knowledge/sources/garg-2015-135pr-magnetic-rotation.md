@@ -143,3 +143,7 @@ checkpoint005独立代理回核PDF7–8；此处是既有原件定向核，不�
 | GA15-D26-004 | 同母态强度比可在响应/分支与多极性假设下得到而不需绝对寿命；其变化不唯一给出B(M1)自身变化。本文缺绝对B，不能称比值不存在。 | observable-layer-boundary | direct-report-and-general-inference | Figs5/7; Table I; conclusion | true |
 
 `revises` [[magnetic-rotation]] 的Day25伪数列；`supports` 按配置与数据覆盖限制单调性；综合见 [[octupole-mr-amr-evidence-gradient]]。不把本次纠错扩展成对其它MR核素或2019勘误的判决。
+
+## Current correction source
+
+The 2019 correction is recorded in [[garg-2019-135pr-polarization-erratum]]. For current multipolarity use, replace the old 813.3-keV `−0.20(8)` with `+0.04(3)` and the old 747.5-keV `−0.05(3)` with `+0.03(3)`; both are `M1+E2`. The erratum does not add absolute lifetimes or absolute B(M1), so the candidate MR interpretation remains bounded by the original source limitations.

@@ -11,6 +11,8 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[pr135-erratum-boundary]] — 勘误对135Pr MR证据链的影响边界。
+- [[garg-2019-135pr-polarization-erratum]] — 135Pr 2019公开勘误：813.3/747.5-keV偏振修正与混合多极性。
 - [[e3-cross-source-consistency-boundary]] — BU16/17、Bernard、Gaffney、Butler及E3工件一致性审计.
 - [[mr-amr-cross-source-consistency-boundary]] — Roy/Garg/Agarwal/Frauendorf与MR/AMR工件一致性及页码核对。
 - [[parity-doublet-cross-source-consistency-boundary]] — 225Ra/225Ac ENSDF与奇A工件数值/谱系一致性审计。
