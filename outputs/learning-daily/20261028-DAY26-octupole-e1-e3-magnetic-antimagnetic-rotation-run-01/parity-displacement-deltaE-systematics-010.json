@@ -1,0 +1,159 @@
+{
+  "title": "Systematic Analysis of Parity Displacement Function delta_E(I) across Reflection-Asymmetric Candidates",
+  "formula": "delta_E(I) = E(I-) - 0.5 * [E((I-1)+) + E((I+1)+)]",
+  "interpretation": "delta_E -> 0 indicates rigid octupole deformation; persistent large delta_E (> 150 keV) indicates soft octupole vibration / tunneling barrier",
+  "comparisons": {
+    "224Ra": {
+      "name": "224Ra (A=224, Z=88, N=136)",
+      "classification": "Rigid reflection-asymmetric rotor",
+      "delta_E_series": [
+        {
+          "spin": 1,
+          "E_neg_keV": 216.0,
+          "E_interpolated_pos_keV": 42.2,
+          "delta_E_keV": 173.8
+        },
+        {
+          "spin": 3,
+          "E_neg_keV": 290.3,
+          "E_interpolated_pos_keV": 167.6,
+          "delta_E_keV": 122.7
+        },
+        {
+          "spin": 5,
+          "E_neg_keV": 433.3,
+          "E_interpolated_pos_keV": 365.05,
+          "delta_E_keV": 68.25
+        },
+        {
+          "spin": 7,
+          "E_neg_keV": 640.7,
+          "E_interpolated_pos_keV": 620.3,
+          "delta_E_keV": 20.4
+        },
+        {
+          "spin": 9,
+          "E_neg_keV": 906.0,
+          "E_interpolated_pos_keV": 925.15,
+          "delta_E_keV": -19.15
+        }
+      ],
+      "collapse_1_to_7_percent": 88.3,
+      "residual_dE_7_keV": 20.4
+    },
+    "220Rn": {
+      "name": "220Rn (A=220, Z=86, N=134)",
+      "classification": "Octupole vibrational / transitional",
+      "delta_E_series": [
+        {
+          "spin": 1,
+          "E_neg_keV": 536.0,
+          "E_interpolated_pos_keV": 120.5,
+          "delta_E_keV": 415.5
+        },
+        {
+          "spin": 3,
+          "E_neg_keV": 645.0,
+          "E_interpolated_pos_keV": 387.35,
+          "delta_E_keV": 257.65
+        },
+        {
+          "spin": 5,
+          "E_neg_keV": 860.0,
+          "E_interpolated_pos_keV": 703.25,
+          "delta_E_keV": 156.75
+        },
+        {
+          "spin": 7,
+          "E_neg_keV": 1177.0,
+          "E_interpolated_pos_keV": 1056.5,
+          "delta_E_keV": 120.5
+        },
+        {
+          "spin": 9,
+          "E_neg_keV": 1587.0,
+          "E_interpolated_pos_keV": 1435.1,
+          "delta_E_keV": 151.9
+        }
+      ],
+      "collapse_1_to_7_percent": 71.0,
+      "residual_dE_7_keV": 120.5
+    },
+    "144Ba": {
+      "name": "144Ba (A=144, Z=56, N=88)",
+      "classification": "Large-amplitude octupole-soft / beta3-tunneling",
+      "delta_E_series": [
+        {
+          "spin": 1,
+          "E_neg_keV": 759.0,
+          "E_interpolated_pos_keV": 99.65,
+          "delta_E_keV": 659.35
+        },
+        {
+          "spin": 3,
+          "E_neg_keV": 838.2,
+          "E_interpolated_pos_keV": 364.95,
+          "delta_E_keV": 473.25
+        },
+        {
+          "spin": 5,
+          "E_neg_keV": 1134.4,
+          "E_interpolated_pos_keV": 744.8,
+          "delta_E_keV": 389.6
+        },
+        {
+          "spin": 7,
+          "E_neg_keV": 1584.0,
+          "E_interpolated_pos_keV": 1213.6,
+          "delta_E_keV": 370.4
+        },
+        {
+          "spin": 9,
+          "E_neg_keV": 2153.0,
+          "E_interpolated_pos_keV": 1753.1,
+          "delta_E_keV": 399.9
+        }
+      ],
+      "collapse_1_to_7_percent": 43.8,
+      "residual_dE_7_keV": 370.4
+    },
+    "146Ba": {
+      "name": "146Ba (A=146, Z=56, N=90)",
+      "classification": "Large-amplitude octupole-soft (dipole canceled)",
+      "delta_E_series": [
+        {
+          "spin": 1,
+          "E_neg_keV": 737.5,
+          "E_interpolated_pos_keV": 90.5,
+          "delta_E_keV": 647.0
+        },
+        {
+          "spin": 3,
+          "E_neg_keV": 821.0,
+          "E_interpolated_pos_keV": 347.25,
+          "delta_E_keV": 473.75
+        },
+        {
+          "spin": 5,
+          "E_neg_keV": 1118.0,
+          "E_interpolated_pos_keV": 733.5,
+          "delta_E_keV": 384.5
+        },
+        {
+          "spin": 7,
+          "E_neg_keV": 1560.0,
+          "E_interpolated_pos_keV": 1218.5,
+          "delta_E_keV": 341.5
+        },
+        {
+          "spin": 9,
+          "E_neg_keV": 2115.0,
+          "E_interpolated_pos_keV": 1781.75,
+          "delta_E_keV": 333.25
+        }
+      ],
+      "collapse_1_to_7_percent": 47.2,
+      "residual_dE_7_keV": 341.5
+    }
+  }
+}
