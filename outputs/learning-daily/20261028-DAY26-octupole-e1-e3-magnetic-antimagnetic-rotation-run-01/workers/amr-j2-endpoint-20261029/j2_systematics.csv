@@ -1,0 +1,17 @@
+BE2_e2b2,BE2_sigma,Egamma_I_keV,Egamma_Iplus2_keV,J2_hbar2_per_MeV,J2_over_BE2,J2_over_BE2_sigma,J2_sigma,center_spin,delta_Egamma_keV,interpretation,nucleus,omega_center_MeV_over_hbar
+,,980.8,1150.6,23.55712603062427,,,,18,169.79999999999995,finite-difference,106Cd,0.4904
+,,1150.6,1310.6,25.0,,,,20,160.0,finite-difference,106Cd,0.5752999999999999
+,,1310.6,1487.6,22.598870056497177,,,,22,177.0,finite-difference,106Cd,0.6553
+,,1487.6,1675.5,21.28791910590739,,,,24,187.9000000000001,finite-difference,106Cd,0.7437999999999999
+,,956.0,1105.0,26.845637583892618,,,,16,149.0,finite-difference,108Cd,0.478
+,,1105.0,1260.0,25.806451612903228,,,,18,155.0,finite-difference,108Cd,0.5525
+,,1260.0,1469.0,19.138755980861244,,,,20,209.0,finite-difference,108Cd,0.63
+,,1075.0,1224.0,26.845637583892618,,,,16,149.0,finite-difference,110Cd,0.5375
+,,1224.0,1323.0,40.4040404040404,,,,18,99.0,finite-difference; negative/large values indicate irregular or unresolved spacing,110Cd,0.612
+,,1323.0,1314.0,-444.44444444444446,,,,20,-9.0,finite-difference; negative/large values indicate irregular or unresolved spacing,110Cd,0.6615
+,,1314.0,1358.0,90.90909090909092,,,,22,44.0,finite-difference; negative/large values indicate irregular or unresolved spacing,110Cd,0.657
+0.26,0.02,,,29.198,112.3,8.6,3.169260481563483,16,,derived as B(E2) times tabulated J2/B(E2); not independently extracted from Eγ,104Pd,
+0.22,0.02,,,30.998,140.9,12.8,3.983839856219123,18,,derived as B(E2) times tabulated J2/B(E2); not independently extracted from Eγ,104Pd,
+0.19,0.01,,,63.498,334.2,17.6,4.727716150531883,20,,derived as B(E2) times tabulated J2/B(E2); not independently extracted from Eγ,104Pd,
+0.13,0.01,,,36.699000000000005,282.3,21.7,3.990910923586243,22,,derived as B(E2) times tabulated J2/B(E2); not independently extracted from Eγ,104Pd,
+0.07,0.01,,,38.801,554.3,79.2,7.839692914904257,24,,derived as B(E2) times tabulated J2/B(E2); not independently extracted from Eγ,104Pd,

@@ -1,0 +1,165 @@
+{
+  "schema": "octupole-mr-three-tier-evidence-ladder-075/v1",
+  "description": "Three-tier evidence gradient and quality gate protocol for low-energy nuclear structure",
+  "benchmarks": [
+    {
+      "nucleus": "144Ba",
+      "phenomenon": "Octupole collectivity & E1 enhancement",
+      "tier1_direct_experiment": {
+        "observables": [
+          "Coulomb excitation particle-gamma coincidence yields with CHICO2+GRETINA",
+          "Level energies: 0+, 2+ (199 keV), 4+ (531 keV), 3- (838 keV)"
+        ],
+        "source": "Bucher et al. PRL 116, 112503 (2016)",
+        "uncertainty_type": "Statistical + GOSIA covariance fit",
+        "value": "M(E3; 0+ -> 3-) = 0.65(+0.17/-0.23) e b^(3/2)"
+      },
+      "tier2_derived_strength": {
+        "quantities": [
+          "B(E3; 3- -> 0+) = 48(+25/-34) W.u.",
+          "Intrinsic Q3 = 1742 e fm^3 (rotor model conversion)",
+          "B(E1)/B(E2) branching"
+        ],
+        "units": "W.u. and e^2 b^3",
+        "quality_gate": "Requires explicit Weisskopf unit convention (1.2 A^(1/3) fm) and spin degeneracy factor (7x)."
+      },
+      "tier3_model_interpretation": {
+        "models": [
+          "Gogny D1S SCCM wave function projection",
+          "PC-PK1 3D lattice cranked CDFT"
+        ],
+        "mechanism": "Large-amplitude soft octupole vibration in shallow well; high delta_E(I) platform (>300 keV) excludes rigid static pear shape.",
+        "boundary": "Large direct E3 does NOT prove static deformation without stable double-well minimum."
+      }
+    },
+    {
+      "nucleus": "146Ba",
+      "phenomenon": "Octupole collectivity with E1 dipole cancellation",
+      "tier1_direct_experiment": {
+        "observables": [
+          "Sub-barrier Coulex yields",
+          "E(3-) = 821 keV",
+          "E(1-) = 926 keV",
+          "E1/E2 gamma branchings"
+        ],
+        "source": "Bucher et al. PRL 118, 152504 (2017)",
+        "uncertainty_type": "GOSIA fit + prior lifetime constraints",
+        "value": "M(E3) = 0.65(+0.14/-0.20) e b^(3/2), |M(E1)| = 0.000223 e b^(1/2)"
+      },
+      "tier2_derived_strength": {
+        "quantities": [
+          "B(E3) = 48(+21/-29) W.u.",
+          "|D0| = 0.00456 e fm",
+          "B(E1) = 4.97e-6 e^2 fm^2"
+        ],
+        "units": "e^2 b^3 and e fm",
+        "quality_gate": "E1 is extracted from lifetimes/branching; data is insensitive to relative sign of E1 and E3."
+      },
+      "tier3_model_interpretation": {
+        "models": [
+          "Gogny D1S SCCM particle-number and parity projection",
+          "GDR coherent destructive mixing"
+        ],
+        "mechanism": "Neutron single-particle occupancy of nu(1h9/2, 2f7/2, 1i13/2) creates a negative polarization dipole that cancels the proton pi(2d5/2-1h11/2) dipole.",
+        "boundary": "Cancellation point is sensitive to dD0/dv^2 ~ -0.77 e fm; 21x SCCM amplitude discrepancy is due to high-order zero-crossing gradient."
+      }
+    },
+    {
+      "nucleus": "225Ra",
+      "phenomenon": "Static octupole double-well & parity doublets",
+      "tier1_direct_experiment": {
+        "observables": [
+          "NNDC Adopted dataset 225088001",
+          "Band A (1/2+): 0.0, 25.4, 42.8, 111.6 keV",
+          "Band B (1/2-): 31.6, 55.2, 69.4, 120.4 keV"
+        ],
+        "source": "Jain et al. NDS 110, 1409 (2009)",
+        "uncertainty_type": "Direct evaluated level spectroscopy",
+        "value": "Delta E(I) = +55.2 keV (1/2), -11.2 keV (3/2), +95.0 keV (5/2), -42.2 keV (7/2)"
+      },
+      "tier2_derived_strength": {
+        "quantities": [
+          "Decoupling parameter asymmetry A*delta_a = -20.43 keV",
+          "Mean tunneling splitting Delta E0 = 31.31 keV",
+          "B(E1; 3/2- -> 1/2+) = 0.00081(20) W.u."
+        ],
+        "units": "keV and W.u.",
+        "quality_gate": "Requires K=1/2 rotational Hamiltonian with signature decoupling term."
+      },
+      "tier3_model_interpretation": {
+        "models": [
+          "Intrinsic reflection-asymmetric rotor (Leander & Chen 1982)",
+          "Skyrme-HF / Schiff moment (Engel 2003, Dobaczewski 2005)"
+        ],
+        "mechanism": "Intrinsic reflection asymmetry enforces opposite-sign decoupling parameters a+ ~ -a-, naturally reproducing alternating sign staggering.",
+        "boundary": "Apparent parity inversion at 3/2 and 7/2 is a Coriolis dynamic effect, not shape coexistence."
+      }
+    },
+    {
+      "nucleus": "135Pr",
+      "phenomenon": "Magnetic Rotation & Shears Re-opening",
+      "tier1_direct_experiment": {
+        "observables": [
+          "Band 3 gamma transitions: 813.3 keV, 747.5 keV",
+          "DCO ratios: R_DCO(813.3) = 0.22(2)",
+          "Polarization asymmetry: Delta = +0.04(3)"
+        ],
+        "source": "Garg et al. PRC 92, 054325 (2015); Erratum PRC 100, 069901(E) (2019)",
+        "uncertainty_type": "Statistical from Compton clover polarimeter",
+        "value": "Delta = +0.04(3) (corrected from -0.20(8))"
+      },
+      "tier2_derived_strength": {
+        "quantities": [
+          "B(M1)/B(E2) ratio: 31/2- (15.8), 33/2- (19.7), 35/2- (94.8 (mu_N/eb)^2)",
+          "Crossover E2 unobserved beyond 35/2-"
+        ],
+        "units": "(mu_N / e b)^2",
+        "quality_gate": "Ratio derived from branching; post-crossing rebound trajectory is a TAC prediction, not an experimental measurement."
+      },
+      "tier3_model_interpretation": {
+        "models": [
+          "Tilted Axis Cranking (TAC) shears model",
+          "Quantum shears Racah 6j algebra"
+        ],
+        "mechanism": "3qp pi(h11/2) x nu(h11/2)^-2 crosses at hbar*omega ~ 0.37 MeV to 5qp pi(h11/2)(g7/2)^2 x nu(h11/2)^-2, abruptly reopening the shears angle from 15 deg to 75 deg.",
+        "boundary": "Wobbling hypothesis excluded by M1 dominance and E_wob sign inversion; core quadrupole deformation beta2 ~ 0.14 provides persistent E2 pedestal."
+      }
+    },
+    {
+      "nucleus": "110Cd",
+      "phenomenon": "Antimagnetic Rotation & Double Shears",
+      "tier1_direct_experiment": {
+        "observables": [
+          "Band B Delta I = 2 cascade: 1074.6, 1224.5, 1323.0, 1314.1, 1358.0 keV",
+          "DSAM state lifetimes: tau(16+) = 0.36(3) ps to tau(24+) = 0.27(7) ps"
+        ],
+        "source": "Roy et al. PLB 694, 322 (2011); NNDC ENSDF 110048001",
+        "uncertainty_type": "DSAM line-shape fitting with stopping power uncertainty (~20%)",
+        "value": "B(E2) = 0.14(1) e^2 b^2 at 16+ to 0.06(2) e^2 b^2 at 24+"
+      },
+      "tier2_derived_strength": {
+        "quantities": [
+          "Dynamic moment of inertia J^(2) = 15 - 35 hbar^2/MeV",
+          "Giant ratio J^(2)/B(E2) = 116 - 341 hbar^2 MeV^-1 (e^2 b^2)^-1",
+          "B(M1) unobserved / consistent with 0"
+        ],
+        "units": "hbar^2 MeV^-1 (e^2 b^2)^-1",
+        "quality_gate": "J^(2)/B(E2) carries physical units and depends on centering schemes; cannot be treated as a dimensionless hard gate."
+      },
+      "tier3_model_interpretation": {
+        "models": [
+          "Classical double-shears + semi-rigid core rotor model",
+          "Spherical quadrupole tensor T21=0, T22=2*sin^2(theta)"
+        ],
+        "mechanism": "Composite anti-unitary symmetry R_y(pi)*T cancels transverse magnetic dipoles (mu_perp = 0); B(E2) follows sin^4(theta) power law, while semi-rigid core rotation delays closing.",
+        "boundary": "Non-zero static longitudinal magnetic moment mu_z exists; 104Pd shows that high-frequency E2 drop can also be driven by deformation shrinkage."
+      }
+    }
+  ],
+  "quality_gate_rules": [
+    "Rule 1: Never cite Tier 3 model outputs (e.g. Q3 rotor conversions, TAC closing angles) as Tier 1 experimental measurements.",
+    "Rule 2: Check multi-step conversion units explicitly: 1 W.u.(E3) ~ 1200-2900 e^2 fm^6; B(E3; 0->3) = 7 * B(E3; 3->0); 1 b = 100 fm^2.",
+    "Rule 3: Maintain competing interpretations: soft octupole vibration vs static reflection asymmetry; shears reopening vs wobbling softening; core coupling vs pure shears.",
+    "Rule 4: In unmeasured channels (e.g. E2 crossover in 135Pr at high spin, or missing lines in 110Cd), mark as model-predicted rather than experimentally observed."
+  ]
+}

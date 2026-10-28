@@ -4632,3 +4632,10 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. 钯同位素四空穴AMR几何演化与Pauli终止上限（amr-pd-four-hole-geometry-evolution-audit.md，workers/amr-pd-four-hole-20261029/）：解析pi(g9/2)^-4四空穴B(E2)~sin^4(theta)代数，严格Pauli计数导出质子角动量上限J_max(g9/2^4)=12hbar（非18hbar），结合Zhang 2019 PNC-CSM阐明104Pd高频E2下降源于形变收缩epsilon2(omega)与四准粒子交叉而非单一配对崩溃；新增kumar-2023、qiao-2025、diwanshu-2025三篇来源页；
   3. 奇奇核从平面剪刀向三维手征转动的拓扑相变（mr-to-chiral-topology-odd-odd-106ag-134pr-198bi.md，工件chiral-mr-topology-landscape）：导出几何必要条件chi_g = j_p . (j_n x R) != 0与中轴惯量J_m > J_s, J_l动力学条件，建立Landau势函数V(phi) = a(I)sin^2(phi) + b(I)sin^4(phi)复现单阱->双阱对称性自发破缺拓扑演化，审定134Pr为动态手征候选并严格定界106Ag与198Bi；
   4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T04:10:00+08:00 Day26 checkpoint071：三级证据梯度规范化、AMR动态惯量端点行为、四极-八极拓扑去普适化与带头自旋量子修正。
+  1. 八极与磁转动三级证据梯度规范化（octupole-mr-three-tier-evidence-ladder.md，工件075）：严格划分Tier 1直接实验观测、Tier 2导出物理量与强度、Tier 3微观模型与对称性破缺，确立禁止将模型反演量冒充实验值、严格核对E3单位（1 W.u. ~ 1200-2900 e^2fm^6）与自旋简并因子（7x）、区分实测点与外推轨迹等四大质量门禁铁律；
+  2. AMR动态惯量闭合端点行为与104Pd全文对账（amr-j2-dynamic-inertia-endpoint-audit.md，rather-2014-104pd-antimagnetic-arxiv-full.md）：推导频率倒数相加与惯量相加解析式，证明P2剪刀闭合端点无固有奇点，取得Rather 2014完整11页原件（arXiv:1402.3422v1），核算104Pd高频J(2)/B(E2)演化，诊断110Cd重叠线形有限差分反常；
+  3. 四极—八极势能面拓扑去普适化（beta2-beta3-octupole-topology-boundary.md）：证伪固定beta2窗口硬门（148,150Ba大四极0.26-0.28仍有强八极0.17，222-230U深四极背景维持八极极小），建立chi_3(beta2)准粒子响应机制分解式；
+  4. 剪刀磁转动带头自旋微观起源与量子修正（mr-bandhead-spin-i0-quantum-shears-boundary.md）：证明排斥型P2力在theta=90°具有极小d2V/dtheta2 = 3V2 > 0，量化Pb与Pr区半经典I90与量子Casimir修正；
+  5. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

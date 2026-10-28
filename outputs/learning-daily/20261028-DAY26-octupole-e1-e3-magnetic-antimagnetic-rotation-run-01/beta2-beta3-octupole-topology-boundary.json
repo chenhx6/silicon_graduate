@@ -1,0 +1,119 @@
+{
+  "schema": "beta2-beta3-octupole-topology-boundary/v1",
+  "status": "bounded-source-self-audit",
+  "knowledge_note": "knowledge/research-notes/beta2-beta3-octupole-topology-boundary.md",
+  "output_note": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/beta2-beta3-octupole-topology-boundary.md",
+  "question": "是否可以把八极关联严格限定在 beta2≈0.15–0.20，并用 beta2 单变量解释 beta3/PES 软化？",
+  "answer": "不能。该区间是部分 Ba、Sm/Gd 结果中常见的经验窗口，不是跨核素、跨EDF/RMF的普适上限或下限。",
+  "fingerprints": [
+    {
+      "path": "tmp/1504.03243.pdf",
+      "bytes": 1434011,
+      "signature_hex": "255044462d312e35",
+      "sha256": "5d9b6c570fb308047f3305e2ab42ae7cd266bb0cf20bca5ae81c6b6f3db6f094",
+      "pages": 17,
+      "reading_coverage": "PDF pp.4–5, Fig.1; targeted full-text read"
+    },
+    {
+      "path": "tmp/1008.1888.pdf",
+      "bytes": 642441,
+      "signature_hex": "255044462d312e34",
+      "sha256": "b7f87c0b2b16e3b915ce73429a483a897c9578b2a5cfd68f54fa2d85c3e0e519",
+      "pages": 7,
+      "reading_coverage": "PDF p.4 Table 1, pp.4–6, Figs.2–3; targeted full-text read"
+    },
+    {
+      "path": "tmp/day26-octupole-doublewell/1209.0927.pdf",
+      "bytes": 347366,
+      "signature_hex": "255044462d312e34",
+      "sha256": "3936f0e15176d433900a4b1fab5b5f66f15dca98c9edda0a8ad255bd67600674",
+      "pages": 17,
+      "reading_coverage": "PDF pp.3,7–9, Figs.1–3; targeted full-text read"
+    },
+    {
+      "path": "tmp/day26-octupole-doublewell/1209.2518.pdf",
+      "bytes": 631428,
+      "signature_hex": "255044462d312e34",
+      "sha256": "9f782b344bfd02b6fc3fcd224f3d14235fd9857339a524ae0802859549663642",
+      "pages": 31,
+      "reading_coverage": "PDF p.4 Table I, p.12, pp.14–15; reused source-page evidence"
+    },
+    {
+      "path": "tmp/day26-octupole-doublewell/2008.08870.pdf",
+      "bytes": 2022542,
+      "signature_hex": "255044462d312e35",
+      "sha256": "c22d0422bcfb86d3f4e24a7f2012de8d6eadecec0ff264826c62d3eb44d3d4ec",
+      "pages": 15,
+      "reading_coverage": "PDF abstract and Gogny-D1M PES/IBM mapping sections; targeted read"
+    }
+  ],
+  "claims": [
+    {
+      "id": "B2B3-001",
+      "claim": "Gogny-D1M Sm/Gd二维PES在N=86,88附近沿beta3软，N=88可有浅非零极小；N>=90沿beta3变陡。",
+      "evidence": "model-calculation",
+      "locator": "1504.03243 PDF pp.4–5, Fig.1",
+      "needs_review": true
+    },
+    {
+      "id": "B2B3-002",
+      "claim": "148Ba和150Ba的RMF最低点分别约(beta2,beta3)=(0.26,0.17)和(0.28,0.17)，位于预设0.15–0.20窗口上方。",
+      "evidence": "model-calculation",
+      "locator": "1008.1888 PDF p.4 Table 1",
+      "needs_review": true
+    },
+    {
+      "id": "B2B3-003",
+      "claim": "Ba八极极小与N=88/N=94/Z=56附近能隙及nu f7/2-i13/2、pi d5/2-h11/2驱动对相关。",
+      "evidence": "author-model-analysis",
+      "locator": "1008.1888 PDF pp.4–6 Figs.2–3",
+      "needs_review": true
+    },
+    {
+      "id": "B2B3-004",
+      "claim": "D1S/D1M给出146Sm的Q30=0而148,150Sm有有限八极极小；150Sm平均场能量增益约105–204 keV，表明软动态关联。",
+      "evidence": "model-calculation",
+      "locator": "knowledge/sources/rodriguez-guzman-2012-sm-gd-quadrupole-octupole.md; PDF p.4, p.12",
+      "needs_review": true
+    },
+    {
+      "id": "B2B3-005",
+      "claim": "220–240U的四极最低点深且长椭，但222–230U仍出现非零Q3极小，深度不超过约1.5 MeV。",
+      "evidence": "model-calculation",
+      "locator": "1209.0927 PDF pp.3,7–9, Fig.1",
+      "needs_review": true
+    },
+    {
+      "id": "B2B3-006",
+      "claim": "八极响应的控制项可分为Q3矩阵元、占据因子、准粒子分母、配对和残余相互作用；beta2不构成单变量单调判据。",
+      "evidence": "mechanistic-inference",
+      "locator": "knowledge note §Central result and §Mechanistic separation",
+      "needs_review": true
+    },
+    {
+      "id": "B2B3-007",
+      "claim": "小D0或B(E1)可由质子—中子偶极相消产生，不能单独反推小beta3或弱B(E3)。",
+      "evidence": "model-analysis plus cross-source inference",
+      "locator": "1209.0927 PDF pp.8–9; Day26 Ba dipole-cancellation notes",
+      "needs_review": true
+    }
+  ],
+  "schematic_response_formula": "chi3(beta2) ~ 2 sum_{mu<nu} |Q3_munu(beta2)|^2 (u_mu v_nu + v_mu u_nu)^2 / (E_mu(beta2)+E_nu(beta2)); normalization and residual-interaction corrections are model dependent.",
+  "falsification_tests": [
+    "Treat beta2=0.20 as universal upper bound: falsified by 148,150Ba RMF results.",
+    "Treat beta2>0.28 as automatic octupole quenching: contradicted by 222–230U nonzero Q3 minima in the cited actinide calculations.",
+    "Treat nonzero static beta3 as rigid pear shape: contradicted by soft 144Ba SCCM PES and shallow 150Sm mean-field gains."
+  ],
+  "model_comparison": {
+    "Gogny_D1S_D1M": "similar qualitative trends in cited Sm/Gd and actinide calculations; absolute minima, depths, spectra and transition strengths remain interaction dependent.",
+    "BCP1": "actinide PECs can be similar, while pairing correlations and collective inertia differ substantially, including factors of two or more in some cases.",
+    "RMF_PK1": "Ba calculation exposes large-beta2 octupole minima and identifies explicit near-Fermi gaps; it is a model-specific structural mechanism, not a universal number."
+  },
+  "unresolved": [
+    "A matched-grid re-calculation of local C3(beta2), Q3 quasiparticle matrix elements, u/v factors and denominators across D1S/D1M/BCP/RMF.",
+    "A common beta2/Q30 normalization and uncertainty budget before quantitative cross-EDF comparison.",
+    "Full projected transition-density decomposition for E1/E3 in the 144,146Ba chain."
+  ],
+  "no_credit_or_deadline_change": true,
+  "commit_push": "not performed"
+}

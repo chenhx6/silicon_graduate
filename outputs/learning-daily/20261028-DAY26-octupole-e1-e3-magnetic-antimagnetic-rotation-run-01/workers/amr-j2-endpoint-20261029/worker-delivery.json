@@ -1,0 +1,31 @@
+{
+  "worker": "amr-j2-endpoint-20261029",
+  "status": "complete",
+  "deliverables": {
+    "research_note": "knowledge/research-notes/amr-j2-dynamic-inertia-endpoint-audit.md",
+    "source_page": "knowledge/sources/rather-2014-104pd-antimagnetic-arxiv-full.md",
+    "raw_pdf": "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf",
+    "artifacts": [
+      "amr-j2-endpoint-20261029_j2.py",
+      "j2_systematics.csv",
+      "j2_model_derivation.json",
+      "wiki-lint-final.json",
+      "boundary.json"
+    ]
+  },
+  "findings": [
+    "Direct differentiation of user linear omega(I) gives J2=[1/Jcore+3V2/A^2]^-1 and therefore a constant J2 if parameters are fixed.",
+    "Constrained particle-plus-rotor minimization with Es=V2 P2(c), Is=I0+A c gives omega_s=3V2 c/A and J2=Jcore+A^2/(3V2); core and shears responses add as angular-momentum susceptibilities, so this differs from the user's additive-frequency ansatz unless definitions are specified.",
+    "At theta->0 both dE/dtheta and dI/dtheta vanish as sin(theta), but their ratio is finite; the quadratic P2 model has no automatic endpoint singularity.",
+    "Finite-difference J2 from Roy E_gamma: 106Cd centers I=18,20,22,24 -> 23.56,25.00,22.60,21.29 hbar^2/MeV; 108Cd I=16,18,20 -> 26.85,25.81,19.14; 110Cd I=16,18,20,22 -> 26.85,40.40,-444.44,90.91. The 110Cd negative/large values are irregular-spacing diagnostics around 1323/1314-keV overlap, not negative physical inertia.",
+    "Rather arXiv full Table 1: 104Pd B(E2)=0.26(2),0.22(2),0.19(1),0.13(1),0.07(1),0.02(1) at I=16..26; J2/B(E2)=112.3(8.6),140.9(12.8),334.2(17.6),282.3(21.7),554.3(79.2). Multiplying gives derived J2 29.2(3.2),31.0(4.0),63.5(4.7),36.7(4.0),38.8(7.8), with I=20 peak.",
+    "Rather full arXiv read 11/11; original institution PDF remains first-page excerpt of same experiment, not independent evidence."
+  ],
+  "validation": {
+    "owned_lint_errors": 0,
+    "global_lint_errors": 1,
+    "boundary_ok": true,
+    "diff_check": "passed",
+    "commit_push": "not performed; parent owns integration/publication"
+  }
+}

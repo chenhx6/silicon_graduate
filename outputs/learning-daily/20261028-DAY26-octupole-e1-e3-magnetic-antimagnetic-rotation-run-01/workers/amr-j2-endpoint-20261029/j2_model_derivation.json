@@ -1,0 +1,20 @@
+{
+  "direct_user_formula": {
+    "omega": "(I-Js)/Jcore + 3*V2*(I-I0)/(A**2)",
+    "A": "j1*j2 or a defined shears slope",
+    "J2": "1/(1/Jcore + 3*V2/A**2)",
+    "condition": "If all quantities are fixed, J2 is constant; theta dependence requires A,V2,Jcore or I0 to vary with theta/I."
+  },
+  "constrained_particle_rotor_derivation": {
+    "E_s": "V2*P2(c), I_s=I0+A*c, c=cos(theta)",
+    "omega_s": "dE_s/dI_s = 3*V2*c/A",
+    "total_I": "I=I_s+Jcore*omega_s = I0 + (A + 3*Jcore*V2/A)*c",
+    "J2": "dI/domega_s = Jcore + A**2/(3*V2)",
+    "closure": "theta->0 gives c->1 and finite omega_s=3V2/A; dE/dtheta and dI/dtheta both vanish as sin(theta), so no singularity in the ratio."
+  },
+  "signs": {
+    "V2_positive": "positive curvature and positive J2 in the quadratic model",
+    "V2_zero": "shears-only linearization has divergent J2; a finite J2 requires core inertia or higher-order terms",
+    "negative_finite_difference": "not automatically a physical negative inertia; inspect level ordering, line overlap, backbend and uncertainties"
+  }
+}

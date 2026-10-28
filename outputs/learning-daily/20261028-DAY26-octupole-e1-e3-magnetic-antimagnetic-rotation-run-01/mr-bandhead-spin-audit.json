@@ -1,0 +1,18 @@
+{
+  "task": "mr-bandhead-spin-I0-core-decoupling",
+  "date": "2026-10-29",
+  "status": "complete-with-boundaries",
+  "knowledge_note": "knowledge/research-notes/mr-bandhead-spin-i0-quantum-shears-boundary.md",
+  "results": {
+    "P2_V2_positive": "conditional particle-hole minimum at theta=90 degrees",
+    "quantum_correction": "solve I(I+1)=j1(j1+1)+j2(j2+1), then select allowed discrete I",
+    "199Pb": "nominal j=(11,29/2), I0=35/2; close to orthogonal estimate",
+    "197Pb_control": "nominal j=(11,29/2), I0=37/2; close to orthogonal estimate",
+    "135Pr_137Pr": "nominal 3qp j=(11/2,10), I0=27/2; about 2.1 hbar above two-blade estimate, not a direct measured core spin",
+    "198Pb": "insufficient same-band j1,j2,I0 source tuple for numeric audit"
+  },
+  "artifacts": ["bandhead-spin-shears-audit.py", "bandhead-spin-shears-audit.csv", "bandhead-spin-shears-audit.json"],
+  "review_status": "unreviewed",
+  "full_repo_lint_run": false,
+  "commit_push_performed": false
+}

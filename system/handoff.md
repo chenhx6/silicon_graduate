@@ -3,7 +3,27 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint070：E3能权求和规则与巨共振分配、Pd四空穴AMR几何及奇奇核MR-手征拓扑相变
+## Active handoff — Day26 checkpoint071：三级证据梯度规范化、AMR动态惯量端点行为、四极-八极拓扑去普适化与带头自旋量子修正
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得重大微观理论与质量规范突破：
+1. **八极关联与磁转动三级证据梯度与质量门禁规范化**（`octupole-mr-three-tier-evidence-ladder.md`，工件 `075`）：
+   - 系统形式化三级证据梯度：Tier 1 直接实验测量（$E_\gamma, \tau, R_{\text{DCO}}, \Delta$ 偏振、库激产额）、Tier 2 导出物理量与强度（$B(E3), B(M1), B(E2), \mathcal{J}^{(2)}$、特征比值、$\delta E, \Delta E$）、Tier 3 微观模型与对称性破缺（TAC, SCCM, $\mathcal{R}_y(\pi)\mathcal{T}$，手征分岔）；
+   - 确立四大质量门禁铁律，严禁将 Tier 3 模型反演量（如 $Q_3, \beta_3, \theta$）冒充 Tier 1 实验值，严格核对多极单位换算与初末态统计权重；
+2. **AMR 动态惯量 $\mathcal{J}^{(2)}$ 闭合端点行为与 $^{104}\text{Pd}$ 全文对账**（`amr-j2-dynamic-inertia-endpoint-audit.md`，来源 `rather-2014-104pd-antimagnetic-arxiv-full.md`）：
+   - 严格区分频率局部线性叠加 $\mathcal{J}^{(2)} = (1/\mathcal{J}_c + 3V_2/A^2)^{-1}$ 与受约束粒子转子极小化惯量叠加 $\mathcal{J}^{(2)} = \mathcal{J}_c + A^2/(3V_2)$；证明理想 $P_2$ 剪刀在闭合端点（$\theta \to 0$）并不具备固有奇点，其实验峰值由背弯、中子对齐与形变收缩共同引发；
+   - 取得 Rather 2014 完整 11 页原件（arXiv:1402.3422v1），细致核算 $^{104}\text{Pd}$ 完整 $B(E2)$ 与 $\mathcal{J}^{(2)}/B(E2)$ 实验序列；诊断 $^{110}\text{Cd}$ 因 $1323/1314\text{ keV}$ 线形重叠引发的有限差分反常；
+3. **四极—八极 $(\beta_2, \beta_3)$ 势能面拓扑去普适化**（`beta2-beta3-octupole-topology-boundary.md`，工件 `beta2-beta3-octupole-topology-boundary.json`）：
+   - 证伪“八极关联严格局限于 $\beta_2 \approx 0.15-0.20$ 且大四极形变必淬灭八极”的先验假说：RMF 计算给出 $^{148,150}\text{Ba}$ 具备大四极（$\beta_2 \approx 0.26-0.28$）与强八极（$\beta_3 \approx 0.17$），$^{222-230}\text{U}$ 在深长椭四极背景下依然维持非零八极极小；
+   - 建立单粒子响应微观分解式 $\chi_3(\beta_2) \sim 2 \sum \frac{|Q^{(3)}|^2 (uv+vu)^2}{E_\mu + E_\nu}$，阐明轨道相干对形变的自洽依赖；
+4. **剪刀磁转动带头自旋 $I_0$ 的微观排斥极小与量子修正**（`mr-bandhead-spin-i0-quantum-shears-boundary.md`，工件 `bandhead-spin-shears-audit`）：
+   - 证明粒子-空穴排斥型四极力 $V_{\text{int}} = V_2 P_2(\cos\theta)$（$V_2 > 0$）在 $\theta = 90^\circ$ 具有微观曲率极小 $d^2 V / d\theta^2 = 3V_2 > 0$，自然决定了剪刀带头的近正交构型；
+   - 评估半经典 $I_{90} = \sqrt{j_1^2 + j_2^2}$ 与量子 Casimir $I(I+1) = j_1(j_1+1) + j_2(j_2+1)$ 对 $^{199,197}\text{Pb}$ 与 $^{135,137}\text{Pr}$ 的适用性与核芯退耦涨落。
+
+全量检查全绿（wiki_lint 0 error/288 warnings，boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint070：E3能权求和规则与巨共振分配、Pd四空穴AMR几何及奇奇核MR-手征拓扑相变
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
