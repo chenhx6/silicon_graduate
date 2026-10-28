@@ -3,7 +3,16 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint006：Pr 同位素 MR 交叉反弹系统学与全套验证闭环
+## Active handoff — Day26 checkpoint007：144Ba 微观模型互补对账（投影 GCM vs 3D 晶格推转 CDFT）
+
+正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26]/next26，无 Day27。上一检查点 b32b8c11 已成功推送 Gitee origin/main。
+
+本段完成微观核结构理论框架的深度互补对账：
+1. **Bernard 2016 (Gogny D1S 投影 GCM) 与 Li 2024 (PC-PK1 3D 晶格推转 CDFT) 互补机制闭环**：确立 Bernard 2016 解决低激发态宇称双重态恢复与大振幅软形状涨落（预报 B(E3)=25 W.u. 与 0⁺-1⁻ 能级间隔），而 Li 2024 解决高自旋下 Z=56/N=88 Routhian 能隙维持八极形变刚度至 24ħ 的动力学机制；
+2. **理论局限性厘清**：明确 Bernard 2016 因缺少推转时间反演破缺导致能谱伸展（转动惯量偏小 30%），而 Li 2024 缺少对关联与宇称投影导致无法直接计算交错宇称能级差，二者结合构成了 144Ba 软振动与高自旋八极稳定性的完整微观图像；
+3. **系统状态全绿**：`octupole-mr-amr-evidence-gradient.md` 追加理论对账小节，全量 lint 与 runner 校验保持全绿（0 errors / 267 warnings），代码与文档保持干净。
+
+## Previous handoff — Day26 checkpoint006：Pr 同位素 MR 交叉反弹系统学与全套验证闭环
 
 正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26]/next26，无 Day27。上一检查点 12d7e4da 已成功推送 Gitee origin/main。
 

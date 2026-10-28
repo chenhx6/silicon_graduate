@@ -7,7 +7,7 @@ updated: 2026-10-28
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [gaffney-2013-pear-shaped-rn-ra, bucher-2016-144ba-direct-octupole, bucher-2017-146ba-direct-octupole, bernard-2016-144ba-sccm-octupole, garg-2015-135pr-magnetic-rotation, frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]
+evidence_sources: [li-2024-144ba-octupole-cdf-3d-lattice, gaffney-2013-pear-shaped-rn-ra, bucher-2016-144ba-direct-octupole, bucher-2017-146ba-direct-octupole, bernard-2016-144ba-sccm-octupole, garg-2015-135pr-magnetic-rotation, frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]
 created_from: Day26 direct-source study
 promotion_target: octupole-and-rare-electromagnetic-decay
 tags: [octupole, E1, E3, magnetic-rotation, antimagnetic-rotation, evidence-boundary]
@@ -115,6 +115,18 @@ Ba保留软八极相关、较局域的内禀反射不对称、随spin变化的�
 - **3qp 向 5qp 交叉动力学**：两核均以三准粒子 $\pi(h_{11/2})^1 \otimes \nu(h_{11/2})^{-2}$ 为低能带头，在 $\hbar\omega \approx 0.37–0.42\text{ MeV}$ 处因一对 $g_{7/2}$ 质子顺对齐发生向五准粒子 $\pi(h_{11/2})^1 (g_{7/2})^2 \otimes \nu(h_{11/2})^{-2}$ 的能带交叉；中子费米面移动使 $^{137}\text{Pr}$（N=78）交叉频率（$0.42\text{ MeV}, 35/2^-$）略滞后于 $^{135}\text{Pr}$（$0.37\text{ MeV}, 33/2^-$）；
 - **带交叉引发的 $B(M1)/B(E2)$ 上升反弹**：两核在逼近交叉点时均观察到强度比的显著上升（$^{135}\text{Pr}$ 从 $15.78$ 升至 $94.83\ (\mu_N/e\text{b})^2$；$^{137}\text{Pr}$ 从 $10.4$ 升至 $62.1\ (\mu_N/e\text{b})^2$），直接打破了“磁转动带内强度比必须处处严格单调陡降”的简单教条；
 - **高自旋延伸与测量边界差异**：$^{137}\text{Pr}$ 在交叉点上方观测到延伸至 $47/2^-$ 的跨带 $E2$ 线，展现出 5qp 剪刀重新闭合使强度比从 $62.1$ 跌落至 $17.2$ 的完整两相演化；而 $^{135}\text{Pr}$ 在 $35/2^-$ 以上因高自旋 $E2$ 跨带线湮没于统计涨落，交叉后的强度比演化在实验上处于未决状态。两核均缺乏直接态寿命测量，维持候选磁转动评级。
+
+### 144Ba 微观八极理论模型对账：投影 GCM (Bernard 2016) 对比 3D 晶格推转 CDFT (Li 2024)
+
+在探索 $^{144}\text{Ba}$ 八极关联的微观机理中，Wiki 摄入的两大先进理论框架形成了深刻的互补对照：
+
+| 理论框架 | 投影组态混合 SCCM（Bernard 2016） | 3D 晶格推转 CDFT（Li 2024） | 理论互补性与物理结论 |
+|---|---|---|---|
+| **相互作用/泛函** | Gogny D1S 能量密度泛函 | PC-PK1 相对论点耦合泛函 | 非相对论有限力程与相对论点耦合金标度的一致检验 |
+| **自由度与对称性** | 轴对称四极与八极 $(\beta_2, \beta_3)$，严格恢复 $J$、宇称、中子数 $N$、质子数 $Z$ | 三维实空间笛卡尔晶格，破缺轴对称与空间反演，保留推转时间反演破缺 | Bernard 覆盖低激发量子数恢复；Li 覆盖高自旋三维自洽重排 |
+| **基态八极形变与势垒** | HFB 极小位于 $(\beta_2, \beta_3)=(0.20, \pm 0.10)$，但沿 $\beta_3 \in [-0.2, 0.2]$ 势垒极浅（软势能面） | 束缚 CDFT 极小位于 $(\beta_2, \beta_3)=(0.22, 0.13)$，八极驱动源自单粒子能隙 | 均确认非零八极内禀极小，但投影 GCM 证实波函数具有显著大振幅零点涨落 |
+| **跃迁与能谱机制** | 通过 Hill-Wheeler-Griffin 方程获得好宇称双重态能谱与严格投影跃迁核，预报 $B(E3; 3^- \to 0^+) = 25\text{ W.u.}$ | 忽略配对，无宇称投影，采用半经典转子公式 $B(E3) \propto Q_{30}^2$，沿 yrast 序列计算至 $I \approx 24\hbar$ | Bernard 准确再现 $0^+-1^-$ 能级次序与跃迁相消；Li 解释高自旋下 $Z=56, N=88$ Routhian 能隙维持八极刚度的微观根源 |
+| **方法局限与盲区** | 缺失三轴 $K$ 混合与 cranking，导致激发谱系统性伸展（转动惯量偏小约 $30\%$） | 缺失对关联与宇称投影，无法直接计算低自旋交错宇称位移 $\delta E(I)$ 或相消机制 | 证明单一模型无法通吃全自旋区，低自旋量子涨落（GCM）与高自旋单粒子顺对齐（CDFT）需分层审视 |
 
 ## Transfer Conditions
 

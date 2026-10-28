@@ -4580,3 +4580,4 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-28T18:25:00+08:00 Day26 checkpoint004：数值落地 Roy 2011 两粒子加转子 AMR 模型，证伪 110Cd 纯剪刀假设（I_max=19），确立核心转动（2.9–6.3 hbar）导致平缓 B(E2) 平台（0.14→0.06）的物理机制；全套检查通过，发布 checkpoint 004。
 - 2026-10-28T18:45:00+08:00 Day26 checkpoint005：跨质量区八极系统学对账（A≈145 Ba vs A≈225 Ra-Rn），确立单粒子偶极过零相消与 delta E(I) 刚度分水岭判据；全套检查通过，发布 checkpoint 005。
 - 2026-10-28T19:05:00+08:00 Day26 checkpoint006：完成 135Pr 与 137Pr 磁转动带交叉系统学对比，确立 3qp-5qp 交叉前强度比反弹（升至 62–95）与后交叉 5qp 剪刀演化边界；全套检查通过，发布 checkpoint 006。
+- 2026-10-28T19:30:00+08:00 Day26 checkpoint007：深入对账 144Ba 两大微观八极理论（Bernard 2016 投影 GCM 低激发量子涨落 vs Li 2024 3D 晶格推转 CDFT 高自旋能隙稳定机制）；全套验证通过，发布 checkpoint 007。
