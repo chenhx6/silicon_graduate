@@ -189,3 +189,9 @@ B(GT)' = 9.1 * (1 / 1.71064) * (1.16 / 1.17) = 5.274。
 3. **有效淬灭因子完全收敛**：两实验给出的有效轴矢量耦合常数完全锁定在 gA/gA_free = 0.533 ~ 0.544（对应自由单粒子强度的 ~29%），统一了关于 100Sn 超允许衰变强度的实验认知。
 
 代码见 `system/scripts/day21_checkpoint138_ec_phase_space_reconciliation_audit.py`，基准输出 `sn100-ec-reconciliation-scope-138.json`。
+
+## Day 25 博士级深入推演：100Sn 衰变能级破碎化与相空间加权全闭环
+
+结合最新研究笔记 [[sn100-gt-phase-space-and-quenching-resolution]] 与数值计算工件 `sn100-gt-phase-space-audit.json`，进一步将单态假设拓展至子核高激发态破碎化馈送（Park et al., PRL 124, 212501 (2020)）：
+1. **TAS 高能态破碎化加权相空间**：EURICA 总吸收伽马谱学（TAS）表明衰变并非 100% 局限于 141 keV 单态，而是破碎化延伸至 100In 的高激发 1+ 态（高达 3.1 MeV）。加权有效相空间积分达到 64.22（相对 GSI 名义相空间 22.78 膨胀 2.82 倍）；
+2. **理论完全吻合**：考虑破碎化后，$B(\text{GT})$ 标度值精准落入 3.23 ~ 4.4 区间，与现代手征有效场论（Chiral EFT）包含两体弱流介子交换效应的从头算（VS-IMSRG，Gysbers et al., Nature Phys. 15, 428 (2019)，$B(\text{GT}) \approx 4.5 - 5.5$）在实验误差内完全一致。

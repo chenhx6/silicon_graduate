@@ -46,6 +46,7 @@ updated: 2026-10-26
 - [[134pr-two-band-mixing-offdiagonal-e2-sensitivity]] — TableI列身份及固定α条件前向例，非实际CI或模式认证.
 - [[a130-chirality-counterexamples-and-shape-coexistence-systematics]] — A≈130手征反例与三轴形状共存系统学：近简并破缺、电磁跃迁伴随量判据与四核多维比对.
 - [[pado-probability-density-mapping-mixing-ratios]] — 基于无预设自旋取向度的概率密度映射法（PDM/P-ADO）提取多极混合比研究.
+- [[sn100-gt-phase-space-and-quenching-resolution]] — 100Sn极重双幻核Gamow-Teller衰变强度GSI与RIKEN两倍分歧之相空间与能级破碎化微观解析.
 - [[chen-2026-pdm-probability-density-mapping]] — 用户提供的 PDM/P-ADO 方法手稿原件、公式、假设与适用边界。
 - [[133ce-thesis-analysis-blueprint]] — 持续深入学习/实际分析蓝本，非普通摄入完成。
 - [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] — 两条主线、逐量模型比较及原件输入边界。
