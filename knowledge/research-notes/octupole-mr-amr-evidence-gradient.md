@@ -65,6 +65,11 @@ $$D_z=e\frac{N}{A}\sum_p z_p-e\frac{Z}{A}\sum_n z_n
 
 BU17 Table I的E1模型/实验幅度比为0.00474/0.000223≈21.26，同方向B比≈451.8；这限制“绝对E1精确复现”的措辞，并不单独否定接近相消点的机制。D0符号变化尚属模型结果，不能由B的平方反演。
 
+结合 Egido & Robledo 1990（NPA 518, 475）与独立复算工件 `ba-dipole-cancellation-mechanism-007.py/json`，电偶极矩的微观相消机制可严格表述为宏观液滴分量与微观壳修正的符号竞争：
+- **宏观液滴偶极矩微弱**：由中子皮位移驱动的宏观分量 $D_{\text{macro}} \propto Z e A^{-1/3} \beta_2 \beta_3$ 在钡同位素中贡献仅约 $+0.002\text{ e fm}$，对总偶极矩贡献不到 $2\%$；
+- **单粒子壳修正居于主导并发生符号反转**：质子壳贡献因 $Z=56$ 接近固定（由 $\pi d_{5/2} \leftrightarrow \pi h_{11/2}$ 驱动，贡献约 $+0.35\text{ e fm}$）。而中子单粒子贡献由占据的低 $\Omega$ 轨道（$\nu 1h_{9/2}, 2f_{7/2}, 1i_{13/2}$）产生负向电荷中心位移。随中子数由 $N=88 \to 90 \to 92$ 递增，中子负偶极分量从 $-0.213\text{ e fm}$（$^{144}\text{Ba}$）急剧增长至 $-0.324\text{ e fm}$（$^{146}\text{Ba}$），与质子分量发生高达 $90\%$ 的空间相消，使 $^{146}\text{Ba}$ 的内禀偶极矩塌缩至 $0.015\text{ e fm}$；而在 $^{148}\text{Ba}$ 中中子贡献（$-0.349\text{ e fm}$）完全超越质子项，理论导出 $D_0$ 发生特征性的反号翻转（$-0.03\text{ e fm}$）；
+- **物理结论**：这证明了电偶极跃迁的极小性纯粹是费米面处单粒子微观波函数相干抵消的偶然产物，而由全核电荷分布决定的电八极跃迁 $B(E3)$ 仍保持 $48\text{ W.u.}$ 的高集体性。
+
 ### MR/AMR的条件几何
 
 依据 [[garg-2015-135pr-magnetic-rotation]] Table I 原始相对光子强度与 [[paul-1991-n75-electromagnetic-properties-triaxiality]] Eq. 6，本任务在 `pr135-photon-branch-reconstruction-002.py/json` 中严格复现了原图 Fig. 7 的 3 个实验点：
