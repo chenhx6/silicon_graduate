@@ -4567,5 +4567,6 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-27：用户补充 Springer 账户配额为 500 hits/day、100 hits/min；已写入文献访问规则和检查项，明确其来源为用户提供而非响应头。
 - 2026-10-28：Nature downloader 更新后按服务保存 Springer Meta/OA 两把 key，删除旧通用 api_key；metadata/openaccess 校验均 HTTP 200，未宣称 Full Text API 权限。
 - 2026-10-28：更新 GitHub `Yuan1z0825/nature-skills`：旧 commit `c4e4c99f` → `c1637a8`，24 个 Nature skills 已安装并逐项 hash MATCH；新增 paper-trans、paper-xray、paper2word、social-science。hook session-start、farmer dry-run、AgentOps 10 tests、Nature downloader Springer tests 和 Wiki lint 均通过；共享 skills Gitee 仓库无远端差异。
+- 2026-10-28：继续更新 GitHub 依赖：shuorenhua@e33d5eb、humanizer@8c307f3、paper-search-nodejs@de5a35d。shuorenhua 123 用例自检、humanizer v3.1.0 校验、paper-search MCP 48 套/796 项测试、fresh MCP 初始化及 23 个工具发现均通过；保留 launch_mcp.py 包装器、凭据和隔离下载目录。未发现独立 browser-use/crawler 仓库。
 
 - 2026-10-27T21:40:17+08:00 Day25 checkpoint006：在手征与形状共存竞争矩阵中补充 133Ce MχD 与三轴形状共存历史首例（Ayangeakaa 2013/2016，WK22）的证据解构；明确两对候选带完全缺失态寿命测量，其形状共存纯系泛函势能面极小，并在后继高自旋研究与低激发进动中发生理论重释，形成 A≈130 质量区四核（134Pr/135Nd/136Nd/133Ce）的完整证据梯度。全量验证保持全绿。
