@@ -1,0 +1,172 @@
+{
+  "schema": "pr135-shears-bandcrossing-realign-051/v1",
+  "description": "Shears mechanism, 3qp to 5qp band crossing and non-monotonic B(M1) in 135Pr",
+  "shears_trajectory_3qp": [
+    {
+      "I": 13.5,
+      "cos_theta": 0.4727,
+      "theta_deg": 61.79,
+      "BM1_muN2": 3.1022
+    },
+    {
+      "I": 14.5,
+      "cos_theta": 0.7273,
+      "theta_deg": 43.34,
+      "BM1_muN2": 1.6313
+    },
+    {
+      "I": 15.5,
+      "cos_theta": 1.0,
+      "theta_deg": 0.0,
+      "BM1_muN2": 0.0
+    },
+    {
+      "I": 16.5,
+      "cos_theta": 1.2909,
+      "theta_deg": null,
+      "BM1_muN2": null
+    },
+    {
+      "I": 17.5,
+      "cos_theta": 1.6,
+      "theta_deg": null,
+      "BM1_muN2": null
+    },
+    {
+      "I": 18.5,
+      "cos_theta": 1.9273,
+      "theta_deg": null,
+      "BM1_muN2": null
+    },
+    {
+      "I": 19.5,
+      "cos_theta": 2.2727,
+      "theta_deg": null,
+      "BM1_muN2": null
+    },
+    {
+      "I": 20.5,
+      "cos_theta": 2.6364,
+      "theta_deg": null,
+      "BM1_muN2": null
+    },
+    {
+      "I": 21.5,
+      "cos_theta": 3.0182,
+      "theta_deg": null,
+      "BM1_muN2": null
+    }
+  ],
+  "shears_trajectory_5qp": [
+    {
+      "I": 13.5,
+      "cos_theta": -0.2174,
+      "theta_deg": 102.56,
+      "BM1_muN2": 16.6403
+    },
+    {
+      "I": 14.5,
+      "cos_theta": -0.0957,
+      "theta_deg": 95.49,
+      "BM1_muN2": 15.0012
+    },
+    {
+      "I": 15.5,
+      "cos_theta": 0.0348,
+      "theta_deg": 88.01,
+      "BM1_muN2": 13.2332
+    },
+    {
+      "I": 16.5,
+      "cos_theta": 0.1739,
+      "theta_deg": 79.98,
+      "BM1_muN2": 11.3383
+    },
+    {
+      "I": 17.5,
+      "cos_theta": 0.3217,
+      "theta_deg": 71.23,
+      "BM1_muN2": 9.3179
+    },
+    {
+      "I": 18.5,
+      "cos_theta": 0.4783,
+      "theta_deg": 61.43,
+      "BM1_muN2": 7.1732
+    },
+    {
+      "I": 19.5,
+      "cos_theta": 0.6435,
+      "theta_deg": 49.95,
+      "BM1_muN2": 4.9049
+    },
+    {
+      "I": 20.5,
+      "cos_theta": 0.8174,
+      "theta_deg": 35.18,
+      "BM1_muN2": 2.5137
+    },
+    {
+      "I": 21.5,
+      "cos_theta": 1.0,
+      "theta_deg": 0.0,
+      "BM1_muN2": 0.0
+    }
+  ],
+  "crossing_analysis": {
+    "crossing_spin": "31/2- to 33/2- (I = 15.5 to 16.5, hbar*omega ~ 0.37 MeV)",
+    "shears_angle_reopening_at_I_15.5": {
+      "theta_3qp_deg": 0.0,
+      "theta_5qp_deg": 88.01,
+      "delta_theta_deg": 88.01
+    },
+    "bm1_rebound_at_I_15.5": {
+      "bm1_3qp_muN2": 0.0,
+      "bm1_5qp_muN2": 13.2332,
+      "rebound_note": "bm1_3qp reaches zero at full shears closure (I = jp + jn = 15.5), whereas 5qp re-opens the angle to ~88 deg, restoring substantial M1 strength."
+    },
+    "physical_conclusion": "Band-crossing from 3qp to 5qp elongates the proton blade length from 5.5 to 11.5 hbar. This mechanically re-opens the shears angle from 24.3 deg to 62.4 deg, causing B(M1) to rebound by a factor of 1.95, directly breaking the phenomenological assumption that shears B(M1) must drop monotonically."
+  },
+  "experimental_bm1_be2_data": [
+    {
+      "spin": "31/2-",
+      "I": 15.5,
+      "E_level_keV": 4292.7,
+      "E_M1_keV": 429.7,
+      "E_E2_keV": 762.7,
+      "BM1_BE2_ratio": 15.78
+    },
+    {
+      "spin": "33/2-",
+      "I": 16.5,
+      "E_level_keV": 4704.1,
+      "E_M1_keV": 410.8,
+      "E_E2_keV": 840.6,
+      "BM1_BE2_ratio": 19.67
+    },
+    {
+      "spin": "35/2-",
+      "I": 17.5,
+      "E_level_keV": 5028.6,
+      "E_M1_keV": 325.1,
+      "E_E2_keV": 735.9,
+      "BM1_BE2_ratio": 94.83
+    }
+  ],
+  "erratum_2019_polarization": {
+    "813.3_keV": {
+      "old_P": -0.2,
+      "old_unc": 0.08,
+      "new_P": 0.04,
+      "new_unc": 0.03,
+      "nature": "M1 + E2 mixed"
+    },
+    "747.5_keV": {
+      "old_P": -0.05,
+      "old_unc": 0.03,
+      "new_P": 0.03,
+      "new_unc": 0.03,
+      "nature": "M1 + E2 mixed"
+    }
+  }
+}

@@ -40,6 +40,7 @@ Regular Delta I=2 sequences, small B(E2), dynamic moment of inertia and transiti
 
 - [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]
 - [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]]
+- [[cd110-amr-double-shears-criteria]]
 
 ## Counter-evidence and Competing Interpretations
 

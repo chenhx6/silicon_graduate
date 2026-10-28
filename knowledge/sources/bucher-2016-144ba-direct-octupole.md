@@ -129,3 +129,4 @@ Bucher *et al.* provide a direct E3 benchmark that is materially stronger than r
 | BU16-D26-003 | Q3、β3转换需转子/轴对称及高阶形变约定。宽E3区间与146Ba相容不证明严格等强，也不以单一跃迁独立给刚性与软性裁决。BE16的投影GCM提供具体模型比较而非新增实验。 | inference-boundary | direct-original-and-limited-synthesis | printed112503-4; BE16-D26-004/007/008 | true |
 
 `supports` 直接电磁八极集体性；`limits` 精确静态形状与区间相交的过强解释；关联 [[bernard-2016-144ba-sccm-octupole]] 与 [[octupole-mr-amr-evidence-gradient]]。打印值的舍入/一阶误差传播练习不冒称重新测量或新CI。
+详见微观相消与势能面分析专页：[[ba-microscopic-octupole-dipole-cancellation]]。

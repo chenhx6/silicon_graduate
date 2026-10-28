@@ -1,0 +1,86 @@
+{
+  "schema": "cd110-amr-four-shears-criteria-052/v1",
+  "description": "Double-shears symmetry, B(E2) plateau and J(2)/B(E2) ratio in 110Cd antimagnetic rotation",
+  "BW_E2_eb2": 0.003130713734604822,
+  "transitions": [
+    {
+      "cascade": "12+ -> 10+",
+      "E_gamma_keV": 561.0,
+      "BE2_Wu": 40.0,
+      "BE2_Wu_unc": 1.5,
+      "BE2_eb2": 0.1252,
+      "BE2_eb2_unc": 0.0047,
+      "Delta_Egamma_MeV": null,
+      "J2_hbar2_MeV": null,
+      "J2_over_BE2_ratio": null,
+      "origin": "Piiparinen 1993 RDDS"
+    },
+    {
+      "cascade": "14+ -> 12+",
+      "E_gamma_keV": 854.3,
+      "BE2_Wu": 29.0,
+      "BE2_Wu_unc": 3.0,
+      "BE2_eb2": 0.0908,
+      "BE2_eb2_unc": 0.0094,
+      "Delta_Egamma_MeV": 0.2933,
+      "J2_hbar2_MeV": 13.64,
+      "J2_over_BE2_ratio": 150.2,
+      "origin": "Piiparinen 1993 RDDS"
+    },
+    {
+      "cascade": "16+ -> 14+",
+      "E_gamma_keV": 1074.6,
+      "BE2_Wu": 50.0,
+      "BE2_Wu_unc": 5.0,
+      "BE2_eb2": 0.1565,
+      "BE2_eb2_unc": 0.0157,
+      "Delta_Egamma_MeV": 0.2203,
+      "J2_hbar2_MeV": 18.16,
+      "J2_over_BE2_ratio": 116.0,
+      "origin": "Roy 2011 DSAM"
+    },
+    {
+      "cascade": "18+ -> 16+",
+      "E_gamma_keV": 1224.5,
+      "BE2_Wu": 41.0,
+      "BE2_Wu_unc": 6.0,
+      "BE2_eb2": 0.1284,
+      "BE2_eb2_unc": 0.0188,
+      "Delta_Egamma_MeV": 0.1499,
+      "J2_hbar2_MeV": 26.68,
+      "J2_over_BE2_ratio": 207.9,
+      "origin": "Roy 2011 DSAM"
+    },
+    {
+      "cascade": "20+ -> 18+",
+      "E_gamma_keV": 1323.0,
+      "BE2_Wu": 38.0,
+      "BE2_Wu_unc": 7.0,
+      "BE2_eb2": 0.119,
+      "BE2_eb2_unc": 0.0219,
+      "Delta_Egamma_MeV": 0.0985,
+      "J2_hbar2_MeV": 40.61,
+      "J2_over_BE2_ratio": 341.3,
+      "origin": "Roy 2011 DSAM"
+    },
+    {
+      "cascade": "22+ -> 20+",
+      "E_gamma_keV": 1314.1,
+      "BE2_Wu": 22.0,
+      "BE2_Wu_unc": 8.0,
+      "BE2_eb2": 0.0689,
+      "BE2_eb2_unc": 0.025,
+      "Delta_Egamma_MeV": -0.0089,
+      "J2_hbar2_MeV": null,
+      "J2_over_BE2_ratio": null,
+      "origin": "Roy 2011 DSAM (1314 gate)"
+    }
+  ],
+  "amr_criteria_evaluation": {
+    "symmetry_principle": "R_y(pi)*T discrete symmetry cancels the transverse magnetic dipole moments identically (mu_perp == 0), strictly forbidding Delta I = 1 M1 transitions.",
+    "be2_plateau": "From 12+ to 20+, B(E2) remains nearly constant at 0.09-0.16 e^2b^2 (29-50 W.u.), falling to 0.069 e^2b^2 at 22+, because semi-rigid core rotation (Im_core ~ 19.5 hbar^2/MeV) slows the shears closing.",
+    "j2_over_be2_range": "116.0 to 341.3 hbar^2 MeV^-1 (e^2b^2)^-1",
+    "comparison_with_collective_rotor": "Normal deformed collective rotation has J(2)/B(E2) ~ 15-40. AMR exceeds this by a factor of 4 to 10.",
+    "high_spin_22plus_branch_controversy": "NNDC ENSDF adopted lists a 1100 keV transition with RI=37 and B(E2)=20(10) W.u. from 22+, but Roy 2011 coincidence gates failed to confirm this branch. Roy Table 1 is adopted with B(E2) = 0.06(2) (eb)^2 based on the clean 1314 keV gate."
+  }
+}

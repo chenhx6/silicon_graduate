@@ -11,6 +11,9 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[ba-microscopic-octupole-dipole-cancellation]] — 144,146Ba八极关联与电偶极相消微观机制、SCCM中子轨道占据与静态梨形边界。
+- [[pr135-shears-dynamics-bandcrossing-rebound]] — 135Pr剪刀动力学、3qp至5qp高自旋能带交叉与B(M1)/B(E2)非单调反弹机制。
+- [[cd110-amr-double-shears-criteria]] — 110Cd反磁转动双剪刀对称性、B(E2)平台与J(2)/B(E2)巨比值判据体系。
 - [[cd110-relative-strength-boundary-047]] — 110Cd HI,XNG相对RI、评价BE2字段与Roy绝对寿命强度边界。
 - [[ba-e1-e3-model-boundary-046]] — 144/146Ba E1/E3单位、SCCM算符核与实验/模型证据层。
 - [[cd110-branch-normalization-boundary]] — 110Cd相对分支、22⁺ 1100-keV情景与Roy B(E2)归一化边界。

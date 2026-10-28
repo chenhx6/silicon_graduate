@@ -1,0 +1,58 @@
+{
+  "schema": "ba-octupole-dipole-sccm-model-050/v1",
+  "description": "Microscopic audit of dipole cancellation and E3 collectivity in 144,146Ba",
+  "e3_analysis": {
+    "144Ba": {
+      "BW_E3_fm6": 1231.7184,
+      "BW_E3_eb3": 0.0012317183999999998,
+      "B_down_eb3": 0.060357142857142866,
+      "B_down_Wu_derived": 49.0,
+      "BE3_Wu_reported": 48.0,
+      "BE3_Wu_confidence_interval": [
+        14.0,
+        73.0
+      ]
+    },
+    "146Ba": {
+      "BW_E3_fm6": 1266.1704,
+      "BW_E3_eb3": 0.0012661704,
+      "B_down_eb3": 0.060357142857142866,
+      "B_down_Wu_derived": 47.67,
+      "BE3_Wu_reported": 48.0,
+      "BE3_Wu_confidence_interval": [
+        19.0,
+        69.0
+      ]
+    },
+    "overlap": {
+      "ci_144Ba": [
+        14.0,
+        73.0
+      ],
+      "ci_146Ba": [
+        19.0,
+        69.0
+      ],
+      "overlap_range": [
+        19.0,
+        69.0
+      ],
+      "overlap_ratio": 1.0
+    }
+  },
+  "e1_cancellation_analysis": {
+    "146Ba_E1_exp_amp_eb12": 0.000223,
+    "146Ba_E1_sccm_amp_eb12": 0.00474,
+    "amplitude_ratio_sccm_over_exp": 21.26,
+    "strength_ratio_BE1_sccm_over_exp": 451.8,
+    "dipole_operator": "D_z = e (N/A sum_p z_p - Z/A sum_n z_n) = e (NZ/A) (R_{p,z} - R_{n,z})",
+    "proton_driving_orbitals": "pi(1h11/2) <-> pi(2d5/2) with Delta l = Delta j = 3 (positive dipole ~ +0.35 e fm)",
+    "neutron_driving_orbitals": "nu(1h9/2, 2f7/2, 1i13/2) with Delta l = Delta j = 3 (negative dipole ~ -0.21 to -0.35 e fm)",
+    "net_cancellation_mechanism": "At N=90 (146Ba), occupation of intruder nu 1i13/2 (v2=0.20) and low-Omega nu 1h9/2 (v2=0.40), 2f7/2 (v2=0.27) increases negative neutron polarization to match proton polarization, collapsing D0 from 0.13 e fm in 144Ba to < 0.01 e fm in 146Ba."
+  },
+  "static_vs_dynamic_boundary": {
+    "good_parity_condition": "<0+| Q3 |0+> == 0 identically for all laboratory parity eigenstates; transition matrix elements <0+||M(E3)||3-> do not directly measure intrinsic expectation values.",
+    "gogny_d1s_pes": "Bernard 2016 unprojected potential energy surface is extremely flat along beta3 (< 0.5 MeV barrier); ground state wave packet F(beta2, beta3) has broad zero-point octupole spread.",
+    "parity_displacement": "Energy displacement delta E(I) = E(I-) - 0.5[E((I+1)+) + E((I-1)+)] in 144,146Ba is 600-800 keV at low spin, demonstrating octupole vibrational softness rather than rigid pear shape (< 50 keV in 224Ra)."
+  }
+}

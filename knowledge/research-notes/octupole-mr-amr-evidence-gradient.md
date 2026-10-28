@@ -262,6 +262,9 @@ $S(I)=[E(I)-E(I-1)]/(2I)$ 只使用实验/量子能级，平滑或相近并非�
 - [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]
 - [[roy-2011-cd110-systematics-antimagnetic]]
 - [[magnetic-rotation]]、[[antimagnetic-rotation]]、[[shears-mechanism]]
+- [[ba-microscopic-octupole-dipole-cancellation]]
+- [[pr135-shears-dynamics-bandcrossing-rebound]]
+- [[cd110-amr-double-shears-criteria]]
 
 ## Review Status
 

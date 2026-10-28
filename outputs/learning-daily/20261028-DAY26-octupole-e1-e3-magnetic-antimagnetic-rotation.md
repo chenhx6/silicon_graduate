@@ -279,7 +279,7 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
       "sources": [
         {
           "path": "knowledge/sources/nndc-2009-ra225-adopted-parity-doublet.md",
-          "locator": "Key Results"
+          "locator": "NR225-1"
         }
       ]
     },
@@ -287,6 +287,39 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
       "knowledge": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
       "anchor": "## Day26 原件重读与派生量复核",
       "summary": "本轮定向原件核对与条件推导；未升级人审。",
+      "sources": [
+        {
+          "path": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
+          "locator": "RO11-D26C-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/ba-microscopic-octupole-dipole-cancellation.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "富中子钡同位素微观偶极相消机制、中子单粒子极化与直接E3相交对静态梨形形变假设的严格边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+          "locator": "BU17-D26-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/pr135-shears-dynamics-bandcrossing-rebound.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "135Pr磁转动剪刀动力学、3qp向5qp能带交叉与剪刀角重新打开引发的B(M1)/B(E2)非单调反弹推导。",
+      "sources": [
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-D26-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/cd110-amr-double-shears-criteria.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "110Cd反磁转动四叶片双剪刀镜像对称性、无M1禁戒规则、核芯转动解耦B(E2)平台与J(2)/B(E2)巨比值判据体系。",
       "sources": [
         {
           "path": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",

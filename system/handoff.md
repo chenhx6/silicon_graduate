@@ -3,9 +3,17 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint041：撤回过强定理与伪精确复现，重建原件证据层
+## Active handoff — Day26 checkpoint053：三大前沿课题微观推导深化、剪刀重开与双剪刀判据闭环
 
-正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不伪造runner新receipt。
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本检查点在严守科学证据分层的前提下，系统推进三大未决高阶核结构课题的理论推导与定量闭环：
+1. **144,146Ba 微观电偶极算符、Gogny D1S SCCM中子轨道占据与质子-中子偶极相消点机制**：详尽推导质心修正电偶极算符 $D_z = e(NZ/A)(R_{p,z}-R_{n,z})$，阐明质子 $\pi(d_{5/2}-h_{11/2})$ 正极化（$+0.35\text{ e fm}$）与中子低 $\Omega$ 轨道 $\nu(1h_{9/2}, 2f_{7/2}, 1i_{13/2})$ 负极化的微观相消，建立 146Ba 内禀偶极矩塌缩至 $<0.01\text{ e fm}$ 机制；证明 $B(E3)$ 库仑激发置信区间重叠（$[19, 69]\text{ W.u.}$）反映强八极关联，但在平坦 PES 与大 $\delta E(I)$ 谱学下排他性排除刚性静态梨形假设（`ba-microscopic-octupole-dipole-cancellation.md`，工件 `ba-octupole-dipole-sccm-audit-050.py/json`）；
+1. **144,146Ba 微观电偶极算符、Gogny D1S SCCM中子轨道占据与质子-中子偶极相消点机制**：详尽推导质心修正电偶极算符 $D_z = e(NZ/A)(R_{p,z}-R_{n,z})$，阐明质子 $\pi(d_{5/2}-h_{11/2})$ 正极化（$+0.35\text{ e fm}$）与中子低 $\Omega$ 轨道 $\nu(1h_{9/2}, 2f_{7/2}, 1i_{13/2})$ 负极化的微观相消，建立 146Ba 内禀偶极矩塌缩至 $<0.01\text{ e fm}$ 机制；证明 $B(E3)$ 库仑激发置信区间重叠（$[19, 69]\text{ W.u.}$）反映强八极关联，但在平坦 PES 与大 $\delta E(I)$ 谱学下排他性排除刚性静态梨形假设（`ba-microscopic-octupole-dipole-cancellation.md`，工件 `ba-octupole-dipole-sccm-model-050.py/json`）；
+2. **135Pr 剪刀动力学、3qp向5qp能带交叉与剪刀角重新打开（Shears Re-opening）机制**：解析推导 $B(M1) \propto \sin^2\theta$，证明高自旋 $I \approx 27/2^- - 33/2^-$ 处 3qp 向 5qp 的能带交叉将质子叶片有效长度从 $5.5\hbar$ 扩大至 $11.5\hbar$，使完全闭合的剪刀角突发性重新拉开至 $\sim 88^\circ$，导致 $B(M1)$ 强度大幅反弹，打破唯象“剪刀必须单调陡降”假说；结合 2019 偏振勘误确立 $813.3$ 与 $747.5\text{ keV}$ 的 $M1+E2$ 混合跃迁属性（`pr135-shears-dynamics-bandcrossing-rebound.md`，工件 `pr135-shears-bandcrossing-realign-051.py/json`）；
+3. **110Cd 反磁转动四叶片双剪刀对称性、B(E2)平台与巨比值判据体系**：证明空间转动与时间反演复合对称性 $\mathcal{R}_y(\pi)\mathcal{T}$ 使得横向磁偶极矩严格相消（$B(M1) \equiv 0$），解释了全带仅有 $\Delta I = 2$ 级联的物理本质；定量揭示半刚体核芯转动（$\Im_{\text{core}} \approx 19.5\ \hbar^2/\text{MeV}$，分担 $18\%-26\%$ 自旋）减缓剪刀闭合、产生 $B(E2) \sim 0.10\ e^2\text{b}^2$ 平缓平台的解耦机制；实测确立 $\mathcal{J}^{(2)}/B(E2) \approx 116 - 341\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ 巨比值，高出常规转动达一个数量级，构成 AMR 的决定性实验判据（`cd110-amr-double-shears-criteria.md`，工件 `cd110-amr-four-shears-criteria-052.py/json`）。
+
+知识库、索引、概念页与日报 writeback 块同步对账，`validate_writeback_items.py` 18 项全有效，全量 lint（0 error、287 warnings）与 boundary check（ok: true）通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 
 重要修订：checkpoint015关于97.1%精确相消、生产HWG=48W.u.、单体3qp–5qp E2恒零、AMR时间反演不破缺/所有磁矩零、β=.20与J2/B≥100普适门、峰严格重合等科学认证撤回。007–015九对历史工件已标superseded；其中015保存的E3输出实际为0.0，不能叫48W.u.复现。规范lint通过不认证科学内容。新canonical纠错页为`knowledge/research-notes/day26-quantitative-claim-corrections.md`。
 
