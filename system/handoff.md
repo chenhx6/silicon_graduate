@@ -3,7 +3,17 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint015：八极微观单粒子驱动、偶极相消与能带交叉动力学三线突破
+## Active handoff — Day26 checkpoint019：撤回过强定理与伪精确复现，重建原件证据层
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不伪造runner新receipt。
+
+重要修订：checkpoint015关于97.1%精确相消、生产HWG=48W.u.、单体3qp–5qp E2恒零、AMR时间反演不破缺/所有磁矩零、β=.20与J2/B≥100普适门、峰严格重合等科学认证撤回。007–015九对历史工件已标superseded；其中015保存的E3输出实际为0.0，不能叫48W.u.复现。规范lint通过不认证科学内容。新canonical纠错页为`knowledge/research-notes/day26-quantitative-claim-corrections.md`。
+
+三路代理完成或在复核016奇A宇称、017条件流场/TAC、018点团簇反向例；019提供准粒子单体非零与位移曲率反例，022对Roy原Table1保留负有限差分并记录寿命换算差别。 020独立审计核对原PDF与Egido获取缺口；023归一化审计区分半衰期、内转换和未确认1100-keV支线；024对读132La/N=75原件；025固定双角动量M1闭式残差1.78e−15；026诊断015零范数伪态。 027 Butler 2020 222/228Ra多跃迁E3原件已归档；028新增225Ac ENSDF评价。Bucher/Roy/Nomura原表、单位与解释层已定向修正；不升级human-reviewed。下一当前高信息问题：Pr2019勘误、Egido1990正文与有符号核、Cd B(E2)表/寿命转换条件、3D-TAC实际分支。仍有充足研究时段，保持在研，不提前收束。
+
+本批检查与发布待实际receipt确认；继承的千余未跟踪历史文件受保护，不git add .。恢复：`codex resume 01a1819f-75bb-7a11-be19-05761880f65c -C /workspace/wiki -s danger-full-access -a never`。
+
+## Previous handoff — Day26 checkpoint015（过强科学认证由019撤回）：八极微观单粒子驱动、偶极相消与能带交叉动力学三线突破
 
 正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26, 27]/next26，无 Day28。上一检查点 17a00906 已成功推送 Gitee origin/main。
 

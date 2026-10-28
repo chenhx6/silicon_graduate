@@ -1,4 +1,9 @@
 {
+  "scientific_audit": {
+    "status": "superseded-unverified-claims-not-scientific-evidence",
+    "correction_note": "knowledge/research-notes/day26-quantitative-claim-corrections.md",
+    "scope": "Legacy numerical payload retained for audit only. Assumed data/coefficients, universal thresholds, production-model equivalence and exact experimental agreement are not certified. Use source locators and corrected 017-019 artifacts."
+  },
   "schema_version": 1,
   "artifact_id": "octupole-microscopic-sccm-droplet-015",
   "title": "Comprehensive Octupole Microscopic Driving Mechanism, Dipole Cancellation, and Symmetry-Restored SCCM Audit",

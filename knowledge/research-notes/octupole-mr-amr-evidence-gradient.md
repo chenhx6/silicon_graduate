@@ -15,6 +15,8 @@ tags: [octupole, E1, E3, magnetic-rotation, antimagnetic-rotation, evidence-boun
 
 # 八极关联、MR与AMR的证据梯度
 
+> 017纠错（2026-10-28）：下文历史小节中“$\beta_2=0.20$ 刚性上限”“$\mathcal J^{(2)}/B(E2)\ge100$ 排他硬门”“AMR 所有 M1/静态磁矩恒零”“跨配置 3qp–5qp E2 必为零”以及剪刀/能带交叉峰精确重合的断言均撤回；相应数字只在注明输入和算符的模型中讨论。本文后部“017 微观流场与多模式相界”给出有效的条件形式，旧段落保留为审计历史，不能引用为科学结论。
+
 ## Research Trigger
 
 Day26 从 BU16/BU17 与 Garg2015 原件重建推断链，纠正 Day25 预习中未获原件支持的 Pr 自旋轨迹、Cd 数列和“所有 M1 恒零”认证。下列结论是 Codex source self-audit 与明列条件的推导，不新增人审状态；历史学分与撤回不变。
@@ -114,37 +116,9 @@ Ba保留软八极相关、较局域的内禀反射不对称、随spin变化的�
 | **电偶极矩 $D_0$ 反常极小** | 从 $^{144}\text{Ba}$（$0.13\text{ e fm}$）到 $^{146}\text{Ba}$（$\le 0.01\text{ e fm}$）暴跌逾 13 倍 | $^{224}\text{Ra}$ 处出现局部极小（$|D_0| \approx 0.03\text{ e fm}$），而 $Q_3$ 处于极大 | 实验确证 $B(E1)$ 大小与八极跃迁集体性强弱解耦；微观上均源于中子单粒子轨道占据引发的质子-中子偶极反向相消 |
 | **交错宇称能级位移 $\delta E(I)$** | 低自旋区维持在 $600–800\text{ keV}$，中高自旋区才逐渐交错 | $^{220}\text{Rn}$ 维持 $>140\text{ keV}$（振动型）；$^{224}\text{Ra}$ 快速收敛至 $<20\text{ keV}$（刚性转子型） | 单一增强 $B(E3)$ 无法区分静态梨形极小与动态八极软振动；必须结合 $\delta E(I)$ 随自旋的收敛行为方能裁决内禀形状刚度 |
 
-### 135Pr 与 137Pr 磁转动能带交叉、剪刀动力学与 B(M1)/B(E2) 反弹物理机制（工件 014）
+### Pr 磁转动交叉：配置与跃迁算符边界（014旧认证撤回）
 
-对比 [[garg-2015-135pr-magnetic-rotation]]（Band 3，N=76）、[[agarwal-2007-137pr-magnetic-rotation-bandcrossing]]（Band 2，N=78）及经典铅区剪刀核 [[clark-2000-shears-mechanism]]（$^{197,198}\text{Pb}$），结合独立理论与数值建模工件 `shears-dynamics-bandcrossing-model-014.py/json`, 确立多准粒子能带交叉下剪刀动力学的微观机制与普适定理：
-
-1. **半经典两刃剪刀运动学与电磁辐射幂律**（Clark & Macchiavelli 2000 Eqs. 5–8）：
-   - 质子叶片 $\vec{j}_\pi$ 与中子叶片 $\vec{j}_\nu$ 耦合成总剪刀自旋 $\vec{I}_{sh} = \vec{j}_\pi + \vec{j}_\nu$。叶片开角 $\theta$ 满足：
-     $$\cos\theta = \frac{I_{sh}(I_{sh}+1) - j_\pi(j_\pi+1) - j_\nu(j_\nu+1)}{2 \sqrt{j_\pi(j_\pi+1) j_\nu(j_\nu+1)}}$$
-   - 质子叶片相对转轴的倾角 $\theta_\pi$ 满足 $\sin\theta_\pi = \frac{\sqrt{j_\nu(j_\nu+1)}}{\sqrt{I_{sh}(I_{sh}+1)}} \sin\theta$；
-   - 跃迁几率由垂直于总角动量的电磁算符分量决定：
-     $$B(M1; I \to I-1) = \frac{3}{8\pi} (g_\pi - g_\nu)^2 j_\pi(j_\pi+1) \sin^2\theta_\pi$$
-     $$B(E2; I \to I-2) = \frac{15}{128\pi} (e Q_{\text{eff}})^2 \sin^4\theta_\pi + B(E2)_{\text{core}}$$
-     在纯单组态剪刀闭合（$\theta \to 0^\circ$）过程中，横向磁偶极辐射随 $\sin^2\theta_\pi$ 单调减退，而电四极跃迁则由核心形变维持基线平台。
-
-2. **顺对齐诱发剪刀重开（Shears Re-opening）与跨带 $E2$ 正交性淬灭定理**：
-   - **剪刀重开机制**：在 $^{135}\text{Pr}$（$\hbar\omega \approx 0.37\text{ MeV}$）与 $^{137}\text{Pr}$（$\hbar\omega \approx 0.42\text{ MeV}$）中，当转频达到临界对齐频率时，一对质子（主要为 $g_{7/2}/d_{5/2}$ 轨道）破对并沿转轴顺对齐，将 3qp 态 $\pi h_{11/2} \otimes \nu h_{11/2}^{-2}$ 跃迁至 5qp 态 $\pi h_{11/2}(g_{7/2})^2 \otimes \nu h_{11/2}^{-2}$。此时质子叶片有效角动量从 $j_\pi = 11/2$ 跃升至 $j_\pi' = 23/2$。由于叶片长度突增，在固定总角动量 $I$ 下，新剪刀张角 $\theta'$ 必然骤增（剪刀突发重开），导致横向磁矩分量与 $B(M1)$ 剧烈反弹上升；
-   - **跨带 $E2$ 正交性淬灭定理**：因为电磁 $E2$ 算符为单体算符，相差两个准粒子（破对）的 5qp 态与 3qp 态之间的直接转移矩阵元严格为零：$\langle 3\text{qp} | \hat{T}(E2) | 5\text{qp} \rangle \equiv 0$。在两能带相干混合区 $|I\rangle = \alpha(I)|3\text{qp}\rangle + \beta(I)|5\text{qp}\rangle$ 中，$\Delta I = 2$ 的 $E2$ 跃迁连接始态 $I$ 与终态 $I-2$。由于态 $I$ 已跨入 5qp 优势相（$\beta(I)^2 > 0.8$），而态 $I-2$ 仍滞留在 3qp 相（$\alpha(I-2)^2 > 0.8$），对角项振幅乘积 $\alpha(I)\alpha(I-2) \ll 1$ 与 $\beta(I)\beta(I-2) \ll 1$ 同步受挫，造成带内电四极跨跃度 $B(E2; I \to I-2)$ 出现断崖式塌缩（计算由 $0.11$ 降至 $0.03\ e^2\text{b}^2$）；
-   - **比值反弹峰**：分子 $B(M1)$ 激增与分母 $B(E2)$ 塌缩的协同共振，导致强度比 $B(M1)/B(E2)$ 出现戏剧性的飙升：$^{135}\text{Pr}$ 实测从 $15.78$ 飙升至 $94.83\ (\mu_N/e\text{b})^2$（工件 014 模型理论值 $16.3 \to 20.7 \to 63.6 \to 86.9$）；$^{137}\text{Pr}$ 实测从 $10.4$ 升至 $62.1\ (\mu_N/e\text{b})^2$（模型理论值 $11.1 \to 11.8 \to 27.3 \to 84.7 \to 50.4$）。
-
-3. **动力学转动惯量 $\mathcal{J}^{(2)}$ 共振峰与极值点对齐**：
-   在倾斜轴推转（TAC）与两带混合图像中，准粒子顺对齐引发对齐角动量对转频的快速响应 $di_x/d\omega \approx (\Delta i)^2 / (2 V_{mix})$。这导致动态转动惯量 $\mathcal{J}^{(2)} = dI/d\omega$ 在带交叉频率 $\omega_c$ 处产生尖锐的共振峰（$^{135}\text{Pr}$ 计算达到 $137.3\ \hbar^2/\text{MeV}$；$^{137}\text{Pr}$ 计算达到 $222.2\ \hbar^2/\text{MeV}$）。该 $\mathcal{J}^{(2)}$ 极值点在频率轴与自旋轴上精确对应着两带波函数最大混合点（$\alpha^2 \approx \beta^2 \approx 0.5$）及 $B(M1)/B(E2)$ 反弹峰值，构成了能带交叉驱动剪刀重开的动力学金标准。
-
-4. **磁转动典型核剪刀闭合与重开多核系统学对照**：
-
-| 核素 | 剪刀组态与能带 | 带头自旋与交叉 | 剪刀动力学演化特征 | $B(M1)$ 与比值演化 | 数据来源 |
-|---|---|---|---|---|---|
-| $^{198}\text{Pb}$ | $\pi(h_{9/2}i_{13/2})_{11^-} \otimes \nu(i_{13/2})^{-2}_{12^+}$ (4qp) | $I=17^- \to 23^-$，无交叉 | 经典纯剪刀闭合（$\theta: 78^\circ \to 20^\circ$），$\mathcal{J}^{(2)} \approx 22\ \hbar^2/\text{MeV}$ 恒定 | $B(M1)$ 严格单调骤降 10 倍以上（$3.2 \to 0.25\ \mu_N^2$） | Clark 2000 Tab 1 |
-| $^{197}\text{Pb}$ | $\pi(11^-) \otimes \nu(13/2^+ \to 33/2^+)$ (Band 'a') | $I \approx 37/2^-, 49/2^-$ 两次交叉 | 经历中子空穴顺对齐，剪刀两次突发重开 | $B(M1)$ 两次出现由 $0.5$ 跃升至 $1.8\ \mu_N^2$ 的剧烈反弹 | Clark 2000 Fig 10 |
-| $^{135}\text{Pr}$ | $\pi h_{11/2} \otimes \nu h_{11/2}^{-2}$ $\to$ 5qp (Band 3) | $\hbar\omega \approx 0.37\text{ MeV}, 33/2^-$ | 质子 $g_{7/2}$ 对齐，3qp $\to$ 5qp 交叉引发剪刀重开与 $E2$ 淬灭 | $B(M1)/B(E2)$ 从 $15.78$ 剧烈反弹飙升至 $94.83\ (\mu_N/e\text{b})^2$ | Garg 2015 Tab I |
-| $^{137}\text{Pr}$ | $\pi h_{11/2} \otimes \nu h_{11/2}^{-2}$ $\to$ 5qp (Band 2) | $\hbar\omega \approx 0.42\text{ MeV}, 35/2^-$ | 质子 $g_{7/2}$ 对齐驱动交叉；高自旋展现 5qp 剪刀重新闭合 | 比值从 $10.4$ 反弹至 $62.1$，随后重新闭合降至 $17.2$ | Agarwal 2007 Tab I |
-
-本对比彻底证伪了“磁转动带内强度比必须处处严格单调陡降”的简单教条，确立了多准粒子顺对齐剪刀重开与正交性淬灭作为高自旋磁转动能带交叉的普适物理规律。
+[[garg-2015-135pr-magnetic-rotation]] 原Table I、Figs5/7/8 将 $^{135}\mathrm{Pr}$ 交叉置于约 $33/2^-$、$\hbar\omega\simeq0.37$ MeV；3qp→5qp 是 TAC 归属，交叉后缺 crossover，原作者明确不能由现有相对 $B(M1)/B(E2)$ 曲线解释交叉。014 工件中剪刀重开、强度比反弹及 $\mathcal J^{(2)}$ 峰精确重合是特定输入的示意输出，不是实测定律；对 $^{137}\mathrm{Pr}$ 也须单独核原表与配置。单体 $E2$ 算符在 Bogoliubov 准粒子基底含 $\beta^\dagger\beta^\dagger$ 与 $\beta\beta$ 项，故 3qp 与 5qp 的跃迁矩阵元并非普适为零。跨配置强度要用实际 HFB 变换、重叠、相位与 $I\to I-2$ 两端波函数计算；只由正交性不能推出 E2 断崖。
 
 ### 144Ba 微观八极理论模型对账：投影 GCM (Bernard 2016) 对比 3D 晶格推转 CDFT (Li 2024)
 
@@ -171,60 +145,15 @@ Ba保留软八极相关、较局域的内禀反射不对称、随spin变化的�
    - **八极振动/过渡核（$^{220}\text{Rn}$）**：$\delta E(I)$ 从 $415.5\text{ keV}$ 降至 $120.5\text{ keV}$（下降 $71\%$），但高自旋下仍维持 $>120\text{ keV}$ 显著位移；
    - **大振幅八极软核（$^{144,146}\text{Ba}$）**：$\delta E(I)$ 从 $659\text{ keV}$（$^{144}\text{Ba}$）与 $647\text{ keV}$（$^{146}\text{Ba}$）仅下降 $\sim 45\%$，并在高自旋（$I=7^-, 9^-$）顽固维持在 $340 - 400\text{ keV}$ 的平缓平台上，实证了钡同位素存在剧烈的八极势垒量子穿隧效应，绝非深势阱中的静态刚性形变。
 
-### 剪刀机制形变窗口上限（$\beta_2 \le 0.20$）与多准粒子 MR/ER 共存定则
+### MR/ER 共存及形变边界（009/012旧硬门撤回）
 
-结合工件 `mr-vs-amr-shears-geometry-008.py/json`、`shears-deformation-boundary-theorem-009.py/json` 与 `mr-vs-er-configuration-selection-012.py/json`，确立剪刀机制与电磁多极辐射的动力学选择准则：
+$B(E2)_{\rm coll}\propto\beta_2^2$ 是固定电荷、几何、转动波函数的条件尺度；$B(M1)/B(E2)$ 同时受叶片、$g$ 因子、芯、配对、组态与跃迁混合影响。因而 $\beta_2=0.20$、$j=7/2$、$|\Delta g|=1$ 均非必要充分相界。[[he-chuangye-2006-magnetic-chiral-106ag]] 的 MR 与手征候选、[[rather-2014-ag106-transition-rates]] 的不同组态解释说明需要逐带身份与绝对电磁强度对账；009/012 只保留其指定参数的模型演算。常规电转动占优应由芯角动量分担及绝对 E2/M1 观测量检验，有限核可表现为交叉/混合而无热力学意义的锐相界。
 
-1. **单剪刀 MR 与双剪刀 AMR 的辐射幂次律**：
-   - 单剪刀磁转动中，横向磁偶极辐射由单一粒子—空穴叶片张角决定，$B(M1) \propto \sin^2(\theta/2)$，而电四极跃迁由叶片自身形变调制，$B(E2) \propto \sin^2\theta$；
-   - 双剪刀反磁转动中，两对叶片关于转轴对称，横向磁矩严格相消（$B(M1) \equiv 0$），而电四极跃迁来自两对对称叶片的相干叠加，满足四次方幂律：$B(E2) \propto \sin^4\theta$；
-   - 四次方幂律导致纯双剪刀闭合（如 $^{106,108}\text{Cd}$）在剪刀角由 $90^\circ \to 15^\circ$ 闭合时，产生高达 20 倍的剧烈单调暴跌（$0.407 \to 0.020\ e^2\text{b}^2$）；而在 $^{110}\text{Cd}$ 中，由于半刚体核心转动分担了 $18\% - 26\%$ 的自旋增益，剪刀角仅需收缩至 $31^\circ$，从而维持了实验观测到的平缓 $B(E2)$ 过渡平台（$0.14 \to 0.06\ (e\text{b})^2$），两者共同满足巨判据比 $\mathcal{J}^{(2)}/B(E2) \approx 100 - 1300\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$。
+### AMR 双剪刀与 Cd 系统学（013旧硬门撤回）
 
-2. **剪刀机制形变窗口上限定理（$\beta_2 \le 0.20$）**：
-   在多质量区（$A=110, 135, 165, 198$）的定量扫描证明，当四极形变 $\beta_2 > 0.20$ 时，核芯集体四极跃迁强度 $B(E2)_{\text{coll}} \propto \beta_2^2$ 剧增一至两个数量级，将特征比值 $B(M1)/B(E2)$ 迅速压制至 $< 5\ (\mu_N/e\text{b})^2$。因此，剪刀机制仅在近球形与弱形变核区（$\beta_2 \le 0.18 - 0.20$）具有主导物理意义；进入强形变稀土区（如 $^{160}\text{Dy}$ 或超形变 $^{163}\text{Lu}$，$\beta_2 \ge 0.30$）后，剪刀机制在物理上被强烈的集体四极转动彻底淬灭。
+[[roy-2011-cd110-systematics-antimagnetic]] Table 1 的 $^{106,108,110}\mathrm{Cd}$ 各自寿命与 $B(E2)$ 序列应按核素、spin、实验或有效寿命分别记录；旧013跨核表与原表不符，不能用于认证 $\mathcal J^{(2)}/B(E2)\ge100$ 或“无芯纯 AMR”。原作者讨论 $^{110}\mathrm{Cd}$ 的 core coupling，但这不认证旧014/013的18–26%芯分担或“完满再现”平台；旧模型 $B(E2)$ 端点约0.116→0.011，与原表0.14→0.06不一致。$^{105}\mathrm{Cd}$ 又有源限定的自洽形变与中子混合，参见 [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]]。理想对称双剪刀只使指定横向磁矩抵消，不能推出局部流、静态总磁矩或任意跨带M1恒零；$\Delta I=2$ 的带内M1缺失本有多极选择规则。并列比较 $\mathcal J^{(2)}$、寿命、分支与 $B(E2)$ 时须保留单位和误差，不能称前者与E2之比为无量纲排他判据。
 
-3. **多准粒子 MR 与 ER 在同核中的共存定则（以 $^{104,106}\text{Ag}$ 为例）**：
-   - 磁转动（剪刀机制）充要条件为质子与中子价准粒子同时占据高 $j$ 侵入轨道（$j \ge 7/2$，如 $\pi g_{9/2}, \nu h_{11/2}$）且 $|g_\pi - g_\nu| \ge 1.0$；
-   - 当价粒子或空穴落入低 $j$ 轨道（$j \le 3/2$，如 $\pi p_{1/2}^{-1}$）时，剪刀闭合的角动量容量塌缩至 $2 \times 1/2 = 1\hbar$（丧失剪刀张角余量），角动量产生必须全部由集体核心转动 $\vec{R}$ 承担，能带转变为集体电四极转动带（如 $^{104}\text{Ag}$ 的 Bands D/E），完美阐明了同核内非集体剪刀与集体四极转动共存的微观本质。
-
-### 反磁转动（AMR）双剪刀对称性、核心耦合动力学与巨判据比系统学
-
-依据独立数值与系统学工件 amr-cadmium-palladium-systematics-013.py/json，确立反磁转动（AMR）的四刃剪刀几何对称性、辐射幂律及跨核系统学判据：
-
-1. **四刃剪刀几何与空间旋转—时间反演联合对称性**：
-   在以 $^{106,108,110}\text{Cd}$ 与 $^{101,104,105}\text{Pd}$ 为代表的反磁转动体系中，角动量由对称背对的质子双空穴叶片 $\vec{j}_{h1}, \vec{j}_{h2}$（如 $\pi(g_{9/2})^{-2}$）与转动轴 $z$ 上的中子粒子叶片 $\vec{j}_p$（如 $\nu(h_{11/2})^2$）耦合成四刃几何：
-   - 空间旋转对称性：绕总角动量轴的 $\pi$ 旋转算符 $\mathcal{R}_z(\pi)$ 将叶片 1 变换为叶片 2（$\vec{j}_{h1\perp} \to -\vec{j}_{h1\perp} = \vec{j}_{h2\perp}$），平均场单体密度矩阵满足 $\mathcal{R}_z(\pi) \rho \mathcal{R}_z^\dagger(\pi) = \rho$。该空间对称性强制保证好宇称与好 signature（$r = e^{-i\pi\alpha} = +1$），从而在选择定则上**严格禁戒带内 $\Delta I = 1$ 的磁偶极跃迁**（$B(M1; I \to I-1) \equiv 0$），能带严格表现为 $\Delta I = 2$ 的电四极级联序列；
-   - 横向磁偶极相消与反铁磁性类比：横向磁偶极矩为两对称空穴叶片的反向矢量和，$\vec{\mu}_\perp = g_h (\vec{j}_{h1\perp} + \vec{j}_{h2\perp}) \equiv 0$。在时间反演 $\mathcal{T}$ 下，所有磁矩反号，但由于无净横向磁偶极，体系不具备铁磁性的磁偶极取向，而是通过相反磁矩叶片的对称剪刀闭合产生角动量，因而在宏观上表现为类似反铁磁体（antiferromagnet）的转动行为，故得名“反磁转动”。
-
-2. **四刃剪刀电四极跃迁四次方辐射幂律 $B(E2) \propto \sin^4\theta$**：
-   - 电四极跃迁算符在垂直于转动轴平面的分量由对称双刃的四极张量相干叠加决定：$Q_{2,\pm 2} = \sqrt{\frac{3}{8}} (Q_{xx}^{(1)} + Q_{xx}^{(2)} - Q_{yy}^{(1)} - Q_{yy}^{(2)}) = \frac{3\sqrt{3}}{2\sqrt{2}} Q_0 \sin^2\theta$；
-   - 约化跃迁几率因此严格遵循四次方幂次律：
-     $$B(E2; I \to I-2) = \frac{15}{32\pi} (e Q_{\text{eff}})^2 \sin^4\theta$$
-   - 幂律物理推论：当剪刀角 $\theta$ 从垂直态 $90^\circ$ 闭合至高自旋 $15^\circ$ 时，$\sin^4\theta$ 从 $1.000$ 暴跌至 $0.0045$（暴跌 220 倍！）。这完满解释了为何在纯剪刀体系 $^{106,108}\text{Cd}$（$\Im = 0$）中，伴随自旋上升（$I = 12^+ \to 20^+$ 或 $14^+ \to 22^+$），实测 $B(E2)$ 迅速发生接近一个数量级的剧烈断崖式骤降（$^{106}\text{Cd}$ 从 $0.42$ 降至 $0.10\ e^2\text{b}^2$；$^{108}\text{Cd}$ 从 $0.28$ 降至 $0.03\ e^2\text{b}^2$）。
-
-3. **半刚体核心耦合动力学（Core-shears coupling）解惑 $^{110}\text{Cd}$ 平台**：
-   - 纯剪刀终止危机：在 $^{110}\text{Cd}$ 的组态 $\pi(g_{9/2})^{-2} \otimes \nu(h_{11/2})^2$ 中，$j_p = 10\hbar, j_h = 4.5\hbar$。在纯剪刀极限下，完全闭合角（$\theta = 0^\circ$）对应的最大可能自旋为 $I_{\text{max}} = j_p + 2j_h = 19\hbar$。纯剪刀机制物理上绝对无法延伸至实验测得的 $24^+$ 乃至 $26^+, 28^+$ 能级；
-   - 核心转动能量极小化锁定：引入核心集体转动耦合后，总能量 $E(\theta, I) = \frac{(I - I_{sh})^2}{2\Im} + V_{shears}(\theta)$ 的极小化条件给出核心角动量与剪刀频率的严格动力学锁定关系：
-     $$R = \Im \omega_{sh}, \quad I = I_{sh} + \Im \omega_{sh} = a j_h + 2 j_h \cos\theta + \Im \omega_{sh}(\theta)$$
-   - 在 $^{110}\text{Cd}$ 中，拟合核心转动惯量 $\Im = 19.5\ \hbar^2\text{MeV}^{-1}$（约为半刚体转子值），在 $I = 16^+ \to 24^+$ 区间，核心转动贡献从 $2.92\hbar$ 稳步上升至 $6.29\hbar$（占总自旋的 $18.3\% \to 26.2\%$）；
-   - 这一核心自旋分担机制极大延缓了剪刀刃的闭合速率，使剪刀角仅从 $70.0^\circ$ 收缩至 $31.1^\circ$（未触及零度终止），使得理论电四极跃迁几率完满再现了 INGA 实验所测 $B(E2)$ 维持在 $0.14 \to 0.06\ (e\text{b})^2$ 的平缓过渡平台特征。
-
-4. **巨判据比 $\mathcal{J}^{(2)}/B(E2) \approx 100 - 1300\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ 跨核区系统学基准**：
-   - 常规变形集体转子（如 $^{166}\text{Er}$）中，转动惯量与跃迁几率均由集体形变参数 $\beta_2$ 决定（$\mathcal{J} \propto \beta_2^2, B(E2) \propto \beta_2^2$），比值稳定在 $\mathcal{J}^{(2)}/B(E2) \approx 15 - 30\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$；
-   - 反磁转动中，动力学惯量 $\mathcal{J}^{(2)}$ 由微观粒子—空穴剩余相互作用刚度（$V_{\pi\nu}$）决定（$\sim 20 - 45\ \hbar^2\text{MeV}^{-1}$），而 $B(E2)$ 则受限于极小电荷形变（$\beta_2 \sim 0.1$）与剪刀张角 $\sin^4\theta$ 因子（仅 $0.03 - 0.28\ e^2\text{b}^2$），两者微观物理机制深度解耦；
-   - 全面核对实测数据（工件 amr-cadmium-palladium-systematics-013.json），确立实测 AMR 能带特征比值跨越一个数量级以上的鸿沟：
-
-| 核素 | 转动模式 | 自旋区间 | 实测 $B(E2)\ (e^2\text{b}^2)$ | 实测 $\mathcal{J}^{(2)}/B(E2)\ [\hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}]$ | 平均判据比 | 数据来源 |
-|---|---|---|---|---|---|---|
-| $^{106}\text{Cd}$ | 纯双剪刀 AMR | $12^+ \to 20^+$ | $0.42(1) \to 0.10(1)$ | $47(3) \to 250(25)$ | $209.2$ | Simons 2003/2005; Tab 3 |
-| $^{108}\text{Cd}$ | 纯双剪刀 AMR | $14^+ \to 22^+$ | $0.28(3) \to 0.03(1)$ | $96(10) \to 600(200)$ | $268.3$ | Datta 2005; Roy 2011 |
-| $^{110}\text{Cd}$ | 核心耦合 AMR | $16^+ \to 24^+$ | $0.14(1) \to 0.06(2)$ | $191(14) \to 550(183)$ | $359.8$ | Roy 2011 PLB; ENSDF 110048001 |
-| $^{105}\text{Cd}$ | 奇 $A$ 双剪刀 AMR | $27/2^- \to 43/2^-$ | $0.155(20) \to 0.052(11)$ | $190(24) \to 608(128)$ | $329.4$ | Choudhury 2010 PRC |
-| $^{104}\text{Pd}$ | 偶偶核 Pd AMR | $16^+ \to 24^+$ | $0.26(3) \to 0.07(1)$ | $112(13) \to 357(51)$ | $234.6$ | Rather 2014 PRC |
-| $^{101}\text{Pd}$ | 奇 $A$ Pd AMR | $19/2^- \to 39/2^-$ | $0.21(6) \to 0.091(21)$ | $133(38) \to 148(34)$ | $427.6$ | Sugawara 2012 PRC |
-| $^{166}\text{Er}$ | 常规长椭集体转子 | $4^+ \to 12^+$ | $1.55(3) \to 1.90(8)$ | $21.9(4) \to 22.4(9)$ | $21.8$ | NNDC ENSDF 基准线 |
-
-严密确立：$\mathcal{J}^{(2)}/B(E2) \ge 100\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ 构成了判定原子核反磁转动模式的不可动摇的排他性实验分水岭。
+017 脚本仅对 Roy Table 1 的 $B(E2)$ 输入作端点除法：$^{106}\mathrm{Cd}$ 的 $0.15\to0.05$ 为 3 倍，$^{108}\mathrm{Cd}$ 的 $0.15\to0.03$ 为 5 倍（末点为源表 effective 值），$^{110}\mathrm{Cd}$ 的 $0.14\to0.06$ 为约 2.33 倍；没有传递原误差，也没有把三个来源谱系当作独立重复测量。
 
 ### 八极关联微观单粒子驱动、电偶极相消宏观/微观分解与投影核解耦
 
@@ -255,17 +184,9 @@ Ba保留软八极相关、较局域的内禀反射不对称、随spin变化的�
    - 静态转子模型（$48\text{ W.u.}$）、动态八极软性 SCCM 模型（$25\text{ W.u.}$）与推转 CDFT 模型（$32\text{ W.u.}$）全部落在实验 $1\sigma$ 误差带内（$Z < 1.0\sigma$）；
    - 严格判决准则：统计上单凭直接 $E3$ 跃迁强度的数值绝对无法独立证明静态刚性梨形形变的存在；必须联合交错宇称能级位移 $\delta E(I) = E(I^-) - \frac{1}{2}[E((I+1)^+) + E((I-1)^+)]$：$^{224}\text{Ra}$ 塌缩至 $20.4\text{ keV}$（刚性静态反射不对称），而 $^{144,146}\text{Ba}$ 长期维持在 $>340\text{ keV}$ 平台（大振幅动态八极软振动）。
 
-### 磁转动剪刀动力学、高自旋能带交叉与跨带 E2 正交性淬灭
+### 旧014跨带 E2 零矩阵元断言撤回
 
-依据独立数值模型工件 shears-dynamics-bandcrossing-model-014.py/json，阐明磁转动在高自旋能带交叉处的动力学反弹机制：
-
-1. **准粒子对顺对齐驱动剪刀“重新张开”（Shears Re-opening）**：
-   在 $^{135}\text{Pr}$（$N=76$）与 $^{137}\text{Pr}$（$N=78$）中，能带在 $\hbar\omega_c \approx 0.37 - 0.42\text{ MeV}$ 经历质子 $g_{7/2}$ 顺对齐（3qp $\to$ 5qp 交叉）。有效叶片角动量由 $j_\pi = 11/2$ 跃升至 $j_\pi' = 23/2$。在固定总自旋 $I$ 下，由于叶片变长，两刃夹角 $\theta$ 几何性突发重新增大（剪刀重开），使垂直磁偶极辐射几率 $B(M1) \propto \sin^2\theta_\pi$ 出现突发反弹；
-2. **跨组态电四极跨带跃迁正交性淬灭定理（$E2$ Orthogonality Suppression）**：
-   单体电磁 $E2$ 算符在相差两个准粒子的组态间严格正交相消：$\langle 3\text{qp} | \hat{T}(E2) | 5\text{qp} \rangle \equiv 0$。在交叉混合区 $|I\rangle = \alpha(I)|3\text{qp}\rangle + \beta(I)|5\text{qp}\rangle$ 中，$\Delta I = 2$ 跃迁连接 5qp 占优势的始态 $I$ 与 3qp 占优势的终态 $I-2$，对角项振幅乘积严重受抑，导致带内跨带 $B(E2; I \to I-2)$ 出现断崖式极小点（从 $0.11$ 暴跌至 $0.03\ e^2\text{b}^2$）；
-3. **跃迁比反弹与动力学转动惯量 $\mathcal{J}^{(2)}$ 尖锐共振峰**：
-   分子 $B(M1)$ 激增与分母 $B(E2)$ 塌缩产生强烈共振放大，完满再现 $^{135}\text{Pr}$（从 $15.78$ 飙升至 $94.83\ (\mu_N/e\text{b})^2$）与 $^{137}\text{Pr}$（从 $10.4$ 飙升至 $62.1\ (\mu_N/e\text{b})^2$）的特征反弹峰，并在 $^{137}\text{Pr}$ 中观察到 5qp 剪刀在高自旋重新闭合回落至 $17.2$。动力学转动惯量 $\mathcal{J}^{(2)} = dI/d\omega$ 在交叉频率呈现高达 $137 - 222\ \hbar^2/\text{MeV}$ 的尖锐峰，彻底打破“剪刀带必须单调陡降”的唯象硬门。
-
+旧段曾将 $\langle3\mathrm{qp}|T(E2)|5\mathrm{qp}\rangle=0$ 写成严格正交性定理，并宣称 Pr 两核的比值反弹和 $\mathcal J^{(2)}$ 峰获得实测认证。该断言错误：Bogoliubov 表示中的单体算符含创造/湮灭两准粒子的项，相关矩阵元可非零；源实验又缺使旧数值链闭合的逐带绝对跃迁量。有效的来源限定和模型边界见上文“Pr 磁转动交叉”。
 
 ## Transfer Conditions
 
@@ -281,6 +202,35 @@ Ba保留软八极相关、较局域的内禀反射不对称、随spin变化的�
 ## Falsification or Reverse Tests
 
 先以原Pr Table I的3530.0-keV、27/2−和作者约33/2交叉回查旧轨迹；若不能匹配初末态，计算比值不进入实测曲线。Cd旧019只有输入算术而无原表，故不能以重跑成功反证本次来源缺口。Ba反向检验保持同一M而交换初态spin，应得到7倍B关系；若直接把E1强度反演成有符号D0，须指出其平方造成的不可辨识性。
+
+## 017 微观流场、三维分岔与模式相界（条件模型）
+
+### 从密度矩阵到电流及离散对称性
+
+推转 HFB/EDF 的变分量为 $\mathcal R=E[\rho,\kappa]-\boldsymbol\omega\cdot\langle\mathbf J\rangle-\sum_q\lambda_q N_q$；给定其驻值解，轨道概率流为 $\mathbf j_q(\mathbf r)=\frac{\hbar}{2mi}(\nabla_{\mathbf r}-\nabla_{\mathbf r'})\rho_q(\mathbf r,\mathbf r')|_{\mathbf r'=\mathbf r}$。带电流还需减去 $e_q\mathbf A\rho_q/m$；磁化流由 $\nabla\times\mathbf M$ 给出。具体核 EDF 的时间奇耦合、配对、有效质量与电磁算符必须另行给定。017 的高斯涡旋是分析可复核的场，不是自洽核电流密度。
+
+$\mathcal T:\mathbf j(\mathbf r)\mapsto-\mathbf j(\mathbf r)$；$\mathcal R_k(\pi):\mathbf j(\mathbf r)\mapsto R_k\mathbf j(R_k^{-1}\mathbf r)$。选 $x$ 为 $yz$ 剪刀平面的法向，单涡旋 MR 示例满足 $\mathcal S_x=\mathcal R_x(\pi)\mathcal T$，不满足单独 $\mathcal T$ 和 $\mathcal R_z(\pi)$。双反向涡旋 AMR 示例的积分磁偶极相消，局部 $\mathbf j\ne0$，并满足 $\mathcal R_z(\pi)\mathcal T$；它不能同时保持单独 $\mathcal R_z(\pi)$ 与 $\mathcal T$。这些是选择坐标、占据与场后可检的示例，不能提升为每个 MR/AMR 核的群论标签。理想双剪刀 $\mathbf j_\pm=j(\cos\theta,\pm\sin\theta,0)$ 也只抵消横向磁矩；纵向分量一般为 $2gj\cos\theta$。见 [[magnetic-rotation]]、[[antimagnetic-rotation]]。
+
+### 冻结陀螺 3D-TAC 的有条件连续分岔
+
+[[olbratowski-2002-critical-frequency-preprint]] 的 $^{132}\mathrm{La}$ 早期稿模型取 $I_k=\mathcal J_k\omega_k+s_k$、$s_m=0$，${ s_s,s_l}$ 分别为短、长轴粒子/空穴陀螺。均匀转动要求 $\boldsymbol\omega\times\mathbf I=0$；固定频率的受限 Routhian 驻值给 $\omega_s=s_s/(\mu-\mathcal J_s)$、$\omega_l=s_l/(\mu-\mathcal J_l)$、$\omega_m(\mu-\mathcal J_m)=0$。在 $\mathcal J_m>\mathcal J_s,\mathcal J_l$ 且两陀螺非零的 **这个模型** 中，非平面枝取 $\mu=\mathcal J_m$，
+
+$$\omega_c^2=\left(\frac{s_s}{\mathcal J_m-\mathcal J_s}\right)^2+\left(\frac{s_l}{\mathcal J_m-\mathcal J_l}\right)^2,\qquad \omega_m=\pm\sqrt{\omega^2-\omega_c^2}.$$
+
+代入原稿参数 $\mathcal J_{s,m,l}=(8.5,31,20)\,\hbar^2/\mathrm{MeV}$、$(s_s,s_l)=(5.43,5.00)\hbar$ 得 $\hbar\omega_c=0.514639$ MeV；这与源页的条件复算一致。$\gamma\ne0$ 本身不保证惯量排序、两个非零陀螺或达到临界频率；模型的 $\pm\omega_m$ 是内禀左右解，不给量子双带劈裂。由平面剪刀走向手征需允许组态与形变连续延拓、保留所需三轴角动量分量；AMR 的对称抵消也需先破缺或重排，不能预设每条 AMR 带必经连续手征相变。有限核的交叉、混合与手征涨落不形成一个通用 $(\beta_2,\gamma,\hbar\omega)$ 数值相面。
+
+### 六核对账与能谱/电磁判据
+
+| 核素 | 本库已有的最直接入口 | 可支持的层级与边界 |
+|---|---|---|
+| $^{106}\mathrm{Ag}$ | [[he-chuangye-2006-magnetic-chiral-106ag]]；[[rather-2014-ag106-transition-rates]]；[[106ag]] | 有 MR 与**同宇称**手征候选的历史解释；不同采集/带号与 2qp/4qp 归属有争议。正负宇称两带不是同一手征双重态。不能从一组相近 $S(I)$ 或比值建立 MR→AMR→手征连续链。 |
+| $^{108}\mathrm{Ag}$ | 当前没有本任务逐页验证的直接原件 | 保留为待核系统学候选；不给相界、带号或绝对强度。 |
+| $^{105}\mathrm{Cd}$ | [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] | AMR 候选及 PC-PK1 模型中随频率变化的形变/中子混合；原2010寿命与2015新谱不是独立重复寿命实验。 |
+| $^{106}\mathrm{Cd}$ | [[roy-2011-cd110-systematics-antimagnetic]] Table 1 | AMR 系统学应依原表 spin、寿命与 $B(E2)$；不能称无芯纯极限或迁移旧013数列。 |
+| $^{130}\mathrm{Cs}$ | [[starosta-2001-n75-chiral-vibrations]]；[[130cs]] | 3D-TAC 模型 $\epsilon=0.16,\gamma=39^\circ$ 且浅势垒；实验约0.25 MeV位移，作者偏向软手征振动。 |
+| $^{132}\mathrm{La}$ | [[starosta-2001-n75-chiral-vibrations]]；[[olbratowski-2002-critical-frequency-preprint]] | 实验约0.37 MeV位移、软振动解释；另一早期 HF 冻结陀螺参数约 $\beta=.25,\gamma=45^\circ$，两组模型输入不可混作同一实测点。 |
+
+$S(I)=[E(I)-E(I-1)]/(2I)$ 只使用实验/量子能级，平滑或相近并非排他手征信号。3D-TAC 的驻值给内禀方向、惯量和可在算符近似下求得的带内强度趋势，单个静态平均场不能求左右手量子隧穿能隙或完整跨带矩阵元。PRM 在明确的角动量量子化、粒子/空穴占据、芯惯量与电磁算符下可给 partner splitting、$S(I)$ 和带内/带间 $B(M1)/B(E2)$；结果仍依赖参数、组态和带标签，须对照绝对寿命及连接跃迁。[[nuclear-chirality]] 与 [[tilted-axis-cranking]] 保存更广的量子化边界。017 工件的 JSON 按“模型输入/对称性残差/分岔输出/未取得的实验量”分层，`needs_review: true`。
 
 ## Open Questions
 

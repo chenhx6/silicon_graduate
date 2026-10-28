@@ -1,0 +1,229 @@
+{
+  "schema": "octupole-vs-cluster-dipole-dynamics-018/v1",
+  "scope": "analytic point-cluster and two-level toy benchmark",
+  "units": "A,Z dimensionless; R fm; D e fm; Q3 e fm^3",
+  "geometry": [
+    {
+      "nucleus": "20Ne",
+      "core": {
+        "A": 16,
+        "Z": 8
+      },
+      "alpha": {
+        "A": 4,
+        "Z": 2
+      },
+      "Z_over_A_core": 0.5,
+      "Z_over_A_alpha": 0.5,
+      "c1_D0_per_eR": 0.0,
+      "c3_Q3_per_2eR3": -0.9600000000000002,
+      "D0_at_R8_fm_efm": 0.0,
+      "Q3_at_R8_fm_efm3": -983.0400000000002
+    },
+    {
+      "nucleus": "144Ba",
+      "core": {
+        "A": 140,
+        "Z": 54
+      },
+      "alpha": {
+        "A": 4,
+        "Z": 2
+      },
+      "Z_over_A_core": 0.38571428571428573,
+      "Z_over_A_alpha": 0.5,
+      "c1_D0_per_eR": -0.4444444444444444,
+      "c3_Q3_per_2eR3": -1.8367626886145403,
+      "D0_at_R8_fm_efm": -3.5555555555555554,
+      "Q3_at_R8_fm_efm3": -1880.8449931412893
+    },
+    {
+      "nucleus": "146Ba",
+      "core": {
+        "A": 142,
+        "Z": 54
+      },
+      "alpha": {
+        "A": 4,
+        "Z": 2
+      },
+      "Z_over_A_core": 0.38028169014084506,
+      "Z_over_A_alpha": 0.5,
+      "c1_D0_per_eR": -0.4657534246575342,
+      "c3_Q3_per_2eR3": -1.83896847695602,
+      "D0_at_R8_fm_efm": -3.7260273972602738,
+      "Q3_at_R8_fm_efm3": -1883.1037204029644
+    },
+    {
+      "nucleus": "224Ra",
+      "core": {
+        "A": 220,
+        "Z": 86
+      },
+      "alpha": {
+        "A": 4,
+        "Z": 2
+      },
+      "Z_over_A_core": 0.39090909090909093,
+      "Z_over_A_alpha": 0.5,
+      "c1_D0_per_eR": -0.42857142857142855,
+      "c3_Q3_per_2eR3": -1.8942693148688043,
+      "D0_at_R8_fm_efm": -3.4285714285714284,
+      "Q3_at_R8_fm_efm3": -1939.7317784256556
+    },
+    {
+      "nucleus": "226Ra",
+      "core": {
+        "A": 222,
+        "Z": 86
+      },
+      "alpha": {
+        "A": 4,
+        "Z": 2
+      },
+      "Z_over_A_core": 0.38738738738738737,
+      "Z_over_A_alpha": 0.5,
+      "c1_D0_per_eR": -0.4424778761061947,
+      "c3_Q3_per_2eR3": -1.8951969544603668,
+      "D0_at_R8_fm_efm": -3.5398230088495577,
+      "Q3_at_R8_fm_efm3": -1940.6816813674156
+    }
+  ],
+  "ba146_published_amplitude_comparison": {
+    "source": "Bucher_2017, PRL 118 152504, PDF p.3 Table I; rounded central values",
+    "observables": {
+      "M_E1_0_to_1_eb_half": 0.000223,
+      "M_E3_0_to_3_eb_three_halves": 0.65,
+      "B_E1_0_to_1_e2fm2": 4.972900000000001e-06,
+      "B_E3_0_to_3_e2fm6": 422500.0,
+      "B_E1_over_B_E3_same_upward_fm_minus4": 1.1770177514792901e-11,
+      "D0_abs_K0_rotor_efm": 0.004564037117441339,
+      "Q3_abs_K0_rotor_efm3": 1741.803922795765
+    },
+    "conditional_point_cluster_example": {
+      "R_from_E3_fm": 7.794680672016793,
+      "pure_cluster_D0_abs_efm": 3.6303992171037116,
+      "w_E1_required_at_E3_fixed_R": 0.0012571722404354395,
+      "B_E3_up_if_same_weight_e2fm6": 0.6677536627963179,
+      "B_E3_up_observed_over_that_prediction": 632718.356393162,
+      "joint_solution_R_if_R_and_w_free_fm": 219.83707477739966,
+      "joint_solution_common_transition_weight_w": 4.4575084406670705e-05,
+      "illustrative_contact_R_fm_r0_1p2": 8.16540539789324,
+      "joint_R_over_contact_R": 26.92298349744153,
+      "status": "the algebra has a joint solution at a far-separated R; w is a common transition overlap assumption, not measured S_alpha or a general spectroscopic factor"
+    }
+  },
+  "ra224_published_e3_comparison": {
+    "source": "Gaffney_2013, Nature 497 199-204, Table 1; rounded central value",
+    "M_E3_0_to_3_efm3": 940.0,
+    "Q3_abs_K0_rotor_efm3": 2518.916442196952,
+    "R_if_point_cluster_only_fm": 8.727985454139347,
+    "point_cluster_D0_abs_at_that_R_efm": 3.7405651946311487,
+    "status": "E3-matched geometric illustration; no E1 or alpha probability inference"
+  },
+  "parity_rotor_example": {
+    "status": "illustrative parity-projected two-well rotor; not fitted levels",
+    "a_rot_MeV": 0.012,
+    "odd_parity_offset_MeV": 0.3,
+    "levels": [
+      {
+        "I": 0,
+        "parity": "+",
+        "E_MeV": 0.0
+      },
+      {
+        "I": 1,
+        "parity": "-",
+        "E_MeV": 0.324
+      },
+      {
+        "I": 2,
+        "parity": "+",
+        "E_MeV": 0.07200000000000001
+      },
+      {
+        "I": 3,
+        "parity": "-",
+        "E_MeV": 0.444
+      },
+      {
+        "I": 4,
+        "parity": "+",
+        "E_MeV": 0.24
+      },
+      {
+        "I": 5,
+        "parity": "-",
+        "E_MeV": 0.6599999999999999
+      },
+      {
+        "I": 6,
+        "parity": "+",
+        "E_MeV": 0.504
+      },
+      {
+        "I": 7,
+        "parity": "-",
+        "E_MeV": 0.972
+      },
+      {
+        "I": 8,
+        "parity": "+",
+        "E_MeV": 0.864
+      },
+      {
+        "I": 9,
+        "parity": "-",
+        "E_MeV": 1.3800000000000001
+      }
+    ],
+    "delta_E_odd_relative_to_neighbor_even_MeV": [
+      {
+        "I_odd": 1,
+        "delta_E_MeV": 0.28800000000000003
+      },
+      {
+        "I_odd": 3,
+        "delta_E_MeV": 0.28800000000000003
+      },
+      {
+        "I_odd": 5,
+        "delta_E_MeV": 0.2879999999999999
+      },
+      {
+        "I_odd": 7,
+        "delta_E_MeV": 0.28800000000000003
+      }
+    ],
+    "analytic_delta_E_MeV": 0.288
+  },
+  "gdr_mixing_example": {
+    "status": "two-level toy mixing; no claim of measured IVGDR cancellation",
+    "E_low_MeV": 1.0,
+    "E_GDR_MeV": 13.0,
+    "unmixed_D_low_efm": 0.1,
+    "unmixed_D_GDR_efm": 1.0,
+    "mixing_v_for_exact_amplitude_zero_MeV": 1.2121212121212124,
+    "theta_rad": 0.09966865249116205,
+    "mixed_low_D_efm": -2.7755575615628914e-17,
+    "unmixed_low_B_E1_e2fm2": 0.010000000000000002,
+    "mixed_low_B_E1_e2fm2": 7.703719777548943e-34,
+    "required_evidence": [
+      "signed E1 transition amplitudes or phase-sensitive interference",
+      "state mixing and IVGDR strength distribution",
+      "same final-state and multipolarity coherence"
+    ]
+  },
+  "S_alpha_boundary": {
+    "normalized_projector_probability": "0 <= S_alpha <= 1",
+    "empirical_values_20Ne_Ba_Ra": null,
+    "why_not_inferred": "E3 and E1 can be reproduced by coherent non-cluster terms; antisymmetrization and channel normalization are unspecified",
+    "reaction_spectroscopic_factor_warning": "Convention-dependent extracted factors need not equal a projector probability"
+  },
+  "validation": {
+    "exact_charge_mass_match_20Ne": true,
+    "center_of_mass_identity_all_cases": true,
+    "parity_displacement_identity": true,
+    "two_level_cancellation_identity": true
+  }
+}

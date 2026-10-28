@@ -1,0 +1,140 @@
+{
+  "scope": "analytic toy current and conditional frozen-gyro branch; not a self-consistent TAC calculation or measured phase map",
+  "units": "current arbitrary; omega MeV/hbar; J hbar^2/MeV; s and I hbar",
+  "symmetry_convention": "x is normal to the yz MR plane; j is time odd; errors compare transformed vector fields on a symmetric grid",
+  "current_symmetries": {
+    "MR_toy": {
+      "local_current_at_0p45_0p35_0p35_arbitrary": [
+        0.173940694,
+        0.0,
+        -0.223638036
+      ],
+      "T_error": 0.675086901,
+      "Rz_pi_error": 0.675086901,
+      "Rx_pi_T_error": 0.0,
+      "Rz_pi_T_error": 0.0
+    },
+    "AMR_toy": {
+      "local_current_at_0p45_0p35_0p35_arbitrary": [
+        -0.160102058,
+        -0.277015632,
+        0.0
+      ],
+      "T_error": 1.015426626,
+      "Rz_pi_error": 1.015426626,
+      "Rx_pi_T_error": 0.0,
+      "Rz_pi_T_error": 0.0
+    }
+  },
+  "gyro_bifurcation": {
+    "source_model": "Olbratowski et al. 2002 arXiv:nucl-th/0211075v1, PDF pp.2-3 Eqs.2-7",
+    "J_hbar2_per_MeV": {
+      "s": 8.5,
+      "m": 31.0,
+      "l": 20.0
+    },
+    "gyro_hbar": {
+      "s": 5.43,
+      "l": 5.0
+    },
+    "hbar_omega_critical_MeV": 0.514639046,
+    "critical_I_hbar": 15.953810437,
+    "branches": [
+      {
+        "hbar_omega_MeV": 0.4,
+        "omega_m_MeV_per_hbar": null,
+        "aplanar_pair_exists": false
+      },
+      {
+        "hbar_omega_MeV": 0.5,
+        "omega_m_MeV_per_hbar": null,
+        "aplanar_pair_exists": false
+      },
+      {
+        "hbar_omega_MeV": 0.514639046,
+        "omega_m_MeV_per_hbar": 0.0,
+        "aplanar_pair_exists": false
+      },
+      {
+        "hbar_omega_MeV": 0.6,
+        "omega_m_MeV_per_hbar": 0.308458509,
+        "aplanar_pair_exists": true
+      },
+      {
+        "hbar_omega_MeV": 0.8,
+        "omega_m_MeV_per_hbar": 0.612492165,
+        "aplanar_pair_exists": true
+      }
+    ]
+  },
+  "cadmium_BE2_table1_systematics": {
+    "106Cd": {
+      "spin_hbar": [
+        18,
+        20,
+        22,
+        24
+      ],
+      "BE2_e2b2": [
+        0.15,
+        0.14,
+        0.07,
+        0.05
+      ],
+      "first_to_last_BE2_factor": 3.0,
+      "table_locator": "Roy et al. 2011 Phys Lett B 694, printed p.323, Table 1",
+      "status": "reported source values; ratios calculated here; no propagated uncertainties"
+    },
+    "108Cd": {
+      "spin_hbar": [
+        16,
+        18,
+        20,
+        22
+      ],
+      "BE2_e2b2": [
+        0.15,
+        0.14,
+        0.09,
+        0.03
+      ],
+      "first_to_last_BE2_factor": 5.0,
+      "table_locator": "Roy et al. 2011 Phys Lett B 694, printed p.323, Table 1",
+      "status": "reported source values; ratios calculated here; no propagated uncertainties",
+      "I22_caveat": "effective value in source table"
+    },
+    "110Cd": {
+      "spin_hbar": [
+        16,
+        18,
+        20,
+        22,
+        24
+      ],
+      "BE2_e2b2": [
+        0.14,
+        0.12,
+        0.11,
+        0.09,
+        0.06
+      ],
+      "first_to_last_BE2_factor": 2.333333,
+      "table_locator": "Roy et al. 2011 Phys Lett B 694, printed p.323, Table 1",
+      "status": "reported source values; ratios calculated here; no propagated uncertainties"
+    }
+  },
+  "inferences": {
+    "nonzero_current_time_reversal": "nonzero j forbids separate T invariance of the intrinsic state",
+    "AMR_cancellation": "opposite circulation gives zero integrated transverse moment by symmetry, not pointwise zero local current or all M1 matrix elements",
+    "beta_boundary": "no universal beta2=0.20 MR/AMR-to-ER boundary follows from these equations",
+    "gamma_boundary": "nonzero gamma alone is insufficient; require Jm>Js,Jl, both gyroscopes, and omega>omega_c",
+    "quantum_observables": "S(I), B(M1)/B(E2), and partner splitting require band-resolved quantum spectra and transition operators; absent here"
+  },
+  "nucleus_evidence_routes": {
+    "106Ag": "he-chuangye-2006-magnetic-chiral-106ag; rather-2014-ag106-transition-rates; competing assignments remain",
+    "105Cd_106Cd": "kumar-2025-review-magnetic-antimagnetic-rotational-structures; original lifetime lineage needed per claim",
+    "108Ag": "no direct source validated in this task",
+    "130Cs": "starosta-2001-n75-chiral-vibrations; soft chiral vibration candidate",
+    "132La": "starosta-2001-n75-chiral-vibrations; olbratowski-2002-critical-frequency-preprint"
+  }
+}

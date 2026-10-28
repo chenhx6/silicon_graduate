@@ -1,4 +1,9 @@
 {
+  "scientific_audit": {
+    "status": "superseded-unverified-claims-not-scientific-evidence",
+    "correction_note": "knowledge/research-notes/day26-quantitative-claim-corrections.md",
+    "scope": "Legacy numerical payload retained for audit only. Assumed data/coefficients, universal thresholds, production-model equivalence and exact experimental agreement are not certified. Use source locators and corrected 017-019 artifacts."
+  },
   "title": "Angular Momentum Geometry and Core Coupling in Magnetic and Antimagnetic Rotation",
   "geometry_comparison": [
     {

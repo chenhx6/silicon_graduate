@@ -1,0 +1,58 @@
+{
+  "title": "225Ac evaluated parity-partner and E1 audit",
+  "status": "completed-source-acquisition-with-evidence-boundary",
+  "source": {
+    "dataset": "225089001,225AC",
+    "title": "225AC ADOPTED LEVELS, GAMMAS",
+    "evaluation_version": "2022-07",
+    "cutoff": "2019-10-25",
+    "raw_file": "raw/data/day26-20261028/225ac-adopted-225089001-028.html",
+    "raw_sha256": "fb3d87428e000397881227c3dc96973c1765310a7811062cc8c297259872a817",
+    "retrieved_wrapper_lines": 169,
+    "locator": "ENSDF preformatted text: lines 55-161; low-energy L/G/B records lines 65-103"
+  },
+  "levels_keV": [
+    {"band": "A", "Jpi": "(3/2-)", "energy": 0.0, "tentative": true},
+    {"band": "A", "Jpi": "(5/2-)", "energy": 29.91, "tentative": true},
+    {"band": "B", "Jpi": "(3/2+)", "energy": 40.10, "tentative": true},
+    {"band": "B", "Jpi": "(5/2+)", "energy": 64.69, "tentative": true},
+    {"band": "A", "Jpi": "(7/2-)", "energy": 77.13, "tentative": true},
+    {"band": "B", "Jpi": "(7/2+)", "energy": 105.01, "tentative": true},
+    {"band": "C", "Jpi": "(5/2-)", "energy": 120.81, "tentative": true},
+    {"band": "B", "Jpi": "(9/2+)", "energy": 144.96, "tentative": true},
+    {"band": "D", "Jpi": "(5/2+)", "energy": 155.64, "tentative": true},
+    {"band": "C", "Jpi": "(7/2-)", "energy": 170.75, "tentative": true},
+    {"band": "D", "Jpi": "(7/2+)", "energy": 199.86, "tentative": true},
+    {"band": "C", "Jpi": "(9/2-)", "energy": 235.53, "tentative": true},
+    {"band": "D", "Jpi": "(9/2+)", "energy": 256.97, "tentative": true}
+  ],
+  "same_spin_differences_keV": [
+    {"pair": "3/2-_A - 3/2+_B", "delta_E_minus_minus_plus": -40.10, "unique_within_selected_bands": true},
+    {"pair": "5/2-_A - 5/2+_B", "delta_E_minus_minus_plus": -34.78, "unique_within_selected_bands": false},
+    {"pair": "5/2-_C - 5/2+_B", "delta_E_minus_minus_plus": 56.12, "unique_within_selected_bands": false},
+    {"pair": "7/2-_A - 7/2+_B", "delta_E_minus_minus_plus": -27.88, "unique_within_selected_bands": false},
+    {"pair": "7/2-_C - 7/2+_B", "delta_E_minus_minus_plus": 65.74, "unique_within_selected_bands": false},
+    {"pair": "9/2-_C - 9/2+_B", "delta_E_minus_minus_plus": 90.57, "unique_within_selected_bands": false},
+    {"pair": "9/2-_C - 9/2+_D", "delta_E_minus_minus_plus": -21.44, "unique_within_selected_bands": false}
+  ],
+  "evaluated_e1": {
+    "transition": "(3/2+)_B 40.10 -> (3/2-)_A 0.0",
+    "E_gamma_keV": 40.09,
+    "multipolarity": "E1",
+    "B_E1_Wu": 0.00171,
+    "B_E1_uncertainty_Wu": 0.00015,
+    "record": "G40.09; BE1W=0.00171 15; from L-subshell ratios in 225Ra beta-minus decay"
+  },
+  "conditional_D0": {
+    "value_efm": 0.1688,
+    "uncertainty_efm": 0.0074,
+    "assumptions": ["axial strong-coupling rotor", "K=3/2 for both states", "I_i=I_f=3/2 CG squared=0.6", "R=1.2 A^(1/3) fm", "standard reduced-matrix-element convention"],
+    "status": "conditional inference; not evaluated direct D0 and sign unavailable"
+  },
+  "evidence_boundary": [
+    "ENSDF is an evaluated nuclear-data object, not a newly repeated experiment.",
+    "Most low-energy Jpi labels are parenthesized and several same-spin levels belong to different adopted bands.",
+    "A 40-keV same-spin pair and one E1 value do not by themselves establish static octupole deformation or a unique parity-doublet band.",
+    "No quantitative odd-A octupole blocking factor is obtained from this level evaluation."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "doi": "10.1103/PhysRevLett.124.042503",
+  "title": "Evolution of Octupole Deformation in Radium Nuclei from Coulomb Excitation of Radioactive 222Ra and 228Ra Beams",
+  "retrieval": [
+    {
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.124.042503/fulltext",
+      "local_file": "Butler_2020_PRL124_042503.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "signature": "%PDF-1.4",
+      "bytes": 354473,
+      "pages": 6,
+      "sha256": "c0f8646afcd78d8647a7011046c036aa7c8ae7969839f72151646464a43b1502",
+      "read_pages": "1-6"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2001.09681",
+      "local_file": "Butler_2020_arXiv2001.09681.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "signature": "%PDF-1.5",
+      "bytes": 498745,
+      "pages": 16,
+      "sha256": "e11da06ccb0bf2fbb32505b20005bc0046af2471faec7a99c0b3af63c51bb93b",
+      "read_pages": "1-16; pages 7-16 are appended supplemental material in the arXiv copy"
+    },
+    {
+      "url": "https://arxiv.org/src/2001.09681",
+      "local_file": "Butler_2020_arXiv2001.09681_source.tar.gz",
+      "http_status": 200,
+      "content_type": "application/gzip",
+      "signature": "gzip magic 1f 8b",
+      "bytes": 260106,
+      "sha256": "1f2059ceb7c905222993f506d8eaf6ae8fbebd809c46fd905b3b8d545d9c68ae",
+      "read_pages": "not read as source; retained for reproducibility"
+    }
+  ],
+  "official_supplemental_route": {
+    "requested": true,
+    "browser_downloader_status": "do_not_auto_retry: CDP proxy not reachable",
+    "official_aps_supplemental_pdf": "not independently obtained",
+    "arxiv_appended_material": "read through page 16; actual coverage includes level schemes, selected yields, E2 systematics and E1 Table II",
+    "si_completeness": "unknown"
+  }
+}

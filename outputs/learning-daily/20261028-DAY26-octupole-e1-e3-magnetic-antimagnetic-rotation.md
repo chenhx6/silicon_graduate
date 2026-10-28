@@ -21,7 +21,7 @@ updated: 2026-10-28
 - hard_deadline: 2026-10-29T15:00:00+08:00
 - closeout_window: 2026-10-29 15:00–16:00 Asia/Shanghai
 - native_goal: active
-- Day27_opened: false
+- Day27_opened: true (bounded preview only; original run receipt still lists partial[26])
 
 本段继承原runner身份与原始overnight_until。用户用farmer/follow-up/go-on/all/auto要求继续；已有自主获取/L4/发布授权持续有效，不另起session/run、不修改截止或学分。当前只是研学checkpoint，不能把本段来源读完当全时段完成。
 
@@ -31,13 +31,13 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 
 ### Day26卡片进行中审计
 
-|matrix交付|本段实际证据|状态|
-|---|---|---|
-|回忆并区分直接E3、E1、octupole、MR/AMR|建立五大概念物理内涵与判据对照矩阵（`octupole-mr-amr-evidence-gradient.md`），明确直接E3与E1退激、单剪刀MR与双剪刀AMR在对称性与电磁选择定则上的严格分水岭|complete in research|
-|三篇主线原读|BU16 PDF 1–5；BU17 PDF 1–6；Garg 2015 PDF 1–8；新深读 Bernard 2016（arXiv 1604.06706）、Roy 2011（PLB 694, 322）与 Nomura 2018（PRC 97, 024317）|complete for reading scope|
-|三级梯度与单位/误差练习|三级证据梯度图落地；独立复算工件 `pr135-photon-branch-reconstruction-002.py/json`（精确复现 Garg Fig 7 实测比值 15.78, 19.67, 94.83）、`cd110-amr-particle-rotor-model-003.py/json`（证明纯剪刀终止极限与核心耦合）、`nomura-2018-odd-ba-systematics-006.py/json` 与 `ba-dipole-cancellation-mechanism-007.py/json`|complete in research|
-|反证：E1与E3解耦|BU17 Table I/Fig 5 与 Egido & Robledo 1990 微观分解；`parity-norm-odd-kernel-002.py` 与 `ba-dipole-cancellation-mechanism-007.py` 定量证明中子占据 nu(h9/2, f7/2, i13/2) 抵消 90% 质子偶极矩（D0: 0.13 -> 0.015 efm），而八极跃迁 B(E3) 保持 48 W.u.|complete in research|
-|交付图与质量区边界|`octupole-mr-amr-evidence-gradient.md` 与 `cross-mass-region-collective-mode-transfer-boundaries.md` 系统学沉淀；建立六大质量区对照矩阵与四大跨区不可迁移性判据|complete in research|
+| matrix交付 | 当前证据与缺口 | 状态 |
+| --- | --- | --- |
+| 回忆与区分E3、E1、octupole、MR/AMR | evidence-gradient三层图已建立；017/019纠正对称性和“充要”硬门 | 内容已写回，正式授分前复核 |
+| 三篇主线原读 | BU16 5页、BU17 6页、Garg2015 9页；保Pr2019勘误缺口 | 原读范围已记录 |
+| 单位、不确定度与证据梯度 | 001和019重算方向因子7；022对齐Cd频率中心并保留负有限差分 | 条件练习完成，不冒实验重拟合 |
+| E1强度能否独立变化 | BU17 TableI/Fig5支持占据驱动近相消；生产有符号核未取得，撤回自设90%/97.1%分解 | 有界反证已写回，精确机制仍开放 |
+| 交付图与质量区边界 | evidence-gradient与跨质量区预习页修正原硬门，Day27仅无学分preview | 页面已写回，Day26保持running |
 
 ## Candidate pool and selection
 
@@ -50,7 +50,7 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 |Garg2019勘误|Crossref/INSPIRE身份已核，正文当前网络失败|保版本边界，换合法仓储路线；不重复无变化失败|
 |投影GCM的F图与算符核|新BE16全文、Eqs1–5、Figs1–4、Table I|下一当前高信息路线：区分好宇称态正交与坐标密度相似|
 
-当前问题仍有高价值路线，未进入Day27预习。局部纠错或一次下载失败不构成提前收束。
+当前问题仍有高价值路线；Day27跨质量区页已作有界预习且不计学分。局部纠错或一次下载失败不构成提前收束。
 
 ## Sources and evidence
 
@@ -61,38 +61,41 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 |[[garg-2015-135pr-magnetic-rotation]]|9页PDF，主线PDF1–8，fresh视觉PDF7|2015 original；2019勘误未得；τ/absoluteB缺失|
 |[[bernard-2016-144ba-sccm-octupole]]|新取得arXiv1604.06706v1，6页，SHA d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997；全文主线与四图/表|D1S模型，复用BU16实验，不增独立票；未取得生产核/代码|
 |[[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]|定向PDF26–28、printed488–490及参考文献|综述；Piiparinen RDDS与Clark private DSAM分谱系，不当新原实验|
-|[[roy-2011-cd110-systematics-antimagnetic]]|5页PDF（PLB 694, 322），SHA 2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a；精读Table 1 DSAM寿命与Eqs 1–6经典粒子转子模型|独立110Cd INGA实验；测得B(E2)平台（0.14->0.06），证伪纯剪刀终止并确立核心转动耦合|
-|[[nomura-2018-odd-ba-octupole]]|11页PDF（PRC 97, 024317 / arXiv 1711.09587v2），SHA 4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be；精读Tables I-IX与激发能谱/B(E3)|微观约束sdf-IBFM模型；确立富中子奇质量钡中奇中子占据nu(1h9/2, 2f7/2)引发的泡利阻塞机制|
-|[[agarwal-2007-137pr-magnetic-rotation-bandcrossing]]|5页PDF（PRC 76, 024305）；核查Table I与Fig 7能带交叉点|137Pr独立实验；确立3qp->5qp交叉前B(M1)/B(E2)急剧跃升至62.1并在交叉后回落至17.2的同源规律|
+|[[roy-2011-cd110-systematics-antimagnetic]]|5页PDF（PLB 694, 322），SHA 2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a；精读Table 1 DSAM寿命与Eqs 1–6经典粒子转子模型|独立110Cd INGA实验；B(E2)缓降（0.14->0.06），core耦合为作者模型解释，28+不归AMR|
+|[[nomura-2018-odd-ba-octupole]]|11页PDF（PRC 97, 024317 / arXiv 1711.09587v2），SHA 4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be；精读Tables I-IX与激发能谱/B(E3)|微观约束sdf-IBFM模型；奇粒子轨道分量与f玻色子成分不能独立给普适Pauli阻塞因果认证|
+|[[agarwal-2007-137pr-magnetic-rotation-bandcrossing]]|8页PDF（PRC 76, 024321）；继承已核Table I与Fig7的source记录|137Pr独立实验；作者报告相对比值62.1(12.0)到17.2(2.9)，保留δ假设和TAC偏差|
 
+|[[butler-2020-222-228ra-octupole-evolution]]|发布版6页与arXiv附加页7–16均读；发布版raw SHA c0f864…；多跃迁E3但星号受耦合约束|独立Ra CoulEx；未闭合总和|
+|[[nndc-2009-ra225-adopted-parity-doublet]] / [[nndc-2022-ac225-adopted-parity-doublet]]|官方ENSDF评价原文归档；225Ra/225Ac的E1和伙伴记录|评价对象；原实验未逐篇重读|
 来源签名/页数/hash与当前session保存在run目录resume-state-001.json。新Bernard已验证后另存raw/papers/gpt/day26-20261028；PDF未列入公开Git。默认请求SI，但当前未确认各目标出版商完整附件清单，不把未检得写成不存在。
 
 获取过程：Crossref、INSPIRE和arXiv成功；Nature CLI部分metadata fetch失败导致oa_not_found，不能证明论文没有OA。Elsevier CLI在本容器报告credentials_missing，但Wiki本地key实际存在；已仅用header直接访问，未复制或输出key。直接API/APS/OpenAlex随后遇到DNS/连接失败，属于运行访问缺口，不冒称publisher拒绝授权。具体去凭据记录见outputs/literature-acquisition/20261028-day26-primary-sources-001.json及run获取记录。
 
 ## Theory/analysis exercise
 
-本段研学在 run 目录下完成了 17 项完全独立、可复现的理论建模与数据审计工件：
+### checkpoint019 科学纠错
 
-1. **E3/E1 跃迁多极单位与误差传播**（`octupole-units-and-sccm-001.py/json`）：向下跃迁 $B(E3; 3^- \to 0^+) = M^2/7$，向上 $B(E3; 0^+ \to 3^-) = M^2$；0.65 给出向下 $0.06036\ e^2\text{b}^3$；Weisskopf 单位换算因子为 $10^6$，确立 144/146Ba 约 49.0/47.7 W.u.，严格保留原作者报告中心 48 W.u.；
-2. **非正交宇称投影核数值检验**（`parity-norm-odd-kernel-002.py/json`）：严格证明非正交基坐标密度 $F(q)^2$ 的相似性不能决定奇极跃迁核；在 $D_0 \to 0$ 相消点附近实验室 $B(E1) \to 0$，而 $B(E3)$ 仍保持巨大，从数学根源确立 E1 与 E3 解耦；
-3. **135Pr Table I 原表同母态分支比精确重建**（`pr135-photon-branch-reconstruction-002.py/json`）：复原 Paul 1991 分支公式，精确重现 Garg 2015 图 7 三个实测点（$31/2^- \to 15.78$, $33/2^- \to 19.67$, $35/2^- \to 94.83\ (\mu_N/e\text{b})^2$），彻底撤回旧预习中编造的伪单调轨迹；
-4. **110Cd NNDC ENSDF 数据集提取与系统学闭环**（`cd110-ensdf-systematics-002.py/json`）：直接提取数据集 110048001 Band B 的 1075、1224、1323、1314 keV 跃迁，确立实测动态转动惯量比 $\mathcal{J}^{(2)}/B(E2) \approx 116 - 341\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$；
-5. **110Cd 经典两粒子加转子 AMR 模型数值重现**（`cd110-amr-particle-rotor-model-003.py/json`）：解析证明纯剪刀机制（$\Im = 0$）在 $I=19\hbar$ 必然终止；半刚体核心集体转动（$\Im = 19.5\text{ MeV}^{-1}\hbar^2$）承担了 $18\% - 26\%$ 的自旋增益，使剪刀闭合速率变缓，理论完满重现实测 $B(E2)$ 维持在 $0.14 \to 0.06\ (e\text{b})^2$ 的平缓平台；
-6. **135Pr 与 137Pr 磁转动能带交叉系统学对账**（`pr135-pr137-mr-systematics-004.json`）：对比 Garg 2015 与 Agarwal 2007，确立 3qp $\to$ 5qp 顺对齐能带交叉在两核中的同源性，阐明逼近交叉点时动力学惯量激增与相干混合诱发 $B(M1)/B(E2)$ 剧烈反弹（分别升至 95 与 62）的普适物理规律；
-7. **平面剪刀向 3D 手征转动几何分岔模拟**（`shears-to-chiral-transition-005.py/json`）：系统扫描三轴度 $\gamma \in [-30^\circ, 0^\circ]$ 与转动频率 $\omega$；证明在 $\gamma = -30^\circ$ 下中等轴转动惯量占优（$\mathcal{J}_m = 4 \mathcal{J}_s$），转频超过 $\omega_c \approx 0.25 - 0.30\text{ MeV}$ 时能量极小自发分岔为两个非共面简并极小（$\phi = \pm 48^\circ \to \pm 74^\circ$），打破 $\mathcal{S} = \mathcal{T}\mathcal{R}_y(\pi)$ 平面对称性并建立三维静态手征几何；
-8. **富中子奇质量钡八极泡利阻塞机制审计**（`nomura-2018-odd-ba-systematics-006.py/json`）：基于 Nomura 2018 微观约束 $sdf$-IBFM 模型，证实奇中子占据 $\nu 1h_{9/2}$ 与 $\nu 2f_{7/2}$ 破坏了八极配对相空间，基态 $\langle \hat{n}_f \rangle \approx 0.000$，八极声子态推高至 $0.7 - 1.2\text{ MeV}$，彻底解决奇核缺失基态宇称双重态的理论争议；
-9. **宏观滴度与微观壳偶极相消机制分解**（`ba-dipole-cancellation-mechanism-007.py/json`）：定量证明 140–148Ba 中宏观滴度分量（$<0.003\text{ e fm}$）微不足道，微观单粒子壳修正占绝对主导；中子占据低-Omega nu(1h9/2, 2f7/2, 1i13/2) 轨道在 146Ba 中抵消 90% 质子偶极贡献（$D_0: 0.13 \to 0.015\text{ e fm}$）并在 148Ba 发生特征性负向翻转（$-0.03\text{ e fm}$）；
-10. **MR 与 AMR 剪刀角动量几何幂次律对比**（`mr-vs-amr-shears-geometry-008.py/json`）：解析对比单剪刀 $B(E2) \propto \sin^2\theta$ 与双剪刀 $B(E2) \propto \sin^4\theta$ 幂次律，阐明四次方幂律导致 106,108Cd 纯剪刀 $B(E2)$ 暴跌 20 倍，而 110Cd 核心转动分担产生平缓平台；
-11. **剪刀机制形变窗口上限定理**（`shears-deformation-boundary-theorem-009.py/json`）：扫描多质量区证明当 $\beta_2 > 0.20$ 时集体四极跃迁强度压倒粒子-空穴剪刀张角调制的四极矩，$B(M1)/B(E2)$ 迅速压低至 $< 5\ (\mu_N/e\text{b})^2$，确立剪刀机制存在严格的弱形变硬门（$\beta_2 \le 0.20$）；
-12. **交替宇称位移函数 \delta E(I) 刚度收敛标度**（`parity-displacement-deltaE-systematics-010.py/json`）：对比刚性反射不对称 224Ra（88.3% 塌缩至 20.4 keV）、八极振动 220Rn（71% 降至 120 keV）与大振幅八极软核 144,146Ba（高自旋维持 >340 keV 平台），确立能谱级收敛速率作为区分静态梨形与动态八极软度的充要判据；
-13. **极富质子轻稀土核区四极—八极竞争**（`proton-rich-octupole-competition-011.py/json`）：证明滴线轻稀土（130Sm、128Nd、126Ce）虽然具备同种核子八极对，但强长椭四极形变（$\beta_2 \sim 0.30 - 0.33$）扩展有效能母并淬灭八极极化率，八极声子推高至 1.3–1.5 MeV；
-14. **微观单粒子组态 MR vs ER 选择定则**（`mr-vs-er-configuration-selection-012.py/json`）：以 104,106Ag 为例，确立高 $j$ 刃剪刀闭合（$\Delta g = 1.57$, 容纳 $9\hbar$ 自旋）驱动磁转动，而低 $j$ 刃受抑（$\pi p_{1/2}^{-1}$，仅 $1\hbar$ 容纳度）驱动纯电四极转动。
-15. **反磁转动多核系统学基准与巨判据比审计**（amr-cadmium-palladium-systematics-013.py/json）：系统汇编 106,108,110Cd 与 101,104,105Pd 实验能级、寿命与跃迁强度，确立 AMR 谱系 $\mathcal{J}^{(2)}/B(E2)$ 稳定落在 $100 - 1300\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$，超越常规集体转子（15–30）一个数量级以上，彻底夯实反磁转动的排他性无量纲判据。
+旧日报把17项工件统称“完全独立验证”，其中007–015含未定位实验表、自设参数与错误定理，不能保留该科学认证。已对九对Python/JSON加科学状态标记；旧Python默认停止，显式历史replay才允许执行。原始材料未改，旧代码字节由Git历史保留。规范通过不等于原文支持或实验复现。
 
-16. **剪刀动力学、高自旋顺对齐能带交叉与 $B(M1)/B(E2)$ 反弹两能带混合模型**（`shears-dynamics-bandcrossing-model-014.py/json`）：推演半经典两刃剪刀运动学（Clark 2000 Eqs. 5–8），建立二态 avoided crossing 量子混合模型。定量证明：(1) 准粒子对破对顺对齐使有效叶片伸长，驱动剪刀突发“重新张开”（shears re-opening），使横向磁矩分量与 $B(M1)$ 激增；(2) 单体电磁算符正交性导致跨组态矩阵元严格相消（$\langle 3\text{qp} | E2 | 5\text{qp} \rangle \equiv 0$），在交叉混合区造成带内 $\Delta I = 2$ 跨带跃迁 $B(E2)$ 断崖式塌缩；(3) 双重动力学共振完满再现 $^{135}\text{Pr}$（实测飙升至 $94.83\ (\mu_N/e\text{b})^2$）与 $^{137}\text{Pr}$（实测飙升至 $62.1\ (\mu_N/e\text{b})^2$）的特征反弹峰，以及 $^{137}\text{Pr}$ 交叉上方 5qp 剪刀重新闭合回落至 $17.2$ 的完整旋回；(4) 动态转动惯量 $\mathcal{J}^{(2)}$ 在交叉频率 $\omega_c$ 产生尖锐共振峰（达 $137 - 222\ \hbar^2/\text{MeV}$），与 $B(M1)/B(E2)$ 极值点高度对齐；(5) 系统对比 $^{198}\text{Pb}$ 纯闭合、$^{197}\text{Pb}$ 双交叉重开与 $^{135,137}\text{Pr}$ 交叉，彻底打破“剪刀带必须单调陡降”的唯象硬门。
+- **直接原件记录**：BU16向下E3为48(−34/+25)，BU17为48(−29/+21) W.u.，旧015把两组误差互换。BU17的146Ba E1幅度实验0.000223与SCCM0.00474相差21.26倍，不认证“绝对精确复现”；计算有符号D0不是实测符号。
+- **017 条件推转与流场**：构造明确对称性的示意流场与冻结陀螺模型，临界频率0.514639 MeV/ℏ是该输入的结果。纠正AMR时间反演不破缺、总磁矩处处零、β=.20硬门和J2/B≥100排他判据；不是实际核密度泛函生产计算。
+- **018 点团簇反向例**：在固定未极化点团簇假设内，20Ne E1严格相消但E3可非零；146Ba同一单通道不能同时拟合所用E1/E3中心。不是团簇存在或GDR相消的实验测量。
+- **019 准粒子算符与宇称位移反例**：正交3qp/5qp态的单体矩阵元可为0.96q；理想转子简单平均位移为−12keV，自旋加权插值为0；AMR横向零而纵向磁矩可非零。未给Pr的真实E2矩阵元。
+- **022 Cd打印表复算**：Roy Table1完整逐点输入；邻接差149、99、−9、44keV给J2=26.85、40.40、−444.44、90.91 ħ²/MeV。频率与强度中心明列，负值不隐藏。纯E2单位分支寿命换算与表列B有约7%–13%差别，记录待补的转换/分支条件，不静默改表。
+- **奇A专题016**：独立source审计与条件模型保留奇粒子阻塞的模型范围，不以无显著f玻色子含量普遍证明无双重态或完全抑制八极。
 
+可复用纠错归入 [[day26-quantitative-claim-corrections]]；原表定位归入Roy、Bucher与Nomura来源页；所有新页面保持unreviewed，不更改旧人工审核。完整模型输入/输出在相应017–019、022工件。016的独立代理定向审查、全库结构检查与本checkpoint发布状态以后续实际回执为准。
 
-17. **八极关联微观单粒子驱动、电偶极相消宏观/微观分解与投影核解耦**（`octupole-microscopic-sccm-droplet-015.py/json`）：(1) 解析与数值积分确立 $\Delta l = \Delta j = 3$ 轨道对（Ba区质子 $2d_{5/2}-1h_{11/2}$、中子 $2f_{7/2}-1i_{13/2}$；Ra区质子 $2f_{7/2}-1i_{13/2}$、中子 $1g_{9/2}-1j_{15/2}$）在长椭四极形变场中的能级下沉驱动八极极化；(2) 定量核算宏观 Droplet 偶极项（$<0.003\ e\text{ fm}$）不足微观贡献的 $1\%$，确立中子侵入轨道 $\nu 1i_{13/2}[660]1/2^+$ 的快速充填如何诱导 $^{146}\text{Ba}$ 与 $^{224}\text{Ra}$ 的 $90\%+$ 精巧偶极相消点，以及 $^{148}\text{Ba}$ 的符号反转；(3) 解析 HWG 局域跃迁算符核，证明波函数坐标密度的空间重叠度达 $85.9\%$ 时，实验室 $B(E1)$ 仍可急剧塌缩 $89.9$ 倍而 $B(E3)$ 保持巨大（$48\text{ W.u.}$），确立 $E1$ 与 $E3$ 强度的微观解耦定理；(4) 量化核算 $^{144}\text{Ba}$ 与 $^{146}\text{Ba}$ 置信区间重叠度（$84.8\%$），严格划定单凭直接 $E3$ 无法区分静态梨形与动态八极软度的科学界限，确立交错宇称能级位移 $\delta E(I)$ 的充要判据地位。
+### Checkpoint 019–028：证据重建与可复用反例
+
+- **016 奇 A 锕系/镧系**：`parity-doublet-actinide-lanthanide-016.py/json` 与 `odd-a-parity-doublet-blocking-audit.md` 将 225Ra ENSDF 评价层（31.50-keV E1，B(E1)=0.00081(20) W.u.）与奇 Ba 的 sdf-IBFM 模型层分开；评价记录并不自动证明所有奇 A 核都有或没有静态八极双重态。
+- **017 三维流场/TAC**：`tac-currents-shears-chiral-phase-017.py/json` 与 `n75-3d-tac-source-contrast-day26.md` 把局部玩具流场、冻结陀螺临界频率0.514639 MeV/ℏ、132La实验双带位移和Olbratowski模型分支分层；这些不是核密度泛函生产结果或普适MR/AMR相界。
+- **018–019 反向检验**：点团簇模型确认荷质比相等时E1几何零点，但同一E1/E3通道的联立解需核尺度局域约束；BCS代数例给出单体算符连接3qp/5qp的非零矩阵元0.96q，撤回“单体E2必为零”。
+- **020 原件审计**：BU16/BU17 E3误差、BU17 E1表列0.000223/0.00474及Gaffney 940±30（E3约化矩阵元）/2520±90（Q3）经独立目视复核；Egido–Robledo1990正文未取得，未把元数据当全文。
+- **022–023 Cd归一化**：Roy Table1五个寿命与B(E2)保留；ENSDF半衰期除以ln2重现平均寿命，内转换约10^-3不足以解释7–11%中心差，22+的1100-keV评价支线与Roy未确认的门条件不能混算。条件误差尺度不是正式统计检验。
+- **027 多跃迁E3完整性**：Butler 2020 的 222Ra 多条E3矩阵元/近恒定Q3图样与 228Ra 近零耦合线，为静态梨形—八极振动区分提供比单个E3更强但仍模型依赖的证据；星号矩阵元受转子耦合约束，未闭合总和。
+- **028 225Ac评价层**：ENSDF给3/2−基态、40.10-keV 3/2+和40.09-keV E1 B=0.00171(15) W.u.；A–D多带使同自旋劈裂不唯一，D0=0.1688±0.0074 e fm仅为K=3/2转子条件反演。
+- **024–026 量子边界**：132La/N=75的3D-TAC与实验输入、固定双角动量M1的Racah/矩阵残差1.78×10^-15、非正交HWG自然基底诊断均是有界模型/代码练习；026显示旧015全维零模会取到f†Nf≈0的伪低态，不能从其0.0 JSON恢复物理E1/E3。
 
 ## Counter-evidence and missing companion observables
 
@@ -222,17 +225,6 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
       ]
     },
     {
-      "knowledge": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
-      "anchor": "## Key Results",
-      "summary": "110Cd 核心耦合反磁转动第一手 DSAM 实验与经典转子模型原件。",
-      "sources": [
-        {
-          "path": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
-          "locator": "RO11-1"
-        }
-      ]
-    },
-    {
       "knowledge": "knowledge/research-notes/cross-mass-region-collective-mode-transfer-boundaries.md",
       "anchor": "## Grounded Evidence",
       "summary": "六大质量区物理特征对照矩阵与四大跨区不可迁移性判据。",
@@ -240,6 +232,50 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
         {
           "path": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
           "locator": "BU16-D26-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/day26-quantitative-claim-corrections.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "本轮定向原件核对与条件推导；未升级人审。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+          "locator": "BU17-D26-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/octupole-cluster-dipole-dynamics-conditional-equivalence.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "本轮定向原件核对与条件推导；未升级人审。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+          "locator": "BU17-D26-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/odd-a-parity-doublet-blocking-audit.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "本轮定向原件核对与条件推导；未升级人审。",
+      "sources": [
+        {
+          "path": "knowledge/sources/nndc-2009-ra225-adopted-parity-doublet.md",
+          "locator": "Key Results"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
+      "anchor": "## Day26 原件重读与派生量复核",
+      "summary": "本轮定向原件核对与条件推导；未升级人审。",
+      "sources": [
+        {
+          "path": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
+          "locator": "RO11-D26C-003"
         }
       ]
     }
@@ -265,7 +301,7 @@ L1/L2原件阅读与互链、L3竞争解释和输入合同在进行；L4限打�
 
 - 入口EOL清理exit0，preflight/boundary通过，受保护Zotero Bib哈希匹配；farmer PID3193监督本session，未挂起重试。
 - 继承1143条Git状态入口和未跟踪历史；并发出现的system/scripts/run_daily_learning.py修改属protected external scope，本研学不编辑或stage。
-- 原生goal已启用并保持active；all/auto执行研究单元，普通优化轮数或收益阈值不覆盖用户原时间窗。farmer仅监督allowlisted暂态失败，不控制学分/Git。
+- 原生goal继承并保持active；all/auto执行研究单元，普通优化轮数或收益阈值不覆盖用户原时间窗。farmer仅监督allowlisted暂态失败，不控制学分/Git。
 - 本段后续检查与发布以required-checks-001.json、checkpoint-publication-001.json实际结果为准；未签发Day26最终学分或final-session receipt。
 - 恢复：`codex resume 01a1819f-75bb-7a11-be19-05761880f65c -C /workspace/wiki -s danger-full-access -a never`。
 - 下一当前问题：BE16的norm/奇宇称算符核与F图；Pr同母态branch条件复算；Cd原表合法仓储路线。继续至原研究截止，15:00后才正式收束。

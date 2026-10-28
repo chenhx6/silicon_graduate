@@ -18,6 +18,12 @@ Theorems established:
 - Dynamic Moment of Inertia J^(2) Resonance Peak & Alignment Correlation.
 """
 
+# Scientific claims from this historical calculation have been withdrawn.
+import sys as _audit_sys
+if "--replay-superseded" not in _audit_sys.argv:
+    raise SystemExit("Superseded research artifact. Read knowledge/research-notes/day26-quantitative-claim-corrections.md; use 017-019 instead. Explicit historical replay requires --replay-superseded.")
+
+
 import json
 import math
 
@@ -325,7 +331,7 @@ def main():
 
     out_path = "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/shears-dynamics-bandcrossing-model-014.json"
     with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(full_output, f, indent=2, ensure_ascii=False)
+        json.dump({"scientific_audit": {'status': 'superseded-unverified-claims-not-scientific-evidence', 'correction_note': 'knowledge/research-notes/day26-quantitative-claim-corrections.md', 'scope': 'Legacy numerical payload retained for audit only. Assumed data/coefficients, universal thresholds, production-model equivalence and exact experimental agreement are not certified. Use source locators and corrected 017-019 artifacts.'}, **full_output}, f, indent=2, ensure_ascii=False)
     print("Successfully generated artifact: " + out_path)
 
     print("")

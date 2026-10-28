@@ -1,4 +1,9 @@
 {
+  "scientific_audit": {
+    "status": "superseded-unverified-claims-not-scientific-evidence",
+    "correction_note": "knowledge/research-notes/day26-quantitative-claim-corrections.md",
+    "scope": "Legacy numerical payload retained for audit only. Assumed data/coefficients, universal thresholds, production-model equivalence and exact experimental agreement are not certified. Use source locators and corrected 017-019 artifacts."
+  },
   "title": "Microscopic Dipole Moment Cancellation Mechanism in Neutron-Rich Ba Isotopes",
   "description": "Cross-checking macroscopic droplet vs microscopic single-particle shell contributions to D0 across 140-148Ba",
   "isotopes": [

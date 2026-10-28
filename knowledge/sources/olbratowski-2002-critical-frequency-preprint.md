@@ -16,9 +16,9 @@ doi:
 related_published_doi: 10.1103/PhysRevLett.93.052501
 canonical_source: https://arxiv.org/abs/nucl-th/0211075v1
 citation_key: ""
-raw_file: raw/papers/2002_Olbratowski_CriticalFrequency_nuclth0211075v1.pdf
+raw_file: raw/papers/gpt/day26-20261028/olbratowski-2002-critical-frequency-arxiv-v1.pdf
 raw_sha256: 3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb
-raw_storage_status: public-staging-not-archived
+raw_storage_status: archived-2026-10-28
 actual_body_file: tmp/day24-critical-tac-007/arxiv-0211075v1.response
 nuclei: [132la]
 models: [tilted-axis-cranking, skyrme-hartree-fock, frozen-gyroscope-model]
@@ -31,13 +31,13 @@ tags: [chirality, critical-frequency, planar-aplanar, model-validity]
 
 ## Bibliographic Record
 
-实际读本为2002-11-25的三作者arXiv:nucl-th/0211075v1，4页。官方PDF URL `https://arxiv.org/pdf/nucl-th/0211075v1` 本轮HTTP200、application/pdf、252547bytes、有效PDF签名，SHA见frontmatter；下载仅暂存，raw归档槽尚未写入。
+实际读本为2002-11-25的三作者arXiv:nucl-th/0211075v1，4页。官方PDF URL `https://arxiv.org/pdf/nucl-th/0211075v1` 本轮HTTP200、application/pdf、252547bytes、有效PDF签名；2026-10-28 已将同一字节流归档到 `raw/papers/gpt/day26-20261028/olbratowski-2002-critical-frequency-arxiv-v1.pdf`，SHA见frontmatter。
 
 Crossref及作者机构网页把这一早期稿关联到*Phys. Rev. Lett.* **93**, 052501 (2004)，DOI10.1103/PhysRevLett.93.052501；2004元数据还列W. Płóciennik为第四作者。实际作者HTML仍是三作者稿，APS正式body未取得。另查官方arXiv历史仅有v1；本轮无版本号current PDF与已读v1逐字节相同，仍为三作者稿，没有因此取得2004正文。不能将早期稿的公式/数值/字面问题无条件归给未读2004 VoR；本source的科学locator一律属于2002 v1。
 
 ## Scope and Reading Depth
 
-独立worker读4页全文文本/视觉、全部Figs1–6/Eqs1–7；leader另读四页主线文本并fresh视觉全部四页，抽核Eq1/4–7、参数、Fig6和方法脚注。没有重跑HFODD、原HF continuation或particle-core量子谱；条件代数检查不是实验认证。原PDF/HTML/metadata回执留本run workers/critical-tac-007，body仍public staging。
+独立worker读4页全文文本/视觉、全部Figs1–6/Eqs1–7；leader另读四页主线文本并fresh视觉全部四页，抽核Eq1/4–7、参数、Fig6和方法脚注。没有重跑HFODD、原HF continuation或particle-core量子谱；条件代数检查不是实验认证。原PDF/HTML/metadata回执留本run workers/critical-tac-007；归档副本与实际读本逐字节一致。
 
 ## Summary
 
@@ -98,8 +98,12 @@ $$E-{I^2\over2\mathcal J_m}=-{1\over2}\left[{s_s^2\over\mathcal J_m-\mathcal J_s
 
 ## Agent self-audit triage
 
-P0: none identified（版本/字面歧义已隔离）。P1：Eq7/参数/替代解释与方法输入已双读原件；v1/VoR及局部curvature/实际HF/量子谱保持分层，全部新增needs_review:true。body staging可失，按原URL/version/hash恢复，不能当已raw归档。P2：书目关联已核、citation key仍空，不改Bib。
+P0: none identified（版本/字面歧义已隔离）。P1：Eq7/参数/替代解释与方法输入已双读原件；v1/VoR及局部curvature/实际HF/量子谱保持分层，全部新增needs_review:true。已完成 raw 归档；按原 URL/version/hash 可恢复，仍不能将 v1 当作未读的 2004 VoR。P2：书目关联已核、citation key仍空，不改Bib。
 
 ## Extracted Pages
 
-实际原件位于frontmatter的public staging；本轮4页全文与Figs1–6/Eqs1–7已读。PDF2参数/Eqs2–4、PDF3 Eqs5–7和PDF4 Fig6/Ref6是本页原子主张的定位入口，页码属于2002 v1，不能作2004 VoR页码。
+归档原件位于 frontmatter 的 `raw_file`；本轮4页全文与 Figs.1–6/Eqs.1–7 已读。PDF2 参数/Eqs.2–4、PDF3 Eqs.5–7 和 PDF4 Fig.6/Ref.6 是本页原子主张的定位入口，页码属于2002 v1，不能作2004 VoR页码。
+
+## Archive Recovery History
+
+2026-10-28：从 `tmp/day24-critical-tac-007/arxiv-0211075v1.response` 恢复同一 PDF 字节流至 `raw/papers/gpt/day26-20261028/olbratowski-2002-critical-frequency-arxiv-v1.pdf`。复制前目标路径不存在；归档副本 `%PDF-1.4`、4 页、252547 bytes，SHA-256 `3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb`，与实际读本逐字节一致。此恢复只改变存储身份，不改变 source 的版本、locator、review flags 或 2004 VoR 未读边界。

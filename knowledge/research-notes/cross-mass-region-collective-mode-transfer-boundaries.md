@@ -7,97 +7,85 @@ updated: 2026-10-28
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [bucher-2016-144ba-direct-octupole, bucher-2017-146ba-direct-octupole, gaffney-2013-pear-shaped-rn-ra, garg-2015-135pr-magnetic-rotation, agarwal-2007-137pr-magnetic-rotation-bandcrossing, roy-2011-cd110-systematics-antimagnetic, frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]
+evidence_sources: [xiao-2022-chirality-octupole-correlations-74as, roy-2011-cd110-systematics-antimagnetic, garg-2015-135pr-magnetic-rotation, agarwal-2007-137pr-magnetic-rotation-bandcrossing, bucher-2016-144ba-direct-octupole, bucher-2017-146ba-direct-octupole, frauendorf-2014-transverse-wobbling, clark-2000-shears-mechanism, gaffney-2013-pear-shaped-rn-ra, olbratowski-2002-critical-frequency-preprint]
 created_from: Day26 study continuation and Day27 uncredited preview
-promotion_target: collective-motion-and-rotation
 tags: [cross-mass-region, transfer-boundaries, non-applicability, octupole, magnetic-rotation, antimagnetic-rotation, wobbling, chirality]
 ---
 
 # 跨质量区集体激发模式迁移边界与不适用性判据
 
+> 2026-10-28 源证据审计：本页是 **Day27 无学分预习**，不计正式 Day27 卡、不推进 `day_index`/`next_day_index`，也不打开 Day28。旧版六区形变与强度数字窗、$\beta_2=0.20$ 相界、$\mathcal J^{(2)}/B(E2)$ 排他硬门、跨区充要证伪已撤回。以下只在有 source locator 的核素/模型范围内比较；`needs_review: true`，不作人审认证。
+
 ## Research Trigger
 
-低能原子核结构研究在不同质量区（A≈80, 100–110, 130, 160, 190, 220）展现出丰富多样的自旋产生机制与对称性破缺模式。然而，由于核单粒子轨道、自洽平均场形变、配对关联与核心集体性的巨大差异，简单将某一区域的实验判据或唯象模型数值硬门跨区机械套用，是导致学术争议（如 135Pr 摆动争议、187Au 低自旋摆动反转、110Cd 伪硬门等）的根源。本研究笔记系统建立跨质量区物理特征对照矩阵，并确立四条严格的“不适用性判据（Non-transferability Criteria）”。
+比较不同质量区的 MR、AMR、手征、wobbling 与八极关联时，必须先对齐核素、组态、形变约定、观测量和实验谱系。同一质量区可包含多种模式，不能给整区指定唯一“主导”机制。此处的六组是研究入口和反例，不是覆盖每个核素的区域相图。
 
 ## Grounded Evidence
 
-基于本知识库已核验的一手实验文献与微观理论模型，建立六大典型质量区的结构坐标系：
+以下逐核对账保留原件 locator，不把例核外推为整区数值窗。
 
-| 质量区 | 典型核素 | 费米面主导单粒子轨道 | 核心四极形变 $\beta_2$ | 主导集体/非集体转动模式 | 关键实验观测量特征 |
-|---|---|---|---|---|---|
-| **A≈80** | $^{74}\text{As}$, $^{78}\text{Br}$, $^{82}\text{Kr}$ | 质子与中子同处 $f_{5/2}, p_{3/2}, g_{9/2}$ | 0.20–0.40（形变快速演化） | 扁椭-长椭形状共存、软八极相关、候选手征带 | 质子与中子同壳，同位旋 $T=0$ 对关联显著，宇称双重态位移大 |
-| **A≈100–110** | $^{106,108,110}\text{Cd}$, $^{104,106}\text{Mo}$, $^{108}\text{In}$ | 质子 $\pi(g_{9/2})^{-2}$ 空穴，中子 $\nu(h_{11/2})^2$ 粒子 | 0.08–0.15（近球形微弱形变） | 反磁转动（AMR）、单剪刀磁转动（MR）、软手征振动 | 无 $M1$ 阶梯，$B(E2) \sim 10–30\text{ W.u.}$，$J^{(2)}/B(E2) \sim 100–400\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ |
-| **A≈130** | $^{135}\text{Pr}$, $^{136}\text{Nd}$, $^{133}\text{Ce}$, $^{144,146}\text{Ba}$ | 质子 $\pi h_{11/2}$ 低 $\Omega$，中子 $\nu h_{11/2}$ 高 $\Omega$ | 0.15–0.22，$\gamma \approx -20^\circ \sim -30^\circ$ | 手征双重带、横向/纵向摆动、磁转动带交叉、八极相消 | 复杂模式共存与多准粒子重对齐，大 $\Delta I=1$ $M1$ 与小 $E2$ 跨带交叉 |
-| **A≈160–170** | $^{163,165}\text{Lu}$, $^{167}\text{Ta}$ | 三轴超形变（TSD）极小，$i_{13/2}$ 准质子 | 0.38–0.40，$\gamma \approx \pm 20^\circ$ | 多声子横向 wobbling、刚性三轴超形变转动 | 巨大带内 $E2$（$B(E2) \sim 100–200\text{ W.u.}$），跨带 $E2$ 呈单声子特征增强 |
-| **A≈190–200** | $^{199}\text{Pb}$, $^{194}\text{Tl}$, $^{187}\text{Au}$ | 质子 $\pi(h_{9/2}, i_{13/2})$，中子 $\nu(i_{13/2})^{-n}$ | 0.05–0.12（微弱扁椭形变） | 经典单刃剪刀磁转动、低自旋进动争议 | 典型 $B(M1) \sim 1–5\ \mu_N^2$，$B(E2)$ 极微弱（几个 W.u.），规则 $\Delta I=1$ 序列 |
-| **A≈220–230** | $^{224}\text{Ra}$, $^{220}\text{Rn}$, $^{226}\text{Th}$ | 质子 $1i_{13/2}-2f_{7/2}$，中子 $1j_{15/2}-2g_{9/2}$ | 0.15–0.25，$\beta_3 \sim 0.10–0.15$ | 稳定静态梨形反射不对称形变 | 增强 $B(E3) \sim 30–50\text{ W.u.}$，交错宇称能级位移 $\delta E(I) \to 0$ |
+| 区域与例核 | 可回链的原件/模型事实 | 证据类别及 locator | 迁移边界 |
+|---|---|---|---|
+| A≈80：$^{74}\mathrm{As}$ | Bands 1/2 有同宇称连接；Band 3→1 的三条跨宇称 E1 线被用于八极相关讨论。 | [[xiao-2022-chirality-octupole-correlations-74as]] XA22-3/5，PDF pp.3–7，Figs.1–3。实验连接与作者解释分层。 | 不推出 A≈80 全区 $\beta_2=0.20$–0.40、同位旋配对或静态八极强度范围。 |
+| A≈100–110：$^{106,108,110}\mathrm{Cd}$ | Roy Table 1 汇列三核的 $B(E2)$；$^{110}\mathrm{Cd}$ 的本研究 DSAM 值从 $0.14(1)$ 到 $0.06(2)\,(eb)^2$，作者用芯转动加双剪刀模型解释。 | [[roy-2011-cd110-systematics-antimagnetic]] RO11-1/2，印刷 pp.323–326，Table 1、Fig.4；邻核输入并非同次采集。 | 不称三核“无芯纯 AMR”，也不将小 E2 或无带内 M1 作为单项充分证据。 |
+| A≈130–150：$^{135,137}\mathrm{Pr}$、$^{144,146}\mathrm{Ba}$ | $^{135}\mathrm{Pr}$ 的 3qp→5qp 是 TAC 组态解释、交叉后缺 E2 crossover；$^{137}\mathrm{Pr}$ Band 2 相对 $B(M1)/B(E2)$ 在 $37/2^-$ 为 $62.1(12.0)$，$41/2^-$ 为 $17.2(2.9)$。$^{144,146}\mathrm{Ba}$ 分别报告 $B(E3;3^-\to0^+)=48^{+25}_{-34}$ 与 $48^{+21}_{-29}$ W.u. | [[garg-2015-135pr-magnetic-rotation]] GA15-14，印刷 p.7–8 Figs.5/7；[[agarwal-2007-137pr-magnetic-rotation-bandcrossing]] AG07-6/7，PDF p.4 Table I、p.7 Fig.7；[[bucher-2016-144ba-direct-octupole]] BU16-1，PDF p.4 Table I；[[bucher-2017-146ba-direct-octupole]] EXT146-1，PDF pp.2–3 Table I。 | Pr 强度比不分离绝对 M1 与 E2；Ba E3 不独立确定静态梨形。A≈130 标签不意味着四核同一组态或 $\gamma$。 |
+| A≈160–170：$^{163}\mathrm{Lu}$ | QTR 对横向 wobbling 的惯量排序、小振幅近似及带间 E2/M1 作模型比较。 | [[frauendorf-2014-transverse-wobbling]] F14-1/10/12，PDF pp.2–3 Eqs.1–6、pp.9–11 Figs.17–19；本文不是新实验采集。 | 不能把 QTR 参数、谐振近似或任意 TSD $\beta_2$ 数值移至低自旋软核。 |
+| A≈190–200：Pb 剪刀带 | Pb 的弱形变、强 M1/弱 E2 和叶片闭合是综述整合的多观测量剪刀图像；197Pb 交叉可改变叶片长度。 | [[clark-2000-shears-mechanism]] CL00-1/4、CL00-D23-002，PDF pp.5–8、15–18，Fig.2/10；综述依赖旧实验。 | 不能把综述例子的 $|\epsilon|\lesssim0.1$ 或任意 M1 数字窗当所有 Pb/Au/Tl 的硬门。 |
+| A≈220–230：$^{220}\mathrm{Rn}$、$^{224}\mathrm{Ra}$ | 库仑激发给 E2/E3 矩阵元与内禀矩；作者认为 $^{224}\mathrm{Ra}$ 有更强的静态梨形特征，同时明确这些矩阵元本身不能把静态形状与八极振动完全分开。 | [[gaffney-2013-pear-shaped-rn-ra]] GA13-1/2/6，期刊 pp.199–203，Tables 1–2、Figs.3–5。 | 不推出整区恒定 $\beta_3$、所有核素同一静态形状或 $\delta E\to0$ 通用数值窗。 |
 
 ## Provisional Reasoning
 
-### 四大不可迁移性判据（Non-transferability Criteria）
+以下四条为有条件的迁移规则，适用性随组态、观测量与模型输入而变。
 
-1. **判据一：禁止电四极跃迁强度绝对数值的跨区机械移植（$B(E2)$ 绝对尺度不适用性）**：
-   常规变形核（如稀土区 A≈160）具有巨大的内禀四极矩（$Q_0 \approx 7–10\text{ eb}$，$B(E2) \approx 100–300\text{ W.u.}$），其转动惯量主要由核电荷整体旋转贡献；而在反磁转动核（A≈110，如 $^{110}\text{Cd}$）中，核心形变极微（$B(E2) \approx 10–30\text{ W.u.} \approx 0.06–0.15\ e^2\text{b}^2$），角动量主要由双剪刀闭合提供。严禁用 A≈160 的“强收集性集体转动标准”来否定 A≈110 的弱形变剪刀机制，亦不可将 A≈110 的小 $B(E2)$ 作为核芯失稳的判据。
+1. **先保单位和归一。** $B(E\lambda)$、W.u.、$Q_t$ 和 $\mathcal J^{(2)}$ 必须对齐跃迁初态、质量数、有效电荷与误差。$\mathcal J^{(2)}/B(E2)$ 的单位是 $\hbar^2\mathrm{MeV}^{-1}(e^2b^2)^{-1}$；它不是无量纲判据，也没有由上述文献证明的普适 $100$ 界线。$\beta_2=0.20$ 亦非 MR/AMR→ER 的必要或充分相界。[[roy-2011-cd110-systematics-antimagnetic]] Table 1、[[clark-2000-shears-mechanism]] PDF pp.15–18 支持逐组态比较，不支持硬阈值。
+2. **区分相对比和绝对强度。** $^{137}\mathrm{Pr}$ 的 $B(M1)/B(E2)$ 先升后降是源表派生的带内相对信息；固定该比值时，M1 增强或 E2 减弱都可产生同一数值。$^{135}\mathrm{Pr}$ 交叉后的 crossover 缺失。故不能宣布两核已实测“剪刀重开导致绝对 $B(M1)$ 反弹”或动态惯量峰与比值峰精确同位。[[agarwal-2007-137pr-magnetic-rotation-bandcrossing]] AG07-D22-R098-1，PDF pp.4–7；[[garg-2015-135pr-magnetic-rotation]] GA15-14，印刷 pp.7–8。
+3. **核查模型有效域。** $^{163}\mathrm{Lu}$ 的 QTR 与小振幅 wobbling 关系是具体惯量、准粒子取向和量子近似的结果。跨至 $^{135}\mathrm{Pr}$ 或其它软核时，需重新比较转子惯量、粒子 alignment、带间 E2/M1、偏振/混合比和 competing configurations；不能仅凭 $E_{\rm wob}(I)$ 斜率作充要裁决。[[frauendorf-2014-transverse-wobbling]] F14-1/11/12，PDF pp.2–3、9–12；[[olbratowski-2002-critical-frequency-preprint]] OL02-D24-001/004，2002 v1 PDF pp.2–4 又显示均场分岔频率与实验双带间有量子化边界。
+4. **分开 E3 强度与形状刚度。** 单一强 $B(E3)$ 说明跃迁八极集体性，不排他证明静态梨形极小；还要比较宇称交错能谱、多个矩阵元、模型软度与不确定度。$^{144,146}\mathrm{Ba}$ 的 E3 中心值相同但宽区间相容，不证明两核严格等强或都为刚性梨形。[[bucher-2016-144ba-direct-octupole]] BU16-1/3，PDF pp.3–4；[[bucher-2017-146ba-direct-octupole]] EXT146-1/3，PDF pp.3–5；[[gaffney-2013-pear-shaped-rn-ra]] GA13-6，期刊 p.202。
 
-2. **判据二：禁止忽略能带交叉与多准粒子重对齐的单调抛物线硬门（剪刀闭合速率不适用性）**：
-   理想两刃剪刀在单组态下预报 $B(M1) \propto \sin^2\theta$ 随自旋单调下降。但在多粒子体系中（如 $^{135}\text{Pr}$ 和 $^{137}\text{Pr}$），高自旋下必然经历破对重对齐（如 3qp $\to$ 5qp，一对 $g_{7/2}$ 质子顺对齐）。在逼近能带交叉点时，动力学转动惯量剧增及组态相干混合使 $B(M1)/B(E2)$ 出现强烈的反弹上升（分别达到 $\sim 95$ 与 $62\ (\mu_N/e\text{b})^2$）。严禁将“强度比必须处处单调下降”作为判定磁转动的绝对硬门，多相剪刀机制容许交叉反弹。
+## Removed Claims and Evidence Gaps
 
-3. **判据三：禁止将大形变超形变核的小角进动公式外推至低自旋软核（Wobbling 判据不适用性）**：
-   A≈160（如 $^{163}\text{Lu}$）的横向摆动建立在稳定三轴超形变背景下，转动角动量 $R \gg j$，小角谐振子声子近似成立。而 A≈130（如 $^{135}\text{Pr}$、$^{133}\text{La}$）在低自旋端（$I \sim 13/2–21/2$）转动角动量很小（$R \sim 1–3\hbar$），极易受单粒子多极混合比 $\delta$ 双解不确定度、光子线偏振测度符号以及特征宇称伙伴带混合的干扰。必须以完全由数据驱动的偏振正号与严密四级降级阶梯为准，不可仅凭 $E_{\text{wob}}$ 随自旋上升的表象直接确立量子摆动。
-
-4. **判据四：禁止仅凭单一增强 $B(E3)$ 宣称静态梨形形变（八极刚度不适用性）**：
-   库仑激发测得的巨大 $B(E3) \sim 30–50\text{ W.u.}$ 仅反映电八极跃迁算符的矩阵元平方，涵盖了内禀静态极小与大振幅动态振动的共同贡献。判断是否存在稳定的静态梨形形变，必须跨质量区审视交错宇称能级位移 $\delta E(I)$：在 $^{224}\text{Ra}$ 中 $\delta E(I)$ 随自旋迅速向零收敛（$<20\text{ keV}$，刚性梨形）；而在 $^{144,146}\text{Ba}$ 中位移长期维持在数百 keV（软振动）。严禁脱离能级谱交错收敛性而仅凭 $B(E3)$ 宣称静态刚性形变。
+旧六区表的统一 $\beta_2,\gamma,\beta_3$ 区间、普适 $B(M1)/B(E2)$ 或 $B(E2)$ W.u. 窗，以及 A≈80 的全区 $T=0$ 配对、A≈130 的单一轴取向、A≈220 全区静态梨形等，未由对应整区原件逐项支持，已移除。旧“将 $^{110}\mathrm{Cd}$ 的 $V_{\pi\nu}=1.2,\Im=19.5$ 套到 $^{160}\mathrm{Dy}$ 就与实验冲突”的反向检验没有指定 Dy 能级、跃迁算符、参数或原实验 locator，故不能称实际计算/证伪。旧“多判据比值是唯一鉴别依据”撤回：组态、能级、寿命、偏振、branching 与 competing models 均可提供辨别信息。
 
 ## Assumptions
 
-本研究笔记假设已核验的实验数据（NuDat/ENSDF 与原刊文献）在各自标称的不确定度范围内可信；模型比较基于标准微观自洽平均场（Gogny EDF、CDFT）与半经典转子几何。
+本页只采用表中列出的 source 版本与 locator；综述转述旧实验时，综述和旧实验不计为两份独立采集。W.u.、$B(E2)$、$B(M1)$、$\mathcal J^{(2)}$ 均按各源原有定义和跃迁方向解释，不擅自合并不同作者的形变或转频约定。Day27 仍是无学分预习。
 
 ## Competing Explanations
 
-同一高自旋现象在不同质量区可能对应不同竞争机理：例如 A≈130 的 $\Delta I=1$ 偶极序列可能归属于手征、摆动、旋称伙伴或磁转动；A≈110 的四极阶梯可能归属于反磁转动或终止带。多判据比值（如 $J^{(2)}/B(E2)$）与电磁跃迁伴随量是唯一的鉴别依据。
+弱 E2 和规则能谱可能来自 AMR、终止带或普通弱集体组态；相近双带可来自手征、形状共存或组态混合；增强 E3 可出现在静态反射不对称和软八极振动中。相关源分别为 [[roy-2011-cd110-systematics-antimagnetic]] pp.323–326、[[olbratowski-2002-critical-frequency-preprint]] 2002 v1 PDF pp.3–4、[[gaffney-2013-pear-shaped-rn-ra]] 期刊 p.202。这是竞争机制清单，不是对表中各核的最终指认。
 
 ## Transfer Conditions
 
-跨质量区比较仅可迁移普遍守恒律、张量算符约化矩阵元代数、电磁多极辐射公式与不确定度传播规范；所有具体唯象参数（如有效电荷 $eQ_{\text{eff}}$、剪刀排斥力 $V_{\pi\nu}$、核心转动惯量 $\Im$）必须与目标核素的微观壳结构对齐重新定标。
+可迁移的是角动量/宇称选择规则、张量算符定义、误差传播与证据分层；核素参数、叶片长度、EDF 惯量、形变与检出限需要重新确定。若某模式结论依赖单一阈值，先在同核同带对照原能级/跃迁表，再以另一竞争组态或模型计算反向检验。未取得输入和逐态 locator 时记录为未检验假设，不补外推数字。
 
 ## Failure Conditions
 
-若未核查目标核素的实验纲图完备性、自旋宇称指认与分支比，而直接迁移邻区经验公式，结论自动失效。
+若带号/自旋宇称、跃迁方向、寿命与 branching、单位或模型版本未对齐，跨区比较暂不成立。缺目标核原件时，区域范围和数值相界仅保留为待检验候选；源页已有的缺口见本页表格和上文 Removed Claims。
 
 ## Falsification or Reverse Tests
 
-反向检验示例：将 $^{110}\text{Cd}$ 的剪刀核心耦合模型公式（$V_{\pi\nu}=1.2, \Im=19.5$）逆向应用于 $^{160}\text{Dy}$，将导致预报的四极跃迁几率塌缩一个数量级，与实验事实剧烈冲突，直接证明该模型对大形变刚性转子区的不适用性。
+反向检验应先选择一个指定核与同一能带，用实测跃迁表、绝对寿命及误差构造目标观测量，再让两个竞争组态在相同响应和算符约定下预测它。旧 $^{110}\mathrm{Cd}\to{}^{160}\mathrm{Dy}$ 算例未给 Dy 原件和模型输入，故本页不声称该计算已运行或已证伪模型。对 Pr，可检查相对 $B(M1)/B(E2)$ 的升降是否仍允许分子恒定的解释；[[agarwal-2007-137pr-magnetic-rotation-bandcrossing]] PDF p.4 Table I 与 p.7 Fig.7 是输入入口。
 
 ## Open Questions
 
-在质子滴线极富质子区（如 $^{130}\text{Sm}$、$^{128}\text{Nd}$），八极驱动对与形状共存如何受连续谱耦合调制？这构成了后续高价值研究切口。
+获得跨质量区逐核可比的绝对电磁强度、寿命及真实 3D-TAC 或量子模型计算后，哪些模式判据仍有区分力？现有六组来源尚不足以拟合共同数值相图。
 
 ## Human Review
 
-当前为自主研学与系统学总结 self-audit，无需用户逐条预审。涉及论文稿件结论定稿或跨区模型重大争议裁决时，再对具体 claim 触发定向确认；此处不提升 human-reviewed。
+本页为 Codex source/claim self-audit，`needs_review: true`，未提升 `human-reviewed`。正式论文使用时，对具体 claim、原件版本及实验依赖关系定向复核。
 
 ## Promotion or Rejection History
 
-2026-10-28：建立跨质量区集体运动模式迁移边界与不适用性判据系统学研究笔记，限定唯象参数不可跨区外推，确立四大不可迁移性准则。
+2026-10-28：撤回旧六区统一形变与强度窗、$\beta_2=0.20$ 和 $\mathcal J^{(2)}/B(E2)$ 普适硬门，以及缺输入的 Dy 反向证伪；保留附来源定位的逐核比较和四条条件迁移规则。Day27 只作无学分预习，不推进课程状态。
 
 ## Learning Decision
 
-`supports` 建立系统化的跨质量区迁移与不适用性判据；`limits` 任意单一模式唯象参数的跨区外推；为正式 Day 27 学习提供第一手严密的理论与实验框架。
+此页仅是 Day27 **无学分预习**，Day26 正式课程索引保持；本轮不判 Day27 卡完成，不打开 Day28。现有证据可支持逐核迁移边界，不能支持跨六区的数值相图或普适“充要证伪”。`needs_review: true`。
 
-## Next Actions
+## Next Source Candidates
 
-保持当前 Day 26 正式运行与 Day 27 无学分预习，继续完善知识库系统学。
-
-## Sources
-
-- [[bucher-2016-144ba-direct-octupole]]
-- [[bucher-2017-146ba-direct-octupole]]
-- [[gaffney-2013-pear-shaped-rn-ra]]
-- [[garg-2015-135pr-magnetic-rotation]]
-- [[agarwal-2007-137pr-magnetic-rotation-bandcrossing]]
-- [[roy-2011-cd110-systematics-antimagnetic]]
-- [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]
+优先使用本地可读的 [[olbratowski-2002-critical-frequency-preprint]] 2002 v1 PDF pp.2–4 与已有 [[starosta-2001-n75-chiral-vibrations]] 的 3D-TAC 表，对齐真实 3D-TAC 的平面/非平面分支与实验手征振动解释；版本、模型输入和量子隧穿边界须保留。随后若需扩展，按具体核查 $^{163}\mathrm{Lu}$ 原实验寿命/矩阵元与 $^{160}\mathrm{Dy}$ 反向检验所需原始谱。此处只列候选，不启动新任务。
 
 ## Review Status
 
-Codex self-audit; all new claims retain `needs_review: true`.
+Codex source/claim self-audit；未提升 `human-reviewed`。原件/模型定位及尚缺逐区全覆盖已在各行标明。

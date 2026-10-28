@@ -102,28 +102,10 @@ Day25末节列的744/907/1042/1180 keV、0.11(3)/0.10(2)/0.09(2)/0.07(3) e²b²�
 
 理想对称双剪刀的净横向磁矩相消属于模型性质；它不禁止任意跨带M1，也不要求总静态μ为零。ΔI=2间M1由一般角动量选择规则即被禁止，不能把这类未见线当AMR专属证明。J2/B(E2)、τ/BR、组态和终止/弱集体性等替代解释需联合比较，未建立普适数值阈值。见 [[octupole-mr-amr-evidence-gradient]]；新增为needs_review:true的Codex self-audit，旧Day21/23撤回继续有效。
 
-## Day 26：110Cd 第一手原件核验、四刃剪刀辐射幂次律与核心转动耦合机制
+## Day26：双剪刀电流、磁矩和芯转动的条件边界（017纠错）
 
-结合 [[roy-2011-cd110-systematics-antimagnetic]]（RO11-1 至 RO11-4）及独立复算工件 `cd110-amr-particle-rotor-model-003.py/json` 与 `mr-vs-amr-shears-geometry-008.py/json`，确立反磁转动（AMR）的实验基准与动力学边界：
+前版这一节将理想双剪刀的 $B(E2)\propto\sin^4\theta$、带内 $B(M1)=0$、$^{106,108}\mathrm{Cd}$“无芯纯 AMR”、$\mathcal J^{(2)}/B(E2)\ge100$、以及质子两个 $g_{9/2}$ 空穴 $J_{\max}=9$ 写成严格结论；这些认证撤回。相同 $j=9/2$ 费米子耦合只允许偶数 $J=0,2,4,6,8$，不能以 $2j=9$ 当 Pauli 允许上界。先前 003/008/013 工件的拟合或汇编数值不替代原实验 locator、误差及组态核验。[[roy-2011-cd110-systematics-antimagnetic]] 支持对 $^{110}\mathrm{Cd}$ 寿命与芯耦合的来源限定讨论；[[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] 中 $^{105}\mathrm{Cd}$ 的自洽 TAC 显示形变和粒子混合可随频率变化。`needs_review: true`。
 
-1. **第一手实验能级与寿命数据闭环（Roy 2011 PLB）**：
-   在 $^{110}\text{Cd}$ 的 $^{96}\text{Zr}(^{18}\text{O}, 4n)$ 反应高自旋实验中，通过 INGA 阵列 18 叶 clover 探测器的 DSAM 多普勒线形分析，测得准基带（NNDC ENSDF 数据集 110048001 之 Band B）自旋 $16^+ \to 24^+$ 态的平均寿命依次为 $\tau = 0.36(3), 0.23(3), 0.17(3), 0.21(7)$ 与 $0.27(7)\text{ ps}$；对应退激跃迁能量为 $1075, 1224, 1323, 1314\text{ keV}$；提取的带内电四极跃迁几率呈现平缓过渡平台：$B(E2) = 0.14(1), 0.12(2), 0.11(2), 0.09(3)$ 与 $0.06(2)\ (e\text{b})^2$。
+设两片等长磁性角动量 $\mathbf j_\pm=j(\cos\theta\,\pm\sin\theta,0)$，相同有效 $g$ 下横向磁矩之和为零，但纵向磁矩 $2gj\cos\theta$ 一般非零。局部电流场也不为零：单体密度给 $\mathbf j(\mathbf r)\propto(\nabla_{\mathbf r}-\nabla_{\mathbf r'})\rho(\mathbf r,\mathbf r')|_{\mathbf r'=\mathbf r}$，时间反演把它变号。两个相反环流仅使特定积分磁偶极相消，不能推出 $\boldsymbol\mu(\mathbf r)\equiv0$ 或一切跨带 M1 矩阵元为零。017 工件给出两局域涡旋的显式反例：积分偶极抵消而任一点可有非零流；其 $\mathcal R_z(\pi)\mathcal T$ 可保持，单独 $\mathcal R_z(\pi)$ 和 $\mathcal T$ 破缺。若另要求后两者各自保持，则由 $\mathcal T\mathbf j=-\mathbf j$ 必得 $\mathbf j=0$。
 
-2. **纯双剪刀终止极限与核心转动分担**：
-   对于 $^{110}\text{Cd}$ 的四准粒子组态 $\pi(g_{9/2})^{-2} \otimes \nu(h_{11/2})^2$：
-   - **纯剪刀终止断崖**：质子双空穴最大角动量为 $2 j_h = 2 \times 4.5 = 9\hbar$。在纯剪刀极限（核心转动惯量 $\Im = 0$）下，剪刀带头为中子顺对齐角动量 $j_p = 10\hbar$；当剪刀完全闭合（$\theta = 0^\circ$）时，能带最大允许自旋严格为 $I_{\text{max}} = 10 + 9 = 19\hbar$。纯剪刀机制物理上无法延伸至实测的 $24^+$ 及 $26^+$ 能级；
-   - **半刚体核心耦合机制**：引入核心集体转动耦合（$\Im = 19.5\text{ MeV}^{-1}\hbar^2$，约半刚体转子值）后，总角动量由剪刀闭合与核心转动共同产生：$I = I_{\text{shear}} + R$。在 $16^+ \to 24^+$ 态，核心转动贡献从 $2.9\hbar$ 上升至 $6.3\hbar$（占总自旋的 $18\% - 26\%$），分担了自旋增益，使剪刀张角仅需由 $70^\circ$ 收缩至 $31^\circ$。
-
-3. **四刃剪刀辐射幂次律与巨判据比 $\mathcal{J}^{(2)}/B(E2)$**：
-   - 辐射幂次差异：磁转动（MR）横向偶极由单刃张角调制，电四极跃迁满足 $B(E2) \propto \sin^2\theta$；而反磁转动（AMR）中两对叶片关于转动轴对称闭合，横向磁偶极矩严格反向相消（$\mu_\perp \equiv 0 \implies B(M1) \equiv 0$），而电四极跃迁来自两对对称叶片的相干求和，导致跃迁强度严格遵循四次方幂次律：$B(E2) \propto \sin^4\theta$；
-   - 幂次律完满解释了同位素系统学：$^{106,108}\text{Cd}$ 属于无核心耦合的纯 AMR，剪刀角从 $90^\circ$ 闭合至 $15^\circ$，四次方幂次导致 $B(E2)$ 剧烈暴跌 20 倍（$0.407 \to 0.020\ (e\text{b})^2$）；而 $^{110}\text{Cd}$ 因核心转动分担使角度收缩缓和，表现为平缓过渡平台；
-   - 在所有确证的 AMR 体系中，动态转动惯量与跃迁强度之比均落在 $\mathcal{J}^{(2)}/B(E2) \approx 100 - 1300\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ 巨比值区间，比常规长椭变形集体转子（$15 - 40$）高出一个数量级，构成了判定反磁转动模式的排他性无量纲判据。
-
-4. **镉与钯同位素（Cd & Pd）多核系统学基准闭环**：
-   结合 Kumar 2025（ADNDT 165, 101735）Table 3 汇编与独立系统学工件 amr-cadmium-palladium-systematics-013.py/json，确立反磁转动在 $A \approx 100 - 110$ 核区的多核普遍性与判据比边界：
-   - $^{106}\text{Cd}$（Band 3）：自旋 $12^+ \to 20^+$，退激 $B(E2)$ 从 $0.42(1)$ 骤降至 $0.10(1)\ (e\text{b})^2$，$\mathcal{J}^{(2)}/B(E2)$ 处于 $47 \to 250\ \hbar^2\text{MeV}^{-1}(e\text{b})^{-2}$（均值 209.2）；
-   - $^{108}\text{Cd}$（Band 1）：自旋 $14^+ \to 22^+$，$B(E2)$ 从 $0.28(3)$ 暴跌至 $0.03(1)\ (e\text{b})^2$，$\mathcal{J}^{(2)}/B(E2)$ 处于 $96 \to 600\ \hbar^2\text{MeV}^{-1}(e\text{b})^{-2}$（均值 268.3）；
-   - $^{105}\text{Cd}$（Band 4 奇 $A$ 核）：自旋 $27/2^- \to 43/2^-$，$B(E2)$ 从 $0.155(20)$ 降至 $0.052(11)\ (e\text{b})^2$，$\mathcal{J}^{(2)}/B(E2)$ 处于 $190 \to 608\ \hbar^2\text{MeV}^{-1}(e\text{b})^{-2}$（均值 329.4）；
-   - $^{104}\text{Pd}$（Band 1）：自旋 $16^+ \to 24^+$，$B(E2)$ 从 $0.26(3)$ 降至 $0.07(1)\ (e\text{b})^2$，$\mathcal{J}^{(2)}/B(E2)$ 处于 $112 \to 357\ \hbar^2\text{MeV}^{-1}(e\text{b})^{-2}$（均值 234.6）；
-   - $^{101}\text{Pd}$（Band 1 奇 $A$ 核）：自旋 $19/2^- \to 39/2^-$，$B(E2)$ 从 $0.21(6)$ 降至 $0.091(21)\ (e\text{b})^2$，$\mathcal{J}^{(2)}/B(E2)$ 处于 $133 \to 1219\ \hbar^2\text{MeV}^{-1}(e\text{b})^{-2}$（均值 427.6）；
-   - 对比常规长椭变形集体转子 $^{166}\text{Er}$（$4^+ \to 12^+, \mathcal{J}^{(2)}/B(E2) \approx 21.8$），实测 AMR 能带特征比值稳定高出一个数量级以上，确立了 $\mathcal{J}^{(2)}/B(E2) \ge 100\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ 作为跨核区判定反磁转动的不可动摇的刚性判据。
+固定同一组态、相同叶片、电荷四极张量随剪刀角的特定投影、无显著芯 E2、无混合时，可取 $Q_t(\theta)\propto\sin^2\theta$，从而 $B(E2)\propto Q_t^2\propto\sin^4\theta$。这只是受限几何模型；自洽形变 $\beta_2(\omega)$、芯 E2 与组态变化会改变幂次。带内 $\Delta I=2$ 序列缺少 M1 还有 $\Delta I\le1$ 的一般多极选择规则，不能独立证明双剪刀。比较 $\mathcal J^{(2)}$、绝对 $B(E2)$、寿命、branching 和终止时需保留误差与替代机制，不能把带单位的 $\mathcal J^{(2)}/B(E2)$ 当无量纲普适硬门。见 [[octupole-mr-amr-evidence-gradient]]。

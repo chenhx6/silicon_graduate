@@ -11,6 +11,38 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[octupole-sum-rule-static-dynamic-identifiability]] — 222/228Ra多跃迁E3图样与静态/动态可辨识性边界。
+
+- [[butler-2020-222-228ra-octupole-evolution]] — 222/228Ra多跃迁E3系统学与静态/振动竞争解释。
+
+- [[ac225-parity-doublet-evidence-audit]] — 225Ac评价数据和条件D0反演审计。
+
+- [[nndc-2022-ac225-adopted-parity-doublet]] — 225Ac ENSDF评价宇称伙伴与40.09-keV E1；多带同自旋配对边界。
+
+- [[butler-2020-222-228ra-octupole-evolution]] — `222,228Ra` 多条 E3 矩阵元、旋转模型 Q3 与振动/静态形状解释边界；含实际正文及 arXiv 附加材料覆盖。
+- [[octupole-sum-rule-static-dynamic-identifiability]] — E3 非能权和规则、矩阵元完备性与静态/动态八极形状可辨识性。
+
+- [[fixed-j-quantum-shears-m1-boundary]] — 有限量子剪刀M1与经典端点。
+
+- [[day26-quantitative-claim-corrections]] — 007–015过强认证撤回、单位及算符边界。
+
+- [[n75-3d-tac-source-contrast-day26]] — N=75实验/3D-TAC来源对照。
+
+- [[nndc-2012-cd110-adopted-lifetimes-branches]] — 110Cd ENSDF半衰期/分支评价，和Roy同源。
+
+- [[nndc-2009-ra225-adopted-parity-doublet]] — 225Ra ENSDF评价原文归档与E1。
+
+- [[odd-a-parity-doublet-blocking-audit]] — 奇A宇称伙伴与八极阻塞的条件审计。
+
+- [[nndc-2012-cd110-adopted-lifetimes-branches]] — 评价半衰期、内转换及Roy未确认的1100-keV支线，保留同源性。
+- [[fixed-j-quantum-shears-m1-boundary]] — 有限双角动量精确M1与经典闭合端点的条件差异。
+- [[n75-3d-tac-source-contrast-day26]] — N=75原件对读：实验双带、势垒、经典阈值和HF起点分层。
+
+- [[day26-quantitative-claim-corrections]] — 直接原件与代数反例纠正旧007–015科学认证；保留来源、单位与统计边界。
+- [[octupole-cluster-dipole-dynamics-conditional-equivalence]] — 点团簇E1零点与E3条件匹配，非团簇实验证明。
+- [[nndc-2009-ra225-adopted-parity-doublet]] — NNDC评价的225Ra宇称伙伴与E1；与原实验谱系分层。
+- [[odd-a-parity-doublet-blocking-audit]] — 奇A宇称双重态的观测、模型与阻塞归因边界。
+
 - [[cross-mass-region-collective-mode-transfer-boundaries]] — 跨质量区集体激发模式（A≈80, 110, 130, 160, 190, 220）迁移边界与四大不适用性判据。
 - [[roy-2011-cd110-systematics-antimagnetic]] — 110Cd 高自旋反磁转动第一手 DSAM 寿命、B(E2) 与核心转动耦合系统学原件。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。

@@ -1,0 +1,225 @@
+{
+  "evidence_status": "toy-numerical-diagnostic-not-SCCM-or-experiment",
+  "method_source": "Bernard2016 Eq3 natural basis and Eqs4-5; toy kernels explicitly invented in legacy015.",
+  "normalization_contract": "Discrete coefficients, f^dagger N f=1; all operators are full discrete kernels.",
+  "legacy_input_diagnostic": {
+    "grid_points": 41,
+    "norm_cut": 0.0001,
+    "cut_mode": "absolute-legacy015",
+    "parity_sectors": {
+      "even": {
+        "retained_rank": 9,
+        "grid_dimension": 41,
+        "natural_ground_energy_toy_units": 0.3172265829247501,
+        "natural_state_norm_fNf": 0.9999999999999996,
+        "natural_parity_residual": 1.5573508971463403e-12,
+        "natural_reduced_eigen_residual": 8.573181080369159e-15,
+        "legacy_full_size_lowest_energy": -1.977724225346284e-14,
+        "legacy_selected_state_norm_fNf": 2.0093461767157653e-29,
+        "legacy_full_size_near_zero_count": 32
+      },
+      "odd": {
+        "retained_rank": 9,
+        "grid_dimension": 41,
+        "natural_ground_energy_toy_units": 1.1272822307946924,
+        "natural_state_norm_fNf": 1.0000000000000002,
+        "natural_parity_residual": 9.531060855559462e-12,
+        "natural_reduced_eigen_residual": 4.234991517426671e-14,
+        "legacy_full_size_lowest_energy": -2.101071391999773e-14,
+        "legacy_selected_state_norm_fNf": 9.639752282076102e-30,
+        "legacy_full_size_near_zero_count": 32
+      }
+    },
+    "odd_coordinate_transition_squared_toy_units": 0.011909445628946512,
+    "operator_parity_residual": 1.1713956431841669e-15
+  },
+  "parameter_scan": [
+    {
+      "grid_points": 41,
+      "norm_cut": 1e-08,
+      "cut_mode": "relative-to-max-eigenvalue",
+      "parity_sectors": {
+        "even": {
+          "retained_rank": 12,
+          "grid_dimension": 41,
+          "natural_ground_energy_toy_units": 0.3124908884350857,
+          "natural_state_norm_fNf": 0.9999999999999845,
+          "natural_parity_residual": 5.606719127085961e-09,
+          "natural_reduced_eigen_residual": 1.717913806533971e-12,
+          "legacy_full_size_lowest_energy": -1.0159558525707877e-13,
+          "legacy_selected_state_norm_fNf": 1.1324032892572538e-26,
+          "legacy_full_size_near_zero_count": 29
+        },
+        "odd": {
+          "retained_rank": 11,
+          "grid_dimension": 41,
+          "natural_ground_energy_toy_units": 1.1111193517305564,
+          "natural_state_norm_fNf": 0.9999999999999756,
+          "natural_parity_residual": 1.8952576754519024e-09,
+          "natural_reduced_eigen_residual": 1.4770961961278212e-12,
+          "legacy_full_size_lowest_energy": -5.456114442381565e-14,
+          "legacy_selected_state_norm_fNf": 2.8664596986772337e-27,
+          "legacy_full_size_near_zero_count": 30
+        }
+      },
+      "odd_coordinate_transition_squared_toy_units": 0.012218665311268168,
+      "operator_parity_residual": 1.1713956431841669e-15
+    },
+    {
+      "grid_points": 41,
+      "norm_cut": 1e-06,
+      "cut_mode": "relative-to-max-eigenvalue",
+      "parity_sectors": {
+        "even": {
+          "retained_rank": 10,
+          "grid_dimension": 41,
+          "natural_ground_energy_toy_units": 0.31528007559249027,
+          "natural_state_norm_fNf": 0.9999999999999989,
+          "natural_parity_residual": 3.16393906863261e-11,
+          "natural_reduced_eigen_residual": 6.100210403431766e-14,
+          "legacy_full_size_lowest_energy": -2.1955802961357513e-14,
+          "legacy_selected_state_norm_fNf": 1.5942447731529064e-28,
+          "legacy_full_size_near_zero_count": 31
+        },
+        "odd": {
+          "retained_rank": 10,
+          "grid_dimension": 41,
+          "natural_ground_energy_toy_units": 1.1183657135450473,
+          "natural_state_norm_fNf": 0.9999999999999918,
+          "natural_parity_residual": 1.5581684070124575e-10,
+          "natural_reduced_eigen_residual": 1.0284173658904983e-12,
+          "legacy_full_size_lowest_energy": -2.4906506323737745e-14,
+          "legacy_selected_state_norm_fNf": 3.994852047754443e-29,
+          "legacy_full_size_near_zero_count": 31
+        }
+      },
+      "odd_coordinate_transition_squared_toy_units": 0.012036179657544341,
+      "operator_parity_residual": 1.1713956431841669e-15
+    },
+    {
+      "grid_points": 41,
+      "norm_cut": 0.0001,
+      "cut_mode": "relative-to-max-eigenvalue",
+      "parity_sectors": {
+        "even": {
+          "retained_rank": 8,
+          "grid_dimension": 41,
+          "natural_ground_energy_toy_units": 0.3196178124607291,
+          "natural_state_norm_fNf": 0.9999999999999986,
+          "natural_parity_residual": 1.2457447572210578e-13,
+          "natural_reduced_eigen_residual": 2.7625781722480965e-15,
+          "legacy_full_size_lowest_energy": -1.3393936590821232e-14,
+          "legacy_selected_state_norm_fNf": 5.3262921696139155e-30,
+          "legacy_full_size_near_zero_count": 33
+        },
+        "odd": {
+          "retained_rank": 8,
+          "grid_dimension": 41,
+          "natural_ground_energy_toy_units": 1.1380997736536678,
+          "natural_state_norm_fNf": 0.9999999999999992,
+          "natural_parity_residual": 6.442272420840431e-13,
+          "natural_reduced_eigen_residual": 1.0723453202976264e-14,
+          "legacy_full_size_lowest_energy": -1.1544566203502248e-14,
+          "legacy_selected_state_norm_fNf": 4.198201170377041e-30,
+          "legacy_full_size_near_zero_count": 33
+        }
+      },
+      "odd_coordinate_transition_squared_toy_units": 0.011761977696975144,
+      "operator_parity_residual": 1.1713956431841669e-15
+    },
+    {
+      "grid_points": 61,
+      "norm_cut": 1e-08,
+      "cut_mode": "relative-to-max-eigenvalue",
+      "parity_sectors": {
+        "even": {
+          "retained_rank": 12,
+          "grid_dimension": 61,
+          "natural_ground_energy_toy_units": 0.3123607688566417,
+          "natural_state_norm_fNf": 0.999999999999997,
+          "natural_parity_residual": 7.011381747023613e-09,
+          "natural_reduced_eigen_residual": 1.970841830627976e-12,
+          "legacy_full_size_lowest_energy": -9.070806643769697e-14,
+          "legacy_selected_state_norm_fNf": 1.0308313518979419e-25,
+          "legacy_full_size_near_zero_count": 49
+        },
+        "odd": {
+          "retained_rank": 11,
+          "grid_dimension": 61,
+          "natural_ground_energy_toy_units": 1.1103417206925317,
+          "natural_state_norm_fNf": 0.9999999999999778,
+          "natural_parity_residual": 1.0686641231275774e-09,
+          "natural_reduced_eigen_residual": 3.2321096204237725e-12,
+          "legacy_full_size_lowest_energy": -4.481729438385247e-14,
+          "legacy_selected_state_norm_fNf": 8.8730848368072e-28,
+          "legacy_full_size_near_zero_count": 50
+        }
+      },
+      "odd_coordinate_transition_squared_toy_units": 0.012233095120875167,
+      "operator_parity_residual": 1.0229473101107451e-15
+    },
+    {
+      "grid_points": 61,
+      "norm_cut": 1e-06,
+      "cut_mode": "relative-to-max-eigenvalue",
+      "parity_sectors": {
+        "even": {
+          "retained_rank": 10,
+          "grid_dimension": 61,
+          "natural_ground_energy_toy_units": 0.3153652521938926,
+          "natural_state_norm_fNf": 1.0000000000000004,
+          "natural_parity_residual": 3.0874299324549133e-11,
+          "natural_reduced_eigen_residual": 2.1754573832860773e-14,
+          "legacy_full_size_lowest_energy": -1.7413977059168924e-14,
+          "legacy_selected_state_norm_fNf": 1.2962854882417581e-29,
+          "legacy_full_size_near_zero_count": 51
+        },
+        "odd": {
+          "retained_rank": 10,
+          "grid_dimension": 61,
+          "natural_ground_energy_toy_units": 1.1181585425555483,
+          "natural_state_norm_fNf": 0.9999999999999981,
+          "natural_parity_residual": 7.219343351922217e-11,
+          "natural_reduced_eigen_residual": 2.348897940092276e-13,
+          "legacy_full_size_lowest_energy": -2.6005351809147235e-14,
+          "legacy_selected_state_norm_fNf": 2.754026814658557e-29,
+          "legacy_full_size_near_zero_count": 51
+        }
+      },
+      "odd_coordinate_transition_squared_toy_units": 0.012035885273703622,
+      "operator_parity_residual": 1.0229473101107451e-15
+    },
+    {
+      "grid_points": 61,
+      "norm_cut": 0.0001,
+      "cut_mode": "relative-to-max-eigenvalue",
+      "parity_sectors": {
+        "even": {
+          "retained_rank": 8,
+          "grid_dimension": 61,
+          "natural_ground_energy_toy_units": 0.32008150720599754,
+          "natural_state_norm_fNf": 1.0000000000000004,
+          "natural_parity_residual": 9.838918904793542e-14,
+          "natural_reduced_eigen_residual": 5.2570571220707654e-15,
+          "legacy_full_size_lowest_energy": -1.6830844916501173e-14,
+          "legacy_selected_state_norm_fNf": 2.6747855908533266e-30,
+          "legacy_full_size_near_zero_count": 53
+        },
+        "odd": {
+          "retained_rank": 8,
+          "grid_dimension": 61,
+          "natural_ground_energy_toy_units": 1.1395515911008387,
+          "natural_state_norm_fNf": 1.0000000000000007,
+          "natural_parity_residual": 7.849601670649185e-13,
+          "natural_reduced_eigen_residual": 1.366094285959246e-14,
+          "legacy_full_size_lowest_energy": -1.5850232269006696e-14,
+          "legacy_selected_state_norm_fNf": 4.20436960340933e-30,
+          "legacy_full_size_near_zero_count": 53
+        }
+      },
+      "odd_coordinate_transition_squared_toy_units": 0.011739411897776674,
+      "operator_parity_residual": 1.0229473101107451e-15
+    }
+  ],
+  "limitation": "No physical energy calibration, good-J projection, effective charges, or E1/E3 laboratory probabilities. Norm cutoff dependence retained."
+}

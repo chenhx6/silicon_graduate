@@ -51,15 +51,15 @@ Crossref DOI 10.1103/PhysRevC.97.024317 与 INSPIRE 元数据完全一致。作�
 | NO18-D26-003 | 玻色子—费米子耦合项由广义 Seniority 方案解析构造，耦合常数正比于占据因子 $(u_i u_j - v_i v_j)$ 或 $(u_i v_j + v_i u_j)$，将多参数微观约束至渐变唯象空间。 | model-formulation | direct-original-preprint | model-calculation | PDF3–4 Eqs(7)–(12) | true |
 | NO18-D26-004 | 在 $^{143,145,147}\text{Ba}$ 中，奇中子主要占据 $\nu 1h_{9/2}$ 与 $\nu 2f_{7/2}$，基态与低激发带的八极玻色子数 $\langle \hat{n}_f \rangle \approx 0.000$（如 $^{145}\text{Ba}$ 基态 $5/2_1^-$ 中 $1h_{9/2} \otimes sd$ 占比达 $92\%$），未展现低能八极凝聚。 | model-result | direct-original-preprint | model-calculation | PDF6–8 Tables V, VII, IX | true |
 | NO18-D26-005 | 八极集体激发在奇核中被推迟至较高激发能（$E_x > 0.7 - 1.2\text{ MeV}$），表现为带头态包含显著 $f$-玻色子成分（如 $^{145}\text{Ba}$ 的 $11/2_1^+$ 与 $15/2_4^-$），并向基带发射大 $B(E3)$ 跃迁。 | observable-prediction | direct-original-preprint | model-calculation | PDF7 Sec.IV.B, Table VI | true |
-| NO18-D26-006 | 奇中子阻塞效应抑制了 $\nu(2f_{7/2} \leftrightarrow 1i_{13/2})$ 虚拟粒子—空穴相干散射，导致奇质量钡无法形成类似锕系奇核（如 $^{225}\text{Ra}$）的低激发近简并交替宇称双重态。 | physical-mechanism | direct-original-preprint | author-synthesis | PDF8–10 Sec.V | true |
+| NO18-D26-006 | 原文结论仅为：此模型中 $^{143,145,147}$Ba 多数低能 yrast 带以奇中子耦合 $sd$ 核芯为主，显著 $f$ 玻色子成分见于部分较高激发态；作者建议另行研究 $^{224,225}$Ra。原文未计算被阻塞的 QRPA 八极响应，未将 $f_{7/2}\leftrightarrow i_{13/2}$ 的泡利阻塞量化为成因，也未证明所有奇 Ba 宇称双重态不存在。 | model-result-and-evidence-boundary | direct-original-preprint | model-calculation | PDF9–10 Secs.IV–V, Tables VII–IX | true |
 
 ## Summary
 
-Nomura 等人基于相对论密度泛函与 $sdf$-IBFM 模型，系统分析了富中子奇质量钡同位素（$^{143,145,147}\text{Ba}$）的低能能级结构与跃迁速率。研究确立了由于奇中子占据 $\nu 1h_{9/2}$ 等单粒子轨道引发的泡利阻塞效应，使得偶偶核中显著的八极集体性在奇质量核的基态附近完全被抑制，真正的八极声子态被推移至 $0.7 - 1.2\text{ MeV}$ 以上的高能区。
+Nomura 等人基于相对论密度泛函与 $sdf$-IBFM 模型，分析富中子奇质量钡同位素（$^{143,145,147}\text{Ba}$）的低能能级结构与跃迁速率。其计算中多数低能 yrast 态的 $f$ 玻色子成分较小，部分八极成分显著的态位于较高激发能（例如 $^{145}$Ba 的计算 $11/2^+_1$ 在 705 keV）。奇中子占据与八极自由度耦合的影响是待定量检验的机制假设；本论文没有给出泡利阻塞造成响应下降的独立数值证明。
 
 ## Competing Interpretations and Limitations
 
-早期唯象几何转子模型曾假定如果偶偶核具备八极形变，邻近奇核必然在基态附近展现出反射不对称的宇称双重带。实验上 $^{145}\text{Ba}$ 基态附近缺失宇称双重态曾被部分观点怀疑为偶偶核八极增强的证伪反例。Nomura 2018 的微观分析澄清了这一争议：偶偶核的 $\beta_3$ 软性与奇核的基态八极淬灭在微观上完全兼容，奇核子的单粒子阻塞足以解耦基态与八极自由度。
+该模型显示偶偶核软的 $\beta_3$ 势能面与邻近奇核低能态较小的 $f$ 玻色子成分可以共存。论文没有逐核、逐自旋穷尽实验宇称双重带，也没有在固定相同平均场与配对条件下比较阻塞前后的八极响应。因此“奇 Ba 完全无双重态”“单粒子阻塞足以解释全部差异”均超出本源证据。
 
 ## Model Dependence
 

@@ -1,4 +1,9 @@
 {
+  "scientific_audit": {
+    "status": "superseded-unverified-claims-not-scientific-evidence",
+    "correction_note": "knowledge/research-notes/day26-quantitative-claim-corrections.md",
+    "scope": "Legacy numerical payload retained for audit only. Assumed data/coefficients, universal thresholds, production-model equivalence and exact experimental agreement are not certified. Use source locators and corrected 017-019 artifacts."
+  },
   "title": "Quadrupole-Octupole Competition in Light Rare-Earth (Proton-Rich) vs Neutron-Rich Ba Isotopes",
   "single_particle_octupole_matrix_elements": {
     "d5_2_to_h11_2": 1.3976,

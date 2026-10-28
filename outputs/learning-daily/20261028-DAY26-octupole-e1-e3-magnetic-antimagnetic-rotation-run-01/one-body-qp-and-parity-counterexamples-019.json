@@ -1,0 +1,47 @@
+{
+  "evidence_status": "conditional-algebra-not-experiment",
+  "qp_counterexample": {
+    "u": 0.8,
+    "v": 0.6,
+    "orthogonal_state_overlap": 0.0,
+    "one_body_matrix_element_in_q_units": 0.96,
+    "analytic_2uv": 0.96,
+    "scope": "Disproves a universal one-body 3qp-5qp zero; not a Pr E2 matrix element."
+  },
+  "parity_rotor_control": {
+    "A_keV": 12.0,
+    "I": 5,
+    "unweighted_displacement_keV": -12.0,
+    "spin_weighted_displacement_keV": 0.0,
+    "scope": "A nonzero unweighted midpoint is not by itself octupole stiffness."
+  },
+  "E3_reported_intervals_Wu": {
+    "144Ba_Bucher2016": [
+      14,
+      73
+    ],
+    "146Ba_Bucher2017": [
+      19,
+      69
+    ],
+    "interval_jaccard": 0.847457627118644,
+    "scope": "Descriptive interval geometry; no posterior or model odds."
+  },
+  "E1_146Ba_TableI": {
+    "measured_eb_half": 0.000223,
+    "SCCM_eb_half": 0.00474,
+    "amplitude_ratio_model_over_reported": 21.25560538116592,
+    "strength_ratio_model_over_reported": 451.80076011984966,
+    "scope": "Printed centers; no experimental likelihood or fitted shell decomposition."
+  },
+  "ideal_AMR_magnetic_geometry": {
+    "j_h": 4.5,
+    "j_p": 10.0,
+    "g_h": 1.0,
+    "g_p": -0.2,
+    "theta_degrees": 60,
+    "transverse_moment": 0.0,
+    "longitudinal_moment": 2.500000000000001,
+    "scope": "Equal blades cancel transverse moment; total moment need not vanish."
+  }
+}

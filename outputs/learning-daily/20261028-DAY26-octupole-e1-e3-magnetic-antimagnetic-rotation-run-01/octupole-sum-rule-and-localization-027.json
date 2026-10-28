@@ -1,0 +1,170 @@
+{
+  "schema": "octupole-sum-rule-and-localization-027/v1",
+  "source": "Butler et al. 2020 PRL 124 042503, Table I, PDF p.3; central values",
+  "scope": "partial E3 non-energy-weighted sum and transition-pattern diagnostic",
+  "data": {
+    "222Ra": {
+      "rows": [
+        {
+          "label": "0+->3-",
+          "Ji": 0,
+          "Jf": 3,
+          "M_E3_eb32": 1.13,
+          "starred": false
+        },
+        {
+          "label": "2+->1-",
+          "Ji": 2,
+          "Jf": 1,
+          "M_E3_eb32": 0.85,
+          "starred": false
+        },
+        {
+          "label": "2+->3-",
+          "Ji": 2,
+          "Jf": 3,
+          "M_E3_eb32": -0.9,
+          "starred": false
+        },
+        {
+          "label": "2+->5-",
+          "Ji": 2,
+          "Jf": 5,
+          "M_E3_eb32": 1.79,
+          "starred": false
+        },
+        {
+          "label": "4+->1-",
+          "Ji": 4,
+          "Jf": 1,
+          "M_E3_eb32": -2.1,
+          "starred": true
+        },
+        {
+          "label": "4+->3-",
+          "Ji": 4,
+          "Jf": 3,
+          "M_E3_eb32": 2.6,
+          "starred": true
+        },
+        {
+          "label": "4+->5-",
+          "Ji": 4,
+          "Jf": 5,
+          "M_E3_eb32": -1.7,
+          "starred": true
+        },
+        {
+          "label": "4+->7-",
+          "Ji": 4,
+          "Jf": 7,
+          "M_E3_eb32": 3.3,
+          "starred": true
+        }
+      ],
+      "partial_sums": {
+        "n_rows": 8,
+        "n_unstarred_rows": 4,
+        "partial_sum_abs_M2_eb3": 30.9635,
+        "partial_sum_unstarred_abs_M2_eb3": 6.0135,
+        "partial_sum_downward_B_eb3": 4.996442222222222,
+        "units_scope": "printed reduced-ME squares; partial only"
+      }
+    },
+    "228Ra": {
+      "rows": [
+        {
+          "label": "0+->3-",
+          "Ji": 0,
+          "Jf": 3,
+          "M_E3_eb32": 0.87,
+          "starred": false
+        },
+        {
+          "label": "2+->1-",
+          "Ji": 2,
+          "Jf": 1,
+          "M_E3_eb32": 1.36,
+          "starred": true
+        },
+        {
+          "label": "2+->3-",
+          "Ji": 2,
+          "Jf": 3,
+          "M_E3_eb32": -0.06,
+          "starred": true
+        },
+        {
+          "label": "2+->5-",
+          "Ji": 2,
+          "Jf": 5,
+          "M_E3_eb32": 1.71,
+          "starred": true
+        },
+        {
+          "label": "4+->1-",
+          "Ji": 4,
+          "Jf": 1,
+          "M_E3_eb32": 0.4,
+          "starred": true
+        }
+      ],
+      "partial_sums": {
+        "n_rows": 5,
+        "n_unstarred_rows": 1,
+        "partial_sum_abs_M2_eb3": 5.6942,
+        "partial_sum_unstarred_abs_M2_eb3": 0.7569,
+        "partial_sum_downward_B_eb3": 1.7301377777777778,
+        "units_scope": "printed reduced-ME squares; partial only"
+      }
+    }
+  },
+  "q3_pattern": {
+    "222Ra": {
+      "q3_values_efm3_from_table_I": [
+        3030,
+        2000,
+        2100,
+        3100,
+        4400,
+        5500,
+        3200,
+        4600
+      ],
+      "mean_signed_q3_efm3": 3491.25,
+      "rms_scatter_efm3": 1156.5188876538075,
+      "coefficient_of_variation_abs": 0.33126212320911064,
+      "status": "matrix-element list diagnostic, not a fitted shape rigidity statistic"
+    },
+    "228Ra": {
+      "q3_values_efm3_from_table_I": [
+        2300,
+        3200,
+        150,
+        3000,
+        -800
+      ],
+      "mean_signed_q3_efm3": 1570.0,
+      "rms_scatter_efm3": 1604.2443704124382,
+      "coefficient_of_variation_abs": 1.0218117008996421,
+      "status": "matrix-element list diagnostic, not a fitted shape rigidity statistic"
+    }
+  },
+  "closure_statement": {
+    "m0_definition": "sum_f B(E3;0+->3-_f) over complete 3- final states",
+    "single_0_to_3_is_lower_bound": true,
+    "why_not_complete": "Table I contains selected states only; higher states and full covariance are absent, and some entries are rotationally coupled",
+    "m1_available": false,
+    "m1_requires": "Hamiltonian commutator or equivalent excitation energies and transition matrix elements"
+  },
+  "shape_localization_test": {
+    "static_like_condition": "multiple independent Q3 conversions remain approximately constant across E3 links with rotor-compatible phase and angular factors",
+    "vibrator_like_counterpattern": "selected links such as 228Ra 2+->3- have near-zero Q3 while 0+->3- remains nonzero",
+    "not_sufficient": "a complete pattern still does not provide a model-free density or a unique PES; GOSIA couplings and rotor conventions remain relevant"
+  },
+  "validation": {
+    "all_squares_nonnegative": true,
+    "single_line_bound_logic": true,
+    "no_energy_weighted_sum_claimed": true
+  }
+}

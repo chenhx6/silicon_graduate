@@ -1,0 +1,241 @@
+{
+  "title": "Odd-A reflection asymmetry: bounded source data and conditional calculations",
+  "classification_note": "Ba and Ra are alkaline-earth elements, Fr is alkali, Ce is lanthanide, and Ac/Th are actinides. Comparisons are by mass region.",
+  "theory": {
+    "two_well_hamiltonian": "H_I = [E_rot(I)+epsilon_q, -t_I; -t_I, E_rot(I)+epsilon_q] in mirror-localized states; parity projection gives E_±=E_rot+epsilon_q∓t_I if overlap is neglected.",
+    "finite_overlap": "For normalized mirror states with overlap s_I and Hamiltonian diagonal h_I, off-diagonal v_I: E_±=(h_I±v_I)/(1±s_I); these replace a universal 2t_I splitting.",
+    "decoupling": "For K=1/2, E_p(I)=E0_p+A_p[I(I+1)-1/4+a_p(-1)^(I+1/2)(I+1/2)]. Generalized a_p uses parity-projected Coriolis matrix elements and overlap normalization; the bare intrinsic expression alone is not an observable.",
+    "splitting": "At identical I and common A, ΔE(I)=2t_I+A(a_−−a_+)(-1)^(I+1/2)(I+1/2); with differing A or bandheads include their differences. If parity branches have different observed I, use an interpolated parity displacement instead.",
+    "rotor_strengths": "B(E1)=3D0²/(4π)|<I K 1 0|I−1 K>|²; B(E2)=5Q0²/(16π)|<I K 2 0|I−2 K>|²; ratio=(12/5)(D0/Q0)²(CG1²/CG2²), in fm^−2 for D0[e fm], Q0[e fm²].",
+    "BCS_response": "χ3(0)∝Σ_ij 2|Q3_ij|²(u_i v_j+v_i u_j)²/(E_i+E_j), with convention-dependent degeneracy factors; blocking must remove or modify specific magnetic-substate channels and recompute pairing/mean field."
+  },
+  "source_benchmarks": {
+    "144Ba": {
+      "B_E3_down_Wu": 48,
+      "lower": 34,
+      "upper": 25,
+      "kind": "experiment",
+      "source": "Bucher et al. PRL 116, 112503 (2016), Table I"
+    },
+    "146Ba": {
+      "B_E3_down_Wu": 48,
+      "lower": 29,
+      "upper": 21,
+      "kind": "experiment",
+      "source": "Bucher et al. PRL 118, 152504 (2017), Table I"
+    },
+    "odd_Ba": {
+      "kind": "model",
+      "source": "Nomura et al. PRC 97, 024317 (2018), PDF pp.7–10 Tables V–IX",
+      "result": "Most low-lying odd-Ba states have small f-boson content; selected higher states carry E3 strength. No measured universal blocking factor."
+    }
+  },
+  "odd_A_nucleus_audit": {
+    "223Ra": {
+      "same_spin_parity_splitting_keV": null,
+      "B_E1_Wu": null,
+      "D0_efm": null,
+      "status": "primary odd-A level/transition table not established in this audit"
+    },
+    "225Ra": {
+      "status": "NNDC ENSDF evaluated-object values; original 1985Is03 experiment not independently reread",
+      "source": "NNDC 225088001 ADOPTED LEVELS, GAMMAS, L/G/B records, NDS 110, 1409 (2009)",
+      "paired_levels": [
+        {
+          "spin": 0.5,
+          "positive_keV": 0.0,
+          "negative_keV": 55.16,
+          "negative_Jpi_tentative": true,
+          "same_spin_Eminus_minus_Eplus_keV": 55.16
+        },
+        {
+          "spin": 1.5,
+          "positive_keV": 42.77,
+          "negative_keV": 31.56,
+          "negative_Jpi_tentative": false,
+          "same_spin_Eminus_minus_Eplus_keV": -11.21
+        },
+        {
+          "spin": 2.5,
+          "positive_keV": 25.41,
+          "negative_keV": 120.36,
+          "negative_Jpi_tentative": false,
+          "same_spin_Eminus_minus_Eplus_keV": 94.95
+        },
+        {
+          "spin": 3.5,
+          "positive_keV": 111.6,
+          "negative_keV": 69.36,
+          "negative_Jpi_tentative": true,
+          "same_spin_Eminus_minus_Eplus_keV": -42.24
+        }
+      ],
+      "B_E1_3over2minus_to_1over2plus_Wu": {
+        "value": 0.00081,
+        "uncertainty": 0.0002,
+        "gamma_keV": 31.5,
+        "ENSDF_record": "L31.56/G31.50/B"
+      },
+      "D0_efm_conditional_rotor": {
+        "value": 0.1558,
+        "linearized_uncertainty": 0.0192,
+        "K": 0.5,
+        "Weisskopf_E1_e2fm2": 2.384497,
+        "assumption": "axial K=1/2 rotor; same intrinsic D0 for cross-parity transition"
+      },
+      "B_E1_over_B_E2": null,
+      "ratio_note": "No matched E2 transition from the same 31.56-keV initial level in extracted records."
+    },
+    "225Ac": {
+      "same_spin_parity_splitting_keV": null,
+      "B_E1_Wu": null,
+      "D0_efm": null,
+      "status": "primary odd-A level/transition table not established in this audit"
+    },
+    "227Ac": {
+      "same_spin_parity_splitting_keV": null,
+      "B_E1_Wu": null,
+      "D0_efm": null,
+      "status": "primary odd-A level/transition table not established in this audit"
+    },
+    "223Th": {
+      "same_spin_parity_splitting_keV": null,
+      "B_E1_Wu": null,
+      "D0_efm": null,
+      "status": "primary odd-A level/transition table not established in this audit"
+    },
+    "221Fr": {
+      "same_spin_parity_splitting_keV": null,
+      "B_E1_Wu": null,
+      "D0_efm": null,
+      "status": "primary odd-A level/transition table not established in this audit"
+    },
+    "223Fr": {
+      "same_spin_parity_splitting_keV": null,
+      "B_E1_Wu": null,
+      "D0_efm": null,
+      "status": "primary odd-A level/transition table not established in this audit"
+    },
+    "143Ba": {
+      "same_spin_parity_splitting_keV": null,
+      "B_E1_Wu": null,
+      "D0_efm": null,
+      "status": "primary odd-A level/transition table not established in this audit"
+    },
+    "145Ba": {
+      "same_spin_parity_splitting_keV": null,
+      "B_E1_Wu": null,
+      "D0_efm": null,
+      "status": "primary odd-A level/transition table not established in this audit"
+    },
+    "143Ce": {
+      "same_spin_parity_splitting_keV": null,
+      "B_E1_Wu": null,
+      "D0_efm": null,
+      "status": "primary odd-A level/transition table not established in this audit"
+    },
+    "145Ce": {
+      "same_spin_parity_splitting_keV": null,
+      "B_E1_Wu": null,
+      "D0_efm": null,
+      "status": "primary odd-A level/transition table not established in this audit"
+    }
+  },
+  "ba_model_orbitals": {
+    "143Ba": {
+      "2f7/2": {
+        "eps_MeV": 0.443,
+        "v2": 0.173
+      },
+      "1i13/2": {
+        "eps_MeV": 3.333,
+        "v2": 0.02
+      }
+    },
+    "145Ba": {
+      "2f7/2": {
+        "eps_MeV": 0.552,
+        "v2": 0.243
+      },
+      "1i13/2": {
+        "eps_MeV": 3.378,
+        "v2": 0.028
+      }
+    }
+  },
+  "ba_ph_proxy": {
+    "143Ba": {
+      "f7_to_i13_gap_MeV": 2.89,
+      "occupancy_difference": 0.153,
+      "ph_proxy_per_unit_Q3_sq_MeV_minus1": 0.052941
+    },
+    "145Ba": {
+      "f7_to_i13_gap_MeV": 2.826,
+      "occupancy_difference": 0.215,
+      "ph_proxy_per_unit_Q3_sq_MeV_minus1": 0.076079
+    }
+  },
+  "actinide_sensitivity_scenario": {
+    "name": "illustrative two-channel actinide sensitivity only",
+    "input_pairs": [
+      {
+        "kind": "proton f7/2-i13/2",
+        "gap_MeV": 1.5,
+        "occupation_difference": 0.5,
+        "Q3_sq_arbitrary": 1.0
+      },
+      {
+        "kind": "neutron g9/2-j15/2",
+        "gap_MeV": 1.2,
+        "occupation_difference": 0.5,
+        "Q3_sq_arbitrary": 1.0
+      }
+    ],
+    "ph_proxy_arbitrary_MeV_minus1": 0.75,
+    "comparison_to_145Ba_single_pair_proxy": 9.86
+  },
+  "rotor_ratio_example": {
+    "spin": 4.5,
+    "K": 0.5,
+    "CG_E1_sq": 0.4444444444444444,
+    "CG_E2_sq": 0.2857142857142857,
+    "B_E1_e2fm2": 0.001061032953945969,
+    "B_E2_e2fm4": 10231.3891987647,
+    "B_E1_over_B_E2_fm_minus2": 1.0370370370370372e-07
+  },
+  "parity_staggering_example": [
+    {
+      "spin": 2.5,
+      "E_plus_keV": 20.5,
+      "E_minus_keV": 66.0,
+      "same_spin_delta_keV": 45.5,
+      "analytic_delta_keV": 45.5
+    },
+    {
+      "spin": 3.5,
+      "E_plus_keV": 48.5,
+      "E_minus_keV": 104.5,
+      "same_spin_delta_keV": 56.0,
+      "analytic_delta_keV": 56.0
+    },
+    {
+      "spin": 4.5,
+      "E_plus_keV": 102.5,
+      "E_minus_keV": 145.0,
+      "same_spin_delta_keV": 42.5,
+      "analytic_delta_keV": 42.5
+    },
+    {
+      "spin": 5.5,
+      "E_plus_keV": 146.5,
+      "E_minus_keV": 205.5,
+      "same_spin_delta_keV": 59.0,
+      "analytic_delta_keV": 59.0
+    }
+  ],
+  "inference_limits": [
+    "B(E1)/B(E2) depends on D0 cancellation, Q0, K mixing, branching, conversion and lifetimes; no universal static-shape threshold.",
+    "Strong E3 in even Ba cannot determine the odd-neighbor ground-state parity structure.",
+    "No empirical actinide/lanthanide response ratio can be obtained without matched quasiparticle spectra, pairing and octupole matrix elements."
+  ]
+}

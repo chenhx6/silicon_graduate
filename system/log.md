@@ -4596,3 +4596,6 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   3. subagent_octupole_micros 交付工件 octupole-microscopic-sccm-droplet-015.py/json，确立 Delta l=Delta j=3 轨道对相干驱动机制，宏观 Droplet 项（<0.003 efm）微不足道，微观 nu 1i13/2 充填引发 146Ba 与 224Ra 90%+ 偶极相消与 148Ba 符号反转，证明坐标密度重叠（85.9%）与 E1 跃迁核塌缩（89.9x）的完全解耦，以 84.8% CI 重叠度确立 delta_E(I) 为判定静态梨形的充要观测量；
 - 更新知识库 research-notes/octupole-mr-amr-evidence-gradient.md、concepts/antimagnetic-rotation.md、concepts/shears-mechanism.md 与日报；
 - 检查全库 boundary check 与 lint，保持 0 error、267 warnings。
+
+
+- 2026-10-28T21:09:46.386089+08:00 Day26 checkpoint019：并行复核奇A宇称、条件TAC流场与点团簇；撤回007–015过强认证并隔离历史工件，新增019准粒子/宇称代数反例与022 Roy原表有限差分。E3误差归属、E1模型绝对偏差、J2自旋中心和负差分均留边界。run/goal保持active，正式学分未推进；检查与发布以本批receipt为准。

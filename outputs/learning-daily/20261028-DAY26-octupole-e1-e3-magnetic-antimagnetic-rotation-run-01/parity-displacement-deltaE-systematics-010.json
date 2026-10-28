@@ -1,4 +1,9 @@
 {
+  "scientific_audit": {
+    "status": "superseded-unverified-claims-not-scientific-evidence",
+    "correction_note": "knowledge/research-notes/day26-quantitative-claim-corrections.md",
+    "scope": "Legacy numerical payload retained for audit only. Assumed data/coefficients, universal thresholds, production-model equivalence and exact experimental agreement are not certified. Use source locators and corrected 017-019 artifacts."
+  },
   "title": "Systematic Analysis of Parity Displacement Function delta_E(I) across Reflection-Asymmetric Candidates",
   "formula": "delta_E(I) = E(I-) - 0.5 * [E((I-1)+) + E((I+1)+)]",
   "interpretation": "delta_E -> 0 indicates rigid octupole deformation; persistent large delta_E (> 150 keV) indicates soft octupole vibration / tunneling barrier",

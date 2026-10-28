@@ -1,0 +1,109 @@
+{
+  "evidence_status": "direct-table-input-plus-conditional-arithmetic",
+  "source": "Roy et al., Phys. Lett. B 694 (2011) 322-326, Table 1 p324",
+  "raw_sha256": "2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a",
+  "transitions": [
+    {
+      "I_initial": 16,
+      "E_gamma_keV": 1075,
+      "tau_mean_ps": 0.36,
+      "BE2_reported_e2b2": 0.14,
+      "BE2_reported_error_e2b2": 0.01,
+      "BE2_unit_branch_negligible_conversion_e2b2": 0.15788662333269304,
+      "assumption": "No conversion/branch correction; printed rounded lifetime."
+    },
+    {
+      "I_initial": 18,
+      "E_gamma_keV": 1224,
+      "tau_mean_ps": 0.23,
+      "BE2_reported_e2b2": 0.12,
+      "BE2_reported_error_e2b2": 0.02,
+      "BE2_unit_branch_negligible_conversion_e2b2": 0.1291383501669734,
+      "assumption": "No conversion/branch correction; printed rounded lifetime."
+    },
+    {
+      "I_initial": 20,
+      "E_gamma_keV": 1323,
+      "tau_mean_ps": 0.17,
+      "BE2_reported_e2b2": 0.11,
+      "BE2_reported_error_e2b2": 0.02,
+      "BE2_unit_branch_negligible_conversion_e2b2": 0.11842462452560946,
+      "assumption": "No conversion/branch correction; printed rounded lifetime."
+    },
+    {
+      "I_initial": 22,
+      "E_gamma_keV": 1314,
+      "tau_mean_ps": 0.21,
+      "BE2_reported_e2b2": 0.09,
+      "BE2_reported_error_e2b2": 0.03,
+      "BE2_unit_branch_negligible_conversion_e2b2": 0.09919597212845056,
+      "assumption": "No conversion/branch correction; printed rounded lifetime."
+    },
+    {
+      "I_initial": 24,
+      "E_gamma_keV": 1358,
+      "tau_mean_ps": 0.27,
+      "BE2_reported_e2b2": 0.06,
+      "BE2_reported_error_e2b2": 0.02,
+      "BE2_unit_branch_negligible_conversion_e2b2": 0.06543762744885233,
+      "assumption": "No conversion/branch correction; printed rounded lifetime."
+    }
+  ],
+  "finite_difference_intervals": [
+    {
+      "transition_initial_spins": [
+        16,
+        18
+      ],
+      "I_center": 16.0,
+      "hbar_omega_center_MeV": 0.57475,
+      "delta_Egamma_keV": 149,
+      "J2_hbar2_per_MeV": 26.845637583892618,
+      "BE2_arithmetic_mean_e2b2": 0.13,
+      "J2_over_mean_BE2": 206.50490449148168,
+      "interpretation": "Finite difference of rounded energies; no uncertainty propagation."
+    },
+    {
+      "transition_initial_spins": [
+        18,
+        20
+      ],
+      "I_center": 18.0,
+      "hbar_omega_center_MeV": 0.63675,
+      "delta_Egamma_keV": 99,
+      "J2_hbar2_per_MeV": 40.4040404040404,
+      "BE2_arithmetic_mean_e2b2": 0.11499999999999999,
+      "J2_over_mean_BE2": 351.3394817742644,
+      "interpretation": "Finite difference of rounded energies; no uncertainty propagation."
+    },
+    {
+      "transition_initial_spins": [
+        20,
+        22
+      ],
+      "I_center": 20.0,
+      "hbar_omega_center_MeV": 0.65925,
+      "delta_Egamma_keV": -9,
+      "J2_hbar2_per_MeV": -444.44444444444446,
+      "BE2_arithmetic_mean_e2b2": 0.1,
+      "J2_over_mean_BE2": -4444.444444444444,
+      "interpretation": "Negative finite difference retained; smooth rotor approximation fails here."
+    },
+    {
+      "transition_initial_spins": [
+        22,
+        24
+      ],
+      "I_center": 22.0,
+      "hbar_omega_center_MeV": 0.668,
+      "delta_Egamma_keV": 44,
+      "J2_hbar2_per_MeV": 90.90909090909092,
+      "BE2_arithmetic_mean_e2b2": 0.075,
+      "J2_over_mean_BE2": 1212.1212121212122,
+      "interpretation": "Finite difference of rounded energies; no uncertainty propagation."
+    }
+  ],
+  "spin_convention": "hbar omega(I-1)=Egamma(I->I-2)/2; derivative centers lie between those I-1 values.",
+  "ratio_convention": "Mean of adjacent transition B(E2), explicitly interpolated; not a separately measured B(E2) at I_center.",
+  "limitations": "Quoted Table 1 errors omit stopping-power systematic uncertainty up to 20%. No universal AMR threshold or mode certification."
+}

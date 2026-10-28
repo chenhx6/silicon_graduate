@@ -1,0 +1,94 @@
+{
+  "audit_id": "DAY26-TAC-024",
+  "scope": "Direct comparison of two distinct four-page source versions; no new HF or 3D-TAC calculation",
+  "course_status": "Day27 uncredited preview only; day_index and next_day_index unchanged; Day28 unopened",
+  "source_files": [
+    {
+      "source": "Starosta et al. PRL 86 971-974 (2001)",
+      "path": "raw/papers/2001_Starosta et al_Chiral Doublet Structures in Odd-Odd N = 75 Isotones Chiral Vibrations.pdf",
+      "storage": "raw archived",
+      "signature": "%PDF-1.3",
+      "bytes": 135709,
+      "pages": 4,
+      "sha256": "9082c1e8ced3fbfeb2248f5b18c1b646f4dc1adc77af5c27c6a988855583cbf4",
+      "reading_scope": "all four pages text; PDF p.4 Table I visual"
+    },
+    {
+      "source": "Olbratowski et al. arXiv:nucl-th/0211075v1 (2002), three-author version",
+      "path": "raw/papers/gpt/day26-20261028/olbratowski-2002-critical-frequency-arxiv-v1.pdf",
+      "storage": "raw archived 2026-10-28; source version arXiv v1; original read copy retained in tmp",
+      "signature": "%PDF-1.4",
+      "bytes": 252547,
+      "pages": 4,
+      "sha256": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+      "reading_scope": "all four pages text; PDF pp.3-4 Eqs.5-7 and Figs.4-6 visual"
+    }
+  ],
+  "claims": [
+    {
+      "id": "TAC24-1",
+      "kind": "experiment plus author interpretation",
+      "claim": "132La same-parity relative-spin doublet with approximately 0.37 MeV displacement; chiral vibration is proposed, not spectrally quantized",
+      "locator": "Starosta 2001 PDF pp.2-3, Figs.2-3",
+      "needs_review": true
+    },
+    {
+      "id": "TAC24-2",
+      "kind": "model result",
+      "claim": "At hbar omega=0.35 MeV, Starosta 132La 3D-TAC Table I gives epsilon=0.175, gamma=32 degrees, theta=65 degrees, phi=36 degrees, Eb=12 keV, J=11.3 hbar",
+      "locator": "Starosta 2001 PDF p.4 Table I",
+      "needs_review": true
+    },
+    {
+      "id": "TAC24-3",
+      "kind": "method scope",
+      "claim": "Starosta hybrid Woods-Saxon/modified-oscillator potential and 80%-of-mass-difference pairing gaps differ from Olbratowski Skyrme-HF SKM*, no pairing, time-odd mean fields off",
+      "locator": "Starosta 2001 PDF p.3 method; Olbratowski 2002 v1 PDF p.4 Ref.6",
+      "needs_review": true
+    },
+    {
+      "id": "TAC24-4",
+      "kind": "model result plus conditional arithmetic",
+      "claim": "Olbratowski 132La classical frozen-gyro formula with Js,Jm,Jl=(8.5,31,20) and ss,sl=(5.43,5.00) gives hbar omega critical=0.514639 MeV; separate self-consistent HF aplanar branch appears from 0.6 MeV",
+      "locator": "Olbratowski 2002 v1 PDF p.2 parameter paragraph; p.3 Eqs.6-7 and HF paragraph",
+      "needs_review": true
+    },
+    {
+      "id": "TAC24-5",
+      "kind": "author counterinterpretation",
+      "claim": "Olbratowski HF onset is above experimental candidate-band frequencies; planar and axial-long branches can also reproduce roughly 350-keV separation",
+      "locator": "Olbratowski 2002 v1 PDF p.3 last paragraph; p.4 Fig.6 and discussion",
+      "needs_review": true
+    },
+    {
+      "id": "TAC24-6",
+      "kind": "source-version ambiguity",
+      "claim": "2002 v1 p.4 prose says decreasing inertia differences lowers omega critical, while Eq.7 at fixed nonzero gyroscopes gives the opposite monotonic direction; no conclusion about uninspected 2004 VoR",
+      "locator": "Olbratowski 2002 v1 PDF p.3 Eq.7; p.4 opening paragraph",
+      "needs_review": true
+    }
+  ],
+  "distinct_quantities": {
+    "experimental_partner_displacement_MeV": 0.37,
+    "Starosta_intrinsic_barrier_keV": 12,
+    "Olbratowski_classical_hbar_omega_critical_MeV": 0.514639046,
+    "Olbratowski_HF_aplanar_onset_hbar_omega_MeV": 0.6
+  },
+  "limits": [
+    "No full HFODD rerun or Starosta 3D-TAC producer",
+    "No quantum collective mass, tunnelling splitting or partner-resolved absolute EM comparison",
+    "Do not infer a common gamma-to-frequency curve or universal nuclear phase boundary"
+  ],
+  "archive_recovery": {
+    "date": "2026-10-28",
+    "source_tmp": "tmp/day24-critical-tac-007/arxiv-0211075v1.response",
+    "destination_raw": "raw/papers/gpt/day26-20261028/olbratowski-2002-critical-frequency-arxiv-v1.pdf",
+    "destination_preexisted": false,
+    "byte_identical": true,
+    "sha256": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+    "pages": 4,
+    "bytes": 252547,
+    "signature": "%PDF-1.4",
+    "scope": "storage recovery only; no version, locator, review-status or 2004 VoR boundary change"
+  }
+}

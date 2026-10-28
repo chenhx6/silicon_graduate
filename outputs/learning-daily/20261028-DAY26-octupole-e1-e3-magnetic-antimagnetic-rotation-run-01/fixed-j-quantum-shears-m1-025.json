@@ -1,0 +1,258 @@
+{
+  "schema": "fixed-j-quantum-shears-m1-025/v1",
+  "scope": "exact two-j Hilbert space; illustrative dimensionless g factors, no nuclear measurement",
+  "units": "j and J in hbar; g dimensionless; B(M1) in mu_N^2",
+  "formula": "B=3/(4*pi)*(g1-g2)^2*(((j1+j2+1)^2-I^2)*(I^2-(j1-j2)^2))/(4*I*(2*I+1))",
+  "cases": [
+    {
+      "label": "distinguishable-half-integer-blades",
+      "j1": 5.5,
+      "j2": 4.5,
+      "g1": 1.2,
+      "g2": -0.3,
+      "Jmin": 1.0,
+      "Jmax": 10.0,
+      "Jmin_downward_B_muN2": 0.0,
+      "rows": [
+        {
+          "Ji": 2.0,
+          "Jf": 1.0,
+          "B_direct_muN2": 4.713473111505911,
+          "B_racah_muN2": 4.7134731115059125,
+          "abs_residual_muN2": 1.7763568394002505e-15,
+          "B_classical_muN2": 4.834331396416318
+        },
+        {
+          "Ji": 3.0,
+          "Jf": 2.0,
+          "B_direct_muN2": 5.729577951308232,
+          "B_racah_muN2": 5.729577951308231,
+          "abs_residual_muN2": 8.881784197001252e-16,
+          "B_classical_muN2": 5.43116243301093
+        },
+        {
+          "Ji": 4.0,
+          "Jf": 3.0,
+          "B_direct_muN2": 5.8750555164781675,
+          "B_racah_muN2": 5.8750555164781675,
+          "abs_residual_muN2": 0.0,
+          "B_classical_muN2": 5.28754996483035
+        },
+        {
+          "Ji": 5.0,
+          "Jf": 4.0,
+          "B_direct_muN2": 5.625403806738991,
+          "B_racah_muN2": 5.6254038067389915,
+          "abs_residual_muN2": 8.881784197001252e-16,
+          "B_classical_muN2": 4.834331396416321
+        },
+        {
+          "Ji": 6.0,
+          "Jf": 5.0,
+          "B_direct_muN2": 5.1218432707758375,
+          "B_racah_muN2": 5.121843270775838,
+          "abs_residual_muN2": 8.881784197001252e-16,
+          "B_classical_muN2": 4.177817256162252
+        },
+        {
+          "Ji": 7.0,
+          "Jf": 6.0,
+          "B_direct_muN2": 4.419960133866349,
+          "B_racah_muN2": 4.419960133866351,
+          "abs_residual_muN2": 1.7763568394002505e-15,
+          "B_classical_muN2": 3.354434030166426
+        },
+        {
+          "Ji": 8.0,
+          "Jf": 7.0,
+          "B_direct_muN2": 3.54576879994506,
+          "B_racah_muN2": 3.545768799945059,
+          "abs_residual_muN2": 8.881784197001252e-16,
+          "B_classical_muN2": 2.3793974841736576
+        },
+        {
+          "Ji": 9.0,
+          "Jf": 8.0,
+          "B_direct_muN2": 2.512972785661505,
+          "B_racah_muN2": 2.512972785661505,
+          "abs_residual_muN2": 0.0,
+          "B_classical_muN2": 1.2599766328108382
+        },
+        {
+          "Ji": 10.0,
+          "Jf": 9.0,
+          "B_direct_muN2": 1.3294411340144876,
+          "B_racah_muN2": 1.3294411340144883,
+          "abs_residual_muN2": 6.661338147750939e-16,
+          "B_classical_muN2": 0.0
+        }
+      ],
+      "max_abs_residual_muN2": 1.7763568394002505e-15
+    },
+    {
+      "label": "small-spin-control",
+      "j1": 0.5,
+      "j2": 0.5,
+      "g1": 1.0,
+      "g2": 0.0,
+      "Jmin": 0.0,
+      "Jmax": 1.0,
+      "Jmin_downward_B_muN2": 0.0,
+      "rows": [
+        {
+          "Ji": 1.0,
+          "Jf": 0.0,
+          "B_direct_muN2": 0.05968310365946072,
+          "B_racah_muN2": 0.05968310365946075,
+          "abs_residual_muN2": 2.7755575615628914e-17,
+          "B_classical_muN2": 0.0
+        }
+      ],
+      "max_abs_residual_muN2": 2.7755575615628914e-17
+    },
+    {
+      "label": "g-equality-null",
+      "j1": 5.5,
+      "j2": 4.5,
+      "g1": 0.7,
+      "g2": 0.7,
+      "Jmin": 1.0,
+      "Jmax": 10.0,
+      "Jmin_downward_B_muN2": 0.0,
+      "rows": [
+        {
+          "Ji": 2.0,
+          "Jf": 1.0,
+          "B_direct_muN2": 2.7098961346115773e-30,
+          "B_racah_muN2": 0.0,
+          "abs_residual_muN2": 2.7098961346115773e-30,
+          "B_classical_muN2": 0.0
+        },
+        {
+          "Ji": 3.0,
+          "Jf": 2.0,
+          "B_direct_muN2": 5.4832234243626475e-30,
+          "B_racah_muN2": 0.0,
+          "abs_residual_muN2": 5.4832234243626475e-30,
+          "B_classical_muN2": 0.0
+        },
+        {
+          "Ji": 4.0,
+          "Jf": 3.0,
+          "B_direct_muN2": 2.0929521481379136e-30,
+          "B_racah_muN2": 0.0,
+          "abs_residual_muN2": 2.0929521481379136e-30,
+          "B_classical_muN2": 0.0
+        },
+        {
+          "Ji": 5.0,
+          "Jf": 4.0,
+          "B_direct_muN2": 1.6687890508451064e-31,
+          "B_racah_muN2": 0.0,
+          "abs_residual_muN2": 1.6687890508451064e-31,
+          "B_classical_muN2": 0.0
+        },
+        {
+          "Ji": 6.0,
+          "Jf": 5.0,
+          "B_direct_muN2": 1.9031343685893328e-30,
+          "B_racah_muN2": 0.0,
+          "abs_residual_muN2": 1.9031343685893328e-30,
+          "B_classical_muN2": 0.0
+        },
+        {
+          "Ji": 7.0,
+          "Jf": 6.0,
+          "B_direct_muN2": 1.0468647786462563e-30,
+          "B_racah_muN2": 0.0,
+          "abs_residual_muN2": 1.0468647786462563e-30,
+          "B_classical_muN2": 0.0
+        },
+        {
+          "Ji": 8.0,
+          "Jf": 7.0,
+          "B_direct_muN2": 5.092885278182857e-31,
+          "B_racah_muN2": 0.0,
+          "abs_residual_muN2": 5.092885278182857e-31,
+          "B_classical_muN2": 0.0
+        },
+        {
+          "Ji": 9.0,
+          "Jf": 8.0,
+          "B_direct_muN2": 7.738901237319179e-30,
+          "B_racah_muN2": 0.0,
+          "abs_residual_muN2": 7.738901237319179e-30,
+          "B_classical_muN2": 0.0
+        },
+        {
+          "Ji": 10.0,
+          "Jf": 9.0,
+          "B_direct_muN2": 3.661757098213348e-30,
+          "B_racah_muN2": 0.0,
+          "abs_residual_muN2": 3.661757098213348e-30,
+          "B_classical_muN2": 0.0
+        }
+      ],
+      "max_abs_residual_muN2": 7.738901237319179e-30
+    }
+  ],
+  "large_j_analytic_limits": [
+    {
+      "j1_eq_j2": 5,
+      "Jmax": 10,
+      "B_at_Jmax_quantum_muN2": 0.5968310365946076,
+      "B_at_Jmax_classical_muN2": 0.0,
+      "B_at_0p8_Jmax_quantum_muN2": 1.6009114863949474,
+      "B_at_0p8_Jmax_classical_muN2": 1.0742958658702935,
+      "interior_quantum_over_classical": 1.4901960784313728
+    },
+    {
+      "j1_eq_j2": 10,
+      "Jmax": 20,
+      "B_at_Jmax_quantum_muN2": 1.193662073189215,
+      "B_at_Jmax_classical_muN2": 0.0,
+      "B_at_0p8_Jmax_quantum_muN2": 5.3533935403637525,
+      "B_at_0p8_Jmax_classical_muN2": 4.297183463481174,
+      "interior_quantum_over_classical": 1.245791245791246
+    },
+    {
+      "j1_eq_j2": 20,
+      "Jmax": 40,
+      "B_at_Jmax_quantum_muN2": 2.38732414637843,
+      "B_at_Jmax_classical_muN2": 0.0,
+      "B_at_0p8_Jmax_quantum_muN2": 19.304270328253892,
+      "B_at_0p8_Jmax_classical_muN2": 17.188733853924695,
+      "interior_quantum_over_classical": 1.1230769230769233
+    },
+    {
+      "j1_eq_j2": 40,
+      "Jmax": 80,
+      "B_at_Jmax_quantum_muN2": 4.77464829275686,
+      "B_at_Jmax_classical_muN2": 0.0,
+      "B_at_0p8_Jmax_quantum_muN2": 72.98919715749247,
+      "B_at_0p8_Jmax_classical_muN2": 68.75493541569878,
+      "interior_quantum_over_classical": 1.0615848406546082
+    },
+    {
+      "j1_eq_j2": 80,
+      "Jmax": 160,
+      "B_at_Jmax_quantum_muN2": 9.54929658551372,
+      "B_at_Jmax_classical_muN2": 0.0,
+      "B_at_0p8_Jmax_quantum_muN2": 283.491491162784,
+      "B_at_0p8_Jmax_classical_muN2": 275.0197416627951,
+      "interior_quantum_over_classical": 1.030804150453956
+    }
+  ],
+  "validation": {
+    "global_max_abs_direct_vs_racah_muN2": 1.7763568394002505e-15,
+    "equal_g_null_max_muN2": 7.738901237319179e-30,
+    "Jmax_nonzero_when_g_unequal": true,
+    "Jmin_has_no_lower_state": true
+  },
+  "assumptions_and_limits": [
+    "distinguishable angular momenta; identical-particle Pauli restrictions are not imposed",
+    "only fixed j1,j2 and g1,g2; no core, pairing, configuration mixing, or energies",
+    "classical comparison uses I^2=j1^2+j2^2+2*j1*j2*cos(theta) and interior large-j approximation",
+    "numerical residual is eigensolver roundoff, not uncertainty on a measured transition"
+  ]
+}

@@ -9,6 +9,12 @@ Comprehensive quantitative investigation of:
 4. Experimental confidence interval overlap analysis between 144Ba and 146Ba and limits on static pear-shape deduction.
 """
 
+# Scientific claims from this historical calculation have been withdrawn.
+import sys as _audit_sys
+if "--replay-superseded" not in _audit_sys.argv:
+    raise SystemExit("Superseded research artifact. Read knowledge/research-notes/day26-quantitative-claim-corrections.md; use 017-019 instead. Explicit historical replay requires --replay-superseded.")
+
+
 import math
 import json
 from pathlib import Path
@@ -450,7 +456,7 @@ def main():
 
     out_json = Path("outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/octupole-microscopic-sccm-droplet-015.json")
     with open(out_json, "w", encoding="utf-8") as f:
-        json.dump(final_payload, f, indent=2)
+        json.dump({"scientific_audit": {'status': 'superseded-unverified-claims-not-scientific-evidence', 'correction_note': 'knowledge/research-notes/day26-quantitative-claim-corrections.md', 'scope': 'Legacy numerical payload retained for audit only. Assumed data/coefficients, universal thresholds, production-model equivalence and exact experimental agreement are not certified. Use source locators and corrected 017-019 artifacts.'}, **final_payload}, f, indent=2)
 
     print(f"SUCCESS: Generated {out_json}")
     print(f"  - Spatial overlap between 0+ and 1- densities: {projected_gcm['spatial_overlap_percentage']}%")

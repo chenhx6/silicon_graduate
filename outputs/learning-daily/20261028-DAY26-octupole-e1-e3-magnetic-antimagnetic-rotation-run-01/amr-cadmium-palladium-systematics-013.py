@@ -3,6 +3,12 @@
 Artifact: amr-cadmium-palladium-systematics-013.py/json
 Produced for Day 26 apprentice research on Antimagnetic Rotation (AMR).
 """
+
+# Scientific claims from this historical calculation have been withdrawn.
+import sys as _audit_sys
+if "--replay-superseded" not in _audit_sys.argv:
+    raise SystemExit("Superseded research artifact. Read knowledge/research-notes/day26-quantitative-claim-corrections.md; use 017-019 instead. Explicit historical replay requires --replay-superseded.")
+
 import json
 import math
 from pathlib import Path

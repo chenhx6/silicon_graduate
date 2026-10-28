@@ -73,15 +73,14 @@ Day25末节的135Pr“17/2到25/2从24.5降到8.0、27/2交叉后回升到22.0�
 
 固定叶片长度、g因子、芯贡献与配置时的经典闭合趋势有条件意义；跨配置与E2分母变化须另核。寿命为绝对B提供时钟，不限制只能用DSAM/RDDS，也不产生所有MR必须落入固定数值窗的普适规则。本篇保持作者possible MR措辞，未取得2019勘误正文的边界不变。综合与证据梯度见 [[octupole-mr-amr-evidence-gradient]]；本节为needs_review:true的Codex self-audit。
 
-## Day 26：微观多准粒子选择定则、MR 与 ER 共存机制及形变上限定理
+## Day26：微观电流、剪刀与集体转动的条件模型（017纠错）
 
-结合 [[wang-2013-high-spin-104ag]] 与独立复算工件 `mr-vs-er-configuration-selection-012.py/json` 和 `shears-deformation-boundary-theorem-009.py/json`，确立磁转动存在的三大微观与宏观准则：
+前版把 $j\ge7/2$、$|g_\pi-g_\nu|\ge1$、$\beta_2\le0.20$、固定 $B(M1)/B(E2)$ 数值和低-$j$ 必然纯 ER 写成充要条件或定理；这些认证撤回。它们至多是指定组态与模型参数下的例子，不能作为跨核素相界。[[hubel-2005-magnetic-rotation-review]] 的实验判据需要寿命、组态及静态矩联合对账；[[he-chuangye-2006-magnetic-chiral-106ag]] 的候选归属又受 [[rather-2014-ag106-transition-rates]] 的不同组态解释约束。先前 012/009 工件只可复算其输入，不能证明普适性。本段为 Codex 条件推导，`needs_review: true`。
 
-1. **准粒子高 $j$ 刃剪刀几何充要条件**：
-   磁转动（剪刀机制）要求质子与中子价准粒子同时占据高 $j$ 侵入轨道（$j \ge 7/2$，如 $\pi g_{9/2}, \nu h_{11/2}$）且有效 $g$ 因子满足 $|g_\pi - g_\nu| \ge 1.0$。在 $^{104,106}\text{Ag}$ 中，$\pi g_{9/2}^{-1} \otimes \nu h_{11/2}$ 具备 $\Delta g = 1.567$ 与高达 $9\hbar$ 的剪刀闭合自旋容量，产生强横向磁偶极跃迁 $B(M1) \approx 1.36\ \mu_N^2$ 与巨比值 $B(M1)/B(E2) \approx 16.2\ (\mu_N/e\text{b})^2$，形成典型磁转动带（Band F 与手征伙伴候选带 A/B 的母构型）。
+在推转平均场 $\delta\langle H-\boldsymbol\omega\cdot\mathbf J-\sum_q\lambda_qN_q\rangle=0$ 下，规范协变的轨道流由单体密度矩阵给出：
 
-2. **MR 与电四极转动（ER）在同核中的共存机制**：
-   当价质子或价中子落入低 $j$ 轨道（$j \le 3/2$，如 $\pi p_{1/2}^{-1}$）时，剪刀闭合的角动量容量塌缩至 $2 \times 1/2 = 1\hbar$（几何上丧失剪刀闭合张角余量）。角动量产生必须全部由集体核心转动 $\vec{R}$ 承担，强四极跃迁压倒偶极跃迁（$B(M1)/B(E2) \approx 0.18\ (\mu_N/e\text{b})^2$），能带严格转变为集体电四极转动带（如 $^{104}\text{Ag}$ 的 Bands D/E，呈现纯 $\Delta I = 2$ 级联与 $E \propto I(I+1)$ 转子能谱）。
+$$\mathbf j_q(\mathbf r)=\left.\frac{\hbar}{2mi}(\nabla_{\mathbf r}-\nabla_{\mathbf r'})\rho_q(\mathbf r,\mathbf r')\right|_{\mathbf r'=\mathbf r}-\frac{e_q}{m}\mathbf A(\mathbf r)\rho_q(\mathbf r,\mathbf r).$$
 
-3. **剪刀机制形变窗口上限定理（$\beta_2 \le 0.20$）**：
-   在多质量区（$A=110, 135, 165, 198$）的形变连续扫描证明，当四极形变 $\beta_2 > 0.20$ 时，核芯集体四极跃迁强度 $B(E2)_{\text{coll}} \propto \beta_2^2$ 剧增一至两个数量级，将特征比值 $B(M1)/B(E2)$ 迅速压制至 $< 5\ (\mu_N/e\text{b})^2$。因此，磁转动仅能在近球形与弱形变核区（$\beta_2 \le 0.18 - 0.20$）稳定存在，进入强形变稀土区（如 $^{160}\text{Dy}$ 或超形变 $^{163}\text{Lu}$，$\beta_2 \ge 0.30$）后，剪刀机制在物理上被强烈的集体四极转动彻底淬灭。
+若研究磁化流，还应按所用有效磁矩算符加入 $\nabla\times\mathbf M$；核子质量、有效质量及交换流约定必须与具体 EDF 一致。非零局部 $\mathbf j$ 是时间奇量，单独 $\mathcal T$ 不可能保持。取 $x$ 为剪刀平面 $yz$ 的法向时，平面解可以保持反幺正 $\mathcal S_x=\mathcal R_x(\pi)\mathcal T$；某个 $\mathcal R_z(\pi)$ 是否破缺须由实际占据和自洽密度检验。017 工件的单涡旋示例满足 $\mathcal S_x$ 且破缺单独 $\mathcal T$、$\mathcal R_z(\pi)$，这是构造例而非所有 MR 的对称性定理。
+
+固定叶片长度和有效磁矩时，$\mathbf I=\mathbf j_\pi+\mathbf j_\nu+\mathbf R$、$\boldsymbol\mu=g_\pi\mathbf j_\pi+g_\nu\mathbf j_\nu+g_R\mathbf R$，$B(M1)\propto|\boldsymbol\mu_\perp|^2$。芯对齐、配对、组态重排或电荷四极矩变化会改变 $B(M1)/B(E2)$；$B(E2)\propto\beta_2^2$ 只在固定几何和电荷归一的简化集体模型中成立。因此 MR、手征候选与常规电转动在同核并存是能带/组态层面的检验问题，不能由单一 $\beta_2$ 或 $j$ 阈值裁定。参见 [[octupole-mr-amr-evidence-gradient]] 与 017 工件。
