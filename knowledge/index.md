@@ -29,6 +29,8 @@ updated: 2026-10-28
 - [[mr-to-chiral-topology-odd-odd-106ag-134pr-198bi]] — 奇奇核从平面剪刀向三维手征转动的拓扑相变：几何非共面、中轴惯量与双阱势垒。
 - [[beta2-beta3-octupole-topology-boundary]] — 四极—八极势能面拓扑适用边界：中等四极窗口去普适化与准粒子响应分析。
 - [[mr-bandhead-spin-i0-quantum-shears-boundary]] — 磁转动带头自旋I0的微观决定机制：P2相互作用正交极小与有限j量子修正。
+- [[ac225-ra225-th220-226-parity-doublet-coriolis-boundary]] — 锕系奇A核与偶偶钍核八极宇称伙伴：K=3/2解耦边界、Coriolis劈裂与E1证据。
+- [[mr-effective-g-quenching-core-polarization-boundary]] — 磁转动有效g因子淬灭、核芯自旋极化与跨区B(M1)微观反演。
 - [[cd110-branch-normalization-boundary]] — 110Cd相对分支、22⁺ 1100-keV情景与Roy B(E2)归一化边界。
 
 - [[nndc-2012-cd110-hi-xng]] — 110Cd HI,XNG评价：高自旋寿命、分支、DCO与1100-keV争议。
@@ -39,6 +41,10 @@ updated: 2026-10-28
 - [[garg-2019-135pr-polarization-erratum]] — 135Pr 2019公开勘误：813.3/747.5-keV偏振修正与混合多极性。
 - [[e3-cross-source-consistency-boundary]] — BU16/17、Bernard、Gaffney、Butler及E3工件一致性审计.
 - [[mr-amr-cross-source-consistency-boundary]] — Roy/Garg/Agarwal/Frauendorf与MR/AMR工件一致性及页码核对。
+- [[amr-global-nuclide-distribution-configuration-confidence-audit]] — Kumar Table 3 40条AMR结构、28核逐带证据分层与Cd/Pd/Dy配置比较。
+- [[chauhan-2025-100ru-amr-metadata]] — 2025年100Ru AMR候选文献元数据边界。
+- [[chauhan-2024-101ru-amr-metadata]] — 2024年101Ru AMR候选文献元数据边界。
+- [[joshi-2026-97-99mo-amr-metadata]] — 2026年97,99Mo AMR候选文献元数据边界。
 - [[parity-doublet-cross-source-consistency-boundary]] — 225Ra/225Ac ENSDF与奇A工件数值/谱系一致性审计。
 - [[e3-cross-source-consistency-boundary]] — BU16/17、Bernard、Gaffney、Butler及E3工件一致性审计。
 

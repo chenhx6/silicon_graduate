@@ -1,0 +1,31 @@
+{
+  "status": "boundary-audit",
+  "Pb": {
+    "g_eff_fit": 0.92,
+    "g_eff_schmidt": 1.17,
+    "scale_ratio": 0.7863247863247864
+  },
+  "Pr": {
+    "135Pr": "no absolute lifetime; no empirical delta-g inversion",
+    "137Pr": "relative B(M1)/B(E2) only; no empirical delta-g inversion"
+  },
+  "106Ag": {
+    "absolute_BM1_available": true,
+    "unique_shears_geometry_available": false,
+    "empirical_delta_g": "not identifiable from Table I alone"
+  },
+  "illustrative_formula_check": {
+    "B_M1_muN2": 2.0,
+    "I": 15.0,
+    "jp": 5.5,
+    "jn": 10.0,
+    "theta_deg": 90.0,
+    "delta_g_conditional": 1.1163564086688966
+  },
+  "warnings": [
+    "Pb ratio is not q_s",
+    "GT and M1 giant-resonance quenching are not the same observable",
+    "illustrative value is not an isotope fit"
+  ],
+  "review_status": "unreviewed"
+}

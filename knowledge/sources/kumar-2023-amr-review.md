@@ -53,6 +53,8 @@ Sushil Kumar 等，*Review of magnetic- and antimagnetic-rotational structures i
 
 ## Extracted Pages
 
+- [[amr-global-nuclide-distribution-configuration-confidence-audit]]
+
 - [[amr-pd-four-hole-geometry-evolution-audit]]
 - [[antimagnetic-rotation]]
 

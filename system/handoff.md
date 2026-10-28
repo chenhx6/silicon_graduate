@@ -3,7 +3,27 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint071：三级证据梯度规范化、AMR动态惯量端点行为、四极-八极拓扑去普适化与带头自旋量子修正
+## Active handoff — Day26 checkpoint072：锕系K=3/2平滑宇称双重态、AMR全球40带证据分级与有效g因子淬灭微观反演
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得重大微观理论与全核图系统学突破：
+1. **锕系奇质子核与偶偶钍核八极双重态微观机制**（`ac225-ra225-th220-226-parity-doublet-coriolis-boundary.md`，工件 `ac225-ra225-th220-226-parity-doublet-coriolis-boundary.json`）：
+   - 证明纯 $K=3/2$ 轴对称强耦合带的一阶对角 Coriolis 解耦项严格为零（$a \equiv 0$），解释了 $^{225}\text{Ac}$ 的宇称劈裂 $\Delta_{+-}(I) = 40.10, 34.78, 27.88\text{ keV}$（$I=3/2, 5/2, 7/2$）呈现平滑单调下降特征，与 $^{225}\text{Ra}$（$K=1/2$, $a^+ \approx -a^-$）的激荡符号交错形成鲜明对照；
+   - 严格核验带间 $E1$ 跃迁强度：$^{225}\text{Ac}$ 的 $40.09\text{ keV}$ 跃迁（$B(E1)=0.00171(15)\text{ W.u.}$）、$^{227}\text{Ac}$ 的 $27.36\text{ keV}$ 跃迁（$B(E1)>3.9\times 10^{-5}\text{ W.u.}$）及 $^{225}\text{Ra}$ 的 $31.50\text{ keV}$ 跃迁（$B(E1)=0.00081(20)\text{ W.u.}$）；
+   - 对账 $^{220,222,224,226}\text{Th}$ 八极能谱，明确 $^{222}\text{Th}$ 具备最确凿的偶偶核宇称双重态与 $B(E1)/B(E2) \sim 1.1\times 10^{-4}-3.4\times 10^{-4}$，指出 $^{226}\text{Th}$ 缺少寿命数据不能单独反演绝对 $B(E1)$；
+2. **反磁转动（AMR）全球核素分布与四级置信度审计**（`amr-global-nuclide-distribution-configuration-confidence-audit.md`，`workers/amr-global-distribution-20261029/`）：
+   - 依据 Kumar 2023 Table 3 对全核图 40 条候选带、28 个核素完成逐带证据分层：确立 7 条具备 DSAM/RDDS 寿命与绝对 $B(E2)$ 下降确认的 Tier A 结构（集中于 $^{104}\text{Pd}$、$^{105,106,107,108}\text{Cd}$）；
+   - 确立 9 条具备寿命约束但存在点数有限或模型分歧的 Tier B 结构（$^{100,101,103}\text{Pd}$, $^{109,110}\text{Cd}$, $^{142,143}\text{Eu}$）；
+   - 厘清 22 条仅有 $\Delta I=2$ 级联而未测寿命的 Tier C 候选，以及 2 条标记为准转动的 Tier D 候选（如 $^{144}\text{Dy}$）；记录 2024–2026 年最新元数据入口（$^{100,101}\text{Ru}$, $^{97,99}\text{Mo}$）；
+3. **磁转动有效 $g$ 因子微观淬灭与核芯极化反演边界**（`mr-effective-g-quenching-core-polarization-boundary.md`，工件 `mr-effective-g-audit`）：
+   - 导出单组态反演闭式 $|\Delta g_{\text{eff}}| = \sqrt{\frac{8\pi B(M1)}{3}} \frac{I}{j_p j_n |\sin\theta|}$；
+   - 澄清经验 $g_s^{\text{eff}} \approx 0.7-0.8 g_s^{\text{free}}$ 源于 $1^+$ 磁偶极巨共振/Gamow-Teller 芯极化与介子流修正，不能视作跨区单一普适常数；
+   - 对账铅区（$^{198,199}\text{Pb}$ 比例约 $0.786$）与稀土区（$^{135}\text{Pr}$ 缺寿命、$^{137}\text{Pr}$ 仅相对比值），严密划定从跃迁强度反演旋磁比的物理边界。
+
+全量检查全绿（wiki_lint 0 error/288 warnings，boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint071：三级证据梯度规范化、AMR动态惯量端点行为、四极-八极拓扑去普适化与带头自旋量子修正
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

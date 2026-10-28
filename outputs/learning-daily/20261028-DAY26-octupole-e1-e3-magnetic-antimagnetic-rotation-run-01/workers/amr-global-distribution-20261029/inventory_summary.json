@@ -1,0 +1,51 @@
+{
+  "record_count": 40,
+  "nucleus_count": 28,
+  "nuclei": [
+    "100Pd",
+    "101Pd",
+    "102Pd",
+    "103Pd",
+    "104Pd",
+    "105Cd",
+    "106Cd",
+    "107Cd",
+    "108Cd",
+    "108In",
+    "109Cd",
+    "109In",
+    "110Cd",
+    "110In",
+    "111Cd",
+    "112In",
+    "113In",
+    "114In",
+    "127Xe",
+    "130Ba",
+    "137Nd",
+    "142Eu",
+    "143Eu",
+    "144Dy",
+    "58Fe",
+    "61Ni",
+    "82Kr",
+    "99Pd"
+  ],
+  "tier_counts": {
+    "C": 22,
+    "B": 9,
+    "A": 7,
+    "D": 2
+  },
+  "tier_definition": {
+    "A": "absolute lifetime plus measured decreasing/compatible B(E2), with configuration support",
+    "B": "some direct lifetime/B(E2) evidence but incomplete, irregular, or contested",
+    "C": "model assignment or cascade plus insufficient absolute EM evidence",
+    "D": "review/analogy/theory mention only; no AMR-defining evidence"
+  },
+  "newer_metadata_sources": [
+    "chauhan-2025-100ru-amr-metadata",
+    "chauhan-2024-101ru-amr-metadata",
+    "joshi-2026-97-99mo-amr-metadata"
+  ]
+}

@@ -4639,3 +4639,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   3. 四极—八极势能面拓扑去普适化（beta2-beta3-octupole-topology-boundary.md）：证伪固定beta2窗口硬门（148,150Ba大四极0.26-0.28仍有强八极0.17，222-230U深四极背景维持八极极小），建立chi_3(beta2)准粒子响应机制分解式；
   4. 剪刀磁转动带头自旋微观起源与量子修正（mr-bandhead-spin-i0-quantum-shears-boundary.md）：证明排斥型P2力在theta=90°具有极小d2V/dtheta2 = 3V2 > 0，量化Pb与Pr区半经典I90与量子Casimir修正；
   5. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T04:30:00+08:00 Day26 checkpoint072：锕系K=3/2平滑宇称双重态、AMR全球40带证据分级与有效g因子淬灭微观反演。
+  1. 锕系奇质子核与偶偶钍核八极宇称伙伴（ac225-ra225-th220-226-parity-doublet-coriolis-boundary.md）：证明K=3/2一阶对角Coriolis解耦项严格为零（a=0），解释225Ac宇称劈裂平滑下降（40.10, 34.78, 27.88 keV）与225Ra符号交错的微观机制，核验225Ac 40.09 keV E1（0.00171 W.u.）与220-226Th负宇称能谱；
+  2. AMR全球40带证据分级与核素分布（amr-global-nuclide-distribution-configuration-confidence-audit.md，workers/amr-global-distribution-20261029/）：梳理全核图40条结构、28个核素，划定7条Tier A绝对寿命确认带（104Pd, 105-108Cd）、9条Tier B带、22条Tier C候选与2条Tier D准转动态（144Dy），追踪2024-2026最新文献元数据；
+  3. 磁转动有效g因子淬灭与核芯极化反演（mr-effective-g-quenching-core-polarization-boundary.md）：导出剪刀模型|Delta g_eff|单能带反演闭式，阐明1+磁偶极巨共振/GT自旋极化引发的g_s淬灭机制，跨区对账198,199Pb经验g_eff/Schmidt比值（0.786）与135Pr/137Pr测量缺口；
+  4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

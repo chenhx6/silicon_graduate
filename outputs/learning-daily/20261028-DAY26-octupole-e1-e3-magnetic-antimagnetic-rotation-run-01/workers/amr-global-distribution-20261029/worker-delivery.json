@@ -1,0 +1,42 @@
+{
+  "worker": "amr-global-distribution-20261029",
+  "status": "complete",
+  "deliverables": {
+    "research_note": "knowledge/research-notes/amr-global-nuclide-distribution-configuration-confidence-audit.md",
+    "source_pages": [
+      "knowledge/sources/kumar-2023-amr-review.md",
+      "knowledge/sources/chauhan-2025-100ru-amr-metadata.md",
+      "knowledge/sources/chauhan-2024-101ru-amr-metadata.md",
+      "knowledge/sources/joshi-2026-97-99mo-amr-metadata.md"
+    ],
+    "raw_files": [
+      "raw/papers/gpt/day26-20261028/kumar-2023-amr-review-arxiv2303.00499.pdf",
+      "raw/papers/gpt/day26-20261028/j.nuclphysa.2025.123016.crossref.json",
+      "raw/papers/gpt/day26-20261028/s0218301324500423.crossref.json",
+      "raw/papers/gpt/day26-20261028/s0218301326500552.crossref.json"
+    ],
+    "artifacts": [
+      "amr_global_inventory.csv",
+      "amr_global_inventory.json",
+      "inventory_summary.json",
+      "wiki-lint-global.json",
+      "boundary-check.txt"
+    ]
+  },
+  "findings": [
+    "Kumar Table 3 contains 40 structures in 28 nuclei; the inventory counts A=7, B=9, C=22, D=2 under an explicit local evidence rubric.",
+    "Tier A direct evidence is concentrated in 104Pd, 105Cd, 106Cd bands 2/3, 107Cd bands 1/2, and 108Cd; Tier B includes 100/101/103Pd, 109/110Cd, and 142/143Eu.",
+    "Delta-I=2 cascades, calculated J2/BE2, or TAC/SCM assignments dominate the C/D population; 144Dy remains a low-confidence candidate with pi h11/2^2 x nu h11/2^-2 and no tabulated BE2/lifetime evidence.",
+    "Cd uses pi(g9/2)^-2 holes with h11/2, g7/2, d5/2 neutron alignment; Pd mixes effective pi(g9/2)^-2 and higher-hole configurations, while 104Pd PNC four-hole geometry is not an independent-blade wavefunction; Dy is a structurally different same-high-j particle-hole candidate.",
+    "2024/2025 Ru and 2026 97,99Mo Crossref entries were added as metadata-only newer-literature boundaries and were not upgraded to experimental AMR evidence."
+  ],
+  "validation": {
+    "owned_lint_errors": 0,
+    "global_lint_errors": 13,
+    "global_lint_warnings": 300,
+    "boundary_ok": true,
+    "json_validation": "passed",
+    "diff_check": "passed for owned tracked files",
+    "commit_push": "not performed; parent owns integration/publication"
+  }
+}

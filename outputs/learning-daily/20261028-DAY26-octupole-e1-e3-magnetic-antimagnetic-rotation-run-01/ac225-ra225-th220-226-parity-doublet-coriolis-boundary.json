@@ -1,0 +1,176 @@
+{
+  "schema": "ac225-ra225-th220-226-parity-doublet-coriolis-boundary/v1",
+  "status": "bounded-source-self-audit",
+  "knowledge_note": "knowledge/research-notes/ac225-ra225-th220-226-parity-doublet-coriolis-boundary.md",
+  "output_note": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/ac225-ra225-th220-226-parity-doublet-coriolis-boundary.md",
+  "source_family": "NNDC ENSDF adopted PDFs retrieved 2026-10-29",
+  "fingerprints": [
+    {
+      "path": "tmp/day26-act-th/225Ac-adopted.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/225/Ac/adopted.pdf",
+      "bytes": 71605,
+      "signature_hex": "255044462d312e34",
+      "sha256": "88bd4ca4ddddcd68f5dc668c5eb52978b7451d5702c6066c1ff0cd3fe04473ff",
+      "pages": 5,
+      "reading_coverage": "NNDC ENSDF Adopted Levels, Gammas; PDF pp.1–3, low bands and gamma table"
+    },
+    {
+      "path": "tmp/day26-act-th/225Ra-adopted.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/225/Ra/adopted.pdf",
+      "bytes": 176896,
+      "signature_hex": "255044462d312e34",
+      "sha256": "ddadfb6a8ce61583d61903a1e5a8ade58705ad8cad661dcd5aed28d0cf872152",
+      "pages": 11,
+      "reading_coverage": "NNDC ENSDF Adopted Levels, Gammas; PDF pp.1–4, K=1/2 parity-doublet levels and E1"
+    },
+    {
+      "path": "tmp/day26-act-th/227Ac-adopted.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/227/Ac/adopted.pdf",
+      "bytes": 208709,
+      "signature_hex": "255044462d312e34",
+      "sha256": "dd199d93f92400bff24534df0e8f524c5cd05f8265d607ac5d0131aa8420227d",
+      "pages": 17,
+      "reading_coverage": "NNDC ENSDF Adopted Levels, Gammas; PDF pp.1–6, K=3/2 candidate bands and E1 records"
+    },
+    {
+      "path": "tmp/day26-act-th/220Th-adopted.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/220/Th/adopted.pdf",
+      "bytes": 144860,
+      "signature_hex": "255044462d312e34",
+      "sha256": "764be189624e60191294ca736027aa3343ab7606259759abd84071c4330cd659",
+      "pages": 9,
+      "reading_coverage": "NNDC ENSDF Adopted Levels, Gammas; PDF pp.1–3, K=0- yrast sequence and E1 placements"
+    },
+    {
+      "path": "tmp/day26-act-th/222Th-adopted.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/222/Th/adopted.pdf",
+      "bytes": 119896,
+      "signature_hex": "255044462d312e34",
+      "sha256": "ad09ce9a10d091a6ee04f0073ff0f5c09fad6e232a94bca03cf6198e4f039d96",
+      "pages": 6,
+      "reading_coverage": "NNDC ENSDF Adopted Levels, Gammas; PDF pp.1–3, explicit parity-doublet note and B(E1)/B(E2)"
+    },
+    {
+      "path": "tmp/day26-act-th/224Th-adopted.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/224/Th/adopted.pdf",
+      "bytes": 74480,
+      "signature_hex": "255044462d312e34",
+      "sha256": "845b236ddfbcc87aa17551039241e893cafa4681f9b9b8b883322aa2d823f570",
+      "pages": 5,
+      "reading_coverage": "NNDC ENSDF Adopted Levels, Gammas; PDF pp.1–3, K=0- band, E1 branches, D0/Q0"
+    },
+    {
+      "path": "tmp/day26-act-th/226Th-adopted.pdf",
+      "url": "https://www.nndc.bnl.gov/ensnds/226/Th/adopted.pdf",
+      "bytes": 94655,
+      "signature_hex": "255044462d312e34",
+      "sha256": "84f713c249876cbad2fdf7bfcc0b0431deb4873e985ef932894428bc13b6bee4",
+      "pages": 5,
+      "reading_coverage": "NNDC ENSDF Adopted Levels, Gammas; PDF pp.1–3, K=0- octupole-vibrational band and E1 placements"
+    }
+  ],
+  "convention": {
+    "delta_ac": "E(I+)-E(I-)",
+    "delta_ra": "E(I-)-E(I+) when reproducing the existing Ra audit; sign convention explicitly stated",
+    "energies": "keV",
+    "strengths": "W.u. unless stated"
+  },
+  "coriolis_derivation": {
+    "hamiltonian": "Hrot=A[I^2+j^2-2 I3 j3-I+ j--I- j+], A=hbar^2/(2J)",
+    "k_half": "E=A[I(I+1)+a(-1)^(I+1/2)(I+1/2)]+c",
+    "k_three_half": "E=A[I(I+1)-K^2]+c at first order for a pure strong-coupling K=3/2 band",
+    "boundary": "a=0 removes the first-order diagonal staggering term; it does not eliminate second-order K-mixing, triaxiality, band crossings, or configuration mixing."
+  },
+  "ac225_pairing": [
+    {
+      "I": "3/2",
+      "E_minus_keV": 0.0,
+      "E_plus_keV": 40.1,
+      "delta_plus_minus_keV": 40.1
+    },
+    {
+      "I": "5/2",
+      "E_minus_keV": 29.91,
+      "E_plus_keV": 64.69,
+      "delta_plus_minus_keV": 34.78
+    },
+    {
+      "I": "7/2",
+      "E_minus_keV": 77.13,
+      "E_plus_keV": 105.01,
+      "delta_plus_minus_keV": 27.88
+    }
+  ],
+  "ac225_fit": {
+    "x": "I(I+1)-K^2, K=3/2",
+    "intercept_keV": 41.53637615,
+    "slope_keV": -1.01623853,
+    "rms_keV": 0.10714248,
+    "interpretation": "descriptive three-point fit; not a measured tunneling splitting"
+  },
+  "ra225_pairing_delta_minus_plus_keV": [
+    55.16,
+    -11.21,
+    94.95,
+    -42.24
+  ],
+  "ra225_coriolis_fit": {
+    "A_delta_a_keV": -20.42834483,
+    "rms_keV": 2.46139171,
+    "status": "descriptive four-point fit from existing audit"
+  },
+  "ac227_pairing_plus_minus": [
+    {
+      "I": "3/2",
+      "delta_keV": 27.369
+    },
+    {
+      "I": "5/2",
+      "delta_keV": 16.376
+    },
+    {
+      "I": "7/2",
+      "delta_keV": 10.395
+    },
+    {
+      "I": "9/2",
+      "delta_keV": -16.856
+    },
+    {
+      "I": "11/2",
+      "delta_keV": -11.35
+    },
+    {
+      "I": "13/2",
+      "delta_keV": -60.48
+    }
+  ],
+  "evaluated_e1": {
+    "225Ac": "40.09-keV E1, B(E1)=0.00171(15) W.u.",
+    "227Ac": "27.36-keV E1(+M2), B(E1)>3.9e-5 W.u.; conversion coefficient anomaly noted by evaluator",
+    "225Ra": "31.50-keV E1, B(E1)=0.00081(20) W.u.",
+    "222Th": "B(E1)/B(E2) values approximately 1.1e-4–3.4e-4 across listed alternating-parity sequence",
+    "224Th": "D0/Q0=(6.7–10.0)e-4 fm^-1 in adopted comments; E1/[E1] branches listed",
+    "226Th": "E1 multipolarities and relative branches listed; absolute B(E1) unavailable from adopted table because negative-parity lifetimes are not given",
+    "220Th": "E1 placements and conversion coefficients listed; absolute B(E1) not given"
+  },
+  "th_even_even": {
+    "220Th": "5- bandhead 993.77(16) keV; alternating yrast sequence and E1 links",
+    "222Th": "246-keV K=0- band explicitly interpreted with K=0+ ground band as octupole parity doublet",
+    "224Th": "candidate K=0- band: 1- 251.0?, 3- 305.3, 5- 464.5, 7- 699.5, 9- 997.7 ...",
+    "226Th": "K=0- octupole-vibrational band: 1- 230.37, 3- 307.5, 5- 450.5, 7- 657.9 ..."
+  },
+  "falsification": [
+    "225Ac evaluated A/B levels do not support a universal 36–47-keV positive splitting: the clean three-point sequence is 40.10, 34.78, 27.88 keV.",
+    "K=3/2 a=0 must not be interpreted as every observed splitting remaining positive; 227Ac A/B differences cross zero at higher spin.",
+    "226Th E1 multipolarities are not absolute B(E1) without negative-parity lifetimes.",
+    "B(E1)/B(E2) and D0/Q0 are derived quantities with source and model boundaries."
+  ],
+  "unresolved": [
+    "Re-read original spectroscopy papers behind the ENSDF evaluations, especially 1988Le13/1990Ja11 and the E1 lifetime/branching studies.",
+    "Obtain matched lifetimes for the negative-parity bands in 220–226Th to convert E1 branches into absolute B(E1).",
+    "Perform a particle-rotor calculation including second-order K mixing to separate smooth K=3/2 behavior from band-assignment and configuration-mixing effects."
+  ],
+  "no_credit_or_deadline_change": true,
+  "commit_push": "not performed"
+}
