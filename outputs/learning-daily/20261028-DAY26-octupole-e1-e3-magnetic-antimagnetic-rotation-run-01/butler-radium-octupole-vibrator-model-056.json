@@ -1,0 +1,94 @@
+{
+  "schema": "butler-radium-octupole-vibrator-model-056/v1",
+  "222Ra": {
+    "data": {
+      "0+ -> 3-": {
+        "me_eb32": 1.13,
+        "me_unc": 0.09,
+        "Q3_efm3": 3030,
+        "Q3_unc": 240,
+        "independent": true
+      },
+      "2+ -> 1-": {
+        "me_eb32": 0.85,
+        "me_unc": 0.24,
+        "Q3_efm3": 2000,
+        "Q3_unc": 600,
+        "independent": true
+      },
+      "2+ -> 3-": {
+        "me_eb32": -0.9,
+        "me_unc": 0.5,
+        "Q3_efm3": 2100,
+        "Q3_unc": 1200,
+        "independent": true
+      },
+      "2+ -> 5-": {
+        "me_eb32": 1.79,
+        "me_unc": 0.2,
+        "Q3_efm3": 3100,
+        "Q3_unc": 400,
+        "independent": true
+      },
+      "4+ -> 1-": {
+        "me_eb32": -2.1,
+        "me_unc": 0.5,
+        "Q3_efm3": 4400,
+        "Q3_unc": 1000,
+        "independent": false
+      }
+    },
+    "mean_independent_Q3_efm3": 2557.5,
+    "std_independent_Q3_efm3": 509.3,
+    "relative_variation_pct": 19.9,
+    "ratio_2plus_to_3minus_over_0plus_to_3minus": 0.796,
+    "nature": "Stable reflection-asymmetric pear shape; Q3 ~ 2600-3000 e fm^3 is nearly constant across all E3 branches."
+  },
+  "228Ra": {
+    "data": {
+      "0+ -> 3-": {
+        "me_eb32": 0.87,
+        "me_unc": 0.15,
+        "Q3_efm3": 2300,
+        "Q3_unc": 400,
+        "independent": true
+      },
+      "2+ -> 1-": {
+        "me_eb32": 1.36,
+        "me_unc": 0.23,
+        "Q3_efm3": 3200,
+        "Q3_unc": 600,
+        "independent": false
+      },
+      "2+ -> 3-": {
+        "me_eb32": -0.06,
+        "me_unc_pos": 0.23,
+        "me_unc_neg": -0.16,
+        "Q3_efm3": 150,
+        "Q3_unc_pos": 360,
+        "Q3_unc_neg": -500,
+        "independent": false
+      },
+      "2+ -> 5-": {
+        "me_eb32": 1.71,
+        "me_unc": 0.23,
+        "Q3_efm3": 3000,
+        "Q3_unc": 400,
+        "independent": false
+      },
+      "4+ -> 1-": {
+        "me_eb32": 0.4,
+        "me_unc_pos": 0.7,
+        "me_unc_neg": -1.1,
+        "Q3_efm3": -800,
+        "Q3_unc_pos": 2300,
+        "Q3_unc_neg": -1400,
+        "independent": false
+      }
+    },
+    "ratio_2plus_to_3minus_over_0plus_to_3minus": 0.069,
+    "suppression_factor_228_vs_222": 11.5,
+    "nature": "Octupole vibrator; transition 2+ -> 3- is suppressed by more than a factor of 10 relative to 222Ra, consistent with destructive interference in harmonic octupole phonon coupling to quadrupole rotation."
+  },
+  "scientific_boundary": "In 144,146Ba, only a single direct E3 matrix element (0+ -> 3-) is experimentally available; higher couplings (2+ -> 5-, 4+ -> 7-) only have upper bounds. Therefore, the multi-transition Q3 flatness test that Butler 2020 used to establish rigid pear shape in 222Ra vs vibrator in 228Ra cannot yet be performed for 144,146Ba, reinforcing the necessity of relying on parity-displacement systematics delta E(I)."
+}

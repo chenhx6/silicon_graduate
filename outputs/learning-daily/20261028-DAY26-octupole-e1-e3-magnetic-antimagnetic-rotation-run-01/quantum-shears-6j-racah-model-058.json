@@ -1,0 +1,89 @@
+{
+  "schema": "quantum-shears-6j-racah-model-058/v1",
+  "description": "Exact finite-j quantum Racah 6j vs semi-classical shears M1 strength in 135Pr",
+  "parameters": {
+    "j_proton": 5.5,
+    "j_neutron": 10.0,
+    "delta_g_muN": 1.42
+  },
+  "comparison_table": [
+    {
+      "I": 8.5,
+      "spin": "17/2-",
+      "theta_deg": 121.82,
+      "sixj_value": 0.049757,
+      "BM1_quantum_muN2": 8.1803,
+      "BM1_classical_muN2": 7.2757,
+      "quantum_to_classical_ratio": 1.124
+    },
+    {
+      "I": 9.5,
+      "spin": "19/2-",
+      "theta_deg": 111.32,
+      "sixj_value": -0.046592,
+      "BM1_quantum_muN2": 8.0694,
+      "BM1_classical_muN2": 7.0007,
+      "quantum_to_classical_ratio": 1.153
+    },
+    {
+      "I": 10.5,
+      "spin": "21/2-",
+      "theta_deg": 100.48,
+      "sixj_value": 0.042884,
+      "BM1_quantum_muN2": 7.5958,
+      "BM1_classical_muN2": 6.3857,
+      "quantum_to_classical_ratio": 1.19
+    },
+    {
+      "I": 11.5,
+      "spin": "23/2-",
+      "theta_deg": 88.96,
+      "sixj_value": -0.038793,
+      "BM1_quantum_muN2": 6.837,
+      "BM1_classical_muN2": 5.5036,
+      "quantum_to_classical_ratio": 1.242
+    },
+    {
+      "I": 12.5,
+      "spin": "25/2-",
+      "theta_deg": 76.33,
+      "sixj_value": 0.034331,
+      "BM1_quantum_muN2": 5.8417,
+      "BM1_classical_muN2": 4.3994,
+      "quantum_to_classical_ratio": 1.328
+    },
+    {
+      "I": 13.5,
+      "spin": "27/2-",
+      "theta_deg": 61.79,
+      "sixj_value": -0.029403,
+      "BM1_quantum_muN2": 4.6419,
+      "BM1_classical_muN2": 3.1022,
+      "quantum_to_classical_ratio": 1.496
+    },
+    {
+      "I": 14.5,
+      "spin": "29/2-",
+      "theta_deg": 43.34,
+      "sixj_value": 0.023741,
+      "BM1_quantum_muN2": 3.259,
+      "BM1_classical_muN2": 1.6313,
+      "quantum_to_classical_ratio": 1.998
+    },
+    {
+      "I": 15.5,
+      "spin": "31/2-",
+      "theta_deg": 0.0,
+      "sixj_value": -0.016605,
+      "BM1_quantum_muN2": 1.7081,
+      "BM1_classical_muN2": 0.0,
+      "quantum_to_classical_ratio": "infinite (classical zero)"
+    }
+  ],
+  "key_quantum_findings": [
+    "At low to intermediate spin (I = 8.5 to 11.5), the exact quantum B(M1) exceeds the semi-classical Macchiavelli value by 12% to 24%, reflecting quantum finite-j dispersion of angular momentum.",
+    "At the classical shears termination limit I = jp + jn = 15.5 (31/2-), the classical formula predicts B(M1) = 0 identically (sin^2 theta = 0).",
+    "In contrast, the exact quantum Racah formula yields BM1 = 1.7081 mu_N^2. Quantum zero-point fluctuations of the non-commuting angular momentum operators prevent the transition strength from vanishing completely at the parallel blade boundary.",
+    "This demonstrates that classical shears closure is an asymptotic approximation (valid only as j -> infinity), and finite nuclei will always exhibit residual quantum M1 collectivity at the band termination point."
+  ]
+}

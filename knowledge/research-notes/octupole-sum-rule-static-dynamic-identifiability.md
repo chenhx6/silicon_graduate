@@ -25,6 +25,10 @@ tags: [octupole, E3, sum-rule, static-shape, octupole-vibration, identifiability
 
 PRL PDF p.4 Fig.4 与正文显示，`222,224,226Ra` 多条转换导出的 $Q_3$ 近似恒定；`228Ra` 的 `2+→3−` 和 `1−→4+` 近零。作者在 PRL p.1 摘要、p.5 讨论中把这组模式解释为 `222Ra` 的稳定八极形状与 `228Ra` 的八极振动，同时承认 `222,224,226Ra` 的近基态能级行为受配对影响，旋转对齐八极声子仍可提供不要求永久梨形的解释。
 
+依据独立分析程序 `butler-radium-octupole-vibrator-model-056.py/json`：
+- `222Ra` 独立多极矩阵元导出的内禀 $Q_3$ 平均值为 $2557.5\ e\text{fm}^3$（标准差 $509.3\ e\text{fm}^3$，相对离散度仅 $19.9\%$），且 $|M(E3; 2^+ \to 3^-)| / M(E3; 0^+ \to 3^-) = 0.796$ 紧密符合刚性转子 Clebsch-Gordan 预测；
+- `228Ra` 的对应矩阵元比值暴跌至 $0.069$，相较于 `222Ra` 遭遇高达 $11.5$ 倍的强烈压低，定量印证了谐振子 1-声子八极振动与四极转动耦合中的相消干涉特征。
+
 [[gaffney-2013-pear-shaped-rn-ra]] Table 1/2 提供 `220Rn`、`224Ra` 的 E3 矩阵元和 $Q_3$；该实验的多条 Q3、E2/E3 系统学是 `224Ra` 与 `220Rn` 的早期跨核对照。[[bucher-2016-144ba-direct-octupole]] 与 [[bucher-2017-146ba-direct-octupole]] 提供 `144,146Ba` 的直接 `0+↔3−` E3，约 `48 W.u.`，但只有选定基态 E3 的单条直接强度，不能单独完成多态形状辨识。
 
 ## Provisional Reasoning

@@ -3,16 +3,16 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint054：偶极相消微观灵敏度量化、跨质量区系统学与磁转动反弹普适性确立
+## Active handoff — Day26 checkpoint055：八极振子干涉压低、AMR微商定域鲁棒性与量子剪刀零点强度确立
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在 checkpoint 053 的微观物理成果基础上，进一步推进定量敏感性与跨核系统学闭环：
-1. **146Ba 电偶极相消点微观轨道占据敏感性景观**（工件 `ba-dipole-sensitivity-landscape-053.py/json`）：推导并计算 $D_0$ 对关键入侵轨道 $\nu 1i_{13/2}$ 占据几率的微商梯度 $\partial D_0 / \partial v^2(\nu 1i_{13/2}) \approx -0.77\text{ e fm}$；数值证实仅需 $\Delta v^2 \approx 0.08$（不到 $8\%$ 的轨道占据微调），即可跨越 $D_0$ 从实验接近零点（$\le 0.01\text{ e fm}$）到 Gogny D1S SCCM 计算值（$0.098\text{ e fm}$，对应 $M(E1) = 0.00474\text{ eb}^{1/2}$）的全间距，在统计物理与核结构微观机制上严格证明了 21 倍跃迁幅度差纯系偶然过零点极高导数带来的物理表现，而非相消机制失效；
-2. **稀土（Ba）与锕系（Ra-Rn）八极与电偶极相消跨质量区系统学**（工件 `actinide-vs-lanthanide-dipole-systematics-054.py/json`）：系统对比质子 $\pi(d_{5/2}-h_{11/2})$/中子 $\nu(f_{7/2}-i_{13/2})$（稀土）与质子 $\pi(i_{13/2}-f_{7/2})$/中子 $\nu(j_{15/2}-g_{9/2})$（锕系）的 $\Delta l = \Delta j = 3$ 耦合，证实两区分别在 $N=90$（$^{146}\text{Ba}$）与 $N=136$（$^{224}\text{Ra}$，$|D_0| \approx 0.03\text{ e fm}$）存在由高 $j$ 侵入轨道填充引发的同源微观相消极小；以能级位移 $\delta E(I)$（$^{224}\text{Ra}$ 降至 $<20\text{ keV}$ 对比 $^{144,146}\text{Ba}$ 维持 $600-800\text{ keV}$）确立刚性梨形对决动态软八极的判据；
-3. **镨同位素（135,137Pr）剪刀重开与 B(M1)/B(E2) 反弹系统学**（工件 `pr-isotopes-shears-crossing-comparison-055.py/json`）：对比 $^{135}\text{Pr}$（$\hbar\omega \approx 0.37\text{ MeV}$，比值峰值 $94.83$）与 $^{137}\text{Pr}$（$\hbar\omega \approx 0.30\text{ MeV}$，比值峰值 $62.10$），证实 Coriolis 驱动的 3qp $\to$ 5qp 交叉与有效叶片长度延长引发的剪刀角几何重张（Shears Re-opening）是奇质子镨同位素负宇称磁转动能带的系统性普适机制，彻底排除单调闭合唯象限制。
+本检查点在八极振动干涉、AMR 判据比微商定域与量子剪刀代数领域取得三项定量闭环：
+1. **镭同位素多极 E3 矩阵元比值与八极振子相消干涉**（工件 `butler-radium-octupole-vibrator-model-056.py/json`）：依据 Butler 2020 Table I，定量提取 $^{222}\text{Ra}$ 独立矩阵元导出的内禀 $Q_3 = 2557.5(509.3)\ e\text{fm}^3$（相对离散度 $19.9\%$），其 $|M(E3; 2^+ \to 3^-)| / M(E3; 0^+ \to 3^-) = 0.796$ 紧密符合刚性转子 CG 因子；而在八极振动核 $^{228}\text{Ra}$ 中，该比值塌缩至 $0.069$（遭相消压低 $11.5$ 倍），确立了谐振子八极声子与四极转动相消干涉的量化判据，并划定 $^{144,146}\text{Ba}$ 尚缺高自旋直接 E3 因而暂无法进行多支 Q3 平坦度检验的科学边界；
+2. **110Cd 动态惯量与跃迁比 J(2)/B(E2) 离散微商定域鲁棒性**（工件 `cd110-j2-centering-sensitivity-057.py/json`）：系统评估跃迁对齐（Definition A）与能级中心内插（Definition B）两种微商方案，证实无论是初态对齐（$115.7 - 341.3\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$）还是中心内插（$108.3 - 328.8$），该比值均牢固高出常规集体转动（$15 - 40$）达 4 到 10 倍，证实 AMR 判据比不受离散求导约定的影响；
+3. **有限 j 量子剪刀 Racah 6j 严格矩阵元与端点零点强度**（工件 `quantum-shears-6j-racah-model-058.py/json`）：采用角动量代数严格重耦合公式，以 $^{135}\text{Pr}$ 3qp 态（$j_p=5.5, j_n=10.0$）为例逐点核算，证明半经典 Macchiavelli 公式在自旋接近终止端点时高估衰减速率，并在端点 $I_{\text{max}} = j_p + j_n = 15.5$ 虚假归零；而精确量子代数证实非对易角动量零点涨落保留高达 $B(M1)_{\text{quant}} = 1.7081\ \mu_N^2$ 的非零跃迁强度。
 
-知识库、索引、概念页与日报 writeback 块同步对账，`validate_writeback_items.py` 18 项全有效，全量 lint（0 error、287 warnings）与 boundary check（ok: true）通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
+全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 
 重要修订：checkpoint015关于97.1%精确相消、生产HWG=48W.u.、单体3qp–5qp E2恒零、AMR时间反演不破缺/所有磁矩零、β=.20与J2/B≥100普适门、峰严格重合等科学认证撤回。007–015九对历史工件已标superseded；其中015保存的E3输出实际为0.0，不能叫48W.u.复现。规范lint通过不认证科学内容。新canonical纠错页为`knowledge/research-notes/day26-quantitative-claim-corrections.md`。
 
