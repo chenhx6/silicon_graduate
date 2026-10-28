@@ -3,7 +3,16 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint007：144Ba 微观模型互补对账（投影 GCM vs 3D 晶格推转 CDFT）
+## Active handoff — Day26 checkpoint008：跨质量区迁移与四大不适用性判据确立（Day 27 有界预习）
+
+正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26, 27]/next26，无 Day28。上一检查点 d2c7c1fc 已成功推送 Gitee origin/main。
+
+本段完成跨质量区比较综合与 Day 27 知识预习：
+1. **系统建立六大质量区结构特征对照矩阵**（`cross-mass-region-collective-mode-transfer-boundaries.md`）：全面覆盖 A≈80（同壳形状共存）、A≈110（弱形变 AMR/MR）、A≈130（手征/摆动/剪刀交叉/八极相消共存）、A≈160（刚性三轴超形变 TSD）、A≈190（铅区经典单刃剪刀）与 A≈220（锕系刚性静态反射不对称）；
+2. **确立四大严格“不适用性判据”**：(1) B(E2) 绝对尺度不适用性；(2) 剪刀闭合速率不适用性；(3) 低自旋小角进动公式不适用性；(4) 单一增强 B(E3) 静态梨形外推不适用性；从物理源头彻底铲除争议根源；
+3. **系统状态全绿**：写入知识库索引与日报写回 manifest，全量 lint 与 runner 校验保持全绿（0 errors / 267 warnings），代码与文档保持干净。
+
+## Previous handoff — Day26 checkpoint007：144Ba 微观模型互补对账（投影 GCM vs 3D 晶格推转 CDFT）
 
 正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26]/next26，无 Day27。上一检查点 b32b8c11 已成功推送 Gitee origin/main。
 

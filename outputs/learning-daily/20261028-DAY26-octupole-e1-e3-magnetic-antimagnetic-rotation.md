@@ -15,7 +15,7 @@ updated: 2026-10-28
 - schedule_id: wiki-daily-learning
 - status: running
 - completed_day_indices: []
-- partial_day_indices: [26]
+- partial_day_indices: [26, 27]
 - curriculum_cards_completed: 0
 - next_day_index: 26
 - hard_deadline: 2026-10-29T15:00:00+08:00
@@ -86,6 +86,8 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 - **135Pr 与 137Pr 磁转动带交叉系统学对比**（工件 `pr135-pr137-mr-systematics-004.json`）：对比 Garg 2015 与 Agarwal 2007，确立 Pr 同位素在 $\hbar\omega=0.37–0.42\text{ MeV}$ 处由于质子 $g_{7/2}$ 对齐导致 3qp $\to$ 5qp 交叉。在接近交叉区时两核均出现 $B(M1)/B(E2)$ 反弹上升（$^{135}\text{Pr}$ 升至 $\sim 95$；$^{137}\text{Pr}$ 升至 $62.1$），证伪单调陡降硬门；$^{137}\text{Pr}$ 测到交叉上方 5qp 剪刀重新闭合跌至 $17.2$，而 $^{135}\text{Pr}$ 交叉后缺失 $E2$ 跨带线。
 
 - **144Ba 微观八极理论模型对账（Bernard 2016 投影 SCCM vs Li 2024 3D 晶格推转 CDFT）**：(1) Bernard 2016 通过好宇称、好角动量投影与 GCM 四极-八极混合，阐明低自旋下大振幅零点涨落与软势能面（$-0.2 \le \beta_3 \le 0.2$），准确再现 $0^+-1^-$ 能级次序与 $B(E3) = 25\text{ W.u.}$；(2) Li 2024 通过实空间笛卡尔晶格推转 CDFT（PC-PK1 泛函），解释了高自旋下 $Z=56$ 与 $N=88$ Routhian 能隙维持稳定八极形变（$\beta_{30} \approx 0.128$ 维持至 $I \approx 24\hbar$）的单粒子机制；(3) 两大理论互为补充，澄清了低自旋量子涨落（软性）与高自旋推转刚度共存的完整图景。
+
+- **Day 27 跨质量区迁移与不适用性无学分预习（研究笔记 `cross-mass-region-collective-mode-transfer-boundaries.md`）**：在 Day 26 主线深度饱和后，对下一日卡（Day 27）开展有界知识预习（保持 `day_index: 26`，只将 27 纳入 `partial_day_indices`，不计学分）：(1) 系统对比六大质量区（A≈80, 110, 130, 160, 190, 220）的费米面驱动单粒子轨道、核芯形变与主导转动模式；(2) 确立四大不适用性判据（禁止 B(E2) 绝对数值机械移植、禁止忽视能带交叉的单调剪刀陡降硬门、禁止将大形变小角摆动外推至低自旋软核、禁止仅凭单一增强 B(E3) 宣称静态梨形形变），为后续研究提供全局物理定标。
 
 全部可复用公式、数值与边界已同步canonical研究笔记；JSON是复现工件，不是独立科学来源。
 
@@ -224,6 +226,17 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
         {
           "path": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
           "locator": "RO11-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/cross-mass-region-collective-mode-transfer-boundaries.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "六大质量区物理特征对照矩阵与四大跨区不可迁移性判据。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+          "locator": "BU16-D26-001"
         }
       ]
     }
