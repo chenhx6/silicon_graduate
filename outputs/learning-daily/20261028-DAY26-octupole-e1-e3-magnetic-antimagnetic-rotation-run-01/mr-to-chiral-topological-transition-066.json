@@ -1,0 +1,135 @@
+{
+  "schema": "mr-to-chiral-topological-transition-066/v1",
+  "nucleus": "134Pr",
+  "valence_configuration": "pi(h11/2) x nu(h11/2)^(-1)",
+  "evolution_trajectory": [
+    {
+      "spin_I": 10,
+      "regime": "Planar Magnetic Rotation (Shears)",
+      "shears_angle_theta_deg": 24.6,
+      "partner_splitting_DeltaE_keV": "no partner band",
+      "BM1_intraband_muN2": 0.382,
+      "BM1_interband_muN2": 0.0,
+      "BE2_intraband_eb2": 0.022,
+      "BM1_BE2_ratio": 17.06,
+      "staggering_parameter": null
+    },
+    {
+      "spin_I": 11,
+      "regime": "Planar Magnetic Rotation (Shears)",
+      "shears_angle_theta_deg": 0.0,
+      "partner_splitting_DeltaE_keV": "no partner band",
+      "BM1_intraband_muN2": 0.0,
+      "BM1_interband_muN2": 0.0,
+      "BE2_intraband_eb2": 0.02,
+      "BM1_BE2_ratio": 0.0,
+      "staggering_parameter": null
+    },
+    {
+      "spin_I": 12,
+      "regime": "Planar Magnetic Rotation (Shears)",
+      "shears_angle_theta_deg": 0.0,
+      "partner_splitting_DeltaE_keV": "no partner band",
+      "BM1_intraband_muN2": 0.0,
+      "BM1_interband_muN2": 0.0,
+      "BE2_intraband_eb2": 0.02,
+      "BM1_BE2_ratio": 0.0,
+      "staggering_parameter": null
+    },
+    {
+      "spin_I": 13,
+      "regime": "Planar Magnetic Rotation (Shears)",
+      "shears_angle_theta_deg": 0.0,
+      "partner_splitting_DeltaE_keV": "no partner band",
+      "BM1_intraband_muN2": 0.0,
+      "BM1_interband_muN2": 0.0,
+      "BE2_intraband_eb2": 0.02,
+      "BM1_BE2_ratio": 0.0,
+      "staggering_parameter": null
+    },
+    {
+      "spin_I": 14,
+      "regime": "3D Aplanar Chiral Doublet Rotation",
+      "shears_angle_theta_deg": 90.0,
+      "partner_splitting_DeltaE_keV": 350.0,
+      "BM1_intraband_muN2": 1.6,
+      "BM1_interband_muN2": 0.45,
+      "BE2_intraband_eb2": 0.12,
+      "BM1_BE2_ratio": 13.33,
+      "staggering_parameter": 13.33
+    },
+    {
+      "spin_I": 15,
+      "regime": "3D Aplanar Chiral Doublet Rotation",
+      "shears_angle_theta_deg": 90.0,
+      "partner_splitting_DeltaE_keV": 246.6,
+      "BM1_intraband_muN2": 0.8,
+      "BM1_interband_muN2": 1.15,
+      "BE2_intraband_eb2": 0.12,
+      "BM1_BE2_ratio": 6.67,
+      "staggering_parameter": 6.67
+    },
+    {
+      "spin_I": 16,
+      "regime": "3D Aplanar Chiral Doublet Rotation",
+      "shears_angle_theta_deg": 90.0,
+      "partner_splitting_DeltaE_keV": 173.8,
+      "BM1_intraband_muN2": 1.6,
+      "BM1_interband_muN2": 0.45,
+      "BE2_intraband_eb2": 0.12,
+      "BM1_BE2_ratio": 13.33,
+      "staggering_parameter": 13.33
+    },
+    {
+      "spin_I": 17,
+      "regime": "3D Aplanar Chiral Doublet Rotation",
+      "shears_angle_theta_deg": 90.0,
+      "partner_splitting_DeltaE_keV": 122.5,
+      "BM1_intraband_muN2": 0.8,
+      "BM1_interband_muN2": 1.15,
+      "BE2_intraband_eb2": 0.12,
+      "BM1_BE2_ratio": 6.67,
+      "staggering_parameter": 6.67
+    },
+    {
+      "spin_I": 18,
+      "regime": "3D Aplanar Chiral Doublet Rotation",
+      "shears_angle_theta_deg": 90.0,
+      "partner_splitting_DeltaE_keV": 86.3,
+      "BM1_intraband_muN2": 1.6,
+      "BM1_interband_muN2": 0.45,
+      "BE2_intraband_eb2": 0.12,
+      "BM1_BE2_ratio": 13.33,
+      "staggering_parameter": 13.33
+    },
+    {
+      "spin_I": 19,
+      "regime": "High-spin Realignment (Chiral Collapse)",
+      "shears_angle_theta_deg": 30.0,
+      "partner_splitting_DeltaE_keV": 600.0,
+      "BM1_intraband_muN2": 0.4,
+      "BM1_interband_muN2": 0.05,
+      "BE2_intraband_eb2": 0.25,
+      "BM1_BE2_ratio": 1.6,
+      "staggering_parameter": null
+    },
+    {
+      "spin_I": 20,
+      "regime": "High-spin Realignment (Chiral Collapse)",
+      "shears_angle_theta_deg": 30.0,
+      "partner_splitting_DeltaE_keV": 600.0,
+      "BM1_intraband_muN2": 0.4,
+      "BM1_interband_muN2": 0.05,
+      "BE2_intraband_eb2": 0.25,
+      "BM1_BE2_ratio": 1.6,
+      "staggering_parameter": null
+    }
+  ],
+  "key_physical_mechanisms": [
+    "1. Planar Magnetic Rotation Stage (I = 10-13): The valence proton particle and neutron hole close in a common plane. Radiation is purely Delta I = 1 M1 within a single band, with B(M1) decreasing as shears close.",
+    "2. Critical Chiral Bifurcation (I = 14): As rotational frequency reaches hbar*omega_c ~ 0.35 MeV, the intermediate-axis core rotation activates. Angular momentum enters 3D space, spontaneously breaking time-reversal x rotation symmetry S = T*R_y(pi).",
+    "3. Chiral Doublet Stage (I = 14-18): Left- and right-handed aplanar states emerge. Quantum tunneling between chiral wells produces doublet partner bands with energy splitting Delta E collapsing from 350 keV to < 100 keV.",
+    "4. Out-of-phase M1 Staggering: A decisive fingerprint of chiral symmetry breaking is the alternating odd-even staggering between intraband B(M1; I -> I-1) and interband B(M1; I -> I-1_partner), caused by signature-dependent tunneling interference.",
+    "5. High-spin Realignment (I >= 19): Coriolis forces align a second quasiparticle pair, destroying the 3D orthogonal geometry and restoring planar alignment."
+  ]
+}

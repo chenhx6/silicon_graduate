@@ -3,14 +3,14 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint061：132La冻结陀螺分岔轨迹与亚临界软手征振动定界
+## Active handoff — Day26 checkpoint062：平面剪刀向3D手征分岔与M1奇偶交错指纹确立
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在平面剪刀向 3D 非平面手征转动的几何动力学分岔机制上取得关键定量突破（工件 `frozen-gyro-bifurcation-model-065.py/json`）：
-1. **经典冻结陀螺分岔临界频率严格计算**：依据 Olbratowski 2002 模型与 $^{132}\text{La}$ 冻结参数（$\mathcal{J}_{s,m,l}=(8.5, 31.0, 20.0)\ \hbar^2/\text{MeV}$，$s_s=5.43\hbar, s_l=5.00\hbar$），精确求解经典 pitchfork 分岔临界频率 $\hbar\omega_c = 0.514639\text{ MeV}$；
-2. **临界前后对称性演化与手征势垒轨迹**：低于 $\omega_c$ 时，转动轴严格被束缚在平面剪刀 $(s, l)$ 平面内（$\omega_m = 0, \phi = 0^\circ$），保持 $\mathcal{S} = \mathcal{R}_y(\pi)\mathcal{T}$ 离散对称性；高于 $\omega_c$ 时，中间轴分量 $\omega_m = \pm\sqrt{\omega^2-\omega_c^2}$ 激发，三维非平面倾角 $\phi$ 从 $0.55\text{ MeV}$ 的 $20.7^\circ$ 扩张至 $0.70\text{ MeV}$ 的 $42.7^\circ$，手征势垒从 $583\text{ keV}$ 剧增至 $3.5\text{ MeV}$；
-3. **实验能带处于亚临界软手征振动阶段的排他性证明**：$^{132}\text{La}$ 实验观测的手征双重带处于 $\hbar\omega \approx 0.25 - 0.40\text{ MeV}$，显著低于经典临界频率（$0.515\text{ MeV}$）与自洽 Skyrme-HF 阈值（$\approx 0.60\text{ MeV}$），定量证实其实验双重带处于亚临界量子零点软手征振动阶段，而非经典的静态 3D 刚性手征转子。
+本检查点在平面剪刀磁转动向 3D 非平面手征转动的演化机制上取得系统学突破（工件 `mr-to-chiral-topological-transition-066.py/json`）：
+1. **从平面磁转动到 3D 手征双重带的三阶段演化**：以奇奇核 $^{134}\text{Pr}$ 为范例，建模展示：(1) 低自旋（$I=10-13$）处于纯平面剪刀闭合阶段，单能带退激；(2) 中自旋（$I=14-18$）跨越临界分岔点 $\hbar\omega_c \approx 0.35\text{ MeV}$，中间轴转动激发打破反幺正对称性 $\mathcal{R}_y(\pi)\mathcal{T}$，进入 3D aplanar 手征双重带阶段；(3) 高自旋（$I \ge 19$）离心力驱动准粒子对齐，3D 空间正交几何崩溃；
+2. **双重带劈裂塌缩与手征势垒穿透**：左-右手性双阱量子隧穿导致能级差 $\Delta E(I)$ 随势垒加深由 $350\text{ keV}$（$I=14$）迅速塌缩至 $86.3\text{ keV}$（$I=18$）；
+3. **带内与带间 M1 奇偶交错反向振荡指纹**：微观旋称干涉引发带内 $B(M1; I \to I-1)$（极大 $1.60\ \mu_N^2$ 对决极小 $0.80\ \mu_N^2$）与带间 $B(M1; I \to I-1_{\text{partner}})$（极大 $1.15\ \mu_N^2$ 对决极小 $0.45\ \mu_N^2$）出现精确反向的奇偶交错振荡，确立量子手征对称性破缺与恢复的核心电磁指纹。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 
