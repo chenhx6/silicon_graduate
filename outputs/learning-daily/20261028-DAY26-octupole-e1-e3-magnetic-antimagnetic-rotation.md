@@ -102,6 +102,7 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 - **043 Day26 requirement audit**：逐项标出 R1–R4 已证实、R5 正式学分/closeout 待硬截止、R6 Day25 回执缺失、R7 Day27 bounded preview；该审计不是最终 receipt。
 - **044 110Cd HI,XNG 输入契约**：完整读取 NNDC 110048022 固定栏对象；确认 18+–24+ 半衰期、E2分支和22+的1100-keV保留支线。它补齐分支身份，但不提供 Roy 的 LINESHAPE feeding 协方差或绝对 B(E2) 重放输入。
 - **045 110Cd 分支归一化审计**：评价字段给出22⁺的1314.1-keV份额 2.7/(2.7+1.0)=0.7297；18⁺、20⁺、24⁺所读块无第二评价分支。该情景不能覆盖全部7–11%中心差，也不能直接修正 Roy 未确认1100-keV线。
+- **043 续接与次日准备**：已生成可复制 resume 命令、未决路线和 Day27 无学分预览；不推进 next_day_index，不打开 Day28，正式 Day27 仍等待自己的原始 runner receipt。
 - **036 奇A能量窗**：225Ra/225Ac同自旋异宇称候选计数随50/100/200-keV窗扩大，最近能级可误导；A–D带标签与分支连接缺失时不选定宇称伙伴。
 - **037–040 收敛审计**：MR/AMR十项观测矩阵、E3跨来源一致性、奇A跨来源一致性和离散电流边界均完成；Roy Table 1已核为归档PDF印刷p.324，p.323仅为前页线形段；Ra E1 provenance更正为229Th α-decay链，Ac才是225Ra β− L-subshell ratios。
 - **030 奇A配对**：225Ra仅1/2配对唯一、225Ac仅3/2配对唯一；其余A–D带同自旋组合多解，条件D0不能直接比较。
