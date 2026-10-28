@@ -11,6 +11,7 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[roy-2011-cd110-systematics-antimagnetic]] — 110Cd 高自旋反磁转动第一手 DSAM 寿命、B(E2) 与核心转动耦合系统学原件。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 

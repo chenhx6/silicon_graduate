@@ -4576,3 +4576,4 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-28T17:04:19.613399+08:00 Day26 checkpoint001：同原run/session续接，goal与farmer启用；BU16/17/Garg原件校准与新BE16 SCCM原文进入知识层。撤回Pr27/2伪交叉/Cd无locator数列，保留Day25信用与缺失回执边界；当前partial[26]、无Day27，继续至原截止。
 
 - 2026-10-28T17:42:00+08:00 Day26 checkpoint002：复算135Pr Table I同母态强度比（15.78/19.67/94.83）重现图7；落地非正交宇称模型证明坐标密度不决定奇极跃迁；官方NNDC ENSDF Adopted数据集闭环110Cd实测能级与J2/B(E2)比值（116–341）。全套验证全绿，发布checkpoint 002并继续学习。
+- 2026-10-28T18:05:00+08:00 Day26 checkpoint003：获取并深读 Roy 2011 PLB 原文 5 页，确立 110Cd 高自旋第一手 DSAM 寿命与递减 B(E2)（0.14→0.06），建立来源页并闭环核心耦合 AMR 机制；全套验证通过，发布 checkpoint 003。

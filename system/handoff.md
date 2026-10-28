@@ -3,7 +3,17 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint002：分支比精确复算、宇称算符核模型与110Cd ENSDF基准落地
+## Active handoff — Day26 checkpoint003：Roy 2011 110Cd 第一手实验与核心转动耦合 AMR 系统学闭环
+
+正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26]/next26，无 Day27。上一检查点 96bb3f69 已成功推送 Gitee origin/main。
+
+本段取得关键实验源突破：
+1. **获取并深读 Roy et al. 2011 (PLB 694, 322) 全文 5 页原件**：通过 Elsevier API 成功调取规范 PDF（SHA-256 `2a090a6f...`）并建立来源页 `roy-2011-cd110-systematics-antimagnetic.md`；
+2. **确立 110Cd 高自旋反磁转动第一手 DSAM 实验数据**：测得 110Cd（INGA 阵列，LINESHAPE 分析）能级平均寿命为 16⁺ (0.36 ps)、18⁺ (0.23 ps)、20⁺ (0.17 ps)、22⁺ (0.21 ps) 与 24⁺ (0.27 ps)，对应 B(E2) 呈现温和稳定的递减：0.14(1) → 0.12(2) → 0.11(2) → 0.09(3) → 0.06(2) (eb)²，与 ENSDF 评价数据严格互通互证；
+3. **核心转动与对称双剪刀耦合的物理图像落地**：澄清 110Cd 与 106,108Cd（纯 AMR，核心转动惯量 ℑ=0）的本质差异——110Cd 具有显著的核心转动贡献（ℑ=19.5 MeV⁻¹ħ²，半刚体转子值），这完满解释了其在 ħω=0.65–0.72 MeV 处 8ħ 顺对齐增益以及 B(E2) 未剧烈塌缩的机制；
+4. **全套自动化检查通过**：`wiki_lint.py` 保持 0 error、267 warnings，runner 校验 report/curriculum/writeback 100% valid。
+
+## Previous handoff — Day26 checkpoint002：分支比精确复算、宇称算符核模型与110Cd ENSDF基准落地
 
 正式run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止2026-10-29 15:00+08，15–16收束。原生goal active、farmer PID3193运行；completed[]/partial[26]/next26，无Day27。上一检查点 7c93d8ba 已成功推送 Gitee origin/main；Day25 远端可达。
 

@@ -207,6 +207,17 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
           "locator": "BE16-D26-004"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
+      "anchor": "## Key Results",
+      "summary": "110Cd 核心耦合反磁转动第一手 DSAM 实验与经典转子模型原件。",
+      "sources": [
+        {
+          "path": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
+          "locator": "RO11-1"
+        }
+      ]
     }
   ]
 }
