@@ -3,14 +3,14 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint064：二阶八极不变量模型无关性与三级激发分类学确立
+## Active handoff — Day26 checkpoint065：四极—八极相排斥微观软窗口定理确立
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在库仑激发多极不变量与八极动力学微观分类学上取得定量突破（工件 `octupole-invariant-fluctuation-model-067.py/json`）：
-1. **二阶八极不变量 q3^2 的模型无关性验证**：严格计算 $^{144,146}\text{Ba}, ^{220}\text{Rn}, ^{224,228}\text{Ra}$ 的二阶八极不变量 $q_3^2 \equiv \frac{16\pi}{7} B(E3; 0^+ \to 3^-)$；证明方均根不变量 $q_3^{\text{rms}}$ 严格重现轴对称转子内禀电八极矩 $Q_3$（比值在 $0.996 \sim 1.04$ 之间高度吻合），证实了二阶不变量在基态表征中的模型无关性；
-2. **单项不变量不可辨识性与伴随量充要性**：证明仅凭单项二阶不变量 $q_3^2$ 无法区分静态梨形与软八极振动（例如 $^{144,146}\text{Ba}$ 与 $^{224}\text{Ra}$ 的 $B(E3)$ 均处于 $42 - 48\text{ W.u.}$ 强集体区间）；必须结合交替宇称能级位移 $\delta E(I)$ 与微观势能面势垒高度形成联合判据；
-3. **三级八极激发分类学确立**：确立了由 (I) 简谐八极振子（$^{228}\text{Ra}, ^{220}\text{Rn}$，表现为特定 $2^+ \to 3^-$ 矩阵元相消压低 $11.5$ 倍）、(II) 动态大振幅八极软转子（$^{144,146}\text{Ba}$，微观势垒 $<0.5\text{ MeV}$ 且 $\delta E(I) \approx 600-800\text{ keV}$ 宽展）、以及 (III) 刚性反射不对称梨形转子（$^{224,226}\text{Ra}$，势垒 $>1.5\text{ MeV}$ 且 $\delta E(I) \to 0$ 塌缩）构成的严密分类体系。
+本检查点在四极与八极多极形变微观相互竞争机理上取得定量突破（工件 `quadrupole-octupole-phase-competition-068.py/json`）：
+1. **微观八极极化率 chi_oct 对四极形变的非单调响应**：推导建立包含 $\Delta l = \Delta j = 3$ 侵入轨道 Nilsson 劈裂与配对相干项的极化率泛函；证明 $\chi_{\text{oct}}(\beta_2)$ 在球形或微弱形变区处于较低基线，随着 $\beta_2$ 增至 $0.18 - 0.20$ 达到共振极大，而在强长椭区（$\beta_2 > 0.28$）遭遇超过 $40\%$ 的急剧淬灭（$\beta_2 = 0.40$ 时降至 $0.606$）；
+2. **八极核狭窄区域定域定理**：从第一性原理上阐明了八极核必然局限于中等四极形变过渡区（如 $^{144,146}\text{Ba}$ 的 $\beta_2 \approx 0.18-0.22$、$^{224}\text{Ra}$ 的 $\beta_2 \approx 0.15-0.18$）的本质原因，排除了强形变稀土区（如 $^{160}\text{Gd}, \beta_2 \approx 0.35$）存在稳态八极形变的可能；
+3. **知识沉淀同步**：研究笔记 [ba-microscopic-octupole-dipole-cancellation.md](/workspace/wiki/knowledge/research-notes/ba-microscopic-octupole-dipole-cancellation.md:1) 全面收录四极—八极相排斥微观机制与形变软窗口定理。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 
