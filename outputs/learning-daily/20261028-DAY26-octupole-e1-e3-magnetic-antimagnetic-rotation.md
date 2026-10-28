@@ -79,6 +79,8 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 - 本段独立物理建模程序 `parity-norm-odd-kernel-002.py/json`（由 phys-model 技能规范生成）在严格非正交宇称投影两态模型中证明：即使 0+ 与 1- 态在内禀形变坐标上的概率密度分布完全相同（重叠度最大），若奇极算符在内禀态中的矩阵元相消（$d_1 \to 0$），则实验室跃迁矩阵元严格为零，而 $d_3 \neq 0$ 时八极跃迁依然保持巨大。这从第一性原理上澄清了为什么 Gogny D1S SCCM 计算中 144Ba 与 146Ba 的集体振幅波函数分布几乎相同，而 B(E1) 却能因中子单粒子占据的偶极抵消而暴跌一个数量级以上。
 - 本段独立程序 `cd110-ensdf-systematics-002.py/json` 提取官方 NNDC ENSDF 数据集 110048001 及 2011Ro01 (PLB 694, 322)，确立 110Cd 实测带内跃迁为 561、854、1075、1225、1323、1314 keV，B(E2) 在 16+ 至 20+ 处于 0.12–0.16 e²b²（38–50 W.u.），$J^{(2)}/B(E2)$ 处于 116–341 ħ² MeV⁻¹ (e²b²)⁻¹，全面验证 Frauendorf 2001 结论，清除旧虚假数字。
 
+- 本段独立建模程序 `cd110-amr-particle-rotor-model-003.py/json` 完整复现了 Roy 2011 经典两粒子加转子 AMR 模型：证明纯剪刀机制（$\Im=0$）在 $j_p=10, j_h=4.5$ 下在 $I=19\hbar$ 必然终止；能带延伸至 $24^+$ 必须有核心转动（$\Im=19.5\text{ MeV}^{-1}\hbar^2$）参与（在 $16^+ \to 24^+$ 核心转动提供 $2.9 \to 6.3\hbar$）。该机制平缓了剪刀闭合速度，完满再现了实测 $B(E2)$ 维持在 $0.06–0.14\ (e\text{b})^2$ 的平台特征。
+
 全部可复用公式、数值与边界已同步canonical研究笔记；JSON是复现工件，不是独立科学来源。
 
 ## Counter-evidence and missing companion observables

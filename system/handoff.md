@@ -3,7 +3,16 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint003：Roy 2011 110Cd 第一手实验与核心转动耦合 AMR 系统学闭环
+## Active handoff — Day26 checkpoint004：110Cd 粒子加转子模型落地与纯剪刀终止极限解析
+
+正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26]/next26，无 Day27。上一检查点 64528ebb 已成功推送 Gitee origin/main。
+
+本段取得经典反磁转动模型解析突破：
+1. **两粒子加转子 AMR 模型解析程序落地**（`cd110-amr-particle-rotor-model-003.py/json`）：严格复现 Roy 2011 模型方程（Eqs. 1–6），解析得出纯双剪刀（ℑ=0）在 110Cd 组态下的终止自旋严格为 I=19ħ（10 + 2×4.5）；
+2. **阐明核心转动耦合必然性与平缓平台机制**：证实 110Cd 观测到 24⁺ 态在动力学上必然要求核心转动（ℑ=19.5 MeV⁻¹ħ²）参与，在 16⁺–24⁺ 核心转动提供 2.9–6.3ħ 角动量，减缓了剪刀闭合速度（θ 从 70.0° 闭至 31.1°），理论重现 B(E2) 从 0.141 下降至 0.013 (eb)² 的平缓趋势，与实测 0.14(1) → 0.06(2) (eb)² 吻合；
+3. **知识库全面同步与全套验证通过**：更新研究笔记与日报，全套 lint 与 runner 校验保持全绿。
+
+## Previous handoff — Day26 checkpoint003：Roy 2011 110Cd 第一手实验与核心转动耦合 AMR 系统学闭环
 
 正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26]/next26，无 Day27。上一检查点 96bb3f69 已成功推送 Gitee origin/main。
 

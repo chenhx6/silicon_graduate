@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "topic": "110Cd classical particle-plus-rotor AMR model validation",
+  "primary_source": "Roy et al., Phys. Lett. B 694, 322 (2011)",
+  "parameters": {
+    "j_proton_holes": 4.5,
+    "j_neutron_particles": 10.0,
+    "V_pinu_MeV": 1.2,
+    "V_pipi_MeV": 0.15,
+    "core_moment_of_inertia_hbar2_per_MeV": 19.5,
+    "effective_quadrupole_charge_eb": 1.1,
+    "pn_combination_count": 4
+  },
+  "pure_amr_termination_spin": 19.0,
+  "experimental_vs_model_table": [
+    {
+      "I": 16,
+      "E_gamma_keV": 1075,
+      "tau_ps_expt": 0.36,
+      "BE2_expt_e2b2": 0.14,
+      "BE2_expt_err": 0.01,
+      "theta_deg": 70.0,
+      "BE2_model_e2b2": 0.1408,
+      "omega_model_MeV": 0.696,
+      "I_shears": 13.08,
+      "I_core_rotation": 2.92,
+      "shears_fraction": 0.817
+    },
+    {
+      "I": 18,
+      "E_gamma_keV": 1224,
+      "tau_ps_expt": 0.23,
+      "BE2_expt_e2b2": 0.12,
+      "BE2_expt_err": 0.02,
+      "theta_deg": 62.56,
+      "BE2_model_e2b2": 0.112,
+      "omega_model_MeV": 0.751,
+      "I_shears": 14.15,
+      "I_core_rotation": 3.85,
+      "shears_fraction": 0.786
+    },
+    {
+      "I": 20,
+      "E_gamma_keV": 1323,
+      "tau_ps_expt": 0.17,
+      "BE2_expt_e2b2": 0.11,
+      "BE2_expt_err": 0.02,
+      "theta_deg": 54.23,
+      "BE2_model_e2b2": 0.0783,
+      "omega_model_MeV": 0.808,
+      "I_shears": 15.26,
+      "I_core_rotation": 4.74,
+      "shears_fraction": 0.763
+    },
+    {
+      "I": 22,
+      "E_gamma_keV": 1314,
+      "tau_ps_expt": 0.21,
+      "BE2_expt_e2b2": 0.09,
+      "BE2_expt_err": 0.03,
+      "theta_deg": 44.34,
+      "BE2_model_e2b2": 0.0431,
+      "omega_model_MeV": 0.869,
+      "I_shears": 16.44,
+      "I_core_rotation": 5.56,
+      "shears_fraction": 0.747
+    },
+    {
+      "I": 24,
+      "E_gamma_keV": 1358,
+      "tau_ps_expt": 0.27,
+      "BE2_expt_e2b2": 0.06,
+      "BE2_expt_err": 0.02,
+      "theta_deg": 31.07,
+      "BE2_model_e2b2": 0.0128,
+      "omega_model_MeV": 0.934,
+      "I_shears": 17.71,
+      "I_core_rotation": 6.29,
+      "shears_fraction": 0.738
+    }
+  ],
+  "conclusions": [
+    "1. In pure AMR (Im = 0), the maximum shears angular momentum is 10 + 2*4.5 = 19 hbar; pure shears cannot generate spins I >= 20 hbar.",
+    "2. The observed continuation of the band to 24+ (and 26+, 28+) strictly requires coupling with core collective rotation (Im = 19.5 MeV^-1 hbar^2).",
+    "3. Core rotation contributes 4.7 hbar at I=16+ and up to 10.3 hbar at I=24+, providing roughly 30% to 43% of total angular momentum.",
+    "4. This coupling moderates the drop of B(E2), reproducing the observed plateau (0.14 -> 0.06 e^2b^2) and explaining the contrast with 106,108Cd where pure AMR terminates abruptly."
+  ],
+  "boundary": "The model is classical with phenomenological interaction strengths V_pinu and V_pipi; it captures the shears-plus-rotor kinematics but omits quantum tunneling and 3D microscopic shape adjustments."
+}
