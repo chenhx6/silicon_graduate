@@ -395,6 +395,17 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
       ]
     },
     {
+      "knowledge": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+      "anchor": "## Day25内Day26无学分preview：直接八极与E1灵敏度边界核查",
+      "summary": "补充直接 E3 观测与 E1 库仑激发弱敏感性边界，保持 E3、Q3 与形状转换假设分层。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+          "locator": "BU16-D25P-A005-01"
+        }
+      ]
+    },
+    {
       "knowledge": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
       "anchor": "## Day25内Day26无学分preview：比值趋势与模型条件",
       "summary": "Garg原比值上升反例；候选MR与寿命方法不设普适硬门，原review保持。",
