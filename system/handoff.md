@@ -3,7 +3,16 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint008：跨质量区迁移与四大不适用性判据确立（Day 27 有界预习）
+## Active handoff — Day26 checkpoint009：奇中子八极阻塞机制确立与剪刀—手征几何分岔模拟
+
+正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26, 27]/next26，无 Day28。上一检查点 a516fa1c 已成功推送 Gitee origin/main。
+
+本段取得两大核心前沿课题突破：
+1. **奇中子八极泡利阻塞机制落地**：深读 Nomura 2018（PRC 97, 024317）全文 11 页原件，建立规范来源页 `nomura-2018-odd-ba-octupole.md` 并编写独立复算程序 `nomura-2018-odd-ba-systematics-006.py`；确证 143,145,147Ba 中奇中子占据 nu(1h9/2, 2f7/2) 轨道破坏配对相空间，基态与低激发带的八极玻色子平均占据数 <n_f> ≈ 0.000（145Ba 基态 5/2- 中 1h9/2 x sd 占比达 92%），真正的八极声子态推迟至 0.7 - 1.2 MeV 较高激发能区；彻底澄清偶偶核八极增强与奇核基态宇称双重态缺失的微观自洽性；
+2. **剪刀磁转动向 3D 手征转动几何分岔模拟**：编写经典推转与粒子加转子模型数值程序 `shears-to-chiral-transition-005.py`，完整扫描不同 gamma 变形（-30° 至 0°）与转动频率 omega；证明在轴对称 prolate 极限（gamma = 0°）下系统在全转频维持严格平面剪刀（phi = 0°, Im = 0）；而在最大三轴度（gamma = -30°）下，由于中等轴流体力学转动惯量剧增（J_m = 4 J_s），转频超过临界阈值 omega_c ≈ 0.25 - 0.30 MeV 时能量极小自发分岔为两个非共面简并极小（phi = ±48° 至 ±74°），打破 S = T R_y(pi) 平面对称性，诱发三维静态手征几何；
+3. **系统状态全绿**：概念页 `octupole-correlation.md` 与 `shears-mechanism.md` 知识沉淀完毕，知识库索引与研究笔记同步更新，全量 lint 与 boundary check 保持 0 error、267 warnings。
+
+## Previous handoff — Day26 checkpoint008：跨质量区迁移与四大不适用性判据确立（Day 27 有界预习）
 
 正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26, 27]/next26，无 Day28。上一检查点 d2c7c1fc 已成功推送 Gitee origin/main。
 
