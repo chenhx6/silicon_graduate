@@ -1,0 +1,41 @@
+{
+  "recorded_at_utc": "2026-10-28T03:12:27.671793+00:00",
+  "environment": {
+    "python_prefix": "/opt/venv",
+    "packages": {
+      "ponytail": "0.9.3",
+      "crawl4ai": "0.9.3",
+      "browser-use": "0.13.10",
+      "browser-use-sdk": "3.4.2",
+      "playwright": "1.62.0",
+      "patchright": "1.62.3"
+    },
+    "docker_cli_available": false,
+    "runtime_source_path": "/workspace/wiki-docker-runtime/Dockerfile.final",
+    "runtime_source_writable": false
+  },
+  "tests": {
+    "pip_check": "passed",
+    "crawl4ai_example_com": {
+      "success": true,
+      "status_code": 200,
+      "title": "Example Domain",
+      "text_length": 953
+    },
+    "playwright_chromium_example_com": {
+      "success": true,
+      "title": "Example Domain",
+      "url": "https://example.com/"
+    },
+    "browser_use_import": "passed",
+    "ponytail_import": "passed"
+  },
+  "persistence_gap": {
+    "current_container_install": "present",
+    "dockerfile_persistence": "not_written because /workspace/wiki-docker-runtime is read-only in this session",
+    "required_dockerfile_change": "add ponytail==0.9.3 to the web-automation pip install list and import ponytail in WEB_AUTOMATION_OK check; bump WEB_AUTOMATION_CACHE_BUST",
+    "existing_pins": "crawl4ai==0.9.3, browser-use==0.13.10, playwright==1.62.0, patchright==1.62.3",
+    "rebuild_required": true
+  },
+  "browser_use_scope": "browser-use is a Python library; no independent browser-use skill directory or separate browser-use repository was installed. Codex orchestration remains in skills/workflows."
+}

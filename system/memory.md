@@ -10,6 +10,8 @@ updated: 2026-10-27
 
 ## 已确认规则
 
+- 2026-10-28：容器 `/opt/venv` 已验证 `crawl4ai 0.9.3`、`browser-use 0.13.10`、`browser-use-sdk 3.4.2`、Playwright/Patchright 与新增 `ponytail 0.9.3`；Crawl4AI/Playwright example.com 实测成功，pip check通过。Dockerfile.final已有前四项固定版本，但当前 runtime 目录只读，ponytail 持久化补丁未能写入；详见 `outputs/literature-acquisition/20261028-web-automation-runtime.json`。
+
 - 2026-10-27 用户提供 Springer Meta/OA 两把 key；Paper Search MCP 已映射为 `SPRINGER_API_KEY`/`SPRINGER_OPENACCESS_API_KEY`，nature-downloader 私有配置已保存 Meta key。两接口实测 HTTP 200，各返回1条；无供应商额度头，插件本地保护约3次/分钟、5000/日不等于账户配额。回执 `outputs/literature-acquisition/20261027-springer-api-permissions.json`。
 - Nature downloader 更新后已将两把 Springer key 分别保存为 `metadata_api_key`/`openaccess_api_key`，并移除旧通用 `api_key`；metadata/openaccess 私有校验均 HTTP 200，未配置 Full Text API key。
 - 2026-10-28 GitHub `Yuan1z0825/nature-skills` 已从旧安装 commit `c4e4c99f` 更新到 `c1637a8`; `/root/.codex/skills` 的 24 个 Nature skills 与源树哈希一致。新增 paper-trans、paper-xray、paper2word、social-science；更新包含 Springer 服务分离和安全测试。共享 `/root/.agents/skills` Gitee 仓库已与 origin/main 同步，无新增更新。
