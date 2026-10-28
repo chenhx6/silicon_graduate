@@ -642,9 +642,25 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
           "locator": "BU17-D25P-A005-01"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/concepts/octupole-correlation.md",
+      "anchor": "## Day 25 正式核验：八极关联微观驱动机制与偶极相消反例",
+      "summary": "补充 Delta l = Delta j = 3 轨道驱动机制与 Ba 同位素 E1 偶极相消反例。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+          "locator": "BU16-D25P-A005-01"
+        },
+        {
+          "path": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+          "locator": "BU17-D25P-A005-01"
+        }
+      ]
     }
   ]
 }
+
 
 
 
