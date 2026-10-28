@@ -11,6 +11,8 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[cd110-relative-strength-boundary-047]] — 110Cd HI,XNG相对RI、评价BE2字段与Roy绝对寿命强度边界。
+- [[ba-e1-e3-model-boundary-046]] — 144/146Ba E1/E3单位、SCCM算符核与实验/模型证据层。
 - [[cd110-branch-normalization-boundary]] — 110Cd相对分支、22⁺ 1100-keV情景与Roy B(E2)归一化边界。
 
 - [[nndc-2012-cd110-hi-xng]] — 110Cd HI,XNG评价：高自旋寿命、分支、DCO与1100-keV争议。

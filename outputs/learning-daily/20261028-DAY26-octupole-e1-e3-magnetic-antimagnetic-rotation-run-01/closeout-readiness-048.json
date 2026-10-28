@@ -1,0 +1,150 @@
+{
+  "schema": "day26-closeout-readiness-048/v1",
+  "observed_at_local": "2026-10-29T00:03:05+08:00",
+  "run_id": "2026-10-28-day-26-01",
+  "session_id": "01a1819f-75bb-7a11-be19-05761880f65c",
+  "overall_status": "pending-closeout-window",
+  "hard_deadline": "2026-10-29T15:00:00+08:00",
+  "closeout_window": "2026-10-29T15:00:00+08:00/2026-10-29T16:00:00+08:00",
+  "requirements": [
+    {
+      "id": "R1",
+      "requirement": "Original Day26 run identity, session and report linkage",
+      "status": "proved",
+      "evidence": [
+        "run.json",
+        "resume-state-001.json",
+        "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation.md",
+        "next-continuation-043.md"
+      ],
+      "finding": "run_id, session_id, schedule_id, project_root, report path and resume command agree. run.json remains status=running, counted_in_substantive_test=false, completed_day_indices=[].",
+      "boundary": "run.json hard_deadline is null; the authoritative deadline is repeated as overnight_until and in the report/handoff/continuation files."
+    },
+    {
+      "id": "R2",
+      "requirement": "Day26 daily report and system handoff agree on live state",
+      "status": "proved",
+      "evidence": [
+        "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation.md",
+        "system/handoff.md:6",
+        "system/handoff.md:8"
+      ],
+      "finding": "Both record the original session, 2026-10-29 15:00 hard deadline, 15:00–16:00 closeout, active research, Day27 bounded preview, next_day_index=26 and no Day28.",
+      "boundary": "The report records partial_day_indices=[26,27] for the bounded preview while original run.json records partial_day_indices=[26]; this is a state-reconciliation item for closeout."
+    },
+    {
+      "id": "R3",
+      "requirement": "Day25 formal state and named receipt gap are audited",
+      "status": "proved",
+      "evidence": [
+        "../20261027-DAY25-chirality-counterevidence-shape-coexistence-run-01/run.json",
+        "resume-state-001.json:day25",
+        "system/handoff.md:113"
+      ],
+      "finding": "Day25 run.json is completed, counted_in_substantive_test=true, completed_day_indices=[25], partial_day_indices=[26], next_day_index=26. The named files card-credit-25.json, final-session-receipt-25.json and task-publication-receipt-25.json are absent; no replacement receipt is fabricated.",
+      "boundary": "The missing files prove a receipt gap only; they do not revoke the recorded Day25 credit or prove a failed push. Existing checkpoint-publication files and origin reachability remain separate evidence."
+    },
+    {
+      "id": "R4",
+      "requirement": "Resume and continuation artifacts are reproducible",
+      "status": "proved",
+      "evidence": [
+        "run.json:resume_command",
+        "resume-state-001.json",
+        "next-continuation-043.md"
+      ],
+      "finding": "codex resume 01a1819f-75bb-7a11-be19-05761880f65c -C /workspace/wiki -s danger-full-access -a never",
+      "boundary": "The command identifies the original session; it does not by itself certify a completed closeout."
+    },
+    {
+      "id": "R5",
+      "requirement": "Day27 preparation is bounded and Day28 remains unopened",
+      "status": "proved",
+      "evidence": [
+        "day27-preparation-043.md",
+        "next-continuation-043.md",
+        "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation.md:24"
+      ],
+      "finding": "Day27 preview is explicitly no-credit, next_day_index remains 26 and Day28 is unopened.",
+      "boundary": "The report/clock preview state must be reconciled with original run.json during closeout before advancing curriculum."
+    },
+    {
+      "id": "R6",
+      "requirement": "Latest Git remote and checkpoint publication pointer are known",
+      "status": "proved",
+      "evidence": [
+        "git remote -v (observed 2026-10-29 00:03 +08)",
+        "checkpoint-publication-001.json",
+        "git ls-remote origin refs/heads/main"
+      ],
+      "finding": "origin is the Gitee repository; local HEAD de17c766fe6dd02c9d599fbff59a03288cb3308e and origin/main resolve to the same commit. The latest subject is docs(day26): add live continuation and Day27 preview.",
+      "boundary": "The worktree contains inherited untracked artifacts and runner-tracked script modifications; this audit does not stage, clean or publish them."
+    },
+    {
+      "id": "R7",
+      "requirement": "Farmer supervision is present",
+      "status": "proved",
+      "evidence": [
+        "/proc/3193/cmdline",
+        "ps observation 2026-10-29 00:03 +08",
+        "resume-state-001.json:farmer"
+      ],
+      "finding": "PID 3193 is alive with command wiki_farmer.py watch --root /workspace/wiki --codex-home /root/.codex --poll 2.0; resume snapshot records current_session_state=running and pending=false.",
+      "boundary": "pending=false is from the 2026-10-28 16:48 snapshot; a fresh farmer event/recovery decision belongs to closeout."
+    },
+    {
+      "id": "R8",
+      "requirement": "Boundary, lint and diff evidence exist for the current checkpoint",
+      "status": "weak_evidence",
+      "evidence": [
+        "check-boundary-001.stdout",
+        "check-boundary-001.stderr",
+        "check-lint-001-recheck.stdout",
+        "check-lint-001-recheck.stderr",
+        "check-diff-001.stdout",
+        "check-diff-001.stderr",
+        "required-checks-001.json"
+      ],
+      "finding": "Checkpoint evidence: boundary exit_code=0/ok=true; corrected lint exit_code=0 with errors=0, warnings=267, pages=753; diff check exit_code=0 with empty stdout.",
+      "boundary": "These checks were recorded on 2026-10-28 17:05–17:12, before the original 15:00–16:00 closeout and before any later runtime-only artifacts. Do not call them final closeout evidence; obtain fresh closeout checks after the hard deadline."
+    },
+    {
+      "id": "R9",
+      "requirement": "Formal Day26 card credit and closeout receipt",
+      "status": "pending",
+      "evidence": [
+        "run.json",
+        "required-checks-001.json",
+        "day26-requirement-audit-043.json",
+        "next-continuation-043.md"
+      ],
+      "finding": "No formal Day26 credit is recorded: status=running, counted_in_substantive_test=false, completed_day_indices=[], curriculum_cards_completed=0, and no final-session/card-credit/task-publication receipt exists.",
+      "boundary": "Must remain pending until the original 15:00 deadline is observed and the 15:00–16:00 closeout path produces fresh receipts and reconciliation."
+    }
+  ],
+  "closeout_actions_15_00_16_00": [
+    "At or after 15:00 Asia/Shanghai, read the live clock and preserve the original run/session/deadline; do not start a new session or alter the deadline.",
+    "Run the original runner closeout path and record its raw receipt/session identity; do not infer completion from checkpoint files.",
+    "Reconcile run.json, the daily report, system/handoff.md, partial_day_indices and next_day_index. Resolve the [26] versus [26,27] preview representation without granting Day27 credit.",
+    "Re-run the required closeout checks (lint, boundary, diff, runner/report/writeback and protected-file checks) and record fresh outputs. Existing checkpoint checks remain historical evidence.",
+    "Audit the three Day25 missing named receipts without fabricating replacements; preserve Day25 credit only if the original runner state still proves it.",
+    "Prepare the formal Day27 handoff/prompt only after Day26 closeout, keeping Day28 unopened.",
+    "Perform exact-scope H3 publication/reconciliation if and only if all closeout gates pass; otherwise leave a truthful pending/stopped receipt."
+  ],
+  "scientific_and_access_boundaries": [
+    "Egido–Robledo 1990 body remains unavailable; metadata/failure responses are not primary evidence.",
+    "Roy LINESHAPE raw counts, feeding covariance and normalization inputs remain unavailable.",
+    "Garg 2019 erratum corrects polarization values but does not provide an absolute B(M1) or lifetime.",
+    "Checkpoint scientific claims remain self-audited/needs_review; lint success does not certify scientific conclusions."
+  ],
+  "write_scope": {
+    "allowed_files": [
+      "closeout-readiness-048.md",
+      "closeout-readiness-048.json"
+    ],
+    "lint_run": false,
+    "boundary_run": false,
+    "commit": false,
+    "push": false
+  }
+}

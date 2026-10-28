@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "artifact_id": "ba-e1-e3-model-boundary-046",
+  "title": "Read-only audit of 144Ba/146Ba E1-E3 evidence and SCCM model boundaries",
+  "status": "read-only-audit",
+  "source_scope": [
+    "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+    "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+    "knowledge/sources/bernard-2016-144ba-sccm-octupole.md"
+  ],
+  "claims": [
+    {
+      "id": "BU16-BU17-E3-direction-001",
+      "claim": "The quoted reduced E3 matrix element is conventionally reported for 0+ -> 3-, while the quoted downward B(E3) is for 3- -> 0+.",
+      "evidence": "BU16 reports M(E3)=0.65(+0.17/-0.23) eb^(3/2) and B(E3;3- -> 0+)=48(+25/-34) W.u.; BU17 reports the analogous 146Ba values.",
+      "locator": "BU16-D26-001; BU17-D26-005; BU16 PDF p.4 Table I; BU17 PDF pp.2-3 Table I",
+      "boundary": "By the angular-momentum definition, B(E3;0+ -> 3-) = 7 * B(E3;3- -> 0+) for the same reduced matrix element. The factor 7 is a direction convention, not a sevenfold experimental discrepancy.",
+      "needs_review": true
+    },
+    {
+      "id": "BU17-E1-units-002",
+      "claim": "The 146Ba experimental E1 amplitude 0.000223(+10/-8) and SCCM amplitude 0.00474 are quoted in the same reduced-matrix-element unit eb^(1/2).",
+      "evidence": "The source audit records the printed Table I amplitude and the SCCM value; their central-value amplitude ratio is about 21.26 and the squared-strength ratio is about 451.8.",
+      "locator": "BU17-D26-001; BU17 PDF p.3 Table I and following paragraph",
+      "boundary": "This arithmetic is a unit-consistent comparison of printed central values. It is not an exact model-data validation: the E1 experimental constraint is mainly inherited from prior lifetime/branching data and the complete correlated likelihood is unavailable.",
+      "needs_review": true
+    },
+    {
+      "id": "SCCM-F-kernel-003",
+      "claim": "A collective-amplitude F(q) plot is not the transition kernel and cannot by itself predict an absolute E1 or E3 strength.",
+      "evidence": "Bernard defines F=N^(1/2)f and writes observables as a double coordinate sum f* O(q,q') f; BU17 also uses projected intrinsic-state amplitudes and orbital occupancies.",
+      "locator": "BE16-D26-005; BU17-D26-004; Bernard PDF p.2 Eqs.4-5",
+      "boundary": "Similar F(q) densities can coexist with very different odd-parity operator kernels. Signed E1 cancellation requires the projected E1 kernel and coherent HWG amplitudes, not only F(q), v2, or a mean-field minimum.",
+      "needs_review": true
+    },
+    {
+      "id": "model-vs-experiment-004",
+      "claim": "SCCM values are model calculations and must not be presented as measured observables.",
+      "evidence": "BU17 directly measures E3 through Coulomb excitation and separately compares with SCCM; Bernard calculates projected-GCM E3 strength (0.460 eb^(3/2), downward B(E3)=25 W.u.).",
+      "locator": "EXT146-1/3; BE16-D26-007; BU16-1",
+      "boundary": "Measured B(E3), E1 amplitudes and upper limits belong to the experimental evidence tier. SCCM/Gogny-D1S, rigid-rotor conversions, beta3 values, orbital v2 and calculated D0 signs belong to model or derived tiers.",
+      "needs_review": true
+    }
+  ],
+  "unresolved_questions": [
+    "The full GOSIA covariance or joint likelihood for the 146Ba E1/E3 fit is unavailable.",
+    "Production SCCM transition kernels and code are unavailable; F-plot similarity cannot be independently converted into an E1 kernel audit.",
+    "The relative E1/E3 sign is model or fit dependent and is not an experimentally measured absolute phase.",
+    "The available E3 intervals cannot statistically distinguish a rigid static pear shape from dynamic octupole softness without additional observables such as parity-displacement systematics."
+  ],
+  "changed_paths": [
+    "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/ba-e1-e3-model-boundary-046.json",
+    "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/ba-e1-e3-model-boundary-046.md",
+    "knowledge/research-notes/ba-e1-e3-model-boundary-046.md"
+  ],
+  "audit_mode": "read-only; no commit/push; no full-repository lint"
+}

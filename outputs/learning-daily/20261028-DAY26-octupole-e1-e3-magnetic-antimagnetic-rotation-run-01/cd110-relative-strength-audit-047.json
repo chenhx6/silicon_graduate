@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "audit_id": "cd110-relative-strength-audit-047",
+  "status": "completed-read-only-audit",
+  "scope": "110Cd HI,XNG relative gamma intensities (ENSDF) cross-checked against Roy et al. 2011 Table 1; no shared pages modified, no absolute B inferred from RI.",
+  "source_fingerprints": {
+    "hi_xng_ensdf": {
+      "path": "raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-hi-xng.ensdf",
+      "sha256": "cd14b1104805f54023a420e6021b74fddaa149a7f7f5cd404be23a9c696b47d1",
+      "line_count": 575,
+      "dataset_header": "110CD (HI,XNG), evaluation 201206"
+    },
+    "adopted_ensdf": {
+      "path": "raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-adopted.ensdf",
+      "sha256": "04975bce4e22e754b2cc556f7616a3ae9174e6a47b9f506974cc9a9b2c45ba66",
+      "line_count": 2616,
+      "dataset_header": "110CD adopted levels/gammas"
+    },
+    "roy_2011_pdf": {
+      "path": "raw/papers/gpt/day26-20261028/roy-2011-cd110-systematics-plb.pdf",
+      "sha256": "2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a",
+      "pages": 5,
+      "locator": "PDF p.3 Table 1; p.2-5 discussion"
+    }
+  },
+  "hi_xng_relative_intensities": {
+    "normalization": "source RI values as printed in 1994Ju04 HI,XNG evaluation; relative intensities only; no absolute photon efficiency/branch normalization supplied here",
+    "anchor_16plus_to_14plus": {
+      "initial_spin": "16+",
+      "final_spin": "14+",
+      "e_gamma_keV": 1074.6,
+      "ri": 20.0,
+      "ri_unc": 0.2,
+      "multipolarity": "E2",
+      "source_locator": "110cd-hi-xng.ensdf:357-358"
+    },
+    "yrast_B_band_18_to_24": [
+      {
+        "initial_spin": "18+",
+        "final_spin": "16+",
+        "e_gamma_keV": 1224.5,
+        "ri": 11.2,
+        "ri_unc": 0.2,
+        "multipolarity": "E2",
+        "source_locator": "110cd-hi-xng.ensdf:443-445",
+        "ri_over_1314": 4.148148148148148,
+        "ri_over_1314_unc": 0.17056001143889768
+      },
+      {
+        "initial_spin": "20+",
+        "final_spin": "18+",
+        "e_gamma_keV": 1323.0,
+        "ri": 5.1,
+        "ri_unc": 0.2,
+        "multipolarity": "E2",
+        "source_locator": "110cd-hi-xng.ensdf:516-517",
+        "ri_over_1314": 1.8888888888888886,
+        "ri_over_1314_unc": 0.10188821730979379
+      },
+      {
+        "initial_spin": "22+",
+        "final_spin": "20+",
+        "e_gamma_keV": 1314.1,
+        "ri": 2.7,
+        "ri_unc": 0.1,
+        "multipolarity": "E2",
+        "source_locator": "110cd-hi-xng.ensdf:537-538",
+        "ri_over_1314": 1.0,
+        "ri_over_1314_unc": 0.05237828008789241
+      },
+      {
+        "initial_spin": "24+",
+        "final_spin": "22+",
+        "e_gamma_keV": 1358.0,
+        "ri": 2.5,
+        "ri_unc": 0.1,
+        "multipolarity": "E2",
+        "source_locator": "110cd-hi-xng.ensdf:558-559",
+        "ri_over_1314": 0.9259259259259258,
+        "ri_over_1314_unc": 0.05047563646906474
+      }
+    ],
+    "contested_22plus_1100": {
+      "initial_spin": "22+",
+      "final_spin": "?",
+      "e_gamma_keV": 1100.0,
+      "ri": 1.0,
+      "ri_unc": 0.3,
+      "multipolarity": null,
+      "source_locator": "110cd-hi-xng.ensdf:534-538",
+      "energy_match": "9962.4-1100.0=8862.4 keV, near evaluated 20+ level 8861.6 keV in band N; not the yrast 20+ at 8648.3 keV"
+    }
+  },
+  "roy_table1_absolute_lifetime_strengths": {
+    "interpretation": "Roy Table 1 converts fitted level lifetimes to B(E2) for the listed in-band E2 transitions; these are absolute transition strengths with stated fit/stopping-power limitations, independent of HI RI normalization.",
+    "rows": [
+      {
+        "transition": "16+ -> 14+",
+        "e_gamma_keV": 1075,
+        "tau_ps": 0.36,
+        "tau_unc_ps": 0.03,
+        "B_E2_eb2": 0.14,
+        "B_E2_unc_eb2": 0.01,
+        "locator": "Roy2011 PDF p.3 Table 1"
+      },
+      {
+        "transition": "18+ -> 16+",
+        "e_gamma_keV": 1224,
+        "tau_ps": 0.23,
+        "tau_unc_ps": 0.03,
+        "B_E2_eb2": 0.12,
+        "B_E2_unc_eb2": 0.02,
+        "locator": "Roy2011 PDF p.3 Table 1"
+      },
+      {
+        "transition": "20+ -> 18+",
+        "e_gamma_keV": 1323,
+        "tau_ps": 0.17,
+        "tau_unc_ps": 0.03,
+        "B_E2_eb2": 0.11,
+        "B_E2_unc_eb2": 0.02,
+        "locator": "Roy2011 PDF p.3 Table 1"
+      },
+      {
+        "transition": "22+ -> 20+",
+        "e_gamma_keV": 1314,
+        "tau_ps": 0.21,
+        "tau_unc_ps": 0.07,
+        "B_E2_eb2": 0.09,
+        "B_E2_unc_eb2": 0.03,
+        "locator": "Roy2011 PDF p.3 Table 1"
+      },
+      {
+        "transition": "24+ -> 22+",
+        "e_gamma_keV": 1358,
+        "tau_ps": 0.27,
+        "tau_unc_ps": 0.07,
+        "B_E2_eb2": 0.06,
+        "B_E2_unc_eb2": 0.02,
+        "locator": "Roy2011 PDF p.3 Table 1"
+      }
+    ],
+    "model_context": "Roy p.2-5: 110Cd AMR+core-rotation treatment; 22+ lineshape/lifetime handling discussed around p.2-3 and Table 1."
+  },
+  "evaluation_field_audit": {
+    "hi_xng_literal_B_fields_present": false,
+    "hi_xng_B_fields_found": [],
+    "adopted_literal_B_fields_present": true,
+    "adopted_B_fields_found": [
+      "BE2W=",
+      "BM1W="
+    ],
+    "relevant_yrast_records": [
+      {
+        "transition": "18+ -> 16+",
+        "e_gamma_keV": 1224.5,
+        "ri_eval": 100,
+        "multipolarity": "E2",
+        "B_field": "BE2W=41 6",
+        "locator": "110cd-adopted.ensdf:2308-2317"
+      },
+      {
+        "transition": "20+ -> 18+",
+        "e_gamma_keV": 1323.0,
+        "ri_eval": 100,
+        "multipolarity": "E2",
+        "B_field": "BE2W=38 7",
+        "locator": "110cd-adopted.ensdf:2440-2448"
+      },
+      {
+        "transition": "22+ -> 20+ (candidate 1100)",
+        "e_gamma_keV": 1100.0,
+        "ri_eval": 37,
+        "multipolarity": "[E2]",
+        "B_field": "BE2W=20 10",
+        "locator": "110cd-adopted.ensdf:2485-2499",
+        "status": "tentative/evaluator field; 2011Ro01 did not confirm 1100 in gated spectra"
+      },
+      {
+        "transition": "22+ -> 20+ (yrast)",
+        "e_gamma_keV": 1314.1,
+        "ri_eval": 100,
+        "multipolarity": "E2",
+        "B_field": "BE2W=22 8",
+        "locator": "110cd-adopted.ensdf:2485-2504"
+      },
+      {
+        "transition": "24+ -> 22+",
+        "e_gamma_keV": 1358.0,
+        "ri_eval": 100,
+        "multipolarity": "E2",
+        "B_field": "BE2W=21 6",
+        "locator": "110cd-adopted.ensdf:2538-2546"
+      }
+    ],
+    "bm1_over_be2_field_present": false,
+    "finding": "Neither HI,XNG nor the adopted evaluation exposes a literal structured B(M1)/B(E2) ratio field for the 18+-24+ yrast E2 sequence. The adopted file has line-level BE2W fields (and BM1W fields for other bands/transitions), while HI,XNG contains only RI/multipolarity/lifetime metadata. Relative RI must not be promoted to absolute B(E2) or B(M1)/B(E2)."
+  },
+  "claims_and_boundaries": [
+    {
+      "claim": "The HI,XNG yrast E2 RI sequence is 11.2(2), 5.1(2), 2.7(1), 2.5(1) for 18+,20+,22+,24+ decays.",
+      "evidence_level": "direct-evaluated-relative",
+      "locator": "HI lines 443,516,537,558",
+      "needs_review": false
+    },
+    {
+      "claim": "The 1100-keV line from the 22+ level is RI=1.0(3) in HI,XNG, but has no multipolarity/final level in that file.",
+      "evidence_level": "direct-evaluated-relative",
+      "locator": "HI lines 534-538",
+      "needs_review": false
+    },
+    {
+      "claim": "The adopted evaluation lists 1100 as 37 relative units and [E2], but explicitly records that 2011Ro01 did not confirm it in gamma-gamma gated spectra and used T1/2=0.15(5) ps; inclusion gave 0.11(4) ps.",
+      "evidence_level": "direct-evaluation-note",
+      "locator": "adopted lines 2485-2499",
+      "needs_review": true
+    },
+    {
+      "claim": "Roy Table 1 reports B(E2)=0.12(2),0.11(2),0.09(3),0.06(2) (e b)^2 for 18+ through 24+ transitions, with tau=0.23(3),0.17(3),0.21(7),0.27(7) ps.",
+      "evidence_level": "direct-primary-table",
+      "locator": "Roy PDF p.3 Table 1",
+      "needs_review": false
+    },
+    {
+      "claim": "No absolute B value is reconstructed from the HI RI ratios in this audit.",
+      "evidence_level": "method-boundary",
+      "locator": "audit method",
+      "needs_review": false
+    }
+  ],
+  "reproducibility": {
+    "commands": [
+      "rg -n \"1074.6|1224.5|1323.0|1314.1|1358.0|1100\" raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-hi-xng.ensdf",
+      "rg -n \"2485|2492|2496|2500|2542\" raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-adopted.ensdf",
+      "pypdf text extraction of Roy PDF p.3 Table 1"
+    ],
+    "read_only": true
+  }
+}
