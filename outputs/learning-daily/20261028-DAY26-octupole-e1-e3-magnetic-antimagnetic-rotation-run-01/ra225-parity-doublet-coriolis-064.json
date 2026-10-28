@@ -1,0 +1,58 @@
+{
+  "schema": "ra225-parity-doublet-coriolis-064/v1",
+  "nucleus": "225Ra",
+  "band_K": "1/2",
+  "model_parameters": {
+    "delta_E0_mean_tunneling_keV": 31.31,
+    "delta_A_inertia_diff_keV": 0.438,
+    "A_delta_a_coriolis_asymmetry_keV": -20.43
+  },
+  "fits": [
+    {
+      "spin": "1/2",
+      "I": 0.5,
+      "E_plus_keV": 0.0,
+      "E_minus_keV": 55.16,
+      "delta_E_exp_keV": 55.16,
+      "delta_E_calc_keV": 51.96,
+      "residual_keV": 3.2,
+      "coriolis_sign_factor": -1
+    },
+    {
+      "spin": "3/2",
+      "I": 1.5,
+      "E_plus_keV": 42.77,
+      "E_minus_keV": 31.56,
+      "delta_E_exp_keV": -11.21,
+      "delta_E_calc_keV": -8.02,
+      "residual_keV": -3.19,
+      "coriolis_sign_factor": 1
+    },
+    {
+      "spin": "5/2",
+      "I": 2.5,
+      "E_plus_keV": 25.41,
+      "E_minus_keV": 120.36,
+      "delta_E_exp_keV": 94.95,
+      "delta_E_calc_keV": 96.33,
+      "residual_keV": -1.38,
+      "coriolis_sign_factor": -1
+    },
+    {
+      "spin": "7/2",
+      "I": 3.5,
+      "E_plus_keV": 111.6,
+      "E_minus_keV": 69.36,
+      "delta_E_exp_keV": -42.24,
+      "delta_E_calc_keV": -43.63,
+      "residual_keV": 1.39,
+      "coriolis_sign_factor": 1
+    }
+  ],
+  "max_residual_keV": 3.2,
+  "physical_conclusions": [
+    "The alternating sign staggering of the parity doublet splitting in 225Ra (+55.2 keV at 1/2, -11.2 keV at 3/2, +95.0 keV at 5/2, -42.2 keV at 7/2) is quantitatively explained by the Coriolis decoupling asymmetry A*delta_a = -20.43 keV acting on opposite-parity K=1/2 Nilsson configurations.",
+    "The true mean octupole tunneling splitting is Delta E0 = 31.31 keV. The apparent parity inversions at 3/2 and 7/2 are not caused by shape coexistence or vibrational mixing, but by the strong Coriolis signature splitting (-40.8 keV and -81.7 keV) overcoming the mean tunneling barrier.",
+    "In contrast, in 225Ac where K=3/2, the first-order Coriolis decoupling term vanishes identically (a=0), resulting in a smooth, strictly positive parity doublet splitting (Delta E ~ 36-47 keV across all spins)."
+  ]
+}

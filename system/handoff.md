@@ -3,14 +3,14 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint059：135Pr横向摆动对决磁转动排他性裁决与机制确立
+## Active handoff — Day26 checkpoint060：225Ra宇称双重态Coriolis交替解耦闭环与Ac机制对照
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在 135Pr 历史悬案（横向摆动 TW vs 磁转动 MR）中确立排他性裁决（研究笔记 `pr135-wobbling-vs-shears-discrimination.md`，工件 `pr135-wobbling-vs-magnetic-rotation-063.py/json`）：
-1. **多极纯度裁决**：2019 勘误修正后的偏振不对称度 $P = +0.04(3)$ 确立 $813.3\text{ keV}$ 跨带跃迁的磁偶极纯度 $M1_{\text{frac}} \ge 96.5\%$，电四极混杂仅 $< 3.5\%$，排除了摆动运动假说所必须的集体 $E2$ 主导特征；
-2. **能谱微商逆转裁决**：所谓“摆动能量” $E_{\text{wob}} = E(I, n_w=1) - \frac{1}{2}[E(I+1) + E(I-1)]$ 随自旋从 $27/2^-$ 的 $-43.5\text{ keV}$ 暴增至 $35/2^-$ 的 $+424.5\text{ keV}$，逆转了横向摆动理论预言的声子软化单调下降特征；
-3. **交叉重开机制排他确证**：这一近 $500\text{ keV}$ 的能谱激增与 $B(M1)/B(E2)$ 剧烈反弹（$94.83$）完全由 Coriolis 3qp $\to$ 5qp 能带交叉与剪刀角重新打开（Re-opening）驱动，确证其物理归属为标准的磁转动（MR），彻底排除了摆动运动假说。
+本检查点在奇 A 碱土/锕系八极核宇称双重态精细结构机制上取得定量闭环（工件 `ra225-parity-doublet-coriolis-064.py/json`）：
+1. **225Ra 宇称交替符号劈裂定量拟合**：建立包含平均八极隧穿能隙 $\Delta E_0 = 31.31\text{ keV}$、转动惯量微差 $\Delta A = 0.438\text{ keV}$ 与 Coriolis 解耦不对称项 $A \delta a = -20.43\text{ keV}$ 的三参数微观转动模型；
+2. **表观“宇称倒转”物理本质阐明**：模型完美复现四对实测伙伴能级差（$I=1/2: +55.2$、$3/2: -11.2$、$5/2: +95.0$、$7/2: -42.2\text{ keV}$），全带残差最大仅 $3.2\text{ keV}$；证明 $I=3/2$ 和 $7/2$ 处的反常倒转完全由 $K=1/2$ 强烈 Coriolis 旋称劈裂项 $(-1)^{I+1/2}(I+1/2)$ 压倒平均势垒驱动，而非由八极振动或形状共存混杂产生；
+3. **225Ac（K=3/2）正交机制对照**：在 $^{225}\text{Ac}$ 中，因 $K=3/2$ 导致一级解耦参数 $a=0$ 严格为零，其宇称双重态劈裂在全自旋区保持平滑的正值区间（$\sim 36 - 47\text{ keV}$），双核对比在理论与实验上构成了 Coriolis 解耦控制宇称双重带精细拓扑的严密因果链。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 

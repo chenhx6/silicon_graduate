@@ -4606,3 +4606,4 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-29T02:30:00+08:00 Day26 checkpoint057：构建跨越三大质量区（A~195 Pb、A~135 Pr、A~105-110 Cd/Pd）的八核基准数据库（工件061），系统闭环十项观测量矩阵；确立铅区单调剪刀闭合对决稀土区交叉重开反弹，以及镉-钯区R_y(pi)*T离散对称性与巨判据比（100–1200）的排他性判据。
 - 2026-10-29T02:50:00+08:00 Day26 checkpoint058：计算110Cd AMR静态纵向磁矩与有效g因子演化（mu_z: +1.81 -> +8.64 mu_N，工件062），严格澄清横向偶极相消（mu_perp == 0）对决非零静态纵向磁矩的物理图景。
 - 2026-10-29T03:10:00+08:00 Day26 checkpoint059：建立135Pr横向摆动对决磁转动排他性裁决矩阵（pr135-wobbling-vs-shears-discrimination.md，工件063），从M1纯度（>=96.5%）、E_wob能谱反转（-43.5 -> +424.5 keV）与3qp-5qp剪刀角重开全面证伪摆动假说，确立MR物理属性。
+- 2026-10-29T03:30:00+08:00 Day26 checkpoint060：拟合225Ra宇称双重态Coriolis交替解耦机制（Delta_E0=31.31 keV, A*delta_a=-20.43 keV，工件064），证明3/2和7/2宇称倒转源于K=1/2旋称劈裂，并以225Ac（K=3/2, a=0）平滑正劈裂形成严密对照。
