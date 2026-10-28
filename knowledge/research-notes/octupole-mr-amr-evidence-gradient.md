@@ -168,6 +168,7 @@ Ba保留软八极相关、较局域的内禀反射不对称、随spin变化的�
 - [[bucher-2016-144ba-direct-octupole]]
 - [[bucher-2017-146ba-direct-octupole]]
 - [[bernard-2016-144ba-sccm-octupole]]
+- [[nomura-2018-odd-ba-octupole]]
 - [[garg-2015-135pr-magnetic-rotation]]
 - [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]
 - [[roy-2011-cd110-systematics-antimagnetic]]

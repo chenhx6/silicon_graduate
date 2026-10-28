@@ -15,6 +15,7 @@ updated: 2026-10-28
 - [[roy-2011-cd110-systematics-antimagnetic]] — 110Cd 高自旋反磁转动第一手 DSAM 寿命、B(E2) 与核心转动耦合系统学原件。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
+- [[nomura-2018-odd-ba-octupole]] — 奇质量钡（143,145,147Ba）微观约束 sdf-IBFM 与奇中子阻塞机制原件。
 
 ## Day22几何、声子与观测合同
 

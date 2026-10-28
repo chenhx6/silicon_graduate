@@ -1,0 +1,733 @@
+{
+  "title": "Bifurcation from Planar Shears MR to 3D Chiral Rotation",
+  "parameters": {
+    "j_pi": 5.5,
+    "j_nu": 5.5,
+    "J0": 30.0,
+    "V_pn": 1.5,
+    "gamma_scans": [
+      -30.0,
+      -20.0,
+      -10.0,
+      0.0
+    ]
+  },
+  "omega_evolution": [
+    {
+      "gamma_deg": -30.0,
+      "moments_of_inertia": {
+        "Js": 10.000000000000014,
+        "Jm": 40.0,
+        "Jl": 9.999999999999998
+      },
+      "points": [
+        {
+          "omega_MeV": 0.1,
+          "theta_deg": 74.33,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -0.6734,
+          "angular_momentum": {
+            "Is": 6.463,
+            "Im": 0.0,
+            "Il": 5.77,
+            "Itot": 8.664
+          }
+        },
+        {
+          "omega_MeV": 0.15,
+          "theta_deg": 69.76,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -1.0822,
+          "angular_momentum": {
+            "Is": 6.907,
+            "Im": 0.0,
+            "Il": 6.019,
+            "Itot": 9.162
+          }
+        },
+        {
+          "omega_MeV": 0.2,
+          "theta_deg": 66.1,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -1.5282,
+          "angular_momentum": {
+            "Is": 7.328,
+            "Im": 0.0,
+            "Il": 6.31,
+            "Itot": 9.671
+          }
+        },
+        {
+          "omega_MeV": 0.25,
+          "theta_deg": 66.1,
+          "phi_deg": 37.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -2.0342,
+          "angular_momentum": {
+            "Is": 7.325,
+            "Im": 5.502,
+            "Il": 6.513,
+            "Itot": 11.241
+          }
+        },
+        {
+          "omega_MeV": 0.3,
+          "theta_deg": 67.01,
+          "phi_deg": 48.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -2.6282,
+          "angular_momentum": {
+            "Is": 7.348,
+            "Im": 8.21,
+            "Il": 6.672,
+            "Itot": 12.88
+          }
+        },
+        {
+          "omega_MeV": 0.35,
+          "theta_deg": 67.93,
+          "phi_deg": 56.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -3.3121,
+          "angular_momentum": {
+            "Is": 7.314,
+            "Im": 10.756,
+            "Il": 6.815,
+            "Itot": 14.684
+          }
+        },
+        {
+          "omega_MeV": 0.4,
+          "theta_deg": 69.76,
+          "phi_deg": 61.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -4.0882,
+          "angular_momentum": {
+            "Is": 7.319,
+            "Im": 13.13,
+            "Il": 6.884,
+            "Itot": 16.533
+          }
+        },
+        {
+          "omega_MeV": 0.45,
+          "theta_deg": 70.67,
+          "phi_deg": 64.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -4.9583,
+          "angular_momentum": {
+            "Is": 7.361,
+            "Im": 15.266,
+            "Il": 6.989,
+            "Itot": 18.333
+          }
+        },
+        {
+          "omega_MeV": 0.5,
+          "theta_deg": 72.5,
+          "phi_deg": 67.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -5.9241,
+          "angular_momentum": {
+            "Is": 7.363,
+            "Im": 17.558,
+            "Il": 7.003,
+            "Itot": 20.287
+          }
+        },
+        {
+          "omega_MeV": 0.55,
+          "theta_deg": 73.42,
+          "phi_deg": 70.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -6.9867,
+          "angular_momentum": {
+            "Is": 7.303,
+            "Im": 19.813,
+            "Il": 7.07,
+            "Itot": 22.268
+          }
+        },
+        {
+          "omega_MeV": 0.6,
+          "theta_deg": 74.33,
+          "phi_deg": 71.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -8.1465,
+          "angular_momentum": {
+            "Is": 7.381,
+            "Im": 21.849,
+            "Il": 7.121,
+            "Itot": 24.136
+          }
+        },
+        {
+          "omega_MeV": 0.65,
+          "theta_deg": 75.24,
+          "phi_deg": 73.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -9.4049,
+          "angular_momentum": {
+            "Is": 7.338,
+            "Im": 24.044,
+            "Il": 7.156,
+            "Itot": 26.137
+          }
+        },
+        {
+          "omega_MeV": 0.7,
+          "theta_deg": 76.16,
+          "phi_deg": 74.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -10.7614,
+          "angular_momentum": {
+            "Is": 7.373,
+            "Im": 26.134,
+            "Il": 7.175,
+            "Itot": 28.086
+          }
+        }
+      ]
+    },
+    {
+      "gamma_deg": -20.0,
+      "moments_of_inertia": {
+        "Js": 16.527036446661402,
+        "Jm": 38.793852415718156,
+        "Jl": 4.679111137620438
+      },
+      "points": [
+        {
+          "omega_MeV": 0.1,
+          "theta_deg": 75.24,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -0.7021,
+          "angular_momentum": {
+            "Is": 7.098,
+            "Im": 0.0,
+            "Il": 5.619,
+            "Itot": 9.053
+          }
+        },
+        {
+          "omega_MeV": 0.15,
+          "theta_deg": 71.59,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -1.1412,
+          "angular_momentum": {
+            "Is": 7.852,
+            "Im": 0.0,
+            "Il": 5.722,
+            "Itot": 9.716
+          }
+        },
+        {
+          "omega_MeV": 0.2,
+          "theta_deg": 69.76,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -1.625,
+          "angular_momentum": {
+            "Is": 8.601,
+            "Im": 0.0,
+            "Il": 5.824,
+            "Itot": 10.387
+          }
+        },
+        {
+          "omega_MeV": 0.25,
+          "theta_deg": 67.93,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -2.1492,
+          "angular_momentum": {
+            "Is": 9.329,
+            "Im": 0.0,
+            "Il": 5.94,
+            "Itot": 11.059
+          }
+        },
+        {
+          "omega_MeV": 0.3,
+          "theta_deg": 68.84,
+          "phi_deg": 28.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -2.7228,
+          "angular_momentum": {
+            "Is": 9.583,
+            "Im": 5.095,
+            "Il": 6.007,
+            "Itot": 12.404
+          }
+        },
+        {
+          "omega_MeV": 0.35,
+          "theta_deg": 69.76,
+          "phi_deg": 41.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -3.3815,
+          "angular_momentum": {
+            "Is": 9.596,
+            "Im": 8.358,
+            "Il": 6.067,
+            "Itot": 14.097
+          }
+        },
+        {
+          "omega_MeV": 0.4,
+          "theta_deg": 71.59,
+          "phi_deg": 49.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -4.1305,
+          "angular_momentum": {
+            "Is": 9.615,
+            "Im": 11.112,
+            "Il": 6.091,
+            "Itot": 15.907
+          }
+        },
+        {
+          "omega_MeV": 0.45,
+          "theta_deg": 72.5,
+          "phi_deg": 55.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -4.9712,
+          "angular_momentum": {
+            "Is": 9.568,
+            "Im": 13.638,
+            "Il": 6.133,
+            "Itot": 17.753
+          }
+        },
+        {
+          "omega_MeV": 0.5,
+          "theta_deg": 74.33,
+          "phi_deg": 59.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -5.9054,
+          "angular_momentum": {
+            "Is": 9.598,
+            "Im": 16.008,
+            "Il": 6.132,
+            "Itot": 19.647
+          }
+        },
+        {
+          "omega_MeV": 0.55,
+          "theta_deg": 75.24,
+          "phi_deg": 62.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -6.9338,
+          "angular_momentum": {
+            "Is": 9.627,
+            "Im": 18.218,
+            "Il": 6.155,
+            "Itot": 21.505
+          }
+        },
+        {
+          "omega_MeV": 0.6,
+          "theta_deg": 76.16,
+          "phi_deg": 65.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -8.0572,
+          "angular_momentum": {
+            "Is": 9.569,
+            "Im": 20.483,
+            "Il": 6.172,
+            "Itot": 23.435
+          }
+        },
+        {
+          "omega_MeV": 0.65,
+          "theta_deg": 77.07,
+          "phi_deg": 67.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -9.276,
+          "angular_momentum": {
+            "Is": 9.591,
+            "Im": 22.623,
+            "Il": 6.18,
+            "Itot": 25.338
+          }
+        },
+        {
+          "omega_MeV": 0.7,
+          "theta_deg": 77.99,
+          "phi_deg": 69.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -10.5905,
+          "angular_momentum": {
+            "Is": 9.555,
+            "Im": 24.797,
+            "Il": 6.182,
+            "Itot": 27.284
+          }
+        }
+      ]
+    },
+    {
+      "gamma_deg": -10.0,
+      "moments_of_inertia": {
+        "Js": 23.47296355333863,
+        "Jm": 35.32088886237955,
+        "Jl": 1.206147584281832
+      },
+      "points": [
+        {
+          "omega_MeV": 0.1,
+          "theta_deg": 76.16,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -0.7337,
+          "angular_momentum": {
+            "Is": 7.779,
+            "Im": 0.0,
+            "Il": 5.529,
+            "Itot": 9.544
+          }
+        },
+        {
+          "omega_MeV": 0.15,
+          "theta_deg": 73.42,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -1.2087,
+          "angular_momentum": {
+            "Is": 8.874,
+            "Im": 0.0,
+            "Il": 5.552,
+            "Itot": 10.468
+          }
+        },
+        {
+          "omega_MeV": 0.2,
+          "theta_deg": 71.59,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -1.7413,
+          "angular_momentum": {
+            "Is": 9.954,
+            "Im": 0.0,
+            "Il": 5.576,
+            "Itot": 11.41
+          }
+        },
+        {
+          "omega_MeV": 0.25,
+          "theta_deg": 71.59,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -2.3282,
+          "angular_momentum": {
+            "Is": 11.068,
+            "Im": 0.0,
+            "Il": 5.595,
+            "Itot": 12.402
+          }
+        },
+        {
+          "omega_MeV": 0.3,
+          "theta_deg": 71.59,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -2.9682,
+          "angular_momentum": {
+            "Is": 12.181,
+            "Im": 0.0,
+            "Il": 5.614,
+            "Itot": 13.413
+          }
+        },
+        {
+          "omega_MeV": 0.35,
+          "theta_deg": 72.5,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -3.6613,
+          "angular_momentum": {
+            "Is": 13.335,
+            "Im": 0.0,
+            "Il": 5.627,
+            "Itot": 14.474
+          }
+        },
+        {
+          "omega_MeV": 0.4,
+          "theta_deg": 72.5,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -4.4087,
+          "angular_momentum": {
+            "Is": 14.455,
+            "Im": 0.0,
+            "Il": 5.645,
+            "Itot": 15.518
+          }
+        },
+        {
+          "omega_MeV": 0.45,
+          "theta_deg": 73.42,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -5.2103,
+          "angular_momentum": {
+            "Is": 15.623,
+            "Im": 0.0,
+            "Il": 5.655,
+            "Itot": 16.615
+          }
+        },
+        {
+          "omega_MeV": 0.5,
+          "theta_deg": 74.33,
+          "phi_deg": 15.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -6.0687,
+          "angular_momentum": {
+            "Is": 16.415,
+            "Im": 4.401,
+            "Il": 5.663,
+            "Itot": 17.914
+          }
+        },
+        {
+          "omega_MeV": 0.55,
+          "theta_deg": 75.24,
+          "phi_deg": 29.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -7.006,
+          "angular_momentum": {
+            "Is": 16.419,
+            "Im": 9.108,
+            "Il": 5.669,
+            "Itot": 19.613
+          }
+        },
+        {
+          "omega_MeV": 0.6,
+          "theta_deg": 76.16,
+          "phi_deg": 37.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -8.0294,
+          "angular_momentum": {
+            "Is": 16.421,
+            "Im": 12.384,
+            "Il": 5.673,
+            "Itot": 21.335
+          }
+        },
+        {
+          "omega_MeV": 0.65,
+          "theta_deg": 77.07,
+          "phi_deg": 43.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -9.1397,
+          "angular_momentum": {
+            "Is": 16.376,
+            "Im": 15.261,
+            "Il": 5.675,
+            "Itot": 23.093
+          }
+        },
+        {
+          "omega_MeV": 0.7,
+          "theta_deg": 77.99,
+          "phi_deg": 47.0,
+          "mode": "aplanar_chiral_rotation",
+          "E_routhian_MeV": -10.3369,
+          "angular_momentum": {
+            "Is": 16.461,
+            "Im": 17.687,
+            "Il": 5.676,
+            "Itot": 24.819
+          }
+        }
+      ]
+    },
+    {
+      "gamma_deg": 0.0,
+      "moments_of_inertia": {
+        "Js": 30.000000000000004,
+        "Jm": 29.999999999999982,
+        "Jl": 0.0
+      },
+      "points": [
+        {
+          "omega_MeV": 0.1,
+          "theta_deg": 76.16,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -0.7641,
+          "angular_momentum": {
+            "Is": 8.413,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 10.051
+          }
+        },
+        {
+          "omega_MeV": 0.15,
+          "theta_deg": 74.33,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -1.2753,
+          "angular_momentum": {
+            "Is": 9.833,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 11.266
+          }
+        },
+        {
+          "omega_MeV": 0.2,
+          "theta_deg": 73.42,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -1.8582,
+          "angular_momentum": {
+            "Is": 11.25,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 12.523
+          }
+        },
+        {
+          "omega_MeV": 0.25,
+          "theta_deg": 73.42,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -2.5103,
+          "angular_momentum": {
+            "Is": 12.688,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 13.829
+          }
+        },
+        {
+          "omega_MeV": 0.3,
+          "theta_deg": 73.42,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -3.2312,
+          "angular_momentum": {
+            "Is": 14.126,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 15.159
+          }
+        },
+        {
+          "omega_MeV": 0.35,
+          "theta_deg": 74.33,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -4.0221,
+          "angular_momentum": {
+            "Is": 15.61,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 16.55
+          }
+        },
+        {
+          "omega_MeV": 0.4,
+          "theta_deg": 75.24,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -4.8834,
+          "angular_momentum": {
+            "Is": 17.104,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 17.967
+          }
+        },
+        {
+          "omega_MeV": 0.45,
+          "theta_deg": 76.16,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -5.816,
+          "angular_momentum": {
+            "Is": 18.608,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 19.404
+          }
+        },
+        {
+          "omega_MeV": 0.5,
+          "theta_deg": 76.16,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -6.8205,
+          "angular_momentum": {
+            "Is": 20.064,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 20.805
+          }
+        },
+        {
+          "omega_MeV": 0.55,
+          "theta_deg": 77.07,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -7.8979,
+          "angular_momentum": {
+            "Is": 21.582,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 22.272
+          }
+        },
+        {
+          "omega_MeV": 0.6,
+          "theta_deg": 77.99,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -9.0482,
+          "angular_momentum": {
+            "Is": 23.106,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 23.751
+          }
+        },
+        {
+          "omega_MeV": 0.65,
+          "theta_deg": 77.99,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -10.2713,
+          "angular_momentum": {
+            "Is": 24.573,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 25.181
+          }
+        },
+        {
+          "omega_MeV": 0.7,
+          "theta_deg": 78.9,
+          "phi_deg": 0.0,
+          "mode": "planar_magnetic_rotation",
+          "E_routhian_MeV": -11.569,
+          "angular_momentum": {
+            "Is": 26.107,
+            "Im": 0.0,
+            "Il": 5.5,
+            "Itot": 26.68
+          }
+        }
+      ]
+    }
+  ]
+}
