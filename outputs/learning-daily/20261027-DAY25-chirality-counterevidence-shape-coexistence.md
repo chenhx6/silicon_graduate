@@ -590,9 +590,21 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
           "locator": "EM97-D24-001"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+      "anchor": "## Key Results",
+      "summary": "补充反磁转动（AMR）双剪刀对称性、M1相消与超高 J^(2)/B(E2) 判据比。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-11"
+        }
+      ]
     }
   ]
 }
+
 
 ```
 
