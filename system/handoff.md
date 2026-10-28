@@ -3,7 +3,19 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint009：奇中子八极阻塞机制确立与剪刀—手征几何分岔模拟
+## Active handoff — Day26 checkpoint014：剪刀形变上限、宇称位移系统学与滴线八极竞争闭环
+
+正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26, 27]/next26，无 Day28。上一检查点 6f4e83b4 已成功推送 Gitee origin/main。
+
+本段取得五大核心前沿课题系统学突破：
+1. **电偶极相消宏观微观分解定量闭环**（工件 `ba-dipole-cancellation-mechanism-007.py/json`）：确立 140–148Ba 中宏观滴度分量（<0.003 efm）占总量不到 2%，单粒子微观壳修正起主导；质子壳贡献约 +0.35 efm，中子占据低-Omega nu(1h9/2, 2f7/2, 1i13/2) 产生的负偶极分量从 -0.213（144Ba）增至 -0.324 efm（146Ba），抵消 90% 质子矩使 D0 塌缩至 0.015 efm，并在 148Ba 翻转为负（-0.03 efm）；
+2. **MR 与 AMR 剪刀角动量几何幂次律与核心解耦**（工件 `mr-vs-amr-shears-geometry-008.py/json`）：解析对比单剪刀 B(E2) ~ sin^2(theta) 与双剪刀 B(E2) ~ sin^4(theta)，阐明 106,108Cd 纯剪刀闭合（theta: 90°->15°）导致 B(E2) 剧降 20 倍，而 110Cd 半刚体核心转动（Im=19.5）分担 18%–26% 自旋增益使剪刀角缓和收缩（70°->31°）形成平缓 B(E2) 平台（0.14->0.06 eb^2），确立 J^(2)/B(E2) ~ 100–1300 的巨判据比；
+3. **剪刀机制形变窗口上限定理确立**（工件 `shears-deformation-boundary-theorem-009.py/json`）：多质量区（A=110, 135, 165, 198）连续扫描证明，当 beta2 > 0.20 时核心四极辐射 B(E2)_coll 激增，将特征比值 B(M1)/B(E2) 压制至 < 5 (mu_N/eb)^2，剪刀特征被集体四极转动彻底淹没，确立剪刀机制存在严格的弱形变硬门（beta2 <= 0.20）；
+4. **交替宇称能级位移 delta_E(I) 收敛系统学**（工件 `parity-displacement-deltaE-systematics-010.py/json`）：对比刚性反射不对称 224Ra（88.3% 塌缩至 20.4 keV）、八极振动 220Rn（71% 降至 120 keV）与大振幅八极软振动 144,146Ba（收敛缓慢且高自旋维持 >340 keV 平台），确立 delta_E(I) 收敛速率作为区分静态梨形与动态八极软度的充要判据；
+5. **极富质子轻稀土核区四极—八极竞争**（工件 `proton-rich-octupole-competition-011.py/json`）：阐明滴线轻稀土（130Sm、128Nd、126Ce）虽然具备同种核子八极对 pi,nu(2d5/2 - 1h11/2)，但 h11/2 壳初占据引发的强长椭四极形变（beta2 ~ 0.30–0.33）使有效能母扩展 25%，八极极化率塌缩 35%，八极声子被推高至 1.3–1.5 MeV，确立强长椭四极形变对八极的淬灭机制；
+6. **系统状态全绿**：全量 lint 与 boundary check 保持 0 error、267 warnings，知识库与日报保持干净同步。
+
+## Previous handoff — Day26 checkpoint009：奇中子八极阻塞机制确立与剪刀—手征几何分岔模拟
 
 正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26, 27]/next26，无 Day28。上一检查点 a516fa1c 已成功推送 Gitee origin/main。
 
