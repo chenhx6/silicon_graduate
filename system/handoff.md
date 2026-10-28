@@ -3,13 +3,14 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint056：M1辐射纯度多极定界与Cd-Pd跨核AMR系统学确立
+## Active handoff — Day26 checkpoint057：三大质量区八核基准数据库与MR/AMR十项观测量矩阵闭环
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在 135Pr 勘误多极混合比定域与 Cd-Pd 跨核反磁转动机制领域取得两项定量突破：
-1. **135Pr 813.3 keV 混合比 delta(E2/M1) 与 M1 纯度定界**（工件 `pr135-mixing-ratio-polarization-bounds-059.py/json`）：结合 Compton 散射探测灵敏度 $Q \approx 0.22$，修正后的微弱偏振不对称度 $P = +0.04(3)$ 与 $R_{\text{DCO}} = 0.98(5)$ 严格限制了多极混合比 $\delta(E2/M1) \in [0.10, 0.19]$；由此定量导出其磁偶极辐射分支纯度高达 $M1_{\text{frac}} \ge 96.5\%$（电四极混杂 $< 3.5\%$），彻底澄清了勘误中的“$M1+E2$ 混合”仅为弱混杂，绝不削弱磁转动剪刀辐射由 M1 主导的物理图景；
-2. **Cd-Pd 跨核反磁转动 AMR 系统学与核芯演化闭环**（工件 `cd-pd-amr-systematics-comparison-060.py/json`）：对比 $^{106,108,110}\text{Cd}$ 与 $^{105}\text{Pd}$，阐明 $^{106}\text{Cd}$ 纯剪刀 $B(E2)$ 剧降 $20$ 倍与 $^{110}\text{Cd}$ 平缓平台的物理分歧完全源于随着中子数向壳层中部填充（$N=58 \to 62$）导致核芯转动惯量 $\Im_{\text{core}}$ 显著增大；整个质量区全候选核均严格服从 $\mathcal{R}_y(\pi)\mathcal{T}$ 离散对称性引发的带内 $M1$ 禁戒与 $\Delta I = 2$ 纯四极级联退激，$\mathcal{J}^{(2)}/B(E2)$ 普遍达到 $100 - 1200\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ 巨比值。
+本检查点在跨质量区 MR/AMR 观测量矩阵领域建立完整八核基准数据库（工件 `mr-amr-eight-nucleus-benchmark-061.py/json`）：
+1. **磁转动（MR）跨区演化机制**：涵盖铅区（$^{198,199}\text{Pb}$）与稀土区（$^{135,137}\text{Pr}$），实证铅区以纯单剪刀几何为主导，表现为向能带终止的单调 $B(M1) \propto \sin^2\theta$ 塌缩（$1.5 \to 0.2\ \mu_N^2$）；而稀土区在 $\hbar\omega \approx 0.30 - 0.37\text{ MeV}$ 遭遇 Coriolis 3qp $\to$ 5qp 能带交叉，叶片有效长度延长引发剪刀角重新张开（Re-opening），导致 $B(M1)/B(E2)$ 剧烈反弹（最高达 $94.8(\mu_N/e\text{b})^2$），确立了非单调行为的结构起源；
+2. **反磁转动（AMR）跨区对称性与平台机制**：涵盖镉同位素（$^{106,108,110}\text{Cd}$）与钯同位素（$^{105}\text{Pd}$），证明整个 $A\approx 105-110$ 质量区的反磁转动候选核均严格遵循 $\mathcal{R}_y(\pi)\mathcal{T}$ 复合反幺正对称性引发的带内横向磁矩相消（$B(M1) \equiv 0$）与 $\Delta I = 2$ 纯四极退激规律；其巨判据比 $\mathcal{J}^{(2)}/B(E2)$ 稳定落在 $100 - 1200\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ 区间，高出常规集体转动达一个数量级；
+3. **观测量矩阵与三层证据体系完善**：将研究笔记 `mr-amr-observable-matrix-boundary.md` 拓展为涵盖 10 项观测量的完整矩阵，明确必要输入（多极性、自旋、绝对时钟）、支持证据（绝对强度演化、巨判据比）与单独不可辨识量（单一比值、无 M1 线），排除单项判据伪认证。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 

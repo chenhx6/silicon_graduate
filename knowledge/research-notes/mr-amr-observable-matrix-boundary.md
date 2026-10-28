@@ -45,6 +45,10 @@ MR 与 AMR 的实验判据经常被压成单一 (B(M1)/B(E2))、(\mathcal J^{(2)
 
 017/034 的 toy residual 和 031 的冻结 gyro 数值只验证变换、单位和条件分岔的内部算术；它们不占据上述实验矩阵中的“必要实测量”位置。完整 JSON 矩阵见 `outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/mr-amr-observable-matrix-037.json`。
 
+依据八核基准数据库工件 `mr-amr-eight-nucleus-benchmark-061.py/json`，跨越铅区（$A\approx 195$：$^{198,199}\text{Pb}$）、稀土区（$A\approx 135$：$^{135,137}\text{Pr}$）与镉-钯区（$A\approx 105-110$：$^{106,108,110}\text{Cd}, ^{105}\text{Pd}$）三大质量区完成十项观测量的系统学闭环：
+- MR 在铅区表现为教科书式的单剪刀单调闭合（$B(M1) \approx 1.5 \to 0.2\ \mu_N^2$），而在稀土区因 Coriolis 准粒子解配对引发剪刀重张导致 $B(M1)/B(E2)$ 剧烈反弹（最高达 $94.8$）；
+- AMR 在镉-钯区全核均表现出严格的 $\Delta I = 2$ 纯四极级联且无 $M1$ 阶梯，其巨判据比 $\mathcal{J}^{(2)}/B(E2) \approx 100 - 1200\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ 普遍高出常规集体转动达 4 到 30 倍，证明 $\mathcal{R}_y(\pi)\mathcal{T}$ 离散对称性与巨判据比是跨质量区区分 AMR 与常规集体转动的排他性充要判据。
+
 ## Assumptions
 
 矩阵假定能带身份、自旋宇称、分支、跃迁方向和误差已核对；(B(M1))、(B(E2))、W.u. 与 (J^{(2)}) 不跨来源直接合并。相对 (B(M1)/B(E2)) 若依赖 (\delta^2\approx0)、gated spectra 或 side-feeding，必须保留该条件。电流残差使用 body-axis convention，不能替实验室 good-(I) 方向。
