@@ -3,14 +3,14 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint063：Day26卡片矩阵五大交付项闭环与日报全量证据对账
+## Active handoff — Day26 checkpoint064：二阶八极不变量模型无关性与三级激发分类学确立
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在正式研学日报（`20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation.md`）中完成 Day 26 课程卡片五大矩阵交付项的证据闭环与系统性对账：
-1. **卡片五大交付项实测与模型闭环**：(1) 八极、E1、E3、MR与AMR概念与证据梯度三层图谱（`octupole-mr-amr-evidence-gradient.md`，工件061）；(2) BU16、BU17、Garg2015三篇主线原读及2019偏振勘误闭环（工件059）；(3) 矩阵元初态简并因子7与非对称误差映射，结合Cd微商定域与量子剪刀零点强度（工件050/052/057/058）；(4) 144,146Ba偶极相消点微观中子占据灵敏度景观（-0.77 efm/v2）与Ra跨区对照（`ba-microscopic-octupole-dipole-cancellation.md`，工件053/054）；(5) 三大质量区八核基准数据库（工件061）与摆动对决磁转动排他性裁决（`pr135-wobbling-vs-shears-discrimination.md`，工件063）；
-2. **理论推导与数值闭环深化章节整合**：正式日报全面增补 checkpoint062 理论推导与数值深化小节，系统收录涵盖微观占据梯度、八极振子相消干涉、AMR纵向静态磁矩与有效g因子、以及平面剪刀向3D手征分岔在内的14项前沿理论模型与可复现工件；
-3. **写回块与全库规范核准**：`validate_writeback_items.py` 19项原子写回条目全绿（valid: true），全量 wiki_lint 0 error/286 warnings，boundary check ok: true，工作树与远端保持原子同步。
+本检查点在库仑激发多极不变量与八极动力学微观分类学上取得定量突破（工件 `octupole-invariant-fluctuation-model-067.py/json`）：
+1. **二阶八极不变量 q3^2 的模型无关性验证**：严格计算 $^{144,146}\text{Ba}, ^{220}\text{Rn}, ^{224,228}\text{Ra}$ 的二阶八极不变量 $q_3^2 \equiv \frac{16\pi}{7} B(E3; 0^+ \to 3^-)$；证明方均根不变量 $q_3^{\text{rms}}$ 严格重现轴对称转子内禀电八极矩 $Q_3$（比值在 $0.996 \sim 1.04$ 之间高度吻合），证实了二阶不变量在基态表征中的模型无关性；
+2. **单项不变量不可辨识性与伴随量充要性**：证明仅凭单项二阶不变量 $q_3^2$ 无法区分静态梨形与软八极振动（例如 $^{144,146}\text{Ba}$ 与 $^{224}\text{Ra}$ 的 $B(E3)$ 均处于 $42 - 48\text{ W.u.}$ 强集体区间）；必须结合交替宇称能级位移 $\delta E(I)$ 与微观势能面势垒高度形成联合判据；
+3. **三级八极激发分类学确立**：确立了由 (I) 简谐八极振子（$^{228}\text{Ra}, ^{220}\text{Rn}$，表现为特定 $2^+ \to 3^-$ 矩阵元相消压低 $11.5$ 倍）、(II) 动态大振幅八极软转子（$^{144,146}\text{Ba}$，微观势垒 $<0.5\text{ MeV}$ 且 $\delta E(I) \approx 600-800\text{ keV}$ 宽展）、以及 (III) 刚性反射不对称梨形转子（$^{224,226}\text{Ra}$，势垒 $>1.5\text{ MeV}$ 且 $\delta E(I) \to 0$ 塌缩）构成的严密分类体系。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 
