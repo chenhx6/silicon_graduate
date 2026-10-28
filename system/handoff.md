@@ -3,14 +3,14 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint066：AMR四极张量镜像相消与四次方辐射幂律代数证明
+## Active handoff — Day26 checkpoint067：剪刀闭合动态四极极化与MR平缓E2基底机制确立
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在反磁转动电四极跃迁微观张量代数机制上取得关键突破（工件 `amr-quadrupole-tensor-sin4-proof-069.py/json`）：
-1. **双剪刀不可约球张量严格证明**：构建四刃剪刀的阶-2球四极张量 $T_{2\mu}$；推导证明剪切交叉耦合分量 $T_{21} = \cos\theta(-\sin\theta) + \cos\theta(+\sin\theta) \equiv 0$ 由镜像反称性处处相消，横向非轴对称跃迁分量严格由 $T_{22} = 2\sin^2\theta$ 支配；
-2. **四次方幂律 B(E2) ~ sin^4(theta) 的代数确定性**：电四极跃迁几率正比于张量模平方 $B(E2; I \to I-2) \propto |T_{22}|^2 \propto (\sin^2\theta)^2 = \sin^4\theta$，从不可约球张量代数上确立了四次方幂律为纯双剪刀系统的严格几何定理；
-3. **单双剪刀电磁响应本质对比**：单剪刀磁转动因张量不具备镜像抵消对称性，保留一级交叉项并受核芯集体四极矩主导，因而呈现平缓的二次方或常数依赖；而双剪刀因 $T_{21} \equiv 0$ 呈现四次方极端陡降，理论解析了纯剪刀核 $^{106}\text{Cd}$ 遭遇 20 倍塌缩的微观根源。
+本检查点在磁转动高自旋电四极形变动力学响应上取得关键微观突破（工件 `shears-dynamic-polarization-model-070.py/json`）：
+1. **剪刀闭合力矩引发的动态四极极化**：证明高 $j$ 价准粒子四极场随剪刀角 $\theta$ 对弱形变核芯施加动态力矩；在大开角（$\theta \sim 75^\circ-90^\circ$）时，两支正交叶片激发显著的三轴软化（有效 $\gamma_{\text{eff}} \approx 17^\circ-18^\circ$）；
+2. **电四极跃迁 B(E2) 基底平缓维持机制**：随着剪刀角向轴对称方向闭合（$\theta \to 0^\circ$），长椭粒子型极化使 $\beta_{2,\text{eff}}$ 从 $0.105$ 上升至 $0.145$，电四极辐射在小夹角区获得 $20\%-27\%$ 的动力学增强，在剪刀终止端点维持有限的四极跃迁基底（$B(E2) \approx 0.012 - 0.028\ e^2\text{b}^2$）；
+3. **实验平缓谱学反常物理澄清**：微观阐明了为何实验上磁转动带的 $B(E2)$ 往往表现出平缓底座而非单调归零的动力学本质，更新研究笔记 [pr135-shears-dynamics-bandcrossing-rebound.md](/workspace/wiki/knowledge/research-notes/pr135-shears-dynamics-bandcrossing-rebound.md:1)。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 

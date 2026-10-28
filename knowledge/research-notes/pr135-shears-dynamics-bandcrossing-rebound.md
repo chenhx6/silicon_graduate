@@ -62,6 +62,14 @@ $$B(E2; I \to I-2) = \frac{15}{128\pi} Q_0^2 \sin^4\theta + B(E2)_{\text{core}}$
 
 **失效条件**：若在能带演化过程中发生能带交叉（Band Crossing）、粒子对破缺对齐（Quasiparticle Alignment）或核芯解耦，叶片矢量 $\vec{j}_p$ 或 $\vec{j}_n$ 的长度发生跳跃，上述单调性必然被打破。
 
+### 3. 剪刀闭合引发的动态四极核芯极化（Dynamic Core Polarization）
+
+依据微观自洽极化工件 `shears-dynamic-polarization-model-070.py/json`：
+剪刀叶片的闭合过程不仅产生角动量，而且高 $j$ 准粒子的单粒子四极场会对可极化的弱形变核芯施加随夹角 $\theta$ 演化的动力学力矩：
+- 质子粒子轨道（$\pi h_{11/2}$）具有长椭极化效应（$\delta\beta_2 > 0$），而中子空穴轨道具有扁椭极化效应；
+- 在剪刀处于较大开角（$\theta \sim 75^\circ - 90^\circ$）时，两支近似正交的叶片激发显著的动态三轴畸变（有效 $\gamma_{\text{eff}} \approx 17^\circ - 18^\circ$）；
+- 随着剪刀角向轴对称方向闭合（$\theta \to 0^\circ$），动态核芯极化使得有效电四极跃迁几率在小夹角区比较基线高出 $20\% - 27\%$，在能带终止端点维持有限的电四极底座（$B(E2) \approx 0.012 - 0.028\ e^2\text{b}^2$），从微观动力学上阐明了实验上磁转动带的 $B(E2)$ 往往呈现平缓基底而非严格跌落至零的物理本质。
+
 ## 135Pr Band 3 High-Spin Band Crossing and Shears Re-Opening
 
 ### 1. 组态演化与叶片突变

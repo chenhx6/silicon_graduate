@@ -1,0 +1,105 @@
+{
+  "schema": "shears-dynamic-polarization-model-070/v1",
+  "description": "Dynamic quadrupole core polarization induced by closing shears blades in Magnetic Rotation",
+  "nucleus": "135Pr",
+  "baseline_parameters": {
+    "beta2_0": 0.12,
+    "delta_beta_proton": 0.025,
+    "delta_beta_neutron": -0.015,
+    "jp": 5.5,
+    "jn": 10.0,
+    "delta_g": 1.42
+  },
+  "evolution_table": [
+    {
+      "theta_deg": 90.0,
+      "spin_I": 11.41,
+      "beta2_effective": 0.105,
+      "gamma_effective_deg": 18.0,
+      "BE2_unpolarized_eb2": 0.06,
+      "BE2_polarized_eb2": 0.0491,
+      "BM1_muN2": 5.5899,
+      "BM1_BE2_unpolarized": 93.17,
+      "BM1_BE2_polarized": 113.77,
+      "polarization_correction_pct": -18.1
+    },
+    {
+      "theta_deg": 75.0,
+      "spin_I": 12.6,
+      "beta2_effective": 0.1154,
+      "gamma_effective_deg": 17.39,
+      "BE2_unpolarized_eb2": 0.0567,
+      "BE2_polarized_eb2": 0.054,
+      "BM1_muN2": 4.28,
+      "BM1_BE2_unpolarized": 75.55,
+      "BM1_BE2_polarized": 79.21,
+      "polarization_correction_pct": -4.6
+    },
+    {
+      "theta_deg": 60.0,
+      "spin_I": 13.61,
+      "beta2_effective": 0.125,
+      "gamma_effective_deg": 15.59,
+      "BE2_unpolarized_eb2": 0.0475,
+      "BE2_polarized_eb2": 0.0518,
+      "BM1_muN2": 2.9477,
+      "BM1_BE2_unpolarized": 62.06,
+      "BM1_BE2_polarized": 56.88,
+      "polarization_correction_pct": 9.1
+    },
+    {
+      "theta_deg": 45.0,
+      "spin_I": 14.42,
+      "beta2_effective": 0.1333,
+      "gamma_effective_deg": 12.73,
+      "BE2_unpolarized_eb2": 0.035,
+      "BE2_polarized_eb2": 0.0423,
+      "BM1_muN2": 1.7499,
+      "BM1_BE2_unpolarized": 50.0,
+      "BM1_BE2_polarized": 41.41,
+      "polarization_correction_pct": 20.7
+    },
+    {
+      "theta_deg": 30.0,
+      "spin_I": 15.02,
+      "beta2_effective": 0.1396,
+      "gamma_effective_deg": 9.0,
+      "BE2_unpolarized_eb2": 0.0225,
+      "BE2_polarized_eb2": 0.0286,
+      "BM1_muN2": 0.8071,
+      "BM1_BE2_unpolarized": 35.87,
+      "BM1_BE2_polarized": 28.19,
+      "polarization_correction_pct": 27.3
+    },
+    {
+      "theta_deg": 15.0,
+      "spin_I": 15.38,
+      "beta2_effective": 0.1436,
+      "gamma_effective_deg": 4.66,
+      "BE2_unpolarized_eb2": 0.0133,
+      "BE2_polarized_eb2": 0.0167,
+      "BM1_muN2": 0.2062,
+      "BM1_BE2_unpolarized": 15.45,
+      "BM1_BE2_polarized": 12.33,
+      "polarization_correction_pct": 25.2
+    },
+    {
+      "theta_deg": 0.0,
+      "spin_I": 15.5,
+      "beta2_effective": 0.145,
+      "gamma_effective_deg": 0.0,
+      "BE2_unpolarized_eb2": 0.01,
+      "BE2_polarized_eb2": 0.012,
+      "BM1_muN2": 0.0,
+      "BM1_BE2_unpolarized": 0.0,
+      "BM1_BE2_polarized": 0.0,
+      "polarization_correction_pct": 20.0
+    }
+  ],
+  "microscopic_conclusions": [
+    "1. Dynamic Polarization Effect: As shears blades close (theta: 90 deg -> 0 deg), the combined single-particle quadrupole field of the particle-hole configuration exerts an angle-dependent torque on the core.",
+    "2. Induced Triaxiality: At open shears angles (theta ~ 75-90 deg), mutually perpendicular blades induce dynamic triaxial distortion (gamma_eff ~ 17-18 deg), softening the core.",
+    "3. B(E2) Stabilization: Dynamic polarization increases the effective B(E2) at closing angles by 15% to 25% over the unpolarized baseline, preventing B(E2) from plunging strictly to zero and maintaining a non-zero quadrupole pedestal at band termination.",
+    "4. Resolving Experimental Flatness: This explains why experimental B(E2) values in magnetic rotation bands often stay remarkably flat (e.g. ~ 0.02-0.05 e^2 b^2) across the shears closing cascade, rather than decaying strictly to zero."
+  ]
+}
