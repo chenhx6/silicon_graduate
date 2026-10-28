@@ -3187,3 +3187,11 @@ Singh原Present目标带12行全部图示、7finite条件fit/5bound未fit、2pos
   - 确立 $^{131}\text{Ce}$ 跨越四个物理层级的电磁形变阶梯：异构态 $|Q_s| = 1.34\ e\text{b}$ $\to$ 正常负宇称带 $Q_t = 2.58\ e\text{b}$ $\to$ 正常正宇称带 $Q_t = 4.56\ e\text{b}$（$2.18\times$ $B(E2)$ 宇称分岔）$\to$ 超形变平台 $Q_0 = 7.30\ e\text{b}$（$8.01\times$ $B(E2)$ 激增，相对于异构态激增 $29.68\times$ 当量）；
   - 严格审定 $^{131}\text{Ce}$ 五大集体假说排序：(1) 组态/签名耦合主导（第一优先）$\to$ (2) $\gamma$ 软芯背景（可行背景）$\to$ (3) 手征性不支持（无伙伴带）$\to$ (4) 形状共存限于核整体能级而非能带混合 $\to$ (5) 摆动模式排除；
   - `validate_writeback` 保持 37 篇知识页精确映射有效，不可变基线哈希保持匹配，距15:00硬截止尚有 335 分钟，继续推进Day 20实质性研究。
+
+
+### Day26 live continuation checkpoint 040 (2026-10-28T22:24:45.076443+08:00)
+
+- 当前 goal/session 仍 active；farmer PID3193存活；硬截止仍为2026-10-29 15:00+08，Day27仅有界无学分预习，Day28未打开。
+- 最新发布 `8627b153` 已推送 Gitee `origin/main`；boundary `ok: true`、lint `0 error`（当前 warning 基线已随新增研究页记录）、staged diff-check 通过。
+- 已完成 E3/奇A/MR-AMR三路跨来源一致性审计。最新修正包括Roy Table1印刷页码p324、Ra/Ac E1 provenance、Ji简并因子和所有普适硬门撤回。
+- 后续继续路线：Pr2019勘误正文、Egido–Robledo1990正文、真实生产E1/HWG核与Cd逐门feeding输入；缺失来源维持needs_review，不用模型玩具替代。
