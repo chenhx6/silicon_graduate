@@ -1,0 +1,15 @@
+{
+  "worker": "sd-mr-coexistence-pb190",
+  "date": "2026-10-29",
+  "status": "complete-provisional",
+  "note": "knowledge/research-notes/sd-mr-dual-well-coexistence-pb190-boundary.md",
+  "script": "sd_mr_doublewell.py",
+  "generated": ["deformation_pes.csv", "sd_mr_observables.csv", "sd_mr_model_summary.json"],
+  "evidence_boundary": "196Pb has same-nucleus SD and MR evidence through Hübel's SD/MR synthesis and primary SD reports; 193Pb has a primary SD+dipole coexistence short report; 194/195Pb are directly grounded here for SD Qt systematics, not asserted as full same-nucleus MR datasets.",
+  "model_boundary": "The double-well PES and observable trajectories are an explicit toy scale model, not HFB/TAC/GCM or a fitted experimental dataset.",
+  "checks": {
+    "script_command": "python3 sd_mr_doublewell.py",
+    "script_exit_code": 0,
+    "git_diff_check": "pending-parent-run"
+  }
+}

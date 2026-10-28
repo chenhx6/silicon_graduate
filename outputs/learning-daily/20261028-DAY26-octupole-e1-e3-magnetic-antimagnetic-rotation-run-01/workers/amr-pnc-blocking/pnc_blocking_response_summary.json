@@ -1,0 +1,50 @@
+{
+  "model": "fixed-N two-orbit CMPC PNC-CSM toy response",
+  "status": "reproducible pedagogical micro-response; not a full Cd calculation",
+  "orbits": [
+    {
+      "name": "nu_d5/2",
+      "j": 2.5,
+      "eps": 0.0,
+      "qcoef": -0.05
+    },
+    {
+      "name": "nu_g7/2",
+      "j": 3.5,
+      "eps": 0.28,
+      "qcoef": -0.032
+    }
+  ],
+  "active_N_proxy": {
+    "105Cd": 5,
+    "106Cd": 6,
+    "108Cd": 7,
+    "110Cd": 8
+  },
+  "pairing_strengths_MeV": {
+    "105Cd": 0.8,
+    "106Cd": 0.45,
+    "108Cd": 0.45,
+    "110Cd": 0.45
+  },
+  "reference_V_pinu_MeV": 1.2,
+  "equations": {
+    "hamiltonian": "H'=sum_i(e_i-q_i omega Jx_ij)a_i^dag a_j-G sum_ab P_a^dag P_b",
+    "pair_correlation": "C_pair=-<H_pair> >=0; Delta_corr=sqrt(G*C_pair)",
+    "V_proxy": "V_eff(omega)=1.2 MeV * C_pair(omega)/C_pair(0)",
+    "B_E2_proxy": "[Q20_RMS(omega)/Q20_RMS(0)]^2",
+    "J2_proxy": "d< Jx >/d omega"
+  },
+  "blocking_definition": "selected orbit is excluded from monopole pair-scattering channels while odd N is retained; Jx remains explicit in the Fock-space Hamiltonian",
+  "interpretation": [
+    "Fixed N preserves number exactly and the finite pair-scattering correlation, but the correlation gap is not a BCS anomalous field.",
+    "The V_pinu output is a conditional screening/coherence proxy, not a microscopic extraction of the 1.2 MeV phenomenological parameter.",
+    "Absolute B(E2), J(2), deformation and Cd isotope trends are not calibrated by this two-orbit toy space."
+  ],
+  "source_locators": [
+    "Zhang et al., PRC 87 054314 (2013), PDF pp.4-10 Eqs.(1-12), Figs.2-4",
+    "Zhang, Chin. Phys. C 43 054107 (2019), PDF pp.2,4-7 Eqs.(1-11), Figs.3-7",
+    "Wu et al., PRC 83 034323 (2011), PDF pp.2-5 Eqs.(1-12)",
+    "Roy et al., Phys. Lett. B 711 (2012), printed pp.324-326 Eqs.(3-6), Fig.3"
+  ]
+}

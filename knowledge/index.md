@@ -11,12 +11,14 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[sd-mr-dual-well-coexistence-pb190-boundary]] — A≈190 铅区 193/196Pb 同核 SD/MR 共存、SD 四极矩与 MR 剪刀证据边界；含可复现双阱尺度模型。
 - [[amr-vpinu-neutron-number-core-polarization-audit]] — 同N的104Pd/106Cd Vπν归一、核芯极化与中子数演化的条件微观推导。
 - [[mr-amr-band-termination-and-extreme-spin-limits]] — MR/AMR剪刀闭合、固定组态最大自旋、终止附近 (B(M1))/(B(E2))/(J^{(2)}) 与交叉重开判据。
 - [[pohl-1996-107108pd-highspin-metadata]] — 107,108Pd高自旋谱学原件入口；正文未取得。
 - [[juutinen-1994-109111cd-107pd-highspin-metadata]] — 109,111Cd与107Pd高自旋谱学原件入口；正文未取得。
 
 - [[ba-microscopic-octupole-dipole-cancellation]] — 144,146Ba八极关联与电偶极相消微观机制、SCCM中子轨道占据与静态梨形边界。
+- [[octupole-centrifugal-stabilization-and-energy-displacement]] — 离心转动项推动八极极小外移、Ba/Ra/Th 交错宇称位移比较与一维可复现示意模型。
 - [[pr135-shears-dynamics-bandcrossing-rebound]] — 135Pr剪刀动力学、3qp至5qp高自旋能带交叉与B(M1)/B(E2)非单调反弹机制。
 - [[pr135-pr137-tac-rmf-bandcrossing-systematics]] — 135Pr/137Pr 3qp→5qp 交叉、TAC-RMF/CDFT 倾角、配对阻塞与流场响应的条件性研究笔记。
 - [[pr135-wobbling-vs-shears-discrimination]] — 135Pr横向摆动对决磁转动的实验判据、偏振勘误M1纯度与排他性裁决。
@@ -1115,6 +1117,7 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[amr-j2-dynamic-inertia-endpoint-audit]]
 
 - [[amr-pnc-bcs-ln-pairing-coherence-band-evolution-audit]] — PNC/BCS/LN配对相干、三种非对角项与Cd/Pd能带演化的同哈密顿量边界。
+- [[amr-pairing-pnc-blocking-and-interaction-evolution]] — 105Cd奇中子阻塞、106–110Cd偶偶配对响应与Vπν相干软化的PNC-CSM条件审计。
 
 - [[wu-2011-pairing-rotation-blocking-pnc]] — 固定粒子数配对关联、旋转与阻塞的原始PNC方法依据。
 

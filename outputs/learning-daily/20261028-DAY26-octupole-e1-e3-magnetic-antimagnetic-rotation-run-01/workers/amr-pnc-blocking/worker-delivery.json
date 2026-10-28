@@ -1,0 +1,52 @@
+{
+  "worker": "amr-pnc-blocking-20261029",
+  "status": "complete-with-toy-PNC-evidence-boundary",
+  "task": "PNC-CSM pairing blocking and V_pinu interaction evolution in 105Cd and 106-110Cd",
+  "knowledge_note": "knowledge/research-notes/amr-pairing-pnc-blocking-and-interaction-evolution.md",
+  "index_updated": "knowledge/index.md",
+  "artifacts": [
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-blocking/pnc_blocking_response.py",
+      "sha256": "8532932d8f6a6fb6d869bf906eaff7e54d88fb1cb68c83817d624a1f8afa50de"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-blocking/pnc_blocking_response.csv",
+      "sha256": "475e288449f05863b87940226cc10545d09a9551597851a75a93c0fd429d6e14"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-blocking/pnc_blocking_response_summary.json",
+      "sha256": "0b826ed1d27dce3a4ea3abcec4fe819e38ba391916aa6f085a5c0bb7c7e6a61e"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-blocking/provenance.json",
+      "sha256": "0a799c2a4f5d6c2cc21256d1f1e68d6bb6608cbd43e205a2ac406ba372cc078f"
+    }
+  ],
+  "calculation": {
+    "rows": 54,
+    "sectors": ["105Cd odd unblocked reference", "105Cd nu d5/2 blocked", "105Cd nu g7/2 blocked", "106Cd even proxy", "108Cd even proxy", "110Cd even proxy"],
+    "frequencies_MeV_over_hbar": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8],
+    "solver": "fixed-N 14-state CMPC/Fock diagonalisation with explicit Jx and monopole pairing"
+  },
+  "findings": [
+    "Blocking lowers the PNC correlation energy and correlation-gap proxy; the magnitude depends on whether nu d5/2 or nu g7/2 is blocked.",
+    "The toy J(2) proxy changes in opposite ways for d5/2 and g7/2 blocking, so no universal odd-particle inertia factor is supported.",
+    "The V_pinu output is a normalised pair-density/coherence proxy around the literature reference 1.2 MeV; it is not a fitted bare proton-neutron matrix element.",
+    "The absolute B(E2), J(2), deformation and isotope trends are not calibrated by this two-orbit toy space."
+  ],
+  "evidence_locators": [
+    "Zhang et al. PRC 87 054314 (2013), PDF pp.4-10 Eqs.(1-12), Figs.2-4",
+    "Zhang Chin. Phys. C 43 054107 (2019), PDF pp.2,4-7 Eqs.(1-11), Figs.3-7",
+    "Zhao et al. PRC 85 054310 (2012), PDF pp.11,13-19,22-23",
+    "Roy et al. Phys. Lett. B 694 322 (2011), printed pp.324-326 Eqs.(3-6), Fig.3"
+  ],
+  "validation": {
+    "py_compile": "passed",
+    "rerun": "passed; 54 rows regenerated",
+    "git_diff_check_owned_paths": "passed",
+    "boundary_check": "passed",
+    "wiki_lint_owned_error": 0,
+    "wiki_lint_global_note": "pre-existing global errors remain outside this worker scope; the new note initially required an index link and was linked in knowledge/index.md"
+  },
+  "commit_push": "not performed; parent agent integrates shared worktree"
+}

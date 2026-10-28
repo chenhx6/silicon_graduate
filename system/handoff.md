@@ -3,7 +3,24 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint080：144/146Ba偶极相消与三级证据梯形图两大长期问题闭环更新
+## Active handoff — Day26 checkpoint081：八极离心稳定化、PNC配对阻塞微观演化及铅区SD/MR双阱共存
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键微观势能面与动力学前沿闭环：
+1. **离心力驱动八极形变稳定化与交错能级位移收敛**（`octupole-centrifugal-stabilization-and-energy-displacement.md`，工件 `octupole-stabilization/`）：
+   - 核算实测交错位移演化：$^{144}\text{Ba}$ 为 $659.2\text{ keV}$、$^{146}\text{Ba}$ 为 $647.4\text{ keV}$、$^{224}\text{Ra}$ 从 $173.8\text{ keV} \to 20.2\text{ keV}$、$^{226}\text{Th}$ 从 $194.3\text{ keV} \to \sim 0\text{ keV}$；
+   - 推导转动势能微商 $\frac{dV_{\text{eff}}}{d(\beta_3^2)} < 0$ 驱动八极极小点外移与势垒加深，建立一维有效势能面可复现模型，保留高自旋能带交叉可能诱发反射对称恢复的竞争边界；
+2. **PNC-CSM 对奇-A（105Cd）与偶-偶（106-110Cd）配对阻塞与相互作用参数审计**（`amr-pairing-pnc-blocking-and-interaction-evolution.md`，工件 `amr-pnc-blocking/`）：
+   - 证明固定粒子数保留的是配对占据组态相干混合而非人为异常平均，量化 $^{105}\text{Cd}$ $\nu d_{5/2}$ 与 $\nu g_{7/2}$ 阻塞对超流相干与 $J^{(2)}$ 峰值的轨道依赖；
+   - 澄清半经典 $V_{\pi\nu} = 1.2\text{ MeV}$ 系归一化有效参数，建立微观相干调制软化模型；
+3. **铅区（A≈190）超形变（SD）与磁转动（MR）同核共存多阱拓扑**（`sd-mr-dual-well-coexistence-pb190-boundary.md`，工件 `sd-mr-coexistence/`）：
+   - 梳理 $^{193-196}\text{Pb}$ 中超形变带（$\beta_2 \approx 0.50, Q_0 \approx 20\text{ eb}, J^{(2)} \approx 80-110\ \hbar^2/\text{MeV}$）与 9 条 MR 剪刀带（$\beta_2 \approx 0.1, Q_0 \approx 2-3\text{ eb}$，交叉后 $B(M1)$ 达 $9\ \mu_N^2$）共存第一手证据；
+   - 建立双阱形变势能面与动力学转动惯量尺度模型，严格区分 $Q_s, Q_t, Q_0$ 与 $\beta_2$ 换算边界。
+
+全量检查全绿（wiki_lint 0 error/318 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint080：144/146Ba偶极相消与三级证据梯形图两大长期问题闭环更新
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

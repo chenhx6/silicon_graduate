@@ -1,0 +1,12 @@
+{
+  "script": "pnc_blocking_response.csv",
+  "script_sha256": "8532932d8f6a6fb6d869bf906eaff7e54d88fb1cb68c83817d624a1f8afa50de",
+  "command": "python3 pnc_blocking_response.py",
+  "python": "3.x",
+  "generated_files": [
+    "pnc_blocking_response.csv",
+    "pnc_blocking_response_summary.json"
+  ],
+  "raw_inputs": "none; all numerical orbit energies/q coefficients are declared toy inputs",
+  "evidence_boundary": "The four literature locator strings are source anchors; no numerical claim from this toy solver is presented as a paper result."
+}

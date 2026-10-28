@@ -1,0 +1,32 @@
+{
+  "model_status": "toy_scale_model_not_experiment",
+  "nucleus_scale": "A=194, Z=82; parameters are transferable only as an illustrative comparison",
+  "equations": {
+    "PES": "V(beta2)=600*(beta2-0.10)^2*(beta2-0.50)^2 MeV",
+    "Q0": "Q0=(3/sqrt(5*pi))*Z*R0^2*beta2; R0=1.2*A^(1/3) fm",
+    "B_E2": "B(E2)=5/(16*pi)*Q0^2*I(I-1)/((2I-1)*(2I+1))",
+    "B_M1": "B(M1)=3/(8*pi)*(g_eff*j_eff*sin(theta))^2",
+    "J2": "J2_SD=95+2*sin((I-15)/5); J2_MR=42*exp(-(I-15)/19)+7"
+  },
+  "inputs": {
+    "beta2_normal": 0.1,
+    "beta2_sd": 0.5,
+    "well_barrier_at_beta2_0.30_MeV": 0.9600000000000001,
+    "Q0_from_beta_normal_eb": 2.995289568214936,
+    "Q0_from_beta_sd_eb": 14.97644784107468,
+    "reported_SD_Qt_input_eb": 20.0,
+    "E2_Weisskopf_unit_e2b2": 0.046575474322733346,
+    "MR_g_eff": 0.8,
+    "MR_j_eff_hbar": 6.5
+  },
+  "consistency_check": {
+    "reported_Qt_over_Q0_from_beta_sd": 1.3354301508764737,
+    "interpretation": "Qt~20 eb and beta2~0.50 are not mutually consistent under this liquid-drop conversion; retain them as separate reported/model quantities."
+  },
+  "source_boundary": [
+    "Astier et al., Z Phys A 358 (1997) 195-196, DOI 10.1007/s002180050305: same-193Pb SD and dipole-band observation.",
+    "van Severen et al., Phys Lett B 434 (1998) 14-20, DOI 10.1016/S0370-2693(98)00819-3: SD Qt comparison in 193-196Pb.",
+    "Hubel, Prog Part Nucl Phys 54 (2005) 1-69, DOI 10.1016/j.ppnp.2004.06.002: Pb-region MR review; review-level, not an independent lifetime dataset."
+  ],
+  "reproducibility": "python3 sd_mr_doublewell.py"
+}

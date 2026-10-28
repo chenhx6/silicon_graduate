@@ -1,0 +1,1297 @@
+{
+  "schema": "centrifugal-octupole-stabilization/v1",
+  "status": "reproducible-schematic-model",
+  "units": {
+    "x": "dimensionless beta3^2",
+    "beta3": "dimensionless",
+    "potential": "MeV",
+    "delta_e": "keV"
+  },
+  "equations": {
+    "effective_potential": "V_eff(x;I)=V0(x)+A*I*(I+1)/(1+c3*x)",
+    "derivative": "dV_eff/dx=dV0/dx-A*I*(I+1)*c3/(1+c3*x)^2",
+    "physical_form": "dV_eff/d(beta3^2)=dV0/d(beta3^2)-hbar^2*I*(I+1)/(2*J^2)*dJ/d(beta3^2)",
+    "parity_surrogate": "deltaE=C exp[-s(beta3/beta_scale)^2 sqrt(Vbar/ZPE)]"
+  },
+  "interpretation": {
+    "soft_Ba": "A centrifugal bifurcation creates and deepens a finite-beta3 minimum as I increases.",
+    "static_Ra_Th": "A pre-existing double well is shifted outward and its central barrier grows.",
+    "scope": "The model is illustrative; the parity-displacement curve is a WKB-like surrogate, not a microscopic prediction."
+  },
+  "model": {
+    "144Ba": {
+      "parameters": {
+        "kind": "soft",
+        "k2": 35.0,
+        "k4": 1500.0,
+        "A": 0.015,
+        "c3": 20.0,
+        "zpe": 0.75,
+        "prefactor": 0.78,
+        "beta_scale": 0.2,
+        "wkb_scale": 2.1
+      },
+      "rows": [
+        {
+          "spin": 0,
+          "L": 0,
+          "beta3_min": 2.8598920321674345e-10,
+          "x_min": 8.178982435654778e-20,
+          "v_eff_min_MeV": 2.8626438524791725e-18,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 780.0,
+          "dVeff_dx_at_min_MeV": 35.0
+        },
+        {
+          "spin": 1,
+          "L": 2,
+          "beta3_min": 2.8598920321674345e-10,
+          "x_min": 8.178982435654778e-20,
+          "v_eff_min_MeV": 0.030000000000000002,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 780.0,
+          "dVeff_dx_at_min_MeV": 34.4
+        },
+        {
+          "spin": 2,
+          "L": 6,
+          "beta3_min": 7.498700170371302e-10,
+          "x_min": 5.623050424512659e-19,
+          "v_eff_min_MeV": 0.09000000000000001,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 780.0,
+          "dVeff_dx_at_min_MeV": 33.2
+        },
+        {
+          "spin": 3,
+          "L": 12,
+          "beta3_min": 1.0772154534068483e-09,
+          "x_min": 1.1603931330585216e-18,
+          "v_eff_min_MeV": 0.18000000000000002,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 780.0,
+          "dVeff_dx_at_min_MeV": 31.4
+        },
+        {
+          "spin": 4,
+          "L": 20,
+          "beta3_min": 1.516265426639523e-09,
+          "x_min": 2.2990608440223347e-18,
+          "v_eff_min_MeV": 0.30000000000000004,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 780.0,
+          "dVeff_dx_at_min_MeV": 29.000000000000007
+        },
+        {
+          "spin": 5,
+          "L": 30,
+          "beta3_min": 2.6563977573984094e-09,
+          "x_min": 7.056449045511299e-18,
+          "v_eff_min_MeV": 0.45000000000000007,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 780.0,
+          "dVeff_dx_at_min_MeV": 26.000000000000025
+        },
+        {
+          "spin": 6,
+          "L": 42,
+          "beta3_min": 2.805671284570884e-09,
+          "x_min": 7.871791357065635e-18,
+          "v_eff_min_MeV": 0.6300000000000001,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 780.0,
+          "dVeff_dx_at_min_MeV": 22.400000000000027
+        },
+        {
+          "spin": 7,
+          "L": 56,
+          "beta3_min": 2.8098672309013727e-09,
+          "x_min": 7.895353855293349e-18,
+          "v_eff_min_MeV": 0.84,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 780.0,
+          "dVeff_dx_at_min_MeV": 18.200000000000028
+        },
+        {
+          "spin": 8,
+          "L": 72,
+          "beta3_min": 5.90263478057884e-09,
+          "x_min": 3.4841097352899014e-17,
+          "v_eff_min_MeV": 1.0800000000000005,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 780.0,
+          "dVeff_dx_at_min_MeV": 13.400000000000134
+        },
+        {
+          "spin": 9,
+          "L": 90,
+          "beta3_min": 5.90263478057884e-09,
+          "x_min": 3.4841097352899014e-17,
+          "v_eff_min_MeV": 1.35,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 780.0,
+          "dVeff_dx_at_min_MeV": 8.000000000000146
+        },
+        {
+          "spin": 10,
+          "L": 110,
+          "beta3_min": 1.562713703178875e-08,
+          "x_min": 2.442074118103033e-16,
+          "v_eff_min_MeV": 1.6500000000000004,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 780.0,
+          "dVeff_dx_at_min_MeV": 2.0000000000010516
+        },
+        {
+          "spin": 11,
+          "L": 132,
+          "beta3_min": 0.03184125529288238,
+          "x_min": 0.0010138655386265098,
+          "v_eff_min_MeV": 1.9776760388136603,
+          "central_barrier_or_gain_MeV": 0.002323961186339707,
+          "delta_model_keV": 777.6923239918924,
+          "dVeff_dx_at_min_MeV": 6.796394771413361e-07
+        },
+        {
+          "spin": 12,
+          "L": 156,
+          "beta3_min": 0.049889389390865235,
+          "x_min": 0.002488951173793377,
+          "v_eff_min_MeV": 2.32544614669667,
+          "central_barrier_or_gain_MeV": 0.014553853303330033,
+          "delta_model_keV": 765.9303921236235,
+          "dVeff_dx_at_min_MeV": 1.186778256112575e-06
+        },
+        {
+          "spin": 13,
+          "L": 182,
+          "beta3_min": 0.06292874358884648,
+          "x_min": 0.003960026769670787,
+          "v_eff_min_MeV": 2.691773993771492,
+          "central_barrier_or_gain_MeV": 0.0382260062285078,
+          "delta_model_keV": 744.2357850993975,
+          "dVeff_dx_at_min_MeV": 9.197618240364136e-07
+        },
+        {
+          "spin": 14,
+          "L": 210,
+          "beta3_min": 0.07364856777464147,
+          "x_min": 0.005424111535255958,
+          "v_eff_min_MeV": 3.0756988787506248,
+          "central_barrier_or_gain_MeV": 0.07430112124937516,
+          "delta_model_keV": 713.1299027324532,
+          "dVeff_dx_at_min_MeV": 1.7278891633054627e-06
+        },
+        {
+          "spin": 15,
+          "L": 240,
+          "beta3_min": 0.08294050087002067,
+          "x_min": 0.006879126684569898,
+          "v_eff_min_MeV": 3.476358560134691,
+          "central_barrier_or_gain_MeV": 0.12364143986530873,
+          "delta_model_keV": 673.6136799291231,
+          "dVeff_dx_at_min_MeV": 6.717985172599583e-07
+        },
+        {
+          "spin": 16,
+          "L": 272,
+          "beta3_min": 0.0912340189846636,
+          "x_min": 0.008323646220093957,
+          "v_eff_min_MeV": 3.8929759532241177,
+          "central_barrier_or_gain_MeV": 0.18702404677588236,
+          "delta_model_keV": 627.0809876854711,
+          "dVeff_dx_at_min_MeV": 1.7828846381462427e-06
+        },
+        {
+          "spin": 17,
+          "L": 306,
+          "beta3_min": 0.0987760847658718,
+          "x_min": 0.009756714921674691,
+          "v_eff_min_MeV": 4.324847817980961,
+          "central_barrier_or_gain_MeV": 0.26515218201903856,
+          "delta_model_keV": 575.2064341566567,
+          "dVeff_dx_at_min_MeV": 2.544822024219684e-06
+        },
+        {
+          "spin": 18,
+          "L": 342,
+          "beta3_min": 0.10572474493600935,
+          "x_min": 0.011177721691784236,
+          "v_eff_min_MeV": 4.771335170243572,
+          "central_barrier_or_gain_MeV": 0.3586648297564281,
+          "delta_model_keV": 519.8189310913897,
+          "dVeff_dx_at_min_MeV": 2.973866671140968e-06
+        },
+        {
+          "spin": 19,
+          "L": 380,
+          "beta3_min": 0.11218870610812982,
+          "x_min": 0.012586305778216327,
+          "v_eff_min_MeV": 5.231855155682004,
+          "central_barrier_or_gain_MeV": 0.4681448443179965,
+          "delta_model_keV": 462.77359662340746,
+          "dVeff_dx_at_min_MeV": 5.539233569606949e-07
+        },
+        {
+          "spin": 20,
+          "L": 420,
+          "beta3_min": 0.11824673966725911,
+          "x_min": 0.01398229144193655,
+          "v_eff_min_MeV": 5.70587415255217,
+          "central_barrier_or_gain_MeV": 0.5941258474478301,
+          "delta_model_keV": 405.8336690050532,
+          "dVeff_dx_at_min_MeV": 1.5242734150433535e-06
+        },
+        {
+          "spin": 21,
+          "L": 462,
+          "beta3_min": 0.12395819806776345,
+          "x_min": 0.015365634868206874,
+          "v_eff_min_MeV": 6.192901901721569,
+          "central_barrier_or_gain_MeV": 0.7370980982784303,
+          "delta_model_keV": 350.57224177096873,
+          "dVeff_dx_at_min_MeV": 1.1680096037025578e-06
+        },
+        {
+          "spin": 22,
+          "L": 506,
+          "beta3_min": 0.12936920493427972,
+          "x_min": 0.016736391185327666,
+          "v_eff_min_MeV": 6.692486494187151,
+          "central_barrier_or_gain_MeV": 0.8975135058128485,
+          "delta_model_keV": 298.3001109449797,
+          "dVeff_dx_at_min_MeV": 1.8156862182650002e-06
+        },
+        {
+          "spin": 23,
+          "L": 552,
+          "beta3_min": 0.13451648834649088,
+          "x_min": 0.018094685637071617,
+          "v_eff_min_MeV": 7.204210074779169,
+          "central_barrier_or_gain_MeV": 1.07578992522083,
+          "delta_model_keV": 250.02297414742807,
+          "dVeff_dx_at_min_MeV": 2.683713006490507e-06
+        },
+        {
+          "spin": 24,
+          "L": 600,
+          "beta3_min": 0.13942988826808628,
+          "x_min": 0.019440693742451026,
+          "v_eff_min_MeV": 7.7276851451756325,
+          "central_barrier_or_gain_MeV": 1.2723148548243675,
+          "delta_model_keV": 206.42741505034456,
+          "dVeff_dx_at_min_MeV": 8.281682681854363e-07
+        }
+      ],
+      "derivative_check": {
+        "spin": 12,
+        "x": 0.013,
+        "analytic_MeV": 44.52154195011339,
+        "finite_difference_MeV": 44.52154194267699,
+        "absolute_error_MeV": 7.4363981639180565e-09
+      },
+      "experimental_delta_e_keV": [
+        {
+          "spin": 1,
+          "e_negative_keV": 758.8,
+          "positive_reference_keV": 99.65,
+          "delta_e_keV": 659.15
+        },
+        {
+          "spin": 3,
+          "e_negative_keV": 838.4,
+          "positive_reference_keV": 364.95000000000005,
+          "delta_e_keV": 473.44999999999993
+        },
+        {
+          "spin": 5,
+          "e_negative_keV": 1128.4,
+          "positive_reference_keV": 761.5,
+          "delta_e_keV": 366.9000000000001
+        },
+        {
+          "spin": 7,
+          "e_negative_keV": 1563.8,
+          "positive_reference_keV": 1269.15,
+          "delta_e_keV": 294.64999999999986
+        },
+        {
+          "spin": 9,
+          "e_negative_keV": 2104.5,
+          "positive_reference_keV": 1854.75,
+          "delta_e_keV": 249.75
+        },
+        {
+          "spin": 11,
+          "e_negative_keV": 2703.1,
+          "positive_reference_keV": 2491.2,
+          "delta_e_keV": 211.9000000000001
+        },
+        {
+          "spin": 13,
+          "e_negative_keV": 3319.6,
+          "positive_reference_keV": 3151.15,
+          "delta_e_keV": 168.44999999999982
+        }
+      ],
+      "experimental_locator": "Bucher et al., PRL 116, 112503 (2016), Fig. 2/Table I; level-energy audit in day21_checkpoint006"
+    },
+    "146Ba": {
+      "parameters": {
+        "kind": "soft",
+        "k2": 31.0,
+        "k4": 1350.0,
+        "A": 0.014,
+        "c3": 21.0,
+        "zpe": 0.7,
+        "prefactor": 0.74,
+        "beta_scale": 0.2,
+        "wkb_scale": 2.1
+      },
+      "rows": [
+        {
+          "spin": 0,
+          "L": 0,
+          "beta3_min": 2.8598920321674345e-10,
+          "x_min": 8.178982435654778e-20,
+          "v_eff_min_MeV": 2.5354845550529813e-18,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 740.0,
+          "dVeff_dx_at_min_MeV": 31.0
+        },
+        {
+          "spin": 1,
+          "L": 2,
+          "beta3_min": 4.0444980988139374e-10,
+          "x_min": 1.6357964871309554e-19,
+          "v_eff_min_MeV": 0.028000000000000004,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 740.0,
+          "dVeff_dx_at_min_MeV": 30.412
+        },
+        {
+          "spin": 2,
+          "L": 6,
+          "beta3_min": 7.897134991366659e-10,
+          "x_min": 6.236474107186768e-19,
+          "v_eff_min_MeV": 0.08400000000000002,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 740.0,
+          "dVeff_dx_at_min_MeV": 29.236
+        },
+        {
+          "spin": 3,
+          "L": 12,
+          "beta3_min": 1.1338579283157504e-09,
+          "x_min": 1.2856338016044851e-18,
+          "v_eff_min_MeV": 0.16800000000000004,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 740.0,
+          "dVeff_dx_at_min_MeV": 27.472000000000005
+        },
+        {
+          "spin": 4,
+          "L": 20,
+          "beta3_min": 1.6221380969174018e-09,
+          "x_min": 2.6313320054708103e-18,
+          "v_eff_min_MeV": 0.2800000000000001,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 740.0,
+          "dVeff_dx_at_min_MeV": 25.120000000000005
+        },
+        {
+          "spin": 5,
+          "L": 30,
+          "beta3_min": 2.494365123833728e-09,
+          "x_min": 6.221857370998048e-18,
+          "v_eff_min_MeV": 0.42000000000000004,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 740.0,
+          "dVeff_dx_at_min_MeV": 22.18000000000002
+        },
+        {
+          "spin": 6,
+          "L": 42,
+          "beta3_min": 2.9894775501262947e-09,
+          "x_min": 8.936976022709112e-18,
+          "v_eff_min_MeV": 0.5880000000000001,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 740.0,
+          "dVeff_dx_at_min_MeV": 18.65200000000003
+        },
+        {
+          "spin": 7,
+          "L": 56,
+          "beta3_min": 2.984062249383061e-09,
+          "x_min": 8.904627508193093e-18,
+          "v_eff_min_MeV": 0.784,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 740.0,
+          "dVeff_dx_at_min_MeV": 14.53600000000003
+        },
+        {
+          "spin": 8,
+          "L": 72,
+          "beta3_min": 3.277063885430119e-09,
+          "x_min": 1.073914770919035e-17,
+          "v_eff_min_MeV": 1.008,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 740.0,
+          "dVeff_dx_at_min_MeV": 9.83200000000004
+        },
+        {
+          "spin": 9,
+          "L": 90,
+          "beta3_min": 1.0869585368277156e-08,
+          "x_min": 1.1814788607826483e-16,
+          "v_eff_min_MeV": 1.2600000000000005,
+          "central_barrier_or_gain_MeV": 0.0,
+          "delta_model_keV": 740.0,
+          "dVeff_dx_at_min_MeV": 4.540000000000447
+        },
+        {
+          "spin": 10,
+          "L": 110,
+          "beta3_min": 0.018202640791898837,
+          "x_min": 0.0003313361317988995,
+          "v_eff_min_MeV": 1.5397782607455586,
+          "central_barrier_or_gain_MeV": 0.00022173925444146647,
+          "delta_model_keV": 739.7709317671901,
+          "dVeff_dx_at_min_MeV": 8.160459898931549e-07
+        },
+        {
+          "spin": 11,
+          "L": 132,
+          "beta3_min": 0.0429126227693834,
+          "x_min": 0.0018414931929474029,
+          "v_eff_min_MeV": 1.840860343554881,
+          "central_barrier_or_gain_MeV": 0.007139656445119158,
+          "delta_model_keV": 732.8099432188372,
+          "dVeff_dx_at_min_MeV": 1.3080692653488768e-06
+        },
+        {
+          "spin": 12,
+          "L": 156,
+          "beta3_min": 0.05785531275092618,
+          "x_min": 0.003347237213507482,
+          "v_eff_min_MeV": 2.1594544157822897,
+          "central_barrier_or_gain_MeV": 0.02454558421771047,
+          "delta_model_keV": 716.0453852437752,
+          "dVeff_dx_at_min_MeV": 5.033893799577527e-07
+        },
+        {
+          "spin": 13,
+          "L": 182,
+          "beta3_min": 0.06960606609627529,
+          "x_min": 0.004845004437399044,
+          "v_eff_min_MeV": 2.494579795083575,
+          "central_barrier_or_gain_MeV": 0.053420204916425185,
+          "delta_model_keV": 689.7865788148387,
+          "dVeff_dx_at_min_MeV": 1.4023036882804263e-06
+        },
+        {
+          "spin": 14,
+          "L": 210,
+          "beta3_min": 0.07957630412645933,
+          "x_min": 0.006332388178426749,
+          "v_eff_min_MeV": 2.845364178637677,
+          "central_barrier_or_gain_MeV": 0.09463582136232285,
+          "delta_model_keV": 654.854037759516,
+          "dVeff_dx_at_min_MeV": 1.411559090058745e-06
+        },
+        {
+          "spin": 15,
+          "L": 240,
+          "beta3_min": 0.08836172981399272,
+          "x_min": 0.007807795295721049,
+          "v_eff_min_MeV": 3.211027863274163,
+          "central_barrier_or_gain_MeV": 0.14897213672583698,
+          "delta_model_keV": 612.5008427485191,
+          "dVeff_dx_at_min_MeV": 1.250363148130873e-06
+        },
+        {
+          "spin": 16,
+          "L": 272,
+          "beta3_min": 0.09628190958529374,
+          "x_min": 0.009270206113390678,
+          "v_eff_min_MeV": 3.5908705212317837,
+          "central_barrier_or_gain_MeV": 0.21712947876821653,
+          "delta_model_keV": 564.3045900648326,
+          "dVeff_dx_at_min_MeV": 1.7357824049213377e-06
+        },
+        {
+          "spin": 17,
+          "L": 306,
+          "beta3_min": 0.10353263725610105,
+          "x_min": 0.010719006977203405,
+          "v_eff_min_MeV": 3.9842601510926543,
+          "central_barrier_or_gain_MeV": 0.2997398489073455,
+          "delta_model_keV": 512.0411533284438,
+          "dVeff_dx_at_min_MeV": 1.6361325947400474e-06
+        },
+        {
+          "spin": 18,
+          "L": 342,
+          "beta3_min": 0.11024460770677562,
+          "x_min": 0.012153873528420851,
+          "v_eff_min_MeV": 4.390623842692716,
+          "central_barrier_or_gain_MeV": 0.39737615730728404,
+          "delta_model_keV": 457.55306785693375,
+          "dVeff_dx_at_min_MeV": 1.2305242620413992e-06
+        },
+        {
+          "spin": 19,
+          "L": 380,
+          "beta3_min": 0.11651045845814394,
+          "x_min": 0.013574686930126884,
+          "v_eff_min_MeV": 4.8094400398401564,
+          "central_barrier_or_gain_MeV": 0.5105599601598438,
+          "delta_model_keV": 402.625155569441,
+          "dVeff_dx_at_min_MeV": 3.971138369252003e-07
+        },
+        {
+          "spin": 20,
+          "L": 420,
+          "beta3_min": 0.12239883487403608,
+          "x_min": 0.014981474778521551,
+          "v_eff_min_MeV": 5.240232034833916,
+          "central_barrier_or_gain_MeV": 0.6397679651660839,
+          "delta_model_keV": 348.8780609158094,
+          "dVeff_dx_at_min_MeV": 1.0781239438983903e-06
+        },
+        {
+          "spin": 21,
+          "L": 462,
+          "beta3_min": 0.12796236625899288,
+          "x_min": 0.016374367178600642,
+          "v_eff_min_MeV": 5.6825624755156525,
+          "central_barrier_or_gain_MeV": 0.7854375244843474,
+          "delta_model_keV": 297.6873953560183,
+          "dVeff_dx_at_min_MeV": 2.2326887574308785e-06
+        },
+        {
+          "spin": 22,
+          "L": 506,
+          "beta3_min": 0.13324250789641034,
+          "x_min": 0.017753565910524974,
+          "v_eff_min_MeV": 6.1360287059860825,
+          "central_barrier_or_gain_MeV": 0.947971294013918,
+          "delta_model_keV": 250.13244652450666,
+          "dVeff_dx_at_min_MeV": 8.152425863272583e-07
+        },
+        {
+          "spin": 23,
+          "L": 552,
+          "beta3_min": 0.1382726426503912,
+          "x_min": 0.01911932370552278,
+          "v_eff_min_MeV": 6.600258795742122,
+          "central_barrier_or_gain_MeV": 1.1277412042578776,
+          "delta_model_keV": 206.97480514974936,
+          "dVeff_dx_at_min_MeV": 1.4250197750698135e-06
+        },
+        {
+          "spin": 24,
+          "L": 600,
+          "beta3_min": 0.14308013382489237,
+          "x_min": 0.020471924695349114,
+          "v_eff_min_MeV": 7.074908139426723,
+          "central_barrier_or_gain_MeV": 1.325091860573277,
+          "delta_model_keV": 168.6641972161955,
+          "dVeff_dx_at_min_MeV": 8.742410386730626e-07
+        }
+      ],
+      "derivative_check": {
+        "spin": 12,
+        "x": 0.013,
+        "analytic_MeV": 37.798130672144694,
+        "finite_difference_MeV": 37.79813066451254,
+        "absolute_error_MeV": 7.632152687619964e-09
+      },
+      "experimental_delta_e_keV": [
+        {
+          "spin": 1,
+          "e_negative_keV": 737.9,
+          "positive_reference_keV": 90.5,
+          "delta_e_keV": 647.4
+        },
+        {
+          "spin": 3,
+          "e_negative_keV": 821.1,
+          "positive_reference_keV": 347.25,
+          "delta_e_keV": 473.85
+        },
+        {
+          "spin": 5,
+          "e_negative_keV": 1084.7,
+          "positive_reference_keV": 749.1,
+          "delta_e_keV": 335.6
+        },
+        {
+          "spin": 7,
+          "e_negative_keV": 1492.2,
+          "positive_reference_keV": 1270.85,
+          "delta_e_keV": 221.35000000000014
+        },
+        {
+          "spin": 9,
+          "e_negative_keV": 2012.3,
+          "positive_reference_keV": 1873.35,
+          "delta_e_keV": 138.95000000000005
+        },
+        {
+          "spin": 11,
+          "e_negative_keV": 2593.4,
+          "positive_reference_keV": 2515.35,
+          "delta_e_keV": 78.05000000000018
+        }
+      ],
+      "experimental_locator": "Bucher et al., PRL 118, 152504 (2017), Fig. 2/Table I; level-energy audit in day21_checkpoint006"
+    },
+    "224Ra": {
+      "parameters": {
+        "kind": "double",
+        "x0": 0.019600000000000003,
+        "barrier": 1.45,
+        "A": 0.01,
+        "c3": 20.0,
+        "zpe": 0.7,
+        "prefactor": 2.7,
+        "beta_scale": 0.14,
+        "wkb_scale": 1.9
+      },
+      "rows": [
+        {
+          "spin": 0,
+          "L": 0,
+          "beta3_min": 0.14,
+          "x_min": 0.019600000000000006,
+          "v_eff_min_MeV": 7.149051953565419e-32,
+          "central_barrier_or_gain_MeV": 1.45,
+          "delta_model_keV": 175.28968827647012,
+          "dVeff_dx_at_min_MeV": 3.285353848380565e-14
+        },
+        {
+          "spin": 1,
+          "L": 2,
+          "beta3_min": 0.14009755412476724,
+          "x_min": 0.019627324671742087,
+          "v_eff_min_MeV": 0.014364995721304558,
+          "central_barrier_or_gain_MeV": 1.4556350042786954,
+          "delta_model_keV": 173.69690665375123,
+          "dVeff_dx_at_min_MeV": 1.0700074401515103e-07
+        },
+        {
+          "spin": 2,
+          "L": 6,
+          "beta3_min": 0.14029200177042267,
+          "x_min": 0.019681845760752277,
+          "v_eff_min_MeV": 0.043078104676847695,
+          "central_barrier_or_gain_MeV": 1.4669218953231522,
+          "delta_model_keV": 170.55268043296425,
+          "dVeff_dx_at_min_MeV": 1.1680636924360499e-07
+        },
+        {
+          "spin": 3,
+          "L": 12,
+          "beta3_min": 0.14058203824511445,
+          "x_min": 0.01976330947715082,
+          "v_eff_min_MeV": 0.08610575918497812,
+          "central_barrier_or_gain_MeV": 1.4838942408150217,
+          "delta_model_keV": 165.93802579878528,
+          "dVeff_dx_at_min_MeV": 4.050627746554625e-07
+        },
+        {
+          "spin": 4,
+          "L": 20,
+          "beta3_min": 0.14096574573830337,
+          "x_min": 0.019871341471555996,
+          "v_eff_min_MeV": 0.14339809455184588,
+          "central_barrier_or_gain_MeV": 1.506601905448154,
+          "delta_model_keV": 159.9704110005081,
+          "dVeff_dx_at_min_MeV": 9.150115602984954e-07
+        },
+        {
+          "spin": 5,
+          "L": 30,
+          "beta3_min": 0.14144063803830886,
+          "x_min": 0.020005454088683906,
+          "v_eff_min_MeV": 0.21488951574230533,
+          "central_barrier_or_gain_MeV": 1.5351104842576946,
+          "delta_model_keV": 152.79911081440446,
+          "dVeff_dx_at_min_MeV": 2.424704010905998e-07
+        },
+        {
+          "spin": 6,
+          "L": 42,
+          "beta3_min": 0.142003719278471,
+          "x_min": 0.0201650562889188,
+          "v_eff_min_MeV": 0.30049942490507425,
+          "central_barrier_or_gain_MeV": 1.5695005750949256,
+          "delta_model_keV": 144.59935469861458,
+          "dVeff_dx_at_min_MeV": 2.8699357024208894e-07
+        },
+        {
+          "spin": 7,
+          "L": 56,
+          "beta3_min": 0.14265154613462575,
+          "x_min": 0.02034946361459926,
+          "v_eff_min_MeV": 0.4001330879362961,
+          "central_barrier_or_gain_MeV": 1.6098669120637037,
+          "delta_model_keV": 135.5656051910996,
+          "dVeff_dx_at_min_MeV": -5.459334788682213e-07
+        },
+        {
+          "spin": 8,
+          "L": 72,
+          "beta3_min": 0.1433803022549335,
+          "x_min": 0.020557911074716093,
+          "v_eff_min_MeV": 0.5136826153198287,
+          "central_barrier_or_gain_MeV": 1.6563173846801713,
+          "delta_model_keV": 125.90422579730068,
+          "dVeff_dx_at_min_MeV": -3.653440225903637e-07
+        },
+        {
+          "spin": 9,
+          "L": 90,
+          "beta3_min": 0.1441858698336669,
+          "x_min": 0.020789565059691137,
+          "v_eff_min_MeV": 0.6410280308462241,
+          "central_barrier_or_gain_MeV": 1.708971969153776,
+          "delta_model_keV": 115.82597216637835,
+          "dVeff_dx_at_min_MeV": 5.958575002296129e-07
+        },
+        {
+          "spin": 10,
+          "L": 110,
+          "beta3_min": 0.14506390452646048,
+          "x_min": 0.02104353639646204,
+          "v_eff_min_MeV": 0.782038401452454,
+          "central_barrier_or_gain_MeV": 1.7679615985475459,
+          "delta_model_keV": 105.53861830494245,
+          "dVeff_dx_at_min_MeV": 1.1848245939916069e-06
+        },
+        {
+          "spin": 11,
+          "L": 132,
+          "beta3_min": 0.14600990823524562,
+          "x_min": 0.02131889330286485,
+          "v_eff_min_MeV": 0.9365730022173225,
+          "central_barrier_or_gain_MeV": 1.8334269977826776,
+          "delta_model_keV": 95.24008919235037,
+          "dVeff_dx_at_min_MeV": 8.916858718066578e-07
+        },
+        {
+          "spin": 12,
+          "L": 156,
+          "beta3_min": 0.147019297395176,
+          "x_min": 0.021614673806571207,
+          "v_eff_min_MeV": 1.104482492302745,
+          "central_barrier_or_gain_MeV": 1.9055175076972548,
+          "delta_model_keV": 85.1124158789085,
+          "dVeff_dx_at_min_MeV": 1.008824032311395e-06
+        },
+        {
+          "spin": 13,
+          "L": 182,
+          "beta3_min": 0.14808746390480926,
+          "x_min": 0.021929896965758186,
+          "v_eff_min_MeV": 1.2856100801189312,
+          "central_barrier_or_gain_MeV": 1.9843899198810688,
+          "delta_model_keV": 75.3167743872665,
+          "dVeff_dx_at_min_MeV": 2.2303087980901637e-06
+        },
+        {
+          "spin": 14,
+          "L": 210,
+          "beta3_min": 0.14920982839262606,
+          "x_min": 0.022263572888956917,
+          "v_eff_min_MeV": 1.4797926589697055,
+          "central_barrier_or_gain_MeV": 2.0702073410302946,
+          "delta_model_keV": 65.98978587987857,
+          "dVeff_dx_at_min_MeV": 1.2116311509657862e-07
+        },
+        {
+          "spin": 15,
+          "L": 240,
+          "beta3_min": 0.15038189428111037,
+          "x_min": 0.022614714127575056,
+          "v_eff_min_MeV": 1.6868618976705332,
+          "central_barrier_or_gain_MeV": 2.1631381023294667,
+          "delta_model_keV": 57.24114999014596,
+          "dVeff_dx_at_min_MeV": 4.814184428880708e-07
+        },
+        {
+          "spin": 16,
+          "L": 272,
+          "beta3_min": 0.1515992796023205,
+          "x_min": 0.022982341575942547,
+          "v_eff_min_MeV": 1.9066452739213415,
+          "central_barrier_or_gain_MeV": 2.263354726078658,
+          "delta_model_keV": 49.15270381675879,
+          "dVeff_dx_at_min_MeV": -1.607973914019567e-07
+        },
+        {
+          "spin": 17,
+          "L": 306,
+          "beta3_min": 0.15285775598610998,
+          "x_min": 0.02336549356510914,
+          "v_eff_min_MeV": 2.138967041391471,
+          "central_barrier_or_gain_MeV": 2.3710329586085286,
+          "delta_model_keV": 41.77873461295714,
+          "dVeff_dx_at_min_MeV": 1.3959047180378548e-06
+        },
+        {
+          "spin": 18,
+          "L": 342,
+          "beta3_min": 0.15415326816667638,
+          "x_min": 0.02376323008646724,
+          "v_eff_min_MeV": 2.383649124409586,
+          "central_barrier_or_gain_MeV": 2.4863508755904142,
+          "delta_model_keV": 35.14748905400578,
+          "dVeff_dx_at_min_MeV": 7.655862539479585e-07
+        },
+        {
+          "spin": 19,
+          "L": 380,
+          "beta3_min": 0.15548195907388196,
+          "x_min": 0.024174639597452308,
+          "v_eff_min_MeV": 2.6405119367631253,
+          "central_barrier_or_gain_MeV": 2.6094880632368747,
+          "delta_model_keV": 29.263608385780557,
+          "dVeff_dx_at_min_MeV": 2.285159801829195e-06
+        },
+        {
+          "spin": 20,
+          "L": 420,
+          "beta3_min": 0.15684017646429232,
+          "x_min": 0.024598840953350354,
+          "v_eff_min_MeV": 2.9093751233531995,
+          "central_barrier_or_gain_MeV": 2.740624876646801,
+          "delta_model_keV": 24.111308588124597,
+          "dVeff_dx_at_min_MeV": 3.4179539980527807e-06
+        },
+        {
+          "spin": 21,
+          "L": 462,
+          "beta3_min": 0.15822448385989338,
+          "x_min": 0.02503498729272966,
+          "v_eff_min_MeV": 3.1900582253062355,
+          "central_barrier_or_gain_MeV": 2.8799417746937648,
+          "delta_model_keV": 19.657996977087365,
+          "dVeff_dx_at_min_MeV": 3.3034946440579915e-06
+        },
+        {
+          "spin": 22,
+          "L": 506,
+          "beta3_min": 0.1596316625488324,
+          "x_min": 0.025482267688104306,
+          "v_eff_min_MeV": 3.4823812706217967,
+          "central_barrier_or_gain_MeV": 3.027618729378204,
+          "delta_model_keV": 15.85810095532788,
+          "dVeff_dx_at_min_MeV": -3.6323949359484686e-07
+        },
+        {
+          "spin": 23,
+          "L": 552,
+          "beta3_min": 0.16105871524751833,
+          "x_min": 0.02593990975718119,
+          "v_eff_min_MeV": 3.7861652935626897,
+          "central_barrier_or_gain_MeV": 3.183834706437311,
+          "delta_model_keV": 12.656859500895074,
+          "dVeff_dx_at_min_MeV": 2.9604120754811447e-07
+        },
+        {
+          "spin": 24,
+          "L": 600,
+          "beta3_min": 0.16250285439759615,
+          "x_min": 0.026407177687366334,
+          "v_eff_min_MeV": 4.101232786805358,
+          "central_barrier_or_gain_MeV": 3.348767213194642,
+          "delta_model_keV": 9.993897949231128,
+          "dVeff_dx_at_min_MeV": 4.4738715843095633e-07
+        }
+      ],
+      "derivative_check": {
+        "spin": 12,
+        "x": 0.013,
+        "analytic_MeV": -69.47529578724915,
+        "finite_difference_MeV": -69.47529579204304,
+        "absolute_error_MeV": 4.793889729626244e-09
+      },
+      "experimental_delta_e_keV": [
+        {
+          "spin": 1,
+          "e_negative_keV": 216.0,
+          "positive_reference_keV": 42.2,
+          "delta_e_keV": 173.8
+        },
+        {
+          "spin": 3,
+          "e_negative_keV": 290.4,
+          "positive_reference_keV": 167.60000000000002,
+          "delta_e_keV": 122.79999999999995
+        },
+        {
+          "spin": 5,
+          "e_negative_keV": 433.4,
+          "positive_reference_keV": 365.05,
+          "delta_e_keV": 68.34999999999997
+        },
+        {
+          "spin": 7,
+          "e_negative_keV": 641.1,
+          "positive_reference_keV": 620.95,
+          "delta_e_keV": 20.149999999999977
+        },
+        {
+          "spin": 9,
+          "e_negative_keV": 906.4,
+          "positive_reference_keV": 928.95,
+          "delta_e_keV": -22.550000000000068
+        },
+        {
+          "spin": 11,
+          "e_negative_keV": 1225.4,
+          "positive_reference_keV": 1283.65,
+          "delta_e_keV": -58.25
+        }
+      ],
+      "experimental_locator": "Gaffney et al., Nature 497, 199-204 (2013), Fig. 3/Table 1-2; source page notes"
+    },
+    "226Th": {
+      "parameters": {
+        "kind": "double",
+        "x0": 0.0225,
+        "barrier": 0.9,
+        "A": 0.01,
+        "c3": 18.0,
+        "zpe": 0.7,
+        "prefactor": 1.68,
+        "beta_scale": 0.15,
+        "wkb_scale": 1.9
+      },
+      "rows": [
+        {
+          "spin": 0,
+          "L": 0,
+          "beta3_min": 0.15,
+          "x_min": 0.0225,
+          "v_eff_min_MeV": 0.0,
+          "central_barrier_or_gain_MeV": 0.9,
+          "delta_model_keV": 194.8347135376909,
+          "dVeff_dx_at_min_MeV": -0.0
+        },
+        {
+          "spin": 1,
+          "L": 2,
+          "beta3_min": 0.15017064924177564,
+          "x_min": 0.02255122389369641,
+          "v_eff_min_MeV": 0.0142302046345377,
+          "central_barrier_or_gain_MeV": 0.9057697953654623,
+          "delta_model_keV": 192.54624858445462,
+          "dVeff_dx_at_min_MeV": 1.1728972348912237e-08
+        },
+        {
+          "spin": 2,
+          "L": 6,
+          "beta3_min": 0.15051003608946903,
+          "x_min": 0.02265327096365327,
+          "v_eff_min_MeV": 0.04266269881390239,
+          "central_barrier_or_gain_MeV": 0.9173373011860976,
+          "delta_model_keV": 188.045363916439,
+          "dVeff_dx_at_min_MeV": 1.8910194543586556e-07
+        },
+        {
+          "spin": 3,
+          "L": 12,
+          "beta3_min": 0.1510144137276562,
+          "x_min": 0.022805353153507714,
+          "v_eff_min_MeV": 0.08524219483065279,
+          "central_barrier_or_gain_MeV": 0.9347578051693473,
+          "delta_model_keV": 181.48034859506842,
+          "dVeff_dx_at_min_MeV": 1.6171783401297546e-07
+        },
+        {
+          "spin": 4,
+          "L": 20,
+          "beta3_min": 0.1516783487524514,
+          "x_min": 0.02300632148027027,
+          "v_eff_min_MeV": 0.1418870881876908,
+          "central_barrier_or_gain_MeV": 0.9581129118123093,
+          "delta_model_keV": 173.06433210844222,
+          "dVeff_dx_at_min_MeV": 1.376520144535931e-07
+        },
+        {
+          "spin": 5,
+          "L": 30,
+          "beta3_min": 0.15249492604528447,
+          "x_min": 0.023254702469556784,
+          "v_eff_min_MeV": 0.21249097156632807,
+          "central_barrier_or_gain_MeV": 0.9875090284336718,
+          "delta_model_keV": 163.0647182534781,
+          "dVeff_dx_at_min_MeV": -6.705465827039347e-08
+        },
+        {
+          "spin": 6,
+          "L": 42,
+          "beta3_min": 0.15345599772681093,
+          "x_min": 0.023548743238331005,
+          "v_eff_min_MeV": 0.2969245311436044,
+          "central_barrier_or_gain_MeV": 1.0230754688563957,
+          "delta_model_keV": 151.79004973574155,
+          "dVeff_dx_at_min_MeV": 2.3772104951191864e-07
+        },
+        {
+          "spin": 7,
+          "L": 56,
+          "beta3_min": 0.15455245278800242,
+          "x_min": 0.02388646066278772,
+          "v_eff_min_MeV": 0.39503773604103615,
+          "central_barrier_or_gain_MeV": 1.0649622639589638,
+          "delta_model_keV": 139.57511603364466,
+          "dVeff_dx_at_min_MeV": 1.6929029023060593e-07
+        },
+        {
+          "spin": 8,
+          "L": 72,
+          "beta3_min": 0.15577449818553885,
+          "x_min": 0.024265694284956445,
+          "v_eff_min_MeV": 0.5066622259656004,
+          "central_barrier_or_gain_MeV": 1.1133377740343997,
+          "delta_model_keV": 126.76517644829899,
+          "dVeff_dx_at_min_MeV": 5.239534317524885e-07
+        },
+        {
+          "spin": 9,
+          "L": 90,
+          "beta3_min": 0.15711192488446485,
+          "x_min": 0.024684156940901723,
+          "v_eff_min_MeV": 0.6316138036307791,
+          "central_barrier_or_gain_MeV": 1.1683861963692208,
+          "delta_model_keV": 113.70033288816698,
+          "dVeff_dx_at_min_MeV": 5.97551002456953e-07
+        },
+        {
+          "spin": 10,
+          "L": 110,
+          "beta3_min": 0.15855435754451136,
+          "x_min": 0.025139484296352745,
+          "v_eff_min_MeV": 0.7696949460768029,
+          "central_barrier_or_gain_MeV": 1.230305053923197,
+          "delta_model_keV": 100.70097613744248,
+          "dVeff_dx_at_min_MeV": 1.1268286179699771e-06
+        },
+        {
+          "spin": 11,
+          "L": 132,
+          "beta3_min": 0.16009146847494476,
+          "x_min": 0.025629278278464236,
+          "v_eff_min_MeV": 0.9206972608403777,
+          "central_barrier_or_gain_MeV": 1.2993027391596224,
+          "delta_model_keV": 88.0552371873259,
+          "dVeff_dx_at_min_MeV": 1.0387579720827489e-06
+        },
+        {
+          "spin": 12,
+          "L": 156,
+          "beta3_min": 0.1617131620256653,
+          "x_min": 0.026151146772339075,
+          "v_eff_min_MeV": 1.0844038272253993,
+          "central_barrier_or_gain_MeV": 1.3755961727746007,
+          "delta_model_keV": 76.00911404672505,
+          "dVeff_dx_at_min_MeV": 9.77040457428302e-07
+        },
+        {
+          "spin": 13,
+          "L": 182,
+          "beta3_min": 0.16340971661656925,
+          "x_min": 0.026702735484707467,
+          "v_eff_min_MeV": 1.26059137801712,
+          "central_barrier_or_gain_MeV": 1.4594086219828801,
+          "delta_model_keV": 64.75979498504232,
+          "dVeff_dx_at_min_MeV": 2.756067694065223e-07
+        },
+        {
+          "spin": 14,
+          "L": 210,
+          "beta3_min": 0.16517189661714862,
+          "x_min": 0.02728175543210603,
+          "v_eff_min_MeV": 1.4490322915098681,
+          "central_barrier_or_gain_MeV": 1.5509677084901319,
+          "delta_model_keV": 54.45234314232029,
+          "dVeff_dx_at_min_MeV": 9.578247350816582e-07
+        },
+        {
+          "spin": 15,
+          "L": 240,
+          "beta3_min": 0.1669910227477145,
+          "x_min": 0.0278860016783277,
+          "v_eff_min_MeV": 1.649496376734101,
+          "central_barrier_or_gain_MeV": 1.6505036232658987,
+          "delta_model_keV": 45.17970096190497,
+          "dVeff_dx_at_min_MeV": 7.83493657507961e-07
+        },
+        {
+          "spin": 16,
+          "L": 272,
+          "beta3_min": 0.16885902495336005,
+          "x_min": 0.02851337030819947,
+          "v_eff_min_MeV": 1.861752445722766,
+          "central_barrier_or_gain_MeV": 1.758247554277234,
+          "delta_model_keV": 36.985620258044044,
+          "dVeff_dx_at_min_MeV": 7.825775973913096e-07
+        },
+        {
+          "spin": 17,
+          "L": 306,
+          "beta3_min": 0.17076846126082898,
+          "x_min": 0.029161867361391244,
+          "v_eff_min_MeV": 2.085569675340017,
+          "central_barrier_or_gain_MeV": 1.8744303246599832,
+          "delta_model_keV": 29.870019993355182,
+          "dVeff_dx_at_min_MeV": 7.775253507702473e-08
+        },
+        {
+          "spin": 18,
+          "L": 342,
+          "beta3_min": 0.17271252555040212,
+          "x_min": 0.029829616481998306,
+          "v_eff_min_MeV": 2.3207187676528274,
+          "central_barrier_or_gain_MeV": 1.999281232347173,
+          "delta_model_keV": 23.796045271554764,
+          "dVeff_dx_at_min_MeV": 2.072447212952966e-06
+        },
+        {
+          "spin": 19,
+          "L": 380,
+          "beta3_min": 0.17468502571393674,
+          "x_min": 0.03051485820867874,
+          "v_eff_min_MeV": 2.566972922270955,
+          "central_barrier_or_gain_MeV": 2.133027077729045,
+          "delta_model_keV": 18.69812419615511,
+          "dVeff_dx_at_min_MeV": 1.63031597111285e-07
+        },
+        {
+          "spin": 20,
+          "L": 420,
+          "beta3_min": 0.1766803762453513,
+          "x_min": 0.031215955350198894,
+          "v_eff_min_MeV": 2.8241086368165136,
+          "central_barrier_or_gain_MeV": 2.275891363183487,
+          "delta_model_keV": 14.490255178233342,
+          "dVeff_dx_at_min_MeV": -2.2432839585917463e-08
+        },
+        {
+          "spin": 21,
+          "L": 462,
+          "beta3_min": 0.1786935547589605,
+          "x_min": 0.03193138651239362,
+          "v_eff_min_MeV": 3.091906353045871,
+          "central_barrier_or_gain_MeV": 2.4280936469541294,
+          "delta_model_keV": 11.073967571127362,
+          "dVeff_dx_at_min_MeV": 1.1952167184858808e-06
+        },
+        {
+          "spin": 22,
+          "L": 506,
+          "beta3_min": 0.18072006892087344,
+          "x_min": 0.03265974331076525,
+          "v_eff_min_MeV": 3.3701509664587506,
+          "central_barrier_or_gain_MeV": 2.5898490335412503,
+          "delta_model_keV": 8.345412150818508,
+          "dVeff_dx_at_min_MeV": 1.0204551443848686e-06
+        },
+        {
+          "spin": 23,
+          "L": 552,
+          "beta3_min": 0.1827559216430446,
+          "x_min": 0.033399726895598655,
+          "v_eff_min_MeV": 3.6586322167833427,
+          "central_barrier_or_gain_MeV": 2.761367783216658,
+          "delta_model_keV": 6.201278268313245,
+          "dVeff_dx_at_min_MeV": -1.2520952452632628e-07
+        },
+        {
+          "spin": 24,
+          "L": 600,
+          "beta3_min": 0.1847975716693615,
+          "x_min": 0.0341501424948928,
+          "v_eff_min_MeV": 3.9571449757673123,
+          "central_barrier_or_gain_MeV": 2.942855024232688,
+          "delta_model_keV": 4.543373196929777,
+          "dVeff_dx_at_min_MeV": 2.0029010485700383e-06
+        }
+      ],
+      "derivative_check": {
+        "spin": 12,
+        "x": 0.013,
+        "analytic_MeV": -52.218026905018135,
+        "finite_difference_MeV": -52.21802690913435,
+        "absolute_error_MeV": 4.116216700822406e-09
+      },
+      "experimental_delta_e_keV": [
+        {
+          "spin": 1,
+          "e_negative_keV": 230.37,
+          "positive_reference_keV": 36.1,
+          "delta_e_keV": 194.27
+        },
+        {
+          "spin": 3,
+          "e_negative_keV": 307.5,
+          "positive_reference_keV": 149.315,
+          "delta_e_keV": 158.185
+        },
+        {
+          "spin": 5,
+          "e_negative_keV": 450.5,
+          "positive_reference_keV": 336.865,
+          "delta_e_keV": 113.63499999999999
+        },
+        {
+          "spin": 7,
+          "e_negative_keV": 657.9,
+          "positive_reference_keV": 584.6,
+          "delta_e_keV": 73.29999999999995
+        },
+        {
+          "spin": 9,
+          "e_negative_keV": 923.1,
+          "positive_reference_keV": 881.0999999999999,
+          "delta_e_keV": 42.000000000000114
+        },
+        {
+          "spin": 11,
+          "e_negative_keV": 1238.4,
+          "positive_reference_keV": 1217.75,
+          "delta_e_keV": 20.65000000000009
+        },
+        {
+          "spin": 13,
+          "e_negative_keV": 1596.0,
+          "positive_reference_keV": 1588.35,
+          "delta_e_keV": 7.650000000000091
+        },
+        {
+          "spin": 15,
+          "e_negative_keV": 1989.4,
+          "positive_reference_keV": 1988.65,
+          "delta_e_keV": 0.75
+        },
+        {
+          "spin": 17,
+          "e_negative_keV": 2412.8,
+          "positive_reference_keV": 2415.45,
+          "delta_e_keV": -2.649999999999636
+        },
+        {
+          "spin": 19,
+          "e_negative_keV": 2861.1,
+          "positive_reference_keV": 2866.1,
+          "delta_e_keV": -5.0
+        }
+      ],
+      "experimental_locator": "NNDC ENSDF Adopted Levels, 226Th, PDF pp.1-3, K=0+ ground band and K=0- octupole-vibrational band"
+    }
+  }
+}

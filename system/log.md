@@ -4691,3 +4691,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   1. 144/146Ba偶极相消微观机制闭环（knowledge/questions.md）：回写144,146Ba直接B(E3)相近与146Ba E1暴跌至9.27e-7 W.u.事实，回链nu(h9/2, f7/2, i13/2)占据反向极化相消与过零点微商-0.77 e fm/v2灵敏度；
   2. 三级证据梯度与四大质量门禁确立（knowledge/questions.md）：回写Tier 1实验量、Tier 2导出强度与Tier 3模型解释分层，确立防止模型假设冒充实验事实的质量门禁；
   3. 全量检查全绿：wiki_lint.py 0 error/315 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T07:15:00+08:00 Day26 checkpoint081：八极离心稳定化、PNC配对阻塞微观演化及铅区SD/MR双阱共存。
+  1. 八极形变离心稳定化与交错位移收敛机制（octupole-centrifugal-stabilization-and-energy-displacement.md，工件 octupole-stabilization/）：核算144,146Ba与224Ra,226Th交错能级演化，推导转动能微商驱动极小外移与势垒加深，建立一维有效模型并保留高自旋对称性恢复竞争边界；
+  2. PNC-CSM对105Cd与106-110Cd配对阻塞与相互作用参数审计（amr-pairing-pnc-blocking-and-interaction-evolution.md，工件 amr-pnc-blocking/）：证明固定N相干混合特性，量化d5/2与g7/2阻塞对J^(2)峰值的选择性调制，澄清V_pinu=1.2 MeV有效参数地位；
+  3. 铅区超形变与磁转动同核共存多阱拓扑（sd-mr-dual-well-coexistence-pb190-boundary.md，工件 sd-mr-coexistence/）：对账193-196Pb SD带（Q0~20 eb）与MR剪刀带（B(M1)达9 muN2）共存第一手证据，建立双阱势能面与动力学惯量尺度模型；
+  4. 全量检查全绿：wiki_lint.py 0 error/318 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

@@ -1,0 +1,53 @@
+{
+  "purpose": "Acquisition and locator ledger for the SD/MR A~190 Pb boundary note",
+  "retrieval_date": "2026-10-29",
+  "sources": [
+    {
+      "citation": "Astier et al., Z. Phys. A 358, 195-196 (1997)",
+      "doi": "10.1007/s002180050305",
+      "direct_pdf": "https://link.springer.com/content/pdf/10.1007/s002180050305.pdf",
+      "local_sha256": "e2eb87557ca9f3176b329702334984a1df59b1cff7cf82ef3ad4878bc9c7483f",
+      "locator": "pp.195-196, abstract, Fig.1-2; five dipole cascades, six SD bands, B(M1)/B(E2) statements",
+      "evidence_class": "primary_experiment_short_report"
+    },
+    {
+      "citation": "Bouneau et al., Z. Phys. A 358, 179-180 (1997)",
+      "doi": "10.1007/s002180050299",
+      "direct_pdf": "https://link.springer.com/content/pdf/10.1007/s002180050299.pdf",
+      "local_sha256": "1e9edb8e28dee822d264f1297573cb16e6a59295f6eefe7a121de748da3c1d20",
+      "locator": "pp.179-180, abstract and SD4 paragraph; 196Pb excited SD bands and E1 links",
+      "evidence_class": "primary_experiment_short_report"
+    },
+    {
+      "citation": "van Severen et al., Phys. Lett. B 434, 14-20 (1998)",
+      "doi": "10.1016/S0370-2693(98)00819-3",
+      "direct_metadata": "https://api.crossref.org/works/10.1016/S0370-2693(98)00819-3",
+      "abstract_verification": "https://api.openalex.org/works/https://doi.org/10.1016/S0370-2693(98)00819-3",
+      "locator": "abstract; DSAM Qt comparison for 193-196Pb",
+      "evidence_class": "primary_experiment_abstract_metadata_verified"
+    },
+    {
+      "citation": "H. Hubel, Prog. Part. Nucl. Phys. 54, 1-69 (2005)",
+      "doi": "10.1016/j.ppnp.2004.06.002",
+      "local_raw": "raw/papers/gpt/high-spin-20260920/review/2005_Hübel_Magnetic rotation in nuclei.pdf",
+      "local_sha256": "8b1913a7639ccdb4f5fa53348453f604048703c2e7942f40b4b4c793d8be4a77",
+      "locator": "pp.3-4, 13-19, 25-27, 33-40, 41-55; Figs.11-16, 24, 36-37, 45-48",
+      "evidence_class": "review_of_primary_experiments"
+    },
+    {
+      "citation": "H. Hubel, Spectroscopy of superdeformed Pb isotopes (2001)",
+      "arxiv": "nucl-ex/0104027v1",
+      "direct_pdf": "https://arxiv.org/pdf/nucl-ex/0104027",
+      "local_sha256": "bad07993157ca769e754e348d6704073b5f504010804a3ac7574ddbed96b4e55",
+      "locator": "pp.2-7, Table 1-2; 193Pb SD configurations and 196Pb Q_t/E1 discussion",
+      "evidence_class": "conference_review_primary_summary"
+    },
+    {
+      "citation": "Clark and Macchiavelli, Annu. Rev. Nucl. Part. Sci. 50, 1-36 (2000)",
+      "doi": "10.1146/annurev.nucl.50.1.1",
+      "locator": "pp.5-8, 13-18, 23-27; shears observables and Pb-region model boundary",
+      "evidence_class": "review"
+    }
+  ],
+  "caveat": "The temporary PDFs used for inspection are outside the tracked output; URLs and hashes above make the retrieval auditable. No raw/ source file was overwritten."
+}
