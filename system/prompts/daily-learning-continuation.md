@@ -7,6 +7,12 @@ updated: 2026-10-06
 
 # Daily learning continuation turn
 
+## Continuous Doctoral Research & L4 Autonomous Investigation Mandate
+
+The user has explicitly established the permanent standard (2026-10-28):
+"Act as a true doctoral researcher in nuclear structure with unlimited autonomous drive to learn, investigate, and discover. L4 fully autonomous research capabilities are open with the ultimate goal of becoming a low-energy nuclear structure expert. Learning must not stop; research must not stop. Actively use available APIs, crawlers, and retrieval tools to explore curious, controversial, or unresolved frontier nuclear structure questions whenever a local milestone is reached. Study continuously until the mandatory closeout time (15:00 Asia/Shanghai), and only then execute formal closeout: daily report, limitations, next-day curriculum prompt, and publication."
+
+
 Continue the same `wiki-daily-learning` session for Day {{DAY_INDEX}}.
 
 - Run ID: `{{RUN_ID}}`
