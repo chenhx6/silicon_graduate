@@ -1,0 +1,13 @@
+{
+  "schema": "egido-route-audit-042/v1",
+  "doi": "10.1016/0375-9474(90)90141-8",
+  "pii": "0375947490901418",
+  "attempts": [
+    {"url": "https://reader.elsevier.com/reader/sd/pii/0375947490901418", "status": "tls_handshake_failure", "fulltext": false},
+    {"url": "https://www.sciencedirect.com/science/article/pii/0375947490901418/pdfft", "status": "http_403", "fulltext": false},
+    {"url": "https://api.elsevier.com/content/article/pii/0375947490901418?httpAccept=application%2Fpdf", "status": "not_obtained_in_this_probe", "fulltext": false},
+    {"url": "https://api.elsevier.com/content/article/PII:0375947490901418?httpAccept=application%2Fpdf", "status": "not_obtained_in_this_probe", "fulltext": false}
+  ],
+  "evidence_boundary": "No Egido-Robledo 1990 body, page image, or text was obtained; metadata and failure responses do not support shell-by-shell numerical claims.",
+  "next_route": "institutional or author repository with lawful access; do not bypass 403 or TLS restrictions"
+}

@@ -11,6 +11,8 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[egido-robledo-retrieval-boundary]] — Egido–Robledo 1990 正文公开入口探测与证据缺口。
+
 - [[pr135-erratum-boundary]] — 勘误对135Pr MR证据链的影响边界。
 - [[garg-2019-135pr-polarization-erratum]] — 135Pr 2019公开勘误：813.3/747.5-keV偏振修正与混合多极性。
 - [[e3-cross-source-consistency-boundary]] — BU16/17、Bernard、Gaffney、Butler及E3工件一致性审计.
