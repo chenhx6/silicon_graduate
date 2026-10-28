@@ -3,7 +3,7 @@ type: concept
 title: "Shears Mechanism"
 aliases: [shears mechanism, shears bands]
 created: 2026-07-13
-updated: 2026-10-25
+updated: 2026-10-28
 status: ai-draft
 review_status: unreviewed
 concept_type: angular-momentum-generation
@@ -52,6 +52,21 @@ Configuration crossing, quasiparticle alignment and ordinary collective rotation
 Keep shears-blade alignment distinct from reaction alignment and magnetic-substate population.
 
 Day23纠正：旧Day21的“跨组态全段单调骤降、6–10倍与固定大比值”认证撤回，不作为本页判据。[[chiara-2001-108-110in-shears-band-lifetimes]] CHI01-D22-R098-1/2的实际108In表既有组态内下降，也有alignment附近回升；[[clark-2000-shears-mechanism]] CL00-D23-001/002限定了角度和组态范围。新增为Codex self-audit，needs_review:true。
+
+## Day 26：带交叉反弹、双剪刀四刃对称性与核心耦合
+
+结合 [[garg-2015-135pr-magnetic-rotation]]、[[agarwal-2007-137pr-magnetic-rotation-bandcrossing]] 与 [[roy-2011-cd110-systematics-antimagnetic]]，深化剪刀机制在多准粒子与核心耦合下的理论与实验边界：
+
+1. **3qp $\to$ 5qp 顺对齐能带交叉与强度比反弹**：
+   理想单组态剪刀模型预报 $B(M1) \propto \sin^2(\chi/2)$ 随自旋单调下降。但在实际原子核中，高自旋下必然经历准粒子对破对重排。在 $^{135}\text{Pr}$（N=76，$\hbar\omega \approx 0.37\text{ MeV}$）与 $^{137}\text{Pr}$（N=78，$\hbar\omega \approx 0.42\text{ MeV}$）中，一对 $g_{7/2}$ 质子顺对齐使 3qp 能带交叉进入 5qp 能带。在逼近交叉点时，动力学转动惯量剧增与组态相干混合使 $B(M1)/B(E2)$ 出现剧烈的特征反弹峰（$^{135}\text{Pr}$ 升至 $94.83\ (\mu_N/e\text{b})^2$；$^{137}\text{Pr}$ 升至 $62.1\ (\mu_N/e\text{b})^2$），随后在 $^{137}\text{Pr}$ 中展现 5qp 剪刀重新闭合回落至 $17.2$。这确立了多相剪刀机制容许能带交叉反弹的普遍规律，打破了“剪刀带必须处处单调陡降”的唯象硬门。
+
+2. **反磁转动四刃对称性与纯剪刀终止自旋极限**：
+   在反磁转动（AMR）中，两对粒子-空穴叶片关于转动轴对称闭合，其垂直于自旋的横向磁偶极分量严格反向相消，内禀 $M1$ 跃迁禁戒。对于 $^{110}\text{Cd}$ 组态 $\pi(g_{9/2})^{-2} \otimes \nu(h_{11/2})^2$：
+   - 纯双剪刀（核心惯量 $\Im = 0$）极限下，角动量最大值为 $I_{\text{max}} = j_p + 2 j_h = 10 + 2 \times 4.5 = 19\hbar$。纯剪刀机制物理上无法解释实验观测到能带延伸至 $24^+$ 及 $26^+$ 的事实；
+   - 引入核心集体转动耦合（$\Im = 19.5\text{ MeV}^{-1}\hbar^2$，半刚体转子值）后，核心转动在 $16^+ \to 24^+$ 贡献 $2.9 \to 6.3\hbar$ 角动量，分担了自旋增益，使剪刀闭合速率减缓，理论完满重现实测 $B(E2)$ 维持在 $0.14(1) \to 0.06(2)\ (e\text{b})^2$ 的平稳平台，以及巨判据比 $\mathcal{J}^{(2)}/B(E2) \approx 116–341\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$。
+
+3. **平面剪刀向三维手征转动的跃迁分水岭**：
+   单剪刀（MR）与双剪刀（AMR）的角动量产生局限在主平面内，保留 $\mathcal{S} = \mathcal{T}\mathcal{R}_y(\pi)$ 平面对称性，不产生手征性。当核芯具备显著三轴形变（$\gamma \approx -30^\circ$）时，中等轴的核心转动 $R$ 将总角动量拉出主平面，使质子叶片（短轴偏好）、中子叶片（长轴偏好）与核心转动 $R$（中等轴）构成右手与左手三维非共面三轴陀螺，实现由平面剪刀磁转动向三维手征转动的相变。
 
 ## Sources
 

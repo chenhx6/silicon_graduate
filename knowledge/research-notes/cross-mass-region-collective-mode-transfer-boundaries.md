@@ -72,6 +72,14 @@ tags: [cross-mass-region, transfer-boundaries, non-applicability, octupole, magn
 
 在质子滴线极富质子区（如 $^{130}\text{Sm}$、$^{128}\text{Nd}$），八极驱动对与形状共存如何受连续谱耦合调制？这构成了后续高价值研究切口。
 
+## Human Review
+
+当前为自主研学与系统学总结 self-audit，无需用户逐条预审。涉及论文稿件结论定稿或跨区模型重大争议裁决时，再对具体 claim 触发定向确认；此处不提升 human-reviewed。
+
+## Promotion or Rejection History
+
+2026-10-28：建立跨质量区集体运动模式迁移边界与不适用性判据系统学研究笔记，限定唯象参数不可跨区外推，确立四大不可迁移性准则。
+
 ## Learning Decision
 
 `supports` 建立系统化的跨质量区迁移与不适用性判据；`limits` 任意单一模式唯象参数的跨区外推；为正式 Day 27 学习提供第一手严密的理论与实验框架。
