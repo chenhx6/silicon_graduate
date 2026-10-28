@@ -627,9 +627,25 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
           "locator": "GA15-D25P-A005-02"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/concepts/octupole-deformation.md",
+      "anchor": "## Day 25 正式核验：Ba 同位素直接 E3 置信区间重叠与 E1 相消微观机制",
+      "summary": "补充 144,146Ba E3 实验置信区间显著重叠核验与 Gogny D1S SCCM 偶极相消微观机制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+          "locator": "BU16-D25P-A005-01"
+        },
+        {
+          "path": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+          "locator": "BU17-D25P-A005-01"
+        }
+      ]
     }
   ]
 }
+
 
 
 
