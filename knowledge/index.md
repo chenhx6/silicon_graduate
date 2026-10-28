@@ -11,6 +11,8 @@ updated: 2026-10-28
 
 ## Day26：八极与磁转动证据梯度
 
+- [[cd110-branch-normalization-boundary]] — 110Cd相对分支、22⁺ 1100-keV情景与Roy B(E2)归一化边界。
+
 - [[nndc-2012-cd110-hi-xng]] — 110Cd HI,XNG评价：高自旋寿命、分支、DCO与1100-keV争议。
 
 - [[egido-robledo-retrieval-boundary]] — Egido–Robledo 1990 正文公开入口探测与证据缺口。

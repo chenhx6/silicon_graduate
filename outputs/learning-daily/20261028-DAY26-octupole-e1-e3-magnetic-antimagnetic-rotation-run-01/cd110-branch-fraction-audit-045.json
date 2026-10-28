@@ -1,0 +1,47 @@
+{
+  "schema": "cd110-branch-fraction-audit-045/v1",
+  "evidence_status": "direct-ENSDF-relative-branch-arithmetic",
+  "source": "NNDC 110048022 HI,XNG fixed-column object",
+  "raw_sha256": "cd14b1104805f54023a420e6021b74fddaa149a7f7f5cd404be23a9c696b47d1",
+  "rows": [
+    {
+      "I": 18,
+      "target_gamma_keV": 1224.5,
+      "target_RI": 11.2,
+      "all_evaluated_RI": 11.2,
+      "fraction": 1.0,
+      "Roy_status": "Table 1 line; no extra evaluated branch in this level block"
+    },
+    {
+      "I": 20,
+      "target_gamma_keV": 1323.0,
+      "target_RI": 5.1,
+      "all_evaluated_RI": 5.1,
+      "fraction": 1.0,
+      "Roy_status": "Table 1 line; no extra evaluated branch in this level block"
+    },
+    {
+      "I": 22,
+      "target_gamma_keV": 1314.1,
+      "target_RI": 2.7,
+      "all_evaluated_RI": 3.7,
+      "fraction": 0.7297297297297297,
+      "other_branch_keV": 1100.0,
+      "Roy_status": "ENSDF retains 1100 keV; Roy coincidence gates did not confirm it"
+    },
+    {
+      "I": 24,
+      "target_gamma_keV": 1358.0,
+      "target_RI": 2.5,
+      "all_evaluated_RI": 2.5,
+      "fraction": 1.0,
+      "Roy_status": "Table 1 line; no extra evaluated branch in this level block"
+    }
+  ],
+  "boundaries": {
+    "RI_scope": "Relative intensities in an evaluated object; unobserved branches and detector response are not reconstructed.",
+    "22_plus": "The 0.7297 fraction is a conditional ENSDF arithmetic scenario, not a correction to Roy Table 1.",
+    "normalization": "No feeding covariance, side feeding, stopping-power curve or line-shape likelihood is available.",
+    "conclusion": "The retained 22+ branch can change a branch-weighted estimate, but it cannot explain all 7-11% central differences without the missing Roy inputs."
+  }
+}
