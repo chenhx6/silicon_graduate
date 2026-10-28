@@ -32,11 +32,13 @@ updated: 2026-10-28
 - [[pb-pr-magnetic-rotation-core-crossing-systematics]] — 铅区与稀土区磁转动系统学：核芯转动、交叉重开与无量纲响应。
 - [[actinide-lanthanide-doublewell-schiff-boundary]] — 锕系与镧系八极双阱势垒、隧穿劈裂与Schiff矩算符证据边界。
 - [[octupole-ewsr-and-giant-resonance-partition]] — 电八极能权求和规则（EWSR）与巨共振强度分配：从双幻核到稀土与锕系的微观系统学。
+- [[global-octupole-be3-q3-experimental-benchmark-database]] — 全核图直接 B(E3)/Q3 基准数据库、跨区比较与静态/动态八极边界。
 - [[octupole-mr-three-tier-evidence-ladder]] — 八极关联、磁转动与反磁转动的“直接测量—派生强度—模型解释”三级证据梯度规范。
 - [[e3-ewsr-transition-density-boundary]] — E3能量加权和规则双归一化、首态部分和与Tassie/RPA跃迁密度边界。
 - [[mr-to-chiral-topology-odd-odd-106ag-134pr-198bi]] — 奇奇核从平面剪刀向三维手征转动的拓扑相变：几何非共面、中轴惯量与双阱势垒。
 - [[mr-amr-to-chiral-topological-transition-mechanisms]] — MR/AMR 到非平面手征转动的几何分岔、离散对称、106Ag/106Cd/198Bi证据边界与可复现诊断。
 - [[chiral-octupole-quadruplets-symmetry-and-transition-rules]] — 三轴八极奇奇核手征-八极四重态（|L,±⟩, |R,±⟩）的离散对称性、单纯形分类与多通道跃迁选择定则。
+- [[mxd-multiple-chiral-doublets-octupole-coupling-boundary]] — 同核多重手征能带（MχD: 133Ce, 135Nd）与八极自由度共存、组态演化与跃迁网络判定边界。
 - [[beta2-beta3-octupole-topology-boundary]] — 四极—八极势能面拓扑适用边界：中等四极窗口去普适化与准粒子响应分析。
 - [[actinide-octupole-hexadecapole-coupling-fission-barrier]] — 锕系与超重核区 β3–β4 耦合对裂变势垒和宇称双重态的条件性重整化。
 - [[mr-bandhead-spin-i0-quantum-shears-boundary]] — 磁转动带头自旋I0的微观决定机制：P2相互作用正交极小与有限j量子修正。
@@ -93,6 +95,7 @@ updated: 2026-10-28
 - [[octupole-sum-rule-static-dynamic-identifiability]] — E3 非能权和规则、矩阵元完备性与静态/动态八极形状可辨识性。
 
 - [[fixed-j-quantum-shears-m1-boundary]] — 有限量子剪刀M1与经典端点。
+- [[quantum-shears-racah-algebra-and-transition-rates]] — 固定双角动量的 6j/Racah 精确 M1、半经典比值与有限自旋端点边界。
 
 - [[day26-quantitative-claim-corrections]] — 007–015过强认证撤回、单位及算符边界。
 

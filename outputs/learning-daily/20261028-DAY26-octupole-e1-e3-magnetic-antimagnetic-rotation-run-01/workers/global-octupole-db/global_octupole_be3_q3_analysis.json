@@ -1,0 +1,181 @@
+{
+  "schema": "global-octupole-be3-q3-v1",
+  "input": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/global-octupole-db/global_octupole_be3_q3.csv",
+  "n_records": 14,
+  "counts": {
+    "compiled-evaluation": 9,
+    "direct-experiment": 5
+  },
+  "conversion": {
+    "formula": "B_W.u.(E3;3->0)=R0^6/(16*pi), Q3=sqrt(16*pi*B_down), R0=1.2 A^(1/3) fm",
+    "checks": [
+      {
+        "record_id": "E3-16O-001",
+        "q3_csv_efm3": 102.0,
+        "q3_recomputed_efm3": 101.585,
+        "relative_difference": 0.004083,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-40Ca-001",
+        "q3_csv_efm3": 359.0,
+        "q3_recomputed_efm3": 359.158,
+        "relative_difference": -0.00044,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-208Pb-001",
+        "q3_csv_efm3": 2094.0,
+        "q3_recomputed_efm3": 2095.784,
+        "relative_difference": -0.000851,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-140Ba-001",
+        "q3_csv_efm3": 937.0,
+        "q3_recomputed_efm3": 936.952,
+        "relative_difference": 5.1e-05,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-144Ba-001",
+        "q3_csv_efm3": 1730.0,
+        "q3_recomputed_efm3": 1723.959,
+        "relative_difference": 0.003504,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-146Ba-001",
+        "q3_csv_efm3": 1750.0,
+        "q3_recomputed_efm3": 1747.903,
+        "relative_difference": 0.0012,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-220Rn-001",
+        "q3_csv_efm3": 2184.0,
+        "q3_recomputed_efm3": 2183.853,
+        "relative_difference": 6.7e-05,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-222Ra-001",
+        "q3_csv_efm3": 3071.0,
+        "q3_recomputed_efm3": 3020.595,
+        "relative_difference": 0.016687,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-224Ra-001",
+        "q3_csv_efm3": 2505.0,
+        "q3_recomputed_efm3": 2508.513,
+        "relative_difference": -0.001401,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-226Ra-001",
+        "q3_csv_efm3": 2342.0,
+        "q3_recomputed_efm3": 2343.168,
+        "relative_difference": -0.000498,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-228Ra-001",
+        "q3_csv_efm3": 1683.0,
+        "q3_recomputed_efm3": 1671.533,
+        "relative_difference": 0.00686,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-226Th-001",
+        "q3_csv_efm3": 2310.0,
+        "q3_recomputed_efm3": 2310.395,
+        "relative_difference": -0.000171,
+        "status": "rounding_or_consistent"
+      },
+      {
+        "record_id": "E3-228Th-001",
+        "q3_csv_efm3": 2124.0,
+        "q3_recomputed_efm3": 2121.669,
+        "relative_difference": 0.001099,
+        "status": "rounding_or_consistent"
+      }
+    ]
+  },
+  "region_summary": {
+    "heavy doubly magic": {
+      "n_records": 1,
+      "n_numeric_B_down": 1,
+      "mean_B_down_Wu": 34.0,
+      "min_B_down_Wu": 34.0,
+      "max_B_down_Wu": 34.0,
+      "direct_experiment_records": 0,
+      "compiled_records": 1
+    },
+    "light actinide": {
+      "n_records": 7,
+      "n_numeric_B_down": 7,
+      "mean_B_down_Wu": 36.429,
+      "min_B_down_Wu": 18.0,
+      "max_B_down_Wu": 62.0,
+      "direct_experiment_records": 3,
+      "compiled_records": 4
+    },
+    "light doubly magic": {
+      "n_records": 2,
+      "n_numeric_B_down": 2,
+      "mean_B_down_Wu": 20.25,
+      "min_B_down_Wu": 13.5,
+      "max_B_down_Wu": 27.0,
+      "direct_experiment_records": 0,
+      "compiled_records": 2
+    },
+    "neutron-rich Ba": {
+      "n_records": 3,
+      "n_numeric_B_down": 3,
+      "mean_B_down_Wu": 37.0,
+      "min_B_down_Wu": 15.0,
+      "max_B_down_Wu": 48.0,
+      "direct_experiment_records": 2,
+      "compiled_records": 1
+    },
+    "neutron-rich Ce": {
+      "n_records": 1,
+      "n_numeric_B_down": 0,
+      "mean_B_down_Wu": null,
+      "min_B_down_Wu": null,
+      "max_B_down_Wu": null,
+      "direct_experiment_records": 0,
+      "compiled_records": 1
+    }
+  },
+  "B_vs_E3": {
+    "n": 3,
+    "slope_logB_vs_logE": -1.1040687599108705,
+    "intercept": 12.274428649503013,
+    "r2": 0.9649223894219023,
+    "interpretation": "descriptive only; selection and mass-region effects are unmodelled"
+  },
+  "q3_beta3_checks": [
+    {
+      "record_id": "E3-144Ba-001",
+      "beta3_csv": 0.17,
+      "beta3_recomputed_from_user_formula": 0.45458,
+      "relative_difference": -0.62603,
+      "status": "definition_or_conversion_boundary"
+    }
+  ],
+  "static_dynamic_readout": {
+    "status": "conditional",
+    "direct_single_transition": "A large 0+<->3- strength measures octupole collectivity but does not by itself identify a deep static double well.",
+    "multi_transition_discriminator": "Butler 2020 reports approximately constant Q3 across several 222Ra links and a near-zero 228Ra 2+->3- link; these rows are not closure-complete.",
+    "parity_splitting": "Not computed from this CSV because the database is a transition benchmark, not a level-scheme table; use the Gaffney 2013 level-systematics locator.",
+    "ewsr": "not_computable: complete negative-parity final-state coverage and covariance are absent; do not call the lowest-state B(E3) an EWSR exhaustion fraction."
+  },
+  "audit_flags": [
+    "Compiled/evaluated rows and direct Coulomb-excitation rows are not pooled as independent experiments.",
+    "Blank E(3-) values are intentional; no energy was inserted without a locator.",
+    "q3_direct and q3_derived_from_b_wu_efm3 are separate observables; rotor conversion and beta3 remain model dependent.",
+    "The 144Ba direct Q3 and quoted beta3 do not satisfy the user-specified beta3 formula under a naive R0=1.2 A^(1/3) substitution; retain this as a Q3/shape-convention boundary pending the primary conversion equation."
+  ]
+}

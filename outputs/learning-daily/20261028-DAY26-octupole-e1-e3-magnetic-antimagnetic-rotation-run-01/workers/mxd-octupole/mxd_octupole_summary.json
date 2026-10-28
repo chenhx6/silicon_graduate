@@ -1,0 +1,204 @@
+{
+  "model": "four-state chiral/parity doorway toy model",
+  "status": "diagnostic; not a fit to 133Ce or 135Nd",
+  "basis": [
+    "p_chi_plus",
+    "p_chi_minus",
+    "opposite_p_chi_plus",
+    "opposite_p_chi_minus"
+  ],
+  "operator_note": "E1/E3 and E2/M1 values are relative squared amplitudes; no CG, lifetime, or effective-charge normalization",
+  "families": [
+    {
+      "name": "1qp",
+      "parity": 1,
+      "base_mev": 0.0,
+      "gamma_deg": 17.5,
+      "delta_chiral_mev": 0.1,
+      "e_oct_mev": 1.2,
+      "v_oct_mev": 0.0,
+      "e1_scale": 0.0
+    },
+    {
+      "name": "3qp_pos",
+      "parity": 1,
+      "base_mev": 0.48,
+      "gamma_deg": 17.5,
+      "delta_chiral_mev": 0.1,
+      "e_oct_mev": 1.2,
+      "v_oct_mev": 0.12,
+      "e1_scale": 0.15
+    },
+    {
+      "name": "3qp_neg",
+      "parity": -1,
+      "base_mev": 0.82,
+      "gamma_deg": 15.2,
+      "delta_chiral_mev": 0.4,
+      "e_oct_mev": 1.2,
+      "v_oct_mev": 0.12,
+      "e1_scale": 0.2
+    },
+    {
+      "name": "5qp",
+      "parity": -1,
+      "base_mev": 1.18,
+      "gamma_deg": 22.0,
+      "delta_chiral_mev": 0.22,
+      "e_oct_mev": 1.35,
+      "v_oct_mev": 0.16,
+      "e1_scale": 0.12
+    }
+  ],
+  "spin_range": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "network_ratio_rows": [
+    {
+      "family": "1qp",
+      "spin_i": 13,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.0,
+      "E3": 0.0,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.0,
+      "E3_over_E2": 0.0
+    },
+    {
+      "family": "1qp",
+      "spin_i": 16,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.0,
+      "E3": 0.0,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.0,
+      "E3_over_E2": 0.0
+    },
+    {
+      "family": "1qp",
+      "spin_i": 18,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.0,
+      "E3": 0.0,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.0,
+      "E3_over_E2": 0.0
+    },
+    {
+      "family": "3qp_pos",
+      "spin_i": 13,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.0225,
+      "E3": 0.2025,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.0225,
+      "E3_over_E2": 0.2025
+    },
+    {
+      "family": "3qp_pos",
+      "spin_i": 16,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.0225,
+      "E3": 0.2025,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.0225,
+      "E3_over_E2": 0.2025
+    },
+    {
+      "family": "3qp_pos",
+      "spin_i": 18,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.0225,
+      "E3": 0.2025,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.0225,
+      "E3_over_E2": 0.2025
+    },
+    {
+      "family": "3qp_neg",
+      "spin_i": 13,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.04,
+      "E3": 0.36,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.04,
+      "E3_over_E2": 0.36
+    },
+    {
+      "family": "3qp_neg",
+      "spin_i": 16,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.04,
+      "E3": 0.36,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.04,
+      "E3_over_E2": 0.36
+    },
+    {
+      "family": "3qp_neg",
+      "spin_i": 18,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.04,
+      "E3": 0.36,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.04,
+      "E3_over_E2": 0.36
+    },
+    {
+      "family": "5qp",
+      "spin_i": 13,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.0144,
+      "E3": 0.1296,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.0144,
+      "E3_over_E2": 0.1296
+    },
+    {
+      "family": "5qp",
+      "spin_i": 16,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.0144,
+      "E3": 0.1296,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.0144,
+      "E3_over_E2": 0.1296
+    },
+    {
+      "family": "5qp",
+      "spin_i": 18,
+      "E2": 1.0,
+      "M1": 1.0,
+      "E1": 0.0144,
+      "E3": 0.1296,
+      "M1_over_E2": 1.0,
+      "E1_over_E2": 0.0144,
+      "E3_over_E2": 0.1296
+    }
+  ],
+  "checks": {
+    "hermitian_each_hamiltonian": true,
+    "sorted_eigenvalues_each_spin": true,
+    "zero_octupole_coupling_1qp": true,
+    "zero_octupole_e1_e3_control_pathway_for_1qp": true
+  }
+}
