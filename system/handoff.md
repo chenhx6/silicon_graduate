@@ -3,14 +3,14 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint062：平面剪刀向3D手征分岔与M1奇偶交错指纹确立
+## Active handoff — Day26 checkpoint063：Day26卡片矩阵五大交付项闭环与日报全量证据对账
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在平面剪刀磁转动向 3D 非平面手征转动的演化机制上取得系统学突破（工件 `mr-to-chiral-topological-transition-066.py/json`）：
-1. **从平面磁转动到 3D 手征双重带的三阶段演化**：以奇奇核 $^{134}\text{Pr}$ 为范例，建模展示：(1) 低自旋（$I=10-13$）处于纯平面剪刀闭合阶段，单能带退激；(2) 中自旋（$I=14-18$）跨越临界分岔点 $\hbar\omega_c \approx 0.35\text{ MeV}$，中间轴转动激发打破反幺正对称性 $\mathcal{R}_y(\pi)\mathcal{T}$，进入 3D aplanar 手征双重带阶段；(3) 高自旋（$I \ge 19$）离心力驱动准粒子对齐，3D 空间正交几何崩溃；
-2. **双重带劈裂塌缩与手征势垒穿透**：左-右手性双阱量子隧穿导致能级差 $\Delta E(I)$ 随势垒加深由 $350\text{ keV}$（$I=14$）迅速塌缩至 $86.3\text{ keV}$（$I=18$）；
-3. **带内与带间 M1 奇偶交错反向振荡指纹**：微观旋称干涉引发带内 $B(M1; I \to I-1)$（极大 $1.60\ \mu_N^2$ 对决极小 $0.80\ \mu_N^2$）与带间 $B(M1; I \to I-1_{\text{partner}})$（极大 $1.15\ \mu_N^2$ 对决极小 $0.45\ \mu_N^2$）出现精确反向的奇偶交错振荡，确立量子手征对称性破缺与恢复的核心电磁指纹。
+本检查点在正式研学日报（`20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation.md`）中完成 Day 26 课程卡片五大矩阵交付项的证据闭环与系统性对账：
+1. **卡片五大交付项实测与模型闭环**：(1) 八极、E1、E3、MR与AMR概念与证据梯度三层图谱（`octupole-mr-amr-evidence-gradient.md`，工件061）；(2) BU16、BU17、Garg2015三篇主线原读及2019偏振勘误闭环（工件059）；(3) 矩阵元初态简并因子7与非对称误差映射，结合Cd微商定域与量子剪刀零点强度（工件050/052/057/058）；(4) 144,146Ba偶极相消点微观中子占据灵敏度景观（-0.77 efm/v2）与Ra跨区对照（`ba-microscopic-octupole-dipole-cancellation.md`，工件053/054）；(5) 三大质量区八核基准数据库（工件061）与摆动对决磁转动排他性裁决（`pr135-wobbling-vs-shears-discrimination.md`，工件063）；
+2. **理论推导与数值闭环深化章节整合**：正式日报全面增补 checkpoint062 理论推导与数值深化小节，系统收录涵盖微观占据梯度、八极振子相消干涉、AMR纵向静态磁矩与有效g因子、以及平面剪刀向3D手征分岔在内的14项前沿理论模型与可复现工件；
+3. **写回块与全库规范核准**：`validate_writeback_items.py` 19项原子写回条目全绿（valid: true），全量 wiki_lint 0 error/286 warnings，boundary check ok: true，工作树与远端保持原子同步。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 

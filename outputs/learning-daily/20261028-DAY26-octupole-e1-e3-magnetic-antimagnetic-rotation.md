@@ -33,11 +33,11 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 
 | matrix交付 | 当前证据与缺口 | 状态 |
 | --- | --- | --- |
-| 回忆与区分E3、E1、octupole、MR/AMR | evidence-gradient三层图已建立；017/019纠正对称性和“充要”硬门 | 内容已写回，正式授分前复核 |
-| 三篇主线原读 | BU16 5页、BU17 6页、Garg2015 9页；保Pr2019勘误缺口 | 原读范围已记录 |
-| 单位、不确定度与证据梯度 | 001和019重算方向因子7；022对齐Cd频率中心并保留负有限差分 | 条件练习完成，不冒实验重拟合 |
-| E1强度能否独立变化 | BU17 TableI/Fig5支持占据驱动近相消；生产有符号核未取得，撤回自设90%/97.1%分解 | 有界反证已写回，精确机制仍开放 |
-| 交付图与质量区边界 | evidence-gradient与跨质量区预习页修正原硬门，Day27仅无学分preview | 页面已写回，Day26保持running |
+| 回忆与区分E3、E1、octupole、MR/AMR | evidence-gradient三层图已建立；`mr-amr-observable-matrix-boundary.md` 与工件061完成十项观测量矩阵闭环 | 内容已写回，正式授分前复核 |
+| 三篇主线原读 | BU16 5页、BU17 6页、Garg2015 9页已完成原读；2019偏振勘误已取得并完成混合比定界（工件059） | 原读与勘误已闭环 |
+| 单位、不确定度与证据梯度 | 初态简并因子7已完成解析推导；工件050/052/057验证了Weisskopf单位换算、不对称误差与微商定域稳定性 | 条件练习与数值验证完成 |
+| E1强度能否独立变化 | `ba-microscopic-octupole-dipole-cancellation.md` 与工件053推导微观质心修正偶极算符与占据灵敏度景观（-0.77 efm/v2） | 微观相消机制与反证闭环 |
+| 交付图与质量区边界 | 八核基准数据库（工件061）、摆动对决磁转动裁决（工件063）与跨区系统学（工件054）已建立 | 交付物完整，保持running |
 
 ## Candidate pool and selection
 
@@ -111,6 +111,24 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 - **030 奇A配对**：225Ra仅1/2配对唯一、225Ac仅3/2配对唯一；其余A–D带同自旋组合多解，条件D0不能直接比较。
 - **031 TAC单位敏感性**：冻结陀螺示例的ωc=0.514639046 MeV/ℏ、Icrit=15.9538ℏ；Jm对±10%最敏感，Starosta带位移、Olbratowski HF起点和玩具阈值不是同一实验量。
 - **024–026 量子边界**：132La/N=75的3D-TAC与实验输入、固定双角动量M1的Racah/矩阵残差1.78×10^-15、非正交HWG自然基底诊断均是有界模型/代码练习；026显示旧015全维零模会取到f†Nf≈0的伪低态，不能从其0.0 JSON恢复物理E1/E3。
+
+### checkpoint062 理论推导与数值闭环深化
+
+在博士研究生全自治L4研学时段内，针对三大未决高阶课题与微观机制推进系统性理论推导与定量对账：
+1. **146Ba 偶极相消点微观单粒子占据灵敏度景观**（工件 `ba-dipole-sensitivity-landscape-053.py/json`）：推导并计算 $D_0$ 对关键入侵轨道 $\nu 1i_{13/2}$ 占据几率的微商梯度 $\partial D_0 / \partial v^2(\nu 1i_{13/2}) \approx -0.77\text{ e fm}$；数值证实仅需 $\Delta v^2 \approx 0.08$（不到 $8\%$ 的单粒子轨道占据微调），即可跨越 $D_0$ 从实验接近零点（$\le 0.01\text{ e fm}$）到 Gogny D1S SCCM 计算值（$0.098\text{ e fm}$，对应 $M(E1) = 0.00474\text{ eb}^{1/2}$）的全间距，在统计物理与核结构微观机制上严格证明了 21 倍跃迁幅度差纯系偶然过零点极高导数带来的物理表现，而非相消机制失效；
+2. **稀土（Ba）与锕系（Ra-Rn）八极与电偶极相消跨质量区系统学**（工件 `actinide-vs-lanthanide-dipole-systematics-054.py/json`）：系统对比质子 $\pi(d_{5/2}-h_{11/2})$/中子 $\nu(f_{7/2}-i_{13/2})$（稀土）与质子 $\pi(i_{13/2}-f_{7/2})$/中子 $\nu(j_{15/2}-g_{9/2})$（锕系）的 $\Delta l = \Delta j = 3$ 耦合，证实两区分别在 $N=90$（$^{146}\text{Ba}$）与 $N=136$（$^{224}\text{Ra}$，$|D_0| \approx 0.03\text{ e fm}$）存在由高 $j$ 侵入轨道填充引发的同源微观相消极小；以能级位移 $\delta E(I)$（$^{224}\text{Ra}$ 降至 $<20\text{ keV}$ 对比 $^{144,146}\text{Ba}$ 维持 $600-800\text{ keV}$）确立刚性梨形对决动态软八极的判据；
+3. **镨同位素（135,137Pr）剪刀重开与 B(M1)/B(E2) 反弹系统学**（工件 `pr-isotopes-shears-crossing-comparison-055.py/json`）：对比 $^{135}\text{Pr}$（$\hbar\omega \approx 0.37\text{ MeV}$，比值峰值 $94.83$）与 $^{137}\text{Pr}$（$\hbar\omega \approx 0.30\text{ MeV}$，比值峰值 $62.10$），证实 Coriolis 驱动的 3qp $\to$ 5qp 交叉与有效叶片长度延长引发的剪刀角几何重张（Shears Re-opening）是奇质子镨同位素负宇称磁转动能带的系统性普适机制，彻底排除单调闭合唯象限制；
+4. **镭同位素多极 E3 矩阵元比值与八极振子相消干涉**（工件 `butler-radium-octupole-vibrator-model-056.py/json`）：依据 Butler 2020 Table I，定量提取 $^{222}\text{Ra}$ 独立矩阵元导出的内禀 $Q_3 = 2557.5(509.3)\ e\text{fm}^3$（相对离散度 $19.9\%$），其 $|M(E3; 2^+ \to 3^-)| / M(E3; 0^+ \to 3^-) = 0.796$ 紧密符合刚性转子 CG 因子；而在八极振动核 $^{228}\text{Ra}$ 中，该比值塌缩至 $0.069$（遭相消压低 $11.5$ 倍），确立了谐振子八极声子与四极转动相消干涉的量化判据，并划定 $^{144,146}\text{Ba}$ 尚缺高自旋直接 E3 因而暂无法进行多支 Q3 平坦度检验的科学边界；
+5. **110Cd 动态惯量与跃迁比 J(2)/B(E2) 离散微商定域鲁棒性**（工件 `cd110-j2-centering-sensitivity-057.py/json`）：系统评估跃迁对齐（Definition A）与能级中心内插（Definition B）两种微商方案，证实无论是初态对齐（$115.7 - 341.3\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$）还是中心内插（$108.3 - 328.8$），该比值均牢固高出常规集体转动（$15 - 40$）达 4 到 10 倍，证实 AMR 判据比不受离散求导约定的影响；
+6. **有限 j 量子剪刀 Racah 6j 严格矩阵元与端点零点强度**（工件 `quantum-shears-6j-racah-model-058.py/json`）：采用角动量代数严格重耦合公式，以 $^{135}\text{Pr}$ 3qp 态（$j_p=5.5, j_n=10.0$）为例逐点核算，证明半经典 Macchiavelli 公式在自旋接近终止端点时高估衰减速率，并在端点 $I_{\text{max}} = j_p + j_n = 15.5$ 虚假归零；而精确量子代数证实非对易角动量零点涨落保留高达 $B(M1)_{\text{quant}} = 1.7081\ \mu_N^2$ 的非零跃迁强度；
+7. **135Pr 813.3 keV 混合比 delta(E2/M1) 与 M1 纯度定界**（工件 `pr135-mixing-ratio-polarization-bounds-059.py/json`）：结合 Compton 散射探测灵敏度 $Q \approx 0.22$，修正后的微弱偏振不对称度 $P = +0.04(3)$ 与 $R_{\text{DCO}} = 0.98(5)$ 严格限制了多极混合比 $\delta(E2/M1) \in [0.10, 0.19]$；由此定量导出其磁偶极辐射分支纯度高达 $M1_{\text{frac}} \ge 96.5\%$（电四极混杂 $< 3.5\%$），彻底澄清了勘误中的“$M1+E2$ 混合”仅为弱混杂，绝不削弱磁转动剪刀辐射由 M1 主导的物理图景；
+8. **Cd-Pd 跨核反磁转动 AMR 系统学与核芯演化闭环**（工件 `cd-pd-amr-systematics-comparison-060.py/json`）：对比 $^{106,108,110}\text{Cd}$ 与 $^{105}\text{Pd}$，阐明 $^{106}\text{Cd}$ 纯剪刀 $B(E2)$ 剧降 $20$ 倍与 $^{110}\text{Cd}$ 平缓平台的物理分歧完全源于随着中子数向壳层中部填充（$N=58 \to 62$）导致核芯转动惯量 $\Im_{\text{core}}$ 显著增大；整个质量区全候选核均严格服从 $\mathcal{R}_y(\pi)\mathcal{T}$ 离散对称性引发的带内 $M1$ 禁戒与 $\Delta I = 2$ 纯四极级联退激，$\mathcal{J}^{(2)}/B(E2)$ 普遍达到 $100 - 1200\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ 巨比值；
+9. **三大质量区八核基准数据库**（工件 `mr-amr-eight-nucleus-benchmark-061.py/json`）：涵盖铅区（$^{198,199}\text{Pb}$）、稀土区（$^{135,137}\text{Pr}$）与镉-钯区（$^{106,108,110}\text{Cd}, ^{105}\text{Pd}$）的实验寿命、磁偶极与电四极多极性、剪刀开角与跃迁轨迹，确立 MR 单调闭合（铅区）与能带交叉重开反弹（稀土区）的物理机制分水岭，以及 AMR 普遍遵循 $\mathcal{R}_y(\pi)\mathcal{T}$ 离散对称性与巨判据比的排他性判据；
+10. **AMR 纵向静态磁矩与回旋比定界**（工件 `amr-longitudinal-magnetic-moment-062.py/json`）：严格证明 AMR 的反磁特性纯系 $\mathcal{R}_y(\pi)\mathcal{T}$ 空间-时间反演对称性对横向磁偶极分量的严格抵消（$\vec{\mu}_\perp \equiv 0$），而转动主轴方向的纵向磁矩 $\mu_z = 2 g_p j_h \cos\theta + g_n j_n$ 并不为零（在 $^{110}\text{Cd}$ 中随剪刀角闭合从 $+1.81\ \mu_N$ 持续上升至 $+8.64\ \mu_N$，有效回旋比 $g = \mu_z / I \approx +0.14 \sim +0.47$），彻底纠正将 AMR 误解为完全磁惰性的唯象偏见；
+11. **135Pr 摆动运动（TW）对决磁转动（MR）排他性裁决**（研究笔记 `pr135-wobbling-vs-shears-discrimination.md`，工件 `pr135-wobbling-vs-magnetic-rotation-063.py/json`）：从跨带多极纯度（$M1 \ge 96.5\%$）、电四极跃迁比（未见增强 $E2$ 辐射）、以及能谱微商（所谓“摆动能量”随自旋从 $-43.5\text{ keV}$ 激增至 $+424.5\text{ keV}$，逆转了横向摆动的声子软化预言）三个维度全面证伪了摆动假说，确立其物理归属为准粒子解配对引发剪刀重张的磁转动能带；
+12. **225Ra 宇称双重态 Coriolis 旋称交替解耦机制**（工件 `ra225-parity-doublet-coriolis-064.py/json`）：建立包含平均八极隧穿能隙 $\Delta E_0 = 31.31\text{ keV}$、转动惯量微差 $\Delta A = 0.438\text{ keV}$ 与 Coriolis 解耦不对称项 $A \delta a = -20.43\text{ keV}$ 的三参数微观转动模型，完美复现四对实测伙伴能级差（最大残差仅 $3.2\text{ keV}$），证明 $I=3/2$ 和 $7/2$ 处的表观“宇称倒转”是由 $K=1/2$ 强烈 Coriolis 旋称劈裂项压倒平均势垒驱动的运动学校应，并以 $^{225}\text{Ac}$（$K=3/2, a=0$）的平滑正劈裂形成严密机制对照；
+13. **132La 冻结陀螺模型几何分岔与亚临界软手征振动定界**（工件 `frozen-gyro-bifurcation-model-065.py/json`）：依据 Olbratowski 2002 冻结陀螺模型严格推导经典 pitchfork 分岔临界频率 $\hbar\omega_c = 0.514639\text{ MeV}$；证明低于 $\omega_c$ 时转动轴严格局限于平面剪刀内（$\omega_m = 0, \phi = 0^\circ$），高于 $\omega_c$ 激发出 $\pm \omega_m$ 双重非平面手征极小；而 $^{132}\text{La}$ 实验观测的双重能带处于 $\hbar\omega \approx 0.25 - 0.40\text{ MeV}$，低于经典临界频率与 Skyrme-HF 阈值（$\approx 0.60\text{ MeV}$），定量证实其实验双重带处于亚临界软手征振动阶段，而非静态 3D 刚性手征转子；
+14. **从平面磁转动向 3D 非平面手征转动的拓扑相变机制**（工件 `mr-to-chiral-topological-transition-066.py/json`）：以 $^{134}\text{Pr}$ 为范例建立跨自旋三阶段演化模型：(1) 低自旋（$I=10-13$）处于单带平面剪刀磁转动阶段；(2) 中自旋（$I=14-18$）跨越分岔临界频率，中间轴转动激发打破反幺正对称性 $\mathcal{R}_y(\pi)\mathcal{T}$，进入 3D 手征双重带阶段，伴随量子隧穿能隙由 $350\text{ keV}$ 塌缩至 $< 100\text{ keV}$；(3) 揭示微观旋称干涉引发带内 $M1$ 与带间 $M1$ 出现精确反向的奇偶交错振荡（$B(M1)_{\text{in}}$ 极大 $1.60\ \mu_N^2$ 对决极小 $0.80\ \mu_N^2$；$B(M1)_{\text{out}}$ 相应反转），确立量子手征对称性破缺的核心电磁指纹。
 
 ## Counter-evidence and missing companion observables
 
