@@ -120,6 +120,19 @@ PE18中D5的实验ratio与D3的模型3D几何是两条不同pair的证据，不�
 
 134Pr优先闭合原branch/clock并检验off-diagonal E2/固定V假设；正135Nd优先双方matchingEM；负135Nd优先normalizer恢复/新独立holdout；136Nd先选D5或另一个明确pair，不在不同pair间借几何/寿命。测量方法的clock、束流、停止/feeding/场标定属于各自响应合同，不能借131Ce/128Cs的时钟给高spin目标补数据。
 
+### Rung 1 混合比门限：P-ADO 概率密度映射对手征与共存鉴别的约束
+
+伴随量降级阶梯的 Rung 1（身份与探测响应）中，带间 $\Delta I = 1$ 连接跃迁的多极混合比 $\delta(E2/M1)$ 是决定后续电磁跃迁几率计算能否进入 Rung 2 的关键物理门限。对于任意混合跃迁，约化跃迁几率与混合比严格满足代数分解：
+
+$$B(M1; I \to I-1) = \frac{0.05632 \times I_\gamma}{E_\gamma^3 \tau (1+\alpha)} \frac{1}{1+\delta^2}, \quad B(E2; I \to I-1) = \frac{95.98 \times I_\gamma}{E_\gamma^5 \tau (1+\alpha)} \frac{\delta^2}{1+\delta^2}.$$
+
+当实验缺乏线偏振或多角度角关联而粗糙假定 $\delta = 0$ 时，$B(M1)$ 被系统性虚假高估 $\Delta B(M1)/B(M1) = \delta^2$，而带间 $B(E2)$ 被强制归零；若角分布分析由于二次方程双解误选大模值根（如 $^{135}\text{Pr}$ 中 $\delta_1 = -1.54$ 对决 $\delta_2 = -0.37$），比值 $B(M1)/B(E2) \propto 1/(\delta^2 E_\gamma^2)$ 将发生高达 $(1.54/0.37)^2 = 17.3$ 倍的人为畸变，直接将普通的单粒子磁偶极跃迁误判为集体声子摆动（Wobbling）或伪造手征对称带间电磁交错。
+
+吸收 raw/writing/pado/（Chen et al., 2026）的概率密度映射法（PDM / P-ADO，详见研究笔记 [[pado-probability-density-mapping-mixing-ratios]]）：
+1. **消除预设自旋取向度 $\sigma/I \approx 0.3$ 的人为偏差**：通过参数空间 $(\xi, \sigma/I)$（其中 $\xi = \arctan\delta \in (-90^\circ, +90^\circ)$）向可观测量空间 $(R_{\rm ADO}, P)$ 的响应函数映射，结合变换雅可比行列式 $J(\xi, \sigma/I) = \det [\partial(R_{\rm ADO}, P)/\partial(\xi, \sigma/I)]$ 严格实现局部测度守恒变换 $f_{\mathcal P}(\xi, \sigma/I) = f_{\mathcal O}[F(\xi, \sigma/I)] \cdot |J|$；
+2. **辨识 Outside 构型与全局折叠多解**：当各向同性点 $\mathbf{o}_0 = (1, 0)$ 位于响应曲线外部时，曲面在投影面发生全局折叠，同一对实验可观测量对应两个合法的参数解分支；通过对 $\sigma/I$ 连续边缘化积分，输出包含完整多峰结构的 68% 最高密度区间（HDI）与等尾区间；
+3. **对手征双重带与共存带的裁决要求**：在 $^{134}\text{Pr}$、$^{135}\text{Nd}$、$^{136}\text{Nd}$ 与 $^{133}\text{Ce}$ 等候选体系中，必须使用 P-ADO 或联合康普顿散射线偏振度明确排除大模值 $E2$ 污染分支，严格分离纯 $M1$ 磁偶极与集体 $E2$ 成分，否则无论能级多么近简并，其带间电磁跃迁几率均断裂于 Rung 1，无法用于支持或否定手征双重带对称性。
+
 ### 非对角E2扩展：哪些条件能由ratio识别
 
 checkpoint005撤回旧χ²/95%扫描认证：旧稿混用TableI计算列与实验列、未交actual likelihood。新可复算的固定α、实对称forward核例子见[[134pr-two-band-mixing-offdiagonal-e2-sensitivity]]及PE06-D25-A005-01的实验列。q12改变反演敏感性，但不证明等形状或手征波函数。UC约1.25、TRS约1.7分别属于原模型比较。
