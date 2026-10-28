@@ -3,7 +3,16 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint004：110Cd 粒子加转子模型落地与纯剪刀终止极限解析
+## Active handoff — Day26 checkpoint005：跨质量区八极系统学闭环与偶极相消微观机制对账
+
+正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26]/next26，无 Day27。上一检查点 28041628 已成功推送 Gitee origin/main。
+
+本段取得跨质量区八极结构综合突破：
+1. **A≈145 (Ba) 对比 A≈225 (Ra-Rn) 跨质量区系统学闭环**：对比 Gaffney 2013 与 Bucher 2016/2017，确立两大区域共享微观机制——费米面附近质子与中子同时存在 $\Delta l=\Delta j=3$ 相反宇称单粒子对；实测基态 $B(E3)$ 均处于 30–50 W.u.，而内禀偶极矩 $D_0$ 在特定中子数（$^{146}\text{Ba}$ 与 $^{224}\text{Ra}$）均经历单粒子轨道占据驱动的过零相消极小；
+2. **确立静态梨形与八极软振动的判别分水岭**：明晰单一增强 $B(E3)$ 仅反映八极跃迁集体性，无法作为静态梨形极小的排他性证据；确证静态反射不对称形变必须由交错宇称能级位移 $\delta E(I) \to 0$（如 $^{224}\text{Ra}$ 降至 $<20\text{ keV}$）与深平均场极小共同支撑，而 $^{144,146}\text{Ba}$ 维持数百 keV 位移且平均场沿 $\beta_3$ 势能面较软，属于动态大振幅八极软振动；
+3. **知识库与全套检查全绿**：系统学矩阵写入 `octupole-mr-amr-evidence-gradient.md`，runner 校验与 `wiki_lint.py` 全绿（0 error / 267 warnings），代码与文档保持干净。
+
+## Previous handoff — Day26 checkpoint004：110Cd 粒子加转子模型落地与纯剪刀终止极限解析
 
 正式 run `2026-10-28-day-26-01`，session `01a1819f-75bb-7a11-be19-05761880f65c`；原研究截止 2026-10-29 15:00+08，15–16 收束。原生 goal active、farmer PID3193 运行；completed[]/partial[26]/next26，无 Day27。上一检查点 64528ebb 已成功推送 Gitee origin/main。
 

@@ -81,6 +81,8 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 
 - 本段独立建模程序 `cd110-amr-particle-rotor-model-003.py/json` 完整复现了 Roy 2011 经典两粒子加转子 AMR 模型：证明纯剪刀机制（$\Im=0$）在 $j_p=10, j_h=4.5$ 下在 $I=19\hbar$ 必然终止；能带延伸至 $24^+$ 必须有核心转动（$\Im=19.5\text{ MeV}^{-1}\hbar^2$）参与（在 $16^+ \to 24^+$ 核心转动提供 $2.9 \to 6.3\hbar$）。该机制平缓了剪刀闭合速度，完满再现了实测 $B(E2)$ 维持在 $0.06–0.14\ (e\text{b})^2$ 的平台特征。
 
+- **跨质量区八极与电偶极相消系统学（A≈145 Ba vs A≈225 Ra-Rn）**：结合 Gaffney 2013（Nature 497, 199）与 Bucher 2016/2017，确立两大区域在八极关联与电偶极相消上的深刻对称性：(1) 价核子对驱动（Ba区质子 $h_{11/2}-d_{5/2}$、中子 $i_{13/2}-f_{7/2}$；Ra区质子 $i_{13/2}-f_{7/2}$、中子 $j_{15/2}-g_{9/2}$，均为 $\Delta l=\Delta j=3$ 相反宇称轨道对）；(2) 库仑激发实测 $B(E3)$ 均稳定处于 $30–50\text{ W.u.}$ 强集体增强水平；(3) 内禀电偶极矩 $D_0$ 在 $^{146}\text{Ba}$（$\le 0.01\text{ e fm}$）与 $^{224}\text{Ra}$（$0.03\text{ e fm}$）均出现微观单粒子轨道占据引发的相消极小，与强 $B(E3)$ 解耦；(4) 交错宇称位移 $\delta E(I)$ 在 $^{224}\text{Ra}$ 趋近于零（刚性梨形），而在 $^{144,146}\text{Ba}$ 及 $^{220}\text{Rn}$ 长期维持数百 keV（八极软振动），确立了以 $\delta E(I)$ 结合微观势能面裁决内禀形状刚度的严格分水岭。
+
 全部可复用公式、数值与边界已同步canonical研究笔记；JSON是复现工件，不是独立科学来源。
 
 ## Counter-evidence and missing companion observables

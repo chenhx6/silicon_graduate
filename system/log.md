@@ -4578,3 +4578,4 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-10-28T17:42:00+08:00 Day26 checkpoint002：复算135Pr Table I同母态强度比（15.78/19.67/94.83）重现图7；落地非正交宇称模型证明坐标密度不决定奇极跃迁；官方NNDC ENSDF Adopted数据集闭环110Cd实测能级与J2/B(E2)比值（116–341）。全套验证全绿，发布checkpoint 002并继续学习。
 - 2026-10-28T18:05:00+08:00 Day26 checkpoint003：获取并深读 Roy 2011 PLB 原文 5 页，确立 110Cd 高自旋第一手 DSAM 寿命与递减 B(E2)（0.14→0.06），建立来源页并闭环核心耦合 AMR 机制；全套验证通过，发布 checkpoint 003。
 - 2026-10-28T18:25:00+08:00 Day26 checkpoint004：数值落地 Roy 2011 两粒子加转子 AMR 模型，证伪 110Cd 纯剪刀假设（I_max=19），确立核心转动（2.9–6.3 hbar）导致平缓 B(E2) 平台（0.14→0.06）的物理机制；全套检查通过，发布 checkpoint 004。
+- 2026-10-28T18:45:00+08:00 Day26 checkpoint005：跨质量区八极系统学对账（A≈145 Ba vs A≈225 Ra-Rn），确立单粒子偶极过零相消与 delta E(I) 刚度分水岭判据；全套检查通过，发布 checkpoint 005。

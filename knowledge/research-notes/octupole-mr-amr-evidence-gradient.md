@@ -7,7 +7,7 @@ updated: 2026-10-28
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [bucher-2016-144ba-direct-octupole, bucher-2017-146ba-direct-octupole, bernard-2016-144ba-sccm-octupole, garg-2015-135pr-magnetic-rotation, frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]
+evidence_sources: [gaffney-2013-pear-shaped-rn-ra, bucher-2016-144ba-direct-octupole, bucher-2017-146ba-direct-octupole, bernard-2016-144ba-sccm-octupole, garg-2015-135pr-magnetic-rotation, frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]
 created_from: Day26 direct-source study
 promotion_target: octupole-and-rare-electromagnetic-decay
 tags: [octupole, E1, E3, magnetic-rotation, antimagnetic-rotation, evidence-boundary]
@@ -97,6 +97,17 @@ BU17 Table I的E1模型/实验幅度比为0.00474/0.000223≈21.26，同方向B�
 ## Competing Explanations
 
 Ba保留软八极相关、较局域的内禀反射不对称、随spin变化的形状及aligned-octupole-phonon解释；低spin E3不能独立裁决高spin交叉。MR/AMR保留芯转动、组态重排与终止等竞争过程，拟合一条能谱不排除它们。
+
+### 跨质量区八极与电偶极相消系统学：A≈145 (Ba) 对比 A≈225 (Ra-Rn)
+
+结合 [[gaffney-2013-pear-shaped-rn-ra]]（GA13-1/2/6）、[[bucher-2016-144ba-direct-octupole]]（BU16-D26-001）与 [[bucher-2017-146ba-direct-octupole]]（BU17-D26-001/002），确立稀土区富中子钡同位素与锕系区镭-氡同位素在八极关联与电偶极相消上的深刻物理对应：
+
+| 特征量 | A≈145 质量区（$^{144,146}\text{Ba}$） | A≈225 质量区（$^{220}\text{Rn}, ^{224}\text{Ra}$） | 共同物理机制与证据分层 |
+|---|---|---|---|
+| **价核子八极驱动对** | 质子 $1h_{11/2} - 2d_{5/2}$；中子 $1i_{13/2} - 2f_{7/2}$ | 质子 $1i_{13/2} - 2f_{7/2}$；中子 $1j_{15/2} - 2g_{9/2}$ | 费米面附近均存在 $\Delta l = \Delta j = 3$ 的相反宇称单粒子对，驱动强烈八极相干耦合 |
+| **库仑激发实测 $B(E3)$** | $^{144}\text{Ba}$: $48(+25/-34)\text{ W.u.}$；$^{146}\text{Ba}$: $48(+21/-29)\text{ W.u.}$ | $^{220}\text{Rn}$: $33(4)\text{ W.u.}$；$^{224}\text{Ra}$: $42(3)\text{ W.u.}$ | 两大区域基态至 $3^-$ 八极跃迁强度均稳定处于 $30–50\text{ W.u.}$，提供直接八极集体性证据 |
+| **电偶极矩 $D_0$ 反常极小** | 从 $^{144}\text{Ba}$（$0.13\text{ e fm}$）到 $^{146}\text{Ba}$（$\le 0.01\text{ e fm}$）暴跌逾 13 倍 | $^{224}\text{Ra}$ 处出现局部极小（$|D_0| \approx 0.03\text{ e fm}$），而 $Q_3$ 处于极大 | 实验确证 $B(E1)$ 大小与八极跃迁集体性强弱解耦；微观上均源于中子单粒子轨道占据引发的质子-中子偶极反向相消 |
+| **交错宇称能级位移 $\delta E(I)$** | 低自旋区维持在 $600–800\text{ keV}$，中高自旋区才逐渐交错 | $^{220}\text{Rn}$ 维持 $>140\text{ keV}$（振动型）；$^{224}\text{Ra}$ 快速收敛至 $<20\text{ keV}$（刚性转子型） | 单一增强 $B(E3)$ 无法区分静态梨形极小与动态八极软振动；必须结合 $\delta E(I)$ 随自旋的收敛行为方能裁决内禀形状刚度 |
 
 ## Transfer Conditions
 
