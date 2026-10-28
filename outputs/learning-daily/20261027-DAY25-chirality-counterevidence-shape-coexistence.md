@@ -684,6 +684,8 @@ L0：原件身份/页数/哈希核验；L1：节点/带/谱系分开；L2：条�
 
 ## Verification and continuation
 
+checkpoint028：深化 L4 博士级核结构前沿研学，完成 100Sn Gamow-Teller 衰变强度 GSI 与 RIKEN 两倍测量分歧（9.1 对 4.4）之相空间五次方幂律放大与子核高激发态破碎化（TAS）加权数值解析，产出研究笔记 sn100-gt-phase-space-and-quenching-resolution.md；完成 137Ba 竞争双光子衰变中 E3M1 八极虚跃迁对决 M2E2 四极虚跃迁的连续能量分配谱 dGamma/dE1 拓扑判据建模（ba137-energy-sharing-discrimination.json），确立 U 型谷底对钟形单峰的排他性判别；全库 751 页面、10010 条链接 lint 校验保持 0 error，最新成果（commit 89c27ddd）已推至远端 Gitee origin/main；全套检查保持通过。
+
 checkpoint027：排查并彻底解决调度守护进程配置漂移历史 bug，将 run_daily_learning_daemon.py 中的模型优先级定义恢复为契约规定的 (("gpt-6-luna", "max"), ("gpt-6-sol", "high"), ("gpt-6-astra", "medium"))，消除与根目录 AGENTS.md 及 test_daily_learning_daemon.py 的冲突；守护进程 16 项自动化单元测试全绿，全库路径边界检查通过（ok: true），最新修复成果（commit 8b794fed）已同步推至远端 Gitee origin/main；全套检查保持通过。
 
 checkpoint026：在 133Ce 分析蓝本知识页 133ce-thesis-analysis-blueprint.md 中正式沉淀 Band 2（nu g7/2）三轴旋称劈裂物理机制，解析 QTR 模型在轴对称极限（gamma=0°）下预报零劈裂而在 gamma>=20° 下成功重现实验能级交错幅度的动力学规律，排除了纯轴对称转动模型，并对账了正宇称 Table 6.1 十六极形变 epsilon4=0.1 打印笔误与正文 0.01 的一致性；全套检查保持通过。
