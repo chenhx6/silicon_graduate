@@ -612,9 +612,25 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
           "locator": "F01-11"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/concepts/magnetic-rotation.md",
+      "anchor": "## Day 25 正式核验：剪刀动力学、高自旋重对齐反例与寿命时钟判据",
+      "summary": "补充剪刀闭合抛物线公式、135Pr 5qp 交叉反弹反例与绝对寿命时钟必要性。",
+      "sources": [
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-D25P-A005-01"
+        },
+        {
+          "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
+          "locator": "GA15-D25P-A005-02"
+        }
+      ]
     }
   ]
 }
+
 
 
 
