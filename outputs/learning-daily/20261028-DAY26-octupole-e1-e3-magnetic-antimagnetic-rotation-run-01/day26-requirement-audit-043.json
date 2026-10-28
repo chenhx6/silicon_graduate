@@ -1,0 +1,22 @@
+{
+  "schema": "day26-requirement-audit-043/v1",
+  "run_id": "2026-10-28-day-26-01",
+  "observed_at_local": "2026-10-28T22:48:00+08:00",
+  "hard_deadline": "2026-10-29T15:00:00+08:00",
+  "goal_status": "active",
+  "requirements": [
+    {"id":"R1","requirement":"directly reread Bucher 2016/2017, Garg 2015, Roy 2011 with units and uncertainty","status":"proved","evidence":["knowledge/sources/bucher-2016-144ba-direct-octupole.md","knowledge/sources/bucher-2017-146ba-direct-octupole.md","knowledge/sources/garg-2015-135pr-magnetic-rotation.md","knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md"]},
+    {"id":"R2","requirement":"retain competing interpretations and evidence boundaries","status":"proved","evidence":["knowledge/research-notes/octupole-mr-amr-evidence-gradient.md","knowledge/research-notes/day26-quantitative-claim-corrections.md","knowledge/research-notes/mr-amr-observable-matrix-boundary.md"]},
+    {"id":"R3","requirement":"write reusable knowledge and reproducible artifacts","status":"proved","evidence":["knowledge/index.md","outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/"]},
+    {"id":"R4","requirement":"verify boundary/lint/publish gates","status":"proved-for-current-checkpoint","evidence":["latest boundary ok:true; latest lint 0 errors; commits 0b05b62a and 95d7bc6f pushed"]},
+    {"id":"R5","requirement":"formal Day26 card credit and closeout receipt","status":"pending-hard-deadline","evidence":["run.json status=running, counted_in_substantive_test=false, completed_day_indices=[]"],"reason":"Must remain pending until 15:00–16:00 closeout and original runner receipts."},
+    {"id":"R6","requirement":"Day25 named receipt gap audit","status":"proved-as-missing","evidence":["system/handoff.md; Day25 run.json"],"reason":"card-credit-25.json, final-session-receipt-25.json and task-publication-receipt-25.json were not found; no receipt fabricated."},
+    {"id":"R7","requirement":"next-day preparation without Day28","status":"proved-as-bounded-preview","evidence":["daily report Day27_opened:false; cross-mass preview; no Day28"],"reason":"Preview carries no credit and next_day_index remains 26."}
+  ],
+  "scientific_gaps": [
+    "Egido–Robledo 1990 body not obtained; metadata/failure responses are not evidence.",
+    "Roy LINESHAPE raw counts, feeding covariance and normalization inputs not obtained.",
+    "Garg 2019 erratum corrects polarization but does not supply absolute B(M1) or lifetime."
+  ],
+  "closeout_rule": "Do not call update_goal complete before R5 and the 15:00–16:00 original closeout audit are proved."
+}
