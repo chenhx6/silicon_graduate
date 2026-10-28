@@ -1,0 +1,189 @@
+{
+  "created_utc": "2026-10-28T21:23:46.775444+00:00",
+  "worker_scope": "PNC/BCS/LN pairing, off-diagonal operators and Cd/Pd AMR band evolution",
+  "pdf_records": [
+    {
+      "path": "raw/papers/gpt/day26-20261028/wu-2011-pairing-rotation-blocking-arxiv1104.3385.pdf",
+      "doi": "10.1103/PhysRevC.83.034323",
+      "arxiv_version": "1104.3385v2",
+      "signature_ascii": "%PDF-1.4",
+      "bytes": 318222,
+      "pages": 15,
+      "sha256": "3e0a00171798bed92006eac788d578fbcb73fb2d64338dfab33bf7a7793f2979",
+      "sha256_matches_previous_record": true,
+      "reading_coverage": "Targeted PDF pp1–5 definitions and methods; pp6–12 relevant rotation/blocking discussions; not figure digitization.",
+      "source_kind": "primary-theory-paper; arXiv payload"
+    },
+    {
+      "path": "raw/papers/gpt/day26-20261028/sheikh-2002-pairing-number-projection-arxivnucl-th0207080.pdf",
+      "doi": "10.1103/PhysRevC.66.044318",
+      "arxiv_version": "nucl-th/0207080v1",
+      "signature_ascii": "%PDF-1.4",
+      "bytes": 237297,
+      "pages": 24,
+      "sha256": "9e34140ffe31c15e0753d9e50f91de24886c29149f0b78bb67d9775299f4696c",
+      "sha256_matches_previous_record": true,
+      "reading_coverage": "Targeted PDF pp1–13 methods, exact cranked single-j benchmark, Figs1–6 discussion and conclusions including model-space limitations on p13; not all graph points digitized.",
+      "source_kind": "primary-theory-paper; arXiv payload"
+    },
+    {
+      "path": "raw/papers/gpt/day26-20261028/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf",
+      "doi": "10.1103/PhysRevC.87.054314",
+      "arxiv_version": "1303.3346v2",
+      "signature_ascii": "%PDF-1.4",
+      "bytes": 232718,
+      "pages": 14,
+      "sha256": "8de4f9800f7b0cd52e6ea597f3d1eb58e0e3be3852054ef570bbc5fda9928c9b",
+      "sha256_matches_previous_record": true,
+      "reading_coverage": "Inherited complete reading; current rereading focused pp5–10 parameters, Figs1–4, crossing, quadrupole moments and RMS shears geometry.",
+      "source_kind": "primary-theory-paper; arXiv payload"
+    },
+    {
+      "path": "raw/papers/gpt/day26-20261028/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf",
+      "doi": "10.1088/1674-1137/43/5/054107",
+      "arxiv_version": "1912.11990v1",
+      "signature_ascii": "%PDF-1.4",
+      "bytes": 370918,
+      "pages": 8,
+      "sha256": "d0938039dd5c75f223bac9eca1d75e3c3d55f406504c41dc9f816a11d439de91",
+      "sha256_matches_previous_record": true,
+      "reading_coverage": "Inherited complete reading; current rereading focused pp2–7 methods, Figs3–7, deformation fitting, occupations and off-diagonal alignment.",
+      "source_kind": "primary-theory-paper; arXiv payload"
+    }
+  ],
+  "metadata_responses": [
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/wu2011-crossref.json",
+      "sha256": "83fa91c56bd54b49bbd62c39964274b1c403e4591b9c5063fa563fb9213d61d3",
+      "bytes": 11778,
+      "doi": "10.1103/physrevc.83.034323",
+      "title": [
+        "Nuclear pairing reduction due to rotation and blocking"
+      ],
+      "authors": [
+        {
+          "given": "X.",
+          "family": "Wu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Z. H.",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J. Y.",
+          "family": "Zeng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Y. A.",
+          "family": "Lei",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/sheikh2002-crossref.json",
+      "sha256": "5426c11f7962e80b3a42469421289087df1a3c647840d9db9c85d50c11d83f28",
+      "bytes": 9575,
+      "doi": "10.1103/physrevc.66.044318",
+      "title": [
+        "Pairing correlations and particle-number projection methods"
+      ],
+      "authors": [
+        {
+          "given": "J. A.",
+          "family": "Sheikh",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "P.",
+          "family": "Ring",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "E.",
+          "family": "Lopes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "R.",
+          "family": "Rossignoli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata_web_confirmation": [
+    {
+      "url": "https://arxiv.org/abs/1104.3385",
+      "arxiv_id": "1104.3385v2",
+      "verified": "title, authors, DOI, version and upload date"
+    },
+    {
+      "url": "https://arxiv.org/abs/nucl-th/0207080",
+      "arxiv_id": "nucl-th/0207080v1",
+      "verified": "title, authors, DOI, version, upload date; comments 18 pages differs from 24-page actual payload"
+    }
+  ],
+  "derivation_boundary": "Three analytic finite-Hamiltonian controls; no actual Cd/Pd PNC, LN or VAP solver was rerun.",
+  "scientific_review": "source/claim self-audit; unreviewed by human",
+  "raw_policy": "Existing retrieved PDF payloads read and hashed; no overwrite"
+}

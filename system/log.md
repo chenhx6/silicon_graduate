@@ -4656,3 +4656,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   1. 空间宇称投影重叠核微观推导（parity-projection-overlap-kernels-and-tunneling.md，工件076）：严格导出内禀反射非对称态空间重叠核Omega(q_3) = <Phi(q_3)|Phi(-q_3)> = exp(-q3^2 / 2sigma3^2) 与投影宇称劈裂公式Delta E(q_3) approx 2 Delta V Omega / (1 - Omega^2)；
   2. 深双阱对决浅软阱动力学物理分水岭：224Ra深双阱（V_b=1.45 MeV, S/hbar=3.65）空间重叠极微（Omega=2.11e-4），导出微小隧穿劈裂19.6 keV（实测20.4 keV）涌现稳定宇称双重态；144,146Ba浅势阱（V_b~0.3-0.4 MeV, S/hbar~1.2）空间重叠显著（Omega~0.17-0.23），纯宇称投影直接释放出815-832 keV劈裂（实测821-838 keV），微观证明即使平均场beta3>0亦完全呈现动态软八极振动态；
   3. 全量检查全绿：wiki_lint.py 0 error/288 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T05:15:00+08:00 Day26 checkpoint075：低能集体剪刀模向MR带微观跃迁边界、宇称投影符号纠正及PNC配对相干审计。
+  1. 低能集体剪刀模向高自旋MR剪刀带跃迁机制（orbital-scissors-mode-to-high-spin-mr-microscopic-boundary.md）：证明K=1剪刀模为横向两流体相对角振动，区分正常模跃迁电流与高自旋静态电流算符，核验50Cr 1+态NRF基准（向上B(M1)=1.113 muN2，轨道-自旋干涉贡献47%）；新增pai-2016与heyde-2010来源页；
+  2. 宇称投影公式符号纠正与小范数核奇异性（parity-projection-gcm-sign-and-small-norm-boundary.md）：纠正Delta E = 2(H00 n - h N)/(N^2 - n^2)公式符号，澄清Bernard 2016二维相关能与B(E3)=24.54 W.u.，对账076玩具模型并撤回定量绝对复现断言；
+  3. PNC-CSM配对相干与能带演化审计（amr-pnc-bcs-ln-pairing-coherence-band-evolution-audit.md）：证明固定N态反常平均为零不代表配对相干消失，BCS锐对崩溃为虚假数学效应，区分三类非对角物理量；新增wu-2011与sheikh-2002两篇来源页；
+  4. 全量检查全绿：wiki_lint.py 0 error/288 warnings，validate_writeback_items.py 19项有效，wiki_boundary_check.py ok: true，git diff --check clean。

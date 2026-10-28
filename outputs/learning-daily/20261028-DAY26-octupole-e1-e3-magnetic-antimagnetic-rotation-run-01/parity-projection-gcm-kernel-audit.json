@@ -1,0 +1,216 @@
+{
+  "status": "bounded-self-audit; no new nuclear-structure simulation",
+  "generated_at_utc": "2026-10-28T21:16:36.477448+00:00",
+  "delta_definition": "Eminus-Eplus",
+  "correct_formula": "2*(H*n-h*N)/(N*N-n*n)",
+  "algebra_max_abs_residual_MeV": 2.220446049250313e-15,
+  "energy_shift_max_abs_residual_MeV": 5.730971253115058e-13,
+  "analytic_states": [
+    {
+      "theta_rad": 0.03,
+      "N": 1.0,
+      "n": 0.9982005399352042,
+      "H_MeV": 0.0010796760388775005,
+      "h_MeV": -0.0010796760388775005,
+      "Eplus_MeV": 0.0,
+      "Eminus_MeV": 1.200000000000016,
+      "delta_formula_MeV": 1.2000000000000182
+    },
+    {
+      "theta_rad": 0.1,
+      "N": 1.0,
+      "n": 0.9800665778412417,
+      "H_MeV": 0.011960053295255022,
+      "h_MeV": -0.011960053295255022,
+      "Eplus_MeV": 0.0,
+      "Eminus_MeV": 1.2000000000000064,
+      "delta_formula_MeV": 1.200000000000007
+    },
+    {
+      "theta_rad": 0.4,
+      "N": 1.0,
+      "n": 0.6967067093471655,
+      "H_MeV": 0.18197597439170077,
+      "h_MeV": -0.18197597439170077,
+      "Eplus_MeV": 0.0,
+      "Eminus_MeV": 1.2000000000000004,
+      "delta_formula_MeV": 1.2000000000000002
+    },
+    {
+      "theta_rad": 0.7853981633974483,
+      "N": 1.0,
+      "n": 2.220446049250313e-16,
+      "H_MeV": 0.5999999999999999,
+      "h_MeV": -0.5999999999999999,
+      "Eplus_MeV": 0.0,
+      "Eminus_MeV": 1.2,
+      "delta_formula_MeV": 1.2
+    },
+    {
+      "theta_rad": 1.0,
+      "N": 1.0,
+      "n": -0.4161468365471423,
+      "H_MeV": 0.8496881019282854,
+      "h_MeV": -0.8496881019282854,
+      "Eplus_MeV": 0.0,
+      "Eminus_MeV": 1.2,
+      "delta_formula_MeV": 1.2
+    }
+  ],
+  "zero_overlap_counterexample": {
+    "N": 1,
+    "n": 0,
+    "H_MeV": 0.6,
+    "h_MeV": -0.6,
+    "delta_MeV": 1.2
+  },
+  "zero_odd_norm_at_reflection_symmetric_point": "Eminus undefined at exact q=0; finite tangent-state limit may exist",
+  "coherent_state_single_well_examples": [
+    {
+      "alpha": 0.0001,
+      "overlap": 0.9999999800000002,
+      "odd_projection_norm": 9.9999999e-09,
+      "delta_over_hbar_omega": 1.0
+    },
+    {
+      "alpha": 0.001,
+      "overlap": 0.999998000002,
+      "odd_projection_norm": 9.999990000006665e-07,
+      "delta_over_hbar_omega": 0.9999999999993334
+    },
+    {
+      "alpha": 0.01,
+      "overlap": 0.9998000199986667,
+      "odd_projection_norm": 9.999000066663334e-05,
+      "delta_over_hbar_omega": 0.9999999933333333
+    },
+    {
+      "alpha": 0.1,
+      "overlap": 0.9801986733067553,
+      "odd_projection_norm": 0.009900663346622351,
+      "delta_over_hbar_omega": 0.9999333364443133
+    },
+    {
+      "alpha": 0.5,
+      "overlap": 0.6065306597126334,
+      "odd_projection_norm": 0.1967346701436833,
+      "delta_over_hbar_omega": 0.9595173756674719
+    },
+    {
+      "alpha": 1.0,
+      "overlap": 0.1353352832366127,
+      "odd_projection_norm": 0.43233235838169365,
+      "delta_over_hbar_omega": 0.5514411295435664
+    },
+    {
+      "alpha": 2.0,
+      "overlap": 0.00033546262790251185,
+      "odd_projection_norm": 0.49983226868604874,
+      "delta_over_hbar_omega": 0.0053674026504617845
+    }
+  ],
+  "E3": {
+    "Weisskopf_one_unit_e2b3": 0.001231806822433859,
+    "table": [
+      {
+        "scheme": "1D-beta2",
+        "M_eb_3_over_2": 0.45,
+        "Bdown_e2b3": 0.028928571428571432,
+        "Bup_e2b3": 0.2025,
+        "Bdown_Wu": 23.48466569734779
+      },
+      {
+        "scheme": "1D-beta3",
+        "M_eb_3_over_2": 0.477,
+        "Bdown_e2b3": 0.032504142857142856,
+        "Bup_e2b3": 0.22752899999999998,
+        "Bdown_Wu": 26.387370377539973
+      },
+      {
+        "scheme": "2D",
+        "M_eb_3_over_2": 0.46,
+        "Bdown_e2b3": 0.03022857142857143,
+        "Bup_e2b3": 0.2116,
+        "Bdown_Wu": 24.54002598300638
+      }
+    ],
+    "source": "Bernard2016 PDF p.4 Table I"
+  },
+  "GCM_ground_energy_gains_MeV": {
+    "2D_vs_1D_beta2": 1.6159999999999854,
+    "2D_vs_1D_beta3": 0.8379999999999654
+  },
+  "old_076_input_recalculation": {
+    "224Ra": {
+      "omega_MeV": 1.0154364141151877,
+      "overlap": 1.093371242531956e-05,
+      "bottom_action_over_hbar": 7.615773105863908,
+      "heuristic_projection_keV": 0.011102489739460427,
+      "bottom_WKB_keV": 0.15922623475079314,
+      "physical_status": "unvalidated illustrative parameters; not microscopic kernels"
+    },
+    "144Ba": {
+      "omega_MeV": 0.7728734264634367,
+      "overlap": 0.012940245423047355,
+      "bottom_action_over_hbar": 2.898275349237888,
+      "heuristic_projection_keV": 10.002846795600284,
+      "bottom_WKB_keV": 13.559807101217894,
+      "physical_status": "unvalidated illustrative parameters; not microscopic kernels"
+    },
+    "146Ba": {
+      "omega_MeV": 0.7006462062194597,
+      "overlap": 0.04088268566332131,
+      "bottom_action_over_hbar": 2.1313657593195963,
+      "heuristic_projection_keV": 28.692254672002345,
+      "bottom_WKB_keV": 26.46723137049321,
+      "physical_status": "unvalidated illustrative parameters; not microscopic kernels"
+    }
+  },
+  "old_076_text_claims_keV": {
+    "224Ra": 19.6,
+    "144Ba": 832.5,
+    "146Ba": 815.2
+  },
+  "old_076_claims_reproduced": false,
+  "method_boundary": {
+    "Bernard2016": "explicit J,pi,N,Z projection plus 1D/2D HWG",
+    "Robledo2010": "1D GCM+GOA collective Schrodinger equation; ATDHF+ZPE mixture; rotational approximation for E3"
+  },
+  "missing_for_nuclear_quantitative_projection": [
+    "HFB norm kernel",
+    "Hamiltonian kernel",
+    "consistent EDF kernel prescription",
+    "fixed-J comparison"
+  ],
+  "sources": [
+    {
+      "path": "raw/papers/gpt/day26-20261028/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
+      "bytes": 1399379,
+      "sha256": "d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997",
+      "signature": "%PDF-",
+      "expected_pages": 6,
+      "actual_pages": 6,
+      "targeted_pdf_pages_read": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "path": "raw/papers/day26-20261028/2010-robledo-octupole-ra-ba.pdf",
+      "bytes": 388984,
+      "sha256": "ae90e45da93dd20dcdd46aed4e6ca58aa077c5b50f03062892a417d2e96493c8",
+      "signature": "%PDF-",
+      "expected_pages": 14,
+      "actual_pages": 14,
+      "targeted_pdf_pages_read": [
+        3,
+        4,
+        10,
+        11,
+        12
+      ]
+    }
+  ]
+}

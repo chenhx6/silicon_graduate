@@ -1,0 +1,160 @@
+{
+  "worker": "amr_cadmium",
+  "created_utc": "2026-10-28T21:27:45.674093+00:00",
+  "task": "PNC-CSM versus BCS/LN; Cd/Pd pairing, off-diagonal terms and band evolution",
+  "status": "complete-for-parent-integration",
+  "knowledge_files": [
+    "knowledge/research-notes/amr-pnc-bcs-ln-pairing-coherence-band-evolution-audit.md",
+    "knowledge/sources/wu-2011-pairing-rotation-blocking-pnc.md",
+    "knowledge/sources/sheikh-2002-number-projection-pairing-comparison.md",
+    "knowledge/sources/zhang-2013-105106cd-pnc-superfluidity.md",
+    "knowledge/sources/zhang-2019-104pd-pnc-antimagnetic-rotation.md",
+    "knowledge/index.md"
+  ],
+  "findings": [
+    "Fixed-N anomalous average vanishes; pairing correlations and pair transfer can remain finite. Pairing fluctuations are not Var(N).",
+    "PNC pair-Hamiltonian off-diagonal matrix elements, one-body Jx interference, and two-body pair coherence must be kept distinct.",
+    "105Cd pairing delays/smooths the neutron crossing but makes proton-hole closure more obvious; 104Pd has faster low-frequency closure and slower high-frequency closure. No universal slowing law.",
+    "PNC exactness is confined to the selected Hamiltonian and truncated fixed-N space. Real symmetry-sector crossings remain possible.",
+    "LN is an approximate number-projection correction distinct from uncorrected BCS; weak-pairing failure is model dependent; PHFB provides an alternative.",
+    "Fixed-deformation PNC does not reproduce all high-frequency B(E2) decrease in 106Cd or 104Pd; fitted deformation is not independent experimental evidence."
+  ],
+  "finite_model_controls": [
+    "Same-H exact N=2 versus BCS: at G=.8 MeV, epsilon=.4 MeV, BCS gap=0 but exact pair-transfer coherence=1/sqrt(2).",
+    "Effective constant-W mixing broadens a crossing at omega=.4 without moving its center; at W=0 the crossing eigenstate is not unique.",
+    "Exact-N two-sector cranking gives a genuine crossing at omega=.89442719 MeV/hbar for epsilon=.2, G=.8."
+  ],
+  "validation": {
+    "owned_lint_errors": 0,
+    "owned_lint_warnings": 0,
+    "owned_noninfo_issues": [],
+    "global_snapshot_counts": {
+      "error": 39,
+      "warning": 307,
+      "info": 5165
+    },
+    "global_other_errors": {
+      "knowledge/research-notes/orbital-scissors-mode-to-high-spin-mr-microscopic-boundary.md": [
+        "FIELD_REQUIRED",
+        "INDEX_MISSING",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED"
+      ],
+      "knowledge/research-notes/parity-projection-gcm-sign-and-small-norm-boundary.md": [
+        "INDEX_MISSING"
+      ],
+      "knowledge/sources/heyde-2010-magnetic-dipole-elementary-modes.md": [
+        "FIELD_REQUIRED",
+        "FIELD_REQUIRED",
+        "FIELD_REQUIRED",
+        "FIELD_REQUIRED",
+        "FIELD_REQUIRED",
+        "INDEX_MISSING",
+        "RAW_PATH",
+        "READING_DEPTH",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED"
+      ],
+      "knowledge/sources/pai-2016-cr50-orbital-spin-transition-currents.md": [
+        "FIELD_REQUIRED",
+        "FIELD_REQUIRED",
+        "FIELD_REQUIRED",
+        "FIELD_REQUIRED",
+        "FIELD_REQUIRED",
+        "INDEX_MISSING",
+        "RAW_PATH",
+        "READING_DEPTH",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED",
+        "SECTION_REQUIRED"
+      ]
+    },
+    "global_lint_is_concurrent_snapshot": true,
+    "boundary_ok": true,
+    "git_diff_check_exit": 0,
+    "git_diff_check_output": "",
+    "pdf_hashes_all_match": true,
+    "artifact_json_parse": "all existing worker JSON parsed successfully"
+  },
+  "limitations": [
+    "Analytic finite controls only; no full Cd/Pd PNC, BCS/LN, PAV or VAP solver rerun.",
+    "No author CMPC density/coefficient tables or independent high-frequency deformation measurements acquired.",
+    "No change to run identity, deadline, curriculum credit or human-review status."
+  ],
+  "commit_push": "not performed; parent integrates",
+  "artifacts": [
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/bcs_exact_shellgap_control.csv",
+      "bytes": 24499,
+      "sha256": "b13e6812c67884c42bfd2d66a71a0bd629a303192a3998ff4a8d617f1c5c377d"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/boundary.json",
+      "bytes": 1331,
+      "sha256": "231a7a88757d0f9edb8643ac6f8bc78036f5a8f247cf8e2a614cbc1fc9fc72c5"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/effective_avoided_crossing.csv",
+      "bytes": 1703,
+      "sha256": "bc990d580880cf4ff49bc19357dcc21a571bf4e4ffed32d793d8062b1f15e19d"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/exact_N_genuine_cranking_crossing.csv",
+      "bytes": 814,
+      "sha256": "f06eb698cefa0a1fdadc81adb03a0329ff7ce9ee8533de0138b233c4696b96b3"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/pairing_finite_number_controls.pdf",
+      "bytes": 30401,
+      "sha256": "6cab8da251b0a34f72470908cfabd36cefc9575325c4a6373ff31d3be93b3421"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/pairing_finite_number_controls.png",
+      "bytes": 195017,
+      "sha256": "4e5a23bd2f53fb993994b8e6e6e3fba7adc13c5503e9e079f11ab8f7f047ca55"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/pairing_finite_number_controls.py",
+      "bytes": 4647,
+      "sha256": "bb4145034a73cc0985c0ed241b284b440616f07f7827b75b7ef1c3fb8cdd5163"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/pairing_model_summary.json",
+      "bytes": 1932,
+      "sha256": "f6deb7749174f0f38f160e72a6544d538869f2ca5ded4c66c723107affdfe3b6"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/plot_pairing_controls.py",
+      "bytes": 2227,
+      "sha256": "8170b3cb42c1e915b53cd9fcf2605e4916cd1332d78b73832009f012c214e006"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/provenance.json",
+      "bytes": 6522,
+      "sha256": "089e231b8baafad2a2acb693eb44df39d75e046ef1781559f84f0957bcb2d11a"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/sheikh2002-crossref.json",
+      "bytes": 9575,
+      "sha256": "5426c11f7962e80b3a42469421289087df1a3c647840d9db9c85d50c11d83f28"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-pnc-bcs-pairing-20261029/wu2011-crossref.json",
+      "bytes": 11778,
+      "sha256": "83fa91c56bd54b49bbd62c39964274b1c403e4591b9c5063fa563fb9213d61d3"
+    }
+  ]
+}

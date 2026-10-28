@@ -57,6 +57,8 @@ PNC-CSM支持104Pd随频率变化的配对、占据重排与双剪刀图像，�
 
 ## Extracted Pages
 
+- [[amr-pnc-bcs-ln-pairing-coherence-band-evolution-audit]]
+
 - [[amr-double-shears-tensor-core-coupling-audit]]
 - [[antimagnetic-rotation]]
 

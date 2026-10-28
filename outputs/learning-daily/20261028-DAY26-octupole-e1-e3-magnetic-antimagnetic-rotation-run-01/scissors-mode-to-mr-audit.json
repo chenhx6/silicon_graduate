@@ -1,0 +1,217 @@
+{
+  "task": "orbital-scissors-mode-to-high-spin-MR",
+  "worker": "shears_dynamics",
+  "timestamp": "2026-10-29T05:23:09.076214+08:00",
+  "status": "bounded-research-delivered-with-historical-fulltext-gaps",
+  "review_status": "unreviewed",
+  "core_conclusions": [
+    "Low-energy K1 orbital scissors tilts proton/neutron symmetry axes about a transverse direction; rotation about the common axial symmetry axis does not change density.",
+    "Both modes use the same electromagnetic operator, but a universal low-1plus-to-MR branch conversion is not established by consulted evidence.",
+    "Low-mode transition currents and blocked high-spin static currents are different density-matrix objects.",
+    "Pair breaking and occupation changes require new self-consistent references; MR is not obtained by increasing one harmonic oscillation amplitude.",
+    "Orbital/spin interference and upward/downward statistical factors are necessary before comparing strengths."
+  ],
+  "new_primary_source": "Pai2016 50Cr PRC93 014318; 10page PDF; focused sections read; SHA256 aec3ddaf120312d487c3f3a627323bc7904343c03b7e1ab8f234bb5259fe8ff7",
+  "review_source": "Heyde2010 RMP82 2365; 59page PDF; focused consultation only; SHA256 a50d7385dc59eb5799328f385a46a9ae0499807ed7fa2d9e2249d9614b1c5aa5",
+  "historical_metadata": {
+    "LoIudicePalumbo1978": "Crossref verified; APS PDF403; batch connector unavailable; full text not obtained.",
+    "Richter1995": "Crossref verified exact title/DOI; batch credentials missing/noOAresult.",
+    "Frauendorf1993": "Crossref verified Tilted cranking DOI10.1016/0375-9474(93)90546-a; batch credentials missing/noOAresult."
+  },
+  "quantitative_result": {
+    "kind": "source-table-arithmetic-and-illustrative-rotor-not-microscopic-evolution",
+    "source": "Pai et al. 2016 PRC93 014318, arXiv1601.01905v1 pp4,9 TableIII",
+    "detailed_balance": {
+      "B_up_0to1_muN2": 1.113,
+      "sigma_up_muN2": 0.049,
+      "B_down_1to0_muN2": 0.371,
+      "sigma_down_muN2": 0.016333333333333335,
+      "MR_reverse_factor_at_I35over2": 1.0588235294117647
+    },
+    "orbital_spin_interference": [
+      {
+        "model": "QRPA",
+        "total_muN2": 1.52,
+        "orbital_only_muN2": 0.6,
+        "spin_only_muN2": 0.21,
+        "interference_muN2": 0.7100000000000001,
+        "interference_fraction": 0.4671052631578948,
+        "fully_constructive_from_rounded_parts_muN2": 1.5199295739719538,
+        "phase_cosine_from_rounded_values": 1.0000992014287449,
+        "rounding_boundary": "A cosine slightly above one reflects rounded table entries; it is not a measured phase."
+      },
+      {
+        "model": "LSSM",
+        "total_muN2": 0.826,
+        "orbital_only_muN2": 0.316,
+        "spin_only_muN2": 0.12,
+        "interference_muN2": 0.39,
+        "interference_fraction": 0.47215496368038745,
+        "fully_constructive_from_rounded_parts_muN2": 0.8254611662284187,
+        "phase_cosine_from_rounded_values": 1.0013835365841461,
+        "rounding_boundary": "A cosine slightly above one reflects rounded table entries; it is not a measured phase."
+      }
+    ],
+    "illustrative_rotor": {
+      "parameters_assumed_not_fitted": true,
+      "hbar": 1,
+      "Ip_MeVinv": 10.0,
+      "In_MeVinv": 15.0,
+      "Ired_MeVinv": 6.0,
+      "E_sc_MeV": 3.0,
+      "C_MeV": 54.0,
+      "phi_rms_rad": 0.16666666666666666,
+      "phi_rms_deg": 9.54929658551372,
+      "momentum_transition_square_hbar2": 9.0,
+      "one_cartesian_M1_operator_square_muN2": 2.148591731740587,
+      "normalization_boundary": "One transverse Cartesian coordinate; not a projected nuclear B(M1)."
+    },
+    "uncomputed": [
+      "No same-isotope low-spin-to-MR branch tracking.",
+      "No microscopic current reconstruction from observed data.",
+      "No historical-paper full-text reproduction."
+    ]
+  },
+  "checks": [
+    {
+      "path": "knowledge/research-notes/orbital-scissors-mode-to-high-spin-mr-microscopic-boundary.md",
+      "no_index_diff_check_returncode": 1,
+      "whitespace_diagnostics": "",
+      "unexpected_control_characters": [],
+      "note": "For untracked files, no-index exit1 with empty diagnostics reflects a file difference, not a whitespace error."
+    },
+    {
+      "path": "knowledge/sources/pai-2016-cr50-orbital-spin-transition-currents.md",
+      "no_index_diff_check_returncode": 1,
+      "whitespace_diagnostics": "",
+      "unexpected_control_characters": [],
+      "note": "For untracked files, no-index exit1 with empty diagnostics reflects a file difference, not a whitespace error."
+    },
+    {
+      "path": "knowledge/sources/heyde-2010-magnetic-dipole-elementary-modes.md",
+      "no_index_diff_check_returncode": 1,
+      "whitespace_diagnostics": "",
+      "unexpected_control_characters": [],
+      "note": "For untracked files, no-index exit1 with empty diagnostics reflects a file difference, not a whitespace error."
+    }
+  ],
+  "not_claimed": [
+    "No observed scissors-to-MR transformation.",
+    "No microscopic flow evolution was simulated.",
+    "No full read of the two retrieved PDFs.",
+    "No historical original fulltext read.",
+    "No human review."
+  ],
+  "raw_modified": false,
+  "shared_concepts_or_course_state_modified": false,
+  "formal_receipt_or_handoff_modified": false,
+  "full_repository_lint_or_tests_run": false,
+  "commit_or_push": false,
+  "artifacts": [
+    {
+      "path": "knowledge/research-notes/orbital-scissors-mode-to-high-spin-mr-microscopic-boundary.md",
+      "bytes": 11229,
+      "sha256": "c84bc9cd2b5697101d4dfff77799abe4c3ebd8134975863a25871b5ca077aee4"
+    },
+    {
+      "path": "knowledge/sources/pai-2016-cr50-orbital-spin-transition-currents.md",
+      "bytes": 4384,
+      "sha256": "f50bc779edefc64780e9f6ff865ab5993fde3b95f368fee6354310ec7e574e66"
+    },
+    {
+      "path": "knowledge/sources/heyde-2010-magnetic-dipole-elementary-modes.md",
+      "bytes": 4030,
+      "sha256": "adc3bc73040dd43c9eb99a57df032db47750a8dc93a8d2061b3dff0b7c9fa837"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/clark2000.txt",
+      "bytes": 219117,
+      "sha256": "0510b732787df79bec1c4fae24cfe29345543bc7c80b007e4af6c180c6f6bc52"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/cr50-2016.pdf",
+      "bytes": 377326,
+      "sha256": "aec3ddaf120312d487c3f3a627323bc7904343c03b7e1ab8f234bb5259fe8ff7"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/cr50-2016.txt",
+      "bytes": 79242,
+      "sha256": "02d294641ca9d37b6121c1e9d7787774a0af81791d3cee19a2b288d9c779de06"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/cr50-arxiv-identity.json",
+      "bytes": 185,
+      "sha256": "7a7bee177e5a30dae64551e2c7ae8020f39364f0629b4b73959d31cd9d2444d4"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/frauendorf1993-crossref.json",
+      "bytes": 1611,
+      "sha256": "dcb2661112e579dcee9d502d8beafebe2484f2afc2c1a574ad4e910d3913760a"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/frauendorf1993-identity.json",
+      "bytes": 952,
+      "sha256": "fc4016dc344363a0ab2541db4353e65369558b2d3ba061ff7d87a44219f0b05c"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/frauendorf1996-crossref.json",
+      "bytes": 2726,
+      "sha256": "88d06d37e8b9289b32c1b1542df99b0b0272d662ab1be003024e620b44047e54"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/frauendorf2001.txt",
+      "bytes": 388724,
+      "sha256": "0d4118a0a7a05dd6d9f5d1b62befc5991218d1517998052cbc97c1f04434c45a"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/heyde2010.pdf",
+      "bytes": 3491524,
+      "sha256": "a50d7385dc59eb5799328f385a46a9ae0499807ed7fa2d9e2249d9614b1c5aa5"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/heyde2010.txt",
+      "bytes": 388321,
+      "sha256": "85757d55071675f5cb0230799f56e4ba3f816103583b952cbbe80dbb8980e5d6"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/historical-papers/manifest.json",
+      "bytes": 1885,
+      "sha256": "564af609283cc85ffc13e78a5a9b9824f0960397118b694bbca1269dda933c60"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/loiudice1978-identity.json",
+      "bytes": 1206,
+      "sha256": "f14db5c4611db035e3832effd75fe6e60a5932fdf9fe0291b4d66610f1d9d29a"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/retrieval-manifest.json",
+      "bytes": 2746,
+      "sha256": "5f1d185785d2d1904d44809d5a72fc78babc20367858389ad0acb3b091642f0a"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/richter1995-crossref.json",
+      "bytes": 2092,
+      "sha256": "5dee4f32b6ded9de6a9708791ed1c8a71e34a247b304de9793d233351c89aac3"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/richter1995-identity.json",
+      "bytes": 1013,
+      "sha256": "39b2aa36ba8f02a89ea547c55ba7014e0ad494a8b245cfbf7c07bc636ea290e0"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/scissors-axis-and-interference.svg",
+      "bytes": 10534752,
+      "sha256": "bb7f10264b722c9552104449166e5ac7f9eae618fa65ddda66e78c487e216ea5"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/scissors-mode-to-mr-quantitative.json",
+      "bytes": 2036,
+      "sha256": "78ea4685ddcad226fc5b252c804709f640aff12db73536555ba155664caabe57"
+    },
+    {
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/scissors-mode-to-mr-quantitative.py",
+      "bytes": 3881,
+      "sha256": "52e6a2d4ce39552c67e510d32ef2bd2d301278a1ef7e029a09af768af555a868"
+    }
+  ]
+}

@@ -55,6 +55,8 @@ Nuclear superfluidity for antimagnetic rotation in 105Cd and 106Cd，*Physical R
 
 ## Extracted Pages
 
+- [[amr-pnc-bcs-ln-pairing-coherence-band-evolution-audit]]
+
 - [[amr-cd-isotopes-quantum-termination-oddA-signature-audit]]
 
 ## Competing Interpretations and Limitations

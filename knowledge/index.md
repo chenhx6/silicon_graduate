@@ -38,6 +38,8 @@ updated: 2026-10-28
 - [[multi-band-shears-coexistence-pb-141eu-139sm-boundary]] — 同核多重剪刀带共存微观物理：141Eu第一手寿命、SPAC集体演化与能带排斥。
 - [[octupole-cluster-radioactivity-preformation-boundary]] — 八极关联、高阶形变与锕系团簇放射性：预形成概率分解与势垒曲率软化。
 - [[parity-projection-overlap-kernels-and-tunneling]] — 微观空间宇称投影、重叠算符核与八极双阱隧穿动力学。
+- [[parity-projection-gcm-sign-and-small-norm-boundary]] — 宇称投影符号纠正、小范数核奇异性与GCM二维关联能对账。
+- [[orbital-scissors-mode-to-high-spin-mr-microscopic-boundary]] — 低激发集体剪刀模（1+）向高自旋磁转动带的微观跃迁与流场边界。
 - [[cd110-branch-normalization-boundary]] — 110Cd相对分支、22⁺ 1100-keV情景与Roy B(E2)归一化边界。
 
 - [[nndc-2012-cd110-hi-xng]] — 110Cd HI,XNG评价：高自旋寿命、分支、DCO与1100-keV争议。
@@ -425,6 +427,8 @@ updated: 2026-10-28
 - [[denisov-2013-multidimensional-cluster-radioactivity]] - 多维微观团簇模型与重核团簇放射性半衰期计算。
 - [[warda-2011-actinide-cluster-radioactivity-gogny]] - Gogny D1S 泛函下锕系核自洽微观超非对称裂变与团簇发射路径。
 - [[nndc-ra-th-cluster-decay-adopted]] - NNDC Ra 与 Th 同位素 14C 与 20O 团簇放射性评价分支比与部分半衰期。
+- [[heyde-2010-magnetic-dipole-elementary-modes]] - 原子核磁偶极激发模式大综述：低能轨道剪刀模与自旋翻转巨共振。
+- [[pai-2016-cr50-orbital-spin-transition-currents]] - 50Cr 低能 1+ 剪刀模 NRF 实验与 QRPA 轨道-自旋相长干涉流场。
 - [[dey-2026-116cs-multifaceted-decay]] - `116Cs`/`116Xe` 滴线多通道衰变、7.66-MeV 低能等轴八极共振、延迟 2p 与可能 `12C` cluster；数据与代码可得性边界。
 - [[hamilton-1948-successive-quanta-polarization]] - successive-γ direction–polarization formalism；16种 dipole/quadrupole 组合、相对宇称可判定性和探测效率边界。
 - [[herzan-2015-193bi-spectroscopy]] - `193Bi` JUROGAM-II/RITU/GREAT 纲图、`29/2±` 异构体、RDCO/IPDCO 标定和 `1/2[651]` SD 候选。
@@ -1099,3 +1103,9 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[rather-2014-104pd-antimagnetic-arxiv-full]]
 
 - [[amr-j2-dynamic-inertia-endpoint-audit]]
+
+- [[amr-pnc-bcs-ln-pairing-coherence-band-evolution-audit]] — PNC/BCS/LN配对相干、三种非对角项与Cd/Pd能带演化的同哈密顿量边界。
+
+- [[wu-2011-pairing-rotation-blocking-pnc]] — 固定粒子数配对关联、旋转与阻塞的原始PNC方法依据。
+
+- [[sheikh-2002-number-projection-pairing-comparison]] — 精确推转壳模型中的HFB/LN/PAV与数投影变分比较。

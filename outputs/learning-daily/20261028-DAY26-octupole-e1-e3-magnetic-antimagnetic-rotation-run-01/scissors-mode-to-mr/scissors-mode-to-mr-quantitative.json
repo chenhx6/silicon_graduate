@@ -1,0 +1,54 @@
+{
+  "kind": "source-table-arithmetic-and-illustrative-rotor-not-microscopic-evolution",
+  "source": "Pai et al. 2016 PRC93 014318, arXiv1601.01905v1 pp4,9 TableIII",
+  "detailed_balance": {
+    "B_up_0to1_muN2": 1.113,
+    "sigma_up_muN2": 0.049,
+    "B_down_1to0_muN2": 0.371,
+    "sigma_down_muN2": 0.016333333333333335,
+    "MR_reverse_factor_at_I35over2": 1.0588235294117647
+  },
+  "orbital_spin_interference": [
+    {
+      "model": "QRPA",
+      "total_muN2": 1.52,
+      "orbital_only_muN2": 0.6,
+      "spin_only_muN2": 0.21,
+      "interference_muN2": 0.7100000000000001,
+      "interference_fraction": 0.4671052631578948,
+      "fully_constructive_from_rounded_parts_muN2": 1.5199295739719538,
+      "phase_cosine_from_rounded_values": 1.0000992014287449,
+      "rounding_boundary": "A cosine slightly above one reflects rounded table entries; it is not a measured phase."
+    },
+    {
+      "model": "LSSM",
+      "total_muN2": 0.826,
+      "orbital_only_muN2": 0.316,
+      "spin_only_muN2": 0.12,
+      "interference_muN2": 0.39,
+      "interference_fraction": 0.47215496368038745,
+      "fully_constructive_from_rounded_parts_muN2": 0.8254611662284187,
+      "phase_cosine_from_rounded_values": 1.0013835365841461,
+      "rounding_boundary": "A cosine slightly above one reflects rounded table entries; it is not a measured phase."
+    }
+  ],
+  "illustrative_rotor": {
+    "parameters_assumed_not_fitted": true,
+    "hbar": 1,
+    "Ip_MeVinv": 10.0,
+    "In_MeVinv": 15.0,
+    "Ired_MeVinv": 6.0,
+    "E_sc_MeV": 3.0,
+    "C_MeV": 54.0,
+    "phi_rms_rad": 0.16666666666666666,
+    "phi_rms_deg": 9.54929658551372,
+    "momentum_transition_square_hbar2": 9.0,
+    "one_cartesian_M1_operator_square_muN2": 2.148591731740587,
+    "normalization_boundary": "One transverse Cartesian coordinate; not a projected nuclear B(M1)."
+  },
+  "uncomputed": [
+    "No same-isotope low-spin-to-MR branch tracking.",
+    "No microscopic current reconstruction from observed data.",
+    "No historical-paper full-text reproduction."
+  ]
+}

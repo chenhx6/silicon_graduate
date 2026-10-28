@@ -3,7 +3,27 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint074：微观空间宇称投影重叠算符核与八极双阱隧穿动力学定量闭环
+## Active handoff — Day26 checkpoint075：低能集体剪刀模向MR带微观跃迁边界、宇称投影符号纠正及PNC配对相干审计
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得重大微观理论与文献全文闭环：
+1. **低能集体剪刀模（1+）向高自旋磁转动剪刀带（MR）微观跃迁与流场边界**（`orbital-scissors-mode-to-high-spin-mr-microscopic-boundary.md`，来源 `pai-2016-cr50-orbital-spin-transition-currents.md`，`heyde-2010-magnetic-dipole-elementary-modes.md`）：
+   - 证明轴对称核低能 $K=1$ 剪刀模是质子-中子对称轴绕横向方向的相对小振幅倾斜振动（绕共同对称轴转动密度变化恒为零）；而高自旋磁转动是少数价准粒子关于转动轴的大开角对齐开合；
+   - 严格区分两类流场密度算符：低能正常模由跃迁对流场 $\delta\vec{j}_{0\to 1^+}(\vec{r})$ 刻画，高自旋阻塞态由静态期望流场 $\langle \vec{j}(\vec{r}) \rangle$ 刻画，两幅流场图分属不同算符，不存在简单的一阶连续演化；
+   - 核验 $^{50}\text{Cr}$ $3628.2\text{ keV}$ $1^+$ 态 NRF 实验基准：向上 $B(M1) = 1.113(49)\ \mu_N^2$（向下 $0.371(16)\ \mu_N^2$），QRPA/LSSM 轨道-自旋干涉项贡献约 $47\%$ 强度；
+2. **宇称投影公式符号纠正与小范数核奇异性界定**（`parity-projection-gcm-sign-and-small-norm-boundary.md`，工件 `parity-projection-gcm-kernel-audit`）：
+   - 严格纠正宇称劈裂定义式：以 $\Delta E = E_- - E_+$，投影能量极值严格满足 $\Delta E = \frac{2(H_{00}n - hN)}{N^2 - n^2}$（能量零点平移数值残差 $< 6\times 10^{-13}\text{ MeV}$）；
+   - 证明 $n\to 0$ 单独并不自动保证简并，必须能量重叠核 $h\to 0$ 协同收敛；对账 Bernard 2016 二维 SCCM 相关能（$1.616, 0.838\text{ MeV}$）与向下 $B(E3) \approx 24.54\text{ W.u.}$；
+   - 澄清 076 为示意唯象模型，撤回其对 $^{144,146}\text{Ba}$ 劈裂绝对数值重现的过强断言，保留模型条件边界；
+3. **PNC-CSM、BCS 与 Lipkin-Nogami 配对相干与能带演化微观审计**（`amr-pnc-bcs-ln-pairing-coherence-band-evolution-audit.md`，来源 `wu-2011-pairing-rotation-blocking-pnc.md`，`sheikh-2002-number-projection-pairing-comparison.md`）：
+   - 证明固定粒子数态中反常平均值 $\langle c^\dagger c^\dagger \rangle = 0$，但两体对转移相干仍可非零，传统 BCS 锐对崩溃（$\Delta \to 0$）纯系巨正则系综粒子数涨落的人为效应；
+   - 细致区分配对势非对角矩阵元、单体对齐干涉项与两体配对相干三类不同物理量，反驳“配对必然减慢剪刀闭合”的先验概括；
+   - 解析模型证实即使 BCS gap 归零，固定 $N$ 的对转移相干仍可维持有限值，常数非对角耦合展宽交叉而不改变中心。
+
+全量检查全绿（wiki_lint 0 error/288 warnings，validate_writeback_items.py 19项有效，boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint074：微观空间宇称投影重叠算符核与八极双阱隧穿动力学定量闭环
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

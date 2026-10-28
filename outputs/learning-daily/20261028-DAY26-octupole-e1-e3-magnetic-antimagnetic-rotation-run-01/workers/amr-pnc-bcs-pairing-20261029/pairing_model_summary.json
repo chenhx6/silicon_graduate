@@ -1,0 +1,42 @@
+{
+  "scope": "Analytic finite-model demonstrations; no nuclear fit and no full PNC CSM",
+  "G_MeV": 0.8,
+  "hamiltonian": "e1*N1+e2*N2-G(P1dagger*P2+P2dagger*P1), e1=-eps,e2=eps, no diagonal self-pair term",
+  "BCS_variational_equations": {
+    "v1sq": "x=min(1,0.5+eps/G)",
+    "v2sq": "1-x",
+    "energy": "2eps*(1-2x)-2G*x*(1-x)",
+    "gap": "G*sqrt(x*(1-x))",
+    "collapse_epsilon": "G/2"
+  },
+  "exact_N2_pair_matrix": "[[-2eps,-G],[-G,2eps]]",
+  "exact_pair_coherence": "G/sqrt(4eps^2+G^2)",
+  "at_BCS_critical_point": {
+    "epsilon_MeV": 0.4,
+    "two_epsilon_over_G": 1.0,
+    "G_MeV": 0.8,
+    "E_exact_N2_MeV": -1.1313708498984762,
+    "E_BCS_MeV": -0.8,
+    "Delta_BCS_MeV": 0.0,
+    "N_mean_BCS": 2.0,
+    "N_var_BCS": 0.0,
+    "N_exact": 2,
+    "N_var_exact": 0.0,
+    "anomalous_pair_amplitude_exact": 0.0,
+    "pair_transfer_coherence_exact": 0.7071067811865475,
+    "P1daggerP1_exact": 0.8535533905932737,
+    "P2daggerP2_exact": 0.14644660940672627,
+    "number_pair_occupation_var_exact": 0.12500000000000003,
+    "HP_expect_exact_MeV": -0.565685424949238,
+    "HP_variance_exact_MeV2": 0.3200000000000001,
+    "one_body_matrix_between_two_pair_configs": 0.0
+  },
+  "exact_cranking_counterexample": {
+    "eps": 0.2,
+    "omega_c": 0.894427190999916,
+    "cause": "Exact crossing between distinct conserved-J sectors; exact N alone does not remove a genuine crossing"
+  },
+  "avoided_crossing_boundary": "Off-diagonal W smooths a same-symmetry crossing but does not move its center omega0; a delay requires unequal diagonal correlation-energy shifts or frequency-dependent W.",
+  "pair_vs_onebody_offdiagonal": "Two pair configurations differ by two occupied orbitals: HP_AB=-G, but any one-body O_AB=0. Pair coherence does not equal one-body off-diagonal alignment.",
+  "numerical_generation": "Closed-form formulas evaluated in Python standard library; no stochastic fit or numerical diagonalization claim."
+}
