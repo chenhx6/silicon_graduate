@@ -3,7 +3,21 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint079：手征-八极四重态选择定则、MR/AMR带终止极限及双声子八极库激阻尼机制
+## Active handoff — Day26 checkpoint080：144/146Ba偶极相消与三级证据梯形图两大长期问题闭环更新
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段完成了对知识库中核心未决问题的闭环回写与系统更新：
+1. **144Ba 与 146Ba 偶极相消微观机制闭环**（`knowledge/questions.md`）：
+   - 核实 144,146Ba 直接 $B(E3; 3^- \to 0^+)$ 均为 $48^{+25}_{-34}$ 与 $48^{+21}_{-29}\text{ W.u.}$，而 146Ba 下行 $B(E1)$ 暴跌至 $9.27 \times 10^{-7}\text{ W.u.}$；
+   - 确立 Gogny D1S SCCM 中子侵入与低-$K$ 轨道（$\nu 1h_{9/2}, \nu 2f_{7/2}, \nu 1i_{13/2}$）占据产生负向极化抵消质子内禀偶极矩，微商 $\partial D_0 / \partial v^2 \approx -0.77\text{ e fm}$ 解释了过零点极高导数带来的 21 倍幅度差；
+2. **三级证据梯形图与四大质量门禁确立**（`knowledge/questions.md`）：
+   - 形式化 Tier 1 实验直接量 $\to$ Tier 2 导出跃迁几率 $\to$ Tier 3 模型内禀矩与形变反演；
+   - 确立严禁转子假设冒充实验事实、声明初末态统计权重与核取向、区分实测点与外推轨迹等铁律；
+3. **全量规范核验**：
+   - `wiki_boundary_check.py` ok: true，`wiki_lint.py --fail-on error` 0 error / 315 warnings，`git diff --check` clean。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint079：手征-八极四重态选择定则、MR/AMR带终止极限及双声子八极库激阻尼机制
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

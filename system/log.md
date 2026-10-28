@@ -4686,3 +4686,8 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. 磁转动与反磁转动高自旋闭合极限与非集体带终止机制（mr-amr-band-termination-and-extreme-spin-limits.md，工件 shears-termination/）：推导两叶片/四叶片最大对齐自旋，数值验证端点幂律（MR 1.9998, AMR 3.9986），确立区分平滑带终止与重开剪刀的判据；
   3. 多声子八极多重态（0+, 2+, 4+, 6+）库激压低微观机制（two-phonon-octupole-multiplets-damping-and-coulex-suppression.md，工件 two-phonon-octupole/）：推导二阶库激振幅失谐分母，结合doorway碎片化阻尼（展宽0.64-0.85 MeV）与IVGDR干涉相消解释实验压低成因；
   4. 全量检查全绿：wiki_lint.py 0 error/317 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T07:05:00+08:00 Day26 checkpoint080：144/146Ba偶极相消与三级证据梯形图两大长期问题闭环更新。
+  1. 144/146Ba偶极相消微观机制闭环（knowledge/questions.md）：回写144,146Ba直接B(E3)相近与146Ba E1暴跌至9.27e-7 W.u.事实，回链nu(h9/2, f7/2, i13/2)占据反向极化相消与过零点微商-0.77 e fm/v2灵敏度；
+  2. 三级证据梯度与四大质量门禁确立（knowledge/questions.md）：回写Tier 1实验量、Tier 2导出强度与Tier 3模型解释分层，确立防止模型假设冒充实验事实的质量门禁；
+  3. 全量检查全绿：wiki_lint.py 0 error/315 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
