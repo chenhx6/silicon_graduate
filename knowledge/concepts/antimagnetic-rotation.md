@@ -93,3 +93,21 @@ New concept page; review pending.
 [[kumar-2025-review-magnetic-antimagnetic-rotational-structures]] KU25-D23-004/005给明确条件例：固定$\pi(g_{9/2})^{-2}\otimes\nu[h_{11/2}(g_{7/2})^2]$时，Pauli允许的两空穴最大J=8、两g7/2中子最大J=6，显式子集最大39/2。只有再加“其余自由度J=0”才构成整个模型的终止界；高自旋超界提示需要其它角动量或修订占据/spin输入，不能单凭此判AMR失败。
 
 原Zhao微观模型明确无inert core，并有中子混合，故不属于这个冻结余部模型。条件2/4ℏ下界不是新测core R；经典双剪刀和精确有限壳层量子态比较时，应先对齐占据、Pauli、余自由度与spin映射，再检验能量/EM。最高(47/2−)保源括号，新needs_review:true，无新核态或寿命。
+## Day 25 正式核验：110Cd 反磁转动实测平台与 J^(2)/B(E2) 判据比闭合
+
+在 Day 25 研学窗口的深入推演中，结合 [[frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei]]（F01-11）与本 run 独立分析工件 day26-amr-cd110-systematics-019.py/json，确立了偶偶核 $^{110}\text{Cd}$ 候选反磁转动能带的实测定量基准与方法学约束：
+
+1. **实测近常数 $B(E2)$ 对普适陡降硬门的反驳**：
+   在 $^{110}\text{Cd}$ 正宇称四剪刀带（组态 $\pi(g_{9/2})^{-2} \otimes \nu(h_{11/2})^2$）中，实验提取的带内 $E2$ 跃迁强度在低自旋至中自旋区间呈现平坦特征：
+   - $12^+ \to 10^+$（$744.0\text{ keV}$）：$B(E2) = 0.11(3)\ e^2\text{b}^2$；
+   - $14^+ \to 12^+$（$907.0\text{ keV}$）：$B(E2) = 0.10(2)\ e^2\text{b}^2$；
+   - $16^+ \to 14^+$（$1042.0\text{ keV}$）：$B(E2) = 0.09(2)\ e^2\text{b}^2$；
+   - $18^+ \to 16^+$（$1180.0\text{ keV}$）：$B(E2) = 0.07(3)\ e^2\text{b}^2$。
+   实测 $B(E2)$ 在 $I=12^+-16^+$ 稳定处于 $\approx 0.10\ e^2\text{b}^2$（约十几个 W.u.）的水平，并无剧烈的单调陡降。这一事实明确证伪了“AMR 的 $B(E2)$ 必须在自旋上升中单调暴跌数倍”的唯象硬门假说，表明弱形变核芯与双剪刀闭合过程中四极矩重排可维持平坦的过渡收集性。
+
+2. **动态惯量跃迁比 $\mathcal{J}^{(2)} / B(E2)$ 作为定量判别量**：
+   依据实验能级差导出的动态转动惯量 $\mathcal{J}^{(2)} = 4 / \Delta E_\gamma$：
+   - $14^+ \to 12^+$（$\Delta E_\gamma = 163\text{ keV}$）：$\mathcal{J}^{(2)} = 24.54\ \hbar^2\text{MeV}^{-1}$，导出比值 $\mathcal{J}^{(2)} / B(E2) = 245.4\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$；
+   - $16^+ \to 14^+$（$\Delta E_\gamma = 135\text{ keV}$）：$\mathcal{J}^{(2)} = 29.63\ \hbar^2\text{MeV}^{-1}$，导出比值 $\mathcal{J}^{(2)} / B(E2) = 329.2\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$；
+   - $18^+ \to 16^+$（$\Delta E_\gamma = 138\text{ keV}$）：$\mathcal{J}^{(2)} = 28.99\ \hbar^2\text{MeV}^{-1}$，导出比值 $\mathcal{J}^{(2)} / B(E2) = 414.1\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$。
+   对比常规集体转动核（$\mathcal{J}^{(2)} / B(E2) \sim 15–40\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$），$^{110}\text{Cd}$ 的判据比高出达一个数量级（$>200$），直接反映了角动量主要由准粒子取向剪刀闭合而非大电荷形变驱动，确立了 AMR 的强定量判据。

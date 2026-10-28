@@ -601,9 +601,21 @@ HDI先在xi求再映delta，不等于delta坐标HDI。135Pr三线HDI端点映射
           "locator": "F01-11"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/concepts/antimagnetic-rotation.md",
+      "anchor": "## Day 25 正式核验：110Cd 反磁转动实测平台与 J^(2)/B(E2) 判据比闭合",
+      "summary": "补充 110Cd 反磁转动平坦 B(E2) 实验平台反例与 J^(2)/B(E2) 诊断比。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-11"
+        }
+      ]
     }
   ]
 }
+
 
 
 ```
