@@ -3,7 +3,11 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day25 checkpoint014：伴随量四级降级阶梯、三大同源实验池与133Ce输入合同审计
+## Active handoff — Day25 checkpoint027：守护配置漂移修复、全套单元测试通过与研学平稳驻守
+
+2026-10-28T13:15:00+08:00，原 run 2026-10-27-day-25-01 / session 01a17cdd-58b4-7a53-b782-5248260f526a，2026-10-28 15:00 研究硬截止不变，formal 累计 24/next25，completed[]/partial[25,26]。排查并修复 system/scripts/run_daily_learning_daemon.py 中的模型优先级漂移历史缺陷，恢复为契约规定的 (("gpt-6-luna", "max"), ("gpt-6-sol", "high"), ("gpt-6-astra", "medium"))，守护进程 16 项自动化测试全部通过（Ran 16 tests in 0.004s, OK）；全库路径边界检查通过（wiki_boundary_check.py ok: true）；规范日报增补 checkpoint027 验证条目并交付证书 required-checks-027.json，最新代码提交 14cc05ba 已推送远端 Gitee origin/main；全库 25 项持久化知识写回有效。当前距离 15:00 硬截止仍有约 105 分钟，保持会话活跃运行，平稳推进 Day 25 研学与 Day 26 预习，驻守至 15:00 启动正式收束。
+
+## Previous handoff — Day25 checkpoint014：伴随量四级降级阶梯、三大同源实验池与133Ce输入合同审计
 
 2026-10-28T06:35:00+08:00，原run/session及2026-10-28 15:00研究硬截止不变，formal累计24/next25，completed[]/partial[25,26]。完成三大同源实验池谱系（Vivitron Euroball IV 134Pr、JYFL JUROGAM II 152 MeV 135/136Nd/136Pr、Gammasphere 175 MeV 135/136Nd）系统化归纳，系统化杜绝同次campaign下不同反应道的重复计票；确立伴随可观测量四级降级阶梯架构（Rung 1 身份响应 -> Rung 2 绝对时钟 -> Rung 3 固定模型空间 -> Rung 4 独立结构holdout），给出 134Pr/135Nd/136Nd 缺项时的严格降级裁决；完成 133Ce 与 P-ADO 方法学输入合同审计，澄清辐射混合比定义与约化矩阵元转换因子（0.835Eγ / 0.7Eγ²），数学证伪手稿普适处处非零Jacobian断言（高自旋跃迁在大|δ|>5纯E2渐近区存在局部detJ=0奇异曲面，实验解δ=-0.55处正则可逆），并确立阵列角度硬编码失配、线偏振P缺失及NumPy 2.5.3 np.trapz失效等操作性阻断；确立582.7 keV out/out分母817.7 keV未观测与反演产额自相矛盾事实。生成 audit-day25-matrix-014.json/md、observable-ladder-audit-014.json/md 与 ce133-contract-audit-014.json/md 审计回执；boundary、lint、diff与原baseline写回门全部exit 0通过（required-checks-014.json）。继续在当前session内保持高价值学习至15:00。
 
