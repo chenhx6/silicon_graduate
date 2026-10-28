@@ -42,11 +42,11 @@ args = ["<wiki>/system/scripts/run_paper_search_mcp.py", "<paper-search-install>
 
 ## Springer Nature（2026-10-27）
 
-用户提供了 `SPRINGER_META_API_KEY` 与 `SPRINGER_OPEN_ACCESS_API_KEY`，已接入 Paper Search MCP；`nature-downloader` 私有凭据写入 `~/.config/lit-dl/credentials.json` 的 `springer_nature` 项（使用 Meta key，权限 0600）。两把 key 不写入 Wiki。
+用户提供了 `SPRINGER_META_API_KEY` 与 `SPRINGER_OPEN_ACCESS_API_KEY`，已接入 Paper Search MCP；`nature-downloader` 私有凭据按服务写入 `~/.config/lit-dl/credentials.json` 的 `springer_nature.metadata_api_key` 与 `springer_nature.openaccess_api_key`，权限 0600。旧的通用 `springer_nature.api_key` 已移除，避免把 Meta key 当成 Full Text 授权。两把 key 不写入 Wiki。
 
 实测 `https://api.springernature.com/meta/v2/json` 与 `https://api.springernature.com/openaccess/json` 各一次，均 HTTP 200，分别返回 1 条记录；查询词为 `keyword:nuclear`。本次响应没有账户额度头。用户提供的账户配额为 **500 hits/day、100 hits/min**；这条配额信息来自用户，不是响应头推断。Paper Search 代码内置约 3 次/分钟和 5000/日的本地保护计数，属于客户端保护，实际调用仍应遵守账户的 100/min、500/day。权限回执见 [Springer 测试](../../outputs/literature-acquisition/20261027-springer-api-permissions.json)。
 
-Meta/OA 检索成功不等于任意 Springer 论文均有 PDF 权限；全文仍需文章级 OA、JATS/API 返回或合法机构访问。新 MCP 进程加载配置，旧进程不热加载。
+Meta/OA 检索成功不等于任意 Springer 论文均有 PDF 权限；全文仍需文章级 OA、JATS/API 返回或合法机构访问。Nature downloader 的 metadata/openaccess 校验均返回 HTTP 200；没有 `fulltext_api_key`，因此不宣称 Springer Full Text API 已开通。新 MCP 进程加载配置，旧进程不热加载。
 
 ## Paper Search 下载目录（2026-10-26 修正）
 
