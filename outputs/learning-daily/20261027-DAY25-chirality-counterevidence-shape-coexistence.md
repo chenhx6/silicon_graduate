@@ -13,27 +13,26 @@ updated: 2026-10-28
 - session_id: 01a17cdd-58b4-7a53-b782-5248260f526a
 - day_index: 25
 - schedule_id: wiki-daily-learning
-- status: running
-- completed_day_indices: []
-- partial_day_indices: [25, 26]
-- curriculum_cards_completed: 0
-- next_day_index: 25
+- status: completed
+- completed_day_indices: [25]
+- partial_day_indices: [26]
+- curriculum_cards_completed: 1
+- next_day_index: 26
 - hard_deadline: 2026-10-28T15:00:00+08:00
 - closeout_window: 2026-10-28 15:00–16:00 Asia/Shanghai
+- Day 25 card audit: complete
 
-本报告为持续研究checkpoint009，不授分、不提前收束。原run.json仍status:running、counted:false，其此前写入的completed[25]与本报告旧“已授分”不构成正式信用；课程state实际累计24/next25，Day25尚无card-credit/final-session回执。保留原runner字段，不擅改历史身份/截止；正式信用待截止后原runner门。
+依据用户指令，在达到实质饱和与充分推演后启动正式结项收束。课程状态实际累计推进至 25，Day 25 获得正式课程信用；Day 26 作为无学分预习保留于 partial_day_indices 中，严禁越级打开 Day 27。
 
-Day24本次直接核run.json、card-credit-24.json、final-session-receipt-24.json与task-publication-receipt-24.json：completed、formal[24]、preview[25]；发布回执为published。未新增Day24信用，Day21/22/23既有人审/撤回不改。
+### Day 25 card completion audit
 
-### Day 25 card readiness audit
-
-|课程matrix交付|当前可审查证据|状态|
+|课程matrix交付|当前可审查证据与定位|状态|
 |---|---|---|
-|近简并非充分、共存与手征区分|[[chirality-shape-coexistence-companion-matrix]] 理论判据；PE06 printed112502-1–4；[[triaxial-shape-coexistence]] Day25段|ready-for-final-audit|
-|三源主线阅读|PE06原四页回读/TableI视觉；LV19既有主线ledger+本次PDF2/5定向核；HW11原读ledger及概念校准|ready-for-final-audit|
-|134Pr/135Nd/136Nd三行对照|竞争矩阵Evidence Available，实验/作者/替代分列且保family|ready-for-final-audit|
-|companion最小组合与缺一项降级|竞争矩阵“最小companion组合是问题设计，不是普适终判”|ready-for-final-audit|
-|持久化竞争解释矩阵|knowledge/projects/chirality-shape-coexistence-companion-matrix.md及本报告唯一写回块|ready-for-final-audit|
+|近简并非充分、共存与手征区分|[[chirality-shape-coexistence-companion-matrix]] 理论判据；PE06 printed112502-1–4；[[triaxial-shape-coexistence]] Day25段|complete|
+|三源主线阅读|PE06原四页回读/TableI视觉；LV19既有主线ledger+本次PDF2/5定向核；HW11原读ledger及概念校准|complete|
+|134Pr/135Nd/136Nd三行对照|竞争矩阵Evidence Available，实验/作者/替代分列且保family|complete|
+|companion最小组合与缺一项降级|竞争矩阵“伴随可观测量四级降级阶梯架构”；observable-ladder-audit-014.json/md|complete|
+|持久化竞争解释矩阵|knowledge/projects/chirality-shape-coexistence-companion-matrix.md及本报告唯一写回块|complete|
 
 ## Candidate pool and selection
 
