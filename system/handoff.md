@@ -3,14 +3,13 @@ graph-excluded: true
 updated: 2026-10-28
 ---
 
-## Active handoff — Day26 checkpoint055：八极振子干涉压低、AMR微商定域鲁棒性与量子剪刀零点强度确立
+## Active handoff — Day26 checkpoint056：M1辐射纯度多极定界与Cd-Pd跨核AMR系统学确立
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
-本检查点在八极振动干涉、AMR 判据比微商定域与量子剪刀代数领域取得三项定量闭环：
-1. **镭同位素多极 E3 矩阵元比值与八极振子相消干涉**（工件 `butler-radium-octupole-vibrator-model-056.py/json`）：依据 Butler 2020 Table I，定量提取 $^{222}\text{Ra}$ 独立矩阵元导出的内禀 $Q_3 = 2557.5(509.3)\ e\text{fm}^3$（相对离散度 $19.9\%$），其 $|M(E3; 2^+ \to 3^-)| / M(E3; 0^+ \to 3^-) = 0.796$ 紧密符合刚性转子 CG 因子；而在八极振动核 $^{228}\text{Ra}$ 中，该比值塌缩至 $0.069$（遭相消压低 $11.5$ 倍），确立了谐振子八极声子与四极转动相消干涉的量化判据，并划定 $^{144,146}\text{Ba}$ 尚缺高自旋直接 E3 因而暂无法进行多支 Q3 平坦度检验的科学边界；
-2. **110Cd 动态惯量与跃迁比 J(2)/B(E2) 离散微商定域鲁棒性**（工件 `cd110-j2-centering-sensitivity-057.py/json`）：系统评估跃迁对齐（Definition A）与能级中心内插（Definition B）两种微商方案，证实无论是初态对齐（$115.7 - 341.3\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$）还是中心内插（$108.3 - 328.8$），该比值均牢固高出常规集体转动（$15 - 40$）达 4 到 10 倍，证实 AMR 判据比不受离散求导约定的影响；
-3. **有限 j 量子剪刀 Racah 6j 严格矩阵元与端点零点强度**（工件 `quantum-shears-6j-racah-model-058.py/json`）：采用角动量代数严格重耦合公式，以 $^{135}\text{Pr}$ 3qp 态（$j_p=5.5, j_n=10.0$）为例逐点核算，证明半经典 Macchiavelli 公式在自旋接近终止端点时高估衰减速率，并在端点 $I_{\text{max}} = j_p + j_n = 15.5$ 虚假归零；而精确量子代数证实非对易角动量零点涨落保留高达 $B(M1)_{\text{quant}} = 1.7081\ \mu_N^2$ 的非零跃迁强度。
+本检查点在 135Pr 勘误多极混合比定域与 Cd-Pd 跨核反磁转动机制领域取得两项定量突破：
+1. **135Pr 813.3 keV 混合比 delta(E2/M1) 与 M1 纯度定界**（工件 `pr135-mixing-ratio-polarization-bounds-059.py/json`）：结合 Compton 散射探测灵敏度 $Q \approx 0.22$，修正后的微弱偏振不对称度 $P = +0.04(3)$ 与 $R_{\text{DCO}} = 0.98(5)$ 严格限制了多极混合比 $\delta(E2/M1) \in [0.10, 0.19]$；由此定量导出其磁偶极辐射分支纯度高达 $M1_{\text{frac}} \ge 96.5\%$（电四极混杂 $< 3.5\%$），彻底澄清了勘误中的“$M1+E2$ 混合”仅为弱混杂，绝不削弱磁转动剪刀辐射由 M1 主导的物理图景；
+2. **Cd-Pd 跨核反磁转动 AMR 系统学与核芯演化闭环**（工件 `cd-pd-amr-systematics-comparison-060.py/json`）：对比 $^{106,108,110}\text{Cd}$ 与 $^{105}\text{Pd}$，阐明 $^{106}\text{Cd}$ 纯剪刀 $B(E2)$ 剧降 $20$ 倍与 $^{110}\text{Cd}$ 平缓平台的物理分歧完全源于随着中子数向壳层中部填充（$N=58 \to 62$）导致核芯转动惯量 $\Im_{\text{core}}$ 显著增大；整个质量区全候选核均严格服从 $\mathcal{R}_y(\pi)\mathcal{T}$ 离散对称性引发的带内 $M1$ 禁戒与 $\Delta I = 2$ 纯四极级联退激，$\mathcal{J}^{(2)}/B(E2)$ 普遍达到 $100 - 1200\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$ 巨比值。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
 

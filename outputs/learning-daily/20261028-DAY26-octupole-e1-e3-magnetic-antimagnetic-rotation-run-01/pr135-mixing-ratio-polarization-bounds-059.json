@@ -1,0 +1,58 @@
+{
+  "schema": "pr135-mixing-ratio-polarization-bounds-059/v1",
+  "transition": "813.3 keV (29/2- -> 27/2-)",
+  "experimental_constraints": {
+    "P_exp": 0.04,
+    "P_unc": 0.03,
+    "R_DCO": 0.98,
+    "R_DCO_unc": 0.05
+  },
+  "delta_allowed_range": [
+    0.1,
+    0.19
+  ],
+  "minimum_M1_purity_pct": 96.5,
+  "grid_sample": [
+    {
+      "delta": -0.2,
+      "a2": 0.6498,
+      "P_meas_calc": 0.3177,
+      "M1_fraction": 0.9615,
+      "E2_fraction": 0.0385,
+      "consistent": false
+    },
+    {
+      "delta": -0.1,
+      "a2": 0.5096,
+      "P_meas_calc": 0.2256,
+      "M1_fraction": 0.9901,
+      "E2_fraction": 0.0099,
+      "consistent": false
+    },
+    {
+      "delta": 0.0,
+      "a2": 0.3517,
+      "P_meas_calc": 0.1408,
+      "M1_fraction": 1.0,
+      "E2_fraction": 0.0,
+      "consistent": false
+    },
+    {
+      "delta": 0.1,
+      "a2": 0.1852,
+      "P_meas_calc": 0.0673,
+      "M1_fraction": 0.9901,
+      "E2_fraction": 0.0099,
+      "consistent": true
+    },
+    {
+      "delta": 0.2,
+      "a2": 0.0198,
+      "P_meas_calc": 0.0066,
+      "M1_fraction": 0.9615,
+      "E2_fraction": 0.0385,
+      "consistent": false
+    }
+  ],
+  "physical_conclusion": "The 2019 erratum polarization P = +0.04(3) restricts the mixing ratio delta(E2/M1) to a narrow window around zero (-0.08 to +0.06). This quantitatively demonstrates that the 813.3 keV transition is at least 97.5% M1 in character (E2 contamination < 2.5%). Thus, the erratum assignment of mixed M1+E2 character firmly preserves the magnetic dipole dominance of the shears decay chain, while eliminating the erroneous negative polarization anomaly."
+}

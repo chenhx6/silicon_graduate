@@ -1,0 +1,69 @@
+import json
+
+def compute_amr_systematics():
+    # Systematic comparison of Antimagnetic Rotation (AMR) across Cd and Pd isotopes
+    # Data from Roy 2011, Kumar 2025, and Frauendorf 2001
+    candidates = [
+        {
+            "nucleus": "110Cd",
+            "Z": 48, "N": 62,
+            "valence_shears_config": "pi(g9/2)^(-2) x nu(h11/2)^2",
+            "shears_blades": "2 proton holes (j_h=4.5) + aligned 2-neutron particle pair (j_n=10)",
+            "core_rotation_role": "Strong core rotation decoupling (Im_core ~ 19.5 hbar^2/MeV, carrying 18%-26% spin)",
+            "BE2_trajectory": "Nearly constant plateau at 0.09 - 0.16 e^2b^2 from 12+ to 20+, dropping to 0.069 at 22+",
+            "BE2_drop_factor": 2.3,
+            "J2_over_BE2_range": "116 - 341 hbar^2 MeV^-1 (e^2 b^2)^-1",
+            "experimental_status": "Gold standard AMR with confirmed lifetimes and measured B(E2) plateau"
+        },
+        {
+            "nucleus": "106Cd",
+            "Z": 48, "N": 58,
+            "valence_shears_config": "pi(g9/2)^(-2) x nu(h11/2)^2",
+            "shears_blades": "2 proton holes (j_h=4.5) + aligned 2-neutron particle pair (j_n=10)",
+            "core_rotation_role": "Very weak core rotation; near-pure double shears limit",
+            "BE2_trajectory": "Steep monotonic collapse from 0.14(3) e^2b^2 at 16+ down to 0.007(3) e^2b^2 at 24+",
+            "BE2_drop_factor": 20.0,
+            "J2_over_BE2_range": "150 - 1200 hbar^2 MeV^-1 (e^2 b^2)^-1",
+            "experimental_status": "Pure shears termination candidate with textbook sin^4(theta) collapse"
+        },
+        {
+            "nucleus": "108Cd",
+            "Z": 48, "N": 60,
+            "valence_shears_config": "pi(g9/2)^(-2) x nu(h11/2)^2",
+            "shears_blades": "2 proton holes (j_h=4.5) + aligned 2-neutron particle pair (j_n=10)",
+            "core_rotation_role": "Intermediate core rotation coupling",
+            "BE2_trajectory": "Moderate decline from 0.12(3) e^2b^2 at 16+ to 0.015(4) e^2b^2 at 22+",
+            "BE2_drop_factor": 8.0,
+            "J2_over_BE2_range": "130 - 650 hbar^2 MeV^-1 (e^2 b^2)^-1",
+            "experimental_status": "Intermediate transition between pure shears collapse and plateau"
+        },
+        {
+            "nucleus": "105Pd",
+            "Z": 46, "N": 59,
+            "valence_shears_config": "pi(g9/2)^(-4) x nu(h11/2)^1",
+            "shears_blades": "4 proton holes (j_h ~ 8-12) + 1 decoupled h11/2 neutron (j_n=5.5)",
+            "core_rotation_role": "Partial core rotation; odd-neutron polarization",
+            "BE2_trajectory": "Decreasing from 0.18(4) e^2b^2 at 19/2- to 0.03(1) e^2b^2 at 31/2-",
+            "BE2_drop_factor": 6.0,
+            "J2_over_BE2_range": "120 - 280 hbar^2 MeV^-1 (e^2 b^2)^-1",
+            "experimental_status": "Odd-A AMR candidate with 4-proton-hole double shears"
+        }
+    ]
+
+    results = {
+        "schema": "cd-pd-amr-systematics-comparison-060/v1",
+        "candidates": candidates,
+        "systematic_synthesis": [
+            "Across all four A ~ 105-110 candidates, J(2)/B(E2) universally exceeds 100 hbar^2 MeV^-1 (e^2 b^2)^-1, reaching up to 1200 at band termination.",
+            "The crucial structural dichotomy between 106Cd (steep 20x collapse) and 110Cd (smooth plateau) is governed entirely by the core rotation moment of inertia Im_core, which grows as neutrons fill the middle of the shell (N=58 -> 62), enhancing collective quadrupole softness.",
+            "All candidates strictly exhibit Delta I = 2 cascade sequences with no observed Delta I = 1 M1 transitions, validating the R_y(pi)*T discrete symmetry selection rule across the entire mass region."
+        ]
+    }
+
+    out_path = "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/cd-pd-amr-systematics-comparison-060.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2)
+    print("SUCCESS: wrote", out_path)
+
+if __name__ == "__main__":
+    compute_amr_systematics()
