@@ -161,6 +161,13 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 78. **手征-八极复合四重态中磁偶极跃迁选择定则与极向流相消微观机制**（checkpoint 116，[[chiral-octupole-m1-selection-rules-and-polar-current-cancellation]]，工件 `chiral-octupole-m1/`）：严格证明磁偶极矢量算符的宇称内禀反演性质使其在无外加宇称杂质下（$h_P = 0$）跨宇称本征矩阵元严格为零，极向流在横向磁矩积分中发生空间相消；只有当存在非绝热交叉杂质时才产生二阶小的跨宇称分支，确立了手征-八极四重带间 $M1$ 的禁戒与选择定则；
 79. **反磁转动四叶片剪刀临界闭合角速度 $\\omega_c$ 的全核区同位素定标律与壳效应调制**（checkpoint 117，[[amr-shears-critical-frequency-isotopic-scaling-and-shell-modulation]]，工件 `amr-scaling-laws/`）：在 26 个候选核素上系统推演临界闭合角速度微观定标公式 $\\hbar\\omega_c = 3V_{\\pi\\nu}/(2j_p) \\propto A^{-1/3} [1 - \\kappa ((N-Z)/A)^2]$；量化中子费米面穿行对有效准粒子角动量的调制，从微观有效相互作用角度阐明 AMR 现象为何严格集中于中子数 $N=56 - 66$ 的狭窄窗口；
 80. **锕系奇-A 核宇称双重态中直接电八极跃迁 $B(E3)$ 的微观角动量几何耦合**（checkpoint 118，[[odd-a-actinide-parity-doublet-direct-e3-transitions-angular-coupling]]，工件 `actinide-direct-e3/`）：严格推导单准粒子耦合于反射不对称核芯时的直接电八极跃迁矩阵元；证明 $K=1/2$ 态特有的八极退耦干涉项 $p_{\\text{oct}}$ 诱发 $\\Delta I = +3$ 跃迁与 $\\Delta I = -3$ 跃迁之间显著的代数交错不对称，澄清直接带间高自旋 $B(E3)$ 的强耦合几何极限。
+
+### Checkpoint 119 手征四重态磁矩张量、AMR量子自旋截断与144,146Ba E1/E3轨道审计
+
+81. **三轴八极手征四重态中静态磁偶极矩张量与 K=1/2 自旋退耦**（checkpoint 119，[[octupole-chiral-quadruplet-static-magnetic-moments-and-spin-decoupling]]，工件 `octupole-chiral-magnetic-moments/`）：推导四态序下 $(\mu_1 - \mu_2) + (\mu_3 - \mu_4) = 4\mu_{\chi p}$，严格证明对偶负号关系仅在干涉项为零时成立；推导 $K=1/2$ 宇称依赖退耦常数 $b_0^{(+)} \ne b_0^{(-)}$ 及其磁矩修正；明确核对当前 Wiki 原件未形成 `78Br`、`133Ce` 静态 $\mu/g$ 数值闭合；
+82. **反磁转动（AMR）单-$j$ 费米子反对称化与量子自旋饱和截断**（checkpoint 119，[[amr-coulomb-repulsion-proton-blades-and-closing-asymmetry]]，工件 `amr-coulomb-blades/`）：严格证明同一单-$j$ 壳层中两同种费米子交换本征值为 $-1$ 禁戒奇数自旋，$(g_{9/2})^2$ 允许偶数 $J_p \le 8$，$(h_{11/2})^2$ 允许偶数 $J_n \le 10$，导出四价核子单-$j$ 截断空间绝对上限 $J_{\text{val,max}} = 18\hbar$，阐明经典 $20\hbar$ 违反泡利原理，实测高自旋态（$I = 20^+ \to 24^+$）必须由四极集体核芯转动供给角动量；
+83. **富中子钡同位素（$^{144,146}\text{Ba}$）中子单粒子占据与直接 $E3$ 形状推断审计**（checkpoint 119，[[ba-e1-e3-sccm-orbital-occupancy-and-static-shape-audit]]，工件 `ba-e1-e3-sccm-orbital-audit-20261029/`）：核实 Bucher 2017 中子轨道占据数据（$\nu h_{9/2}: v^2=0.40, \nu f_{7/2}: v^2=0.27, \nu i_{13/2}: v^2=0.20$），指出原论文未发表带符号逐轨道偶极矩阵元，强调现有公开数据不足以完成所谓“精确产生相消”的单轨道分解；计算两核直接 $E3$ 矩阵元区间 Jaccard 重叠达 0.85，确立单个 $E3$ 强度不足以作为刚性静态梨形充要判据的严格科学边界。
+
 5. **110Cd 动态惯量与跃迁比 J(2)/B(E2) 离散微商定域鲁棒性**（工件 `cd110-j2-centering-sensitivity-057.py/json`）：系统评估跃迁对齐（Definition A）与能级中心内插（Definition B）两种微商方案，证实无论是初态对齐（$115.7 - 341.3\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$）还是中心内插（$108.3 - 328.8$），该比值均牢固高出常规集体转动（$15 - 40$）达 4 到 10 倍，证实 AMR 判据比不受离散求导约定的影响；
 6. **有限 j 量子剪刀 Racah 6j 严格矩阵元与端点零点强度**（工件 `quantum-shears-6j-racah-model-058.py/json`）：采用角动量代数严格重耦合公式，以 $^{135}\text{Pr}$ 3qp 态（$j_p=5.5, j_n=10.0$）为例逐点核算，证明半经典 Macchiavelli 公式在自旋接近终止端点时高估衰减速率，并在端点 $I_{\text{max}} = j_p + j_n = 15.5$ 虚假归零；而精确量子代数证实非对易角动量零点涨落保留高达 $B(M1)_{\text{quant}} = 1.7081\ \mu_N^2$ 的非零跃迁强度；
 7. **135Pr 813.3 keV 混合比 delta(E2/M1) 与 M1 纯度定界**（工件 `pr135-mixing-ratio-polarization-bounds-059.py/json`）：结合 Compton 散射探测灵敏度 $Q \approx 0.22$，修正后的微弱偏振不对称度 $P = +0.04(3)$ 与 $R_{\text{DCO}} = 0.98(5)$ 严格限制了多极混合比 $\delta(E2/M1) \in [0.10, 0.19]$；由此定量导出其磁偶极辐射分支纯度高达 $M1_{\text{frac}} \ge 96.5\%$（电四极混杂 $< 3.5\%$），彻底澄清了勘误中的“$M1+E2$ 混合”仅为弱混杂，绝不削弱磁转动剪刀辐射由 M1 主导的物理图景；
@@ -452,6 +459,39 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
         {
           "path": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
           "locator": "GA15-D26-002"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/octupole-chiral-quadruplet-static-magnetic-moments-and-spin-decoupling.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "三轴八极手征四重态静态磁偶极矩张量、K=1/2宇称依赖退耦常数与干涉劈裂选择定则。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-4-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/ba-e1-e3-sccm-orbital-occupancy-and-static-shape-audit.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "144,146Ba中子单粒子占据与质子-中子偶极相消机制审计，直接E3矩阵元重叠0.85对静态梨形形变假设的边界约束。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
+          "locator": "BU17-D26-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/chiral-octupole-quadruplets-symmetry-and-transition-rules.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "三轴八极奇奇核手征—八极四重态离散对称性群、宇称投影、单纯形分类与多极跃迁选择定则。",
+      "sources": [
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-5-14"
         }
       ]
     }
