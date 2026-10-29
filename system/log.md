@@ -4731,3 +4731,10 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   3. 反磁转动高自旋区配对相变塌缩与动力学转动惯量突跃机制（amr-pairing-phase-transition-and-j2-anomaly.md，工件 amr-pairing-collapse/）：推导自洽推转配对能隙方程，数值重现110Cd在hbar*omega~0.52 MeV处由四准粒子解对与配对塌缩共同驱动的J^(2)~70.83 hbar^2/MeV突跃峰，澄清核心转动惯量跃升机制；
   4. 锕系超高形变第三势阱与深八极反射不对称极小（actinide-hyperdeformed-third-minimum-octupole-boundary.md，工件 hyperdeformed-actinides/）：对账232U与232Th裂变共振，在多维势能面上证实轴比3:1超高形变第三势阱（beta2~0.92）自发凹陷形成深八极极小（beta3~0.32-0.44），推导宇称双重态绝热简并（Delta E_parity < 1 keV）；
   5. 全量检查全绿：wiki_lint.py 0 error/336 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T09:50:00+08:00 Day26 checkpoint102：有限力程频率淬灭、GCM八极质量张量、时间奇场与锕系同质异能态。
+  1. 磁转动有限力程剪刀相互作用与转动频率淬灭机制（finite-range-shears-interaction-and-frequency-quenching.md，工件 finite-range-shears/）：比较接触模型与Gogny有限力程（1.2 fm）相互作用，证明空间波包交叠引入饱和势能导数，在omega=0.26 MeV处保持theta=22.8度开角与B(M1)=0.636 muN2，微观解释能带终止前的频率淬灭与能级密集压缩；
+  2. 八极形变下微观集体惯量张量、避免交叉与绝热路径重整（octupole-gcm-collective-mass-and-level-crossing-divergence.md，工件 octupole-mass-tensor/）：在(q2, q3)空间求解Inglis-Belyaev质量张量，证明Delta l=Delta j=3轨道避免交叉小分母发散可由配对相干与有限频率消除，给出正定动力学质量张量并重现大振幅八极周期；
+  3. 相对论推转模型（CRMF）中反磁转动时间奇场与自旋-轨道相互作用劈裂（amr-relativistic-time-odd-fields-and-spin-orbit-splitting.md，工件 amr-time-odd-fields/）：自洽求解四叶片狄拉克流诱发的时间奇矢量介子场，证明虽然mu_perp=0，但矢量场增强剪刀刚度17%-20%，为106-110Cd的J^(2)平台贡献12%-14%；
+  4. 轻锕系核同质异能态、K-混合打破与内禀八极选择定则（actinide-isomers-k-mixing-and-octupole-selection-rules.md，工件 actinide-isomers-octupole/）：严格区分轴对称beta3与Coriolis/三轴八极振动诱发的K-mixing，证明八极杂质开辟低禁戒度旁路跃迁使K-阻尼因子降低数个数量级，对账229Th 8.36 eV异构态与225Ra宇称双重态跃迁；
+  5. 全量检查全绿：wiki_lint.py 0 error/340 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

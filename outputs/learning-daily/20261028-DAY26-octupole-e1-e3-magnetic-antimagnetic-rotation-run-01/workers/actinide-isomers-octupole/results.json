@@ -1,0 +1,43 @@
+{
+  "model": "finite K-basis particle-rotor sensitivity scan",
+  "status": "illustrative_reduced_model_not_EDF_fit",
+  "basis_K": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+  ],
+  "equations": {
+    "wavefunction": "|Psi> = sum_K C_K |I M K>",
+    "hamiltonian": "H_KK'=E_K delta_KK' + beta3*epsK*(V1 delta_|dK|,1 + V3 delta_|dK|,3)",
+    "selection": "intrinsic amplitude includes only |K_i-K_f| <= L",
+    "rate": "lambda(EL)=c_L E_gamma^(2L+1) B(EL)",
+    "hindrance": "f_nu=(T_1/2/T_W)^(1/nu), nu=max(1,DeltaK-L)"
+  },
+  "constants": {
+    "E1": "1.59e15",
+    "M1": "1.76e13",
+    "E2": "1.22e9",
+    "E3": "5.70e2",
+    "rate_units": "s^-1, E_gamma in MeV"
+  },
+  "physical_boundary": "axial beta3 Y30 preserves K; eps_K is required for K mixing and represents Coriolis/triaxial/mu!=0 phonon coupling",
+  "reference_transition": {
+    "nucleus": "225Ra",
+    "E_gamma_keV": 31.5,
+    "evaluated_B_E1_WU": 0.00081,
+    "source": "knowledge/sources/nndc-2009-ra225-adopted-parity-doublet.md",
+    "comparison_status": "reference only; toy B values are not a refit and omit internal conversion"
+  },
+  "isomer_examples": {
+    "229Th": "3/2+ ground state and 5/2+ isomer near 8.3 eV; same parity, not an octupole parity doublet",
+    "234U": "high-K configurations occur in the adopted level scheme; a specific isomer assignment requires state-by-state ENSDF locator",
+    "178Hf": "K=8 ~4 s and K=16 ~31 y review examples"
+  },
+  "rows": 84
+}

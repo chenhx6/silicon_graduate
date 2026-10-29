@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "artifact_id": "amr-relativistic-time-odd-fields-20261029",
+  "status": "proxy-model-self-audit",
+  "model_boundary": "not a self-consistent 3-D CRMF calculation; reduced units and response ansatz are explicit",
+  "equations": {
+    "dirac_cranking": "h' = alpha dot[-i grad - V(r)] + beta(m+S) + V0 - omega dot J",
+    "time_odd_vector": "V = g_omega omega + g_rho tau_3 rho + e(1-tau_3)/2 A",
+    "field_response": "(-nabla^2 + m_a^2) a_i(r) = g_a j_i(r)",
+    "time_odd_shift": "Delta h_odd = - alpha dot V(r)",
+    "shears_proxy": "U_off = V2 sin^2(theta); U_on = U_off[1+eta(theta)]",
+    "j2": "J^(2) = 4 / [E_gamma(I+2->I)-E_gamma(I->I-2)]"
+  },
+  "symmetry_diagnostic": {
+    "theta_deg": 45.0,
+    "local_current_rms": 0.022196293156515837,
+    "local_field_rms": 0.06486833180688688,
+    "mu_p_transverse_proxy": 0.0,
+    "mu_n_transverse_proxy": 1.1368683772161623e-15,
+    "mu_total_transverse_proxy": 1.4210854715202029e-16,
+    "near_closure_local_current_rms": 0.0013852033228929543,
+    "interpretation": "paired blade moments cancel globally while the local current and vector field are nonzero away from closure"
+  },
+  "level_summary": [
+    {
+      "level": "p_g9/2_hole",
+      "species": "p",
+      "baseline_energy_MeV": -3.2,
+      "time_odd_off_shift_MeV": 0.0,
+      "time_odd_on_shift_MeV": -0.07049430553474582,
+      "energy_off_MeV": -3.2,
+      "energy_on_MeV": -3.270494305534746
+    },
+    {
+      "level": "p_g7/2_comparator",
+      "species": "p",
+      "baseline_energy_MeV": -1.1,
+      "time_odd_off_shift_MeV": 0.0,
+      "time_odd_on_shift_MeV": 0.07049430553474582,
+      "energy_off_MeV": -1.1,
+      "energy_on_MeV": -1.0295056944652543
+    },
+    {
+      "level": "n_h11/2_particle",
+      "species": "n",
+      "baseline_energy_MeV": 0.8,
+      "time_odd_off_shift_MeV": 0.0,
+      "time_odd_on_shift_MeV": 0.07049430553474584,
+      "energy_off_MeV": 0.8,
+      "energy_on_MeV": 0.8704943055347458
+    },
+    {
+      "level": "n_h9/2_comparator",
+      "species": "n",
+      "baseline_energy_MeV": 2.1,
+      "time_odd_off_shift_MeV": 0.0,
+      "time_odd_on_shift_MeV": -0.07049430553474584,
+      "energy_off_MeV": 2.1,
+      "energy_on_MeV": 2.029505694465254
+    },
+    {
+      "level": "proton_spin_orbit_proxy",
+      "species": "p",
+      "baseline_energy_MeV": 2.1,
+      "time_odd_off_shift_MeV": 0.0,
+      "time_odd_on_shift_MeV": 0.14098861106949157,
+      "energy_off_MeV": 2.1,
+      "energy_on_MeV": 2.2409886110694917
+    },
+    {
+      "level": "neutron_spin_orbit_proxy",
+      "species": "n",
+      "baseline_energy_MeV": -1.3,
+      "time_odd_off_shift_MeV": 0.0,
+      "time_odd_on_shift_MeV": 0.1409886110694918,
+      "energy_off_MeV": -1.3,
+      "energy_on_MeV": -1.1590113889305083
+    }
+  ],
+  "scissors_summary": {
+    "enhancement_min_percent": 16.95491125494631,
+    "enhancement_max_percent": 20.280800877566946,
+    "target_scan": [
+      {
+        "target_percent": 15.0,
+        "u_on_over_u_off_percent": 114.99999999999999
+      },
+      {
+        "target_percent": 20.0,
+        "u_on_over_u_off_percent": 120.0
+      },
+      {
+        "target_percent": 25.0,
+        "u_on_over_u_off_percent": 125.0
+      }
+    ],
+    "warning": "15-25 percent is a prescribed sensitivity band, not a published CRMF result"
+  },
+  "j2_summary": [
+    {
+      "nucleus": "106Cd",
+      "time_odd_off_model_j2": 22.5,
+      "time_odd_on_model_j2": 25.147014548789514,
+      "time_odd_contribution_percent": 11.764509105731168,
+      "experimental_positive_median_j2": 22.598870056497177,
+      "interpretation": "proxy response; not an experimental subtraction"
+    },
+    {
+      "nucleus": "108Cd",
+      "time_odd_off_model_j2": 22.5,
+      "time_odd_on_model_j2": 25.37201454878951,
+      "time_odd_contribution_percent": 12.76450910573117,
+      "experimental_positive_median_j2": 22.472603796882236,
+      "interpretation": "proxy response; not an experimental subtraction"
+    },
+    {
+      "nucleus": "110Cd",
+      "time_odd_off_model_j2": 42.0,
+      "time_odd_on_model_j2": 47.781093824407094,
+      "time_odd_contribution_percent": 13.764509105731168,
+      "experimental_positive_median_j2": 65.65656565656566,
+      "interpretation": "proxy response; not an experimental subtraction"
+    }
+  ],
+  "source_locators": [
+    "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md, PDF pp.467, 487-490",
+    "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md, PDF p.324 Table 1 and pp.325-326",
+    "knowledge/sources/rather-2014-104pd-antimagnetic-first-page.md, printed 061303-1 Eqs.1-2"
+  ]
+}

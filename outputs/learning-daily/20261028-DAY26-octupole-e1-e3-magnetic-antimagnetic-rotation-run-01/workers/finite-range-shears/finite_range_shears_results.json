@@ -1,0 +1,618 @@
+{
+  "contact_zero_range": [
+    {
+      "omega_MeV": 0.06,
+      "theta_shears_deg": 74.04,
+      "cos_theta": 0.275,
+      "I_spin": 3.03,
+      "B_M1_muN2": 3.9146,
+      "J2_hbar2_per_MeV": 50.0
+    },
+    {
+      "omega_MeV": 0.08,
+      "theta_shears_deg": 68.49,
+      "cos_theta": 0.3667,
+      "I_spin": 4.03,
+      "B_M1_muN2": 3.6655,
+      "J2_hbar2_per_MeV": 50.25
+    },
+    {
+      "omega_MeV": 0.1,
+      "theta_shears_deg": 62.72,
+      "cos_theta": 0.4583,
+      "I_spin": 5.04,
+      "B_M1_muN2": 3.3453,
+      "J2_hbar2_per_MeV": 50.5
+    },
+    {
+      "omega_MeV": 0.12,
+      "theta_shears_deg": 56.63,
+      "cos_theta": 0.55,
+      "I_spin": 6.05,
+      "B_M1_muN2": 2.9538,
+      "J2_hbar2_per_MeV": 50.5
+    },
+    {
+      "omega_MeV": 0.14,
+      "theta_shears_deg": 50.08,
+      "cos_theta": 0.6417,
+      "I_spin": 7.06,
+      "B_M1_muN2": 2.4912,
+      "J2_hbar2_per_MeV": 50.5
+    },
+    {
+      "omega_MeV": 0.16,
+      "theta_shears_deg": 42.83,
+      "cos_theta": 0.7333,
+      "I_spin": 8.07,
+      "B_M1_muN2": 1.9575,
+      "J2_hbar2_per_MeV": 50.25
+    },
+    {
+      "omega_MeV": 0.18,
+      "theta_shears_deg": 34.41,
+      "cos_theta": 0.825,
+      "I_spin": 9.07,
+      "B_M1_muN2": 1.3525,
+      "J2_hbar2_per_MeV": 50.25
+    },
+    {
+      "omega_MeV": 0.2,
+      "theta_shears_deg": 23.56,
+      "cos_theta": 0.9167,
+      "I_spin": 10.08,
+      "B_M1_muN2": 0.6764,
+      "J2_hbar2_per_MeV": 48.25
+    },
+    {
+      "omega_MeV": 0.22,
+      "theta_shears_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "J2_hbar2_per_MeV": 23.0
+    },
+    {
+      "omega_MeV": 0.24,
+      "theta_shears_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.26,
+      "theta_shears_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.28,
+      "theta_shears_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.3,
+      "theta_shears_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.32,
+      "theta_shears_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.34,
+      "theta_shears_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.36,
+      "theta_shears_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.38,
+      "theta_shears_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.4,
+      "theta_shears_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.42,
+      "theta_shears_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "J2_hbar2_per_MeV": 0.0
+    }
+  ],
+  "finite_range_0.8fm": [
+    {
+      "omega_MeV": 0.06,
+      "theta_shears_deg": 20.7,
+      "cos_theta": 0.9354,
+      "I_spin": 10.29,
+      "B_M1_muN2": 0.5291,
+      "J2_hbar2_per_MeV": 2.0
+    },
+    {
+      "omega_MeV": 0.08,
+      "theta_shears_deg": 20.08,
+      "cos_theta": 0.9392,
+      "I_spin": 10.33,
+      "B_M1_muN2": 0.4992,
+      "J2_hbar2_per_MeV": 1.75
+    },
+    {
+      "omega_MeV": 0.1,
+      "theta_shears_deg": 19.59,
+      "cos_theta": 0.9421,
+      "I_spin": 10.36,
+      "B_M1_muN2": 0.476,
+      "J2_hbar2_per_MeV": 1.5
+    },
+    {
+      "omega_MeV": 0.12,
+      "theta_shears_deg": 19.18,
+      "cos_theta": 0.9445,
+      "I_spin": 10.39,
+      "B_M1_muN2": 0.4569,
+      "J2_hbar2_per_MeV": 1.25
+    },
+    {
+      "omega_MeV": 0.14,
+      "theta_shears_deg": 18.82,
+      "cos_theta": 0.9465,
+      "I_spin": 10.41,
+      "B_M1_muN2": 0.4408,
+      "J2_hbar2_per_MeV": 1.0
+    },
+    {
+      "omega_MeV": 0.16,
+      "theta_shears_deg": 18.51,
+      "cos_theta": 0.9483,
+      "I_spin": 10.43,
+      "B_M1_muN2": 0.4268,
+      "J2_hbar2_per_MeV": 1.0
+    },
+    {
+      "omega_MeV": 0.18,
+      "theta_shears_deg": 18.23,
+      "cos_theta": 0.9498,
+      "I_spin": 10.45,
+      "B_M1_muN2": 0.4144,
+      "J2_hbar2_per_MeV": 0.75
+    },
+    {
+      "omega_MeV": 0.2,
+      "theta_shears_deg": 17.97,
+      "cos_theta": 0.9512,
+      "I_spin": 10.46,
+      "B_M1_muN2": 0.4033,
+      "J2_hbar2_per_MeV": 0.75
+    },
+    {
+      "omega_MeV": 0.22,
+      "theta_shears_deg": 17.74,
+      "cos_theta": 0.9524,
+      "I_spin": 10.48,
+      "B_M1_muN2": 0.3932,
+      "J2_hbar2_per_MeV": 0.75
+    },
+    {
+      "omega_MeV": 0.24,
+      "theta_shears_deg": 17.53,
+      "cos_theta": 0.9536,
+      "I_spin": 10.49,
+      "B_M1_muN2": 0.384,
+      "J2_hbar2_per_MeV": 0.5
+    },
+    {
+      "omega_MeV": 0.26,
+      "theta_shears_deg": 17.33,
+      "cos_theta": 0.9546,
+      "I_spin": 10.5,
+      "B_M1_muN2": 0.3756,
+      "J2_hbar2_per_MeV": 0.5
+    },
+    {
+      "omega_MeV": 0.28,
+      "theta_shears_deg": 17.14,
+      "cos_theta": 0.9556,
+      "I_spin": 10.51,
+      "B_M1_muN2": 0.3677,
+      "J2_hbar2_per_MeV": 0.5
+    },
+    {
+      "omega_MeV": 0.3,
+      "theta_shears_deg": 16.96,
+      "cos_theta": 0.9565,
+      "I_spin": 10.52,
+      "B_M1_muN2": 0.3604,
+      "J2_hbar2_per_MeV": 0.5
+    },
+    {
+      "omega_MeV": 0.32,
+      "theta_shears_deg": 16.79,
+      "cos_theta": 0.9573,
+      "I_spin": 10.53,
+      "B_M1_muN2": 0.3536,
+      "J2_hbar2_per_MeV": 0.5
+    },
+    {
+      "omega_MeV": 0.34,
+      "theta_shears_deg": 16.64,
+      "cos_theta": 0.9581,
+      "I_spin": 10.54,
+      "B_M1_muN2": 0.3471,
+      "J2_hbar2_per_MeV": 0.5
+    },
+    {
+      "omega_MeV": 0.36,
+      "theta_shears_deg": 16.49,
+      "cos_theta": 0.9589,
+      "I_spin": 10.55,
+      "B_M1_muN2": 0.3411,
+      "J2_hbar2_per_MeV": 0.5
+    },
+    {
+      "omega_MeV": 0.38,
+      "theta_shears_deg": 16.34,
+      "cos_theta": 0.9596,
+      "I_spin": 10.56,
+      "B_M1_muN2": 0.3353,
+      "J2_hbar2_per_MeV": 0.25
+    },
+    {
+      "omega_MeV": 0.4,
+      "theta_shears_deg": 16.21,
+      "cos_theta": 0.9603,
+      "I_spin": 10.56,
+      "B_M1_muN2": 0.3299,
+      "J2_hbar2_per_MeV": 0.25
+    },
+    {
+      "omega_MeV": 0.42,
+      "theta_shears_deg": 16.07,
+      "cos_theta": 0.9609,
+      "I_spin": 10.57,
+      "B_M1_muN2": 0.3247,
+      "J2_hbar2_per_MeV": 0.5
+    }
+  ],
+  "finite_range_1.2fm_Gogny": [
+    {
+      "omega_MeV": 0.06,
+      "theta_shears_deg": 28.52,
+      "cos_theta": 0.8786,
+      "I_spin": 9.66,
+      "B_M1_muN2": 0.9657,
+      "J2_hbar2_per_MeV": 5.0
+    },
+    {
+      "omega_MeV": 0.08,
+      "theta_shears_deg": 27.49,
+      "cos_theta": 0.8871,
+      "I_spin": 9.76,
+      "B_M1_muN2": 0.9023,
+      "J2_hbar2_per_MeV": 4.25
+    },
+    {
+      "omega_MeV": 0.1,
+      "theta_shears_deg": 26.66,
+      "cos_theta": 0.8937,
+      "I_spin": 9.83,
+      "B_M1_muN2": 0.8528,
+      "J2_hbar2_per_MeV": 3.25
+    },
+    {
+      "omega_MeV": 0.12,
+      "theta_shears_deg": 25.97,
+      "cos_theta": 0.899,
+      "I_spin": 9.89,
+      "B_M1_muN2": 0.8121,
+      "J2_hbar2_per_MeV": 2.75
+    },
+    {
+      "omega_MeV": 0.14,
+      "theta_shears_deg": 25.37,
+      "cos_theta": 0.9036,
+      "I_spin": 9.94,
+      "B_M1_muN2": 0.7774,
+      "J2_hbar2_per_MeV": 2.25
+    },
+    {
+      "omega_MeV": 0.16,
+      "theta_shears_deg": 24.84,
+      "cos_theta": 0.9075,
+      "I_spin": 9.98,
+      "B_M1_muN2": 0.7473,
+      "J2_hbar2_per_MeV": 2.0
+    },
+    {
+      "omega_MeV": 0.18,
+      "theta_shears_deg": 24.36,
+      "cos_theta": 0.911,
+      "I_spin": 10.02,
+      "B_M1_muN2": 0.7206,
+      "J2_hbar2_per_MeV": 1.75
+    },
+    {
+      "omega_MeV": 0.2,
+      "theta_shears_deg": 23.93,
+      "cos_theta": 0.9141,
+      "I_spin": 10.05,
+      "B_M1_muN2": 0.6966,
+      "J2_hbar2_per_MeV": 1.75
+    },
+    {
+      "omega_MeV": 0.22,
+      "theta_shears_deg": 23.53,
+      "cos_theta": 0.9169,
+      "I_spin": 10.09,
+      "B_M1_muN2": 0.6748,
+      "J2_hbar2_per_MeV": 1.5
+    },
+    {
+      "omega_MeV": 0.24,
+      "theta_shears_deg": 23.16,
+      "cos_theta": 0.9194,
+      "I_spin": 10.11,
+      "B_M1_muN2": 0.6549,
+      "J2_hbar2_per_MeV": 1.25
+    },
+    {
+      "omega_MeV": 0.26,
+      "theta_shears_deg": 22.81,
+      "cos_theta": 0.9218,
+      "I_spin": 10.14,
+      "B_M1_muN2": 0.6365,
+      "J2_hbar2_per_MeV": 1.25
+    },
+    {
+      "omega_MeV": 0.28,
+      "theta_shears_deg": 22.49,
+      "cos_theta": 0.924,
+      "I_spin": 10.16,
+      "B_M1_muN2": 0.6195,
+      "J2_hbar2_per_MeV": 1.25
+    },
+    {
+      "omega_MeV": 0.3,
+      "theta_shears_deg": 22.18,
+      "cos_theta": 0.926,
+      "I_spin": 10.19,
+      "B_M1_muN2": 0.6036,
+      "J2_hbar2_per_MeV": 1.25
+    },
+    {
+      "omega_MeV": 0.32,
+      "theta_shears_deg": 21.89,
+      "cos_theta": 0.9279,
+      "I_spin": 10.21,
+      "B_M1_muN2": 0.5887,
+      "J2_hbar2_per_MeV": 1.0
+    },
+    {
+      "omega_MeV": 0.34,
+      "theta_shears_deg": 21.61,
+      "cos_theta": 0.9297,
+      "I_spin": 10.23,
+      "B_M1_muN2": 0.5746,
+      "J2_hbar2_per_MeV": 1.0
+    },
+    {
+      "omega_MeV": 0.36,
+      "theta_shears_deg": 21.35,
+      "cos_theta": 0.9314,
+      "I_spin": 10.25,
+      "B_M1_muN2": 0.5614,
+      "J2_hbar2_per_MeV": 0.75
+    },
+    {
+      "omega_MeV": 0.38,
+      "theta_shears_deg": 21.1,
+      "cos_theta": 0.933,
+      "I_spin": 10.26,
+      "B_M1_muN2": 0.5488,
+      "J2_hbar2_per_MeV": 0.75
+    },
+    {
+      "omega_MeV": 0.4,
+      "theta_shears_deg": 20.86,
+      "cos_theta": 0.9345,
+      "I_spin": 10.28,
+      "B_M1_muN2": 0.5369,
+      "J2_hbar2_per_MeV": 0.75
+    },
+    {
+      "omega_MeV": 0.42,
+      "theta_shears_deg": 20.63,
+      "cos_theta": 0.9359,
+      "I_spin": 10.29,
+      "B_M1_muN2": 0.5255,
+      "J2_hbar2_per_MeV": 0.5
+    }
+  ],
+  "finite_range_1.6fm": [
+    {
+      "omega_MeV": 0.06,
+      "theta_shears_deg": 35.48,
+      "cos_theta": 0.8143,
+      "I_spin": 8.96,
+      "B_M1_muN2": 1.4266,
+      "J2_hbar2_per_MeV": 8.0
+    },
+    {
+      "omega_MeV": 0.08,
+      "theta_shears_deg": 33.96,
+      "cos_theta": 0.8294,
+      "I_spin": 9.12,
+      "B_M1_muN2": 1.3218,
+      "J2_hbar2_per_MeV": 7.25
+    },
+    {
+      "omega_MeV": 0.1,
+      "theta_shears_deg": 32.75,
+      "cos_theta": 0.8411,
+      "I_spin": 9.25,
+      "B_M1_muN2": 1.2392,
+      "J2_hbar2_per_MeV": 6.0
+    },
+    {
+      "omega_MeV": 0.12,
+      "theta_shears_deg": 31.72,
+      "cos_theta": 0.8506,
+      "I_spin": 9.36,
+      "B_M1_muN2": 1.1709,
+      "J2_hbar2_per_MeV": 5.0
+    },
+    {
+      "omega_MeV": 0.14,
+      "theta_shears_deg": 30.83,
+      "cos_theta": 0.8587,
+      "I_spin": 9.45,
+      "B_M1_muN2": 1.1125,
+      "J2_hbar2_per_MeV": 4.0
+    },
+    {
+      "omega_MeV": 0.16,
+      "theta_shears_deg": 30.04,
+      "cos_theta": 0.8657,
+      "I_spin": 9.52,
+      "B_M1_muN2": 1.0614,
+      "J2_hbar2_per_MeV": 3.5
+    },
+    {
+      "omega_MeV": 0.18,
+      "theta_shears_deg": 29.33,
+      "cos_theta": 0.8718,
+      "I_spin": 9.59,
+      "B_M1_muN2": 1.0161,
+      "J2_hbar2_per_MeV": 3.25
+    },
+    {
+      "omega_MeV": 0.2,
+      "theta_shears_deg": 28.68,
+      "cos_theta": 0.8773,
+      "I_spin": 9.65,
+      "B_M1_muN2": 0.9752,
+      "J2_hbar2_per_MeV": 3.0
+    },
+    {
+      "omega_MeV": 0.22,
+      "theta_shears_deg": 28.08,
+      "cos_theta": 0.8823,
+      "I_spin": 9.71,
+      "B_M1_muN2": 0.9381,
+      "J2_hbar2_per_MeV": 2.75
+    },
+    {
+      "omega_MeV": 0.24,
+      "theta_shears_deg": 27.52,
+      "cos_theta": 0.8869,
+      "I_spin": 9.76,
+      "B_M1_muN2": 0.904,
+      "J2_hbar2_per_MeV": 2.25
+    },
+    {
+      "omega_MeV": 0.26,
+      "theta_shears_deg": 26.99,
+      "cos_theta": 0.8911,
+      "I_spin": 9.8,
+      "B_M1_muN2": 0.8724,
+      "J2_hbar2_per_MeV": 2.0
+    },
+    {
+      "omega_MeV": 0.28,
+      "theta_shears_deg": 26.5,
+      "cos_theta": 0.8949,
+      "I_spin": 9.84,
+      "B_M1_muN2": 0.8431,
+      "J2_hbar2_per_MeV": 2.0
+    },
+    {
+      "omega_MeV": 0.3,
+      "theta_shears_deg": 26.03,
+      "cos_theta": 0.8986,
+      "I_spin": 9.88,
+      "B_M1_muN2": 0.8157,
+      "J2_hbar2_per_MeV": 2.0
+    },
+    {
+      "omega_MeV": 0.32,
+      "theta_shears_deg": 25.59,
+      "cos_theta": 0.9019,
+      "I_spin": 9.92,
+      "B_M1_muN2": 0.7899,
+      "J2_hbar2_per_MeV": 2.0
+    },
+    {
+      "omega_MeV": 0.34,
+      "theta_shears_deg": 25.16,
+      "cos_theta": 0.9051,
+      "I_spin": 9.96,
+      "B_M1_muN2": 0.7656,
+      "J2_hbar2_per_MeV": 1.75
+    },
+    {
+      "omega_MeV": 0.36,
+      "theta_shears_deg": 24.76,
+      "cos_theta": 0.9081,
+      "I_spin": 9.99,
+      "B_M1_muN2": 0.7427,
+      "J2_hbar2_per_MeV": 1.5
+    },
+    {
+      "omega_MeV": 0.38,
+      "theta_shears_deg": 24.37,
+      "cos_theta": 0.9109,
+      "I_spin": 10.02,
+      "B_M1_muN2": 0.7209,
+      "J2_hbar2_per_MeV": 1.5
+    },
+    {
+      "omega_MeV": 0.4,
+      "theta_shears_deg": 23.99,
+      "cos_theta": 0.9136,
+      "I_spin": 10.05,
+      "B_M1_muN2": 0.7001,
+      "J2_hbar2_per_MeV": 1.5
+    },
+    {
+      "omega_MeV": 0.42,
+      "theta_shears_deg": 23.63,
+      "cos_theta": 0.9162,
+      "I_spin": 10.08,
+      "B_M1_muN2": 0.6803,
+      "J2_hbar2_per_MeV": 1.5
+    }
+  ]
+}

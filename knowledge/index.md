@@ -126,6 +126,7 @@ updated: 2026-10-28
 - [[tensor-force-renormalization-odd-odd-magnetic-rotation]] — 奇奇核磁转动能带中多体张量力重整化、四阶剪刀势能修正与 B(M1) 曲率演化微观机制。
 - [[mr-amr-to-superdeformation-bifurcation-phase-diagram]] — 高自旋磁转动向超形变转动的双阱拓扑分岔、带交叉临界自旋与 WKB 隧穿相图动力学。
 - [[tac-3d-tilt-angles-and-axis-ratio-evolution]] — 磁转动三维推转自洽倾斜角、方位角锁定稳定性与核芯三轴轴比演化微观机制。
+- [[finite-range-shears-interaction-and-frequency-quenching]] — 磁转动中有限力程剪刀相互作用、闭合延迟与转动频率淬灭微观机制。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 - [[nomura-2018-odd-ba-octupole]] — 奇质量钡（143,145,147Ba）微观约束 sdf-IBFM 与奇中子阻塞机制原件。
@@ -942,9 +943,15 @@ updated: 2026-10-28
 
 ## Research Notes
 
+- [[actinide-isomers-k-mixing-and-octupole-selection-rules]] - 轻锕系 $^{225}$Ra、$^{229}$Th、$^{234}$U 同质异能态与八极选择定则；区分轴向 β3 反射破缺和真正 K-mixing，含 E1/E2/M1/E3 速率、K-hindrance 公式及可复现扫描工件。
+
+- [[octupole-gcm-collective-mass-and-level-crossing-divergence]] - 二维 $(\beta_2,\beta_3)$ 的 IB/GCM/ATDHFB 惯量张量、避免交叉小分母的条件性伪奇点、配对/有限频率正则化，以及 144/146Ba、224Ra、226Th 的证据边界；含可复现 CSV/JSON 质量曲面与大振幅周期工件。
+
 - [[octupole-boson-condensation-and-sdf-ibm-mapping]] - `sdf-IBM` 的 `s,d,f` 玻色子相干态、有限 `N` 八极势能面分岔、`B(E2/E3)` 代数标度，以及 `144,146Ba` 直接 E3 与 `148Ce` 数据缺口；含可复现 Python/CSV/JSON 工件。
 
 - [[crmf-dirac-currents-and-core-counter-rotation]] - CRMF 空间 Dirac 流、核芯反向旋转、no-sea/Dirac 海边界与 $^{199}$Pb/$^{135}$Pr 有效 g 因子猝灭的可复现二维代理模型。
+
+- [[amr-relativistic-time-odd-fields-and-spin-orbit-splitting]] - CRMF 反磁转动局域 Dirac 流、$ω/ρ/光子$ 空间时间奇场、g9/2/h11/2 轨道重整化及 Cd $\mathcal J^{(2)}$ 对照的 reduced-unit 工件。
 
 - [[octupole-chiral-berry-phase-and-topological-gap]] — 反射不对称三轴手征核的 Berry 联络、非阿贝尔 Wilson 回路、量子度量与四态隧穿/分支比代理；明确四重态与量子化拓扑的条件性边界，含可复现数值工件。
 

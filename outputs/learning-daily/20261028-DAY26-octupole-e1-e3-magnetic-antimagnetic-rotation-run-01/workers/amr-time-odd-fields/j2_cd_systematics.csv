@@ -1,0 +1,9 @@
+nucleus,center_index,e_gamma_prev_keV,e_gamma_next_keV,j2_hbar2_per_MeV,boundary
+106Cd,1,1150.6,1310.6,25.0,finite-difference source diagnostic
+106Cd,2,1310.6,1487.6,22.598870056497177,finite-difference source diagnostic
+106Cd,3,1487.6,1675.5,21.28791910590739,finite-difference source diagnostic
+108Cd,1,1105.0,1260.0,25.806451612903228,finite-difference source diagnostic
+108Cd,2,1260.0,1469.0,19.138755980861244,finite-difference source diagnostic
+110Cd,1,1224.0,1323.0,40.4040404040404,finite-difference source diagnostic
+110Cd,2,1323.0,1314.0,-444.44444444444446,110Cd near-coincident lines
+110Cd,3,1314.0,1358.0,90.90909090909092,finite-difference source diagnostic

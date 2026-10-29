@@ -1,0 +1,71 @@
+{
+  "model": "two-level avoided crossing with beta2-beta3 tilted coordinate",
+  "status": "illustrative_reduced_model_not_EDF_or_QRPA_fit",
+  "warning": "dimensionless proxy; not a calibrated EDF, QRPA, or nucleus-specific ATDHFB calculation",
+  "parameters": {
+    "crossing_beta3": 0.105,
+    "slope_a": 4.0,
+    "coupling_V": 0.015,
+    "pairing_gap": 0.8,
+    "dynamic_pairing_floor": 0.35,
+    "hbar_omega": 0.4,
+    "tv_proxy_factor": 1.25
+  },
+  "formula_conventions": {
+    "ib": "hbar^2 sum F_i* F_j/(E_mu+E_nu)^3",
+    "gcm": "hbar^2 M_-1^-1 M_-2 M_-1^-1",
+    "atdhfb": "hbar^2 M_-1^-1 M_-3 M_-1^-1",
+    "dynamic": "[(2E)^2+(hbar omega)^2]^(1/2) response scale"
+  },
+  "outputs": [
+    "mass_surface.csv",
+    "mass_curves_beta3.csv",
+    "avoided_crossing_scaling.csv",
+    "large_amplitude_periods.csv"
+  ],
+  "key_results": {
+    "bare_crossing_growth_first_to_last": 1000000000.0000001,
+    "paired_crossing_range": [
+      3.8164533719756437,
+      3.9062499084472653
+    ],
+    "dynamic_crossing_range": [
+      27.915560135830557,
+      30.531624157501348
+    ],
+    "periods": [
+      {
+        "beta3_amplitude": 0.18,
+        "energy": 0.01944,
+        "period_dynamic": 249.97829381337985
+      },
+      {
+        "beta3_amplitude": 0.19,
+        "energy": 0.0282534,
+        "period_dynamic": 206.90020544242316
+      },
+      {
+        "beta3_amplitude": 0.2,
+        "energy": 0.039321600000000026,
+        "period_dynamic": 181.2638719065182
+      },
+      {
+        "beta3_amplitude": 0.22,
+        "energy": 0.06936,
+        "period_dynamic": 149.48977597466916
+      },
+      {
+        "beta3_amplitude": 0.24,
+        "energy": 0.1119744,
+        "period_dynamic": 129.50991183251966
+      }
+    ]
+  },
+  "checks": {
+    "surface_rows": 4141,
+    "curve_rows": 101,
+    "scaling_rows": 80,
+    "period_rows": 5,
+    "all_dynamic_determinants_positive": true
+  }
+}

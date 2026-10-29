@@ -1,0 +1,7 @@
+level,species,baseline_energy_MeV,time_odd_off_shift_MeV,time_odd_on_shift_MeV,energy_off_MeV,energy_on_MeV
+p_g9/2_hole,p,-3.2,0.0,-0.07049430553474582,-3.2,-3.270494305534746
+p_g7/2_comparator,p,-1.1,0.0,0.07049430553474582,-1.1,-1.0295056944652543
+n_h11/2_particle,n,0.8,0.0,0.07049430553474584,0.8,0.8704943055347458
+n_h9/2_comparator,n,2.1,0.0,-0.07049430553474584,2.1,2.029505694465254
+proton_spin_orbit_proxy,p,2.1,0.0,0.14098861106949157,2.1,2.2409886110694917
+neutron_spin_orbit_proxy,n,-1.3,0.0,0.1409886110694918,-1.3,-1.1590113889305083

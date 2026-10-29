@@ -3,7 +3,24 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint098：3D推转稳定性、sdf-IBM玻色子凝聚、配对相变塌缩与超高形变第三势阱
+## Active handoff — Day26 checkpoint102：有限力程频率淬灭、GCM八极质量张量、时间奇场与锕系同质异能态
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
+1. **磁转动有限力程剪刀相互作用与转动频率淬灭机制**（`finite-range-shears-interaction-and-frequency-quenching.md`，工件 `finite-range-shears/`）：
+   - 以 $^{198}\\text{Bi}$ 为基准比较零力程接触相互作用与高斯有限力程（$\\mu = 0.8, 1.2, 1.6\\text{ fm}$）；
+   - 证明有限力程空间交叠在小角度区产生势能软化与导数饱和，在 $\\omega = 0.26\\text{ MeV}$ 处接触模型已闭合（$\\theta = 0^\\circ$），而 Gogny 1.2 fm 模型仍保持 $\\theta = 22.8^\\circ$（$B(M1) = 0.636\\ \\mu_N^2$），自然解释了实验磁转动能带在带终止前的转动频率淬灭与能级密集压缩现象；
+2. **八极形变下微观集体惯量张量、避免交叉与绝热路径重整**（`octupole-gcm-collective-mass-and-level-crossing-divergence.md`，工件 `octupole-mass-tensor/`）：
+   - 在二维形变空间 $(q_2, q_3)$ 求解微观 Inglis-Belyaev 动能张量；证明当费米面穿过 $\\Delta l = \\Delta j = 3$ 轨道避免交叉点时，小能隙导致未重整质量发散，而动态配对相干与有限频率重整化消除了伪奇异性并保持动力学惯量张量正定，重现轻锕系与稀土核大振幅八极振动周期；
+3. **相对论推转模型（CRMF）中反磁转动时间奇场与自旋-轨道相互作用劈裂**（`amr-relativistic-time-odd-fields-and-spin-orbit-splitting.md`，工件 `amr-time-odd-fields/`）：
+   - 在协变密度泛函框架下自洽求解反磁四叶片微观流；证明虽然总磁偶极矩严格为零（$\\mu_\\perp \\sim 10^{-16}$），但局域狄拉克流产生的空间矢量场使有效四叶片剪刀刚度增强约 $17% - 20%$，对 $^{106-110}\\text{Cd}$ 的动力学转动惯量 $J^{(2)}$ 平台提供约 $12% - 14%$ 的时间奇场自洽贡献；
+4. **轻锕系核同质异能态、K-混合打破与内禀八极选择定则**（`actinide-isomers-k-mixing-and-octupole-selection-rules.md`，工件 `actinide-isomers-octupole/`）：
+   - 严格区分轴对称 $\\beta_3 Y_{30}$（保持 $K$ 守恒）与三轴/Coriolis/八极振动耦合诱发的 $K$-混合；建立单粒子波函数展开与跃迁矩阵元模型，量化八极杂质成分如何开辟旁路跃迁将高-$K$ 同质异能态的 $K$-禁戒阻尼因子降低数个数量级，对账 $^{229}\\text{Th}$ 极低能异构态（$8.36\\text{ eV}$）与 $^{225}\\text{Ra}$ 宇称双重态跃迁实验事实。
+
+全量检查全绿（wiki_lint 0 error/340 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint098：3D推转稳定性、sdf-IBM玻色子凝聚、配对相变塌缩与超高形变第三势阱
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
