@@ -1,0 +1,4 @@
+period_T_over_hbar_keV_inv,relative_energy_integral_keV,dynamical_phase_rad,geometric_phase_rad,phase_dependence
+0.005,-4.7367054061299205,0.023683527030649604,-0.03271459407560283,changes with traversal period; independent geometric phase is stored separately
+0.01,-4.7367054061299205,0.04736705406129921,-0.03271459407560283,changes with traversal period; independent geometric phase is stored separately
+0.02,-4.7367054061299205,0.09473410812259841,-0.03271459407560283,changes with traversal period; independent geometric phase is stored separately

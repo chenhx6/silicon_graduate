@@ -180,6 +180,13 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 51. **电巨偶极共振（IVGDR）在八极核中的多重劈裂与低能 E1 EWSR 求和规则**（checkpoint 089，[[octupole-gdr-splitting-and-low-energy-e1-ewsr-boundary]]，工件 `octupole-gdr-e1/`）：严格推导基于 Thouless 定理与质心修正的内禀电偶极矩 $D_0 = e \\frac{NZ}{A} (\\langle z_p \\rangle - \\langle z_n \\rangle)$；核算 $^{146}\\text{Ba}$ TRK 求和规则总额度 $S_{\\text{TRK}} = 615.19\\text{ MeV}\\cdot e^2\\text{fm}^2$，证明实测低能 $1^-$ 跃迁仅消耗 $8.49 \\times 10^{-9}$ 的微量份额（对账 $|D_0| \\approx 0.00456\\ e\\cdot\\text{fm}$），从微观上阐明尽管局域低能 $E1$ 显现增强，但其绝对强度依然被巨共振高能尾部相消干涉压制的物理图像；
 52. **锕系偶偶核交替宇称能带的四极-八极粒子-转子模型**（checkpoint 090，[[actinide-alternating-parity-quadrupole-octupole-prm]]，工件 `actinide-parity-prm/`）：建立涵盖单纯形守恒（$s=+1$）的四极-八极转子哈密顿量，重现 $^{224}\\text{Ra}$（从约 $161\\text{ keV} \\to 6\\times 10^{-5}\\text{ keV}$）与 $^{226}\\text{Th}$（从约 $185\\text{ keV} \\to 0.03\\text{ keV}$）正负宇称交错位移 $\\Delta E(I)$ 随转动离心稳定化向零指数收敛的物理图像，完成 $B(E1)/B(E2)$ 实验分支反演与 $D_0$ 系统学对账。
 
+### Checkpoint 091–094 超形变分岔、拓扑Berry相位、CRMF狄拉克流与转移谱因子
+
+53. **高自旋磁转动向超形变转动的拓扑分岔与双阱相图动力学**（checkpoint 091，[[mr-amr-to-superdeformation-bifurcation-phase-diagram]]，工件 `mr-amr-to-sd-bifurcation/`）：建立双阱四极势能面（Well 1 弱长椭 $\\beta_2 \\approx 0.12$，Well 2 超形变 $\\beta_2 \\approx 0.56$）极小化相图模型；重现 $^{194}\\text{Pb}$ 在自旋 $I \\le 28\\hbar$ 由剪刀机制支配、而在 $I_{\\text{bifurc}} \\approx 30\\hbar$ 处由巨转动惯量（$J_{\\text{SD}} \\approx 91\\ \\hbar^2/\\text{MeV}$）驱动超形变带成为 yrast 基相的反转规律，给出 $B(E2)$ 跃增 37 倍（$0.05 \\to 1.85\\ e^2\\text{b}^2$）与 WKB 穿透动力学；
+54. **反射不对称手征三轴核中 Berry 相位与拓扑量子几何态**（checkpoint 092，[[octupole-chiral-berry-phase-and-topological-gap]]，工件 `chiral-berry-phase/`）：在手征四重态空间（$|L,+\\rangle, |R,+\\rangle, |L,-\\rangle, |R,-\\rangle$）推导非阿贝尔 Berry 联络与曲率张量，数值计算 1053 个网格点与 240 闭合回路，提取 Wilson 拓扑几何相位积累（约 $-0.0327\\text{ rad}$），形式化 Berry 曲率在能级交错位移 $S(I)$ 与带间 $E1/M1$ 分支中的规范不变拓扑印记；
+55. **相对论推转平均场（CRMF）中磁转动空间狄拉克流场与核芯反向旋转**（checkpoint 093，[[crmf-dirac-currents-and-core-counter-rotation]]，工件 `crmf-dirac-currents/`）：揭示磁转动的微观本质为价准粒子空间狄拉克流 $\\vec{j}_D(\\vec{r})$ 形成的非对称涡旋电流环；证明矢量相互作用自洽诱发弱极化核芯核子反向流动（counter-rotating currents），微观导出有效 $g$ 因子相对论猝灭比 $g_{\\text{eff}} / g_{\\text{free}} \\approx 0.70 - 0.85$，解释铅区与稀土区实验 $B(M1)$ 弱于自由单粒子极限的物理根源；
+56. **奇-A 稀土与锕系核八极带中的单粒子转移谱因子与核芯极化**（checkpoint 094，[[odd-a-octupole-spectroscopic-factors-and-core-polarization]]，工件 `odd-a-spectroscopic-factors/`）：推导单核子转移反应布居宇称双重态各能级的微观谱因子 $S(I^\\pi, j)$；计算 208 条逐态转移记录与 26 条中子数演化曲线，严格证明反射不对称平均场中单粒子宇称混合打破了正负宇称伙伴态的转移截面对称性，量化奇准粒子对核芯四极-八极振动的非简谐阻尼。
+
 ## Counter-evidence and missing companion observables
 
 1. Pr：27/2−是低端态，作者交叉约33/2−；交叉后未见crossover，不能认证“27/2反弹”或post-crossing强度轨迹。

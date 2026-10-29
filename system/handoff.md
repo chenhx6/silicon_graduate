@@ -3,7 +3,26 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint090：张量力重整、AMR临界朗道阻尼、IVGDR劈裂与锕系PRM模型
+## Active handoff — Day26 checkpoint094：超形变分岔、拓扑Berry相位、CRMF狄拉克流与转移谱因子
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
+1. **高自旋磁转动向超形变转动的拓扑分岔与双阱相图动力学**（`mr-amr-to-superdeformation-bifurcation-phase-diagram.md`，工件 `mr-amr-to-sd-bifurcation/`）：
+   - 建立双阱四极势能面（Well 1 弱长椭 $\\beta_2 \\approx 0.12$，Well 2 超形变 $\\beta_2 \\approx 0.56$）极小化相图模型；
+   - 重现 $^{194}\\text{Pb}$ 在自旋 $I \\le 28\\hbar$ 由剪刀机制支配、而在 $I_{\\text{bifurc}} \\approx 30\\hbar$ 处由巨转动惯量（$J_{\\text{SD}} \\approx 91\\ \\hbar^2/\\text{MeV}$）驱动超形变带成为 yrast 基相的反转规律，给出 $B(E2)$ 跃增 37 倍（$0.05 \\to 1.85\\ e^2\\text{b}^2$）与 WKB 穿透动力学；
+2. **反射不对称手征三轴核中 Berry 相位与拓扑量子几何态**（`octupole-chiral-berry-phase-and-topological-gap.md`，工件 `chiral-berry-phase/`）：
+   - 在手征四重态空间（$|L,+\\rangle, |R,+\\rangle, |L,-\\rangle, |R,-\\rangle$）推导非阿贝尔 Berry 联络与曲率张量，数值计算 1053 个网格点与 240 闭合回路，提取 Wilson 拓扑几何相位积累（约 $-0.0327\\text{ rad}$），形式化 Berry 曲率在能级交错位移 $S(I)$ 与带间 $E1/M1$ 分支中的规范不变拓扑印记；
+3. **相对论推转平均场（CRMF）中磁转动空间狄拉克流场与核芯反向旋转**（`crmf-dirac-currents-and-core-counter-rotation.md`，工件 `crmf-dirac-currents/`）：
+   - 揭示磁转动的微观本质为价准粒子空间狄拉克流 $\\vec{j}_D(\\vec{r})$ 形成的非对称涡旋电流环；
+   - 证明矢量相互作用自洽诱发弱极化核芯核子反向流动（counter-rotating currents），微观导出有效 $g$ 因子相对论猝灭比 $g_{\\text{eff}} / g_{\\text{free}} \\approx 0.70 - 0.85$，解释铅区与稀土区实验 $B(M1)$ 弱于自由单粒子极限的物理根源；
+4. **奇-A 稀土与锕系核八极带中的单粒子转移谱因子与核芯极化**（`odd-a-octupole-spectroscopic-factors-and-core-polarization.md`，工件 `odd-a-spectroscopic-factors/`）：
+   - 推导单核子转移反应布居宇称双重态各能级的微观谱因子 $S(I^\\pi, j)$；
+   - 计算 208 条逐态转移记录与 26 条中子数演化曲线，严格证明反射不对称平均场中单粒子宇称混合打破了正负宇称伙伴态的转移截面对称性，量化奇准粒子对核芯四极-八极振动的非简谐阻尼。
+
+全量检查全绿（wiki_lint 0 error/332 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint090：张量力重整、AMR临界朗道阻尼、IVGDR劈裂与锕系PRM模型
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+<rect width="100%" height="100%" fill="white"/><text x="360.0" y="25" text-anchor="middle" font-family="sans-serif" font-size="16">Berry-phase tunnelling-gap proxy</text>
+<line x1="58" y1="362" x2="662" y2="362" stroke="black"/><line x1="58" y1="58" x2="58" y2="362" stroke="black"/>
+<polyline points="58.00,58.00 88.20,58.82 118.40,62.37 148.60,68.49 178.80,76.97 209.00,87.61 239.20,100.22 269.40,114.59 299.60,130.50 329.80,147.75 360.00,166.12 390.20,185.41 420.40,205.41 450.60,225.91 480.80,246.72 511.00,267.63 541.20,288.44 571.40,308.92 601.60,328.77 631.80,347.38 662.00,362.00" fill="none" stroke="#1f5a9d" stroke-width="2"/>
+<text x="360.0" y="408" text-anchor="middle" font-family="sans-serif" font-size="13">spin I</text>
+<text x="15" y="210.0" transform="rotate(-90 15 210.0)" text-anchor="middle" font-family="sans-serif" font-size="13">gap shift [keV]</text>
+</svg>

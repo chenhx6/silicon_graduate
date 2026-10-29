@@ -26,6 +26,7 @@ updated: 2026-10-28
 - [[cd110-relative-strength-boundary-047]] — 110Cd HI,XNG相对RI、评价BE2字段与Roy绝对寿命强度边界。
 - [[ba-e1-e3-model-boundary-046]] — 144/146Ba E1/E3单位、SCCM算符核与实验/模型证据层。
 - [[odd-a-octupole-blocking-parity-doublets]] — 奇A核八极阻塞效应与宇称双重态：145Ba微观淬灭与225Ra Coriolis旋称交错反转。
+- [[odd-a-octupole-spectroscopic-factors-and-core-polarization]] — 奇A八极带单粒子转移谱因子、粒子—八极声子混合与核芯极化；225Ra/225Ac转移与磁矩证据缺口及可复现模型工件。
 - [[ba-ra-blocking-cancellation-operator-boundary]] — Ba/Ra微观八极与偶极算符核边界：选择定则、自洽阻塞与Schiff响应分层。
 - [[pr135-mr-crossing-racah-polarization-source-boundary]] — 135Pr能带交叉、Racah重耦合与偏振原件边界：5qp组态修正与非单调反弹核定。
 - [[cranked-shears-core-coupling-pb-vs-pr]] — 推转剪刀与核芯耦合模型：铅区（A~190）与稀土区（A~130）磁转动微观动力学对比。
@@ -123,6 +124,7 @@ updated: 2026-10-28
 - [[amr-double-shears-core-coupling-and-b-e2-plateau]] — 110Cd 与 104Pd 双剪刀四叶片几何、核芯长椭微变形耦合与 B(E2) 平台微观机制。
 - [[amr-quantum-four-blade-microscopic-cranking-and-core-polarization]] — 反磁转动四叶片自洽微观推转模型、核芯四极极化与残余 B(E2) 平台及巨大 J(2)/B(E2) 判据。
 - [[tensor-force-renormalization-odd-odd-magnetic-rotation]] — 奇奇核磁转动能带中多体张量力重整化、四阶剪刀势能修正与 B(M1) 曲率演化微观机制。
+- [[mr-amr-to-superdeformation-bifurcation-phase-diagram]] — 高自旋磁转动向超形变转动的双阱拓扑分岔、带交叉临界自旋与 WKB 隧穿相图动力学。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 - [[nomura-2018-odd-ba-octupole]] — 奇质量钡（143,145,147Ba）微观约束 sdf-IBFM 与奇中子阻塞机制原件。
@@ -938,6 +940,10 @@ updated: 2026-10-28
 - Updated [[low-spin-wobbling-controversies]] and [[nuclear-chirality-and-multiple-chiral-doublet-bands]].
 
 ## Research Notes
+
+- [[crmf-dirac-currents-and-core-counter-rotation]] - CRMF 空间 Dirac 流、核芯反向旋转、no-sea/Dirac 海边界与 $^{199}$Pb/$^{135}$Pr 有效 g 因子猝灭的可复现二维代理模型。
+
+- [[octupole-chiral-berry-phase-and-topological-gap]] — 反射不对称三轴手征核的 Berry 联络、非阿贝尔 Wilson 回路、量子度量与四态隧穿/分支比代理；明确四重态与量子化拓扑的条件性边界，含可复现数值工件。
 
 - [[actinide-alternating-parity-quadrupole-octupole-prm]] - `220–228Ra` 与 `222–230Th` 交替宇称带的四极—八极 PRM、单纯形 `s=+1`、离心稳定化、`Delta E(I)` 收敛及 `B(E1)/B(E2)`/`D0` 反演边界；含有限差分宇称投影工件。
 

@@ -4717,3 +4717,10 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   3. 电巨偶极共振（IVGDR）在八极核中的多重劈裂与低能 E1 EWSR 求和规则（octupole-gdr-splitting-and-low-energy-e1-ewsr-boundary.md，工件 octupole-gdr-e1/）：基于Thouless定理与质心修正推导D0=e*(NZ/A)*(<zp>-<zn>)，核算146Ba TRK总额度615.19 MeV*e2fm2，证明1^-跃迁仅消耗8.49e-9微量份额，微观澄清高能GDR尾部相消干涉压制低能E1绝对强度的图像；
   4. 锕系偶偶核交替宇称能带的四极-八极粒子-转子模型（actinide-alternating-parity-quadrupole-octupole-prm.md，工件 actinide-parity-prm/）：建立单纯形守恒（s=+1）四极-八极转子哈密顿量，重现224Ra与226Th交错位移Delta E(I)随离心稳定化向零指数收敛，完成B(E1)/B(E2)分支反演与D0系统学对账；
   5. 全量检查全绿：wiki_lint.py 0 error/329 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T09:20:00+08:00 Day26 checkpoint094：超形变分岔、拓扑Berry相位、CRMF狄拉克流与转移谱因子。
+  1. 高自旋磁转动向超形变转动的拓扑分岔与双阱相图动力学（mr-amr-to-superdeformation-bifurcation-phase-diagram.md，工件 mr-amr-to-sd-bifurcation/）：建立双阱势能面极小化模型，重现194Pb在自旋I<=28剪刀机制向I_bifurc~30超形变yrast基相的能级反转，计算37倍B(E2)跃变（0.05->1.85 e2b2）与WKB穿透动力学；
+  2. 反射不对称手征三轴核中Berry相位与拓扑量子几何态（octupole-chiral-berry-phase-and-topological-gap.md，工件 chiral-berry-phase/）：在四重态空间求解非阿贝尔Berry联络与曲率张量，数值计算1053网格点与240闭合回路，提取-0.0327 rad的Wilson拓扑相位，形式化Berry曲率对能级交错位移S(I)的规范不变印记；
+  3. 相对论推转平均场（CRMF）中磁转动空间狄拉克流场与核芯反向旋转（crmf-dirac-currents-and-core-counter-rotation.md，工件 crmf-dirac-currents/）：揭示大-j价粒子狄拉克涡旋流诱发核芯核子反向流动，导出相对论有效g因子猝灭比g_eff/g_free~0.70-0.85，微观解释实验B(M1)衰减机制；
+  4. 奇-A稀土与锕系核八极带中的单粒子转移谱因子与核芯极化（odd-a-octupole-spectroscopic-factors-and-core-polarization.md，工件 odd-a-spectroscopic-factors/）：推导单核子转移反应谱因子S(I^pi, j)，计算208条逐态转移与26条中子数演化曲线，证明单粒子宇称混合打破宇称伙伴态截面对称性；
+  5. 全量检查全绿：wiki_lint.py 0 error/332 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
