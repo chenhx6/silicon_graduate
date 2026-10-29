@@ -201,6 +201,8 @@ Roy 的作者解释是核芯转动分担一部分角动量，使剪刀闭合变�
 
 ## Reproducible Artifacts
 
+本页的固定角度和核芯尺度讨论由 [[amr-core-quadrupole-drive-and-shears-torque]] 的固定总角动量两自由度模型继续展开。
+
 脚本和结果位于 `outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/amr-double-shears/`：
 
 - `amr_double_shears_core.py`：张量、磁矩、粒子加转子、β2 核芯尺度和来源哈希。

@@ -123,10 +123,12 @@ updated: 2026-10-28
 - [[roy-2011-cd110-systematics-antimagnetic]] — 110Cd 高自旋反磁转动第一手 DSAM 寿命、B(E2) 与核心转动耦合系统学原件。
 - [[amr-double-shears-core-coupling-and-b-e2-plateau]] — 110Cd 与 104Pd 双剪刀四叶片几何、核芯长椭微变形耦合与 B(E2) 平台微观机制。
 - [[amr-quantum-four-blade-microscopic-cranking-and-core-polarization]] — 反磁转动四叶片自洽微观推转模型、核芯四极极化与残余 B(E2) 平台及巨大 J(2)/B(E2) 判据。
+- [[amr-core-quadrupole-drive-and-shears-torque]] — 反磁转动中核芯四极驱动、固定总角动量下的非谐剪刀力矩与 110Cd-like 两自由度可复现模型。
 - [[tensor-force-renormalization-odd-odd-magnetic-rotation]] — 奇奇核磁转动能带中多体张量力重整化、四阶剪刀势能修正与 B(M1) 曲率演化微观机制。
 - [[mr-amr-to-superdeformation-bifurcation-phase-diagram]] — 高自旋磁转动向超形变转动的双阱拓扑分岔、带交叉临界自旋与 WKB 隧穿相图动力学。
 - [[tac-3d-tilt-angles-and-axis-ratio-evolution]] — 磁转动三维推转自洽倾斜角、方位角锁定稳定性与核芯三轴轴比演化微观机制。
 - [[finite-range-shears-interaction-and-frequency-quenching]] — 磁转动中有限力程剪刀相互作用、闭合延迟与转动频率淬灭微观机制。
+- [[mxd-multipole-matrix-elements-and-transition-interference]] — 多重手征核中四极-八极多极算符代数重整、交叉隧穿与跃迁相消干涉微观机制。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 - [[nomura-2018-odd-ba-octupole]] — 奇质量钡（143,145,147Ba）微观约束 sdf-IBFM 与奇中子阻塞机制原件。
@@ -942,6 +944,10 @@ updated: 2026-10-28
 - Updated [[low-spin-wobbling-controversies]] and [[nuclear-chirality-and-multiple-chiral-doublet-bands]].
 
 ## Research Notes
+
+- [[actinide-parity-doublet-magnetic-moments-and-spin-polarization]] - `223Ra`, `225Ra`, `225Ac`, `227Ac` 宇称伙伴的静态磁矩、`B(M1)` 证据边界、八极混合导致的 `g_K`/`b_0` 分岔与有效 `g_s` 淬灭；含可复现 Nilsson-like `β3` CSV/JSON 工件。
+
+- [[octupole-chiral-signature-splitting-and-simplex-restoration]] - 三轴八极—手征复合核中的旋称劈裂、Coriolis 正负宇称反相干涉、四态离散对称分类与离心八极双阱/单纯形极限；含可复现 CSV/JSON/图表工件，并明确标准 `P` 与 `R_x(pi)` 对易的代数边界。
 
 - [[actinide-isomers-k-mixing-and-octupole-selection-rules]] - 轻锕系 $^{225}$Ra、$^{229}$Th、$^{234}$U 同质异能态与八极选择定则；区分轴向 β3 反射破缺和真正 K-mixing，含 E1/E2/M1/E3 速率、K-hindrance 公式及可复现扫描工件。
 

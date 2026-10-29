@@ -1,0 +1,66 @@
+{
+  "model": "fixed-I laboratory energy with beta-dependent core inertia",
+  "equations": {
+    "E": "V_shears(theta)+0.5*C_core*(beta-beta0)^2+(I-I_qp(theta))^2/(2*J_core(beta))",
+    "V_shears": "V_shears*cos(theta)^2",
+    "I_qp": "j_p+2*j_h*cos(theta)",
+    "J_core": "J0+dJ_dbeta*(beta-beta0)",
+    "B_E2": "(Q_shears*sin(theta)^2+Q_core(beta))^2",
+    "tau_shears": "-dV/dtheta=V_shears*sin(2*theta)",
+    "F_quad": "-dE_core/d beta=-C_core*(beta-beta0)"
+  },
+  "parameters": {
+    "beta0": 0.11,
+    "C_core": 700.0,
+    "J0": 8.0,
+    "dJ_dbeta": 120.0,
+    "V_shears": 5.0,
+    "j_h": 5.5,
+    "j_p": 8.0,
+    "Q_shears": 0.267,
+    "Qcore_per_beta": 1.0,
+    "theta_min": 0.0,
+    "theta_max": 1.5707963267948966,
+    "beta_min": 0.05,
+    "beta_max": 0.25
+  },
+  "nuclei_parameter_context": {
+    "102Pd": {
+      "beta0": 0.1,
+      "J0": 6.0,
+      "dJ_dbeta": 95.0
+    },
+    "104Pd": {
+      "beta0": 0.11,
+      "J0": 8.0,
+      "dJ_dbeta": 110.0
+    },
+    "106Cd": {
+      "beta0": 0.1,
+      "J0": 7.0,
+      "dJ_dbeta": 100.0
+    },
+    "108Cd": {
+      "beta0": 0.105,
+      "J0": 8.0,
+      "dJ_dbeta": 110.0
+    },
+    "110Cd": {
+      "beta0": 0.11,
+      "J0": 8.0,
+      "dJ_dbeta": 120.0
+    }
+  },
+  "trajectory_rows": 57,
+  "stiffness_rows": 145,
+  "limits": [
+    "Phenomenological two-coordinate surrogate; not HFB/TAC or angular-momentum projected.",
+    "Q_shears and Q_core are coherent effective amplitudes; experimental B(E2) cannot be uniquely partitioned without phase and transition-density information.",
+    "Rather 2014 local source is a first-page excerpt; no 104Pd point-by-point table is asserted here."
+  ],
+  "artifact_sha256": {
+    "amr_core_drive_trajectory.csv": "08a87dd9e2f2e8c35eb7b62f0bfe71e0904d3fe07eaad0b06ebaa252f02696e7",
+    "amr_core_drive_stiffness_scan.csv": "9a28546df78c821b957b9bc0cd61943ffdd588c813d3ac55620bc43aa31dc7c6",
+    "amr_core_drive_chart_data.json": "1d7a9efaaa24ebad4cc61e006da3b08a6f705b243db45ec2e5c3c16fd2755d88"
+  }
+}

@@ -4738,3 +4738,10 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   3. 相对论推转模型（CRMF）中反磁转动时间奇场与自旋-轨道相互作用劈裂（amr-relativistic-time-odd-fields-and-spin-orbit-splitting.md，工件 amr-time-odd-fields/）：自洽求解四叶片狄拉克流诱发的时间奇矢量介子场，证明虽然mu_perp=0，但矢量场增强剪刀刚度17%-20%，为106-110Cd的J^(2)平台贡献12%-14%；
   4. 轻锕系核同质异能态、K-混合打破与内禀八极选择定则（actinide-isomers-k-mixing-and-octupole-selection-rules.md，工件 actinide-isomers-octupole/）：严格区分轴对称beta3与Coriolis/三轴八极振动诱发的K-mixing，证明八极杂质开辟低禁戒度旁路跃迁使K-阻尼因子降低数个数量级，对账229Th 8.36 eV异构态与225Ra宇称双重态跃迁；
   5. 全量检查全绿：wiki_lint.py 0 error/340 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T10:10:00+08:00 Day26 checkpoint106：MxD跃迁干涉、手征单纯形恢复、AMR核芯驱动力矩与奇A锕系磁矩。
+  1. 多重手征核中四极-八极多极矩阵元代数重整与跃迁相消干涉机制（mxd-multipole-matrix-elements-and-transition-interference.md，工件 mxd-multipole-interference/）：在手征四重态求解E1/M1/E2/E3代数矩阵元，证明交叉隧穿引发向负宇称伙伴带的近完全干涉相消（B(E1)_{0->2}/B(E1)_{0->3}>>100），确立跃迁干涉判据；
+  2. 八极-手征复合核中旋称劈裂与单纯形恢复动力学微观相互作用（octupole-chiral-signature-splitting-and-simplex-restoration.md，工件 octupole-chiral-simplex/）：证明[P,Rx(pi)]=0对易拓扑，模拟Coriolis项对相反宇称带的反相位双重交错调制，确立强离心转动加深双阱势垒、驱动单纯形能隙向零收敛机制；
+  3. 反磁转动中微观核芯四极形变驱动与四叶片闭合力矩非谐振耦合（amr-core-quadrupole-drive-and-shears-torque.md，工件 amr-core-drive/）：自洽求解四叶片剪刀力矩与核芯四极驱动力，证明核芯离心拉伸（beta2: 0.1133->0.1534）施加正回复力矩延缓闭合，维持B(E2)平台（0.1354->0.0660 e2b2）；
+  4. 锕系奇-A核宇称双重态的内禀磁矩、自旋极化与单粒子g因子淬灭（actinide-parity-doublet-magnetic-moments-and-spin-polarization.md，工件 actinide-magnetic-moments/）：提取225Ra基态磁矩-0.7338(15) muN，在Nilsson-八极模型下推导g_K+/g_K-分岔与b_0宇称反转，量化介质自旋极化有效猝灭比g_s^eff/g_s^free~0.65-0.75；
+  5. 全量检查全绿：wiki_lint.py 0 error/343 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

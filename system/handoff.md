@@ -3,7 +3,23 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint102：有限力程频率淬灭、GCM八极质量张量、时间奇场与锕系同质异能态
+## Active handoff — Day26 checkpoint106：MxD跃迁干涉、手征单纯形恢复、AMR核芯驱动力矩与奇A锕系磁矩
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
+1. **多重手征核中四极-八极多极矩阵元代数重整与跃迁相消干涉机制**（`mxd-multipole-matrix-elements-and-transition-interference.md`，工件 `mxd-multipole-interference/`）：
+   - 在手征四重态空间求解 $E1, M1, E2, E3$ 完全代数矩阵元；证明交叉隧穿 $t_{\\chi\\pi}$ 打破了平庸对称通道，使得向其中一条负宇称伙伴带的 $E1$ 跃迁发生近乎完全相消（$B(E1; 0 \\to 3) \\approx 0$），产生大于两个数量级的巨大分支比失衡（$B(E1)_{0\\to 2}/B(E1)_{0\\to 3} \\gg 10^2$），确立手征-八极复合激发的跃迁干涉判据；
+2. **八极-手征复合核中旋称劈裂与单纯形恢复的动力学微观相互作用**（`octupole-chiral-signature-splitting-and-simplex-restoration.md`，工件 `octupole-chiral-simplex/`）：
+   - 分析旋称 $R_x(\\pi)$ 与单纯形 $S = P R_x^{-1}(\\pi)$ 的对易拓扑；数值验证对易范数严格为零，模拟 Coriolis 项对相反宇称带施加的反相位双重交错调制，确立强离心转动加深八极双阱势垒、驱动单纯形能隙向零指数收敛的恢复机制；
+3. **反磁转动中微观核芯四极形变驱动与四叶片闭合力矩的非谐振耦合**（`amr-core-quadrupole-drive-and-shears-torque.md`，工件 `amr-core-drive/`）：
+   - 自洽求解四叶片剪刀回复力矩 $\\tau_{\\text{shears}}$ 与核芯四极驱动力 $F_{\\text{quad}}$ 动态平衡；证明核芯在离心拉伸下从 $\\beta_2 = 0.1133 \\to 0.1534$，通过转动惯量增长分担角动量预算，对剪刀施加正的阻滞力矩（retarding torque），阻碍了四叶片的瞬间闭合并维持 $B(E2)$ 平台（$0.1354 \\to 0.0660\\ e^2\\text{b}^2$）；
+4. **锕系奇-A核宇称双重态的内禀磁矩、自旋极化与单粒子 g 因子淬灭**（`actinide-parity-doublet-magnetic-moments-and-spin-polarization.md`，工件 `actinide-magnetic-moments/`）：
+   - 提取 $^{225}\\text{Ra}$ 实验基态磁矩 $\\mu = -0.7338(15)\\ \\mu_N$ 与 $^{223}\\text{Ra}$ 汇编值；在 Nilsson-八极耦合模型下推导正负宇称单粒子态八极轨道杂化引起的内禀 $g_K^+ / g_K^-$ 分岔与 $K=1/2$ 退耦项 $b_0$ 宇称反转，量化介质自旋极化导致有效自旋回旋比 $g_s^{\\text{eff}} / g_s^{\\text{free}} \\approx 0.65 - 0.75$ 的淬灭机制。
+
+全量检查全绿（wiki_lint 0 error/343 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint102：有限力程频率淬灭、GCM八极质量张量、时间奇场与锕系同质异能态
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

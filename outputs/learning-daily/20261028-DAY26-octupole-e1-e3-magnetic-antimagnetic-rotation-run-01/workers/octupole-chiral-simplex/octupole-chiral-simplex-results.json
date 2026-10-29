@@ -1,0 +1,75 @@
+{
+  "model": "triaxial high-j particle plus quartic octupole double well",
+  "status": "synthetic diagnostic; not a fit to any nucleus",
+  "units": {
+    "energy": "MeV",
+    "spin": "dimensionless",
+    "gap_and_barrier": "arbitrary model units"
+  },
+  "parameters": {
+    "J_eff_hbar2_per_MeV": 22.0,
+    "j": 5.5,
+    "K": 2.5,
+    "gamma_deg": 27.0,
+    "beta3": 0.055,
+    "formula_delta_E_rot": "E(I)-E(I-1)-I/J_eff",
+    "formula_S": "(-1)^(I+1)[E(I)-E(I-1)]/(2I) for integer I",
+    "formula_octupole": "V(q)=a(I)q^2+bq^4; a(I)=a0-sign*c*I(I+1)/scale^2",
+    "formula_simplex_gap": "hbar*omega*exp(-2*pi*barrier/(hbar*omega))"
+  },
+  "discrete_algebra": {
+    "integer_spin": {
+      "Rx_squared": "+1",
+      "Rx_eigenvalues": [
+        "+1",
+        "-1"
+      ],
+      "P_commutes_with_Rx": true,
+      "S_definition": "P Rx^{-1}(pi)",
+      "norm_Rx_S_commutator": 0.0
+    },
+    "half_integer_spin": {
+      "Rx_squared": "-1",
+      "Rx_eigenvalues": [
+        "+i",
+        "-i"
+      ],
+      "simplex_eigenvalues_for_p=+1": [
+        "+i",
+        "-i"
+      ],
+      "simplex_eigenvalues_for_p=-1": [
+        "-i",
+        "+i"
+      ]
+    },
+    "local_exchange_algebra": {
+      "basis": [
+        "|L,+>",
+        "|R,+>",
+        "|L,->",
+        "|R,->"
+      ],
+      "exchange_operators": [
+        "C_chi=tau_x",
+        "P_oct=xi_x"
+      ],
+      "norm_C_chi_P_oct_commutator": 0.0,
+      "dimension": 4
+    },
+    "interpretation": "P and Rx are commuting spatial symmetries. Four local states require independent chirality and octupole-sign sectors; antiunitary chiral operations can add a projective phase but are not represented by [Rx,S]."
+  },
+  "interpretation": {
+    "double_modulation": "V_signature(p,I)=V_triax+p*V_oct+V_Coriolis(p,I), so parity changes the interference phase.",
+    "two_regimes": "The residual S(I) branches separate smoothly at low spin and can bifurcate when the Coriolis term becomes comparable to the triaxial and octupole amplitudes.",
+    "simplex_boundary": "A deepening double well makes the tunnelling gap exponentially small; q_min grows. A restoring term makes q_min vanish with mean-field exponent 1/2 while the local harmonic gap need not vanish."
+  },
+  "files": [
+    "signature-splitting-results.csv",
+    "simplex-landscape-results.csv",
+    "signature-splitting.svg",
+    "signature-splitting.png",
+    "simplex-restoration.svg",
+    "simplex-restoration.png"
+  ]
+}
