@@ -43,6 +43,7 @@ NNDC `DatasetFetchServlet` 以 `nuc=225Ra&searchType=quick&datasource=ensdf` 返
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | NR225-1 | Adopted A 带列 $0.0\,(1/2^+)$、$25.41(2)\,(5/2^+)$、$42.77(3)\,(3/2^+)$、$111.60(5)\,(7/2^+)$ keV；B 带列 $31.56(3)\,(3/2^-)$、$55.16(6)\,(1/2^-)$、$69.36(6)\,(7/2^-)$、$120.36(6)\,(5/2^-)$ keV。括号为 ENSDF 末位不确定度；其中 $1/2^-$、$7/2^-$ 指认带括号。 | evaluated-level-data | direct-evaluated-object | `225088001` L 0.0–120.36; band tags A/B | true |
+| NR225-4 | 评价基态记录静态磁偶极矩 `MOMM1=-0.7338(15) μ_N`，并注明来自激光谱学（1987Ar20、1983Ah03）；该数值属于评价对象，不能与双重态 `B(M1)` 混同。 | evaluated-static-moment | direct-evaluated-object | 归档 ENSDF L71–81 | true |
 | NR225-2 | $31.56$ keV 的 $3/2^-\to1/2^+$ 31.50-keV E1 支线给 $B(E1)=0.00081(20)$ W.u.；评价注释引用 1985Is03 寿命及该跃迁 E1 类型。 | evaluated-transition-strength | direct-evaluated-object | 归档 ENSDF 第 90–95 行：L31.56、G31.50、其后 B 行的 BE1W 字段；L T/J comments | true |
 | NR225-3 | 同自旋 A/B 能量中心差 $E_- -E_+$：$I=1/2$ 为 $+55.16$ keV（负宇称指认暂定），$I=3/2$ 为 $-11.21$ keV，$I=5/2$ 为 $+94.95$ keV，$I=7/2$ 为 $-42.24$ keV（负宇称指认暂定）。这些仅为评价能级差；Coriolis、不同转动惯量和组态混合均可能参与，不是单一八极隧穿常数。 | derived-from-evaluated-levels | evaluated-object-arithmetic | NR225-1 paired A/B L lines | true |
 
