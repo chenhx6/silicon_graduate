@@ -1,0 +1,75 @@
+{
+  "status": "provisional conditional mechanism model",
+  "units": {
+    "I": "hbar",
+    "J_core": "hbar^2/MeV",
+    "V": "MeV",
+    "omega": "MeV",
+    "Q": "eb",
+    "B_E2": "e^2 b^2"
+  },
+  "finite_j_boundary": {
+    "exchange_phase": "P12 |(jj)JM> = (-1)^(2j-J)|(jj)JM>; fermion antisymmetry requires phase=-1",
+    "proton_pair": {
+      "orbit": "g9/2",
+      "allowed_J_hbar": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "J_max_hbar": 8
+    },
+    "neutron_pair": {
+      "orbit": "h11/2",
+      "allowed_J_hbar": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "J_max_hbar": 10
+    },
+    "J_val_max_hbar": 18.0,
+    "classical_unantisymmetrized_upper_bound_hbar": 20,
+    "effective_mapping": "x=cos(theta/2), J_val=J_val,max*x=2*j_blade*x, j_blade=9; this is a coarse-grained four-blade coordinate, not one physical single-particle j."
+  },
+  "equations": {
+    "energy": "E(I,x)=V_shears(x)+(I-J_val,max*x)^2/(2 J_core)",
+    "potential": "V_shears(x)=a*x^2+b*x^4",
+    "stationarity": "I=J_val,max*x+(J_core/J_val,max)*V_shears_prime(x)",
+    "core_residual": "R_core=I-J_val,max*x=J_core*omega",
+    "closure_slope": "dx/dI=1/[J_val,max+(J_core/J_val,max)V_shears_second(x)]; dtheta/dI=-2 dx/dI/sqrt(1-x^2)",
+    "dynamic_inertia": "J^(2)=J_core+J_val,max^2/V_shears_second(x) on the interior branch; J^(2)=J_core after x is pinned at 1",
+    "E2_proxy": "B_total=[Q_core + phase*Q_shears*sin^2(theta/2)]^2; B_shears_only=Q_shears^2*sin^4(theta/2)"
+  },
+  "cases": {
+    "110Cd": {
+      "J_core_hbar2_per_MeV": 19.5,
+      "a_shears_MeV": 0.8,
+      "b_shears_MeV": 1.45,
+      "Q_shears_eb": 0.18,
+      "Q_core_eb": 0.3,
+      "E2_phase": 1.0,
+      "data_status": "110Cd-like conditional model; Roy Table 1 comparison"
+    },
+    "104Pd": {
+      "J_core_hbar2_per_MeV": 17.0,
+      "a_shears_MeV": 0.8,
+      "b_shears_MeV": 1.45,
+      "Q_shears_eb": 0.27,
+      "Q_core_eb": 0.14,
+      "E2_phase": 1.0,
+      "data_status": "104Pd-like conditional geometry/control; amplitude not source-fitted"
+    }
+  },
+  "evidence": {
+    "Roy_2011": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md:47-52, 68",
+    "Rather_2014": "knowledge/sources/rather-2014-104pd-antimagnetic-first-page.md:43-47",
+    "Zhang_2019": "knowledge/sources/zhang-2019-104pd-pnc-antimagnetic-rotation.md:44-52"
+  },
+  "boundary": "The model is a transparent surrogate, not a microscopic TAC/HFB or angular-momentum-projected calculation; Q_core and Q_shears are effective amplitudes."
+}

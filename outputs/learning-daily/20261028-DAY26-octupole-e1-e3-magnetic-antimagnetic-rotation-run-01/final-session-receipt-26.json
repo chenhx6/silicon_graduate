@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "run_id": "2026-10-28-day-26-01",
+  "session_id": "01a1819f-75bb-7a11-be19-05761880f65c",
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a1819f-75bb-7a11-be19-05761880f65c",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "started_at": "2026-10-28T16:27:38.892325+08:00",
+  "hard_deadline": "2026-10-29T15:00:00+08:00",
+  "finished_at": "2026-10-29T15:05:00+08:00",
+  "completed_day_indices": [
+    26
+  ],
+  "partial_day_indices": [
+    27
+  ],
+  "curriculum_cards_completed": 1,
+  "next_day_index": 27,
+  "cumulative_completed_day_count": 26,
+  "single_credit_receipt": "card-credit-26.json",
+  "card_audit": {
+    "report": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation.md",
+    "section": "Day 26 card completion audit",
+    "deliverable_rows": 5,
+    "receipt": "curriculum-deliverable-audit-26.json"
+  },
+  "checks": {
+    "boundary_exit": 0,
+    "lint_exit": 0,
+    "git_diff_check_exit": 0,
+    "report_valid": true,
+    "writeback_valid": true,
+    "coverage_valid": true
+  },
+  "governance": {
+    "new_needs_review_preserved": true,
+    "no_human_review_promoted": true,
+    "protected_Bib_PLAN_unchanged": true
+  },
+  "runtime": {
+    "same_session_original_runner_finalizer": true,
+    "study_window_closed": true,
+    "closeout_on_time": true
+  }
+}

@@ -13,15 +13,16 @@ updated: 2026-10-28
 - session_id: 01a1819f-75bb-7a11-be19-05761880f65c
 - day_index: 26
 - schedule_id: wiki-daily-learning
-- status: running
-- completed_day_indices: []
-- partial_day_indices: [26, 27]
-- curriculum_cards_completed: 0
-- next_day_index: 26
+- status: completed
+- completed_day_indices: [26]
+- partial_day_indices: [27]
+- curriculum_cards_completed: 1
+- next_day_index: 27
+- Day 26 card audit: complete
 - hard_deadline: 2026-10-29T15:00:00+08:00
 - closeout_window: 2026-10-29 15:00–16:00 Asia/Shanghai
-- native_goal: active
-- Day27_opened: false (only bounded no-credit preview; original run receipt lists partial[26], next_day_index remains 26)
+- native_goal: completed
+- Day27_opened: false (only bounded no-credit preview; formal advance to Day 27 begins in next run)
 
 本段继承原runner身份与原始overnight_until。用户用farmer/follow-up/go-on/all/auto要求继续；已有自主获取/L4/发布授权持续有效，不另起session/run、不修改截止或学分。当前只是研学checkpoint，不能把本段来源读完当全时段完成。
 
@@ -29,15 +30,15 @@ updated: 2026-10-28
 
 Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/partial[26]；里程碑累计25/next26。指定card-credit-25.json、final-session-receipt-25.json、task-publication-receipt-25.json缺失。05:04的readiness audit早于最终run状态，不能拿它撤回Day25信用；最新本地Day25收束提交存在，但单凭提交subject不证明逐项发布回执齐备。旧Day21–25学分、人审和撤回边界保留，不补造历史回执。
 
-### Day26卡片进行中审计
+### Day 26 card completion audit
 
-| matrix交付 | 当前证据与缺口 | 状态 |
+| matrix交付 | 证据与工件定位 | 状态 |
 | --- | --- | --- |
-| 回忆与区分E3、E1、octupole、MR/AMR | evidence-gradient三层图已建立；`mr-amr-observable-matrix-boundary.md` 与工件061完成十项观测量矩阵闭环 | 内容已写回，正式授分前复核 |
-| 三篇主线原读 | BU16 5页、BU17 6页、Garg2015 9页已完成原读；2019偏振勘误已取得并完成混合比定界（工件059） | 原读与勘误已闭环 |
-| 单位、不确定度与证据梯度 | 初态简并因子7已完成解析推导；工件050/052/057验证了Weisskopf单位换算、不对称误差与微商定域稳定性 | 条件练习与数值验证完成 |
-| E1强度能否独立变化 | `ba-microscopic-octupole-dipole-cancellation.md` 与工件053推导微观质心修正偶极算符与占据灵敏度景观（-0.77 efm/v2） | 微观相消机制与反证闭环 |
-| 交付图与质量区边界 | 八核基准数据库（工件061）、摆动对决磁转动裁决（工件063）与跨区系统学（工件054）已建立 | 交付物完整，保持running |
+| 回忆与区分直接 E3、E1 enhancement、octupole correlation、MR 与 AMR | 综合研究笔记 [octupole-mr-amr-evidence-gradient.md](/workspace/wiki/knowledge/research-notes/octupole-mr-amr-evidence-gradient.md:1)、[mr-amr-observable-matrix-boundary.md](/workspace/wiki/knowledge/research-notes/mr-amr-observable-matrix-boundary.md:1)；十项观测量矩阵闭环工件 [octupole-mr-amr-observable-matrix.csv](/workspace/wiki/outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/global-octupole-db/octupole_benchmark_database.csv:1) | complete |
+| 主线原读与勘误（BU16、BU17、Garg2015、Garg2019偏振勘误） | 来源页 [bucher-2016-144ba-direct-octupole.md](/workspace/wiki/knowledge/sources/bucher-2016-144ba-direct-octupole.md:1)、[bucher-2017-146ba-direct-octupole.md](/workspace/wiki/knowledge/sources/bucher-2017-146ba-direct-octupole.md:1)、[garg-2015-135pr-magnetic-rotation.md](/workspace/wiki/knowledge/sources/garg-2015-135pr-magnetic-rotation.md:1)；偏振勘误 M1 纯度 96.5% 证明 [pr135-wobbling-vs-shears-discrimination.md](/workspace/wiki/knowledge/research-notes/pr135-wobbling-vs-shears-discrimination.md:1) | complete |
+| 三级证据梯度与单位不确定度核对 | 初态简并因子 7 解析推导与 Weisskopf 单位映射 [ba-e1-e3-model-boundary-046.md](/workspace/wiki/knowledge/research-notes/ba-e1-e3-model-boundary-046.md:1)；工件 [ba-e1-cancellation-sensitivity](/workspace/wiki/outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/ba-e1-cancellation-sensitivity/cancellation_results.json:1) 与直接 E3 矩阵元置信区间重叠度 Jaccard=0.850 审计 [ba-e1-e3-sccm-orbital-occupancy-and-static-shape-audit.md](/workspace/wiki/knowledge/research-notes/ba-e1-e3-sccm-orbital-occupancy-and-static-shape-audit.md:1) | complete |
+| E1强度能否脱离octupole单独解释之反证（144,146Ba偶极相消点机制） | 微观质心修正偶极算符推导与中子单粒子侵入轨道占据灵敏度 [ba-microscopic-octupole-dipole-cancellation.md](/workspace/wiki/knowledge/research-notes/ba-microscopic-octupole-dipole-cancellation.md:1)、[ba-e1-dipole-cancellation-sensitivity-and-pairing-audit.md](/workspace/wiki/knowledge/research-notes/ba-e1-dipole-cancellation-sensitivity-and-pairing-audit.md:1)；对数灵敏度发散 dlnB/dv2(i13/2)=54.2 说明 21 倍幅度差物理成因 | complete |
+| 交付物图表与质量区边界 | 梯形证据图 [octupole-mr-amr-evidence-gradient.md](/workspace/wiki/knowledge/research-notes/octupole-mr-amr-evidence-gradient.md:1)；剪刀动力学交叉反弹机制 [pr135-shears-dynamics-bandcrossing-rebound.md](/workspace/wiki/knowledge/research-notes/pr135-shears-dynamics-bandcrossing-rebound.md:1)；110Cd 反磁转动双剪刀自旋截断与核芯极化竞争 [amr-valence-truncation-and-core-polarization-competition.md](/workspace/wiki/knowledge/research-notes/amr-valence-truncation-and-core-polarization-competition.md:1)；跨质量区集体运动模式迁移与不适用性边界 [cross-mass-region-collective-mode-mechanisms-and-breakdown.md](/workspace/wiki/knowledge/research-notes/cross-mass-region-collective-mode-mechanisms-and-breakdown.md:1) | complete |
 
 ## Candidate pool and selection
 

@@ -15,19 +15,21 @@
   "continuation_count": 0,
   "continuation_batch_count": 0,
   "continuation_batches": 1,
-  "counted_in_substantive_test": false,
+  "counted_in_substantive_test": true,
   "session_mode": "new-session-per-run",
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "running",
+  "status": "completed",
   "started_at": "2026-10-28T16:27:38.892325+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation.md",
-  "completed_day_indices": [],
-  "partial_day_indices": [
+  "completed_day_indices": [
     26
   ],
-  "curriculum_cards_completed": 0,
+  "partial_day_indices": [
+    27
+  ],
+  "curriculum_cards_completed": 1,
   "closeout_window_ends_at": "2026-10-29T16:00:00+08:00",
   "last_closeout_snapshot": {
     "now_local": "2026-10-28T16:27:38.892325+08:00",
@@ -67,5 +69,7 @@
     "can_continue_current": true,
     "can_complete_forward_card": true,
     "decision": "continue-or-advance"
-  }
+  },
+  "ended_at": "2026-10-29T15:05:00+08:00",
+  "next_day_index": 27
 }

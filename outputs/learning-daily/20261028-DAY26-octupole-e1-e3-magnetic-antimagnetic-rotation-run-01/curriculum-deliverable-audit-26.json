@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "day_index": 26,
+  "run_id": "2026-10-28-day-26-01",
+  "audit_timestamp": "2026-10-29T15:05:00+08:00",
+  "deliverables": [
+    {
+      "name": "回忆与区分直接 E3、E1 enhancement、octupole correlation、MR 与 AMR",
+      "status": "complete",
+      "evidence_locator": "knowledge/research-notes/octupole-mr-amr-evidence-gradient.md",
+      "artifact": "knowledge/research-notes/mr-amr-observable-matrix-boundary.md"
+    },
+    {
+      "name": "主线原读与勘误（BU16、BU17、Garg2015、Garg2019偏振勘误）",
+      "status": "complete",
+      "evidence_locator": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+      "artifact": "knowledge/research-notes/pr135-wobbling-vs-shears-discrimination.md"
+    },
+    {
+      "name": "三级证据梯度与单位不确定度核对",
+      "status": "complete",
+      "evidence_locator": "knowledge/research-notes/ba-e1-e3-model-boundary-046.md",
+      "artifact": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/workers/ba-e1-cancellation-sensitivity/cancellation_results.json"
+    },
+    {
+      "name": "E1强度能否脱离octupole单独解释之反证（144,146Ba偶极相消点机制）",
+      "status": "complete",
+      "evidence_locator": "knowledge/research-notes/ba-microscopic-octupole-dipole-cancellation.md",
+      "artifact": "knowledge/research-notes/ba-e1-dipole-cancellation-sensitivity-and-pairing-audit.md"
+    },
+    {
+      "name": "交付物图表与质量区边界",
+      "status": "complete",
+      "evidence_locator": "knowledge/research-notes/octupole-mr-amr-evidence-gradient.md",
+      "artifact": "knowledge/research-notes/cross-mass-region-collective-mode-mechanisms-and-breakdown.md"
+    }
+  ]
+}

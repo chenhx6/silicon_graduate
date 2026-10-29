@@ -1,0 +1,402 @@
+{
+  "model_scope": "symmetry and dimensionless-strength toy model; not a nuclear-data fit",
+  "basis_localized": [
+    "|L,+>",
+    "|R,+>",
+    "|L,->",
+    "|R,->"
+  ],
+  "basis_projected": [
+    "|eta=+,p=+>",
+    "|eta=-,p=+>",
+    "|eta=+,p=->",
+    "|eta=-,p=->"
+  ],
+  "operator_tensor_basis": "O_ab = tau_z^a xi_z^b; delta_eta=a and delta_p=b modulo 2",
+  "hamiltonian": "H_I=E0(I)-t_chi(I) tau_x-t_pi(I) xi_x-t_chipi(I) tau_x xi_x",
+  "projected_energy": "E_I(eta,p)=E0(I)-eta*t_chi-p*t_pi-eta*p*t_chipi",
+  "parity_operator": "P=xi_x in the local octupole-well basis",
+  "chiral_exchange": "effective unitary tau_x in the truncated L/R subspace; the microscopic TR_y(pi) is antiunitary",
+  "d2_group": "D2={1,Rx(pi),Ry(pi),Rz(pi)}; odd-A uses the double group",
+  "simplex_operator": "S_x=P R_x(pi)^(-1), s_x=p r_x, r_x=exp(-i pi alpha)",
+  "d2_character_table": [
+    {
+      "irrep": "A",
+      "Rx": 1,
+      "Ry": 1,
+      "Rz": 1
+    },
+    {
+      "irrep": "Bx",
+      "Rx": 1,
+      "Ry": -1,
+      "Rz": -1
+    },
+    {
+      "irrep": "By",
+      "Rx": -1,
+      "Ry": 1,
+      "Rz": -1
+    },
+    {
+      "irrep": "Bz",
+      "Rx": -1,
+      "Ry": -1,
+      "Rz": 1
+    }
+  ],
+  "simplex_table": [
+    {
+      "spin_class": "odd-odd integer-I",
+      "signature_alpha": 0,
+      "parity": 1,
+      "r_x": [
+        1.0,
+        -0.0
+      ],
+      "s_x": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "spin_class": "odd-odd integer-I",
+      "signature_alpha": 0,
+      "parity": -1,
+      "r_x": [
+        1.0,
+        -0.0
+      ],
+      "s_x": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "spin_class": "odd-odd integer-I",
+      "signature_alpha": 1,
+      "parity": 1,
+      "r_x": [
+        -1.0,
+        -0.0
+      ],
+      "s_x": [
+        -1.0,
+        -0.0
+      ]
+    },
+    {
+      "spin_class": "odd-odd integer-I",
+      "signature_alpha": 1,
+      "parity": -1,
+      "r_x": [
+        -1.0,
+        -0.0
+      ],
+      "s_x": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "spin_class": "odd-A half-integer-I",
+      "signature_alpha": -0.5,
+      "parity": 1,
+      "r_x": [
+        0.0,
+        1.0
+      ],
+      "s_x": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "spin_class": "odd-A half-integer-I",
+      "signature_alpha": -0.5,
+      "parity": -1,
+      "r_x": [
+        0.0,
+        1.0
+      ],
+      "s_x": [
+        -0.0,
+        -1.0
+      ]
+    },
+    {
+      "spin_class": "odd-A half-integer-I",
+      "signature_alpha": 0.5,
+      "parity": 1,
+      "r_x": [
+        0.0,
+        -1.0
+      ],
+      "s_x": [
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "spin_class": "odd-A half-integer-I",
+      "signature_alpha": 0.5,
+      "parity": -1,
+      "r_x": [
+        0.0,
+        -1.0
+      ],
+      "s_x": [
+        -0.0,
+        1.0
+      ]
+    }
+  ],
+  "selection_rule_matrix": [
+    {
+      "channel": "intra_band_M1_dI1",
+      "multipole": "M1",
+      "delta_I": "1",
+      "delta_eta": 0,
+      "delta_parity": 0,
+      "operator_component": "tau_0 xi_0",
+      "leading_amplitude": "m_00^(1)",
+      "matrix_order": "O(1) or configuration-mixing suppressed",
+      "group_status": "allowed",
+      "diagnostic": "same-band Delta-I=1 M1; measure mixing ratio/polarization"
+    },
+    {
+      "channel": "intra_band_E2_dI1_mixed",
+      "multipole": "E2",
+      "delta_I": "1",
+      "delta_eta": 0,
+      "delta_parity": 0,
+      "operator_component": "tau_0 xi_0",
+      "leading_amplitude": "q_00^(1)",
+      "matrix_order": "O(epsilon_rot) relative to Delta-I=2 E2",
+      "group_status": "allowed",
+      "diagnostic": "Delta-I=1 E2 component of an M1/E2 mixed transition"
+    },
+    {
+      "channel": "intra_band_E2_dI2",
+      "multipole": "E2",
+      "delta_I": "2",
+      "delta_eta": 0,
+      "delta_parity": 0,
+      "operator_component": "tau_0 xi_0",
+      "leading_amplitude": "q_00^(2)",
+      "matrix_order": "O(1)",
+      "group_status": "allowed",
+      "diagnostic": "rotational crossover; use as the quadrupole collectivity baseline"
+    },
+    {
+      "channel": "chiral_partner_M1_dI1",
+      "multipole": "M1",
+      "delta_I": "1",
+      "delta_eta": 1,
+      "delta_parity": 0,
+      "operator_component": "tau_z xi_0",
+      "leading_amplitude": "m_10^(1)",
+      "matrix_order": "O(1) in a chiral-odd current component",
+      "group_status": "allowed",
+      "diagnostic": "same-parity chiral link; left/right current sum or difference can cancel"
+    },
+    {
+      "channel": "chiral_partner_E2_dI1",
+      "multipole": "E2",
+      "delta_I": "1",
+      "delta_eta": 1,
+      "delta_parity": 0,
+      "operator_component": "tau_z xi_0",
+      "leading_amplitude": "q_10^(1)",
+      "matrix_order": "O(epsilon_chi) or configuration-mixing suppressed",
+      "group_status": "allowed",
+      "diagnostic": "E2 admixture in the Delta-I=1 chiral link; interferes in angular observables with M1"
+    },
+    {
+      "channel": "chiral_partner_E2_dI2",
+      "multipole": "E2",
+      "delta_I": "2",
+      "delta_eta": 1,
+      "delta_parity": 0,
+      "operator_component": "tau_z xi_0",
+      "leading_amplitude": "q_10^(2)",
+      "matrix_order": "O(epsilon_chi) or phase-cancellation suppressed",
+      "group_status": "allowed",
+      "diagnostic": "same-parity chiral crossover; compare with the intra-band E2 baseline"
+    },
+    {
+      "channel": "parity_partner_E1_dI1",
+      "multipole": "E1",
+      "delta_I": "1",
+      "delta_eta": 0,
+      "delta_parity": 1,
+      "operator_component": "tau_0 xi_z",
+      "leading_amplitude": "d_01^(1)",
+      "matrix_order": "O(beta_3) or octupole-correlation amplitude",
+      "group_status": "allowed",
+      "diagnostic": "same-chirality parity link; E1 is cancellation-sensitive and not sufficient for static beta_3"
+    },
+    {
+      "channel": "parity_partner_E3_dI3",
+      "multipole": "E3",
+      "delta_I": "3 (favored; triangle rule also applies)",
+      "delta_eta": 0,
+      "delta_parity": 1,
+      "operator_component": "tau_0 xi_z",
+      "leading_amplitude": "o_01^(3)",
+      "matrix_order": "O(beta_3) and collective radial moment",
+      "group_status": "allowed",
+      "diagnostic": "direct E3 network; more collective than E1 but still requires lifetimes/absolute B(E3)"
+    },
+    {
+      "channel": "cross_E1_dI1",
+      "multipole": "E1",
+      "delta_I": "1",
+      "delta_eta": 1,
+      "delta_parity": 1,
+      "operator_component": "tau_z xi_z",
+      "leading_amplitude": "d_11^(1)",
+      "matrix_order": "O(epsilon_chi beta_3) or O(epsilon_chi epsilon_3)",
+      "group_status": "leading direct term zero in factorized one-phonon limit",
+      "diagnostic": "cross link tests chiral-octupole coupling; B suppression is quadratic in the small amplitude"
+    },
+    {
+      "channel": "cross_E3_dI3",
+      "multipole": "E3",
+      "delta_I": "3 (favored; triangle rule also applies)",
+      "delta_eta": 1,
+      "delta_parity": 1,
+      "operator_component": "tau_z xi_z",
+      "leading_amplitude": "o_11^(3)",
+      "matrix_order": "O(epsilon_chi beta_3) or a two-phonon mixed kernel",
+      "group_status": "leading direct term zero in factorized one-phonon limit",
+      "diagnostic": "cross E3 is a high-value companion test, not a guaranteed strong link"
+    }
+  ],
+  "numeric_diagnostics": [
+    {
+      "Ii": 10,
+      "Egamma_M1_chiral_keV": 768.436452,
+      "Egamma_E1_direct_keV": 693.013611,
+      "Egamma_E3_direct_keV": 2308.988515,
+      "Egamma_E2_intra_keV": 1749.731489,
+      "Bhat_M1_intra": 0.0037333333333333337,
+      "Bhat_M1_chiral": 0.040304761904761906,
+      "Bhat_E1_direct": 0.0336,
+      "Bhat_E1_cross": 0.00017142857142857143,
+      "Bhat_E3_direct": 0.024685714285714283,
+      "Bhat_E3_cross": 9.642857142857142e-05,
+      "Bhat_E2_intra_dI2": 0.047619047619047616,
+      "Bhat_E2_chiral_dI2": 0.0015428571428571427,
+      "R_B_M1chiral_over_E1direct": 1.1995464852607711,
+      "R_Gamma_M1chiral_over_E1direct": 1.6353686344721827,
+      "sigma_E1_cross_over_direct": 0.005102040816326531,
+      "sigma_E3_cross_over_direct": 0.00390625,
+      "R_E2_chiral_over_intra": 0.0324,
+      "M1_E2_angular_cancellation_index": 0.8830117412129289,
+      "synthetic_input": true
+    },
+    {
+      "Ii": 11,
+      "Egamma_M1_chiral_keV": 828.943649,
+      "Egamma_E1_direct_keV": 756.943649,
+      "Egamma_E3_direct_keV": 2464.940102,
+      "Egamma_E2_intra_keV": 1837.755227,
+      "Bhat_M1_intra": 0.0034086956521739136,
+      "Bhat_M1_chiral": 0.0368,
+      "Bhat_E1_direct": 0.030678260869565214,
+      "Bhat_E1_cross": 0.00015652173913043477,
+      "Bhat_E3_direct": 0.022539130434782607,
+      "Bhat_E3_cross": 8.804347826086956e-05,
+      "Bhat_E2_intra_dI2": 0.043478260869565216,
+      "Bhat_E2_chiral_dI2": 0.001408695652173913,
+      "R_B_M1chiral_over_E1direct": 1.1995464852607711,
+      "R_Gamma_M1chiral_over_E1direct": 1.5754385196950034,
+      "sigma_E1_cross_over_direct": 0.005102040816326531,
+      "sigma_E3_cross_over_direct": 0.00390625,
+      "R_E2_chiral_over_intra": 0.0324,
+      "M1_E2_angular_cancellation_index": 0.8830117412129289,
+      "synthetic_input": true
+    },
+    {
+      "Ii": 12,
+      "Egamma_M1_chiral_keV": 887.568733,
+      "Egamma_E1_direct_keV": 819.156354,
+      "Egamma_E3_direct_keV": 2619.245358,
+      "Egamma_E2_intra_keV": 1926.231748,
+      "Bhat_M1_intra": 0.0031360000000000003,
+      "Bhat_M1_chiral": 0.033856000000000004,
+      "Bhat_E1_direct": 0.028223999999999996,
+      "Bhat_E1_cross": 0.000144,
+      "Bhat_E3_direct": 0.020735999999999997,
+      "Bhat_E3_cross": 8.099999999999999e-05,
+      "Bhat_E2_intra_dI2": 0.04,
+      "Bhat_E2_chiral_dI2": 0.0012959999999999998,
+      "R_B_M1chiral_over_E1direct": 1.1995464852607713,
+      "R_Gamma_M1chiral_over_E1direct": 1.5258879851491856,
+      "sigma_E1_cross_over_direct": 0.005102040816326532,
+      "sigma_E3_cross_over_direct": 0.00390625,
+      "R_E2_chiral_over_intra": 0.0324,
+      "M1_E2_angular_cancellation_index": 0.8830117412129289,
+      "synthetic_input": true
+    },
+    {
+      "Ii": 13,
+      "Egamma_M1_chiral_keV": 944.55558,
+      "Egamma_E1_direct_keV": 879.815841,
+      "Egamma_E3_direct_keV": 2772.051989,
+      "Egamma_E2_intra_keV": 2015.10834,
+      "Bhat_M1_intra": 0.002903703703703704,
+      "Bhat_M1_chiral": 0.03134814814814815,
+      "Bhat_E1_direct": 0.026133333333333328,
+      "Bhat_E1_cross": 0.00013333333333333334,
+      "Bhat_E3_direct": 0.0192,
+      "Bhat_E3_cross": 7.5e-05,
+      "Bhat_E2_intra_dI2": 0.037037037037037035,
+      "Bhat_E2_chiral_dI2": 0.0012,
+      "R_B_M1chiral_over_E1direct": 1.1995464852607713,
+      "R_Gamma_M1chiral_over_E1direct": 1.484308947833875,
+      "sigma_E1_cross_over_direct": 0.005102040816326532,
+      "sigma_E3_cross_over_direct": 0.00390625,
+      "R_E2_chiral_over_intra": 0.0324,
+      "M1_E2_angular_cancellation_index": 0.8830117412129289,
+      "synthetic_input": true
+    },
+    {
+      "Ii": 14,
+      "Egamma_M1_chiral_keV": 1000.116482,
+      "Egamma_E1_direct_keV": 939.070602,
+      "Egamma_E3_direct_keV": 2923.494912,
+      "Egamma_E2_intra_keV": 2104.338558,
+      "Bhat_M1_intra": 0.0027034482758620695,
+      "Bhat_M1_chiral": 0.029186206896551724,
+      "Bhat_E1_direct": 0.024331034482758616,
+      "Bhat_E1_cross": 0.00012413793103448277,
+      "Bhat_E3_direct": 0.017875862068965517,
+      "Bhat_E3_cross": 6.982758620689655e-05,
+      "Bhat_E2_intra_dI2": 0.034482758620689655,
+      "Bhat_E2_chiral_dI2": 0.0011172413793103448,
+      "R_B_M1chiral_over_E1direct": 1.1995464852607713,
+      "R_Gamma_M1chiral_over_E1direct": 1.4490190738750337,
+      "sigma_E1_cross_over_direct": 0.005102040816326532,
+      "sigma_E3_cross_over_direct": 0.00390625,
+      "R_E2_chiral_over_intra": 0.0324,
+      "M1_E2_angular_cancellation_index": 0.8830117412129289,
+      "synthetic_input": true
+    }
+  ],
+  "normalization": {
+    "Bhat": "B/B_W in a fixed multipole-specific Weisskopf normalization, dimensionless",
+    "R_B_M1_over_E1": "Bhat(M1)/Bhat(E1), dimensionless; compare widths after E_gamma^3 and ICC corrections",
+    "R_Gamma_M1_over_E1": "[E_M1/E_E1]^3 * R_B for same lambda=1, with a fixed electromagnetic-unit convention",
+    "R_E2": "Bhat(E2; I->I-2) or a ratio to the same-band E2 baseline",
+    "cross_suppression": "Bhat(cross)/Bhat(direct), expected O(|epsilon_chi|^2) when the amplitude is O(epsilon_chi beta_3)"
+  },
+  "validation": {
+    "parity_rule": "E_lambda: p_f=p_i*(-1)^lambda; M_lambda: p_f=p_i*(-1)^(lambda+1)",
+    "triangle_rule": "abs(Ii-If)<=lambda<=Ii+If",
+    "simplex_rule": "s_f^* s_i = pi_X * exp(-i*pi*mu) for a fixed x-quantized tensor component mu",
+    "factorized_cross_limit": "d_11=o_11=0 when the one-body operator factorizes into a chiral-even times octupole-odd part",
+    "interference_boundary": "M1/E2 amplitudes interfere in angular-distribution/polarization observables; total unpolarized gamma widths add multipoles incoherently"
+  }
+}

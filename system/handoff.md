@@ -3,7 +3,26 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint118：有效质量硬化、极向流相消、AMR临界定标律与奇A直接E3角动量耦合
+## Active handoff — Day26 checkpoint045：正式收束结算、全部交付项闭环与次日预习交接 (2026-10-29T15:05:00+08:00)
+
+正式 Day 26 研学（run_id: `2026-10-28-day-26-01`，session_id: `01a1819f-75bb-7a11-be19-05761880f65c`）到达 15:00 研学硬截止，进入 15:00–16:00 专有收束结算窗口。
+全套 5 大交付物经核实全部完成闭环，课程状态推进至 `completed_day_indices: [26]`，`next_day_index: 27`，Day 27 维持有界无学分预习（`partial[27]`），无 Day 28。
+
+本轮新增关键理论突破与数值闭环产物：
+1. **富中子钡同位素（140–150Ba）电偶极相消微观灵敏度与配对审计**（`ba-e1-dipole-cancellation-sensitivity-and-pairing-audit.md`，工件 `ba-e1-cancellation-sensitivity/`）：
+   - 推导质心修正微观算符在 144Ba 的相消节点（`D0_net = -0.0341 e fm`）；
+   - 证明对数灵敏度发散 `dlnB/dv2(i13/2) = 54.2`，阐明 Gogny D1S SCCM 与实验 21.26 倍幅度差仅需约 4% 中子单粒子占据度修正，澄清理论模型在相消点附近的极端非线性平方效应；
+2. **反磁转动（AMR）价核子截断上限（J_val,max = 18 hbar）与四极核芯极化动力学竞争**（`amr-valence-truncation-and-core-polarization-competition.md`，工件 `amr-core-polarization-shears-cutoff/`）：
+   - 基于全同费米子反对称化严格证明单-j 壳层最大价自旋为 18 hbar；
+   - 证明核芯转动分担角动量使剪刀闭合速率减缓，并在自旋饱和后提供 0.08–0.12 e2b2 残余平台，微观解释 `J(2)/B(E2) ~ 250–400` 巨比值；
+3. **轻锕系十六极—八极（beta4-beta3）非线性耦合与隧穿宇称劈裂**（`actinide-hexadecapole-octupole-coupling-and-tunneling-splitting.md`，工件 `actinide-beta4-octupole/`）：
+   - 证明正十六极形变 `beta4 > 0` 缩减 `pi(i13/2-f7/2)` 与 `nu(j15/2-g9/2)` 裸间距，加深八极双阱势垒，通过 WKB 与数值对角化验证宇称双重态能隙的指数压低；
+4. **手征—八极四重态离散对称性群与电磁跃迁选择定则**（`chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules.md`，工件 `chiral-octupole/`）：
+   - 构建 D2 与单纯形群代数记账，证明交叉双翻转 E1/E3 跃迁按二阶小振幅平方受抑，确立无量纲 `R_B(M1/E1)` 判据矩阵。
+
+全套门禁检验通过：`wiki_boundary_check.py` `ok: true`，`wiki_lint.py` `0 error`，`git diff --check` clean。签发 `card-credit-26.json` 与 `final-session-receipt-26.json`，完成原子发布。
+
+## Previous handoff — Day26 checkpoint118：有效质量硬化、极向流相消、AMR临界定标律与奇A直接E3角动量耦合
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

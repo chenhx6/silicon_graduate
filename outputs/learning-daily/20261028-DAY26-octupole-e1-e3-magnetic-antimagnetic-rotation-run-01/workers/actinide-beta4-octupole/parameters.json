@@ -1,0 +1,87 @@
+{
+  "model": "beta2-beta3-beta4 Landau PES + one-dimensional beta3 Schrodinger + two-level orbital surrogate",
+  "status": "model-result; not a calibrated Woods-Saxon/Nilsson/HFB/EDF prediction",
+  "landau": {
+    "a3_at_beta2_0175_MeV": -13.5,
+    "a3_beta2_curvature_MeV": 220.0,
+    "b3_MeV": 260.0,
+    "c3_MeV": 1200.0,
+    "k4_MeV": 45.0,
+    "u4_MeV": 4000.0,
+    "G234_MeV": 70.0
+  },
+  "hbar2_over_2B33_MeV": 5e-05,
+  "beta2_values": [
+    0.15,
+    0.175,
+    0.2
+  ],
+  "beta3_grid": [
+    -0.32,
+    0.32,
+    321
+  ],
+  "beta4_grid": [
+    -0.08,
+    0.08,
+    161
+  ],
+  "beta4_scan": [
+    -0.06,
+    -0.055,
+    -0.049999999999999996,
+    -0.045,
+    -0.039999999999999994,
+    -0.034999999999999996,
+    -0.03,
+    -0.024999999999999994,
+    -0.019999999999999997,
+    -0.015,
+    -0.009999999999999995,
+    -0.0049999999999999975,
+    0.0,
+    0.0050000000000000044,
+    0.010000000000000009,
+    0.015,
+    0.020000000000000004,
+    0.02500000000000001,
+    0.03,
+    0.035,
+    0.04000000000000001,
+    0.045,
+    0.05,
+    0.05500000000000001,
+    0.06
+  ],
+  "schrodinger_grid": [
+    -0.32,
+    0.32,
+    641
+  ],
+  "orbital_pairs": [
+    {
+      "species": "proton",
+      "lower_orbit": "pi f7/2",
+      "upper_orbit": "pi i13/2",
+      "delta0_MeV": 0.26,
+      "delta_beta2_MeV": 3.2,
+      "delta_beta4_MeV": -2.6,
+      "kappa3_MeV": 2.7,
+      "overlap0": 0.92,
+      "overlap_beta2": -0.6,
+      "overlap_beta4": 1.8
+    },
+    {
+      "species": "neutron",
+      "lower_orbit": "nu g9/2",
+      "upper_orbit": "nu j15/2",
+      "delta0_MeV": 0.18,
+      "delta_beta2_MeV": -2.2,
+      "delta_beta4_MeV": -1.7,
+      "kappa3_MeV": 3.0,
+      "overlap0": 0.97,
+      "overlap_beta2": -0.4,
+      "overlap_beta4": 1.3
+    }
+  ]
+}

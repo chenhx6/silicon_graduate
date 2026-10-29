@@ -1,0 +1,11 @@
+channel,multipole,delta_I,delta_eta,delta_parity,operator_component,leading_amplitude,matrix_order,group_status,diagnostic
+intra_band_M1_dI1,M1,1,0,0,tau_0 xi_0,m_00^(1),O(1) or configuration-mixing suppressed,allowed,same-band Delta-I=1 M1; measure mixing ratio/polarization
+intra_band_E2_dI1_mixed,E2,1,0,0,tau_0 xi_0,q_00^(1),O(epsilon_rot) relative to Delta-I=2 E2,allowed,Delta-I=1 E2 component of an M1/E2 mixed transition
+intra_band_E2_dI2,E2,2,0,0,tau_0 xi_0,q_00^(2),O(1),allowed,rotational crossover; use as the quadrupole collectivity baseline
+chiral_partner_M1_dI1,M1,1,1,0,tau_z xi_0,m_10^(1),O(1) in a chiral-odd current component,allowed,same-parity chiral link; left/right current sum or difference can cancel
+chiral_partner_E2_dI1,E2,1,1,0,tau_z xi_0,q_10^(1),O(epsilon_chi) or configuration-mixing suppressed,allowed,E2 admixture in the Delta-I=1 chiral link; interferes in angular observables with M1
+chiral_partner_E2_dI2,E2,2,1,0,tau_z xi_0,q_10^(2),O(epsilon_chi) or phase-cancellation suppressed,allowed,same-parity chiral crossover; compare with the intra-band E2 baseline
+parity_partner_E1_dI1,E1,1,0,1,tau_0 xi_z,d_01^(1),O(beta_3) or octupole-correlation amplitude,allowed,same-chirality parity link; E1 is cancellation-sensitive and not sufficient for static beta_3
+parity_partner_E3_dI3,E3,3 (favored; triangle rule also applies),0,1,tau_0 xi_z,o_01^(3),O(beta_3) and collective radial moment,allowed,direct E3 network; more collective than E1 but still requires lifetimes/absolute B(E3)
+cross_E1_dI1,E1,1,1,1,tau_z xi_z,d_11^(1),O(epsilon_chi beta_3) or O(epsilon_chi epsilon_3),leading direct term zero in factorized one-phonon limit,cross link tests chiral-octupole coupling; B suppression is quadratic in the small amplitude
+cross_E3_dI3,E3,3 (favored; triangle rule also applies),1,1,tau_z xi_z,o_11^(3),O(epsilon_chi beta_3) or a two-phonon mixed kernel,leading direct term zero in factorized one-phonon limit,"cross E3 is a high-value companion test, not a guaranteed strong link"

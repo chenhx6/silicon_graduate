@@ -4787,3 +4787,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. 奇-A 锕系与稀土核中八极科里奥利反转与宇称退耦振荡（odd-a-octupole-coriolis-inversion-and-parity-decoupling-oscillations.md，工件 odd-a-octupole-coriolis/）：严格证明异宇称微观轨道二阶混合产生相反符号科里奥利退耦项 a(+) != a(-)，在 225Ra（K=1/2）中微观反演给出 A delta a = -20.43 keV 压倒势垒重现“宇称倒转”，而在 225Ac（K=3/2）中呈现单调劈裂；
   3. 磁转动向手征性与超形变分岔的三维超曲面与隧穿动力学（mr-chiral-sd-multivalley-bifurcation-and-tunneling.md，工件 mr-chiral-sd-multivalley/）：构建 (beta2, theta, phi) 统一三维推转 Routhian 超曲面，在 32 个频率网格上完成 minimax 鞍点搜索与半经典 WKB 作用量积分，重现高频下平面剪刀向非共面手征双阱与高形变 SD 势阱的分岔与竞争图景；
   4. 全量检查全绿：wiki_lint.py 0 error/357 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+- 2026-10-29T15:05:00+08:00 Day26 checkpoint123：正式收束结算、全部交付项闭环与次日预习交接。
+  1. 富中子钡同位素（140–150Ba）电偶极相消微观占据灵敏度与配对审计（ba-e1-dipole-cancellation-sensitivity-and-pairing-audit.md，工件 ba-e1-cancellation-sensitivity/）：推导质心修正微观算符在 144Ba 的相消节点（D0_net = -0.0341 e fm），证明对数灵敏度发散 dlnB/dv2(i13/2) = 54.2，阐明理论与实验 21.26 倍幅度差仅需约 4% 中子占据度修正；
+  2. 反磁转动四叶片价核子截断与核芯极化竞争（amr-valence-truncation-and-core-polarization-competition.md，工件 amr-core-polarization-shears-cutoff/）：严格证明单-j 壳层最大价自旋为 18 hbar，核芯转动延缓剪刀闭合并提供 0.08–0.12 e2b2 残余平台；
+  3. 锕系十六极—八极非线性耦合与隧穿宇称劈裂（actinide-hexadecapole-octupole-coupling-and-tunneling-splitting.md，工件 actinide-beta4-octupole/）：证明正十六极形变加深八极双阱势垒，通过 WKB 与数值对角化验证宇称双重态能隙的指数压低；
+  4. 手征—八极四重态离散对称性群与电磁跃迁选择定则（chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules.md，工件 chiral-octupole/）：构建 D2 与单纯形代数选择定则，确立交叉双翻转跃迁阶数抑制；
+  5. 收束闭环：Day 26 卡片 5 大交付物全通，签发 card-credit-26.json 与 final-session-receipt-26.json，run.json 标记 completed[26]，milestones 累计推进至 26/next27，Day 27 维持无学分预习。门禁：wiki_lint 0 error，boundary ok，diff-check clean.

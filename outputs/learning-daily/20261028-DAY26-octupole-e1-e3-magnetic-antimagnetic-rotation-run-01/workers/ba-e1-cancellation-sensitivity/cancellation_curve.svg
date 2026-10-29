@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" style="background-color: #ffffff; font-family: sans-serif;">
+<text x="400" y="30" font-size="18" font-weight="bold" text-anchor="middle" fill="#111827">140-150Ba Intrinsic Dipole Moment D0 Cancellation &amp; Sensitivity</text>
+<line x1="60" y1="146.36363636363643" x2="740" y2="146.36363636363643" stroke="#9ca3af" stroke-width="2" stroke-dasharray="4,4"/>
+<text x="745" y="150.36363636363643" font-size="12" fill="#4b5563">D0 = 0 (Node)</text>
+<line x1="60" y1="440" x2="740" y2="440" stroke="#374151" stroke-width="2"/>
+<line x1="60" y1="60" x2="60" y2="440" stroke="#374151" stroke-width="2"/>
+<line x1="60.0" y1="440" x2="60.0" y2="446" stroke="#374151" stroke-width="1.5"/>
+<text x="60.0" y="462" font-size="12" text-anchor="middle" fill="#374151">140Ba (N=84)</text>
+<line x1="196.0" y1="440" x2="196.0" y2="446" stroke="#374151" stroke-width="1.5"/>
+<text x="196.0" y="462" font-size="12" text-anchor="middle" fill="#374151">142Ba (N=86)</text>
+<line x1="332.0" y1="440" x2="332.0" y2="446" stroke="#374151" stroke-width="1.5"/>
+<text x="332.0" y="462" font-size="12" text-anchor="middle" fill="#374151">144Ba (N=88)</text>
+<line x1="468.0" y1="440" x2="468.0" y2="446" stroke="#374151" stroke-width="1.5"/>
+<text x="468.0" y="462" font-size="12" text-anchor="middle" fill="#374151">146Ba (N=90)</text>
+<line x1="604.0" y1="440" x2="604.0" y2="446" stroke="#374151" stroke-width="1.5"/>
+<text x="604.0" y="462" font-size="12" text-anchor="middle" fill="#374151">148Ba (N=92)</text>
+<line x1="740.0" y1="440" x2="740.0" y2="446" stroke="#374151" stroke-width="1.5"/>
+<text x="740.0" y="462" font-size="12" text-anchor="middle" fill="#374151">150Ba (N=94)</text>
+<line x1="54" y1="422.72727272727275" x2="60" y2="422.72727272727275" stroke="#374151" stroke-width="1.5"/>
+<text x="50" y="426.72727272727275" font-size="12" text-anchor="end" fill="#374151">-0.8</text>
+<line x1="54" y1="353.6363636363636" x2="60" y2="353.6363636363636" stroke="#374151" stroke-width="1.5"/>
+<text x="50" y="357.6363636363636" font-size="12" text-anchor="end" fill="#374151">-0.6</text>
+<line x1="54" y1="284.5454545454546" x2="60" y2="284.5454545454546" stroke="#374151" stroke-width="1.5"/>
+<text x="50" y="288.5454545454546" font-size="12" text-anchor="end" fill="#374151">-0.4</text>
+<line x1="54" y1="215.4545454545455" x2="60" y2="215.4545454545455" stroke="#374151" stroke-width="1.5"/>
+<text x="50" y="219.4545454545455" font-size="12" text-anchor="end" fill="#374151">-0.2</text>
+<line x1="54" y1="146.36363636363643" x2="60" y2="146.36363636363643" stroke="#374151" stroke-width="1.5"/>
+<text x="50" y="150.36363636363643" font-size="12" text-anchor="end" fill="#374151">0.0</text>
+<line x1="54" y1="77.27272727272731" x2="60" y2="77.27272727272731" stroke="#374151" stroke-width="1.5"/>
+<text x="50" y="81.27272727272731" font-size="12" text-anchor="end" fill="#374151">0.2</text>
+<text x="25" y="250" font-size="13" font-weight="bold" text-anchor="middle" fill="#111827" transform="rotate(-90, 25, 250)">D0 [e · fm]</text>
+<polyline points="60.0,135.2054545454546 196.0,123.70181818181823 332.0,108.46727272727276 468.0,103.66545454545457 604.0,105.63454545454545 740.0,116.44727272727278" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="60.0" cy="135.2054545454546" r="4" fill="#2563eb"/>
+<circle cx="196.0" cy="123.70181818181823" r="4" fill="#2563eb"/>
+<circle cx="332.0" cy="108.46727272727276" r="4" fill="#2563eb"/>
+<circle cx="468.0" cy="103.66545454545457" r="4" fill="#2563eb"/>
+<circle cx="604.0" cy="105.63454545454545" r="4" fill="#2563eb"/>
+<circle cx="740.0" cy="116.44727272727278" r="4" fill="#2563eb"/>
+<polyline points="60.0,129.67818181818183 196.0,112.95818181818186 332.0,91.26363636363635 468.0,85.14909090909094 604.0,88.77636363636367 740.0,104.63272727272727" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="60.0" cy="129.67818181818183" r="4" fill="#16a34a"/>
+<circle cx="196.0" cy="112.95818181818186" r="4" fill="#16a34a"/>
+<circle cx="332.0" cy="91.26363636363635" r="4" fill="#16a34a"/>
+<circle cx="468.0" cy="85.14909090909094" r="4" fill="#16a34a"/>
+<circle cx="604.0" cy="88.77636363636367" r="4" fill="#16a34a"/>
+<circle cx="740.0" cy="104.63272727272727" r="4" fill="#16a34a"/>
+<polyline points="60.0,151.13090909090914 196.0,176.3145454545455 332.0,251.14000000000001 468.0,337.71090909090907 604.0,406.3872727272728 740.0,393.5709090909091" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+<circle cx="60.0" cy="151.13090909090914" r="4" fill="#dc2626"/>
+<circle cx="196.0" cy="176.3145454545455" r="4" fill="#dc2626"/>
+<circle cx="332.0" cy="251.14000000000001" r="4" fill="#dc2626"/>
+<circle cx="468.0" cy="337.71090909090907" r="4" fill="#dc2626"/>
+<circle cx="604.0" cy="406.3872727272728" r="4" fill="#dc2626"/>
+<circle cx="740.0" cy="393.5709090909091" r="4" fill="#dc2626"/>
+<polyline points="60.0,123.25272727272733 196.0,120.28181818181821 332.0,158.1436363636364 468.0,233.79818181818183 604.0,308.03636363636366 740.0,321.9236363636364" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+<circle cx="60.0" cy="123.25272727272733" r="4" fill="#7c3aed"/>
+<circle cx="196.0" cy="120.28181818181821" r="4" fill="#7c3aed"/>
+<circle cx="332.0" cy="158.1436363636364" r="4" fill="#7c3aed"/>
+<circle cx="468.0" cy="233.79818181818183" r="4" fill="#7c3aed"/>
+<circle cx="604.0" cy="308.03636363636366" r="4" fill="#7c3aed"/>
+<circle cx="740.0" cy="321.9236363636364" r="4" fill="#7c3aed"/>
+<line x1="480" y1="60" x2="510" y2="60" stroke="#2563eb" stroke-width="2.5"/>
+<circle cx="495" cy="60" r="4" fill="#2563eb"/>
+<text x="520" y="64" font-size="12" fill="#1f2937">Droplet Model D0(DM)</text>
+<line x1="480" y1="84" x2="510" y2="84" stroke="#16a34a" stroke-width="2.5"/>
+<circle cx="495" cy="84" r="4" fill="#16a34a"/>
+<text x="520" y="88" font-size="12" fill="#1f2937">Proton Shell D0(p)</text>
+<line x1="480" y1="108" x2="510" y2="108" stroke="#dc2626" stroke-width="2.5"/>
+<circle cx="495" cy="108" r="4" fill="#dc2626"/>
+<text x="520" y="112" font-size="12" fill="#1f2937">Neutron Shell D0(n)</text>
+<line x1="480" y1="132" x2="510" y2="132" stroke="#7c3aed" stroke-width="2.5"/>
+<circle cx="495" cy="132" r="4" fill="#7c3aed"/>
+<text x="520" y="136" font-size="12" fill="#1f2937">Net Dipole D0(net)</text>
+<rect x="298.0" y="70.36363636363637" width="204.0" height="196.90909090909088" fill="#fef08a" opacity="0.3" rx="6"/>
+<text x="400.0" y="90.36363636363637" font-size="12" font-weight="bold" text-anchor="middle" fill="#854d0e">Cancellation Zone</text>
+<text x="400.0" y="106.36363636363637" font-size="11" text-anchor="middle" fill="#854d0e">B(E1) Node (144Ba)</text>
+</svg>

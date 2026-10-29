@@ -1,0 +1,206 @@
+{
+  "model": "beta2-beta3-beta4 Landau PES + one-dimensional beta3 Schrodinger + two-level orbital surrogate",
+  "status": "model-result; not a calibrated Woods-Saxon/Nilsson/HFB/EDF prediction",
+  "nuclei_context": [
+    "224Ra",
+    "226Ra",
+    "226Th",
+    "228Th"
+  ],
+  "units": {
+    "beta": "dimensionless",
+    "energy": "MeV",
+    "parity_splitting": "MeV",
+    "orbital_overlap": "dimensionless"
+  },
+  "formulas": {
+    "PES": "V=1/2*a3*b3^2+1/4*b3c*b3^4+1/6*c3*b3^6+1/2*k4*b4^2+1/4*u4*b4^4-G234*b2*b3^2*b4",
+    "MEP": "beta4*(beta3) solves k4*beta4+u4*beta4^3=G234*beta2*beta3^2",
+    "single_particle": "E+-=(eps_a+eps_b)/2 +/- sqrt((delta/2)^2+(v3*beta3)^2)",
+    "WKB": "S/hbar=int d beta3 sqrt((V-E0)/(hbar^2/(2B33))); DeltaE=(hbar omega/pi)*exp(-S/hbar)"
+  },
+  "parameters": {
+    "landau": {
+      "a3_at_beta2_0175_MeV": -13.5,
+      "a3_beta2_curvature_MeV": 220.0,
+      "b3_MeV": 260.0,
+      "c3_MeV": 1200.0,
+      "k4_MeV": 45.0,
+      "u4_MeV": 4000.0,
+      "G234_MeV": 70.0
+    },
+    "hbar2_over_2B33_MeV": 5e-05,
+    "beta2_values": [
+      0.15,
+      0.175,
+      0.2
+    ],
+    "beta4_scan": [
+      -0.06,
+      -0.055,
+      -0.049999999999999996,
+      -0.045,
+      -0.039999999999999994,
+      -0.034999999999999996,
+      -0.03,
+      -0.024999999999999994,
+      -0.019999999999999997,
+      -0.015,
+      -0.009999999999999995,
+      -0.0049999999999999975,
+      0.0,
+      0.0050000000000000044,
+      0.010000000000000009,
+      0.015,
+      0.020000000000000004,
+      0.02500000000000001,
+      0.03,
+      0.035,
+      0.04000000000000001,
+      0.045,
+      0.05,
+      0.05500000000000001,
+      0.06
+    ],
+    "orbital_pairs": [
+      {
+        "species": "proton",
+        "lower_orbit": "pi f7/2",
+        "upper_orbit": "pi i13/2",
+        "delta0_MeV": 0.26,
+        "delta_beta2_MeV": 3.2,
+        "delta_beta4_MeV": -2.6,
+        "kappa3_MeV": 2.7,
+        "overlap0": 0.92,
+        "overlap_beta2": -0.6,
+        "overlap_beta4": 1.8
+      },
+      {
+        "species": "neutron",
+        "lower_orbit": "nu g9/2",
+        "upper_orbit": "nu j15/2",
+        "delta0_MeV": 0.18,
+        "delta_beta2_MeV": -2.2,
+        "delta_beta4_MeV": -1.7,
+        "kappa3_MeV": 3.0,
+        "overlap0": 0.97,
+        "overlap_beta2": -0.4,
+        "overlap_beta4": 1.3
+      }
+    ]
+  },
+  "mep_summaries": [
+    {
+      "beta2": 0.15,
+      "beta3_min": 0.206977985249432,
+      "beta4_at_beta3_min": 0.009909681224151017,
+      "V_min_MeV": -0.15348299364068144,
+      "V_barrier_MeV": 0.15348299364068144,
+      "beta4_at_center": 0.0,
+      "mep_symmetry_max_abs_MeV": 2.463307335887066e-16
+    },
+    {
+      "beta2": 0.175,
+      "beta3_min": 0.2101457005815215,
+      "beta4_at_beta3_min": 0.011872954316692864,
+      "V_min_MeV": -0.15733165255878045,
+      "V_barrier_MeV": 0.15733165255878045,
+      "beta4_at_center": 0.0,
+      "mep_symmetry_max_abs_MeV": 2.498001805406602e-16
+    },
+    {
+      "beta2": 0.2,
+      "beta3_min": 0.2108102404238943,
+      "beta4_at_beta3_min": 0.013602596597378091,
+      "V_min_MeV": -0.15528090351278173,
+      "V_barrier_MeV": 0.15528090351278173,
+      "beta4_at_center": 0.0,
+      "mep_symmetry_max_abs_MeV": 3.5041414214731503e-16
+    }
+  ],
+  "sensitivity_summary": [
+    {
+      "beta2": 0.15,
+      "dV_barrier_d_beta4_MeV": 0.4685476206770697,
+      "dbeta3_min_d_beta4": 0.12474761286311523,
+      "dlog10_DeltaE_d_beta4": -13.761790605683412,
+      "barrier_at_beta4_0_MeV": 0.1512085122793255,
+      "barrier_at_beta4_0p04_MeV": 0.16970961776018392,
+      "beta3_min_at_beta4_0": 0.20976318798430588,
+      "beta3_min_at_beta4_0p04": 0.21082547092578358
+    },
+    {
+      "beta2": 0.175,
+      "dV_barrier_d_beta4_MeV": 0.5547073154913978,
+      "dbeta3_min_d_beta4": 0.17550464702288915,
+      "dlog10_DeltaE_d_beta4": -16.167642294221157,
+      "barrier_at_beta4_0_MeV": 0.1541706347382798,
+      "barrier_at_beta4_0p04_MeV": 0.1760329199855538,
+      "beta3_min_at_beta4_0": 0.20795375461553645,
+      "beta3_min_at_beta4_0p04": 0.2133099227094702
+    },
+    {
+      "beta2": 0.2,
+      "dV_barrier_d_beta4_MeV": 0.6327007195044303,
+      "dbeta3_min_d_beta4": 0.16991958426644474,
+      "dlog10_DeltaE_d_beta4": -18.45910553563338,
+      "barrier_at_beta4_0_MeV": 0.15120851227932547,
+      "barrier_at_beta4_0p04_MeV": 0.17609035397483677,
+      "beta3_min_at_beta4_0": 0.20976318798430751,
+      "beta3_min_at_beta4_0p04": 0.21327823702550172
+    }
+  ],
+  "reference": {
+    "beta2": 0.175,
+    "fixed_beta4_rows": [
+      {
+        "beta2": 0.175,
+        "beta4": 0.04000000000000001,
+        "beta3_min": 0.2133099227094702,
+        "V_barrier_MeV": 0.1760329199855538,
+        "V_min_MeV": -0.13747291998555378,
+        "DeltaE_exact_MeV": 2.527747516856138e-08,
+        "DeltaE_WKB_MeV": 2.4107672740006104e-08,
+        "WKB_action_S_over_hbar": 13.545607403065837,
+        "WKB_applicable": true,
+        "even_parity_expectation": 0.9999999999999456,
+        "odd_parity_expectation": -0.9999999999999454
+      }
+    ],
+    "mep_row": {
+      "beta2": 0.175,
+      "beta3_min": 0.2101457005815215,
+      "beta4_at_beta3_min": 0.011872954316692864,
+      "V_min_MeV": -0.15733165255878045,
+      "V_barrier_MeV": 0.15733165255878045,
+      "beta4_at_center": 0.0,
+      "mep_symmetry_max_abs_MeV": 2.498001805406602e-16,
+      "beta4_mode": "mep",
+      "E_even_MeV": 0.02746633054300788,
+      "E_odd_MeV": 0.02746641352571335,
+      "DeltaE_odd_minus_even_MeV": 8.298270547102415e-08,
+      "even_parity_expectation": 0.9999999999999966,
+      "odd_parity_expectation": -0.9999999999999964,
+      "grid_points": 641,
+      "grid_step": 0.0010000000000000009,
+      "WKB_applicable": true,
+      "E0_MeV": 0.02746633054300788,
+      "S_over_hbar": 12.314160648612456,
+      "DeltaE_WKB_MeV": 8.12562108816142e-08,
+      "hbar_omega_MeV": 0.05688247154150118,
+      "mode": "MEP_beta4_minimized"
+    }
+  },
+  "checks": {
+    "max_PES_reflection_symmetry_error_MeV": 0.0,
+    "MEP_beta4_nonnegative_at_finite_beta3": true,
+    "coupling_off_MEP_beta4_max_abs": 0.0,
+    "coupling_sign_reversal_MEP_beta4_error": 0.0,
+    "WKB_exact_splitting_same_units": true
+  },
+  "evidence_boundary": {
+    "direct_experiment": "Existing local source pages constrain strong E3/Q3, parity-band systematics and model context; they do not provide a beta4-resolved PES for all four target nuclei.",
+    "author_model": "Gogny/mean-field source pages identify 224Ra and 226Th as strong-octupole candidates but retain softness and model dependence.",
+    "task_inference": "The beta4 stabilization, orbital response, WKB and exact diagonalization values here are reduced-model diagnostics."
+  }
+}

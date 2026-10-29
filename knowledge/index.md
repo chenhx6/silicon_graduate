@@ -21,6 +21,7 @@ updated: 2026-10-28
 - [[juutinen-1994-109111cd-107pd-highspin-metadata]] — 109,111Cd与107Pd高自旋谱学原件入口；正文未取得。
 
 - [[ba-microscopic-octupole-dipole-cancellation]] — 144,146Ba八极关联与电偶极相消微观机制、SCCM中子轨道占据与静态梨形边界。
+- [[ba-e1-dipole-cancellation-sensitivity-and-pairing-audit]] — 富中子钡同位素（140-150Ba）电偶极相消点微观占据灵敏度、对数发散与21倍幅度差物理解析。
 - [[octupole-centrifugal-stabilization-and-energy-displacement]] — 离心转动项推动八极极小外移、Ba/Ra/Th 交错宇称位移比较与一维可复现示意模型。
 - [[pr135-shears-dynamics-bandcrossing-rebound]] — 135Pr剪刀动力学、3qp至5qp高自旋能带交叉与B(M1)/B(E2)非单调反弹机制。
 - [[pr135-pr137-tac-rmf-bandcrossing-systematics]] — 135Pr/137Pr 3qp→5qp 交叉、TAC-RMF/CDFT 倾角、配对阻塞与流场响应的条件性研究笔记。
@@ -49,6 +50,7 @@ updated: 2026-10-28
 - [[mxd-multiple-chiral-doublets-octupole-coupling-boundary]] — 同核多重手征能带（MχD: 133Ce, 135Nd）与八极自由度共存、组态演化与跃迁网络判定边界。
 - [[beta2-beta3-octupole-topology-boundary]] — 四极—八极势能面拓扑适用边界：中等四极窗口去普适化与准粒子响应分析。
 - [[actinide-octupole-hexadecapole-coupling-fission-barrier]] — 锕系与超重核区 β3–β4 耦合对裂变势垒和宇称双重态的条件性重整化。
+- [[actinide-hexadecapole-octupole-coupling-and-tunneling-splitting]] — 224,226Ra 与 226,228Th 背景下 β2–β3–β4 非线性耦合、π/ν Δl=Δj=3 轨道响应及一维宇称隧穿劈裂；含可复现 PES、MEP、WKB/对角化工件。
 - [[mr-bandhead-spin-i0-quantum-shears-boundary]] — 磁转动带头自旋I0的微观决定机制：P2相互作用正交极小与有限j量子修正。
 - [[ac225-ra225-th220-226-parity-doublet-coriolis-boundary]] — 锕系奇A核与偶偶钍核八极宇称伙伴：K=3/2解耦边界、Coriolis劈裂与E1证据。
 - [[mr-effective-g-quenching-core-polarization-boundary]] — 磁转动有效g因子淬灭、核芯自旋极化与跨区B(M1)微观反演。
@@ -131,6 +133,7 @@ updated: 2026-10-28
 - [[roy-2011-cd110-systematics-antimagnetic]] — 110Cd 高自旋反磁转动第一手 DSAM 寿命、B(E2) 与核心转动耦合系统学原件。
 - [[amr-double-shears-core-coupling-and-b-e2-plateau]] — 110Cd 与 104Pd 双剪刀四叶片几何、核芯长椭微变形耦合与 B(E2) 平台微观机制。
 - [[amr-quantum-four-blade-microscopic-cranking-and-core-polarization]] — 反磁转动四叶片自洽微观推转模型、核芯四极极化与残余 B(E2) 平台及巨大 J(2)/B(E2) 判据。
+- [[amr-valence-truncation-and-core-polarization-competition]] — 有限-j 反对称化给出 J_val,max=18ℏ；统一固定-I 能量中核芯惯量延缓剪刀闭合、核芯 E2 振幅形成 0.08–0.12 e²b² 残余平台及 J(2)/B(E2) 机制级扫描。
 - [[amr-core-quadrupole-drive-and-shears-torque]] — 反磁转动中核芯四极驱动、固定总角动量下的非谐剪刀力矩与 110Cd-like 两自由度可复现模型。
 - [[amr-coulomb-repulsion-proton-blades-and-closing-asymmetry]] — 有限密度质子—质子库仑项对四叶片闭合非对称与 T22、B(E2) 的条件性重整；明确区分点粒子发散与量子波包有限矩阵元。
 - [[tensor-force-renormalization-odd-odd-magnetic-rotation]] — 奇奇核磁转动能带中多体张量力重整化、四阶剪刀势能修正与 B(M1) 曲率演化微观机制。
@@ -960,6 +963,8 @@ updated: 2026-10-28
 - [[ba-e1-e3-sccm-orbital-occupancy-and-static-shape-audit]] — 144,146Ba 中子单粒子轨道占据、质子—中子电偶极相消与直接 E3 矩阵元置信区间重叠对静态梨形形变假设的证据边界；含可复现工件。
 
 - [[chiral-octupole-quadruplets-symmetry-and-transition-rules]] — 三轴八极奇奇核手征—八极四重态的离散对称性群、宇称投影、单纯形分类与多极跃迁选择定则；结合 78Br、134Pr 与 131Ba 的实验前例与模型适用边界。
+
+- [[chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules]] — 手征—八极四重态的 `D2`/`S_x=P R_x(pi)^(-1)` 严格记账、`M1/E2` 手征伙伴、`E1/E3` 宇称伙伴、双翻转交叉阶数抑制与无量纲 `B(M1)/B(E1)`、`B(E2)` 判据矩阵；含可复核选择规则脚本与 synthetic 数值工件。
 
 - [[octupole-chiral-quadruplet-static-magnetic-moments-and-spin-decoupling]] — 三轴八极手征四重态的静态磁偶极矩张量、`K=1/2` 宇称依赖退耦常数 `b_0`、干涉劈裂条件与 `78Br`/`133Ce` 磁矩证据边界；含可复现 CSV/JSON/SVG 工件。
 
