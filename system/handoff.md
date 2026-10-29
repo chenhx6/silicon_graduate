@@ -3669,3 +3669,10 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
   2. 140–150Ba 双声子八极多重态非简谐分裂与库激淬灭（`ba-isotopes-two-phonon-octupole-anharmonicity-and-coulex-suppression.md`，工件 `ba-two-phonon-octupole/`）：证明泡利阻塞将玻色子二倍增强压至 0.58，多步库激破坏性干涉将布居因子压低逾 12 倍至 0.018；
   3. 奇奇核 Chiral-AMR 四叶片 3D-TAC 非共面拓扑分岔（`chiral-amr-four-blade-3dtac-topological-bifurcation.md`，工件 `chiral-amr-3dtac/`）：建立中轴推转对称驱动模型，在 omega_m ≈ 0.51 MeV 处验证自发 pitchfork 分岔，生成内禀手征极小（phi = ±20.5度）。
 - 全量门禁全绿：`wiki_lint.py` 0 error/351 warnings，`wiki_boundary_check.py` ok: true，`git diff --check` clean。
+
+### Day26 live continuation checkpoint 043 (2026-10-29T13:15:00+08:00)
+
+- 当前 session/goal 仍 active；硬截止仍为 2026-10-29 15:00+08:00，距截止约105分钟；继续当前证据审计，不提前宣称正式Day26完成。
+- 新增并完成三项高阶课题：MχD八极组态干涉、AMR恢复常数、超重核八极裂变WKB；长期笔记、可复现工件与日报写回已完成。
+- 结果边界：MχD与AMR数值为条件性toy/代理量；254No/256Rf势垒与半衰期为参数化WKB，不替代自洽EDF/ATDHFB；实验事实与模型推断保持分层。
+- 当前门禁：wiki_lint 0 error、wiki_boundary ok、git diff-check clean；待最终收束时核对Day25回执缺口、课程卡审计、Day27有界预习与最终receipt。

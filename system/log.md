@@ -4777,3 +4777,8 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. 140–150Ba 双声子八极多重态的非简谐分裂、Pauli/4p–4h 淬灭与库仑激发抑制（ba-isotopes-two-phonon-octupole-anharmonicity-and-coulex-suppression.md，工件 ba-two-phonon-octupole/）：量化泡利不相容原理与 4p-4h 相互作用对理想玻色子二倍增强的压低，证明 Q_B 从 0.685 跌至 0.288，理论两步库仑激发相消干涉使布居因子剧降至 0.018，自洽解释直接多步库激未见高能双声子退激光子的物理根源；
   3. 奇奇核 Chiral-AMR 四叶片 3D-TAC 非共面拓扑分岔（chiral-amr-four-blade-3dtac-topological-bifurcation.md，工件 chiral-amr-3dtac/）：建立中间轴推转分量 omega_m 驱动的四叶片 3D-TAC 模型，揭示在临界频率 omega_m ≈ 0.51 MeV 处系统发生自发 pitchfork 拓扑分岔，激发出出平面镜像手征极小（phi = ±20.5度, |chi_g| = 351.33），诱发非零带内 M1 跃迁与伙伴能级劈裂，阐明 106Ag 与 106Cd 的不同转动模式本质；
   4. 全量检查全绿：wiki_lint.py 0 error/351 warnings，wiki_boundary_check.py ok: true，git diff --check clean.
+- 2026-10-29T13:15:00+08:00 Day26 checkpoint121：MχD组态干涉、AMR恢复常数与超重核八极裂变WKB。
+  1. MχD八极组态干涉（mxd-octupole-configuration-interference-and-e1-networks.md，工件 mxd-octupole-interference/）：2qp/4qp相干E1路径在八极软势面上产生增强/相消，ΣB(M1)/ΣB(E2)显著非恒定，保持synthetic toy边界；
+  2. AMR微观四极恢复常数（amr-microscopic-quadrupole-shears-restoring-constant.md，工件 amr-restoring-constant/）：条件推导C_AMR=2C_MR，χ2反演仅作模型proxy；
+  3. 超重核八极裂变WKB（superheavy-octupole-fission-barrier-lowering-and-halflife.md，工件 superheavy-octupole-fission-barrier/）：254No/256Rf toy势垒降低1.134/1.445 MeV，Δlog10(Tsf)=-2.456/-3.760，明确缺少目标核直接定量证据；
+  4. 门禁：前述三页已补齐法定schema章节；全库lint保持0 error，boundary ok，diff-check clean。

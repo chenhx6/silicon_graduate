@@ -1,0 +1,117 @@
+{
+  "model": "equal-weight quadrupole P2 pair-channel curvature",
+  "q_p_eb": 1.0,
+  "q_n_eb": 1.0,
+  "C_MR": "(3/2) chi2 q_p q_n",
+  "C_AMR": "3 chi2 q_p q_n",
+  "ratio": 2.0,
+  "raw_channel_count_ratio": 2.0,
+  "data_basis": "Roy 2011 Table 1 and Rather 2014 Table I as transcribed in existing Wiki note",
+  "proxy_definition": "C_proxy=0.5/(J2*theta_ref^2), theta_ref=0.5 rad; model-dependent",
+  "rows": [
+    {
+      "nucleus": "110Cd",
+      "I": 16,
+      "Egamma_keV": 1075,
+      "B_E2_e2b2": 0.14,
+      "J2_hbar2_per_MeV": null,
+      "C_proxy_MeV": null,
+      "chi2_proxy_MeV_per_eb2": null
+    },
+    {
+      "nucleus": "110Cd",
+      "I": 18,
+      "Egamma_keV": 1224,
+      "B_E2_e2b2": 0.12,
+      "J2_hbar2_per_MeV": 16.129032258064516,
+      "C_proxy_MeV": 0.124,
+      "chi2_proxy_MeV_per_eb2": 0.04133333333333333
+    },
+    {
+      "nucleus": "110Cd",
+      "I": 20,
+      "Egamma_keV": 1323,
+      "B_E2_e2b2": 0.11,
+      "J2_hbar2_per_MeV": 44.44444444444444,
+      "C_proxy_MeV": 0.045,
+      "chi2_proxy_MeV_per_eb2": 0.015
+    },
+    {
+      "nucleus": "110Cd",
+      "I": 22,
+      "Egamma_keV": 1314,
+      "B_E2_e2b2": 0.09,
+      "J2_hbar2_per_MeV": 114.28571428571429,
+      "C_proxy_MeV": 0.017499999999999998,
+      "chi2_proxy_MeV_per_eb2": 0.005833333333333333
+    },
+    {
+      "nucleus": "110Cd",
+      "I": 24,
+      "Egamma_keV": 1358,
+      "B_E2_e2b2": 0.06,
+      "J2_hbar2_per_MeV": null,
+      "C_proxy_MeV": null,
+      "chi2_proxy_MeV_per_eb2": null
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 16,
+      "Egamma_keV": 927,
+      "B_E2_e2b2": 0.26,
+      "J2_hbar2_per_MeV": null,
+      "C_proxy_MeV": null,
+      "chi2_proxy_MeV_per_eb2": null
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 18,
+      "Egamma_keV": 1064,
+      "B_E2_e2b2": 0.22,
+      "J2_hbar2_per_MeV": 15.037593984962406,
+      "C_proxy_MeV": 0.133,
+      "chi2_proxy_MeV_per_eb2": 0.044333333333333336
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 20,
+      "Egamma_keV": 1193,
+      "B_E2_e2b2": 0.19,
+      "J2_hbar2_per_MeV": 20.833333333333332,
+      "C_proxy_MeV": 0.096,
+      "chi2_proxy_MeV_per_eb2": 0.032
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 22,
+      "Egamma_keV": 1256,
+      "B_E2_e2b2": 0.13,
+      "J2_hbar2_per_MeV": 23.25581395348837,
+      "C_proxy_MeV": 0.08600000000000001,
+      "chi2_proxy_MeV_per_eb2": 0.02866666666666667
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 24,
+      "Egamma_keV": 1365,
+      "B_E2_e2b2": 0.07,
+      "J2_hbar2_per_MeV": 18.867924528301888,
+      "C_proxy_MeV": 0.106,
+      "chi2_proxy_MeV_per_eb2": 0.035333333333333335
+    },
+    {
+      "nucleus": "104Pd",
+      "I": 26,
+      "Egamma_keV": 1468,
+      "B_E2_e2b2": 0.02,
+      "J2_hbar2_per_MeV": null,
+      "C_proxy_MeV": null,
+      "chi2_proxy_MeV_per_eb2": null
+    }
+  ],
+  "boundary": [
+    "The factor two assumes equal blade weights and the exchange-even collective coordinate.",
+    "chi2_proxy is a curvature proxy, not a unique fit to experimental J2.",
+    "110Cd negative centered finite difference is retained as null rather than forced positive."
+  ]
+}

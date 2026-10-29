@@ -1,0 +1,25 @@
+{
+  "ngrid": 4001,
+  "nuclei": [
+    {
+      "name": "254No",
+      "z": 102,
+      "n": 152,
+      "barrier": 6.2,
+      "octupole_softening": 23.0,
+      "q_center": 0.7,
+      "q_width": 0.18,
+      "mass_scale": 1.0
+    },
+    {
+      "name": "256Rf",
+      "z": 104,
+      "n": 152,
+      "barrier": 6.55,
+      "octupole_softening": 26.0,
+      "q_center": 0.72,
+      "q_width": 0.18,
+      "mass_scale": 1.04
+    }
+  ]
+}

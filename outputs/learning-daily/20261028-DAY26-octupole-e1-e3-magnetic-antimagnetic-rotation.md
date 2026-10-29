@@ -174,6 +174,12 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 85. **140–150Ba 双声子八极多重态的非简谐分裂、Pauli/4p–4h 淬灭与库仑激发抑制**（checkpoint 120，[[ba-isotopes-two-phonon-octupole-anharmonicity-and-coulex-suppression]]，工件 `ba-two-phonon-octupole/`）：量化泡利不相容原理与 4p-4h 相互作用对理想玻色子二倍增强的压低，证明 $Q_B$ 从 $0.685$ 跌至 $0.288$，理论两步库仑激发相消干涉使布居因子剧降至 $0.018$，自洽解释直接多步库激未见高能双声子退激光子的物理根源；
 86. **奇奇核 Chiral-AMR 四叶片 3D-TAC 非共面拓扑分岔**（checkpoint 120，[[chiral-amr-four-blade-3dtac-topological-bifurcation]]，工件 `chiral-amr-3dtac/`）：建立中间轴推转分量 $\omega_m$ 驱动的四叶片 3D-TAC 模型，揭示在临界频率 $\omega_m \approx 0.51\text{ MeV}$ 处系统发生自发 pitchfork 拓扑分岔，激发出出平面镜像手征极小（$\phi = \pm 20.5^\circ, |\chi_g| = 351.33$），诱发非零带内 $M1$ 跃迁与伙伴能级劈裂，阐明 $^{106}\text{Ag}$ 与 $^{106}\text{Cd}$ 的不同转动模式本质。
 
+### Checkpoint 121 MχD组态干涉、AMR恢复常数与超重核八极裂变WKB
+
+87. **多重手征双重带与八极形变共存的微观组态干涉**（checkpoint 121，[[mxd-octupole-configuration-interference-and-e1-networks]]，工件 `mxd-octupole-interference/`）：构建 2qp/4qp 八带有效模型，证明八极软势面上的相干 E1 路径可以增强或相消；模型扫描中 `ΣB(M1)/ΣB(E2)` 依自旋与 β3 显著变化，所有数值明确标为 synthetic toy model，不冒充 78Br 或 134Pr 实验拟合；
+88. **AMR 微观四极恢复常数与 MR 对比**（checkpoint 121，[[amr-microscopic-quadrupole-shears-restoring-constant]]，工件 `amr-restoring-constant/`）：从粒子—空穴四极—四极相互作用推导条件关系 $C_{\\mathrm{MR}}=\\frac32\\chi_2q_pq_n$、$C_{\\mathrm{AMR}}=3\\chi_2q_pq_n=2C_{\\mathrm{MR}}$；明确二倍硬化依赖等权双叶、交换偶投影与统一角坐标，$\\chi_2$ 反演仅作模型 proxy；
+89. **超重核八极裂变势垒降低与自发裂变半衰期调控**（checkpoint 121，[[superheavy-octupole-fission-barrier-lowering-and-halflife]]，工件 `superheavy-octupole-fission-barrier/`）：以参数化 WKB 对比 254No 与 256Rf 的反射对称/八极路径，得到势垒降低分别 1.134 与 1.445 MeV、$\\Delta\\log_{10}T_{\\mathrm{sf}}=-2.456$ 与 −3.760；结果严格标为 toy 模型，不能替代自洽 EDF/ATDHFB 或目标核直接数据。
+
 5. **110Cd 动态惯量与跃迁比 J(2)/B(E2) 离散微商定域鲁棒性**（工件 `cd110-j2-centering-sensitivity-057.py/json`）：系统评估跃迁对齐（Definition A）与能级中心内插（Definition B）两种微商方案，证实无论是初态对齐（$115.7 - 341.3\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$）还是中心内插（$108.3 - 328.8$），该比值均牢固高出常规集体转动（$15 - 40$）达 4 到 10 倍，证实 AMR 判据比不受离散求导约定的影响；
 6. **有限 j 量子剪刀 Racah 6j 严格矩阵元与端点零点强度**（工件 `quantum-shears-6j-racah-model-058.py/json`）：采用角动量代数严格重耦合公式，以 $^{135}\text{Pr}$ 3qp 态（$j_p=5.5, j_n=10.0$）为例逐点核算，证明半经典 Macchiavelli 公式在自旋接近终止端点时高估衰减速率，并在端点 $I_{\text{max}} = j_p + j_n = 15.5$ 虚假归零；而精确量子代数证实非对易角动量零点涨落保留高达 $B(M1)_{\text{quant}} = 1.7081\ \mu_N^2$ 的非零跃迁强度；
 7. **135Pr 813.3 keV 混合比 delta(E2/M1) 与 M1 纯度定界**（工件 `pr135-mixing-ratio-polarization-bounds-059.py/json`）：结合 Compton 散射探测灵敏度 $Q \approx 0.22$，修正后的微弱偏振不对称度 $P = +0.04(3)$ 与 $R_{\text{DCO}} = 0.98(5)$ 严格限制了多极混合比 $\delta(E2/M1) \in [0.10, 0.19]$；由此定量导出其磁偶极辐射分支纯度高达 $M1_{\text{frac}} \ge 96.5\%$（电四极混杂 $< 3.5\%$），彻底澄清了勘误中的“$M1+E2$ 混合”仅为弱混杂，绝不削弱磁转动剪刀辐射由 M1 主导的物理图景；
@@ -531,6 +537,39 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
         {
           "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
           "locator": "F01-4-9"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/mxd-octupole-configuration-interference-and-e1-networks.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "MχD与八极软势面中2qp/4qp组态干涉对E1网络和MR比值的条件性影响。",
+      "sources": [
+        {
+          "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+          "locator": "L16-5-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/amr-microscopic-quadrupole-shears-restoring-constant.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "四极—四极残余相互作用下AMR恢复常数与MR的条件二倍关系及模型依赖反演边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
+          "locator": "RO11-D26C-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/superheavy-octupole-fission-barrier-lowering-and-halflife.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "254No/256Rf八极裂变路径的参数化WKB势垒降低与半衰期变化，明确toy模型边界。",
+      "sources": [
+        {
+          "path": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+          "locator": "BN96-D26-001"
         }
       ]
     }

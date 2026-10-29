@@ -13,6 +13,7 @@ updated: 2026-10-28
 
 - [[sd-mr-dual-well-coexistence-pb190-boundary]] — A≈190 铅区 193/196Pb 同核 SD/MR 共存、SD 四极矩与 MR 剪刀证据边界；含可复现双阱尺度模型。
 - [[amr-cline-quadrupole-invariants-and-triaxial-core-evolution]] — 反磁转动能带中电四极 Cline 旋转不变量重构与有效三轴核芯演化；含110Cd/104Pd完全矩阵元网络、求和截断误差与可复现工件。
+- [[amr-microscopic-quadrupole-shears-restoring-constant]] — 从粒子—空穴四极残余作用推导等权四叶片 AMR 的条件恢复常数 `C_AMR=2C_MR`，并用110Cd/104Pd `J^(2)` 给出带边界的 `chi_2` 曲率代理。
 - [[amr-vpinu-neutron-number-core-polarization-audit]] — 同N的104Pd/106Cd Vπν归一、核芯极化与中子数演化的条件微观推导。
 - [[mr-amr-band-termination-and-extreme-spin-limits]] — MR/AMR剪刀闭合、固定组态最大自旋、终止附近 (B(M1))/(B(E2))/(J^{(2)}) 与交叉重开判据。
 - [[pohl-1996-107108pd-highspin-metadata]] — 107,108Pd高自旋谱学原件入口；正文未取得。
@@ -996,6 +997,7 @@ updated: 2026-10-28
 - [[triaxial-octupole-signature-inversion-coriolis-boundary]] - 三轴八极粒子—转子模型中的 Coriolis 对齐、宇称轨道混合与旋称反转点漂移；含 130Cs、131Ba、133Ce、225Ra 证据边界及可复现 toy scan。
 
 - [[superheavy-octupole-fission-barrier-and-halflife]] - `Z≈114–126,N≈184` 八极轨道驱动、外裂变鞍点重整化、第三势阱可行性与 toy WKB 自发裂变寿命灵敏度；区分外部模型结果与实验边界。
+- [[superheavy-octupole-fission-barrier-lowering-and-halflife]] - `254No/256Rf (N=152)` 二维 `beta2-beta3` toy WKB；第二势垒降低、作用量与 `Delta log10(Tsf)` 的可复现扫描，并明确缺少目标核直接 EDF 证据。
 - [[alpha-clustering-vs-meanfield-octupole-boundary]] - α 团簇分子态与平均场八极形变的算符等价、投影重叠 surrogate、E1/E3 对账与质量区拓扑边界。
 - [[spinhalf-angular-nuisance-response-contract]] - SI实际spin1/2前提的核rest域、末态门/boost反例与A2模块readiness。
 - [[lifetime-strength-audit-165tm-136nd]] - DSAM寿命/强度/Qt几何及feeding/stopping预算分层；Day17内无学分Day18知识。
@@ -1180,6 +1182,8 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[rather-2014-104pd-antimagnetic-arxiv-full]]
 
 - [[amr-j2-dynamic-inertia-endpoint-audit]]
+
+- [[mxd-octupole-configuration-interference-and-e1-networks]] — 2qp/4qp 有效八带模型、八极软势面上的 E1 组态相消/增强，以及非简谐 B(M1)/B(E2) 扫描；78Br/134Pr 证据边界。
 
 - [[amr-critical-frequency-and-landau-damping]] — 四剪刀闭合临界频率、核芯惯量与中子角动量的条件推导；RPA/朗道阻尼与两声子剪刀示意；Cd/Pd系统学证据边界。
 

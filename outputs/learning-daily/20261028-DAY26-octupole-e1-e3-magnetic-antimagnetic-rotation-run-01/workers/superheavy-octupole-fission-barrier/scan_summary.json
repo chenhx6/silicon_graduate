@@ -1,0 +1,59 @@
+{
+  "model": "beta2-beta3 toy WKB",
+  "results": [
+    {
+      "nucleus": {
+        "name": "254No",
+        "z": 102,
+        "n": 152,
+        "barrier": 6.2,
+        "octupole_softening": 23.0,
+        "q_center": 0.7,
+        "q_width": 0.18,
+        "mass_scale": 1.0
+      },
+      "grid": {
+        "ngrid": 4001,
+        "e0_mev": 0.8
+      },
+      "mass_scale": 1.0,
+      "barrier_sym_mev": 6.2,
+      "barrier_asym_mev": 5.066429034682026,
+      "barrier_lowering_mev": 1.1335709653179737,
+      "max_beta3": 0.6708203932499369,
+      "action_sym_hbar": 8.199338152516866,
+      "action_asym_hbar": 5.371966503466513,
+      "delta_action_hbar": -2.8273716490503524,
+      "log10_tsf_sym_s": -13.037319909161106,
+      "log10_tsf_asym_s": -15.493143720105635,
+      "delta_log10_tsf": -2.45582381094453
+    },
+    {
+      "nucleus": {
+        "name": "256Rf",
+        "z": 104,
+        "n": 152,
+        "barrier": 6.55,
+        "octupole_softening": 26.0,
+        "q_center": 0.72,
+        "q_width": 0.18,
+        "mass_scale": 1.04
+      },
+      "grid": {
+        "ngrid": 4001,
+        "e0_mev": 0.8
+      },
+      "mass_scale": 1.0,
+      "barrier_sym_mev": 6.55,
+      "barrier_asym_mev": 5.105052365397547,
+      "barrier_lowering_mev": 1.4449476346024532,
+      "max_beta3": 0.724568837309472,
+      "action_sym_hbar": 8.431704945726425,
+      "action_asym_hbar": 4.103016476647464,
+      "delta_action_hbar": -4.328688469078961,
+      "log10_tsf_sym_s": -12.835488677024173,
+      "log10_tsf_asym_s": -16.59533970902263,
+      "delta_log10_tsf": -3.759851031998455
+    }
+  ]
+}
