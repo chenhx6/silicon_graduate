@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "worker": "microscopic-inapplicability-solver",
+  "criteria_evaluated": [
+    {
+      "id": "criterion_1_core_masking",
+      "name": "Core Quadrupole Collective Masking Limit",
+      "threshold": "beta2 > 0.25 leads to R_E2 > 50, completely masking shears M1/E2 dynamics",
+      "artifact": "core_quadrupole_masking.json"
+    },
+    {
+      "id": "criterion_2_shears_asymmetry",
+      "name": "Particle-Hole Shears Asymmetry and Pairing Breakdown",
+      "threshold": "Delta_j = |jp - jn|/(jp + jn) <= 0.35 and Delta/V_pn <= 3.5 for stable shears",
+      "artifact": "particle_hole_asymmetry.json"
+    },
+    {
+      "id": "criterion_3_wobbling_damping",
+      "name": "Anharmonic Wobbling Phonon Damping",
+      "threshold": "sigma_gamma / gamma0 > 0.65 leads to Gamma/omega > 0.50 (overdamped wobbling)",
+      "artifact": "anharmonic_wobbling_damping.json"
+    },
+    {
+      "id": "criterion_4_dipole_cancellation",
+      "name": "Proton-Neutron Octupole Dipole Cancellation Boundary",
+      "threshold": "Exact cancellation (|D0| < 0.08 e*fm) strictly confined to Z~54-58, N~86-90 (Ba-Sm)",
+      "artifact": "octupole_dipole_cancellation.json"
+    },
+    {
+      "id": "criterion_5_phase_topology",
+      "name": "Multimodal Coexistence and Phase Boundary Topology",
+      "regimes_mapped": {
+        "MR_exclusive": 90,
+        "AMR_exclusive": 0,
+        "Chiral_exclusive": 0,
+        "Wobbling_exclusive": 218,
+        "Chiral_Wobbling_coexistence": 143,
+        "MR_AMR_coexistence": 256,
+        "Conventional_Core_Rotation": 192,
+        "Spherical_Vibrator": 126,
+        "MR_Chirality_overlap": 28,
+        "Chirality_exclusive": 63
+      },
+      "artifact": "phase_boundary_topology.json"
+    }
+  ]
+}

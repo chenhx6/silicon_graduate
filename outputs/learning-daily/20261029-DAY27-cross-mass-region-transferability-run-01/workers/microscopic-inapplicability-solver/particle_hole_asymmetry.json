@@ -1,0 +1,86 @@
+[
+  {
+    "nucleus_region": "198Bi/199Pb (A~190)",
+    "jp": 4.5,
+    "jn": 6.5,
+    "delta_j": 0.1818,
+    "j_min": 2.0,
+    "j_max": 11.0,
+    "shears_spin_capacity": 9.0,
+    "pairing_ratio_Delta_over_Vpn": 2.833,
+    "shears_viable": true,
+    "breakdown_reason": "None (Viable shears)"
+  },
+  {
+    "nucleus_region": "135Pr (A~130)",
+    "jp": 5.5,
+    "jn": 4.5,
+    "delta_j": 0.1,
+    "j_min": 1.0,
+    "j_max": 10.0,
+    "shears_spin_capacity": 9.0,
+    "pairing_ratio_Delta_over_Vpn": 3.0,
+    "shears_viable": true,
+    "breakdown_reason": "None (Viable shears)"
+  },
+  {
+    "nucleus_region": "110Cd AMR (A~100)",
+    "jp": 4.5,
+    "jn": 5.5,
+    "delta_j": 0.1,
+    "j_min": 1.0,
+    "j_max": 10.0,
+    "shears_spin_capacity": 9.0,
+    "pairing_ratio_Delta_over_Vpn": 3.0,
+    "shears_viable": true,
+    "breakdown_reason": "None (Viable shears)"
+  },
+  {
+    "nucleus_region": "78Br (A~80)",
+    "jp": 4.5,
+    "jn": 4.5,
+    "delta_j": 0.0,
+    "j_min": 0.0,
+    "j_max": 9.0,
+    "shears_spin_capacity": 9.0,
+    "pairing_ratio_Delta_over_Vpn": 3.111,
+    "shears_viable": true,
+    "breakdown_reason": "None (Viable shears)"
+  },
+  {
+    "nucleus_region": "165Tm (A~160)",
+    "jp": 3.5,
+    "jn": 6.5,
+    "delta_j": 0.3,
+    "j_min": 3.0,
+    "j_max": 10.0,
+    "shears_spin_capacity": 7.0,
+    "pairing_ratio_Delta_over_Vpn": 3.286,
+    "shears_viable": true,
+    "breakdown_reason": "None (Viable shears)"
+  },
+  {
+    "nucleus_region": "224Ra (A~220)",
+    "jp": 6.5,
+    "jn": 7.5,
+    "delta_j": 0.0714,
+    "j_min": 1.0,
+    "j_max": 14.0,
+    "shears_spin_capacity": 13.0,
+    "pairing_ratio_Delta_over_Vpn": 3.409,
+    "shears_viable": true,
+    "breakdown_reason": "None (Viable shears)"
+  },
+  {
+    "nucleus_region": "Severe Mismatch Model",
+    "jp": 1.5,
+    "jn": 6.5,
+    "delta_j": 0.625,
+    "j_min": 5.0,
+    "j_max": 8.0,
+    "shears_spin_capacity": 3.0,
+    "pairing_ratio_Delta_over_Vpn": 4.4,
+    "shears_viable": false,
+    "breakdown_reason": "Severe asymmetry Delta_j > 0.35"
+  }
+]

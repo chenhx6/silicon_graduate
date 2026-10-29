@@ -4793,3 +4793,9 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   3. 锕系十六极—八极非线性耦合与隧穿宇称劈裂（actinide-hexadecapole-octupole-coupling-and-tunneling-splitting.md，工件 actinide-beta4-octupole/）：证明正十六极形变加深八极双阱势垒，通过 WKB 与数值对角化验证宇称双重态能隙的指数压低；
   4. 手征—八极四重态离散对称性群与电磁跃迁选择定则（chiral-octupole-quadruplet-discrete-symmetries-and-selection-rules.md，工件 chiral-octupole/）：构建 D2 与单纯形代数选择定则，确立交叉双翻转跃迁阶数抑制；
   5. 收束闭环：Day 26 卡片 5 大交付物全通，签发 card-credit-26.json 与 final-session-receipt-26.json，run.json 标记 completed[26]，milestones 累计推进至 26/next27，Day 27 维持无学分预习。门禁：wiki_lint 0 error，boundary ok，diff-check clean.
+- 2026-10-29T18:30:00+08:00 Day27 checkpoint124：跨质量区迁移与机制不适用性边界正式收束与全量交付。
+  1. 完成六大质量区一手谱学与寿命原件对账数据库（cross_mass_accounting.json/.csv），确立 17 核素四层证据分层；
+  2. 完成四大微观失效判据数值形式化与无量纲硬闸门（R_E2 掩盖极限、剪刀不对称与配对崩溃、非简谐声子阻尼、同位旋偶极相消区）；
+  3. 完成五大谱仪系统误差与方法学伪简并破除（极化几何校准偏差、DSAM 阻止本领与慢侧向滞后馈送假象）；
+  4. 新增三篇长期知识笔记并在 knowledge/index.md 同步注册；
+  5. 签发 card-credit-27.json、curriculum-deliverable-audit-27.json 与 final-session-receipt-27.json，里程碑推进至 count=27, next=28；Day 28 作为无学分预习。门禁：wiki_lint 0 error，boundary ok，diff-check clean。

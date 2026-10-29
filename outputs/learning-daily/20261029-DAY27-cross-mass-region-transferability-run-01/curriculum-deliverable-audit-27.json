@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "day_index": 27,
+  "run_id": "2026-10-29-day-27-01",
+  "audit_timestamp": "2026-10-29T18:30:00+08:00",
+  "deliverables": [
+    {
+      "name": "回忆：说出至少三个不能把同一判据直接跨核素迁移的原因",
+      "status": "complete",
+      "evidence_locator": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+      "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/microscopic-inapplicability-solver/README.md"
+    },
+    {
+      "name": "主线：选择 A≈80/100/130/160/190/220 六大质量区中至少四个已有 Wiki 案例，深入研读并对账一手谱学与寿命原件",
+      "status": "complete",
+      "evidence_locator": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+      "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/cross-mass-accounting/cross_mass_accounting.json"
+    },
+    {
+      "name": "练习：建立“机制—observable—装置—证据等级—竞争解释”横向表，至少包含一个测量方法相同但物理解释完全不同的案例",
+      "status": "complete",
+      "evidence_locator": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+      "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/spectrometer-systematics/pseudo_degeneracy_matrix.csv"
+    },
+    {
+      "name": "反证：找一个跨质量区类比会失败的实例，详细记录物理根源与停止理由",
+      "status": "complete",
+      "evidence_locator": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+      "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/microscopic-inapplicability-solver/octupole_dipole_cancellation.json"
+    },
+    {
+      "name": "交付：cross-mass transfer matrix 跨质量区横向矩阵与不适用性判据清单",
+      "status": "complete",
+      "evidence_locator": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+      "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/microscopic-inapplicability-solver/worker-delivery.json"
+    }
+  ]
+}

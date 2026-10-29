@@ -1,0 +1,236 @@
+[
+  {
+    "sigma_gamma_deg": 0.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.0,
+    "anharmonicity_alpha": -0.0,
+    "damping_ratio_Gamma_over_omega": 0.0,
+    "wobbling_survival": true,
+    "regime": "Discrete harmonic wobbling"
+  },
+  {
+    "sigma_gamma_deg": 1.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.05,
+    "anharmonicity_alpha": -0.0075,
+    "damping_ratio_Gamma_over_omega": 0.0038,
+    "wobbling_survival": true,
+    "regime": "Discrete harmonic wobbling"
+  },
+  {
+    "sigma_gamma_deg": 2.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.1,
+    "anharmonicity_alpha": -0.03,
+    "damping_ratio_Gamma_over_omega": 0.015,
+    "wobbling_survival": true,
+    "regime": "Discrete harmonic wobbling"
+  },
+  {
+    "sigma_gamma_deg": 3.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.15,
+    "anharmonicity_alpha": -0.0675,
+    "damping_ratio_Gamma_over_omega": 0.0338,
+    "wobbling_survival": true,
+    "regime": "Discrete harmonic wobbling"
+  },
+  {
+    "sigma_gamma_deg": 4.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.2,
+    "anharmonicity_alpha": -0.12,
+    "damping_ratio_Gamma_over_omega": 0.06,
+    "wobbling_survival": true,
+    "regime": "Discrete harmonic wobbling"
+  },
+  {
+    "sigma_gamma_deg": 5.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.25,
+    "anharmonicity_alpha": -0.1875,
+    "damping_ratio_Gamma_over_omega": 0.0938,
+    "wobbling_survival": true,
+    "regime": "Discrete harmonic wobbling"
+  },
+  {
+    "sigma_gamma_deg": 6.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.3,
+    "anharmonicity_alpha": -0.27,
+    "damping_ratio_Gamma_over_omega": 0.135,
+    "wobbling_survival": true,
+    "regime": "Discrete harmonic wobbling"
+  },
+  {
+    "sigma_gamma_deg": 7.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.35,
+    "anharmonicity_alpha": -0.3675,
+    "damping_ratio_Gamma_over_omega": 0.1837,
+    "wobbling_survival": true,
+    "regime": "Discrete harmonic wobbling"
+  },
+  {
+    "sigma_gamma_deg": 8.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.4,
+    "anharmonicity_alpha": -0.48,
+    "damping_ratio_Gamma_over_omega": 0.24,
+    "wobbling_survival": true,
+    "regime": "Anharmonic damped wobbling"
+  },
+  {
+    "sigma_gamma_deg": 9.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.45,
+    "anharmonicity_alpha": -0.6075,
+    "damping_ratio_Gamma_over_omega": 0.3038,
+    "wobbling_survival": true,
+    "regime": "Anharmonic damped wobbling"
+  },
+  {
+    "sigma_gamma_deg": 10.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.5,
+    "anharmonicity_alpha": -0.75,
+    "damping_ratio_Gamma_over_omega": 0.375,
+    "wobbling_survival": true,
+    "regime": "Anharmonic damped wobbling"
+  },
+  {
+    "sigma_gamma_deg": 11.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.55,
+    "anharmonicity_alpha": -0.9075,
+    "damping_ratio_Gamma_over_omega": 0.4538,
+    "wobbling_survival": true,
+    "regime": "Anharmonic damped wobbling"
+  },
+  {
+    "sigma_gamma_deg": 12.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.6,
+    "anharmonicity_alpha": -1.08,
+    "damping_ratio_Gamma_over_omega": 0.54,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 13.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.65,
+    "anharmonicity_alpha": -1.2675,
+    "damping_ratio_Gamma_over_omega": 0.6338,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 14.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.7,
+    "anharmonicity_alpha": -1.47,
+    "damping_ratio_Gamma_over_omega": 0.735,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 15.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.75,
+    "anharmonicity_alpha": -1.6875,
+    "damping_ratio_Gamma_over_omega": 0.8438,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 16.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.8,
+    "anharmonicity_alpha": -1.92,
+    "damping_ratio_Gamma_over_omega": 0.96,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 17.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.85,
+    "anharmonicity_alpha": -2.1675,
+    "damping_ratio_Gamma_over_omega": 1.0837,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 18.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.9,
+    "anharmonicity_alpha": -2.43,
+    "damping_ratio_Gamma_over_omega": 1.215,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 19.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 0.95,
+    "anharmonicity_alpha": -2.7075,
+    "damping_ratio_Gamma_over_omega": 1.3538,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 20.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 1.0,
+    "anharmonicity_alpha": -3.0,
+    "damping_ratio_Gamma_over_omega": 1.5,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 21.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 1.05,
+    "anharmonicity_alpha": -3.3075,
+    "damping_ratio_Gamma_over_omega": 1.6538,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 22.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 1.1,
+    "anharmonicity_alpha": -3.63,
+    "damping_ratio_Gamma_over_omega": 1.815,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 23.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 1.15,
+    "anharmonicity_alpha": -3.9675,
+    "damping_ratio_Gamma_over_omega": 1.9837,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 24.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 1.2,
+    "anharmonicity_alpha": -4.32,
+    "damping_ratio_Gamma_over_omega": 2.16,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  },
+  {
+    "sigma_gamma_deg": 25.0,
+    "gamma0_deg": 20.0,
+    "softness_ratio_sigma_over_gamma0": 1.25,
+    "anharmonicity_alpha": -4.6875,
+    "damping_ratio_Gamma_over_omega": 2.3438,
+    "wobbling_survival": false,
+    "regime": "Overdamped / Quasiparticle-core mixing"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "worker_id": "cross-mass-accounting",
+  "worker_name": "Cross-Mass-Region Primary Spectroscopy and Lifetime Accounting Worker",
+  "day_index": 27,
+  "date": "2026-10-29",
+  "status": "completed",
+  "directory": "/workspace/wiki/outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/cross-mass-accounting",
+  "artifacts_produced": [
+    "cross_mass_accounting_builder.py",
+    "cross_mass_accounting.json",
+    "cross_mass_accounting.csv",
+    "README.md",
+    "worker-delivery.json"
+  ],
+  "mass_regions_covered": [
+    {
+      "region": "A~80",
+      "nuclei": ["78Br", "74As"],
+      "mechanisms": ["Multiple chiral doublet bands (MchiD)", "Dynamic octupole correlations / vibrations"],
+      "primary_citations": ["Liu et al., PRL 116, 112501 (2016)", "Xiao et al., PRC 106, 064302 (2022)"],
+      "experimental_status": "Interband E1 transitions confirmed via DCO and Compton linear polarization; lifetime gap identified (no DSAM/RDDS lifetimes measured)"
+    },
+    {
+      "region": "A~100",
+      "nuclei": ["104Pd", "110Cd"],
+      "mechanisms": ["Antimagnetic rotation (AMR double shears)", "AMR coupled with core rotation", "Spherical vibrator to shears transition"],
+      "primary_citations": ["Rather et al., PRC 89, 061303(R) (2014)", "Roy et al., PLB 694, 322 (2011)"],
+      "experimental_status": "DSAM sub-picosecond lifetimes measured; B(E2) plunging by factor of 13 in 104Pd and factor of 2.3 in 110Cd; J(2)/B(E2) divergence confirmed"
+    },
+    {
+      "region": "A~130",
+      "nuclei": ["135Pr", "131Ce", "134Pr"],
+      "mechanisms": ["Magnetic rotation shears band (wobbling falsified)", "Triaxial collective rotor", "Static nuclear chirality vs unobserved feeding artifact"],
+      "primary_citations": [
+        "Lv et al., PRL 128, 242503 (2022)",
+        "Singh et al., PRC 94, 054308 (2016)",
+        "Lieder et al., PRL 112, 202502 (2014)"
+      ],
+      "experimental_status": "Definitive Compton polarimetry in 135Pr falsified wobbling (delta=-0.19, 96.5% M1); RDDS with strict coincidence gating resolved 134Pr chiral lifetime discrepancy; 131Ce RDDS proved triaxial deformation"
+    },
+    {
+      "region": "A~160",
+      "nuclei": ["163Lu", "161Lu", "160Dy"],
+      "mechanisms": ["Transverse wobbling in triaxial superdeformed core (one-phonon and two-phonon)", "Wobbling candidate without electromagnetic proof", "Rigid prolate collective rotor benchmark"],
+      "primary_citations": [
+        "Ødegård et al., PRL 86, 5866 (2001)",
+        "Bringel et al., EPJ A 24, 167 (2005)",
+        "Raman et al., ADNDT 78, 1 (2001)"
+      ],
+      "experimental_status": "163Lu established as gold-standard wobbler (delta=-3.10, 90.6% E2, Qt=10.7 eb, nw=2 state TSD3 observed); 161Lu serves as candidate with unmeasured lifetimes; 160Dy serves as prolate rotor control"
+    },
+    {
+      "region": "A~190",
+      "nuclei": ["199Pb", "197Pb", "198Bi"],
+      "mechanisms": ["Magnetic rotation (classic planar shears)", "Shears band crossing with blade reopening", "Odd-odd shears band on spherical Pb core"],
+      "primary_citations": [
+        "Clark et al., PRL 78, 1868 (1997)",
+        "Moore et al., PRC 63, 024303 (2001)",
+        "Clark et al., PRC 50, 84 (1994)"
+      ],
+      "experimental_status": "DSAM lifetimes in 199Pb prove 5-fold monotonic B(M1) plunge; 197Pb demonstrates B(M1) jump at band crossing due to i13/2 neutron pair alignment; 198Bi shows odd-odd shears"
+    },
+    {
+      "region": "A~220",
+      "nuclei": ["224Ra", "226Th", "144Ba", "146Ba"],
+      "mechanisms": ["Permanent reflection-asymmetric octupole deformation (stable pear shape)", "Isovector dipole cancellation in neutron-rich barium"],
+      "primary_citations": [
+        "Gaffney et al., Nature 497, 199 (2013)",
+        "Butler et al., PRL 124, 042503 (2020)",
+        "Bucher et al., PRL 116, 112503 (2016)",
+        "Bucher et al., PRL 118, 152504 (2017)"
+      ],
+      "experimental_status": "Radioactive beam Coulex (GOSIA) confirms massive direct B(E3) ~ 40-50 W.u. in 224Ra, 144Ba, 146Ba; 146Ba exhibits 21-fold E1 suppression due to exact droplet vs shell cancellation"
+    }
+  ],
+  "total_records": 17,
+  "key_findings": [
+    "Core Quadrupole Deformation Masking Limit: MR and AMR shears bands cannot form in nuclei with beta2 > 0.25 (e.g., 160Dy) because massive collective core rotation overwhelms particle shears torque.",
+    "Isovector Dipole Cancellation: E1 transition strength cannot serve as an octupole proxy across isotopes; 144Ba and 146Ba share identical B(E3)=48 W.u., but B(E1) in 146Ba is suppressed by a factor of 21 due to destructive droplet-shell interference.",
+    "Multipole Mixing Ratio Branch Ambiguity: Phenotypic energy staggering cannot confirm wobbling; in 135Pr, adopting delta=-1.6 without linear polarization created a false-positive wobbler, disproven by Lv 2022 (delta=-0.19, 96.5% M1 shears band).",
+    "Spherical Vibrator to Shears Breakdown: In 110Cd, the low-spin harmonic quadrupole vibrator abruptly breaks down at I>=16+ into an AMR double shears system, stabilized by core rotation inertia.",
+    "Shears Blade Reopening at Band Crossings: In 197Pb, alignment of additional quasiparticles reopens the shears angle, causing B(M1) to jump non-monotonically, disproving universal monotonic B(M1) decrease."
+  ],
+  "lifetime_techniques_evaluated": [
+    {
+      "technique": "DSAM",
+      "time_range": "10 fs - 1.5 ps",
+      "systematics": "15-20% stopping-power uncertainty envelope; unobserved side-feeding delays; effective lifetime at band termination"
+    },
+    {
+      "technique": "RDDS (Plunger)",
+      "time_range": "0.5 ps - 2 ns",
+      "systematics": "Differential decay curve method (DDCM); extreme sensitivity to unobserved slow side-feeding unless clean coincidence gates from above are used (Tonev vs Lieder 134Pr resolution)"
+    },
+    {
+      "technique": "Coulex (GOSIA)",
+      "time_range": "Sub-barrier electromagnetic excitation of ground and collective states",
+      "systematics": "Model-independent multi-matrix extraction; safe distance criterion; direct separation of E1, E2, E3 matrix elements"
+    }
+  ],
+  "validation_status": {
+    "builder_script": "cross_mass_accounting_builder.py",
+    "exit_code": 0,
+    "records_validated": 17,
+    "csv_row_count": 18,
+    "json_valid": true
+  }
+}

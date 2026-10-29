@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "worker": "spectrometer-systematics",
+  "day_index": 27,
+  "topic": "cross-instrument-systematics-and-methodological-pseudo-degeneracy",
+  "spectrometers_analyzed": [
+    "Gammasphere",
+    "Euroball (III/IV)",
+    "GASP",
+    "JUROGAM (I/II/III)",
+    "AGATA"
+  ],
+  "systematic_error_models": [
+    {
+      "id": "polarimeter_analyzing_power",
+      "formula": "Q(E_gamma) = (alpha + 1) / (alpha^2 + alpha + 1), alpha = E_gamma / m_e c^2",
+      "artifact": "polarimeter_sensitivity.csv"
+    },
+    {
+      "id": "polarization_calibration_bias",
+      "case_study": "135Pr Garg 2015 vs 2019 Erratum (813 keV M1 vs E2 misassignment)",
+      "artifact": "pr135_erratum_case_study.json"
+    },
+    {
+      "id": "stopping_power_lifetime_systematics",
+      "models": "Northcliffe-Schilling (NS) vs Ziegler-Biersack-Littmark (ZBL/SRIM) vs ICRU",
+      "artifact": "stopping_power_lifetime_systematics.csv"
+    },
+    {
+      "id": "side_feeding_delay_simulation",
+      "artifact": "side_feeding_amr_simulation.csv"
+    },
+    {
+      "id": "methodological_pseudo_degeneracy_matrix",
+      "cases": [
+        "Case 1: Large B(M1)/B(E2) dipole bands (MR vs Chirality vs Oblate High-K vs Octupole E1)",
+        "Case 2: Near-degenerate doublet bands (Chiral vs Shape Coexistence vs Signature Partners vs Parity Doublets)",
+        "Case 3: Smoothly decreasing B(E2) with spin (AMR vs Band Termination vs Side-Feeding Delay)"
+      ],
+      "artifact": "pseudo_degeneracy_matrix.csv"
+    }
+  ],
+  "verification": {
+    "script": "spectrometer_systematics_model.py",
+    "exit_code": 0,
+    "boundary_check": "passed",
+    "wiki_lint_errors": 0
+  }
+}

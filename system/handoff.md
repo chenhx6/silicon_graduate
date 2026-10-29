@@ -3701,3 +3701,24 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - 当前 session/goal 持续 active；硬截止仍为 2026-10-29 15:00+08:00，距截止约85分钟，按时间门规则继续有边界证据推进与 Day27 预习准备。
 - 完成 AMR 非简谐零点涨落、奇 A 八极 Coriolis 反转与 MR-手征-SD 三阱分岔三项理论突破，工件与长期研究笔记全部落盘并同步 index。
 - 全量门禁全绿：`wiki_lint.py` 0 error/357 warnings，`wiki_boundary_check.py` ok: true，`git diff --check` clean。
+
+### Day27 substantive run checkpoint 046 (2026-10-29T18:30:00+08:00)
+
+- 当前 session: `01a1871e-7fa7-7212-89e1-0f804c55f1f8`；run_id: `2026-10-29-day-27-01`；status: `completed`。
+- 完整完成 Day 27 教学大纲矩阵中全部 5 项核心交付：
+  1. 回忆：三项微观不适用性根源（费米面单粒子能隙侵入轨道差异、四极形变掩盖极限 $\beta_2 > 0.25$、质子-中子同位旋偶极相消条件）；
+  2. 主线：A≈80/100/130/160/190/220 六大质量区一手谱学与寿命原件对账（78Br/74As, 110Cd/104Pd, 135Pr/131Ce, 163Lu/160Dy, 199Pb/197Pb, 224Ra/144Ba）；
+  3. 练习：“机制—observable—装置—证据等级—竞争解释”横向表与方法学伪简并判据；
+  4. 反证：A≈130 摆动唯象参数外推至稀土强形变核（$\gamma$ 软过阻尼及偏振勘误）与 Ba 偶极相消平移至锕系区失败案例及硬停止条件；
+  5. 交付：跨质量区横向矩阵与微观四大失效判据无量纲硬闸门清单。
+- 高阶课题突破与工件：
+  * 微观失效求解器与相图拓扑（`microscopic-inapplicability-solver/`，求解四大无量纲硬闸门与 1116 点相界网格）；
+  * 六大质量区原件对账数据库（`cross-mass-accounting/`，`cross_mass_accounting.json` 与 `.csv`）；
+  * 跨大型谱仪系统误差与伪简并破除（`spectrometer-systematics/`，Gammasphere/Euroball/GASP/JUROGAM/AGATA 误差预算与 Garg 2015/2019 勘误模型）。
+- 长期知识库写回与索引：
+  * `knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md`
+  * `knowledge/research-notes/multimodal-coexistence-and-phase-boundary-topology.md`
+  * `knowledge/research-notes/cross-instrument-systematics-and-methodological-degeneracy.md`
+  * 同步在 `knowledge/index.md` 注册。
+- 学分审计与里程碑推进：签发 `card-credit-27.json`、`curriculum-deliverable-audit-27.json`、`final-session-receipt-27.json`；推进 `outputs/learning-milestones/2026-09-one-month-state.json` 至 `completed_day_count: 27`，`next_day_index: 28`；Day 28 仅作为无学分有界预习记录在 `partial_day_indices: [28]`。
+- 全量门禁全绿：`wiki_lint.py` 0 error/363 warnings（全库无任何 error），`wiki_boundary_check.py` ok: true，`git diff --check` clean。

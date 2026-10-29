@@ -1203,3 +1203,6 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[wu-2011-pairing-rotation-blocking-pnc]] — 固定粒子数配对关联、旋转与阻塞的原始PNC方法依据。
 
 - [[sheikh-2002-number-projection-pairing-comparison]] — 精确推转壳模型中的HFB/LN/PAV与数投影变分比较。
+- [[cross-mass-transferability-and-mechanism-inapplicability]] — 跨质量区集体运动模式迁移与机制不适用性边界；六大质量区谱学原件对账与四大微观失效判据形式化。
+- [[multimodal-coexistence-and-phase-boundary-topology]] — 核结构多模式共存与相界拓扑；三轴手征、摆动与磁/反磁转动互斥相图与无量纲临界边界。
+- [[cross-instrument-systematics-and-methodological-degeneracy]] — 跨大型伽马谱仪（Gammasphere, Euroball, GASP, JUROGAM, AGATA）实验系统误差与方法学伪简并破除。

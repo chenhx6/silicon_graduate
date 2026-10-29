@@ -1,0 +1,11 @@
+nucleus,Z,N,region,beta2,beta3,D0_macro_efm,D0_shell_efm,D0_net_efm,abs_D0_net_efm,cancellation_ratio,cancellation_regime
+140Ba,56,84,A~140 (Ba),0.14,0.06,0.0454,-0.0551,-0.0097,0.0097,1.213,Near-Complete Cancellation (|D0| < 0.08 e*fm)
+144Ba,56,88,A~144 (Ba),0.18,0.11,0.1102,-0.22,-0.1098,0.1098,1.997,Partial Cancellation
+146Ba,56,90,A~146 (Ba),0.2,0.1,0.1128,-0.1642,-0.0514,0.0514,1.455,Near-Complete Cancellation (|D0| < 0.08 e*fm)
+148Nd,60,88,A~148 (Nd),0.2,0.12,0.1471,-0.2157,-0.0687,0.0687,1.467,Near-Complete Cancellation (|D0| < 0.08 e*fm)
+150Sm,62,88,A~150 (Sm),0.22,0.13,0.1835,-0.2136,-0.03,0.03,1.164,Near-Complete Cancellation (|D0| < 0.08 e*fm)
+220Rn,86,134,A~220 (Rn),0.12,0.08,0.1253,0.1507,0.276,0.276,1.202,In-Phase Additive Enhancement (|D0| > 0.25 e*fm)
+224Ra,88,136,A~224 (Ra),0.16,0.13,0.2829,0.16,0.4429,0.4429,0.566,In-Phase Additive Enhancement (|D0| > 0.25 e*fm)
+226Ra,88,138,A~226 (Ra),0.18,0.11,0.2717,0.1529,0.4247,0.4247,0.563,In-Phase Additive Enhancement (|D0| > 0.25 e*fm)
+226Th,90,136,A~226 (Th),0.17,0.14,0.334,0.1623,0.4963,0.4963,0.486,In-Phase Additive Enhancement (|D0| > 0.25 e*fm)
+228Th,90,138,A~228 (Th),0.2,0.12,0.3398,0.1552,0.495,0.495,0.457,In-Phase Additive Enhancement (|D0| > 0.25 e*fm)

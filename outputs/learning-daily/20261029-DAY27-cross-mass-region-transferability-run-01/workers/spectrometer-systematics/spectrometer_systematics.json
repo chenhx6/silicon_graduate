@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "title": "Cross-Instrument Experimental Systematics and Methodological Pseudo-Degeneracy Analysis",
+    "day": 27,
+    "spectrometers_evaluated": [
+      "Gammasphere",
+      "Euroball (III/IV)",
+      "GASP",
+      "JUROGAM (I/II/III)",
+      "AGATA"
+    ],
+    "timestamp": "2026-10-29",
+    "status": "complete"
+  },
+  "spectrometer_specifications": [
+    {
+      "spectrometer": "Gammasphere",
+      "detectors_and_geometry": "110 Compton-suppressed HPGe detectors in 4pi spherical geometry; 71-element BGO suppression shields",
+      "photopeak_eff_1332kev_pct": 9.5,
+      "peak_to_total_ratio": 0.59,
+      "energy_res_1332kev_kev": 2.1,
+      "polarimetry_method": "Two-fold planar segmented Ge crystals & inter-detector scattering; Q(662keV) ~ 0.13",
+      "dsam_rdds_features": "37 angular rings; centroid shifts & forward/backward lineshape fitting; recoil v/c ~ 1-5%",
+      "systematic_error_budget_pct": "10-15% (stopping powers, planar segmentation cross-talk)",
+      "key_limitations": "Lower polarimeter analyzing power Q; susceptibility to detector cross-talk; Doppler broadening at v/c > 5%"
+    },
+    {
+      "spectrometer": "Euroball (III/IV)",
+      "detectors_and_geometry": "Composite array: 30 Single HPGe, 26 Clover HPGe (4-fold), 15 Cluster HPGe (7-fold); 239 total Ge crystals",
+      "photopeak_eff_1332kev_pct": 9.8,
+      "peak_to_total_ratio": 0.58,
+      "energy_res_1332kev_kev": 2.2,
+      "polarimetry_method": "Intrinsic 4-crystal Clover polarimetry (inter-crystal scattering at 90 deg); Q(662keV) ~ 0.22",
+      "dsam_rdds_features": "K\u00f6ln coincidence plunger integration; DDCM analysis with gates from above; recoil v/c ~ 1-4%",
+      "systematic_error_budget_pct": "6-10% (geometry efficiency calibration a(E), plunger distance precision ~ 0.2 um)",
+      "key_limitations": "Energy-dependent Clover geometric asymmetry a(E) must be calibrated; Cluster add-back Doppler smearing"
+    },
+    {
+      "spectrometer": "GASP",
+      "detectors_and_geometry": "40 Compton-suppressed HPGe detectors + 80-element BGO inner ball (multiplicity & sum-energy filter)",
+      "photopeak_eff_1332kev_pct": 3.0,
+      "peak_to_total_ratio": 0.6,
+      "energy_res_1332kev_kev": 2.3,
+      "polarimetry_method": "Selected 90 deg detector pair scattering (limited polarimetry coverage; Q ~ 0.12)",
+      "dsam_rdds_features": "DSAM centroid shift and lineshape; inner ball provides entry-state spin/energy gating",
+      "systematic_error_budget_pct": "12-18% (moderate solid angle, lower photopeak efficiency)",
+      "key_limitations": "Efficiency limited for high-fold coincidence (gamma^3, gamma^4); polarimetry requires dedicated setup"
+    },
+    {
+      "spectrometer": "JUROGAM (I/II/III)",
+      "detectors_and_geometry": "JUROGAM II: 24 Clover detectors + 15 Eurogam tapered Ge; coupled to RITU gas-filled separator + GREAT focal plane",
+      "photopeak_eff_1332kev_pct": 5.7,
+      "peak_to_total_ratio": 0.55,
+      "energy_res_1332kev_kev": 2.2,
+      "polarimetry_method": "Clover Compton polarimetry (high statistics at 90 deg); Q(662keV) ~ 0.22",
+      "dsam_rdds_features": "DPUNS (Derby-Pin plunger) coupled to RITU/JUROGAM for RDDS in very neutron-deficient nuclei",
+      "systematic_error_budget_pct": "5-8% (RITU recoil velocity distribution ~ 10%, recoil-decay tagging provides clean gating)",
+      "key_limitations": "Recoil transmission in RITU helium gas (~50%); Doppler correction relies on average recoil angle"
+    },
+    {
+      "spectrometer": "AGATA",
+      "detectors_and_geometry": "4pi tracking array; 36-fold electrically segmented encapsulated HPGe crystals in triple cryostats; NO BGO shields",
+      "photopeak_eff_1332kev_pct": 35.0,
+      "peak_to_total_ratio": 0.65,
+      "energy_res_1332kev_kev": 2.0,
+      "polarimetry_method": "Gamma-ray tracking polarimetry (PSA + Klein-Nishina tracking); angular selection 70-110 deg; Q(662keV) ~ 0.42",
+      "dsam_rdds_features": "Point-by-point PSA Doppler correction (spatial resolution ~ 2-4 mm); enables v/c = 10-50% with FWHM < 4 keV",
+      "systematic_error_budget_pct": "3-5% (PSA voxel smearing, tracking cluster reconstruction threshold ~ 15 mm)",
+      "key_limitations": "High computing load for online PSA; sensitivity to crystal temperature/crosstalk; tracking algorithm efficiency at low E"
+    }
+  ],
+  "polarimetry_models": {
+    "formula_klein_nishina_point": "Q0(E, 90 deg) = (1 + alpha) / (1 + alpha + alpha^2), where alpha = E_gamma / 511 keV",
+    "formula_gammasphere": "Q_GS(E) = 140.0 / (E_gamma + 400.0)",
+    "formula_clover": "Q_Clover(E) = 220.0 / (E_gamma + 350.0)",
+    "formula_agata_tracking": "Q_AGATA(E) = 480.0 / (E_gamma + 500.0) [with PSA 70\u00b0-110\u00b0 gate]",
+    "energy_benchmark_kev": [
+      100,
+      300,
+      500,
+      800,
+      1332,
+      2000
+    ],
+    "benchmark_results": [
+      {
+        "energy_kev": 100,
+        "point_q0": 0.9689653995239293,
+        "clover_q": 0.4888888888888889,
+        "agata_q": 0.8
+      },
+      {
+        "energy_kev": 300,
+        "point_q0": 0.8215776107656105,
+        "clover_q": 0.3384615384615385,
+        "agata_q": 0.6
+      },
+      {
+        "energy_kev": 500,
+        "point_q0": 0.6738936188807769,
+        "clover_q": 0.25882352941176473,
+        "agata_q": 0.48
+      },
+      {
+        "energy_kev": 800,
+        "point_q0": 0.5114209177500016,
+        "clover_q": 0.19130434782608696,
+        "agata_q": 0.36923076923076925
+      },
+      {
+        "energy_kev": 1332,
+        "point_q0": 0.3467503830085233,
+        "clover_q": 0.13079667063020214,
+        "agata_q": 0.26200873362445415
+      },
+      {
+        "energy_kev": 2000,
+        "point_q0": 0.24287177976805763,
+        "clover_q": 0.09361702127659574,
+        "agata_q": 0.192
+      }
+    ]
+  },
+  "pr135_case_study": {
+    "context": "135Pr controversy: Wobbling (Matta 2015 GS) vs Magnetic Rotation (Garg 2015 INGA) vs Tilted Precession (Lv 2022 JUROGAM II)",
+    "erratum_details": "Garg et al., PRC 100, 069901(E) (2019) corrected geometric asymmetry factor a(E) = 1.01229 + 1.17083e-6 * E_gamma",
+    "findings": [
+      {
+        "energy_kev": 813.3,
+        "correction_factor_a": 1.01324,
+        "clover_q": 0.1891,
+        "asymmetry_2015": -0.2,
+        "asymmetry_2015_sigma": 0.08,
+        "p_polarization_2015": -1.058,
+        "asymmetry_2019": 0.04,
+        "asymmetry_2019_sigma": 0.03,
+        "p_polarization_2019": 0.212,
+        "delta_asymmetry": 0.24,
+        "assignment_2015": "Pure M1 (MR)",
+        "assignment_2019": "Mixed M1+E2",
+        "lv2022_delta": -0.37,
+        "lv2022_m1_fraction_pct": 88.0
+      },
+      {
+        "energy_kev": 747.5,
+        "correction_factor_a": 1.01317,
+        "clover_q": 0.2005,
+        "asymmetry_2015": 0.02,
+        "asymmetry_2015_sigma": 0.05,
+        "p_polarization_2015": 0.1,
+        "asymmetry_2019": 0.07,
+        "asymmetry_2019_sigma": 0.03,
+        "p_polarization_2019": 0.349,
+        "delta_asymmetry": 0.05,
+        "assignment_2015": "Mixed M1+E2",
+        "assignment_2019": "Mixed M1+E2",
+        "lv2022_delta": -0.47,
+        "lv2022_m1_fraction_pct": 82.0
+      }
+    ],
+    "methodological_lesson": "A small calibration shift in detector efficiency ratio (delta_a ~ 1-2%) changes asymmetry by ~0.24, completely flipping multipolarity assignments when analyzing power Q is modest. Joint P - R_ac analysis (Lv 2022) is required to eliminate dual-solution chi^2 ambiguities."
+  },
+  "stopping_power_systematics": {
+    "models_compared": "Northcliffe-Schilling (NS 1970) vs Ziegler-Biersack-Littmark (ZBL/SRIM 1985/2010)",
+    "mean_discrepancy_pct": 13.6,
+    "impact_on_lifetime_tau": "+12% to +18% systematic overestimate under NS",
+    "impact_on_b_e2": "-12% to -18% systematic underestimate under NS",
+    "impact_on_q_t": "-6% to -9% systematic underestimate under NS",
+    "ratio_bm1_over_be2_invariance": "Strictly invariant under stopping power scale (tau cancels exactly)",
+    "sample_results": [
+      {
+        "nucleus": "135Pr",
+        "backing": "197Au",
+        "v0_c_pct": 1.8,
+        "tau_true_ps": 0.1,
+        "f_centroid": 0.9167,
+        "tau_ns_extracted_ps": 0.1136,
+        "delta_tau_pct": 13.64,
+        "delta_be2_pct": -12.0,
+        "delta_qt_pct": -6.19
+      },
+      {
+        "nucleus": "135Pr",
+        "backing": "197Au",
+        "v0_c_pct": 1.8,
+        "tau_true_ps": 0.25,
+        "f_centroid": 0.8148,
+        "tau_ns_extracted_ps": 0.2841,
+        "delta_tau_pct": 13.64,
+        "delta_be2_pct": -12.0,
+        "delta_qt_pct": -6.19
+      },
+      {
+        "nucleus": "135Pr",
+        "backing": "197Au",
+        "v0_c_pct": 1.8,
+        "tau_true_ps": 0.5,
+        "f_centroid": 0.6875,
+        "tau_ns_extracted_ps": 0.5682,
+        "delta_tau_pct": 13.64,
+        "delta_be2_pct": -12.0,
+        "delta_qt_pct": -6.19
+      },
+      {
+        "nucleus": "135Pr",
+        "backing": "197Au",
+        "v0_c_pct": 1.8,
+        "tau_true_ps": 1.0,
+        "f_centroid": 0.5238,
+        "tau_ns_extracted_ps": 1.1364,
+        "delta_tau_pct": 13.64,
+        "delta_be2_pct": -12.0,
+        "delta_qt_pct": -6.19
+      }
+    ]
+  },
+  "side_feeding_trap": {
+    "mechanism": "Unmodeled delayed side feeding (tau_sf ~ 50-100 fs) in DSAM artificially inflates deduced lifetimes of top band states",
+    "simulated_trend": "Simulated apparent B(E2) drops by a factor of 2.5 between I=16 and I=26 even though intrinsic Qt is completely constant",
+    "pseudo_degeneracy_risk": "Falsely mimics Antimagnetic Rotation (AMR) or Band Termination",
+    "remedy": "Coincidence-gated RDDS (plunger) using DDCM with feeding gate from above completely bypasses side feeding"
+  },
+  "pseudo_degeneracy_matrix": [
+    {
+      "case_id": "Case 1",
+      "phenomenon": "Dipole bands with large B(M1)/B(E2) ratios (> 10 mu_N^2 / e^2 b^2)",
+      "candidate_mechanism": "Magnetic Rotation (Shears Mechanism)",
+      "intrinsic_physics": "Perpendicular coupling of high-j proton particles and neutron holes; shears angle theta_s closes with spin",
+      "diagnostic_signatures": "B(M1) drops smoothly ~ sin^2(theta_s); B(E2) very small (0.01-0.1 e^2 b^2); parabolic B(M1)/B(E2); J(2)/B(E2) > 100 hbar^2/MeV (e^2 b^2)^-1",
+      "pseudo_degenerate_mimics": "Chiral doublets, Strongly coupled oblate high-K bands, Octupole E1 bands",
+      "critical_discriminant": "Negative polarization P < 0 (confirms M1); lack of degenerate partner; J(2)/B(E2) ratio 2 orders of magnitude larger than collective rotor"
+    },
+    {
+      "case_id": "Case 1",
+      "phenomenon": "Dipole bands with large B(M1)/B(E2) ratios (> 10 mu_N^2 / e^2 b^2)",
+      "candidate_mechanism": "Chiral Doublets (Aplanar Geometry)",
+      "intrinsic_physics": "Spontaneous breaking of chiral reflection symmetry by three mutually perpendicular angular momentum vectors (valence proton, valence neutron, core)",
+      "diagnostic_signatures": "Pair of near-degenerate delta I=1 bands with same parity; interband M1/E2 links; B(M1)/B(E2) large in odd-odd/odd-A; smooth S(I) factor",
+      "pseudo_degenerate_mimics": "Magnetic rotation, Triaxial shape coexistence, Strongly coupled high-K bands",
+      "critical_discriminant": "Observation of partner band with delta E -> 0; identical J(2) and identical B(M1), B(E2) in both bands"
+    },
+    {
+      "case_id": "Case 1",
+      "phenomenon": "Dipole bands with large B(M1)/B(E2) ratios (> 10 mu_N^2 / e^2 b^2)",
+      "candidate_mechanism": "Strongly Coupled Oblate High-K Bands",
+      "intrinsic_physics": "Single nucleon in high-Omega deformation-aligned orbit (e.g. 11/2-[505]) coupled to axially deformed core",
+      "diagnostic_signatures": "Delta I=1 cascade; B(M1)/B(E2) ~ (g_K - g_R)^2 K^2 / [Q0^2 I^2]; smoothly drops as 1/I^2; constant intrinsic Q0 ~ 2-4 e b",
+      "pseudo_degenerate_mimics": "Shears bands, Chiral bands",
+      "critical_discriminant": "Absolute B(E2) is strongly collective (50-100 W.u., NOT suppressed to 1-5 W.u.); B(M1) does NOT drop to zero at shears cutoff; constant Qt measured by RDDS"
+    },
+    {
+      "case_id": "Case 1",
+      "phenomenon": "Dipole bands with large B(M1)/B(E2) ratios (> 10 mu_N^2 / e^2 b^2)",
+      "candidate_mechanism": "Octupole Reflection-Asymmetric E1 Bands",
+      "intrinsic_physics": "Octupole deformation (beta_3) inducing an intrinsic electric dipole moment D0; alternating parity sequence",
+      "diagnostic_signatures": "Delta I=1 transitions connecting positive and negative parity states; large B(E1)/B(E2) ~ 10^-4 fm^-2",
+      "pseudo_degenerate_mimics": "Magnetic rotation shears bands if parity is undetermined",
+      "critical_discriminant": "Linear polarization: E1 gives POSITIVE polarization P > 0 (asymmetry A > 0), whereas M1 gives NEGATIVE polarization P < 0 (asymmetry A < 0)!"
+    },
+    {
+      "case_id": "Case 2",
+      "phenomenon": "Near-degenerate doublet bands (delta E(I) < 50-100 keV)",
+      "candidate_mechanism": "True Chiral Vibration / Rotation",
+      "intrinsic_physics": "Spontaneous dynamic/static chiral symmetry breaking in triaxial nucleus (gamma ~ 30 deg)",
+      "diagnostic_signatures": "Degeneracy delta E(I) -> 0 across multiple spins; smooth S(I) parameter; equal B(M1) and B(E2) values in both bands; presence of interband links",
+      "pseudo_degenerate_mimics": "Triaxial shape coexistence crossing, Signature partners with anomalous decoupling, Octupole parity doublets",
+      "critical_discriminant": "Degeneracy maintained over >= 4 spin states (not a localized crossing); identical transition quadrupole moments Qt in both bands measured by DSAM/RDDS"
+    },
+    {
+      "case_id": "Case 2",
+      "phenomenon": "Near-degenerate doublet bands (delta E(I) < 50-100 keV)",
+      "candidate_mechanism": "Triaxial Shape Coexistence",
+      "intrinsic_physics": "Two distinct potential energy surface minima with different deformation (beta_2, gamma) crossing in excitation energy",
+      "diagnostic_signatures": "Band crossing occurs at a single localized spin; dynamic inertia J(2) differs substantially between bands; interband transitions only near crossing",
+      "pseudo_degenerate_mimics": "Chiral doublets",
+      "critical_discriminant": "Measured transition quadrupole moments Qt differ significantly (delta Qt / Qt > 30%) between the two bands; sharp crossing in Routhian diagram"
+    },
+    {
+      "case_id": "Case 2",
+      "phenomenon": "Near-degenerate doublet bands (delta E(I) < 50-100 keV)",
+      "candidate_mechanism": "Signature Partners with Anomalous Decoupling",
+      "intrinsic_physics": "Alpha = +1/2 and -1/2 branches of a high-j low-Omega orbital in a gamma-soft core experiencing Coriolis decoupling or signature inversion",
+      "diagnostic_signatures": "Energy splitting delta E oscillates with spin; large signature staggering in B(M1) (oscillates by factor 3-10 between I and I+1); NO wobbling/chiral interband links",
+      "pseudo_degenerate_mimics": "Chiral doublets, Wobbling bands",
+      "critical_discriminant": "Signature staggering in B(M1) transition rates; absence of interband collective E2 transitions"
+    },
+    {
+      "case_id": "Case 2",
+      "phenomenon": "Near-degenerate doublet bands (delta E(I) < 50-100 keV)",
+      "candidate_mechanism": "Octupole Parity Doublets",
+      "intrinsic_physics": "Parity doubling in reflection-asymmetric octupole-deformed nuclei (e.g. 224Ra, 226Th, 225Ra)",
+      "diagnostic_signatures": "Even-parity and odd-parity rotational sequences separated by a small energy displacement; fast E1 interband transitions",
+      "pseudo_degenerate_mimics": "Chiral doublet bands",
+      "critical_discriminant": "States have OPPOSITE parity (confirmed by E1 linear polarization P > 0 and conversion electron spectroscopy), whereas chiral doublets have IDENTICAL parity!"
+    },
+    {
+      "case_id": "Case 3",
+      "phenomenon": "Smoothly decreasing B(E2) with spin in regular Delta I=2 cascade",
+      "candidate_mechanism": "Antimagnetic Rotation (Two-Shears Mechanism)",
+      "intrinsic_physics": "Two identical high-j blades (e.g. two g_9/2 proton holes) simultaneously closing symmetrically against core/neutron axis; zero net magnetic dipole moment",
+      "diagnostic_signatures": "B(E2) drops smoothly ~ sin^4(theta_s) by factor 5-10; B(M1) = 0 or strictly forbidden; dynamic inertia J(2) is nearly constant; J(2)/B(E2) > 100 hbar^2/MeV (e^2 b^2)^-1",
+      "pseudo_degenerate_mimics": "Band termination, Pairing collapse with centrifugal stretching, Uncorrected side-feeding delay artifact",
+      "critical_discriminant": "Smooth decrease of B(E2) while J(2) remains finite and smooth; band DOES NOT terminate at a finite maximum spin I_max; lifetime confirmed by coincidence-gated RDDS"
+    },
+    {
+      "case_id": "Case 3",
+      "phenomenon": "Smoothly decreasing B(E2) with spin in regular Delta I=2 cascade",
+      "candidate_mechanism": "Band Termination (Loss of Collectivity via Alignment)",
+      "intrinsic_physics": "All valence nucleons gradually align their angular momenta along rotation axis until maximum possible spin I_max = sum(j_i) is reached; prolate -> oblate non-collective transition",
+      "diagnostic_signatures": "Qt -> 0 as I -> I_max; level spacing compresses; J(2) drops abruptly and becomes negative; band terminates abruptly at I_max",
+      "pseudo_degenerate_mimics": "Antimagnetic rotation",
+      "critical_discriminant": "Dynamic moment of inertia J(2) collapses or becomes negative; the band ends abruptly at I_max (no states exist above I_max for this configuration)"
+    },
+    {
+      "case_id": "Case 3",
+      "phenomenon": "Smoothly decreasing B(E2) with spin in regular Delta I=2 cascade",
+      "candidate_mechanism": "Side-Feeding Delay Artifact (DSAM Systematic Trap)",
+      "intrinsic_physics": "Unobserved slow continuum cascade (tau_sf ~ 50-100 fs) populating the highest spins; analyst incorrectly assumes prompt feeding",
+      "diagnostic_signatures": "Apparent B(E2) appears to drop by factor 3-5 with spin; DSAM lineshape forward/backward fits show residual tail discrepancies",
+      "pseudo_degenerate_mimics": "Antimagnetic rotation, Band termination",
+      "critical_discriminant": "Re-measurement using coincidence RDDS (plunger) with gate set from above reveals true B(E2) is constant; DSAM lineshape fitting with explicit multi-step feeding cascade"
+    }
+  ]
+}

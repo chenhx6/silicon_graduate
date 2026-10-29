@@ -1,0 +1,7 @@
+spin_hbar,gamma_energy_kev,tau_intrinsic_fs,side_feeding_fraction,true_be2_relative,apparent_be2_ratio_delay_0fs,apparent_tau_fs_delay_0fs,apparent_be2_ratio_delay_40fs,apparent_tau_fs_delay_40fs,apparent_be2_ratio_delay_80fs,apparent_tau_fs_delay_80fs,apparent_be2_ratio_delay_120fs,apparent_tau_fs_delay_120fs
+16,450.0,1200.0,0.1,1.0,1.0,1200.0,0.997,1204.0,0.993,1208.0,0.99,1212.0
+18,540.0,482.3,0.25,1.0,1.0,482.3,0.98,492.3,0.96,502.3,0.941,512.3
+20,630.0,223.1,0.45,1.0,1.0,223.1,0.925,241.1,0.861,259.1,0.805,277.1
+22,720.0,114.4,0.65,1.0,1.0,114.4,0.815,140.4,0.688,166.4,0.595,192.4
+24,810.0,63.5,0.8,1.0,1.0,63.5,0.665,95.5,0.498,127.5,0.398,159.5
+26,900.0,37.5,0.9,1.0,1.0,37.5,0.51,73.5,0.342,109.5,0.258,145.5

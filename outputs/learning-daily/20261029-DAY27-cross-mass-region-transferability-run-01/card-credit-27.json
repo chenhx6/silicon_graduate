@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "transition_id": "2026-10-29-day-27-01/formal-Day27",
+  "observed_at": "2026-10-29T18:30:00+08:00",
+  "applied_at": "2026-10-29T18:30:00+08:00",
+  "session_id": "01a1871e-7fa7-7212-89e1-0f804c55f1f8",
+  "formal_completed": [
+    27
+  ],
+  "uncredited_preview": [
+    28
+  ],
+  "completed_day_count": 27,
+  "next_day_index": 28,
+  "no_double_credit_guard": "Same-session runner applied only next27->28/count26->27 after completion audit. Day28 receives no credit; prior Day21-26 credits unchanged."
+}

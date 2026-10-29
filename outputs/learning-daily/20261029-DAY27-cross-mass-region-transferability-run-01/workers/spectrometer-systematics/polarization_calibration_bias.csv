@@ -1,0 +1,10 @@
+delta_a_pct,q_analyzer,p_true_0_inferred_p,p_true_m1_inferred_p,p_true_e2_inferred_p,delta_p_induced,spurious_character_claimed_for_unpolarized
+-3.0,0.191,0.0796,-0.0704,0.2295,0.0796,Electric E1/E2
+-2.0,0.191,0.0528,-0.0972,0.2027,0.0528,Electric E1/E2
+-1.0,0.191,0.0263,-0.1238,0.1762,0.0263,Neutral
+-0.5,0.191,0.0131,-0.1369,0.1631,0.0131,Neutral
+0.0,0.191,0.0,-0.15,0.15,0.0,Neutral
+0.5,0.191,-0.013,-0.163,0.137,-0.013,Neutral
+1.0,0.191,-0.026,-0.176,0.124,-0.026,Neutral
+2.0,0.191,-0.0518,-0.2017,0.0983,-0.0518,Magnetic M1
+3.0,0.191,-0.0773,-0.2272,0.0728,-0.0773,Magnetic M1
