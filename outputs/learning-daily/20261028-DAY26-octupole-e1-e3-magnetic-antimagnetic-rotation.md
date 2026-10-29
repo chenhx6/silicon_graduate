@@ -173,6 +173,13 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 47. **$\\alpha$ 团簇分子态与平均场八极形变的算符等价与拓扑边界**（checkpoint 085，[[alpha-clustering-vs-meanfield-octupole-boundary]]，工件 `alpha-clustering-octupole/`）：严格推导 Brink 结团波函数与内禀反射不对称平均场波函数的投影重叠核与 Wildermuth 极限定理；量化轻核（$^{16}\\text{O}, ^{20}\\text{Ne}$）以点团簇拓扑分离为主，而重锕系（$^{212}\\text{Po}, ^{224}\\text{Ra}$）由于库仑斥力与泡利阻塞转变为平均场八极软集体的质量区拓扑转变边界；
 48. **超重核区（$Z \\sim 114-126, N \\sim 184$）八极形变对多重裂变势垒与自发裂变半衰期灵敏度机制**（checkpoint 086，[[superheavy-octupole-fission-barrier-and-halflife]]，工件 `superheavy-octupole-fission/`）：深入分析 $Z=120$ 质子对（$2f_{5/2}-1i_{11/2}$）与 $N=184$ 中子对（$2g_{9/2}-1j_{15/2}$）的 $\\Delta l = \\Delta j = 3$ 强耦合；推导八极形变降低外裂变鞍点（$1-3\\text{ MeV}$）并开辟质量不对称裂变谷的微观机制；在一维有效 WKB 模型中量化外鞍降低 $1.0\\text{ MeV}$ 对自发裂变半衰期 $T_{\\text{SF}}$ 带来约 4.5 个数量级的剧烈压低效应。
 
+### Checkpoint 087–090 张量力重整、AMR临界朗道阻尼、IVGDR劈裂与锕系PRM模型
+
+49. **奇奇核磁转动能带中多体张量力与角动量重整化机制**（checkpoint 087，[[tensor-force-renormalization-odd-odd-magnetic-rotation]]，工件 `tensor-force-mr/`）：推导核子两体张量相互作用对剪刀恢复势的微观展开 $\\Delta V_T \\sim C_4 \\cos^4\\theta$；在 $^{198}\\text{Bi}$（$\\pi h_{9/2} \\otimes \\nu i_{13/2}^{-1}$）中证实自旋-轨道异性伴随态产生张量软化（$C_4 < 0$），解释高自旋剪刀加速闭合与实测 $B(M1)$ 衰减超出纯 $\\sin^2\\theta$ 拟合的非简谐曲率偏差；
+50. **反磁转动四剪刀闭合临界频率 $\\omega_c$ 与朗道阻尼机制**（checkpoint 088，[[amr-critical-frequency-and-landau-damping]]，工件 `amr-critical-frequency/`）：严格推导最小剪刀模型临界闭合角速度 $\\hbar\\omega_c = 3V_{\\pi\\nu}/(2j_\\pi)$ 与闭合总自旋 $I_c = j_\\nu + 2j_\\pi + \\mathcal{J}_{\\text{core}}\\omega_c$；计算表明两声子剪刀集体振动在逼近临界点时与准粒子连续谱共振耦合，朗道展宽 $\\Gamma_{\\text{damping}}$ 显著上升至约 $0.0185\\text{ MeV}$，微观解释带终止处能级发散与寿命猝灭；
+51. **电巨偶极共振（IVGDR）在八极核中的多重劈裂与低能 E1 EWSR 求和规则**（checkpoint 089，[[octupole-gdr-splitting-and-low-energy-e1-ewsr-boundary]]，工件 `octupole-gdr-e1/`）：严格推导基于 Thouless 定理与质心修正的内禀电偶极矩 $D_0 = e \\frac{NZ}{A} (\\langle z_p \\rangle - \\langle z_n \\rangle)$；核算 $^{146}\\text{Ba}$ TRK 求和规则总额度 $S_{\\text{TRK}} = 615.19\\text{ MeV}\\cdot e^2\\text{fm}^2$，证明实测低能 $1^-$ 跃迁仅消耗 $8.49 \\times 10^{-9}$ 的微量份额（对账 $|D_0| \\approx 0.00456\\ e\\cdot\\text{fm}$），从微观上阐明尽管局域低能 $E1$ 显现增强，但其绝对强度依然被巨共振高能尾部相消干涉压制的物理图像；
+52. **锕系偶偶核交替宇称能带的四极-八极粒子-转子模型**（checkpoint 090，[[actinide-alternating-parity-quadrupole-octupole-prm]]，工件 `actinide-parity-prm/`）：建立涵盖单纯形守恒（$s=+1$）的四极-八极转子哈密顿量，重现 $^{224}\\text{Ra}$（从约 $161\\text{ keV} \\to 6\\times 10^{-5}\\text{ keV}$）与 $^{226}\\text{Th}$（从约 $185\\text{ keV} \\to 0.03\\text{ keV}$）正负宇称交错位移 $\\Delta E(I)$ 随转动离心稳定化向零指数收敛的物理图像，完成 $B(E1)/B(E2)$ 实验分支反演与 $D_0$ 系统学对账。
+
 ## Counter-evidence and missing companion observables
 
 1. Pr：27/2−是低端态，作者交叉约33/2−；交叉后未见crossover，不能认证“27/2反弹”或post-crossing强度轨迹。

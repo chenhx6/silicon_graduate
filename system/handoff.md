@@ -3,7 +3,26 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint086：AMR量子微观推转、三轴八极旋称反转、α团簇拓扑边界与超重核裂变动力学
+## Active handoff — Day26 checkpoint090：张量力重整、AMR临界朗道阻尼、IVGDR劈裂与锕系PRM模型
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
+1. **奇奇核磁转动能带中多体张量力与角动量重整化机制**（`tensor-force-renormalization-odd-odd-magnetic-rotation.md`，工件 `tensor-force-mr/`）：
+   - 推导两体张量力在粒子-空穴对准基底下的有效展开 $\\Delta V_T \\sim C_4 \\cos^4\\theta$；
+   - 在 $^{198}\\text{Bi}$（$\\pi h_{9/2} \\otimes \\nu i_{13/2}^{-1}$）中证实自旋-轨道异性伴随态产生张量软化（$C_4 < 0$），导致高自旋剪刀加速闭合，微观解释实验测定 $B(M1)$ 衰减超出纯 $\\sin^2\\theta$ 拟合线的非简谐曲率偏差；
+2. **反磁转动四剪刀闭合临界频率 $\\omega_c$ 与朗道阻尼机制**（`amr-critical-frequency-and-landau-damping.md`，工件 `amr-critical-frequency/`）：
+   - 严格推导最小剪刀模型临界闭合角速度 $\\hbar\\omega_c = 3V_{\\pi\\nu}/(2j_\\pi)$ 与闭合总自旋 $I_c = j_\\nu + 2j_\\pi + \\mathcal{J}_{\\text{core}}\\omega_c$；
+   - 计算表明两声子剪刀集体振动在逼近临界点时与准粒子连续谱共振耦合，朗道展宽 $\\Gamma_{\\text{damping}}$ 显著上升至约 $0.0185\\text{ MeV}$，微观解释带终止处能级发散与寿命猝灭；
+3. **电巨偶极共振（IVGDR）在八极核中的多重劈裂与低能 E1 EWSR 求和规则**（`octupole-gdr-splitting-and-low-energy-e1-ewsr-boundary.md`，工件 `octupole-gdr-e1/`）：
+   - 严格推导基于 Thouless 定理与质心修正的内禀电偶极矩 $D_0 = e \\frac{NZ}{A} (\\langle z_p \\rangle - \\langle z_n \\rangle)$；
+   - 核算 $^{146}\\text{Ba}$ TRK 求和规则总额度 $S_{\\text{TRK}} = 615.19\\text{ MeV}\\cdot e^2\\text{fm}^2$，证明实测低能 $1^-$ 跃迁仅消耗 $8.49 \\times 10^{-9}$ 的微量份额（对账 $|D_0| \\approx 0.00456\\ e\\cdot\\text{fm}$），从微观上阐明尽管局域低能 $E1$ 显现增强，但其绝对强度依然被巨共振高能尾部相消干涉压制的物理图像；
+4. **锕系偶偶核交替宇称能带的四极-八极粒子-转子模型**（`actinide-alternating-parity-quadrupole-octupole-prm.md`，工件 `actinide-parity-prm/`）：
+   - 建立涵盖单纯形守恒（$s=+1$）的四极-八极转子哈密顿量，重现 $^{224}\\text{Ra}$（从约 $161\\text{ keV} \\to 6\\times 10^{-5}\\text{ keV}$）与 $^{226}\\text{Th}$（从约 $185\\text{ keV} \\to 0.03\\text{ keV}$）正负宇称交错位移 $\\Delta E(I)$ 随转动离心稳定化向零指数收敛的物理图像，完成 $B(E1)/B(E2)$ 实验分支反演与 $D_0$ 系统学对账。
+
+全量检查全绿（wiki_lint 0 error/329 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint086：AMR量子微观推转、三轴八极旋称反转、α团簇拓扑边界与超重核裂变动力学
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

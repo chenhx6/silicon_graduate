@@ -1,0 +1,494 @@
+{
+  "standard_quadrupole": [
+    {
+      "omega_MeV": 0.08,
+      "theta_deg": 52.63,
+      "cos_theta": 0.6069,
+      "I_spin": 6.68,
+      "B_M1_muN2": 2.6751,
+      "B_E2_e2b2": 0.03,
+      "J2_hbar2_per_MeV": 83.0
+    },
+    {
+      "omega_MeV": 0.1,
+      "theta_deg": 40.66,
+      "cos_theta": 0.7586,
+      "I_spin": 8.34,
+      "B_M1_muN2": 1.7977,
+      "B_E2_e2b2": 0.0201,
+      "J2_hbar2_per_MeV": 83.25
+    },
+    {
+      "omega_MeV": 0.12,
+      "theta_deg": 24.45,
+      "cos_theta": 0.9103,
+      "I_spin": 10.01,
+      "B_M1_muN2": 0.7253,
+      "B_E2_e2b2": 0.0133,
+      "J2_hbar2_per_MeV": 66.5
+    },
+    {
+      "omega_MeV": 0.14,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 24.75
+    },
+    {
+      "omega_MeV": 0.16,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.18,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.2,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.22,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.24,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.26,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.28,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.3,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.32,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.34,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.36,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.38,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.4,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.42,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    }
+  ],
+  "tensor_stiffening": [
+    {
+      "omega_MeV": 0.08,
+      "theta_deg": 56.35,
+      "cos_theta": 0.5541,
+      "I_spin": 6.1,
+      "B_M1_muN2": 2.9347,
+      "B_E2_e2b2": 0.0336,
+      "J2_hbar2_per_MeV": 61.5
+    },
+    {
+      "omega_MeV": 0.1,
+      "theta_deg": 48.19,
+      "cos_theta": 0.6667,
+      "I_spin": 7.33,
+      "B_M1_muN2": 2.3527,
+      "B_E2_e2b2": 0.0259,
+      "J2_hbar2_per_MeV": 59.0
+    },
+    {
+      "omega_MeV": 0.12,
+      "theta_deg": 39.72,
+      "cos_theta": 0.7691,
+      "I_spin": 8.46,
+      "B_M1_muN2": 1.7297,
+      "B_E2_e2b2": 0.0195,
+      "J2_hbar2_per_MeV": 54.0
+    },
+    {
+      "omega_MeV": 0.14,
+      "theta_deg": 30.37,
+      "cos_theta": 0.8628,
+      "I_spin": 9.49,
+      "B_M1_muN2": 1.0826,
+      "B_E2_e2b2": 0.0149,
+      "J2_hbar2_per_MeV": 49.5
+    },
+    {
+      "omega_MeV": 0.16,
+      "theta_deg": 18.42,
+      "cos_theta": 0.9488,
+      "I_spin": 10.44,
+      "B_M1_muN2": 0.4229,
+      "B_E2_e2b2": 0.0124,
+      "J2_hbar2_per_MeV": 37.75
+    },
+    {
+      "omega_MeV": 0.18,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 14.0
+    },
+    {
+      "omega_MeV": 0.2,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.22,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.24,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.26,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.28,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.3,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.32,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.34,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.36,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.38,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.4,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.42,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    }
+  ],
+  "tensor_softening": [
+    {
+      "omega_MeV": 0.08,
+      "theta_deg": 45.37,
+      "cos_theta": 0.7026,
+      "I_spin": 7.73,
+      "B_M1_muN2": 2.1446,
+      "B_E2_e2b2": 0.0235,
+      "J2_hbar2_per_MeV": 163.5
+    },
+    {
+      "omega_MeV": 0.1,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 81.75
+    },
+    {
+      "omega_MeV": 0.12,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.14,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.16,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.18,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.2,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.22,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.24,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.26,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.28,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.3,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.32,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.34,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.36,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.38,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.4,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    },
+    {
+      "omega_MeV": 0.42,
+      "theta_deg": 0.0,
+      "cos_theta": 1.0,
+      "I_spin": 11.0,
+      "B_M1_muN2": 0.0,
+      "B_E2_e2b2": 0.012,
+      "J2_hbar2_per_MeV": 0.0
+    }
+  ]
+}

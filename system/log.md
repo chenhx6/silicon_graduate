@@ -4710,3 +4710,10 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   3. α团簇分子态与平均场八极形变的算符等价与拓扑边界（alpha-clustering-vs-meanfield-octupole-boundary.md，工件 alpha-clustering-octupole/）：推导Brink与微观八极平均场投影重叠核，量化轻核点团簇拓扑分离向重锕系泡利阻塞平均场八极软集体的转变边界；
   4. 超重核区八极形变对裂变势垒与自发裂变半衰期灵敏度机制（superheavy-octupole-fission-barrier-and-halflife.md，工件 superheavy-octupole-fission/）：分析Z=120质子对与N=184中子对强八极极化，推导八极形变降低外裂变鞍点（1-3 MeV）并开辟不对称裂变谷，量化外鞍降低1.0 MeV对T_SF缩短4.5个数量级的指数敏感性；
   5. 全量检查全绿：wiki_lint.py 0 error/325 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T09:00:00+08:00 Day26 checkpoint090：张量力重整、AMR临界朗道阻尼、IVGDR劈裂与锕系PRM模型。
+  1. 奇奇核磁转动能带中多体张量力与角动量重整化机制（tensor-force-renormalization-odd-odd-magnetic-rotation.md，工件 tensor-force-mr/）：推导两体张量相互作用对剪刀恢复势的微观展开Delta V_T~C4 cos4(theta)，在198Bi中证实自旋-轨道异性伴随态产生张量软化（C4<0），解释高自旋剪刀加速闭合与实测B(M1)衰减超出纯sin2(theta)拟合的非简谐曲率偏差；
+  2. 反磁转动四剪刀闭合临界频率omega_c与朗道阻尼机制（amr-critical-frequency-and-landau-damping.md，工件 amr-critical-frequency/）：严格推导最小剪刀模型临界闭合角速度hbar*omega_c=3V_pinu/(2j_pi)与闭合自旋公式，计算两声子剪刀集体振动在逼近临界点时与连续谱共振耦合产生的朗道展宽Gamma_damping~0.0185 MeV，解释带终止处能级发散与寿命猝灭；
+  3. 电巨偶极共振（IVGDR）在八极核中的多重劈裂与低能 E1 EWSR 求和规则（octupole-gdr-splitting-and-low-energy-e1-ewsr-boundary.md，工件 octupole-gdr-e1/）：基于Thouless定理与质心修正推导D0=e*(NZ/A)*(<zp>-<zn>)，核算146Ba TRK总额度615.19 MeV*e2fm2，证明1^-跃迁仅消耗8.49e-9微量份额，微观澄清高能GDR尾部相消干涉压制低能E1绝对强度的图像；
+  4. 锕系偶偶核交替宇称能带的四极-八极粒子-转子模型（actinide-alternating-parity-quadrupole-octupole-prm.md，工件 actinide-parity-prm/）：建立单纯形守恒（s=+1）四极-八极转子哈密顿量，重现224Ra与226Th交错位移Delta E(I)随离心稳定化向零指数收敛，完成B(E1)/B(E2)分支反演与D0系统学对账；
+  5. 全量检查全绿：wiki_lint.py 0 error/329 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

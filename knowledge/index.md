@@ -122,6 +122,7 @@ updated: 2026-10-28
 - [[roy-2011-cd110-systematics-antimagnetic]] — 110Cd 高自旋反磁转动第一手 DSAM 寿命、B(E2) 与核心转动耦合系统学原件。
 - [[amr-double-shears-core-coupling-and-b-e2-plateau]] — 110Cd 与 104Pd 双剪刀四叶片几何、核芯长椭微变形耦合与 B(E2) 平台微观机制。
 - [[amr-quantum-four-blade-microscopic-cranking-and-core-polarization]] — 反磁转动四叶片自洽微观推转模型、核芯四极极化与残余 B(E2) 平台及巨大 J(2)/B(E2) 判据。
+- [[tensor-force-renormalization-odd-odd-magnetic-rotation]] — 奇奇核磁转动能带中多体张量力重整化、四阶剪刀势能修正与 B(M1) 曲率演化微观机制。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 - [[nomura-2018-odd-ba-octupole]] — 奇质量钡（143,145,147Ba）微观约束 sdf-IBFM 与奇中子阻塞机制原件。
@@ -938,6 +939,9 @@ updated: 2026-10-28
 
 ## Research Notes
 
+- [[actinide-alternating-parity-quadrupole-octupole-prm]] - `220–228Ra` 与 `222–230Th` 交替宇称带的四极—八极 PRM、单纯形 `s=+1`、离心稳定化、`Delta E(I)` 收敛及 `B(E1)/B(E2)`/`D0` 反演边界；含有限差分宇称投影工件。
+
+- [[octupole-gdr-splitting-and-low-energy-e1-ewsr-boundary]] - 静态八极形变下 IVGDR `K=0,1` 多重响应劈裂、质心修正内禀偶极矩与低能 E1 TRK-EWSR 份额；含现象学扫描、低能相消假设和实验/模型证据边界。
 - [[triaxial-octupole-signature-inversion-coriolis-boundary]] - 三轴八极粒子—转子模型中的 Coriolis 对齐、宇称轨道混合与旋称反转点漂移；含 130Cs、131Ba、133Ce、225Ra 证据边界及可复现 toy scan。
 
 - [[superheavy-octupole-fission-barrier-and-halflife]] - `Z≈114–126,N≈184` 八极轨道驱动、外裂变鞍点重整化、第三势阱可行性与 toy WKB 自发裂变寿命灵敏度；区分外部模型结果与实验边界。
@@ -1123,6 +1127,8 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[rather-2014-104pd-antimagnetic-arxiv-full]]
 
 - [[amr-j2-dynamic-inertia-endpoint-audit]]
+
+- [[amr-critical-frequency-and-landau-damping]] — 四剪刀闭合临界频率、核芯惯量与中子角动量的条件推导；RPA/朗道阻尼与两声子剪刀示意；Cd/Pd系统学证据边界。
 
 - [[amr-pnc-bcs-ln-pairing-coherence-band-evolution-audit]] — PNC/BCS/LN配对相干、三种非对角项与Cd/Pd能带演化的同哈密顿量边界。
 - [[amr-pairing-pnc-blocking-and-interaction-evolution]] — 105Cd奇中子阻塞、106–110Cd偶偶配对响应与Vπν相干软化的PNC-CSM条件审计。

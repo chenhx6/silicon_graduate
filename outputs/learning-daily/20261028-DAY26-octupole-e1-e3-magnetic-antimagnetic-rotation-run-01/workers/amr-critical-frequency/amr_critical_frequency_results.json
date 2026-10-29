@@ -1,0 +1,50 @@
+{
+  "status": "conditional-model-and-evidence-ledger",
+  "units": {
+    "energies": "MeV",
+    "spins": "hbar",
+    "inertia": "hbar^2/MeV"
+  },
+  "analytic_model": {
+    "energy": "E(I,c)=(I-j_nu-2*j_pi*c)^2/(2*J_core)+V_pinu*P2(c)",
+    "intrinsic_closure": "c=omega/omega_c, hbar*omega_c=3*V_pinu/(2*j_pi)",
+    "closure_spin": "I_c=j_nu+2*j_pi+J_core*omega_c",
+    "boundary": "j_nu and J_core do not enter intrinsic omega_c in this minimal Hamiltonian; they set the spin offset and closure spin.",
+    "extended_convention": "If frequency is redefined from total spin, a shifted critical point can be quoted, but it is convention-dependent and is not the intrinsic shear frequency.",
+    "be2": "B(E2)/B(E2,90deg)=sin(theta)^4=(1-c^2)^2"
+  },
+  "rpa_model": {
+    "chi0": "sum_ph |F_ph|^2[(E-E_ph+i eta)^-1-(E+E_ph+i eta)^-1]",
+    "chi_rpa": "chi0/(1-kappa*chi0)",
+    "golden_rule": "Gamma=2*pi*g^2*rho_ph(2*Omega_s)",
+    "status": "phenomenological response proxy; no claim of microscopic Cd/Pd fit",
+    "ph_energies_MeV": [
+      0.03,
+      0.07,
+      0.105,
+      0.145,
+      0.21,
+      0.29,
+      0.41,
+      0.56
+    ],
+    "couplings": [
+      0.01,
+      0.014,
+      0.02,
+      0.018,
+      0.014,
+      0.011,
+      0.008,
+      0.006
+    ],
+    "kappa": 0.85,
+    "eta_MeV": 0.004
+  },
+  "evidence_ledger": {
+    "Roy_2011": "106Cd: bandhead 18, configuration termination 24, observed 26 effective; 108Cd: bandhead 16, AMR interval through 24; 110Cd: 12+ model bandhead, 28+ not assigned to AMR.",
+    "Rather_2014": "104Pd: Table 1 B(E2) sequence 16+--26+, fitted J_core=5 hbar^2/MeV, V_pinu=1.2 MeV.",
+    "102Pd": "No verified local AMR lifetime/systematics table; retained as missing evidence.",
+    "source_independence": "Roy and Rather are related particle-plus-rotor lineages; not independent determinations of V_pinu."
+  }
+}

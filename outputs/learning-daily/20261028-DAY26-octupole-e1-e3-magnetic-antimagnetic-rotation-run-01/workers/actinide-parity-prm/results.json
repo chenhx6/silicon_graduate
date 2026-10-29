@@ -1,0 +1,1878 @@
+{
+  "schema": "quadrupole-octupole-prm/v1",
+  "status": "reproducible-phenomenological-model",
+  "equations": {
+    "hamiltonian": "H_I=-(hbar^2/2B33)d^2/d(beta3)^2+V(beta3)+hbar^2 I(I+1)/(2J(beta3))",
+    "inertia": "J(beta3)=J0*(1+c3*beta3^2)",
+    "displacement": "DeltaE(I)=E(I-)-0.5*(E((I+1)+)+E((I-1)+))",
+    "strengths": "B(E1)=(3/4pi)D0^2|CG(I,0;1,0|I-1,0)|^2; B(E2)=(5/16pi)Q0^2|CG(I,0;2,0|I-2,0)|^2",
+    "inversion": "D0=Q0*sqrt((B(E1)/B(E2))*(5/12)*(C2^2/C1^2))"
+  },
+  "grid": {
+    "q_min": -0.42,
+    "q_max": 0.42,
+    "n_grid": 401,
+    "spins": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "kinetic_coefficient_B33": "MeV for dimensionless beta3"
+  },
+  "parameter_status": "All potential, inertia, D0 and WKB-surrogate inputs are schematic except where explicitly labelled as user-target or source conflict.",
+  "empirical_anchors": {
+    "224Ra": {
+      "delta_e_I1_keV": 173.8,
+      "delta_e_high_spin_keV": 20.2,
+      "status": "source-page audit; Gaffney 2013 and related note"
+    },
+    "226Th": {
+      "delta_e_I1_keV": 194.3,
+      "delta_e_high_spin_keV": 0.8,
+      "status": "ENSDF evaluation baseline; negative-band lifetime absent"
+    },
+    "224Ra_D0_user_target_efm": {
+      "value": 0.15,
+      "status": "conflicts with existing Wiki audit value ~0.03 efm; needs primary-source check"
+    },
+    "226Ra_D0_user_target_efm": {
+      "value": 0.05,
+      "status": "user-supplied target; primary locator not yet verified"
+    }
+  },
+  "nuclei": {
+    "220Ra": {
+      "q0": 0.105,
+      "barrier": 0.55,
+      "A": 0.014,
+      "c3": 14.0,
+      "B33": 1e-05,
+      "Q0_efm2": 600.0,
+      "D0_efm": 0.065,
+      "delta0_keV": 260.0,
+      "surrogate_alpha": 0.02,
+      "d0_status": "schematic-model-input"
+    },
+    "222Ra": {
+      "q0": 0.125,
+      "barrier": 0.95,
+      "A": 0.012,
+      "c3": 17.0,
+      "B33": 1e-05,
+      "Q0_efm2": 620.0,
+      "D0_efm": 0.085,
+      "delta0_keV": 220.0,
+      "surrogate_alpha": 0.023,
+      "d0_status": "schematic-model-input"
+    },
+    "224Ra": {
+      "q0": 0.14,
+      "barrier": 1.45,
+      "A": 0.011,
+      "c3": 20.0,
+      "B33": 1e-05,
+      "Q0_efm2": 632.0,
+      "D0_efm": 0.15,
+      "delta0_keV": 174.0,
+      "surrogate_alpha": 0.039,
+      "d0_status": "user-target-conflicts-with-wiki-0.03-efm"
+    },
+    "226Ra": {
+      "q0": 0.13,
+      "barrier": 1.1,
+      "A": 0.0115,
+      "c3": 18.0,
+      "B33": 1e-05,
+      "Q0_efm2": 620.0,
+      "D0_efm": 0.05,
+      "delta0_keV": 205.0,
+      "surrogate_alpha": 0.03,
+      "d0_status": "user-target-needs-primary-source"
+    },
+    "228Ra": {
+      "q0": 0.095,
+      "barrier": 0.42,
+      "A": 0.015,
+      "c3": 12.0,
+      "B33": 1e-05,
+      "Q0_efm2": 585.0,
+      "D0_efm": 0.025,
+      "delta0_keV": 310.0,
+      "surrogate_alpha": 0.015,
+      "d0_status": "schematic-model-input"
+    },
+    "222Th": {
+      "q0": 0.11,
+      "barrier": 0.75,
+      "A": 0.014,
+      "c3": 15.0,
+      "B33": 1e-05,
+      "Q0_efm2": 610.0,
+      "D0_efm": 0.07,
+      "delta0_keV": 250.0,
+      "surrogate_alpha": 0.021,
+      "d0_status": "schematic-model-input"
+    },
+    "224Th": {
+      "q0": 0.13,
+      "barrier": 1.05,
+      "A": 0.012,
+      "c3": 18.0,
+      "B33": 1e-05,
+      "Q0_efm2": 625.0,
+      "D0_efm": 0.08,
+      "delta0_keV": 210.0,
+      "surrogate_alpha": 0.026,
+      "d0_status": "schematic-model-input"
+    },
+    "226Th": {
+      "q0": 0.15,
+      "barrier": 0.9,
+      "A": 0.0115,
+      "c3": 19.0,
+      "B33": 1e-05,
+      "Q0_efm2": 630.0,
+      "D0_efm": 0.06,
+      "delta0_keV": 194.0,
+      "surrogate_alpha": 0.023,
+      "d0_status": "schematic-model-input"
+    },
+    "228Th": {
+      "q0": 0.115,
+      "barrier": 0.62,
+      "A": 0.014,
+      "c3": 14.0,
+      "B33": 1e-05,
+      "Q0_efm2": 600.0,
+      "D0_efm": 0.035,
+      "delta0_keV": 260.0,
+      "surrogate_alpha": 0.018,
+      "d0_status": "schematic-model-input"
+    },
+    "230Th": {
+      "q0": 0.085,
+      "barrier": 0.3,
+      "A": 0.016,
+      "c3": 10.0,
+      "B33": 1e-05,
+      "Q0_efm2": 570.0,
+      "D0_efm": 0.02,
+      "delta0_keV": 340.0,
+      "surrogate_alpha": 0.012,
+      "d0_status": "schematic-model-input"
+    }
+  },
+  "displacement": [
+    {
+      "nucleus": "220Ra",
+      "spin": 1,
+      "delta_e_fd_keV": -12.153371436432487,
+      "delta_e_surrogate_keV": 249.80525417960402,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 3,
+      "delta_e_fd_keV": -12.081199542929454,
+      "delta_e_surrogate_keV": 204.5232438773039,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 5,
+      "delta_e_fd_keV": -11.954854498921918,
+      "delta_e_surrogate_keV": 142.69102538444687,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 7,
+      "delta_e_fd_keV": -11.77997311198692,
+      "delta_e_surrogate_keV": 84.83274660199027,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 9,
+      "delta_e_fd_keV": -11.563766080069854,
+      "delta_e_surrogate_keV": 42.97771093761251,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 11,
+      "delta_e_fd_keV": -11.31425951065603,
+      "delta_e_surrogate_keV": 18.553930084660372,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 13,
+      "delta_e_fd_keV": -11.039590766121364,
+      "delta_e_surrogate_keV": 6.8256094310788695,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 15,
+      "delta_e_fd_keV": -10.747450745855076,
+      "delta_e_surrogate_keV": 2.139734232745208,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 17,
+      "delta_e_fd_keV": -10.444709667745883,
+      "delta_e_surrogate_keV": 0.5715985503910581,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 19,
+      "delta_e_fd_keV": 103.459421649658,
+      "delta_e_surrogate_keV": 0.1301173726945588,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 1,
+      "delta_e_fd_keV": -9.503621412346757,
+      "delta_e_surrogate_keV": 210.10923168195723,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 3,
+      "delta_e_fd_keV": -9.440884360759526,
+      "delta_e_surrogate_keV": 166.93884476747309,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 5,
+      "delta_e_fd_keV": -9.33136163191989,
+      "delta_e_surrogate_keV": 110.34673519453223,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 7,
+      "delta_e_fd_keV": -9.18040177442856,
+      "delta_e_surrogate_keV": 60.680812624236054,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 9,
+      "delta_e_fd_keV": -8.99477854512429,
+      "delta_e_surrogate_keV": 27.76087197510853,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 11,
+      "delta_e_fd_keV": 96.88501190525244,
+      "delta_e_surrogate_keV": 10.565854693248928,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 13,
+      "delta_e_fd_keV": 207.20539430672557,
+      "delta_e_surrogate_keV": 3.3455380957988483,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 15,
+      "delta_e_fd_keV": 323.1312973677027,
+      "delta_e_surrogate_keV": 0.8812865472598924,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 17,
+      "delta_e_fd_keV": 445.6208972850063,
+      "delta_e_surrogate_keV": 0.19313372513701982,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 19,
+      "delta_e_fd_keV": 575.422187901604,
+      "delta_e_surrogate_keV": 0.0352118553400995,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 1,
+      "delta_e_fd_keV": 204.2541083456897,
+      "delta_e_surrogate_keV": 160.94381021857583,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 3,
+      "delta_e_fd_keV": 205.64495065542042,
+      "delta_e_surrogate_keV": 108.96811311641473,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 5,
+      "delta_e_fd_keV": 313.19029535307936,
+      "delta_e_surrogate_keV": 54.0038477801944,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 7,
+      "delta_e_fd_keV": 318.39450077000595,
+      "delta_e_surrogate_keV": 19.59070657032773,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 9,
+      "delta_e_fd_keV": 432.10638576130077,
+      "delta_e_surrogate_keV": 5.20206311202518,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 11,
+      "delta_e_fd_keV": 550.5038194146671,
+      "delta_e_surrogate_keV": 1.0111166348544542,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 13,
+      "delta_e_fd_keV": 565.4959082081948,
+      "delta_e_surrogate_keV": 0.14385568048959727,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 15,
+      "delta_e_fd_keV": 805.4468571581608,
+      "delta_e_surrogate_keV": 0.014981417176643221,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 17,
+      "delta_e_fd_keV": 943.5214825592943,
+      "delta_e_surrogate_keV": 0.0011420336517673762,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 19,
+      "delta_e_fd_keV": 1089.3449507899086,
+      "delta_e_surrogate_keV": 6.372429309718272e-05,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 1,
+      "delta_e_fd_keV": -8.839211082542857,
+      "delta_e_surrogate_keV": 193.06172938477098,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 3,
+      "delta_e_fd_keV": -8.7813232601506,
+      "delta_e_surrogate_keV": 143.02364684456137,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 5,
+      "delta_e_fd_keV": 93.38778780725698,
+      "delta_e_surrogate_keV": 83.34678024682283,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 7,
+      "delta_e_fd_keV": 95.30827574129808,
+      "delta_e_surrogate_keV": 38.20666508807904,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 9,
+      "delta_e_fd_keV": 97.73553723325358,
+      "delta_e_surrogate_keV": 13.7771301116487,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 11,
+      "delta_e_fd_keV": 207.46241398704865,
+      "delta_e_surrogate_keV": 3.907938429780387,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 13,
+      "delta_e_fd_keV": 321.90319882630183,
+      "delta_e_surrogate_keV": 0.8719789276871007,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 15,
+      "delta_e_fd_keV": 442.13194301728936,
+      "delta_e_surrogate_keV": 0.15305009071721937,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 17,
+      "delta_e_fd_keV": 569.0191533809593,
+      "delta_e_surrogate_keV": 0.021131509295689424,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 19,
+      "delta_e_fd_keV": 703.2315879114008,
+      "delta_e_surrogate_keV": 0.002295074392731147,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 1,
+      "delta_e_fd_keV": -13.560840075975111,
+      "delta_e_surrogate_keV": 300.8381154000375,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 3,
+      "delta_e_fd_keV": -13.49770463314374,
+      "delta_e_surrogate_keV": 258.9337655374943,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 5,
+      "delta_e_fd_keV": -13.386552104322902,
+      "delta_e_surrogate_keV": 197.66472700274974,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 7,
+      "delta_e_fd_keV": -13.231377250331661,
+      "delta_e_surrogate_keV": 133.8302622630147,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 9,
+      "delta_e_fd_keV": -13.03740034943803,
+      "delta_e_surrogate_keV": 80.36448080022636,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 11,
+      "delta_e_fd_keV": -12.810602471458424,
+      "delta_e_surrogate_keV": 42.80146356637678,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 13,
+      "delta_e_fd_keV": -12.55727066142299,
+      "delta_e_surrogate_keV": 20.217979797119533,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 15,
+      "delta_e_fd_keV": -12.283606807352044,
+      "delta_e_surrogate_keV": 8.470353958660697,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 17,
+      "delta_e_fd_keV": -11.995428776038807,
+      "delta_e_surrogate_keV": 3.1473860957446265,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 19,
+      "delta_e_fd_keV": -11.697970662052285,
+      "delta_e_surrogate_keV": 1.0372492918160954,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 1,
+      "delta_e_fd_keV": -11.873578959714528,
+      "delta_e_surrogate_keV": 239.71744514312113,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 3,
+      "delta_e_fd_keV": -11.80697341090604,
+      "delta_e_surrogate_keV": 194.31118451723654,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 5,
+      "delta_e_fd_keV": -11.690180185168515,
+      "delta_e_surrogate_keV": 133.1479502517243,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 7,
+      "delta_e_fd_keV": -11.528123449848636,
+      "delta_e_surrogate_keV": 77.12757876659117,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 9,
+      "delta_e_fd_keV": -11.32715202258396,
+      "delta_e_surrogate_keV": 37.76795220909271,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 11,
+      "delta_e_fd_keV": -11.094402702952266,
+      "delta_e_surrogate_keV": 15.634201493292684,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 13,
+      "delta_e_fd_keV": -10.83719398761923,
+      "delta_e_surrogate_keV": 5.470997279713106,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 15,
+      "delta_e_fd_keV": 103.6686976211904,
+      "delta_e_surrogate_keV": 1.6184370795723513,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 17,
+      "delta_e_fd_keV": 108.13365393015602,
+      "delta_e_surrogate_keV": 0.40472838866199823,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 19,
+      "delta_e_fd_keV": 233.55161401153146,
+      "delta_e_surrogate_keV": 0.08555985562875984,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 1,
+      "delta_e_fd_keV": -9.22306755342468,
+      "delta_e_surrogate_keV": 199.3590620370068,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 3,
+      "delta_e_fd_keV": -9.157105536620008,
+      "delta_e_surrogate_keV": 153.71612092794567,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 5,
+      "delta_e_fd_keV": -9.042239862863369,
+      "delta_e_surrogate_keV": 96.26526237409693,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 7,
+      "delta_e_fd_keV": 92.88716185434964,
+      "delta_e_surrogate_keV": 48.965086841693775,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 9,
+      "delta_e_fd_keV": 95.474557861319,
+      "delta_e_surrogate_keV": 20.228804028403538,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 11,
+      "delta_e_fd_keV": 203.62691090456474,
+      "delta_e_surrogate_keV": 6.787668640637175,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 13,
+      "delta_e_fd_keV": 316.87971757953164,
+      "delta_e_surrogate_keV": 1.8498555051535885,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 15,
+      "delta_e_fd_keV": 436.3248998260706,
+      "delta_e_surrogate_keV": 0.4094696597974757,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 17,
+      "delta_e_fd_keV": 562.8276679620758,
+      "delta_e_surrogate_keV": 0.07361603064535281,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 19,
+      "delta_e_fd_keV": 697.0310229973275,
+      "delta_e_surrogate_keV": 0.010749538352516567,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 1,
+      "delta_e_fd_keV": -8.076161515607858,
+      "delta_e_surrogate_keV": 185.27814066499866,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 3,
+      "delta_e_fd_keV": 71.52712304631856,
+      "delta_e_surrogate_keV": 147.20970856768082,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 5,
+      "delta_e_fd_keV": 73.21584883697221,
+      "delta_e_surrogate_keV": 97.30575739881478,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 7,
+      "delta_e_fd_keV": 157.23579202006704,
+      "delta_e_surrogate_keV": 53.50944385955361,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 9,
+      "delta_e_fd_keV": 162.79439068440126,
+      "delta_e_surrogate_keV": 24.480041650777522,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 11,
+      "delta_e_fd_keV": 255.34715231386963,
+      "delta_e_surrogate_keV": 9.317162774955873,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 13,
+      "delta_e_fd_keV": 441.308125440461,
+      "delta_e_surrogate_keV": 2.9501563208408026,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 15,
+      "delta_e_fd_keV": 550.0732840659575,
+      "delta_e_surrogate_keV": 0.7771345007655416,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 17,
+      "delta_e_fd_keV": 758.1391535290641,
+      "delta_e_surrogate_keV": 0.1703088303480993,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 19,
+      "delta_e_fd_keV": 979.5617354022252,
+      "delta_e_surrogate_keV": 0.03105045425445138,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 1,
+      "delta_e_fd_keV": -11.836125031141474,
+      "delta_e_surrogate_keV": 250.806476305612,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 3,
+      "delta_e_fd_keV": -11.753491734142301,
+      "delta_e_surrogate_keV": 209.49117848710472,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 5,
+      "delta_e_fd_keV": -11.609509038864132,
+      "delta_e_surrogate_keV": 151.5145456172373,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 7,
+      "delta_e_fd_keV": -11.411606169866445,
+      "delta_e_surrogate_keV": 94.88651807816838,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 9,
+      "delta_e_fd_keV": -11.169109253300803,
+      "delta_e_surrogate_keV": 51.45366176173983,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 11,
+      "delta_e_fd_keV": -10.892144465080037,
+      "delta_e_surrogate_keV": 24.159595515431715,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 13,
+      "delta_e_fd_keV": -10.5906731919099,
+      "delta_e_surrogate_keV": 9.822558528179576,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 15,
+      "delta_e_fd_keV": 92.08502570929704,
+      "delta_e_surrogate_keV": 3.457969721035383,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 17,
+      "delta_e_fd_keV": 201.37444829311426,
+      "delta_e_surrogate_keV": 1.0540940008562385,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 19,
+      "delta_e_fd_keV": 318.1921296259725,
+      "delta_e_surrogate_keV": 0.27822688390629713,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 1,
+      "delta_e_fd_keV": -14.949767671044786,
+      "delta_e_surrogate_keV": 331.93714131768917,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 3,
+      "delta_e_fd_keV": -14.898345492450602,
+      "delta_e_surrogate_keV": 294.4018343401297,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 5,
+      "delta_e_fd_keV": -14.80734274978397,
+      "delta_e_surrogate_keV": 237.20995086415056,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 7,
+      "delta_e_fd_keV": -14.679280810728983,
+      "delta_e_surrogate_keV": 173.63330234450387,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 9,
+      "delta_e_fd_keV": -14.517507342343833,
+      "delta_e_surrogate_keV": 115.4624787192793,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 11,
+      "delta_e_fd_keV": -14.325947994969738,
+      "delta_e_surrogate_keV": 69.75196676211223,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 13,
+      "delta_e_fd_keV": -14.108859686288724,
+      "delta_e_surrogate_keV": 38.280690999490965,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 15,
+      "delta_e_fd_keV": -13.870608414319122,
+      "delta_e_surrogate_keV": 19.085819363605466,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 17,
+      "delta_e_fd_keV": -13.615483422094258,
+      "delta_e_surrogate_keV": 8.644693094763804,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 19,
+      "delta_e_fd_keV": -13.34755246367149,
+      "delta_e_surrogate_keV": 3.55710004076511,
+      "source_or_model": "FD-PRM-plus-WKB-surrogate"
+    }
+  ],
+  "e1_e2": [
+    {
+      "nucleus": "220Ra",
+      "spin": 3,
+      "B_E1_e2fm2": 0.0004322761936478086,
+      "B_E2_e2fm4": 7161.972439135291,
+      "ratio_fm_minus2": 6.035714285714286e-08,
+      "D0_inverted_efm": 0.065,
+      "D0_input_efm": 0.065,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 5,
+      "B_E1_e2fm2": 0.0004584747508385849,
+      "B_E2_e2fm4": 10231.3891987647,
+      "ratio_fm_minus2": 4.4810606060606065e-08,
+      "D0_inverted_efm": 0.065,
+      "D0_input_efm": 0.065,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 7,
+      "B_E1_e2fm2": 0.0004707007441942805,
+      "B_E2_e2fm4": 11268.8377538842,
+      "ratio_fm_minus2": 4.177012345679012e-08,
+      "D0_inverted_efm": 0.065,
+      "D0_input_efm": 0.065,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 9,
+      "B_E1_e2fm2": 0.0004777789508738937,
+      "B_E2_e2fm4": 11796.189899752244,
+      "ratio_fm_minus2": 4.0502819548872176e-08,
+      "D0_inverted_efm": 0.065,
+      "D0_input_efm": 0.065,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 11,
+      "B_E1_e2fm2": 0.00048239517262146757,
+      "B_E2_e2fm4": 12116.11878801083,
+      "ratio_fm_minus2": 3.9814331723027375e-08,
+      "D0_inverted_efm": 0.065,
+      "D0_input_efm": 0.065,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 13,
+      "B_E1_e2fm2": 0.0004856436249623529,
+      "B_E2_e2fm4": 12331.048199554674,
+      "ratio_fm_minus2": 3.938380720788128e-08,
+      "D0_inverted_efm": 0.065,
+      "D0_input_efm": 0.065,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 15,
+      "B_E1_e2fm2": 0.0004880537670217194,
+      "B_E2_e2fm4": 12485.430880484893,
+      "ratio_fm_minus2": 3.9089861751152073e-08,
+      "D0_inverted_efm": 0.065,
+      "D0_input_efm": 0.065,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 17,
+      "B_E1_e2fm2": 0.0004899130194675164,
+      "B_E2_e2fm4": 12601.711036601686,
+      "ratio_fm_minus2": 3.887670634920634e-08,
+      "D0_inverted_efm": 0.065,
+      "D0_input_efm": 0.065,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "220Ra",
+      "spin": 19,
+      "B_E1_e2fm2": 0.0004913908867962269,
+      "B_E2_e2fm4": 12692.45308711621,
+      "ratio_fm_minus2": 3.8715202130234814e-08,
+      "D0_inverted_efm": 0.065,
+      "D0_input_efm": 0.065,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 3,
+      "B_E1_e2fm2": 0.0007392178696107496,
+      "B_E2_e2fm4": 7647.395015565573,
+      "ratio_fm_minus2": 9.666270254199493e-08,
+      "D0_inverted_efm": 0.08499999999999999,
+      "D0_input_efm": 0.085,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 5,
+      "B_E1_e2fm2": 0.0007840189526174617,
+      "B_E2_e2fm4": 10924.850022236531,
+      "ratio_fm_minus2": 7.176473370542049e-08,
+      "D0_inverted_efm": 0.085,
+      "D0_input_efm": 0.085,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 7,
+      "B_E1_e2fm2": 0.0008049261246872608,
+      "B_E2_e2fm4": 12032.614534980796,
+      "ratio_fm_minus2": 6.68953636258527e-08,
+      "D0_inverted_efm": 0.085,
+      "D0_input_efm": 0.085,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 9,
+      "B_E1_e2fm2": 0.0008170302769381969,
+      "B_E2_e2fm4": 12595.709437402118,
+      "ratio_fm_minus2": 6.486576091633871e-08,
+      "D0_inverted_efm": 0.085,
+      "D0_input_efm": 0.085,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 11,
+      "B_E1_e2fm2": 0.0008249242892757641,
+      "B_E2_e2fm4": 12937.322394753786,
+      "ratio_fm_minus2": 6.376313924203351e-08,
+      "D0_inverted_efm": 0.085,
+      "D0_input_efm": 0.085,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 13,
+      "B_E1_e2fm2": 0.0008304793349947928,
+      "B_E2_e2fm4": 13166.81924419116,
+      "ratio_fm_minus2": 6.307364896508149e-08,
+      "D0_inverted_efm": 0.085,
+      "D0_input_efm": 0.085,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 15,
+      "B_E1_e2fm2": 0.0008346008205282658,
+      "B_E2_e2fm4": 13331.665640162204,
+      "ratio_fm_minus2": 6.26028917207461e-08,
+      "D0_inverted_efm": 0.085,
+      "D0_input_efm": 0.085,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 17,
+      "B_E1_e2fm2": 0.0008377802522255163,
+      "B_E2_e2fm4": 13455.827006860245,
+      "ratio_fm_minus2": 6.226152073732718e-08,
+      "D0_inverted_efm": 0.085,
+      "D0_input_efm": 0.085,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Ra",
+      "spin": 19,
+      "B_E1_e2fm2": 0.0008403074928053821,
+      "B_E2_e2fm4": 13552.719351909644,
+      "ratio_fm_minus2": 6.200286975521106e-08,
+      "D0_inverted_efm": 0.08499999999999999,
+      "D0_input_efm": 0.085,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 3,
+      "B_E1_e2fm2": 0.0023020625697220574,
+      "B_E2_e2fm4": 7946.287998692151,
+      "ratio_fm_minus2": 2.89702886442191e-07,
+      "D0_inverted_efm": 0.15000000000000002,
+      "D0_input_efm": 0.15,
+      "D0_status": "user-target-conflicts-with-wiki-0.03-efm",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 5,
+      "B_E1_e2fm2": 0.002441581513341576,
+      "B_E2_e2fm4": 11351.839998131642,
+      "ratio_fm_minus2": 2.1508244599496002e-07,
+      "D0_inverted_efm": 0.15000000000000002,
+      "D0_input_efm": 0.15,
+      "D0_status": "user-target-conflicts-with-wiki-0.03-efm",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 7,
+      "B_E1_e2fm2": 0.0025066903536973516,
+      "B_E2_e2fm4": 12502.900697242894,
+      "ratio_fm_minus2": 2.0048870373337605e-07,
+      "D0_inverted_efm": 0.15,
+      "D0_input_efm": 0.15,
+      "D0_status": "user-target-conflicts-with-wiki-0.03-efm",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 9,
+      "B_E1_e2fm2": 0.002544384945482274,
+      "B_E2_e2fm4": 13088.003762551776,
+      "ratio_fm_minus2": 1.9440588432304924e-07,
+      "D0_inverted_efm": 0.15,
+      "D0_input_efm": 0.15,
+      "D0_status": "user-target-conflicts-with-wiki-0.03-efm",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 11,
+      "B_E1_e2fm2": 0.0025689683749072234,
+      "B_E2_e2fm4": 13442.968418840102,
+      "ratio_fm_minus2": 1.9110127278933838e-07,
+      "D0_inverted_efm": 0.15,
+      "D0_input_efm": 0.15,
+      "D0_status": "user-target-conflicts-with-wiki-0.03-efm",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 13,
+      "B_E1_e2fm2": 0.0025862678252432988,
+      "B_E2_e2fm4": 13681.434989052572,
+      "ratio_fm_minus2": 1.8903483642708122e-07,
+      "D0_inverted_efm": 0.15,
+      "D0_input_efm": 0.15,
+      "D0_status": "user-target-conflicts-with-wiki-0.03-efm",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 15,
+      "B_E1_e2fm2": 0.0025991029012990973,
+      "B_E2_e2fm4": 13852.724288907772,
+      "ratio_fm_minus2": 1.8762395375040166e-07,
+      "D0_inverted_efm": 0.15,
+      "D0_input_efm": 0.15,
+      "D0_status": "user-target-conflicts-with-wiki-0.03-efm",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 17,
+      "B_E1_e2fm2": 0.0026090042456849982,
+      "B_E2_e2fm4": 13981.738414121086,
+      "ratio_fm_minus2": 1.866008480783757e-07,
+      "D0_inverted_efm": 0.15,
+      "D0_input_efm": 0.15,
+      "D0_status": "user-target-conflicts-with-wiki-0.03-efm",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Ra",
+      "spin": 19,
+      "B_E1_e2fm2": 0.0026168745450686633,
+      "B_E2_e2fm4": 14082.417727411956,
+      "ratio_fm_minus2": 1.858256583295934e-07,
+      "D0_inverted_efm": 0.15,
+      "D0_input_efm": 0.15,
+      "D0_status": "user-target-conflicts-with-wiki-0.03-efm",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 3,
+      "B_E1_e2fm2": 0.00025578472996911754,
+      "B_E2_e2fm4": 7647.395015565573,
+      "ratio_fm_minus2": 3.344730191764531e-08,
+      "D0_inverted_efm": 0.05,
+      "D0_input_efm": 0.05,
+      "D0_status": "user-target-needs-primary-source",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 5,
+      "B_E1_e2fm2": 0.00027128683481573074,
+      "B_E2_e2fm4": 10924.850022236531,
+      "ratio_fm_minus2": 2.4832087787342732e-08,
+      "D0_inverted_efm": 0.05,
+      "D0_input_efm": 0.05,
+      "D0_status": "user-target-needs-primary-source",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 7,
+      "B_E1_e2fm2": 0.0002785211504108169,
+      "B_E2_e2fm4": 12032.614534980796,
+      "ratio_fm_minus2": 2.314718464562377e-08,
+      "D0_inverted_efm": 0.05,
+      "D0_input_efm": 0.05,
+      "D0_status": "user-target-needs-primary-source",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 9,
+      "B_E1_e2fm2": 0.00028270943838691934,
+      "B_E2_e2fm4": 12595.709437402118,
+      "ratio_fm_minus2": 2.2444899971051456e-08,
+      "D0_inverted_efm": 0.05,
+      "D0_input_efm": 0.05,
+      "D0_status": "user-target-needs-primary-source",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 11,
+      "B_E1_e2fm2": 0.0002854409305452471,
+      "B_E2_e2fm4": 12937.322394753786,
+      "ratio_fm_minus2": 2.206336997994239e-08,
+      "D0_inverted_efm": 0.05,
+      "D0_input_efm": 0.05,
+      "D0_status": "user-target-needs-primary-source",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 13,
+      "B_E1_e2fm2": 0.00028736309169369995,
+      "B_E2_e2fm4": 13166.81924419116,
+      "ratio_fm_minus2": 2.1824792029439965e-08,
+      "D0_inverted_efm": 0.05,
+      "D0_input_efm": 0.05,
+      "D0_status": "user-target-needs-primary-source",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 15,
+      "B_E1_e2fm2": 0.0002887892112554553,
+      "B_E2_e2fm4": 13331.665640162204,
+      "ratio_fm_minus2": 2.166190024939312e-08,
+      "D0_inverted_efm": 0.05000000000000001,
+      "D0_input_efm": 0.05,
+      "D0_status": "user-target-needs-primary-source",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 17,
+      "B_E1_e2fm2": 0.00028988936063166655,
+      "B_E2_e2fm4": 13455.827006860245,
+      "ratio_fm_minus2": 2.1543778801843316e-08,
+      "D0_inverted_efm": 0.05,
+      "D0_input_efm": 0.05,
+      "D0_status": "user-target-needs-primary-source",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Ra",
+      "spin": 19,
+      "B_E1_e2fm2": 0.00029076383834096266,
+      "B_E2_e2fm4": 13552.719351909644,
+      "ratio_fm_minus2": 2.1454280192114555e-08,
+      "D0_inverted_efm": 0.05,
+      "D0_input_efm": 0.05,
+      "D0_status": "user-target-needs-primary-source",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 3,
+      "B_E1_e2fm2": 6.394618249227939e-05,
+      "B_E2_e2fm4": 6808.3500499529855,
+      "ratio_fm_minus2": 9.392317084624778e-09,
+      "D0_inverted_efm": 0.025000000000000005,
+      "D0_input_efm": 0.025,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 5,
+      "B_E1_e2fm2": 6.782170870393268e-05,
+      "B_E2_e2fm4": 9726.214357075693,
+      "ratio_fm_minus2": 6.973083896160821e-09,
+      "D0_inverted_efm": 0.025000000000000005,
+      "D0_input_efm": 0.025,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 7,
+      "B_E1_e2fm2": 6.963028760270422e-05,
+      "B_E2_e2fm4": 10712.438889786166,
+      "ratio_fm_minus2": 6.499947240687982e-09,
+      "D0_inverted_efm": 0.025,
+      "D0_input_efm": 0.025,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 9,
+      "B_E1_e2fm2": 7.067735959672984e-05,
+      "B_E2_e2fm4": 11213.753023451975,
+      "ratio_fm_minus2": 6.302739096261364e-09,
+      "D0_inverted_efm": 0.025000000000000005,
+      "D0_input_efm": 0.025,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 11,
+      "B_E1_e2fm2": 7.136023263631178e-05,
+      "B_E2_e2fm4": 11517.885422852794,
+      "ratio_fm_minus2": 6.195601884936705e-09,
+      "D0_inverted_efm": 0.025,
+      "D0_input_efm": 0.025,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 13,
+      "B_E1_e2fm2": 7.184077292342499e-05,
+      "B_E2_e2fm4": 11722.202694701662,
+      "ratio_fm_minus2": 6.12860695165222e-09,
+      "D0_inverted_efm": 0.025000000000000005,
+      "D0_input_efm": 0.025,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 15,
+      "B_E1_e2fm2": 7.219730281386383e-05,
+      "B_E2_e2fm4": 11868.962730760952,
+      "ratio_fm_minus2": 6.082865407163938e-09,
+      "D0_inverted_efm": 0.025,
+      "D0_input_efm": 0.025,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 17,
+      "B_E1_e2fm2": 7.247234015791664e-05,
+      "B_E2_e2fm4": 11979.501554169476,
+      "ratio_fm_minus2": 6.049695793285538e-09,
+      "D0_inverted_efm": 0.025000000000000005,
+      "D0_input_efm": 0.025,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Ra",
+      "spin": 19,
+      "B_E1_e2fm2": 7.269095958524066e-05,
+      "B_E2_e2fm4": 12065.763215939845,
+      "ratio_fm_minus2": 6.024563741579981e-09,
+      "D0_inverted_efm": 0.025000000000000005,
+      "D0_input_efm": 0.025,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 3,
+      "B_E1_e2fm2": 0.0005013380707394704,
+      "B_E2_e2fm4": 7402.6942905617825,
+      "ratio_fm_minus2": 6.772373018005913e-08,
+      "D0_inverted_efm": 0.07,
+      "D0_input_efm": 0.07,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 5,
+      "B_E1_e2fm2": 0.0005317221962388322,
+      "B_E2_e2fm4": 10575.277557945403,
+      "ratio_fm_minus2": 5.0279739073074204e-08,
+      "D0_inverted_efm": 0.07,
+      "D0_input_efm": 0.07,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 7,
+      "B_E1_e2fm2": 0.0005459014548052012,
+      "B_E2_e2fm4": 11647.595911723083,
+      "ratio_fm_minus2": 4.686816566633822e-08,
+      "D0_inverted_efm": 0.07,
+      "D0_input_efm": 0.07,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 9,
+      "B_E1_e2fm2": 0.000554110499238362,
+      "B_E2_e2fm4": 12192.672949160582,
+      "ratio_fm_minus2": 4.544618735767126e-08,
+      "D0_inverted_efm": 0.07,
+      "D0_input_efm": 0.07,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 11,
+      "B_E1_e2fm2": 0.0005594642238686844,
+      "B_E2_e2fm4": 12523.355002830082,
+      "ratio_fm_minus2": 4.467366961507154e-08,
+      "D0_inverted_efm": 0.07,
+      "D0_input_efm": 0.07,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 13,
+      "B_E1_e2fm2": 0.0005632316597196519,
+      "B_E2_e2fm4": 12745.508430706372,
+      "ratio_fm_minus2": 4.4190599596852406e-08,
+      "D0_inverted_efm": 0.07,
+      "D0_input_efm": 0.07,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 15,
+      "B_E1_e2fm2": 0.0005660268540606925,
+      "B_E2_e2fm4": 12905.08008507897,
+      "ratio_fm_minus2": 4.3860778106688425e-08,
+      "D0_inverted_efm": 0.07,
+      "D0_input_efm": 0.07,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 17,
+      "B_E1_e2fm2": 0.0005681831468380665,
+      "B_E2_e2fm4": 13025.26854644302,
+      "ratio_fm_minus2": 4.362160709486698e-08,
+      "D0_inverted_efm": 0.07,
+      "D0_input_efm": 0.07,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "222Th",
+      "spin": 19,
+      "B_E1_e2fm2": 0.0005698971231482869,
+      "B_E2_e2fm4": 13119.060538099837,
+      "ratio_fm_minus2": 4.344039129122204e-08,
+      "D0_inverted_efm": 0.07000000000000002,
+      "D0_input_efm": 0.07,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 3,
+      "B_E1_e2fm2": 0.0006548089087209408,
+      "B_E2_e2fm4": 7771.237455658953,
+      "ratio_fm_minus2": 8.426057142857142e-08,
+      "D0_inverted_efm": 0.08,
+      "D0_input_efm": 0.08,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 5,
+      "B_E1_e2fm2": 0.0006944942971282706,
+      "B_E2_e2fm4": 11101.767793798503,
+      "ratio_fm_minus2": 6.255709090909091e-08,
+      "D0_inverted_efm": 0.08000000000000002,
+      "D0_input_efm": 0.08,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 7,
+      "B_E1_e2fm2": 0.0007130141450516911,
+      "B_E2_e2fm4": 12227.471521141708,
+      "ratio_fm_minus2": 5.831247644444445e-08,
+      "D0_inverted_efm": 0.08000000000000002,
+      "D0_input_efm": 0.08,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 9,
+      "B_E1_e2fm2": 0.0007237361622705135,
+      "B_E2_e2fm4": 12799.685221085332,
+      "ratio_fm_minus2": 5.654327819548873e-08,
+      "D0_inverted_efm": 0.08000000000000002,
+      "D0_input_efm": 0.08,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 11,
+      "B_E1_e2fm2": 0.0007307287821958326,
+      "B_E2_e2fm4": 13146.830282129806,
+      "ratio_fm_minus2": 5.55821263768116e-08,
+      "D0_inverted_efm": 0.08,
+      "D0_input_efm": 0.08,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 13,
+      "B_E1_e2fm2": 0.0007356495147358718,
+      "B_E2_e2fm4": 13380.043619308457,
+      "ratio_fm_minus2": 5.498109988776655e-08,
+      "D0_inverted_efm": 0.08,
+      "D0_input_efm": 0.08,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 15,
+      "B_E1_e2fm2": 0.0007393003808139655,
+      "B_E2_e2fm4": 13547.559549137253,
+      "ratio_fm_minus2": 5.45707422899681e-08,
+      "D0_inverted_efm": 0.08,
+      "D0_input_efm": 0.08,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 17,
+      "B_E1_e2fm2": 0.0007421167632170663,
+      "B_E2_e2fm4": 13673.731593534814,
+      "ratio_fm_minus2": 5.4273170285714285e-08,
+      "D0_inverted_efm": 0.08,
+      "D0_input_efm": 0.08,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "224Th",
+      "spin": 19,
+      "B_E1_e2fm2": 0.0007443554261528643,
+      "B_E2_e2fm4": 13772.19301987436,
+      "ratio_fm_minus2": 5.404770504441093e-08,
+      "D0_inverted_efm": 0.08,
+      "D0_input_efm": 0.08,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 3,
+      "B_E1_e2fm2": 0.0003683300111555292,
+      "B_E2_e2fm4": 7896.074614146659,
+      "ratio_fm_minus2": 4.66472303206997e-08,
+      "D0_inverted_efm": 0.05999999999999999,
+      "D0_input_efm": 0.06,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 5,
+      "B_E1_e2fm2": 0.00039065304213465213,
+      "B_E2_e2fm4": 11280.106591638083,
+      "ratio_fm_minus2": 3.4632034632034624e-08,
+      "D0_inverted_efm": 0.05999999999999999,
+      "D0_input_efm": 0.06,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 7,
+      "B_E1_e2fm2": 0.00040107045659157624,
+      "B_E2_e2fm4": 12423.89362365733,
+      "ratio_fm_minus2": 3.228218694885361e-08,
+      "D0_inverted_efm": 0.05999999999999999,
+      "D0_input_efm": 0.06,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 9,
+      "B_E1_e2fm2": 0.00040710159127716383,
+      "B_E2_e2fm4": 13005.29936447685,
+      "ratio_fm_minus2": 3.13027466625748e-08,
+      "D0_inverted_efm": 0.05999999999999999,
+      "D0_input_efm": 0.06,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 11,
+      "B_E1_e2fm2": 0.0004110349399851558,
+      "B_E2_e2fm4": 13358.02096378194,
+      "ratio_fm_minus2": 3.0770646422820336e-08,
+      "D0_inverted_efm": 0.060000000000000005,
+      "D0_input_efm": 0.06,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 13,
+      "B_E1_e2fm2": 0.0004138028520389278,
+      "B_E2_e2fm4": 13594.98064000903,
+      "ratio_fm_minus2": 3.043791403579763e-08,
+      "D0_inverted_efm": 0.05999999999999999,
+      "D0_input_efm": 0.06,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 15,
+      "B_E1_e2fm2": 0.00041585646420785557,
+      "B_E2_e2fm4": 13765.187545734598,
+      "ratio_fm_minus2": 3.021073725484521e-08,
+      "D0_inverted_efm": 0.05999999999999999,
+      "D0_input_efm": 0.06,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 17,
+      "B_E1_e2fm2": 0.00041744067930959977,
+      "B_E2_e2fm4": 13893.38641785336,
+      "ratio_fm_minus2": 3.004599935212179e-08,
+      "D0_inverted_efm": 0.05999999999999999,
+      "D0_input_efm": 0.06,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "226Th",
+      "spin": 19,
+      "B_E1_e2fm2": 0.0004186999272109862,
+      "B_E2_e2fm4": 13993.429528545623,
+      "ratio_fm_minus2": 2.992118024797763e-08,
+      "D0_inverted_efm": 0.05999999999999999,
+      "D0_input_efm": 0.06,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 3,
+      "B_E1_e2fm2": 0.0001253345176848676,
+      "B_E2_e2fm4": 7161.972439135291,
+      "ratio_fm_minus2": 1.75e-08,
+      "D0_inverted_efm": 0.035,
+      "D0_input_efm": 0.035,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 5,
+      "B_E1_e2fm2": 0.00013293054905970806,
+      "B_E2_e2fm4": 10231.3891987647,
+      "ratio_fm_minus2": 1.2992424242424245e-08,
+      "D0_inverted_efm": 0.035,
+      "D0_input_efm": 0.035,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 7,
+      "B_E1_e2fm2": 0.0001364753637013003,
+      "B_E2_e2fm4": 11268.8377538842,
+      "ratio_fm_minus2": 1.2110864197530867e-08,
+      "D0_inverted_efm": 0.03500000000000001,
+      "D0_input_efm": 0.035,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 9,
+      "B_E1_e2fm2": 0.0001385276248095905,
+      "B_E2_e2fm4": 11796.189899752244,
+      "ratio_fm_minus2": 1.174342105263158e-08,
+      "D0_inverted_efm": 0.035,
+      "D0_input_efm": 0.035,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 11,
+      "B_E1_e2fm2": 0.0001398660559671711,
+      "B_E2_e2fm4": 12116.11878801083,
+      "ratio_fm_minus2": 1.1543800322061195e-08,
+      "D0_inverted_efm": 0.03500000000000001,
+      "D0_input_efm": 0.035,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 13,
+      "B_E1_e2fm2": 0.00014080791492991298,
+      "B_E2_e2fm4": 12331.048199554674,
+      "ratio_fm_minus2": 1.1418973687492208e-08,
+      "D0_inverted_efm": 0.035,
+      "D0_input_efm": 0.035,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 15,
+      "B_E1_e2fm2": 0.00014150671351517312,
+      "B_E2_e2fm4": 12485.430880484893,
+      "ratio_fm_minus2": 1.1333746898263031e-08,
+      "D0_inverted_efm": 0.03500000000000001,
+      "D0_input_efm": 0.035,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 17,
+      "B_E1_e2fm2": 0.00014204578670951664,
+      "B_E2_e2fm4": 12601.711036601686,
+      "ratio_fm_minus2": 1.1271944444444446e-08,
+      "D0_inverted_efm": 0.035,
+      "D0_input_efm": 0.035,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "228Th",
+      "spin": 19,
+      "B_E1_e2fm2": 0.00014247428078707173,
+      "B_E2_e2fm4": 12692.45308711621,
+      "ratio_fm_minus2": 1.1225117777405362e-08,
+      "D0_inverted_efm": 0.035,
+      "D0_input_efm": 0.035,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 3,
+      "B_E1_e2fm2": 4.09255567950588e-05,
+      "B_E2_e2fm4": 6463.6801263196,
+      "ratio_fm_minus2": 6.33161851998417e-09,
+      "D0_inverted_efm": 0.019999999999999997,
+      "D0_input_efm": 0.02,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 5,
+      "B_E1_e2fm2": 4.340589357051691e-05,
+      "B_E2_e2fm4": 9233.828751885143,
+      "ratio_fm_minus2": 4.700747083018551e-09,
+      "D0_inverted_efm": 0.020000000000000004,
+      "D0_input_efm": 0.02,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 7,
+      "B_E1_e2fm2": 4.4563384065730696e-05,
+      "B_E2_e2fm4": 10170.12607288049,
+      "ratio_fm_minus2": 4.3817926883485515e-09,
+      "D0_inverted_efm": 0.019999999999999997,
+      "D0_input_efm": 0.02,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 9,
+      "B_E1_e2fm2": 4.5233510141907096e-05,
+      "B_E2_e2fm4": 10646.0613845264,
+      "ratio_fm_minus2": 4.2488492699893775e-09,
+      "D0_inverted_efm": 0.019999999999999997,
+      "D0_input_efm": 0.02,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 11,
+      "B_E1_e2fm2": 4.5670548887239535e-05,
+      "B_E2_e2fm4": 10934.797206179774,
+      "ratio_fm_minus2": 4.176625137723536e-09,
+      "D0_inverted_efm": 0.020000000000000004,
+      "D0_input_efm": 0.02,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 13,
+      "B_E1_e2fm2": 4.5978094670991986e-05,
+      "B_E2_e2fm4": 11128.771000098093,
+      "ratio_fm_minus2": 4.1314620159392906e-09,
+      "D0_inverted_efm": 0.019999999999999997,
+      "D0_input_efm": 0.02,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 15,
+      "B_E1_e2fm2": 4.620627380087284e-05,
+      "B_E2_e2fm4": 11268.101369637618,
+      "ratio_fm_minus2": 4.100626386391733e-09,
+      "D0_inverted_efm": 0.020000000000000004,
+      "D0_input_efm": 0.02,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 17,
+      "B_E1_e2fm2": 4.638229770106664e-05,
+      "B_E2_e2fm4": 11373.044210533022,
+      "ratio_fm_minus2": 4.078265840038692e-09,
+      "D0_inverted_efm": 0.019999999999999997,
+      "D0_input_efm": 0.02,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    },
+    {
+      "nucleus": "230Th",
+      "spin": 19,
+      "B_E1_e2fm2": 4.652221413455402e-05,
+      "B_E2_e2fm4": 11454.938911122379,
+      "ratio_fm_minus2": 4.061323634767047e-09,
+      "D0_inverted_efm": 0.019999999999999997,
+      "D0_input_efm": 0.02,
+      "D0_status": "schematic-model-input",
+      "source_or_model": "rotor-branch-phenomenology"
+    }
+  ]
+}
