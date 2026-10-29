@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
+<title>AMR shell-modulated critical frequency proxy at N=60</title>
+<rect width="100%" height="100%" fill="white"/>
+<line x1="55" y1="375" x2="845" y2="375" stroke="black"/>
+<line x1="55" y1="55" x2="55" y2="375" stroke="black"/>
+<path d="M 55.00,362.44 L 66.29,301.18 L 77.57,249.40 L 88.86,205.93 L 100.14,169.71 L 111.43,139.87 L 122.71,115.62 L 134.00,96.29 L 145.29,81.28 L 156.57,70.07 L 167.86,62.22 L 179.14,57.31 L 190.43,55.01 L 201.71,55.00 L 213.00,57.01 L 224.29,60.79 L 235.57,66.13 L 246.86,72.85 L 258.14,80.78 L 269.43,89.75 L 280.71,99.65 L 292.00,110.36 L 303.29,121.76 L 314.57,133.76 L 325.86,146.29 L 337.14,159.26 L 348.43,172.61 L 359.71,186.28 L 371.00,200.22 L 382.29,214.38 L 393.57,228.71 L 404.86,243.17 L 416.14,257.74 L 427.43,272.39 L 438.71,287.08 L 450.00,301.79 L 461.29,316.50 L 472.57,331.20 L 483.86,345.85 L 495.14,360.46 L 506.43,375.00" fill="none" stroke="#174a7e" stroke-width="2"/>
+<text x="300.0" y="25" font-family="sans-serif" font-size="16">AMR ωc proxy, jπ=4.5ℏ, N=60</text>
+<text x="410.0" y="422" font-family="sans-serif" font-size="13">A</text>
+<text x="8" y="215.0" transform="rotate(-90 8,215.0)" font-family="sans-serif" font-size="13">ℏωc (MeV)</text>
+</svg>

@@ -4759,3 +4759,10 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   3. 奇-A 变形核内禀八极形变对原子 Schiff 矩的微观微扰求和规则（odd-a-actinide-octupole-schiff-moment-perturbation-sum-rules.md，工件 actinide-schiff-sumrules/）：推导有限核尺寸核Schiff矩微观算符，证明内禀电荷偏心矩阵元与微小宇称双重态能隙协同带来等标量通道高达11384倍放大，建立CP破坏介子交换通道相消盲区超平面；
   4. 反磁转动能带中电四极 Cline 旋转不变量重构与有效三轴核芯演化（amr-cline-quadrupole-invariants-and-triaxial-core-evolution.md，工件 amr-cline-invariants/）：重构模型无关的q2^2与q2^3 cos(3*delta)，证明110Cd与104Pd全带保持q2~0.32-0.35 eb刚性形变平台（四极方差0.17 eb），三轴度光滑弛豫至delta->30度的gamma-软中心；
   5. 全量检查全绿：wiki_lint.py 0 error/349 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T11:35:00+08:00 Day26 checkpoint118：有效质量硬化、极向流相消、AMR临界定标律与奇A直接E3角动量耦合。
+  1. 磁转动微观准粒子有效质量与转动坐标系流场反作用机制（mr-quasiparticle-effective-mass-and-rotational-flow-back-reaction.md，工件 mr-effective-mass-flow/）：证明态密度g(eF)~m*导致剪刀刚度反比于有效质量，在相对论m*/m=0.65下刚度硬化53.8%（1.45->2.23 MeV），大幅推迟闭合，非惯性逆流对消部分对齐自旋；
+  2. 手征-八极复合四重态中磁偶极跃迁选择定则与极向流相消微观机制（chiral-octupole-m1-selection-rules-and-polar-current-cancellation.md，工件 chiral-octupole-m1/）：严格证明宇称内禀反演性质使无外加杂质下跨宇称M1矩阵元严格为零，极向流在横向磁矩积分中发生空间相消；
+  3. 反磁转动四叶片剪刀临界闭合角速度omega_c的全核区同位素定标律与壳效应调制（amr-shears-critical-frequency-isotopic-scaling-and-shell-modulation.md，工件 amr-scaling-laws/）：推导全核区26核素微观定标公式hbar*omega_c~A^(-1/3)，量化费米面轨道调制并阐明AMR集中于N=56-66窗口机制；
+  4. 锕系奇-A核宇称双重态中直接电八极跃迁B(E3)的微观角动量几何耦合（odd-a-actinide-parity-doublet-direct-e3-transitions-angular-coupling.md，工件 actinide-direct-e3/）：严格推导单准粒子耦合反射不对称核芯时的直接电八极矩阵元，证明K=1/2态特有的八极退耦干涉项p_oct诱发Delta I=+-3跃迁显著交错不对称；
+  5. 全量检查全绿：wiki_lint.py 0 error/352 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

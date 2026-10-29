@@ -27,6 +27,7 @@ updated: 2026-10-28
 - [[cd110-relative-strength-boundary-047]] — 110Cd HI,XNG相对RI、评价BE2字段与Roy绝对寿命强度边界。
 - [[ba-e1-e3-model-boundary-046]] — 144/146Ba E1/E3单位、SCCM算符核与实验/模型证据层。
 - [[odd-a-octupole-blocking-parity-doublets]] — 奇A核八极阻塞效应与宇称双重态：145Ba微观淬灭与225Ra Coriolis旋称交错反转。
+- [[odd-a-actinide-parity-doublet-direct-e3-transitions-angular-coupling]] — 奇A锕系宇称双重态直接E3的Q30、CG几何、K=1/2退耦交错与Coriolis非绝热边界；含223,225Ra和225,227Ac可复现角耦合网络。
 - [[odd-a-octupole-spectroscopic-factors-and-core-polarization]] — 奇A八极带单粒子转移谱因子、粒子—八极声子混合与核芯极化；225Ra/225Ac转移与磁矩证据缺口及可复现模型工件。
 - [[ba-ra-blocking-cancellation-operator-boundary]] — Ba/Ra微观八极与偶极算符核边界：选择定则、自洽阻塞与Schiff响应分层。
 - [[pr135-mr-crossing-racah-polarization-source-boundary]] — 135Pr能带交叉、Racah重耦合与偏振原件边界：5qp组态修正与非单调反弹核定。
@@ -39,7 +40,7 @@ updated: 2026-10-28
 - [[e3-ewsr-transition-density-boundary]] — E3能量加权和规则双归一化、首态部分和与Tassie/RPA跃迁密度边界。
 - [[mr-to-chiral-topology-odd-odd-106ag-134pr-198bi]] — 奇奇核从平面剪刀向三维手征转动的拓扑相变：几何非共面、中轴惯量与双阱势垒。
 - [[mr-amr-to-chiral-topological-transition-mechanisms]] — MR/AMR 到非平面手征转动的几何分岔、离散对称、106Ag/106Cd/198Bi证据边界与可复现诊断。
-- [[chiral-octupole-quadruplets-symmetry-and-transition-rules]] — 三轴八极奇奇核手征-八极四重态（|L,±⟩, |R,±⟩）的离散对称性、单纯形分类与多通道跃迁选择定则。
+- [[chiral-octupole-m1-selection-rules-and-polar-current-cancellation]] — 三轴八极奇奇核手征-八极四重态（|L,±⟩, |R,±⟩）的离散对称性、单纯形分类、多通道跃迁选择定则及 M1 极向流相消边界。
 - [[mxd-multiple-chiral-doublets-octupole-coupling-boundary]] — 同核多重手征能带（MχD: 133Ce, 135Nd）与八极自由度共存、组态演化与跃迁网络判定边界。
 - [[beta2-beta3-octupole-topology-boundary]] — 四极—八极势能面拓扑适用边界：中等四极窗口去普适化与准粒子响应分析。
 - [[actinide-octupole-hexadecapole-coupling-fission-barrier]] — 锕系与超重核区 β3–β4 耦合对裂变势垒和宇称双重态的条件性重整化。
@@ -133,6 +134,7 @@ updated: 2026-10-28
 - [[mxd-multipole-matrix-elements-and-transition-interference]] — 多重手征核中四极-八极多极算符代数重整、交叉隧穿与跃迁相消干涉微观机制。
 - [[shears-angular-momentum-projection-and-fluctuation-corrections]] — 磁转动剪刀机制中角动量量子色散修正、精确投影能级与 B(M1) 量子折减机制。
 - [[shears-pairing-fluctuation-screening-and-stiffness-evolution]] — 磁转动与反磁转动中微观配对涨落对剪刀回复常数的绝热屏蔽与自发刚度硬化机制。
+- [[mr-quasiparticle-effective-mass-and-rotational-flow-back-reaction]] — 磁转动微观准粒子有效质量反比硬化、转动坐标系逆流反作用与剪刀延迟闭合机制。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 - [[nomura-2018-odd-ba-octupole]] — 奇质量钡（143,145,147Ba）微观约束 sdf-IBFM 与奇中子阻塞机制原件。
@@ -949,6 +951,8 @@ updated: 2026-10-28
 
 ## Research Notes
 
+- [[chiral-octupole-m1-selection-rules-and-polar-current-cancellation]] — 手征—八极四重态中 M1 算符的四态矩阵结构、同宇称手征伙伴选择定则、跨宇称严格相消边界、显式宇称杂质下的分支比与极向流相消 toy 诊断。
+
 - [[amr-cline-quadrupole-invariants-and-triaxial-core-evolution]] - 反磁转动能带中电四极 Cline 旋转不变量重构与有效三轴核芯演化；证明剪刀闭合下核芯内禀四极矩平台（$q_2 \sim 0.31 - 0.35\text{ e b}$）、有效三轴不对称度向 $\gamma$-软极小弛豫及截断误差增长机制；含完全可复现工件。
 
 - [[odd-a-actinide-octupole-schiff-moment-perturbation-sum-rules]] - 奇-A 变形核（$^{223,225}\text{Ra}, ^{225,227}\text{Ac}$）内禀八极形变对原子 Schiff 矩的微观微扰求和规则、千倍放大机制与 P,T-奇介子交换相消盲区；含可复现 Python 求解器与 CSV/JSON 数据工件。
@@ -1169,6 +1173,8 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[amr-j2-dynamic-inertia-endpoint-audit]]
 
 - [[amr-critical-frequency-and-landau-damping]] — 四剪刀闭合临界频率、核芯惯量与中子角动量的条件推导；RPA/朗道阻尼与两声子剪刀示意；Cd/Pd系统学证据边界。
+
+- [[amr-shears-critical-frequency-isotopic-scaling-and-shell-modulation]] — 四叶片临界闭合频率的最小 (P_2) 推导、(A^{-1/3})/同位旋有效标度、(N=56\text{--}66) 壳调制假设及 26 核素可复现候选扫描。
 
 - [[amr-pnc-bcs-ln-pairing-coherence-band-evolution-audit]] — PNC/BCS/LN配对相干、三种非对角项与Cd/Pd能带演化的同哈密顿量边界。
 - [[amr-pairing-pnc-blocking-and-interaction-evolution]] — 105Cd奇中子阻塞、106–110Cd偶偶配对响应与Vπν相干软化的PNC-CSM条件审计。

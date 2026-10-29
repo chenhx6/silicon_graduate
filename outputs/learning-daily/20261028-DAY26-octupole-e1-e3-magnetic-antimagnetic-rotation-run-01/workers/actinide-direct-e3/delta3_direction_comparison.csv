@@ -1,0 +1,18 @@
+K,Ii,If_plus3,If_minus3,CG2_plus3,CG2_minus3,CG2_plus_over_minus,Khalf_factor_cancels,interpretation
+1/2,7/2,13/2,1/2,0.4079254079254079,0.14285714285714282,2.8554778554778557,False,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+1/2,9/2,15/2,3/2,0.39160839160839156,0.19047619047619044,2.0559440559440563,False,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+1/2,11/2,17/2,5/2,0.3800904977375566,0.21645021645021645,1.7560180995475114,False,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+1/2,13/2,19/2,7/2,0.3715170278637771,0.23310023310023306,1.593808049535604,False,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+1/2,15/2,21/2,9/2,0.3648827952233526,0.24475524475524468,1.4908068490554125,False,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+1/2,17/2,23/2,11/2,0.35959463877084014,0.2533936651583711,1.4191145565777796,False,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+1/2,19/2,25/2,13/2,0.35527950310559,0.2600619195046441,1.3661342797988751,False,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+1/2,21/2,27/2,15/2,0.3516908212560386,0.26536930561698374,1.325288244766505,False,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+1/2,23/2,29/2,17/2,0.34865900383141757,0.2696959790781301,1.2927853245094623,False,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+3/2,9/2,15/2,3/2,0.3356643356643357,0.0952380952380952,3.524475524475526,True,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+3/2,11/2,17/2,5/2,0.33936651583710414,0.1515151515151515,2.239819004524888,True,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+3/2,13/2,19/2,7/2,0.3405572755417956,0.1864801864801865,1.8262383900928787,True,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+3/2,15/2,21/2,9/2,0.3405572755417957,0.20979020979020976,1.6233230134158931,True,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+3/2,17/2,23/2,11/2,0.3399803857469761,0.2262443438914027,1.5027133050016346,True,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+3/2,19/2,25/2,13/2,0.33913043478260874,0.23839009287925708,1.4225861095426307,True,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+3/2,21/2,27/2,15/2,0.3381642512077295,0.24767801857585148,1.3653381642512075,True,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry
+3/2,23/2,29/2,17/2,0.3371647509578544,0.2549852893102321,1.3222909912565084,True,same K=1/2 interference factor for +/-3 from a fixed Ii; ratio is CG geometry

@@ -3,7 +3,27 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint114：配对绝热屏蔽、C-QRPA杂化声子、Schiff矩微扰求和与Cline不变量重构
+## Active handoff — Day26 checkpoint118：有效质量硬化、极向流相消、AMR临界定标律与奇A直接E3角动量耦合
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
+1. **磁转动微观准粒子有效质量与转动坐标系流场反作用机制**（`mr-quasiparticle-effective-mass-and-rotational-flow-back-reaction.md`，工件 `mr-effective-mass-flow/`）：
+   - 揭示单粒子态密度 $g(\\epsilon_F) \\propto m^*$ 诱发剪刀刚度显式反比于介质有效质量 $C_{\\text{shears}} \\propto 1/m^*$；
+   - 证明在相对论有效质量 $m^*/m = 0.65$ 下，剪刀恢复刚度较裸质量硬化达 $53.8%$（$1.45 \\to 2.23\\text{ MeV}$），大幅推迟了低转动频率下的过早闭合，同时非惯性逆流 $\\delta\\vec{j}(\\vec{r})$ 对消部分对齐自旋，自洽重现了实验测定的动力学转动惯量；
+2. **手征-八极复合四重态中磁偶极跃迁选择定则与极向流相消微观机制**（`chiral-octupole-m1-selection-rules-and-polar-current-cancellation.md`，工件 `chiral-octupole-m1/`）：
+   - 严格证明磁偶极矢量算符的宇称内禀反演性质使其在无外加宇称杂质下（$h_P = 0$）跨宇称本征矩阵元严格为零，极向流在横向磁矩积分中发生空间相消；
+   - 只有当存在非绝热交叉杂质时才产生二阶小的跨宇称分支，确立了手征-八极四重带间 $M1$ 的禁戒与选择定则；
+3. **反磁转动四叶片剪刀临界闭合角速度 $\\omega_c$ 的全核区同位素定标律与壳效应调制**（`amr-shears-critical-frequency-isotopic-scaling-and-shell-modulation.md`，工件 `amr-scaling-laws/`）：
+   - 在 26 个候选核素上系统推演临界闭合角速度微观定标公式 $\\hbar\\omega_c = 3V_{\\pi\\nu}/(2j_p) \\propto A^{-1/3} [1 - \\kappa ((N-Z)/A)^2]$；
+   - 量化中子费米面穿行对有效准粒子角动量的调制，从微观有效相互作用角度阐明 AMR 现象为何严格集中于中子数 $N=56 - 66$ 的狭窄窗口；
+4. **锕系奇-A 核宇称双重态中直接电八极跃迁 $B(E3)$ 的微观角动量几何耦合**（`odd-a-actinide-parity-doublet-direct-e3-transitions-angular-coupling.md`，工件 `actinide-direct-e3/`）：
+   - 严格推导单准粒子耦合于反射不对称核芯时的直接电八极跃迁矩阵元；
+   - 证明 $K=1/2$ 态特有的八极退耦干涉项 $p_{\\text{oct}}$ 诱发 $\\Delta I = +3$ 跃迁与 $\\Delta I = -3$ 跃迁之间显著的代数交错不对称，澄清直接带间高自旋 $B(E3)$ 的强耦合几何极限。
+
+全量检查全绿（wiki_lint 0 error/352 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint114：配对绝热屏蔽、C-QRPA杂化声子、Schiff矩微扰求和与Cline不变量重构
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
