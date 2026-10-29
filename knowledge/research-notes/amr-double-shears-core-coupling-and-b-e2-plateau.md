@@ -18,6 +18,7 @@ tags: [110Cd, 104Pd, antimagnetic-rotation, double-shears, B(E2), dynamic-moment
 ## Research Trigger
 
 本轮任务检验两个相连的问题：110Cd Band B（16+–24+）和 104Pd 高自旋 yrast 带的寿命、Eγ、B(E2) 及 J^(2)/B(E2) 系统学；以及双剪刀的离散对称性、sin⁴θ 角因子和弱长椭核芯为何能让 B(E2) 保持有限。这里把实验事实、论文作者的粒子加转子解释、可复现的条件计算和本轮推断分开。
+相关条件性双剪刀闭合非对称与库仑模型见 [[amr-coulomb-repulsion-proton-blades-and-closing-asymmetry]]。
 
 ## Grounded Evidence
 
