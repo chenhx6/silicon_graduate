@@ -265,6 +265,17 @@ $S(I)=[E(I)-E(I-1)]/(2I)$ 只使用实验/量子能级，平滑或相近并非�
 - [[ba-microscopic-octupole-dipole-cancellation]]
 - [[pr135-shears-dynamics-bandcrossing-rebound]]
 - [[cd110-amr-double-shears-criteria]]
+- [[ba-e1-e3-sccm-orbital-occupancy-and-static-shape-audit]]
+- [[octupole-chiral-quadruplet-static-magnetic-moments-and-spin-decoupling]]
+- [[amr-coulomb-repulsion-proton-blades-and-closing-asymmetry]]
+- [[mr-quasiparticle-effective-mass-and-rotational-flow-back-reaction]]
+- [[chiral-octupole-m1-selection-rules-and-polar-current-cancellation]]
+- [[amr-shears-critical-frequency-isotopic-scaling-and-shell-modulation]]
+- [[odd-a-actinide-parity-doublet-direct-e3-transitions-angular-coupling]]
+- [[amr-cline-quadrupole-invariants-and-triaxial-core-evolution]]
+- [[cranked-qrpa-chiral-octupole-vibrational-phonons]]
+- [[odd-a-actinide-octupole-schiff-moment-perturbation-sum-rules]]
+- [[shears-pairing-fluctuation-screening-and-stiffness-evolution]]
 
 ## Review Status
 
