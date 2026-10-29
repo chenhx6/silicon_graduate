@@ -1,0 +1,73 @@
+{
+  "schema": "chiral-amr-3dtac-four-blade/v1",
+  "model_role": "symmetry-preserving Routhian diagnostic; not a fit",
+  "equations": {
+    "Routhian": "sum_k (I_k-j_k)^2/(2 J_k) - kappa_m omega_m^2 I_m^2/(2 I^2)",
+    "vectors": "j_p=(j_p,0,0), j_n=(0,0,j_n), R=I-j_p-j_n",
+    "chirality": "chi_g=j_p.(j_n x R)=-j_p*j_n*I_m",
+    "pitchfork": "even R(I_m), planar curvature changes sign; +/- I_m degenerate",
+    "M1": "B(M1)_proxy proportional to (I_m/I)^2, geometry only"
+  },
+  "parameters": {
+    "jp": 8.0,
+    "jn": 10.0,
+    "Js": 10.0,
+    "Jm": 18.0,
+    "Jl": 14.0,
+    "kappa_drive": 44.0,
+    "m1_scale": 1.0,
+    "e2_core": 0.06,
+    "e2_blade": 0.22,
+    "split_prefactor": 0.08,
+    "split_scale": 0.08,
+    "phi_tol_deg": 1.0
+  },
+  "scan": {
+    "spins": [
+      18,
+      22,
+      26,
+      30
+    ],
+    "omega_m_range": [
+      0.0,
+      0.8
+    ],
+    "theta_points": 721,
+    "phi_points": 721,
+    "representative_spin": 22,
+    "first_aplanar_row_at_I22": {
+      "theta_deg": 34.75,
+      "phi_deg_signed": -20.499999999999996,
+      "phi_deg_abs": 20.499999999999996,
+      "I_s": 11.745802540682725,
+      "I_m": -4.391575618214964,
+      "I_l": 18.076232634727603,
+      "R_m": -4.391575618214964,
+      "chi_g_signed": 351.32604945719714,
+      "chi_g_abs": 351.32604945719714,
+      "order_parameter_q": 0.19961707355522565,
+      "B_M1_proxy": 0.03984697605475237,
+      "B_E2_proxy": 0.26281664246606473,
+      "partner_splitting_proxy_MeV": 0.07570875617407614,
+      "barrier_proxy_MeV": 0.0044106249210491555,
+      "I": 22,
+      "omega_m": 0.51,
+      "planar_phi_curvature_MeV": -0.12334487622511808,
+      "mode": "aplanar_chiral_candidate"
+    },
+    "max_mirror_abs_chi_difference": 4.547473508864641e-13
+  },
+  "interpretation": [
+    "At low omega_m the four blades and core vector are planar and the ideal AMR M1 proxy is zero.",
+    "Increasing the symmetric intermediate-axis drive softens the planar curvature and creates equal +/- handed minima.",
+    "The partner splitting and B(M1)/B(E2) values are model proxies; no laboratory transition rate is predicted.",
+    "A signed linear omega_m I_m term would explicitly select one handedness and remove the pitchfork."
+  ],
+  "source_premises": [
+    "Frauendorf and Meng 1997; Frauendorf 2001, planar/aplanar TAC geometry.",
+    "Frauendorf 2001, AMR double-shears and transverse magnetic cancellation.",
+    "mr-amr-to-chiral-topological-transition-mechanisms.md, 106Ag candidate/alternative explanation boundary.",
+    "cd110-amr-double-shears-criteria.md, 106Cd-like ideal AMR diagnostics."
+  ]
+}

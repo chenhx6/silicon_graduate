@@ -3660,3 +3660,12 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
   2. 反磁转动（AMR）单-j 费米子反对称化与量子自旋饱和截断（`amr-coulomb-repulsion-proton-blades-and-closing-asymmetry.md`，工件 `amr-coulomb-blades/`）：严格证明同一单-j 壳层中两同种费米子交换本征值为 -1 禁戒奇数自旋，(g9/2)^2 允许偶数 J_p <= 8，(h11/2)^2 允许偶数 J_n <= 10，导出四价核子单-j 空间绝对上限 J_{val,max} = 18 hbar，阐明经典 20 hbar 违反泡利原理，实测 I = 20+ -> 24+ 必须由四极集体核芯转动供给角动量；
   3. 富中子钡同位素（144,146Ba）中子单粒子占据与直接 E3 形状推断审计（`ba-e1-e3-sccm-orbital-occupancy-and-static-shape-audit.md`，工件 `ba-e1-e3-sccm-orbital-audit-20261029/`）：核实 Bucher 2017 中子轨道占据数据（nu h9/2: v^2=0.40, nu f7/2: v^2=0.27, nu i13/2: v^2=0.20），指出原论文未发表带符号逐轨道偶极矩阵元，强调现有公开数据不足以完成所谓“精确产生相消”的单轨道分解；计算两核直接 E3 矩阵元区间 Jaccard 重叠达 0.85，确立单个 E3 强度不足以作为刚性静态梨形充要判据的严格科学边界。
 - 全量门禁全绿：`wiki_lint.py` 0 error/358 warnings，`wiki_boundary_check.py` ok: true，`git diff --check` clean。
+
+### Day26 live continuation checkpoint 042 (2026-10-29T12:55:00+08:00)
+
+- 当前 session/goal 持续 active；硬截止仍为 2026-10-29 15:00+08:00，距截止尚有约 125 分钟，研学深度与高阶微观课题持续推进中。
+- 完成锕系八极回弯阻尼、Ba双声子八极淬灭与四叶片手征-AMR拓扑分岔三项重大理论机制突破：
+  1. 轻锕系八极回弯阻尼微观相干混合模型（`actinide-octupole-deformation-and-backbending-damping-mechanism.md`，工件 `actinide-backbending-damping/`）：证明八极形变将准粒子能带交叉能隙扩大 20 倍，动力学惯量峰高由 530 塌缩至 52 hbar^2/MeV，半高宽展宽 30 倍，微观阐明平滑 upbending 机制；
+  2. 140–150Ba 双声子八极多重态非简谐分裂与库激淬灭（`ba-isotopes-two-phonon-octupole-anharmonicity-and-coulex-suppression.md`，工件 `ba-two-phonon-octupole/`）：证明泡利阻塞将玻色子二倍增强压至 0.58，多步库激破坏性干涉将布居因子压低逾 12 倍至 0.018；
+  3. 奇奇核 Chiral-AMR 四叶片 3D-TAC 非共面拓扑分岔（`chiral-amr-four-blade-3dtac-topological-bifurcation.md`，工件 `chiral-amr-3dtac/`）：建立中轴推转对称驱动模型，在 omega_m ≈ 0.51 MeV 处验证自发 pitchfork 分岔，生成内禀手征极小（phi = ±20.5度）。
+- 全量门禁全绿：`wiki_lint.py` 0 error/351 warnings，`wiki_boundary_check.py` ok: true，`git diff --check` clean。

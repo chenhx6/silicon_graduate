@@ -1,0 +1,86 @@
+{
+  "model": "cranked two-configuration avoided-crossing toy model",
+  "units": {
+    "energy": "MeV",
+    "hbar_omega": "MeV",
+    "spin": "hbar",
+    "J2": "hbar^2/MeV"
+  },
+  "orbit_pairs": {
+    "proton": {
+      "orbitals": "1f7/2 <-> 1i13/2",
+      "delta_l": 3,
+      "delta_j": 3,
+      "v3": 3.8,
+      "pairing_gap": 0.82
+    },
+    "neutron": {
+      "orbitals": "1g9/2 <-> 1j15/2",
+      "delta_l": 3,
+      "delta_j": 3,
+      "v3": 4.2,
+      "pairing_gap": 0.78
+    }
+  },
+  "betas": [
+    0.0,
+    0.03,
+    0.06,
+    0.1,
+    0.15
+  ],
+  "n_grid": 801,
+  "formulae": {
+    "H": "[[E_A(omega), V_pair+V3 beta3],[..., E_B(omega)]]",
+    "I": "-dE_routhian/d(hbar omega)",
+    "J2": "dI/d(hbar omega)"
+  },
+  "summaries": [
+    {
+      "beta3": 0.0,
+      "peak_J2": 530.1772153206912,
+      "peak_omega_MeV": 0.232,
+      "max_dJ2_width_proxy": 0.008,
+      "Delta_eff_MeV": 0.82,
+      "V_oct_MeV": 0.0,
+      "crossing_gap_MeV": 0.06
+    },
+    {
+      "beta3": 0.03,
+      "peak_J2": 133.48019261184163,
+      "peak_omega_MeV": 0.233,
+      "max_dJ2_width_proxy": 0.038,
+      "Delta_eff_MeV": 0.8155957827730256,
+      "V_oct_MeV": 0.11399999999999999,
+      "crossing_gap_MeV": 0.287357211262089
+    },
+    {
+      "beta3": 0.06,
+      "peak_J2": 86.25005708688514,
+      "peak_omega_MeV": 0.23500000000000001,
+      "max_dJ2_width_proxy": 0.077,
+      "Delta_eff_MeV": 0.802662490211433,
+      "V_oct_MeV": 0.22799999999999998,
+      "crossing_gap_MeV": 0.5134896258053913
+    },
+    {
+      "beta3": 0.1,
+      "peak_J2": 64.14767225032847,
+      "peak_omega_MeV": 0.23800000000000002,
+      "max_dJ2_width_proxy": 0.139,
+      "Delta_eff_MeV": 0.7735849056603773,
+      "V_oct_MeV": 0.38,
+      "crossing_gap_MeV": 0.8133997864008544
+    },
+    {
+      "beta3": 0.15,
+      "peak_J2": 52.325352937259595,
+      "peak_omega_MeV": 0.244,
+      "max_dJ2_width_proxy": 0.23800000000000002,
+      "Delta_eff_MeV": 0.7224669603524229,
+      "V_oct_MeV": 0.57,
+      "crossing_gap_MeV": 1.1865757146461215
+    }
+  ],
+  "evidence_boundary": "Illustrative mechanism model; parameters are not a self-consistent HFB fit to 220-228Th or 222-228Ra."
+}

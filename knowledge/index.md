@@ -40,6 +40,7 @@ updated: 2026-10-28
 - [[e3-ewsr-transition-density-boundary]] — E3能量加权和规则双归一化、首态部分和与Tassie/RPA跃迁密度边界。
 - [[mr-to-chiral-topology-odd-odd-106ag-134pr-198bi]] — 奇奇核从平面剪刀向三维手征转动的拓扑相变：几何非共面、中轴惯量与双阱势垒。
 - [[mr-amr-to-chiral-topological-transition-mechanisms]] — MR/AMR 到非平面手征转动的几何分岔、离散对称、106Ag/106Cd/198Bi证据边界与可复现诊断。
+- [[chiral-amr-four-blade-3dtac-topological-bifurcation]] — 奇奇核两质子空穴+两中子粒子四叶片在中轴推转幅度驱动下的 3D-TAC Routhian pitchfork、非共面 χ_g、M1 解除禁戒和 106Ag/106Cd 对照；含可复现扫描工件。
 - [[chiral-octupole-m1-selection-rules-and-polar-current-cancellation]] — 三轴八极奇奇核手征-八极四重态（|L,±⟩, |R,±⟩）的离散对称性、单纯形分类、多通道跃迁选择定则及 M1 极向流相消边界。
 - [[mxd-multiple-chiral-doublets-octupole-coupling-boundary]] — 同核多重手征能带（MχD: 133Ce, 135Nd）与八极自由度共存、组态演化与跃迁网络判定边界。
 - [[beta2-beta3-octupole-topology-boundary]] — 四极—八极势能面拓扑适用边界：中等四极窗口去普适化与准粒子响应分析。
@@ -87,6 +88,7 @@ updated: 2026-10-28
 - [[octupole-sum-rule-static-dynamic-identifiability]] — 222/228Ra多跃迁E3图样与静态/动态可辨识性边界。
 - [[octupole-cline-invariants-and-dynamic-softness-criterion]] — Cline旋转不变量闭合、`Q3²/Q2Q3²` 归一、简谐零点涨落与144/146Ba、224Ra的静态/动态判据边界。
 - [[two-phonon-octupole-multiplets-damping-and-coulex-suppression]] — 两声子八极 `0+,2+,4+,6+` 的简谐基线、doorway碎片化阻尼与IVGDR相消的示意模型及证据边界。
+- [[ba-isotopes-two-phonon-octupole-anharmonicity-and-coulex-suppression]] — `140–150Ba` 双声子八极多重态非简谐分裂、Pauli/4p–4h 淬灭和多步库仑激发相消的可复现扫描与证据边界。
 
 - [[butler-2020-222-228ra-octupole-evolution]] — 222/228Ra多跃迁E3系统学与静态/振动竞争解释。
 
@@ -966,6 +968,7 @@ updated: 2026-10-28
 - [[cranked-qrpa-chiral-octupole-vibrational-phonons]] - 三轴八极形变核中的推转准粒子随机相位近似（C-QRPA）、手征出平面摆动与八极振动声子的转动软化、避免能级交叉与相干杂化，以及 $B(M1), B(E1), B(E2), B(E3)$ 跃迁几率的动力学突变；含完整的可复现 Python 辛矩阵求解器与 $^{78}\text{Br}, ^{133}\text{Ce}, ^{135}\text{Nd}$ 对账工件。
 
 - [[cns-high-spin-octupole-phase-transitions-in-neutron-rich-ba]] - 宏观-微观 CNS-inspired `beta2-gamma-beta3` 势能面、`144,146,148Ba` 的低自旋离心稳定化与高-j alignment 淬灭竞争；含完整网格、极小路径、交错位移工件与证据边界。
+- [[actinide-octupole-deformation-and-backbending-damping-mechanism]] - 轻锕系 `Δl=Δj=3` 八极轨道混合、配对削弱与高自旋 backbending 阻尼；含可复现两构型推转 Hamiltonian、`J^(2)(ω)` 扫描和 Th/Ra 证据边界。
 
 - [[odd-odd-octupole-simplex-signature-coupling-and-decoupling]] - `^{220,222}Fr` 与 `^{224}Ac` 奇奇八极四重态的 simplex/signature 耦合、双粒子 Coriolis、宇称依赖退耦常数和 E1/E2/M1 选择定则；含固定-M Coriolis 矩阵与现象学四分支 CSV/JSON/图表工件。
 

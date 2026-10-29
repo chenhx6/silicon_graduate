@@ -168,6 +168,12 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 82. **反磁转动（AMR）单-$j$ 费米子反对称化与量子自旋饱和截断**（checkpoint 119，[[amr-coulomb-repulsion-proton-blades-and-closing-asymmetry]]，工件 `amr-coulomb-blades/`）：严格证明同一单-$j$ 壳层中两同种费米子交换本征值为 $-1$ 禁戒奇数自旋，$(g_{9/2})^2$ 允许偶数 $J_p \le 8$，$(h_{11/2})^2$ 允许偶数 $J_n \le 10$，导出四价核子单-$j$ 截断空间绝对上限 $J_{\text{val,max}} = 18\hbar$，阐明经典 $20\hbar$ 违反泡利原理，实测高自旋态（$I = 20^+ \to 24^+$）必须由四极集体核芯转动供给角动量；
 83. **富中子钡同位素（$^{144,146}\text{Ba}$）中子单粒子占据与直接 $E3$ 形状推断审计**（checkpoint 119，[[ba-e1-e3-sccm-orbital-occupancy-and-static-shape-audit]]，工件 `ba-e1-e3-sccm-orbital-audit-20261029/`）：核实 Bucher 2017 中子轨道占据数据（$\nu h_{9/2}: v^2=0.40, \nu f_{7/2}: v^2=0.27, \nu i_{13/2}: v^2=0.20$），指出原论文未发表带符号逐轨道偶极矩阵元，强调现有公开数据不足以完成所谓“精确产生相消”的单轨道分解；计算两核直接 $E3$ 矩阵元区间 Jaccard 重叠达 0.85，确立单个 $E3$ 强度不足以作为刚性静态梨形充要判据的严格科学边界。
 
+### Checkpoint 120 锕系八极回弯阻尼、Ba双声子八极淬灭与四叶片手征-AMR拓扑分岔
+
+84. **轻锕系八极形变与高自旋 backbending 阻尼的微观机制**（checkpoint 120，[[actinide-octupole-deformation-and-backbending-damping-mechanism]]，工件 `actinide-backbending-damping/`）：构建八极耦合与对力推转两能级模型，证明从 $\beta_3 = 0$ 到 $0.15$ 八极矩阵元将交叉能隙扩大近 20 倍（$0.060 \to 1.187\text{ MeV}$），$\mathcal{J}^{(2)}$ 回弯峰高塌缩 $90\%$（$530 \to 52\ \hbar^2/\text{MeV}$），半高宽展宽 30 倍，从微观相干混合角度揭示回弯阻尼平滑 upbending 机制；
+85. **140–150Ba 双声子八极多重态的非简谐分裂、Pauli/4p–4h 淬灭与库仑激发抑制**（checkpoint 120，[[ba-isotopes-two-phonon-octupole-anharmonicity-and-coulex-suppression]]，工件 `ba-two-phonon-octupole/`）：量化泡利不相容原理与 4p-4h 相互作用对理想玻色子二倍增强的压低，证明 $Q_B$ 从 $0.685$ 跌至 $0.288$，理论两步库仑激发相消干涉使布居因子剧降至 $0.018$，自洽解释直接多步库激未见高能双声子退激光子的物理根源；
+86. **奇奇核 Chiral-AMR 四叶片 3D-TAC 非共面拓扑分岔**（checkpoint 120，[[chiral-amr-four-blade-3dtac-topological-bifurcation]]，工件 `chiral-amr-3dtac/`）：建立中间轴推转分量 $\omega_m$ 驱动的四叶片 3D-TAC 模型，揭示在临界频率 $\omega_m \approx 0.51\text{ MeV}$ 处系统发生自发 pitchfork 拓扑分岔，激发出出平面镜像手征极小（$\phi = \pm 20.5^\circ, |\chi_g| = 351.33$），诱发非零带内 $M1$ 跃迁与伙伴能级劈裂，阐明 $^{106}\text{Ag}$ 与 $^{106}\text{Cd}$ 的不同转动模式本质。
+
 5. **110Cd 动态惯量与跃迁比 J(2)/B(E2) 离散微商定域鲁棒性**（工件 `cd110-j2-centering-sensitivity-057.py/json`）：系统评估跃迁对齐（Definition A）与能级中心内插（Definition B）两种微商方案，证实无论是初态对齐（$115.7 - 341.3\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$）还是中心内插（$108.3 - 328.8$），该比值均牢固高出常规集体转动（$15 - 40$）达 4 到 10 倍，证实 AMR 判据比不受离散求导约定的影响；
 6. **有限 j 量子剪刀 Racah 6j 严格矩阵元与端点零点强度**（工件 `quantum-shears-6j-racah-model-058.py/json`）：采用角动量代数严格重耦合公式，以 $^{135}\text{Pr}$ 3qp 态（$j_p=5.5, j_n=10.0$）为例逐点核算，证明半经典 Macchiavelli 公式在自旋接近终止端点时高估衰减速率，并在端点 $I_{\text{max}} = j_p + j_n = 15.5$ 虚假归零；而精确量子代数证实非对易角动量零点涨落保留高达 $B(M1)_{\text{quant}} = 1.7081\ \mu_N^2$ 的非零跃迁强度；
 7. **135Pr 813.3 keV 混合比 delta(E2/M1) 与 M1 纯度定界**（工件 `pr135-mixing-ratio-polarization-bounds-059.py/json`）：结合 Compton 散射探测灵敏度 $Q \approx 0.22$，修正后的微弱偏振不对称度 $P = +0.04(3)$ 与 $R_{\text{DCO}} = 0.98(5)$ 严格限制了多极混合比 $\delta(E2/M1) \in [0.10, 0.19]$；由此定量导出其磁偶极辐射分支纯度高达 $M1_{\text{frac}} \ge 96.5\%$（电四极混杂 $< 3.5\%$），彻底澄清了勘误中的“$M1+E2$ 混合”仅为弱混杂，绝不削弱磁转动剪刀辐射由 M1 主导的物理图景；
@@ -492,6 +498,39 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
         {
           "path": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
           "locator": "L16-5-14"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/actinide-octupole-deformation-and-backbending-damping-mechanism.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "轻锕系八极形变对高自旋能带交叉能隙的20倍展宽与J(2)回弯峰高90%阻尼微观机制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+          "locator": "BN96-D26-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/ba-isotopes-two-phonon-octupole-anharmonicity-and-coulex-suppression.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "140-150Ba双声子八极多重态微观Pauli/4p-4h淬灭与多步库激干涉相消抑制机制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
+          "locator": "BU16-D26-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/chiral-amr-four-blade-3dtac-topological-bifurcation.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "四叶片3D-TAC模型在中间轴推转下的pitchfork自发手征拓扑分岔与非零带内M1诱发机制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-4-9"
         }
       ]
     }
