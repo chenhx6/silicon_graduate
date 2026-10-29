@@ -1,0 +1,233 @@
+{
+  "schema": "odd-a-octupole-coriolis-inversion/v1",
+  "model": "Delta(I)=d0+dA[I(I+1)-K^2]+dC*(-1)^(I+1/2)(I+1/2) for K=1/2; dC=0 for K>=3/2",
+  "microscopic_mapping": "dC=A*(a_plus-a_minus), with a difference generated at second order by V3(Delta j=3) and HC; direct <+,K|HC|-,K>=0 by parity",
+  "datasets": {
+    "225Ra": {
+      "K": 0.5,
+      "parameters": {
+        "d0_keV": 31.313172413793097,
+        "dA_keV": 0.438,
+        "dC_keV": -20.4283448275862
+      },
+      "rows": [
+        {
+          "I": 0.5,
+          "E_plus_keV": 0.0,
+          "E_minus_keV": 55.16,
+          "delta_exp_keV": 55.16,
+          "x": 0.5,
+          "signature_kernel": -1.0,
+          "delta_calc_keV": 51.9605172413793,
+          "residual_keV": 3.1994827586206966,
+          "sign_reversal": false
+        },
+        {
+          "I": 1.5,
+          "E_plus_keV": 42.77,
+          "E_minus_keV": 31.56,
+          "delta_exp_keV": -11.210000000000004,
+          "x": 3.5,
+          "signature_kernel": 2.0,
+          "delta_calc_keV": -8.010517241379304,
+          "residual_keV": -3.1994827586207,
+          "sign_reversal": false
+        },
+        {
+          "I": 2.5,
+          "E_plus_keV": 25.41,
+          "E_minus_keV": 120.36,
+          "delta_exp_keV": 94.95,
+          "x": 8.5,
+          "signature_kernel": -3.0,
+          "delta_calc_keV": 96.3212068965517,
+          "residual_keV": -1.3712068965516977,
+          "sign_reversal": false
+        },
+        {
+          "I": 3.5,
+          "E_plus_keV": 111.6,
+          "E_minus_keV": 69.36,
+          "delta_exp_keV": -42.239999999999995,
+          "x": 15.5,
+          "signature_kernel": 4.0,
+          "delta_calc_keV": -43.61120689655171,
+          "residual_keV": 1.371206896551712,
+          "sign_reversal": false
+        }
+      ]
+    },
+    "225Ac": {
+      "K": 1.5,
+      "parameters": {
+        "d0_keV": 41.536376146789,
+        "dA_keV": -1.0162385321100922,
+        "dC_keV": 0.0
+      },
+      "rows": [
+        {
+          "I": 1.5,
+          "E_plus_keV": 0.0,
+          "E_minus_keV": 40.1,
+          "delta_exp_keV": 40.1,
+          "x": 1.5,
+          "signature_kernel": 0.0,
+          "delta_calc_keV": 40.01201834862386,
+          "residual_keV": 0.08798165137613978,
+          "sign_reversal": false
+        },
+        {
+          "I": 2.5,
+          "E_plus_keV": 29.91,
+          "E_minus_keV": 64.69,
+          "delta_exp_keV": 34.78,
+          "x": 6.5,
+          "signature_kernel": 0.0,
+          "delta_calc_keV": 34.930825688073405,
+          "residual_keV": -0.1508256880734038,
+          "sign_reversal": false
+        },
+        {
+          "I": 3.5,
+          "E_plus_keV": 77.13,
+          "E_minus_keV": 105.01,
+          "delta_exp_keV": 27.88000000000001,
+          "x": 13.5,
+          "signature_kernel": 0.0,
+          "delta_calc_keV": 27.81715596330276,
+          "residual_keV": 0.0628440366972498,
+          "sign_reversal": false
+        }
+      ]
+    },
+    "145Ba": {
+      "status": "model-only control; no parity-doublet fit",
+      "rows": [
+        {
+          "I": 2.5,
+          "K": 2.5,
+          "delta_exp_keV": null,
+          "role": "model-only blocking control",
+          "source": "nomura-2018-odd-mass-ba-octupole"
+        }
+      ]
+    }
+  },
+  "scan": [
+    {
+      "q3_mix": 0.0,
+      "delta_j": 3,
+      "orbital_gap_MeV": 0.5,
+      "effective_coriolis_asymmetry": 0.0,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 0.0,
+      "delta_j": 3,
+      "orbital_gap_MeV": 1.0,
+      "effective_coriolis_asymmetry": 0.0,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 0.0,
+      "delta_j": 3,
+      "orbital_gap_MeV": 2.0,
+      "effective_coriolis_asymmetry": 0.0,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 0.25,
+      "delta_j": 3,
+      "orbital_gap_MeV": 0.5,
+      "effective_coriolis_asymmetry": 0.5,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 0.25,
+      "delta_j": 3,
+      "orbital_gap_MeV": 1.0,
+      "effective_coriolis_asymmetry": 0.25,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 0.25,
+      "delta_j": 3,
+      "orbital_gap_MeV": 2.0,
+      "effective_coriolis_asymmetry": 0.125,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 0.5,
+      "delta_j": 3,
+      "orbital_gap_MeV": 0.5,
+      "effective_coriolis_asymmetry": 1.0,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 0.5,
+      "delta_j": 3,
+      "orbital_gap_MeV": 1.0,
+      "effective_coriolis_asymmetry": 0.5,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 0.5,
+      "delta_j": 3,
+      "orbital_gap_MeV": 2.0,
+      "effective_coriolis_asymmetry": 0.25,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 0.75,
+      "delta_j": 3,
+      "orbital_gap_MeV": 0.5,
+      "effective_coriolis_asymmetry": 1.5,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 0.75,
+      "delta_j": 3,
+      "orbital_gap_MeV": 1.0,
+      "effective_coriolis_asymmetry": 0.75,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 0.75,
+      "delta_j": 3,
+      "orbital_gap_MeV": 2.0,
+      "effective_coriolis_asymmetry": 0.375,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 1.0,
+      "delta_j": 3,
+      "orbital_gap_MeV": 0.5,
+      "effective_coriolis_asymmetry": 2.0,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 1.0,
+      "delta_j": 3,
+      "orbital_gap_MeV": 1.0,
+      "effective_coriolis_asymmetry": 1.0,
+      "interpretation": "V3*HC second-order proxy"
+    },
+    {
+      "q3_mix": 1.0,
+      "delta_j": 3,
+      "orbital_gap_MeV": 2.0,
+      "effective_coriolis_asymmetry": 0.5,
+      "interpretation": "V3*HC second-order proxy"
+    }
+  ],
+  "diagnostics": {
+    "Ra_max_abs_residual_keV": 3.1994827586207,
+    "Ac_max_abs_residual_keV": 0.1508256880734038,
+    "Ra_observed_negative_delta_at_I": [
+      1.5,
+      3.5
+    ],
+    "Ac_observed_negative_delta_at_I": []
+  },
+  "evidence_boundary": "ENSDF evaluated energies constrain the effective fit; they do not identify orbital amplitudes or prove static octupole deformation."
+}

@@ -4782,3 +4782,8 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. AMR微观四极恢复常数（amr-microscopic-quadrupole-shears-restoring-constant.md，工件 amr-restoring-constant/）：条件推导C_AMR=2C_MR，χ2反演仅作模型proxy；
   3. 超重核八极裂变WKB（superheavy-octupole-fission-barrier-lowering-and-halflife.md，工件 superheavy-octupole-fission-barrier/）：254No/256Rf toy势垒降低1.134/1.445 MeV，Δlog10(Tsf)=-2.456/-3.760，明确缺少目标核直接定量证据；
   4. 门禁：前述三页已补齐法定schema章节；全库lint保持0 error，boundary ok，diff-check clean。
+- 2026-10-29T13:35:00+08:00 Day26 checkpoint122：AMR非简谐零点涨落、奇A八极科里奥利反转与MR-手征-SD三阱分岔。
+  1. AMR非简谐四叶片微振动与零点量子涨落重整化（amr-anharmonic-four-blade-vibrations-and-zero-point-fluctuations.md，工件 amr-anharmonic-phonons/）：构建剪刀角非简谐展开哈密顿量，求解零点微振基态能 0.1142 MeV，证明在剪刀闭合端点处零点角坐标四阶涨落防止辐射张量完全消失，提供 B(E2)_res ~ 0.017 e2b2 残余平台；
+  2. 奇-A 锕系与稀土核中八极科里奥利反转与宇称退耦振荡（odd-a-octupole-coriolis-inversion-and-parity-decoupling-oscillations.md，工件 odd-a-octupole-coriolis/）：严格证明异宇称微观轨道二阶混合产生相反符号科里奥利退耦项 a(+) != a(-)，在 225Ra（K=1/2）中微观反演给出 A delta a = -20.43 keV 压倒势垒重现“宇称倒转”，而在 225Ac（K=3/2）中呈现单调劈裂；
+  3. 磁转动向手征性与超形变分岔的三维超曲面与隧穿动力学（mr-chiral-sd-multivalley-bifurcation-and-tunneling.md，工件 mr-chiral-sd-multivalley/）：构建 (beta2, theta, phi) 统一三维推转 Routhian 超曲面，在 32 个频率网格上完成 minimax 鞍点搜索与半经典 WKB 作用量积分，重现高频下平面剪刀向非共面手征双阱与高形变 SD 势阱的分岔与竞争图景；
+  4. 全量检查全绿：wiki_lint.py 0 error/357 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

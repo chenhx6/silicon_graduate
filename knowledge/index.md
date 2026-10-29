@@ -14,6 +14,7 @@ updated: 2026-10-28
 - [[sd-mr-dual-well-coexistence-pb190-boundary]] — A≈190 铅区 193/196Pb 同核 SD/MR 共存、SD 四极矩与 MR 剪刀证据边界；含可复现双阱尺度模型。
 - [[amr-cline-quadrupole-invariants-and-triaxial-core-evolution]] — 反磁转动能带中电四极 Cline 旋转不变量重构与有效三轴核芯演化；含110Cd/104Pd完全矩阵元网络、求和截断误差与可复现工件。
 - [[amr-microscopic-quadrupole-shears-restoring-constant]] — 从粒子—空穴四极残余作用推导等权四叶片 AMR 的条件恢复常数 `C_AMR=2C_MR`，并用110Cd/104Pd `J^(2)` 给出带边界的 `chi_2` 曲率代理。
+- [[amr-anharmonic-four-blade-vibrations-and-zero-point-fluctuations]] — 围绕经典剪刀平衡角的非简谐声子哈密顿量、零点能与角涨落；端点 `<theta^4>` 产生 `0.01–0.03 e²b²` 有效残余平台的条件扫描。
 - [[amr-vpinu-neutron-number-core-polarization-audit]] — 同N的104Pd/106Cd Vπν归一、核芯极化与中子数演化的条件微观推导。
 - [[mr-amr-band-termination-and-extreme-spin-limits]] — MR/AMR剪刀闭合、固定组态最大自旋、终止附近 (B(M1))/(B(E2))/(J^{(2)}) 与交叉重开判据。
 - [[pohl-1996-107108pd-highspin-metadata]] — 107,108Pd高自旋谱学原件入口；正文未取得。
@@ -29,6 +30,7 @@ updated: 2026-10-28
 - [[ba-e1-e3-model-boundary-046]] — 144/146Ba E1/E3单位、SCCM算符核与实验/模型证据层。
 - [[odd-a-octupole-blocking-parity-doublets]] — 奇A核八极阻塞效应与宇称双重态：145Ba微观淬灭与225Ra Coriolis旋称交错反转。
 - [[odd-a-actinide-parity-doublet-direct-e3-transitions-angular-coupling]] — 奇A锕系宇称双重态直接E3的Q30、CG几何、K=1/2退耦交错与Coriolis非绝热边界；含223,225Ra和225,227Ac可复现角耦合网络。
+- [[odd-a-octupole-coriolis-inversion-and-parity-decoupling-oscillations]] — 奇A八极Δj=3轨道混合诱发的有效Coriolis退耦差、225Ra在3/2和7/2的表观排序反转、225Ac的K=3/2平滑分裂；含三参数拟合与可复现扫描工件。
 - [[odd-a-octupole-spectroscopic-factors-and-core-polarization]] — 奇A八极带单粒子转移谱因子、粒子—八极声子混合与核芯极化；225Ra/225Ac转移与磁矩证据缺口及可复现模型工件。
 - [[ba-ra-blocking-cancellation-operator-boundary]] — Ba/Ra微观八极与偶极算符核边界：选择定则、自洽阻塞与Schiff响应分层。
 - [[pr135-mr-crossing-racah-polarization-source-boundary]] — 135Pr能带交叉、Racah重耦合与偏振原件边界：5qp组态修正与非单调反弹核定。
@@ -41,6 +43,7 @@ updated: 2026-10-28
 - [[e3-ewsr-transition-density-boundary]] — E3能量加权和规则双归一化、首态部分和与Tassie/RPA跃迁密度边界。
 - [[mr-to-chiral-topology-odd-odd-106ag-134pr-198bi]] — 奇奇核从平面剪刀向三维手征转动的拓扑相变：几何非共面、中轴惯量与双阱势垒。
 - [[mr-amr-to-chiral-topological-transition-mechanisms]] — MR/AMR 到非平面手征转动的几何分岔、离散对称、106Ag/106Cd/198Bi证据边界与可复现诊断。
+- [[mr-chiral-sd-multivalley-bifurcation-and-tunneling]] — 统一 `(beta2, theta, phi)` 三维 Routhian 中 MR、手征与 SD 多极小的频率分岔、minimax 势垒和相对 WKB 分支比；参数为示例模型。
 - [[chiral-amr-four-blade-3dtac-topological-bifurcation]] — 奇奇核两质子空穴+两中子粒子四叶片在中轴推转幅度驱动下的 3D-TAC Routhian pitchfork、非共面 χ_g、M1 解除禁戒和 106Ag/106Cd 对照；含可复现扫描工件。
 - [[chiral-octupole-m1-selection-rules-and-polar-current-cancellation]] — 三轴八极奇奇核手征-八极四重态（|L,±⟩, |R,±⟩）的离散对称性、单纯形分类、多通道跃迁选择定则及 M1 极向流相消边界。
 - [[mxd-multiple-chiral-doublets-octupole-coupling-boundary]] — 同核多重手征能带（MχD: 133Ce, 135Nd）与八极自由度共存、组态演化与跃迁网络判定边界。

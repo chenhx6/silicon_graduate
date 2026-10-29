@@ -180,6 +180,12 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 88. **AMR 微观四极恢复常数与 MR 对比**（checkpoint 121，[[amr-microscopic-quadrupole-shears-restoring-constant]]，工件 `amr-restoring-constant/`）：从粒子—空穴四极—四极相互作用推导条件关系 $C_{\\mathrm{MR}}=\\frac32\\chi_2q_pq_n$、$C_{\\mathrm{AMR}}=3\\chi_2q_pq_n=2C_{\\mathrm{MR}}$；明确二倍硬化依赖等权双叶、交换偶投影与统一角坐标，$\\chi_2$ 反演仅作模型 proxy；
 89. **超重核八极裂变势垒降低与自发裂变半衰期调控**（checkpoint 121，[[superheavy-octupole-fission-barrier-lowering-and-halflife]]，工件 `superheavy-octupole-fission-barrier/`）：以参数化 WKB 对比 254No 与 256Rf 的反射对称/八极路径，得到势垒降低分别 1.134 与 1.445 MeV、$\\Delta\\log_{10}T_{\\mathrm{sf}}=-2.456$ 与 −3.760；结果严格标为 toy 模型，不能替代自洽 EDF/ATDHFB 或目标核直接数据。
 
+### Checkpoint 122 AMR非简谐零点涨落、奇A八极科里奥利反转与MR-手征-SD三阱分岔
+
+90. **反磁转动（AMR）中非简谐四叶片振动与零点量子涨落重整化**（checkpoint 122，[[amr-anharmonic-four-blade-vibrations-and-zero-point-fluctuations]]，工件 `amr-anharmonic-phonons/`）：构建围绕剪刀平衡角的非简谐展开哈密顿量，求解零点微振基态能 $0.1142\text{ MeV}$，证明在剪刀闭合端点处零点角坐标四阶涨落 $\langle\theta^4\rangle = 0.1367\text{ rad}^4$ 防止辐射张量完全消失，提供 $B(E2)_{\text{res}} \sim 0.017\ e^2\text{b}^2$ 残余平台；
+91. **奇-A 锕系与稀土核中八极科里奥利反转与宇称退耦振荡机制**（checkpoint 122，[[odd-a-octupole-coriolis-inversion-and-parity-decoupling-oscillations]]，工件 `odd-a-octupole-coriolis/`）：严格证明异宇称微观轨道二阶混合产生相反符号科里奥利退耦项 $a^{(+)} \ne a^{(-)}$，在 $^{225}\text{Ra}$（$K=1/2$）中微观反演给出 $A\delta a = -20.43\text{ keV}$ 压倒势垒，重现 $I=3/2, 7/2$ 处“宇称倒转”，而在 $^{225}\text{Ac}$（$K=3/2$）中退耦项消失呈现单调劈裂；
+92. **磁转动向手征性与超形变分岔的三维超曲面与隧穿动力学**（checkpoint 122，[[mr-chiral-sd-multivalley-bifurcation-and-tunneling]]，工件 `mr-chiral-sd-multivalley/`）：构建 $(\beta_2, \theta, \phi)$ 统一三维推转 Routhian 超曲面，在 32 个频率网格上完成 minimax 鞍点搜索与半经典 WKB 作用量积分，重现高频下平面剪刀向非共面手征双阱与高形变 SD 势阱的分岔与竞争图景。
+
 5. **110Cd 动态惯量与跃迁比 J(2)/B(E2) 离散微商定域鲁棒性**（工件 `cd110-j2-centering-sensitivity-057.py/json`）：系统评估跃迁对齐（Definition A）与能级中心内插（Definition B）两种微商方案，证实无论是初态对齐（$115.7 - 341.3\ \hbar^2\text{MeV}^{-1}(e^2\text{b}^2)^{-1}$）还是中心内插（$108.3 - 328.8$），该比值均牢固高出常规集体转动（$15 - 40$）达 4 到 10 倍，证实 AMR 判据比不受离散求导约定的影响；
 6. **有限 j 量子剪刀 Racah 6j 严格矩阵元与端点零点强度**（工件 `quantum-shears-6j-racah-model-058.py/json`）：采用角动量代数严格重耦合公式，以 $^{135}\text{Pr}$ 3qp 态（$j_p=5.5, j_n=10.0$）为例逐点核算，证明半经典 Macchiavelli 公式在自旋接近终止端点时高估衰减速率，并在端点 $I_{\text{max}} = j_p + j_n = 15.5$ 虚假归零；而精确量子代数证实非对易角动量零点涨落保留高达 $B(M1)_{\text{quant}} = 1.7081\ \mu_N^2$ 的非零跃迁强度；
 7. **135Pr 813.3 keV 混合比 delta(E2/M1) 与 M1 纯度定界**（工件 `pr135-mixing-ratio-polarization-bounds-059.py/json`）：结合 Compton 散射探测灵敏度 $Q \approx 0.22$，修正后的微弱偏振不对称度 $P = +0.04(3)$ 与 $R_{\text{DCO}} = 0.98(5)$ 严格限制了多极混合比 $\delta(E2/M1) \in [0.10, 0.19]$；由此定量导出其磁偶极辐射分支纯度高达 $M1_{\text{frac}} \ge 96.5\%$（电四极混杂 $< 3.5\%$），彻底澄清了勘误中的“$M1+E2$ 混合”仅为弱混杂，绝不削弱磁转动剪刀辐射由 M1 主导的物理图景；
@@ -570,6 +576,39 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
         {
           "path": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
           "locator": "BN96-D26-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/amr-anharmonic-four-blade-vibrations-and-zero-point-fluctuations.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "AMR四叶片非简谐剪刀微振动零点涨落对端点B(E2)残余平台的量子重整化。",
+      "sources": [
+        {
+          "path": "knowledge/sources/roy-2011-cd110-systematics-antimagnetic.md",
+          "locator": "RO11-D26C-003"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/odd-a-octupole-coriolis-inversion-and-parity-decoupling-oscillations.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "225Ra与225Ac中异宇称微观轨道Coriolis解耦常数分裂与宇称倒转振荡机制。",
+      "sources": [
+        {
+          "path": "knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry.md",
+          "locator": "BN96-D26-001"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/mr-chiral-sd-multivalley-bifurcation-and-tunneling.md",
+      "anchor": "## Grounded Evidence",
+      "summary": "三维Routhian超曲面上平面MR向非共面手征双阱与SD第三势阱的拓扑分岔与WKB隧穿演化。",
+      "sources": [
+        {
+          "path": "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md",
+          "locator": "F01-4-9"
         }
       ]
     }

@@ -3676,3 +3676,9 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - 新增并完成三项高阶课题：MχD八极组态干涉、AMR恢复常数、超重核八极裂变WKB；长期笔记、可复现工件与日报写回已完成。
 - 结果边界：MχD与AMR数值为条件性toy/代理量；254No/256Rf势垒与半衰期为参数化WKB，不替代自洽EDF/ATDHFB；实验事实与模型推断保持分层。
 - 当前门禁：wiki_lint 0 error、wiki_boundary ok、git diff-check clean；待最终收束时核对Day25回执缺口、课程卡审计、Day27有界预习与最终receipt。
+
+### Day26 live continuation checkpoint 044 (2026-10-29T13:35:00+08:00)
+
+- 当前 session/goal 持续 active；硬截止仍为 2026-10-29 15:00+08:00，距截止约85分钟，按时间门规则继续有边界证据推进与 Day27 预习准备。
+- 完成 AMR 非简谐零点涨落、奇 A 八极 Coriolis 反转与 MR-手征-SD 三阱分岔三项理论突破，工件与长期研究笔记全部落盘并同步 index。
+- 全量门禁全绿：`wiki_lint.py` 0 error/357 warnings，`wiki_boundary_check.py` ok: true，`git diff --check` clean。

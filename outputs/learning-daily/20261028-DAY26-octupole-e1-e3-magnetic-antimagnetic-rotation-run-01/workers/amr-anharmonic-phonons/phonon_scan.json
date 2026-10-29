@@ -1,0 +1,41 @@
+{
+  "model": "local four-blade AMR angle phonon",
+  "hamiltonian": "p_theta^2/(2M)+C*x^2/2+kappa3*x^3/6+kappa4*x^4/24",
+  "coordinate": "x=theta-theta0; hbar=1; theta in radians",
+  "nominal_parameters": {
+    "mass": 10.0,
+    "curvature": 0.5,
+    "k3": 0.02,
+    "k4": 0.4,
+    "q_eff": 0.35
+  },
+  "harmonic_formulas": {
+    "omega": "sqrt(C/M)",
+    "E_ZPE": "0.5*hbar*omega",
+    "sigma2": "hbar/(2*M*omega)",
+    "endpoint_theta4_harmonic": "3*sigma2^2",
+    "B_E2_mapping": "q_eff^2*<theta^4> (effective diagnostic)"
+  },
+  "endpoint_nominal": {
+    "theta0_rad": 0.0,
+    "theta0_deg": 0.0,
+    "mass_hbar2_per_MeV": 10.0,
+    "C_MeV_per_rad2": 0.5,
+    "kappa3_MeV_per_rad3": 0.02,
+    "kappa4_MeV_per_rad4": 0.4,
+    "omega_MeV": 0.22360679774997896,
+    "E_ZPE_harmonic_MeV": 0.11180339887498948,
+    "E_ground_exact_MeV": 0.11418120289087041,
+    "E_ZPE_anharmonic_MeV": 0.11418120289087041,
+    "delta_theta2_rad2": 0.21474494147765313,
+    "delta_x2_rad2": 0.21474494147765313,
+    "theta4_expectation_rad4": 0.13667267900092048,
+    "B_E2_res_effective_e2b2": 0.016742403177612757,
+    "q_eff_eb": 0.35
+  },
+  "endpoint_B_range_e2b2": [
+    0.008770239215418033,
+    0.0326696105167181
+  ],
+  "boundary": "A nonzero <theta^4> is not a proof that every one-phonon E2 matrix element is nonzero; parity and the chosen transition still matter. q_eff is not a measured intrinsic quadrupole moment."
+}
