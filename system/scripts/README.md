@@ -9,7 +9,7 @@ graph-excluded: true
 
 ## Nature Skills
 
-Paper Search MCP 凭据接入使用 `run_paper_search_mcp.py <existing-launcher.py>`，从仓库内 `raw/personal/.env` 白名单读取 `WEB_OF_SCIENCE_API_KEY`（映射为 `WOS_API_KEY`）及 `ELSEVIER_API_KEY`、`SPRINGER_META_API_KEY`、`SPRINGER_OPEN_ACCESS_API_KEY`；不执行 dotenv 内容，也不输出密钥。包装器还提供 `WIKI_PAPER_SEARCH_WORKDIR`，本机启动器据此将 `./downloads` 限定在 Wiki 隔离区。配置及检索路由见 [文献检索与访问配置](../workflows/literature-access.md)。
+Paper Search MCP 凭据接入使用 `run_paper_search_mcp.py <existing-launcher.py>`，从仓库内 `raw/personal/.env` 白名单读取 WoS key（优先 `WEB_OF_SCIENCE_API_KEY_Institutional_Member_Plan`，fallback `WEB_OF_SCIENCE_API_KEY_Free_Trial_Plan`，映射为 `WOS_API_KEY`）及 `ELSEVIER_API_KEY`、`SPRINGER_META_API_KEY`、`SPRINGER_OPEN_ACCESS_API_KEY`；不执行 dotenv 内容，也不输出密钥。仅 Starter API 可用，Expanded 未订阅。包装器还提供 `WIKI_PAPER_SEARCH_WORKDIR`，本机启动器据此将 `./downloads` 限定在 Wiki 隔离区。配置及检索路由见 [文献检索与访问配置](../workflows/literature-access.md)。
 
 ```bash
 python3 system/scripts/update_nature_skills.py --check-only

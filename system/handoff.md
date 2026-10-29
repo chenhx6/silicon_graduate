@@ -3643,3 +3643,11 @@ Singh原Present目标带12行全部图示、7finite条件fit/5bound未fit、2pos
 - 最新发布 `8627b153` 已推送 Gitee `origin/main`；boundary `ok: true`、lint `0 error`（当前 warning 基线已随新增研究页记录）、staged diff-check 通过。
 - 已完成 E3/奇A/MR-AMR三路跨来源一致性审计。最新修正包括Roy Table1印刷页码p324、Ra/Ac E1 provenance、Ji简并因子和所有普适硬门撤回。
 - 后续继续路线：Pr2019勘误正文、Egido–Robledo1990正文、真实生产E1/HWG核与Cd逐门feeding输入；缺失来源维持needs_review，不用模型玩具替代。
+
+### WoS API key 更新 (2026-10-29)
+
+废除旧的单一 `WEB_OF_SCIENCE_API_KEY`，改为双 key 模式：
+- `WEB_OF_SCIENCE_API_KEY_Institutional_Member_Plan`（优先，5/s 5000/day）
+- `WEB_OF_SCIENCE_API_KEY_Free_Trial_Plan`（fallback，1/s 50/day）
+
+Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `run_paper_search_mcp.py`、`literature-access.md`、`memory.md`、`USER_GUIDE.md`、`system/scripts/README.md`。两把 key 均通过 Starter API 实测（HTTP 200）。新 MCP 进程自动使用 Institutional key；旧进程需重启生效。

@@ -1,16 +1,21 @@
 ---
 type: system-workflow
 graph-excluded: true
-updated: 2026-10-27
+updated: 2026-10-29
 ---
 
 # 文献检索与访问配置
 
 ## Web of Science
 
-用户于 2026-10-24 授权接入 Web of Science。凭据保存在仓库内 `raw/personal/.env` 的 `WEB_OF_SCIENCE_API_KEY`，该文件由 Git 忽略。文档、回执和命令行参数只记录变量名，不记录值。
+用户于 2026-10-24 授权接入 Web of Science。凭据保存在仓库内 `raw/personal/.env`，该文件由 Git 忽略。文档、回执和命令行参数只记录变量名，不记录值。当前配置两把 Starter API key：
 
-`system/scripts/run_paper_search_mcp.py` 在现有 Paper Search MCP 启动器之前运行，将该变量映射为插件读取的 `WOS_API_KEY`。优先使用已有非空 `WOS_API_KEY`，其次使用进程环境中的 `WEB_OF_SCIENCE_API_KEY`，最后读取上述文件。只解析下述白名单，不执行 `.env`。
+- `WEB_OF_SCIENCE_API_KEY_Institutional_Member_Plan`（优先）：5 req/s，5000 req/day
+- `WEB_OF_SCIENCE_API_KEY_Free_Trial_Plan`（fallback）：1 req/s，50 req/day
+
+Expanded API 未订阅，不可用。
+
+`system/scripts/run_paper_search_mcp.py` 在现有 Paper Search MCP 启动器之前运行，将 WoS key 映射为插件读取的 `WOS_API_KEY`。优先使用已有非空 `WOS_API_KEY`，其次从 dotenv 读取 `WEB_OF_SCIENCE_API_KEY_Institutional_Member_Plan`，若为空再 fallback 到 `WEB_OF_SCIENCE_API_KEY_Free_Trial_Plan`。只解析白名单变量，不执行 `.env`。
 
 同一包装器还按白名单读取 `ELSEVIER_API_KEY`，其它 dotenv 项不会加载。Springer 的两个变量分别映射为插件读取的 `SPRINGER_API_KEY` 与 `SPRINGER_OPENACCESS_API_KEY`。本地 MCP 配置的 `paper-search-nodejs` 使用以下结构（路径替换为实际安装位置）：
 
@@ -20,14 +25,14 @@ command = "/usr/bin/python3"
 args = ["<wiki>/system/scripts/run_paper_search_mcp.py", "<paper-search-install>/launch_mcp.py"]
 ```
 
-已运行的 MCP 进程不会热加载；新会话或重启该 MCP 后生效。2026-10-24 实测 Starter 返回 HTTP 200，精确 DOI 查询取得 1 条记录；响应头限额为每日 50 次、每秒 1 次，本次请求后当天剩余 49 次。相同密钥请求 Expanded 返回 HTTP 403（`You cannot consume this service`），当前无该产品访问权限。去凭据回执见 [权限测试](../../outputs/literature-acquisition/20261024-webofscience-api-permissions-072448.json)。剩余额度只是查询时快照；测试为直接调用官方 API，未覆盖既有会话 MCP 的热加载。
+已运行的 MCP 进程不会热加载；新会话或重启该 MCP 后生效。2026-10-29 实测两把 key 均通过 Starter API 验证（HTTP 200，返回有效 JSON）；Expanded API 未订阅，不可用。去凭据回执见 [权限测试](../../outputs/literature-acquisition/20261024-webofscience-api-permissions-072448.json)。
 
 ## 检索路由
 
 - 核结构文献仍先用 `nature-academic-search` 查询 Crossref/arXiv；需要 WoS 收录信息、引用计数或补充检索时，使用 `paper-search-nodejs.search_webofscience`，默认 `apiProduct: "starter"`。
 - 示例参数：`{"query":"DO=10.1103/PhysRevC.100.024314","maxResults":1,"apiProduct":"starter","discoverAccess":false}`。不要把密钥放入工具参数。
 - 引用计数记录数据库、查询时间和论文 DOI/UID；不同库计数不直接合并。Starter 的检索及计数不代表拥有完整引文关系权限。
-- Expanded 必须另有明确的订阅授权与 `WOS_EXPANDED_API_KEY` 配置，才调用 Expanded 或 `get_webofscience_related_records`；不能由通用密钥存在推定已开通。
+- Expanded API 未订阅，不可用；不要调用 Expanded endpoint 或 `get_webofscience_related_records`。
 - 遇到 401/403，记录认证或权限失败并换用 Crossref、arXiv、OpenAlex 等可用入口；429 按服务限流退避，不反复消耗额度。
 
 ## Elsevier（2026-10-26）
