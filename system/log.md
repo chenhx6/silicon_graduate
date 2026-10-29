@@ -4752,3 +4752,10 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   3. 反磁转动四叶片中质子-质子库仑排斥力对剪刀闭合势能面的微观重整（amr-coulomb-repulsion-proton-blades-and-closing-asymmetry.md，工件 amr-coulomb-blades/）：引入双质子空穴直接库仑排斥，证明质子剪刀在带终止处保留残余开角（theta_{p,min}~11.75度），从微观机制解释AMR能带B(E2)维持在0.06 e2b2平台的物理根源；
   4. 宏观-微观CNS框架下富中子钡核高自旋八极相变与离心退耦（cns-high-spin-octupole-phase-transitions-in-neutron-rich-ba.md，工件 cns-ba-octupole/）：在337,500网格点求解极小化路径，揭示低自旋离心稳定化向高自旋侵入轨道对齐驱动八极淬灭相变的动力学，重现144,146Ba交错位移S(I)重开趋势；
   5. 全量检查全绿：wiki_lint.py 0 error/346 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T11:05:00+08:00 Day26 checkpoint114：配对绝热屏蔽、C-QRPA杂化声子、Schiff矩微扰求和与Cline不变量重构。
+  1. 磁转动与反磁转动中微观配对涨落对剪刀回复常数的绝热屏蔽效应（shears-pairing-fluctuation-screening-and-stiffness-evolution.md，工件 shears-pairing-screening/）：推导配对介电屏蔽公式，证明低频下剪刀刚度软化25%-30%（C_eff~1.35 MeV），随着Coriolis反配对塌缩（Delta->0）屏蔽消失驱动剪刀自发硬化，重现J^(2)突跃峰；
+  2. 三轴八极变形核中推转准粒子随机相位近似（Cranked QRPA）与手征-八极微振声子谱（cranked-qrpa-chiral-octupole-vibrational-phonons.md，工件 qrpa-chiral-octupole/）：构建4x4辛矩阵求解器，重现手征声子与八极声子在omega~0.235 MeV处的避免能级交叉（能隙0.14 MeV），揭示B(M1)与B(E1)/B(E3)动力学模式互换；
+  3. 奇-A 变形核内禀八极形变对原子 Schiff 矩的微观微扰求和规则（odd-a-actinide-octupole-schiff-moment-perturbation-sum-rules.md，工件 actinide-schiff-sumrules/）：推导有限核尺寸核Schiff矩微观算符，证明内禀电荷偏心矩阵元与微小宇称双重态能隙协同带来等标量通道高达11384倍放大，建立CP破坏介子交换通道相消盲区超平面；
+  4. 反磁转动能带中电四极 Cline 旋转不变量重构与有效三轴核芯演化（amr-cline-quadrupole-invariants-and-triaxial-core-evolution.md，工件 amr-cline-invariants/）：重构模型无关的q2^2与q2^3 cos(3*delta)，证明110Cd与104Pd全带保持q2~0.32-0.35 eb刚性形变平台（四极方差0.17 eb），三轴度光滑弛豫至delta->30度的gamma-软中心；
+  5. 全量检查全绿：wiki_lint.py 0 error/349 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

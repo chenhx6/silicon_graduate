@@ -1,0 +1,346 @@
+{
+  "schema": "actinide-schiff-sumrules/v1",
+  "description": "Microscopic perturbation sum rules and sensitivity ledger for actinide Schiff moments",
+  "date": "2026-10-29",
+  "nuclei_summary": [
+    {
+      "nuclide": "225Ra",
+      "Z": 88,
+      "N": 137,
+      "A": 225,
+      "J_pi": "1/2+",
+      "delta_E_keV": 55.16,
+      "denominator_gain_vs_hg": 45.32,
+      "beta2": 0.19,
+      "beta3": 0.146,
+      "R0_fm": 7.299,
+      "S_intr_exact_e_fm3": 22.98,
+      "S_intr_compact_e_fm3": 45.317,
+      "lab_factor": 0.333,
+      "S_lab_exact_e_fm3": 7.66,
+      "S_lab_compact_e_fm3": 15.106,
+      "a0_e_fm3": -1.5,
+      "a1_e_fm3": 6.0,
+      "a2_e_fm3": -4.0,
+      "R_nuc_a0": 3750.0,
+      "R_nuc_a1": 109.1,
+      "R_nuc_a2": 444.4,
+      "R_nuc_sum": 7.76,
+      "R_atom_a0": 11383.9,
+      "R_atom_a1": 331.2,
+      "R_atom_a2": 1349.2,
+      "R_atom_sum": 23.57,
+      "model": "Skyrme SkO_prime (finite range + src + direct + exch)"
+    },
+    {
+      "nuclide": "223Ra",
+      "Z": 88,
+      "N": 135,
+      "A": 223,
+      "J_pi": "3/2+",
+      "delta_E_keV": 50.13,
+      "denominator_gain_vs_hg": 49.87,
+      "beta2": 0.18,
+      "beta3": 0.13,
+      "R0_fm": 7.277,
+      "S_intr_exact_e_fm3": 19.212,
+      "S_intr_compact_e_fm3": 37.887,
+      "lab_factor": 0.6,
+      "S_lab_exact_e_fm3": 11.527,
+      "S_lab_compact_e_fm3": 22.732,
+      "a0_e_fm3": -1.3,
+      "a1_e_fm3": 5.2,
+      "a2_e_fm3": -3.5,
+      "R_nuc_a0": 3250.0,
+      "R_nuc_a1": 94.5,
+      "R_nuc_a2": 388.9,
+      "R_nuc_sum": 6.21,
+      "R_atom_a0": 9866.1,
+      "R_atom_a1": 287.0,
+      "R_atom_a2": 1180.6,
+      "R_atom_sum": 18.86,
+      "model": "Odd-neutron actinide Coriolis-projected scaling"
+    },
+    {
+      "nuclide": "225Ac",
+      "Z": 89,
+      "N": 136,
+      "A": 225,
+      "J_pi": "3/2-",
+      "delta_E_keV": 40.09,
+      "denominator_gain_vs_hg": 62.36,
+      "beta2": 0.185,
+      "beta3": 0.14,
+      "R0_fm": 7.299,
+      "S_intr_exact_e_fm3": 21.699,
+      "S_intr_compact_e_fm3": 42.791,
+      "lab_factor": 0.6,
+      "S_lab_exact_e_fm3": 13.02,
+      "S_lab_compact_e_fm3": 25.675,
+      "a0_e_fm3": 1.2,
+      "a1_e_fm3": 4.8,
+      "a2_e_fm3": -2.5,
+      "R_nuc_a0": 3000.0,
+      "R_nuc_a1": 87.3,
+      "R_nuc_a2": 277.8,
+      "R_nuc_sum": 54.35,
+      "R_atom_a0": 7714.3,
+      "R_atom_a1": 224.4,
+      "R_atom_a2": 714.3,
+      "R_atom_sum": 139.75,
+      "model": "Odd-proton core polarization surrogate"
+    },
+    {
+      "nuclide": "227Ac",
+      "Z": 89,
+      "N": 138,
+      "A": 227,
+      "J_pi": "3/2-",
+      "delta_E_keV": 27.37,
+      "denominator_gain_vs_hg": 91.34,
+      "beta2": 0.19,
+      "beta3": 0.145,
+      "R0_fm": 7.32,
+      "S_intr_exact_e_fm3": 23.287,
+      "S_intr_compact_e_fm3": 45.922,
+      "lab_factor": 0.6,
+      "S_lab_exact_e_fm3": 13.972,
+      "S_lab_compact_e_fm3": 27.553,
+      "a0_e_fm3": 1.6,
+      "a1_e_fm3": 6.4,
+      "a2_e_fm3": -3.3,
+      "R_nuc_a0": 4000.0,
+      "R_nuc_a1": 116.4,
+      "R_nuc_a2": 366.7,
+      "R_nuc_sum": 72.98,
+      "R_atom_a0": 10285.7,
+      "R_atom_a1": 299.2,
+      "R_atom_a2": 942.9,
+      "R_atom_sum": 187.67,
+      "model": "Odd-proton deep-tunneling actinide surrogate"
+    },
+    {
+      "nuclide": "199Hg",
+      "Z": 80,
+      "N": 119,
+      "A": 199,
+      "J_pi": "1/2-",
+      "delta_E_keV": 2500.0,
+      "denominator_gain_vs_hg": 1.0,
+      "beta2": 0.05,
+      "beta3": 0.01,
+      "R0_fm": 7.006,
+      "S_intr_exact_e_fm3": 0.333,
+      "S_intr_compact_e_fm3": 0.657,
+      "lab_factor": 0.333,
+      "S_lab_exact_e_fm3": 0.111,
+      "S_lab_compact_e_fm3": 0.219,
+      "a0_e_fm3": 0.0004,
+      "a1_e_fm3": 0.055,
+      "a2_e_fm3": 0.009,
+      "R_nuc_a0": 1.0,
+      "R_nuc_a1": 1.0,
+      "R_nuc_a2": 1.0,
+      "R_nuc_sum": 1.0,
+      "R_atom_a0": 1.0,
+      "R_atom_a1": 1.0,
+      "R_atom_a2": 1.0,
+      "R_atom_sum": 1.0,
+      "model": "Spherical shell model / QRPA (PRL 94, 232502 Eq. 8)"
+    }
+  ],
+  "wkb_tunneling_scaling": [
+    {
+      "beta3": 0.02,
+      "tunneling_delta_E_keV": 1083.62,
+      "S_intr_exact_e_fm3": 3.148,
+      "relative_response_gain": 0.29
+    },
+    {
+      "beta3": 0.03,
+      "tunneling_delta_E_keV": 1063.49,
+      "S_intr_exact_e_fm3": 4.722,
+      "relative_response_gain": 0.44
+    },
+    {
+      "beta3": 0.04,
+      "tunneling_delta_E_keV": 1035.94,
+      "S_intr_exact_e_fm3": 6.296,
+      "relative_response_gain": 0.61
+    },
+    {
+      "beta3": 0.05,
+      "tunneling_delta_E_keV": 1001.56,
+      "S_intr_exact_e_fm3": 7.87,
+      "relative_response_gain": 0.79
+    },
+    {
+      "beta3": 0.06,
+      "tunneling_delta_E_keV": 961.09,
+      "S_intr_exact_e_fm3": 9.444,
+      "relative_response_gain": 0.98
+    },
+    {
+      "beta3": 0.07,
+      "tunneling_delta_E_keV": 915.36,
+      "S_intr_exact_e_fm3": 11.018,
+      "relative_response_gain": 1.2
+    },
+    {
+      "beta3": 0.08,
+      "tunneling_delta_E_keV": 865.29,
+      "S_intr_exact_e_fm3": 12.592,
+      "relative_response_gain": 1.46
+    },
+    {
+      "beta3": 0.09,
+      "tunneling_delta_E_keV": 811.85,
+      "S_intr_exact_e_fm3": 14.166,
+      "relative_response_gain": 1.74
+    },
+    {
+      "beta3": 0.1,
+      "tunneling_delta_E_keV": 756.02,
+      "S_intr_exact_e_fm3": 15.74,
+      "relative_response_gain": 2.08
+    },
+    {
+      "beta3": 0.11,
+      "tunneling_delta_E_keV": 698.77,
+      "S_intr_exact_e_fm3": 17.313,
+      "relative_response_gain": 2.48
+    },
+    {
+      "beta3": 0.12,
+      "tunneling_delta_E_keV": 641.02,
+      "S_intr_exact_e_fm3": 18.887,
+      "relative_response_gain": 2.95
+    },
+    {
+      "beta3": 0.13,
+      "tunneling_delta_E_keV": 583.66,
+      "S_intr_exact_e_fm3": 20.461,
+      "relative_response_gain": 3.51
+    },
+    {
+      "beta3": 0.14,
+      "tunneling_delta_E_keV": 527.46,
+      "S_intr_exact_e_fm3": 22.035,
+      "relative_response_gain": 4.18
+    },
+    {
+      "beta3": 0.15,
+      "tunneling_delta_E_keV": 473.1,
+      "S_intr_exact_e_fm3": 23.609,
+      "relative_response_gain": 4.99
+    },
+    {
+      "beta3": 0.16,
+      "tunneling_delta_E_keV": 421.18,
+      "S_intr_exact_e_fm3": 25.183,
+      "relative_response_gain": 5.98
+    },
+    {
+      "beta3": 0.17,
+      "tunneling_delta_E_keV": 372.16,
+      "S_intr_exact_e_fm3": 26.757,
+      "relative_response_gain": 7.19
+    },
+    {
+      "beta3": 0.18,
+      "tunneling_delta_E_keV": 326.38,
+      "S_intr_exact_e_fm3": 28.331,
+      "relative_response_gain": 8.68
+    },
+    {
+      "beta3": 0.19,
+      "tunneling_delta_E_keV": 284.1,
+      "S_intr_exact_e_fm3": 29.905,
+      "relative_response_gain": 10.53
+    },
+    {
+      "beta3": 0.2,
+      "tunneling_delta_E_keV": 245.44,
+      "S_intr_exact_e_fm3": 31.479,
+      "relative_response_gain": 12.83
+    },
+    {
+      "beta3": 0.21,
+      "tunneling_delta_E_keV": 210.46,
+      "S_intr_exact_e_fm3": 33.053,
+      "relative_response_gain": 15.7
+    },
+    {
+      "beta3": 0.22,
+      "tunneling_delta_E_keV": 179.12,
+      "S_intr_exact_e_fm3": 34.627,
+      "relative_response_gain": 19.33
+    }
+  ],
+  "skyrme_edf_sensitivity": [
+    {
+      "model": "SkO_prime_zr_dir",
+      "a0": -5.1,
+      "a1": 10.4,
+      "a2": -10.1,
+      "sum_coupling": -4.8,
+      "blind_slope_g2": 0.9712,
+      "blind_intercept": 0.4904
+    },
+    {
+      "model": "SkO_prime_fr_dir",
+      "a0": -1.9,
+      "a1": 6.3,
+      "a2": -3.8,
+      "sum_coupling": 0.6,
+      "blind_slope_g2": 0.6032,
+      "blind_intercept": 0.3016
+    },
+    {
+      "model": "SkO_prime_fr_src_dir",
+      "a0": -1.7,
+      "a1": 6.0,
+      "a2": -3.5,
+      "sum_coupling": 0.8,
+      "blind_slope_g2": 0.5833,
+      "blind_intercept": 0.2833
+    },
+    {
+      "model": "SkO_prime_fr_src_dir_exch",
+      "a0": -1.5,
+      "a1": 6.0,
+      "a2": -4.0,
+      "sum_coupling": 0.5,
+      "blind_slope_g2": 0.6667,
+      "blind_intercept": 0.25
+    },
+    {
+      "model": "SIII",
+      "a0": -1.0,
+      "a1": 7.0,
+      "a2": -3.9,
+      "sum_coupling": 2.1,
+      "blind_slope_g2": 0.5571,
+      "blind_intercept": 0.1429
+    },
+    {
+      "model": "SkM_star",
+      "a0": -4.7,
+      "a1": 21.5,
+      "a2": -11.0,
+      "sum_coupling": 5.8,
+      "blind_slope_g2": 0.5116,
+      "blind_intercept": 0.2186
+    },
+    {
+      "model": "SLy4",
+      "a0": -3.0,
+      "a1": 16.9,
+      "a2": -8.8,
+      "sum_coupling": 5.1,
+      "blind_slope_g2": 0.5207,
+      "blind_intercept": 0.1775
+    }
+  ],
+  "blind_spot_grid_sample_count": 441
+}

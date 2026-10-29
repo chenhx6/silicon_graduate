@@ -3,7 +3,27 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint110：AMP量子投影折减、奇奇单纯形退耦、质子库仑排斥与CNS高自旋退耦
+## Active handoff — Day26 checkpoint114：配对绝热屏蔽、C-QRPA杂化声子、Schiff矩微扰求和与Cline不变量重构
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
+1. **磁转动与反磁转动中微观配对涨落对剪刀回复常数的绝热屏蔽效应**（`shears-pairing-fluctuation-screening-and-stiffness-evolution.md`，工件 `shears-pairing-screening/`）：
+   - 推导单极超流配对凝聚对粒子-空穴四极排斥常数的介电屏蔽公式 $V_{\\pi\\nu}^{\\text{eff}} = V_{\\pi\\nu}^{(0)} [1 - \\xi \\Delta^2/(\\Delta_0^2 + \\bar{\\epsilon}^2)]$；
+   - 证明低频下剪刀刚度被有效软化约 $25% - 30%$（$C_{\\text{eff}} \\approx 1.35\\text{ MeV}$ 对比裸刚度 $1.85\\text{ MeV}$），而随着 Coriolis 反配对塌缩（$\\Delta \\to 0$），屏蔽消失驱动剪刀势能自发硬化，重现中自旋区 $J^{(2)}$ 突跃峰；
+2. **三轴八极变形核中推转准粒子随机相位近似（Cranked QRPA）与手征-八极微振声子谱**（`cranked-qrpa-chiral-octupole-vibrational-phonons.md`，工件 `qrpa-chiral-octupole/`）：
+   - 构建 $4\\times 4$ 耦合 C-QRPA 辛矩阵本征方程；
+   - 重现手征摆动声子（离心软化）与八极偶极振动声子在临界推转频率 $\\omega_{\\text{cross}} \\approx 0.235\\text{ MeV}/\\hbar$ 处的避免能级交叉（能隙约 $0.14\\text{ MeV}$），揭示带间磁偶极 $B(M1)$ 与电偶极/八极 $B(E1), B(E3)$ 跃迁几率的动力学模式互换；
+3. **奇-A 变形核内禀八极形变对原子 Schiff 矩的微观微扰求和规则**（`odd-a-actinide-octupole-schiff-moment-perturbation-sum-rules.md`，工件 `actinide-schiff-sumrules/`）：
+   - 基于中性原子 Schiff 屏蔽定理推导有限核尺寸核 Schiff 矩微观算符；
+   - 证明内禀电荷偏心矩阵元 $S_{\\text{intr}} \\sim \\frac{3}{20\\pi} Z e R_0^3 \\beta_2 \\beta_3$ 与微小宇称双重态能隙（$^{225}\\text{Ra}$ 为 $55.16\\text{ keV}$）协同带来等标量通道高达 11384 倍的巨幅原子 EDM 放大，解析判定奇中子锕系、奇质子锕系与球形核的联合测量相消盲区超平面；
+4. **反磁转动能带中电四极 Cline 旋转不变量重构与有效三轴核芯演化**（`amr-cline-quadrupole-invariants-and-triaxial-core-evolution.md`，工件 `amr-cline-invariants/`）：
+   - 通过完全 $E2$ 矩阵元网络重构模型无关的零阶纯量不变量 $q_2^2$ 与二阶三轴不变量 $q_2^3 \\cos(3\\delta)$；
+   - 证明 $^{110}\\text{Cd}$ 与 $^{104}\\text{Pd}$ 全带保持 $q_2 \\approx 0.32 - 0.35\\ e\\text{b}$ 刚性形变平台（四极方差 $\\sigma(q_2) \\approx 0.17\\ e\\text{b}$），实测带内 $B(E2)$ 衰减仅为辐射通道几何选择定则退化，其有效三轴不对称度从带头 $\\delta \\approx 24^\\circ$ 弛豫至带顶 $\\delta \\to 30^\\circ$ 的 $\\gamma$-软平衡中心。
+
+全量检查全绿（wiki_lint 0 error/349 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint110：AMP量子投影折减、奇奇单纯形退耦、质子库仑排斥与CNS高自旋退耦
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

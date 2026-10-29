@@ -1,0 +1,6 @@
+nuclide,Z,N,A,J_pi,delta_E_keV,denominator_gain_vs_hg,beta2,beta3,R0_fm,S_intr_exact_e_fm3,S_intr_compact_e_fm3,lab_factor,S_lab_exact_e_fm3,S_lab_compact_e_fm3,a0_e_fm3,a1_e_fm3,a2_e_fm3,R_nuc_a0,R_nuc_a1,R_nuc_a2,R_nuc_sum,R_atom_a0,R_atom_a1,R_atom_a2,R_atom_sum,model
+225Ra,88,137,225,1/2+,55.16,45.32,0.19,0.146,7.299,22.98,45.317,0.333,7.66,15.106,-1.5,6.0,-4.0,3750.0,109.1,444.4,7.76,11383.9,331.2,1349.2,23.57,Skyrme SkO_prime (finite range + src + direct + exch)
+223Ra,88,135,223,3/2+,50.13,49.87,0.18,0.13,7.277,19.212,37.887,0.6,11.527,22.732,-1.3,5.2,-3.5,3250.0,94.5,388.9,6.21,9866.1,287.0,1180.6,18.86,Odd-neutron actinide Coriolis-projected scaling
+225Ac,89,136,225,3/2-,40.09,62.36,0.185,0.14,7.299,21.699,42.791,0.6,13.02,25.675,1.2,4.8,-2.5,3000.0,87.3,277.8,54.35,7714.3,224.4,714.3,139.75,Odd-proton core polarization surrogate
+227Ac,89,138,227,3/2-,27.37,91.34,0.19,0.145,7.32,23.287,45.922,0.6,13.972,27.553,1.6,6.4,-3.3,4000.0,116.4,366.7,72.98,10285.7,299.2,942.9,187.67,Odd-proton deep-tunneling actinide surrogate
+199Hg,80,119,199,1/2-,2500.0,1.0,0.05,0.01,7.006,0.333,0.657,0.333,0.111,0.219,0.0004,0.055,0.009,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,"Spherical shell model / QRPA (PRL 94, 232502 Eq. 8)"

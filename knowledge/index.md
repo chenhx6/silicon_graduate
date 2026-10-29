@@ -12,6 +12,7 @@ updated: 2026-10-28
 ## Day26：八极与磁转动证据梯度
 
 - [[sd-mr-dual-well-coexistence-pb190-boundary]] — A≈190 铅区 193/196Pb 同核 SD/MR 共存、SD 四极矩与 MR 剪刀证据边界；含可复现双阱尺度模型。
+- [[amr-cline-quadrupole-invariants-and-triaxial-core-evolution]] — 反磁转动能带中电四极 Cline 旋转不变量重构与有效三轴核芯演化；含110Cd/104Pd完全矩阵元网络、求和截断误差与可复现工件。
 - [[amr-vpinu-neutron-number-core-polarization-audit]] — 同N的104Pd/106Cd Vπν归一、核芯极化与中子数演化的条件微观推导。
 - [[mr-amr-band-termination-and-extreme-spin-limits]] — MR/AMR剪刀闭合、固定组态最大自旋、终止附近 (B(M1))/(B(E2))/(J^{(2)}) 与交叉重开判据。
 - [[pohl-1996-107108pd-highspin-metadata]] — 107,108Pd高自旋谱学原件入口；正文未取得。
@@ -131,6 +132,7 @@ updated: 2026-10-28
 - [[finite-range-shears-interaction-and-frequency-quenching]] — 磁转动中有限力程剪刀相互作用、闭合延迟与转动频率淬灭微观机制。
 - [[mxd-multipole-matrix-elements-and-transition-interference]] — 多重手征核中四极-八极多极算符代数重整、交叉隧穿与跃迁相消干涉微观机制。
 - [[shears-angular-momentum-projection-and-fluctuation-corrections]] — 磁转动剪刀机制中角动量量子色散修正、精确投影能级与 B(M1) 量子折减机制。
+- [[shears-pairing-fluctuation-screening-and-stiffness-evolution]] — 磁转动与反磁转动中微观配对涨落对剪刀回复常数的绝热屏蔽与自发刚度硬化机制。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 - [[nomura-2018-odd-ba-octupole]] — 奇质量钡（143,145,147Ba）微观约束 sdf-IBFM 与奇中子阻塞机制原件。
@@ -946,6 +948,12 @@ updated: 2026-10-28
 - Updated [[low-spin-wobbling-controversies]] and [[nuclear-chirality-and-multiple-chiral-doublet-bands]].
 
 ## Research Notes
+
+- [[amr-cline-quadrupole-invariants-and-triaxial-core-evolution]] - 反磁转动能带中电四极 Cline 旋转不变量重构与有效三轴核芯演化；证明剪刀闭合下核芯内禀四极矩平台（$q_2 \sim 0.31 - 0.35\text{ e b}$）、有效三轴不对称度向 $\gamma$-软极小弛豫及截断误差增长机制；含完全可复现工件。
+
+- [[odd-a-actinide-octupole-schiff-moment-perturbation-sum-rules]] - 奇-A 变形核（$^{223,225}\text{Ra}, ^{225,227}\text{Ac}$）内禀八极形变对原子 Schiff 矩的微观微扰求和规则、千倍放大机制与 P,T-奇介子交换相消盲区；含可复现 Python 求解器与 CSV/JSON 数据工件。
+
+- [[cranked-qrpa-chiral-octupole-vibrational-phonons]] - 三轴八极形变核中的推转准粒子随机相位近似（C-QRPA）、手征出平面摆动与八极振动声子的转动软化、避免能级交叉与相干杂化，以及 $B(M1), B(E1), B(E2), B(E3)$ 跃迁几率的动力学突变；含完整的可复现 Python 辛矩阵求解器与 $^{78}\text{Br}, ^{133}\text{Ce}, ^{135}\text{Nd}$ 对账工件。
 
 - [[cns-high-spin-octupole-phase-transitions-in-neutron-rich-ba]] - 宏观-微观 CNS-inspired `beta2-gamma-beta3` 势能面、`144,146,148Ba` 的低自旋离心稳定化与高-j alignment 淬灭竞争；含完整网格、极小路径、交错位移工件与证据边界。
 
