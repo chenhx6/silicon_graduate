@@ -1,0 +1,181 @@
+{
+  "status": "provisional effective interaction diagnostic",
+  "exchange_rule": "P12 |(jj)JM> = (-1)^(2j-J) |(jj)JM>; antisymmetry requires this phase = -1",
+  "proton_pair": {
+    "orbit": "g9/2",
+    "j": 4.5,
+    "allowed_J": [
+      0,
+      2,
+      4,
+      6,
+      8
+    ],
+    "J_max_hbar": 8
+  },
+  "neutron_pair": {
+    "orbit": "h11/2",
+    "j": 5.5,
+    "allowed_J": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "J_max_hbar": 10
+  },
+  "valence_limit": {
+    "J_val_max_hbar": 18,
+    "coupling": "J_p=8 plus J_n=10 gives J_val=18; classical 2*(9/2)+2*(11/2)=20 ignores Pauli pair truncation",
+    "note": "The 18 hbar limit applies to the four-valence-particle single-j truncation, before core rotation and configuration mixing."
+  },
+  "effective_geometry": {
+    "V_C": "e^2/sqrt(a^2+d(theta)^2)",
+    "V_short": "-V0 exp[-d(theta)^2/(2 s_N^2)]",
+    "d": "2 r sin(theta)",
+    "parameters": {
+      "r_fm": 4.6,
+      "a_fm": 2.0,
+      "s_N_fm": 1.2,
+      "V0_MeV": 35.0
+    },
+    "warning": "These distance terms illustrate finite-density renormalization; V_J requires radial wavefunctions and antisymmetrized jj-coupled matrix elements."
+  },
+  "rows": [
+    {
+      "theta_deg": 0,
+      "separation_fm": 0.0,
+      "V_coulomb_MeV": 0.7199882,
+      "V_short_range_MeV": -35.0,
+      "V_total_MeV": -34.2800118
+    },
+    {
+      "theta_deg": 5,
+      "separation_fm": 0.8018328332784551,
+      "V_coulomb_MeV": 0.6682808723436958,
+      "V_short_range_MeV": -27.997253949708842,
+      "V_total_MeV": -27.328973077365145
+    },
+    {
+      "theta_deg": 10,
+      "separation_fm": 1.5975632345357589,
+      "V_coulomb_MeV": 0.5625505155700943,
+      "V_short_range_MeV": -14.42791148444259,
+      "V_total_MeV": -13.865360968872496
+    },
+    {
+      "theta_deg": 15,
+      "separation_fm": 2.381135214943191,
+      "V_coulomb_MeV": 0.4630698636911693,
+      "V_short_range_MeV": -4.8874260777153,
+      "V_total_MeV": -4.42435621402413
+    },
+    {
+      "theta_deg": 20,
+      "separation_fm": 3.146585318596152,
+      "V_coulomb_MeV": 0.3862178712428376,
+      "V_short_range_MeV": -1.124682899071386,
+      "V_total_MeV": -0.7384650278285484
+    },
+    {
+      "theta_deg": 25,
+      "separation_fm": 3.8880880080144347,
+      "V_coulomb_MeV": 0.3293388089029978,
+      "V_short_range_MeV": -0.1838399819915406,
+      "V_total_MeV": 0.1454988269114572
+    },
+    {
+      "theta_deg": 30,
+      "separation_fm": 4.599999999999999,
+      "V_coulomb_MeV": 0.2870780952502894,
+      "V_short_range_MeV": -0.022553293719901345,
+      "V_total_MeV": 0.26452480153038804
+    },
+    {
+      "theta_deg": 35,
+      "separation_fm": 5.276903214429623,
+      "V_coulomb_MeV": 0.25517018194181834,
+      "V_short_range_MeV": -0.00221323421404636,
+      "V_total_MeV": 0.252956947727772
+    },
+    {
+      "theta_deg": 40,
+      "separation_fm": 5.91364600911616,
+      "V_coulomb_MeV": 0.23066592015584736,
+      "V_short_range_MeV": -0.0001864340718821579,
+      "V_total_MeV": 0.2304794860839652
+    },
+    {
+      "theta_deg": 45,
+      "separation_fm": 6.505382386916236,
+      "V_coulomb_MeV": 0.21157828818843766,
+      "V_short_range_MeV": -1.4532887360461212e-05,
+      "V_total_MeV": 0.21156375530107718
+    },
+    {
+      "theta_deg": 50,
+      "separation_fm": 7.047608876694597,
+      "V_coulomb_MeV": 0.1965596946974562,
+      "V_short_range_MeV": -1.1328659665028987e-06,
+      "V_total_MeV": 0.1965585618314897
+    },
+    {
+      "theta_deg": 55,
+      "separation_fm": 7.536198807458724,
+      "V_coulomb_MeV": 0.18468174534251153,
+      "V_short_range_MeV": -9.542813575329397e-08,
+      "V_total_MeV": 0.18468164991437577
+    },
+    {
+      "theta_deg": 60,
+      "separation_fm": 7.967433714816835,
+      "V_coulomb_MeV": 0.17529431735358003,
+      "V_short_range_MeV": -9.364699349677746e-09,
+      "V_total_MeV": 0.17529430798888068
+    },
+    {
+      "theta_deg": 65,
+      "separation_fm": 8.338031640737178,
+      "V_coulomb_MeV": 0.16793624533100063,
+      "V_short_range_MeV": -1.1488513692389888e-09,
+      "V_total_MeV": 0.16793624418214925
+    },
+    {
+      "theta_deg": 70,
+      "separation_fm": 8.645172111230355,
+      "V_coulomb_MeV": 0.16227829074873493,
+      "V_short_range_MeV": -1.8779054541172179e-10,
+      "V_total_MeV": 0.1622782905609444
+    },
+    {
+      "theta_deg": 75,
+      "separation_fm": 8.886517601859428,
+      "V_coulomb_MeV": 0.15808633052821255,
+      "V_short_range_MeV": -4.321391498786247e-11,
+      "V_total_MeV": 0.15808633048499865
+    },
+    {
+      "theta_deg": 80,
+      "separation_fm": 9.060231327712312,
+      "V_coulomb_MeV": 0.15519745335821808,
+      "V_short_range_MeV": -1.46386270292545e-11,
+      "V_total_MeV": 0.15519745334357946
+    },
+    {
+      "theta_deg": 85,
+      "separation_fm": 9.164991222444058,
+      "V_coulomb_MeV": 0.15350456067037582,
+      "V_short_range_MeV": -7.54376895002759e-12,
+      "V_total_MeV": 0.15350456066283205
+    },
+    {
+      "theta_deg": 90,
+      "separation_fm": 9.2,
+      "V_coulomb_MeV": 0.15294683724854835,
+      "V_short_range_MeV": -6.034423286624313e-12,
+      "V_total_MeV": 0.15294683724251393
+    }
+  ]
+}

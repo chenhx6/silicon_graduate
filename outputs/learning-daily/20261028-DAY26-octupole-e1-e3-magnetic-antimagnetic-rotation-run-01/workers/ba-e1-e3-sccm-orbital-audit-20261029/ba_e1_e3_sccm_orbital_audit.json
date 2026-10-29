@@ -1,0 +1,180 @@
+{
+  "status": "source-grounded bounded audit; no new HFB/SCCM run",
+  "generated_at_utc": "2026-10-29T04:14:36.802007+00:00",
+  "question": "How far do published SCCM results identify nu h9/2, f7/2, i13/2 occupancy as the microscopic origin of E1 cancellation, and what does E3 interval overlap imply for static pear shape?",
+  "experimental_E3": {
+    "144Ba": {
+      "M_0_to_3_eb3_2": 0.65,
+      "reported_error_interval_eb3_2": [
+        0.42000000000000004,
+        0.8200000000000001
+      ],
+      "B_down_Wu": [
+        14.0,
+        73.0
+      ],
+      "Q3_efm3": [
+        1.11,
+        2.18
+      ],
+      "beta3_fixed_beta2_018": [
+        0.11,
+        0.21
+      ]
+    },
+    "146Ba": {
+      "M_0_to_3_eb3_2": 0.65,
+      "reported_error_interval_eb3_2": [
+        0.45,
+        0.79
+      ],
+      "B_down_Wu": [
+        19.0,
+        69.0
+      ],
+      "Q3_efm3": null,
+      "beta3": null
+    },
+    "matrix_element_overlap": {
+      "interval": [
+        0.45,
+        0.79
+      ],
+      "length": 0.34,
+      "union_length": 0.4,
+      "jaccard": 0.85
+    },
+    "B_E3_reported_interval_overlap": {
+      "interval": [
+        19.0,
+        69.0
+      ],
+      "length": 50.0,
+      "union_length": 59.0,
+      "jaccard": 0.847457627118644
+    },
+    "interpretation": "overlapping reported asymmetric error intervals show no resolved isotope difference in this observable; they are not a formal common-confidence test",
+    "B_relation": "B(E3;3- -> 0+) = |M(0+ -> 3-)|^2 / 7; intervals above are the published rounded W.u. intervals",
+    "relative_E1_E3_sign_sensitivity_144Ba": "opposite sign changes fitted E3 magnitude by about 10%, within quoted errors"
+  },
+  "SCCM_146Ba": {
+    "force": "Gogny D1S",
+    "collective_coordinates": [
+      "Q20",
+      "Q30"
+    ],
+    "symmetries_restored": [
+      "angular momentum",
+      "parity",
+      "neutron number",
+      "proton number"
+    ],
+    "PES_minimum_beta2": 0.21,
+    "PES_minimum_abs_beta3": 0.1,
+    "collective_amplitude_observation": "0+ and 1- amplitudes have very large overlap in 144,146,148Ba, interpreted as strong octupole correlations",
+    "E1_experimental_matrix_eb1_2": 0.000223,
+    "E1_SCCM_matrix_eb1_2": 0.00474,
+    "E1_SCCM_to_exp_amplitude_ratio": 21.25560538116592,
+    "orbital_occupancies": [
+      {
+        "orbital_parent": "nu h9/2",
+        "K_pi": "3/2-",
+        "v2_144Ba": 0.0,
+        "v2_146Ba": 0.4,
+        "paper_statement": "significant occupancy; contribution collectively participates in near cancellation",
+        "per_orbital_dipole_kernel_published": null
+      },
+      {
+        "orbital_parent": "nu f7/2",
+        "K_pi": "5/2-",
+        "v2_144Ba": 0.0,
+        "v2_146Ba": 0.27,
+        "paper_statement": "significant occupancy; contribution collectively participates in near cancellation",
+        "per_orbital_dipole_kernel_published": null
+      },
+      {
+        "orbital_parent": "nu i13/2",
+        "K_pi": "1/2+",
+        "v2_144Ba": 0.0,
+        "v2_146Ba": 0.2,
+        "paper_statement": "significant occupancy; contribution collectively participates in near cancellation",
+        "per_orbital_dipole_kernel_published": null
+      }
+    ],
+    "published_mechanism": "The paper attributes the sudden E1 drop to projected intrinsic-state dipole overlap and states that these three neutron orbital parentages, empty in 144Ba and occupied in 146Ba, collectively nearly cancel the proton contribution.",
+    "unpublished_or_unresolved": [
+      "individual signed h9/2/f7/2/i13/2 dipole contributions",
+      "Q-dependent v2 and transition kernels",
+      "full covariance of SCCM E1 output and experiment",
+      "a unique phase-independent orbital decomposition of the projected matrix element"
+    ],
+    "E1_experimental_reported_notation": "0.000223(+10/-8) eb^(1/2)",
+    "E1_experimental_error_interval_if_literal": [
+      0.000215,
+      0.000233
+    ],
+    "E1_experimental_error_interval_status": "literal asymmetric reported error range; confidence level not specified here"
+  },
+  "static_shape_boundary": {
+    "directly_supported": "strong E3 transition collectivity in both isotopes",
+    "model_supported": "reflection-asymmetric D1S minima and SCCM collective amplitudes consistent with octupole correlations",
+    "not_proven": "a rigid static pear shape from E3 interval overlap alone",
+    "reason": "E3 is a transition matrix element; converting it to intrinsic Q3 or beta3 invokes axial/rotor and shape-truncation assumptions. Soft collective amplitudes and PES fluctuations remain compatible with the same E3 strength.",
+    "additional_required_evidence": [
+      "state-resolved E3 systematics beyond 0+↔3-",
+      "opposite-parity energy displacement and E1/E3 branching",
+      "converged multi-coordinate projected kernels and inertia",
+      "explicit Q-dependent density/orbital-resolved dipole kernels"
+    ]
+  },
+  "sources": [
+    {
+      "raw_file": "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
+      "raw_sha256": "f0da6d0a56cd10d1023633aed1a25d021f88a0ff48787c4569a26031e1b3dc4d",
+      "bytes": 881225,
+      "pdf_signature": "%PDF-",
+      "pages": 5,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "text_has_key_terms": true
+    },
+    {
+      "raw_file": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "raw_sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",
+      "bytes": 1423088,
+      "pdf_signature": "%PDF-",
+      "pages": 6,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_has_key_terms": true
+    },
+    {
+      "raw_file": "raw/papers/gpt/day26-20261028/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
+      "raw_sha256": "d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997",
+      "bytes": 1399379,
+      "pdf_signature": "%PDF-",
+      "pages": 6,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_has_key_terms": true
+    }
+  ],
+  "evidence_level": "direct experiment plus author-interpreted SCCM mechanism; orbital-level quantitative decomposition unavailable in cited pages"
+}

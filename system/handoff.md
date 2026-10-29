@@ -3651,3 +3651,12 @@ Singh原Present目标带12行全部图示、7finite条件fit/5bound未fit、2pos
 - `WEB_OF_SCIENCE_API_KEY_Free_Trial_Plan`（fallback，1/s 50/day）
 
 Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `run_paper_search_mcp.py`、`literature-access.md`、`memory.md`、`USER_GUIDE.md`、`system/scripts/README.md`。两把 key 均通过 Starter API 实测（HTTP 200）。新 MCP 进程自动使用 Institutional key；旧进程需重启生效。
+
+### Day26 live continuation checkpoint 041 (2026-10-29T12:20:00+08:00)
+
+- 当前 session/goal 持续 active；硬截止仍为 2026-10-29 15:00+08:00，距截止尚有约 160 分钟，研学深度与高阶微观课题持续推进中。
+- 完成手征四重态磁矩张量、AMR量子自旋截断与144,146Ba E1/E3轨道审计三项核心突破：
+  1. 奇奇核手征—八极四重态静态磁矩张量与 K=1/2 退耦（`octupole-chiral-quadruplet-static-magnetic-moments-and-spin-decoupling.md`，工件 `octupole-chiral-magnetic-moments/`）：推导实验室磁矩公式，证明四态序下 (mu_1 - mu_2) + (mu_3 - mu_4) = 4 mu_{chi p}，确立负号关系仅在干涉项为零时成立，推导 K=1/2 宇称依赖退耦常数 b_0^{(+)} != b_0^{(-)} 修正；
+  2. 反磁转动（AMR）单-j 费米子反对称化与量子自旋饱和截断（`amr-coulomb-repulsion-proton-blades-and-closing-asymmetry.md`，工件 `amr-coulomb-blades/`）：严格证明同一单-j 壳层中两同种费米子交换本征值为 -1 禁戒奇数自旋，(g9/2)^2 允许偶数 J_p <= 8，(h11/2)^2 允许偶数 J_n <= 10，导出四价核子单-j 空间绝对上限 J_{val,max} = 18 hbar，阐明经典 20 hbar 违反泡利原理，实测 I = 20+ -> 24+ 必须由四极集体核芯转动供给角动量；
+  3. 富中子钡同位素（144,146Ba）中子单粒子占据与直接 E3 形状推断审计（`ba-e1-e3-sccm-orbital-occupancy-and-static-shape-audit.md`，工件 `ba-e1-e3-sccm-orbital-audit-20261029/`）：核实 Bucher 2017 中子轨道占据数据（nu h9/2: v^2=0.40, nu f7/2: v^2=0.27, nu i13/2: v^2=0.20），指出原论文未发表带符号逐轨道偶极矩阵元，强调现有公开数据不足以完成所谓“精确产生相消”的单轨道分解；计算两核直接 E3 矩阵元区间 Jaccard 重叠达 0.85，确立单个 E3 强度不足以作为刚性静态梨形充要判据的严格科学边界。
+- 全量门禁全绿：`wiki_lint.py` 0 error/358 warnings，`wiki_boundary_check.py` ok: true，`git diff --check` clean。

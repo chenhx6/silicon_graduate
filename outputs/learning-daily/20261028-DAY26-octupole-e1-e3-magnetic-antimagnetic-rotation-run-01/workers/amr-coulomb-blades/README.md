@@ -24,3 +24,9 @@ the 10--15 degree range. This is a provisional calibrated result, not a
 first-principles prediction or an experimental measurement. The `B(E2)`
 output includes an explicitly imposed `B_core=0.06 e2 b2` proxy so that the
 effect of angle asymmetry can be separated from the core contribution.
+
+The companion `amr_fermion_pair_limits.py` derives the exchange selection rule
+for identical particles in a single half-integer-j orbit. It returns
+`g9/2^2: J=0,2,4,6,8`, `h11/2^2: J=0,2,4,6,8,10`, and the four-valence-particle
+limit `J_val,max=18 hbar`. Its CSV/JSON also show the illustrative competition
+between finite-density Coulomb repulsion and a finite-range short-range term.

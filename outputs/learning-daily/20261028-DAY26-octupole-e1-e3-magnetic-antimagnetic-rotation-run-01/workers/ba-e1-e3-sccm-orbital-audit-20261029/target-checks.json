@@ -1,0 +1,9 @@
+{
+  "parse_issues": [],
+  "schema_issues": [],
+  "trailing_whitespace": [],
+  "json_parse": true,
+  "source_hashes_match_local": true,
+  "boundary_check_exit": 0,
+  "scope": "target page + worker artifacts; global boundary check output captured separately"
+}

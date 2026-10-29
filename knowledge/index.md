@@ -951,6 +951,12 @@ updated: 2026-10-28
 
 ## Research Notes
 
+- [[ba-e1-e3-sccm-orbital-occupancy-and-static-shape-audit]] — 144,146Ba 中子单粒子轨道占据、质子—中子电偶极相消与直接 E3 矩阵元置信区间重叠对静态梨形形变假设的证据边界；含可复现工件。
+
+- [[chiral-octupole-quadruplets-symmetry-and-transition-rules]] — 三轴八极奇奇核手征—八极四重态的离散对称性群、宇称投影、单纯形分类与多极跃迁选择定则；结合 78Br、134Pr 与 131Ba 的实验前例与模型适用边界。
+
+- [[octupole-chiral-quadruplet-static-magnetic-moments-and-spin-decoupling]] — 三轴八极手征四重态的静态磁偶极矩张量、`K=1/2` 宇称依赖退耦常数 `b_0`、干涉劈裂条件与 `78Br`/`133Ce` 磁矩证据边界；含可复现 CSV/JSON/SVG 工件。
+
 - [[chiral-octupole-m1-selection-rules-and-polar-current-cancellation]] — 手征—八极四重态中 M1 算符的四态矩阵结构、同宇称手征伙伴选择定则、跨宇称严格相消边界、显式宇称杂质下的分支比与极向流相消 toy 诊断。
 
 - [[amr-cline-quadrupole-invariants-and-triaxial-core-evolution]] - 反磁转动能带中电四极 Cline 旋转不变量重构与有效三轴核芯演化；证明剪刀闭合下核芯内禀四极矩平台（$q_2 \sim 0.31 - 0.35\text{ e b}$）、有效三轴不对称度向 $\gamma$-软极小弛豫及截断误差增长机制；含完全可复现工件。
