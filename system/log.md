@@ -4724,3 +4724,10 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   3. 相对论推转平均场（CRMF）中磁转动空间狄拉克流场与核芯反向旋转（crmf-dirac-currents-and-core-counter-rotation.md，工件 crmf-dirac-currents/）：揭示大-j价粒子狄拉克涡旋流诱发核芯核子反向流动，导出相对论有效g因子猝灭比g_eff/g_free~0.70-0.85，微观解释实验B(M1)衰减机制；
   4. 奇-A稀土与锕系核八极带中的单粒子转移谱因子与核芯极化（odd-a-octupole-spectroscopic-factors-and-core-polarization.md，工件 odd-a-spectroscopic-factors/）：推导单核子转移反应谱因子S(I^pi, j)，计算208条逐态转移与26条中子数演化曲线，证明单粒子宇称混合打破宇称伙伴态截面对称性；
   5. 全量检查全绿：wiki_lint.py 0 error/332 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T09:35:00+08:00 Day26 checkpoint098：3D推转稳定性、sdf-IBM玻色子凝聚、配对相变塌缩与超高形变第三势阱。
+  1. 磁转动三维推转自洽倾斜角、方位角锁定稳定性与核芯三轴轴比演化微观机制（tac-3d-tilt-angles-and-axis-ratio-evolution.md，工件 tac-3d-tilt-angles/）：自洽求解3D TAC转动矢量空间取向，证明方位恢复曲率恒正（K_phi~1.3-5.1 MeV），将方位角锁定在phi_rot=0共面极小，证实纯剪刀磁转动对三维手征涨落的拓扑免疫性；
+  2. 八极玻色子凝聚、代数模型（sdf-IBM）与微观对称自发破缺相变（octupole-boson-condensation-and-sdf-ibm-mapping.md，工件 sdf-ibm-octupole/）：建立sdf-IBM代数模型与相干玻色子凝聚态，推导有限N二体修正因子(N-1)/N，重现kappa_3驱动下从球形向+-beta3极小自发分岔规律；
+  3. 反磁转动高自旋区配对相变塌缩与动力学转动惯量突跃机制（amr-pairing-phase-transition-and-j2-anomaly.md，工件 amr-pairing-collapse/）：推导自洽推转配对能隙方程，数值重现110Cd在hbar*omega~0.52 MeV处由四准粒子解对与配对塌缩共同驱动的J^(2)~70.83 hbar^2/MeV突跃峰，澄清核心转动惯量跃升机制；
+  4. 锕系超高形变第三势阱与深八极反射不对称极小（actinide-hyperdeformed-third-minimum-octupole-boundary.md，工件 hyperdeformed-actinides/）：对账232U与232Th裂变共振，在多维势能面上证实轴比3:1超高形变第三势阱（beta2~0.92）自发凹陷形成深八极极小（beta3~0.32-0.44），推导宇称双重态绝热简并（Delta E_parity < 1 keV）；
+  5. 全量检查全绿：wiki_lint.py 0 error/336 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

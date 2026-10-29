@@ -1,0 +1,21 @@
+nucleus,excitation_above_third_MeV,outer_barrier_remaining_MeV,fission_action_proxy,fission_transmission_proxy,gamma_width_needed_for_competition,interpretation
+230Th,0.0,0.11245638426872606,0.9857094704231025,0.13925911550984332,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+230Th,0.5,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+230Th,1.0,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+230Th,2.0,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+232Th,0.0,0.41192785379819985,1.8865462244049167,0.022980886074216333,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+232Th,0.5,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+232Th,1.0,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+232Th,2.0,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+232U,0.0,0.6992525001018197,2.457954759730073,0.007329048947463648,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+232U,0.5,0.19925250010181972,1.312075303052276,0.0725013130606197,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+232U,1.0,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+232U,2.0,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+234U,0.0,0.8675835796755405,2.7378681722092955,0.004187144234277865,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+234U,0.5,0.36758357967554045,1.7821117048032284,0.028318969186341202,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+234U,1.0,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+234U,2.0,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+236U,0.0,0.9573843662711012,2.876073873283215,0.0031759523255196986,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+236U,0.5,0.45738436627110124,1.9879137115534755,0.01876376949334984,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+236U,1.0,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio
+236U,2.0,0.02,0.41569219381653055,0.43544604273996845,unknown_without_level_density_and_E1/E2/E3_strengths,fission proxy is suppressed when outer barrier remains; no absolute branching ratio

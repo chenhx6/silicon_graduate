@@ -1,0 +1,15 @@
+nucleus,source,spin_hbar,Egamma_keV,omega_MeV_per_hbar,lifetime_ps,B_E2_e2b2,J2_proxy_hbar2_per_MeV,status
+110Cd,"Roy2011 Table 1, p.324",16,1075.0,0.5375,0.36,0.14,,direct lifetime and B(E2); no direct J2 table
+110Cd,"Roy2011 Table 1, p.324",18,1224.0,0.612,0.23,0.12,,direct lifetime and B(E2); no direct J2 table
+110Cd,"Roy2011 Table 1, p.324",20,1323.0,0.6615,0.17,0.11,,direct lifetime and B(E2); no direct J2 table
+110Cd,"Roy2011 Table 1, p.324",22,1314.0,0.657,0.21,0.09,,direct lifetime and B(E2); no direct J2 table
+110Cd,"Roy2011 Table 1, p.324",24,1358.0,0.679,0.27,0.06,,direct lifetime and B(E2); no direct J2 table
+110Cd,derived from Roy2011 Table 1 E_gamma,16-18,1075.0->1224.0,0.57475,,0.13,0.026845637583892617,conditional finite difference; negative value is retained
+110Cd,derived from Roy2011 Table 1 E_gamma,18-20,1224.0->1323.0,0.63675,,0.11499999999999999,0.04040404040404041,conditional finite difference; negative value is retained
+110Cd,derived from Roy2011 Table 1 E_gamma,20-22,1323.0->1314.0,0.65925,,0.1,-0.4444444444444444,conditional finite difference; negative value is retained
+110Cd,derived from Roy2011 Table 1 E_gamma,22-24,1314.0->1358.0,0.668,,0.075,0.09090909090909091,conditional finite difference; negative value is retained
+104Pd,"Rather2014 Table 1, p.10",16,,,,0.26,29.198,"derived from reported J2/B(E2), not an independent J2 measurement"
+104Pd,"Rather2014 Table 1, p.10",18,,,,0.22,30.998,"derived from reported J2/B(E2), not an independent J2 measurement"
+104Pd,"Rather2014 Table 1, p.10",20,,,,0.19,63.498,"derived from reported J2/B(E2), not an independent J2 measurement"
+104Pd,"Rather2014 Table 1, p.10",22,,,,0.13,36.699000000000005,"derived from reported J2/B(E2), not an independent J2 measurement"
+104Pd,"Rather2014 Table 1, p.10",24,,,,0.07,38.801,"derived from reported J2/B(E2), not an independent J2 measurement"

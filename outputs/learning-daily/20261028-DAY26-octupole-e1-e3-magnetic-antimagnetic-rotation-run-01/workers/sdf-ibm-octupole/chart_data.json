@@ -1,0 +1,325 @@
+{
+  "order_parameter": [
+    {
+      "kappa3": 0.0,
+      "beta3": 0.0,
+      "energy": -0.63
+    },
+    {
+      "kappa3": 0.005,
+      "beta3": 0.0,
+      "energy": -0.875
+    },
+    {
+      "kappa3": 0.01,
+      "beta3": 0.0,
+      "energy": -1.12
+    },
+    {
+      "kappa3": 0.015,
+      "beta3": 0.0,
+      "energy": -1.365
+    },
+    {
+      "kappa3": 0.02,
+      "beta3": 0.0,
+      "energy": -1.6099999999999999
+    },
+    {
+      "kappa3": 0.025,
+      "beta3": 0.0,
+      "energy": -1.855
+    },
+    {
+      "kappa3": 0.03,
+      "beta3": 0.0,
+      "energy": -2.1
+    },
+    {
+      "kappa3": 0.035,
+      "beta3": 0.0,
+      "energy": -2.345
+    },
+    {
+      "kappa3": 0.04,
+      "beta3": 0.0,
+      "energy": -2.59
+    },
+    {
+      "kappa3": 0.045,
+      "beta3": 0.0,
+      "energy": -2.835
+    },
+    {
+      "kappa3": 0.05,
+      "beta3": 0.0,
+      "energy": -3.08
+    },
+    {
+      "kappa3": 0.055,
+      "beta3": 0.0,
+      "energy": -3.3249999999999997
+    },
+    {
+      "kappa3": 0.06,
+      "beta3": 0.0,
+      "energy": -3.57
+    },
+    {
+      "kappa3": 0.065,
+      "beta3": 0.0,
+      "energy": -3.815
+    },
+    {
+      "kappa3": 0.07,
+      "beta3": 0.15,
+      "energy": -4.065843931976734
+    },
+    {
+      "kappa3": 0.075,
+      "beta3": 0.22,
+      "energy": -4.331544844020596
+    },
+    {
+      "kappa3": 0.08,
+      "beta3": 0.27,
+      "energy": -4.6095068863116735
+    },
+    {
+      "kappa3": 0.085,
+      "beta3": 0.3,
+      "energy": -4.897565364657856
+    },
+    {
+      "kappa3": 0.09,
+      "beta3": 0.34,
+      "energy": -5.194065988050301
+    },
+    {
+      "kappa3": 0.095,
+      "beta3": 0.36,
+      "energy": -5.4977934861948174
+    },
+    {
+      "kappa3": 0.1,
+      "beta3": 0.38,
+      "energy": -5.807375510784488
+    },
+    {
+      "kappa3": 0.105,
+      "beta3": 0.4,
+      "energy": -6.122203935790723
+    },
+    {
+      "kappa3": 0.11,
+      "beta3": 0.42,
+      "energy": -6.441586289719
+    },
+    {
+      "kappa3": 0.115,
+      "beta3": 0.44,
+      "energy": -6.764761440614466
+    },
+    {
+      "kappa3": 0.12,
+      "beta3": 0.45,
+      "energy": -7.091337967332434
+    },
+    {
+      "kappa3": 0.125,
+      "beta3": 0.47000000000000003,
+      "energy": -7.420785902653632
+    },
+    {
+      "kappa3": 0.13,
+      "beta3": 0.48,
+      "energy": -7.753121627838158
+    },
+    {
+      "kappa3": 0.135,
+      "beta3": 0.49,
+      "energy": -8.08772667961135
+    },
+    {
+      "kappa3": 0.14,
+      "beta3": 0.5,
+      "energy": -8.4244004
+    },
+    {
+      "kappa3": 0.145,
+      "beta3": 0.51,
+      "energy": -8.762937966805843
+    },
+    {
+      "kappa3": 0.15,
+      "beta3": 0.52,
+      "energy": -9.103131225390046
+    },
+    {
+      "kappa3": 0.155,
+      "beta3": 0.53,
+      "energy": -9.44476949180744
+    },
+    {
+      "kappa3": 0.16,
+      "beta3": 0.53,
+      "energy": -9.788010236845468
+    },
+    {
+      "kappa3": 0.165,
+      "beta3": 0.54,
+      "energy": -10.132551851460871
+    },
+    {
+      "kappa3": 0.17,
+      "beta3": 0.55,
+      "energy": -10.478045115273671
+    },
+    {
+      "kappa3": 0.17500000000000002,
+      "beta3": 0.55,
+      "energy": -10.82455996449505
+    },
+    {
+      "kappa3": 0.18,
+      "beta3": 0.56,
+      "energy": -11.172324708378268
+    },
+    {
+      "kappa3": 0.185,
+      "beta3": 0.5700000000000001,
+      "energy": -11.520542258851492
+    },
+    {
+      "kappa3": 0.19,
+      "beta3": 0.5700000000000001,
+      "energy": -11.870057018289286
+    },
+    {
+      "kappa3": 0.195,
+      "beta3": 0.58,
+      "energy": -12.219908140345373
+    },
+    {
+      "kappa3": 0.2,
+      "beta3": 0.58,
+      "energy": -12.570817710794056
+    }
+  ],
+  "transition_scaling": [
+    {
+      "N": 2,
+      "rotor_BE3": 0.05957418151806137,
+      "finite_N_factor": 0.5,
+      "one_phonon_scaling_N": 2.0
+    },
+    {
+      "N": 3,
+      "rotor_BE3": 0.1340419084156381,
+      "finite_N_factor": 0.6666666666666666,
+      "one_phonon_scaling_N": 3.0
+    },
+    {
+      "N": 4,
+      "rotor_BE3": 0.23829672607224547,
+      "finite_N_factor": 0.75,
+      "one_phonon_scaling_N": 4.0
+    },
+    {
+      "N": 5,
+      "rotor_BE3": 0.37233863448788357,
+      "finite_N_factor": 0.8,
+      "one_phonon_scaling_N": 5.0
+    },
+    {
+      "N": 6,
+      "rotor_BE3": 0.5361676336625524,
+      "finite_N_factor": 0.8333333333333334,
+      "one_phonon_scaling_N": 6.0
+    },
+    {
+      "N": 7,
+      "rotor_BE3": 0.7297837235962518,
+      "finite_N_factor": 0.8571428571428571,
+      "one_phonon_scaling_N": 7.0
+    },
+    {
+      "N": 8,
+      "rotor_BE3": 0.9531869042889819,
+      "finite_N_factor": 0.875,
+      "one_phonon_scaling_N": 8.0
+    },
+    {
+      "N": 9,
+      "rotor_BE3": 1.2063771757407429,
+      "finite_N_factor": 0.8888888888888888,
+      "one_phonon_scaling_N": 9.0
+    },
+    {
+      "N": 10,
+      "rotor_BE3": 1.4893545379515343,
+      "finite_N_factor": 0.9,
+      "one_phonon_scaling_N": 10.0
+    },
+    {
+      "N": 11,
+      "rotor_BE3": 1.8021189909213564,
+      "finite_N_factor": 0.9090909090909091,
+      "one_phonon_scaling_N": 11.0
+    },
+    {
+      "N": 12,
+      "rotor_BE3": 2.1446705346502095,
+      "finite_N_factor": 0.9166666666666666,
+      "one_phonon_scaling_N": 12.0
+    },
+    {
+      "N": 13,
+      "rotor_BE3": 2.5170091691380927,
+      "finite_N_factor": 0.9230769230769231,
+      "one_phonon_scaling_N": 13.0
+    },
+    {
+      "N": 14,
+      "rotor_BE3": 2.919134894385007,
+      "finite_N_factor": 0.9285714285714286,
+      "one_phonon_scaling_N": 14.0
+    },
+    {
+      "N": 15,
+      "rotor_BE3": 3.351047710390952,
+      "finite_N_factor": 0.9333333333333333,
+      "one_phonon_scaling_N": 15.0
+    },
+    {
+      "N": 16,
+      "rotor_BE3": 3.8127476171559276,
+      "finite_N_factor": 0.9375,
+      "one_phonon_scaling_N": 16.0
+    },
+    {
+      "N": 17,
+      "rotor_BE3": 4.304234614679934,
+      "finite_N_factor": 0.9411764705882353,
+      "one_phonon_scaling_N": 17.0
+    },
+    {
+      "N": 18,
+      "rotor_BE3": 4.8255087029629715,
+      "finite_N_factor": 0.9444444444444444,
+      "one_phonon_scaling_N": 18.0
+    },
+    {
+      "N": 19,
+      "rotor_BE3": 5.376569882005039,
+      "finite_N_factor": 0.9473684210526315,
+      "one_phonon_scaling_N": 19.0
+    },
+    {
+      "N": 20,
+      "rotor_BE3": 5.957418151806137,
+      "finite_N_factor": 0.95,
+      "one_phonon_scaling_N": 20.0
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "model": "IBM-1 sdf condensate, one-body Q2/Q3 operators",
+  "parameters": {
+    "eps_d": 0.8,
+    "eps_f": 1.1,
+    "kappa2": 0.018,
+    "kappa3": 0.0,
+    "kappaL": 0.0,
+    "chi_d": -0.55,
+    "chi_f": 0.2,
+    "chi_df": 0.25
+  },
+  "N0": 7,
+  "boson_counts": {
+    "144Ba": 6,
+    "146Ba": 7,
+    "148Ce": 8
+  },
+  "experimental_B_E3_down_WU": {
+    "144Ba": {
+      "value": 48,
+      "minus": 34,
+      "plus": 25,
+      "source": "Bucher 2016, Table I"
+    },
+    "146Ba": {
+      "value": 48,
+      "minus": 29,
+      "plus": 21,
+      "source": "Bucher 2017, Table I"
+    },
+    "148Ce": {
+      "value": null,
+      "status": "not found in adopted ENSDF Jan 2026; level 3- is adopted at 841.41 keV but no B(E3) field",
+      "source": "NNDC ENSDF adopted levels"
+    }
+  },
+  "finite_N_interpretation": "For Q.Q in an N-boson condensate, the two-body term is N(N-1); the missing self term is O(N), giving the explicit (N-1)/N correction to an N^2 classical estimate. A one-phonon decay amplitude scales as sqrt(N), hence B scales as N. These are distinct observables.",
+  "checks": {
+    "parity": "Q3 is odd, Q3.Q3 is even; all Hamiltonian terms conserve parity",
+    "rotational_scalar": "dot products sum all magnetic components",
+    "beta3_symmetry": "E(beta3)=E(-beta3) for the parity-conserving Hamiltonian"
+  }
+}

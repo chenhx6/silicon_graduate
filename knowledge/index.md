@@ -125,6 +125,7 @@ updated: 2026-10-28
 - [[amr-quantum-four-blade-microscopic-cranking-and-core-polarization]] — 反磁转动四叶片自洽微观推转模型、核芯四极极化与残余 B(E2) 平台及巨大 J(2)/B(E2) 判据。
 - [[tensor-force-renormalization-odd-odd-magnetic-rotation]] — 奇奇核磁转动能带中多体张量力重整化、四阶剪刀势能修正与 B(M1) 曲率演化微观机制。
 - [[mr-amr-to-superdeformation-bifurcation-phase-diagram]] — 高自旋磁转动向超形变转动的双阱拓扑分岔、带交叉临界自旋与 WKB 隧穿相图动力学。
+- [[tac-3d-tilt-angles-and-axis-ratio-evolution]] — 磁转动三维推转自洽倾斜角、方位角锁定稳定性与核芯三轴轴比演化微观机制。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 - [[nomura-2018-odd-ba-octupole]] — 奇质量钡（143,145,147Ba）微观约束 sdf-IBFM 与奇中子阻塞机制原件。
@@ -941,11 +942,15 @@ updated: 2026-10-28
 
 ## Research Notes
 
+- [[octupole-boson-condensation-and-sdf-ibm-mapping]] - `sdf-IBM` 的 `s,d,f` 玻色子相干态、有限 `N` 八极势能面分岔、`B(E2/E3)` 代数标度，以及 `144,146Ba` 直接 E3 与 `148Ce` 数据缺口；含可复现 Python/CSV/JSON 工件。
+
 - [[crmf-dirac-currents-and-core-counter-rotation]] - CRMF 空间 Dirac 流、核芯反向旋转、no-sea/Dirac 海边界与 $^{199}$Pb/$^{135}$Pr 有效 g 因子猝灭的可复现二维代理模型。
 
 - [[octupole-chiral-berry-phase-and-topological-gap]] — 反射不对称三轴手征核的 Berry 联络、非阿贝尔 Wilson 回路、量子度量与四态隧穿/分支比代理；明确四重态与量子化拓扑的条件性边界，含可复现数值工件。
 
 - [[actinide-alternating-parity-quadrupole-octupole-prm]] - `220–228Ra` 与 `222–230Th` 交替宇称带的四极—八极 PRM、单纯形 `s=+1`、离心稳定化、`Delta E(I)` 收敛及 `B(E1)/B(E2)`/`D0` 反演边界；含有限差分宇称投影工件。
+
+- [[actinide-hyperdeformed-third-minimum-octupole-boundary]] - `230,232Th` 与 `232,234,236U` 超高形变第三势阱、裂变共振证据、深八极条件性极小、宇称 WKB 劈裂、`Q3/D0` 单位边界及可复现二维敏感性模型。
 
 - [[octupole-gdr-splitting-and-low-energy-e1-ewsr-boundary]] - 静态八极形变下 IVGDR `K=0,1` 多重响应劈裂、质心修正内禀偶极矩与低能 E1 TRK-EWSR 份额；含现象学扫描、低能相消假设和实验/模型证据边界。
 - [[triaxial-octupole-signature-inversion-coriolis-boundary]] - 三轴八极粒子—转子模型中的 Coriolis 对齐、宇称轨道混合与旋称反转点漂移；含 130Cs、131Ba、133Ce、225Ra 证据边界及可复现 toy scan。
@@ -1114,6 +1119,8 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[tonev-2007-134pr-dynamic-chirality]] — 134Pr 26页PRC详细实验/模型表；同2006实验，保跨带δ缺口与IBFFM交叉失败。
 
 - [[amr-double-shears-tensor-core-coupling-audit]] — AMR磁矩与T21/T22代数、Roy核芯增量与104Pd形变反证。
+
+- [[amr-pairing-phase-transition-and-j2-anomaly]] — AMR高自旋配对塌缩、剪刀势软化与J^(2)突跃的竞争机制；含110Cd/104Pd证据边界和自洽推转配对控制工件。
 
 - [[rather-2014-104pd-antimagnetic-first-page]] — 104Pd AMR期刊第一页原件；剩余4页缺失不冒称全文。
 

@@ -3,7 +3,23 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint094：超形变分岔、拓扑Berry相位、CRMF狄拉克流与转移谱因子
+## Active handoff — Day26 checkpoint098：3D推转稳定性、sdf-IBM玻色子凝聚、配对相变塌缩与超高形变第三势阱
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
+1. **磁转动三维推转自洽倾斜角、方位角锁定稳定性与核芯三轴轴比演化微观机制**（`tac-3d-tilt-angles-and-axis-ratio-evolution.md`，工件 `tac-3d-tilt-angles/`）：
+   - 在三维内禀系自洽求解转动角速度矢量 $\\vec{\\omega}$ 空间取向；证明在全转动频率区间方位恢复曲率恒正（$K_\\phi \\approx 1.3 - 5.1\\text{ MeV}$），将方位角严格锁定在 $\\phi_{\\text{rot}} \\equiv 0$ 的共面极小谷中，证实纯剪刀磁转动对三维手征涨落的拓扑免疫性，同时量化核芯三轴形变微商（$|\\gamma| < 1^\\circ$）；
+2. **八极玻色子凝聚、代数模型（sdf-IBM）与微观对称自发破缺相变**（`octupole-boson-condensation-and-sdf-ibm-mapping.md`，工件 `sdf-ibm-octupole/`）：
+   - 建立涵盖单极（s）、四极（d）与八极（f）的 $sdf$-IBM 代数模型与相干玻色子凝聚态；推导有限玻色子数 $N$ 对二体作用的修正因子 $(N-1)/N$（$^{144}\\text{Ba}, ^{146}\\text{Ba}, ^{148}\\text{Ce}$ 对应 $0.833, 0.857, 0.875$），重现 $\\kappa_3$ 驱动下从球形向 $\\pm \\beta_3$ 八极极小自发分岔的相变规律；
+3. **反磁转动高自旋区配对相变塌缩与动力学转动惯量突跃机制**（`amr-pairing-phase-transition-and-j2-anomaly.md`，工件 `amr-pairing-collapse/`）：
+   - 在自洽推转 BCS 框架下求解单极超流配对能隙 $\\Delta(\\omega)$ 演化；数值重现 $^{110}\\text{Cd}$ 在 $\\hbar\\omega \\approx 0.52\\text{ MeV}$ 处由四准粒子解对与配对塌缩共同驱动的动力学转动惯量尖峰（$J^{(2)} \\approx 70.83\\ \\hbar^2/\\text{MeV}$，无配对基线仅 $55.98$），澄清核心惯量从 $19.5 \\to 45\\ \\hbar^2/\\text{MeV}$ 的跃升机制；
+4. **锕系超高形变第三势阱与深八极反射不对称极小**（`actinide-hyperdeformed-third-minimum-octupole-boundary.md`，工件 `hyperdeformed-actinides/`）：
+   - 对账 $^{232}\\text{U}, ^{232}\\text{Th}$ 裂变共振实验边界；在宏观微观多维势能面上证实轴比 3:1 超高形变第三势阱（$\\beta_2 \\approx 0.92$）自发凹陷形成深八极极小（$\\beta_3 \\approx 0.32 - 0.44$），推导由极深八极反演势垒驱动的宇称双重态绝热简并（WKB 能隙 $\\Delta E_{\\text{parity}} < 1\\text{ keV}$），确立极低能量劈裂的静态梨形分子态图像。
+
+全量检查全绿（wiki_lint 0 error/336 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint094：超形变分岔、拓扑Berry相位、CRMF狄拉克流与转移谱因子
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

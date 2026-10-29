@@ -1,0 +1,124 @@
+{
+  "model": "reduced beta2-beta3 third-well plus one-dimensional parity-WKB sensitivity",
+  "status": "illustrative_reduced_model_not_EDF_or_experimental_fit",
+  "equations": {
+    "energy": "V=V_quad(beta2)+0.5*a3(beta2)*beta3^2+35*beta3^4",
+    "a3": "a3=5- strength*exp(-((beta2-0.92)/0.14)^2)",
+    "q3": "Q3=(3/(4*pi))*Z*R^3*beta3; R=1.2*A^(1/3) fm",
+    "wkb": "S/hbar=2*sqrt(2*B)*sqrt(d4)*beta3^3/3; Delta=hw/pi*exp(-S/hbar)"
+  },
+  "grid": {
+    "beta2": [
+      0.1,
+      1.3,
+      121
+    ],
+    "beta3": [
+      -0.5,
+      0.5,
+      81
+    ]
+  },
+  "collective_mass_assumed_for_wkb": 140.0,
+  "note": "All coefficients and masses are explicit sensitivity inputs; no row is a measured barrier, beta3, Q3, D0, or decay width.",
+  "nuclei": {
+    "230Th": {
+      "beta2_third_symmetric": 0.92,
+      "energy_third_symmetric_MeV": 1.8999889404494918,
+      "beta2_third_relaxed": 0.92,
+      "symmetric_path_has_local_minimum_near_third": false,
+      "beta3_third_relaxed": 0.31622776601683794,
+      "energy_third_relaxed_MeV": 1.549988940449492,
+      "energy_ground_relaxed_MeV": 0.33527552809156086,
+      "third_well_octupole_gain_MeV": 0.34999999999999987,
+      "inner_path_barrier_above_third_MeV": 0.08339456050794936,
+      "outer_path_barrier_above_third_MeV": 0.11245638426872606,
+      "R_fm": 7.3523108102740995,
+      "Q3_geometry_efm3": 2700.3836779389885,
+      "Q3_geometry_eb32": 2.7003836779389885,
+      "D0_proxy_efm": 0.15811388300841897,
+      "beta2_used_for_D0": 0.92,
+      "observable_status": "geometrical/proxy; not an experimental extraction"
+    },
+    "232Th": {
+      "beta2_third_symmetric": 0.92,
+      "energy_third_symmetric_MeV": 1.8999889404494918,
+      "beta2_third_relaxed": 0.92,
+      "symmetric_path_has_local_minimum_near_third": false,
+      "beta3_third_relaxed": 0.3779644730092272,
+      "energy_third_relaxed_MeV": 1.1857032261637777,
+      "energy_ground_relaxed_MeV": 0.33527552809156086,
+      "third_well_octupole_gain_MeV": 0.7142857142857142,
+      "inner_path_barrier_above_third_MeV": 0.366303005103799,
+      "outer_path_barrier_above_third_MeV": 0.41192785379819985,
+      "R_fm": 7.3735603816460324,
+      "Q3_geometry_efm3": 3255.6417048179837,
+      "Q3_geometry_eb32": 3.2556417048179838,
+      "D0_proxy_efm": 0.1889822365046136,
+      "beta2_used_for_D0": 0.92,
+      "observable_status": "geometrical/proxy; not an experimental extraction"
+    },
+    "232U": {
+      "beta2_third_symmetric": 0.92,
+      "energy_third_symmetric_MeV": 1.8999889404494918,
+      "beta2_third_relaxed": 0.92,
+      "symmetric_path_has_local_minimum_near_third": false,
+      "beta3_third_relaxed": 0.4140393356054125,
+      "energy_third_relaxed_MeV": 0.8714175118780632,
+      "energy_ground_relaxed_MeV": 0.33527552809156086,
+      "third_well_octupole_gain_MeV": 1.0285714285714287,
+      "inner_path_barrier_above_third_MeV": 0.6440090544630017,
+      "outer_path_barrier_above_third_MeV": 0.6992525001018197,
+      "R_fm": 7.3735603816460324,
+      "Q3_geometry_efm3": 3645.62961958381,
+      "Q3_geometry_eb32": 3.64562961958381,
+      "D0_proxy_efm": 0.20701966780270628,
+      "beta2_used_for_D0": 0.92,
+      "observable_status": "geometrical/proxy; not an experimental extraction"
+    },
+    "234U": {
+      "beta2_third_symmetric": 0.92,
+      "energy_third_symmetric_MeV": 1.8999889404494918,
+      "beta2_third_relaxed": 0.92,
+      "symmetric_path_has_local_minimum_near_third": false,
+      "beta3_third_relaxed": 0.4309458036856673,
+      "energy_third_relaxed_MeV": 0.6928460833066343,
+      "energy_ground_relaxed_MeV": 0.33527552809156086,
+      "third_well_octupole_gain_MeV": 1.2071428571428575,
+      "inner_path_barrier_above_third_MeV": 0.8067186166684222,
+      "outer_path_barrier_above_third_MeV": 0.8675835796755405,
+      "R_fm": 7.394688177298844,
+      "Q3_geometry_efm3": 3827.2027474608153,
+      "Q3_geometry_eb32": 3.8272027474608152,
+      "D0_proxy_efm": 0.21547290184283366,
+      "beta2_used_for_D0": 0.92,
+      "observable_status": "geometrical/proxy; not an experimental extraction"
+    },
+    "236U": {
+      "beta2_third_symmetric": 0.92,
+      "energy_third_symmetric_MeV": 1.8999889404494918,
+      "beta2_third_relaxed": 0.92,
+      "symmetric_path_has_local_minimum_near_third": false,
+      "beta3_third_relaxed": 0.43915503282683993,
+      "energy_third_relaxed_MeV": 0.5982032261637775,
+      "energy_ground_relaxed_MeV": 0.33527552809156086,
+      "third_well_octupole_gain_MeV": 1.3017857142857143,
+      "inner_path_barrier_above_third_MeV": 0.8937080232593748,
+      "outer_path_barrier_above_third_MeV": 0.9573843662711012,
+      "R_fm": 7.415695927038772,
+      "Q3_geometry_efm3": 3933.4426581836,
+      "Q3_geometry_eb32": 3.9334426581836,
+      "D0_proxy_efm": 0.21957751641341997,
+      "beta2_used_for_D0": 0.92,
+      "observable_status": "geometrical/proxy; not an experimental extraction"
+    }
+  },
+  "files": [
+    "hyperdeformed_actinides.py",
+    "pes_grid.csv",
+    "parity_wkb.csv",
+    "decay_competition.csv",
+    "chart_data.json",
+    "README.md"
+  ]
+}

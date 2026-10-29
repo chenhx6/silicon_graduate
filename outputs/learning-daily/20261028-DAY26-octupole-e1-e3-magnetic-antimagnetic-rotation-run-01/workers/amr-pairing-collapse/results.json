@@ -1,0 +1,96 @@
+{
+  "status": "conditional-mechanism-model-with-evidence-ledger",
+  "units": {
+    "omega": "MeV/hbar",
+    "gap": "MeV",
+    "spin": "hbar",
+    "inertia": "hbar^2/MeV"
+  },
+  "equations": {
+    "cranked_quasiparticle": "E_k=sqrt((xi_k-lambda)^2+Delta^2)",
+    "pair_survival": "F_k=1-f(E_k-omega*jx_k)-f(E_k+omega*jx_k)",
+    "self_consistent_gap": "Delta=G*Delta*sum_k[F_k/(2*E_k)]",
+    "spin": "I(omega)=I_shears(omega)+J_core(omega)*omega",
+    "dynamic_inertia": "J2=dI/domega",
+    "core_response": "J_core=45-(45-19.5)*S_pair(omega), S_pair=1/(1+exp((omega-0.40)/0.12))"
+  },
+  "blocked_configuration": {
+    "protons": "two pi-g9/2 holes blocked outside the residual pair reservoir",
+    "neutrons": "two nu-h11/2 particles blocked outside the residual pair reservoir",
+    "interpretation": "The active levels are a residual pair reservoir; this is not a full blocked HFB/PNC wave function."
+  },
+  "parameters": {
+    "G_p_MeV": 0.24,
+    "G_n_MeV": 0.25,
+    "lambda_MeV": 0.0,
+    "temperature_smearing_MeV": 0.03,
+    "J_core_superfluid_hbar2_per_MeV": 19.5,
+    "J_core_rigid_hbar2_per_MeV": 45.0,
+    "transition_center_MeV_per_hbar": 0.5,
+    "core_response_center_MeV_per_hbar": 0.4,
+    "transition_width_MeV_per_hbar": 0.12
+  },
+  "model_outputs": {
+    "pairing_curve_peak_J2_hbar2_per_MeV": 70.83066358769366,
+    "pairing_curve_peak_omega_MeV_per_hbar": 0.52,
+    "no_pairing_J2_range_hbar2_per_MeV": [
+      55.97560975609705,
+      55.97560975609792
+    ],
+    "fully_collapsed_core_limit_hbar2_per_MeV": 45.0,
+    "Roy_core_fit_hbar2_per_MeV": 19.5,
+    "Rather_104Pd_derived_J2_peak_hbar2_per_MeV": 63.498
+  },
+  "evidence_boundaries": {
+    "110Cd": "Roy2011 Table 1 directly gives tau and B(E2), not a J2 table. Its E_gamma finite differences contain a negative 20-22 proxy and do not independently establish a 60-70 peak.",
+    "104Pd": "Rather2014 Table 1 reports J2/B(E2); multiplying by B(E2) gives a derived maximum about 63.5 hbar^2/MeV at I=20.",
+    "pairing": "Zhang2013/2019 support frequency-dependent PNC pairing, blocking and occupation rearrangement, but neither measures a Delta(omega) collapse in 110Cd.",
+    "causality": "The J2 peak follows here only after an explicit finite-response mapping from pair stiffness to J_core; it is a falsifiable mechanism control, not source-reported attribution."
+  },
+  "roy_110cd_derived_rows": [
+    {
+      "nucleus": "110Cd",
+      "source": "derived from Roy2011 Table 1 E_gamma",
+      "spin_hbar": "16-18",
+      "Egamma_keV": "1075.0->1224.0",
+      "omega_MeV_per_hbar": 0.57475,
+      "lifetime_ps": null,
+      "B_E2_e2b2": 0.13,
+      "J2_proxy_hbar2_per_MeV": 0.026845637583892617,
+      "status": "conditional finite difference; negative value is retained"
+    },
+    {
+      "nucleus": "110Cd",
+      "source": "derived from Roy2011 Table 1 E_gamma",
+      "spin_hbar": "18-20",
+      "Egamma_keV": "1224.0->1323.0",
+      "omega_MeV_per_hbar": 0.63675,
+      "lifetime_ps": null,
+      "B_E2_e2b2": 0.11499999999999999,
+      "J2_proxy_hbar2_per_MeV": 0.04040404040404041,
+      "status": "conditional finite difference; negative value is retained"
+    },
+    {
+      "nucleus": "110Cd",
+      "source": "derived from Roy2011 Table 1 E_gamma",
+      "spin_hbar": "20-22",
+      "Egamma_keV": "1323.0->1314.0",
+      "omega_MeV_per_hbar": 0.65925,
+      "lifetime_ps": null,
+      "B_E2_e2b2": 0.1,
+      "J2_proxy_hbar2_per_MeV": -0.4444444444444444,
+      "status": "conditional finite difference; negative value is retained"
+    },
+    {
+      "nucleus": "110Cd",
+      "source": "derived from Roy2011 Table 1 E_gamma",
+      "spin_hbar": "22-24",
+      "Egamma_keV": "1314.0->1358.0",
+      "omega_MeV_per_hbar": 0.668,
+      "lifetime_ps": null,
+      "B_E2_e2b2": 0.075,
+      "J2_proxy_hbar2_per_MeV": 0.09090909090909091,
+      "status": "conditional finite difference; negative value is retained"
+    }
+  ]
+}
