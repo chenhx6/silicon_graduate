@@ -1,0 +1,89 @@
+{
+  "schema": "odd-odd-octupole-simplex-coupling/v1",
+  "status": "synthetic-phenomenology-not-an-isotope-fit",
+  "nuclei": [
+    "220Fr",
+    "222Fr",
+    "224Ac"
+  ],
+  "hamiltonian": {
+    "A": "hbar^2/(2J)",
+    "H_cor": "-A[(I_+ j_p- + I_- j_p+) + (j_p+ j_n- + j_p- j_n+)]",
+    "branch_basis": "(p,r) in {(+, +),(+, -),(-, +),(-, -)}",
+    "simplex": "s=p*r for integer-spin odd-odd sequences; requested phase p exp(-i pi I) also retained",
+    "decoupling": "E_dec=(-1)^I r (I+1/2)(a_p(p)+a_n(p))",
+    "octupole_mixing": "a_q(p)=a_q0 + p delta_a_q sin(2 theta_q), theta_q=atan2(2 beta3 v3, Deltaepsilon_q)/2"
+  },
+  "orbital_boundary": {
+    "user_named_pairs": [
+      "pi h9/2-f7/2",
+      "nu g9/2-i11/2"
+    ],
+    "parity_check": "h9/2 and f7/2 have both negative spherical parity; g9/2 and i11/2 have both positive spherical parity",
+    "true_octupole_driving_examples": [
+      "pi f7/2-i13/2",
+      "nu g9/2-j15/2"
+    ],
+    "interpretation": "same-parity pairs may enter effective decoupling, but they are not themselves E3 opposite-parity drivers"
+  },
+  "case_parameters": {
+    "220Fr": {
+      "A_MeV": 0.012,
+      "beta3": 0.075,
+      "D0_efm": 0.115,
+      "a_p": 0.24,
+      "a_n": -0.17,
+      "delta_a_p": 0.16,
+      "delta_a_n": 0.1
+    },
+    "222Fr": {
+      "A_MeV": 0.0115,
+      "beta3": 0.09,
+      "D0_efm": 0.135,
+      "a_p": 0.27,
+      "a_n": -0.19,
+      "delta_a_p": 0.19,
+      "delta_a_n": 0.13
+    },
+    "224Ac": {
+      "A_MeV": 0.0108,
+      "beta3": 0.1,
+      "D0_efm": 0.155,
+      "a_p": 0.31,
+      "a_n": -0.22,
+      "delta_a_p": 0.21,
+      "delta_a_n": 0.15
+    }
+  },
+  "checks": {
+    "220Fr": {
+      "microscopic_basis_dimension_I10": 65,
+      "microscopic_hermiticity_max": 0.0,
+      "four_state_hermiticity_max": 0.0,
+      "simplex_block_couplings_only": true
+    },
+    "222Fr": {
+      "microscopic_basis_dimension_I10": 65,
+      "microscopic_hermiticity_max": 0.0,
+      "four_state_hermiticity_max": 0.0,
+      "simplex_block_couplings_only": true
+    },
+    "224Ac": {
+      "microscopic_basis_dimension_I10": 65,
+      "microscopic_hermiticity_max": 0.0,
+      "four_state_hermiticity_max": 0.0,
+      "simplex_block_couplings_only": true
+    }
+  },
+  "outputs": [
+    "four_band_spectrum.csv",
+    "staggering.csv",
+    "transition_strengths.csv",
+    "results.json"
+  ],
+  "evidence_boundary": [
+    "Butler-Nazarewicz 1996 supplies reflection-asymmetry, opposite-parity orbital, parity-restoration and E1/E3 boundaries.",
+    "Gaffney 2013 supplies direct adjacent-mass 220Rn/224Ra Coulomb-excitation E1/E2/E3 methodology and the static-versus-soft caution.",
+    "No local source supplies a verified four-band, absolute-lifetime data set for 220,222Fr or 224Ac; numerical values here are illustrative inputs."
+  ]
+}

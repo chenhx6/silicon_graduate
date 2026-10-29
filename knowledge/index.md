@@ -124,11 +124,13 @@ updated: 2026-10-28
 - [[amr-double-shears-core-coupling-and-b-e2-plateau]] — 110Cd 与 104Pd 双剪刀四叶片几何、核芯长椭微变形耦合与 B(E2) 平台微观机制。
 - [[amr-quantum-four-blade-microscopic-cranking-and-core-polarization]] — 反磁转动四叶片自洽微观推转模型、核芯四极极化与残余 B(E2) 平台及巨大 J(2)/B(E2) 判据。
 - [[amr-core-quadrupole-drive-and-shears-torque]] — 反磁转动中核芯四极驱动、固定总角动量下的非谐剪刀力矩与 110Cd-like 两自由度可复现模型。
+- [[amr-coulomb-repulsion-proton-blades-and-closing-asymmetry]] — 有限密度质子—质子库仑项对四叶片闭合非对称与 T22、B(E2) 的条件性重整；明确区分点粒子发散与量子波包有限矩阵元。
 - [[tensor-force-renormalization-odd-odd-magnetic-rotation]] — 奇奇核磁转动能带中多体张量力重整化、四阶剪刀势能修正与 B(M1) 曲率演化微观机制。
 - [[mr-amr-to-superdeformation-bifurcation-phase-diagram]] — 高自旋磁转动向超形变转动的双阱拓扑分岔、带交叉临界自旋与 WKB 隧穿相图动力学。
 - [[tac-3d-tilt-angles-and-axis-ratio-evolution]] — 磁转动三维推转自洽倾斜角、方位角锁定稳定性与核芯三轴轴比演化微观机制。
 - [[finite-range-shears-interaction-and-frequency-quenching]] — 磁转动中有限力程剪刀相互作用、闭合延迟与转动频率淬灭微观机制。
 - [[mxd-multipole-matrix-elements-and-transition-interference]] — 多重手征核中四极-八极多极算符代数重整、交叉隧穿与跃迁相消干涉微观机制。
+- [[shears-angular-momentum-projection-and-fluctuation-corrections]] — 磁转动剪刀机制中角动量量子色散修正、精确投影能级与 B(M1) 量子折减机制。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 - [[nomura-2018-odd-ba-octupole]] — 奇质量钡（143,145,147Ba）微观约束 sdf-IBFM 与奇中子阻塞机制原件。
@@ -944,6 +946,10 @@ updated: 2026-10-28
 - Updated [[low-spin-wobbling-controversies]] and [[nuclear-chirality-and-multiple-chiral-doublet-bands]].
 
 ## Research Notes
+
+- [[cns-high-spin-octupole-phase-transitions-in-neutron-rich-ba]] - 宏观-微观 CNS-inspired `beta2-gamma-beta3` 势能面、`144,146,148Ba` 的低自旋离心稳定化与高-j alignment 淬灭竞争；含完整网格、极小路径、交错位移工件与证据边界。
+
+- [[odd-odd-octupole-simplex-signature-coupling-and-decoupling]] - `^{220,222}Fr` 与 `^{224}Ac` 奇奇八极四重态的 simplex/signature 耦合、双粒子 Coriolis、宇称依赖退耦常数和 E1/E2/M1 选择定则；含固定-M Coriolis 矩阵与现象学四分支 CSV/JSON/图表工件。
 
 - [[actinide-parity-doublet-magnetic-moments-and-spin-polarization]] - `223Ra`, `225Ra`, `225Ac`, `227Ac` 宇称伙伴的静态磁矩、`B(M1)` 证据边界、八极混合导致的 `g_K`/`b_0` 分岔与有效 `g_s` 淬灭；含可复现 Nilsson-like `β3` CSV/JSON 工件。
 

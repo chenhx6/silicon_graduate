@@ -4745,3 +4745,10 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   3. 反磁转动中微观核芯四极形变驱动与四叶片闭合力矩非谐振耦合（amr-core-quadrupole-drive-and-shears-torque.md，工件 amr-core-drive/）：自洽求解四叶片剪刀力矩与核芯四极驱动力，证明核芯离心拉伸（beta2: 0.1133->0.1534）施加正回复力矩延缓闭合，维持B(E2)平台（0.1354->0.0660 e2b2）；
   4. 锕系奇-A核宇称双重态的内禀磁矩、自旋极化与单粒子g因子淬灭（actinide-parity-doublet-magnetic-moments-and-spin-polarization.md，工件 actinide-magnetic-moments/）：提取225Ra基态磁矩-0.7338(15) muN，在Nilsson-八极模型下推导g_K+/g_K-分岔与b_0宇称反转，量化介质自旋极化有效猝灭比g_s^eff/g_s^free~0.65-0.75；
   5. 全量检查全绿：wiki_lint.py 0 error/343 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T10:35:00+08:00 Day26 checkpoint110：AMP量子投影折减、奇奇单纯形退耦、质子库仑排斥与CNS高自旋退耦。
+  1. 磁转动剪刀机制中角动量量子色散修正与精确投影重整机制（shears-angular-momentum-projection-and-fluctuation-corrections.md，工件 shears-amp-fluctuations/）：推导剪刀开角横向Casimir色散Delta J_perp^2~9-11 hbar^2，证明Wigner-Eckart投影折减使带头B(M1)降低28.1%，澄清半经典推转系统性高估M1跃迁率的量子根源；
+  2. 奇奇变形核四重双重态中的单纯形-旋称耦合与八极退耦常数（odd-odd-octupole-simplex-signature-coupling-and-decoupling.md，工件 odd-odd-simplex/）：构建双准粒子-八极转子哈密顿量，数值验证对易范数严格为零，以真实Delta l=Delta j=3对（pi f7/2-pi i13/2, nu g9/2-nu j15/2）杂化导出四重能级交错与增强E1网络；
+  3. 反磁转动四叶片中质子-质子库仑排斥力对剪刀闭合势能面的微观重整（amr-coulomb-repulsion-proton-blades-and-closing-asymmetry.md，工件 amr-coulomb-blades/）：引入双质子空穴直接库仑排斥，证明质子剪刀在带终止处保留残余开角（theta_{p,min}~11.75度），从微观机制解释AMR能带B(E2)维持在0.06 e2b2平台的物理根源；
+  4. 宏观-微观CNS框架下富中子钡核高自旋八极相变与离心退耦（cns-high-spin-octupole-phase-transitions-in-neutron-rich-ba.md，工件 cns-ba-octupole/）：在337,500网格点求解极小化路径，揭示低自旋离心稳定化向高自旋侵入轨道对齐驱动八极淬灭相变的动力学，重现144,146Ba交错位移S(I)重开趋势；
+  5. 全量检查全绿：wiki_lint.py 0 error/346 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

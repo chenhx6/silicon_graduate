@@ -3,7 +3,27 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint106：MxD跃迁干涉、手征单纯形恢复、AMR核芯驱动力矩与奇A锕系磁矩
+## Active handoff — Day26 checkpoint110：AMP量子投影折减、奇奇单纯形退耦、质子库仑排斥与CNS高自旋退耦
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
+1. **磁转动剪刀机制中角动量量子色散修正与精确投影重整机制**（`shears-angular-momentum-projection-and-fluctuation-corrections.md`，工件 `shears-amp-fluctuations/`）：
+   - 推导剪刀开角中间态横向 Casimir 角动量色散 $\\Delta J_\\perp^2(\\theta) \\sim 9 - 11\\ \\hbar^2$；
+   - 证明由 Wigner-Eckart 投影因子 $f_{\\text{proj}}(I) = 1 - \\Delta J_\\perp^2 / (2I^2)$ 带来的天然量子折减使带头 $B(M1)$ 降低约 $28.1%$，微观澄清了过去半经典推转普遍系统性高估实验 $M1$ 跃迁率的物理本质；
+2. **奇奇变形核四重双重态中的单纯形-旋称耦合与八极退耦常数**（`odd-odd-octupole-simplex-signature-coupling-and-decoupling.md`，工件 `odd-odd-simplex/`）：
+   - 构建奇奇核双准粒子-八极转子哈密顿量，数值验证对易范数严格为零；
+   - 澄清球形标号下 $\\pi h_{9/2}-\\pi f_{7/2}$ 系同宇称轨道，严格以真实 $\\Delta l = \\Delta j = 3$ 轨道对（$\\pi f_{7/2}-\\pi i_{13/2}$，$\\nu g_{9/2}-\\nu j_{15/2}$）驱动反射不对称杂化，导出宇称依赖退耦常数 $a_p / a_n$ 诱发的四重能级交错与极强增强 $E1$ 跃迁网络；
+3. **反磁转动四叶片中质子-质子库仑排斥力对剪刀闭合势能面的微观重整**（`amr-coulomb-repulsion-proton-blades-and-closing-asymmetry.md`，工件 `amr-coulomb-blades/`）：
+   - 将双质子空穴局域直接库仑相互作用 $V_{\\text{Coul}}(\\theta_p)$ 引入推转 Routhian；
+   - 证明在带终止处中子叶片完全对齐（$\\theta_n \\to 0^\\circ$），而质子叶片受库仑排斥阻碍在极小处必须保持非零残余开角（$\\theta_{p,\\text{min}} \\approx 11.75^\\circ$），产生非对称四极跃迁张量 $\\Delta T_{22}$，从第一性原理阐明 AMR 实验 $B(E2)$ 平台维持在 $0.06\\ e^2\\text{b}^2$ 的物理机制；
+4. **宏观-微观 CNS 框架下富中子钡核高自旋八极相变与离心退耦**（`cns-high-spin-octupole-phase-transitions-in-neutron-rich-ba.md`，工件 `cns-ba-octupole/`）：
+   - 在 337,500 网格点上求解 $(\\beta_2, \\gamma, \\beta_3, I)$ 极小化路径；
+   - 揭示低自旋区离心稳定化（$\\beta_3$ 外移至 $I=10\\hbar$）向高自旋（$I \\ge 12\\hbar$）侵入轨道对强行对准驱动八极相干破缺（octupole quenching）的相变动力学，重现 $^{144,146}\\text{Ba}$ 交错位移 $S(I)$ 重新发散的演化趋势。
+
+全量检查全绿（wiki_lint 0 error/346 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint106：MxD跃迁干涉、手征单纯形恢复、AMR核芯驱动力矩与奇A锕系磁矩
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

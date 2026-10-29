@@ -1,0 +1,93 @@
+[
+  {
+    "I_spin": 15,
+    "theta_shears_deg": 60.7,
+    "cos_theta": 0.4896,
+    "E_unproj_MeV": 4.5067,
+    "E_AMP_MeV": 4.1769,
+    "Delta_J_perp_sq_hbar2": 10.554,
+    "AMP_energy_shift_keV": -329.8,
+    "B_M1_semiclassical_muN2": 3.22,
+    "AMP_projection_factor": 0.719,
+    "B_M1_AMP_projected_muN2": 2.314,
+    "relative_B_M1_reduction_percent": 28.1
+  },
+  {
+    "I_spin": 16,
+    "theta_shears_deg": 58.5,
+    "cos_theta": 0.5223,
+    "E_unproj_MeV": 5.1276,
+    "E_AMP_MeV": 4.8046,
+    "Delta_J_perp_sq_hbar2": 10.335,
+    "AMP_energy_shift_keV": -323.0,
+    "B_M1_semiclassical_muN2": 3.08,
+    "AMP_projection_factor": 0.758,
+    "B_M1_AMP_projected_muN2": 2.334,
+    "relative_B_M1_reduction_percent": 24.2
+  },
+  {
+    "I_spin": 17,
+    "theta_shears_deg": 56.3,
+    "cos_theta": 0.5549,
+    "E_unproj_MeV": 5.7886,
+    "E_AMP_MeV": 5.4729,
+    "Delta_J_perp_sq_hbar2": 10.101,
+    "AMP_energy_shift_keV": -315.7,
+    "B_M1_semiclassical_muN2": 2.931,
+    "AMP_projection_factor": 0.79,
+    "B_M1_AMP_projected_muN2": 2.316,
+    "relative_B_M1_reduction_percent": 21.0
+  },
+  {
+    "I_spin": 18,
+    "theta_shears_deg": 54.0,
+    "cos_theta": 0.5875,
+    "E_unproj_MeV": 6.4896,
+    "E_AMP_MeV": 6.1817,
+    "Delta_J_perp_sq_hbar2": 9.853,
+    "AMP_energy_shift_keV": -307.9,
+    "B_M1_semiclassical_muN2": 2.773,
+    "AMP_projection_factor": 0.818,
+    "B_M1_AMP_projected_muN2": 2.267,
+    "relative_B_M1_reduction_percent": 18.2
+  },
+  {
+    "I_spin": 19,
+    "theta_shears_deg": 51.7,
+    "cos_theta": 0.6202,
+    "E_unproj_MeV": 7.2307,
+    "E_AMP_MeV": 6.931,
+    "Delta_J_perp_sq_hbar2": 9.591,
+    "AMP_energy_shift_keV": -299.7,
+    "B_M1_semiclassical_muN2": 2.606,
+    "AMP_projection_factor": 0.841,
+    "B_M1_AMP_projected_muN2": 2.191,
+    "relative_B_M1_reduction_percent": 15.9
+  },
+  {
+    "I_spin": 20,
+    "theta_shears_deg": 49.2,
+    "cos_theta": 0.6528,
+    "E_unproj_MeV": 8.0119,
+    "E_AMP_MeV": 7.7208,
+    "Delta_J_perp_sq_hbar2": 9.315,
+    "AMP_energy_shift_keV": -291.1,
+    "B_M1_semiclassical_muN2": 2.43,
+    "AMP_projection_factor": 0.86,
+    "B_M1_AMP_projected_muN2": 2.091,
+    "relative_B_M1_reduction_percent": 14.0
+  },
+  {
+    "I_spin": 21,
+    "theta_shears_deg": 46.7,
+    "cos_theta": 0.6855,
+    "E_unproj_MeV": 8.8331,
+    "E_AMP_MeV": 8.5511,
+    "Delta_J_perp_sq_hbar2": 9.024,
+    "AMP_energy_shift_keV": -282.0,
+    "B_M1_semiclassical_muN2": 2.245,
+    "AMP_projection_factor": 0.877,
+    "B_M1_AMP_projected_muN2": 1.969,
+    "relative_B_M1_reduction_percent": 12.3
+  }
+]
