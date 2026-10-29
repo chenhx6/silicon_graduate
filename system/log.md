@@ -4703,3 +4703,10 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
   2. 量子剪刀模型QSM Racah张量代数重整化（quantum-shears-racah-algebra-and-transition-rates.md，工件 quantum-shears/）：严格推导6j符号磁偶极跃迁矩阵元，量化有限自旋下量子解较半经典sin2(theta)的5.6%-24.2%偏差，证明闭合端点量子非零值与1/j渐近收敛；
   3. 同核多重手征能带MχD与八极关联微观共存机制（mxd-multiple-chiral-doublets-octupole-coupling-boundary.md，工件 mxd-octupole/）：对账133Ce与135Nd MχD实验基准，计算1856条多通道跃迁，确立通过gamma刚度与E1跃迁网络区分独立组态与八极激发的判据；
   4. 全量检查全绿：wiki_lint.py 0 error/321 warnings，wiki_boundary_check.py ok: true，git diff --check clean。
+
+- 2026-10-29T08:25:00+08:00 Day26 checkpoint086：AMR量子微观推转、三轴八极旋称反转、α团簇拓扑边界与超重核裂变动力学。
+  1. 反磁转动四叶片量子推转与核芯自洽极小化模型（amr-quantum-four-blade-microscopic-cranking-and-core-polarization.md，工件 amr-quantum-four-blade/）：自洽求解四叶片剪刀角与核芯形变极小化，证明Ry(pi)T严格相消驱动B(M1)恒零，揭示核芯离心极化维持残余B(E2)平台（0.06-0.09 e2b2），重现110Cd实测B(E2)衰减与J(2)/B(E2)~245-619巨比值平台；
+  2. 三轴八极转动对齐与高自旋旋称反转微观Coriolis竞争机制（triaxial-octupole-signature-inversion-coriolis-boundary.md，工件 triaxial-octupole-inversion/）：构建含三轴八极耦合粒子-转子模型，数值验证能量一致性与厄米性，确立弱八极下临界反转自旋Ic=19/2向强八极Ic=21/2漂移规律；
+  3. α团簇分子态与平均场八极形变的算符等价与拓扑边界（alpha-clustering-vs-meanfield-octupole-boundary.md，工件 alpha-clustering-octupole/）：推导Brink与微观八极平均场投影重叠核，量化轻核点团簇拓扑分离向重锕系泡利阻塞平均场八极软集体的转变边界；
+  4. 超重核区八极形变对裂变势垒与自发裂变半衰期灵敏度机制（superheavy-octupole-fission-barrier-and-halflife.md，工件 superheavy-octupole-fission/）：分析Z=120质子对与N=184中子对强八极极化，推导八极形变降低外裂变鞍点（1-3 MeV）并开辟不对称裂变谷，量化外鞍降低1.0 MeV对T_SF缩短4.5个数量级的指数敏感性；
+  5. 全量检查全绿：wiki_lint.py 0 error/325 warnings，wiki_boundary_check.py ok: true，git diff --check clean。

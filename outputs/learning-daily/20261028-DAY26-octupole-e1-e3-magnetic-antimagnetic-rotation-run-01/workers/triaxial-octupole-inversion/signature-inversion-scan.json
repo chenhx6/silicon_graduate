@@ -1,0 +1,59 @@
+{
+  "model": "effective parity-doublet triaxial particle-rotor toy model",
+  "units": "MeV and hbar=1",
+  "assumption_boundary": "synthetic parameters; no isotope fit; beta3 is an effective static coupling",
+  "basis": "|I mI> x |j mj=11/2> x |orbital parity> x |octupole well>",
+  "hamiltonian": "sum_k (I_k-j_k)^2/(2J_k) + eps sigma_z + Delta tau_x + kappa3 beta3 sigma_x tau_z",
+  "symmetry_operators": {
+    "parity": "sigma_z tau_x",
+    "signature": "exp[-i pi (I_x+j_x)]"
+  },
+  "cases": [
+    {
+      "case": "axial_ref_beta3_0",
+      "gamma_deg": 0.0,
+      "beta3": 0.0,
+      "inversion_spin_I": 9.5,
+      "n_spins": 10
+    },
+    {
+      "case": "triaxial_beta3_0",
+      "gamma_deg": 20.0,
+      "beta3": 0.0,
+      "inversion_spin_I": 9.5,
+      "n_spins": 10
+    },
+    {
+      "case": "triaxial_octupole_weak",
+      "gamma_deg": 20.0,
+      "beta3": 0.06,
+      "inversion_spin_I": 9.5,
+      "n_spins": 10
+    },
+    {
+      "case": "triaxial_octupole_strong",
+      "gamma_deg": 28.0,
+      "beta3": 0.12,
+      "inversion_spin_I": 10.5,
+      "n_spins": 10
+    },
+    {
+      "case": "more_triaxial_octupole_strong",
+      "gamma_deg": 34.0,
+      "beta3": 0.12,
+      "inversion_spin_I": 10.5,
+      "n_spins": 10
+    }
+  ],
+  "verification": {
+    "max_hermitian_error": 0.0,
+    "max_parity_commutator": 0.0,
+    "max_signature_commutator": 2.5223105384619927e-15,
+    "max_energy_consistency_error": 8.881784197001252e-15,
+    "unitary_time_evolution_energy_drift": 0.0,
+    "passed": true
+  },
+  "outputs": [
+    "signature-inversion-scan.csv"
+  ]
+}

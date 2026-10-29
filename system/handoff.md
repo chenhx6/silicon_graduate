@@ -3,7 +3,28 @@ graph-excluded: true
 updated: 2026-10-29
 ---
 
-## Active handoff — Day26 checkpoint082：全球B(E3)/Q3基准数据库、量子剪刀Racah代数及MχD八极耦合边界
+## Active handoff — Day26 checkpoint086：AMR量子微观推转、三轴八极旋称反转、α团簇拓扑边界与超重核裂变动力学
+
+正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
+
+本阶段由主代理与三路子代理协同研学取得关键理论微观机制突破与跨质量区拓扑边界闭环：
+1. **反磁转动四叶片量子推转与核芯自洽极小化模型**（`amr-quantum-four-blade-microscopic-cranking-and-core-polarization.md`，工件 `amr-quantum-four-blade/`）：
+   - 自洽求解四叶片剪刀角 $(\\theta_\\pi, \\theta_\\nu)$ 与核芯四极形变 $\\beta_2$ 随推转频率的极小化演化；
+   - 证明 $\\mathcal{R}_y(\\pi)\\mathcal{T}$ 严格相消使横向 $\\vec{\\mu}_\\perp \\equiv 0 \\implies B(M1) \\equiv 0$；
+   - 揭示剪刀闭合（$\\sin^4\\theta \\to 0$）后由核芯离心极化维持残余 $B(E2)_{\\text{plateau}} \\approx 0.06-0.09\\ e^2\\text{b}^2$，重现 $^{110}\\text{Cd}$ 实测 $B(E2) = 0.14(1) \\to 0.06(2)\\ e^2\\text{b}^2$ 与 $J^{(2)}/B(E2) \\sim 245-619\\ \\hbar^2\\text{MeV}^{-1}(e^2\\text{b}^2)^{-1}$ 巨比值平台；
+2. **三轴八极势能面上转动对齐与高自旋旋称反转微观 Coriolis 竞争机制**（`triaxial-octupole-signature-inversion-coriolis-boundary.md`，工件 `triaxial-octupole-inversion/`）：
+   - 建立包含三轴三阶多极耦合项的粒子-转子模型（PRM），推导非对角 Coriolis 耦合与正负宇称单粒子混合；
+   - 数值验证能量一致性与厄米性，确立参考/弱八极参数下反转临界自旋 $I_c = 19/2$，而在强八极耦合下漂移至 $I_c = 21/2$ 的演化规律；
+3. **$\\alpha$ 团簇分子态与平均场八极形变的算符等价与拓扑边界**（`alpha-clustering-vs-meanfield-octupole-boundary.md`，工件 `alpha-clustering-octupole/`）：
+   - 严格推导 Brink 结团波函数与内禀反射不对称平均场波函数的投影重叠核与 Wildermuth 极限定理；
+   - 量化轻核（$^{16}\\text{O}, ^{20}\\text{Ne}$）以点团簇拓扑分离为主，而重锕系（$^{212}\\text{Po}, ^{224}\\text{Ra}$）由于库仑斥力与泡利阻塞转变为平均场八极软集体的质量区拓扑转变边界；
+4. **超重核区（$Z \\sim 114-126, N \\sim 184$）八极形变对多重裂变势垒与自发裂变半衰期灵敏度机制**（`superheavy-octupole-fission-barrier-and-halflife.md`，工件 `superheavy-octupole-fission/`）：
+   - 深入分析 $Z=120$ 质子对（$2f_{5/2}-1i_{11/2}$）与 $N=184$ 中子对（$2g_{9/2}-1j_{15/2}$）的 $\\Delta l = \\Delta j = 3$ 强耦合；
+   - 推导八极形变降低外裂变鞍点（$1-3\\text{ MeV}$）并开辟质量不对称裂变谷的微观机制；在一维有效 WKB 模型中量化外鞍降低 $1.0\\text{ MeV}$ 对自发裂变半衰期 $T_{\\text{SF}}$ 带来约 4.5 个数量级的剧烈压低效应。
+
+全量检查全绿（wiki_lint 0 error/325 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
+
+## Previous handoff — Day26 checkpoint082：全球B(E3)/Q3基准数据库、量子剪刀Racah代数及MχD八极耦合边界
 
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 

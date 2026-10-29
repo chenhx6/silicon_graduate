@@ -121,6 +121,7 @@ updated: 2026-10-28
 - [[cross-mass-region-collective-mode-mechanisms-and-breakdown]] — 跨质量区集体运动模式迁移与不适用性边界深化（Day 27 横向矩阵与机制失效判据）。
 - [[roy-2011-cd110-systematics-antimagnetic]] — 110Cd 高自旋反磁转动第一手 DSAM 寿命、B(E2) 与核心转动耦合系统学原件。
 - [[amr-double-shears-core-coupling-and-b-e2-plateau]] — 110Cd 与 104Pd 双剪刀四叶片几何、核芯长椭微变形耦合与 B(E2) 平台微观机制。
+- [[amr-quantum-four-blade-microscopic-cranking-and-core-polarization]] — 反磁转动四叶片自洽微观推转模型、核芯四极极化与残余 B(E2) 平台及巨大 J(2)/B(E2) 判据。
 - [[octupole-mr-amr-evidence-gradient]] — E3/E1、MR与AMR的三层证据图；Pr交叉身份、Cd数列与E1模型偏差的原件校准。
 - [[bernard-2016-144ba-sccm-octupole]] — 新读SCCM方法原件：good-J/宇称恢复、双坐标核与软PES，非新增实验。
 - [[nomura-2018-odd-ba-octupole]] — 奇质量钡（143,145,147Ba）微观约束 sdf-IBFM 与奇中子阻塞机制原件。
@@ -937,6 +938,10 @@ updated: 2026-10-28
 
 ## Research Notes
 
+- [[triaxial-octupole-signature-inversion-coriolis-boundary]] - 三轴八极粒子—转子模型中的 Coriolis 对齐、宇称轨道混合与旋称反转点漂移；含 130Cs、131Ba、133Ce、225Ra 证据边界及可复现 toy scan。
+
+- [[superheavy-octupole-fission-barrier-and-halflife]] - `Z≈114–126,N≈184` 八极轨道驱动、外裂变鞍点重整化、第三势阱可行性与 toy WKB 自发裂变寿命灵敏度；区分外部模型结果与实验边界。
+- [[alpha-clustering-vs-meanfield-octupole-boundary]] - α 团簇分子态与平均场八极形变的算符等价、投影重叠 surrogate、E1/E3 对账与质量区拓扑边界。
 - [[spinhalf-angular-nuisance-response-contract]] - SI实际spin1/2前提的核rest域、末态门/boost反例与A2模块readiness。
 - [[lifetime-strength-audit-165tm-136nd]] - DSAM寿命/强度/Qt几何及feeding/stopping预算分层；Day17内无学分Day18知识。
 - [[day20-quadrupole-collectivity-systematics-synthesis]] - B(E2)、Qt的source分层与条件反例；046–100认证撤回，实验机制/Cov缺口保持。

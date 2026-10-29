@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "description": "plot-ready values generated from the surrogate model",
+  "x": "A",
+  "series": {
+    "alpha_loc": [
+      {
+        "label": "16O=12C+alpha",
+        "A": 16,
+        "value": 0.49529420142514197
+      },
+      {
+        "label": "20Ne=16O+alpha",
+        "A": 20,
+        "value": 0.41265387804968656
+      },
+      {
+        "label": "212Po=208Pb+alpha",
+        "A": 212,
+        "value": 0.07836218094849684
+      },
+      {
+        "label": "224Ra=220Rn+alpha",
+        "A": 224,
+        "value": 0.0442391584040096
+      }
+    ],
+    "D0_cluster": [
+      {
+        "label": "16O=12C+alpha",
+        "A": 16,
+        "value": 0.0
+      },
+      {
+        "label": "20Ne=16O+alpha",
+        "A": 20,
+        "value": 0.0
+      },
+      {
+        "label": "212Po=208Pb+alpha",
+        "A": 212,
+        "value": 4.053343022337162
+      },
+      {
+        "label": "224Ra=220Rn+alpha",
+        "A": 224,
+        "value": 4.199594634222454
+      }
+    ],
+    "D0_mf_raw": [
+      {
+        "label": "16O=12C+alpha",
+        "A": 16,
+        "value": 0.31185284549184505
+      },
+      {
+        "label": "20Ne=16O+alpha",
+        "A": 20,
+        "value": 1.8896247801922053
+      },
+      {
+        "label": "212Po=208Pb+alpha",
+        "A": 212,
+        "value": 1.7218624527543207
+      },
+      {
+        "label": "224Ra=220Rn+alpha",
+        "A": 224,
+        "value": 11.574789736097337
+      }
+    ],
+    "B_E1_cluster": [
+      {
+        "label": "16O=12C+alpha",
+        "A": 16,
+        "value": 0.0
+      },
+      {
+        "label": "20Ne=16O+alpha",
+        "A": 20,
+        "value": 0.0
+      },
+      {
+        "label": "212Po=208Pb+alpha",
+        "A": 212,
+        "value": 3.922275610259931
+      },
+      {
+        "label": "224Ra=220Rn+alpha",
+        "A": 224,
+        "value": 4.210426932252965
+      }
+    ],
+    "B_E1_mf_raw": [
+      {
+        "label": "16O=12C+alpha",
+        "A": 16,
+        "value": 0.023217251876265787
+      },
+      {
+        "label": "20Ne=16O+alpha",
+        "A": 20,
+        "value": 0.8524374903847753
+      },
+      {
+        "label": "212Po=208Pb+alpha",
+        "A": 212,
+        "value": 0.7077963233435123
+      },
+      {
+        "label": "224Ra=220Rn+alpha",
+        "A": 224,
+        "value": 31.98435607535909
+      }
+    ],
+    "B_E3_cluster": [
+      {
+        "label": "16O=12C+alpha",
+        "A": 16,
+        "value": 11955.419655859656
+      },
+      {
+        "label": "20Ne=16O+alpha",
+        "A": 20,
+        "value": 25899.500078315916
+      },
+      {
+        "label": "212Po=208Pb+alpha",
+        "A": 212,
+        "value": 1722102.4506814473
+      },
+      {
+        "label": "224Ra=220Rn+alpha",
+        "A": 224,
+        "value": 1769605.9469829476
+      }
+    ],
+    "B_E3_mf": [
+      {
+        "label": "16O=12C+alpha",
+        "A": 16,
+        "value": 40.15066003961228
+      },
+      {
+        "label": "20Ne=16O+alpha",
+        "A": 20,
+        "value": 220.55416281525282
+      },
+      {
+        "label": "212Po=208Pb+alpha",
+        "A": 212,
+        "value": 134921.31344024083
+      },
+      {
+        "label": "224Ra=220Rn+alpha",
+        "A": 224,
+        "value": 1296067.7672631328
+      }
+    ],
+    "overlap_0plus": [
+      {
+        "label": "16O=12C+alpha",
+        "A": 16,
+        "value": 0.40247657134784953
+      },
+      {
+        "label": "20Ne=16O+alpha",
+        "A": 20,
+        "value": 0.4028642464053862
+      },
+      {
+        "label": "212Po=208Pb+alpha",
+        "A": 212,
+        "value": 0.7294197784052834
+      },
+      {
+        "label": "224Ra=220Rn+alpha",
+        "A": 224,
+        "value": 0.487124209811417
+      }
+    ],
+    "overlap_3minus": [
+      {
+        "label": "16O=12C+alpha",
+        "A": 16,
+        "value": 0.27010887160182356
+      },
+      {
+        "label": "20Ne=16O+alpha",
+        "A": 20,
+        "value": 0.27683647786809906
+      },
+      {
+        "label": "212Po=208Pb+alpha",
+        "A": 212,
+        "value": 0.13861607601634182
+      },
+      {
+        "label": "224Ra=220Rn+alpha",
+        "A": 224,
+        "value": 0.32097522323133987
+      }
+    ]
+  }
+}
