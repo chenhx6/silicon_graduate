@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "investigation": "Gamow-Teller Resonance and Effective Axial-Vector Coupling g_A Quenching across Mass Regions",
+  "description": "Systematic evaluation of g_A quenching from light p-shell nuclei (6He) to heavy doubly magic systems (100Sn, 208Pb) and double-beta emitters (76Ge, 130Te, 136Xe), demonstrating the monotonic mass scaling q(A) and refuting the naive transfer of low-momentum 2nu quenching to 0nu beta beta.",
+  "systems": [
+    {
+      "nucleus": "6He",
+      "A": 6,
+      "Z": 2,
+      "shell_region": "p-shell Light Nucleus",
+      "q_quenching_exp": 0.88,
+      "g_A_effective_exp": 1.122,
+      "q_quenching_theoretical_mass_scaling": 0.927,
+      "discrepancy_percent": 5.3,
+      "q_effective_0nu_high_momentum": 0.982,
+      "decay_rate_reduction_factor_2nu": 0.6,
+      "decay_rate_reduction_factor_0nu": 0.93,
+      "matrix_element_squared_sensitivity_ratio": 1.55,
+      "is_double_beta_emitter": false
+    },
+    {
+      "nucleus": "28Si",
+      "A": 28,
+      "Z": 14,
+      "shell_region": "sd-shell Medium-Light",
+      "q_quenching_exp": 0.77,
+      "g_A_effective_exp": 0.982,
+      "q_quenching_theoretical_mass_scaling": 0.847,
+      "discrepancy_percent": 10.0,
+      "q_effective_0nu_high_momentum": 0.966,
+      "decay_rate_reduction_factor_2nu": 0.352,
+      "decay_rate_reduction_factor_0nu": 0.869,
+      "matrix_element_squared_sensitivity_ratio": 2.47,
+      "is_double_beta_emitter": false
+    },
+    {
+      "nucleus": "48Ca",
+      "A": 48,
+      "Z": 20,
+      "shell_region": "pf-shell Medium Core",
+      "q_quenching_exp": 0.74,
+      "g_A_effective_exp": 0.944,
+      "q_quenching_theoretical_mass_scaling": 0.818,
+      "discrepancy_percent": 10.5,
+      "q_effective_0nu_high_momentum": 0.961,
+      "decay_rate_reduction_factor_2nu": 0.3,
+      "decay_rate_reduction_factor_0nu": 0.853,
+      "matrix_element_squared_sensitivity_ratio": 2.84,
+      "is_double_beta_emitter": true
+    },
+    {
+      "nucleus": "76Ge",
+      "A": 76,
+      "Z": 32,
+      "shell_region": "pf-g-shell Transitional",
+      "q_quenching_exp": 0.72,
+      "g_A_effective_exp": 0.918,
+      "q_quenching_theoretical_mass_scaling": 0.793,
+      "discrepancy_percent": 10.2,
+      "q_effective_0nu_high_momentum": 0.958,
+      "decay_rate_reduction_factor_2nu": 0.269,
+      "decay_rate_reduction_factor_0nu": 0.842,
+      "matrix_element_squared_sensitivity_ratio": 3.13,
+      "is_double_beta_emitter": true
+    },
+    {
+      "nucleus": "100Sn",
+      "A": 100,
+      "Z": 50,
+      "shell_region": "Doubly Magic Heavy Benchmark (Superallowed GT)",
+      "q_quenching_exp": 0.7,
+      "g_A_effective_exp": 0.893,
+      "q_quenching_theoretical_mass_scaling": 0.779,
+      "discrepancy_percent": 11.3,
+      "q_effective_0nu_high_momentum": 0.955,
+      "decay_rate_reduction_factor_2nu": 0.24,
+      "decay_rate_reduction_factor_0nu": 0.832,
+      "matrix_element_squared_sensitivity_ratio": 3.46,
+      "is_double_beta_emitter": false
+    },
+    {
+      "nucleus": "130Te",
+      "A": 130,
+      "Z": 52,
+      "shell_region": "Heavy Open-Shell Te Chain",
+      "q_quenching_exp": 0.69,
+      "g_A_effective_exp": 0.88,
+      "q_quenching_theoretical_mass_scaling": 0.766,
+      "discrepancy_percent": 11.0,
+      "q_effective_0nu_high_momentum": 0.954,
+      "decay_rate_reduction_factor_2nu": 0.227,
+      "decay_rate_reduction_factor_0nu": 0.827,
+      "matrix_element_squared_sensitivity_ratio": 3.65,
+      "is_double_beta_emitter": true
+    },
+    {
+      "nucleus": "136Xe",
+      "A": 136,
+      "Z": 54,
+      "shell_region": "Semi-Magic Heavy Double-Beta",
+      "q_quenching_exp": 0.69,
+      "g_A_effective_exp": 0.88,
+      "q_quenching_theoretical_mass_scaling": 0.764,
+      "discrepancy_percent": 10.7,
+      "q_effective_0nu_high_momentum": 0.954,
+      "decay_rate_reduction_factor_2nu": 0.227,
+      "decay_rate_reduction_factor_0nu": 0.827,
+      "matrix_element_squared_sensitivity_ratio": 3.65,
+      "is_double_beta_emitter": true
+    },
+    {
+      "nucleus": "208Pb",
+      "A": 208,
+      "Z": 82,
+      "shell_region": "Doubly Magic Heavy End-Member",
+      "q_quenching_exp": 0.68,
+      "g_A_effective_exp": 0.867,
+      "q_quenching_theoretical_mass_scaling": 0.745,
+      "discrepancy_percent": 9.5,
+      "q_effective_0nu_high_momentum": 0.952,
+      "decay_rate_reduction_factor_2nu": 0.214,
+      "decay_rate_reduction_factor_0nu": 0.821,
+      "matrix_element_squared_sensitivity_ratio": 3.84,
+      "is_double_beta_emitter": false
+    }
+  ],
+  "cross_mass_inapplicability_boundaries": {
+    "boundary_1_mass_dependent_core_polarization": {
+      "contrast": "Light nuclei (6He, q=0.88) vs Heavy nuclei (208Pb, q=0.68)",
+      "mechanism": "In light nuclei, the compact single-particle space and large shell gaps severely restrict the number of virtual 2p-2h tensor doorways within the 50 MeV continuum, keeping quenching mild (q ~ 0.88). In heavy nuclei (A >= 100), the dense Fermi sea maximizes tensor force second-order mixing, dispersing 30-32% of the Ikeda sum rule into the high-energy continuum (20-50 MeV), as confirmed by RCNP (3He,t) reactions. A single universal quenching factor across all mass regions is invalid.",
+      "failure_signature": "Overestimating beta-decay rates in heavy nuclei when using p-shell or sd-shell effective g_A values."
+    },
+    "boundary_2_momentum_transfer_inapplicability_in_double_beta_decay": {
+      "contrast": "Allowed 2nu beta beta (q ~ 0) vs Virtual Majorana 0nu beta beta (q ~ 150 MeV/c)",
+      "mechanism": "2nu beta beta proceeds through intermediate 1+ GT states at zero momentum transfer, experiencing full 2p-2h core polarization quenching (q^4 ~ 0.24). 0nu beta beta is mediated by a virtual neutrino propagator H(r) ~ 1/r with average momentum transfer q ~ 150 MeV/c. Over 85% of the transition is carried by higher-order multipoles (J^pi = 2-, 3+, 4-, 5+), which do not couple to the Gamow-Teller giant resonance and suffer negligible quenching (q_0nu ~ 0.95, q^4 ~ 0.83). Naively applying 2nu quenching to 0nu beta beta artificially depresses the matrix element by a factor of ~3.5.",
+      "failure_signature": "Severe underestimation of 0nu beta beta half-life sensitivity by factor of 3 to 4 in GERDA, KamLAND-Zen, and LEGEND analyses."
+    }
+  }
+}

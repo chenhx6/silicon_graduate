@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T13:10:00+08:00",
+  "paper_identity": {
+    "title": "Giant Pairing Vibrations in light nuclei",
+    "authors": [
+      "M. Cavallaro",
+      "F. Cappuzzello",
+      "M. Carbone",
+      "C. Agodi",
+      "D. Carbone",
+      "M. Bondi",
+      "A. Spatafora"
+    ],
+    "journal": "The European Physical Journal A",
+    "volume": "55",
+    "issue": "12",
+    "pages": "238",
+    "year": 2019,
+    "doi": "10.1140/epja/i2019-12786-2"
+  },
+  "theoretical_benchmark": {
+    "title": "Two particle transfer reactions: the search for the Giant Pairing Vibration",
+    "authors": [
+      "C. H. Dasso",
+      "H. M. Sofia",
+      "A. Vitturi"
+    ],
+    "journal": "Journal of Physics: Conference Series",
+    "volume": "580",
+    "pages": "012018",
+    "year": 2015,
+    "doi": "10.1088/1742-6596/580/1/012018"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Resolves the cross-mass transferability failure of the Giant Pairing Vibration (GPV): explains why GPV is cleanly observed in light nuclei (14C, 15C) via heavy-ion (18O,16O) transfer but completely obscured in heavy nuclei (208Pb, 120Sn) under standard (p,t) probes due to kinematic Q-mismatch and QPVC continuum damping."
+}

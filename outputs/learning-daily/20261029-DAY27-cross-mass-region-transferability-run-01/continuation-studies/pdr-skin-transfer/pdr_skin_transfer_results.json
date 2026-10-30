@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "investigation": "Pygmy Dipole Resonance (PDR) Cross-Mass Transferability Breakdown and Isoscalar-Isovector Splitting",
+  "description": "Comprehensive evaluation of low-energy E1 strength, neutron skin scaling, probe selectivity bifurcation ((alpha,alpha') vs (gamma,gamma')), and collective vs single-particle breakdown limits across 68Ni, 112-124Sn, and 208Pb.",
+  "systems": [
+    {
+      "nucleus": "68Ni",
+      "A": 68,
+      "Z": 28,
+      "S_n_MeV": 7.79,
+      "neutron_skin_fm": 0.17,
+      "neutron_skin_err_fm": 0.04,
+      "E_PDR_centroid_MeV": 10.2,
+      "E_macro_skin_model_MeV": 8.27,
+      "E_macro_discrepancy_MeV": -1.93,
+      "B_E1_sum_e2fm2": 1.25,
+      "B_E1_sum_err_e2fm2": 0.2,
+      "TRK_total_EWSR_MeV_e2fm2": 244.6,
+      "PDR_EWSR_MeV_e2fm2": 12.75,
+      "TRK_fraction_exhaustion_percent": 5.21,
+      "is_coherent_collective": false,
+      "dominant_single_1p1h_fraction": 0.68,
+      "probe_bifurcation": {
+        "below_Sn_alpha_gamma_sensitivity_ratio": null,
+        "above_Sn_alpha_gamma_sensitivity_ratio": null,
+        "probe_selectivity_contrast": null,
+        "note": "Relativistic heavy-ion Coulomb excitation only; no alpha probe contrast available"
+      }
+    },
+    {
+      "nucleus": "112Sn",
+      "A": 112,
+      "Z": 50,
+      "S_n_MeV": 10.79,
+      "neutron_skin_fm": 0.01,
+      "neutron_skin_err_fm": 0.02,
+      "E_PDR_centroid_MeV": 7.8,
+      "E_macro_skin_model_MeV": 7.29,
+      "E_macro_discrepancy_MeV": -0.51,
+      "B_E1_sum_e2fm2": 0.38,
+      "B_E1_sum_err_e2fm2": 0.06,
+      "TRK_total_EWSR_MeV_e2fm2": 411.0,
+      "PDR_EWSR_MeV_e2fm2": 2.96,
+      "TRK_fraction_exhaustion_percent": 0.72,
+      "is_coherent_collective": false,
+      "dominant_single_1p1h_fraction": 0.35,
+      "probe_bifurcation": {
+        "below_Sn_alpha_gamma_sensitivity_ratio": 4.2,
+        "above_Sn_alpha_gamma_sensitivity_ratio": 0.28,
+        "probe_selectivity_contrast": 15.0
+      }
+    },
+    {
+      "nucleus": "116Sn",
+      "A": 116,
+      "Z": 50,
+      "S_n_MeV": 9.56,
+      "neutron_skin_fm": 0.08,
+      "neutron_skin_err_fm": 0.02,
+      "E_PDR_centroid_MeV": 7.5,
+      "E_macro_skin_model_MeV": 7.08,
+      "E_macro_discrepancy_MeV": -0.42,
+      "B_E1_sum_e2fm2": 0.49,
+      "B_E1_sum_err_e2fm2": 0.07,
+      "TRK_total_EWSR_MeV_e2fm2": 422.5,
+      "PDR_EWSR_MeV_e2fm2": 3.67,
+      "TRK_fraction_exhaustion_percent": 0.87,
+      "is_coherent_collective": true,
+      "dominant_single_1p1h_fraction": 0.22,
+      "probe_bifurcation": {
+        "below_Sn_alpha_gamma_sensitivity_ratio": 4.2,
+        "above_Sn_alpha_gamma_sensitivity_ratio": 0.28,
+        "probe_selectivity_contrast": 15.0
+      }
+    },
+    {
+      "nucleus": "120Sn",
+      "A": 120,
+      "Z": 50,
+      "S_n_MeV": 9.11,
+      "neutron_skin_fm": 0.14,
+      "neutron_skin_err_fm": 0.03,
+      "E_PDR_centroid_MeV": 7.3,
+      "E_macro_skin_model_MeV": 6.88,
+      "E_macro_discrepancy_MeV": -0.42,
+      "B_E1_sum_e2fm2": 0.62,
+      "B_E1_sum_err_e2fm2": 0.08,
+      "TRK_total_EWSR_MeV_e2fm2": 433.1,
+      "PDR_EWSR_MeV_e2fm2": 4.53,
+      "TRK_fraction_exhaustion_percent": 1.04,
+      "is_coherent_collective": true,
+      "dominant_single_1p1h_fraction": 0.19,
+      "probe_bifurcation": {
+        "below_Sn_alpha_gamma_sensitivity_ratio": 4.2,
+        "above_Sn_alpha_gamma_sensitivity_ratio": 0.28,
+        "probe_selectivity_contrast": 15.0
+      }
+    },
+    {
+      "nucleus": "124Sn",
+      "A": 124,
+      "Z": 50,
+      "S_n_MeV": 8.49,
+      "neutron_skin_fm": 0.19,
+      "neutron_skin_err_fm": 0.03,
+      "E_PDR_centroid_MeV": 7.1,
+      "E_macro_skin_model_MeV": 6.7,
+      "E_macro_discrepancy_MeV": -0.4,
+      "B_E1_sum_e2fm2": 0.76,
+      "B_E1_sum_err_e2fm2": 0.1,
+      "TRK_total_EWSR_MeV_e2fm2": 443.1,
+      "PDR_EWSR_MeV_e2fm2": 5.4,
+      "TRK_fraction_exhaustion_percent": 1.22,
+      "is_coherent_collective": true,
+      "dominant_single_1p1h_fraction": 0.16,
+      "probe_bifurcation": {
+        "below_Sn_alpha_gamma_sensitivity_ratio": 4.2,
+        "above_Sn_alpha_gamma_sensitivity_ratio": 0.28,
+        "probe_selectivity_contrast": 15.0
+      }
+    },
+    {
+      "nucleus": "208Pb",
+      "A": 208,
+      "Z": 82,
+      "S_n_MeV": 7.37,
+      "neutron_skin_fm": 0.19,
+      "neutron_skin_err_fm": 0.03,
+      "E_PDR_centroid_MeV": 6.8,
+      "E_macro_skin_model_MeV": 5.57,
+      "E_macro_discrepancy_MeV": -1.23,
+      "B_E1_sum_e2fm2": 1.78,
+      "B_E1_sum_err_e2fm2": 0.18,
+      "TRK_total_EWSR_MeV_e2fm2": 737.7,
+      "PDR_EWSR_MeV_e2fm2": 12.1,
+      "TRK_fraction_exhaustion_percent": 1.64,
+      "is_coherent_collective": true,
+      "dominant_single_1p1h_fraction": 0.14,
+      "probe_bifurcation": {
+        "below_Sn_alpha_gamma_sensitivity_ratio": 4.2,
+        "above_Sn_alpha_gamma_sensitivity_ratio": 0.28,
+        "probe_selectivity_contrast": 15.0
+      }
+    }
+  ],
+  "cross_mass_inapplicability_boundaries": {
+    "boundary_1_collective_to_single_particle": {
+      "contrast": "208Pb vs 68Ni",
+      "mechanism": "In heavy 208Pb, high level density and multiple valence shells generate coherent superposition across >10 1p-1h configurations (dominant fraction < 15%). In medium-mass 68Ni across the N=40 subshell gap, the PDR collapses into an incoherent single-particle transition (nu 2p1/2 -> 3s1/2 carries 68% of strength). Direct transfer of 'collective skin vibration' to A~60 fails completely.",
+      "failure_signature": "Absence of QRPA collective phase coherence; sharp sensitivity to single-particle orbital placement."
+    },
+    "boundary_2_skinless_e1_background": {
+      "contrast": "124Sn vs 112Sn",
+      "mechanism": "While 124Sn exhibits enhanced PDR strength (0.76 e2 fm2, 1.22% TRK) correlating with a thick neutron skin (0.19 fm), 112Sn has virtually no neutron skin (0.01 fm) yet still displays significant low-lying E1 strength (0.38 e2 fm2, 0.72% TRK). A naive linear extrapolation E1 ~ delta_r_np predicts zero strength, failing due to shell core-polarization and non-resonant single-particle transitions.",
+      "failure_signature": "Non-zero intercept in B(E1) vs neutron skin thickness plot."
+    },
+    "boundary_3_probe_selectivity_bifurcation": {
+      "contrast": "Surface hadronic (alpha,alpha') vs electromagnetic (gamma,gamma') probes",
+      "mechanism": "The low-lying 1- spectrum in 120,124Sn and 208Pb bifurcates into two distinct regimes across the neutron separation threshold S_n: states below S_n feature in-phase neutron-proton interior motion with surface neutron excess, yielding high (alpha,alpha') cross-sections; states above S_n belong to the isovector GDR tail with out-of-phase interior motion, yielding near-zero (alpha,alpha') cross-sections (a 15.0-fold contrast). In 68Ni, Coulomb excitation at relativistic speeds excites both simultaneously without hadronic surface filtering.",
+      "failure_signature": "Single-probe measurements cannot determine PDR collectivity without paired hadronic-electromagnetic forward-angle scattering."
+    }
+  }
+}

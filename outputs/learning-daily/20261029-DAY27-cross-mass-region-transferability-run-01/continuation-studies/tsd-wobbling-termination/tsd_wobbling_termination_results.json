@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T03:36:38.995722+00:00",
+  "task": "Competition between TSD wobbling and particle-hole core termination across A~160-170",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_lu163_tw_drops": true,
+    "test_2_lu163_termination_deferred_beyond_50": true,
+    "test_3_lu167_wobbling_flattens_prematurely": true,
+    "test_4_tm169_tsd_barrier_collapses": true
+  },
+  "simulations": {
+    "161Lu": {
+      "nucleus": "161Lu",
+      "Z": 71,
+      "N": 90,
+      "TSD_barrier_depth_MeV": 0.95,
+      "curvature_C_gamma_MeV_per_rad2": 7.8,
+      "termination_spin": 52.5,
+      "states": [
+        {
+          "spin": 8.5,
+          "gamma_deg": 21.0,
+          "omega_w_keV": 172.6,
+          "B_E2_out_over_in": 0.273,
+          "J_m": 65.3,
+          "J_s": 39.8,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 9.5,
+          "gamma_deg": 21.0,
+          "omega_w_keV": 170.9,
+          "B_E2_out_over_in": 0.244,
+          "J_m": 65.3,
+          "J_s": 39.8,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 11.5,
+          "gamma_deg": 21.0,
+          "omega_w_keV": 159.7,
+          "B_E2_out_over_in": 0.202,
+          "J_m": 65.3,
+          "J_s": 39.8,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 13.5,
+          "gamma_deg": 21.0,
+          "omega_w_keV": 135.6,
+          "B_E2_out_over_in": 0.172,
+          "J_m": 65.3,
+          "J_s": 39.8,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 15.5,
+          "gamma_deg": 21.0,
+          "omega_w_keV": 88.5,
+          "B_E2_out_over_in": 0.15,
+          "J_m": 65.3,
+          "J_s": 39.8,
+          "mode": "transverse-wobbling"
+        }
+      ]
+    },
+    "163Lu": {
+      "nucleus": "163Lu",
+      "Z": 71,
+      "N": 92,
+      "TSD_barrier_depth_MeV": 1.2,
+      "curvature_C_gamma_MeV_per_rad2": 9.85,
+      "termination_spin": 56.5,
+      "states": [
+        {
+          "spin": 8.5,
+          "gamma_deg": 20.0,
+          "omega_w_keV": 166.8,
+          "B_E2_out_over_in": 0.26,
+          "J_m": 64.2,
+          "J_s": 39.9,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 9.5,
+          "gamma_deg": 20.0,
+          "omega_w_keV": 165.9,
+          "B_E2_out_over_in": 0.233,
+          "J_m": 64.2,
+          "J_s": 39.9,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 11.5,
+          "gamma_deg": 20.0,
+          "omega_w_keV": 157.0,
+          "B_E2_out_over_in": 0.192,
+          "J_m": 64.2,
+          "J_s": 39.9,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 13.5,
+          "gamma_deg": 20.0,
+          "omega_w_keV": 137.0,
+          "B_E2_out_over_in": 0.164,
+          "J_m": 64.2,
+          "J_s": 39.9,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 15.5,
+          "gamma_deg": 20.0,
+          "omega_w_keV": 99.4,
+          "B_E2_out_over_in": 0.143,
+          "J_m": 64.2,
+          "J_s": 39.9,
+          "mode": "transverse-wobbling"
+        }
+      ]
+    },
+    "165Lu": {
+      "nucleus": "165Lu",
+      "Z": 71,
+      "N": 94,
+      "TSD_barrier_depth_MeV": 0.8,
+      "curvature_C_gamma_MeV_per_rad2": 6.57,
+      "termination_spin": 50.5,
+      "states": [
+        {
+          "spin": 8.5,
+          "gamma_deg": 17.5,
+          "omega_w_keV": 153.8,
+          "B_E2_out_over_in": 0.229,
+          "J_m": 61.5,
+          "J_s": 40.2,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 9.5,
+          "gamma_deg": 17.5,
+          "omega_w_keV": 154.4,
+          "B_E2_out_over_in": 0.205,
+          "J_m": 61.5,
+          "J_s": 40.2,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 11.5,
+          "gamma_deg": 17.5,
+          "omega_w_keV": 150.4,
+          "B_E2_out_over_in": 0.169,
+          "J_m": 61.5,
+          "J_s": 40.2,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 13.5,
+          "gamma_deg": 17.5,
+          "omega_w_keV": 138.6,
+          "B_E2_out_over_in": 0.144,
+          "J_m": 61.5,
+          "J_s": 40.2,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 15.5,
+          "gamma_deg": 17.5,
+          "omega_w_keV": 116.8,
+          "B_E2_out_over_in": 0.126,
+          "J_m": 61.5,
+          "J_s": 40.2,
+          "mode": "transverse-wobbling"
+        }
+      ]
+    },
+    "167Lu": {
+      "nucleus": "167Lu",
+      "Z": 71,
+      "N": 96,
+      "TSD_barrier_depth_MeV": 0.35,
+      "curvature_C_gamma_MeV_per_rad2": 2.87,
+      "termination_spin": 46.5,
+      "states": [
+        {
+          "spin": 8.5,
+          "gamma_deg": 13.5,
+          "omega_w_keV": 134.7,
+          "B_E2_out_over_in": 0.178,
+          "J_m": 57.2,
+          "J_s": 40.6,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 9.5,
+          "gamma_deg": 13.5,
+          "omega_w_keV": 137.2,
+          "B_E2_out_over_in": 0.159,
+          "J_m": 57.2,
+          "J_s": 40.6,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 11.5,
+          "gamma_deg": 13.5,
+          "omega_w_keV": 138.8,
+          "B_E2_out_over_in": 0.131,
+          "J_m": 57.2,
+          "J_s": 40.6,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 13.5,
+          "gamma_deg": 13.5,
+          "omega_w_keV": 135.9,
+          "B_E2_out_over_in": 0.112,
+          "J_m": 57.2,
+          "J_s": 40.6,
+          "mode": "transverse-wobbling"
+        },
+        {
+          "spin": 15.5,
+          "gamma_deg": 13.5,
+          "omega_w_keV": 128.3,
+          "B_E2_out_over_in": 0.097,
+          "J_m": 57.2,
+          "J_s": 40.6,
+          "mode": "transverse-wobbling"
+        }
+      ]
+    },
+    "169Tm": {
+      "nucleus": "169Tm",
+      "Z": 69,
+      "N": 100,
+      "TSD_barrier_depth_MeV": 0.02,
+      "curvature_C_gamma_MeV_per_rad2": 0.16,
+      "termination_spin": 38.5,
+      "states": [
+        {
+          "spin": 8.5,
+          "gamma_deg": 1.5,
+          "omega_w_keV": 220.0,
+          "B_E2_out_over_in": 0.02,
+          "J_m": 43.7,
+          "J_s": 41.8,
+          "mode": "axial-longitudinal-precession"
+        },
+        {
+          "spin": 9.5,
+          "gamma_deg": 1.5,
+          "omega_w_keV": 225.0,
+          "B_E2_out_over_in": 0.02,
+          "J_m": 43.7,
+          "J_s": 41.8,
+          "mode": "axial-longitudinal-precession"
+        },
+        {
+          "spin": 11.5,
+          "gamma_deg": 1.5,
+          "omega_w_keV": 235.0,
+          "B_E2_out_over_in": 0.02,
+          "J_m": 43.7,
+          "J_s": 41.8,
+          "mode": "axial-longitudinal-precession"
+        },
+        {
+          "spin": 13.5,
+          "gamma_deg": 1.5,
+          "omega_w_keV": 245.0,
+          "B_E2_out_over_in": 0.02,
+          "J_m": 43.7,
+          "J_s": 41.8,
+          "mode": "axial-longitudinal-precession"
+        },
+        {
+          "spin": 15.5,
+          "gamma_deg": 1.5,
+          "omega_w_keV": 255.0,
+          "B_E2_out_over_in": 0.02,
+          "J_m": 43.7,
+          "J_s": 41.8,
+          "mode": "axial-longitudinal-precession"
+        }
+      ]
+    }
+  },
+  "evidence_boundaries": {
+    "model_type": "Cranked Nilsson-Strutinsky triaxial trajectory + Harmonic Frozen Alignment (HFA) wobbling",
+    "empirical_inputs": [
+      "Odegard et al., PRL 86, 5866 (2001) for 163Lu TSD1 and TSD2 wobbling energies",
+      "Jensen et al., PRL 89, 142503 (2002) for 163Lu TSD3 second-phonon wobbling",
+      "Amro et al., PLB 553, 197 (2003) for 167Lu wobbling energy flattening",
+      "Afanasjev & Ragnarsson, NPA 650, 35 (1999) for CNS core termination in rare-earth nuclei"
+    ],
+    "limitations": "Model uses parametrized hydrodynamic inertia tensor; microscopic self-consistent cranked RMF+QRPA across all 3D mesh points provides fine-grained unpairing fluctuations."
+  }
+}

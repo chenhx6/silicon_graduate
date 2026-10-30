@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T13:40:00+08:00",
+  "paper_identity": {
+    "title": "Comprehensive analysis of the scissors mode in heavy even-even nuclei",
+    "authors": [
+      "J. Enders",
+      "H. Kaiser",
+      "P. von Neumann-Cosel",
+      "C. Rangacharyulu",
+      "D. L. Balabanski",
+      "C. Fransen",
+      "R.-D. Herzberg",
+      "A. Richter"
+    ],
+    "journal": "Physical Review C",
+    "volume": "59",
+    "issue": "4",
+    "pages": "R1851-R1854",
+    "year": 1999,
+    "doi": "10.1103/PhysRevC.59.R1851"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Establishes the universal saturation of scissors mode B(M1) strength across well-deformed rare-earth and actinide nuclei (B(M1) ~ 3.0 - 3.4 mu_N^2), refuting the naive unconstrained macroscopic two-rotor model prediction B(M1) proportional to beta2^2 and demonstrating that pairing reduction and valence shell truncation enforce a strict quantum collectivity ceiling."
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T03:40:00+08:00",
+  "run_id": "2026-10-29-day-27-01",
+  "session_id": "01a187b7-de86-7741-b813-d555e297b192",
+  "deadline": "2026-10-30T15:00:00+08:00",
+  "credit_transition_applied": false,
+  "rows": [
+    {
+      "name": "回忆：说出至少三个不能把同一判据直接跨核素迁移的原因",
+      "artifact_exists": true,
+      "artifact_size": 6425,
+      "evidence_exists": true,
+      "evidence_has_grounded_evidence": true,
+      "status": "pending-final-audit"
+    },
+    {
+      "name": "主线：选择 A≈80/100/130/160/190/220 六大质量区中至少四个已有 Wiki 案例，深入研读并对账一手谱学与寿命原件",
+      "artifact_exists": true,
+      "artifact_size": 42295,
+      "evidence_exists": true,
+      "evidence_has_grounded_evidence": true,
+      "status": "pending-final-audit"
+    },
+    {
+      "name": "练习：建立“机制—observable—装置—证据等级—竞争解释”横向表，至少包含一个测量方法相同但物理解释完全不同的案例",
+      "artifact_exists": true,
+      "artifact_size": 6355,
+      "evidence_exists": true,
+      "evidence_has_grounded_evidence": true,
+      "status": "pending-final-audit"
+    },
+    {
+      "name": "反证：找一个跨质量区类比会失败的实例，详细记录物理根源与停止理由",
+      "artifact_exists": true,
+      "artifact_size": 3440,
+      "evidence_exists": true,
+      "evidence_has_grounded_evidence": true,
+      "status": "pending-final-audit"
+    },
+    {
+      "name": "交付：cross-mass transfer matrix 跨质量区横向矩阵与不适用性判据清单",
+      "artifact_exists": true,
+      "artifact_size": 1746,
+      "evidence_exists": true,
+      "evidence_has_grounded_evidence": true,
+      "status": "pending-final-audit"
+    }
+  ],
+  "all_artifacts_present": true,
+  "all_evidence_present": true
+}

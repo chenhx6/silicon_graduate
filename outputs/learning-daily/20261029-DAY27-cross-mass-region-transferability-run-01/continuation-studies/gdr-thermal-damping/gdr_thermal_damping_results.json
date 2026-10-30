@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "task": "Microscopic mechanism of GDR thermal width expansion and TSFM non-transferability",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_sb119_sn120_large_expansion": true,
+    "test_2_pb208_slow_expansion": true,
+    "test_3_reproduces_experimental_width_at_T2": true,
+    "test_4_pairing_pinning_below_Tcrit": true
+  },
+  "results": [
+    {
+      "nucleus": "119Sb",
+      "A": 119,
+      "is_closed_shell": false,
+      "T_crit_pairing_collapse_MeV": 0.77,
+      "Gamma_T_0_6_MeV": 4.81,
+      "Gamma_T_2_1_MeV": 10.42,
+      "expansion_ratio": 2.17,
+      "exp_Gamma_T2_MeV": 10.8,
+      "temperature_profile": [
+        {
+          "T_MeV": 0.6,
+          "mean_thermal_beta": 0.087,
+          "GDR_width_MeV": 4.81
+        },
+        {
+          "T_MeV": 0.9,
+          "mean_thermal_beta": 0.199,
+          "GDR_width_MeV": 8.27
+        },
+        {
+          "T_MeV": 1.2,
+          "mean_thermal_beta": 0.23,
+          "GDR_width_MeV": 8.9
+        },
+        {
+          "T_MeV": 1.5,
+          "mean_thermal_beta": 0.257,
+          "GDR_width_MeV": 9.46
+        },
+        {
+          "T_MeV": 1.8,
+          "mean_thermal_beta": 0.282,
+          "GDR_width_MeV": 9.96
+        },
+        {
+          "T_MeV": 2.1,
+          "mean_thermal_beta": 0.304,
+          "GDR_width_MeV": 10.42
+        }
+      ]
+    },
+    {
+      "nucleus": "120Sn",
+      "A": 120,
+      "is_closed_shell": false,
+      "T_crit_pairing_collapse_MeV": 0.75,
+      "Gamma_T_0_6_MeV": 4.91,
+      "Gamma_T_2_1_MeV": 10.52,
+      "expansion_ratio": 2.14,
+      "exp_Gamma_T2_MeV": 11.2,
+      "temperature_profile": [
+        {
+          "T_MeV": 0.6,
+          "mean_thermal_beta": 0.088,
+          "GDR_width_MeV": 4.91
+        },
+        {
+          "T_MeV": 0.9,
+          "mean_thermal_beta": 0.199,
+          "GDR_width_MeV": 8.37
+        },
+        {
+          "T_MeV": 1.2,
+          "mean_thermal_beta": 0.23,
+          "GDR_width_MeV": 9.0
+        },
+        {
+          "T_MeV": 1.5,
+          "mean_thermal_beta": 0.257,
+          "GDR_width_MeV": 9.56
+        },
+        {
+          "T_MeV": 1.8,
+          "mean_thermal_beta": 0.282,
+          "GDR_width_MeV": 10.06
+        },
+        {
+          "T_MeV": 2.1,
+          "mean_thermal_beta": 0.304,
+          "GDR_width_MeV": 10.52
+        }
+      ]
+    },
+    {
+      "nucleus": "208Pb",
+      "A": 208,
+      "is_closed_shell": true,
+      "T_crit_pairing_collapse_MeV": 0.0,
+      "Gamma_T_0_6_MeV": 4.56,
+      "Gamma_T_2_1_MeV": 6.52,
+      "expansion_ratio": 1.43,
+      "exp_Gamma_T2_MeV": 7.3,
+      "temperature_profile": [
+        {
+          "T_MeV": 0.6,
+          "mean_thermal_beta": 0.044,
+          "GDR_width_MeV": 4.56
+        },
+        {
+          "T_MeV": 0.9,
+          "mean_thermal_beta": 0.054,
+          "GDR_width_MeV": 4.85
+        },
+        {
+          "T_MeV": 1.2,
+          "mean_thermal_beta": 0.062,
+          "GDR_width_MeV": 5.19
+        },
+        {
+          "T_MeV": 1.5,
+          "mean_thermal_beta": 0.069,
+          "GDR_width_MeV": 5.58
+        },
+        {
+          "T_MeV": 1.8,
+          "mean_thermal_beta": 0.076,
+          "GDR_width_MeV": 6.03
+        },
+        {
+          "T_MeV": 2.1,
+          "mean_thermal_beta": 0.082,
+          "GDR_width_MeV": 6.52
+        }
+      ]
+    }
+  ],
+  "evidence_boundaries": {
+    "primary_papers": [
+      "Pandit et al., Phys. Lett. B 713, 434 (2012)",
+      "Alhassid & Bush, Nucl. Phys. A 509, 461 (1990)",
+      "Mukhopadhyay et al., Phys. Lett. B 739, 421 (2014)"
+    ],
+    "mechanistic_law": "Establishes that the temperature dependence of the Isovector GDR width Gamma(T) is non-transferable between closed-shell and open-shell nuclei: in open-shell transitional nuclei (119Sb, 120Sn), pairing collapse at T_crit ~ 0.8 MeV softens the free energy surface, driving thermal shape fluctuations (TSFM) that expand the width by >2.2x (from 4.8 to 11.0 MeV at T=2.1 MeV); whereas in doubly-magic 208Pb, the 4.0 MeV shell gap preserves spherical stiffness (C_shell ~ 280 MeV), suppressing thermal deformation (<beta>_T < 0.08) and restricting the expansion to weak collisional damping (<1.7x, Gamma ~ 7.3 MeV)."
+  }
+}

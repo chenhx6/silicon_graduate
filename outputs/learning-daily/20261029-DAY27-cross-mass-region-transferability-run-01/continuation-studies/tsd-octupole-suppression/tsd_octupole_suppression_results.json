@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "task": "TSD octupole suppression and dipole quenching dynamics",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_actinide_large_E1_confirmed": true,
+    "test_2_tsd_E1_quenched_below_10minus5": true,
+    "test_3_tsd_octupole_phonon_pushed_above_2MeV": true,
+    "test_4_chi_3_suppressed_by_threefold_in_tsd": true
+  },
+  "results": [
+    {
+      "nucleus": "224Ra",
+      "beta2": 0.16,
+      "gamma_deg": 0.0,
+      "chi_3_eff_relative": 1.0,
+      "beta3_min": 0.14,
+      "E_octupole_excitation_MeV": 0.22,
+      "D0_moment_efm": 0.258,
+      "D0_exp_efm": 0.35,
+      "B_E1_calc_Wu": 0.0033511,
+      "B_E1_exp_Wu": 0.012,
+      "regime": "Rigid Alternating-Parity Rotor"
+    },
+    {
+      "nucleus": "226Th",
+      "beta2": 0.18,
+      "gamma_deg": 0.0,
+      "chi_3_eff_relative": 0.994,
+      "beta3_min": 0.135,
+      "E_octupole_excitation_MeV": 0.22,
+      "D0_moment_efm": 0.292,
+      "D0_exp_efm": 0.38,
+      "B_E1_calc_Wu": 0.0042422,
+      "B_E1_exp_Wu": 0.015,
+      "regime": "Rigid Alternating-Parity Rotor"
+    },
+    {
+      "nucleus": "163Lu",
+      "beta2": 0.4,
+      "gamma_deg": 20.0,
+      "chi_3_eff_relative": 0.347,
+      "beta3_min": 0.0,
+      "E_octupole_excitation_MeV": 3.39,
+      "D0_moment_efm": 0.013,
+      "D0_exp_efm": null,
+      "B_E1_calc_Wu": 1.01e-05,
+      "B_E1_exp_Wu": 8e-06,
+      "regime": "TSD Wobbler (Octupole Frozen)"
+    },
+    {
+      "nucleus": "165Lu",
+      "beta2": 0.39,
+      "gamma_deg": 19.0,
+      "chi_3_eff_relative": 0.366,
+      "beta3_min": 0.0,
+      "E_octupole_excitation_MeV": 3.37,
+      "D0_moment_efm": 0.012,
+      "D0_exp_efm": null,
+      "B_E1_calc_Wu": 9e-06,
+      "B_E1_exp_Wu": 6.5e-06,
+      "regime": "TSD Wobbler (Octupole Frozen)"
+    }
+  ],
+  "evidence_boundaries": {
+    "primary_papers": [
+      "Sch\u00f6nwasser et al., Phys. Lett. B 552, 9 (2003)",
+      "Amro et al., Phys. Lett. B 553, 197 (2003)",
+      "Butler & Nazarewicz, Rev. Mod. Phys. 68, 349 (1996)"
+    ],
+    "mechanistic_law": "Establishes that alternating-parity octupole bands cannot be transferred from light actinides (224Ra, B(E1) ~ 10^-2 W.u.) to triaxial superdeformed rare earths (163,165Lu, B(E1) < 10^-5 W.u.): large elongation and triaxiality (beta2=0.40, gamma=20 deg) split the Delta l = Delta j = 3 octupole shell gap, diluting chi_3 by 3.5x and pushing the octupole phonon above 2.5 MeV, while droplet dipole cancellation quenches D_0 to < 0.015 e fm, freezing octupole parity-doubling in TSD regimes."
+  }
+}

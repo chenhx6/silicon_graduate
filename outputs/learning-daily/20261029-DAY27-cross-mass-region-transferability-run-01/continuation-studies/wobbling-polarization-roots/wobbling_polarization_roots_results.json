@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T04:11:55.259455+00:00",
+  "task": "Angular distribution dual-root ambiguity and polarization disambiguation study",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_au_roots_e2_m1_split": true,
+    "test_2_be2_collapses_over_10x": true,
+    "test_3_polarization_flips_sign_between_roots": true,
+    "test_4_small_root_m1_signature_partner": true
+  },
+  "benchmarks": {
+    "187Au": {
+      "nucleus": "187Au (Sensharma 2020 vs Guo 2022)",
+      "mass_A": 187,
+      "transition_keV": 334.8,
+      "spin_initial": 8.5,
+      "spin_final": 7.5,
+      "a2_experimental": -0.38,
+      "tau_ps": 4.2,
+      "small_root_solution (M1-dominant, signature-partner)": {
+        "delta": 0.118,
+        "f_E2_pct": 1.4,
+        "f_M1_pct": 98.6,
+        "B_E2_e2b2": 0.0063,
+        "B_E2_W_u": 0.0,
+        "B_M1_muN2": 0.3529,
+        "polarization_P": -0.439
+      },
+      "large_root_solution (E2-dominant, apparent-wobbler)": {
+        "delta": 1.745,
+        "f_E2_pct": 75.3,
+        "f_M1_pct": 24.7,
+        "B_E2_e2b2": 0.3477,
+        "B_E2_W_u": 0.5,
+        "B_M1_muN2": 0.0884,
+        "polarization_P": 0.175
+      },
+      "B_E2_ratio_large_over_small": 55.2
+    },
+    "135Pr": {
+      "nucleus": "135Pr (Matta 2015 vs Lv 2022)",
+      "mass_A": 135,
+      "transition_keV": 747.5,
+      "spin_initial": 8.5,
+      "spin_final": 7.5,
+      "a2_experimental": -0.42,
+      "tau_ps": 1.8,
+      "small_root_solution (M1-dominant, signature-partner)": {
+        "delta": 0.137,
+        "f_E2_pct": 1.8,
+        "f_M1_pct": 98.2,
+        "B_E2_e2b2": 0.0004,
+        "B_E2_W_u": 0.0,
+        "B_M1_muN2": 0.0736,
+        "polarization_P": -0.435
+      },
+      "large_root_solution (E2-dominant, apparent-wobbler)": {
+        "delta": 1.683,
+        "f_E2_pct": 73.9,
+        "f_M1_pct": 26.1,
+        "B_E2_e2b2": 0.0144,
+        "B_E2_W_u": 0.0,
+        "B_M1_muN2": 0.0196,
+        "polarization_P": 0.164
+      },
+      "B_E2_ratio_large_over_small": 36.0
+    },
+    "133La": {
+      "nucleus": "133La (Biswas 2019)",
+      "mass_A": 133,
+      "transition_keV": 474.0,
+      "spin_initial": 7.5,
+      "spin_final": 6.5,
+      "a2_experimental": -0.35,
+      "tau_ps": 3.1,
+      "small_root_solution (M1-dominant, signature-partner)": {
+        "delta": 0.106,
+        "f_E2_pct": 1.1,
+        "f_M1_pct": 98.9,
+        "B_E2_e2b2": 0.0012,
+        "B_E2_W_u": 0.0,
+        "B_M1_muN2": 0.1689,
+        "polarization_P": -0.441
+      },
+      "large_root_solution (E2-dominant, apparent-wobbler)": {
+        "delta": 1.806,
+        "f_E2_pct": 76.5,
+        "f_M1_pct": 23.5,
+        "B_E2_e2b2": 0.0842,
+        "B_E2_W_u": 0.2,
+        "B_M1_muN2": 0.0401,
+        "polarization_P": 0.185
+      },
+      "B_E2_ratio_large_over_small": 70.2
+    },
+    "163Lu": {
+      "nucleus": "163Lu (Jensen 2002 TSD3->TSD2)",
+      "mass_A": 163,
+      "transition_keV": 476.0,
+      "spin_initial": 22.5,
+      "spin_final": 21.5,
+      "a2_experimental": -0.28,
+      "tau_ps": 0.45,
+      "small_root_solution (M1-dominant, signature-partner)": {
+        "delta": 0.096,
+        "f_E2_pct": 0.9,
+        "f_M1_pct": 99.1,
+        "B_E2_e2b2": 0.0067,
+        "B_E2_W_u": 0.0,
+        "B_M1_muN2": 1.1516,
+        "polarization_P": -0.442
+      },
+      "large_root_solution (E2-dominant, apparent-wobbler)": {
+        "delta": 1.869,
+        "f_E2_pct": 77.7,
+        "f_M1_pct": 22.3,
+        "B_E2_e2b2": 0.5769,
+        "B_E2_W_u": 1.1,
+        "B_M1_muN2": 0.2587,
+        "polarization_P": 0.195
+      },
+      "B_E2_ratio_large_over_small": 86.1
+    }
+  },
+  "evidence_boundaries": {
+    "model_type": "Legendre polynomial angular correlation a2(delta) inversion + linear polarization Stokes analysis",
+    "empirical_inputs": [
+      "Sensharma et al., PRL 124, 052501 (2020) and Guo et al., PLB 828, 137010 (2022) for 187Au",
+      "Matta et al., PRL 114, 082501 (2015) and Lv et al., PLB 824, 136840 (2022) for 135Pr polarimetry",
+      "Biswas et al., PRC 99, 064302 (2019) for 133La angular distribution",
+      "Jensen et al., PRL 89, 142503 (2002) for 163Lu TSD3-TSD2 link delta ambiguity"
+    ],
+    "limitations": "Model calculates directional correlation under idealized alignment; partial deorientation in target foil and unresolved contaminant lines in Compton polarimeters can shift effective asymmetry P by +-0.05."
+  }
+}

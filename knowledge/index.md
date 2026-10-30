@@ -9,6 +9,92 @@ updated: 2026-10-28
 
 > Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
 
+## Day27 当前续研：跨区失效与可检验分支网络
+
+- [[smith-2003-hf178-isomer-gamma-decay]] — Hf异构态直接M4/E5弱γ符合谱、E3内转换主支与相对强度归一；作者稿Table I与fν来源依赖。
+- [[wobbling-anharmonicity-vs-dissipative-damping]] — 三轴γ软度、量子非简谐性与内禀耗散阻尼：Hermitian本征态与连续展宽的范畴破除。
+- [[cross-array-polarization-likelihood-contract]] — 跨阵列伽马偏振测量的全似然合同、多跃迁正协方差与双峰退化分析，破除阵列名称精度排名。
+- [[wobbling-dual-root-degeneracy-and-polarization-disambiguation]] — 角分布双解简并与偏振反转判据：187Au纵向摆动对决签名伙伴带的方法学检验（55倍B(E2)崩塌与偏振绝对变号）。
+- [[hspac-shears-frequency-derivative-derivation]] — HSPAC 剪刀模型无量纲能量与频率公式间 4Î 偏差的解析代数起源与数值证明。
+- [[quantum-shears-bandhead-racah-algebra-and-finite-j-corrections]] — 量子剪刀Racah代数、有限j修正与磁转动带头自旋I0的微观形成：198Bi与106Ag/134Pr对比（对易子偏移与核芯转动补偿）。
+- [[tawseef-2026-microscopic-mr-amr-pd-cd]] — Pd与Cd十个同位素微观两壳PSM与双剪刀SCM对比、109Cd中MR/AMR同核共存。
+- [[hao-2026-antimagnetic-83rb-85y]] — N=46 奇 A 同中子素 83Rb 与 85Y 反磁转动 PNC-CSM 研究；A≈80 奇 A 核 AMR 的微观确立与双剪刀闭合。
+- [[amr-to-mr-topological-bifurcation-and-deformation-selection]] — 反磁转动向磁转动的拓扑分岔与四极形变选择定则：105Cd(AMR)与107Cd(MR)扁椭反转及(eps, j2/j1)全区相图。
+- [[amr-pauli-valence-truncation-and-core-extension]] — 反磁转动价空间泡利截断与核芯参与延缓闭合机制：全同费米子 J_max=12ħ 证明与 85Y/83Rb 终止分岔。
+- [[amr-pnc-pairing-fluctuations-and-smooth-truncation]] — 反磁转动中粒子数守恒配对涨落对泡利角动量截断的平滑机制：85Y(33/2+硬终止)对决83Rb(37/2+平滑延伸)分岔解析。
+- [[wobbling-mode-transferability-and-moi-hierarchy]] — 跨质量区摆动模式迁移性与转动惯量层级条件反例：163Lu横向降频临界点与133La纵向升频1/J稀释。
+- [[wobbling-vs-tilted-precession-hessian-stability]] — 摆动激发向倾斜进动（TiP）转变的Hessian稳定性判据：135Pr临界自旋29/2对决163Lu稳定标杆。
+- [[octupole-quadrupole-coupling-cross-mass-evolution]] — 跨质量区八极—四极集体运动耦合与电偶极相消演化：146Ba与224Ra相消节点及228Ra声子振动边界。
+- [[actinide-to-superheavy-octupole-parity-decoupling-evolution]] — 轻锕系向超重区八极宇称双重态退耦与势垒软化的演化解耦：225Ra对决255Rf与256Rf鞍点反转。
+- [[chiral-wobbling-composite-modes-vs-signature-inversion]] — 奇奇核手征—摆动复合模式与签名倒转的微观鉴别判据：74Br四极交错锁定与134Pr假手征形变比反例。
+- [[magnetic-rotation-transitional-tei-core-dissolution]] — 过渡区碲与碘同位素磁转动剪刀容量与核芯转动溶解机制：106Sn至122Xe连续弱化与chi参量界。
+- [[chiral-octupole-quadruplet-cross-mass-coupling]] — 奇奇核八极—手征四重能带跨质量区耦合与相消选择定则：交叉跃迁严格禁戒与78Br/74As拓扑对比。
+- [[actinide-octupole-backbending-damping-and-delay]] — 八极形变锕系核后弯推迟与科里奥利对解耦阻尼机制：222Ra强带间混合(160keV)与232Th后弯对照。
+- [[mxd-to-octupole-quadruplet-branching-mechanisms]] — A≈130多重手征双带向八极四重态分岔与组态微观驱动：133Ce微观Delta j=Delta l=3质子共振与135Nd对比。
+- [[a190-sd-wobbling-vs-quasiparticle-mechanisms]] — A≈190质量区超形变带摆动声子与准粒子激发鉴别机制：194Pb轴对称摆动发散禁戒与2准粒子K截断。
+- [[coriolis-antipairing-and-superdeformed-alignment-transitions]] — 科里奥利反配对（CAP）与超形变准粒子顺排相变：160Dy正常后弯、152Dy刚体平台对决194Pb光滑上升机制（+45%惯量演化）。
+- [[droplet-model-macroscopic-dipole-and-isospin-cancellation]] — 液滴模型中子皮厚度与同位旋非对称性对宏观电偶极矩的跨区调控：Ba/Sm/Ra/Th相消机制。
+- [[chiral-to-magnetic-rotation-topological-bifurcation]] — 奇奇核从平面磁转动向非平面手征转动的超叉分岔动力学与拓扑相变：106Ag、134Pr与198Bi多准粒子阻尼与临界发散。
+- [[chiral-symmetry-recovery-and-planar-restoration]] — 奇奇核高自旋手征对称性恢复与平面转动恢复机制：106Ag与134Pr的3D-TAC相空间微观解析（V-字形能隙反弹与跃迁塌缩）。
+- [[alpha-clustering-vs-meanfield-octupole-sumrules]] — 轻锕系核中α团簇分子模型与平均场反射不对称性的多极求和规则、衰变约化宽度与波函数正交性边界：224Ra预形成佯谬(5e4倍)与226Th低阻尼因子微观投影。
+- [[alpha-clustering-to-mean-field-octupole-phase-transition]] — 从表面α团簇向均场八极凝聚的微观相变：212Po对决224Ra/226Th跨区演化机制（N_val=14交叉相界与HF=4.4宇称投影本质）。
+- [[cphc-s-symmetry-and-chiral-staggering-damping]] — 手征双重带中能级交错S(I)与B(M1)奇偶交错消失的微观机制：CPHC模型S-对称性破缺三因子与106Ag/134Pr平滑阻尼。
+- [[mr-high-spin-core-crossing-and-oblate-termination]] — 高自旋磁转动核芯交叉与扁椭终止系统学：198Pb/198Bi阶梯重新张开与142Gd扁椭转动带终止竞争机制。
+- [[mr-effective-g-factor-quenching-mechanisms]] — 磁转动有效陀螺磁因子淬灭机制：自旋核芯极化、介子流与CRMF狄拉克电流三相重整（终结B(M1)两倍虚高）。
+- [[tsd-wobbling-stability-and-damping-mechanisms]] — 三轴超形变（TSD）能带与摆动声子稳定性演化机制：163-167Lu与169Tm势能刚度耗散与模式猝灭相界。
+- [[tsd-wobbling-vs-core-termination-microscopic-competition]] — 三轴超形变（TSD）摆动激发与核芯非集体带终止的相空间竞争：163-167Lu与169Tm微观演化机制（势能刚度耗散与频率平坦化）。
+- [[cdft-time-odd-fields-and-magnetic-moments]] — 相对论时奇平均场与核磁矩微观分解：协变密度泛函狄拉克反向流在83Rb/135Nd/197Tl/209Bi中的自洽重整。
+- [[cdft-time-odd-g-factor-quenching-across-mass-regions]] — 相对论时奇场与有效Dirac质量对磁转动有效g因子淬灭的微观重整化：A≈80至A≈190剪刀带跨区机制（消除B(M1)两倍虚高）。
+- [[octupole-simplex-and-parity-decoupling-oscillations]] — 核八极单纯形量子数（Simplex）与宇称退耦振荡：反相退耦定理(a+=-a-)与225Ra能谱倒转动力学。
+- [[actinide-simplex-inversion-and-anti-phase-be1-staggering]] — 非轴对称八极耦合、单纯形反转与B(E1)/B(E2)反相交错：223Th对决225Ra微观RAPRM研究（a_eff退耦与干涉反相）。
+- [[pd105-doublet-wobbling-vs-two-phonon-inapplicability]] — 105Pd双重横向摆动对决两声子假说：三轴投影壳模型微观机制与多声子不可迁移性（Karmakar 2025新原件与模式分岔）。
+- [[gpv-cross-mass-kinematic-and-damping-inapplicability]] — 巨对振动（GPV）跨质量区迁移失效：运动学校正失配与准粒子-声子耦合连续谱耗散机制（Cavallaro 2019与Pb208阴性反例）。
+- [[core-quadrupole-deformation-masking-boundary]] — 核芯四极形变掩盖极限形式化：反磁转动与剪刀B(E2)负斜率特征崩溃的无量纲判据（无量纲掩盖参量与beta2临界阈值）。
+- [[scissors-mode-vs-magnetic-rotation-phase-boundary]] — 低能轨道剪刀模与高自旋磁转动相界拓扑：QRPA两转子求和规则向TAC剪刀机制的微观相分离（156Gd对决198Pb互斥相图）。
+- [[n138-isotonic-octupole-collapse-and-barrier-dissolution]] — N=138同中子链八极形变猝灭与势垒融化微观机制：从226Ra刚性梨形转子到230U谐振八极振动（质子易感性与四极稀释双驱动）。
+- [[hexadecapole-sign-reversal-and-backbending-evolution]] — 十六极形变（beta4）跨区符号反转与科里奥利后弯微观机制：从稀土桶形形变到Os-Pt菱形形变的能级重整（Hendrie 1968一手原件与顺排淬灭）。
+- [[signature-inversion-cross-mass-scaling-and-coriolis-crossover]] — 奇奇核签名反转自旋跨区跃迁与科里奥利退耦标度律：A≈80/130到A≈160的残余相互作用V_pn与核芯惯量协同机制（I_inv从10到19的成倍推迟）。
+- [[scissors-mode-b-m1-saturation-and-valence-truncation]] — 剪刀模B(M1)强度饱和与价壳层空间截断微观机制：宏观两转子beta2^2标度在超形变区的崩溃（Enders 1999与超流塌缩淬灭）。
+- [[superheavy-magic-numbers-and-spin-orbit-quenching]] — 超重稳定岛幻数不可迁移性与自旋—轨道劈裂淬灭微观机制：库仑中心凹陷诱发的Z=114对决Z=120模型分歧（Bender 1999与Pb208刚性破除）。
+- [[brink-axel-breakdown-and-low-energy-m1-upbend]] — Brink-Axel假说跨质量区迁移失效与低能M1上弯机制：激发态剪刀式重耦合对决基态自旋翻转共振（Schwengner 2013与Pb208复原边界）。
+- [[triaxial-scissors-splitting-and-gamma-deformation]] — 三轴形变剪刀模K-简并破缺与双峰分裂微观机制：两转子模型绕中轴与短轴反相振动的解析求解（Rohozinski 1988与单洛伦兹拟合失效）。
+- [[gdr-thermal-width-expansion-and-tsfm-inapplicability]] — 巨偶极共振（GDR）热展宽相变与TSFM模型跨区不适用性：配对塌缩临界温度对决双幻核208Pb碰撞阻尼刚性（Pandit 2012一手实验与热平台）。
+- [[odd-a-scissors-mode-pauli-blocking-and-fragmentation]] — 奇A变形核剪刀模猝灭与剧烈碎裂微观机制：费米面Nilsson轨道泡利阻塞对决3准粒子态密度雪崩（Margraf 1995一手NRF实验与36%猝灭）。
+- [[isgmr-deformation-splitting-and-incompressibility-inapplicability]] — 巨单极共振（ISGMR）形变劈裂与核不可压缩系数提取模型不适用性：长椭核L=0与L=2 K=0强混合机制（Youngblood 2004一手实验与35 MeV伪软化修正）。
+- [[pqr-skin-emergence-and-ivgqr-continuum-dissolution]] — 矮四极共振（PQR）中子皮涌现与IVGQR连续谱溶解微观机制：58Ni到极富中子78Ni的同位旋多极响应解耦（Tsoneva 2011与朗道阻尼）。
+- [[soft-monopole-mode-and-ktau-divergence]] — 极富中子核软单极呼吸模式涌现与对称不可压缩系数K_tau虚假发散机制：132Sn到140Sn中子皮径向压缩解耦（Piekarewicz 2004与薄皮展开失效）。
+- [[superheavy-barrier-inversion-and-multi-chance-fission]] — 超重核裂变势垒反转（B_f < S_n）与多次裂变雪崩微观机制：传统统计蒸发模型跨区外推的百万倍高估破除（Zagrebaev 2001与皮靶极限）。
+- [[isospin-mixing-gdr-and-coulomb-e1-selection-rules]] — 巨偶极共振同位旋混合与库仑E1禁戒跃迁破缺微观机制：40Ca到100Sn的同位旋杂质与宏观劈裂失效（Colo 1995与8%同位旋杂质）。
+- [[tsd-octupole-suppression-and-dipole-quenching]] — 三轴超形变（TSD）带中八极激发抑制与偶极矩淬灭微观机制：大长椭K-劈裂对决轻锕系交替宇称转子（Schonwasser 2003与10^-5压制）。
+- [[island-of-inversion-n20-shell-collapse]] — N=20反转岛壳闭合崩溃与四极集体性暴涨微观机制：单极张量力淬灭与2p-2h侵入组态基态反转（Motobayashi 1995与454 e^2fm^4暴涨）。
+- [[octupole-schiff-moment-and-edm-enhancement]] — 核八极形变Schiff矩与原子电偶极矩（EDM）增强机制：225Ra万倍QCD-theta放大、225Ac异旋反向与盲区破除相图。
+- [[isospin-symmetry-breaking-and-mirror-energy-differences]] — 镜像核同位旋对称性破缺与高自旋库仑能差（CED）：f7/2壳层49Mn/49Cr与53Co/53Fe微观对齐动力学。
+- [[superheavy-shape-interplay-fission-and-decay]] — 超重核中四极—十六极—八极（β2, β4, β3）形状协同与裂变势垒演化：254No形变闭壳稳定化与256Rf自发裂变崩塌机制。
+- [[chiral-wobbling-extreme-spin-phase-space]] — 极端自旋下核手征性与摆动运动的相空间共存与演化解耦：136Nd转动相变与74Br剪刀淬灭机制。
+- [[nuclear-incompressibility-tin-softness-and-qpvc]] — 核物质不可压缩系数跨质量区迁移失效与“锡核偏软”之谜：准粒子—振动耦合（QPVC）动态自能与对称不可压缩系数K_tau微观解析。
+- [[pdr-skin-oscillation-and-probe-bifurcation]] — 矮偶极共振（PDR）跨质量区迁移失效与探针选择性分岔：中子皮集体振动向单粒子破缺极限及同位旋标量/等矢量双重态解耦。
+- [[k-isomer-triaxial-tunneling-and-hindrance-collapse]] — 六条跨宇称E2纠错；Hf E3/M4/E5逐支身份、内转换/部分γ半衰期合同；千万倍实测寿命塌缩认证撤回。
+- [[k-isomer-hindrance-collapse-gamma-tunneling-vs-statistical]] — 高K同质异能素阻退度崩塌机制裁决：三轴γ动力学隧穿对决偶然统计能级混合（GOE方差检验拒绝随机假说）。
+- [[relativistic-pss-and-drip-line-breakdown]] — 相对论赝自旋对称性（PSS）跨质量区演化与中子滴线破缺机制：Ginocchio条件、表面弥散度膨胀与能级倒转。
+- [[np-pairing-competition-and-fermi-mismatch-quenching]] — 同位旋标量（T=0）与同位旋矢量（T=1）中子—质子配对竞争与跨区猝灭：Sarma-Clogston费米面失配崩塌、Wigner能与92Pd自旋对齐相界。
+- [[pseudo-su3-breakdown-and-oblate-prolate-coexistence]] — 伪SU(3)四极集体性在质子滴线核中的突发性破缺与扁椭—长椭形状共存：68Se(R4/2=1.83)对决76Sr(R4/2=3.25)及72Kr带交叉(rho^2(E0)=0.0317)。
+- [[two-phonon-octupole-anharmonicity-and-damping]] — 两声子八极多重态（0+, 2+, 4+, 6+）非谐性裂距与阻尼机制跨区演化：208Pb近简谐四重态向146Gd碎裂溶解与224Ra八极凝聚相界。
+- [[octupole-transition-density-vibrational-vs-pear-rotor]] — E3跃迁电荷密度分布与多声子/转子拓扑裁决：微观RPA 208Pb对决永久梨形转子224Ra（形状因子散射极小与两态区分）。
+- [[gamma-rigid-vs-soft-staggering-and-phase-boundary]] — 源级符号纠错：Wilets–Jean S₄=−2、Davydov S₄=+5/3；D₂独立复算及零点非相界条件反例；旧八核形状分类撤回。
+- [[chiral-octupole-tac-coupling-and-planar-restoration]] — 八极形变与三轴手征几何耦合机制：出平面倾斜推转（TAC）、临界八极阈值beta3_crit与平面转动恢复相图。
+- [[wang-2019-rat-prm-78br-octupole-correlations]] — 78Br RAT-PRM的实际beta3=0.02、八极软性与手征解释范围；无beta3>0.1扫描，不能支持普适阈值。
+- [[gdr-fine-structure-and-shape-splitting]] — 巨偶极共振（GDR）微细结构、四极分裂与跨质量区形状演化：长椭向扁椭反转（1:2向2:1）及三轴三峰解简并机制。
+- [[gt-ga-quenching-and-double-beta-inapplicability]] — Gamow-Teller（GT）巨共振、有效轴矢量耦合常数g_A介质淬灭与双贝塔衰变不适用性边界：质量数标度q(A)、2p-2h张量极化与0nu beta beta动量解耦。
+- [[pai-2014-198bi-multiquasiparticle-magnetic-rotation]] — 198Bi 多准粒子磁转动带交叉（6-qp/8-qp 与 4-qp/6-qp）、Hybrid-TAC 形变与剪刀相互作用常数（V2=610-865 keV）。
+- [[radium-e3-multitransition-rotor-contrast]] — 222,228Ra 临界 E3 跃迁与转子预言对比，明确星号耦合与相位边界。
+- [[chen-2026-bayesian-inertia-wobbling-135pr]] — 135Pr 贝叶斯转动惯量拟合与纯能级约束的推断边界（metadata-only）。
+- [[rajbanshi-2018-extremely-asymmetric-shears-143sm]] — 极不对称剪刀案例的实验/模型源级核验入口；具体阅读边界见source。
+
+- [[qureshie-2026-chiral-wobbling-four-band-74br]] — 2026年74Br TPSM/PTR四带预测；B4为预测，保留数据谱系与逐自旋边界。
+- [[shears-asymmetry-core-response-and-normalization]] — 剪刀不对称度、核芯增量与相互作用归一的条件反例，撤回旧普适阈值。
+- [[74br-four-band-branching-network-readiness]] — 74Br公开SI的同母态寿命消去重放、误差合同与B4双连接检验准备。
+
+
 ## Day26：八极与磁转动证据梯度
 
 - [[sd-mr-dual-well-coexistence-pb190-boundary]] — A≈190 铅区 193/196Pb 同核 SD/MR 共存、SD 四极矩与 MR 剪刀证据边界；含可复现双阱尺度模型。

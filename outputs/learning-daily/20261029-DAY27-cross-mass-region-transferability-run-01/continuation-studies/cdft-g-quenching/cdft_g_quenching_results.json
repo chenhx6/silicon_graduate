@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T03:27:20.068917+00:00",
+  "task": "Relativistic time-odd core polarization and g-factor quenching across magnetic rotors",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_bm1_quenched_factor_2_across_regions": true,
+    "test_2_parallel_orbital_destructive_shielding": true,
+    "test_3_antiparallel_orbital_constructive_enhancement": true,
+    "test_4_relativistic_orbital_gl_shifts": true
+  },
+  "benchmarks": {
+    "83Rb (A~80, Hao 2026)": {
+      "nucleus": "83Rb (A~80, Hao 2026)",
+      "mass_A": 83,
+      "proton_renormalization": {
+        "orbital": "pi g9/2",
+        "is_proton": true,
+        "l": 4,
+        "j": 4.5,
+        "alignment_type": "parallel (j = l + 1/2)",
+        "m_star_ratio": 0.645,
+        "g_l_free": 1.0,
+        "g_l_eff": 1.134,
+        "g_s_free": 5.586,
+        "g_s_eff": 3.917,
+        "g_s_quenching_ratio": 0.701,
+        "mu_schmidt_muN": 6.793,
+        "mu_cdft_time_even_muN": 6.905,
+        "mu_cdft_full_muN": 6.496,
+        "delta_mu_time_odd_muN": -0.409
+      },
+      "neutron_renormalization": {
+        "orbital": "nu g9/2^-2",
+        "is_proton": false,
+        "l": 4,
+        "j": 4.0,
+        "alignment_type": "anti-parallel (j = l - 1/2)",
+        "m_star_ratio": 0.645,
+        "g_l_free": 0.0,
+        "g_l_eff": -0.058,
+        "g_s_free": -3.826,
+        "g_s_eff": -2.683,
+        "g_s_quenching_ratio": 0.701,
+        "mu_schmidt_muN": 1.53,
+        "mu_cdft_time_even_muN": 1.159,
+        "mu_cdft_full_muN": 0.82,
+        "delta_mu_time_odd_muN": -0.34
+      },
+      "states": [
+        {
+          "spin": 11.5,
+          "theta_deg": 47.7,
+          "BM1_free_g_muN2": 266.521,
+          "BM1_scalar07_muN2": 140.998,
+          "BM1_cdft_full_muN2": 148.213,
+          "free_over_cdft_ratio": 1.8
+        },
+        {
+          "spin": 12.5,
+          "theta_deg": 41.7,
+          "BM1_free_g_muN2": 217.62,
+          "BM1_scalar07_muN2": 115.123,
+          "BM1_cdft_full_muN2": 121.01,
+          "free_over_cdft_ratio": 1.8
+        },
+        {
+          "spin": 13.5,
+          "theta_deg": 35.0,
+          "BM1_free_g_muN2": 162.826,
+          "BM1_scalar07_muN2": 86.133,
+          "BM1_cdft_full_muN2": 90.535,
+          "free_over_cdft_ratio": 1.8
+        },
+        {
+          "spin": 14.5,
+          "theta_deg": 26.9,
+          "BM1_free_g_muN2": 102.129,
+          "BM1_scalar07_muN2": 54.023,
+          "BM1_cdft_full_muN2": 56.783,
+          "free_over_cdft_ratio": 1.8
+        },
+        {
+          "spin": 15.5,
+          "theta_deg": 15.4,
+          "BM1_free_g_muN2": 35.522,
+          "BM1_scalar07_muN2": 18.79,
+          "BM1_cdft_full_muN2": 19.749,
+          "free_over_cdft_ratio": 1.8
+        }
+      ]
+    },
+    "106Ag (A~100, Rather 2014, He 2006)": {
+      "nucleus": "106Ag (A~100, Rather 2014, He 2006)",
+      "mass_A": 106,
+      "proton_renormalization": {
+        "orbital": "pi g9/2^-1",
+        "is_proton": true,
+        "l": 4,
+        "j": 4.5,
+        "alignment_type": "parallel (j = l + 1/2)",
+        "m_star_ratio": 0.652,
+        "g_l_free": 1.0,
+        "g_l_eff": 1.132,
+        "g_s_free": 5.586,
+        "g_s_eff": 3.968,
+        "g_s_quenching_ratio": 0.71,
+        "mu_schmidt_muN": 6.793,
+        "mu_cdft_time_even_muN": 6.897,
+        "mu_cdft_full_muN": 6.514,
+        "delta_mu_time_odd_muN": -0.382
+      },
+      "neutron_renormalization": {
+        "orbital": "nu h11/2",
+        "is_proton": false,
+        "l": 5,
+        "j": 5.5,
+        "alignment_type": "parallel (j = l + 1/2)",
+        "m_star_ratio": 0.652,
+        "g_l_free": 0.0,
+        "g_l_eff": -0.057,
+        "g_s_free": -3.826,
+        "g_s_eff": -2.718,
+        "g_s_quenching_ratio": 0.71,
+        "mu_schmidt_muN": -1.913,
+        "mu_cdft_time_even_muN": -1.913,
+        "mu_cdft_full_muN": -1.643,
+        "delta_mu_time_odd_muN": 0.27
+      },
+      "states": [
+        {
+          "spin": 11.0,
+          "theta_deg": 7.7,
+          "BM1_free_g_muN2": 6.119,
+          "BM1_scalar07_muN2": 3.245,
+          "BM1_cdft_full_muN2": 3.491,
+          "free_over_cdft_ratio": 1.75
+        },
+        {
+          "spin": 12.0,
+          "theta_deg": 7.7,
+          "BM1_free_g_muN2": 6.119,
+          "BM1_scalar07_muN2": 3.245,
+          "BM1_cdft_full_muN2": 3.491,
+          "free_over_cdft_ratio": 1.75
+        },
+        {
+          "spin": 13.0,
+          "theta_deg": 7.7,
+          "BM1_free_g_muN2": 6.119,
+          "BM1_scalar07_muN2": 3.245,
+          "BM1_cdft_full_muN2": 3.491,
+          "free_over_cdft_ratio": 1.75
+        },
+        {
+          "spin": 14.0,
+          "theta_deg": 7.7,
+          "BM1_free_g_muN2": 6.119,
+          "BM1_scalar07_muN2": 3.245,
+          "BM1_cdft_full_muN2": 3.491,
+          "free_over_cdft_ratio": 1.75
+        },
+        {
+          "spin": 15.0,
+          "theta_deg": 7.7,
+          "BM1_free_g_muN2": 6.119,
+          "BM1_scalar07_muN2": 3.245,
+          "BM1_cdft_full_muN2": 3.491,
+          "free_over_cdft_ratio": 1.75
+        }
+      ]
+    },
+    "135Pr (A~130, Garg 2015, Sensharma 2026)": {
+      "nucleus": "135Pr (A~130, Garg 2015, Sensharma 2026)",
+      "mass_A": 135,
+      "proton_renormalization": {
+        "orbital": "pi h11/2",
+        "is_proton": true,
+        "l": 5,
+        "j": 5.5,
+        "alignment_type": "parallel (j = l + 1/2)",
+        "m_star_ratio": 0.66,
+        "g_l_free": 1.0,
+        "g_l_eff": 1.13,
+        "g_s_free": 5.586,
+        "g_s_eff": 4.033,
+        "g_s_quenching_ratio": 0.722,
+        "mu_schmidt_muN": 7.793,
+        "mu_cdft_time_even_muN": 7.981,
+        "mu_cdft_full_muN": 7.667,
+        "delta_mu_time_odd_muN": -0.314
+      },
+      "neutron_renormalization": {
+        "orbital": "nu h11/2^-2",
+        "is_proton": false,
+        "l": 5,
+        "j": 5.0,
+        "alignment_type": "anti-parallel (j = l - 1/2)",
+        "m_star_ratio": 0.66,
+        "g_l_free": 0.0,
+        "g_l_eff": -0.056,
+        "g_s_free": -3.826,
+        "g_s_eff": -2.762,
+        "g_s_quenching_ratio": 0.722,
+        "mu_schmidt_muN": 1.594,
+        "mu_cdft_time_even_muN": 1.182,
+        "mu_cdft_full_muN": 0.849,
+        "delta_mu_time_odd_muN": -0.333
+      },
+      "states": [
+        {
+          "spin": 13.5,
+          "theta_deg": 33.7,
+          "BM1_free_g_muN2": 183.484,
+          "BM1_scalar07_muN2": 97.269,
+          "BM1_cdft_full_muN2": 107.379,
+          "free_over_cdft_ratio": 1.71
+        },
+        {
+          "spin": 14.5,
+          "theta_deg": 25.9,
+          "BM1_free_g_muN2": 114.62,
+          "BM1_scalar07_muN2": 60.761,
+          "BM1_cdft_full_muN2": 67.075,
+          "free_over_cdft_ratio": 1.71
+        },
+        {
+          "spin": 15.5,
+          "theta_deg": 14.9,
+          "BM1_free_g_muN2": 39.717,
+          "BM1_scalar07_muN2": 21.054,
+          "BM1_cdft_full_muN2": 23.241,
+          "free_over_cdft_ratio": 1.71
+        },
+        {
+          "spin": 16.5,
+          "theta_deg": 7.7,
+          "BM1_free_g_muN2": 10.873,
+          "BM1_scalar07_muN2": 5.763,
+          "BM1_cdft_full_muN2": 6.362,
+          "free_over_cdft_ratio": 1.71
+        },
+        {
+          "spin": 17.5,
+          "theta_deg": 7.7,
+          "BM1_free_g_muN2": 10.873,
+          "BM1_scalar07_muN2": 5.763,
+          "BM1_cdft_full_muN2": 6.362,
+          "free_over_cdft_ratio": 1.71
+        }
+      ]
+    },
+    "143Sm (A~140, Rajbanshi 2018)": {
+      "nucleus": "143Sm (A~140, Rajbanshi 2018)",
+      "mass_A": 143,
+      "proton_renormalization": {
+        "orbital": "pi d5/2",
+        "is_proton": true,
+        "l": 2,
+        "j": 2.5,
+        "alignment_type": "parallel (j = l + 1/2)",
+        "m_star_ratio": 0.663,
+        "g_l_free": 1.0,
+        "g_l_eff": 1.129,
+        "g_s_free": 5.586,
+        "g_s_eff": 4.051,
+        "g_s_quenching_ratio": 0.725,
+        "mu_schmidt_muN": 4.793,
+        "mu_cdft_time_even_muN": 4.694,
+        "mu_cdft_full_muN": 4.284,
+        "delta_mu_time_odd_muN": -0.41
+      },
+      "neutron_renormalization": {
+        "orbital": "nu h11/2^-1",
+        "is_proton": false,
+        "l": 5,
+        "j": 5.5,
+        "alignment_type": "parallel (j = l + 1/2)",
+        "m_star_ratio": 0.663,
+        "g_l_free": 0.0,
+        "g_l_eff": -0.055,
+        "g_s_free": -3.826,
+        "g_s_eff": -2.775,
+        "g_s_quenching_ratio": 0.725,
+        "mu_schmidt_muN": -1.913,
+        "mu_cdft_time_even_muN": -1.906,
+        "mu_cdft_full_muN": -1.665,
+        "delta_mu_time_odd_muN": 0.241
+      },
+      "states": [
+        {
+          "spin": 10.5,
+          "theta_deg": 41.6,
+          "BM1_free_g_muN2": 106.41,
+          "BM1_scalar07_muN2": 56.286,
+          "BM1_cdft_full_muN2": 62.442,
+          "free_over_cdft_ratio": 1.7
+        },
+        {
+          "spin": 11.5,
+          "theta_deg": 31.9,
+          "BM1_free_g_muN2": 68.161,
+          "BM1_scalar07_muN2": 36.053,
+          "BM1_cdft_full_muN2": 39.995,
+          "free_over_cdft_ratio": 1.7
+        },
+        {
+          "spin": 12.5,
+          "theta_deg": 18.2,
+          "BM1_free_g_muN2": 24.162,
+          "BM1_scalar07_muN2": 12.78,
+          "BM1_cdft_full_muN2": 14.177,
+          "free_over_cdft_ratio": 1.7
+        },
+        {
+          "spin": 13.5,
+          "theta_deg": 7.7,
+          "BM1_free_g_muN2": 4.456,
+          "BM1_scalar07_muN2": 2.357,
+          "BM1_cdft_full_muN2": 2.614,
+          "free_over_cdft_ratio": 1.7
+        },
+        {
+          "spin": 14.5,
+          "theta_deg": 7.7,
+          "BM1_free_g_muN2": 4.456,
+          "BM1_scalar07_muN2": 2.357,
+          "BM1_cdft_full_muN2": 2.614,
+          "free_over_cdft_ratio": 1.7
+        }
+      ]
+    },
+    "198Bi (A~190, Pai 2014)": {
+      "nucleus": "198Bi (A~190, Pai 2014)",
+      "mass_A": 198,
+      "proton_renormalization": {
+        "orbital": "pi h9/2",
+        "is_proton": true,
+        "l": 5,
+        "j": 4.5,
+        "alignment_type": "anti-parallel (j = l - 1/2)",
+        "m_star_ratio": 0.679,
+        "g_l_free": 1.0,
+        "g_l_eff": 1.125,
+        "g_s_free": 5.586,
+        "g_s_eff": 4.174,
+        "g_s_quenching_ratio": 0.747,
+        "mu_schmidt_muN": 2.624,
+        "mu_cdft_time_even_muN": 3.339,
+        "mu_cdft_full_muN": 3.814,
+        "delta_mu_time_odd_muN": 0.475
+      },
+      "neutron_renormalization": {
+        "orbital": "nu i13/2^-3",
+        "is_proton": false,
+        "l": 6,
+        "j": 6.5,
+        "alignment_type": "parallel (j = l + 1/2)",
+        "m_star_ratio": 0.679,
+        "g_l_free": 0.0,
+        "g_l_eff": -0.053,
+        "g_s_free": -3.826,
+        "g_s_eff": -2.859,
+        "g_s_quenching_ratio": 0.747,
+        "mu_schmidt_muN": -1.913,
+        "mu_cdft_time_even_muN": -1.934,
+        "mu_cdft_full_muN": -1.75,
+        "delta_mu_time_odd_muN": 0.183
+      },
+      "states": [
+        {
+          "spin": 21.0,
+          "theta_deg": 61.4,
+          "BM1_free_g_muN2": 937.181,
+          "BM1_scalar07_muN2": 495.756,
+          "BM1_cdft_full_muN2": 577.477,
+          "free_over_cdft_ratio": 1.62
+        },
+        {
+          "spin": 22.0,
+          "theta_deg": 58.5,
+          "BM1_free_g_muN2": 889.722,
+          "BM1_scalar07_muN2": 470.646,
+          "BM1_cdft_full_muN2": 548.219,
+          "free_over_cdft_ratio": 1.62
+        },
+        {
+          "spin": 23.0,
+          "theta_deg": 55.5,
+          "BM1_free_g_muN2": 836.744,
+          "BM1_scalar07_muN2": 442.616,
+          "BM1_cdft_full_muN2": 515.562,
+          "free_over_cdft_ratio": 1.62
+        },
+        {
+          "spin": 24.0,
+          "theta_deg": 52.4,
+          "BM1_free_g_muN2": 778.229,
+          "BM1_scalar07_muN2": 411.658,
+          "BM1_cdft_full_muN2": 479.495,
+          "free_over_cdft_ratio": 1.62
+        },
+        {
+          "spin": 25.0,
+          "theta_deg": 49.2,
+          "BM1_free_g_muN2": 714.161,
+          "BM1_scalar07_muN2": 377.764,
+          "BM1_cdft_full_muN2": 440.01,
+          "free_over_cdft_ratio": 1.62
+        }
+      ]
+    }
+  },
+  "evidence_boundaries": {
+    "model_type": "Relativistic Mean Field with Dirac effective mass + time-odd spatial vector back-currents + semi-classical shears",
+    "empirical_inputs": [
+      "Hao et al., PRC 114, 044309 (2026) for 83Rb shears parameters",
+      "Rather et al., PRC 89, 061303(R) (2014) for 106Ag shears B(M1)",
+      "Garg et al., PRC 92, 054308 (2015) for 135Pr magnetic rotation",
+      "Rajbanshi et al., PRC 98, 061304(R) (2018) for 143Sm asymmetric shears B(M1)",
+      "Pai et al., PRC 90, 064314 (2014) for 198Bi multiquasiparticle shears B(M1)"
+    ],
+    "limitations": "Model parametrizes time-odd back-currents via relativistic vector field susceptibility; full self-consistent 3D-cranked CDFT with point-coupling (PC-PK1) provides fine-grained local current distributions."
+  }
+}

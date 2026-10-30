@@ -1,0 +1,7 @@
+transition_link,Delta_parity,chiral_flip,M1_status,E1_status,suppression_ratio
+"Band 1 <-> Band 2 (Chiral Partner, pi=+)",0 (same pi),Yes (L <-> R),ALLOWED (Dominant),FORBIDDEN (Parity),B(E1)/B(M1) ~ 0
+"Band 3 <-> Band 4 (Chiral Partner, pi=-)",0 (same pi),Yes (L <-> R),ALLOWED (Dominant),FORBIDDEN (Parity),B(E1)/B(M1) ~ 0
+"Band 1 <-> Band 3 (Parity Doublet, chiral 1)",1 (opposite pi),No (same chiral phase),FORBIDDEN (Parity),ALLOWED (Dominant),B(M1)/B(E1) ~ 0
+"Band 2 <-> Band 4 (Parity Doublet, chiral 2)",1 (opposite pi),No (same chiral phase),FORBIDDEN (Parity),ALLOWED (Dominant),B(M1)/B(E1) ~ 0
+Band 1 <-> Band 4 (Cross-Diagonal Double Flip),1 (opposite pi),Yes (L <-> R),FORBIDDEN (Parity),FORBIDDEN (Chiral Destructive Phase),"B(E1, 1->4) / B(E1, 1->3) == 0.0000"
+Band 2 <-> Band 3 (Cross-Diagonal Double Flip),1 (opposite pi),Yes (L <-> R),FORBIDDEN (Parity),FORBIDDEN (Chiral Destructive Phase),"B(E1, 2->3) / B(E1, 2->4) == 0.0000"

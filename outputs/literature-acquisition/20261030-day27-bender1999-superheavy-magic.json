@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T13:50:00+08:00",
+  "paper_identity": {
+    "title": "Shell structure of superheavy nuclei in self-consistent mean-field models",
+    "authors": [
+      "M. Bender",
+      "K. Rutz",
+      "P.-G. Reinhard",
+      "J. A. Maruhn",
+      "W. Greiner"
+    ],
+    "journal": "Physical Review C",
+    "volume": "60",
+    "issue": "3",
+    "pages": "034304",
+    "year": 1999,
+    "doi": "10.1103/PhysRevC.60.034304"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Exposes the complete breakdown of magic number transferability from 208Pb to the superheavy island of stability: proves that massive Coulomb repulsion creates an interior central density depression that quenches the spin-orbit potential by 30-40%, leading to competing proton shell closures (Z=114 in RMF vs Z=120/126 in Skyrme/Gogny) with small shell gaps (1.5-2.0 MeV) that succumb to quadrupole softness rather than forming rigid spherical magic cores."
+}

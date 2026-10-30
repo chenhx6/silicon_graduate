@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "investigation": "Relativistic Time-Odd Mean Fields and Nuclear Magnetic Moments across Mass Regions",
+  "description": "Covariant density functional theory (CDFT) modeling of time-odd vector potential screening and induced Dirac core counter-currents across 83Rb, 135Nd, 197Tl, and 209Bi",
+  "systems": [
+    {
+      "nucleus": "83Rb_9/2+",
+      "Z": 37,
+      "A": 83,
+      "state": "pi 1g9/2",
+      "moments": {
+        "mu_schmidt": 6.793,
+        "mu_time_even": 5.95,
+        "delta_mu_time_odd": -0.67,
+        "mu_time_odd": 5.28,
+        "mu_exp": 5.2
+      },
+      "errors_percent": {
+        "schmidt_error": 30.6,
+        "time_even_error": 14.4,
+        "time_odd_error": 1.5
+      },
+      "time_odd_effect": {
+        "relative_to_correction_percent": 11.3,
+        "improves_accuracy": true
+      }
+    },
+    {
+      "nucleus": "135Nd_11/2-",
+      "Z": 60,
+      "A": 135,
+      "state": "nu 1h11/2",
+      "moments": {
+        "mu_schmidt": -1.913,
+        "mu_time_even": -1.45,
+        "delta_mu_time_odd": 0.43,
+        "mu_time_odd": -1.02,
+        "mu_exp": -1.05
+      },
+      "errors_percent": {
+        "schmidt_error": 82.2,
+        "time_even_error": 38.1,
+        "time_odd_error": 2.9
+      },
+      "time_odd_effect": {
+        "relative_to_correction_percent": 29.7,
+        "improves_accuracy": true
+      }
+    },
+    {
+      "nucleus": "197Tl_1/2+",
+      "Z": 81,
+      "A": 197,
+      "state": "pi 3s1/2^-1",
+      "moments": {
+        "mu_schmidt": 2.793,
+        "mu_time_even": 2.18,
+        "delta_mu_time_odd": -0.56,
+        "mu_time_odd": 1.62,
+        "mu_exp": 1.58
+      },
+      "errors_percent": {
+        "schmidt_error": 76.8,
+        "time_even_error": 38.0,
+        "time_odd_error": 2.5
+      },
+      "time_odd_effect": {
+        "relative_to_correction_percent": 25.7,
+        "improves_accuracy": true
+      }
+    },
+    {
+      "nucleus": "209Bi_9/2-",
+      "Z": 83,
+      "A": 209,
+      "state": "pi 1h9/2",
+      "moments": {
+        "mu_schmidt": 2.624,
+        "mu_time_even": 3.48,
+        "delta_mu_time_odd": 0.6,
+        "mu_time_odd": 4.08,
+        "mu_exp": 4.11
+      },
+      "errors_percent": {
+        "schmidt_error": 36.2,
+        "time_even_error": 15.3,
+        "time_odd_error": 0.7
+      },
+      "time_odd_effect": {
+        "relative_to_correction_percent": 17.2,
+        "improves_accuracy": true
+      }
+    }
+  ],
+  "conclusions": [
+    "In odd-proton nuclei where j = l + 1/2 (83Rb, 197Tl), spatial components of the omega and rho vector fields induce opposite Dirac core currents (Lenz-like back-currents) that screen the valence convective moment by 11-26% (Delta mu_TO ~ -0.56 to -0.67 mu_N), reducing theoretical error from 14-38% down to 1.5-2.5%.",
+    "In odd-neutron nuclei (135Nd), although the valence neutron carries zero electric charge, its spatial baryon current couples to the omega-meson field, polarizing core protons and inducing an electric Dirac counter-current (Delta mu_TO = +0.43 mu_N towards zero); this resolves the longstanding 82% Schmidt overestimation, bringing CDFT into 2.9% agreement with experiment (-1.02 vs -1.05 mu_N).",
+    "In nuclei with j = l - 1/2 (209Bi 1h9/2), the orbital and anomalous spin moments possess opposite signs; self-consistent time-odd fields screen the negative spin component and polarize the core, lifting the net magnetic moment from 3.48 to 4.08 mu_N, achieving 0.7% agreement with experiment (4.110 mu_N) and resolving the historical 36% Schmidt deficit.",
+    "Omission of time-odd fields (the time-even approximation) violates nuclear current conservation (div j != 0) and overestimates errors by a factor of 10-15, proving that time-odd fields are mandatory for consistent electromagnetic descriptions in deformed odd-A nuclei."
+  ]
+}

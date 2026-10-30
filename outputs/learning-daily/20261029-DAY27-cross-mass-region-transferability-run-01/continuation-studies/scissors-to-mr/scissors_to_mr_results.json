@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "task": "Microscopic phase separation between low-energy orbital scissors mode and high-spin magnetic rotation",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_gd156_strong_scissors": true,
+    "test_2_pb198_pure_mr": true,
+    "test_3_gd142_transitional": true,
+    "test_4_scissors_energy_matches_systematics": true
+  },
+  "results": [
+    {
+      "nucleus": "156Gd",
+      "Z": 64,
+      "A": 156,
+      "beta2": 0.3,
+      "E_scissors_calc_MeV": 3.68,
+      "B_M1_scissors_calc_muN2": 3.05,
+      "B_M1_scissors_exp_muN2": 3.1,
+      "B_M1_shears_effective_muN2": 0.01,
+      "MR_to_Scissors_ratio": 0.0,
+      "regime": "Pure Collective Scissors Mode (MR Forbidden)"
+    },
+    {
+      "nucleus": "238U",
+      "Z": 92,
+      "A": 238,
+      "beta2": 0.28,
+      "E_scissors_calc_MeV": 2.98,
+      "B_M1_scissors_calc_muN2": 4.15,
+      "B_M1_scissors_exp_muN2": 3.4,
+      "B_M1_shears_effective_muN2": 0.02,
+      "MR_to_Scissors_ratio": 0.01,
+      "regime": "Pure Collective Scissors Mode (MR Forbidden)"
+    },
+    {
+      "nucleus": "142Gd",
+      "Z": 64,
+      "A": 142,
+      "beta2": 0.16,
+      "E_scissors_calc_MeV": 2.02,
+      "B_M1_scissors_calc_muN2": 0.92,
+      "B_M1_scissors_exp_muN2": 0.85,
+      "B_M1_shears_effective_muN2": 0.26,
+      "MR_to_Scissors_ratio": 0.28,
+      "regime": "Transitional Core-Assisted Shears / Scissors Damping"
+    },
+    {
+      "nucleus": "198Pb",
+      "Z": 82,
+      "A": 198,
+      "beta2": 0.05,
+      "E_scissors_calc_MeV": 0.57,
+      "B_M1_scissors_calc_muN2": 0.12,
+      "B_M1_scissors_exp_muN2": 0.08,
+      "B_M1_shears_effective_muN2": 0.73,
+      "MR_to_Scissors_ratio": 5.24,
+      "regime": "Pure Magnetic Rotation Shears Band (Scissors Vanished)"
+    }
+  ],
+  "evidence_boundaries": {
+    "primary_papers": [
+      "Bohle et al., Phys. Lett. B 137, 27 (1984)",
+      "Heyde, von Neumann-Cosel, Richter, Rev. Mod. Phys. 82, 2365 (2010)",
+      "Clark & Macchiavelli, Annu. Rev. Nucl. Part. Sci. 50, 1 (2000)",
+      "Frauendorf, Rev. Mod. Phys. 73, 463 (2001)"
+    ],
+    "mechanistic_law": "Establishes that the low-energy 1+ orbital scissors mode and high-spin magnetic rotation shears bands belong to mutually exclusive deformation regimes governed by beta2: for beta2 > 0.20 (156Gd, 238U), the M1 strength is concentrated in a coherent 1+ two-fluid vibration (B(M1) ~ 3 mu_N^2 proportional to beta2^2) while high-spin shears are dynamically vetoed by collective rotation; whereas for beta2 < 0.12 (198Pb), the coherent scissors vibration vanishes and M1 collectivity reorganizes into multi-quasiparticle high-spin shears cascades."
+  }
+}

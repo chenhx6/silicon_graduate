@@ -3,7 +3,7 @@ type: source
 title: "Evidence for Octupole Correlations in Multiple Chiral Doublet Bands"
 aliases: [Liu 2016 78Br MχD octupole]
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-10-30
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment
@@ -143,3 +143,15 @@ tags: [multiple-chiral-doublet, octupole-correlation, octupole-softness, high-sp
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
 | L16-D18-10 | checkpoint077的(1–3)e-6数组、Qt=2eb、D0=.11–.19和224Th精确1.5e-5均非本文提取输入。此次原PDF4 Fig5视觉再核红点约.07–.2乘10^-6 fm^-2，沿用048的读图量级而非精确数字化。本文没有实测D0或这些带的绝对Qt；不能由CDFT beta直接借用轴对称Qt，更不能由比值单独排除稳定形变或建立E2/M1/E1三元普适分类律。 | task-correction | direct-figure-and-boundary | PDF4 Fig5；原L16-D18-2/5/8；strength-boundary-correction-result-078 | true |
+
+## Day27 checkpoint047：quartet未来提案与虚构上限撤回
+
+父代理实际回读本地6页PDF的正文PDF1–5文字，视觉核PDF5 Fig.6、Summary及quartet段；原SHA-256仍为 `460051aed9af9d84bbfa09a51339e4d671f8abaaf511ff6b7e0a4fbc2a836ad4`。原L16-1–15和2026-07-13人审记录保持其范围，新增条目为agent self-audit，不扩张人审。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| L16-D27-R047-1 | 本文报告两对正/负宇称双带与Band1–Band3八条E1连接，解释为MχD伴八极关联；quartet在结论中仍为在稳定三轴及八极形变核中未来寻找的目标。旧Day27“现有四条带已确证一个chirality–parity quartet”撤回。 | experiment-versus-interpretation-boundary | direct-original-and-visual | PDF2 introductory quartet paragraph; PDF4 E1 discussion; PDF5 paragraph below Fig.6 and Summary | true |
+| L16-D27-R047-2 | PDF3按正/负宇称组态分别用(β2,γ)=(0.32,15.1°)/(0.23,26.3°)，有效角为TPRM结果；PDF4–5的β30软面不是实测稳定非零β3。旧脚本的单组β2=.28/γ26/β3=.045/φ41.2°不是本文逐对象测量。 | model-input-and-data-identity | direct-original-and-task-correction | PDF3 model-input paragraph; PDF4 effective angles; PDF5 Fig.6 | true |
+| L16-D27-R047-3 | 本文主文/图中没有报告旧Day27所称E3跨带观测或交叉双翻转支路<10^-3、99.9%置信的实验上限。该旧上限没有计数、效率、背景和Cov支持，撤回；八条E1及相对B(E1)/B(E2)不提供该排他性认证。 | unsupported-task-claim-withdrawal | direct-source-scope-audit | main text PDF1–5, Figs.1–6; corrected task note | true |
+
+Knowledge Impact and Learning Decision：revises [[chiral-octupole-tac-coupling-and-planar-restoration]] 的quartet确认、角度/势垒认证与虚构上限；与 [[wang-2019-rat-prm-78br-octupole-correlations]] 保留同数据后续模型关系，不增加独立实验次数。

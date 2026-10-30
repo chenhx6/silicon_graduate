@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T03:56:21.840740+00:00",
+  "task": "Chiral symmetry recovery and planar restoration in 106Ag vs 134Pr",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_v_shaped_splitting_reopens": true,
+    "test_2_symmetric_pr134_window_broader": true,
+    "test_3_planar_restoration_at_high_spin": true,
+    "test_4_bm1_interband_ratio_collapses": true
+  },
+  "ag106_results": {
+    "nucleus": "106Ag",
+    "mass_A": 106,
+    "j_proton": 4.5,
+    "j_neutron": 5.5,
+    "blade_symmetry": "asymmetric (j_p != j_n)",
+    "static_chiral_spins": [
+      13.0,
+      14.0,
+      15.0,
+      16.0
+    ],
+    "static_chiral_window_width_hbar": 3.0,
+    "minimum_energy_splitting_keV": 35.0,
+    "minimum_splitting_spin": 14.0,
+    "states": [
+      {
+        "spin": 11.0,
+        "phi_0_deg": 0.0,
+        "V_barrier_keV": 0.0,
+        "Delta_E_splitting_keV": 335.0,
+        "eta_chiral_volume": 0.0,
+        "BM1_out_over_in": 0.25,
+        "BE2_out_over_in": 0.1,
+        "regime": "chiral-vibration"
+      },
+      {
+        "spin": 12.0,
+        "phi_0_deg": 0.0,
+        "V_barrier_keV": 0.0,
+        "Delta_E_splitting_keV": 310.0,
+        "eta_chiral_volume": 0.0,
+        "BM1_out_over_in": 0.25,
+        "BE2_out_over_in": 0.1,
+        "regime": "chiral-vibration"
+      },
+      {
+        "spin": 13.0,
+        "phi_0_deg": 11.8,
+        "V_barrier_keV": 9.3,
+        "Delta_E_splitting_keV": 178.9,
+        "eta_chiral_volume": 0.193,
+        "BM1_out_over_in": 0.35,
+        "BE2_out_over_in": 0.18,
+        "regime": "static-chirality-double-well"
+      },
+      {
+        "spin": 14.0,
+        "phi_0_deg": 23.9,
+        "V_barrier_keV": 38.4,
+        "Delta_E_splitting_keV": 35.0,
+        "eta_chiral_volume": 0.375,
+        "BM1_out_over_in": 0.608,
+        "BE2_out_over_in": 0.18,
+        "regime": "static-chirality-double-well"
+      },
+      {
+        "spin": 15.0,
+        "phi_0_deg": 23.9,
+        "V_barrier_keV": 38.4,
+        "Delta_E_splitting_keV": 35.0,
+        "eta_chiral_volume": 0.364,
+        "BM1_out_over_in": 0.608,
+        "BE2_out_over_in": 0.18,
+        "regime": "static-chirality-double-well"
+      },
+      {
+        "spin": 16.0,
+        "phi_0_deg": 11.8,
+        "V_barrier_keV": 9.3,
+        "Delta_E_splitting_keV": 178.9,
+        "eta_chiral_volume": 0.177,
+        "BM1_out_over_in": 0.35,
+        "BE2_out_over_in": 0.18,
+        "regime": "static-chirality-double-well"
+      },
+      {
+        "spin": 17.0,
+        "phi_0_deg": 0.0,
+        "V_barrier_keV": 0.0,
+        "Delta_E_splitting_keV": 156.0,
+        "eta_chiral_volume": 0.0,
+        "BM1_out_over_in": 0.077,
+        "BE2_out_over_in": 0.04,
+        "regime": "planar-restoration"
+      },
+      {
+        "spin": 18.0,
+        "phi_0_deg": 0.0,
+        "V_barrier_keV": 0.0,
+        "Delta_E_splitting_keV": 201.0,
+        "eta_chiral_volume": 0.0,
+        "BM1_out_over_in": 0.043,
+        "BE2_out_over_in": 0.04,
+        "regime": "planar-restoration"
+      },
+      {
+        "spin": 19.0,
+        "phi_0_deg": 0.0,
+        "V_barrier_keV": 0.0,
+        "Delta_E_splitting_keV": 246.0,
+        "eta_chiral_volume": 0.0,
+        "BM1_out_over_in": 0.03,
+        "BE2_out_over_in": 0.04,
+        "regime": "planar-restoration"
+      },
+      {
+        "spin": 20.0,
+        "phi_0_deg": 0.0,
+        "V_barrier_keV": 0.0,
+        "Delta_E_splitting_keV": 291.0,
+        "eta_chiral_volume": 0.0,
+        "BM1_out_over_in": 0.03,
+        "BE2_out_over_in": 0.04,
+        "regime": "planar-restoration"
+      }
+    ]
+  },
+  "pr134_results": {
+    "nucleus": "134Pr",
+    "mass_A": 134,
+    "j_proton": 5.5,
+    "j_neutron": 5.5,
+    "blade_symmetry": "symmetric (j_p = j_n)",
+    "static_chiral_spins": [
+      13.0,
+      14.0,
+      15.0,
+      16.0,
+      17.0,
+      18.0
+    ],
+    "static_chiral_window_width_hbar": 5.0,
+    "minimum_energy_splitting_keV": 35.0,
+    "minimum_splitting_spin": 14.0,
+    "states": [
+      {
+        "spin": 11.0,
+        "phi_0_deg": 0.0,
+        "V_barrier_keV": 0.0,
+        "Delta_E_splitting_keV": 335.0,
+        "eta_chiral_volume": 0.0,
+        "BM1_out_over_in": 0.25,
+        "BE2_out_over_in": 0.1,
+        "regime": "chiral-vibration"
+      },
+      {
+        "spin": 12.0,
+        "phi_0_deg": 0.0,
+        "V_barrier_keV": 0.0,
+        "Delta_E_splitting_keV": 310.0,
+        "eta_chiral_volume": 0.0,
+        "BM1_out_over_in": 0.25,
+        "BE2_out_over_in": 0.1,
+        "regime": "chiral-vibration"
+      },
+      {
+        "spin": 13.0,
+        "phi_0_deg": 17.1,
+        "V_barrier_keV": 19.9,
+        "Delta_E_splitting_keV": 92.5,
+        "eta_chiral_volume": 0.281,
+        "BM1_out_over_in": 0.442,
+        "BE2_out_over_in": 0.18,
+        "regime": "static-chirality-double-well"
+      },
+      {
+        "spin": 14.0,
+        "phi_0_deg": 26.8,
+        "V_barrier_keV": 48.8,
+        "Delta_E_splitting_keV": 35.0,
+        "eta_chiral_volume": 0.421,
+        "BM1_out_over_in": 0.677,
+        "BE2_out_over_in": 0.18,
+        "regime": "static-chirality-double-well"
+      },
+      {
+        "spin": 15.0,
+        "phi_0_deg": 30.6,
+        "V_barrier_keV": 63.2,
+        "Delta_E_splitting_keV": 35.0,
+        "eta_chiral_volume": 0.461,
+        "BM1_out_over_in": 0.763,
+        "BE2_out_over_in": 0.18,
+        "regime": "static-chirality-double-well"
+      },
+      {
+        "spin": 16.0,
+        "phi_0_deg": 30.6,
+        "V_barrier_keV": 63.2,
+        "Delta_E_splitting_keV": 35.0,
+        "eta_chiral_volume": 0.447,
+        "BM1_out_over_in": 0.763,
+        "BE2_out_over_in": 0.18,
+        "regime": "static-chirality-double-well"
+      },
+      {
+        "spin": 17.0,
+        "phi_0_deg": 26.8,
+        "V_barrier_keV": 48.8,
+        "Delta_E_splitting_keV": 35.0,
+        "eta_chiral_volume": 0.382,
+        "BM1_out_over_in": 0.677,
+        "BE2_out_over_in": 0.18,
+        "regime": "static-chirality-double-well"
+      },
+      {
+        "spin": 18.0,
+        "phi_0_deg": 17.1,
+        "V_barrier_keV": 19.9,
+        "Delta_E_splitting_keV": 92.5,
+        "eta_chiral_volume": 0.239,
+        "BM1_out_over_in": 0.442,
+        "BE2_out_over_in": 0.18,
+        "regime": "static-chirality-double-well"
+      },
+      {
+        "spin": 19.0,
+        "phi_0_deg": 0.0,
+        "V_barrier_keV": 0.0,
+        "Delta_E_splitting_keV": 142.5,
+        "eta_chiral_volume": 0.0,
+        "BM1_out_over_in": 0.1,
+        "BE2_out_over_in": 0.04,
+        "regime": "planar-restoration"
+      },
+      {
+        "spin": 20.0,
+        "phi_0_deg": 0.0,
+        "V_barrier_keV": 0.0,
+        "Delta_E_splitting_keV": 187.5,
+        "eta_chiral_volume": 0.0,
+        "BM1_out_over_in": 0.05,
+        "BE2_out_over_in": 0.04,
+        "regime": "planar-restoration"
+      },
+      {
+        "spin": 21.0,
+        "phi_0_deg": 0.0,
+        "V_barrier_keV": 0.0,
+        "Delta_E_splitting_keV": 232.5,
+        "eta_chiral_volume": 0.0,
+        "BM1_out_over_in": 0.033,
+        "BE2_out_over_in": 0.04,
+        "regime": "planar-restoration"
+      }
+    ]
+  },
+  "evidence_boundaries": {
+    "model_type": "3D-TAC Routhian curvature bifurcation + CPHC symmetry tracking",
+    "empirical_inputs": [
+      "Rather et al., PRC 89, 061303(R) (2014) for 106Ag chiral candidate and shears bands",
+      "Tonev et al., PRL 96, 052501 (2006) for 134Pr lifetimes and chiral transition rates",
+      "Petrache et al., PRL 96, 112502 (2006) for 134Pr 4-qp crossing and energy splitting re-opening"
+    ],
+    "limitations": "Model uses small-amplitude out-of-plane expansion; full particle-rotor model (PRM) diagonalized across the complete j_p (x) j_n (x) Core basis provides fine-grained quantum phase mixing."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-29T13:48:54.526317+00:00",
+  "run_id": "2026-10-29-day-27-01",
+  "active_session_id": "01a187b7-de86-7741-b813-d555e297b192",
+  "title": "Microscopic investigation of magnetic and antimagnetic rotational motion in atomic nuclei",
+  "authors": [
+    "W. Tawseef",
+    "Nazira Nazir",
+    "S. Jehangir",
+    "J. A. Sheikh",
+    "C. Majumder",
+    "S. Chakraborty",
+    "G. B. Vakil",
+    "G. H. Bhat",
+    "N. A. Rather"
+  ],
+  "journal": "Physical Review C",
+  "volume": "113",
+  "article_number": "054307",
+  "published": "2026-05-19",
+  "doi": "10.1103/xbsc-q21d",
+  "arxiv": "2601.12496v1",
+  "canonical_source": "https://doi.org/10.1103/xbsc-q21d",
+  "raw_file": "raw/papers/gpt/tawseef-2026-microscopic-mr-amr-arxiv2601.12496v1.pdf",
+  "raw_sha256": "eddb5f0d931ae4132f03aeb53d9b7a8d21f18d404653b5f2a1e3238c9156c199",
+  "bytes": 1109927,
+  "pages": 15,
+  "identity_check": "Crossref DOI 10.1103/xbsc-q21d, WoS Starter record, and official arXiv 2601.12496v1 match title, authors, and abstract verbatim.",
+  "reading": {
+    "text": "15 pages read end-to-end",
+    "visual": "Figs 1-17, Table I",
+    "covered": "Two-major-shell PSM formalism, SCM comparison, 10 Pd and Cd isotopes, B(E2), B(M1), J(2)/B(E2) ratios, configuration mixing"
+  }
+}

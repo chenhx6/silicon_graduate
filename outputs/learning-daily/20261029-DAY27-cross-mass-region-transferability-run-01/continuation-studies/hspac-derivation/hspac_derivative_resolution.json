@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T13:57:59.879497+00:00",
+  "status": "exact-mathematical-resolution",
+  "paper_reference": "S. Rajbanshi et al., PRC 98, 061304(R) (2018) / arXiv:1712.00353v1",
+  "derivation": {
+    "canonical_derivative": "dE_hat/dI_hat = 2*I_hat * [1 - (a + cos(theta1))/S]",
+    "stationary_condition": "S + cos(theta1)*(a + cos(theta1))/S - a = (2 + chi)*cos(theta1)",
+    "substituted_ratio": "(a + cos(theta1))/S = (2 + chi) - (S - a)/cos(theta1)",
+    "exact_derivative_on_shell": "dE_hat/dI_hat = 2*I_hat * [1 - (2 + chi) + (S - a)/cos(theta1)] = 2*I_hat * [-1 - chi + (S - a)/cos(theta1)]",
+    "printed_equation_5": "omega_hat = 2*I_hat * [1 - chi + (S - a)/cos(theta1)]",
+    "root_cause": "Typographical sign error: 1 - 2 = -1, but printed with +1. The difference is exactly 2*I_hat * (1 - (-1)) = 4*I_hat.",
+    "envelope_theorem_verified": "Verified that partial derivative equals total derivative along the stationary trajectory dE/dtheta1 = 0."
+  },
+  "results": [
+    {
+      "case": "143Sm DB III spin 51/2-",
+      "I_total": 25.5,
+      "I_hat": 2.8333333333333335,
+      "a": 4.0,
+      "chi": 1.0,
+      "equilibrium_theta1_deg": 40.90942875911723,
+      "equilibrium_cos_theta1": 0.7557457128923694,
+      "exact_dE_hat_dI_hat": 0.8788424567895337,
+      "finite_difference_check": 0.8788424565864261,
+      "printed_omega_hat": 12.212175790122307,
+      "algebraic_difference": 11.333333333332774,
+      "four_I_hat": 11.333333333333334,
+      "proof_status": "Exact 4*I_hat discrepancy verified algebraically and numerically"
+    },
+    {
+      "case": "143Sm DB III spin 53/2-",
+      "I_total": 26.5,
+      "I_hat": 2.9444444444444446,
+      "a": 4.0,
+      "chi": 1.0,
+      "equilibrium_theta1_deg": 30.73305900305251,
+      "equilibrium_cos_theta1": 0.8595575511168556,
+      "exact_dE_hat_dI_hat": 1.0109291491317887,
+      "finite_difference_check": 1.0109291501692041,
+      "printed_omega_hat": 12.788706926909404,
+      "algebraic_difference": 11.777777777777615,
+      "four_I_hat": 11.777777777777779,
+      "proof_status": "Exact 4*I_hat discrepancy verified algebraically and numerically"
+    },
+    {
+      "case": "143Sm DB III spin 55/2-",
+      "I_total": 27.5,
+      "I_hat": 3.0555555555555554,
+      "a": 4.0,
+      "chi": 1.2,
+      "equilibrium_theta1_deg": 29.390100842289527,
+      "equilibrium_cos_theta1": 0.8712986129794826,
+      "exact_dE_hat_dI_hat": 1.2240288461234412,
+      "finite_difference_check": 1.2240288462805893,
+      "printed_omega_hat": 13.446251068346848,
+      "algebraic_difference": 12.222222222223408,
+      "four_I_hat": 12.222222222222221,
+      "proof_status": "Exact 4*I_hat discrepancy verified algebraically and numerically"
+    },
+    {
+      "case": "143Sm DB III spin 57/2-",
+      "I_total": 28.5,
+      "I_hat": 3.1666666666666665,
+      "a": 4.0,
+      "chi": 1.4,
+      "equilibrium_theta1_deg": 28.17971245789379,
+      "equilibrium_cos_theta1": 0.8814707196717525,
+      "exact_dE_hat_dI_hat": 1.4382357885283044,
+      "finite_difference_check": 1.4382357891307151,
+      "printed_omega_hat": 14.10490245519313,
+      "algebraic_difference": 12.666666666664826,
+      "four_I_hat": 12.666666666666666,
+      "proof_status": "Exact 4*I_hat discrepancy verified algebraically and numerically"
+    },
+    {
+      "case": "Symmetric test (I=8.5, j1=5, j2=5)",
+      "I_total": 8.5,
+      "I_hat": 0.85,
+      "a": 1.0,
+      "chi": 0.5,
+      "equilibrium_theta1_deg": 75.7092597836824,
+      "equilibrium_cos_theta1": 0.2468424032671624,
+      "exact_dE_hat_dI_hat": 0.18246222325057815,
+      "finite_difference_check": 0.18246222333040407,
+      "printed_omega_hat": 3.58246222325042,
+      "algebraic_difference": 3.399999999999842,
+      "four_I_hat": 3.4,
+      "proof_status": "Exact 4*I_hat discrepancy verified algebraically and numerically"
+    }
+  ]
+}

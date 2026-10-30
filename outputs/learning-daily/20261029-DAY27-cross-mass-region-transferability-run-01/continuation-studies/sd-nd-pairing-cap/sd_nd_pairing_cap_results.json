@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T04:36:02.217505+00:00",
+  "task": "Coriolis anti-pairing and alignment phase transitions in SD vs ND rotational bands",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_dy160_sharp_backbending": true,
+    "test_2_dy152_flat_rigid_plateau": true,
+    "test_3_pb194_smooth_j2_rise": true,
+    "test_4_pb194_coriolis_anti_pairing": true
+  },
+  "benchmarks": {
+    "160Dy_ND": {
+      "nucleus": "160Dy (Normal Deformation, A~160)",
+      "mass_A": 160,
+      "beta2_deformation": 0.28,
+      "Q_t_eb": 5.94,
+      "Delta_0_initial_MeV": 1.05,
+      "J_rigid_hbar2_per_MeV": 71.9,
+      "states": [
+        {
+          "omega_MeV": 0.16,
+          "Delta_pairing_MeV": 1.018,
+          "I_x_spin": 2.87,
+          "i_x_aligned": 0.01,
+          "J_coll_hbar2_per_MeV": 17.9,
+          "J2_dynamic_MoI_hbar2_per_MeV": null
+        },
+        {
+          "omega_MeV": 0.18,
+          "Delta_pairing_MeV": 1.009,
+          "I_x_spin": 3.26,
+          "i_x_aligned": 0.01,
+          "J_coll_hbar2_per_MeV": 18.1,
+          "J2_dynamic_MoI_hbar2_per_MeV": 20.4
+        },
+        {
+          "omega_MeV": 0.2,
+          "Delta_pairing_MeV": 0.999,
+          "I_x_spin": 3.68,
+          "i_x_aligned": 0.02,
+          "J_coll_hbar2_per_MeV": 18.3,
+          "J2_dynamic_MoI_hbar2_per_MeV": 21.4
+        },
+        {
+          "omega_MeV": 0.22,
+          "Delta_pairing_MeV": 0.988,
+          "I_x_spin": 4.12,
+          "i_x_aligned": 0.03,
+          "J_coll_hbar2_per_MeV": 18.6,
+          "J2_dynamic_MoI_hbar2_per_MeV": 23.1
+        },
+        {
+          "omega_MeV": 0.24,
+          "Delta_pairing_MeV": 0.976,
+          "I_x_spin": 4.6,
+          "i_x_aligned": 0.07,
+          "J_coll_hbar2_per_MeV": 18.9,
+          "J2_dynamic_MoI_hbar2_per_MeV": 28.6
+        },
+        {
+          "omega_MeV": 0.26,
+          "Delta_pairing_MeV": 0.962,
+          "I_x_spin": 5.26,
+          "i_x_aligned": 0.26,
+          "J_coll_hbar2_per_MeV": 19.2,
+          "J2_dynamic_MoI_hbar2_per_MeV": 159.9
+        },
+        {
+          "omega_MeV": 0.28,
+          "Delta_pairing_MeV": 0.948,
+          "I_x_spin": 11.0,
+          "i_x_aligned": 5.5,
+          "J_coll_hbar2_per_MeV": 19.6,
+          "J2_dynamic_MoI_hbar2_per_MeV": 287.6
+        },
+        {
+          "omega_MeV": 0.3,
+          "Delta_pairing_MeV": 0.931,
+          "I_x_spin": 16.77,
+          "i_x_aligned": 10.74,
+          "J_coll_hbar2_per_MeV": 20.1,
+          "J2_dynamic_MoI_hbar2_per_MeV": 163.0
+        },
+        {
+          "omega_MeV": 0.32,
+          "Delta_pairing_MeV": 0.914,
+          "I_x_spin": 17.52,
+          "i_x_aligned": 10.93,
+          "J_coll_hbar2_per_MeV": 20.6,
+          "J2_dynamic_MoI_hbar2_per_MeV": 34.8
+        },
+        {
+          "omega_MeV": 0.34,
+          "Delta_pairing_MeV": 0.895,
+          "I_x_spin": 18.16,
+          "i_x_aligned": 10.97,
+          "J_coll_hbar2_per_MeV": 21.1,
+          "J2_dynamic_MoI_hbar2_per_MeV": 32.6
+        },
+        {
+          "omega_MeV": 0.36,
+          "Delta_pairing_MeV": 0.874,
+          "I_x_spin": 18.82,
+          "i_x_aligned": 10.98,
+          "J_coll_hbar2_per_MeV": 21.8,
+          "J2_dynamic_MoI_hbar2_per_MeV": 34.4
+        },
+        {
+          "omega_MeV": 0.38,
+          "Delta_pairing_MeV": 0.852,
+          "I_x_spin": 19.54,
+          "i_x_aligned": 10.99,
+          "J_coll_hbar2_per_MeV": 22.5,
+          "J2_dynamic_MoI_hbar2_per_MeV": 37.3
+        },
+        {
+          "omega_MeV": 0.4,
+          "Delta_pairing_MeV": 0.828,
+          "I_x_spin": 20.31,
+          "i_x_aligned": 10.99,
+          "J_coll_hbar2_per_MeV": 23.3,
+          "J2_dynamic_MoI_hbar2_per_MeV": null
+        }
+      ]
+    },
+    "152Dy_SD": {
+      "nucleus": "152Dy (Superdeformation, A~150)",
+      "mass_A": 152,
+      "beta2_deformation": 0.6,
+      "Q_t_eb": 12.29,
+      "Delta_0_initial_MeV": 0.04,
+      "J_rigid_hbar2_per_MeV": 72.2,
+      "states": [
+        {
+          "omega_MeV": 0.3,
+          "Delta_pairing_MeV": 0.035,
+          "I_x_spin": 21.52,
+          "i_x_aligned": 0.01,
+          "J_coll_hbar2_per_MeV": 71.7,
+          "J2_dynamic_MoI_hbar2_per_MeV": null
+        },
+        {
+          "omega_MeV": 0.33,
+          "Delta_pairing_MeV": 0.034,
+          "I_x_spin": 23.69,
+          "i_x_aligned": 0.01,
+          "J_coll_hbar2_per_MeV": 71.8,
+          "J2_dynamic_MoI_hbar2_per_MeV": 72.1
+        },
+        {
+          "omega_MeV": 0.36,
+          "Delta_pairing_MeV": 0.033,
+          "I_x_spin": 25.85,
+          "i_x_aligned": 0.01,
+          "J_coll_hbar2_per_MeV": 71.8,
+          "J2_dynamic_MoI_hbar2_per_MeV": 72.2
+        },
+        {
+          "omega_MeV": 0.39,
+          "Delta_pairing_MeV": 0.032,
+          "I_x_spin": 28.02,
+          "i_x_aligned": 0.01,
+          "J_coll_hbar2_per_MeV": 71.8,
+          "J2_dynamic_MoI_hbar2_per_MeV": 72.3
+        },
+        {
+          "omega_MeV": 0.42,
+          "Delta_pairing_MeV": 0.031,
+          "I_x_spin": 30.19,
+          "i_x_aligned": 0.01,
+          "J_coll_hbar2_per_MeV": 71.9,
+          "J2_dynamic_MoI_hbar2_per_MeV": 72.4
+        },
+        {
+          "omega_MeV": 0.45,
+          "Delta_pairing_MeV": 0.029,
+          "I_x_spin": 32.36,
+          "i_x_aligned": 0.01,
+          "J_coll_hbar2_per_MeV": 71.9,
+          "J2_dynamic_MoI_hbar2_per_MeV": 72.5
+        },
+        {
+          "omega_MeV": 0.48,
+          "Delta_pairing_MeV": 0.027,
+          "I_x_spin": 34.54,
+          "i_x_aligned": 0.01,
+          "J_coll_hbar2_per_MeV": 71.9,
+          "J2_dynamic_MoI_hbar2_per_MeV": 72.7
+        },
+        {
+          "omega_MeV": 0.51,
+          "Delta_pairing_MeV": 0.025,
+          "I_x_spin": 36.72,
+          "i_x_aligned": 0.01,
+          "J_coll_hbar2_per_MeV": 72.0,
+          "J2_dynamic_MoI_hbar2_per_MeV": 72.8
+        },
+        {
+          "omega_MeV": 0.54,
+          "Delta_pairing_MeV": 0.022,
+          "I_x_spin": 38.91,
+          "i_x_aligned": 0.02,
+          "J_coll_hbar2_per_MeV": 72.0,
+          "J2_dynamic_MoI_hbar2_per_MeV": 73.0
+        },
+        {
+          "omega_MeV": 0.57,
+          "Delta_pairing_MeV": 0.019,
+          "I_x_spin": 41.1,
+          "i_x_aligned": 0.02,
+          "J_coll_hbar2_per_MeV": 72.1,
+          "J2_dynamic_MoI_hbar2_per_MeV": 73.3
+        },
+        {
+          "omega_MeV": 0.6,
+          "Delta_pairing_MeV": 0.015,
+          "I_x_spin": 43.31,
+          "i_x_aligned": 0.03,
+          "J_coll_hbar2_per_MeV": 72.1,
+          "J2_dynamic_MoI_hbar2_per_MeV": 73.6
+        },
+        {
+          "omega_MeV": 0.63,
+          "Delta_pairing_MeV": 0.01,
+          "I_x_spin": 45.52,
+          "i_x_aligned": 0.04,
+          "J_coll_hbar2_per_MeV": 72.2,
+          "J2_dynamic_MoI_hbar2_per_MeV": 73.3
+        },
+        {
+          "omega_MeV": 0.66,
+          "Delta_pairing_MeV": 0.008,
+          "I_x_spin": 47.71,
+          "i_x_aligned": 0.05,
+          "J_coll_hbar2_per_MeV": 72.2,
+          "J2_dynamic_MoI_hbar2_per_MeV": null
+        }
+      ]
+    },
+    "194Pb_SD": {
+      "nucleus": "194Pb (Superdeformation, A~190)",
+      "mass_A": 194,
+      "beta2_deformation": 0.48,
+      "Q_t_eb": 14.38,
+      "Delta_0_initial_MeV": 0.85,
+      "J_rigid_hbar2_per_MeV": 105.0,
+      "states": [
+        {
+          "omega_MeV": 0.15,
+          "Delta_pairing_MeV": 0.827,
+          "I_x_spin": 5.15,
+          "i_x_aligned": 0.04,
+          "J_coll_hbar2_per_MeV": 34.0,
+          "J2_dynamic_MoI_hbar2_per_MeV": null
+        },
+        {
+          "omega_MeV": 0.175,
+          "Delta_pairing_MeV": 0.819,
+          "I_x_spin": 6.09,
+          "i_x_aligned": 0.05,
+          "J_coll_hbar2_per_MeV": 34.5,
+          "J2_dynamic_MoI_hbar2_per_MeV": 38.3
+        },
+        {
+          "omega_MeV": 0.2,
+          "Delta_pairing_MeV": 0.809,
+          "I_x_spin": 7.07,
+          "i_x_aligned": 0.07,
+          "J_coll_hbar2_per_MeV": 35.0,
+          "J2_dynamic_MoI_hbar2_per_MeV": 40.2
+        },
+        {
+          "omega_MeV": 0.225,
+          "Delta_pairing_MeV": 0.797,
+          "I_x_spin": 8.1,
+          "i_x_aligned": 0.09,
+          "J_coll_hbar2_per_MeV": 35.6,
+          "J2_dynamic_MoI_hbar2_per_MeV": 42.7
+        },
+        {
+          "omega_MeV": 0.25,
+          "Delta_pairing_MeV": 0.785,
+          "I_x_spin": 9.2,
+          "i_x_aligned": 0.13,
+          "J_coll_hbar2_per_MeV": 36.3,
+          "J2_dynamic_MoI_hbar2_per_MeV": 45.9
+        },
+        {
+          "omega_MeV": 0.275,
+          "Delta_pairing_MeV": 0.77,
+          "I_x_spin": 10.39,
+          "i_x_aligned": 0.2,
+          "J_coll_hbar2_per_MeV": 37.1,
+          "J2_dynamic_MoI_hbar2_per_MeV": 50.6
+        },
+        {
+          "omega_MeV": 0.3,
+          "Delta_pairing_MeV": 0.754,
+          "I_x_spin": 11.73,
+          "i_x_aligned": 0.34,
+          "J_coll_hbar2_per_MeV": 38.0,
+          "J2_dynamic_MoI_hbar2_per_MeV": 59.1
+        },
+        {
+          "omega_MeV": 0.325,
+          "Delta_pairing_MeV": 0.736,
+          "I_x_spin": 13.35,
+          "i_x_aligned": 0.66,
+          "J_coll_hbar2_per_MeV": 39.0,
+          "J2_dynamic_MoI_hbar2_per_MeV": 80.9
+        },
+        {
+          "omega_MeV": 0.35,
+          "Delta_pairing_MeV": 0.716,
+          "I_x_spin": 15.77,
+          "i_x_aligned": 1.69,
+          "J_coll_hbar2_per_MeV": 40.3,
+          "J2_dynamic_MoI_hbar2_per_MeV": 158.8
+        },
+        {
+          "omega_MeV": 0.375,
+          "Delta_pairing_MeV": 0.694,
+          "I_x_spin": 21.28,
+          "i_x_aligned": 5.66,
+          "J_coll_hbar2_per_MeV": 41.7,
+          "J2_dynamic_MoI_hbar2_per_MeV": 256.7
+        },
+        {
+          "omega_MeV": 0.4,
+          "Delta_pairing_MeV": 0.67,
+          "I_x_spin": 28.61,
+          "i_x_aligned": 11.3,
+          "J_coll_hbar2_per_MeV": 43.3,
+          "J2_dynamic_MoI_hbar2_per_MeV": 219.7
+        },
+        {
+          "omega_MeV": 0.425,
+          "Delta_pairing_MeV": 0.643,
+          "I_x_spin": 32.27,
+          "i_x_aligned": 13.08,
+          "J_coll_hbar2_per_MeV": 45.2,
+          "J2_dynamic_MoI_hbar2_per_MeV": 125.6
+        },
+        {
+          "omega_MeV": 0.45,
+          "Delta_pairing_MeV": 0.613,
+          "I_x_spin": 34.88,
+          "i_x_aligned": 13.57,
+          "J_coll_hbar2_per_MeV": 47.4,
+          "J2_dynamic_MoI_hbar2_per_MeV": null
+        }
+      ]
+    }
+  },
+  "evidence_boundaries": {
+    "model_type": "Cranked pairing BCS scaling + two-band Coriolis alignment model",
+    "empirical_inputs": [
+      "NNDC adopted level scheme for 160Dy (backbend at I=16+ to 18+, omega ~ 0.28 MeV)",
+      "Twin et al., PRL 57, 811 (1986) for 152Dy first superdeformed discrete band",
+      "Brinkman et al., Z. Phys. A 336, 115 (1990) for 194Pb superdeformed J(2) rise"
+    ],
+    "limitations": "Model uses two-band mixing with effective alignment parameterization; microscopic self-consistent cranked HFB across 3D coordinates yields state-by-state Bogoliubov quasi-particle spectrum."
+  }
+}

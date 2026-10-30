@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-30T04:06:36.690686+08:00",
+  "run_id": "2026-10-29-day-27-01",
+  "session_id": "01a187b7-de86-7741-b813-d555e297b192",
+  "checkpoint": 45,
+  "status": "scientific-correction-complete-overall-research-in-progress",
+  "goal_status": "active",
+  "reading_scope": "Zamfir-Casten PDF1-4 text and PDF3 visual, printed265-268 Eq2/Eq4/Fig1/Fig2",
+  "false_claims_withdrawn": [
+    "negativeS4-rigid",
+    "positiveS4-soft",
+    "S4zero-universal-phase-boundary",
+    "eight-legacy-isotopes-ENSDF-authenticated"
+  ],
+  "replay_scientific_fields_equal": true,
+  "model_limit_checks": {
+    "d2_rotor_vs_source_normalized_energies": true,
+    "rigid_s4_vs_exact_5_over_3": true,
+    "soft_s4_vs_exact_minus_2": true,
+    "o5_plus_o3_zero_at_c_over_b_4": true,
+    "o5_plus_o3_positive_at_c_over_b_6": true
+  },
+  "file_sha256": {
+    "knowledge/index.md": "62e00c43d4601e77505b9dc1c838fb77e4d37dd9d02f389ef44f559411a85384",
+    "knowledge/research-notes/gamma-rigid-vs-soft-staggering-and-phase-boundary.md": "7be088385ccfa8815b8dda968a6b0f8a18b79e927e4b1f7b25ea241b1af9f075",
+    "knowledge/sources/zamfir-casten-1991-gamma-softness-triaxiality.md": "9634c804aeefa542af38c6bb09910dd1e1e20854ee9c4cc15d054b9d306e28de",
+    "system/scripts/day27_gamma_rigid_vs_soft_staggering_study.py": "35d66e0a68da233222815dfeb48d8662567f2508a733d97485226c76f426e550",
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability.md": "61055756bda77632397d9b625e8841c355da2fdf838bf874595db6a7ce0ca038",
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/continuation-research-ledger.json": "0db1657bf6455856de0dea5240bf44784066b5910ba397498eed4b8a33ebd970",
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/continuation-studies/gamma-rigid-vs-soft/gamma_rigid_vs_soft_corrected_results.json": "887aadb7fd7d66fb09bd36c4b19e9ae695fed8820ac7d3d8c40efdd07268efe9",
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/continuation-studies/gamma-rigid-vs-soft/gamma_rigid_vs_soft_results.json": "5724a14835a5edabe10a2ba297fd4d96201fa716f5b693c8fc6e008125c866df",
+    "system/handoff.md": "deee71923da1f1475e27f8cae242dc72cab52f14ac06e479c4148be8ad4a8077",
+    "system/log.md": "e6682fb939ab057453ab2b3f6e7c1464aa013c8c23c1c57a86cf7efb40c1654a",
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/day27-evidence-boundary-audit-039.json": "92b9e7ac58ba9a3aabaf931b72ff8fde85488fc5ce775b1f7682cc8f0d5fb7b5"
+  },
+  "protected_hashes_unchanged": {
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/run.json": true,
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/card-credit-27.json": true,
+    "outputs/learning-milestones/2026-09-one-month-state.json": true,
+    "daemon": true
+  },
+  "subagent": {
+    "id": "01a1893b-2b5b-73f1-bac4-4491586e861c",
+    "nickname": "Leibniz",
+    "scope": "independent read-only K-isomer parity/radiative-lifetime audit",
+    "report": "tmp/day27-k-parity-audit/report.md",
+    "report_sha256": "7eccca59ce0e4211e034741f1bced8dc8119cc5c370f85b965c39c712eeeaa56",
+    "next_action": "Correct six E2 parity contradictions and Hf E3 nu5 branch; do not assert measured lifetime factor"
+  },
+  "checks_path": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/scientific-corrections-045/checks-045.json",
+  "evidence_boundary": "Model checks do not certify isotope inputs; file existence and lint do not certify scientific conclusions; goal and no Day28 credit unchanged.",
+  "verified_at": "2026-10-30T04:07:40.845973+08:00",
+  "checks": [
+    {
+      "name": "diff",
+      "exit_code": 0
+    },
+    {
+      "name": "boundary",
+      "exit_code": 0,
+      "ok": true
+    },
+    {
+      "name": "lint",
+      "exit_code": 0,
+      "counts": {
+        "warning": 398,
+        "info": 5187
+      }
+    }
+  ],
+  "writeback_valid": true,
+  "writeback_error": null
+}

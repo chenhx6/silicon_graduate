@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-30T05:00:31.329491+08:00",
+  "checkpoint": 47,
+  "status": "scientific-correction-verified-overall-research-in-progress",
+  "checks": {
+    "legacy_potential_gradient_witness_checked": true,
+    "legacy_isotope_classifier_disabled": true,
+    "legacy_jnu_cutoff_withdrawn": true,
+    "liu2016quartet_future_boundary_read": true,
+    "wang2019_beta3_002_no_large_scan_boundary_read": true,
+    "replay_corrected_output_equal": true
+  },
+  "writeback_valid": true,
+  "writeback_error": null,
+  "protected_sha256": {
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/run.json": "cd3a569359cc74fdc4a042eee5ed0f2c3e24b87486115f3370ed10a60f363fd1",
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/card-credit-27.json": "b34923ad13a149267ec7b8386412ed1e639aa640b2f376e71630991566756a28",
+    "outputs/learning-milestones/2026-09-one-month-state.json": "15c66d3d00a4e80e008e9ca3f64781695832ee168653338d111ba04217adf52f",
+    "system/scripts/run_daily_learning_daemon.py": "50378612620cd6410c6b723abd4e914e16f9ff36930ea4cc2eeb2a99be7b8193"
+  },
+  "subagent_report": "tmp/day27-rat2019-audit/report.md",
+  "next_priority": "Day27 final closeout audit at 15:00; no Day28 research/credit"
+}

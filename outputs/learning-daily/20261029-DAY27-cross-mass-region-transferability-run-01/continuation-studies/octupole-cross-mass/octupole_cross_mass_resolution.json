@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T15:03:06.863501+00:00",
+  "status": "octupole-cross-mass-systematics-resolved",
+  "physical_conclusions": [
+    "1. Octupole collectivity B(E3; 3- -> 0+) maintains huge values (~42 - 48 W.u.) across both neutron-rich barium (144,146Ba) and light actinides (224Ra), driven by identical Delta j = Delta l = 3 single-particle couplings (pi h11/2 <-> d5/2, nu i13/2 <-> f7/2 in Ba; pi i13/2 <-> f7/2, nu j15/2 <-> g9/2 in Ra).",
+    "2. Electric dipole moments D_0 exhibit order-of-magnitude collapses at specific homologous neutron cancellation nodes (N~90 in 146Ba with D_0 ~ 0.05 e fm; N~136 in 224Ra with D_0 ~ 0.015 e fm) due to near-exact destructive interference between macroscopic droplet polarization (D_macro > 0) and microscopic single-particle shell polarization (D_shell < 0).",
+    "3. The alternating-parity energy displacement Delta E(I) quantitatively discriminates static octupole rotors from octupole vibrators: for static rotors (224Ra, 144Ba), Delta E drops by 90-103% toward zero due to Coriolis centrifugal barrier stabilization; for octupole vibrators (228Ra), Delta E remains locked at ~400 keV across all spins, matching harmonic phonon excitation.",
+    "4. The naive heuristic 'Ra always has strong E1, Ba has E1 cancellation' is definitively falsified by primary Coulex data (Gaffney 2013, Butler 2020, Bucher 2016/2017); E1 strength is an unreliable proxy for octupole deformation, and direct B(E3) measurement is the only model-independent diagnostic."
+  ],
+  "systematics": [
+    {
+      "nucleus": "224Ra",
+      "Z": 88,
+      "N": 136,
+      "mass_region": "A~220",
+      "B_E3_Wu": "42.0 +/- 3.0",
+      "D0_e_fm": "0.015 +/- 0.003",
+      "delta_E_1minus_keV": 173.8,
+      "delta_E_9minus_keV": -5.7,
+      "centrifugal_stabilization_pct": 103.3,
+      "D_macro_est_efm": 3.295,
+      "D_shell_est_efm": -3.28,
+      "cancellation_ratio": 0.995,
+      "structure_nature": "Static Octupole Rotor (E1 node)"
+    },
+    {
+      "nucleus": "226Ra",
+      "Z": 88,
+      "N": 138,
+      "mass_region": "A~220",
+      "B_E3_Wu": "35.0 +/- 4.0",
+      "D0_e_fm": "0.11 +/- 0.01",
+      "delta_E_1minus_keV": 219.85,
+      "delta_E_9minus_keV": 42.25,
+      "centrifugal_stabilization_pct": 80.8,
+      "D_macro_est_efm": 3.432,
+      "D_shell_est_efm": -3.322,
+      "cancellation_ratio": 0.968,
+      "structure_nature": "Static Octupole Rotor (enhanced E1)"
+    },
+    {
+      "nucleus": "228Ra",
+      "Z": 88,
+      "N": 140,
+      "mass_region": "A~220",
+      "B_E3_Wu": "31.0 +/- 5.0",
+      "D0_e_fm": "0.03 +/- 0.01",
+      "delta_E_1minus_keV": 442.2,
+      "delta_E_9minus_keV": 420.9,
+      "centrifugal_stabilization_pct": 4.8,
+      "D_macro_est_efm": 3.569,
+      "D_shell_est_efm": -3.539,
+      "cancellation_ratio": 0.992,
+      "structure_nature": "Octupole Vibrator (phonon excitation)"
+    },
+    {
+      "nucleus": "144Ba",
+      "Z": 56,
+      "N": 88,
+      "mass_region": "A~140",
+      "B_E3_Wu": "48.0 +/- 4.0",
+      "D0_e_fm": "0.13 +/- 0.02",
+      "delta_E_1minus_keV": 659.35,
+      "delta_E_9minus_keV": 56.5,
+      "centrifugal_stabilization_pct": 91.4,
+      "D_macro_est_efm": 1.398,
+      "D_shell_est_efm": -1.268,
+      "cancellation_ratio": 0.907,
+      "structure_nature": "Static Octupole Rotor (enhanced E1)"
+    },
+    {
+      "nucleus": "146Ba",
+      "Z": 56,
+      "N": 90,
+      "mass_region": "A~140",
+      "B_E3_Wu": "48.0 +/- 8.0",
+      "D0_e_fm": "0.05 +/- 0.02",
+      "delta_E_1minus_keV": 869.5,
+      "delta_E_9minus_keV": 208.0,
+      "centrifugal_stabilization_pct": 76.1,
+      "D_macro_est_efm": 1.485,
+      "D_shell_est_efm": -1.435,
+      "cancellation_ratio": 0.966,
+      "structure_nature": "Transitional Octupole Rotor (E1 cancellation node)"
+    }
+  ],
+  "artifacts": {
+    "displacement_csv": "octupole_energy_displacement_trajectories.csv",
+    "systematics_csv": "octupole_dipole_cancellation_systematics.csv"
+  }
+}

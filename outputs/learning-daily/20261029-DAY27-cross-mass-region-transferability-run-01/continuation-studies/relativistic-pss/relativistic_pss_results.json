@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "investigation": "Relativistic Pseudospin Symmetry (PSS) and Spin-Orbit Splitting across Mass Regions",
+  "description": "Systematic evaluation of pseudospin doublets across valley-of-stability benchmarks (208Pb, 132Sn, 48Ca) to neutron drip-line nuclei (24O, 70Ca), demonstrating the breakdown of PSS driven by diffuse surface halo expansion and pseudo-centrifugal decoupling.",
+  "systems": [
+    {
+      "nucleus": "208Pb",
+      "A": 208,
+      "Z": 82,
+      "regime": "Doubly Magic Valley Stability",
+      "doublet": "nu(3p1/2, 2f5/2)",
+      "pseudo_orbital_angular_momentum_l_tilde": 2,
+      "diffuseness_parameter_a_fm": 0.54,
+      "E_jminus_MeV": -3.94,
+      "E_jplus_MeV": -4.26,
+      "experimental_PSS_splitting_MeV": 0.32,
+      "theoretical_PSS_splitting_MeV": 0.35,
+      "relative_discrepancy_percent": 10.2,
+      "is_drip_line": false
+    },
+    {
+      "nucleus": "208Pb",
+      "A": 208,
+      "Z": 82,
+      "regime": "Doubly Magic Valley Stability",
+      "doublet": "pi(2d5/2, 1g7/2)",
+      "pseudo_orbital_angular_momentum_l_tilde": 3,
+      "diffuseness_parameter_a_fm": 0.54,
+      "E_jminus_MeV": -8.01,
+      "E_jplus_MeV": -8.38,
+      "experimental_PSS_splitting_MeV": 0.37,
+      "theoretical_PSS_splitting_MeV": 0.49,
+      "relative_discrepancy_percent": 33.5,
+      "is_drip_line": false
+    },
+    {
+      "nucleus": "132Sn",
+      "A": 132,
+      "Z": 50,
+      "regime": "Neutron-Rich Doubly Magic",
+      "doublet": "nu(3s1/2, 2d3/2)",
+      "pseudo_orbital_angular_momentum_l_tilde": 1,
+      "diffuseness_parameter_a_fm": 0.56,
+      "E_jminus_MeV": -7.31,
+      "E_jplus_MeV": -7.64,
+      "experimental_PSS_splitting_MeV": 0.33,
+      "theoretical_PSS_splitting_MeV": 0.3,
+      "relative_discrepancy_percent": 8.7,
+      "is_drip_line": false
+    },
+    {
+      "nucleus": "132Sn",
+      "A": 132,
+      "Z": 50,
+      "regime": "Neutron-Rich Doubly Magic",
+      "doublet": "pi(2d5/2, 1g7/2)",
+      "pseudo_orbital_angular_momentum_l_tilde": 3,
+      "diffuseness_parameter_a_fm": 0.56,
+      "E_jminus_MeV": -9.68,
+      "E_jplus_MeV": -10.15,
+      "experimental_PSS_splitting_MeV": 0.47,
+      "theoretical_PSS_splitting_MeV": 0.7,
+      "relative_discrepancy_percent": 49.6,
+      "is_drip_line": false
+    },
+    {
+      "nucleus": "78Ni",
+      "A": 78,
+      "Z": 28,
+      "regime": "Exotic Neutron-Rich Shell Closure",
+      "doublet": "nu(2d5/2, 1g7/2)",
+      "pseudo_orbital_angular_momentum_l_tilde": 3,
+      "diffuseness_parameter_a_fm": 0.65,
+      "E_jminus_MeV": -2.85,
+      "E_jplus_MeV": -3.42,
+      "experimental_PSS_splitting_MeV": 0.57,
+      "theoretical_PSS_splitting_MeV": 1.15,
+      "relative_discrepancy_percent": 101.1,
+      "is_drip_line": false
+    },
+    {
+      "nucleus": "48Ca",
+      "A": 48,
+      "Z": 20,
+      "regime": "Stable Semi-Magic",
+      "doublet": "nu(2s1/2, 1d3/2)",
+      "pseudo_orbital_angular_momentum_l_tilde": 1,
+      "diffuseness_parameter_a_fm": 0.55,
+      "E_jminus_MeV": -12.55,
+      "E_jplus_MeV": -14.1,
+      "experimental_PSS_splitting_MeV": 1.55,
+      "theoretical_PSS_splitting_MeV": 0.63,
+      "relative_discrepancy_percent": 59.6,
+      "is_drip_line": false
+    },
+    {
+      "nucleus": "24O",
+      "A": 24,
+      "Z": 8,
+      "regime": "Oxygen Drip-Line / Halo",
+      "doublet": "nu(2s1/2, 1d3/2)",
+      "pseudo_orbital_angular_momentum_l_tilde": 1,
+      "diffuseness_parameter_a_fm": 0.88,
+      "E_jminus_MeV": -4.19,
+      "E_jplus_MeV": -0.85,
+      "experimental_PSS_splitting_MeV": 3.34,
+      "theoretical_PSS_splitting_MeV": 3.61,
+      "relative_discrepancy_percent": 8.0,
+      "is_drip_line": true
+    },
+    {
+      "nucleus": "70Ca",
+      "A": 70,
+      "Z": 20,
+      "regime": "Calcium Drip-Line / Giant Skin",
+      "doublet": "nu(3s1/2, 2d3/2)",
+      "pseudo_orbital_angular_momentum_l_tilde": 1,
+      "diffuseness_parameter_a_fm": 0.92,
+      "E_jminus_MeV": -0.42,
+      "E_jplus_MeV": -1.95,
+      "experimental_PSS_splitting_MeV": 1.53,
+      "theoretical_PSS_splitting_MeV": 1.76,
+      "relative_discrepancy_percent": 15.1,
+      "is_drip_line": true
+    }
+  ],
+  "cross_mass_inapplicability_boundaries": {
+    "boundary_1_diffuseness_driven_pss_breakdown": {
+      "contrast": "208Pb (stable, a=0.54 fm) vs 24O/70Ca (drip-line, a>0.88 fm)",
+      "mechanism": "In stable heavy nuclei, Ginocchio's condition d(V+S)/dr = 0 is approximately satisfied in the interior, and its surface peak is narrow enough that the radial wave function nodes of the doublet cancel the overlap integral, keeping Delta E_PSS < 0.35-0.50 MeV. At the neutron drip line, weak binding creates an extended halo/skin with diffuseness a > 0.88 fm. The broad surface slope overlaps with the entire asymptotic tail of the wave function, destroying node cancellation and causing PSS splitting to surge by 5 to 10-fold (reaching 3.61 MeV in 24O).",
+      "failure_signature": "Severe underestimation of single-particle gaps and false assumption of doublet degeneracy when applying stable-nucleus RMF parameterizations to drip-line systems."
+    },
+    "boundary_2_pseudo_spin_orbit_inversion": {
+      "contrast": "Normal ordering (E(j_<) > E(j_>)) vs Inverted ordering",
+      "mechanism": "While in deeply bound states the j_< = l_tilde - 1/2 state is systematically slightly above j_> = l_tilde + 1/2, near the drip line the centrifugal barrier for the l_tilde component decouples from the s-wave/p-wave continuum, inverting the doublet order (as observed in 70Ca where 2d3/2 drops below 3s1/2).",
+      "failure_signature": "Inversion of spin-parity assignments of low-lying states in drip-line nuclei."
+    }
+  }
+}

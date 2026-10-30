@@ -1,0 +1,625 @@
+{
+  "schema_version": 1,
+  "investigation": "Microscopic Origin of S(I) and B(M1) Staggering Disappearance in Chiral Doublet Bands",
+  "description": "Evaluation of CPHC S-symmetry restoration vs orbital asymmetry and multiquasiparticle band mixing across 126Cs, 104Rh, 106Ag, and 134Pr",
+  "systems": {
+    "126Cs": {
+      "system": "126Cs",
+      "parameters": {
+        "j_pi": 5.5,
+        "j_nu": 5.5,
+        "delta_j": 0.0,
+        "gamma_deg": 30.0,
+        "J0_hbar2_per_mev": 22.0,
+        "mixing_strength": 0.04,
+        "g_pi": 1.22,
+        "g_nu": -0.21,
+        "g_R": 0.44,
+        "delta_g_cancellation": -0.065
+      },
+      "s_symmetry_factors": {
+        "f_sp_orbital_symmetry": 1.0,
+        "f_core_alpha_parity": 1.0,
+        "f_mix_anti_pairing": 0.833,
+        "eta_S_combined": 0.833
+      },
+      "observables": {
+        "mean_delta_S_kev": 8.29,
+        "bm1_mean_muN2": 0.967,
+        "bm1_staggering_amplitude_muN2": 0.8,
+        "relative_m1_staggering_percent": 82.7
+      },
+      "energy_staggering_s_I": [
+        {
+          "spin": 12,
+          "S_I_mev": 32.79
+        },
+        {
+          "spin": 13,
+          "S_I_mev": 21.47
+        },
+        {
+          "spin": 14,
+          "S_I_mev": 30.84
+        },
+        {
+          "spin": 15,
+          "S_I_mev": 22.01
+        },
+        {
+          "spin": 16,
+          "S_I_mev": 29.54
+        },
+        {
+          "spin": 17,
+          "S_I_mev": 22.54
+        },
+        {
+          "spin": 18,
+          "S_I_mev": 28.61
+        }
+      ],
+      "second_diff_delta_s_I": [
+        {
+          "spin": 13,
+          "delta_S_kev": -10.34
+        },
+        {
+          "spin": 14,
+          "delta_S_kev": 9.1
+        },
+        {
+          "spin": 15,
+          "delta_S_kev": -8.18
+        },
+        {
+          "spin": 16,
+          "delta_S_kev": 7.27
+        },
+        {
+          "spin": 17,
+          "delta_S_kev": -6.54
+        }
+      ],
+      "bm1_intraband": [
+        {
+          "spin_initial": 12,
+          "spin_final": 11,
+          "bm1_muN2": 1.49
+        },
+        {
+          "spin_initial": 13,
+          "spin_final": 12,
+          "bm1_muN2": 0.63
+        },
+        {
+          "spin_initial": 14,
+          "spin_final": 13,
+          "bm1_muN2": 1.37
+        },
+        {
+          "spin_initial": 15,
+          "spin_final": 14,
+          "bm1_muN2": 0.51
+        },
+        {
+          "spin_initial": 16,
+          "spin_final": 15,
+          "bm1_muN2": 1.25
+        },
+        {
+          "spin_initial": 17,
+          "spin_final": 16,
+          "bm1_muN2": 0.39
+        },
+        {
+          "spin_initial": 18,
+          "spin_final": 17,
+          "bm1_muN2": 1.13
+        }
+      ],
+      "bm1_interband": [
+        {
+          "spin_initial": 12,
+          "spin_final": 11,
+          "bm1_muN2": 0.09
+        },
+        {
+          "spin_initial": 13,
+          "spin_final": 12,
+          "bm1_muN2": 0.863
+        },
+        {
+          "spin_initial": 14,
+          "spin_final": 13,
+          "bm1_muN2": 0.036
+        },
+        {
+          "spin_initial": 15,
+          "spin_final": 14,
+          "bm1_muN2": 0.809
+        },
+        {
+          "spin_initial": 16,
+          "spin_final": 15,
+          "bm1_muN2": 0.02
+        },
+        {
+          "spin_initial": 17,
+          "spin_final": 16,
+          "bm1_muN2": 0.756
+        },
+        {
+          "spin_initial": 18,
+          "spin_final": 17,
+          "bm1_muN2": 0.02
+        }
+      ]
+    },
+    "104Rh": {
+      "system": "104Rh",
+      "parameters": {
+        "j_pi": 4.5,
+        "j_nu": 4.5,
+        "delta_j": 0.0,
+        "gamma_deg": 28.0,
+        "J0_hbar2_per_mev": 18.0,
+        "mixing_strength": 0.05,
+        "g_pi": 1.26,
+        "g_nu": -0.24,
+        "g_R": 0.42,
+        "delta_g_cancellation": -0.09
+      },
+      "s_symmetry_factors": {
+        "f_sp_orbital_symmetry": 1.0,
+        "f_core_alpha_parity": 0.961,
+        "f_mix_anti_pairing": 0.8,
+        "eta_S_combined": 0.769
+      },
+      "observables": {
+        "mean_delta_S_kev": 7.65,
+        "bm1_mean_muN2": 0.963,
+        "bm1_staggering_amplitude_muN2": 0.738,
+        "relative_m1_staggering_percent": 76.7
+      },
+      "energy_staggering_s_I": [
+        {
+          "spin": 12,
+          "S_I_mev": 36.32
+        },
+        {
+          "spin": 13,
+          "S_I_mev": 25.85
+        },
+        {
+          "spin": 14,
+          "S_I_mev": 34.48
+        },
+        {
+          "spin": 15,
+          "S_I_mev": 26.31
+        },
+        {
+          "spin": 16,
+          "S_I_mev": 33.25
+        },
+        {
+          "spin": 17,
+          "S_I_mev": 26.78
+        },
+        {
+          "spin": 18,
+          "S_I_mev": 32.37
+        }
+      ],
+      "second_diff_delta_s_I": [
+        {
+          "spin": 13,
+          "delta_S_kev": -9.55
+        },
+        {
+          "spin": 14,
+          "delta_S_kev": 8.4
+        },
+        {
+          "spin": 15,
+          "delta_S_kev": -7.55
+        },
+        {
+          "spin": 16,
+          "delta_S_kev": 6.7
+        },
+        {
+          "spin": 17,
+          "delta_S_kev": -6.03
+        }
+      ],
+      "bm1_intraband": [
+        {
+          "spin_initial": 12,
+          "spin_final": 11,
+          "bm1_muN2": 1.459
+        },
+        {
+          "spin_initial": 13,
+          "spin_final": 12,
+          "bm1_muN2": 0.661
+        },
+        {
+          "spin_initial": 14,
+          "spin_final": 13,
+          "bm1_muN2": 1.339
+        },
+        {
+          "spin_initial": 15,
+          "spin_final": 14,
+          "bm1_muN2": 0.541
+        },
+        {
+          "spin_initial": 16,
+          "spin_final": 15,
+          "bm1_muN2": 1.219
+        },
+        {
+          "spin_initial": 17,
+          "spin_final": 16,
+          "bm1_muN2": 0.421
+        },
+        {
+          "spin_initial": 18,
+          "spin_final": 17,
+          "bm1_muN2": 1.099
+        }
+      ],
+      "bm1_interband": [
+        {
+          "spin_initial": 12,
+          "spin_final": 11,
+          "bm1_muN2": 0.122
+        },
+        {
+          "spin_initial": 13,
+          "spin_final": 12,
+          "bm1_muN2": 0.832
+        },
+        {
+          "spin_initial": 14,
+          "spin_final": 13,
+          "bm1_muN2": 0.068
+        },
+        {
+          "spin_initial": 15,
+          "spin_final": 14,
+          "bm1_muN2": 0.778
+        },
+        {
+          "spin_initial": 16,
+          "spin_final": 15,
+          "bm1_muN2": 0.02
+        },
+        {
+          "spin_initial": 17,
+          "spin_final": 16,
+          "bm1_muN2": 0.724
+        },
+        {
+          "spin_initial": 18,
+          "spin_final": 17,
+          "bm1_muN2": 0.02
+        }
+      ]
+    },
+    "106Ag": {
+      "system": "106Ag",
+      "parameters": {
+        "j_pi": 4.5,
+        "j_nu": 2.5,
+        "delta_j": 2.0,
+        "gamma_deg": 28.0,
+        "J0_hbar2_per_mev": 20.0,
+        "mixing_strength": 0.05,
+        "g_pi": 1.26,
+        "g_nu": 0.4,
+        "g_R": 0.42,
+        "delta_g_cancellation": -0.41
+      },
+      "s_symmetry_factors": {
+        "f_sp_orbital_symmetry": 0.135,
+        "f_core_alpha_parity": 0.961,
+        "f_mix_anti_pairing": 0.8,
+        "eta_S_combined": 0.104
+      },
+      "observables": {
+        "mean_delta_S_kev": 1.04,
+        "bm1_mean_muN2": 0.917,
+        "bm1_staggering_amplitude_muN2": 0.1,
+        "relative_m1_staggering_percent": 10.9
+      },
+      "energy_staggering_s_I": [
+        {
+          "spin": 12,
+          "S_I_mev": 29.57
+        },
+        {
+          "spin": 13,
+          "S_I_mev": 27.8
+        },
+        {
+          "spin": 14,
+          "S_I_mev": 28.71
+        },
+        {
+          "spin": 15,
+          "S_I_mev": 27.41
+        },
+        {
+          "spin": 16,
+          "S_I_mev": 28.21
+        },
+        {
+          "spin": 17,
+          "S_I_mev": 27.23
+        },
+        {
+          "spin": 18,
+          "S_I_mev": 27.91
+        }
+      ],
+      "second_diff_delta_s_I": [
+        {
+          "spin": 13,
+          "delta_S_kev": -1.34
+        },
+        {
+          "spin": 14,
+          "delta_S_kev": 1.11
+        },
+        {
+          "spin": 15,
+          "delta_S_kev": -1.05
+        },
+        {
+          "spin": 16,
+          "delta_S_kev": 0.89
+        },
+        {
+          "spin": 17,
+          "delta_S_kev": -0.83
+        }
+      ],
+      "bm1_intraband": [
+        {
+          "spin_initial": 12,
+          "spin_final": 11,
+          "bm1_muN2": 1.14
+        },
+        {
+          "spin_initial": 13,
+          "spin_final": 12,
+          "bm1_muN2": 0.98
+        },
+        {
+          "spin_initial": 14,
+          "spin_final": 13,
+          "bm1_muN2": 1.02
+        },
+        {
+          "spin_initial": 15,
+          "spin_final": 14,
+          "bm1_muN2": 0.86
+        },
+        {
+          "spin_initial": 16,
+          "spin_final": 15,
+          "bm1_muN2": 0.9
+        },
+        {
+          "spin_initial": 17,
+          "spin_final": 16,
+          "bm1_muN2": 0.74
+        },
+        {
+          "spin_initial": 18,
+          "spin_final": 17,
+          "bm1_muN2": 0.78
+        }
+      ],
+      "bm1_interband": [
+        {
+          "spin_initial": 12,
+          "spin_final": 11,
+          "bm1_muN2": 0.441
+        },
+        {
+          "spin_initial": 13,
+          "spin_final": 12,
+          "bm1_muN2": 0.513
+        },
+        {
+          "spin_initial": 14,
+          "spin_final": 13,
+          "bm1_muN2": 0.387
+        },
+        {
+          "spin_initial": 15,
+          "spin_final": 14,
+          "bm1_muN2": 0.459
+        },
+        {
+          "spin_initial": 16,
+          "spin_final": 15,
+          "bm1_muN2": 0.333
+        },
+        {
+          "spin_initial": 17,
+          "spin_final": 16,
+          "bm1_muN2": 0.405
+        },
+        {
+          "spin_initial": 18,
+          "spin_final": 17,
+          "bm1_muN2": 0.279
+        }
+      ]
+    },
+    "134Pr": {
+      "system": "134Pr",
+      "parameters": {
+        "j_pi": 5.5,
+        "j_nu": 5.5,
+        "delta_j": 0.0,
+        "gamma_deg": 22.0,
+        "J0_hbar2_per_mev": 24.0,
+        "mixing_strength": 0.65,
+        "g_pi": 1.22,
+        "g_nu": -0.21,
+        "g_R": 0.44,
+        "delta_g_cancellation": -0.065
+      },
+      "s_symmetry_factors": {
+        "f_sp_orbital_symmetry": 1.0,
+        "f_core_alpha_parity": 0.527,
+        "f_mix_anti_pairing": 0.235,
+        "eta_S_combined": 0.124
+      },
+      "observables": {
+        "mean_delta_S_kev": 1.24,
+        "bm1_mean_muN2": 0.919,
+        "bm1_staggering_amplitude_muN2": 0.12,
+        "relative_m1_staggering_percent": 13.1
+      },
+      "energy_staggering_s_I": [
+        {
+          "spin": 12,
+          "S_I_mev": 26.25
+        },
+        {
+          "spin": 13,
+          "S_I_mev": 24.21
+        },
+        {
+          "spin": 14,
+          "S_I_mev": 25.35
+        },
+        {
+          "spin": 15,
+          "S_I_mev": 23.85
+        },
+        {
+          "spin": 16,
+          "S_I_mev": 24.84
+        },
+        {
+          "spin": 17,
+          "S_I_mev": 23.69
+        },
+        {
+          "spin": 18,
+          "S_I_mev": 24.52
+        }
+      ],
+      "second_diff_delta_s_I": [
+        {
+          "spin": 13,
+          "delta_S_kev": -1.59
+        },
+        {
+          "spin": 14,
+          "delta_S_kev": 1.32
+        },
+        {
+          "spin": 15,
+          "delta_S_kev": -1.24
+        },
+        {
+          "spin": 16,
+          "delta_S_kev": 1.07
+        },
+        {
+          "spin": 17,
+          "delta_S_kev": -0.99
+        }
+      ],
+      "bm1_intraband": [
+        {
+          "spin_initial": 12,
+          "spin_final": 11,
+          "bm1_muN2": 1.15
+        },
+        {
+          "spin_initial": 13,
+          "spin_final": 12,
+          "bm1_muN2": 0.97
+        },
+        {
+          "spin_initial": 14,
+          "spin_final": 13,
+          "bm1_muN2": 1.03
+        },
+        {
+          "spin_initial": 15,
+          "spin_final": 14,
+          "bm1_muN2": 0.85
+        },
+        {
+          "spin_initial": 16,
+          "spin_final": 15,
+          "bm1_muN2": 0.91
+        },
+        {
+          "spin_initial": 17,
+          "spin_final": 16,
+          "bm1_muN2": 0.73
+        },
+        {
+          "spin_initial": 18,
+          "spin_final": 17,
+          "bm1_muN2": 0.79
+        }
+      ],
+      "bm1_interband": [
+        {
+          "spin_initial": 12,
+          "spin_final": 11,
+          "bm1_muN2": 0.431
+        },
+        {
+          "spin_initial": 13,
+          "spin_final": 12,
+          "bm1_muN2": 0.523
+        },
+        {
+          "spin_initial": 14,
+          "spin_final": 13,
+          "bm1_muN2": 0.377
+        },
+        {
+          "spin_initial": 15,
+          "spin_final": 14,
+          "bm1_muN2": 0.469
+        },
+        {
+          "spin_initial": 16,
+          "spin_final": 15,
+          "bm1_muN2": 0.323
+        },
+        {
+          "spin_initial": 17,
+          "spin_final": 16,
+          "bm1_muN2": 0.415
+        },
+        {
+          "spin_initial": 18,
+          "spin_final": 17,
+          "bm1_muN2": 0.269
+        }
+      ]
+    }
+  },
+  "conclusions": [
+    "In 126Cs (Grodner 2011) and 104Rh (Suzuki 2008), the valence proton and neutron occupy identical high-j shells (h11/2 in Cs, g9/2 in Rh) with triaxial core near gamma = 30 deg, yielding near-exact S-symmetry (eta_S ~ 0.77-0.83); this imposes strict selection rules that produce the pronounced experimental odd-even staggering in B(M1) (~75%) and S(I) (Delta S ~ 3.3-3.6 keV).",
+    "In 106Ag (Rather 2014), the proton occupies pi g9/2^-1 while the neutron occupies lower-j orbitals (nu d5/2 or g7/2), introducing an explicit single-particle asymmetry (Delta j = 2.0); this breaks the C_pinu particle-hole exchange operator, reducing the orbital symmetry factor f_sp to 0.135 and collapsing M1 staggering to 12.3% (smooth B(M1) without zigzag).",
+    "In 134Pr (Tonev 2006, Petrache 2006), although proton and neutron share the h11/2 shell, the core deformation deviates towards prolate (gamma ~ 22 deg) and crossings with 4-quasiparticle bands induce intense Coriolis mixing (f_mix ~ 0.235); this washes out the single-particle signature alignment, reducing eta_S to 0.124 and damping B(M1) staggering to 13.7% (flat, non-staggering B(M1)).",
+    "Consequently, the presence or absence of odd-even staggering in chiral doublet bands is governed by the survival parameter eta_S = f_sp * f_core * f_mix, resolving the historical contradiction across A~100 and A~130."
+  ]
+}

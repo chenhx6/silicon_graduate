@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "task": "Microscopic scaling of signature inversion across odd-odd mass regions",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_a80_a130_inversion_at_low_spin": true,
+    "test_2_a160_inversion_shifted_to_high_spin": true,
+    "test_3_monotonic_spin_shift_with_mass": true,
+    "test_4_actinide_classified_as_absent": true
+  },
+  "results": [
+    {
+      "nucleus": "74Br",
+      "A": 74,
+      "configuration": "pi g9/2 x nu g9/2",
+      "J_core_hbar2_MeV": 16.5,
+      "V_pn_keV": 240.0,
+      "omega_inv_calc_MeV": 0.239,
+      "I_inv_calc": 8.6,
+      "I_inv_exp": 10.0,
+      "diff_spin": 1.38,
+      "regime": "Observed Signature Inversion"
+    },
+    {
+      "nucleus": "134Pr",
+      "A": 134,
+      "configuration": "pi h11/2 x nu h11/2",
+      "J_core_hbar2_MeV": 22.0,
+      "V_pn_keV": 280.0,
+      "omega_inv_calc_MeV": 0.229,
+      "I_inv_calc": 10.8,
+      "I_inv_exp": 11.0,
+      "diff_spin": 0.25,
+      "regime": "Observed Signature Inversion"
+    },
+    {
+      "nucleus": "160Ho",
+      "A": 160,
+      "configuration": "pi h11/2 x nu i13/2",
+      "J_core_hbar2_MeV": 34.0,
+      "V_pn_keV": 390.0,
+      "omega_inv_calc_MeV": 0.283,
+      "I_inv_calc": 15.9,
+      "I_inv_exp": 17.0,
+      "diff_spin": 1.12,
+      "regime": "Observed Signature Inversion"
+    },
+    {
+      "nucleus": "164Lu",
+      "A": 164,
+      "configuration": "pi h11/2 x nu i13/2",
+      "J_core_hbar2_MeV": 36.5,
+      "V_pn_keV": 440.0,
+      "omega_inv_calc_MeV": 0.323,
+      "I_inv_calc": 18.0,
+      "I_inv_exp": 19.0,
+      "diff_spin": 0.99,
+      "regime": "Observed Signature Inversion"
+    },
+    {
+      "nucleus": "242Am",
+      "A": 242,
+      "configuration": "pi 5/2- x nu 5/2+",
+      "J_core_hbar2_MeV": 72.0,
+      "V_pn_keV": 120.0,
+      "omega_inv_calc_MeV": 0.24,
+      "I_inv_calc": 19.9,
+      "I_inv_exp": null,
+      "diff_spin": null,
+      "regime": "Signature Inversion Absent / Fission Barrier Limit"
+    }
+  ],
+  "evidence_boundaries": {
+    "primary_papers": [
+      "Hamamoto, Phys. Lett. B 235, 221 (1990)",
+      "Semmes et al., Phys. Rev. Lett. 69, 3033 (1992)",
+      "NNDC adopted levels for 74Br, 134Pr, 160Ho, 164Lu"
+    ],
+    "mechanistic_law": "Establishes that the signature inversion spin I_inv in odd-odd nuclei shifts systematically from low spins (I ~ 9-11 hbar) in A~80/130 to high spins (I ~ 16-19 hbar) in rare earths due to two synergistic drivers: (1) Core moment of inertia J_core doubles from 16.5 to 36.5 hbar^2/MeV, and (2) Residual proton-neutron interaction V_pn increases from 240 keV to 440 keV owing to intense wave function overlap between intruder pi h11/2 and nu i13/2 orbitals, postponing the Coriolis de-coupling crossover to much higher spins."
+  }
+}

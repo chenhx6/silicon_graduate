@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "task": "Day27 current-session continued L3 bounded source reading: 143Sm DB III",
+  "created_at_utc": "2026-10-29T13:28:10.444617+00:00",
+  "status": "completed-bounded-source-task",
+  "integration_status": "parent-owned; index/handoff/Bib/Git/Day27 time gate and publication untouched",
+  "write_authorization": {
+    "source_note": "knowledge/sources/rajbanshi-2018-extremely-asymmetric-shears-143sm.md",
+    "receipt": "outputs/literature-acquisition/20261029-day27-sm143.json",
+    "new_raw_incoming": "raw/papers/gpt/_incoming/20261029-day27-sm143/",
+    "scratch": "tmp/day27-sm143/",
+    "no_git_mutations": true,
+    "no_child_agents": true,
+    "protected_script_not_touched": "system/scripts/run_daily_learning_daemon.py"
+  },
+  "source_identity": {
+    "title": "Extremely asymmetric shears band in 143Sm",
+    "arxiv": "1809.07138v2",
+    "journal": "Physical Review C",
+    "volume": "98",
+    "issue": "6",
+    "article_number": "061304",
+    "rapid_communication": true,
+    "year": 2018,
+    "doi": "10.1103/PhysRevC.98.061304",
+    "published_online": "2018-12-27",
+    "arxiv_first_submitted_utc": "2018-09-19T12:13:31Z",
+    "arxiv_v2_submitted_utc": "2018-12-24T15:17:26Z",
+    "pdf_titlepage_date": "2018-12-27",
+    "verified_via": [
+      "official arXiv version landing page",
+      "official arXiv Atom API",
+      "Crossref APS-deposited DOI record",
+      "official APS article landing page"
+    ],
+    "citation_key": null,
+    "reading_depth": "deep-read",
+    "covered": "All 6 pages; all 15 Table I transition rows and 5 lifetime records; Figs.1-3; both unnumbered displayed formulas; configurations and model parameters",
+    "not_covered": [
+      "APS version-of-record full text comparison",
+      "Ref36 full model derivation/producer",
+      "raw experimental events and DSAM producer inputs"
+    ]
+  },
+  "acquisition": {
+    "status": "open_access_downloaded",
+    "access_mode": "open_access",
+    "provider": "official_arxiv_direct_url",
+    "skill": "nature-downloader",
+    "command": [
+      "node",
+      "/root/.codex/skills/nature-downloader/scripts/batch_download.mjs",
+      "--pdf-url",
+      "https://arxiv.org/pdf/1809.07138v2",
+      "--title",
+      "Extremely asymmetric shears band in 143Sm",
+      "--open-access",
+      "--si",
+      "--out",
+      "/workspace/wiki/raw/papers/gpt/_incoming/20261029-day27-sm143"
+    ],
+    "download_manifest": "raw/papers/gpt/_incoming/20261029-day27-sm143/manifest.json",
+    "pdf": {
+      "path": "raw/papers/gpt/_incoming/20261029-day27-sm143/PDFs/Extremely_asymmetric_shears_band_in_143Sm.pdf",
+      "bytes": 202559,
+      "pages": 6,
+      "header": "%PDF-1.4",
+      "sha256": "b296d3befa5f68b02b945b784d568e07ce77090ad730d85b6b0223935753dbeb",
+      "title_verified": true
+    },
+    "si": {
+      "requested": true,
+      "downloader_status": "not_found",
+      "downloader_reason": "Direct PDF route did not identify an SI landing page",
+      "followup_status": "not_found_in_checked_pages",
+      "checked_pages": [
+        "https://arxiv.org/abs/1809.07138v2",
+        "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.98.061304"
+      ],
+      "supplement_or_ancillary_links": [],
+      "boundary": "No SI link or explicit SI pointer found in the checked landing pages and paper; does not prove no external data exist"
+    },
+    "failures": []
+  },
+  "metadata_route_results": [
+    {
+      "route": "crossref",
+      "status": 200,
+      "DOI": "10.1103/physrevc.98.061304",
+      "title": [
+        "Extremely asymmetric shears band in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mmultiscripts><mml:mi mathvariant=\"normal\">Sm</mml:mi><mml:mprescripts/><mml:none/><mml:mn>143</mml:mn></mml:mmultiscripts></mml:mrow></mml:math>"
+      ],
+      "publisher": "American Physical Society (APS)",
+      "container-title": [
+        "Physical Review C"
+      ],
+      "volume": "98",
+      "issue": "6",
+      "page": null,
+      "article-number": "061304",
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            27
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            27
+          ]
+        ]
+      },
+      "published-print": null,
+      "created": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            27
+          ]
+        ],
+        "date-time": "2018-12-27T10:28:36Z",
+        "timestamp": 1545906516000
+      },
+      "link": [
+        {
+          "URL": "https://link.aps.org/article/10.1103/PhysRevC.98.061304",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.98.061304/fulltext",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "relation": {}
+    },
+    {
+      "route": "aps",
+      "status": 200,
+      "bytes": 126391
+    }
+  ],
+  "tool_fallback": {
+    "academic_search_mcp": "Tool discovery returned no matching academic-search tool; used public official arXiv and Crossref endpoints directly through terminal, with saved responses.",
+    "browser_gui_used": false
+  },
+  "knowledge_writeback": {
+    "path": "knowledge/sources/rajbanshi-2018-extremely-asymmetric-shears-143sm.md",
+    "heading_lines": {
+      "Bibliographic Record": 38,
+      "Scope and Reading Depth": 47,
+      "Paper Question and Scientific Motivation": 54,
+      "Summary": 60,
+      "Experimental Setup and Level Identity": 64,
+      "Table I：完整印刷数据与误差语义": 73,
+      "可交给数值研究的紧凑主表": 103,
+      "DSAM：实际做了什么、没有公布什么": 117,
+      "Configuration, Spin and Blade Definitions": 134,
+      "对旧 universal blade-asymmetry veto 的影响": 152,
+      "Modified SPAC：原印公式和归一化": 170,
+      "Analytical reconstruction：公式实现前的条件性一致性检查": 209,
+      "What the Strengths and Core Participation Actually Support": 229,
+      "Key Results": 248,
+      "Competing Interpretations and Limitations": 264,
+      "Numerical Study Contract": 270,
+      "Knowledge Impact and Learning Decision": 274,
+      "Related Knowledge and Project Relations": 281,
+      "Extracted Pages": 289,
+      "Agent Self-Audit Triage": 293,
+      "P0": 297,
+      "P1": 301,
+      "P2/P3": 311
+    },
+    "claim_ids": [
+      "RA18-1",
+      "RA18-2",
+      "RA18-3",
+      "RA18-4",
+      "RA18-5",
+      "RA18-6",
+      "RA18-7",
+      "RA18-8",
+      "RA18-9"
+    ],
+    "source_locators": {
+      "all_table_data": "PDF p.3 Table I + caption + footnotes a/b",
+      "DSAM_and_systematics": "PDF p.3 right column, p.4 Fig.2",
+      "energy_and_chi_normalization": "PDF p.4 right column final displayed equation and definitions",
+      "frequency_formula": "PDF p.5 left column first displayed equation",
+      "configuration_and_parameters": "PDF p.5 left column and paragraph continuing in right column",
+      "strength_core_comparison": "PDF p.4 Fig.3 and p.5 both columns"
+    },
+    "reusable_facts_and_reasoning_location": "canonical source note; receipt is acquisition/verification accounting only"
+  },
+  "data_artifacts": {
+    "exact_transition_table_csv": "tmp/day27-sm143/table-I-transitions.csv",
+    "state_summary_json": "tmp/day27-sm143/table-I-state-inputs.json",
+    "conditional_equation_audit": "tmp/day27-sm143/equation-audit.json",
+    "boundary": "Transcribed published summaries and explicitly conditional algebra only; not DSAM refit or full SPAC producer replay; canonical evidence and assumptions remain in source note"
+  },
+  "self_audit": {
+    "P0": [],
+    "P1": [
+      {
+        "id": "P1-1",
+        "claim": "RA18-4/5/7",
+        "status": "definitions separated; no measured asymmetry claim"
+      },
+      {
+        "id": "P1-2",
+        "claim": "RA18-2/3/9",
+        "status": "feeding/stopping/Cov/limit boundaries retained"
+      },
+      {
+        "id": "P1-3",
+        "claim": "RA18-6",
+        "status": "core fraction and highest-state interpretation attributed to author model"
+      },
+      {
+        "id": "P1-4",
+        "claim": "RA18-8",
+        "status": "unresolved implementation gate; conditional algebra mismatch not treated as confirmed erratum"
+      },
+      {
+        "id": "P1-5",
+        "claim": "setup and Table I 595.6",
+        "status": "angle-count and polarization/assignment source ambiguities retained"
+      }
+    ],
+    "human_review_performed": false,
+    "paper_admission": false
+  },
+  "checks": {
+    "pdf_identity_hash_and_pages": "pass",
+    "table_transitions": 15,
+    "lifetime_state_records": 5,
+    "visual_verification": "Table I, Figs.1-3, energy/frequency formulas, configuration text",
+    "diff_no_index_check": "pass",
+    "boundary_check": "pass, no errors/warnings",
+    "target_validation": {
+      "scope": "target source structure, claim governance and raw hash; global index/inbound links delegated to parent",
+      "hashes_checked": 1,
+      "governance": {
+        "page_unreviewed": 1,
+        "source_unreviewed": 1,
+        "claims_total": 9,
+        "claim_needs_review": 1,
+        "claim_missing_locator": 0,
+        "claim_missing_kind": 0,
+        "source_missing_raw_file": 0,
+        "source_missing_citation_key": 1
+      },
+      "issues": [
+        {
+          "severity": "warning",
+          "code": "CITATION_KEY_MISSING",
+          "path": "knowledge/sources/rajbanshi-2018-extremely-asymmetric-shears-143sm.md",
+          "message": "source has no citation_key"
+        },
+        {
+          "severity": "info",
+          "code": "CLAIM_NEEDS_REVIEW",
+          "path": "knowledge/sources/rajbanshi-2018-extremely-asymmetric-shears-143sm.md",
+          "message": "RA18-8 awaits human review"
+        }
+      ],
+      "errors": 0
+    },
+    "global_lint_before_local_structure_corrections": {
+      "exit_code": 1,
+      "counts": {
+        "error": 42,
+        "warning": 363,
+        "info": 5167
+      },
+      "report": "tmp/day27-sm143/wiki-lint.json",
+      "target_local_structure_errors_fixed": true,
+      "global_pass_claimed": false,
+      "remaining_target_integration_issue": "INDEX_MISSING / no inbound link; index updates explicitly forbidden in this subtask",
+      "other_active_page_errors_not_modified": true
+    },
+    "scope_status": "only authorized source/receipt/raw incoming/scratch written"
+  },
+  "created_paths": {
+    "source_note": "knowledge/sources/rajbanshi-2018-extremely-asymmetric-shears-143sm.md",
+    "receipt": "outputs/literature-acquisition/20261029-day27-sm143.json",
+    "raw_incoming_files": [
+      "raw/papers/gpt/_incoming/20261029-day27-sm143/manifest.json",
+      "raw/papers/gpt/_incoming/20261029-day27-sm143/PDFs/Extremely_asymmetric_shears_band_in_143Sm.pdf"
+    ],
+    "scratch_files": [
+      "tmp/day27-sm143/aps.txt",
+      "tmp/day27-sm143/arxiv-abs-v2.txt",
+      "tmp/day27-sm143/arxiv-api.txt",
+      "tmp/day27-sm143/crossref.txt",
+      "tmp/day27-sm143/eq-config-page5.png",
+      "tmp/day27-sm143/eq-page4.png",
+      "tmp/day27-sm143/equation-audit.json",
+      "tmp/day27-sm143/frequency-detail.png",
+      "tmp/day27-sm143/metadata-route-results.json",
+      "tmp/day27-sm143/page-1.png",
+      "tmp/day27-sm143/page-1.txt",
+      "tmp/day27-sm143/page-2.png",
+      "tmp/day27-sm143/page-2.txt",
+      "tmp/day27-sm143/page-3.png",
+      "tmp/day27-sm143/page-3.txt",
+      "tmp/day27-sm143/page-4.png",
+      "tmp/day27-sm143/page-4.txt",
+      "tmp/day27-sm143/page-5.png",
+      "tmp/day27-sm143/page-5.txt",
+      "tmp/day27-sm143/page-6.png",
+      "tmp/day27-sm143/page-6.txt",
+      "tmp/day27-sm143/table-I-state-inputs.json",
+      "tmp/day27-sm143/table-I-transitions.csv",
+      "tmp/day27-sm143/target-validation.json",
+      "tmp/day27-sm143/wiki-lint.json",
+      "tmp/day27-sm143/wiki-lint.stderr",
+      "tmp/day27-sm143/wiki-lint.stdout"
+    ]
+  },
+  "next_owner": "parent session integrates source, selects any numerical follow-up, checks Day27 gate and publishes"
+}

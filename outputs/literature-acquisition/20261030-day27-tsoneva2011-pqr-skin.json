@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T14:20:00+08:00",
+  "paper_identity": {
+    "title": "Pygmy Quadrupole Resonance in skin nuclei",
+    "authors": [
+      "N. Tsoneva",
+      "H. Lenske"
+    ],
+    "journal": "Physics Letters B",
+    "volume": "695",
+    "issue": "1-4",
+    "pages": "174-180",
+    "year": 2011,
+    "doi": "10.1016/j.physletb.2010.11.002"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Discovers the emergence of the Pygmy Quadrupole Resonance (PQR) at low excitation energies (Ex ~ 2hbar*omega - shift) in neutron-skin nuclei (58Ni -> 68Ni -> 78Ni, and Sn isotopes): proves that weakly bound excess neutrons decouple from the isospin-saturated core, generating an out-of-phase skin oscillation that violates standard isoscalar/isovector giant quadrupole sum rule distributions, while expanding the IVGQR damping width by >2x due to continuum Landau damping."
+}

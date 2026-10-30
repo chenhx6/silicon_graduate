@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T13:30:00+08:00",
+  "paper_identity": {
+    "title": "Determination of Y40 and Y60 components in the shapes of rare earth nuclei",
+    "authors": [
+      "D. L. Hendrie",
+      "N. K. Glendenning",
+      "B. G. Harvey",
+      "O. N. Jarvis",
+      "H. H. Duhm",
+      "J. Saudinos",
+      "J. Mahoney"
+    ],
+    "journal": "Physics Letters B",
+    "volume": "26",
+    "issue": "3",
+    "pages": "127-130",
+    "year": 1968,
+    "doi": "10.1016/0370-2693(68)90502-9"
+  },
+  "theoretical_benchmark": {
+    "title": "Hexadecapole deformation and rotation-particle coupling in the rare earth nuclei",
+    "authors": [
+      "A. D. Davis"
+    ],
+    "journal": "Nuclear Physics A",
+    "volume": "159",
+    "pages": "257-264",
+    "year": 1970,
+    "doi": "10.1016/0375-9474(70)90041-2"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Discovers the fundamental sign reversal of the hexadecapole deformation parameter beta4 across the rare-earth region (from beta4 ~ +0.06 in 154Sm/160Dy to beta4 ~ -0.06 in 186Os/190Os), establishing the microscopic single-particle level restructuring that controls the sharp contrast between rapid backbending in Dy and backbending disappearance/delay in Os-Pt."
+}

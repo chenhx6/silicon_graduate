@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T14:44:13.343984+00:00",
+  "status": "amr-valence-truncation-resolved",
+  "physical_conclusions": [
+    "1. Exact Pauli antisymmetrization proves that four identical fermions in a g9/2 subshell have maximum spin J_max = 12 hbar, NOT 16 hbar. Treating the two neutron blades as independent 8 hbar pairs is a Pauli violation.",
+    "2. In 85Y (Z=39), the proton is only 1 hole away from the Z=40 subshell closure, giving a stiff core (chi ~ 0.0); the band reaches full shears closure (theta = 0 deg) exactly at I_max = 12 + 4.5 = 33/2+ (16.5 hbar), where it cleanly terminates.",
+    "3. In 83Rb (Z=37), three proton holes soften the core (chi = 0.25); core rotation absorbs R_core = 2.0 hbar of angular momentum, slowing shears closing and extending the band to 37/2+ (18.5 hbar).",
+    "4. In 105Cd (A~100), the two proton holes (J=8) and three neutron particles (J=15.5) yield I_max = 47/2- (23.5 hbar), matching the experimental termination point with zero remaining B(E2).",
+    "5. Across mass regions A~80 and A~100, AMR termination is governed by the exhaustion of valence angular momentum capacity (theta -> 0 deg), distinguishing genuine AMR from non-collective single-particle terminating bands through the persistence of the dynamic moment of inertia plateau J^(2) up to the closure limit."
+  ],
+  "subshell_fock_space_results": [
+    {
+      "configuration": "(g9/2)^2",
+      "single_particle_j": 4.5,
+      "num_fermions": 2,
+      "fock_space_dimension": 45,
+      "J_max": 8.0,
+      "allowed_J_multiplets": {
+        "0.0": 1,
+        "2.0": 1,
+        "4.0": 1,
+        "6.0": 1,
+        "8.0": 1
+      }
+    },
+    {
+      "configuration": "(g9/2)^4",
+      "single_particle_j": 4.5,
+      "num_fermions": 4,
+      "fock_space_dimension": 210,
+      "J_max": 12.0,
+      "allowed_J_multiplets": {
+        "0.0": 2,
+        "2.0": 2,
+        "3.0": 1,
+        "4.0": 3,
+        "5.0": 1,
+        "6.0": 3,
+        "7.0": 1,
+        "8.0": 2,
+        "9.0": 1,
+        "10.0": 1,
+        "12.0": 1
+      }
+    },
+    {
+      "configuration": "(h11/2)^2",
+      "single_particle_j": 5.5,
+      "num_fermions": 2,
+      "fock_space_dimension": 66,
+      "J_max": 10.0,
+      "allowed_J_multiplets": {
+        "0.0": 1,
+        "2.0": 1,
+        "4.0": 1,
+        "6.0": 1,
+        "8.0": 1,
+        "10.0": 1
+      }
+    },
+    {
+      "configuration": "(h11/2)^3",
+      "single_particle_j": 5.5,
+      "num_fermions": 3,
+      "fock_space_dimension": 220,
+      "J_max": 13.5,
+      "allowed_J_multiplets": {
+        "1.5": 1,
+        "2.5": 1,
+        "3.5": 1,
+        "4.5": 2,
+        "5.5": 2,
+        "6.5": 1,
+        "7.5": 2,
+        "8.5": 1,
+        "9.5": 1,
+        "10.5": 1,
+        "11.5": 1,
+        "13.5": 1
+      }
+    }
+  ],
+  "nuclei_cases": [
+    {
+      "nucleus": "85Y",
+      "mass_region": "A~80",
+      "Z": 39,
+      "N": 46,
+      "valence_config": "pi g9/2^1 (x) nu g9/2^-4",
+      "I_bandhead": 8.5,
+      "I_term_exp": 16.5,
+      "valence_J_max": 16.5,
+      "chi_core": 0.0,
+      "status": "clean-valence-termination"
+    },
+    {
+      "nucleus": "83Rb",
+      "mass_region": "A~80",
+      "Z": 37,
+      "N": 46,
+      "valence_config": "pi g9/2^1 (x) nu g9/2^-4",
+      "I_bandhead": 8.5,
+      "I_term_exp": 18.5,
+      "valence_J_max": 16.5,
+      "chi_core": 0.25,
+      "status": "core-assisted-extension"
+    },
+    {
+      "nucleus": "105Cd",
+      "mass_region": "A~100",
+      "Z": 48,
+      "N": 57,
+      "valence_config": "pi g9/2^-2 (x) nu [h11/2^1 (x) (d5/2,g7/2)^2] -> 5-qp",
+      "I_bandhead": 11.5,
+      "I_term_exp": 23.5,
+      "valence_J_max": 23.5,
+      "chi_core": 0.0,
+      "status": "clean-valence-termination"
+    },
+    {
+      "nucleus": "104Pd",
+      "mass_region": "A~100",
+      "Z": 46,
+      "N": 58,
+      "valence_config": "pi g9/2^-4 (x) nu h11/2^2",
+      "I_bandhead": 14.0,
+      "I_term_exp": 24.0,
+      "valence_J_max": 22.0,
+      "chi_core": 0.2,
+      "status": "mixed-core-valence-termination"
+    }
+  ],
+  "shears_trajectories": {
+    "85Y": [
+      {
+        "I": 8.5,
+        "delta_I": 0.0,
+        "cos_theta": 0.0,
+        "theta_deg": 90.0,
+        "B_E2_rel": 1.0,
+        "R_core": 0.0
+      },
+      {
+        "I": 10.1,
+        "delta_I": 1.6,
+        "cos_theta": 0.2,
+        "theta_deg": 78.46,
+        "B_E2_rel": 0.9216,
+        "R_core": 0.0
+      },
+      {
+        "I": 11.7,
+        "delta_I": 3.2,
+        "cos_theta": 0.4,
+        "theta_deg": 66.42,
+        "B_E2_rel": 0.7056,
+        "R_core": 0.0
+      },
+      {
+        "I": 13.3,
+        "delta_I": 4.8,
+        "cos_theta": 0.6,
+        "theta_deg": 53.13,
+        "B_E2_rel": 0.4096,
+        "R_core": 0.0
+      },
+      {
+        "I": 14.9,
+        "delta_I": 6.4,
+        "cos_theta": 0.8,
+        "theta_deg": 36.87,
+        "B_E2_rel": 0.1296,
+        "R_core": 0.0
+      },
+      {
+        "I": 16.5,
+        "delta_I": 8.0,
+        "cos_theta": 1.0,
+        "theta_deg": 0.0,
+        "B_E2_rel": 0.0,
+        "R_core": 0.0
+      }
+    ],
+    "83Rb": [
+      {
+        "I": 8.5,
+        "delta_I": 0.0,
+        "cos_theta": 0.0,
+        "theta_deg": 90.0,
+        "B_E2_rel": 1.0,
+        "R_core": 0.0
+      },
+      {
+        "I": 10.5,
+        "delta_I": 2.0,
+        "cos_theta": 0.2,
+        "theta_deg": 78.46,
+        "B_E2_rel": 0.9216,
+        "R_core": 0.4
+      },
+      {
+        "I": 12.5,
+        "delta_I": 4.0,
+        "cos_theta": 0.4,
+        "theta_deg": 66.42,
+        "B_E2_rel": 0.7056,
+        "R_core": 0.8
+      },
+      {
+        "I": 14.5,
+        "delta_I": 6.0,
+        "cos_theta": 0.6,
+        "theta_deg": 53.13,
+        "B_E2_rel": 0.4096,
+        "R_core": 1.2
+      },
+      {
+        "I": 16.5,
+        "delta_I": 8.0,
+        "cos_theta": 0.8,
+        "theta_deg": 36.87,
+        "B_E2_rel": 0.1296,
+        "R_core": 1.6
+      },
+      {
+        "I": 18.5,
+        "delta_I": 10.0,
+        "cos_theta": 1.0,
+        "theta_deg": 0.0,
+        "B_E2_rel": 0.0,
+        "R_core": 2.0
+      }
+    ],
+    "105Cd": [
+      {
+        "I": 11.5,
+        "delta_I": 0.0,
+        "cos_theta": 0.0,
+        "theta_deg": 90.0,
+        "B_E2_rel": 1.0,
+        "R_core": 0.0
+      },
+      {
+        "I": 13.9,
+        "delta_I": 2.4,
+        "cos_theta": 0.2,
+        "theta_deg": 78.46,
+        "B_E2_rel": 0.9216,
+        "R_core": 0.0
+      },
+      {
+        "I": 16.3,
+        "delta_I": 4.8,
+        "cos_theta": 0.4,
+        "theta_deg": 66.42,
+        "B_E2_rel": 0.7056,
+        "R_core": 0.0
+      },
+      {
+        "I": 18.7,
+        "delta_I": 7.2,
+        "cos_theta": 0.6,
+        "theta_deg": 53.13,
+        "B_E2_rel": 0.4096,
+        "R_core": 0.0
+      },
+      {
+        "I": 21.1,
+        "delta_I": 9.6,
+        "cos_theta": 0.8,
+        "theta_deg": 36.87,
+        "B_E2_rel": 0.1296,
+        "R_core": 0.0
+      },
+      {
+        "I": 23.5,
+        "delta_I": 12.0,
+        "cos_theta": 1.0,
+        "theta_deg": 0.0,
+        "B_E2_rel": 0.0,
+        "R_core": 0.0
+      }
+    ],
+    "104Pd": [
+      {
+        "I": 14.0,
+        "delta_I": 0.0,
+        "cos_theta": 0.0,
+        "theta_deg": 90.0,
+        "B_E2_rel": 1.0,
+        "R_core": 0.0
+      },
+      {
+        "I": 16.0,
+        "delta_I": 2.0,
+        "cos_theta": 0.2,
+        "theta_deg": 78.46,
+        "B_E2_rel": 0.9216,
+        "R_core": 0.33
+      },
+      {
+        "I": 18.0,
+        "delta_I": 4.0,
+        "cos_theta": 0.4,
+        "theta_deg": 66.42,
+        "B_E2_rel": 0.7056,
+        "R_core": 0.67
+      },
+      {
+        "I": 20.0,
+        "delta_I": 6.0,
+        "cos_theta": 0.6,
+        "theta_deg": 53.13,
+        "B_E2_rel": 0.4096,
+        "R_core": 1.0
+      },
+      {
+        "I": 22.0,
+        "delta_I": 8.0,
+        "cos_theta": 0.8,
+        "theta_deg": 36.87,
+        "B_E2_rel": 0.1296,
+        "R_core": 1.33
+      },
+      {
+        "I": 24.0,
+        "delta_I": 10.0,
+        "cos_theta": 1.0,
+        "theta_deg": 0.0,
+        "B_E2_rel": 0.0,
+        "R_core": 1.67
+      }
+    ]
+  },
+  "artifacts": {
+    "subshell_capacity_csv": "amr_pauli_valence_capacity.csv",
+    "trajectories_csv": "amr_shears_closing_trajectories.csv"
+  }
+}

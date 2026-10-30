@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T03:09:58.985395+00:00",
+  "task": "PNC pairing fluctuation and AMR Pauli truncation study in N=46 isotones (83Rb, 85Y)",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_y85_sharp_termination_at_33_2": true,
+    "test_2_rb83_mixing_extends_to_37_2": true,
+    "test_3_monotonic_gap_mixing_suppression": true,
+    "test_4_be2_decays_with_spin": true
+  },
+  "y85_results": {
+    "nucleus": "85Y",
+    "Z": 39,
+    "N": 46,
+    "single_particle_gap_delta_eps_MeV": 2.4,
+    "G_pairing_MeV": 0.22,
+    "beta2_deformation": 0.12,
+    "observed_termination_spin": "33/2+",
+    "calculated_band_termination_spin": "16.5",
+    "states": [
+      {
+        "spin": 8.5,
+        "omega_MeV": 0.25,
+        "P_pure_g9_2_pct": 97.55,
+        "P_broken_pair_pct": 0.73,
+        "shears_angle_deg": 70.55,
+        "energy_MeV": 0.0065,
+        "B_E2_e2b2": 0.11164,
+        "J2_hbar2_per_MeV": null,
+        "J2_over_BE2": null
+      },
+      {
+        "spin": 10.5,
+        "omega_MeV": 0.33,
+        "P_pure_g9_2_pct": 96.82,
+        "P_broken_pair_pct": 1.43,
+        "shears_angle_deg": 60.08,
+        "energy_MeV": 0.4814,
+        "B_E2_e2b2": 0.07968,
+        "J2_hbar2_per_MeV": 5.19,
+        "J2_over_BE2": 65.1
+      },
+      {
+        "spin": 12.5,
+        "omega_MeV": 0.41,
+        "P_pure_g9_2_pct": 95.73,
+        "P_broken_pair_pct": 2.49,
+        "shears_angle_deg": 48.4,
+        "energy_MeV": 1.7269,
+        "B_E2_e2b2": 0.04416,
+        "J2_hbar2_per_MeV": 5.21,
+        "J2_over_BE2": 117.9
+      },
+      {
+        "spin": 14.5,
+        "omega_MeV": 0.49,
+        "P_pure_g9_2_pct": 94.17,
+        "P_broken_pair_pct": 4.01,
+        "shears_angle_deg": 34.13,
+        "energy_MeV": 3.7408,
+        "B_E2_e2b2": 0.01399,
+        "J2_hbar2_per_MeV": 5.23,
+        "J2_over_BE2": 373.6
+      },
+      {
+        "spin": 16.5,
+        "omega_MeV": 0.57,
+        "P_pure_g9_2_pct": 92.04,
+        "P_broken_pair_pct": 6.09,
+        "shears_angle_deg": 8.14,
+        "energy_MeV": 6.52,
+        "B_E2_e2b2": 6e-05,
+        "J2_hbar2_per_MeV": null,
+        "J2_over_BE2": null
+      }
+    ]
+  },
+  "rb83_results": {
+    "nucleus": "83Rb",
+    "Z": 37,
+    "N": 46,
+    "single_particle_gap_delta_eps_MeV": 1.35,
+    "G_pairing_MeV": 0.28,
+    "beta2_deformation": 0.21,
+    "observed_termination_spin": "37/2+",
+    "calculated_band_termination_spin": "18.5",
+    "states": [
+      {
+        "spin": 8.5,
+        "omega_MeV": 0.25,
+        "P_pure_g9_2_pct": 89.12,
+        "P_broken_pair_pct": 2.52,
+        "shears_angle_deg": 70.61,
+        "energy_MeV": -0.1606,
+        "B_E2_e2b2": 0.14357,
+        "J2_hbar2_per_MeV": null,
+        "J2_over_BE2": null
+      },
+      {
+        "spin": 10.5,
+        "omega_MeV": 0.33,
+        "P_pure_g9_2_pct": 86.48,
+        "P_broken_pair_pct": 5.22,
+        "shears_angle_deg": 60.28,
+        "energy_MeV": 0.1685,
+        "B_E2_e2b2": 0.10316,
+        "J2_hbar2_per_MeV": 7.96,
+        "J2_over_BE2": 77.2
+      },
+      {
+        "spin": 12.5,
+        "omega_MeV": 0.41,
+        "P_pure_g9_2_pct": 82.43,
+        "P_broken_pair_pct": 9.4,
+        "shears_angle_deg": 48.98,
+        "energy_MeV": 0.9999,
+        "B_E2_e2b2": 0.05874,
+        "J2_hbar2_per_MeV": 8.07,
+        "J2_over_BE2": 137.4
+      },
+      {
+        "spin": 14.5,
+        "omega_MeV": 0.49,
+        "P_pure_g9_2_pct": 76.92,
+        "P_broken_pair_pct": 15.13,
+        "shears_angle_deg": 35.63,
+        "energy_MeV": 2.3269,
+        "B_E2_e2b2": 0.02088,
+        "J2_hbar2_per_MeV": 8.17,
+        "J2_over_BE2": 391.4
+      },
+      {
+        "spin": 16.5,
+        "omega_MeV": 0.57,
+        "P_pure_g9_2_pct": 70.23,
+        "P_broken_pair_pct": 22.13,
+        "shears_angle_deg": 15.33,
+        "energy_MeV": 4.1435,
+        "B_E2_e2b2": 0.00089,
+        "J2_hbar2_per_MeV": 14.56,
+        "J2_over_BE2": 16362.9
+      },
+      {
+        "spin": 18.5,
+        "omega_MeV": 0.65,
+        "P_pure_g9_2_pct": 63.04,
+        "P_broken_pair_pct": 29.7,
+        "shears_angle_deg": 0.0,
+        "energy_MeV": 6.2347,
+        "B_E2_e2b2": 0.0,
+        "J2_hbar2_per_MeV": null,
+        "J2_over_BE2": null
+      }
+    ]
+  },
+  "gap_dependence_scan": [
+    {
+      "delta_eps_MeV": 0.8,
+      "P_pure_g9_2_pct": 46.93,
+      "P_broken_pair_pct": 42.14,
+      "J_max_effective": 12.843
+    },
+    {
+      "delta_eps_MeV": 1.0,
+      "P_pure_g9_2_pct": 56.64,
+      "P_broken_pair_pct": 34.28,
+      "J_max_effective": 12.686
+    },
+    {
+      "delta_eps_MeV": 1.2,
+      "P_pure_g9_2_pct": 65.88,
+      "P_broken_pair_pct": 26.65,
+      "J_max_effective": 12.533
+    },
+    {
+      "delta_eps_MeV": 1.4,
+      "P_pure_g9_2_pct": 73.73,
+      "P_broken_pair_pct": 20.18,
+      "J_max_effective": 12.404
+    },
+    {
+      "delta_eps_MeV": 1.6,
+      "P_pure_g9_2_pct": 79.87,
+      "P_broken_pair_pct": 15.16,
+      "J_max_effective": 12.303
+    },
+    {
+      "delta_eps_MeV": 1.8,
+      "P_pure_g9_2_pct": 84.47,
+      "P_broken_pair_pct": 11.46,
+      "J_max_effective": 12.229
+    },
+    {
+      "delta_eps_MeV": 2.0,
+      "P_pure_g9_2_pct": 87.86,
+      "P_broken_pair_pct": 8.79,
+      "J_max_effective": 12.176
+    },
+    {
+      "delta_eps_MeV": 2.2,
+      "P_pure_g9_2_pct": 90.35,
+      "P_broken_pair_pct": 6.86,
+      "J_max_effective": 12.137
+    },
+    {
+      "delta_eps_MeV": 2.4,
+      "P_pure_g9_2_pct": 92.2,
+      "P_broken_pair_pct": 5.45,
+      "J_max_effective": 12.109
+    },
+    {
+      "delta_eps_MeV": 2.6,
+      "P_pure_g9_2_pct": 93.59,
+      "P_broken_pair_pct": 4.41,
+      "J_max_effective": 12.088
+    },
+    {
+      "delta_eps_MeV": 2.8,
+      "P_pure_g9_2_pct": 94.66,
+      "P_broken_pair_pct": 3.62,
+      "J_max_effective": 12.072
+    },
+    {
+      "delta_eps_MeV": 3.0,
+      "P_pure_g9_2_pct": 95.49,
+      "P_broken_pair_pct": 3.02,
+      "J_max_effective": 12.06
+    },
+    {
+      "delta_eps_MeV": 3.2,
+      "P_pure_g9_2_pct": 96.15,
+      "P_broken_pair_pct": 2.55,
+      "J_max_effective": 12.051
+    }
+  ],
+  "evidence_boundaries": {
+    "model_type": "3-configuration PNC pairing matrix diagonalization + semiclassical two-shears closing",
+    "empirical_inputs": [
+      "Hao et al., PRC 114, 044309 (2026) for 83Rb and 85Y PNC-CSM experimental alignments",
+      "NNDC adopted levels for 83Rb (terminating at 37/2+) and 85Y (terminating at 33/2+)"
+    ],
+    "limitations": "Model uses 3-state truncated Fock space; full particle-number-projected HFB across the complete fp-g-d shell space yields fine-grained quasiparticle occupancies."
+  }
+}

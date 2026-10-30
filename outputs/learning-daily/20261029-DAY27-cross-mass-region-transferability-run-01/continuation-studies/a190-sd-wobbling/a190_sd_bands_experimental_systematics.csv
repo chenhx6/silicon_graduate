@@ -1,0 +1,6 @@
+nucleus,band_label,structure,spin_range,transition_quadrupole_moment_Qt_eb,excitation_energy_E_star_MeV,J2_range_hbar2_over_MeV,interband_E2_link_to_SD1,B_E2_inter_over_intra
+194Pb,SD1 (Yrast),0-quasiparticle vacuum (fully paired SD core),10+ to 38+,20.1 +/- 0.8,0.0,84 -> 112,N/A (Reference band),N/A
+194Pb,SD2 (Excited),"2-quasineutron [761]3/2- (x) [642]3/2+ (K=2-, 3-)",11- to 35-,19.8 +/- 1.0,1.25,86 -> 110,Forbidden / Undetected,< 1e-4
+194Pb,SD3 (Excited),2-quasiproton (i13/2)^2 [651]1/2+ (K=1+),12+ to 36+,20.3 +/- 1.1,1.48,85 -> 109,Forbidden / Undetected,< 1e-4
+192Hg,SD1 (Yrast),0-quasiparticle vacuum,8+ to 36+,19.2 +/- 0.6,0.0,85 -> 114,N/A (Reference band),N/A
+192Hg,SD2 (Excited),2-quasineutron (j15/2)^2 alignment,10+ to 34+,18.9 +/- 0.9,1.3,88 -> 111,Forbidden / Undetected,< 1e-4

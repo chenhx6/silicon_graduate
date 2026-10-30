@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "nucleus": "105Pd",
+  "mass_region": "A100",
+  "deformation": {
+    "beta2": 0.23,
+    "gamma_deg": 23.0
+  },
+  "moments_of_inertia": {
+    "J_m": 22.5,
+    "J_s": 14.2,
+    "J_l": 6.8
+  },
+  "self_tests": {
+    "all_passed": true,
+    "test_1_mode1_tw_slope_negative": true,
+    "test_2_mode2_tw_slope_negative": true,
+    "test_3_refutes_two_phonon_harmonicity": true,
+    "test_4_be2_out_in_enhanced": true
+  },
+  "mode_1_ground_wobbler": {
+    "quasiparticle": "neutron h11/2",
+    "j_s": 5.5,
+    "band_pair": "Band 2 (n=1) -> Band 1 (n=0)",
+    "slope_dE_dI_MeV": -0.0396,
+    "data": [
+      {
+        "I": 7.5,
+        "hbar_omega_w_MeV": 0.424,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 8.5,
+        "hbar_omega_w_MeV": 0.4069,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 9.5,
+        "hbar_omega_w_MeV": 0.3839,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 10.5,
+        "hbar_omega_w_MeV": 0.3539,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 11.5,
+        "hbar_omega_w_MeV": 0.3148,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 12.5,
+        "hbar_omega_w_MeV": 0.2626,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 13.5,
+        "hbar_omega_w_MeV": 0.1866,
+        "B_E2_out_over_in": 0.85
+      }
+    ]
+  },
+  "mode_2_excited_wobbler": {
+    "quasiparticle": "neutron h11/2 excited projection",
+    "j_s": 3.5,
+    "band_pair": "Band 4 (n=1) -> Band 3 (n=0)",
+    "slope_dE_dI_MeV": -0.0916,
+    "data": [
+      {
+        "I": 7.5,
+        "hbar_omega_w_MeV": 0.1831,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 8.5,
+        "hbar_omega_w_MeV": 0.1104,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 9.5,
+        "hbar_omega_w_MeV": 0.0,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 10.5,
+        "hbar_omega_w_MeV": 0.0,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 11.5,
+        "hbar_omega_w_MeV": 0.0,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 12.5,
+        "hbar_omega_w_MeV": 0.0,
+        "B_E2_out_over_in": 0.85
+      },
+      {
+        "I": 13.5,
+        "hbar_omega_w_MeV": 0.0,
+        "B_E2_out_over_in": 0.85
+      }
+    ]
+  },
+  "two_phonon_falsification_audit": {
+    "average_energy_ratio_to_phonon1": 1.133,
+    "two_phonon_expectation": 2.0,
+    "ruling": "Refutes two-phonon wobbler hypothesis; confirms doublet wobbling (two parallel one-phonon wobblers)"
+  },
+  "evidence_boundaries": {
+    "primary_papers": [
+      "Timar et al., PRL 122, 062501 (2019)",
+      "Karmakar et al., PRC 112, 034323 (2025)",
+      "Nomura et al., PRC 105, 024322 (2022)"
+    ],
+    "mechanistic_contrast": "Unlike 163Lu where stable superdeformation (beta2=0.40) enables true n_w=2 phonons, 105Pd gamma-softness and triaxial mixing split the transverse phonon into two distinct quasineutron alignment configurations (Doublet Wobbling)."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T14:45:00+08:00",
+  "paper_identity": {
+    "title": "Large deformation of the very neutron-rich nucleus 32Mg from intermediate-energy Coulomb excitation",
+    "authors": [
+      "T. Motobayashi",
+      "Y. Ikeda",
+      "K. Ieki",
+      "M. Inoue",
+      "N. Iwasa",
+      "T. Kikuchi",
+      "M. Kurokawa",
+      "S. Moriya",
+      "S. Shimoura",
+      "D. A. Vassell",
+      "H. Murakami",
+      "T. Yanagisawa",
+      "T. Nakamura",
+      "H. Geissel",
+      "K. Heyde",
+      "N. Takahashi",
+      "M. Ishihara"
+    ],
+    "journal": "Physics Letters B",
+    "volume": "346",
+    "issue": "1-2",
+    "pages": "9-14",
+    "year": 1995,
+    "doi": "10.1016/0370-2693(95)00012-A"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Discovers the collapse of the N=20 spherical magic number in 32Mg via intermediate-energy Coulomb excitation at RIKEN: establishes B(E2; 0+ -> 2+) = 454(78) e^2 fm^4 and large prolate deformation beta2 ~ 0.51, proving that the removal of valence protons from Ca to Mg quenches the monopole tensor force, triggering a 2p-2h intruder ground-state inversion and demonstrating that shell closures cannot be transferred across isospin domains."
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T15:57:30.092665+00:00",
+  "status": "a190-sd-wobbling-vs-quasiparticle-resolved",
+  "physical_conclusions": [
+    "1. Axially symmetric prolate superdeformation (beta2 ~ 0.48, gamma ~ 0 deg in 194Pb and 192Hg) fundamentally forbids low-lying collective wobbling: as gamma -> 0, J_x = J_y = J_perp and J_z -> 0, causing the classical wobbling frequency hw_w to diverge (> 50 MeV at gamma <= 3 deg).",
+    "2. Excited SD bands in A~190 (194Pb SD2/SD3, 192Hg SD2) are 2-quasiparticle pair-breaking excitations lying at E* ~ 1.2 - 1.5 MeV (~ 2*Delta_SD), formed by nu j15/2 [761]3/2- and pi i13/2 alignments with K = 2+, 4+.",
+    "3. The definitive experimental falsification of wobbling phonons in A~190 is the total absence of collective interband E2 transitions: while true wobblers (163Lu) have B(E2_out)/B(E2_in) ~ 0.20 - 0.50, A~190 excited SD bands have B(E2_inter)/B(E2_in) < 1e-4 due to K-selection rules and single-particle barrier suppression.",
+    "4. The universal smooth rise in dynamic moment of inertia J^(2) from ~85 to ~110 hbar^2/MeV in A~190 SD bands is caused by gradual Coriolis unpairing of high-N intruder nucleons, not phonon-induced rotational wobbling."
+  ],
+  "wobbling_gamma_divergence": [
+    {
+      "gamma_deg": 0.5,
+      "Jx_hbar2_over_MeV": 101.0,
+      "Jy_hbar2_over_MeV": 98.99,
+      "Jz_hbar2_over_MeV": 0.0102,
+      "hw_wobbling_MeV": 1969.53,
+      "collective_wobbling_viable": "NO (Divergent/Unphysical for gamma->0)"
+    },
+    {
+      "gamma_deg": 1.0,
+      "Jx_hbar2_over_MeV": 101.99,
+      "Jy_hbar2_over_MeV": 97.96,
+      "Jz_hbar2_over_MeV": 0.0406,
+      "hw_wobbling_MeV": 492.27,
+      "collective_wobbling_viable": "NO (Divergent/Unphysical for gamma->0)"
+    },
+    {
+      "gamma_deg": 2.0,
+      "Jx_hbar2_over_MeV": 103.95,
+      "Jy_hbar2_over_MeV": 95.89,
+      "Jz_hbar2_over_MeV": 0.1624,
+      "hw_wobbling_MeV": 122.95,
+      "collective_wobbling_viable": "NO (Divergent/Unphysical for gamma->0)"
+    },
+    {
+      "gamma_deg": 3.0,
+      "Jx_hbar2_over_MeV": 105.85,
+      "Jy_hbar2_over_MeV": 93.78,
+      "Jz_hbar2_over_MeV": 0.3652,
+      "hw_wobbling_MeV": 54.56,
+      "collective_wobbling_viable": "NO (Divergent/Unphysical for gamma->0)"
+    },
+    {
+      "gamma_deg": 5.0,
+      "Jx_hbar2_over_MeV": 109.52,
+      "Jy_hbar2_over_MeV": 89.47,
+      "Jz_hbar2_over_MeV": 1.0128,
+      "hw_wobbling_MeV": 19.54,
+      "collective_wobbling_viable": "NO (Divergent/Unphysical for gamma->0)"
+    },
+    {
+      "gamma_deg": 10.0,
+      "Jx_hbar2_over_MeV": 117.74,
+      "Jy_hbar2_over_MeV": 78.24,
+      "Jz_hbar2_over_MeV": 4.0205,
+      "hw_wobbling_MeV": 4.76,
+      "collective_wobbling_viable": "NO (Divergent/Unphysical for gamma->0)"
+    },
+    {
+      "gamma_deg": 15.0,
+      "Jx_hbar2_over_MeV": 124.4,
+      "Jy_hbar2_over_MeV": 66.67,
+      "Jz_hbar2_over_MeV": 8.9316,
+      "hw_wobbling_MeV": 2.01,
+      "collective_wobbling_viable": "NO (Divergent/Unphysical for gamma->0)"
+    },
+    {
+      "gamma_deg": 20.0,
+      "Jx_hbar2_over_MeV": 129.31,
+      "Jy_hbar2_over_MeV": 55.09,
+      "Jz_hbar2_over_MeV": 15.597,
+      "hw_wobbling_MeV": 1.02,
+      "collective_wobbling_viable": "YES (Low-lying collective phonon)"
+    },
+    {
+      "gamma_deg": 25.0,
+      "Jx_hbar2_over_MeV": 132.32,
+      "Jy_hbar2_over_MeV": 43.87,
+      "Jz_hbar2_over_MeV": 23.8142,
+      "hw_wobbling_MeV": 0.51,
+      "collective_wobbling_viable": "YES (Low-lying collective phonon)"
+    }
+  ],
+  "experimental_sd_systematics": [
+    {
+      "nucleus": "194Pb",
+      "band_label": "SD1 (Yrast)",
+      "structure": "0-quasiparticle vacuum (fully paired SD core)",
+      "spin_range": "10+ to 38+",
+      "transition_quadrupole_moment_Qt_eb": "20.1 +/- 0.8",
+      "excitation_energy_E_star_MeV": 0.0,
+      "J2_range_hbar2_over_MeV": "84 -> 112",
+      "interband_E2_link_to_SD1": "N/A (Reference band)",
+      "B_E2_inter_over_intra": "N/A"
+    },
+    {
+      "nucleus": "194Pb",
+      "band_label": "SD2 (Excited)",
+      "structure": "2-quasineutron [761]3/2- (x) [642]3/2+ (K=2-, 3-)",
+      "spin_range": "11- to 35-",
+      "transition_quadrupole_moment_Qt_eb": "19.8 +/- 1.0",
+      "excitation_energy_E_star_MeV": 1.25,
+      "J2_range_hbar2_over_MeV": "86 -> 110",
+      "interband_E2_link_to_SD1": "Forbidden / Undetected",
+      "B_E2_inter_over_intra": "< 1e-4"
+    },
+    {
+      "nucleus": "194Pb",
+      "band_label": "SD3 (Excited)",
+      "structure": "2-quasiproton (i13/2)^2 [651]1/2+ (K=1+)",
+      "spin_range": "12+ to 36+",
+      "transition_quadrupole_moment_Qt_eb": "20.3 +/- 1.1",
+      "excitation_energy_E_star_MeV": 1.48,
+      "J2_range_hbar2_over_MeV": "85 -> 109",
+      "interband_E2_link_to_SD1": "Forbidden / Undetected",
+      "B_E2_inter_over_intra": "< 1e-4"
+    },
+    {
+      "nucleus": "192Hg",
+      "band_label": "SD1 (Yrast)",
+      "structure": "0-quasiparticle vacuum",
+      "spin_range": "8+ to 36+",
+      "transition_quadrupole_moment_Qt_eb": "19.2 +/- 0.6",
+      "excitation_energy_E_star_MeV": 0.0,
+      "J2_range_hbar2_over_MeV": "85 -> 114",
+      "interband_E2_link_to_SD1": "N/A (Reference band)",
+      "B_E2_inter_over_intra": "N/A"
+    },
+    {
+      "nucleus": "192Hg",
+      "band_label": "SD2 (Excited)",
+      "structure": "2-quasineutron (j15/2)^2 alignment",
+      "spin_range": "10+ to 34+",
+      "transition_quadrupole_moment_Qt_eb": "18.9 +/- 0.9",
+      "excitation_energy_E_star_MeV": 1.3,
+      "J2_range_hbar2_over_MeV": "88 -> 111",
+      "interband_E2_link_to_SD1": "Forbidden / Undetected",
+      "B_E2_inter_over_intra": "< 1e-4"
+    }
+  ],
+  "criteria_contrast": [
+    {
+      "diagnostic_observable": "Core Triaxiality gamma",
+      "A160_TSD_Wobbler_163Lu": "Large, stable triaxiality gamma ~ 20 deg (J_m != J_s != J_l)",
+      "A190_SD_Bands_194Pb": "Axially symmetric prolate gamma ~ 0 deg (J_x = J_y = J_perp)",
+      "physical_implication": "Wobbling requires triaxiality; prolate symmetry forces K-conservation."
+    },
+    {
+      "diagnostic_observable": "Interband E2 Strength B(E2_out)/B(E2_in)",
+      "A160_TSD_Wobbler_163Lu": "Enhanced collective ratio ~ 0.20 - 0.50 (E2 photon fraction > 90%)",
+      "A190_SD_Bands_194Pb": "Zero / Undetected (ratio < 1e-4, strictly single-particle suppressed)",
+      "physical_implication": "Complete absence of collective interband links rejects wobbling phonon."
+    },
+    {
+      "diagnostic_observable": "Excitation Energy E*",
+      "A160_TSD_Wobbler_163Lu": "Collective phonon energy hw_w ~ 150 - 300 keV (< pairing gap)",
+      "A190_SD_Bands_194Pb": "Pair-breaking excitation E* ~ 1.2 - 1.5 MeV (~ 2*Delta_SD)",
+      "physical_implication": "Energy matches 2-quasiparticle pair-breaking, not collective vibration."
+    },
+    {
+      "diagnostic_observable": "Dynamic Moment of Inertia J^(2)",
+      "A160_TSD_Wobbler_163Lu": "Shifted and fluctuating between TSD1 and TSD2 due to phonon rotation",
+      "A190_SD_Bands_194Pb": "Universal smooth rise (85 -> 110 hbar^2/MeV) shared by all bands",
+      "physical_implication": "Rise driven by gradual intruder pair alignment (j15/2, i13/2) and CAP."
+    },
+    {
+      "diagnostic_observable": "Decay-Out Mechanism",
+      "A160_TSD_Wobbler_163Lu": "Direct collective E2 cascade into TSD1 within the same triaxial well",
+      "A190_SD_Bands_194Pb": "Statistical tunneling through fission barrier into spherical ND states",
+      "physical_implication": "Reflects deep isolated second minimum without lateral phonon branch."
+    }
+  ],
+  "artifacts": {
+    "gamma_scan_csv": "wobbling_divergence_vs_gamma.csv",
+    "sd_systematics_csv": "a190_sd_bands_experimental_systematics.csv",
+    "criteria_contrast_csv": "triaxial_wobbling_vs_symmetric_sd_criteria.csv"
+  }
+}

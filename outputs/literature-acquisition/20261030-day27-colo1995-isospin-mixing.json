@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T14:35:00+08:00",
+  "paper_identity": {
+    "title": "Isospin mixing in proton-rich N ~= Z nuclei",
+    "authors": [
+      "G. Col\u00f2",
+      "M. A. Nagarajan",
+      "P. Van Isacker",
+      "A. Vitturi"
+    ],
+    "journal": "Physical Review C",
+    "volume": "52",
+    "issue": "3",
+    "pages": "R1175-R1178",
+    "year": 1995,
+    "doi": "10.1103/PhysRevC.52.R1175"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Calculates microscopic Coulomb isospin mixing probability alpha_C^2 across N=Z nuclei (40Ca -> 56Ni -> 100Sn), demonstrating that in 100Sn (Z=50) isospin impurity reaches ~7.5-8.5%, violating the classical isovector E1 selection rule B(E1; Delta T = 0) = 0 by orders of magnitude and creating an isospin spreading width Gamma_C in the GDR that invalidates macroscopic isospin splitting formulas derived from neutron-rich nuclei (208Pb)."
+}

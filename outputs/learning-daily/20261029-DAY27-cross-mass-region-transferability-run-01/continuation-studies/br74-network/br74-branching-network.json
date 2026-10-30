@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T13:25:57.781560+00:00",
+  "status": "reported-table-algebraic-replay",
+  "analysis_level": "L2 derived/readiness; not new experimental fit or standalone L4",
+  "source": "Guo et al., PRL132 092501 (2024), Supplement Table I PDF pp1-2",
+  "source_note": "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+  "source_supplement_sha256": "1eb2c1af4ff7d1bf6460c154baabacb80e3ca7e63fa1832ca1d1b3d58b5ea9a0",
+  "formula": "B(E2,out)/B(E2,in)=(Iout/Iin)*(Ein/Eout)^5*delta_out^2/(1+delta_out^2)",
+  "assumptions": [
+    "same initial physical state, not merely the same spin",
+    "efficiency-corrected photon intensities on a common normalization",
+    "reference DeltaI=2 branch is pure E2",
+    "out branch is truncated to M1/E2",
+    "no extra E2 normalization from internal conversion is applied to photon-yield ratio"
+  ],
+  "uncertainty_boundary": {
+    "envelope": "Cartesian product of printed one-error endpoints; not a confidence/credible interval",
+    "missing": [
+      "joint intensity and mixing-ratio covariance",
+      "background and selection response",
+      "raw angular/polarization likelihood"
+    ],
+    "energy_errors": "not propagated; fixed printed energies",
+    "independence": "published B values reuse lifetimes/intensities/delta; not independent validation"
+  },
+  "maximum_same_multipole_energy_unit_error": 2.220446049250313e-16,
+  "rows": [
+    {
+      "parent_spin": 8,
+      "input": {
+        "parent_spin": 8,
+        "parity": "+",
+        "out": {
+          "energy_keV": 815.3,
+          "initial_band": "B3",
+          "final_band": "B1",
+          "final_spin": 7,
+          "intensity": 12.8,
+          "intensity_error": 0.4,
+          "delta": -1.1,
+          "delta_low": -1.5,
+          "delta_high": -0.8,
+          "be2": 0.03,
+          "bm1": 0.011,
+          "locator": "Guo2024 Supplement Table I PDF p2, Band3->Band1 815.3 row"
+        },
+        "reference": {
+          "energy_keV": 682.7,
+          "initial_band": "B3",
+          "final_band": "B3",
+          "final_spin": 6,
+          "intensity": 9.2,
+          "intensity_error": 1.3,
+          "be2": 0.09,
+          "locator": "Guo2024 Supplement Table I PDF p2, Band3 682.7 row"
+        }
+      },
+      "out_e2_fraction": 0.5475113122171946,
+      "out_e2_fraction_endpoint_range": [
+        0.39024390243902446,
+        0.6923076923076923
+      ],
+      "be2_out_over_in": 0.3136010741546882,
+      "deterministic_input_box_envelope": [
+        0.18972773176597144,
+        0.4762207335804146
+      ],
+      "printed_be2_quotient": 0.3333333333333333,
+      "printed_strength_delta_squared_replay": 1.2631543276532609,
+      "reported_delta_squared": 1.2100000000000002,
+      "note": "Rounded published strengths are dependent derived data, not an independent experiment."
+    },
+    {
+      "parent_spin": 9,
+      "input": {
+        "parent_spin": 9,
+        "parity": "+",
+        "out": {
+          "energy_keV": 1155.6,
+          "initial_band": "B3",
+          "final_band": "B1",
+          "final_spin": 8,
+          "intensity": 2.8,
+          "intensity_error": 0.6,
+          "delta": 3.1,
+          "delta_low": 2.2,
+          "delta_high": 4.9,
+          "be2": 0.0032,
+          "bm1": 0.0003,
+          "locator": "Guo2024 Supplement Table I PDF p2, Band3->Band1 1155.6 row"
+        },
+        "reference": {
+          "energy_keV": 811.6,
+          "initial_band": "B3",
+          "final_band": "B3",
+          "final_spin": 7,
+          "intensity": 8.9,
+          "intensity_error": 1.5,
+          "be2": 0.07,
+          "locator": "Guo2024 Supplement Table I PDF p2, Band3 811.6 row"
+        }
+      },
+      "out_e2_fraction": 0.9057492931196984,
+      "out_e2_fraction_endpoint_range": [
+        0.8287671232876712,
+        0.960015993602559
+      ],
+      "be2_out_over_in": 0.04869098434572579,
+      "deterministic_input_box_envelope": [
+        0.029956728403921662,
+        0.07536994382527382
+      ],
+      "printed_be2_quotient": 0.045714285714285714,
+      "printed_strength_delta_squared_replay": 9.925142482112992,
+      "reported_delta_squared": 9.610000000000001,
+      "note": "Rounded published strengths are dependent derived data, not an independent experiment."
+    },
+    {
+      "parent_spin": 10,
+      "input": {
+        "parent_spin": 10,
+        "parity": "+",
+        "out": {
+          "energy_keV": 1266.8,
+          "initial_band": "B3",
+          "final_band": "B1",
+          "final_spin": 9,
+          "intensity": 5.2,
+          "intensity_error": 1.0,
+          "delta": 8.0,
+          "delta_low": 6.0,
+          "delta_high": 11.0,
+          "be2": 0.017,
+          "bm1": 0.0003,
+          "locator": "Guo2024 Supplement Table I PDF p2, Band3->Band1 1266.8 row"
+        },
+        "reference": {
+          "energy_keV": 955.5,
+          "initial_band": "B3",
+          "final_band": "B3",
+          "final_spin": 8,
+          "intensity": 6.1,
+          "intensity_error": 1.0,
+          "be2": 0.08,
+          "locator": "Guo2024 Supplement Table I PDF p2, Band3 955.5 row"
+        }
+      },
+      "out_e2_fraction": 0.9846153846153847,
+      "out_e2_fraction_endpoint_range": [
+        0.972972972972973,
+        0.9918032786885246
+      ],
+      "be2_out_over_in": 0.20490535547749106,
+      "deterministic_input_box_envelope": [
+        0.1405092455331649,
+        0.2943474220266808
+      ],
+      "printed_be2_quotient": 0.21250000000000002,
+      "printed_strength_delta_squared_replay": 63.36314661428456,
+      "reported_delta_squared": 64.0,
+      "note": "Rounded published strengths are dependent derived data, not an independent experiment."
+    }
+  ],
+  "b4_status": "model prediction in Qureshie2026; no fabricated B4 event counts or upper limits",
+  "next_test": "Measure both B4->B3 and B4->B2 branches with same-parent identity, multipoles, efficiency and background; fit competing configurations.",
+  "script_sha256": "f45dd77f6fa2fec92b81338b19deb181984a38adc47f8122b43f9850699d3e29"
+}

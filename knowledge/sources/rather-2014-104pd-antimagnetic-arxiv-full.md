@@ -42,8 +42,8 @@ N. Rather 等，*Physical Review C* **89**, 061303(R) (2014)，DOI `10.1103/Phys
 
 | ID | Claim | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| RA14-FULL-01 | 104Pd高自旋yrast级联的DSAM寿命给出B(E2)=0.26(2),0.22(2),0.19(1),0.13(1),0.07(1),0.02(1) (eb)^2，对应I=16,18,20,22,24,26。 | experimental-fact | direct-original | PDF p10 Table1 | true |
-| RA14-FULL-02 | Table1列出的J(2)/B(E2)=112.3(8.6),140.9(12.8),334.2(17.6),282.3(21.7),554.3(79.2) for I=16–24；高频比值增大但I=20有明显峰值。 | derived-experimental-table | direct-original | PDF p10 Table1 | true |
+| RA14-FULL-01 | 104Pd高自旋yrast级联的DSAM寿命给出B(E2)=0.26(2),0.22(2),0.19(1),0.13(1),0.07(1),0.02(1) (eb)^2，对应I=16,18,20,22,24,26。 | experimental-fact | direct-original | PDF p11 Table1 | true |
+| RA14-FULL-02 | Table1列出的J(2)/B(E2)=112.3(8.6),140.9(12.8),334.2(17.6),282.3(21.7),554.3(79.2) for I=16–24；高频比值增大但I=20有明显峰值。 | derived-experimental-table | direct-original | PDF p11 Table1 | true |
 | RA14-FULL-03 | 104Pd的半经典配置取πg9/2^-2⊗ν[h11/2^2,(g7/2/d5/2)^2]，j=4.5, a=3.55, Vπν=1.2 MeV, Vππ=0.2 MeV, n=8, shears max=24ℏ, observed max=26ℏ, fitted core inertia ℑ=5 MeV^-1ℏ^2。 | model-input | direct-original | PDF pp4–5 Eqs4–9 | true |
 | RA14-FULL-04 | 104Pd的B(E2)计算使用Qeff=1.3 eb、β2=0.19的Nilsson单粒子四极矩；模型能描述实验I(ω)和B(E2)。 | model-result | direct-original | PDF p5 and Fig3 | true |
 | RA14-FULL-05 | 论文把I=16–26ℏ的单调B(E2)下降和大J(2)/B(E2)作为AMR证据；这一判断依赖DSAM、模型及其参数化，不能与PNC四空穴波函数直接等同。 | author-interpretation | direct-original | PDF pp3,5 | true |

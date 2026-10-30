@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "investigation": "Giant Dipole Resonance (GDR) Fine Structure and Quadrupole Splitting across Mass Regions",
+  "description": "Systematic evaluation of GDR splitting from spherical 208Pb to prolate 154Sm and 238U, oblate 186Pt, and triaxial 76Ge, demonstrating the breakdown of prolate fitting formulas across oblate and triaxial regimes.",
+  "systems": [
+    {
+      "nucleus": "208Pb",
+      "A": 208,
+      "Z": 82,
+      "shape_regime": "Spherical Closed Shell",
+      "quadrupole_beta2": 0.0,
+      "triaxial_gamma_deg": 0.0,
+      "hydrodynamic_E0_MeV": 13.16,
+      "calculated_principal_energies_MeV": {
+        "E_z": 13.16,
+        "E_x": 13.16,
+        "E_y": 13.16
+      },
+      "experimental_components": [
+        {
+          "label": "Symmetric Core",
+          "E_exp_MeV": 13.5,
+          "sigma_mb": 640.0,
+          "Gamma_MeV": 3.9
+        }
+      ],
+      "expected_peak_count": 1,
+      "area_ratio_low_to_high": 1.0,
+      "fitting_rule_classification": "Single Symmetric"
+    },
+    {
+      "nucleus": "154Sm",
+      "A": 154,
+      "Z": 62,
+      "shape_regime": "Axial Prolate Rotor",
+      "quadrupole_beta2": 0.32,
+      "triaxial_gamma_deg": 0.0,
+      "hydrodynamic_E0_MeV": 14.55,
+      "calculated_principal_energies_MeV": {
+        "E_z": 11.89,
+        "E_x": 16.1,
+        "E_y": 16.1
+      },
+      "experimental_components": [
+        {
+          "label": "K=0 Major Axis (Elongated)",
+          "E_exp_MeV": 12.35,
+          "sigma_mb": 145.0,
+          "Gamma_MeV": 2.8
+        },
+        {
+          "label": "K=1 Transverse Axes (Degenerate)",
+          "E_exp_MeV": 15.85,
+          "sigma_mb": 290.0,
+          "Gamma_MeV": 4.7
+        }
+      ],
+      "expected_peak_count": 2,
+      "area_ratio_low_to_high": 0.5,
+      "fitting_rule_classification": "Standard Prolate (1:2)"
+    },
+    {
+      "nucleus": "238U",
+      "A": 238,
+      "Z": 92,
+      "shape_regime": "Axial Prolate Actinide",
+      "quadrupole_beta2": 0.28,
+      "triaxial_gamma_deg": 0.0,
+      "hydrodynamic_E0_MeV": 12.59,
+      "calculated_principal_energies_MeV": {
+        "E_z": 10.55,
+        "E_x": 13.75,
+        "E_y": 13.75
+      },
+      "experimental_components": [
+        {
+          "label": "K=0 Major Axis (Elongated)",
+          "E_exp_MeV": 10.96,
+          "sigma_mb": 310.0,
+          "Gamma_MeV": 2.6
+        },
+        {
+          "label": "K=1 Transverse Axes (Degenerate)",
+          "E_exp_MeV": 14.04,
+          "sigma_mb": 620.0,
+          "Gamma_MeV": 4.8
+        }
+      ],
+      "expected_peak_count": 2,
+      "area_ratio_low_to_high": 0.5,
+      "fitting_rule_classification": "Standard Prolate (1:2)"
+    },
+    {
+      "nucleus": "186Pt",
+      "A": 186,
+      "Z": 78,
+      "shape_regime": "Axial Oblate Rotor / Shape-Coexisting",
+      "quadrupole_beta2": -0.18,
+      "triaxial_gamma_deg": 60.0,
+      "hydrodynamic_E0_MeV": 13.66,
+      "calculated_principal_energies_MeV": {
+        "E_z": 14.46,
+        "E_x": 14.46,
+        "E_y": 12.2
+      },
+      "experimental_components": [
+        {
+          "label": "K=1 Transverse Axes (Elongated Equator)",
+          "E_exp_MeV": 13.1,
+          "sigma_mb": 280.0,
+          "Gamma_MeV": 3.8
+        },
+        {
+          "label": "K=0 Symmetry Axis (Compressed)",
+          "E_exp_MeV": 15.3,
+          "sigma_mb": 140.0,
+          "Gamma_MeV": 4.5
+        }
+      ],
+      "expected_peak_count": 2,
+      "area_ratio_low_to_high": 2.0,
+      "fitting_rule_classification": "Inverted Area (2:1)"
+    },
+    {
+      "nucleus": "76Ge",
+      "A": 76,
+      "Z": 32,
+      "shape_regime": "Rigid Triaxial Rotor",
+      "quadrupole_beta2": 0.28,
+      "triaxial_gamma_deg": 28.0,
+      "hydrodynamic_E0_MeV": 18.41,
+      "calculated_principal_energies_MeV": {
+        "E_z": 15.76,
+        "E_x": 18.53,
+        "E_y": 21.39
+      },
+      "experimental_components": [
+        {
+          "label": "X-Axis (Longest)",
+          "E_exp_MeV": 14.5,
+          "sigma_mb": 85.0,
+          "Gamma_MeV": 3.2
+        },
+        {
+          "label": "Y-Axis (Intermediate)",
+          "E_exp_MeV": 16.7,
+          "sigma_mb": 80.0,
+          "Gamma_MeV": 3.5
+        },
+        {
+          "label": "Z-Axis (Shortest)",
+          "E_exp_MeV": 18.6,
+          "sigma_mb": 82.0,
+          "Gamma_MeV": 4.1
+        }
+      ],
+      "expected_peak_count": 3,
+      "area_ratio_low_to_high": 1.0,
+      "fitting_rule_classification": "Triple Peak (1:1:1)"
+    }
+  ],
+  "cross_mass_inapplicability_boundaries": {
+    "boundary_1_prolate_to_oblate_area_ratio_inversion": {
+      "contrast": "154Sm (prolate, beta2>0) vs 186Pt (oblate, beta2<0)",
+      "mechanism": "In prolate nuclei, the lone major symmetry axis (K=0) is elongated, placing the smaller area peak (weight 1) at low energy and the twofold degenerate transverse peak (weight 2) at high energy (area ratio 1:2). In oblate nuclei, the symmetry axis is compressed, placing the lone axis peak (weight 1) at HIGH energy and the twofold degenerate equatorial peaks (weight 2) at LOW energy (area ratio 2:1). Directly transferring the prolate formula falsely assigns a positive deformation with inverted axes.",
+      "failure_signature": "Severe sign error in beta2 and false prolate identification in oblate transitional nuclei."
+    },
+    "boundary_2_triaxial_transverse_degeneracy_breaking": {
+      "contrast": "Axial rotor (2 peaks) vs Triaxial rotor (3 peaks)",
+      "mechanism": "In axial nuclei, R_x = R_y enforces strict degeneracy between the two transverse dipole modes. In triaxial nuclei (76Ge), R_x != R_y != R_z splits the transverse resonance by ~2.0 MeV into two independent peaks, creating a triple-peaked resonance curve (14.5, 16.7, 18.6 MeV). Transferring a 2-peak fit forces the two transverse components into a single broadened Lorentzian, masking triaxiality and artificially inflating the spreading width Gamma by up to 50%.",
+      "failure_signature": "Unexplained anomalous broadening of the high-energy GDR peak in transitional A~70-80 and A~130 nuclei."
+    }
+  }
+}

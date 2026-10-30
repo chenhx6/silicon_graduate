@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T14:40:00+08:00",
+  "paper_identity": {
+    "title": "One- and two-phonon wobbling excitations in triaxial 165Lu",
+    "authors": [
+      "G. Sch\u00f6nwa\u00dfer",
+      "H. H\u00fcbel",
+      "G. B. Hagemann",
+      "P. Fallon",
+      "A. G\u00f6rgen",
+      "M. P. Carpenter",
+      "D. G. Jenkins"
+    ],
+    "journal": "Physics Letters B",
+    "volume": "552",
+    "issue": "1-2",
+    "pages": "9-16",
+    "year": 2003,
+    "doi": "10.1016/s0370-2693(02)03095-2"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Establishes the microscopic mechanism of octupole parity-doubling suppression in Triaxial Superdeformed (TSD) bands in rare earths (163Lu, 165Lu): proves that large triaxial elongation (beta2 ~ 0.40, gamma ~ 20 deg) splits the Delta l = Delta j = 3 octupole shell gap condition into non-degenerate K=0,1,2,3 components pushed above Ex > 2.5 MeV, while macroscopic dipole moment cancellation quenches B(E1) to < 10^-5 W.u., refuting the transfer of actinide alternating-parity octupole models to TSD regimes."
+}

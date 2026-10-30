@@ -1,0 +1,6 @@
+nucleus,Z,N,mass_region,B_E3_Wu,D0_e_fm,delta_E_1minus_keV,delta_E_9minus_keV,centrifugal_stabilization_pct,D_macro_est_efm,D_shell_est_efm,cancellation_ratio,structure_nature
+224Ra,88,136,A~220,42.0 +/- 3.0,0.015 +/- 0.003,173.8,-5.7,103.3,3.295,-3.28,0.995,Static Octupole Rotor (E1 node)
+226Ra,88,138,A~220,35.0 +/- 4.0,0.11 +/- 0.01,219.85,42.25,80.8,3.432,-3.322,0.968,Static Octupole Rotor (enhanced E1)
+228Ra,88,140,A~220,31.0 +/- 5.0,0.03 +/- 0.01,442.2,420.9,4.8,3.569,-3.539,0.992,Octupole Vibrator (phonon excitation)
+144Ba,56,88,A~140,48.0 +/- 4.0,0.13 +/- 0.02,659.35,56.5,91.4,1.398,-1.268,0.907,Static Octupole Rotor (enhanced E1)
+146Ba,56,90,A~140,48.0 +/- 8.0,0.05 +/- 0.02,869.5,208.0,76.1,1.485,-1.435,0.966,Transitional Octupole Rotor (E1 cancellation node)

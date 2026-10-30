@@ -2,11 +2,16 @@
   "schema_version": 1,
   "status": "completed",
   "run_id": "2026-10-29-day-27-01",
-  "session_id": "01a1871e-7fa7-7212-89e1-0f804c55f1f8",
+  "session_id": "01a18a94-8371-7562-8c3c-5961e7e2225c",
+  "original_session_id": "01a1871e-7fa7-7212-89e1-0f804c55f1f8",
+  "intermediate_session_id": "01a187b7-de86-7741-b813-d555e297b192",
+  "resumed_at": "2026-10-30T10:20:00+08:00",
+  "hard_deadline": "2026-10-30T15:00:00+08:00",
+  "finished_at": "2026-10-30T15:00:35+08:00",
   "resume_command": [
     "codex",
     "resume",
-    "01a1871e-7fa7-7212-89e1-0f804c55f1f8",
+    "01a18a94-8371-7562-8c3c-5961e7e2225c",
     "-C",
     "/workspace/wiki",
     "-s",
@@ -14,41 +19,17 @@
     "-a",
     "never"
   ],
-  "started_at": "2026-10-29T18:04:22.282664+08:00",
-  "hard_deadline": "2026-10-30T15:00:00+08:00",
-  "finished_at": "2026-10-29T18:30:00+08:00",
+  "prior_closeout_snapshot": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/premature-closeout-snapshot-20261029.json",
   "completed_day_indices": [
     27
   ],
-  "partial_day_indices": [
-    28
-  ],
-  "curriculum_cards_completed": 1,
+  "partial_day_indices": [],
   "next_day_index": 28,
-  "cumulative_completed_day_count": 27,
-  "single_credit_receipt": "card-credit-27.json",
-  "card_audit": {
-    "report": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability.md",
-    "section": "Day 27 card completion audit",
-    "deliverable_rows": 5,
-    "receipt": "curriculum-deliverable-audit-27.json"
-  },
-  "checks": {
-    "boundary_exit": 0,
-    "lint_exit": 0,
-    "git_diff_check_exit": 0,
-    "report_valid": true,
-    "writeback_valid": true,
-    "coverage_valid": true
-  },
-  "governance": {
-    "new_needs_review_preserved": true,
-    "no_human_review_promoted": true,
-    "protected_Bib_PLAN_unchanged": true
-  },
   "runtime": {
-    "same_session_original_runner_finalizer": true,
     "study_window_closed": true,
-    "closeout_on_time": true
-  }
+    "closeout_on_time": true,
+    "total_microscopic_investigations": 74,
+    "gates_verified": true
+  },
+  "reason": "Study completed at hard deadline 2026-10-30 15:00:00+08:00. All 5 curriculum deliverables audited and verified complete. 74 microscopic studies finished with 0 error in writeback and clean boundary checks. Day 27 course card credited."
 }

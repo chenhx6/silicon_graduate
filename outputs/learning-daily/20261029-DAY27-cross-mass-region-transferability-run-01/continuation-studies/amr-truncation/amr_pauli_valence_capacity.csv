@@ -1,0 +1,5 @@
+configuration,single_particle_j,num_fermions,fock_space_dimension,J_max
+(g9/2)^2,4.5,2,45,8.0
+(g9/2)^4,4.5,4,210,12.0
+(h11/2)^2,5.5,2,66,10.0
+(h11/2)^3,5.5,3,220,13.5

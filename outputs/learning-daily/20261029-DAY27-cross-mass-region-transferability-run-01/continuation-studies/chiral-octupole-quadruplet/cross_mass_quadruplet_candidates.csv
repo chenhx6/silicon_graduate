@@ -1,0 +1,5 @@
+nucleus,Z,N,mass_region,valence_configuration,observed_bands,missing_band,quadruplet_status,E1_links
+74As,33,41,A~70,"pi g9/2 (x) nu g9/2 (pi=+) / pi(f5/2,p3/2) (x) nu g9/2 (pi=-)","3 bands (Bands 1, 2, 3 established by Xiao 2022)",Band 4 (negative-parity chiral partner),Incomplete Candidate (3/4),"Yes (372.4, 774.9, 919.4, 1293.4 keV B3->B1)"
+78Br,35,43,A~80,"pi g9/2 (x) nu g9/2 (pi=+) / pi(f5/2,p3/2) (x) nu g9/2 (pi=-)","4 bands (Liu 2016 PRL 116, 112501)",None (all 4 bands observed),Complete Chiral-Octupole Quadruplet Benchmark,"Yes, interconnecting positive and negative parity pairs"
+131Ba,56,75,A~130,nu h11/2 (x) core / pseudospin doublet,"4 bands (Guo 2020 PLB 807, 135579)",None,Pseudospin-Chiral Quartet (not octupole),No (same parity pseudospin partners)
+198Bi,83,115,A~190,pi h9/2 (x) nu i13/2^-1,Multiple dipole bands with octupole mixing,Under exploration,High-spin Candidate in Heavy Mass Region,Tentative cross-parity links

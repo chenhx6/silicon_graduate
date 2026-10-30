@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "queried_at": "2026-10-29T13:40:47.980584+00:00",
+  "service": "WoS Starter",
+  "credential": "configured read-only allowlisted loader; no secret persisted",
+  "endpoint": "https://api.clarivate.com/apis/wos-starter/v1/documents",
+  "query": "TS=(\"shears mechanism\" OR \"magnetic rotation\" OR \"antimagnetic rotation\") AND PY=(2024-2026)",
+  "http_status": 200,
+  "metadata": {
+    "total": 53,
+    "page": 1,
+    "limit": 12
+  },
+  "records": [
+    {
+      "uid": "WOS:001895195800001",
+      "title": "Description of anti-magnetic rotation in nuclei within the generalized variable moment of inertia model",
+      "source": {
+        "sourceTitle": "EUROPEAN PHYSICAL JOURNAL A",
+        "publishYear": 2026,
+        "publishMonth": "OCT 6",
+        "volume": "62",
+        "issue": "10",
+        "articleNumber": "206",
+        "pages": {
+          "count": 13
+        }
+      },
+      "identifiers": {
+        "doi": "10.1140/epja/s10050-026-01976-4",
+        "issn": "1434-6001",
+        "eissn": "1434-601X"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001895195800001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001895195800001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001895195800001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article"
+      ]
+    },
+    {
+      "uid": "WOS:001899105200002",
+      "title": "Investigation of antimagnetic rotation in the<i> N</i>=46 odd-A isotones 83Rb and 85Y",
+      "source": {
+        "sourceTitle": "PHYSICAL REVIEW C",
+        "publishYear": 2026,
+        "publishMonth": "OCT 1",
+        "volume": "114",
+        "issue": "4",
+        "articleNumber": "044309",
+        "pages": {
+          "count": 6
+        }
+      },
+      "identifiers": {
+        "doi": "10.1103/4443-dlq4",
+        "issn": "2469-9985",
+        "eissn": "2469-9993"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001899105200002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001899105200002&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001899105200002&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article"
+      ]
+    },
+    {
+      "uid": "WOS:001876895100001",
+      "title": "Possible antimagnetic rotation in <SUP>97,99</SUP>Mo",
+      "source": {
+        "sourceTitle": "INTERNATIONAL JOURNAL OF MODERN PHYSICS E",
+        "publishYear": 2026,
+        "publishMonth": "SEP 17",
+        "pages": {
+          "count": 19
+        }
+      },
+      "identifiers": {
+        "doi": "10.1142/S0218301326500552",
+        "issn": "0218-3013",
+        "eissn": "1793-6608"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001876895100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001876895100001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001876895100001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article",
+        "Early Access"
+      ]
+    },
+    {
+      "uid": "WOS:001869015200001",
+      "title": "Magnetically controlled capsule robot for dual-target constant-rate drug delivery and stable anchoring",
+      "source": {
+        "sourceTitle": "JOURNAL OF ZHEJIANG UNIVERSITY-SCIENCE A",
+        "publishYear": 2026,
+        "publishMonth": "SEP 7",
+        "pages": {
+          "count": 15
+        }
+      },
+      "identifiers": {
+        "doi": "10.1631/jzus.A2600363",
+        "issn": "1673-565X",
+        "eissn": "1862-1775"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001869015200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001869015200001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001869015200001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article",
+        "Early Access"
+      ]
+    },
+    {
+      "uid": "WOS:001848544800002",
+      "title": "Possible Multiple Antimagnetic Rotational Bands in Ru",
+      "source": {
+        "sourceTitle": "BRAZILIAN JOURNAL OF PHYSICS",
+        "publishYear": 2026,
+        "publishMonth": "AUG 12",
+        "volume": "56",
+        "issue": "5",
+        "articleNumber": "214",
+        "pages": {
+          "count": 7
+        }
+      },
+      "identifiers": {
+        "doi": "10.1007/s13538-026-02139-y",
+        "issn": "0103-9733",
+        "eissn": "1678-4448"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001848544800002&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001848544800002&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001848544800002&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article"
+      ]
+    },
+    {
+      "uid": "WOS:001799522200001",
+      "title": "Tailoring sp<SUP>2</SUP>-Cluster Distribution to Suppress Corrosion at Amorphous Carbon/Bipolar Plates Interfaces",
+      "source": {
+        "sourceTitle": "ACS APPLIED MATERIALS & INTERFACES",
+        "publishYear": 2026,
+        "publishMonth": "JUL 1",
+        "volume": "18",
+        "issue": "25",
+        "pages": {
+          "range": "36164-36176",
+          "begin": "36164",
+          "end": "36176",
+          "count": 13
+        }
+      },
+      "identifiers": {
+        "doi": "10.1021/acsami.6c03124",
+        "issn": "1944-8244",
+        "eissn": "1944-8252"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001799522200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001799522200001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001799522200001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article"
+      ]
+    },
+    {
+      "uid": "WOS:001786059000005",
+      "title": "Microscopic investigation of magnetic and antimagnetic rotational motion in atomic nuclei",
+      "source": {
+        "sourceTitle": "PHYSICAL REVIEW C",
+        "publishYear": 2026,
+        "publishMonth": "MAY 1",
+        "volume": "113",
+        "issue": "5",
+        "articleNumber": "054307",
+        "pages": {
+          "count": 17
+        }
+      },
+      "identifiers": {
+        "doi": "10.1103/xbsc-q21d",
+        "issn": "2469-9985",
+        "eissn": "2469-9993"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001786059000005&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "citingArticles": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001786059000005&DestLinkType=CitingArticles&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001786059000005&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001786059000005&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article"
+      ]
+    },
+    {
+      "uid": "WOS:001777366900001",
+      "title": "Biomimetic illumination enhancement inspired by guanine platelets in the photophore surface of the deep-sea bristlemouth <i>Sigmops gracilis</i>",
+      "source": {
+        "sourceTitle": "BIOINTERPHASES",
+        "publishYear": 2026,
+        "publishMonth": "MAY",
+        "volume": "21",
+        "issue": "3",
+        "articleNumber": "031003",
+        "pages": {
+          "count": 9
+        }
+      },
+      "identifiers": {
+        "doi": "10.1116/6.0005382",
+        "issn": "1934-8630",
+        "eissn": "1559-4106",
+        "pmid": "42190058"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001777366900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001777366900001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001777366900001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article"
+      ]
+    },
+    {
+      "uid": "WOS:001755841900001",
+      "title": "Structural design and performance research of non-contact magnetic rotation-driven piezoelectric energy harvester",
+      "source": {
+        "sourceTitle": "REVIEW OF SCIENTIFIC INSTRUMENTS",
+        "publishYear": 2026,
+        "publishMonth": "MAY",
+        "volume": "97",
+        "issue": "5",
+        "articleNumber": "055001",
+        "pages": {
+          "count": 11
+        }
+      },
+      "identifiers": {
+        "doi": "10.1063/5.0307906",
+        "issn": "0034-6748",
+        "eissn": "1089-7623"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001755841900001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001755841900001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001755841900001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article"
+      ]
+    },
+    {
+      "uid": "WOS:001708298200001",
+      "title": "Collective states, single-particle states, and ''stapler'' mechanism in <SUP>117</SUP>In",
+      "source": {
+        "sourceTitle": "CHINESE PHYSICS C",
+        "publishYear": 2026,
+        "publishMonth": "MAY 1",
+        "volume": "50",
+        "issue": "5",
+        "articleNumber": "054001",
+        "pages": {
+          "count": 10
+        }
+      },
+      "identifiers": {
+        "doi": "10.1088/1674-1137/ae38c4",
+        "issn": "1674-1137",
+        "eissn": "2058-6132"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001708298200001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001708298200001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001708298200001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article"
+      ]
+    },
+    {
+      "uid": "WOS:001691232500001",
+      "title": "Systematic investigation of dipole bands in neutron-rich Ag isotopes",
+      "source": {
+        "sourceTitle": "EUROPEAN PHYSICAL JOURNAL A",
+        "publishYear": 2026,
+        "publishMonth": "FEB",
+        "volume": "62",
+        "issue": "2",
+        "articleNumber": "30",
+        "pages": {
+          "count": 7
+        }
+      },
+      "identifiers": {
+        "doi": "10.1140/epja/s10050-026-01799-3",
+        "issn": "1434-6001",
+        "eissn": "1434-601X"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001691232500001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001691232500001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001691232500001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article"
+      ]
+    },
+    {
+      "uid": "WOS:001662758100001",
+      "title": "Rotating magnetic nanochain-based biosensor enables 6-minute ultrasensitive quantification of heart-type fatty acid-binding protein",
+      "source": {
+        "sourceTitle": "BIOSENSORS & BIOELECTRONICS",
+        "publishYear": 2026,
+        "publishMonth": "APR 1",
+        "volume": "297",
+        "articleNumber": "118346",
+        "pages": {
+          "count": 12
+        }
+      },
+      "identifiers": {
+        "doi": "10.1016/j.bios.2025.118346",
+        "issn": "0956-5663",
+        "eissn": "1873-4235",
+        "pmid": "41506041"
+      },
+      "links": {
+        "record": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001662758100001&DestLinkType=FullRecord&DestApp=WOS_CPL",
+        "citingArticles": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001662758100001&DestLinkType=CitingArticles&DestApp=WOS_CPL",
+        "references": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001662758100001&DestLinkType=CitedReferences&DestApp=WOS",
+        "related": "https://www.webofscience.com/api/gateway?GWVersion=2&SrcApp=chenhx01&SrcAuth=WosAPI&KeyUT=WOS:001662758100001&DestLinkType=RelatedRecords&DestApp=WOS_CPL"
+      },
+      "types": [
+        "Article"
+      ]
+    }
+  ],
+  "boundary": "Discovery metadata only, not original scientific evidence; publication year range does not establish exhaustive coverage. No citation counts used."
+}

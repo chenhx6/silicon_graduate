@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "task": "N=20 island of inversion and shell closure collapse dynamics",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_mg32_in_island_of_inversion": true,
+    "test_2_mg32_be2_surges_above_400": true,
+    "test_3_si34_ca40_remain_spherical": true,
+    "test_4_be2_contrast_between_si34_and_mg32_exceeds_3x": true
+  },
+  "results": [
+    {
+      "nucleus": "40Ca",
+      "Z": 20,
+      "A": 40,
+      "N20_shell_gap_MeV": 6.0,
+      "inversion_energy_MeV": 6.5,
+      "intruder_2p2h_fraction_pct": 1.6,
+      "beta2_calc": 0.13,
+      "E_2plus_calc_keV": 3407.7,
+      "E_2plus_exp_keV": 3904.0,
+      "B_E2_calc_e2fm4": 96.0,
+      "B_E2_exp_e2fm4": 95.0,
+      "regime": "Spherical Closed Shell (0p-0h Ground State)"
+    },
+    {
+      "nucleus": "36S",
+      "Z": 16,
+      "A": 36,
+      "N20_shell_gap_MeV": 5.2,
+      "inversion_energy_MeV": 4.9,
+      "intruder_2p2h_fraction_pct": 2.8,
+      "beta2_calc": 0.13,
+      "E_2plus_calc_keV": 3378.2,
+      "E_2plus_exp_keV": 3291.0,
+      "B_E2_calc_e2fm4": 100.2,
+      "B_E2_exp_e2fm4": 110.0,
+      "regime": "Spherical Closed Shell (0p-0h Ground State)"
+    },
+    {
+      "nucleus": "34Si",
+      "Z": 14,
+      "A": 34,
+      "N20_shell_gap_MeV": 4.8,
+      "inversion_energy_MeV": 4.1,
+      "intruder_2p2h_fraction_pct": 3.8,
+      "beta2_calc": 0.13,
+      "E_2plus_calc_keV": 3350.9,
+      "E_2plus_exp_keV": 3327.0,
+      "B_E2_calc_e2fm4": 104.1,
+      "B_E2_exp_e2fm4": 85.0,
+      "regime": "Spherical Closed Shell (0p-0h Ground State)"
+    },
+    {
+      "nucleus": "32Mg",
+      "Z": 12,
+      "A": 32,
+      "N20_shell_gap_MeV": 1.8,
+      "inversion_energy_MeV": -1.9,
+      "intruder_2p2h_fraction_pct": 87.3,
+      "beta2_calc": 0.46,
+      "E_2plus_calc_keV": 1181.2,
+      "E_2plus_exp_keV": 885.0,
+      "B_E2_calc_e2fm4": 412.9,
+      "B_E2_exp_e2fm4": 454.0,
+      "regime": "Island of Inversion (Deformed 2p-2h Ground State)"
+    },
+    {
+      "nucleus": "30Ne",
+      "Z": 10,
+      "A": 30,
+      "N20_shell_gap_MeV": 0.4,
+      "inversion_energy_MeV": -4.7,
+      "intruder_2p2h_fraction_pct": 97.0,
+      "beta2_calc": 0.5,
+      "E_2plus_calc_keV": 927.5,
+      "E_2plus_exp_keV": 791.0,
+      "B_E2_calc_e2fm4": 449.0,
+      "B_E2_exp_e2fm4": 420.0,
+      "regime": "Island of Inversion (Deformed 2p-2h Ground State)"
+    }
+  ],
+  "evidence_boundaries": {
+    "primary_papers": [
+      "Motobayashi et al., Phys. Lett. B 346, 9 (1995)",
+      "Warburton, Becker, Brown, Phys. Rev. C 41, 1147 (1990)",
+      "Otsuka et al., Phys. Rev. Lett. 95, 232502 (2005)"
+    ],
+    "mechanistic_law": "Establishes that the N=20 spherical magic number collapses into the Island of Inversion in 32Mg and 30Ne: removal of protons from d5/2 quenches the attractive monopole tensor interaction with nu d3/2, compressing the N=20 shell gap from 6.0 MeV in 40Ca down to 1.8 MeV in 32Mg; the 5.5 MeV quadrupole correlation gain of 2p-2h intruder excitations inverts the ground state, soaring B(E2) by >4.5x (from 85 e^2 fm^4 in 34Si to 454 e^2 fm^4 in 32Mg) and plunging E(2+) to 885 keV, refuting the concept of universal immutable magic numbers across the nuclear chart."
+  }
+}

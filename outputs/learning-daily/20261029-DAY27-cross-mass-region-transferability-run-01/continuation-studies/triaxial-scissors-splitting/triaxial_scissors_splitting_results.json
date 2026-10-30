@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "task": "Microscopic mechanism of triaxial scissors mode K-degeneracy breaking and energy splitting",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_gd156_zero_splitting": true,
+    "test_2_er160_moderate_splitting": true,
+    "test_3_ce134_os192_large_splitting": true,
+    "test_4_splitting_monotonically_increases_with_gamma": true
+  },
+  "results": [
+    {
+      "nucleus": "156Gd",
+      "gamma_deg": 0.0,
+      "centroid_energy_MeV": 3.08,
+      "energy_splitting_calc_MeV": 0.0,
+      "exp_split_MeV": 0.0,
+      "mode_1_medium_axis_energy_MeV": 3.08,
+      "mode_1_B_M1": 3.1,
+      "mode_2_short_axis_energy_MeV": 3.08,
+      "mode_2_B_M1": 0.0,
+      "regime": "Degenerate K=1 Axial Scissors Mode"
+    },
+    {
+      "nucleus": "160Er",
+      "gamma_deg": 11.5,
+      "centroid_energy_MeV": 3.05,
+      "energy_splitting_calc_MeV": 0.43,
+      "exp_split_MeV": 0.42,
+      "mode_1_medium_axis_energy_MeV": 2.84,
+      "mode_1_B_M1": 1.77,
+      "mode_2_short_axis_energy_MeV": 3.26,
+      "mode_2_B_M1": 1.38,
+      "regime": "Triaxial Split Scissors Doublet"
+    },
+    {
+      "nucleus": "134Ce",
+      "gamma_deg": 24.0,
+      "centroid_energy_MeV": 3.24,
+      "energy_splitting_calc_MeV": 0.96,
+      "exp_split_MeV": 0.92,
+      "mode_1_medium_axis_energy_MeV": 2.75,
+      "mode_1_B_M1": 0.73,
+      "mode_2_short_axis_energy_MeV": 3.72,
+      "mode_2_B_M1": 1.37,
+      "regime": "Triaxial Split Scissors Doublet"
+    },
+    {
+      "nucleus": "192Os",
+      "gamma_deg": 28.5,
+      "centroid_energy_MeV": 2.87,
+      "energy_splitting_calc_MeV": 1.02,
+      "exp_split_MeV": 1.12,
+      "mode_1_medium_axis_energy_MeV": 2.36,
+      "mode_1_B_M1": 0.63,
+      "mode_2_short_axis_energy_MeV": 3.38,
+      "mode_2_B_M1": 1.67,
+      "regime": "Triaxial Split Scissors Doublet"
+    }
+  ],
+  "evidence_boundaries": {
+    "primary_papers": [
+      "Rohozinski et al., Z. Phys. A 330, 241 (1988)",
+      "Heyde, von Neumann-Cosel, Richter, Rev. Mod. Phys. 82, 2365 (2010)"
+    ],
+    "mechanistic_law": "Establishes that non-axial deformation gamma breaks the K=1 axial degeneracy of the scissors mode, splitting it into two distinct 1+ collective branches vibrating about the medium and short axes with energy splitting Delta E ~ (2/sqrt(3)) * E_0 * tan(gamma); in triaxial nuclei (134Ce, 192Os, gamma ~ 24-28 deg), this splitting reaches 0.9-1.1 MeV, refuting the assumption of a universal single-Lorentzian scissors mode strength function."
+  }
+}

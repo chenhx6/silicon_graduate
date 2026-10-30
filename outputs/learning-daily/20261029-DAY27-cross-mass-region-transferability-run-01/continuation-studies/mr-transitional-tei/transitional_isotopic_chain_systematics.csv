@@ -1,0 +1,5 @@
+nucleus,Z,N,J_core,Q_core_eb,chi_parameter,theta_initial_deg,theta_final_deg,shears_closing_angle_deg,B_M1_drop_pct,B_M1_over_B_E2_at_I8,B_M1_over_B_E2_at_I15,regime_classification
+106Sn,50,56,3.0,0.05,0.12,88.1,0.0,88.1,100.0,1814.48,0.0,Pure Shears (Magnetic Rotation)
+118Te,52,66,15.0,0.4,0.6,89.29,68.62,20.67,35.7,88.76,61.86,Core-Assisted Shears (Transitional MR)
+119I,53,66,18.0,0.45,0.72,89.38,71.49,17.89,31.0,71.97,52.85,Core-Assisted Shears (Transitional MR)
+122Xe,54,68,32.0,0.9,1.28,89.62,78.48,11.14,19.4,19.99,16.44,Collective E2 Rotation (Shears Dissolved)

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "diff",
+    "exit_code": 0
+  },
+  {
+    "name": "boundary",
+    "exit_code": 0,
+    "ok": true
+  },
+  {
+    "name": "lint",
+    "exit_code": 1,
+    "counts": {
+      "error": 2,
+      "warning": 398,
+      "info": 5198
+    },
+    "errors": [
+      {
+        "severity": "error",
+        "code": "SECTION_REQUIRED",
+        "path": "knowledge/sources/smith-2003-hf178-isomer-gamma-decay.md",
+        "message": "missing ## Summary"
+      },
+      {
+        "severity": "error",
+        "code": "SECTION_REQUIRED",
+        "path": "knowledge/sources/smith-2003-hf178-isomer-gamma-decay.md",
+        "message": "missing ## Extracted Pages"
+      }
+    ]
+  }
+]

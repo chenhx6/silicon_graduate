@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T04:04:11.197488+00:00",
+  "task": "Phase transition from alpha-clustering to mean-field octupole condensation across trans-lead isotopes",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_po212_high_preformation_and_hindrance": true,
+    "test_2_ra224_cluster_dissolution_into_pear_shape": true,
+    "test_3_th226_unhindered_parity_doublet_alpha_decay": true,
+    "test_4_crossover_between_14_and_18_valence_nucleons": true
+  },
+  "critical_valence_crossover_point": 14,
+  "trans_lead_isotope_chain": [
+    {
+      "nucleus": "212Po",
+      "Z": 84,
+      "N": 128,
+      "N_val": 4,
+      "exp_T12": "299 ns",
+      "exp_HF_1m": 2850.0,
+      "calc_HF_1m": 2850.0,
+      "P_alpha": 0.285,
+      "calc_beta3": 0.0,
+      "E_cluster_MeV": 4.2,
+      "E_MF_MeV": 0.146,
+      "regime": "alpha-clustering-predominant"
+    },
+    {
+      "nucleus": "216Rn",
+      "Z": 86,
+      "N": 130,
+      "N_val": 10,
+      "exp_T12": "45 us",
+      "exp_HF_1m": 640.0,
+      "calc_HF_1m": 1925.7,
+      "P_alpha": 0.05409,
+      "calc_beta3": 0.0,
+      "E_cluster_MeV": 2.143,
+      "E_MF_MeV": 0.954,
+      "regime": "alpha-clustering-predominant"
+    },
+    {
+      "nucleus": "220Ra",
+      "Z": 88,
+      "N": 132,
+      "N_val": 16,
+      "exp_T12": "18 ms",
+      "exp_HF_1m": 115.0,
+      "calc_HF_1m": 32.0,
+      "P_alpha": 0.02399,
+      "calc_beta3": 0.06,
+      "E_cluster_MeV": 1.438,
+      "E_MF_MeV": 2.5,
+      "regime": "mean-field-octupole-condensed"
+    },
+    {
+      "nucleus": "222Ra",
+      "Z": 88,
+      "N": 134,
+      "N_val": 18,
+      "exp_T12": "38 s",
+      "exp_HF_1m": 52.0,
+      "calc_HF_1m": 16.9,
+      "P_alpha": 0.01979,
+      "calc_beta3": 0.088,
+      "E_cluster_MeV": 1.296,
+      "E_MF_MeV": 3.182,
+      "regime": "mean-field-octupole-condensed"
+    },
+    {
+      "nucleus": "224Ra",
+      "Z": 88,
+      "N": 136,
+      "N_val": 20,
+      "exp_T12": "3.63 d",
+      "exp_HF_1m": 30.0,
+      "calc_HF_1m": 8.9,
+      "P_alpha": 0.01672,
+      "calc_beta3": 0.116,
+      "E_cluster_MeV": 1.18,
+      "E_MF_MeV": 3.949,
+      "regime": "mean-field-octupole-condensed"
+    },
+    {
+      "nucleus": "226Th",
+      "Z": 90,
+      "N": 136,
+      "N_val": 22,
+      "exp_T12": "30.6 m",
+      "exp_HF_1m": 4.4,
+      "calc_HF_1m": 4.7,
+      "P_alpha": 0.01439,
+      "calc_beta3": 0.144,
+      "E_cluster_MeV": 1.082,
+      "E_MF_MeV": 4.802,
+      "regime": "mean-field-octupole-condensed"
+    }
+  ],
+  "valence_scan": [
+    {
+      "N_valence": 2,
+      "E_cluster_MeV": 4.2,
+      "E_meanfield_def_MeV": 0.035,
+      "P_alpha_preformation": 0.285,
+      "beta3_meanfield": 0.0,
+      "HF_1_minus_hindrance": 3392.9,
+      "dominant_regime": "alpha-clustering-predominant"
+    },
+    {
+      "N_valence": 4,
+      "E_cluster_MeV": 4.2,
+      "E_meanfield_def_MeV": 0.146,
+      "P_alpha_preformation": 0.285,
+      "beta3_meanfield": 0.0,
+      "HF_1_minus_hindrance": 2850.0,
+      "dominant_regime": "alpha-clustering-predominant"
+    },
+    {
+      "N_valence": 6,
+      "E_cluster_MeV": 3.182,
+      "E_meanfield_def_MeV": 0.335,
+      "P_alpha_preformation": 0.14477,
+      "beta3_meanfield": 0.0,
+      "HF_1_minus_hindrance": 2456.9,
+      "dominant_regime": "alpha-clustering-predominant"
+    },
+    {
+      "N_valence": 8,
+      "E_cluster_MeV": 2.561,
+      "E_meanfield_def_MeV": 0.604,
+      "P_alpha_preformation": 0.08215,
+      "beta3_meanfield": 0.0,
+      "HF_1_minus_hindrance": 2159.1,
+      "dominant_regime": "alpha-clustering-predominant"
+    },
+    {
+      "N_valence": 10,
+      "E_cluster_MeV": 2.143,
+      "E_meanfield_def_MeV": 0.954,
+      "P_alpha_preformation": 0.05409,
+      "beta3_meanfield": 0.0,
+      "HF_1_minus_hindrance": 1925.7,
+      "dominant_regime": "alpha-clustering-predominant"
+    },
+    {
+      "N_valence": 12,
+      "E_cluster_MeV": 1.842,
+      "E_meanfield_def_MeV": 1.386,
+      "P_alpha_preformation": 0.03907,
+      "beta3_meanfield": 0.013,
+      "HF_1_minus_hindrance": 595.9,
+      "dominant_regime": "transitional-octupole-soft"
+    },
+    {
+      "N_valence": 14,
+      "E_cluster_MeV": 1.615,
+      "E_meanfield_def_MeV": 1.901,
+      "P_alpha_preformation": 0.02998,
+      "beta3_meanfield": 0.027,
+      "HF_1_minus_hindrance": 295.9,
+      "dominant_regime": "transitional-octupole-soft"
+    },
+    {
+      "N_valence": 16,
+      "E_cluster_MeV": 1.438,
+      "E_meanfield_def_MeV": 2.5,
+      "P_alpha_preformation": 0.02399,
+      "beta3_meanfield": 0.06,
+      "HF_1_minus_hindrance": 32.0,
+      "dominant_regime": "mean-field-octupole-condensed"
+    },
+    {
+      "N_valence": 18,
+      "E_cluster_MeV": 1.296,
+      "E_meanfield_def_MeV": 3.182,
+      "P_alpha_preformation": 0.01979,
+      "beta3_meanfield": 0.088,
+      "HF_1_minus_hindrance": 16.9,
+      "dominant_regime": "mean-field-octupole-condensed"
+    },
+    {
+      "N_valence": 20,
+      "E_cluster_MeV": 1.18,
+      "E_meanfield_def_MeV": 3.949,
+      "P_alpha_preformation": 0.01672,
+      "beta3_meanfield": 0.116,
+      "HF_1_minus_hindrance": 8.9,
+      "dominant_regime": "mean-field-octupole-condensed"
+    },
+    {
+      "N_valence": 22,
+      "E_cluster_MeV": 1.082,
+      "E_meanfield_def_MeV": 4.802,
+      "P_alpha_preformation": 0.01439,
+      "beta3_meanfield": 0.144,
+      "HF_1_minus_hindrance": 4.7,
+      "dominant_regime": "mean-field-octupole-condensed"
+    },
+    {
+      "N_valence": 24,
+      "E_cluster_MeV": 1.0,
+      "E_meanfield_def_MeV": 5.739,
+      "P_alpha_preformation": 0.01256,
+      "beta3_meanfield": 0.145,
+      "HF_1_minus_hindrance": 4.0,
+      "dominant_regime": "mean-field-octupole-condensed"
+    },
+    {
+      "N_valence": 26,
+      "E_cluster_MeV": 0.929,
+      "E_meanfield_def_MeV": 6.763,
+      "P_alpha_preformation": 0.01111,
+      "beta3_meanfield": 0.145,
+      "HF_1_minus_hindrance": 4.0,
+      "dominant_regime": "mean-field-octupole-condensed"
+    }
+  ],
+  "evidence_boundaries": {
+    "model_type": "Alpha-cluster preformation scaling + microscopic-macroscopic deformation energy competition",
+    "empirical_inputs": [
+      "ENSDF adopted levels for 212Po (T1/2 = 299 ns, alpha branching 100%)",
+      "Gaffney et al., Nature 497, 199 (2013) for 224Ra and 220Rn octupole collectivity",
+      "Butler et al., Nature Commun. 11, 3560 (2020) for 222-228Ra octupole systematics",
+      "Warda & Robledo, PRC 84, 044608 (2011) for Gogny HFB cluster vs mean-field barrier calculations"
+    ],
+    "limitations": "Model parametrizes the Pauli blocking factor in the surface skin; full antisymmetrized molecular dynamics (AMD) or Tohsaki-Horiuchi-Schuck-Röpke (THSR) wave function projection yields exact four-body density matrices."
+  }
+}

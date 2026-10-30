@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T14:30:00+08:00",
+  "paper_identity": {
+    "title": "Synthesis of superheavy nuclei: How accurately can we describe it and calculate the cross sections?",
+    "authors": [
+      "V. I. Zagrebaev",
+      "Y. Aritomo",
+      "M. G. Itkis",
+      "Yu. Ts. Oganessian",
+      "M. Ohta"
+    ],
+    "journal": "Physical Review C",
+    "volume": "65",
+    "issue": "1",
+    "pages": "014607",
+    "year": 2001,
+    "doi": "10.1103/PhysRevC.65.014607"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Exposes the catastrophic failure of transferring standard statistical de-excitation models from stable/actinide nuclei to superheavy compound systems (Z >= 114): proves that the inversion of the fission barrier relative to neutron separation energy (B_f < S_n) and thermal shell-damping trigger a multi-chance fission avalanche (Gamma_f/Gamma_n ~ 10^2 - 10^3 per step), crushing evaporation residue survival probabilities down to 10^-6 - 10^-8 (picobarns)."
+}

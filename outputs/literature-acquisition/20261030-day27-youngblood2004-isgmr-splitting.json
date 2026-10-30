@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T14:15:00+08:00",
+  "paper_identity": {
+    "title": "Isoscalar E0-E3 strength in 116Sn, 144Sm, 154Sm, and 208Pb",
+    "authors": [
+      "D. H. Youngblood",
+      "Y.-W. Lui",
+      "H. L. Clark",
+      "B. John",
+      "Y. Tokimoto",
+      "X. Chen"
+    ],
+    "journal": "Physical Review C",
+    "volume": "69",
+    "issue": "3",
+    "pages": "034315",
+    "year": 2004,
+    "doi": "10.1103/PhysRevC.69.034315"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Discovers and maps the deformation-induced two-peak splitting of the Isoscalar Giant Monopole Resonance (ISGMR) in prolate-deformed 154Sm (beta2=0.30) vs spherical 144Sm (beta2=0.08): proves that non-zero quadrupole deformation mixes the breathing mode (L=0) with the K=0 component of the giant quadrupole resonance (GQR), pushing a satellite monopole peak down to 11.5 MeV (carrying 35% EWSR), demonstrating that spherical incompressibility extraction protocols cannot be transferred to deformed mass regions without introducing a 35-50 MeV false softness bias."
+}

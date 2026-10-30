@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "task": "Multimodal coexistence and phase boundary topology solver across Chirality, Wobbling, MR, and AMR",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_74br_chiral_wobbling_coexistence": true,
+    "test_2_163lu_pure_wobbler": true,
+    "test_3_106cd_pure_amr": true,
+    "test_4_198pb_pure_mr": true
+  },
+  "cases": [
+    {
+      "name": "74Br_chiral_wobbler",
+      "nucleus": "74Br",
+      "deformation": {
+        "beta2": 0.38,
+        "gamma_deg": 27.0
+      },
+      "moments_of_inertia": {
+        "J_m": 23.93,
+        "J_s": 7.12,
+        "J_l": 4.95
+      },
+      "omega_crit_chiral_MeV": 0.408,
+      "hbar_omega_wobbling_MeV": 1.054,
+      "active_modes": [
+        "Nuclear Chirality",
+        "Transverse Wobbling"
+      ],
+      "topological_classification": "Coexisting Chiral-Wobbler (4-Band Quadruplet)"
+    },
+    {
+      "name": "163Lu_TSD_pure_wobbler",
+      "nucleus": "163Lu",
+      "deformation": {
+        "beta2": 0.4,
+        "gamma_deg": 20.0
+      },
+      "moments_of_inertia": {
+        "J_m": 41.38,
+        "J_s": 17.63,
+        "J_l": 4.99
+      },
+      "omega_crit_chiral_MeV": 999.0,
+      "hbar_omega_wobbling_MeV": 1.097,
+      "active_modes": [
+        "Transverse Wobbling"
+      ],
+      "topological_classification": "Transverse Wobbling"
+    },
+    {
+      "name": "106Cd_pure_AMR",
+      "nucleus": "106Cd",
+      "deformation": {
+        "beta2": 0.09,
+        "gamma_deg": 5.0
+      },
+      "moments_of_inertia": {
+        "J_m": 16.43,
+        "J_s": 13.42,
+        "J_l": 0.15
+      },
+      "omega_crit_chiral_MeV": 0.662,
+      "hbar_omega_wobbling_MeV": 0.0,
+      "active_modes": [
+        "Antimagnetic Rotation"
+      ],
+      "topological_classification": "Antimagnetic Rotation"
+    },
+    {
+      "name": "198Pb_pure_MR",
+      "nucleus": "198Pb",
+      "deformation": {
+        "beta2": 0.05,
+        "gamma_deg": 8.0
+      },
+      "moments_of_inertia": {
+        "J_m": 18.34,
+        "J_s": 13.25,
+        "J_l": 0.41
+      },
+      "omega_crit_chiral_MeV": 1.263,
+      "hbar_omega_wobbling_MeV": 0.0,
+      "active_modes": [
+        "Magnetic Rotation"
+      ],
+      "topological_classification": "Magnetic Rotation"
+    }
+  ],
+  "evidence_boundaries": {
+    "primary_papers": [
+      "Guo et al., Phys. Rev. Lett. 133, 142501 (2024)",
+      "Qureshie et al., Phys. Rev. C 113, 014310 (2026)",
+      "Chen, Frauendorf, Sun, Phys. Rev. C 94, 034308 (2016)",
+      "Tawseef et al., arXiv 2026",
+      "Clark & Macchiavelli, Annu. Rev. Nucl. Part. Sci. 50, 1 (2000)"
+    ],
+    "topological_law": "Establishes the unified orientation manifold: Nuclear Chirality and Transverse Wobbling coexist when triaxiality is large (gamma ~ 20-30 deg) and beta2 > 0.25, generating 4-band quadruplet networks as in 74Br; whereas Magnetic Rotation and Antimagnetic Rotation reside strictly in the weak deformation, near-axial domain (beta2 < 0.20, gamma < 15 deg), separated by the core quadrupole masking boundary and out-of-plane curvature bifurcation."
+  }
+}

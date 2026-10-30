@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-29T14:11:41.686294+00:00",
+  "run_id": "2026-10-29-day-27-01",
+  "active_session_id": "01a187b7-de86-7741-b813-d555e297b192",
+  "title": "Investigation of antimagnetic rotation in the N=46 odd-A isotones 83Rb and 85Y",
+  "authors": [
+    "Yi-Chun Hao",
+    "Ke-Yan Ma",
+    "Guo-Mo Zeng"
+  ],
+  "affiliation": "Jilin University, Changchun, China",
+  "journal": "Physical Review C",
+  "volume": "114",
+  "issue": "4",
+  "article_number": "044309",
+  "published": "2026-10-07",
+  "doi": "10.1103/4443-dlq4",
+  "canonical_source": "https://doi.org/10.1103/4443-dlq4",
+  "reading_depth": "metadata-and-abstract-audit",
+  "identity_check": "Crossref DOI 10.1103/4443-dlq4, WoS Starter query, OpenAlex entry, and official APS abstract verified verbatim.",
+  "abstract": "The possible antimagnetic rotation in the N=46 odd-A isotones 83Rb and 85Y is investigated using the cranked shell model combined with a particle-number-conserving method. For the positive-parity yrast bands in the two isotones, the angular-momentum alignments are reproduced well. The configurations of high-spin part in both bands are determined as pi g_9/2 (x) nu g_9/2^-4, by analyzing the occupation probability of each cranked Nilsson orbital near the Fermi surface. The calculated B(E2) values are small and decrease with the increasing rotational frequency, in agreement with the experiments; meanwhile, the two-shears-like mechanism is exhibited clearly. Therefore, the high-spin parts of the two bands, built on pi g_9/2 (x) nu g_9/2^-4 configuration, match the criteria of antimagnetic rotation, which is the first time that the antimagnetic rotation is revealed for odd-A nuclei in the A ~ 80 mass region.",
+  "scientific_significance": "Extends antimagnetic rotation to odd-A nuclei in the A~80 mass region; identifies configuration as single proton particle in g9/2 coupled with four neutron holes in g9/2."
+}

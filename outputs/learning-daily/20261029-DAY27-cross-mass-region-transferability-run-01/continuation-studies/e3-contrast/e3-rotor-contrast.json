@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T13:42:14.042768+00:00",
+  "status": "conditional-published-table-contrast",
+  "source": "knowledge/sources/butler-2020-222-228ra-octupole-evolution.md",
+  "rotor_ratio_exact": "-sqrt(4/3)",
+  "rotor_ratio_float": -1.1547005383792515,
+  "normalization": "K=0, single Q3, common adopted state-phase convention",
+  "data": [
+    {
+      "nucleus": "222Ra",
+      "m03": 1.13,
+      "m03_error": 0.09,
+      "m23": -0.9,
+      "m23_error_low": 0.5,
+      "m23_error_high": 0.5,
+      "m23_starred": false,
+      "rotor_prediction_m23": -1.304811608368554,
+      "central_m23_over_m03": -0.7964601769911506,
+      "contrast_m23_minus_rotor_prediction": 0.4048116083685539,
+      "printed_input_endpoint_box": [
+        -0.19911144008557868,
+        1.008734656822687
+      ],
+      "box_contains_zero": true,
+      "source_locator": "Butler2020 PRL PDF p3 Table I, 0+||E3||3- and 2+||E3||3-",
+      "units": "e b^(3/2)"
+    },
+    {
+      "nucleus": "228Ra",
+      "m03": 0.87,
+      "m03_error": 0.15,
+      "m23": -0.06,
+      "m23_error_low": 0.16,
+      "m23_error_high": 0.23,
+      "m23_starred": true,
+      "rotor_prediction_m23": -1.0045894683899488,
+      "central_m23_over_m03": -0.06896551724137931,
+      "contrast_m23_minus_rotor_prediction": 0.9445894683899487,
+      "printed_input_endpoint_box": [
+        0.611384387633061,
+        1.3477945491468364
+      ],
+      "box_contains_zero": false,
+      "source_locator": "Butler2020 PRL PDF p3 Table I, 0+||E3||3- and 2+||E3||3-",
+      "units": "e b^(3/2)"
+    }
+  ],
+  "gaussian_covariance_control_222Ra_only": [
+    {
+      "assumed_correlation": -1,
+      "conditional_sigma_contrast": 0.3960769515458673
+    },
+    {
+      "assumed_correlation": 0,
+      "conditional_sigma_contrast": 0.5106858133921481
+    },
+    {
+      "assumed_correlation": 1,
+      "conditional_sigma_contrast": 0.6039230484541326
+    }
+  ],
+  "boundary": [
+    "Input endpoint boxes are not simultaneous confidence regions.",
+    "Quoted errors include chi-square and systematic contributions.",
+    "228Ra M23 is a coupled/starred parameter; no independence assumed.",
+    "No likelihood ratio, posterior odds, or experimental significance computed.",
+    "No full closure sum or fourth octupole moment reconstructed.",
+    "A phase convention must be fixed consistently with the E2/E3 network."
+  ]
+}

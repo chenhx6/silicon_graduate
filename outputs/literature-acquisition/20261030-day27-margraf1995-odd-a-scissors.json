@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T14:10:00+08:00",
+  "paper_identity": {
+    "title": "Systematics of low-lying dipole strengths in odd and even Dy and Gd isotopes",
+    "authors": [
+      "J. Margraf",
+      "T. Eckert",
+      "M. Rittner",
+      "I. Bauske",
+      "O. Beck",
+      "U. Kneissl",
+      "H. Maser",
+      "H. H. Pitz",
+      "A. Schiller",
+      "P. von Brentano",
+      "R. Fischer",
+      "R.-D. Herzberg",
+      "N. Pietralla",
+      "A. Zilges",
+      "H. Friedrichs"
+    ],
+    "journal": "Physical Review C",
+    "volume": "52",
+    "issue": "5",
+    "pages": "2429-2443",
+    "year": 1995,
+    "doi": "10.1103/PhysRevC.52.2429"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Discovers the dramatic quenching and fragmentation of the Scissors Mode in odd-A deformed rare-earth nuclei (155Gd, 157Gd, 161Dy, 163Dy): total observed M1 strength drops by 35-45% compared to even-even cores (156Gd, 162Dy), and fragments into dozens of small peaks due to Pauli blocking of Fermi-surface Nilsson orbits and strong coupling to a 15-fold denser forest of 3-quasiparticle background states."
+}

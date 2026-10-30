@@ -1,0 +1,4 @@
+orbitals,delta_j,delta_l,reduced_matrix_element_ho,octupole_driving_status,physical_role
+pi h11/2 <-> pi d5/2,3,3,5.038,Strongly Enhanced,Primary proton octupole driving resonance (Delta j=Delta l=3)
+pi h11/2 <-> pi g7/2,2,1,0.0,Suppressed/Forbidden,Octupole-forbidden by Delta l = 1 (vanishing direct Y30 overlap)
+nu h11/2 <-> nu d5/2,3,3,5.038,Strongly Enhanced,Neutron octupole driving resonance (subdominant in N=75)

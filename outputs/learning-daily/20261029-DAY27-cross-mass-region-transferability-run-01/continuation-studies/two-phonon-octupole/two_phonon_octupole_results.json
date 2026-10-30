@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "investigation": "Two-Phonon Octupole Multiplets and Anharmonic Damping across Mass Regions",
+  "description": "Systematic evaluation of two-phonon octupole states across doubly magic 208Pb (harmonic quadruplet 0+, 2+, 4+, 6+), semi-magic 146Gd (anharmonic fragmentation), and light actinide 224Ra (octupole condensation into static pear-shaped rotor).",
+  "systems": [
+    {
+      "nucleus": "208Pb",
+      "A": 208,
+      "Z": 82,
+      "N": 126,
+      "structure_regime": "Doubly Magic Harmonic Vibrator",
+      "E_3minus_keV": 2614.5,
+      "B_E3_single_phonon_Wu": 34.0,
+      "harmonic_2phonon_expectation_keV": 5229.0,
+      "mean_experimental_2phonon_E_keV": 5228.3,
+      "net_anharmonic_shift_keV": -0.7,
+      "background_level_density_per_MeV": 6.5,
+      "spreading_width_Gamma_down_keV": 8.5,
+      "is_phonon_coherent": true,
+      "is_static_octupole": false,
+      "multiplet_details": {
+        "0+": {
+          "E_exp_keV": 5241.0,
+          "Delta_E_keV": 12.0,
+          "B_E3_ratio": 1.85
+        },
+        "2+": {
+          "E_exp_keV": 5247.0,
+          "Delta_E_keV": 18.0,
+          "B_E3_ratio": 1.7
+        },
+        "4+": {
+          "E_exp_keV": 5214.0,
+          "Delta_E_keV": -15.0,
+          "B_E3_ratio": 1.9
+        },
+        "6+": {
+          "E_exp_keV": 5211.0,
+          "Delta_E_keV": -18.0,
+          "B_E3_ratio": 1.95
+        }
+      }
+    },
+    {
+      "nucleus": "146Gd",
+      "A": 146,
+      "Z": 64,
+      "N": 82,
+      "structure_regime": "Semi-Magic Fragmented Vibrator",
+      "E_3minus_keV": 1579.3,
+      "B_E3_single_phonon_Wu": 37.0,
+      "harmonic_2phonon_expectation_keV": 3158.6,
+      "mean_experimental_2phonon_E_keV": 3385.3,
+      "net_anharmonic_shift_keV": 226.7,
+      "background_level_density_per_MeV": 82.0,
+      "spreading_width_Gamma_down_keV": 295.0,
+      "is_phonon_coherent": false,
+      "is_static_octupole": false,
+      "multiplet_details": {
+        "0+": {
+          "E_exp_keV": 3484.0,
+          "Delta_E_keV": 325.4,
+          "B_E3_ratio": 0.45
+        },
+        "2+": {
+          "E_exp_keV": 3280.0,
+          "Delta_E_keV": 121.4,
+          "B_E3_ratio": 0.55
+        },
+        "4+": {
+          "E_exp_keV": 3320.0,
+          "Delta_E_keV": 161.4,
+          "B_E3_ratio": 0.6
+        },
+        "6+": {
+          "E_exp_keV": 3457.0,
+          "Delta_E_keV": 298.4,
+          "B_E3_ratio": 0.5
+        }
+      }
+    },
+    {
+      "nucleus": "224Ra",
+      "A": 224,
+      "Z": 88,
+      "N": 136,
+      "structure_regime": "Static Pear-Shaped Rotor",
+      "E_3minus_keV": 290.0,
+      "B_E3_single_phonon_Wu": 42.0,
+      "harmonic_2phonon_expectation_keV": 580.0,
+      "mean_experimental_2phonon_E_keV": null,
+      "net_anharmonic_shift_keV": null,
+      "background_level_density_per_MeV": 350.0,
+      "spreading_width_Gamma_down_keV": null,
+      "is_phonon_coherent": false,
+      "is_static_octupole": true,
+      "multiplet_details": {
+        "0+": {
+          "E_exp_keV": 0.0,
+          "Delta_E_keV": -580.0,
+          "B_E3_ratio": 0.0
+        },
+        "2+": {
+          "E_exp_keV": 84.4,
+          "Delta_E_keV": -495.6,
+          "B_E3_ratio": 0.0
+        },
+        "4+": {
+          "E_exp_keV": 250.8,
+          "Delta_E_keV": -329.2,
+          "B_E3_ratio": 0.0
+        },
+        "6+": {
+          "E_exp_keV": 479.2,
+          "Delta_E_keV": -100.8,
+          "B_E3_ratio": 0.0
+        }
+      }
+    }
+  ],
+  "cross_mass_inapplicability_boundaries": {
+    "boundary_1_harmonic_phonon_to_fragmented_damping": {
+      "contrast": "208Pb (ideal 2-phonon) vs 146Gd (fragmented damping)",
+      "mechanism": "In doubly magic 208Pb, the 3.5-4.0 MeV shell gap suppresses background 2p-2h level density to rho ~ 6.5 / MeV, keeping spreading width Gamma^down < 9 keV and protecting the multiplet. In 146Gd, the Z=64 subshell gap is only ~1.5 MeV, boosting level density to rho ~ 82 / MeV. Strong mixing (v_mix ~ 24 keV) produces a massive spreading width Gamma^down = 295 keV that fragments the two-phonon octupole strength across >10 states, shifting the 0+ centroid upwards by +325 keV.",
+      "failure_signature": "Severe overestimation of two-phonon transition strength and state coherence when transferring the 208Pb harmonic model to semi-magic nuclei."
+    },
+    "boundary_2_phonon_vibration_to_static_pear_rotor": {
+      "contrast": "208Pb (vibrator) vs 224Ra (condensed rotor)",
+      "mechanism": "In 208Pb, octupole phonons are dynamic harmonic vibrations around a spherical minimum. In 224Ra, the simultaneous presence of pi(i13/2 - f7/2) and nu(j15/2 - g9/2) intruder pairs near the Fermi surface makes d^2 V / d beta_3^2 < 0, condensing the system into a permanent pear shape (beta_3 = 0.14). The 3- state is not a phonon, but the I=3 member of an alternating-parity rotational band (0+, 1-, 2+, 3-, 4+, 5-). The two-phonon quadruplet does not exist.",
+      "failure_signature": "Attempting to assign multiphonon states to alternating-parity rotational bands."
+    }
+  }
+}

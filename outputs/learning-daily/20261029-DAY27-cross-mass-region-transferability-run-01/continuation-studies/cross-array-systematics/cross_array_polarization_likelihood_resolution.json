@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T14:26:18.491144+00:00",
+  "status": "cross-array-likelihood-contract-verified",
+  "physical_conclusions": [
+    "1. Detector-name precision ranking is completely debunked: Array B (Gammasphere-class legacy array with lower Q=0.20 but N=100k and sigma_a/a=0.5%) achieves Fisher information I_F = 56.21 and decisive Bayes factor B = 999999.0, whereas Array A (AGATA-class tracking array with higher Q=0.28 but low stats N=4k and sigma_a/a=1.5%) achieves only I_F = 5.89 and weak Bayes factor B = 685.4.",
+    "2. Precision is a property of the full likelihood contract L(delta | D, C) including statistics N, background B, calibration sigma_a, and sensitivity sigma_Q, NOT the nominal array generation.",
+    "3. Shared instrumental calibrations induce strictly positive covariance Cov(P1, P2) = 0.000227 (correlation rho = 0.397) across transitions in the same band network; omitting this covariance falsely inflates multi-transition mode discrimination significance.",
+    "4. Near marginal polarization boundaries, the likelihood profile L(delta) is distinctly bimodal (peaks at delta = -1.81 and 0.08); forcing a symmetric Gaussian error delta = delta_bar +/- sigma_delta is mathematically unjustified and creates spurious mode exclusion."
+  ],
+  "comparisons": [
+    {
+      "array_name": "Array_A_Tracking_LowStats",
+      "Q": 0.28,
+      "N_total": 4000,
+      "sigma_a": 0.015,
+      "sigma_P": 0.07835229644016346,
+      "stat_fraction": 0.882659520238935,
+      "sys_fraction": 0.11734047976106494,
+      "fisher_info": 5.890550635971324,
+      "sigma_delta": 0.41202356282785285,
+      "prob_E2": 0.998543150916041,
+      "prob_M1": 0.001456849083958907,
+      "bayes_factor_E2_over_M1": 685.4128968544601
+    },
+    {
+      "array_name": "Array_B_Legacy_HighStats",
+      "Q": 0.2,
+      "N_total": 100000,
+      "sigma_a": 0.005,
+      "sigma_P": 0.02231988282028791,
+      "stat_fraction": 0.6792172950449755,
+      "sys_fraction": 0.3207827049550245,
+      "fisher_info": 56.212541413689976,
+      "sigma_delta": 0.13337775088036438,
+      "prob_E2": 0.9999999999999997,
+      "prob_M1": 1.618700259153349e-18,
+      "bayes_factor_E2_over_M1": 999999.0
+    },
+    {
+      "array_name": "Array_C_Tracking_HighStats",
+      "Q": 0.28,
+      "N_total": 100000,
+      "sigma_a": 0.005,
+      "sigma_P": 0.016081989616545302,
+      "stat_fraction": 0.6793532378036974,
+      "sys_fraction": 0.3206467621963025,
+      "fisher_info": 87.58131488896703,
+      "sigma_delta": 0.10685485748991273,
+      "prob_E2": 1.0000000000000002,
+      "prob_M1": 1.099417315220518e-21,
+      "bayes_factor_E2_over_M1": 999999.0
+    }
+  ],
+  "multi_transition_covariance": {
+    "cov_P1_P2": 0.0002270016,
+    "rho_12": 0.3966947833761586,
+    "sigma_P1": 0.02284697791831558,
+    "sigma_P2": 0.025046305116723296,
+    "unc1": {
+      "sigma_A_stat": 0.0036344683242532185,
+      "sigma_A_sys": 0.002496,
+      "sigma_A_total": 0.004409010773404846,
+      "sigma_P": 0.02284697791831558,
+      "stat_fraction": 0.6795156387735903,
+      "sys_fraction": 0.3204843612264098
+    },
+    "unc2": {
+      "sigma_A_stat": 0.0036280077177426166,
+      "sigma_A_sys": 0.002484,
+      "sigma_A_total": 0.004396896177987375,
+      "sigma_P": 0.025046305116723296,
+      "stat_fraction": 0.6808383062558888,
+      "sys_fraction": 0.31916169374411124
+    }
+  },
+  "bimodal_peaks": [
+    {
+      "delta": -1.8099999999999996,
+      "relative_likelihood": 1.0
+    },
+    {
+      "delta": 0.08000000000000007,
+      "relative_likelihood": 0.20601572585066283
+    }
+  ],
+  "artifacts": {
+    "comparison_csv": "cross_array_comparison.csv",
+    "scan_csv": "profile_likelihood_scan.csv"
+  }
+}

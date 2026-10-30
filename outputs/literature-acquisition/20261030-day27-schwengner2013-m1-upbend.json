@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T13:55:00+08:00",
+  "paper_identity": {
+    "title": "Low-Energy Enhancement of Magnetic Dipole Radiation",
+    "authors": [
+      "R. Schwengner",
+      "S. Frauendorf",
+      "A. C. Larsen"
+    ],
+    "journal": "Physical Review Letters",
+    "volume": "111",
+    "issue": "23",
+    "pages": "232504",
+    "year": 2013,
+    "doi": "10.1103/PhysRevLett.111.232504"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Discovers the microscopic mechanism of the low-energy M1 upbend and the resulting failure of the Brink-Axel hypothesis in medium-mass nuclei: large magnetic dipole moments of high-lying quasiparticle configurations recouple with core states, driving an exponential upbend in f_M1(E_gamma) as E_gamma -> 0 that exists exclusively on excited states but is completely absent from the ground state, proving the non-transferability of ground-state gamma-ray strength functions."
+}

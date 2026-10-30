@@ -3,7 +3,7 @@ type: source
 title: "Signatures of gamma softness or triaxiality in low energy nuclear spectra"
 aliases: []
 created: 2026-07-01
-updated: 2026-07-02
+updated: 2026-10-30
 status: active
 review_status: human-reviewed
 source_type: journal-article-phenomenology
@@ -115,7 +115,7 @@ Physics Letters B 260 (1991) 265-270。PDF 正文完整，共 6 页。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
-| ZC91-D21-1 | 依据推断阶梯审计，准 gamma 带交错指标 S(4) 构成分水岭检验：(1) Davydov 刚性三轴极限（gamma=30°）导出 S(4) = +1.67（成对序列 2+, (3+,4+), (5+,6+)），Wilets-Jean / O(6) gamma-软势极限导出 S(4) = -2.00（成对序列 (2+,3+), (4+,5+)）；(2) A≈130 区域三轴候选核（130Ba S4=-0.941，128Xe S4=-0.647，76Ge S4=-1.240）普遍呈现压倒性的负交错，与刚性三轴预测符号严格相反；(3) 结合四阶不变量方差 sigma^2(cos 3gamma) ~ 0.33，排他性证实这些原子核属于动态 gamma-软涨落核，彻底排除静态刚性三轴主张；(4) 确立“严禁仅凭低能态能量拟合断言刚性三轴”的核心证据门准则。 | source-result-and-criterion | derived-and-boundary | pp.1-4, Eqs.2-5; gamma-staggering-s4-audit-020.json | true |
+| ZC91-D21-1 | withdrawn at Day27 checkpoint045：旧条目把模型成对分组写反，并以未经本轮核验的核素能级/方差排除76Ge刚性解释；此认证撤回。使用ZC91-1/2/4及ZC91-D27-R045-1/2的正确极限与适用范围，不沿用旧核素判决。 | withdrawn-task-certification | rejected-and-replaced | Day27 raw PDF2–4, printed266–268; original Eq.(2), Eq.(4) and Fig.2 | true |
 
 
 ## Day22 checkpoint091 直接原件纠错
@@ -125,3 +125,14 @@ Physics Letters B 260 (1991) 265-270。PDF 正文完整，共 6 页。
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | ZC91-D22-R091-1 | S(4,3,2)在Wilets–Jean和γ=30° Davydov理想极限为−2和+1.67；但很弱γ依赖已会使S迅速变化，接近零的值不意味着势面处于中间刚度。此低能偶偶核判据不提供奇A高自旋wobbling可行性的正负号充要门。 | model-limit-and-inference-boundary | direct-original | printed pp.267–268, Eq.(2), Fig.2 and paragraph beginning “pendence on the potential” | true |
+
+## Day27 checkpoint045：原件符号核验与条件反例
+
+本次定向读取本地6页PDF的PDF1–4（printed265–268）文字，视觉核PDF3/printed267的Eq.(2)、能量示例和Eq.(4)；原SHA-256保持 `faa1b32dfa651fc613a9c4bac87c2c4b569d1bd725939580ea5ee3744d8c963a`。不声称重读全部参考文献或核验任何新核素能级。原page-level `human-reviewed`仅保留既有范围，新增条目为agent self-audit。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZC91-D27-R045-1 | Eq.(2)以E(2₁)归一。原文Wilets–Jean的E(2γ,3γ,4γ)=(2.5,4.5,4.5)，S₄=−2；γ=30° Davydov为(2,3,5.67)，S₄≈+1.67。分组分别为单立2、(3,4)、(5,6)与(2,3)、(4,5)、(6,7)。Day27旧程序的−1.75/+0.65及反向分类撤回。 | source-definition-and-model-limit | direct-original-and-visual | printed266 couplet paragraph; printed267 Eq.(2) and example immediately below | true |
+| ZC91-D27-R045-2 | 原文说明S近零不意味着势能刚度处于中间。Eq.(4)给E=Bτ(τ+3)+CJ(J+1)，本任务对固定τ=2/3/3的γ带推导S₄=(−8B+2C)/(4B+6C)，可在自设C/B=4穿零；这是未引入γ依赖势的合成能谱反例，不是作者报告的新核素相变。作者实际比较取C=0并说经验C通常小。 | direct-source-boundary-and-task-derived-counterexample | source-plus-explicit-task-derivation | printed267 Eq.(4) and C=0 discussion; printed268 paragraph following Fig.2 | true |
+
+Knowledge Impact and Learning Decision：revises [[gamma-rigid-vs-soft-staggering-and-phase-boundary]] 的反号模型、旧八核分类和零点相变认证；supports明确归一、分支身份与势/动能项区分的诊断。独立D₂矩阵复算属于本任务模型验证，不增加独立实验证据；Ayangeakaa2019高阶矩解释保持其原范围和竞争解释。

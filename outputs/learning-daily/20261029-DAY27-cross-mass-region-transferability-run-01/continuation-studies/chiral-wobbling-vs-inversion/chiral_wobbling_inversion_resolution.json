@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T15:11:18.968921+00:00",
+  "status": "chiral-wobbling-inversion-resolved",
+  "physical_conclusions": [
+    "1. Chiral doublets and signature-inverted bands are distinguished by energy staggering phase locking: signature inversion exhibits a 180-degree sign flip in S(I) and B(M1)/B(E2) at I_inv, whereas chiral partner bands maintain strictly in-phase staggering S_1(I) ~ S_2(I) without inversion.",
+    "2. Interband multipolarity decisively discriminates wobbling from signature partners: wobbling excitations (such as 74Br B3 -> B1) are dominated by electric quadrupole radiation (|delta| > 1.0, E2 photon fraction > 90%, P > 0), whereas signature-partner transitions are magnetic dipole dominated (|delta| << 1.0, P < 0).",
+    "3. The Q0 ratio test (Petrache 2006) provides an essential gate: candidate chiral partners must have identical intrinsic quadrupole deformation Q0,1 / Q0,2 = 1.0 +/- 0.15; the factor-of-two discrepancy Q0,1 / Q0,2 = 2.0(4) in 134Pr definitively proved that its near-degeneracy is an accidental configuration crossing rather than chiral symmetry breaking.",
+    "4. In 74Br, the combination of DSAM lifetimes, ADO ratios, and linear polarization confirms that B1/B2 form an in-phase chiral doublet candidate, while B3 represents an E2-dominated transverse wobbler, supporting the unique same-configuration composite chiral-wobbler classification."
+  ],
+  "chiral_energy_separation": [
+    {
+      "spin_I": 6,
+      "Delta_E_chiral_keV": 349.9
+    },
+    {
+      "spin_I": 7,
+      "Delta_E_chiral_keV": 299.3
+    },
+    {
+      "spin_I": 8,
+      "Delta_E_chiral_keV": 239.0
+    },
+    {
+      "spin_I": 9,
+      "Delta_E_chiral_keV": 173.1
+    },
+    {
+      "spin_I": 10,
+      "Delta_E_chiral_keV": 117.2
+    },
+    {
+      "spin_I": 11,
+      "Delta_E_chiral_keV": 75.6
+    },
+    {
+      "spin_I": 12,
+      "Delta_E_chiral_keV": 42.0
+    }
+  ],
+  "wobbling_frequencies": [
+    {
+      "spin_I": 8,
+      "hw_wobbling_keV": 634.9
+    },
+    {
+      "spin_I": 9,
+      "hw_wobbling_keV": 710.6
+    },
+    {
+      "spin_I": 10,
+      "hw_wobbling_keV": 806.7
+    },
+    {
+      "spin_I": 11,
+      "hw_wobbling_keV": 902.6
+    }
+  ],
+  "discrimination_matrix": [
+    {
+      "observable_criterion": "Energy Staggering S(I)",
+      "signature_inversion": "Flips sign at critical inversion spin I_inv (S < 0 -> S > 0)",
+      "chiral_doublets": "Phase-locked in both bands (S_1(I) ~ S_2(I)), no sign inversion",
+      "wobbling_phonon": "Distinct Delta I = 1 displacement, strictly positive hw_w > 0"
+    },
+    {
+      "observable_criterion": "Energy Separation Delta E(I)",
+      "signature_inversion": "Oscillating alternating sign (-1)^I Delta E with large splitting",
+      "chiral_doublets": "Smooth monotonic contraction toward degeneracy (Delta E -> 0)",
+      "wobbling_phonon": "Decays toward Jc in TW or grows linearly in LW"
+    },
+    {
+      "observable_criterion": "B(M1)/B(E2) Intraband Staggering",
+      "signature_inversion": "Dramatic zig-zag staggering, phase flips 180 deg at I_inv",
+      "chiral_doublets": "In-phase, smooth, nearly equal staggering in both bands",
+      "wobbling_phonon": "Smooth intraband, no zigzag inversion"
+    },
+    {
+      "observable_criterion": "Interband Multipolarity",
+      "signature_inversion": "Dominated by M1 (|delta| << 1, P < 0)",
+      "chiral_doublets": "Dominated by M1 (selection rule, |delta| << 1, P < 0)",
+      "wobbling_phonon": "Dominated by E2 (|delta| >> 1, E2 fraction > 90%, P > 0)"
+    },
+    {
+      "observable_criterion": "3D Angular Momentum Vector",
+      "signature_inversion": "Planar 2D tilted rotation (J_y == 0 or J_z == 0)",
+      "chiral_doublets": "Non-coplanar 3D rotation (Jx != 0, Jy != 0, Jz != 0)",
+      "wobbling_phonon": "Oscillations around stationary principal axis"
+    },
+    {
+      "observable_criterion": "Intrinsic Quadrupole Moment Q0",
+      "signature_inversion": "Can be different if band crossing occurs",
+      "chiral_doublets": "MUST be identical: Q0,1 / Q0,2 = 1.0 +/- 0.15",
+      "wobbling_phonon": "Identical within core phonon excitation: Q0,3 ~ Q0,1"
+    }
+  ],
+  "artifacts": {
+    "staggering_csv": "staggering_and_energy_trajectories.csv",
+    "criteria_matrix_csv": "mode_discrimination_criteria_matrix.csv"
+  }
+}

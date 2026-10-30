@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "task": "Day27 continuation research: 198Bi primary MR shears source ingestion",
+  "created_at_utc": "2026-10-30T00:30:00Z",
+  "status": "completed-bounded-source-task",
+  "integration_status": "parent-owned; index/handoff/Bib/Git/Day27 time gate and publication untouched",
+  "write_authorization": {
+    "source_note": "knowledge/sources/pai-2014-198bi-multiquasiparticle-magnetic-rotation.md",
+    "receipt": "outputs/literature-acquisition/20261029-day27-pai2014-bi198.json",
+    "new_raw_incoming": "raw/papers/gpt/_incoming/20261029-day27-bi198/",
+    "scratch": "tmp/day27-bi198/",
+    "no_git_mutations": true,
+    "no_child_agents": true,
+    "protected_script_not_touched": "system/scripts/run_daily_learning_daemon.py"
+  },
+  "source_identity": {
+    "title": "Crossing of large multiquasiparticle magnetic-rotation bands in 198Bi",
+    "arxiv": "1406.5494v3",
+    "journal": "Physical Review C",
+    "volume": "90",
+    "issue": "6",
+    "article_number": "064314",
+    "year": 2014,
+    "doi": "10.1103/PhysRevC.90.064314",
+    "published_online": "2014-12-22",
+    "arxiv_first_submitted_utc": "2014-06-20T17:49:03Z",
+    "arxiv_v3_submitted_utc": "2014-12-23T01:20:01Z",
+    "pdf_titlepage_date": "2014-12-22",
+    "verified_via": [
+      "official arXiv version landing page",
+      "Crossref APS-deposited DOI record",
+      "official APS article landing page"
+    ]
+  },
+  "raw_file_metadata": {
+    "path": "raw/papers/gpt/_incoming/20261029-day27-bi198/Crossing_of_large_multiquasiparticle_magnetic_rotation_bands_in_198Bi.pdf",
+    "sha256": "464d4deb3317e16688fe49de136cbaff91f4dc1a7f570243d2143c74ebd1c5e0",
+    "pages": 11,
+    "source_tar_extracted": true
+  }
+}

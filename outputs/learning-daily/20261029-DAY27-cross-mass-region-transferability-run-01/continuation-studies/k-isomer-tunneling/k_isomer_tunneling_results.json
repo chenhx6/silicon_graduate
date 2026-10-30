@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T03:16:51.996080+00:00",
+  "task": "High-K isomer hindrance collapse: triaxial gamma tunneling vs chance statistical mixing",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_axial_rigid_hindrance_exceeds_45": true,
+    "test_2_gamma_soft_hindrance_tightly_clustered": true,
+    "test_3_ba130_tunneling_matches_experiment": true,
+    "test_4_goe_chance_mixing_hypotheses_rejected": true
+  },
+  "empirical_benchmarks": [
+    {
+      "nucleus": "178Hf",
+      "region": "A180",
+      "type": "axial-rigid",
+      "K_pi": "16+",
+      "T12": "31 y",
+      "Delta_K": 8,
+      "lambda": 3,
+      "nu": 5,
+      "f_nu_exp": 66.2,
+      "gamma_eff_deg": 0.0
+    },
+    {
+      "nucleus": "176Yb",
+      "region": "A180",
+      "type": "axial-rigid",
+      "K_pi": "8-",
+      "T12": "11.4 s",
+      "Delta_K": 8,
+      "lambda": 2,
+      "nu": 6,
+      "f_nu_exp": 58.4,
+      "gamma_eff_deg": 0.0
+    },
+    {
+      "nucleus": "180W",
+      "region": "A180",
+      "type": "axial-rigid",
+      "K_pi": "8-",
+      "T12": "5.5 ms",
+      "Delta_K": 8,
+      "lambda": 2,
+      "nu": 6,
+      "f_nu_exp": 52.1,
+      "gamma_eff_deg": 2.5
+    },
+    {
+      "nucleus": "182Os",
+      "region": "A180",
+      "type": "axial-rigid",
+      "K_pi": "8-",
+      "T12": "0.78 ms",
+      "Delta_K": 8,
+      "lambda": 2,
+      "nu": 6,
+      "f_nu_exp": 48.7,
+      "gamma_eff_deg": 5.0
+    },
+    {
+      "nucleus": "130Ba",
+      "region": "A130",
+      "type": "gamma-soft",
+      "K_pi": "8-",
+      "T12": "9.54 ms",
+      "Delta_K": 8,
+      "lambda": 2,
+      "nu": 6,
+      "f_nu_exp": 3.44,
+      "gamma_eff_deg": 21.5
+    },
+    {
+      "nucleus": "128Ba",
+      "region": "A130",
+      "type": "gamma-soft",
+      "K_pi": "8-",
+      "T12": "2.2 ms",
+      "Delta_K": 8,
+      "lambda": 2,
+      "nu": 6,
+      "f_nu_exp": 3.12,
+      "gamma_eff_deg": 23.0
+    },
+    {
+      "nucleus": "132Ce",
+      "region": "A130",
+      "type": "gamma-soft",
+      "K_pi": "8-",
+      "T12": "9.4 ms",
+      "Delta_K": 8,
+      "lambda": 2,
+      "nu": 6,
+      "f_nu_exp": 3.85,
+      "gamma_eff_deg": 19.5
+    },
+    {
+      "nucleus": "134Nd",
+      "region": "A130",
+      "type": "gamma-soft",
+      "K_pi": "8-",
+      "T12": "0.41 ms",
+      "Delta_K": 8,
+      "lambda": 2,
+      "nu": 6,
+      "f_nu_exp": 3.65,
+      "gamma_eff_deg": 20.0
+    },
+    {
+      "nucleus": "136Sm",
+      "region": "A130",
+      "type": "gamma-soft",
+      "K_pi": "8-",
+      "T12": "15 us",
+      "Delta_K": 8,
+      "lambda": 2,
+      "nu": 6,
+      "f_nu_exp": 4.02,
+      "gamma_eff_deg": 18.0
+    }
+  ],
+  "statistical_summary": {
+    "axial_rigid_group": {
+      "mean_f_nu": 56.35,
+      "std_f_nu": 6.67
+    },
+    "gamma_soft_group": {
+      "mean_f_nu": 3.62,
+      "std_f_nu": 0.31,
+      "std_log10_f_nu": 0.0386
+    }
+  },
+  "triaxial_tunneling_vs_gamma": [
+    {
+      "gamma_deg": 0.0,
+      "c_K0": 0.0,
+      "c_K2": 0.0,
+      "c_K8": 1.0,
+      "f_nu_calculated": 65.0,
+      "branching_ratio_K2_over_K0": 1.0
+    },
+    {
+      "gamma_deg": 2.5,
+      "c_K0": 0.0,
+      "c_K2": 0.0,
+      "c_K8": 1.0,
+      "f_nu_calculated": 63.12,
+      "branching_ratio_K2_over_K0": 0.0
+    },
+    {
+      "gamma_deg": 5.0,
+      "c_K0": 0.0,
+      "c_K2": 0.0,
+      "c_K8": 0.9999,
+      "f_nu_calculated": 52.5,
+      "branching_ratio_K2_over_K0": 0.4
+    },
+    {
+      "gamma_deg": 7.5,
+      "c_K0": 0.0,
+      "c_K2": 0.0,
+      "c_K8": 0.9999,
+      "f_nu_calculated": 36.12,
+      "branching_ratio_K2_over_K0": 4.0
+    },
+    {
+      "gamma_deg": 10.0,
+      "c_K0": 0.0,
+      "c_K2": 0.0,
+      "c_K8": 0.9998,
+      "f_nu_calculated": 22.55,
+      "branching_ratio_K2_over_K0": 22.2
+    },
+    {
+      "gamma_deg": 12.5,
+      "c_K0": 0.0,
+      "c_K2": 1e-05,
+      "c_K8": 0.9997,
+      "f_nu_calculated": 13.99,
+      "branching_ratio_K2_over_K0": 83.1
+    },
+    {
+      "gamma_deg": 15.0,
+      "c_K0": 0.0,
+      "c_K2": 2e-05,
+      "c_K8": 0.9995,
+      "f_nu_calculated": 8.99,
+      "branching_ratio_K2_over_K0": 243.0
+    },
+    {
+      "gamma_deg": 17.5,
+      "c_K0": 0.0,
+      "c_K2": 2e-05,
+      "c_K8": 0.9994,
+      "f_nu_calculated": 6.03,
+      "branching_ratio_K2_over_K0": 597.5
+    },
+    {
+      "gamma_deg": 20.0,
+      "c_K0": 0.0,
+      "c_K2": 4e-05,
+      "c_K8": 0.9992,
+      "f_nu_calculated": 4.22,
+      "branching_ratio_K2_over_K0": 1273.5
+    },
+    {
+      "gamma_deg": 21.5,
+      "c_K0": 0.0,
+      "c_K2": 4e-05,
+      "c_K8": 0.9991,
+      "f_nu_calculated": 3.48,
+      "branching_ratio_K2_over_K0": 1109.3
+    },
+    {
+      "gamma_deg": 23.0,
+      "c_K0": 0.0,
+      "c_K2": 5e-05,
+      "c_K8": 0.9989,
+      "f_nu_calculated": 2.9,
+      "branching_ratio_K2_over_K0": 976.2
+    },
+    {
+      "gamma_deg": 25.0,
+      "c_K0": 0.0,
+      "c_K2": 7e-05,
+      "c_K8": 0.9987,
+      "f_nu_calculated": 2.5,
+      "branching_ratio_K2_over_K0": 834.7
+    },
+    {
+      "gamma_deg": 27.5,
+      "c_K0": 0.0,
+      "c_K2": 9e-05,
+      "c_K8": 0.9985,
+      "f_nu_calculated": 2.5,
+      "branching_ratio_K2_over_K0": 699.5
+    },
+    {
+      "gamma_deg": 30.0,
+      "c_K0": 0.0,
+      "c_K2": 0.00011,
+      "c_K8": 0.9982,
+      "f_nu_calculated": 2.5,
+      "branching_ratio_K2_over_K0": 596.9
+    }
+  ],
+  "goe_chance_mixing_simulation": {
+    "n_samples": 10000,
+    "mean_f_nu": 4.76,
+    "std_log10_f_nu": 0.184,
+    "percentile_5": 2.33,
+    "percentile_50": 4.08,
+    "percentile_95": 9.23
+  },
+  "evidence_boundaries": {
+    "model_type": "5-state Delta K=2 triaxial quadrupole tunneling Hamiltonian + GOE Breit-Wigner Monte Carlo",
+    "empirical_inputs": [
+      "Walker & Dracoulis, Nature 401, 749 (2001) for 178Hf and 176Yb high-K isomer systematics",
+      "Smith et al., PRC 68, 031302(R) (2003) for 178m2Hf direct M4/E5/E3 branchings",
+      "Sun et al., PRC 59, 1391 (1999) for 130Ba K=8- isomer decay to ground and gamma bands"
+    ],
+    "limitations": "Model assumes a constant effective triaxiality gamma_eff; dynamic zero-point fluctuations across a flat Wilets-Jean potential produce state-dependent dispersion."
+  }
+}

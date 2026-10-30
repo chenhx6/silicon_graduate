@@ -207,3 +207,8 @@ D在PDF纵向坐标直接计算，轴的共同平移/尺度不影响它，实际
 矩阵例明确采用T=((1,1),(0,1))，将两条正交unitaxes变成(1,0)与(1,1)，夹角45°，parallel仍保持；不把它与057的观测纵轴共同单位变换D不变混为同一性质。AR控制为Xt+1=.9Xt+sqrt(1−.9²)εt，stationary variance1，直接有限Cov求和与几何级数闭式相合；这里ESS只针对sample mean。局部例用p=.2/.8、fA=(.3,.7)、fB=(.6,.4)，两组conditional A均(.3,.7)，从未给实际δ根赋这些权重。
 
 HowardAlgorithm1是示意pseudocode而实际方法选emcee；具体缓存更新、proposal条件、伸缩因子与版本不能靠示意替代执行代码。本次不据其简写判GMR/AD代码有错。对SH26正文“先选较低χ²再附近采样”的应用，应分别取得global目标与先验、参数约束、各链跨谷/mixing证据以及未定标检验；局部MCMC不能替代这些，也不因此抹条件大根优势。五限定数学控制通过，只核反例；新增needs_review:true，原review状态不变。
+
+
+## 2026-10-29 Day27 continuation context
+
+[[chen-2026-bayesian-inertia-wobbling-135pr]] provides context on recent theoretical Bayesian inertia inference in 135Pr; see that metadata-only note for details on energies-only conditioning and fixed EM inputs.

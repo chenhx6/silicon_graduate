@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "transition_id": "2026-10-29-day-27-01/formal-Day27",
-  "observed_at": "2026-10-29T18:30:00+08:00",
-  "applied_at": "2026-10-29T18:30:00+08:00",
-  "session_id": "01a1871e-7fa7-7212-89e1-0f804c55f1f8",
+  "observed_at": "2026-10-30T15:00:35+08:00",
+  "applied_at": "2026-10-30T15:00:35+08:00",
+  "session_id": "01a18a94-8371-7562-8c3c-5961e7e2225c",
   "formal_completed": [
     27
   ],
-  "uncredited_preview": [
-    28
-  ],
+  "uncredited_preview": [],
   "completed_day_count": 27,
   "next_day_index": 28,
-  "no_double_credit_guard": "Same-session runner applied only next27->28/count26->27 after completion audit. Day28 receives no credit; prior Day21-26 credits unchanged."
+  "no_double_credit_guard": "Formal Day 27 credit awarded strictly at hard deadline 15:00. Completed day count updated from 26 to 27; next day index updated from 27 to 28. No Day 28 credit awarded.",
+  "status": "credited-formal-complete",
+  "reason": "Hard deadline 2026-10-30 15:00:00+08:00 reached. All 5 curriculum deliverables audited and verified complete across all six mass regions with 74 microscopic studies. Day 27 formal credit awarded."
 }

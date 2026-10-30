@@ -109,3 +109,8 @@ The author interpretation separates stable pear-like collectivity from an octupo
 ## Related Research Note
 
 See [[octupole-sum-rule-static-dynamic-identifiability]] for the closure relation, partial-sum diagnostic and static-versus-vibrational identifiability boundary.
+
+
+## 2026-10-29 Day27 continuation cross-link
+
+[[radium-e3-multitransition-rotor-contrast]] evaluates the K=0 rotor prediction for the critical 2+->3- transition in 222Ra and 228Ra against Table I values, maintaining the starred-coupling and covariance boundaries.

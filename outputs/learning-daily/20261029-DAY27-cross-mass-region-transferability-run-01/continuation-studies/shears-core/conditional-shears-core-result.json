@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T13:15:26.467936+00:00",
+  "status": "conditional-model-verified",
+  "data_kind": "specified illustrative Hamiltonian; not experimental",
+  "hamiltonian": "E/V=(Ibar-jbar(c))^2/(2*kappa)+(3*c^2-1)/2",
+  "assumptions": [
+    "classical fixed nonzero blades",
+    "core parallel to valence resultant",
+    "repulsive quadrupole interaction V>0, Jcore>0",
+    "closing sector 0<=cos(theta)<=1",
+    "no pairing, crossing, triaxial core response, or quantum termination"
+  ],
+  "scan_rows": 380,
+  "analytic_numeric_max_cos_angle_error": 2.8405981788992563e-08,
+  "finite_difference_steps": [
+    0.001,
+    0.0003,
+    0.0001
+  ],
+  "finite_difference_max_force_residuals": [
+    2.8361689247136113e-05,
+    2.5525519198321693e-06,
+    2.8361590853620555e-07
+  ],
+  "zero_interaction_max_error": 1.191063858652086e-09,
+  "valence_capacity": [
+    {
+      "asymmetry": 0,
+      "perpendicular_to_closed_capacity_fraction": 0.2928932188134524
+    },
+    {
+      "asymmetry": 0.34,
+      "perpendicular_to_closed_capacity_fraction": 0.2531399060064864
+    },
+    {
+      "asymmetry": 0.35,
+      "perpendicular_to_closed_capacity_fraction": 0.25083379681141516
+    },
+    {
+      "asymmetry": 0.36,
+      "perpendicular_to_closed_capacity_fraction": 0.2484682308777626
+    },
+    {
+      "asymmetry": 0.6,
+      "perpendicular_to_closed_capacity_fraction": 0.17537887487646797
+    },
+    {
+      "asymmetry": 0.85,
+      "perpendicular_to_closed_capacity_fraction": 0.07196444033647076
+    },
+    {
+      "asymmetry": 0.95,
+      "perpendicular_to_closed_capacity_fraction": 0.024679539843442067
+    },
+    {
+      "asymmetry": 0.9999,
+      "perpendicular_to_closed_capacity_fraction": 4.9998749937496534e-05
+    }
+  ],
+  "old_classifier_internal_check": {
+    "beta_at_ratio50_with_its_fixed_inputs": 0.04108073180615956,
+    "at_beta_005": 74.53798871984718,
+    "at_beta_018": 1056.8739667334278,
+    "at_beta_025": 2136.3633477090766,
+    "meaning": "algebraic replay of assumptions; not a physical beta threshold"
+  },
+  "normalization_counterexample": {
+    "same_interaction_energy": 0.039999999999999994,
+    "gap_over_aggregate_strength": 2.5,
+    "gap_over_per_pair_strength": 12.5,
+    "old_threshold_3_5_changes_classification": true,
+    "meaning": "same Hamiltonian written with Fbar or sum(F); no empirical pairing bound"
+  },
+  "artifact": {
+    "path": "conditional-shears-core-scan.csv",
+    "sha256": "9e77c9c69b34fe7f7cc4f0493fde8708f013aca3a79aae8f68777d38828c5078"
+  }
+}

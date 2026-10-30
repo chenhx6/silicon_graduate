@@ -3,7 +3,7 @@
   "cycle": "2026-09-30-day-substantive",
   "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
   "next_day_index": 28,
-  "last_success": "2026-10-29",
+  "last_success": "2026-10-30",
   "last_run_id": "2026-10-29-day-27-01",
   "status": "active",
   "acceptance_runs_excluded": [
@@ -16,5 +16,8 @@
   ],
   "reset_at": "2026-09-23",
   "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
-  "completed_day_count": 27
+  "completed_day_count": 27,
+  "active_run_id": "2026-10-29-day-27-01",
+  "active_session_id": "01a18a94-8371-7562-8c3c-5961e7e2225c",
+  "day27_credit_status": "complete"
 }

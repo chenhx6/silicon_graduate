@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-29T21:09:21.788954+08:00",
+  "run_id": "2026-10-29-day-27-01",
+  "active_session_id": "01a187b7-de86-7741-b813-d555e297b192",
+  "title": "Novel chiral-wobbling excitation mode in atomic nuclei",
+  "authors": [
+    "Kouser Qureshie",
+    "S. P. Rouoof",
+    "J. A. Sheikh",
+    "Nazira Nazir",
+    "G. H. Bhat",
+    "S. Jehangir",
+    "N. A. Rather",
+    "R. J. Guo",
+    "S. Y. Wang",
+    "C. Liu",
+    "Q. B. Chen",
+    "S. Frauendorf"
+  ],
+  "version": "arxiv:2610.09808v2",
+  "published": "2026-10-07T10:28:13Z",
+  "updated": "2026-10-09T14:37:47Z",
+  "source_url": "https://arxiv.org/pdf/2610.09808v2",
+  "raw_file": "raw/papers/gpt/qureshie-2026-chiral-wobbling-74br-arxiv2610.09808v2.pdf",
+  "sha256": "84d0bc2407a789e49aeacc7076e89ef49471dcb907570607ae0a573fdd3246cd",
+  "bytes": 226515,
+  "pages": 6,
+  "identity_check": "PDF title page and official Atom entry agree. Discovery short title and incoming folder label were noncanonical; archival/source identity uses actual PDF/Atom, not supplied downloader title.",
+  "supporting_information": {
+    "requested": true,
+    "download_route_result": "direct PDF route cannot discover SI landing page; no SI absence claim",
+    "not_covered": "Author-source archive and independent publisher supplements not yet checked"
+  },
+  "reading": {
+    "text": "all 6 pages",
+    "visual": "PDF pp3-4 Figs1-8",
+    "not_covered": [
+      "Original solver source and numeric arrays",
+      "New independent experimental data",
+      "Journal version identity if subsequently assigned"
+    ]
+  },
+  "permissions": "daily-learning authorized new public-source intake; no existing raw overwritten",
+  "public_git_pdf_included": false
+}

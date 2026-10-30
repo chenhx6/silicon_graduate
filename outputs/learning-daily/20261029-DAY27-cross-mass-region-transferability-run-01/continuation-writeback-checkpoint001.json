@@ -1,0 +1,36 @@
+{
+  "valid": false,
+  "mode": "updated",
+  "knowledge_paths": [
+    "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+    "knowledge/sources/rather-2014-104pd-antimagnetic-arxiv-full.md",
+    "knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md",
+    "knowledge/research-notes/multimodal-coexistence-and-phase-boundary-topology.md",
+    "knowledge/sources/qureshie-2026-chiral-wobbling-four-band-74br.md",
+    "knowledge/research-notes/cross-instrument-systematics-and-methodological-degeneracy.md",
+    "knowledge/sources/garg-2019-135pr-polarization-erratum.md",
+    "knowledge/research-notes/shears-asymmetry-core-response-and-normalization.md",
+    "knowledge/sources/clark-2000-shears-mechanism.md",
+    "knowledge/research-notes/74br-four-band-branching-network-readiness.md",
+    "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+    "knowledge/nuclei/74br.md",
+    "knowledge/sources/rajbanshi-2018-extremely-asymmetric-shears-143sm.md",
+    "knowledge/index.md"
+  ],
+  "changed_paths": [
+    "knowledge/index.md",
+    "knowledge/nuclei/74br.md",
+    "knowledge/research-notes/74br-four-band-branching-network-readiness.md",
+    "knowledge/research-notes/cross-instrument-systematics-and-methodological-degeneracy.md",
+    "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+    "knowledge/research-notes/multimodal-coexistence-and-phase-boundary-topology.md",
+    "knowledge/research-notes/shears-asymmetry-core-response-and-normalization.md",
+    "knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md",
+    "knowledge/sources/guo-2024-chiral-wobbler-74br.md",
+    "knowledge/sources/qureshie-2026-chiral-wobbling-four-band-74br.md",
+    "knowledge/sources/rajbanshi-2018-extremely-asymmetric-shears-143sm.md",
+    "knowledge/sources/rather-2014-104pd-antimagnetic-arxiv-full.md"
+  ],
+  "change_check": "run-snapshot",
+  "error": "knowledge changes must be listed in writeback items: knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md"
+}

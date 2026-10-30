@@ -1,0 +1,7 @@
+band_pair,parity,configuration,chiral_status,interband_transition,octupole_role
+Band 2 <-> Band 3,+ (positive),nu h11/2 (x) pi [h11/2 d5/2],Chiral Doublet Pair 1 (Positive Parity),M1 Dominant (Selection rule Delta pi = 0),Base chiral manifold (pi=+)
+Band 5 <-> Band 6,- (negative),nu h11/2 (x) pi [h11/2^2],Chiral Doublet Pair 2 (Negative Parity),M1 Dominant (Selection rule Delta pi = 0),Octupole-coupled chiral manifold (pi=-)
+Band 2 <-> Band 5,+ <-> -,Inter-configuration (d5/2 <-> h11/2),Parity Doublet Pair A (Chiral in-phase),E1 Allowed (Driven by pi d5/2 <-> h11/2 octupole coupling),Direct octupole E1 bridge connecting MchiD pairs
+Band 3 <-> Band 6,+ <-> -,Inter-configuration (d5/2 <-> h11/2),Parity Doublet Pair B (Chiral in-phase),E1 Allowed (Driven by pi d5/2 <-> h11/2 octupole coupling),Direct octupole E1 bridge connecting MchiD pairs
+Band 2 <-> Band 6,+ <-> -,Inter-configuration (d5/2 <-> h11/2),Cross-Diagonal (Chiral handedness flip + Parity flip),FORBIDDEN (Destructive chiral phase cancellation),"Suppression signature B(E1, 2->6) / B(E1, 2->5) < 10^-3"
+Band 3 <-> Band 5,+ <-> -,Inter-configuration (d5/2 <-> h11/2),Cross-Diagonal (Chiral handedness flip + Parity flip),FORBIDDEN (Destructive chiral phase cancellation),"Suppression signature B(E1, 3->5) / B(E1, 3->6) < 10^-3"

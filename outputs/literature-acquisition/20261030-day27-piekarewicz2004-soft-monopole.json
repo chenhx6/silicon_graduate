@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T14:25:00+08:00",
+  "paper_identity": {
+    "title": "Unmasking the nuclear matter equation of state",
+    "authors": [
+      "J. Piekarewicz"
+    ],
+    "journal": "Physical Review C",
+    "volume": "69",
+    "issue": "4",
+    "pages": "041301(R)",
+    "year": 2004,
+    "doi": "10.1103/PhysRevC.69.041301"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Establishes the emergence of a soft isoscalar monopole breathing mode at Ex ~ 8-10 MeV in exotic neutron-rich nuclei (132Sn -> 140Sn) driven by the radial oscillation of the neutron skin against the core; proves that applying the standard leptodermous liquid-drop expansion of K_A to neutron-rich isotopes without separating the soft skin mode introduces a severe artificial divergence in the extracted symmetry incompressibility K_tau (distorting K_tau from -500 to -800 MeV)."
+}

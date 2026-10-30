@@ -1,0 +1,4 @@
+case_name,nucleus,mode,subshell,alignment_axis,J_MoI_ordering,hw_slope_sign,critical_spin_Jc,be2_trend
+163Lu_TW,163Lu,Transverse Wobbling,pi i13/2,short (s),"J3=40.0, J2=65.0, J1=15.0",negative (decreasing),16.9,plateau / enhanced toward Jc
+133La_LW,133La,Longitudinal Wobbling,pi h11/2,medium (m),"J3=65.0, J2=40.0, J1=15.0",positive (increasing),None,1/J dilution decay
+135Pr_Hypothetical_TW,135Pr,Hypothetical Transverse Wobbling (Disproven by Lv2022),pi h11/2,short (s),"J3=13.0, J2=21.0, J1=7.0",negative (decreasing),14.44,plateau / enhanced toward Jc

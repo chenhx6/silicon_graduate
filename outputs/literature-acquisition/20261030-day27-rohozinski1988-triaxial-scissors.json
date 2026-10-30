@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T14:00:00+08:00",
+  "paper_identity": {
+    "title": "The collective 1+ state in triaxial nuclei",
+    "authors": [
+      "S. G. Rohozinski",
+      "D. Troltenier",
+      "J. A. Maruhn",
+      "W. Greiner"
+    ],
+    "journal": "Zeitschrift f\u00fcr Physik A Atomic Nuclei",
+    "volume": "330",
+    "issue": "3",
+    "pages": "241-248",
+    "year": 1988,
+    "doi": "10.1007/bf01287259"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Proves that non-axial triaxial deformation gamma breaks the degeneracy of the K=1 scissors mode, splitting it into two distinct 1+ collective branches vibrating about the medium and short axes with energy splitting proportional to tan(gamma), refuting the universal single-Lorentzian scissors mode parametrization in gamma-soft and triaxial nuclei."
+}

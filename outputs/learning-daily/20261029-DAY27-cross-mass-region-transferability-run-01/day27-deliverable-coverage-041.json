@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T03:41:00+08:00",
+  "run_id": "2026-10-29-day-27-01",
+  "session_id": "01a187b7-de86-7741-b813-d555e297b192",
+  "hard_deadline": "2026-10-30T15:00:00+08:00",
+  "credit_transition_applied": false,
+  "deliverables": [
+    {
+      "deliverable": "recall-three-transfer-failures",
+      "current_status": "pending-final-audit",
+      "evidence": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md#Provisional Reasoning",
+      "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/microscopic-inapplicability-solver/README.md",
+      "caveat": "final audit must distinguish directly sourced mechanisms from toy-model counterexamples"
+    },
+    {
+      "deliverable": "four-mass-region-source-accounting",
+      "current_status": "pending-final-audit",
+      "evidence": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md#Grounded Evidence",
+      "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/cross-mass-accounting/cross_mass_accounting.json",
+      "caveat": "A~160/190 source coverage and exact primary locator identity must be checked at closeout"
+    },
+    {
+      "deliverable": "mechanism-observable-instrument-evidence-competition-matrix",
+      "current_status": "pending-final-audit",
+      "evidence": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md#Grounded Evidence",
+      "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/spectrometer-systematics/pseudo_degeneracy_matrix.csv",
+      "caveat": "same-instrument pseudo-degeneracy row must retain covariance and response boundaries"
+    },
+    {
+      "deliverable": "failed-cross-mass-analogy-counterexample",
+      "current_status": "pending-final-audit",
+      "evidence": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md#Falsification or Reverse Tests",
+      "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/microscopic-inapplicability-solver/octupole_dipole_cancellation.json",
+      "caveat": "failure reason must remain a conditional boundary, not a universal veto threshold"
+    },
+    {
+      "deliverable": "cross-mass-transfer-matrix-and-inapplicability-list",
+      "current_status": "pending-final-audit",
+      "evidence": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+      "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/microscopic-inapplicability-solver/worker-delivery.json",
+      "caveat": "final report must include unresolved claims and source-review limits"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "observed_at": "2026-10-30T04:45:05.070677+08:00",
+  "source_url": "https://arxiv.org/pdf/1902.00191v1",
+  "abstract_url": "https://arxiv.org/abs/1902.00191",
+  "staged_file": "tmp/day27-rat2019-audit/arxiv-1902.00191v1.pdf",
+  "bytes": 340748,
+  "pages": 17,
+  "sha256": "cefe9aeb1fcf8be56c6808825faf95f486246254c231893320ee62f9a9907aae",
+  "signature": "PDF",
+  "version": "v1",
+  "arxiv_submission_date": "2019-02-01",
+  "pdf_internal_date": "2019-02-04",
+  "reading_scope": "Independent worker read17 pages and visually checked5 figures/equations; parent readPDF6/7/12/13 text and visuallycheckedPDF6; no publisher-version comparison",
+  "worker_report": "tmp/day27-rat2019-audit/report.md",
+  "raw_unchanged": true,
+  "crossref_status": 200,
+  "related_published_identity": {
+    "DOI": "10.1016/j.physletb.2019.04.014",
+    "title": [
+      "Multiple chiral doublet bands with octupole correlations in reflection-asymmetric triaxial particle rotor model"
+    ],
+    "volume": "792",
+    "page": "454-460",
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Y.Y.",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.Q.",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8243-2381",
+        "authenticated-orcid": false,
+        "given": "P.W.",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0977-5318",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Meng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ]
+  }
+}

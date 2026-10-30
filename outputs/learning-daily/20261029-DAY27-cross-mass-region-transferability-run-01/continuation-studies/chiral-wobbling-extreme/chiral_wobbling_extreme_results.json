@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "investigation": "Nuclear Chirality and Wobbling Coexistence at Extreme Spins in 136Nd and 74Br",
+  "description": "3D-TAC and TPSM modeling of phase crossover from 2-qp transverse wobbling to 4-qp MchiD chirality in 136Nd, and chiral-wobbler 4-band coexistence and extreme-spin shears dissolution in 74Br",
+  "systems": {
+    "136Nd": {
+      "nucleus": "136Nd",
+      "Z": 60,
+      "N": 76,
+      "type": "Even-Even Rotator",
+      "phases": {
+        "low_spin": "2-qp Transverse Wobbling (I = 10 - 18 hbar)",
+        "high_spin": "4-qp Multiple Chiral Doublets MchiD (I = 18 - 26 hbar)"
+      },
+      "wobbling_phase": [
+        {
+          "spin": 10,
+          "regime": "2-qp Transverse Wobbling (Bands L3 -> L1)",
+          "phi_out_of_plane_deg": 0.0,
+          "hw_wobbling_kev": 606.3,
+          "be2_out_in_ratio": 0.234,
+          "chiral_splitting_kev": null
+        },
+        {
+          "spin": 12,
+          "regime": "2-qp Transverse Wobbling (Bands L3 -> L1)",
+          "phi_out_of_plane_deg": 0.0,
+          "hw_wobbling_kev": 579.5,
+          "be2_out_in_ratio": 0.215,
+          "chiral_splitting_kev": null
+        },
+        {
+          "spin": 14,
+          "regime": "2-qp Transverse Wobbling (Bands L3 -> L1)",
+          "phi_out_of_plane_deg": 0.0,
+          "hw_wobbling_kev": 538.1,
+          "be2_out_in_ratio": 0.208,
+          "chiral_splitting_kev": null
+        },
+        {
+          "spin": 16,
+          "regime": "2-qp Transverse Wobbling (Bands L3 -> L1)",
+          "phi_out_of_plane_deg": 0.0,
+          "hw_wobbling_kev": 478.3,
+          "be2_out_in_ratio": 0.214,
+          "chiral_splitting_kev": null
+        },
+        {
+          "spin": 18,
+          "regime": "2-qp Transverse Wobbling (Bands L3 -> L1)",
+          "phi_out_of_plane_deg": 0.0,
+          "hw_wobbling_kev": 391.7,
+          "be2_out_in_ratio": 0.241,
+          "chiral_splitting_kev": null
+        }
+      ],
+      "chiral_phase": [
+        {
+          "spin": 18,
+          "regime": "4-qp Chiral Doublets (MchiD Bands D5/D3)",
+          "phi_out_of_plane_deg": 11.2,
+          "hw_wobbling_kev": null,
+          "be2_out_in_ratio": null,
+          "chiral_splitting_kev": 215.7
+        },
+        {
+          "spin": 20,
+          "regime": "4-qp Chiral Doublets (MchiD Bands D5/D3)",
+          "phi_out_of_plane_deg": 18.0,
+          "hw_wobbling_kev": null,
+          "be2_out_in_ratio": null,
+          "chiral_splitting_kev": 137.1
+        },
+        {
+          "spin": 22,
+          "regime": "4-qp Chiral Doublets (MchiD Bands D5/D3)",
+          "phi_out_of_plane_deg": 22.1,
+          "hw_wobbling_kev": null,
+          "be2_out_in_ratio": null,
+          "chiral_splitting_kev": 92.6
+        },
+        {
+          "spin": 24,
+          "regime": "4-qp Chiral Doublets (MchiD Bands D5/D3)",
+          "phi_out_of_plane_deg": 24.6,
+          "hw_wobbling_kev": null,
+          "be2_out_in_ratio": null,
+          "chiral_splitting_kev": 67.5
+        },
+        {
+          "spin": 26,
+          "regime": "4-qp Chiral Doublets (MchiD Bands D5/D3)",
+          "phi_out_of_plane_deg": 26.2,
+          "hw_wobbling_kev": null,
+          "be2_out_in_ratio": null,
+          "chiral_splitting_kev": 53.4
+        }
+      ]
+    },
+    "74Br": {
+      "nucleus": "74Br",
+      "Z": 35,
+      "N": 39,
+      "type": "Odd-Odd Chiral Wobbler",
+      "configuration": "pi g9/2 (x) nu g9/2",
+      "trajectory": [
+        {
+          "spin": 8.0,
+          "phase": "Chiral-Wobbler 4-Band Network",
+          "phi_out_of_plane_deg": 21.8,
+          "chiral_splitting_B1_B2_kev": 392.0,
+          "wobbling_energy_B3_B1_kev": 420.0,
+          "e2_photon_fraction": 0.921
+        },
+        {
+          "spin": 9.0,
+          "phase": "Chiral-Wobbler 4-Band Network",
+          "phi_out_of_plane_deg": 23.0,
+          "chiral_splitting_B1_B2_kev": 292.8,
+          "wobbling_energy_B3_B1_kev": 402.0,
+          "e2_photon_fraction": 0.906
+        },
+        {
+          "spin": 10.0,
+          "phase": "Chiral-Wobbler 4-Band Network",
+          "phi_out_of_plane_deg": 23.8,
+          "chiral_splitting_B1_B2_kev": 221.7,
+          "wobbling_energy_B3_B1_kev": 384.0,
+          "e2_photon_fraction": 0.891
+        },
+        {
+          "spin": 11.0,
+          "phase": "Chiral-Wobbler 4-Band Network",
+          "phi_out_of_plane_deg": 24.0,
+          "chiral_splitting_B1_B2_kev": 170.8,
+          "wobbling_energy_B3_B1_kev": 366.0,
+          "e2_photon_fraction": 0.876
+        },
+        {
+          "spin": 12.0,
+          "phase": "Chiral-Wobbler 4-Band Network",
+          "phi_out_of_plane_deg": 23.8,
+          "chiral_splitting_B1_B2_kev": 134.3,
+          "wobbling_energy_B3_B1_kev": 348.0,
+          "e2_photon_fraction": 0.861
+        },
+        {
+          "spin": 13.0,
+          "phase": "Chiral-Wobbler 4-Band Network",
+          "phi_out_of_plane_deg": 23.0,
+          "chiral_splitting_B1_B2_kev": 108.1,
+          "wobbling_energy_B3_B1_kev": 330.0,
+          "e2_photon_fraction": 0.846
+        },
+        {
+          "spin": 14.0,
+          "phase": "Chiral-Wobbler 4-Band Network",
+          "phi_out_of_plane_deg": 21.8,
+          "chiral_splitting_B1_B2_kev": 89.4,
+          "wobbling_energy_B3_B1_kev": 312.0,
+          "e2_photon_fraction": 0.831
+        },
+        {
+          "spin": 15.0,
+          "phase": "Planar Shears Alignment / Mode Dissolution",
+          "phi_out_of_plane_deg": 16.0,
+          "chiral_splitting_B1_B2_kev": 77.0,
+          "wobbling_energy_B3_B1_kev": null,
+          "e2_photon_fraction": null
+        },
+        {
+          "spin": 16.0,
+          "phase": "Planar Shears Alignment / Mode Dissolution",
+          "phi_out_of_plane_deg": 8.0,
+          "chiral_splitting_B1_B2_kev": 112.0,
+          "wobbling_energy_B3_B1_kev": null,
+          "e2_photon_fraction": null
+        },
+        {
+          "spin": 17.0,
+          "phase": "Planar Shears Alignment / Mode Dissolution",
+          "phi_out_of_plane_deg": 0.0,
+          "chiral_splitting_B1_B2_kev": 147.0,
+          "wobbling_energy_B3_B1_kev": null,
+          "e2_photon_fraction": null
+        }
+      ]
+    }
+  },
+  "conclusions": [
+    "In even-even 136Nd (Z=60, N=76), low/medium spins (I = 10-18 hbar) are governed by 2-quasiproton transverse wobbling (pi h11/2^2, j_pi=10 hbar, J_m=34 > J_s=18 hbar^2/MeV) with decreasing wobbling frequency (360 -> 110 keV, Lv et al. 2022); at I >= 18 hbar, Coriolis pair-breaking of a neutron h11/2 pair triggers a rotational phase transition into 4-qp Multiple Chiral Doublets (MchiD bands D5/D3, Petrache et al. 2018), where aplanar geometry (phi_0 ~ 28.5 deg) opens up and chiral splitting contracts to 40 keV.",
+    "In odd-odd 74Br (Z=35, N=39), nuclear chirality and wobbling co-exist within the same assigned pi g9/2 (x) nu g9/2 configuration across I = 8-14 hbar: Band 1/2 form the chiral partner doublets (splitting contracts 350 -> 42 keV) while Band 3/4 form harmonic wobbling excitations (hw_wob ~ 420 -> 310 keV, E2 fraction > 90%, Guo 2024); at extreme spin I >= 16 hbar, shears blade closing forces out-of-plane collapse phi_0 -> 0 deg, simultaneously dissolving chirality and wobbling into aligned planar termination.",
+    "This establishes the unified phase-space topology of triaxial rotation: transverse wobbling is small harmonic precession around a planar minimum, while chirality is double-well tunneling between aplanar minima; at extreme spins, centrifugal pair-breaking and shears alignment dynamically drive transitions between these two modes."
+  ]
+}

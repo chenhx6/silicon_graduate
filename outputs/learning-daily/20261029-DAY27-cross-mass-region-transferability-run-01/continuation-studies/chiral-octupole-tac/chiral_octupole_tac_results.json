@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "investigation": "Octupole Deformation and Triaxial Chiral Geometry Coupling across Mass Regions",
+  "description": "Systematic 3D-TAC evaluation of the competition between triaxial aplanar rotation and reflection-asymmetric octupole deformation, establishing the critical octupole threshold beta3_crit driving chiral quenching and planar restoration.",
+  "systems": [
+    {
+      "nucleus": "78Br",
+      "A": 78,
+      "Z": 35,
+      "region": "A~80 Bromine-Arsenic",
+      "structure_regime": "Dynamic Octupole-Coupled Chiral Quadruplet (PRL 2016)",
+      "quadrupole_beta2": 0.28,
+      "triaxial_gamma_deg": 26.0,
+      "octupole_beta3": 0.045,
+      "neutron_blade_j_nu": 4.5,
+      "out_of_plane_tilt_angle_phi0_deg": 41.2,
+      "chiral_energy_barrier_V_B_keV": 1360.5,
+      "critical_octupole_threshold_beta3_crit": 0.125,
+      "is_chiral_active": true
+    },
+    {
+      "nucleus": "136Nd",
+      "A": 136,
+      "Z": 60,
+      "region": "A~130 Neodymium-Cerium",
+      "structure_regime": "MchiD with Octupole Cross-Parity Coupling (PRC 2018)",
+      "quadrupole_beta2": 0.24,
+      "triaxial_gamma_deg": 24.0,
+      "octupole_beta3": 0.035,
+      "neutron_blade_j_nu": 5.5,
+      "out_of_plane_tilt_angle_phi0_deg": 42.1,
+      "chiral_energy_barrier_V_B_keV": 1460.1,
+      "critical_octupole_threshold_beta3_crit": 0.111,
+      "is_chiral_active": true
+    },
+    {
+      "nucleus": "134Pr",
+      "A": 134,
+      "Z": 59,
+      "region": "A~130 Praseodymium Benchmark",
+      "structure_regime": "Pure Triaxial Chiral Doublet (Weak Octupole)",
+      "quadrupole_beta2": 0.22,
+      "triaxial_gamma_deg": 28.0,
+      "octupole_beta3": 0.02,
+      "neutron_blade_j_nu": 5.5,
+      "out_of_plane_tilt_angle_phi0_deg": 44.1,
+      "chiral_energy_barrier_V_B_keV": 1691.3,
+      "critical_octupole_threshold_beta3_crit": 0.114,
+      "is_chiral_active": true
+    },
+    {
+      "nucleus": "198Bi",
+      "A": 198,
+      "Z": 83,
+      "region": "A~198 Lead-Bismuth",
+      "structure_regime": "Planar Magnetic Rotation (Shears Band Crossing, PRC 2014)",
+      "quadrupole_beta2": 0.1,
+      "triaxial_gamma_deg": 10.0,
+      "octupole_beta3": 0.01,
+      "neutron_blade_j_nu": 16.5,
+      "out_of_plane_tilt_angle_phi0_deg": 0.0,
+      "chiral_energy_barrier_V_B_keV": 0.0,
+      "critical_octupole_threshold_beta3_crit": 0.0,
+      "is_chiral_active": false
+    },
+    {
+      "nucleus": "224Ra",
+      "A": 224,
+      "Z": 88,
+      "region": "A~220 Light Actinides",
+      "structure_regime": "Static Pear-Shaped Reflection-Asymmetric Rotor (PRL 2020)",
+      "quadrupole_beta2": 0.16,
+      "triaxial_gamma_deg": 0.0,
+      "octupole_beta3": 0.14,
+      "neutron_blade_j_nu": 0.0,
+      "out_of_plane_tilt_angle_phi0_deg": 0.0,
+      "chiral_energy_barrier_V_B_keV": 0.0,
+      "critical_octupole_threshold_beta3_crit": 0.0,
+      "is_chiral_active": false
+    }
+  ],
+  "cross_mass_inapplicability_boundaries": {
+    "boundary_1_octupole_axialization_chiral_quenching": {
+      "contrast": "78Br (chiral quadruplet, beta3=0.045) vs 224Ra (static pear rotor, beta3=0.140)",
+      "mechanism": "In 78Br, the octupole degree of freedom is a dynamic vibration around a triaxial minimum (gamma = 26 deg). Because beta3 (0.045) is small compared to beta3_crit (0.125), the octupole phonon couples with the aplanar rotation (phi_0 = 41.2 deg) to double the chiral doublet into a D2 x P*T chiral-octupole quadruplet. In 224Ra, large static octupole deformation (beta3 = 0.140) exerts an overwhelming dipole-octupole restoring torque that aligns all multipole vectors along the intrinsic symmetry axis, flattening triaxiality (gamma -> 0) and crushing the out-of-plane angle phi_0 -> 0 deg, completely extinguishing chirality.",
+      "failure_signature": "Predicting chiral doublets or quadruplets in nuclei with strong static octupole deformation."
+    },
+    "boundary_2_planar_magnetic_rotation_restoration": {
+      "contrast": "136Nd/134Pr (chiral TAC) vs 198Bi (planar TAC shears)",
+      "mechanism": "In 198Bi, small quadrupole deformation (beta2 = 0.10) and near-axial geometry (gamma = 10 deg) reduce triaxiality, while the massive multiquasiparticle neutron blade (j_nu = 16.5 hbar) provides an overwhelming in-plane Coriolis restoring force, suppressing the chiral out-of-plane angle to 0 deg and locking the system into planar magnetic rotation.",
+      "failure_signature": "Confusing multi-band magnetic rotation crossings with chiral-octupole quadruplets."
+    }
+  }
+}

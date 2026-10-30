@@ -1,0 +1,251 @@
+{
+  "schema_version": 2,
+  "observed_at": "2026-10-30T04:55:38.887040+08:00",
+  "investigation": "Literal potential extrema, injected cutoff and quartet attribution audit",
+  "scientific_status": "legacy TAC/nuclear predictions withdrawn; mathematical audit only",
+  "literal_formula": "V=-A*cos(2phi)/2+B*cos(phi)^2=B/2+(B-A)*cos(2phi)/2",
+  "literal_gradient": "(A-B)*sin(2phi)",
+  "literal_curvature": "2*(A-B)*cos(2phi)",
+  "source_78Br": {
+    "knowledge": "knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md",
+    "raw_file": "raw/papers/2016_Liu et al_Evidence for Octupole Correlations in Multiple Chiral Doublet Bands.pdf",
+    "raw_sha256": "460051aed9af9d84bbfa09a51339e4d671f8abaaf511ff6b7e0a4fbc2a836ad4",
+    "reading_scope": "PDF1-5 main text; PDF5 visually checked Fig6 and future-quartet paragraph",
+    "claims": [
+      "L16-9",
+      "L16-13",
+      "L16-14"
+    ],
+    "reported": "two chiral-doublet interpretations plus eight E1 links and octupole softness",
+    "quartet_observation_in_this_paper": "future proposal, not established quartet"
+  },
+  "source_rat2019": {
+    "knowledge": "knowledge/sources/wang-2019-rat-prm-78br-octupole-correlations.md",
+    "arxiv": "1902.00191v1",
+    "manuscript_sha256": "cefe9aeb1fcf8be56c6808825faf95f486246254c231893320ee62f9a9907aae",
+    "reported_inputs_not_new_measurements": {
+      "beta2": 0.28,
+      "gamma_deg": 16.3,
+      "MDC_CDFT_beta3": 0.0,
+      "adopted_RAT_PRM_beta3": 0.02,
+      "core_parity_splitting_MeV": 3.0
+    },
+    "tests_beta3_above_0_1": false,
+    "source_boundary": "no quantitative large-beta3 counterexample or universal cutoff supplied"
+  },
+  "legacy_isotope_formula_audit": [
+    {
+      "nucleus": "78Br",
+      "input_status": "legacy-unverified",
+      "legacy_reported_angle_deg": 41.24765687125442,
+      "literal_written_gradient_MeV_per_rad": 0.3808749233070167,
+      "literal_written_curvature_MeV_per_rad2": 0.10034965439711457,
+      "literal_written_extremum": {
+        "kind": "endpoint",
+        "angles_deg": [
+          0.0
+        ],
+        "energy_MeV": -0.16322655798169505,
+        "energy_span_MeV": 0.3841656159633901,
+        "isotope_shape": null
+      },
+      "diagnostic_scope": "literal old formula only; not a fit to the named nucleus",
+      "nuclear_equilibrium_angle_deg": null,
+      "nuclear_barrier_keV": null,
+      "universal_beta3_cutoff": null,
+      "chiral_or_quartet_classification": null,
+      "readiness": "not-ready",
+      "missing_inputs": [
+        "common spin/frequency and configuration",
+        "three inertias or self-consistent fields",
+        "single-particle Hamiltonian and octupole coupling",
+        "angle-coordinate convention",
+        "quantized spectrum/parity and transition operators for any quartet claim"
+      ]
+    },
+    {
+      "nucleus": "136Nd",
+      "input_status": "legacy-unverified",
+      "legacy_reported_angle_deg": 42.1492210613185,
+      "literal_written_gradient_MeV_per_rad": 0.3149421533042113,
+      "literal_written_curvature_MeV_per_rad2": 0.0628881093159647,
+      "literal_written_extremum": {
+        "kind": "endpoint",
+        "angles_deg": [
+          0.0
+        ],
+        "energy_MeV": -0.14079772980874566,
+        "energy_span_MeV": 0.31650795961749134,
+        "isotope_shape": null
+      },
+      "diagnostic_scope": "literal old formula only; not a fit to the named nucleus",
+      "nuclear_equilibrium_angle_deg": null,
+      "nuclear_barrier_keV": null,
+      "universal_beta3_cutoff": null,
+      "chiral_or_quartet_classification": null,
+      "readiness": "not-ready",
+      "missing_inputs": [
+        "common spin/frequency and configuration",
+        "three inertias or self-consistent fields",
+        "single-particle Hamiltonian and octupole coupling",
+        "angle-coordinate convention",
+        "quantized spectrum/parity and transition operators for any quartet claim"
+      ]
+    },
+    {
+      "nucleus": "134Pr",
+      "input_status": "legacy-unverified",
+      "legacy_reported_angle_deg": 44.12152161427177,
+      "literal_written_gradient_MeV_per_rad": 0.3602520347689377,
+      "literal_written_curvature_MeV_per_rad2": 0.022100954851803186,
+      "literal_written_extremum": {
+        "kind": "endpoint",
+        "angles_deg": [
+          0.0
+        ],
+        "energy_MeV": -0.17451073886321278,
+        "energy_span_MeV": 0.3604214777264255,
+        "isotope_shape": null
+      },
+      "diagnostic_scope": "literal old formula only; not a fit to the named nucleus",
+      "nuclear_equilibrium_angle_deg": null,
+      "nuclear_barrier_keV": null,
+      "universal_beta3_cutoff": null,
+      "chiral_or_quartet_classification": null,
+      "readiness": "not-ready",
+      "missing_inputs": [
+        "common spin/frequency and configuration",
+        "three inertias or self-consistent fields",
+        "single-particle Hamiltonian and octupole coupling",
+        "angle-coordinate convention",
+        "quantized spectrum/parity and transition operators for any quartet claim"
+      ]
+    },
+    {
+      "nucleus": "198Bi",
+      "input_status": "legacy-unverified",
+      "legacy_reported_angle_deg": 0.0,
+      "literal_written_gradient_MeV_per_rad": 0.0,
+      "literal_written_curvature_MeV_per_rad2": 0.11932668792018987,
+      "literal_written_extremum": {
+        "kind": "endpoint",
+        "angles_deg": [
+          0.0
+        ],
+        "energy_MeV": -0.028406671980047468,
+        "energy_span_MeV": 0.059663343960094935,
+        "isotope_shape": null
+      },
+      "diagnostic_scope": "literal old formula only; not a fit to the named nucleus",
+      "nuclear_equilibrium_angle_deg": null,
+      "nuclear_barrier_keV": null,
+      "universal_beta3_cutoff": null,
+      "chiral_or_quartet_classification": null,
+      "readiness": "not-ready",
+      "missing_inputs": [
+        "common spin/frequency and configuration",
+        "three inertias or self-consistent fields",
+        "single-particle Hamiltonian and octupole coupling",
+        "angle-coordinate convention",
+        "quantized spectrum/parity and transition operators for any quartet claim"
+      ]
+    },
+    {
+      "nucleus": "224Ra",
+      "input_status": "legacy-unverified",
+      "legacy_reported_angle_deg": 0.0,
+      "literal_written_gradient_MeV_per_rad": -0.0,
+      "literal_written_curvature_MeV_per_rad2": -1.1172000000000002,
+      "literal_written_extremum": {
+        "kind": "endpoint",
+        "angles_deg": [
+          90.0
+        ],
+        "energy_MeV": 2.0944145364872846e-33,
+        "energy_span_MeV": 0.5586000000000001,
+        "isotope_shape": null
+      },
+      "diagnostic_scope": "literal old formula only; not a fit to the named nucleus",
+      "nuclear_equilibrium_angle_deg": null,
+      "nuclear_barrier_keV": null,
+      "universal_beta3_cutoff": null,
+      "chiral_or_quartet_classification": null,
+      "readiness": "not-ready",
+      "missing_inputs": [
+        "common spin/frequency and configuration",
+        "three inertias or self-consistent fields",
+        "single-particle Hamiltonian and octupole coupling",
+        "angle-coordinate convention",
+        "quantized spectrum/parity and transition operators for any quartet claim"
+      ]
+    }
+  ],
+  "injected_j_cutoff": {
+    "11.999": [
+      43.69348221601349,
+      1639.6162915208402,
+      0.046834289417759814,
+      true
+    ],
+    "12.0": [
+      0.0,
+      0.0,
+      0.0,
+      false
+    ]
+  },
+  "synthetic_two_potential_comparison": {
+    "input_status": "no nuclear identity; no parameter inference",
+    "A_MeV": 1.0,
+    "B_MeV": 0.2,
+    "legacy_arccos_angle_deg": 39.23152048359226,
+    "literal_minimum": {
+      "kind": "endpoint",
+      "angles_deg": [
+        0.0
+      ],
+      "energy_MeV": -0.3,
+      "energy_span_MeV": 0.8,
+      "isotope_shape": null
+    },
+    "literal_gradient_at_arccos": 0.7838367176906171,
+    "different_formula": "U=A*cos(2phi)^2/2-B*cos(2phi)",
+    "different_minimum": {
+      "kind": "paired-interior",
+      "angles_deg": [
+        -39.23152048359226,
+        39.23152048359226
+      ],
+      "energy_MeV": -0.020000000000000004,
+      "barrier_through_zero_MeV": 0.32000000000000006,
+      "isotope_shape": null
+    },
+    "boundary": "U is explicitly a different demonstration; paired angle minima do not establish nuclear chirality"
+  },
+  "numerical_controls": {
+    "literal_max_gradient_fd_error": 3.0131341866024286e-11,
+    "different_max_gradient_fd_error": 2.7704061267286306e-11,
+    "different_grid_energy_error_coarse": 3.1297425797910394e-05,
+    "different_grid_energy_error_fine": 1.9975345048189874e-07
+  },
+  "checks": {
+    "positive_cos_squared_term_minimum_at_pi_over_2": true,
+    "literal_zero_octupole_minimum_is_zero_not_45deg": true,
+    "literal_arccos_claim_not_stationary": true,
+    "literal_A_gt_B_endpoint_curvature_positive": true,
+    "literal_B_gt_A_endpoint_curvature_positive": true,
+    "literal_A_equals_B_flat": true,
+    "literal_reflection_even": true,
+    "literal_gradient_vs_finite_difference": true,
+    "distinct_potential_gradient_vs_finite_difference": true,
+    "distinct_potential_arccos_stationary": true,
+    "distinct_potential_interior_curvature_positive": true,
+    "distinct_potential_barrier_from_energy_difference": true,
+    "distinct_potential_grid_refinement": true,
+    "legacy_j_cutoff_is_injected_discontinuity": true,
+    "old_isotope_solver_disabled": true,
+    "all_isotope_scientific_predictions_withdrawn": true
+  },
+  "no_experimental_upper_limit_or_confidence_generated": true,
+  "no_curriculum_credit_applied": true
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T13:00:00+08:00",
+  "paper_identity": {
+    "title": "Evidence of a doublet wobbling excitation mode in 105Pd",
+    "authors": [
+      "A. Karmakar",
+      "P. Datta",
+      "N. Rather",
+      "S. Pal",
+      "R. Palit",
+      "A. Goswami",
+      "G. H. Bhat",
+      "J. A. Sheikh",
+      "S. Jehangir",
+      "S. Chattopadhyay",
+      "S. Frauendorf"
+    ],
+    "journal": "Physical Review C",
+    "volume": "112",
+    "issue": "3",
+    "pages": "034323",
+    "year": 2025,
+    "doi": "10.1103/46gk-nqsh",
+    "arxiv": "2403.08235"
+  },
+  "acquisition_method": "crossref-doi-lookup + arxiv-v2-reconciliation",
+  "cross_mass_significance": "Establishes doublet wobbling mode in A~100 (105Pd) with two distinct n_w=1 phonon bands based on js=11/2 and js=7/2 quasineutron alignment orientations, refuting the two-phonon hypothesis (Timar 2019) and clarifying IBFM / TiP controversies (Nomura 2022, Lawrie 2020)."
+}

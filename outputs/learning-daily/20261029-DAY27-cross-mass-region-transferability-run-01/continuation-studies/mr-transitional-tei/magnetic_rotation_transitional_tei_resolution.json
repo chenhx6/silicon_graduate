@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T15:19:59.583946+00:00",
+  "status": "mr-transitional-tei-resolved",
+  "physical_conclusions": [
+    "1. Magnetic rotation persists in transitional Z=52 (118Te) and Z=53 (119I) isotopes above the Z=50 shell closure via core-assisted shears: proton particles in (g7/2, d5/2) or promoted to h11/2 couple to neutron h11/2^-2 holes, generating robust M1 dipole bands.",
+    "2. As proton number increases from Z=50 (Sn) to Z=52 (Te) and Z=54 (Xe), core deformation grows from beta2 ~ 0.05 to ~ 0.24, increasing J_core from 3.0 to 32.0 hbar^2/MeV. The core participation parameter chi = J_core / J_shears controls the transition: chi ~ 0.12 in 106Sn (pure MR), chi ~ 0.60 in 118Te (core-assisted MR), and chi ~ 1.28 in 122Xe (shears dissolved into collective E2 band).",
+    "3. In 118Te and 119I, core rotation absorbs ~35-40% of the angular momentum, slowing shears blade closure (theta closes by 20.7 deg in 118Te vs 59.5 deg in 106Sn). B(M1) drops gently by 35.7%, while B(M1)/B(E2) is reduced to ~60-88 mu_N^2 / (eb)^2 (an order of magnitude below Sn, but still two orders of magnitude above normal collective bands).",
+    "4. This establishes the continuous dissolution boundary of magnetic rotation across the A~110-120 isotopic landscape: magnetic rotation does not abruptly disappear at Z=50, but gradually gives way to collective quadrupole rotation as core triaxial softness and quadrupole moment Q_core overwhelm the particle-hole shears restoring torque."
+  ],
+  "isotopic_chain_systematics": [
+    {
+      "nucleus": "106Sn",
+      "Z": 50,
+      "N": 56,
+      "J_core": 3.0,
+      "Q_core_eb": 0.05,
+      "chi_parameter": 0.12,
+      "theta_initial_deg": 88.1,
+      "theta_final_deg": 0.0,
+      "shears_closing_angle_deg": 88.1,
+      "B_M1_drop_pct": 100.0,
+      "B_M1_over_B_E2_at_I8": 1814.48,
+      "B_M1_over_B_E2_at_I15": 0.0,
+      "regime_classification": "Pure Shears (Magnetic Rotation)"
+    },
+    {
+      "nucleus": "118Te",
+      "Z": 52,
+      "N": 66,
+      "J_core": 15.0,
+      "Q_core_eb": 0.4,
+      "chi_parameter": 0.6,
+      "theta_initial_deg": 89.29,
+      "theta_final_deg": 68.62,
+      "shears_closing_angle_deg": 20.67,
+      "B_M1_drop_pct": 35.7,
+      "B_M1_over_B_E2_at_I8": 88.76,
+      "B_M1_over_B_E2_at_I15": 61.86,
+      "regime_classification": "Core-Assisted Shears (Transitional MR)"
+    },
+    {
+      "nucleus": "119I",
+      "Z": 53,
+      "N": 66,
+      "J_core": 18.0,
+      "Q_core_eb": 0.45,
+      "chi_parameter": 0.72,
+      "theta_initial_deg": 89.38,
+      "theta_final_deg": 71.49,
+      "shears_closing_angle_deg": 17.89,
+      "B_M1_drop_pct": 31.0,
+      "B_M1_over_B_E2_at_I8": 71.97,
+      "B_M1_over_B_E2_at_I15": 52.85,
+      "regime_classification": "Core-Assisted Shears (Transitional MR)"
+    },
+    {
+      "nucleus": "122Xe",
+      "Z": 54,
+      "N": 68,
+      "J_core": 32.0,
+      "Q_core_eb": 0.9,
+      "chi_parameter": 1.28,
+      "theta_initial_deg": 89.62,
+      "theta_final_deg": 78.48,
+      "shears_closing_angle_deg": 11.14,
+      "B_M1_drop_pct": 19.4,
+      "B_M1_over_B_E2_at_I8": 19.99,
+      "B_M1_over_B_E2_at_I15": 16.44,
+      "regime_classification": "Collective E2 Rotation (Shears Dissolved)"
+    }
+  ],
+  "artifacts": {
+    "trajectories_csv": "shears_closing_evolution_sn_te_xe.csv",
+    "summary_csv": "transitional_isotopic_chain_systematics.csv"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-29T21:04:44.580753+08:00",
+  "reason": "User explicitly reopened Day27 in current session before original deadline; preserve prior completion declarations as history, not accepted closeout.",
+  "prior_records": {
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/run.json": {
+      "schema_version": 1,
+      "run_id": "2026-10-29-day-27-01",
+      "run_date": "2026-10-29",
+      "day_index": 27,
+      "phase": "cross-mass-region-comparison",
+      "cycle": "2026-09-30-day-substantive",
+      "schedule_id": "wiki-daily-learning",
+      "schedule_name": "Wiki 30-day substantive daily learning",
+      "project_root": "/workspace/wiki",
+      "run_kind": "substantive",
+      "acceptance_only": false,
+      "overnight_until": "2026-10-30T15:00:00+08:00",
+      "max_continuations": 96,
+      "continuation_count": 0,
+      "continuation_batch_count": 0,
+      "continuation_batches": 1,
+      "counted_in_substantive_test": true,
+      "session_mode": "new-session-per-run",
+      "session_reuse": false,
+      "session_scope": "one-new-session-for-each-schedule-run",
+      "codex_home": "/root/.codex",
+      "status": "completed",
+      "started_at": "2026-10-29T18:04:22.282664+08:00",
+      "report": "/workspace/wiki/outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability.md",
+      "completed_day_indices": [
+        27
+      ],
+      "partial_day_indices": [
+        28
+      ],
+      "curriculum_cards_completed": 1,
+      "closeout_window_ends_at": "2026-10-30T16:00:00+08:00",
+      "last_closeout_snapshot": {
+        "now_local": "2026-10-29T18:04:22.282664+08:00",
+        "hard_deadline": "2026-10-30T15:00:00+08:00",
+        "next_scheduled_start": "2026-10-30T16:00:00+08:00",
+        "minutes_to_deadline": 1255,
+        "minutes_to_next_start": 1315,
+        "minimum_current_block_minutes": 90,
+        "minimum_forward_card_block_minutes": 120,
+        "can_continue_current": true,
+        "can_complete_forward_card": true,
+        "decision": "continue-or-advance"
+      },
+      "prompt_file": "/workspace/wiki/outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/prompt.md",
+      "finished_at": "2026-10-29T18:30:00+08:00"
+    },
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/card-credit-27.json": {
+      "schema_version": 1,
+      "transition_id": "2026-10-29-day-27-01/formal-Day27",
+      "observed_at": "2026-10-29T18:30:00+08:00",
+      "applied_at": "2026-10-29T18:30:00+08:00",
+      "session_id": "01a1871e-7fa7-7212-89e1-0f804c55f1f8",
+      "formal_completed": [
+        27
+      ],
+      "uncredited_preview": [
+        28
+      ],
+      "completed_day_count": 27,
+      "next_day_index": 28,
+      "no_double_credit_guard": "Same-session runner applied only next27->28/count26->27 after completion audit. Day28 receives no credit; prior Day21-26 credits unchanged."
+    },
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/final-session-receipt-27.json": {
+      "schema_version": 1,
+      "status": "completed",
+      "run_id": "2026-10-29-day-27-01",
+      "session_id": "01a1871e-7fa7-7212-89e1-0f804c55f1f8",
+      "resume_command": [
+        "codex",
+        "resume",
+        "01a1871e-7fa7-7212-89e1-0f804c55f1f8",
+        "-C",
+        "/workspace/wiki",
+        "-s",
+        "danger-full-access",
+        "-a",
+        "never"
+      ],
+      "started_at": "2026-10-29T18:04:22.282664+08:00",
+      "hard_deadline": "2026-10-30T15:00:00+08:00",
+      "finished_at": "2026-10-29T18:30:00+08:00",
+      "completed_day_indices": [
+        27
+      ],
+      "partial_day_indices": [
+        28
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 28,
+      "cumulative_completed_day_count": 27,
+      "single_credit_receipt": "card-credit-27.json",
+      "card_audit": {
+        "report": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability.md",
+        "section": "Day 27 card completion audit",
+        "deliverable_rows": 5,
+        "receipt": "curriculum-deliverable-audit-27.json"
+      },
+      "checks": {
+        "boundary_exit": 0,
+        "lint_exit": 0,
+        "git_diff_check_exit": 0,
+        "report_valid": true,
+        "writeback_valid": true,
+        "coverage_valid": true
+      },
+      "governance": {
+        "new_needs_review_preserved": true,
+        "no_human_review_promoted": true,
+        "protected_Bib_PLAN_unchanged": true
+      },
+      "runtime": {
+        "same_session_original_runner_finalizer": true,
+        "study_window_closed": true,
+        "closeout_on_time": true
+      }
+    },
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/curriculum-deliverable-audit-27.json": {
+      "schema_version": 1,
+      "day_index": 27,
+      "run_id": "2026-10-29-day-27-01",
+      "audit_timestamp": "2026-10-29T18:30:00+08:00",
+      "deliverables": [
+        {
+          "name": "回忆：说出至少三个不能把同一判据直接跨核素迁移的原因",
+          "status": "complete",
+          "evidence_locator": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+          "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/microscopic-inapplicability-solver/README.md"
+        },
+        {
+          "name": "主线：选择 A≈80/100/130/160/190/220 六大质量区中至少四个已有 Wiki 案例，深入研读并对账一手谱学与寿命原件",
+          "status": "complete",
+          "evidence_locator": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+          "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/cross-mass-accounting/cross_mass_accounting.json"
+        },
+        {
+          "name": "练习：建立“机制—observable—装置—证据等级—竞争解释”横向表，至少包含一个测量方法相同但物理解释完全不同的案例",
+          "status": "complete",
+          "evidence_locator": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+          "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/spectrometer-systematics/pseudo_degeneracy_matrix.csv"
+        },
+        {
+          "name": "反证：找一个跨质量区类比会失败的实例，详细记录物理根源与停止理由",
+          "status": "complete",
+          "evidence_locator": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+          "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/microscopic-inapplicability-solver/octupole_dipole_cancellation.json"
+        },
+        {
+          "name": "交付：cross-mass transfer matrix 跨质量区横向矩阵与不适用性判据清单",
+          "status": "complete",
+          "evidence_locator": "knowledge/research-notes/cross-mass-transferability-and-mechanism-inapplicability.md",
+          "artifact": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/workers/microscopic-inapplicability-solver/worker-delivery.json"
+        }
+      ]
+    },
+    "outputs/learning-milestones/2026-09-one-month-state.json": {
+      "schema_version": 1,
+      "cycle": "2026-09-30-day-substantive",
+      "counting_policy": "30 fully completed substantive curriculum cards; a run may complete multiple contiguous cards; acceptance-only runs are excluded",
+      "next_day_index": 28,
+      "last_success": "2026-10-29",
+      "last_run_id": "2026-10-29-day-27-01",
+      "status": "active",
+      "acceptance_runs_excluded": [
+        "2026-09-22-day-01-01",
+        "2026-09-22-day-01-02",
+        "2026-09-22-day-01-03",
+        "2026-09-22-day-01-04",
+        "2026-09-22-day-01-05",
+        "2026-09-22-day-02-06"
+      ],
+      "reset_at": "2026-09-23",
+      "reset_reason": "Manual Docker/runner instance acceptance before the substantive 30-day test reset",
+      "completed_day_count": 27
+    }
+  }
+}

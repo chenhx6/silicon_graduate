@@ -1,0 +1,3345 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T02:55:33.840443+00:00",
+  "task": "Day 27 cross-mass AMR vs MR phase boundary and deformation selection study",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_cd105_is_amr": true,
+    "test_2_cd107_oblate_is_mr": true,
+    "test_3_y85_is_amr": true,
+    "test_4_bi198_is_mr": true,
+    "test_5_cd105_be2_drops": true,
+    "test_6_cd107_bm1_positive": true
+  },
+  "benchmarks": {
+    "85Y (A~80, Hao 2026)": {
+      "nucleus": "85Y (A~80, Hao 2026)",
+      "parameters": {
+        "mass_region": "A80",
+        "j1": 4.0,
+        "j2": 4.0,
+        "g1": -0.27,
+        "g2": -0.27,
+        "gR": 0.46,
+        "Q0": 0.75,
+        "V_pv": 1.0,
+        "V_pp": 0.2,
+        "J_core": 8.0,
+        "eps_def": 0.12,
+        "spins": [
+          8.5,
+          10.5,
+          12.5,
+          14.5,
+          16.5
+        ],
+        "is_amr_candidate": true
+      },
+      "classified_mode": "Antimagnetic Rotation (AMR)",
+      "states": [
+        {
+          "spin": 8.5,
+          "theta1_deg": 44.78,
+          "theta2_deg": 44.78,
+          "energy_MeV": 1.5052,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.02067,
+          "asym_index": 0.0,
+          "omega_MeV": null,
+          "J2_hbar2_per_MeV": null,
+          "J2_over_BE2": null
+        },
+        {
+          "spin": 10.5,
+          "theta1_deg": 33.73,
+          "theta2_deg": 33.73,
+          "energy_MeV": 2.3375,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.00798,
+          "asym_index": 0.0,
+          "omega_MeV": 0.4824,
+          "J2_hbar2_per_MeV": 15.09,
+          "J2_over_BE2": 1891.3
+        },
+        {
+          "spin": 12.5,
+          "theta1_deg": 19.66,
+          "theta2_deg": 19.66,
+          "energy_MeV": 3.4349,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.00108,
+          "asym_index": 0.0,
+          "omega_MeV": 0.6258,
+          "J2_hbar2_per_MeV": 12.97,
+          "J2_over_BE2": 12006.2
+        },
+        {
+          "spin": 14.5,
+          "theta1_deg": 0.57,
+          "theta2_deg": 0.57,
+          "energy_MeV": 4.8407,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.0,
+          "asym_index": 0.0,
+          "omega_MeV": 0.8202,
+          "J2_hbar2_per_MeV": 8.52,
+          "J2_over_BE2": null
+        },
+        {
+          "spin": 16.5,
+          "theta1_deg": 0.57,
+          "theta2_deg": 0.57,
+          "energy_MeV": 6.7158,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.0,
+          "asym_index": 0.0,
+          "omega_MeV": null,
+          "J2_hbar2_per_MeV": null,
+          "J2_over_BE2": null
+        }
+      ]
+    },
+    "105Cd (A~100, Tawseef 2026, Rather 2014)": {
+      "nucleus": "105Cd (A~100, Tawseef 2026, Rather 2014)",
+      "parameters": {
+        "mass_region": "A100",
+        "j1": 5.5,
+        "j2": 5.5,
+        "g1": -0.2,
+        "g2": -0.2,
+        "gR": 0.44,
+        "Q0": 1.25,
+        "V_pv": 1.2,
+        "V_pp": 0.2,
+        "J_core": 12.0,
+        "eps_def": 0.14,
+        "spins": [
+          11.5,
+          13.5,
+          15.5,
+          17.5,
+          19.5,
+          21.5,
+          23.5
+        ],
+        "is_amr_candidate": true
+      },
+      "classified_mode": "Antimagnetic Rotation (AMR)",
+      "states": [
+        {
+          "spin": 11.5,
+          "theta1_deg": 44.78,
+          "theta2_deg": 44.78,
+          "energy_MeV": 1.7772,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.05741,
+          "asym_index": 0.0,
+          "omega_MeV": null,
+          "J2_hbar2_per_MeV": null,
+          "J2_over_BE2": null
+        },
+        {
+          "spin": 13.5,
+          "theta1_deg": 36.75,
+          "theta2_deg": 36.75,
+          "energy_MeV": 2.472,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.02987,
+          "asym_index": 0.0,
+          "omega_MeV": 0.3876,
+          "J2_hbar2_per_MeV": 24.89,
+          "J2_over_BE2": 833.2
+        },
+        {
+          "spin": 15.5,
+          "theta1_deg": 26.7,
+          "theta2_deg": 26.7,
+          "energy_MeV": 3.3275,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.0095,
+          "asym_index": 0.0,
+          "omega_MeV": 0.471,
+          "J2_hbar2_per_MeV": 23.1,
+          "J2_over_BE2": 2431.7
+        },
+        {
+          "spin": 17.5,
+          "theta1_deg": 11.63,
+          "theta2_deg": 11.63,
+          "energy_MeV": 4.3561,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.00038,
+          "asym_index": 0.0,
+          "omega_MeV": 0.5708,
+          "J2_hbar2_per_MeV": 17.72,
+          "J2_over_BE2": 46642.8
+        },
+        {
+          "spin": 19.5,
+          "theta1_deg": 0.57,
+          "theta2_deg": 0.57,
+          "energy_MeV": 5.6105,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.0,
+          "asym_index": 0.0,
+          "omega_MeV": 0.7094,
+          "J2_hbar2_per_MeV": 12.16,
+          "J2_over_BE2": null
+        },
+        {
+          "spin": 21.5,
+          "theta1_deg": 0.57,
+          "theta2_deg": 0.57,
+          "energy_MeV": 7.1939,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.0,
+          "asym_index": 0.0,
+          "omega_MeV": 0.875,
+          "J2_hbar2_per_MeV": 12.0,
+          "J2_over_BE2": null
+        },
+        {
+          "spin": 23.5,
+          "theta1_deg": 0.57,
+          "theta2_deg": 0.57,
+          "energy_MeV": 9.1107,
+          "B_M1_muN2": 0.0,
+          "B_E2_e2b2": 0.0,
+          "asym_index": 0.0,
+          "omega_MeV": null,
+          "J2_hbar2_per_MeV": null,
+          "J2_over_BE2": null
+        }
+      ]
+    },
+    "107Cd (A~100, Tawseef 2026 Table I)": {
+      "nucleus": "107Cd (A~100, Tawseef 2026 Table I)",
+      "parameters": {
+        "mass_region": "A100",
+        "j1": 4.0,
+        "j2": 5.5,
+        "g1": 1.3,
+        "g2": -0.2,
+        "gR": 0.44,
+        "Q0": 0.9,
+        "V_pv": 1.1,
+        "V_pp": 0.15,
+        "J_core": 14.0,
+        "eps_def": -0.11,
+        "spins": [
+          11.5,
+          12.5,
+          13.5,
+          14.5,
+          15.5,
+          16.5,
+          17.5
+        ],
+        "is_amr_candidate": false
+      },
+      "classified_mode": "Magnetic Rotation (MR)",
+      "states": [
+        {
+          "spin": 11.5,
+          "theta1_deg": 47.03,
+          "theta2_deg": 41.49,
+          "energy_MeV": 1.908,
+          "B_M1_muN2": 2.8068,
+          "B_E2_e2b2": 0.0284,
+          "asym_index": 0.0627,
+          "omega_MeV": null,
+          "J2_hbar2_per_MeV": null,
+          "J2_over_BE2": null
+        },
+        {
+          "spin": 12.5,
+          "theta1_deg": 43.02,
+          "theta2_deg": 37.47,
+          "energy_MeV": 2.2605,
+          "B_M1_muN2": 2.4044,
+          "B_E2_e2b2": 0.02082,
+          "asym_index": 0.0689,
+          "omega_MeV": 0.3717,
+          "J2_hbar2_per_MeV": 26.1,
+          "J2_over_BE2": 1253.7
+        },
+        {
+          "spin": 13.5,
+          "theta1_deg": 39.0,
+          "theta2_deg": 32.49,
+          "energy_MeV": 2.6514,
+          "B_M1_muN2": 1.963,
+          "B_E2_e2b2": 0.01381,
+          "asym_index": 0.0911,
+          "omega_MeV": 0.4107,
+          "J2_hbar2_per_MeV": 25.2,
+          "J2_over_BE2": 1824.9
+        },
+        {
+          "spin": 14.5,
+          "theta1_deg": 34.49,
+          "theta2_deg": 27.42,
+          "energy_MeV": 3.082,
+          "B_M1_muN2": 1.5207,
+          "B_E2_e2b2": 0.00822,
+          "asym_index": 0.1142,
+          "omega_MeV": 0.4511,
+          "J2_hbar2_per_MeV": 24.36,
+          "J2_over_BE2": 2963.4
+        },
+        {
+          "spin": 15.5,
+          "theta1_deg": 29.43,
+          "theta2_deg": 21.39,
+          "energy_MeV": 3.5536,
+          "B_M1_muN2": 1.056,
+          "B_E2_e2b2": 0.00388,
+          "asym_index": 0.1582,
+          "omega_MeV": 0.493,
+          "J2_hbar2_per_MeV": 23.36,
+          "J2_over_BE2": 6019.8
+        },
+        {
+          "spin": 16.5,
+          "theta1_deg": 23.4,
+          "theta2_deg": 14.4,
+          "energy_MeV": 4.0681,
+          "B_M1_muN2": 0.5998,
+          "B_E2_e2b2": 0.00118,
+          "asym_index": 0.2382,
+          "omega_MeV": 0.5375,
+          "J2_hbar2_per_MeV": 21.64,
+          "J2_over_BE2": 18342.5
+        },
+        {
+          "spin": 17.5,
+          "theta1_deg": 16.41,
+          "theta2_deg": 7.33,
+          "energy_MeV": 4.6287,
+          "B_M1_muN2": 0.2409,
+          "B_E2_e2b2": 0.00016,
+          "asym_index": 0.3827,
+          "omega_MeV": null,
+          "J2_hbar2_per_MeV": null,
+          "J2_over_BE2": null
+        }
+      ]
+    },
+    "143Sm (A~140, Rajbanshi 2018)": {
+      "nucleus": "143Sm (A~140, Rajbanshi 2018)",
+      "parameters": {
+        "mass_region": "A140",
+        "j1": 2.5,
+        "j2": 6.5,
+        "g1": 1.25,
+        "g2": -0.22,
+        "gR": 0.43,
+        "Q0": 1.1,
+        "V_pv": 0.95,
+        "V_pp": 0.15,
+        "J_core": 18.0,
+        "eps_def": 0.08,
+        "spins": [
+          9.5,
+          10.5,
+          11.5,
+          12.5,
+          13.5,
+          14.5
+        ],
+        "is_amr_candidate": false
+      },
+      "classified_mode": "Magnetic Rotation (MR)",
+      "states": [
+        {
+          "spin": 9.5,
+          "theta1_deg": 84.73,
+          "theta2_deg": 1.3,
+          "energy_MeV": 0.7003,
+          "B_M1_muN2": 0.5451,
+          "B_E2_e2b2": 9e-05,
+          "asym_index": 0.9699,
+          "omega_MeV": null,
+          "J2_hbar2_per_MeV": null,
+          "J2_over_BE2": null
+        },
+        {
+          "spin": 10.5,
+          "theta1_deg": 82.73,
+          "theta2_deg": 1.3,
+          "energy_MeV": 0.8793,
+          "B_M1_muN2": 0.5411,
+          "B_E2_e2b2": 9e-05,
+          "asym_index": 0.9691,
+          "omega_MeV": 0.2047,
+          "J2_hbar2_per_MeV": 19.54,
+          "J2_over_BE2": 217075.3
+        },
+        {
+          "spin": 11.5,
+          "theta1_deg": 80.72,
+          "theta2_deg": 1.54,
+          "energy_MeV": 1.1096,
+          "B_M1_muN2": 0.5449,
+          "B_E2_e2b2": 0.00013,
+          "asym_index": 0.9626,
+          "omega_MeV": 0.2558,
+          "J2_hbar2_per_MeV": 19.57,
+          "J2_over_BE2": 150555.2
+        },
+        {
+          "spin": 12.5,
+          "theta1_deg": 79.19,
+          "theta2_deg": 1.54,
+          "energy_MeV": 1.391,
+          "B_M1_muN2": 0.54,
+          "B_E2_e2b2": 0.00013,
+          "asym_index": 0.9619,
+          "omega_MeV": 0.3069,
+          "J2_hbar2_per_MeV": 19.61,
+          "J2_over_BE2": 150871.4
+        },
+        {
+          "spin": 13.5,
+          "theta1_deg": 77.18,
+          "theta2_deg": 1.54,
+          "energy_MeV": 1.7234,
+          "B_M1_muN2": 0.5326,
+          "B_E2_e2b2": 0.00012,
+          "asym_index": 0.9609,
+          "omega_MeV": 0.3578,
+          "J2_hbar2_per_MeV": 19.63,
+          "J2_over_BE2": 163542.6
+        },
+        {
+          "spin": 14.5,
+          "theta1_deg": 75.17,
+          "theta2_deg": 1.54,
+          "energy_MeV": 2.1067,
+          "B_M1_muN2": 0.524,
+          "B_E2_e2b2": 0.00012,
+          "asym_index": 0.9599,
+          "omega_MeV": null,
+          "J2_hbar2_per_MeV": null,
+          "J2_over_BE2": null
+        }
+      ]
+    },
+    "198Bi (A~190, Pai 2014)": {
+      "nucleus": "198Bi (A~190, Pai 2014)",
+      "parameters": {
+        "mass_region": "A190",
+        "j1": 4.5,
+        "j2": 16.5,
+        "g1": 0.92,
+        "g2": -0.18,
+        "gR": 0.42,
+        "Q0": 1.3,
+        "V_pv": 0.865,
+        "V_pp": 0.1,
+        "J_core": 15.0,
+        "eps_def": -0.085,
+        "spins": [
+          21.0,
+          22.0,
+          23.0,
+          24.0,
+          25.0
+        ],
+        "is_amr_candidate": false
+      },
+      "classified_mode": "Magnetic Rotation (MR)",
+      "states": [
+        {
+          "spin": 21.0,
+          "theta1_deg": 46.55,
+          "theta2_deg": 19.95,
+          "energy_MeV": 1.4666,
+          "B_M1_muN2": 2.9968,
+          "B_E2_e2b2": 0.01547,
+          "asym_index": 0.4001,
+          "omega_MeV": null,
+          "J2_hbar2_per_MeV": null,
+          "J2_over_BE2": null
+        },
+        {
+          "spin": 22.0,
+          "theta1_deg": 43.02,
+          "theta2_deg": 13.35,
+          "energy_MeV": 1.6337,
+          "B_M1_muN2": 1.7433,
+          "B_E2_e2b2": 0.00626,
+          "asym_index": 0.5262,
+          "omega_MeV": 0.1779,
+          "J2_hbar2_per_MeV": 46.24,
+          "J2_over_BE2": 7386.1
+        },
+        {
+          "spin": 23.0,
+          "theta1_deg": 38.51,
+          "theta2_deg": 6.36,
+          "energy_MeV": 1.8224,
+          "B_M1_muN2": 0.7448,
+          "B_E2_e2b2": 0.0012,
+          "asym_index": 0.7165,
+          "omega_MeV": 0.2076,
+          "J2_hbar2_per_MeV": 26.46,
+          "J2_over_BE2": 22049.4
+        },
+        {
+          "spin": 24.0,
+          "theta1_deg": 32.97,
+          "theta2_deg": 3.0,
+          "energy_MeV": 2.0489,
+          "B_M1_muN2": 0.3626,
+          "B_E2_e2b2": 0.0002,
+          "asym_index": 0.8331,
+          "omega_MeV": 0.2506,
+          "J2_hbar2_per_MeV": 20.73,
+          "J2_over_BE2": 103674.7
+        },
+        {
+          "spin": 25.0,
+          "theta1_deg": 26.94,
+          "theta2_deg": 1.61,
+          "energy_MeV": 2.3237,
+          "B_M1_muN2": 0.2012,
+          "B_E2_e2b2": 4e-05,
+          "asym_index": 0.8869,
+          "omega_MeV": null,
+          "J2_hbar2_per_MeV": null,
+          "J2_over_BE2": null
+        }
+      ]
+    }
+  },
+  "phase_diagram_grid": {
+    "eps_axis": [
+      -0.2,
+      -0.175,
+      -0.15,
+      -0.125,
+      -0.1,
+      -0.075,
+      -0.05,
+      -0.025,
+      0.0,
+      0.025,
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.175,
+      0.2,
+      0.225,
+      0.25
+    ],
+    "j_ratio_axis": [
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9,
+      2.0,
+      2.1,
+      2.2,
+      2.3,
+      2.4,
+      2.5
+    ],
+    "grid": [
+      [
+        {
+          "eps": -0.2,
+          "j_ratio": 0.8,
+          "theta1_deg": 36.0,
+          "theta2_deg": 39.0,
+          "asym": 0.04,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 0.9,
+          "theta1_deg": 37.0,
+          "theta2_deg": 38.5,
+          "asym": 0.02,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 1.0,
+          "theta1_deg": 38.0,
+          "theta2_deg": 38.0,
+          "asym": 0.0,
+          "phase": "AMR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 1.1,
+          "theta1_deg": 39.0,
+          "theta2_deg": 38.0,
+          "asym": 0.013,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 1.2,
+          "theta1_deg": 40.0,
+          "theta2_deg": 38.0,
+          "asym": 0.026,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 1.3,
+          "theta1_deg": 41.5,
+          "theta2_deg": 38.0,
+          "asym": 0.043,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 1.4,
+          "theta1_deg": 42.5,
+          "theta2_deg": 38.5,
+          "asym": 0.05,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 1.5,
+          "theta1_deg": 44.0,
+          "theta2_deg": 39.0,
+          "asym": 0.06,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 1.6,
+          "theta1_deg": 45.0,
+          "theta2_deg": 39.5,
+          "asym": 0.066,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 1.7,
+          "theta1_deg": 46.1,
+          "theta2_deg": 40.0,
+          "asym": 0.07,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 1.8,
+          "theta1_deg": 47.5,
+          "theta2_deg": 40.5,
+          "asym": 0.079,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 1.9,
+          "theta1_deg": 48.6,
+          "theta2_deg": 41.5,
+          "asym": 0.079,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 2.0,
+          "theta1_deg": 49.6,
+          "theta2_deg": 42.1,
+          "asym": 0.082,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 2.1,
+          "theta1_deg": 51.1,
+          "theta2_deg": 43.0,
+          "asym": 0.085,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 2.2,
+          "theta1_deg": 52.1,
+          "theta2_deg": 43.5,
+          "asym": 0.09,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 2.3,
+          "theta1_deg": 53.1,
+          "theta2_deg": 44.5,
+          "asym": 0.087,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 2.4,
+          "theta1_deg": 54.6,
+          "theta2_deg": 45.5,
+          "asym": 0.091,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.2,
+          "j_ratio": 2.5,
+          "theta1_deg": 55.6,
+          "theta2_deg": 46.1,
+          "asym": 0.093,
+          "phase": "Oblate-MR"
+        }
+      ],
+      [
+        {
+          "eps": -0.175,
+          "j_ratio": 0.8,
+          "theta1_deg": 36.0,
+          "theta2_deg": 39.5,
+          "asym": 0.046,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 0.9,
+          "theta1_deg": 37.0,
+          "theta2_deg": 38.5,
+          "asym": 0.02,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 1.0,
+          "theta1_deg": 38.0,
+          "theta2_deg": 38.0,
+          "asym": 0.0,
+          "phase": "AMR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 1.1,
+          "theta1_deg": 39.0,
+          "theta2_deg": 38.0,
+          "asym": 0.014,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 1.2,
+          "theta1_deg": 40.0,
+          "theta2_deg": 37.5,
+          "asym": 0.032,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 1.3,
+          "theta1_deg": 41.5,
+          "theta2_deg": 38.0,
+          "asym": 0.045,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 1.4,
+          "theta1_deg": 42.5,
+          "theta2_deg": 38.0,
+          "asym": 0.056,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 1.5,
+          "theta1_deg": 44.1,
+          "theta2_deg": 38.5,
+          "asym": 0.067,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 1.6,
+          "theta1_deg": 45.5,
+          "theta2_deg": 39.0,
+          "asym": 0.077,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 1.7,
+          "theta1_deg": 46.6,
+          "theta2_deg": 39.5,
+          "asym": 0.082,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 1.8,
+          "theta1_deg": 48.1,
+          "theta2_deg": 40.5,
+          "asym": 0.085,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 1.9,
+          "theta1_deg": 49.0,
+          "theta2_deg": 41.0,
+          "asym": 0.089,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 2.0,
+          "theta1_deg": 50.1,
+          "theta2_deg": 42.0,
+          "asym": 0.088,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 2.1,
+          "theta1_deg": 51.5,
+          "theta2_deg": 42.5,
+          "asym": 0.096,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 2.2,
+          "theta1_deg": 52.6,
+          "theta2_deg": 43.5,
+          "asym": 0.095,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 2.3,
+          "theta1_deg": 54.0,
+          "theta2_deg": 44.1,
+          "asym": 0.102,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 2.4,
+          "theta1_deg": 55.1,
+          "theta2_deg": 45.0,
+          "asym": 0.1,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.175,
+          "j_ratio": 2.5,
+          "theta1_deg": 56.1,
+          "theta2_deg": 46.0,
+          "asym": 0.099,
+          "phase": "Oblate-MR"
+        }
+      ],
+      [
+        {
+          "eps": -0.15,
+          "j_ratio": 0.8,
+          "theta1_deg": 35.9,
+          "theta2_deg": 39.5,
+          "asym": 0.047,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 0.9,
+          "theta1_deg": 37.0,
+          "theta2_deg": 38.5,
+          "asym": 0.02,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 1.0,
+          "theta1_deg": 38.0,
+          "theta2_deg": 38.0,
+          "asym": 0.0,
+          "phase": "AMR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 1.1,
+          "theta1_deg": 39.0,
+          "theta2_deg": 37.5,
+          "asym": 0.02,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 1.2,
+          "theta1_deg": 40.5,
+          "theta2_deg": 37.5,
+          "asym": 0.039,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 1.3,
+          "theta1_deg": 42.0,
+          "theta2_deg": 37.5,
+          "asym": 0.057,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 1.4,
+          "theta1_deg": 43.0,
+          "theta2_deg": 38.0,
+          "asym": 0.061,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 1.5,
+          "theta1_deg": 44.5,
+          "theta2_deg": 38.0,
+          "asym": 0.079,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 1.6,
+          "theta1_deg": 45.5,
+          "theta2_deg": 38.5,
+          "asym": 0.083,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 1.7,
+          "theta1_deg": 47.0,
+          "theta2_deg": 39.5,
+          "asym": 0.087,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 1.8,
+          "theta1_deg": 48.6,
+          "theta2_deg": 40.0,
+          "asym": 0.096,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 1.9,
+          "theta1_deg": 49.5,
+          "theta2_deg": 40.5,
+          "asym": 0.1,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 2.0,
+          "theta1_deg": 51.1,
+          "theta2_deg": 41.5,
+          "asym": 0.103,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 2.1,
+          "theta1_deg": 52.1,
+          "theta2_deg": 42.1,
+          "asym": 0.107,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 2.2,
+          "theta1_deg": 53.5,
+          "theta2_deg": 43.0,
+          "asym": 0.109,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 2.3,
+          "theta1_deg": 54.6,
+          "theta2_deg": 43.5,
+          "asym": 0.113,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 2.4,
+          "theta1_deg": 55.6,
+          "theta2_deg": 44.5,
+          "asym": 0.11,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.15,
+          "j_ratio": 2.5,
+          "theta1_deg": 56.6,
+          "theta2_deg": 45.5,
+          "asym": 0.109,
+          "phase": "Oblate-MR"
+        }
+      ],
+      [
+        {
+          "eps": -0.125,
+          "j_ratio": 0.8,
+          "theta1_deg": 35.5,
+          "theta2_deg": 40.0,
+          "asym": 0.06,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 0.9,
+          "theta1_deg": 36.7,
+          "theta2_deg": 38.8,
+          "asym": 0.027,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 1.0,
+          "theta1_deg": 38.0,
+          "theta2_deg": 38.0,
+          "asym": 0.0,
+          "phase": "AMR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 1.1,
+          "theta1_deg": 39.5,
+          "theta2_deg": 37.5,
+          "asym": 0.026,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 1.2,
+          "theta1_deg": 40.5,
+          "theta2_deg": 37.5,
+          "asym": 0.039,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 1.3,
+          "theta1_deg": 42.1,
+          "theta2_deg": 37.5,
+          "asym": 0.058,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 1.4,
+          "theta1_deg": 43.5,
+          "theta2_deg": 37.5,
+          "asym": 0.074,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 1.5,
+          "theta1_deg": 45.0,
+          "theta2_deg": 38.0,
+          "asym": 0.084,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 1.6,
+          "theta1_deg": 46.6,
+          "theta2_deg": 38.0,
+          "asym": 0.101,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 1.7,
+          "theta1_deg": 47.5,
+          "theta2_deg": 39.0,
+          "asym": 0.098,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 1.8,
+          "theta1_deg": 49.0,
+          "theta2_deg": 39.5,
+          "asym": 0.108,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 1.9,
+          "theta1_deg": 50.6,
+          "theta2_deg": 40.0,
+          "asym": 0.116,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 2.0,
+          "theta1_deg": 51.5,
+          "theta2_deg": 41.0,
+          "asym": 0.114,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 2.1,
+          "theta1_deg": 53.1,
+          "theta2_deg": 41.5,
+          "asym": 0.122,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 2.2,
+          "theta1_deg": 54.1,
+          "theta2_deg": 42.5,
+          "asym": 0.12,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 2.3,
+          "theta1_deg": 55.6,
+          "theta2_deg": 43.0,
+          "asym": 0.127,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 2.4,
+          "theta1_deg": 56.6,
+          "theta2_deg": 44.1,
+          "asym": 0.125,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.125,
+          "j_ratio": 2.5,
+          "theta1_deg": 58.1,
+          "theta2_deg": 44.5,
+          "asym": 0.132,
+          "phase": "Oblate-MR"
+        }
+      ],
+      [
+        {
+          "eps": -0.1,
+          "j_ratio": 0.8,
+          "theta1_deg": 35.5,
+          "theta2_deg": 40.0,
+          "asym": 0.061,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 0.9,
+          "theta1_deg": 36.5,
+          "theta2_deg": 39.0,
+          "asym": 0.033,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 1.0,
+          "theta1_deg": 38.0,
+          "theta2_deg": 38.0,
+          "asym": 0.0,
+          "phase": "AMR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 1.1,
+          "theta1_deg": 39.5,
+          "theta2_deg": 37.5,
+          "asym": 0.026,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 1.2,
+          "theta1_deg": 41.0,
+          "theta2_deg": 37.0,
+          "asym": 0.052,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 1.3,
+          "theta1_deg": 42.5,
+          "theta2_deg": 37.0,
+          "asym": 0.07,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 1.4,
+          "theta1_deg": 44.1,
+          "theta2_deg": 37.0,
+          "asym": 0.087,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 1.5,
+          "theta1_deg": 45.5,
+          "theta2_deg": 37.5,
+          "asym": 0.097,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 1.6,
+          "theta1_deg": 47.0,
+          "theta2_deg": 37.5,
+          "asym": 0.113,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 1.7,
+          "theta1_deg": 48.6,
+          "theta2_deg": 38.0,
+          "asym": 0.122,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 1.8,
+          "theta1_deg": 50.1,
+          "theta2_deg": 38.5,
+          "asym": 0.131,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 1.9,
+          "theta1_deg": 51.5,
+          "theta2_deg": 39.5,
+          "asym": 0.132,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 2.0,
+          "theta1_deg": 52.6,
+          "theta2_deg": 40.0,
+          "asym": 0.135,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 2.1,
+          "theta1_deg": 54.1,
+          "theta2_deg": 41.0,
+          "asym": 0.138,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 2.2,
+          "theta1_deg": 55.6,
+          "theta2_deg": 41.5,
+          "asym": 0.145,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 2.3,
+          "theta1_deg": 56.6,
+          "theta2_deg": 42.5,
+          "asym": 0.142,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 2.4,
+          "theta1_deg": 58.1,
+          "theta2_deg": 43.0,
+          "asym": 0.149,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.1,
+          "j_ratio": 2.5,
+          "theta1_deg": 59.1,
+          "theta2_deg": 44.1,
+          "asym": 0.146,
+          "phase": "Oblate-MR"
+        }
+      ],
+      [
+        {
+          "eps": -0.075,
+          "j_ratio": 0.8,
+          "theta1_deg": 34.7,
+          "theta2_deg": 40.8,
+          "asym": 0.08,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 0.9,
+          "theta1_deg": 36.5,
+          "theta2_deg": 39.0,
+          "asym": 0.033,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 1.0,
+          "theta1_deg": 38.0,
+          "theta2_deg": 38.0,
+          "asym": 0.0,
+          "phase": "AMR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 1.1,
+          "theta1_deg": 40.0,
+          "theta2_deg": 37.0,
+          "asym": 0.039,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 1.2,
+          "theta1_deg": 41.5,
+          "theta2_deg": 36.5,
+          "asym": 0.064,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 1.3,
+          "theta1_deg": 43.0,
+          "theta2_deg": 36.5,
+          "asym": 0.082,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 1.4,
+          "theta1_deg": 44.5,
+          "theta2_deg": 36.5,
+          "asym": 0.099,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 1.5,
+          "theta1_deg": 46.6,
+          "theta2_deg": 36.5,
+          "asym": 0.121,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 1.6,
+          "theta1_deg": 48.1,
+          "theta2_deg": 36.5,
+          "asym": 0.137,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 1.7,
+          "theta1_deg": 49.5,
+          "theta2_deg": 37.0,
+          "asym": 0.145,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 1.8,
+          "theta1_deg": 51.1,
+          "theta2_deg": 37.5,
+          "asym": 0.153,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 1.9,
+          "theta1_deg": 52.6,
+          "theta2_deg": 38.5,
+          "asym": 0.154,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 2.0,
+          "theta1_deg": 54.1,
+          "theta2_deg": 39.0,
+          "asym": 0.162,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 2.1,
+          "theta1_deg": 55.6,
+          "theta2_deg": 39.6,
+          "asym": 0.168,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 2.2,
+          "theta1_deg": 57.1,
+          "theta2_deg": 40.5,
+          "asym": 0.17,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 2.3,
+          "theta1_deg": 58.1,
+          "theta2_deg": 41.5,
+          "asym": 0.167,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 2.4,
+          "theta1_deg": 59.6,
+          "theta2_deg": 42.1,
+          "asym": 0.172,
+          "phase": "Oblate-MR"
+        },
+        {
+          "eps": -0.075,
+          "j_ratio": 2.5,
+          "theta1_deg": 60.6,
+          "theta2_deg": 43.0,
+          "asym": 0.17,
+          "phase": "Oblate-MR"
+        }
+      ],
+      [
+        {
+          "eps": -0.05,
+          "j_ratio": 0.8,
+          "theta1_deg": 34.0,
+          "theta2_deg": 41.5,
+          "asym": 0.099,
+          "phase": "Transitional"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 0.9,
+          "theta1_deg": 36.0,
+          "theta2_deg": 39.5,
+          "asym": 0.046,
+          "phase": "Transitional"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 1.0,
+          "theta1_deg": 38.0,
+          "theta2_deg": 38.0,
+          "asym": 0.0,
+          "phase": "AMR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 1.1,
+          "theta1_deg": 40.0,
+          "theta2_deg": 37.0,
+          "asym": 0.04,
+          "phase": "Transitional"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 1.2,
+          "theta1_deg": 42.1,
+          "theta2_deg": 36.0,
+          "asym": 0.077,
+          "phase": "Transitional"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 1.3,
+          "theta1_deg": 44.1,
+          "theta2_deg": 35.5,
+          "asym": 0.108,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 1.4,
+          "theta1_deg": 46.1,
+          "theta2_deg": 35.5,
+          "asym": 0.13,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 1.5,
+          "theta1_deg": 47.6,
+          "theta2_deg": 35.5,
+          "asym": 0.146,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 1.6,
+          "theta1_deg": 49.5,
+          "theta2_deg": 35.5,
+          "asym": 0.166,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 1.7,
+          "theta1_deg": 51.5,
+          "theta2_deg": 35.5,
+          "asym": 0.184,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 1.8,
+          "theta1_deg": 53.1,
+          "theta2_deg": 36.0,
+          "asym": 0.191,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 1.9,
+          "theta1_deg": 54.6,
+          "theta2_deg": 36.5,
+          "asym": 0.199,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 2.0,
+          "theta1_deg": 56.1,
+          "theta2_deg": 37.5,
+          "asym": 0.199,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 2.1,
+          "theta1_deg": 57.6,
+          "theta2_deg": 38.0,
+          "asym": 0.204,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 2.2,
+          "theta1_deg": 59.1,
+          "theta2_deg": 39.0,
+          "asym": 0.205,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 2.3,
+          "theta1_deg": 60.6,
+          "theta2_deg": 39.5,
+          "asym": 0.211,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 2.4,
+          "theta1_deg": 61.6,
+          "theta2_deg": 40.5,
+          "asym": 0.206,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.05,
+          "j_ratio": 2.5,
+          "theta1_deg": 63.1,
+          "theta2_deg": 41.5,
+          "asym": 0.207,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": -0.025,
+          "j_ratio": 0.8,
+          "theta1_deg": 32.7,
+          "theta2_deg": 42.8,
+          "asym": 0.133,
+          "phase": "Transitional"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 0.9,
+          "theta1_deg": 35.5,
+          "theta2_deg": 40.0,
+          "asym": 0.061,
+          "phase": "Transitional"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 1.0,
+          "theta1_deg": 38.0,
+          "theta2_deg": 38.0,
+          "asym": 0.0,
+          "phase": "AMR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 1.1,
+          "theta1_deg": 40.5,
+          "theta2_deg": 36.5,
+          "asym": 0.052,
+          "phase": "Transitional"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 1.2,
+          "theta1_deg": 43.0,
+          "theta2_deg": 35.0,
+          "asym": 0.103,
+          "phase": "Transitional"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 1.3,
+          "theta1_deg": 45.5,
+          "theta2_deg": 34.0,
+          "asym": 0.145,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 1.4,
+          "theta1_deg": 47.6,
+          "theta2_deg": 33.5,
+          "asym": 0.175,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 1.5,
+          "theta1_deg": 50.1,
+          "theta2_deg": 33.0,
+          "asym": 0.206,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 1.6,
+          "theta1_deg": 52.1,
+          "theta2_deg": 33.0,
+          "asym": 0.225,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 1.7,
+          "theta1_deg": 54.1,
+          "theta2_deg": 33.0,
+          "asym": 0.243,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 1.8,
+          "theta1_deg": 55.6,
+          "theta2_deg": 33.5,
+          "asym": 0.249,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 1.9,
+          "theta1_deg": 57.6,
+          "theta2_deg": 34.0,
+          "asym": 0.257,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 2.0,
+          "theta1_deg": 59.1,
+          "theta2_deg": 34.5,
+          "asym": 0.263,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 2.1,
+          "theta1_deg": 60.6,
+          "theta2_deg": 35.5,
+          "asym": 0.262,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 2.2,
+          "theta1_deg": 62.1,
+          "theta2_deg": 36.0,
+          "asym": 0.266,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 2.3,
+          "theta1_deg": 63.6,
+          "theta2_deg": 37.0,
+          "asym": 0.265,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 2.4,
+          "theta1_deg": 65.1,
+          "theta2_deg": 38.0,
+          "asym": 0.263,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": -0.025,
+          "j_ratio": 2.5,
+          "theta1_deg": 66.2,
+          "theta2_deg": 39.0,
+          "asym": 0.258,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": 0.0,
+          "j_ratio": 0.8,
+          "theta1_deg": 29.5,
+          "theta2_deg": 45.5,
+          "asym": 0.213,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 0.9,
+          "theta1_deg": 34.0,
+          "theta2_deg": 41.5,
+          "asym": 0.099,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 1.0,
+          "theta1_deg": 38.0,
+          "theta2_deg": 38.0,
+          "asym": 0.001,
+          "phase": "AMR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 1.1,
+          "theta1_deg": 41.6,
+          "theta2_deg": 35.5,
+          "asym": 0.079,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 1.2,
+          "theta1_deg": 45.0,
+          "theta2_deg": 33.0,
+          "asym": 0.155,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 1.3,
+          "theta1_deg": 48.1,
+          "theta2_deg": 31.0,
+          "asym": 0.217,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 1.4,
+          "theta1_deg": 51.1,
+          "theta2_deg": 29.4,
+          "asym": 0.269,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 1.5,
+          "theta1_deg": 53.5,
+          "theta2_deg": 28.5,
+          "asym": 0.306,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 1.6,
+          "theta1_deg": 56.1,
+          "theta2_deg": 27.9,
+          "asym": 0.336,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 1.7,
+          "theta1_deg": 58.6,
+          "theta2_deg": 27.4,
+          "asym": 0.363,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 1.8,
+          "theta1_deg": 60.6,
+          "theta2_deg": 27.9,
+          "asym": 0.37,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 1.9,
+          "theta1_deg": 62.1,
+          "theta2_deg": 28.5,
+          "asym": 0.372,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 2.0,
+          "theta1_deg": 64.2,
+          "theta2_deg": 28.9,
+          "asym": 0.378,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 2.1,
+          "theta1_deg": 65.6,
+          "theta2_deg": 30.0,
+          "asym": 0.373,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 2.2,
+          "theta1_deg": 66.6,
+          "theta2_deg": 31.4,
+          "asym": 0.359,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 2.3,
+          "theta1_deg": 68.2,
+          "theta2_deg": 32.5,
+          "asym": 0.355,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 2.4,
+          "theta1_deg": 69.1,
+          "theta2_deg": 34.0,
+          "asym": 0.341,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.0,
+          "j_ratio": 2.5,
+          "theta1_deg": 70.2,
+          "theta2_deg": 35.5,
+          "asym": 0.329,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": 0.025,
+          "j_ratio": 0.8,
+          "theta1_deg": 21.0,
+          "theta2_deg": 51.5,
+          "asym": 0.421,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 0.9,
+          "theta1_deg": 29.5,
+          "theta2_deg": 45.0,
+          "asym": 0.208,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 1.0,
+          "theta1_deg": 38.0,
+          "theta2_deg": 38.0,
+          "asym": 0.001,
+          "phase": "AMR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 1.1,
+          "theta1_deg": 45.0,
+          "theta2_deg": 31.0,
+          "asym": 0.185,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 1.2,
+          "theta1_deg": 50.6,
+          "theta2_deg": 25.4,
+          "asym": 0.331,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 1.3,
+          "theta1_deg": 54.6,
+          "theta2_deg": 21.4,
+          "asym": 0.437,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 1.4,
+          "theta1_deg": 58.1,
+          "theta2_deg": 18.4,
+          "asym": 0.519,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 1.5,
+          "theta1_deg": 60.9,
+          "theta2_deg": 16.6,
+          "asym": 0.57,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 1.6,
+          "theta1_deg": 63.6,
+          "theta2_deg": 15.4,
+          "asym": 0.609,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 1.7,
+          "theta1_deg": 65.6,
+          "theta2_deg": 15.4,
+          "asym": 0.619,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 1.8,
+          "theta1_deg": 67.6,
+          "theta2_deg": 15.4,
+          "asym": 0.628,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 1.9,
+          "theta1_deg": 69.6,
+          "theta2_deg": 15.4,
+          "asym": 0.637,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 2.0,
+          "theta1_deg": 71.2,
+          "theta2_deg": 16.9,
+          "asym": 0.616,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 2.1,
+          "theta1_deg": 72.7,
+          "theta2_deg": 18.4,
+          "asym": 0.596,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 2.2,
+          "theta1_deg": 73.6,
+          "theta2_deg": 21.0,
+          "asym": 0.556,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 2.3,
+          "theta1_deg": 74.2,
+          "theta2_deg": 23.9,
+          "asym": 0.513,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 2.4,
+          "theta1_deg": 74.9,
+          "theta2_deg": 26.7,
+          "asym": 0.475,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.025,
+          "j_ratio": 2.5,
+          "theta1_deg": 75.2,
+          "theta2_deg": 29.4,
+          "asym": 0.437,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": 0.05,
+          "j_ratio": 0.8,
+          "theta1_deg": 10.4,
+          "theta2_deg": 58.1,
+          "asym": 0.697,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 0.9,
+          "theta1_deg": 13.4,
+          "theta2_deg": 55.1,
+          "asym": 0.608,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 1.0,
+          "theta1_deg": 22.4,
+          "theta2_deg": 49.6,
+          "asym": 0.379,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 1.1,
+          "theta1_deg": 55.6,
+          "theta2_deg": 13.9,
+          "asym": 0.599,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 1.2,
+          "theta1_deg": 58.6,
+          "theta2_deg": 11.3,
+          "asym": 0.676,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 1.3,
+          "theta1_deg": 61.1,
+          "theta2_deg": 9.4,
+          "asym": 0.733,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 1.4,
+          "theta1_deg": 63.6,
+          "theta2_deg": 8.4,
+          "asym": 0.767,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 1.5,
+          "theta1_deg": 65.6,
+          "theta2_deg": 7.4,
+          "asym": 0.797,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 1.6,
+          "theta1_deg": 67.7,
+          "theta2_deg": 6.8,
+          "asym": 0.816,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 1.7,
+          "theta1_deg": 70.1,
+          "theta2_deg": 6.4,
+          "asym": 0.834,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 1.8,
+          "theta1_deg": 72.1,
+          "theta2_deg": 5.9,
+          "asym": 0.849,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 1.9,
+          "theta1_deg": 73.6,
+          "theta2_deg": 5.9,
+          "asym": 0.852,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 2.0,
+          "theta1_deg": 75.7,
+          "theta2_deg": 5.9,
+          "asym": 0.856,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 2.1,
+          "theta1_deg": 77.2,
+          "theta2_deg": 5.9,
+          "asym": 0.858,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 2.2,
+          "theta1_deg": 79.2,
+          "theta2_deg": 5.9,
+          "asym": 0.862,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 2.3,
+          "theta1_deg": 80.7,
+          "theta2_deg": 6.8,
+          "asym": 0.844,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 2.4,
+          "theta1_deg": 81.7,
+          "theta2_deg": 9.9,
+          "asym": 0.784,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.05,
+          "j_ratio": 2.5,
+          "theta1_deg": 82.2,
+          "theta2_deg": 15.4,
+          "asym": 0.685,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": 0.075,
+          "j_ratio": 0.8,
+          "theta1_deg": 5.6,
+          "theta2_deg": 62.6,
+          "asym": 0.837,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 0.9,
+          "theta1_deg": 6.8,
+          "theta2_deg": 60.1,
+          "asym": 0.796,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 1.0,
+          "theta1_deg": 8.9,
+          "theta2_deg": 57.6,
+          "asym": 0.733,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 1.1,
+          "theta1_deg": 60.1,
+          "theta2_deg": 7.3,
+          "asym": 0.783,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 1.2,
+          "theta1_deg": 62.6,
+          "theta2_deg": 5.9,
+          "asym": 0.828,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 1.3,
+          "theta1_deg": 64.6,
+          "theta2_deg": 5.1,
+          "asym": 0.854,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 1.4,
+          "theta1_deg": 66.6,
+          "theta2_deg": 4.6,
+          "asym": 0.87,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 1.5,
+          "theta1_deg": 68.7,
+          "theta2_deg": 4.2,
+          "asym": 0.885,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 1.6,
+          "theta1_deg": 70.2,
+          "theta2_deg": 4.2,
+          "asym": 0.887,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 1.7,
+          "theta1_deg": 72.2,
+          "theta2_deg": 3.7,
+          "asym": 0.903,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 1.8,
+          "theta1_deg": 73.7,
+          "theta2_deg": 3.3,
+          "asym": 0.913,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 1.9,
+          "theta1_deg": 75.7,
+          "theta2_deg": 3.3,
+          "asym": 0.915,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 2.0,
+          "theta1_deg": 77.2,
+          "theta2_deg": 3.0,
+          "asym": 0.925,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 2.1,
+          "theta1_deg": 78.9,
+          "theta2_deg": 2.6,
+          "asym": 0.937,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 2.2,
+          "theta1_deg": 80.7,
+          "theta2_deg": 2.7,
+          "asym": 0.936,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 2.3,
+          "theta1_deg": 82.2,
+          "theta2_deg": 2.7,
+          "asym": 0.937,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 2.4,
+          "theta1_deg": 83.7,
+          "theta2_deg": 2.7,
+          "asym": 0.939,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.075,
+          "j_ratio": 2.5,
+          "theta1_deg": 85.2,
+          "theta2_deg": 2.7,
+          "asym": 0.94,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": 0.1,
+          "j_ratio": 0.8,
+          "theta1_deg": 3.7,
+          "theta2_deg": 65.6,
+          "asym": 0.892,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 0.9,
+          "theta1_deg": 4.6,
+          "theta2_deg": 63.1,
+          "asym": 0.863,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 1.0,
+          "theta1_deg": 5.1,
+          "theta2_deg": 61.1,
+          "asym": 0.846,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 1.1,
+          "theta1_deg": 63.1,
+          "theta2_deg": 4.6,
+          "asym": 0.863,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 1.2,
+          "theta1_deg": 65.1,
+          "theta2_deg": 3.7,
+          "asym": 0.891,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 1.3,
+          "theta1_deg": 67.1,
+          "theta2_deg": 3.3,
+          "asym": 0.905,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 1.4,
+          "theta1_deg": 69.1,
+          "theta2_deg": 3.0,
+          "asym": 0.917,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 1.5,
+          "theta1_deg": 70.7,
+          "theta2_deg": 3.0,
+          "asym": 0.918,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 1.6,
+          "theta1_deg": 72.2,
+          "theta2_deg": 2.7,
+          "asym": 0.929,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 1.7,
+          "theta1_deg": 74.1,
+          "theta2_deg": 2.3,
+          "asym": 0.94,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 1.8,
+          "theta1_deg": 75.7,
+          "theta2_deg": 2.3,
+          "asym": 0.941,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 1.9,
+          "theta1_deg": 77.2,
+          "theta2_deg": 2.0,
+          "asym": 0.95,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 2.0,
+          "theta1_deg": 78.7,
+          "theta2_deg": 2.0,
+          "asym": 0.951,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 2.1,
+          "theta1_deg": 80.2,
+          "theta2_deg": 1.6,
+          "asym": 0.961,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 2.2,
+          "theta1_deg": 81.7,
+          "theta2_deg": 1.6,
+          "asym": 0.961,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 2.3,
+          "theta1_deg": 82.7,
+          "theta2_deg": 1.5,
+          "asym": 0.963,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 2.4,
+          "theta1_deg": 84.3,
+          "theta2_deg": 1.5,
+          "asym": 0.964,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.1,
+          "j_ratio": 2.5,
+          "theta1_deg": 85.7,
+          "theta2_deg": 1.3,
+          "asym": 0.971,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": 0.125,
+          "j_ratio": 0.8,
+          "theta1_deg": 2.7,
+          "theta2_deg": 68.2,
+          "asym": 0.925,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 0.9,
+          "theta1_deg": 3.0,
+          "theta2_deg": 65.6,
+          "asym": 0.912,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 1.0,
+          "theta1_deg": 3.3,
+          "theta2_deg": 64.2,
+          "asym": 0.901,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 1.1,
+          "theta1_deg": 65.6,
+          "theta2_deg": 3.0,
+          "asym": 0.912,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 1.2,
+          "theta1_deg": 67.6,
+          "theta2_deg": 2.7,
+          "asym": 0.924,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 1.3,
+          "theta1_deg": 69.1,
+          "theta2_deg": 2.7,
+          "asym": 0.926,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 1.4,
+          "theta1_deg": 70.7,
+          "theta2_deg": 2.3,
+          "asym": 0.937,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 1.5,
+          "theta1_deg": 72.2,
+          "theta2_deg": 2.0,
+          "asym": 0.947,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 1.6,
+          "theta1_deg": 73.6,
+          "theta2_deg": 2.0,
+          "asym": 0.948,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 1.7,
+          "theta1_deg": 75.2,
+          "theta2_deg": 2.0,
+          "asym": 0.949,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 1.8,
+          "theta1_deg": 76.7,
+          "theta2_deg": 1.6,
+          "asym": 0.959,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 1.9,
+          "theta1_deg": 78.2,
+          "theta2_deg": 1.5,
+          "asym": 0.961,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 2.0,
+          "theta1_deg": 79.7,
+          "theta2_deg": 1.3,
+          "asym": 0.968,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 2.1,
+          "theta1_deg": 80.7,
+          "theta2_deg": 1.3,
+          "asym": 0.968,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 2.2,
+          "theta1_deg": 82.2,
+          "theta2_deg": 1.1,
+          "asym": 0.975,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 2.3,
+          "theta1_deg": 83.7,
+          "theta2_deg": 1.1,
+          "asym": 0.975,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 2.4,
+          "theta1_deg": 84.7,
+          "theta2_deg": 1.1,
+          "asym": 0.975,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.125,
+          "j_ratio": 2.5,
+          "theta1_deg": 86.0,
+          "theta2_deg": 0.8,
+          "asym": 0.981,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": 0.15,
+          "j_ratio": 0.8,
+          "theta1_deg": 2.0,
+          "theta2_deg": 70.1,
+          "asym": 0.946,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 0.9,
+          "theta1_deg": 2.3,
+          "theta2_deg": 68.2,
+          "asym": 0.935,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 1.0,
+          "theta1_deg": 2.7,
+          "theta2_deg": 66.2,
+          "asym": 0.923,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 1.1,
+          "theta1_deg": 67.6,
+          "theta2_deg": 2.3,
+          "asym": 0.934,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 1.2,
+          "theta1_deg": 69.6,
+          "theta2_deg": 2.0,
+          "asym": 0.945,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 1.3,
+          "theta1_deg": 70.7,
+          "theta2_deg": 2.0,
+          "asym": 0.946,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 1.4,
+          "theta1_deg": 72.2,
+          "theta2_deg": 1.6,
+          "asym": 0.956,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 1.5,
+          "theta1_deg": 73.6,
+          "theta2_deg": 1.6,
+          "asym": 0.957,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 1.6,
+          "theta1_deg": 75.2,
+          "theta2_deg": 1.5,
+          "asym": 0.96,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 1.7,
+          "theta1_deg": 76.7,
+          "theta2_deg": 1.3,
+          "asym": 0.967,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 1.8,
+          "theta1_deg": 77.7,
+          "theta2_deg": 1.3,
+          "asym": 0.967,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 1.9,
+          "theta1_deg": 79.2,
+          "theta2_deg": 1.1,
+          "asym": 0.974,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 2.0,
+          "theta1_deg": 80.2,
+          "theta2_deg": 1.1,
+          "asym": 0.974,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 2.1,
+          "theta1_deg": 81.7,
+          "theta2_deg": 1.1,
+          "asym": 0.974,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 2.2,
+          "theta1_deg": 82.7,
+          "theta2_deg": 0.8,
+          "asym": 0.981,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 2.3,
+          "theta1_deg": 83.8,
+          "theta2_deg": 0.8,
+          "asym": 0.981,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 2.4,
+          "theta1_deg": 85.2,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.15,
+          "j_ratio": 2.5,
+          "theta1_deg": 86.4,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": 0.175,
+          "j_ratio": 0.8,
+          "theta1_deg": 1.6,
+          "theta2_deg": 71.6,
+          "asym": 0.956,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 0.9,
+          "theta1_deg": 2.0,
+          "theta2_deg": 69.6,
+          "asym": 0.945,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 1.0,
+          "theta1_deg": 2.0,
+          "theta2_deg": 68.2,
+          "asym": 0.944,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 1.1,
+          "theta1_deg": 69.6,
+          "theta2_deg": 2.0,
+          "asym": 0.945,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 1.2,
+          "theta1_deg": 71.2,
+          "theta2_deg": 1.6,
+          "asym": 0.956,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 1.3,
+          "theta1_deg": 72.2,
+          "theta2_deg": 1.5,
+          "asym": 0.958,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 1.4,
+          "theta1_deg": 73.6,
+          "theta2_deg": 1.3,
+          "asym": 0.965,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 1.5,
+          "theta1_deg": 75.2,
+          "theta2_deg": 1.3,
+          "asym": 0.966,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 1.6,
+          "theta1_deg": 76.2,
+          "theta2_deg": 1.3,
+          "asym": 0.967,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 1.7,
+          "theta1_deg": 77.7,
+          "theta2_deg": 1.1,
+          "asym": 0.973,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 1.8,
+          "theta1_deg": 78.7,
+          "theta2_deg": 1.1,
+          "asym": 0.974,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 1.9,
+          "theta1_deg": 79.7,
+          "theta2_deg": 1.1,
+          "asym": 0.974,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 2.0,
+          "theta1_deg": 81.2,
+          "theta2_deg": 0.8,
+          "asym": 0.98,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 2.1,
+          "theta1_deg": 82.2,
+          "theta2_deg": 0.8,
+          "asym": 0.98,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 2.2,
+          "theta1_deg": 83.2,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 2.3,
+          "theta1_deg": 84.3,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 2.4,
+          "theta1_deg": 85.7,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.175,
+          "j_ratio": 2.5,
+          "theta1_deg": 86.8,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": 0.2,
+          "j_ratio": 0.8,
+          "theta1_deg": 1.3,
+          "theta2_deg": 73.2,
+          "asym": 0.965,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 0.9,
+          "theta1_deg": 1.5,
+          "theta2_deg": 71.2,
+          "asym": 0.958,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 1.0,
+          "theta1_deg": 1.6,
+          "theta2_deg": 69.6,
+          "asym": 0.955,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 1.1,
+          "theta1_deg": 71.2,
+          "theta2_deg": 1.5,
+          "asym": 0.958,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 1.2,
+          "theta1_deg": 72.2,
+          "theta2_deg": 1.3,
+          "asym": 0.965,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 1.3,
+          "theta1_deg": 73.6,
+          "theta2_deg": 1.3,
+          "asym": 0.965,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 1.4,
+          "theta1_deg": 74.7,
+          "theta2_deg": 1.1,
+          "asym": 0.972,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 1.5,
+          "theta1_deg": 76.2,
+          "theta2_deg": 1.1,
+          "asym": 0.973,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 1.6,
+          "theta1_deg": 77.2,
+          "theta2_deg": 1.1,
+          "asym": 0.973,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 1.7,
+          "theta1_deg": 78.2,
+          "theta2_deg": 0.8,
+          "asym": 0.979,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 1.8,
+          "theta1_deg": 79.2,
+          "theta2_deg": 0.8,
+          "asym": 0.98,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 1.9,
+          "theta1_deg": 80.7,
+          "theta2_deg": 0.8,
+          "asym": 0.98,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 2.0,
+          "theta1_deg": 81.7,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 2.1,
+          "theta1_deg": 82.7,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 2.2,
+          "theta1_deg": 83.7,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 2.3,
+          "theta1_deg": 84.7,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 2.4,
+          "theta1_deg": 85.7,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.2,
+          "j_ratio": 2.5,
+          "theta1_deg": 86.8,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": 0.225,
+          "j_ratio": 0.8,
+          "theta1_deg": 1.1,
+          "theta2_deg": 74.2,
+          "asym": 0.972,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 0.9,
+          "theta1_deg": 1.3,
+          "theta2_deg": 72.7,
+          "asym": 0.965,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 1.0,
+          "theta1_deg": 1.3,
+          "theta2_deg": 71.2,
+          "asym": 0.964,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 1.1,
+          "theta1_deg": 72.2,
+          "theta2_deg": 1.3,
+          "asym": 0.965,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 1.2,
+          "theta1_deg": 73.6,
+          "theta2_deg": 1.1,
+          "asym": 0.972,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 1.3,
+          "theta1_deg": 74.7,
+          "theta2_deg": 1.1,
+          "asym": 0.972,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 1.4,
+          "theta1_deg": 75.7,
+          "theta2_deg": 1.1,
+          "asym": 0.972,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 1.5,
+          "theta1_deg": 76.7,
+          "theta2_deg": 0.8,
+          "asym": 0.979,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 1.6,
+          "theta1_deg": 77.7,
+          "theta2_deg": 0.8,
+          "asym": 0.979,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 1.7,
+          "theta1_deg": 79.2,
+          "theta2_deg": 0.8,
+          "asym": 0.98,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 1.8,
+          "theta1_deg": 80.2,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 1.9,
+          "theta1_deg": 81.2,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 2.0,
+          "theta1_deg": 82.2,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 2.1,
+          "theta1_deg": 83.2,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 2.2,
+          "theta1_deg": 84.3,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 2.3,
+          "theta1_deg": 85.2,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 2.4,
+          "theta1_deg": 86.0,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.225,
+          "j_ratio": 2.5,
+          "theta1_deg": 87.0,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        }
+      ],
+      [
+        {
+          "eps": 0.25,
+          "j_ratio": 0.8,
+          "theta1_deg": 0.8,
+          "theta2_deg": 75.2,
+          "asym": 0.979,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 0.9,
+          "theta1_deg": 1.1,
+          "theta2_deg": 73.6,
+          "asym": 0.972,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 1.0,
+          "theta1_deg": 1.1,
+          "theta2_deg": 72.2,
+          "asym": 0.971,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 1.1,
+          "theta1_deg": 73.6,
+          "theta2_deg": 1.1,
+          "asym": 0.972,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 1.2,
+          "theta1_deg": 74.7,
+          "theta2_deg": 1.1,
+          "asym": 0.972,
+          "phase": "Transitional"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 1.3,
+          "theta1_deg": 75.7,
+          "theta2_deg": 0.8,
+          "asym": 0.979,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 1.4,
+          "theta1_deg": 76.7,
+          "theta2_deg": 0.8,
+          "asym": 0.979,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 1.5,
+          "theta1_deg": 77.7,
+          "theta2_deg": 0.8,
+          "asym": 0.979,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 1.6,
+          "theta1_deg": 78.7,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 1.7,
+          "theta1_deg": 79.7,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 1.8,
+          "theta1_deg": 80.7,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 1.9,
+          "theta1_deg": 81.7,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 2.0,
+          "theta1_deg": 82.7,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 2.1,
+          "theta1_deg": 83.7,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 2.2,
+          "theta1_deg": 84.3,
+          "theta2_deg": 0.6,
+          "asym": 0.986,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 2.3,
+          "theta1_deg": 85.2,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 2.4,
+          "theta1_deg": 86.4,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        },
+        {
+          "eps": 0.25,
+          "j_ratio": 2.5,
+          "theta1_deg": 87.2,
+          "theta2_deg": 0.6,
+          "asym": 0.987,
+          "phase": "Asymmetric-MR"
+        }
+      ]
+    ]
+  },
+  "evidence_boundaries": {
+    "model_type": "Two-blade shears with collective core and quadrupole deformation coupling",
+    "empirical_inputs": [
+      "Tawseef et al. PRC 113, 054307 (2026)",
+      "Hao et al. PRC 114, 044309 (2026)",
+      "Rajbanshi et al. PRC 98, 061304(R) (2018)",
+      "Pai et al. PRC 90, 064314 (2014)"
+    ],
+    "limitations": "Semiclassical shears framework treats valence angular momentum continuously; exact Fock pairing fluctuations and high-spin core disintegration are parametrized via J_core."
+  }
+}

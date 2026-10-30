@@ -1,0 +1,1002 @@
+{
+  "schema_version": 1,
+  "task": "Day27 bounded acquisition and inference-boundary check: Chen et al. Bayesian 135Pr inertias",
+  "recorded_utc": "2026-10-29T13:36:26.866625+00:00",
+  "day_index": 27,
+  "lifecycle_owner": "parent session",
+  "parent_preflight": "passed as supplied by user; not repeated",
+  "session_id": "01a187d2-5e3d-71b1-a946-b13c9bed4ef0",
+  "resume_command": "codex resume 01a187d2-5e3d-71b1-a946-b13c9bed4ef0",
+  "hard_deadline": "2026-10-30T15:00:00+08:00",
+  "hard_deadline_utc": "2026-10-30T07:00:00Z",
+  "bounded_task_status": "complete with explicit metadata-only text boundary",
+  "day27_completion_or_credit_claimed": false,
+  "acquisition_status": "no_authorized_pdf_found",
+  "oa_status": "oa_resolution_inconclusive",
+  "reading_depth": "metadata-only",
+  "full_text_acquired": false,
+  "si": {
+    "authorized": true,
+    "status": "discovery_inconclusive_access_blocked",
+    "downloaded_files": [],
+    "boundary": "Accepted-page indexed record and author page exposed no usable original/SI links; live publisher HTML blocked. Does not establish that SI is absent."
+  },
+  "identity": {
+    "title": "Bayesian inference of moments of inertia for wobbling motion in 135Pr",
+    "authors": [
+      "Yeruoxi Chen",
+      "Q. B. Chen",
+      "R. V. Jolos"
+    ],
+    "doi": "10.1103/phhq-9vmt",
+    "journal": "Physical Review C",
+    "publisher": "American Physical Society (APS)",
+    "arxiv": null,
+    "citation_key": null
+  },
+  "publication_version_evidence": {
+    "received": "2026-09-08",
+    "accepted": "2026-10-19",
+    "crossref_created_utc": "2026-10-19T18:11:08Z",
+    "crossref_published_online": [
+      [
+        2026,
+        10,
+        19
+      ]
+    ],
+    "crossref_volume": null,
+    "crossref_issue": null,
+    "crossref_article_number": null,
+    "crossref_page": null,
+    "crossref_license_content_version": "vor",
+    "conclusion": "PRC accepted article and registered DOI verified; Crossref assigns online publication date 2026-10-19, but accessible final numbered version not verified. Neither the Crossref license vor label nor OpenAlex publishedVersion flag proves final text availability.",
+    "primary_locators": [
+      "Crossref /message/accepted/date-parts",
+      "Crossref /message/published-online/date-parts",
+      "Crossref /message/author",
+      "APS accepted-page acceptance line",
+      "ECNU 2026 exact-title publication entry"
+    ],
+    "independence_boundary": "DOI CSL and Crossref API are the same deposition lineage. Indexed APS abstract is not live full text."
+  },
+  "originals": [
+    {
+      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/crossref-work.json",
+      "scratch_source": "tmp/day27-bayesian135pr/crossref-doi.body",
+      "bytes": 2512,
+      "sha256": "5f0beebf4feb6365241079cc20fdd96cea482efad18f736e07faf5b935756eab",
+      "kind": "original_metadata_response",
+      "full_text": false,
+      "source_url": "https://api.crossref.org/works/10.1103/phhq-9vmt",
+      "access_mode": "public_http_metadata",
+      "original_response_unchanged": true
+    },
+    {
+      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/doi-csl.json",
+      "scratch_source": "tmp/day27-bayesian135pr/doi-csl.body",
+      "bytes": 2341,
+      "sha256": "75ee5df2deac9fd5ac02d59c994c7fcab55fb0fec0bd5202b0f061ce9ffc908d",
+      "kind": "original_metadata_response",
+      "full_text": false,
+      "source_url": "https://doi.org/10.1103/phhq-9vmt",
+      "access_mode": "public_http_metadata",
+      "original_response_unchanged": true
+    },
+    {
+      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/ecnu-qb-chen-publications.html",
+      "scratch_source": "tmp/day27-bayesian135pr/ecnu-author.body",
+      "bytes": 180773,
+      "sha256": "fe0bd20f1fbab26aeee04220b199248ac2bb1d0242eb665d556d9ee9d23463c2",
+      "kind": "original_author_institutional_page",
+      "full_text": false,
+      "source_url": "https://faculty.ecnu.edu.cn/_s41/cqb1_en/main.psp",
+      "access_mode": "public_http_metadata",
+      "original_response_unchanged": true
+    },
+    {
+      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-exact-title.atom",
+      "scratch_source": "tmp/day27-bayesian135pr/arxiv-title.body",
+      "bytes": 765,
+      "sha256": "f7fbe56deebf76bb2e623ce93ee064038428f4dd5c04bf9f818d07dbde1a1b50",
+      "kind": "original_metadata_response",
+      "full_text": false,
+      "source_url": "https://export.arxiv.org/api/query?search_query=ti:%22Bayesian%20inference%20of%20moments%20of%20inertia%22&start=0&max_results=5",
+      "access_mode": "public_http_metadata",
+      "original_response_unchanged": true
+    },
+    {
+      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-yeruoxi-chen.atom",
+      "scratch_source": "tmp/day27-bayesian135pr/arxiv-author.body",
+      "bytes": 2762,
+      "sha256": "77709ad20946992a9c2ec7df2549fd5d3ae336cb1bff0ec6b8ed0e8298a45c47",
+      "kind": "original_metadata_response",
+      "full_text": false,
+      "source_url": "https://export.arxiv.org/api/query?search_query=au:%22Chen_Yeruoxi%22&start=0&max_results=15",
+      "access_mode": "public_http_metadata",
+      "original_response_unchanged": true
+    },
+    {
+      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-bayesian-wobbling.atom",
+      "scratch_source": "tmp/day27-bayesian135pr/arxiv-bayesian-wobbling.body",
+      "bytes": 16233,
+      "sha256": "128bddf8fcac0dc4d157a1e6a93456c144dc791fc20cdfdc0d1c9864810f78da",
+      "kind": "original_metadata_response",
+      "full_text": false,
+      "source_url": "https://export.arxiv.org/api/query?search_query=all:Bayesian%20AND%20all:wobbling&start=0&max_results=30",
+      "access_mode": "public_http_metadata",
+      "original_response_unchanged": true
+    },
+    {
+      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-doi.atom",
+      "scratch_source": "tmp/day27-bayesian135pr/arxiv-doi.body",
+      "bytes": 711,
+      "sha256": "01f260ebc3f6b8bf49113d5ef08b7ebe6a88fc3df21a2782b65f75d5749e8a11",
+      "kind": "original_metadata_response",
+      "full_text": false,
+      "source_url": "https://export.arxiv.org/api/query?search_query=all%3A%22phhq-9vmt%22&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "access_mode": "public_http_metadata",
+      "original_response_unchanged": true
+    },
+    {
+      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-chen-wobbling.atom",
+      "scratch_source": "tmp/day27-bayesian135pr/arxiv-chen-wobbling.body",
+      "bytes": 64842,
+      "sha256": "824f1a594b28e969f34d88891424a4e36d48e25e51b37e075bb9335baf3adf1e",
+      "kind": "original_metadata_response",
+      "full_text": false,
+      "source_url": "https://export.arxiv.org/api/query?search_query=au%3AChen+AND+all%3Awobbling&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "access_mode": "public_http_metadata",
+      "original_response_unchanged": true
+    }
+  ],
+  "http_attempts": [
+    {
+      "route": "aps-accepted",
+      "url": "https://journals.aps.org/prc/accepted/10.1103/phhq-9vmt",
+      "status": 403,
+      "final_url": "https://journals.aps.org/prc/accepted/10.1103/phhq-9vmt",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5613,
+      "sha256": "892fafc0cd17479d5cc900e9575b2720ccc8d84c27a194f69a8bf46c952d319a",
+      "scratch": "tmp/day27-bayesian135pr/aps-accepted.body",
+      "retrieved_utc": "2026-10-29T13:23:00.903777+00:00"
+    },
+    {
+      "route": "crossref-doi",
+      "url": "https://api.crossref.org/works/10.1103/phhq-9vmt",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works/10.1103/phhq-9vmt",
+      "content_type": "application/json",
+      "bytes": 2512,
+      "sha256": "5f0beebf4feb6365241079cc20fdd96cea482efad18f736e07faf5b935756eab",
+      "scratch": "tmp/day27-bayesian135pr/crossref-doi.body",
+      "retrieved_utc": "2026-10-29T13:23:02.429151+00:00"
+    },
+    {
+      "route": "crossref-title",
+      "url": "https://api.crossref.org/works?query.title=Bayesian%20inference%20of%20moments%20of%20inertia%20for%20wobbling%20motion%20in%20135Pr&rows=4",
+      "status": 200,
+      "final_url": "https://api.crossref.org/works?query.title=Bayesian%20inference%20of%20moments%20of%20inertia%20for%20wobbling%20motion%20in%20135Pr&rows=4",
+      "content_type": "application/json",
+      "bytes": 28628,
+      "sha256": "dbc810abd8c612d18c57fca7a3480c948a5f43dd814494ec19a1e09ce3e4dc8b",
+      "scratch": "tmp/day27-bayesian135pr/crossref-title.body",
+      "retrieved_utc": "2026-10-29T13:23:01.450264+00:00"
+    },
+    {
+      "route": "aps-harvest",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/phhq-9vmt",
+      "status": 404,
+      "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/phhq-9vmt",
+      "content_type": "application/json",
+      "bytes": 52,
+      "sha256": "3d3f48f6c459893d6352697aa046436f91502fd2bf48958397bd9eeca275c7ef",
+      "scratch": "tmp/day27-bayesian135pr/aps-harvest.body",
+      "retrieved_utc": "2026-10-29T13:23:01.409095+00:00"
+    },
+    {
+      "route": "aps-harvest-fulltext",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/phhq-9vmt/fulltext",
+      "status": 404,
+      "final_url": "https://harvest.aps.org/v2/journals/articles/10.1103/phhq-9vmt/fulltext",
+      "content_type": "application/json",
+      "bytes": 52,
+      "sha256": "3d3f48f6c459893d6352697aa046436f91502fd2bf48958397bd9eeca275c7ef",
+      "scratch": "tmp/day27-bayesian135pr/aps-harvest-fulltext.body",
+      "retrieved_utc": "2026-10-29T13:23:02.163099+00:00"
+    },
+    {
+      "route": "aps-journal",
+      "url": "https://journals.aps.org/prc/abstract/10.1103/phhq-9vmt",
+      "status": 403,
+      "final_url": "https://journals.aps.org/prc/abstract/10.1103/phhq-9vmt",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5613,
+      "sha256": "3712487993d27f48de0d531573ad62c8b8594bc2132f9467ef284411d25bd5e2",
+      "scratch": "tmp/day27-bayesian135pr/aps-journal.body",
+      "retrieved_utc": "2026-10-29T13:23:02.145136+00:00"
+    },
+    {
+      "route": "arxiv-title",
+      "url": "https://export.arxiv.org/api/query?search_query=ti:%22Bayesian%20inference%20of%20moments%20of%20inertia%22&start=0&max_results=5",
+      "status": 200,
+      "final_url": "https://export.arxiv.org/api/query?search_query=ti:%22Bayesian%20inference%20of%20moments%20of%20inertia%22&start=0&max_results=5",
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 765,
+      "sha256": "f7fbe56deebf76bb2e623ce93ee064038428f4dd5c04bf9f818d07dbde1a1b50",
+      "scratch": "tmp/day27-bayesian135pr/arxiv-title.body",
+      "retrieved_utc": "2026-10-29T13:23:02.442416+00:00"
+    },
+    {
+      "route": "arxiv-author",
+      "url": "https://export.arxiv.org/api/query?search_query=au:%22Chen_Yeruoxi%22&start=0&max_results=15",
+      "status": 200,
+      "final_url": "https://export.arxiv.org/api/query?search_query=au:%22Chen_Yeruoxi%22&start=0&max_results=15",
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 2762,
+      "sha256": "77709ad20946992a9c2ec7df2549fd5d3ae336cb1bff0ec6b8ed0e8298a45c47",
+      "scratch": "tmp/day27-bayesian135pr/arxiv-author.body",
+      "retrieved_utc": "2026-10-29T13:23:03.157201+00:00"
+    },
+    {
+      "route": "doi-csl",
+      "url": "https://doi.org/10.1103/phhq-9vmt",
+      "status": 200,
+      "final_url": "https://api.crossref.org/v1/works/10.1103%2Fphhq-9vmt/transform",
+      "content_type": "application/vnd.citationstyles.csl+json",
+      "bytes": 2341,
+      "sha256": "75ee5df2deac9fd5ac02d59c994c7fcab55fb0fec0bd5202b0f061ce9ffc908d",
+      "scratch": "tmp/day27-bayesian135pr/doi-csl.body",
+      "retrieved_utc": "2026-10-29T13:23:03.671756+00:00"
+    },
+    {
+      "route": "arxiv-bayesian-wobbling",
+      "url": "https://export.arxiv.org/api/query?search_query=all:Bayesian%20AND%20all:wobbling&start=0&max_results=30",
+      "http_status": 200,
+      "bytes": 16233,
+      "sha256": "128bddf8fcac0dc4d157a1e6a93456c144dc791fc20cdfdc0d1c9864810f78da",
+      "scratch": "tmp/day27-bayesian135pr/arxiv-bayesian-wobbling.body",
+      "response_saved_utc": "2026-10-29T13:25:08.320959+00:00",
+      "timestamp_basis": "response file mtime; HTTP status observed in command output"
+    },
+    {
+      "route": "aps-bibtex",
+      "url": "https://journals.aps.org/prc/export/10.1103/phhq-9vmt?download=true&type=bibtex",
+      "http_status": 403,
+      "bytes": 5758,
+      "sha256": "438c233cae75e6c6992fee720802ae60bdfd60519ca1664e5d6f1d52529a6147",
+      "scratch": "tmp/day27-bayesian135pr/aps-bibtex.body",
+      "response_saved_utc": "2026-10-29T13:25:07.901820+00:00",
+      "timestamp_basis": "response file mtime; HTTP status observed in command output"
+    },
+    {
+      "route": "aps-pdf-probe",
+      "url": "https://journals.aps.org/prc/pdf/10.1103/phhq-9vmt",
+      "http_status": 403,
+      "bytes": 5598,
+      "sha256": "8ad351a11b27f1d02a01ee64ea8a42627f0717a35e39b6cdb89014030b180a36",
+      "scratch": "tmp/day27-bayesian135pr/aps-pdf-probe.body",
+      "response_saved_utc": "2026-10-29T13:25:07.914440+00:00",
+      "timestamp_basis": "response file mtime; HTTP status observed in command output",
+      "link_basis": "conventional publisher DOI PDF endpoint probe; not an observed download link"
+    },
+    {
+      "route": "aps-doi-resolve",
+      "url": "https://doi.org/10.1103/phhq-9vmt",
+      "http_status": 403,
+      "bytes": 5540,
+      "sha256": "951856524a18c7d4e49bcf4ddae32809adb4e8c71a280d452a6032cea4ede60d",
+      "scratch": "tmp/day27-bayesian135pr/aps-doi-resolve.body",
+      "response_saved_utc": "2026-10-29T13:25:08.994495+00:00",
+      "timestamp_basis": "response file mtime; HTTP status observed in command output",
+      "final_url": "https://link.aps.org/doi/10.1103/phhq-9vmt"
+    },
+    {
+      "route": "ecnu-author",
+      "url": "https://faculty.ecnu.edu.cn/_s41/cqb1_en/main.psp",
+      "http_status": 200,
+      "bytes": 180773,
+      "sha256": "fe0bd20f1fbab26aeee04220b199248ac2bb1d0242eb665d556d9ee9d23463c2",
+      "scratch": "tmp/day27-bayesian135pr/ecnu-author.body",
+      "response_saved_utc": "2026-10-29T13:25:09.184581+00:00",
+      "timestamp_basis": "response file mtime; HTTP status observed in command output"
+    },
+    {
+      "route": "inspire-doi",
+      "url": "https://inspirehep.net/api/literature?q=doi:10.1103/phhq-9vmt&size=5",
+      "http_status": 200,
+      "bytes": 776,
+      "sha256": "1529605230b709215762b819ec9c24ac9ad5548f8c00d62213f46c12ba8aae8f",
+      "scratch": "tmp/day27-bayesian135pr/inspire-doi.body",
+      "response_saved_utc": "2026-10-29T13:25:09.425570+00:00",
+      "timestamp_basis": "response file mtime; HTTP status observed in command output"
+    },
+    {
+      "route": "openalex-doi",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1103/phhq-9vmt",
+      "http_status": 200,
+      "bytes": 9005,
+      "sha256": "3025521ba9f1eedef08842044162db275bb9277ed8c19e27fc2c1ace9c805971",
+      "scratch": "tmp/day27-bayesian135pr/openalex-doi.body",
+      "response_saved_utc": "2026-10-29T13:25:09.791353+00:00",
+      "timestamp_basis": "response file mtime; HTTP status observed in command output"
+    },
+    {
+      "route": "semanticscholar-doi",
+      "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1103/phhq-9vmt?fields=title,authors,year,externalIds,openAccessPdf,publicationVenue,publicationTypes,publicationDate,url",
+      "http_status": 429,
+      "bytes": 174,
+      "sha256": "65ab993d12c5c2cc9b68e6da2bb79b326930283e520363ffcdc145f88cd5a148",
+      "scratch": "tmp/day27-bayesian135pr/semanticscholar-doi.body",
+      "response_saved_utc": "2026-10-29T13:25:10.153610+00:00",
+      "timestamp_basis": "response file mtime; HTTP status observed in command output"
+    },
+    {
+      "route": "scholar-exact-title",
+      "url": "https://scholar.google.com/scholar?q=%22Bayesian+inference+of+moments+of+inertia+for+wobbling+motion%22",
+      "http_status": null,
+      "status": "aborted_after_wall_time_budget",
+      "detail": "Exact-title Scholar request did not complete in approximately 3.5 minutes despite an HTTP timeout. The task-owned request process was terminated; no result or challenge was inspected. Not a negative search result."
+    },
+    {
+      "route": "arxiv-doi",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3A%22phhq-9vmt%22&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "status": 200,
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 711,
+      "sha256": "01f260ebc3f6b8bf49113d5ef08b7ebe6a88fc3df21a2782b65f75d5749e8a11",
+      "scratch": "tmp/day27-bayesian135pr/arxiv-doi.body",
+      "retrieved_utc": "2026-10-29T13:27:10.945093+00:00",
+      "total_results": "0",
+      "entries": []
+    },
+    {
+      "route": "arxiv-chen-wobbling",
+      "url": "https://export.arxiv.org/api/query?search_query=au%3AChen+AND+all%3Awobbling&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "status": 200,
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 64842,
+      "sha256": "824f1a594b28e969f34d88891424a4e36d48e25e51b37e075bb9335baf3adf1e",
+      "scratch": "tmp/day27-bayesian135pr/arxiv-chen-wobbling.body",
+      "retrieved_utc": "2026-10-29T13:27:15.004811+00:00",
+      "total_results": "29",
+      "entries": [
+        {
+          "id": "http://arxiv.org/abs/2610.09808v2",
+          "title": "Novel chiral-wobbling excitation mode in atomic nuclei",
+          "authors": [
+            "Kouser Qureshie",
+            "S. P. Rouoof",
+            "J. A. Sheikh",
+            "Nazira Nazir",
+            "G. H. Bhat",
+            "S. Jehangir",
+            "N. A. Rather",
+            "R. J. Guo",
+            "S. Y. Wang",
+            "C. Liu",
+            "Q. B. Chen",
+            "S. Frauendorf"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2607.18953v1",
+          "title": "Negative-parity high-spin structure of 105Pd",
+          "authors": [
+            "B. Kruzsicz",
+            "D. Sohler",
+            "J. Tim\u00e1r",
+            "I. Kuti",
+            "Q. B. Chen",
+            "S. Q. Zhang",
+            "J. Meng",
+            "P. Joshi",
+            "R. Wadsworth",
+            "K. Starosta",
+            "A. Algora",
+            "P. Bednarczyk",
+            "D. Curien",
+            "Zs. Dombr\u00e1di",
+            "G. Duch\u00eane",
+            "A. Gizon",
+            "J. Gizon",
+            "D. G. Jenkins",
+            "T. Koike",
+            "A. Krak\u00f3",
+            "A. Krasznahorkay",
+            "J. Moln\u00e1r",
+            "B. M. Nyak\u00f3",
+            "E. S. Paul",
+            "G. Rainovski",
+            "J. N. Scheurer",
+            "A. J. Simons",
+            "C. Vaman",
+            "L. Zolnai"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2504.05608v1",
+          "title": "Entanglement in two-quasiparticle-triaxial-rotor systems: Chirality, wobbling, and the Pauli effect",
+          "authors": [
+            "Q. B. Chen",
+            "S. Frauendorf"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2412.03510v1",
+          "title": "Stagnation points at grain contacts generate an elastic flow instability in 3D porous media",
+          "authors": [
+            "Emily Y. Chen",
+            "Christopher A. Browne",
+            "Simon J. Haward",
+            "Amy Q. Shen",
+            "Sujit S. Datta"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2410.08749v1",
+          "title": "Entanglement and coherence of the wobbling mode",
+          "authors": [
+            "Q. B. Chen",
+            "S. Frauendorf"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2409.13350v1",
+          "title": "How flagellated bacteria wobble",
+          "authors": [
+            "Jinglei Hu",
+            "Chen Gui",
+            "Mingxin Mao",
+            "Pu Feng",
+            "Yurui Liu",
+            "Xiangjun Gong",
+            "Gerhard Gompper"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2406.08289v1",
+          "title": "Wobbling and Migrating Ferrofluid Droplets",
+          "authors": [
+            "Aaveg Aggarwal",
+            "Shih-Yuan Chen",
+            "Eleftherios Kirkinis",
+            "Mohammed Imran Khan",
+            "Bei Fan",
+            "Michelle M Driscoll",
+            "Monica Olvera de la Cruz"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2403.10749v2",
+          "title": "Evolution of chirality from transverse wobbling in $^{135}$Pr",
+          "authors": [
+            "N. Sensharma",
+            "U. Garg",
+            "Q. B. Chen",
+            "S. Frauendorf",
+            "S. Zhu",
+            "J. Arroyo",
+            "A. D. Ayangeakaa",
+            "D. P. Burdette",
+            "M. P. Carpenter",
+            "P. Copp",
+            "J. L. Cozzi",
+            "S. S. Ghugre",
+            "D. J. Hartley",
+            "K. B. Howard",
+            "R. V. F. Janssens",
+            "F. G. Kondev",
+            "T. Lauritsen",
+            "J. Li",
+            "R. Palit",
+            "A. Saracino",
+            "D. Seweryniak",
+            "S. Weyhmiller",
+            "J. Wu"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2401.06460v1",
+          "title": "Spin squeezed states and wobbling motion in collective Hamiltonian",
+          "authors": [
+            "Q. B. Chen",
+            "S. Frauendorf"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2304.08088v1",
+          "title": "An improved complex fourth moment theorem",
+          "authors": [
+            "Huiping Chen",
+            "Yong Chen",
+            "Yong Liu"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2107.05449v2",
+          "title": "Inner core static tilt inferred from intradecadal oscillation in the Earth's rotation",
+          "authors": [
+            "Yachong An",
+            "Hao Ding",
+            "Zhifeng Chen",
+            "Wenbin Shen",
+            "Weiping Jiang"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2103.13174v1",
+          "title": "$g$-factor and static quadrupole moment of $^{135}$Pr, $^{105}$Pd, and $^{187}$Au in wobbling motion",
+          "authors": [
+            "C. Broocks",
+            "Q. B. Chen",
+            "N. Kaiser",
+            "Ulf-G. Mei\u00dfner"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2012.03499v1",
+          "title": "Interpretation of the quasiparticle plus triaxial rotor model",
+          "authors": [
+            "Q. B. Chen",
+            "S. Frauendorf"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2009.05911v1",
+          "title": "Influence of triaxial deformation on wobbling motion in even-even nuclei",
+          "authors": [
+            "Bin Qi",
+            "Hui Zhang",
+            "Shou Yu Wang",
+            "Qi Bo Chen"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2009.04260v2",
+          "title": "Long-time asymptotics and stability for the sine-Gordon equation",
+          "authors": [
+            "Gong Chen",
+            "Jiaqi Liu",
+            "Bingying Lu"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2009.00493v1",
+          "title": "First Observation of Multiple Transverse Wobbling Bands of Different Kinds in $^{183}$Au",
+          "authors": [
+            "S. Nandi",
+            "G. Mukherjee",
+            "Q. B. Chen",
+            "S. Frauendorf",
+            "R. Banik",
+            "Soumik Bhattacharya",
+            "Shabir Dar",
+            "S. Bhattacharyya",
+            "C. Bhattacharya",
+            "S. Chatterjee",
+            "S. Das",
+            "S. Samanta",
+            "R. Raut",
+            "S. S. Ghugre",
+            "S. Rajbanshi",
+            "Sajad Ali",
+            "H. Pai",
+            "Md. A. Asgar",
+            "S. Das Gupta",
+            "P. Chowdhury",
+            "A. Goswami"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2006.00259v1",
+          "title": "$g$-factor and static quadrupole moment for the wobbling mode in $^{133}$La",
+          "authors": [
+            "Q. B. Chen",
+            "S. Frauendorf",
+            "N. Kaiser",
+            "Ulf-G. Mei\u00dfner",
+            "J. Meng"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2003.04065v1",
+          "title": "Effective field theory for triaxially deformed odd-mass nuclei",
+          "authors": [
+            "Q. B. Chen",
+            "N. Kaiser",
+            "Ulf-G. Mei\u00dfner",
+            "J. Meng"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2002.02093v1",
+          "title": "Two quasiparticle wobbling in the even-even nucleus 130Ba",
+          "authors": [
+            "Y. K. Wang",
+            "F. Q. Chen",
+            "P. W. Zhao"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1912.02756v1",
+          "title": "Transverse wobbling in an even-even nucleus",
+          "authors": [
+            "Q. B. Chen",
+            "S. Frauendorf",
+            "C. M. Petrache"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1906.04408v4",
+          "title": "Longitudinal Wobbling Motion in $^{187}$Au",
+          "authors": [
+            "N. Sensharma",
+            "U. Garg",
+            "Q. B. Chen",
+            "S. Frauendorf",
+            "D. P. Burdette",
+            "J. L. Cozzi",
+            "K. B. Howard",
+            "S. Zhu",
+            "M. P. Carpenter",
+            "P. Copp",
+            "F. G. Kondev",
+            "T. Lauritsen",
+            "J. Li",
+            "D. Seweryniak",
+            "J. Wu",
+            "A. D. Ayangeakaa",
+            "D. J. Hartley",
+            "R. V. F. Janssens",
+            "A. M. Forney",
+            "W. B. Walters",
+            "S. S. Ghugre",
+            "R. Palit"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1901.05891v1",
+          "title": "Experimental Evidence for Transverse Wobbling in $^{105}$Pd",
+          "authors": [
+            "J. Tim\u00e1r",
+            "Q. B. Chen",
+            "B. Kruzsicz",
+            "D. Sohler",
+            "I. Kuti",
+            "S. Q. Zhang",
+            "J. Meng",
+            "P. Joshi",
+            "R. Wadsworth",
+            "K. Starosta",
+            "A. Algora",
+            "P. Bednarczyk",
+            "D. Curien",
+            "Zs. Dombr\u00e1di",
+            "G. Duch\u00eane",
+            "A. Gizon",
+            "J. Gizon",
+            "D. G. Jenkins",
+            "T. Koike",
+            "A. Krasznahorkay",
+            "J. Moln\u00e1r",
+            "B. M. Nyak\u00f3",
+            "E. S. Paul",
+            "G. Rainovski",
+            "J. N. Scheurer",
+            "A. J. Simons",
+            "C. Vaman",
+            "L. Zolnai"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1809.04418v2",
+          "title": "Two-dimensional collective Hamiltonian for chiral and wobbling modes II: Electromagnetic transitions",
+          "authors": [
+            "X. H. Wu",
+            "Q. B. Chen",
+            "P. W. Zhao",
+            "S. Q. Zhang",
+            "J. Meng"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1805.03633v1",
+          "title": "Behavior of the collective rotor in wobbling motion",
+          "authors": [
+            "E. Streck",
+            "Q. B. Chen",
+            "N. Kaiser",
+            "Ulf-G. Mei\u00dfner"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1801.02463v1",
+          "title": "Composing Method for the Two-dimensional Scanning Spectra Observed by the New Vacuum Solar Telescope",
+          "authors": [
+            "Yun-Fang Cai",
+            "Zhi Xu",
+            "Yu-Chao Chen",
+            "Jun Xu",
+            "Zheng-Gang Li",
+            "Yu Fu",
+            "Kai-Fan Ji"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1611.04139v1",
+          "title": "Wobbling motion in $^{135}$Pr within a collective Hamiltonian",
+          "authors": [
+            "Q. B. Chen",
+            "S. Q. Zhang",
+            "J. Meng"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1609.06967v2",
+          "title": "Two-dimensional collective Hamiltonian for chiral and wobbling modes",
+          "authors": [
+            "Q. B. Chen",
+            "S. Q. Zhang",
+            "P. W. Zhao",
+            "R. V. Jolos",
+            "J. Meng"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1411.7130v1",
+          "title": "Wobbling geometry in simple triaxial rotor",
+          "authors": [
+            "W. X. Shi",
+            "Q. B. Chen"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1407.3563v1",
+          "title": "Collective Hamiltonian for wobbling modes",
+          "authors": [
+            "Q. B. Chen",
+            "S. Q. Zhang",
+            "P. W. Zhao",
+            "J. Meng"
+          ]
+        }
+      ]
+    }
+  ],
+  "arxiv_searches": [
+    {
+      "route": "arxiv-title",
+      "query": "ti:\"Bayesian inference of moments of inertia\"",
+      "total_results": 0,
+      "returned_entries": 0,
+      "truncated": false,
+      "target_matches": 0,
+      "boundary": "No guessed identifier; a name-only match on another title was not linked to this work."
+    },
+    {
+      "route": "arxiv-author",
+      "query": "au:\"Chen_Yeruoxi\"",
+      "total_results": 1,
+      "returned_entries": 1,
+      "truncated": false,
+      "target_matches": 0,
+      "boundary": "No guessed identifier; a name-only match on another title was not linked to this work."
+    },
+    {
+      "route": "arxiv-bayesian-wobbling",
+      "query": "all:Bayesian AND all:wobbling",
+      "total_results": 6,
+      "returned_entries": 6,
+      "truncated": false,
+      "target_matches": 0,
+      "boundary": "No guessed identifier; a name-only match on another title was not linked to this work."
+    },
+    {
+      "route": "arxiv-doi",
+      "query": "all:\"phhq-9vmt\"",
+      "total_results": 0,
+      "returned_entries": 0,
+      "truncated": false,
+      "target_matches": 0,
+      "boundary": "No guessed identifier; a name-only match on another title was not linked to this work."
+    },
+    {
+      "route": "arxiv-chen-wobbling",
+      "query": "au:Chen AND all:wobbling",
+      "total_results": 29,
+      "returned_entries": 29,
+      "truncated": false,
+      "target_matches": 0,
+      "boundary": "No guessed identifier; a name-only match on another title was not linked to this work."
+    }
+  ],
+  "discovery_only": {
+    "openalex_id": "https://openalex.org/W7222930428",
+    "best_oa_location": null,
+    "oa_url": null,
+    "repository_fulltext_flag": false,
+    "use": "location discovery only; not scientific evidence or independent publication-version verification",
+    "semantic_scholar_http": 429,
+    "inspire_doi_total": 0
+  },
+  "web_search_evidence": {
+    "publisher_accepted": {
+      "observed_utc": "2026-10-29T13:36:26.866625+00:00",
+      "source_url": "https://journals.aps.org/prc/accepted/10.1103/phhq-9vmt",
+      "retrieval_mode": "web search indexed publisher content; live open failed",
+      "query": "\"Bayesian inference of moments of inertia\"",
+      "web_reference": "turn0search0",
+      "title": "Bayesian inference of moments of inertia for wobbling motion in 135Pr",
+      "authors": [
+        "Yeruoxi Chen",
+        "Q. B. Chen",
+        "R. V. Jolos"
+      ],
+      "accepted": "2026-10-19",
+      "abstract_sentence_count": 5,
+      "claim_locators": {
+        "CH26-B1": "Abstract sentence 1",
+        "CH26-B2": "Abstract sentence 2",
+        "CH26-B3": "Abstract sentence 3",
+        "CH26-B4": "Abstract sentence 4"
+      },
+      "is_original_manuscript": false,
+      "original_live_html_saved": false
+    },
+    "author_primary_url": "https://faculty.ecnu.edu.cn/_s41/cqb1_en/main.psp",
+    "queries": [
+      "\"10.1103/phhq-9vmt\"",
+      "\"Bayesian inference of moments of inertia\"",
+      "\"Yeruoxi Chen\" wobbling Bayesian",
+      "\"Bayesian inference\" \"135Pr\"",
+      "\"Bayesian inference of moments of inertia for wobbling motion\"",
+      "\"phhq-9vmt\" pdf",
+      "\"Yeruoxi Chen\" \"Jolos\"",
+      "\"Bayesian inference of moments of inertia\" pdf -site:journals.aps.org",
+      "site:arxiv.org \"Bayesian\" \"inertia\" \"wobbling\""
+    ],
+    "boundary": "Web hits used for discovery/accepted-abstract claims only; no original manuscript or arXiv identifier inferred from them."
+  },
+  "mathematical_inference_contract": {
+    "canonical_writeback": "knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md#mathematical-inference-contract",
+    "provenance": "our generic audit framework, not extracted paper equations",
+    "energy_posterior": "p(theta | D_E,M,A,F) proportional to likelihood(D_E | theta,M,A,F) times prior(theta | M,A,F)",
+    "identifies": "Only energy-sensitive parameter combinations conditional on the Hamiltonian, assignments, fixed structural inputs and priors; rank, correlations and sensitivity unverified for this work.",
+    "em_prediction": "Pushforward of that posterior conditional on eta=eta0; the actual fixed EM quantities and values are unknown.",
+    "model_discrimination": "Requires an explicit competing predictive distribution/evidence or a matched held-out predictive comparison; not furnished by a within-model parameter posterior alone.",
+    "paper_likelihood": null,
+    "paper_priors": null,
+    "paper_inertia_values": null,
+    "paper_posterior_covariance": null,
+    "paper_em_fixed_input_values": null,
+    "paper_model_discrepancy_treatment": null,
+    "paper_equation_or_figure_locators": null
+  },
+  "claim_locator_references": [
+    {
+      "id": "CH26-B1",
+      "locator": "APS accepted page, Abstract sentence 1",
+      "boundary": "method named; mathematical/numerical implementation not read"
+    },
+    {
+      "id": "CH26-B2",
+      "locator": "APS accepted page, Abstract sentence 2",
+      "boundary": "energy inputs named; exact energy definition, spin range, data and covariance unavailable"
+    },
+    {
+      "id": "CH26-B3",
+      "locator": "APS accepted page, Abstract sentence 3",
+      "boundary": "author qualitative hierarchy report; no numerical posterior/ordering probability verified"
+    },
+    {
+      "id": "CH26-B4",
+      "locator": "APS accepted page, Abstract sentence 4",
+      "boundary": "fixed EM inputs stated; quantities, values and uncertainty budget unavailable"
+    },
+    {
+      "id": "CH26-B5",
+      "locator": "knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md#mathematical-inference-contract, equations A and E",
+      "boundary": "our conditional-probability analysis; not an extracted paper result"
+    },
+    {
+      "id": "CH26-B6",
+      "locator": "knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md#mathematical-inference-contract, equation C",
+      "boundary": "our conditional-prediction analysis; actual paper error budget not read"
+    }
+  ],
+  "one_public_input_follow_up": {
+    "canonical_writeback": "knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md#one-useful-public-input-follow-up",
+    "action": "Reuse already audited public energies and one preselected interband E2 fraction for a matched-input leave-EM-out predictive comparison of a declared wobbling model and one competitor. Propagate common EM nuisance assumptions and the published measurement uncertainty without inventing a Gaussian likelihood.",
+    "status": "proposed; not executed; no old 135Pr audit repeated",
+    "chen_specific_prerequisite": "Original likelihood, priors, energy table, fixed-input list and emulator/discrepancy contract needed for a reproduction claim."
+  },
+  "knowledge_writeback": {
+    "path": "knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md",
+    "sha256": "2efbe42a17f13ebdd74249deb2e3261e365846f760bdc03fa081b74ac1b4f6cd",
+    "review_status": "unreviewed",
+    "durable_delta": "Registered identity/version conflict and abstract-level claim locators; explicit missing-text matrix; conditional-inference contract and one public-input follow-up."
+  },
+  "checks": {
+    "checked_utc": "2026-10-29T13:33:39.005172+00:00",
+    "scope": "new source page and eight archived metadata originals only",
+    "wiki_lint_validation_functions": [
+      "read_page",
+      "validate_page",
+      "validate_source"
+    ],
+    "wiki_lint_issues": [],
+    "source_hashes_checked": 1,
+    "all_archived_original_hashes_verified": 8,
+    "metadata_only_and_no_arxiv_id_invariants": true,
+    "manuscript_pdf_claimed": false,
+    "full_repository_lint": "not run; bounded scope, parent preflight passed",
+    "passed": true,
+    "new_source_whitespace_check": {
+      "command": "GIT_OPTIONAL_LOCKS=0 git diff --no-index --check /dev/null knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md",
+      "exit_code": 1,
+      "diagnostics": "none",
+      "interpretation": "no whitespace diagnostics; exit 1 denotes new-file difference in no-index mode"
+    }
+  },
+  "write_scope": {
+    "allowed_source": "knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md",
+    "allowed_receipt": "outputs/literature-acquisition/20261029-day27-bayesian135pr.json",
+    "allowed_new_originals_prefix": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/",
+    "allowed_scratch_prefix": "tmp/day27-bayesian135pr/",
+    "preexisting_target_files": false,
+    "raw_overwrites": false,
+    "git_writes": false,
+    "shared_index_handoff_bib_scripts_edits": false,
+    "extra_agents": false,
+    "credentials_printed_or_saved": false,
+    "changed_paths": [
+      "knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md",
+      "outputs/literature-acquisition/20261029-day27-bayesian135pr.json",
+      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/crossref-work.json",
+      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/doi-csl.json",
+      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/ecnu-qb-chen-publications.html",
+      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-exact-title.atom",
+      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-yeruoxi-chen.atom",
+      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-bayesian-wobbling.atom",
+      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-doi.atom",
+      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-chen-wobbling.atom",
+      "tmp/day27-bayesian135pr/aps-accepted.body",
+      "tmp/day27-bayesian135pr/aps-bibtex.body",
+      "tmp/day27-bayesian135pr/aps-doi-resolve.body",
+      "tmp/day27-bayesian135pr/aps-harvest-fulltext.body",
+      "tmp/day27-bayesian135pr/aps-harvest.body",
+      "tmp/day27-bayesian135pr/aps-indexed-observation.json",
+      "tmp/day27-bayesian135pr/aps-journal.body",
+      "tmp/day27-bayesian135pr/aps-pdf-probe.body",
+      "tmp/day27-bayesian135pr/archived-originals.json",
+      "tmp/day27-bayesian135pr/arxiv-author.body",
+      "tmp/day27-bayesian135pr/arxiv-bayesian-wobbling.body",
+      "tmp/day27-bayesian135pr/arxiv-chen-wobbling.body",
+      "tmp/day27-bayesian135pr/arxiv-doi.body",
+      "tmp/day27-bayesian135pr/arxiv-title.body",
+      "tmp/day27-bayesian135pr/crossref-doi.body",
+      "tmp/day27-bayesian135pr/crossref-title.body",
+      "tmp/day27-bayesian135pr/doi-csl.body",
+      "tmp/day27-bayesian135pr/ecnu-author.body",
+      "tmp/day27-bayesian135pr/initial-requests.json",
+      "tmp/day27-bayesian135pr/inspire-doi.body",
+      "tmp/day27-bayesian135pr/openalex-doi.body",
+      "tmp/day27-bayesian135pr/second-requests-reconstructed.json",
+      "tmp/day27-bayesian135pr/semanticscholar-doi.body",
+      "tmp/day27-bayesian135pr/third-requests.json",
+      "tmp/day27-bayesian135pr/validation.json"
+    ]
+  },
+  "limits": [
+    "No original manuscript, SI, figures, tables, posterior samples or code acquired.",
+    "APS abstract was read through the web search index; live original HTML/PDF access returned 403.",
+    "Crossref dates at acceptance are not sufficient to assert delivery of a final numbered version.",
+    "No matched arXiv record in five successful official-feed searches; absence elsewhere not established.",
+    "Public APIs/indexes can lag; OpenAlex closure flags do not prove permanent access status.",
+    "A Gaussian likelihood, prior form, fixed Q/g parameters, or a discrepancy omission must not be attributed to the unread paper.",
+    "No scientific inference contract or numerical EM prediction was reconstructed from the title/abstract.",
+    "No Day27 lifecycle, Git, shared-file or curriculum operation performed."
+  ]
+}

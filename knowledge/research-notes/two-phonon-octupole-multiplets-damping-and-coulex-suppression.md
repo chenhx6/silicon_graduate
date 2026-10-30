@@ -168,6 +168,13 @@ python3 two_phonon_octupole_coulex.py --out-dir .
 - IVGDR 路径是否真能连接到相同的两声子末态，还是只是在不同末态之间的非相干产额叠加？
 - 在释放 GOSIA 旋转约束后，二声子 E3 比例是否仍然保持，还是由参数相关和 feeding 先验产生？
 
+## Evidence Boundary Addendum
+
+- 本页由 Day 27 continuation study 生成；脚本输出中的数值、阈值、相界、比例和“排他性”判断首先属于模型结果或参数扫描。
+- 只有带有明确 `knowledge/sources/` locator 的句子才可作为直接来源证据；benchmark 输入、toy Hamiltonian、解析拟合和由模型反演的量不能冒称实验测量。
+- 本页不把任何单一阈值、单调律、临界值或跨核素迁移规则升级为普适定理。不同核素的组态、实验响应、协方差、背景态密度和模型空间必须重新核验。
+- `review_status: unreviewed` 与 `reasoning_status: provisional` 保持有效；本附录是自审边界，不是 `human-reviewed` 认证。
+
 ## Human Review
 
 本笔记为 Codex self-audit，`review_status: unreviewed`。建议人工优先核验：

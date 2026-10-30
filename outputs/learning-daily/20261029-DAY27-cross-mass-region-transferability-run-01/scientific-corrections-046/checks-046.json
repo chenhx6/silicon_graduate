@@ -1,0 +1,20 @@
+[
+  {
+    "name": "diff",
+    "exit_code": 0
+  },
+  {
+    "name": "boundary",
+    "exit_code": 0,
+    "ok": true
+  },
+  {
+    "name": "lint",
+    "exit_code": 0,
+    "counts": {
+      "warning": 398,
+      "info": 5198
+    },
+    "coverage": "full --no-git knowledge lint after adding required source sections"
+  }
+]

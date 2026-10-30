@@ -3,7 +3,7 @@ type: source
 title: "Walker & Dracoulis 2001 - Exotic Isomers in Deformed Atomic Nuclei"
 aliases: [Walker Dracoulis 2001 exotic isomers, K traps]
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-10-30
 status: ai-draft
 review_status: unreviewed
 source_type: review
@@ -89,13 +89,20 @@ Small energy differences, configuration mixing, K mixing, decay-path availabilit
 
 - Concepts: high-spin isomerism, K traps (source-level).
 
-## Day21周考推断阶梯审计：长寿命高 K 异构态与归一化阻退度证据门边界
-
-依据独立审计程序 `system/scripts/day21_checkpoint016_k_isomer_hindrance_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/k-isomer-hindrance-audit-016.json`，确立本源在推断阶梯上的边界：
+## Day21旧自审条目的处置
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| WD01-D21-1 | Walker & Dracoulis 2001 综述确立长寿命高 $K$ 异构态推断阶梯边界：在理想轴对称长椭核中，近似 $K$ 守恒导致电磁跃迁受阻，经验归一化阻退度遵循 $f_
-u \sim 100$；但在实际核谱学中，超低阻退（$f_
-u \sim 1 - 5$）既可源于局域能级近简并诱发的小矩阵元共振混合（如 $^{178}	ext{Hf}$ 与 $^{174}	ext{Hf}$），亦可由科里奥利力随角动量驱动的动态准粒子混杂所致，绝非静态非轴三轴形变（$\gamma > 0$）的独占指纹。推断阶梯确立：严禁用单一 $f_
-u$ 数值裁决核的三轴不对称性，确证三轴性必须依赖多步库仑激发四极不变量或横向集体激发模式的直接测量。 | claim-boundary-audit | direct-and-derived | Hyp. Int. 135, 83 pp.83-91; k-isomer-hindrance-audit-016.json | true |
+| WD01-D21-1 | superseded at Day27 checkpoint046：旧条目“低fν不唯一测三轴”的方向保留，但其损坏公式、未经此处核对的具体核素例及强制某一实验为唯一确证路线均不再引用。以WD01-D27-R046-1至3的实际分支、部分γ寿命定义和竞争机制边界替代。 | withdrawn-task-certification | rejected-and-replaced | Day27 original PDF7/16–18, printed89/98–100 | true |
+
+## Day27 checkpoint046：Hf主支与部分γ半衰期定向复核
+
+父代理实际回读PDF7/16–18文字及PDF7/16/17图像（printed89/98–100，Fig.3/Sec.3.3/Table II）。原25页PDF哈希不变，未声称本轮重新通读全综述或其参考实验；子代理只读审计另作交叉检查，新条目不等于human-reviewed。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| WD01-D27-R046-1 | Fig.3和正文给K=16、31年Hf异构态主要衰变至K=8带I=13态，约13 keV、λ=3、ν=5；Sec.3.3明确该E3的fν≈66。旧Day27“E2到14−/ν6”不被原件支持且违反E2宇称必要条件。 | review-reported-branch-and-task-rule-check | direct-review-and-explicit-task-inference | PDF7/printed89 Fig.3 and last paragraph; PDF16/printed98 Sec.3.3 | true |
+| WD01-D27-R046-2 | fν=(Tγ/TW)^(1/ν)使用partial gamma-ray half-life，不是能级总寿命；Table II的TW依赖Eγ和多极性，注明E为keV、T为s，仅列E1/M1/E2/M2。 | formalism-definition-and-units | direct-review-and-visual | PDF16/printed98 Sec.3.3 definition; PDF17/printed99 Table II | true |
+| WD01-D27-R046-3 | Sec.3.3保留Coriolis、γ隧穿、态密度机制；对174Hf/176W/182Os低阻退例，正文说明原则上引入基态带高K混合也可不依赖γ隧穿，并指出当时缺同时处理不同机制的一致理论。不能把低fν或自设窄平台称为排他性γ隧穿证明。 | competing-explanations-and-author-limitation | direct-review | PDF17–18/printed99–100, Sec.3.3 discussion around Fig.9 | true |
+
+Knowledge Impact and Learning Decision：revises [[k-isomer-triaxial-tunneling-and-hindrance-collapse]] 旧E2/ν6归一和寿命塌缩认证；supports逐支乘性、转换和部分γ半衰期合同。新读 [[smith-2003-hf178-isomer-gamma-decay]] 补2003年直接M4/E5弱γ谱学；E3/fν66沿用既有信息，不能与综述重复计独立测量。

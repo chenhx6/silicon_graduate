@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "investigation": "Alpha-Clustering vs Mean-Field Reflection Asymmetry in Light Actinides",
+  "description": "Comprehensive audit of multipole sum rules, preformation factor paradoxes, and alpha-decay hindrance factors across 220Rn, 222-226Ra, and 226-228Th",
+  "systematics": [
+    {
+      "nucleus": "220Rn",
+      "Z": 86,
+      "A": 220,
+      "N": 134,
+      "character": "Octupole Vibrational",
+      "beta2": 0.12,
+      "beta3_static": 0.0,
+      "beta3_eff": 0.135,
+      "d0_exp_efm": 0.03,
+      "be3_exp_wu": 33.0,
+      "hf_1_minus": 280.0,
+      "cluster_model": {
+        "d0_bare_efm": 3.97,
+        "q3_bare_efm3": 1428.3,
+        "be3_bare_wu": 56.47,
+        "p_alpha_e1": "5.70e-05",
+        "p_alpha_e3": 0.584,
+        "mismatch_factor": "1.0e+04"
+      },
+      "mean_field": {
+        "be3_down_mf_wu": 32.3,
+        "theory_exp_be3_ratio": 0.98
+      }
+    },
+    {
+      "nucleus": "222Ra",
+      "Z": 88,
+      "A": 222,
+      "N": 134,
+      "character": "Transitional Pear-Rotor",
+      "beta2": 0.16,
+      "beta3_static": 0.11,
+      "beta3_eff": 0.145,
+      "d0_exp_efm": 0.08,
+      "be3_exp_wu": 38.0,
+      "hf_1_minus": 22.0,
+      "cluster_model": {
+        "d0_bare_efm": 3.78,
+        "q3_bare_efm3": 1439.5,
+        "be3_bare_wu": 56.32,
+        "p_alpha_e1": "4.48e-04",
+        "p_alpha_e3": 0.675,
+        "mismatch_factor": "1.5e+03"
+      },
+      "mean_field": {
+        "be3_down_mf_wu": 39.0,
+        "theory_exp_be3_ratio": 1.03
+      }
+    },
+    {
+      "nucleus": "224Ra",
+      "Z": 88,
+      "A": 224,
+      "N": 136,
+      "character": "Static Octupole Rotor",
+      "beta2": 0.18,
+      "beta3_static": 0.14,
+      "beta3_eff": 0.155,
+      "d0_exp_efm": 0.015,
+      "be3_exp_wu": 42.0,
+      "hf_1_minus": 30.0,
+      "cluster_model": {
+        "d0_bare_efm": 3.92,
+        "q3_bare_efm3": 1450.7,
+        "be3_bare_wu": 56.18,
+        "p_alpha_e1": "1.46e-05",
+        "p_alpha_e3": 0.748,
+        "mismatch_factor": "5.1e+04"
+      },
+      "mean_field": {
+        "be3_down_mf_wu": 44.6,
+        "theory_exp_be3_ratio": 1.06
+      }
+    },
+    {
+      "nucleus": "226Ra",
+      "Z": 88,
+      "A": 226,
+      "N": 138,
+      "character": "Octupole Soft / Transitional",
+      "beta2": 0.2,
+      "beta3_static": 0.08,
+      "beta3_eff": 0.14,
+      "d0_exp_efm": 0.045,
+      "be3_exp_wu": 35.0,
+      "hf_1_minus": 65.0,
+      "cluster_model": {
+        "d0_bare_efm": 4.06,
+        "q3_bare_efm3": 1461.8,
+        "be3_bare_wu": 56.05,
+        "p_alpha_e1": "1.23e-04",
+        "p_alpha_e3": 0.624,
+        "mismatch_factor": "5.1e+03"
+      },
+      "mean_field": {
+        "be3_down_mf_wu": 36.4,
+        "theory_exp_be3_ratio": 1.04
+      }
+    },
+    {
+      "nucleus": "226Th",
+      "Z": 90,
+      "A": 226,
+      "N": 136,
+      "character": "Static Octupole Rotor",
+      "beta2": 0.21,
+      "beta3_static": 0.14,
+      "beta3_eff": 0.16,
+      "d0_exp_efm": 0.12,
+      "be3_exp_wu": 45.0,
+      "hf_1_minus": 4.4,
+      "cluster_model": {
+        "d0_bare_efm": 3.73,
+        "q3_bare_efm3": 1461.8,
+        "be3_bare_wu": 56.05,
+        "p_alpha_e1": "1.03e-03",
+        "p_alpha_e3": 0.803,
+        "mismatch_factor": "7.8e+02"
+      },
+      "mean_field": {
+        "be3_down_mf_wu": 49.7,
+        "theory_exp_be3_ratio": 1.1
+      }
+    },
+    {
+      "nucleus": "228Th",
+      "Z": 90,
+      "A": 228,
+      "N": 138,
+      "character": "Octupole Vibrational",
+      "beta2": 0.23,
+      "beta3_static": 0.0,
+      "beta3_eff": 0.13,
+      "d0_exp_efm": 0.07,
+      "be3_exp_wu": 30.0,
+      "hf_1_minus": 110.0,
+      "cluster_model": {
+        "d0_bare_efm": 3.87,
+        "q3_bare_efm3": 1473.0,
+        "be3_bare_wu": 55.91,
+        "p_alpha_e1": "3.27e-04",
+        "p_alpha_e3": 0.537,
+        "mismatch_factor": "1.6e+03"
+      },
+      "mean_field": {
+        "be3_down_mf_wu": 32.8,
+        "theory_exp_be3_ratio": 1.09
+      }
+    }
+  ],
+  "radial_channel_overlap": [
+    {
+      "R_separation_fm": 5.0,
+      "P_cluster_channel": 0.0002,
+      "P_compact_meanfield": 0.999
+    },
+    {
+      "R_separation_fm": 5.5,
+      "P_cluster_channel": 0.0003,
+      "P_compact_meanfield": 0.999
+    },
+    {
+      "R_separation_fm": 6.0,
+      "P_cluster_channel": 0.0004,
+      "P_compact_meanfield": 0.999
+    },
+    {
+      "R_separation_fm": 6.5,
+      "P_cluster_channel": 0.0005,
+      "P_compact_meanfield": 0.999
+    },
+    {
+      "R_separation_fm": 7.0,
+      "P_cluster_channel": 0.0007,
+      "P_compact_meanfield": 0.999
+    },
+    {
+      "R_separation_fm": 7.5,
+      "P_cluster_channel": 0.001,
+      "P_compact_meanfield": 0.999
+    },
+    {
+      "R_separation_fm": 8.0,
+      "P_cluster_channel": 0.003,
+      "P_compact_meanfield": 0.997
+    },
+    {
+      "R_separation_fm": 8.5,
+      "P_cluster_channel": 0.009,
+      "P_compact_meanfield": 0.991
+    },
+    {
+      "R_separation_fm": 9.0,
+      "P_cluster_channel": 0.019,
+      "P_compact_meanfield": 0.981
+    },
+    {
+      "R_separation_fm": 9.5,
+      "P_cluster_channel": 0.033,
+      "P_compact_meanfield": 0.967
+    },
+    {
+      "R_separation_fm": 10.0,
+      "P_cluster_channel": 0.051,
+      "P_compact_meanfield": 0.949
+    },
+    {
+      "R_separation_fm": 10.5,
+      "P_cluster_channel": 0.3061,
+      "P_compact_meanfield": 0.6939
+    },
+    {
+      "R_separation_fm": 11.0,
+      "P_cluster_channel": 0.4889,
+      "P_compact_meanfield": 0.5111
+    },
+    {
+      "R_separation_fm": 11.5,
+      "P_cluster_channel": 0.6199,
+      "P_compact_meanfield": 0.3801
+    },
+    {
+      "R_separation_fm": 12.0,
+      "P_cluster_channel": 0.7138,
+      "P_compact_meanfield": 0.2862
+    },
+    {
+      "R_separation_fm": 12.5,
+      "P_cluster_channel": 0.781,
+      "P_compact_meanfield": 0.219
+    },
+    {
+      "R_separation_fm": 13.0,
+      "P_cluster_channel": 0.8292,
+      "P_compact_meanfield": 0.1708
+    },
+    {
+      "R_separation_fm": 13.5,
+      "P_cluster_channel": 0.8637,
+      "P_compact_meanfield": 0.1363
+    },
+    {
+      "R_separation_fm": 14.0,
+      "P_cluster_channel": 0.8885,
+      "P_compact_meanfield": 0.1115
+    }
+  ],
+  "key_conclusions": [
+    "Pure alpha-cluster molecular models suffer from an insurmountable sum-rule contradiction: in 224Ra, matching experimental tiny D0 (0.015 e fm) requires P_alpha(E1) ~ 1.46e-5, whereas matching experimental giant collective B(E3) (42 W.u.) requires P_alpha(E3) ~ 0.748 (a mismatch factor of 5.1e4).",
+    "In contrast, microscopic reflection-asymmetric mean-field theory (Gogny HFB / EDF) simultaneously and self-consistently reproduces both observables: downward B(E3; 3- -> 0+) emerges from coherent particle-hole superposition (Delta l = Delta j = 3 across Fermi surfaces) matching experimental values within 10-15%, while D0 vanishes naturally via droplet Coulomb vs neutron shell cancellation.",
+    "The dramatic variation of alpha-decay hindrance factors to the 1^- state (HF(1-) = 4.4 in 226Th, 30 in 224Ra vs 280 in 220Rn and 1000 in 222Rn) is quantitatively explained by parity projection: statically deformed pear rotors project 0+ and 1- from the SAME intrinsic state with identical neck overlap, producing small hindrance without requiring ground-state alpha preformation.",
+    "Radial channel analysis confirms wavefunction orthogonality: ground states sit firmly in compact mean-field octupole wells with cluster probability < 1%, while alpha-clustering belongs to the asymptotically separated neck/scission valley (R > 10 fm)."
+  ]
+}

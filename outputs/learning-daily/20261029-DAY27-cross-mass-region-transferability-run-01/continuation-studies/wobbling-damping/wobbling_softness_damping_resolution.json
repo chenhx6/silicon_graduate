@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T14:05:08.406390+00:00",
+  "status": "exact-quantum-hermitian-resolution",
+  "physical_conclusion": [
+    "1. In an isolated nucleus governed by a Hermitian collective Hamiltonian, gamma-softness causes potential broadening (large sigma_gamma), state mixing, and strong anharmonicity, but CANNOT produce an intrinsic dissipative linewidth (Gamma = 0 identically).",
+    "2. Spreading width Gamma_down = 2*pi*V^2*rho requires coupling to an external bath or dense background continuum. Near-yrast wobbling states (E* < 1 MeV) have identical-spin/parity level density rho <= 1 MeV^-1, restricting any spreading width to Gamma_down <= 0.015 MeV (damping ratio <= 0.03).",
+    "3. The Day 27 solver formula 'damping_ratio = 1.5*(sigma_gamma/gamma0)^2' and its threshold 0.50 are completely arbitrary toy polynomial constructions that conflated Hermitian state mixing with dissipative friction."
+  ],
+  "scan_data": [
+    {
+      "C_gamma": 1500.0,
+      "sigma_gamma_deg": 3.08,
+      "softness_ratio": 0.154,
+      "E0": 4.3294,
+      "gap_1_0": 8.6574,
+      "gap_2_1": 8.6547,
+      "anharmonicity": -0.0003,
+      "toy_solver_damping_ratio": 0.0355,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    },
+    {
+      "C_gamma": 1000.0,
+      "sigma_gamma_deg": 3.41,
+      "softness_ratio": 0.17,
+      "E0": 3.5351,
+      "gap_1_0": 7.0694,
+      "gap_2_1": 7.0698,
+      "anharmonicity": 0.0001,
+      "toy_solver_damping_ratio": 0.0435,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    },
+    {
+      "C_gamma": 600.0,
+      "sigma_gamma_deg": 3.87,
+      "softness_ratio": 0.193,
+      "E0": 2.7385,
+      "gap_1_0": 5.4789,
+      "gap_2_1": 5.4977,
+      "anharmonicity": 0.0034,
+      "toy_solver_damping_ratio": 0.0561,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    },
+    {
+      "C_gamma": 400.0,
+      "sigma_gamma_deg": 4.28,
+      "softness_ratio": 0.214,
+      "E0": 2.2367,
+      "gap_1_0": 4.4835,
+      "gap_2_1": 4.5437,
+      "anharmonicity": 0.0134,
+      "toy_solver_damping_ratio": 0.0686,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    },
+    {
+      "C_gamma": 250.0,
+      "sigma_gamma_deg": 4.79,
+      "softness_ratio": 0.239,
+      "E0": 1.7715,
+      "gap_1_0": 3.576,
+      "gap_2_1": 3.7101,
+      "anharmonicity": 0.0375,
+      "toy_solver_damping_ratio": 0.086,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    },
+    {
+      "C_gamma": 150.0,
+      "sigma_gamma_deg": 5.37,
+      "softness_ratio": 0.269,
+      "E0": 1.3819,
+      "gap_1_0": 2.8362,
+      "gap_2_1": 3.04,
+      "anharmonicity": 0.0719,
+      "toy_solver_damping_ratio": 0.1082,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    },
+    {
+      "C_gamma": 80.0,
+      "sigma_gamma_deg": 6.1,
+      "softness_ratio": 0.305,
+      "E0": 1.0343,
+      "gap_1_0": 2.1819,
+      "gap_2_1": 2.41,
+      "anharmonicity": 0.1045,
+      "toy_solver_damping_ratio": 0.1397,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    },
+    {
+      "C_gamma": 40.0,
+      "sigma_gamma_deg": 6.94,
+      "softness_ratio": 0.347,
+      "E0": 0.7736,
+      "gap_1_0": 1.6651,
+      "gap_2_1": 1.8659,
+      "anharmonicity": 0.1206,
+      "toy_solver_damping_ratio": 0.1809,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    },
+    {
+      "C_gamma": 20.0,
+      "sigma_gamma_deg": 7.86,
+      "softness_ratio": 0.393,
+      "E0": 0.5957,
+      "gap_1_0": 1.2837,
+      "gap_2_1": 1.4991,
+      "anharmonicity": 0.1678,
+      "toy_solver_damping_ratio": 0.232,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    },
+    {
+      "C_gamma": 10.0,
+      "sigma_gamma_deg": 8.79,
+      "softness_ratio": 0.439,
+      "E0": 0.4691,
+      "gap_1_0": 1.0251,
+      "gap_2_1": 1.3408,
+      "anharmonicity": 0.3079,
+      "toy_solver_damping_ratio": 0.2896,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    },
+    {
+      "C_gamma": 5.0,
+      "sigma_gamma_deg": 9.48,
+      "softness_ratio": 0.474,
+      "E0": 0.3806,
+      "gap_1_0": 0.8832,
+      "gap_2_1": 1.294,
+      "anharmonicity": 0.465,
+      "toy_solver_damping_ratio": 0.3373,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    },
+    {
+      "C_gamma": 2.0,
+      "sigma_gamma_deg": 9.94,
+      "softness_ratio": 0.497,
+      "E0": 0.3111,
+      "gap_1_0": 0.8051,
+      "gap_2_1": 1.2781,
+      "anharmonicity": 0.5875,
+      "toy_solver_damping_ratio": 0.3707,
+      "true_hermitian_intrinsic_width_Gamma": 0.0,
+      "all_eigenvalues_real": true
+    }
+  ],
+  "spreading_width_analysis": [
+    {
+      "damping_ratio_target": 0.05,
+      "target_Gamma_MeV": 0.025,
+      "coupling_matrix_element_V_MeV": 0.05,
+      "required_background_density_rho_per_MeV": 1.59,
+      "physical_feasibility_at_near_yrast": "Unphysical near yrast (rho >> 1 MeV^-1 below pairing threshold)"
+    },
+    {
+      "damping_ratio_target": 0.1,
+      "target_Gamma_MeV": 0.05,
+      "coupling_matrix_element_V_MeV": 0.05,
+      "required_background_density_rho_per_MeV": 3.18,
+      "physical_feasibility_at_near_yrast": "Unphysical near yrast (rho >> 1 MeV^-1 below pairing threshold)"
+    },
+    {
+      "damping_ratio_target": 0.2,
+      "target_Gamma_MeV": 0.1,
+      "coupling_matrix_element_V_MeV": 0.05,
+      "required_background_density_rho_per_MeV": 6.37,
+      "physical_feasibility_at_near_yrast": "Unphysical near yrast (rho >> 1 MeV^-1 below pairing threshold)"
+    },
+    {
+      "damping_ratio_target": 0.5,
+      "target_Gamma_MeV": 0.25,
+      "coupling_matrix_element_V_MeV": 0.05,
+      "required_background_density_rho_per_MeV": 15.92,
+      "physical_feasibility_at_near_yrast": "Unphysical near yrast (rho >> 1 MeV^-1 below pairing threshold)"
+    },
+    {
+      "damping_ratio_target": 1.0,
+      "target_Gamma_MeV": 0.5,
+      "coupling_matrix_element_V_MeV": 0.05,
+      "required_background_density_rho_per_MeV": 31.83,
+      "physical_feasibility_at_near_yrast": "Unphysical near yrast (rho >> 1 MeV^-1 below pairing threshold)"
+    }
+  ],
+  "artifact": {
+    "csv": "gamma_softness_spectrum_scan.csv",
+    "data_points": 12
+  }
+}

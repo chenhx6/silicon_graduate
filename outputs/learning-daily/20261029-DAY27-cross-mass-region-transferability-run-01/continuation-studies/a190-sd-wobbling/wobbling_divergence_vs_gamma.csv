@@ -1,0 +1,10 @@
+gamma_deg,Jx_hbar2_over_MeV,Jy_hbar2_over_MeV,Jz_hbar2_over_MeV,hw_wobbling_MeV,collective_wobbling_viable
+0.5,101.0,98.99,0.0102,1969.53,NO (Divergent/Unphysical for gamma->0)
+1.0,101.99,97.96,0.0406,492.27,NO (Divergent/Unphysical for gamma->0)
+2.0,103.95,95.89,0.1624,122.95,NO (Divergent/Unphysical for gamma->0)
+3.0,105.85,93.78,0.3652,54.56,NO (Divergent/Unphysical for gamma->0)
+5.0,109.52,89.47,1.0128,19.54,NO (Divergent/Unphysical for gamma->0)
+10.0,117.74,78.24,4.0205,4.76,NO (Divergent/Unphysical for gamma->0)
+15.0,124.4,66.67,8.9316,2.01,NO (Divergent/Unphysical for gamma->0)
+20.0,129.31,55.09,15.597,1.02,YES (Low-lying collective phonon)
+25.0,132.32,43.87,23.8142,0.51,YES (Low-lying collective phonon)

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-29T14:55:15.576554+00:00",
+  "status": "wobbling-cross-mass-prm-resolved",
+  "physical_conclusions": [
+    "1. Transverse vs Longitudinal wobbling is governed by whether the high-j quasiparticle aligns perpendicular or parallel to the axis with the largest moment of inertia: in TW (163Lu), J3=J_s < J2=J_m, forcing (J3/J2 - 1) < 0, which makes hw_w decrease with spin toward a critical bifurcation spin J_c = 16.9 hbar; in LW (133La), J3=J_m > J1, J2, forcing both bracketed terms to be positive, so hw_w increases monotonically with spin.",
+    "2. Electromagnetic B(E2_out)/B(E2_in) ratios exhibit an unmistakable divergence of behaviors: for TW, the small-amplitude amplitudes x, y diverge as 1/sqrt(hw_w) near J_c, keeping B(E2_out)/B(E2_in) enhanced (0.50 - 1.39) and robust against core rotation; for LW, x and y saturate to constants, and B(E2_out)/B(E2_in) dilutes monotonically as 1/J (dropping from 0.48 at J=6.5 to 0.16 at J=22.5).",
+    "3. The 135Pr controversy is resolved as an unphysical parameterization artifact: generating TW (dhw_w/dI < 0) in 135Pr required forcing an inverted moment-of-inertia ordering J_s > J_m, which contradicted microscopic cranking and pairing calculations; the subsequent lifetime measurements by Lv et al. 2022 confirmed that the band is a 1-qp to 3-qp configuration crossing rather than a wobbler.",
+    "4. Across mass regions, wobbling mode transferability fails whenever the Fermi surface moves away from the bottom of the unique-parity intruder shell or when pairing collapses the triaxial irrotational moment-of-inertia hierarchy J_m > J_s > J_l."
+  ],
+  "cases_summary": [
+    {
+      "case_name": "163Lu_TW",
+      "nucleus": "163Lu",
+      "mode": "Transverse Wobbling",
+      "subshell": "pi i13/2",
+      "alignment_axis": "short (s)",
+      "J_MoI_ordering": "J3=40.0, J2=65.0, J1=15.0",
+      "hw_slope_sign": "negative (decreasing)",
+      "critical_spin_Jc": 16.9,
+      "be2_trend": "plateau / enhanced toward Jc"
+    },
+    {
+      "case_name": "133La_LW",
+      "nucleus": "133La",
+      "mode": "Longitudinal Wobbling",
+      "subshell": "pi h11/2",
+      "alignment_axis": "medium (m)",
+      "J_MoI_ordering": "J3=65.0, J2=40.0, J1=15.0",
+      "hw_slope_sign": "positive (increasing)",
+      "critical_spin_Jc": "None",
+      "be2_trend": "1/J dilution decay"
+    },
+    {
+      "case_name": "135Pr_Hypothetical_TW",
+      "nucleus": "135Pr",
+      "mode": "Hypothetical Transverse Wobbling (Disproven by Lv2022)",
+      "subshell": "pi h11/2",
+      "alignment_axis": "short (s)",
+      "J_MoI_ordering": "J3=13.0, J2=21.0, J1=7.0",
+      "hw_slope_sign": "negative (decreasing)",
+      "critical_spin_Jc": 14.44,
+      "be2_trend": "plateau / enhanced toward Jc"
+    }
+  ],
+  "artifacts": {
+    "trajectories_csv": "wobbling_trajectories_cross_mass.csv",
+    "summary_csv": "wobbling_mode_comparison_summary.csv"
+  }
+}

@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T04:20:29.591667+00:00",
+  "task": "Quantum Racah algebra and bandhead spin I0 formation in magnetic rotation",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_bi198_bandhead_matches_exp_17": true,
+    "test_2_large_j_approaches_90_deg": true,
+    "test_3_p2_minimum_negative": true,
+    "test_4_bandhead_inside_valence_interval": true
+  },
+  "benchmarks": {
+    "106Ag (A~100)": {
+      "j_p": 4.5,
+      "j_n": 5.5,
+      "I_min": 1,
+      "I_max": 10,
+      "I_class_pythagoras": 7.11,
+      "I_quant_analytical": 7.25,
+      "I_0_discrete_minimum": 7.0,
+      "min_P2_value": -0.4933,
+      "min_theta_deg": 94.3,
+      "states": [
+        {
+          "I": 1.0,
+          "P2_val": 0.9256,
+          "jp_dot_jn": -29.25,
+          "theta_deg": 169.5,
+          "E_shears_MeV": 0.7868
+        },
+        {
+          "I": 2.0,
+          "P2_val": 0.7357,
+          "jp_dot_jn": -27.25,
+          "theta_deg": 156.4,
+          "E_shears_MeV": 0.6254
+        },
+        {
+          "I": 3.0,
+          "P2_val": 0.4764,
+          "jp_dot_jn": -24.25,
+          "theta_deg": 144.6,
+          "E_shears_MeV": 0.4049
+        },
+        {
+          "I": 4.0,
+          "P2_val": 0.178,
+          "jp_dot_jn": -20.25,
+          "theta_deg": 132.9,
+          "E_shears_MeV": 0.1513
+        },
+        {
+          "I": 5.0,
+          "P2_val": -0.1187,
+          "jp_dot_jn": -15.25,
+          "theta_deg": 120.8,
+          "E_shears_MeV": -0.1009
+        },
+        {
+          "I": 6.0,
+          "P2_val": -0.3628,
+          "jp_dot_jn": -9.25,
+          "theta_deg": 108.1,
+          "E_shears_MeV": -0.3084
+        },
+        {
+          "I": 7.0,
+          "P2_val": -0.4933,
+          "jp_dot_jn": -2.25,
+          "theta_deg": 94.3,
+          "E_shears_MeV": -0.4193
+        },
+        {
+          "I": 8.0,
+          "P2_val": -0.4391,
+          "jp_dot_jn": 5.75,
+          "theta_deg": 78.9,
+          "E_shears_MeV": -0.3732
+        },
+        {
+          "I": 9.0,
+          "P2_val": -0.1187,
+          "jp_dot_jn": 14.75,
+          "theta_deg": 60.3,
+          "E_shears_MeV": -0.1009
+        },
+        {
+          "I": 10.0,
+          "P2_val": 0.5594,
+          "jp_dot_jn": 24.75,
+          "theta_deg": 33.7,
+          "E_shears_MeV": 0.4755
+        }
+      ],
+      "nucleus": "106Ag (A~100)",
+      "exp_I0": 10.0
+    },
+    "134Pr (A~130)": {
+      "j_p": 5.5,
+      "j_n": 5.5,
+      "I_min": 0,
+      "I_max": 11,
+      "I_class_pythagoras": 7.78,
+      "I_quant_analytical": 7.93,
+      "I_0_discrete_minimum": 8.0,
+      "min_P2_value": -0.4998,
+      "min_theta_deg": 89.6,
+      "states": [
+        {
+          "I": 0.0,
+          "P2_val": 0.979,
+          "jp_dot_jn": -35.75,
+          "theta_deg": 180.0,
+          "E_shears_MeV": 0.8811
+        },
+        {
+          "I": 1.0,
+          "P2_val": 0.8969,
+          "jp_dot_jn": -34.75,
+          "theta_deg": 166.4,
+          "E_shears_MeV": 0.8072
+        },
+        {
+          "I": 2.0,
+          "P2_val": 0.7396,
+          "jp_dot_jn": -32.75,
+          "theta_deg": 156.4,
+          "E_shears_MeV": 0.6656
+        },
+        {
+          "I": 3.0,
+          "P2_val": 0.5213,
+          "jp_dot_jn": -29.75,
+          "theta_deg": 146.3,
+          "E_shears_MeV": 0.4692
+        },
+        {
+          "I": 4.0,
+          "P2_val": 0.2631,
+          "jp_dot_jn": -25.75,
+          "theta_deg": 136.1,
+          "E_shears_MeV": 0.2368
+        },
+        {
+          "I": 5.0,
+          "P2_val": -0.0068,
+          "jp_dot_jn": -20.75,
+          "theta_deg": 125.5,
+          "E_shears_MeV": -0.0062
+        },
+        {
+          "I": 6.0,
+          "P2_val": -0.2533,
+          "jp_dot_jn": -14.75,
+          "theta_deg": 114.4,
+          "E_shears_MeV": -0.228
+        },
+        {
+          "I": 7.0,
+          "P2_val": -0.4341,
+          "jp_dot_jn": -7.75,
+          "theta_deg": 102.5,
+          "E_shears_MeV": -0.3906
+        },
+        {
+          "I": 8.0,
+          "P2_val": -0.4998,
+          "jp_dot_jn": 0.25,
+          "theta_deg": 89.6,
+          "E_shears_MeV": -0.4498
+        },
+        {
+          "I": 9.0,
+          "P2_val": -0.3942,
+          "jp_dot_jn": 9.25,
+          "theta_deg": 75.0,
+          "E_shears_MeV": -0.3547
+        },
+        {
+          "I": 10.0,
+          "P2_val": -0.0538,
+          "jp_dot_jn": 19.25,
+          "theta_deg": 57.4,
+          "E_shears_MeV": -0.0484
+        },
+        {
+          "I": 11.0,
+          "P2_val": 0.5917,
+          "jp_dot_jn": 30.25,
+          "theta_deg": 32.2,
+          "E_shears_MeV": 0.5325
+        }
+      ],
+      "nucleus": "134Pr (A~130)",
+      "exp_I0": 10.0
+    },
+    "142Eu (A~140)": {
+      "j_p": 5.5,
+      "j_n": 7.0,
+      "I_min": 1,
+      "I_max": 12,
+      "I_class_pythagoras": 8.9,
+      "I_quant_analytical": 9.05,
+      "I_0_discrete_minimum": 9.0,
+      "min_P2_value": -0.4998,
+      "min_theta_deg": 91.1,
+      "states": [
+        {
+          "I": 1.0,
+          "P2_val": 0.992,
+          "jp_dot_jn": -44.875,
+          "theta_deg": 180.0,
+          "E_shears_MeV": 0.9424
+        },
+        {
+          "I": 2.0,
+          "P2_val": 0.8613,
+          "jp_dot_jn": -42.875,
+          "theta_deg": 163.4,
+          "E_shears_MeV": 0.8182
+        },
+        {
+          "I": 3.0,
+          "P2_val": 0.6764,
+          "jp_dot_jn": -39.875,
+          "theta_deg": 153.0,
+          "E_shears_MeV": 0.6426
+        },
+        {
+          "I": 4.0,
+          "P2_val": 0.4509,
+          "jp_dot_jn": -35.875,
+          "theta_deg": 143.3,
+          "E_shears_MeV": 0.4283
+        },
+        {
+          "I": 5.0,
+          "P2_val": 0.2027,
+          "jp_dot_jn": -30.875,
+          "theta_deg": 133.6,
+          "E_shears_MeV": 0.1925
+        },
+        {
+          "I": 6.0,
+          "P2_val": -0.0457,
+          "jp_dot_jn": -24.875,
+          "theta_deg": 123.8,
+          "E_shears_MeV": -0.0434
+        },
+        {
+          "I": 7.0,
+          "P2_val": -0.2673,
+          "jp_dot_jn": -17.875,
+          "theta_deg": 113.5,
+          "E_shears_MeV": -0.2539
+        },
+        {
+          "I": 8.0,
+          "P2_val": -0.4306,
+          "jp_dot_jn": -9.875,
+          "theta_deg": 102.8,
+          "E_shears_MeV": -0.4091
+        },
+        {
+          "I": 9.0,
+          "P2_val": -0.4998,
+          "jp_dot_jn": -0.875,
+          "theta_deg": 91.1,
+          "E_shears_MeV": -0.4748
+        },
+        {
+          "I": 10.0,
+          "P2_val": -0.4342,
+          "jp_dot_jn": 9.125,
+          "theta_deg": 78.2,
+          "E_shears_MeV": -0.4125
+        },
+        {
+          "I": 11.0,
+          "P2_val": -0.189,
+          "jp_dot_jn": 20.125,
+          "theta_deg": 63.3,
+          "E_shears_MeV": -0.1796
+        },
+        {
+          "I": 12.0,
+          "P2_val": 0.2853,
+          "jp_dot_jn": 32.125,
+          "theta_deg": 44.1,
+          "E_shears_MeV": 0.271
+        }
+      ],
+      "nucleus": "142Eu (A~140)",
+      "exp_I0": 11.0
+    },
+    "198Bi Band B2 (A~190, Pai 2014)": {
+      "j_p": 4.5,
+      "j_n": 16.5,
+      "I_min": 12,
+      "I_max": 21,
+      "I_class_pythagoras": 17.1,
+      "I_quant_analytical": 17.19,
+      "I_0_discrete_minimum": 17.0,
+      "min_P2_value": -0.4974,
+      "min_theta_deg": 92.5,
+      "states": [
+        {
+          "I": 12.0,
+          "P2_val": 0.7934,
+          "jp_dot_jn": -78.75,
+          "theta_deg": 158.7,
+          "E_shears_MeV": 0.6863
+        },
+        {
+          "I": 13.0,
+          "P2_val": 0.4005,
+          "jp_dot_jn": -65.75,
+          "theta_deg": 141.1,
+          "E_shears_MeV": 0.3464
+        },
+        {
+          "I": 14.0,
+          "P2_val": 0.0567,
+          "jp_dot_jn": -51.75,
+          "theta_deg": 127.7,
+          "E_shears_MeV": 0.049
+        },
+        {
+          "I": 15.0,
+          "P2_val": -0.2204,
+          "jp_dot_jn": -36.75,
+          "theta_deg": 115.8,
+          "E_shears_MeV": -0.1906
+        },
+        {
+          "I": 16.0,
+          "P2_val": -0.4118,
+          "jp_dot_jn": -20.75,
+          "theta_deg": 104.2,
+          "E_shears_MeV": -0.3562
+        },
+        {
+          "I": 17.0,
+          "P2_val": -0.4974,
+          "jp_dot_jn": -3.75,
+          "theta_deg": 92.5,
+          "E_shears_MeV": -0.4303
+        },
+        {
+          "I": 18.0,
+          "P2_val": -0.4559,
+          "jp_dot_jn": 14.25,
+          "theta_deg": 80.3,
+          "E_shears_MeV": -0.3943
+        },
+        {
+          "I": 19.0,
+          "P2_val": -0.2645,
+          "jp_dot_jn": 33.25,
+          "theta_deg": 66.8,
+          "E_shears_MeV": -0.2288
+        },
+        {
+          "I": 20.0,
+          "P2_val": 0.1007,
+          "jp_dot_jn": 53.25,
+          "theta_deg": 51.0,
+          "E_shears_MeV": 0.0871
+        },
+        {
+          "I": 21.0,
+          "P2_val": 0.6649,
+          "jp_dot_jn": 74.25,
+          "theta_deg": 28.6,
+          "E_shears_MeV": 0.5752
+        }
+      ],
+      "nucleus": "198Bi Band B2 (A~190, Pai 2014)",
+      "exp_I0": 17.0
+    }
+  },
+  "large_j_convergence": {
+    "j_p": 20.5,
+    "j_n": 20.5,
+    "I_min": 0,
+    "I_max": 41,
+    "I_class_pythagoras": 28.99,
+    "I_quant_analytical": 29.18,
+    "I_0_discrete_minimum": 29.0,
+    "min_P2_value": -0.4998,
+    "min_theta_deg": 90.7,
+    "states": [
+      {
+        "I": 0.0,
+        "P2_val": 0.9983,
+        "jp_dot_jn": -440.75,
+        "theta_deg": 180.0,
+        "E_shears_MeV": 0.9983
+      },
+      {
+        "I": 1.0,
+        "P2_val": 0.9915,
+        "jp_dot_jn": -439.75,
+        "theta_deg": 176.1,
+        "E_shears_MeV": 0.9915
+      },
+      {
+        "I": 2.0,
+        "P2_val": 0.978,
+        "jp_dot_jn": -437.75,
+        "theta_deg": 173.3,
+        "E_shears_MeV": 0.978
+      },
+      {
+        "I": 3.0,
+        "P2_val": 0.9578,
+        "jp_dot_jn": -434.75,
+        "theta_deg": 170.5,
+        "E_shears_MeV": 0.9578
+      },
+      {
+        "I": 4.0,
+        "P2_val": 0.931,
+        "jp_dot_jn": -430.75,
+        "theta_deg": 167.8,
+        "E_shears_MeV": 0.931
+      },
+      {
+        "I": 5.0,
+        "P2_val": 0.898,
+        "jp_dot_jn": -425.75,
+        "theta_deg": 165.0,
+        "E_shears_MeV": 0.898
+      },
+      {
+        "I": 6.0,
+        "P2_val": 0.8588,
+        "jp_dot_jn": -419.75,
+        "theta_deg": 162.2,
+        "E_shears_MeV": 0.8588
+      },
+      {
+        "I": 7.0,
+        "P2_val": 0.8139,
+        "jp_dot_jn": -412.75,
+        "theta_deg": 159.5,
+        "E_shears_MeV": 0.8139
+      },
+      {
+        "I": 8.0,
+        "P2_val": 0.7634,
+        "jp_dot_jn": -404.75,
+        "theta_deg": 156.7,
+        "E_shears_MeV": 0.7634
+      },
+      {
+        "I": 9.0,
+        "P2_val": 0.7078,
+        "jp_dot_jn": -395.75,
+        "theta_deg": 153.9,
+        "E_shears_MeV": 0.7078
+      },
+      {
+        "I": 10.0,
+        "P2_val": 0.6475,
+        "jp_dot_jn": -385.75,
+        "theta_deg": 151.1,
+        "E_shears_MeV": 0.6475
+      },
+      {
+        "I": 11.0,
+        "P2_val": 0.583,
+        "jp_dot_jn": -374.75,
+        "theta_deg": 148.2,
+        "E_shears_MeV": 0.583
+      },
+      {
+        "I": 12.0,
+        "P2_val": 0.5147,
+        "jp_dot_jn": -362.75,
+        "theta_deg": 145.4,
+        "E_shears_MeV": 0.5147
+      },
+      {
+        "I": 13.0,
+        "P2_val": 0.4432,
+        "jp_dot_jn": -349.75,
+        "theta_deg": 142.5,
+        "E_shears_MeV": 0.4432
+      },
+      {
+        "I": 14.0,
+        "P2_val": 0.3691,
+        "jp_dot_jn": -335.75,
+        "theta_deg": 139.6,
+        "E_shears_MeV": 0.3691
+      },
+      {
+        "I": 15.0,
+        "P2_val": 0.2932,
+        "jp_dot_jn": -320.75,
+        "theta_deg": 136.7,
+        "E_shears_MeV": 0.2932
+      },
+      {
+        "I": 16.0,
+        "P2_val": 0.2159,
+        "jp_dot_jn": -304.75,
+        "theta_deg": 133.7,
+        "E_shears_MeV": 0.2159
+      },
+      {
+        "I": 17.0,
+        "P2_val": 0.1382,
+        "jp_dot_jn": -287.75,
+        "theta_deg": 130.8,
+        "E_shears_MeV": 0.1382
+      },
+      {
+        "I": 18.0,
+        "P2_val": 0.0608,
+        "jp_dot_jn": -269.75,
+        "theta_deg": 127.7,
+        "E_shears_MeV": 0.0608
+      },
+      {
+        "I": 19.0,
+        "P2_val": -0.0155,
+        "jp_dot_jn": -250.75,
+        "theta_deg": 124.7,
+        "E_shears_MeV": -0.0155
+      },
+      {
+        "I": 20.0,
+        "P2_val": -0.0898,
+        "jp_dot_jn": -230.75,
+        "theta_deg": 121.6,
+        "E_shears_MeV": -0.0898
+      },
+      {
+        "I": 21.0,
+        "P2_val": -0.1611,
+        "jp_dot_jn": -209.75,
+        "theta_deg": 118.4,
+        "E_shears_MeV": -0.1611
+      },
+      {
+        "I": 22.0,
+        "P2_val": -0.2285,
+        "jp_dot_jn": -187.75,
+        "theta_deg": 115.2,
+        "E_shears_MeV": -0.2285
+      },
+      {
+        "I": 23.0,
+        "P2_val": -0.2911,
+        "jp_dot_jn": -164.75,
+        "theta_deg": 111.9,
+        "E_shears_MeV": -0.2911
+      },
+      {
+        "I": 24.0,
+        "P2_val": -0.3476,
+        "jp_dot_jn": -140.75,
+        "theta_deg": 108.6,
+        "E_shears_MeV": -0.3476
+      },
+      {
+        "I": 25.0,
+        "P2_val": -0.397,
+        "jp_dot_jn": -115.75,
+        "theta_deg": 105.2,
+        "E_shears_MeV": -0.397
+      },
+      {
+        "I": 26.0,
+        "P2_val": -0.4381,
+        "jp_dot_jn": -89.75,
+        "theta_deg": 101.7,
+        "E_shears_MeV": -0.4381
+      },
+      {
+        "I": 27.0,
+        "P2_val": -0.4698,
+        "jp_dot_jn": -62.75,
+        "theta_deg": 98.2,
+        "E_shears_MeV": -0.4698
+      },
+      {
+        "I": 28.0,
+        "P2_val": -0.4908,
+        "jp_dot_jn": -34.75,
+        "theta_deg": 94.5,
+        "E_shears_MeV": -0.4908
+      },
+      {
+        "I": 29.0,
+        "P2_val": -0.4998,
+        "jp_dot_jn": -5.75,
+        "theta_deg": 90.7,
+        "E_shears_MeV": -0.4998
+      },
+      {
+        "I": 30.0,
+        "P2_val": -0.4954,
+        "jp_dot_jn": 24.25,
+        "theta_deg": 86.8,
+        "E_shears_MeV": -0.4954
+      },
+      {
+        "I": 31.0,
+        "P2_val": -0.4762,
+        "jp_dot_jn": 55.25,
+        "theta_deg": 82.8,
+        "E_shears_MeV": -0.4762
+      },
+      {
+        "I": 32.0,
+        "P2_val": -0.4409,
+        "jp_dot_jn": 87.25,
+        "theta_deg": 78.6,
+        "E_shears_MeV": -0.4409
+      },
+      {
+        "I": 33.0,
+        "P2_val": -0.3879,
+        "jp_dot_jn": 120.25,
+        "theta_deg": 74.2,
+        "E_shears_MeV": -0.3879
+      },
+      {
+        "I": 34.0,
+        "P2_val": -0.3157,
+        "jp_dot_jn": 154.25,
+        "theta_deg": 69.5,
+        "E_shears_MeV": -0.3157
+      },
+      {
+        "I": 35.0,
+        "P2_val": -0.2227,
+        "jp_dot_jn": 189.25,
+        "theta_deg": 64.6,
+        "E_shears_MeV": -0.2227
+      },
+      {
+        "I": 36.0,
+        "P2_val": -0.1074,
+        "jp_dot_jn": 225.25,
+        "theta_deg": 59.3,
+        "E_shears_MeV": -0.1074
+      },
+      {
+        "I": 37.0,
+        "P2_val": 0.0321,
+        "jp_dot_jn": 262.25,
+        "theta_deg": 53.5,
+        "E_shears_MeV": 0.0321
+      },
+      {
+        "I": 38.0,
+        "P2_val": 0.1973,
+        "jp_dot_jn": 300.25,
+        "theta_deg": 47.1,
+        "E_shears_MeV": 0.1973
+      },
+      {
+        "I": 39.0,
+        "P2_val": 0.39,
+        "jp_dot_jn": 339.25,
+        "theta_deg": 39.7,
+        "E_shears_MeV": 0.39
+      },
+      {
+        "I": 40.0,
+        "P2_val": 0.6121,
+        "jp_dot_jn": 379.25,
+        "theta_deg": 30.6,
+        "E_shears_MeV": 0.6121
+      },
+      {
+        "I": 41.0,
+        "P2_val": 0.8653,
+        "jp_dot_jn": 420.25,
+        "theta_deg": 17.5,
+        "E_shears_MeV": 0.8653
+      }
+    ]
+  },
+  "evidence_boundaries": {
+    "model_type": "Exact quantum SU(2) Racah expectation value of P2(cos theta) + finite-j commutator corrections",
+    "empirical_inputs": [
+      "Pai et al., PRC 90, 064314 (2014) for 198Bi Band B2 bandhead I0 = 17 hbar and V2 = 865 keV",
+      "Clark & Macchiavelli, ARNPS 50, 1 (2000) for semiclassical shears bandhead formulation",
+      "Hubel, Prog. Part. Nucl. Phys. 54, 1 (2005) for Pb-region shears bandhead systematics"
+    ],
+    "limitations": "Model evaluates bare 2-blade quantum expectation value; core collective rotation and multi-quasiparticle residual pairing scatterings induce a secondary Delta I ~ 1-2 hbar shift."
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "task": "Brink-Axel hypothesis breakdown and low-energy M1 upbend cross-mass dynamics",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_fe56_severe_breakdown": true,
+    "test_2_mo94_severe_breakdown": true,
+    "test_3_pb208_brink_axel_valid": true,
+    "test_4_high_energy_tail_preserves_brink_axel": true
+  },
+  "results": [
+    {
+      "nucleus": "56Fe",
+      "A": 56,
+      "Ex_eval_MeV": 6.5,
+      "Delta_pairing_MeV": 1.45,
+      "BA_ratio_at_0_8_MeV": 5677.89,
+      "BA_ratio_at_5_0_MeV": 1.16,
+      "exp_BA_deviation_factor_1MeV": 25.0,
+      "status": "Brink-Axel Severe Breakdown (M1 Upbend Dominates)",
+      "spectrum": [
+        {
+          "E_gamma_MeV": 0.5,
+          "f_M1_ground_state_10minus8": 0.0001,
+          "f_M1_excited_state_10minus8": 2.1142,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 21141.66
+        },
+        {
+          "E_gamma_MeV": 0.8,
+          "f_M1_ground_state_10minus8": 0.0002,
+          "f_M1_excited_state_10minus8": 1.3328,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 5677.89
+        },
+        {
+          "E_gamma_MeV": 1.2,
+          "f_M1_ground_state_10minus8": 0.0005,
+          "f_M1_excited_state_10minus8": 0.7207,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1350.07
+        },
+        {
+          "E_gamma_MeV": 1.8,
+          "f_M1_ground_state_10minus8": 0.0012,
+          "f_M1_excited_state_10minus8": 0.2873,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 233.51
+        },
+        {
+          "E_gamma_MeV": 2.5,
+          "f_M1_ground_state_10minus8": 0.0025,
+          "f_M1_excited_state_10minus8": 0.0999,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 40.4
+        },
+        {
+          "E_gamma_MeV": 3.5,
+          "f_M1_ground_state_10minus8": 0.0053,
+          "f_M1_excited_state_10minus8": 0.0262,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 4.97
+        },
+        {
+          "E_gamma_MeV": 5.0,
+          "f_M1_ground_state_10minus8": 0.013,
+          "f_M1_excited_state_10minus8": 0.0151,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1.16
+        }
+      ]
+    },
+    {
+      "nucleus": "94Mo",
+      "A": 94,
+      "Ex_eval_MeV": 7.0,
+      "Delta_pairing_MeV": 1.25,
+      "BA_ratio_at_0_8_MeV": 2039.38,
+      "BA_ratio_at_5_0_MeV": 1.05,
+      "exp_BA_deviation_factor_1MeV": 18.5,
+      "status": "Brink-Axel Severe Breakdown (M1 Upbend Dominates)",
+      "spectrum": [
+        {
+          "E_gamma_MeV": 0.5,
+          "f_M1_ground_state_10minus8": 0.0002,
+          "f_M1_excited_state_10minus8": 1.3861,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 8337.79
+        },
+        {
+          "E_gamma_MeV": 0.8,
+          "f_M1_ground_state_10minus8": 0.0004,
+          "f_M1_excited_state_10minus8": 0.874,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 2039.38
+        },
+        {
+          "E_gamma_MeV": 1.2,
+          "f_M1_ground_state_10minus8": 0.001,
+          "f_M1_excited_state_10minus8": 0.4731,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 483.61
+        },
+        {
+          "E_gamma_MeV": 1.8,
+          "f_M1_ground_state_10minus8": 0.0023,
+          "f_M1_excited_state_10minus8": 0.1898,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 83.47
+        },
+        {
+          "E_gamma_MeV": 2.5,
+          "f_M1_ground_state_10minus8": 0.0046,
+          "f_M1_excited_state_10minus8": 0.0685,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 14.77
+        },
+        {
+          "E_gamma_MeV": 3.5,
+          "f_M1_ground_state_10minus8": 0.0102,
+          "f_M1_excited_state_10minus8": 0.0239,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 2.34
+        },
+        {
+          "E_gamma_MeV": 5.0,
+          "f_M1_ground_state_10minus8": 0.0273,
+          "f_M1_excited_state_10minus8": 0.0287,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1.05
+        }
+      ]
+    },
+    {
+      "nucleus": "160Dy",
+      "A": 160,
+      "Ex_eval_MeV": 6.0,
+      "Delta_pairing_MeV": 0.95,
+      "BA_ratio_at_0_8_MeV": 536.2,
+      "BA_ratio_at_5_0_MeV": 1.01,
+      "exp_BA_deviation_factor_1MeV": 4.5,
+      "status": "Brink-Axel Severe Breakdown (M1 Upbend Dominates)",
+      "spectrum": [
+        {
+          "E_gamma_MeV": 0.5,
+          "f_M1_ground_state_10minus8": 0.0003,
+          "f_M1_excited_state_10minus8": 0.666,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 2195.17
+        },
+        {
+          "E_gamma_MeV": 0.8,
+          "f_M1_ground_state_10minus8": 0.0008,
+          "f_M1_excited_state_10minus8": 0.4204,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 536.2
+        },
+        {
+          "E_gamma_MeV": 1.2,
+          "f_M1_ground_state_10minus8": 0.0018,
+          "f_M1_excited_state_10minus8": 0.2286,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 127.08
+        },
+        {
+          "E_gamma_MeV": 1.8,
+          "f_M1_ground_state_10minus8": 0.0042,
+          "f_M1_excited_state_10minus8": 0.0943,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 22.3
+        },
+        {
+          "E_gamma_MeV": 2.5,
+          "f_M1_ground_state_10minus8": 0.0088,
+          "f_M1_excited_state_10minus8": 0.0395,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 4.49
+        },
+        {
+          "E_gamma_MeV": 3.5,
+          "f_M1_ground_state_10minus8": 0.0203,
+          "f_M1_excited_state_10minus8": 0.0269,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1.33
+        },
+        {
+          "E_gamma_MeV": 5.0,
+          "f_M1_ground_state_10minus8": 0.0609,
+          "f_M1_excited_state_10minus8": 0.0616,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1.01
+        }
+      ]
+    },
+    {
+      "nucleus": "208Pb",
+      "A": 208,
+      "Ex_eval_MeV": 6.0,
+      "Delta_pairing_MeV": 2.1,
+      "BA_ratio_at_0_8_MeV": 1.08,
+      "BA_ratio_at_5_0_MeV": 1.08,
+      "exp_BA_deviation_factor_1MeV": 1.15,
+      "status": "Brink-Axel Valid (<15% deviation)",
+      "spectrum": [
+        {
+          "E_gamma_MeV": 0.5,
+          "f_M1_ground_state_10minus8": 0.0004,
+          "f_M1_excited_state_10minus8": 0.0004,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1.08
+        },
+        {
+          "E_gamma_MeV": 0.8,
+          "f_M1_ground_state_10minus8": 0.001,
+          "f_M1_excited_state_10minus8": 0.0011,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1.08
+        },
+        {
+          "E_gamma_MeV": 1.2,
+          "f_M1_ground_state_10minus8": 0.0024,
+          "f_M1_excited_state_10minus8": 0.0026,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1.08
+        },
+        {
+          "E_gamma_MeV": 1.8,
+          "f_M1_ground_state_10minus8": 0.0057,
+          "f_M1_excited_state_10minus8": 0.0062,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1.08
+        },
+        {
+          "E_gamma_MeV": 2.5,
+          "f_M1_ground_state_10minus8": 0.0121,
+          "f_M1_excited_state_10minus8": 0.013,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1.08
+        },
+        {
+          "E_gamma_MeV": 3.5,
+          "f_M1_ground_state_10minus8": 0.0285,
+          "f_M1_excited_state_10minus8": 0.0308,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1.08
+        },
+        {
+          "E_gamma_MeV": 5.0,
+          "f_M1_ground_state_10minus8": 0.0926,
+          "f_M1_excited_state_10minus8": 0.1,
+          "Brink_Axel_ratio_f_ex_over_f_gs": 1.08
+        }
+      ]
+    }
+  ],
+  "evidence_boundaries": {
+    "primary_papers": [
+      "Schwengner, Frauendorf, Larsen, Phys. Rev. Lett. 111, 232504 (2013)",
+      "Guttormsen et al., Phys. Rev. Lett. 95, 082502 (2005)",
+      "Campo et al., Phys. Rev. C 98, 054303 (2018)"
+    ],
+    "mechanistic_law": "Establishes that the Brink-Axel hypothesis (universal equivalence between ground and excited state gamma-ray strength functions) breaks down completely in light and medium-mass nuclei (56Fe, 94Mo) at low gamma energies (E_gamma < 2 MeV), where excited-state shears-like recoupling of transverse magnetic moments drives a 10-30x exponential M1 upbend that is strictly absent in ground-state absorption; whereas in doubly-magic 208Pb, the giant shell gap suppresses broken-pair recoupling, preserving the Brink-Axel hypothesis to within 15%."
+  }
+}

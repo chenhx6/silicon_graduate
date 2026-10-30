@@ -1,0 +1,6 @@
+{
+  "status": "failed-io-before-repair",
+  "failure": "TypeError: Object of type numpy bool is not JSON serializable",
+  "cause": "NumPy boolean in checks dict; all numerical checks had evaluated; no result emitted",
+  "repair": "convert check scalars to Python bool; no change to physics/tolerances"
+}

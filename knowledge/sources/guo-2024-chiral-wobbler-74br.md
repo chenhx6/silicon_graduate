@@ -203,3 +203,8 @@ For paper use, recheck any quoted Table-I number against the stated gate, uncert
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | GU24-D22-R091-1 | 首页明确核素为74Br，Z=35、N=39；不是N=Z=35。作者报告三条πg9/2⊗νg9/2带的角分布、偏振和DSAM寿命，并结合PRM提出共存解释。仅凭粒子标签不能推导其实际三矢量必共面；旧χ=.027使用自设倾角，不是本篇测量或波函数输出。 | identity-and-geometric-inference-boundary | direct-original | 092501-1, Abstract and experimental setup; comparison with task artifact chiral-aplanarity-pn-coupling-result-078.json | true |
+
+
+## 2026 theoretical follow-up and Day27 bounded replay
+
+[[qureshie-2026-chiral-wobbling-four-band-74br]] uses this experimental B1-B3 network and predicts B4; it adds a model extension, not independent experimental replication. [[74br-four-band-branching-network-readiness]] replays Supplement Table I's 8+,9+,10+ B3 branches with lifetime cancellation, preserving the printed-input and missing-covariance boundary. This addition does not change the earlier human-review scope or clear existing claim-level review flags.

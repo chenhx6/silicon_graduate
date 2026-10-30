@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T03:04:14.058758+00:00",
+  "task": "Cross-mass evolution of octupole parity doublets, Coriolis decoupling, and barrier softening",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_octupole_resonance_quenched_4x_at_N152": true,
+    "test_2_ra225_anti_phase_decoupling_and_small_splitting": true,
+    "test_3_rf255_ground_state_reflection_symmetric": true,
+    "test_4_rf256_saddle_octupole_lowering_exceeds_1_5MeV": true
+  },
+  "octupole_driving_resonance_curve": [
+    {
+      "N": 132,
+      "delta_eps_MeV": 2.08,
+      "pairing_factor": 0.75,
+      "M_oct_fm3": 0.757,
+      "beta3_ground_state": 0.0
+    },
+    {
+      "N": 134,
+      "delta_eps_MeV": 1.12,
+      "pairing_factor": 0.92,
+      "M_oct_fm3": 1.725,
+      "beta3_ground_state": 0.118
+    },
+    {
+      "N": 136,
+      "delta_eps_MeV": 0.8,
+      "pairing_factor": 0.92,
+      "M_oct_fm3": 2.415,
+      "beta3_ground_state": 0.162
+    },
+    {
+      "N": 138,
+      "delta_eps_MeV": 1.12,
+      "pairing_factor": 0.92,
+      "M_oct_fm3": 1.725,
+      "beta3_ground_state": 0.118
+    },
+    {
+      "N": 140,
+      "delta_eps_MeV": 2.08,
+      "pairing_factor": 0.75,
+      "M_oct_fm3": 0.757,
+      "beta3_ground_state": 0.0
+    },
+    {
+      "N": 142,
+      "delta_eps_MeV": 1.46,
+      "pairing_factor": 0.75,
+      "M_oct_fm3": 1.079,
+      "beta3_ground_state": 0.048
+    },
+    {
+      "N": 144,
+      "delta_eps_MeV": 1.92,
+      "pairing_factor": 0.75,
+      "M_oct_fm3": 0.82,
+      "beta3_ground_state": 0.0
+    },
+    {
+      "N": 146,
+      "delta_eps_MeV": 2.5,
+      "pairing_factor": 0.75,
+      "M_oct_fm3": 0.63,
+      "beta3_ground_state": 0.0
+    },
+    {
+      "N": 148,
+      "delta_eps_MeV": 3.2,
+      "pairing_factor": 0.75,
+      "M_oct_fm3": 0.492,
+      "beta3_ground_state": 0.0
+    },
+    {
+      "N": 150,
+      "delta_eps_MeV": 4.02,
+      "pairing_factor": 0.75,
+      "M_oct_fm3": 0.392,
+      "beta3_ground_state": 0.0
+    },
+    {
+      "N": 152,
+      "delta_eps_MeV": 4.96,
+      "pairing_factor": 0.45,
+      "M_oct_fm3": 0.191,
+      "beta3_ground_state": 0.0
+    },
+    {
+      "N": 154,
+      "delta_eps_MeV": 6.02,
+      "pairing_factor": 0.75,
+      "M_oct_fm3": 0.262,
+      "beta3_ground_state": 0.0
+    },
+    {
+      "N": 156,
+      "delta_eps_MeV": 7.2,
+      "pairing_factor": 0.75,
+      "M_oct_fm3": 0.219,
+      "beta3_ground_state": 0.0
+    }
+  ],
+  "benchmark_parity_doublet_evaluations": {
+    "225Ra": {
+      "Z": 88,
+      "N": 137,
+      "K_ground": 0.5,
+      "beta3_gs": 0.162,
+      "calculated_splitting_keV": 10.0,
+      "exp_splitting_keV": 55.2,
+      "barrier_height_MeV": 2.398,
+      "regime": "double-well-parity-doublet",
+      "a_plus_decoupling": 1.192,
+      "a_minus_decoupling": -1.192,
+      "coriolis_attenuation_xi": 0.314
+    },
+    "225Ac": {
+      "Z": 89,
+      "N": 136,
+      "K_ground": 0.5,
+      "beta3_gs": 0.162,
+      "calculated_splitting_keV": 10.0,
+      "exp_splitting_keV": 40.1,
+      "barrier_height_MeV": 2.398,
+      "regime": "double-well-parity-doublet",
+      "a_plus_decoupling": 1.192,
+      "a_minus_decoupling": -1.192,
+      "coriolis_attenuation_xi": 0.314
+    },
+    "235U": {
+      "Z": 92,
+      "N": 143,
+      "K_ground": 0.5,
+      "beta3_gs": 0.048,
+      "calculated_splitting_keV": 248.3,
+      "exp_splitting_keV": 720.0,
+      "barrier_height_MeV": 0.018,
+      "regime": "double-well-parity-doublet",
+      "a_plus_decoupling": 1.184,
+      "a_minus_decoupling": -1.184,
+      "coriolis_attenuation_xi": 0.398
+    },
+    "245Cm": {
+      "Z": 96,
+      "N": 149,
+      "K_ground": 3.5,
+      "beta3_gs": 0.0,
+      "calculated_splitting_keV": 1250.0,
+      "exp_splitting_keV": null,
+      "barrier_height_MeV": 0.0,
+      "regime": "vibrational-single-phonon",
+      "a_plus_decoupling": 0.0,
+      "a_minus_decoupling": 0.0,
+      "coriolis_attenuation_xi": 0.703
+    },
+    "255Rf": {
+      "Z": 104,
+      "N": 151,
+      "K_ground": 4.5,
+      "beta3_gs": 0.0,
+      "calculated_splitting_keV": 1250.0,
+      "exp_splitting_keV": null,
+      "barrier_height_MeV": 0.0,
+      "regime": "vibrational-single-phonon",
+      "a_plus_decoupling": 0.0,
+      "a_minus_decoupling": 0.0,
+      "coriolis_attenuation_xi": 0.703
+    },
+    "257Db": {
+      "Z": 105,
+      "N": 152,
+      "K_ground": 4.5,
+      "beta3_gs": 0.0,
+      "calculated_splitting_keV": 1250.0,
+      "exp_splitting_keV": null,
+      "barrier_height_MeV": 0.0,
+      "regime": "vibrational-single-phonon",
+      "a_plus_decoupling": 0.0,
+      "a_minus_decoupling": 0.0,
+      "coriolis_attenuation_xi": 0.703
+    }
+  },
+  "fission_saddle_octupole_softening": [
+    {
+      "nucleus": "238U",
+      "Z": 92,
+      "N": 146,
+      "beta2_saddle": 0.85,
+      "V_barrier_symmetric_MeV": 5.8,
+      "beta3_saddle_equilibrium": 0.15,
+      "barrier_lowering_DeltaV_MeV": -1.1,
+      "V_barrier_asymmetric_MeV": 4.7,
+      "spontaneous_fission_penetration_boost_log10": 2.39
+    },
+    {
+      "nucleus": "252Cf",
+      "Z": 98,
+      "N": 154,
+      "beta2_saddle": 0.85,
+      "V_barrier_symmetric_MeV": 5.6,
+      "beta3_saddle_equilibrium": 0.18,
+      "barrier_lowering_DeltaV_MeV": -1.35,
+      "V_barrier_asymmetric_MeV": 4.25,
+      "spontaneous_fission_penetration_boost_log10": 2.93
+    },
+    {
+      "nucleus": "256Rf",
+      "Z": 104,
+      "N": 152,
+      "beta2_saddle": 0.85,
+      "V_barrier_symmetric_MeV": 6.84,
+      "beta3_saddle_equilibrium": 0.22,
+      "barrier_lowering_DeltaV_MeV": -1.76,
+      "V_barrier_asymmetric_MeV": 5.08,
+      "spontaneous_fission_penetration_boost_log10": 3.83
+    },
+    {
+      "nucleus": "258No",
+      "Z": 102,
+      "N": 156,
+      "beta2_saddle": 0.85,
+      "V_barrier_symmetric_MeV": 6.45,
+      "beta3_saddle_equilibrium": 0.2,
+      "barrier_lowering_DeltaV_MeV": -1.55,
+      "V_barrier_asymmetric_MeV": 4.9,
+      "spontaneous_fission_penetration_boost_log10": 3.37
+    }
+  ],
+  "evidence_boundaries": {
+    "model_type": "Microscopic Nilsson intruder resonance + WKB double-well tunneling + RAPRM Coriolis decoupling",
+    "empirical_inputs": [
+      "NNDC Adopted Levels for 225Ra (splitting 55.2 keV, K=1/2+ ground)",
+      "Butler et al., Nature Commun. 11, 3560 (2020) for 222-228Ra octupole systematics",
+      "Gaffney et al., Nature 497, 199 (2013) for 220Rn and 224Ra direct E3 Coulex",
+      "Heßberger et al. decay spectroscopy of 255Rf and 257Db"
+    ],
+    "limitations": "WKB uses 1D tunneling trajectory in beta3 with constant collective mass B3; full multidimensional GCM with beta2-beta3-beta4 coupling produces detailed fragment mass distributions not modeled here."
+  }
+}

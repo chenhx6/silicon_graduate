@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-30T04:30:28.139624+08:00",
+  "run_id": "2026-10-29-day-27-01",
+  "session_id": "01a187b7-de86-7741-b813-d555e297b192",
+  "checkpoint": 46,
+  "status": "scientific-correction-verified-overall-research-in-progress",
+  "overall_goal": "active-research-deadline-2026-10-30T15:00:00+08:00",
+  "primary_source": "knowledge/sources/smith-2003-hf178-isomer-gamma-decay.md",
+  "raw_identity_status": "original review unchanged; new manuscript staging-only, identity/hash/read-scope verified",
+  "model_checks": {
+    "six_legacy_E2_parity_failures_detected": true,
+    "review_Hf_E3_allowed_nu5": true,
+    "primary_Hf_M4_allowed_nu4": true,
+    "primary_Hf_E5_allowed_nu3": true,
+    "same_parity_E2_control": true,
+    "zero_to_zero_dipole_excluded": true,
+    "real_photon_E0_rejected": true,
+    "event_rate_vs_two_branch_conventions": true,
+    "component_fraction_control": true,
+    "mean_lifetime_control": true,
+    "double_conversion_rejected": true,
+    "relative_intensity_rejected": true,
+    "missing_conversion_rejected": true,
+    "zero_branch_rejected": true,
+    "nu_zero_rejected": true,
+    "E2_energy_scaling_keV": true,
+    "unsupported_table_E3_not_invented": true
+  },
+  "source_vs_model_boundary": "M4/E5 weak gamma and adopted E3 input distinguished; no independent f_nu extraction; legacy isotope classifications withdrawn",
+  "invalid_legacy_E2_branches": [
+    "178Hf",
+    "176Yb",
+    "180W",
+    "130Ba",
+    "134Nd",
+    "188Pb"
+  ],
+  "replay_scientific_fields_equal": true,
+  "structural_failure_preserved": "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/scientific-corrections-046/checks-before-source-section-fix.json",
+  "no_curriculum_credit_applied": true,
+  "git_published_this_checkpoint": false,
+  "next_research_action": "check chiral-octupole positive cos^2 torque minimum and hard-coded j_nu cutoff",
+  "verified_at": "2026-10-30T04:31:38.390596+08:00",
+  "checks": [
+    {
+      "name": "diff",
+      "exit_code": 0
+    },
+    {
+      "name": "boundary",
+      "exit_code": 0,
+      "ok": true
+    },
+    {
+      "name": "lint",
+      "exit_code": 0,
+      "counts": {
+        "warning": 398,
+        "info": 5198
+      },
+      "coverage": "full --no-git knowledge lint after adding required source sections"
+    }
+  ],
+  "writeback_valid": true,
+  "protected_hashes_unchanged": {
+    "system/scripts/run_daily_learning_daemon.py": true,
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/run.json": true,
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/card-credit-27.json": true,
+    "outputs/learning-milestones/2026-09-one-month-state.json": true
+  },
+  "file_sha256": {
+    "system/scripts/day27_k_isomer_triaxial_breakdown_study.py": "1bd80a7125e41d7b1ad6bf81a1c0da79afd8d3552e0b482483926d05f8e574f4",
+    "knowledge/research-notes/k-isomer-triaxial-tunneling-and-hindrance-collapse.md": "0ac4b770dbdabe5c606b2501c9d341dd6fbfdb1589857309a257ffa33ffda8fa",
+    "knowledge/sources/walker-dracoulis-2001-exotic-isomers.md": "f9b543cd630480913142e5f8917d0a199056740cceb189febb0622f7e6d09293",
+    "knowledge/sources/smith-2003-hf178-isomer-gamma-decay.md": "691dabe0000029ebffd587488d6cd35d033a777e6e012bc197f08c407669d6e5",
+    "knowledge/index.md": "f16796f170834467e875f63339496a5d104687a61b4746543a15c408cbdb8d25",
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability.md": "44814b02748d63d67a79b6a87562ee346a4af4fe35ffb09fa5973f3663aa17f3",
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/continuation-research-ledger.json": "f3a0fa5c584d7eca077b8611bd475558bdaeef0201880cc00f684bde6e16441a",
+    "outputs/learning-daily/20261029-DAY27-cross-mass-region-transferability-run-01/continuation-studies/k-isomer-triaxial/k_isomer_branch_audit_corrected.json": "f7cf9660b7d8569e0b943590fbaeb544647c5a72f544ca6109eca94eeebf719e"
+  }
+}

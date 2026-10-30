@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-30T04:11:47.068088+08:00",
+  "source_url": "https://digital.library.unt.edu/ark%3A/67531/metadc1413376/m2/1/high_res_d/15013782.pdf",
+  "final_url": "https://digital.library.unt.edu/ark%3A/67531/metadc1413376/m2/1/high_res_d/15013782.pdf",
+  "status_code": 200,
+  "signature": "PDF",
+  "bytes": 505873,
+  "pages": 7,
+  "sha256": "9d326f4ff38af434b8d299b293d1da6da2b33fd412435eb56584cf010ecccb11",
+  "staged_file": "tmp/day27-k-isomer-repair-046/smith-2003-hf178-gamma-manuscript.pdf",
+  "archive_identity": "June25 2003 author manuscript UCRL-JRNL-200315, UNT government archive; metadata checked against exact Crossref DOI",
+  "raw_unchanged": true,
+  "publication_identity": {
+    "doi": "10.1103/PhysRevC.68.031302",
+    "journal": "Physical Review C",
+    "volume": "68",
+    "article": "031302",
+    "publication_date": "2003-09-17",
+    "crossref_exact_status": 200
+  },
+  "reading_scope": "Cover/disclaimer PDF1-2; main text PDF3-7 visually read, printed1-5; Figs1-4 and TablesI-II checked; extracted text has corrupted embedded fonts"
+}

@@ -1,0 +1,6 @@
+diagnostic_observable,A160_TSD_Wobbler_163Lu,A190_SD_Bands_194Pb,physical_implication
+Core Triaxiality gamma,"Large, stable triaxiality gamma ~ 20 deg (J_m != J_s != J_l)",Axially symmetric prolate gamma ~ 0 deg (J_x = J_y = J_perp),Wobbling requires triaxiality; prolate symmetry forces K-conservation.
+Interband E2 Strength B(E2_out)/B(E2_in),Enhanced collective ratio ~ 0.20 - 0.50 (E2 photon fraction > 90%),"Zero / Undetected (ratio < 1e-4, strictly single-particle suppressed)",Complete absence of collective interband links rejects wobbling phonon.
+Excitation Energy E*,Collective phonon energy hw_w ~ 150 - 300 keV (< pairing gap),Pair-breaking excitation E* ~ 1.2 - 1.5 MeV (~ 2*Delta_SD),"Energy matches 2-quasiparticle pair-breaking, not collective vibration."
+Dynamic Moment of Inertia J^(2),Shifted and fluctuating between TSD1 and TSD2 due to phonon rotation,Universal smooth rise (85 -> 110 hbar^2/MeV) shared by all bands,"Rise driven by gradual intruder pair alignment (j15/2, i13/2) and CAP."
+Decay-Out Mechanism,Direct collective E2 cascade into TSD1 within the same triaxial well,Statistical tunneling through fission barrier into spherical ND states,Reflects deep isolated second minimum without lateral phonon branch.

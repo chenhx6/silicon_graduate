@@ -1,0 +1,222 @@
+{
+  "schema_version": 2,
+  "observed_at": "2026-10-30T03:58:59.960001+08:00",
+  "investigation": "Source correction of S(4) signs and model limits",
+  "scientific_status": "source-limit-reproduced; isotope-classifications-withdrawn",
+  "source": {
+    "knowledge": "knowledge/sources/zamfir-casten-1991-gamma-softness-triaxiality.md",
+    "claim_ids": [
+      "ZC91-1",
+      "ZC91-2",
+      "ZC91-4",
+      "ZC91-D22-R091-1"
+    ],
+    "raw_file": "raw/papers/1991_Zamfir_Casten_Signatures of \u03b3 softness or triaxiality in low energy nuclear spectra.pdf",
+    "raw_sha256": "faa1b32dfa651fc613a9c4bac87c2c4b569d1bd725939580ea5ee3744d8c963a",
+    "reading_scope": "PDF1-4 text, PDF3 visual; printed265-268, Eq2/Eq4/Fig1/Fig2"
+  },
+  "formula": "(E4_gamma - 2*E3_gamma + E2_gamma)/E2_ground",
+  "model_limits": {
+    "wilets_jean_C_equals_0": {
+      "normalized_E2g_E3g_E4g": [
+        2.5,
+        4.5,
+        4.5
+      ],
+      "s4_exact": "-2",
+      "s4_numeric": -2.0,
+      "grouping": "(2),(3,4),(5,6)"
+    },
+    "davydov_gamma_30": {
+      "normalized_E2g_E3g_E4g": [
+        2.0,
+        3.0,
+        5.666666666666667
+      ],
+      "s4_exact": "5/3",
+      "s4_numeric": 1.6666666666666667,
+      "grouping": "(2,3),(4,5),(6,7)"
+    }
+  },
+  "rotor_angle_scan_model_only": [
+    {
+      "gamma_deg": 5,
+      "s4": 0.3341539868091798
+    },
+    {
+      "gamma_deg": 10,
+      "s4": 0.34744522446241677
+    },
+    {
+      "gamma_deg": 15,
+      "s4": 0.4141975561704627
+    },
+    {
+      "gamma_deg": 20,
+      "s4": 0.6294186515061557
+    },
+    {
+      "gamma_deg": 25,
+      "s4": 1.1050847203245586
+    },
+    {
+      "gamma_deg": 30,
+      "s4": 1.6666666666666667
+    }
+  ],
+  "gamma_independent_o5_plus_o3_demonstration": {
+    "derivation_kind": "task-derived from source Eq4; not an isotope fit",
+    "formula": "S4=(-8+2*C/B)/(4+6*C/B)",
+    "rows": [
+      {
+        "c_over_b": 0,
+        "s4": -2.0
+      },
+      {
+        "c_over_b": 0.25,
+        "s4": -1.3636363636363635
+      },
+      {
+        "c_over_b": 1,
+        "s4": -0.6
+      },
+      {
+        "c_over_b": 4,
+        "s4": 0.0
+      },
+      {
+        "c_over_b": 6,
+        "s4": 0.1
+      }
+    ],
+    "boundary": "large C/B is synthetic; source says empirical C is small; zero S4 is no universal phase boundary"
+  },
+  "legacy_unverified_inputs_arithmetic_replay": [
+    {
+      "nucleus": "76Ge",
+      "input_status": "legacy-unverified-no-experimental-certification",
+      "input_energies_keV": {
+        "E_2p_1_keV": 562.9,
+        "E_2p_g_keV": 1108.3,
+        "E_3p_g_keV": 1911.2,
+        "E_4p_g_keV": 2026.0
+      },
+      "s4_arithmetic_only": -1.222419612719844,
+      "shape_classification": null,
+      "band_assignments_verified": false,
+      "coulex_gamma_verified": false
+    },
+    {
+      "nucleus": "76Se",
+      "input_status": "legacy-unverified-no-experimental-certification",
+      "input_energies_keV": {
+        "E_2p_1_keV": 559.1,
+        "E_2p_g_keV": 1216.1,
+        "E_3p_g_keV": 1787.6,
+        "E_4p_g_keV": 2383.5
+      },
+      "s4_arithmetic_only": 0.04364156680379197,
+      "shape_classification": null,
+      "band_assignments_verified": false,
+      "coulex_gamma_verified": false
+    },
+    {
+      "nucleus": "104Ru",
+      "input_status": "legacy-unverified-no-experimental-certification",
+      "input_energies_keV": {
+        "E_2p_1_keV": 358.0,
+        "E_2p_g_keV": 888.5,
+        "E_3p_g_keV": 1242.0,
+        "E_4p_g_keV": 1515.2
+      },
+      "s4_arithmetic_only": -0.2243016759776535,
+      "shape_classification": null,
+      "band_assignments_verified": false,
+      "coulex_gamma_verified": false
+    },
+    {
+      "nucleus": "106Ru",
+      "input_status": "legacy-unverified-no-experimental-certification",
+      "input_energies_keV": {
+        "E_2p_1_keV": 270.1,
+        "E_2p_g_keV": 792.2,
+        "E_3p_g_keV": 1097.0,
+        "E_4p_g_keV": 1390.0
+      },
+      "s4_arithmetic_only": -0.043687523139577765,
+      "shape_classification": null,
+      "band_assignments_verified": false,
+      "coulex_gamma_verified": false
+    },
+    {
+      "nucleus": "108Ru",
+      "input_status": "legacy-unverified-no-experimental-certification",
+      "input_energies_keV": {
+        "E_2p_1_keV": 242.2,
+        "E_2p_g_keV": 707.9,
+        "E_3p_g_keV": 975.0,
+        "E_4p_g_keV": 1380.0
+      },
+      "s4_arithmetic_only": 0.569364161849711,
+      "shape_classification": null,
+      "band_assignments_verified": false,
+      "coulex_gamma_verified": false
+    },
+    {
+      "nucleus": "110Ru",
+      "input_status": "legacy-unverified-no-experimental-certification",
+      "input_energies_keV": {
+        "E_2p_1_keV": 240.8,
+        "E_2p_g_keV": 613.2,
+        "E_3p_g_keV": 989.4,
+        "E_4p_g_keV": 1475.0
+      },
+      "s4_arithmetic_only": 0.45431893687707675,
+      "shape_classification": null,
+      "band_assignments_verified": false,
+      "coulex_gamma_verified": false
+    },
+    {
+      "nucleus": "134Ba",
+      "input_status": "legacy-unverified-no-experimental-certification",
+      "input_energies_keV": {
+        "E_2p_1_keV": 604.7,
+        "E_2p_g_keV": 1167.9,
+        "E_3p_g_keV": 1643.3,
+        "E_4p_g_keV": 2371.3
+      },
+      "s4_arithmetic_only": 0.4177277989085503,
+      "shape_classification": null,
+      "band_assignments_verified": false,
+      "coulex_gamma_verified": false
+    },
+    {
+      "nucleus": "196Pt",
+      "input_status": "legacy-unverified-no-experimental-certification",
+      "input_energies_keV": {
+        "E_2p_1_keV": 355.7,
+        "E_2p_g_keV": 688.7,
+        "E_3p_g_keV": 1015.0,
+        "E_4p_g_keV": 1604.5
+      },
+      "s4_arithmetic_only": 0.7399493955580547,
+      "shape_classification": null,
+      "band_assignments_verified": false,
+      "coulex_gamma_verified": false
+    }
+  ],
+  "withdrawn": [
+    "negative S4 certifies rigid triaxiality",
+    "positive S4 certifies gamma softness",
+    "S4=0 certifies a Ru-chain phase transition",
+    "legacy isotope inputs are verified ENSDF data"
+  ],
+  "checks": {
+    "d2_rotor_vs_source_normalized_energies": true,
+    "rigid_s4_vs_exact_5_over_3": true,
+    "soft_s4_vs_exact_minus_2": true,
+    "o5_plus_o3_zero_at_c_over_b_4": true,
+    "o5_plus_o3_positive_at_c_over_b_6": true
+  },
+  "no_experimental_confidence_or_curriculum_credit": true
+}

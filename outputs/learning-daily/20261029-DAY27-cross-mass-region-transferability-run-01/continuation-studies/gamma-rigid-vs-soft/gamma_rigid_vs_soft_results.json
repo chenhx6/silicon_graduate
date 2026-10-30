@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "investigation": "Triaxial gamma-Rigid vs gamma-Soft Phase Transition and Signature Staggering S(4)",
+  "description": "Systematic evaluation of gamma-band signature staggering S(4) across A~76, A~104-110, A~134, and A~196, establishing the S(4) = 0 phase boundary demarcating Davydov-Filippov rigid triaxiality from Wilets-Jean / O(6) gamma-softness.",
+  "systems": [
+    {
+      "nucleus": "76Ge",
+      "region": "A~76 Germanium-Selenium",
+      "A": 76,
+      "Z": 32,
+      "E_2plus_1_keV": 562.9,
+      "E_2plus_gamma_keV": 1108.3,
+      "E_3plus_gamma_keV": 1911.2,
+      "E_4plus_gamma_keV": 2026.0,
+      "S_4_staggering_experimental": -1.222,
+      "triaxial_effective_gamma_deg": 28.0,
+      "coulex_nature_identification": "Rigid Triaxial (CH88 invariant analysis)",
+      "classified_collective_phase": "gamma-Rigid (Davydov)"
+    },
+    {
+      "nucleus": "76Se",
+      "region": "A~76 Germanium-Selenium",
+      "A": 76,
+      "Z": 34,
+      "E_2plus_1_keV": 559.1,
+      "E_2plus_gamma_keV": 1216.1,
+      "E_3plus_gamma_keV": 1787.6,
+      "E_4plus_gamma_keV": 2383.5,
+      "S_4_staggering_experimental": 0.044,
+      "triaxial_effective_gamma_deg": 25.0,
+      "coulex_nature_identification": "Gamma-Soft / Transitional",
+      "classified_collective_phase": "Phase Boundary (Critical S(4)~0)"
+    },
+    {
+      "nucleus": "104Ru",
+      "region": "A~104-110 Ruthenium Chain",
+      "A": 104,
+      "Z": 44,
+      "E_2plus_1_keV": 358.0,
+      "E_2plus_gamma_keV": 888.5,
+      "E_3plus_gamma_keV": 1242.0,
+      "E_4plus_gamma_keV": 1515.2,
+      "S_4_staggering_experimental": -0.224,
+      "triaxial_effective_gamma_deg": 26.5,
+      "coulex_nature_identification": "Rigid-Leaning Triaxial Rotor",
+      "classified_collective_phase": "Phase Boundary (Critical S(4)~0)"
+    },
+    {
+      "nucleus": "106Ru",
+      "region": "A~104-110 Ruthenium Chain",
+      "A": 106,
+      "Z": 44,
+      "E_2plus_1_keV": 270.1,
+      "E_2plus_gamma_keV": 792.2,
+      "E_3plus_gamma_keV": 1097.0,
+      "E_4plus_gamma_keV": 1390.0,
+      "S_4_staggering_experimental": -0.044,
+      "triaxial_effective_gamma_deg": 25.0,
+      "coulex_nature_identification": "Critical Phase Boundary (S(4) ~ 0)",
+      "classified_collective_phase": "Phase Boundary (Critical S(4)~0)"
+    },
+    {
+      "nucleus": "108Ru",
+      "region": "A~104-110 Ruthenium Chain",
+      "A": 108,
+      "Z": 44,
+      "E_2plus_1_keV": 242.2,
+      "E_2plus_gamma_keV": 707.9,
+      "E_3plus_gamma_keV": 975.0,
+      "E_4plus_gamma_keV": 1380.0,
+      "S_4_staggering_experimental": 0.569,
+      "triaxial_effective_gamma_deg": 24.0,
+      "coulex_nature_identification": "Gamma-Soft Vibrator",
+      "classified_collective_phase": "gamma-Soft (Wilets-Jean / O(6))"
+    },
+    {
+      "nucleus": "110Ru",
+      "region": "A~104-110 Ruthenium Chain",
+      "A": 110,
+      "Z": 44,
+      "E_2plus_1_keV": 240.8,
+      "E_2plus_gamma_keV": 613.2,
+      "E_3plus_gamma_keV": 989.4,
+      "E_4plus_gamma_keV": 1475.0,
+      "S_4_staggering_experimental": 0.454,
+      "triaxial_effective_gamma_deg": 23.0,
+      "coulex_nature_identification": "Gamma-Soft Vibrator",
+      "classified_collective_phase": "gamma-Soft (Wilets-Jean / O(6))"
+    },
+    {
+      "nucleus": "134Ba",
+      "region": "A~130-138 Barium-Xenon",
+      "A": 134,
+      "Z": 56,
+      "E_2plus_1_keV": 604.7,
+      "E_2plus_gamma_keV": 1167.9,
+      "E_3plus_gamma_keV": 1643.3,
+      "E_4plus_gamma_keV": 2371.3,
+      "S_4_staggering_experimental": 0.418,
+      "triaxial_effective_gamma_deg": 27.0,
+      "coulex_nature_identification": "Prototypical O(6) Gamma-Soft Rotor",
+      "classified_collective_phase": "gamma-Soft (Wilets-Jean / O(6))"
+    },
+    {
+      "nucleus": "196Pt",
+      "region": "A~196 Platinum Benchmark",
+      "A": 196,
+      "Z": 78,
+      "E_2plus_1_keV": 355.7,
+      "E_2plus_gamma_keV": 688.7,
+      "E_3plus_gamma_keV": 1015.0,
+      "E_4plus_gamma_keV": 1604.5,
+      "S_4_staggering_experimental": 0.74,
+      "triaxial_effective_gamma_deg": 30.0,
+      "coulex_nature_identification": "Textbook O(6) Dynamical Symmetry (Wilets-Jean)",
+      "classified_collective_phase": "gamma-Soft (Wilets-Jean / O(6))"
+    }
+  ],
+  "cross_mass_inapplicability_boundaries": {
+    "boundary_1_pseudo_degeneracy_breaking_by_s4": {
+      "contrast": "Davydov-Filippov (rigid, S(4) < 0) vs Wilets-Jean (soft, S(4) > 0)",
+      "mechanism": "At low spin (bandheads 2+_1 and 2+_gamma), both models produce identical energy ratios E(2+_g)/E(2+_1) ~ 2.5 and indistinguishable B(E2) branchings, creating pseudo-degeneracy. In the gamma-band at spin 4, the level grouping diverges: rigid triaxiality groups states as 2+, (3+, 4+), (5+, 6+) with Delta E(4-3) << Delta E(3-2) driving S(4) < 0 (-1.22 in 76Ge); gamma-softness groups states as (2+, 3+), (4+, 5+) driving S(4) > 0 (+0.74 in 196Pt).",
+      "failure_signature": "Using low-spin ratios alone to claim gamma-softness in rigid triaxial nuclei, or vice versa."
+    },
+    "boundary_2_isotopic_phase_shift_inapplicability": {
+      "contrast": "104Ru (rigid-leaning) vs 110Ru (soft)",
+      "mechanism": "Within the same element (Ruthenium, Z=44), adding valence neutrons shifts the nuclear potential energy surface from a localized triaxial minimum in 104Ru (S(4) = -0.22) through a critical point in 106Ru (S(4) = +0.07) to a flat gamma-unstable valley in 110Ru (S(4) = +0.45). Direct transfer of a rigid triaxial rotor model across the full isotopic chain fails.",
+      "failure_signature": "Inability of a fixed-gamma rotor model to reproduce the sign change in S(L) across an isotopic sequence."
+    }
+  },
+  "scientific_status": "superseded-do-not-use-for-shape-or-phase-classification",
+  "superseded_by": "gamma_rigid_vs_soft_corrected_results.json",
+  "withdrawal_reason": "Original source Eq2 limits and couplet groupings were reversed; isotope input provenance unverified."
+}

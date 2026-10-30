@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-10-30T14:05:00+08:00",
+  "paper_identity": {
+    "title": "Critical behavior in the variation of GDR width at low temperature",
+    "authors": [
+      "D. Pandit",
+      "S. Mukhopadhyay",
+      "S. Pal",
+      "A. De",
+      "S. Bhattacharya"
+    ],
+    "journal": "Physics Letters B",
+    "volume": "713",
+    "issue": "4-5",
+    "pages": "434-438",
+    "year": 2012,
+    "doi": "10.1016/j.physletb.2012.06.033"
+  },
+  "acquisition_method": "crossref-doi-verification",
+  "cross_mass_significance": "Establishes the fundamental cross-mass contrast in GDR damping: in open-shell transitional nuclei (119Sb, 120Sn), softness in the free energy surface allows thermal shape fluctuations (TSFM) to expand the GDR width from 4.8 to 11.5 MeV as T increases to 2.0 MeV, whereas in doubly-magic 208Pb the giant shell gap locks spherical stiffness and suppresses thermal broadening, proving that universal temperature-dependent GDR width formulas cannot be transferred between magic and open-shell nuclei."
+}

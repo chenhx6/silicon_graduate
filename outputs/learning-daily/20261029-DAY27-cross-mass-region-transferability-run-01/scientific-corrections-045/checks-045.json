@@ -1,0 +1,19 @@
+[
+  {
+    "name": "diff",
+    "exit_code": 0
+  },
+  {
+    "name": "boundary",
+    "exit_code": 0,
+    "ok": true
+  },
+  {
+    "name": "lint",
+    "exit_code": 0,
+    "counts": {
+      "warning": 398,
+      "info": 5187
+    }
+  }
+]

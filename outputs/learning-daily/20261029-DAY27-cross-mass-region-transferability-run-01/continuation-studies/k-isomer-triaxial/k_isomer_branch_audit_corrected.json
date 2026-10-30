@@ -1,0 +1,330 @@
+{
+  "schema_version": 2,
+  "observed_at": "2026-10-30T04:26:13.535335+08:00",
+  "investigation": "K-isomer parity, multipolarity and radiative partial lifetime audit",
+  "scientific_status": "six invalid branches rejected; isotope shape/lifetime-collapse claims withdrawn",
+  "review_source": {
+    "knowledge": "knowledge/sources/walker-dracoulis-2001-exotic-isomers.md",
+    "raw_file": "raw/papers/gpt/high-spin-20260920/\u5947\u7279\u539f\u5b50\u6838/\u7efc\u8ff0/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf",
+    "raw_sha256": "62cc9071a6101118535d16aeb66f0f192e7ad8904abdfa80b6b56119473c1489",
+    "reading_scope": "PDF7/16-18, printed89/98-100, Fig3/Sec3.3/TableII"
+  },
+  "review_Hf_reference": {
+    "branch": "16+ -> 13-",
+    "mode": "E3",
+    "E_gamma_keV_rounded": 13,
+    "delta_K": 8,
+    "nu": 5,
+    "reported_f_nu": 66,
+    "reported_not_independently_extracted": true,
+    "radiative_partial_half_life_s": null
+  },
+  "primary_source": {
+    "knowledge": "knowledge/sources/smith-2003-hf178-isomer-gamma-decay.md",
+    "doi": "10.1103/PhysRevC.68.031302",
+    "manuscript_sha256": "9d326f4ff38af434b8d299b293d1da6da2b33fd412435eb56584cf010ecccb11",
+    "reading_scope": "Cover/disclaimer PDF1-2; main text PDF3-7 visually read, printed1-5; Figs1-4 and TablesI-II checked; extracted text has corrupted embedded fonts"
+  },
+  "primary_reported_Hf_branches": [
+    {
+      "branch": "16+ -> 13-",
+      "mode": "E3",
+      "energy_keV": 12.7,
+      "nu": 5,
+      "reported_f_nu": 66,
+      "reported_f_nu_error": 1,
+      "relative_I_gamma_percent": null,
+      "evidence_kind": "adopted converted branch; gamma not directly detected",
+      "source_claim": "SM03-D27-2/3/4/5",
+      "source_locator": "manuscript PDF5/printed3 Table I; PDF6-7 hindrance discussion",
+      "independently_extracted_hindrance": false,
+      "relative_intensity_normalizer": "325.5-keV gamma = 100; not absolute branch",
+      "absolute_branch_probability": null,
+      "radiative_partial_half_life_s": null
+    },
+    {
+      "branch": "16+ -> 12-",
+      "mode": "M4",
+      "energy_keV": 309.5,
+      "nu": 4,
+      "reported_f_nu": 72,
+      "reported_f_nu_error": 2,
+      "relative_I_gamma_percent": 0.015,
+      "evidence_kind": "direct weak gamma coincidence with prior assignment constraints",
+      "source_claim": "SM03-D27-2/3/4/5",
+      "source_locator": "manuscript PDF5/printed3 Table I; PDF6-7 hindrance discussion",
+      "independently_extracted_hindrance": false,
+      "relative_intensity_normalizer": "325.5-keV gamma = 100; not absolute branch",
+      "absolute_branch_probability": null,
+      "radiative_partial_half_life_s": null
+    },
+    {
+      "branch": "16+ -> 11-",
+      "mode": "E5",
+      "energy_keV": 587.0,
+      "nu": 3,
+      "reported_f_nu": 165,
+      "reported_f_nu_error": 5,
+      "relative_I_gamma_percent": 0.0062,
+      "evidence_kind": "direct weak gamma coincidence with prior assignment constraints",
+      "source_claim": "SM03-D27-2/3/4/5",
+      "source_locator": "manuscript PDF5/printed3 Table I; PDF6-7 hindrance discussion",
+      "independently_extracted_hindrance": false,
+      "relative_intensity_normalizer": "325.5-keV gamma = 100; not absolute branch",
+      "absolute_branch_probability": null,
+      "radiative_partial_half_life_s": null
+    }
+  ],
+  "legacy_input_audit": [
+    {
+      "nucleus": "178Hf",
+      "input_status": "legacy-unverified",
+      "claimed_branch": "E2 to 14- (8- band)",
+      "selection": {
+        "triangle_allowed": true,
+        "parity_allowed": false,
+        "allowed": false,
+        "operator_parity": 1
+      },
+      "other_kinematically_allowed_modes_up_to_L3": [
+        "M2",
+        "E3"
+      ],
+      "alternatives_are_not_observed_assignments": true,
+      "can_extract_experimental_f_nu": false,
+      "missing_inputs": [
+        "branch-specific primary locator",
+        "E_gamma and uncertainty",
+        "absolute photon probability or total branch plus alpha",
+        "component fraction if mixed",
+        "radiative Weisskopf convention"
+      ],
+      "shape_inference": null
+    },
+    {
+      "nucleus": "176Yb",
+      "input_status": "legacy-unverified",
+      "claimed_branch": "E2 to 6+ (g.s. band)",
+      "selection": {
+        "triangle_allowed": true,
+        "parity_allowed": false,
+        "allowed": false,
+        "operator_parity": 1
+      },
+      "other_kinematically_allowed_modes_up_to_L3": [
+        "M2",
+        "E3"
+      ],
+      "alternatives_are_not_observed_assignments": true,
+      "can_extract_experimental_f_nu": false,
+      "missing_inputs": [
+        "branch-specific primary locator",
+        "E_gamma and uncertainty",
+        "absolute photon probability or total branch plus alpha",
+        "component fraction if mixed",
+        "radiative Weisskopf convention"
+      ],
+      "shape_inference": null
+    },
+    {
+      "nucleus": "180W",
+      "input_status": "legacy-unverified",
+      "claimed_branch": "E2 to 6+ (g.s. band)",
+      "selection": {
+        "triangle_allowed": true,
+        "parity_allowed": false,
+        "allowed": false,
+        "operator_parity": 1
+      },
+      "other_kinematically_allowed_modes_up_to_L3": [
+        "M2",
+        "E3"
+      ],
+      "alternatives_are_not_observed_assignments": true,
+      "can_extract_experimental_f_nu": false,
+      "missing_inputs": [
+        "branch-specific primary locator",
+        "E_gamma and uncertainty",
+        "absolute photon probability or total branch plus alpha",
+        "component fraction if mixed",
+        "radiative Weisskopf convention"
+      ],
+      "shape_inference": null
+    },
+    {
+      "nucleus": "130Ba",
+      "input_status": "legacy-unverified",
+      "claimed_branch": "E2 to 6+ (g.s. band)",
+      "selection": {
+        "triangle_allowed": true,
+        "parity_allowed": false,
+        "allowed": false,
+        "operator_parity": 1
+      },
+      "other_kinematically_allowed_modes_up_to_L3": [
+        "M2",
+        "E3"
+      ],
+      "alternatives_are_not_observed_assignments": true,
+      "can_extract_experimental_f_nu": false,
+      "missing_inputs": [
+        "branch-specific primary locator",
+        "E_gamma and uncertainty",
+        "absolute photon probability or total branch plus alpha",
+        "component fraction if mixed",
+        "radiative Weisskopf convention"
+      ],
+      "shape_inference": null
+    },
+    {
+      "nucleus": "134Nd",
+      "input_status": "legacy-unverified",
+      "claimed_branch": "E2 to 6+ (g.s. band)",
+      "selection": {
+        "triangle_allowed": true,
+        "parity_allowed": false,
+        "allowed": false,
+        "operator_parity": 1
+      },
+      "other_kinematically_allowed_modes_up_to_L3": [
+        "M2",
+        "E3"
+      ],
+      "alternatives_are_not_observed_assignments": true,
+      "can_extract_experimental_f_nu": false,
+      "missing_inputs": [
+        "branch-specific primary locator",
+        "E_gamma and uncertainty",
+        "absolute photon probability or total branch plus alpha",
+        "component fraction if mixed",
+        "radiative Weisskopf convention"
+      ],
+      "shape_inference": null
+    },
+    {
+      "nucleus": "136Ce",
+      "input_status": "legacy-unverified",
+      "claimed_branch": "E2 to 8+ (g.s. band)",
+      "selection": {
+        "triangle_allowed": true,
+        "parity_allowed": true,
+        "allowed": true,
+        "operator_parity": 1
+      },
+      "other_kinematically_allowed_modes_up_to_L3": [
+        "E2",
+        "M3"
+      ],
+      "alternatives_are_not_observed_assignments": true,
+      "can_extract_experimental_f_nu": false,
+      "missing_inputs": [
+        "branch-specific primary locator",
+        "E_gamma and uncertainty",
+        "absolute photon probability or total branch plus alpha",
+        "component fraction if mixed",
+        "radiative Weisskopf convention"
+      ],
+      "shape_inference": null
+    },
+    {
+      "nucleus": "188Pb",
+      "input_status": "legacy-unverified",
+      "claimed_branch": "E2 to 6+ (g.s. band)",
+      "selection": {
+        "triangle_allowed": true,
+        "parity_allowed": false,
+        "allowed": false,
+        "operator_parity": 1
+      },
+      "other_kinematically_allowed_modes_up_to_L3": [
+        "M2",
+        "E3"
+      ],
+      "alternatives_are_not_observed_assignments": true,
+      "can_extract_experimental_f_nu": false,
+      "missing_inputs": [
+        "branch-specific primary locator",
+        "E_gamma and uncertainty",
+        "absolute photon probability or total branch plus alpha",
+        "component fraction if mixed",
+        "radiative Weisskopf convention"
+      ],
+      "shape_inference": null
+    },
+    {
+      "nucleus": "190Pt",
+      "input_status": "legacy-unverified",
+      "claimed_branch": "E1 to 6+ (g.s. band)",
+      "selection": {
+        "triangle_allowed": true,
+        "parity_allowed": true,
+        "allowed": true,
+        "operator_parity": -1
+      },
+      "other_kinematically_allowed_modes_up_to_L3": [
+        "E1",
+        "M2",
+        "E3"
+      ],
+      "alternatives_are_not_observed_assignments": true,
+      "can_extract_experimental_f_nu": false,
+      "missing_inputs": [
+        "branch-specific primary locator",
+        "E_gamma and uncertainty",
+        "absolute photon probability or total branch plus alpha",
+        "component fraction if mixed",
+        "radiative Weisskopf convention"
+      ],
+      "shape_inference": null
+    }
+  ],
+  "invalid_legacy_nuclei": [
+    "178Hf",
+    "176Yb",
+    "180W",
+    "130Ba",
+    "134Nd",
+    "188Pb"
+  ],
+  "synthetic_normalization_control": {
+    "input_status": "synthetic-no-isotope-measurement",
+    "T_level_half_life_s": 10,
+    "b_total": 0.25,
+    "alpha_effective": 3,
+    "b_gamma_absolute": 0.0625,
+    "T_gamma_s_from_event_rates": 160.0,
+    "T_gamma_s_from_total_branch": 160.0,
+    "T_gamma_s_from_photon_probability": 160.0,
+    "component_fraction": 0.4,
+    "component_T_gamma_s": 400.0
+  },
+  "legacy_hindrance_ratio_arithmetic": {
+    "status": "conditional-only-not-measured-lifetime-ratio",
+    "assumed_f_reference": 60.5,
+    "assumed_f_target": 3.44,
+    "assumed_nu": 6,
+    "ratio": 29592495.652825005,
+    "reason": "actual partial lifetimes also depend on branch energies, multipolarities and Weisskopf estimates"
+  },
+  "checks": {
+    "six_legacy_E2_parity_failures_detected": true,
+    "review_Hf_E3_allowed_nu5": true,
+    "primary_Hf_M4_allowed_nu4": true,
+    "primary_Hf_E5_allowed_nu3": true,
+    "same_parity_E2_control": true,
+    "zero_to_zero_dipole_excluded": true,
+    "real_photon_E0_rejected": true,
+    "event_rate_vs_two_branch_conventions": true,
+    "component_fraction_control": true,
+    "mean_lifetime_control": true,
+    "double_conversion_rejected": true,
+    "relative_intensity_rejected": true,
+    "missing_conversion_rejected": true,
+    "zero_branch_rejected": true,
+    "nu_zero_rejected": true,
+    "E2_energy_scaling_keV": true,
+    "unsupported_table_E3_not_invented": true
+  },
+  "no_shape_classifier_or_tunneling_fit": true,
+  "no_new_experimental_confidence_or_curriculum_credit": true
+}

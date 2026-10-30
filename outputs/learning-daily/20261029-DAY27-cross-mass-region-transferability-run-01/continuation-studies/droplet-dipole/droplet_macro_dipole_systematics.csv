@@ -1,0 +1,10 @@
+nucleus,Z,N,region,beta2,beta3,D_macro_efm,D_shell_efm,D0_exp_efm,cancellation_ratio,regime_nature
+144Ba,56,88,A~140,0.2,0.11,0.0463,0.0837,0.13,1.808,Constructive addition (enhanced E1)
+146Ba,56,90,A~140,0.21,0.1,0.0484,0.0016,0.05,0.033,Near-cancellation node (E1 drop)
+150Sm,62,88,A~150,0.19,0.09,0.0231,0.0569,0.08,2.463,Reduced isospin asymmetry
+152Sm,62,90,A~150,0.25,0.08,0.0314,0.0286,0.06,0.911,Moderate octupole softness
+222Ra,88,134,A~220,0.16,0.11,0.0512,0.0388,0.09,0.758,Static pear rotor
+224Ra,88,136,A~220,0.17,0.11,0.0588,-0.0438,0.015,0.745,Exact cancellation node (tiny E1)
+226Ra,88,138,A~220,0.18,0.1,0.0608,0.0492,0.11,0.809,Rebounded E1 dipole
+226Th,90,136,A~220,0.19,0.11,0.0595,0.0205,0.08,0.345,Actinide octupole rotor
+228Th,90,138,A~220,0.2,0.1,0.0617,0.0583,0.12,0.945,Enhanced dipole branch

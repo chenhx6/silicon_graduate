@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T04:45:14.249518+00:00",
+  "task": "Non-axial octupole coupling, simplex inversion, and B(E1)/B(E2) anti-phase staggering in 223Th vs 225Ra",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_th223_low_spin_near_degeneracy": true,
+    "test_2_ra225_regular_ground_doublet": true,
+    "test_3_anti_phase_be1_be2_staggering": true,
+    "test_4_ra_dipole_quenched_vs_th": true
+  },
+  "th223_results": {
+    "nucleus": "223Th",
+    "K_base": 2.5,
+    "A_rot_keV": 7.5,
+    "Delta_E0_tunneling_keV": 12.0,
+    "a_eff_decoupling": 0.38,
+    "D0_macro_efm": 0.35,
+    "d_sp_micro_efm": 0.12,
+    "cascade_s_plus_i": [
+      {
+        "I": 2.5,
+        "simplex": "+i",
+        "parity": "+",
+        "energy_keV": 10.2,
+        "D_eff_efm": 0.23,
+        "B_E1_over_B_E2_10minus6_fm2": 2.52
+      },
+      {
+        "I": 3.5,
+        "simplex": "+i",
+        "parity": "-",
+        "energy_keV": 71.8,
+        "D_eff_efm": 0.47,
+        "B_E1_over_B_E2_10minus6_fm2": 10.51
+      },
+      {
+        "I": 4.5,
+        "simplex": "+i",
+        "parity": "+",
+        "energy_keV": 124.5,
+        "D_eff_efm": 0.23,
+        "B_E1_over_B_E2_10minus6_fm2": 2.52
+      },
+      {
+        "I": 5.5,
+        "simplex": "+i",
+        "parity": "-",
+        "energy_keV": 216.2,
+        "D_eff_efm": 0.47,
+        "B_E1_over_B_E2_10minus6_fm2": 10.51
+      },
+      {
+        "I": 6.5,
+        "simplex": "+i",
+        "parity": "+",
+        "energy_keV": 298.8,
+        "D_eff_efm": 0.23,
+        "B_E1_over_B_E2_10minus6_fm2": 2.52
+      },
+      {
+        "I": 7.5,
+        "simplex": "+i",
+        "parity": "-",
+        "energy_keV": 420.4,
+        "D_eff_efm": 0.47,
+        "B_E1_over_B_E2_10minus6_fm2": 10.51
+      },
+      {
+        "I": 8.5,
+        "simplex": "+i",
+        "parity": "+",
+        "energy_keV": 533.1,
+        "D_eff_efm": 0.23,
+        "B_E1_over_B_E2_10minus6_fm2": 2.52
+      }
+    ],
+    "cascade_s_minus_i": [
+      {
+        "I": 2.5,
+        "simplex": "-i",
+        "parity": "-",
+        "energy_keV": 39.3,
+        "D_eff_efm": 0.47,
+        "B_E1_over_B_E2_10minus6_fm2": 10.51
+      },
+      {
+        "I": 3.5,
+        "simplex": "-i",
+        "parity": "+",
+        "energy_keV": 82.7,
+        "D_eff_efm": 0.23,
+        "B_E1_over_B_E2_10minus6_fm2": 2.52
+      },
+      {
+        "I": 4.5,
+        "simplex": "-i",
+        "parity": "-",
+        "energy_keV": 165.0,
+        "D_eff_efm": 0.47,
+        "B_E1_over_B_E2_10minus6_fm2": 10.51
+      },
+      {
+        "I": 5.5,
+        "simplex": "-i",
+        "parity": "+",
+        "energy_keV": 238.3,
+        "D_eff_efm": 0.23,
+        "B_E1_over_B_E2_10minus6_fm2": 2.52
+      },
+      {
+        "I": 6.5,
+        "simplex": "-i",
+        "parity": "-",
+        "energy_keV": 350.7,
+        "D_eff_efm": 0.47,
+        "B_E1_over_B_E2_10minus6_fm2": 10.51
+      },
+      {
+        "I": 7.5,
+        "simplex": "-i",
+        "parity": "+",
+        "energy_keV": 454.1,
+        "D_eff_efm": 0.23,
+        "B_E1_over_B_E2_10minus6_fm2": 2.52
+      },
+      {
+        "I": 8.5,
+        "simplex": "-i",
+        "parity": "-",
+        "energy_keV": 596.4,
+        "D_eff_efm": 0.47,
+        "B_E1_over_B_E2_10minus6_fm2": 10.51
+      }
+    ]
+  },
+  "ra225_results": {
+    "nucleus": "225Ra",
+    "K_base": 0.5,
+    "A_rot_keV": 8.2,
+    "Delta_E0_tunneling_keV": 55.2,
+    "a_eff_decoupling": 1.48,
+    "D0_macro_efm": 0.015,
+    "d_sp_micro_efm": 0.025,
+    "cascade_s_plus_i": [
+      {
+        "I": 0.5,
+        "simplex": "+i",
+        "parity": "+",
+        "energy_keV": -8.0,
+        "D_eff_efm": 0.01,
+        "B_E1_over_B_E2_10minus6_fm2": 0.0
+      },
+      {
+        "I": 1.5,
+        "simplex": "+i",
+        "parity": "-",
+        "energy_keV": 59.6,
+        "D_eff_efm": 0.04,
+        "B_E1_over_B_E2_10minus6_fm2": 0.08
+      },
+      {
+        "I": 2.5,
+        "simplex": "+i",
+        "parity": "+",
+        "energy_keV": 33.3,
+        "D_eff_efm": 0.01,
+        "B_E1_over_B_E2_10minus6_fm2": 0.0
+      },
+      {
+        "I": 3.5,
+        "simplex": "+i",
+        "parity": "-",
+        "energy_keV": 133.8,
+        "D_eff_efm": 0.04,
+        "B_E1_over_B_E2_10minus6_fm2": 0.08
+      },
+      {
+        "I": 4.5,
+        "simplex": "+i",
+        "parity": "+",
+        "energy_keV": 140.2,
+        "D_eff_efm": 0.01,
+        "B_E1_over_B_E2_10minus6_fm2": 0.0
+      },
+      {
+        "I": 5.5,
+        "simplex": "+i",
+        "parity": "-",
+        "energy_keV": 273.5,
+        "D_eff_efm": 0.04,
+        "B_E1_over_B_E2_10minus6_fm2": 0.08
+      }
+    ],
+    "cascade_s_minus_i": [
+      {
+        "I": 0.5,
+        "simplex": "-i",
+        "parity": "-",
+        "energy_keV": 71.4,
+        "D_eff_efm": 0.04,
+        "B_E1_over_B_E2_10minus6_fm2": 0.08
+      },
+      {
+        "I": 1.5,
+        "simplex": "-i",
+        "parity": "+",
+        "energy_keV": 53.0,
+        "D_eff_efm": 0.01,
+        "B_E1_over_B_E2_10minus6_fm2": 0.0
+      },
+      {
+        "I": 2.5,
+        "simplex": "-i",
+        "parity": "-",
+        "energy_keV": 161.3,
+        "D_eff_efm": 0.04,
+        "B_E1_over_B_E2_10minus6_fm2": 0.08
+      },
+      {
+        "I": 3.5,
+        "simplex": "-i",
+        "parity": "+",
+        "energy_keV": 175.6,
+        "D_eff_efm": 0.01,
+        "B_E1_over_B_E2_10minus6_fm2": 0.0
+      },
+      {
+        "I": 4.5,
+        "simplex": "-i",
+        "parity": "-",
+        "energy_keV": 316.8,
+        "D_eff_efm": 0.04,
+        "B_E1_over_B_E2_10minus6_fm2": 0.08
+      },
+      {
+        "I": 5.5,
+        "simplex": "-i",
+        "parity": "+",
+        "energy_keV": 363.9,
+        "D_eff_efm": 0.01,
+        "B_E1_over_B_E2_10minus6_fm2": 0.0
+      }
+    ]
+  },
+  "evidence_boundaries": {
+    "model_type": "Reflection-Asymmetric Particle-Rotor Model (RAPRM) with effective K-mixing and single-particle dipole interference",
+    "empirical_inputs": [
+      "Dahlinger et al., NPA 484, 337 (1988) for 223Th alternating-parity band and B(E1)/B(E2) staggering",
+      "NNDC adopted levels for 225Ra (1/2+ ground, 1/2- at 55.2 keV)",
+      "Butler & Nazarewicz, RMP 68, 349 (1996) for octupole simplex algebra and intrinsic dipole systematics"
+    ],
+    "limitations": "Model parametrizes non-axial octupole mixing via effective a_eff and single-particle dipole d_sp; full 3D-cranked self-consistent Gogny/Skyrme HFB with parity projection yields microscopic orbital occupancies."
+  }
+}

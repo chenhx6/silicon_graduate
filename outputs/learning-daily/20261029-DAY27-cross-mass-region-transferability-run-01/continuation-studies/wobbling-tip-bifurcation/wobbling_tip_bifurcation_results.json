@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T04:27:38.145770+00:00",
+  "task": "Hessian stability matrix and 3D-TAC bifurcation between wobbling and tilted precession (TiP)",
+  "self_tests": {
+    "all_passed": true,
+    "test_1_lu163_stable_transverse_wobbling": true,
+    "test_2_pr135_bifurcates_at_29_over_2": true,
+    "test_3_pr135_tilts_into_tip": true,
+    "test_4_au187_longitudinal_bifurcation": true
+  },
+  "benchmarks": {
+    "163Lu": {
+      "nucleus": "163Lu (A~160 TSD)",
+      "mode_type": "transverse",
+      "quasiparticle_j": 6.5,
+      "J_m": 65.0,
+      "J_s": 40.0,
+      "J_l": 18.0,
+      "I_crit_bifurcation": null,
+      "states": [
+        {
+          "spin": 8.5,
+          "lambda_theta": 5.25,
+          "lambda_phi": 31.972,
+          "omega_w_keV": 199.3,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "stable-wobbling"
+        },
+        {
+          "spin": 10.5,
+          "lambda_theta": 4.0,
+          "lambda_phi": 33.972,
+          "omega_w_keV": 179.3,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "stable-wobbling"
+        },
+        {
+          "spin": 12.5,
+          "lambda_theta": 2.75,
+          "lambda_phi": 35.972,
+          "omega_w_keV": 153.0,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "stable-wobbling"
+        },
+        {
+          "spin": 14.5,
+          "lambda_theta": 1.5,
+          "lambda_phi": 37.972,
+          "omega_w_keV": 116.1,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "stable-wobbling"
+        },
+        {
+          "spin": 16.5,
+          "lambda_theta": 0.25,
+          "lambda_phi": 39.972,
+          "omega_w_keV": 48.6,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "stable-wobbling"
+        }
+      ]
+    },
+    "135Pr": {
+      "nucleus": "135Pr (A~130)",
+      "mode_type": "transverse",
+      "quasiparticle_j": 5.5,
+      "J_m": 25.0,
+      "J_s": 15.5,
+      "J_l": 8.0,
+      "I_crit_bifurcation": 14.5,
+      "states": [
+        {
+          "spin": 8.5,
+          "lambda_theta": 3.661,
+          "lambda_phi": 25.688,
+          "omega_w_keV": 387.9,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "stable-wobbling"
+        },
+        {
+          "spin": 10.5,
+          "lambda_theta": 2.435,
+          "lambda_phi": 27.688,
+          "omega_w_keV": 328.5,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "stable-wobbling"
+        },
+        {
+          "spin": 12.5,
+          "lambda_theta": 1.21,
+          "lambda_phi": 29.688,
+          "omega_w_keV": 239.7,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "stable-wobbling"
+        },
+        {
+          "spin": 14.5,
+          "lambda_theta": -0.016,
+          "lambda_phi": 31.688,
+          "omega_w_keV": 0.0,
+          "theta_0_tilt_deg": 25.7,
+          "regime": "tilted-precession-TiP"
+        },
+        {
+          "spin": 16.5,
+          "lambda_theta": -1.242,
+          "lambda_phi": 33.688,
+          "omega_w_keV": 0.0,
+          "theta_0_tilt_deg": 90.0,
+          "regime": "tilted-precession-TiP"
+        },
+        {
+          "spin": 18.5,
+          "lambda_theta": -2.468,
+          "lambda_phi": 35.688,
+          "omega_w_keV": 0.0,
+          "theta_0_tilt_deg": 90.0,
+          "regime": "tilted-precession-TiP"
+        }
+      ]
+    },
+    "187Au": {
+      "nucleus": "187Au (A~190)",
+      "mode_type": "longitudinal",
+      "quasiparticle_j": 4.5,
+      "J_m": 32.0,
+      "J_s": 24.0,
+      "J_l": 12.0,
+      "I_crit_bifurcation": 13.5,
+      "states": [
+        {
+          "spin": 7.5,
+          "lambda_theta": 2.0,
+          "lambda_phi": -8.0,
+          "omega_w_keV": 0.0,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "tilted-precession-TiP"
+        },
+        {
+          "spin": 9.5,
+          "lambda_theta": 1.333,
+          "lambda_phi": -11.333,
+          "omega_w_keV": 0.0,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "tilted-precession-TiP"
+        },
+        {
+          "spin": 11.5,
+          "lambda_theta": 0.667,
+          "lambda_phi": -14.667,
+          "omega_w_keV": 0.0,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "tilted-precession-TiP"
+        },
+        {
+          "spin": 13.5,
+          "lambda_theta": 0.0,
+          "lambda_phi": -18.0,
+          "omega_w_keV": 0.0,
+          "theta_0_tilt_deg": 0.0,
+          "regime": "tilted-precession-TiP"
+        },
+        {
+          "spin": 15.5,
+          "lambda_theta": -0.667,
+          "lambda_phi": -21.333,
+          "omega_w_keV": 0.0,
+          "theta_0_tilt_deg": 90.0,
+          "regime": "tilted-precession-TiP"
+        },
+        {
+          "spin": 17.5,
+          "lambda_theta": -1.333,
+          "lambda_phi": -24.667,
+          "omega_w_keV": 0.0,
+          "theta_0_tilt_deg": 90.0,
+          "regime": "tilted-precession-TiP"
+        }
+      ]
+    }
+  },
+  "evidence_boundaries": {
+    "model_type": "3D-TAC Routhian curvature Hessian matrix + pitchfork bifurcation tracking",
+    "empirical_inputs": [
+      "Frauendorf & Donau, PRC 89, 014322 (2014) for 135Pr critical spin 29/2 hbar and HFA formulas",
+      "Odegard et al., PRL 86, 5866 (2001) for 163Lu TSD wobbling stability",
+      "Sensharma et al., PRL 124, 052501 (2020) and Guo et al., PLB 828, 137010 (2022) for 187Au"
+    ],
+    "limitations": "Model assumes harmonic expansion around principal axis; full cranked Relativistic Mean Field (CRMF) across a continuous 3D mesh gives non-harmonic profile near the separatrix."
+  }
+}
