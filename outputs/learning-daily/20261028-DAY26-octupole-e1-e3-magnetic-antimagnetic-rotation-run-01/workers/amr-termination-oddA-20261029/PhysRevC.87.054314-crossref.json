@@ -1,0 +1,476 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        17
+      ]
+    ],
+    "date-time": "2026-10-17T06:02:06Z",
+    "timestamp": 1792216926784,
+    "version": "4.4.0"
+  },
+  "reference-count": 47,
+  "publisher": "American Physical Society (APS)",
+  "issue": "5",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            5,
+            15
+          ]
+        ],
+        "date-time": "2013-05-15T00:00:00Z",
+        "timestamp": 1368576000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://link.aps.org/licenses/aps-default-license"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Phys. Rev. C"
+  ],
+  "DOI": "10.1103/physrevc.87.054314",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        15
+      ]
+    ],
+    "date-time": "2013-05-15T17:30:09Z",
+    "timestamp": 1368639009000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 27,
+  "title": [
+    "Nuclear superfluidity for antimagnetic rotation in\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:msup>\n                        <mml:mrow/>\n                        <mml:mn>105</mml:mn>\n                      </mml:msup>\n                    </mml:math>\n                    Cd and\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:msup>\n                        <mml:mrow/>\n                        <mml:mn>106</mml:mn>\n                      </mml:msup>\n                    </mml:math>\n                    Cd"
+  ],
+  "prefix": "10.1103",
+  "volume": "87",
+  "author": [
+    {
+      "given": "Zhen-Hua",
+      "family": "Zhang",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peng-Wei",
+      "family": "Zhao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jie",
+      "family": "Meng",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jin-Yan",
+      "family": "Zeng",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "En-Guang",
+      "family": "Zhao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Shan-Gui",
+      "family": "Zhou",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "16",
+  "published-online": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        15
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "PhysRevC.87.054314Cc1R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ppnp.2004.06.002"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc2R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1146/annurev.nucl.50.1.1"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc3R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/RevModPhys.73.463"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc4R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11467-013-0287-y"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc5R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0375-9474(93)90546-A"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc6R1",
+      "volume-title": "Proceedings of the Conference on Physics from Large γ-Ray Detector Arrays",
+      "author": "S. Frauendorf",
+      "year": "1994"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc7R1",
+      "volume-title": "Proceedings of the Workshop on Gammasphere Physics, Berkeley, 1995",
+      "author": "S. Frauendorf",
+      "year": "1996"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc8R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.82.061308"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc9R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.91.162501"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc10R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.72.024318"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc11R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.71.041305"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc12R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.physletb.2010.10.018"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc13R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.87.034304"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc14R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.61.034318"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc15R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.64.041302"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc16R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.79.064321"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc17R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.86.034326"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc18R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.86.057305"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc19R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0375-9474(00)00308-0"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc20R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.78.024313"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc21R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.physletb.2011.03.068"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc22R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.107.122501"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc23R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.85.054310"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc24R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11433-012-4906-3"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc25R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.82.054319"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc26R1",
+      "doi-asserted-by": "crossref",
+      "first-page": "368",
+      "DOI": "10.7498/aps.42.368",
+      "volume": "42",
+      "author": "J. Meng",
+      "year": "1993",
+      "journal-title": "Acta Phys. Sin."
+    },
+    {
+      "key": "PhysRevC.87.054314Cc27R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF02769229"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc28R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0375-9474(97)00004-3"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc29R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0375-9474(83)90320-2"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc30R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.50.1388"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc31R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.50.746"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc32R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.66.067301"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc33R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.63.024305"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc34R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.66.024320"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc35R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.83.034323"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc36R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.nuclphysa.2004.02.007"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc37R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.nuclphysa.2008.10.008"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc38R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.80.034313"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc39R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.nuclphysa.2005.06.006"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc40R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.83.011304"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc41R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.85.014324"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc42R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.87.054308"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc43R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.39.666"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc44R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11467-005-0013-5"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc45R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0375-9474(01)01240-4"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc46R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.56.1795"
+    },
+    {
+      "key": "PhysRevC.87.054314Cc47R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0375-9474(69)90809-4"
+    }
+  ],
+  "container-title": [
+    "Physical Review C"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://link.aps.org/article/10.1103/PhysRevC.87.054314",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.87.054314/fulltext",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2022,
+        2,
+        16
+      ]
+    ],
+    "date-time": "2022-02-16T23:35:49Z",
+    "timestamp": 1645054549000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://link.aps.org/doi/10.1103/PhysRevC.87.054314"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        15
+      ]
+    ]
+  },
+  "references-count": 47,
+  "journal-issue": {
+    "issue": "5",
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          5
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1103/physrevc.87.054314",
+  "relation": {},
+  "ISSN": [
+    "0556-2813",
+    "1089-490X"
+  ],
+  "issn-type": [
+    {
+      "value": "0556-2813",
+      "type": "print"
+    },
+    {
+      "value": "1089-490X",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        15
+      ]
+    ]
+  },
+  "article-number": "054314"
+}

@@ -1,0 +1,59 @@
+{
+  "title": [
+    "New Isovector Collective Modes in Deformed Nuclei"
+  ],
+  "author": [
+    {
+      "given": "N. Lo",
+      "family": "Iudice",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "F.",
+      "family": "Palumbo",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published": {
+    "date-parts": [
+      [
+        1978,
+        11,
+        27
+      ]
+    ]
+  },
+  "volume": "41",
+  "issue": "22",
+  "page": "1532-1534",
+  "DOI": "10.1103/physrevlett.41.1532",
+  "link": [
+    {
+      "URL": "http://link.aps.org/article/10.1103/PhysRevLett.41.1532",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.41.1532/fulltext",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "abstract": null
+}

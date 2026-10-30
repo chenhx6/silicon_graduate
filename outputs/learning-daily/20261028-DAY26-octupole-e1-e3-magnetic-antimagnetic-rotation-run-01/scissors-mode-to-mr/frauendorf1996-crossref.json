@@ -1,0 +1,112 @@
+[
+  {
+    "title": [
+      "Analysis of nearly degenerate bands of spherical top molecules: Matrix elements of the vibrational-rotational Hamiltonian"
+    ],
+    "author": [
+      {
+        "given": "Daniel B.",
+        "family": "Litvin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Physics, The Pennsylvania State University, Berks Campus, Reading, Pennsylvania 19608"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kenneth",
+        "family": "Fox",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physics and Astronomy, The University of Tennessee, Knoxville, Tennessee 37916"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "DOI": "10.1063/1.443506",
+    "published": {
+      "date-parts": [
+        [
+          1982,
+          4,
+          15
+        ]
+      ]
+    },
+    "volume": "76",
+    "page": "3908-3912",
+    "link": [
+      {
+        "URL": "https://pubs.aip.org/aip/jcp/article-pdf/76/8/3908/18936207/3908_1_online.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://pubs.aip.org/aip/jcp/article-pdf/76/8/3908/18936207/3908_1_online.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "title": [
+      "Heart-shaped nuclei: Condensation of rotational-aligned octupole phonons"
+    ],
+    "author": [
+      {
+        "given": "S.",
+        "family": "Frauendorf",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "DOI": "10.1103/physrevc.77.021304",
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          2,
+          26
+        ]
+      ]
+    },
+    "volume": "77",
+    "page": null,
+    "link": [
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevC.77.021304",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.77.021304/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  }
+]

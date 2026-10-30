@@ -1,0 +1,34 @@
+{
+  "rejected_candidates": [
+    {
+      "url": "https://arxiv.org/pdf/nucl-ex/0312002",
+      "path": "tmp/day26-multi-band-shears-rejected/rejected-identity-arxiv0312002v1.pdf",
+      "sha256": "f43b37fd55c3365f0e5f0c841091f34433e4696171898b9f99248607c2bb44db",
+      "bytes": 566401,
+      "signature": "%PDF",
+      "version": "arXiv:nucl-ex/0312002 v1",
+      "raw_modified": false,
+      "status": "rejected-identity",
+      "reason": "PDF title is Structural effects in nuclide distributions from fission and fragmentation, unrelated to 141Eu. Candidate identifier was unverified; excluded from evidence.",
+      "actual_title": "Structural effects in nuclide distributions from fission and fragmentation",
+      "pages": 19,
+      "usable_for_claims": false
+    }
+  ],
+  "accepted": [
+    {
+      "doi": "10.1140/epja/i2004-10034-8",
+      "url": "https://link.springer.com/content/pdf/10.1140/epja/i2004-10034-8.pdf",
+      "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/multi-band-shears/141eu-springer.pdf",
+      "title": "Investigation of lifetimes in dipole bands of 141Eu",
+      "signature": "%PDF-1.4",
+      "pages": 6,
+      "bytes": 717914,
+      "sha256": "31dd323d75f9a178e653bc88426482e3970a27183770dfd1771b514bbccdd503",
+      "identity_status": "title-author-doi-match",
+      "reading_coverage": "pp.1-6; Table1/Figs1-4; references read for lineage",
+      "SI": "No SI link was identified in the retrieved six-page paper; not an exhaustive publisher attachment inventory."
+    }
+  ],
+  "raw_modified": false
+}

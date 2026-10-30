@@ -1,0 +1,520 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        5,
+        29
+      ]
+    ],
+    "date-time": "2026-05-29T13:44:37Z",
+    "timestamp": 1780062277656,
+    "version": "3.54.0"
+  },
+  "reference-count": 30,
+  "publisher": "American Physical Society (APS)",
+  "issue": "5",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2010,
+            5,
+            28
+          ]
+        ],
+        "date-time": "2010-05-28T00:00:00Z",
+        "timestamp": 1275004800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://link.aps.org/licenses/aps-default-license"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Phys. Rev. C"
+  ],
+  "DOI": "10.1103/physrevc.81.054322",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2010,
+        5,
+        28
+      ]
+    ],
+    "date-time": "2010-05-28T12:01:46Z",
+    "timestamp": 1275048106000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 22,
+  "title": [
+    "High spin spectroscopy and shears mechanism in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi mathvariant=\"normal\">In</mml:mi><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>107</mml:mn></mml:mrow></mml:mmultiscripts></mml:math>"
+  ],
+  "prefix": "10.1103",
+  "volume": "81",
+  "author": [
+    {
+      "given": "D.",
+      "family": "Negi",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "T.",
+      "family": "Trivedi",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "A.",
+      "family": "Dhal",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "S.",
+      "family": "Kumar",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "V.",
+      "family": "Kumar",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "S.",
+      "family": "Roy",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "M. K.",
+      "family": "Raju",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "S.",
+      "family": "Appannababu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "G.",
+      "family": "Mohanto",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "J.",
+      "family": "Kaur",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "R. K.",
+      "family": "Sinha",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "R.",
+      "family": "Kumar",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "R. P.",
+      "family": "Singh",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "S.",
+      "family": "Muralithar",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "A. K.",
+      "family": "Bhati",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "S. C.",
+      "family": "Pancholi",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "R. K.",
+      "family": "Bhowmik",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "16",
+  "published-online": {
+    "date-parts": [
+      [
+        2010,
+        5,
+        28
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "PhysRevC.81.054322Cc1R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/RevModPhys.73.463"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc2R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.73.034313"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc3R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.57.1634"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc4R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.79.067304"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc5R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0375-9474(97)00479-X"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc6R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.24.917"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc7R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s100500050157"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc8R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.58.3738"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc9R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1140/epja/i2009-10898-x"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc10R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.81.034303"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc11R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0168-9002(88)90530-X"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc12R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0168-9002(94)90208-9"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc13R1",
+      "volume-title": "Proceedings of Fourth International Conference on Fission and Properties of Neutron-Rich Nuclei, 2007",
+      "author": "R. K. Bhowmik",
+      "year": "2008"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc15R1",
+      "volume-title": "Proceedings on the Symposium on Advances in Nuclear and Allied Instruments, India, 1997",
+      "author": "B. P. Ajith Kumar",
+      "year": "1997"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc16R1",
+      "volume-title": "Proceedings of the DAE-BRNS Symposium on Nuclear Physics",
+      "author": "R. K. Bhowmik",
+      "year": "2001"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc17R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0168-9002(95)00183-2"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc18R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0375-9474(93)90606-X"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc19R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0168-9002(98)01220-0"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc20R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s12043-000-0126-x"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc22R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0092-640X(70)80016-X"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc23R1",
+      "volume-title": "Gamma-Ray and Electron Spectroscopy in Nuclear Physics",
+      "author": "H. Ejiri",
+      "year": "1989"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc24R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0375-9474(93)90553-A"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc25R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0375-9474(67)90510-6"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc26R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.64.054314"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc27R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0370-2693(98)00384-0"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc28R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.83.500"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc29R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.54.1598"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc30R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.80.1174"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc31R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.76.034323"
+    },
+    {
+      "key": "PhysRevC.81.054322Cc32R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.74.3935"
+    }
+  ],
+  "container-title": [
+    "Physical Review C"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://link.aps.org/article/10.1103/PhysRevC.81.054322",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.81.054322/fulltext",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2017,
+        4,
+        5
+      ]
+    ],
+    "date-time": "2017-04-05T15:47:26Z",
+    "timestamp": 1491407246000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://link.aps.org/doi/10.1103/PhysRevC.81.054322"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2010,
+        5,
+        28
+      ]
+    ]
+  },
+  "references-count": 30,
+  "journal-issue": {
+    "issue": "5",
+    "published-print": {
+      "date-parts": [
+        [
+          2010,
+          5
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1103/physrevc.81.054322",
+  "relation": {},
+  "ISSN": [
+    "0556-2813",
+    "1089-490X"
+  ],
+  "issn-type": [
+    {
+      "value": "0556-2813",
+      "type": "print"
+    },
+    {
+      "value": "1089-490X",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2010,
+        5,
+        28
+      ]
+    ]
+  },
+  "article-number": "054322"
+}

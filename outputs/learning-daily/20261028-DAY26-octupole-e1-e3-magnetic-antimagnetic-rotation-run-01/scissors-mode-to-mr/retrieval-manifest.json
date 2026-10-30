@@ -1,0 +1,37 @@
+[
+  {
+    "name": "heyde2010",
+    "url": "https://arxiv.org/pdf/1004.3429v2",
+    "status": 200,
+    "bytes": 3491524,
+    "signature": "%PDF-1.4",
+    "valid_pdf_signature": true,
+    "pdfinfo": "Title:           BranchingRatios.eps\nSubject:         gnuplot plot\nKeywords:        \nAuthor:          Anna Maria Heilmann,,,\nCreator:         gnuplot 4.3 patchlevel 0\nProducer:        dvips + GPL Ghostscript GIT PRERELEASE 9.22\nCreationDate:    Fri Feb 26 15:59:05 2010\nModDate:         Fri Nov  2 23:55:02 2018 CST\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           59\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       3491524 bytes\nOptimized:       no\nPDF version:     1.4\n",
+    "sha256": "a50d7385dc59eb5799328f385a46a9ae0499807ed7fa2d9e2249d9614b1c5aa5",
+    "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/heyde2010.pdf",
+    "identity": "Page1 title and three authors match; PDF embedded metadata title is a plot filename, not bibliographic identity.",
+    "reading_coverage": "Focused pp1-7 and p58 bibliography; not all59pages."
+  },
+  {
+    "name": "cr50-2016",
+    "url": "https://arxiv.org/pdf/1601.01905v1",
+    "status": 200,
+    "bytes": 377326,
+    "signature": "%PDF-1.4",
+    "valid_pdf_signature": true,
+    "pdfinfo": "Title:           \nSubject:         \nKeywords:        \nAuthor:          \nCreator:         LaTeX with hyperref package\nProducer:        dvips + GPL Ghostscript GIT PRERELEASE 9.22\nCreationDate:    Mon Sep 17 17:49:49 2018 CST\nModDate:         Mon Sep 17 17:49:49 2018 CST\nCustom Metadata: no\nMetadata Stream: yes\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           10\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       377326 bytes\nOptimized:       no\nPDF version:     1.4\n",
+    "sha256": "aec3ddaf120312d487c3f3a627323bc7904343c03b7e1ab8f234bb5259fe8ff7",
+    "path": "outputs/learning-daily/20261028-DAY26-octupole-e1-e3-magnetic-antimagnetic-rotation-run-01/scissors-mode-to-mr/cr50-2016.pdf",
+    "identity": "Page1 title/authors and arXiv citation DOI match.",
+    "reading_coverage": "Focused pp1-2,4-7,9; TablesI-III/Figs6-8 consulted; not claimed all10pages.",
+    "doi": "10.1103/PhysRevC.93.014318"
+  },
+  {
+    "name": "loiudice1978",
+    "url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.41.1532",
+    "status": 403,
+    "bytes": 5565,
+    "signature": "<!DOCTYP",
+    "valid_pdf_signature": false
+  }
+]

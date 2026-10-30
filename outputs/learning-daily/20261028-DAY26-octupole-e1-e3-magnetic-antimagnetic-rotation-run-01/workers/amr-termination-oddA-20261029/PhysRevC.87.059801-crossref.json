@@ -1,0 +1,241 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        17
+      ]
+    ],
+    "date-time": "2026-09-17T18:50:03Z",
+    "timestamp": 1789671003855,
+    "version": "4.0.1"
+  },
+  "reference-count": 11,
+  "publisher": "American Physical Society (APS)",
+  "issue": "5",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            5,
+            3
+          ]
+        ],
+        "date-time": "2013-05-03T00:00:00Z",
+        "timestamp": 1367539200000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://link.aps.org/licenses/aps-default-license"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Phys. Rev. C"
+  ],
+  "DOI": "10.1103/physrevc.87.059801",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        3
+      ]
+    ],
+    "date-time": "2013-05-03T15:17:01Z",
+    "timestamp": 1367594221000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 11,
+  "title": [
+    "Comment on “Evidence of antimagnetic rotation in odd-\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:mi>A</mml:mi>\n                    </mml:math>\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n                      <mml:msup>\n                        <mml:mrow/>\n                        <mml:mn>105</mml:mn>\n                      </mml:msup>\n                    </mml:math>\n                    Cd”"
+  ],
+  "prefix": "10.1103",
+  "volume": "87",
+  "author": [
+    {
+      "given": "Santosh",
+      "family": "Roy",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "S.",
+      "family": "Chattopadhyay",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "16",
+  "published-online": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        3
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "PhysRevC.87.059801Cc1R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.82.061308"
+    },
+    {
+      "key": "PhysRevC.87.059801Cc2R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.91.162501"
+    },
+    {
+      "key": "PhysRevC.87.059801Cc3R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.71.041305"
+    },
+    {
+      "key": "PhysRevC.87.059801Cc4R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.72.024318"
+    },
+    {
+      "key": "PhysRevC.87.059801Cc5R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.57.R1073"
+    },
+    {
+      "key": "PhysRevC.87.059801Cc6R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevLett.82.3220"
+    },
+    {
+      "key": "PhysRevC.87.059801Cc7R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1146/annurev.nucl.50.1.1"
+    },
+    {
+      "key": "PhysRevC.87.059801Cc8R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.physletb.2010.10.018"
+    },
+    {
+      "key": "PhysRevC.87.059801Cc9R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.83.024305"
+    },
+    {
+      "key": "PhysRevC.87.059801Cc10R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.81.054311"
+    },
+    {
+      "key": "PhysRevC.87.059801Cc11R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1103/PhysRevC.79.064321"
+    }
+  ],
+  "container-title": [
+    "Physical Review C"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "http://link.aps.org/article/10.1103/PhysRevC.87.059801",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.87.059801/fulltext",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2017,
+        4,
+        5
+      ]
+    ],
+    "date-time": "2017-04-05T14:08:02Z",
+    "timestamp": 1491401282000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://link.aps.org/doi/10.1103/PhysRevC.87.059801"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        3
+      ]
+    ]
+  },
+  "references-count": 11,
+  "journal-issue": {
+    "issue": "5",
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          5
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1103/physrevc.87.059801",
+  "relation": {},
+  "ISSN": [
+    "0556-2813",
+    "1089-490X"
+  ],
+  "issn-type": [
+    {
+      "value": "0556-2813",
+      "type": "print"
+    },
+    {
+      "value": "1089-490X",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2013,
+        5,
+        3
+      ]
+    ]
+  },
+  "article-number": "059801"
+}

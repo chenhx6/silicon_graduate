@@ -1,0 +1,262 @@
+{
+  "kind": "synthetic-demonstration-not-fit",
+  "configurations": {
+    "a": {
+      "jp": 11.0,
+      "jn": 14.5,
+      "V2": 1.2,
+      "delta_g": 0.7,
+      "Q": 0.5
+    },
+    "b": {
+      "jp": 11.0,
+      "jn": 18.5,
+      "V2": 1.8,
+      "delta_g": 0.7,
+      "Q": 0.5
+    }
+  },
+  "crossing_spin_hbar": 24.5,
+  "W_MeV": 0.04,
+  "offset_b_MeV": 1.2740321578349314,
+  "minimum_continuous_gap_MeV": 0.08,
+  "evidence_boundary": "No experimental V2, W, mixing angle or isotope-specific fit is inferred.",
+  "records": [
+    {
+      "I_hbar": 22.5,
+      "bare_E_MeV": [
+        -0.05828952152592841,
+        0.4041699793732444
+      ],
+      "mixed_E_MeV": [
+        -0.06172378087115055,
+        0.40760423871846657
+      ],
+      "lower_a_probability": 0.9926826032074002,
+      "gap_MeV": 0.4693280195896171,
+      "theta_deg": {
+        "a": 56.729710356622526,
+        "b": 83.93531917129862
+      },
+      "transitions": {
+        "M1": {
+          "I_final_hbar": 21.5,
+          "pure_B": [
+            2.0546690946572888,
+            4.7311459416450745
+          ],
+          "mixed_B_final_rows_initial_columns": [
+            [
+              2.0640556920691715,
+              3.846200169326643e-05
+            ],
+            [
+              0.010198245683730988,
+              4.7115226365477625
+            ]
+          ],
+          "sum_all_mixed_B": 6.785815036302358,
+          "sum_all_pure_B": 6.785815036302363,
+          "assumptions": "Real positive diagonal kernels; off-diagonal kernels zero; independent mixing at initial and final spins."
+        },
+        "E2": {
+          "I_final_hbar": 20.5,
+          "pure_B": [
+            0.0031440504270249707,
+            0.016670108089965333
+          ],
+          "mixed_B_final_rows_initial_columns": [
+            [
+              0.0031715420766153645,
+              1.3103641996121156e-06
+            ],
+            [
+              7.148388136892028e-05,
+              0.016569822194806395
+            ]
+          ],
+          "sum_all_mixed_B": 0.019814158516990293,
+          "sum_all_pure_B": 0.019814158516990303,
+          "assumptions": "Real positive diagonal kernels; off-diagonal kernels zero; independent mixing at initial and final spins."
+        }
+      }
+    },
+    {
+      "I_hbar": 23.5,
+      "bare_E_MeV": [
+        0.26392429319680416,
+        0.5031406945601757
+      ],
+      "mixed_E_MeV": [
+        0.25741302008355843,
+        0.5096519676734215
+      ],
+      "lower_a_probability": 0.9741860914999021,
+      "gap_MeV": 0.25223894758986304,
+      "theta_deg": {
+        "a": 46.148633144610066,
+        "b": 77.36888330328577
+      },
+      "transitions": {
+        "M1": {
+          "I_final_hbar": 22.5,
+          "pure_B": [
+            1.401204730079443,
+            4.176289109334285
+          ],
+          "mixed_B_final_rows_initial_columns": [
+            [
+              1.4212239355042868,
+              0.00028718811110764757
+            ],
+            [
+              0.051616568821291016,
+              4.104366146977042
+            ]
+          ],
+          "sum_all_mixed_B": 5.5774938394137274,
+          "sum_all_pure_B": 5.577493839413728,
+          "assumptions": "Real positive diagonal kernels; off-diagonal kernels zero; independent mixing at initial and final spins."
+        },
+        "E2": {
+          "I_final_hbar": 21.5,
+          "pure_B": [
+            0.0014622071909159652,
+            0.012989332598860466
+          ],
+          "mixed_B_final_rows_initial_columns": [
+            [
+              0.001502505029285433,
+              2.9427135115571793e-07
+            ],
+            [
+              0.0002572623221803666,
+              0.012691478166959475
+            ]
+          ],
+          "sum_all_mixed_B": 0.014451539789776431,
+          "sum_all_pure_B": 0.014451539789776431,
+          "assumptions": "Real positive diagonal kernels; off-diagonal kernels zero; independent mixing at initial and final spins."
+        }
+      }
+    },
+    {
+      "I_hbar": 24.5,
+      "bare_E_MeV": [
+        0.6799579406648911,
+        0.6799579406648912
+      ],
+      "mixed_E_MeV": [
+        0.6399579406648911,
+        0.7199579406648913
+      ],
+      "lower_a_probability": 0.5000000000000007,
+      "gap_MeV": 0.08000000000000018,
+      "theta_deg": {
+        "a": 32.51399418923207,
+        "b": 70.32956937783203
+      },
+      "transitions": {
+        "M1": {
+          "I_final_hbar": 23.5,
+          "pure_B": [
+            0.7161972439135289,
+            3.578062965510854
+          ],
+          "mixed_B_final_rows_initial_columns": [
+            [
+              0.6488930157427272,
+              0.14118016804768221
+            ],
+            [
+              1.498237088969463,
+              2.0059499366645115
+            ]
+          ],
+          "sum_all_mixed_B": 4.294260209424384,
+          "sum_all_pure_B": 4.294260209424383,
+          "assumptions": "Real positive diagonal kernels; off-diagonal kernels zero; independent mixing at initial and final spins."
+        },
+        "E2": {
+          "I_final_hbar": 22.5,
+          "pure_B": [
+            0.0003820067323159516,
+            0.009534582560502838
+          ],
+          "mixed_B_final_rows_initial_columns": [
+            [
+              0.00038714579471571265,
+              6.183396660943762e-05
+            ],
+            [
+              0.0045711488516936745,
+              0.004896460679799961
+            ]
+          ],
+          "sum_all_mixed_B": 0.009916589292818787,
+          "sum_all_pure_B": 0.00991658929281879,
+          "assumptions": "Real positive diagonal kernels; off-diagonal kernels zero; independent mixing at initial and final spins."
+        }
+      }
+    },
+    {
+      "I_hbar": 25.5,
+      "bare_E_MeV": [
+        1.2,
+        0.944010244029234
+      ],
+      "mixed_E_MeV": [
+        0.9379055739523915,
+        1.2061046700768423
+      ],
+      "lower_a_probability": 0.022761710106620273,
+      "gap_MeV": 0.2681990961244508,
+      "theta_deg": {
+        "a": 0.0,
+        "b": 62.647767090871355
+      },
+      "transitions": {
+        "M1": {
+          "I_final_hbar": 24.5,
+          "pure_B": [
+            0.0,
+            2.938639072085337
+          ],
+          "mixed_B_final_rows_initial_columns": [
+            [
+              1.43587531070927,
+              0.033444225333396985
+            ],
+            [
+              1.4358753107092737,
+              0.03344422533339706
+            ]
+          ],
+          "sum_all_mixed_B": 2.938639072085338,
+          "sum_all_pure_B": 2.938639072085337,
+          "assumptions": "Real positive diagonal kernels; off-diagonal kernels zero; independent mixing at initial and final spins."
+        },
+        "E2": {
+          "I_final_hbar": 23.5,
+          "pure_B": [
+            0.0,
+            0.006431291925804848
+          ],
+          "mixed_B_final_rows_initial_columns": [
+            [
+              0.00016223795546112984,
+              3.778825849015707e-06
+            ],
+            [
+              0.006122666767917503,
+              0.0001426083765772019
+            ]
+          ],
+          "sum_all_mixed_B": 0.00643129192580485,
+          "sum_all_pure_B": 0.006431291925804848,
+          "assumptions": "Real positive diagonal kernels; off-diagonal kernels zero; independent mixing at initial and final spins."
+        }
+      }
+    }
+  ]
+}

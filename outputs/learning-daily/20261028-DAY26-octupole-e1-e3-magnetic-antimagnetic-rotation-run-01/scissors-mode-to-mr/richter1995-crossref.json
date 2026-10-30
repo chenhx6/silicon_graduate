@@ -1,0 +1,90 @@
+[
+  {
+    "title": [
+      "Probing the nuclear magnetic dipole response with electrons, photons and hadrons"
+    ],
+    "author": [
+      {
+        "given": "A.",
+        "family": "Richter",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "DOI": "10.1016/0146-6410(95)00022-b",
+    "published": {
+      "date-parts": [
+        [
+          1995,
+          1
+        ]
+      ]
+    },
+    "volume": "34",
+    "page": "261-284",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:014664109500022B?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:014664109500022B?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  },
+  {
+    "title": [
+      "Magnetic excitations in deformed nuclei"
+    ],
+    "author": [
+      {
+        "given": "R.",
+        "family": "Nojarov",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "DOI": "10.1016/0146-6410(95)00025-e",
+    "published": {
+      "date-parts": [
+        [
+          1995,
+          1
+        ]
+      ]
+    },
+    "volume": "34",
+    "page": "297-307",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:014664109500025E?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:014664109500025E?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "route": "141eu-springer",
+    "url": "https://link.springer.com/content/pdf/10.1140/epja/i2004-10034-8.pdf",
+    "status": 200,
+    "bytes": 717914,
+    "content_type": "application/pdf",
+    "pdf_signature": true
+  },
+  {
+    "route": "139sm-elsevier",
+    "url": "https://api.elsevier.com/content/article/pii/S0370269396012026?httpAccept=application/pdf",
+    "status": 406,
+    "bytes": 162,
+    "content_type": "text/xml",
+    "pdf_signature": false
+  },
+  {
+    "route": "141eu-juelich",
+    "url": "https://juser.fz-juelich.de/search?p=title%3A%22Investigation+of+lifetimes+in+dipole+bands+of%22&of=recjson",
+    "status": 200,
+    "bytes": 248,
+    "content_type": "text/html; charset=UTF-8",
+    "pdf_signature": false
+  }
+]

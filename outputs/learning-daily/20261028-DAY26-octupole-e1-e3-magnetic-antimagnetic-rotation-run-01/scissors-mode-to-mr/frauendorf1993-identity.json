@@ -1,0 +1,46 @@
+{
+  "title": [
+    "Tilted cranking"
+  ],
+  "author": [
+    {
+      "given": "S.",
+      "family": "Frauendorf",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "published": {
+    "date-parts": [
+      [
+        1993,
+        5
+      ]
+    ]
+  },
+  "volume": "557",
+  "issue": null,
+  "page": "259-276",
+  "DOI": "10.1016/0375-9474(93)90546-a",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:037594749390546A?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:037594749390546A?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "abstract": null
+}

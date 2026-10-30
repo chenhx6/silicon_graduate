@@ -1,0 +1,82 @@
+[
+  {
+    "title": [
+      "Spontaneous-Symmetry Breaking and Gamow-Teller States"
+    ],
+    "author": [
+      {
+        "given": "F. C.",
+        "family": "Khanna",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "H. X.",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "Umezawa",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "DOI": "10.1007/978-1-4615-3834-9_17",
+    "published": {
+      "date-parts": [
+        [
+          1991
+        ]
+      ]
+    },
+    "volume": null,
+    "page": "195-206",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/978-1-4615-3834-9_17.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  {
+    "title": [
+      "Other Aspects of Spontaneous Symmetry Breaking"
+    ],
+    "author": null,
+    "DOI": "10.1017/9781009575782.026",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          3
+        ]
+      ]
+    },
+    "volume": null,
+    "page": "333-343",
+    "link": null
+  }
+]
