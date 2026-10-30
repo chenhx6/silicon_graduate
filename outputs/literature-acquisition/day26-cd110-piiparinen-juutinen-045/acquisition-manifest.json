@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-10-28T16:28:07.170630+00:00",
+  "scope": "legal acquisition probe; no paywall bypass",
+  "records": [
+    {
+      "doi": "10.1016/0375-9474(93)90052-Y",
+      "title": "Lifetimes of yrast states in 110Cd",
+      "url": "https://doi.org/10.1016/0375-9474(93)90052-Y",
+      "kind": "doi",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/037594749390052Y",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 2646,
+      "pdf_signature": "\n\n\n\n\n",
+      "sha256": "7f8e15ee84156da17ff363a1a6e3a36979fb475380d1aa2c0874c54e626049cf"
+    },
+    {
+      "doi": "10.1016/0375-9474(93)90052-Y",
+      "title": "Lifetimes of yrast states in 110Cd",
+      "url": "https://www.sciencedirect.com/science/article/pii/037594749390052Y/pdfft",
+      "kind": "pdf",
+      "http_status": 403,
+      "final_url": "https://www.sciencedirect.com/science/article/pii/037594749390052Y/pdfft",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 832804,
+      "pdf_signature": "<!DOC",
+      "sha256": "24b3bab3c367b26a1a99412fa5185b6539b92eaaa633ddaaa9fed7fdc2f1c9d5"
+    },
+    {
+      "doi": "10.1016/0375-9474(94)90173-2",
+      "title": "Gamma-ray spectroscopy of 110Cd",
+      "url": "https://doi.org/10.1016/0375-9474(94)90173-2",
+      "kind": "doi",
+      "http_status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/0375947494901732",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 2643,
+      "pdf_signature": "\n\n\n\n\n",
+      "sha256": "655c3c5025f3547a34baec8e4d3ed5b889cf5be986305e284fc3af650e8f21a2"
+    },
+    {
+      "doi": "10.1016/0375-9474(94)90173-2",
+      "title": "Gamma-ray spectroscopy of 110Cd",
+      "url": "https://www.sciencedirect.com/science/article/pii/0375947494901732/pdfft",
+      "kind": "pdf",
+      "http_status": 403,
+      "final_url": "https://www.sciencedirect.com/science/article/pii/0375947494901732/pdfft",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 832804,
+      "pdf_signature": "<!DOC",
+      "sha256": "6e0a80009402f6a33f6dda220726fc929763b6938edc05783615f3a104a3173f"
+    }
+  ],
+  "reading_coverage": {
+    "fulltext_obtained": false,
+    "pages_read": 0,
+    "locators": []
+  },
+  "evidence_boundary": "Crossref metadata retrieved; Elsevier landing resolves, PDF endpoint returned access-denied HTML. No lifetime, feeding, or B(E2) values newly read or certified.",
+  "repository_checks": [
+    {
+      "service": "OpenAlex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/0375-9474(93)90052-Y",
+      "http_status": 200,
+      "is_oa": false,
+      "oa_status": "closed",
+      "any_repository_has_fulltext": false,
+      "best_oa_location": null
+    },
+    {
+      "service": "OpenAlex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/0375-9474(94)90173-2",
+      "http_status": 200,
+      "is_oa": false,
+      "oa_status": "closed",
+      "any_repository_has_fulltext": false,
+      "best_oa_location": null
+    }
+  ]
+}
