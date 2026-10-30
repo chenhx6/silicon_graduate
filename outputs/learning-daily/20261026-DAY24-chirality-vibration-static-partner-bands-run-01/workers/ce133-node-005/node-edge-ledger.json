@@ -1,0 +1,351 @@
+{
+  "task": "ce133-node-005",
+  "created_utc": "2026-10-26T11:34:16.088277+00:00",
+  "source": {
+    "file": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "pages": 130,
+    "source_page": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md"
+  },
+  "status": "source-grounded-worker-candidate; needs_review true; no human-review claim",
+  "scope": "9 nodes and9 printed edges in three Band4 parent decay neighborhoods; not complete branching inventory",
+  "nodes": [
+    {
+      "node_id": "WK22-B1-0037p2-9m2",
+      "nucleus": "133Ce",
+      "band_label_scope": "Wakudyanaye2022 Fig5.1",
+      "band_label": 1,
+      "Ex_keV": 37.2,
+      "Jpi": "9/2-",
+      "identity_evidence": "energy-derived from Table5.1 207.4-170.2; Fig5.1 prints37",
+      "Ex_uncertainty_keV": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "node_id": "WK22-B1-0207p4-11m2",
+      "nucleus": "133Ce",
+      "band_label_scope": "Wakudyanaye2022 Fig5.1",
+      "band_label": 1,
+      "Ex_keV": 207.4,
+      "Jpi": "11/2-",
+      "identity_evidence": "Table5.1",
+      "Ex_uncertainty_keV": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "node_id": "WK22-B1-0592p1-13m2",
+      "nucleus": "133Ce",
+      "band_label_scope": "Wakudyanaye2022 Fig5.1",
+      "band_label": 1,
+      "Ex_keV": 592.1,
+      "Jpi": "13/2-",
+      "identity_evidence": "Table5.1",
+      "Ex_uncertainty_keV": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "node_id": "WK22-B1-0827p1-15m2",
+      "nucleus": "133Ce",
+      "band_label_scope": "Wakudyanaye2022 Fig5.1",
+      "band_label": 1,
+      "Ex_keV": 827.1,
+      "Jpi": "15/2-",
+      "identity_evidence": "Table5.1",
+      "Ex_uncertainty_keV": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "node_id": "WK22-B1-1344p7-17m2",
+      "nucleus": "133Ce",
+      "band_label_scope": "Wakudyanaye2022 Fig5.1",
+      "band_label": 1,
+      "Ex_keV": 1344.7,
+      "Jpi": "17/2-",
+      "identity_evidence": "Table5.1",
+      "Ex_uncertainty_keV": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "node_id": "WK22-B4-0832p0-13m2",
+      "nucleus": "133Ce",
+      "band_label_scope": "Wakudyanaye2022 Fig5.1",
+      "band_label": 4,
+      "Ex_keV": 832.0,
+      "Jpi": "13/2-",
+      "identity_evidence": "Table5.2",
+      "Ex_uncertainty_keV": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "node_id": "WK22-B4-1200p8-15m2",
+      "nucleus": "133Ce",
+      "band_label_scope": "Wakudyanaye2022 Fig5.1",
+      "band_label": 4,
+      "Ex_keV": 1200.8,
+      "Jpi": "15/2-",
+      "identity_evidence": "Table5.2",
+      "Ex_uncertainty_keV": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "node_id": "WK22-B4-1409p8-17m2",
+      "nucleus": "133Ce",
+      "band_label_scope": "Wakudyanaye2022 Fig5.1",
+      "band_label": 4,
+      "Ex_keV": 1409.8,
+      "Jpi": "17/2-",
+      "identity_evidence": "Table5.2",
+      "Ex_uncertainty_keV": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "node_id": "WK22-B4-1809p1-19m2",
+      "nucleus": "133Ce",
+      "band_label_scope": "Wakudyanaye2022 Fig5.1",
+      "band_label": 4,
+      "Ex_keV": 1809.1,
+      "Jpi": "19/2-",
+      "identity_evidence": "Table5.2",
+      "Ex_uncertainty_keV": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "WK22-B4-832.0-to-B1-207.4-Eg624.6",
+      "parent_node_id": "WK22-B4-0832p0-13m2",
+      "daughter_node_id": "WK22-B1-0207p4-11m2",
+      "Egamma_keV": 624.6,
+      "I_gamma_printed": "3.3(4)",
+      "multipolarity_printed": "M1+E2",
+      "role": "target-625",
+      "source_locator": {
+        "pdf_page": 67,
+        "printed_page": 56,
+        "table": "5.2",
+        "block": "interband",
+        "row_in_block": 1
+      },
+      "observed_in_thesis_table": true,
+      "branch_probability": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "edge_id": "WK22-B4-832.0-to-B1-37.2-Eg794.8",
+      "parent_node_id": "WK22-B4-0832p0-13m2",
+      "daughter_node_id": "WK22-B1-0037p2-9m2",
+      "Egamma_keV": 794.8,
+      "I_gamma_printed": "8.0(14)",
+      "multipolarity_printed": "E2",
+      "role": "out/out-reference-candidate-for-625",
+      "source_locator": {
+        "pdf_page": 67,
+        "printed_page": 56,
+        "table": "5.2",
+        "block": "interband",
+        "row_in_block": 2
+      },
+      "observed_in_thesis_table": true,
+      "branch_probability": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "edge_id": "WK22-B4-1409.8-to-B4-1200.8-Eg209.0",
+      "parent_node_id": "WK22-B4-1409p8-17m2",
+      "daughter_node_id": "WK22-B4-1200p8-15m2",
+      "Egamma_keV": 209.0,
+      "I_gamma_printed": "5.5(6)",
+      "multipolarity_printed": "M1+E2",
+      "role": "other-listed-parent-outlet",
+      "source_locator": {
+        "pdf_page": 67,
+        "printed_page": 56,
+        "table": "5.2",
+        "block": "intraband",
+        "row_in_block": 2
+      },
+      "observed_in_thesis_table": true,
+      "branch_probability": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "edge_id": "WK22-B4-1409.8-to-B4-832.0-Eg577.8",
+      "parent_node_id": "WK22-B4-1409p8-17m2",
+      "daughter_node_id": "WK22-B4-0832p0-13m2",
+      "Egamma_keV": 577.8,
+      "I_gamma_printed": "3.22(21)",
+      "multipolarity_printed": "E2",
+      "role": "out/in-reference-candidate-for-582",
+      "source_locator": {
+        "pdf_page": 67,
+        "printed_page": 56,
+        "table": "5.2",
+        "block": "intraband",
+        "row_in_block": 3
+      },
+      "observed_in_thesis_table": true,
+      "branch_probability": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "edge_id": "WK22-B4-1409.8-to-B1-827.1-Eg582.7",
+      "parent_node_id": "WK22-B4-1409p8-17m2",
+      "daughter_node_id": "WK22-B1-0827p1-15m2",
+      "Egamma_keV": 582.7,
+      "I_gamma_printed": "3.53(25)",
+      "multipolarity_printed": "M1+E2",
+      "role": "target-582",
+      "source_locator": {
+        "pdf_page": 67,
+        "printed_page": 56,
+        "table": "5.2",
+        "block": "interband",
+        "row_in_block": 5
+      },
+      "observed_in_thesis_table": true,
+      "branch_probability": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "edge_id": "WK22-B4-1809.1-to-B4-1409.8-Eg399.3",
+      "parent_node_id": "WK22-B4-1809p1-19m2",
+      "daughter_node_id": "WK22-B4-1409p8-17m2",
+      "Egamma_keV": 399.3,
+      "I_gamma_printed": "1.66(18)",
+      "multipolarity_printed": "M1+E2",
+      "role": "other-listed-parent-outlet",
+      "source_locator": {
+        "pdf_page": 67,
+        "printed_page": 56,
+        "table": "5.2",
+        "block": "intraband",
+        "row_in_block": 4
+      },
+      "observed_in_thesis_table": true,
+      "branch_probability": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "edge_id": "WK22-B4-1809.1-to-B4-1200.8-Eg608.3",
+      "parent_node_id": "WK22-B4-1809p1-19m2",
+      "daughter_node_id": "WK22-B4-1200p8-15m2",
+      "Egamma_keV": 608.3,
+      "I_gamma_printed": "1.89(18)",
+      "multipolarity_printed": "E2",
+      "role": "out/in-reference-candidate-for-465",
+      "source_locator": {
+        "pdf_page": 67,
+        "printed_page": 56,
+        "table": "5.2",
+        "block": "intraband",
+        "row_in_block": 5
+      },
+      "observed_in_thesis_table": true,
+      "branch_probability": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "edge_id": "WK22-B4-1809.1-to-B1-1344.7-Eg464.4",
+      "parent_node_id": "WK22-B4-1809p1-19m2",
+      "daughter_node_id": "WK22-B1-1344p7-17m2",
+      "Egamma_keV": 464.4,
+      "I_gamma_printed": "1.89(18)",
+      "multipolarity_printed": "M1+E2",
+      "role": "target-465",
+      "source_locator": {
+        "pdf_page": 67,
+        "printed_page": 56,
+        "table": "5.2",
+        "block": "interband",
+        "row_in_block": 6
+      },
+      "observed_in_thesis_table": true,
+      "branch_probability": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    },
+    {
+      "edge_id": "WK22-B4-1809.1-to-B1-827.1-Eg982.0",
+      "parent_node_id": "WK22-B4-1809p1-19m2",
+      "daughter_node_id": "WK22-B1-0827p1-15m2",
+      "Egamma_keV": 982.0,
+      "I_gamma_printed": "1.95(17)",
+      "multipolarity_printed": "E2",
+      "role": "out/out-reference-candidate-for-465",
+      "source_locator": {
+        "pdf_page": 67,
+        "printed_page": 56,
+        "table": "5.2",
+        "block": "interband",
+        "row_in_block": 7
+      },
+      "observed_in_thesis_table": true,
+      "branch_probability": null,
+      "mean_lifetime": null,
+      "static_moment": null
+    }
+  ],
+  "unresolved": {
+    "582_out_out_reference": {
+      "parent_node_id": "WK22-B4-1409p8-17m2",
+      "possible_endpoint_node_id": "WK22-B1-0592p1-13m2",
+      "energy_difference_only_keV": 817.7,
+      "observed_line": false,
+      "Egamma_observed_keV": null,
+      "I_gamma": null,
+      "multipolarity": null,
+      "reason": "Table6.11 gives nonempty out/out ratio but does not name denominator; Table5.2 and visually checked Fig5.1 do not identify this edge."
+    },
+    "625_out_in_reference": {
+      "reference": null,
+      "reason": "Table6.11 dashes; Band4 lowest observed state13/2-, no same-parentDeltaI2 in-band outlet supplied; not zero."
+    }
+  },
+  "uncertainty": {
+    "table5_2_transition_energies": "within0.3keV below1000keV; up to0.5keV above1000keV",
+    "table5_1_transition_energies": "within0.3keV forI_gamma>=10; up to0.7keV forI_gamma<10",
+    "excitation_energy_errors": "not separately specified in these tables; no independent error assigned; covariance not supplied",
+    "I_gamma": "relative to170-keV Band1 transition; not total branching probability or raw count",
+    "delta": "Table6.11 signed values with asymmetric printed endpoints; full response, root likelihood and covariance missing"
+  },
+  "validation": {
+    "endpoint_energy_differences": "all9 equal printedEgamma to1e-8 numerical tolerance; arithmetic identity only, not experimental uncertainty",
+    "visual_pages": [
+      65,
+      67,
+      112
+    ],
+    "visual_fig5_1_clip_native_pdf_points": [
+      165,
+      350,
+      510,
+      720
+    ],
+    "full_text_search_is_only_locator_routing": "3qp/three-quasiparticle/crossing terms no matched quantified producer; substantive scope readCh5and6"
+  },
+  "missing_inputs": [
+    "complete measured parent decay inventory with unobserved branch upper limits",
+    "efficiency/background/gate/doublet/normalization covariance and photon-versus-converted intensity convention",
+    "per-line ICC anddelta joint likelihood/phase convention",
+    "independent same-node mean lifetime orhalf-life+conversion and actual timing/feeding/stopping response",
+    "same-node staticmoment orsame-state magneticprecession calibration with localfield/attenuation/sign conventions",
+    "cross-paper node crosswalk by nucleus,source,campaign,Ex,Jpi,in/out links",
+    "highspin3qp space,blocking,pairing,residualinteraction andcrossing/alignment producer"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "kind": "Original-table transcription plus arithmetic, no fit and no new statistical inference",
+  "source_sha256": "fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d",
+  "table3b": {
+    "locator": "physicalPDF13/printed153",
+    "rows": [
+      {
+        "E_gamma_keV": 200,
+        "experimental_lower_strict": 0,
+        "experimental_upper_strict": 0.25,
+        "theory_delta": 0.04,
+        "inside_literal_range": true,
+        "distance_to_nearest_violated_boundary": 0
+      },
+      {
+        "E_gamma_keV": 330,
+        "experimental_lower_strict": 0.25,
+        "experimental_upper_strict": 0.4,
+        "theory_delta": 0.18,
+        "inside_literal_range": false,
+        "distance_to_nearest_violated_boundary": 0.07
+      },
+      {
+        "E_gamma_keV": 389,
+        "experimental_lower_strict": 0.15,
+        "experimental_upper_strict": 0.25,
+        "theory_delta": 0.19,
+        "inside_literal_range": true,
+        "distance_to_nearest_violated_boundary": 0
+      },
+      {
+        "E_gamma_keV": 395,
+        "experimental_lower_strict": 0.28,
+        "experimental_upper_strict": null,
+        "theory_delta": 0.21,
+        "inside_literal_range": false,
+        "distance_to_nearest_violated_boundary": 0.07
+      },
+      {
+        "E_gamma_keV": 385,
+        "experimental_lower_strict": -0.4,
+        "experimental_upper_strict": -0.15,
+        "theory_delta": -0.14,
+        "inside_literal_range": false,
+        "distance_to_nearest_violated_boundary": 0.01
+      }
+    ],
+    "inside_count": 2,
+    "total": 5
+  },
+  "table2": {
+    "locator": "physicalPDF9/printed149; enlargement table2-detail.png",
+    "rows": {
+      "second_11_2_exp": [
+        52,
+        3,
+        11,
+        34
+      ],
+      "second_11_2_beta144": [
+        57,
+        8,
+        15,
+        20
+      ],
+      "second_11_2_beta141": [
+        4,
+        25,
+        11,
+        40
+      ],
+      "third_11_2_exp": [
+        34,
+        49,
+        null,
+        17
+      ],
+      "third_11_2_beta144": [
+        33,
+        38,
+        1,
+        28
+      ],
+      "third_11_2_beta141": [
+        39,
+        35,
+        2,
+        24
+      ]
+    },
+    "printed_second_state_beta141_sum": 80,
+    "boundary": "80%, unresolved source-table issue; no correction or renormalization; blank≠0"
+  },
+  "execution": "Standard-library arithmetic only; no author/model code executed"
+}

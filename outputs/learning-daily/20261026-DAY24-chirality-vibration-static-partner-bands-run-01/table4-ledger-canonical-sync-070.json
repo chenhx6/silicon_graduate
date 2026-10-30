@@ -1,0 +1,9 @@
+{
+  "source": "knowledge/sources/gizon-1974-deformed-states-cerium-neodymium.md",
+  "anchor": "Table4完整逐线ledger：55°相对光子强度",
+  "rows": 70,
+  "input": "workers/gizon1974-ce133-delta-067/table4-line-ledger.json",
+  "scope": "literal source table, not modern matched edges or all-angle BR",
+  "table_read": "root fresh visual PDF16/17 and all70 printed values inspected",
+  "old817_modern817_binding": "not established"
+}

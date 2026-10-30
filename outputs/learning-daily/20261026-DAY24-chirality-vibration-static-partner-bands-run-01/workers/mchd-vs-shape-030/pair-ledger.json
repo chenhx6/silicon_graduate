@@ -1,0 +1,90 @@
+{
+  "pairs": [
+    {
+      "pair": "1/2",
+      "parity": "positive",
+      "source_role": "previous candidate and current comparison",
+      "configuration_model": "pi g9/2^-1 tensor nu h11/2²",
+      "PRM_input": {
+        "beta": 0.29,
+        "gamma_deg": 20,
+        "J0_hbar2_per_MeV": 23
+      },
+      "tau_in_this_paper": null,
+      "absolute_B_separated_by_tau_in_this_paper": null,
+      "external_lifetime_boundary": "Suzuki positive Band3 is not Kuti negative Band3; exact crosswalk to Kuti1/2 not restored",
+      "locators": [
+        "PDF2/032501-2",
+        "PDF4/032501-4 Fig4"
+      ],
+      "atomic_ids": [
+        "KU14-8",
+        "KU14-12",
+        "KU14-D18-3",
+        "KU14-D18-7"
+      ]
+    },
+    {
+      "pair": "3/4",
+      "parity": "negative",
+      "source_role": "yrast-grouped candidate pair, energyordering of4/6 can change",
+      "configuration_model": "effective pi g9/2^-1 tensor nu h11/2^1 g7/2^1",
+      "PRM_input": {
+        "beta": 0.26,
+        "gamma_deg": 20,
+        "J0_hbar2_per_MeV": 25,
+        "xi": 0.85
+      },
+      "tau_in_this_paper": null,
+      "absolute_B_separated_by_tau_in_this_paper": null,
+      "observed_support": "links, DCO plus E2/M1 assumption, approximately300keV pairwise gap, relativeB and alignment",
+      "locators": [
+        "PDF2–3 Figs1–3",
+        "PDF4 Fig4"
+      ],
+      "atomic_ids": [
+        "KU14-4",
+        "KU14-5",
+        "KU14-13",
+        "KU14-16",
+        "KU14-D18-2"
+      ]
+    },
+    {
+      "pair": "6/5",
+      "parity": "negative",
+      "source_role": "excited-grouped candidate pair; third/fourth states of same PRM configuration",
+      "configuration_model": "same effective pi g9/2^-1 tensor nu h11/2^1 g7/2^1 as3/4",
+      "PRM_input": {
+        "beta": 0.26,
+        "gamma_deg": 20,
+        "J0_hbar2_per_MeV": 25,
+        "xi": 0.85
+      },
+      "tau_in_this_paper": null,
+      "absolute_B_separated_by_tau_in_this_paper": null,
+      "observed_support": "approximately100keV pairwise gap, relativeB and alignment",
+      "model_adverse_results": [
+        "calculated energies approximately200keV high",
+        "sharp alignment increase nearhbaromega.45MeV not reproduced"
+      ],
+      "locators": [
+        "PDF3pair grouping",
+        "PDF4 Fig4/modelparagraph",
+        "PDF5firstparagraph/conclusion"
+      ],
+      "atomic_ids": [
+        "KU14-7",
+        "KU14-13",
+        "KU14-14",
+        "KU14-16",
+        "KU14-D18-8",
+        "KU14-D18-9",
+        "KU14-D18-10"
+      ]
+    }
+  ],
+  "null_semantics": "not reported for these objects in this paper; not zero or global literature absence",
+  "same_shape_status": "common PRM input, not independently measured shape identity",
+  "needs_review": true
+}

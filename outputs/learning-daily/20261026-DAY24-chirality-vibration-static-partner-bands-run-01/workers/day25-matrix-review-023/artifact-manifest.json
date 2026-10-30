@@ -1,0 +1,229 @@
+{
+  "output_files": [
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day25-matrix-review-023/project-reviewed-snapshot.md",
+      "bytes": 12361,
+      "sha256": "d18a550babee30f70a135dcaa043d3a3a7bd732acd0eee908f878ce5292804d1"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day25-matrix-review-023/report.md",
+      "bytes": 8385,
+      "sha256": "372c840a941a9fb30a65fa78aae64b1a9451291d54f79db59324fc9d41e4e93c"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day25-matrix-review-023/review.json",
+      "bytes": 3496,
+      "sha256": "e8c0207a8f2bae471bbaff5ba32dd367e62abafdc3bc55d91e1590124abc4e86"
+    }
+  ],
+  "staging_files": [
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf01.txt",
+      "bytes": 7609,
+      "sha256": "4b298b3bf632d752a8b2c3a972c31b3a647162c120d636b8fdc52f7ce7e8dfff"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf02.png",
+      "bytes": 321329,
+      "sha256": "fc5eb43e0b5017e69824d5d15114f55645bbc2a108c55f245695c282c559ebdd"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf02.txt",
+      "bytes": 7901,
+      "sha256": "71361977c11177c5afe8688a227dad295d7120584ab0ac9d9d1e29eca2cf5201"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf03.txt",
+      "bytes": 25379,
+      "sha256": "9cc456e679bbe6fe4b3bcc34180536c43fd3126a11a7e55ee8cd97bf538dd39d"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf04.png",
+      "bytes": 303485,
+      "sha256": "375a6fa346dd1ff571aeb578d5eb484ab08984dee6aa2740f809902125c3e163"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf04.txt",
+      "bytes": 6973,
+      "sha256": "059aa3bf31a6558a556aa4cc22e179e9965ae9074fbe1b1dd5d87a7d1ecb1bd1"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf05.png",
+      "bytes": 313188,
+      "sha256": "a4ae91f782bb1eb073255fb2fa7fa97d3833d77fb3df8bcad95d57acba4fe6e9"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf05.txt",
+      "bytes": 6259,
+      "sha256": "b98d2f82fbec0911acd3cd3b3ce5282ad147bf76eb6d9c59382dd486521d7599"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf06.txt",
+      "bytes": 6551,
+      "sha256": "86f588977638f947a9e68b1709bc1395501803272604ae8024a6e711f1676324"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf07.png",
+      "bytes": 224061,
+      "sha256": "4cebcdca8ec238ea47c4a4d428011776440c28d489827352716dec05d8d29e6c"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf07.txt",
+      "bytes": 5947,
+      "sha256": "a71a9e7ae74c9c46784060500c8863bfb56ba891c6f6b2f7abbdf81356d65b6f"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf08.txt",
+      "bytes": 4326,
+      "sha256": "391a09ed0254fac1398d32b55b50aa78c796b9d181f5006409c9adfc5d8495af"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf09.txt",
+      "bytes": 4344,
+      "sha256": "612ec78d2521439b45306c885d1b5df22f8bdc3aae916ffe199a28c5ebff21c4"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/lv19-pdf10.txt",
+      "bytes": 2822,
+      "sha256": "47d02133ebffffc672da95ecee72d453c5ed8495f3e0b406c719972d78a15c97"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe06-pdf01.txt",
+      "bytes": 6409,
+      "sha256": "b86c2055e0b6b2b05fe3ee3c4bd1bde5b2138e25cfd353eb5bb8077872676864"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe06-pdf02.png",
+      "bytes": 300753,
+      "sha256": "2e6a9c6fd75e808e9f43815e420c6fab4866a8658c274720c1f287a34790d0dc"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe06-pdf02.txt",
+      "bytes": 8815,
+      "sha256": "00f054a10270bfcb4c80524e684f77fa55292b4b2cf72bc4893605ddcaad11bb"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe06-pdf03.png",
+      "bytes": 324741,
+      "sha256": "b77243f74465b1cdecbe6e8af23a504f232778fd9639cba7e34f842065528044"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe06-pdf03.txt",
+      "bytes": 7105,
+      "sha256": "cefa1d05bbebd5d42cddf8f666e6ded282df943281c426a46a7f77061b200a79"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe06-pdf04.png",
+      "bytes": 292164,
+      "sha256": "5837885cf4c2490110e176eba9f06737ee30199fd80554856a71a1ec28f55021"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe06-pdf04.txt",
+      "bytes": 6968,
+      "sha256": "0f93184c2c65a0cc2b76e289ab3c9e335f2817d200a6f5da6ba194e5dcad921c"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf01.txt",
+      "bytes": 1801,
+      "sha256": "4f95d84d2d1a01fd0f0c9774e05b78a9cec64ca5dba470b6211ce20ded5f1e07"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf02.png",
+      "bytes": 300924,
+      "sha256": "9679cf9f37d3ab001427c3f70f9189957429cc5574dcc55a7400ede852ebae74"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf02.txt",
+      "bytes": 6177,
+      "sha256": "b9ae09264622bed727d3834fb86eec1d3246a6f148971486ee0f96c854fbd537"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf03.png",
+      "bytes": 287187,
+      "sha256": "5cdf021d443bc2af4b05c9832057b919030eb0b5abc217ee53b64ff913b9b844"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf03.txt",
+      "bytes": 3516,
+      "sha256": "29103cfddeceee3c1e3d610c182775287b853aec6d4dbc9dbfd4bd0a13590c54"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf04.txt",
+      "bytes": 8056,
+      "sha256": "93e7688cd2a3890445607012ac6a37fed8037f9e21d0ad344f5bb0de0e6b9f9a"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf05.png",
+      "bytes": 276434,
+      "sha256": "466ac2504831e3d5c974ec7ae5e701e39538d45bd025db2c7ed07260ad534921"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf05.txt",
+      "bytes": 5262,
+      "sha256": "f9d887ff31edf6fea969bfc128fe8a6f47ab5691b3b7e2e72255393e55cf8ace"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf06.png",
+      "bytes": 321154,
+      "sha256": "53c4d166fda2c7237264da7cc4596f95765dc9e438f889b67dc4134bea9a1fc5"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf06.txt",
+      "bytes": 7094,
+      "sha256": "d1866ba3b422c97e48aa4468eff4f41c10181d838cfd4d719a32eae532a932e0"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf07.png",
+      "bytes": 327149,
+      "sha256": "09150127f797ca7bd2cd36d1cb00f85fa113ef33402334d2ed7acb497c6284a2"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/pe18-pdf07.txt",
+      "bytes": 7045,
+      "sha256": "0312acce31e5325a55b72d3e01b8b7cd5f2afa3aac739f3ee6016850c6444a76"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/raw-checks.json",
+      "bytes": 750,
+      "sha256": "b0729e11bdaae97a92e8a1813d2c18052645608cc1a151cff5e5c747cc83baaf"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/thesis-pdf066.png",
+      "bytes": 131919,
+      "sha256": "6835c4caa5e64381a81d4212063a38760b21b26d0af7f984320e09b5b5951abf"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/thesis-pdf066.txt",
+      "bytes": 1601,
+      "sha256": "381231ca5336d3490b8faba3c2e7d763bd66c4f5ab750743fb0b390ffeb4dd5d"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/thesis-pdf067.png",
+      "bytes": 128334,
+      "sha256": "d0cbe1a0e5a3eef79e3be55e9081c4ac0c9e13b25ecd7d65480b4b57ea98f46f"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/thesis-pdf067.txt",
+      "bytes": 2327,
+      "sha256": "7c656f0246e8eed1813bd61cd0c7b81d504693bfa3fda382470c9c40e5b021c2"
+    },
+    {
+      "path": "tmp/day24-day25-matrix-review-023/thesis-raw-check.json",
+      "bytes": 285,
+      "sha256": "e4acbf064b449712681524a40a0dcee3a120a3dc46dd230232d8df80b1a5abfa"
+    }
+  ],
+  "checks": {
+    "json_parse": "pass",
+    "markdown_trailing_whitespace": "pass",
+    "root_requested_fixes_reread": {
+      "shared_campaign_limit_present": true,
+      "independence_relative_to_mu07": true,
+      "jointfit_shared_cov_allowed": true,
+      "no_tau_statement_scoped": true
+    },
+    "source_raw_hashes_recorded": true,
+    "new_body_downloads": 0,
+    "canonical_writes": 0
+  }
+}

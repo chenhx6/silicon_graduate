@@ -1,0 +1,220 @@
+{
+  "outputs": [
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/collective-chiral-008/claim-ledger.json",
+      "sha256": "cd3c3d3ff9d715509f5cb08a8249cf80c53e5bb5320278b91cdc9ba4a7c31de2",
+      "bytes": 3692
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/collective-chiral-008/report.md",
+      "sha256": "cf07eb985c7597d04f77327196142ecf23f113d50eafc8aac2c128a137e2ccf2",
+      "bytes": 11336
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/collective-chiral-008/source-and-reading.json",
+      "sha256": "4e9df797318a5f03137978022feff57d8500a51a947ddb2381a7f3e553ae4ea8",
+      "bytes": 1467
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/collective-chiral-008/source-parameter-check.json",
+      "sha256": "24a32054678b553b757e7e58a7e5cb3fc1effc63bbd1209c6214b6dc042bb5be",
+      "bytes": 494
+    }
+  ],
+  "staging": [
+    {
+      "path": "tmp/day24-collective-chiral-008/arxiv-abs.html",
+      "sha256": "4c158473606169c71d9a802dd12ed9f151c9f5f1dc5529ddef77e4b2c3d53054",
+      "bytes": 40575
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/chen2013-collective-chiral-arxiv.pdf",
+      "sha256": "bef6182263a6282ea6c4fc3e2fbae481bbf629e484dbf9668e3ea9e622342a2c",
+      "bytes": 987932
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/crossref.json",
+      "sha256": "09d0fcc5757cdf0152f4b6b97c74062b9d4514a69dee1c390850a7b6151ec16e",
+      "bytes": 4340
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/download.json",
+      "sha256": "07380d7d898bec3b06082b4b956b90b6f0081571c168c1854fd0fd6486538bb3",
+      "bytes": 405
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/inspire.json",
+      "sha256": "472814a3a429a7fd072eed9ed80b9434005c454e5451bcf60f0847608d28eee9",
+      "bytes": 17580
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-01.png",
+      "sha256": "ae8c62459a1ade28efefd8576db67753b1377f31df00434814ac84ad584e5dd6",
+      "bytes": 99531
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-01.txt",
+      "sha256": "85cd22bffc073ae8f7eab7c6d94a9f4e0769be95e1418f2b4084875823e593eb",
+      "bytes": 1903
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-02.png",
+      "sha256": "f7bcf97d63dde2714234c06325946a4d364c6569e810529f5fce9326956cc6b4",
+      "bytes": 147709
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-02.txt",
+      "sha256": "fc08d1465b7dee4314236ba963d62fdffa88c5b7d41349e4c525e8c701c6af5b",
+      "bytes": 2544
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-03.png",
+      "sha256": "f028bc035087fa7cd54c775c157b60b391da8eb9a7564e6807dd06d7bf78a920",
+      "bytes": 121846
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-03.txt",
+      "sha256": "36df94a80177d2137b56a486a0a59df6b9f82f80e32993e7ba0697cc01cbf69e",
+      "bytes": 2462
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-04.png",
+      "sha256": "b35bd5325167a3d90f495c2d4e903765599257ff110e2ea1e2bc288195b89595",
+      "bytes": 121511
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-04.txt",
+      "sha256": "4e4133747a4629e95522e5d94d87a1fbef208a5378618487efef667cd23a574e",
+      "bytes": 3014
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-05.png",
+      "sha256": "5d47ab316294e86868091829f9f55075864e0b76865559edb37f59f6c8f0ecea",
+      "bytes": 97137
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-05.txt",
+      "sha256": "ee87da2ba4637b1f122d25333c31811907659219e3c750b6ff194c19e692470e",
+      "bytes": 2393
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-06.png",
+      "sha256": "63f5bf2c8e9fbc289b14b254d15838c58cfb254ff27c262083b95e2a0422dd5c",
+      "bytes": 101200
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-06.txt",
+      "sha256": "b7f4e071b71a45d6a087c24545501851c91abe359a8634e5352528ca12e29202",
+      "bytes": 3270
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-07.png",
+      "sha256": "78964c93c130faa670829476469f8a2b774c0111d071cd36b6d77ffe8a76d0f2",
+      "bytes": 110595
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-07.txt",
+      "sha256": "48ad438074301d089638676958aab7740e4bb794b7cf8932b1a5a3dc18ab631d",
+      "bytes": 2422
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-08.png",
+      "sha256": "3954a7ae791f35642c024dfa0532dbbe43a92b9a646a457ac8d669c38bfcaa85",
+      "bytes": 137482
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-08.txt",
+      "sha256": "6f2af85b24f4896097dd0e5d97fe15ad8b927f05c800cd4f7b17b738d05047a8",
+      "bytes": 2476
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-09.png",
+      "sha256": "9c2cdf5314c33df78af8b477a53d1756ba5d4557c06eae5b8e4f22f4d57f9e5b",
+      "bytes": 207456
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-09.txt",
+      "sha256": "f046aaf922bcb61054416761abcfc523a64f91388515f6b0d1a914b1c7cad570",
+      "bytes": 3580
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-10.png",
+      "sha256": "257d1359e4bc0c5fcdb8e525acb69f2bd5164a80d1fcbf948f52829de8281433",
+      "bytes": 118176
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-10.txt",
+      "sha256": "31f4c0ebeab24179f840442e71fd21d297e91a19185fea59d17f2782955c3d0c",
+      "bytes": 2297
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-11.png",
+      "sha256": "926125f703296b1a065e79953550def90167dc33673245dfc8c208a696fff29f",
+      "bytes": 121506
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-11.txt",
+      "sha256": "f9ef71009afd485c359b2e1bb0f5ec2cba05534b9f408db2f6042bdbadca346b",
+      "bytes": 3354
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-12.png",
+      "sha256": "788d0fee6a1b3b5fa5b4bbcde477f8d013bac42495cb9c1f07d93864f047bee7",
+      "bytes": 97573
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-12.txt",
+      "sha256": "48f68fe0fcc8ba79f18578f892dddb42be3321a3b880abbca92b2312edd79770",
+      "bytes": 2393
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-13.png",
+      "sha256": "a0cc76f63214eb3ddd2c311288f101fd5fcafcba4a5bd6074535b11e43433ac3",
+      "bytes": 120894
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-13.txt",
+      "sha256": "33b971f42583b58b982a33e876cae1e4374d4c4ca0d626983c1816651119304c",
+      "bytes": 2475
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-14.png",
+      "sha256": "43de946f21ca19d8265bb4c22cf282723635f547e8a2fc39a1ab25e0f1cce1ba",
+      "bytes": 122340
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-14.txt",
+      "sha256": "54e68093bff5a428e0a1dc6c8bb22bdc0c0165e271556aea22afe124f46503a0",
+      "bytes": 2491
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-15.png",
+      "sha256": "e9eecf15aabad070a498d77eb3569fbcb7009fde41e36459b7a7db7caa728189",
+      "bytes": 130212
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-15.txt",
+      "sha256": "9be3697d24fd78df116dddd4ef9d48138f2f8da5817493704c8d2c2f0e6a2b73",
+      "bytes": 2338
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-16.png",
+      "sha256": "5b89ea5c2da9214044a257a04526784f5ac24f7749b0b295e6458528fa9e1cd7",
+      "bytes": 120331
+    },
+    {
+      "path": "tmp/day24-collective-chiral-008/page-16.txt",
+      "sha256": "c758624c063c3d2a0f3abc5ec7ad1d3752f5c3e9a1c81b8d19b7a032585a63d5",
+      "bytes": 1792
+    }
+  ],
+  "checks": {
+    "json_parse": "pass",
+    "raw_download_sha_match": true,
+    "pages_read": 16,
+    "figures_read": 8,
+    "source_parameter_algebra_only": true,
+    "body_routes_used": 1,
+    "canonical_edits": false
+  }
+}

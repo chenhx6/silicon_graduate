@@ -1,0 +1,101 @@
+{
+  "unit": "gizon1974-ce133-delta-067",
+  "run_date": "2026-10-26",
+  "day_index": 24,
+  "status": "assigned-source-reading-and-selfaudit-complete",
+  "source": {
+    "path": "tmp/day24-gizon1974-unique-parity-entry-064/attachment-object-response.pdf",
+    "doi": "10.1016/0375-9474(74)90339-X",
+    "sha256": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+    "bytes": 1264150,
+    "pdf_pages": 22
+  },
+  "primed_recall": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/gizon1974-ce133-delta-067/primed-recall.md",
+  "blind": false,
+  "previous_exposure": "MTV75PartII133Cecomparison and064entry; no claimblind",
+  "actual_reading": {
+    "PDF14": "sharedFig8fullvisual/caption",
+    "PDF15": "§3.4start+Figs9/10fulltextvisual",
+    "PDF16": "Table4fulltextvisual",
+    "PDF17": "Table4continued+§3.4fulltextvisual",
+    "PDF18": "§3.4end+§4start+Fig11fulltextvisual",
+    "PDF19": "§4throughrotational-sign/prolateinference fulltextvisual;§5notcounted"
+  },
+  "auxiliary_reads": [
+    "PDF3methods55degI/efficiency/calibrationparagraphtext",
+    "PDF4angularformula/partialalignmentdefinitiontextshared066andchecked",
+    "PDF21–22referenceentries12/23–28text",
+    "WK22Tables5.1–5.2andPartIIFig9priorreadreuse"
+  ],
+  "whole22pages_independently_read": false,
+  "visual_figures": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "visual_tables": [
+    4
+  ],
+  "table4_rows_transcribed": 70,
+  "atomic_claims": 20,
+  "source_calculation_files": [
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/gizon1974-ce133-delta-067/table4-line-ledger.json",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/gizon1974-ce133-delta-067/source-central-crosscheck.json"
+  ],
+  "major_new_information": [
+    "PartII994/1164resolvedasGizon1163.6oldreferenceandminus170rounding",
+    "1974ground/isomerorderingexplicitunknown9over2_5.4hversus1over2_97min",
+    "1163.6sideJ15over2suggestedfromADnotdirect",
+    "235unresolvedintensityatleasthalfupperbranch",
+    "Ce133alpha2.69±.19pureE2averaged/neglectA4",
+    "NakaiIgreaterEqual7over2andKnot1over2literalconditions",
+    "619.7tableassignmentconflictswithFig8andenergyclosure",
+    "159.5tablefinal2450versusFig2449.5",
+    "old817.3observedunassignedpeaknotmodern817.7reference"
+  ],
+  "modern582_outreference_closed": false,
+  "modern37p2_modified": false,
+  "modern_mapping": "lowfamilyandsingle1163.6→554.9edgecandidateonly;nowholeBand4/highspinidentity",
+  "not_claimed": [
+    "allangleBRfrom55degI",
+    "uniqueperlineδorCI",
+    "τassignedtomodernmothers",
+    "g/Q0directmeasure",
+    "oldprolatesignproofmodernwobbling/chirality",
+    "actual2022input/producerreplay"
+  ],
+  "open_boundaries": [
+    "laterground/isomerversion",
+    "PartIIhighspinextensionand1380difference",
+    "Fig8arrow608lastglyph",
+    "619.7tablevsfigureassignment",
+    "actualAD/geometry/ICC/Cov",
+    "modern582referenceandfullsignedEM"
+  ],
+  "report": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/gizon1974-ce133-delta-067/report.md",
+  "report_sha256": "22842ae9d3fd949a47892cb8404ca64847a4e41781c693ec7ed6dde78841e466",
+  "writes": [
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/gizon1974-ce133-delta-067/primed-recall.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/gizon1974-ce133-delta-067/report.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/gizon1974-ce133-delta-067/table4-line-ledger.json",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/gizon1974-ce133-delta-067/source-central-crosscheck.json",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/gizon1974-ce133-delta-067/receipt.json"
+  ],
+  "tmp_prefix": "tmp/day24-gizon1974-ce133-delta-067/",
+  "network": false,
+  "producer_or_unknown_attachment_execution": false,
+  "old114_read_or_execute": false,
+  "agents_spawned": false,
+  "scientific_toy_or_tests": false,
+  "canonical_modified": false,
+  "raw_modified": false,
+  "git_mutation": false,
+  "course_or_session_mutation": false,
+  "verification": {
+    "bodyhash": "matched",
+    "report/primed_trailing_whitespace": "none",
+    "ledger/crosscheck/receipt_json": "valid"
+  },
+  "next_step": "Parent combinesNd/methods/Ce135units;promoteonlydirectclaimswithliteralconflictsand582gapretained."
+}

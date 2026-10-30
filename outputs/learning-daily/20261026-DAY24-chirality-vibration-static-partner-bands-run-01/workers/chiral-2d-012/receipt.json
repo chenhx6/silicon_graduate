@@ -1,0 +1,567 @@
+{
+  "status": "direct-version-specific-source-unit-complete",
+  "finished_utc": "2026-10-26T13:04:34.729666+00:00",
+  "title": "Two-dimensional collective Hamiltonian for chiral and wobbling modes",
+  "authors": [
+    "Q. B. Chen",
+    "S. Q. Zhang",
+    "P. W. Zhao",
+    "R. V. Jolos",
+    "J. Meng"
+  ],
+  "publication": {
+    "journal": "Physical Review C",
+    "volume": 94,
+    "article": "044301",
+    "year": 2016,
+    "doi": "10.1103/PhysRevC.94.044301"
+  },
+  "actual_body": {
+    "url": "https://arxiv.org/pdf/1609.06967v2",
+    "version": "arXiv1609.06967v2; sidebar2016-10-04; printed typeset date2022-03-03",
+    "path": "tmp/day24-chiral-2d-012/chen2016-2d-arxiv160906967v2.pdf",
+    "sha256": "158efcad3d6f9c69ec61ee3a427ace3aa54ba0e6be7dfbb6419226f3078332be",
+    "bytes": 6543288,
+    "pages": 30,
+    "VoR_checked": false
+  },
+  "reading": {
+    "text_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "visual_pages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "figures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "tables": [],
+    "equations": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "equations_scope": "All numbered equations1–36 read in text and formula-bearing pages visually checked; matrix/basis and density contracts direct visual",
+    "authors_model_code_executed": false,
+    "independent_spectrum_replay": false
+  },
+  "primary_deltas_from_CH13": [
+    "theta dynamic coordinate and nonzero mixed mass",
+    "detB measure and two reflection sectors",
+    "periodic boundary changes also applied to 1D comparison",
+    "high-frequency re-splitting and distinct longitudinal-wobbling interpretation with PRM model comparison",
+    "low-spin zero-frequency-inertia failure and assumed1.10MeV inertia correction",
+    "Eq31 reduced probability missing weight relative to Eq28/29, literal scope preserved"
+  ],
+  "routes": [
+    {
+      "url": "https://api.crossref.org/works?query.title=Two-dimensional%20collective%20Hamiltonian%20for%20chiral%20and%20wobbling%20modes&rows=3",
+      "curl_exit": 0,
+      "metadata": "200\thttps://api.crossref.org/works?query.title=Two-dimensional%20collective%20Hamiltonian%20for%20chiral%20and%20wobbling%20modes&rows=3\tapplication/json",
+      "error": "",
+      "bytes": 25108,
+      "sha256": "61c2cd43208ae6afbacedf42649e57d6aa3730b797981c25d0491868f72bb766",
+      "entries": [
+        {
+          "title": [
+            "Two-dimensional collective Hamiltonian for chiral and wobbling modes"
+          ],
+          "DOI": "10.1103/physrevc.94.044301",
+          "author": [
+            {
+              "given": "Q. B.",
+              "family": "Chen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "S. Q.",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "P. W.",
+              "family": "Zhao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "R. V.",
+              "family": "Jolos",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "J.",
+              "family": "Meng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "volume": "94",
+          "page": null,
+          "article-number": "044301",
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                10,
+                3
+              ]
+            ]
+          },
+          "link": [
+            {
+              "URL": "http://link.aps.org/accepted/10.1103/PhysRevC.94.044301",
+              "content-type": "application/pdf",
+              "content-version": "am",
+              "intended-application": "unspecified"
+            },
+            {
+              "URL": "http://link.aps.org/article/10.1103/PhysRevC.94.044301",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.94.044301/fulltext",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        },
+        {
+          "title": [
+            "Two-dimensional collective Hamiltonian for chiral and wobbling modes. II. Electromagnetic transitions"
+          ],
+          "DOI": "10.1103/physrevc.98.064302",
+          "author": [
+            {
+              "given": "X. H.",
+              "family": "Wu",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "Q. B.",
+              "family": "Chen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "P. W.",
+              "family": "Zhao",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "S. Q.",
+              "family": "Zhang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "J.",
+              "family": "Meng",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "volume": "98",
+          "page": null,
+          "article-number": "064302",
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                12,
+                3
+              ]
+            ]
+          },
+          "link": [
+            {
+              "URL": "https://link.aps.org/article/10.1103/PhysRevC.98.064302",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.98.064302/fulltext",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        },
+        {
+          "title": [
+            "Collective Hamiltonian for Chiral and Wobbling Modes: From One- to Two-dimensional"
+          ],
+          "DOI": "10.5506/aphyspolbsupp.10.27",
+          "author": [
+            {
+              "given": "Q.B.",
+              "family": "Chen",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ],
+          "volume": "10",
+          "page": "27",
+          "article-number": null,
+          "published": {
+            "date-parts": [
+              [
+                2017
+              ]
+            ]
+          },
+          "link": [
+            {
+              "URL": "https://www.actaphys.uj.edu.pl/fulltext?series=Ser&vol=10&page=27",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?search_query=ti:two-dimensional%20AND%20ti:collective%20AND%20all:chiral&max_results=5",
+      "curl_exit": 0,
+      "metadata": "200\thttps://export.arxiv.org/api/query?search_query=ti:two-dimensional%20AND%20ti:collective%20AND%20all:chiral&max_results=5\tapplication/atom+xml; charset=utf-8",
+      "error": "",
+      "bytes": 12438,
+      "sha256": "b0de07f9ea34eadff1b99324ceb23fb8d13e3f5db5f741aa847d6d2be4887c11",
+      "entries": [
+        {
+          "id": "http://arxiv.org/abs/1609.06967v2",
+          "title": "Two-dimensional collective Hamiltonian for chiral and wobbling modes",
+          "links": [
+            {
+              "href": "https://arxiv.org/abs/1609.06967v2",
+              "rel": "alternate",
+              "type": "text/html"
+            },
+            {
+              "href": "https://arxiv.org/pdf/1609.06967v2",
+              "rel": "related",
+              "type": "application/pdf",
+              "title": "pdf"
+            },
+            {
+              "rel": "related",
+              "href": "https://doi.org/10.1103/PhysRevC.94.044301",
+              "title": "doi"
+            }
+          ],
+          "authors": [
+            "Q. B. Chen",
+            "S. Q. Zhang",
+            "P. W. Zhao",
+            "R. V. Jolos",
+            "J. Meng"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1809.04418v2",
+          "title": "Two-dimensional collective Hamiltonian for chiral and wobbling modes II: Electromagnetic transitions",
+          "links": [
+            {
+              "href": "https://arxiv.org/abs/1809.04418v2",
+              "rel": "alternate",
+              "type": "text/html"
+            },
+            {
+              "href": "https://arxiv.org/pdf/1809.04418v2",
+              "rel": "related",
+              "type": "application/pdf",
+              "title": "pdf"
+            },
+            {
+              "rel": "related",
+              "href": "https://doi.org/10.1103/PhysRevC.98.064302",
+              "title": "doi"
+            }
+          ],
+          "authors": [
+            "X. H. Wu",
+            "Q. B. Chen",
+            "P. W. Zhao",
+            "S. Q. Zhang",
+            "J. Meng"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/1409.8666v1",
+          "title": "Collective modes in two- and three-dimensional electron systems with Rashba spin-orbit coupling",
+          "links": [
+            {
+              "href": "https://arxiv.org/abs/1409.8666v1",
+              "rel": "alternate",
+              "type": "text/html"
+            },
+            {
+              "href": "https://arxiv.org/pdf/1409.8666v1",
+              "rel": "related",
+              "type": "application/pdf",
+              "title": "pdf"
+            },
+            {
+              "rel": "related",
+              "href": "https://doi.org/10.1103/PhysRevB.91.035106",
+              "title": "doi"
+            }
+          ],
+          "authors": [
+            "Saurabh Maiti",
+            "Vladimir Zyuzin",
+            "Dmitrii L. Maslov"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2504.04436v2",
+          "title": "Intertwined geometries in collective modes of two dimensional Dirac fermions",
+          "links": [
+            {
+              "href": "https://arxiv.org/abs/2504.04436v2",
+              "rel": "alternate",
+              "type": "text/html"
+            },
+            {
+              "href": "https://arxiv.org/pdf/2504.04436v2",
+              "rel": "related",
+              "type": "application/pdf",
+              "title": "pdf"
+            },
+            {
+              "rel": "related",
+              "href": "https://doi.org/10.1103/bh3c-4sng",
+              "title": "doi"
+            }
+          ],
+          "authors": [
+            "Ankan Biswas",
+            "Avraham Klein"
+          ]
+        },
+        {
+          "id": "http://arxiv.org/abs/2601.14867v1",
+          "title": "Exotic collective behaviors of giant quantum emitters in two-dimensional baths",
+          "links": [
+            {
+              "href": "https://arxiv.org/abs/2601.14867v1",
+              "rel": "alternate",
+              "type": "text/html"
+            },
+            {
+              "href": "https://arxiv.org/pdf/2601.14867v1",
+              "rel": "related",
+              "type": "application/pdf",
+              "title": "pdf"
+            },
+            {
+              "rel": "related",
+              "href": "https://doi.org/10.1103/yygz-71tr",
+              "title": "doi"
+            }
+          ],
+          "authors": [
+            "Qing-Yang Qiu",
+            "Wen Huang",
+            "Lei Du",
+            "Xin-You Lü"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/pdf/1609.06967v2",
+      "curl_exit": 0,
+      "metadata": "200\thttps://arxiv.org/pdf/1609.06967v2\tapplication/pdf",
+      "error": "",
+      "bytes": 6543288,
+      "sha256": "158efcad3d6f9c69ec61ee3a427ace3aa54ba0e6be7dfbb6419226f3078332be",
+      "pdf_signature": true,
+      "pages": 30,
+      "pdf_metadata": {
+        "format": "PDF 1.5",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "LaTeX with hyperref package",
+        "producer": "pdfTeX-1.40.12",
+        "creationDate": "D:20220303071302Z",
+        "modDate": "D:20220303071302Z",
+        "trapped": "",
+        "encryption": null
+      }
+    }
+  ],
+  "canonical_files_changed": [],
+  "raw_files_changed": [],
+  "git_mutations": false,
+  "new_session_or_credits": false
+}

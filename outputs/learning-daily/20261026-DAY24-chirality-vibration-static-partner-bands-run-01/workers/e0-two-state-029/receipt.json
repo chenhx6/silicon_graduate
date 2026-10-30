@@ -1,0 +1,73 @@
+{
+  "task": "e0-two-state-029",
+  "status": "bounded-unit-complete;existingresults-intact",
+  "finished_utc": "2026-10-26T15:11:51.975323+00:00",
+  "course_scope": "sameDay24withDay25uncreditedpreview;029workernumbernotcourseday;Day26closed",
+  "new_claims_needs_review": true,
+  "source": {
+    "path": "raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+    "sha256": "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183",
+    "native_text_pages": [
+      13
+    ],
+    "fresh_visual_pages": [
+      13
+    ],
+    "locator": "printed1479Eq14andsurroundingparagraph"
+  },
+  "execution": {
+    "command": "python3 outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/e0-two-state-029/e0_kernel_check.py",
+    "actual_exec_exit": 0,
+    "execution_completed_before_parent_reported_capacity_event": true,
+    "result_json_complete": true,
+    "result_json_parsed_on_resume": true,
+    "rerun_on_resume": false,
+    "no_actual_nucleus_or_Z_R0_assigned": true,
+    "no_fit": true
+  },
+  "capacity_event": {
+    "parent_reported_transient_failure": true,
+    "handling": "resumedexistingworkerfiles;noformulaidentitychange;noadditionalretrievalorcalculation",
+    "actual_saved_results_preserved": true
+  },
+  "formula_scope": "UdaggerTUissamespaceHermitiansimilarity;contrastindependentforwardE2rotations;fixeddefinedconfigurationbasisrequired",
+  "increment": "explicitoffdiagonalE0interference,mixeddiagonalradii,commutatorandnonuniversalcancellationlimit;notnewtheorem",
+  "artifacts": [
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/e0-two-state-029/report.md",
+      "exists": true,
+      "bytes": 7810,
+      "sha256": "3138455b79560dfd7430ce274e569f0b0deea355a966aa2cd1acf7713029291b"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/e0-two-state-029/e0_kernel_check.py",
+      "exists": true,
+      "bytes": 3403,
+      "sha256": "6732d9e7c0875c80f8ae890b090200a3b8d227a485bebe8bce2e084c8b4a6c90"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/e0-two-state-029/e0-kernel-results.json",
+      "exists": true,
+      "bytes": 3135,
+      "sha256": "119c3f7ea89e5d5dfca51060b84813d3a34d93fc21a8d8947fc5a24a4979ebb0"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/e0-two-state-029/pdf13.txt",
+      "exists": true,
+      "bytes": 7342,
+      "sha256": "d4a7644cbb615955a312fc3c0e2f479ca712c3a9cfe65cc5b1048f6fd9445020"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/e0-two-state-029/pdf13.png",
+      "exists": true,
+      "bytes": 402814,
+      "sha256": "0dea2941c9c6d3ae4e38e401a6a512a62219d1c83d87af82c206a9740eb6479f"
+    }
+  ],
+  "canonical_writes": [],
+  "raw_writes": [],
+  "git_mutations": false,
+  "new_retrieval": false,
+  "new_sessions": false,
+  "new_credits": false
+}

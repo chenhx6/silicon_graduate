@@ -1,0 +1,38 @@
+{
+  "task": "ce133-hauschild1996-083",
+  "candidate": "1996Ha20",
+  "status": "same-data-follow-up-not-independent-of-1995",
+  "title": "Triaxial bands in 133Ce",
+  "doi": "10.1103/PhysRevC.54.613",
+  "source_pdf": "tmp/day24-ce133-independent-primary-079/1996Ha20-aps.pdf",
+  "source_sha256": "560215bbff5898a3e304f4219f35f628b3a4bd03c87ed1745dc25ae147162872",
+  "bytes": 229413,
+  "pages": 7,
+  "printed_pages": "613-619",
+  "ocr_file": "tmp/day24-ce133-independent-primary-079/1996Ha20.txt",
+  "ocr_sha256": "c4698adcee37a7911cff58624558b09a1a7044278bef17d4ff7a68b39992e5a2",
+  "visual_pages": "tmp/day24-ce133-independent-primary-079/Ha20-page01.png..Ha20-page07.png",
+  "data_lineage": {
+    "vs_1995Ha34": "same 116Cd(22Ne,5n) 120 MeV / early 31-detector Gammasphere stream and same event totals; new analysis and six additional sequences, not independent events",
+    "vs_1998Jo16": "independent 100Mo(36S,xn) DSAM/DBLS campaign; author/model lineage overlaps"
+  },
+  "new_information": [
+    "six additional Delta-Egamma approximately 100-keV rotational sequences",
+    "band-specific alignment and backbend systematics",
+    "conditional crossing and quasiparticle configuration map",
+    "normal-link candidate coincidences and explicit missing-link boundary",
+    "shape-coexistence discussion and high-frequency soft-termination prediction"
+  ],
+  "not_supplied": [
+    "new lifetime tau",
+    "new absolute Qt or B(E2)",
+    "complete normal-to-new-band linking",
+    "DCO/multipolarity closure for most bands",
+    "direct configuration or static gamma measurement",
+    "partner-band EM phase/tunneling/chirality evidence"
+  ],
+  "atomic_ledger": "workers/ce133-hauschild1996-083/report.md",
+  "canonical_write": false,
+  "raw_write": false,
+  "git_write": false
+}

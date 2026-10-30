@@ -1,0 +1,20 @@
+{
+  "url": "https://users.fuw.edu.pl/~dobaczew/earlier.html",
+  "curl_exit": 0,
+  "metadata": "200\thttps://users.fuw.edu.pl/~dobaczew/earlier.html\ttext/html",
+  "error": "",
+  "bytes": 91186,
+  "sha256": "0b0b54c21d724a2549a8e1a468cd396a3749068eb377566e937d7fd269d48cc0",
+  "target_row": "Critical frequency in nuclear chiral rotation November 25, 2002 Phys. Rev. Lett. 93 (2004) 052501 196kB nucl-th/0211075",
+  "links": [
+    {
+      "href": "chir43w/chir43w.html"
+    },
+    {
+      "href": "http://arXiv.org/ps/nucl-th/0211075"
+    },
+    {
+      "href": "http://arXiv.org/abs/nucl-th/0211075"
+    }
+  ]
+}

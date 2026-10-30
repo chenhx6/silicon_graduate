@@ -1,0 +1,591 @@
+{
+  "finished_utc": "2026-10-26T12:58:23.322917+00:00",
+  "status": "Tonev2006-body-not-obtained; preserve-no-body-boundary",
+  "target_doi": "10.1103/PhysRevLett.96.052501",
+  "target_verified_title": "Transition Probabilities in134Pr: A Test for Chirality in Nuclear Systems",
+  "target_body_pages_read": 0,
+  "target_body_figures_read": 0,
+  "target_body_tables_read": 0,
+  "target_B_values_extracted": false,
+  "scientific_candidate_claims_from_Tonev_body": [],
+  "records": [
+    {
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.96.052501/fulltext",
+      "curl_exit": 0,
+      "metadata": "401\thttps://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.96.052501/fulltext\tapplication/json",
+      "error": "",
+      "bytes": 69,
+      "sha256": "ab55ce9d2b53c63a4d0ff077f1577ed8c998c7893b42333c085a7a3f020bbb0d",
+      "pdf_signature": false
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?search_query=au:Tonev%20AND%20all:chirality&max_results=8",
+      "curl_exit": 0,
+      "metadata": "200\thttps://export.arxiv.org/api/query?search_query=au:Tonev%20AND%20all:chirality&max_results=8\tapplication/atom+xml; charset=utf-8",
+      "error": "",
+      "bytes": 723,
+      "sha256": "deeecc7a5d120eed8b3a1963cf705017224daaeae43e008eb4b607b7d2da201d",
+      "entries": []
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1103/PhysRevLett.96.052501",
+      "http": 200,
+      "content_type": "application/json",
+      "bytes": 7655,
+      "sha256": "67c203b7a65c6113ded2aac05b120c832d7c5db5cf062717084305ff151e8233",
+      "identity": {
+        "title": [
+          "Transition Probabilities in<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi>Pr</mml:mi><mml:mprescripts/><mml:none/><mml:mn>134</mml:mn></mml:mmultiscripts></mml:math>: A Test for Chirality in Nuclear Systems"
+        ],
+        "author": [
+          {
+            "given": "D.",
+            "family": "Tonev",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "G.",
+            "family": "de Angelis",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "P.",
+            "family": "Petkov",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Dewald",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Brant",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Frauendorf",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "D. L.",
+            "family": "Balabanski",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "P.",
+            "family": "Pejovic",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "D.",
+            "family": "Bazzacco",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "P.",
+            "family": "Bednarczyk",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "F.",
+            "family": "Camera",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Fitzler",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Gadea",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Lenzi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Lunardi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "N.",
+            "family": "Marginean",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "O.",
+            "family": "Möller",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "D. R.",
+            "family": "Napoli",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "A.",
+            "family": "Paleni",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "C. M.",
+            "family": "Petrache",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "G.",
+            "family": "Prete",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "K. O.",
+            "family": "Zell",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Y. H.",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jing-ye",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Q.",
+            "family": "Zhong",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "D.",
+            "family": "Curien",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "DOI": "10.1103/physrevlett.96.052501",
+        "volume": "96",
+        "article-number": "052501",
+        "issued": {
+          "date-parts": [
+            [
+              2006,
+              2,
+              9
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://link.aps.org/article/10.1103/PhysRevLett.96.052501",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.96.052501/fulltext",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://api.archives-ouvertes.fr/search/?q=doiId_s:%2210.1103/PhysRevLett.96.052501%22&fl=title_s,halId_s,uri_s,fileMain_s,files_s,linkExtUrl_s,docType_s,version_i&wt=json",
+      "curl_exit": 0,
+      "metadata": "200\thttps://api.archives-ouvertes.fr/search/?q=doiId_s:%2210.1103/PhysRevLett.96.052501%22&fl=title_s,halId_s,uri_s,fileMain_s,files_s,linkExtUrl_s,docType_s,version_i&wt=json\tapplication/json; charset=utf-8",
+      "error": "",
+      "bytes": 445,
+      "sha256": "9bdd493c6dcf24c9fbda10c7ac53d0df53462a4696b6f6b8f14d4eeb90c03c77",
+      "pdf_signature": false,
+      "body_excerpt": "{\n  \"response\":{\n    \"numFound\":1,\n    \"start\":0,\n    \"maxScore\":5.583638,\n    \"numFoundExact\":true,\n    \"docs\":[{\n      \"linkExtUrl_s\":\"http://link.aps.org/pdf/10.1103/PhysRevLett.96.052501\",\n      \"title_s\":[\"Transition Probabilities in $^{134}$Pr: A Test for Chirality in Nuclear Systems\"],\n      \"halId_s\":\"in2p3-00025844\",\n      \"uri_s\":\"https://in2p3.hal.science/in2p3-00025844v1\",\n      \"version_i\":1,\n      \"docType_s\":\"ART\"\n    }]\n  }\n}"
+    },
+    {
+      "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevLett.96.052501",
+      "curl_exit": 0,
+      "metadata": "200\thttps://api.openalex.org/works/https://doi.org/10.1103/PhysRevLett.96.052501\tapplication/json",
+      "error": "",
+      "bytes": 39020,
+      "sha256": "4466183da0fc5d73e050acfb342125854bb83eb83adcb8d738f56daae1080ad6",
+      "title": "Transition Probabilities in Pr134 : A Test for Chirality in Nuclear Systems",
+      "locations": [
+        {
+          "id": "doi:10.1103/physrevlett.96.052501",
+          "doi": "https://doi.org/10.1103/physrevlett.96.052501",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1103/physrevlett.96.052501",
+          "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevLett.96.052501",
+          "source": {
+            "id": "https://openalex.org/S24807848",
+            "display_name": "Physical Review Letters",
+            "issn_l": "0031-9007",
+            "issn": [
+              "0031-9007",
+              "1079-7114",
+              "1092-0145"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "anvur-scientific",
+              "cwts-core",
+              "dongbi-a",
+              "jufo-3",
+              "ki-jl-2",
+              "medline",
+              "norway-2",
+              "poland-200",
+              "russia-white-list-1",
+              "vabb-shw"
+            ],
+            "host_organization": "https://openalex.org/P4310320261",
+            "host_organization_name": "American Physical Society",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320261"
+            ],
+            "host_organization_lineage_names": [
+              "American Physical Society"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Physical Review Letters",
+          "raw_type": "journal-article"
+        },
+        {
+          "id": "pmid:16486924",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16486924",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306525036",
+            "display_name": "PubMed",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I1299303238",
+            "host_organization_name": "National Institutes of Health",
+            "host_organization_lineage": [
+              "https://openalex.org/I1299303238"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Physical review letters",
+          "raw_type": "Journal Article"
+        },
+        {
+          "id": "pmh:oai:HAL:in2p3-00025844v1",
+          "doi": null,
+          "is_oa": false,
+          "landing_page_url": "https://in2p3.hal.science/in2p3-00025844",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402512",
+            "display_name": "HAL",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I4405252976",
+            "host_organization_name": "Centre pour la Communication Scientifique Directe",
+            "host_organization_lineage": [
+              "https://openalex.org/I4405252976"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "Physical Review Letters, 2006, 96, pp.052501. &#x27E8;10.1103/PhysRevLett.96.052501&#x27E9;",
+          "raw_type": "info:eu-repo/semantics/article"
+        },
+        {
+          "id": "pmh:oai:www.research.unipd.it:11577/2448302",
+          "doi": null,
+          "is_oa": true,
+          "landing_page_url": "http://hdl.handle.net/11577/2448302",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4306402547",
+            "display_name": "Padua Research Archive (University of Padova)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "listed_in": [],
+            "host_organization": "https://openalex.org/I138689650",
+            "host_organization_name": "University of Padua",
+            "host_organization_lineage": [
+              "https://openalex.org/I138689650"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "info:eu-repo/semantics/article"
+        }
+      ],
+      "oa": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevLett.96.052501",
+        "any_repository_has_fulltext": true
+      }
+    },
+    {
+      "url": "https://www.research.unipd.it/oai/request?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:research.unipd.it:11577/2448302",
+      "curl_exit": 0,
+      "metadata": "200\thttps://www.research.unipd.it/oai/request?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:research.unipd.it:11577/2448302\ttext/xml;charset=UTF-8",
+      "error": "",
+      "bytes": 589,
+      "sha256": "98ae7e100962596fdf2c9d83e81e47511397309bd9f2109f82dc0648d67bc3c4",
+      "pdf_signature": false,
+      "body_excerpt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><?xml-stylesheet type=\"text/xsl\" href=\"static/CINECAstyle.xsl\"?><OAI-PMH xmlns=\"http://www.openarchives.org/OAI/2.0/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd\"><responseDate>2026-10-26T12:56:18Z</responseDate><request verb=\"GetRecord\" identifier=\"oai:research.unipd.it:11577/2448302\" metadataPrefix=\"oai_dc\">https://www.research.unipd.it/oai/request</request><error code=\"idDoesNotExist\">The given id does not exist</error></OAI-PMH>"
+    },
+    {
+      "url": "https://www.research.unipd.it/oai/request?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:www.research.unipd.it:11577/2448302",
+      "curl_exit": 0,
+      "metadata": "200\thttps://www.research.unipd.it/oai/request?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:www.research.unipd.it:11577/2448302\ttext/xml;charset=UTF-8",
+      "error": "",
+      "bytes": 593,
+      "sha256": "91680b317d31a6d21579130dacc23f89635e173f9fa2989ff88d2650884503d9",
+      "pdf_signature": false,
+      "body_excerpt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><?xml-stylesheet type=\"text/xsl\" href=\"static/CINECAstyle.xsl\"?><OAI-PMH xmlns=\"http://www.openarchives.org/OAI/2.0/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd\"><responseDate>2026-10-26T12:55:29Z</responseDate><request verb=\"GetRecord\" identifier=\"oai:www.research.unipd.it:11577/2448302\" metadataPrefix=\"oai_dc\">https://www.research.unipd.it/oai/request</request><error code=\"idDoesNotExist\">The given id does not exist</error></OAI-PMH>"
+    }
+  ],
+  "existing_primary_dependency_audit": {
+    "source": "Petrache et al PRL96,112502(2006)",
+    "path": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+    "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+    "reading_this_unit": "targeted text: title/abstract/scope and lifetime/branch dependency passages on pages1–4; not new complete read or visual audit",
+    "locators": [
+      "112502-1 abstract and final left-column scope paragraph",
+      "112502-2 paragraph beginning Some branching ratios and lifetimes",
+      "112502-3 qualitative agreement paragraph after allowed Q ratio range",
+      "112502-4 Refs8,9,11"
+    ],
+    "new_experiment_in_this_article": false,
+    "body_characterization": "critical analysis and model-dependent extraction from existing data, ordinary PRL article; no new acquisition campaign reported in inspected scope passages"
+  },
+  "next_route_candidate": "Acquire exact Tonev2006 original via newly available repository/entitled access or user-provided local PDF; separately resolve Ref11 Starosta etal then-to-be-published branch source via structured bibliography. Neither supplies target B table until actual body is read.",
+  "limits": [
+    "No replacement of Tonev experiment by Petrache model analysis",
+    "No static-shape factor-of-two or complete chirality exclusion inferred",
+    "No repeated old APS/Padova challenge page request; no access bypass/config/credential change"
+  ]
+}

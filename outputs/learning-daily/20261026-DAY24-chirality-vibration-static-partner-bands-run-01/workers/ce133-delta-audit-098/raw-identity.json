@@ -1,0 +1,22 @@
+[
+  {
+    "file": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
+    "physical_pages": 130
+  },
+  {
+    "file": "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf",
+    "sha256": "752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37",
+    "physical_pages": 16
+  },
+  {
+    "file": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+    "sha256": "47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652",
+    "physical_pages": 15
+  },
+  {
+    "file": "raw/papers/degree dissertation/Band structures of 131Ce.pdf",
+    "sha256": "b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1",
+    "physical_pages": 97
+  }
+]

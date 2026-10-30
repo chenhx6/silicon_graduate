@@ -1,0 +1,9 @@
+{
+  "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.96.052501/fulltext",
+  "curl_exit": 0,
+  "metadata": "401\thttps://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.96.052501/fulltext\tapplication/json",
+  "error": "",
+  "bytes": 69,
+  "sha256": "ab55ce9d2b53c63a4d0ff077f1577ed8c998c7893b42333c085a7a3f020bbb0d",
+  "pdf_signature": false
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.archives-ouvertes.fr/search/?q=doiId_s:%2210.1103/PhysRevLett.96.052501%22&fl=title_s,halId_s,uri_s,fileMain_s,files_s,linkExtUrl_s,docType_s,version_i&wt=json",
+  "curl_exit": 0,
+  "metadata": "200\thttps://api.archives-ouvertes.fr/search/?q=doiId_s:%2210.1103/PhysRevLett.96.052501%22&fl=title_s,halId_s,uri_s,fileMain_s,files_s,linkExtUrl_s,docType_s,version_i&wt=json\tapplication/json; charset=utf-8",
+  "error": "",
+  "bytes": 445,
+  "sha256": "9bdd493c6dcf24c9fbda10c7ac53d0df53462a4696b6f6b8f14d4eeb90c03c77",
+  "pdf_signature": false,
+  "body_excerpt": "{\n  \"response\":{\n    \"numFound\":1,\n    \"start\":0,\n    \"maxScore\":5.583638,\n    \"numFoundExact\":true,\n    \"docs\":[{\n      \"linkExtUrl_s\":\"http://link.aps.org/pdf/10.1103/PhysRevLett.96.052501\",\n      \"title_s\":[\"Transition Probabilities in $^{134}$Pr: A Test for Chirality in Nuclear Systems\"],\n      \"halId_s\":\"in2p3-00025844\",\n      \"uri_s\":\"https://in2p3.hal.science/in2p3-00025844v1\",\n      \"version_i\":1,\n      \"docType_s\":\"ART\"\n    }]\n  }\n}"
+}

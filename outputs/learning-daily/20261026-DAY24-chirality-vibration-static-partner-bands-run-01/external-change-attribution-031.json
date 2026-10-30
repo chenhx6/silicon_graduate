@@ -1,0 +1,42 @@
+{
+  "kind": "external-committed-knowledge-change-attribution",
+  "observed_at": "2026-10-26T23:46:38.324402+08:00",
+  "external_commit": "bfdb7b3cb8c44fff0aae374033904dce0eac1217",
+  "subject": "Configure Elsevier access and register supplied PDFs",
+  "original_baseline_preserved": true,
+  "cause": "another published task registered user-supplied PDFs during this active run",
+  "paths": [
+    {
+      "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "original_baseline_sha256": "464233cc76e63e57a2d472068aeb899ab207c11ec22d9416882d851c85bb4031",
+      "external_commit_sha256": "eafcb0c2f7048ee2311cc328bfc1787f66220351715186fc3d1ea03b5a373178",
+      "current_sha256": "eafcb0c2f7048ee2311cc328bfc1787f66220351715186fc3d1ea03b5a373178",
+      "content_matches_external_commit_and_HEAD": true,
+      "run_owned": false,
+      "scientific_edit_by_this_run": false,
+      "existing_atomic_boundary": "GU22-D23-024"
+    },
+    {
+      "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+      "original_baseline_sha256": "d2cf11165b1f6b76731239849059be12bf1e0f7e86be0a2846b2573351925c47",
+      "external_commit_sha256": "76651394878bfc22619c18043e20212281c674662e0a3f3e1c1d03c001f7aa06",
+      "current_sha256": "76651394878bfc22619c18043e20212281c674662e0a3f3e1c1d03c001f7aa06",
+      "content_matches_external_commit_and_HEAD": true,
+      "run_owned": false,
+      "scientific_edit_by_this_run": false,
+      "existing_atomic_boundary": "KU25-D23-001"
+    },
+    {
+      "path": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+      "original_baseline_sha256": "a68b195dfed1a156f3614b3b1df935416e4f19b7e04d2da95aaeec8f521c5e3c",
+      "external_commit_sha256": "1af10f7a748446f02d2c6d2668dde5f805a3a415a69161ba956ddd964b19d9e3",
+      "current_sha256": "1af10f7a748446f02d2c6d2668dde5f805a3a415a69161ba956ddd964b19d9e3",
+      "content_matches_external_commit_and_HEAD": true,
+      "run_owned": false,
+      "scientific_edit_by_this_run": false,
+      "existing_atomic_boundary": "RS88-16"
+    }
+  ],
+  "decision": "acknowledge in cumulative writeback for snapshot accounting; do not count as Day24 scientific delta or stage unchanged external files",
+  "failed_validation_preserved": "runner-validation-029.json"
+}

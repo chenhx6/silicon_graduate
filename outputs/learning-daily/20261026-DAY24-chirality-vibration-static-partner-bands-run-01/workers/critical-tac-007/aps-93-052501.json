@@ -1,0 +1,11 @@
+{
+  "key": "aps-93-052501",
+  "utc": "2026-10-26T11:51:33.300569+00:00",
+  "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.93.052501/fulltext",
+  "curl_exit": 0,
+  "metadata": "401\thttps://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.93.052501/fulltext\tapplication/json",
+  "error": "",
+  "bytes": 69,
+  "sha256": "cd9dbff012ad24ba529cc29146d7b119df69b2aad9b4318ffff9afe33abd9209",
+  "pdf_signature": false
+}

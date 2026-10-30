@@ -1,0 +1,580 @@
+{
+  "source_sha256": "39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df",
+  "doi": "10.1103/PhysRevC.55.2105",
+  "whole_body_text_read": true,
+  "all_four_page_visuals_viewed": true,
+  "claims": [
+    {
+      "id": "EM97-072-01",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        2105
+      ],
+      "locator": "abstract and experimentalparagraph",
+      "evidence_type": "primary_setup",
+      "claim": "133Ce populated by120Sn(16O,3n) at70MeV; experimentmeasures lownegativeνh11/2yrast andpositive3qpband RDDS lifetimes.",
+      "boundary": "Not whole133Ceallstates or modernBand4lifetimecoverage.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-02",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        2105
+      ],
+      "locator": "HPGe/NaIsetup",
+      "evidence_type": "primary_setup",
+      "claim": "OneBGOCompton-suppressedHPGe(22%efficiency,2.1keVresolution) at0° gatedbyatleastoneofsix3inch×3inchNaI(Tl) inplaneperpendiculartoreactionplane.",
+      "boundary": "No modernAFRODITEgeometry or line-specificgate/efficiencytable delivered.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-03",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        2105
+      ],
+      "locator": "targetstopper/velocity",
+      "evidence_type": "primary_setup",
+      "claim": "Enriched120Sn target≈1mg/cm² onthinAubackingfacingbeam; recoilaveragev=.008c; Pbstopper≈20mg/cm² stopsallrecoils.",
+      "boundary": "Averagevelocitynotfullmeasuredvelocitydistribution/Cov.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-04",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        2105
+      ],
+      "locator": "plungerdistances",
+      "evidence_type": "primary_setup",
+      "claim": "13distancesaround20–250micrometers; distancesmeasuredbycapacitanceandprecisionmicrometer; plungerfromauthor1995thesisRef2.",
+      "boundary": "Micrometersnotmm; referenceinstrumentdetailsnotindependentlyfullreadhere.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-05",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        2105
+      ],
+      "locator": "normalization",
+      "evidence_type": "calibration",
+      "claim": "Distance-normalizationuses279keVgammafromAubackingCoulombexcitationviaungatedseparateHPGeoutput.",
+      "boundary": "Not normalizationusingthesameNaIcoincidencecondition; no absolutephotonbranchcalibration supplied.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-06",
+      "physical_pdf_pages": [
+        1,
+        2
+      ],
+      "printed_pages": [
+        2105,
+        2106
+      ],
+      "locator": "LIFETIMEfit",
+      "evidence_type": "model_assisted_clock",
+      "claim": "LIFETIMEfits shifted/unshiftedintensitiesseparatelyversusdistance, adjustinglifetimesandinitialpopulationsgivenasidefeedingtimemodel ratherthanonlyashiftedfractionratio.",
+      "boundary": "Clockfitisfeeding/responseconditional; originalcode/data not obtained or rerun.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-07",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        2105
+      ],
+      "locator": "appliedcorrections",
+      "evidence_type": "response_model",
+      "claim": "Correctionscoverposition/velocitydependentdetectorsolidangle, alignmentattenuationduringflight, andemissionduringslowingdownbetweenfullshifted/unshiftedenergies.",
+      "boundary": "No numericalresponsekernels/calibrationcurves or fulluncertaintypropagation supplied.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-08",
+      "physical_pdf_pages": [
+        1,
+        2
+      ],
+      "printed_pages": [
+        2105,
+        2106
+      ],
+      "locator": "d0paragraph",
+      "evidence_type": "fit_parameter",
+      "claim": "Acommondistancezerooffsetd0isfitted;realzerodistanceisprinted22.5±1.0micrometers.",
+      "boundary": "Freshmagnifiedimageconfirmspositive22.5; notnegative2.5 despitepossibleOCRhabit.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-09",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        2106
+      ],
+      "locator": "fastlimit/sidefeeding",
+      "evidence_type": "analysis_assumption",
+      "claim": "Transitionsfromτ≈1psstatesaretotallyshiftedatalldistances;≈1psadoptedasupperlimit. Onestepfeedingusedwhereneeded; nolonglivedτ>1pssidefeedingneededforfit.",
+      "boundary": "Not proofofnootherfeedingmodel or precisionlifetimesbelowresolution.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-10",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        2106
+      ],
+      "locator": "intensitysource",
+      "evidence_type": "source_lineage",
+      "claim": "RelativegammaintensitiesarefromMaetal1987Ref1,samereactionandbeamenergy;newthicktargetspectrumchecksagreementatleastonstronglines.",
+      "boundary": "NewRDDSclockdoesnotmakenewindependentmeasurementofallbranchesorcomponentmixing.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-11",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        2106
+      ],
+      "locator": "sidefeedingintensity",
+      "evidence_type": "analysis_input",
+      "claim": "Sidefeedingintensitiescome fromdifferencebetweentotalfeedinganddepopulatingrelativeintensities.",
+      "boundary": "Need fullbranch/ICC/gatecontracttoreproduce; notprovided in4pagebody.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-12",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        2106
+      ],
+      "locator": "fitstatistics",
+      "evidence_type": "fit_summary",
+      "claim": "14transitioncurvesfittogether,340datapoints,22variedinitialpopulation/transitionprobabilityparameters;reducedchi²2.1.",
+      "boundary": "No fullCovmatrix/rawcurvevalues or originaljob; notclaimingexactreproduction/goodnesspvalue.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-13",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        2106
+      ],
+      "locator": "MINUIT/MINOS",
+      "evidence_type": "uncertainty_method",
+      "claim": "Pointuncertaintiesincludepeakfit/statisticalerrors;MINOSprofilesparameterreminimizingothersuntilchi²increases1.",
+      "boundary": "Profileprocedure isreported; notfullsystematiccoverage or independenterrorsforallderivedBvalues.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-14",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        2106
+      ],
+      "locator": "132Ce/TableI",
+      "evidence_type": "primary_control",
+      "claim": "3n/4nchannelsabout equal;simultaneous132Ceyrastcheckgivesτ2+=59±6ps,4+=5.5±.6ps,6+/8+<1ps.",
+      "boundary": "Supportsinstrumentcheckinlimitedstates,notuniversalvalidation.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-15",
+      "physical_pdf_pages": [
+        2,
+        4
+      ],
+      "printed_pages": [
+        2106,
+        2108
+      ],
+      "locator": "TableIrefsandbibliography",
+      "evidence_type": "source_conflict",
+      "claim": "BenchmarktextcitesRefs6,7forearlier132Ce;TableIheadersprintRefs4,5whichbibliographytagsVAXPAK/MINUIT.",
+      "boundary": "Retaincitationmismatch;notsilentlyreassignoldcolumns.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-16",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        2106,
+        2107
+      ],
+      "locator": "Fig2/TableIIclock",
+      "evidence_type": "primary_clock",
+      "claim": "TableIItau(ps)gives11/2−→9/2−170keV τ76±3ps.",
+      "boundary": "SourceusesτnotationnotT1/2; standardmeanlifetimeconversioncheckedagainstENSDF separately.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-17",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2107
+      ],
+      "locator": "TableII13/2−",
+      "evidence_type": "primary_clock",
+      "claim": "13/2−with555keVto9/2−and385keVto11/2−hasτ7.9±.5ps.",
+      "boundary": "Clockbelongsstatewiththisnetwork; not modern13/2−832keVBand4headbyspinonly.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-18",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2107
+      ],
+      "locator": "TableII15/2−",
+      "evidence_type": "primary_clock",
+      "claim": "15/2−with619keVto11/2−and235keVto13/2−hasτ3.8±.8ps.",
+      "boundary": "Fig2prints620ratherthanTableII619; retainrounding/printdifference.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-19",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        2106,
+        2107
+      ],
+      "locator": "Fig2/TableIIupperlimits",
+      "evidence_type": "primary_bound",
+      "claim": "17/2−(752,517keV)and19/2−763keVTableIIτ≤1ps;Fig2labels<1ps.",
+      "boundary": "Upperlimitsare notmeasuredcentralτ or generalabsenceoflifetimes.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-20",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2107
+      ],
+      "locator": "TableIIderivedstrengths",
+      "evidence_type": "derived_observable",
+      "claim": "NegativebandE2strengths:13/2−555keV17±3W.u.;15/2−619keV52±15W.u.;17/2−752keV≥65W.u.;19/2−763keV≥65W.u.",
+      "boundary": "Derivedfromclocksandadoptedbranchinputs;notindependentofthoseinputs.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-21",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2107
+      ],
+      "locator": "TableIIbderivedstrengths",
+      "evidence_type": "assumption_dependent_observable",
+      "claim": "B(M1)for170,385,235keV:65±2,45±4,56±15milliW.u.;517keV≥40milliW.u.",
+      "boundary": "Do notuseTableIImilliunitsasW.u.; positive3qpTableIIIusesW.u.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-22",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        2106,
+        2107
+      ],
+      "locator": "B(M1)assumptionparagraph",
+      "evidence_type": "component_boundary",
+      "claim": "Experimentalnegativeband B(M1)extractedassumingpureM1;PTRpredictsE2admixture<10%;385and235keVhavedoubleplacementsinRef1scheme.",
+      "boundary": "NoactualnewdeltameasurementorcompleteICCcorrectioncontract; modelsmalladmixtureisnotexperimentallyverifiedcomponentfraction.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-23",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        2106,
+        2107
+      ],
+      "locator": "PTR/geometricalcomparison",
+      "evidence_type": "model_result",
+      "claim": "PTR/geometricalE2agreefairlywellbut13/2−/15/2−M1calculationsabout3timeslarge;170PTRlargerandgeometricalsmallerthanexperiment.",
+      "boundary": "KeepEMfailurealongsideE2success; matchedlevels/oneBtrenddonotvalidateallobservables.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-24",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        2106
+      ],
+      "locator": "PTRinputparagraph",
+      "evidence_type": "model_input",
+      "claim": "PTRBCSΔ=.92MeV,λ50.6MeV,hbarω8.41MeV,N4/5shells;VMIJ0=6.9MeV−1,C=.0061MeV³;epsilon2=.165,epsilon4=.019fromsystematics.",
+      "boundary": "These1997parametersnotactual2022producerorconventionproof; κμsetalsoprinted.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-25",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        2106
+      ],
+      "locator": "PTRgamma/splittingparagraph",
+      "evidence_type": "fit_vs_prediction",
+      "claim": "Smallgamma≈−5°neededtomatchlevels;transitionprobabilitiesinsensitivetoexactgamma;signature≈70–100keVhadpreviouslymotivatedgamma≈−30°.",
+      "boundary": "OCRlosesminussign;effectivefitγnotmeasuredrigidshapeoruniquetriaxiality.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-26",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        2106,
+        2107
+      ],
+      "locator": "geometricalinputsandKtradeoff",
+      "evidence_type": "model_boundary",
+      "claim": "Geometricalmodelusesliteralνh11/2[541]9/2−,K9/2,gn−.24,alignment2hbar,gRZ/A;same deformation. K≈2.5couldimproveM1butE2≈2timeshigh.",
+      "boundary": "Preserveliteral[541],do notsilentlymake[514]; noactual2022configurationmatching bylabel.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-27",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2107
+      ],
+      "locator": "IBFMcomparison",
+      "evidence_type": "model_result",
+      "claim": "IBFMcanreproducesignaturesplittingbutE2≈.02–.12e²b²isabout2–3timesbelowmeasured;neighbor131Laagreementdoesnotremovefailure.",
+      "boundary": "Differentmodelcomparison,notnewindependentexperimentalvote.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-28",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        2106,
+        2107
+      ],
+      "locator": "positive3qpscope/Fig2/TableIII",
+      "evidence_type": "primary_clock",
+      "claim": "Positive3qp17/2+1269keVτ5.3±.6ps;19/2+954/201keVτ4.5±.5ps;21/2+159keVτ5.3±.6ps.",
+      "boundary": "3qpνh11/2⊗πh11/2⊗πg7/2assignmentinheritedfromRef1;statebindingrequiresnetworknotjustJ.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-29",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2107
+      ],
+      "locator": "positivebandhead/negative3qp",
+      "evidence_type": "coverage_boundary",
+      "claim": "Positive15/2+headlifetimenotdeterminedbecause1305keVinterbandlineweak;negative3qpνh11/2⊗(πh11/2)²notshownindicatestau<1ps.",
+      "boundary": "Neitherstatementisa133Ce-allstatesnoclockclaim; negative3qp<1islimit,notprecisemean.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-30",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2107
+      ],
+      "locator": "TableIIIunits",
+      "evidence_type": "derived_observable",
+      "claim": "TableIII17/2+→15/2−1269B(E1)=23microW.u.;19/2+→17/2−954=42microW.u.;19/2+→17/2+201B(M1)=.5W.u.;21/2+→19/2+159=1.1W.u.",
+      "boundary": "MicroE1notmilli; valuesasshownintablewithtextconflictpreserved.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-31",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2107
+      ],
+      "locator": "Finallyparagraph vsTableIII",
+      "evidence_type": "source_conflict",
+      "claim": "Finaltextorders19/2+→17/2−then17/2+→15/2−andquotes23then42microW.u.respectively,oppositetoTableIII.",
+      "boundary": "Noautomaticerratumorchoosetableascorrect;storebothliteralversions.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-32",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2107
+      ],
+      "locator": "positive3qpgeometricalmodel",
+      "evidence_type": "model_input_result",
+      "claim": "Geometricalprediction≈.5W.u.withK15/2,g-factors−.24,1.26,1.0andalignments2,4,1hbar;gamma0chosenbecause nosignificantsignaturesplitting.",
+      "boundary": "Orderofmagnitudeevidenceforpriorconfigurationnotuniquefit/axialrigiditymeasurement.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-33",
+      "physical_pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "printed_pages": [
+        2105,
+        2106,
+        2107,
+        2108
+      ],
+      "locator": "fullbodyinputreadiness",
+      "evidence_type": "readiness_boundary",
+      "claim": "Fourpagesdonotpublishlinebylinebranchfractions,deltatable,ICCcoefficients/treatment,Cov,velocityresponsekernels,rawintensities/jobcards.",
+      "boundary": "AbsenceofdescriptiondoesnotproveauthorsomittedICC; actualcorrectioncontractunknown; do notreconstructnewB/CIfromassumedbranches.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-34",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        2107
+      ],
+      "locator": "clockcrosscheck",
+      "evidence_type": "task_arithmetic",
+      "claim": "76±3ps timesln2=52.6796±2.0794ps,rounds52.7±2.1ps.",
+      "boundary": "ENSDF207.4keV11/2−52.7PS21isT1/2conversionconsistentwithprimary170network,notoriginalmeantau52.7 andnotindependentmeasurement.",
+      "lineage": "PrimaryTableIIplus069officialENSDFline79; conversionisstandarddecaydictionary",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-35",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        2106,
+        2107
+      ],
+      "locator": "Fig2networkversusmodernmapping",
+      "evidence_type": "transfer_boundary",
+      "claim": "Fig2identifiesstatesbyJpiandgammaedgeswithoutabsoluteExtable;negativebandreference9/2networkisnotmodernBand4entirenetwork.",
+      "boundary": "Noτassignedhereformodern832.0,1409.8,1809.1mothers;sameJupperlimitforother17/2−doesnotapplyautomatically.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    },
+    {
+      "id": "EM97-072-36",
+      "physical_pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "printed_pages": [
+        2105,
+        2106,
+        2107,
+        2108
+      ],
+      "locator": "acquisition/lineage",
+      "evidence_type": "source_lineage",
+      "claim": "1997RDDSisnewclockacquisitiondifferentfrom1974Gizon;intensities/schemeinheritMa1987and132Cepriorclockscontrolsame apparatus.",
+      "boundary": "Do notcountderivedB,ENSDFconversion,modelreuseasindependentclockmeasurements;previousrefsnotfullreadin072.",
+      "lineage": "Emediato1997 RDDS primary; measuredclocknew, gammaintensities/schemefromMa1987Ref1 where stated",
+      "self_audit": "Codex directsource self-audit;not human-reviewed"
+    }
+  ]
+}

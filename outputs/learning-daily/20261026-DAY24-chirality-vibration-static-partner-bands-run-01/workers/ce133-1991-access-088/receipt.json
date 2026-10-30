@@ -1,0 +1,39 @@
+{
+  "task": "ce133-1991-access-088",
+  "day": 24,
+  "reference": "1991Pa04",
+  "doi": "10.1088/0954-3899/17/5/009",
+  "title": "Electromagnetic properties of N=75 isotones: evidence for triaxiality at low spin",
+  "route": [
+    "https://api.crossref.org/works/10.1088%2F0954-3899%2F17%2F5%2F009",
+    "https://iopscience.iop.org/article/10.1088/0954-3899/17/5/009/pdf"
+  ],
+  "route_policy": "single Crossref metadata to official IOP PDF route; stop on HTML/block",
+  "crossref_status": 200,
+  "iop_status_chain": [
+    302,
+    200
+  ],
+  "iop_final_content_type": "text/html; charset=UTF-8",
+  "iop_final_file_type": "HTML/JavaScript Radware Bot Manager challenge, not PDF",
+  "iop_final_bytes": 14371,
+  "iop_final_sha256": "e740d939a951b4b0446bf940e5dde241be27def579cb30a3c03a82f983f86509",
+  "crossref_sha256": "bd71960941eec9a815a38aa3fe054fe821f54ee02258e9b380a95cf12cef9751",
+  "access": "failed_official_body_blocked",
+  "evidence_obtained": "Crossref bibliographic metadata only",
+  "science_evidence_obtained": false,
+  "low_spin_delta_em_primary": "unresolved; no正文 evidence",
+  "why_no_evidence": "Official IOP PDF request redirected to validate.perfdrive.com and returned a Radware Bot Manager CAPTCHA HTML page.",
+  "canonical_written": false,
+  "raw_written": false,
+  "git_operation": false,
+  "artifacts": [
+    "tmp/day24-ce133-1991-access-088/crossref.json",
+    "tmp/day24-ce133-1991-access-088/crossref-summary.json",
+    "tmp/day24-ce133-1991-access-088/crossref.headers",
+    "tmp/day24-ce133-1991-access-088/iop.headers",
+    "tmp/day24-ce133-1991-access-088/iop-pdf-attempt.bin",
+    "tmp/day24-ce133-1991-access-088/curl-status.txt",
+    "tmp/day24-ce133-1991-access-088/hashes.sha256"
+  ]
+}

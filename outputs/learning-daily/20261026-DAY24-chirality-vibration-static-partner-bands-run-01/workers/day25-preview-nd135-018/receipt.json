@@ -1,0 +1,117 @@
+{
+  "status": "Day25-preview-no-credit-bounded-source-unit-complete",
+  "created_utc": "2026-10-26T14:07:51.891260+00:00",
+  "identity": {
+    "title": "Chirality of135Nd reexamined: Evidence for multiple chiral doublet bands",
+    "first_author": "B.F.Lv",
+    "year": 2019,
+    "journal": "Physical Review C",
+    "volume": 100,
+    "article": "024314",
+    "doi": "10.1103/PhysRevC.100.024314"
+  },
+  "actual_body": {
+    "path": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
+    "sha256": "97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303",
+    "bytes": 285508,
+    "pages": 10,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "LaTeX with hyperref package",
+      "producer": "dvips + GPL Ghostscript GIT PRERELEASE 9.22",
+      "creationDate": "D:20190730203546-04'00'",
+      "modDate": "D:20190730203546-04'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  "actual_body_URL": "https://arxiv.org/pdf/1907.12809v1",
+  "body_access": "existing read-only raw; no new network request",
+  "targeted_VoR": {
+    "path": "tmp/day21-checkpoint103/lv2019-vor.pdf",
+    "sha256": "450a3032d7fecfdbc16f5a848be3d63842a536b0508dda73f3de55270fbf2066",
+    "bytes": 548795,
+    "pages": 9,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "Chirality of $\\sideset{^{135}}{}{\\mathop {\\rm Nd}}$ reexamined: Evidence for multiple chiral doublet bands",
+      "author": "B. F. Lv",
+      "subject": "Phys. Rev. C 100, 024314 (2019). doi:10.1103/PhysRevC.100.024314",
+      "keywords": "doi:10.1103/PhysRevC.100.024314 url:https://doi.org/10.1103/PhysRevC.100.024314",
+      "creator": "Copyright 2019 American Physical Society",
+      "producer": "Acrobat Distiller 10.1.10 (Windows)",
+      "creationDate": "D:20190809060720+05'30'",
+      "modDate": "D:20190809060742+05'30'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  "VoR_original_URL_from_existing_source": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.100.024314",
+  "reading": {
+    "raw_text_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "raw_visual_pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "raw_figures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "raw_TableI_pages": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "VoR_targeted_text_visual_pages": [
+      2,
+      3,
+      4,
+      8
+    ],
+    "VoR_reading_boundary": "targeted local topology/table/model/lineage cross-check only; not a fresh full9pageVoR read",
+    "equations": "unnumbered Harris reference, irrotationalinertia,Q0/g factor/model input expressions; no numbered equations"
+  },
+  "new_delta": [
+    "Two-family135NdDay25comparisonrow with minimumcompanionanddowngrade rules",
+    "NewlyisolatedD4prose589/649 target-family contradiction retained inrawandVoR",
+    "NewlyisolatedD2Ei2588.3 vs conditional2558.3energyclosure; no table correction"
+  ],
+  "lifetime_reanalysis_in_LV19": false,
+  "MU07_branch_normalizer_restored": false,
+  "published_support_preserved": true,
+  "shared_claim_flags_changed": false,
+  "historical_withdrawals_restored": false,
+  "ran114": false,
+  "course_state_write": false,
+  "new_run_or_session": false,
+  "completed_day_indices_changed": false,
+  "credit_added": 0,
+  "preview_scope": "exactDay25only;sameDay24run;noDay26",
+  "output_prefix": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day25-preview-nd135-018"
+}

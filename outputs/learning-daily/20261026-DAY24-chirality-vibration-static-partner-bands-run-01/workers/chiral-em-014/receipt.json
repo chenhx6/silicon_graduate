@@ -1,0 +1,260 @@
+{
+  "status": "direct-author-version-source-unit-complete",
+  "finished_utc": "2026-10-26T13:27:28.697832+00:00",
+  "publication": {
+    "title": "Two-dimensional collective Hamiltonian for chiral and wobbling modes. II. Electromagnetic transitions",
+    "authors": [
+      "X.H.Wu",
+      "Q.B.Chen",
+      "P.W.Zhao",
+      "S.Q.Zhang",
+      "J.Meng"
+    ],
+    "journal": "Physical Review C",
+    "volume": 98,
+    "article": "064302",
+    "year": 2018,
+    "doi": "10.1103/PhysRevC.98.064302"
+  },
+  "actual_body": {
+    "url": "https://arxiv.org/pdf/1809.04418v2",
+    "version": "arXiv1809.04418v2; sidebar13Sep2018; titlepagedated14Sep2018",
+    "bytes": 276035,
+    "sha256": "7d7c12ebc754f23721bd5367acc050c54dd3cf0f03f2f7480de407c1f3493dcb",
+    "pages": 17,
+    "VoR_read": false
+  },
+  "reading": {
+    "text_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "visual_pages": [
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "figures": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "tables": [],
+    "equations": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "core_method": "Single collective-state density averages local semiclassical TAC intraband B values; no coherent collective i→f transition amplitudes",
+  "actual_interband_outputs": false,
+  "actual_good_I_projection": false,
+  "mass_Omega_version_fully_resolved_in_this_body": false,
+  "new_experiment": false,
+  "phase_recovered": false,
+  "records": [
+    {
+      "url": "https://api.crossref.org/works/10.1103/PhysRevC.98.064302",
+      "curl_exit": 0,
+      "metadata": "200\thttps://api.crossref.org/works/10.1103/PhysRevC.98.064302\tapplication/json",
+      "error": "",
+      "bytes": 12066,
+      "sha256": "35a040c670df9082bdbde16121e5d4ef6770310f426e5580b6429a40eee2ae94",
+      "identity": {
+        "title": [
+          "Two-dimensional collective Hamiltonian for chiral and wobbling modes. II. Electromagnetic transitions"
+        ],
+        "author": [
+          {
+            "given": "X. H.",
+            "family": "Wu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Q. B.",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "P. W.",
+            "family": "Zhao",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "S. Q.",
+            "family": "Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "J.",
+            "family": "Meng",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "DOI": "10.1103/physrevc.98.064302",
+        "volume": "98",
+        "article-number": "064302",
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              3
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "https://link.aps.org/article/10.1103/PhysRevC.98.064302",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.98.064302/fulltext",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://export.arxiv.org/api/query?id_list=1809.04418v2",
+      "curl_exit": 0,
+      "metadata": "200\thttps://export.arxiv.org/api/query?id_list=1809.04418v2\tapplication/atom+xml; charset=utf-8",
+      "error": "",
+      "bytes": 2816,
+      "sha256": "5e8c74f841e1113c5027f778fee8ab793822e637f1d57e60b37ec13c91762c98",
+      "entries": [
+        {
+          "id": "http://arxiv.org/abs/1809.04418v2",
+          "title": "Two-dimensional collective Hamiltonian for chiral and wobbling modes II: Electromagnetic transitions",
+          "links": [
+            {
+              "href": "https://arxiv.org/abs/1809.04418v2",
+              "rel": "alternate",
+              "type": "text/html"
+            },
+            {
+              "href": "https://arxiv.org/pdf/1809.04418v2",
+              "rel": "related",
+              "type": "application/pdf",
+              "title": "pdf"
+            },
+            {
+              "rel": "related",
+              "href": "https://doi.org/10.1103/PhysRevC.98.064302",
+              "title": "doi"
+            }
+          ],
+          "authors": [
+            "X. H. Wu",
+            "Q. B. Chen",
+            "P. W. Zhao",
+            "S. Q. Zhang",
+            "J. Meng"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/pdf/1809.04418v2",
+      "curl_exit": 0,
+      "metadata": "200\thttps://arxiv.org/pdf/1809.04418v2\tapplication/pdf",
+      "error": "",
+      "bytes": 276035,
+      "sha256": "7d7c12ebc754f23721bd5367acc050c54dd3cf0f03f2f7480de407c1f3493dcb",
+      "pdf_signature": true,
+      "pages": 17,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "arXiv:1809.04418v2  [nucl-th]  13 Sep 2018",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "dvips(k) 5.996 Copyright 2016 Radical Eye Software",
+        "producer": "GPL Ghostscript GIT PRERELEASE 9.22",
+        "creationDate": "D:20180913203211-04'00'",
+        "modDate": "D:20180913203211-04'00'",
+        "trapped": "",
+        "encryption": null
+      }
+    }
+  ],
+  "canonical_raw_Git_session_credits_changed": false
+}

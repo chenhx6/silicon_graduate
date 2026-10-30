@@ -1,0 +1,24 @@
+{
+  "worker": "069-ce133-evaluated-zero-entry",
+  "completed_utc": "2026-10-26T19:03:26.137846+00:00",
+  "status": "bounded-public-record-entry-complete",
+  "successful_sources": [
+    "IAEA LiveChart levelsCSV",
+    "NNDC NuDat adoptedHTML",
+    "ENSDFsearch dataset list",
+    "ENSDFadopted133058001",
+    "ENSDFreaction133058014",
+    "official adopted/reaction reference records"
+  ],
+  "failed_route": "legacy massfile URL404 once, no retry",
+  "evaluation_version": "currently served2011 evaluation with2010-10-31cutoff, not2026 new measurement",
+  "actual_scope": "ground/low9/2/connecting11/2 fixed records plus comments/header/references only, not entireA133 evaluation deep read",
+  "atomic_locators": "evaluated-records.json; raw fixed-width line excerpts preserved",
+  "no_primary_paper_fulltext_download_or_reading": true,
+  "write_scope": "069 worker and tmp/day24-ce133-evaluated-zero-entry-069 only",
+  "canonical_raw_PLAN_Bib_Git_credentials_course_session_unchanged": true,
+  "files": {
+    "evaluated-records.json": "fcae8a5d9e98fae1ec8e2bd335918290ed529923b17eecaed499d3d219cf60a0",
+    "report.md": "78257c1a66724f4e2dc9b6ceaf5f1a6b22b10598ff8a7ad113f91b932960c330"
+  }
+}

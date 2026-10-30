@@ -1,0 +1,11 @@
+{
+  "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.76.044313/fulltext",
+  "curl_exit": 0,
+  "metadata": "401\thttps://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.76.044313/fulltext\tapplication/json",
+  "error": "",
+  "bytes": 66,
+  "sha256": "f692b64a0397ed55a6b9fd7f07c9175e06cb809c8c381387bf4a5a85490fdf52",
+  "pdf_signature": false,
+  "text": "{\"errors\":[{\"title\":\"10.1103/PhysRevC.76.044313 not authorized\"}]}",
+  "candidate_links": []
+}

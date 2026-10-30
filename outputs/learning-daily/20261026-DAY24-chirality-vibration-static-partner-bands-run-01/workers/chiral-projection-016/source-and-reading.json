@@ -1,0 +1,81 @@
+{
+  "title": "Chiral geometry in symmetry-restored states: Chiral doublet bands in128Cs",
+  "doi": "10.1103/PhysRevC.96.051303",
+  "authors": [
+    "F. Q. Chen",
+    "Q. B. Chen",
+    "Y. A. Luo",
+    "J. Meng",
+    "S. Q. Zhang"
+  ],
+  "publication": "Phys.Rev.C96,051303(2017)",
+  "crossref_date": [
+    [
+      2017,
+      11,
+      20
+    ]
+  ],
+  "raw": {
+    "raw_file": "raw/papers/codex-day10/chen-2017-128cs.pdf",
+    "pages": 12,
+    "bytes": 279433,
+    "sha256": "d176aed6be49e350c18d130ec388383b680da9844173f4e0b386cb34f0c676c6"
+  },
+  "version": "arXiv1708.07282v1;officialabsandPDFsidebar2017-08-24",
+  "official_abs": "https://arxiv.org/abs/1708.07282v1",
+  "official_body": "https://arxiv.org/pdf/1708.07282v1",
+  "body_downloaded_this_worker": false,
+  "body_read_from_existing_raw": true,
+  "pdf_internal_typeset_date": "August4,2021; not claimed as new scientific version",
+  "full_body_text_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "visual_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12
+  ],
+  "all_figures_read": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "key_equations_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "locators": "PDF/arXivprinted1–12, not VoRarticlepage numbers",
+  "WU18_reference_check": "existingWu2018bodyPDF17Ref55 verified; CH17ownRef55isBohrMottelson",
+  "scope": "source deepening, no new independent experiment or producer replay",
+  "needs_review": true
+}

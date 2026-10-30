@@ -1,0 +1,211 @@
+{
+  "key": "tohoku-chirality-page2",
+  "utc": "2026-10-26T11:46:09.832914+00:00",
+  "url": "https://tohoku.repo.nii.ac.jp/api/records/?q=Chirality&search_type=1&size=20&page=2",
+  "curl_exit": 0,
+  "metadata": "200\thttps://tohoku.repo.nii.ac.jp/api/records/?q=Chirality&search_type=1&size=20&page=2\tapplication/json",
+  "error": "",
+  "bytes": 96513,
+  "sha256": "a8f99339eec3ccc0dd50cac9c1697fce88ffe0a6e55c63691e005d7cae8d9d71",
+  "pdf_signature": false,
+  "hit_total": 31,
+  "hits": [
+    {
+      "id": 130975,
+      "title": [
+        "Reversal of domain wall chirality with ferromagnet thickness in W/(Co)FeB/MgO systems"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2020-07-30"
+            }
+          ],
+          "extention": "pdf",
+          "label": "FUKAMI-Shunsuke-2020Tour01-170.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/130975/files/FUKAMI-Shunsuke-2020Tour01-170.pdf"
+        }
+      ]
+    },
+    {
+      "id": 131750,
+      "title": [
+        "Bulk Photovoltaic Effect in a Pair of Chiral\u2013Polar Layered Perovskite-Type Lead Iodides Altered by Chirality of Organic Cations"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2020-10-01"
+            }
+          ],
+          "extention": "pdf",
+          "label": "TANIGUCHI-Kouji-2020Tour01-198.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/131750/files/TANIGUCHI-Kouji-2020Tour01-198.pdf"
+        }
+      ]
+    },
+    {
+      "id": 131753,
+      "title": [
+        "Contribution of systemic inflammation and nutritional status to the relationship between tooth loss and mortality in a community-dwelling older Japanese population: a mediation analysis of data from the Tsurugaya project"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2020-10-01"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KOMIYAMA-Takamasa-2020Tour01-201.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/131753/files/KOMIYAMA-Takamasa-2020Tour01-201.pdf"
+        }
+      ]
+    },
+    {
+      "id": 77931,
+      "title": [
+        "The Dilenjoate Chirality Rule (\u30b8\u30d9\u30f3\u30be\u30a8\u30fc\u30c8\u30ad\u30e9\u30ea\u30c6\u30a4\u5247)"
+      ],
+      "files": null
+    },
+    {
+      "id": 128139,
+      "title": [
+        "Effects of Vertical MHD Flows and Cell Rotation on Surface Chirality in Magnetoelectrodeposition"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2019-08-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "MOGI-Iwao-2019Tour01-68.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/128139/files/MOGI-Iwao-2019Tour01-68.pdf"
+        }
+      ]
+    },
+    {
+      "id": 47567,
+      "title": [
+        "Vortex-chirality control in mesoscopic disk magnets observed by photoelectron emission microscopy"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-17"
+            }
+          ],
+          "extention": "pdf",
+          "label": "JApplPhys_97_10J904.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/47567/files/JApplPhys_97_10J904.pdf"
+        }
+      ]
+    },
+    {
+      "id": 5352,
+      "title": [
+        "Systematic search of \u03c0h11/2\u2297\u03bdh11/2 chiral doublet bands and role of triaxiality in odd-odd Z=55 isotopes: 128,130,132,134Cs"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-02"
+            }
+          ],
+          "extention": "pdf",
+          "label": "PhysRevC.67.044319.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/5352/files/PhysRevC.67.044319.pdf"
+        }
+      ]
+    },
+    {
+      "id": 5318,
+      "title": [
+        "Candidate chiral twin bands in the odd-odd nucleus 132Cs: Exploring the limits of chirality in the mass A\u2248130 region"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-02"
+            }
+          ],
+          "extention": "pdf",
+          "label": "PhysRevC.68.024318.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/5318/files/PhysRevC.68.024318.pdf"
+        }
+      ]
+    },
+    {
+      "id": 12998,
+      "title": [
+        "\u9f9c\u30ce\u5c3e\u5c64\u306b\u898b\u3089\u308c\u308b\u5c64\u9593\u7570\u5e38"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-03"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004205674.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/12998/files/KJ00004205674.pdf"
+        }
+      ]
+    },
+    {
+      "id": 13040,
+      "title": [
+        "\u4f0a\u8c46\u534a\u5cf6\u306e\u5730\u8cea\u5b66\u7684\u8af8\u554f\u984c"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-03"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004208176.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/13040/files/KJ00004208176.pdf"
+        }
+      ]
+    },
+    {
+      "id": 13014,
+      "title": [
+        "\u975c\u5ca1\u770c\u5cf6\u7530\u30fb\u639b\u5ddd\u5e02\u4ed8\u8fd1\u306e\u7b2c\u4e09\u7cfb\u3068\u305d\u306e\u6d6e\u904a\u6027\u6709\u5b54\u866b\u5316\u77f3\u7fa4"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-03"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004205863.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/13014/files/KJ00004205863.pdf"
+        }
+      ]
+    }
+  ]
+}

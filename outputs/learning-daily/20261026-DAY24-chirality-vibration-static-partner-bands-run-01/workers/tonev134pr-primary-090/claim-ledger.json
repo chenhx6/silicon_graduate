@@ -1,0 +1,355 @@
+{
+  "source_sha256": "eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134",
+  "doi": "10.1103/PhysRevLett.96.052501",
+  "claims": [
+    {
+      "id": "TO06-090-01",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        "052501-1"
+      ],
+      "locator": "abstract",
+      "evidence_type": "primary_scope",
+      "claim": "States in134Pr populated via119Sn(19F,4n)134Pr; RDDS at87MeV and DSAM at83MeV with Euroball, inner BGO ball, Cologne plunger; reduced transition probabilities compared to TQPTR and IBFFM.",
+      "boundary": "Focus is two positive-parity candidate partner bands; not a whole-nucleus survey.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-02",
+      "physical_pdf_pages": [
+        1,
+        4
+      ],
+      "printed_pages": [
+        "052501-1",
+        "052501-4"
+      ],
+      "locator": "abstract/conclusions",
+      "evidence_type": "author_conclusion",
+      "claim": "Results do not support static chirality in134Pr and emphasize shape fluctuations; intrinsic chirality if present has dynamical character with nuclear system fluctuating between chiral and achiral configurations.",
+      "boundary": "Does not claim total impossibility of dynamic chirality; author suggests two-quasiparticle coupling to shape degrees of freedom may be the prominent mechanism.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-03",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        "052501-1"
+      ],
+      "locator": "chiral context",
+      "evidence_type": "model_background",
+      "claim": "Spontaneous breaking of chiral symmetry proposed when mutually perpendicular angular momenta of valence protons, neutrons, core align along short, long, intermediate axes of triaxial core; leads to near-degenerate doublet bands of same parity.",
+      "boundary": "This is the model paradigm being tested, not a proved experimental premise.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-04",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        "052501-1"
+      ],
+      "locator": "prior134Pr context",
+      "evidence_type": "source_lineage",
+      "claim": "134Pr first reported near-degenerate same-parity bands Ref4,5 crossing above I>15hbar; IBFFM Ref6 gave alternative interpretation attributing yrast band to triaxial core ground state and yrare band to gamma band/higher collective core components.",
+      "boundary": "Prior degeneracy observation does not equal measured transition strengths.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-05",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        "052501-2"
+      ],
+      "locator": "beam/targets",
+      "evidence_type": "primary_setup",
+      "claim": "Vivitron accelerator at IReS Strasbourg. RDDS: 87MeV, 0.5 mg/cm² 119Sn on 1.8 mg/cm² 181Ta foil facing beam, recoil v=.98(2)% c stopped in 6.0 mg/cm² Au. DSAM: 83MeV, 0.7 mg/cm² 119Sn on 9.5 mg/cm² 181Ta backing.",
+      "boundary": "Two separate runs and targets; stopping media differ (Au vs Ta).",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-06",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        "052501-2"
+      ],
+      "locator": "spectrometer/trigger",
+      "evidence_type": "primary_setup",
+      "claim": "Euroball IV array plus inner BGO ball; coincidence trigger required >=3 gamma in Ge cluster/clover segments and >=3 segments in inner ball; standard add-back for Compton scattering.",
+      "boundary": "No individual clover efficiency curves or angle-dependent response kernels supplied.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-07",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        "052501-2"
+      ],
+      "locator": "RDDS distances and DDCM",
+      "evidence_type": "method",
+      "claim": "RDDS data taken at 20 target-to-stopper distances from electrical contact to 2500 micrometers; standard DDCM with gates on shifted and unshifted components below level of interest; lifetime tau calculated using peak areas within sensitivity region.",
+      "boundary": "DDCM avoids unobserved feeding dependence in ideal gating; raw peak areas not published.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-08",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        "052501-2"
+      ],
+      "locator": "DSAM and DESASTOP",
+      "evidence_type": "method",
+      "claim": "DSAM line shapes treated by DDCM using Monte Carlo simulation of recoil slowing-down with modified DESASTOP.",
+      "boundary": "Stopping power and velocity profile details rely on code references.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-09",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        "052501-2"
+      ],
+      "locator": "TableI levels and check",
+      "evidence_type": "primary_clock",
+      "claim": "Lifetimes of Band1 10+ to 18+ and Band2 13+ to 17+ deduced; all determined for first time except 10+1 which agrees with Klemme1999 Ref13.",
+      "boundary": "All reported quantities are tau(ps), mean lifetimes.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-10",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        "052501-2",
+        "052501-3"
+      ],
+      "locator": "TableI overlap footnote",
+      "evidence_type": "method_control",
+      "claim": "Lifetimes for 14+1 and 15+2 determined from both RDDS and DSAM in very good agreement within error; DSAM reported due to higher statistical significance.",
+      "boundary": "Shows overlap between methods for two states; raw separate values not tabulated.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-11",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        "052501-3"
+      ],
+      "locator": "multipolarity/polarization",
+      "evidence_type": "primary_measurement",
+      "claim": "Euroball clover rings used as Compton polarimeter. Delayed component of 306keV doublet confirmed E1 as in Roberts2003 Ref14. Directional correlation and linear polarization assign M1 with negligible E2 to ΔI=1 intraband transitions; ΔI=2 intraband and interband show E2 character.",
+      "boundary": "Polarization confirms multipolarity character qualitatively; detailed polarization coefficients are deferred to forthcoming paper.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-12",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        "052501-3"
+      ],
+      "locator": "deferred publication",
+      "evidence_type": "completeness_boundary",
+      "claim": "Text explicitly states: Details of the lifetime analysis, branching ratios and linear polarizations coefficients will be reported in a forthcoming publication [15] (Tonev et al., to be published).",
+      "boundary": "Tonev2006 PRL itself does not publish the complete numerical branching ratio table, polarization numbers, or covariance matrix.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-13",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        "052501-3"
+      ],
+      "locator": "Fig3 experiment B(E2)",
+      "evidence_type": "primary_result",
+      "claim": "In the 14+–19+ near-degeneracy region, experimental intraband B(E2) values for Band1 are a factor of 2 to 3 larger than those of Band2.",
+      "boundary": "Plotted B(E2) are derived from measured tau and revised branching ratios; exact numbers are in Fig3 plots, not TableI.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-14",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        "052501-3"
+      ],
+      "locator": "Fig3 experiment B(M1)",
+      "evidence_type": "primary_result",
+      "claim": "Experimental B(M1) values in both partner bands behave similarly within uncertainties and indicate relatively strong transition strengths; no pronounced staggering observed in either band.",
+      "boundary": "Absence of M1 staggering contrasts with symmetric static chiral prediction.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-15",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        "052501-3"
+      ],
+      "locator": "B(M1)/B(E2) comparison",
+      "evidence_type": "comparison",
+      "claim": "B(M1)/B(E2) ratios from lifetime data agree with intensity results of Ref4, differing only at 13+1 and 15+1 from Ref16; corresponding ratios for the two bands differ in all measurements; no staggering in Band1.",
+      "boundary": "Revises earlier branching interpretations; confirms partner bands have different B ratios.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-16",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        "052501-3"
+      ],
+      "locator": "static chirality rejection",
+      "evidence_type": "interpretation",
+      "claim": "Results are incompatible with static chirality where intraband B(E2) transition strengths must be almost equal; nucleus stays in very soft vibrational regime.",
+      "boundary": "Rejection applies to the static/rigid chiral limit.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-17",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        "052501-3"
+      ],
+      "locator": "TQPTR comparison",
+      "evidence_type": "model_result",
+      "claim": "TQPTR assumes rigid triaxial core with cranking inertia ratios Js:Ji:Jl = 1.52:3.55:1; predicts transition from dynamic to static chirality, giving equalizing B(E2), increasing B(E2) with spin, and pronounced B(M1) staggering above 12+; all in clear disagreement with experiment.",
+      "boundary": "TQPTR model fails to reproduce experimental behavior.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-18",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        "052501-3"
+      ],
+      "locator": "IBFFM comparison",
+      "evidence_type": "model_result",
+      "claim": "IBFFM couples proton and neutron to triaxial core with cubic IBA term generating triaxial equilibrium with shape fluctuations fixed by 134Ce data; predicts larger B(E2) difference between bands, cancels M1 staggering, and reproduces nearly constant B(E2) trend.",
+      "boundary": "IBFFM matches experimental trends better, supporting role of shape fluctuations.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-19",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        "052501-4"
+      ],
+      "locator": "wave function overlap/tunneling",
+      "evidence_type": "model_interpretation",
+      "claim": "Static chirality corresponds to weak overlap/tunneling between left- and right-handed sectors (equal transition strengths); dynamic chirality corresponds to large overlap (unequal transition strengths with opposite sign matrix elements due to orthogonality).",
+      "boundary": "Author’s theoretical formulation of the difference between static and dynamic chiral regimes.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-20",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        "052501-4"
+      ],
+      "locator": "low spin B(E2) mechanism",
+      "evidence_type": "model_interpretation",
+      "claim": "Assumption of gamma=30° in TQPTR gives B(E2)=0 at low spin when rotational axis lies in s-l plane; admixture of near-axial shapes in IBFFM increases low-spin B(E2) to observed nearly constant level.",
+      "boundary": "Model explanation for why rigid triaxiality fails on B(E2) slope.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-21",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        "052501-4"
+      ],
+      "locator": "core component interpretation",
+      "evidence_type": "model_interpretation",
+      "claim": "Better IBFFM match supports interpretation of Ref6 where yrast band is predominantly core ground state while yrare band contains major gamma-band component; does not necessarily contradict chiral interpretation because TQPTR Ref19 had similar composition.",
+      "boundary": "Connects IBFFM core states with chiral wave function composition.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-22",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        "052501-4"
+      ],
+      "locator": "PE06 lineage connection",
+      "evidence_type": "source_lineage",
+      "claim": "Petrache2006 Ref9 cites Tonev AIP764(2005)93 and PRL96,052501(2006) (this paper) for 134Pr lifetimes; Petrache2006 Ref11 (Starosta et al., to be published) provided the separate branching data for two-band mixing; Tonev Ref15 is a different to-be-published paper.",
+      "boundary": "Confirms exact bibliographic mapping; PE06 is a critical analysis using these lifetimes and Ref11 branches, not an independent re-measurement.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "TO06-090-23",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        "052501-4"
+      ],
+      "locator": "downstream wiki correction",
+      "evidence_type": "downstream_impact",
+      "claim": "Starosta2001 source page text saying chirality was strictly negated by Tonev2006 and Petrache2006 overstates source; Tonev concludes static chirality is not supported while dynamic chirality or shape-degree coupling remains open.",
+      "boundary": "Flagged for downstream targeted maintenance.",
+      "lineage": "Tonev2006 experimental primary with TQPTR/IBFFM comparisons",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    }
+  ]
+}

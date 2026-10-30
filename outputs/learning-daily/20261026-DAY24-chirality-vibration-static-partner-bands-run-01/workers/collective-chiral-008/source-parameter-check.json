@@ -1,0 +1,21 @@
+{
+  "input": {
+    "gamma_degrees": -30,
+    "J0_hbar2_per_MeV": 40
+  },
+  "formula": "Eq6 Jk=J0 sin²(gamma−2πk/3), k1,2,3; no4/3factor",
+  "result_Jk_hbar2_per_MeV": [
+    10.000000000000014,
+    40.0,
+    10.0
+  ],
+  "expected": [
+    10,
+    40,
+    10
+  ],
+  "max_abs_residual": 1.4210854715202004e-14,
+  "locator": "arXivv2PDF4 Eq6 and PDF8 §III",
+  "interpretation": "parameter/transcription check only, not exact PRM replay or inference of experimental inertia",
+  "passed": true
+}

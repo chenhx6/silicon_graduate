@@ -1,0 +1,81 @@
+{
+  "source": "tmp/day24-bengtsson1985-046/attachment-object-response.pdf",
+  "sha256": "605e785734279f1a7a6dfd234f1d3ff6b136f983b134ccf9d6b766f3b027d6b8",
+  "locator": "physicalPDF6/printed19Table1",
+  "columns": [
+    "N_rot",
+    "proton_kappa",
+    "proton_mu",
+    "neutron_kappa",
+    "neutron_mu"
+  ],
+  "rows": [
+    [
+      0,
+      0.12,
+      0.0,
+      0.12,
+      0.0
+    ],
+    [
+      1,
+      0.12,
+      0.0,
+      0.12,
+      0.0
+    ],
+    [
+      2,
+      0.105,
+      0.0,
+      0.105,
+      0.0
+    ],
+    [
+      3,
+      0.09,
+      0.3,
+      0.09,
+      0.25
+    ],
+    [
+      4,
+      0.065,
+      0.57,
+      0.07,
+      0.39
+    ],
+    [
+      5,
+      0.06,
+      0.65,
+      0.062,
+      0.43
+    ],
+    [
+      6,
+      0.054,
+      0.69,
+      0.062,
+      0.34
+    ],
+    [
+      7,
+      0.054,
+      0.69,
+      0.062,
+      0.26
+    ],
+    [
+      8,
+      0.054,
+      0.69,
+      0.062,
+      0.26
+    ]
+  ],
+  "Nrot_definition": "n1+n2+n3inrotatingoscillatorbasis;offshellcouplingsdropped",
+  "fit_scope": "rareearthetactinidevalenceRef25;light8/20/28gaps;authorstestsnotreplayed",
+  "WK22_actual_values_verified": false,
+  "Nilsson_mu_not_BCS_chemical_potential": true
+}

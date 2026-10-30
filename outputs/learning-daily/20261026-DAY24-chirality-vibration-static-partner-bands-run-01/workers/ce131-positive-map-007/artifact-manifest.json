@@ -1,0 +1,277 @@
+{
+  "outputs": [
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce131-positive-map-007/checks.json",
+      "sha256": "5deadbae3a650d7deb515df8a55e0fc51d3720cacab09244f760d21fe61c5590",
+      "bytes": 488
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce131-positive-map-007/node-edge-crosswalk.json",
+      "sha256": "99cf7495fbcb646b6557b3480278237e2bfdf23875cc44a88e2e819c7f6ffb94",
+      "bytes": 27765
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce131-positive-map-007/report.md",
+      "sha256": "76c0773b2f22885af7cdf7c77d89e65d9a11978438f820f1a21bd9ae1fe3adbc",
+      "bytes": 9804
+    }
+  ],
+  "staging": [
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-fig41-band2-low-links.png",
+      "sha256": "4d5f352c3c38dc3b3850d8e4c0a05e2d81a27dd45b8f10c257f4a7795344941a",
+      "bytes": 101547
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-fig41-band3-band5-links.png",
+      "sha256": "02687a07ee332bc8642cd133580437cbd83d54096653f81651b29b0342b8cc10",
+      "bytes": 96864
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-fig41-positive-low.png",
+      "sha256": "4bb00df87440a97aced3f12f5dc076afeb31b2e4679ecf66d80b98a25f321f7b",
+      "bytes": 134009
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf055.txt",
+      "sha256": "0d538d0cccf4526ea64dba82324ca6884cd6ea43d5b983ffb3429abce379f033",
+      "bytes": 1540
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf056.txt",
+      "sha256": "2e5e5c3948bd45f628e2b22bd1c312fd0cde036cbe4422c2f5c6479b9e55e895",
+      "bytes": 2132
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf057.png",
+      "sha256": "a3f5dcce2d74abb0f055c5652e0252e8ebdd2e651b313f4940ded6c70d31e43b",
+      "bytes": 143149
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf057.txt",
+      "sha256": "e0fc42d4cf238beae0ed179126f915ae39061802a712d3f4d7e1830222f3ce1e",
+      "bytes": 8086
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf058.txt",
+      "sha256": "00b2319afcbe990c820681f06b4fd0c18b7f2f583289017cb282f07f7a08275d",
+      "bytes": 1829
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf059.txt",
+      "sha256": "2ea08ce292c4bcb7aaade19366bdf4ea29fd7ad0d6fe5f1225018cc233be4791",
+      "bytes": 1893
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf060.txt",
+      "sha256": "4f522488d30f50873e51a8f8633a7b2ffddad36e68d297aef29a8c601a3dc742",
+      "bytes": 1155
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf061.txt",
+      "sha256": "7439dbd3f9bc245dffec8a3339ab97b4a96b705a268499aa23da955ab1b98750",
+      "bytes": 1155
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf062.txt",
+      "sha256": "cbcc8a31926471cfbb34763cfdedaedd86059e0dc14e063bf0fd43fd69223827",
+      "bytes": 1271
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf063.txt",
+      "sha256": "2f4cfb1605b6fc5a10404abfe684d60c4894801bab9c62c5c34d06d9cbf1c878",
+      "bytes": 813
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf064.txt",
+      "sha256": "8ba9b43b86c519cfb4ee236dc3d1f6dd7f51f33e628e13d1ac4bd345b2188fd2",
+      "bytes": 839
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf065.txt",
+      "sha256": "5aa3ec541d6d10d8289aefdd4db28c9ff80f0b075db1c030483b695005b3474a",
+      "bytes": 977
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf066.txt",
+      "sha256": "e3274b6eb8dad4c7cd6c2dc862a3ce8be769579e2b74bac2613b2065ab971a89",
+      "bytes": 700
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf067.txt",
+      "sha256": "f8224329c6a320d90550882a35ed2395f27e25016623742811446cbad9632a2b",
+      "bytes": 1734
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf068.txt",
+      "sha256": "3da9c37a03c14af9a86305790cc61a5434f59f3d8e5044505357fb8613bd8b92",
+      "bytes": 1735
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf069.txt",
+      "sha256": "5bc4d0964b08e0017c4d701ffff37b6f8dd188c54280b99a20ed77e92785cc8f",
+      "bytes": 2149
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf070.png",
+      "sha256": "8cc7c3d8277cd8a537e0fa1c29d410571000816df85ff6f9dbce1556a3ce296f",
+      "bytes": 119917
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf070.txt",
+      "sha256": "cbb9379bd910202183dc77d0d4d493c6a4209ef86ed67aa8927fa1e5730c1fb4",
+      "bytes": 1829
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf071.txt",
+      "sha256": "030618bc5849eb3b7e5efb1cc1d0ec5dc86a9464d4e10013494f3d50fcbaab2c",
+      "bytes": 1157
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf072.png",
+      "sha256": "c470b4adfc815b021ea332a39c5f3dcfb96c8b59687d564f69b9dffe304e9088",
+      "bytes": 142720
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf072.txt",
+      "sha256": "5c7ef95cf1100c74a19f4e07355675f2e5a95cca89cf3920dbf6d898938d9a6c",
+      "bytes": 2178
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf073.png",
+      "sha256": "f0b3a2e6ce6b2f49f3cc2aeafb0e71cf0931c3ddaec7a08c6186c433608c5e61",
+      "bytes": 99907
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf073.txt",
+      "sha256": "08fc5cd19e08a296482e1fd1f80e0b23bb9402581574efcfa53105ffdd752a2e",
+      "bytes": 1485
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf074.txt",
+      "sha256": "ba99fba9ff50b17cdf87f45511804ed1059fe59f001ae27f8204af83b1bb6251",
+      "bytes": 1105
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf075.txt",
+      "sha256": "8fda186d2640b38e41631a6bf0468d8f278971125096b5554d5233a3ebb8d2c6",
+      "bytes": 888
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf076.png",
+      "sha256": "de0edeed94e3ca10275a84ea439dfd8e532b2336ccac1b887bd2d6fc035b47da",
+      "bytes": 141017
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf076.txt",
+      "sha256": "085509be3ce0286c0ead107be120a3d2b7a3d80469641bc4529959ce6a8f4012",
+      "bytes": 1920
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf077.png",
+      "sha256": "da415877b28d40eb06b3c431efa0b64ecdcae018b014c53ad531f269df7cf512",
+      "bytes": 82258
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf077.txt",
+      "sha256": "d4189d850e067f1546d8673797caed83f5c8f5b885388ecfd27eb53d0206fe0a",
+      "bytes": 901
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf078.png",
+      "sha256": "6289cb7743a169801bdb73f1b4f36d7fd7fe4a483a8774acd90e71787328dc5e",
+      "bytes": 128785
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf078.txt",
+      "sha256": "3f4efc54557c3890c8ee31cb96f87cc56ad504776e9ccc9bbff7d4768b9adee1",
+      "bytes": 1501
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf079.txt",
+      "sha256": "cd182471ed6ac0017e016a805ce8c935aaee1a1ba3e28401a0c69dd3454c9a32",
+      "bytes": 1613
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf080.png",
+      "sha256": "a3e3679689c4d5a04c9d936ae9745874c70f1de76ce30377056171ed9922f38d",
+      "bytes": 80565
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf080.txt",
+      "sha256": "68a56c57cda3ee5951b08e331366e69b392848ed08be3fff5f799325c060654f",
+      "bytes": 1299
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf081.txt",
+      "sha256": "cf743aa7daeb3c2fbac988318662402de98f728d2bd73cb566ce8a6565c40342",
+      "bytes": 2554
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf082.txt",
+      "sha256": "49fce19736abb9fe1a3be892ba626af631383584710ee403f2dbd8fc7120e7b6",
+      "bytes": 1918
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf083.png",
+      "sha256": "25cfb0e99f00b1923b1b6d100925015b2cac7136cc79bc3d024d2ce6750c8ff0",
+      "bytes": 81752
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf083.txt",
+      "sha256": "ec08b35504fb23d6e77aee31f6e1ae3ad9cfe0924d40f432bc9bc7512a96aa1d",
+      "bytes": 446
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf084.txt",
+      "sha256": "cccfb191fa9044b735f620597b39b9b0cdc65eb40b253a0fe56bc3a4c4224315",
+      "bytes": 1739
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf085.txt",
+      "sha256": "7ba01f125e4b303a0cba24f8af7304f3cceb715526e1fd73c32533f0919fa53f",
+      "bytes": 2056
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf086.png",
+      "sha256": "c1532555083e68b8474e65c50444095b0ca7d1e82c15ae3044c52fb69d876a9f",
+      "bytes": 165826
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf086.txt",
+      "sha256": "ae6b6a63d8caff8a0a915fbee9ca82b3bff20191620b42415ad1815da7fd1de4",
+      "bytes": 1800
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-pdf087.txt",
+      "sha256": "63871cbe0cfe16719171d2207639bd526dcfbc53e74dd9e712cc1a8a840fef92",
+      "bytes": 693
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/aw13-raw-check.json",
+      "sha256": "4215ab724895d6c02ce130ca6606694f057c23fa086edc93801caff89525c8b6",
+      "bytes": 170
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/li04-pdf01.png",
+      "sha256": "cf0ede8921182a816800183cd5847467813cc0fcd680055c9c078709168b2409",
+      "bytes": 468201
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/li04-pdf02.png",
+      "sha256": "f5e3f6696331b22ac36613d5a40b950e748a70d10d15c74d1c1c85c974c15022",
+      "bytes": 361324
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/li04-pdf03.png",
+      "sha256": "ed703b829b83307e549923a2329627b9a45f05eda5e0850838c21c971babe70d",
+      "bytes": 485111
+    },
+    {
+      "path": "tmp/day24-ce131-positive-map-007/li04-raw-check.json",
+      "sha256": "b381fa6ce4500c50123e7fe67f2aa0d06b70bbda174f13858562f49583abe57d",
+      "bytes": 166
+    }
+  ],
+  "protected": "No canonical/raw/Git changes. Existing Band5 highspin reviewed mapping unchanged."
+}

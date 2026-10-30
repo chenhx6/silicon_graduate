@@ -1,0 +1,428 @@
+{
+  "kind": "source-table-outgoing-line-ledger-not-totalBR-or-lifetime-reconstruction",
+  "source": "Lv2019thesis Table5.1 physicalPDF93–95 printed92–94, footnotesphysicalPDF97printed96",
+  "parents": [
+    {
+      "family": "D5",
+      "Ei_keV": 6521.8,
+      "Ji_pi": "18+",
+      "outgoing_line_inventory": [
+        {
+          "Egamma_keV": 283.8,
+          "relative_Igamma": [
+            2.5,
+            0.4
+          ],
+          "mode_as_printed": "M1/E2",
+          "Jf_pi_as_printed": "17+",
+          "angular_observable": {
+            "RDCO": [
+              0.84,
+              0.15
+            ],
+            "gate_class": "stretched_dipole(f)"
+          },
+          "daughter_family_crosswalk": "D5",
+          "daughter_Ex_Ei_minus_Egamma_keV": 6238.0,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 93,
+          "printed_page": 92,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        },
+        {
+          "Egamma_keV": 515.6,
+          "relative_Igamma": [
+            0.35,
+            0.1
+          ],
+          "mode_as_printed": "E2",
+          "Jf_pi_as_printed": "16+",
+          "angular_observable": {
+            "RDCO": [
+              0.92,
+              0.33
+            ],
+            "gate_class": "stretched_quadrupole(e)"
+          },
+          "daughter_family_crosswalk": "D5",
+          "daughter_Ex_Ei_minus_Egamma_keV": 6006.2,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 93,
+          "printed_page": 92,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        },
+        {
+          "Egamma_keV": 579.8,
+          "relative_Igamma": [
+            1.01,
+            0.08
+          ],
+          "mode_as_printed": "M1/E2",
+          "Jf_pi_as_printed": "17+",
+          "angular_observable": {
+            "RDCO": [
+              1.22,
+              0.18
+            ],
+            "gate_class": "stretched_dipole(f)"
+          },
+          "daughter_family_crosswalk": null,
+          "daughter_Ex_Ei_minus_Egamma_keV": 5942.0,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 94,
+          "printed_page": 93,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        },
+        {
+          "Egamma_keV": 764.6,
+          "relative_Igamma": [
+            1.9,
+            0.2
+          ],
+          "mode_as_printed": "E2",
+          "Jf_pi_as_printed": "16+",
+          "angular_observable": {
+            "RDCO": [
+              2.16,
+              0.29
+            ],
+            "gate_class": "stretched_dipole(f)"
+          },
+          "daughter_family_crosswalk": "gamma_band_same_Ei_Jpi_candidate",
+          "daughter_Ex_Ei_minus_Egamma_keV": 5757.2,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 94,
+          "printed_page": 93,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        },
+        {
+          "Egamma_keV": 826.9,
+          "relative_Igamma": [
+            2.7,
+            0.3
+          ],
+          "mode_as_printed": "E2",
+          "Jf_pi_as_printed": "16+",
+          "angular_observable": {
+            "RDCO": [
+              2.15,
+              0.3
+            ],
+            "gate_class": "stretched_dipole(f)"
+          },
+          "daughter_family_crosswalk": null,
+          "daughter_Ex_Ei_minus_Egamma_keV": 5694.9,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 94,
+          "printed_page": 93,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        },
+        {
+          "Egamma_keV": 951.8,
+          "relative_Igamma": [
+            0.16,
+            0.02
+          ],
+          "mode_as_printed": "E2",
+          "Jf_pi_as_printed": "16+",
+          "angular_observable": {
+            "Rac": [
+              1.31,
+              0.22
+            ]
+          },
+          "daughter_family_crosswalk": null,
+          "daughter_Ex_Ei_minus_Egamma_keV": 5570.0,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 94,
+          "printed_page": 93,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        },
+        {
+          "Egamma_keV": 1330.5,
+          "relative_Igamma": {
+            "upper_limit": 0.01
+          },
+          "mode_as_printed": "E2",
+          "Jf_pi_as_printed": "16+",
+          "angular_observable": {},
+          "daughter_family_crosswalk": null,
+          "daughter_Ex_Ei_minus_Egamma_keV": 5191.3,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 94,
+          "printed_page": 93,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        }
+      ],
+      "intensity_normalization_reference": "373.7keV GSB2+→0+,I=100",
+      "intensity_basis": "efficiency-corrected relative photon intensities; totalprojection+gatedspectra combination",
+      "same_gate_all_rows_established": false,
+      "total_decay_inventory_complete": false
+    },
+    {
+      "family": "D5-C",
+      "Ei_keV": 7543.0,
+      "Ji_pi": "20+",
+      "outgoing_line_inventory": [
+        {
+          "Egamma_keV": 330.0,
+          "relative_Igamma": [
+            0.42,
+            0.09
+          ],
+          "mode_as_printed": "M1",
+          "Jf_pi_as_printed": "19+",
+          "angular_observable": {
+            "Rac": [
+              0.69,
+              0.15
+            ]
+          },
+          "daughter_family_crosswalk": "D5-C",
+          "daughter_Ex_Ei_minus_Egamma_keV": 7213.0,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 94,
+          "printed_page": 93,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        },
+        {
+          "Egamma_keV": 611.4,
+          "relative_Igamma": [
+            0.21,
+            0.1
+          ],
+          "mode_as_printed": "E2",
+          "Jf_pi_as_printed": "18+",
+          "angular_observable": {},
+          "daughter_family_crosswalk": "D5-C_candidate_from_scheme",
+          "daughter_Ex_Ei_minus_Egamma_keV": 6931.6,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 94,
+          "printed_page": 93,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        },
+        {
+          "Egamma_keV": 1021.2,
+          "relative_Igamma": [
+            0.6,
+            0.1
+          ],
+          "mode_as_printed": "E2",
+          "Jf_pi_as_printed": "18+",
+          "angular_observable": {
+            "Rac": [
+              1.42,
+              0.21
+            ]
+          },
+          "daughter_family_crosswalk": "D5",
+          "daughter_Ex_Ei_minus_Egamma_keV": 6521.8,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 95,
+          "printed_page": 94,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        }
+      ],
+      "intensity_normalization_reference": "373.7keV GSB2+→0+,I=100",
+      "intensity_basis": "efficiency-corrected relative photon intensities; totalprojection+gatedspectra combination",
+      "same_gate_all_rows_established": false,
+      "total_decay_inventory_complete": false
+    },
+    {
+      "family": "D5-C",
+      "Ei_keV": 7927.1,
+      "Ji_pi": "21+",
+      "outgoing_line_inventory": [
+        {
+          "Egamma_keV": 384.1,
+          "relative_Igamma": [
+            0.6,
+            0.1
+          ],
+          "mode_as_printed": "M1/E2",
+          "Jf_pi_as_printed": "20+",
+          "angular_observable": {
+            "Rac": [
+              0.71,
+              0.13
+            ]
+          },
+          "daughter_family_crosswalk": "D5-C",
+          "daughter_Ex_Ei_minus_Egamma_keV": 7543.0,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 94,
+          "printed_page": 93,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        },
+        {
+          "Egamma_keV": 672.5,
+          "relative_Igamma": [
+            0.5,
+            0.2
+          ],
+          "mode_as_printed": "M1/E2",
+          "Jf_pi_as_printed": "20+",
+          "angular_observable": {
+            "RDCO": [
+              1.45,
+              0.48
+            ],
+            "gate_class": "stretched_dipole(f)"
+          },
+          "daughter_family_crosswalk": "D5",
+          "daughter_Ex_Ei_minus_Egamma_keV": 7254.6,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 94,
+          "printed_page": 93,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        },
+        {
+          "Egamma_keV": 714.1,
+          "relative_Igamma": [
+            0.18,
+            0.04
+          ],
+          "mode_as_printed": "E2",
+          "Jf_pi_as_printed": "19+",
+          "angular_observable": {
+            "Rac": [
+              1.33,
+              0.4
+            ]
+          },
+          "daughter_family_crosswalk": "D5-C",
+          "daughter_Ex_Ei_minus_Egamma_keV": 7213.0,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 94,
+          "printed_page": 93,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        },
+        {
+          "Egamma_keV": 1060.7,
+          "relative_Igamma": [
+            0.8,
+            0.4
+          ],
+          "mode_as_printed": "E2",
+          "Jf_pi_as_printed": "19+",
+          "angular_observable": {},
+          "daughter_family_crosswalk": "D5",
+          "daughter_Ex_Ei_minus_Egamma_keV": 6866.4,
+          "daughter_energy_kind": "conditional subtraction, not independently measured new energy",
+          "physical_PDF_page": 95,
+          "printed_page": 94,
+          "delta": null,
+          "ICC": null,
+          "total_branch_probability": null,
+          "absolute_photon_probability_per_parent": null,
+          "tau_ps": null,
+          "absolute_BE2_BM1": null,
+          "exact_line_intensity_gate": null,
+          "gate_identity_boundary": "e/f is DCO gate class, not the actual intensity extraction gates"
+        }
+      ],
+      "intensity_normalization_reference": "373.7keV GSB2+→0+,I=100",
+      "intensity_basis": "efficiency-corrected relative photon intensities; totalprojection+gatedspectra combination",
+      "same_gate_all_rows_established": false,
+      "total_decay_inventory_complete": false
+    }
+  ],
+  "unknown_is_JSON_null": true,
+  "limits": [
+    "One printed D5 upperlimit is retained as <.01 relative intensity, without confidence-level interpretation",
+    "No parent-group renormalization to1; no IC/δ/clock supplied",
+    "Samecampaign is not samegate/producer/Cov",
+    "Daughter energies are explicit conditional subtraction; uncertain family mappings are labelled candidates"
+  ]
+}

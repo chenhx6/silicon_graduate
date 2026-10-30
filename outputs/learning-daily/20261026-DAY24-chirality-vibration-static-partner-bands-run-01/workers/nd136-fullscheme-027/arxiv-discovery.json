@@ -1,0 +1,9 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=doi:%2210.1103/PhysRevC.98.044304%22&max_results=3",
+  "curl_exit": 0,
+  "metadata": "200\thttps://export.arxiv.org/api/query?search_query=doi:%2210.1103/PhysRevC.98.044304%22&max_results=3\tapplication/atom+xml; charset=utf-8",
+  "error": "",
+  "bytes": 739,
+  "sha256": "940c8608eda31d2fda41b7ec3bfe4202a52d16743ede977c3f4d2472760290d7",
+  "entries": []
+}

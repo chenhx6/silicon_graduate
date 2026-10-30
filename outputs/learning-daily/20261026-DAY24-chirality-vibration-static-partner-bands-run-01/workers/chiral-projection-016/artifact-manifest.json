@@ -1,0 +1,167 @@
+{
+  "outputs": [
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/chiral-projection-016/claim-ledger.json",
+      "bytes": 4194,
+      "sha256": "44bdb9b1481a3b21859d354ff5845c1bc4460c0f53ea3abb3b0d66c7f336549c"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/chiral-projection-016/report.md",
+      "bytes": 12686,
+      "sha256": "a8c32ca82f84152e322b0057b7d69ec2596c9edc0a246cff310319a83f0d88a5"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/chiral-projection-016/source-and-reading.json",
+      "bytes": 1562,
+      "sha256": "da6ff264fe4f4fe0c64932ca95245a30fc4187236e49b2088c59e817927eedf5"
+    }
+  ],
+  "staging": [
+    {
+      "path": "tmp/day24-chiral-projection-016/arxiv_abs.response",
+      "bytes": 40785,
+      "sha256": "b334c5ea5ebc94f845461b7e99b7e9ac066d336e36ec0d94538a14a09a717d99"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/crossref.response",
+      "bytes": 10526,
+      "sha256": "09dba9475aa05d2249ae7ec5462aeb65132c01c1ed848d43de4544295711b97d"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-01.png",
+      "bytes": 140501,
+      "sha256": "74f09cc891ac1dd6b3f61a1d7776dd457d214eb48932b4f2ba1a4247ecf48581"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-01.txt",
+      "bytes": 2052,
+      "sha256": "c59c288c7ba06e4fb25a04e0e106dcb5fbb3db9f9f1a127b1524c6e99b92d4c5"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-02.png",
+      "bytes": 214872,
+      "sha256": "c2fbe3a074f431250392344998ba47132e55f130a10297e8a9d3d7701c2d55b2"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-02.txt",
+      "bytes": 3041,
+      "sha256": "2f6722ab5db17c8c9b0a1086616f6aa92986ed63e748e208aa0b7e51a5b7046f"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-03.png",
+      "bytes": 150493,
+      "sha256": "a2d319930f83328b1db13c9c3a286f63bd5bf6c9002bccc2490cf35dd07001d8"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-03.txt",
+      "bytes": 2504,
+      "sha256": "773d44af0e3da450e789d6350bc7061d1874eac44d3e0a7e40851c8b63bc5a82"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-04.png",
+      "bytes": 195277,
+      "sha256": "173b67f54d2f017a1368c1fd26427d396a8c4e29aad34127c50e529521e68950"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-04.txt",
+      "bytes": 1642,
+      "sha256": "081f2dbbcd246e94297b186bc120b7bac9cb24f9df27d4ebf1fce27464688eae"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-05.png",
+      "bytes": 194521,
+      "sha256": "87fddfdf593cca570cfd0d43112a7a4acb77df5682d0d7d84e01aca9004d8ef2"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-05.txt",
+      "bytes": 2753,
+      "sha256": "769e2e12d4836d69dd8fa76244a7d0287691c82a68f722f675d2b272c1a06e92"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-06.png",
+      "bytes": 169198,
+      "sha256": "ca5f4592468a7d0b9837b6ce3c0652f3f8d40f2d7dc5d116ebf8bfce814775ec"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-06.txt",
+      "bytes": 3771,
+      "sha256": "bcb490d525d5292498b4f2adbdc18a1dbeaa5f44cdb36b195237d22d05e2b58a"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-07.png",
+      "bytes": 160547,
+      "sha256": "b558f8fb82daa1cd0b4c226f25e9c0d01a4307922a1bcf579a8d0331ef776ede"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-07.txt",
+      "bytes": 3072,
+      "sha256": "8839d3f5b519f56e86041aeffc1a7cd3de7fb73046824db6dee9994a18a78942"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-08.png",
+      "bytes": 210577,
+      "sha256": "fb0f82a67c9797e05c6348d6ded606ac7f24b9ed917ba30fee6a2875c201702e"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-08.txt",
+      "bytes": 2859,
+      "sha256": "230b3d7f032c82b0a1bf3da8271a137f80836310da9b54a4247cfebd98565d95"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-09.png",
+      "bytes": 177723,
+      "sha256": "3f6492f5ee3333bdd24c0ef65f90b8b34f1464511f559f32723c676cb78cf5ae"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-09.txt",
+      "bytes": 2205,
+      "sha256": "f6857972de3955f87b86bde69db43ab55c09cd65c63d0578045cb95e74610199"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-10.png",
+      "bytes": 211456,
+      "sha256": "a25643387f9ef2ed1472355d9f63ccd26090790609942acefb2c6fefcb46f18c"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-10.txt",
+      "bytes": 2711,
+      "sha256": "13a437db9e767708796d0bba788b6a8507b5b95593d611addcf0f2c1ec0e5cb8"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-11.png",
+      "bytes": 185741,
+      "sha256": "57e1cd4245630ee9caf0d533b6ae88c63d43ab60fc376f9d08943d54b6befa44"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-11.txt",
+      "bytes": 2225,
+      "sha256": "fd580cafec8aa4731d1c4122d315ab38abd0cfa8acd5f870d57069f73c16d095"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-12.png",
+      "bytes": 39468,
+      "sha256": "295ea00906340350d5ca0c76ec3024c4e5213f4b7a77cecc47ea31df0a2eb420"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/page-12.txt",
+      "bytes": 421,
+      "sha256": "907cac28fb4b0b1b903752e2979fe120adb37740712749125ca98dbfd98fc4a6"
+    },
+    {
+      "path": "tmp/day24-chiral-projection-016/raw-check.json",
+      "bytes": 177,
+      "sha256": "ec6431d9e894dd3a1d17fd6a1451fcf1107f3b5231cfa95ba42fc9ae8f68f5b0"
+    }
+  ],
+  "checks": {
+    "raw_sha_match": true,
+    "metadata_title_authors_doi_checked": true,
+    "json_parse": "pass",
+    "markdown_whitespace": "pass",
+    "body_pages_read": 12,
+    "figures_read": 4,
+    "author_code_run": false,
+    "old114_run": false,
+    "canonical_edits": false
+  }
+}

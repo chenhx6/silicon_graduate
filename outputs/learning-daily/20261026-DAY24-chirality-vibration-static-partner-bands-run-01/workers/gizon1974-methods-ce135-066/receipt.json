@@ -1,0 +1,55 @@
+{
+  "task": "066",
+  "status": "completed-assigned-reading-unit",
+  "doi": "10.1016/0375-9474(74)90339-X",
+  "source_sha256": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+  "source_pages_total": 22,
+  "full_native_text_read": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    9,
+    10,
+    11
+  ],
+  "assigned_scope": "PDF1–4methods;PDF8–9,11bottom135Ce;Table2PDF10–11;Fig5PDF7/Fig6PDF8",
+  "visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "targeted_extra": {
+    "page": 12,
+    "scope": "Table3leftcolumns198.5/100and511.8/117normalizationonly"
+  },
+  "whole_article_read": false,
+  "primed_recall": "064pre-exposed; frozenprimed-recall.md; nonblind,unscored",
+  "claims": 35,
+  "original_crosscheck": "original-table-crosscheck.json",
+  "no_new_fits": true,
+  "no_model_code": true,
+  "network_calls": 0,
+  "si": "Reuse064APIentryinventory;noSIcandidatewithincheckedpublisherFULLXMLscope",
+  "source_review": "Codex self-audit;not human-reviewed",
+  "allowed_writes": "ownworker/tmp",
+  "canonical_writes": false,
+  "raw_writes": false,
+  "git_actions": false,
+  "subagents": false,
+  "stop_reason": "Assignedmethod/135Ceunitcomplete;notfullpaperorDay24saturation",
+  "outputs": [
+    "report.md",
+    "claim-ledger.json",
+    "original-table-crosscheck.json",
+    "primed-recall.md",
+    "receipt.json"
+  ]
+}

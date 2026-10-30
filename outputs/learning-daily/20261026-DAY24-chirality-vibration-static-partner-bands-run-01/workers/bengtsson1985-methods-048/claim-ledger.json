@@ -1,0 +1,72 @@
+[
+  {
+    "id": "BR85-048-01",
+    "kind": "source-Nilsson-parameter-table",
+    "statement": "Table1p/ncolumnsandNrotrows0\u20138literal;fitrareearthactinidevalence+light8/20/28gaps",
+    "locator": "PDF5\u20136/18\u201319Eq7Table1",
+    "needs_review": true
+  },
+  {
+    "id": "BR85-048-02",
+    "kind": "source-approximation",
+    "statement": "Nrot=n1+n2+n3preservedbydroppingoffshellV4/lts/lt2couplings;Eq11nonrotN=Nprime=Nrot",
+    "locator": "PDF4/17;PDF6/19Eqs8\u201310;PDF9/22Eq11",
+    "needs_review": true
+  },
+  {
+    "id": "BR85-048-03",
+    "kind": "source-method-and-limits",
+    "statement": "No-pairingselectedforveryhighspin/computation;detailedverylowspincomparisonnotmeaningful;nodefineduniversalspinthreshold",
+    "locator": "PDF1\u20132/14\u201315;PDF5/18",
+    "needs_review": true
+  },
+  {
+    "id": "BR85-048-04",
+    "kind": "source-coordinate-and-interaction",
+    "statement": "virtualsamequantumnumberavoidedcrossingsatfixedomegaarenotrealconstantIinteraction;optimaloccupationsloseexcitedbandtracking",
+    "locator": "PDF2\u20134/15\u201317Eq1\u20132Fig1",
+    "needs_review": true
+  },
+  {
+    "id": "BR85-048-05",
+    "kind": "source-tracking-algorithm",
+    "statement": "Eq18slopeandexactfields;Fig4overlap/tangent;delta_j0.6,2stepsearch,cubicinterpolationconservessumenergyandjx",
+    "locator": "PDF11\u201314/24\u201327Eqs18\u201322Fig4",
+    "needs_review": true
+  },
+  {
+    "id": "BR85-048-06",
+    "kind": "source-explicit-adverse-boundary",
+    "statement": "completeweakinteractionremovalnotfullycorrect;physicalresidualinteractionandquestionablelowomegah11crossingsacknowledged",
+    "locator": "PDF14/27",
+    "needs_review": true
+  },
+  {
+    "id": "BR85-048-07",
+    "kind": "source-band-identity",
+    "statement": "configurationoccupancycountsbyNrotandalpha;bandtrackedsameorbitals;manybandsperconfiguration,yrastpartonly",
+    "locator": "PDF15/28Eq23",
+    "needs_review": true
+  },
+  {
+    "id": "BR85-048-08",
+    "kind": "source-total-energy",
+    "statement": "fixedIrenormalizedEsp-minus-smoothed+rotatingliquiddrop;perI/configdeformationminimum;I\u00b2notI(I+1)",
+    "locator": "PDF15\u201316/28\u201329Eqs24\u201325",
+    "needs_review": true
+  },
+  {
+    "id": "BR85-048-09",
+    "kind": "source-convergence-scope",
+    "statement": "166Ybomega0epsilonlessorequalabout.5off-shellplus2shellcomparison;heavySDexception;notWK22convergence",
+    "locator": "PDF16/29Eq26",
+    "needs_review": true
+  },
+  {
+    "id": "BR85-048-10",
+    "kind": "task-transfer-boundary",
+    "statement": "historicalRef11parametercontextdoesnotrecoveractualWK22cards/lambdazero/BCS/QTRproducer/135Ndalternativefit",
+    "locator": "sourceentiremethods+WK22existingcitationcontract",
+    "needs_review": true
+  }
+]

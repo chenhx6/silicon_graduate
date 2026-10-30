@@ -1,0 +1,103 @@
+{
+  "unit": "nolan1983-ce130-companion-052",
+  "run_date": "2026-10-26",
+  "day_index": 24,
+  "status": "new-primary-full5pages-and-allfigures-read-source-self-audited",
+  "source": {
+    "doi": "10.1016/0370-2693(83)90261-7",
+    "title": "The moment of inertia of130Ce above spin30ℏ",
+    "file": "tmp/day24-nolan1983-ce130-companion-052/attachment-object-response.pdf",
+    "bytes": 307863,
+    "sha256": "9085414a3cf1daafdeb3e7b685ea9bc6fdbfa44ee91f2e484c5eda353af6f927",
+    "pdf_pages": 5,
+    "printed_span": [
+      285,
+      289
+    ]
+  },
+  "crossref_exact_identity": "matched sixauthors/title/PLB128(5)285–289/1983",
+  "overlap": "no same primary found in targeted Wiki/raw filename/Bibsearch; BR85 and Nolan1979not samebody",
+  "access": {
+    "mode": "publisher_api",
+    "route": "FULL XML exact EID then Object API",
+    "http_attempt_count": 2,
+    "failures": 0,
+    "oa_status": "not_checked_api_first",
+    "si_requested": true,
+    "si_status": "no_true_supplement_identified_in_full_xml_inventory_inline_ALTIMG_excluded"
+  },
+  "reading": {
+    "text_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "figures": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "displayed_relation": "W=8ℏ²/Jband2 plus discrete extraction relation intext"
+  },
+  "primary_delta": [
+    "continuum quantity is explicitly Jband2 fromvalleywidth notJeff count",
+    "samecurrentMoS campaign; discrete and correlation selections differ",
+    "129Ce+129La about20percent contamination; other attribution not fully excluded",
+    "isomer28minus confirmed/30minus possible; yrast3highest lineorder unresolved",
+    "primarytext justabove50/rigidreference52atassumedepsilon.25; no literaldiscrete45",
+    "i13alignment modelinference retainsfeedingalternative and missingdiscretelines"
+  ],
+  "related_reference77": {
+    "doi": "10.1088/0031-8949/1983/t5/028",
+    "title": "Electromagnetic Transitions in130Ce",
+    "journal": "Physica Scripta",
+    "volume": "T5",
+    "pages": "153–156",
+    "year": 1983,
+    "status": "Crossrefmetadataonly-body_not_read",
+    "campaign_dependency": "not authenticated"
+  },
+  "evidence_boundaries": [
+    "No primaryreplay/rawmatrix/widthfits/Cov",
+    "No directshape/rigidgamma proof",
+    "No52minus45significance claim",
+    "No130Ce parameters/lifetimes/Harris/bandlabels transferredto133Ce",
+    "Referencedotherexperiments/modelbodiesnotread"
+  ],
+  "report": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/nolan1983-ce130-companion-052/report.md",
+  "report_sha256": "e3265d005bff8cbeda74dc9af8a5dc92745faaa32edb571c02b6a3ad5330dbae",
+  "writes": [
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/nolan1983-ce130-companion-052/report.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/nolan1983-ce130-companion-052/receipt.json"
+  ],
+  "tmp_prefix": "tmp/day24-nolan1983-ce130-companion-052/",
+  "canonical_modified": false,
+  "raw_modified": false,
+  "git_mutation": false,
+  "course_credit_or_state_mutation": false,
+  "session_mutation": false,
+  "private_credentials_read_via_existing_providerCredentials": true,
+  "secret_printed_or_written": false,
+  "credentials_modified": false,
+  "external_skill_modified": false,
+  "producer_or_unknown_code_executed": false,
+  "old114_read_or_executed": false,
+  "new_numeric_toy": false,
+  "verification": {
+    "body_hash_size_signature_pages": "pass",
+    "allfirstlastpages": "visuallyverified",
+    "report_trailing_whitespace": "none",
+    "json_parse": "pass"
+  },
+  "next_gap": "Ref77body/campaign-dependency and any improvedlineordering; actualresponse/cov requiresdistinct objects,nottoy."
+}

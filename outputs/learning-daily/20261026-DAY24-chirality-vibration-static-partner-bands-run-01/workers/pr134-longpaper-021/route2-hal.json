@@ -1,0 +1,11 @@
+{
+  "url": "https://api.archives-ouvertes.fr/search/?q=doiId_s:%2210.1103/PhysRevC.76.044313%22&fl=title_s,halId_s,uri_s,fileMain_s,files_s,linkExtUrl_s,docType_s,version_i&wt=json",
+  "curl_exit": 0,
+  "metadata": "200\thttps://api.archives-ouvertes.fr/search/?q=doiId_s:%2210.1103/PhysRevC.76.044313%22&fl=title_s,halId_s,uri_s,fileMain_s,files_s,linkExtUrl_s,docType_s,version_i&wt=json\tapplication/json; charset=utf-8",
+  "error": "",
+  "bytes": 422,
+  "sha256": "243eeb396d0c27a33b38d3a2a68b840520fce8db867af13164258ab1b802566f",
+  "pdf_signature": false,
+  "text": "{\n  \"response\":{\n    \"numFound\":1,\n    \"start\":0,\n    \"maxScore\":5.570259,\n    \"numFoundExact\":true,\n    \"docs\":[{\n      \"linkExtUrl_s\":\"http://prc.aps.org/abstract/PRC/v76/i4/e044313\",\n      \"title_s\":[\"Question of dynamic chirality in nuclei: The case of $^{134}$Pr\"],\n      \"halId_s\":\"in2p3-00180827\",\n      \"uri_s\":\"https://in2p3.hal.science/in2p3-00180827v1\",\n      \"version_i\":1,\n      \"docType_s\":\"ART\"\n    }]\n  }\n}",
+  "candidate_links": []
+}

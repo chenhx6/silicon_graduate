@@ -1,0 +1,32 @@
+{
+  "key": "arxiv-current-pdf",
+  "utc": "2026-10-26T12:43:46.789644+00:00",
+  "url": "https://arxiv.org/pdf/nucl-th/0211075",
+  "curl_exit": 0,
+  "metadata": "200\thttps://arxiv.org/pdf/nucl-th/0211075\tapplication/pdf",
+  "error": "",
+  "bytes": 252547,
+  "sha256": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+  "pdf_signature": true,
+  "page_count": 4,
+  "pdf_metadata": {
+    "format": "PDF 1.4",
+    "title": "arXiv:nucl-th/0211075v1  25 Nov 2002",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "dvips(k) 5.86 Copyright 1999 Radical Eye Software",
+    "producer": "GPL Ghostscript GIT PRERELEASE 9.22",
+    "creationDate": "D:20210822115316-04'00'",
+    "modDate": "D:20210822115316-04'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "page_text_sha256": [
+    "131ef61a4c4e4afc47a233888c9d1b3fe78f7ef3ac95c9f3b0679290c9729ccc",
+    "68e822e8aa7acdc540f111424cce0fe8153b930d4f192c8e7a7d5dcb3708e051",
+    "b9f6d52650b5d365112728dc9c92c228420592508ade6964c90cf816e08ddc74",
+    "461c16560f3dc14b06d91c696aff95bdc12c1b7aa5ff0f26b3d291ebcdf64569"
+  ],
+  "first_page_start": "arXiv:nucl-th/0211075v1  25 Nov 2002\nCritical frequency in nuclear chiral rotation\nP. Olbratowski,1,2 J. Dobaczewski,1,2 and J. Dudek2\n1Institute of Theoretical Physics, Warsaw University, Ho\u02d9za 69, PL-00681, Warsaw, Poland\n2Institut de Recherches Subatomiques, UMR7500, CNRS-IN2P3 and Universit\u00b4e Louis Pasteur,\nF-67037 Strasbourg Cedex 2, France\nWithin the cranked Skyrme-Hartree-Fock approach the self-consistent solutions have been obtained\nfor planar and chiral rotational bands in 132La. It turns out that the chiral band cannot exist below\nsome critical rotational frequency which in the present case equals \u00afh\u03c9=0.6 MeV. The appearance of\nthe critical frequency is explained in terms of a simple classical model of two gyroscopes coupled to\na triaxial rigid body.\nPACS numbers: 21.30.Fe, 21.60.Ev, 21.60.Jz\nSpontaneous chiral symmetry breaking constitutes an\ninteresting type of collective e\ufb00ect in fermion systems\n[1]. In the present context, a system is called chiral if\nit is not related to its time-reversed partner by a spa-\ntial rotation. A rotating triaxial body with its angular\nmomentum pointing towards one of the octants of the\nintrinsic coordinate system, where the short (s), medium\n(m) and long (l) axes form either a left- or right-handed\nset, is an example. In the laboratory frame, the chiral\nrotation leads to pairs of rotational bands. Rigid bodies\nwith no internal structur"
+}

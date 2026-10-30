@@ -1,0 +1,114 @@
+[
+  {
+    "band": 1,
+    "state": "10+1",
+    "mean_tau_ps_printed": "4.93(15)",
+    "method": "RDDS",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 1,
+    "state": "11+1",
+    "mean_tau_ps_printed": "1.614(326)",
+    "method": "RDDS",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 1,
+    "state": "12+1",
+    "mean_tau_ps_printed": "1.425(130)",
+    "method": "RDDS",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 1,
+    "state": "13+1",
+    "mean_tau_ps_printed": "0.904(50)",
+    "method": "RDDS",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 1,
+    "state": "14+1",
+    "mean_tau_ps_printed": "0.882(147)",
+    "method": "DSAM; both methods footnote a",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 1,
+    "state": "15+1",
+    "mean_tau_ps_printed": "0.608(68)",
+    "method": "DSAM",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 1,
+    "state": "16+1",
+    "mean_tau_ps_printed": "0.562(47)",
+    "method": "DSAM",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 1,
+    "state": "17+1",
+    "mean_tau_ps_printed": "0.422(30)",
+    "method": "DSAM",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 1,
+    "state": "18+1",
+    "mean_tau_ps_printed": "0.249(10)",
+    "method": "DSAM",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 2,
+    "state": "13+2",
+    "mean_tau_ps_printed": "1.443(50)",
+    "method": "RDDS by shared method-column alignment",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 2,
+    "state": "14+2",
+    "mean_tau_ps_printed": "1.280(50)",
+    "method": "RDDS by shared method-column alignment",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 2,
+    "state": "15+2",
+    "mean_tau_ps_printed": "0.887(47)",
+    "method": "DSAM; both methods footnote a",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 2,
+    "state": "16+2",
+    "mean_tau_ps_printed": "0.824(52)",
+    "method": "DSAM",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  },
+  {
+    "band": 2,
+    "state": "17+2",
+    "mean_tau_ps_printed": "0.353(49)",
+    "method": "DSAM",
+    "canonical_tau_matches": true,
+    "locator": "PDF3 / printed052501-3 TableI"
+  }
+]

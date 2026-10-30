@@ -1,0 +1,7 @@
+{
+  "method": "exact Gaussian-integer Laurent-polynomial coefficient cancellation in arbitrary positive dx,dy,dz; no sampled scale or nuclear parameter",
+  "physical_L_tensor_commutators": "verified for all five components, including zero ladder endpoints",
+  "six_function_dictionary": "verified for all five components; includes common r_t^2 function with component-dependent coefficients",
+  "not_verified": "historical Ref23 conventions, actual oscillator radial/basis matrices, charge/length units in GAMPN or Ce predictions",
+  "scope": "coordinate identities only; hbar divided out of generators"
+}

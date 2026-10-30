@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-10-27T00:59:29.116181+08:00",
+  "kind": "user-requested-daily-resource-rule-before-write",
+  "paths": {
+    "system/memory.md": {
+      "sha256": "56605d791528b8c4da3ef1746775f0459fb3041584cfc3ff0b75488f62f1f0f9",
+      "diff_before": ""
+    },
+    "system/workflows/continuous-learning.md": {
+      "sha256": "8dd91ce2ad5bd611f0c0a7d613e0c718fcbff9d5adff40c8956c79522610ed26",
+      "diff_before": ""
+    },
+    "system/workflows/literature-access.md": {
+      "sha256": "fd1961dfd671f55ab3749ce46c8b6967472d9cf763a84cc6a73e0068db2e7bff",
+      "diff_before": ""
+    },
+    "check.md": {
+      "sha256": "ecae3a01d1a21ca749598b0d89902ef96ebd794e01e1a4633c4789cb7b1ebfff",
+      "diff_before": ""
+    },
+    "USER_GUIDE.md": {
+      "sha256": "ae232368eee065c8244bed95644bfcf556d0088f37f3d37338197222613d15a9",
+      "diff_before": ""
+    }
+  }
+}

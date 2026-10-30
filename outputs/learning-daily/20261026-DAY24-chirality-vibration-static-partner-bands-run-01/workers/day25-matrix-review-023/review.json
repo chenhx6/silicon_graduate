@@ -1,0 +1,83 @@
+{
+  "review_scope": "Existingproject/source and local primary excerpts only; no new paper, network, producer or scientific fit. Day25uncreditedpreview remains.",
+  "project_path": "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+  "snapshot_sha256": "d18a550babee30f70a135dcaa043d3a3a7bd732acd0eee908f878ce5292804d1",
+  "reviewed_utc": "2026-10-26T14:30:32.749223+00:00",
+  "findings": [
+    {
+      "id": "D25R023-1",
+      "severity": "wording/source-independence clarification",
+      "initial_location": "projectoriginalline33",
+      "issue": "2019independent spectroscopy was ambiguous relative toPE18sharedcampaign versusMU07independentacquisition",
+      "status": "corrected-by-root-and-reread",
+      "evidence": [
+        "LV19PDF2setup/definitions;PDF7Ref38",
+        "PE18canonicalPDF2–3setup/simultaneous135,136Ndproduction",
+        "existingLvthesisPDF66/printed65single-experimentsection"
+      ],
+      "limit": "No actual selected-event/producer/Cov equality proven"
+    },
+    {
+      "id": "D25R023-2",
+      "severity": "method-necessity clarification",
+      "initial_location": "projectoriginalline62",
+      "issue": "Independentclocks unnecessary ifjointfitsharedCov; withouttauonlyrelativeEM mustbe scoped torelativegamma method withoutotherabsoluteconstraint",
+      "status": "corrected-by-root-and-reread",
+      "evidence": "methodologicalscope, not a new experimental conclusion"
+    }
+  ],
+  "no_further_required_P0_P1_in_scope": true,
+  "preserved_support": [
+    "134Prconditionalmixing/branchcounterexamplewithresidualchiralboundary",
+    "135NdD5/D6MU07absoluteEMandLV19spectroscopy",
+    "135NdD3/D4spectrum/JpiwithpartialEM",
+    "136NdD5two-memberrelativeBsupport",
+    "136NdD3modelaplanaritynottransferredtoD5"
+  ],
+  "prior_PE18_false_SI_correction": "preserved; workerdoesnotreopenrootartifactaudit",
+  "LV19_local_table_conflicts": "preserved, notcorrectedbyworker",
+  "raw_checks": [
+    {
+      "key": "pe06",
+      "raw": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "pages": 4,
+      "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f"
+    },
+    {
+      "key": "lv19",
+      "raw": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
+      "pages": 10,
+      "sha256": "97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303"
+    },
+    {
+      "key": "pe18",
+      "raw": "raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+      "pages": 7,
+      "sha256": "d2615fc0d95428b06c056eb8946afa2f62940ce58d79c1fc1cc3f50e19c73ef3"
+    }
+  ],
+  "thesis_check": {
+    "raw": "raw/papers/degree dissertation/吕冰峰.pdf",
+    "sha256": "84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749",
+    "pages": 164,
+    "actual_pages_read": [
+      66,
+      67
+    ],
+    "scope": "only same-experiment setup/calibration, not newthesisreading"
+  },
+  "existing_knowledge_atomic_ids": [
+    "DD-20260910-136ND-01",
+    "DD-20260910-136ND-02",
+    "AR-LV-1"
+  ],
+  "source_to_reuse": "knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md",
+  "reread_checks": {
+    "shared_campaign_limit_present": true,
+    "independence_relative_to_mu07": true,
+    "jointfit_shared_cov_allowed": true,
+    "no_tau_statement_scoped": true
+  },
+  "canonical_edits_by_worker": false,
+  "needs_review": true
+}

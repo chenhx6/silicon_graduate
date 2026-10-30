@@ -1,0 +1,90 @@
+{
+  "task": "060",
+  "worker": "ce133_node_contract",
+  "status": "completed-assigned-reading-unit",
+  "source_sha256": "fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d",
+  "source_pages_total": 25,
+  "source_bytes": 1368683,
+  "read_physical_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "read_printed_pages": [
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153
+  ],
+  "native_text_read": true,
+  "all_assigned_page_visuals_viewed": true,
+  "figure_visuals": [
+    "Fig1",
+    "Fig2",
+    "Fig3",
+    "Fig4",
+    "Fig5",
+    "Fig6"
+  ],
+  "table_visuals": [
+    "Table1",
+    "Table2",
+    "Table3a",
+    "Table3b"
+  ],
+  "extra_enlargements": [
+    "tmp/day24-meyer1975-partii-general-a190-060/table2-detail.png",
+    "tmp/day24-meyer1975-partii-general-a190-060/table3a-detail.png"
+  ],
+  "whole_article_read": false,
+  "scope_end": "PDF13 ends mid-section3.1.5; PDF14 onward excluded",
+  "primed_recall": "primed-recall.md; PartI/Wiki primed, nonblind, unscored",
+  "claim_count": 32,
+  "checks": [
+    "Source SHA256 and byte count",
+    "Visual confirmation193Hg beta .13/.11",
+    "Table3b literal interval membership2of5",
+    "Table2 printed beta.141 second-state rate sum80%, unresolved"
+  ],
+  "model_code_executed": false,
+  "new_measurements": false,
+  "new_fit": false,
+  "network_calls": 0,
+  "source_review": "Codex source/claim self-audit; not human-reviewed",
+  "allowed_writes": "own worker/tmp prefixes only",
+  "canonical_writes": false,
+  "raw_writes": false,
+  "git_actions": false,
+  "subagents_spawned": false,
+  "stop_reason": "Assigned bounded reading unit complete; not whole-Day24 saturation",
+  "parent_run": "20261026-DAY24-chirality-vibration-static-partner-bands-run-01",
+  "new_course_or_session": false,
+  "session_pointer": "Inherited parent session; no new Codex session created by this worker",
+  "outputs": [
+    "report.md",
+    "claim-ledger.json",
+    "original-table-crosscheck.json",
+    "receipt.json",
+    "primed-recall.md"
+  ],
+  "completed_at_utc": "2026-10-26T18:17:21Z"
+}

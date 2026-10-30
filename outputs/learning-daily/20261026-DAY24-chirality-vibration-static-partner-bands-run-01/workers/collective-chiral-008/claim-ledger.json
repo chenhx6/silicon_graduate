@@ -1,0 +1,79 @@
+[
+  {
+    "id": "CH13-008-01",
+    "claim": "One-dimensionalphi collective coordinate; V(phi)=mintheta Eprime(theta,phi), theta0toπ/2 andphi−π/2toπ/2; quantumtheta fluctuations omitted.",
+    "kind": "direct-model-construction",
+    "locator": "PDF4–5 Eqs3,5,8–9;PDF15 discussion",
+    "needs_review": true
+  },
+  {
+    "id": "CH13-008-02",
+    "claim": "Pauli prescription gives−hbar²/(2sqrtB) dphi[1/sqrtB dphi]+V with measure sqrtB dphi; no flat-measure substitution.",
+    "kind": "direct-quantization-contract",
+    "locator": "PDF5 Eqs10–14",
+    "needs_review": true
+  },
+  {
+    "id": "CH13-008-03",
+    "claim": "B from cranking-Hamiltonian excitedstates/derivative couplings; perturbatively small amplitudes and oscillator assumption, neglectphi² term; rotation case setsOmega0 in B, not finaldeltaE0.",
+    "kind": "direct-approximation-and-derived-boundary",
+    "locator": "PDF6 Eqs16–22;PDF7 Eq23;PDF9 Eq28;PDF11 energies",
+    "needs_review": true
+  },
+  {
+    "id": "CH13-008-04",
+    "claim": "Even/odd reflectionphi bases B^−1/4 timescos(2n−1)phi/sin2nphi withDirichletwalls at±π/2; walls an explicitapproximation motivated bylargeBnearboundaries.",
+    "kind": "direct-basis-and-boundary",
+    "locator": "PDF7 Eqs24–27;PDF10–11 §IVC",
+    "needs_review": true
+  },
+  {
+    "id": "CH13-008-05",
+    "claim": "Illustrativefixedgamma−30° πh11/2 particle⊗νh11/2 hole, Cπ+.25/Cν−.25MeV,J040hbar²/MeV; not a realistic135Nd/133Ce dataset calculation.",
+    "kind": "direct-parameter-and-scope",
+    "locator": "PDF8 §III;PDF3–4 Eqs1–6",
+    "needs_review": true
+  },
+  {
+    "id": "CH13-008-06",
+    "claim": "TAC doubleminima foromega≥.20MeV do not establish localizedquantumstaticregime; level1 broadnearconstantphi wavefunction atomega.25/.30 and authorchiral-vibration interpretation.",
+    "kind": "direct-model-result-and-hierarchy",
+    "locator": "PDF8 §IVA;PDF12–13 Figs6–7",
+    "needs_review": true
+  },
+  {
+    "id": "CH13-008-07",
+    "claim": "Printedlowestgap1.19MeVatomega.25to.01MeVat.50; finalstates even/odd inphi restorechirality. Nearlydegenerate finiteeigenstates not stationarysignedhandedlocalizedpackets.",
+    "kind": "direct-result-plus-explicit-inference",
+    "locator": "PDF11 Fig4/paragraph;PDF12–13 Figs5–7",
+    "needs_review": true
+  },
+  {
+    "id": "CH13-008-08",
+    "claim": "PRM gapreopensbeyondomega≈.35;1Dcollectivegapcontinuesdecreasing; authorsidentifymissingsecondchiralvibration and omitthetafluctuation.",
+    "kind": "direct-model-failure-boundary",
+    "locator": "PDF14–15 Fig8/§IVE",
+    "needs_review": true
+  },
+  {
+    "id": "CH13-008-09",
+    "claim": "Comparisonfixedomega notfixedgoodI; PRMbandfrequenciescan differatthesameI; no exactangular-momentumprojection impliedbyauthorslabframephrase.",
+    "kind": "direct-comparison-contract-and-inference",
+    "locator": "PDF13 labframeparagraph;PDF15 fixedomegaparagraph",
+    "needs_review": true
+  },
+  {
+    "id": "CH13-008-10",
+    "claim": "Fig7captionplots|psi|²; Eq14uses sqrtB dphi; physical probabilityperphi includesmeasure. Do notreadFig7asflat-coordinatefrequencyhistogram withoutclarifying normalization.",
+    "kind": "direct-presentation-plus-derived-measure-boundary",
+    "locator": "PDF5 Eq14;PDF13 Fig7caption",
+    "needs_review": true
+  },
+  {
+    "id": "CH13-008-11",
+    "claim": "No newexperimentalEM/taus/g/δ computedinthisbody; energy/wavefunction agreementofschematicmodeldoesnot establishexperimentalstaticchiralityoruniversalnumericthreshold.",
+    "kind": "source-scope-and-task-boundary",
+    "locator": "FullbodyPDF1–16;Figs1–8;PDF14comparison",
+    "needs_review": true
+  }
+]

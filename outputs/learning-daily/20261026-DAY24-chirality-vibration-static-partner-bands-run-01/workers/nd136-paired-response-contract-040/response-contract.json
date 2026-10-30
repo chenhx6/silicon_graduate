@@ -1,0 +1,190 @@
+{
+  "kind": "actual-input-continuous-response-sensitivity-not-new-experiment-or-fit",
+  "source_values_from": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/nd136-holdout-design-033/conditional-ratios.json",
+  "source_sha256": "84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749",
+  "canonical_source": "knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md",
+  "canonical_claims": [
+    "TH19-D25P-001",
+    "TH19-D25P-005",
+    "TH19-D25P-006"
+  ],
+  "source_locator": "physical PDF94–95 Table5.1; PDF97 footnote b; PDF77 Fig5.6",
+  "source_status": "reuse of verified 028/033 line ledger and canonical; no new full-thesis reading",
+  "line_order": [
+    "out20",
+    "in20",
+    "out21",
+    "in21"
+  ],
+  "lines": [
+    {
+      "id": "out20",
+      "parent": [
+        "D5-C",
+        "20+",
+        7543.0
+      ],
+      "E_gamma_keV": 1021.2,
+      "I_gamma_printed": 0.6,
+      "printed_parenthetical_error": 0.1,
+      "error_coverage": null,
+      "assignment": "E2",
+      "endpoint": "D518+",
+      "uncertainty_not_used_for_CI": true
+    },
+    {
+      "id": "in20",
+      "parent": [
+        "D5-C",
+        "20+",
+        7543.0
+      ],
+      "E_gamma_keV": 611.4,
+      "I_gamma_printed": 0.21,
+      "printed_parenthetical_error": 0.1,
+      "error_coverage": null,
+      "assignment": "E2",
+      "endpoint": "D5-C18+",
+      "uncertainty_not_used_for_CI": true
+    },
+    {
+      "id": "out21",
+      "parent": [
+        "D5-C",
+        "21+",
+        7927.1
+      ],
+      "E_gamma_keV": 1060.7,
+      "I_gamma_printed": 0.8,
+      "printed_parenthetical_error": 0.4,
+      "error_coverage": null,
+      "assignment": "E2",
+      "endpoint": "D519+6866.4",
+      "uncertainty_not_used_for_CI": true
+    },
+    {
+      "id": "in21",
+      "parent": [
+        "D5-C",
+        "21+",
+        7927.1
+      ],
+      "E_gamma_keV": 714.1,
+      "I_gamma_printed": 0.18,
+      "printed_parenthetical_error": 0.04,
+      "error_coverage": null,
+      "assignment": "E2",
+      "endpoint": "D5-C19+7213.0",
+      "uncertainty_not_used_for_CI": true
+    }
+  ],
+  "nominal_conditional_arithmetic": {
+    "R20": 0.21978856673180955,
+    "R21": 0.6146810196264492,
+    "D_R21_over_R20": 2.7966924247542653,
+    "not_significance_or_fitted_target": true
+  },
+  "multiplicative_response_convention": {
+    "f_l": "epsilon_true(E_l)/epsilon_used(E_l)",
+    "g_l": "line-specific residual selection/acceptance after any used gate corrections",
+    "corrected_numerator": "q_l*f_l*g_l+b_l",
+    "b_l": "signed residual additive net-area bias in corrected numerator units, not a universal efficiency",
+    "q_l": "N_parent*tau_parent*C_E2*E_l^5*B_l in ideal matched photon-yield interpretation",
+    "I_hat_l": "100*(q_l*f_l*g_l+b_l)/Q_hat_373p7",
+    "eta_l": "b_l/(q_l*f_l*g_l), requiring positive net numerator for logarithms",
+    "rho_l": "ln(f_l)+ln(g_l)+ln(1+eta_l)",
+    "log_Rhat_minus_log_Rtrue": "rho_out-rho_in",
+    "log_Dhat_minus_log_Dtrue": "-rho_out20+rho_in20+rho_out21-rho_in21"
+  },
+  "joint_log_response_jacobian": {
+    "outputs": [
+      "lnR20",
+      "lnR21",
+      "lnD"
+    ],
+    "matrix": [
+      [
+        1,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        1,
+        -1
+      ]
+    ],
+    "covariance_propagation": "Sigma_y = J Sigma_rho J^T for the declared log-residual vector; use full joint primitive Jacobian for correlated count/calibration/gate/background inputs",
+    "three_outputs_rank": 2,
+    "third_output_is_difference_not_third_independent_constraint": true,
+    "one_common_mode": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "within_parent_common_modes": [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ]
+    ],
+    "actual_Sigma_rho": null
+  },
+  "declared_submodel_only": {
+    "f_E": "(E/E_star)^s with one common s and arbitrary common E_star",
+    "d_log_Rhat_over_Rtrue_d_s": {
+      "R20": 0.5129822759105948,
+      "R21": 0.39566133795636027
+    },
+    "d_log_Dhat_over_Dtrue_d_s": -0.11732093795423448,
+    "scope": "exact log response to a common power-law tilt, holding line assignments, energies and other response terms fixed",
+    "not_complete_systematics": "Small contrast sensitivity or a large slope required by some hypothetical target cannot exclude general efficiency curvature, line-specific gates or additive background",
+    "fitted_s": null
+  },
+  "minimum_future_joint_reanalysis_fields": [
+    "immutable source/run/line/parent/daughter/assignment and energy-calibration identities, with actual uncertainties/Cov",
+    "per-line spectrum/projection and exact gate combination, gate role/width, weighting, event reuse, exposure, detector mask, addback/cuts and angular/conditional acceptance",
+    "gross peak areas, fit/ROI model, sideband/background/contaminant components, subtraction/transport coefficients and their joint covariance or likelihood",
+    "used efficiency and correction convention, calibration parameter values and full parameter Cov, shared run/detector modes and four-energy Jacobian or full four-energy Cov",
+    "line-specific gate/acceptance response parameters or corrections and their cross-line/cross-calibration covariance or joint likelihood",
+    "373.7-keV normalizer identity and exact sharing/transformation; retain reference covariance if reconstructing normalized intensities, or provide pre-normalization corrected four yields",
+    "full four-line corrected-yield covariance and its relation to primitive covariance (to avoid double counting), including cross-parent entries; distribution/coverage/constraints for printed errors",
+    "producer/version, fitted nuisance restrictions, control-data provenance and uncertainty-model validation/coverage; missing fields stay unknown"
+  ],
+  "not_required_for_these_same_parent_same_E2_ratios": [
+    "measured tau20 or tau21",
+    "tau20 equals tau21",
+    "complete totalBR",
+    "absolute B scale"
+  ],
+  "not_derived": [
+    "actual CI",
+    "significance",
+    "counts",
+    "numerical covariance",
+    "model fit",
+    "absolute B",
+    "totalBR",
+    "phase",
+    "mode exclusion",
+    "general systematic-error exclusion"
+  ],
+  "same_day24_only_day25_uncredited_preview": true
+}

@@ -1,0 +1,242 @@
+{
+  "url": "https://api.crossref.org/works?query.title=Two-dimensional%20collective%20Hamiltonian%20for%20chiral%20and%20wobbling%20modes&rows=3",
+  "curl_exit": 0,
+  "metadata": "200\thttps://api.crossref.org/works?query.title=Two-dimensional%20collective%20Hamiltonian%20for%20chiral%20and%20wobbling%20modes&rows=3\tapplication/json",
+  "error": "",
+  "bytes": 25108,
+  "sha256": "61c2cd43208ae6afbacedf42649e57d6aa3730b797981c25d0491868f72bb766",
+  "entries": [
+    {
+      "title": [
+        "Two-dimensional collective Hamiltonian for chiral and wobbling modes"
+      ],
+      "DOI": "10.1103/physrevc.94.044301",
+      "author": [
+        {
+          "given": "Q. B.",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "S. Q.",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "P. W.",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "R. V.",
+          "family": "Jolos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J.",
+          "family": "Meng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "94",
+      "page": null,
+      "article-number": "044301",
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            10,
+            3
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "http://link.aps.org/accepted/10.1103/PhysRevC.94.044301",
+          "content-type": "application/pdf",
+          "content-version": "am",
+          "intended-application": "unspecified"
+        },
+        {
+          "URL": "http://link.aps.org/article/10.1103/PhysRevC.94.044301",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.94.044301/fulltext",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "title": [
+        "Two-dimensional collective Hamiltonian for chiral and wobbling modes. II. Electromagnetic transitions"
+      ],
+      "DOI": "10.1103/physrevc.98.064302",
+      "author": [
+        {
+          "given": "X. H.",
+          "family": "Wu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Q. B.",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "P. W.",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "S. Q.",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "J.",
+          "family": "Meng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "98",
+      "page": null,
+      "article-number": "064302",
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            3
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "https://link.aps.org/article/10.1103/PhysRevC.98.064302",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "syndication"
+        },
+        {
+          "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.98.064302/fulltext",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    },
+    {
+      "title": [
+        "Collective Hamiltonian for Chiral and Wobbling Modes: From One- to Two-dimensional"
+      ],
+      "DOI": "10.5506/aphyspolbsupp.10.27",
+      "author": [
+        {
+          "given": "Q.B.",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "10",
+      "page": "27",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "https://www.actaphys.uj.edu.pl/fulltext?series=Ser&vol=10&page=27",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ]
+    }
+  ]
+}

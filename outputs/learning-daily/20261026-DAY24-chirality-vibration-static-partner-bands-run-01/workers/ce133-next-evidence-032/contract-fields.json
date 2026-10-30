@@ -1,0 +1,68 @@
+{
+  "status": "historicalformalismcontractrecoveredinpart; no2022actualjobrestored",
+  "fields": [
+    {
+      "layer": "single-particle stage (GAMPN-like)",
+      "historical_now_read": [
+        "adiabaticenergiesepsilon_nu",
+        "signedc_NljOmega expansion,Eq8",
+        "conjugatestatephase,Eq9",
+        "sixmatricesj+,j−,j²−j3²,j+²+j−²,j3,j3²,Eqs11–16"
+      ],
+      "actual2022_missing": [
+        "actualorbitID/header",
+        "kappa/mu/deformation/frequencycards",
+        "fullmatrixandcoefficients",
+        "epsilonunits/commonzero",
+        "basis/truncation/exportphase"
+      ],
+      "locator": "PDF8–10/196–198"
+    },
+    {
+      "layer": "coupling/eigenstate stage (ASYMO-like)",
+      "historical_now_read": [
+        "D2K−Omegaevenbasis,Eq17",
+        "bodyfixedI+lowersK",
+        "Coriolisandrecoilterms,Eqs6/10",
+        "BCSfullandschematicprescriptionsandignoredblocking/recoil-scope",
+        "historicalhydrodynamic4/3J0sin² convention"
+      ],
+      "actual2022_missing": [
+        "BCSchoice/lambda/Delta/blocking",
+        "xiapplicationrule",
+        "coreR/Harris/actualinertia",
+        "fullsignedaKnu foreachI/state",
+        "actualcodeversionandinputoutput"
+      ],
+      "locator": "PDF3–4/191–192;PDF9–11/197–199"
+    },
+    {
+      "layer": "EMstage (PROBMO-like)",
+      "historical_now_read": [
+        "A1 reducedB definition",
+        "A2literalreverseorderedRMEratio",
+        "A3M1/A4E2coherentrealsigneda_fa_i sums",
+        "coreplusparticleE2andspin/orbitalM1",
+        "physical/stretchedoperatorA5–16"
+      ],
+      "actual2022_missing": [
+        "fullRME/operatornormalizationunits",
+        "g/Q/phaseconventionandfullcoefficients",
+        "q2muoperatorlibrary/actualmatrix",
+        "initial/finalstateandsignedtransitionoutput",
+        "actualcodeinputmanifest"
+      ],
+      "external_historical_gap": "q2mu stretchedformula points Ref23NPA239(1975)93, body notreadhere",
+      "literal_boundary": "A3/A4 print no conjugationstar inrealconvention; complexa_f* a_i is labelledgeneralization",
+      "locator": "PDF32–34/220–222"
+    }
+  ],
+  "still_open": [
+    "WK22epsilon5–6MeVversuslambda50.6unit/zerocontract",
+    "negativeparitylambda",
+    "epsilon4 .1versus.01",
+    "582outoutobservedreference",
+    "actualtauBRICC/Cov"
+  ],
+  "needs_review": true
+}

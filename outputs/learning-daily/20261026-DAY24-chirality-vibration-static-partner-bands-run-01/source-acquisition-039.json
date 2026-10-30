@@ -1,0 +1,62 @@
+{
+  "kind": "single-article-acquisition-with-independent-completeness-check",
+  "observed_at": "2026-10-27T00:55:12.437275+08:00",
+  "doi": "10.1016/0375-9474(75)91136-7",
+  "title": "Potential-energy surfaces for the doubly even N = Z nuclei",
+  "authors": [
+    "G.Leander",
+    "S.E.Larsson"
+  ],
+  "bibliography": "Nuclear Physics A239(1975)93–113",
+  "skill": "/root/.codex/skills/nature-downloader/SKILL.md",
+  "si_scope_record": "download-scope-decision-039.json",
+  "user_preference_answer_received": false,
+  "main_body": {
+    "file": "tmp/day24-leander1975-039/attachment-object-response.pdf",
+    "pages": 21,
+    "bytes": 1736708,
+    "sha256": "35ce50a080755f3a11dac48cfbe2e2041659694038bc6bcaf28b452d72da562d",
+    "titlepage_and_last_page_identity_checked": true,
+    "access_mode": "configured Elsevier publisher API object retrieval",
+    "source": "https://api.elsevier.com/content/object/eid/1-s2.0-0375947475911367-main.pdf",
+    "attachment_id_origin": "exact attachment-eid returned by authenticated FULL XML metadata",
+    "oa_status": "not_checked_api_first; no open-license/redistribution assertion"
+  },
+  "attempts": [
+    {
+      "route": "default DOI PDF via downloader",
+      "result": "200 valid article PDF but only first page; generic downloaded not full body",
+      "pages": 1,
+      "sha256": "807a6b0a96ad7b1ffb0870f04c6b39b4b75580cee62f77d6f076e3d722cbcd67"
+    },
+    {
+      "route": "Google Scholar exact title",
+      "result": "single bounded tool search failed; no repeat"
+    },
+    {
+      "route": "OpenAlex exact title/DOI",
+      "result": "correct record, open_access_url null; not global proof of unavailable body"
+    },
+    {
+      "route": "publisher public access discovery",
+      "result": "landing200, no public PDF candidate"
+    },
+    {
+      "route": "article FULL XML",
+      "result": "200 full OCR plus exact MAIN attachment metadata",
+      "sha256": "f803e9d86b1daf49841342f63efd94daa38943965875f91ce1f00474f41dd29b"
+    },
+    {
+      "route": "exact publisher-returned S3 MAIN URL",
+      "result": "403 once; no repeat/bypass"
+    },
+    {
+      "route": "standard Object Retrieval API with exact returned EID",
+      "result": "200 application/pdf, independently21pages1736708bytes"
+    }
+  ],
+  "si_result": "first route fetch_failed because existing CDP proxy unreachable; did not start browser/host; not worldwide absence",
+  "protected": "no raw/PLAN/Bib/credential configuration edits; staged files empty at last check",
+  "scientific_reading_scope": "root firstpage identity and AppendixPDF19–20 visuals;043/044 assigned original reading, not yet complete",
+  "publication": "source PDF/full XML/OCR/whole-page render excluded from final task manifest"
+}

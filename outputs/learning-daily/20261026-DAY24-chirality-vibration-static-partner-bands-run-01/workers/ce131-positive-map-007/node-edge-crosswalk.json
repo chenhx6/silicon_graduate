@@ -1,0 +1,817 @@
+{
+  "needs_review": true,
+  "scope": "source-scoped identity ledger; no canonical change or human-review promotion",
+  "aw_raw_check": {
+    "raw": "raw/papers/degree dissertation/Band structures of 131Ce.pdf",
+    "sha256": "b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1",
+    "pages": 97
+  },
+  "li_raw_check": {
+    "raw": "raw/papers/2004_Lifetimes of Excited Levels in 131Ce.pdf",
+    "sha256": "100a06fc1bb6d7061a153552529c9245f123248f213a93f022b202af97dcdcc5",
+    "pages": 3
+  },
+  "numbering_correction": "AW13 B1 is negative h11/2; AW13 B2 is positive g7/2. Task initial B1/g7 wording superseded by original and parent confirmation.",
+  "band2_nodes": [
+    {
+      "id": "AW13-B2-7/2+",
+      "band": "AW13-B2",
+      "Jpi": "7/2+",
+      "Ex_path_keV": 0,
+      "Ex_status": "declared ground zero; not an independent fitted absolute energy"
+    },
+    {
+      "id": "AW13-B2-9/2+",
+      "band": "AW13-B2",
+      "Jpi": "9/2+",
+      "Ex_path_keV": 255.8,
+      "Ex_status": "selected255.8+607.7+723.7+793.6+647.4 path sum as applicable; no adopted Ex/covariance claim"
+    },
+    {
+      "id": "AW13-B2-13/2+",
+      "band": "AW13-B2",
+      "Jpi": "13/2+",
+      "Ex_path_keV": 863.5,
+      "Ex_status": "selected255.8+607.7+723.7+793.6+647.4 path sum as applicable; no adopted Ex/covariance claim"
+    },
+    {
+      "id": "AW13-B2-17/2+",
+      "band": "AW13-B2",
+      "Jpi": "17/2+",
+      "Ex_path_keV": 1587.2,
+      "Ex_status": "selected255.8+607.7+723.7+793.6+647.4 path sum as applicable; no adopted Ex/covariance claim"
+    },
+    {
+      "id": "AW13-B2-21/2+",
+      "band": "AW13-B2",
+      "Jpi": "21/2+",
+      "Ex_path_keV": 2380.8,
+      "Ex_status": "selected255.8+607.7+723.7+793.6+647.4 path sum as applicable; no adopted Ex/covariance claim"
+    },
+    {
+      "id": "AW13-B2-25/2+",
+      "band": "AW13-B2",
+      "Jpi": "25/2+",
+      "Ex_path_keV": 3028.2,
+      "Ex_status": "selected255.8+607.7+723.7+793.6+647.4 path sum as applicable; no adopted Ex/covariance claim"
+    },
+    {
+      "id": "AW13-B2-11/2+",
+      "band": "AW13-B2",
+      "Jpi": "11/2+",
+      "Ex_path_keV": 542.2,
+      "Ex_status": "selected Table4.5 E2 signature-path sum; globally not enforced against inconsistent Table4.6 rows"
+    },
+    {
+      "id": "AW13-B2-15/2+",
+      "band": "AW13-B2",
+      "Jpi": "15/2+",
+      "Ex_path_keV": 1209.8,
+      "Ex_status": "selected Table4.5 E2 signature-path sum; globally not enforced against inconsistent Table4.6 rows"
+    },
+    {
+      "id": "AW13-B2-19/2+",
+      "band": "AW13-B2",
+      "Jpi": "19/2+",
+      "Ex_path_keV": 1973.2,
+      "Ex_status": "selected Table4.5 E2 signature-path sum; globally not enforced against inconsistent Table4.6 rows"
+    },
+    {
+      "id": "AW13-B2-23/2+",
+      "band": "AW13-B2",
+      "Jpi": "23/2+",
+      "Ex_path_keV": 2756.6,
+      "Ex_status": "selected Table4.5 E2 signature-path sum; globally not enforced against inconsistent Table4.6 rows"
+    },
+    {
+      "id": "AW13-B2-27/2+",
+      "band": "AW13-B2",
+      "Jpi": "27/2+",
+      "Ex_path_keV": 3265.7,
+      "Ex_status": "selected Table4.5 E2 signature-path sum; globally not enforced against inconsistent Table4.6 rows"
+    },
+    {
+      "id": "AW13-B2-31/2+",
+      "band": "AW13-B2",
+      "Jpi": "31/2+",
+      "Ex_path_keV": 3831.9,
+      "Ex_status": "selected Table4.5 E2 signature-path sum; globally not enforced against inconsistent Table4.6 rows"
+    },
+    {
+      "id": "AW13-B2-35/2+",
+      "band": "AW13-B2",
+      "Jpi": "35/2+",
+      "Ex_path_keV": 4539.3,
+      "Ex_status": "selected Table4.5 E2 signature-path sum; globally not enforced against inconsistent Table4.6 rows"
+    },
+    {
+      "id": "AW13-B2-39/2+",
+      "band": "AW13-B2",
+      "Jpi": "39/2+",
+      "Ex_path_keV": 5378.7,
+      "Ex_status": "selected Table4.5 E2 signature-path sum; globally not enforced against inconsistent Table4.6 rows"
+    },
+    {
+      "id": "AW13-B2-43/2+",
+      "band": "AW13-B2",
+      "Jpi": "43/2+",
+      "Ex_path_keV": 6339.5,
+      "Ex_status": "selected Table4.5 E2 signature-path sum; globally not enforced against inconsistent Table4.6 rows"
+    },
+    {
+      "id": "AW13-B2-47/2+",
+      "band": "AW13-B2",
+      "Jpi": "47/2+",
+      "Ex_path_keV": 7409.4,
+      "Ex_status": "selected Table4.5 E2 signature-path sum; globally not enforced against inconsistent Table4.6 rows"
+    },
+    {
+      "id": "AW13-B2-51/2+",
+      "band": "AW13-B2",
+      "Jpi": "51/2+",
+      "Ex_path_keV": 8575.2,
+      "Ex_status": "selected Table4.5 E2 signature-path sum; globally not enforced against inconsistent Table4.6 rows"
+    }
+  ],
+  "band2_table_edges": [
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "11/2+",
+      "Jf": "7/2+",
+      "Egamma_keV": 542.2,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "15/2+",
+      "Jf": "11/2+",
+      "Egamma_keV": 667.6,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "19/2+",
+      "Jf": "15/2+",
+      "Egamma_keV": 763.4,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "23/2+",
+      "Jf": "19/2+",
+      "Egamma_keV": 783.4,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "27/2+",
+      "Jf": "23/2+",
+      "Egamma_keV": 509.1,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "31/2+",
+      "Jf": "27/2+",
+      "Egamma_keV": 566.2,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "35/2+",
+      "Jf": "31/2+",
+      "Egamma_keV": 707.4,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "39/2+",
+      "Jf": "35/2+",
+      "Egamma_keV": 839.4,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "43/2+",
+      "Jf": "39/2+",
+      "Egamma_keV": 960.8,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "47/2+",
+      "Jf": "43/2+",
+      "Egamma_keV": 1069.9,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "51/2+",
+      "Jf": "47/2+",
+      "Egamma_keV": 1165.8,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "13/2+",
+      "Jf": "9/2+",
+      "Egamma_keV": 607.7,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "17/2+",
+      "Jf": "13/2+",
+      "Egamma_keV": 723.7,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "21/2+",
+      "Jf": "17/2+",
+      "Egamma_keV": 793.6,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "25/2+",
+      "Jf": "21/2+",
+      "Egamma_keV": 647.4,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "29/2+",
+      "Jf": "25/2+",
+      "Egamma_keV": 502.1,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "33/2+",
+      "Jf": "29/2+",
+      "Egamma_keV": 635.7,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "37/2+",
+      "Jf": "33/2+",
+      "Egamma_keV": 775.6,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "41/2+",
+      "Jf": "37/2+",
+      "Egamma_keV": 904.6,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "45/2+",
+      "Jf": "41/2+",
+      "Egamma_keV": 1019.3,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "49/2+",
+      "Jf": "45/2+",
+      "Egamma_keV": 1128.6,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "53/2+",
+      "Jf": "49/2+",
+      "Egamma_keV": 1204.7,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "57/2+",
+      "Jf": "53/2+",
+      "Egamma_keV": 1231.3,
+      "type_as_grouped": "E2",
+      "locator": "AW13 PDF72/printed68 Table4.5",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "9/2+",
+      "Jf": "7/2+",
+      "Egamma_keV": 255.8,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "11/2+",
+      "Jf": "9/2+",
+      "Egamma_keV": 285.1,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "13/2+",
+      "Jf": "11/2+",
+      "Egamma_keV": 344.9,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts",
+      "identity_conflict": "Fig4.1 assigns rounded345 to15/2+→13/2+, rounded410 to21/2+→19/2+; preserve table literal, exclude this row from adopted node fitting."
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "15/2+",
+      "Jf": "13/2+",
+      "Egamma_keV": 410.1,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts",
+      "identity_conflict": "Fig4.1 assigns rounded345 to15/2+→13/2+, rounded410 to21/2+→19/2+; preserve table literal, exclude this row from adopted node fitting."
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "23/2+",
+      "Jf": "21/2+",
+      "Egamma_keV": 372.9,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "27/2+",
+      "Jf": "25/2+",
+      "Egamma_keV": 235.3,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "29/2+",
+      "Jf": "27/2+",
+      "Egamma_keV": 266.1,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "31/2+",
+      "Jf": "29/2+",
+      "Egamma_keV": 299.4,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "33/2+",
+      "Jf": "31/2+",
+      "Egamma_keV": 336.4,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "35/2+",
+      "Jf": "33/2+",
+      "Egamma_keV": 370.1,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "37/2+",
+      "Jf": "35/2+",
+      "Egamma_keV": 404.8,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "39/2+",
+      "Jf": "37/2+",
+      "Egamma_keV": 432.9,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "41/2+",
+      "Jf": "39/2+",
+      "Egamma_keV": 469.9,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    },
+    {
+      "band_i": "AW13-B2",
+      "band_f": "AW13-B2",
+      "Ji": "43/2+",
+      "Jf": "41/2+",
+      "Egamma_keV": 490.3,
+      "type_as_grouped": "M1/E2",
+      "locator": "AW13 PDF73/printed69 Table4.6",
+      "status": "literal table row; no implicit correction of figure/table conflicts"
+    }
+  ],
+  "band3_nodes": [
+    {
+      "id": "AW13-B3-1/2+",
+      "band": "AW13-B3",
+      "Jpi": "1/2+",
+      "Ex_keV": 61.8,
+      "Ex_status": "direct prose PDF86/printed82 §5.2.2 Band3",
+      "configuration_status": "possible author interpretation νs1/2[400]1/2+"
+    },
+    {
+      "id": "AW13-B3-3/2+",
+      "band": "AW13-B3",
+      "Jpi": "3/2+",
+      "Ex_path_keV": 133.8,
+      "Ex_status": "conditional path:61.8+Fig4.1 rounded72+Table4.4 E2s;5/2 via rounded284. Alternate7/2 path via125 differs1.1keV; no precision/adopted claim"
+    },
+    {
+      "id": "AW13-B3-5/2+",
+      "band": "AW13-B3",
+      "Jpi": "5/2+",
+      "Ex_path_keV": 345.8,
+      "Ex_status": "conditional path:61.8+Fig4.1 rounded72+Table4.4 E2s;5/2 via rounded284. Alternate7/2 path via125 differs1.1keV; no precision/adopted claim"
+    },
+    {
+      "id": "AW13-B3-7/2+",
+      "band": "AW13-B3",
+      "Jpi": "7/2+",
+      "Ex_path_keV": 471.9,
+      "Ex_status": "conditional path:61.8+Fig4.1 rounded72+Table4.4 E2s;5/2 via rounded284. Alternate7/2 path via125 differs1.1keV; no precision/adopted claim"
+    },
+    {
+      "id": "AW13-B3-11/2+",
+      "band": "AW13-B3",
+      "Jpi": "11/2+",
+      "Ex_path_keV": 981.8,
+      "Ex_status": "conditional path:61.8+Fig4.1 rounded72+Table4.4 E2s;5/2 via rounded284. Alternate7/2 path via125 differs1.1keV; no precision/adopted claim"
+    },
+    {
+      "id": "AW13-B3-15/2+",
+      "band": "AW13-B3",
+      "Jpi": "15/2+",
+      "Ex_path_keV": 1605.2,
+      "Ex_status": "conditional path:61.8+Fig4.1 rounded72+Table4.4 E2s;5/2 via rounded284. Alternate7/2 path via125 differs1.1keV; no precision/adopted claim"
+    }
+  ],
+  "band3_edges": [
+    {
+      "band_i": "AW13-B3",
+      "band_f": "AW13-B3",
+      "Ji": "7/2+",
+      "Jf": "3/2+",
+      "Egamma_keV": 338.1,
+      "locator": "AW13 PDF70/printed66 Table4.4 + PDF57/printed53 Fig4.1",
+      "status": "explicit E2 chain"
+    },
+    {
+      "band_i": "AW13-B3",
+      "band_f": "AW13-B3",
+      "Ji": "11/2+",
+      "Jf": "7/2+",
+      "Egamma_keV": 509.9,
+      "locator": "AW13 PDF70/printed66 Table4.4 + PDF57/printed53 Fig4.1",
+      "status": "explicit E2 chain"
+    },
+    {
+      "band_i": "AW13-B3",
+      "band_f": "AW13-B3",
+      "Ji": "15/2+",
+      "Jf": "11/2+",
+      "Egamma_keV": 623.4,
+      "locator": "AW13 PDF70/printed66 Table4.4 + PDF57/printed53 Fig4.1",
+      "status": "explicit E2 chain"
+    },
+    {
+      "band_i": "AW13-B3",
+      "band_f": "AW13-B3",
+      "Ji": "3/2+",
+      "Jf": "1/2+",
+      "Egamma_keV": 72,
+      "locator": "AW13 PDF57/printed53 Fig4.1; PDF77/printed73 Fig4.11 spectra",
+      "status": "rounded figure-only low edge, no corresponding Table4.4 row"
+    },
+    {
+      "band_i": "AW13-B3",
+      "band_f": "AW13-B3",
+      "Ji": "5/2+",
+      "Jf": "3/2+",
+      "Egamma_keV": 212,
+      "locator": "AW13 PDF57/printed53 Fig4.1; PDF77/printed73 Fig4.11 spectra",
+      "status": "rounded figure-only low edge, no corresponding Table4.4 row"
+    },
+    {
+      "band_i": "AW13-B3",
+      "band_f": "AW13-B3",
+      "Ji": "5/2+",
+      "Jf": "1/2+",
+      "Egamma_keV": 284,
+      "locator": "AW13 PDF57/printed53 Fig4.1; PDF77/printed73 Fig4.11 spectra",
+      "status": "rounded figure-only low edge, no corresponding Table4.4 row"
+    },
+    {
+      "band_i": "AW13-B3",
+      "band_f": "AW13-B3",
+      "Ji": "7/2+",
+      "Jf": "5/2+",
+      "Egamma_keV": 125,
+      "locator": "AW13 PDF57/printed53 Fig4.1; PDF77/printed73 Fig4.11 spectra",
+      "status": "rounded figure-only low edge, no corresponding Table4.4 row"
+    }
+  ],
+  "band5_to_band3_links": [
+    {
+      "Ji": "17/2+",
+      "Jf": "15/2+",
+      "band_i": "AW13-B5",
+      "band_f": "AW13-B3",
+      "Egamma_keV": 677.4,
+      "locator": "PDF76/printed72 Table4.7 + Fig4.1 + PDF59/66 prose",
+      "status": "interband link, not a B3 inband branch"
+    },
+    {
+      "Ji": "19/2+",
+      "Jf": "15/2+",
+      "band_i": "AW13-B5",
+      "band_f": "AW13-B3",
+      "Egamma_keV": 743.4,
+      "locator": "PDF76 Table4.7 versus PDF70 Table4.4; endpoint Fig4.1",
+      "status": "Fig4.1 arrow plus Table4.7 supports B5→B3 assignment. Separate from unresolved Table4.4 743.3 row with different intensity; no forced duplicate correction.",
+      "Igamma_relative": 20.1,
+      "Igamma_error": 0.9
+    },
+    {
+      "Ji": "21/2+",
+      "Jf": null,
+      "band_i": "AW13-B5",
+      "band_f": "AW13-B3",
+      "Egamma_keV": 913.2,
+      "locator": "PDF76/printed72 Table4.7 + Fig4.1",
+      "status": "Fig4.1 appears to terminate on B3 15/2+ level line, but Table4.7 literal spin row says21/2+→17/2+; endpoint conflict not resolved, no adoptedEx fit.",
+      "Jf_table": "17/2+",
+      "Jf_figure_candidate": "15/2+"
+    }
+  ],
+  "li_to_aw_crosswalk": [
+    {
+      "Ji": "9/2+",
+      "Jf": "7/2+",
+      "li_Egamma_keV": 257,
+      "aw_Egamma_keV": 255.8,
+      "Li_minus_AW_keV": 1.2,
+      "Li_Ex_selected_path_keV": 257.0,
+      "AW_Ex_selected_path_keV": 255.8,
+      "AW_initial_node": "AW13-B2-9/2+",
+      "AW_final_node": "AW13-B2-7/2+",
+      "li_tau_ps": null,
+      "locator_li": "Li04 PDF2/printed462 Fig1; lifetimes PDF3/printed463 Table1 except257 no lifetime row",
+      "locator_aw": "AW13 PDF57/printed53 Fig4.1; PDF73/printed69 Table4.6 for255.8, PDF72/printed68 Table4.5 for remaining E2",
+      "match_status": "high-confidence provisional state-family crosswalk from joint parity/spin/continuous cascade, not exact energy agreement or new AW lifetime measurement",
+      "excluded_bindings": [
+        "AW13-B1 negative parity",
+        "AW13-B3 s1/2 low band",
+        "AW13-B5 same-spin positive states",
+        "all133Ce states"
+      ]
+    },
+    {
+      "Ji": "13/2+",
+      "Jf": "9/2+",
+      "li_Egamma_keV": 610,
+      "aw_Egamma_keV": 607.7,
+      "Li_minus_AW_keV": 2.3,
+      "Li_Ex_selected_path_keV": 867.0,
+      "AW_Ex_selected_path_keV": 863.5,
+      "AW_initial_node": "AW13-B2-13/2+",
+      "AW_final_node": "AW13-B2-9/2+",
+      "li_tau_ps": {
+        "kind": "finite-mean",
+        "value": 1.46,
+        "plus": 0.56,
+        "minus": 0.56
+      },
+      "locator_li": "Li04 PDF2/printed462 Fig1; lifetimes PDF3/printed463 Table1 except257 no lifetime row",
+      "locator_aw": "AW13 PDF57/printed53 Fig4.1; PDF73/printed69 Table4.6 for255.8, PDF72/printed68 Table4.5 for remaining E2",
+      "match_status": "high-confidence provisional state-family crosswalk from joint parity/spin/continuous cascade, not exact energy agreement or new AW lifetime measurement",
+      "excluded_bindings": [
+        "AW13-B1 negative parity",
+        "AW13-B3 s1/2 low band",
+        "AW13-B5 same-spin positive states",
+        "all133Ce states"
+      ]
+    },
+    {
+      "Ji": "17/2+",
+      "Jf": "13/2+",
+      "li_Egamma_keV": 725,
+      "aw_Egamma_keV": 723.7,
+      "Li_minus_AW_keV": 1.3,
+      "Li_Ex_selected_path_keV": 1592.0,
+      "AW_Ex_selected_path_keV": 1587.2,
+      "AW_initial_node": "AW13-B2-17/2+",
+      "AW_final_node": "AW13-B2-13/2+",
+      "li_tau_ps": {
+        "kind": "finite-mean",
+        "value": 1.32,
+        "plus": 0.1,
+        "minus": 0.1
+      },
+      "locator_li": "Li04 PDF2/printed462 Fig1; lifetimes PDF3/printed463 Table1 except257 no lifetime row",
+      "locator_aw": "AW13 PDF57/printed53 Fig4.1; PDF73/printed69 Table4.6 for255.8, PDF72/printed68 Table4.5 for remaining E2",
+      "match_status": "high-confidence provisional state-family crosswalk from joint parity/spin/continuous cascade, not exact energy agreement or new AW lifetime measurement",
+      "excluded_bindings": [
+        "AW13-B1 negative parity",
+        "AW13-B3 s1/2 low band",
+        "AW13-B5 same-spin positive states",
+        "all133Ce states"
+      ]
+    },
+    {
+      "Ji": "21/2+",
+      "Jf": "17/2+",
+      "li_Egamma_keV": 796,
+      "aw_Egamma_keV": 793.6,
+      "Li_minus_AW_keV": 2.4,
+      "Li_Ex_selected_path_keV": 2388.0,
+      "AW_Ex_selected_path_keV": 2380.8,
+      "AW_initial_node": "AW13-B2-21/2+",
+      "AW_final_node": "AW13-B2-17/2+",
+      "li_tau_ps": {
+        "kind": "finite-mean",
+        "value": 0.6,
+        "plus": 0.26,
+        "minus": 0.26
+      },
+      "locator_li": "Li04 PDF2/printed462 Fig1; lifetimes PDF3/printed463 Table1 except257 no lifetime row",
+      "locator_aw": "AW13 PDF57/printed53 Fig4.1; PDF73/printed69 Table4.6 for255.8, PDF72/printed68 Table4.5 for remaining E2",
+      "match_status": "high-confidence provisional state-family crosswalk from joint parity/spin/continuous cascade, not exact energy agreement or new AW lifetime measurement",
+      "excluded_bindings": [
+        "AW13-B1 negative parity",
+        "AW13-B3 s1/2 low band",
+        "AW13-B5 same-spin positive states",
+        "all133Ce states"
+      ]
+    },
+    {
+      "Ji": "25/2+",
+      "Jf": "21/2+",
+      "li_Egamma_keV": 649,
+      "aw_Egamma_keV": 647.4,
+      "Li_minus_AW_keV": 1.6,
+      "Li_Ex_selected_path_keV": 3037.0,
+      "AW_Ex_selected_path_keV": 3028.2,
+      "AW_initial_node": "AW13-B2-25/2+",
+      "AW_final_node": "AW13-B2-21/2+",
+      "li_tau_ps": {
+        "kind": "upper-limit-effective-feeding-uncorrected",
+        "value": 2.19,
+        "relation": "<"
+      },
+      "locator_li": "Li04 PDF2/printed462 Fig1; lifetimes PDF3/printed463 Table1 except257 no lifetime row",
+      "locator_aw": "AW13 PDF57/printed53 Fig4.1; PDF73/printed69 Table4.6 for255.8, PDF72/printed68 Table4.5 for remaining E2",
+      "match_status": "high-confidence provisional state-family crosswalk from joint parity/spin/continuous cascade, not exact energy agreement or new AW lifetime measurement",
+      "excluded_bindings": [
+        "AW13-B1 negative parity",
+        "AW13-B3 s1/2 low band",
+        "AW13-B5 same-spin positive states",
+        "all133Ce states"
+      ]
+    }
+  ],
+  "conflicts": [
+    "AW13 Table5.1 B2 parity printednegative vs Fig4.1/Tables4.5/4.6/prosepositive",
+    "Fig5.2 caption B4 vs surrounding B1 prose",
+    "Table4.6 lowdipole endpoints differFig4.1; not repaired",
+    "743.3 Table4.4 I6.2(.5) vs743.4 Table4.7 I20.1(.9); cannot merge or infer B3 inband solely from group",
+    "913.2 Table4.7 endpoint17/2 vs Fig4.1B3 endpoint15/2; unresolved"
+  ],
+  "protected_boundary": "Band5 Table5.3 high-spin e⊗AEFG two-component user-reviewed mapping unchanged; low-spin link identity audit does not reopen it.",
+  "nontransfer": "No tau, Qt, band number, zero or interpretation is imported to133Ce.",
+  "unresolved_table4_4_row": {
+    "Ji": "19/2+",
+    "Jf": "15/2+",
+    "Egamma_keV": 743.3,
+    "Igamma_relative": 6.2,
+    "Igamma_error": 0.5,
+    "band_group_as_printed": "Band3 quadrupoles(E2)",
+    "band_i": null,
+    "band_f": null,
+    "locator": "AW13 PDF70/printed66 Table4.4",
+    "boundary": "Could be a B3 inband row not drawn in Fig4.1 or an associated incoming link; table grouping alone does not resolve endpoints. Do not merge with743.4 row having different intensity20.1(.9), and do not create an adopted B3 19/2+ node."
+  },
+  "same_spin_controls": [
+    {
+      "node": "AW13-B2-19/2+",
+      "exit": "763.4keV→AW13-B2-15/2+",
+      "locator": "PDF72/printed68 Table4.5"
+    },
+    {
+      "node": "AW13-B5-19/2+",
+      "exit": "333.1keV→AW13-B5-15/2+ and743.4keV→AW13-B3-15/2+",
+      "locator": "PDF76/printed72 Table4.7 + Fig4.1"
+    },
+    {
+      "candidate": "Table4.4 743.3keV19/2+ row",
+      "band_identity": null,
+      "status": "separate unresolved candidate; never merged solely by Jpi or gamma proximity"
+    }
+  ]
+}

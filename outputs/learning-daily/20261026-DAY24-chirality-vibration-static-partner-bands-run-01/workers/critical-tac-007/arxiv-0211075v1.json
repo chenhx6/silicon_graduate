@@ -1,0 +1,25 @@
+{
+  "key": "arxiv-0211075v1",
+  "utc": "2026-10-26T11:51:32.074268+00:00",
+  "url": "https://arxiv.org/pdf/nucl-th/0211075v1",
+  "curl_exit": 0,
+  "metadata": "200\thttps://arxiv.org/pdf/nucl-th/0211075v1\tapplication/pdf",
+  "error": "",
+  "bytes": 252547,
+  "sha256": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+  "pdf_signature": true,
+  "pages": 4,
+  "pdf_metadata": {
+    "format": "PDF 1.4",
+    "title": "arXiv:nucl-th/0211075v1  25 Nov 2002",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "dvips(k) 5.86 Copyright 1999 Radical Eye Software",
+    "producer": "GPL Ghostscript GIT PRERELEASE 9.22",
+    "creationDate": "D:20210822115316-04'00'",
+    "modDate": "D:20210822115316-04'00'",
+    "trapped": "",
+    "encryption": null
+  }
+}

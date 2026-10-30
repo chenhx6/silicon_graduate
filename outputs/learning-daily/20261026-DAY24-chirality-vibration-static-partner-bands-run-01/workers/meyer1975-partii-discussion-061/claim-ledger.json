@@ -1,0 +1,222 @@
+{
+  "kind": "scoped-direct-paper-reading-atomic-candidates-not-human-reviewed",
+  "source": {
+    "doi": "10.1016/0375-9474(75)90096-2",
+    "title": "Collective model description of transitional odd-A nuclei (II). Comparison with unique parity states of nuclei in the A=135 and A=190 mass regions",
+    "path": "tmp/day24-meyer1975-partii-entry-057/attachment-object-response.pdf",
+    "pages": 25,
+    "bytes": 1368683,
+    "sha256": "fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d"
+  },
+  "needs_review": true,
+  "claims": [
+    {
+      "id": "MTV75II-061-001",
+      "claim": "Author explicitly says it would be naive to take rigid shape literally and begins only a qualitative softness discussion. Fig10 is a schematic PES classification, not a new isotope-specific calculation.",
+      "claim_kind": "direct-author-scope-and-figure-identity",
+      "locator": "PDF19–20/printed159–160 §4 opening and Fig10",
+      "dependency_and_boundary": "dependent on specified PartI model; not new experiment",
+      "needs_review": true
+    },
+    {
+      "id": "MTV75II-061-002",
+      "claim": "Table6 compares complete Wilets–Jean gamma-independent limit, one rigid triaxial rotor point, and cited 190Os/124Xe ratios. Both complete-soft and rigid endpoints are not attained by cited data; author infers finite spread, not measured gamma width.",
+      "claim_kind": "direct-table-plus-author-interpretation",
+      "locator": "PDF21/printed161 Table6 and discussion",
+      "dependency_and_boundary": "experiments cited Refs13/42, not independently read here; two ratios share level inputs",
+      "needs_review": true
+    },
+    {
+      "id": "MTV75II-061-003",
+      "claim": "Main text says microscopic PES Refs33–35 lack pronounced triaxial minima, while same-page footnote preserves Ref36 recent triaxial-minimum exceptions near N76 and 56<=Z<=66.",
+      "claim_kind": "direct-historical-literature-comparison-boundary",
+      "locator": "PDF21/printed161 body and footnote; PDF25 Ref36",
+      "dependency_and_boundary": "cited theory, not independently verified originals",
+      "needs_review": true
+    },
+    {
+      "id": "MTV75II-061-004",
+      "claim": "Table7 distinguishes calculated state-dependent beta_rms/gamma_rms from standard fit beta/gamma. Dynamic right column is 196Pt, standard column is printed 196Hg; not silently merged or corrected.",
+      "claim_kind": "direct-table-definition-and-nucleus-identity",
+      "locator": "PDF22/printed162 Table7 including headers/footnotes",
+      "dependency_and_boundary": "rms from Ref33; fit parameters from this model; different quantities and partly different nuclei",
+      "needs_review": true
+    },
+    {
+      "id": "MTV75II-061-005",
+      "claim": "Au h11/2 and Tl h9/2 fits near gamma37 within about2deg and agreement with Hg cores motivate author interpretation of less-soft Hg and possible triaxial minima; evidence explicitly weaker for Os/Pt/A135.",
+      "claim_kind": "direct-model-dependent-inference-and-relative-evidence",
+      "locator": "PDF22/printed162 below Table7",
+      "dependency_and_boundary": "fits/calibration and author interpretation, not direct gamma distribution",
+      "needs_review": true
+    },
+    {
+      "id": "MTV75II-061-006",
+      "claim": "Author says quantitative conclusion requires odd particle coupled to parameterized anharmonic or gamma-soft vibrator and actual data fit; such results unavailable. Conclusion says no quantitative conclusion can be drawn and calls for more measurements.",
+      "claim_kind": "direct-unexecuted-alternative-and-conclusion-boundary",
+      "locator": "PDF22–24/printed162–164 §4 final paragraph and §5",
+      "dependency_and_boundary": "proposed comparison not completed; not a modern claim of absent literature",
+      "needs_review": true
+    },
+    {
+      "id": "MTV75II-061-007",
+      "claim": "About plus/minus2deg quoted in conclusion for195Au/137Nd is conditional model spectral sensitivity, not experimental CI, wavefunction sigma_gamma or PES curvature.",
+      "claim_kind": "author-number-plus-task-evidence-boundary",
+      "locator": "PDF23–24/printed163–164 conclusion; PDF22 gamma stability discussion",
+      "dependency_and_boundary": "task calibration of interpretation, no uncertainty model supplied",
+      "needs_review": true
+    },
+    {
+      "id": "MTV75II-061-008",
+      "claim": "Necessary context lists missing shape fluctuations, Coriolis attenuation, pair blocking, other-j and3+qp mixing; avoids unrestricted best fits and limits unique-parity low-excitation families near2Delta.",
+      "claim_kind": "direct-model-limit-and-parameter-selection",
+      "locator": "PDF1–2/printed141–142 abstract/introduction",
+      "dependency_and_boundary": "same PartI model lineage; no new mixed-j or high-excitation computation",
+      "needs_review": true
+    },
+    {
+      "id": "MTV75II-061-009",
+      "claim": "133Ce lowest9/2 discrepancy remains despite triaxial improvement; no ad hoc Coriolis attenuation used, selfconsistent core-inertia extension to three axes left open.",
+      "claim_kind": "direct-adverse-case-and-unresolved-remedy",
+      "locator": "PDF18–19/printed158–159 §3.2.4 and Fig9",
+      "dependency_and_boundary": "published data cited Refs26/27; not independently remeasured; no actual WK22 input transfer",
+      "needs_review": true
+    },
+    {
+      "id": "MTV75II-061-010",
+      "claim": "Abstract coexistence refers to DeltaI=2 and DeltaI=1 band structures explained by asymmetry of one model shape; Fig10/fitted gamma do not establish two simultaneous experimental shapes.",
+      "claim_kind": "literal-term-plus-task-transfer-boundary",
+      "locator": "PDF1/printed141 abstract; PDF20 Fig10",
+      "dependency_and_boundary": "not shape-coexistence experiment",
+      "needs_review": true
+    },
+    {
+      "id": "MTV75II-061-011",
+      "claim": "Existing particle-phonon/Alaga alternatives are discussed as nonmatched or pending comparisons; PartII does not execute a quantitative model competition against gamma-dynamic odd-A core in this section.",
+      "claim_kind": "direct-competing-interpretation-and-absence-within-scope",
+      "locator": "PDF22–23/printed162–163 §4 end",
+      "dependency_and_boundary": "cited Refs38–41 not independently read; source dated1975",
+      "needs_review": true
+    },
+    {
+      "id": "MTV75II-061-012",
+      "claim": "Acknowledgments identify187Ir information supplied before publication with permission; PartII compiles existing data and shares PartI model, not an independent new campaign.",
+      "claim_kind": "direct-source-lineage-and-independence",
+      "locator": "PDF24/printed164 acknowledgments; refs24–25",
+      "dependency_and_boundary": "reference/compilation and common-model dependency retained",
+      "needs_review": true
+    }
+  ],
+  "table6": {
+    "definition_r1": "E2_2/E4_1",
+    "definition_r2": "(E4_2-E2_2)/(E3_1-E2_2)",
+    "gamma_soft": [
+      1,
+      1
+    ],
+    "rigid_gamma_deg": 22.2,
+    "rigid_ratios": [
+      1,
+      2.73
+    ],
+    "reported_190Os": [
+      1.02,
+      2.01
+    ],
+    "reported_124Xe": [
+      0.96,
+      1.47
+    ],
+    "uncertainty_or_covariance": null,
+    "no_CI_significance_or_shape_width_derived": true
+  },
+  "table7": {
+    "dynamic_source": "Ref33 Kumar-Baranger",
+    "states": [
+      "0_1+",
+      "2_1+",
+      "4_1+",
+      "2_2+"
+    ],
+    "186Os_dynamic_beta_rms": [
+      0.223,
+      0.23,
+      0.239,
+      0.226
+    ],
+    "186Os_dynamic_gamma_rms_deg": [
+      23.2,
+      21.1,
+      19.6,
+      33.4
+    ],
+    "186Os_standard_beta_gamma": [
+      0.23,
+      16
+    ],
+    "196Pt_dynamic_beta_rms": [
+      0.154,
+      0.168,
+      0.181,
+      0.173
+    ],
+    "196Pt_dynamic_gamma_rms_deg": [
+      36.2,
+      38.9,
+      40.5,
+      31.2
+    ],
+    "printed_196Hg_standard_beta_gamma": [
+      0.13,
+      37
+    ],
+    "do_not_merge_196Pt_and_196Hg": true,
+    "do_not_equate_rms_and_fit_or_width": true
+  },
+  "crosschecks_not_executed": [
+    "Return to Refs13/42 or matched evaluated level records for190Os/124Xe endpoints, assignment, covariance/version before ratio uncertainty; exact gamma-independent limiting test only.",
+    "Read Ref33 Hamiltonian/metric and rms definition; retain196Pt vs196Hg column identity before same-nucleus comparison.",
+    "Use actual fixed-input rigid versus beta/gamma-dynamic odd-core fit with held-out EM, not invented wavefunctions or source CI.",
+    "For133Ce return Refs26/27 for energy zero and9/2/11/2 links before matching modern WK22 states."
+  ],
+  "actual_scope": {
+    "continuous_pdf": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "context_pdf": [
+      1,
+      2,
+      18,
+      19
+    ],
+    "visual_pdf": [
+      1,
+      2,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "core_visual_objects": [
+      "Fig10",
+      "Table6",
+      "Table7"
+    ],
+    "context_visual_objects": [
+      "Fig8",
+      "Fig9"
+    ],
+    "not_full25p_read": true,
+    "primed_recall_saved_before_source_read": true
+  },
+  "same_day24_only_day25_uncredited_preview": true
+}

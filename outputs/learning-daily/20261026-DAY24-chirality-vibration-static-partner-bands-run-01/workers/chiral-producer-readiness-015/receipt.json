@@ -1,0 +1,124 @@
+{
+  "task": "chiral-producer-readiness-015",
+  "finished_utc": "2026-10-26T13:34:29.578773+00:00",
+  "status": "bounded-readiness-search-complete;actualproducer-not-established",
+  "new_route_limit": 3,
+  "routes": [
+    {
+      "stem": "ch16-source",
+      "url": "https://arxiv.org/src/1609.06967v2",
+      "curl_exit": 28,
+      "response_path": "tmp/day24-chiral-producer-readiness-015/ch16-source.response",
+      "bytes": 1863616,
+      "sha256": "917ca4c2598e711a66670ef8575176fb06e5b93f902181684c31e680e6aa05de",
+      "headers_path": "tmp/day24-chiral-producer-readiness-015/ch16-source.headers",
+      "headers_sha256": "10ae7037392101b982bdb0f5d18b961ca50fb5136df20b0e99884e6a0aab590c",
+      "http_status_lines": [
+        "HTTP/2 200 "
+      ],
+      "content_type_lines": [
+        "content-type: application/gzip"
+      ],
+      "content_length_lines": [
+        "content-length: 5699559"
+      ],
+      "content_disposition_lines": [
+        "content-disposition: attachment; filename=\"arXiv-1609.06967v2.tar.gz\""
+      ],
+      "complete_archive": false,
+      "transport_failure": "timeoutafter45s",
+      "archive_hash_claim": "partialresponsebytesonly;notarchivehash",
+      "effective_url": "https://arxiv.org/src/1609.06967v2"
+    },
+    {
+      "stem": "partII-source",
+      "url": "https://arxiv.org/src/1809.04418v2",
+      "curl_exit": 0,
+      "response_path": "tmp/day24-chiral-producer-readiness-015/partII-source.response",
+      "bytes": 121695,
+      "sha256": "b2ed43e6b61dfc867ac8159059a9683e656a6feac06d17db45944d6fcf3d1275",
+      "headers_path": "tmp/day24-chiral-producer-readiness-015/partII-source.headers",
+      "headers_sha256": "a45d7f0034cd5696ad289e7cdec68b5f73230aff3a381c6f1e51714063bae242",
+      "http_status_lines": [
+        "HTTP/2 200 "
+      ],
+      "content_type_lines": [
+        "content-type: application/gzip"
+      ],
+      "content_length_lines": [
+        "content-length: 121695"
+      ],
+      "content_disposition_lines": [
+        "content-disposition: attachment; filename=\"arXiv-1809.04418v2.tar.gz\""
+      ],
+      "complete_archive": true,
+      "transport_failure": null,
+      "archive_hash_claim": "completegziponly",
+      "effective_url": "https://arxiv.org/src/1809.04418v2"
+    },
+    {
+      "stem": "ch16-export-source",
+      "url": "https://export.arxiv.org/e-print/1609.06967v2",
+      "curl_exit": 92,
+      "response_path": "tmp/day24-chiral-producer-readiness-015/ch16-export-source.response",
+      "bytes": 3145728,
+      "sha256": "b3a7c830a42e44ed8fd1f9658b63e5f87bda75fec86bec0532e9519726344196",
+      "headers_path": "tmp/day24-chiral-producer-readiness-015/ch16-export-source.headers",
+      "headers_sha256": "0608be6bec11baf517b74c284ba681a38ad2141b7424de5b211cbdad26c45c2c",
+      "http_status_lines": [
+        "HTTP/2 301 ",
+        "HTTP/2 200 "
+      ],
+      "content_type_lines": [
+        "content-type: text/html; charset=utf-8",
+        "content-type: application/gzip"
+      ],
+      "content_length_lines": [
+        "content-length: 221",
+        "content-length: 5699559"
+      ],
+      "content_disposition_lines": [
+        "content-disposition: attachment; filename=\"arXiv-1609.06967v2.tar.gz\""
+      ],
+      "complete_archive": false,
+      "transport_failure": "HTTP2PROTOCOL_ERROR",
+      "archive_hash_claim": "partialresponsebytesonly;notarchivehash",
+      "effective_url": "https://export.arxiv.org/src/1609.06967v2"
+    }
+  ],
+  "existing_archives_found": false,
+  "complete_partII_archive": {
+    "regular_files": 5,
+    "contents": [
+      "EM.tex",
+      "fig1.eps",
+      "fig2.eps",
+      "fig3.eps",
+      "fig4.eps"
+    ],
+    "code_or_grid_files_found": false
+  },
+  "CH16_archive_complete": false,
+  "CH16_complete_main_tex": {
+    "name": "Paper2DCH.tex",
+    "bytes": 95702,
+    "sha256": "30c5612025c349b8f791c497a02d2514a0527e965d64957b7f1dabd1219e8394",
+    "source_title_matches": true,
+    "authors_match": true,
+    "includes_only_figure_pdfs": true
+  },
+  "code_executed": false,
+  "TeX_or_PostScript_executed": false,
+  "archive_paths_extracted": false,
+  "actual_producer_claim": false,
+  "canonical_writes": [],
+  "raw_writes": [],
+  "git_mutations": false,
+  "new_sessions_or_credits": false,
+  "limits": [
+    "CH16archive-tailunseenaftertwodistinctofficialroutesfailed",
+    "Publisherandinstitutionrepositorynotseparatelyqueriedafter3routelimit",
+    "Noglobalabsenceclaim",
+    "NoactualV/Bgrid,basis-cutoff,endpointregularization,convergence,solverjoborversionassociatedproducerestablished"
+  ]
+}

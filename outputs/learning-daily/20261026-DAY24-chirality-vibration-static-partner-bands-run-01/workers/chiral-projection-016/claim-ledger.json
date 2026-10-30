@@ -1,0 +1,93 @@
+[
+  {
+    "id": "CH17-D24-016-01",
+    "claim": "The projected basis has goodI and projectedN/Z; HillWheeler mixesK and fourtime-conjugate blockedstates of selectedνπ pair. No βγ generatorgrid or unrestrictedqpconfiguration competition is supplied.",
+    "kind": "direct-construction-and-input-scope",
+    "locator": "PDF3Eqs2–5;PDF5inputs",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-02",
+    "claim": "Nonorthogonal-state probabilities requireg=N^1/2f, not raw|f|². Kplot folds±K andsumsκ; phase cannot be inferred from foldedmarginal alone.",
+    "kind": "direct-formula-plus-information-boundary",
+    "locator": "PDF3Eqs5–7",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-03",
+    "claim": "Fig2 actually shows intrabandE2/M1 and B→A interbandM1. CoherentRME bilinear f_f†Tfi f_i is a task derivation from Eq4, not a source-printed transitionkernel.",
+    "kind": "direct-output-and-labelled-formal-derivation",
+    "locator": "PDF3Eq4;PDF5–6Fig2",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-04",
+    "claim": "This body does not print EMkernels/effectivecharge/g/phase/inputgrids; signedδ, interbandE2 and A→Boutput are not established.",
+    "kind": "actual-readiness-boundary",
+    "locator": "PDF1–12 full scope;Eqs1–11;Fig2",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-05",
+    "claim": "AzimuthalG coherently sumsK before squaring; P then sumsκ and integratesψprime, retainingKinterference but remaining a reducedorientationoutput rather than a complete jointstate/EMkernel.",
+    "kind": "direct-definition-plus-information-inference",
+    "locator": "PDF4–5Eqs8–11",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-06",
+    "claim": "StandardHaar normalization conditionalong=1 requires sinθdθdφ forP; not flatpixels or CH16metricmeasure. Fig4 shownθ0..90deg,φ0..180deg and its foldfactor is not specified.",
+    "kind": "source-form-plus-task-derived-measure-contract",
+    "locator": "PDF5Eqs9–11;PDF7Fig4",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-07",
+    "claim": "θrelative tolaxis,φfromiaxis inisplane; slplaneatφ90deg. Do not transfer othercrankingangle conventions.",
+    "kind": "direct-coordinate-contract",
+    "locator": "PDF4Eq8andFig1",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-08",
+    "claim": "Shape fixedβ.20γ30degrees, inheritedHamiltonian parametersRef40 and selectedblocked orbitals; withoutnewparameter statement is not noinputs/nohistoriccalibration.",
+    "kind": "direct-input-and-scope-boundary",
+    "locator": "PDF5parameterparagraph;PDF11Ref40",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-09",
+    "claim": "Highspin intrabandE2 trend disagrees withdata, authorsattributetofrozenshape; projectiondoesnotautomaticallyremovethis adverse result.",
+    "kind": "direct-model-limit",
+    "locator": "PDF5discussion;PDF6Fig2b",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-10",
+    "claim": "I11vibration→I14staticregimewithfiniteplanarprobability/tunneling→I18weakened/staticdisappears are modelinterpretations, not monotonicuniversalor experimentalorientation.",
+    "kind": "direct-model-results-and-boundary",
+    "locator": "PDF6–8Figs3–4",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-11",
+    "claim": "Fig2experimentalpointsreuseGR06Ref14, notnewacquisition; A/B↔yrast/sidecrosswalk and actualresponse are notrestored.",
+    "kind": "direct-data-lineage",
+    "locator": "PDF5–6Fig2;PDF10Ref14",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-12",
+    "claim": "Eq7literal signedK folding would countK0 twice unlessanadditional convention; actualzero-bin normalization notspecified and notdeclaredwrong.",
+    "kind": "literal-formula-and-conditional-normalization-boundary",
+    "locator": "PDF3Eq7;PDF7Fig3",
+    "needs_review": true
+  },
+  {
+    "id": "CH17-D24-016-13",
+    "claim": "CH17Ref46merelysaysGrodneretal to bepublished2017; this worker does not identify ituniquely withanotherlater experimental/model source.",
+    "kind": "bibliography-boundary",
+    "locator": "PDF11Ref46;PDF5CDFTcomparison",
+    "needs_review": true
+  }
+]

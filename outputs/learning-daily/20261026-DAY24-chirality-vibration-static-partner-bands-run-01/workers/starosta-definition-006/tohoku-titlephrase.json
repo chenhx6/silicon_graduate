@@ -1,0 +1,37 @@
+{
+  "key": "tohoku-titlephrase",
+  "url": "https://tohoku.repo.nii.ac.jp/api/records/?q=%22Chirality+in+odd%22&search_type=1&size=20",
+  "curl_exit": 0,
+  "metadata": "200\thttps://tohoku.repo.nii.ac.jp/api/records/?q=%22Chirality+in+odd%22&search_type=1&size=20\tapplication/json",
+  "error": "",
+  "bytes": 40567,
+  "sha256": "2bc27c5bc3391f3a5251333b985f11a9f5d5d8384c0ec9b802aa3e4659fa12a2",
+  "pdf_signature": false,
+  "hit_total": 4,
+  "hits": [
+    {
+      "id": 5324,
+      "title": [
+        "Role of chirality in angular momentum coupling for A\uff5e130 odd-odd triaxial nuclei: 132La"
+      ]
+    },
+    {
+      "id": 5352,
+      "title": [
+        "Systematic search of \u03c0h11/2\u2297\u03bdh11/2 chiral doublet bands and role of triaxiality in odd-odd Z=55 isotopes: 128,130,132,134Cs"
+      ]
+    },
+    {
+      "id": 5318,
+      "title": [
+        "Candidate chiral twin bands in the odd-odd nucleus 132Cs: Exploring the limits of chirality in the mass A\u2248130 region"
+      ]
+    },
+    {
+      "id": 13040,
+      "title": [
+        "\u4f0a\u8c46\u534a\u5cf6\u306e\u5730\u8cea\u5b66\u7684\u8af8\u554f\u984c"
+      ]
+    }
+  ]
+}

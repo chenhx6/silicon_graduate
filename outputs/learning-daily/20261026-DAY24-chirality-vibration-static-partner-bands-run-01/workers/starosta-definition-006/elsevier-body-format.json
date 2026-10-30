@@ -1,0 +1,12 @@
+{
+  "key": "elsevier-body-format",
+  "utc": "2026-10-26T11:46:06.140356+00:00",
+  "url": "https://api.elsevier.com/content/article/PII:S0375947400006631?httpAccept=application/pdf",
+  "curl_exit": 0,
+  "metadata": "406\thttps://api.elsevier.com/content/article/PII:S0375947400006631?httpAccept=application/pdf\ttext/xml",
+  "error": "",
+  "bytes": 162,
+  "sha256": "8896659c8776e3601cba7215e75d52d13a0aa4cde5150bbf00660945a33f39b7",
+  "pdf_signature": false,
+  "text_excerpt": "INVALID_INPUT Accept header value 'application/pdf' is restricted"
+}

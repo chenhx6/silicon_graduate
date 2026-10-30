@@ -1,0 +1,147 @@
+{
+  "kind": "source_printed_number_central_arithmetic_only",
+  "not_model_replay_or_new_measurement": true,
+  "assumptions": [
+    "sourceown11over2reference;S207.4chosenasWK22anchor",
+    "printedintegerhistoricenergiespreserved",
+    "noenergycalibration/Cov/identitysignificance",
+    "La ratioscentralonly,sharedcalibrationanduncertaintiesnotpropagated",
+    "rightaxialcolumnhasnorepeatedspinlabels;assignmentsfollowdrawncomparisonconnectors"
+  ],
+  "fig9_nodes": [
+    {
+      "label": "9/2-",
+      "historical_experiment_relative_11over2_keV": -170,
+      "triax_model_keV": 18,
+      "axial_model_keV": 37,
+      "model_minus_historical_keV": 188,
+      "offset_candidate_keV": 37.4,
+      "WK22_candidate_keV": 37.2,
+      "historical_shifted_minus_WK22_keV": 0.2,
+      "status": "derivedWK22isomerEx"
+    },
+    {
+      "label": "11/2-",
+      "historical_experiment_relative_11over2_keV": 0,
+      "triax_model_keV": 0,
+      "axial_model_keV": 0,
+      "model_minus_historical_keV": 0,
+      "offset_candidate_keV": 207.4,
+      "WK22_candidate_keV": 207.4,
+      "historical_shifted_minus_WK22_keV": 0.0,
+      "status": "offsetanchor"
+    },
+    {
+      "label": "13/2-",
+      "historical_experiment_relative_11over2_keV": 385,
+      "triax_model_keV": 351,
+      "axial_model_keV": 323,
+      "model_minus_historical_keV": -34,
+      "offset_candidate_keV": 592.4,
+      "WK22_candidate_keV": 592.1,
+      "historical_shifted_minus_WK22_keV": 0.3,
+      "status": "samefamilycandidate"
+    },
+    {
+      "label": "15/2-fav",
+      "historical_experiment_relative_11over2_keV": 620,
+      "triax_model_keV": 628,
+      "axial_model_keV": 741,
+      "model_minus_historical_keV": 8,
+      "offset_candidate_keV": 827.4,
+      "WK22_candidate_keV": 827.1,
+      "historical_shifted_minus_WK22_keV": 0.3,
+      "status": "samefamilycandidate"
+    },
+    {
+      "label": "17/2-",
+      "historical_experiment_relative_11over2_keV": 1136,
+      "triax_model_keV": 1153,
+      "axial_model_keV": 1356,
+      "model_minus_historical_keV": 17,
+      "offset_candidate_keV": 1343.4,
+      "WK22_candidate_keV": 1344.7,
+      "historical_shifted_minus_WK22_keV": -1.3,
+      "status": "keep1.3keVdifference"
+    },
+    {
+      "label": "19/2-",
+      "historical_experiment_relative_11over2_keV": 1380,
+      "triax_model_keV": 1420,
+      "axial_model_keV": 1900,
+      "model_minus_historical_keV": 40,
+      "offset_candidate_keV": 1587.4,
+      "WK22_candidate_keV": 1590.3,
+      "historical_shifted_minus_WK22_keV": -2.9,
+      "status": "keep2.9keVdifference"
+    },
+    {
+      "label": "21/2-",
+      "historical_experiment_relative_11over2_keV": 2027,
+      "triax_model_keV": 2228,
+      "axial_model_keV": 2847,
+      "model_minus_historical_keV": 201,
+      "offset_candidate_keV": 2234.4,
+      "WK22_candidate_keV": 2201.1,
+      "historical_shifted_minus_WK22_keV": 33.3,
+      "status": "largehighspindifference"
+    },
+    {
+      "label": "23/2-exp;topmodelspinunclear",
+      "historical_experiment_relative_11over2_keV": 2336,
+      "triax_model_keV": 2454,
+      "axial_model_keV": 3434,
+      "model_minus_historical_keV": 118,
+      "offset_candidate_keV": 2543.4,
+      "WK22_candidate_keV": 2486.6,
+      "historical_shifted_minus_WK22_keV": 56.8,
+      "status": "doNotCertifyDamagedModelSpin"
+    }
+  ],
+  "fig9_unlabelled_dashed994_candidate": {
+    "historical_label": 994,
+    "adjacent_unexplained_label": 1164,
+    "historical_edge_to_385_keV": 609,
+    "S_shifted_candidate_keV": 1201.4,
+    "WK22_possible_node_keV": 1200.8,
+    "WK22_observed_edge_to_592p1_keV": 608.7,
+    "identity": "provisionalnodeandedgematch_only_notBand4orJpiidentity"
+  },
+  "table5_ratios": {
+    "129La": {
+      "experiment_B_15to11": 0.42,
+      "experiment_B_19to15": 0.38,
+      "gamma_model_B_15to11": 0.37,
+      "gamma_model_B_19to15": 0.42,
+      "adjacent_core_B_average": 0.33,
+      "experiment_first_over_core_central": 1.2727272727272727,
+      "experiment_second_over_first_central": 0.9047619047619048,
+      "gamma_model_second_over_first_central": 1.135135135135135
+    },
+    "131La": {
+      "experiment_B_15to11": 0.34,
+      "experiment_B_19to15": 0.33,
+      "gamma_model_B_15to11": 0.32,
+      "gamma_model_B_19to15": 0.37,
+      "adjacent_core_B_average": 0.28,
+      "experiment_first_over_core_central": 1.2142857142857142,
+      "experiment_second_over_first_central": 0.9705882352941176,
+      "gamma_model_second_over_first_central": 1.15625
+    }
+  },
+  "fig9_gap_residual": {
+    "historical_9over2_minus_11over2": -170,
+    "triax_9over2_minus_11over2": 18,
+    "axial_9over2_minus_11over2": 37,
+    "triax_residual_keV": 188,
+    "axial_residual_keV": 207
+  },
+  "not_claimed": [
+    "parameterfit",
+    "CI/zscore",
+    "matchedindividualgammaidentities",
+    "resolvedchiralpartner",
+    "absoluteB/M1/deltaforCe",
+    "WK22actualinputrestoration"
+  ]
+}

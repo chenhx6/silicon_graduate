@@ -1,0 +1,32 @@
+{
+  "worker": "051-leander1975-writeback-review",
+  "completed_utc": "2026-10-26T17:24:23.781463+00:00",
+  "status": "core-scientific-writeback-verified-no-op",
+  "substantive_P0_P1_found": false,
+  "optional_notation_suggestions": [
+    {
+      "file": "knowledge/sources/leander-larsson-1975-potential-energy-surfaces-n-equals-z.md",
+      "location": "LL75-D24-011/current line68",
+      "change": "pointwise Q0/Qt -> O20=2z^2-x^2-y^2 and Ot=2zeta^2-xi^2-eta^2, avoiding clash with total-proton Q0"
+    },
+    {
+      "file": "same",
+      "location": "current line83",
+      "change": "rho^2 is stretched radius -> stretched radius squared"
+    }
+  ],
+  "Eq7_original_visual": "No circle visible above omega0 in PDF4 Eq7; current unmarked transcription retained; not inferred from OCR or other equations.",
+  "review_scope": [
+    "LL75 canonical",
+    "related LLR78/133Ce/matrix writeback segments",
+    "043/044 reports",
+    "existing Table2 original footnote image",
+    "direct original embedded PDF4 image for Eq7"
+  ],
+  "no_new_network_code_model_toy_or_whole_paper_rereading": true,
+  "write_scope": "051 worker and tmp/day24-leander1975-writeback-review-051 only",
+  "canonical_raw_PLAN_Bib_Git_course_session_unchanged": true,
+  "files": {
+    "report.md": "4b0c714522816af397e09574cd5ed01bba0b3d5118bb0928a0a55ac8e56fcc27"
+  }
+}

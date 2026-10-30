@@ -1,0 +1,188 @@
+{
+  "owned_outputs": [
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/larsson1978-006/access-ledger.json",
+      "sha256": "4a81074b830ce0a7fadf08b654a20d775e06bcf3d2f4f036a53bbedbfdb3f294",
+      "bytes": 4939
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/larsson1978-006/checks.json",
+      "sha256": "908b33d0d0b773057ab3d97c1aabf4cde66810e0fc6c31065ca6ac2df4e9290a",
+      "bytes": 275
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/larsson1978-006/metadata-and-reading.json",
+      "sha256": "d7b96502d40ba34f5a4059a15f3c1d5aa355545fcfd1aa92aab6c39698832ad8",
+      "bytes": 1729
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/larsson1978-006/report.md",
+      "sha256": "ba2466c54e75c71baa43d53efd01339ac195b396ecaeb8c6703e1d0233ae6ef9",
+      "bytes": 10931
+    }
+  ],
+  "staging": [
+    {
+      "path": "tmp/day24-larsson1978-006/bing.response",
+      "sha256": "da44196534a64f50a0fc32b4bb30690543f8510d9e27a87cdd1ec644c48f5cea",
+      "bytes": 102513
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/cern_cds.response",
+      "sha256": "72d90e5a059602e197c1e00d6b6e26fd1bfdec64db649e7475d56e33cda9ccc9",
+      "bytes": 7505
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/crossref.json",
+      "sha256": "7c77d6e80add90196e7abb2fb80adb8e65f9ae98deab53b35c4a746fbf0069c9",
+      "bytes": 13050
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/elsevier_crossref_xml.response",
+      "sha256": "acc370a11215b642a533705f1d75eb832f70ac14b54e5f23fb442e00330728f8",
+      "bytes": 1780
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/inspire.json",
+      "sha256": "ab8a57b10a280dc8f6f5dbd7bae33f99182b41b96fbed8f5823f9fb86d25f98b",
+      "bytes": 21622
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/openaire.response",
+      "sha256": "92b8e4fef79f20afc756427f87da32d0e5cd3a91cf47f736ca371e38ecb16ef2",
+      "bytes": 10148
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/probe-results.json",
+      "sha256": "fae6d4cfa4aa463cdd49e1af884afbd799145abf64ebc430ac1f0a87707dc3d9",
+      "bytes": 16968
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/rs88-pdf04.png",
+      "sha256": "7f05738beca7bce5e3f3ca0917dfa0236111c7c66fb8a4ec059fe85c4df7d0ac",
+      "bytes": 255135
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/rs88-pdf04.txt",
+      "sha256": "95fbd55b399aec219aff4393bec00dfba1aee1763630cd46be97a604ea26b08a",
+      "bytes": 4224
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/rs88-pdf05.png",
+      "sha256": "ff376aed856c929578367876976cdea57ee947014a7750774073bf5471216eb1",
+      "bytes": 210732
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/rs88-pdf05.txt",
+      "sha256": "1da6b4a95a0180a93f0ab41b2b50f71d1a478ca60085659f8782c8dcce0d6046",
+      "bytes": 3601
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/rs88-pdf08.png",
+      "sha256": "344e433a0239938b0dd6cee223de498aca68f5d192a3b7950200d5bfc91650c6",
+      "bytes": 291244
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/rs88-pdf08.txt",
+      "sha256": "52af2280131d678a00b16f7ad6adb6c3e0c5ca653c0a7eb6aedd7e97f8900847",
+      "bytes": 4421
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/rs88-pdf18.png",
+      "sha256": "7ddf1390a39ff09199613099395d63bff8e5291eb484c077f96e9acf84470f40",
+      "bytes": 353147
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/rs88-pdf18.txt",
+      "sha256": "f93c4ebebee4b18b5d625d9dba1474da8d55ad41913837cb8f8a60d05fe21117",
+      "bytes": 5094
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/second-probe-results.json",
+      "sha256": "c370acf7e741459d683b87f0d7e0f1615d4a9130f812c144997c97ea6f62a932",
+      "bytes": 2010
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf049.png",
+      "sha256": "4434ff21bb6c8b231ae716d46e4bef641a0167ae516b9b25132e03fe2430190e",
+      "bytes": 128730
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf049.txt",
+      "sha256": "72a8dbee2166666e037baf8e6b25729b5156d32ead33765a7165442d8e6a1d3c",
+      "bytes": 2096
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf050.png",
+      "sha256": "afdcf1859c85dd704122381465a72b321a28b33f8609722aa2b56a42a37b7980",
+      "bytes": 97613
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf050.txt",
+      "sha256": "4544307e2e652b27a11285a74b079706d4cf1444ba8ec744ca4d6fb000c61e13",
+      "bytes": 1496
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf077.txt",
+      "sha256": "fbfd18e76d0e429024d225318272f4a9d3af013d98830a78e1ef9d57174eda4b",
+      "bytes": 2473
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf078.png",
+      "sha256": "d9becd73f16e31b49b2787ee447ceb6fb8090c31083dc7bfb49a82414e202d38",
+      "bytes": 128278
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf078.txt",
+      "sha256": "5fa2ca7fdb59cf1f5cc8aaebe592ee254305da0576e1b51aad6611f19a4bd1e3",
+      "bytes": 5305
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf087.txt",
+      "sha256": "ac14edc0b97b996b955d91f1d09f4b0b6261b6e4c0cb4b912e706cb3a6f87b6b",
+      "bytes": 2749
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf088.txt",
+      "sha256": "373d68b6f6a341abe366377a9c6e2df23151baa14b95c38771059ec765bb5326",
+      "bytes": 5231
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf119.txt",
+      "sha256": "cfbc2d2412451638ca89f87a1d48438a7a7077c2db4a7f584a75d9559294e534",
+      "bytes": 2010
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf120.png",
+      "sha256": "def6dde81a73869d0120b304fa7642fc340a7ae5489f735e28baa7e716de4acc",
+      "bytes": 163864
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf120.txt",
+      "sha256": "121c6021cf10bfefcb724fb8717bba743a31a0a638a1c8b4082b2026d21750ec",
+      "bytes": 2573
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf124.png",
+      "sha256": "ee88a1ae473e0860b75084f01a20a5fb71e38698fd73e7f62400d5c8e72f0f6e",
+      "bytes": 163069
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf124.txt",
+      "sha256": "0d3fd906f338cca92205a4cb036ca0e08c58c793145a36abeaf322769cca8f5f",
+      "bytes": 2492
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf128.png",
+      "sha256": "39e0c2bcac6db083ae010e9e5d2bb49b478ccf1cb9dad272cca6d77125808592",
+      "bytes": 154157
+    },
+    {
+      "path": "tmp/day24-larsson1978-006/wk22-pdf128.txt",
+      "sha256": "434651d7d26a6bea57892c622dbc930f85a4b7bf9aaa912c36c8c56371d6c849",
+      "bytes": 2482
+    }
+  ],
+  "body_pages_read": 0,
+  "scope": "Metadata responses and fresh WK22/RS88 targeted evidence only; no 1978 body PDF recovered."
+}

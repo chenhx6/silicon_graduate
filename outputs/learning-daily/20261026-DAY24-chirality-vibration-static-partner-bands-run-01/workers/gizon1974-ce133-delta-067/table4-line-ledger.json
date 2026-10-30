@@ -1,0 +1,478 @@
+{
+  "kind": "literal_source_table4_transcription-not-all-angle-BR",
+  "source_locator": "Gizon1974physicalPDF16–17printed572–573Table4;visualbothpages",
+  "rows": [
+    {
+      "Egamma_keV": 134.3,
+      "I_gamma_55deg_relative": 7.2,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 154.7,
+      "I_gamma_55deg_relative": 3.4,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 159.5,
+      "I_gamma_55deg_relative": 23.6,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        -0.35,
+        0.06
+      ],
+      "multipolarity": "M1+E2",
+      "assignment_literal": "2609.0→2450.0",
+      "fig8_final": 2449.5
+    },
+    {
+      "Egamma_keV": 170.0,
+      "I_gamma_55deg_relative": 100.0,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        -0.55,
+        0.04
+      ],
+      "multipolarity": "M1+E2",
+      "assignment_literal": "11/2−→9/2−"
+    },
+    {
+      "Egamma_keV": 183.6,
+      "I_gamma_55deg_relative": 4.8,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 189.5,
+      "I_gamma_55deg_relative": 20.9,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        -0.39,
+        0.06
+      ],
+      "multipolarity": "M1+E2",
+      "assignment_literal": "2449.5→2260.0"
+    },
+    {
+      "Egamma_keV": 197.3,
+      "I_gamma_55deg_relative": 4.4,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 200.7,
+      "I_gamma_55deg_relative": 19.1,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        -0.38,
+        0.07
+      ],
+      "multipolarity": "M1+E2",
+      "assignment_literal": "2260.0→2059.0"
+    },
+    {
+      "Egamma_keV": 205.4,
+      "I_gamma_55deg_relative": 4.6,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 208.9,
+      "I_gamma_55deg_relative": 1.3,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 215.4,
+      "I_gamma_55deg_relative": 2.2,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 223.8,
+      "I_gamma_55deg_relative": 7.1,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 234.8,
+      "I_gamma_55deg_relative": 31.9,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        -0.46,
+        0.07
+      ],
+      "multipolarity": "M1+E2",
+      "assignment_literal": [
+        "15/2−→13/2−",
+        "2844.0→2609.0"
+      ],
+      "unresolved_doublet": true,
+      "upper_band_intensity_fraction": "at least half; not exact"
+    },
+    {
+      "Egamma_keV": 240.8,
+      "I_gamma_55deg_relative": 9.0,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 246.0,
+      "I_gamma_55deg_relative": 3.6,
+      "parent_or_final_not_printed_in_table": false,
+      "multipolarity": "(M1+E2)",
+      "assignment_literal": "19/2−→17/2−"
+    },
+    {
+      "Egamma_keV": 252.6,
+      "I_gamma_55deg_relative": 2.2,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 276.8,
+      "I_gamma_55deg_relative": 2.6,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 283.1,
+      "I_gamma_55deg_relative": 6.9,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 294.9,
+      "I_gamma_55deg_relative": 17.9,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        -0.42,
+        0.06
+      ],
+      "multipolarity": "M1+E2",
+      "assignment_literal": "3139.0→2844.0"
+    },
+    {
+      "Egamma_keV": 302.9,
+      "I_gamma_55deg_relative": 7.3,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 357.5,
+      "I_gamma_55deg_relative": 13.7,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        -0.07,
+        0.11
+      ],
+      "assignment_literal": "3496.0→3139.0"
+    },
+    {
+      "Egamma_keV": 384.7,
+      "I_gamma_55deg_relative": 63.8,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        -0.61,
+        0.05
+      ],
+      "multipolarity": "M1+E2",
+      "assignment_literal": "13/2−→11/2−"
+    },
+    {
+      "Egamma_keV": 390.6,
+      "I_gamma_55deg_relative": 5.5,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 400.0,
+      "I_gamma_55deg_relative": 5.3,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 416.2,
+      "I_gamma_55deg_relative": 2.8,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 423.0,
+      "I_gamma_55deg_relative": 6.9,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 435.9,
+      "I_gamma_55deg_relative": 4.6,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 444.4,
+      "I_gamma_55deg_relative": 8.2,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 457.6,
+      "I_gamma_55deg_relative": 5.0,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 464.6,
+      "I_gamma_55deg_relative": 5.2,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 496.8,
+      "I_gamma_55deg_relative": 9.5,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 507.7,
+      "I_gamma_55deg_relative": 7.3,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 511.0,
+      "I_gamma_55deg_relative": 18.6,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 516.7,
+      "I_gamma_55deg_relative": 21.1,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        -0.75,
+        0.04
+      ],
+      "multipolarity": "M1+E2",
+      "assignment_literal": "17/2−→15/2−"
+    },
+    {
+      "Egamma_keV": 530.2,
+      "I_gamma_55deg_relative": 5.0,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 544.2,
+      "I_gamma_55deg_relative": 7.9,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 553.1,
+      "I_gamma_55deg_relative": 4.4,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 554.9,
+      "I_gamma_55deg_relative": 12.9,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        0.19,
+        0.14
+      ],
+      "multipolarity": "E2",
+      "assignment_literal": "13/2−→9/2−"
+    },
+    {
+      "Egamma_keV": 562.3,
+      "I_gamma_55deg_relative": 5.8,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 563.7,
+      "I_gamma_55deg_relative": 15.5,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 570.1,
+      "I_gamma_55deg_relative": 9.3,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 577.3,
+      "I_gamma_55deg_relative": 7.5,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 582.2,
+      "I_gamma_55deg_relative": 4.7,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 608.7,
+      "I_gamma_55deg_relative": 14.5,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        -0.64,
+        0.06
+      ],
+      "multipolarity": "M1+E2",
+      "assignment_literal": "1163.6→13/2−",
+      "parent_spin_inference": "15/2 suggested"
+    },
+    {
+      "Egamma_keV": 617.3,
+      "I_gamma_55deg_relative": 15.0,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 619.7,
+      "I_gamma_55deg_relative": 65.6,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        0.3,
+        0.15
+      ],
+      "multipolarity": "E2",
+      "assignment_literal": "15/2−→13/2−",
+      "fig8_assignment": "15/2−→11/2−",
+      "internal_assignment_conflict": true
+    },
+    {
+      "Egamma_keV": 624.8,
+      "I_gamma_55deg_relative": 3.4,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 630.1,
+      "I_gamma_55deg_relative": 4.6,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 644.4,
+      "I_gamma_55deg_relative": 4.4,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 691.9,
+      "I_gamma_55deg_relative": 7.3,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 706.3,
+      "I_gamma_55deg_relative": 3.9,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 751.3,
+      "I_gamma_55deg_relative": 21.4,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        0.33,
+        0.15
+      ],
+      "multipolarity": "E2",
+      "assignment_literal": "17/2−→13/2−",
+      "composite_possible": true
+    },
+    {
+      "Egamma_keV": 762.6,
+      "I_gamma_55deg_relative": 28.4,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        0.34,
+        0.14
+      ],
+      "multipolarity": "E2",
+      "assignment_literal": "19/2−→15/2−"
+    },
+    {
+      "Egamma_keV": 794.7,
+      "I_gamma_55deg_relative": 10.8,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 798.0,
+      "I_gamma_55deg_relative": 4.0,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 817.3,
+      "I_gamma_55deg_relative": 3.4,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 855.7,
+      "I_gamma_55deg_relative": 9.3,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 891.0,
+      "I_gamma_55deg_relative": 4.0,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 896.2,
+      "I_gamma_55deg_relative": 16.6,
+      "parent_or_final_not_printed_in_table": true,
+      "A2": [
+        0.15,
+        0.14
+      ]
+    },
+    {
+      "Egamma_keV": 908.0,
+      "I_gamma_55deg_relative": 5.5,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 913.5,
+      "I_gamma_55deg_relative": 4.4,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 954.0,
+      "I_gamma_55deg_relative": 16.4,
+      "parent_or_final_not_printed_in_table": false,
+      "A2": [
+        0,
+        0.2
+      ],
+      "assignment_literal": "2260.0→17/2−"
+    },
+    {
+      "Egamma_keV": 957.0,
+      "I_gamma_55deg_relative": 5.2,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 981.6,
+      "I_gamma_55deg_relative": 6.6,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 1023.4,
+      "I_gamma_55deg_relative": 8.0,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 1071.9,
+      "I_gamma_55deg_relative": 8.8,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 1075.8,
+      "I_gamma_55deg_relative": 5.6,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 1190.7,
+      "I_gamma_55deg_relative": 11.3,
+      "parent_or_final_not_printed_in_table": true
+    },
+    {
+      "Egamma_keV": 1269.3,
+      "I_gamma_55deg_relative": 29.9,
+      "parent_or_final_not_printed_in_table": false,
+      "assignment_literal": "2059.0→15/2−"
+    },
+    {
+      "Egamma_keV": 1304.5,
+      "I_gamma_55deg_relative": 8.3,
+      "parent_or_final_not_printed_in_table": true
+    }
+  ],
+  "row_count": 70,
+  "source_footnotes": [
+    "relativeintensitybelow2notlisted;literal208.9row1.3retainedinternalexception",
+    "751.3maycomposite"
+  ],
+  "normalization": "170.0keVline=100; common55degintensitiesnotBR",
+  "source_caption": "120Sn(16O,3ngamma)133Ce at65MeV; Fig9spectra66.5MeVdistinctsetting",
+  "unassigned_near_modern_lines_keV": [
+    464.6,
+    577.3,
+    582.2,
+    624.8,
+    794.7,
+    817.3,
+    981.6
+  ],
+  "no_binding_to_modern582_out_reference": true
+}

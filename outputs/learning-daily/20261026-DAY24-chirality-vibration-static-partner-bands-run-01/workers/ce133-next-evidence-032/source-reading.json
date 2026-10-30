@@ -1,0 +1,60 @@
+{
+  "source": "Larsson/Leander/Ragnarsson1978,Nuclear core-quasiparticle coupling,NPA307189–223,DOI10.1016/0375-9474(78)90613-9",
+  "raw_check": {
+    "raw": "raw/papers/1-s2.0-0375947478906139-main.pdf",
+    "sha256": "108c29bed9de467d99f330c0b8cef47be82a290263a85e398ba3b4f2e97d77eb",
+    "pages": 35,
+    "bytes": 1772577
+  },
+  "received_revised": [
+    "1978-05-03",
+    "1978-06-21"
+  ],
+  "access": "user-supplied original registered beforethissubtask; no networkdownload byworker",
+  "prior_body0_record": "workers/larsson1978-006 kept historical; not overwritten",
+  "printed_mapping": "printed=PDF+188",
+  "mainline_text_pdf_ranges": [
+    [
+      1,
+      11
+    ],
+    [
+      31,
+      34
+    ]
+  ],
+  "full35page_read": false,
+  "visual_pdf_pages": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    31,
+    32,
+    33,
+    34
+  ],
+  "figures_read": [
+    1,
+    2
+  ],
+  "table_read": [
+    1
+  ],
+  "key_methods": "§2.3printed196–199;Appendixprinted220–222 A1–A16;§2.1–2.2context",
+  "WK22_additional_fresh_pages": [
+    47,
+    48
+  ],
+  "WK22_scope": "basis/BCS/EMoperatorformula; programflow49–50reusedpriorreading",
+  "all35_native_text_generated": true,
+  "generated_text_is_reading": false,
+  "unknown_or_oldproducer_runs": false,
+  "needs_review": true
+}

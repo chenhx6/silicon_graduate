@@ -1,0 +1,484 @@
+{
+  "status": "scoped-existing-thesis-source-unit-complete;new-literal-method-and-transition-inputs-not-new-experiment",
+  "finished_utc": "2026-10-26T15:05:27.657860+00:00",
+  "body": {
+    "path": "raw/papers/degree dissertation/吕冰峰.pdf",
+    "sha256": "84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749",
+    "bytes": 6844285,
+    "pages": 164,
+    "toc": [
+      [
+        1,
+        "Acknowledgements",
+        2
+      ],
+      [
+        1,
+        "Introduction",
+        18
+      ],
+      [
+        2,
+        "Chirality",
+        19
+      ],
+      [
+        3,
+        "Nuclear Chirality",
+        20
+      ],
+      [
+        3,
+        "Multiple chiral doublets (MD)",
+        21
+      ],
+      [
+        2,
+        "Fingerprints of the chiral bands",
+        21
+      ],
+      [
+        3,
+        "Energy spectra",
+        22
+      ],
+      [
+        3,
+        "Electromagnetic transitions rates",
+        22
+      ],
+      [
+        3,
+        "Other fingerprints",
+        23
+      ],
+      [
+        2,
+        "Motivation of this study",
+        23
+      ],
+      [
+        2,
+        "Outline of thesis",
+        24
+      ],
+      [
+        1,
+        "Theoretical backgroud",
+        26
+      ],
+      [
+        2,
+        "Liquid drop model",
+        26
+      ],
+      [
+        2,
+        "The shell model",
+        27
+      ],
+      [
+        2,
+        "The deformed shell model",
+        29
+      ],
+      [
+        3,
+        "Deformed parameters",
+        29
+      ],
+      [
+        3,
+        "The Nilsson model",
+        32
+      ],
+      [
+        2,
+        "Particle-rotor model",
+        38
+      ],
+      [
+        3,
+        "Strong coupling",
+        39
+      ],
+      [
+        3,
+        "The decoupling limit",
+        39
+      ],
+      [
+        3,
+        "Four-j shells particle-rotor model",
+        40
+      ],
+      [
+        2,
+        "Cranked Nilsson-Strutinsky model",
+        42
+      ],
+      [
+        3,
+        "Cranking model",
+        42
+      ],
+      [
+        3,
+        "The rotating liquid drop model",
+        46
+      ],
+      [
+        3,
+        "The configuration-dependent CNS approach",
+        47
+      ],
+      [
+        2,
+        " Tilted axis cranking covariant density functional theory",
+        48
+      ],
+      [
+        3,
+        "Tilted axis cranking",
+        48
+      ],
+      [
+        3,
+        "TAC-CDFT",
+        51
+      ],
+      [
+        2,
+        "Transition probabilities",
+        53
+      ],
+      [
+        1,
+        "Experimental techniques",
+        54
+      ],
+      [
+        2,
+        "Heavy-ion fusion-evaporation reactions",
+        54
+      ],
+      [
+        2,
+        "Interaction mechanisms of the -rays with matter",
+        56
+      ],
+      [
+        3,
+        "Photoelectric absorption",
+        56
+      ],
+      [
+        3,
+        "Compton scattering",
+        56
+      ],
+      [
+        3,
+        "Pair production",
+        57
+      ],
+      [
+        2,
+        "High-purity Germanium -ray detector",
+        57
+      ],
+      [
+        2,
+        "The JUROGAM II array",
+        59
+      ],
+      [
+        2,
+        "The RITU gas-filled recoil separator",
+        60
+      ],
+      [
+        2,
+        "The GREAT spectrometer",
+        62
+      ],
+      [
+        2,
+        "Total-Data Readout (TDR)",
+        63
+      ],
+      [
+        1,
+        "Experimental details and processing of the data",
+        66
+      ],
+      [
+        2,
+        "Experimental details",
+        66
+      ],
+      [
+        2,
+        "Data processing",
+        66
+      ],
+      [
+        3,
+        "Energy calibrations and gain matching",
+        66
+      ],
+      [
+        3,
+        "Efficiency calibrations for Ge detectors",
+        67
+      ],
+      [
+        3,
+        "Doppler shift correction",
+        68
+      ],
+      [
+        3,
+        "Add-back for the clover detectors",
+        68
+      ],
+      [
+        3,
+        "Spin and parity assignments",
+        69
+      ],
+      [
+        1,
+        "Towards complete spectroscopy of 136Nd",
+        72
+      ],
+      [
+        2,
+        "Experimental results and level scheme",
+        72
+      ],
+      [
+        3,
+        "The low-spin  band and bands N1, N2",
+        72
+      ],
+      [
+        3,
+        "The medium-spin bands L and T",
+        74
+      ],
+      [
+        3,
+        "The dipole bands",
+        76
+      ],
+      [
+        3,
+        "The highly-deformed bands",
+        82
+      ],
+      [
+        2,
+        "Discussion",
+        99
+      ],
+      [
+        3,
+        "MD interpretation of the chiral bands within TAC-CDFT framework",
+        99
+      ],
+      [
+        3,
+        "MD interpretation of the chiral bands within PRM framework",
+        104
+      ],
+      [
+        3,
+        "CNS interpretation of all rotational bands",
+        109
+      ],
+      [
+        1,
+        "Evidence of MD in the odd-A nucleus 135Nd",
+        124
+      ],
+      [
+        2,
+        "Introdution",
+        124
+      ],
+      [
+        2,
+        "Experimental results and level scheme",
+        125
+      ],
+      [
+        2,
+        "Discussion",
+        127
+      ],
+      [
+        1,
+        "Search for long-lived isomeric states ",
+        140
+      ],
+      [
+        2,
+        "Introduction",
+        140
+      ],
+      [
+        2,
+        "The recoil-decay tagging technique",
+        140
+      ],
+      [
+        2,
+        "Results of the focal plane",
+        141
+      ],
+      [
+        1,
+        "Synthèse",
+        2
+      ],
+      [
+        1,
+        "Conclusions and Outlook",
+        151
+      ],
+      [
+        1,
+        "Appendix JUROGAM II detector angles",
+        153
+      ]
+    ],
+    "metadata": {
+      "format": "PDF 1.5",
+      "title": "Chirality in the ¹3⁶Nd and ¹3⁵Nd nuclei",
+      "author": "Bingfeng Lv",
+      "subject": "Physics [physics]/Nuclear Experiment [nucl-ex], Physics [physics]/Nuclear Theory [nucl-th]",
+      "keywords": "Nuclear spectroscopy, High-spin states, Isomers, Triaxiality, ChiralitySpectroscopie nucléaire, États de hauts spins, Isomères, Triaxialité, Chiralité",
+      "creator": "HAL",
+      "producer": "PDFLaTeX",
+      "creationDate": "D:20240126140850+01'00'",
+      "modDate": "D:20191030164435Z00'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  "official_source_link_from_titlepage": "https://theses.hal.science/tel-02347000",
+  "network_calls": 0,
+  "reading_scope": {
+    "TOC_physical_pages": [
+      6,
+      7,
+      8
+    ],
+    "continuous_Chapter4_physical_pages": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "continuous_dipole_section_physical_pages": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "Table5_1_title_and_all_D5_D5C_rows_physical_pages": [
+      85,
+      93,
+      94,
+      95,
+      97
+    ],
+    "detector_geometry_physical_pages": [
+      59,
+      60,
+      153,
+      154
+    ],
+    "ratio_scope_physical_pages": [
+      102,
+      103
+    ],
+    "other_local_locator_text_pages": [
+      1,
+      2,
+      3,
+      4,
+      72,
+      82,
+      96,
+      98,
+      150,
+      151,
+      152,
+      155,
+      156
+    ],
+    "whole164pages_read": false,
+    "full_Table5_1_all_bands_audited": false,
+    "selected_parent_count": 3,
+    "selected_line_count": 14,
+    "visual_pages": [
+      59,
+      60,
+      66,
+      68,
+      69,
+      71,
+      77,
+      81,
+      93,
+      94,
+      95,
+      97,
+      102,
+      153,
+      154
+    ]
+  },
+  "data_filled": [
+    "Egamma",
+    "Ei",
+    "JiJfparity",
+    "relativeI",
+    "someDCO_Rac",
+    "printedmode",
+    "reference373.7keV",
+    "methodparameters_and_detectorgeometry"
+  ],
+  "data_not_filled": [
+    "signeddelta",
+    "ICC",
+    "completeBR",
+    "parent_absolutephotonprobability",
+    "D5_D5C_tau",
+    "absoluteB",
+    "perlinegateproducer",
+    "active_detector_mask",
+    "fullCov"
+  ],
+  "campaign_independence": "sameJVFL152MeV135/136Nd campaign; no additional independentacquisition credit",
+  "clock": "100MHz/10nsTDR eventtimestamp, not pslevellifetime",
+  "canonical_raw_Git_session_course_changed": false,
+  "course_scope": "sameDay24run with exactlyDay25preview;noDay26;credit0",
+  "conditional_EM_ratio_added": {
+    "parent": "D5-C20+Ei7543.0",
+    "source_lines_keV": [
+      611.4,
+      1021.2
+    ],
+    "nominal_BE2_out_in": 0.21978856673180944,
+    "requires_tau_or_totalBR": false,
+    "has_CI_absoluteB_phase": false,
+    "conditions_file": "same-parent-e2-ratio.json"
+  }
+}

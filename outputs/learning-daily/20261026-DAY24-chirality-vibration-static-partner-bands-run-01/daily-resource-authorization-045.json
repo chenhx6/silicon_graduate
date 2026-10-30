@@ -1,0 +1,18 @@
+{
+  "kind": "explicit-user-reaffirmed-daily-resource-authorization",
+  "observed_at": "2026-10-27T00:59:29.620029+08:00",
+  "user_quote": "这个问题你问了好几遍了，记录下来，DAY每日学习不许问。默认能学尽学，应学就学，自行获取应该获取的文章、文件等等一切资源",
+  "applies_to": "all daily-learning runs and sessions",
+  "default": "automatically obtain main text, available SI and all necessary research resources; do not ask routine download/SI questions",
+  "persists_in": [
+    "system/memory.md",
+    "system/workflows/continuous-learning.md",
+    "system/workflows/literature-access.md",
+    "check.md",
+    "USER_GUIDE.md"
+  ],
+  "external_skill_override": "user instruction overrides generic SI-question workflow; downloader flag --si",
+  "not_a_new_run_or_deadline": true,
+  "original_run_and_deadline": "2026-10-26-day-24-01 / 2026-10-27T15:00:00+08:00",
+  "git": "midrun no stage/commit/push; exact user-requested rule paths added to task scope"
+}

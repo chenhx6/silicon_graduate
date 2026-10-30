@@ -1,0 +1,22 @@
+{
+  "kind": "root-exact-conditional-E2-ratios",
+  "inputs": "real Table5.1, physicalPDF94–95; no fit",
+  "R20": 0.21978856673180955,
+  "R21": 0.6146810196264492,
+  "double_ratio": 2.7966924247542653,
+  "checks": "root original tables visual + Fraction decimal arithmetic",
+  "conditions": [
+    "source assignments",
+    "same parent per individual ratio",
+    "pure assigned E2 components",
+    "matched corrected photon response"
+  ],
+  "not_provided": [
+    "CI",
+    "significance",
+    "absolute B",
+    "signed phase",
+    "model prediction",
+    "physical closure"
+  ]
+}

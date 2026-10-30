@@ -1,0 +1,485 @@
+{
+  "task": "ce133-highspin-006",
+  "timestamp_utc": "2026-10-26T11:50:30.422375+00:00",
+  "status": "sourcegrounded worker candidate; needs_review true; existinghumanreview unchanged",
+  "sources": [
+    {
+      "version": "accepted",
+      "path": "raw/papers/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 2.pdf",
+      "sha256": "91ec60dfa43e7d8748276e18327028d8eabdf6c5047682726b0da4a656d5e837",
+      "pdf_pages": 8
+    },
+    {
+      "version": "reprint",
+      "path": "raw/papers/gpt/high-spin-20260920/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "sha256": "3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f",
+      "pdf_pages": 5
+    }
+  ],
+  "main_locators": {
+    "experiment": "reprintPDF1/172504-1; acceptedPDF2/printed1",
+    "scheme": "reprintPDF2/172504-2; acceptedPDF3/printed2",
+    "lifetime_and_crossing": "reprintPDF3/172504-3; acceptedPDF4/printed3 andPDF5/printed4",
+    "tableI_and_interpretation": "reprintPDF4/172504-4; acceptedPDF5/printed4 andPDF6/printed5"
+  },
+  "head_records": [
+    {
+      "band": 2,
+      "Jpi": "19/2+",
+      "TableI_Ex_MeV_literal": 2.378,
+      "energy_zero": "not explicitlyresolved forcrosswalk",
+      "kind": "reportedexperimentalTableI"
+    },
+    {
+      "band": 3,
+      "Jpi": "19/2+",
+      "TableI_Ex_MeV_literal": null,
+      "kind": "lowestpartnerlevel shownFig1; absolutedecimalEx nottabulatedhere"
+    },
+    {
+      "band": 5,
+      "Jpi": "29/2-",
+      "TableI_Ex_MeV_literal": 3.734,
+      "kind": "experimentalheadusedTableI; lower23/2-25/2-27/2-levelsalso drawn"
+    },
+    {
+      "band": 6,
+      "Jpi": "29/2-",
+      "TableI_Ex_MeV_literal": null,
+      "kind": "lowestlevelshownFig1; 29/2energyseparationdiscussed172504-4"
+    }
+  ],
+  "observed_links": [
+    {
+      "parent_band_A13": 6,
+      "parent_Jpi": "29/2-",
+      "daughter_band_A13": 5,
+      "daughter_Jpi": "27/2-",
+      "Egamma_integer_keV": 669,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "not individually re-audited",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 6,
+      "parent_Jpi": "31/2-",
+      "daughter_band_A13": 5,
+      "daughter_Jpi": "29/2-",
+      "Egamma_integer_keV": 711,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "M1/E2 from AD paragraph172504-3",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 6,
+      "parent_Jpi": "31/2-",
+      "daughter_band_A13": 5,
+      "daughter_Jpi": "27/2-",
+      "Egamma_integer_keV": 952,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "not individually re-audited",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 6,
+      "parent_Jpi": "33/2-",
+      "daughter_band_A13": 5,
+      "daughter_Jpi": "31/2-",
+      "Egamma_integer_keV": 779,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "M1/E2 from AD paragraph172504-3",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 6,
+      "parent_Jpi": "33/2-",
+      "daughter_band_A13": 5,
+      "daughter_Jpi": "29/2-",
+      "Egamma_integer_keV": 1074,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "stretchedE2 consistentDCO172504-3",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 6,
+      "parent_Jpi": "35/2-",
+      "daughter_band_A13": 5,
+      "daughter_Jpi": "31/2-",
+      "Egamma_integer_keV": 1146,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "stretchedE2 consistentDCO172504-3",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 6,
+      "parent_Jpi": "35/2-",
+      "daughter_band_A13": 5,
+      "daughter_Jpi": "33/2-",
+      "Egamma_integer_keV": 804,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "not individually re-audited",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 6,
+      "parent_Jpi": "37/2-",
+      "daughter_band_A13": 5,
+      "daughter_Jpi": "35/2-",
+      "Egamma_integer_keV": 855,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "not individually re-audited",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 5,
+      "parent_Jpi": "23/2-",
+      "daughter_band_A13": 4,
+      "daughter_Jpi": "23/2-",
+      "Egamma_integer_keV": 750,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "not individually re-audited",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 5,
+      "parent_Jpi": "23/2-",
+      "daughter_band_A13": 4,
+      "daughter_Jpi": "21/2-",
+      "Egamma_integer_keV": 1037,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "not individually re-audited",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 2,
+      "parent_Jpi": "19/2+",
+      "daughter_band_A13": 4,
+      "daughter_Jpi": "17/2-",
+      "Egamma_integer_keV": 1072,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "not individually re-audited",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 3,
+      "parent_Jpi": "19/2+",
+      "daughter_band_A13": 4,
+      "daughter_Jpi": "17/2-",
+      "Egamma_integer_keV": 1159,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "not individually re-audited",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 3,
+      "parent_Jpi": "21/2+",
+      "daughter_band_A13": 2,
+      "daughter_Jpi": "19/2+",
+      "Egamma_integer_keV": 328,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "M1/E2 assigned172504-2",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 3,
+      "parent_Jpi": "23/2+",
+      "daughter_band_A13": 2,
+      "daughter_Jpi": "21/2+",
+      "Egamma_integer_keV": 338,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "M1/E2 assigned172504-2",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 3,
+      "parent_Jpi": "25/2+",
+      "daughter_band_A13": 2,
+      "daughter_Jpi": "23/2+",
+      "Egamma_integer_keV": 391,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "M1/E2 assigned172504-2",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 3,
+      "parent_Jpi": "23/2+",
+      "daughter_band_A13": 2,
+      "daughter_Jpi": "19/2+",
+      "Egamma_integer_keV": 544,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "E2 assigned172504-2",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    },
+    {
+      "parent_band_A13": 3,
+      "parent_Jpi": "25/2+",
+      "daughter_band_A13": 2,
+      "daughter_Jpi": "21/2+",
+      "Egamma_integer_keV": 615,
+      "kind": "observed plotted edge",
+      "multipolarity_scope": "E2 assigned172504-2",
+      "locator": "PRL reprint PDF2,172504-2,Fig1; accepted PDF3,printed2,Fig1",
+      "lifetime": null,
+      "delta": null,
+      "g": null
+    }
+  ],
+  "energy_reference_audit": {
+    "caption_isomer_Ex_keV": 37.2,
+    "caption_locator": "reprintPDF2 Fig1caption,reference46; acceptedPDF3 Fig1caption,reference31",
+    "paths": [
+      {
+        "id": "B2-19-path",
+        "Egammas_keV": [
+          555,
+          751,
+          1072
+        ],
+        "sum_above_isomer_keV": 2378,
+        "tableI_Ex_keV_literal": 2378,
+        "conditional_plus_caption_isomer_keV": 2415.2
+      },
+      {
+        "id": "B5-29-path-A",
+        "Egammas_keV": [
+          555,
+          751,
+          856,
+          287,
+          750,
+          140,
+          155,
+          240
+        ],
+        "sum_above_isomer_keV": 3734,
+        "tableI_Ex_keV_literal": 3734,
+        "conditional_plus_caption_isomer_keV": 3771.2
+      },
+      {
+        "id": "B5-29-path-B",
+        "Egammas_keV": [
+          555,
+          751,
+          856,
+          1037,
+          140,
+          155,
+          240
+        ],
+        "sum_above_isomer_keV": 3734,
+        "tableI_Ex_keV_literal": 3734,
+        "conditional_plus_caption_isomer_keV": 3771.2
+      },
+      {
+        "id": "B3-19-path",
+        "Egammas_keV": [
+          555,
+          751,
+          1159
+        ],
+        "sum_above_isomer_keV": 2465,
+        "tableI_Ex_keV_literal": null,
+        "conditional_plus_caption_isomer_keV": 2502.2
+      }
+    ],
+    "interpretation": "literalTableI versusconditionalschemereconstruction discrepancy/referenceboundary; no determinationofTableIzeroconventionorerror",
+    "B6_29_conditional_above_isomer_keV_paths": [
+      {
+        "expression": "3734+711-283",
+        "value": 4162
+      },
+      {
+        "expression": "3734-240+669",
+        "value": 4163
+      }
+    ],
+    "B6_warning": "integerdiagram paths differ1keV; not independent measuredEx orCI; do notforce exactnodevalue"
+  },
+  "version_differences": [
+    {
+      "edge": "B5 49/2- ->47/2-",
+      "accepted_Egamma_integer_keV": 602,
+      "reprint_Egamma_integer_keV": 600
+    },
+    {
+      "edge": "B5 49/2- ->45/2-",
+      "accepted_Egamma_integer_keV": 1174,
+      "reprint_Egamma_integer_keV": 1173
+    }
+  ],
+  "WK22_nine_node_comparison": [
+    {
+      "WK22_node_id": "WK22-B1-0037p2-9m2",
+      "WK22_band": 1,
+      "WK22_Ex_keV": 37.2,
+      "Jpi": "9/2-",
+      "A13_candidate_band": 4,
+      "A13_Ex_printed_keV": 37.2,
+      "A13_conditionally_summed_Ex_keV": 37.2,
+      "difference_to_WK22_keV": 0.0,
+      "status": "directisomeridentitysupport"
+    },
+    {
+      "WK22_node_id": "WK22-B1-0207p4-11m2",
+      "WK22_band": 1,
+      "WK22_Ex_keV": 207.4,
+      "Jpi": "11/2-",
+      "A13_candidate_band": 4,
+      "A13_Ex_printed_keV": null,
+      "A13_conditionally_summed_Ex_keV": 207.2,
+      "difference_to_WK22_keV": -0.2,
+      "status": "family/topology correspondence; exactdecimalidentity notcertified"
+    },
+    {
+      "WK22_node_id": "WK22-B1-0592p1-13m2",
+      "WK22_band": 1,
+      "WK22_Ex_keV": 592.1,
+      "Jpi": "13/2-",
+      "A13_candidate_band": 4,
+      "A13_Ex_printed_keV": null,
+      "A13_conditionally_summed_Ex_keV": 592.2,
+      "difference_to_WK22_keV": 0.1,
+      "status": "family/topology correspondence; exactdecimalidentity notcertified"
+    },
+    {
+      "WK22_node_id": "WK22-B1-0827p1-15m2",
+      "WK22_band": 1,
+      "WK22_Ex_keV": 827.1,
+      "Jpi": "15/2-",
+      "A13_candidate_band": 4,
+      "A13_Ex_printed_keV": null,
+      "A13_conditionally_summed_Ex_keV": 827.2,
+      "difference_to_WK22_keV": 0.1,
+      "status": "family/topology correspondence; exactdecimalidentity notcertified"
+    },
+    {
+      "WK22_node_id": "WK22-B1-1344p7-17m2",
+      "WK22_band": 1,
+      "WK22_Ex_keV": 1344.7,
+      "Jpi": "17/2-",
+      "A13_candidate_band": 4,
+      "A13_Ex_printed_keV": null,
+      "A13_conditionally_summed_Ex_keV": 1343.2,
+      "difference_to_WK22_keV": -1.5,
+      "status": "family/topology correspondence; exactdecimalidentity notcertified"
+    },
+    {
+      "WK22_node_id": "WK22-B4-0832p0-13m2",
+      "WK22_band": 4,
+      "WK22_Ex_keV": 832.0,
+      "Jpi": "13/2-",
+      "A13_candidate_band": null,
+      "A13_Ex_printed_keV": null,
+      "status": "no matching lowlyingyrare node/selectededge established inA13Fig1; do not merge withA13Band4or5/6"
+    },
+    {
+      "WK22_node_id": "WK22-B4-1200p8-15m2",
+      "WK22_band": 4,
+      "WK22_Ex_keV": 1200.8,
+      "Jpi": "15/2-",
+      "A13_candidate_band": null,
+      "A13_Ex_printed_keV": null,
+      "status": "no matching lowlyingyrare node/selectededge established inA13Fig1; do not merge withA13Band4or5/6"
+    },
+    {
+      "WK22_node_id": "WK22-B4-1409p8-17m2",
+      "WK22_band": 4,
+      "WK22_Ex_keV": 1409.8,
+      "Jpi": "17/2-",
+      "A13_candidate_band": null,
+      "A13_Ex_printed_keV": null,
+      "status": "no matching lowlyingyrare node/selectededge established inA13Fig1; do not merge withA13Band4or5/6"
+    },
+    {
+      "WK22_node_id": "WK22-B4-1809p1-19m2",
+      "WK22_band": 4,
+      "WK22_Ex_keV": 1809.1,
+      "Jpi": "19/2-",
+      "A13_candidate_band": null,
+      "A13_Ex_printed_keV": null,
+      "status": "no matching lowlyingyrare node/selectededge established inA13Fig1; do not merge withA13Band4or5/6"
+    }
+  ],
+  "configuration_claims": [
+    {
+      "bands": [
+        2,
+        3
+      ],
+      "configuration": "pi[(1g7/2)^-1(1h11/2)^1] tensor nu(1h11/2)^-1",
+      "kind": "authorassignment plusRMF/TPRMmodel; notdirectparticlecount",
+      "locator": "172504-2,-4 TableI"
+    },
+    {
+      "bands": [
+        5,
+        6
+      ],
+      "configuration": "pi(1h11/2)^2 tensor nu(1h11/2)^-1",
+      "kind": "authorassignment plusRMF/TPRMmodel; crossing/protonpairalignment interpretation",
+      "locator": "172504-3rightbottom;172504-4 TableI/discussion"
+    }
+  ],
+  "dataset_lineage": {
+    "A13_versions": "samearticle/samecombinedtwoATLASexperiments, notindependent evidence",
+    "A13": "116Cd(22Ne,5n),112MeV,Gammasphere,4.1e9fold>=4 combinedevents",
+    "WK22": "125Te(12C,4n),57MeV,AFRODITE; distinctreaction/facility/acquisitiondescription",
+    "scientific_dependency": "both citeMa1987 Rotationalbandsin133Ce; WK22explicitlycitesA13asRef6; WK22Band1notnewdiscovery",
+    "not_established": "event-levelrunIDs,whichindividualoldtransitionmeasurementsadopted,reusedfit/calibrationcovariance,broaderA132016datarelationships notinspected"
+  },
+  "missing": [
+    "explicitenergyreference/correcteddecimalevelledger",
+    "transitionenergyuncertaintiesandcovarianceinPRLscheme",
+    "event/runhistoryandadoptionledger",
+    "full3qpblocking/pairing/residualforceactualproducerandcrossinganalysis",
+    "newstate-specifictau/delta/staticmoments notprovided ortransferred"
+  ]
+}

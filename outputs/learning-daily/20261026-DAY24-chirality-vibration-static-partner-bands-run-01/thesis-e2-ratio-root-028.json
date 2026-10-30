@@ -1,0 +1,28 @@
+{
+  "source": "Lv2019thesis physicalPDF94–95/97 Fig5.6PDF77",
+  "parent": "D5-C Ei7543.0keV I20+",
+  "inputs_from_source": {
+    "Egamma_in_keV": 611.4,
+    "Egamma_out_keV": 1021.2,
+    "I_gamma_in": 0.21,
+    "I_gamma_out": 0.6,
+    "mode_in": "E2",
+    "mode_out": "E2"
+  },
+  "formula": "(Iout/Iin)*(Ein/Eout)^5",
+  "exact_central_fraction": "5493396220405495/24994003564838056",
+  "nominal_conditional_ratio": 0.21978856673180955,
+  "conditions": [
+    "sameparent",
+    "sourceendpoints/multipolecomponents",
+    "matched/correctedphotonresponse"
+  ],
+  "not_inferred": [
+    "CI",
+    "absoluteB",
+    "tau",
+    "fullBR",
+    "phase",
+    "modeexclusion"
+  ]
+}

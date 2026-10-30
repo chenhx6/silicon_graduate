@@ -1,0 +1,45 @@
+{
+  "task": "072",
+  "status": "completed-full-body-read",
+  "source_identity": "source-identity.json",
+  "source_sha256": "39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df",
+  "pages": 4,
+  "read_physical_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "all_page_visuals": true,
+  "whole_body_native_text": true,
+  "claims": 36,
+  "tables": [
+    "TableI",
+    "TableII",
+    "TableIII"
+  ],
+  "figures": [
+    "Fig1",
+    "Fig2",
+    "Fig3"
+  ],
+  "si": "articlelanding/body no supplement links; no globalabsence claim",
+  "primed": "primed-recall.md; ENSDF/parent pre-exposure, nonblind, unscored",
+  "ensdf_definition_check": "Primary TableII tau76(3)ps; ENSDF T1/2 52.7(2.1)ps = ln2 conversion",
+  "source_self_audit": "Codex direct-source self-audit; not human-reviewed",
+  "network_calls_bounded": true,
+  "canonical_writes": false,
+  "raw_writes": false,
+  "git_actions": false,
+  "producer_actions": false,
+  "subagents": false,
+  "outputs": [
+    "report.md",
+    "claim-ledger.json",
+    "source-identity.json",
+    "original-table-ledger.json",
+    "clock-and-table-crosscheck.json",
+    "access-manifest.json",
+    "primed-recall.md"
+  ]
+}

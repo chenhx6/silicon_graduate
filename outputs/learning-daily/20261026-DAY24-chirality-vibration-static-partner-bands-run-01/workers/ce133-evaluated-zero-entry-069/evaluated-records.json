@@ -1,0 +1,772 @@
+{
+  "kind": "actual-public-evaluation-entry-not-independent-experiment-or-new-measurement",
+  "metadata": {
+    "nuclide": "133Ce",
+    "Z": 58,
+    "N": 75,
+    "dataset": "ADOPTED LEVELS, GAMMAS",
+    "record_id": "133058001",
+    "ENSDF_header": "11NDS 201104",
+    "authors": "Yu. Khazov and A. Rodionov, F.G. Kondev",
+    "citation": "NDS112,855(2011)",
+    "publication_cutoff": "31-Oct-2010",
+    "current_service_not_current_experiment": true,
+    "NNDC_url": "https://www.nndc.bnl.gov/nudat3/getdataset.jsp?nucleus=133Ce&unc=nds",
+    "IAEA_url": "https://nds.iaea.org/relnsd/v0/data?fields=levels&nuclides=133ce"
+  },
+  "adopted_levels": [
+    {
+      "energy_keV": 0.0,
+      "energy_unc_keV": null,
+      "Jpi": "1/2+",
+      "half_life": 97,
+      "half_life_unc": 4,
+      "half_life_unit": "min",
+      "half_life_sec": 5820,
+      "half_life_unc_sec": 240,
+      "state": "ground",
+      "locator": "adopted.ensdf:L62–66"
+    },
+    {
+      "energy_keV": 37.2,
+      "energy_unc_keV": 0.7,
+      "Jpi": "9/2-",
+      "half_life": 5.1,
+      "half_life_unc": 0.3,
+      "half_life_unit": "h",
+      "half_life_sec": 18360,
+      "half_life_unc_sec": 1080,
+      "state": "metastable M",
+      "locator": "adopted.ensdf:L67–72"
+    }
+  ],
+  "separate_reaction_record": {
+    "record_id": "133058014",
+    "dataset": "120SN(16O,3NG)",
+    "header": "11NDS201104",
+    "low9over2_energy_keV": 37.3,
+    "energy_unc_keV": 0.6,
+    "half_life_h": 4.9,
+    "half_life_unc_h": 0.4,
+    "energy_held_fixed": true,
+    "E_T_comment": "from adopted levels",
+    "not_independent_measurement_or_averaged_with_adopted": true
+  },
+  "atomic_claims": [
+    {
+      "id": "N133-069-001",
+      "claim": "Currently served adopted ground state:0.0keV,1/2+,97(4)min.",
+      "locator": {
+        "file": "adopted.ensdf",
+        "lines": [
+          62,
+          63,
+          64,
+          65,
+          66
+        ]
+      },
+      "kind": "evaluated-record-not-new-experiment"
+    },
+    {
+      "id": "N133-069-002",
+      "claim": "Currently served adopted low metastable9/2- state:37.2(7)keV,5.1(3)h, M flag.",
+      "locator": {
+        "file": "adopted.ensdf",
+        "lines": [
+          67,
+          68,
+          69,
+          70,
+          71,
+          72
+        ]
+      },
+      "kind": "evaluated-record-not-Wiki-derived-value"
+    },
+    {
+      "id": "N133-069-003",
+      "claim": "Level energies generally from least-squares gamma fit; corresponding11/2-207.4(7) and170.2(2)M1+E2 line. No joint level covariance provided.",
+      "locator": {
+        "file": "adopted.ensdf",
+        "lines": [
+          18,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84
+        ]
+      },
+      "kind": "evaluation-input-and-covariance-boundary"
+    },
+    {
+      "id": "N133-069-004",
+      "claim": "Both spins attributed to1973In04 atomic-beam magnetic resonance; ground half-life to1967Ge08.",
+      "locator": {
+        "file": "adopted.ensdf",
+        "lines": [
+          64,
+          65,
+          69
+        ]
+      },
+      "kind": "evaluation-primary-reference-lineage"
+    },
+    {
+      "id": "N133-069-005",
+      "claim": "Adopted5.1(3)h weighted4.9(4)h1976Ge10 and5.4(5)h1967Ge08; also quotes6.3(1)h1951St03.",
+      "locator": {
+        "file": "adopted.ensdf",
+        "lines": [
+          70,
+          71
+        ]
+      },
+      "kind": "evaluation-combination-not-independent-clock"
+    },
+    {
+      "id": "N133-069-006",
+      "claim": "Separate reaction record retains37.3(6)keV,4.9(4)h; energy held fixed andE/Tfromadopted. Preserve difference from current adopted; no average or correction.",
+      "locator": {
+        "file": "sn120-reaction.ensdf",
+        "lines": [
+          82,
+          83,
+          84,
+          85,
+          86
+        ]
+      },
+      "kind": "literal-cross-record-consistency-boundary"
+    },
+    {
+      "id": "N133-069-007",
+      "claim": "Reaction scheme based on1974Gi01gamma coincidences/sums/intensity balance/excitation function and5.4h9/2state, subsequently extended via1995Ra12 and later results.",
+      "locator": {
+        "file": "sn120-reaction.ensdf",
+        "lines": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "kind": "historical-experimental-and-evaluation-lineage"
+    }
+  ],
+  "exact_record_excerpts": {
+    "adopted_header": [
+      {
+        "line": 2,
+        "literal": "133CE    ADOPTED LEVELS, GAMMAS                                  11NDS    201104"
+      },
+      {
+        "line": 3,
+        "literal": "133CE  H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   "
+      },
+      {
+        "line": 4,
+        "literal": "133CE2 H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               "
+      }
+    ],
+    "adopted_energy_comment": [
+      {
+        "line": 18,
+        "literal": "133CE cL E$From a least-squares fit to E|g's                                    "
+      },
+      {
+        "line": 19,
+        "literal": "133CE cL T(Z)$From RDDS measurements in 1997Em01                                "
+      },
+      {
+        "line": 20,
+        "literal": "133CE cL T(Y)$From DSAM measurements in 1998Jo16                                "
+      }
+    ],
+    "adopted_low_states": [
+      {
+        "line": 62,
+        "literal": "133CE  L    0.0       1/2+             97 M      4                          O   "
+      },
+      {
+        "line": 63,
+        "literal": "133CE2 L %EC+%B+=100$ XREF=+$                                                   "
+      },
+      {
+        "line": 64,
+        "literal": "133CE cL J$Atomic beam magnetic resonance method (1973In04)                     "
+      },
+      {
+        "line": 65,
+        "literal": "133CE cL T$from 1967Ge08                                                        "
+      },
+      {
+        "line": 66,
+        "literal": "133CE cL CONF$|n1/2[400] (s{-1/2})                                              "
+      },
+      {
+        "line": 67,
+        "literal": "133CE  L 37.2       7 9/2-             5.1 H     3                          BM  "
+      },
+      {
+        "line": 68,
+        "literal": "133CE2 L %EC+%B+ LT 100$ %IT=?$ XREF=BCD$                                       "
+      },
+      {
+        "line": 69,
+        "literal": "133CE cL J$Atomic beam magnetic resonance method (1973In04)                     "
+      },
+      {
+        "line": 70,
+        "literal": "133CE cL T$weighted average of 4.9 h {I4} (1976Ge10) and 5.4 h {I5} (1967Ge08). "
+      },
+      {
+        "line": 71,
+        "literal": "133CE2cL Other: 6.3 h {I1} (1951St03)                                           "
+      },
+      {
+        "line": 72,
+        "literal": "133CE cL CONF$|n9/2[514] (h{-11/2})                                             "
+      },
+      {
+        "line": 73,
+        "literal": "133CE  L 134.20     9 3/2+                                                  O   "
+      },
+      {
+        "line": 74,
+        "literal": "133CE2 L XREF=ACD$                                                              "
+      },
+      {
+        "line": 75,
+        "literal": "133CE cL J$134.3|g M1 to 1/2+; band assignment                                  "
+      },
+      {
+        "line": 76,
+        "literal": "133CE  G 134.3     2  100      M1                      0.513                A   "
+      },
+      {
+        "line": 77,
+        "literal": "133CES G KC=0.438 7$LC=0.0596 9$MC=0.01248 19$NC+=0.00325 5                     "
+      },
+      {
+        "line": 78,
+        "literal": "133CES G NC=0.00277 4$OC=0.000448 7$PC=3.39E-5 5                                "
+      },
+      {
+        "line": 79,
+        "literal": "133CE  L 207.4      7  11/2-           52.7 PS   21                         B   "
+      },
+      {
+        "line": 80,
+        "literal": "133CE2 L XREF=BCD$                                                              "
+      },
+      {
+        "line": 81,
+        "literal": "133CEF L FLAG=Z                                                                 "
+      },
+      {
+        "line": 82,
+        "literal": "133CE cL J$170.2|g M1+E2 to 9/2-; band assignment                               "
+      },
+      {
+        "line": 83,
+        "literal": "133CE  G 170.2     2   100     M1+E2     -0.16   8     0.267  5                 "
+      },
+      {
+        "line": 84,
+        "literal": "133CEB G BM1W=0.065 3$BE2W=4.E+1 4                                              "
+      }
+    ],
+    "reaction_header": [
+      {
+        "line": 2,
+        "literal": "133CE    120SN(16O,3NG)                1974GI01,1997EM01         11NDS    201104"
+      },
+      {
+        "line": 3,
+        "literal": "133CE  H TYP=FUL$AUT=YU. KHAZOV AND A. RODIONOV, F.G. KONDEV$                   "
+      },
+      {
+        "line": 4,
+        "literal": "133CE2 H CIT=NDS 112, 855 (2011)$CUT=31-Oct-2010$                               "
+      },
+      {
+        "line": 5,
+        "literal": "133CE c  1974Gi01: {+120}Sn({+16}O,3n|g), E=60-90 MeV; measured |g, |g|g,       "
+      },
+      {
+        "line": 6,
+        "literal": "133CE2c  |g(|q); deduced levels, |d, J|p. Cyclotron, Ge detectors,              "
+      },
+      {
+        "line": 7,
+        "literal": "133CE3c  enriched target                                                        "
+      },
+      {
+        "line": 8,
+        "literal": "133CE c  1997Em01: {+120}Sn({+16}O,3n|g) E=70 MeV. Measured lifetimes by recoil\\"
+      },
+      {
+        "line": 9,
+        "literal": "133CE2c  -distance Doppler-shift technique                                      "
+      },
+      {
+        "line": 10,
+        "literal": "133CE c  Others: 1991Pa04, 1987Ma57, 1996Ha20                                   "
+      },
+      {
+        "line": 11,
+        "literal": "133CE c  The level scheme was constructed by 1974Gi01 on the basis of           "
+      },
+      {
+        "line": 12,
+        "literal": "133CE2c  |g|g-coincidence measurements, energy sums, intensity balance          "
+      },
+      {
+        "line": 13,
+        "literal": "133CE3c  and excitation functions and based upon the 9/2- state (T{-1/2}=5.4 h) "
+      },
+      {
+        "line": 14,
+        "literal": "133CE4c  of {+133}Ce. In preceding evaluation of {+133}Ce data (1995Ra12), this "
+      },
+      {
+        "line": 15,
+        "literal": "133CE5c  scheme was expanded using the subsequent results of {+133}Ce           "
+      },
+      {
+        "line": 16,
+        "literal": "133CE3c  investigations and |g-rays, unplaced by 1974Gi01. At present, the      "
+      },
+      {
+        "line": 17,
+        "literal": "133CE7c  evaluators added to the {+133}Ce level scheme of 1995Ra12 the          "
+      },
+      {
+        "line": 18,
+        "literal": "133CE8c  1898.6-keV, 15/2+ level, four transitions from unplaced by 1974Gi01,   "
+      },
+      {
+        "line": 19,
+        "literal": "133CE9c  and assigned band structure according to 1987Ma57, 1996Ha20.           "
+      }
+    ],
+    "reaction_low_states": [
+      {
+        "line": 82,
+        "literal": "133CE  L  0.0            1/2+          97 M      4                          C   "
+      },
+      {
+        "line": 83,
+        "literal": "133CE cL T$from 'adopted levels'                                                "
+      },
+      {
+        "line": 84,
+        "literal": "133CE  L 37.3       6    9/2-          4.9 H     4                          BM  "
+      },
+      {
+        "line": 85,
+        "literal": "133CE DL E         LEVEL ENERGY HELD FIXED IN LEAST-SQUARES ADJUSTMENT          "
+      },
+      {
+        "line": 86,
+        "literal": "133CE cL E,T$from 'adopted levels'                                              "
+      },
+      {
+        "line": 87,
+        "literal": "133CE  L      134.3 3    3/2+                                               C   "
+      },
+      {
+        "line": 88,
+        "literal": "133CE  G  134.3    3   7.2   14                                                 "
+      },
+      {
+        "line": 89,
+        "literal": "133CE  L 207.30    2011/2-             52.7 PS   21                         B   "
+      },
+      {
+        "line": 90,
+        "literal": "133CE  G 170.0     2 100     10 M1+E2                                           "
+      }
+    ]
+  },
+  "IAEA_low_rows_positional": {
+    "header": [
+      "z",
+      "n",
+      "symbol",
+      "idx",
+      "energy_shift",
+      "energy",
+      "unc_e",
+      "ripl_shift",
+      "jp",
+      "jp_order",
+      "half_life",
+      "operator_hl",
+      "unc_hl",
+      "unit_hl",
+      "half_life_sec",
+      "unc_hl",
+      "decay_1",
+      "decay_1_%",
+      "unc_1",
+      "decay_2",
+      "decay_2_%",
+      "unc_2",
+      "decay_3",
+      "decay_3_%",
+      "unc_3",
+      "isospin",
+      "magnetic_dipole",
+      "unc_mn",
+      "electric_quadrupole",
+      "unc_eq",
+      "ENSDF_publication_cut-off",
+      "ENSDF_authors",
+      "Extraction_date"
+    ],
+    "rows": [
+      [
+        "58",
+        "75",
+        "Ce",
+        "0",
+        "",
+        "0",
+        "",
+        "",
+        "1/2+",
+        "1",
+        "97",
+        "",
+        "4",
+        "m",
+        "5820",
+        "240",
+        "EC+B+",
+        "100",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "31-Oct-2010",
+        "YU. KHAZOV AND A. RODIONOV and  F.G. KONDEV",
+        "2026-10-26"
+      ],
+      [
+        "58",
+        "75",
+        "Ce",
+        "1",
+        "",
+        "37.2",
+        "0.7",
+        "",
+        "9/2-",
+        "1",
+        "5.1",
+        "",
+        "3",
+        "h",
+        "18360",
+        "1080",
+        "EC+B+",
+        "100",
+        "",
+        "IT",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "31-Oct-2010",
+        "YU. KHAZOV AND A. RODIONOV and  F.G. KONDEV",
+        "2026-10-26"
+      ],
+      [
+        "58",
+        "75",
+        "Ce",
+        "2",
+        "",
+        "134.2",
+        "0.09",
+        "",
+        "3/2+",
+        "1",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "31-Oct-2010",
+        "YU. KHAZOV AND A. RODIONOV and  F.G. KONDEV",
+        "2026-10-26"
+      ],
+      [
+        "58",
+        "75",
+        "Ce",
+        "3",
+        "",
+        "207.4",
+        "0.7",
+        "",
+        "11/2-",
+        "1",
+        "52.7",
+        "",
+        "21",
+        "ps",
+        "0.0000000000527",
+        "0.0000000000021",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "31-Oct-2010",
+        "YU. KHAZOV AND A. RODIONOV and  F.G. KONDEV",
+        "2026-10-26"
+      ]
+    ],
+    "duplicate_unc_hl_column_positions_zero_based": [
+      12,
+      15
+    ],
+    "first_unc_hl_in_printed_unit_digit_convention": true,
+    "second_unc_hl_seconds": true,
+    "DictReader_duplicate_key_overwrite_avoided": true
+  },
+  "source_independence": "NNDC and IAEA expose same ENSDF2011 evaluation; reaction record imports adopted anchor; no new independent campaign. Reference metadata read, primary paper bodies not acquired/read this unit.",
+  "unresolved": [
+    "Original independent measurement path fixing relative positive/negative-parity bandhead absolute energy not uniquely resolved by retrieved cyclic comments.",
+    "No full least-squares fit covariance; do not give derived WK22 energy differences inherited evaluated uncertainty.",
+    "IT fraction unknown; no37.2keV gamma invented; IAEA EC+B+ aggregate100 does not erase ENSDF LT100/IT=? boundary.",
+    "Different reaction37.3/4.9 versus adopted37.2/5.1 records not silently synchronized."
+  ],
+  "access_records": [
+    {
+      "label": "iaea-levels",
+      "url": "https://nds.iaea.org/relnsd/v0/data?fields=levels&nuclides=133ce",
+      "retrieved_utc": "2026-10-26T18:46:41.940129+00:00",
+      "status": 200,
+      "final_url": "https://nds.iaea.org/relnsd/v0/data?fields=levels&nuclides=133ce",
+      "content_type": "text/csv;charset=ISO-8859-1",
+      "last_modified": null,
+      "bytes": 23840,
+      "sha256": "98de2d45e8f746334aeeed8ec8d4a524e41e8e63c5c08b156152ff191e27df32",
+      "file": "tmp/day24-ce133-evaluated-zero-entry-069/iaea-levels.csv"
+    },
+    {
+      "label": "nndc-ensdf133",
+      "url": "https://www.nndc.bnl.gov/ensdf/ensdf/ensdf.133",
+      "retrieved_utc": "2026-10-26T18:46:44.302848+00:00",
+      "failure": "HTTP Error 404: "
+    },
+    {
+      "label": "nndc-nudat133ce",
+      "url": "https://www.nndc.bnl.gov/nudat3/getdataset.jsp?nucleus=133Ce&unc=nds",
+      "retrieved_utc": "2026-10-26T18:48:17.697835+00:00",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 444944,
+      "sha256": "cf961586306cbb46e88f4fc48016e7b794d7aa677ee4ca30a2c2bb28df36ae21",
+      "file": "tmp/day24-ce133-evaluated-zero-entry-069/nudat133ce.html"
+    },
+    {
+      "label": "ensdf133ce-search",
+      "url": "https://www.nndc.bnl.gov/ensdf/DatasetFetchServlet",
+      "post": {
+        "nuc": "133CE",
+        "nsrch": "Search",
+        "searchType": "quick",
+        "datasource": "ensdf"
+      },
+      "retrieved_utc": "2026-10-26T18:50:56.694477+00:00",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 9020,
+      "sha256": "0eb3ceba3734b84d8cfe0487a5654d13c47a9b0344e284cd9d8a1f5d7fc01d71",
+      "file": "tmp/day24-ce133-evaluated-zero-entry-069/ensdf133ce-search.html"
+    },
+    {
+      "label": "ensdf133ce-adopted",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "post": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "133058001,133CE",
+        "chooseit": "ENSDF text format"
+      },
+      "retrieved_utc": "2026-10-26T18:52:41.291065+00:00",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 84956,
+      "sha256": "c14711c42531a4b4e86345d2df0357585af31028412dff616dfd2826af2d77c4",
+      "file": "tmp/day24-ce133-evaluated-zero-entry-069/adopted-wrapper.html",
+      "text_file": "tmp/day24-ce133-evaluated-zero-entry-069/adopted.ensdf",
+      "text_sha256": "4ac09f19661a52dd6061c8797cd3daeeadb869ca5be67d4423bc35040da4bced",
+      "text_lines": 1043
+    },
+    {
+      "label": "ensdf133ce-sn120-reaction",
+      "url": "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet",
+      "post": {
+        "dbclass": "ensdf",
+        "page-source": "singular",
+        "datasetcheck": "133058014,133CE",
+        "chooseit": "ENSDF text format"
+      },
+      "retrieved_utc": "2026-10-26T18:52:44.676022+00:00",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 14330,
+      "sha256": "809ab1f4b3ab64c52669f14cde87db03009dfcebf577d1d84f15db8dfefdc337",
+      "file": "tmp/day24-ce133-evaluated-zero-entry-069/sn120-reaction-wrapper.html",
+      "text_file": "tmp/day24-ce133-evaluated-zero-entry-069/sn120-reaction.ensdf",
+      "text_sha256": "f30e85c96003b0359f6a1cfdb8dffd66f6fa30b144f5cd7a7a8d25c2ab2a2bae",
+      "text_lines": 171
+    },
+    {
+      "label": "adopted-refs",
+      "url": "https://www.nndc.bnl.gov/ensdf/getrefs.jsp?recid=133058001&dsid=ADOPTED%20LEVELS,%20GAMMAS",
+      "retrieved_utc": "2026-10-26T18:54:24.340831+00:00",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 9321,
+      "sha256": "98a5573e6570ac23dc8d63426c2fb1d7a83533ef932ef156801cc8db73c72979",
+      "file": "tmp/day24-ce133-evaluated-zero-entry-069/adopted-refs.html"
+    },
+    {
+      "label": "reaction-refs",
+      "url": "https://www.nndc.bnl.gov/ensdf/getrefs.jsp?recid=133058014&dsid=120SN%2816O,3NG%29",
+      "retrieved_utc": "2026-10-26T18:57:36.617539+00:00",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 5987,
+      "sha256": "1593c0da853ed11c9f6e57a4d503c69a348c73e0c0dba4c2927253c5a1173e17",
+      "file": "tmp/day24-ce133-evaluated-zero-entry-069/reaction-refs.html"
+    }
+  ],
+  "files": {
+    "access-complete.json": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/access-complete.json",
+      "bytes": 4088,
+      "sha256": "b7dce85b6a93aaf2eb75b292f65cc6c9c41813bd42855c3acb0b2ae45e47d3c6"
+    },
+    "access-manifest-refs.json": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/access-manifest-refs.json",
+      "bytes": 3654,
+      "sha256": "52cc40ed9cb78f74d24abc8c3c806abca06a672971336f259cc7d495aea06182"
+    },
+    "access-manifest.json": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/access-manifest.json",
+      "bytes": 3214,
+      "sha256": "b2e9b7eb9418fb5648e4017ea46fb4aeeec8f0809a33ecc93e22571c1b98f20e"
+    },
+    "access-reaction-refs.json": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/access-reaction-refs.json",
+      "bytes": 413,
+      "sha256": "0d6aedc6aa36d761db737b96ce083d6813af0c04b83a53eb86b1feac3d1f18ba"
+    },
+    "adopted-refs.html": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/adopted-refs.html",
+      "bytes": 9321,
+      "sha256": "98a5573e6570ac23dc8d63426c2fb1d7a83533ef932ef156801cc8db73c72979"
+    },
+    "adopted-wrapper.html": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/adopted-wrapper.html",
+      "bytes": 84956,
+      "sha256": "c14711c42531a4b4e86345d2df0357585af31028412dff616dfd2826af2d77c4"
+    },
+    "adopted.ensdf": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/adopted.ensdf",
+      "bytes": 84243,
+      "sha256": "4ac09f19661a52dd6061c8797cd3daeeadb869ca5be67d4423bc35040da4bced"
+    },
+    "ensdf133ce-search.html": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/ensdf133ce-search.html",
+      "bytes": 9020,
+      "sha256": "0eb3ceba3734b84d8cfe0487a5654d13c47a9b0344e284cd9d8a1f5d7fc01d71"
+    },
+    "iaea-levels.csv": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/iaea-levels.csv",
+      "bytes": 23840,
+      "sha256": "98de2d45e8f746334aeeed8ec8d4a524e41e8e63c5c08b156152ff191e27df32"
+    },
+    "nudat133ce.html": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/nudat133ce.html",
+      "bytes": 444944,
+      "sha256": "cf961586306cbb46e88f4fc48016e7b794d7aa677ee4ca30a2c2bb28df36ae21"
+    },
+    "reaction-refs.html": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/reaction-refs.html",
+      "bytes": 5987,
+      "sha256": "1593c0da853ed11c9f6e57a4d503c69a348c73e0c0dba4c2927253c5a1173e17"
+    },
+    "sn120-reaction-wrapper.html": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/sn120-reaction-wrapper.html",
+      "bytes": 14330,
+      "sha256": "809ab1f4b3ab64c52669f14cde87db03009dfcebf577d1d84f15db8dfefdc337"
+    },
+    "sn120-reaction.ensdf": {
+      "path": "tmp/day24-ce133-evaluated-zero-entry-069/sn120-reaction.ensdf",
+      "bytes": 13611,
+      "sha256": "f30e85c96003b0359f6a1cfdb8dffd66f6fa30b144f5cd7a7a8d25c2ab2a2bae"
+    }
+  },
+  "no_canonical_raw_Git_credential_changes": true,
+  "same_day24_only_day25_uncredited_preview": true
+}

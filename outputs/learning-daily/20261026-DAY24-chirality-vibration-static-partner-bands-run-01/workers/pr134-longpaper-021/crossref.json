@@ -1,0 +1,725 @@
+{
+  "url": "https://api.crossref.org/works/10.1103/PhysRevC.76.044313",
+  "curl_exit": 0,
+  "metadata": "200\thttps://api.crossref.org/works/10.1103/PhysRevC.76.044313\tapplication/json",
+  "error": "",
+  "bytes": 12714,
+  "sha256": "78b71f6573aacd6ec0909e1a79840360d0bfbdd59abe5bcd975081ea77a0bb63",
+  "identity": {
+    "title": [
+      "Question of dynamic chirality in nuclei: The case of<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mmultiscripts><mml:mi mathvariant=\"normal\">Pr</mml:mi><mml:mprescripts/><mml:none/><mml:mrow><mml:mn>134</mml:mn></mml:mrow></mml:mmultiscripts></mml:math>"
+    ],
+    "DOI": "10.1103/physrevc.76.044313",
+    "author": [
+      {
+        "given": "D.",
+        "family": "Tonev",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G. de",
+        "family": "Angelis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Brant",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Frauendorf",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Petkov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Dewald",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "F.",
+        "family": "D\u00f6nau",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. L.",
+        "family": "Balabanski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Q.",
+        "family": "Zhong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Pejovic",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Bazzacco",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Bednarczyk",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "F.",
+        "family": "Camera",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "Curien",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "F. Della",
+        "family": "Vedova",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Fitzler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Gadea",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "G. Lo",
+        "family": "Bianco",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Lenzi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "Lunardi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "N.",
+        "family": "Marginean",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "O.",
+        "family": "M\u00f6ller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D. R.",
+        "family": "Napoli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R.",
+        "family": "Orlandi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "E.",
+        "family": "Sahin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Saltarelli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. Valiente",
+        "family": "Dobon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. O.",
+        "family": "Zell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jing-ye",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Y. H.",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "article-number": "044313",
+    "published": {
+      "date-parts": [
+        [
+          2007,
+          10,
+          17
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevC.76.044313",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.76.044313/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "reference": [
+      {
+        "key": "PhysRevC.76.044313Cc1R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0375-9474(97)00004-3"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.84.5732"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0375-9474(00)00663-1"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.73.463"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.92.032501"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2004.07.050"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2004.05.066"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc8R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.65.044328"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.91.132501"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc10R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.68.024318"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.68.054310"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc12R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.97.172501"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc13R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.70.044305"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc14R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.68.044324"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.93.052501"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.73.037303"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc17R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(95)00416-5"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.86.971"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc19R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.69.017304"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.96.052501"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc21R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.96.112502"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc22R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s002180050290"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc23R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01294217"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc24R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0168-9002(93)90944-D"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0168-9002(99)00276-4"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc26R1",
+        "volume-title": "Nuclei at the Limits",
+        "author": "K. Starosta",
+        "year": "2005"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc27R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0375-9474(00)00173-1"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc28R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0375-9474(98)00429-1"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc30R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0167-5087(83)90629-4"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc31R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0029-554X(69)90203-1"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc32R1",
+        "doi-asserted-by": "crossref",
+        "first-page": "197",
+        "DOI": "10.1007/978-1-4757-4401-9_3",
+        "volume": "10",
+        "author": "T. K. Alexander",
+        "year": "1978",
+        "journal-title": "Adv. Nucl. Phys."
+      },
+      {
+        "key": "PhysRevC.76.044313Cc33R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0168-9002(95)00246-4"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc34R1",
+        "volume-title": "Facing the Next Millennium 1999",
+        "author": "A. Gadea",
+        "year": "1999"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc35R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01366453"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc35R2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01366454"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc36R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(96)00194-7"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc37R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.60.034301"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc38R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.67.057301"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc39R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02398323"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc40R1",
+        "volume-title": "Capture Gamma-Ray Spectroscopy and Related Topics\u20141984",
+        "author": "V. Paar"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc40R2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01412551"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc40R3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01284452"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc41R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01283770"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc42R1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1017/CBO9780511895517",
+        "volume-title": "The Interacting Boson Model",
+        "author": "F. Iachello",
+        "year": "1987"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc43R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.35.1069"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc43R2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0003-4916(76)90097-X"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc43R3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0003-4916(78)90228-2"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc43R4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0003-4916(79)90347-6"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc44R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.43.679"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc45R1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1017/CBO9780511549724",
+        "volume-title": "The Interacting Boson Fermion Model",
+        "author": "F. Iachello",
+        "year": "1991"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc46R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0954-3899/20/7/006"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc47R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1143/PTPS.125.97"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc48R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRev.102.788"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc49R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.61.041302"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc50R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.59.1541"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc51R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(89)90402-8"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc52R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.53.1660"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc53R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0375-9474(97)00046-8"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc54R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.29.1420"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc55R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0375-9474(85)90432-4"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc56R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevC.61.021301"
+      },
+      {
+        "key": "PhysRevC.76.044313Cc57R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.93.172502"
+      }
+    ]
+  }
+}

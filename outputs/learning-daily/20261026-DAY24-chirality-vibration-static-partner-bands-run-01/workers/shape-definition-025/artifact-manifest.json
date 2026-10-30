@@ -1,0 +1,399 @@
+{
+  "outputs": [
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/shape-definition-025/claim-ledger.json",
+      "bytes": 3591,
+      "sha256": "ef5f7a5851638a80266e0a92c11153e41c2307bc3b4cbc8a077e75ce5eac3f89"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/shape-definition-025/report.md",
+      "bytes": 13243,
+      "sha256": "fdcb5e26771bd5c36d1fcb16f2cd2104aa36f2bc787954aa8eadbdf09ea0df3c"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/shape-definition-025/source-reading.json",
+      "bytes": 1585,
+      "sha256": "121d9e5d853962531cba9ef42b203829bb210fe628bfd4d76b511a6e7be8973b"
+    }
+  ],
+  "staging": [
+    {
+      "path": "tmp/day24-shape-definition-025/numeric-locator-search.json",
+      "bytes": 6323,
+      "sha256": "016ec651b29c226923e9981b9184071810a50afff96548c4f9964874b6f835f1"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-01.png",
+      "bytes": 215438,
+      "sha256": "ed318ab5b0018b67f60a589afe747199866909f4af8d9f9d5854cf213e157f87"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-01.txt",
+      "bytes": 7097,
+      "sha256": "9d883848078992c63433c54f2aa71c4b9bbf52e93032c99bc85e8ed3b61da6e1"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-02.txt",
+      "bytes": 9490,
+      "sha256": "5189c18527a10a0b7e77b1cc2a4dc43b44454a30978b0d805a1fb4e9e2deea8e"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-03.txt",
+      "bytes": 7548,
+      "sha256": "f02174e97acb559c65801e7eaa253a5db3ed52e1c4046e75c99ee4ad038e1f5f"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-04.txt",
+      "bytes": 7372,
+      "sha256": "2feafd295b5f9c3bfeae16d33c5ea05a1f0d894fc663ee5e07eb9a90423de121"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-05.txt",
+      "bytes": 6762,
+      "sha256": "0bea4c5d8f62790f0c0395368b8c10f7fdfbf06c91eab3964f711cc8082fbe24"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-06.txt",
+      "bytes": 5364,
+      "sha256": "07f9318a890d125a6a8c28598507a98281f184649d87217043e36cd3f7e78e8d"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-07.txt",
+      "bytes": 7840,
+      "sha256": "f859770bf79556e64f848b5f66b2ce3a3859c82ba75215cb8d25798fed390631"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-08.png",
+      "bytes": 285348,
+      "sha256": "2632407c7deda01edaad322eeaa3d5fe2ecef99c7be1f89d19730f508b1a79a1"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-08.txt",
+      "bytes": 6251,
+      "sha256": "91afe4df4ee145b14aa8e06aa0b6787360455e781d85765fd40a1fbb0b9f91e3"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-09.txt",
+      "bytes": 8071,
+      "sha256": "14264cea30d6d0bbed21ff73ce529cbc05d2154460c35c7dcb621333e34d7486"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-10.png",
+      "bytes": 339835,
+      "sha256": "d76c4fe687dc077831626b868240d52ab38bb70c26139c77bfa414537ed81400"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-10.txt",
+      "bytes": 6290,
+      "sha256": "500aca9242c6420e726b3b962641585b411b709f22590bb9ca435acb778c5c68"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-11.png",
+      "bytes": 318877,
+      "sha256": "5c4bfda84003d925d9699fb4e8c6324a333449b598a205115a71cf3cd4dc1bb9"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-11.txt",
+      "bytes": 4977,
+      "sha256": "25a0f00cc17b8130c8875e732d735890ccd305d5cbc75a6fe425b721faf6ffd4"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-12.png",
+      "bytes": 213436,
+      "sha256": "a5844f5fcf7f9e35bf9dbb013575aaa9af5654f2107707dbbf23e95a5f7d04b4"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-12.txt",
+      "bytes": 8440,
+      "sha256": "5ab5b497888b42ffbe7ff621a279356b21a9c8d339316121e9f9bd1f30a7801d"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-13.png",
+      "bytes": 250135,
+      "sha256": "e07ce34b68a7c563f1418ad34973ab38d99ea100c1fc816cc67d449fef1893a5"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-13.txt",
+      "bytes": 7342,
+      "sha256": "d4a7644cbb615955a312fc3c0e2f479ca712c3a9cfe65cc5b1048f6fd9445020"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-14.txt",
+      "bytes": 5652,
+      "sha256": "294a37167cd013e4e432b34d0305c48b615ea8790c3551b07a06d1edc1ab02c1"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-15.txt",
+      "bytes": 10294,
+      "sha256": "7df6a429af9d0ca0547211fb389a07a38cf7446ff98b5701a0c88349eacfe81e"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-16.txt",
+      "bytes": 6172,
+      "sha256": "3e09ac08e1374072adb0c81f98ec95a01e7e408f0bd3a3933a05576a72df505b"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-17.txt",
+      "bytes": 8808,
+      "sha256": "9b7f36f24b7ff6125b34585a44a34d3db65d62882df669a9b2525aa695231114"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-18.txt",
+      "bytes": 3432,
+      "sha256": "1ee576386888bc8b91cef0099f8e9c04c06fc2078f796c2572627fb7a161f1be"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-19.txt",
+      "bytes": 7958,
+      "sha256": "4cc61e0a53a71d9914a0feca483ccd81b92ee7ca04a40cf5f52b78579a362ca5"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-20.txt",
+      "bytes": 9509,
+      "sha256": "46ef5ae4a087306ea9c722be039f76842b12c410abe7d8e29920128186a2c7c7"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-21.txt",
+      "bytes": 5753,
+      "sha256": "52ebfd5ade0adde5a7265272b87e51a52a9425800136fc6dba02cdcbcbc89776"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-22.txt",
+      "bytes": 13195,
+      "sha256": "50458d3627c22fa851ea2f24a7fbc12ef1bc6e65980b618a992f298804f02525"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-23.txt",
+      "bytes": 2740,
+      "sha256": "ff7c393f93f206729f6e831d51f3fadd543e5ee41dba0ec01a86908e442f88fd"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-24.txt",
+      "bytes": 3923,
+      "sha256": "63459eb4dd803dfcd046fb01607d1682fb70b45ea83afd6081103c1e1ce8c2fe"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-25.txt",
+      "bytes": 5464,
+      "sha256": "06b679cc50bd3c4761bb1dddc6cc176660a388cc1aa5005883a43edd6c91d783"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-26.txt",
+      "bytes": 3201,
+      "sha256": "39170cf609e02fb83dfb32bda5e8f9e8cb2063e9cec9bda15fa05f6f7648c22d"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-27.png",
+      "bytes": 290044,
+      "sha256": "32c716385dbb8158eb6803a1f81600cdf116bb4b8e1f963d00f5e5bcfbad406b"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-27.txt",
+      "bytes": 7154,
+      "sha256": "51597e35b2510ae7fdc6ed368c150ebf68668cb8b1caf6703145370822cd90e9"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-28.png",
+      "bytes": 303014,
+      "sha256": "374f6688a3e45acffd83640d315ce1a128be03a6105c9fe2c2fb0e9eca96d1e3"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-28.txt",
+      "bytes": 7159,
+      "sha256": "984a4dc1524080322b513e82de150456b01acbc1d406da6214689a3574d1b5e6"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-29.png",
+      "bytes": 312771,
+      "sha256": "226e59a23eaa1230240bce936d47c2b54f1e7b2706e0493b7075958d924bf5e9"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-29.txt",
+      "bytes": 8200,
+      "sha256": "36876cfe28e69a53d47be8313a89fb3e932be8da64a911de4e55e09a8f92c0f1"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-30.png",
+      "bytes": 270288,
+      "sha256": "b6b2dfb2c20ff4c1cdca73e2d829e2a43ff8b55c78e3563827086d0ae390a75c"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-30.txt",
+      "bytes": 8264,
+      "sha256": "733d75f16af096ca1920a930f966cf58c26e69a350d9f1c1a9c53ac382490785"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-31.txt",
+      "bytes": 5762,
+      "sha256": "26891a6685e3bff64d60eb69591854dc71457eac2de57b8f767c1b488f6d70ca"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-32.txt",
+      "bytes": 10047,
+      "sha256": "05e64bdb4f2e128082497806baf95cd77e626b5ddbb5dca27bcf8be99899cf4f"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-33.txt",
+      "bytes": 8694,
+      "sha256": "081ad14660b74ad1c1482ec367bdec27434e4538791333c4a8ef2a605d7e280c"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-34.txt",
+      "bytes": 7494,
+      "sha256": "86922478de1f88c4604e096675f3825541426107edb2d3a25fb4bbb0826c9e58"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-35.txt",
+      "bytes": 8678,
+      "sha256": "f6e2134381b0c0f2d380751be9505894a5740d2f9ce0c040cb5068059680d1d2"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-36.png",
+      "bytes": 313022,
+      "sha256": "be137b3081d9ab666a188109cd0632a4d3a14a70eaffc40730ec6d14a0117d87"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-36.txt",
+      "bytes": 9031,
+      "sha256": "99cb9f96bf36ea862170d8193e1fbf3131ca8199653474da45ca4f915035706b"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-37.png",
+      "bytes": 201763,
+      "sha256": "c714663de91d5ae174a4574894c62d868bab783a3cdb903f620a519db7def14e"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-37.txt",
+      "bytes": 6069,
+      "sha256": "9b76ec7988d4a5ebe0462421df12e75dccbc865d068b83b96077e67d0e0bad9c"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-38.png",
+      "bytes": 232370,
+      "sha256": "1cec260fdb15bc003310f25b80ae60477bb7c673a5169e60f900b8d91c2d5ea3"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-38.txt",
+      "bytes": 6294,
+      "sha256": "fbed1bbf40f48f8180511e59da89cac2e1c581dc166aaa4a1defa8cdf6113404"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-39.png",
+      "bytes": 324176,
+      "sha256": "6813df1c1cd2d588bf9edf23eaa20b14079a906f856e1686732c682ed0779e85"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-39.txt",
+      "bytes": 9077,
+      "sha256": "fdf0c53380e31ba092c0119f52c664439aad1e3cdf00c07a0855107eef2d2de5"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-40.png",
+      "bytes": 225991,
+      "sha256": "eb484d7fd1c60196bb304c8ff0a39bd1bea131a6f5f397d63e3826925e1aafd4"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-40.txt",
+      "bytes": 4600,
+      "sha256": "ad1d881fd03c01649448da2631c53bcd4dd6ba2b3e277f5e7342cb0f50f22f2c"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-41.png",
+      "bytes": 224039,
+      "sha256": "aa53cb689612246ee8cd60dbbc89a60b07918e279c70e3ecf47a04fce22f14c4"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-41.txt",
+      "bytes": 6854,
+      "sha256": "dcbe60d112e936b27989cba5781a7348e96ab5ff6b582867ce7bbd4d6419d8fc"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-42.txt",
+      "bytes": 6134,
+      "sha256": "726f59b56b276c4ad64b68db9647e5e2f4994c552ebf6b03145d296c14ee54fe"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-43.png",
+      "bytes": 330868,
+      "sha256": "2311960a960d30b4a753000f26d498e187c590a79d3877fc6660a6322cff44f2"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-43.txt",
+      "bytes": 8203,
+      "sha256": "eca953e59d37cc018104ddf0d670d3e83eb393b198354cf1dbed5c17c0efc661"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-44.txt",
+      "bytes": 8916,
+      "sha256": "0f9815ecf89de7758b919f0814e9a7e20e69a7f54ecd7bbf9a2dae89f7b3cdd4"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-45.txt",
+      "bytes": 7093,
+      "sha256": "cde877bca1a9e6ee2339e8ce44dabf989b6a9e071a3d9d02c5af6afc56d7af44"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-46.txt",
+      "bytes": 5767,
+      "sha256": "00965e826e8a46552f009f69b2e1e7a92278759f1ee9ff2eea9ad937838e1336"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-47.txt",
+      "bytes": 8785,
+      "sha256": "4a8c9bbb09635c33e32603df3caac78b17d6baab3132c80ed075ac584fb863ae"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-48.txt",
+      "bytes": 7885,
+      "sha256": "2bde03482a2bfaacbe1ff2dbd82e98a2d7c3904e5bdfb6662b6b4842b7f49bb6"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-49.txt",
+      "bytes": 8111,
+      "sha256": "23d90d45ce70feae7ed1b2648824e2de353f94c97529b21b881f29cc39b2aa3a"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-50.txt",
+      "bytes": 7781,
+      "sha256": "5eddc58462b73c4bb26d4e478e5d6f3e805e8ece687aeea4236080d740f1908f"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-51.txt",
+      "bytes": 7770,
+      "sha256": "9395930af44593e5a9fd4c6d04094608ee22ac9eb7eaa11d4598b8d58a8a2b06"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-52.txt",
+      "bytes": 7790,
+      "sha256": "fce4a6ee1ac167cb7db413e89f05fb80861fe9bc523d3c905a4254d2f9759d97"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-53.txt",
+      "bytes": 7882,
+      "sha256": "d71c67d9925558534230aebdea4cfd69afca48dbd63fe6adf01994859e846112"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-54.txt",
+      "bytes": 7885,
+      "sha256": "23766db8a1a161eaa4583be1c4166d650b6213137459f23f3ea43fa073bc736b"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/page-55.txt",
+      "bytes": 4890,
+      "sha256": "1ba8b9dd26b47dd450a767b49181e85ab50b54faf2ba729b10f314563ec8a7cd"
+    },
+    {
+      "path": "tmp/day24-shape-definition-025/raw-check.json",
+      "bytes": 226,
+      "sha256": "7efa8c2cea72e564c954d0839daf4e9572bf9ced12fa05fd3df1532bf6b017b9"
+    }
+  ],
+  "checks": {
+    "raw_sha": "match",
+    "json_parse": "pass",
+    "markdown_whitespace": "pass",
+    "source_scoped_reading_not_full55pages": true,
+    "no_oldproducer_run": true,
+    "canonical_mutations": false
+  }
+}

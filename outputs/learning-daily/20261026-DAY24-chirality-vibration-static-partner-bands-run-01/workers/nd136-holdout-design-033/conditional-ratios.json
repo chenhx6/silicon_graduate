@@ -1,0 +1,158 @@
+{
+  "kind": "conditional-observed-photon-input-holdout-design-not-model-fit-or-experimental-remeasurement",
+  "calculated_utc": "2026-10-26T15:45:33.880622+00:00",
+  "source": "Lv2019thesis physicalPDF93–95Table5.1,PDF97footnotes; existing028/031 primary units",
+  "source_sha256": "84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749",
+  "formula": "R_E2(out,in)=(Iout/Iin)*(Ein/Eout)^5",
+  "primary_comparison": {
+    "R20": {
+      "parent": [
+        "D5-C",
+        "20+",
+        7543.0
+      ],
+      "in": [
+        611.4,
+        0.21,
+        0.1,
+        "E2",
+        "D5-C18+"
+      ],
+      "out": [
+        1021.2,
+        0.6,
+        0.1,
+        "E2",
+        "D518+"
+      ],
+      "nominal_ratio": 0.21978856673180955,
+      "already_canonical_claim": "TH19-D25P-005"
+    },
+    "R21": {
+      "parent": [
+        "D5-C",
+        "21+",
+        7927.1
+      ],
+      "in": [
+        714.1,
+        0.18,
+        0.04,
+        "E2",
+        "D5-C19+7213.0"
+      ],
+      "out": [
+        1060.7,
+        0.8,
+        0.4,
+        "E2",
+        "D519+6866.4"
+      ],
+      "nominal_ratio": 0.6146810196264492,
+      "nominal_photon_ratio": 4.444444444444445,
+      "energy_power5_factor": 0.138303229415951
+    },
+    "nominal_R21_over_R20": 2.7966924247542653,
+    "interpretation": "Two distinct parent-specific output ratios; descriptive central contrast only, no significance/trend certification"
+  },
+  "secondary_partial_outlet_vector": {
+    "parent": [
+      "D5",
+      "18+",
+      6521.8
+    ],
+    "baseline": [
+      515.6,
+      0.35,
+      0.1,
+      "E2",
+      "D516+6006.2"
+    ],
+    "outlet_a": [
+      764.6,
+      1.9,
+      0.2,
+      "E2",
+      "conditionaldaughter5757.2;familybindingrequiresactualsource"
+    ],
+    "outlet_b": [
+      826.9,
+      2.7,
+      0.3,
+      "E2",
+      "conditionaldaughter5694.9;familyunknown"
+    ],
+    "Ba_over_Bbaseline": 0.7569699365156118,
+    "Bb_over_Bbaseline": 0.7271019402832216,
+    "Bb_over_Ba": 0.9605426916029521,
+    "exact_rational_identity_closure": true,
+    "independent_ratio_dimension": 2,
+    "closure_boundary": "thirdratioorcycleproductusesidenticalsourcerecords;notanindependentphysicalclosuretest",
+    "selected_three_line_subset_not_all_outlets": true,
+    "additional_printed_E2_outlets_retained": [
+      {
+        "Egamma_keV": 951.8,
+        "I_gamma": [
+          0.16,
+          0.02
+        ]
+      },
+      {
+        "Egamma_keV": 1330.5,
+        "I_gamma_upper_limit": 0.01
+      }
+    ],
+    "independent_ratio_dimension_scope": "At most2 for the selected3-line subset only; no all-outlet dimension claimed"
+  },
+  "excluded_or_unpromoted_inputs": [
+    {
+      "parent": "D5-C20+",
+      "line": 330.0,
+      "reason": "printedM1,notthirdE2"
+    },
+    {
+      "parent": "D5-C21+",
+      "lines": [
+        384.1,
+        672.5
+      ],
+      "reason": "printedM1/E2;E2componentsanddeltanotgiven"
+    },
+    {
+      "candidate_parent": "D5-C22+",
+      "lines": [
+        812.1,
+        1100.5
+      ],
+      "printed_Ei_keV": [
+        8355.1,
+        8355.9
+      ],
+      "reason": "sameJpi/nearEi doesnotauthorizemergingparentorcorrectingtable"
+    }
+  ],
+  "requires_tau_or_completeBR": false,
+  "assumptions": [
+    "sourcestate_endpoints_andE2assignmentscorrect",
+    "relativeefficiencycorrectedIarecomparableunbiasedsameparentphotonintensities",
+    "exactselectedgates_responsefeedingbackgroundneededbeforeprecisionuse"
+  ],
+  "unknown": [
+    "jointCovariance",
+    "perlineexactgateproducer",
+    "energydependentresponsecorrelations",
+    "coverageofprintederrors",
+    "modelRMEforholdouts"
+  ],
+  "not_derived": [
+    "CI",
+    "significance",
+    "absoluteB",
+    "totalBR",
+    "relativephase",
+    "modeexclusion",
+    "missinggammaenergies",
+    "fittedmodelparameters"
+  ],
+  "no_network": true
+}

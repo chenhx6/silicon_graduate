@@ -1,0 +1,137 @@
+{
+  "status": "verified-no-op-with-explicit-scope",
+  "required_corrections": [],
+  "checks": [
+    {
+      "id": "R070-01",
+      "topic": "historical-zero",
+      "decision": "verified-no-op",
+      "target": "source GZ74-D24-009; blueprint1974section; PartIIRef26tail",
+      "evidence": "GizonPDF14 Fig8 and PDF17 §3.4 freshvisual",
+      "finding": "9/2−5.4h chosenzero, ground/isomerunknown; no modern37.2rewrite"
+    },
+    {
+      "id": "R070-02",
+      "topic": "I55-versus-branch",
+      "decision": "verified-no-op",
+      "target": "source002/setup; WK22-44/blueprint",
+      "evidence": "066 methodsPDF2–4 plus targetedTable3PDF12",
+      "finding": "55degree relativeintensity notallanglebranch/B;strongest100 wording retains117exception; no denominator invented"
+    },
+    {
+      "id": "R070-03",
+      "topic": "alpha2-and-rough-delta",
+      "decision": "verified-no-op",
+      "target": "source013–014;blueprint",
+      "evidence": "FreshGizonPDF18–19/Fig11;066PDF4",
+      "finding": "IgnoreA4,pureE2alignmentcalibration,nucleusmean alpha2 .43/.44/.69/.76;rough50±25%E2 notperlineCI; x=absδ/(1+absδ) notfE2"
+    },
+    {
+      "id": "R070-04",
+      "topic": "prolate-sign-premises",
+      "decision": "verified-no-op",
+      "target": "source014",
+      "evidence": "FreshPDF19 plus4xnakai-detail.png",
+      "finding": "K!=1/2;NakaiI>=7/2 visuallyclear;g-gR/Q0modelrule retained;no independentg/Q measurement"
+    },
+    {
+      "id": "R070-05",
+      "topic": "old817-line-and-modern-denominator",
+      "decision": "verified-no-op",
+      "target": "source015 and unassignedtable;WK22-44;blueprint",
+      "evidence": "FreshGizonPDF16–17/Table4;modernabsence claim remains scoped to knownmodernledger",
+      "finding": "817.3I3.4 actuallylisted withblankassignment;582.2/624.8/464.6 alsoobserved butunbound;no sameparentΔI2reference or filledI"
+    },
+    {
+      "id": "R070-06",
+      "topic": "1163_6-edge-and994_1164",
+      "decision": "verified-no-op",
+      "target": "source010/crosswalk;blueprint;PartIIRef26tail",
+      "evidence": "FreshPDF14/16/18 plus disclosedpriorPartIIcrosswalkcontext",
+      "finding": "1163.6-554.9=608.7;1163.6-170=993.6≈994;sourcecrosswalk preservescandidacy andno wholeBand4mapping"
+    },
+    {
+      "id": "R070-07",
+      "topic": "higher-level-migration",
+      "decision": "verified-no-op",
+      "target": "sourcecrosswalk;PartIItail;blueprint",
+      "evidence": "GizonPDF14; existingroot/067PartIIcrosswalkrecord",
+      "finding": "1552.3-170=1382.3 not1380;originalprimaryhasno sameJ21/2/23/2mainbranch;no offsetrestorationofallnodes"
+    },
+    {
+      "id": "R070-08",
+      "topic": "135Ce-clock",
+      "decision": "verified-no-op",
+      "target": "source008;blueprint",
+      "evidence": "066 freshPDF7–11/Table2/Fig5",
+      "finding": "8±2nssharedsidefeedingrelateddelay;20sisomerinherited;no transferintoeachlowerstate or133Ce"
+    },
+    {
+      "id": "R070-09",
+      "topic": "137Nd-clock",
+      "decision": "verified-no-op-scoped",
+      "target": "source005",
+      "evidence": "066 necessaryNdcontextPDF7–8;root068primaryledger",
+      "finding": "1–4ns is sidefeedingtransition/statecontext,notallstates;19/2+/23/2+paritytentative"
+    },
+    {
+      "id": "R070-10",
+      "topic": "133Ce-clock",
+      "decision": "verified-no-op",
+      "target": "source011;blueprint",
+      "evidence": "FreshPDF18 plus4xside-clock-detail.png",
+      "finding": "sourceT1/2≲3ns approxbound;notstrictnewCI orindividualmodernmotherclock"
+    },
+    {
+      "id": "R070-11",
+      "topic": "literal-table-figure-conflicts",
+      "decision": "verified-no-op",
+      "target": "source012/levelarithmetic;blueprint",
+      "evidence": "FreshTable4PDF16/Fig8PDF14,4x619detail;066Table2/Fig5",
+      "finding": "619.7table15/2to13/2 vsfigenergy15/2to11/2;159.5end2450vs2449.5;Ce135cycle1.1keV residual preserved withoutstatisticaldecision"
+    },
+    {
+      "id": "R070-12",
+      "topic": "low1qp-versus-MU07",
+      "decision": "verified-no-op-scoped",
+      "target": "135Ndmapnewsection/source016",
+      "evidence": "GizonPDF14 plus067/root068reportedmodule scope; no freshfullMU07review",
+      "finding": "Earlylownegativefamilydoesnotbecomehighspin3qpA/B,TiP orchiralityevidence;theoryreuse notnewacquisition"
+    },
+    {
+      "id": "R070-13",
+      "topic": "reading-scope-and-review-status",
+      "decision": "verified-no-op",
+      "target": "sourcefrontmatter/scope",
+      "evidence": "064/066ownreadreceipts plus067finishedreport/rootassignedcoverage",
+      "finding": "Combined22pagecoverageattributedtomultipleunits;notindependentfullread/humanreview;rawstagingmetadataexplicit"
+    }
+  ],
+  "reviewed_files": [
+    {
+      "path": "knowledge/sources/gizon-1974-deformed-states-cerium-neodymium.md",
+      "sha256": "cd1163c420c356acae2c9beb9bfae9e11bbd0af1629e7c165257a162a827bf33",
+      "bytes": 13318
+    },
+    {
+      "path": "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+      "sha256": "c833467ac2f9f897af3e844ee9f1c43c8bec36725abc97765c9fd70e3364629a",
+      "bytes": 63342
+    },
+    {
+      "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+      "sha256": "fbb7be3df8075e17c561bbe6d1ad6b57e4731f7d1a6d248d3aad318ca1912c73",
+      "bytes": 27716
+    },
+    {
+      "path": "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md",
+      "sha256": "6437e2e98905e54590429cd035ae6511c5b639c68086b7c4f3e0e76203d3c8cd",
+      "bytes": 44894
+    },
+    {
+      "path": "knowledge/sources/meyer-ter-vehn-1975-odd-a-unique-parity-comparison.md",
+      "sha256": "51aa2c55d0e82710c377c534e828c9dd6013f29218eed7e534936ba6614849f6",
+      "bytes": 12176
+    }
+  ]
+}

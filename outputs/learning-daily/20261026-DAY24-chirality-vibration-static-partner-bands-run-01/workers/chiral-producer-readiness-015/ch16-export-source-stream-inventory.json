@@ -1,0 +1,118 @@
+{
+  "members": [
+    {
+      "name": "Paper2DCH.tex",
+      "size": 95702,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "30c5612025c349b8f791c497a02d2514a0527e965d64957b7f1dabd1219e8394"
+    },
+    {
+      "name": "fig10.pdf",
+      "size": 13261,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "86e5231125e7d18c0deb0449c85fd1b70958564a3df0da823f9e7b16f31d7697"
+    },
+    {
+      "name": "fig11.pdf",
+      "size": 14474,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "5f1d5cdb5ee5ef0a00b31338c88735ababacf5297ab23306e704e658762ff0f0"
+    },
+    {
+      "name": "fig12.pdf",
+      "size": 18624,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "23aafe71886847c5c022aa849350dc64c45314a2596c6434e4dbe05870c78c63"
+    },
+    {
+      "name": "fig1a.pdf",
+      "size": 104776,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "d04162f71f3587b9a1219b9f9c9798a894c35396bb95071543cbb5e29d9d2422"
+    },
+    {
+      "name": "fig1b.pdf",
+      "size": 240405,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "fb1b665803a7c78dd5a5d0ba95bfe3cc4177c569c8c25e4b78b4f9f07e85421b"
+    },
+    {
+      "name": "fig1c.pdf",
+      "size": 256009,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "8d90337a4bf412f6f9120fe6277fe010fa5c1ea7a2fbb9ff0ce03a3b20edc6ed"
+    },
+    {
+      "name": "fig1d.pdf",
+      "size": 147278,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "b6b11780cbdbba0cbbe2fd5f872a8dbaf2ed37218dbbe6dc082a218f9f790381"
+    },
+    {
+      "name": "fig1e.pdf",
+      "size": 128710,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "202586be440e180ae90cffb0ee29faf667994addd781cfd3da6f1b5a737c2bcc"
+    },
+    {
+      "name": "fig1f.pdf",
+      "size": 115540,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "6bcd098e71d95a88e6b0e3405807c3d87bd448afb30db983ff01abcb81940965"
+    },
+    {
+      "name": "fig2a.pdf",
+      "size": 740781,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "098cca433d0a7b55706b0e0803c821abbbbf912e2012bc5b1219023802727839"
+    },
+    {
+      "name": "fig2b.pdf",
+      "size": 122899,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "530463e641bfa422317fc0e3ce55a5c3ad0cb15363f7c42b5b0ddbb2c3896762"
+    },
+    {
+      "name": "fig2c.pdf",
+      "size": 414278,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "570452b5ce55ca46e7dec01fbd59402b99f7c73dd7bf0ee2f87b784ccc024efc"
+    },
+    {
+      "name": "fig2d.pdf",
+      "size": 423022,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "6bc3cd5b9d52dbe2bc7317e67ffadee36cc4363bc0dc644bfb3791d7895353a6"
+    },
+    {
+      "name": "fig2e.pdf",
+      "size": 302899,
+      "regular": true,
+      "complete_content": true,
+      "sha256": "4d5805af34e2f152583052bf93747b28a71745b452c1f4349c30037cff4a9e16"
+    },
+    {
+      "name": "fig2f.pdf",
+      "size": 788042,
+      "regular": true,
+      "complete_content": false,
+      "sha256": null
+    }
+  ],
+  "archive_error": "ReadError: unexpected end of data",
+  "whole_archive_valid": false
+}

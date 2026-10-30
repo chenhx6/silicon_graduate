@@ -1,0 +1,357 @@
+{
+  "source_sha256": "81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a",
+  "doi": "10.1103/PhysRevC.58.3219",
+  "whole_body_text_read": true,
+  "all_page_visuals_viewed": true,
+  "claims": [
+    {
+      "id": "JO98-078-01",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        3219
+      ],
+      "locator": "abstract/introduction",
+      "evidence_type": "scope",
+      "claim": "Paper measures lifetimes within a high-spin triaxial band in133Ce and extracts a mean transition quadrupole moment Qt≈2.2 eb; it compares with self-consistent TRS calculations.",
+      "boundary": "It is a high-spin band study, not a whole-nucleus lifetime survey or direct gamma-rigidity measurement.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-02",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        3219
+      ],
+      "locator": "experiment setup",
+      "evidence_type": "primary_setup",
+      "claim": "Gammasphere populated A≈132 Ce via100Mo(36S,xn)136−2xCe; about9×10^8 fold>5 prompt coincidence events over5 days.",
+      "boundary": "The 3n133Ce channel was relatively weak; event count is not 133Ce-specific effective counts.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-03",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        3219
+      ],
+      "locator": "gating/population",
+      "evidence_type": "primary_setup",
+      "claim": "133Ce sorting used Eγ1−Eγ2 matrices gated on422,488,643,888keV in-band transitions; relative channel populations132Ce:131Ce:133Ce=5:4:1 from low-lying normal-deformed lines.",
+      "boundary": "Population ratios are estimated from ungated matrix, not absolute cross sections or per-band efficiency-corrected yields.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-04",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        3219
+      ],
+      "locator": "detectorangles",
+      "evidence_type": "response_contract",
+      "claim": "Spectra projected for forward31.7–37.4°,90°, backward142.6–148.3° detector groups.",
+      "boundary": "Angular grouping is experiment-specific; no generic finite-array acceptance theorem or raw mask is supplied.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-05",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        3219
+      ],
+      "locator": "DSAM/DBLS method",
+      "evidence_type": "method",
+      "claim": "DSAM Doppler-broadened line-shape analysis uses LINESHAPE; slowing recoil line shape depends on band/feeding lifetimes and unobserved feeding.",
+      "boundary": "A fitted line shape is model/feeding dependent, not direct τ independent of response assumptions.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-06",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        3219
+      ],
+      "locator": "MonteCarlo stopping",
+      "evidence_type": "response_model",
+      "claim": "LINESHAPE uses Currie Monte Carlo:5000 recoil histories per time step0.001ps, scattering directions and low velocities; electronic/nuclear stopping use Ziegler powers and Monte Carlo.",
+      "boundary": "Producer code/raw velocity histories/stopping uncertainty are not supplied in paper.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-07",
+      "physical_pdf_pages": [
+        1,
+        2
+      ],
+      "printed_pages": [
+        3219,
+        3220
+      ],
+      "locator": "gates/sidefeeding",
+      "evidence_type": "fit_input",
+      "claim": "Clean lower-energy in-band gates feed spectra; side-feeding intensities from same data agree with thin-target data Ref4 and are fixed; side feeding modeled as five-state rotational band with fixed inertia48 hbar² MeV−1.",
+      "boundary": "Fixed side-feeding intensity/inertia is a fit input; spins of side-feeding/triaxial bands estimated because no links to known low bands found.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-08",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        3220
+      ],
+      "locator": "fitprocedures/errors",
+      "evidence_type": "fit",
+      "claim": "Qt,QSF,contaminant/background/normalization variables fitted jointly forward/backward/90° with SEEK,SIMPLEX,MIGRAD; MINOS errors; errors below8% raised to minimum8%.",
+      "boundary": "Reported uncertainties include imposed floor; no full covariance matrix or raw spectra.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-09",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        3220
+      ],
+      "locator": "TableI",
+      "evidence_type": "primary_table",
+      "claim": "TableI gives: (43/2−→39/2−)887.4keV Qt1.94(.10) eb τ1.11(.13)ps τSF.48(.11); (47/2−→43/2−)999.3 Qt2.65(.16) τ.33(.04) τSF.49(.01); (51/2−→47/2−)1097.6 Qt2.66(.21) τ.20(.02) τSF.37(.04); (55/2−→51/2−)1188.1 Qt2.15(.15) τ.21(.02) τSF.34(.04).",
+      "boundary": "Table uses mean lifetime τ(ps), not T1/2. Spins in parentheses are estimated high-spin band labels.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-10",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        3220
+      ],
+      "locator": "Qt summary",
+      "evidence_type": "primary_result",
+      "claim": "Weighted average Qt=2.2(.1) eb and Qt is fairly constant with estimated spin.",
+      "boundary": "Absolute Qt uncertainty≈10–15% from recoil stopping knowledge; weighted fit uncertainty alone is smaller.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-11",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        3220
+      ],
+      "locator": "Eq1",
+      "evidence_type": "observable_definition",
+      "claim": "T(E2;I→I−2)=1.224×10^12 Eγ^5 / |<I0 20|I−2 0>|² Qt² with Eγ inMeV and Qt in eb; Clebsch-Gordan factor explicit.",
+      "boundary": "Transition strength convention is source equation; no conversion to B(E2) needed here.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-12",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        3220
+      ],
+      "locator": "Eq2",
+      "evidence_type": "model_input",
+      "claim": "Unobserved side-feeding transition energies estimated Eγ(SF)=hbar²(4I−2)/(2ISF) using fixed ISF=48 hbar² MeV−1; side-feeding lifetimes inferred from fitted QSF.",
+      "boundary": "These are modeled side-feeding energies/lifetimes, not directly observed transition clocks.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-13",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        3220,
+        3221
+      ],
+      "locator": "TRS calculations",
+      "evidence_type": "model_result",
+      "claim": "TRS predicts negative-parity one-quasineutron νh11/2 bands with β2≈.19 and γ≈−30° minimum; another (νh11/2)^3 minimum at γ≈−73° at low frequency; Fig3(b) also has γ≈−83° triaxial and prolate SD β2≈.4 coexisting minima.",
+      "boundary": "Shape/configuration values are model predictions; paper’s abstract calls band triaxial but does not measure gamma directly.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-14",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        3221
+      ],
+      "locator": "Eq3/Qt conversion",
+      "evidence_type": "model_conversion",
+      "claim": "For nonaxial shapes Qt=Q20 cos(γ+30°)/cos30°. Assuming γ=−83° and Qt2.2(.1) gives Q20=3.2(.1) eb and β2=.186(.007) assuming no hexadecapole deformation.",
+      "boundary": "β2 conversion uses assumed theoretical gamma and no hexadecapole, not an independent static deformation measurement.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-15",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        3221
+      ],
+      "locator": "TableII",
+      "evidence_type": "comparison",
+      "claim": "TableII compares present133Ce triaxial Qt2.2(.1), β2=.186(.007), γ−83° with132Ce SD1 Qt7.4(.3),β2=.411(.021),γ0; prior133Ce triaxial≈2.3,β2≈.180,γ−80; SD values≈7.4–7.5 eb.",
+      "boundary": "Different bands/experiments and model gamma inputs; not all rows independent measurements.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-16",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        3221
+      ],
+      "locator": "Fig4",
+      "evidence_type": "comparison",
+      "claim": "F(t) centroid-shift comparison shows much smaller133Ce triaxial Qt than132Ce SD1; top triaxial state lies slightly below Qt2.2 curve, possibly effective lifetime including side feeding enhanced by lower-gate selection.",
+      "boundary": "This caveat weakens treating every TableI state as pure in-band τ.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-17",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        3222
+      ],
+      "locator": "relative deformation",
+      "evidence_type": "comparison",
+      "claim": "Co-populated132Ce SD1 and133Ce triaxial recoils share stopping conditions, enabling relative Qt comparison; absolute Qt values retain≈10–15% stopping uncertainty.",
+      "boundary": "Relative cancellation is conditional on same stopping and analysis; not proof of exact absolute deformation.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-18",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        3222
+      ],
+      "locator": "collectivity",
+      "evidence_type": "derived_result",
+      "claim": "In-band T(E2)≈35 W.u., below132Ce SD≈490 W.u. and132Ce normal ground band≈100 W.u.; authors infer triaxial structure less collective.",
+      "boundary": "These values aggregate derived strengths and model/Weisskopf conventions, not independent lifetimes for every state.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-19",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        3222
+      ],
+      "locator": "relation to1997",
+      "evidence_type": "lineage",
+      "claim": "Paper cites Emediato1997 for low-spin νh11/2 T(E2)≈50 W.u. associated with β2≈.19,γ≈−30° minimum; this is a separate RDDS study and not a high-spin lifetime reused as same clock.",
+      "boundary": "Do not merge1997 low-spin states with these high-spin TableI states by νh11/2 label.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-20",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        3222
+      ],
+      "locator": "shape/coexistence boundary",
+      "evidence_type": "interpretation",
+      "claim": "Authors conclude rotating triaxial shape at large gamma deformation with Qt≈2.2 eb; high-spin TRS also predicts coexisting superdeformed prolate minimum, but weak SD channel was not observed in this experiment.",
+      "boundary": "No direct chiral partner, tunneling, signed EM phase, or gamma-vibration/static proof.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-21",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        3221
+      ],
+      "locator": "spin/configuration boundary",
+      "evidence_type": "assignment",
+      "claim": "The negative-parity triaxial band is introduced as a rotationally aligned upper νh11/2 midshell configuration; TableI high-spin labels are parenthesized estimates because no linking transitions to known low-lying bands were found.",
+      "boundary": "Band letters/evaluation labels are not independent experimental configuration proof.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-22",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        3222
+      ],
+      "locator": "SD comparison lineage",
+      "evidence_type": "lineage",
+      "claim": "Prior SD lifetime measurements in132,133Ce used target-thickness Doppler broadening Ref18; this paper’s concurrent132Ce SD1 comparison is present data plus prior context, not one homogeneous dataset.",
+      "boundary": "Do not count all Qt rows as independent measurements.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    },
+    {
+      "id": "JO98-078-23",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        3220
+      ],
+      "locator": "TableI weighted arithmetic",
+      "evidence_type": "task_crosscheck",
+      "claim": "Inverse-variance weighted mean of Qt values1.94(.10),2.65(.16),2.66(.21),2.15(.15) is2.199(.070) eb, rounding to reported2.2 eb; simple arithmetic mean is2.35 eb.",
+      "boundary": "This checks table arithmetic only; authors’ quoted .1 includes/reflects systematic stopping uncertainty, not reconstructed from table errors.",
+      "lineage": "Joss1998 primary Gammasphere DSAM/DBLS; no new reanalysis",
+      "self_audit": "Codex direct-source self-audit; not human-reviewed"
+    }
+  ]
+}

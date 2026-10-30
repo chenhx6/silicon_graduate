@@ -1,0 +1,137 @@
+{
+  "kind": "direct-reference-scope-audit-and-conditional-symmetry-contract-not-actual-Ce-output",
+  "reference": {
+    "WK22_number": 51,
+    "author": "J. Meyer-Ter-Vehn",
+    "title": "Collective model description of transitional odd-A nuclei (I). The triaxial-rotor-plus-particle model",
+    "journal": "Nuclear Physics A",
+    "volume": 249,
+    "year": 1975,
+    "pages": "111–140",
+    "doi": "10.1016/0375-9474(75)90095-0",
+    "body_path": "tmp/day24-wk22-particle-hole-symmetry-054/attachment-object-response.pdf",
+    "body_pages": 30,
+    "body_bytes": 1365168,
+    "body_sha256": "10cb7aca223dcbccb17ee7aa224a7a1c13fb9f1e6e58a04fcdd8ab1e4b888da9"
+  },
+  "access": {
+    "mode": "configured publisher API",
+    "oa_status": "not_checked_api_first",
+    "si_requested": true,
+    "body_route": "FULL XML returned exact MAIN attachment EID -> standard Object Retrieval API; no guessed ID",
+    "request_attempts": [
+      {
+        "url": "https://api.elsevier.com/content/article/doi/10.1016%2F0375-9474(75)90095-0?httpAccept=text/xml&view=FULL",
+        "output": "tmp/day24-wk22-particle-hole-symmetry-054/fullview-response.xml",
+        "accept": "text/xml",
+        "status": 200,
+        "content_type": "text/xml;charset=UTF-8",
+        "bytes": 115666,
+        "sha256": "0cc3bbc2161936d3e710ae241db389e3f8d4b4bf3498dc1515c8244fcfa6b871",
+        "pdf_signature": false
+      },
+      {
+        "url": "https://api.elsevier.com/content/object/eid/1-s2.0-0375947475900950-main.pdf",
+        "output": "tmp/day24-wk22-particle-hole-symmetry-054/attachment-object-response.pdf",
+        "accept": "application/pdf",
+        "status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1365168,
+        "sha256": "10cb7aca223dcbccb17ee7aa224a7a1c13fb9f1e6e58a04fcdd8ab1e4b888da9",
+        "pdf_signature": true
+      }
+    ],
+    "initial_batch_preview": {
+      "pages": 1,
+      "bytes": 60529,
+      "sha256": "b99a46ae900de79788a340305b22c55b6dbff6ce7054d6433584c06d27081b13",
+      "not_full_body": true
+    },
+    "si": "batch CDP unreachable; no browser launched; XML si1/si2.gif explicitly category thumbnail/type ALTIMG; no scientific SI identified within inspected inventory, no universal absence claim",
+    "retry_count": 0
+  },
+  "actual_reading": {
+    "Ref51_continuous_physicalPDF": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Ref51_printed": "114–122",
+    "Ref51_sections": "Chapter2 §2.1–2.6 complete, plus §3 opening paragraph at PDF12 lower boundary",
+    "Ref51_visual_pages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Ref51_front_metadata_only": [
+      1
+    ],
+    "Ref51_not_read_by_this_worker": "PDF2–3 introduction and Chapter3/Conclusion beyond PDF12 opening; worker055 independently assigned",
+    "WK22_context_text": "physicalPDF44–49 plus references125–127",
+    "WK22_key_visual": [
+      46,
+      48
+    ]
+  },
+  "source_claims": [
+    {
+      "candidate_id": "MTV75-054-001",
+      "claim": "Configuration explicitly restricted to single j shell; BCS particle/hole doubled space. Unique spherical epsilon_j set to zero, not a general removal of multiorbital level spacings.",
+      "locator": "PDF4–5/printed114–115 §2.1–2.2, Eq2.6 and next sentence"
+    },
+    {
+      "candidate_id": "MTV75-054-002",
+      "claim": "Core rotational Hamiltonian identical in particle/hole space, Eq2.13; fixed irrotational shape dependence with common J0, Eq2.14.",
+      "locator": "PDF5/printed115 Eqs2.11–14"
+    },
+    {
+      "candidate_id": "MTV75-054-003",
+      "claim": "Gamma reflection/axis operation Gamma includes beta unchanged, gamma->60-gamma, lambda->-lambda, Delta->-Delta, axes(1,2,3)->(3,1,2). Combined sigma_y Gamma gives full model unitary equivalence.",
+      "locator": "PDF6–7/printed116–117 Eqs2.17–22"
+    },
+    {
+      "candidate_id": "MTV75-054-004",
+      "claim": "Actual calculation separately neglects qp-qh rotational mixing h*eta in Eq2.30; exact symmetry and approximation validity are distinct. Source discusses eta=0 far outside shell and weak-deformation rationale when lambda penetrates shell.",
+      "locator": "PDF8–9/printed118–119 Eqs2.25–33"
+    },
+    {
+      "candidate_id": "MTV75-054-005",
+      "claim": "Under source-defined combined mapping, Q is odd and M even. Corresponding signed E2 RME changes sign and M1 does not; source Eq2.51 paragraph says Qsp and delta reverse sign. Applies only to source operators and matched states/common phase/radiation conventions.",
+      "locator": "PDF9–11/printed119–121 Eqs2.34–51"
+    },
+    {
+      "candidate_id": "MTV75-054-006",
+      "claim": "Source parameters k,J0,Delta and b=beta*A^(2/3) scaling are phenomenological single-j model prescriptions, not WK22 actual input.",
+      "locator": "PDF11–12/printed121–122 §2.6 Eqs2.52–58"
+    }
+  ],
+  "task_contract": {
+    "exact_multiorbital_sufficient_condition": "There must exist same-dimensional closed-space U and explicit E0 such that h_prime-E0 I=-U(h-E0 I)U^dagger, with pair/core/axis/truncation/approximation covariance and lambda_prime-E0=-(lambda-E0). Single-j quadrupole model is sufficient example, not mathematical necessity for every model.",
+    "zero_reference": "If program uses E, Lambda and shell center E0, require E_prime=2E0-E, Lambda_prime=2E0-Lambda. Literal -Lambda applies only at common E0=0.",
+    "BCS_mapped_equality": "For centered epsilon_prime=-epsilon, lambda_prime=-lambda, |Delta_prime|=|Delta|, e_qp equal and u_prime^2=v^2.",
+    "delta_relative": "Within original operators/matched state map/common phases and radiation conventions, and M1 nonzero, delta_prime=-delta while corresponding B unchanged; not a mere state rephase and not an actual Ce prediction.",
+    "failure_condition_example": "Rotational-scalar h0 with distinct spherical energies remains invariant under axis rotation but required centered reflection would reverse it. Need h0=E0 I in selected space or independent paired mapping; spin-orbit/l^2 offsets across l/j and rank4 terms not automatically covered."
+  },
+  "WK22_actual_status": {
+    "Eq3p14": "rotor only; does not by itself prove parameter lambda/gamma intrinsic spectrum statement",
+    "Eq3p16_and_job": "multiorbital Nilsson with spherical/spinorbit/l^2 and actual epsilon4/active-space/core/BCS interface requires independent covariance evidence",
+    "lambda50p6": "positive-parity quoted lambda cannot be negated or assigned to negative parity without common origin/header; missing input preserved",
+    "two_actual_Ce_configurations_equal_energy": null,
+    "actual_delta_prediction": null,
+    "actual_model_or_unknown_producer_run": false
+  },
+  "overlap": "WK22 zero-point/operator gaps and ZH07 p/n-exchange control checked; reference-specific single-j/zero/symmetry contract not already covered",
+  "same_day24_only_day25_uncredited_preview": true
+}

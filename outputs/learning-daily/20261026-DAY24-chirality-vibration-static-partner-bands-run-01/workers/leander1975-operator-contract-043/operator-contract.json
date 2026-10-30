@@ -1,0 +1,143 @@
+{
+  "kind": "direct-original-operator-contract-plus-labelled-task-normalization-bridges",
+  "source": {
+    "authors": [
+      "G. Leander",
+      "S. E. Larsson"
+    ],
+    "title": "Potential-energy surfaces for the doubly even N = Z nuclei",
+    "journal": "Nuclear Physics A",
+    "volume": 239,
+    "year": 1975,
+    "pages": "93–113",
+    "DOI": "10.1016/0375-9474(75)91136-7",
+    "path": "tmp/day24-leander1975-039/attachment-object-response.pdf",
+    "pages_pdf": 21,
+    "bytes": 1736708,
+    "sha256": "35ce50a080755f3a11dac48cfbe2e2041659694038bc6bcaf28b452d72da562d"
+  },
+  "reading_scope": {
+    "continuous_methods_physical_pdf": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "continuous_appendix_physical_pdf": [
+      19,
+      20
+    ],
+    "targeted_table_header_and_footnote_physical_pdf": [
+      7
+    ],
+    "front_metadata_text_only": [
+      1,
+      2
+    ],
+    "full_text_used_only_for_table_location": true,
+    "whole_paper_deep_read_claimed": false,
+    "visual_full_pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      19,
+      20
+    ],
+    "high_zoom_equations": [
+      "A1",
+      "A2",
+      "A3",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "Eq5",
+      "Eq10",
+      "Eq11",
+      "Eq12",
+      "Table1"
+    ]
+  },
+  "direct_original_fields": [
+    {
+      "id": "LL75-043-001",
+      "locator": "PDF19/printed111 A1",
+      "claim": "Dimensionless xi_i=sqrt((m*omega0/hbar)*b_i)*x_i; b_x=1-2epsilon/3*cos(gamma+2pi/3), b_y=1-2epsilon/3*cos(gamma-2pi/3), b_z=1-2epsilon/3*cos(gamma). omega0 here has no circle mark."
+    },
+    {
+      "id": "LL75-043-002",
+      "locator": "PDF19/printed111 A2/A3",
+      "claim": "General spinor angular ME with primed bra lprime,jprime,Omegaprime equals the printed double-bar element times CG; no explicit 1/sqrt(2jprime+1) in A2. A3 gives angular Ylambda reduced coefficient with half-spin CG and parity projector."
+    },
+    {
+      "id": "LL75-043-003",
+      "locator": "PDF20/printed112 A7",
+      "claim": "Unmarked omega0 divided by upper-circle omega0 is fixed by volume conservation; determinant stretch factor multiplies angular D^(-3/2) integral including gamma and epsilon4."
+    },
+    {
+      "id": "LL75-043-004",
+      "locator": "PDF20/printed112 paragraph before A8 and A8/A9/A10",
+      "claim": "Explicitly neglects gamma degree of freedom; q2nu=<nu|sqrt(16pi/5)*r^2*Y20|nu> and q4nu=<nu|r^4*Y40|nu>, all same-nu expectation values, not nuprime-nu transition formulas. rho^2=xi^2+eta^2+zeta^2; nu is an MO eigenstate."
+    },
+    {
+      "id": "LL75-043-005",
+      "locator": "PDF6/printed98 Eqs10–12; PDF7/printed99 Table1 header and footnote",
+      "claim": "Q0 is a total proton Q-like sum. Q40 includes Z^(-1) and no Q0 harmonic scaling. Printed table units are fm^2 and fm^4, with theory micr./macr./HF and experimental B(E2), electron- and alpha-scattering columns. Historical table has hbar*omega0_circle=41 A^(-1/3) MeV; not a Ce parameter."
+    }
+  ],
+  "A8_transcription": {
+    "operator": "O20=sqrt(16pi/5)*r^2*Y20=2z^2-x^2-y^2",
+    "formula": "q2nu=[hbar/(m*omega0)]/[(1+epsilon/3)*(1-2epsilon/3)] * (<nu|sqrt(16pi/5)*rho^2*Y20(theta_t)|nu>+(2epsilon/3)*<nu|rho^2|nu>)",
+    "mu": "0 only; nu is state label",
+    "offdiagonal_printed": false,
+    "gamma_explicitly_neglected": true
+  },
+  "A9_scope": {
+    "operator": "r^4*Y40",
+    "same_nu_bra_and_ket": true,
+    "length_prefactor": "[hbar/(m*omega0)]^2",
+    "denominator": "(1+epsilon/3)^2*(1-2epsilon/3)^2",
+    "basis_terms": [
+      "rho^4 Y40",
+      "rho^4 Y20",
+      "rho^4"
+    ],
+    "full_coefficients_not_claimed_as_a_recovered_library": true
+  },
+  "task_derived_bridges": [
+    {
+      "claim": "Identify omega_i=omega0*b_i for b_i>0, giving the dimensionless coordinate already defined by 042; dimensionful X_i=ell0*xi_i."
+    },
+    {
+      "claim": "With matched CG phases and standard 3j WE of 041, R_standard=sqrt(2*jprime+1)*r_LL75; this conversion is task-derived from A2."
+    },
+    {
+      "claim": "For p=1+epsilon/3,s=1-2epsilon/3, pointwise O20=ell0^2/(p*s)*[(2*zeta^2-xi^2-eta^2)+(2epsilon/3)*rho^2], yielding A8 and the 042 axial limit."
+    },
+    {
+      "claim": "Taking general bra/ket of the pointwise axial identity is mathematically allowed in one fixed coordinate/basis convention, but A8 itself prints only diagonal nu and is not labelled an offdiagonal publication formula."
+    }
+  ],
+  "closes": [
+    "actual Ref23 identity/body and scoped original reading",
+    "historical dimensionless stretch and length factor",
+    "printed angular ME convention",
+    "historical volume-condition identity",
+    "axial diagonal Q-like 20 definition and rho^2 admixture",
+    "Q0 versus Q40 normalization and printed table units"
+  ],
+  "still_unknown": [
+    "1975 complete numerical radial/basis matrix library",
+    "full triaxial q2mu offdiagonal implementation",
+    "actual WK22/GAMPN/ASYMO/PROBMO input/output conventions",
+    "actual signed eigenvectors and numerical RME",
+    "actual 133Ce predictions"
+  ],
+  "literal_scan_boundary": {
+    "PDF4_Eq8_epsilon5_second_coefficient": "not resolved confidently; no inference made from OCR and no operator conclusion depends on it"
+  },
+  "no_download_no_unknown_producer_no_nuclear_fit": true,
+  "same_day24_only_day25_uncredited_preview": true
+}

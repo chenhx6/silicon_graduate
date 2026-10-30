@@ -1,0 +1,161 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.76.044313",
+  "curl_exit": 0,
+  "metadata": "200\thttps://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.76.044313\tapplication/json",
+  "error": "",
+  "bytes": 47100,
+  "sha256": "b8c095fddac0c6e0dd64fc588c5a4939bcd19b653c1331b945b81c0781550ee2",
+  "title": "Question of dynamic chirality in nuclei: The case of Pr134",
+  "doi": "https://doi.org/10.1103/physrevc.76.044313",
+  "locations": [
+    {
+      "id": "doi:10.1103/physrevc.76.044313",
+      "doi": "https://doi.org/10.1103/physrevc.76.044313",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1103/physrevc.76.044313",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210168441",
+        "display_name": "Physical Review C",
+        "issn_l": "0556-2813",
+        "issn": [
+          "0556-2813",
+          "1089-490X",
+          "1538-4497",
+          "2469-9985",
+          "2469-9993",
+          "2470-0002"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-a",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review C",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:HAL:in2p3-00180827v1",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "https://in2p3.hal.science/in2p3-00180827",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I4405252976",
+        "host_organization_name": "Centre pour la Communication Scientifique Directe",
+        "host_organization_lineage": [
+          "https://openalex.org/I4405252976"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Physical Review C, 2007, 76, pp.044313. &#x27E8;10.1103/PhysRevC.76.044313&#x27E9;",
+      "raw_type": "info:eu-repo/semantics/article"
+    },
+    {
+      "id": "pmh:oai:pubblicazioni.unicam.it:11581/457046",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "http://hdl.handle.net/11581/457046",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400819",
+        "display_name": "Unicam Scientific Publications (University of Camerino)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I112859197",
+        "host_organization_name": "Universit\u00e0 di Camerino",
+        "host_organization_lineage": [
+          "https://openalex.org/I112859197"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "info:eu-repo/semantics/article"
+    },
+    {
+      "id": "pmh:oai:www.research.unipd.it:11577/2446942",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://prc.aps.org/abstract/PRC/v76/i4/e044313",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402547",
+        "display_name": "Padua Research Archive (University of Padova)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I138689650",
+        "host_organization_name": "University of Padua",
+        "host_organization_lineage": [
+          "https://openalex.org/I138689650"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "oa": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://prc.aps.org/abstract/PRC/v76/i4/e044313",
+    "any_repository_has_fulltext": true
+  }
+}

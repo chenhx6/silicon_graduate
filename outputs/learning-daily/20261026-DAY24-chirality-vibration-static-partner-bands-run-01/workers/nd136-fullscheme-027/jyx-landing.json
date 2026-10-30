@@ -1,0 +1,238 @@
+{
+  "url": "https://jyx.jyu.fi/handle/123456789/60029",
+  "curl_exit": 0,
+  "metadata": "200\thttps://jyx.jyu.fi/jyx/Record/jyx_123456789_60029\ttext/html; charset=UTF-8",
+  "error": "",
+  "bytes": 53035,
+  "sha256": "de194086186928c2956ca87e47602f9bf48ac452cbabd151f793818df5cd0a7a",
+  "text": "Evolution from \u03b3-soft to stable triaxiality in 136Nd as a prerequisite of chirality   :: JYX Skip to content JYX OSC JYKDOK Help How to publish in JYX? Contact and feedback Language Suomi English Language Suomi English All Fields Title Author Find Advanced Search Search Evolution from \u03b3-soft to stable triaxiality in 13\u2026 Cite this Print Export Record Export to RefWorks Export to EndNoteWeb Export to EndNote physrevc.98.044304.pdf Publisher's PDF Evolution from \u03b3-soft to stable triaxiality in 136Nd as a prerequisite of chirality Abstract The level structure of 136Nd has been investigated using the 100Mo(40Ar, 4n) reaction and the JUROGAM\r\nII+RITU+GREAT setup. The level scheme has been extended significantly. Many new bands have been\r\nidentified both at low and high spin, among which are five nearly degenerate bands interpreted as chiral partners.\r\nExcitation energies, spins, and parities of the previously known bands are revised and firmly established, and\r\nsome previously known bands have been revised. Configurations are assigned to the observed bands based on\r\ncranked Nilsson-Strutinsky calculations. The band structure of 136Nd is now clarified and the various types of\r\nsingle-particle and collective excitations are well understood. Full description Main Authors Lv, B. F. Petrache, C. M. Astier, A. Dupont, E. Lopez-Martens, A. Greenlees, Paul Badran, Hussam Calverley, Tom Cox, Daniel Grahn, Tuomas Hilton, Joshua Julin, Rauno Juutinen, Sakari Konki, Joonas Leino, Matti Pakarinen, Janne Papadakis, Philippos Partanen, Jari Rahkila, Panu Sandzelius, Mikael Sar\u00e9n, Jan Scholey, Catherine Sorri, Juha Stolze, Sanna Uusitalo, Juha Herz\u00e1n, A. Cederwall, B. Ertoprak, A. Liu, H. Guo, S. Liu, M. L. Qiang, Y. H. Wang, J. G. Zhou, X. H. Kuti, I. Tim\u00e1r, J. Tucholski, A. Srebrny, J. Andreoiu, C. Format Articles Research article Subjects deformed nuclei ydinfysiikka triaxiality chirality Published 2018 Publication in research information system https://converis.jyu.fi/converis/portal/detail/Publication/28671767 The permanent address of the publication https://urn.fi/URN:NBN:fi:jyu-201810224470 Use this for linking Review status Peer reviewed Publisher American Physical Society ISSN 2469-9985 DOI https://doi.org/10.1103/physrevc.98.044304 Language English Faculty Faculty of Mathematics and Science Department Department of Physics Discipline/Specialization Accelerator Laboratory Published in Physical Review C 98(4) Citation Lv, B. F., Petrache, C. M., Astier, A., Dupont, E., Lopez-Martens, A., Greenlees, P., Badran, H., Calverley, T., Cox, D., Grahn, T., Hilton, J., Julin, R., Juutinen, S., Konki, J., Leino, M., Pakarinen, J., Papadakis, P., Partanen, J., Rahkila, P., . . . Andreoiu, C. (2018). Evolution from \u03b3-soft to stable triaxiality in 136Nd as a prerequisite of chirality. Physical Review C , 98 (4), Article 044304. https://doi.org/10.1103/physrevc.98.044304 License Copyright \u00a9 the Authors, 2018. Published by the American Physical Society. Share Holdings Description Staff View Similar Items Axial and triaxial degrees of freedom in 72Zn by: Hellgartner, S., et al. Published: (2023) Experimental evidence for transverse wobbling bands in 136Nd by: Lv, B. F., et al. Published: (2022) Signatures of enhanced octupole correlations at high spin in 136Nd by: Petrache, C. M., et al. Published: (2020) Triaxiality and confirmation of low-spin tilted precession in 135Nd by: Lv, B. F., et al. Published: (2025) Structure of low-lying states in 140Sm studied by Coulomb excitation by: Klintefjord, M., et al. Published: (2016) Search Options Search History Advanced Search New Items Need Help? Search Tips Contact University of Jyv\u00e4skyl\u00e4 Open Science Centre Feedback Privacy Notice Accessibility Statement",
+  "file_links": [
+    {
+      "href": "https://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download",
+      "type": "application/pdf",
+      "class": [],
+      "title": "physrevc.98.044304.pdf",
+      "aria-label": "Download"
+    },
+    {
+      "href": "https://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download",
+      "download": "",
+      "class": [],
+      "aria-label": "Download file"
+    }
+  ],
+  "citation_meta": [
+    {
+      "name": "citation_author",
+      "content": "Lv, B. F."
+    },
+    {
+      "name": "citation_author",
+      "content": "Petrache, C. M."
+    },
+    {
+      "name": "citation_author",
+      "content": "Astier, A."
+    },
+    {
+      "name": "citation_author",
+      "content": "Dupont, E."
+    },
+    {
+      "name": "citation_author",
+      "content": "Lopez-Martens, A."
+    },
+    {
+      "name": "citation_author",
+      "content": "Greenlees, Paul"
+    },
+    {
+      "name": "citation_author",
+      "content": "Badran, Hussam"
+    },
+    {
+      "name": "citation_author",
+      "content": "Calverley, Tom"
+    },
+    {
+      "name": "citation_author",
+      "content": "Cox, Daniel"
+    },
+    {
+      "name": "citation_author",
+      "content": "Grahn, Tuomas"
+    },
+    {
+      "name": "citation_author",
+      "content": "Hilton, Joshua"
+    },
+    {
+      "name": "citation_author",
+      "content": "Julin, Rauno"
+    },
+    {
+      "name": "citation_author",
+      "content": "Juutinen, Sakari"
+    },
+    {
+      "name": "citation_author",
+      "content": "Konki, Joonas"
+    },
+    {
+      "name": "citation_author",
+      "content": "Leino, Matti"
+    },
+    {
+      "name": "citation_author",
+      "content": "Pakarinen, Janne"
+    },
+    {
+      "name": "citation_author",
+      "content": "Papadakis, Philippos"
+    },
+    {
+      "name": "citation_author",
+      "content": "Partanen, Jari"
+    },
+    {
+      "name": "citation_author",
+      "content": "Rahkila, Panu"
+    },
+    {
+      "name": "citation_author",
+      "content": "Sandzelius, Mikael"
+    },
+    {
+      "name": "citation_author",
+      "content": "Sar\u00e9n, Jan"
+    },
+    {
+      "name": "citation_author",
+      "content": "Scholey, Catherine"
+    },
+    {
+      "name": "citation_author",
+      "content": "Sorri, Juha"
+    },
+    {
+      "name": "citation_author",
+      "content": "Stolze, Sanna"
+    },
+    {
+      "name": "citation_author",
+      "content": "Uusitalo, Juha"
+    },
+    {
+      "name": "citation_author",
+      "content": "Herz\u00e1n, A."
+    },
+    {
+      "name": "citation_author",
+      "content": "Cederwall, B."
+    },
+    {
+      "name": "citation_author",
+      "content": "Ertoprak, A."
+    },
+    {
+      "name": "citation_author",
+      "content": "Liu, H."
+    },
+    {
+      "name": "citation_author",
+      "content": "Guo, S."
+    },
+    {
+      "name": "citation_author",
+      "content": "Liu, M. L."
+    },
+    {
+      "name": "citation_author",
+      "content": "Qiang, Y. H."
+    },
+    {
+      "name": "citation_author",
+      "content": "Wang, J. G."
+    },
+    {
+      "name": "citation_author",
+      "content": "Zhou, X. H."
+    },
+    {
+      "name": "citation_author",
+      "content": "Kuti, I."
+    },
+    {
+      "name": "citation_author",
+      "content": "Tim\u00e1r, J."
+    },
+    {
+      "name": "citation_author",
+      "content": "Tucholski, A."
+    },
+    {
+      "name": "citation_author",
+      "content": "Srebrny, J."
+    },
+    {
+      "name": "citation_author",
+      "content": "Andreoiu, C."
+    },
+    {
+      "name": "citation_issn",
+      "content": "2469-9985"
+    },
+    {
+      "name": "citation_title",
+      "content": "Evolution from \u03b3-soft to stable triaxiality in 136Nd as a prerequisite of chirality"
+    },
+    {
+      "name": "citation_abstract_html_url",
+      "content": "https://jyx.jyu.fi/handle/123456789/60029"
+    },
+    {
+      "name": "citation_issue",
+      "content": "4"
+    },
+    {
+      "name": "citation_pdf_url",
+      "content": "https://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download"
+    },
+    {
+      "name": "citation_publisher",
+      "content": "American Physical Society"
+    },
+    {
+      "name": "citation_language",
+      "content": "eng"
+    },
+    {
+      "name": "citation_journal_title",
+      "content": "Physical Review C"
+    },
+    {
+      "name": "citation_date",
+      "content": "2018"
+    },
+    {
+      "name": "citation_publication_date",
+      "content": "2018"
+    },
+    {
+      "name": "citation_keywords",
+      "content": "deformed nuclei"
+    },
+    {
+      "name": "citation_keywords",
+      "content": "triaxiality"
+    },
+    {
+      "name": "citation_keywords",
+      "content": "chirality"
+    },
+    {
+      "name": "citation_keywords",
+      "content": "ydinfysiikka"
+    }
+  ]
+}

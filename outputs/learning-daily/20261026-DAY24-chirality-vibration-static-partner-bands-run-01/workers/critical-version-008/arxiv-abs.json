@@ -1,0 +1,32 @@
+{
+  "key": "arxiv-abs",
+  "utc": "2026-10-26T12:43:46.909965+00:00",
+  "url": "https://arxiv.org/abs/nucl-th/0211075",
+  "curl_exit": 0,
+  "metadata": "200\thttps://arxiv.org/abs/nucl-th/0211075\ttext/html; charset=utf-8",
+  "error": "",
+  "bytes": 39274,
+  "sha256": "43d8061c907a6b2a9153da495ba1e6e24dc219dee044c4915273b982bfaf7cc0",
+  "pdf_signature": false,
+  "text": "[nucl-th/0211075] Critical frequency in nuclear chiral rotation Skip to main content Search Submit Donate Log in Search arXiv Press Enter to search \u00b7 Advanced search Nuclear Theory arXiv:nucl-th/0211075 (nucl-th) [Submitted on 25 Nov 2002] Title: Critical frequency in nuclear chiral rotation Authors: P. Olbratowski , J. Dobaczewski , J. Dudek View a PDF of the paper titled Critical frequency in nuclear chiral rotation, by P. Olbratowski and 2 other authors View PDF Abstract: Within the cranked Skyrme-Hartree-Fock approach the self-consistent solutions have been obtained for planar and chiral rotational bands in 132La. It turns out that the chiral band cannot exist below some critical rotational frequency which in the present case equals omega=0.6MeV. The appearance of the critical frequency is explained in terms of a simple classical model of two gyroscopes coupled to a triaxial rigid body. Comments: 4 RevTeX pages, 6 EPS figures Subjects: Nuclear Theory (nucl-th) Cite as: arXiv:nucl-th/0211075 (or arXiv:nucl-th/0211075v1 for this version) https://doi.org/10.48550/arXiv.nucl-th/0211075 Focus to learn more arXiv-issued DOI via DataCite Journal\u00a0reference: Phys.Rev.Lett. 93 (2004) 052501 Related DOI : https://doi.org/10.1103/PhysRevLett.93.052501 Focus to learn more DOI(s) linking to related resources Submission history From: Jacek Dobaczewski [ view email ] [v1] Mon, 25 Nov 2002 11:38:58 UTC (168 KB) Full-text links: Access Paper: View a PDF of the paper titled Critical frequency in nuclear chiral rotation, by P. Olbratowski and 2 other authors View PDF TeX Source view license Current browse context: nucl-th <\u00a0prev | next\u00a0> new | recent | 2002-11 References & Citations INSPIRE HEP SciX Google Scholar Semantic Scholar export BibTeX citation Loading... BibTeX formatted citation \u00d7 loading... Data provided by: Bookmark Bibliographic Tools Bibliographic and Citation Tools Bibliographic Explorer Toggle Bibliographic Explorer ( What is the Explorer? ) Connected Papers Toggle Connected Papers ( What is Connected Papers? ) Litmaps Toggle Litmaps ( What is Litmaps? ) scite.ai Toggle scite Smart Citations ( What are Smart Citations? ) Code, Data, Media Code, Data and Media Associated with this Article alphaXiv Toggle alphaXiv ( What is alphaXiv? ) Links to Code Toggle CatalyzeX Code Finder for Papers ( What is CatalyzeX? ) DagsHub Toggle DagsHub ( What is DagsHub? ) GotitPub Toggle Gotit.pub ( What is GotitPub? ) Huggingface Toggle Hugging Face ( What is Huggingface? ) ScienceCast Toggle ScienceCast ( What is ScienceCast? ) Demos Demos Replicate Toggle Replicate ( What is Replicate? ) Spaces Toggle Hugging Face Spaces ( What is Spaces? ) Spaces Toggle TXYZ.AI ( What is TXYZ.AI? ) Related Papers Recommenders and Search Tools Link to Influence Flower Influence Flower ( What are Influence Flowers? ) Core recommender toggle CORE Recommender ( What is CORE? ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs . Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? ) We gratefully acknowledge support from our major funders , member institutions , ,\n        and all contributors. About \u00b7 Help \u00b7 Contact \u00b7 Subscribe \u00b7 Copyright \u00b7 Privacy \u00b7 Accessibility \u00b7 Operational Status (opens in new tab)",
+  "citation_metadata": {
+    "citation_title": "Critical frequency in nuclear chiral rotation",
+    "citation_author": "Dudek, J.",
+    "citation_doi": "10.1103/PhysRevLett.93.052501",
+    "citation_date": "2002/11/25",
+    "citation_online_date": "2002/11/25",
+    "citation_pdf_url": "https://arxiv.org/pdf/nucl-th/0211075",
+    "citation_arxiv_id": "nucl-th/0211075",
+    "citation_abstract": " Within the cranked Skyrme-Hartree-Fock approach the self-consistent solutions have been obtained for planar and chiral rotational bands in 132La. It turns out that the chiral band cannot exist below some critical rotational frequency which in the present case equals omega=0.6MeV. The appearance of the critical frequency is explained in terms of a simple classical model of two gyroscopes coupled to a triaxial rigid body."
+  },
+  "version_links": [
+    {
+      "href": "https://arxiv.org/abs/nucl-th/0211075v1"
+    }
+  ],
+  "citation_authors": [
+    "Olbratowski, P.",
+    "Dobaczewski, J.",
+    "Dudek, J."
+  ]
+}

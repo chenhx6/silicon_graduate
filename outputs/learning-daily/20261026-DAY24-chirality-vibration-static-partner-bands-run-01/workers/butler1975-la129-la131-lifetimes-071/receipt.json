@@ -1,0 +1,155 @@
+{
+  "unit": "butler1975-la129-la131-lifetimes-071",
+  "run_date": "2026-10-26",
+  "day_index": 24,
+  "status": "new-primary-full4page-read-source-self-audited",
+  "identity": {
+    "title": "Triaxial shapes in light La nuclei",
+    "doi": "10.1016/0370-2693(75)90410-4",
+    "journal": "Physics Letters B",
+    "volume": 56,
+    "issue": 5,
+    "year": 1975,
+    "pages": "453–456",
+    "Crossref": "search_then_exact200-sevenauthorsmatched"
+  },
+  "source": {
+    "path": "tmp/day24-butler1975-la129-la131-lifetimes-071/attachment-object-response.pdf",
+    "bytes": 268368,
+    "sha256": "231b6f427ac9bdd15688bf373959d2dff63dd7e694ee2dbb9b12cc0186ba8e0a",
+    "pages": 4,
+    "printed_span": [
+      453,
+      456
+    ]
+  },
+  "overlap": "targetedWiki/rawsearchfoundPartIIderivativedataonly-notthisfullprimary",
+  "access": {
+    "route": "configuredElsevierFULLXMLexactMAIN→ObjectAPI",
+    "publisher_HTTP_count": 2,
+    "failures": 0,
+    "oa_status": "not_checked_api_first",
+    "si_requested": true,
+    "si_status": "no_true_SI_identified_inline_ALTIMG_excluded"
+  },
+  "primed_recall": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/butler1975-la129-la131-lifetimes-071/primed-recall.md",
+  "blind": false,
+  "previous_exposure": "MTV75PartIITable5LaB/normalizers/modelvalues",
+  "actual_reading": {
+    "full_text_pdf_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "full_visual_pdf_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "figures": [
+      1,
+      2
+    ],
+    "tables": [
+      1
+    ],
+    "formula_and_footnotes": "all"
+  },
+  "tau_results_ps": {
+    "129La15over2": [
+      130,
+      6
+    ],
+    "129La19over2": [
+      8.7,
+      1.3
+    ],
+    "131La15over2": [
+      55,
+      2
+    ],
+    "131La19over2": [
+      5.8,
+      0.6
+    ],
+    "130Ce2plus_present": [
+      211,
+      9
+    ]
+  },
+  "tau_B_chain": {
+    "method": "recoil-distance",
+    "response": "Is/(Is+Im)distancecurves,meanvcentroidsfiniteanglesolidcorrection",
+    "feeding": "131La14percentlongdistancestoppedcorrected;twojointcurves;above19atleasttwofreeτlevels/commonoriginconstraint",
+    "BR_ICC": "perbranchvalues/provenanceandactualconversionproducer_notpublished",
+    "Bstatus": "reportedexperimental-derivedvaluesretained-notexactlyreplayed"
+  },
+  "calibration_dependency": [
+    "coreBaveragesetdeformationscale",
+    "gammafromevencoreenergies/systematics",
+    "FermienergyfromNilssonscheme",
+    "gapfromoddevenmasses",
+    "present130Ceisanewmeasurementbutalso129La_coreinput",
+    "PartIIexactrepeatofsameLaBnotnewindependentexperimentortheory"
+  ],
+  "source_internal_boundary": "Table1beta/A^(2/3)footnoteversusFig2andtextbetaA^(2/3);not silently repaired or takenasactualdivisioninput",
+  "central_crosscheck": {
+    "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/butler1975-la129-la131-lifetimes-071/source-central-crosscheck.json",
+    "kind": "printednumberarithmeticplusconditionalstandardE2unitformula",
+    "q_gamma_diagnostics": [
+      0.9424620769394045,
+      0.9796720968807441,
+      0.9814040248320003,
+      1.008992225271167
+    ],
+    "not_measured_BR_ICC_or_CI": true
+  },
+  "atomic_claim_ledger": {
+    "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/butler1975-la129-la131-lifetimes-071/report.md",
+    "section": "原子 claim ledger",
+    "rows": 18,
+    "human_reviewed": false
+  },
+  "unresolved": [
+    "perbranchBR/ICC",
+    "rawpeakareas/fittingproducer/feedingjointCov",
+    "stopper/zeroresponsemanifest",
+    "coreinputdependency/errorbudget",
+    "parameterfootnotetypographicdictionary"
+  ],
+  "not_transferred": [
+    "LaτorBtoCe133",
+    "gamma-rangeaschiralorwobblingmodegate",
+    "sameauthortheoryasindependentvote",
+    "higherfeedingcurvetoreported23over2B"
+  ],
+  "report": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/butler1975-la129-la131-lifetimes-071/report.md",
+  "report_sha256": "83c4aea87022f130a7c7fdc2cdc986244be3a9a4a0590477802c8d440e220ec8",
+  "writes": [
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/butler1975-la129-la131-lifetimes-071/primed-recall.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/butler1975-la129-la131-lifetimes-071/report.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/butler1975-la129-la131-lifetimes-071/source-central-crosscheck.json",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/butler1975-la129-la131-lifetimes-071/receipt.json"
+  ],
+  "tmp_prefix": "tmp/day24-butler1975-la129-la131-lifetimes-071/",
+  "canonical_modified": false,
+  "raw_modified": false,
+  "credentials_modified": false,
+  "secret_printed_or_written": false,
+  "external_skill_modified": false,
+  "git_mutation": false,
+  "course_or_session_mutation": false,
+  "producer_or_unknown_attachment_execution": false,
+  "old114_read_or_execute": false,
+  "agents_spawned": false,
+  "scientific_toy_or_tests": false,
+  "verification": {
+    "bodyhash_size_signature_pages": "pass",
+    "allfirstlastpages": "visuallyverified",
+    "report/primed_trailing_whitespace": "none",
+    "json": "valid"
+  },
+  "next_step": "ParentintegratesprimaryRD/calibration/source-dependencycontract;actualCeclock/BR/582referenceandinputstillopen."
+}

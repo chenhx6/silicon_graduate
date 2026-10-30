@@ -1,0 +1,84 @@
+{
+  "outputs": [
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/mchd-vs-shape-030/pair-ledger.json",
+      "bytes": 2746,
+      "sha256": "56fe0b410730b1610415d91fe408c9c8c66972678f4ad748eddd6d69f2ef7e62"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/mchd-vs-shape-030/reading-and-noop.json",
+      "bytes": 1535,
+      "sha256": "53afce234002c34dcfe8244865436727b7f69098876962f29296878c3eeee910"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/mchd-vs-shape-030/report.md",
+      "bytes": 7355,
+      "sha256": "917e78c6403d4071e6969b44df292dec8e89120630e22795739781738496077a"
+    }
+  ],
+  "staging": [
+    {
+      "path": "tmp/day24-mchd-vs-shape-030/page-01.png",
+      "bytes": 369667,
+      "sha256": "9b55c3bbc01be3f47e1a21b9dc8d8d56ae473f130110b74202ef885f780c6a56"
+    },
+    {
+      "path": "tmp/day24-mchd-vs-shape-030/page-01.txt",
+      "bytes": 6009,
+      "sha256": "070cdef905b64bd31c938a00be60eab91ba8fa2db6a56804d1bc14e38957dbba"
+    },
+    {
+      "path": "tmp/day24-mchd-vs-shape-030/page-02.png",
+      "bytes": 338010,
+      "sha256": "f5d8985735249d33663fd363f193b2a05bfd590af4b2d557eb35eee89b05066e"
+    },
+    {
+      "path": "tmp/day24-mchd-vs-shape-030/page-02.txt",
+      "bytes": 6460,
+      "sha256": "f246e1d830c143a667e339c0f22dd55ff143ab59e46b7a658048440e9461618a"
+    },
+    {
+      "path": "tmp/day24-mchd-vs-shape-030/page-03.png",
+      "bytes": 441798,
+      "sha256": "ba5aa6abd86409175ab933965f17537fd45199c7b5a075f2b7aa7d6940e4ac3a"
+    },
+    {
+      "path": "tmp/day24-mchd-vs-shape-030/page-03.txt",
+      "bytes": 7292,
+      "sha256": "680d6eaa880034fa36dc21fc0d7b928f46066fbd879b318412d6f50dd837f881"
+    },
+    {
+      "path": "tmp/day24-mchd-vs-shape-030/page-04.png",
+      "bytes": 318467,
+      "sha256": "40eadc2544275c8a9ff3d7df727821e8dfed7e45a0db879b0a6c0349fcd7b11f"
+    },
+    {
+      "path": "tmp/day24-mchd-vs-shape-030/page-04.txt",
+      "bytes": 4416,
+      "sha256": "fdcfe68de8216e392843d175fab6537eeb6494707a27f999349a611f54badbef"
+    },
+    {
+      "path": "tmp/day24-mchd-vs-shape-030/page-05.png",
+      "bytes": 491524,
+      "sha256": "d9b04fc78d531b8cbe2b6f0e70caf5d5309df33772fc33b7696f9d6722c6e0ab"
+    },
+    {
+      "path": "tmp/day24-mchd-vs-shape-030/page-05.txt",
+      "bytes": 8153,
+      "sha256": "c6c4d629136a2c2bf6d2b46a219316c256b09044c2cf673bd53c10336add50e5"
+    },
+    {
+      "path": "tmp/day24-mchd-vs-shape-030/raw-check.json",
+      "bytes": 226,
+      "sha256": "b0d49a37725e63bd43d359607a01e99d7b4c2a264d4c3378e25b771f51b77aed"
+    }
+  ],
+  "checks": {
+    "raw_sha": "match",
+    "json_parse": "pass",
+    "markdown_whitespace": "pass",
+    "science_action": "verified-no-op",
+    "canonical_writes": 0,
+    "unknownproducer_runs": 0
+  }
+}

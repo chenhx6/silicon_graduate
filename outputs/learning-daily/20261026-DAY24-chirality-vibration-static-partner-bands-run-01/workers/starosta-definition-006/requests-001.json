@@ -1,0 +1,44 @@
+[
+  {
+    "key": "google",
+    "url": "https://www.google.com/search?q=%22Chirality+in+odd%22+%22Starosta%22+%22pdf%22",
+    "error": "HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /search?q=%22Chirality+in+odd%22+%22Starosta%22+%22pdf%22 (Caused by NewConnectionError(\"HTTPSConnection(host='www.google.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "key": "bing",
+    "url": "https://www.bing.com/search?q=%22Chirality+in+odd%22+%22Starosta%22+pdf",
+    "final_url": "https://cn.bing.com/search?q=%22Chirality+in+odd%22+%22Starosta%22+pdf",
+    "http": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 103368,
+    "sha256": "90bd008ab5a263ba0044199edd353084cfef33f1542b946bc38003753f87ca6d"
+  },
+  {
+    "key": "nii",
+    "url": "https://cir.nii.ac.jp/all?q=10.1016%2FS0375-9474%2800%2900663-1&format=json",
+    "error": "HTTPSConnectionPool(host='cir.nii.ac.jp', port=443): Max retries exceeded with url: /all?q=10.1016%2FS0375-9474%2800%2900663-1&format=json (Caused by NewConnectionError(\"HTTPSConnection(host='cir.nii.ac.jp', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  },
+  {
+    "key": "crossref",
+    "url": "https://api.crossref.org/works/10.1016/S0375-9474(00)00663-1",
+    "final_url": "https://api.crossref.org/works/10.1016/S0375-9474(00)00663-1",
+    "http": 200,
+    "content_type": "application/json",
+    "bytes": 2660,
+    "sha256": "91dd2f39adb175ccef20f869f1223704e8d2d1591df166f19c3ef57efdd4eec6"
+  },
+  {
+    "key": "openalex",
+    "url": "https://api.openalex.org/works/https://doi.org/10.1016/S0375-9474(00)00663-1",
+    "final_url": "https://api.openalex.org/works/https://doi.org/10.1016/S0375-9474(00)00663-1",
+    "http": 200,
+    "content_type": "application/json",
+    "bytes": 14326,
+    "sha256": "7ffe00418a3d5ee1fd54639efd807bb3703a5b5963dcbd46582d6868e224eabd"
+  },
+  {
+    "key": "ostisearch",
+    "url": "https://www.osti.gov/api/v1/records?search=%22Chirality%20in%20odd%22",
+    "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /api/v1/records?search=%22Chirality%20in%20odd%22 (Caused by NewConnectionError(\"HTTPSConnection(host='www.osti.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+  }
+]

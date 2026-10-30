@@ -1,0 +1,76 @@
+{
+  "status": "verified-no-op-for-existing-science-plus-new-Day25-comparison-row",
+  "finished_utc": "2026-10-26T14:28:50.160402+00:00",
+  "source_identity": {
+    "title": "Electromagnetic transition rates in high-spin bands in136Nd",
+    "first_author": "S.Mukhopadhyay",
+    "doi": "10.1103/PhysRevC.78.034311",
+    "publication": "PRC78,034311(2008)"
+  },
+  "body": {
+    "path": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+    "sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "bytes": 171233,
+    "pages": 6,
+    "metadata": {
+      "format": "PDF 1.2",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "LaTeX with hyperref package",
+      "producer": "dvips + Distiller",
+      "creationDate": "D:20080917134811Z",
+      "modDate": "D:20080917134811Z",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  "official_URL": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.78.034311",
+  "access": "existing local raw read only; no new download",
+  "reading": {
+    "MU08_text_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "MU08_visual_pages": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "figures": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "tables": [
+      "I",
+      "II"
+    ],
+    "equations": [
+      1,
+      2,
+      3
+    ],
+    "PE18_scope": "only canonicalPDF3 Fig1 targeted parent-family fingerprint, not new fullPE18read",
+    "PE18_sha256": "d2615fc0d95428b06c056eb8946afa2f62940ce58d79c1fc1cc3f50e19c73ef3"
+  },
+  "parent_count": 10,
+  "branch_count": 26,
+  "crosswalk": {
+    "MU08Band1": "2018D4 lowspin negative",
+    "MU08Band2": "2018D3 lowspin negative"
+  },
+  "does_old_challenge_directly_test_new_D3C_D4C_or_positiveD5": false,
+  "scientific_change": "none; existingMU08D18-5/6/7 and PE18R146 retained; new output is explicitpair-resolved transfer matrix",
+  "ran114_or_authorcode": false,
+  "canonical_raw_Git_course_session_changed": false,
+  "course_scope": "sameDay24run;Day25preview;credit0;noDay26"
+}

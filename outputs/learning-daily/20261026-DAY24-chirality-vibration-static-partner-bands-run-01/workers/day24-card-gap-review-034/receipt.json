@@ -1,0 +1,49 @@
+{
+  "task": "day24-card-gap-review-034",
+  "status": "bounded-scientific-coverage-review-complete",
+  "finished_utc": "2026-10-26T15:50:56.421611+00:00",
+  "scope": "currentknowledge/report/cardmatrixreview;notnewindependentrawpaperreading",
+  "input_fingerprints": [
+    {
+      "path": "outputs/plans/2026-09-22-one-month-daily-task-matrix.md",
+      "sha256": "cfe435e2dc76b2ca83071b3dabf91fad43dc0baf33242187de64244bb762104a"
+    },
+    {
+      "path": "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md",
+      "sha256": "3fc4acefae37ae7860ab5270c7f9ddfcb3c6b89eaf39b22e41dba15d5c59746a"
+    },
+    {
+      "path": "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+      "sha256": "cafbe441fbf5d3cc3f69486f255e1f79959b50e84de67567f20106793749a54b"
+    },
+    {
+      "path": "knowledge/concepts/nuclear-chirality.md",
+      "sha256": "96630700d88bfa6f89f9261d93626b0faa765e50792969c673d27f4eac5b6c81"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands.md",
+      "sha256": "a54bdd7b5a1e48f13c48b9b6f409a501da58805ece482feae0c3db9251c8127d"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/recall-001.md",
+      "sha256": "3a229e9a5a9d3d15e540b5ca9a5de019e275de3adfae0a49f0768878787540f1"
+    },
+    {
+      "path": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+      "sha256": "c883af6ef1a0de9bcf4f70fdf5034dc71548675ec36579ae46c71993a1d3d093"
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "sha256": "cf9b0b927c66c0d84dd8c642690ab6db48f2b0db924d66c1b834dc4b9fcdc681"
+    }
+  ],
+  "finding": "fivecarditems havesubstantivecoverage;noavailable-inputscientificblockeridentified;target-specificalternativefitunknownsremain",
+  "recommended_next": "oneprimednonblindsource-aftercomprehensioncheckplusfocusedexisting-sourceverification",
+  "credit_decision": null,
+  "course_state_writes": false,
+  "canonical_writes": [],
+  "raw_writes": [],
+  "git_mutations": false,
+  "new_retrieval": false,
+  "new_theory_or_fits": false
+}

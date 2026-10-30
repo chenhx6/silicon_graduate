@@ -1,0 +1,36 @@
+{
+  "task": "ce133-primary-followup-081",
+  "candidate": "1995Ha34",
+  "status": "new-independent-primary",
+  "title": "Neutron orbitals above the N = 74 shell gap at large deformation: spectroscopy in the superdeformed minimum of 133Ce",
+  "doi": "10.1016/0370-2693(95)00601-G",
+  "journal": "Physics Letters B 353 (1995) 438-443",
+  "nndc_reference_locator": "tmp/day24-ce133-evaluated-zero-entry-069/adopted-refs-text.txt:108-122",
+  "source_pdf": "tmp/day24-ce133-primary-followup-081/1995Ha34-full.pdf",
+  "source_sha256": "ce219bb983b42a15cb634f95e9ad99bcfbc8442bc179a5e5f0e613b9ac9958fb",
+  "bytes": 690165,
+  "pages": 6,
+  "printed_pages": "438-443",
+  "acquisition": {
+    "route": "Elsevier publisher API object endpoint",
+    "publisher_api": true,
+    "si": false,
+    "initial_incomplete_artifact_sha256": "fc4c11e218c6d03e8b765fa523e06ec298011f720a30d7bc674282e445db9744",
+    "initial_incomplete_artifact_bytes": 86755,
+    "initial_incomplete_artifact_pages": 1
+  },
+  "independence": {
+    "vs_joss_1998": "distinct 116Cd(22Ne,5n) SD campaign vs 100Mo(36S,3n) DSAM; author/model lineage overlaps",
+    "vs_gizon_1974": "distinct 116Cd(22Ne,5n) high-spin SD campaign vs 120Sn(16O,3n) low-spin spectroscopy",
+    "new_information": ["three Ce-133 SD bands", "J(2) and alignment systematics", "conditional configuration/PES interpretation"],
+    "not_supplied": ["Ce-133 tau", "Qt", "absolute B(E2)", "linking transitions", "DCO"]
+  },
+  "atomic_locators": [
+    "PDF p.1-2 (printed 438-439): reaction, detector and event sample",
+    "PDF p.2-3 (printed 439-440), Fig.1: three bands and relative populations",
+    "PDF p.3 (printed 440), Fig.2: spin-range assumptions and J(2) hump",
+    "PDF p.4 (printed 441), Fig.3: PES and single-particle Routhians",
+    "PDF p.5 (printed 442), Table 1: 133Ce Band 2 vs 136Nd yrast energies",
+    "PDF p.5-6 (printed 442-443): alignment gain, mixing and conclusion"
+  ]
+}

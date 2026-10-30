@@ -1,0 +1,32 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=doi:%2210.1016/j.physletb.2018.06.030%22&max_results=3",
+  "curl_exit": 0,
+  "metadata": "200\thttps://export.arxiv.org/api/query?search_query=doi:%2210.1016/j.physletb.2018.06.030%22&max_results=3\tapplication/atom+xml; charset=utf-8",
+  "error": "",
+  "bytes": 2628,
+  "sha256": "9354730d27148430d9c01f617c62ccb7d03533157c5e5b64553122699758873a",
+  "entries": [
+    {
+      "id": "http://arxiv.org/abs/1805.06162v1",
+      "title": "Multiple chiral doublets in four-$j$ shells particle rotor model: five possible chiral doublets in $^{136}_{~60}$Nd$_{76}$",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/1805.06162v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/1805.06162v1",
+          "rel": "related",
+          "type": "application/pdf",
+          "title": "pdf"
+        },
+        {
+          "rel": "related",
+          "href": "https://doi.org/10.1016/j.physletb.2018.06.030",
+          "title": "doi"
+        }
+      ]
+    }
+  ]
+}

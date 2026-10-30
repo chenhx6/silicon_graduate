@@ -1,0 +1,34 @@
+{
+  "task": "larsson-direction-review-037",
+  "status": "bounded-written-derivation-complete",
+  "finished_utc": "2026-10-26T16:07:52.588390+00:00",
+  "source": {
+    "path": "raw/papers/1-s2.0-0375947478906139-main.pdf",
+    "sha256": "108c29bed9de467d99f330c0b8cef47be82a290263a85e398ba3b4f2e97d77eb",
+    "native_text_pages": [
+      32
+    ],
+    "fresh_visual_pages": [
+      32
+    ],
+    "locator": "printed220A1–A4;A2upward-orderRME"
+  },
+  "finding": "rootHermitianWEreversalargumentcorrect;formalismdirectiongapclosedconditionally",
+  "assumptions": [
+    "standard3jWE",
+    "Tlambdaqdagger=(-1)^qTlambda,-qforeachphysicaltensor",
+    "sameinitial/finalstatepairandconsistentphase",
+    "samepositiverealEgammafactorfordeltacomparison",
+    "nonzeroM1denominator"
+  ],
+  "result": "Rfi=(-1)^(If-Ii)Rif*;bothrankphasescancel;reverseE2/M1ratio=conjugate;realconventionratioanddeltaunchanged",
+  "remaining": "actual2022normalizationunitsoperatorradiationconventionandproducerunknown",
+  "new_claims_needs_review": true,
+  "new_network": false,
+  "new_papers": false,
+  "numerical_tests_run": false,
+  "canonical_writes": [],
+  "raw_writes": [],
+  "git_mutations": false,
+  "course_state_writes": false
+}

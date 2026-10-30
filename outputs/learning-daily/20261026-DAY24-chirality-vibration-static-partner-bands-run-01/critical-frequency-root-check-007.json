@@ -1,0 +1,19 @@
+{
+  "kind": "root-independent-source-parameter-check-not-HF-replay",
+  "source": "knowledge/sources/olbratowski-2002-critical-frequency-preprint.md",
+  "locator": "OL02-D24-002",
+  "input": {
+    "s_s_hbar": 5.43,
+    "s_l_hbar": 5.0,
+    "J_s_hbar2_per_MeV": 8.5,
+    "J_m_hbar2_per_MeV": 31.0,
+    "J_l_hbar2_per_MeV": 20.0
+  },
+  "result": {
+    "hbar_omega_c_MeV": 0.5146390463477404,
+    "hbar_omega_thr_MeV": 1.2822667260220735,
+    "classical_Icrit_hbar": 15.953810436779952,
+    "hbar_omega_m_at_0p6": 0.30845850932384455
+  },
+  "limits": "fixed gyroscopes and constant inertia; no finite quantum splitting, experimental spin or HF producer"
+}

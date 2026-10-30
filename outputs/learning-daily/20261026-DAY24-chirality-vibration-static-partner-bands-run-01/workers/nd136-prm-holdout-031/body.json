@@ -1,0 +1,23 @@
+{
+  "url": "https://arxiv.org/pdf/1805.06162",
+  "curl_exit": 0,
+  "metadata": "200\thttps://arxiv.org/pdf/1805.06162\tapplication/pdf",
+  "error": "",
+  "bytes": 384518,
+  "sha256": "cba4fa62433207c06b8673dc484d8a2d0ecdd7db51c27eafb2329726190bee91",
+  "pdf_signature": true,
+  "pages": 15,
+  "pdf_metadata": {
+    "format": "PDF 1.4",
+    "title": "arXiv:1805.06162v1  [nucl-th]  16 May 2018",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "dvips(k) 5.996 Copyright 2016 Radical Eye Software",
+    "producer": "GPL Ghostscript GIT PRERELEASE 9.22",
+    "creationDate": "D:20210727082136-04'00'",
+    "modDate": "D:20210727082136-04'00'",
+    "trapped": "",
+    "encryption": null
+  }
+}

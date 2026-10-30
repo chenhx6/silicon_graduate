@@ -1,0 +1,123 @@
+{
+  "url": "https://api.crossref.org/works?query.bibliographic=Chen%20Lv%20Petrache%20Meng%20Physics%20Letters%20B%20782%20744%202018&rows=2",
+  "curl_exit": 0,
+  "metadata": "200\thttps://api.crossref.org/works?query.bibliographic=Chen%20Lv%20Petrache%20Meng%20Physics%20Letters%20B%20782%20744%202018&rows=2\tapplication/json",
+  "error": "",
+  "bytes": 20310,
+  "sha256": "8e21644e8d463f34aa069114dbc620c1de05b47c7093bc4d7ea9df501f18119b",
+  "entries": [
+    {
+      "title": [
+        "Multiple chiral doublets in four-j shells particle rotor model: Five possible chiral doublets in <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si1.gif\" overflow=\"scroll\"><mml:msubsup><mml:mrow/><mml:mrow><mml:mspace width=\"0.25em\"/><mml:mn>60</mml:mn></mml:mrow><mml:mrow><mml:mn>136</mml:mn></mml:mrow></mml:msubsup></mml:math>Nd76"
+      ],
+      "DOI": "10.1016/j.physletb.2018.06.030",
+      "author": [
+        {
+          "given": "Q.B.",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "B.F.",
+          "family": "Lv",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "C.M.",
+          "family": "Petrache",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0977-5318",
+          "authenticated-orcid": false,
+          "given": "J.",
+          "family": "Meng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "volume": "782",
+      "page": "744-749",
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            7
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0370269318304866?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S0370269318304866?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    },
+    {
+      "title": [
+        "Editorial Board"
+      ],
+      "DOI": "10.1016/s0370-2693(18)30529-x",
+      "author": null,
+      "volume": "782",
+      "page": "ii",
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            7
+          ]
+        ]
+      },
+      "link": [
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S037026931830529X?httpAccept=text/xml",
+          "content-type": "text/xml",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://api.elsevier.com/content/article/PII:S037026931830529X?httpAccept=text/plain",
+          "content-type": "text/plain",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        }
+      ]
+    }
+  ]
+}

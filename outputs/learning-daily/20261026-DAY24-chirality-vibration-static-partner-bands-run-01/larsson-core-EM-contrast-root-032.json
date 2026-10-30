@@ -1,0 +1,23 @@
+{
+  "kind": "root-direct-model-table-exercise",
+  "source": "Larsson1978 printed194 Table1",
+  "normalization": "<0||Q||2>=-100, consistent but not unique phases; not measured units",
+  "source_rows": {
+    "gamma4_to_ground4": [
+      127,
+      102,
+      70
+    ],
+    "ground4_to_ground2": [
+      -165,
+      -164,
+      -158
+    ]
+  },
+  "B_soft_over_rigid_gamma4": 3.2916326530612245,
+  "B_dynamic_over_rigid_gamma4": 2.123265306122449,
+  "B_soft_over_rigid_ground4": 1.090570421406826,
+  "same_initial_spin_per_comparison": 4,
+  "scope": "published schematic core model, not actual 133Ce/135Nd measurement or fit",
+  "gamma_energy_for_actual_photon_rates": "not supplied/reconstructed here"
+}

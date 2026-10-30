@@ -1,0 +1,114 @@
+{
+  "audit_id": "tonev06-reaudit-098",
+  "audited_at_utc": "2026-10-27T05:25:22.955243+00:00",
+  "scope": "Read-only canonical/raw/PLAN/Bib/Git; writes only this worker output directory; no delegated agents",
+  "body": {
+    "path": "tmp/day24-tonev134pr-primary-090/body.pdf",
+    "exists": true,
+    "bytes": 347475,
+    "sha256": "eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134",
+    "pages": 5,
+    "header_hex": "255044462d312e340d25e2e3cfd30d0a",
+    "matches_090_identity_hash": true
+  },
+  "canonical_at_audit": {
+    "path": "knowledge/sources/tonev-2006-134pr-lifetime-chiral.md",
+    "sha256": "cd52fa265def3167e20158debe5aafe59a429686f6ec28cc14489092967b48f9",
+    "raw_file_exists": false,
+    "actual_body_file_exists": false,
+    "authors_count": 31
+  },
+  "verified_metadata": {
+    "doi": "10.1103/PhysRevLett.96.052501",
+    "title": "Transition Probabilities in 134Pr: A Test for Chirality in Nuclear Systems",
+    "authors": [
+      "D. Tonev",
+      "G. de Angelis",
+      "P. Petkov",
+      "A. Dewald",
+      "S. Brant",
+      "S. Frauendorf",
+      "D. L. Balabanski",
+      "P. Pejovic",
+      "D. Bazzacco",
+      "P. Bednarczyk",
+      "F. Camera",
+      "A. Fitzler",
+      "A. Gadea",
+      "S. Lenzi",
+      "S. Lunardi",
+      "N. Marginean",
+      "O. Möller",
+      "D. R. Napoli",
+      "A. Paleni",
+      "C. M. Petrache",
+      "G. Prete",
+      "K. O. Zell",
+      "Y. H. Zhang",
+      "Jing-ye Zhang",
+      "Q. Zhong",
+      "D. Curien"
+    ],
+    "authors_count": 26,
+    "received": "2005-07-04",
+    "published": "2006-02-09",
+    "locator": "PDF1 / printed052501-1 title, byline, received line, DOI"
+  },
+  "author_diff": {
+    "canonical_only": [
+      "C. A. Ur",
+      "E. Farnea",
+      "N. H. Medina",
+      "M. A. Rizzutto",
+      "M. Ionescu-Bujor",
+      "A. Iordachescu",
+      "R. Menegazzo",
+      "R. de Angelis",
+      "G. Lo Bianco",
+      "C. Petrache",
+      "B. Quintana",
+      "H. Rotter",
+      "R. Wadsworth",
+      "J. B. Styczen"
+    ],
+    "pdf_only": [
+      "S. Lenzi",
+      "S. Lunardi",
+      "O. Möller",
+      "A. Paleni",
+      "C. M. Petrache",
+      "G. Prete",
+      "Y. H. Zhang",
+      "Jing-ye Zhang",
+      "Q. Zhong"
+    ]
+  },
+  "reading_scope": {
+    "text": "Freshly extracted all 5 PDF pages from actual bytes; all text reviewed",
+    "visual": "Existing page01.png, page03.png, page04.png visually inspected; source/title/table/figure/conclusion match actual PDF text",
+    "external_ref": "PE06 original PDF pp3-4 freshly extracted; hash ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+    "not_done": [
+      "No original decay-curve refit",
+      "No model producer run",
+      "No event-level independence or covariance audit",
+      "No new SI fetch; 090 landing record has empty SI-links list only"
+    ]
+  },
+  "lifetime_count": {
+    "total": 14,
+    "band1": 9,
+    "band2": 5,
+    "newly_determined": 13,
+    "previously_known": "10+1, Klemme1999 Ref13"
+  },
+  "lineage_independence": "PE06 Ref9 and Ref11 serve different cited roles; Tonev Ref15 and PE06 Ref11 have different bibliographic bylines. This does not establish disjoint raw events, detectors, calibration, branching estimates or covariance; no independent-evidence credit assigned.",
+  "claim_status": {
+    "TO06-D24-001": "supported; clarify 14 total/13 first-time",
+    "TO06-D24-002": "numerically supported; correct locator PDF3 and methods of13+2/14+2",
+    "TO06-D24-003": "supported author/model comparison with bounded wording; not universal exclusion",
+    "TO06-D24-004": "qualitative trend supported; not exact2-3 fit or unique mechanism certification",
+    "TO06-D24-005": "supported; preserve if it exists and alternative shape-degree coupling",
+    "TO06-D24-006": "supported absence after all5 pages checked; Ref15 is PDF5",
+    "TO06-D24-007": "bibliographic separation supported; independence not established; Ref15 locator wrong"
+  }
+}

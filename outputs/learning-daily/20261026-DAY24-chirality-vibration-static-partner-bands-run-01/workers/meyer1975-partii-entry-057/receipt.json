@@ -1,0 +1,118 @@
+{
+  "unit": "meyer1975-partii-entry-057",
+  "run_date": "2026-10-26",
+  "day_index": 24,
+  "status": "entry-complete-completebody-targeted-Ceentry-found-not-fullread",
+  "identity": {
+    "doi": "10.1016/0375-9474(75)90096-2",
+    "pii": "0375947475900962",
+    "title": "Collective model description of transitional odd-A nuclei (II). Comparison with unique parity states of nuclei in the A=135 and A=190 mass regions",
+    "journal": "Nuclear Physics A",
+    "volume": 249,
+    "issue": 1,
+    "year": 1975,
+    "pages": "141–165",
+    "crossref": "exact200/main-title-only; subtitle visuallyverifiedfromPDF"
+  },
+  "WK22actual_reference": {
+    "ref": 52,
+    "physical_pdf_page": 126,
+    "printed_page": 115,
+    "text_and_visual": true,
+    "PartIref51isdistinct": true
+  },
+  "file": "tmp/day24-meyer1975-partii-entry-057/attachment-object-response.pdf",
+  "bytes": 1368683,
+  "sha256": "fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d",
+  "pdf_pages": 25,
+  "printed_span": [
+    141,
+    165
+  ],
+  "network": {
+    "publisher_api_http_requests": 2,
+    "publisher_api_failures": 0,
+    "crossref_exact_request": 1,
+    "oa_status": "not_checked_api_first",
+    "si_requested": true,
+    "si_status": "no_true_supplement_identified_ALTIMG_abstract_inline_excluded"
+  },
+  "overlap": "no samePartIIin targeted Wiki/raw filename search; PartI054/055andMeyer1978different",
+  "actual_reading": {
+    "PartIItext_pdf_pages": [
+      1,
+      14,
+      16,
+      18,
+      19,
+      25
+    ],
+    "PartIIvisual_pdf_pages": [
+      1,
+      18,
+      19,
+      25
+    ],
+    "machine_locator_only": "all25; notcountedasfullreading",
+    "scientific_table_certified": false,
+    "full_read": false
+  },
+  "direct_relevant_entry": {
+    "section": "3.2.4 The nucleus133Ce",
+    "physical_pages": [
+      18,
+      19
+    ],
+    "figure9_page": 19,
+    "samefamily_N75": [
+      "135Nd",
+      "133Ce",
+      "131Ba"
+    ],
+    "not_claimed": "131Ceapplication"
+  },
+  "next_disjoint_read_ranges": [
+    [
+      1,
+      13
+    ],
+    [
+      14,
+      19
+    ],
+    [
+      20,
+      25
+    ]
+  ],
+  "boundaries": [
+    "no historicalFig9−170 to modernExtransfer",
+    "no stabletriaxial/rigiditycertificationfromabstract",
+    "lowest9/2modeldiscrepancy/Coriolisattenuationnotused retained",
+    "noactualWK22input/producerrestoration"
+  ],
+  "report": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/meyer1975-partii-entry-057/report.md",
+  "report_sha256": "fd95ed2645312bbce6f17b40f723e6f6dc9f4abfaa3b933e6c3210efa843dc2f",
+  "writes": [
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/meyer1975-partii-entry-057/report.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/meyer1975-partii-entry-057/receipt.json"
+  ],
+  "tmp_prefix": "tmp/day24-meyer1975-partii-entry-057/",
+  "raw_modified": false,
+  "canonical_modified": false,
+  "credentials_modified": false,
+  "secret_printed_or_written": false,
+  "external_skill_modified": false,
+  "git_mutation": false,
+  "course_credit_or_state_mutation": false,
+  "session_mutation": false,
+  "producer_or_unknown_attachment_executed": false,
+  "old114_read_or_execute": false,
+  "newtoy_or_tests": false,
+  "verification": {
+    "pdf_hash_size_signature_pages": "pass",
+    "report_trailing_whitespace": "none",
+    "receipt_json": "valid"
+  },
+  "next_step": "root selects completeoriginalreading; donotpopulateexperimentalmatrixfromunreadmetadata."
+}

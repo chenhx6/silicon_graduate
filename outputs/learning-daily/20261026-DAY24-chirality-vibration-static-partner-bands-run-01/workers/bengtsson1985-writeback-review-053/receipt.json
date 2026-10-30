@@ -1,0 +1,29 @@
+{
+  "task": "bengtsson1985-writeback-review-053",
+  "status": "bounded-source-selfaudit-complete",
+  "finished_utc": "2026-10-26T17:39:24.937782+00:00",
+  "reviewed_source": {
+    "path": "knowledge/sources/bengtsson-ragnarsson-1985-rotational-bands-particle-hole.md",
+    "sha256": "68c18c15845cd7259a2fb657a36630050fe679ef196d24d9fab2980c6fe5f892"
+  },
+  "context050": {
+    "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/bengtsson1985-discrete-root-050/report.md",
+    "sha256": "02cfdcdb8546754370f500a0e9075c0b5c710694ae9cffb34de9aaf70bc3650a",
+    "not_independently_revalidated_discrete_claims": true
+  },
+  "primary_basis": "048actualcontinuousPDF1–16native+visualscope,Eq1–26Table1Figs1–4",
+  "new_primary_pages_read": false,
+  "result": "no_substantive_methodsdefect;omegaequalszeroalreadyplanned;twooptionalunitquantifierclarifications",
+  "minimal_notes": [
+    "BR85-D24-006omega0->omega=0",
+    "keepverylowspinqualifier",
+    "rldtermexplicithbar²I²/(2Jrig)inI-numberconvention"
+  ],
+  "new_claims_needs_review": true,
+  "new_scientific_unit": false,
+  "numerical_toy_or_tests": false,
+  "canonical_writes": [],
+  "raw_writes": [],
+  "git_mutations": false,
+  "course_state_writes": false
+}

@@ -1,0 +1,42 @@
+{
+  "task": "090",
+  "status": "completed-full-body-read",
+  "doi": "10.1103/PhysRevLett.96.052501",
+  "source_sha256": "eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134",
+  "pages": 5,
+  "read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "all_visuals_viewed": true,
+  "whole_body_native_text": true,
+  "claims": 23,
+  "tables": [
+    "TableI"
+  ],
+  "figures": [
+    "Fig1",
+    "Fig2",
+    "Fig3"
+  ],
+  "primed": "primed-recall.md; nonblind, unscored",
+  "si": "landing/body scanned, no supplement found; no global absence claim",
+  "source_self_audit": "Codex direct-source self-audit; not human-reviewed",
+  "pe06_lineage": "PE06 Ref9 is Tonev2006; PE06 Ref11 is Starosta(to be pub); Tonev Ref15 is Tonev(to be pub)",
+  "downstream_flag": "starosta-2001 line 201 overclaim noted for parent maintenance",
+  "canonical_writes": false,
+  "raw_writes": false,
+  "git_actions": false,
+  "subagents": false,
+  "outputs": [
+    "report.md",
+    "claim-ledger.json",
+    "source-identity.json",
+    "table1-lifetime-ledger.json",
+    "access-manifest.json",
+    "primed-recall.md"
+  ]
+}

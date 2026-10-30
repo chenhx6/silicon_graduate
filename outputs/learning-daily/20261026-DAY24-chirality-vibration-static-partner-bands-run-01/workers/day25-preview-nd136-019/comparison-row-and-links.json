@@ -1,0 +1,261 @@
+{
+  "nucleus": "136Nd",
+  "source": "Petrache2018PRC97,041304R",
+  "preview_only": true,
+  "measured_pair_support": "D5/D5-chiral relative B(M1)/B(E2) series in both partners; four weaker partner-series missing",
+  "five_pair_census": [
+    "D1/D1-C",
+    "D2/D2-C",
+    "D3/D3-C",
+    "D4/D4-C",
+    "D5/D5-C"
+  ],
+  "parities": {
+    "D1": "+",
+    "D2": "+",
+    "D3": "-",
+    "D4": "-",
+    "D5": "+"
+  },
+  "configuration_assignment": {
+    "D1": "A",
+    "D2": "B",
+    "D3": "D*",
+    "D4": "D",
+    "D5": "C"
+  },
+  "C_literal": {
+    "protons": "pi(h11/2)^2(d5/2g7/2)^-2",
+    "neutrons": "nu(h11/2)^-1(f7/2h9/2)^1",
+    "unpaired_count_in_author_assignment": 6,
+    "parity": "+",
+    "beta": 0.26,
+    "gamma_deg": 23,
+    "Ex_CDFT_MeV": 3.704,
+    "locator": "mainPDF5/041304-4TableI"
+  },
+  "geometry_scope": "OnlyD3/D*explicit3DTACexample;notD5own3Dcalculation",
+  "new_partner_tau_reported": false,
+  "new_absoluteB_reported": false,
+  "g_or_staticQ_reported": false,
+  "experimental_shape_distribution_reported": false,
+  "shape_layer": "CDFTminima/modelinterpretation;notdirectshape-coexistencemeasurement",
+  "alternatives": "crossing/configurationmixingexplicitlyunmodeledatD2/D3/D4backbends;notuniquelyexcluded",
+  "links": [
+    {
+      "parent": {
+        "source": "PE18",
+        "band": "D5-chiral",
+        "Jpi": "27+",
+        "Ex": null
+      },
+      "daughter": {
+        "source": "PE18",
+        "band": "D5",
+        "Jpi": "25+",
+        "Ex": null
+      },
+      "Egamma_keV": 1372,
+      "kind": "observed-placed-Fig1-edge",
+      "locator": "mainPDF3/041304-2Fig1",
+      "I_gamma": null,
+      "ICC": null,
+      "delta": null,
+      "absolute_B": null
+    },
+    {
+      "parent": {
+        "source": "PE18",
+        "band": "D5-chiral",
+        "Jpi": "26+",
+        "Ex": null
+      },
+      "daughter": {
+        "source": "PE18",
+        "band": "D5",
+        "Jpi": "24+",
+        "Ex": null
+      },
+      "Egamma_keV": 1327,
+      "kind": "observed-placed-Fig1-edge",
+      "locator": "mainPDF3/041304-2Fig1",
+      "I_gamma": null,
+      "ICC": null,
+      "delta": null,
+      "absolute_B": null
+    },
+    {
+      "parent": {
+        "source": "PE18",
+        "band": "D5-chiral",
+        "Jpi": "25+",
+        "Ex": null
+      },
+      "daughter": {
+        "source": "PE18",
+        "band": "D5",
+        "Jpi": "23+",
+        "Ex": null
+      },
+      "Egamma_keV": 1260,
+      "kind": "observed-placed-Fig1-edge",
+      "locator": "mainPDF3/041304-2Fig1",
+      "I_gamma": null,
+      "ICC": null,
+      "delta": null,
+      "absolute_B": null
+    },
+    {
+      "parent": {
+        "source": "PE18",
+        "band": "D5-chiral",
+        "Jpi": "24+",
+        "Ex": null
+      },
+      "daughter": {
+        "source": "PE18",
+        "band": "D5",
+        "Jpi": "22+",
+        "Ex": null
+      },
+      "Egamma_keV": 1200,
+      "kind": "observed-placed-Fig1-edge",
+      "locator": "mainPDF3/041304-2Fig1",
+      "I_gamma": null,
+      "ICC": null,
+      "delta": null,
+      "absolute_B": null
+    },
+    {
+      "parent": {
+        "source": "PE18",
+        "band": "D5-chiral",
+        "Jpi": "23+",
+        "Ex": null
+      },
+      "daughter": {
+        "source": "PE18",
+        "band": "D5",
+        "Jpi": "21+",
+        "Ex": null
+      },
+      "Egamma_keV": 1144,
+      "kind": "observed-placed-Fig1-edge",
+      "locator": "mainPDF3/041304-2Fig1",
+      "I_gamma": null,
+      "ICC": null,
+      "delta": null,
+      "absolute_B": null
+    },
+    {
+      "parent": {
+        "source": "PE18",
+        "band": "D2-chiral",
+        "Jpi": "27+",
+        "Ex": null
+      },
+      "daughter": {
+        "source": "PE18",
+        "band": "D2",
+        "Jpi": "25+",
+        "Ex": null
+      },
+      "Egamma_keV": 1167,
+      "kind": "observed-placed-Fig1-edge",
+      "locator": "mainPDF3/041304-2Fig1",
+      "I_gamma": null,
+      "ICC": null,
+      "delta": null,
+      "absolute_B": null
+    },
+    {
+      "parent": {
+        "source": "PE18",
+        "band": "D2-chiral",
+        "Jpi": "26+",
+        "Ex": null
+      },
+      "daughter": {
+        "source": "PE18",
+        "band": "D2",
+        "Jpi": "24+",
+        "Ex": null
+      },
+      "Egamma_keV": 1168,
+      "kind": "observed-placed-Fig1-edge",
+      "locator": "mainPDF3/041304-2Fig1",
+      "I_gamma": null,
+      "ICC": null,
+      "delta": null,
+      "absolute_B": null
+    },
+    {
+      "parent": {
+        "source": "PE18",
+        "band": "D2-chiral",
+        "Jpi": "25+",
+        "Ex": null
+      },
+      "daughter": {
+        "source": "PE18",
+        "band": "D2",
+        "Jpi": "23+",
+        "Ex": null
+      },
+      "Egamma_keV": 1258,
+      "kind": "observed-placed-Fig1-edge",
+      "locator": "mainPDF3/041304-2Fig1",
+      "I_gamma": null,
+      "ICC": null,
+      "delta": null,
+      "absolute_B": null
+    },
+    {
+      "parent": {
+        "source": "PE18",
+        "band": "D2-chiral",
+        "Jpi": "24+",
+        "Ex": null
+      },
+      "daughter": {
+        "source": "PE18",
+        "band": "D2",
+        "Jpi": "22+",
+        "Ex": null
+      },
+      "Egamma_keV": 1229,
+      "kind": "observed-placed-Fig1-edge",
+      "locator": "mainPDF3/041304-2Fig1",
+      "I_gamma": null,
+      "ICC": null,
+      "delta": null,
+      "absolute_B": null
+    },
+    {
+      "parent": {
+        "source": "PE18",
+        "band": "D2-chiral",
+        "Jpi": "23+",
+        "Ex": null
+      },
+      "daughter": {
+        "source": "PE18",
+        "band": "D2",
+        "Jpi": "21+",
+        "Ex": null
+      },
+      "Egamma_keV": 1198,
+      "kind": "observed-placed-Fig1-edge",
+      "locator": "mainPDF3/041304-2Fig1",
+      "I_gamma": null,
+      "ICC": null,
+      "delta": null,
+      "absolute_B": null
+    }
+  ],
+  "model_independence": "sharedfunctional/configurations/experiment;notmultipleexperimentalvotes",
+  "inherited_identity_not_reread": "MU08Band1->D4,Band2->D3negative;notD1/D2positive",
+  "minimum_useful_companion": "same-stateidentity/branch/ICC/multipoleledger+bothpartnerclocksandabsoluteM1/E2atmatchedsegment+pre-frozenalternativepredictions",
+  "optional_discriminating_holdout": "feasibleindependentlycalibratedg/staticQonlyifpredictionsseparable",
+  "new_claims_needs_review": true
+}

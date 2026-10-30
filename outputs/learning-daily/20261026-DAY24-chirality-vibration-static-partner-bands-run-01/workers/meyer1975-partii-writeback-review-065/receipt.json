@@ -1,0 +1,38 @@
+{
+  "worker": "065-meyer1975-partii-writeback-review",
+  "completed_utc": "2026-10-26T18:31:29.093016+00:00",
+  "status": "verified-no-op",
+  "substantive_P0_P1_found": false,
+  "required_correction": null,
+  "current_original_text_visual_pages": [
+    3,
+    4,
+    9,
+    13,
+    17,
+    19
+  ],
+  "prior_scope_reused": "061 PDF20–25 plus targeted1–2/18–19; no full25p independent reread claimed",
+  "current_objects": [
+    "new PartII source full page",
+    "WK22-43",
+    "133Ce blueprint final PartII section",
+    "135Nd final1qp section",
+    "Day25 matrix final softness section"
+  ],
+  "checks": [
+    "parameter and target calibration dependencies",
+    "dimensionless particle/hole lambda coordinates",
+    "Table2 literal80 no repair",
+    "Table3b two-of-five literal range membership only",
+    "La data and neighboring-core B(E2) calibration",
+    "Ce9/2 failure and two-beta gamma comparison",
+    "fit gamma versus rms/CI and both softness limits",
+    "source dependence and modern target transfer boundaries"
+  ],
+  "write_scope": "065 worker and tmp/day24-meyer1975-partii-writeback-review-065 only",
+  "canonical_raw_PLAN_Bib_Git_flags_course_session_unchanged": true,
+  "files": {
+    "report.md": "9c3019fed035da8ba38d10ed0a414a174bf229c9cef46a949cd355c8c0651c72"
+  }
+}

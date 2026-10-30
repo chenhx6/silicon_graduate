@@ -1,0 +1,62 @@
+{
+  "task": "day24-integrity-089",
+  "day": 24,
+  "scope": {
+    "run_id": "2026-10-26-day-24-01",
+    "checkpoints": "058-087",
+    "report": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands.md",
+    "canonical_source_pages_late_span": 14
+  },
+  "mode": "read-only-integrity-audit",
+  "result": "corrections-required",
+  "scientific_noop": true,
+  "locators": {
+    "writeback_items": 45,
+    "unique_knowledge_paths": 45,
+    "source_references": 771,
+    "missing_exact_atomic_locators": 0
+  },
+  "lineage": {
+    "late_source_pages_checked": 14,
+    "all_represented_in_writeback": true,
+    "review_status_unreviewed_all": true,
+    "hauschild_1995_1996_same_campaign_labeled": true,
+    "joss_gizon_emediato_distinct_campaigns_labeled": true,
+    "nndc_same_evaluation_lineage_not_independent_experiment": true,
+    "model_or_evaluation_promoted_to_experiment": false
+  },
+  "curriculum": {
+    "completed_day_indices": [],
+    "partial_day_indices": [24, 25],
+    "next_day_index": 24,
+    "day25_credit": false,
+    "day26_opened": false
+  },
+  "checks": {
+    "wiki_lint_exit": 0,
+    "wiki_lint_summary": "pages=740 errors=0 warnings=263 info=4941",
+    "wiki_boundary_check_exit": 0,
+    "git_diff_check_exit": 0,
+    "artifacts": [
+      "tmp/day24-integrity-089/wiki_lint.stdout",
+      "tmp/day24-integrity-089/wiki_lint.stderr",
+      "tmp/day24-integrity-089/boundary.stdout",
+      "tmp/day24-integrity-089/boundary.stderr",
+      "tmp/day24-integrity-089/diff-check.stdout",
+      "tmp/day24-integrity-089/diff-check.stderr"
+    ]
+  },
+  "required_correction": {
+    "kind": "stale-report-run-state",
+    "current_report_header": "checkpoint075-evaluated-zero-and-lifetime-primary; 2026-10-27T03:16:52.570517+08:00; 703.1 minutes",
+    "latest_formal_checkpoint": "checkpoint-087.json at 2026-10-27T04:36:52.961788+08:00; 623.1 minutes",
+    "action": "Synchronize report Run state to checkpoint087 or explicitly mark the appended 088 note uncheckpointed; qualify the old 228-warning verification paragraph as historical.",
+    "science_change_required": false
+  },
+  "write_scope": {
+    "canonical_modified": false,
+    "report_modified": false,
+    "raw_modified": false,
+    "git_operation": false
+  }
+}

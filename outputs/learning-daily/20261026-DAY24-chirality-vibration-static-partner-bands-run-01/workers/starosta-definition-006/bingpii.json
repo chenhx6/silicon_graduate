@@ -1,0 +1,27 @@
+{
+  "key": "bingpii",
+  "url": "https://www.bing.com/search?q=%22S0375947400006631%22&cc=us&setlang=en",
+  "curl_exit": 0,
+  "metadata": "200\thttps://cn.bing.com/search?q=%22S0375947400006631%22&cc=us&setlang=en\ttext/html; charset=utf-8",
+  "error": "",
+  "bytes": 103005,
+  "sha256": "eb44e99905ffd3893b37bb80469c31f1964afc48c2a656b7db326c9f93b783f1",
+  "pdf_signature": false,
+  "text_excerpt": "\"S0375947400006631\" - Search Adaptive Zoom Skip to content Accessibility Feedback \u56fd\u5185\u7248 \u56fd\u9645\u7248 Web Images Videos Academic Dict Maps Flights About 20,600 results Open links in new tab Any time linuxvox.com https:// linux vox.com \u203a blog \u203a make- windows - usb -from- linux Creating a Windows USB Drive from Linux : A Comprehensive Guide Oct 4, 2026\u2002\u00b7\u2002This blog walks you through the fundamental concepts, usage methods, common practices, and best practices for \u2026 linuxvox.com https:// linux vox.com \u203a blog \u203a make- windows -bootable- usb -in- linux Creating a Windows Bootable USB in Linux - linuxvox.com Oct 18, 2026\u2002\u00b7\u2002This blog post will guide you through the process of creating a Windows bootable USB in a Linux environment, \u2026 pendrivelinux.com https://pendrive linux .com \u203a create -bootable- usb -from-iso- using - dd Create a Bootable USB from ISO with Linux dd - Pen Drive Linux Learn how to create a bootable USB from an ISO file using the Linux `dd` command. `dd` writes the image directly to the USB \u2026 guillermodotn.github.io https://guillermodotn.github.io \u203a posts \u203a Creating_a_bootable_ Windows _ USB _on_ linux Creating a Bootable Windows USB on Linux | Guillermo's Blog Jan 12, 2025\u2002\u00b7\u2002In this post, we\u2019ll walk you through how to create a Windows bootable USB drive on a Linux machine using only \u2026 ostechnix.com https://ostechnix.com \u203a how- to-create-bootable-usb-drive-using-dd -command Create Bootable USB Drive Using dd Command In Linux Mar 2, 2016\u2002\u00b7\u2002This brief tutorial explains how to create bootable USB drive using dd command on Linux and Unix operating systems. ummit.dev https://ummit.dev \u203a posts \u203a Linux \u203a misc \u203a bootable- usb -guide Create a Bootable USB Drive with dd on Linux - ummit.dev Oct 1, 2026\u2002\u00b7\u2002Having a reliable bootable USB drive is essential for any Linux user. This guide shows how to create a bootable USB \u2026 fosslinux.com https://www.foss linux .com How to Create a Bootable Windows USB on Linux (2026) May 22, 2023\u2002\u00b7\u2002From Ventoy's drag-and-drop simplicity to the manual wimlib terminal method, these are the exact tools I use to \u2026 linuxiac.com https:// linux iac.com \u203a how- to-create-bootable-usb-drive-using-dd -command How to Create a Bootable USB from ISO on Linux Jul 30, 2020\u2002\u00b7\u2002This guide will walk you through creating a bootable USB drive from an ISO image on Linux using the dd command to \u2026 linuxconfig.org https:// linux config.org \u203a how-to- create -bootable-ms- windows - usb -under- linux How to create bootable MS windows USB under Linux Sep 22, 2025\u2002\u00b7\u2002Learn to create a bootable Windows USB on Linux using command line or GUI. Perfect for installations or system \u2026 dotlinux.net https://www.dot linux .net \u203a blog \u203a how-to- create -bootable-ms- windows - usb -under- linux How to Create a Bootable MS Windows USB Under Linux Jun 20, 2026\u2002\u00b7\u2002This guide will walk you through three reliable methods to create a bootable Windows USB on Linux: using WoeUSB \u2026 Some results are removed in response to a notice of local law requirement. For more information, please see here . Pagination 1 2 3 Next \u589e\u503c\u7535\u4fe1\u4e1a\u52a1\u7ecf\u8425\u8bb8\u53ef\u8bc1\uff1a\u5408\u5b57B2-20090007 \u4eacICP\u590710036305\u53f7-7 \u4eac\u516c\u7f51\u5b89\u590711010802047360\u53f7 Privacy Terms All Past 24 hours Past week Past month Past year",
+  "candidate_links": [
+    "/images/search?q=%22S0375947400006631%22&FORM=HDRSC2",
+    "/videos/search?q=%22S0375947400006631%22&FORM=HDRSC3",
+    "/academic/search?q=%22S0375947400006631%22&FORM=HDRSC4",
+    "/dict/search?q=%22S0375947400006631%22&FORM=HDRSC6",
+    "/maps?q=%22S0375947400006631%22&FORM=HDRSC7",
+    "/travel/search?q=%22S0375947400006631%22&m=flights&FORM=FBSCOP",
+    "/search?q=%22S0375947400006631%22&cc=us&setlang=en&FPIG=2D2C4B02E240469986268F4C53959547&first=11&FORM=PERE",
+    "/search?q=%22S0375947400006631%22&cc=us&setlang=en&FPIG=2D2C4B02E240469986268F4C53959547&first=21&FORM=PERE1",
+    "/search?q=%22S0375947400006631%22&cc=us&setlang=en&FPIG=2D2C4B02E240469986268F4C53959547&first=11&FORM=PORE",
+    "/search?q=%22S0375947400006631%22&cc=us&setlang=en&FORM=000017&qpvt=%22S0375947400006631%22",
+    "/search?q=%22S0375947400006631%22&filters=ex1%3a%22ez1%22&cc=us&setlang=en&FORM=000017",
+    "/search?q=%22S0375947400006631%22&filters=ex1%3a%22ez2%22&cc=us&setlang=en&FORM=000017",
+    "/search?q=%22S0375947400006631%22&filters=ex1%3a%22ez3%22&cc=us&setlang=en&FORM=000017",
+    "/search?q=%22S0375947400006631%22&filters=ex1%3a%22ez5_20387_20752%22&cc=us&setlang=en&FORM=000017"
+  ]
+}

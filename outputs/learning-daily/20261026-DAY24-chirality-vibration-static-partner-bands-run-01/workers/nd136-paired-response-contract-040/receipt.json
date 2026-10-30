@@ -1,0 +1,30 @@
+{
+  "worker": "040-nd136-paired-response-contract",
+  "completed_utc": "2026-10-26T16:25:57.307635+00:00",
+  "status": "bounded-actual-input-derivation-complete",
+  "overlap_checked": [
+    "workers/nd136-thesis-branches-028/report.md",
+    "workers/nd136-holdout-design-033/report.md",
+    "workers/nd136-holdout-design-033/conditional-ratios.json",
+    "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+    "knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md",
+    "knowledge/methods/ado-covariance-calibration.md"
+  ],
+  "delta": "actual four-energy joint log-response Jacobian, power-law tilt coefficient, minimum future joint Cov/response contract",
+  "new_source_or_network": false,
+  "no_actual_CI_significance_fit_counts_covariance": true,
+  "checks": [
+    "calculate.py executed successfully",
+    "coefficient common-mode nulls and third-row difference verified",
+    "actual line order and unknown covariance/fit fields checked",
+    "report whitespace check produced no error (no-index exit1 denotes new content)"
+  ],
+  "scope": "same Day24 run; only Day25 uncredited preview; no course/session changes",
+  "write_scope": "040 worker directory only; no canonical/raw/PLAN/Bib/Git changes",
+  "root_writeback_needed": "Reusable response derivation is in report; canonical owner root decides placement as task-derived rather than thesis-reported fact.",
+  "files": {
+    "calculate.py": "874561959bce56e77b5f07d50ab4f805c3dc6a8d81d79b9969ea670d399e56d3",
+    "report.md": "270dc7656b568e0d4356e6398ce394986cad42c95e675961acf87239bba7af26",
+    "response-contract.json": "86821cc4bad18c14a559f81bade4a0d06f39e5e35c7398549a01a380261d66cd"
+  }
+}

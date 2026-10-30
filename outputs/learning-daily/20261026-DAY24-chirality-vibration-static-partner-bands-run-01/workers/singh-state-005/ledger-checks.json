@@ -1,0 +1,22 @@
+{
+  "sha_match": true,
+  "pdf_pages": 11,
+  "present_rows": 7,
+  "present_finite_tau_rows": 4,
+  "present_limit_tau_rows": 3,
+  "old_ref31_rows": 1,
+  "old_ref32_rows": 4,
+  "derived_Ex_keV": [
+    810,
+    1452,
+    2202,
+    3029,
+    3921,
+    4843,
+    5805
+  ],
+  "all_delta_I_two": true,
+  "negative_parity_chain": true,
+  "energy_edge_closure": true,
+  "scope": "literal transcription and deterministic identity/arithmetic controls only; not experimental validation or CI reconstruction"
+}

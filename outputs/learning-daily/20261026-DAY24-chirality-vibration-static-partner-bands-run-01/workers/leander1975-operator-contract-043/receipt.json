@@ -1,0 +1,63 @@
+{
+  "worker": "043-leander1975-operator-contract",
+  "completed_utc": "2026-10-26T17:02:59.436125+00:00",
+  "status": "scoped-direct-original-reading-complete",
+  "source_sha256": "35ce50a080755f3a11dac48cfbe2e2041659694038bc6bcaf28b452d72da562d",
+  "source_scope": {
+    "continuous_methods_physical_pdf": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "continuous_appendix_physical_pdf": [
+      19,
+      20
+    ],
+    "targeted_table_header_and_footnote_physical_pdf": [
+      7
+    ],
+    "front_metadata_text_only": [
+      1,
+      2
+    ],
+    "full_text_used_only_for_table_location": true,
+    "whole_paper_deep_read_claimed": false,
+    "visual_full_pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      19,
+      20
+    ],
+    "high_zoom_equations": [
+      "A1",
+      "A2",
+      "A3",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "Eq5",
+      "Eq10",
+      "Eq11",
+      "Eq12",
+      "Table1"
+    ]
+  },
+  "prior_overlap_checked": [
+    "worker041 report normalization dictionary",
+    "worker042 report pointwise coordinate identity",
+    "canonical LLR78-D24-008/023 and 133Ce operator gap"
+  ],
+  "scientific_verification": "original PDF text plus full-page/high-zoom visual; A8 axial coordinate identity and A2-to-standard-WE bridge derived continuously; no numerical model run",
+  "write_scope": "043 worker directory and tmp/day24-leander1975-operator-contract-043 only",
+  "canonical_raw_PLAN_Bib_Git_course_session_unchanged": true,
+  "boundary": "Ref23 scoped body-reading gap now closes; full triaxial transition/radial library and actual Ce producer remain unknown",
+  "files": {
+    "operator-contract.json": "810ba2eb0843cfaedadd6f6ab02fb19b433b6869b3003b6cb9eb191eb3613ef1",
+    "report.md": "cf05d2cc94bb8b65a05314f74a01e13538aab92355c0a75b58d8ba3c7ed616c5"
+  }
+}

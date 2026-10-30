@@ -1,0 +1,61 @@
+{
+  "audit_id": "ce133-crosswalk-audit-080",
+  "status": "complete-partial-evidence",
+  "generated_utc": "2026-10-26T19:42:09.373885+00:00",
+  "scope": "WK22 Band4 and low negative spectrum crosswalk against Gizon1974 and Emediato1997 primary-backed source pages.",
+  "write_policy": {
+    "canonical_written": false,
+    "raw_written": false,
+    "git_used": false,
+    "agents_spawned": false
+  },
+  "artifacts": [
+    {
+      "path": "workers/ce133-crosswalk-audit-080/report.md",
+      "sha256": "230301c4c661ed790e38d499236084c991b97ad7a37b92bbe8f49faab59b4692",
+      "bytes": 8265
+    },
+    {
+      "path": "workers/ce133-crosswalk-audit-080/ledger.json",
+      "sha256": "c2e1381df52273a8348be2fa2c83455eca16c2c6211dce824b8d4c7f8cd4d450",
+      "bytes": 17880
+    },
+    {
+      "path": "tmp/day24-ce133-crosswalk-audit-080/input-manifest.json",
+      "sha256": "cb3b269482adea6439e75f8774690b9a7e10b069d19f8697c22b962051c60e31",
+      "bytes": 2011
+    },
+    {
+      "path": "tmp/day24-ce133-crosswalk-audit-080/arithmetic.json",
+      "sha256": "ad816be8c6e702b1c791af3fbffe19bf894b08a8b516316b7828078d1393d524",
+      "bytes": 1928
+    },
+    {
+      "path": "tmp/day24-ce133-crosswalk-audit-080/README.md",
+      "sha256": "6f9b297d0db85473a777f716e0c413842a5ebcfee3a3202982f97530ec4a8389",
+      "bytes": 291
+    }
+  ],
+  "checks": {
+    "ledger_json_parse": true,
+    "report_written": true,
+    "arithmetic_recomputed": true,
+    "all_old_lines_preserved_as_unresolved": true,
+    "band4_tau_not_invented": true,
+    "817p7_not_promoted": true,
+    "582_denominator_not_filled": true
+  },
+  "atomic_locators": {
+    "WK22": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md lines 50,66-67,122,199",
+    "Gizon": "knowledge/sources/gizon-1974-deformed-states-cerium-neodymium.md lines 73-80,106-114",
+    "Emediato": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md lines 60-68,68-82",
+    "NNDC": "knowledge/sources/nndc-2011-133ce-low-level-reference-records.md lines 67-70,79-86",
+    "Project": "knowledge/projects/133ce-thesis-analysis-blueprint.md lines 336-350,529-531"
+  },
+  "open_boundaries": [
+    "τ(832.0), τ(1409.8), τ(1809.1)",
+    "observed 817.7 line and same-parent 582 out/out denominator",
+    "old-line parentage and 608.3/608.7 gate separation",
+    "complete BR/ICC/response/Cov for absolute B"
+  ]
+}

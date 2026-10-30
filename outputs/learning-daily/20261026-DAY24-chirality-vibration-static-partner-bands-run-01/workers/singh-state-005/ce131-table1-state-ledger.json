@@ -1,0 +1,361 @@
+{
+  "source": "Singh2016 DOI 10.1007/s12043-016-1218-6",
+  "source_class": "original experimental journal article; extraction self-audit, not human review",
+  "needs_review": true,
+  "raw_check": {
+    "raw_file": "raw/papers/2016_Singh et al_Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr.pdf",
+    "sha256": "95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30",
+    "bytes": 1202741,
+    "pages": 11,
+    "expected_sha_matches": true
+  },
+  "energy_anchor": {
+    "state": "7/2+ ground level",
+    "Ex_keV": 0,
+    "status": "ground zero indicated in Fig1 Excitation Energy axis; rounding/energy uncertainties not given",
+    "path_to_first_final_state_keV": [
+      162,
+      138
+    ],
+    "anchor_clock": "Fig1 7/2+ T1/2=10.3 min; 9/2- T1/2=88 ns are adopted half-lives, not Table1 present mean tau"
+  },
+  "present": [
+    {
+      "Ji": "15/2-",
+      "Jf": "11/2-",
+      "Egamma_keV": 510,
+      "mean_tau_ps": {
+        "kind": "finite",
+        "value": 9.6,
+        "plus": 1.9,
+        "minus": 3.8
+      },
+      "Qt_eb": {
+        "kind": "finite",
+        "value": 2.93,
+        "plus": 0.6,
+        "minus": 0.3
+      },
+      "method": "RDDS/plunger Bateman fit, LIFETIME",
+      "method_assignment": "explicit: PDF3 Fig3a and text",
+      "QSF_eb": null,
+      "tauSF_ps": {
+        "value": 1.0,
+        "plus": 0.1,
+        "minus": 0.2
+      },
+      "feeding_note": "Additional cascade feeding into 15/2-; higher states constrained by present DSAM moments.",
+      "row_id": "SI16-T1-01",
+      "parity_i": "negative",
+      "parity_f": "negative",
+      "Ex_final_derived_keV": 300,
+      "Ex_initial_derived_keV": 810,
+      "Ex_status": "derived sum of rounded printed Fig1 gamma energies; not a tabulated absolute Ex or precision mass anchor",
+      "locator": "PDF/printed Page 5 of 11, Table 1; final-state identity PDF/printed Page 3 of 11, Fig. 1 and PDF5 Eq. (1)"
+    },
+    {
+      "Ji": "19/2-",
+      "Jf": "15/2-",
+      "Egamma_keV": 642,
+      "mean_tau_ps": {
+        "kind": "upper-limit",
+        "value": 7.31,
+        "relation": "<"
+      },
+      "Qt_eb": {
+        "kind": "lower-limit",
+        "value": 1.9,
+        "relation": ">"
+      },
+      "method": "RDDS/plunger",
+      "method_assignment": "PDF3 Fig3b fitted decay curve + PDF5 Table1 result",
+      "QSF_eb": null,
+      "tauSF_ps": null,
+      "feeding_note": "No row-specific side-feeding value printed; dash is not zero.",
+      "row_id": "SI16-T1-02",
+      "parity_i": "negative",
+      "parity_f": "negative",
+      "Ex_final_derived_keV": 810,
+      "Ex_initial_derived_keV": 1452,
+      "Ex_status": "derived sum of rounded printed Fig1 gamma energies; not a tabulated absolute Ex or precision mass anchor",
+      "locator": "PDF/printed Page 5 of 11, Table 1; final-state identity PDF/printed Page 3 of 11, Fig. 1 and PDF5 Eq. (1)"
+    },
+    {
+      "Ji": "23/2-",
+      "Jf": "19/2-",
+      "Egamma_keV": 750,
+      "mean_tau_ps": {
+        "kind": "lower-limit",
+        "value": 1.3,
+        "relation": ">"
+      },
+      "Qt_eb": {
+        "kind": "upper-limit",
+        "value": 2.85,
+        "relation": "<"
+      },
+      "method": "DSAM stopping-time lower bound; independent plunger visibility gives approximate upper bound",
+      "method_assignment": "explicit: PDF4 last paragraph to PDF5 first paragraph",
+      "additional_tau_constraint_ps": {
+        "kind": "approximate-upper-bound",
+        "value": 3,
+        "relation": "about <=",
+        "not_in_table": true
+      },
+      "QSF_eb": null,
+      "tauSF_ps": null,
+      "feeding_note": "Totally shifted at minimum plunger distance; no significant angle-dependent DSAM lineshape. No finite mean tau or joint confidence interval supplied.",
+      "row_id": "SI16-T1-03",
+      "parity_i": "negative",
+      "parity_f": "negative",
+      "Ex_final_derived_keV": 1452,
+      "Ex_initial_derived_keV": 2202,
+      "Ex_status": "derived sum of rounded printed Fig1 gamma energies; not a tabulated absolute Ex or precision mass anchor",
+      "locator": "PDF/printed Page 5 of 11, Table 1; final-state identity PDF/printed Page 3 of 11, Fig. 1 and PDF5 Eq. (1)"
+    },
+    {
+      "Ji": "27/2-",
+      "Jf": "23/2-",
+      "Egamma_keV": 827,
+      "mean_tau_ps": {
+        "kind": "finite",
+        "value": 1.25,
+        "plus": 0.41,
+        "minus": 0.25
+      },
+      "Qt_eb": {
+        "kind": "finite",
+        "value": 2.26,
+        "plus": 0.37,
+        "minus": 0.23
+      },
+      "method": "DSAM Doppler-broadened lineshape fit, LINESHAPE",
+      "method_assignment": "explicit: PDF4 Fig4a,b and text",
+      "QSF_eb": null,
+      "tauSF_ps": {
+        "value": 0.73,
+        "plus": 0.15,
+        "minus": 0.12
+      },
+      "feeding_note": "Cascade feeding added for 27/2- in addition to four-level rotational band feeding.",
+      "row_id": "SI16-T1-04",
+      "parity_i": "negative",
+      "parity_f": "negative",
+      "Ex_final_derived_keV": 2202,
+      "Ex_initial_derived_keV": 3029,
+      "Ex_status": "derived sum of rounded printed Fig1 gamma energies; not a tabulated absolute Ex or precision mass anchor",
+      "locator": "PDF/printed Page 5 of 11, Table 1; final-state identity PDF/printed Page 3 of 11, Fig. 1 and PDF5 Eq. (1)"
+    },
+    {
+      "Ji": "31/2-",
+      "Jf": "27/2-",
+      "Egamma_keV": 892,
+      "mean_tau_ps": {
+        "kind": "finite",
+        "value": 0.51,
+        "plus": 0.05,
+        "minus": 0.05
+      },
+      "Qt_eb": {
+        "kind": "finite",
+        "value": 2.66,
+        "plus": 0.13,
+        "minus": 0.12
+      },
+      "method": "DSAM",
+      "method_assignment": "Analysis-section/high-spin row attribution; no individual curve for this line published in Fig4",
+      "QSF_eb": {
+        "value": 5.79,
+        "plus": 0.24,
+        "minus": 0.28
+      },
+      "tauSF_ps": null,
+      "feeding_note": "Modelled four-level rotational side feeding; row QSF is a fit nuisance, not the yrast Qt.",
+      "row_id": "SI16-T1-05",
+      "parity_i": "negative",
+      "parity_f": "negative",
+      "Ex_final_derived_keV": 3029,
+      "Ex_initial_derived_keV": 3921,
+      "Ex_status": "derived sum of rounded printed Fig1 gamma energies; not a tabulated absolute Ex or precision mass anchor",
+      "locator": "PDF/printed Page 5 of 11, Table 1; final-state identity PDF/printed Page 3 of 11, Fig. 1 and PDF5 Eq. (1)"
+    },
+    {
+      "Ji": "35/2-",
+      "Jf": "31/2-",
+      "Egamma_keV": 922,
+      "mean_tau_ps": {
+        "kind": "finite",
+        "value": 0.6,
+        "plus": 0.11,
+        "minus": 0.1
+      },
+      "Qt_eb": {
+        "kind": "finite",
+        "value": 2.43,
+        "plus": 0.22,
+        "minus": 0.2
+      },
+      "method": "DSAM",
+      "method_assignment": "explicit: PDF4 Fig4c,d and text",
+      "QSF_eb": {
+        "value": 5.01,
+        "plus": 1.44,
+        "minus": 0.77
+      },
+      "tauSF_ps": null,
+      "feeding_note": "Modelled four-level rotational side feeding; contaminants above 922 keV excluded from backward fit when noninterfering.",
+      "row_id": "SI16-T1-06",
+      "parity_i": "negative",
+      "parity_f": "negative",
+      "Ex_final_derived_keV": 3921,
+      "Ex_initial_derived_keV": 4843,
+      "Ex_status": "derived sum of rounded printed Fig1 gamma energies; not a tabulated absolute Ex or precision mass anchor",
+      "locator": "PDF/printed Page 5 of 11, Table 1; final-state identity PDF/printed Page 3 of 11, Fig. 1 and PDF5 Eq. (1)"
+    },
+    {
+      "Ji": "39/2-",
+      "Jf": "35/2-",
+      "Egamma_keV": 962,
+      "mean_tau_ps": {
+        "kind": "upper-limit",
+        "value": 0.54,
+        "relation": "<"
+      },
+      "Qt_eb": {
+        "kind": "lower-limit",
+        "value": 2.29,
+        "relation": ">"
+      },
+      "method": "DSAM/high-spin analysis",
+      "method_assignment": "Section-level inference from PDF2 §2.1/PDF4 §2.3 and Table1; no separate 962-keV diagnostic shown",
+      "QSF_eb": null,
+      "tauSF_ps": null,
+      "feeding_note": "No row-specific feeding parameter or limit-construction curve/likelihood printed.",
+      "row_id": "SI16-T1-07",
+      "parity_i": "negative",
+      "parity_f": "negative",
+      "Ex_final_derived_keV": 4843,
+      "Ex_initial_derived_keV": 5805,
+      "Ex_status": "derived sum of rounded printed Fig1 gamma energies; not a tabulated absolute Ex or precision mass anchor",
+      "locator": "PDF/printed Page 5 of 11, Table 1; final-state identity PDF/printed Page 3 of 11, Fig. 1 and PDF5 Eq. (1)"
+    }
+  ],
+  "comparison": [
+    {
+      "reference": 31,
+      "Ji": "15/2-",
+      "Egamma_keV": 510,
+      "mean_tau_ps": {
+        "kind": "finite",
+        "value": 7.53,
+        "plus": 0.37,
+        "minus": 0.37
+      },
+      "Qt_eb": {
+        "kind": "finite",
+        "value": 3.24,
+        "plus": 0.08,
+        "minus": 0.08
+      },
+      "tau_status": "reprinted earlier measurement attributed by Singh2016, not a new 2016 present measurement",
+      "Qt_status": "Singh2016 conversion using Eq1 per Table1 caption; dependent on same old tau, not an independent observable",
+      "original_reference": "T. Klemme et al., Phys. Rev. C 60, 034301 (1999)",
+      "locator": "PDF/printed Page 5 of 11 Table1 comparison columns; PDF/printed Page11 refs31/32",
+      "original_pdf_crosscheck_in_this_worker": false
+    },
+    {
+      "reference": 32,
+      "Ji": "19/2-",
+      "Egamma_keV": 642,
+      "mean_tau_ps": {
+        "kind": "lower-limit",
+        "value": 4,
+        "relation": ">"
+      },
+      "Qt_eb": {
+        "kind": "upper-limit",
+        "value": 2.5,
+        "relation": "<"
+      },
+      "tau_status": "reprinted earlier measurement attributed by Singh2016, not a new 2016 present measurement",
+      "Qt_status": "Singh2016 conversion using Eq1 per Table1 caption; dependent on same old tau, not an independent observable",
+      "original_reference": "G.-S. Li et al., Chin. Phys. Lett. 21, 461 (2004)",
+      "locator": "PDF/printed Page 5 of 11 Table1 comparison columns; PDF/printed Page11 refs31/32",
+      "original_pdf_crosscheck_in_this_worker": false
+    },
+    {
+      "reference": 32,
+      "Ji": "23/2-",
+      "Egamma_keV": 750,
+      "mean_tau_ps": {
+        "kind": "finite",
+        "value": 1.44,
+        "plus": 0.54,
+        "minus": 0.54
+      },
+      "Qt_eb": {
+        "kind": "finite",
+        "value": 2.72,
+        "plus": 0.51,
+        "minus": 0.51
+      },
+      "tau_status": "reprinted earlier measurement attributed by Singh2016, not a new 2016 present measurement",
+      "Qt_status": "Singh2016 conversion using Eq1 per Table1 caption; dependent on same old tau, not an independent observable",
+      "original_reference": "G.-S. Li et al., Chin. Phys. Lett. 21, 461 (2004)",
+      "locator": "PDF/printed Page 5 of 11 Table1 comparison columns; PDF/printed Page11 refs31/32",
+      "original_pdf_crosscheck_in_this_worker": false
+    },
+    {
+      "reference": 32,
+      "Ji": "27/2-",
+      "Egamma_keV": 827,
+      "mean_tau_ps": {
+        "kind": "finite",
+        "value": 1.23,
+        "plus": 0.23,
+        "minus": 0.23
+      },
+      "Qt_eb": {
+        "kind": "finite",
+        "value": 2.28,
+        "plus": 0.21,
+        "minus": 0.21
+      },
+      "tau_status": "reprinted earlier measurement attributed by Singh2016, not a new 2016 present measurement",
+      "Qt_status": "Singh2016 conversion using Eq1 per Table1 caption; dependent on same old tau, not an independent observable",
+      "original_reference": "G.-S. Li et al., Chin. Phys. Lett. 21, 461 (2004)",
+      "locator": "PDF/printed Page 5 of 11 Table1 comparison columns; PDF/printed Page11 refs31/32",
+      "original_pdf_crosscheck_in_this_worker": false
+    },
+    {
+      "reference": 32,
+      "Ji": "31/2-",
+      "Egamma_keV": 892,
+      "mean_tau_ps": {
+        "kind": "upper-limit",
+        "value": 1.04,
+        "relation": "<"
+      },
+      "Qt_eb": {
+        "kind": "lower-limit",
+        "value": 2.03,
+        "relation": ">"
+      },
+      "tau_status": "reprinted earlier measurement attributed by Singh2016, not a new 2016 present measurement",
+      "Qt_status": "Singh2016 conversion using Eq1 per Table1 caption; dependent on same old tau, not an independent observable",
+      "original_reference": "G.-S. Li et al., Chin. Phys. Lett. 21, 461 (2004)",
+      "locator": "PDF/printed Page 5 of 11 Table1 comparison columns; PDF/printed Page11 refs31/32",
+      "original_pdf_crosscheck_in_this_worker": false
+    }
+  ],
+  "absent_fields": [
+    "tabulated Ex with uncertainties",
+    "individual photon branching fractions and ICC",
+    "full same-parent outgoing branch network",
+    "joint tau/QSF/tauSF covariance",
+    "original fit events/input cards and stopping-history realization",
+    "limit likelihood/confidence definitions for each bound",
+    "cross-publication unique state IDs beyond matching spin/parity/line cascades"
+  ],
+  "table_blank_semantics": "Null means printed dash / not provided; never a measured zero."
+}

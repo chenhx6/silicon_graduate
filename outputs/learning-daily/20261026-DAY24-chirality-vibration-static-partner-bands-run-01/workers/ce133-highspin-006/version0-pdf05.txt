@@ -1,0 +1,52 @@
+                                                                                                     4
+
+
+
+TABLE I: The unpaired-nucleon conﬁgurations and parities for states A, a, and b, calculated with RMF. The deformation
+parameters β and γ, and the excitation energies Ex (in MeV) are provided, along with the experimental bandhead energies of
+Bands 2 and 5, based on the conﬁgurations a and b (see Fig. 3). The spin and parity Iπ for bandheads of the two bands are
+also listed.
+
+
+                                      RMF calculations      Experiment
+                 State        Unpaired nucleons         Parity     (β, γ)    Ex    Band   Iπ   Ex
+           A             ν(1h11/2)−1        −     (0.20, 11.1◦) 0.00
+                 a   π(1g7/2)−1(1h11/2)1 ⊗ν(1h11/2)−1  +     (0.22, 17.5◦) 1.71   Band 2 19/2+ 2.378
+               b       π(1h11/2)2 ⊗ν(1h11/2)−1    −     (0.23, 15.2◦) 3.78   Band 5 29/2−3.734
+
+
+well.
+
+
+
+
+
+FIG. 3: (Color online) Potential-energy curves in adiabatic (open circles) and various conﬁguration-ﬁxed β-constrained (solid
+and dashed curves) RMF calculations with the parameters set PK1 [42] for 133Ce. The energy minima are represented as stars.
+The letters A, a, and b denote the calculated ground state, Band 2, and Band 5, respectively.
+
+
+  In order to examine the formation of chiral structures based on conﬁgurations a and b, the deformation parameters
+β and γ obtained from the RMF calculations were used as inputs to the TPRM calculations [23, 43]. The moment
+of inertia of the rotor was adjusted to the experimental energies and the calculation of the electromagnetic transition
+probabilities followed the process described in Refs. [23, 43].
+  The π(1h11/2)2 ⊗ν(1h11/2)−1 quasiparticle conﬁguration assigned to Band 5 is due to the rotational alignment of a
+pair of h11/2 protons coupled to an h11/2 neutron hole after band crossing. A similar observation was made in Ref. [34],
+but the conﬁguration of the band was suggested to be associated with a stable prolate axial (γ=0◦) shape. However,
+conﬁguration assignments there were obtained with the assumption that the axis of rotation must coincide with one of
+the principal axes of the density distribution. In the present RMF calculations, the prolate minimum of the previous
+cranking calculations becomes a saddle point, and the actual minimum corresponds to a triaxial deformation capable
+of forming a chiral band.
+ TPRM calculations have been performed for Band 5 and its proposed chiral partner, Band 6, based on a π(1h11/2)2⊗
+ν(1h11/2)−1 conﬁguration and the results are presented in the left section of Fig. 2. The theoretical results show an
+impressive agreement with the data. The energy separation between the two bands is about 400 keV at I = 292 , and
+remains relatively constant over an extended spin range. Indeed, a similar band structure built on the π(1h11/2)2 ⊗
+ν(1h11/2)−1 conﬁguration was previously observed in 135Nd and interpreted as a chiral composite structure [11, 26].
+The nucleus 133Ce contains two fewer protons and the energy variation between Bands 5 and 6 in Fig. 2 similarly
+suggests a form of chiral vibration, a tunneling between the left- and right-handed conﬁgurations, such that Band 5 is
+associated with the zero- and Band 6 with the one-phonon state. Furthermore, the calculated staggering parameter
+S(I) is seen to vary smoothly with spin (Fig. 2).  This is expected since the Coriolis interaction is substantially
+reduced for a three-dimensional coupling of angular momentum vectors in a chiral geometry. A comparison of the
+calculated electromagnetic transition probability ratios with the data is presented in the lower panels of Fig. 2. In the
+TPRM calculations, no obvious odd-even staggering of the B(M1)/B(E2) values is indicated, although a small eﬀect
+is apparent experimentally. This further supports the interpretation in terms of a chiral vibration between Bands 5

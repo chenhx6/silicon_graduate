@@ -1,0 +1,182 @@
+{
+  "task": "ce-static-moment-017",
+  "source": {
+    "path": "raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf",
+    "sha256": "2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b",
+    "pdf_pages": 20,
+    "printed_pages": "459–478"
+  },
+  "status": "verified-no-op-on-existingIB98facts;concreteidentitycontract;nohumanreviewupgrade",
+  "new_claims_needs_review": true,
+  "node": {
+    "node_id": "IB98-Ce131-162nominal-9m2",
+    "nucleus": "131Ce",
+    "Jpi": "9/2-",
+    "Ex_nominal_keV": 162,
+    "Ex_status": "integer162keVdirectgrounddecayatprinted460/PDF2;notapreciseExrowornewenergyfit",
+    "clock": {
+      "source_T_half_ns": 88,
+      "source_uncertainty_ns": 2,
+      "kind": "populationhalf-life",
+      "mean_tau_ns_conversion": 126.95716359822879,
+      "mean_tau_uncertainty_ns_conversion": 2.8853900817779268,
+      "fit_source": "printed462/PDF4sum0deg+90degtimehistograms;printed464/PDF6Fig2",
+      "is_mean_tau_published": false
+    },
+    "readout_edge": {
+      "Egamma_keV": 162,
+      "parent_Jpi": "9/2-",
+      "daughter_Jpi": "7/2+",
+      "daughter_Ex_keV": 0,
+      "multipolarity": "E1assignmentreportedprinted466/PDF8",
+      "branch_probability": null,
+      "ICC": null
+    },
+    "static_moments": {
+      "abs_Qs_eb": 0.92,
+      "abs_Qs_uncertainty_eb": 0.1,
+      "Q_sign_measured": false,
+      "g": -0.189,
+      "g_uncertainty": 0.007,
+      "source_mu_numeric": null,
+      "mu_over_muN_conversion_only": -0.8505,
+      "mu_over_muN_uncertainty_conversion_only": 0.0315,
+      "mu_conversion_kind": "unitconversionmu=gJmuNwithadoptedJ;notaseparatepublishedmeasurement"
+    },
+    "QI": {
+      "host": "thickpolycrystallineSn;roomtemperature",
+      "nuQ_MHz": 36.4,
+      "nuQ_uncertainty_MHz": 1.6,
+      "EFG_reference": "Ref14RViandenHyperfineInteractions35(1987)1079",
+      "Vzz_numeric_in_IB98": null,
+      "calibration_status": "adoptedknownEFG;upstreamprimarynotrereadin017",
+      "relaxation_us_approx": [
+        0.2,
+        0.3
+      ]
+    },
+    "MI": {
+      "host": "0.6mg/cm2Sn-on-thickPb;CeimplantedPb;roomtemperature",
+      "fields_kG": [
+        14.6,
+        32.0
+      ],
+      "field_uncertainties_kG": [
+        0.4,
+        0.8
+      ],
+      "field_flip_approx_min": 10,
+      "local_susceptibility": 1.4,
+      "local_susceptibility_uncertainty": 0.02,
+      "calibration_reference": "Ref13BarthNetzNishiyamaRiegelPRL45(1980)1015",
+      "omegaL_numeric_in_IB98": null,
+      "relaxation_ns_approx": 250
+    },
+    "instrument_time": {
+      "beam_pulse_width_ns": 3,
+      "beam_period_ns": 800,
+      "time_resolution_ns_approx": 11
+    },
+    "locators": [
+      "printed460/PDF2directgroundbranch",
+      "printed461/PDF3setup",
+      "printed462/PDF4QIandhalf-life",
+      "printed463/PDF5absQ",
+      "printed464/PDF6Eq4/5calibrationandFig2",
+      "printed465/PDF7gandFig3",
+      "printed466/PDF8parity",
+      "printed472/PDF14Table1",
+      "printed478/PDF20Refs13/14"
+    ]
+  },
+  "Wk22_target_attachments": [
+    {
+      "parent_node_id": "WK22-B4-0832p0-13m2",
+      "edge_id": "WK22-B4-832.0-to-B1-207.4-Eg624.6",
+      "Egamma_keV": 624.6,
+      "IB98_tau_transferred": false,
+      "IB98_Q_transferred": false,
+      "IB98_g_transferred": false
+    },
+    {
+      "parent_node_id": "WK22-B4-0832p0-13m2",
+      "edge_id": "WK22-B4-832.0-to-B1-37.2-Eg794.8",
+      "Egamma_keV": 794.8,
+      "IB98_tau_transferred": false,
+      "IB98_Q_transferred": false,
+      "IB98_g_transferred": false
+    },
+    {
+      "parent_node_id": "WK22-B4-1409p8-17m2",
+      "edge_id": "WK22-B4-1409.8-to-B4-1200.8-Eg209.0",
+      "Egamma_keV": 209.0,
+      "IB98_tau_transferred": false,
+      "IB98_Q_transferred": false,
+      "IB98_g_transferred": false
+    },
+    {
+      "parent_node_id": "WK22-B4-1409p8-17m2",
+      "edge_id": "WK22-B4-1409.8-to-B4-832.0-Eg577.8",
+      "Egamma_keV": 577.8,
+      "IB98_tau_transferred": false,
+      "IB98_Q_transferred": false,
+      "IB98_g_transferred": false
+    },
+    {
+      "parent_node_id": "WK22-B4-1409p8-17m2",
+      "edge_id": "WK22-B4-1409.8-to-B1-827.1-Eg582.7",
+      "Egamma_keV": 582.7,
+      "IB98_tau_transferred": false,
+      "IB98_Q_transferred": false,
+      "IB98_g_transferred": false
+    },
+    {
+      "parent_node_id": "WK22-B4-1809p1-19m2",
+      "edge_id": "WK22-B4-1809.1-to-B4-1409.8-Eg399.3",
+      "Egamma_keV": 399.3,
+      "IB98_tau_transferred": false,
+      "IB98_Q_transferred": false,
+      "IB98_g_transferred": false
+    },
+    {
+      "parent_node_id": "WK22-B4-1809p1-19m2",
+      "edge_id": "WK22-B4-1809.1-to-B4-1200.8-Eg608.3",
+      "Egamma_keV": 608.3,
+      "IB98_tau_transferred": false,
+      "IB98_Q_transferred": false,
+      "IB98_g_transferred": false
+    },
+    {
+      "parent_node_id": "WK22-B4-1809p1-19m2",
+      "edge_id": "WK22-B4-1809.1-to-B1-1344.7-Eg464.4",
+      "Egamma_keV": 464.4,
+      "IB98_tau_transferred": false,
+      "IB98_Q_transferred": false,
+      "IB98_g_transferred": false
+    },
+    {
+      "parent_node_id": "WK22-B4-1809p1-19m2",
+      "edge_id": "WK22-B4-1809.1-to-B1-827.1-Eg982.0",
+      "Egamma_keV": 982.0,
+      "IB98_tau_transferred": false,
+      "IB98_Q_transferred": false,
+      "IB98_g_transferred": false
+    }
+  ],
+  "clock_role_distinction": "131Ce162keVisomerreadoutandlatecoincidencegateisnot15/2−andhigherDSAM/RDDSparentclock,norany133Ceparentclock",
+  "withdrawals_preserved": [
+    "IB98-D20-R146-.92(10)ebfor131Ce",
+    "1.34ebis129CeQcal,not131Cemeasurement",
+    "2.58(12)ebmismatchnotrestored",
+    "29.68-foldshapeorBhardladdernotrestored",
+    "pureK6/11notactualmixedPTR"
+  ],
+  "remaining_inputs": [
+    "actualIB98omegaL/timefitandjointCov",
+    "numericVzzandactualadoptedEFGcalibrationbudget",
+    "field/susceptibilitysampleandtemperature/defectCov",
+    "target133Cestate-specificclock/staticmoment/response",
+    "completeactualtargetBR/ICC/mixing",
+    "sameHamiltonianEM/staticmomentpredictionsbeforeholdout"
+  ]
+}

@@ -1,0 +1,62 @@
+                                                                                                      week ending
+PRL 110, 172504 (2013)         P H Y S I C A L R E V I E W  L E T T E R S                        26 APRIL 2013
+
+TABLE I.  The unpaired-nucleon conﬁgurations and parities for states A, a, and b, calculated with RMF. The deformation parameters
+  and   , and the excitation energies Ex (in MeV) are provided, along with the experimental bandhead energies of Bands 2 and 5, based
+on the conﬁgurations a and b (see Fig. 3). The spin and parity I  for bandheads of the two bands are also listed.
+
+                                           RMF calculations                Experiment
+State             Unpaired nucleons               Parity                    (   ,   )         Ex      Band         I         Ex
+A                        ð1h11=2Þ  1                                        (0.20, 11.1 )      0.00
+a            ½ð1g7=2Þ 1ð1h11=2Þ1     ð1h11=2Þ  1    þ                (0.22, 17.5 )      1.71     band 2     19=2þ      2.378
+b                  ð1h11=2Þ2    ð1h11=2Þ  1                                 (0.23, 15.2 )      3.78     band 5     29=2       3.734
+
+
+However, conﬁguration assignments there were obtained     The calculated excitation energies and the electromag-
+with the assumption that the axis of rotation must coincide    netic transition probability ratios BðM1Þ=BðE2Þ for bands
+with one of the principal axes of the density distribution.   2 and 3 are compared with the experimental values in the
+In the present RMF calculations, the prolate minimum of     right panels of Fig. 2. It can be seen that the theoretical
+the previous cranking calculations becomes a saddle point,     results are able to reproduce the data well: in the chiral
+and the actual minimum corresponds to a triaxial deforma-    region, the energy separation between bands 2 and 3 is
+tion capable of forming a chiral band.                       nearly constant at  100 keV, and the similar behavior of
+ TPRM calculations have been performed for band 5 and   BðM1Þ=BðE2Þ ratios  is also clearly evident. Similar to
+its proposed chiral partner, band 6, based on a  ð1h11=2Þ2      bands 5 and 6, there is no perceptible staggering in the
+ ð1h11=2Þ  1 conﬁguration and the results are presented in    calculated BðM1Þ=BðE2Þ ratios, but such an effect is ap-
+the left section of Fig. 2. The theoretical results show an    parent experimentally. The BðM1Þ=BðE2Þ ratio depends
+impressive agreement with the data. The energy separation    sensitively on the details of the transition from the vibra-
+between the two bands is about 400 keV at I ¼ 292 , and     tional to the tunneling regime [23], which may account for
+remains relatively constant over an extended spin range.    the deviations of the TPRM calculation from experiment.
+Indeed, a similar band structure built on the   ð1h11=2Þ2      When comparing the experimental energies of bands 2
+ ð1h11=2Þ  1  conﬁguration was  previously observed  in    and 3 with the TPRM calculations, a Coriolis attenuation
+135Nd and interpreted as a  chiral composite  structure     factor, ¼ 0:7, was employed. The incorporation of such
+[11,26]. The nucleus 133Ce contains two fewer protons    an attenuation factor is not uncommon in the description of
+and the energy variation between bands 5 and 6 in Fig. 2    the properties of low-lying bands in deformed odd-A nuclei
+similarly suggests a form of chiral vibration, a tunneling    with TPRM [45] and might be a consequence of the fact
+between the left- and right-handed conﬁgurations, such     that the conﬁguration for these bands contains a low-j
+that bands 5 and 6 are associated with the zero- and one-     orbital   ð1g7=2Þ which has large admixtures with other
+phonon  state, respectively. Furthermore, the calculated    low-j orbitals. The conﬁguration for bands 5 and 6, on
+staggering parameter SðIÞ is seen to vary smoothly with    the other hand, contains only the high-j orbital   ð1h11=2Þ,
+spin (Fig. 2). This is expected since the Coriolis interaction    where the mixing is relatively small, thus alleviating the
+is substantially reduced for a three-dimensional coupling    need for Coriolis attenuation.
+of angular momentum vectors in a chiral geometry. A       In summary, two distinct chiral doublet bands based
+comparison of the calculated electromagnetic transition   on the three-quasiparticle conﬁgurations   ½ð1g7=2Þ  1
+probability ratios with the data is presented in the lower    ð1h11=2Þ1     ð1h11=2Þ  1  and    ð1h11=2Þ2    ð1h11=2Þ  1,
+panels of Fig. 2. In the TPRM calculations, no obvious    respectively, have been observed for the ﬁrst time in
+odd-even staggering of the BðM1Þ=BðE2Þ values is indi-    133Ce, and are interpreted in the context of the M D
+cated, although a small effect is apparent experimentally.   phenomenon. Calculations based on a novel combination
+This further supports the interpretation in terms of a chiral    of the RMF and TPRM reproduce the experimental results
+vibration between bands 5 and 6 [43], which may be due to    well, and conﬁrm the manifestation of triaxial shape coex-
+the softness of the triaxial shape [44].                         istence in this nucleus.
+  The positive-parity chiral doublet bands  built on the    We thank C. R. Hoffman, C. Nair, and I. Stefanescu for
+19=2þ state (bands 2 and 3) are associated with the three-     their help with these measurements. U. G. acknowledges the
+quasiparticle    conﬁguration       ½ð1g7=2Þ 1ð1h11=2Þ1      Peking University Global Visiting Professors Program for
+ ð1h11=2Þ  1. The energy separation between bands 2 and 3    support during his sojourn at Peking University. This work
+was found to be nearly constant at  100 keV, which, com-    has been supported in part by the U. S. National Science
+bined with the spin-independent SðIÞ parameter, leads to the    Foundation (Grants No. PHY07-58100, No. PHY-0822648,
+interpretation of these bands being chiral partners as well.    and No. PHY-1068192); the U. S. Department of Energy,
+It should be noted that the two M D conﬁgurations in 133Ce   Ofﬁce of Nuclear Physics, under Grants No. DE-FG02-
+are analogous to the  ð1g9=2Þ  1     ½ð1h11=2Þ1ð1g7=2Þ1 and   95ER40939 (UND) and No. DE-FG02-94ER40834 (UM),
+  ð1g9=2Þ  1    ð1h11=2Þ2 conﬁgurations proposed previously    and Contract No. DE-AC02-06CH11357 (ANL); the Major
+for 105Rh [15,16].                                              State 973 Program of China (Grant No. 2013CB834400);
+
+                                               172504-4

@@ -1,0 +1,36 @@
+                                                                                                     5
+
+
+and 6 [44], which may be due to the softness of the triaxial shape [45].
+  The positive-parity chiral doublet bands built on the 19/2+ state (Bands 2 and 3) are associated with the three-
+quasiparticle conﬁguration π(1g7/2)−1(1h11/2)1 ⊗ν(1h11/2)−1. The energy separation between Bands 2 and 3 was
+found to be nearly constant at ∼100 keV, which, combined with the spin-independent S(I) parameter, leads to the
+interpretation of these bands being chiral partners as well.  It should be noted that the two MχD conﬁgurations
+in 133Ce are analogous to the π(1g9/2)−1 ⊗ν(1h11/2)1(1g7/2)1 and π(1g9/2)−1 ⊗ν(1h11/2)2 conﬁgurations proposed
+previously for 105Rh [15, 16].
+  The calculated excitation energies and the electromagnetic transition probability ratios B(M1)/B(E2) for Bands
+2 and 3 are compared with the experimental values in the right panels of Fig. 2. It can be seen that the theoretical
+results are able to reproduce the data well: In the chiral region, the energy separation between Bands 2 and 3 is nearly
+constant at ∼100 keV, and the similar behavior of B(M1)/B(E2) ratios is also clearly evident.  Similar to Bands
+5 and 6, there is no perceptible staggering in the calculated B(M1)/B(E2) ratios, but such an eﬀect is apparent
+experimentally. The B(M1)/B(E2) ratio depends sensitively on the details of the transition from the vibrational to
+the tunneling regime [23], which may account for the deviations of the PRM calculation from experiment.
+  When comparing the experimental energies of Bands 2 and 3 with the PRM calculations, a Coriolis attenuation
+factor, ξ=0.7, was employed. The incorporation of such an attenuation factor is not uncommon in the description of
+the properties of low-lying bands in deformed odd-A nuclei with PRM [46] and might be a consequence of the fact
+that the conﬁguration for these bands contains a low-j orbital π(1g7/2) which has large admixtures with other low-j
+orbitals. The conﬁguration for Bands 5 and 6, on the other hand, contains only the high-j orbital π(1h11/2), where
+the mixing is relatively small, thus alleviating the need for Coriolis attenuation.
+  In  summary,   two   distinct   chiral  doublet  bands  based  on  the   three-quasiparticle  conﬁgurations
+π((1g7/2)−1(1h11/2)1) ⊗ν(1h11/2)−1 and  π(1h11/2)2 ⊗ν(1h11/2)−1,  respectively,  have been observed  for  the
+ﬁrst time in 133Ce, and are interpreted in the context of the MχD phenomenon.  Calculations based on a novel
+combination of the RMF and TPRM reproduce the experimental results well, and conﬁrm the manifestation of
+triaxial shape coexistence in this nucleus.
+ We thank C. R. Hoﬀman, C. Nair, and I. Stefanescu for their help with these measurements. UG acknowledges
+the Peking University Global Visiting Professors Program for a Fellowship during his sojourn at Peking University.
+This work has been supported in part by the U. S. National Science Foundation (Grant Nos. PHY07-58100, PHY-
+0822648, and PHY-1068192); the U. S. Department of Energy, Oﬃce of Nuclear Physics, under Grant Nos. DE-FG02-
+95ER40939 (UND) and DE-FG02-94ER40834 (UM), and Contract No. DE-AC02-06CH11357 (ANL); the Major State
+973 Program of China (Grant No. 2013CB834400); the National Natural Science Foundation of China (Grant Nos.
+10975007, 10975008, 11105005, and 11175002); the Research Fund for the Doctoral Program of Higher Education,
+China (Grant No. 20110001110087); and the China Postdoctoral Science Foundation (Grant No. 2012M520101).

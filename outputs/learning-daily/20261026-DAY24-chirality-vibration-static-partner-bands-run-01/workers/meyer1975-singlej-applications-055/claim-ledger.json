@@ -1,0 +1,72 @@
+[
+  {
+    "id": "MTV75-055-01",
+    "locator": "PDF1\u20133/111\u2013113",
+    "statement": "completejfreedomandBCS1qpstatesbelow2Delta;fixedbetagammaDavydovseriouslimitation;PartIIactualsystematiccomparisons",
+    "needs_review": true,
+    "kind": "direct-source-model-and-bounded-transfer"
+  },
+  {
+    "id": "MTV75-055-02",
+    "locator": "PDF12\u201321/122\u2013131,Eqs2.54\u20132.58Figs4\u20137",
+    "statement": "b=betaA^(2/3),referenceEl\u2212E11/2overhbar\u00b2/(2J0);notnecessarilygroundzero;actualWK22lambdaunresolved",
+    "needs_review": true,
+    "kind": "direct-source-model-and-bounded-transfer"
+  },
+  {
+    "id": "MTV75-055-03",
+    "locator": "PDF13\u201315/123\u2013125,Eqs3.1\u20133.6Figs1\u20133",
+    "statement": "gamma30equalJ2J3givesaxialHamiltonianabout1axisnotaxialshape;coreQs0specialoperatorlimit",
+    "needs_review": true,
+    "kind": "direct-source-model-and-bounded-transfer"
+  },
+  {
+    "id": "MTV75-055-04",
+    "locator": "PDF16\u201321/126\u2013131Figs5\u20137",
+    "statement": "parameterlevelcrossingsandEMstructuredependalsoonbetaandlambda;cannotuniquelyinfergammafromspectrum",
+    "needs_review": true,
+    "kind": "direct-source-model-and-bounded-transfer"
+  },
+  {
+    "id": "MTV75-055-05",
+    "locator": "PDF22\u201323/132\u2013133Figs8\u201310",
+    "statement": "oddneutronlowstateQsnonzeroatgamma30;sourceonlycorechargehere;deltaPrimehasunitsandnoEgammafactor",
+    "needs_review": true,
+    "kind": "direct-source-model-and-bounded-transfer"
+  },
+  {
+    "id": "MTV75-055-06",
+    "locator": "PDF23/133Table2",
+    "statement": "numericdeltasignruleonlysizablelowstates,b>3,lambda<=epsilon2;generalproofnotgiven;notactualWK22signprediction",
+    "needs_review": true,
+    "kind": "direct-source-model-and-bounded-transfer"
+  },
+  {
+    "id": "MTV75-055-07",
+    "locator": "PDF24\u201326/134\u2013136Fig11",
+    "statement": "changingirrotationaltorigidbodylikeinertiaschangeslevelorder/crossings;shapeandMoIjointtest",
+    "needs_review": true,
+    "kind": "direct-source-model-and-bounded-transfer"
+  },
+  {
+    "id": "MTV75-055-08",
+    "locator": "PDF25\u201327/135\u2013137Fig12Eqs3.7\u20133.8",
+    "statement": "approxK/Omegaprojectionsnotgoodquantumnumbers;fixedshape gamma-bandcharacterdoesnotadddynamicgammaphonon",
+    "needs_review": true,
+    "kind": "direct-source-model-and-bounded-transfer"
+  },
+  {
+    "id": "MTV75-055-09",
+    "locator": "PDF27\u201329/137\u2013139Table3Fig13",
+    "statement": "onlyverylowestcomponentsabove50percent;tentaivebandKlabels;largestBpatternnotmainwidthclosure;bandleaking",
+    "needs_review": true,
+    "kind": "direct-source-model-and-bounded-transfer"
+  },
+  {
+    "id": "MTV75-055-10",
+    "locator": "PDF29\u201330/139\u2013140Conclusion",
+    "statement": "sourceauthorssayrigidshapeapproxbetterforparticlecorecouplingthancoremotion;PartIIevidenceclaimnotnewindependentexperimenthere",
+    "needs_review": true,
+    "kind": "direct-source-model-and-bounded-transfer"
+  }
+]

@@ -1,0 +1,572 @@
+{
+  "audit_id": "ce133-crosswalk-audit-080",
+  "day": "Day24",
+  "status": "partial-evidence-audit",
+  "generated_utc": "2026-10-26T19:42:09.305109+00:00",
+  "scope": "Minimal state/edge crosswalk using existing Wiki source pages and tmp artifacts only; no canonical/raw/Git writes.",
+  "sources": [
+    {
+      "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+      "sha256": "002d089331df046de59999c7a141f2df0fccd79fe769f1496ff036618a4f9e1d",
+      "bytes": 29128
+    },
+    {
+      "path": "knowledge/sources/gizon-1974-deformed-states-cerium-neodymium.md",
+      "sha256": "5a4045d67233dbed4e6d805a6fa8afea6a2810eb01bf0ec1869808929b799b51",
+      "bytes": 17722
+    },
+    {
+      "path": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+      "sha256": "d1579b1a1abc7c3fefc16e0013019a3f494eee55539e89371f9a4afdeda3b082",
+      "bytes": 6668
+    },
+    {
+      "path": "knowledge/sources/nndc-2011-133ce-low-level-reference-records.md",
+      "sha256": "24a3b11bacb075d1fadebc867d0dd4868a56775b4611ec1cd86fed106a410eaa",
+      "bytes": 9251
+    },
+    {
+      "path": "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+      "sha256": "e72c200b3f09d4917539f7a527b443bb7c2bd2ef219cb36f5063bcfbe3301b04",
+      "bytes": 65775
+    },
+    {
+      "path": "tmp/day24-gizon1974-ce133-delta-067/page16.txt",
+      "sha256": "cc20b7643989a3d12b33b931048b1ed4ed52d48b159fbd7960317f108da94ace",
+      "bytes": 2615
+    },
+    {
+      "path": "tmp/day24-gizon1974-ce133-delta-067/page17.txt",
+      "sha256": "9297e5add777aa1706e647868f424c326b5dcace61323c352c43b7c1e2f98d58",
+      "bytes": 2593
+    },
+    {
+      "path": "tmp/day24-gizon1974-ce133-delta-067/page18.txt",
+      "sha256": "db891a11286ceae0fb1141899e43207c99fde0757a52755f22609815175d04ff",
+      "bytes": 2573
+    },
+    {
+      "path": "tmp/day24-emediato1997-ce133-rdds-072/page03.txt",
+      "sha256": "92acf9a638a220a8520b10e24f5c0df6a80f1936fe082d75211c516ed52c0314",
+      "bytes": 4996
+    }
+  ],
+  "rules": [
+    "Bind a state only when source/campaign, Ex, Jπ and surrounding links agree; energy proximity alone is a candidate.",
+    "Bind a lifetime only to the measured parent state and mean-τ/T1/2 definition; do not transfer a terminal or neighboring state clock.",
+    "Treat Iγ at 55° (Gizon) and WK22 relative Iγ as non-absolute rates; no B or Cov is invented."
+  ],
+  "states": [
+    {
+      "id": "WK22-B4-832",
+      "source": "WK22",
+      "Ex_keV": 832.0,
+      "Jpi": "13/2−",
+      "band": "Band4",
+      "role": "parent",
+      "evidence": "direct",
+      "locator": "wakudyanaye source lines 50,122; project lines 336-346"
+    },
+    {
+      "id": "WK22-B4-1200.8",
+      "source": "WK22",
+      "Ex_keV": 1200.8,
+      "Jpi": "15/2−",
+      "band": "Band4",
+      "role": "daughter/parent",
+      "evidence": "direct-plus-energy-closure",
+      "locator": "wakudyanaye source line 122; project lines 340-346"
+    },
+    {
+      "id": "WK22-B4-1409.8",
+      "source": "WK22",
+      "Ex_keV": 1409.8,
+      "Jpi": "17/2−",
+      "band": "Band4",
+      "role": "parent",
+      "evidence": "direct",
+      "locator": "wakudyanaye source lines 50,122; project lines 340-346"
+    },
+    {
+      "id": "WK22-B4-1809.1",
+      "source": "WK22",
+      "Ex_keV": 1809.1,
+      "Jpi": "19/2−",
+      "band": "Band4",
+      "role": "parent",
+      "evidence": "direct",
+      "locator": "wakudyanaye source lines 50,122; project lines 343-346"
+    },
+    {
+      "id": "WK22-B1-37.2",
+      "source": "WK22/NNDC",
+      "Ex_keV": 37.2,
+      "Jpi": "9/2−",
+      "band": "Band1/low reference",
+      "role": "daughter",
+      "evidence": "evaluated anchor; thesis decimal is derived",
+      "locator": "nndc source lines 67-70; project line 348"
+    },
+    {
+      "id": "WK22-B1-207.4",
+      "source": "WK22/NNDC",
+      "Ex_keV": 207.4,
+      "Jpi": "11/2−",
+      "band": "Band1/low reference",
+      "role": "daughter",
+      "evidence": "evaluated/direct node",
+      "locator": "nndc source lines 79-83; project lines 336-338"
+    },
+    {
+      "id": "WK22-B1-592.1",
+      "source": "WK22",
+      "Ex_keV": 592.1,
+      "Jpi": "13/2−?",
+      "band": "Band1/low reference",
+      "role": "daughter",
+      "evidence": "derived offset candidate, not independent adopted line",
+      "locator": "project lines 348, 529; source GZ74 lines 73-75"
+    },
+    {
+      "id": "WK22-B1-827.1",
+      "source": "WK22",
+      "Ex_keV": 827.1,
+      "Jpi": "15/2−",
+      "band": "Band1/low reference",
+      "role": "daughter",
+      "evidence": "direct table node",
+      "locator": "project lines 342,345"
+    },
+    {
+      "id": "WK22-B1-1344.7",
+      "source": "WK22",
+      "Ex_keV": 1344.7,
+      "Jpi": "17/2−",
+      "band": "Band1/low reference",
+      "role": "daughter",
+      "evidence": "direct table node",
+      "locator": "project lines 345"
+    }
+  ],
+  "modern_wk22_edges": [
+    {
+      "id": "WK22-E-624.6",
+      "parent": "WK22-B4-832",
+      "daughter": "WK22-B1-207.4",
+      "Egamma_keV": 624.6,
+      "I_gamma": "3.3(4)",
+      "multipolarity": "M1+E2",
+      "delta": "-1.5 +0.97/-5.7",
+      "Ei_Jpi_binding": "yes",
+      "gamma_binding": "direct",
+      "tau_binding": "missing",
+      "denominator": "794.8 out/out candidate; direct same-parent E2 row",
+      "status": "observed-edge; absolute-B blocked by tau/BR/ICC/Cov",
+      "locator": "project lines 336-338; source lines 66-67"
+    },
+    {
+      "id": "WK22-E-794.8",
+      "parent": "WK22-B4-832",
+      "daughter": "WK22-B1-37.2",
+      "Egamma_keV": 794.8,
+      "I_gamma": "8.0(14)",
+      "multipolarity": "E2",
+      "delta": null,
+      "Ei_Jpi_binding": "yes",
+      "gamma_binding": "direct",
+      "tau_binding": "same-parent 832 tau missing",
+      "denominator": "not denominator of 582; reference for 624.6",
+      "status": "observed-reference-candidate",
+      "locator": "project lines 336-339"
+    },
+    {
+      "id": "WK22-E-209.0",
+      "parent": "WK22-B4-1409.8",
+      "daughter": "WK22-B4-1200.8",
+      "Egamma_keV": 209.0,
+      "I_gamma": "5.5(6)",
+      "multipolarity": "M1+E2",
+      "delta": null,
+      "Ei_Jpi_binding": "yes",
+      "gamma_binding": "direct",
+      "tau_binding": "parent 1409.8 tau missing",
+      "denominator": "none in present audit",
+      "status": "observed-edge",
+      "locator": "project lines 340-341"
+    },
+    {
+      "id": "WK22-E-577.8",
+      "parent": "WK22-B4-1409.8",
+      "daughter": "WK22-B4-832",
+      "Egamma_keV": 577.8,
+      "I_gamma": "3.22(21)",
+      "multipolarity": "E2",
+      "delta": null,
+      "Ei_Jpi_binding": "yes",
+      "gamma_binding": "direct",
+      "tau_binding": "same-parent 1409.8 tau missing",
+      "denominator": "out/in reference for 582.7",
+      "status": "observed-reference-candidate",
+      "locator": "project lines 340-342"
+    },
+    {
+      "id": "WK22-E-582.7",
+      "parent": "WK22-B4-1409.8",
+      "daughter": "WK22-B1-827.1",
+      "Egamma_keV": 582.7,
+      "I_gamma": "3.53(25)",
+      "multipolarity": "M1+E2",
+      "delta": "-0.55 +0.12/-0.25",
+      "Ei_Jpi_binding": "yes",
+      "gamma_binding": "direct",
+      "tau_binding": "missing",
+      "denominator": "out/out ΔI=2 reference identity missing; 817.7 energy-only",
+      "status": "observed-edge; 582 out/out blocked",
+      "locator": "project lines 340-342,348,350; source lines 66-67"
+    },
+    {
+      "id": "WK22-E-399.3",
+      "parent": "WK22-B4-1809.1",
+      "daughter": "WK22-B4-1409.8",
+      "Egamma_keV": 399.3,
+      "I_gamma": "1.66(18)",
+      "multipolarity": "M1+E2",
+      "delta": null,
+      "Ei_Jpi_binding": "yes",
+      "gamma_binding": "direct",
+      "tau_binding": "parent 1809.1 tau missing",
+      "denominator": "none in present audit",
+      "status": "observed-edge",
+      "locator": "project lines 343-344"
+    },
+    {
+      "id": "WK22-E-608.3",
+      "parent": "WK22-B4-1809.1",
+      "daughter": "WK22-B4-1200.8",
+      "Egamma_keV": 608.3,
+      "I_gamma": "1.89(18)",
+      "multipolarity": "E2",
+      "delta": null,
+      "Ei_Jpi_binding": "yes",
+      "gamma_binding": "direct-but-overlap",
+      "tau_binding": "missing",
+      "denominator": "out/in reference for 464.4; 608.7 overlap gate",
+      "status": "observed-edge/reference; gate contamination unresolved",
+      "locator": "project lines 343-345; source lines 51,75"
+    },
+    {
+      "id": "WK22-E-464.4",
+      "parent": "WK22-B4-1809.1",
+      "daughter": "WK22-B1-1344.7",
+      "Egamma_keV": 464.4,
+      "I_gamma": "1.89(18)",
+      "multipolarity": "M1+E2",
+      "delta": "-0.17 +0.09/-0.20",
+      "Ei_Jpi_binding": "yes",
+      "gamma_binding": "direct",
+      "tau_binding": "missing",
+      "denominator": "982.0 out/out candidate",
+      "status": "observed-edge; absolute-B blocked",
+      "locator": "project lines 343-346; source lines 66-67"
+    },
+    {
+      "id": "WK22-E-982.0",
+      "parent": "WK22-B4-1809.1",
+      "daughter": "WK22-B1-827.1",
+      "Egamma_keV": 982.0,
+      "I_gamma": "1.95(17)",
+      "multipolarity": "E2",
+      "delta": null,
+      "Ei_Jpi_binding": "yes",
+      "gamma_binding": "direct",
+      "tau_binding": "parent 1809.1 tau missing",
+      "denominator": "out/out candidate for 464.4, producer not verified",
+      "status": "observed-reference-candidate",
+      "locator": "project lines 345-348"
+    }
+  ],
+  "emediato_lifetimes": [
+    {
+      "id": "EM97-170",
+      "gamma_keV": 170,
+      "modern_gamma_keV": 170.2,
+      "transition": "11/2−→9/2−",
+      "tau_mean_ps": "76(3)",
+      "modern_state_binding": "conditional-strong",
+      "reason": "same Jπ and low-family edge; NNDC adopted 207.4→37.2 gives 170.2",
+      "locator": "emediato lines 60,68-82; nndc lines 67-70,79-83"
+    },
+    {
+      "id": "EM97-555",
+      "gamma_keV": 555,
+      "modern_gamma_keV": 554.9,
+      "transition": "13/2−→9/2−",
+      "tau_mean_ps": "7.9(5)",
+      "modern_state_binding": "conditional-family",
+      "reason": "Gizon Table4 edge + modern low-family offset; no WK22 Band4 parent",
+      "locator": "emediato lines 61,68-82; gizon lines 74,161-163"
+    },
+    {
+      "id": "EM97-385",
+      "gamma_keV": 385,
+      "modern_gamma_keV": 384.7,
+      "transition": "13/2−→11/2−",
+      "tau_mean_ps": "7.9(5)",
+      "modern_state_binding": "conditional-family",
+      "reason": "same parent clock as 555; old line and low-family levels",
+      "locator": "emediato lines 61,68-82; gizon page16"
+    },
+    {
+      "id": "EM97-619",
+      "gamma_keV": 619,
+      "modern_gamma_keV": 619.7,
+      "transition": "15/2−→11/2−",
+      "tau_mean_ps": "3.8(8)",
+      "modern_state_binding": "conditional-family",
+      "reason": "Gizon edge; modern 827.1−207.4≈619.7",
+      "locator": "emediato lines 61,68-82; gizon lines 94,161-163"
+    },
+    {
+      "id": "EM97-235",
+      "gamma_keV": 235,
+      "modern_gamma_keV": 234.8,
+      "transition": "15/2−→13/2−",
+      "tau_mean_ps": "3.8(8)",
+      "modern_state_binding": "conditional-family",
+      "reason": "double placement noted; Gizon line may be composite in sideband",
+      "locator": "emediato lines 61,68-82; gizon lines 75,94"
+    },
+    {
+      "id": "EM97-752",
+      "gamma_keV": 752,
+      "modern_gamma_keV": 751.3,
+      "transition": "17/2−→13/2−",
+      "tau_mean_ps": "≤1",
+      "modern_state_binding": "conditional-family",
+      "reason": "upper limit only; historical line assignment not a Band4 parent clock",
+      "locator": "emediato lines 61,68-82; gizon lines 74-75"
+    },
+    {
+      "id": "EM97-517",
+      "gamma_keV": 517,
+      "modern_gamma_keV": 516.7,
+      "transition": "17/2−→15/2−",
+      "tau_mean_ps": "≤1",
+      "modern_state_binding": "conditional-family",
+      "reason": "upper limit only; no transfer to 1409.8/1809.1",
+      "locator": "emediato lines 61,68-82; gizon page16"
+    },
+    {
+      "id": "EM97-763",
+      "gamma_keV": 763,
+      "modern_gamma_keV": 762.6,
+      "transition": "19/2−→15/2−",
+      "tau_mean_ps": "≤1",
+      "modern_state_binding": "conditional-family",
+      "reason": "upper limit only; no modern Band4 parent match",
+      "locator": "emediato lines 61,68-82; gizon page16"
+    }
+  ],
+  "gizon_old_lines": [
+    {
+      "old_E_keV": 624.8,
+      "I55": 3.4,
+      "modern_candidate": 624.6,
+      "candidate": "WK22-E-624.6",
+      "delta_keV": 0.2,
+      "binding": "unresolved",
+      "reason": "Gizon Table4 unassigned; energy-only proximity lacks parent/daughter/gate/Jπ"
+    },
+    {
+      "old_E_keV": 582.2,
+      "I55": 4.7,
+      "modern_candidate": 582.7,
+      "candidate": "WK22-E-582.7",
+      "delta_keV": -0.5,
+      "binding": "unresolved",
+      "reason": "unassigned old line; cannot supply 582 out/out denominator"
+    },
+    {
+      "old_E_keV": 464.6,
+      "I55": 5.2,
+      "modern_candidate": 464.4,
+      "candidate": "WK22-E-464.4",
+      "delta_keV": 0.2,
+      "binding": "unresolved",
+      "reason": "unassigned old line; modern 1809.1 parent not established"
+    },
+    {
+      "old_E_keV": 817.3,
+      "I55": 3.4,
+      "modern_candidate": 817.7,
+      "candidate": "WK22 missing 817.7",
+      "delta_keV": -0.4,
+      "binding": "unresolved",
+      "reason": "old observed line does not upgrade energy-only 817.7; modern 592.1 daughter itself derived"
+    },
+    {
+      "old_E_keV": 577.3,
+      "I55": 7.5,
+      "modern_candidate": 577.8,
+      "candidate": "WK22-E-577.8",
+      "delta_keV": -0.5,
+      "binding": "unresolved",
+      "reason": "nearby but no cross-source parent/gate identity"
+    },
+    {
+      "old_E_keV": 794.7,
+      "I55": 10.8,
+      "modern_candidate": 794.8,
+      "candidate": "WK22-E-794.8",
+      "delta_keV": -0.1,
+      "binding": "unresolved",
+      "reason": "nearby old line; no independent same-gate lineage"
+    },
+    {
+      "old_E_keV": 981.6,
+      "I55": 6.6,
+      "modern_candidate": 982.0,
+      "candidate": "WK22-E-982.0",
+      "delta_keV": -0.4,
+      "binding": "unresolved",
+      "reason": "nearby old line; no parent/daughter/gate identity"
+    },
+    {
+      "old_E_keV": 608.7,
+      "I55": 14.5,
+      "modern_candidate": 608.3,
+      "candidate": "WK22-E-608.3",
+      "delta_keV": 0.4,
+      "binding": "not-bound",
+      "reason": "topology mismatch: Gizon 1163.6→9/2 candidate versus WK22 1809.1→1200.8; overlapping gate explicitly unresolved"
+    }
+  ],
+  "arithmetic": {
+    "modern_edge_closures_keV": [
+      {
+        "expr": "832.0-207.4",
+        "value": 624.6
+      },
+      {
+        "expr": "832.0-37.2",
+        "value": 794.8
+      },
+      {
+        "expr": "1409.8-1200.8",
+        "value": 209.0
+      },
+      {
+        "expr": "1409.8-832.0",
+        "value": 577.8
+      },
+      {
+        "expr": "1409.8-827.1",
+        "value": 582.7
+      },
+      {
+        "expr": "1809.1-1409.8",
+        "value": 399.3
+      },
+      {
+        "expr": "1809.1-1200.8",
+        "value": 608.3
+      },
+      {
+        "expr": "1809.1-1344.7",
+        "value": 464.4
+      },
+      {
+        "expr": "1809.1-827.1",
+        "value": 982.0
+      },
+      {
+        "expr": "1409.8-592.1",
+        "value": 817.7
+      }
+    ],
+    "historical_offset_37p2_keV": [
+      {
+        "expr": "170.0+37.2",
+        "value": 207.2,
+        "modern": 207.4,
+        "residual": -0.2
+      },
+      {
+        "expr": "554.9+37.2",
+        "value": 592.1,
+        "modern": "592.1 derived",
+        "residual": 0.0
+      },
+      {
+        "expr": "789.7+37.2",
+        "value": 826.9,
+        "modern": 827.1,
+        "residual": -0.2
+      },
+      {
+        "expr": "1306.3+37.2",
+        "value": 1343.5,
+        "modern": 1344.7,
+        "residual": -1.2
+      },
+      {
+        "expr": "1163.6+37.2",
+        "value": 1200.8,
+        "modern": 1200.8,
+        "residual": 0.0
+      }
+    ],
+    "old_to_modern_candidate_deltas_keV": [
+      {
+        "old": 624.8,
+        "modern": 624.6,
+        "delta": 0.2
+      },
+      {
+        "old": 582.2,
+        "modern": 582.7,
+        "delta": -0.5
+      },
+      {
+        "old": 464.6,
+        "modern": 464.4,
+        "delta": 0.2
+      },
+      {
+        "old": 817.3,
+        "modern": 817.7,
+        "delta": -0.4
+      },
+      {
+        "old": 577.3,
+        "modern": 577.8,
+        "delta": -0.5
+      },
+      {
+        "old": 794.7,
+        "modern": 794.8,
+        "delta": -0.1
+      },
+      {
+        "old": 981.6,
+        "modern": 982.0,
+        "delta": -0.4
+      },
+      {
+        "old": 608.7,
+        "modern": 608.3,
+        "delta": 0.4
+      }
+    ]
+  },
+  "unresolved": [
+    "WK22 Band4 parent lifetimes τ for 832.0/1409.8/1809.1 are absent; Emediato 1997 clocks cannot be transplanted by nearby Eγ or Jπ.",
+    "The 817.7 keV 1409.8→592.1 out/out denominator is energy-only; no observed line/Iγ/parent-daughter gate is present.",
+    "The 582 out/out ΔI=2 denominator identity remains missing; Gizon 582.2 is unassigned and cannot fill it.",
+    "Old 624.8/582.2/464.6/817.3 (plus 577.3/794.7/981.6) remain unresolved cross-campaign lines despite sub-keV proximity.",
+    "Gizon 1163.6/608.7 is a historical side-state candidate; its Jπ/topology does not bind to WK22 1200.8/608.3, and the 608 gate is explicitly overlapping.",
+    "Gizon sideband ≤3 ns is a feeding/sideband statement, not independent τ for modern Band4 parents.",
+    "Absolute B requires parent τ plus complete branch/ICC/response/Cov; current audit does not produce absolute transition strengths."
+  ],
+  "conclusion": "The low negative 170/555/385/619/235/752/517/763 Emediato clocks can be retained as conditional same-family clocks when exact Ei/Jπ/γ and source lineage are kept. None closes a WK22 Band4 parent τ. The nine WK22 edges are source-bound at the level of Ex/Jπ/γ, but 582 out/out and 817.7 remain open."
+}

@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-26T14:49:33.931174+00:00",
+  "url": "https://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download",
+  "transport": "single authorized HTTP/1.1 retry after priorcurl52; no newroute",
+  "curl_exit": 52,
+  "metadata": "000\thttps://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download\t",
+  "error": "curl: (52) Empty reply from server",
+  "prior_failure_record_preserved": "body-route2.json"
+}

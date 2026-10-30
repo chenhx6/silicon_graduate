@@ -1,0 +1,12 @@
+{
+  "key": "tohoku-root",
+  "url": "https://tohoku.repo.nii.ac.jp/",
+  "curl_exit": 0,
+  "metadata": "200\thttps://tohoku.repo.nii.ac.jp/\ttext/html; charset=utf-8",
+  "error": "",
+  "bytes": 145494,
+  "sha256": "f0abcb36c00eaa36d0ed864f4bedd43858fc62cfcacc1dc084d39f0df08bd912",
+  "pdf_signature": false,
+  "text_excerpt": "\u6771\u5317\u5927\u5b66\u6a5f\u95a2\u30ea\u30dd\u30b8\u30c8\u30eaTOUR \u30ed\u30b0\u30a4\u30f3 Language: Language: WEKO3 \u30c8\u30c3\u30d7 \u30e9\u30f3\u30ad\u30f3\u30b0 \u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9 \u691c\u7d22 Advanced \u9589\u3058\u308b \u5168\u6587 \u30ad\u30fc\u30ef\u30fc\u30c9 [[key_option.contents]] To lat lon distance [[sub_sel_option.contents]] [[sub_check.contents]] [[sub_check.contents]] [[sub_radio.contents]] \u958b\u59cb\u65e5 To \u7d42\u4e86\u65e5 Field does not validate [[sub_attr.contents]] \u691c\u7d22\u6761\u4ef6\u8ffd\u52a0 \u691c\u7d22 \u30af\u30ea\u30a2 \u30e1\u30cb\u30e5\u30fc\u3092\u6700\u5c0f\u5316 \u30a4\u30f3\u30c7\u30c3\u30af\u30b9\u30ea\u30f3\u30af \u30a4\u30f3\u30c7\u30c3\u30af\u30b9\u30c4\u30ea\u30fc is_permission is_login \u30a2\u30a4\u30c6\u30e0\u30ea\u30b9\u30c8 Export Checked Items Export All Displayed Items Export All Items Of This Index Print Checked Items Print All Displayed Items Print All Items Of This Index \u5b9f\u884c \u30a8\u30af\u30b9\u30dd\u30fc\u30c8 \u8868\u793a\u9806 Title(Ascending) Title(Descending) Registrant(Ascending) Registrant(Descending) Item Types(Asending) Item Types(Descending) ID(Ascending) ID(Descending) Modified Date and Time(Ascending) Modified Date and Time(Descending) Created Date and Time(Ascending) Created Date and Time(Descending) Review Date and Time(Ascending) Review Date and Time(Descending) Published Year(Ascending) Published Year(Descending) Custom(Ascending) Custom(Descending) Relevance(Ascending) Relevance(Descending) \u8868\u793a\u9806: \u8868\u793a\u6570 Powered by WEKO3 Powered by WEKO3",
+  "candidate_links": []
+}

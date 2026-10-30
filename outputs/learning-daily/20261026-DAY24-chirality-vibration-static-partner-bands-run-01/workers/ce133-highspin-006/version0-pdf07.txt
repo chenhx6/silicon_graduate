@@ -1,0 +1,66 @@
+                                                                                                     6
+
+
+
+
+  ∗Present address: Nuclear Physics Division, Bhabha Atomic Research Centre (BARC), Mumbai 400085, India
+ [1] S.   Frauendorf   and    J.   Meng,    Nucl.   Phys.  A   617,    131       (1997),   ISSN   0375-9474,  URL
+    http://www.sciencedirect.com/science/article/pii/S0375947497000043.
+ [2] V.    I.   Dimitrov,    S.   Frauendorf,   and   F.   D¨onau,   Phys.   Rev.   Lett.   84,   5732   (2000),  URL
+    http://link.aps.org/doi/10.1103/PhysRevLett.84.5732.
+ [3] S. Frauendorf, Rev. Mod. Phys. 73, 463 (2001), URL http://link.aps.org/doi/10.1103/RevModPhys.73.463.
+ [4] J.  Meng   and   S.   Q.   Zhang,    J.   Phys.   G:   Nucl.   Part.   Phys.   37,    064025   (2010),  URL
+    http://iopscience.iop.org/0954-3899/37/6/064025.
+ [5] J. Meng, Int. J. Mod. Phys. E 20, 341 (2011), ISSN 02183013.
+ [6] C.  M.  Petrache,  D.  Bazzacco,   S.  Lunardi,  C.  R.  Alvarez,  G.  de  Angelis,  M.  D.   Poli,  D.  Bu-
+     curescu,  C.  Ur,  P.  B.  Semmes,  and  R.  Wyss,  Nucl.  Phys. A  597,  106    (1996),  ISSN  0375-9474, URL
+    http://www.sciencedirect.com/science/article/pii/0375947495004165.
+ [7] K. Starosta, T. Koike, C. J. Chiara, D. B. Fossan, D. R. LaFosse, A. A. Hecht, C. W. Beausang, M. A. Caprio, J. R. Cooper,
+    R. Kr¨ucken, et al., Phys. Rev. Lett. 86, 971 (2001), URL http://link.aps.org/doi/10.1103/PhysRevLett.86.971.
+ [8] T. Koike, K. Starosta, C. J. Chiara, D. B. Fossan, and D. R. LaFosse, Phys. Rev. C 63, 061304 (2001), URL
+    http://link.aps.org/doi/10.1103/PhysRevC.63.061304.
+ [9] A.  A.  Hecht,  C. W.  Beausang,  K.  E.  Zyromski,  D.  L.  Balabanski,  C.  J.  Barton,  M.  A.  Caprio,  R.  F.
+    Casten,   J.  R.  Cooper,  D.  J.  Hartley,  R.  Kr¨ucken,   et   al.,  Phys.  Rev. C  63,  051302  (2001),  URL
+    http://link.aps.org/doi/10.1103/PhysRevC.63.051302.
+[10] D.   J.  Hartley,   L.  L.  Riedinger,  M.  A.   Riley,  D.  L.  Balabanski,   F.  G.  Kondev,  R.  W.  Laird,
+     J.  Pfohl,  D.  E.  Archer,  T.  B.  Brown,  R. M.  Clark,  et   al.,  Phys.  Rev. C  64,  031304  (2001), URL
+    http://link.aps.org/doi/10.1103/PhysRevC.64.031304.
+[11] S. Zhu, U. Garg, B. K. Nayak, S. S. Ghugre, N. S. Pattabiraman, D. B. Fossan, T. Koike, K. Starosta, C. Vaman, R. V. F.
+    Janssens, et al., Phys. Rev. Lett. 91, 132501 (2003), URL http://link.aps.org/doi/10.1103/PhysRevLett.91.132501.
+[12] T. Koike, K. Starosta, C. J. Chiara, D. B. Fossan, and D. R. LaFosse, Phys. Rev. C 67, 044319 (2003), URL
+    http://link.aps.org/doi/10.1103/PhysRevC.67.044319.
+[13] C. Vaman, D. B. Fossan, T. Koike, K. Starosta, I. Y. Lee, and A. O. Macchiavelli, Phys. Rev. Lett. 92, 032501 (2004),
+   URL http://link.aps.org/doi/10.1103/PhysRevLett.92.032501.
+[14] P.  Joshi,  D.  G.  Jenkins,  P. M.  Raddon,  A.  J.  Simons,  R.  Wadsworth,  A.  R.  Wilkinson,  D.  B.  Fos-
+     san,  T.  Koike,  K.  Starosta,  C. Vaman,  et  al.,  Phys.  Lett. B  595,  135    (2004),  ISSN  0370-2693, URL
+    http://www.sciencedirect.com/science/article/pii/S0370269304008810.
+[15] J. A.  Alc´antara-N´u˜nez,  J. R. B.  Oliveira,  E. W. Cybulska, N. H. Medina, M. N. Rao, R. V. Ribas, M. A.
+    Rizzutto, W. A.  Seale,  F.  Falla-Sotelo,  K.  T. Wiedemann,  et  al.,  Phys. Rev. C  69,  024317  (2004), URL
+    http://link.aps.org/doi/10.1103/PhysRevC.69.024317.
+[16] J.  Tim´ar,  P.  Joshi,  K.  Starosta,  V.   I.  Dimitrov,  D.  B.  Fossan,   J.  Moln´ar,  D.  Sohler,  R.  Wadsworth,
+    A.   Algora,   P.  Bednarczyk,    et    al.,   Phys.   Lett.  B  598,   178      (2004),   ISSN   0370-2693,  URL
+    http://www.sciencedirect.com/science/article/pii/S0370269304011402.
+[17] P. Joshi, M. P. Carpenter, D. B. Fossan, T. Koike, E. S. Paul, G. Rainovski, K. Starosta, C. Vaman, and R. Wadsworth,
+    Phys. Rev. Lett. 98, 102501 (2007), URL http://link.aps.org/doi/10.1103/PhysRevLett.98.102501.
+[18] S.  Y.  Wang,   B.   Qi,   L.   Liu,   S.  Q.  Zhang,   H.  Hua,   X.  Q.   Li,   Y.  Y.  Chen,   L.  H.  Zhu,
+     J.  Meng,   S.  M.  Wyngaardt,   et    al.,   Phys.   Lett.  B  703,   40     (2011),  ISSN   0370-2693,  URL
+    http://www.sciencedirect.com/science/article/pii/S0370269311008598.
+[19] D.  L.  Balabanski,  M.  Danchev,  D.  J.  Hartley,  L.  L.  Riedinger,  O.  Zeidan,   J.-y.  Zhang,  C.  J.  Bar-
+     ton,  C. W.  Beausang,  M.  A.  Caprio,  R.  F.  Casten,  et   al.,  Phys.  Rev. C  70,  044305  (2004), URL
+    http://link.aps.org/doi/10.1103/PhysRevC.70.044305.
+[20] E. Lawrie, P. A. Vymers, J. J. Lawrie, C. Vieu, R. A. Bark, R. Lindsay, C. J. Barton, G. K. Mabala, S. M. Maliage, P. L.
+    Masiteng, et al., Phys. Rev. C 78, 021305(R) (2008), URL http://link.aps.org/doi/10.1103/PhysRevC.78.021305.
+[21] J. Peng, J. Meng, and S. Q. Zhang, Phys. Rev. C 68, 044324 (2003).
+[22] S.  Q.  Zhang,   B.   Qi,   S.  Y.  Wang,   and   J.  Meng,   Phys.  Rev.  C   75,   044307   (2007),  URL
+    http://link.aps.org/doi/10.1103/PhysRevC.75.044307.
+[23] B. Qi, S. Q. Zhang, J. Meng, S. Y. Wang, and S. Frauendorf, Phys. Lett. B 675, 175  (2009), ISSN 0370-2693, URL
+    http://www.sciencedirect.com/science/article/pii/S0370269309003979.
+[24] P.  Olbratowski,  J.  Dobaczewski,  J. Dudek,  and W. Pl´ociennik,  Phys.  Rev.  Lett.  93,  052501  (2004), URL
+    http://link.aps.org/doi/10.1103/PhysRevLett.93.052501.
+[25] P.   Olbratowski,    J.   Dobaczewski,   and    J.   Dudek,   Phys.   Rev.  C   73,   054308   (2006),  URL
+    http://link.aps.org/doi/10.1103/PhysRevC.73.054308.
+[26] S. Mukhopadhyay, D. Almehed, U. Garg, S. Frauendorf, T. Li, P. V. M. Rao, X. Wang, S. S. Ghugre, M. P. Carpenter,
+     S. Gros, et al., Phys. Rev. Lett. 99, 172501 (2007), URL http://link.aps.org/doi/10.1103/PhysRevLett.99.172501.
+[27] D.   Almehed,    F.   D¨onau,   and    S.   Frauendorf,    Phys.   Rev.  C   83,    054308    (2011),   URL
+    http://link.aps.org/doi/10.1103/PhysRevC.83.054308.
+[28] J.  Meng,   J.  Peng,   S.  Q.  Zhang,  and  Shan-Gui  Zhou,   Phys.  Rev. C  73,   037303   (2006),  URL

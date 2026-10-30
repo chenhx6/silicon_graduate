@@ -1,0 +1,20 @@
+{
+  "kind": "conditional-local-TAC-limit-check-not-collective-producer",
+  "source": "arxiv1809.04418v2 PDF5 Eqs7\u20138, PDF7 Q0/gamma inputs",
+  "inputs": {
+    "Q0_eb": 1.0,
+    "gamma_deg": -30,
+    "thetaJ_deg": 90,
+    "phiJ_deg": 90
+  },
+  "Q20_eb": 0.8660254037844387,
+  "Q22_eb": -0.3535533905932737,
+  "B_E2_I_to_I_minus_2_e2b2": 0.0497359197162173,
+  "B_E2_I_to_I_minus_1_e2b2": 3.729596607204081e-34,
+  "exact_E2_deltaI2_limit": "5/(32*pi) e2b2",
+  "limits": [
+    "Local principal-axis TAC limit only; not a collective average or a new fitted plateau",
+    "M1 zero at this orientation additionally requires no transverse intrinsic magnetic moment, as in the aligned-model solution",
+    "Nonzero probability spread requires the full integration, not inserting effective angles into this local formula"
+  ]
+}

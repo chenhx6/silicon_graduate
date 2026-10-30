@@ -1,0 +1,12 @@
+{
+  "key": "elsevier-crossref-link",
+  "url": "https://api.elsevier.com/content/article/PII:S0375947400006631?httpAccept=text/xml",
+  "curl_exit": 0,
+  "metadata": "200\thttps://api.elsevier.com/content/article/PII:S0375947400006631?httpAccept=text/xml\ttext/xml;charset=UTF-8",
+  "error": "",
+  "bytes": 1789,
+  "sha256": "3ea0dc691a86e37b9bf2ff46dff3bdca4e59e96175524c2ca7ef61782c6659fb",
+  "pdf_signature": false,
+  "text_excerpt": "https://api.elsevier.com/content/article/pii/S0375947400006631 doi:10.1016/S0375-9474(00)00663-1 1-s2.0-S0375947400006631 10.1016/S0375-9474(00)00663-1 S0375-9474(00)00663-1 Chirality in odd\u2013odd triaxial nuclei Nuclear Physics A Journal 03759474 2001-02-12 12 February 2001 0 false false",
+  "candidate_links": []
+}

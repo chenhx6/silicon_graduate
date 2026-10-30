@@ -1,0 +1,74 @@
+{
+  "kind": "root-original-reading-discrete-scope",
+  "observed_at": "2026-10-27T01:27:55.563529+08:00",
+  "body": "tmp/day24-bengtsson1985-046/attachment-object-response.pdf",
+  "sha256": "605e785734279f1a7a6dfd234f1d3ff6b136f983b134ccf9d6b766f3b027d6b8",
+  "text_pages": [
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ],
+  "visual_pages": [
+    49,
+    50,
+    51,
+    53,
+    54,
+    55,
+    57,
+    59,
+    60,
+    62,
+    63,
+    65
+  ],
+  "figures": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "tables": [
+    4
+  ],
+  "formulas": [
+    33
+  ],
+  "new_model_or_experimental_results": false,
+  "code_producer_run": false,
+  "same_day24": true,
+  "formal_credit_changed": false,
+  "reader_source_scopes": {
+    "048": "PDF1–16 fullmethods",
+    "049": "PDF17–46 continuumapplications",
+    "050root": "PDF47–69 discrete/general/refs"
+  },
+  "combined_mainline_complete_not_numerical_replay": true
+}

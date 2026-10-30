@@ -1,0 +1,51 @@
+                                                                                                      week ending
+PRL 110, 172504 (2013)         P H Y S I C A L R E V I E W  L E T T E R S                        26 APRIL 2013
+
+transitions was deduced from the normalized ratios of    bands 5–6 in 133Ce (see discussion below) provides further
+  -ray intensities in the detectors at forward angles to the    credence to these bands being chiral as well.
+intensities in the detectors at angles centered around 90  .       Calculations based on a combination of the constrained
+This band forms a chiral pair with band 5 and decays into     triaxial RMF theory [28–30] and the TPRM [22,23] have
+it via a number of strong   I ¼ 1 and some weak   I ¼ 2    been performed to investigate the nature of the observed
+transitions. The M1=E2 character of the 711 and 779 keV     pairs of coupled bands and the presence of M D phenome-
+interconnecting transitions was again deduced from an   non in 133Ce. The potential-energy surface in the   -  plane
+angular-distribution analysis wherein the A2=A0  ratios    for 133Ce obtained from the RMF calculations with the
+were determined to be   ð0:622   0:013Þ and  ð0:7312      parameter set PK1 [41] indicates that the calculated ground
+0:032Þ, respectively. In addition, the DCO ratios for the     state of 133Ce is triaxial (  2 ¼ 0:20,  ¼ 11 ) and is soft
+1074 and 1146 keV transitions were found to be consistent    with respect to the   degree of freedom. By minimizing the
+with a stretched-E2 character [39]. These results establish    energy with respect to the deformation   , both the adiabatic
+that band 6 has the same (negative) parity as band 5.    and conﬁguration-ﬁxed  -constrained RMF calculations for
+Combined with the presence of strong interconnecting    133Ce have been performed for various low-lying particle-
+transitions,  this observation also points to both bands    hole excitations; the results are provided in Fig. 3. The
+having the same intrinsic conﬁguration.                      conﬁguration, parity, deformation, and energy information
+  The standard ﬁngerprints  for  chiral bands  outlined    for the calculated ground state (labeled A in Fig. 3), as well
+in Ref. [40],  i.e., close excitation energies, a constant    as for states ‘‘a’’ and ‘‘b’’ (regarded as bandheads of bands 2
+staggering parameter, SðIÞ, and a similar behavior of the    and 5, respectively), are presented in Table I and compared
+BðM1Þ=BðE2Þ ratios, are evident for both chiral pairs in    with the experimental bandhead energies, and spins and
+Fig. 2. Thus, there are two pairs of composite chiral part-     parities I  of the respective bands. The observed bandhead
+ners, bands 2–3 and bands 5–6, in the same nucleus. This is    energies are reproduced reasonably well.
+the ﬁrst instance of strong evidence for more than one set       In order to examine the formation of chiral structures
+of chiral-partner bands in any nucleus. It should be pointed    based on conﬁgurations a and b, the deformation parameters
+out that important conﬁrmation of the chiral nature  is      and   obtained from the RMF calculations were used as
+provided by the measurement of transition probabilities    inputs to the TPRM calculations [23,42]. The moment of
+in the two bands, as was clearly established in the case of     inertia of the rotor was adjusted to the experimental energies
+the chiral bands in 135Nd [26]. Although lifetime measure-    and the calculation of the electromagnetic transition proba-
+ments were not feasible for bands reported here, the iden-     bilities followed the process described in Refs. [23,42].
+tical conﬁguration of the chiral band pair in 135Nd and     The   ð1h11=2Þ2    ð1h11=2Þ  1 quasiparticle conﬁgura-
+                                                                tion assigned to band 5 is due to the rotational alignment
+                                                            of a pair of h11=2 protons coupled to an h11=2 neutron hole
+                                                                    after band crossing. A similar observation was made in
+                                                           Ref. [33], but the conﬁguration of the band was suggested
+                                                                to be associated with a stable prolate axial ( ¼ 0 ) shape.
+
+
+
+
+
+                                                            FIG. 3  (color  online).  Potential-energy curves  in  adiabatic
+FIG. 2 (color online).  Experimental excitation energies, SðIÞ    (open  circles) and various conﬁguration-ﬁxed   -constrained
+parameters, and BðM1Þ=BðE2Þ  ratios for the negative-parity     (solid and dashed curves) RMF calculations with the parameters
+chiral doublet (left panels) and positive-parity chiral doublet     set PK1 [41] for 133Ce. The energy minima are represented as
+(right panels) in 133Ce. Also shown are results of TPRM calcu-     stars. The letters A, a, and b denote the calculated ground state,
+lations with the indicated attenuation factors   (see text).        Band 2, and Band 5, respectively.
+
+                                               172504-3

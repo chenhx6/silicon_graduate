@@ -1,0 +1,23 @@
+{
+  "url": "https://arxiv.org/pdf/1609.06967v2",
+  "curl_exit": 0,
+  "metadata": "200\thttps://arxiv.org/pdf/1609.06967v2\tapplication/pdf",
+  "error": "",
+  "bytes": 6543288,
+  "sha256": "158efcad3d6f9c69ec61ee3a427ace3aa54ba0e6be7dfbb6419226f3078332be",
+  "pdf_signature": true,
+  "pages": 30,
+  "pdf_metadata": {
+    "format": "PDF 1.5",
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "LaTeX with hyperref package",
+    "producer": "pdfTeX-1.40.12",
+    "creationDate": "D:20220303071302Z",
+    "modDate": "D:20220303071302Z",
+    "trapped": "",
+    "encryption": null
+  }
+}

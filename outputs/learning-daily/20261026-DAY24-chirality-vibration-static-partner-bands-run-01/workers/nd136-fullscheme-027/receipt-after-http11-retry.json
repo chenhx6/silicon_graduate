@@ -1,0 +1,1207 @@
+{
+  "status": "staged-stopped-body0-after-two-routes-and-one-authorized-HTTP11-retry",
+  "saved_utc": "2026-10-26T14:46:47.273983+00:00",
+  "whole_source_unit_complete": false,
+  "identity": {
+    "title": "Evolution from gamma-soft to stable triaxiality in136Nd as a prerequisite of chirality",
+    "authors_first": "B.F.Lv",
+    "journal": "Physical Review C",
+    "volume": 98,
+    "article": "044304",
+    "year": 2018,
+    "doi": "10.1103/PhysRevC.98.044304",
+    "publication_date": "2018-10-05"
+  },
+  "existing_source_or_raw_exact_article_found": false,
+  "search_boundary": "scoped knowledge/source references and raw filenames; scoped tmpday23originals/theses filenames; not exhaustive unnamed-file search",
+  "target_body_obtained": false,
+  "target_PDF_signature_verified": false,
+  "body_reading": {
+    "pages": 0,
+    "figures": 0,
+    "tables": 0,
+    "equations": 0
+  },
+  "body_routes_used": 2,
+  "route1": "APS directPDF403 challenge/nonPDF",
+  "route2": "JYX institutional record200, linked explicitpublisherPDFdownload curl52 emptyreplyHTTP000",
+  "metadata_discovery_queries": 3,
+  "new_download_route_opened_after_leader_steering": false,
+  "D5_D5C_branch_delta_absolute_B_completeness": "unknown-from-body",
+  "39_detector_angle_group_active_counts_contract": "unknown-from-body",
+  "same_selected_events_or_producer_as_PE18_LV19": "not_established",
+  "same_campaign_or_full_unpublished_Ref34_identity": "metadata/provenancecandidateonly; exactbody/referencecrosswalknotverified",
+  "staged_result": "Exactarticleidentity and validinstitutionaldownloadlink recorded; sciencequestionsremainopen",
+  "records": [
+    {
+      "file": "crossref.json",
+      "record": {
+        "url": "https://api.crossref.org/works/10.1103/PhysRevC.98.044304",
+        "curl_exit": 0,
+        "metadata": "200\thttps://api.crossref.org/works/10.1103/PhysRevC.98.044304\tapplication/json",
+        "error": "",
+        "bytes": 20711,
+        "sha256": "6aa5cb19d38d22d0a8afe02d23e8b11914ca6373f36c3be531bd7ac5da3be486",
+        "identity": {
+          "title": [
+            "Evolution from \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mi>γ</mml:mi></mml:math>\n-soft to stable triaxiality in \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mmultiscripts><mml:mi>Nd</mml:mi><mml:mprescripts/><mml:none/><mml:mn>136</mml:mn></mml:mmultiscripts></mml:math>\n as a prerequisite of chirality"
+          ],
+          "DOI": "10.1103/physrevc.98.044304",
+          "author": [
+            {
+              "given": "B. F.",
+              "family": "Lv",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "C. M.",
+              "family": "Petrache",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "A.",
+              "family": "Astier",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "E.",
+              "family": "Dupont",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "A.",
+              "family": "Lopez-Martens",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "P. T.",
+              "family": "Greenlees",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "H.",
+              "family": "Badran",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "T.",
+              "family": "Calverley",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "D. M.",
+              "family": "Cox",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "T.",
+              "family": "Grahn",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J.",
+              "family": "Hilton",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "R.",
+              "family": "Julin",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "S.",
+              "family": "Juutinen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J.",
+              "family": "Konki",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "M.",
+              "family": "Leino",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J.",
+              "family": "Pakarinen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "P.",
+              "family": "Papadakis",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J.",
+              "family": "Partanen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "P.",
+              "family": "Rahkila",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "M.",
+              "family": "Sandzelius",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J.",
+              "family": "Saren",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "C.",
+              "family": "Scholey",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J.",
+              "family": "Sorri",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "S.",
+              "family": "Stolze",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J.",
+              "family": "Uusitalo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "A.",
+              "family": "Herzán",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "B.",
+              "family": "Cederwall",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "A.",
+              "family": "Ertoprak",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "H.",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "S.",
+              "family": "Guo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "M. L.",
+              "family": "Liu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Y. H.",
+              "family": "Qiang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J. G.",
+              "family": "Wang",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "X. H.",
+              "family": "Zhou",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "I.",
+              "family": "Kuti",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J.",
+              "family": "Timár",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "A.",
+              "family": "Tucholski",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "J.",
+              "family": "Srebrny",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "C.",
+              "family": "Andreoiu",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ],
+          "volume": "98",
+          "article-number": "044304",
+          "published": {
+            "date-parts": [
+              [
+                2018,
+                10,
+                5
+              ]
+            ]
+          },
+          "link": [
+            {
+              "URL": "https://link.aps.org/article/10.1103/PhysRevC.98.044304",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "syndication"
+            },
+            {
+              "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.98.044304/fulltext",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "arxiv-discovery.json",
+      "record": {
+        "url": "https://export.arxiv.org/api/query?search_query=doi:%2210.1103/PhysRevC.98.044304%22&max_results=3",
+        "curl_exit": 0,
+        "metadata": "200\thttps://export.arxiv.org/api/query?search_query=doi:%2210.1103/PhysRevC.98.044304%22&max_results=3\tapplication/atom+xml; charset=utf-8",
+        "error": "",
+        "bytes": 739,
+        "sha256": "940c8608eda31d2fda41b7ec3bfe4202a52d16743ede977c3f4d2472760290d7",
+        "entries": []
+      }
+    },
+    {
+      "file": "openalex.json",
+      "record": {
+        "url": "https://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.98.044304",
+        "curl_exit": 0,
+        "metadata": "200\thttps://api.openalex.org/works/https://doi.org/10.1103/PhysRevC.98.044304\tapplication/json",
+        "error": "",
+        "bytes": 83215,
+        "sha256": "1421c853e992c5480f8a666148fff41d1bedb4a952385d1bdd07300a3f99fa5a",
+        "title": "Evolution from γ -soft to stable triaxiality in Nd136 as a prerequisite of chirality",
+        "locations": [
+          {
+            "id": "doi:10.1103/physrevc.98.044304",
+            "doi": "https://doi.org/10.1103/physrevc.98.044304",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1103/physrevc.98.044304",
+            "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevC.98.044304",
+            "source": {
+              "id": "https://openalex.org/S4210168441",
+              "display_name": "Physical Review C",
+              "issn_l": "0556-2813",
+              "issn": [
+                "0556-2813",
+                "1089-490X",
+                "1538-4497",
+                "2469-9985",
+                "2469-9993",
+                "2470-0002"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "anvur-scientific",
+                "cwts-core",
+                "dongbi-a",
+                "jufo-2",
+                "ki-jl-1",
+                "norway-1",
+                "poland-140",
+                "russia-white-list-1",
+                "vabb-shw"
+              ],
+              "host_organization": "https://openalex.org/P4310320261",
+              "host_organization_name": "American Physical Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320261"
+              ],
+              "host_organization_lineage_names": [
+                "American Physical Society"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Physical Review C",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:ir.lzu.edu.cn/:262010/267877",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "http://ir.lzu.edu.cn/handle/262010/267877",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4406923049",
+              "display_name": "Lanzhou University Institutional Repository",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "期刊论文"
+          },
+          {
+            "id": "pmh:oai:ir.lzu.edu.cn/:262010/279940",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "http://ir.lzu.edu.cn/handle/262010/279940",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4406923049",
+              "display_name": "Lanzhou University Institutional Repository",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "Article"
+          },
+          {
+            "id": "pmh:oai:ir.lzu.edu.cn/:262010/291499",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "http://ir.lzu.edu.cn/handle/262010/291499",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4406923049",
+              "display_name": "Lanzhou University Institutional Repository",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "Article"
+          },
+          {
+            "id": "pmh:oai:ir.lzu.edu.cn/:262010/300182",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "http://ir.lzu.edu.cn/handle/262010/300182",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4406923049",
+              "display_name": "Lanzhou University Institutional Repository",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "Article"
+          },
+          {
+            "id": "pmh:oai:ir.lzu.edu.cn/:262010/366680",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "http://ir.lzu.edu.cn/handle/262010/366680",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4406923049",
+              "display_name": "Lanzhou University Institutional Repository",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "Article"
+          },
+          {
+            "id": "pmh:oai:repozytorium.uw.edu.pl:item/106616",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "https://repozytorium.uw.edu.pl//handle/item/106616",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407064745",
+              "display_name": "ReIn UW (University of Warsaw)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I4654613",
+              "host_organization_name": "University of Warsaw",
+              "host_organization_lineage": [
+                "https://openalex.org/I4654613"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "artykuł w czasopiśmie"
+          },
+          {
+            "id": "pmh:oai:HAL:hal-01902985v1",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://hal.science/hal-01902985",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306402512",
+              "display_name": "HAL",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I4405252976",
+              "host_organization_name": "Centre pour la Communication Scientifique Directe",
+              "host_organization_lineage": [
+                "https://openalex.org/I4405252976"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Physical Review C, 2018, 98 (4), pp.044304. &#x27E8;10.1103/PhysRevC.98.044304&#x27E9;",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:inspirehep.net:1697773",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "http://cds.cern.ch/record/2657138",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306402195",
+              "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I67311998",
+              "host_organization_name": "European Organization for Nuclear Research",
+              "host_organization_lineage": [
+                "https://openalex.org/I67311998"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": null
+          },
+          {
+            "id": "pmh:oai:jyx.jyu.fi:123456789/60029",
+            "doi": null,
+            "is_oa": true,
+            "landing_page_url": "http://urn.fi/URN:NBN:fi:jyu-201810224470",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400563",
+              "display_name": "Jyväskylä University Digital Archive (University of Jyväskylä)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I94722563",
+              "host_organization_name": "University of Jyväskylä",
+              "host_organization_lineage": [
+                "https://openalex.org/I94722563"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "research article"
+          },
+          {
+            "id": "pmh:oai:lup.lub.lu.se:4a9f815b-7079-4a57-bcfb-f642389fa13f",
+            "doi": null,
+            "is_oa": false,
+            "landing_page_url": "https://lup.lub.lu.se/record/4a9f815b-7079-4a57-bcfb-f642389fa13f",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400536",
+              "display_name": "Lund University Publications (Lund University)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I187531555",
+              "host_organization_name": "Lund University",
+              "host_organization_lineage": [
+                "https://openalex.org/I187531555"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "ISSN: 2469-9985",
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ],
+        "oa": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevC.98.044304",
+          "any_repository_has_fulltext": true
+        }
+      }
+    },
+    {
+      "file": "body-route1.json",
+      "record": {
+        "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.98.044304",
+        "curl_exit": 0,
+        "metadata": "403\thttps://journals.aps.org/prc/pdf/10.1103/PhysRevC.98.044304\ttext/html; charset=UTF-8",
+        "error": "",
+        "bytes": 5498,
+        "sha256": "137b037a564f35b9662fe5ec5092997967248014da89e333ebebaebfdc7aab72",
+        "pdf_signature": false
+      }
+    },
+    {
+      "file": "jyx-landing.json",
+      "record": {
+        "url": "https://jyx.jyu.fi/handle/123456789/60029",
+        "curl_exit": 0,
+        "metadata": "200\thttps://jyx.jyu.fi/jyx/Record/jyx_123456789_60029\ttext/html; charset=UTF-8",
+        "error": "",
+        "bytes": 53035,
+        "sha256": "de194086186928c2956ca87e47602f9bf48ac452cbabd151f793818df5cd0a7a",
+        "text": "Evolution from γ-soft to stable triaxiality in 136Nd as a prerequisite of chirality   :: JYX Skip to content JYX OSC JYKDOK Help How to publish in JYX? Contact and feedback Language Suomi English Language Suomi English All Fields Title Author Find Advanced Search Search Evolution from γ-soft to stable triaxiality in 13… Cite this Print Export Record Export to RefWorks Export to EndNoteWeb Export to EndNote physrevc.98.044304.pdf Publisher's PDF Evolution from γ-soft to stable triaxiality in 136Nd as a prerequisite of chirality Abstract The level structure of 136Nd has been investigated using the 100Mo(40Ar, 4n) reaction and the JUROGAM\r\nII+RITU+GREAT setup. The level scheme has been extended significantly. Many new bands have been\r\nidentified both at low and high spin, among which are five nearly degenerate bands interpreted as chiral partners.\r\nExcitation energies, spins, and parities of the previously known bands are revised and firmly established, and\r\nsome previously known bands have been revised. Configurations are assigned to the observed bands based on\r\ncranked Nilsson-Strutinsky calculations. The band structure of 136Nd is now clarified and the various types of\r\nsingle-particle and collective excitations are well understood. Full description Main Authors Lv, B. F. Petrache, C. M. Astier, A. Dupont, E. Lopez-Martens, A. Greenlees, Paul Badran, Hussam Calverley, Tom Cox, Daniel Grahn, Tuomas Hilton, Joshua Julin, Rauno Juutinen, Sakari Konki, Joonas Leino, Matti Pakarinen, Janne Papadakis, Philippos Partanen, Jari Rahkila, Panu Sandzelius, Mikael Sarén, Jan Scholey, Catherine Sorri, Juha Stolze, Sanna Uusitalo, Juha Herzán, A. Cederwall, B. Ertoprak, A. Liu, H. Guo, S. Liu, M. L. Qiang, Y. H. Wang, J. G. Zhou, X. H. Kuti, I. Timár, J. Tucholski, A. Srebrny, J. Andreoiu, C. Format Articles Research article Subjects deformed nuclei ydinfysiikka triaxiality chirality Published 2018 Publication in research information system https://converis.jyu.fi/converis/portal/detail/Publication/28671767 The permanent address of the publication https://urn.fi/URN:NBN:fi:jyu-201810224470 Use this for linking Review status Peer reviewed Publisher American Physical Society ISSN 2469-9985 DOI https://doi.org/10.1103/physrevc.98.044304 Language English Faculty Faculty of Mathematics and Science Department Department of Physics Discipline/Specialization Accelerator Laboratory Published in Physical Review C 98(4) Citation Lv, B. F., Petrache, C. M., Astier, A., Dupont, E., Lopez-Martens, A., Greenlees, P., Badran, H., Calverley, T., Cox, D., Grahn, T., Hilton, J., Julin, R., Juutinen, S., Konki, J., Leino, M., Pakarinen, J., Papadakis, P., Partanen, J., Rahkila, P., . . . Andreoiu, C. (2018). Evolution from γ-soft to stable triaxiality in 136Nd as a prerequisite of chirality. Physical Review C , 98 (4), Article 044304. https://doi.org/10.1103/physrevc.98.044304 License Copyright © the Authors, 2018. Published by the American Physical Society. Share Holdings Description Staff View Similar Items Axial and triaxial degrees of freedom in 72Zn by: Hellgartner, S., et al. Published: (2023) Experimental evidence for transverse wobbling bands in 136Nd by: Lv, B. F., et al. Published: (2022) Signatures of enhanced octupole correlations at high spin in 136Nd by: Petrache, C. M., et al. Published: (2020) Triaxiality and confirmation of low-spin tilted precession in 135Nd by: Lv, B. F., et al. Published: (2025) Structure of low-lying states in 140Sm studied by Coulomb excitation by: Klintefjord, M., et al. Published: (2016) Search Options Search History Advanced Search New Items Need Help? Search Tips Contact University of Jyväskylä Open Science Centre Feedback Privacy Notice Accessibility Statement",
+        "file_links": [
+          {
+            "href": "https://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download",
+            "type": "application/pdf",
+            "class": [],
+            "title": "physrevc.98.044304.pdf",
+            "aria-label": "Download"
+          },
+          {
+            "href": "https://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download",
+            "download": "",
+            "class": [],
+            "aria-label": "Download file"
+          }
+        ],
+        "citation_meta": [
+          {
+            "name": "citation_author",
+            "content": "Lv, B. F."
+          },
+          {
+            "name": "citation_author",
+            "content": "Petrache, C. M."
+          },
+          {
+            "name": "citation_author",
+            "content": "Astier, A."
+          },
+          {
+            "name": "citation_author",
+            "content": "Dupont, E."
+          },
+          {
+            "name": "citation_author",
+            "content": "Lopez-Martens, A."
+          },
+          {
+            "name": "citation_author",
+            "content": "Greenlees, Paul"
+          },
+          {
+            "name": "citation_author",
+            "content": "Badran, Hussam"
+          },
+          {
+            "name": "citation_author",
+            "content": "Calverley, Tom"
+          },
+          {
+            "name": "citation_author",
+            "content": "Cox, Daniel"
+          },
+          {
+            "name": "citation_author",
+            "content": "Grahn, Tuomas"
+          },
+          {
+            "name": "citation_author",
+            "content": "Hilton, Joshua"
+          },
+          {
+            "name": "citation_author",
+            "content": "Julin, Rauno"
+          },
+          {
+            "name": "citation_author",
+            "content": "Juutinen, Sakari"
+          },
+          {
+            "name": "citation_author",
+            "content": "Konki, Joonas"
+          },
+          {
+            "name": "citation_author",
+            "content": "Leino, Matti"
+          },
+          {
+            "name": "citation_author",
+            "content": "Pakarinen, Janne"
+          },
+          {
+            "name": "citation_author",
+            "content": "Papadakis, Philippos"
+          },
+          {
+            "name": "citation_author",
+            "content": "Partanen, Jari"
+          },
+          {
+            "name": "citation_author",
+            "content": "Rahkila, Panu"
+          },
+          {
+            "name": "citation_author",
+            "content": "Sandzelius, Mikael"
+          },
+          {
+            "name": "citation_author",
+            "content": "Sarén, Jan"
+          },
+          {
+            "name": "citation_author",
+            "content": "Scholey, Catherine"
+          },
+          {
+            "name": "citation_author",
+            "content": "Sorri, Juha"
+          },
+          {
+            "name": "citation_author",
+            "content": "Stolze, Sanna"
+          },
+          {
+            "name": "citation_author",
+            "content": "Uusitalo, Juha"
+          },
+          {
+            "name": "citation_author",
+            "content": "Herzán, A."
+          },
+          {
+            "name": "citation_author",
+            "content": "Cederwall, B."
+          },
+          {
+            "name": "citation_author",
+            "content": "Ertoprak, A."
+          },
+          {
+            "name": "citation_author",
+            "content": "Liu, H."
+          },
+          {
+            "name": "citation_author",
+            "content": "Guo, S."
+          },
+          {
+            "name": "citation_author",
+            "content": "Liu, M. L."
+          },
+          {
+            "name": "citation_author",
+            "content": "Qiang, Y. H."
+          },
+          {
+            "name": "citation_author",
+            "content": "Wang, J. G."
+          },
+          {
+            "name": "citation_author",
+            "content": "Zhou, X. H."
+          },
+          {
+            "name": "citation_author",
+            "content": "Kuti, I."
+          },
+          {
+            "name": "citation_author",
+            "content": "Timár, J."
+          },
+          {
+            "name": "citation_author",
+            "content": "Tucholski, A."
+          },
+          {
+            "name": "citation_author",
+            "content": "Srebrny, J."
+          },
+          {
+            "name": "citation_author",
+            "content": "Andreoiu, C."
+          },
+          {
+            "name": "citation_issn",
+            "content": "2469-9985"
+          },
+          {
+            "name": "citation_title",
+            "content": "Evolution from γ-soft to stable triaxiality in 136Nd as a prerequisite of chirality"
+          },
+          {
+            "name": "citation_abstract_html_url",
+            "content": "https://jyx.jyu.fi/handle/123456789/60029"
+          },
+          {
+            "name": "citation_issue",
+            "content": "4"
+          },
+          {
+            "name": "citation_pdf_url",
+            "content": "https://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download"
+          },
+          {
+            "name": "citation_publisher",
+            "content": "American Physical Society"
+          },
+          {
+            "name": "citation_language",
+            "content": "eng"
+          },
+          {
+            "name": "citation_journal_title",
+            "content": "Physical Review C"
+          },
+          {
+            "name": "citation_date",
+            "content": "2018"
+          },
+          {
+            "name": "citation_publication_date",
+            "content": "2018"
+          },
+          {
+            "name": "citation_keywords",
+            "content": "deformed nuclei"
+          },
+          {
+            "name": "citation_keywords",
+            "content": "triaxiality"
+          },
+          {
+            "name": "citation_keywords",
+            "content": "chirality"
+          },
+          {
+            "name": "citation_keywords",
+            "content": "ydinfysiikka"
+          }
+        ]
+      }
+    },
+    {
+      "file": "body-route2.json",
+      "record": {
+        "url": "https://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download",
+        "curl_exit": 52,
+        "metadata": "000\thttps://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download\t",
+        "error": "curl: (52) Empty reply from server"
+      }
+    }
+  ],
+  "course": "sameDay24run plus exactlyDay25preview;noDay26;credit0",
+  "shared_raw_Git_session_course_state_changed": false,
+  "single_authorized_transport_retry": {
+    "utc": "2026-10-26T14:49:33.931174+00:00",
+    "url": "https://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download",
+    "transport": "single authorized HTTP/1.1 retry after priorcurl52; no newroute",
+    "curl_exit": 52,
+    "metadata": "000\thttps://jyx.jyu.fi/bitstreams/3d0af0a2-40db-464b-a3d5-1cf666530c82/download\t",
+    "error": "curl: (52) Empty reply from server",
+    "prior_failure_record_preserved": "body-route2.json"
+  },
+  "endpoint_stopped": true,
+  "original_body_route_count": 2,
+  "transport_retry_count": 1
+}

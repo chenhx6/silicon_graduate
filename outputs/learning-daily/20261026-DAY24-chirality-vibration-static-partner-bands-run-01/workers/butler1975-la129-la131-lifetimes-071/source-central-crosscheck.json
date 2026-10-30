@@ -1,0 +1,104 @@
+{
+  "kind": "actual_printed_table_central_arithmetic_only_not_experimental_refit",
+  "source": "Butler1975Table1PDF2printed454",
+  "E2_formula": {
+    "B_e2b2": "0.0816*q_gamma/(E_MeV^5*tau_ps)",
+    "q_gamma": "branch_total/(1+alpha_IC) for selectedpureE2transition; source doesnotprinttheseperline",
+    "coefficient": "standardapproximateunitcoefficient, notquotedpaperproducer",
+    "tau": "mean-life convention, no half-life-ln2 substitution",
+    "interpretation": "q combinations are conditional consistencydiagnostics, not measuredBR/ICC or missing-factoraccusation"
+  },
+  "rows": [
+    {
+      "nucleus": "129La",
+      "transition": "15/2−→11/2−",
+      "E_keV": 269,
+      "tau_ps": 130,
+      "tau_error_ps": 6,
+      "B": 0.42,
+      "B_error": 0.02,
+      "core_B": 0.33,
+      "theory_triax": 0.37,
+      "theory_axial": 0.5,
+      "conditional_B_if_unit_radiative_fraction": 0.44564127329550235,
+      "implied_q_if_standard_pure_E2_formula": 0.9424620769394045
+    },
+    {
+      "nucleus": "129La",
+      "transition": "19/2−→15/2−",
+      "E_keV": 475,
+      "tau_ps": 8.7,
+      "tau_error_ps": 1.3,
+      "B": 0.38,
+      "B_error": 0.06,
+      "core_B": 0.33,
+      "theory_triax": 0.42,
+      "theory_axial": 0.52,
+      "conditional_B_if_unit_radiative_fraction": 0.3878848863920002,
+      "implied_q_if_standard_pure_E2_formula": 0.9796720968807441
+    },
+    {
+      "nucleus": "131La",
+      "transition": "15/2−→11/2−",
+      "E_keV": 336,
+      "tau_ps": 55,
+      "tau_error_ps": 2,
+      "B": 0.34,
+      "B_error": 0.02,
+      "core_B": 0.28,
+      "theory_triax": 0.32,
+      "theory_axial": 0.45,
+      "conditional_B_if_unit_radiative_fraction": 0.3464424349168552,
+      "implied_q_if_standard_pure_E2_formula": 0.9814040248320003
+    },
+    {
+      "nucleus": "131La",
+      "transition": "19/2−→15/2−",
+      "E_keV": 533,
+      "tau_ps": 5.8,
+      "tau_error_ps": 0.6,
+      "B": 0.33,
+      "B_error": 0.03,
+      "core_B": 0.28,
+      "theory_triax": 0.37,
+      "theory_axial": 0.47,
+      "conditional_B_if_unit_radiative_fraction": 0.3270590116899191,
+      "implied_q_if_standard_pure_E2_formula": 1.008992225271167
+    }
+  ],
+  "core_unweighted_average": {
+    "129La_core128Ba130Ce": 0.33,
+    "131La_core130Ba132Ce": 0.28,
+    "error_propagation": "notdone; nojointCov; PartIIaverrorsnotderivedfromnaivequadrature"
+  },
+  "La_ratios": {
+    "129La": {
+      "odd_first_over_core_central": 1.2727272727272727,
+      "higher_over_first_experiment": 0.9047619047619048,
+      "higher_over_first_triax_theory": 1.135135135135135
+    },
+    "131La": {
+      "odd_first_over_core_central": 1.2142857142857142,
+      "higher_over_first_experiment": 0.9705882352941176,
+      "higher_over_first_triax_theory": 1.15625
+    }
+  },
+  "Cd107_ratio_check": {
+    "experiment": 1.1585365853658536,
+    "triax": 1.170731707317073,
+    "axial": 1.4634146341463414,
+    "source_quoted": [
+      1.16,
+      1.17,
+      1.46
+    ]
+  },
+  "not_claimed": [
+    "newBRorICC",
+    "exactBconversionreplay",
+    "confidenceinterval",
+    "modelrankinglikelihood",
+    "independentnewTable5experiment",
+    "LaBortautransferredtoCe"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=au:Tonev%20AND%20all:chirality&max_results=8",
+  "curl_exit": 0,
+  "metadata": "200\thttps://export.arxiv.org/api/query?search_query=au:Tonev%20AND%20all:chirality&max_results=8\tapplication/atom+xml; charset=utf-8",
+  "error": "",
+  "bytes": 723,
+  "sha256": "deeecc7a5d120eed8b3a1963cf705017224daaeae43e008eb4b607b7d2da201d",
+  "entries": []
+}

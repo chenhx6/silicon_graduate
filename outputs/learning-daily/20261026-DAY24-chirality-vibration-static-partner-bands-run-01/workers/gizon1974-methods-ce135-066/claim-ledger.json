@@ -1,0 +1,580 @@
+{
+  "doi": "10.1016/0375-9474(74)90339-X",
+  "source_sha256": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+  "unit": "066",
+  "claims": [
+    {
+      "id": "GI74-066-01",
+      "physical_pdf_pages": [
+        1
+      ],
+      "printed_pages": [
+        557
+      ],
+      "locator": "abstract/reactionbox/§1",
+      "evidence_type": "scope",
+      "claim": "Paper reports in-beam gamma studies of133,135Ce and135,137Nd, aiming to test particle-plus-rotor interpretation.",
+      "boundary": "Prolate shape in abstract is an interpretation of level order/mixing ratios, not direct shape imaging.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-02",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        558
+      ],
+      "locator": "§2 first paragraph",
+      "evidence_type": "experimental_setup",
+      "claim": "Berkeley223.5cm(88inch) sector-focused cyclotron supplied16O beams; listed energies60,65,66.5,70,80,85,90MeV.",
+      "boundary": "Case-specific135Ce spectra/Table2 state62MeV; this list is not a complete run-by-run manifest.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-03",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        558
+      ],
+      "locator": "§2 reaction assignments",
+      "evidence_type": "experimental_setup",
+      "claim": "120,122Sn(16O,3n) populate133,135Ce and122,124Te(16O,3n) populate135,137Nd respectively;135Ce also uses124Sn(16O,5n).",
+      "boundary": "Do not pool isotope channels or presume every observable is separately measured in every channel.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-04",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        558
+      ],
+      "locator": "§2 target details",
+      "evidence_type": "experimental_setup",
+      "claim": "Enriched OakRidge isotopes, approximately2mg/cm² targets evaporated on25micrometer lead backing.",
+      "boundary": "No target-enrichment percentages, beam-current history or complete run IDs in assigned methods.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-05",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        558
+      ],
+      "locator": "§2 detectors and Fig1",
+      "evidence_type": "experimental_setup",
+      "claim": "Either two8cm³ planar intrinsicGe detectors or one8cm³ planar plus30cm³ coaxialGe(Li); planar resolution.9keV FWHM122keV and1.9keV1330keV.",
+      "boundary": "This is a small two-detector arrangement, not a modern high-fold array; full geometry/solid-angle response is not supplied here.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-06",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        558,
+        559
+      ],
+      "locator": "§2 calibration",
+      "evidence_type": "calibration",
+      "claim": "Efficiency/energy calibration in actual setup used22Na,57Co,60Co,137Cs IAEA sources and177mLu; known even-even reaction-product transitions also calibrated energy.",
+      "boundary": "No full calibration curve or covariance is furnished in these pages.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-07",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        559
+      ],
+      "locator": "§2 first paragraph",
+      "evidence_type": "observable_contract",
+      "claim": "Tabulated relative gamma intensities are measured at55° and normalized to strongest line I_gamma100.",
+      "boundary": "Not5.5° despite OCR; not angle-integrated branching fractions or absolute B values. PDF12/Table3 targeted check has198.5keVI100 and511.8keVI117: strongest100 wording does not imply all printed intensities≤100; no correction or reason guessed.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-08",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        559
+      ],
+      "locator": "§2 uncertainties",
+      "evidence_type": "uncertainty",
+      "claim": "Strong resolved lines: about.1% energy and10% intensity error; weak lines errors two or three times larger.",
+      "boundary": "These are approximate stated errors, not a complete line-by-line statistical covariance.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-09",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        558,
+        559
+      ],
+      "locator": "Fig1a and singles timing",
+      "evidence_type": "experimental_response",
+      "claim": "Constant-fraction triggers start TAC; cyclotronRF zero-crossing stops it; between-pulse gates give out-of-beam spectra. Later trigger modifications remove prompt timing tails.",
+      "boundary": "Delayed components depend on gate/response and feeding; delayed lower-band gamma does not automatically measure each lower-state lifetime.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-10",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        558,
+        559
+      ],
+      "locator": "Fig1b and coincidence response",
+      "evidence_type": "experimental_response",
+      "claim": "Coincidences within300ns; four stored parameters: two gamma energies, gamma-gamma time, one gamma-RF time; energy/time and background gates used offline.",
+      "boundary": "300ns event acceptance is distinct from timing resolution and prompt analysis gate.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-11",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        559
+      ],
+      "locator": "§2 background/resolution paragraph",
+      "evidence_type": "experimental_response",
+      "claim": "Accidentals<1% of true coincidences were left uncorrected; gamma-gamma resolution usually<6nsFWHM and gamma-RF about10ns limited by beam. Later runs recorded singles/coincidences simultaneously.",
+      "boundary": "No event files or exact per-run gate boundaries provided; do not claim present reconstruction of full likelihood.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-12",
+      "physical_pdf_pages": [
+        3,
+        4
+      ],
+      "printed_pages": [
+        559,
+        560
+      ],
+      "locator": "§2 final paragraph and angular runs",
+      "evidence_type": "assignment_method",
+      "claim": "Excitation functions at90° assign isotope channels; separate spectra at0°,55°,90° infer probable multipolarities.",
+      "boundary": "Isotope assignment is based on reaction/excitation evidence, not every line being contamination-free.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-13",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        560
+      ],
+      "locator": "§2 W(theta)",
+      "evidence_type": "model_assisted_extraction",
+      "claim": "W(theta)=1+sum_k>=2 alpha_k(Ii) A_k^max(Ii,L1,L2,If) P_k(cos theta); alpha2 comes from known multipolarity lines compared with Yamazaki complete-alignment coefficients.",
+      "boundary": "Partial alignment is explicit; extracting delta requires §4, assigned to another worker. Do not use fully aligned coefficients unattenuated.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-14",
+      "physical_pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        564
+      ],
+      "locator": "§3.2 opening",
+      "evidence_type": "inherited_measurement",
+      "claim": "135Ce ground1/2+ has17.0h half-life;11/2−isomer has20s half-life and E3 decay.",
+      "boundary": "These are cited prior results, not newly measured17h/20s lifetimes in this work.",
+      "lineage": "GroundJπ:refs8,12; isomer/E3/T1/2:ref8, as cited onPDF8",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-15",
+      "physical_pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        564
+      ],
+      "locator": "§3.2 doublet",
+      "evidence_type": "inherited_measurement",
+      "claim": "Near296keV135Ce has a3/2+ member fed by135Pr27min decay and5/2+ member fed by135mCe20s decay.",
+      "boundary": "The doublet3/2+ is distinct from the82.6keV3/2+ inFig5; do not merge them.",
+      "lineage": "Priorrefs13–15 forPr-fed state;refs8,13 forisomer-fed state",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-16",
+      "physical_pdf_pages": [
+        7,
+        8,
+        10,
+        11
+      ],
+      "printed_pages": [
+        563,
+        564,
+        566,
+        567
+      ],
+      "locator": "Fig5 upper,Fig6,Table2 caption",
+      "evidence_type": "primary_spectrum",
+      "claim": "135Ce spectrum/Table2 uses122Sn(16O,3nγ) at62MeV; Fig6 displays90° in/out-beam spectra.",
+      "boundary": "Table intensity angle55° differs from illustrated spectrum angle90°; Fig7 onPDF9 is135Nd, not135Ce.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-17",
+      "physical_pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        565
+      ],
+      "locator": "§3.2 first paragraph",
+      "evidence_type": "contamination_boundary",
+      "claim": "Out-of-beam398,409,639,841,946,1125keV lines are presumably from134Ce isomer; known135mCe/135Ce decay lines are recognized separately.",
+      "boundary": "Presumably134Ce remains tentative attribution; delayed spectrum alone is not pure135Ce.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-18",
+      "physical_pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        565
+      ],
+      "locator": "§3.2 time distributions",
+      "evidence_type": "primary_measurement",
+      "claim": "Time distributions of256,590,700,724,833keV lines give T1/2=8±2ns.",
+      "boundary": "A common feeding delay is not five separate state lifetimes; Fig5 places8ns beside2125.6keV side-feeding state.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-19",
+      "physical_pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        565
+      ],
+      "locator": "§3.2 omitted lines/weak coincidences",
+      "evidence_type": "completeness_boundary",
+      "claim": "About30gamma lines weaker than2% of strongest are omitted;109.5keV I1.2 and181.9keV I.8 are exceptions included in scheme from coincidences.",
+      "boundary": "Table2 is not a complete branch network; weak omissions and nondetections are not zero transitions.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-20",
+      "physical_pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        565
+      ],
+      "locator": "§3.2 mainband assignments",
+      "evidence_type": "assignment_boundary",
+      "claim": "Definite spins/parities are assigned only to members of main band built on11/2−isomer.",
+      "boundary": "Side-feedingJπ labels retain uncertainty even when plotted inFig5.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-21",
+      "physical_pdf_pages": [
+        7,
+        9,
+        10
+      ],
+      "printed_pages": [
+        563,
+        565,
+        566
+      ],
+      "locator": "Fig5 low levels and balance discussion",
+      "evidence_type": "primary_scheme",
+      "claim": "Fig5 shows1/2+0,3/2+82.6,5/2+296.1 and11/2−445.7keV;149.7keVE3 connects isomer to5/2+.",
+      "boundary": "149.7 and lower transitions have prior-known multipolarities perTable2footnoteb; intensity balance is author analysis, not independently recomputed here.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-22",
+      "physical_pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        565
+      ],
+      "locator": "§3.2 intensitybalance paragraph",
+      "evidence_type": "author_inference",
+      "claim": "After taking E3 character into account, isomer and5/2+296keV intensity balances agree; near296keV3/2+doublet partner is not appreciably excited.",
+      "boundary": "In-beam/out-of-beam213.4/296.1 intensity ratio supports this; conversion coefficients/angle-integrated correction details are not supplied for a new balance calculation.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-23",
+      "physical_pdf_pages": [
+        7,
+        10,
+        11
+      ],
+      "printed_pages": [
+        563,
+        566,
+        567
+      ],
+      "locator": "Fig5 mainnegativeband/Table2",
+      "evidence_type": "primary_scheme",
+      "claim": "Main135Ce levels are13/2−1035.4,15/2−1145.3,17/2−1869.6 and tentative19/2−2050.6keV; measured band lines include589.7,699.6,724.3,833.1,906.2keV.",
+      "boundary": "2051keV state is explicitly somewhat tentative inPDF11;906.2keV line is flagged composite.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-24",
+      "physical_pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        565
+      ],
+      "locator": "§3.2 sidefeeding256",
+      "evidence_type": "model_assisted_assignment",
+      "claim": "256keV A2_exp=−.26±.08 is most probably stretched dipole and preferredE1 overM1 by analogy to137Nd argument;2125.6keV state is likely19/2+, parity tentative.",
+      "boundary": "This is not a direct E1 parity measurement; ifE1 its hindrance is8×10^5 Weisskopf.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-25",
+      "physical_pdf_pages": [
+        7,
+        9,
+        10
+      ],
+      "printed_pages": [
+        563,
+        565,
+        566
+      ],
+      "locator": "425.6keV sidefeeding",
+      "evidence_type": "model_assisted_assignment",
+      "claim": "425.6keV A2_exp=.28±.16 suggests stretchedE2 and(23/2+)2551.2keV above(19/2+)2125.6.",
+      "boundary": "Assignment is less certain than lower sidefeeding state; Fig5 parentheses preserve uncertainty.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-26",
+      "physical_pdf_pages": [
+        11
+      ],
+      "printed_pages": [
+        567
+      ],
+      "locator": "§3.2 final paragraph",
+      "evidence_type": "counterevidence",
+      "claim": "75.0keV(19/2+)→19/2− transition is not observed; expected much weaker than observed(19/2+)→17/2−256keV.",
+      "boundary": "Nonobservation is not measuredzero or a quantified universal upperlimit.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-27",
+      "physical_pdf_pages": [
+        11
+      ],
+      "printed_pages": [
+        567
+      ],
+      "locator": "§3.2 final paragraph",
+      "evidence_type": "assignment_boundary",
+      "claim": "2051keV level is somewhat tentative because182keV transition weak;1671keV level is well defined by coincidences.",
+      "boundary": "Do not give both equal confidence or assignJπ to1670.6keV node solely by its decay.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-28",
+      "physical_pdf_pages": [
+        10,
+        11
+      ],
+      "printed_pages": [
+        566,
+        567
+      ],
+      "locator": "Table2 A2/multipolarity columns",
+      "evidence_type": "primary_table",
+      "claim": "Assigned band coefficients:589.7−.71±.04(M1+E2),699.6+.35±.11(E2),724.3−.79±.03(M1+E2),833.1+.31±.13(E2),906.2+.30±.18(E2,composite).",
+      "boundary": "These are A2_exp, not delta; common alignment and §4 conversion remain required.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-29",
+      "physical_pdf_pages": [
+        10,
+        11
+      ],
+      "printed_pages": [
+        566,
+        567
+      ],
+      "locator": "Table2 otherA2 entries",
+      "evidence_type": "primary_table",
+      "claim": "Additional coefficients:149.7−.02±.06;175−.44±.09;202.1−.38±.08;213.4+.04±.01;267.9−.46±.09;296.1−.04±.08;358.3−.42±.11;433.4−.63±.06;635.2−.30±.10.",
+      "boundary": "Empty A2/multipolarity cells are missing assignments, not zero coefficients or pure multipoles;635.2M1+E2 is parenthesized.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-30",
+      "physical_pdf_pages": [
+        7,
+        10,
+        11
+      ],
+      "printed_pages": [
+        563,
+        566,
+        567
+      ],
+      "locator": "Fig5/Table2 energy-cycle crosscheck",
+      "evidence_type": "task_arithmetic",
+      "claim": "Two printed paths17/2−→11/2−:833.1+589.7=1422.8keV versus724.3+699.6=1423.9keV; difference−1.1keV.",
+      "boundary": "Preserve measured-line/diagram redundancy without forcing exactclosure; no source correction, fit or statistical significance claimed.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-31",
+      "physical_pdf_pages": [
+        10,
+        11
+      ],
+      "printed_pages": [
+        566,
+        567
+      ],
+      "locator": "Table2 two17/2 branches and §2",
+      "evidence_type": "task_arithmetic",
+      "claim": "I55(724.3)/I55(833.1)=36.6/16.3=2.2454 from same nominalinitial17/2−.",
+      "boundary": "Directional intensity ratio is not totalbranch or B(M1)/B(E2);724.3 mixed character needsdelta and rates/Egamma factors; no fabricated covariance.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "id": "GI74-066-32",
+      "physical_pdf_pages": [
+        7,
+        8,
+        9,
+        11
+      ],
+      "printed_pages": [
+        563,
+        564,
+        565,
+        567
+      ],
+      "locator": "methods/135Ce-to133Ce transfer",
+      "evidence_type": "task_synthesis",
+      "claim": "135Ce offers experimental-method and source-lineage comparison for133Ce;135Ce17h/20s ground/isomer and8ns feeder remain isotope-specific.",
+      "boundary": "Do not move its zero, alpha2, lifetime, branch, Jπ certainty or sidefeeding assumption into133Ce.1974ground/isomer issue for133Ce remains separate064/otherworker scope.",
+      "lineage": "Gizon1974 reported primary experiment; not independent of its later reuse in MTV75",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "physical_pdf_pages": [
+        3,
+        12
+      ],
+      "printed_pages": [
+        559,
+        568
+      ],
+      "locator": "§2 normalization and Table3 targetedleftcolumns",
+      "evidence_type": "source_boundary",
+      "claim": "135Nd Table3 prints I(198.5keV)=100.0 and I(511.8keV)=117.0 despite §2 strongestline100 wording.",
+      "boundary": "Only targeted135Nd normalization context read in066; no table correction or cause inferred.",
+      "id": "GI74-066-33",
+      "lineage": "Gizon1974 primary text/table/figure; not independent of later reuse",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "physical_pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "printed_pages": [
+        558,
+        559,
+        560
+      ],
+      "locator": "Efficiencycalibrationparagraph and W(theta)",
+      "evidence_type": "method_boundary",
+      "claim": "Assigned methods report actualsetup efficiencycalibration and alignmentattenuation alpha_k but no explicit per-line efficiencycorrectionformula or separate finitegeometry Q_k/acceptancefold.",
+      "boundary": "Do not claim full efficiency/geometryreproduction or equate alpha2 with complete detectorresponse.",
+      "id": "GI74-066-34",
+      "lineage": "Gizon1974 primary text/table/figure; not independent of later reuse",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    },
+    {
+      "physical_pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        563
+      ],
+      "locator": "Fig5 caption",
+      "evidence_type": "observable_boundary",
+      "claim": "Fig5 arrow widths are said proportional to total transition intensities.",
+      "boundary": "Do not silently identify drawing widths with Table2 angle55photonintensities, absolute rates or branchfractions.",
+      "id": "GI74-066-35",
+      "lineage": "Gizon1974 primary text/table/figure; not independent of later reuse",
+      "self_audit": "Codex source/claim self-audit; not human-reviewed"
+    }
+  ]
+}

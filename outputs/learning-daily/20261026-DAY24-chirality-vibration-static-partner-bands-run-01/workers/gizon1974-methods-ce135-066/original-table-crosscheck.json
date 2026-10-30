@@ -1,0 +1,37 @@
+{
+  "kind": "Original Table2/Fig5 redundantenergycycle and intensityobject check; standard-library arithmetic only",
+  "source_sha256": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+  "locators": [
+    "PDF7/printed563 Fig5",
+    "PDF10–11/printed566–567 Table2",
+    "PDF3/printed559 intensitycontract"
+  ],
+  "energy_cycle": {
+    "path_E2_then_M1E2": [
+      833.1,
+      589.7
+    ],
+    "path_M1E2_then_E2": [
+      724.3,
+      699.6
+    ],
+    "sum1_keV": 1422.8,
+    "sum2_keV": 1423.9,
+    "difference_keV": -1.1,
+    "diagram_delta_keV": 1423.9,
+    "boundary": "No forced closure/correction, no statisticalsignificance or newfit; source approximate.1%gammaenergyerror kept separate"
+  },
+  "directional_intensity_ratio": {
+    "I55_724_3": 36.6,
+    "I55_833_1": 16.3,
+    "ratio": 2.245398773006135,
+    "object": "55degree relativephotonintensityratio; notintegratedbranch or B ratio",
+    "uncertainty": "No propagated CI: covariance/common normalization unavailable"
+  },
+  "sidefeeding_checks": {
+    "delta256": 256.0,
+    "delta75_unseen": 75.0,
+    "delta425_6": 425.6
+  },
+  "model_code_executed": false
+}

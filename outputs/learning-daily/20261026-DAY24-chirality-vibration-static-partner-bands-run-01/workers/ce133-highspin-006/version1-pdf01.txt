@@ -1,0 +1,63 @@
+                                                                                                      week ending
+PRL 110, 172504 (2013)         P H Y S I C A L R E V I E W  L E T T E R S                        26 APRIL 2013
+
+                   Evidence for Multiple Chiral Doublet Bands in 133Ce
+
+        A. D. Ayangeakaa,1 U. Garg,1 M. D. Anthony,1 S. Frauendorf,1 J. T. Matta,1 B. K. Nayak,1,* D. Patel,1
+      Q. B. Chen (陈启博),2 S. Q. Zhang (张双全),2 P. W. Zhao (赵鹏巍),2 B. Qi (亓斌),3 J. Meng (孟杰),2,4,5
+      R. V. F. Janssens,6 M. P. Carpenter,6 C. J. Chiara,6,7 F. G. Kondev,8 T. Lauritsen,6 D. Seweryniak,6 S. Zhu,6
+                                             S. S. Ghugre,9 and R. Palit10,11
+                    1Department of Physics, University of Notre Dame, Notre Dame, Indiana 46556, USA
+      2State Key Laboratory of Nuclear Physics and Technology, School of Physics, Peking University, Beijing 100871, China
+                 3School of Space Science and Physics, Shandong University at Weihai, Weihai 264209, China
+                4School of Physics and Nuclear Energy Engineering, Beihang University, Beijing 100191, China
+               5Department of Physics, University of Stellenbosch, Matieland 7602, Stellenbosch, South Africa
+                         6Physics Division, Argonne National Laboratory, Argonne, Illinois 60439, USA
+           7Department of Chemistry and Biochemistry, University of Maryland, College Park, Maryland 20742, USA
+                  8Nuclear Engineering Division, Argonne National Laboratory, Argonne, Illinois 60439, USA
+                     9UGC-DAE Consortium for Science Research, Kolkata 700 098, India
+                                10Tata Institute of Fundamental Research, Mumbai 400 005, India
+           11The Joint Institute for Nuclear Astrophysics, University of Notre Dame, Notre Dame, Indiana 46556, USA
+                                   (Received 31 January 2013; published 24 April 2013)
+
+           Two distinct sets of chiral-partner bands have been identiﬁed in the nucleus 133Ce. They constitute a
+              multiple chiral doublet, a phenomenon predicted by relativistic mean ﬁeld (RMF) calculations and
+             observed experimentally here for the ﬁrst time. The properties of these chiral bands are in good agreement
+             with results of calculations based on a combination of the constrained triaxial RMF theory and the
+               particle-rotor model.
+
+            DOI: 10.1103/PhysRevLett.110.172504              PACS numbers: 21.10.Tg, 21.60.Ev, 23.20.  g, 27.60.+j
+
+
+  Described in terms of a coupling between deformation    the observed band structures in 105Rh [15,16]. In this
+and orientation degrees of freedom, chirality represents a     Letter, the ﬁrst strong experimental evidence for the exis-
+novel feature of triaxial nuclei rotating about an axis that    tence of M D is reported in the nucleus 133Ce. The obser-
+lies outside the three planes spanned by the principal axes    vations represent an important conﬁrmation of  triaxial
+of its mean-ﬁeld density distribution [1–5]. For a triaxial    shape coexistence and its geometrical interpretation.
+nucleus, the short, intermediate, and long principal axes     Two separate experiments were performed using the
+form a screw with respect to the angular momentum vector,   ATLAS facility at the Argonne National Laboratory. In
+resulting in the formation of two chiral systems, with    both, high-spin states in 133Ce were populated following
+left- and right-handed orientations. The restoration of the    the 116Cdð22Ne; 5nÞ133Ce reaction at a bombarding energy
+broken chiral symmetry in the laboratory frame manifests    of 112 MeV. In the ﬁrst experiment, the target was a foil
+itself as a pair of degenerate   I ¼ 1 bands with the same    of isotopically enriched 116Cd, 1:48 mg=cm2 thick, and
+parity. Experimental evidence for such chiral band pairs    sandwiched between a 50  g=cm2 thick front layer of Al
+has been found in the A   190, A   130, A   100, and    and a 150  g=cm2 thick Au backing. The second experi-
+A   80 mass regions of the nuclear chart [6–20].           ment used a target of the same enrichment and thickness
+   Theoretically, chiral doublet bands have been success-    evaporated onto a 55  g=cm2 thick Au foil. In both experi-
+fully described by several formulations viz. the triaxial    ments, four-fold and higher prompt   -ray coincidence
+particle rotor model (TPRM) [1,21–23], the tilted axis    events were measured using the Gammasphere array [31].
+cranking model with shell correction (SCTAC) [2,15,16],  A combined total of approximately 4:1   109 four- and
+and Skyrme-Hartree-Fock [24,25] approaches, and the ran-    higher-fold coincidence events were accumulated during
+dom phase approximation [26,27]. The general conditions    the two experiments. These events were analyzed using
+for rotational chirality [1] imply that this phenomenon may    the RADWARE suite of analysis packages [32]. The level sche
+appear for more than one conﬁguration in the same nu-   me for 133Ce deduced in the present work builds substan-
+cleus. The resultant possibility of having multiple pairs of     tially upon that previously reported for this nucleus [33–35].
+chiral doublet bands in a single nucleus was demonstrated  A partial level scheme comprising the structures relevant to
+for the Rh isotopes by the relativistic mean ﬁeld (RMF)    the focus of this Letter is displayed in Fig. 1. Spin and parity
+theory in Refs. [28–30], which introduced the acronym    assignments for newly identiﬁed levels were made on the
+M D for multiple chiral doublet bands. The likelihood of    basis of extensive measurements of directional correlation
+chiral bands with different conﬁgurations was also dis-    of oriented nuclei (DCO) ratios [36,37] and, where practical,
+cussed in context of SCTAC calculations used to interpret   conﬁrmed by angular-distribution analyses [38].
+
+
+0031-9007=13=110(17)=172504(5)                 172504-1                  2013 American Physical Society

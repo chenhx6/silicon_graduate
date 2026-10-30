@@ -1,0 +1,165 @@
+{
+  "observed_utc": "2026-10-27T03:19:57.355598+00:00",
+  "scope": "pre-root092-correction snapshot; root may repair concurrently",
+  "findings": [
+    {
+      "id": "PUB092-B01",
+      "blocking": true,
+      "kind": "path-contract",
+      "locations": [
+        "system/path-contract.md:13",
+        "system/path-contract.md:41",
+        "workers/"
+      ],
+      "finding": "13 files across five new root workers directories are outside the six-directory contract. Boundary checker pass does not inspect arbitrary root dirs, so does not waive this drift.",
+      "action": "Use exact proposed rehome manifest into current outputs run workers; preserve source hashes and repair references. No move executed by auditor."
+    },
+    {
+      "id": "PUB092-B02",
+      "blocking": true,
+      "kind": "source-locator",
+      "locations": [
+        "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md:25",
+        "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md:26"
+      ],
+      "finding": "Both actual_body_file fields point to nonexistent attachment-object-response.pdf paths. The originals are present under other names and hash-match; this is a fixable pointer defect, not loss of source identity.",
+      "action": "Emediato→tmp/day24-emediato1997-ce133-rdds-072/publisher-direct-pdf.pdf (102259B,39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df). Joss→tmp/day24-joss1998-133ce-triaxial-lifetime-078/publisher-pdf.pdf (120604B,81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a). Other15 explicit body pointers exist/hashmatch."
+    },
+    {
+      "id": "PUB092-B03",
+      "blocking": true,
+      "kind": "source-lineage-current-summary",
+      "locations": [
+        "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md:45",
+        "knowledge/projects/133ce-thesis-analysis-blueprint.md:584"
+      ],
+      "finding": "The current Summary and blueprint still say independent Gammasphere primary / complementary rather than repeated votes, while source limitations correctly says same1995 campaign. Current summaries can imply independent1995/1996 events.",
+      "action": "State same116Cd+22Ne/31-Ge event set as1995, new1996 sequences/analysis, and independent only versus Joss1998. Preserve087 history."
+    },
+    {
+      "id": "PUB092-B04",
+      "blocking": true,
+      "kind": "numerical-transcription",
+      "locations": [
+        "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md:54",
+        "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md:50",
+        "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md:74"
+      ],
+      "finding": "HA96 bands3/5/6/7 are each~0.5%, not .5–2%. Joss ratio order is132Ce:131Ce:133Ce=5:4:1. Joss999.3 τSF is0.49±0.01ps, not .49(.10).",
+      "action": "Correct to actual primary text/visual: HA96 OCR printed614 lines92–98; Joss PDF1 text56–61; Joss PDF2 TableI visually checked by092."
+    },
+    {
+      "id": "PUB092-B05",
+      "blocking": true,
+      "kind": "uncertainty-and-table-schema",
+      "locations": [
+        "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md:59",
+        "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md:60"
+      ],
+      "finding": "JO98-D24-002 has8cells for7column header due extra direct cell. JO98-D24-003 says final reported error includes10–15% stopping systematic; PDF4 separately warns absoluteQt10–15%, without establishing inclusion in weighted2.2±.1.",
+      "action": "Remove extra cell; state weighted formal result and separate absolute stopping warning. Do not synthesize a new uncertainty/CI."
+    },
+    {
+      "id": "PUB092-B06",
+      "blocking": true,
+      "kind": "parent-state-binding",
+      "locations": [
+        "knowledge/projects/133ce-thesis-analysis-blueprint.md:592"
+      ],
+      "finding": "The1809.1 parent row is incorrectly assigned582.7 and582out/out gap, which belong to1409.8.",
+      "action": "Keep582.7/817.7 gap on1409.8. On1809.1 preserve464.4 with982.0 out/out candidate and608.3 out/in reference/overlap boundary."
+    },
+    {
+      "id": "PUB092-B07",
+      "blocking": true,
+      "kind": "080-audit-corrections",
+      "locations": [
+        "workers/ce133-crosswalk-audit-080/report.md:19",
+        "workers/ce133-crosswalk-audit-080/report.md:49",
+        "workers/ce133-crosswalk-audit-080/report.md:64",
+        "workers/ce133-crosswalk-audit-080/report.md:70",
+        "workers/ce133-crosswalk-audit-080/ledger.json:441"
+      ],
+      "finding": "080 wrongly calls592.1/J13/2 only-derived/unobserved, its ledger says Gizon1163.6→9/2 though actual→13/2, compares old608.7 only to modern608.3 instead of preserving1200.8→592.1/608.7 candidate, and falsely attributes modernWK22 migration warning to Emediato authors.",
+      "action": "Correct/quarantine before publication; label modern migration warning as task inference. Existing adopted.ensdf line148 directly records592.1(6)/13/2− and lines151–157 its384.7/554.9 links; do not import extra adoptedclock blindly. PreserveGZ old1163.6→554.9/608.7 ↔ modern1200.8→592.1/608.7 as single-edge candidate, not wholeBand4. 080 reviewer is also its author; this is self-correction, not independent science certification."
+    },
+    {
+      "id": "PUB092-B08",
+      "blocking": true,
+      "kind": "SI-process-boundary",
+      "locations": [
+        "workers/ce133-primary-followup-081/report.md:35",
+        "tmp/day24-ce133-primary-followup-081/manifest.json:11",
+        "system/workflows/continuous-learning.md:30"
+      ],
+      "finding": "081 used --no-si/si_requested:false after045 automaticSI rule; canonical SI入口未识别 cannot establish that an SI discovery check happened. No evidence found that SI exists or is absent.",
+      "action": "Preserve historical flag and either perform a bounded official SI discovery with --si/current authorized route, or explicitly record not-requested/unverified and why scope remains partial. Do not claim SI none, do not ask user. This blocks a full-resource-completion claim, not bounded main-body science publication."
+    },
+    {
+      "id": "PUB092-B09",
+      "blocking": true,
+      "kind": "knowledge-only-copy-gap",
+      "locations": [
+        "workers/ce133-primary-followup-081/report.md:54",
+        "workers/ce133-hauschild1996-083/report.md:59"
+      ],
+      "finding": "Some reusable worker details still only live in reports: HA95 Table1 comparison against136Nd; HA96 per-band crossing/frequency/gain alternatives,833-style normal-link candidate list832/847/934/1177, and importedQt>2.3 from unpublishedRef12 (source limits say noQt without distinguishing no-newQt). Canonical has broad summaries but lacks these exact reusable rows.",
+      "action": "Root select useful exact rows, direct-primary verify, add source claim IDs+locators and update single writeback block; else mark excluded detail provisional/nonadopted. Do not advertise all report science as written back merely because45paths/771tokens exist."
+    },
+    {
+      "id": "PUB092-N10",
+      "blocking": false,
+      "kind": "reading-scope-provenance",
+      "locations": [
+        "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md:41",
+        "workers/ce133-primary-followup-081/report.md",
+        "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-independent-primary-079/receipt.json"
+      ],
+      "finding": "079 and083 explicitly claim fullHa96 body/Figs1–9 worker reading. No new root-independent-fullread proof was established by092. Ha96 source says 表格 although inspected primary has no numbered table. Earlier BR85/LLR78/GZ/Review reading scopes correctly separate worker partition and root subset.",
+      "action": "Credit full read to actual reader; root only own documented text/visual scope. Remove unsupported table/fullroot wording rather than infer read completion from extraction, filenames or worker completion. No finding that all reported root reads are false."
+    },
+    {
+      "id": "PUB092-N11",
+      "blocking": false,
+      "kind": "selflinks-and-report-scope",
+      "locations": [
+        "workers/day24-integrity-089/report.md:5",
+        "knowledge/sources/hauschild-1995-133ce-superdeformed-bands.md:75",
+        "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md:70"
+      ],
+      "finding": "089771/771 exact-token check is valid but not scientific or independent-source certification. Several Day24...link tails selflink their own source (NNDC/Butler/Emediato/Joss/Ha95/Ha96; Singh also has a selflink).",
+      "action": "Keep089 historical, qualify scope with092 findings; remove redundant tails if touched. Selflinks alone do not block science publication."
+    },
+    {
+      "id": "PUB092-N12",
+      "blocking": false,
+      "kind": "curriculum-and-manifest",
+      "locations": [
+        "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/run.json",
+        "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/publication-manifest-001.json"
+      ],
+      "finding": "Report retains same session01a177ac-521f-7212-9312-ba967400db98, deadline2026-10-27 15:00+08, completed[],partial[24,25],next24. Old001 manifest is checkpoint-only, not final45page scope. run.json has older runner snapshot/partial[] while report haspartial[24,25].",
+      "action": "Do not fabricate runner history or advance course. At authorized closeout reconcile current receipts/resume command and exact final manifest; preserve001 as historical. No092 credit/course/session mutation."
+    }
+  ],
+  "structural_summary": {
+    "knowledge_writeback_blocks": 1,
+    "items": 45,
+    "unique_knowledge_paths": 45,
+    "all_paths_exist": true,
+    "all_anchors_present": true,
+    "source_references": 771,
+    "exact_atomic_locator_missing": [],
+    "source_pages": 39,
+    "review_status_counts": {
+      "human-reviewed": 3,
+      "unreviewed": 36
+    },
+    "actual_body_pointers": 17,
+    "existing_body_pointers": 15,
+    "broken_body_pointers": [
+      "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+      "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "scope": "printed-energy-arithmetic-not-independent-evidence-or-error-test",
+  "source": "Gizon1974 PDF7 Fig5/PDF14 Fig8",
+  "cases": [
+    {
+      "label": "137Nd E3 cascade",
+      "terms_keV": [
+        "233.4",
+        "285.8"
+      ],
+      "printed_endpoint_keV": "519.2",
+      "sum_keV": 519.2,
+      "residual_keV": 0.0
+    },
+    {
+      "label": "137Nd13/2",
+      "terms_keV": [
+        "519.2",
+        "581.4"
+      ],
+      "printed_endpoint_keV": "1100.6",
+      "sum_keV": 1100.6,
+      "residual_keV": 0.0
+    },
+    {
+      "label": "137Nd15/2",
+      "terms_keV": [
+        "519.2",
+        "668.9"
+      ],
+      "printed_endpoint_keV": "1188.1",
+      "sum_keV": 1188.1,
+      "residual_keV": 0.0
+    },
+    {
+      "label": "137Ndside19/2",
+      "terms_keV": [
+        "1894.2",
+        "328.2"
+      ],
+      "printed_endpoint_keV": "2222.4",
+      "sum_keV": 2222.4,
+      "residual_keV": 0.0
+    },
+    {
+      "label": "137Ndside23/2",
+      "terms_keV": [
+        "2222.4",
+        "407.2"
+      ],
+      "printed_endpoint_keV": "2629.6",
+      "sum_keV": 2629.6,
+      "residual_keV": 0.0
+    },
+    {
+      "label": "135Nd13/2",
+      "terms_keV": [
+        "198.5",
+        "362.2"
+      ],
+      "printed_endpoint_keV": "560.7",
+      "sum_keV": 560.7,
+      "residual_keV": 0.0
+    },
+    {
+      "label": "135Nd15/2",
+      "terms_keV": [
+        "560.7",
+        "232.2"
+      ],
+      "printed_endpoint_keV": "792.9",
+      "sum_keV": 792.9,
+      "residual_keV": 0.0
+    }
+  ],
+  "not_observed_137Nd_lines": {
+    "15/2_to_13/2": "87.5 inferred by level difference, source explicitly not observed",
+    "19/2_to_17/2": "176.8 inferred by level difference, source explicitly not observed"
+  },
+  "observed_135Nd_crossover_literal_versions": {
+    "table3": "560.3",
+    "text": "560.5",
+    "figure_endpoints": "560.7"
+  },
+  "confidence_or_significance_computed": false
+}

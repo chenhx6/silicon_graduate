@@ -1,0 +1,32 @@
+[
+  {
+    "report": "080",
+    "status": "core already canonical; erroneous080detail must not be promoted",
+    "canonical": "knowledge/projects/133ce-thesis-analysis-blueprint.md:336,529,586",
+    "detail": "nineedges/clock gaps/oldunassignedlines retained; extra arithmetic candidate residuals not all canonical but can remain audit-only"
+  },
+  {
+    "report": "081",
+    "status": "partially unique",
+    "canonical": "knowledge/sources/hauschild-1995-133ce-superdeformed-bands.md",
+    "detail": "Table1 Band2 vs136Nd720.3–1822/716.5–1815 and differences missing fromcanonical; decide/use source locator before promotion"
+  },
+  {
+    "report": "083",
+    "status": "partially unique",
+    "canonical": "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md",
+    "detail": "14worker atoms collapsed to5source atoms; exact perband crossing/gains/normal-link candidates/importedQt>2.3 lineage not all durable"
+  },
+  {
+    "report": "088",
+    "status": "no new science; access receipt only",
+    "canonical": "knowledge/projects/133ce-thesis-analysis-blueprint.md:566",
+    "detail": "1991bodygap already durable; CAPTCHA response details belong outputs/tmp"
+  },
+  {
+    "report": "089",
+    "status": "audit metadata; no unique science",
+    "canonical": "45page writeback is audit target,not scientific source",
+    "detail": "771literalrefs isvalid but inadequate scientific certificate"
+  }
+]

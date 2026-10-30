@@ -1,0 +1,97 @@
+{
+  "status": "publisher_pdf_downloaded_verified",
+  "source": {
+    "doi": "10.1103/PhysRevLett.96.052501",
+    "title": "Transition Probabilities in 134Pr: A Test for Chirality in Nuclear Systems",
+    "authors": [
+      "D. Tonev",
+      "G. de Angelis",
+      "P. Petkov",
+      "A. Dewald",
+      "S. Brant",
+      "S. Frauendorf",
+      "D. L. Balabanski",
+      "P. Pejovic",
+      "D. Bazzacco",
+      "P. Bednarczyk",
+      "F. Camera",
+      "A. Fitzler",
+      "A. Gadea",
+      "S. Lenzi",
+      "S. Lunardi",
+      "N. Marginean",
+      "O. Möller",
+      "D. R. Napoli",
+      "A. Paleni",
+      "C. M. Petrache",
+      "G. Prete",
+      "K. O. Zell",
+      "Y. H. Zhang",
+      "Jing-ye Zhang",
+      "Q. Zhong",
+      "D. Curien"
+    ],
+    "journal": "Physical Review Letters",
+    "volume": 96,
+    "issue": 5,
+    "article_number": "052501",
+    "pages": "052501(1–5)",
+    "year": 2006,
+    "date": "2006-02-09",
+    "received": "2005-07-04",
+    "pdf": "tmp/day24-tonev134pr-primary-090/body.pdf",
+    "bytes": 347475,
+    "pages_physical": 5,
+    "sha256": "eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134",
+    "printed_page_offset": 0,
+    "metadata_verified": [
+      "Crossref exact",
+      "APS PRL PDF first page"
+    ],
+    "access": "APS direct PDF, public fetch; not an open-license claim",
+    "landing_url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.96.052501"
+  },
+  "attempts": [
+    {
+      "name": "crossref",
+      "url": "https://api.crossref.org/works/10.1103%2FPhysRevLett.96.052501",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 7655,
+      "sha256": "67c203b7a65c6113ded2aac05b120c832d7c5db5cf062717084305ff151e8233",
+      "final_url": "https://api.crossref.org/works/10.1103%2FPhysRevLett.96.052501",
+      "pdf": false,
+      "file": "tmp/day24-tonev134pr-primary-090/crossref.json"
+    },
+    {
+      "name": "landing",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.96.052501",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "bytes": 109077,
+      "sha256": "b9f8e65366784759c2a6a07b63e95d2fdc88b4ffc51342a384cb138ea9035178",
+      "final_url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.96.052501",
+      "pdf": false,
+      "file": "tmp/day24-tonev134pr-primary-090/landing.html"
+    },
+    {
+      "name": "body",
+      "url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.96.052501",
+      "status": 200,
+      "content_type": "application/pdf",
+      "bytes": 347475,
+      "sha256": "eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134",
+      "final_url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.96.052501",
+      "pdf": true,
+      "file": "tmp/day24-tonev134pr-primary-090/body.pdf"
+    }
+  ],
+  "si": {
+    "requested": true,
+    "status": "not_identified_on_article_landing_or_in_body",
+    "scope": "APS PRL landing links checked; 5-page PDF read; no global absence claim",
+    "candidate_count": 0
+  },
+  "credentials_printed_or_changed": false,
+  "oa_license_claim": false
+}

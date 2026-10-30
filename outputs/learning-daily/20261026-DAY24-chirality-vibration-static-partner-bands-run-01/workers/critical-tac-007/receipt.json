@@ -1,0 +1,658 @@
+{
+  "finished_utc": "2026-10-26T11:56:41.388549+00:00",
+  "kind": "source-unit-complete-at-explicit-author-version-boundary",
+  "target_doi": "10.1103/PhysRevLett.93.052501",
+  "title_verified_by_crossref": "Critical Frequency in Nuclear Chiral Rotation",
+  "VoR_body_obtained": false,
+  "actual_body_read": "arXiv:nucl-th/0211075v1 (2002-11-25), 3 authors",
+  "actual_pdf_sha256": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+  "pages_read": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "figures_visually_read": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "equations_read": [
+    "1",
+    "2",
+    "3",
+    "4a",
+    "4b",
+    "4c",
+    "5",
+    "6",
+    "7"
+  ],
+  "body_acquisition_routes": [
+    "official arXiv linked by arXiv API",
+    "APS registered harvest fulltext endpoint, HTTP401",
+    "author-hosted homepage → earlier papers → linked article HTML (same 3-author manuscript)"
+  ],
+  "claims_persisted_by_worker": false,
+  "records": [
+    {
+      "key": "aps-93-052501",
+      "utc": "2026-10-26T11:51:33.300569+00:00",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.93.052501/fulltext",
+      "curl_exit": 0,
+      "metadata": "401\thttps://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.93.052501/fulltext\tapplication/json",
+      "error": "",
+      "bytes": 69,
+      "sha256": "cd9dbff012ad24ba529cc29146d7b119df69b2aad9b4318ffff9afe33abd9209",
+      "pdf_signature": false
+    },
+    {
+      "key": "arxiv-0211075v1",
+      "utc": "2026-10-26T11:51:32.074268+00:00",
+      "url": "https://arxiv.org/pdf/nucl-th/0211075v1",
+      "curl_exit": 0,
+      "metadata": "200\thttps://arxiv.org/pdf/nucl-th/0211075v1\tapplication/pdf",
+      "error": "",
+      "bytes": 252547,
+      "sha256": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+      "pdf_signature": true,
+      "pages": 4,
+      "pdf_metadata": {
+        "format": "PDF 1.4",
+        "title": "arXiv:nucl-th/0211075v1  25 Nov 2002",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "dvips(k) 5.86 Copyright 1999 Radical Eye Software",
+        "producer": "GPL Ghostscript GIT PRERELEASE 9.22",
+        "creationDate": "D:20210822115316-04'00'",
+        "modDate": "D:20210822115316-04'00'",
+        "trapped": "",
+        "encryption": null
+      }
+    },
+    {
+      "key": "arxiv-search",
+      "utc": "2026-10-26T11:51:10.222080+00:00",
+      "url": "https://export.arxiv.org/api/query?search_query=au:Olbratowski%20AND%20ti:critical&max_results=5",
+      "curl_exit": 0,
+      "metadata": "200\thttps://export.arxiv.org/api/query?search_query=au:Olbratowski%20AND%20ti:critical&max_results=5\tapplication/atom+xml; charset=utf-8",
+      "error": "",
+      "bytes": 2190,
+      "sha256": "6b06cee267cd9644ecbcab67ba54cf6099357ad3ebe0981d774fda0c60780873",
+      "pdf_signature": false,
+      "entries": [
+        {
+          "id": "http://arxiv.org/abs/nucl-th/0211075v1",
+          "title": "Critical frequency in nuclear chiral rotation",
+          "links": [
+            {
+              "href": "https://arxiv.org/abs/nucl-th/0211075v1",
+              "rel": "alternate",
+              "type": "text/html"
+            },
+            {
+              "href": "https://arxiv.org/pdf/nucl-th/0211075v1",
+              "rel": "related",
+              "type": "application/pdf",
+              "title": "pdf"
+            },
+            {
+              "rel": "related",
+              "href": "https://doi.org/10.1103/PhysRevLett.93.052501",
+              "title": "doi"
+            }
+          ],
+          "summary": "  Within the cranked Skyrme-Hartree-Fock approach the self-consistent solutions have been obtained for planar and chiral rotational bands in 132La. It turns out that the chiral band cannot exist below some critical rotational frequency which in the present case equals omega=0.6MeV. The appearance of the critical frequency is explained in terms of a simple classical model of two gyroscopes coupled to a triaxial rigid body."
+        }
+      ]
+    },
+    {
+      "url": "https://users.fuw.edu.pl/~dobaczew/chir43w/chir43w.html",
+      "curl_exit": 0,
+      "metadata": "200\thttps://users.fuw.edu.pl/~dobaczew/chir43w/chir43w.html\ttext/html",
+      "error": "",
+      "bytes": 41413,
+      "sha256": "e8bf9524c7da3e384fd7c9bf61c85427284e3b3c8f7381e92d5a319b500aff90",
+      "text": "Critical frequency in nuclear chiral rotation Next: Bibliography Up: Jacek Dobaczewski - home page 1 Institute of Theoretical Physics, Warsaw University,\n    Hoza 69, PL-00681, Warsaw, Poland 2 Institut de Recherches Subatomiques,\n    UMR7500, CNRS-IN2P3 and Université Louis Pasteur, F-67037 Strasbourg Cedex 2, France Critical frequency in nuclear chiral rotation P. Olbratowski, 1,2 J. Dobaczewski, 1,2 and\n J. Dudek 2 Abstract: Within the cranked Skyrme-Hartree-Fock approach the self-consistent\nsolutions have been obtained for planar and chiral rotational bands\nin 132 La. It turns out that the chiral band cannot exist below\nsome critical rotational frequency which in the present case equals =0.6MeV. The appearance of the critical frequency is\nexplained in terms of a simple classical model of two gyroscopes\ncoupled to a triaxial rigid body. Spontaneous chiral symmetry breaking constitutes an interesting type\nof collective effect in fermion systems [ 1 ]. In the\npresent context, a system is called chiral if it is not related to\nits time-reversed partner by a spatial rotation. A rotating triaxial\nbody with its angular momentum pointing towards one of the octants of\nthe intrinsic coordinate system, where the short ( s ), medium ( m )\nand long ( l ) axes form either a left- or right-handed set, is an\nexample. In the laboratory frame, the chiral rotation leads to pairs\nof rotational bands. Rigid bodies with no internal structure cannot\nrotate freely in such a way, and therefore, investigation of the\nchiral rotation may give us information on the underlying internal\nproperties. Triaxiality is common in molecules where it arises from a spatial\narrangement of the constituent atoms. In nuclei it can be induced by\nshell effects. It has been suggested [ 1 ] that appearance\nof chiral doublets may provide a strong evidence for nuclear\ntriaxiality. Candidates for such doublets were recently observed in\nseveral N =75 isotones [ 2 ], 132 La among them.\nCalculations within the particle-rotor model [ 3 ] confirm\ntheir possible chiral character. As proposed in Ref. [ 4 ], the chiral rotation may appear if\na few proton particles occupy the lowest substates of a high- j orbital, and simultaneously a few neutron holes are left in the\nhighest substates. The former drive the nucleus towards elongated\nshapes, while the latter towards disc-like shapes. An interplay of\nthese opposite tendencies may yield triaxiality. It also turns out\nthat the considered particles and holes align their angular momenta\nalong the short and long axes, respectively. As follows from\nhydrodynamical considerations [ 5 ], the moment of inertia\nalong the medium axis is the largest, thus favoring the collective\ncore rotation around this axis. Therefore, the total spin has\nnon-zero components on all axes, creating the possibility of left- or\nright-handed rotation. In the present study we consider the configuration in 132 La,\nwhich fulfills the above prerequisite conditions for the chiral\nrotation. Our analysis is based on the Hartree-Fock (HF) cranking\ncalculations [ 6 ] with the angular frequency vector that can\narbitrarily orient itself with respect to the mass distribution\n(Tilted-Axis Cranking (TAC) model [ 7 ]). In all HF\nsolutions found in 132 La a stable triaxial deformation of about and was obtained. In the framework\nof the TAC model, with phenomenological mean field, chiral solutions\nwere already obtained in 134 Pr and 188 Ir [ 8 ]. In order to study the rotational properties of the single-particle\n(s.p.) orbitals in question, we first applied the angular-momentum\ncranking in the s - l plane for\n0< , <0.5MeV. Calculations were\nperformed non-selfconsistently, starting from the converged HF\nsolution obtained at =0. Figure 1: Single-particle alignments on the short ( )\nand long ( )\naxes for the h 11/2 odd proton particle\nand neutron hole in 132 La. Results of the non-selfconsistent\ncranking calculations are shown in function of (left) and (right). Solid lines correspond to =0\n(left) and =0 (right), and dashed lines to =0.5 (left) and =0.5MeV (right),\nwhile results for all intermediate values lie between the solid and\ndashed curves. For =0 the proton particle does indeed align its spin\nalong the short, and the neutron hole along the long axis, see\nFig. 1 . The response of these alignments to rotation\nis rather weak, meaning that the s.p. wave functions are strongly\nconfined by deformation. In the proton case, only the alignment on\nthe long axis changes in response to rotation and it depends only on .\nThe neutron alignment shows similar properties with the\nshort and long axes interchanged. These results can be summarized as\nfollows (1) where and are the unit vectors\nalong the short and long axes, respectively. Therefore, the odd\nparticle and hole behave as gyroscopes of spins s s and s l ,\nrigidly fixed along the long and short axes, respectively. In\naddition, the s.p. alignments also have small perpendicular\ncomponents that amount to small contributions, and ,\nto the collective total moments of inertia. Note, that the above analysis could not be done self-consistently,\nbecause we oriented vector along all directions in the\nintrinsic frame. In self-consistent solutions its orientation is\nconstrained by the Kerman-Onishi theorem [ 9 ] requiring\nthat and be parallel. To examine the collective rotational behavior we now turn to\nself-consistent calculations with the standard axial cranking, that\nis when both and point along either of the\nthree principal axes of the mass distribution. Figure 2 shows the properties of the three resulting bands\nat frequencies of 0.5MeV. One can see that at\nzero frequency cranking around the medium ( m ) axis gives a\nvanishing angular momentum, while those around the other two ( s and l ) give non-zero values equal to the s.p. alignments of the odd\nproton particle and neutron hole, s s =5.43 and s l =5.00 ,\nrespectively. For each of the three bands the\ndependence of I on is linear, like for a rigid rotation,\nand the corresponding slopes give the microscopic collective moments\nof inertia along the principal axes, , ,\nand /MeV. These values already contain the\ncontributions, and ,\nfrom the odd\nparticle and hole. Figure 2: Angular momenta (left) and excitation energies (right) in 132 La are shown for the HF bands corresponding to the axial\ncranking along the short ( s ), medium ( m ), and long ( l )\nprincipal axes. The microscopic results presented up to now do show that the system\ncan indeed be described in terms of two gyroscopes plus a collective\ncore. It is therefore fully justified to use a particle-core coupling\nmodel to describe the resulting quantum states [ 3 , 4 ].\nHowever, in the present study we also argue that basic features of\nthe system are purely classical. To show that, we now discuss a very\nsimple classical model that faithfully represents salient aspects of\nthe underlying physical situation. The model consists of a triaxial rigid body [ 10 ] with two\ngyroscopes rigidly fixed along its short and long axes, modeling the\nodd nucleons. Moments of inertia obtained above are the\ndiagonal components of the body inertia tensor ,\nwhich we\notherwise assume diagonal, while denotes the vector sum\nof the gyroscopes' spins. The angular momentum of this system reads .\nHere we look only for uniform\nrotations, by which we understand that is constant in\nthe body-fixed frame. In such a case, the Euler equations\n[ 11 ] take the form ,\nand require\nthat and be parallel, like for the\nself-consistent cranking solutions  [ 9 ]. These equations\ncan easily be solved. However, to keep contact with the Hartree-Fock\nmethod, here we employ the variational principle to find the\nsolutions. The Lagrangian of the system is equal to the sum of kinetic energies\nof the body and gyroscopes [ 12 ], (2) and for uniform rotations it is independent of time. Hence,\nminimization of the action integral is equivalent\nto minimizing the Lagrangian as function of . Since the Hamiltonian of the system is ,\nthe uniform solutions can be obtained by finding extrema of function which is called Routhian. This serves\nas a bridge between our classical model and the quantum cranking\ntheory where an analogous Routhian is minimized in the space of trial\nSlater determinants. Extrema of R with respect to the components of in the\nintrinsic frame at a given can be found by using a\nLagrange multiplier for .\nSetting to zero the\nderivatives of the quantity: = + (3) with respect to , ,\nand ,\none gets = 0              , (4) = (5) = (6) Equation ( 4 ) gives either or leading to two distinct classes of solutions. Planar solutions: If then both and lie in the s - l plane where also the gyroscopes' spins are\nlocated. This gives planar solutions for which the chiral symmetry is\nconserved. All values of are allowed, and the Lagrange\nmultiplier must  be determined from the magnitude of .\nFigure 3 shows versus for the parameters\nextracted from the HF solutions. As can be seen, there always exist\ntwo solutions and above some rotational frequency two more appear.\nThis threshold frequency reads (7) For the present model parameters, the threshold frequency is rather high, =1.28MeV. Figure 3: Classical planar solutions for the uniform rotation are\nvisualized as intersections of the horizontal line with the function obtained from Eqs. ( 5 )-( 6 ). The\nclassical chiral solution is given by = . Chiral solutions: For = all values of are\nallowed, while the components in the s - l plane are fixed at (8) Consequently",
+      "links": [
+        [
+          "",
+          {
+            "name": "tex2html7",
+            "href": "node1.html"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "home_page",
+            "href": "../.index.html"
+          }
+        ],
+        [
+          "Bibliography",
+          {
+            "name": "tex2html8",
+            "href": "node1.html"
+          }
+        ],
+        [
+          "Jacek Dobaczewski - home page",
+          {
+            "name": "home_page",
+            "href": "../.index.html"
+          }
+        ],
+        [
+          "1",
+          {
+            "href": "node1.html#Fra00"
+          }
+        ],
+        [
+          "1",
+          {
+            "href": "node1.html#Fra00"
+          }
+        ],
+        [
+          "2",
+          {
+            "href": "node1.html#Sta01"
+          }
+        ],
+        [
+          "3",
+          {
+            "href": "node1.html#Sta02"
+          }
+        ],
+        [
+          "4",
+          {
+            "href": "node1.html#Fra97"
+          }
+        ],
+        [
+          "5",
+          {
+            "href": "node1.html#Boh75"
+          }
+        ],
+        [
+          "6",
+          {
+            "href": "node1.html#HF"
+          }
+        ],
+        [
+          "7",
+          {
+            "href": "node1.html#Fra93"
+          }
+        ],
+        [
+          "8",
+          {
+            "href": "node1.html#Dim00"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "gyroscopes"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "318"
+          }
+        ],
+        [
+          "1",
+          {
+            "href": "chir43w.html#gyroscopes"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "alig"
+          }
+        ],
+        [
+          "9",
+          {
+            "href": "node1.html#Ker81"
+          }
+        ],
+        [
+          "2",
+          {
+            "href": "chir43w.html#energy-spin"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "energy-spin"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "326"
+          }
+        ],
+        [
+          "3",
+          {
+            "href": "node1.html#Sta02"
+          }
+        ],
+        [
+          "4",
+          {
+            "href": "node1.html#Fra97"
+          }
+        ],
+        [
+          "10",
+          {
+            "href": "node1.html#OSC"
+          }
+        ],
+        [
+          "11",
+          {
+            "href": "node1.html#Gol53"
+          }
+        ],
+        [
+          "9",
+          {
+            "href": "node1.html#Ker81"
+          }
+        ],
+        [
+          "12",
+          {
+            "href": "node1.html#Vol98"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "eq02"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "eq05"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "eq05a"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "eq05b"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "eq05c"
+          }
+        ],
+        [
+          "4",
+          {
+            "href": "chir43w.html#eq05a"
+          }
+        ],
+        [
+          "3",
+          {
+            "href": "chir43w.html#lambda"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "eq06"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "lambda"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "336"
+          }
+        ],
+        [
+          "5",
+          {
+            "href": "chir43w.html#eq05b"
+          }
+        ],
+        [
+          "6",
+          {
+            "href": "chir43w.html#eq05c"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "eq07"
+          }
+        ],
+        [
+          "8",
+          {
+            "href": "chir43w.html#eq07"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "eq08"
+          }
+        ],
+        [
+          "4",
+          {
+            "href": "chir43w.html#angular"
+          }
+        ],
+        [
+          "5",
+          {
+            "href": "chir43w.html#3D"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "angular"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "219"
+          }
+        ],
+        [
+          "5",
+          {
+            "href": "chir43w.html#3D"
+          }
+        ],
+        [
+          "2",
+          {
+            "href": "node1.html#Sta01"
+          }
+        ],
+        [
+          "6",
+          {
+            "href": "chir43w.html#excitation"
+          }
+        ],
+        [
+          "2",
+          {
+            "href": "node1.html#Sta01"
+          }
+        ],
+        [
+          "9",
+          {
+            "href": "chir43w.html#eq08"
+          }
+        ],
+        [
+          "5",
+          {
+            "href": "node1.html#Boh75"
+          }
+        ],
+        [
+          "4",
+          {
+            "href": "node1.html#Fra97"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "3D"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "242"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "excitation"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "348"
+          }
+        ],
+        [
+          "3",
+          {
+            "href": "node1.html#Sta02"
+          }
+        ],
+        [
+          "2",
+          {
+            "href": "node1.html#Sta01"
+          }
+        ],
+        [
+          "6",
+          {
+            "href": "chir43w.html#excitation"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "CHILD_LINKS"
+          }
+        ],
+        [
+          "Bibliography",
+          {
+            "name": "tex2html9",
+            "href": "node1.html"
+          }
+        ],
+        [
+          "About this document ...",
+          {
+            "name": "tex2html10",
+            "href": "node2.html"
+          }
+        ],
+        [
+          "",
+          {
+            "name": "tex2html7",
+            "href": "node1.html"
+          }
+        ],
+        [
+          "Bibliography",
+          {
+            "name": "tex2html8",
+            "href": "node1.html"
+          }
+        ]
+      ]
+    },
+    {
+      "url": "https://users.fuw.edu.pl/~dobaczew/earlier.html",
+      "curl_exit": 0,
+      "metadata": "200\thttps://users.fuw.edu.pl/~dobaczew/earlier.html\ttext/html",
+      "error": "",
+      "bytes": 91186,
+      "sha256": "0b0b54c21d724a2549a8e1a468cd396a3749068eb377566e937d7fd269d48cc0",
+      "target_row": "Critical frequency in nuclear chiral rotation November 25, 2002 Phys. Rev. Lett. 93 (2004) 052501 196kB nucl-th/0211075",
+      "links": [
+        {
+          "href": "chir43w/chir43w.html"
+        },
+        {
+          "href": "http://arXiv.org/ps/nucl-th/0211075"
+        },
+        {
+          "href": "http://arXiv.org/abs/nucl-th/0211075"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fuw.edu.pl/~dobaczew/",
+      "curl_exit": 0,
+      "metadata": "200\thttps://users.fuw.edu.pl/~dobaczew/\ttext/html",
+      "error": "",
+      "bytes": 20657,
+      "sha256": "8b771227dea8d441ad15b57580be370a2620db8cb53a8451fa5a8798ff3803e7",
+      "text": "Jacek Dobaczewski - home page Jacek Dobaczewski Polska\nwersja tej strony Home page Contents: Address Research interests Research group Publications Recently submitted papers Earlier submitted papers Curriculum vitae What's new Addresses E-mail address: user@domain where user=Jacek.Dobaczewski and domain=fuw.edu.pl WWW address: http://www.fuw.edu.pl/~dobaczew/ Postal address: Institute of\nTheoretical Physics Faculty of Physics University of Warsaw Pasteura 5 PL-02-093 Warsaw, POLAND Office: Office no. 5.74, fifth floor Phone: +48 (22) 5532-974 Secretary office: +48 (22) 5532-949 Fax: +48 (22) 5532-995 Back to top Research interests Physics of exotic nuclei :\nPairing and deformation in nuclei near neutron drip line. Coupling\nto continuum. Isospin and density dependence of effective interactions.\nCollective excitations in weakly bound nuclei. Physics of rapidly rotating nuclei :\nRotational bands in superdeformed nuclei. Magnetic rotation and chiral rotation.\nRotation of exotic shapes: pyramid and diamond shapes. Identical bands.\nEffective interactions in time-odd channels. Back to top Research group: Nuclear Structure\nTheory Division 1996-1997 Activity report 1998-1999 Activity report 2000-2001 Activity report 2002-2003 Activity report Back to top List of publications As of November 19, 2024 is available here . Back to top Papers submitted during the past 18 months (Links to papers submitted earlier are here ) Title Submitted on Submitted to PDF arxiv.org Shape polarization in the tin isotopes near N = 60 from precision g-factor measurements in short-lived 11/2 - isomers August 28, 2023 Physics Letters B847 , 138268 (2023) Open Access arXiv:2310.11980 Electromagnetic properties of indium isotopes elucidate the doubly magic character of 100 Sn November 16, 2023 Nature Physics 20 , 1719 (2024) available arXiv:2310.15093 Two-center harmonic oscillator basis for Skyrme-DFT calculations (I): formalism and Proof of Principle June 5, 2024 Physical Review C , submitted arXiv arXiv:2406.12545 Back to top Curriculum vitae A concise version of November 19, 2024 is available here . Back to top What's new 20-11-2017 The Claude Bernard\nLyon 1 University conferred on me an honorary degree of Doctor Honoris Causa . A short speech that I have given during the\nceremony can be found here . 07-08-2016 I have given four one-day lectures at the TALENT Course 4: Density\nFunctional Theory and Self-Consistent Methods , which was held at the\nUniversity of York in York, UK, from July 17 to August 6, 2016. The other\nthree principal lecturers were Andrea Idini, Alessandro Pastore, and Nicolas\nSchunck. All of the course materials and videos are made freely available here and TALENT encourages students and scientists worldwide to\nmake use of them. 31-08-2015 \"Nuclear structure theory\" is a series of lectures presented at the 18th STFC UK Postgraduate Nuclear Physics Summer School ,\n24 August - 5 September, 2015, Lancaster University, UK.\nThe lectures are also available as\na PDF file (15MB) or as a PowerPoint file (20MB) .\nThe slides presented during the talk can also be downloaded as a set of 94 zipped GIF pictures (4MB) . 27-02-2015 I have been appointed a Chair in theoretical nuclear physics at the University of York , with the mission of establishing new nuclear physics theory activity at York. 06-06-2012 I have obtained the second FIDIPRO grant , which will allow me to continue\nin years 2013-2017 at the University of\nJyväskylä (Finland) a theoretical project aiming at a description of global properties of\nnuclei, with special emphasis on describing low-energy correlations. 18-08-2010 \"Density functional theory and energy\ndensity functionals in nuclear physics\"\nis a series of lectures presented at the 9th CNS-EFES International Summer School ,\n18-24 August 2010,\nCenter for Nuclear Study\nUniversity of Tokyo in RIKEN.\nThe lectures are here available as\na PDF file (6.6MB) . 30-01-2009 \"Energy density functional methods in nuclear physics\" is a series of lectur",
+      "links": [
+        [
+          "Publications",
+          "#D"
+        ],
+        [
+          "Recently submitted papers",
+          "#J"
+        ],
+        [
+          "Earlier submitted papers",
+          "earlier.html"
+        ]
+      ]
+    },
+    {
+      "key": "crossref",
+      "utc": "2026-10-26T11:51:10.367809+00:00",
+      "url": "https://api.crossref.org/works/10.1103/PhysRevLett.93.052501",
+      "curl_exit": 0,
+      "metadata": "200\thttps://api.crossref.org/works/10.1103/PhysRevLett.93.052501\tapplication/json",
+      "error": "",
+      "bytes": 4835,
+      "sha256": "18f1547710002f55827e7045c3c17cbe5722a2023c43a4aef577289edf551c29",
+      "pdf_signature": false,
+      "identity": {
+        "title": [
+          "Critical Frequency in Nuclear Chiral Rotation"
+        ],
+        "author": [
+          {
+            "given": "P.",
+            "family": "Olbratowski",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.",
+            "family": "Dobaczewski",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J.",
+            "family": "Dudek",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "W.",
+            "family": "Płóciennik",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "DOI": "10.1103/physrevlett.93.052501",
+        "volume": "93",
+        "page": null,
+        "issued": {
+          "date-parts": [
+            [
+              2004,
+              7,
+              29
+            ]
+          ]
+        },
+        "link": [
+          {
+            "URL": "http://link.aps.org/article/10.1103/PhysRevLett.93.052501",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.93.052501/fulltext",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ]
+      }
+    }
+  ]
+}

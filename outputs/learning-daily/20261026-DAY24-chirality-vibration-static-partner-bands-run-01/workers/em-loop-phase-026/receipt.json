@@ -1,0 +1,33 @@
+{
+  "task": "em-loop-phase-026",
+  "finished_utc": "2026-10-26T14:48:00.894325+00:00",
+  "status": "bounded-independent-information-review-complete",
+  "course_scope": "Day25uncreditedpreviewinsideDay24;026isworkernumbernotDay26;Day26closed",
+  "new_claims_needs_review": true,
+  "prior022_conclusion": "confirmedwithscoperefinements;noinventedpriorerror",
+  "new_papers_read": false,
+  "selection_rule_boundary": "actual022DeltaI2E2blockhasforbiddenM1andnosame-edgeM1E2delta",
+  "generic_counterexample_spin_scope": {
+    "initial_I": 3,
+    "final_I": 2,
+    "same_parity": true,
+    "two_states_each": true,
+    "not_actual134Pr": true
+  },
+  "gauge_law": "Mprime=Df^dagger M Di",
+  "invariant_loop": "M11 M22 conj(M12) conj(M21)",
+  "determinant_scope": "detphase/signnotstate-gaugeinvariant;absdet²andSVDare",
+  "four_moduli_identify": "Frobeniusnormaftercorrectmultipolekinematicnormalization",
+  "four_moduli_do_not_generically_identify": "loopRephase,absdet²,SVD;zeroedge/additionalconstraintsareexceptions",
+  "signed_delta_scope": "localE2/M1relativeamplitudephase,notgeneralfourE2loopconstraint",
+  "mathematical_invariant_not_automatic_observable": true,
+  "script": "loop_phase_check.py",
+  "result": "loop-phase-results.json",
+  "data_fit": false,
+  "physical_phase_assignment": false,
+  "source_H_changed": false,
+  "canonical_writes": [],
+  "raw_writes": [],
+  "git_mutations": false,
+  "new_credits": false
+}

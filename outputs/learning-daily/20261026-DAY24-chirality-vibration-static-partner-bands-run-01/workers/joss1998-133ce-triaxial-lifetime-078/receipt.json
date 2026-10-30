@@ -1,0 +1,43 @@
+{
+  "task": "078",
+  "status": "completed-full-body-read",
+  "doi": "10.1103/PhysRevC.58.3219",
+  "source_sha256": "81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a",
+  "pdf_bytes": 120604,
+  "pdf_pages": 4,
+  "read_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "all_visuals_viewed": true,
+  "whole_body_native_text": true,
+  "claims": 23,
+  "tables": [
+    "TableI",
+    "TableII"
+  ],
+  "figures": [
+    "Fig1",
+    "Fig2",
+    "Fig3",
+    "Fig4"
+  ],
+  "crosscheck": "inverse-variance Qt weighted mean 2.199(.070) rounds source 2.2(.1); no refit",
+  "primed": "primed-recall.md; ENSDF/1997 Emediato pre-exposure, nonblind, unscored",
+  "si": "landing/body no supplement links; no globalabsence claim",
+  "source_self_audit": "Codex direct-source self-audit; not human-reviewed",
+  "canonical_writes": false,
+  "raw_writes": false,
+  "git_actions": false,
+  "producer_actions": false,
+  "network_calls_bounded": true,
+  "outputs": [
+    "report.md",
+    "claim-ledger.json",
+    "source-identity.json",
+    "access-manifest.json",
+    "primed-recall.md"
+  ]
+}

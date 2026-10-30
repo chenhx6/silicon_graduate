@@ -1,0 +1,27 @@
+{
+  "scope": "Synthetic independent mathematical audit only. No CH actual producer or nuclear predictions.",
+  "files": [
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/chiral-metric-011/metric_audit.py",
+      "bytes": 8840,
+      "sha256": "5f79652954526f27cf7041360227192fba6ce3135553ac31a2206e286afec6ff"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/chiral-metric-011/report.md",
+      "bytes": 12722,
+      "sha256": "fee4787fd6c951fb750781df6bb72f99d10403073192e6ebe4e54a0fb928e94a"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/chiral-metric-011/results.json",
+      "bytes": 14467,
+      "sha256": "1a36becaa75859b8c7c424968af4dd98a491e785612d854891ab236bb700f35a"
+    }
+  ],
+  "checks": {
+    "python_ast": "pass",
+    "json_parse": "pass",
+    "markdown_whitespace": "pass",
+    "recorded_findings_match_report": true
+  },
+  "new_claims_needs_review": true
+}

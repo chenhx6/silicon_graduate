@@ -1,0 +1,92 @@
+{
+  "key": "crossref",
+  "utc": "2026-10-26T11:51:10.367809+00:00",
+  "url": "https://api.crossref.org/works/10.1103/PhysRevLett.93.052501",
+  "curl_exit": 0,
+  "metadata": "200\thttps://api.crossref.org/works/10.1103/PhysRevLett.93.052501\tapplication/json",
+  "error": "",
+  "bytes": 4835,
+  "sha256": "18f1547710002f55827e7045c3c17cbe5722a2023c43a4aef577289edf551c29",
+  "pdf_signature": false,
+  "identity": {
+    "title": [
+      "Critical Frequency in Nuclear Chiral Rotation"
+    ],
+    "author": [
+      {
+        "given": "P.",
+        "family": "Olbratowski",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Dobaczewski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Dudek",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "W.",
+        "family": "P\u0142\u00f3ciennik",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "DOI": "10.1103/physrevlett.93.052501",
+    "volume": "93",
+    "page": null,
+    "issued": {
+      "date-parts": [
+        [
+          2004,
+          7,
+          29
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "http://link.aps.org/article/10.1103/PhysRevLett.93.052501",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.93.052501/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  }
+}

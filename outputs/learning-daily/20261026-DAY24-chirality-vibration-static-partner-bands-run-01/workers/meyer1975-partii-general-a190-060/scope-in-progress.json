@@ -1,0 +1,9 @@
+{
+  "status": "completed-assigned-reading-unit",
+  "receipt": "receipt.json",
+  "read_physical_pages": [
+    1,
+    13
+  ],
+  "whole_article_read": false
+}

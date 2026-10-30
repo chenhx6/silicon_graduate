@@ -1,0 +1,123 @@
+{
+  "unit": "leander1975-pes-mainline-044",
+  "day_index": 24,
+  "run_date": "2026-10-26",
+  "status": "completed-mainline-all-figures-and-tables-source-self-audited-with-scanning-boundaries",
+  "source": {
+    "path": "tmp/day24-leander1975-039/attachment-object-response.pdf",
+    "sha256": "35ce50a080755f3a11dac48cfbe2e2041659694038bc6bcaf28b452d72da562d",
+    "bytes": 1736708,
+    "pages": 21,
+    "doi": "10.1016/0375-9474(75)91136-7"
+  },
+  "report_path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/leander1975-pes-mainline-044/report.md",
+  "report_sha256": "16b1dac1534372bfce0b5d7fcd6636c4765444b00bbfaa0384700961fbc4d485",
+  "text_read_physical_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21
+  ],
+  "visual_review": {
+    "figures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "tables": [
+      1,
+      2
+    ],
+    "scientific_pages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "higher_resolution": [
+      "Table2",
+      "PDF17 40Ca binding/ZPE paragraph",
+      "PDF4 Eq8",
+      "Fig12 parameter box"
+    ]
+  },
+  "literal_uncertainties": [
+    "Eq8 second coefficient visually resembles .7 but damaged; independent043 agrees uncertainty; remains needs_review",
+    "Fig12 epsilon/epsilon4 parameter box damaged; no precise-number certification"
+  ],
+  "claim_boundaries": [
+    "N=Z A12–44 inputs are not 133Ce parameters",
+    "PES static minima are not directly physical levels or experimental shape assignments",
+    "cited experiments/other calculations not independently reread",
+    "plateau validity does not remove several-MeV model/systematic effects",
+    "40Ca non-ready spectral explanation retained",
+    "24Mg surface sensitivity 6 vs17MeV retained"
+  ],
+  "new_delta": [
+    "historical single-particle formalism now linked to full macroscopic-microscopic calculation contract",
+    "all12figures/2tables evidence classification and use limits",
+    "near-Fermi orbital coupling plus total macro-energy cost as conditional transferable logic",
+    "authors own light-mass projection/ZPE/mixing/nonorthogonality/collectivity caveats"
+  ],
+  "written_files": [
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/leander1975-pes-mainline-044/report.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/leander1975-pes-mainline-044/receipt.json"
+  ],
+  "tmp_prefix": "tmp/day24-leander1975-pes-mainline-044/",
+  "read_only_boundaries": {
+    "canonical": true,
+    "raw": true,
+    "git_mutation": false,
+    "course_state_mutation": false,
+    "session_state_mutation": false
+  },
+  "network": false,
+  "producer_execution": false,
+  "old114_read_or_execute": false,
+  "numeric_toy_or_test": false,
+  "verification": {
+    "body_sha256": "matched",
+    "body_byte_count": "matched",
+    "report_trailing_whitespace": "none",
+    "json_receipt": "validated"
+  },
+  "next_step": "Parent integrates minimal reusable source/claim delta; combine043 exact-method report; do not migrate light-N=Z values to133Ce."
+}

@@ -1,0 +1,30 @@
+{
+  "worker": "063-hamamoto-selection-writeback-review",
+  "completed_utc": "2026-10-26T18:24:20.080139+00:00",
+  "status": "scientific-writeback-verified-no-op",
+  "substantive_P0_P1_found": false,
+  "required_correction": null,
+  "optional_editorial": "Old historical Day19 introduction can use past-tense claimed-certification and replace proton-neutron commutation with exchange; superseded/current warnings already clear.",
+  "raw_sha256": "dafe5f8f25081661413c5c8e2dc0b1d44a48c12ec4f5169bd1b06b0facd1c205",
+  "actual_original_pages_text_visual": [
+    4,
+    7,
+    9
+  ],
+  "full12p_read_claimed_this_review": false,
+  "coefficient_check": {
+    "a_gR_point5": 0.0025454545454545456,
+    "b": 0.7109090909090909,
+    "square_ratio_gR_point5": 78000.51020408163,
+    "a_gR_55over130": 0.07946853146853147,
+    "square_ratio_gR_55over130": 80.02722554201743,
+    "kind": "operator coefficients only, not transition B or rate bound"
+  },
+  "no_old_script_or_actual_producer_run": true,
+  "no_new_network_model_toy_or_experimental_claim": true,
+  "write_scope": "063 worker and tmp/day24-hamamoto-selection-writeback-review-063 only",
+  "canonical_raw_PLAN_Bib_Git_flags_course_session_unchanged": true,
+  "files": {
+    "report.md": "9a01ab25cd98929f7e7cc5f4c9ef6cb69c52cb8a367a08e57c0d002028a77bf2"
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "key": "tohoku-api-fixed",
+  "url": "https://tohoku.repo.nii.ac.jp/api/records/?q=Chirality&search_type=1&size=20",
+  "curl_exit": 0,
+  "metadata": "200\thttps://tohoku.repo.nii.ac.jp/api/records/?q=Chirality&search_type=1&size=20\tapplication/json",
+  "error": "",
+  "bytes": 184513,
+  "sha256": "d440b40886b86fd920bb660ed0280cbe7e90cad2f886c300ff30aa364221808a",
+  "pdf_signature": false,
+  "hit_total": 31,
+  "hits": [
+    {
+      "id": 65455,
+      "metadata": [
+        "Estimation of Genetic Parameters, and Genetic and Environmental Effects on Progeny Carcass Traits of a Nucleus Breeding Population in Japanese Black Cattle"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004163964.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/65455/files/KJ00004163964.pdf"
+        }
+      ]
+    },
+    {
+      "id": 64127,
+      "metadata": [
+        "Challenges of Pig Breeding in Japan"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004370131.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/64127/files/KJ00004370131.pdf"
+        }
+      ]
+    },
+    {
+      "id": 50465,
+      "metadata": [
+        "<\u5831\u6587>\u6eb6\u878dFeO-SiO_2\u7cfb\u306e\u5bc6\u5ea6\u304a\u3088\u3073\u7c98\u6027\u306b\u3064\u3044\u3066"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-20"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00000134994.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/50465/files/KJ00000134994.pdf"
+        }
+      ]
+    },
+    {
+      "id": 46969,
+      "metadata": [
+        "Localization and Quantum Hall Effect in Two-Dimensional Systems Under Strong Magnetic Fields(Transport and Fermiology)"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-16"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004200494.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/46969/files/KJ00004200494.pdf"
+        }
+      ]
+    },
+    {
+      "id": 23706,
+      "metadata": [
+        "\u9577\u638c\u7b4b\u8171\u4ed8\u304d\u524d\u8155\u76ae\u5f01\u306b\u3088\u308a\u4e0b\u5507\u3092\u6319\u4e0a\u3057\u518d\u5efa\u3092\u884c\u3063\u305f\u982c\u7c98\u819c\u764c\u306e1\u4f8b"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-10"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00000093810.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/23706/files/KJ00000093810.pdf"
+        }
+      ]
+    },
+    {
+      "id": 13080,
+      "metadata": [
+        "\u65e5\u5357\u5c64\u7fa4\u306e\u5c64\u4f4d\u5b66\u7684\u7814\u7a76"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-03"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004208363.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/13080/files/KJ00004208363.pdf"
+        }
+      ]
+    },
+    {
+      "id": 12049,
+      "metadata": [
+        "Plate Tectonics of Eastern Eurasia in the Light of Fault Systems"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-03"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004213244.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/12049/files/KJ00004213244.pdf"
+        }
+      ]
+    },
+    {
+      "id": 12364,
+      "metadata": [
+        "CRYSTAL GROWTH OF RARE EARTH COMPOUNDS IN CLOSED SYSTEM"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-03"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004424543.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/12364/files/KJ00004424543.pdf"
+        }
+      ]
+    },
+    {
+      "id": 13026,
+      "metadata": [
+        "\u5357\u95a2\u6771\u5730\u65b9\u306e\u65b0\u7b2c\u4e09\u7cfb\u304a\u3088\u3073\u7b2c\u56db\u7cfb\u306e\u5fae\u5316\u77f3\u5c64\u4f4d\u5b66\u7684\u7814\u7a76"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-03"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004206014.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/13026/files/KJ00004206014.pdf"
+        }
+      ]
+    },
+    {
+      "id": 13021,
+      "metadata": [
+        "\u5927\u8352\u6ca2\u5c64\u306e\u7a4d\u6210\u6a5f\u69cb\u306b\u304b\u3093\u3059\u308b\u554f\u984c"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-03"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004206006.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/13021/files/KJ00004206006.pdf"
+        }
+      ]
+    },
+    {
+      "id": 13024,
+      "metadata": [
+        "\u6709\u5b54\u866b\u5316\u77f3\u7fa4\u304b\u3089\u307f\u305f\u65e5\u672c\u306e\u53e4\u7b2c\u4e09\u7cfb"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-03"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004206010.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/13024/files/KJ00004206010.pdf"
+        }
+      ]
+    },
+    {
+      "id": 11968,
+      "metadata": [
+        "The Paleontologic and Stratigraphic Considerations on the Neoschwagerininae and Verbeekininae, with the Descriptions of Some Fusulinid Foraminifera from the Kitakami Massif, Japan"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-03"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004219359.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/11968/files/KJ00004219359.pdf"
+        }
+      ]
+    },
+    {
+      "id": 4823,
+      "metadata": [
+        "Chirality dependence of exciton effects in single-wall carbon nanotubes: Tight-binding model"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-02"
+            }
+          ],
+          "extention": "pdf",
+          "label": "PhysRevB_75_035407.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/4823/files/PhysRevB_75_035407.pdf"
+        }
+      ]
+    },
+    {
+      "id": 5371,
+      "metadata": [
+        "Chirality-dependent frequency shift of radial breathing mode in metallic carbon nanotubes"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-02"
+            }
+          ],
+          "extention": "pdf",
+          "label": "PhysRevB.78.235405.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/5371/files/PhysRevB.78.235405.pdf"
+        }
+      ]
+    },
+    {
+      "id": 5324,
+      "metadata": [
+        "Role of chirality in angular momentum coupling for A\uff5e130 odd-odd triaxial nuclei: 132La"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-02"
+            }
+          ],
+          "extention": "pdf",
+          "label": "PhysRevC.65.044328.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/5324/files/PhysRevC.65.044328.pdf"
+        }
+      ]
+    },
+    {
+      "id": 5337,
+      "metadata": [
+        "Chirality-dependent G-band Raman intensity of carbon nanotubes"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-02"
+            }
+          ],
+          "extention": "pdf",
+          "label": "PhysRevB.64.085312.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/5337/files/PhysRevB.64.085312.pdf"
+        }
+      ]
+    },
+    {
+      "id": 26249,
+      "metadata": [
+        "Magnetization chirality due to asymmetrical structure in Ni-Fe annular dots for high-density memory cells"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-10"
+            }
+          ],
+          "extention": "pdf",
+          "label": "JApplPhys_95_6714.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/26249/files/JApplPhys_95_6714.pdf"
+        }
+      ]
+    },
+    {
+      "id": 41519,
+      "metadata": [
+        "A Model for Biomolecular Computing Using Enzyme Transistors"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-15"
+            }
+          ],
+          "extention": "pdf",
+          "label": "7_259.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/41519/files/7_259.pdf"
+        }
+      ]
+    },
+    {
+      "id": 130488,
+      "metadata": [
+        "Measuring consensus and dissensus: A generalized index of disagreement using conditional probability"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2020-06-09"
+            }
+          ],
+          "extention": "pdf",
+          "label": "TSUCHIYA-Yoichi-2020Tour01-184.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/130488/files/TSUCHIYA-Yoichi-2020Tour01-184.pdf"
+        }
+      ]
+    },
+    {
+      "id": 130901,
+      "metadata": [
+        "Surface Chirality in Rotational Magnetoelectrodeposition of Copper Films"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2020-07-30"
+            }
+          ],
+          "extention": "pdf",
+          "label": "MOGI-Iwao-2020Tour01-97.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/130901/files/MOGI-Iwao-2020Tour01-97.pdf"
+        }
+      ]
+    }
+  ]
+}

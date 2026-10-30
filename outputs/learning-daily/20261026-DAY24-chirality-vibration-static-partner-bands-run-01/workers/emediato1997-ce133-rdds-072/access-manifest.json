@@ -1,0 +1,87 @@
+{
+  "status": "publisher_body_downloaded_and_integrity_verified",
+  "pdf": {
+    "doi": "10.1103/PhysRevC.55.2105",
+    "title": "Lifetime measurements in133Ce",
+    "authors": [
+      "L. G. R. Emediato",
+      "M. N. Rao",
+      "N. H. Medina",
+      "W. A. Seale",
+      "S. Botelho",
+      "R. V. Ribas",
+      "J. R. B. Oliveira",
+      "E. W. Cybulska",
+      "F. R. Espinoza-Quiñones",
+      "V. Guimarães",
+      "M. A. Rizzutto",
+      "J. C. Acquadro"
+    ],
+    "journal": "Physical Review C",
+    "volume": 55,
+    "issue": 4,
+    "printed_pages": "2105–2108",
+    "year": 1997,
+    "date": "1997-04-01",
+    "received": "1996-08-23",
+    "pdf": "tmp/day24-emediato1997-ce133-rdds-072/publisher-direct-pdf.pdf",
+    "bytes": 102259,
+    "physical_pages": 4,
+    "sha256": "39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df",
+    "printed_page_offset": 2104,
+    "metadata_sources": [
+      "OfficialENSDF1997EM01 exactDOI continuation",
+      "Crossref exactrecord",
+      "ActualPDF title/author/volume/year"
+    ],
+    "access": "Publiclyaccessible publisherPDF, not an open-license claim",
+    "publisher_url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.55.2105"
+  },
+  "si_requested": true,
+  "si": {
+    "status": "not_identified_on_article_landing_or_in_body",
+    "scope": "OfficialAPSlandingalllinks scanned; body4pagesread; no globalabsence claim",
+    "candidate_count": 0
+  },
+  "routes": [
+    {
+      "route": "Crossrefexact",
+      "status": "metadata_match"
+    },
+    {
+      "route": "publisherdiscovery",
+      "status": "citationPDFcandidate;prefixverificationinconclusive"
+    },
+    {
+      "route": "GoogleScholar",
+      "status": "singletoolrequesttimeout;notrepeated"
+    },
+    {
+      "route": "download_public_paper",
+      "status": "requestedownpathrejectedbytoolconfiguredroot; noPDFrequest"
+    },
+    {
+      "route": "link.aps.org/pdf",
+      "status": "redirectedtoabstractHTML,notsavedasPDF"
+    },
+    {
+      "route": "harvest.aps.org/fulltext",
+      "status": "401_once,no repeatedrequest"
+    },
+    {
+      "route": "actualpublisherlandinghref/prc/pdf",
+      "status": "200PDF4pagesverified"
+    },
+    {
+      "route": "OpenAlexsearch/S2search",
+      "status": "exacttitlequeries0; DOIlookupOpenAlexclosed/noRepository"
+    },
+    {
+      "route": "open_accessbatch--si",
+      "status": "oa_not_found; independentdirectpublisherretrievalsucceeded",
+      "boundary": "batchoaAssessmentconfirmed_oa is notadoptedasopenlicense; OpenAlex/Unpaywallclosed and APSdefaultlicense notOAproof"
+    }
+  ],
+  "credentials_printed_or_changed": false,
+  "oa_license_claim": false
+}

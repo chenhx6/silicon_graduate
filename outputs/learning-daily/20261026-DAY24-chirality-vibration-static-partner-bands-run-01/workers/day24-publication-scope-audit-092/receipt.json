@@ -1,0 +1,48 @@
+{
+  "audit_id": "day24-publication-scope-audit-092",
+  "observed_utc": "2026-10-27T03:19:57.355598+00:00",
+  "result": "corrections-required-before-scope-certification",
+  "same_run": "2026-10-26-day-24-01",
+  "session_id": "01a177ac-521f-7212-9312-ba967400db98",
+  "hard_deadline": "2026-10-27T15:00:00+08:00",
+  "course_mutation": false,
+  "canonical_mutation": false,
+  "raw_mutation": false,
+  "git_mutation": false,
+  "credentials_mutation": false,
+  "delegation": false,
+  "rehome_executed": false,
+  "root_worker_file_count": 13,
+  "findings": {
+    "blocking_for_relevant_claim_or_path": 9,
+    "nonblocking": 3
+  },
+  "audit_limits": "Not universal science certification; B08blockscomplete-resourceclaimonly; B09canbeisolatedbyexplicitnonadoption. Root may repair concurrently after observed snapshot.",
+  "artifacts": [
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day24-publication-scope-audit-092/findings.json",
+      "bytes": 10234,
+      "sha256": "1a0672a841dbfd355c6bff90cfd838ff7042e804bbbfd44f61b815d759c53654"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day24-publication-scope-audit-092/path-manifest-proposal.json",
+      "bytes": 9125,
+      "sha256": "c91e35fb71aa2d0f7e7774f6f565e252691ca0f7eadf1a683cbbb20216865d49"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day24-publication-scope-audit-092/report-writeback-coverage.json",
+      "bytes": 1410,
+      "sha256": "e6ffe6e2814fe73421389ff24bcfe047c8f68f3f35758c456321081f198bf19a"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day24-publication-scope-audit-092/report.md",
+      "bytes": 6772,
+      "sha256": "7624d5ca9eca09fd2bf6d17c053fb2757f40589747c60d9458357ef494d68916"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day24-publication-scope-audit-092/writeback-audit.json",
+      "bytes": 50846,
+      "sha256": "f42beb5c56b8c3f4c2fe9d2f523805ce6e47816d3dc6d135fed80c37e42a9cfc"
+    }
+  ]
+}

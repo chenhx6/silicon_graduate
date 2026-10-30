@@ -1,0 +1,27 @@
+{
+  "worker": "075-butler1975-writeback-review",
+  "completed_utc": "2026-10-26T19:19:55.320136+00:00",
+  "status": "verified-no-op",
+  "substantive_P0_P1_found": false,
+  "required_correction": null,
+  "source_sha256": "231b6f427ac9bdd15688bf373959d2dff63dd7e694ee2dbb9b12cc0186ba8e0a",
+  "actual_reading_scope": "new source full page plus original 4-page text/visual; no Ref3-7 full read, counts, producer or Cov",
+  "checks": [
+    "joint feeding/lifetime/zero boundary",
+    "14 percent stopped specific to131La plot correction",
+    "velocity finite Ge and spread range",
+    "Table1 tau/B and 130Ce dependence",
+    "neighbor core calibration and PartII lineage",
+    "Table beta/A^(2/3) print boundary",
+    "gamma scan crossing as model output",
+    "weak-model extra core assumptions",
+    "conditional q_gamma exercise not BR/ICC",
+    "no La-to-Ce transfer or model denial"
+  ],
+  "no_new_model_fit_producer_or_network": true,
+  "write_scope": "075 worker and tmp/day24-butler1975-writeback-review-075 only",
+  "canonical_raw_PLAN_Bib_Git_course_session_unchanged": true,
+  "files": {
+    "report.md": "14e03d1cb7370e3d76446a0a81641088b0d97e3e7c489271684191d5b295c817"
+  }
+}

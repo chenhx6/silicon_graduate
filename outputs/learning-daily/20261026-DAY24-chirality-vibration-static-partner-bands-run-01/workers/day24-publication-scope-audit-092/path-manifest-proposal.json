@@ -1,0 +1,144 @@
+{
+  "observed_utc": "2026-10-27T03:19:57.355598+00:00",
+  "file_count": 13,
+  "manifest": [
+    {
+      "path": "workers/ce133-crosswalk-audit-080/ledger.json",
+      "bytes": 17880,
+      "sha256": "c2e1381df52273a8348be2fa2c83455eca16c2c6211dce824b8d4c7f8cd4d450",
+      "source": "workers/ce133-crosswalk-audit-080/ledger.json",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-crosswalk-audit-080/ledger.json",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/ce133-crosswalk-audit-080/receipt.json",
+      "bytes": 2375,
+      "sha256": "3a461dfc08b107bc111fd1635d253a2e3c79b1d833a86658e61dc39b80aeb47f",
+      "source": "workers/ce133-crosswalk-audit-080/receipt.json",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-crosswalk-audit-080/receipt.json",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/ce133-crosswalk-audit-080/report.md",
+      "bytes": 8265,
+      "sha256": "230301c4c661ed790e38d499236084c991b97ad7a37b92bbe8f49faab59b4692",
+      "source": "workers/ce133-crosswalk-audit-080/report.md",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-crosswalk-audit-080/report.md",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/ce133-primary-followup-081/README.md",
+      "bytes": 338,
+      "sha256": "b66b055ab5a78f0f1b9df5d57f2f0336169cb1c13af5171d3a188b098136ce99",
+      "source": "workers/ce133-primary-followup-081/README.md",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-primary-followup-081/README.md",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/ce133-primary-followup-081/receipt.json",
+      "bytes": 1925,
+      "sha256": "0550fdb4763854ba78480da52b8f281a58f0979854cf4035ad002b4b07ac0ad5",
+      "source": "workers/ce133-primary-followup-081/receipt.json",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-primary-followup-081/receipt.json",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/ce133-primary-followup-081/report.md",
+      "bytes": 7139,
+      "sha256": "2fa8ead7abe771957c693516ad50eb3514ccc7695161578dec4d30a65f43daf6",
+      "source": "workers/ce133-primary-followup-081/report.md",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-primary-followup-081/report.md",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/ce133-hauschild1996-083/receipt.json",
+      "bytes": 1780,
+      "sha256": "95426ffb66543c90d0d04973431747af04d02b0d7903ccf97b0050e41b0d9663",
+      "source": "workers/ce133-hauschild1996-083/receipt.json",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-hauschild1996-083/receipt.json",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/ce133-hauschild1996-083/report.md",
+      "bytes": 11749,
+      "sha256": "c38e4ee92df879ded9e99ad69027fabbe8cdf39a382aa9a80a6e89d41132fbe0",
+      "source": "workers/ce133-hauschild1996-083/report.md",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-hauschild1996-083/report.md",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/ce133-1991-access-088/README.md",
+      "bytes": 477,
+      "sha256": "da3a9a49c679f677a27df07dfb27de7af14bb33c022a3fb40b4e819a927c268a",
+      "source": "workers/ce133-1991-access-088/README.md",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-1991-access-088/README.md",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/ce133-1991-access-088/receipt.json",
+      "bytes": 1724,
+      "sha256": "1c1c23e8aa8585c59c0c8c500c15778e855423393afb16cd5d779024b99afff5",
+      "source": "workers/ce133-1991-access-088/receipt.json",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-1991-access-088/receipt.json",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/ce133-1991-access-088/report.md",
+      "bytes": 2531,
+      "sha256": "584a9844e8280da0873852b800dbcb50d0e7551ef4315c7c3ec4d224ed43cd30",
+      "source": "workers/ce133-1991-access-088/report.md",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-1991-access-088/report.md",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/day24-integrity-089/receipt.json",
+      "bytes": 2257,
+      "sha256": "81ccbc36f5b1cdcbdc64b39421b57d88208c996e698336406565d9f6509fe0ba",
+      "source": "workers/day24-integrity-089/receipt.json",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day24-integrity-089/receipt.json",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    },
+    {
+      "path": "workers/day24-integrity-089/report.md",
+      "bytes": 4076,
+      "sha256": "0ed46921b50043ae9b8604fea069261f0bb43bd2ee389c0b8c7d18c5922c87af",
+      "source": "workers/day24-integrity-089/report.md",
+      "destination": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/day24-integrity-089/report.md",
+      "destination_exists": false,
+      "operation": "proposed-only; no move performed",
+      "post_rehome_edits": "repair content/relative links/receipt paths and regenerate current receipt hashes; preserve original digest as pre-rehome snapshot"
+    }
+  ],
+  "safe_sequence": [
+    "Check each exact source digest and destination absence; stop on collision.",
+    "Relocate explicit files preserving basenames into current run outputs/workers; do not recursively delete original directories.",
+    "Repair operative internal paths and links; retain a separate old→new/hash audit so historical locations remain traceable.",
+    "Correct 080/081/083/089 scope findings before including their current reports in final publication.",
+    "Reconcile canonical writeback, then rerun lint/boundary/explicit scope checks; the boundary script presently does not flag arbitrary root workers."
+  ],
+  "executed": false
+}

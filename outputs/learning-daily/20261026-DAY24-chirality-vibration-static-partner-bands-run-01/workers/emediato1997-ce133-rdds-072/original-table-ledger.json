@@ -1,0 +1,231 @@
+{
+  "source_sha256": "39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df",
+  "TableI": {
+    "locator": "PDF2/printed2106",
+    "nucleus": "132Ce",
+    "clock": "tau(ps)",
+    "rows": [
+      {
+        "J": "2+",
+        "Egamma_keV": 325,
+        "tau_present_ps": 59,
+        "error_ps": 6,
+        "oldcol_ref4": [
+          58,
+          9
+        ],
+        "oldcol_ref5": [
+          57,
+          4
+        ]
+      },
+      {
+        "J": "4+",
+        "Egamma_keV": 533,
+        "tau_present_ps": 5.5,
+        "error_ps": 0.6,
+        "oldcol_ref4": null,
+        "oldcol_ref5": [
+          5.4,
+          1
+        ]
+      },
+      {
+        "J": "6+",
+        "Egamma_keV": 683,
+        "tau_present_upper": 1,
+        "oldcol_ref4": null,
+        "oldcol_ref5": [
+          1,
+          0.5
+        ]
+      },
+      {
+        "J": "8+",
+        "Egamma_keV": 787,
+        "tau_present_upper": 1,
+        "oldcol_ref4": [
+          1,
+          0.2
+        ],
+        "oldcol_ref5_upper": 1
+      }
+    ],
+    "citation_boundary": "TableheaderRef4/5 whereas textcalls refs6/7; Ref4VAXPAK/Ref5MINUIT, do not silently repair"
+  },
+  "TableII": {
+    "locator": "PDF3/printed2107",
+    "nucleus": "133Ce",
+    "clock": "tau(ps), notT1/2",
+    "rows": [
+      {
+        "Ji": "11/2−",
+        "tau_ps": 76,
+        "uncertainty_ps": 3,
+        "branches": [
+          {
+            "Jf": "9/2−",
+            "Egamma_keV": 170,
+            "observable": "B(M1)",
+            "unit": "mW.u.",
+            "experiment": 65,
+            "error": 2,
+            "PTR": 104,
+            "geometrical": 27
+          }
+        ]
+      },
+      {
+        "Ji": "13/2−",
+        "tau_ps": 7.9,
+        "uncertainty_ps": 0.5,
+        "branches": [
+          {
+            "Jf": "9/2−",
+            "Egamma_keV": 555,
+            "observable": "B(E2)",
+            "unit": "W.u.",
+            "experiment": 17,
+            "error": 3,
+            "PTR": 27,
+            "geometrical": 27
+          },
+          {
+            "Jf": "11/2−",
+            "Egamma_keV": 385,
+            "observable": "B(M1)",
+            "unit": "mW.u.",
+            "experiment": 45,
+            "error": 4,
+            "PTR": 162,
+            "geometrical": 106
+          }
+        ]
+      },
+      {
+        "Ji": "15/2−",
+        "tau_ps": 3.8,
+        "uncertainty_ps": 0.8,
+        "branches": [
+          {
+            "Jf": "11/2−",
+            "Egamma_keV": 619,
+            "observable": "B(E2)",
+            "unit": "W.u.",
+            "experiment": 52,
+            "error": 15,
+            "PTR": 52,
+            "geometrical": 50
+          },
+          {
+            "Jf": "13/2−",
+            "Egamma_keV": 235,
+            "observable": "B(M1)",
+            "unit": "mW.u.",
+            "experiment": 56,
+            "error": 15,
+            "PTR": 209,
+            "geometrical": 175
+          }
+        ]
+      },
+      {
+        "Ji": "17/2−",
+        "tau_ps_upper_bound": 1.0,
+        "bound_symbol": "≤",
+        "branches": [
+          {
+            "Jf": "13/2−",
+            "Egamma_keV": 752,
+            "observable": "B(E2)",
+            "unit": "W.u.",
+            "experiment_lower_bound": 65,
+            "PTR": 72,
+            "geometrical": 68
+          },
+          {
+            "Jf": "15/2−",
+            "Egamma_keV": 517,
+            "observable": "B(M1)",
+            "unit": "mW.u.",
+            "experiment_lower_bound": 40,
+            "PTR": 242,
+            "geometrical": 230
+          }
+        ]
+      },
+      {
+        "Ji": "19/2−",
+        "tau_ps_upper_bound": 1.0,
+        "bound_symbol": "≤",
+        "branches": [
+          {
+            "Jf": "15/2−",
+            "Egamma_keV": 763,
+            "observable": "B(E2)",
+            "unit": "W.u.",
+            "experiment_lower_bound": 65,
+            "PTR": 87,
+            "geometrical": 81
+          }
+        ]
+      }
+    ],
+    "assumption": "Experimentalnegativeband B(M1) extractedassumingpureM1;385/235doubleplacements; noICCcontract/Cov supplied"
+  },
+  "TableIII": {
+    "locator": "PDF3/printed2107",
+    "rows": [
+      {
+        "Ji": "17/2+",
+        "tau_ps": 5.3,
+        "uncertainty_ps": 0.6,
+        "branches": [
+          {
+            "Jf": "15/2−",
+            "Egamma_keV": 1269,
+            "observable": "B(E1)",
+            "value": 23,
+            "unit": "microW.u."
+          }
+        ]
+      },
+      {
+        "Ji": "19/2+",
+        "tau_ps": 4.5,
+        "uncertainty_ps": 0.5,
+        "branches": [
+          {
+            "Jf": "17/2−",
+            "Egamma_keV": 954,
+            "observable": "B(E1)",
+            "value": 42,
+            "unit": "microW.u."
+          },
+          {
+            "Jf": "17/2+",
+            "Egamma_keV": 201,
+            "observable": "B(M1)",
+            "value": 0.5,
+            "unit": "W.u."
+          }
+        ]
+      },
+      {
+        "Ji": "21/2+",
+        "tau_ps": 5.3,
+        "uncertainty_ps": 0.6,
+        "branches": [
+          {
+            "Jf": "19/2+",
+            "Egamma_keV": 159,
+            "observable": "B(M1)",
+            "value": 1.1,
+            "unit": "W.u."
+          }
+        ]
+      }
+    ],
+    "boundary": "FinaltextE1respectivelyorder swaps23and42 relative toTableIII; retainboth, valuesare micro notmilliW.u."
+  }
+}

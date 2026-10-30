@@ -1,0 +1,108 @@
+{
+  "source_sha256": "eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134",
+  "TableI": [
+    {
+      "band": "Band1",
+      "Ji": "10+1",
+      "tau_ps": 4.93,
+      "error_ps": 0.15,
+      "method": "RDDS",
+      "notes": "Agrees with Klemme1999 Ref13"
+    },
+    {
+      "band": "Band1",
+      "Ji": "11+1",
+      "tau_ps": 1.614,
+      "error_ps": 0.326,
+      "method": "RDDS"
+    },
+    {
+      "band": "Band1",
+      "Ji": "12+1",
+      "tau_ps": 1.425,
+      "error_ps": 0.13,
+      "method": "RDDS"
+    },
+    {
+      "band": "Band1",
+      "Ji": "13+1",
+      "tau_ps": 0.904,
+      "error_ps": 0.05,
+      "method": "RDDS"
+    },
+    {
+      "band": "Band1",
+      "Ji": "14+1",
+      "tau_ps": 0.882,
+      "error_ps": 0.147,
+      "method": "DSAM",
+      "footnote": "Determined from both RDDS and DSAM in good agreement; DSAM reported due to higher statistical significance"
+    },
+    {
+      "band": "Band1",
+      "Ji": "15+1",
+      "tau_ps": 0.608,
+      "error_ps": 0.068,
+      "method": "DSAM"
+    },
+    {
+      "band": "Band1",
+      "Ji": "16+1",
+      "tau_ps": 0.562,
+      "error_ps": 0.047,
+      "method": "DSAM"
+    },
+    {
+      "band": "Band1",
+      "Ji": "17+1",
+      "tau_ps": 0.422,
+      "error_ps": 0.03,
+      "method": "DSAM"
+    },
+    {
+      "band": "Band1",
+      "Ji": "18+1",
+      "tau_ps": 0.249,
+      "error_ps": 0.01,
+      "method": "DSAM"
+    },
+    {
+      "band": "Band2",
+      "Ji": "13+2",
+      "tau_ps": 1.443,
+      "error_ps": 0.05,
+      "method": "not explicitly tagged beside entry; RDDS/DSAM boundary context"
+    },
+    {
+      "band": "Band2",
+      "Ji": "14+2",
+      "tau_ps": 1.28,
+      "error_ps": 0.05,
+      "method": "RDDS/DSAM context"
+    },
+    {
+      "band": "Band2",
+      "Ji": "15+2",
+      "tau_ps": 0.887,
+      "error_ps": 0.047,
+      "method": "DSAM",
+      "footnote": "Determined from both RDDS and DSAM in good agreement; DSAM reported due to higher statistical significance"
+    },
+    {
+      "band": "Band2",
+      "Ji": "16+2",
+      "tau_ps": 0.824,
+      "error_ps": 0.052,
+      "method": "DSAM"
+    },
+    {
+      "band": "Band2",
+      "Ji": "17+2",
+      "tau_ps": 0.353,
+      "error_ps": 0.049,
+      "method": "DSAM"
+    }
+  ],
+  "clock": "tau(ps), mean level lifetime",
+  "methodology": "DDCM applied to RDDS and DSAM"
+}

@@ -1,0 +1,52 @@
+{
+  "task": "ce-static-moment-017",
+  "finished_utc": "2026-10-26T13:47:09.297071+00:00",
+  "status": "bounded-verified-no-op-plus-statecontract",
+  "source": {
+    "path": "raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf",
+    "sha256": "2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b",
+    "pdf_pages": 20,
+    "printed_pages": "459–478"
+  },
+  "IB98_native_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    14,
+    20
+  ],
+  "IB98_fresh_visual_pages": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    14,
+    20
+  ],
+  "primary_calibration_bodies_reread": false,
+  "Li_or_Singh_primary_bodies_reread": false,
+  "source_or_model_updated": false,
+  "known_withdrawals_preserved": [
+    "IB98-D20-R146-.92(10)ebfor131Ce",
+    "1.34ebis129CeQcal,not131Cemeasurement",
+    "2.58(12)ebmismatchnotrestored",
+    "29.68-foldshapeorBhardladdernotrestored",
+    "pureK6/11notactualmixedPTR"
+  ],
+  "raw_writes": [],
+  "canonical_writes": [],
+  "git_mutations": false,
+  "new_retrieval": false,
+  "new_sessions_or_credits": false,
+  "numeric_tests_run": false,
+  "conversions_only": {
+    "mean_tau_ns": 126.95716359822879,
+    "mu_over_muN": -0.8505
+  }
+}

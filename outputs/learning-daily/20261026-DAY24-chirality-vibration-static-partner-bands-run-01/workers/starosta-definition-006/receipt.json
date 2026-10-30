@@ -1,0 +1,1519 @@
+{
+  "status": "no_authorized_target_fulltext_found_in_bounded_routes",
+  "finished_utc": "2026-10-26T11:47:12.614537+00:00",
+  "target": {
+    "title": "Chirality in odd–odd triaxial nuclei",
+    "doi": "10.1016/S0375-9474(00)00663-1",
+    "journal": "Nuclear Physics A",
+    "volume": "682",
+    "pages": "375–386",
+    "year": 2001
+  },
+  "target_pdf_downloaded": false,
+  "target_pdf_signature_verified": false,
+  "target_version_verified": false,
+  "target_body_pages_read": 0,
+  "target_figures_read": 0,
+  "target_equations_read": 0,
+  "orientation_definition": {
+    "signed_absolute_RMS_semiclassical": "unknown from target body",
+    "normalization": "unknown from target body",
+    "coupling_convention": "unknown from target body"
+  },
+  "elsevier_200_xml_has_coredata": true,
+  "elsevier_200_xml_has_originalText_or_body": false,
+  "request_count": 32,
+  "requests": [
+    {
+      "key": "arxiv-title",
+      "url": "https://export.arxiv.org/api/query?search_query=ti:Chirality%20AND%20au:Starosta&max_results=20",
+      "curl_exit": 0,
+      "metadata": "200\thttps://export.arxiv.org/api/query?search_query=ti:Chirality%20AND%20au:Starosta&max_results=20\tapplication/atom+xml; charset=utf-8",
+      "error": "",
+      "bytes": 12898,
+      "sha256": "428d0df253d8ae6ac2fc5f39b1ccab765974962257b3e9d9ed51417930a443f4",
+      "pdf_signature": false,
+      "text_excerpt": "https://arxiv.org/api/lsohTCDUSiuhRrvdQX1nAccrTvI arXiv Query: search_query=ti:Chirality AND au:Starosta&id_list=&start=0&max_results=20 2026-10-26T11:44:19Z 20 5 0 http://arxiv.org/abs/nucl-th/0504071v1 Triaxiality, chirality and gamma-softness 2005-04-25T21:33:59Z Current work explores the impact of gamma-softness on partner bands built on the h11/2h11/2 proton-particle-neutron-hole configurations in triaxial odd-odd nuclei. The results of calculations conducted using a core-particle-hole coupling are presented. The model Hamiltonian includes the collective core, the single-particle valence nucleons, and separable quadrupole-quadrupole interactions. The Kerman-Klein method was applied to find eigenstates, which provided a convenient way for exploring core effects. Calculations were made for triaxial cores with various gamma-softness using the General Collective Model keeping the expectation value for the triaxiality parameter fixed at <gamma>=30 deg. The degeneracy in the proton-neutron h11/2h11/2 bands results from the calculations for the gamma-rigid core but is lifted for the gamma-unstable core. 2005-04-25T21:33:59Z 6 pages, 5 figures, Proceedings of the 21st Winter Workshop on Nuclear Dynamics, Breckenridge, Colorado, February 5-12, 2005 Acta Phys.Hung. A25 (2006) 181-186 K. Starosta M. A. Caprio T. Koike R. Kruecken C. Vaman 10.1556/APH.25.2006.2-4.5 http://arxiv.org/abs/1012.2498v1 Signatures of chirality in the core-particle-hole systems 2010-12-11T23:44:03Z An odd-odd nucleus is treated as the core-particle-hole system. The core is described by the Bohr Hamiltonian. Different collective potentials of the core are investigated. The odd particle and hole are assumed to be in the symmetric [proton h11/2]x[neutron hole h11/2] configuration. Signatures of chirality in the odd-odd nucleus spectra are observed. The sufficient condition for the appearance of signatures of chirality in the core-particle-hole system is the alpha-symmetry of the core provided the particle-hole configuration of the odd valence particles is symmetric. 2010-12-11T23:44:03Z 9 pages, 7 figures. Presented at the 17th Nuclear Physics Conference \"Marie and Pierre Curie\" on \"Symmetry and Symmetry Breaking in Nuclear Physics\", Kazimierz Dolny, 22-26 September 2010, Poland. Accepted for publication in Int. Jour. of Mod. Physics E S. G. Rohozinski L. Prochniak Ch. Droste K. Starosta 10.1142/S0218301311017739 http://arxiv.org/abs/1804.04837v1 Three-level mixing model for nuclear chiral rotation: Role of planar component 2018-04-13T08:38:08Z Three- and two-level mixing models are proposed to understand the doubling of states at the same spin and parity in triaxially-deformed atomic nuclei with odd numbers of protons and neutrons. The Particle-Rotor Model for such nuclei is solved using the newly proposed basis which couples angular momenta of two valence nucleons and the rotating triaxial mean-field into left-handed $|\\mathcal{L}\\rangle$, right-handed $|\\mathcal{R}\\rangle$, and planar $|\\mathcal{P}\\rangle$ configurations. The presence and the impact of the planar component is investigated as a function of the total spin for mass A$\\approx$130 nuclei with the valence h$_{11/2}$ proton particle, valence h$_{11/2}$ neutron hole and the maximum difference between principle axes allowed by the quadrupole deformation of the mean field. It is concluded that at each spin value the higher-energy member of a doublet of states is built on the anti-symmetric combination of $|\\ma",
+      "links": []
+    },
+    {
+      "key": "bingpii",
+      "url": "https://www.bing.com/search?q=%22S0375947400006631%22&cc=us&setlang=en",
+      "curl_exit": 0,
+      "metadata": "200\thttps://cn.bing.com/search?q=%22S0375947400006631%22&cc=us&setlang=en\ttext/html; charset=utf-8",
+      "error": "",
+      "bytes": 103005,
+      "sha256": "eb44e99905ffd3893b37bb80469c31f1964afc48c2a656b7db326c9f93b783f1",
+      "pdf_signature": false,
+      "text_excerpt": "\"S0375947400006631\" - Search Adaptive Zoom Skip to content Accessibility Feedback 国内版 国际版 Web Images Videos Academic Dict Maps Flights About 20,600 results Open links in new tab Any time linuxvox.com https:// linux vox.com › blog › make- windows - usb -from- linux Creating a Windows USB Drive from Linux : A Comprehensive Guide Oct 4, 2026 · This blog walks you through the fundamental concepts, usage methods, common practices, and best practices for … linuxvox.com https:// linux vox.com › blog › make- windows -bootable- usb -in- linux Creating a Windows Bootable USB in Linux - linuxvox.com Oct 18, 2026 · This blog post will guide you through the process of creating a Windows bootable USB in a Linux environment, … pendrivelinux.com https://pendrive linux .com › create -bootable- usb -from-iso- using - dd Create a Bootable USB from ISO with Linux dd - Pen Drive Linux Learn how to create a bootable USB from an ISO file using the Linux `dd` command. `dd` writes the image directly to the USB … guillermodotn.github.io https://guillermodotn.github.io › posts › Creating_a_bootable_ Windows _ USB _on_ linux Creating a Bootable Windows USB on Linux | Guillermo's Blog Jan 12, 2025 · In this post, we’ll walk you through how to create a Windows bootable USB drive on a Linux machine using only … ostechnix.com https://ostechnix.com › how- to-create-bootable-usb-drive-using-dd -command Create Bootable USB Drive Using dd Command In Linux Mar 2, 2016 · This brief tutorial explains how to create bootable USB drive using dd command on Linux and Unix operating systems. ummit.dev https://ummit.dev › posts › Linux › misc › bootable- usb -guide Create a Bootable USB Drive with dd on Linux - ummit.dev Oct 1, 2026 · Having a reliable bootable USB drive is essential for any Linux user. This guide shows how to create a bootable USB … fosslinux.com https://www.foss linux .com How to Create a Bootable Windows USB on Linux (2026) May 22, 2023 · From Ventoy's drag-and-drop simplicity to the manual wimlib terminal method, these are the exact tools I use to … linuxiac.com https:// linux iac.com › how- to-create-bootable-usb-drive-using-dd -command How to Create a Bootable USB from ISO on Linux Jul 30, 2020 · This guide will walk you through creating a bootable USB drive from an ISO image on Linux using the dd command to … linuxconfig.org https:// linux config.org › how-to- create -bootable-ms- windows - usb -under- linux How to create bootable MS windows USB under Linux Sep 22, 2025 · Learn to create a bootable Windows USB on Linux using command line or GUI. Perfect for installations or system … dotlinux.net https://www.dot linux .net › blog › how-to- create -bootable-ms- windows - usb -under- linux How to Create a Bootable MS Windows USB Under Linux Jun 20, 2026 · This guide will walk you through three reliable methods to create a bootable Windows USB on Linux: using WoeUSB … Some results are removed in response to a notice of local law requirement. For more information, please see here . Pagination 1 2 3 Next 增值电信业务经营许可证：合字B2-20090007 京ICP备10036305号-7 京公网安备11010802047360号 Privacy Terms All Past 24 hours Past week Past month Past year",
+      "candidate_links": [
+        "/images/search?q=%22S0375947400006631%22&FORM=HDRSC2",
+        "/videos/search?q=%22S0375947400006631%22&FORM=HDRSC3",
+        "/academic/search?q=%22S0375947400006631%22&FORM=HDRSC4",
+        "/dict/search?q=%22S0375947400006631%22&FORM=HDRSC6",
+        "/maps?q=%22S0375947400006631%22&FORM=HDRSC7",
+        "/travel/search?q=%22S0375947400006631%22&m=flights&FORM=FBSCOP",
+        "/search?q=%22S0375947400006631%22&cc=us&setlang=en&FPIG=2D2C4B02E240469986268F4C53959547&first=11&FORM=PERE",
+        "/search?q=%22S0375947400006631%22&cc=us&setlang=en&FPIG=2D2C4B02E240469986268F4C53959547&first=21&FORM=PERE1",
+        "/search?q=%22S0375947400006631%22&cc=us&setlang=en&FPIG=2D2C4B02E240469986268F4C53959547&first=11&FORM=PORE",
+        "/search?q=%22S0375947400006631%22&cc=us&setlang=en&FORM=000017&qpvt=%22S0375947400006631%22",
+        "/search?q=%22S0375947400006631%22&filters=ex1%3a%22ez1%22&cc=us&setlang=en&FORM=000017",
+        "/search?q=%22S0375947400006631%22&filters=ex1%3a%22ez2%22&cc=us&setlang=en&FORM=000017",
+        "/search?q=%22S0375947400006631%22&filters=ex1%3a%22ez3%22&cc=us&setlang=en&FORM=000017",
+        "/search?q=%22S0375947400006631%22&filters=ex1%3a%22ez5_20387_20752%22&cc=us&setlang=en&FORM=000017"
+      ]
+    },
+    {
+      "key": "elsevier-body-format",
+      "utc": "2026-10-26T11:46:06.140356+00:00",
+      "url": "https://api.elsevier.com/content/article/PII:S0375947400006631?httpAccept=application/pdf",
+      "curl_exit": 0,
+      "metadata": "406\thttps://api.elsevier.com/content/article/PII:S0375947400006631?httpAccept=application/pdf\ttext/xml",
+      "error": "",
+      "bytes": 162,
+      "sha256": "8896659c8776e3601cba7215e75d52d13a0aa4cde5150bbf00660945a33f39b7",
+      "pdf_signature": false,
+      "text_excerpt": "INVALID_INPUT Accept header value 'application/pdf' is restricted"
+    },
+    {
+      "key": "elsevier-crossref-link",
+      "url": "https://api.elsevier.com/content/article/PII:S0375947400006631?httpAccept=text/xml",
+      "curl_exit": 0,
+      "metadata": "200\thttps://api.elsevier.com/content/article/PII:S0375947400006631?httpAccept=text/xml\ttext/xml;charset=UTF-8",
+      "error": "",
+      "bytes": 1789,
+      "sha256": "3ea0dc691a86e37b9bf2ff46dff3bdca4e59e96175524c2ca7ef61782c6659fb",
+      "pdf_signature": false,
+      "text_excerpt": "https://api.elsevier.com/content/article/pii/S0375947400006631 doi:10.1016/S0375-9474(00)00663-1 1-s2.0-S0375947400006631 10.1016/S0375-9474(00)00663-1 S0375-9474(00)00663-1 Chirality in odd–odd triaxial nuclei Nuclear Physics A Journal 03759474 2001-02-12 12 February 2001 0 false false",
+      "candidate_links": []
+    },
+    {
+      "key": "koike-group",
+      "url": "https://lambda.phys.tohoku.ac.jp/",
+      "curl_exit": 0,
+      "metadata": "200\thttps://lambda.phys.tohoku.ac.jp/\ttext/html",
+      "error": "",
+      "bytes": 20307,
+      "sha256": "2df9f636f4af6f22f22f3d42c68ead1098d42062d29575d783a5df0d9171dfb6",
+      "pdf_signature": false,
+      "text_excerpt": "東北大学 大学院理学研究科 物理学専攻 素粒子・核物理講座 原子核物理グループ 大型科研費 新学術領域 東北大学 > 大学院理学研究科/理学部 > 物理学専攻/物理学科 > 東北大学 大学院理学研究科 物理学専攻 素粒子・核物理学講座 原子核物理グループ 教授: 教授（委嘱）: 准教授: 准教授（兼任）: 特任准教授（研究）: 助教: 田村 裕和 , 三輪 浩司 , 中村 哲（本務：東京大学） , 市川 裕大 , 岩佐 直仁 金田 雅司 ,\n             三木 謙二郎 鵜養 美冬（本務：KEK） 小池 武志（本務：高教機構） 小山 俊平 、\n             早川 修平 、七村 拓野 技術職員: 事務職員: 梅津裕生 高橋あゆみ 現代の原子核物理の課題は、通常の原子核とは異なった原子核を作りその状態を精密に測定することで、核子間の相互作用（強い力）を理解することです。\n              原子核物理グループでは、MeV から GeV 領域までの原子核反応を用いて、核子レベルからクォークレベルまで、強い相互作用によって結びつけられたハドロン有限多体系に関する実験的研究を行っています。\n              我々のグループには、 「ストレンジネス核物理」 「エキゾティック核物理」 「短寿命核物理」 と三つのサブグループがあります。 [ 2024.12  ストレンジネス核物理グループの 研究室紹介スライド（３年生向け） ] 当研究室教授田村及び学生の測定による仙台市青葉区の放射線量率モニター。\n             2011年3月から2012年6月までの測定値と時間変化量をグーグル・ドキュメントに上げています。 測定データ プロット (降水量, 天気の情報も含みます) 980-8578 宮城県 仙台市 青葉区 荒巻 字 青葉 6-3  (理学研究科合同A・B棟６階) Tel: 022-795-6451 / Fax: 022-795-6455 このウエブページついての質問・ご意見は、 www あっと lambda.phys.tohoku.ac.jp までお願いします。 ( 研究などの問い合わせは、それぞれの教員に個別に連絡をお願いします。） 最終更新日: 2024年11月1日",
+      "candidate_links": [
+        "http://lambda.phys.tohoku.ac.jp/strangeness-group2025.pdf"
+      ]
+    },
+    {
+      "key": "koike-profile",
+      "url": "https://lambda.phys.tohoku.ac.jp/nuclphys2/koike/index.html",
+      "curl_exit": 0,
+      "metadata": "404\thttps://lambda.phys.tohoku.ac.jp/nuclphys2/koike/index.html\ttext/html; charset=iso-8859-1",
+      "error": "",
+      "bytes": 196,
+      "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+      "pdf_signature": false,
+      "text_excerpt": "404 Not Found Not Found The requested URL was not found on this server.",
+      "links": []
+    },
+    {
+      "key": "koike-real",
+      "url": "https://lambda.phys.tohoku.ac.jp/~koike/",
+      "curl_exit": 0,
+      "metadata": "404\thttps://lambda.phys.tohoku.ac.jp/~koike/\ttext/html; charset=iso-8859-1",
+      "error": "",
+      "bytes": 196,
+      "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+      "pdf_signature": false,
+      "text_excerpt": "404 Not Found Not Found The requested URL was not found on this server.",
+      "links": []
+    },
+    {
+      "key": "google",
+      "url": "https://www.google.com/search?q=%22Chirality+in+odd%22+%22Starosta%22+%22pdf%22",
+      "error": "HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /search?q=%22Chirality+in+odd%22+%22Starosta%22+%22pdf%22 (Caused by NewConnectionError(\"HTTPSConnection(host='www.google.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "key": "bing",
+      "url": "https://www.bing.com/search?q=%22Chirality+in+odd%22+%22Starosta%22+pdf",
+      "final_url": "https://cn.bing.com/search?q=%22Chirality+in+odd%22+%22Starosta%22+pdf",
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 103368,
+      "sha256": "90bd008ab5a263ba0044199edd353084cfef33f1542b946bc38003753f87ca6d"
+    },
+    {
+      "key": "nii",
+      "url": "https://cir.nii.ac.jp/all?q=10.1016%2FS0375-9474%2800%2900663-1&format=json",
+      "error": "HTTPSConnectionPool(host='cir.nii.ac.jp', port=443): Max retries exceeded with url: /all?q=10.1016%2FS0375-9474%2800%2900663-1&format=json (Caused by NewConnectionError(\"HTTPSConnection(host='cir.nii.ac.jp', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "key": "crossref",
+      "url": "https://api.crossref.org/works/10.1016/S0375-9474(00)00663-1",
+      "final_url": "https://api.crossref.org/works/10.1016/S0375-9474(00)00663-1",
+      "http": 200,
+      "content_type": "application/json",
+      "bytes": 2660,
+      "sha256": "91dd2f39adb175ccef20f869f1223704e8d2d1591df166f19c3ef57efdd4eec6"
+    },
+    {
+      "key": "openalex",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/S0375-9474(00)00663-1",
+      "final_url": "https://api.openalex.org/works/https://doi.org/10.1016/S0375-9474(00)00663-1",
+      "http": 200,
+      "content_type": "application/json",
+      "bytes": 14326,
+      "sha256": "7ffe00418a3d5ee1fd54639efd807bb3703a5b5963dcbd46582d6868e224eabd"
+    },
+    {
+      "key": "ostisearch",
+      "url": "https://www.osti.gov/api/v1/records?search=%22Chirality%20in%20odd%22",
+      "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /api/v1/records?search=%22Chirality%20in%20odd%22 (Caused by NewConnectionError(\"HTTPSConnection(host='www.osti.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "key": "ddg",
+      "url": "https://html.duckduckgo.com/html/?q=%22Starosta%22+%22Chirality+in%22+%22682%22",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Starosta%22+%22Chirality+in%22+%22682%22 (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x746787d1d280>, 'Connection to html.duckduckgo.com timed out. (connect timeout=8)'))"
+    },
+    {
+      "key": "niitohoku",
+      "url": "https://tohoku.repo.nii.ac.jp/search?search_type=2&q=Chirality",
+      "final_url": "https://tohoku.repo.nii.ac.jp/search?search_type=2&q=Chirality",
+      "http": 400,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 192,
+      "sha256": "808f15c49092c00771dc7ba5be07f5ef07cb136efe9737d354884776e83cf858"
+    },
+    {
+      "key": "sfu",
+      "url": "https://www.sfu.ca/physics/nuclear/",
+      "final_url": "https://www.sfu.ca/physics/nuclear/",
+      "http": 404,
+      "content_type": "text/html;charset=utf-8",
+      "bytes": 54120,
+      "sha256": "0ba8acde1f771a3885d983ae4eeb1b260e709715cb7f3c676e29df38f735d8ce"
+    },
+    {
+      "key": "koike",
+      "url": "https://www.bh.phys.tohoku.ac.jp/~koike/",
+      "error": "HTTPSConnectionPool(host='www.bh.phys.tohoku.ac.jp', port=443): Max retries exceeded with url: /~koike/ (Caused by NameResolutionError(\"HTTPSConnection(host='www.bh.phys.tohoku.ac.jp', port=443): Failed to resolve 'www.bh.phys.tohoku.ac.jp' ([Errno -2] Name or service not known)\"))"
+    },
+    {
+      "key": "cinii",
+      "url": "https://cir.nii.ac.jp/crid?q=%22Chirality+in+odd%22",
+      "error": "HTTPSConnectionPool(host='cir.nii.ac.jp', port=443): Max retries exceeded with url: /crid?q=%22Chirality+in+odd%22 (Caused by ConnectTimeoutError(<HTTPSConnection(host='cir.nii.ac.jp', port=443) at 0x746787d1dbe0>, 'Connection to cir.nii.ac.jp timed out. (connect timeout=8)'))"
+    },
+    {
+      "key": "jstor",
+      "url": "https://www.osti.gov/search/semantic:%22Chirality%20in%20odd%22",
+      "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /search/semantic:%22Chirality%20in%20odd%22 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.osti.gov', port=443) at 0x746788474f80>, 'Connection to www.osti.gov timed out. (connect timeout=8)'))"
+    },
+    {
+      "key": "sfu-author",
+      "url": "https://www.sfu.ca/physics/people/faculty/starosta.html",
+      "curl_exit": 0,
+      "metadata": "404\thttps://www.sfu.ca/physics/people/faculty/starosta.html\ttext/html;charset=utf-8",
+      "error": "",
+      "bytes": 54152,
+      "sha256": "ab5d744f58eef6837110102fdeb4b550e9b9ab338a9f93027772822c5f5c66cf",
+      "pdf_signature": false,
+      "text_excerpt": "Page not Found - Department of Physics - Simon Fraser University Skip to content Skip to main navigation sfu.ca T L Technical Support Faculty + Staff Portal MENU Department of Physics Sign In SFU Mail go SFU Canvas Search This Site SFU.ca About Us Mission Statement History Our Donors Department Life Employment Opportunities Contact Us Outreach People Faculty Limited Term & Sessional Instructors Professors Emeriti & Retired Faculty Adjuncts & Associates Graduate Students Postdocs & Researchers Staff Our Donors In Memoriam Undergrad Prospective Students Current Students Awards & Scholarships Courses Research Graduate Prospective Students PhD Program MSc Program Current Students Courses Physics Graduate Caucus Awards & Scholarships Poster Competition Research Areas Groups Links and Electronic Journals Facilities News & Events News by Year Events  by Year Events By Category Why Physics @SFU Equity EDI Resources IDEA Committee Department of Physics Page not Found Page not Found (404 Error) Unfortunately, the page you've requested cannot be found. Common reasons for this include a typo in the page address, the page was moved, or it was deleted. Try returning to the home page to find what you're looking for, or search the site using the search box located at the top of the page. Department of Physics About Us People Undergrad Graduate Research News & Events Why Physics @SFU Equity Contact us 8888 University Drive Burnaby, B.C. Canada V5A 1S6 Safety & Risk SFU Maps & Directions SFU Admissions Road Report Give to SFU Emergency Information A-Z Directory Simon Fraser University respectfully acknowledges the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh Úxwumixw (Squamish), səlilwətaɬ (Tsleil-Waututh), q̓íc̓əy̓ (Katzie), kʷikʷəƛ̓əm (Kwikwetlem), Qayqayt, Kwantlen, Semiahmoo and Tsawwassen peoples on whose unceded traditional territories our three campuses reside. Terms & Conditions Privacy policy © Simon Fraser University About Us Overview Mission Statement History Our Donors Department Life Employment Opportunities Contact Us Overview Directory Map & Directions Advisors Tutors Peer Tutoring Outreach Overview For Grades 1-7 For High Schools Girls Exploring Physics GEP Girls Workshop GEP Teachers Workshop GEP Resources Science Spooktacular Discover Physics @ SFU Trottier Observatory TRIUMF-SFU Saturday Morning Lectures People Overview Faculty Limited Term & Sessional Instructors Professors Emeriti & Retired Faculty Adjuncts & Associates Graduate Students Postdocs & Researchers Staff Our Donors In Memoriam Undergrad Overview Prospective Students Overview Prepare to Succeed Careers Current Students Overview New Students First Year Physics Streams Programs Physics Co-op Physics Student Association Scholarships, Awards & Financial Aid Physics Award Winners Schedules Complementary Minor and Certificate Programs Research Opportunities Adopt A Physicist USRA Careers Awards & Scholarships Courses Overview Summer 2026 Fall 2026 Spring 2027 Breadth Courses Yearly Offerings Course Descriptions Lab RDP Research Overview 2022 2021 Graduate Overview Prospective Students PhD Program MSc Program Current Students Overview Awards & Scholarships Courses Overview Summer 2026 Fall 2026 Spring 2027 Course Descriptions Historical Course Offerings Physics Graduate Caucus Overview Physics Grad Caucus Members Awards & Scholarships Poster Competition Overview 2025 2024 2023 2022 Research Overview Areas Groups Links and Electronic Journals Facilities Overview Machine Shop 3D Printer-Extruder 3D Printer-Resin Band Saw Belt Sander Buffer CNC Milling Machine CNC Router Drill Presses Grinder Hydraulic Press Lathes Manual Shear Milling Machines Press Sandblaster Shear, Press Brake, and Slip Roll Swagelok Tube Welder Welding Station Cryogenics and Water Deionized Water Distilled Water Liquid Helium Recovery Liquid Nitrogen Diffractometers, Spectrometers, Microscopes, and Imaging Laue X-Ray Diffractometer Panalytical X'Pert Materials Research Diffractometer Olympus Fluorescent Microscope Zeiss Fluorescent Microscope Atomic Force Microscope Ocean Optics Absorbance/Fluorescent Spectrometer Nano Imaging (Electron Imaging and Holography Facility) Preparation and Sterilization Chem Prep Rooms Furnaces Eppendorf Centrifuge Microbalances Shaking Incubator Sterilizing Autoclave News & Events Overview News by Year Overview 2026 2025 2024 2023 2022 2021 2020 2019 2018 Events  by Year Overview 2026 2025 2024 2023 2022 2021 2020 2019 2018 Events By Category Why Physics @SFU Equity Overview EDI Resources IDEA Committee SFU.CA Search Search This Site SFU.ca SFU Mail go SFU Canvas close",
+      "candidate_links": []
+    },
+    {
+      "key": "sfu-faculty",
+      "url": "https://www.sfu.ca/physics/people/faculty.html",
+      "curl_exit": 0,
+      "metadata": "200\thttps://www.sfu.ca/physics/people/faculty.html\ttext/html; charset=utf-8",
+      "error": "",
+      "bytes": 141554,
+      "sha256": "a7d7f15926ce1d9c86a9edc257794ba3a1b639f2fe9ee9a6f432e80803441990",
+      "pdf_signature": false,
+      "text_excerpt": "Faculty - Department of Physics - Simon Fraser University Skip to content Skip to main navigation sfu.ca T L Technical Support Faculty + Staff Portal MENU Department of Physics Sign In SFU Mail go SFU Canvas Search This Site SFU.ca About Us Mission Statement History Our Donors Department Life Employment Opportunities Contact Us Outreach People Faculty Limited Term & Sessional Instructors Professors Emeriti & Retired Faculty Adjuncts & Associates Graduate Students Postdocs & Researchers Staff Our Donors In Memoriam Undergrad Prospective Students Current Students Awards & Scholarships Courses Research Graduate Prospective Students PhD Program MSc Program Current Students Courses Physics Graduate Caucus Awards & Scholarships Poster Competition Research Areas Groups Links and Electronic Journals Facilities News & Events News by Year Events  by Year Events By Category Why Physics @SFU Equity EDI Resources IDEA Committee Department of Physics People Faculty Department of Physics About Us Mission Statement History Oral History of the Department Our Donors Department Life 2026 2025 2024 2023 2022 Employment Opportunities Contact Us Directory Map & Directions Advisors Tutors Peer Tutoring Outreach For Grades 1-7 For High Schools Girls Exploring Physics GEP Girls Workshop GEP Teachers Workshop GEP Resources Science Spooktacular Discover Physics @ SFU Trottier Observatory TRIUMF-SFU Saturday Morning Lectures People Faculty Limited Term & Sessional Instructors Professors Emeriti & Retired Faculty Adjuncts & Associates Graduate Students Postdocs & Researchers Staff Our Donors In Memoriam Undergrad Prospective Students Prepare to Succeed Careers Current Students New Students First Year Physics Streams Programs Physics Co-op Physics Student Association Scholarships, Awards & Financial Aid Physics Award Winners Schedules Complementary Minor and Certificate Programs Research Opportunities Adopt A Physicist USRA Careers Awards & Scholarships Courses Summer 2026 Fall 2026 Spring 2027 Breadth Courses Yearly Offerings Course Descriptions Lab RDP Research 2022 2021 Graduate Prospective Students PhD Program MSc Program Current Students International Students Course Planning / Enrollment Guaranteed Funding Thesis and Defence Resources and Timeline Annual Progress Review Awards & Scholarships Courses Summer 2026 Fall 2026 Spring 2027 Course Descriptions Historical Course Offerings Physics Graduate Caucus Physics Grad Caucus Members Awards & Scholarships Poster Competition 2025 2024 2023 2022 Research Areas Groups Links and Electronic Journals Facilities Machine Shop 3D Printer-Extruder 3D Printer-Resin Band Saw Belt Sander Buffer CNC Milling Machine CNC Router Drill Presses Grinder Hydraulic Press Lathes Manual Shear Milling Machines Press Sandblaster Shear, Press Brake, and Slip Roll Swagelok Tube Welder Welding Station Cryogenics and Water Deionized Water Distilled Water Liquid Helium Recovery Liquid Nitrogen Diffractometers, Spectrometers, Microscopes, and Imaging Laue X-Ray Diffractometer Panalytical X'Pert Materials Research Diffractometer Olympus Fluorescent Microscope Zeiss Fluorescent Microscope Atomic Force Microscope Ocean Optics Absorbance/Fluorescent Spectrometer Nano Imaging (Electron Imaging and Holography Facility) Preparation and Sterilization Chem Prep Rooms Furnaces Eppendorf Centrifuge Microbalances Shaking Incubator Sterilizing Autoclave News & Events News by Year 2026 2025 2024 2023 2022 2021 2020 2019 2018 Events  by Year 2026 2025 2024 20",
+      "links": []
+    },
+    {
+      "key": "sfu-group",
+      "url": "https://www.sfu.ca/physics/research/nuclear.html",
+      "curl_exit": 0,
+      "metadata": "404\thttps://www.sfu.ca/physics/research/nuclear.html\ttext/html;charset=utf-8",
+      "error": "",
+      "bytes": 54138,
+      "sha256": "7685d1833010b826d1ca3d92477f2bcae22262f770d11249d8bf6f4582286b29",
+      "pdf_signature": false,
+      "text_excerpt": "Page not Found - Department of Physics - Simon Fraser University Skip to content Skip to main navigation sfu.ca T L Technical Support Faculty + Staff Portal MENU Department of Physics Sign In SFU Mail go SFU Canvas Search This Site SFU.ca About Us Mission Statement History Our Donors Department Life Employment Opportunities Contact Us Outreach People Faculty Limited Term & Sessional Instructors Professors Emeriti & Retired Faculty Adjuncts & Associates Graduate Students Postdocs & Researchers Staff Our Donors In Memoriam Undergrad Prospective Students Current Students Awards & Scholarships Courses Research Graduate Prospective Students PhD Program MSc Program Current Students Courses Physics Graduate Caucus Awards & Scholarships Poster Competition Research Areas Groups Links and Electronic Journals Facilities News & Events News by Year Events  by Year Events By Category Why Physics @SFU Equity EDI Resources IDEA Committee Department of Physics Page not Found Page not Found (404 Error) Unfortunately, the page you've requested cannot be found. Common reasons for this include a typo in the page address, the page was moved, or it was deleted. Try returning to the home page to find what you're looking for, or search the site using the search box located at the top of the page. Department of Physics About Us People Undergrad Graduate Research News & Events Why Physics @SFU Equity Contact us 8888 University Drive Burnaby, B.C. Canada V5A 1S6 Safety & Risk SFU Maps & Directions SFU Admissions Road Report Give to SFU Emergency Information A-Z Directory Simon Fraser University respectfully acknowledges the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh Úxwumixw (Squamish), səlilwətaɬ (Tsleil-Waututh), q̓íc̓əy̓ (Katzie), kʷikʷəƛ̓əm (Kwikwetlem), Qayqayt, Kwantlen, Semiahmoo and Tsawwassen peoples on whose unceded traditional territories our three campuses reside. Terms & Conditions Privacy policy © Simon Fraser University About Us Overview Mission Statement History Our Donors Department Life Employment Opportunities Contact Us Overview Directory Map & Directions Advisors Tutors Peer Tutoring Outreach Overview For Grades 1-7 For High Schools Girls Exploring Physics GEP Girls Workshop GEP Teachers Workshop GEP Resources Science Spooktacular Discover Physics @ SFU Trottier Observatory TRIUMF-SFU Saturday Morning Lectures People Overview Faculty Limited Term & Sessional Instructors Professors Emeriti & Retired Faculty Adjuncts & Associates Graduate Students Postdocs & Researchers Staff Our Donors In Memoriam Undergrad Overview Prospective Students Overview Prepare to Succeed Careers Current Students Overview New Students First Year Physics Streams Programs Physics Co-op Physics Student Association Scholarships, Awards & Financial Aid Physics Award Winners Schedules Complementary Minor and Certificate Programs Research Opportunities Adopt A Physicist USRA Careers Awards & Scholarships Courses Overview Summer 2026 Fall 2026 Spring 2027 Breadth Courses Yearly Offerings Course Descriptions Lab RDP Research Overview 2022 2021 Graduate Overview Prospective Students PhD Program MSc Program Current Students Overview Awards & Scholarships Courses Overview Summer 2026 Fall 2026 Spring 2027 Course Descriptions Historical Course Offerings Physics Graduate Caucus Overview Physics Grad Caucus Members Awards & Scholarships Poster Competition Overview 2025 2024 2023 2022 Research Overview Areas Groups Links and Electronic Journals Facilities Overview Machine Shop 3D Printer-Extruder 3D Printer-Resin Band Saw Belt Sander Buffer CNC Milling Machine CNC Router Drill Presses Grinder Hydraulic Press Lathes Manual Shear Milling Machines Press Sandblaster Shear, Press Brake, and Slip Roll Swagelok Tube Welder Welding Station Cryogenics and Water Deionized Water Distilled Water Liquid Helium Recovery Liquid Nitrogen Diffractometers, Spectrometers, Microscopes, and Imaging Laue X-Ray Diffractometer Panalytical X'Pert Materials Research Diffractometer Olympus Fluorescent Microscope Zeiss Fluorescent Microscope Atomic Force Microscope Ocean Optics Absorbance/Fluorescent Spectrometer Nano Imaging (Electron Imaging and Holography Facility) Preparation and Sterilization Chem Prep Rooms Furnaces Eppendorf Centrifuge Microbalances Shaking Incubator Sterilizing Autoclave News & Events Overview News by Year Overview 2026 2025 2024 2023 2022 2021 2020 2019 2018 Events  by Year Overview 2026 2025 2024 2023 2022 2021 2020 2019 2018 Events By Category Why Physics @SFU Equity Overview EDI Resources IDEA Committee SFU.CA Search Search This Site SFU.ca SFU Mail go SFU Canvas close",
+      "candidate_links": []
+    },
+    {
+      "key": "sfu-old-personal",
+      "url": "https://www.sfu.ca/~starosta/",
+      "curl_exit": 0,
+      "metadata": "200\thttps://www.sfu.ca/~starosta/\ttext/html;charset=ISO-8859-1",
+      "error": "",
+      "bytes": 672,
+      "sha256": "0af5a3b6edb3268d3a98d107ea31e466fc6d2dc7f6b2fa4cd991084534805589",
+      "pdf_signature": false,
+      "text_excerpt": "Index of /~starosta Index of /~starosta Name Last modified Size Parent Directory - Apache Server at www.sfu.ca Port 443",
+      "links": []
+    },
+    {
+      "key": "sfu-retired",
+      "url": "https://www.sfu.ca/physics/people/professors-emeriti.html",
+      "curl_exit": 0,
+      "metadata": "200\thttps://www.sfu.ca/physics/people/professors-emeriti.html\ttext/html; charset=utf-8",
+      "error": "",
+      "bytes": 126673,
+      "sha256": "96b0945a3d7cdd66453b29c40176956121b934e907663289abdbd7a583fbf2e6",
+      "pdf_signature": false,
+      "text_excerpt": "Professors Emeriti & Retired Faculty - Department of Physics - Simon Fraser University Skip to content Skip to main navigation sfu.ca T L Technical Support Faculty + Staff Portal MENU Department of Physics Sign In SFU Mail go SFU Canvas Search This Site SFU.ca About Us Mission Statement History Our Donors Department Life Employment Opportunities Contact Us Outreach People Faculty Limited Term & Sessional Instructors Professors Emeriti & Retired Faculty Adjuncts & Associates Graduate Students Postdocs & Researchers Staff Our Donors In Memoriam Undergrad Prospective Students Current Students Awards & Scholarships Courses Research Graduate Prospective Students PhD Program MSc Program Current Students Courses Physics Graduate Caucus Awards & Scholarships Poster Competition Research Areas Groups Links and Electronic Journals Facilities News & Events News by Year Events  by Year Events By Category Why Physics @SFU Equity EDI Resources IDEA Committee Department of Physics People Professors Emeriti & Retired Faculty Department of Physics About Us Mission Statement History Oral History of the Department Our Donors Department Life 2026 2025 2024 2023 2022 Employment Opportunities Contact Us Directory Map & Directions Advisors Tutors Peer Tutoring Outreach For Grades 1-7 For High Schools Girls Exploring Physics GEP Girls Workshop GEP Teachers Workshop GEP Resources Science Spooktacular Discover Physics @ SFU Trottier Observatory TRIUMF-SFU Saturday Morning Lectures People Faculty Limited Term & Sessional Instructors Professors Emeriti & Retired Faculty Adjuncts & Associates Graduate Students Postdocs & Researchers Staff Our Donors In Memoriam Undergrad Prospective Students Prepare to Succeed Careers Current Students New Students First Year Physics Streams Programs Physics Co-op Physics Student Association Scholarships, Awards & Financial Aid Physics Award Winners Schedules Complementary Minor and Certificate Programs Research Opportunities Adopt A Physicist USRA Careers Awards & Scholarships Courses Summer 2026 Fall 2026 Spring 2027 Breadth Courses Yearly Offerings Course Descriptions Lab RDP Research 2022 2021 Graduate Prospective Students PhD Program MSc Program Current Students International Students Course Planning / Enrollment Guaranteed Funding Thesis and Defence Resources and Timeline Annual Progress Review Awards & Scholarships Courses Summer 2026 Fall 2026 Spring 2027 Course Descriptions Historical Course Offerings Physics Graduate Caucus Physics Grad Caucus Members Awards & Scholarships Poster Competition 2025 2024 2023 2022 Research Areas Groups Links and Electronic Journals Facilities Machine Shop 3D Printer-Extruder 3D Printer-Resin Band Saw Belt Sander Buffer CNC Milling Machine CNC Router Drill Presses Grinder Hydraulic Press Lathes Manual Shear ",
+      "links": []
+    },
+    {
+      "key": "tohoku-api-fixed",
+      "url": "https://tohoku.repo.nii.ac.jp/api/records/?q=Chirality&search_type=1&size=20",
+      "curl_exit": 0,
+      "metadata": "200\thttps://tohoku.repo.nii.ac.jp/api/records/?q=Chirality&search_type=1&size=20\tapplication/json",
+      "error": "",
+      "bytes": 184513,
+      "sha256": "d440b40886b86fd920bb660ed0280cbe7e90cad2f886c300ff30aa364221808a",
+      "pdf_signature": false,
+      "hit_total": 31,
+      "hits": [
+        {
+          "id": 65455,
+          "metadata": [
+            "Estimation of Genetic Parameters, and Genetic and Environmental Effects on Progeny Carcass Traits of a Nucleus Breeding Population in Japanese Black Cattle"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004163964.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/65455/files/KJ00004163964.pdf"
+            }
+          ]
+        },
+        {
+          "id": 64127,
+          "metadata": [
+            "Challenges of Pig Breeding in Japan"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004370131.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/64127/files/KJ00004370131.pdf"
+            }
+          ]
+        },
+        {
+          "id": 50465,
+          "metadata": [
+            "<報文>溶融FeO-SiO_2系の密度および粘性について"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-20"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00000134994.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/50465/files/KJ00000134994.pdf"
+            }
+          ]
+        },
+        {
+          "id": 46969,
+          "metadata": [
+            "Localization and Quantum Hall Effect in Two-Dimensional Systems Under Strong Magnetic Fields(Transport and Fermiology)"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-16"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004200494.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/46969/files/KJ00004200494.pdf"
+            }
+          ]
+        },
+        {
+          "id": 23706,
+          "metadata": [
+            "長掌筋腱付き前腕皮弁により下唇を挙上し再建を行った頬粘膜癌の1例"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-10"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00000093810.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/23706/files/KJ00000093810.pdf"
+            }
+          ]
+        },
+        {
+          "id": 13080,
+          "metadata": [
+            "日南層群の層位学的研究"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-03"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004208363.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/13080/files/KJ00004208363.pdf"
+            }
+          ]
+        },
+        {
+          "id": 12049,
+          "metadata": [
+            "Plate Tectonics of Eastern Eurasia in the Light of Fault Systems"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-03"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004213244.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/12049/files/KJ00004213244.pdf"
+            }
+          ]
+        },
+        {
+          "id": 12364,
+          "metadata": [
+            "CRYSTAL GROWTH OF RARE EARTH COMPOUNDS IN CLOSED SYSTEM"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-03"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004424543.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/12364/files/KJ00004424543.pdf"
+            }
+          ]
+        },
+        {
+          "id": 13026,
+          "metadata": [
+            "南関東地方の新第三系および第四系の微化石層位学的研究"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-03"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004206014.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/13026/files/KJ00004206014.pdf"
+            }
+          ]
+        },
+        {
+          "id": 13021,
+          "metadata": [
+            "大荒沢層の積成機構にかんする問題"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-03"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004206006.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/13021/files/KJ00004206006.pdf"
+            }
+          ]
+        },
+        {
+          "id": 13024,
+          "metadata": [
+            "有孔虫化石群からみた日本の古第三系"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-03"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004206010.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/13024/files/KJ00004206010.pdf"
+            }
+          ]
+        },
+        {
+          "id": 11968,
+          "metadata": [
+            "The Paleontologic and Stratigraphic Considerations on the Neoschwagerininae and Verbeekininae, with the Descriptions of Some Fusulinid Foraminifera from the Kitakami Massif, Japan"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-03"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004219359.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/11968/files/KJ00004219359.pdf"
+            }
+          ]
+        },
+        {
+          "id": 4823,
+          "metadata": [
+            "Chirality dependence of exciton effects in single-wall carbon nanotubes: Tight-binding model"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-02"
+                }
+              ],
+              "extention": "pdf",
+              "label": "PhysRevB_75_035407.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/4823/files/PhysRevB_75_035407.pdf"
+            }
+          ]
+        },
+        {
+          "id": 5371,
+          "metadata": [
+            "Chirality-dependent frequency shift of radial breathing mode in metallic carbon nanotubes"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-02"
+                }
+              ],
+              "extention": "pdf",
+              "label": "PhysRevB.78.235405.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/5371/files/PhysRevB.78.235405.pdf"
+            }
+          ]
+        },
+        {
+          "id": 5324,
+          "metadata": [
+            "Role of chirality in angular momentum coupling for A～130 odd-odd triaxial nuclei: 132La"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-02"
+                }
+              ],
+              "extention": "pdf",
+              "label": "PhysRevC.65.044328.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/5324/files/PhysRevC.65.044328.pdf"
+            }
+          ]
+        },
+        {
+          "id": 5337,
+          "metadata": [
+            "Chirality-dependent G-band Raman intensity of carbon nanotubes"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-02"
+                }
+              ],
+              "extention": "pdf",
+              "label": "PhysRevB.64.085312.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/5337/files/PhysRevB.64.085312.pdf"
+            }
+          ]
+        },
+        {
+          "id": 26249,
+          "metadata": [
+            "Magnetization chirality due to asymmetrical structure in Ni-Fe annular dots for high-density memory cells"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-10"
+                }
+              ],
+              "extention": "pdf",
+              "label": "JApplPhys_95_6714.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/26249/files/JApplPhys_95_6714.pdf"
+            }
+          ]
+        },
+        {
+          "id": 41519,
+          "metadata": [
+            "A Model for Biomolecular Computing Using Enzyme Transistors"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-15"
+                }
+              ],
+              "extention": "pdf",
+              "label": "7_259.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/41519/files/7_259.pdf"
+            }
+          ]
+        },
+        {
+          "id": 130488,
+          "metadata": [
+            "Measuring consensus and dissensus: A generalized index of disagreement using conditional probability"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2020-06-09"
+                }
+              ],
+              "extention": "pdf",
+              "label": "TSUCHIYA-Yoichi-2020Tour01-184.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/130488/files/TSUCHIYA-Yoichi-2020Tour01-184.pdf"
+            }
+          ]
+        },
+        {
+          "id": 130901,
+          "metadata": [
+            "Surface Chirality in Rotational Magnetoelectrodeposition of Copper Films"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2020-07-30"
+                }
+              ],
+              "extention": "pdf",
+              "label": "MOGI-Iwao-2020Tour01-97.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/130901/files/MOGI-Iwao-2020Tour01-97.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tohoku-api",
+      "url": "https://tohoku.repo.nii.ac.jp/api/records/?q=Chirality&size=20",
+      "curl_exit": 0,
+      "metadata": "200\thttps://tohoku.repo.nii.ac.jp/api/records/?q=Chirality&size=20\tapplication/json",
+      "error": "",
+      "bytes": 184513,
+      "sha256": "d440b40886b86fd920bb660ed0280cbe7e90cad2f886c300ff30aa364221808a",
+      "pdf_signature": false,
+      "text_excerpt": "{\"aggregations\":{},\"hits\":{\"hits\":[{\"created\":\"2023-07-27T04:52:44.529808+00:00\",\"id\":65455,\"links\":{\"self\":\"https://tohoku.repo.nii.ac.jp/api/records/65455\"},\"metadata\":{\"_comment\":[\"Tohoku journal of agricultural research, Volume 55, Issue 1/2, p. 1-10, Issued Date 2004-11-25\"],\"_creator_info\":[{\"creatorNames\":{\"creatorName\":\"SAKATA, Ken\",\"idx\":0}},{\"creatorNames\":{\"creatorName\":\"HOQUE, Azharul\",\"idx\":0}},{\"creatorNames\":{\"creatorName\":\"HIRAI, Tomokazu\",\"idx\":0}},{\"creatorNames\":{\"creatorName\":\"TSUKAGUCHI, Daisuke\",\"idx\":0}},{\"creatorNames\":{\"creatorName\":\"TOMARU, Mayuko\",\"idx\":0}},{\"creatorNames\":{\"creatorName\":\"SUZUKI, Keiichi\",\"idx\":0}},{\"creatorNames\":{\"creatorName\":\"OIKAWA, Takuro\",\"idx\":0}}],\"_files_info\":[{\"date\":[{\"dateType\":\"Available\",\"dateValue\":\"2017-02-22\"}],\"extention\":\"pdf\",\"label\":\"KJ00004163964.pdf\",\"url\":\"https://tohoku.repo.nii.ac.jp/record/65455/files/KJ00004163964.pdf\"}],\"_item_metadata\":{\"_oai\":{\"id\":\"oai:tohoku.repo.nii.ac.jp:00065455\",\"sets\":[\"199\"]},\"author_link\":[\"155705\",\"155700\",\"155699\",\"155701\",\"155703\",\"155704\",\"155702\"],\"control_number\":\"65455\",\"item_4_biblio_info_6\":{\"attribute_name\":\"書誌情報\",\"attribute_value_mlt\":[{\"bibliographicIssueDates\":{\"bibliographicIssueDate\":\"2004-11-25\",\"bibliographicIssueDateType\":\"Issued\"},\"bibliographicIssueNumber\":\"1/2\",\"bibliographicPageEnd\":\"10\",\"bibliographicPageStart\":\"1\",\"bibliographicVolumeNumber\":\"55\",\"bibliographic_titles\":[{\"bibliographic_title\":\"Tohoku journal of agricultural research\"}]}]},\"item_4_date_62\":{\"attribute_name\":\"登録日\",\"attribute_value_mlt\":[{\"subitem_date_issued_datetime\":\"2008-05-02\",\"subitem_date_issued_type\":\"Created\"}]},\"item_4_date_63\":{\"attribute_name\":\"公開日（投稿完了日）\",\"attribute_value_mlt\":[{\"subitem_date_issued_datetime\":\"2008-05-02\",\"subitem_date_issued_type\":\"Created\"}]},\"item_4_date_65\":{\"attribute_name\":\"発行日\",\"attribute_value_mlt\":[{\"subitem_date_issued_datetime\":\"2004-11-25\",\"subitem_date_issued_type\":\"Created\"}]},\"item_4_date_80\":{\"attribute_name\":\"更新日\",\"attribute_value_mlt\":[{\"subitem_date_issued_datetime\":\"2010-01-27\",\"subitem_date_issued_type\":\"Created\"}]},\"item_4_description_15\":{\"attribute_name\":\"フォーマット\",\"attribute_value_mlt\":[{\"subitem_description\":\"application/pdf\",\"subitem_description_type\":\"Other\"}]},\"item_4_description_4\":{\"attribute_name\":\"抄録\",\"attribute_value_mlt\":[{\"subitem_description\":\"Genetic parameters of body weight at the start of fattening (BSF), carcass weight (CWT), subcutaneous fat thickness (SFT), rib thickness (RBT), meat quality grade (MQG), beef marbling score (BMS) and rib eye area (REA) in Japanese Black cattle were estimated. The effects of genetic and environmental factors on fattening performance and carcass quality traits of the progeny were also analyzed. The averages of BSF, CWT, SFT, RBT and REA were 189 kg, 408 kg, 24.9 mm, 69.3 mm and 47.5 cm^2, respectively. CWT was significantly affected (p<0.01) by sire, while BSF (p<0.01), CWT (p<0.01), SFT (p<0.01), RBT (p<0.01) and REA (p<0.05) were significantly affected by dam, indicating the scope of the applicability of selective breeding for improving the dam population for producing beef cattle with greater genetic ability to carcass traits. The sex of the calf had a significant (p<0.01 or p<0.05) effect on all the traits studied except REA. BSF, RBT, MQG and BMS were significantly (p<0.01) affected by the year and season of the birth of calves. The fattening farm exerted a significant influence (p<0.01) on BSF, CWT, MQG and BMS. The heritability estimates fo",
+      "links": []
+    },
+    {
+      "key": "tohoku-chirality-page2",
+      "utc": "2026-10-26T11:46:09.832914+00:00",
+      "url": "https://tohoku.repo.nii.ac.jp/api/records/?q=Chirality&search_type=1&size=20&page=2",
+      "curl_exit": 0,
+      "metadata": "200\thttps://tohoku.repo.nii.ac.jp/api/records/?q=Chirality&search_type=1&size=20&page=2\tapplication/json",
+      "error": "",
+      "bytes": 96513,
+      "sha256": "a8f99339eec3ccc0dd50cac9c1697fce88ffe0a6e55c63691e005d7cae8d9d71",
+      "pdf_signature": false,
+      "hit_total": 31,
+      "hits": [
+        {
+          "id": 130975,
+          "title": [
+            "Reversal of domain wall chirality with ferromagnet thickness in W/(Co)FeB/MgO systems"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2020-07-30"
+                }
+              ],
+              "extention": "pdf",
+              "label": "FUKAMI-Shunsuke-2020Tour01-170.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/130975/files/FUKAMI-Shunsuke-2020Tour01-170.pdf"
+            }
+          ]
+        },
+        {
+          "id": 131750,
+          "title": [
+            "Bulk Photovoltaic Effect in a Pair of Chiral–Polar Layered Perovskite-Type Lead Iodides Altered by Chirality of Organic Cations"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2020-10-01"
+                }
+              ],
+              "extention": "pdf",
+              "label": "TANIGUCHI-Kouji-2020Tour01-198.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/131750/files/TANIGUCHI-Kouji-2020Tour01-198.pdf"
+            }
+          ]
+        },
+        {
+          "id": 131753,
+          "title": [
+            "Contribution of systemic inflammation and nutritional status to the relationship between tooth loss and mortality in a community-dwelling older Japanese population: a mediation analysis of data from the Tsurugaya project"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2020-10-01"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KOMIYAMA-Takamasa-2020Tour01-201.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/131753/files/KOMIYAMA-Takamasa-2020Tour01-201.pdf"
+            }
+          ]
+        },
+        {
+          "id": 77931,
+          "title": [
+            "The Dilenjoate Chirality Rule (ジベンゾエートキラリテイ則)"
+          ],
+          "files": null
+        },
+        {
+          "id": 128139,
+          "title": [
+            "Effects of Vertical MHD Flows and Cell Rotation on Surface Chirality in Magnetoelectrodeposition"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2019-08-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "MOGI-Iwao-2019Tour01-68.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/128139/files/MOGI-Iwao-2019Tour01-68.pdf"
+            }
+          ]
+        },
+        {
+          "id": 47567,
+          "title": [
+            "Vortex-chirality control in mesoscopic disk magnets observed by photoelectron emission microscopy"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-17"
+                }
+              ],
+              "extention": "pdf",
+              "label": "JApplPhys_97_10J904.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/47567/files/JApplPhys_97_10J904.pdf"
+            }
+          ]
+        },
+        {
+          "id": 5352,
+          "title": [
+            "Systematic search of πh11/2⊗νh11/2 chiral doublet bands and role of triaxiality in odd-odd Z=55 isotopes: 128,130,132,134Cs"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-02"
+                }
+              ],
+              "extention": "pdf",
+              "label": "PhysRevC.67.044319.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/5352/files/PhysRevC.67.044319.pdf"
+            }
+          ]
+        },
+        {
+          "id": 5318,
+          "title": [
+            "Candidate chiral twin bands in the odd-odd nucleus 132Cs: Exploring the limits of chirality in the mass A≈130 region"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-02"
+                }
+              ],
+              "extention": "pdf",
+              "label": "PhysRevC.68.024318.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/5318/files/PhysRevC.68.024318.pdf"
+            }
+          ]
+        },
+        {
+          "id": 12998,
+          "title": [
+            "龜ノ尾層に見られる層間異常"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-03"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004205674.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/12998/files/KJ00004205674.pdf"
+            }
+          ]
+        },
+        {
+          "id": 13040,
+          "title": [
+            "伊豆半島の地質学的諸問題"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-03"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004208176.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/13040/files/KJ00004208176.pdf"
+            }
+          ]
+        },
+        {
+          "id": 13014,
+          "title": [
+            "靜岡県島田・掛川市付近の第三系とその浮遊性有孔虫化石群"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-03"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004205863.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/13014/files/KJ00004205863.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tohoku-doi",
+      "utc": "2026-10-26T11:46:12.361355+00:00",
+      "url": "https://tohoku.repo.nii.ac.jp/api/records/?q=00663-1&search_type=1&size=20",
+      "curl_exit": 0,
+      "metadata": "200\thttps://tohoku.repo.nii.ac.jp/api/records/?q=00663-1&search_type=1&size=20\tapplication/json",
+      "error": "",
+      "bytes": 132971,
+      "sha256": "a5a88427818d3329ab26a62e061d9e33f8ab2f86d259ea65733ff4aab8ba1c52",
+      "pdf_signature": false,
+      "hit_total": 81,
+      "hits": [
+        {
+          "id": 41723,
+          "title": [
+            "Conformal-Projective Geometry of Statistical Manifolds"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-15"
+                }
+              ],
+              "extention": "pdf",
+              "label": "8_89.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/41723/files/8_89.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66180,
+          "title": [
+            "Anesthetics, immune cells, and immune responses"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "JOAN-S-08-00047.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66180/files/JOAN-S-08-00047.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66023,
+          "title": [
+            "オーチャードグラス(Dactylis glomerata L.)採草地に生育するワルナスビ(Solanum carolinense L.)に対するトリクロピルおよびアシュラムの効果"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004856663.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66023/files/KJ00004856663.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66158,
+          "title": [
+            "Endoscopic assessment of oesophagitis: clinical and functional correlates and further validation of the Los Angeles classification"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "172.full.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66158/files/172.full.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66546,
+          "title": [
+            "キングストンの作品における「関公」表象 : 『アメリカの中国人』を中心に"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "1341-0709-2015-22-155.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66546/files/1341-0709-2015-22-155.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66814,
+          "title": [
+            "十八世紀ドイツの通俗劇に描かれる異邦人像 : アウグスト・フォン・コッツェブーを中心にして"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "1341-0857-2015-23-1.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66814/files/1341-0857-2015-23-1.pdf"
+            }
+          ]
+        },
+        {
+          "id": 64631,
+          "title": [
+            "BIOCHEMICAL STUDIES OF MICROELEMENTS IN GREEN PLANTS II. THE CHEMICAL COMPOSITION OF RICE PLANT AND BARLEY AFFECTED BY IRON DEFICIENCY"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00000713838.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/64631/files/KJ00000713838.pdf"
+            }
+          ]
+        },
+        {
+          "id": 65259,
+          "title": [
+            "Field Study on Translocation of Nitrogen and Its Contribution to the Growth of Wetland Rice at the Middle Growing Stage"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00000714840.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/65259/files/KJ00000714840.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66073,
+          "title": [
+            "機関リポジトリの発展に向けて : 現状と課題"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "goto070826-2.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66073/files/goto070826-2.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66072,
+          "title": [
+            "電子資料の長期保存に向けて"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "goto_070826-1.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66072/files/goto_070826-1.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66806,
+          "title": [
+            "井上紅梅の養家「井上商店」の記録について : 井上紅梅に関する事跡研究の一環として"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "1341-0857-2013-21-142(1).pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66806/files/1341-0857-2013-21-142(1).pdf"
+            }
+          ]
+        },
+        {
+          "id": 66645,
+          "title": [
+            "宮城県における産業廃棄物ゼロエミッションへの取り組み : アンケートによる実態調査結果およびその解析"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004370423.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66645/files/KJ00004370423.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66634,
+          "title": [
+            "Trade Conflict between Japan and the United States over Automobiles and Automotive Parts"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004370406.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66634/files/KJ00004370406.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66632,
+          "title": [
+            "ゴダール映画と商業主義(2) : 映画の政治性と革命"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004370404.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66632/files/KJ00004370404.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66630,
+          "title": [
+            "リヴィングストンの見る東アフリカのアラブ商人"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004370402.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66630/files/KJ00004370402.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66629,
+          "title": [
+            "Anthropologie, structures sociales et structure du Pouvoir dans le Maghreb contemporain : considerations epistemologiques"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004370401.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66629/files/KJ00004370401.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66605,
+          "title": [
+            "歌語論の展開と現状"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004370347.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66605/files/KJ00004370347.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66638,
+          "title": [
+            "白話小説研究における「話本」の定義について : 中国白話小説研究における一展望(III)"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004370411.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66638/files/KJ00004370411.pdf"
+            }
+          ]
+        },
+        {
+          "id": 66635,
+          "title": [
+            "日本における情報ネットワーク形成過程に関する考察 : キャプテンシステムとパソコン通信を中心に"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-22"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004370407.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/66635/files/KJ00004370407.pdf"
+            }
+          ]
+        },
+        {
+          "id": 51136,
+          "title": [
+            "最急降下法を用いた白頭山画像の融合処理"
+          ],
+          "files": [
+            {
+              "date": [
+                {
+                  "dateType": "Available",
+                  "dateValue": "2017-02-20"
+                }
+              ],
+              "extention": "pdf",
+              "label": "KJ00004380663.pdf",
+              "url": "https://tohoku.repo.nii.ac.jp/record/51136/files/KJ00004380663.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tohoku-exactdoi",
+      "url": "https://tohoku.repo.nii.ac.jp/api/records/?q=%2210.1016%2FS0375-9474%2800%2900663-1%22&search_type=1&size=20",
+      "curl_exit": 0,
+      "metadata": "200\thttps://tohoku.repo.nii.ac.jp/api/records/?q=%2210.1016%2FS0375-9474%2800%2900663-1%22&search_type=1&size=20\tapplication/json",
+      "error": "",
+      "bytes": 169,
+      "sha256": "6f7fa114ffad0935311f10e2a92703900db090bd44c55050270466bd0bdebaf2",
+      "pdf_signature": false,
+      "hit_total": 0,
+      "hits": []
+    },
+    {
+      "key": "tohoku-root",
+      "url": "https://tohoku.repo.nii.ac.jp/",
+      "curl_exit": 0,
+      "metadata": "200\thttps://tohoku.repo.nii.ac.jp/\ttext/html; charset=utf-8",
+      "error": "",
+      "bytes": 145494,
+      "sha256": "f0abcb36c00eaa36d0ed864f4bedd43858fc62cfcacc1dc084d39f0df08bd912",
+      "pdf_signature": false,
+      "text_excerpt": "東北大学機関リポジトリTOUR ログイン Language: Language: WEKO3 トップ ランキング 検索キーワード 検索 Advanced 閉じる 全文 キーワード [[key_option.contents]] To lat lon distance [[sub_sel_option.contents]] [[sub_check.contents]] [[sub_check.contents]] [[sub_radio.contents]] 開始日 To 終了日 Field does not validate [[sub_attr.contents]] 検索条件追加 検索 クリア メニューを最小化 インデックスリンク インデックスツリー is_permission is_login アイテムリスト Export Checked Items Export All Displayed Items Export All Items Of This Index Print Checked Items Print All Displayed Items Print All Items Of This Index 実行 エクスポート 表示順 Title(Ascending) Title(Descending) Registrant(Ascending) Registrant(Descending) Item Types(Asending) Item Types(Descending) ID(Ascending) ID(Descending) Modified Date and Time(Ascending) Modified Date and Time(Descending) Created Date and Time(Ascending) Created Date and Time(Descending) Review Date and Time(Ascending) Review Date and Time(Descending) Published Year(Ascending) Published Year(Descending) Custom(Ascending) Custom(Descending) Relevance(Ascending) Relevance(Descending) 表示順: 表示数 Powered by WEKO3 Powered by WEKO3",
+      "candidate_links": []
+    },
+    {
+      "key": "tohoku-searchjs",
+      "url": "https://tohoku.repo.nii.ac.jp/static/gen/weko_search_ui.ee8ddf52.js",
+      "curl_exit": 0,
+      "metadata": "200\thttps://tohoku.repo.nii.ac.jp/static/gen/weko_search_ui.ee8ddf52.js\tapplication/javascript; charset=utf-8",
+      "error": "",
+      "bytes": 417501,
+      "sha256": "c7cbb126d9ff3594f2a643435645833aaf8fa63e9c1e54db9274d9cb2cb2bf8d",
+      "pdf_signature": false
+    },
+    {
+      "key": "tohoku-titlephrase",
+      "url": "https://tohoku.repo.nii.ac.jp/api/records/?q=%22Chirality+in+odd%22&search_type=1&size=20",
+      "curl_exit": 0,
+      "metadata": "200\thttps://tohoku.repo.nii.ac.jp/api/records/?q=%22Chirality+in+odd%22&search_type=1&size=20\tapplication/json",
+      "error": "",
+      "bytes": 40567,
+      "sha256": "2bc27c5bc3391f3a5251333b985f11a9f5d5d8384c0ec9b802aa3e4659fa12a2",
+      "pdf_signature": false,
+      "hit_total": 4,
+      "hits": [
+        {
+          "id": 5324,
+          "title": [
+            "Role of chirality in angular momentum coupling for A～130 odd-odd triaxial nuclei: 132La"
+          ]
+        },
+        {
+          "id": 5352,
+          "title": [
+            "Systematic search of πh11/2⊗νh11/2 chiral doublet bands and role of triaxiality in odd-odd Z=55 isotopes: 128,130,132,134Cs"
+          ]
+        },
+        {
+          "id": 5318,
+          "title": [
+            "Candidate chiral twin bands in the odd-odd nucleus 132Cs: Exploring the limits of chirality in the mass A≈130 region"
+          ]
+        },
+        {
+          "id": 13040,
+          "title": [
+            "伊豆半島の地質学的諸問題"
+          ]
+        }
+      ]
+    }
+  ],
+  "mcp_queries": [
+    {
+      "tool": "search_google_scholar",
+      "query": "\"Chirality in odd–odd triaxial nuclei\" Starosta",
+      "status": "tool search failure / timeout"
+    },
+    {
+      "tool": "search_openalex",
+      "query": "Chirality in odd odd triaxial nuclei",
+      "status": "target returned; open_access_url=null"
+    },
+    {
+      "tool": "search_semantic_scholar",
+      "query": "Chirality in odd odd triaxial nuclei",
+      "status": "HTTP429"
+    }
+  ],
+  "downloaded_response_files": [
+    {
+      "path": "tmp/day24-starosta-definition-006/arxiv-title.bin",
+      "bytes": 12898,
+      "sha256": "428d0df253d8ae6ac2fc5f39b1ccab765974962257b3e9d9ed51417930a443f4",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/bing.bin",
+      "bytes": 103368,
+      "sha256": "90bd008ab5a263ba0044199edd353084cfef33f1542b946bc38003753f87ca6d",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/bingpii.bin",
+      "bytes": 103005,
+      "sha256": "eb44e99905ffd3893b37bb80469c31f1964afc48c2a656b7db326c9f93b783f1",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/crossref.bin",
+      "bytes": 2660,
+      "sha256": "91dd2f39adb175ccef20f869f1223704e8d2d1591df166f19c3ef57efdd4eec6",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/elsevier-body-format.bin",
+      "bytes": 162,
+      "sha256": "8896659c8776e3601cba7215e75d52d13a0aa4cde5150bbf00660945a33f39b7",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/elsevier-crossref-link.bin",
+      "bytes": 1789,
+      "sha256": "3ea0dc691a86e37b9bf2ff46dff3bdca4e59e96175524c2ca7ef61782c6659fb",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/koike-group.bin",
+      "bytes": 20307,
+      "sha256": "2df9f636f4af6f22f22f3d42c68ead1098d42062d29575d783a5df0d9171dfb6",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/koike-profile.bin",
+      "bytes": 196,
+      "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/koike-real.bin",
+      "bytes": 196,
+      "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/niitohoku.bin",
+      "bytes": 192,
+      "sha256": "808f15c49092c00771dc7ba5be07f5ef07cb136efe9737d354884776e83cf858",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/openalex.bin",
+      "bytes": 14326,
+      "sha256": "7ffe00418a3d5ee1fd54639efd807bb3703a5b5963dcbd46582d6868e224eabd",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/sfu-author.bin",
+      "bytes": 54152,
+      "sha256": "ab5d744f58eef6837110102fdeb4b550e9b9ab338a9f93027772822c5f5c66cf",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/sfu-faculty.bin",
+      "bytes": 141554,
+      "sha256": "a7d7f15926ce1d9c86a9edc257794ba3a1b639f2fe9ee9a6f432e80803441990",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/sfu-group.bin",
+      "bytes": 54138,
+      "sha256": "7685d1833010b826d1ca3d92477f2bcae22262f770d11249d8bf6f4582286b29",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/sfu-old-personal.bin",
+      "bytes": 672,
+      "sha256": "0af5a3b6edb3268d3a98d107ea31e466fc6d2dc7f6b2fa4cd991084534805589",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/sfu-retired.bin",
+      "bytes": 126673,
+      "sha256": "96b0945a3d7cdd66453b29c40176956121b934e907663289abdbd7a583fbf2e6",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/sfu.bin",
+      "bytes": 54120,
+      "sha256": "0ba8acde1f771a3885d983ae4eeb1b260e709715cb7f3c676e29df38f735d8ce",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/tohoku-api-fixed.bin",
+      "bytes": 184513,
+      "sha256": "d440b40886b86fd920bb660ed0280cbe7e90cad2f886c300ff30aa364221808a",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/tohoku-api.bin",
+      "bytes": 184513,
+      "sha256": "d440b40886b86fd920bb660ed0280cbe7e90cad2f886c300ff30aa364221808a",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/tohoku-chirality-page2.bin",
+      "bytes": 96513,
+      "sha256": "a8f99339eec3ccc0dd50cac9c1697fce88ffe0a6e55c63691e005d7cae8d9d71",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/tohoku-doi.bin",
+      "bytes": 132971,
+      "sha256": "a5a88427818d3329ab26a62e061d9e33f8ab2f86d259ea65733ff4aab8ba1c52",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/tohoku-exactdoi.bin",
+      "bytes": 169,
+      "sha256": "6f7fa114ffad0935311f10e2a92703900db090bd44c55050270466bd0bdebaf2",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/tohoku-root.bin",
+      "bytes": 145494,
+      "sha256": "f0abcb36c00eaa36d0ed864f4bedd43858fc62cfcacc1dc084d39f0df08bd912",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/tohoku-searchjs.bin",
+      "bytes": 417501,
+      "sha256": "c7cbb126d9ff3594f2a643435645833aaf8fa63e9c1e54db9274d9cb2cb2bf8d",
+      "pdf_signature": false
+    },
+    {
+      "path": "tmp/day24-starosta-definition-006/tohoku-titlephrase.bin",
+      "bytes": 40567,
+      "sha256": "2bc27c5bc3391f3a5251333b985f11a9f5d5d8384c0ec9b802aa3e4659fa12a2",
+      "pdf_signature": false
+    }
+  ]
+}

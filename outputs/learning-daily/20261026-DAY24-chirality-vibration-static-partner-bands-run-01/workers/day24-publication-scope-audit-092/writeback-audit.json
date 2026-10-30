@@ -1,0 +1,1195 @@
+{
+  "observed_utc": "2026-10-27T03:19:57.355598+00:00",
+  "summary": {
+    "knowledge_writeback_blocks": 1,
+    "items": 45,
+    "unique_knowledge_paths": 45,
+    "all_paths_exist": true,
+    "all_anchors_present": true,
+    "source_references": 771,
+    "exact_atomic_locator_missing": [],
+    "source_pages": 39,
+    "review_status_counts": {
+      "human-reviewed": 3,
+      "unreviewed": 36
+    },
+    "actual_body_pointers": 17,
+    "existing_body_pointers": 15,
+    "broken_body_pointers": [
+      "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+      "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md"
+    ]
+  },
+  "items": [
+    {
+      "knowledge": "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md",
+      "exists": true,
+      "anchor": "近似阶次练习：等强来自什么",
+      "anchor_present": true,
+      "source_references": 97
+    },
+    {
+      "knowledge": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+      "exists": true,
+      "anchor": "Day24原件主线回读：模型范围与未见跃迁的条件",
+      "anchor_present": true,
+      "source_references": 2
+    },
+    {
+      "knowledge": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "exists": true,
+      "anchor": "Day24原件主线回读：谐振等强、配对输入与临界区",
+      "anchor_present": true,
+      "source_references": 2
+    },
+    {
+      "knowledge": "knowledge/concepts/nuclear-chirality.md",
+      "exists": true,
+      "anchor": "Day24正式研究入口：伙伴分辨与模型有效域",
+      "anchor_present": true,
+      "source_references": 18
+    },
+    {
+      "knowledge": "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+      "exists": true,
+      "anchor": "有限all-detector门的接受度练习",
+      "anchor_present": true,
+      "source_references": 119
+    },
+    {
+      "knowledge": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+      "exists": true,
+      "anchor": "WK22-35",
+      "anchor_present": true,
+      "source_references": 67
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "exists": true,
+      "anchor": "Day24正式研究入口：135Nd逐伙伴实验",
+      "anchor_present": true,
+      "source_references": 77
+    },
+    {
+      "knowledge": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+      "exists": true,
+      "anchor": "Day24主线核验：共同转频、有限窗口与模身份",
+      "anchor_present": true,
+      "source_references": 5
+    },
+    {
+      "knowledge": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+      "exists": true,
+      "anchor": "Day24正式研究：作者投影网格与有限手征窗口",
+      "anchor_present": true,
+      "source_references": 3
+    },
+    {
+      "knowledge": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+      "exists": true,
+      "anchor": "Day24独立伴随链：高spin DSAM与bandhead g逐态分开",
+      "anchor_present": true,
+      "source_references": 2
+    },
+    {
+      "knowledge": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "exists": true,
+      "anchor": "Day24逐态companion核验：同isomer多γ与高spin寿命不是同一输入",
+      "anchor_present": true,
+      "source_references": 2
+    },
+    {
+      "knowledge": "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "exists": true,
+      "anchor": "Day24：寿命逐态引用与133Ce迁移合同",
+      "anchor_present": true,
+      "source_references": 2
+    },
+    {
+      "knowledge": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "exists": true,
+      "anchor": "Day24：131Ce实际节点、clock与目标核迁移",
+      "anchor_present": true,
+      "source_references": 2
+    },
+    {
+      "knowledge": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "exists": true,
+      "anchor": "Day24 active source/version entry",
+      "anchor_present": true,
+      "source_references": 4
+    },
+    {
+      "knowledge": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "exists": true,
+      "anchor": "Day24：正宇称寿命family映射与未闭合的表图端点",
+      "anchor_present": true,
+      "source_references": 4
+    },
+    {
+      "knowledge": "knowledge/sources/olbratowski-2002-critical-frequency-preprint.md",
+      "exists": true,
+      "anchor": "临界频率：给定gyro与惯量的均匀转动分岔",
+      "anchor_present": true,
+      "source_references": 7
+    },
+    {
+      "knowledge": "knowledge/sources/chen-2013-collective-hamiltonian-chiral-modes.md",
+      "exists": true,
+      "anchor": "一维集体量子化补上有限隧穿，也保留其冻结自由度",
+      "anchor_present": true,
+      "source_references": 14
+    },
+    {
+      "knowledge": "knowledge/sources/chen-2016-two-dimensional-collective-chiral-wobbling.md",
+      "exists": true,
+      "anchor": "动态θ、交叉质量与高频再劈裂：补到哪一层",
+      "anchor_present": true,
+      "source_references": 17
+    },
+    {
+      "knowledge": "knowledge/sources/wu-2018-two-dimensional-collective-electromagnetic-transitions.md",
+      "exists": true,
+      "anchor": "集体取向涨落修正带内率，未给完整相干跨带振幅",
+      "anchor_present": true,
+      "source_references": 14
+    },
+    {
+      "knowledge": "knowledge/sources/chen-2017-128cs-angular-momentum-projection-chirality.md",
+      "exists": true,
+      "anchor": "Day24正文回读：投影态、相干核与几何分布",
+      "anchor_present": true,
+      "source_references": 8
+    },
+    {
+      "knowledge": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "exists": true,
+      "anchor": "Day24内Day25预习：两个family与局部端点边界",
+      "anchor_present": true,
+      "source_references": 7
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+      "exists": true,
+      "anchor": "Day24内Day25预习：实际reprint身份与D5组态更正",
+      "anchor_present": true,
+      "source_references": 4
+    },
+    {
+      "knowledge": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "exists": true,
+      "anchor": "Day24内Day25无学分预习：134Pr比较行",
+      "anchor_present": true,
+      "source_references": 3
+    },
+    {
+      "knowledge": "knowledge/projects/chirality-shape-coexistence-companion-matrix.md",
+      "exists": true,
+      "anchor": "不同核、不同pair的支持链不能拼成一条完整向量",
+      "anchor_present": true,
+      "source_references": 58
+    },
+    {
+      "knowledge": "knowledge/concepts/triaxial-shape-coexistence.md",
+      "exists": true,
+      "anchor": "Day24内Day25预习：逐伙伴比较的证据层",
+      "anchor_present": true,
+      "source_references": 14
+    },
+    {
+      "knowledge": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+      "exists": true,
+      "anchor": "Day24内Day25预习：定义、E0与证据量词校准",
+      "anchor_present": true,
+      "source_references": 7
+    },
+    {
+      "knowledge": "knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md",
+      "exists": true,
+      "anchor": "Day24内Day25预习：真实D5母态、相对强度与方法输入",
+      "anchor_present": true,
+      "source_references": 9
+    },
+    {
+      "knowledge": "knowledge/sources/chen-2018-four-j-shell-prm-136nd.md",
+      "exists": true,
+      "anchor": "四壳量子PRM支持D5，目标两E2预测仍未交付",
+      "anchor_present": true,
+      "source_references": 6
+    },
+    {
+      "knowledge": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "exists": true,
+      "anchor": "2026-10-26 用户补充原件：获取状态更新",
+      "anchor_present": true,
+      "source_references": 1
+    },
+    {
+      "knowledge": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+      "exists": true,
+      "anchor": "2026-10-26 用户补充原件：获取状态更新",
+      "anchor_present": true,
+      "source_references": 1
+    },
+    {
+      "knowledge": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+      "exists": true,
+      "anchor": "2026-10-26 用户补充原件：获取状态更新",
+      "anchor_present": true,
+      "source_references": 1
+    },
+    {
+      "knowledge": "knowledge/sources/larsson-1978-nuclear-core-quasiparticle-coupling.md",
+      "exists": true,
+      "anchor": "历史方法矩阵元已可原读，2022实际job仍须另核",
+      "anchor_present": true,
+      "source_references": 28
+    },
+    {
+      "knowledge": "knowledge/sources/leander-larsson-1975-potential-energy-surfaces-n-equals-z.md",
+      "exists": true,
+      "anchor": "Ref23原件已读：轴向同态Q不等完整三轴跃迁库",
+      "anchor_present": true,
+      "source_references": 12
+    },
+    {
+      "knowledge": "knowledge/sources/bengtsson-ragnarsson-1985-rotational-bands-particle-hole.md",
+      "exists": true,
+      "anchor": "原参数表已读，固定组态与实际能带仍须逐态辨认",
+      "anchor_present": true,
+      "source_references": 18
+    },
+    {
+      "knowledge": "knowledge/sources/nolan-1983-ce130-high-spin-moment-inertia.md",
+      "exists": true,
+      "anchor": "实验谷宽约束J_band，不直接测得另一刚性形状",
+      "anchor_present": true,
+      "source_references": 7
+    },
+    {
+      "knowledge": "knowledge/sources/meyer-ter-vehn-1975-triaxial-rotor-particle-model.md",
+      "exists": true,
+      "anchor": "等谱映射有完整合同，不能只改γ与λ两个数字",
+      "anchor_present": true,
+      "source_references": 12
+    },
+    {
+      "knowledge": "knowledge/sources/hamamoto-2011-selection-rule-chiral-geometry.md",
+      "exists": true,
+      "anchor": "Day24 checkpoint062：选择规则的逻辑、输入和奇A迁移",
+      "anchor_present": true,
+      "source_references": 6
+    },
+    {
+      "knowledge": "knowledge/sources/meyer-ter-vehn-1975-odd-a-unique-parity-comparison.md",
+      "exists": true,
+      "anchor": "谱对三轴芯有偏好，不等于直接测得刚性",
+      "anchor_present": true,
+      "source_references": 38
+    },
+    {
+      "knowledge": "knowledge/sources/gizon-1974-deformed-states-cerium-neodymium.md",
+      "exists": true,
+      "anchor": "原实验有实际边和时间信息，也有明确的未定身份",
+      "anchor_present": true,
+      "source_references": 17
+    },
+    {
+      "knowledge": "knowledge/sources/nndc-2011-133ce-low-level-reference-records.md",
+      "exists": true,
+      "anchor": "服务当前返回的评估版本与历史实验身份分别保存",
+      "anchor_present": true,
+      "source_references": 8
+    },
+    {
+      "knowledge": "knowledge/sources/butler-1975-la129-la131-rd-lifetimes.md",
+      "exists": true,
+      "anchor": "原寿命支持条件三轴比较，邻偶核仍是定标输入",
+      "anchor_present": true,
+      "source_references": 14
+    },
+    {
+      "knowledge": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+      "exists": true,
+      "anchor": "133Ce寿命网络中的时钟、跃迁和模型边界",
+      "anchor_present": true,
+      "source_references": 9
+    },
+    {
+      "knowledge": "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md",
+      "exists": true,
+      "anchor": "高自旋带的寿命和Qt提供独立时钟，也保留阻停与组态边界",
+      "anchor_present": true,
+      "source_references": 10
+    },
+    {
+      "knowledge": "knowledge/sources/hauschild-1995-133ce-superdeformed-bands.md",
+      "exists": true,
+      "anchor": "超形变带是真实观测节点，构型和形状仍需条件化",
+      "anchor_present": true,
+      "source_references": 10
+    },
+    {
+      "knowledge": "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md",
+      "exists": true,
+      "anchor": "三轴带和组态候选清楚，缺失link也清楚",
+      "anchor_present": true,
+      "source_references": 5
+    }
+  ],
+  "source_inventory": [
+    {
+      "path": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+      "status": "active",
+      "review_status": "human-reviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/frauendorf-meng-1997-tilted-rotation-chirality.md",
+        "bytes": 10852,
+        "sha256": "c883af6ef1a0de9bcf4f70fdf5034dc71548675ec36579ae46c71993a1d3d093"
+      }
+    },
+    {
+      "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+        "bytes": 66629,
+        "sha256": "cf9b0b927c66c0d84dd8c642690ab6db48f2b0db924d66c1b834dc4b9fcdc681"
+      }
+    },
+    {
+      "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 118,
+          "text": "独立worker回读相关Ch5/6连续段，视觉核Fig5.1/Table5.2/Table6.11；leader抽核fresh PDF66/67 Table5.1/5.2。不是新称全文130页重读。原raw SHA48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080相符，新增needs_review:true。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+        "bytes": 29543,
+        "sha256": "3f3a8d5fad223b018a05825bccf49e13ff4594c7bd7c1286e858ffa5029a75a5"
+      }
+    },
+    {
+      "path": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/almehed-2011-chiral-vibrations-a135.md",
+        "bytes": 17086,
+        "sha256": "d6deb735298cc139c378064b64e82559c7c2cef91b1f6dd2edc5cae77a55b150"
+      }
+    },
+    {
+      "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/qi-2009-135nd-particle-rotor-chirality.md",
+        "bytes": 37553,
+        "sha256": "04b02ed6893a282aceb24f433ec0c7d09b7c07af8c42d1a8239a1e81254e2428"
+      }
+    },
+    {
+      "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/grodner-2006-128cs-chiral-doublet-lifetimes.md",
+        "bytes": 17954,
+        "sha256": "bfb882c7499151e615e23f4823f929b293713c19c10bac37430cc9b716269d3e"
+      }
+    },
+    {
+      "path": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/grodner-2018-128cs-chiral-g-factor.md",
+        "bytes": 21305,
+        "sha256": "4909e4ab43701592ec5490098c3328b606c07ff6683d13baac1d57742c74dcf8"
+      }
+    },
+    {
+      "path": "knowledge/sources/li-2004-lifetimes-131ce.md",
+      "status": "active",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 202,
+          "text": "本轮leader以fresh渲染逐页视觉读原3页全文、Fig1–3/Table1，文本损坏时以图像为准，raw SHA与页首相符。LI04-1–4既有用户审核状态保持；新增仅Codex self-audit、needs_review:true。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/li-2004-lifetimes-131ce.md",
+        "bytes": 19920,
+        "sha256": "7adef664a4e5eaf82fc3c27f5ac27c70b6729f1a9312acd52c1b348a4ab68586"
+      }
+    },
+    {
+      "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [
+        238
+      ],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/singh-2016-lifetime-131ce-133pr.md",
+        "bytes": 33929,
+        "sha256": "026d8d33ecf6d92638fdcd41998844139defe1e644e5d6ffb89e0539205b0c9f"
+      }
+    },
+    {
+      "path": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+      "status": "active",
+      "review_status": "human-reviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 184,
+          "text": "本轮worker读主线/关键表图，两raw SHA相符；leader重新读5页reprint全文文本并fresh视觉PDF2/3/4、accepted PDF3的Fig1，核caption37.2、TableI与版本label。不是leader重读全部accepted8页/全部原谱。原A13-1等user flags保持，新增仅self-audit、needs_review:true。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+        "bytes": 20941,
+        "sha256": "b5bad99e73b0f9b90c07dec75f0fe4258f1827d8acbf13b2ccbb569ed8ac7fb1"
+      }
+    },
+    {
+      "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "status": "active",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+        "bytes": 27713,
+        "sha256": "b49830f2461621d880d050ab7f3d9b1a10c50bb0eabf6da585b4be45c0cd61c8"
+      }
+    },
+    {
+      "path": "knowledge/sources/olbratowski-2002-critical-frequency-preprint.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-critical-tac-007/arxiv-0211075v1.response",
+        "exists": true,
+        "bytes": 252547,
+        "sha256": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/olbratowski-2002-critical-frequency-preprint.md",
+        "bytes": 10448,
+        "sha256": "a3b129c8fba524f79b49ad2baabc96dd61439ffb74964e67be2a3a4b26ba7616"
+      }
+    },
+    {
+      "path": "knowledge/sources/chen-2013-collective-hamiltonian-chiral-modes.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-collective-chiral-008/chen2013-collective-chiral-arxiv.pdf",
+        "exists": true,
+        "bytes": 987932,
+        "sha256": "bef6182263a6282ea6c4fc3e2fbae481bbf629e484dbf9668e3ea9e622342a2c",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 39,
+          "text": "worker读16页全文主线、全部8图及关键公式；root另读16页文本，视觉核PDF4–7/9–14，覆盖Figs1–8、Eqs4–14/16–28。阅读链为TAC构造→质量近似→Pauli量子化/基与壁→势和质量→能级/波函数→PRM反例与比较坐标。没有运行作者producer、重建其B/V数表或拟合真实核实验。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/chen-2013-collective-hamiltonian-chiral-modes.md",
+        "bytes": 10595,
+        "sha256": "4dab2507fbd541cb882bebaea97c8a7911fb8a9df35e788c7d3b32394d384e40"
+      }
+    },
+    {
+      "path": "knowledge/sources/chen-2016-two-dimensional-collective-chiral-wobbling.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-chiral-2d-012/chen2016-2d-arxiv160906967v2.pdf",
+        "exists": true,
+        "bytes": 6543288,
+        "sha256": "158efcad3d6f9c69ec61ee3a427ace3aa54ba0e6be7dfbb6419226f3078332be",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 37,
+          "text": "worker读30页全文/全部12图及Eqs1–36（无编号表）；root另读全文文本主线，视觉核PDF4/6/8/14/16/19/21/24/25的算符、质量、基/参数、密度、改边界、高频gap及PRM失败/修正。独立review另核原件与质量/域合同；没有作者代码、actual网格/截断收敛或实核数据重分析。临时原文、文本和整页图均不作为最后发布清单内容。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/chen-2016-two-dimensional-collective-chiral-wobbling.md",
+        "bytes": 13094,
+        "sha256": "466ca01f6507bdedacc0752643eaefd3d82763906e28f6a945fa9209afc8c7a0"
+      }
+    },
+    {
+      "path": "knowledge/sources/wu-2018-two-dimensional-collective-electromagnetic-transitions.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-chiral-em-014/wu2018.response",
+        "exists": true,
+        "bytes": 276035,
+        "sha256": "7d7c12ebc754f23721bd5367acc050c54dd3cf0f03f2f7480de407c1f3493dcb",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 37,
+          "text": "worker与root各读17页全文主线；全部4图（PDF9–12）及关键Eqs1–21由worker视觉核，root另视觉PDF4–7/9–12，核率定义、输入、四图和字面遗漏。没有运行作者producer、恢复V/B数表、拟合实验或报告新CI。本文是[[chen-2016-two-dimensional-collective-chiral-wobbling]]的直接EM后续，Ref1为该文；不是独立实验。"
+        },
+        {
+          "line": 96,
+          "text": "PDF1身份；PDF2–3范围/背景；PDF4集体H及literal缺项；PDF5局部率/角；PDF6–7积分与共同输入；PDF8–13全部4图、折叠角与失败；PDF13–17总结/引用。worker/root读取范围见Reading Depth。原PDF、全文和页图只供暂存复核，不进最终publication manifest；raw归档未做。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/wu-2018-two-dimensional-collective-electromagnetic-transitions.md",
+        "bytes": 10831,
+        "sha256": "8707c4caac79e663402a2fa53de6b05877f02b8c8fc8f3088e054f02ff7d00ed"
+      }
+    },
+    {
+      "path": "knowledge/sources/chen-2017-128cs-angular-momentum-projection-chirality.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 92,
+          "text": "本轮复用原raw重新核SHA `d176aed6be49e350c18d130ec388383b680da9844173f4e0b386cb34f0c676c6`，279433bytes、12页；worker/root均读全文主线，worker全4图/Eqs1–11视觉，root视觉PDF3–7覆盖4图、基/metric/角字典/EM比较。fresh Crossref/officialabs核v1=2017-08-24，PDF1的August4,2021为另一个typeset字段，不建立新科学版本，VoR未核。WU18 PDF17 Ref55引用本篇；不是本篇自己的Ref55。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/chen-2017-128cs-angular-momentum-projection-chirality.md",
+        "bytes": 12909,
+        "sha256": "ed01f5a07eb9f0dfb7f103c42a6a2806ea14a5fbea4a48444faf1bb994891820"
+      }
+    },
+    {
+      "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 44,
+          "text": "本次worker读canonical raw arXivv1全部10页/6图/TableI，root全文10页文字及PDF2/3/5/7–9关键visual；SHA `97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303`相符。worker另定向既有缓存9页VoR的024314-2/3/4/8（SHA `450a3032d7fecfdbc16f5a848be3d63842a536b0508dda73f3de55270fbf2066`），不冒全文VoR新读。新增均needs_review:true，旧flags/撤回保持；Day25只无学分preview，不修改正式课程序号。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
+        "bytes": 39512,
+        "sha256": "4ed3ee77a5c52c2d286da955a72f9a716374ca916f2e91fda85dc86dbd0d276d"
+      }
+    },
+    {
+      "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+      "status": "active",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/petrache-2018-chiral-bands-even-even-136nd.md",
+        "bytes": 25301,
+        "sha256": "888f534bfa9f8d715dc7002c4849c0ad5c1f3d237c2a033c204da936bf2e5d77"
+      }
+    },
+    {
+      "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": false,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 97,
+          "text": "root本次重新读VoR四页全文文本，fresh visual PDF2–4覆盖Figs1–4/Eqs1–5/TableI，raw SHA `ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f`相符。与既有PE06-D18-1/PE06-D21-R45-1–4相符，不另造新的2.0(4)测量或回归；可复用增量是[[chirality-shape-coexistence-companion-matrix]]中的原件支撑比较/companion设计。Tonev2006寿命正文仍未取得，本文的定性引用不代该body。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
+        "bytes": 18420,
+        "sha256": "9338b02a4851c427f2323393c7ae996a3f1032792d822e1b1aa8213e18b08cf7"
+      }
+    },
+    {
+      "path": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": false,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 51,
+          "text": "本轮025是有界原件校准，并非重读55页：worker连续读PDF7–13/27–30/36–44（printed1473–1479/1493–1496/1502–1510），另读PDF1与背景段，视觉核相关17页；root读PDF1–3/13/36–41关键文本并视觉13/36/41的Eq14/fingerprints/TableVI。raw55页SHA `660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183`相符。55页限定数值检索不冒充全文重读，综述举例不算本轮新primary；首页的2011-12-06 publisher-error correction字面保留，不猜其内容。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
+        "bytes": 12211,
+        "sha256": "ad1b349fa223dec47a979d7058eac1e3fd1a5fd7d7388e96600cacc8c59d0bda"
+      }
+    },
+    {
+      "path": "knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md",
+        "bytes": 24026,
+        "sha256": "dd853df92058279f85fd289aadf02738c0025c6a9206160581dfe9530f9d6489"
+      }
+    },
+    {
+      "path": "knowledge/sources/chen-2018-four-j-shell-prm-136nd.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-nd136-prm-holdout-031/chen2018-fourj-prm.pdf",
+        "exists": true,
+        "bytes": 384518,
+        "sha256": "cba4fa62433207c06b8673dc484d8a2d0ecdd7db51c27eafb2329726190bee91",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/chen-2018-four-j-shell-prm-136nd.md",
+        "bytes": 7391,
+        "sha256": "afcb0719b04b0259bb2ee97a434aa062698c870b239792357c58f1e0733639ae"
+      }
+    },
+    {
+      "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+      "status": "ai-draft",
+      "review_status": "human-reviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/guo-2022-low-spin-wobbling-187au.md",
+        "bytes": 52572,
+        "sha256": "eafcb0c2f7048ee2311cc328bfc1787f66220351715186fc3d1ea03b5a373178"
+      }
+    },
+    {
+      "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/kumar-2025-review-magnetic-antimagnetic-rotational-structures.md",
+        "bytes": 25833,
+        "sha256": "76651394878bfc22619c18043e20212281c674662e0a3f3e1c1d03c001f7aa06"
+      }
+    },
+    {
+      "path": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "reserved-unpopulated-public-publisher-staging-only",
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/ragnarsson-semmes-1988-particle-rotor-moments.md",
+        "bytes": 10969,
+        "sha256": "1af10f7a748446f02d2c6d2668dde5f805a3a415a69161ba956ddd964b19d9e3"
+      }
+    },
+    {
+      "path": "knowledge/sources/larsson-1978-nuclear-core-quasiparticle-coupling.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 38,
+          "text": "分工后已覆盖全部科学主线：032实际读PDF1–11、31–34的Introduction/§2/Conclusion/Appendix，036读PDF11–31全部§3应用及Conclusion，并视觉核全部Figs3–10、Tables2–5、Eqs18–22；连同032的Figs1/2、Table1、Eqs1–17/A1–16，非只依自动提取充阅读。root独立读PDF1–11/31–35方法/附录/参考及应用关键PDF15/20–22/29–30，视觉核PDF6/Table1、PDF32–33/Appendix及PDF13/18/19/28/30的定标、EM表与Figs9/10。引用实验原件并未逐篇新读；这不是全文数值复现或恢复作者producer。WK22 PDF47–48/Eqs3.17–3.24定向回核，程序分工段复用既有原读。未执行作者程序、未知附件或旧114。"
+        },
+        {
+          "line": 130,
+          "text": "轴对称ax=ay=a⊥时q±2=a⊥t±2、q±1=√(az a⊥)t±1、q20=(2az+a⊥)t0/3+2A(az−a⊥)r_t²/3，Lz=Lz^t但全部L未必相同；球形尺度ai=a时qμ=a tμ、全部physical L=L^t、trace消失。root读连续推导/有限符号脚本并重跑exit0，核全部分量/ladder与字典，不使用实核参数，不认证截断basis或作者producer。042时Ref23实际历史定义未读；后续043/044已补读，见下节。GAMPN实际采用哪种stretch、径向矩阵/有效电荷和signed态仍缺。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/larsson-1978-nuclear-core-quasiparticle-coupling.md",
+        "bytes": 23637,
+        "sha256": "5b09cd0cefee173bc390d2eee2ac4795d9e42b072f5b759c4b577742de9782d6"
+      }
+    },
+    {
+      "path": "knowledge/sources/leander-larsson-1975-potential-energy-surfaces-n-equals-z.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-leander1975-039/attachment-object-response.pdf",
+        "exists": true,
+        "bytes": 1736708,
+        "sha256": "35ce50a080755f3a11dac48cfbe2e2041659694038bc6bcaf28b452d72da562d",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 40,
+          "text": "044读PDF1–18全文科学主线和PDF20–21参考，视觉核全部Figs1–12/Tables1–2；043另连续深读PDF3–6/19–20方法/Appendix，核Table1表头/脚注及关键放大公式。两者覆盖全部21页主线、附录与参考入口，但没有逐篇重读所引实验/理论文献。root另读方法/物理判读关键文本，视觉核PDF4/7/10、PDF19–20的A1–A10及归一/表头。不是数值重现PES或恢复作者程序。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/leander-larsson-1975-potential-energy-surfaces-n-equals-z.md",
+        "bytes": 11289,
+        "sha256": "d9f141b58fef1804c57537de7bffe43a64e4f66cd531677e28f932f6f57474d9"
+      }
+    },
+    {
+      "path": "knowledge/sources/bengtsson-ragnarsson-1985-rotational-bands-particle-hole.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-bengtsson1985-046/attachment-object-response.pdf",
+        "exists": true,
+        "bytes": 4596459,
+        "sha256": "605e785734279f1a7a6dfd234f1d3ff6b136f983b134ccf9d6b766f3b027d6b8",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 42,
+          "text": "046入口只读PDF1/5/6/69及Table1，历史范围保留。其后048连续读PDF1–16并fresh逐页视觉，Eqs1–26/Figs1–4/Table1；049读17–46全部主线和范围内Figs5–21/Tables2–3/Eqs27–32；root050读47–69含§7.3后半、§8四例、§9–10和参考，视觉核Figs22–32/Table4/Eq33。合并为全部69页主线、32图、4表、33式，不声称root独立重读每页。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/bengtsson-ragnarsson-1985-rotational-bands-particle-hole.md",
+        "bytes": 15264,
+        "sha256": "fa47ad1ed075c2412a03ab89be5fda42a52234536f8ea507e8c9196603f02c92"
+      }
+    },
+    {
+      "path": "knowledge/sources/nolan-1983-ce130-high-spin-moment-inertia.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-nolan1983-ce130-companion-052/attachment-object-response.pdf",
+        "exists": true,
+        "bytes": 307863,
+        "sha256": "9085414a3cf1daafdeb3e7b685ea9bc6fdbfa44ee91f2e484c5eda353af6f927",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 41,
+          "text": "052全文5页/全部Figs1–4、唯一谷宽公式、方法/误差/限制和参考已原读并fresh visual；root另读全部文本、视觉核PDF2–4四图/原公式及assignment/污染/模型段，并fresh回核BR85 PDF61/printed74的J_band字样。没有数字化曲线、重拟谷宽/背景、生成误差条或复跑cranked shell model。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/nolan-1983-ce130-high-spin-moment-inertia.md",
+        "bytes": 8037,
+        "sha256": "84a6099cf935dcc3895ba570ae05fd7ca3703b1e4a79fcfc5310ffd49f027ef9"
+      }
+    },
+    {
+      "path": "knowledge/sources/meyer-ter-vehn-1975-triaxial-rotor-particle-model.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-wk22-particle-hole-symmetry-054/attachment-object-response.pdf",
+        "exists": true,
+        "bytes": 1365168,
+        "sha256": "10cb7aca223dcbccb17ee7aa224a7a1c13fb9f1e6e58a04fcdd8ab1e4b888da9",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/meyer-ter-vehn-1975-triaxial-rotor-particle-model.md",
+        "bytes": 11198,
+        "sha256": "b8242eafeef400350ecbde75d72d9c8995da4bfbb7471d4228431a6001ee0196"
+      }
+    },
+    {
+      "path": "knowledge/sources/hamamoto-2011-selection-rule-chiral-geometry.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": null,
+      "actual_body": null,
+      "has_needs_review_true_prose_or_rows": false,
+      "selflink_lines": [],
+      "reading_scope_lines": [],
+      "snapshot": {
+        "path": "knowledge/sources/hamamoto-2011-selection-rule-chiral-geometry.md",
+        "bytes": 16833,
+        "sha256": "ffea19fa852c2900feac3062d31da614446114cf540415671f6241fbad27539b"
+      }
+    },
+    {
+      "path": "knowledge/sources/meyer-ter-vehn-1975-odd-a-unique-parity-comparison.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-meyer1975-partii-entry-057/attachment-object-response.pdf",
+        "exists": true,
+        "bytes": 1368683,
+        "sha256": "fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 41,
+          "text": "060连续读PDF1–13的一般取参和A190、全部该段图表；059负责PDF14–19的A135/Tables4–5/Figs7–9；061连续读PDF20–25讨论/结论/参考，另核必要context1–2/18–19。root连续文本读1–24及25参考，视觉另核PDF4/9/13/14/17/19/21/22的关键取参、原表、Ce图与PES论证。合并主线含Figs1–10/Tables1–7；单个worker不冒独立全25页。没有原读全部44篇引用、复现作者job或重提实验强度。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/meyer-ter-vehn-1975-odd-a-unique-parity-comparison.md",
+        "bytes": 12312,
+        "sha256": "ec676197f26ccd6749dff595f80d563e7b34abc76ce7a65adfea97113ba598c7"
+      }
+    },
+    {
+      "path": "knowledge/sources/gizon-1974-deformed-states-cerium-neodymium.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-gizon1974-unique-parity-entry-064/attachment-object-response.pdf",
+        "exists": true,
+        "bytes": 1264150,
+        "sha256": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [],
+      "reading_scope_lines": [
+        {
+          "line": 43,
+          "text": "066连续原读methods1–4及135Ce正文8–9/11底、Tables2页10–11/Figs1/5/6；067读133Ce正文15/17–18、Table4页16–17/Figs8–10及δ方法18–19/Fig11；root068读137Nd4–8上、135Nd Table3页12–13/正文13/Fig7页9/Fig8页14、讨论19–21及参考21–22，另读1–4上下文。各分区text与相应figure/table视觉已核；root另核Ce Table4和历史zero相关原页。合并覆盖22页主线、Figs1–11/Tables1–4，不把任一worker说成独立全文。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/gizon-1974-deformed-states-cerium-neodymium.md",
+        "bytes": 17722,
+        "sha256": "5a4045d67233dbed4e6d805a6fa8afea6a2810eb01bf0ec1869808929b799b51"
+      }
+    },
+    {
+      "path": "knowledge/sources/nndc-2011-133ce-low-level-reference-records.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "skimmed",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-ce133-evaluated-zero-entry-069/adopted.ensdf",
+        "exists": true,
+        "bytes": 84243,
+        "sha256": "4ac09f19661a52dd6061c8797cd3daeeadb869ca5be67d4423bc35040da4bced",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [
+        101
+      ],
+      "reading_scope_lines": [
+        {
+          "line": 44,
+          "text": "069定向读adopted低态及comments、反应低态/历史说明、两个official reference pages和NuDat/IAEA对应字段，非1043行全核结构精读。root复核adopted原行1–105、reaction1–171全部文本及CSV首两态的定宽/列语义；未原读2011评价论文全文或NSR列出的每篇primary，未从band字母推现代带。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/nndc-2011-133ce-low-level-reference-records.md",
+        "bytes": 9251,
+        "sha256": "24a3b11bacb075d1fadebc867d0dd4868a56775b4611ec1cd86fed106a410eaa"
+      }
+    },
+    {
+      "path": "knowledge/sources/butler-1975-la129-la131-rd-lifetimes.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-butler1975-la129-la131-lifetimes-071/attachment-object-response.pdf",
+        "exists": true,
+        "bytes": 268368,
+        "sha256": "231b6f427ac9bdd15688bf373959d2dff63dd7e694ee2dbb9b12cc0186ba8e0a",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [
+        116
+      ],
+      "reading_scope_lines": [
+        {
+          "line": 42,
+          "text": "071读全部4页/Figs1–2/Table1/公式/脚注/参考，先PartII-primed recall非盲测；root074另读全部原文及四页fresh视觉，核两横轴、完整表和参数排印。未原读Refs3–7全部正文、未得原counts/逐distance峰面积、actual转换/拟合producer或fullCov，未重拟作者曲线。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/butler-1975-la129-la131-rd-lifetimes.md",
+        "bytes": 10703,
+        "sha256": "d2a685726f6a7c52fdb8c8bb7b5883c1c8e9cc9c8b28b125d2c37ed9c5188613"
+      }
+    },
+    {
+      "path": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-emediato1997-ce133-rdds-072/attachment-object-response.pdf",
+        "exists": false
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [
+        96
+      ],
+      "reading_scope_lines": [
+        {
+          "line": 38,
+          "text": "L.G.R.Emediato等，*Physical Review C*55(4)(1997)2105–2108，DOI10.1103/PhysRevC.55.2105。072经APS正式PDF入口取得4页、102259bytes、SHA见frontmatter；本文为120Sn(16O,3n) 70MeV的RDDS寿命primary，不是ENSDF数值转录。SI入口未识别补充材料，原件暂tmp，raw未归档。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/emediato-1997-133ce-rdds-lifetimes.md",
+        "bytes": 6728,
+        "sha256": "c8f152c3cfa84e6e5fdb1008f44023f06cabcf4b77e5db5e239b580665872356"
+      }
+    },
+    {
+      "path": "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-joss1998-133ce-triaxial-lifetime-078/attachment-object-response.pdf",
+        "exists": false
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [
+        89
+      ],
+      "reading_scope_lines": [
+        {
+          "line": 42,
+          "text": "全文4页、Fig1–4、TablesI–II和方法/讨论均读及视觉核；未运行LINESHAPE/TRS、未取得raw counts/阻停核/fullCov/producer，SI入口未识别补充材料。原文中的模型参数和组态标记保作条件结果。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/joss-1998-133ce-triaxial-band-lifetimes.md",
+        "bytes": 6250,
+        "sha256": "0207622e9eda8410dfa9b27626de1e833fe38737842e6bd272e423fd54bf7b5f"
+      }
+    },
+    {
+      "path": "knowledge/sources/hauschild-1995-133ce-superdeformed-bands.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-ce133-primary-followup-081/1995Ha34-full.pdf",
+        "exists": true,
+        "bytes": 690165,
+        "sha256": "ce219bb983b42a15cb634f95e9ad99bcfbc8442bc179a5e5f0e613b9ac9958fb",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [
+        75
+      ],
+      "reading_scope_lines": [
+        {
+          "line": 41,
+          "text": "全文6页、Figs1–3、Table1和结论均读及视觉核。原件无τ/Qt/绝对B、linking transitions或DCO；SI入口未识别补充材料。未运行模型producer或重拟J(2)。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/hauschild-1995-133ce-superdeformed-bands.md",
+        "bytes": 5282,
+        "sha256": "6b92e18acaacec833a86562fc7c5311ed0b3e92447e4ab05f45100453e6a61b0"
+      }
+    },
+    {
+      "path": "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md",
+      "status": "ai-draft",
+      "review_status": "unreviewed",
+      "reading_depth": "deep-read",
+      "raw_storage_status": "public-staging-not-archived",
+      "actual_body": {
+        "path": "tmp/day24-ce133-independent-primary-079/1996Ha20-aps.pdf",
+        "exists": true,
+        "bytes": 229413,
+        "sha256": "560215bbff5898a3e304f4219f35f628b3a4bd03c87ed1745dc25ae147162872",
+        "matches_declared_sha256": true
+      },
+      "has_needs_review_true_prose_or_rows": true,
+      "selflink_lines": [
+        70
+      ],
+      "reading_scope_lines": [
+        {
+          "line": 41,
+          "text": "079完整读7页正文、Figs1–9和表格；未运行作者模型/producer，SI入口未识别。"
+        }
+      ],
+      "snapshot": {
+        "path": "knowledge/sources/hauschild-1996-133ce-triaxial-bands.md",
+        "bytes": 3951,
+        "sha256": "b1f8bf30a14853ca401e53565c39076258e07050c26415c64b62641578f65b25"
+      }
+    }
+  ],
+  "scope_limit": "Exact locator presence and metadata audit; not a fresh full-paper scientific reread or certification."
+}

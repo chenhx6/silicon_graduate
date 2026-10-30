@@ -1,0 +1,72 @@
+{
+  "unit": "wk22-l78-em-normalization-041",
+  "run_date": "2026-10-26",
+  "day_index": 24,
+  "status": "completed-conditional-normalization-dictionary-actual-producer-open",
+  "result_path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/wk22-l78-em-normalization-041/report.md",
+  "report_sha256": "0a8f2a922376f3a8cb2a72ca3ad696e7dcd7c309e3c04dbb3979d6577b94f6f7",
+  "source_checks": {
+    "WK22": {
+      "sha256_matches": true,
+      "path": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+      "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080"
+    },
+    "L78": {
+      "sha256_matches": true,
+      "path": "raw/papers/1-s2.0-0375947478906139-main.pdf",
+      "sha256": "108c29bed9de467d99f330c0b8cef47be82a290263a85e398ba3b4f2e97d77eb"
+    }
+  },
+  "evidence_basis": [
+    "WK22 physical PDF48 printed37 Eqs3.21–3.24 visually reviewed",
+    "L78 physical PDF32 printed220 A1–A4 visually reviewed",
+    "WK22 physical PDF47/49 context from assigned local extraction",
+    "canonical WK22-39, LLR78-D24-006/007/020 and worker032 overlap review"
+  ],
+  "new_information": [
+    "conditional ordinary-component/RME 3j dictionary",
+    "conditional bare moment to standard M1 B and delta scaling",
+    "component-wise standard E2 and Q-like tensor dictionary; no blind extra factor on spherical integral",
+    "unit and simultaneous operator-rescaling rules"
+  ],
+  "verified_no_op": [
+    "RME direction reversal already closed by LLR78-D24-020/worker037"
+  ],
+  "open_boundaries": [
+    "actual PROBMO field types, operator normalization, units, phase and radiation convention",
+    "L78 Ref23 single-particle q library not read",
+    "actual E2 component/core/particle/stretched convention not authenticated"
+  ],
+  "not_claimed": [
+    "actual producer replay or actual numerical rate error",
+    "missing-factor accusation about thesis/code",
+    "new experimental result",
+    "human-reviewed status"
+  ],
+  "verification": {
+    "raw_sha256": "matched both assigned sources; read-only",
+    "report_trailing_whitespace": "none",
+    "git_diff_check_assigned_prefix": {
+      "exit_code": 0,
+      "output": ""
+    },
+    "git_diff_no_index_check_new_report": {
+      "exit_code": 1,
+      "output": "",
+      "interpretation": "new-file diff exit; no whitespace diagnostics"
+    },
+    "numerical_test_or_toy": "not needed; not run"
+  },
+  "writes": [
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/wk22-l78-em-normalization-041/report.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/wk22-l78-em-normalization-041/receipt.json"
+  ],
+  "canonical_write": false,
+  "raw_write": false,
+  "network": false,
+  "author_or_unknown_code_run": false,
+  "old_114_read_or_run": false,
+  "curriculum_state_changed": false,
+  "git_mutation": false,
+  "next_step": "Parent may integrate minimal conditional claims into canonical; actual output conventions remain separate evidence gap."
+}

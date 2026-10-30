@@ -1,0 +1,179 @@
+{
+  "kind": "source_number_arithmetic-not-model-or-fit",
+  "nodes": [
+    {
+      "spin": "9/2-",
+      "old_9over2_reference_keV": 0,
+      "old_plus_modern37p2_candidate_keV": 37.2,
+      "WK22_candidate_keV": 37.2,
+      "difference_keV": 0.0
+    },
+    {
+      "spin": "11/2-",
+      "old_9over2_reference_keV": 170,
+      "old_plus_modern37p2_candidate_keV": 207.2,
+      "WK22_candidate_keV": 207.4,
+      "difference_keV": -0.2
+    },
+    {
+      "spin": "13/2-",
+      "old_9over2_reference_keV": 554.9,
+      "old_plus_modern37p2_candidate_keV": 592.1,
+      "WK22_candidate_keV": 592.1,
+      "difference_keV": 0.0
+    },
+    {
+      "spin": "15/2-",
+      "old_9over2_reference_keV": 789.7,
+      "old_plus_modern37p2_candidate_keV": 826.9,
+      "WK22_candidate_keV": 827.1,
+      "difference_keV": -0.2
+    },
+    {
+      "spin": "17/2-",
+      "old_9over2_reference_keV": 1306.3,
+      "old_plus_modern37p2_candidate_keV": 1343.5,
+      "WK22_candidate_keV": 1344.7,
+      "difference_keV": -1.2
+    },
+    {
+      "spin": "19/2-",
+      "old_9over2_reference_keV": 1552.3,
+      "old_plus_modern37p2_candidate_keV": 1589.5,
+      "WK22_candidate_keV": 1590.3,
+      "difference_keV": -0.8
+    },
+    {
+      "spin": "15/2-suggested-side",
+      "old_9over2_reference_keV": 1163.6,
+      "old_plus_modern37p2_candidate_keV": 1200.8,
+      "WK22_candidate_keV": 1200.8,
+      "difference_keV": 0.0
+    }
+  ],
+  "edge_checks": [
+    {
+      "parent_figure_keV": 170,
+      "final_figure_keV": 0,
+      "observed_Egamma_table_keV": 170,
+      "node_difference_minus_gamma_keV": 0
+    },
+    {
+      "parent_figure_keV": 554.9,
+      "final_figure_keV": 170,
+      "observed_Egamma_table_keV": 384.7,
+      "node_difference_minus_gamma_keV": 0.2
+    },
+    {
+      "parent_figure_keV": 789.7,
+      "final_figure_keV": 554.9,
+      "observed_Egamma_table_keV": 234.8,
+      "node_difference_minus_gamma_keV": 0.0
+    },
+    {
+      "parent_figure_keV": 789.7,
+      "final_figure_keV": 170,
+      "observed_Egamma_table_keV": 619.7,
+      "node_difference_minus_gamma_keV": 0.0
+    },
+    {
+      "parent_figure_keV": 1306.3,
+      "final_figure_keV": 789.7,
+      "observed_Egamma_table_keV": 516.7,
+      "node_difference_minus_gamma_keV": -0.1
+    },
+    {
+      "parent_figure_keV": 1306.3,
+      "final_figure_keV": 554.9,
+      "observed_Egamma_table_keV": 751.3,
+      "node_difference_minus_gamma_keV": 0.1
+    },
+    {
+      "parent_figure_keV": 1552.3,
+      "final_figure_keV": 1306.3,
+      "observed_Egamma_table_keV": 246,
+      "node_difference_minus_gamma_keV": 0.0
+    },
+    {
+      "parent_figure_keV": 1552.3,
+      "final_figure_keV": 789.7,
+      "observed_Egamma_table_keV": 762.6,
+      "node_difference_minus_gamma_keV": -0.0
+    },
+    {
+      "parent_figure_keV": 1163.6,
+      "final_figure_keV": 554.9,
+      "observed_Egamma_table_keV": 608.7,
+      "node_difference_minus_gamma_keV": -0.0
+    },
+    {
+      "parent_figure_keV": 2059,
+      "final_figure_keV": 789.7,
+      "observed_Egamma_table_keV": 1269.3,
+      "node_difference_minus_gamma_keV": 0.0
+    },
+    {
+      "parent_figure_keV": 2260,
+      "final_figure_keV": 1306.3,
+      "observed_Egamma_table_keV": 954,
+      "node_difference_minus_gamma_keV": -0.3
+    },
+    {
+      "parent_figure_keV": 2260,
+      "final_figure_keV": 2059,
+      "observed_Egamma_table_keV": 200.7,
+      "node_difference_minus_gamma_keV": 0.3
+    },
+    {
+      "parent_figure_keV": 2449.5,
+      "final_figure_keV": 2260,
+      "observed_Egamma_table_keV": 189.5,
+      "node_difference_minus_gamma_keV": 0.0
+    },
+    {
+      "parent_figure_keV": 2609,
+      "final_figure_keV": 2449.5,
+      "observed_Egamma_table_keV": 159.5,
+      "node_difference_minus_gamma_keV": 0.0
+    },
+    {
+      "parent_figure_keV": 2844,
+      "final_figure_keV": 2609,
+      "observed_Egamma_table_keV": 234.8,
+      "node_difference_minus_gamma_keV": 0.2
+    },
+    {
+      "parent_figure_keV": 3139,
+      "final_figure_keV": 2844,
+      "observed_Egamma_table_keV": 294.9,
+      "node_difference_minus_gamma_keV": 0.1
+    },
+    {
+      "parent_figure_keV": 3496,
+      "final_figure_keV": 3139,
+      "observed_Egamma_table_keV": 357.5,
+      "node_difference_minus_gamma_keV": -0.5
+    }
+  ],
+  "oldToPartII": {
+    "1163p6_minus170": 993.5999999999999,
+    "1164_annotation": "rounded oldreference node; not modernEx",
+    "19over2old1552p3_minus170": 1382.3,
+    "PartII19over2_literal": 1380,
+    "old21over2_23over2_mainbranch": "notassignedhere"
+  },
+  "delta_response_central_diagnostics": {
+    "alpha2_Ce133": 0.69,
+    "alpha2_uncertainty": 0.19,
+    "170_A2exp_over_mean_alpha2": -0.7971014492753624,
+    "384p7_A2exp_over_mean_alpha2": -0.8840579710144928,
+    "kind": "centraldivisiononly-not-inferredunique-delta-no-CI"
+  },
+  "not_claimed": [
+    "completeangleintegratedBR",
+    "newlifetime",
+    "assignedmodern817p7",
+    "modernsame-stateidentity",
+    "any significanceornewCov"
+  ]
+}

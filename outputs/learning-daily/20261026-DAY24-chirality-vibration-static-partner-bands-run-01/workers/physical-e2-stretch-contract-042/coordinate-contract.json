@@ -1,0 +1,62 @@
+{
+  "kind": "task-derived-coordinate-identity-not-historical-library-or-Ce-prediction",
+  "coordinate_convention": {
+    "stretch": "X_i=sqrt(omega_i/omega0)*x_i",
+    "domain": "all omega_i and omega0 positive",
+    "X_units": "length",
+    "a_i": "omega0/omega_i",
+    "d_i": "sqrt(a_i)",
+    "harmonics": "complex Condon–Shortley; right-handed physical Cartesian axes",
+    "q": "r^2 Y_(2mu); no effective charge"
+  },
+  "constants": {
+    "A": "sqrt(5/(16*pi))",
+    "B": "sqrt(15/(8*pi))",
+    "C": "sqrt(15/(32*pi))"
+  },
+  "pointwise_components": {
+    "0": "A*(2*a_z*Z^2-a_x*X^2-a_y*Y^2)",
+    "+1": "-B*d_z*Z*(d_x*X+i*d_y*Y)",
+    "-1": "+B*d_z*Z*(d_x*X-i*d_y*Y)",
+    "+2": "C*(d_x*X+i*d_y*Y)^2",
+    "-2": "C*(d_x*X-i*d_y*Y)^2"
+  },
+  "ordinary_stretched_functions": {
+    "t_mu": "r_t^2*Y_(2mu)(X/r_t)",
+    "r_t^2": "X^2+Y^2+Z^2"
+  },
+  "dictionary": {
+    "q20": "((4*a_z+a_x+a_y)/6)*t_0+((a_y-a_x)/(2*sqrt(6)))*(t_+2+t_-2)+A*((2*a_z-a_x-a_y)/3)*r_t^2",
+    "q2plusminus1": "(d_z/2)*((d_x+d_y)*t_plusminus1-(d_x-d_y)*t_minusplus1)",
+    "q2plusminus2": "((a_x+a_y+2*d_x*d_y)/4)*t_plusminus2+((a_x+a_y-2*d_x*d_y)/4)*t_minusplus2-((a_x-a_y)/(2*sqrt(6)))*t_0+C*((a_x-a_y)/3)*r_t^2"
+  },
+  "physical_generator": "L_i=-i*hbar*((d_j/d_k)*X_j*partial_Xk-(d_k/d_j)*X_k*partial_Xj), cyclic i,j,k",
+  "tensor_commutators": [
+    "[L_z,q_(2mu)]=hbar*mu*q_(2mu)",
+    "[L_plus,q_(2mu)]=hbar*sqrt((2-mu)*(3+mu))*q_(2,mu+1)",
+    "[L_minus,q_(2mu)]=hbar*sqrt((2+mu)*(3-mu))*q_(2,mu-1)"
+  ],
+  "scalar_admixture_boundary": "r_t^2 is scalar under ordinary L^t, generally not physical L; component-dependent admixtures do not imply physical E0",
+  "dimensionless_bridge": {
+    "xi_i": "sqrt(m*omega_i/hbar)*x_i",
+    "ell_i": "sqrt(hbar/(m*omega_i))",
+    "ell0": "sqrt(hbar/(m*omega0))",
+    "physical_coordinate": "x_i=ell_i*xi_i",
+    "stretched_coordinate": "X_i=ell0*xi_i",
+    "length_squared": "ell_i^2=ell0^2*a_i"
+  },
+  "Hermiticity": "q_(2mu)^dagger=(-1)^mu*q_(2,-mu)",
+  "scope_closed": "chosen-stretch pointwise geometry and physical tensor identities",
+  "scope_open": [
+    "1975 Ref23 original and historical conventions",
+    "actual GAMPN stretch/length/charge/basis/radial matrices",
+    "signed eigenvectors/RME",
+    "Ce prediction"
+  ],
+  "existing_claims_overlap_checked": [
+    "LLR78-D24-008",
+    "RS88-02",
+    "133Ce blueprint physical/stretched operator gap"
+  ],
+  "no_new_original_reading_network_or_nuclear_parameters": true
+}

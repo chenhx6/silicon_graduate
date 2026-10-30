@@ -1,0 +1,61 @@
+{
+  "worker": "061-meyer1975-partii-discussion",
+  "completed_utc": "2026-10-26T18:19:13.183187+00:00",
+  "status": "scoped-discussion-reading-and-evidence-audit-complete",
+  "source": {
+    "doi": "10.1016/0375-9474(75)90096-2",
+    "title": "Collective model description of transitional odd-A nuclei (II). Comparison with unique parity states of nuclei in the A=135 and A=190 mass regions",
+    "path": "tmp/day24-meyer1975-partii-entry-057/attachment-object-response.pdf",
+    "pages": 25,
+    "bytes": 1368683,
+    "sha256": "fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d"
+  },
+  "actual_scope": {
+    "continuous_pdf": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "context_pdf": [
+      1,
+      2,
+      18,
+      19
+    ],
+    "visual_pdf": [
+      1,
+      2,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "core_visual_objects": [
+      "Fig10",
+      "Table6",
+      "Table7"
+    ],
+    "context_visual_objects": [
+      "Fig8",
+      "Fig9"
+    ],
+    "not_full25p_read": true,
+    "primed_recall_saved_before_source_read": true
+  },
+  "source_independence": "same PartI model; cited prior experiments, primaryRefs13/26/27/42 not independently read; referenced PES/rms models separate; no new campaign",
+  "no_network_new_download_model_fit_toy_or_invented_data": true,
+  "write_scope": "061 worker and tmp/day24-meyer1975-partii-discussion-061 only",
+  "canonical_raw_PLAN_Bib_Git_course_session_unchanged": true,
+  "files": {
+    "claim-ledger.json": "9cc710caba0b98c2a5d28b558a597d80cc48654eef4f07008dce3f02b199ce43",
+    "primed-recall.md": "6ce3044d70b2f0d856ff246e0b1b1294def7c90403e49cd4396e5af590bd988d",
+    "report.md": "c5609bde0ddde902359fdf44caebc078a0603a3e393242e64de28f08922b79ca"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "partitions": [
+    {
+      "topic": "Entry/introduction/common experimental procedures",
+      "physical_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "printed_pages": "557–560",
+      "figures": {
+        "Fig1": 2
+      },
+      "note": "Common methods end on PDF4 before §3; all isotope readers need these methods plus §4."
+    },
+    {
+      "topic": "137Nd §3.1",
+      "text_physical_pages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "printed_pages": "560–564 (PDF8 upper continuation only)",
+      "tables": {
+        "Table1": [
+          5
+        ]
+      },
+      "figures": {
+        "Fig2": [
+          4
+        ],
+        "Fig3": [
+          6
+        ],
+        "Fig4": [
+          6
+        ],
+        "Fig5": [
+          7
+        ]
+      },
+      "note": "Fig5 shared with135Ce; §3.2 starts within PDF8."
+    },
+    {
+      "topic": "135Ce §3.2",
+      "text_physical_pages": [
+        8,
+        9,
+        11
+      ],
+      "printed_pages": "564–567; Table2 interrupts text",
+      "tables": {
+        "Table2": [
+          10,
+          11
+        ]
+      },
+      "figures": {
+        "Fig5": [
+          7
+        ],
+        "Fig6": [
+          8
+        ]
+      },
+      "note": "Text after Table2 at bottomPDF11 closes this subsection. Fig7 on PDF9 is135Nd despite floating inside this neighborhood."
+    },
+    {
+      "topic": "135Nd §3.3",
+      "text_physical_pages": [
+        13
+      ],
+      "printed_pages": "569; spectrum floats earlier, level scheme later",
+      "tables": {
+        "Table3": [
+          12,
+          13
+        ]
+      },
+      "figures": {
+        "Fig7": [
+          9
+        ],
+        "Fig8": [
+          14
+        ]
+      },
+      "note": "Fig8 shared with133Ce; do not assign figures only by adjacent section heading."
+    },
+    {
+      "topic": "133Ce §3.4",
+      "text_physical_pages": [
+        15,
+        17,
+        18
+      ],
+      "printed_pages": "571–574 before §4",
+      "tables": {
+        "Table4": [
+          16,
+          17
+        ]
+      },
+      "figures": {
+        "Fig8": [
+          14
+        ],
+        "Fig9": [
+          15
+        ],
+        "Fig10": [
+          15
+        ]
+      },
+      "note": "Historical basic9/2− state is zero in Fig8; ground/isomer identity explicitly unknown at time onPDF17."
+    },
+    {
+      "topic": "Mixing ratios §4",
+      "physical_pages": [
+        18,
+        19
+      ],
+      "printed_pages": "574–575",
+      "figures": {
+        "Fig11": [
+          18
+        ]
+      },
+      "note": "Begins after133Ce text onPDF18; common attenuation/averaging/δ interpretation needs independent reading."
+    },
+    {
+      "topic": "Discussion §5",
+      "physical_pages": [
+        19,
+        20,
+        21
+      ],
+      "printed_pages": "575–577",
+      "subsections": {
+        "5.1 feeding": [
+          19,
+          20
+        ],
+        "5.2 prolate shape": [
+          20,
+          21
+        ]
+      },
+      "note": "References begin withinPDF21; §5.2 shape interpretation must be distinguished from measured observables."
+    },
+    {
+      "topic": "References",
+      "physical_pages": [
+        21,
+        22
+      ],
+      "printed_pages": "577–578",
+      "note": "Bibliography is not itself a fulltext verification of cited papers."
+    }
+  ],
+  "partition_method": "Native-text section/caption-location scan; not a declaration of full reading",
+  "recommended_units": [
+    "Common methodsPDF1–4 plus mixingPDF18–19",
+    "137Nd/135Ce spectra with floating Fig5 and Tables1–2",
+    "135Nd/133Ce spectra with floating Fig7/Fig8 and Tables3–4",
+    "DiscussionPDF19–21 plus reference-lineagePDF21–22"
+  ]
+}

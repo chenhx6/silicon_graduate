@@ -1,0 +1,66 @@
+{
+  "sha256": "9e3e5149acc47b3c6a82b922f95726b66032dcaa3df0694afc10fab3584c4707",
+  "bytes": 187831,
+  "entries": [
+    {
+      "name": "elsarticle.cls",
+      "regular": true,
+      "bytes": 22152
+    },
+    {
+      "name": "fig1.eps",
+      "regular": true,
+      "bytes": 63166
+    },
+    {
+      "name": "fig2.eps",
+      "regular": true,
+      "bytes": 85152
+    },
+    {
+      "name": "fig3.eps",
+      "regular": true,
+      "bytes": 100419
+    },
+    {
+      "name": "fig4a.eps",
+      "regular": true,
+      "bytes": 49114
+    },
+    {
+      "name": "fig4b.eps",
+      "regular": true,
+      "bytes": 49334
+    },
+    {
+      "name": "fig4c.eps",
+      "regular": true,
+      "bytes": 51320
+    },
+    {
+      "name": "fig4d.eps",
+      "regular": true,
+      "bytes": 51175
+    },
+    {
+      "name": "fig4e.eps",
+      "regular": true,
+      "bytes": 57092
+    },
+    {
+      "name": "fig4f.eps",
+      "regular": true,
+      "bytes": 56326
+    },
+    {
+      "name": "fig5.eps",
+      "regular": true,
+      "bytes": 125270
+    },
+    {
+      "name": "paper.tex",
+      "regular": true,
+      "bytes": 31322
+    }
+  ]
+}

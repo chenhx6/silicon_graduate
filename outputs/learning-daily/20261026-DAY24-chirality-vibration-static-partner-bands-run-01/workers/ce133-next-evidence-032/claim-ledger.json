@@ -1,0 +1,79 @@
+[
+  {
+    "id": "LLR78-032-01",
+    "claim": "New35pagebodyhashandidentityverified, selectedmethod/appendixactuallyread;old0pageaccessrecordremainshistorical.",
+    "class": "direct-artifact-and-scope",
+    "locator": "PDF1/189;readingreceipt",
+    "needs_review": true
+  },
+  {
+    "id": "LLR78-032-02",
+    "claim": "SingleparticlecouplinginterfaceexplicitlyconsistsofenergiesandgeneralizeddecouplingmatricesEqs11–16;truncatedj²operatornotassumedsquareoftruncatedj.",
+    "class": "direct-method-plus-projection-boundary",
+    "locator": "PDF8–9/196–197",
+    "needs_review": true
+  },
+  {
+    "id": "LLR78-032-03",
+    "claim": "Strong-couplingbasisistechnicalconvergencechoice;D2goodIbasis,K−Omegaevenandbodyfixedladderdirectionexplicit.",
+    "class": "direct-method",
+    "locator": "PDF2/190;PDF9–10/197–198Eq17",
+    "needs_review": true
+  },
+  {
+    "id": "LLR78-032-04",
+    "claim": "RecoilcanonlyberemovedifalreadyexplicitintheparticleHamiltonian;hydrodynamic4/3J0normalizationandconstantcoreinertiagiven.",
+    "class": "direct-formalism",
+    "locator": "PDF3–4/191–192Eqs6–7",
+    "needs_review": true
+  },
+  {
+    "id": "LLR78-032-05",
+    "claim": "FullBCSandschematicDelta12/sqrtA/lambdaoddorbitalareseparatehistoricalprescriptions;blockingandspecialrecoiltreatmentignored;thisdoesnotchooseWK22actualscheme.",
+    "class": "direct-approximation-and-transfer-boundary",
+    "locator": "PDF10/198",
+    "needs_review": true
+  },
+  {
+    "id": "LLR78-032-06",
+    "claim": "A1–A4supplycoherentrealsignedRMEwithcoreandparticleterms;A3/A4literalcoefficientsarenotstarred;complexconjugationisourgeneralization.",
+    "class": "direct-RME-and-literal-boundary",
+    "locator": "PDF32/220",
+    "needs_review": true
+  },
+  {
+    "id": "LLR78-032-07",
+    "claim": "A2uses<I||M||I−1>;downwardordering/unit/signdictionarynotautomaticallyidenticaltoWK22fromsqrt.7alone.",
+    "class": "direct-literal-and-transfer-boundary",
+    "locator": "PDF32/220A2;WK22PDF48Eq3.24",
+    "needs_review": true
+  },
+  {
+    "id": "LLR78-032-08",
+    "claim": "StretchedoperatorcorrectionsA5–16nowread;singleparticleq2muformulasremainexternalRef23.",
+    "class": "direct-method-and-residual-gap",
+    "locator": "PDF32–34/220–222",
+    "needs_review": true
+  },
+  {
+    "id": "LLR78-032-09",
+    "claim": "SharedcalibratedtoycorecomparisonshowsrelativeweakQMEinducednear-yrastspectralshiftsbutstiffness/particletruncationmatter;gamma-groundodd/evenEMdifferencesretaininformation. Not133Cemeasurementoruniversalinsensitivity.",
+    "class": "direct-model-control-and-boundary",
+    "locator": "PDF3–8/191–196Fig1/Table1/Fig2",
+    "needs_review": true
+  },
+  {
+    "id": "LLR78-032-10",
+    "claim": "HistoricalstructureiscompatiblewithWK22genericbasis/EMflowbutactualGAMPN/ASYMO/PROBMOversion/input/header/numericproducerisnotprovided.",
+    "class": "source-grounded-interface-inference",
+    "locator": "L78§2.3/Appendix;WK22PDF47–50",
+    "needs_review": true
+  },
+  {
+    "id": "LLR78-032-11",
+    "claim": "Rigid-corecannotbeliterallyconservedshapeand3qp/corealignmentextensionisfuturework;modelagreementdoesnotcertifygammasrigidity/crossing.",
+    "class": "direct-model-validity",
+    "locator": "PDF3/191§2.2;PDF8/196;PDF31/219Conclusion",
+    "needs_review": true
+  }
+]

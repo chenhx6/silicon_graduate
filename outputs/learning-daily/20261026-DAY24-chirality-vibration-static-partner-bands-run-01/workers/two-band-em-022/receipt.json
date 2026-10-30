@@ -1,0 +1,59 @@
+{
+  "task": "two-band-em-022",
+  "status": "bounded-incremental-method-unit-complete",
+  "finished_utc": "2026-10-26T14:26:10.467184+00:00",
+  "course_scope": "Day25uncreditedpreviewinsideDay24;Day26closed;noledgercreditwrite",
+  "new_claims_needs_review": true,
+  "source": {
+    "path": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+    "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
+    "native_text_pages": [
+      2,
+      3
+    ],
+    "fresh_visual_pages": [
+      3
+    ],
+    "locators": "112502-2Eqs1–2assumptions;112502-3Eqs3–5TableI"
+  },
+  "fixed_source_baseline": {
+    "alpha15": 0.894,
+    "alpha17": 0.118,
+    "alpha16": 0.427,
+    "alpha18": 0.099,
+    "Qratio": 2,
+    "meaning": "sourceforwardbaselineonly;notindependentlymeasuredalphas"
+  },
+  "extension": {
+    "Q": "[[q1,q12],[q12,q2]]",
+    "real_signed": true,
+    "symmetric_forward_kernel_is_extra_ansatz": true,
+    "not_general_Hermiticity_consequence": true,
+    "M": "Rf^T Q Ri",
+    "row_order": [
+      "y_final",
+      "ny_final"
+    ],
+    "column_order": [
+      "y_initial",
+      "ny_initial"
+    ]
+  },
+  "labels": {
+    "17to15": "Tableout/inisinverseEq4/5becauseoriginalbandcontinuityswapsy/nyatfinalspin",
+    "18to16": "TableratiosmatchEq4/5"
+  },
+  "results": "kernel-results.json",
+  "executed_script": "kernel_checks.py",
+  "data_fit": false,
+  "new_Q_CI": false,
+  "alternative_winner_claim": false,
+  "quantum_geometry_claim": false,
+  "modelproducer_run": false,
+  "ratio_only_examples_symmetricQ_fit": false,
+  "canonical_writes": [],
+  "raw_writes": [],
+  "git_mutations": false,
+  "new_retrieval": false,
+  "new_credits": false
+}

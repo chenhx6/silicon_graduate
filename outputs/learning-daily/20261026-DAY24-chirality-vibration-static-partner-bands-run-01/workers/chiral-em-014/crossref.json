@@ -1,0 +1,101 @@
+{
+  "url": "https://api.crossref.org/works/10.1103/PhysRevC.98.064302",
+  "curl_exit": 0,
+  "metadata": "200\thttps://api.crossref.org/works/10.1103/PhysRevC.98.064302\tapplication/json",
+  "error": "",
+  "bytes": 12066,
+  "sha256": "35a040c670df9082bdbde16121e5d4ef6770310f426e5580b6429a40eee2ae94",
+  "identity": {
+    "title": [
+      "Two-dimensional collective Hamiltonian for chiral and wobbling modes. II. Electromagnetic transitions"
+    ],
+    "author": [
+      {
+        "given": "X. H.",
+        "family": "Wu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Q. B.",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "P. W.",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "S. Q.",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Meng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "DOI": "10.1103/physrevc.98.064302",
+    "volume": "98",
+    "article-number": "064302",
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          3
+        ]
+      ]
+    },
+    "link": [
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevC.98.064302",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevC.98.064302/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  }
+}

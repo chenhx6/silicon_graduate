@@ -1,0 +1,24 @@
+{
+  "aw_sha_matches": true,
+  "li_sha_matches": true,
+  "crosswalk_edges": 5,
+  "positive_lifetime_rows": 4,
+  "band2_table_rows": 37,
+  "positive_chain_delta_I": [
+    2,
+    4,
+    4,
+    4,
+    4
+  ],
+  "source_energy_differences_keV": [
+    1.2,
+    2.3,
+    1.3,
+    2.4,
+    1.6
+  ],
+  "no_b3_19half_node": true,
+  "table4_6_13half_cycle_residual_keV": 22.3,
+  "scope": "identity/transcription/arithmetic controls only; not adopted energy fit, lifetimesCI or model certification"
+}

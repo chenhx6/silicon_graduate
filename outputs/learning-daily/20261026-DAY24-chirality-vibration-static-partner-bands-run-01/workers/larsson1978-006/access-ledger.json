@@ -1,0 +1,82 @@
+{
+  "previous_failure_record_read": "tmp/day23-theses/larsson1978-worker/access-probes.json and access-and-reading-notes.md",
+  "not_retried": [
+    "ScienceDirect landing403",
+    "ScienceDirect pdfft403",
+    "Elsevier anonymous PDF406",
+    "Lund portal/LUP no attachment",
+    "OpenAlex DOI no PDF",
+    "Scholar MCP timeout",
+    "SemanticScholar429"
+  ],
+  "new_requests": [
+    {
+      "name": "elsevier_crossref_xml",
+      "url": "https://api.elsevier.com/content/article/PII:0375947478906139?httpAccept=text/xml",
+      "url_final": "https://api.elsevier.com/content/article/PII:0375947478906139?httpAccept=text/xml",
+      "status": 200,
+      "type": "text/xml;charset=UTF-8",
+      "bytes": 1780,
+      "file": "tmp/day24-larsson1978-006/elsevier_crossref_xml.response"
+    },
+    {
+      "name": "cern_cds",
+      "url": "https://cds.cern.ch/search?p=%22Nuclear+core-quasiparticle+coupling%22&of=recjson",
+      "url_final": "https://cds.cern.ch/search?p=%22Nuclear+core-quasiparticle+coupling%22&of=recjson",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7505,
+      "file": "tmp/day24-larsson1978-006/cern_cds.response"
+    },
+    {
+      "name": "osti",
+      "url": "https://www.osti.gov/api/v1/records?search=%22Nuclear%20core-quasiparticle%20coupling%22",
+      "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /api/v1/records?search=%22Nuclear%20core-quasiparticle%20coupling%22 (Caused by NewConnectionError(\"HTTPSConnection(host='www.osti.gov', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "name": "openaire",
+      "url": "https://api.openaire.eu/search/publications?doi=10.1016/0375-9474(78)90613-9&format=json",
+      "url_final": "https://api.openaire.eu/search/publications?doi=10.1016/0375-9474(78)90613-9&format=json",
+      "status": 200,
+      "type": "application/json;charset=UTF-8",
+      "bytes": 10148,
+      "file": "tmp/day24-larsson1978-006/openaire.response"
+    },
+    {
+      "name": "bing",
+      "url": "https://www.bing.com/search?q=%22Nuclear+core-quasiparticle+coupling%22+pdf",
+      "url_final": "https://cn.bing.com/search?q=%22Nuclear+core-quasiparticle+coupling%22+pdf",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 102513,
+      "file": "tmp/day24-larsson1978-006/bing.response"
+    },
+    {
+      "name": "duckduckgo",
+      "url": "https://html.duckduckgo.com/html/?q=%22Nuclear+core-quasiparticle+coupling%22+pdf",
+      "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Nuclear+core-quasiparticle+coupling%22+pdf (Caused by NewConnectionError(\"HTTPSConnection(host='html.duckduckgo.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "name": "google_title",
+      "url": "https://www.google.com/search?q=%22Nuclear+core-quasiparticle+coupling%22",
+      "error": "HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /search?q=%22Nuclear+core-quasiparticle+coupling%22 (Caused by NewConnectionError(\"HTTPSConnection(host='www.google.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "name": "google_doi",
+      "url": "https://www.google.com/search?q=%220375-9474%2878%2990613-9%22",
+      "error": "HTTPSConnectionPool(host='www.google.com', port=443): Max retries exceeded with url: /search?q=%220375-9474%2878%2990613-9%22 (Caused by NewConnectionError(\"HTTPSConnection(host='www.google.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "name": "archive",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%22Nuclear+core-quasiparticle+coupling%22&output=json",
+      "error": "HTTPSConnectionPool(host='archive.org', port=443): Max retries exceeded with url: /advancedsearch.php?q=title%3A%22Nuclear+core-quasiparticle+coupling%22&output=json (Caused by NewConnectionError(\"HTTPSConnection(host='archive.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "name": "iaea_search",
+      "url": "https://inis.iaea.org/search/search.aspx?orig_q=title:%22Nuclear%20core-quasiparticle%20coupling%22",
+      "error": "HTTPSConnectionPool(host='inis.iaea.org', port=443): Max retries exceeded with url: /search/search.aspx?orig_q=title:%22Nuclear%20core-quasiparticle%20coupling%22 (Caused by NameResolutionError(\"HTTPSConnection(host='inis.iaea.org', port=443): Failed to resolve 'inis.iaea.org' ([Errno -5] No address associated with hostname)\"))"
+    }
+  ],
+  "new_elsevier_xml_result": "200 but only coredata, no originalText or body",
+  "conclusion": "No 1978 full text recovered through the checked lawful routes; no PDF/version/hash exists for this worker."
+}

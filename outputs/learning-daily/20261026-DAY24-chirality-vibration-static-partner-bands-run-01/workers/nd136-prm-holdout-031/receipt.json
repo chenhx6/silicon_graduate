@@ -1,0 +1,138 @@
+{
+  "status": "direct-author-version-primary-unit-complete;specified-interband-E2-holdout-not-published",
+  "finished_utc": "2026-10-26T15:38:02.424771+00:00",
+  "identity": {
+    "title": "Multiple chiral doublets in four-j shells particle rotor model: Five possible chiral doublets in136Nd",
+    "authors": [
+      "Q.B.Chen",
+      "B.F.Lv",
+      "C.M.Petrache",
+      "J.Meng"
+    ],
+    "journal": "Physics Letters B",
+    "volume": 782,
+    "pages": "744–749",
+    "year": 2018,
+    "doi": "10.1016/j.physletb.2018.06.030"
+  },
+  "actual_body": {
+    "url": "https://arxiv.org/pdf/1805.06162",
+    "curl_exit": 0,
+    "metadata": "200\thttps://arxiv.org/pdf/1805.06162\tapplication/pdf",
+    "error": "",
+    "bytes": 384518,
+    "sha256": "cba4fa62433207c06b8673dc484d8a2d0ecdd7db51c27eafb2329726190bee91",
+    "pdf_signature": true,
+    "pages": 15,
+    "pdf_metadata": {
+      "format": "PDF 1.4",
+      "title": "arXiv:1805.06162v1  [nucl-th]  16 May 2018",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "dvips(k) 5.996 Copyright 2016 Radical Eye Software",
+      "producer": "GPL Ghostscript GIT PRERELEASE 9.22",
+      "creationDate": "D:20210727082136-04'00'",
+      "modDate": "D:20210727082136-04'00'",
+      "trapped": "",
+      "encryption": null
+    }
+  },
+  "actual_version": "arXiv1805.06162v1,sidebar16May2018,titlepagedated26June2021;VoRnotobtained",
+  "reading": {
+    "text_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "visual_pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "figures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "tables": [
+      "I"
+    ],
+    "equations": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "whole_paper_read": true
+  },
+  "body_route_count": 2,
+  "route2": {
+    "url": "https://repository.kulib.kyoto-u.ac.jp/bitstreams/359b3f1d-e5b3-43eb-8f1e-95af6fb9b7a8/download",
+    "curl_exit": 0,
+    "metadata": "200\thttps://repository.kulib.kyoto-u.ac.jp/bitstreams/359b3f1d-e5b3-43eb-8f1e-95af6fb9b7a8/download\ttext/html; charset=UTF-8",
+    "error": "",
+    "bytes": 3058,
+    "sha256": "96390a027c3be423b20a21884c18fde4efb741d219248a65758aab1d00c7887c",
+    "pdf_signature": false
+  },
+  "current_holdout": {
+    "parent": "D5-C20+",
+    "out": "toD5 18+,1021.2keV",
+    "in": "toD5-C18+,611.4keV",
+    "source_conditional_nominal_BE2_ratio": 0.21978856673180944,
+    "specific_model_prediction_published": false,
+    "no_prediction_created_from_plots": true
+  },
+  "published_outputs": [
+    "energies_and_splittingsFig1",
+    "S_I_Fig2",
+    "intraband_BM1_BE2_ratioFig3",
+    "RMSangularmomentaFigs4_5_6"
+  ],
+  "unpublished_outputs_in_this_readbody": [
+    "specificinterbandE2intraE2ratio",
+    "fullabsoluteBE2table",
+    "signedRMEphase",
+    "boundstatesidentifiedbyexperimentalEi_and_endpoints",
+    "modelparameteruncertainty_or_EMcutoffconvergence"
+  ],
+  "good_I_wavefunctions": true,
+  "same_experimental_source": "PE18Ref20;modelpaperreportsnonewacquisition",
+  "D5_input": {
+    "configuration": "pi(h11/2)^2(g7/2)^−2 x nu(h11/2)^−1(f7/2)^1",
+    "beta": 0.26,
+    "gamma_deg": 23,
+    "J0_hbar2_per_MeV": 40,
+    "Coriolis_xi": 0.93,
+    "J0_xi_fitted_to_energy_trend": true
+  },
+  "canonical_raw_Git_session_course_changes": false,
+  "course_scope": "sameDay24run + exactlyDay25preview;noDay26;credit0"
+}

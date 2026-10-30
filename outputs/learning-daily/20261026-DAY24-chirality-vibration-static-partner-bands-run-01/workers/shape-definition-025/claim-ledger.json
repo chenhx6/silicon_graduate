@@ -1,0 +1,86 @@
+[
+  {
+    "id": "HW025-01",
+    "claim": "Sourceabstractdefinescoexistingstructurefamiliesviaelectricquadrupolepropertiesandpairdistributions, not justmultipleclassicalminima.",
+    "class": "direct-review-framework",
+    "locator": "PDF1/1467abstract",
+    "needs_review": true
+  },
+  {
+    "id": "HW025-02",
+    "claim": "Meanfieldsurfacesaresemiclassical; projectedstatemixing/GCMneededforlab-spectrumroute; notone-minimum-one-observedstate.",
+    "class": "direct-review-method-scope",
+    "locator": "PDF8/1474Eqs10–12/Fig6;PDF9/1475Eq13/Fig7;PDF10/1476§IIC",
+    "needs_review": true
+  },
+  {
+    "id": "HW025-03",
+    "claim": "Fingerprintsdivideddirect/indirect/hints;strongE0andparticle-corepatternsaresupportiveindirectroutes, notuniversalE0plusCoulexrequirement.",
+    "class": "direct-review-plus-quantifier-boundary",
+    "locator": "PDF36–38/1502–1504§IIIC2",
+    "needs_review": true
+  },
+  {
+    "id": "HW025-04",
+    "claim": "Eq14rho²=Z²/R0⁴*a²(1−a²)*(Deltameansquarechargeradius)²; two-configassumptionandpositivemixing/radiussensitivityretained.",
+    "class": "direct-equation",
+    "locator": "PDF13/1479Eq14",
+    "needs_review": true
+  },
+  {
+    "id": "HW025-05",
+    "claim": "Addingobservedtwo-levelgapstillconstrainsonlyV*Deltar²productwithoutindependentgeometricinput;nouniquea/beta/gammainversion.",
+    "class": "task-derivedconditionaltwo-levelalgebra",
+    "locator": "Eq14plusdeclared2x2H;PDF40/1506data-combination/radiusparagraph",
+    "needs_review": true
+  },
+  {
+    "id": "HW025-06",
+    "claim": "E0methodincludesJnonzeroDeltaJ0;oddPb13/2examplesandhighspinKisomers/SDconsidered;0plus-onlyqualifyinggateinvalid.",
+    "class": "direct-review-scope",
+    "locator": "PDF13/1479Fig13;PDF40/1506;PDF12/1478;PDF29–30/1495–1496",
+    "needs_review": true
+  },
+  {
+    "id": "HW025-07",
+    "claim": "SpectroscopicQtointrinsicQneedsKidentity;K2mixing/triaxialitycomplicatesKrshapeassignment.",
+    "class": "direct-review-boundary",
+    "locator": "PDF27/1493Fig39/paragraphs",
+    "needs_review": true
+  },
+  {
+    "id": "HW025-08",
+    "claim": "Mixingstrengthswidelyvary;TableVI34–400keVusesdifferentnuclei/observablesandcannotbeuniversal50–100keVstrongmixingthreshold.",
+    "class": "direct-table-plus-mathematical-scope",
+    "locator": "PDF41/1507TableVI;PDF43/1509§IIIC6",
+    "needs_review": true
+  },
+  {
+    "id": "HW025-09",
+    "claim": "Old186Pb0/532/650keVenergieslocateinreview,but28%/20–35%mixfractionsandfixed50–100Vnotlocatedasattributed.",
+    "class": "bounded-numeric-attribution-audit",
+    "locator": "PDF12/1478Fig12;PDF42/1508TableVII;55pagenativesearchlog",
+    "needs_review": true
+  },
+  {
+    "id": "HW025-10",
+    "claim": "Fig13boxed28isalphahindrancefactor, notmixpercentage; noassertionthatthiscausedtheoldmistake.",
+    "class": "direct-figure-label-scope",
+    "locator": "PDF13/1479Fig13caption",
+    "needs_review": true
+  },
+  {
+    "id": "HW025-11",
+    "claim": "Authors2011stateapparentwithout-exceptionassociationoflowlying0pluswithcoexistence;preserveasauthorviewwhilelater0plusinterpretationcautionspreventiffcriterion.",
+    "class": "direct-author-position-and-context",
+    "locator": "PDF11/1477;PDF39–40/1505–1506",
+    "needs_review": true
+  },
+  {
+    "id": "HW025-12",
+    "claim": "RecommendexplicitwithdrawalunderHW11-D21-1ofunlocatednumbers/exclusiveE0/forcedCoulexclaims;preserveHW11-4flagfalseandallhistoricalwithdrawals.",
+    "class": "review-recommendation",
+    "locator": "existingHWsourceD21-1;conceptoldstrongparagraph/124",
+    "needs_review": true
+  }
+]

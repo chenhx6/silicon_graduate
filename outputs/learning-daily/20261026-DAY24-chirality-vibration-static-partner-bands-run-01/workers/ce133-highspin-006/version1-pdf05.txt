@@ -1,0 +1,67 @@
+                                                                                                      week ending
+PRL 110, 172504 (2013)         P H Y S I C A L R E V I E W  L E T T E R S                        26 APRIL 2013
+
+the National Natural Science Foundation of China (Grants          C. W. Beausang, M. A. Caprio, R. F. Casten et al., Phys.
+No.  10975007,  No.  10975008,  No.  11105005,  and          Rev. C 70, 044305 (2004).
+No. 11175002);  the Research Fund  for  the  Doctoral     [20] E. Lawrie, P. A. Vymers, J. J. Lawrie, C. Vieu, R. A. Bark,
+                                                                  R. Lindsay, C. J. Barton, G. K. Mabala, S. M. Maliage,Program   of   Higher   Education,   China   (Grant
+                                                                                       P. L. Masiteng et al., Phys. Rev. C 78, 021305(R) (2008).
+No.  20110001110087);  and  the  China  Postdoctoral                                                                   [21]  J. Peng,  J. Meng, and S. Q. Zhang, Phys. Rev. C 68,
+Science Foundation (Grant No. 2012M520101).                                                             044324 (2003).
+                                                                   [22]  S. Q. Zhang, B. Qi, S. Y. Wang, and J. Meng, Phys. Rev. C
+                                                                         75, 044307 (2007).
+                                                                   [23] B.  Qi,  S. Q.  Zhang,  J. Meng,  S. Y. Wang,  and  S.
+                                                                       Frauendorf, Phys. Lett. B 675, 175 (2009).
+     *Present  address:  Nuclear  Physics  Division,  Bhabha     [24]  P.  Olbratowski,  J.  Dobaczewski,  J.  Dudek,  and W.
+     Atomic Research Centre (BARC), Mumbai 400085, India.            Pło´ciennik, Phys. Rev. Lett. 93, 052501 (2004).
+  [1]  S. Frauendorf and J. Meng, Nucl. Phys. A617, 131 (1997).     [25]  P. Olbratowski, J. Dobaczewski, and J. Dudek, Phys. Rev.
+  [2] V. I. Dimitrov, S. Frauendorf, and F. Do¨nau, Phys. Rev.       C 73, 054308 (2006).
+       Lett. 84, 5732 (2000).                                        [26]  S. Mukhopadhyay, D. Almehed, U. Garg, S. Frauendorf,
+  [3]  S. Frauendorf, Rev. Mod. Phys. 73, 463 (2001).                     T. Li, P. V. M. Rao, X. Wang, S. S. Ghugre, M.P. Carpenter,
+  [4]  J. Meng and S. Q. Zhang, J. Phys. G 37, 064025 (2010).            S. Gros et al., Phys. Rev. Lett. 99, 172501 (2007).
+  [5]  J. Meng, Int. J. Mod. Phys. E 20, 341 (2011).                [27] D. Almehed, F. Do¨nau, and S. Frauendorf, Phys. Rev. C
+  [6] C. M. Petrache, D. Bazzacco, S. Lunardi, C. R. Alvarez,           83, 054308 (2011).
+     G. de Angelis, M. D. Poli, D. Bucurescu, C. Ur, P. B.     [28]  J. Meng, J. Peng, S. Q. Zhang, and S.-G. Zhou, Phys. Rev.
+     Semmes, and R. Wyss, Nucl. Phys. A597, 106 (1996).        C 73, 037303 (2006).
+  [7] K. Starosta, T. Koike, C. J. Chiara, D. B. Fossan, D. R.     [29]  J. Peng, H. Sagawa, S. Q. Zhang, J. M. Yao, Y. Zhang, and
+      LaFosse, A. A. Hecht, C. W. Beausang, M. A. Caprio,              J. Meng, Phys. Rev. C 77, 024309 (2008).
+        J. R. Cooper, R. Kru¨cken et al., Phys. Rev. Lett. 86, 971     [30]  J. Li, S. Q. Zhang, and J. Meng, Phys. Rev. C 83, 037301
+      (2001).                                                            (2011).
+  [8]  T. Koike, K. Starosta, C. J. Chiara, D. B. Fossan, and     [31]  I.-Y. Lee, Nucl. Phys. A520, c641 (1990).
+     D. R. LaFosse, Phys. Rev. C 63, 061304 (2001).              [32] D. C. Radford, Nucl. Instrum. Methods Phys. Res., Sect. A
+  [9] A. A.  Hecht,  C. W.  Beausang, K. E.  Zyromski, D. L.          361, 297 (1995).
+      Balabanski, C. J.  Barton, M. A.  Caprio, R. F.  Casten,     [33] R. Ma, E. S. Paul, C. W. Beausang, S. Shi, N. Xu, and
+        J. R. Cooper, D. J. Hartley, R. Kru¨cken et al., Phys. Rev.         D. B. Fossan, Phys. Rev. C 36, 2322 (1987).
+    C 63, 051302 (2001).                                        [34] K. Hauschild, R. Wadsworth, R.M. Clark, P. Fallon, D.B.
+ [10] D. J.  Hartley,  L. L.  Riedinger,  M. A.  Riley,  D. L.          Fossan, I.M. Hibbert, A.O. Macchiavelli, P. J. Nolan, H.
+      Balabanski,  F. G. Kondev, R. W. Laird,  J. Pfohl, D. E.          Schnare, A.T. Semple et al., Phys. Lett. B 353, 438 (1995).
+      Archer, T. B. Brown, R. M. Clark et al., Phys. Rev. C 64,     [35] K. Hauschild, R. Wadsworth, R. M. Clark, I. M. Hibbert,
+     031304 (2001).                                                              P. Fallon, A. O. Macchiavelli, D. B. Fossan, H. Schnare, I.
+ [11]  S.  Zhu, U.  Garg,  B. K. Nayak,  S. S.  Ghugre, N. S.          Thorslund, P. J. Nolan et al., Phys. Rev. C 54, 613 (1996).
+      Pattabiraman, D. B. Fossan, T. Koike, K. Starosta, C.     [36] A. Kra¨mer-Flecken, T. Morek, R. M. Lieder, W. Gast, G.
+     Vaman, R. V. F. Janssens  et  al., Phys. Rev.  Lett.  91,          Hebbinghaus, H. M. Ja¨ger, and W. Urban, Nucl. Instrum.
+     132501 (2003).                                           Methods Phys. Res., Sect. A 275, 333 (1989).
+ [12]  T. Koike, K. Starosta, C. J. Chiara, D. B. Fossan, and     [37] C. J. Chiara, M. Devlin, E. Ideguchi, D. R. LaFosse, F.
+     D. R. LaFosse, Phys. Rev. C 67, 044319 (2003).                 Lerma, W.  Reviol, S.K. Ryu, D.G.  Sarantites, O.L.
+ [13] C. Vaman, D.B. Fossan, T. Koike, K. Starosta, I. Y. Lee,          Pechenaya, C. Baktash et al., Phys. Rev. C 75, 054305
+     and A.O. Macchiavelli, Phys. Rev. Lett. 92, 032501 (2004).           (2007).
+ [14]  P.  Joshi, D. G.  Jenkins,  P. M. Raddon, A. J. Simons,     [38] V. Iacob and G. Duchene, Nucl. Instrum. Methods Phys.
+      R. Wadsworth, A. R. Wilkinson, D. B. Fossan, T. Koike,           Res., Sect. A 399, 57 (1997).
+     K. Starosta, C. Vaman et al., Phys. Lett. 595B, 135 (2004).     [39] A. D. Ayangeakaa, Ph.D.  thesis,  University  of Notre
+ [15]  J. A. Alca´ntara-Nu´n˜ez, J. R. B. Oliveira, E. W. Cybulska,        Dame, 2013.
+     N. H. Medina, M. N. Rao, R. V. Ribas, M. A. Rizzutto,     [40] K. Starosta, AIP Conf. Proc. 764, 77 (2005).
+     W. A. Seale,  F. Falla-Sotelo, K. T. Wiedemann  et  al.,     [41] W. Long, J. Meng, N. Van Giai, and S. G. Zhou, Phys. Rev.
+      Phys. Rev. C 69, 024317 (2004).                      C 69, 034319 (2004).
+ [16]  J. Tima´r, P. Joshi, K. Starosta, V. I. Dimitrov, D. B. Fossan,     [42] B. Qi, S. Q. Zhang, S. Y. Wang, J. Meng, and T. Koike,
+        J.  Molna´r, D.  Sohler, R. Wadsworth, A.  Algora,  P.          Phys. Rev. C 83, 034303 (2011).
+     Bednarczyk et al., Phys. Lett. B 598, 178 (2004).             [43] B. Qi, S. Q. Zhang, S. Y. Wang, J. M. Yao, and J. Meng,
+ [17]  P. Joshi, M. P. Carpenter, D. B. Fossan, T. Koike, E. S.          Phys. Rev. C 79, 041302 (2009).
+      Paul, G.  Rainovski, K.  Starosta, C. Vaman, and R.     [44]  P. Joshi, M. P. Carpenter, D. B. Fossan, T. Koike, E. S.
+     Wadsworth, Phys. Rev. Lett. 98, 102501 (2007).                    Paul, G.  Rainovski, K.  Starosta, C. Vaman, and R.
+ [18]  S. Y. Wang, B. Qi, L. Liu, S. Q. Zhang, H. Hua, X. Q. Li,         Wadsworth, Phys. Rev. Lett. 98, 102501 (2007).
+      Y. Y. Chen, L. H. Zhu, J. Meng, S. M. Wyngaardt et al.,     [45]  P. Ring and P. Schuck, The Nuclear Many-Body Problem
+      Phys. Lett. B 703, 40 (2011).                                       (Springer, New York, 2004).
+ [19] D. L.   Balabanski,  M.   Danchev,   D. J.   Hartley,     [46] Yu. Khazov, A. Rodionov, and F. G. Kondev, Nucl. Data
+      L. L. Riedinger, O. Zeidan,  J.-y. Zhang, C. J. Barton,          Sheets 112, 855 (2011).
+
+                                               172504-5

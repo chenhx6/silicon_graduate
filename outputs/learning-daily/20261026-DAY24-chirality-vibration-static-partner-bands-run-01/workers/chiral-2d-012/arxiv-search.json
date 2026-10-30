@@ -1,0 +1,149 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=ti:two-dimensional%20AND%20ti:collective%20AND%20all:chiral&max_results=5",
+  "curl_exit": 0,
+  "metadata": "200\thttps://export.arxiv.org/api/query?search_query=ti:two-dimensional%20AND%20ti:collective%20AND%20all:chiral&max_results=5\tapplication/atom+xml; charset=utf-8",
+  "error": "",
+  "bytes": 12438,
+  "sha256": "b0de07f9ea34eadff1b99324ceb23fb8d13e3f5db5f741aa847d6d2be4887c11",
+  "entries": [
+    {
+      "id": "http://arxiv.org/abs/1609.06967v2",
+      "title": "Two-dimensional collective Hamiltonian for chiral and wobbling modes",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/1609.06967v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/1609.06967v2",
+          "rel": "related",
+          "type": "application/pdf",
+          "title": "pdf"
+        },
+        {
+          "rel": "related",
+          "href": "https://doi.org/10.1103/PhysRevC.94.044301",
+          "title": "doi"
+        }
+      ],
+      "authors": [
+        "Q. B. Chen",
+        "S. Q. Zhang",
+        "P. W. Zhao",
+        "R. V. Jolos",
+        "J. Meng"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1809.04418v2",
+      "title": "Two-dimensional collective Hamiltonian for chiral and wobbling modes II: Electromagnetic transitions",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/1809.04418v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/1809.04418v2",
+          "rel": "related",
+          "type": "application/pdf",
+          "title": "pdf"
+        },
+        {
+          "rel": "related",
+          "href": "https://doi.org/10.1103/PhysRevC.98.064302",
+          "title": "doi"
+        }
+      ],
+      "authors": [
+        "X. H. Wu",
+        "Q. B. Chen",
+        "P. W. Zhao",
+        "S. Q. Zhang",
+        "J. Meng"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1409.8666v1",
+      "title": "Collective modes in two- and three-dimensional electron systems with Rashba spin-orbit coupling",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/1409.8666v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/1409.8666v1",
+          "rel": "related",
+          "type": "application/pdf",
+          "title": "pdf"
+        },
+        {
+          "rel": "related",
+          "href": "https://doi.org/10.1103/PhysRevB.91.035106",
+          "title": "doi"
+        }
+      ],
+      "authors": [
+        "Saurabh Maiti",
+        "Vladimir Zyuzin",
+        "Dmitrii L. Maslov"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2504.04436v2",
+      "title": "Intertwined geometries in collective modes of two dimensional Dirac fermions",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2504.04436v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2504.04436v2",
+          "rel": "related",
+          "type": "application/pdf",
+          "title": "pdf"
+        },
+        {
+          "rel": "related",
+          "href": "https://doi.org/10.1103/bh3c-4sng",
+          "title": "doi"
+        }
+      ],
+      "authors": [
+        "Ankan Biswas",
+        "Avraham Klein"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.14867v1",
+      "title": "Exotic collective behaviors of giant quantum emitters in two-dimensional baths",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.14867v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.14867v1",
+          "rel": "related",
+          "type": "application/pdf",
+          "title": "pdf"
+        },
+        {
+          "rel": "related",
+          "href": "https://doi.org/10.1103/yygz-71tr",
+          "title": "doi"
+        }
+      ],
+      "authors": [
+        "Qing-Yang Qiu",
+        "Wen Huang",
+        "Lei Du",
+        "Xin-You L\u00fc"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "unit": "ce133-independent-primary-079",
+  "run_date": "2026-10-26",
+  "day_index": 24,
+  "status": "1998Jo16-and-1996Ha20-full-primary-read-1991Pa04-pdf-gap",
+  "identities": {
+    "1991Pa04": {
+      "doi": "10.1088/0954-3899/17/5/009",
+      "title": "Electromagnetic properties of N=75 isotones: evidence for triaxiality at low spin",
+      "journal": "J.Phys.G17 605–617",
+      "status": "Crossref200_metadata_and_ENSDF_identity_only_noauthorizedPDF;threeIOPHTMLroutes_rejected"
+    },
+    "1998Jo16": {
+      "doi": "10.1103/PhysRevC.58.3219",
+      "title": "Lifetime measurements of a triaxial band in 133Ce",
+      "journal": "PhysRevC58 3219–3222",
+      "status": "Crossref200_APSfullPDF"
+    }
+  },
+  "source": {
+    "path": "tmp/day24-ce133-independent-primary-079/1998Jo16-aps.pdf",
+    "sha256": "81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a",
+    "bytes": 120604,
+    "pages": 4
+  },
+  "visual_read": {
+    "pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "figures": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "tables": [
+      1,
+      2
+    ]
+  },
+  "independence": {
+    "reaction": "100Mo(36S,xn)136-xCe",
+    "relative_channels": "132Ce:131Ce:133Ce=5:4:1",
+    "detector": "Gammasphere",
+    "events": ">=9e8 fold5 prompt coincidences",
+    "different_from": "1991Pa04 120Sn(16O,3n)/92Mo(50Cr,n2p) ENSDF reaction fields; not samecampaign"
+  },
+  "results": {
+    "tau_ps": [
+      [
+        21.5,
+        19.5,
+        1.11,
+        0.13
+      ],
+      [
+        23.5,
+        21.5,
+        0.33,
+        0.04
+      ],
+      [
+        25.5,
+        23.5,
+        0.2,
+        0.02
+      ],
+      [
+        27.5,
+        25.5,
+        0.21,
+        0.02
+      ]
+    ],
+    "Qt_eb": [
+      [
+        21.5,
+        19.5,
+        1.94,
+        0.1
+      ],
+      [
+        23.5,
+        21.5,
+        2.65,
+        0.16
+      ],
+      [
+        25.5,
+        23.5,
+        2.66,
+        0.21
+      ],
+      [
+        27.5,
+        25.5,
+        2.15,
+        0.15
+      ]
+    ],
+    "Qt_mean": "2.2±0.1 eb",
+    "beta2": "0.186±0.007 using theoretical gamma -83 degrees",
+    "T_E2": "approximately35 W.u."
+  },
+  "limits": [
+    "DSAM/DBLS line-shape plus LINESHAPE Monte Carlo",
+    "fixed sidefeeding inertia48 hbar2/MeV; sidefeeding Q/intensity/background fit variables",
+    "unobserved links mean sidefeeding spins estimated",
+    "absoluteQt 10–15 percent stopping uncertainty",
+    "no complete BR/ICC/Cov or rawproducer replay",
+    "TRS shape/config interpretation not direct shape observation"
+  ],
+  "report": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-independent-primary-079/report.md",
+  "report_sha256": "464994f858c343bbfafc99f1a07f0eebc522fe3eb0dca420c6a9c978813945d9",
+  "writes": [
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-independent-primary-079/primed-recall.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-independent-primary-079/report.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/ce133-independent-primary-079/receipt.json"
+  ],
+  "tmp_prefix": "tmp/day24-ce133-independent-primary-079/",
+  "network": true,
+  "producer_executed": false,
+  "raw_modified": false,
+  "canonical_modified": false,
+  "git_mutation": false,
+  "course_or_session_mutation": false,
+  "credentials_modified": false,
+  "old114_read_or_execute": false,
+  "verification": {
+    "pdf_hash_size_pages": "pass",
+    "report_trailing_whitespace": "none",
+    "receipt_json": "valid"
+  },
+  "next_step": "1991Pa04 remains source-body gap; parent may integrate 1998 independent primary without transferring Qt or triaxial model parameters to low-spin WK22.",
+  "additional_primary": {
+    "doi": "10.1103/PhysRevC.54.613",
+    "title": "Triaxial bands in133Ce",
+    "file": "tmp/day24-ce133-independent-primary-079/1996Ha20-aps.pdf",
+    "sha256": "560215bbff5898a3e304f4219f35f628b3a4bd03c87ed1745dc25ae147162872",
+    "bytes": 229413,
+    "pages": 7,
+    "visual_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "reaction": "116Cd(22Ne,5n) at120MeV",
+    "events": "approximately1.5e9 fold>3",
+    "bands": "six new DeltaEgamma~100keV bands2–7 plus knownband1 and threeSD",
+    "configuration_status": "tentative model assignments,missinglinks/DCOinsufficient,notdirect3qpobservations",
+    "independentness": "independentreaction/campaignfromJoss1998;author/community/formalism/reference lineage overlaps"
+  }
+}

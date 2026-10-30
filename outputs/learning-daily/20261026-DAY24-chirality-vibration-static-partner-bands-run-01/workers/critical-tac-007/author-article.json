@@ -1,0 +1,409 @@
+{
+  "url": "https://users.fuw.edu.pl/~dobaczew/chir43w/chir43w.html",
+  "curl_exit": 0,
+  "metadata": "200\thttps://users.fuw.edu.pl/~dobaczew/chir43w/chir43w.html\ttext/html",
+  "error": "",
+  "bytes": 41413,
+  "sha256": "e8bf9524c7da3e384fd7c9bf61c85427284e3b3c8f7381e92d5a319b500aff90",
+  "text": "Critical frequency in nuclear chiral rotation Next: Bibliography Up: Jacek Dobaczewski - home page 1 Institute of Theoretical Physics, Warsaw University,\n    Hoza 69, PL-00681, Warsaw, Poland 2 Institut de Recherches Subatomiques,\n    UMR7500, CNRS-IN2P3 and Universit\u00e9 Louis Pasteur, F-67037 Strasbourg Cedex 2, France Critical frequency in nuclear chiral rotation P. Olbratowski, 1,2 J. Dobaczewski, 1,2 and\n J. Dudek 2 Abstract: Within the cranked Skyrme-Hartree-Fock approach the self-consistent\nsolutions have been obtained for planar and chiral rotational bands\nin 132 La. It turns out that the chiral band cannot exist below\nsome critical rotational frequency which in the present case equals =0.6MeV. The appearance of the critical frequency is\nexplained in terms of a simple classical model of two gyroscopes\ncoupled to a triaxial rigid body. Spontaneous chiral symmetry breaking constitutes an interesting type\nof collective effect in fermion systems [ 1 ]. In the\npresent context, a system is called chiral if it is not related to\nits time-reversed partner by a spatial rotation. A rotating triaxial\nbody with its angular momentum pointing towards one of the octants of\nthe intrinsic coordinate system, where the short ( s ), medium ( m )\nand long ( l ) axes form either a left- or right-handed set, is an\nexample. In the laboratory frame, the chiral rotation leads to pairs\nof rotational bands. Rigid bodies with no internal structure cannot\nrotate freely in such a way, and therefore, investigation of the\nchiral rotation may give us information on the underlying internal\nproperties. Triaxiality is common in molecules where it arises from a spatial\narrangement of the constituent atoms. In nuclei it can be induced by\nshell effects. It has been suggested [ 1 ] that appearance\nof chiral doublets may provide a strong evidence for nuclear\ntriaxiality. Candidates for such doublets were recently observed in\nseveral N =75 isotones [ 2 ], 132 La among them.\nCalculations within the particle-rotor model [ 3 ] confirm\ntheir possible chiral character. As proposed in Ref.\u00a0[ 4 ], the chiral rotation may appear if\na few proton particles occupy the lowest substates of a high- j orbital, and simultaneously a few neutron holes are left in the\nhighest substates. The former drive the nucleus towards elongated\nshapes, while the latter towards disc-like shapes. An interplay of\nthese opposite tendencies may yield triaxiality. It also turns out\nthat the considered particles and holes align their angular momenta\nalong the short and long axes, respectively. As follows from\nhydrodynamical considerations [ 5 ], the moment of inertia\nalong the medium axis is the largest, thus favoring the collective\ncore rotation around this axis. Therefore, the total spin has\nnon-zero components on all axes, creating the possibility of left- or\nright-handed rotation. In the present study we consider the configuration in 132 La,\nwhich fulfills the above prerequisite conditions for the chiral\nrotation. Our analysis is based on the Hartree-Fock (HF) cranking\ncalculations [ 6 ] with the angular frequency vector that can\narbitrarily orient itself with respect to the mass distribution\n(Tilted-Axis Cranking (TAC) model [ 7 ]). In all HF\nsolutions found in 132 La a stable triaxial deformation of about and was obtained. In the framework\nof the TAC model, with phenomenological mean field, chiral solutions\nwere already obtained in 134 Pr and 188 Ir [ 8 ]. In order to study the rotational properties of the single-particle\n(s.p.) orbitals in question, we first applied the angular-momentum\ncranking in the s - l plane for\n0< , <0.5MeV. Calculations were\nperformed non-selfconsistently, starting from the converged HF\nsolution obtained at =0. Figure 1: Single-particle alignments on the short ( )\nand long ( )\naxes for the h 11/2 odd proton particle\nand neutron hole in 132 La. Results of the non-selfconsistent\ncranking calculations are shown in function of (left) and (right). Solid lines correspond to =0\n(left) and =0 (right), and dashed lines to =0.5 (left) and =0.5MeV (right),\nwhile results for all intermediate values lie between the solid and\ndashed curves. For =0 the proton particle does indeed align its spin\nalong the short, and the neutron hole along the long axis, see\nFig. 1 . The response of these alignments to rotation\nis rather weak, meaning that the s.p. wave functions are strongly\nconfined by deformation. In the proton case, only the alignment on\nthe long axis changes in response to rotation and it depends only on .\nThe neutron alignment shows similar properties with the\nshort and long axes interchanged. These results can be summarized as\nfollows (1) where and are the unit vectors\nalong the short and long axes, respectively. Therefore, the odd\nparticle and hole behave as gyroscopes of spins s s and s l ,\nrigidly fixed along the long and short axes, respectively. In\naddition, the s.p. alignments also have small perpendicular\ncomponents that amount to small contributions, and ,\nto the collective total moments of inertia. Note, that the above analysis could not be done self-consistently,\nbecause we oriented vector along all directions in the\nintrinsic frame. In self-consistent solutions its orientation is\nconstrained by the Kerman-Onishi theorem [ 9 ] requiring\nthat and be parallel. To examine the collective rotational behavior we now turn to\nself-consistent calculations with the standard axial cranking, that\nis when both and point along either of the\nthree principal axes of the mass distribution. Figure 2 shows the properties of the three resulting bands\nat frequencies of 0.5MeV. One can see that at\nzero frequency cranking around the medium ( m ) axis gives a\nvanishing angular momentum, while those around the other two ( s and l ) give non-zero values equal to the s.p. alignments of the odd\nproton particle and neutron hole, s s =5.43 and s l =5.00 ,\nrespectively. For each of the three bands the\ndependence of I on is linear, like for a rigid rotation,\nand the corresponding slopes give the microscopic collective moments\nof inertia along the principal axes, , ,\nand /MeV. These values already contain the\ncontributions, and ,\nfrom the odd\nparticle and hole. Figure 2: Angular momenta (left) and excitation energies (right) in 132 La are shown for the HF bands corresponding to the axial\ncranking along the short ( s ), medium ( m ), and long ( l )\nprincipal axes. The microscopic results presented up to now do show that the system\ncan indeed be described in terms of two gyroscopes plus a collective\ncore. It is therefore fully justified to use a particle-core coupling\nmodel to describe the resulting quantum states [ 3 , 4 ].\nHowever, in the present study we also argue that basic features of\nthe system are purely classical. To show that, we now discuss a very\nsimple classical model that faithfully represents salient aspects of\nthe underlying physical situation. The model consists of a triaxial rigid body [ 10 ] with two\ngyroscopes rigidly fixed along its short and long axes, modeling the\nodd nucleons. Moments of inertia obtained above are the\ndiagonal components of the body inertia tensor ,\nwhich we\notherwise assume diagonal, while denotes the vector sum\nof the gyroscopes' spins. The angular momentum of this system reads .\nHere we look only for uniform\nrotations, by which we understand that is constant in\nthe body-fixed frame. In such a case, the Euler equations\n[ 11 ] take the form ,\nand require\nthat and be parallel, like for the\nself-consistent cranking solutions  [ 9 ]. These equations\ncan easily be solved. However, to keep contact with the Hartree-Fock\nmethod, here we employ the variational principle to find the\nsolutions. The Lagrangian of the system is equal to the sum of kinetic energies\nof the body and gyroscopes [ 12 ], (2) and for uniform rotations it is independent of time. Hence,\nminimization of the action integral is equivalent\nto minimizing the Lagrangian as function of . Since the Hamiltonian of the system is ,\nthe uniform solutions can be obtained by finding extrema of function which is called Routhian. This serves\nas a bridge between our classical model and the quantum cranking\ntheory where an analogous Routhian is minimized in the space of trial\nSlater determinants. Extrema of R with respect to the components of in the\nintrinsic frame at a given can be found by using a\nLagrange multiplier for .\nSetting to zero the\nderivatives of the quantity: = + (3) with respect to , ,\nand ,\none gets = 0              , (4) = (5) = (6) Equation ( 4 ) gives either or leading to two distinct classes of solutions. Planar solutions: If then both and lie in the s - l plane where also the gyroscopes' spins are\nlocated. This gives planar solutions for which the chiral symmetry is\nconserved. All values of are allowed, and the Lagrange\nmultiplier must  be determined from the magnitude of .\nFigure 3 shows versus for the parameters\nextracted from the HF solutions. As can be seen, there always exist\ntwo solutions and above some rotational frequency two more appear.\nThis threshold frequency reads (7) For the present model parameters, the threshold frequency is rather high, =1.28MeV. Figure 3: Classical planar solutions for the uniform rotation are\nvisualized as intersections of the horizontal line with the function obtained from Eqs.\u00a0( 5 )-( 6 ). The\nclassical chiral solution is given by = . Chiral solutions: For = all values of are\nallowed, while the components in the s - l plane are fixed at (8) Consequently",
+  "links": [
+    [
+      "",
+      {
+        "name": "tex2html7",
+        "href": "node1.html"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "home_page",
+        "href": "../.index.html"
+      }
+    ],
+    [
+      "Bibliography",
+      {
+        "name": "tex2html8",
+        "href": "node1.html"
+      }
+    ],
+    [
+      "Jacek Dobaczewski - home page",
+      {
+        "name": "home_page",
+        "href": "../.index.html"
+      }
+    ],
+    [
+      "1",
+      {
+        "href": "node1.html#Fra00"
+      }
+    ],
+    [
+      "1",
+      {
+        "href": "node1.html#Fra00"
+      }
+    ],
+    [
+      "2",
+      {
+        "href": "node1.html#Sta01"
+      }
+    ],
+    [
+      "3",
+      {
+        "href": "node1.html#Sta02"
+      }
+    ],
+    [
+      "4",
+      {
+        "href": "node1.html#Fra97"
+      }
+    ],
+    [
+      "5",
+      {
+        "href": "node1.html#Boh75"
+      }
+    ],
+    [
+      "6",
+      {
+        "href": "node1.html#HF"
+      }
+    ],
+    [
+      "7",
+      {
+        "href": "node1.html#Fra93"
+      }
+    ],
+    [
+      "8",
+      {
+        "href": "node1.html#Dim00"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "gyroscopes"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "318"
+      }
+    ],
+    [
+      "1",
+      {
+        "href": "chir43w.html#gyroscopes"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "alig"
+      }
+    ],
+    [
+      "9",
+      {
+        "href": "node1.html#Ker81"
+      }
+    ],
+    [
+      "2",
+      {
+        "href": "chir43w.html#energy-spin"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "energy-spin"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "326"
+      }
+    ],
+    [
+      "3",
+      {
+        "href": "node1.html#Sta02"
+      }
+    ],
+    [
+      "4",
+      {
+        "href": "node1.html#Fra97"
+      }
+    ],
+    [
+      "10",
+      {
+        "href": "node1.html#OSC"
+      }
+    ],
+    [
+      "11",
+      {
+        "href": "node1.html#Gol53"
+      }
+    ],
+    [
+      "9",
+      {
+        "href": "node1.html#Ker81"
+      }
+    ],
+    [
+      "12",
+      {
+        "href": "node1.html#Vol98"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "eq02"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "eq05"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "eq05a"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "eq05b"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "eq05c"
+      }
+    ],
+    [
+      "4",
+      {
+        "href": "chir43w.html#eq05a"
+      }
+    ],
+    [
+      "3",
+      {
+        "href": "chir43w.html#lambda"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "eq06"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "lambda"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "336"
+      }
+    ],
+    [
+      "5",
+      {
+        "href": "chir43w.html#eq05b"
+      }
+    ],
+    [
+      "6",
+      {
+        "href": "chir43w.html#eq05c"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "eq07"
+      }
+    ],
+    [
+      "8",
+      {
+        "href": "chir43w.html#eq07"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "eq08"
+      }
+    ],
+    [
+      "4",
+      {
+        "href": "chir43w.html#angular"
+      }
+    ],
+    [
+      "5",
+      {
+        "href": "chir43w.html#3D"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "angular"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "219"
+      }
+    ],
+    [
+      "5",
+      {
+        "href": "chir43w.html#3D"
+      }
+    ],
+    [
+      "2",
+      {
+        "href": "node1.html#Sta01"
+      }
+    ],
+    [
+      "6",
+      {
+        "href": "chir43w.html#excitation"
+      }
+    ],
+    [
+      "2",
+      {
+        "href": "node1.html#Sta01"
+      }
+    ],
+    [
+      "9",
+      {
+        "href": "chir43w.html#eq08"
+      }
+    ],
+    [
+      "5",
+      {
+        "href": "node1.html#Boh75"
+      }
+    ],
+    [
+      "4",
+      {
+        "href": "node1.html#Fra97"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "3D"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "242"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "excitation"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "348"
+      }
+    ],
+    [
+      "3",
+      {
+        "href": "node1.html#Sta02"
+      }
+    ],
+    [
+      "2",
+      {
+        "href": "node1.html#Sta01"
+      }
+    ],
+    [
+      "6",
+      {
+        "href": "chir43w.html#excitation"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "CHILD_LINKS"
+      }
+    ],
+    [
+      "Bibliography",
+      {
+        "name": "tex2html9",
+        "href": "node1.html"
+      }
+    ],
+    [
+      "About this document ...",
+      {
+        "name": "tex2html10",
+        "href": "node2.html"
+      }
+    ],
+    [
+      "",
+      {
+        "name": "tex2html7",
+        "href": "node1.html"
+      }
+    ],
+    [
+      "Bibliography",
+      {
+        "name": "tex2html8",
+        "href": "node1.html"
+      }
+    ]
+  ]
+}

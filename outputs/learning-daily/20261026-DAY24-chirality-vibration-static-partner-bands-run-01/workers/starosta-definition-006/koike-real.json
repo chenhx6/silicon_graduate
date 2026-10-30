@@ -1,0 +1,12 @@
+{
+  "key": "koike-real",
+  "url": "https://lambda.phys.tohoku.ac.jp/~koike/",
+  "curl_exit": 0,
+  "metadata": "404\thttps://lambda.phys.tohoku.ac.jp/~koike/\ttext/html; charset=iso-8859-1",
+  "error": "",
+  "bytes": 196,
+  "sha256": "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880",
+  "pdf_signature": false,
+  "text_excerpt": "404 Not Found Not Found The requested URL was not found on this server.",
+  "links": []
+}

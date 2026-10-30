@@ -1,0 +1,282 @@
+{
+  "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.physletb.2018.06.030",
+  "curl_exit": 0,
+  "metadata": "200\thttps://api.openalex.org/works/https://doi.org/10.1016/j.physletb.2018.06.030\tapplication/json",
+  "error": "",
+  "bytes": 25837,
+  "sha256": "98522538aa49d47701f04600857c932a5bb2bebf84931a3fcebf9909c406e08a",
+  "title": "Multiple chiral doublets in four-j shells particle rotor model: Five possible chiral doublets in 60136 Nd76",
+  "locations": [
+    {
+      "id": "doi:10.1016/j.physletb.2018.06.030",
+      "doi": "https://doi.org/10.1016/j.physletb.2018.06.030",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.physletb.2018.06.030",
+      "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0370269318304866/pdf",
+      "source": {
+        "id": "https://openalex.org/S173952182",
+        "display_name": "Physics Letters B",
+        "issn_l": "0370-2693",
+        "issn": [
+          "0370-2693",
+          "1873-2445"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "dongbi-b",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physics Letters B",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:arXiv.org:1805.06162",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1805.06162",
+      "pdf_url": "https://arxiv.org/pdf/1805.06162",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:irdb.nii.ac.jp:01221:0000187473",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://repository.kulib.kyoto-u.ac.jp/bitstreams/359b3f1d-e5b3-43eb-8f1e-95af6fb9b7a8/download",
+      "pdf_url": "https://repository.kulib.kyoto-u.ac.jp/bitstreams/359b3f1d-e5b3-43eb-8f1e-95af6fb9b7a8/download",
+      "source": {
+        "id": "https://openalex.org/S7407056385",
+        "display_name": "Institutional Repositories DataBase (IRDB)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I184597095",
+        "host_organization_name": "National Institute of Informatics",
+        "host_organization_lineage": [
+          "https://openalex.org/I184597095"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Physics Letters B",
+      "raw_type": "journal article"
+    },
+    {
+      "id": "pmh:oai:HAL:hal-01801924v1",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "https://hal.science/hal-01801924",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I4405252976",
+        "host_organization_name": "Centre pour la Communication Scientifique Directe",
+        "host_organization_lineage": [
+          "https://openalex.org/I4405252976"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Physics Letters B, 2018, 782, pp.744-749. &#x27E8;10.1016/j.physletb.2018.06.030&#x27E9;",
+      "raw_type": "info:eu-repo/semantics/article"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:64a1cc471424482f91cc51a617fa56ee",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/64a1cc471424482f91cc51a617fa56ee",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Physics Letters B, Vol 782, Iss , Pp 744-749 (2018)",
+      "raw_type": "article"
+    },
+    {
+      "id": "pmh:oai:repository.kulib.kyoto-u.ac.jp:2433/232694",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/2433/232694",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401454",
+        "display_name": "Kyoto University Research Information Repository (Kyoto University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I22299242",
+        "host_organization_name": "Kyoto University",
+        "host_organization_lineage": [
+          "https://openalex.org/I22299242"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "journal article"
+    },
+    {
+      "id": "pmh:oai:scholar.sun.ac.za:10019.1/108546",
+      "doi": null,
+      "is_oa": false,
+      "landing_page_url": "http://hdl.handle.net/10019.1/108546",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400300",
+        "display_name": "SUNScholar (Stellenbosch University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I26092322",
+        "host_organization_name": "Stellenbosch University",
+        "host_organization_lineage": [
+          "https://openalex.org/I26092322"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Article"
+    },
+    {
+      "id": "doi:10.48550/arxiv.1805.06162",
+      "doi": "https://doi.org/10.48550/arxiv.1805.06162",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.48550/arxiv.1805.06162",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "article-journal"
+    }
+  ],
+  "oa": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://www.sciencedirect.com/science/article/pii/S0370269318304866/pdf",
+    "any_repository_has_fulltext": true
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "kind": "independently-read-literal-MU08-TableI-II-ledger-not-new-fit",
+  "source": "PRC78,034311 PDF3TableI/PDF4TableII",
+  "rows": [
+    {
+      "paper_band": 1,
+      "parity": "negative",
+      "Ji": 15,
+      "parent_Ex_keV": 5645.3,
+      "tau_ps": [
+        0.93,
+        0.09
+      ],
+      "reported_inband_BM1_muN2": [
+        2.7,
+        0.3
+      ],
+      "reported_inband_BE2_e2b2": null,
+      "printed_branches": [
+        {
+          "Egamma_keV": 229.3,
+          "Jf": 14,
+          "branch": [
+            0.6,
+            0.03
+          ]
+        },
+        {
+          "Egamma_keV": 274.0,
+          "Jf": 14,
+          "branch": [
+            0.14,
+            0.02
+          ]
+        },
+        {
+          "Egamma_keV": 338.0,
+          "Jf": 14,
+          "branch": [
+            0.26,
+            0.03
+          ]
+        }
+      ],
+      "low_spin_2018_parent_family": "D4",
+      "new_chiral_partner_lifetime_provided": false
+    },
+    {
+      "paper_band": 1,
+      "parity": "negative",
+      "Ji": 16,
+      "parent_Ex_keV": 5954.0,
+      "tau_ps": [
+        0.88,
+        0.1
+      ],
+      "reported_inband_BM1_muN2": [
+        1.7,
+        0.2
+      ],
+      "reported_inband_BE2_e2b2": [
+        0.26,
+        0.03
+      ],
+      "printed_branches": [
+        {
+          "Egamma_keV": 308.7,
+          "Jf": 15,
+          "branch": [
+            0.82,
+            0.04
+          ]
+        },
+        {
+          "Egamma_keV": 538.0,
+          "Jf": 14,
+          "branch": [
+            0.13,
+            0.01
+          ]
+        },
+        {
+          "Egamma_keV": 224.7,
+          "Jf": 15,
+          "branch": [
+            0.05,
+            0.01
+          ]
+        }
+      ],
+      "low_spin_2018_parent_family": "D4",
+      "new_chiral_partner_lifetime_provided": false
+    },
+    {
+      "paper_band": 1,
+      "parity": "negative",
+      "Ji": 17,
+      "parent_Ex_keV": 6310.2,
+      "tau_ps": [
+        0.71,
+        0.06
+      ],
+      "reported_inband_BM1_muN2": [
+        1.1,
+        0.1
+      ],
+      "reported_inband_BE2_e2b2": [
+        0.08,
+        0.01
+      ],
+      "printed_branches": [
+        {
+          "Egamma_keV": 356.2,
+          "Jf": 16,
+          "branch": [
+            0.62,
+            0.03
+          ]
+        },
+        {
+          "Egamma_keV": 664.9,
+          "Jf": 15,
+          "branch": [
+            0.09,
+            0.01
+          ]
+        },
+        {
+          "Egamma_keV": 332.8,
+          "Jf": 16,
+          "branch": [
+            0.29,
+            0.03
+          ]
+        }
+      ],
+      "low_spin_2018_parent_family": "D4",
+      "new_chiral_partner_lifetime_provided": false
+    },
+    {
+      "paper_band": 1,
+      "parity": "negative",
+      "Ji": 18,
+      "parent_Ex_keV": 6711.4,
+      "tau_ps": [
+        0.56,
+        0.08
+      ],
+      "reported_inband_BM1_muN2": [
+        0.9,
+        0.2
+      ],
+      "reported_inband_BE2_e2b2": [
+        0.14,
+        0.02
+      ],
+      "printed_branches": [
+        {
+          "Egamma_keV": 401.2,
+          "Jf": 17,
+          "branch": [
+            0.57,
+            0.06
+          ]
+        },
+        {
+          "Egamma_keV": 757.4,
+          "Jf": 16,
+          "branch": [
+            0.24,
+            0.02
+          ]
+        },
+        {
+          "Egamma_keV": 389.6,
+          "Jf": 17,
+          "branch": [
+            0.19,
+            0.02
+          ]
+        }
+      ],
+      "low_spin_2018_parent_family": "D4",
+      "new_chiral_partner_lifetime_provided": false
+    },
+    {
+      "paper_band": 1,
+      "parity": "negative",
+      "Ji": 19,
+      "parent_Ex_keV": 7147.2,
+      "tau_ps": [
+        0.32,
+        0.05
+      ],
+      "reported_inband_BM1_muN2": [
+        1.7,
+        0.3
+      ],
+      "reported_inband_BE2_e2b2": [
+        0.11,
+        0.02
+      ],
+      "printed_branches": [
+        {
+          "Egamma_keV": 435.8,
+          "Jf": 18,
+          "branch": [
+            0.83,
+            0.08
+          ]
+        },
+        {
+          "Egamma_keV": 837.0,
+          "Jf": 17,
+          "branch": [
+            0.17,
+            0.02
+          ]
+        }
+      ],
+      "low_spin_2018_parent_family": "D4",
+      "new_chiral_partner_lifetime_provided": false
+    },
+    {
+      "paper_band": 2,
+      "parity": "negative",
+      "Ji": 15,
+      "parent_Ex_keV": 5729.3,
+      "tau_ps": [
+        1.27,
+        0.06
+      ],
+      "reported_inband_BM1_muN2": [
+        4.4,
+        0.3
+      ],
+      "reported_inband_BE2_e2b2": [
+        0.54,
+        0.08
+      ],
+      "printed_branches": [
+        {
+          "Egamma_keV": 199.6,
+          "Jf": 14,
+          "branch": [
+            0.93,
+            0.05
+          ]
+        },
+        {
+          "Egamma_keV": 382.0,
+          "Jf": 13,
+          "branch": [
+            0.07,
+            0.01
+          ]
+        }
+      ],
+      "low_spin_2018_parent_family": "D3",
+      "new_chiral_partner_lifetime_provided": false
+    },
+    {
+      "paper_band": 2,
+      "parity": "negative",
+      "Ji": 16,
+      "parent_Ex_keV": 5977.4,
+      "tau_ps": [
+        0.87,
+        0.08
+      ],
+      "reported_inband_BM1_muN2": [
+        3.5,
+        0.3
+      ],
+      "reported_inband_BE2_e2b2": [
+        0.51,
+        0.07
+      ],
+      "printed_branches": [
+        {
+          "Egamma_keV": 248.1,
+          "Jf": 15,
+          "branch": [
+            0.9,
+            0.03
+          ]
+        },
+        {
+          "Egamma_keV": 447.7,
+          "Jf": 14,
+          "branch": [
+            0.1,
+            0.01
+          ]
+        }
+      ],
+      "low_spin_2018_parent_family": "D3",
+      "new_chiral_partner_lifetime_provided": false
+    },
+    {
+      "paper_band": 2,
+      "parity": "negative",
+      "Ji": 17,
+      "parent_Ex_keV": 6321.8,
+      "tau_ps": [
+        0.61,
+        0.07
+      ],
+      "reported_inband_BM1_muN2": [
+        1.4,
+        0.2
+      ],
+      "reported_inband_BE2_e2b2": [
+        0.44,
+        0.06
+      ],
+      "printed_branches": [
+        {
+          "Egamma_keV": 344.4,
+          "Jf": 16,
+          "branch": [
+            0.66,
+            0.04
+          ]
+        },
+        {
+          "Egamma_keV": 592.5,
+          "Jf": 15,
+          "branch": [
+            0.24,
+            0.02
+          ]
+        },
+        {
+          "Egamma_keV": 367.8,
+          "Jf": 16,
+          "branch": [
+            0.1,
+            0.01
+          ]
+        }
+      ],
+      "low_spin_2018_parent_family": "D3",
+      "new_chiral_partner_lifetime_provided": false
+    },
+    {
+      "paper_band": 2,
+      "parity": "negative",
+      "Ji": 18,
+      "parent_Ex_keV": 6756.0,
+      "tau_ps": [
+        0.51,
+        0.07
+      ],
+      "reported_inband_BM1_muN2": [
+        1.0,
+        0.2
+      ],
+      "reported_inband_BE2_e2b2": [
+        0.04,
+        0.01
+      ],
+      "printed_branches": [
+        {
+          "Egamma_keV": 434.2,
+          "Jf": 17,
+          "branch": [
+            0.73,
+            0.07
+          ]
+        },
+        {
+          "Egamma_keV": 778.6,
+          "Jf": 16,
+          "branch": [
+            0.08,
+            0.01
+          ]
+        },
+        {
+          "Egamma_keV": 445.8,
+          "Jf": 17,
+          "branch": [
+            0.19,
+            0.02
+          ]
+        }
+      ],
+      "low_spin_2018_parent_family": "D3",
+      "new_chiral_partner_lifetime_provided": false
+    },
+    {
+      "paper_band": 2,
+      "parity": "negative",
+      "Ji": 19,
+      "parent_Ex_keV": 7221.5,
+      "tau_ps": [
+        0.31,
+        0.05
+      ],
+      "reported_inband_BM1_muN2": [
+        1.6,
+        0.3
+      ],
+      "reported_inband_BE2_e2b2": [
+        0.05,
+        0.01
+      ],
+      "printed_branches": [
+        {
+          "Egamma_keV": 465.5,
+          "Jf": 18,
+          "branch": [
+            0.88,
+            0.09
+          ]
+        },
+        {
+          "Egamma_keV": 899.7,
+          "Jf": 17,
+          "branch": [
+            0.12,
+            0.02
+          ]
+        }
+      ],
+      "low_spin_2018_parent_family": "D3",
+      "new_chiral_partner_lifetime_provided": false
+    }
+  ],
+  "branch_count": 26,
+  "limits": [
+    "Branch basis/ICC denominator is not stated explicitly in the table",
+    "Reported M1 extraction assumes pureM1 fordeltaI1; no new measuredmixingratio",
+    "Quoted errors exclude stopping systematics up to15%; no jointCovariance reconstructed",
+    "2018 lowspin family mapping is not a fullspin/Ex remapping or a lifetime for newCpartners"
+  ]
+}

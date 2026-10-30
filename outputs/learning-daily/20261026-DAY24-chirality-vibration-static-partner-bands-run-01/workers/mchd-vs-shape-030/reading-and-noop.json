@@ -1,0 +1,51 @@
+{
+  "science_action": "verified-no-op",
+  "canonical_changes_required": false,
+  "reason": "Existing KU14 claims and Day18 corrections already fully bound same-effective-configuration MchD, pair/parity identity, missing lifetime-separated strengths and model limitations.",
+  "source": "knowledge/sources/kuti-2014-multiple-chiral-doublets-103rh.md",
+  "raw_check": {
+    "raw": "raw/papers/2014_Kuti et al_Multiple Chiral Doublet Bands of Identical Configuration in Rh 103.pdf",
+    "pages": 5,
+    "sha256": "ef327ad2d7b55a71b72c356bb2789f107b1e1d464daa59c181bec44abf88a0b2",
+    "bytes": 494614
+  },
+  "full_text_mainline_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "visual_pages_read": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "figures_read": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "exact_locator_convention": "PDFn=printed032501-n",
+  "primary_atomic_ids": [
+    "KU14-13",
+    "KU14-16",
+    "KU14-7",
+    "KU14-D18-2",
+    "KU14-D18-3",
+    "KU14-D18-7",
+    "KU14-D18-8",
+    "KU14-D18-9",
+    "KU14-D18-10"
+  ],
+  "matrix_boundary": "MchD label/pair count does not necessitate distinct shape/effective configuration coexistence; this is a source-model interpretation control, not proof that real states have no shape variation/mixing.",
+  "matrix_boundary_class": "cross-source synthesis based on already-stored original facts",
+  "new_primary_experiments": 0,
+  "source_old_review_and_withdrawals_changed": false,
+  "needs_review_for_synthesis": true,
+  "new_papers_read": 0,
+  "model_or_old114_code_run": false
+}

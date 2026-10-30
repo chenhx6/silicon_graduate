@@ -1,0 +1,39 @@
+{
+  "url": "https://export.arxiv.org/api/query?id_list=1809.04418v2",
+  "curl_exit": 0,
+  "metadata": "200\thttps://export.arxiv.org/api/query?id_list=1809.04418v2\tapplication/atom+xml; charset=utf-8",
+  "error": "",
+  "bytes": 2816,
+  "sha256": "5e8c74f841e1113c5027f778fee8ab793822e637f1d57e60b37ec13c91762c98",
+  "entries": [
+    {
+      "id": "http://arxiv.org/abs/1809.04418v2",
+      "title": "Two-dimensional collective Hamiltonian for chiral and wobbling modes II: Electromagnetic transitions",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/1809.04418v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/1809.04418v2",
+          "rel": "related",
+          "type": "application/pdf",
+          "title": "pdf"
+        },
+        {
+          "rel": "related",
+          "href": "https://doi.org/10.1103/PhysRevC.98.064302",
+          "title": "doi"
+        }
+      ],
+      "authors": [
+        "X. H. Wu",
+        "Q. B. Chen",
+        "P. W. Zhao",
+        "S. Q. Zhang",
+        "J. Meng"
+      ]
+    }
+  ]
+}

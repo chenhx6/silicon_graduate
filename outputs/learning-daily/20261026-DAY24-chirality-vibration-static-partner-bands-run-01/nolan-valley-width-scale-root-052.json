@@ -1,0 +1,11 @@
+{
+  "kind": "nominal-source-formula-scale-not-new-width-extraction",
+  "source": "Nolan1983 printed287 W=8hbar²/Jband2; BR85printed74 comparison scales",
+  "W_at_J52_keV": 153.84615384615384,
+  "W_at_J45_keV": 177.77777777777777,
+  "difference_keV": 23.931623931623932,
+  "not_measured_widths": true,
+  "no_curve_digitization": true,
+  "no_CI_significance_resolution_or_count_claim": true,
+  "same_day24": true
+}

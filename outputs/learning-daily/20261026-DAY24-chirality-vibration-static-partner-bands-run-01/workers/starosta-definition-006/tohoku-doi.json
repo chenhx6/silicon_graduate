@@ -1,0 +1,394 @@
+{
+  "key": "tohoku-doi",
+  "utc": "2026-10-26T11:46:12.361355+00:00",
+  "url": "https://tohoku.repo.nii.ac.jp/api/records/?q=00663-1&search_type=1&size=20",
+  "curl_exit": 0,
+  "metadata": "200\thttps://tohoku.repo.nii.ac.jp/api/records/?q=00663-1&search_type=1&size=20\tapplication/json",
+  "error": "",
+  "bytes": 132971,
+  "sha256": "a5a88427818d3329ab26a62e061d9e33f8ab2f86d259ea65733ff4aab8ba1c52",
+  "pdf_signature": false,
+  "hit_total": 81,
+  "hits": [
+    {
+      "id": 41723,
+      "title": [
+        "Conformal-Projective Geometry of Statistical Manifolds"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-15"
+            }
+          ],
+          "extention": "pdf",
+          "label": "8_89.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/41723/files/8_89.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66180,
+      "title": [
+        "Anesthetics, immune cells, and immune responses"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "JOAN-S-08-00047.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66180/files/JOAN-S-08-00047.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66023,
+      "title": [
+        "\u30aa\u30fc\u30c1\u30e3\u30fc\u30c9\u30b0\u30e9\u30b9(Dactylis glomerata L.)\u63a1\u8349\u5730\u306b\u751f\u80b2\u3059\u308b\u30ef\u30eb\u30ca\u30b9\u30d3(Solanum carolinense L.)\u306b\u5bfe\u3059\u308b\u30c8\u30ea\u30af\u30ed\u30d4\u30eb\u304a\u3088\u3073\u30a2\u30b7\u30e5\u30e9\u30e0\u306e\u52b9\u679c"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004856663.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66023/files/KJ00004856663.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66158,
+      "title": [
+        "Endoscopic assessment of oesophagitis: clinical and functional correlates and further validation of the Los Angeles classification"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "172.full.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66158/files/172.full.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66546,
+      "title": [
+        "\u30ad\u30f3\u30b0\u30b9\u30c8\u30f3\u306e\u4f5c\u54c1\u306b\u304a\u3051\u308b\u300c\u95a2\u516c\u300d\u8868\u8c61 : \u300e\u30a2\u30e1\u30ea\u30ab\u306e\u4e2d\u56fd\u4eba\u300f\u3092\u4e2d\u5fc3\u306b"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "1341-0709-2015-22-155.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66546/files/1341-0709-2015-22-155.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66814,
+      "title": [
+        "\u5341\u516b\u4e16\u7d00\u30c9\u30a4\u30c4\u306e\u901a\u4fd7\u5287\u306b\u63cf\u304b\u308c\u308b\u7570\u90a6\u4eba\u50cf : \u30a2\u30a6\u30b0\u30b9\u30c8\u30fb\u30d5\u30a9\u30f3\u30fb\u30b3\u30c3\u30c4\u30a7\u30d6\u30fc\u3092\u4e2d\u5fc3\u306b\u3057\u3066"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "1341-0857-2015-23-1.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66814/files/1341-0857-2015-23-1.pdf"
+        }
+      ]
+    },
+    {
+      "id": 64631,
+      "title": [
+        "BIOCHEMICAL STUDIES OF MICROELEMENTS IN GREEN PLANTS II. THE CHEMICAL COMPOSITION OF RICE PLANT AND BARLEY AFFECTED BY IRON DEFICIENCY"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00000713838.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/64631/files/KJ00000713838.pdf"
+        }
+      ]
+    },
+    {
+      "id": 65259,
+      "title": [
+        "Field Study on Translocation of Nitrogen and Its Contribution to the Growth of Wetland Rice at the Middle Growing Stage"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00000714840.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/65259/files/KJ00000714840.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66073,
+      "title": [
+        "\u6a5f\u95a2\u30ea\u30dd\u30b8\u30c8\u30ea\u306e\u767a\u5c55\u306b\u5411\u3051\u3066 : \u73fe\u72b6\u3068\u8ab2\u984c"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "goto070826-2.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66073/files/goto070826-2.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66072,
+      "title": [
+        "\u96fb\u5b50\u8cc7\u6599\u306e\u9577\u671f\u4fdd\u5b58\u306b\u5411\u3051\u3066"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "goto_070826-1.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66072/files/goto_070826-1.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66806,
+      "title": [
+        "\u4e95\u4e0a\u7d05\u6885\u306e\u990a\u5bb6\u300c\u4e95\u4e0a\u5546\u5e97\u300d\u306e\u8a18\u9332\u306b\u3064\u3044\u3066 : \u4e95\u4e0a\u7d05\u6885\u306b\u95a2\u3059\u308b\u4e8b\u8de1\u7814\u7a76\u306e\u4e00\u74b0\u3068\u3057\u3066"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "1341-0857-2013-21-142(1).pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66806/files/1341-0857-2013-21-142(1).pdf"
+        }
+      ]
+    },
+    {
+      "id": 66645,
+      "title": [
+        "\u5bae\u57ce\u770c\u306b\u304a\u3051\u308b\u7523\u696d\u5ec3\u68c4\u7269\u30bc\u30ed\u30a8\u30df\u30c3\u30b7\u30e7\u30f3\u3078\u306e\u53d6\u308a\u7d44\u307f : \u30a2\u30f3\u30b1\u30fc\u30c8\u306b\u3088\u308b\u5b9f\u614b\u8abf\u67fb\u7d50\u679c\u304a\u3088\u3073\u305d\u306e\u89e3\u6790"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004370423.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66645/files/KJ00004370423.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66634,
+      "title": [
+        "Trade Conflict between Japan and the United States over Automobiles and Automotive Parts"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004370406.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66634/files/KJ00004370406.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66632,
+      "title": [
+        "\u30b4\u30c0\u30fc\u30eb\u6620\u753b\u3068\u5546\u696d\u4e3b\u7fa9(2) : \u6620\u753b\u306e\u653f\u6cbb\u6027\u3068\u9769\u547d"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004370404.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66632/files/KJ00004370404.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66630,
+      "title": [
+        "\u30ea\u30f4\u30a3\u30f3\u30b0\u30b9\u30c8\u30f3\u306e\u898b\u308b\u6771\u30a2\u30d5\u30ea\u30ab\u306e\u30a2\u30e9\u30d6\u5546\u4eba"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004370402.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66630/files/KJ00004370402.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66629,
+      "title": [
+        "Anthropologie, structures sociales et structure du Pouvoir dans le Maghreb contemporain : considerations epistemologiques"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004370401.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66629/files/KJ00004370401.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66605,
+      "title": [
+        "\u6b4c\u8a9e\u8ad6\u306e\u5c55\u958b\u3068\u73fe\u72b6"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004370347.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66605/files/KJ00004370347.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66638,
+      "title": [
+        "\u767d\u8a71\u5c0f\u8aac\u7814\u7a76\u306b\u304a\u3051\u308b\u300c\u8a71\u672c\u300d\u306e\u5b9a\u7fa9\u306b\u3064\u3044\u3066 : \u4e2d\u56fd\u767d\u8a71\u5c0f\u8aac\u7814\u7a76\u306b\u304a\u3051\u308b\u4e00\u5c55\u671b(III)"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004370411.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66638/files/KJ00004370411.pdf"
+        }
+      ]
+    },
+    {
+      "id": 66635,
+      "title": [
+        "\u65e5\u672c\u306b\u304a\u3051\u308b\u60c5\u5831\u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u5f62\u6210\u904e\u7a0b\u306b\u95a2\u3059\u308b\u8003\u5bdf : \u30ad\u30e3\u30d7\u30c6\u30f3\u30b7\u30b9\u30c6\u30e0\u3068\u30d1\u30bd\u30b3\u30f3\u901a\u4fe1\u3092\u4e2d\u5fc3\u306b"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-22"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004370407.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/66635/files/KJ00004370407.pdf"
+        }
+      ]
+    },
+    {
+      "id": 51136,
+      "title": [
+        "\u6700\u6025\u964d\u4e0b\u6cd5\u3092\u7528\u3044\u305f\u767d\u982d\u5c71\u753b\u50cf\u306e\u878d\u5408\u51e6\u7406"
+      ],
+      "files": [
+        {
+          "date": [
+            {
+              "dateType": "Available",
+              "dateValue": "2017-02-20"
+            }
+          ],
+          "extention": "pdf",
+          "label": "KJ00004380663.pdf",
+          "url": "https://tohoku.repo.nii.ac.jp/record/51136/files/KJ00004380663.pdf"
+        }
+      ]
+    }
+  ]
+}

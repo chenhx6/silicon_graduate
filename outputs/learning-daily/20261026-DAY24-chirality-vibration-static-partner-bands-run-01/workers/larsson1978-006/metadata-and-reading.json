@@ -1,0 +1,27 @@
+{
+  "title": "Nuclear core-quasiparticle coupling",
+  "doi": "10.1016/0375-9474(78)90613-9",
+  "authors": [
+    "S.E. Larsson",
+    "G. Leander",
+    "I. Ragnarsson"
+  ],
+  "journal": "Nuclear Physics A",
+  "volume": "307",
+  "issue": "2",
+  "page": "189-223",
+  "expected_article_pages": 35,
+  "inspire_id": 1430142,
+  "nsr": "1978LA13",
+  "body_recovered": false,
+  "body_pages_read": 0,
+  "body_sha256": null,
+  "body_version": null,
+  "metadata_sources": [
+    "https://api.crossref.org/works/10.1016/0375-9474(78)90613-9",
+    "https://inspirehep.net/api/literature/1430142"
+  ],
+  "abstract_scope_source": "INSPIRE metadata.abstracts[0], explicitly sourced Elsevier; discovery only",
+  "scope_in_abstract": "Relations between different core-particle coupling models based on the Bohr Hamiltonian are discussed, and in particular the γ-unstable and rigid 30° triaxial cores are compared quantitatively. A new formulation is developed employing a rigid triaxial rotor core and the strong-coupling basis. Within the limitations imposed by this model core, it is equally applicable in the limits of small and extremely large deformations. Sample calculations are made for the nuclei 185 Re and 75, 77 Se. The results for the latter support earlier predictions of an oblate-prolate shape transition in this region of nuclei, but also indicate difficulties in the treatment of pairing. As another application, the wave functions and excitation energies of decoupled states are illuminated from the point of view of the strong-coupling basis, and the effects of hexadecapole deformation and j -mixing are examined.",
+  "notes": "1978 metadata and abstract do not establish equations, matrix elements or 2022 producer inputs."
+}

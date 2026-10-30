@@ -1,0 +1,54 @@
+                                         LA14349
+               Evidence for Multiple Chiral Doublet Bands in 133Ce
+
+ A.D. Ayangeakaa,1 U. Garg,1 M.D. Anthony,1 S. Frauendorf,1 J.T. Matta,1 B.K. Nayak,1, ∗D. Patel,1 Q.B. Chen
+                                                                                                                              4, 5 R.V.F. Janssens,6 M.P.(éÆ),2 S.Q. Zhang (ÜV   ),2 P.W. Zhao (ë+),2 B. Qi (  R),3 J. Meng (#),2,
+Carpenter,6 C.J. Chiara,6, 7 F.G. Kondev,8 T. Lauritsen,6 D. Seweryniak,6 S. Zhu,6 S.S. Ghugre,9 and R. Palit10, 11
+                     1Department of Physics, University of Notre Dame, Notre Dame, IN 46556
+                                 2State Key Laboratory of Nuclear Physics and Technology,
+                              School of Physics, Peking University, Beijing 100871, China
+               3School of Space Science and Physics, Shandong University at Weihai, Weihai 264209, China
+              4School of Physics and Nuclear Energy Engineering, Beihang University, Beijing 100191, China
+                    5Department of Physics, University of Stellenbosch, Stellenbosch, South Africa
+                          6Physics Division, Argonne National Laboratory, Argonne, IL 60439
+             7Department of Chemistry and Biochemistry, University of Maryland, College Park, MD 20742
+                    8Nuclear Engineering Division, Argonne National Laboratory, Argonne, IL 60439
+                  9UGC-DAE Consortium for Science Research, Kolkata 700 098, India
+                           10Tata Institute of Fundamental Research, Mumbai 400 005, India
+           11The Joint Institute for Nuclear Astrophysics, University of Notre Dame, Notre Dame, IN 46556
+                                               (Dated: March 20, 2013)
+
+           Two distinct sets of chiral-partner bands have been identiﬁed in the nucleus 133Ce. They con-
+               stitute a multiple chiral doublet (MχD), a phenomenon predicted by relativistic mean ﬁeld (RMF)
+              calculations and observed experimentally here for the ﬁrst time. The properties of these chiral bands
+             are in good agreement with results of calculations based on a combination of the constrained triaxial
+        RMF theory and the particle-rotor model.
+
+          PACS numbers: 21.10.Tg, 23.20.-g, 21.60.Ev, 27.60.+j      COPY  Described in terms of a coupling between deformation and orientation degrees of freedom, chirality represents a
+novel feature of triaxial nuclei rotating about an axis that lies outside the three planes spanned by the principal axes
+of its mean-ﬁeld density distribution  [1–5]. For a triaxial nucleus, the short, intermediate, and long principal axes
+form a screw with respect to the angular momentum vector, resulting in the formation of two chiral systems, with
+left- and right-handed orientations. The restoration of the broken chiral symmetry in the laboratory frame manifests
+itself as a pair of degenerate ∆I = 1 bands with the same parity. Experimental evidence for such chiral band-pairs
+has been found in the A ∼190, A ∼130, A ∼100, and A ∼80 mass regions of the nuclear chart [6–20].
+  Theoretically, chiral doublet bands have been successfully described by several formulations viz. the Triaxial Particle
+Rotor model (TPRM) [1, 21–23]; the Tilted Axis Cranking (TAC) model with shell correction (SCTAC) [2, 15, 16],
+and Skyrme-Hartree-Fock [24, 25] approaches; and the random phase approximation (RPA) [26, 27]. The generalconditions for rotational chirality [1] implyDISTRIBUTIONthat this phenomenon may appear for more than one conﬁguration in
+the same nucleus. The resultant possibility of having multiple pairs of chiral doublet bands in a single nucleus wasdemonstrated forREVIEWthe Rh isotopes by the relativistic mean ﬁeld (RMF) theory in Refs. [28–30], which introduced the
+acronym MχD for multiple chiral doublet bands. The likelihood of chiral bands with diﬀerent conﬁgurations was
+also discussed in context of SCTAC calculations used to interpret the observed band structures in 105Rh [15, 16]. In
+this Letter, the ﬁrst strong experimental evidence for the existence of MχD is reported in the nucleus 133Ce. The
+observations represent an important conﬁrmation of triaxial shape coexistence and its geometrical interpretation.   FOR
+  Two separate experiments were performed using the ATLAS facility at the Argonne National Laboratory. In both,
+high-spin states in 133Ce were populated following the 116Cd(22Ne,5n)133Ce reaction at a bombarding energy of 112
+MeV. In the ﬁrst experiment, the target was a foil of isotopically enriched 116Cd, 1.48 mg/cm2-thick, and sandwiched
+between a 50 µg/cm2-thick front layer of Al and a 150 µg/cm2-thick Au backing. The second experiment used a
+target of the same enrichment and thickness evaporated onto a 55 µg/cm2-thick Au foil. In both experiments, four-
+fold and higher prompt γ-ray coincidence events were measured using the Gammasphere array [32]. A combined totalof approximatelyNOT4.1 × 109 four- and higher-fold coincidence events were accumulated during the two experiments.
+These events were analyzed using the RADWARE suite of analysis packages [33]. The level scheme for 133Ce deduced
+in the present work builds substantially upon that previously reported for this nucleus [34–36]. A partial level scheme
+comprising the structures relevant to the focus of this Letter is displayed in Fig. 1. Spin and parity assignments for
+newly-identiﬁed levels were made on the basis of extensive measurements of DCO ratios [37, 38] and, where practical,
+conﬁrmed by angular-distribution analyses [39].
+  Two strongly coupled ∆I = 1, positive-parity bands were established: the lower-energy band (Band 2 in Fig. 1)
+and its partner (Band 3) which feeds into the former by a number of strong ∆I = 1, and much weaker ∆I = 2,

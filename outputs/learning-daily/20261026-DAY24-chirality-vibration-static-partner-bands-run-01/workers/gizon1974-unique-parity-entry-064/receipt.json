@@ -1,0 +1,76 @@
+{
+  "task": "064",
+  "status": "entry-verified-full-body-obtained-not-fully-read",
+  "source_identity": "source-identity.json",
+  "primary_133ce_confirmed": true,
+  "primary_locator": "PDF1/printed557 abstract,reactionbox,introduction; PDF2/558§2; PDF15/571§3.4",
+  "pdf_sha256": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+  "pdf_bytes": 1264150,
+  "pdf_pages": 22,
+  "read_full_native_text_pages": [
+    1,
+    2,
+    3,
+    4,
+    15
+  ],
+  "targeted_text_reads": [
+    {
+      "page": 17,
+      "scope": "Table4-following paragraphs"
+    },
+    {
+      "page": 18,
+      "scope": "§3.4 before §4"
+    }
+  ],
+  "visual_pages": [
+    1,
+    2,
+    3,
+    4,
+    14,
+    15,
+    17
+  ],
+  "targeted_figure": "Fig8 physical14/printed570",
+  "all_pages_extracted_not_all_read": true,
+  "whole_article_read": false,
+  "priming": "PartII Ref26/parent hypothesis; not blind and no frozen scored pre-read in064",
+  "si_requested": true,
+  "si_status": {
+    "status": "not_identified_in_full_xml_attachment_inventory",
+    "candidate_count": 0,
+    "scope": "Publisher FULL XML attachment/object inventory inspected; no universal absence claim",
+    "excluded_inline_assets": [
+      {
+        "eid": "1-s2.0-037594747490339X-si3.gif",
+        "reason": "ALTIMG thumbnail/inline scientific notation; 15–20px high,190–194bytes, not supplementary material"
+      },
+      {
+        "eid": "1-s2.0-037594747490339X-si2.gif",
+        "reason": "ALTIMG thumbnail/inline scientific notation; 15–20px high,190–194bytes, not supplementary material"
+      },
+      {
+        "eid": "1-s2.0-037594747490339X-si1.gif",
+        "reason": "ALTIMG thumbnail/inline scientific notation; 15–20px high,190–194bytes, not supplementary material"
+      }
+    ]
+  },
+  "overlap_scope": "knowledge/raw filename and exact DOI/title/reference text searches; no hit for this paper; not full hash scan",
+  "source_self_audit": "Codex entry self-audit; not human-reviewed",
+  "historical_zero_boundary": "Fig8 zero9/2−5.4h; ground/isomer ordering explicitly unknown in1974 PDF17. No modern37.2keV correction applied.",
+  "writes": "own worker/tmp only",
+  "canonical_writes": false,
+  "raw_writes": false,
+  "git_actions": false,
+  "subagents": false,
+  "outputs": [
+    "report.md",
+    "receipt.json",
+    "source-identity.json",
+    "reading-partition.json"
+  ],
+  "download_skill": "/root/.codex/skills/nature-downloader/SKILL.md",
+  "stop_reason": "Assigned entry/identity task complete; full module reading reserved for parent dispatch"
+}

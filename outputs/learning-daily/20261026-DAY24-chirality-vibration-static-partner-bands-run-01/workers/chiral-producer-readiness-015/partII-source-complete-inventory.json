@@ -1,0 +1,32 @@
+[
+  {
+    "name": "EM.tex",
+    "size": 79259,
+    "regular": true,
+    "sha256": "ce27435b6d600ae8172c0428ac83b020fc4a213d798c6f704879f86c11d87ee7"
+  },
+  {
+    "name": "fig1.eps",
+    "size": 129223,
+    "regular": true,
+    "sha256": "a3df5bb903064cdbb57fa514b38a526e5e1f620d0952ee5b60d89b3ad3e74ac7"
+  },
+  {
+    "name": "fig2.eps",
+    "size": 46143,
+    "regular": true,
+    "sha256": "e02783f2cbf2624e284654e4a23b6fd07a1ab71134692d9b77a0203ca5f35b6e"
+  },
+  {
+    "name": "fig3.eps",
+    "size": 141387,
+    "regular": true,
+    "sha256": "36804c9b971ec3704f8fe35bc43b6999d95e16231e156f2639642c4e318c3633"
+  },
+  {
+    "name": "fig4.eps",
+    "size": 55145,
+    "regular": true,
+    "sha256": "c04a02bf60239d8b9cdb17eee426a43f448c63b545e68aff7b99ed1046143839"
+  }
+]

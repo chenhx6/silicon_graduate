@@ -1,0 +1,38 @@
+{
+  "doi": "10.1016/0375-9474(74)90339-x",
+  "title": "Deformed states of neutron-deficient cerium and neodymium nuclei",
+  "authors": [
+    "J. Gizon",
+    "A. Gizon",
+    "M. R. Maier",
+    "R. M. Diamond",
+    "F. S. Stephens"
+  ],
+  "journal": "Nuclear Physics A",
+  "volume": "222",
+  "issue": "3",
+  "year": 1974,
+  "publication_month": 4,
+  "printed_pages": "557–578",
+  "physical_pages": 22,
+  "physical_to_printed_offset": 556,
+  "pdf_path": "tmp/day24-gizon1974-unique-parity-entry-064/attachment-object-response.pdf",
+  "pdf_bytes": 1264150,
+  "pdf_sha256": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+  "full_xml_path": "tmp/day24-gizon1974-unique-parity-entry-064/fullview-response.xml",
+  "full_xml_sha256": "09621f1eda231b172f22bf3517b1bc2528f7444e49df24fe389f1814c49138be",
+  "access_mode": "publisher_api",
+  "oa_status": "not_checked_api_first",
+  "received": "1973-08-08",
+  "revised": "1974-01-22",
+  "metadata_verified_by": [
+    "Crossref exact record",
+    "Actual PDF first page"
+  ],
+  "primary_nuclides": [
+    "133Ce",
+    "135Ce",
+    "135Nd",
+    "137Nd"
+  ]
+}

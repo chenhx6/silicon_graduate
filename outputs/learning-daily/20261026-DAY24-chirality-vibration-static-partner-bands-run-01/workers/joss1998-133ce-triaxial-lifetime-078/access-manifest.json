@@ -1,0 +1,80 @@
+{
+  "status": "publisher_pdf_downloaded_verified",
+  "source": {
+    "doi": "10.1103/PhysRevC.58.3219",
+    "title": "Lifetime measurements of a triaxial band in 133Ce",
+    "authors": [
+      "D. T. Joss",
+      "E. S. Paul",
+      "R. M. Clark",
+      "I. Y. Lee",
+      "S. J. Asztalos",
+      "J. A. Becker",
+      "L. Bernstein",
+      "B. Cederwall",
+      "M. A. Deleplanque",
+      "R. M. Diamond",
+      "P. Fallon",
+      "L. P. Farris",
+      "K. Hauschild",
+      "I. M. Hibbert",
+      "W. H. Kelly",
+      "A. O. Macchiavelli",
+      "P. J. Nolan",
+      "N. J. O’Brien",
+      "A. T. Semple",
+      "F. S. Stephens",
+      "R. Wadsworth"
+    ],
+    "journal": "Physical Review C",
+    "volume": 58,
+    "issue": 6,
+    "pages": "3219–3222",
+    "year": 1998,
+    "date": "1998-12-01",
+    "received": "1998-06-12",
+    "pdf": "tmp/day24-joss1998-133ce-triaxial-lifetime-078/publisher-pdf.pdf",
+    "bytes": 120604,
+    "pages_physical": 4,
+    "sha256": "81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a",
+    "printed_page_offset": 3218,
+    "metadata_verified": [
+      "Crossref exact",
+      "ENSDF1998JO16",
+      "APS PDF first page"
+    ],
+    "publisher_url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.58.3219"
+  },
+  "attempts": [
+    {
+      "route": "publisher-landing",
+      "url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.58.3219",
+      "status": 200,
+      "final_url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.58.3219",
+      "content_type": "text/html;charset=utf-8",
+      "bytes": 83445,
+      "sha256": "0c45bb680a65425e39f403e461f3c55c740f96156552e5eaea8553c39cf07827",
+      "pdf_signature": false,
+      "saved": "tmp/day24-joss1998-133ce-triaxial-lifetime-078/publisher-landing.html"
+    },
+    {
+      "route": "publisher-pdf",
+      "url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.58.3219",
+      "status": 200,
+      "final_url": "https://journals.aps.org/prc/pdf/10.1103/PhysRevC.58.3219",
+      "content_type": "application/pdf",
+      "bytes": 120604,
+      "sha256": "81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a",
+      "pdf_signature": true,
+      "saved": "tmp/day24-joss1998-133ce-triaxial-lifetime-078/publisher-pdf.pdf"
+    }
+  ],
+  "si": {
+    "requested": true,
+    "status": "not_identified_article_landing_or_body",
+    "scope": "OfficialAPS landing links scanned; body 4 pages; no globalabsence claim",
+    "candidate_count": 0
+  },
+  "credentials_printed_or_changed": false,
+  "oa_license_claim": false
+}

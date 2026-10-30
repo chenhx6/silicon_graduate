@@ -1,0 +1,86 @@
+{
+  "kind": "conditional-classical-algebra-from-actual-v1-parameters-not-HF-producer",
+  "source_locator": "arxiv:nucl-th/0211075v1 PDF2 axial-cranking paragraph/Eqs2\u20134; PDF3 Eqs5\u20137",
+  "parameters": {
+    "ss_over_hbar": 5.43,
+    "sl_over_hbar": 5.0,
+    "Js_hbar2_per_MeV": 8.5,
+    "Jm_hbar2_per_MeV": 31.0,
+    "Jl_hbar2_per_MeV": 20.0
+  },
+  "hbar_omega_crit_MeV": 0.5146390463477404,
+  "hbar_omega_thr_MeV": 1.2822667260220735,
+  "classical_Icrit_over_hbar": 15.953810436779952,
+  "rows": [
+    {
+      "hbar_omega_MeV": 0.5,
+      "real_chiral_solution": false,
+      "omega_m_squared": -0.014853348025711699
+    },
+    {
+      "hbar_omega_MeV": 0.5146390463477404,
+      "real_chiral_solution": false,
+      "omega_sml": [
+        0.24133333333333332,
+        0.0,
+        0.45454545454545453
+      ],
+      "I_sml_over_hbar": [
+        7.481333333333333,
+        0.0,
+        14.09090909090909
+      ],
+      "I_norm_over_hbar": 15.95381043677995,
+      "omega_cross_I_maximum": 4.440892098500626e-16,
+      "constrained_Routhian_Hessian_s_l_diagonal": [
+        22.5,
+        11.0
+      ]
+    },
+    {
+      "hbar_omega_MeV": 0.6,
+      "real_chiral_solution": true,
+      "omega_sml": [
+        0.24133333333333332,
+        0.30845850932384455,
+        0.45454545454545453
+      ],
+      "I_sml_over_hbar": [
+        7.481333333333333,
+        9.56221378903918,
+        14.09090909090909
+      ],
+      "I_norm_over_hbar": 18.599999999999998,
+      "omega_cross_I_maximum": 4.440892098500626e-16,
+      "constrained_Routhian_Hessian_s_l_diagonal": [
+        22.5,
+        11.0
+      ]
+    },
+    {
+      "hbar_omega_MeV": 0.75,
+      "real_chiral_solution": true,
+      "omega_sml": [
+        0.24133333333333332,
+        0.545570024812845,
+        0.45454545454545453
+      ],
+      "I_sml_over_hbar": [
+        7.481333333333333,
+        16.912670769198193,
+        14.09090909090909
+      ],
+      "I_norm_over_hbar": 23.249999999999996,
+      "omega_cross_I_maximum": 8.881784197001252e-16,
+      "constrained_Routhian_Hessian_s_l_diagonal": [
+        22.5,
+        11.0
+      ]
+    }
+  ],
+  "limits": [
+    "Uses frozen spins and constant inertias inferred in that v1; no new experimental threshold",
+    "Icrit=Jm*omega_crit is classical angular-momentum magnitude, not a measured or quantized spin assignment",
+    "Pairs \u00b1omega_m have equal classical energy; no finite quantum tunnel splitting is computed"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://export.arxiv.org/api/query?search_query=au:Chen%20AND%20au:Lv%20AND%20all:136Nd&max_results=5",
+  "curl_exit": 0,
+  "metadata": "200\thttps://export.arxiv.org/api/query?search_query=au:Chen%20AND%20au:Lv%20AND%20all:136Nd&max_results=5\tapplication/atom+xml; charset=utf-8",
+  "error": "",
+  "bytes": 735,
+  "sha256": "84950bb8bd7d38ee059339a50f9204f24b13084500d88476908a54fd513b961f",
+  "entries": []
+}

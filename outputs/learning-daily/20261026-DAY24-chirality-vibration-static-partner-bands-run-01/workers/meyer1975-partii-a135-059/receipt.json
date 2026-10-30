@@ -1,0 +1,121 @@
+{
+  "unit": "meyer1975-partii-a135-059",
+  "run_date": "2026-10-26",
+  "day_index": 24,
+  "status": "assigned6page-mainline-complete-source-self-audited",
+  "source": {
+    "path": "tmp/day24-meyer1975-partii-entry-057/attachment-object-response.pdf",
+    "sha256": "fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d",
+    "bytes": 1368683,
+    "pages": 25,
+    "doi": "10.1016/0375-9474(75)90096-2"
+  },
+  "primed_before_assigned_reading": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/meyer1975-partii-a135-059/primed-recall.md",
+  "blind": false,
+  "previous_exposure": "057text1/14/16/18/19/25 andvisual1/18/19/25;parentPartI054/055notpersonalblindfullread",
+  "actual_text_and_visual_pdf_pages": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "printed_span": [
+    154,
+    159
+  ],
+  "visual_review": {
+    "tables": [
+      4,
+      5
+    ],
+    "figures": [
+      7,
+      8,
+      9
+    ],
+    "high_resolution_crops": [
+      "Table5",
+      "Fig9nodes/topspin"
+    ]
+  },
+  "auxiliary_targeted_reading": [
+    "PartIcanonicalmethodcontractonly",
+    "PartII PDF7Fig2caption/PDF8Fig3captiontext definitions",
+    "WK22PDF66–67Tables5.1–5.2text fornode/edgecrosswalk",
+    "referencesfrom057PDF25reuse"
+  ],
+  "fullPartII_independently_read": false,
+  "primary_cited_experiments_independently_read": false,
+  "atomic_claim_ledger": {
+    "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/meyer1975-partii-a135-059/report.md",
+    "section": "原子 claim ledger",
+    "rows": 18,
+    "recommended_needs_review": true,
+    "human_reviewed": false
+  },
+  "numerical_crosscheck": {
+    "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/meyer1975-partii-a135-059/source-central-crosscheck.json",
+    "kind": "printedsourcecentralarithmeticonly-notmodelreplay",
+    "Ce9over2triaxResidual_keV": 188,
+    "lowestoffsetcandidate_differences_keV": [
+      0.2,
+      0,
+      0.3,
+      0.3
+    ],
+    "high21over2_23over2differences_keV": [
+      33.3,
+      56.8
+    ],
+    "LaExpHigherFirst": [
+      0.9047619047619048,
+      0.9705882352941176
+    ],
+    "Cov_or_significance_estimated": false
+  },
+  "material_boundaries": [
+    "Fig9threeindependent11over2zeros;experimental9over2minus170",
+    "triaxbeta.22/gamma23versusaxialbeta.19/gamma0notgammaonly",
+    "no135Nd/131Baindependentnodedatasetinassignedpages",
+    "noCeM1/delta/tauvalues;Table5LaBonly",
+    "Table5bcalibratedonevenB;theoryerrorgammaonly",
+    "Prbranchingcannotidentifyeachstate",
+    "Ndextrahtoshellassignmentfailureandf7/h9alternative",
+    "oldhighspinCeenergiesnotautomergedbyoffset",
+    "literalPDF14Ngreater82contradictionretained",
+    "rigidshapenotliteral"
+  ],
+  "unresolved": [
+    "Fig9topmodelspindamagedglyph",
+    "Fig9dashed994adjacent1164annotationmeaning",
+    "oldRef26/27primarynodeupdates/campaignmanifest",
+    "Ndabsoluteoffset1keVliteralrounding",
+    "actual2022input/signedEM/responseCov"
+  ],
+  "report": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/meyer1975-partii-a135-059/report.md",
+  "report_sha256": "5c59a5bf11010567c85c32636bf9814414576b9b4ab9550a29931314fca0f942",
+  "writes": [
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/meyer1975-partii-a135-059/primed-recall.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/meyer1975-partii-a135-059/report.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/meyer1975-partii-a135-059/source-central-crosscheck.json",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/meyer1975-partii-a135-059/receipt.json"
+  ],
+  "tmp_prefix": "tmp/day24-meyer1975-partii-a135-059/",
+  "network": false,
+  "producer_or_unknown_attachment_execution": false,
+  "old114_read_or_execute": false,
+  "new_toy_or_tests": false,
+  "canonical_modified": false,
+  "raw_modified": false,
+  "git_mutation": false,
+  "course_or_session_mutation": false,
+  "agents_spawned": false,
+  "verification": {
+    "sourcehash": "matched",
+    "report_and_primed_trailing_whitespace": "none",
+    "crosscheck_and_receipt_json": "valid"
+  },
+  "next_step": "parentcombinesotherPartIIreadingunits;knowledgewritebackminimalclaimswhilepreservingscanning/primaryidentityboundaries"
+}

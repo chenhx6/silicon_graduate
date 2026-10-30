@@ -1,0 +1,130 @@
+{
+  "scope": "worker-owned files only; canonical knowledge writeback delegated to parent",
+  "files": [
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/ce131-table1-state-ledger.json",
+      "bytes": 13045,
+      "sha256": "6567b817fa4dd372fb4d2702e8af2bd3e12fea38e9311ea7c6df4effaead5a81"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/fig1-detail.png",
+      "bytes": 90510,
+      "sha256": "a57267d2598ca27038b31268b3b6a5b525512a3c9f08bfcb650334c8a2a4009b"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/ledger-checks.json",
+      "bytes": 497,
+      "sha256": "897f673083eff65159bada43a05632ec47237fe67130950ed7bf0b2f95511a43"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-01.txt",
+      "bytes": 4194,
+      "sha256": "6730a0448b46ceeff76f62f2e442bf52c5af2429bc4db8f3f2e523f467fd9ef9"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-02.txt",
+      "bytes": 6384,
+      "sha256": "41d17712b274557085f1a3731d0058a7f707ab96168ba6af264b2b2d19e9dc67"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-03.png",
+      "bytes": 266264,
+      "sha256": "0907cb3a7664b70a09ac6badefc9141eff850dedb3e27f9d8b6ef89ed15d07e8"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-03.txt",
+      "bytes": 7301,
+      "sha256": "2e9565a3ac823f6e22741b2d70e66b5b8a803602acaff7eff603355d6873448c"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-04.png",
+      "bytes": 320302,
+      "sha256": "6438574205d836d5efe6430191740270dc37b5fada16cd09e623792f1fb4c6c4"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-04.txt",
+      "bytes": 10646,
+      "sha256": "4a6b9ee48f6cf7a9e3ef453e6abbdba851c639355e0598941ada29e6c738b11c"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-05.png",
+      "bytes": 229246,
+      "sha256": "9d7944ddfde8d11cf59f42b5fb27a6fa1e72df85faff3e198d484d5fc66f9dd8"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-05.txt",
+      "bytes": 4902,
+      "sha256": "3613c3803151e82e75c38f401a2b6e8a8911c90708bbb338fd29ebdf73764416"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-06.png",
+      "bytes": 256038,
+      "sha256": "934d90037d2fa27f59a5d9f14c2c3cb94a48fb0ef3c4dc591343411d3e93ae09"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-06.txt",
+      "bytes": 8112,
+      "sha256": "84079ffc7d04144a995a1fc8ab5acc45ddb1b1940c985ddcedef4c724e21fb3e"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-07.png",
+      "bytes": 292921,
+      "sha256": "d1b06da515dc8e900098ee01e6704ce88f2213354fd965fcf2682db12934f4fa"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-07.txt",
+      "bytes": 7760,
+      "sha256": "7c1eb70c22528c35f29df290a4e509e39afd6999bf072e1a9099d47026c5d263"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-08.png",
+      "bytes": 217978,
+      "sha256": "14be70df17b8227da80549c38cdcbd45832c63073aeb0a893f61677c8e19c6b9"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-08.txt",
+      "bytes": 7432,
+      "sha256": "2b68694bdec85772894564fed377d15c406f83ac617175073bd6271708cff601"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-09.png",
+      "bytes": 299146,
+      "sha256": "966b3a985a5459da7d47859ebc1caf2c2f32a5da53d7ac5e20d1fcf90119a943"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-09.txt",
+      "bytes": 6992,
+      "sha256": "7ece3a05e68e5ec4f10717abc713d1072970536f0f5edde6ebc991a2d92b82c0"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-10.png",
+      "bytes": 324879,
+      "sha256": "d97930807f56125d5634a4548abb0397ee3c789843c2f20515b2665f804ece11"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-10.txt",
+      "bytes": 7665,
+      "sha256": "ba8fe63b0b54b1669f3ced1d6ecedb452330d67a055b03948555686357fe7c76"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/pdf-page-11.txt",
+      "bytes": 2377,
+      "sha256": "9cc65011e3bb5f4e1ee717f45ab3b6a6ccf3b5b619b74c8d957e119f553b445c"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/raw-check.json",
+      "bytes": 280,
+      "sha256": "9400455b99aded3e221ce70fcc026c4dad491fca5bf7c349ea3573de916bee9e"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/report.md",
+      "bytes": 11552,
+      "sha256": "3673c055b5ffb947a4aef28a9d540cd15d057b4dd0064706b717187b09f47740"
+    },
+    {
+      "path": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/singh-state-005/verify_ledger.py",
+      "bytes": 1319,
+      "sha256": "fec71f968627c00000a64c427275e2eec752279363d8fca4a0ade81ecaacf299"
+    }
+  ]
+}

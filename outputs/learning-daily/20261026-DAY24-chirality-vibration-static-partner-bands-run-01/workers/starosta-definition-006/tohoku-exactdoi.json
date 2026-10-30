@@ -1,0 +1,12 @@
+{
+  "key": "tohoku-exactdoi",
+  "url": "https://tohoku.repo.nii.ac.jp/api/records/?q=%2210.1016%2FS0375-9474%2800%2900663-1%22&search_type=1&size=20",
+  "curl_exit": 0,
+  "metadata": "200\thttps://tohoku.repo.nii.ac.jp/api/records/?q=%2210.1016%2FS0375-9474%2800%2900663-1%22&search_type=1&size=20\tapplication/json",
+  "error": "",
+  "bytes": 169,
+  "sha256": "6f7fa114ffad0935311f10e2a92703900db090bd44c55050270466bd0bdebaf2",
+  "pdf_signature": false,
+  "hit_total": 0,
+  "hits": []
+}

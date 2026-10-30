@@ -1,0 +1,10 @@
+{
+  "url": "https://www.research.unipd.it/oai/request?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:www.research.unipd.it:11577/2448302",
+  "curl_exit": 0,
+  "metadata": "200\thttps://www.research.unipd.it/oai/request?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:www.research.unipd.it:11577/2448302\ttext/xml;charset=UTF-8",
+  "error": "",
+  "bytes": 593,
+  "sha256": "91680b317d31a6d21579130dacc23f89635e173f9fa2989ff88d2650884503d9",
+  "pdf_signature": false,
+  "body_excerpt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><?xml-stylesheet type=\"text/xsl\" href=\"static/CINECAstyle.xsl\"?><OAI-PMH xmlns=\"http://www.openarchives.org/OAI/2.0/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd\"><responseDate>2026-10-26T12:55:29Z</responseDate><request verb=\"GetRecord\" identifier=\"oai:www.research.unipd.it:11577/2448302\" metadataPrefix=\"oai_dc\">https://www.research.unipd.it/oai/request</request><error code=\"idDoesNotExist\">The given id does not exist</error></OAI-PMH>"
+}

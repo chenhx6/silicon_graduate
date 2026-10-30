@@ -1,0 +1,32 @@
+{
+  "worker": "073-ce133-evaluated-zero-writeback-review",
+  "completed_utc": "2026-10-26T19:12:43.153382+00:00",
+  "status": "verified-no-op",
+  "substantive_P0_P1_found": false,
+  "required_correction": null,
+  "current_original_scope": {
+    "adopted_lines": [
+      60,
+      85
+    ],
+    "reaction_lines": [
+      15,
+      90
+    ]
+  },
+  "prior069_scope_reused": "headers, official reference pages, NuDat, IAEA positional low rows; not fullA133 evaluation",
+  "objects_reviewed": [
+    "new NNDC2011 source full page",
+    "133Ce blueprint public evaluation section",
+    "WK22-45 and related note",
+    "Gizon source final section",
+    "knowledge/index new entry"
+  ],
+  "N133CE11_D24_008": "confirmed unplaced G records before firstL82; evaluator assigned general uncertainty comments20–28; no modern edge/582 denominator promotion",
+  "no_new_network_database_fetch_or_producer": true,
+  "write_scope": "073 worker directory only",
+  "canonical_raw_PLAN_Bib_Git_credentials_flags_course_session_unchanged": true,
+  "files": {
+    "report.md": "775073799ae44c238637ed546b7e4bc261b6799dae1872682f891f9f3919d2f5"
+  }
+}

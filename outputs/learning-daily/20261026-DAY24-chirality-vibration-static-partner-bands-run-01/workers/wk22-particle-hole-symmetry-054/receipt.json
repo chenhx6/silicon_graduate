@@ -1,0 +1,50 @@
+{
+  "worker": "054-wk22-particle-hole-symmetry",
+  "completed_utc": "2026-10-26T17:53:02.891338+00:00",
+  "status": "reference-body-obtained-scoped-methods-read-and-symmetry-boundary-complete",
+  "body_sha256": "10cb7aca223dcbccb17ee7aa224a7a1c13fb9f1e6e58a04fcdd8ab1e4b888da9",
+  "scope": {
+    "Ref51_continuous_physicalPDF": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Ref51_printed": "114–122",
+    "Ref51_sections": "Chapter2 §2.1–2.6 complete, plus §3 opening paragraph at PDF12 lower boundary",
+    "Ref51_visual_pages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "Ref51_front_metadata_only": [
+      1
+    ],
+    "Ref51_not_read_by_this_worker": "PDF2–3 introduction and Chapter3/Conclusion beyond PDF12 opening; worker055 independently assigned",
+    "WK22_context_text": "physicalPDF44–49 plus references125–127",
+    "WK22_key_visual": [
+      46,
+      48
+    ]
+  },
+  "no_full_paper_deep_read_claimed": true,
+  "independent_remaining_reader": "055",
+  "no_actual_Ce_equal_energy_delta_fit_or_code_validation": true,
+  "write_scope": "054 worker and tmp/day24-wk22-particle-hole-symmetry-054 only",
+  "canonical_raw_PLAN_Bib_Git_course_session_unchanged": true,
+  "files": {
+    "report.md": "e61ea0d8e01eed4268c2551934b191f87a6d5891f14e8e4da13751a321648fd0",
+    "symmetry-contract.json": "178e9efcabb82631419a1c68915faf35a63abf85d6c38010364aece210e5e5be"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": "070",
+  "status": "verified-no-op-with-explicit-scope",
+  "required_corrections": [],
+  "reviewed_files": [
+    {
+      "path": "knowledge/sources/gizon-1974-deformed-states-cerium-neodymium.md",
+      "sha256": "cd1163c420c356acae2c9beb9bfae9e11bbd0af1629e7c165257a162a827bf33",
+      "bytes": 13318
+    },
+    {
+      "path": "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+      "sha256": "c833467ac2f9f897af3e844ee9f1c43c8bec36725abc97765c9fd70e3364629a",
+      "bytes": 63342
+    },
+    {
+      "path": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
+      "sha256": "fbb7be3df8075e17c561bbe6d1ad6b57e4731f7d1a6d248d3aad318ca1912c73",
+      "bytes": 27716
+    },
+    {
+      "path": "knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md",
+      "sha256": "6437e2e98905e54590429cd035ae6511c5b639c68086b7c4f3e0e76203d3c8cd",
+      "bytes": 44894
+    },
+    {
+      "path": "knowledge/sources/meyer-ter-vehn-1975-odd-a-unique-parity-comparison.md",
+      "sha256": "51aa2c55d0e82710c377c534e828c9dd6013f29218eed7e534936ba6614849f6",
+      "bytes": 12176
+    }
+  ],
+  "checks": 13,
+  "raw_source_sha256": "9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac",
+  "fresh_raw_visual_pages": [
+    14,
+    16,
+    17,
+    18,
+    19
+  ],
+  "prior_direct_scope": "066methodsPDF1–4/135CePDF7–11",
+  "whole_article_independently_read": false,
+  "peer_report": "067completedreportread; no numericalconflict",
+  "source_self_audit": true,
+  "human_review": false,
+  "canonical_writes": false,
+  "raw_writes": false,
+  "git_actions": false,
+  "producer_actions": false,
+  "network_calls": 0,
+  "subagents": false,
+  "outputs": [
+    "report.md",
+    "review-ledger.json",
+    "receipt.json"
+  ]
+}

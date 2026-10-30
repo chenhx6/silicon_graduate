@@ -1,0 +1,331 @@
+{
+  "source_body": "tmp/day24-critical-tac-007/arxiv-0211075v1.response",
+  "scope": "Fixed positive diagonal inertias and two frozen nonzero s/l gyros; hbar units retained symbolically. No HF/RPA/quantum or nuclear fit.",
+  "scalar_results": {
+    "omega_s": 0.24133333333333332,
+    "omega_l": 0.45454545454545453,
+    "omega_critical": 0.5146390463477404,
+    "continuous_Icrit": 15.953810436779952,
+    "omega_planar_threshold": 1.2822667260220735,
+    "medium_component_at_omega_06": 0.30845850932384455,
+    "Fig6_reduced_energy_constant": -1.7915836363636364
+  },
+  "ap_branches": [
+    {
+      "omega": 0.5146390463477404,
+      "sign": 1,
+      "omega_vector": [
+        0.24133333333333332,
+        0.0,
+        0.45454545454545453
+      ],
+      "I_vector": [
+        7.481333333333333,
+        0.0,
+        14.09090909090909
+      ],
+      "I_norm": 15.95381043677995,
+      "routhian_curvatures": [
+        0.0,
+        19.97112713719812
+      ],
+      "energy_curvatures": [
+        0.0,
+        0.07051327158503637
+      ]
+    },
+    {
+      "omega": 0.6,
+      "sign": -1,
+      "omega_vector": [
+        0.24133333333333332,
+        -0.30845850932384455,
+        0.45454545454545453
+      ],
+      "I_vector": [
+        7.481333333333333,
+        -9.56221378903918,
+        14.09090909090909
+      ],
+      "I_norm": 18.599999999999998,
+      "routhian_curvatures": [
+        3.217730077783745,
+        20.329027497973833
+      ],
+      "energy_curvatures": [
+        0.005432741231817263,
+        0.07370125527978832
+      ]
+    },
+    {
+      "omega": 0.6,
+      "sign": 1,
+      "omega_vector": [
+        0.24133333333333332,
+        0.30845850932384455,
+        0.45454545454545453
+      ],
+      "I_vector": [
+        7.481333333333333,
+        9.56221378903918,
+        14.09090909090909
+      ],
+      "I_norm": 18.599999999999998,
+      "routhian_curvatures": [
+        3.217730077783745,
+        20.329027497973833
+      ],
+      "energy_curvatures": [
+        0.005432741231817263,
+        0.07370125527978832
+      ]
+    },
+    {
+      "omega": 0.75,
+      "sign": -1,
+      "omega_vector": [
+        0.24133333333333332,
+        -0.545570024812845,
+        0.45454545454545453
+      ],
+      "I_vector": [
+        7.481333333333333,
+        -16.912670769198193,
+        14.09090909090909
+      ],
+      "I_norm": 23.249999999999996,
+      "routhian_curvatures": [
+        6.281853287175888,
+        20.848071561308952
+      ],
+      "energy_curvatures": [
+        0.01035472259449877,
+        0.07741816989778652
+      ]
+    },
+    {
+      "omega": 0.75,
+      "sign": 1,
+      "omega_vector": [
+        0.24133333333333332,
+        0.545570024812845,
+        0.45454545454545453
+      ],
+      "I_vector": [
+        7.481333333333333,
+        16.912670769198193,
+        14.09090909090909
+      ],
+      "I_norm": 23.249999999999996,
+      "routhian_curvatures": [
+        6.281853287175888,
+        20.848071561308952
+      ],
+      "energy_curvatures": [
+        0.01035472259449877,
+        0.07741816989778652
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "direct-planar-minimum-versus-Eq5",
+      "passed": true,
+      "optimizer_mu": 14.408088657961667,
+      "direct_omega": 1.282266726022153,
+      "formula_omega": 1.2822667260220735
+    },
+    {
+      "name": "planar-threshold-distinct-from-aplanar-onset",
+      "passed": true,
+      "omega_planar_threshold": 1.2822667260220735,
+      "omega_aplanar_onset": 0.5146390463477404
+    },
+    {
+      "name": "Euler-and-Legendre-omega0.514639046-sign1",
+      "passed": true,
+      "cross_norm": 4.440892098500626e-16,
+      "I_norm": 15.95381043677995,
+      "H_from_velocity": 2.3136432580348942,
+      "H_from_momentum": 2.313643258034894
+    },
+    {
+      "name": "threshold-has-one-zero-tangent-curvature",
+      "passed": true,
+      "routhian_curvatures": [
+        0.0,
+        19.97112713719812
+      ],
+      "energy_curvatures": [
+        0.0,
+        0.07051327158503637
+      ]
+    },
+    {
+      "name": "Fig6-reference-subtraction-omega0.514639046-sign1",
+      "passed": true,
+      "H_minus_I2_over_2Jm": -1.7915836363636366,
+      "analytic_constant": -1.7915836363636364
+    },
+    {
+      "name": "Euler-and-Legendre-omega0.600000000-sign-1",
+      "passed": true,
+      "cross_norm": 4.440892098500626e-16,
+      "I_norm": 18.599999999999998,
+      "H_from_velocity": 3.7884163636363626,
+      "H_from_momentum": 3.788416363636362
+    },
+    {
+      "name": "positive-tangent-curvatures-omega0.6-sign-1",
+      "passed": true,
+      "routhian_curvatures": [
+        3.217730077783745,
+        20.329027497973833
+      ],
+      "energy_curvatures": [
+        0.005432741231817263,
+        0.07370125527978832
+      ]
+    },
+    {
+      "name": "Fig6-reference-subtraction-omega0.600000000-sign-1",
+      "passed": true,
+      "H_minus_I2_over_2Jm": -1.791583636363637,
+      "analytic_constant": -1.7915836363636364
+    },
+    {
+      "name": "Euler-and-Legendre-omega0.600000000-sign1",
+      "passed": true,
+      "cross_norm": 4.440892098500626e-16,
+      "I_norm": 18.599999999999998,
+      "H_from_velocity": 3.7884163636363626,
+      "H_from_momentum": 3.788416363636362
+    },
+    {
+      "name": "positive-tangent-curvatures-omega0.6-sign1",
+      "passed": true,
+      "routhian_curvatures": [
+        3.217730077783745,
+        20.329027497973833
+      ],
+      "energy_curvatures": [
+        0.005432741231817263,
+        0.07370125527978832
+      ]
+    },
+    {
+      "name": "Fig6-reference-subtraction-omega0.600000000-sign1",
+      "passed": true,
+      "H_minus_I2_over_2Jm": -1.791583636363637,
+      "analytic_constant": -1.7915836363636364
+    },
+    {
+      "name": "Euler-and-Legendre-omega0.750000000-sign-1",
+      "passed": true,
+      "cross_norm": 9.930136612989092e-16,
+      "I_norm": 23.249999999999996,
+      "H_from_velocity": 6.9271663636363625,
+      "H_from_momentum": 6.927166363636362
+    },
+    {
+      "name": "positive-tangent-curvatures-omega0.75-sign-1",
+      "passed": true,
+      "routhian_curvatures": [
+        6.281853287175888,
+        20.848071561308952
+      ],
+      "energy_curvatures": [
+        0.01035472259449877,
+        0.07741816989778652
+      ]
+    },
+    {
+      "name": "Fig6-reference-subtraction-omega0.750000000-sign-1",
+      "passed": true,
+      "H_minus_I2_over_2Jm": -1.7915836363636366,
+      "analytic_constant": -1.7915836363636364
+    },
+    {
+      "name": "Euler-and-Legendre-omega0.750000000-sign1",
+      "passed": true,
+      "cross_norm": 9.930136612989092e-16,
+      "I_norm": 23.249999999999996,
+      "H_from_velocity": 6.9271663636363625,
+      "H_from_momentum": 6.927166363636362
+    },
+    {
+      "name": "positive-tangent-curvatures-omega0.75-sign1",
+      "passed": true,
+      "routhian_curvatures": [
+        6.281853287175888,
+        20.848071561308952
+      ],
+      "energy_curvatures": [
+        0.01035472259449877,
+        0.07741816989778652
+      ]
+    },
+    {
+      "name": "Fig6-reference-subtraction-omega0.750000000-sign1",
+      "passed": true,
+      "H_minus_I2_over_2Jm": -1.7915836363636366,
+      "analytic_constant": -1.7915836363636364
+    },
+    {
+      "name": "below-threshold-no-real-medium-component",
+      "passed": true,
+      "radicand": -0.014853348025711699
+    },
+    {
+      "name": "planar-A-tangent-sign-omega0.5",
+      "passed": true,
+      "mu": 31.363736068405764,
+      "curvatures": [
+        0.363736068405764,
+        20.269179794642714
+      ]
+    },
+    {
+      "name": "planar-A-tangent-sign-omega0.6",
+      "passed": true,
+      "mu": 29.25953060782063,
+      "curvatures": [
+        -1.7404693921793708,
+        18.57398466766002
+      ]
+    },
+    {
+      "name": "inertia-rescaling-limit",
+      "passed": true
+    },
+    {
+      "name": "gyro-rescaling-limit",
+      "passed": true
+    },
+    {
+      "name": "reduced-positive-inertia-gaps-raise-threshold",
+      "passed": true
+    },
+    {
+      "name": "enlarged-positive-inertia-gaps-lower-threshold",
+      "passed": true
+    },
+    {
+      "name": "zero-one-gyro-does-not-give-three-nonzero-components",
+      "passed": true
+    }
+  ],
+  "passed": 25,
+  "units": {
+    "omega": "MeV/hbar",
+    "I": "hbar",
+    "J_and_mu": "hbar^2/MeV",
+    "energy": "MeV"
+  },
+  "boundaries": [
+    "Numerical tolerances are floating-point checks, not physical uncertainty.",
+    "Threshold zero curvature is not a calculated quantum/RPA zero mode.",
+    "Conditional Icrit is not a quantum-spin assignment.",
+    "Gyro/mass deformation variation and singular equal-inertia limits require their own model."
+  ]
+}

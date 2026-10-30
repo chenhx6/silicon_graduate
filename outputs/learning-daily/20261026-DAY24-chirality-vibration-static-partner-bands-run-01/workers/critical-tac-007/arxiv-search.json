@@ -1,0 +1,36 @@
+{
+  "key": "arxiv-search",
+  "utc": "2026-10-26T11:51:10.222080+00:00",
+  "url": "https://export.arxiv.org/api/query?search_query=au:Olbratowski%20AND%20ti:critical&max_results=5",
+  "curl_exit": 0,
+  "metadata": "200\thttps://export.arxiv.org/api/query?search_query=au:Olbratowski%20AND%20ti:critical&max_results=5\tapplication/atom+xml; charset=utf-8",
+  "error": "",
+  "bytes": 2190,
+  "sha256": "6b06cee267cd9644ecbcab67ba54cf6099357ad3ebe0981d774fda0c60780873",
+  "pdf_signature": false,
+  "entries": [
+    {
+      "id": "http://arxiv.org/abs/nucl-th/0211075v1",
+      "title": "Critical frequency in nuclear chiral rotation",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/nucl-th/0211075v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/nucl-th/0211075v1",
+          "rel": "related",
+          "type": "application/pdf",
+          "title": "pdf"
+        },
+        {
+          "rel": "related",
+          "href": "https://doi.org/10.1103/PhysRevLett.93.052501",
+          "title": "doi"
+        }
+      ],
+      "summary": "  Within the cranked Skyrme-Hartree-Fock approach the self-consistent solutions have been obtained for planar and chiral rotational bands in 132La. It turns out that the chiral band cannot exist below some critical rotational frequency which in the present case equals omega=0.6MeV. The appearance of the critical frequency is explained in terms of a simple classical model of two gyroscopes coupled to a triaxial rigid body."
+    }
+  ]
+}

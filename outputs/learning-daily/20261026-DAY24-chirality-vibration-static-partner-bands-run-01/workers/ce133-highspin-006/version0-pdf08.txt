@@ -1,0 +1,37 @@
+                                                                                                     7
+
+
+    http://link.aps.org/doi/10.1103/PhysRevC.73.037303.
+[29] J. Peng, H. Sagawa,  S. Q. Zhang,  J. M. Yao, Y. Zhang, and J. Meng, Phys. Rev. C 77, 024309 (2008), URL
+    http://link.aps.org/doi/10.1103/PhysRevC.77.024309.
+[30] J. Li, S. Q. Zhang, and J. Meng, Phys. Rev. C 83, 037301 (2011).
+[31] Yu. Khazov,  A. Rodionov, and  F. G. Kondev,  Nucl. Data  Sheets 112,  855   (2011), ISSN  0090-3752, URL
+    http://www.sciencedirect.com/science/article/pii/S0090375211000202.
+[32] I-Yang Lee, Nucl. Phys. A 520, c641 (1990), ISSN 0375-9474, URL http://www.sciencedirect.com/science/article/pii/0375947490
+[33] D.  C.  Radford,   Nucl.  Instrum.  Meth.  Phys.  Res.  A  361,   297     (1995),  ISSN   0168-9002,  URL
+    http://www.sciencedirect.com/science/article/pii/0168900295001832.
+[34] R. Ma, E. S. Paul, C. W. Beausang,  S. Shi, N. Xu, and D. B. Fossan, Phys. Rev. C 36, 2322 (1987), URL
+    http://link.aps.org/doi/10.1103/PhysRevC.36.2322.
+[35] K.  Hauschild,  R.  Wadsworth,  R. M.  Clark,  P.  Fallon,  D.  B.  Fossan,   I. M.  Hibbert,  A. O.  Macchiavelli,
+     P.  J.  Nolan,  H.  Schnare,  A.  T.  Semple,  et  al.,  Phys.  Lett. B  353,  438    (1995),  ISSN  0370-2693, URL
+    http://www.sciencedirect.com/science/article/pii/037026939500601G.
+[36] K. Hauschild, R. Wadsworth, R. M. Clark,  I. M. Hibbert, P. Fallon, A. O. Macchiavelli, D. B. Fossan, H. Schnare,
+      I. Thorslund, P. J. Nolan, et al., Phys. Rev. C 54, 613 (1996), URL http://link.aps.org/doi/10.1103/PhysRevC.54.613.
+[37] A.   Kr¨amer-Flecken,   T.  Morek,   R.  M.   Lieder,  W.   Gast,   G.  Hebbinghaus,   H.  M.   J¨ager,   and
+   W.   Urban,   Nucl.   Instrum.   Meth.   Phys.   Res.  A   275,   333      (1989),   ISSN   0168-9002,  URL
+    http://www.sciencedirect.com/science/article/pii/0168900289907067.
+[38] C. J. Chiara, M. Devlin, E. Ideguchi, D. R. LaFosse, F. Lerma, W. Reviol, S. K. Ryu, D. G. Sarantites, O. L. Pechenaya,
+    C. Baktash, et al., Phys. Rev. C 75, 054305 (2007), URL http://link.aps.org/doi/10.1103/PhysRevC.75.054305.
+[39] V.  Iacob  and  G.  Duchene,  Nucl.  Instrum.  Meth.  Phys.  Res. A  399,  57    (1997),  ISSN  0168-9002, URL
+    http://www.sciencedirect.com/science/article/pii/S0168900297008723.
+[40] A. D. Ayangeakaa, Ph.D. thesis, University of Notre Dame (2013).
+[41] K. Starosta, AIP Conf. Proc. 764, 77 (2005), URL http://dx.doi.org/10.1063/1.1905294.
+[42] W.  H.  Long,   J.  Meng,  N.  V.  Giai,  and  Shan-Gui  Zhou,  Phys.  Rev. C  69,  034319  (2004),  URL
+    http://link.aps.org/doi/10.1103/PhysRevC.69.034319.
+[43] B.  Qi,  S.  Q.  Zhang,  S.  Y.  Wang,   J.  Meng,  and  T.  Koike,  Phys.  Rev. C  83,  034303  (2011), URL
+    http://link.aps.org/doi/10.1103/PhysRevC.83.034303.
+[44] B.  Qi,  S.  Q.  Zhang,  S.  Y. Wang,  J. M.  Yao,  and  J.  Meng,  Phys.  Rev. C  79,  041302  (2009), URL
+    http://link.aps.org/doi/10.1103/PhysRevC.79.041302.
+[45] P. Joshi, M. P. Carpenter, D. B. Fossan, T. Koike, E. S. Paul, G. Rainovski, K. Starosta, C. Vaman, and R. Wadsworth,
+    Phys. Rev. Lett. 98, 102501 (2007), URL http://link.aps.org/doi/10.1103/PhysRevLett.98.102501.
+[46] P. Ring and P. Schuck, The Nuclear Many-Body Problem (Springer, 2004), ISBN 9783540212065.

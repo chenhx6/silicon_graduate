@@ -1,0 +1,28 @@
+{
+  "scope": "printed-rounded-operator-coefficients-only-not-B-rate",
+  "formula": "P l P=10j/11; P s P=j/11; a=(cp+cn)/2;b=(cp-cn)/2",
+  "source_locators": [
+    "physicalPDF4 Eq6",
+    "physicalPDF9 Fig2caption"
+  ],
+  "values": [
+    {
+      "gR": "1/2",
+      "cp": 0.7134545454545455,
+      "cn": -0.7083636363636364,
+      "a": 0.0025454545454545456,
+      "b": 0.7109090909090909,
+      "coefficient_square_ratio": 78000.51020408163
+    },
+    {
+      "gR": "11/26",
+      "cp": 0.7903776223776223,
+      "cn": -0.6314405594405594,
+      "a": 0.07946853146853147,
+      "b": 0.7109090909090909,
+      "coefficient_square_ratio": 80.02722554201743
+    }
+  ],
+  "actual_eigenstates_or_B_computed": false,
+  "old_producer_run": false
+}

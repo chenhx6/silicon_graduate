@@ -1,0 +1,94 @@
+{
+  "unit": "bengtsson1985-parameter-entry-046",
+  "run_date": "2026-10-26",
+  "day_index": 24,
+  "status": "entry-gate-complete-full-source-reading-not-yet-done",
+  "doi": "10.1016/0375-9474(85)90541-X",
+  "crossref_identity": "matched title/authors/1985/NPA436(1)14–82",
+  "file": "tmp/day24-bengtsson1985-046/attachment-object-response.pdf",
+  "bytes": 4596459,
+  "sha256": "605e785734279f1a7a6dfd234f1d3ff6b136f983b134ccf9d6b766f3b027d6b8",
+  "pages": 69,
+  "printed_page_span": [
+    14,
+    82
+  ],
+  "access_mode": "publisher_api",
+  "oa_status": "not_checked_api_first",
+  "http_attempt_count": 2,
+  "http_failures": 0,
+  "route": "ArticleAPI FULL XML exact attachment EID then standard Object API",
+  "si_requested": true,
+  "si_status": "not_identified_in_full_xml_attachment_inventory",
+  "known_reading": {
+    "direct_text_pdf_pages": [
+      1,
+      5,
+      6,
+      69
+    ],
+    "visual_pdf_pages": [
+      1,
+      6,
+      69
+    ],
+    "machine_only_locator_scan": "all69pages; not counted as reading"
+  },
+  "kappa_mu_table": {
+    "physical_pdf_page": 6,
+    "printed_page": 19,
+    "label": "Table1",
+    "neighbor_scope": "PDF5–6§2.1.1; Table1N_rot mapping requires rotating-basis reading"
+  },
+  "next_read_units": [
+    {
+      "pdf_pages": [
+        1,
+        16
+      ],
+      "purpose": "complete method/parameters/basis/configuration/crossing/energy contract"
+    },
+    {
+      "pdf_pages": [
+        17,
+        46
+      ],
+      "purpose": "applications/continuum/termination/coincidence evidence boundaries"
+    },
+    {
+      "pdf_pages": [
+        47,
+        69
+      ],
+      "purpose": "discrete states/general limitations/references; prioritize§8.4 130CePDF60"
+    }
+  ],
+  "overlap": "no exact1985source located; distinct from1978PhysRep45review",
+  "actual2022_input_verified": false,
+  "full_source_summary_or_certification": false,
+  "course_credit": false,
+  "report": "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/bengtsson1985-parameter-entry-046/report.md",
+  "report_sha256": "03a69c89bd7771998fe1fa24354dbff02d00aff140323de27d0e5936f106670e",
+  "writes": [
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/bengtsson1985-parameter-entry-046/report.md",
+    "outputs/learning-daily/20261026-DAY24-chirality-vibration-static-partner-bands-run-01/workers/bengtsson1985-parameter-entry-046/receipt.json"
+  ],
+  "tmp_prefix": "tmp/day24-bengtsson1985-046/",
+  "raw_modified": false,
+  "canonical_modified": false,
+  "git_mutation": false,
+  "course_mutation": false,
+  "session_mutation": false,
+  "private_credentials_read_via_existing_providerCredentials": true,
+  "secret_printed_or_written": false,
+  "credentials_modified": false,
+  "external_skill_modified": false,
+  "producer_or_unknown_code_executed": false,
+  "old114_read_or_executed": false,
+  "verification": {
+    "pdf_hash_size_pages_signature": "pass",
+    "report_trailing_whitespace": "none",
+    "json_parse": "pass"
+  },
+  "next_action": "Parent selects full-original reading division; no user resource/SI request needed."
+}

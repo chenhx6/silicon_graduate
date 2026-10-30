@@ -1,0 +1,49 @@
+{
+  "kind": "Directoriginaltable clockconversion and unit/version audit; no newfit",
+  "source_sha256": "39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df",
+  "definition": "Standarddecaydictionary T1/2=ln(2)*tau; originaltables literalτ(ps), article neverlabels76asT1/2",
+  "rows": [
+    {
+      "Ji": "11/2−",
+      "tau_ps": 76,
+      "tau_uncertainty_ps": 3,
+      "T_half_ps": 52.67918572255584,
+      "T_half_uncertainty_ps": 2.0794415416798357
+    },
+    {
+      "Ji": "13/2−",
+      "tau_ps": 7.9,
+      "tau_uncertainty_ps": 0.5,
+      "T_half_ps": 5.475862726423568,
+      "T_half_uncertainty_ps": 0.34657359027997264
+    },
+    {
+      "Ji": "15/2−",
+      "tau_ps": 3.8,
+      "tau_uncertainty_ps": 0.8,
+      "T_half_ps": 2.633959286127792,
+      "T_half_uncertainty_ps": 0.5545177444479562
+    }
+  ],
+  "ENSDF_correspondence": {
+    "inherited_record": "069adopted.ensdf line79",
+    "Ei_keV": 207.4,
+    "Ji": "11/2−",
+    "gamma": 170.2,
+    "T_half_ps": 52.7,
+    "error_ps": 2.1,
+    "primary_match": "OriginalTableII11/2−→9/2−170keV τ76(3); roundedT1/252.7(2.1); no newindependentmeasurement byconversion"
+  },
+  "mapping_boundary": "OriginalFig2printsJpi/gammanetwork,notabsoluteEx; modern207.4 binding uses069evaluation, not originalabsoluteEi",
+  "E1_conflict": {
+    "tableIII": {
+      "17/2+->15/2−1269keV": "23microW.u.",
+      "19/2+->17/2−954keV": "42microW.u."
+    },
+    "final_text_respectively": {
+      "19/2+->17/2−": "23microW.u.",
+      "17/2+->15/2−": "42microW.u."
+    }
+  },
+  "new_statistical_inference": false
+}

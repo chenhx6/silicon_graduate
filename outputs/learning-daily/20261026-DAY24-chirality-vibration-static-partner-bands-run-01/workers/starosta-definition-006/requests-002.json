@@ -1,0 +1,40 @@
+[
+  {
+    "key": "ddg",
+    "url": "https://html.duckduckgo.com/html/?q=%22Starosta%22+%22Chirality+in%22+%22682%22",
+    "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Starosta%22+%22Chirality+in%22+%22682%22 (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x746787d1d280>, 'Connection to html.duckduckgo.com timed out. (connect timeout=8)'))"
+  },
+  {
+    "key": "niitohoku",
+    "url": "https://tohoku.repo.nii.ac.jp/search?search_type=2&q=Chirality",
+    "final_url": "https://tohoku.repo.nii.ac.jp/search?search_type=2&q=Chirality",
+    "http": 400,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 192,
+    "sha256": "808f15c49092c00771dc7ba5be07f5ef07cb136efe9737d354884776e83cf858"
+  },
+  {
+    "key": "sfu",
+    "url": "https://www.sfu.ca/physics/nuclear/",
+    "final_url": "https://www.sfu.ca/physics/nuclear/",
+    "http": 404,
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 54120,
+    "sha256": "0ba8acde1f771a3885d983ae4eeb1b260e709715cb7f3c676e29df38f735d8ce"
+  },
+  {
+    "key": "koike",
+    "url": "https://www.bh.phys.tohoku.ac.jp/~koike/",
+    "error": "HTTPSConnectionPool(host='www.bh.phys.tohoku.ac.jp', port=443): Max retries exceeded with url: /~koike/ (Caused by NameResolutionError(\"HTTPSConnection(host='www.bh.phys.tohoku.ac.jp', port=443): Failed to resolve 'www.bh.phys.tohoku.ac.jp' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+    "key": "cinii",
+    "url": "https://cir.nii.ac.jp/crid?q=%22Chirality+in+odd%22",
+    "error": "HTTPSConnectionPool(host='cir.nii.ac.jp', port=443): Max retries exceeded with url: /crid?q=%22Chirality+in+odd%22 (Caused by ConnectTimeoutError(<HTTPSConnection(host='cir.nii.ac.jp', port=443) at 0x746787d1dbe0>, 'Connection to cir.nii.ac.jp timed out. (connect timeout=8)'))"
+  },
+  {
+    "key": "jstor",
+    "url": "https://www.osti.gov/search/semantic:%22Chirality%20in%20odd%22",
+    "error": "HTTPSConnectionPool(host='www.osti.gov', port=443): Max retries exceeded with url: /search/semantic:%22Chirality%20in%20odd%22 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.osti.gov', port=443) at 0x746788474f80>, 'Connection to www.osti.gov timed out. (connect timeout=8)'))"
+  }
+]

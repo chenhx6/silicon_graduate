@@ -1,0 +1,36 @@
+{
+  "kind": "literal-source-tuple-and-conditional-energy-closure-not-correction",
+  "source": "rawarxiv1907.12809v1 PDF2/7–9; cachedVoR024314-2/3/4",
+  "read_tuples": [
+    {
+      "D2_21over2_Ei": 2350.8,
+      "D2_23over2_printed_Ei": 2588.3,
+      "dipole_23to21": 207.5,
+      "D2_25over2_Ei": 2801.5,
+      "dipole_25to23": 243.2,
+      "D2_19over2_Ei": 2158.4,
+      "crossover_23to19": 399.9
+    },
+    {
+      "D4_23over2_Ei": 2940.0,
+      "line_to_D2_quoted_in_prose": 589.2,
+      "D4_25over2_Ei": 3207.6,
+      "line_to_D2_quoted_in_prose2": 649.3,
+      "line_to_D3_19over2": 596.5,
+      "D3_19over2_Ei": 2343.5
+    }
+  ],
+  "conditional_closures": {
+    "2350.8+207.5": 2558.3,
+    "2801.5-243.2": 2558.3,
+    "2158.4+399.9": 2558.3,
+    "3207.6-649.3": 2558.3,
+    "2940.0-589.2": 2350.8,
+    "2940.0-596.5": 2343.5
+  },
+  "limits": [
+    "2558.3keV is a common conditional closure value, not a new measured/corrected level",
+    "Do not choose which printed field or target-band/spin label to amend without original analysis/version clarification",
+    "Family-wide positive-parity evidence and genuine experimental support are retained"
+  ]
+}

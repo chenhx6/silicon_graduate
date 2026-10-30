@@ -1,0 +1,547 @@
+{
+  "source": {
+    "title": "Collective model description of transitional odd-A nuclei (II)",
+    "author": "J. Meyer-ter-Vehn",
+    "journal": "Nuclear Physics A249 (1975)141–165",
+    "doi": "10.1016/0375-9474(75)90096-2",
+    "pdf": "tmp/day24-meyer1975-partii-entry-057/attachment-object-response.pdf",
+    "sha256": "fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d",
+    "pages": 25,
+    "bytes": 1368683
+  },
+  "unit": "task060",
+  "scope": {
+    "native_text_actually_read": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "page_visuals_actually_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "printed_page_offset": 140,
+    "whole_article_read": false
+  },
+  "claims": [
+    {
+      "id": "MTV75II-060-01",
+      "physical_pdf_pages": [
+        1,
+        2
+      ],
+      "printed_pages": [
+        141,
+        142
+      ],
+      "locator": "§1",
+      "evidence_type": "author_scope",
+      "claim": "Fixed beta/gamma rigid triaxial shapes are an approximation to actual nuclear wavefunctions.",
+      "boundary": "Model success does not measure the absence of shape fluctuations.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-02",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        142
+      ],
+      "locator": "§1 paragraphs2–3",
+      "evidence_type": "author_scope",
+      "claim": "Goal is nearly correct level order below 2Δ and smooth systematic trends; quantitative agreement is not expected.",
+      "boundary": "Do not transfer the calculation to unrestricted high-spin/multiquasiparticle states.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-03",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        142
+      ],
+      "locator": "§1 omitted effects",
+      "evidence_type": "author_interpretation",
+      "claim": "Beta/gamma fluctuations are proposed to compress spectra and affect transition probabilities; experimental spectra are compressed relative to calculations in all examples discussed.",
+      "boundary": "Softness attribution is an interpretation; no fluctuation amplitude is measured here.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-04",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        142
+      ],
+      "locator": "§1 omitted effects",
+      "evidence_type": "model_boundary",
+      "claim": "Coriolis attenuation, odd-particle polarization, pair blocking, other-j-shell mixing and three-or-more-quasiparticle configurations are omitted or approximate.",
+      "boundary": "Single-j comparison cannot independently rule these alternatives out.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-05",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        143
+      ],
+      "locator": "§2 gamma/reference-core rule",
+      "evidence_type": "parameter_provenance",
+      "claim": "Gamma is obtained from the second 2+ relative to the nearest ground-band member, usually first 4+; particle spectra choose A−1, holes A+1.",
+      "boundary": "Author justifies selection by the same number of unbroken particle/hole pairs; the rule is conditional on particle/hole identification.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-06",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        144
+      ],
+      "locator": "§2 first paragraph",
+      "evidence_type": "parameter_provenance",
+      "claim": "Even-core spectra are symmetric under gamma↔60°−gamma; the side of 30° is selected using the odd-A spectrum.",
+      "boundary": "Gamma side is not an independent prediction from even-core ratios.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-07",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        144
+      ],
+      "locator": "§2 beta formula",
+      "evidence_type": "parameter_provenance",
+      "claim": "Beta uses the average first-2+ energy of both even neighbors: beta=sqrt[1224 X(gamma)/(A^(7/3) Ebar_2+)], Ebar in MeV.",
+      "boundary": "This averaging rule differs from the one-neighbor gamma choice and is acknowledged as an empirical compromise.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-08",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        143
+      ],
+      "locator": "Table1 gamma30 row",
+      "evidence_type": "model_tabulation",
+      "claim": "At gamma30°, E(2_1)/E(2_2)=0.500, E(4_1)/E(2_2)=1.33, E(6_1)/E(2_2)=2.50 and X=1.50.",
+      "boundary": "These are irrotational-rotor model ratios, not measured energies.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-09",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        144
+      ],
+      "locator": "§2 Fermi estimate and adjustment",
+      "evidence_type": "parameter_provenance",
+      "claim": "Lambda_F is estimated from an axial Nilsson diagram; when it penetrates the j shell it is fine-adjusted by approximately fitting the first (j−1) odd-A state.",
+      "boundary": "The term essentially parameter-free does not mean every parameter is target-data independent.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-10",
+      "physical_pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        144
+      ],
+      "locator": "§2 scaled Fermi definitions",
+      "evidence_type": "convention",
+      "claim": "Figures2–9 use dimensionless scaled lambda: particles (lambda_F−epsilon1)/(epsilon2−epsilon1); holes (epsilon_(j+1/2)−lambda_F)/(epsilon_(j+1/2)−epsilon_(j−1/2)).",
+      "boundary": "Do not identify plotted lambda with a MeV-valued chemical potential or transfer its zero to WK22.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-11",
+      "physical_pdf_pages": [
+        5,
+        6
+      ],
+      "printed_pages": [
+        145,
+        146
+      ],
+      "locator": "Fig1 caption and survey",
+      "evidence_type": "uncertainty_boundary",
+      "claim": "Delta_gamma is the largest difference between the standard gamma and gamma from other Table1 ratios, not a statistical standard deviation. Only Os permits better than1° precision; heavy Pt is near30° with side uncertain.",
+      "boundary": "",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-12",
+      "physical_pdf_pages": [
+        6
+      ],
+      "printed_pages": [
+        146
+      ],
+      "locator": "§3.1 core assignment paragraph",
+      "evidence_type": "parameter_provenance",
+      "claim": "187Ir h9/2 proton-particle spectrum uses186Os gamma≈16°; h11/2 proton-hole spectrum uses188Pt gamma24°; Au h9/2 particles use Pt and h11/2 holes Hg; Tl h9/2 particles use Hg.",
+      "boundary": "The two negative-parity families in the same odd nucleus need not share identical effective core parameters.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-13",
+      "physical_pdf_pages": [
+        6,
+        7
+      ],
+      "printed_pages": [
+        146,
+        147
+      ],
+      "locator": "§3.1 systematic discrepancy",
+      "evidence_type": "author_interpretation",
+      "claim": "Overall compression is the largest systematic discrepancy and is said not removable by fitting free parameters or varying standard uncertainties; author links it to core softness.",
+      "boundary": "Supports useful fixed-shape approximation with missing dynamics, not a proof of gamma rigidity.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-14",
+      "physical_pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        147
+      ],
+      "locator": "§3.1.1 and Fig2",
+      "evidence_type": "fit_vs_prediction",
+      "claim": "199Tl h9/2 calculation explicitly increases beta from198Hg .13 to .15 to improve agreement; gamma37°, scaled lambda−.5 and Δ=.7MeV.",
+      "boundary": "Odd-particle deforming effect is the author interpretation; beta .15 is an exception to standard inputs.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-15",
+      "physical_pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        147
+      ],
+      "locator": "Fig2 caption",
+      "evidence_type": "observable_identity",
+      "claim": "199Tl energies are relative to the basic state, experimental0(+748keV); Q=−2.4eb and mu=3.3 nuclear magnetons shown are calculated basic-state moments.",
+      "boundary": "They are not newly measured static moments, nor is the plotted zero the nuclear ground state.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-16",
+      "physical_pdf_pages": [
+        7,
+        8
+      ],
+      "printed_pages": [
+        147,
+        148
+      ],
+      "locator": "§3.1.1 continuation",
+      "evidence_type": "prediction",
+      "claim": "Unobserved low-spin states and some experimental/model identifications in199Tl are predictions or tentative assignments.",
+      "boundary": "Do not count proposed states as confirmed levels.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-17",
+      "physical_pdf_pages": [
+        8
+      ],
+      "printed_pages": [
+        148
+      ],
+      "locator": "§3.1.2 and Fig3 caption",
+      "evidence_type": "model_comparison",
+      "claim": "195Au h11/2 hole on oblate Hg reproduces decoupled order; calculated displayed intensities use calculated B(E2)/B(M1) with experimental transition energies when known.",
+      "boundary": "Rates incorporate observed kinematics; they are not a completely independent forward prediction or raw B ratios.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-18",
+      "physical_pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        149
+      ],
+      "locator": "Table2 and paragraph below",
+      "evidence_type": "fit_vs_prediction",
+      "claim": "195Au beta .144 is used instead of standard .141 to improve relative transition rates, particularly the second11/2 state near a structure interchange.",
+      "boundary": "A local beta adjustment is not a globally refitted or independently measured shape.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-19",
+      "physical_pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        149
+      ],
+      "locator": "Table2 second11/2 state Ei962keV",
+      "evidence_type": "experimental_table",
+      "claim": "Final-energy order575,560,207,0keV: experiment52,3,11,34%; theory beta.144:57,8,15,20%; beta.141:4,25,11,40%.",
+      "boundary": "The printed beta.141 column sums80%; visual enlargement confirms4. Leave normalization/typographical issue unresolved; do not silently renormalize.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-20",
+      "physical_pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        149
+      ],
+      "locator": "Table2 third11/2 state Ei1028keV",
+      "evidence_type": "experimental_table",
+      "claim": "Final-energy order575,560,207,0keV: experiment34,49,blank,17%; theory beta.144:33,38,1,28%; beta.141:39,35,2,24%.",
+      "boundary": "Blank experimental207keV branch is not a zero measurement.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-21",
+      "physical_pdf_pages": [
+        9
+      ],
+      "printed_pages": [
+        149
+      ],
+      "locator": "§3.1.2 final paragraph",
+      "evidence_type": "tentative_assignment",
+      "claim": "Additional195Au negative-parity states are tentatively attributed to a separate h9/2 family, conditional on the interpretation of their spins/decays.",
+      "boundary": "Do not place every additional negative-parity state in h11/2 automatically.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-22",
+      "physical_pdf_pages": [
+        9,
+        10
+      ],
+      "printed_pages": [
+        149,
+        150
+      ],
+      "locator": "§3.1.3 and Fig4",
+      "evidence_type": "counterevidence",
+      "claim": "193Hg i13/2 neutron-hole decoupled yrast order is reproduced both at gamma38° beta.13 and axial gamma60° beta.11; scaled lambda1.0 and Δ=.7MeV.",
+      "boundary": "Yrast decoupled order alone is not unique triaxiality evidence; the compared beta values also differ.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-23",
+      "physical_pdf_pages": [
+        9,
+        10
+      ],
+      "printed_pages": [
+        149,
+        150
+      ],
+      "locator": "§3.1.3 text around Fig4",
+      "evidence_type": "author_interpretation",
+      "claim": "Second19/2 state is invoked for additional triaxial evidence, but its experimental parity is uncertain; reduced yrast gamma sensitivity is partly attributed to lambda inside the shell.",
+      "boundary": "Retain parity ambiguity and Fermi-position dependence.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-24",
+      "physical_pdf_pages": [
+        10,
+        11
+      ],
+      "printed_pages": [
+        150,
+        151
+      ],
+      "locator": "§3.1.4 and Fig5",
+      "evidence_type": "parameter_provenance",
+      "claim": "187Ir h9/2 uses beta.23 gamma16.2° scaled lambda0 Δ=.7MeV; h11/2 Fig6 uses beta.21 gamma24° scaled lambda.42 Δ=.7MeV.",
+      "boundary": "Beta.21 is the prescribed neighbor average; gamma values derive from different reference cores.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-25",
+      "physical_pdf_pages": [
+        11,
+        12
+      ],
+      "printed_pages": [
+        151,
+        152
+      ],
+      "locator": "Fig5/6 arrangement and §3.1.4",
+      "evidence_type": "classification",
+      "claim": "Experimental187Ir states are tentatively arranged by energy/decay against approximate (Kbar,Omegabar) columns; h9/2 favored/unfavored level order is nearly reproduced.",
+      "boundary": "Approximate labels are not exact good quantum numbers or secure experimental band identities.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-26",
+      "physical_pdf_pages": [
+        12
+      ],
+      "printed_pages": [
+        152
+      ],
+      "locator": "§3.1.4 final lines",
+      "evidence_type": "counterevidence",
+      "claim": "Some higher predicted low-spin states have calculated decays agreeing much less or not at all with unassigned experimental levels.",
+      "boundary": "Keep this failure alongside successful level-order comparisons.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-27",
+      "physical_pdf_pages": [
+        12
+      ],
+      "printed_pages": [
+        152
+      ],
+      "locator": "§3.1.5 B(E2) paragraph",
+      "evidence_type": "lineage_boundary",
+      "claim": "Experimental enhanced B(E2;7/2−→11/2−)≈.3(e b)^2 is quoted for189Ir; calculated187Ir value is .31(e b)^2.",
+      "boundary": "Related-isotope support must not be relabeled a same-state187Ir measurement.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-28",
+      "physical_pdf_pages": [
+        13
+      ],
+      "printed_pages": [
+        153
+      ],
+      "locator": "Table3a",
+      "evidence_type": "experimental_table",
+      "claim": "187Ir h11/2 B(E2) ratios (in table row order) are experiment1.7(+infinity,−1.4), .8(+.2,−.6), <.1, 1.3(+3.1,−.6); theory7.07,.86,.02,1.37.",
+      "boundary": "Broad/asymmetric bounds permit the first large theory value; this is not precision agreement. Transitions are transcribed separately in report.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-29",
+      "physical_pdf_pages": [
+        13
+      ],
+      "printed_pages": [
+        153
+      ],
+      "locator": "Table3b footnote",
+      "evidence_type": "input_dependency",
+      "claim": "Measured transition energies are used to calculate theoretical delta(E2/M1).",
+      "boundary": "Mixing-ratio comparison includes experimental E_gamma input.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-30",
+      "physical_pdf_pages": [
+        13
+      ],
+      "printed_pages": [
+        153
+      ],
+      "locator": "Table3b rows1–5",
+      "evidence_type": "experimental_table",
+      "claim": "E_gamma200,330,389,395,385keV: experimental delta ranges(0,.25),(.25,.40),(.15,.25),(.28,infinity),(−.40,−.15); theoretical.04,.18,.19,.21,−.14.",
+      "boundary": "Literal interval check: rows1,3 inside; rows2,4,5 outside. Do not invent confidence levels, fit uncertainty, or chi-square.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-31",
+      "physical_pdf_pages": [
+        13
+      ],
+      "printed_pages": [
+        153
+      ],
+      "locator": "§3.1.5 after Table3b",
+      "evidence_type": "classification_boundary",
+      "claim": "Bands are strongly mixed with generally weak (Kbar,Omegabar) character; in-band transitions may be weaker than links to neighboring/yrast bands.",
+      "boundary": "Rotational character does not imply a clean experimentally identifiable band; no chiral doublet is established by this argument.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    },
+    {
+      "id": "MTV75II-060-32",
+      "physical_pdf_pages": [
+        1,
+        13
+      ],
+      "printed_pages": [
+        141,
+        153
+      ],
+      "locator": "scope and transfer synthesis",
+      "evidence_type": "task_synthesis",
+      "claim": "Within read pages, the paper supports phenomenological triaxial particle-rotor comparisons with calibrated core/Fermi inputs and explicit failures.",
+      "boundary": "It does not provide a microscopic chiral test, a WK22 h11/2/pairing/shape fit, or an independent133Ce inference. PDF13 ends mid§3.1.5; PDF14–25 were not read in this unit.",
+      "lineage": "MTV75-II theory/comparison; measurements inherited from cited experimental references, not a new experiment",
+      "self_audit": "source-and-visual-self-audited; not human-reviewed"
+    }
+  ]
+}

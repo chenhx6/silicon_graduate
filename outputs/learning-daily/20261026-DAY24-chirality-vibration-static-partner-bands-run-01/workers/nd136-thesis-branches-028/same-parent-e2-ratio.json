@@ -1,0 +1,63 @@
+{
+  "kind": "conditional-same-parent-same-XL-photon-strength-ratio-from-actual-source-inputs",
+  "source": "Lv2019thesis Table5.1 physicalPDF94–95 printed93–94;Fig5.6 physicalPDF77;normalizationfootnoteb physicalPDF97",
+  "parent": {
+    "family": "D5-C",
+    "Ei_keV": 7543.0,
+    "Ji_pi": "20+"
+  },
+  "out": {
+    "Egamma_keV": 1021.2,
+    "relativeI_gamma": [
+      0.6,
+      0.1
+    ],
+    "mode_as_printed": "E2",
+    "daughter_family": "D5",
+    "Jf_pi": "18+",
+    "daughter_Ei_minus_Egamma_keV": 6521.8
+  },
+  "in": {
+    "Egamma_keV": 611.4,
+    "relativeI_gamma": [
+      0.21,
+      0.1
+    ],
+    "mode_as_printed": "E2",
+    "daughter_family": "D5-C_candidate_from_Fig5.6",
+    "Jf_pi": "18+",
+    "daughter_Ei_minus_Egamma_keV": 6931.6
+  },
+  "formula": "B_out(E2)/B_in(E2)=(I_gamma_out/I_gamma_in)*(E_gamma_in/E_gamma_out)^5",
+  "nominal_relative_photon_intensity_ratio": 2.857142857142857,
+  "energy_power5_factor": 0.0769259983561333,
+  "nominal_conditional_BE2_out_in": 0.21978856673180944,
+  "cancels": [
+    "commonparentlifetime",
+    "commonglobalintensityreference",
+    "E2rateconstant"
+  ],
+  "conditions": [
+    "BothassignedE2components and endpoints arecorrect",
+    "Eff-correctedrelativeI values represent matched unbiased sameparent photonintensities",
+    "Actualgate/feeding/background/efficiency response is comparable orcorrected"
+  ],
+  "does_not_require": [
+    "measuredtau",
+    "completeparenttotalbranchinventory"
+  ],
+  "not_established": [
+    "perlinegateproduceridentity",
+    "jointCovarianceofrelativeI",
+    "samplingconfidencecoverage",
+    "fullresponseuncertainty"
+  ],
+  "not_inferred": [
+    "absoluteBE2",
+    "tau",
+    "totalBR",
+    "relativephase",
+    "CI",
+    "modeexclusion"
+  ]
+}

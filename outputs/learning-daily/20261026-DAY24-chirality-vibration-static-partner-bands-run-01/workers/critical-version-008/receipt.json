@@ -1,0 +1,45 @@
+{
+  "status": "verified-no-new-body-on-official-current-arxiv-route",
+  "checked_utc": "2026-10-26T12:44:13.585109+00:00",
+  "arxiv_history_versions": [
+    "v1"
+  ],
+  "arxiv_history_v1_date": "2002-11-25T11:38:58Z",
+  "current_pdf_byte_identical_to_previous_explicit_v1": true,
+  "current_pdf_sha256": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",
+  "current_pdf_bytes": 252547,
+  "current_body_authors": [
+    "Olbratowski, P.",
+    "Dobaczewski, J.",
+    "Dudek, J."
+  ],
+  "per_page_text_comparison": [
+    {
+      "PDF_page": 1,
+      "extracted_text_identical": true
+    },
+    {
+      "PDF_page": 2,
+      "extracted_text_identical": true
+    },
+    {
+      "PDF_page": 3,
+      "extracted_text_identical": true
+    },
+    {
+      "PDF_page": 4,
+      "extracted_text_identical": true
+    }
+  ],
+  "new_body_pages": 0,
+  "new_figures": 0,
+  "new_equations": 0,
+  "previous_v1_reading_coverage": "PDF1–4; Figs1–6; Eqs1–7 incl4a–c, retained from worker critical-tac-007",
+  "VoR_body_obtained": false,
+  "version_body_change_found": false,
+  "limits": [
+    "Official current arXiv still v1; not proof no final manuscript exists elsewhere",
+    "Four-author2004PRL metadata is distinct from this three-author2002body",
+    "No revision of s/inertias, thresholds, axis wording, inertia-gap wording, pairing or timeodd can be certified for2004VoR"
+  ]
+}

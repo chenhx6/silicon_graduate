@@ -1,0 +1,23 @@
+{
+  "worker": "042-physical-e2-stretch-contract",
+  "completed_utc": "2026-10-26T16:35:52.459824+00:00",
+  "status": "bounded-coordinate-derivation-complete",
+  "evidence_type": "task-derived coordinate identity",
+  "checks": "continuous chain-rule proof; symbolic Laurent-polynomial coefficient identities verified by stdlib script; Hermiticity and axial/spherical limits checked analytically",
+  "no_actual_nuclear_parameters_or_prediction": true,
+  "canonical_raw_PLAN_Bib_Git_course_session_unchanged": true,
+  "same_day24_only_day25_uncredited_preview": true,
+  "write_scope": "042 worker directory only",
+  "files": {
+    "coordinate-contract.json": "af8d27185accc82b9c73bb7d08a6a736f633bc95f9937aad36cb35b9092064fb",
+    "identity-check.json": "5522c8532b6e555f4a6c363b9c4934050979c75b9229587b7cabd5fbd31fdcf7",
+    "report.md": "32dcbe8785802b8475aaca1a374b647515f8a6827c9fab11a161e4443e8fc063",
+    "verify_coordinate_identity.py": "a4b674a29520c8c06a9c4fcbf36e5a2282c47491c733b0025f50e67624fb34d6"
+  },
+  "wording_correction": {
+    "corrected_utc": "2026-10-26T16:38:03.749758+00:00",
+    "reason": "SI range question is still pending; no user preference was supplied.",
+    "corrected_statement": "本推导不依赖新下载；SI范围问题尚待回复，1975原件未取得/未读。",
+    "new_download_or_scientific_recalculation": false
+  }
+}
