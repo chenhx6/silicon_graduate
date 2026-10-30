@@ -1,0 +1,43 @@
+{
+  "nucleus": "137Ba",
+  "isomer_energy_keV": 661.66,
+  "decay_channel": "11/2- -> 3/2+ (competitive 2-gamma decay)",
+  "midpoint_energy_keV": 331.19,
+  "shape_features": {
+    "M2E2_pure": {
+      "functional_form": "E1^5 * E2^5",
+      "symmetry": "Strictly symmetric around E0/2, maximum at midpoint (330.8 keV)",
+      "ratio_at_200keV_relative_to_midpoint": 0.4273
+    },
+    "E3M1_pure": {
+      "functional_form": "E1^7 * E2^3 + E1^3 * E2^7",
+      "symmetry": "U-shaped with local minimum at midpoint, maximum towards asymmetric sharing",
+      "ratio_at_200keV_relative_to_midpoint": 1.1784
+    }
+  },
+  "experimental_reconciliation": {
+    "Walz_2015_Nature": {
+      "detectors": "5 LaBr3 at 72 deg and 144 deg only (no energy-sharing discrimination)",
+      "reported_polarizabilities": {
+        "alpha_E2M2": 33.9,
+        "alpha_M1E3": 10.1
+      },
+      "quadrupole_fraction_alpha2": 0.9185,
+      "predicted_shape_profile": "Bell-shaped, peaked at 331 keV"
+    },
+    "Soderstrom_2020_NatCommun": {
+      "detectors": "11 CeBr3 at 5 angles (32.7 to 163.6 deg) with full continuous energy sharing",
+      "reported_polarizabilities": {
+        "alpha_M2E2": 8.8,
+        "alpha_E3M1": 36.4
+      },
+      "octupole_fraction_alpha2": 0.9448,
+      "predicted_shape_profile": "Distinct U-shaped dip at 331 keV, matching measured continuous spectra"
+    }
+  },
+  "microscopic_origin": {
+    "M2_hindrance": "B(M2) single-particle transition is forbidden by Delta l = 3, suppressed by ~10^-3",
+    "E3_collective_enhancement": "E3 virtual transition couples directly to the collective 3- octupole phonon of the 138Ba core (B(E3) ~ 25 W.u.)",
+    "conclusion": "Continuous energy-sharing breaks the two-fold angular ambiguity, decisively establishing octupole-dipole (E3M1) dominance over quadrupole-quadrupole."
+  }
+}
