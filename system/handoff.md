@@ -4649,3 +4649,17 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
      - `wiki_boundary_check.py`: ok: true;
      - `git diff --check`: clean;
      - Farmer 守护进程 PID `3193`: 现场平稳存活监听。
+
+### Git Baseline Established & Repository Sanitization (2026-10-30T17:30:00+08:00)
+
+- **Git 状态基线彻底拉平**：全面清点并分类治理工作区遗留的 1,197 个未跟踪文件：
+  1. **.gitignore 规则完善**：系统过滤各轮次 runner 产生的 `*.stdout`、`*.stderr`、`*.tar.gz`、`*.tar`、`*.tgz`、`*.eps`、`required-checks-*`、`next-continuation-*`、`check-*`、`H2-eol-*`、`write-entry-*`、`metadata-pending-*`、`pre-correction-*/`、`handoff-before-*`、`history-before-*`、`runner-validation-*`、PDF 图像切片/文本提取等过程垃圾（共排除 1,046 个临时文件）；
+  2. **历史成果分门别类发布**：将沉淀的 151 个重要历史研究工件按日次及类型分为 7 个原子 commit 并成功 push 到 Gitee `origin/main`：
+     - `1704cec2` `chore(git): ignore transient runner stderr/stdout, scratch checks, and raw literature packages in .gitignore`
+     - `22526e89` `feat(day20): track historical Day 20 run receipts in run-01 and run-02`
+     - `ce3a4cd5` `feat(day22): archive analytical models and verified test deliverables for wobbling analysis`
+     - `153b7374` `feat(day24): archive Day 24 chirality deliverables and worker research packages`
+     - `d3ae83f6` `feat(day25): track Day 25 Jacobian audit script and energy-sharing discrimination models`
+     - `4e3f24cd` `feat(day26): archive Day 26 antimagnetic rotation models, scripts, and literature crossrefs`
+     - `4af99422` `docs(literature): add Day 26 CD110 and Egido literature acquisition records`
+  3. **基线核验**：当前 `git status -sb` 为完全干净状态 `## main...origin/main`；`wiki_boundary_check.py` 退出码 0（ok: true）；`wiki_automation_preflight.py` 退出码 0；Git 基线顺利建立完成。
