@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-10-24T10:12:49.008196+00:00",
+  "audit_name": "Day 22 Checkpoint 022 Theoretical Evolution Audit (H02 & F24)",
+  "sections": {
+    "h02_audit": {
+      "model_formalism": "One high-j quasiparticle coupled to a triaxial rotor preserving total angular momentum I",
+      "anharmonicity": "Calculated B(E2) values show substantial non-harmonic deviations from n-scaling; n_w=2,3 are traced asymptotic model labels rather than exact linear bosons",
+      "cranking_crossover": "At sufficiently high spin, the collective wobbling regime crosses over into the cranking-like regime due to pairing and inertia competition",
+      "tripartite_fingerprint": "Joint presence of: (1) similar moments of inertia, (2) similar alignments, and (3) strong Delta-I=1 E2 links with signature-dependent phase; no single observable is sufficient",
+      "relevance_to_low_spin": "Hamamoto 2002 explicitly cautioned that simple rotor-particle calculations omit pairing attenuation and spin-dependent inertia variations"
+    },
+    "f24_audit": {
+      "cone_topology": {
+        "TW": "Precession cone and particle j aligned along short/long axis, perpendicular to intermediate axis (maximum MoI)",
+        "LW": "Precession cone aligned along intermediate axis (maximum MoI)",
+        "FM": "Flip mode across separatrix dividing TW and LW regimes"
+      },
+      "critical_instability": {
+        "formula": "J_c = j * J_m / (J_m - J_s)",
+        "implication": "Transverse wobbling frequency decreases with spin and hits zero at J_c; harmonic RPA diverges near J_c",
+        "low_spin_paradox": "In A~130 nuclei (e.g. 135Pr), J_c ~ 14.4 hbar occurs near I ~ 29/2 hbar, exactly in the middle of the observed sequence, causing early instability"
+      },
+      "evidence_boundary_review": {
+        "review_claim": "Frauendorf 2024 reviews 135Pr, 133La, 136Nd, 151Eu as established wobblers",
+        "audit_rebuttal": [
+          "Zero partner-resolved lifetimes measured across entire A~130 region",
+          "135Pr proven M1-dominated (88% M1) by Lv 2022 JuroGam II P-Rac",
+          "187Au proven M1-dominated (94% M1) and 188Pt impurity by Guo 2022",
+          "136Nd 751 keV link proven 81.3% M1-dominated, with 11-fold DSAM B(E2) collapse at I=17->18",
+          "Small-angle parameter f(n,I) ~ 0.5-1.5 universally fails f << 1 in normal-deformed nuclei due to slow core rotation R ~ 1-3 hbar"
+        ]
+      }
+    }
+  }
+}

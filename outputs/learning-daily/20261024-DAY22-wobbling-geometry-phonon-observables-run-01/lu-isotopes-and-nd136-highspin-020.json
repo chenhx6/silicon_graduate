@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-10-24T10:03:50.381170+00:00",
+  "audit_name": "Day 22 Checkpoint 020 Lu Systematics and 136Nd Boundary Audit",
+  "sections": {
+    "lu_systematics": {
+      "163Lu": {
+        "TSD2_n1": "Rigorous confirmation: EUROBALL linear polarization directly selects large delta (~ -2.5 to -3.0), Qt ~ 10 eb measured by DSAM",
+        "TSD3_n2_476keV": {
+          "polarization_available": false,
+          "delta_large": -3.6,
+          "fe2_large_pct": 92.84,
+          "delta_small": -0.19,
+          "fe2_small_pct": 3.48,
+          "be2_out_in_large": 0.515,
+          "be2_out_in_small": 0.0193,
+          "collapse_factor": 26.6,
+          "status": "Two roots remain mathematically compatible; n=2 two-phonon interpretation is conditional on large root adoption"
+        }
+      },
+      "165Lu": {
+        "TSD2_n1": "Measured DCO gives 92.3% E2 for adopted large branch (B(E2)_out/in ~ 0.16-0.17)",
+        "TSD3_n2": "Weak connecting links lack sufficient DCO statistics and have zero polarization; n=2 assignment is based on homology/systematics with 163Lu"
+      },
+      "167Lu": {
+        "TSD2_n1": {
+          "polarization_available": false,
+          "adopted_method": "Selected large negative delta by analogy with 163Lu (92-98% E2)",
+          "small_root_sensitivity": "Small root collapse factor spans 8.6x to 197.5x across transitions",
+          "samples": [
+            {
+              "spin": "25/2",
+              "delta_large": -3.1,
+              "delta_small": -0.35,
+              "collapse": 8.3
+            },
+            {
+              "spin": "33/2",
+              "delta_large": -5.1,
+              "delta_small": -0.07,
+              "collapse": 197.5
+            }
+          ]
+        }
+      },
+      "regional_conclusion": "Only 163Lu TSD2 (n_w=1) possesses independent linear polarization root selection; all n_w=2 claims and 167Lu depend on cross-isotope homology"
+    },
+    "nd136_audit": {
+      "candidate_bands": "L1 (yrast s-band) and L3 (wobbling candidate)",
+      "connecting_transitions": "4 known transitions (740, 751, 768, 785 keV); only 751 keV clean enough for P-Rac analysis",
+      "751keV_mixing_ratio": {
+        "delta": -0.48,
+        "delta_err": "+0.13/-0.14",
+        "fe2_pct": 18.73,
+        "fm1_pct": 81.27,
+        "character": "Overwhelmingly M1-dominated (81.27% M1), contrasting with odd-A wobblers"
+      },
+      "model_normalization": "PRM second-order E2 parameter (chi*beta2 = 2.14 * 0.185) and M1 parameter (g_eff/Q) are normalized to this single experimental point",
+      "dsam_lifetime_evidence": {
+        "source": "Mukhopadhyay 2008 PRC 78, 034311 Table II",
+        "band_crossing_I": "17+ -> 18+",
+        "be2_before_crossing": 0.44,
+        "be2_after_crossing": 0.04,
+        "collapse_factor": 11.0,
+        "mechanism": "Two-quasiproton s-band alignment and band crossing, which breaks pure collective wobbling symmetry"
+      },
+      "protocol_status": "Fails Gate 1 (18.7% E2 is M1-dominated) and Gate 2 (11x B(E2) collapse at crossing); single-point PRM calibration is descriptive, not predictive"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-10-24T10:16:51.217234+00:00",
+  "audit_name": "Day 22 Checkpoint 023 Microscopic Model Audit (CF22 & SHJ24)",
+  "sections": {
+    "cf22_audit": {
+      "method": "Spin coherent state (SCS) representation of reduced density matrices on 2D sphere",
+      "low_spin_topology": "Zero-phonon blob and one-phonon rim centered on short axis (TW)",
+      "intermediate_instability": "At I ~ 29/2 hbar, classical frozen-alignment predicts instability; quantum fluctuations delay it into a transitional flip mode",
+      "high_spin_topology": "Shifts toward intermediate axis revolution (longitudinal-like topology)",
+      "sp_mixing": "Signature-partner (SP) mode mixes strongly with wobbling near instability; phonon number n loses exact meaning outside stable low-spin TW",
+      "experimental_input_dependency": "Uses Matta 2015 large-E2 parameters as input; does not independently determine delta; superseded when Lv 2022 established small root (88% M1)"
+    },
+    "shj24_audit": {
+      "method": "Three-dimensional angular momentum projection from deformed Nilsson-BCS states",
+      "basis_inputs": {
+        "133La": {
+          "epsilon": 0.15,
+          "epsilon_prime": 0.11,
+          "gamma_deg": 36.0
+        },
+        "135Pr": {
+          "epsilon": 0.16,
+          "epsilon_prime": 0.1,
+          "gamma_deg": 32.0
+        }
+      },
+      "data_provenance": "Reuses experimental datasets from Biswas 2019 (133La) and Matta 2015 / Sensharma 2019 (135Pr)",
+      "limitations": [
+        "Fixed triaxial deformation is an input basis parameter, not an experimental observable",
+        "Model reproduced legacy large-root E2 ratios; does not evaluate Lv 2022 small-root P-Rac measurement",
+        "Authors explicitly acknowledge that two-phonon assignments remain tentative pending definitive electromagnetic transition measurements"
+      ]
+    },
+    "hierarchy_conclusion": {
+      "statement": "Microscopic and projected models (TPSM, SCS-PTR, PRM) are capable of fitting both wobbling and signature-partner curves depending on the adopted interband multipolarity",
+      "gate_priority": "Experimental multipolarity root selection (|delta| < 1 vs |delta| > 1) via calibrated polarization or conversion electrons strictly precedes and gates theoretical model classification",
+      "falsification_impact": "When Lv 2022, Guo 2022, and Mukhopadhyay 2008 establish M1 dominance and B(E2) collapse, theoretical models must redirect from collective wobbling to tilted precession (TiP), single-particle orbital excitation, or configuration mixing"
+    }
+  }
+}

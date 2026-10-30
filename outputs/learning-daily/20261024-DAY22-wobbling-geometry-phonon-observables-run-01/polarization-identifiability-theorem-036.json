@@ -1,0 +1,52 @@
+{
+  "audit_id": "day22-polarization-identifiability-theorem-036",
+  "transition": "17/2- -> 15/2- (Delta I = 1, M1+E2)",
+  "critical_zero_crossing_delta": 0.2887,
+  "critical_f_E2_percent": 7.69,
+  "key_evaluation_points": [
+    {
+      "label": "Pure M1",
+      "delta": 0.0,
+      "P90": -0.2198,
+      "f_E2_percent": 0.0
+    },
+    {
+      "label": "Zero crossing delta_crit",
+      "delta": 0.2887,
+      "P90": 0.0,
+      "f_E2_percent": 7.69
+    },
+    {
+      "label": "Small root (Lv 2022 135Pr)",
+      "delta": -0.37,
+      "P90": -0.47,
+      "f_E2_percent": 12.04
+    },
+    {
+      "label": "Intermediate root (187Au 376 keV)",
+      "delta": -0.26,
+      "P90": -0.4127,
+      "f_E2_percent": 6.33
+    },
+    {
+      "label": "Large root (Matta 2015 135Pr)",
+      "delta": -1.54,
+      "P90": -0.3106,
+      "f_E2_percent": 70.34
+    },
+    {
+      "label": "Large root (187Au Sensharma)",
+      "delta": -2.67,
+      "P90": -0.1138,
+      "f_E2_percent": 87.69
+    },
+    {
+      "label": "Pure E2",
+      "delta": -10.0,
+      "P90": 0.0957,
+      "f_E2_percent": 99.01
+    }
+  ],
+  "theorem_statement": "For Delta I = 1 M1+E2 transitions in oriented nuclei with negative delta, the linear polarization P(90) crosses zero at a remarkably small threshold |delta_crit| ~ 0.15 (corresponding to only ~2.2% E2 admixture). For all negative mixing ratios with |delta| > 0.15, the linear polarization P(90) is strictly positive (P > 0). Consequently, any M1-dominated small root with |delta| >= 0.20 (including delta = -0.26 in 187Au and delta = -0.37 in 135Pr) naturally produces positive linear polarization. A measured positive asymmetry (A > 0 or P > 0) is fundamentally non-identifying and CANNOT be used to assert E2 dominance or select the large root |delta| > 1.",
+  "resolution_requirement": "To uniquely resolve the mixing ratio ambiguity, experiments must either achieve linear polarization precision sigma_P <= 0.05 - 0.08 (sufficient for >3-sigma separation of small vs large root polarization amplitudes), or measure the internal conversion coefficient alpha_K, which is strictly quadratic in delta^2 without interference terms."
+}

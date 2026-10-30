@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-10-24T09:51:14.177495+00:00",
+  "audit_name": "Day 22 Checkpoint 018 131Xe Band Mapping and Gamma-Softness Audit",
+  "sections": {
+    "level_scheme": {
+      "favored_yrast": [
+        {
+          "spin": "11/2-",
+          "energy_keV": 164.0
+        },
+        {
+          "spin": "15/2-",
+          "energy_keV": 806.0,
+          "e_gamma_in": 642.0
+        },
+        {
+          "spin": "19/2-",
+          "energy_keV": 1616.0,
+          "e_gamma_in": 810.0
+        },
+        {
+          "spin": "23/2-",
+          "energy_keV": 2518.0,
+          "e_gamma_in": 902.0
+        },
+        {
+          "spin": "27/2-",
+          "energy_keV": 3181.0,
+          "e_gamma_in": 663.0
+        }
+      ],
+      "unfavored_yrare": [
+        {
+          "spin": "9/2-",
+          "energy_keV": 341.0,
+          "decay_to_yrast": 177.0
+        },
+        {
+          "spin": "13/2-",
+          "energy_keV": 1046.0,
+          "e_gamma_in": 705.0,
+          "decay_to_yrast": 882.0,
+          "delta": 0.09,
+          "fe2_pct": 0.8,
+          "fm1_pct": 99.2
+        },
+        {
+          "spin": "17/2-",
+          "energy_keV": 1862.0,
+          "e_gamma_in": 816.0,
+          "decay_to_yrast": 1056.0,
+          "delta": 0.0,
+          "fe2_pct": 0.0,
+          "fm1_pct": 100.0
+        },
+        {
+          "spin": "21/2-",
+          "energy_keV": 2792.0,
+          "e_gamma_in": 930.0,
+          "decay_to_yrast": 1176.0,
+          "delta": null,
+          "fe2_pct": null,
+          "fm1_pct": null
+        }
+      ],
+      "yrast_13_half": [
+        {
+          "spin": "13/2-",
+          "energy_keV": 835.0,
+          "decay_to_yrast": 671.0,
+          "delta": 0.03,
+          "fe2_pct": 0.09,
+          "fm1_pct": 99.91
+        },
+        {
+          "spin": "17/2-",
+          "energy_keV": 1601.0,
+          "e_gamma_in": 766.0
+        },
+        {
+          "spin": "21/2-",
+          "energy_keV": 2450.0,
+          "e_gamma_in": 849.0
+        }
+      ],
+      "crosswalk": {
+        "acquisition_identity": "Identical 38-MeV alpha + 130Te INGA dataset",
+        "banik_label_B1": "Favored yrast nu h11/2 band (164 -> 806 -> 1616 -> 2518 keV)",
+        "banik_label_B1_a": "High-spin continuation of signature partner",
+        "banik_label_B5": "Sequence starting at 1046 keV 13/2- state",
+        "chakraborty_sequence": "Reconstructed 9/2- (341) -> 13/2- (1046) -> 17/2- (1862) -> 21/2- (2792) as true unfavored partner",
+        "yrast_13_half_origin": "Semi-decoupled core vibration coupling nu h11/2 (x) 130Xe(2_1+); energy 164 + 536 = 700 shifted to 835 keV by Coriolis interaction"
+      }
+    },
+    "core_130xe_gamma_staggering": {
+      "vibrator_limit": -1.0,
+      "gamma_soft_O6_limit": -2.0,
+      "axial_rotor_limit": 0.33,
+      "rigid_triaxial_gamma30_limit": 1.67,
+      "xe130_core_s4": -1.0261,
+      "structural_assignment": "Vibrator / Gamma-soft transitional (S(4) = -1.026 < 0), phase-reversed from rigid triaxial (+1.67)"
+    },
+    "dynamical_mechanism": {
+      "potential_energy_surface": "Banik 2020 TRS shows shallow valley along gamma with Delta V < 0.3 MeV from gamma=0 to 35 deg",
+      "effective_gamma_interpretation": "TPRM gamma=33 deg and TPSM gamma=29 deg are dynamical expectation values <gamma>, not static rigid deformation",
+      "wobbling_damping": "Flat gamma potential lacks restoring force for quantized wobbling; precession disperses into single-particle signature partner",
+      "electromagnetic_signature": "Delta I = 1 linking transitions (882, 1056 keV) are pure M1 (delta ~ 0, M1 > 99.2%); B(M1)/B(E2) shows 2x staggering between favored and unfavored bands"
+    }
+  }
+}

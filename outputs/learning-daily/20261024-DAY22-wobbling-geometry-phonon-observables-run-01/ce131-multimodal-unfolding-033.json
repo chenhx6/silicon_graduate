@@ -1,0 +1,107 @@
+{
+  "audit_id": "day22-ce131-multimodal-microscopic-unfolding-033",
+  "nucleus": "131Ce",
+  "data_sources": [
+    "Alwaleedi 2013 (AW13-1 to AW13-22)",
+    "Singh 2016 (SI16-1 to SI16-7)",
+    "Li 2004 (LI04-1 to LI04-4)",
+    "Petrache 1998 (PE98-1 to PE98-7)"
+  ],
+  "e2_branches_summary": [
+    {
+      "initial_level": "Band 1 19/2-",
+      "out_transition_keV": 871.2,
+      "in_transition_keV": 641.2,
+      "intensity_ratio": 0.2146,
+      "d_intensity_ratio": 0.0128,
+      "kinematic_factor": 0.215962,
+      "be2_out_over_in": 0.0463,
+      "d_be2_out_over_in": 0.0028
+    },
+    {
+      "initial_level": "Band 4 19/2-",
+      "out_transition_keV": 994.3,
+      "in_transition_keV": 625.8,
+      "intensity_ratio": 0.6384,
+      "d_intensity_ratio": 0.0377,
+      "kinematic_factor": 0.098762,
+      "be2_out_over_in": 0.063,
+      "d_be2_out_over_in": 0.0037
+    },
+    {
+      "initial_level": "Band 4 23/2-",
+      "out_transition_keV": 1108.0,
+      "in_transition_keV": 755.6,
+      "intensity_ratio": 0.2675,
+      "d_intensity_ratio": 0.0163,
+      "kinematic_factor": 0.147489,
+      "be2_out_over_in": 0.0395,
+      "d_be2_out_over_in": 0.0024
+    }
+  ],
+  "mixed_dipoles_summary": [
+    {
+      "transition_keV": 504.9,
+      "initial": "Band 1 25/2-",
+      "final": "Band 4 23/2-",
+      "I_gamma": 9.2,
+      "dI_gamma": 0.7,
+      "R_exp": 0.61,
+      "dR_exp": 0.08,
+      "nature": "Band 1 feeding Band 4"
+    },
+    {
+      "transition_keV": 538.3,
+      "initial": "Band 4 15/2-",
+      "final": "Band 1 13/2-",
+      "I_gamma": 19.3,
+      "dI_gamma": 0.9,
+      "R_exp": 0.55,
+      "dR_exp": 0.03,
+      "nature": "Band 4 feeding Band 1"
+    },
+    {
+      "transition_keV": 611.1,
+      "initial": "Band 4 17/2-",
+      "final": "Band 1 15/2-",
+      "I_gamma": 25.2,
+      "dI_gamma": 1.1,
+      "R_exp": 0.56,
+      "dR_exp": 0.02,
+      "nature": "Band 4 feeding Band 1"
+    }
+  ],
+  "hypotheses_verdict": [
+    {
+      "hypothesis": "1-Phonon Wobbling Motion",
+      "verdict": "Mathematically Falsified",
+      "decisive_falsifier": "Signature selection rule strictly forbids Delta I = 2 stretched E2 interband decay (Delta alpha = 0) for 1-phonon wobbling. Experimentally, 3 strong stretched E2 transitions (871.2, 994.3, 1108 keV) directly connect Band 4 and Band 1.",
+      "confidence": "definitive-mathematical"
+    },
+    {
+      "hypothesis": "Nuclear Chirality",
+      "verdict": "Geometrically Excluded",
+      "decisive_falsifier": "Band 1 is a 1-quasiparticle nu h11/2 configuration. In 1-quasiparticle systems, single-particle momentum j and core rotation R span a 2D plane (scalar triple product j.(R x axis) = 0), precluding a non-planar chiral geometry.",
+      "confidence": "definitive-geometric"
+    },
+    {
+      "hypothesis": "Shape Coexistence within Bands 1-7",
+      "verdict": "Excluded for Normal Bands",
+      "decisive_falsifier": "Normal-deformed Band 1 (Qt = 2.58 eb) and Band 4 exhibit strong discrete mutual decay branches without the high-barrier tunneling hindrance characteristic of shape coexistence. Shape coexistence exists in 131Ce only as an unlinked highly deformed (HD) band (Q0 = 7.3 eb).",
+      "confidence": "high-spectroscopic"
+    },
+    {
+      "hypothesis": "Pure Unfavoured Signature Partner",
+      "verdict": "Insufficient Alone",
+      "decisive_falsifier": "A pure single-quasiparticle signature partner band decays primarily through Delta I = 1 M1 transitions. It cannot account for the three strong Delta I = 2 stretched E2 interband branches (871.2, 994.3, 1108 keV) whose branching ratios reach 64% of in-band transitions.",
+      "confidence": "high-spectroscopic"
+    },
+    {
+      "hypothesis": "gamma-Vibrational Particle-Core Coupling (gamma (x) nu h11/2)",
+      "verdict": "Supported Primary Assignment",
+      "decisive_falsifier": "Naturally explains the coexistence of both Delta I = 2 stretched E2 transitions (Alaga rule component from K_0 + 2 to K_0) and Delta I = 1 mixed transitions. Completely consistent with the gamma-soft core 130Ce (S(4) < 0) and Alwaleedi Table 5.3 assignment.",
+      "confidence": "preferred-assignment"
+    }
+  ],
+  "conclusion": "Bands 1 and 4 in 131Ce are unambiguously decoupled from wobbling and chirality. Band 4 is established as a gamma-vibrational phonon coupled to the nu h11/2 quasiparticle (gamma (x) nu h11/2), coexisting with normal rotation in a gamma-soft nuclear core."
+}

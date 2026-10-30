@@ -1,0 +1,299 @@
+{
+  "timestamp": "2026-10-24T09:37:13.617625+00:00",
+  "audit_name": "Day 22 Checkpoint 017 Multiphonon and Cross-Campaign Audit",
+  "sections": {
+    "ba133_multiphonon_audit": {
+      "links": [
+        {
+          "transition": "Band 2 -> Band 1 (15/2- -> 13/2-)",
+          "energy_link_keV": 613.2,
+          "energy_inband_keV": 600.8,
+          "measured_dco": true,
+          "measured_pol": true,
+          "delta": -1.25,
+          "delta_err": 0.16,
+          "fe2": 0.6098,
+          "fm1": 0.3902,
+          "kinematic_e5": 0.9029,
+          "status": "measured-E2-dominated"
+        },
+        {
+          "transition": "Band 2 -> Band 1 (19/2- -> 17/2-)",
+          "energy_link_keV": 626.8,
+          "energy_inband_keV": 650.6,
+          "measured_dco": true,
+          "measured_pol": true,
+          "delta": -1.54,
+          "delta_err": 0.2,
+          "fe2": 0.7034,
+          "fm1": 0.2966,
+          "kinematic_e5": 1.2048,
+          "status": "measured-E2-dominated"
+        },
+        {
+          "transition": "Band 2 -> Band 1 (23/2- -> 21/2-)",
+          "energy_link_keV": 812.0,
+          "energy_inband_keV": 650.6,
+          "measured_dco": true,
+          "measured_pol": true,
+          "delta": -1.89,
+          "delta_err": 0.25,
+          "fe2": 0.7813,
+          "fm1": 0.2187,
+          "kinematic_e5": 0.3302,
+          "status": "measured-E2-dominated"
+        },
+        {
+          "transition": "Band 2 -> Band 1 (13/2- -> 11/2-)",
+          "energy_link_keV": 146.3,
+          "energy_inband_keV": 535.5,
+          "measured_dco": false,
+          "measured_pol": false,
+          "delta": null,
+          "delta_err": null,
+          "fe2": null,
+          "fm1": null,
+          "kinematic_e5": 657.0157,
+          "status": "unmeasured-threshold-missing"
+        },
+        {
+          "transition": "Band 2 -> Band 1 (17/2- -> 15/2-)",
+          "energy_link_keV": 219.2,
+          "energy_inband_keV": 600.8,
+          "measured_dco": false,
+          "measured_pol": false,
+          "delta": null,
+          "delta_err": null,
+          "fe2": null,
+          "fm1": null,
+          "kinematic_e5": 154.6845,
+          "status": "unmeasured-threshold-missing"
+        },
+        {
+          "transition": "Band 3 -> Band 1 crossover (17/2- -> 13/2-)",
+          "energy_link_keV": 457.6,
+          "energy_inband_keV": 646.6,
+          "measured_dco": true,
+          "measured_pol": false,
+          "delta": 0.0,
+          "delta_err": 0.0,
+          "fe2": 1.0,
+          "fm1": 0.0,
+          "kinematic_e5": 5.6331,
+          "status": "crossover-kinematic-magnified"
+        }
+      ],
+      "f_values": [
+        {
+          "spin": 7.5,
+          "f_n1": 0.6426,
+          "f_n2": 1.071,
+          "valid_harmonic": false
+        },
+        {
+          "spin": 9.5,
+          "f_n1": 0.6411,
+          "f_n2": 1.0684,
+          "valid_harmonic": false
+        },
+        {
+          "spin": 11.5,
+          "f_n1": 0.7574,
+          "f_n2": 1.2623,
+          "valid_harmonic": false
+        },
+        {
+          "spin": 13.5,
+          "f_n1": 2.0156,
+          "f_n2": 3.3594,
+          "valid_harmonic": false
+        }
+      ],
+      "conclusions": {
+        "unmeasured_link_fraction": "2 out of 5 low-energy interband links lack multipolarity characterization",
+        "crossover_457keV_kinematic_factor": 5.633,
+        "small_angle_f_condition_passed": false,
+        "protocol_gate_status": "Failed Gates 1, 3, 4 (incomplete ladder, unmeasured threshold links, f(n,I) >> 1)"
+      }
+    },
+    "pd105_degeneracy_audit": {
+      "transitions": [
+        {
+          "transition": "Band B -> Band A (21/2- -> 19/2-)",
+          "energy_keV": 991.0,
+          "delta_timar": 1.8,
+          "delta_timar_err": 0.5,
+          "delta_rickey": 0.46,
+          "delta_nomura_ibfm": 0.727,
+          "be2_out_in_timar": 0.66,
+          "be2_out_in_timar_err": 0.18,
+          "fe2_timar_pct": 76.42,
+          "fm1_timar_pct": 23.58,
+          "fe2_rickey_pct": 17.46,
+          "fm1_rickey_pct": 82.54,
+          "rickey_e2_collapse_factor": 4.38,
+          "be2_out_in_rickey": 0.151,
+          "fe2_nomura_pct": 34.58,
+          "fm1_nomura_pct": 65.42,
+          "nomura_e2_collapse_factor": 2.21,
+          "be2_out_in_nomura": 0.299
+        },
+        {
+          "transition": "Band B -> Band A (25/2- -> 23/2-)",
+          "energy_keV": 1034.0,
+          "delta_timar": 2.3,
+          "delta_timar_err": 0.3,
+          "delta_rickey": 0.62,
+          "delta_nomura_ibfm": 0.817,
+          "be2_out_in_timar": 0.6,
+          "be2_out_in_timar_err": 0.09,
+          "fe2_timar_pct": 84.1,
+          "fm1_timar_pct": 15.9,
+          "fe2_rickey_pct": 27.77,
+          "fm1_rickey_pct": 72.23,
+          "rickey_e2_collapse_factor": 3.03,
+          "be2_out_in_rickey": 0.198,
+          "fe2_nomura_pct": 40.03,
+          "fm1_nomura_pct": 59.97,
+          "nomura_e2_collapse_factor": 2.1,
+          "be2_out_in_nomura": 0.286
+        },
+        {
+          "transition": "Band B -> Band A (29/2- -> 27/2-)",
+          "energy_keV": 994.0,
+          "delta_timar": 2.7,
+          "delta_timar_err": 0.6,
+          "delta_rickey": null,
+          "delta_nomura_ibfm": 0.851,
+          "be2_out_in_timar": 0.34,
+          "be2_out_in_timar_err": 0.07,
+          "fe2_timar_pct": 87.94,
+          "fm1_timar_pct": 12.06,
+          "fe2_nomura_pct": 42.0,
+          "fm1_nomura_pct": 58.0,
+          "nomura_e2_collapse_factor": 2.09,
+          "be2_out_in_nomura": 0.162
+        }
+      ],
+      "prm_quenching": {
+        "q_quenching": 0.36,
+        "m1_suppression_factor": 7.716,
+        "delta_apparent_magnification": 2.7778
+      },
+      "conclusions": {
+        "rickey_small_root_collapse": "E2 strength drops by 3.0x - 6.1x to non-collective levels (B(E2)_out/in = 0.10 - 0.22)",
+        "nomura_ibfm_reproduction": "IBFM naturally reproduces small roots (|delta| ~ 0.7 - 0.8) without 7.7x artificial M1 quenching",
+        "protocol_gate_status": "Failed Gate 1 (unresolved branch conflict with Rickey 1974) and Gate 4 (f(n,I) >> 1)"
+      }
+    },
+    "cross_campaign_protocol_matrix": [
+      {
+        "nucleus": "163Lu",
+        "mode_claimed": "Transverse wobbling (1- & 2-phonon)",
+        "primary_sources": [
+          "Odegard 2001",
+          "Jensen 2002"
+        ],
+        "cross_campaign": "EUROBALL III & IV",
+        "gate1_multipolarity": "Passed for n=1 (476 keV n=2 lacks polarization, two roots preserved)",
+        "gate2_collective_e2": "Passed (TSD absolute lifetime measured, Qt ~ 10 eb, B(E2)_out ~ 60-80 W.u.)",
+        "gate3_phonon_scaling": "Partial (n=1 established; n=2 branch dual-solution)",
+        "gate4_kinetic_small_angle": "Passed (TSD superdeformed Jm ~ 64, I > 20, R >> j, f(n,I) < 0.15)",
+        "gate5_configuration_purity": "Passed (stable TSD band, no shears interference)",
+        "final_status": "Confirmed wobbling benchmark (n=1 rigorous; n=2 conditional on 476 keV root)"
+      },
+      {
+        "nucleus": "135Pr",
+        "mode_claimed": "Transverse wobbling (TW1 & TW2)",
+        "primary_sources": [
+          "Matta 2015",
+          "Sensharma 2019",
+          "Lv 2022"
+        ],
+        "cross_campaign": "INGA vs ATLAS vs JUROGAM II",
+        "gate1_multipolarity": "Failed (Lv 2022 P-Rac confirms small root delta=-0.37, 88% M1; Matta A>0 was fallacy)",
+        "gate2_collective_e2": "Failed (B(E2)_out collapses 7-fold to single-particle level; lifetime missing)",
+        "gate3_phonon_scaling": "Failed (TW2 disproven by Lv 2022, restructured as Bands 4/5)",
+        "gate4_kinetic_small_angle": "Failed (R ~ 1-3 hbar, f(n,I) ~ 0.5-1.5 >> 1)",
+        "gate5_configuration_purity": "Failed (3qp shears band D1 intersects at 29/2- inducing turnaround)",
+        "final_status": "Disproven as wobbling; reinterpreted as Tilted Precession (TiP)"
+      },
+      {
+        "nucleus": "187Au",
+        "mode_claimed": "Longitudinal wobbling (LW1 & LW2)",
+        "primary_sources": [
+          "Sensharma 2020",
+          "Guo 2022"
+        ],
+        "cross_campaign": "Gammasphere vs HIRFL/AFRODITE",
+        "gate1_multipolarity": "Failed (Guo 2022 P-Rac + alpha_K establishes small root delta=-0.26, 94% M1)",
+        "gate2_collective_e2": "Failed (B(E2)_out collapses 88-fold to 1.1e-4 e2b2; lifetime missing)",
+        "gate3_phonon_scaling": "Failed (Band 3 disproven as 188Pt impurity peak)",
+        "gate4_kinetic_small_angle": "Failed (f(n,I) >> 1, R ~ 1-3 hbar)",
+        "gate5_configuration_purity": "Failed (interband links are orbital single-particle transitions)",
+        "final_status": "Disproven as wobbling; reinterpreted as orbital single-particle excitation"
+      },
+      {
+        "nucleus": "105Pd",
+        "mode_claimed": "One-neutron transverse wobbling",
+        "primary_sources": [
+          "Timar 2019",
+          "Nomura 2022",
+          "Rickey 1974"
+        ],
+        "cross_campaign": "EUROBALL IV vs legacy cyclotron",
+        "gate1_multipolarity": "Contested (Timar large root requires 7.7x PRM M1 quenching; Rickey & IBFM give small roots)",
+        "gate2_collective_e2": "Contested (small root gives 3-6x B(E2) collapse; no partner-resolved lifetime)",
+        "gate3_phonon_scaling": "Failed (Band C overpredicted by 500 keV; no multiphonon ladder)",
+        "gate4_kinetic_small_angle": "Failed (f(n,I) ~ 0.6-1.1 >> 1 at low spins)",
+        "gate5_configuration_purity": "Failed (configuration changes and backbending at I=29/2-)",
+        "final_status": "Unverified/Disproven; naturally explained by IBFM gamma-soft coupling"
+      },
+      {
+        "nucleus": "133La",
+        "mode_claimed": "Longitudinal wobbling",
+        "primary_sources": [
+          "Biswas 2019",
+          "Nomura 2022"
+        ],
+        "cross_campaign": "INGA",
+        "gate1_multipolarity": "Contested (assumed sigma/I=0.3 in DCO; alternative small root gives 7.4x collapse)",
+        "gate2_collective_e2": "Unverified (only relative ratios; zero partner-resolved lifetime measurements)",
+        "gate3_phonon_scaling": "Failed (no second phonon candidate reported)",
+        "gate4_kinetic_small_angle": "Failed (f(n,I) >> 1; pair-alignment MoI inversion is model assumption)",
+        "gate5_configuration_purity": "Contested (model requires ad-hoc positive-parity proton pair alignment)",
+        "final_status": "Unverified; alternative IBFM gamma-soft explanation highly competitive"
+      },
+      {
+        "nucleus": "133Ba",
+        "mode_claimed": "Hole-like multiphonon transverse wobbling",
+        "primary_sources": [
+          "Rojeeta Devi 2021",
+          "Nomura 2022"
+        ],
+        "cross_campaign": "INGA",
+        "gate1_multipolarity": "Incomplete (146 and 219 keV unmeasured; crossover 457 keV magnified 5.6x by E^5)",
+        "gate2_collective_e2": "Unverified (zero partner-resolved lifetime measurements; pure relative ratios)",
+        "gate3_phonon_scaling": "Failed (ladder disconnected due to missing low-energy link multipolarities)",
+        "gate4_kinetic_small_angle": "Failed (f(n,I) >> 1; core angular momentum R ~ 2-6 hbar)",
+        "gate5_configuration_purity": "Contested (gamma-soft 132Ba core with E(2_2+) ~ 1.0 MeV)",
+        "final_status": "Unverified/Incomplete; fails multi-phonon closure and small-angle validity"
+      },
+      {
+        "nucleus": "131Xe",
+        "mode_claimed": "Null control (unfavored signature partner)",
+        "primary_sources": [
+          "Chakraborty 2023",
+          "Banik 2020"
+        ],
+        "cross_campaign": "VECC INGA",
+        "gate1_multipolarity": "Rigorous negative (delta = 0.00-0.09, M1 > 99.2%, B(E2)_out negligible)",
+        "gate2_collective_e2": "Rigorous negative (no interband E2 enhancement; B(M1)/B(E2) staggering confirms signature)",
+        "gate3_phonon_scaling": "Not applicable (pure single-particle signature partner)",
+        "gate4_kinetic_small_angle": "Not applicable (gamma=33 deg triaxiality insufficient to create wobbling)",
+        "gate5_configuration_purity": "Rigorous benchmark (confirms gamma-softness prevents stable wobbling)",
+        "final_status": "Rigorous Gold-Standard Null Control: Triaxiality does not imply wobbling"
+      }
+    ]
+  }
+}

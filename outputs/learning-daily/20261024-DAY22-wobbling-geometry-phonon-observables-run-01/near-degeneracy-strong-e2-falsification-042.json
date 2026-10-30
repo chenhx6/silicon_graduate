@@ -1,0 +1,32 @@
+{
+  "audit_id": "day22-near-degeneracy-strong-e2-falsification-042",
+  "theorem": "Near-degeneracy of excitation energy combined with apparent or in-band strong E2 transitions is fundamentally INSUFFICIENT to establish either wobbling motion or nuclear chirality. Three decisive counterexamples prove that such signals can be completely simulated by: (1) mixing ratio dual-solution ambiguity (135Pr), (2) asymmetric branching/phase space in chiral vibrations (135Nd), and (3) level repulsion in multi-quasiparticle band crossings (134Pr).",
+  "cases": [
+    {
+      "nucleus": "135Pr",
+      "apparent_signal": "Near-degenerate band spacing (Delta E ~ 400 - 550 keV) + apparent enhanced interband E2 from Matta 2015 unverified large root (delta = -1.54, B(E2_out)/B(E2_in) ~ 0.54, 70% E2).",
+      "falsifying_reality": "Linear polarization and Rac angular correlation uniquely select the small root delta = -0.37 (88% M1), collapsing B(E2_out) by 7.0x to single-particle strength (0.12). Small-angle parameter f(1,I) = 0.48 - 0.62 >> 0.1 completely fails harmonic wobbling expansion.",
+      "physical_truth": "3D Tilted Precession (TiP) of a single h11/2 quasiproton, with avoided crossing with 3qp magnetic rotation shears band at I ~ 29/2 hbar.",
+      "mode_falsified": "Transverse Wobbling"
+    },
+    {
+      "nucleus": "135Nd",
+      "apparent_signal": "Near-degenerate band spacing (Delta E ~ 300 keV) + highly symmetric in-band strong E2 transitions (B(E2)_B / B(E2)_A = 0.875 - 0.906, ~80 W.u.).",
+      "falsifying_reality": "Mukhopadhyay 2007 Table I DSAM lifetimes reveal a systematic 2-fold divergence in total state lifetimes (tau_B / tau_A = 1.95 - 2.29 in 31/2- to 37/2-), collapsing to 1.09 only at 39/2-. Compensated by E_gamma^5 and decay branch differences.",
+      "physical_truth": "Large-amplitude Chiral Vibration crossing over to Static Chirality at high spin, disproving ideal static degeneracy at lower spins.",
+      "mode_clarified": "Chiral Vibration vs Static Chirality"
+    },
+    {
+      "nucleus": "134Pr",
+      "apparent_signal": "Near-degenerate energy gaps at I = 15, 16 (Delta E = 36 and 44 keV) + regular rotational bands.",
+      "falsifying_reality": "Petrache 2006 de-mixing analysis reveals an intrinsic quadrupole moment ratio Q0,1 / Q0,2 = 2.0(4), corresponding to a 4.0x asymmetry in intrinsic B(E2) strength.",
+      "physical_truth": "Level repulsion (V ~ 14 - 17 keV) between crossing 4-quasiparticle configurations, completely disproving ideal chiral symmetry.",
+      "mode_falsified": "Ideal Nuclear Chirality"
+    }
+  ],
+  "universal_necessary_conditions": [
+    "1. Direct experimental root resolution (via polarization magnitude sigma_P <= 0.05-0.08 or internal conversion alpha_K) to eliminate M1 dominance disguised as E2;",
+    "2. State-resolved absolute level lifetimes (DSAM/RDDS) to verify intrinsic quadrupole moment homothety (Qt_1 == Qt_2) rather than assuming equal deformation;",
+    "3. Verification of alignment invariance (Delta ix == 0) across spin to rule out level repulsion from multi-quasiparticle band crossings."
+  ]
+}

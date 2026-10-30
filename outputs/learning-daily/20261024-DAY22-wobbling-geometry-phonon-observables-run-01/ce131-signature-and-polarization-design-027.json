@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-10-24T10:33:56.358266+00:00",
+  "audit_name": "Day 22 Checkpoint 027 131Ce Signature and Polarimetry Design Audit",
+  "sections": {
+    "signature_selection_rule": {
+      "transitions": [
+        {
+          "energy_keV": 871.2,
+          "Ji": "19/2-",
+          "alpha_i": -0.5,
+          "Jf": "15/2-",
+          "alpha_f": -0.5,
+          "delta_I": 2,
+          "multipolarity": "E2"
+        },
+        {
+          "energy_keV": 994.3,
+          "Ji": "19/2-",
+          "alpha_i": -0.5,
+          "Jf": "15/2-",
+          "alpha_f": -0.5,
+          "delta_I": 2,
+          "multipolarity": "E2"
+        },
+        {
+          "energy_keV": 1108.0,
+          "Ji": "23/2-",
+          "alpha_i": -0.5,
+          "Jf": "19/2-",
+          "alpha_f": -0.5,
+          "delta_I": 2,
+          "multipolarity": "E2"
+        }
+      ],
+      "verdict": {
+        "phonon_signature_rule": "A 1-phonon wobbling excitation carries wobbling phonon quantum number n_w = 1 and signature alpha_w = 1; thus, for an odd-A nucleus with yrast signature alpha_0 = -1/2, the n_w = 1 band MUST have signature alpha_1 = alpha_0 + 1 = +1/2",
+        "selection_rule_implication": "All transitions from n_w = 1 to n_w = 0 must change signature by Delta-alpha = 1, restricting interband transitions to odd spin differences: Delta-I = 1, 3, ... (M1, E2, E3). Transitions with Delta-I = 2 connect states of identical signature (Delta-alpha = 0) and are strictly forbidden for 1-phonon wobbling",
+        "experimental_observation": "Alwaleedi 2013 Table 4.2 / Fig. 4.1 establishes 3 clean Delta-I = 2 E2 transitions (871.2, 994.3, 1108.0 keV) directly connecting Band 4 to Band 1",
+        "mathematical_falsification": "The presence of prominent Delta-I = 2 E2 interband transitions directly rules out Band 4 as a 1-phonon wobbling excitation of Band 1, independent of any mixing ratio measurement",
+        "physical_interpretation": "Band 4 is either a signature-coupled multi-quasiparticle structure or a gamma-vibrational excitation (Delta-K = 2, Delta-alpha = 0) built on the triaxial/gamma-soft core"
+      }
+    },
+    "polarimetry_design": {
+      "transitions_keV": [
+        504.9,
+        538.3,
+        611.1
+      ],
+      "delta_small_root": -0.405,
+      "p90_small": 0.0443,
+      "fe2_small_pct": 14.1,
+      "delta_large_root": -2.0,
+      "p90_large": 0.6521,
+      "fe2_large_pct": 80.0,
+      "polarization_difference_DeltaP": 0.6078,
+      "required_experimental_precision_3sigma": 0.2026,
+      "required_experimental_precision_4sigma": 0.152,
+      "specification": "A Compton polarimeter measurement achieving sigma_P <= 0.15 will separate the small root from the large root at > 4 sigma statistical confidence, providing an unequivocal resolution of the multipolarity"
+    }
+  }
+}
