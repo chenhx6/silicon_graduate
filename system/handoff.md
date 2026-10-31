@@ -4969,3 +4969,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
   `134Pr` Tonev07 remains the stronger line-level control with unresolved mixed-`M1/E2`
   decomposition, and Tonev06/07 remain one experimental lineage. This was a verified no-op;
   no additional knowledge page or curriculum credit was created.
+- P4 `90Zr` method-separated E3 arithmetic was independently rechecked against the existing
+  note: the printed-summary difference remains about `1.04–1.06σ`. Missing cross-method
+  producer, feeding alignment and joint covariance keep the route at conditional L3; no
+  pooled estimate or static-shape claim was added.

@@ -120,6 +120,7 @@ q_i(\delta,\eta)=\frac{a_i(\eta)+2b_i(\eta)\delta+c_i(\eta)\delta^2}{1+\delta^2}
 - 该新增结果只闭合 source identity；它没有闭合 event/run overlap、跨阵列 response 等价性、联合 `Σ`、独立 holdout 或原始 counts，因此 `135Pr` 仍停在 L3 public-summary/readiness boundary。
 - `135Pr` source-to-raw 与 observable lineage ledger 已写入 `knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md`，并同步更新 prospectus；Day29 学分保持不变，Day30 仍未计分。
 - P3 `135Nd/134Pr` 只读复核未产生新写回：`MU07-11` 仍是 state-level `τ/B`，`TO07-D24-001/002/003` 仍是更完整但含未分解混合线的逐线控制，`TO07-D24-007` 保持 Tonev06/07 同谱系边界；缺 producer、feeding、response 和 joint covariance，停在 L3 identity audit。
+- P4 `90Zr` 2024/2026 方法分离复核为 verified-no-op：已有 note 的 `16(3)` 与 `19.6^{+1.7}_{-1.6}` W.u. 条件差异复算为约 `1.04–1.06σ`，但缺跨方法 producer、feeding 对齐和 joint covariance，不能 pooled 或升级为静态八极结论。
 
 ## Knowledge writeback
 
@@ -216,6 +217,7 @@ knowledge-writeback:
   verified_no_op:
     - "No raw file, PLAN.md, 131Xe canonical page or curriculum state was modified; event-level overlap and common-response inputs remain unresolved."
     - "P3 135Nd/134Pr read-only audit added no durable fact beyond the existing identity ledger; no line-level conversion, pooled fit or mechanism ranking was performed."
+    - "P4 90Zr method-separated E3 arithmetic reproduced the existing conditional 1.04–1.06 sigma comparison; no new source, pooled estimate or static-shape claim was added."
 ```
 
 ## Artifacts and continuation
