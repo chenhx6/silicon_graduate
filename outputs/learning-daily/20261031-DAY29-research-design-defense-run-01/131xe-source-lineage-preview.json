@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-31-day-29-01",
+  "preview_day_index": 30,
+  "status": "partial-preview-uncredited",
+  "records": [
+    {
+      "source_page": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+      "raw_file": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/banik-2020-131xe-reaction/PDFs/Banik_et_al_2020_131Xe_multiple_band_structures.pdf",
+      "declared_sha256": "21e7e1eed7a93ffc3c38f4580fcf93863d02c56e40ffc900b1634df14c7f34e6",
+      "observed_sha256": "21e7e1eed7a93ffc3c38f4580fcf93863d02c56e40ffc900b1634df14c7f34e6",
+      "match": true,
+      "lineage_role": "primary-analysis"
+    },
+    {
+      "source_page": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+      "raw_file": "raw/papers/2023_Chakraborty et al_Search for the origin of wobbling motion in the A ≈ 130 region The case of Xe 131.pdf",
+      "declared_sha256": "730db39eb9a5aecd3bbce1dce3cb9c32829eb2f4a2062ee31c59ddc4d52bd9ff",
+      "observed_sha256": "730db39eb9a5aecd3bbce1dce3cb9c32829eb2f4a2062ee31c59ddc4d52bd9ff",
+      "match": true,
+      "lineage_role": "dependent-reanalysis"
+    }
+  ],
+  "boundary": "Local file identity is closed; historical primary recovery, event-level response and joint covariance remain open."
+}

@@ -19,7 +19,7 @@ updated: 2026-10-31
 - closeout_window_ends_at: `2026-11-01T16:00:00+08:00`
 - runtime_snapshot_at_start: `2026-10-31T20:19:43.035873+08:00`
 - completed_day_indices: [29]
-- partial_day_indices: []
+- partial_day_indices: [30]
 - next_day_index: 30
 - research_status: completed
 - Day 29 card audit: complete
@@ -121,11 +121,14 @@ q_i(\delta,\eta)=\frac{a_i(\eta)+2b_i(\eta)\delta+c_i(\eta)\delta^2}{1+\delta^2}
 - `135Pr` source-to-raw 与 observable lineage ledger 已写入 `knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md`，并同步更新 prospectus；Day29 学分保持不变，Day30 仍未计分。
 - P3 `135Nd/134Pr` 只读复核未产生新写回：`MU07-11` 仍是 state-level `τ/B`，`TO07-D24-001/002/003` 仍是更完整但含未分解混合线的逐线控制，`TO07-D24-007` 保持 Tonev06/07 同谱系边界；缺 producer、feeding、response 和 joint covariance，停在 L3 identity audit。
 - P4 `90Zr` 2024/2026 方法分离复核为 verified-no-op：已有 note 的 `16(3)` 与 `19.6^{+1.7}_{-1.6}` W.u. 条件差异复算为约 `1.04–1.06σ`，但缺跨方法 producer、feeding 对齐和 joint covariance，不能 pooled 或升级为静态八极结论。
+- Day30 有界预览完成 `131Xe` 两篇核心 PDF 的 source→raw SHA-256 对账；这只确认本地文件身份和既有 `primary-analysis`/`dependent-reanalysis` 字段，Day30 学分不推进。
+- agent 配置与性能只读审计完成：四树基线确认 `skills/`、`hooks/`、`plugins/` 按本仓库设计不存在，`tools/nndc_mcp/` 的缓存、虚拟环境和字节码目录均被忽略；preflight 三次中位数 `17.447 s`，boundary 三次中位数 `22.641 s`，两者均三次退出码 `0`。没有实测前后对比支持优化，故记录 verified-no-op。
+- NNDC 连接器的当前共享运行时不匹配已隔离：仓库依赖固定 `mcp==1.29.0`，共享 `/opt/venv` 提供 MCP 2.x；pytest 未安装，不能宣称测试通过。该差异属于 Windows-local 运行前提，不升级源码、不改依赖、不生成科学事实。
 
-## Knowledge writeback
+## Historical writeback ledger
 
 ```yaml
-knowledge-writeback:
+historical-writeback:
   status: complete
   writeback_valid: true
   items:
@@ -214,16 +217,55 @@ knowledge-writeback:
       changed_paths:
         - knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md
       writeback_valid: true
+    - knowledge: knowledge/research-notes/131xe-day29-research-design-defense.md
+      anchor: "Day30 bounded preview: source-to-raw identity"
+      sources:
+        - path: knowledge/sources/banik-2020-131xe-multiple-band-structures.md
+          locator: "BNK20-D28-3"
+        - path: knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md
+          locator: "C23-D28-9"
+      changed_paths:
+        - knowledge/research-notes/131xe-day29-research-design-defense.md
+        - outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/131xe-source-lineage-preview.json
+      writeback_valid: true
   verified_no_op:
     - "No raw file, PLAN.md, 131Xe canonical page or curriculum state was modified; event-level overlap and common-response inputs remain unresolved."
     - "P3 135Nd/134Pr read-only audit added no durable fact beyond the existing identity ledger; no line-level conversion, pooled fit or mechanism ranking was performed."
     - "P4 90Zr method-separated E3 arithmetic reproduced the existing conditional 1.04–1.06 sigma comparison; no new source, pooled estimate or static-shape claim was added."
+    - "Agent configuration, external hotlist and performance audit produced no safe repository-local upgrade; no skills/hooks/plugins directory was created and no source or raw file was modified."
+```
+
+## Durable knowledge delta
+
+```knowledge-writeback
+{
+  "status": "updated",
+  "items": [
+    {
+      "knowledge": "knowledge/research-notes/131xe-day29-research-design-defense.md",
+      "summary": "Day30 bounded preview closes the local source-to-raw identity check while preserving the same-acquisition and unresolved response boundary.",
+      "anchor": "Day30 bounded preview: source-to-raw identity",
+      "sources": [
+        {
+          "path": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+          "locator": "BNK20-D28-3"
+        },
+        {
+          "path": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+          "locator": "C23-D28-9"
+        }
+      ]
+    }
+  ]
+}
 ```
 
 ## Artifacts and continuation
 
 - 正式知识写回：`knowledge/research-notes/131xe-day29-research-design-defense.md`
 - `135Pr` source→raw 对账：`outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/135pr-source-raw-reconciliation.json`
+- `131Xe` Day30 有界预览对账：`outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/131xe-source-lineage-preview.json`
+- agent 配置与性能审计：`outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/agent-runtime-audit.json`
 - `135Pr` 共同响应合同：`knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md`
 - 承接项目：`knowledge/projects/131xe-low-spin-partner-crosswalk.md`
 - 既有设计合同：`knowledge/research-notes/131xe-882-branch-response-contract.md`
@@ -232,8 +274,11 @@ knowledge-writeback:
 
 ## Self-audit
 
-- `wiki_lint.py --fail-on error`: exit `0`, `0 errors / 437 warnings / 5224 info`.
+- `wiki_lint.py --fail-on error`: exit `0`, `0 errors / 436 warnings / 5224 info`.
 - `wiki_boundary_check.py --root .`: exit `0`; `git diff --check`: exit `0`.
+- `python3 -m compileall -q tools/nndc_mcp system/scripts/wiki_automation_preflight.py system/scripts/wiki_boundary_check.py system/scripts/wiki_lint.py`: exit `0`.
+- `pytest` is unavailable in the shared runtime; the NNDC test suite was not claimed as passing. Direct server startup is blocked by the documented `mcp==1.29.0` versus shared MCP 2.x environment mismatch.
+- Three-source agent hotlist audit was read-only; GitHub/GitLab returned sorted results, Gitee returned an empty result, and no external skill was imported.
 - No raw files were changed, moved, deleted or overwritten.
 - No `PLAN.md` or curriculum prompt was modified.
 - No synthetic counts, response matrices, holdout data or event-level L4 results were created.

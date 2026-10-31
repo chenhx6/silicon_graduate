@@ -4973,3 +4973,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
   note: the printed-summary difference remains about `1.04–1.06σ`. Missing cross-method
   producer, feeding alignment and joint covariance keep the route at conditional L3; no
   pooled estimate or static-shape claim was added.
+- Day30 partial preview `[30]` now records a source→raw SHA-256 match for the Banik 2020
+  primary-analysis PDF and Chakraborty 2023 dependent-reanalysis PDF. `next_day_index=30`
+  is unchanged; the full Day30 lineage/claim-language/path audit remains uncredited.
+- 2026-10-31T22:24:00+08:00 agent/runtime audit：四树基线为 `skills/`、`hooks/`、`plugins/` 缺失且按当前 Wiki 设计保持缺失，`tools/nndc_mcp/` 的运行目录均被 Git 忽略；preflight 三次中位数 `17.447 s`、boundary 三次中位数 `22.641 s`，均退出码 `0`，没有足够的 before/after 证据实施优化。共享环境的 MCP 2.x 与连接器 `mcp==1.29.0` 不匹配，pytest 未安装，均记录为验证限制而非源码升级依据。三源热榜仅作只读候选发现，未导入外部技能；详见 `agent-runtime-audit.json`。

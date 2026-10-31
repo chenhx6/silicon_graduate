@@ -149,6 +149,15 @@ tags: [131xe, research-design, parity, mixing-ratio, angular-distribution, polar
 
 本地 `Banik 2020` 与 `Chakraborty 2023` 原件足以支持 794.8-keV 版本冲突、881.8/880.1 双峰识别和门关系；后者明确是前者同一 INGA 数据的重分析。ENSDF adopted PDF 和 BrIcc 分别是评价资料与理论响应，不能增加独立实验权重。
 
+### Day30 bounded preview: source-to-raw identity
+
+作为下一张课程卡的有界预览，按 source 页 `raw_file`/`raw_sha256` 对本地两份核心 PDF
+执行 SHA-256 对账：Banik 2020 与 Chakraborty 2023 均匹配。该检查闭合本地文件身份，
+并与 `lineage_id: vecc-131xe-inga-38mev-130te-a3n`、`lineage_role: primary-analysis`
+以及 `dependent-reanalysis` 字段一致；它不增加独立实验计数，也不替代 1979/1983
+逐线 primary、794-keV 电子响应或 882-keV event-level response/Cov。Day30 仍是
+未计分预览，未完成其完整课程审计。
+
 ## Sources and locators
 
 - [[banik-2020-131xe-multiple-band-structures]] `BNK20-D28-2/3`, `BNK20-D28-3`, `BNK20-D28-1`
@@ -158,6 +167,8 @@ tags: [131xe, research-design, parity, mixing-ratio, angular-distribution, polar
 - [[131xe-1601-parity-version-boundary]] ICC/ENSDF boundary and BrIcc nominal envelope
 - [[rose-brink-1967-phase-defined-angular-distributions]] `RB67-11`, `RB67-D23-001`, `RB67-D23-003`
 - [[two-point-angular-correlation-ratio]] method inputs and geometry-transfer limits
+- [[banik-2020-131xe-multiple-band-structures]] frontmatter `raw_file`/`raw_sha256`
+- [[chakraborty-2023-131xe-wobbling-origin]] frontmatter `raw_file`/`raw_sha256`
 
 ## Human review
 
