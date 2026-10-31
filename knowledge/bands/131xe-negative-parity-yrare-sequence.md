@@ -3,7 +3,7 @@ type: band
 title: ¹³¹Xe yrare 负宇称序列
 aliases: [131Xe unfavoured signature candidate, 131Xe 9/2- 341 keV sequence]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-10-30
 status: active
 review_status: human-reviewed
 nucleus: 131xe
@@ -41,12 +41,12 @@ tags: [signature-partner, negative-parity, yrare]
 
 ## Proposed Interpretation
 
-低 δ 和约 1% 的 E2 admixture 反对 wobbling，支持普通 [[signature-partner-bands]]。
+2023作者将所选小δ分支解释为普通 [[signature-partner-bands]]，并据此认为未见 wobbling 信号；这一判断受Fig.5另一负δ交点、缺失的882响应合同和未获得的绝对强度/寿命限制，不能升级为排他结论。
 
 ## Discriminating Observables
 
-- `δ671=0.03(3)`、`δ882=0.09(8)`；
-- 1055 keV δ 约为 0；
+- `δ671=0.03(3)`、`δ882=0.09(8)`（882为Fig.5所选小根，不是全局唯一解）；
+- 1055 keV 图内标注为 `δ=0.1(2)`；正文称其接近零，不能改写成旧的 `0.00(2)`；
 - yrare 17/2- 的 `B(M1)/B(E2)=1.27(14)` 与 TPRM 1.27 一致。
 
 ## Competing Interpretations
@@ -56,6 +56,15 @@ tags: [signature-partner, negative-parity, yrare]
 ## Sources
 
 - [[chakraborty-2023-131xe-wobbling-origin]]
+- [[131xe-same-parent-strength-identifiability]]
+- [[131xe-882-branch-response-contract]]
+
+## Day28 Evidence Boundary
+
+- `δ882=0.09(8)`是Fig.5所选小解；负δ区仍有第二交点，RDCO单独不提供全局唯一性。
+- `1055`的实际小解为`0.1(2)`；中心值对应约1%的E2光子份额，但区间映射不是新的置信区间。
+- `B(M1)/B(E2)=1.27(14)`与模型值的对账依赖同一强度比、δ和模型能量约定；不能把两个派生量当独立确认，也不能把作者的有界signature-partner解释升级为排他证明。
+- 881.8/880.1双线峰形、门选、取向、偏振响应和联合协方差仍缺失；详见 [[131xe-882-branch-response-contract]]。本节Day28新增判断保持 `needs_review: true`。
 
 ## Evolution Log
 

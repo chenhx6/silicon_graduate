@@ -3,7 +3,7 @@ type: source
 title: "Banik et al. 2020 - Multiple band structures in 131Xe"
 aliases: [Banik 2020 131Xe INGA experiment, 131Xe alpha-induced multiple bands]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-30
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -102,8 +102,20 @@ Jehangir et al. 2022 的 TPSM Fig. 7 用先前的 `131Xe` 数据 Refs. [52]–[5
 > checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
 
 
-依据独立审计程序 `system/scripts/day19_xe131_wobbling_null_control_audit.py` 的 9 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/xe131-wobbling-null-control-result-047.json`，核准了本篇与 Chakraborty 2023 同一 INGA 数据集再分析的谱系映射与形变动力学事实：
+本节旧脚本 `system/scripts/day19_xe131_wobbling_null_control_audit.py` 和输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/xe131-wobbling-null-control-result-047.json` 仅保留为历史审计资产。Day28 原件回核撤回下列动力学认证；共享数据谱系仍有直接原文支持，但不认证其它旧推断。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| BNK20-D19-1 | 对账证实 Banik 2020 与 Chakraborty 2023 共享同一套 38-MeV INGA 原始实验事件；Chakraborty 2023 对本篇能级纲图进行再分析，所识别的 671、882、1055 keV 连接跃迁其混合比 $\delta$ 极小（$0.00\text{--}0.09$，磁偶极成分 $>99.2\%$），排除了本篇负宇称侧带属于集体摇摆声子的可能性，确立了其作为 $\nu h_{11/2}$ 传统不利旋称伙伴带的属性。这与本篇 TRS 计算揭示的宽浅 $\gamma$-软势能面（随转频在浅三轴谷与宽平坦区演化）完全自洽：平坦的 $\gamma$ 势能面无法提供维持谐振摇摆振动所需的刚性恢复力，导致三轴核中的进动模式退化为常规的单粒子旋称劈裂。 | cross-analysis-and-model-boundary | direct-and-derived | PRC 101, 044306 pp.7-14; Figs.3,17-20; xe131-wobbling-null-control-result-047.json | true |
+| BNK20-D19-1 | superseded / withdrawn by Day28。保留2023论文明确重分析2020数据的谱系事实；撤回将671/882/1055全并为同一侧带、M1>99.2%的全局上限、由浅γ势直接推出进动必然退化及排除全部负宇称侧带 wobbling 的断言。本篇 B1(a) 与 B5 是不同网络；2023的低自旋结果不能自动裁定整个高自旋B1(a)。 | correction-and-evidence-boundary | source-rechecked | BNK20-D28-1; BNK20-D28-2; Chakraborty2023 Figs.1,4,5 | true |
+
+## Day28：B1(a)、B5 与低自旋重分析的对象映射
+
+本轮局部回核 printed `044306-4` Fig.3、`044306-5/6` Table I、`044306-8/9/10` B1(a)/B5 的放置与讨论；不把这次局部回读称为重新完整精读15页，不重审原有字段。原 PDF 哈希未变。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| BNK20-D28-1 | B1(a) 是高自旋网络，Fig.3 给2299-keV 21/2− 及其682-keV线接1617-keV 19/2−；另有3509-keV 27/2− 等成员。B5 包含1045.8-keV 13/2−、1861.5-keV 17/2(−) 与1903.1-keV另一17/2−等分支；705/816-keV 低自旋成员已在2020图表中，B5 全带并非2023单链的逐项同义词。 | experimental-report-and-local-identity | direct | Fig.3, printed 044306-4; Table I, printed 044306-6; printed 044306-8; printed 044306-10 | true |
+| BNK20-D28-2 | Table I 的794.8(1)-keV线从1600.9(2)-keV 17/2+ 到15/2−，多极性列E1、Iγ=12.56(21)、RDCO=0.55(1)、ΔPDCO=+0.03(1)。该行与2023的17/2−标签需版本对照，不把任一方默判为错误。Table I 的2791.8(3)-keV 23/2+ 通过986.2-keV E2衰变，不是仅靠近能量就可对应2023的2792.1-keV 21/2−。 | experimental-report-and-mapping-boundary | direct | Table I, printed 044306-6; Fig.3 | true |
+| BNK20-D28-3 | 795-keV的E1解释不只出现在一处表格：Fig.4图注将其用作已知E1参照，Table I脚注k将794.8 keV列为E1 DCO门，B3讨论也使用795-keV E1门。多处重复削弱“单个宇称符号偶然排印错”这一简化解释，但不保证该物理指认正确。 | author-assignment-and-countercheck | direct-with-bounded-inference | Fig.4 caption, printed 044306-4; Table I footnote k, printed 044306-6; printed 044306-8 B3 discussion | true |
+
+**Knowledge Impact and Learning Decision — revises / limits。** [[131xe-low-spin-partner-crosswalk]] 固化部分闭合的低自旋映射；保留1903/2090等其它B5分支、高自旋B1(a)、新低自旋链和宇称修订的区别。同数据重分析不能获得独立采集权重；γ-soft TRS 不直接判决有限自旋 wobbling 的动态稳定性。

@@ -3,6 +3,7 @@ type: system-playbook
 title: "常规工程任务执行军规与最佳实践"
 created: 2026-10-30
 updated: 2026-10-30
+graph-excluded: true
 ---
 
 # 常规工程任务执行军规与最佳实践

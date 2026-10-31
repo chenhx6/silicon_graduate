@@ -46,12 +46,28 @@ PRC 112, 034323 (2025), DOI `10.1103/46gk-nqsh`; arXiv:2403.08235v2.
 | Claim ID | Claim Summary | Evidence Type | Direct/Derived | Locator | Review Flag |
 |---|---|---|---|---|---|
 | KAR25-1 | INGA-TIFR 实验测定 $^{105}\text{Pd}$ 包含四个负宇称带：Band 1（yrast，$\alpha=-1/2$），Band 2（$\alpha=+1/2$），Band 3（$\alpha=-1/2$）与 Band 4（$\alpha=+1/2$），跨带跃迁均展现出强烈的 E2 混合比 $|\delta| > 1.5$ 与正偏振度。 | experimental-result | direct | Sec. III, Table I | false |
-| KAR25-2 | Band 2 向 Band 1 的跃迁展现出随自旋下降的摆动能量 $E_{\text{wob}}(I) = 750 \to 450\text{ keV}$ 与增强的带间 $B(E2)/B(E2)_{\text{in}} \approx 0.40 - 0.70$，确立为基于基态构型（$j_s=11/2$）的一声子横向摆动模式 Mode 1。 | experimental-result | direct | Sec. IV, Fig. 5 | false |
-| KAR25-3 | Band 4 向 Band 3 同样展现出完整的带间跃迁阶梯，能量特征与跃迁比完全符合一声子横向摆动特征（$B(E2)/B(E2)_{\text{in}} \approx 0.35 - 0.65$），确立为基于第二准中子取向构型（$j_s=7/2$）的第二声子横向摆动模式 Mode 2。 | experimental-result | direct | Sec. IV, Fig. 6 | false |
-| KAR25-4 | TPSM 微观波函数投影计算证明，Band 3 的内禀角动量在短轴上的投影仅为 $j_s \approx 7/2$，排除了 Timár 2019 提出的 $n_w=2$ 两声子解释，确立该核为核结构中首个被证实的“双重横向摆动（Doublet Wobbling）”体系。 | model-result | direct | Sec. V, Fig. 8, Table II | false |
-| KAR25-5 | 针对 Nomura 2022 基于 IBFM 的 M1 主导质疑与 Lawrie 2020 的 TiP 假说，高精度 DCO 与偏振测量完全排除了小 $|\delta|$ 解，证实带间 $B(E2)$ 真实增强，消除了 A≈100 摆动模式存在的长期争议。 | author-interpretation | direct | Sec. VI, Discussion | false |
+| KAR25-2 | Band 2 向 Band 1 的跃迁展现出随自旋下降的摆动能量 $E_{\text{wob}}(I) = 750 \to 450\text{ keV}$ 与增强的带间 $B(E2)/B(E2)_{\text{in}} \approx 0.40 - 0.70$；作者据此将其解释为基于基态构型（$j_s=11/2$）的一声子横向摆动模式 Mode 1。 | experimental-result | direct | Sec. IV, Fig. 5 | false |
+| KAR25-3 | Band 4 向 Band 3 展现带间跃迁阶梯和相近的跃迁比；作者将其解释为基于第二准中子取向构型（$j_s=7/2$）的另一一声子横向摆动分支 Mode 2。 | experimental-result | direct | Sec. IV, Fig. 6 | false |
+| KAR25-4 | TPSM 波函数投影给出 Band 3 的短轴角动量投影接近 $j_s \approx 7/2$，并使作者的 doublet-wobbling assignment 相比 `n_w=2` 解释更有利；这是模型支持，不是独立几何测量。 | model-result | direct | Sec. V, Fig. 8, Table II | false |
+| KAR25-5 | 作者用 DCO、偏振和相对强度讨论小 `|δ|` 解、IBFM M1 主导解释与 TiP 假说；这些结果限制了竞争解释，但没有在缺少绝对寿命/完整响应协方差时完全排除所有替代机制。 | author-interpretation | direct | Sec. VI, Discussion | false |
 
 ## Cross-Mass-Region Transferability Significance
 
-1. **A≈100 对决 A≈130/160 机制差异**：在 $^{163}\text{Lu}$（A≈160）中，强拉长超形变（$\beta_2 \approx 0.40$）与 $i_{13/2}$ 质子的大角动量支持理想的谐振子式 $n_w = 0, 1, 2$ 多声子激发；而在 $^{105}\text{Pd}$（A≈100，$\beta_2 \approx 0.23, \gamma \approx 23^\circ$）中，三轴软度与准中子 $h_{11/2}$ 的非主轴取向自由度使得体系优先激发第二对齐取向（$j_s = 7/2$），从而形成两个平行的 $n_w = 1$ 双重摆动带，而非高阶多声子态。
-2. **实验判据的严谨性**：确立了在没有多声子 $n_w=2 \to n_w=1 \to n_w=0$ 阶梯电四极辐射连续测定前，不可草率将能量接近 $2\hbar\omega_w$ 的伴带定性为两声子态。
+1. **A≈100 对决 A≈130/160 的模型机制差异**：作者在 $^{105}\text{Pd}$ 的三轴软度和准中子取向框架中提出两个平行 `n_w=1` 分支；这提供可检验的配置机制比较，不能单独作为跨质量区模式定律。
+2. **实验判据的谨慎使用**：本文支持在没有完整多声子阶梯、绝对寿命和共同 response/covariance 时，不应仅凭能量接近 `2ℏω_w` 就把伴带定性为两声子态。
+
+## Summary
+
+本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
+
+## Key Results
+
+原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
+
+## Competing Interpretations and Limitations
+
+竞争解释、来源依赖、原件访问和必要伴随观测缺口按原页面记录；不得把模型结果或评价字段升级为直接实验事实。
+
+## Extracted Pages
+
+本页当前只保留已有 locator；未取得的原始页码、图表或附件不补写，后续摄入必须记录实际阅读范围。

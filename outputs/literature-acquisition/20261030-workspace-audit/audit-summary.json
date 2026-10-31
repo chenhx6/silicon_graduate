@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "audit_id": "20261030-workspace-audit",
+  "policy": {
+    "raw_overwrite": false,
+    "raw_delete": false,
+    "raw_rename": false,
+    "outputs_move": false,
+    "append_only_manifests": true,
+    "protected": [
+      "PLAN.md",
+      "raw/zotero/wiki-inbox.bib",
+      "runner live state",
+      "inherited dirty files"
+    ]
+  },
+  "counts": {
+    "raw_papers_files": 499,
+    "raw_papers_bytes": 1103125818,
+    "outputs_files": 13175,
+    "outputs_bytes": 945050047,
+    "knowledge_reference_rows": 2449,
+    "knowledge_pages_with_reference_rows": 637,
+    "verified_reference_paths": 1103,
+    "unresolved_placeholders": 194,
+    "manual_review_mentions": 1152
+  },
+  "artifacts": [
+    "raw-papers-manifest.tsv",
+    "raw-duplicate-hashes.tsv",
+    "outputs-manifest.tsv",
+    "knowledge-artifact-references.tsv",
+    "source-raw-reconciliation.tsv",
+    "outputs-cleanup-candidates.tsv"
+  ],
+  "next_action": "Review duplicate hashes and missing references before any reversible copy or path migration.",
+  "notes": [
+    "Source-to-raw reconciliation uses the independent YAML/frontmatter parser and supplied raw SHA-256 manifest; it does not reread raw bytes.",
+    "knowledge-artifact-references.tsv remains a conservative path-shape scan and is not a confirmed broken-link list.",
+    "No raw or output file was moved, renamed, overwritten or deleted."
+  ],
+  "source_raw_reconciliation": {
+    "linked-and-manifest-hash-match": 393,
+    "linked-path-missing": 57,
+    "linked-without-declared-hash": 10,
+    "path-present-hash-unverified": 6,
+    "raw-file-unset": 16,
+    "parser": "tmp/day28-audit-parser/results.json",
+    "frontmatter_parse_errors": 1
+  },
+  "cleanup_candidates": {
+    "total": 728,
+    "generated_cache_pyc": 45,
+    "empty_process_artifacts": 677,
+    "manual_copy_candidates": 6
+  }
+}

@@ -3,6 +3,7 @@ type: system-playbook
 title: "博士研究生级科研推演严谨性与证据分层军规"
 created: 2026-10-30
 updated: 2026-10-30
+graph-excluded: true
 ---
 
 # 博士研究生级科研推演严谨性与证据分层军规

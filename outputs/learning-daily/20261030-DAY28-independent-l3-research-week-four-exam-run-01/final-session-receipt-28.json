@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-10-30-day-28-01",
+  "day_index": 28,
+  "session_id": "01a18c85-5ae9-7331-b5b9-bd9ba8082fdd",
+  "resume_command": "codex resume 01a18c85-5ae9-7331-b5b9-bd9ba8082fdd -C /workspace/wiki -s danger-full-access -a never",
+  "closed_at": "2026-10-31T15:47:50+08:00",
+  "hard_deadline": "2026-10-31T15:00:00+08:00",
+  "status": "completed-content-final-not-pushed",
+  "course_state": {
+    "completed_day_indices": [28],
+    "partial_day_indices": [29],
+    "next_day_index": 29
+  },
+  "report": "outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam.md",
+  "completion_audit": "outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/completion-audit-005.json",
+  "continuation": "outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/continuation-011.md",
+  "next_day_prompt": "outputs/learning-daily/prompts/20261031-DAY29-research-design-defense.md",
+  "verification_latest": "outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/verification-041.json",
+  "publication_scope": "outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/publication-scope-004.json",
+  "publication": {
+    "status": "final-not-pushed",
+    "reason": "required full-Wiki lint failed on inherited baseline errors",
+    "lint_errors": 314,
+    "lint_warnings": 433
+  }
+}

@@ -3,7 +3,7 @@ type: source
 title: "Search for the origin of wobbling motion in the A≈130 region: The case of 131Xe"
 aliases: []
 created: 2026-07-01
-updated: 2026-07-16
+updated: 2026-10-30
 status: active
 review_status: human-reviewed
 source_type: journal-article-experiment-and-model
@@ -37,7 +37,7 @@ tags: [a130, wobbling, signature-partner, triaxiality, in-beam-spectroscopy]
 
 ## Bibliographic Record
 
-Physical Review C 107, 064318 (2023)，DOI `10.1103/PhysRevC.107.064318`。本地 PDF 为 8 页 arXiv 版本。
+Physical Review C 107, 064318 (2023)，DOI `10.1103/PhysRevC.107.064318`。2026-10-30 对原文件哈希与版式复核：当前本地 PDF 为 8 页期刊排版，页脚 `064318-1` 至 `064318-8`，首页列 published 27 June 2023；此前“arXiv 版本”的描述撤回。arXiv `2311.09713` 是另一个可访问入口，不因标识相同而把本地期刊 PDF 认成预印本。
 
 ## Scope and Reading Depth
 
@@ -139,7 +139,7 @@ P1: none remaining for this ingest review.
 
 ## Review Status
 
-This source is page-level `human-reviewed`; `C23-1..C23-7` remain `needs_review: false`. Paper-level reuse must still return to the cited transition and model-comparison locators and does not turn TPRM/TPSM agreement into an independent observation.
+This source is page-level `human-reviewed`; `C23-1..C23-7` remain `needs_review: false`. Paper-level reuse must still return to the cited transition and model-comparison locators and does not turn TPRM/TPSM agreement into an independent observation. Day28 的新增核验和旧断言撤回属于 Codex self-audit，不扩展既有人审范围；新增 `C23-D28-*` 均保留 `needs_review: true`。
 
 ## Personal Notes
 
@@ -150,8 +150,27 @@ This source is page-level `human-reviewed`; `C23-1..C23-7` remain `needs_review:
 > checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
 
 
-依据独立审计程序 `system/scripts/day19_xe131_wobbling_null_control_audit.py` 的 9 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/xe131-wobbling-null-control-result-047.json`，系统核准了 Chakraborty 2023（PRC 107, 064318）关于 $^{131}\text{Xe}$ 摇摆模式零对照（Null Control）的量化事实：
+本节记录历史脚本 `system/scripts/day19_xe131_wobbling_null_control_audit.py` 及输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/xe131-wobbling-null-control-result-047.json` 的旧断言。Day28 回核原文后撤回其科学认证；脚本运行成功不认证输入来自原文，也不认证模式解释。旧脚本与输出仅作历史审计资产，不能作为本 source 的独立证据。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| C23-D19-1 | Chakraborty 2023 重新分析 $^{130}\text{Te}(\alpha, 3n\gamma)^{131}\text{Xe}$ 数据，测定 yrare 侧带到 yrast 负宇称带的三条 $\Delta I = 1$ 连接跃迁（671、882、1055 keV）的多极混合比：$\delta = 0.03(3), 0.09(8), 0.00(2)$，其 $E2$ 份额分别仅为 $0.09\%, 0.80\%, 0.00\%$（磁偶极 $M1$ 份额全部超过 $99.2\%$），断然排除了摇摆激发所必须的集体增强 $E2$ 特征（$|\delta| > 1$），确立该带为不利旋称伙伴带（$\alpha = -1/2$）；同时测得 $17/2^-$ 态 $B(M1)/B(E2)$ 比值在有利带与不利带之间呈现 $2.0$ 倍的旋称交错（$2.54 \text{ vs } 1.27\ (\mu_N/e\text{b})^2$），与三轴粒子—转子模型（$\gamma = 33^\circ$）精确吻合。该测量构成了 A≈130 区域判定低自旋摇摆的黄金“零对照基准”：确立了三轴形变（$\gamma \sim 30^\circ$）仅为摇摆出现的必要条件而非充分条件；在偶偶核芯具有平坦 $\gamma$-软势能面（$^{130}\text{Xe}$ 的 $S(4,3,2) = -0.642 < 0$）的物理体系中，弱三轴转动无法提供谐振进动刚度，体系必然色散为常规的单粒子旋称伙伴带。 | quantitative-benchmark-and-criterion | direct-and-derived | PRC 107, 064318 pp.2-8; Table I, Figs.4-5,11; xe131-wobbling-null-control-result-047.json | true |
+| C23-D19-1 | superseded / withdrawn by Day28 source audit。671-keV 线属于 yrast 13/2−，882/1055-keV 线属于 yrare 序列；原文Fig.4标注 δ1055=0.1(2)，正文描述 approximately zero，旧0.00(2)撤回。两个 17/2− 态是 yrast/yrare，不能直接改称 favored/unfavored 带间交错；作者明确说 yrast 比值约为模型两倍。撤回“全部 M1>99.2%”“精确吻合”“黄金零对照”和由 γ-soft 势推出必然色散/无 wobbling 的旧断言。原文未给出该条声称的 S(4,3,2)=-0.642 或此动力学证明；保留作者的低 E2 / signature-partner 解释层，不扩展为普适排他结论。 | correction-and-evidence-boundary | source-rechecked | C23-D28-2; C23-D28-3; C23-D28-4 | true |
+
+## Day28：逐态身份、δ 分支与旧量化断言纠错
+
+覆盖：本轮通读 8 页期刊主文及参考文献；视觉回核 printed `064318-2` Fig.1、`064318-3` Figs.2–3/Table I、`064318-4` Figs.4–6、`064318-7` Fig.11 和模型比较正文。2020 对照仅按 Fig.3、Table I 与 B1(a)/B5 讨论核验，不声称重跑采集数据或 ANGCOR。原文件 SHA-256 保持 frontmatter 值；网络 Crossref、arXiv 和 APS 只核身份/可访问性。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| C23-D28-1 | Sec.III 在约 341-keV 9/2− 态上建立 705/816/930-keV 级联，并明确 816/1055-keV 线先前已报道；2020 B5 已有 1046 与约 1862-keV 成员。2023 新信息包括 882-keV 双线拆分、930/1176-keV 延伸与 835-keV yrast 13/2− 序列，不能将整个低自旋网络称为第二套独立新实验。 | experimental-report-and-lineage | direct | printed 064318-2; Fig.1; printed 064318-3 Sec.III | true |
+| C23-D28-2 | Table I 给 794.8 keV、Elevel=1600.9 keV、17/2−→15/2−，Iγ=12.6(2)、RDCO=0.55(1)、Δasym=+0.03(1)；同能量/观测量在 Banik2020 Table I 对应 17/2+→15/2− E1 标签。2023 新增 766.5-keV 17/2−→13/2− 与 670.6-keV 13/2−→11/2− 连接；需要记录 quantum-label 修订，不能静默合并 E1/M1。 | experimental-report-and-version-boundary | direct | Table I, printed 064318-3; Fig.1 | true |
+| C23-D28-3 | Fig.5 标注 δ671=0.03(3)、δ882=0.09(8)；对应曲线与 RDCO 色带在负 δ 区还有交点，因此小解标注不等于 RDCO 单独给出全局唯一解。671-keV 的 Δasym=-0.03(5)，882-keV 偏振栏为空。Fig.4左图明确标注 δ1055=0.1(2)，正文称 approximately zero，右图引用1983年独立角分布作比较；旧0.00(2)不是该印刷标注。本轮初稿漏读图内0.1(2)，已在放大视觉核验后纠正，不保留“仅有近零描述、没有数值误差”的说法。 | experimental-report-and-figure-audit | direct-figure-and-text | Figs.4–5, printed 064318-4; Table I | true |
+| C23-D28-4 | 作者给 yrare 17/2− 实验 B(M1)/B(E2)=1.27(14)、模型1.27；另给 yrast 17/2− 实验2.54(4)，明确为模型约两倍。模型 δTPRM=-0.69 不是实验 δ≈0；按 δ²/(1+δ²) 得模型 E2 photon fraction≈32.25%，不能把“low”改写成纯 M1 或与实验逐项精确一致。作者仍将 yrast 13/2− 起源列为开放问题。 | experimental-report-and-model-boundary | direct-and-derived | printed 064318-6; printed 064318-7 before Summary; Fig.11 | true |
+| C23-D28-5 | 按 Table I 印刷数字直接作 Eparent−Edaughter−Eγ，1055.1-keV 线得到 +0.8 keV，929.7-keV 线得到 +0.5 keV；这是印刷表的算术残差，非重新拟合或实验错误判决。表注称能级经拟合且旧线部分观测量采用Ref22，缺少联合能量协方差，不能给 χ²/显著性或擅改能量。 | derived-observable-and-readiness-boundary | derived-from-printed-table | Table I, printed 064318-3 | true |
+| C23-D28-6 | 用Table I的1055.1/815.6-keV线、强度6.0(2)/1.0(1)，加上Fig.4实际小解δ=0.1(2)，标准同母态公式κ=0.697得B(M1)/B(E2)≈1.27224；仅作强度与δ独立的一阶传播得σ≈0.1433，与作者1.27(14)相容。该表图重算未恢复原始联合likelihood或全部效率系统误差，不算独立实验。 | derived-observable | derived-from-printed-table-and-figure | Table I; Fig.4; printed 064318-6 | true |
+| C23-D28-7 | Fig.11最右TPRM列采用ε2=0.13、γ=33°，其17/2−→13/2−、17/2−→15/2−图示跃迁能量分别为799、902 keV；实验列相应为816、1055 keV。正文给模型B(M1)/B(E2)=1.27及对应δTPRM=−0.69，但该段未说明计算δ采用实测还是模型Eγ。不能将模型δ直接代入实测光子强度，再把所得商叫作作者模型预测。 | model-input-convention-boundary | direct-figure-and-text | Fig.11; printed 064318-6 final paragraph; printed 064318-7 first paragraph | true |
+| C23-D28-8 | Table I没有单独的多极性列；794.8-keV行的量子标签为17/2−→15/2−，已知线的部分强度/DCO/偏振采用Ref22。766.5-keV行有RDCO=1.15(20)、Iγ≈1.8，但偏振栏为空；正文的quadrupole指认及766门的671/795符合关系不能单独构成该线electric-versus-magnetic性质的重新测定。 | experimental-report-and-parity-readiness | direct-and-inference-boundary | Table I; Fig.3; printed 064318-3 Sec.III | true |
+| C23-D28-9 | 881.8-keV线的Table I观测为RDCO=0.64(11)，偏振栏为空；Fig.5的小解δ=0.09(8)之外，曲线与RDCO带在负δ区仍有第二交点。要区分这些分支，必须保留881.8/880.1双线污染、实际门和角对、取向/feeding、成对响应、偏振校准及联合协方差；671的异母态asymmetry和1055的另一跃迁AD不能直接迁移为882的分支裁决。没有这些输入，本轮不报告另一根、权重或显著性。 | response-contract-and-branch-boundary | direct-and-derived-design | Table I, printed 064318-3; Fig.5, printed 064318-4 | true |
+| C23-D28-10 | arXiv源文件和期刊Fig.11/TPRM段落直接支持模型骨架 `H=Hcore+Hsp+Hpair`、`ε2=0.13`、`γ=33°`、`ξ=1`，并明确出带 `17/2−→15/2−` 的模型/实验能量为902/1055.1 keV、带内 `17/2−→13/2−` 为799/815.6 keV；公开材料没有给出E2/M1算符、有效电荷、g因子、淬灭或`δTPRM=-0.69`的确切能量输入约定。`B(M1)/B(E2)=1.27`与δ涉及不同强度商，不能仅由两者反推能量。 | model-convention-source-boundary | direct-primary-and-derived-boundary | arXiv `131Xe.tex:265-275`; Fig.11; printed 064318-6/7 | true |
+
+**Knowledge Impact and Learning Decision — revises / limits。** 保留原作者偏好 yrare signature partner、未见 wobbling 信号的有界解释；修正旧强断言与对象混淆。完整逐态对照、可复算公式、反证和 response 缺口由 [[131xe-low-spin-partner-crosswalk]] 承接。本轮没有新增人审事件，没有改 C23-1 至 C23-7 的历史审核字段。

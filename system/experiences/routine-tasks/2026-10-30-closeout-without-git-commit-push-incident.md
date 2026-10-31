@@ -3,6 +3,7 @@ type: system-incident-postmortem
 title: "2026-10-30 事故复盘：收束流程遗漏 Git 暂存与推送的致命缺陷"
 severity: critical
 incident_date: 2026-10-30
+graph-excluded: true
 affected_runs: ["2026-10-28-day-26-01", "2026-10-29-day-27-01"]
 tags: [incident, postmortem, routine-task, git-publication, closeout-failure]
 ---

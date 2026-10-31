@@ -3,7 +3,7 @@ type: synthesis
 title: "Octupole evidence and rare electromagnetic decay"
 aliases: [八极与稀有电磁衰变证据综合]
 created: 2026-09-21
-updated: 2026-10-12
+updated: 2026-10-30
 status: ai-draft
 review_status: unreviewed
 scope: octupole-and-rare-electromagnetic-decay
@@ -36,7 +36,7 @@ Walz 2015 and its audited supplement establish a competitive `137Ba` branch with
 
 Walz's five-LaBr₃ acquisition and Söderström's eleven-CeBr₃ acquisition are distinct experiments. The quoted integrated branches, `2.05(37)×10⁻6` and `2.62(30)×10⁻6`, differ by `0.57×10⁻6`; treating the quoted uncertainties as independent gives `σΔ≈0.48×10⁻6` or about `1.2σ`. This arithmetic checks compatibility of the total branch only, not the virtual-path coefficients. Walz's gate controls include a prompt time peak, off-time random sidebands, lead shielding, individual-photon spectra and 72°/144° angular checks (W15-1/W15-2). Söderström uses a separate CeBr₃ response and timing calibration and reports the independent branch at `8.7σ` (SO20-1/SO20-AR-1).
 
-The source-dependence boundary is claim-specific: Söderström's 2020 branch count is a separate acquisition, while its Fig.5 joint energy-sharing fit also plots and fits Walz points. Therefore the 2020 measurement independently confirms that the branch exists; the combined fit is not a wholly independent refit of Walz's multipole-path result (SO20-AR-3). The energy-sharing distribution shifts the author interpretation toward a larger E3M1 and smaller M2E2 component, while model and sign/ordering alternatives remain. The Mendeley data DOI listed by the article returned HTTP 500 during the 2026-10-12 access probe; no event-level spectra, detector response or joint covariance were available for a reproducible refit.
+The source-dependence boundary is claim-specific: Söderström's 2020 branch count is a separate acquisition, while its Fig.5 joint energy-sharing fit also plots and fits Walz points. Therefore the 2020 measurement independently confirms that the branch exists; the combined fit is not a wholly independent refit of Walz's multipole-path result (SO20-AR-3). The energy-sharing distribution shifts the author interpretation toward a larger E3M1 and smaller M2E2 component, while model and sign/ordering alternatives remain. A 2026-10-30 access audit refined the data boundary: the Mendeley landing shell returned HTTP 200 but reported no v1 snapshot, the public API returned `dataset not found`, and no event-level spectra, response, efficiency, background, cuts or covariance files were recovered (SO20-D28-1). No reproducible L4 refit is claimed.
 
 ## Octupole cross-source result
 

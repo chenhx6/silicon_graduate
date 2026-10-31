@@ -3,6 +3,7 @@ type: system-playbook
 title: "30天每日研学任务全生命周期与收束标准操作规程（SOP）"
 created: 2026-10-30
 updated: 2026-10-30
+graph-excluded: true
 ---
 
 # 30 天每日研学任务全生命周期与收束标准操作规程（SOP）

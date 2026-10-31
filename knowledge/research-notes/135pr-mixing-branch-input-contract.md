@@ -205,6 +205,24 @@ Matta 后续完整分析或学位论文是否给出可重放的角分布输入�
 
 下一最高信息输入是exact2019erratum正文及其逐项更改、实际a(E)/perp-parallel净counts/背景/门和Q/Σ；旧Matta thesis terminalroute不原样重试。无足够输入时保持branch dispute与experimentalL4notready。
 
+## Day28：可发表的共同响应分支审计蓝本
+
+全库复习后，`135Pr` 比继续扩展同类 toy 模型更适合作为下一篇方法/核结构论文候选。论文问题应限定为：**在统一的观测量身份、取向、门条件、响应和联合协方差合同下，Matta 的大 `|δ|`、Lv 的 P–`R_ac` 小 `|δ|` 与 Sensharma 2026 对旧角分布的条件 χ² 偏好，是否仍能共同支持唯一的 wobbling/chirality/TiP 排序？**
+
+| 证据层 | 可直接使用的结果 | 不能越过的边界 |
+|---|---|---|
+| Matta 2015 | 747.0/812.8/754.6-keV 连接线的角分布大 `|δ|`、813-keV 相对强度和 INGA asymmetry | `A` 不等于 Lv 的 `P`；未给完整 raw counts、INGA `Q`/Cov 和绝对寿命 |
+| Lv 2022 | JUROGAM 的 `P`、`R_ac`、门污染控制和小 `|δ|` 分支 | 747/813/450 的联合误差面与原始 response 未完全公开；755-keV 偏振缺失 |
+| Sensharma 2026 | 五条 DB2→DB1 新连接、三条小 `|δ|`、以及固定 `σ/I=.2` 下旧 AD 对大根的条件 χ² 偏好 | 新实验无 polarization/absolute lifetime；Fig.12 不是完整 nuisance profile，且与早期 Gammasphere 数据存在共享谱系 |
+
+论文的最小可行版本可以只做公开表格级的 evidence audit：重建每条线的 `Ji→Jf`、能量、`δ`、`P/A`、`R_ac`、门和 source lineage；把 Matta、Lv、Sensharma 的数据作为 dependent/independent 的 claim-specific 输入，而不是按论文数加权。正式 L4 重析仍需要逐角净峰、sideband、polarimetric parallel/perpendicular counts、ring efficiency、`a(E)`/`Q(E)`、gate acceptance、背景和联合 `Σ`。
+
+核心 falsifier 是预先冻结的：若在相同 state identity、背景和响应模型下，所有大/小分支的 profiled prediction set 都与数据不相交，才可降低该分支；若两分支仍相交，则结论只能是“当前公开观测不能唯一选根”，不能把作者的局部 χ² 排序升格为全局排他性。若新的 partner-resolved lifetime 或绝对 `B(E2)/B(M1)` 与某一分支不相容，再更新 wobbling/chirality/TiP 的排序。
+
+可执行的稿件结构是：方法与 source-lineage 图；逐线 observable ledger；branch/profile likelihood 合同；Matta/Lv/Sensharma 的依赖关系与反证；公开输入能达到的 L3 结果；缺失 raw/response/Cov 的 L4 readiness boundary。当前最诚实的题目方向是“common-response evidence audit”，而不是宣称完成统一实验重分析。
+
+这项设计支持已有开放问题 [[135pr-wobbling-controversy]]、[[minimal-wobbling-identification-protocol]] 和 [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]]，并把全库索引中的论文候选落到可执行的 claim-to-source-to-input 表。它不改变 `135Pr` 的物理裁决，也不把公开图表读数写成新实验。
+
 
 ### Garg Ref32原件补齐后的保留边界
 

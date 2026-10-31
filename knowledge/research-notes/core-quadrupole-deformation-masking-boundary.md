@@ -50,3 +50,42 @@ tags: [antimagnetic-rotation, magnetic-rotation, shears-mechanism, quadrupole-ma
 - 物理模型：基于剪刀电荷四极辐射与非对称玻尔-莫特森集体电四极辐射的微观叠加；
 - 证据层级：结合 Roy 2011、Rather 2014、Rajbanshi 2018 原件数据；
 - 审定状态：本笔记为 Day 27 博士生级开放研学计算工件沉淀，标记为 `status: ai-draft`、`review_status: unreviewed`。
+
+## Provisional Reasoning
+
+本页原有内容的机制判断保持 provisional；模型结果、作者解释与本任务综合不升级为实验事实。
+
+## Assumptions
+
+- 仅在原有来源、质量区和方法适用条件成立时使用本页判断。
+- 缺失的响应、协方差或伴随观测不由本页补造。
+
+## Competing Explanations
+
+- 竞争解释包括组态重排、门条件/响应效应、统计碎片化和模型约定差异；当前页面不把单一机制写成排他结论。
+
+## Transfer Conditions
+
+- 向其它核素或质量区迁移前，必须重新核对直接来源、观测量、谱系、响应和独立性。
+
+## Failure Conditions
+
+- 原始输入、locator、响应、协方差或必要伴随观测缺失时，本页只能作为 L3/readiness boundary 使用。
+
+## Falsification or Reverse Tests
+
+- 若受控的反向检验、独立实验或共同响应使关键预测域不相交，应降低或撤回本页的 provisional 判断。
+
+## Open Questions
+
+- 需要补齐原始数据/响应/协方差、独立 holdout 和竞争解释的可区分预测。
+
+## Human Review
+
+本页为 Codex self-audit；`review_status: unreviewed`，未设置 `human-reviewed`，未清除任何 claim 的 `needs_review`。
+
+## Promotion or Rejection History
+
+| Date | event | previous state | new state | reason |
+|---|---|---|---|---|
+| 2026-10-31 | schema boundary completion | incomplete structure | provisional | required governance sections added without changing scientific claims |

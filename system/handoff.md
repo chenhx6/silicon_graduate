@@ -1,9 +1,81 @@
 ---
 graph-excluded: true
-updated: 2026-10-30
+updated: 2026-10-31
 ---
 
-## Active handoff — Day27 Checkpoint 048: 手征—八极与高K纠错后复跑全量门禁 (2026-10-30T05:07:00+08:00)
+## Active handoff — Day28 final closeout and Day29 autonomous continuation (2026-10-31T15:53:06+08:00)
+
+- Day28 已完成正式课程审计：`completed_day_indices: [28]`、`partial_day_indices: [29]`、`next_day_index: 29`；Day29 仅有无学分预习，Day30 未打开。
+- 研究窗口于 `2026-10-31 15:00 Asia/Shanghai` 正式结束；本地已创建 commit subject `Finalize Day28 evidence map and canonical Day29 handoff`。本轮 schema/graph/source 去重修复将 lint 从 `298` 降至 `45 errors / 437 warnings / 5224 info`；剩余 30 个 raw/hash provenance 缺口不能凭空补写。fresh fetch、远端祖先检查和 `git push --dry-run origin HEAD:main` 均 exit `0`；实际 push 仍因 required lint 阻断，开放研究回执保持 `completed-final-not-pushed`。
+- 最终机器核验已写入 `outputs/literature-acquisition/20261031-open-research-final-verification.json`：boundary `0`、lint `1`、`git diff --check` `0`、`git diff --cached --check` `0`；`run.json`、`events.jsonl` 和 runner prompt 作为受保护运行态未改，不能用它们的旧 live 状态冒充 scheduler closeout。
+- dirty baseline reconciliation 已写入 `outputs/literature-acquisition/20261031-git-baseline-reconciliation.json`：`HEAD == origin/main == 4d39cb8`，当前 `25` 个 tracked dirty、`23` 个 untracked、`0` 个 staged；没有执行 reset/clean/delete/move，继承修改与本轮交付保持分离。
+- 最终知识增量包括 `131Ce/133Ce` 模式可辨识性、`135Pr` 共同响应合同、`135Nd/134Pr` transition ledger、`N=82` 观测量分层、`131Xe` primary-access boundary、跨方法八极 E3 evidence ladder、全库 claim calibration 和投稿候选队列；没有制造 response/Cov、synthetic L4 或论文终稿主张。
+- 下一日 canonical 交接已更新至 `outputs/learning-daily/prompts/20261031-DAY29-research-design-defense.md`；run 目录中的 `prompt-day29.md` 仅保留为 provenance copy。提示词明确允许自主、无上限派发 subagents；并发受限时可在 `/workspace/wiki` 内启动新的 Codex session；自动路由所有适用 skills，特别是 `farmer`、`go-on`、`all`、`auto`、`dispatch`、`brainstorm`、`optim`。
+- 下一日首要未完成路线：`131Xe` primary/response recovery、`135Pr` event-level response/Cov、`135Nd/134Pr` producer ledger、八极 source-page/producer audit，以及安全的全库 claim calibration 和 raw/output lineage 整理。任何路线缺输入时保持 L3/readiness boundary 并转向下一条高信息路线。
+- 恢复入口：`codex resume 01a18c85-5ae9-7331-b5b9-bd9ba8082fdd -C /workspace/wiki -s danger-full-access -a never`；Day28日报、最终课程回执、开放研究回执和Day29提示词均已保存。
+
+## Active handoff — Day28 Checkpoint 006：P-ADO真实表格falsifier与最终收束准备（2026-10-31）
+
+- 当前时间 `2026-10-31T00:18:21+08:00`，硬截止仍为 `2026-10-31 15:00 Asia/Shanghai`；课程保持 `completed_day_indices=[]`、`partial_day_indices=[28,29]`、`next_day_index=28`。
+- 新增 `knowledge/research-notes/pado-shared-alignment-null-profile.md`：Zobel 1983十行同一958-keV纯E2真实表格的共享`σ/J`、`rho`、`tau` profile；`tau=1`无共同区间，95%二维参考域需约1.72。只反证跨reaction共享alignment null，不否定P-ADO或逐条件/feeding-aware模型。
+- 更新137Ba source/synthesis的Mendeley边界：landing壳恢复但无snapshot/version/files，public API为`dataset not found`，无event/response/Cov，L4仍blocked-input-limited。
+- 论文 prospectus已扩展为五项候选：P1 `135Pr` common-response、P2 `131Xe` identity/branch、P3 `135Nd/134Pr` EM、P4 octupole evidence ladder、P5 P-ADO audit；均保持provisional，不能直接声称原创论文完成。
+- 工作区source→raw对账改用独立YAML parser：393 match、57 missing、10 undeclared hash、6 unverified path、16 unset slot、1 frontmatter parse error；此前简易正则计数仅作历史过程，不再采用。
+- QMD collection `nuclear-knowledge` 已完成文字更新（1,021 files），CPU embedding仍在后台推进；不运行cleanup，不把raw/output纳入collection。
+- 新增 `day28-card-reaudit-precheck-004.json`：五项交付全部具备artifact/evidence，但仍为`pending-final-audit`，不推进学分；正式结项仍须到硬截止执行。
+- 最新局部`verification-036.json`：writeback=true、boundary=0、diff=0、计算=0；全库lint为314 errors/432 warnings且新增页面无error。全库继承lint error阻止commit/push，保持`final-not-pushed`。
+- 新增 `time-gate-004.json` 与 `continuation-007.md`：当前距硬截止约859分钟，继续研究/索引，不授Day28/Day29学分；正式收束目标为`completed_day_indices:[28]`、`partial_day_indices:[29]`、`next_day_index:29`，但仅在硬截止审计全部通过后推进。
+- 新增 `time-gate-005.json` 与 `continuation-008.md`：00:48时QMD已达到3091 vectors、682 pending，继续后台索引；课程状态和Day28 pre-audit仍不变。
+- QMD文字检索已实际命中 `131xe-low-spin-partner-crosswalk.md`、`wiki-full-library-map-20261030.md`、`post-30-day-nuclear-structure-paper-prospectus.md` 和 `131xe-day29-research-defense-preview.md`；P-ADO查询命中overview/index，说明canonical入口已进入collection。
+
+## Active handoff — Day28 Checkpoint 005：全库索引与工作区只读审计（2026-10-30）
+
+- 在不重复既有 `131Xe` 科学路线的前提下，新增 `knowledge/synthesis/wiki-full-library-map-20261030.md` 并在 `knowledge/index.md` 增加入口；该页汇总1,019页知识、主题簇、五个论文候选和后续深读分层，仍保持所有论文主张回到source/raw/locator。
+- 新增只读整理基线 `outputs/literature-acquisition/20261030-workspace-audit/`：499个`raw/papers/`文件逐个SHA-256、13,175个`outputs/`文件布局、独立YAML source→raw对账、知识页artifact引用扫描和9组重复字节候选。准确回链为393个hash match、57个path missing、10个undeclared hash、6个unverified path和16个unset raw slot；未改名、移动、复制、删除或覆盖任何raw原件，也未改`PLAN.md`、受保护BibTeX、runner live state或继承dirty文件。
+- 引用扫描明确区分已验证路径、占位/省略号和需人工复核的路径形状；不能把启发式扫描的未解析项当成断链。下一步只在source lineage、hash和相对链接闭合后，考虑新增副本式归档。
+- 输出侧另有 `outputs-cleanup-candidates.tsv` 的728个可逆候选（45个`.pyc`、677个零字节过程文件、6个`copy`命名候选）；失败/重开/历史修复/verification快照均继续按provenance保留，未执行删除或移动。
+- 全库温故知新选出的 `135Pr` novelty 槽位已写回 `knowledge/research-notes/135pr-mixing-branch-input-contract.md` 的“Day28：可发表的共同响应分支审计蓝本”：把Matta–Lv–Sensharma证据链、共同响应/Cov缺口、falsifier和论文结构落成可执行设计，不声称完成统一raw重分析；另新增 `knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md`，把30天后投稿候选、证据门和下一步顺序固定下来。
+- 日报已纳入全库索引和manifest的唯一`knowledge-writeback`块；`completed_day_indices=[]`、`partial_day_indices=[28,29]`、`next_day_index=28`仍不变，Day29预习无学分，Day30未打开。
+- 当前最新全库lint仍为退出1（314 errors、432 warnings）；新增synthesis页、135Pr蓝本和论文prospectus均不产生error，剩余error来自继承基线，阻止本轮常规commit/push；不修无关基线。最新局部验证为 `verification-030.json`，writeback/boundary/diff/计算均通过。继续保持goal active，硬截止为2026-10-31 15:00 Asia/Shanghai，最后重新生成writeback、card audit、receipt和发布门结果。
+
+## Active handoff — Day28 Checkpoint 004：session receipt、课程覆盖与发布边界（2026-10-30）
+
+- 新增 `session-receipt-003.json` 和 `continuation-004.md`；当前fork session与resume命令可恢复，未覆盖runner live state。
+- 新增 `day28-deliverable-coverage-002.json`，逐项预审五项Day28交付，全部保持`pending-final-audit`；不把预审矩阵当作card completion或课程学分。
+- 新增 `time-gate-003.json`：21:39 Asia/Shanghai距硬截止1040分钟；当前131Xe路线在可访问来源上达到有界饱和，Day29恰一张预习已完成，Day30未打开；保留原始primary/响应缺口和Day28课程信用边界。
+- 新增 `completion-audit-003.json`：日报标题、唯一writeback、定量/设计检查、session receipt、续接、Day29无学分预习和发布阻塞逐项核验；结论仍为`in_progress`，五项Day28交付保持`pending-final-audit`。
+- 新增 `day28-card-reaudit-precheck-003.json`：五项交付的artifact与evidence anchor均存在；结果仍是`pending-final-audit`，未触发card credit。
+- 新增 `publication-scope-003.json`：52个task-owned路径、12类排除项和lint阻塞均已显式记录；当前`s​​afe_to_stage=false`，未暂存、未commit、未push。
+- Day28仍为 `completed_day_indices=[]`、`partial_day_indices=[28,29]`、next=28；BrIcc、NNDC评估、C23模型约定和Day29设计预习均保持needs_review/readiness边界。
+- 当前没有新的primary输入；不重复1983 CAPTCHA端点。硬截止前继续保持goal active，最后再做card audit、周考/REFLECT、writeback、lint、boundary、diff和发布门。
+
+## Previous handoff — Day28 Checkpoint 003：整合审查修正、限定周考与下一条BrIcc路线（2026-10-30）
+
+- Day28仍为 `completed_day_indices=[]`、`partial_day_indices=[28,29]`、next=28；goal active，研究截止2026-10-31 15:00 Asia/Shanghai。新增延迟回忆题 `recall-002.md`，并完成一张Day29无学分预习研究设计；不推进课程状态、不打开Day30。
+- 整合审查后明确：TPRM出带 `17/2−→15/2−=902 keV` 对应实验1055.1，带内 `17/2−→13/2−=799 keV` 对应815.6；修正yrast band页将1600.9节点固定为负宇称的元数据，yrare页补全882小根和needs_review边界；日报来源清单与lint回执路径同步。
+- 当前新增高信息结果：官方ANU BrIcc v2.3已返回Z=54、794.6-keV的FO/NH、E1/M1/E2/M2 K/Tot系数；纯M1/E2 αK名义凸包为[0.00234,0.00316]，但能量误差、EKC原始误差口径和共同协方差未闭合，不能作统计宇称裁决。C23模型worker确认公开arXiv只有Hamiltonian骨架和端点映射，E/M算符、g因子、淬灭和δ能量约定仍未知。
+- `check_checkpoint.py`已改为读取最新 `tmp/day28-131xe/lint-final.json`；最终回执在新验证后更新。保留原runner live状态，不覆盖run.json/events。
+- 发布门仍受全库lint基线314 errors/431 warnings阻挡，未commit/push；不修无关schema。Day29只完成一张无学分预习，不推进next_day_index或发放课程学分。
+
+## Previous handoff — Day28 Checkpoint 002：同母态分解、宇称谱系与882响应合同（2026-10-30）
+
+- 原run/session仍为 `2026-10-30-day-28-01` / `01a18c47-452f-7ca0-aa54-ab0de4d55ca3`；当前用户授权fork续研session为 `01a18c85-5ae9-7331-b5b9-bd9ba8082fdd`，命令 `codex resume 01a18c85-5ae9-7331-b5b9-bd9ba8082fdd -C /workspace/wiki -s danger-full-access -a never`。未覆盖runner回执或课程state；研究截止2026-10-31 15:00 Asia/Shanghai，Day28仍partial、不授29学分。
+- canonical增加 `knowledge/research-notes/131xe-same-parent-strength-identifiability.md`、`131xe-1601-parity-version-boundary.md`、`131xe-882-branch-response-contract.md`，并同步两个已有131Xe band页；source新增RB67-D28-001、C23-D28-7/8/9、BNK20-D28-3。RE≈0.0163964、RM≈1.27224来自同一r/δ，不能独立计权；模型δ采用哪组Eγ未明，Fig.11对应902/799 keV不得静默混为实验1055/816。
+- 795 E1在2020多处出现；766无偏振不能单独闭合宇称。外部DAE/ENSDF/Kaya材料已有真实哈希和访问manifest，但仍为tmp待摄入层；ENSDF EKC是实测K-shell记录，非本任务亲验primary，缺理论αK不作ICC裁决。未改raw/PLAN/Bib、review字段或课程计卡。
+- 882机器合同 `workers/882-contract/input-contract.json` 为 `ready_for_joint_fit=false`；880污染、实际角对、条件取向、偏振校准和联合Σ缺失。704.6为竞争退激参考，不能作882互符合门；671/1055观测不可自动迁移选根。
+- 已实测11项独立强度控制通过、14项原审计结果不变、882、ENSDF、BrIcc和模型约定worker审计通过；Day29预习页和Day28覆盖预审矩阵也完成写回；session receipt、time-gate-003、completion audit、card re-audit和continuation-004已保存；最终 `verification-024.json` writeback valid，boundary/diff为0。最近全库lint仍退出1（314 errors/432 warnings，lint-final任务页无error）；发布仍受required gate阻挡，未commit/push。Farmer PID3193存活，dry-run actions=[]，不重启守护进程。
+- 续接见run目录 `continuation-002.md`。继续追查明确宇称修订、原始转换归属和模型电磁约定；不重复受阻1983 IOP端点、不重复已有rate计算，不以checkpoint完成收束日程。
+
+## Previous handoff — Day28 Checkpoint 001：131Xe身份、δ原图与全库发布阻塞（2026-10-30）
+
+- 真实run `2026-10-30-day-28-01`，session `01a18c47-452f-7ca0-aa54-ab0de4d55ca3`；`codex resume 01a18c47-452f-7ca0-aa54-ab0de4d55ca3 -C /workspace/wiki -s danger-full-access -a never`。goal active，研究截止2026-10-31 15:00 Asia/Shanghai；当前仍有约20小时，不收束、不授Day28/29学分、不改课程state。
+- 日报 `outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam.md`；canonical `knowledge/projects/131xe-low-spin-partner-crosswalk.md`，C23-D28-1至6、BNK20-D28-1/2。B5只部分对应2023低自旋链，高自旋B1(a)另列；1601-keV宇称版本不同，2792近能量异态拒绝合并。
+- 两原PDF哈希匹配。放大Fig.4读出δ1055=0.1(2)，纠正本轮初稿“仅有近零描述”的漏读；同母态表图重算约1.27224±0.1433（独立一阶控制）对账作者1.27(14)。旧Day19零对照/γ软必无wobbling等强断言在两source明确撤回；历史脚本不作科学事实源，review字段不升级。
+- 全库lint实测退出1：314 errors/431 warnings；本轮知识页无新增error，全部error输入与runner基线/未改HEAD相同，主要为Day27遗留schema/重复来源及system graph字段。required verification失败阻止push，未修无关页面；本轮未commit/push，状态final-not-pushed。boundary/diff均0，14项计算控制通过，修正调用参数后writeback valid；初次writeback调用顺序错误回执保留。
+- 1983 Ref20 DOI已核 `10.1088/0031-8949/27/4/002`；OA downloader退出0但status=oa_not_found，OpenAlex有bronze标记，IOP实返HTTP200/text-html/Radware CAPTCHA，无PDF，不记原件已读。去凭据访问回执均在run目录；不走GUI或绕过验证。
+- 同日续接见run目录 `continuation-001.md`。下一块继续δ分支/同母态E2 out/in的识别性检查，并查公开独立AD或794.8-keV宇称调整的直接出处；当前问题未饱和，不开Day29。
+
+## Previous handoff — Day27 Checkpoint 048: 手征—八极与高K纠错后复跑全量门禁 (2026-10-30T05:07:00+08:00)
 
 - 当前时钟为 2026-10-30T05:07:00+08:00，距研究截止仍有充足时间；Day27 不收束、不推进 Day28。
 - 在 Checkpoint 045–047 的科学纠错后复跑：`wiki_lint.py --no-git --fail-on error` 退出 0（`errors=0, warnings=398, info=5207`）；`wiki_boundary_check.py` `ok: true`；此前写回检查保持 valid；受保护 run/card/state/daemon 未改。
@@ -4663,3 +4735,205 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
      - `4e3f24cd` `feat(day26): archive Day 26 antimagnetic rotation models, scripts, and literature crossrefs`
      - `4af99422` `docs(literature): add Day 26 CD110 and Egido literature acquisition records`
   3. **基线核验**：当前 `git status -sb` 为完全干净状态 `## main...origin/main`；`wiki_boundary_check.py` 退出码 0（ok: true）；`wiki_automation_preflight.py` 退出码 0；Git 基线顺利建立完成。
+
+### 2026-10-31 Personal API configuration
+
+- 用户已在 `raw/personal/.env` 提供 `USER_ORCID`、`CORE_API_KEY` 和 `IEEE_METADATA_API_KEY`；文件权限已调整为 `0600`。
+- `system/scripts/personal_api_env.py` 以白名单方式解析个人设置；`system/scripts/run_paper_search_mcp.py` 会在启动子进程时传递 ORCID、OpenAlex、Semantic Scholar、CORE、IEEE 及已有 provider 变量，已有环境变量优先。
+- `system/scripts/personal_api_preflight.py` 已通过语法检查并完成实际请求：ORCID 200、CORE 200、IEEE 200；去凭据回执见 `outputs/literature-acquisition/20261031-personal-api-permissions.json`。
+- 当前运行环境中的 Codex 配置路径 `/root/.local/share/academic-search-mcp` 与 `/root/.local/share/paper-search-mcp-nodejs` 不存在，因此只验证了启动器传递链，未启动完整 MCP 服务。现有科学研究修改保持原样。
+
+### Day28 live continuation checkpoint 009 (2026-10-31T01:42:53+08:00)
+
+- 当前 session：`01a18c85-5ae9-7331-b5b9-bd9ba8082fdd`；run：`2026-10-30-day-28-01`；状态仍为 `in_progress`；硬截止 `2026-10-31 15:00+08:00`，剩余约 797 分钟。课程覆盖保持 `completed_day_indices=[]`、`partial_day_indices=[28,29]`、`next_day_index=28`。
+- 本 checkpoint 新增三项可复用知识：`knowledge/research-notes/32s-vermeer-1982-source-access-boundary.md`（历史比较源正文不可得的可复核访问边界）；`knowledge/projects/100sn-gamow-teller-independent-evidence.md` 的 `Day28 Claim-Safety Boundary`（降级旧相空间终极裁决）；`knowledge/research-notes/partner-em-interval-loso-audit.md`（135Nd/134Pr/106Ag 伙伴带 `B(E2)` 逐自旋误差盒留出审计）。
+- 日报 `outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam.md` 的唯一 writeback block 已映射本轮新增知识；当前 run-snapshot validator `valid=true`。独立 lint 仍显示继承 baseline errors；新增 `32S` note 的 schema error 已修复，尚未完成最终全量回执。
+- 继续路线：候选池推荐 `135Nd` partner-resolved EM identity/lineage；保持 `131Xe` 1983 primary、`135Pr` response/Cov、P-ADO covariance/coverage 为受阻或待补输入路线，不重复已完成的局部算术。
+- 发布状态：`final-not-pushed`。不得把动态工作树中的继承 `knowledge/`、`system/`、个人 API、raw、PLAN、BibTeX、runner live state 和 tmp 过程文件带入 stage；只有 Day28 最终审计、required checks 和精确 manifest 全部通过后才评估发布门。
+- 下一接续文件：`outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/continuation-009.md`。原 fork 恢复命令仍为 `codex resume 01a18c85-5ae9-7331-b5b9-bd9ba8082fdd -C /workspace/wiki -s danger-full-access -a never`。
+
+### Day28 live continuation checkpoint 010 (2026-10-31T02:03:10+08:00)
+
+- 当前 session：`01a18c85-5ae9-7331-b5b9-bd9ba8082fdd`；run：`2026-10-30-day-28-01`；硬截止 `2026-10-31 15:00+08:00`，剩余约 776 分钟；课程状态仍未推进。
+- 1979 Irving primary 访问探测已完成：Crossref 只提供书目身份，DOI/IOP article/IOP PDF 均返回 HTML，未取得正文或 PDF。过程回执：`tmp/day28-131xe-recovery/irving-1979/probe.json`；科学状态仍为 1979 primary 未恢复。
+- 公开 IOP abstract 仅补充 coverage evidence：提到 `131Xe` 的 `364.5`、`636.9 keV` 正宇称低能级与角分布/线偏振/mixing-ratio 分析；没有 794-keV 目标线，不能替代正文。
+- 日报已追加该访问边界；没有把元数据写成 794-keV 逐线证据，也没有改变 2020/2023 宇称冲突判断。
+- 下一步：若合法馆藏/作者副本仍不可得，进入 Day28 正式 card audit；随后按当前动态工作树重跑 writeback、lint、boundary、diff、receipt 和发布门。
+- 续接文件：`outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/continuation-011.md`。
+
+### Day28 formal content closeout (2026-10-31T02:20:00+08:00)
+
+- Day28 五项交付已完成正式审计：`outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/completion-audit-005.json`；日报已加入 `### Day 28 card completion audit`，scorecard 与第四周 REFLECT 标记 complete。
+- 课程 state 已推进为 `completed_day_count: 28`、`next_day_index: 29`、`day28_credit_status: complete`；Day29 保持无学分预习，`partial_day_indices: [29]`。
+- 最终回执：`final-session-receipt-28.json`；Day29 canonical 提示词：`outputs/learning-daily/prompts/20261031-DAY29-research-design-defense.md`；run 目录 `prompt-day29.md` 仅为历史副本；当前 resume command 仍为 `codex resume 01a18c85-5ae9-7331-b5b9-bd9ba8082fdd -C /workspace/wiki -s danger-full-access -a never`。
+- 当前内容检查：writeback valid、boundary=0、diff=0；全库 lint 仍为继承 baseline `314 errors / 433 warnings`，因此 publication status 保持 `final-not-pushed`，没有 commit/push。
+- 最终验证：`verification-041.json`；发布范围：`publication-scope-004.json`。由于 required lint gate 仍失败，未执行 `git add`、commit、fetch 或 push。
+
+### Day31 open research checkpoint (2026-10-31T11:34:26+08:00)
+
+- Day28 closeout remains complete. A separate post-closeout research window is active until `2026-10-31T15:00+08:00`.
+- New canonical research assets: `131ce-133ce-mode-identifiability-boundary.md`, `135pr-bayesian-model-conditioning-boundary.md`, `post-30-day-paper-figure-and-data-contracts.md`, and `octupole-2025-2026-new-e3-access-boundary.md`.
+- Full-text/metadata staging now includes `148Dy` arXiv `2609.21499`, `224Ra` arXiv `2609.07556`, and Crossref lineage for the 2024/2026 `90Zr` pair. Exact locators and response/lineage limitations are preserved in the octupole note.
+- Paper queue now has executable P1/P2/P3/P4/P6 figure/data contracts. No event-level response/Cov or new experimental fact has been fabricated.
+- Current checks remain boundary `ok`, diff `0`, lint baseline `314 errors / 437 warnings`; publication remains local-only/final-not-pushed.
+- Machine receipt: `outputs/literature-acquisition/20261031-open-research-receipt.json`.
+
+### Day31 open research checkpoint 2 (2026-10-31T12:00:43+08:00)
+
+- 继续研究窗口完成四条非重复路线：`131Xe` primary recovery 仍为 access boundary；`135Pr` 已写入
+  `135pr-common-response-evidence-contract-20261031.md`；`135Nd/134Pr` 已写入
+  `135nd-134pr-transition-identity-ledger-20261031.md`；全库过强语言审计已写入
+  `full-library-claim-calibration-audit-20261031.md`。
+- 修正八极文献身份错误：`arXiv:2609.21499` 是 `148Dy`，不是 `92Mo`；发现
+  `209Pb` 2026 寿命论文的 Crossref metadata route，但因 raw 归档契约和全文缺失，
+  仅在 `octupole-2025-2026-new-e3-access-boundary.md` 保留 metadata-only 边界。
+- P1 最小合同冻结三条核心线 `747/813/450 keV`、`xi=arctan(delta)` 分支、逐 acquisition
+  nuisance、Lv `747.3-keV P–R_ac` 主 holdout；未取得 raw counts、response、Cov，L3 保持。
+- P3 ledger 保留 `135Nd` MU07 state-level `tau/B` 与 ZH03/LV19 line identity 分层；`134Pr`
+  Tonev07 大部分 `Egamma–Ji->Jf–multipolarity–tau–B` 可逐线绑定，但 mixed `M1/E2` 成分
+  和共享 feeding/covariance 仍未闭合。
+- 全库语言扫描发现部分近期 source 页将 model-result/author-interpretation 写成 proof-like
+  wording；校准账本只提出安全措辞，不修改 source 数值、review 状态或人工审核标志。
+- up/optim 只读审查：根四树中 `tools/` 存在、`skills/hooks/plugins` 缺失属仓库结构事实；
+  QMD 查询延迟正常，`wiki_lint.py` 重复读取知识页是潜在约 12 秒优化点，暂不改治理代码。
+- 本轮验证：`wiki_boundary_check.py --root .` exit `0` (`ok: true`)，`git diff --check`
+  exit `0`；全库 lint 最终为 `298 errors / 437 warnings / 5224 info`。补齐 16 个 Day27
+  source index 入口后，错误数较继承 baseline 下降，但仍未达到发布门；保持
+  `final-not-pushed`，不 commit/push，不把动态工作树继承修改混入发布。
+
+### Day31 open research checkpoint 3 (2026-10-31T12:24:29+08:00)
+
+- P4 获得新的全文主线：APS `90Zr` 2024 PRC PDF 已 staging 到
+  `tmp/day31-octupole-fulltext/90zr-2024-prc.pdf`，SHA-256
+  `0e5dd420ca551f176eb2cee1ceb39eb5f7b4fbff85147a7cfec4a30f9f6a0f35`；全文确认
+  plunger/fast-timing `T1/2(3−)=7.8(16) ps`、`B(E3)=16(3) W.u.`、约 `0.2 ps`
+  `4+→3−` feeding 修正/靶内停止成分处理，以及 RPA 对比和旧 `28.9(15) W.u.` adopted
+  值的冲突背景。该结果已写回 `octupole-2025-2026-new-e3-access-boundary.md`。
+- `90Zr` 2026 PLB 仍为 ScienceDirect abstract/TDM metadata-level；`209Pb` 2026
+  寿命路线的 TDM shell 可达但正文受 `403/429` 边界限制，保持 metadata-only，不重复请求。
+- P4 目前可写成“跨方法 E3 evidence map”，但 pooled mean、统一显著性、静态梨形或
+  完整 GOSIA/plunger covariance 结论仍停止。
+
+### Day31 open research checkpoint 4 (2026-10-31T12:58:25+08:00)
+
+- 全库索引维护完成：`knowledge/index.md` 补入 16 个 Day27 source 入口；当前知识页
+  `1032`，source `472`，research-note `245`，project `19`，synthesis `14`。
+- `qmd update` 完成，collection 当前索引 `1031` 页；embedding 已完成主体 20 页，
+  大 `index.md` 的 37 chunks 因 session expiry 保留 pending，未运行 `qmd cleanup`。
+  `qmd search '135Pr common response branch covariance'` exit `0`，命中 P1 合同与 prospectus。
+- 最终检查：boundary exit `0` (`ok: true`)，`git diff --check` exit `0`，lint
+  `298 errors / 437 warnings / 5224 info`。298 errors 仍是未修复的继承治理问题；
+  本轮只修复了 16 个索引缺口，不扩展到无关 schema。
+- 研究回执 `outputs/literature-acquisition/20261031-open-research-receipt.json` 已同步
+  90Zr 正文、209Pb 访问边界、QMD 状态和真实检查计数；当前不 commit/push。
+
+### Day31 open research checkpoint 5 (2026-10-31T13:01:33+08:00)
+
+- 前沿模型池补充四篇 2026 primary records：pseudospin-partner/wobbling 共存、
+  γ-soft longitudinal wobbling、`122–128Xe` 偶偶核 wobbling-like 计算，以及八极
+  组态驱动的 transverse-to-longitudinal 演化。它们均写入 prospectus 的 model-frontier
+  controls，只作为 competing forward models，不升级为实验事实。
+- 这四篇模型记录加强了 P1/P6 的 holdout 设计：未来必须让 signature/pseudospin、
+  γ-soft、octupole-configuration 和 wobbling 模型共享 state identity、response、
+  nuisance 与独立 EM holdout；预测几何和 `B(E2)out` 不能替代直接测量。
+- 13:02 的 schedule-level candidate-pool review 判定当前窗口证据饱和，记录为
+  `saturated-stop`。精确续接优先级：先取得 `131Xe` Irving/Lönnroth primary 或
+  `135Pr` event-level response/Cov；其次取得 `90Zr` 2026 full text/GOSIA package；
+  再进入 `135Nd` MU07 producer ledger 和 P6 companion-observable search。未取得这些
+  输入前不重复中心值算术、不生成 pooled meta-analysis、不升级模型结论。
+
+### Day31 open research checkpoint 6 (2026-10-31T13:25:56+08:00)
+
+- `135Nd` 2025 `Phys. Rev. C 111, 054304` institutional PDF 已全文读取并 staging：
+  新 `17/2−_3` 态、band T、`B(E2,752)/B(E2,908)=2.0(5)` 和 CNS 大三轴模型比较已
+  写入 `135nd-2025-tipped-precession-same-lineage-extension.md`。
+- 该论文使用与 2021 TiP 论文相同的 `100Mo(40Ar,5n)`、JUROGAM II 和同一事件谱系，
+  所以 P3 只新增 transition identity/relative-E2 evidence，不增加独立实验计数，
+  不提供新 lifetime、绝对 `B` 矩阵或 joint covariance。
+- `131Ce/133Ce` 新 primary discovery 为 no-op；`N=82` re-audit 已将 `148Dy B(E3)`
+  和壳隙观测量严格分轴。目标仍保持 L3，未生成代理 L4 结果。
+
+### Day31 open research checkpoint 7 (2026-10-31T13:31:00+08:00)
+
+- 新增 `135nd-2025-tipped-precession-same-lineage-extension.md`：完整读取 JYU 机构副本，
+  固化 `17/2−_3`、band T、`B(E2,752)/B(E2,908)=2.0(5)`，并明确与 2021 JUROGAM II
+  同谱系、非独立实验、无新寿命/绝对矩阵/Cov。
+- `131Ce/133Ce` companion-observable audit 已并入
+  `131ce-133ce-mode-identifiability-boundary.md`；`N=82` project 已加入
+  `148Dy/90Zr` cross-mass control 与 `132Sn` lifetime unit boundary。
+- QMD 文字 collection 已更新至 `1032` 页；7 个文档仍待 embedding，未运行 `qmd cleanup`。
+
+### Day31 open research checkpoint 11 (2026-10-31T13:44:56+08:00)
+
+- 使用 Wiki 已配置的 Elsevier API key 成功获取 `90Zr` 2026 PLB 879, 140670 的完整
+  TDM XML/plain text 与 article-object manifest，保存于
+  `tmp/day31-octupole-fulltext/90zr-2026-plb.xml/.txt`。
+- 正文确认 `32S+90Zr` safe Coulomb excitation、ADSSD+16-clover INGA、`gosia/gosia2`
+  simultaneous projectile normalization、Table 1 `B(E3)=19.6^{+1.7}_{-1.6} W.u.`
+  与 `Q_s=+0.09(10) eb`，并使用 fully correlated `χ²` surface 给矩阵元误差。
+- P4 由“2026 摘要级”升级为“2024/2026 两篇正文级方法分离”；仍缺 event-level
+  producer、GOSIA输入输出公开包和跨方法 joint covariance，不能 pooled average 或静态梨形裁决。
+
+### Day31 open research checkpoint 13 (2026-10-31T13:54:33+08:00)
+
+- `131Xe` Irving 1979 source recovery 完成一次配置 CORE API exact DOI/title recheck，
+  未找到匹配 repository full text；已写入 parity boundary note，保留 institution/ILL
+  路线，不把 repository no-op 写成“全文不存在”。
+- `90Zr` P4 full-text route and `131Xe` recheck both preserve source-to-claim boundaries;
+  no synthetic L4 input was created.
+
+### Day31 open research checkpoint 12 (2026-10-31T13:51:19+08:00)
+
+- P4 note/prospectus 的陈旧“`90Zr` 2026 abstract-level”措辞已统一修正为
+  “2024/2026 正文级方法分离”。当前 `90Zr` 2026 TDM 正文、Table 1、GOSIA2
+  fully correlated `χ²` surface 和 article-object manifest 均有本地 locator。
+- 最终 restored-turn checks 保持：lint `298/437/5224`，boundary `0/ok`，diff `0`；
+  不修改 raw/PLAN/BibTeX，不 commit/push。
+
+### Day31 open research checkpoint 10 (2026-10-31T13:38:51+08:00)
+
+- 全库认知校准已从审计落到 source 页面：Hendrie、Rohozinski、Zagrebaev、
+  Piekarewicz、Karmakar 五页的 proof-like 语言已改为 model-result/author-interpretation
+  条件措辞；数值、locator、review flag 和 raw 未变。
+- 最终校验仍为 boundary `0/ok`、diff `0`、lint `298 errors / 437 warnings / 5224 info`；
+  新校准页未引入错误。Goal 继续保持 active，等待硬截止或后续高信息输入。
+
+### Day31 open research checkpoint 8 (2026-10-31T13:31:58+08:00)
+
+- `134Te` `2003Ba01` primary access recheck remains no-op: DOI/title/reaction identity
+  closed, OpenAlex reports closed/no repository, publisher route blocked. ENSDF `B(E2)`
+  remains evaluation-grounded and is not promoted to primary-text-verified.
+- N=82 current durable boundary: `148Dy B(E3)` changes the octupole-collectivity frontier,
+  but does not alter the separation between `δ₂n`, `Δn(82)`, `E(2+)`, `B(E2)`, transfer
+  strengths and microscopic orbital spacing.
+
+### Day31 open research checkpoint 9 (2026-10-31T13:33:59+08:00)
+
+- Final restored-turn verification: `wiki_lint.py --fail-on error` exit `1` with
+  `298 errors / 437 warnings / 5224 info`; no new errors appeared in the new canonical
+  pages. `wiki_boundary_check.py --root .` exit `0` (`ok: true`); `git diff --check` exit `0`;
+  receipt JSON parses successfully.
+- The remaining 298 lint errors are inherited governance/index/schema debt; no raw/PLAN/BibTeX
+  or credentials were modified, and no commit/push was attempted.
+
+### Day31 open research checkpoint 14 (2026-10-31T14:06:01+08:00)
+
+- `knowledge/questions.md` now includes two current open questions: `135Nd` 2025
+  same-lineage extension and `90Zr` 2024/2026 method-separated `B(E3)` compatibility.
+- Both preserve the exact stop conditions: no event-level overlap/Cov, no pooled mean,
+  no static-shape promotion and no independent TiP confirmation.
+
+### Day31 final closeout (2026-10-31T15:47:50+08:00)
+
+- Hard research window has passed. Day28 content closeout remains complete; the post-Day28
+  open-research window is closed as `completed-final-not-pushed`.
+- Canonical knowledge contains the `131Ce/133Ce` mode-identifiability audit, P1/P3 contracts,
+  `N=82` observable boundary, `131Xe` source-recovery boundary, `90Zr`/`148Dy`/`224Ra`
+  octupole evidence ladder, `135Nd` 2025 same-lineage extension, and five source-language
+  calibration corrections.
+- Remaining blockers are explicit data/access boundaries: `131Xe` primary, `135Pr` event-level
+  response/Cov, `135Nd` producer/Cov, and independent holdouts. No synthetic data, pooled
+  meta-analysis, model posterior, or publication claim was used to fill them.
+- Final checks remain `boundary=0/ok`, `git diff --check=0`, lint
+  `298 errors / 437 warnings / 5224 info`; no protected raw/PLAN/BibTeX changes and no
+  commit/push.

@@ -3,7 +3,7 @@ type: source
 title: "Rose and Brink 1967 - Angular distributions in phase-defined reduced matrix elements"
 aliases: [Rose-Brink 1967 angular distributions]
 created: 2026-09-21
-updated: 2026-10-26
+updated: 2026-10-30
 status: ai-draft
 review_status: unreviewed
 source_type: theory-method-review
@@ -607,3 +607,13 @@ Scalar m块与Σm Dmq Dmq′*=δqq′给每方向局部H=I2/2，normalized W=1�
 | RB67-D23-005 | 在只含M1/E2的ideal polar singles中，rank4只由E2平方贡献，故C4=fE2 C4pureE2(P)；M1平方及M1/E2干涉的rank4为0。任意正的M布居使C4pureE2处于逐M值的凸包：11/2→9/2为[−.703297,.703297]，15/2→13/2为[−.653061,.806723]。这是核取向自由度的数学必要条件，不把实际finitearray/gate投影或未绑定图表A4自动识为该物理层。 | declared-angular-rank-and-positive-population-bound | source-premise-plus-task-derivation | printed316 Eq3.24/318Eq3.29; task input-contract039; SE21 Eqs2.42–2.51 | true |
 
 七项pure归一、12/24角投影、rank4零项、源F两路、M反射、E2份额关系与凸包控制通过；最大数值差约4.4e−14。此处“rank4为0”是明示多极截断的代数结论，不是新实测absence。[[sensharma-2021-wobbling-motion-135pr-187au]] SE21-D23-8/9/10的实际图表阶段尚未闭，[[signature-tip-shears-discrimination-contract]]据此只作条件示例，不给新实验E2份额/δ界/CI或排除度。新needs_review:true。
+
+## Day28：积分光子率与同母态强度分解
+
+本次只定向回核 printed318 Eqs.3.29–3.30、printed319 Eq.3.39及footnote17；printed318原图已复查。既有全文阅读历史与review字段保持，不新增全文精读声明。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| RB67-D28-001 | Eq.3.29给全角积分辐射率，Eq.3.30在电磁多极算符下给出能量的2L+1次幂；Eq.3.39在指定相位与约化矩阵元归一内定义混合比。由此可在另行声明的常用B归一及单位下写λγ,E2∝Eγ⁵B(E2)、λγ,M1∝Eγ³B(M1)。本轮同母态B商、单位换算和协方差是任务推导，不是本文对131Xe的实验结果。 | source-formalism-and-transfer-boundary | direct-formula | printed318 Eq.3.29; printed318 Eq.3.30; printed319 Eq.3.39 | true |
+
+推导及限制见 [[131xe-same-parent-strength-identifiability]]。相位约定改变时不能直接比较带符号δ；全角积分光子率不等于未校正的有限探测器峰面积。

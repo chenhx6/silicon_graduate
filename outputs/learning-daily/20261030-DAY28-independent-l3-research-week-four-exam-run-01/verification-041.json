@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-31T02:31:34.860148+08:00",
+  "session_id": "01a18c85-5ae9-7331-b5b9-bd9ba8082fdd",
+  "run_id": "2026-10-30-day-28-01",
+  "day_index": 28,
+  "research_status": "completed-content-final-not-pushed",
+  "course_state": {
+    "completed_day_indices": [
+      28
+    ],
+    "partial_day_indices": [
+      29
+    ],
+    "next_day_index": 29,
+    "day29_preview": "uncredited",
+    "day30_opened": false
+  },
+  "completion_audit": "completion-audit-005.json",
+  "final_receipt": "final-session-receipt-28.json",
+  "publication_scope": "publication-scope-004.json",
+  "continuation": "continuation-011.md",
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/projects/131xe-low-spin-partner-crosswalk.md",
+      "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+      "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "knowledge/research-notes/131xe-same-parent-strength-identifiability.md",
+      "knowledge/research-notes/131xe-1601-parity-version-boundary.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/bands/131xe-negative-parity-yrast-13-2-sequence.md",
+      "knowledge/bands/131xe-negative-parity-yrare-sequence.md",
+      "knowledge/research-notes/131xe-882-branch-response-contract.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/research-notes/131xe-day29-research-defense-preview.md",
+      "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md",
+      "knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md",
+      "knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md",
+      "knowledge/research-notes/pado-shared-alignment-null-profile.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "knowledge/projects/sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction.md",
+      "knowledge/questions.md",
+      "knowledge/synthesis/octupole-and-rare-electromagnetic-decay.md",
+      "knowledge/index.md",
+      "knowledge/overview.md",
+      "knowledge/synthesis/wiki-full-library-map-20261030.md",
+      "knowledge/research-notes/32s-vermeer-1982-source-access-boundary.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/projects/100sn-gamow-teller-independent-evidence.md",
+      "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+      "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+      "knowledge/research-notes/partner-em-interval-loso-audit.md",
+      "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "knowledge/sources/tonev-2007-134pr-dynamic-chirality.md",
+      "knowledge/sources/rather-2014-ag106-transition-rates.md"
+    ],
+    "changed_paths": [
+      "knowledge/bands/131xe-negative-parity-yrare-sequence.md",
+      "knowledge/bands/131xe-negative-parity-yrast-13-2-sequence.md",
+      "knowledge/index.md",
+      "knowledge/overview.md",
+      "knowledge/projects/100sn-gamow-teller-independent-evidence.md",
+      "knowledge/projects/131xe-low-spin-partner-crosswalk.md",
+      "knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md",
+      "knowledge/projects/sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction.md",
+      "knowledge/questions.md",
+      "knowledge/research-notes/131xe-1601-parity-version-boundary.md",
+      "knowledge/research-notes/131xe-882-branch-response-contract.md",
+      "knowledge/research-notes/131xe-day29-research-defense-preview.md",
+      "knowledge/research-notes/131xe-same-parent-strength-identifiability.md",
+      "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "knowledge/research-notes/32s-vermeer-1982-source-access-boundary.md",
+      "knowledge/research-notes/pado-shared-alignment-null-profile.md",
+      "knowledge/research-notes/partner-em-interval-loso-audit.md",
+      "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+      "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/synthesis/octupole-and-rare-electromagnetic-decay.md",
+      "knowledge/synthesis/wiki-full-library-map-20261030.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "boundary": {
+    "exit_code": 0,
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "git_diff_check": {
+    "exit_code": 0,
+    "output": ""
+  },
+  "lint": {
+    "exit_code": 1,
+    "counts": {
+      "error": 314,
+      "warning": 433,
+      "info": 5224
+    },
+    "new_note_error_paths": []
+  },
+  "publication": {
+    "status": "final-not-pushed",
+    "commit": false,
+    "push": false,
+    "reason": "required full-Wiki lint blocked by unchanged inherited baseline errors"
+  }
+}

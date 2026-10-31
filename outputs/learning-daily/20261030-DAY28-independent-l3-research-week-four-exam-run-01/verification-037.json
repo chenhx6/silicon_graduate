@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-31T01:49:47.417946+08:00",
+  "session_id": "01a18c85-5ae9-7331-b5b9-bd9ba8082fdd",
+  "run_id": "2026-10-30-day-28-01",
+  "research_status": "in_progress",
+  "course_state": {
+    "completed_day_indices": [],
+    "partial_day_indices": [
+      28,
+      29
+    ],
+    "next_day_index": 28
+  },
+  "writeback": {
+    "valid": true,
+    "mode": "updated",
+    "knowledge_paths": [
+      "knowledge/projects/131xe-low-spin-partner-crosswalk.md",
+      "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+      "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+      "knowledge/research-notes/131xe-same-parent-strength-identifiability.md",
+      "knowledge/research-notes/131xe-1601-parity-version-boundary.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/sources/kibedi-2008-evaluation-theoretical-conversion-coefficients-bricc.md",
+      "knowledge/bands/131xe-negative-parity-yrast-13-2-sequence.md",
+      "knowledge/bands/131xe-negative-parity-yrare-sequence.md",
+      "knowledge/research-notes/131xe-882-branch-response-contract.md",
+      "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
+      "knowledge/research-notes/131xe-day29-research-defense-preview.md",
+      "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+      "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+      "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+      "knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md",
+      "knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md",
+      "knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md",
+      "knowledge/research-notes/pado-shared-alignment-null-profile.md",
+      "knowledge/sources/zobel-1983-energy-projectile-alignment.md",
+      "knowledge/sources/yamazaki-1967-aligned-angular-coefficients.md",
+      "knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md",
+      "knowledge/projects/sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction.md",
+      "knowledge/questions.md",
+      "knowledge/synthesis/octupole-and-rare-electromagnetic-decay.md",
+      "knowledge/index.md",
+      "knowledge/overview.md",
+      "knowledge/synthesis/wiki-full-library-map-20261030.md",
+      "knowledge/research-notes/32s-vermeer-1982-source-access-boundary.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/projects/100sn-gamow-teller-independent-evidence.md",
+      "knowledge/sources/hinke-2010-100sn-decay-spectroscopy.md",
+      "knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md",
+      "knowledge/research-notes/partner-em-interval-loso-audit.md",
+      "knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md",
+      "knowledge/sources/tonev-2007-134pr-dynamic-chirality.md",
+      "knowledge/sources/rather-2014-ag106-transition-rates.md"
+    ],
+    "changed_paths": [
+      "knowledge/bands/131xe-negative-parity-yrare-sequence.md",
+      "knowledge/bands/131xe-negative-parity-yrast-13-2-sequence.md",
+      "knowledge/index.md",
+      "knowledge/overview.md",
+      "knowledge/projects/100sn-gamow-teller-independent-evidence.md",
+      "knowledge/projects/131xe-low-spin-partner-crosswalk.md",
+      "knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md",
+      "knowledge/projects/sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction.md",
+      "knowledge/questions.md",
+      "knowledge/research-notes/131xe-1601-parity-version-boundary.md",
+      "knowledge/research-notes/131xe-882-branch-response-contract.md",
+      "knowledge/research-notes/131xe-day29-research-defense-preview.md",
+      "knowledge/research-notes/131xe-same-parent-strength-identifiability.md",
+      "knowledge/research-notes/135pr-mixing-branch-input-contract.md",
+      "knowledge/research-notes/32s-vermeer-1982-source-access-boundary.md",
+      "knowledge/research-notes/pado-shared-alignment-null-profile.md",
+      "knowledge/research-notes/partner-em-interval-loso-audit.md",
+      "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+      "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+      "knowledge/sources/mavela-2019-32s-quadrupole-moment-doppler-correction-thesis.md",
+      "knowledge/sources/rose-brink-1967-phase-defined-angular-distributions.md",
+      "knowledge/sources/soderstrom-2020-137ba-competitive-gamma.md",
+      "knowledge/sources/tuli-2001-ensdf-format-manual.md",
+      "knowledge/synthesis/octupole-and-rare-electromagnetic-decay.md",
+      "knowledge/synthesis/wiki-full-library-map-20261030.md"
+    ],
+    "change_check": "run-snapshot",
+    "error": null
+  },
+  "boundary": {
+    "exit_code": 0,
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "lint": {
+    "command": "python3 system/scripts/wiki_lint.py --fail-on error --format json --output tmp/day28-current-lint.json",
+    "exit_code": 1,
+    "counts": {
+      "error": 314,
+      "warning": 433,
+      "info": 5224
+    },
+    "new_note_error_paths": []
+  },
+  "git_diff_check": {
+    "exit_code": 0,
+    "output": ""
+  },
+  "analysis": {
+    "exit_code": 0,
+    "result": {
+      "source_files": {
+        "C23": {
+          "path": "raw/papers/2023_Chakraborty et al_Search for the origin of wobbling motion in the A ≈ 130 region The case of Xe 131.pdf",
+          "sha256": "730db39eb9a5aecd3bbce1dce3cb9c32829eb2f4a2062ee31c59ddc4d52bd9ff"
+        },
+        "BNK20": {
+          "path": "raw/papers/gpt/day3-mean-field-20260929/banik-2020-131xe-reaction/PDFs/Banik_et_al_2020_131Xe_multiple_band_structures.pdf",
+          "sha256": "21e7e1eed7a93ffc3c38f4580fcf93863d02c56e40ffc900b1634df14c7f34e6"
+        }
+      },
+      "analysis_level": "published-table arithmetic and L3 design; not an event-level L4 result",
+      "formula_reference": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md AW13-9, Equations 5.6-5.7; kappa=0.697 rounded, energies in MeV",
+      "crosswalk": [
+        {
+          "description": "B5 low-spin 13/2",
+          "BNK20": [
+            1045.8,
+            13,
+            "-",
+            false
+          ],
+          "C23": [
+            1046.0,
+            13,
+            "-",
+            false
+          ],
+          "status": "compatible-candidate"
+        },
+        {
+          "description": "B5 17/2 candidate",
+          "BNK20": [
+            1861.5,
+            17,
+            "-",
+            true
+          ],
+          "C23": [
+            1861.9,
+            17,
+            "-",
+            false
+          ],
+          "status": "compatible-with-tentative-label"
+        },
+        {
+          "description": "near 2792 keV different states",
+          "BNK20": [
+            2791.8,
+            23,
+            "+",
+            false
+          ],
+          "C23": [
+            2792.1,
+            21,
+            "-",
+            false
+          ],
+          "status": "quantum-label-conflict"
+        },
+        {
+          "description": "1601 keV assignment revision",
+          "BNK20": [
+            1600.9,
+            17,
+            "+",
+            false
+          ],
+          "C23": [
+            1600.9,
+            17,
+            "-",
+            false
+          ],
+          "status": "quantum-label-conflict"
+        }
+      ],
+      "identity_boundary": "0.5-keV comparison window is a bookkeeping choice, not an experimental confidence region; compatible candidates still require endpoint and gate checks",
+      "closure": [
+        {
+          "parent": "yrare9",
+          "daughter": "isomer",
+          "gamma_kev": 177.3,
+          "residual_kev": 0.0,
+          "locator": "C23 Table I; isomer energy rounded in Fig.1"
+        },
+        {
+          "parent": "yrare13",
+          "daughter": "yrare9",
+          "gamma_kev": 704.6,
+          "residual_kev": 0.1,
+          "locator": "C23 Table I; isomer energy rounded in Fig.1"
+        },
+        {
+          "parent": "yrare17",
+          "daughter": "yrare13",
+          "gamma_kev": 815.6,
+          "residual_kev": 0.3,
+          "locator": "C23 Table I; isomer energy rounded in Fig.1"
+        },
+        {
+          "parent": "yrare21",
+          "daughter": "yrare17",
+          "gamma_kev": 929.7,
+          "residual_kev": 0.5,
+          "locator": "C23 Table I; isomer energy rounded in Fig.1"
+        },
+        {
+          "parent": "yrare13",
+          "daughter": "isomer",
+          "gamma_kev": 881.8,
+          "residual_kev": 0.2,
+          "locator": "C23 Table I; isomer energy rounded in Fig.1"
+        },
+        {
+          "parent": "yrare17",
+          "daughter": "favored15",
+          "gamma_kev": 1055.1,
+          "residual_kev": 0.8,
+          "locator": "C23 Table I; isomer energy rounded in Fig.1"
+        },
+        {
+          "parent": "yrare21",
+          "daughter": "favored19",
+          "gamma_kev": 1175.9,
+          "residual_kev": -0.0,
+          "locator": "C23 Table I; isomer energy rounded in Fig.1"
+        },
+        {
+          "parent": "yrast13",
+          "daughter": "isomer",
+          "gamma_kev": 670.6,
+          "residual_kev": 0.0,
+          "locator": "C23 Table I; isomer energy rounded in Fig.1"
+        },
+        {
+          "parent": "yrast17",
+          "daughter": "yrast13",
+          "gamma_kev": 766.5,
+          "residual_kev": -0.2,
+          "locator": "C23 Table I; isomer energy rounded in Fig.1"
+        },
+        {
+          "parent": "yrast17",
+          "daughter": "favored15",
+          "gamma_kev": 794.8,
+          "residual_kev": 0.1,
+          "locator": "C23 Table I; isomer energy rounded in Fig.1"
+        }
+      ],
+      "closure_boundary": "mixed printed precision, fitted levels and adopted transitions; no chi-square without covariance",
+      "small_branch_fractions": {
+        "671": {
+          "delta": 0.03,
+          "printed_half_width": 0.03,
+          "central_fraction": 0.00089919072834449,
+          "interval_image": [
+            0.0,
+            0.0035870864886408927
+          ],
+          "interpretation": "image of printed plus/minus interval; not a confidence interval"
+        },
+        "882": {
+          "delta": 0.09,
+          "printed_half_width": 0.08,
+          "central_fraction": 0.008034917170915583,
+          "interval_image": [
+            9.999000099989991e-05,
+            0.028088249586937505
+          ],
+          "interpretation": "image of printed plus/minus interval; not a confidence interval"
+        },
+        "1055": {
+          "delta": 0.1,
+          "printed_half_width": 0.2,
+          "central_fraction": 0.009900990099009903,
+          "interval_image": [
+            0.0,
+            0.08256880733944956
+          ],
+          "interpretation": "image of printed plus/minus interval; not a confidence interval"
+        }
+      },
+      "model_delta_minus_069_fraction": 0.32253912336562557,
+      "conditional_strength_ratios_muN2_per_e2b2": {
+        "yrare17_delta0": 1.28495892402829,
+        "yrare17_printed_small_root_delta01": 1.2722365584438513,
+        "yrare17_independent_intensity_and_delta_linear_sigma": 0.14325849594406573,
+        "yrare17_independent_intensity_sigma": 0.13544656332295532,
+        "yrare17_local_sigma_envelope_rho_minus1_to1": [
+          0.08566392826855268,
+          0.17132785653710533
+        ],
+        "yrast17_delta0_approximate_denominator": 2.571094496558592,
+        "yrast17_sigma": null,
+        "missing_inputs": [
+          "uncertainty of approximate 766.5-keV intensity",
+          "joint intensity and efficiency covariance",
+          "delta branch likelihood"
+        ]
+      },
+      "checks": {
+        "source_hashes_match": true,
+        "finite_closure_residuals": true,
+        "zero_delta_fraction_zero": true,
+        "unit_delta_fraction_half": true,
+        "fraction_even": true,
+        "negative_interval_includes_zero": true,
+        "near_energy_identity_rejected": true,
+        "parity_revision_flagged": true,
+        "tentative_identity_not_certified": true,
+        "known_low_state_candidate_retained": true,
+        "distant_equal_labels_rejected": true,
+        "gamma671_belongs_to_yrast": true,
+        "model_delta_not_pure_m1": true,
+        "nonfinite_delta_rejected": true
+      }
+    }
+  },
+  "qmd": {
+    "exit_code": 0,
+    "status_excerpt": "QMD Status\n\nIndex: /var/lib/qmd/cache/qmd/wiki.sqlite\nSize:  62.9 MB\n\nDocuments\n  Total:    1021 files indexed\n  Vectors:  3761 embedded\n  Orphaned: 1588 embedding chunks (42%) — run 'qmd cleanup'\n  Pending:  638 need embedding (run 'qmd embed')\n  Updated:  2h ago\n\nAST Chunking\n  Status:   active\n  Languages: typescript, tsx, javascript, python, go, rust\n\nCollections\n  nuclear-knowledge (qmd://nuclear-knowledge/)"
+  },
+  "publication": {
+    "status": "final-not-pushed",
+    "reason": "full-Wiki lint remains blocked by unchanged inherited baseline errors; Day28 final closeout not yet performed"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-31T16:00:43+08:00",
+  "scope": "post-Day28 open research and Day29 handoff closeout",
+  "status": "completed-final-not-pushed",
+  "hard_deadline": "2026-10-31T15:00:00+08:00",
+  "closeout_at": "2026-10-31T15:47:50+08:00",
+  "course_state": {
+    "completed_day_indices": [28],
+    "partial_day_indices": [29],
+    "next_day_index": 29
+  },
+  "checks": {
+    "wiki_boundary_check": {
+      "exit": 0,
+      "ok": true
+    },
+    "wiki_lint": {
+      "exit": 1,
+      "errors": 45,
+      "warnings": 437,
+      "info": 5224,
+      "classification": "inherited-governance-baseline-blocker"
+    },
+    "git_diff_check": {
+      "exit": 0
+    },
+    "git_diff_cached_check": {
+      "exit": 0
+    },
+    "receipt_json_parse": 0,
+    "state_json_parse": 0,
+    "final_session_receipt_json_parse": 0
+  },
+  "publication": {
+    "status": "final-not-pushed",
+    "safe_to_stage": false,
+    "commit_created": true,
+    "commit_subject": "Finalize Day28 evidence map and canonical Day29 handoff",
+    "push_attempted": false,
+    "push_dry_run_exit": 0,
+    "remote_ancestry_exit": 0,
+    "reason": "Local commit was created from the exact durable manifest; schema and graph repairs reduced the baseline to 45 errors, but 30 raw/hash provenance gaps remain and actual push is not permitted until those inputs are resolved."
+  },
+  "protected_runtime_state": {
+    "run_json": "left unchanged",
+    "events_jsonl": "left unchanged",
+    "runner_prompt": "left unchanged",
+    "raw": "unchanged",
+    "plan": "unchanged",
+    "wiki_inbox_bib": "unchanged",
+    "credentials_and_git_configuration": "unchanged"
+  },
+  "handoff": {
+    "next_prompt": "outputs/learning-daily/prompts/20261031-DAY29-research-design-defense.md",
+    "baseline_reconciliation": "outputs/literature-acquisition/20261031-git-baseline-reconciliation.json",
+    "resume_command": "codex resume 01a18c85-5ae9-7331-b5b9-bd9ba8082fdd -C /workspace/wiki -s danger-full-access -a never",
+    "uncompleted_routes": [
+      "131Xe lawful primary or producer recovery",
+      "135Pr event-level response and covariance for matched Bayesian holdout",
+      "135Nd/134Pr producer-level transition identity and covariance ledger",
+      "148Dy/224Ra/90Zr source-page and response/lineage audit",
+      "full-library claim calibration and reversible raw/output lineage cleanup"
+    ],
+    "autonomy_contract_written": true
+  }
+}

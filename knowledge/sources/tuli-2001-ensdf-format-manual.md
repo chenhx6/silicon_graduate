@@ -53,6 +53,7 @@ NNDC首页独立链接的Format Manual是JagdishK.Tuli February2001、BNL-NCS-51
 | TU01-5 | Nrecord NR(cols10–19)把RI换成每100该decaybranch的photon yield，再由BR(cols32–39)换成每100parent；NB(cols42–49)用于B/E强度。不能用不同N倍率对象的RI直接比较或把Adopted归一100当EC绝对100。 | decay-normalization-field-semantics | direct-manual | PDF24/printed18 Normalization Record | true |
 | TU01-6 | Erecord的IB(cols22–29)为β+强度、IE(cols32–39)为EC强度、TI(cols65–74)为两者合计，三者单位同并依NB。字段空白与numeric0不同；不能因dataset名EC便假定IB=0。 | electron-capture-beta-plus-field-semantics | direct-manual | PDF30/printed24 EC Record | true |
 | TU01-7 | PrecordQP(cols65–74)为g.s.→g.s.总可用Q，E(cols10–19)为实际衰变母态能量，非daughter level；多parent有分开的Precord。用QP作能量可达性边界须同时核parentE与其标签，不能拿近能γ的能量替母态。 | parent-energy-and-Q-field-semantics | direct-manual | PDF23/printed17 Parent Record | true |
+| TU01-D28-1 | Gamma Record的固定栏区分实验转换系数`EKC/ELC/EL1C`与理论转换系数`KC/LC/L1C`；因此评估文件中的`EKC`不能被解析器当作理论表值，空的MR/DMR也不能自动生成混合比。该格式规则不认证任何特定核素记录的原始实验来源。 | fixed-field-conversion-semantics | direct-manual-and-boundary | printed28 Gamma Record, PDF34; printed36 conversion-coefficient definitions, PDF42 | true |
 
 
 ## Summary

@@ -1,0 +1,19 @@
+sha256	path	size_bytes	extension	group_size
+01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b	raw/papers/gpt/.gitkeep	1	[noext]	2
+01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b	raw/papers/gpt/_incoming/.gitkeep	1	[noext]	2
+2c2d428aa5d82b8951d8f927bc11ccd9d30ed791fd55d488ea9cfcfb6372dea5	raw/papers/gpt/day3-mean-field-20260929/2203-12851-tpsm-odd-neutron-xe-20260930/PDFs/Extended_triaxial_projected_shell_model_approach_for_odd-neutron_nuclei.pdf	790443	.pdf	2
+2c2d428aa5d82b8951d8f927bc11ccd9d30ed791fd55d488ea9cfcfb6372dea5	raw/papers/gpt/day3-mean-field-20260929/odd-neutron-tpsm-odd-neutron-xe/PDFs/Extended_triaxial_projected_shell_model_approach_for_odd-neutron_nuclei.pdf	790443	.pdf	2
+4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be	raw/papers/gpt/day26-20261028/nomura-2018-odd-ba-octupole-arxiv1711.09587v2.pdf	791515	.pdf	2
+4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be	raw/papers/gpt/day5-20261003/nomura-2018-odd-mass-ba-octupole.pdf	791515	.pdf	2
+84d0bc2407a789e49aeacc7076e89ef49471dcb907570607ae0a573fdd3246cd	raw/papers/gpt/_incoming/20261029-day27-continuation-liu2026/PDFs/Novel_chiral-wobbling_excitation_in_a_triaxial_nucleus.pdf	226515	.pdf	2
+84d0bc2407a789e49aeacc7076e89ef49471dcb907570607ae0a573fdd3246cd	raw/papers/gpt/qureshie-2026-chiral-wobbling-74br-arxiv2610.09808v2.pdf	226515	.pdf	2
+8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542	raw/papers/gpt/_incoming/20260912-135nd-crosswalk/zhu-2003-135nd-arxiv.pdf	169558	.pdf	2
+8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542	raw/papers/gpt/high-spin-20261009/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf	169558	.pdf	2
+b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1	raw/papers/Band structures of 131Ce.pdf	769364	.pdf	2
+b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1	raw/papers/degree dissertation/Band structures of 131Ce.pdf	769364	.pdf	2
+ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7	raw/papers/degree dissertation/丁兵 - 博士论文.pdf	4045752	.pdf	2
+ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7	raw/papers/degree dissertation/丁兵.pdf	4045752	.pdf	2
+d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997	raw/papers/gpt/_incoming/day26-20261028-001/direct-oa/bernard-2016-1604.06706.pdf	1399379	.pdf	2
+d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997	raw/papers/gpt/day26-20261028/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf	1399379	.pdf	2
+eddb5f0d931ae4132f03aeb53d9b7a8d21f18d404653b5f2a1e3238c9156c199	raw/papers/gpt/_incoming/20261029-day27-tawseef2026/PDFs/Microscopic_investigation_of_magnetic_and_antimagnetic_rotational_motion_in_atomic_nuclei.pdf	1109927	.pdf	2
+eddb5f0d931ae4132f03aeb53d9b7a8d21f18d404653b5f2a1e3238c9156c199	raw/papers/gpt/tawseef-2026-microscopic-mr-amr-arxiv2601.12496v1.pdf	1109927	.pdf	2

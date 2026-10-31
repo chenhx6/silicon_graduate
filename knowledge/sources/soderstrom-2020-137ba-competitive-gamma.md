@@ -3,7 +3,7 @@ type: source
 title: "Söderström et al. 2020 - Electromagnetic character of the competitive gamma-gamma/gamma decay from 137mBa"
 aliases: [Soderstrom 2020 137Ba competitive double gamma]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-30
 status: ai-draft
 review_status: unreviewed
 source_type: journal-article-experiment-and-model
@@ -80,11 +80,12 @@ Söderström *et al.* provide an independent total-branch confirmation and the s
 | SO20-AR-2 | Path identifiability | Angular correlation alone is degenerate; energy-sharing breaks the M2E2/E3M1 ambiguity but still leaves sign/ordering branches and model dependence. | PDF pp.4–6, Fig.5, Eq.5 | self-checking |
 | SO20-AR-3 | Cross-paper conflict | The result directly revises Walz's dominant-Aqq interpretation while agreeing on the total branch within errors; it is a same-nucleus independent experiment, not a duplicate PDF. | PDF pp.1, 4–6, Table 1 | self-checking |
 | SO20-AR-4 | Reproducibility | The article points to Mendeley DOI `10.17632/skhmjshxdj` for final points, but the checked DOI/landing endpoint currently has no retrievable snapshot; raw data and sorting/analysis code remain author-request-only. | PDF p.7, Data/Code availability; EXT-20260921-002 | input-limited-L4 |
+| SO20-D28-1 | A 2026-10-30 access audit found the cited Mendeley DOI unresolved (HTTP 404), the v1 landing shell HTTP 200 but no dataset snapshot, the public dataset API returning `dataset not found`, and the files/snapshot routes without scientific files. No event-level data, response, efficiency, background, cut or covariance file was recovered. | reproducibility-boundary | direct-access-audit | `tmp/day28-ba137-access/access-report.json`; DOI/landing/API route probes | true |
 
 ## Knowledge Impact and Learning Decision
 
 - Effect: `revises` [[walz-2015-competitive-double-gamma-137ba]], [[two-photon-nuclear-decay]] and the `137Ba` polarizability evidence map; it promotes energy-sharing as the decisive companion observable for virtual-path identification.
-- L3/L4: the cited data DOI was checked and is currently unavailable at its landing endpoint; no independent L4 re-fit is claimed here. Figure digitization is explicitly insufficient for the response/covariance contract.
+- L3/L4: the cited data DOI was checked again on 2026-10-30. The landing shell is reachable, but the dataset snapshot/version/files are absent and the API reports `dataset not found`; no independent L4 re-fit is claimed here. Figure digitization is explicitly insufficient for the response/covariance contract.
 - Review state: Codex self-audited; not `human-reviewed`.
 
 ## Human Review Triage

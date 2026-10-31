@@ -20,6 +20,12 @@ tags: [a100, 100sn, gamow-teller, beta-decay, evidence-map, project]
 
 本项目比较 GSI 与 RIKEN 两条 `100Sn` 衰变谱学实验链，追踪 `B(GT)`、Q/endpoint、衰变分支和 `100In` 能级方案之间的依赖关系。它不把数值差异裁决为物理矛盾，也不替代两份 source 的 claim-level 人工复核。
 
+## Day28 Claim-Safety Boundary
+
+本页后续历史章节中带有“终极裁决”“解释率达到 99%”或“完全吻合”等标题的相空间对账，统一降级为 task-derived sensitivity exercises，不再作为 `100Sn` 实验结论、淬灭裁决或投稿主张。原因是这些计算使用了不同论文的中心端点、半衰期、EC/β+约定和分支假设；当前证据仍缺少共同的原始响应、完整 `100In` 分支、联合协方差和统一模型空间。Hinke 的大统计误差与 Lubos 的高统计结果仍是两条独立实验链，必须按 source locator 分开引用（`HK10-D21-R99-1`–`HK10-D21-R99-3`；`LB16-D21-R99-1`–`LB16-D21-R99-4`）。
+
+因此，本项目当前最强可复用命题是：`B(GT)` 差异需要先拆成 endpoint/Q、phase-space、branching、response 和 model-space 输入差异；统一输入后的残差是否属于内禀 GT 结构，仍待共同重算和 companion observables。任何旧脚本、JSON 或章节标题都不能把条件算术升级为实验事实，也不能清除本页与 source 页的 `needs_review`。
+
 ## Research Question
 
 `B(GT)=9.1(+4.8/-2.3)`（GSI）与 `5.26(+0.90/-1.06)`（RIKEN）的差异，能否由 Q/endpoint、统计量、single-state 或 branching 假设、探测器响应和模型约定解释？哪些 companion observables 才能把分析差异与真实 GT 结构差异区分开？

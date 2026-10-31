@@ -39,6 +39,11 @@ The one-page NNDC/ENSDF Coulomb-excitation subfile was retrieved and visually ch
 
 The cited primary record `2003Ba01` is bibliographically identified by Crossref and the NNDC reference route as C. J. Barton et al., “B(E2) values from low-energy Coulomb excitation at an ISOL facility: the N=80,82 Te isotopes,” *Physics Letters B* **551**(3–4), 269–276 (2003), DOI `10.1016/S0370-2693(02)03066-6`. The publisher article endpoint returned HTTP 403 in this run; the primary full text was not read.
 
+The 2026-10-31 access recheck found the same boundary: OpenAlex marks the DOI as closed
+with no repository full-text location, and no lawful public PDF was found. The evaluation
+value therefore remains `evaluation-grounded`; this page does not upgrade it to a
+primary-text-verified measurement.
+
 ## Scope and Reading Depth
 
 This one-page evaluation subfile was read and visually checked in full. It covers the adopted `134Te` Coulomb-excitation record, not the full primary 2003 paper.

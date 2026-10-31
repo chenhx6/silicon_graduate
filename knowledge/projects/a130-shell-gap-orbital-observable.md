@@ -58,6 +58,33 @@ tags: [a130, shell-effects, orbitals, observables, durable-learning]
 
 本页依托 Haxel–Jensen–Suess 1949 和 Ragnarsson–Nilsson–Sheline 1978 的 source 页面，以及 A≈130 集体模式 project。两份 anchor 是历史模型/综述谱系，不是独立目标核实验。
 
+## 2026-10-31 Cross-Mass Control Re-audit
+
+本轮开放研究新增了 `148Dy` 的全文级 `B(E3;3−→0+)=46(3) W.u.`、`90Zr` 2024
+的全文级 `T_{1/2}(3−)=7.8(16) ps` 与 `B(E3)=16(3) W.u.`，以及 `90Zr` 2026
+摘要级 `B(E3)=19.6^{+1.7}_{-1.6} W.u.`。这些结果增强了八极 E3 的跨方法证据
+梯，但不能直接改写 N=82 壳隙结论：
+
+- `148Dy` 是 `N=82` 等中子链上的高 Z 核，`B(E3)` 约束八极集体响应；
+  `E(2+)`、`B(E2)`、`δ₂n`、`Δ_n(82)` 和转移谱因子约束不同自由度，不能互相替代；
+- `90Zr` 属于 `N=50` 闭壳附近的独立方法对照，不能作为 `132Sn/134Te` 的 N=82
+  直接观测或 shell-gap 代理；
+- `132Sn` 的 `5.5(15) W.u.` 与 `0.11(3) e²b²` 仍是同一 Varner `B(E2)↑`
+  测量的方向/单位转换，NuDat lifetime 是派生量，不增加独立证据；
+- `δ₂n=6.527 MeV`、`Δ_n(82)=4.955 MeV`、`E(2+)`、`B(E2)`、DWBA transfer
+  factor 和 microscopic orbital spacing 必须保持独立列，不能组成一个未经模型
+  说明的“完整 N=82 gap”数值。
+- 本轮还保留一个 source-level unit boundary：`ensdf-132sn-coulomb-excitation.md`
+  的后续审计段出现 `τ=34.4 ps`，而同库 LiveChart 与 NNDC adopted 记录给出约
+  `3.44 fs/2.4 fs`，且 adopted 记录明确该寿命由 `B(E2)` 派生。该冲突不改变
+  直接 `B(E2)` 值，但在正式使用寿命时必须回到原始公式和 ENSDF 行核定，不能把
+  任一显示字段当作第三套独立测量。
+
+本次 re-audit 的 decision 是 `verified-no-op`：没有获得新的、独立且能改变上述
+N=82 观测量分层的 primary 输入。可复核路线与 locator 仍见本页的 AME2020、
+Varner、Jones、Orlandi、ENSDF 和 LiveChart source links，以及
+[[octupole-2025-2026-new-e3-access-boundary]] 的 `148Dy/90Zr` source-access ledger。
+
 ## Day 2 calculation and design result
 
 For the historical spin–orbit ordering, the cumulative degeneracies can be checked through `N=50` as `2 + 6 + 10 + 2 + 4 + 8 + 6 + 12 = 50`.

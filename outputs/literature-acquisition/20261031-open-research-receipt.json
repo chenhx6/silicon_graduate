@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "timezone": "Asia/Shanghai",
+  "research_window_until": "2026-10-31T15:00:00+08:00",
+  "status": "completed-final-not-pushed",
+  "stop_decision": "resumed-after-new-primary",
+  "stopped_at": "2026-10-31T13:02:00+08:00",
+  "resumed_at": "2026-10-31T13:25:56+08:00",
+  "closed_at": "2026-10-31T15:47:50+08:00",
+  "stop_reason": "P1/P3/P4 contracts and full-library/index audit completed; remaining routes are blocked by missing primary text, response/Cov, or independent holdout",
+  "scope": "post-Day28 full-library review and paper-candidate research",
+  "canonical_additions": [
+    "knowledge/research-notes/131ce-133ce-mode-identifiability-boundary.md",
+    "knowledge/research-notes/135pr-bayesian-model-conditioning-boundary.md",
+    "knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md",
+    "knowledge/research-notes/135nd-134pr-transition-identity-ledger-20261031.md",
+    "knowledge/research-notes/135nd-2025-tipped-precession-same-lineage-extension.md",
+    "knowledge/research-notes/full-library-claim-calibration-audit-20261031.md",
+    "knowledge/research-notes/post-30-day-paper-figure-and-data-contracts.md",
+    "knowledge/research-notes/octupole-2025-2026-new-e3-access-boundary.md"
+  ],
+  "canonical_updates": [
+    "knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md",
+    "knowledge/projects/a130-shell-gap-orbital-observable.md",
+    "knowledge/index.md",
+    "knowledge/sources/ensdf-134te-coulomb-excitation.md"
+  ],
+  "full_text_or_primary_staging": [
+    {
+      "source": "148Dy direct E3",
+      "path": "tmp/day31-octupole-fulltext/2609.21499.pdf",
+      "status": "full-text-staged",
+      "key_result": "B(E3;3-1->0+)=46(3) W.u.; B(E1;3-1->2+)=2.7(3)e-3 W.u."
+    },
+    {
+      "source": "224Ra independent lifetime/IC validation",
+      "path": "tmp/day31-octupole-fulltext/2609.07556.pdf",
+      "status": "full-text-staged",
+      "key_result": "multiple B(E1), B(E3)=98(4) W.u., Q10 around 0.029-0.033 efm"
+    },
+    {
+      "source": "90Zr 2024/2026 method-separated pair",
+      "paths": [
+        "tmp/day31-octupole-fulltext/90zr-2024-crossref.json",
+        "tmp/day31-octupole-fulltext/90zr-2026-crossref.json",
+        "tmp/day31-octupole-fulltext/90zr-2024-prc.pdf",
+        "tmp/day31-octupole-fulltext/90zr-2024-prc.txt",
+        "tmp/day31-octupole-fulltext/90zr-2026-plb.xml",
+        "tmp/day31-octupole-fulltext/90zr-2026-plb.txt"
+      ],
+      "status": "both-full-text-read",
+      "key_result": "2024 plunger/fast-timing T1/2=7.8(16) ps and B(E3)=16(3) W.u.; 2026 safe Coulomb excitation/gosia2 B(E3)=19.6(+1.7/-1.6) W.u. with correlated chi2 uncertainty surface"
+    },
+    {
+      "source": "90Zr source-lineage Crossref records",
+      "paths": [
+        "tmp/day31-octupole-fulltext/90zr-2024-crossref.json",
+        "tmp/day31-octupole-fulltext/90zr-2026-crossref.json"
+      ],
+      "status": "distinct-publication-records-verified",
+      "key_result": "2024 PRC 110 064312 and 2026 PLB 879 140670 are distinct records and methods"
+    },
+    {
+      "source": "135Nd 2025 same-lineage TiP extension",
+      "paths": [
+        "tmp/day31-135nd-2025-lv-extension.pdf",
+        "tmp/day31-135nd-2025-lv-extension.txt"
+      ],
+      "status": "full-text-read-same-lineage-extension",
+      "key_result": "new 17/2-3 state, high-spin band T, and B(E2,752)/B(E2,908)=2.0(5); same 2021 JUROGAM II reaction/array lineage"
+    }
+  ],
+  "paper_candidates": {
+    "P1": "135Pr common-response/branch-identifiability with Bayesian model-conditioning control",
+    "P2": "131Xe identity/parity/delta branch boundary",
+    "P3": "135Nd/134Pr partner-resolved EM data contract",
+    "P4": "cross-mass octupole E3-first evidence ladder",
+    "P6": "131Ce/133Ce collective-mode identifiability"
+  },
+  "readiness_boundaries": [
+    "No event-level 135Pr common response or joint covariance",
+    "No 131Xe 1983/1979 target-line primary AD/ICC/response",
+    "No 135Nd line-resolved producer and covariance",
+    "New octupole papers require source-page ingestion and full response/lineage audit before numerical synthesis",
+    "90Zr 2024/2026 article bodies are read; event-level producer files and cross-method joint covariance remain unavailable",
+    "209Pb 2026 octupole-lifetime paper is metadata-only; no numerical lifetime or response was acquired",
+    "The full-library scan found claim-language mismatches where model results or author interpretations used proof-like wording; source pages remain unreviewed"
+  ],
+  "corrections": [
+    {
+      "item": "arXiv identity",
+      "old": "2609.21499 described as 92Mo",
+      "corrected": "2609.21499 is the 148Dy source; 2609.07556 is 224Ra",
+      "evidence": "tmp/day31-octupole-fulltext/2609.21499.txt:55; knowledge/research-notes/octupole-2025-2026-new-e3-access-boundary.md"
+    },
+    {
+      "item": "full-library claim calibration",
+      "corrected": "model-result and author-interpretation wording is kept conditional and source-layered",
+      "evidence": "knowledge/research-notes/full-library-claim-calibration-audit-20261031.md"
+    },
+    {
+      "item": "N=82 lifetime display",
+      "corrected": "ENSDF/LiveChart/NNDC lifetime unit conflict is retained as a source boundary; derived lifetime is not counted independently",
+      "evidence": "knowledge/projects/a130-shell-gap-orbital-observable.md"
+    }
+  ],
+  "access_updates": [
+    {
+      "source": "90Zr 2026 PLB 879, 140670",
+      "result": "Elsevier API key retrieved full TDM XML/plain text and article object manifest",
+      "status": "full-text-read",
+      "boundary": "No event-level matrix/producer release or cross-method joint covariance acquired"
+    },
+    {
+      "source": "209Pb 2026 Nuclear Physics A 1066, 123273",
+      "result": "Elsevier TDM metadata shell reachable; ScienceDirect and PDF routes returned 403, repeated TDM reached 429",
+      "status": "metadata-only",
+      "boundary": "No abstract body, lifetime number, branching, response or covariance acquired"
+    },
+    {
+      "source": "134Te 2003Ba01 primary Coulomb excitation",
+      "result": "DOI/title/reaction identity rechecked; OpenAlex closed and no repository full text; publisher route remains blocked",
+      "status": "evaluation-grounded",
+      "boundary": "No primary-text verification of the adopted B(E2)=0.13(4) e2b2"
+    },
+    {
+      "source": "131Xe Irving 1979 CORE repository recheck",
+      "result": "Exact DOI/title queries returned no matching repository full text; near matches were unrelated",
+      "status": "repository-no-op",
+      "boundary": "Institutional subscription/interlibrary loan route remains untested; 794-keV AD/ICC boundary unchanged"
+    }
+  ],
+  "model_frontier": [
+    "10.1103/64zl-b9br",
+    "10.1103/f2zp-rb6f",
+    "10.1103/14kh-p5g3",
+    "10.1103/jlfb-m2qd"
+  ],
+  "calibration_applied": [
+    "knowledge/sources/hendrie-1968-hexadecapole-deformation.md",
+    "knowledge/sources/rohozinski-1988-triaxial-scissors-mode.md",
+    "knowledge/sources/zagrebaev-2001-superheavy-synthesis-survival.md",
+    "knowledge/sources/piekarewicz-2004-soft-monopole-mode.md",
+    "knowledge/sources/karmakar-2025-doublet-wobbling-105pd.md"
+  ],
+  "optimization_audit": {
+    "status": "read-only-recommendation",
+    "finding": "wiki_lint.py rereads knowledge pages during link validation; a local text-cache refactor may recover about 12 seconds per run",
+    "decision": "deferred",
+    "reason": "This open-research window did not modify governance or lint code; implement in a separate bounded optimization task"
+  },
+  "index_maintenance": {
+    "knowledge_pages": 1032,
+    "source_pages": 472,
+    "research_notes": 245,
+    "projects": 19,
+    "synthesis_pages": 14,
+    "qmd_update": "completed",
+    "qmd_update_result": "1 new and 5 updated pages indexed in the latest refresh; qmd cleanup not run",
+    "embedding_refresh": "partial",
+    "embedding_refresh_result": "20 documents embedded earlier; 7 documents remain pending after index and note updates; qmd cleanup not run"
+  },
+  "checks": {
+    "boundary": "ok",
+    "git_diff_check": 0,
+    "lint_errors": 45,
+    "lint_warnings": 437,
+    "lint_status": "inherited-baseline-blocked",
+    "lint_exit": 1,
+    "lint_info": 5224,
+    "git_diff_cached_check": 0,
+    "final_verification": "outputs/literature-acquisition/20261031-open-research-final-verification.json",
+    "local_commit_subject": "Finalize Day28 evidence map and canonical Day29 handoff",
+    "push_status": "blocked-by-required-lint-raw-provenance",
+    "push_dry_run_exit": 0,
+    "remote_ancestry_exit": 0
+  },
+  "next_high_information_routes": [
+    "Obtain lawful full text or producer for 131Xe 794-keV/1983-1979 sources",
+    "Obtain 135Pr response/Cov and define matched Bayesian leave-EM-out holdout",
+    "Ingest full primary source pages for 148Dy/224Ra/90Zr if raw/source policy permits",
+    "Build 135Nd transition identity ledger from MU07/ZH03/LV19 before any new fit"
+  ],
+  "next_day_prompt": "outputs/learning-daily/prompts/20261031-DAY29-research-design-defense.md",
+  "baseline_reconciliation": "outputs/literature-acquisition/20261031-git-baseline-reconciliation.json"
+}

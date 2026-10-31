@@ -192,6 +192,7 @@ Chiara 2012, Summary 2013, and Gray 2020 together supply the practice/background
 - Need assess whether any Ekstrom-style alignment uncertainty budget or Ionescu-style discrete-feeding term can be approximated realistically for the user's reaction and observed feeding pattern.
 - Need check whether isomeric feeding or delayed components could make Gray-style amplitude/alignment cautions relevant to the user's data.
 - Need stronger direct evidence, if available, before promoting the current low-spin caution into a universal low-spin `sigma/I` statement.
+- Day28 added [[pado-shared-alignment-null-profile]]: a real [[zobel-1983-energy-projectile-alignment]] table-level profile rejects the single shared `sigma/J` null across projectile/energy conditions at quoted errors, while leaving condition-specific and feeding-aware P-ADO models open; the feeding-aware companion remains [[ionescu-1981-improved-angular-distribution-analysis-particle-xn]].
 - Need map more explicitly how ICC, DCO and polarization constraints would be combined in the user's actual P-ADO or in-beam analysis path, rather than treating them as interchangeable generic diagnostics.
 
 ## Writing-Support Synthesis Status

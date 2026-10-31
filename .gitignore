@@ -91,6 +91,17 @@ outputs/learning-daily/*-run-*/workers/**/wiki-lint*
 outputs/learning-daily/*-run-*/workers/**/lint.*
 outputs/learning-daily/*-run-*/workers/**/global-checks.json
 
+# Unpublished worker/process artifacts; durable findings belong in knowledge/
+# and formal receipts belong in the canonical outputs roots.
+outputs/learning-daily/*-run-*/workers/
+outputs/learning-daily/*-run-*/audit_*.py
+outputs/learning-daily/*-run-*/check_checkpoint.py
+outputs/learning-daily/*-run-*/verify_sources.py
+outputs/learning-daily/*-run-*/writeback-*.json
+outputs/learning-daily/*-run-*/time-gate-*.json
+outputs/learning-daily/*-run-*/day*-*.json
+outputs/learning-daily/*-run-*/continuation-00[1-8].md
+
 # Local PDF text extractions and scratch visual renders within worker runs
 outputs/learning-daily/*-run-*/**/pdf*.png
 outputs/learning-daily/*-run-*/**/pdf*.txt
@@ -199,3 +210,11 @@ outputs/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam-run
 
 # Ephemeral literature scratch packages
 outputs/literature-acquisition/pai2014-bi198/
+
+# Protected local artifacts from the Day28 runner and conservative workspace audit.
+# Canonical Day29 prompt and final receipts are stored outside these paths.
+outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/run.json
+outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/baseline.json
+outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/prompt-day29.md
+outputs/literature-acquisition/20261030-workspace-audit/knowledge-artifact-references.tsv
+outputs/literature-acquisition/20261030-workspace-audit/source-raw-reconciliation.tsv

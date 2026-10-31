@@ -2,14 +2,49 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-28
+updated: 2026-10-31
 ---
 
 # Wiki Index
 
+## 全库温故知新入口
+
+- [[wiki-full-library-map-20261030]] — 2026-10-30 全库结构、知识关系、研究主线、论文候选和 `outputs/`/`raw/papers/` 整理边界；这是复习导航与研究选题索引，不替代 source 原件和 locator。
+- [[full-library-claim-calibration-audit-20261031]] — 对近期 source 页中的实验事实、派生量、模型结果与作者解释做语言校准；保留原 locator 和 review 状态，不把自审升级为人工审阅。
+- [[post-30-day-nuclear-structure-paper-prospectus]] — 把30天后尝试投稿落成四个候选队列：135Pr共同响应审计、131Xe对象/分支边界、135Nd/134Pr绝对电磁量和跨质量区八极证据梯。
+- [[135pr-common-response-evidence-contract-20261031]] — 将 `135Pr` P1 收束为三条核心连接线、逐实验 nuisance、branch profile、leave-EM-out holdout 和 L3/L4 停止条件。
+- [[135nd-134pr-transition-identity-ledger-20261031]] — 冻结 `135Nd` 状态级 `τ/B` 与 ZH03/LV19 逐线身份、`134Pr` Tonev07 逐线 EM ledger 及谱系/版本陷阱。
+- [[135nd-2025-tipped-precession-same-lineage-extension]] — `135Nd` 2025 新 `17/2−` 态、band T 与 `B(E2,752)/B(E2,908)=2.0(5)`；标记为 2021 JUROGAM II 同谱系扩展。
+- [[pado-shared-alignment-null-profile]] — 基于Zobel 1983十行真实表格的共享`σ/J`、共同`rho`与`tau` profile；`tau=1`无共同区间，作为P-ADO跨反应alignment迁移的条件性falsifier。
+
+## Day28 当前L3：131Xe低自旋对象身份与δ分支
+
+- [[131xe-low-spin-partner-crosswalk]] — 2020 B1(a)/B5与2023 yrast/yrare逐态对照、794.8-keV宇称版本差异、小δ/负δ分支与同母态比值误差合同；来源为 [[chakraborty-2023-131xe-wobbling-origin]] C23-D28-1至6 和 [[banik-2020-131xe-multiple-band-structures]] BNK20-D28-1/2。旧Day19排他性“零对照/γ软必无wobbling”断言在两source内明确撤回，新增内容保持self-audit/needs_review。
+- [[131xe-same-parent-strength-identifiability]] — 同母态M1/E2两个B商、共享协方差和模型δ的能量约定；来源为 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-D28-001及Chakraborty C23-D28-6/7，条件推导保持provisional。
+- [[131xe-1601-parity-version-boundary]] — 795-keV E1多处标签、766-keV无偏振的宇称判别限制及外部档案待摄入路线；来源为 [[banik-2020-131xe-multiple-band-structures]] BNK20-D28-3和Chakraborty C23-D28-8，不把再观测γ线当作独立重定宇称。
+- [[131xe-882-branch-response-contract]] — 881.8/880.1双线、取向、偏振、联合协方差与nuisance剖面下的双δ分支分离条件；来源为 Chakraborty C23-D28-3/C23-D28-9、Rose–Brink RB67-D23-001及Krane–Steffen KS70-2/6，保持L4 readiness边界。
+- [[131xe-day29-research-defense-preview]] — Day29无学分预习：794-keV电子/γ宇称判别、882偏振/角分布、共享响应、negative controls与belief revision设计；不推进课程状态。
+
 > Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
 
 ## Day27 当前续研：跨区失效与可检验分支网络
+
+- [[bender-1999-superheavy-magic-numbers]] — 超重区自旋轨道淬灭与幻数模型边界。
+- [[cavallaro-2019-giant-pairing-vibration]] — 巨对振动跨质量区运动学与连续谱阻尼失效。
+- [[colo-1995-isospin-mixing-gdr]] — 库仑同位旋混合与 GDR 禁戒 E1 的模型边界。
+- [[enders-1999-scissors-mode-saturation]] — 剪刀模 `B(M1)` 饱和与价空间截断原件。
+- [[hendrie-1968-hexadecapole-deformation]] — 稀土 `β4` 符号反转的散射与形状参数原件。
+- [[karmakar-2025-doublet-wobbling-105pd]] — `105Pd` 双重摆动候选的实验与 TPSM 解释边界。
+- [[margraf-1995-odd-a-scissors-mode]] — 奇 A 剪刀模泡利阻塞与碎裂原件。
+- [[motobayashi-1995-32mg-deformation]] — `N=20` 反转岛壳闭合崩溃与四极集体性原件。
+- [[pandit-2012-gdr-thermal-width-critical-behavior]] — GDR 热展宽与配对塌缩/形状涨落原件。
+- [[piekarewicz-2004-soft-monopole-mode]] — 富中子核软单极模式与 `Kτ` 提取模型边界。
+- [[rohozinski-1988-triaxial-scissors-mode]] — 三轴剪刀模简并破缺与双峰模型原件。
+- [[schonwasser-2003-tsd-wobbling-165lu]] — 三轴超形变摆动与八极/偶极抑制原件。
+- [[schwengner-2013-m1-upbend-brink-axel]] — 低能 `M1` 上弯与 Brink–Axel 迁移边界。
+- [[tsoneva-2011-pqr-skin-nuclei]] — 中子皮矮四极共振与 IVGQR 连续谱溶解原件。
+- [[youngblood-2004-isgmr-deformation-splitting]] — 形变 ISGMR 劈裂与不可压缩系数提取边界。
+- [[zagrebaev-2001-superheavy-synthesis-survival]] — 超重核裂变势垒反转与多次裂变生存模型。
 
 - [[smith-2003-hf178-isomer-gamma-decay]] — Hf异构态直接M4/E5弱γ符合谱、E3内转换主支与相对强度归一；作者稿Table I与fν来源依赖。
 - [[wobbling-anharmonicity-vs-dissipative-damping]] — 三轴γ软度、量子非简谐性与内禀耗散阻尼：Hermitian本征态与连续展宽的范畴破除。
@@ -991,6 +1026,11 @@ updated: 2026-10-28
 - [[chirality-shape-coexistence-companion-matrix]] — Day24内恰好Day25无学分预习，三核逐family观测/模型/替代与companion缺项降级；不授下一卡。
 
 - [[135nd-chiral-partner-resolved-evidence-map]] — Day24正式研究入口：135Nd逐伙伴实验、TAC/RPA与竞争解释矩阵；模型临界/等强近似和缺失g/normalizer分开，未授分。依据[[mukhopadhyay-2007-135nd-chiral-vibration-static]] MU07-D24-001与[[frauendorf-meng-1997-tilted-rotation-chirality]] FM97-D24-001。
+- [[partner-em-interval-loso-audit]] — 135Nd/134Pr/106Ag 伙伴带 `B(E2)` 的协方差无关逐自旋留出审计；区分共同尺度未拒绝、误差缺失与真正可证伪结果。
+- [[131ce-133ce-mode-identifiability-boundary]] — 将 `131Ce/133Ce` 的 signature、γ-soft、wobbling、chirality 与 shape-coexistence 统一成 observable bundle、反证和最小测量决策边界。
+- [[135pr-bayesian-model-conditioning-boundary]] — 将 2026 Bayesian inertia 模型与 Matta–Lv–Sensharma 共同 response/branch 证据分层，明确条件 posterior 不能替代实验 holdout。
+- [[post-30-day-paper-figure-and-data-contracts]] — 将 P1/P2/P6 论文候选转成 figure claim、数据输入、falsifier 和停止条件合同。
+- [[octupole-2025-2026-new-e3-access-boundary]] — 记录 `92Mo`、`90Zr`、`148Dy`、`224Ra`、`150Gd` 新八极 E3 文献线索及其全文/response/独立性边界。
 
 - [[a130-thesis-evidence-matrix]] - A≈130 博士论文管线的持久证据矩阵；保存可复用的观测、判据、解释边界、必要伴随观测和 source lineage。
 - [[a130-model-choice-card]] - Day 3 的 A≈130 高自旋模型选择卡；分开 mean-field/CSM/QTR/投影模型输出与实验 companion observables。
@@ -1206,6 +1246,7 @@ updated: 2026-10-28
 - [[yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis]] - 岳珂 HIRFL-CSR 外靶 CsI(Tl) Gamma Ball 设计与模拟。
 - [[xiao-xiao-2019-high-spin-74as-thesis]] - 肖骁 `74As` 高自旋态；正宇称手征候选与负宇称 pseudospin 边界。
 - [[mavela-2019-32s-quadrupole-moment-doppler-correction-thesis]] - Mavela `32S` 第一 `2+` 态谱学四极矩和 GOSIA 重定向效应。
+- [[32s-vermeer-1982-source-access-boundary]] - Vermeer 1982 `32S` 四极矩早期比较源的书目核验与正文访问边界；未获得正文前不裁决相容性。
 - [[mehl-2015-ithembalabs-coulomb-sorting-thesis]] - 2015 iThemba `20Ne+194Pt` S3/AFRODITE sorting-code thesis; 15-mm geometry and GEANT4-derived ring β form a separate-run method comparator for Mavela `32S`.
 - [[yan-duo-2015-csr-coulomb-excitation-detector-system-thesis]] - 闫铎 CSR 外靶 Gamma Ball 效率与 CsI 望远镜 PID 方法。
 

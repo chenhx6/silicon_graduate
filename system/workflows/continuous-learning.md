@@ -117,6 +117,7 @@ runner 的 continuation 次数上限按批次计数；达到上限时只滚动�
 ## 持久化产物
 
 每日记录写入 [`outputs/learning-daily/`](../../outputs/learning-daily/)，文件名使用 `YYYYMMDD-DAYn-english-topic-slug.md`；实质记录至少包含：运行日期/时区、主题与候选池、每个问题的选择理由、来源指纹与重叠、checkpoint、关键 claim/locator/证据层、支持与反证、链接增量、Knowledge Impact and Learning Decision、开放问题、时间快照、已完成/部分课程卡及交付审计、停止/续跑原因、L0–L4 状态和 Git/权限结果。文件名使用 ASCII English slug 以避免路径乱码；日报正文和解释尽量使用中文。15:00 收束后，runner 按完整课程卡审计推进里程碑，并为下一个未完成日卡生成提示词；部分卡会在下一运行续接，不推进学分。可复用的知识增量必须写入 `knowledge/` 的 source、project、synthesis、question、research-note 或矩阵页面，并在日报中列出 canonical 路径；outputs 只保存日报、周报、审计、回执、调度状态和计划书。无实质新知时写短的 verified no-op receipt，不制造空提交。
+下一日 prompt 的唯一 canonical 落点是 `outputs/learning-daily/prompts/YYYYMMDD-DAYN-*.md`；run 目录内的 `prompt-dayN.md` 或 `next-continuation-*.md` 只能作为运行 provenance。最终日报、handoff、receipt 和 scheduler 入口都必须回链 canonical prompt，不能把 run 目录副本当作正式启动入口。
 
 每周写入 [`outputs/learning-weekly/`](../../outputs/learning-weekly/)：覆盖范围、互链缺口、反证、独立性、下一批候选和 belief revision；不以固定论文数达标。阶段报告、调度状态和运行回执写入 `outputs/learning-milestones/`；论文证据矩阵、研究地图和其它可复用知识写入 `knowledge/`。QMD 只在多篇完成、跨来源综合或明确需要时批量刷新；单篇完成可记录 deferred。
 

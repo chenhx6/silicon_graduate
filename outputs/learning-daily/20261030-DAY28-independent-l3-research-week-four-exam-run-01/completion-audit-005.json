@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-31T02:20:00+08:00",
+  "run_id": "2026-10-30-day-28-01",
+  "objective_status": "content-complete-final-not-pushed",
+  "day28_card_audit": {
+    "status": "complete",
+    "deliverables": [
+      {
+        "id": "l3-recall-and-problem-selection",
+        "status": "complete",
+        "artifact": "outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/recall-001.md; outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/recall-002.md",
+        "locator": "outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam.md#Candidate pool and selection",
+        "caveat": "primed/delayed recall; not a fresh unfamiliar closed-book score"
+      },
+      {
+        "id": "source-to-claim-to-locator-l3-milestone",
+        "status": "complete",
+        "artifact": "knowledge/projects/131xe-low-spin-partner-crosswalk.md; outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/table-audit-001.json",
+        "locator": "C23-D28-1; BNK20-D28-1; Real-table Result"
+      },
+      {
+        "id": "quantitative-or-design-exercise",
+        "status": "complete",
+        "artifact": "outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/workers/strength/derive_strength.py; outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/workers/bricc795/bricc795-derived.json; tmp/day28-pado-research/shared-z83-profile.json",
+        "locator": "同母态两商的条件推导; 官方BrIcc名义系数与ICC边界; Real-table Result",
+        "caveat": "conditional calculations; no event-level L4 fit"
+      },
+      {
+        "id": "counter-evidence-and-falsifier",
+        "status": "complete",
+        "artifact": "outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/workers/882-contract/input-contract.json; outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/workers/parity-conversion/findings.zh.md",
+        "locator": "两分支的条件分离; ENSDF转换记录的语义边界; Real-table Result"
+      },
+      {
+        "id": "report-scorecard-reflect-continuation-readiness",
+        "status": "complete",
+        "artifact": "outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam.md; outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/continuation-011.md; outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/verification-040.json",
+        "locator": "### 第四次周考评分表; ### Weekly REFLECT（第四周，持续更新）; ## L0–L4 state"
+      }
+    ]
+  },
+  "course_state": {
+    "completed_day_indices": [28],
+    "partial_day_indices": [29],
+    "next_day_index": 29,
+    "day29_preview": "uncredited",
+    "day30_opened": false
+  },
+  "publication": {
+    "status": "final-not-pushed",
+    "reason": "full-Wiki lint remains blocked by unchanged inherited baseline errors",
+    "lint_errors": 314,
+    "lint_warnings": 433,
+    "commit": false,
+    "push": false
+  }
+}

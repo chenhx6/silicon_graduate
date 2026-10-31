@@ -3,6 +3,7 @@ type: system-experience-index
 title: "Wiki 研学与工程经验知识库：成功经验与事故教训全书"
 created: 2026-10-30
 updated: 2026-10-30
+graph-excluded: true
 ---
 
 # Wiki 研学与工程经验知识库

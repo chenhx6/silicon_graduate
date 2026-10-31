@@ -7,6 +7,8 @@ updated: 2026-10-28
 
 # Knowledge Base Health Dashboard
 
+全库复习和研究选题入口：[[wiki-full-library-map-20261030]]。该页只做知识导航、证据分层和工作区整理边界，不替代各 `knowledge/sources/` 原件与 locator；代表性证据回链见 [[chakraborty-2023-131xe-wobbling-origin]] C23-D28-1 和 [[gaffney-2013-pear-shaped-rn-ra]] GA13-1。
+
 ## Current Snapshot: 2026-10-28 Day26 checkpoint001
 
 目录实查756篇knowledge Markdown、412篇source；当前研学新增两页，其余是原runner基线已有内容。该计数不代表独立实验数或全文终审。初次lint检出新页9项schema缺项，已补充实际Summary、适用条件、反证和review边界；最终复检结果见Day26 required-checks-001.json。旧267项warning不因本段自动清除。
