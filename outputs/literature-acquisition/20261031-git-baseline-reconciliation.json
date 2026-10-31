@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_at": "2026-10-31T19:52:47+08:00",
-  "status": "ready-for-exact-staging",
+  "status": "published",
   "branch": "main",
   "head": "cdbf23d2ba2ea5b294351269e8660b1e9408bcd5",
   "origin_main": "4d39cb8997f70edba07fa53635bfcf50a1756868",
@@ -36,7 +36,7 @@
     "safe_to_stage": true,
     "local_commit_created": true,
     "commit_subject": "Finalize Day28 evidence map and canonical Day29 handoff",
-    "reason": "Boundary, lint and diff gates now pass; stage only the explicit tracked changes and three literature-acquisition manifests.",
+    "reason": "Boundary, lint and diff gates passed; the explicit raw/path/schema baseline was staged, committed and pushed to origin/main.",
     "forbidden_actions": [
       "git add .",
       "git add -A",
@@ -47,8 +47,8 @@
     ]
   },
   "next_reconciliation": [
-    "Stage exact paths only; inspect cached name-status and cached diff-check.",
-    "Fetch origin/main, verify ancestry, run push dry-run, then push HEAD:main.",
-    "Record the resulting commit subject and push outcome in handoff."
+    "Keep raw originals ignored and retain source hashes/manifests for lineage.",
+    "Capture status --short --branch before the next substantive run.",
+    "Use the canonical Day29 prompt under outputs/learning-daily/prompts/."
   ]
 }

@@ -10,7 +10,7 @@ updated: 2026-10-31
 - Day28 确实复核了两份论文 PDF：`Chakraborty 2023 131Xe`（8页，SHA-256 `730db39e…bd9ff`，用户原件保留在 `raw/papers/` 根目录）和 `Banik 2020 131Xe`（15页，SHA-256 `21e7e1ee…f34e6`，位于 Day3 canonical 学习目录）。没有复制同一原件到 Day28，避免多份漂移。
 - 本轮清理了 33 个 live 脚本/札记中的旧 raw 前缀，修正 raw organization manifest 的 notes lineage，并为 15 个 open-research source 页补齐治理索引表；未改变实验事实、review 状态或 raw 原件。
 - 门禁结果：`wiki_boundary_check.py --root .` exit `0`；`wiki_lint.py --fail-on error` exit `0`，`0 errors / 437 warnings / 5224 info`；`git diff --check` exit `0`。warnings 主要是既有 orphan/alias/review 提示。
-- 当前本地 `HEAD=cdbf23d2`，`origin/main=4d39cb8`，工作树包含本轮 raw/path/schema 整理变更；下一步按精确路径暂存并发布，禁止 `git add .`、`git add -A`、reset、clean、force push。
+- 当前 raw/path/schema 整理提交已发布：branch `main`，subject `chore(raw): normalize learning archive paths and clear lint`，`git push origin HEAD:main` exit `0`；本地与 `origin/main` 已一致。后续仍禁止 `git add .`、`git add -A`、reset、clean、force push。
 - 最终知识增量包括 `131Ce/133Ce` 模式可辨识性、`135Pr` 共同响应合同、`135Nd/134Pr` transition ledger、`N=82` 观测量分层、`131Xe` primary-access boundary、跨方法八极 E3 evidence ladder、全库 claim calibration 和投稿候选队列；没有制造 response/Cov、synthetic L4 或论文终稿主张。
 - 下一日 canonical 交接已更新至 `outputs/learning-daily/prompts/20261031-DAY29-research-design-defense.md`；run 目录中的 `prompt-day29.md` 仅保留为 provenance copy。提示词明确允许自主、无上限派发 subagents；并发受限时可在 `/workspace/wiki` 内启动新的 Codex session；自动路由所有适用 skills，特别是 `farmer`、`go-on`、`all`、`auto`、`dispatch`、`brainstorm`、`optim`。
 - 下一日首要未完成路线：`131Xe` primary/response recovery、`135Pr` event-level response/Cov、`135Nd/134Pr` producer ledger、八极 source-page/producer audit，以及安全的全库 claim calibration 和 raw/output lineage 整理。任何路线缺输入时保持 L3/readiness boundary 并转向下一条高信息路线。
