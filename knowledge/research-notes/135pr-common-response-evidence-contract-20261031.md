@@ -49,6 +49,24 @@ Matta 与 Sensharma 共享或部分复用 Gammasphere/DGS 谱系，不能按论�
 Lv 保留为独立 event pool，但其校准和理论解释仍单独记录。`A`、`A_p`、`P` 不是
 同一观测量；`δ`、`f_E2`、相对强度和派生 `B` 值也不能重复计票。
 
+## Source-to-raw reconciliation and observable lineage ledger
+
+本次对四个已摄入 `135Pr` 原件执行了只读 SHA-256 对账；每个实际文件都与 source
+页的 `raw_sha256` 相符。该结果确认的是本地 source identity，不确认不同论文之间的
+event-level overlap，也不把同一谱系的再分析变成独立实验。
+
+| Lineage unit | Raw identity check | Observable role | Independence rule |
+|---|---|---|---|
+| Matta 2015 | `M15-1`; source frontmatter `raw_file`/`raw_sha256` | Gammasphere angular distributions and INGA `A` are separate detector products from the same reaction campaign | Keep AD and `A` as distinct response blocks; do not convert `A` into Lv `P` |
+| Sensharma 2019 | `S19-D23-1`; source frontmatter `raw_file`/`raw_sha256` | New DGS statistics add TW2 links, while `S19-D23-2` records inherited Matta TW1→yrast values and derived relative ratios | Count new and inherited observables separately; run overlap remains unresolved |
+| Lv 2022 | `L22-1`, `L22-16`, `L22-19`; source frontmatter `raw_file`/`raw_sha256` | Independent JUROGAM II `P–R_ac` response block, with `P` and `A_p` from one acquisition | Preserve as an independent event pool, but retain its own calibration and joint-covariance requirement |
+| Sensharma 2026 | `SH26-1`, `SH26-11`, `SH26-15`; source frontmatter `raw_file`/`raw_sha256` | Merged Gammasphere angular distributions and conditional fixed-`σ/I` branch profiles | Treat as dependent support-chain evidence; no polarization or absolute-strength block is supplied |
+
+The ledger therefore has two separate axes: local file identity is closed, while event/run
+overlap and cross-array response equivalence remain open. A future matched analysis must join
+only line-resolved observables whose state identity, gate, response and nuisance definitions
+are all closed; otherwise the result stays at the L3 public-summary boundary.
+
 ## Core Transition Ledger
 
 首轮只冻结三条同时出现在争议链中的连接线：

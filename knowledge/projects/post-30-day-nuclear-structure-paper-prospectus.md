@@ -71,6 +71,13 @@ within-model posterior stability 当作 wobbling 机制的模型间排他证据�
 nuisance 和 Lv `747.3-keV P–R_ac` leave-EM-out holdout。它是 future-input
 analysis contract，不代表当前已有 raw counts、response 或联合协方差。
 
+本轮只读 source→raw 对账进一步确认 Matta 2015、Sensharma 2019、Lv 2022 和
+Sensharma 2026 四个本地原件的 SHA-256 与各 source 页 frontmatter 一致。该闭合只
+解决本地文件身份；`S19-D23-1`、`SH26-11` 和 `SH26-15` 所记录的 event/run overlap
+仍未闭合，因此支持链仍按 dependent lineage 处理，Lv 的 `P–R_ac` 仍作为独立 event
+pool 保留。可复用的 source-to-raw 与 observable ledger 见
+[[135pr-common-response-evidence-contract-20261031]] 的 `Source-to-raw reconciliation and observable lineage ledger`。
+
 Lv et al. 2025 adds a same-lineage `135Nd` extension
 ([[135nd-2025-tipped-precession-same-lineage-extension]]): a new `17/2−_3` state,
 band T and `B(E2,752)/B(E2,908)=2.0(5)`. It strengthens the transition-identity

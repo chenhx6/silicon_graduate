@@ -4949,3 +4949,19 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Final checks remain `boundary=0/ok`, `git diff --check=0`, lint
   `298 errors / 437 warnings / 5224 info`; no protected raw/PLAN/BibTeX changes and no
   commit/push.
+
+### Day29 continuation checkpoint 2026-10-31T21:17:19+08:00
+
+- Same run/session remains active for bounded post-credit research: `2026-10-31-day-29-01`,
+  session `01a191e7-29f8-79f2-8276-9a88282a4ed5`; Day29 credit remains complete,
+  `next_day_index=30`, Day30 remains uncredited.
+- Read-only SHA-256 reconciliation closed local file identity for the four `135Pr` primary
+  PDFs: Matta 2015, Sensharma 2019, Lv 2022 and Sensharma 2026 all match their source-page
+  `raw_sha256` values. The audit artifact is
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/135pr-source-raw-reconciliation.json`.
+- Durable knowledge now includes the source-to-raw and observable lineage ledger in
+  `knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md`, with a
+  corresponding P1 prospectus update. Event/run overlap, cross-array response equivalence,
+  joint covariance and independent holdout remain unresolved; no L4 result was generated.
+- Next continuation: execute the Day30 canonical prompt's lineage/claim-language audit;
+  if it is not the formal Day30 run, retain `partial_day_indices` and do not advance credit.

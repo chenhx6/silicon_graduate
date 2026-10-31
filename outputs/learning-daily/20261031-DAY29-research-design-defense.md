@@ -114,6 +114,12 @@ q_i(\delta,\eta)=\frac{a_i(\eta)+2b_i(\eta)\delta+c_i(\eta)\delta^2}{1+\delta^2}
 - `Kepler`：882 响应合同；确认 880.1 污染、真实角对、偏振响应、feeding/alignment 和 raw-count likelihood 要求。
 - `Dirac`：全库 lineage/path audit；完成同源性、版本重复、review-scope、source→raw 缺口和账本漂移检查；本轮只修正 Day29 自身回执字段，没有批量改 canonical 页面。
 
+## Continuation checkpoint
+
+- 对 `135Pr` 的四个本地 primary PDF 做了只读 SHA-256 对账：Matta 2015、Sensharma 2019、Lv 2022 和 Sensharma 2026 均与对应 source 页的 `raw_sha256` 一致。
+- 该新增结果只闭合 source identity；它没有闭合 event/run overlap、跨阵列 response 等价性、联合 `Σ`、独立 holdout 或原始 counts，因此 `135Pr` 仍停在 L3 public-summary/readiness boundary。
+- `135Pr` source-to-raw 与 observable lineage ledger 已写入 `knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md`，并同步更新 prospectus；Day29 学分保持不变，Day30 仍未计分。
+
 ## Knowledge writeback
 
 ```yaml
@@ -179,13 +185,42 @@ knowledge-writeback:
         - knowledge/experiments/vecc-131xe-alpha-38mev.md
         - knowledge/bands/131xe-nu-h11-2-favored-sequence.md
       writeback_valid: true
+    - knowledge: knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md
+      anchor: "Source-to-raw reconciliation and observable lineage ledger"
+      sources:
+        - path: knowledge/sources/matta-2015-transverse-wobbling-135pr.md
+          locator: "M15-16"
+        - path: knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md
+          locator: "S19-D23-1"
+        - path: knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md
+          locator: "L22-16"
+        - path: knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md
+          locator: "SH26-15"
+      changed_paths:
+        - knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md
+        - outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/135pr-source-raw-reconciliation.json
+      writeback_valid: true
+    - knowledge: knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md
+      anchor: "Candidate 1: 135Pr source-to-raw reconciliation and dependent-lineage boundary"
+      sources:
+        - path: knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md
+          locator: "Source-to-raw reconciliation and observable lineage ledger"
+        - path: knowledge/sources/sensharma-2019-two-phonon-wobbling-135pr.md
+          locator: "S19-D23-1"
+        - path: knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md
+          locator: "SH26-15"
+      changed_paths:
+        - knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md
+      writeback_valid: true
   verified_no_op:
-    - "No canonical 131Xe page was bulk-edited; lineage-risk findings are recorded for a separate scoped audit."
+    - "No raw file, PLAN.md, 131Xe canonical page or curriculum state was modified; event-level overlap and common-response inputs remain unresolved."
 ```
 
 ## Artifacts and continuation
 
 - 正式知识写回：`knowledge/research-notes/131xe-day29-research-design-defense.md`
+- `135Pr` source→raw 对账：`outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/135pr-source-raw-reconciliation.json`
+- `135Pr` 共同响应合同：`knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md`
 - 承接项目：`knowledge/projects/131xe-low-spin-partner-crosswalk.md`
 - 既有设计合同：`knowledge/research-notes/131xe-882-branch-response-contract.md`
 - 宇称边界：`knowledge/research-notes/131xe-1601-parity-version-boundary.md`
