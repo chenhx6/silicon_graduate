@@ -24,6 +24,7 @@ updated: 2026-10-31
 - [[131xe-1601-parity-version-boundary]] — 795-keV E1多处标签、766-keV无偏振的宇称判别限制及外部档案待摄入路线；来源为 [[banik-2020-131xe-multiple-band-structures]] BNK20-D28-3和Chakraborty C23-D28-8，不把再观测γ线当作独立重定宇称。
 - [[131xe-882-branch-response-contract]] — 881.8/880.1双线、取向、偏振、联合协方差与nuisance剖面下的双δ分支分离条件；来源为 Chakraborty C23-D28-3/C23-D28-9、Rose–Brink RB67-D23-001及Krane–Steffen KS70-2/6，保持L4 readiness边界。
 - [[131xe-day29-research-defense-preview]] — Day29无学分预习：794-keV电子/γ宇称判别、882偏振/角分布、共享响应、negative controls与belief revision设计；不推进课程状态。
+- [[131xe-day29-research-design-defense]] — Day29正式研究设计：794-keV宇称版本与882-keV双根的最小observable、对象lineage、共享响应/协方差、belief revision和L3/readiness边界。
 
 > Day21 checkpoint042 审计边界：本页本轮001–041新增的“核准/全绿/排他性证伪”等认证，在未列入本轮直接原件核验账本前均为待复核草稿；历史passed或文本锚点命中不认证科学主张。Day19/Day20既有撤回继续有效；原始source claims、review_status与needs_review不因本声明改变。 本审计边界的原件反例见[[biswas-2019-longitudinal-wobbling-133la]]的BI19-D21-R42-2；此链接只支持方法边界，不认证本页其它具体核物理主张。
 

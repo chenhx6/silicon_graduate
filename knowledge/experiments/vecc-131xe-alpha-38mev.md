@@ -62,6 +62,7 @@ Pixie-16 250 MHz、12 bit 数字 DAQ，记录带时间戳的 singles/coincidence
 ## Sources
 
 - [[chakraborty-2023-131xe-wobbling-origin]]
+- [[banik-2020-131xe-multiple-band-structures]] — earlier analysis of the same INGA acquisition lineage.
 
 ## Evolution Log
 

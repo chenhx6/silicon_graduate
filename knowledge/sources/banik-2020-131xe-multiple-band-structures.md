@@ -6,6 +6,18 @@ created: 2026-09-30
 updated: 2026-10-30
 status: ai-draft
 review_status: unreviewed
+lineage_id: "vecc-131xe-inga-38mev-130te-a3n"
+lineage_role: primary-analysis
+independence: independent-acquisition
+independent_experiment_count: 1
+source_version_role: journal
+version_relation: canonical-journal-source
+source_roles: [primary-experiment, first-analysis, shared-acquisition-anchor]
+raw_link_status: linked-and-manifest-hash-match
+source_raw_audit: linked-and-manifest-hash-match
+hash_verified_at: 2026-10-30
+review_scope: "source-level claims; BNK20-D28-* additions remain pending self-audit"
+promotion_blocker: "claim-level Day28 additions remain needs_review; source is not a second experiment relative to Chakraborty 2023"
 source_type: journal-article-experiment-and-model
 reading_depth: deep-read
 title_original: "Revealing multiple band structures in 131Xe from α-induced reactions"

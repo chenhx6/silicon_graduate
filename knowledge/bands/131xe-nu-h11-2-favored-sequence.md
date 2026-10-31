@@ -58,6 +58,7 @@ tags: [signature, nu-h11-2, negative-parity]
 ## Sources
 
 - [[chakraborty-2023-131xe-wobbling-origin]]
+- [[banik-2020-131xe-multiple-band-structures]] — primary same-acquisition level-scheme and transition reference.
 
 ## Evolution Log
 

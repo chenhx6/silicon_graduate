@@ -3,6 +3,16 @@ graph-excluded: true
 updated: 2026-10-31
 ---
 
+## Active handoff — Day29 complete; Day30 canonical prompt ready (2026-10-31T20:54:00+08:00)
+
+- Day29 课程审计已完成：`completed_day_indices: [29]`、`partial_day_indices: []`、`next_day_index: 30`；`day29_credit_status: complete`，`credit_transition_applied: true`。
+- 正式知识写回为 `knowledge/research-notes/131xe-day29-research-design-defense.md`：794-keV 宇称版本和 882-keV 双根均形成最小 observable、响应矩阵、共享校准/协方差、控制线、belief revision 与 L3/readiness boundary；没有生成代理 L4。
+- Primary recovery：Irving 1979 与 Lönnroth 1983 的 DOI、NNDC 书目和实验覆盖已核；IOP PDF 端点落到 Radware CAPTCHA，原文逐线 AD/ICC/偏振仍未闭合。Banik 2020 与 Chakraborty 2023 本地原件可核，但属于同一 INGA acquisition，不能重复计权。
+- 全库 lineage 审计发现并记录了 2023 journal/arXiv 版本重复、页面级与 claim-level review 状态差异、source→raw 缺口和历史回执/Git 状态漂移；本轮在两份 `131Xe` source 页补齐 lineage/version/raw-link metadata，并在 nucleus、experiment、favored-band 和 crosswalk 页补齐同采集关系链接；没有批量改其它 canonical 页面或移动 raw。
+- Day29 run receipt：`outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/run.json`；session `01a191e7-29f8-79f2-8276-9a88282a4ed5`；恢复命令 `codex resume 01a191e7-29f8-79f2-8276-9a88282a4ed5 -C /workspace/wiki -s danger-full-access -a never`。
+- 下一日 canonical prompt：`outputs/learning-daily/prompts/20261101-DAY30-evidence-gate-and-research-prospectus.md`；run 目录中的 `prompt.md` 仍是 Day29 provenance copy。
+- Day30 首要路线：定向修复 131Xe lineage 字段与 review-scope；整理 `135Pr`、`135Nd/134Pr`、八极 source-page 和全库 claim calibration prospectus；只做逐文件、可逆、证据闭合的治理修改。
+
 ## Active handoff — Raw organization complete; Day29 ready (2026-10-31T19:52:47+08:00)
 
 - Day28 课程审计已完成：`completed_day_indices: [28]`、`partial_day_indices: [29]`、`next_day_index: 29`；历史 “Day31” 仅指硬截止后的 open-research/source-recovery 标签，不是课程卡，也没有 Day31 学分。

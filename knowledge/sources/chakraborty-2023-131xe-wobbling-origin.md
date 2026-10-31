@@ -6,6 +6,18 @@ created: 2026-07-01
 updated: 2026-10-30
 status: active
 review_status: human-reviewed
+lineage_id: "vecc-131xe-inga-38mev-130te-a3n"
+lineage_role: dependent-reanalysis
+independence: dependent-reanalysis
+independent_experiment_count: 1
+source_version_role: journal
+version_relation: "journal-version; alternate-access-arxiv-2311.09713"
+source_roles: [dependent-reanalysis, reassignment-analysis, shared-acquisition-follow-up]
+raw_link_status: linked-and-manifest-hash-match
+source_raw_audit: linked-and-manifest-hash-match
+hash_verified_at: 2026-10-30
+review_scope: "C23-1..C23-7 human-reviewed; C23-D19-* and C23-D28-* remain self-audited and pending"
+promotion_blocker: "C23-D28-* claims remain needs_review despite page-level human review of C23-1..C23-7"
 source_type: journal-article-experiment-and-model
 reading_depth: deep-read
 title_original: "Search for the origin of wobbling motion in the A ≈ 130 region: The case of 131Xe"
