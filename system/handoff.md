@@ -4965,3 +4965,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
   joint covariance and independent holdout remain unresolved; no L4 result was generated.
 - Next continuation: execute the Day30 canonical prompt's lineage/claim-language audit;
   if it is not the formal Day30 run, retain `partial_day_indices` and do not advance credit.
+- P3 read-only candidate-pool check was also completed: `135Nd` MU07 remains state-level,
+  `134Pr` Tonev07 remains the stronger line-level control with unresolved mixed-`M1/E2`
+  decomposition, and Tonev06/07 remain one experimental lineage. This was a verified no-op;
+  no additional knowledge page or curriculum credit was created.

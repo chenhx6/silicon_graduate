@@ -119,6 +119,7 @@ q_i(\delta,\eta)=\frac{a_i(\eta)+2b_i(\eta)\delta+c_i(\eta)\delta^2}{1+\delta^2}
 - 对 `135Pr` 的四个本地 primary PDF 做了只读 SHA-256 对账：Matta 2015、Sensharma 2019、Lv 2022 和 Sensharma 2026 均与对应 source 页的 `raw_sha256` 一致。
 - 该新增结果只闭合 source identity；它没有闭合 event/run overlap、跨阵列 response 等价性、联合 `Σ`、独立 holdout 或原始 counts，因此 `135Pr` 仍停在 L3 public-summary/readiness boundary。
 - `135Pr` source-to-raw 与 observable lineage ledger 已写入 `knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md`，并同步更新 prospectus；Day29 学分保持不变，Day30 仍未计分。
+- P3 `135Nd/134Pr` 只读复核未产生新写回：`MU07-11` 仍是 state-level `τ/B`，`TO07-D24-001/002/003` 仍是更完整但含未分解混合线的逐线控制，`TO07-D24-007` 保持 Tonev06/07 同谱系边界；缺 producer、feeding、response 和 joint covariance，停在 L3 identity audit。
 
 ## Knowledge writeback
 
@@ -214,6 +215,7 @@ knowledge-writeback:
       writeback_valid: true
   verified_no_op:
     - "No raw file, PLAN.md, 131Xe canonical page or curriculum state was modified; event-level overlap and common-response inputs remain unresolved."
+    - "P3 135Nd/134Pr read-only audit added no durable fact beyond the existing identity ledger; no line-level conversion, pooled fit or mechanism ranking was performed."
 ```
 
 ## Artifacts and continuation
