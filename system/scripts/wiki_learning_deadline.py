@@ -103,6 +103,37 @@ def closeout_window_end(deadline: datetime) -> datetime:
     return deadline + timedelta(hours=1)
 
 
+def _has_completed_manual_closeout(
+    run_dir: Path,
+    receipt: dict[str, Any],
+    current: datetime,
+) -> bool:
+    """Recognize a verified manual closeout when the runner receipt is stale.
+
+    A foreground runner can be interrupted after the Codex session continues
+    elsewhere. In that case the session reconciliation writes a final-session
+    receipt while the original run.json may still say ``running``. Only a
+    sidecar with matching run identity, a completed status, and a past
+    closeout timestamp can suppress the stale active-run guard.
+    """
+    completed_statuses = {"completed", "completed-content-final-not-pushed"}
+    for sidecar in sorted(run_dir.glob("final-session-receipt-*.json"), reverse=True):
+        try:
+            evidence = _object(sidecar)
+            if (
+                evidence.get("run_id") != receipt.get("run_id")
+                or evidence.get("day_index") != receipt.get("day_index")
+                or evidence.get("status") not in completed_statuses
+            ):
+                continue
+            closed_at = aware_datetime(evidence.get("closed_at"), "manual closeout closed_at")
+        except (OSError, RuntimeError, ValueError, TypeError):
+            continue
+        if closed_at <= current:
+            return True
+    return False
+
+
 def resolve_deadline_info(
     receipt_path: Path,
     receipt: dict[str, Any],
@@ -359,6 +390,8 @@ def find_active_learning_receipt(
             raise RuntimeError(f"active receipt has invalid run_date: {receipt_file}") from exc
         latest_possible_end = datetime.combine(run_day + timedelta(days=2), daytime(1), tzinfo=TIMEZONE)
         if current >= latest_possible_end:
+            continue
+        if not receipt.get("session_id") and _has_completed_manual_closeout(run_dir, receipt, current):
             continue
         # Invalid effective metadata must fail closed rather than silently fall
         # back to an unverified raw timestamp and create a competing session.

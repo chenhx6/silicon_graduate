@@ -336,6 +336,23 @@ class WikiLearningDeadlineTests(unittest.TestCase):
         self.write_receipt()
         self.assertIsNone(wld.find_active_learning_receipt(self.daily_root,self.root,now))
 
+    def test_completed_manual_closeout_sidecar_ignores_stale_identityless_receipt(self) -> None:
+        self.receipt["session_id"] = None
+        self.write_receipt()
+        (self.run_dir / "final-session-receipt-23.json").write_text(
+            json.dumps(
+                {
+                    "run_id": self.receipt["run_id"],
+                    "day_index": self.receipt["day_index"],
+                    "status": "completed-content-final-not-pushed",
+                    "closed_at": "2026-10-26T15:47:00+08:00",
+                }
+            ),
+            encoding="utf-8",
+        )
+        now = datetime(2026, 10, 26, 16, 0, tzinfo=wld.TIMEZONE)
+        self.assertIsNone(wld.find_active_learning_receipt(self.daily_root, self.root, now))
+
 
 if __name__ == "__main__":
     unittest.main()
