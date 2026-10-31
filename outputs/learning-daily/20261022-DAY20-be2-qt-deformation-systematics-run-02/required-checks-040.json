@@ -80,7 +80,7 @@
     "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-01/run.json": true
   },
   "raw_used": {
-    "raw/papers/gpt/high-spin-20260920/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf": true
+    "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf": true
   },
   "all_raw_previous_gate": "661 checked032; not repeated040",
   "guard_execution": {

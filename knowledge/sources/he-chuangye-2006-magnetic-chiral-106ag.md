@@ -16,7 +16,7 @@ pages: 137
 language: zh
 canonical_source: "贺创业. 106Ag磁转动与手征转动实验研究[D]. 中国原子能科学研究院, 2006."
 citation_key: ""
-raw_file: "raw/papers/degree dissertation/贺创业.pdf"
+raw_file: "raw/theses/degree-dissertation/贺创业.pdf"
 raw_sha256: "0C5D72B8760695260223425FA14A8C12F8402F140E697AFADC9C7C5EB9763BDE"
 nuclei: [106ag]
 experiments: [ciae-hi13-106ag-b11-60mev]

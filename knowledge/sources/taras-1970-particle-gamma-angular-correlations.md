@@ -20,8 +20,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Taras, P. Analysis of particle-gamma angular correlations and distributions. Nucl. Instrum. Methods 85, 313-323 (1970)."
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1970_Taras_Analysis of particle-gamma angular correlations and distributions.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1970_Taras_Analysis of particle-gamma angular correlations and distributions.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1970_Taras_Analysis of particle-gamma angular correlations and distributions.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1970_Taras_Analysis of particle-gamma angular correlations and distributions.pdf"
 raw_sha256: "1bd0ec877718f6cd98ae087ebbc78409694be407b1a66ff778488997a56a8813"
 nuclei: ["35Cl", "29Si"]
 reactions: ["34S(p,γ)35Cl", "26Mg(α,nγ)29Si"]
@@ -37,7 +37,7 @@ tags: [particle-gamma-correlation, Method-II, angular-distribution, mixing-ratio
 
 - 作者：P. Taras。
 - 期刊：*Nuclear Instruments and Methods* 85, 313-323 (1970)。DOI：`10.1016/0029-554X(70)90251-X`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1970_Taras_Analysis of particle-gamma angular correlations and distributions.pdf`；SHA-256：`1bd0ec877718f6cd98ae087ebbc78409694be407b1a66ff778488997a56a8813`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1970_Taras_Analysis of particle-gamma angular correlations and distributions.pdf`；SHA-256：`1bd0ec877718f6cd98ae087ebbc78409694be407b1a66ff778488997a56a8813`。
 
 ## Scope and Reading Depth
 

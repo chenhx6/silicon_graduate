@@ -8,7 +8,7 @@
   "source_checks": {
     "WK22": {
       "sha256_matches": true,
-      "path": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+      "path": "raw/theses/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
       "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080"
     },
     "L78": {

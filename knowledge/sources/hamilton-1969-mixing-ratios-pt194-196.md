@@ -17,8 +17,8 @@ volume: 136
 pages: "251-264"
 pii: "0375-9474(69)90052-9"
 canonical_source: "Hamilton, Nucl. Phys. A 136, 251-264 (1969)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf"
 raw_sha256: "8b575f5913d054340bb26b03e6ef7270de7e96e26f110420f331f2ff7beeda7a"
 nuclei: [194Pt, 196Pt, 194Au, 196Au]
 reactions: [194Pt-proton-neutron, 196Pt-proton-neutron]
@@ -34,7 +34,7 @@ tags: [194Pt, 196Pt, mixing-ratio, polarization, angular-correlation]
 ## Bibliographic Record
 
 - W. D. Hamilton, *Nucl. Phys. A* **136**, 251–264 (1969), PII `0375-9474(69)90052-9`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf`。
 
 ## Scope and Reading Depth
 

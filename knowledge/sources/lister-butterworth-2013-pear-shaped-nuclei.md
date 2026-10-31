@@ -19,8 +19,8 @@ citation_key: Lister_2013
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1038/497190a"
-library_file: "raw/papers/gpt/high-spin-20260920/形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf"
 raw_sha256: "6e88e68b0fd884a606d42d218bd54af75be7bc3344be0f721e9b9039dbf46dc8"
 nuclei: [220Rn, 224Ra]
 reactions: [Coulomb-excitation]
@@ -36,7 +36,7 @@ tags: [pear-shape, octupole, EDM, commentary]
 ## Bibliographic Record
 
 - C. J. Lister and J. Butterworth, *Nature* **497**, 190–191 (2013), DOI `10.1038/497190a`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf`。
 - Nature News & Views commentary on Gaffney *et al.* (2013), not an independent experiment.
 
 ## Scope and Reading Depth

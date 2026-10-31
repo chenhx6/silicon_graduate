@@ -30,7 +30,7 @@ def main():
               'ground_2_1_downward_spin_divisor':abs(.526**2/5-.0553)<.00005,
               'zero_crossing_has_zero_lower_image':weak['full_interval_square_image_e2b2'][0]==0,
               'endpoint_only_transform_loses_zero':weak['incorrect_endpoint_only_lower']>0}
-    raw='raw/papers/day20-20261022/ayangeakaa-2023-ge76-coulomb-excitation-full.pdf'
+    raw='raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2023-ge76-coulomb-excitation-full.pdf'
     out=dict(raw_sha256=hashlib.sha256((ROOT/raw).read_bytes()).hexdigest(),
              correction=corrected,weak_amplitude=weak,checks=checks,
              scope='Deterministic image of printed scalar amplitude ranges and downward spin normalization; not a newly estimated experimental CI, joint confidence region or GOSIA replay.',

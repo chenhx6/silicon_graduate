@@ -15,8 +15,8 @@ year: 1959
 volume: 25
 pages: "659-670"
 canonical_source: "Suffert, Endt & Hoogenboom, Physica 25, 659 (1959)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1959_Suffert et al_Polarization measurements of proton capture gamma rays.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1959_Suffert et al_Polarization measurements of proton capture gamma rays.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1959_Suffert et al_Polarization measurements of proton capture gamma rays.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1959_Suffert et al_Polarization measurements of proton capture gamma rays.pdf"
 raw_sha256: "ea2742bd196d30497fc919839fb249dfd7e50a88411411831d981604b2016669"
 nuclei: [25Al, 31P, 33Cl]
 reactions: [24Mg-p-gamma, 30Si-p-gamma, 32S-p-gamma]

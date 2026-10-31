@@ -19,7 +19,7 @@ pages: 030003
 doi: 10.1088/1674-1137/abddaf
 language: en
 canonical_source: doi:10.1088/1674-1137/abddaf
-raw_file: "raw/papers/gpt/day2-shell-gap-20260928/ame2020-mass_1.mas20.txt"
+raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/ame2020-mass_1.mas20.txt"
 raw_sha256: e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307
 data_url: "https://www-nds.iaea.org/amdc/ame2020/mass_1.mas20.txt"
 data_sha256: e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307
@@ -27,7 +27,7 @@ data_bytes: 472648
 rct1_url: "https://www-nds.iaea.org/amdc/ame2020/rct1.mas20.txt"
 rct1_sha256: e6ba1d2256f90053464c48e24d44691828dc49820ce64054aa418d834cc18e90
 rct1_bytes: 511515
-related_raw_file: "raw/papers/gpt/day2-shell-gap-20260928/ame2020-rct1.mas20.txt"
+related_raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/ame2020-rct1.mas20.txt"
 nuclei: [130sn, 131sn, 132sn, 133sn, 134sn, 130ba, 131ba, 132ba]
 reactions: []
 experiments: [mass-evaluation]
@@ -45,7 +45,7 @@ tags: [ame2020, tin, barium, n82, n75, shell-closure, mass-curvature, odd-even-s
 
 The official AME2020 files `mass_1.mas20.txt` and `rct1.mas20.txt` are served at the [IAEA Atomic Mass Data Center](https://www-nds.iaea.org/amdc/ame2020/mass_1.mas20.txt) and [reaction/separation-energy table](https://www-nds.iaea.org/amdc/ame2020/rct1.mas20.txt). Their headers date the unrounded files to 3 March 2021; `mass_1` contains atomic masses and `rct1` contains separation energies. Both headers state that `#` marks estimated (non-experimental) values and cite Wang et al., *Chinese Physics C* **45**, 030003 (2021), DOI `10.1088/1674-1137/abddaf`.
 
-The payloads retrieved on 2026-09-28 were `mass_1` (472,648 bytes; SHA-256 `e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307`) and `rct1` (511,515 bytes; SHA-256 `e6ba1d2256f90053464c48e24d44691828dc49820ce64054aa418d834cc18e90`). Both verified files are retained under `raw/papers/gpt/day2-shell-gap-20260928/`; URLs, retrieval date, hashes and exact row locators preserve the verification route.
+The payloads retrieved on 2026-09-28 were `mass_1` (472,648 bytes; SHA-256 `e8599c6d7f724fac91934e59f1b9de8fb8f63e820f4b39456b790665ed2a3307`) and `rct1` (511,515 bytes; SHA-256 `e6ba1d2256f90053464c48e24d44691828dc49820ce64054aa418d834cc18e90`). Both verified files are retained under `raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/`; URLs, retrieval date, hashes and exact row locators preserve the verification route.
 
 ## Scope and Reading Depth
 

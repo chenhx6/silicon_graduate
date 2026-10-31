@@ -22,8 +22,8 @@ canonical_source: "王思成. 过渡区核195Au和195Pt高自旋态能级结构�
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/王思成 - 过渡区核195Au和195Pt高自旋态能级结构研究.pdf"
-raw_file: "raw/papers/degree dissertation/王思成 - 过渡区核195Au和195Pt高自旋态能级结构研究.pdf"
+library_file: "raw/theses/degree-dissertation/王思成 - 过渡区核195Au和195Pt高自旋态能级结构研究.pdf"
+raw_file: "raw/theses/degree-dissertation/王思成 - 过渡区核195Au和195Pt高自旋态能级结构研究.pdf"
 raw_sha256: "4bde62b1c0736c2b6c763408f75e11051c63568421164fc09a6533255e45cfa3"
 nuclei: [195Au, 195Pt]
 reactions: ["192Os(7Li,4nγ)195Au", "192Os(7Li,(p,d,t)xn)195Pt"]

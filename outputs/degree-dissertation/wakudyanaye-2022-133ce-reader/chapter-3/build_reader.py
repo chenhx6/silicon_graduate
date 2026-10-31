@@ -6,7 +6,7 @@ import json,re,unicodedata
 import fitz
 
 OUT=Path(__file__).parent
-SRC=Path('raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf')
+SRC=Path('raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf')
 DOC=fitz.open(SRC)
 RAW=json.loads((OUT/'extracted_blocks.json').read_text())
 BY={(b['pdf_page'],b['block']):b for b in RAW}

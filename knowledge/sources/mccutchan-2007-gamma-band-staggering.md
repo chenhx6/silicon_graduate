@@ -20,8 +20,8 @@ citation_key: McCutchan_2007
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevC.76.024306"
-library_file: "raw/papers/gpt/high-spin-20260920/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf"
 raw_sha256: "83acbb32d23d0f7bbe726a28d91e298bda1fa06871020fd18c2c6fc05f52d2ed"
 nuclei: [rare-earths, actinides, Xe, Ba, Ce]
 reactions: []
@@ -39,7 +39,7 @@ tags: [gamma-band, staggering, triaxiality, gamma-soft, phase-transition]
 ## Bibliographic Record
 
 - E. A. McCutchan *et al.*, *Physical Review C* **76**, 024306 (2007), DOI `10.1103/PhysRevC.76.024306`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf`。
 
 ## Scope and Reading Depth
 

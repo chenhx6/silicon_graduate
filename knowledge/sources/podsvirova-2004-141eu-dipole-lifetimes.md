@@ -17,7 +17,7 @@ pages: "1-6"
 doi: "10.1140/epja/i2004-10034-8"
 canonical_source: "Eur. Phys. J. A 21, 1-6 (2004); DOI:10.1140/epja/i2004-10034-8"
 source_url: "https://link.springer.com/article/10.1140/epja/i2004-10034-8"
-raw_file: "raw/papers/day26-20261028/2004-podsvirova-141eu.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2004-podsvirova-141eu.pdf"
 raw_storage_status: raw-pdf-archived
 raw_sha256: "31dd323d75f9a178e653bc88426482e3970a27183770dfd1771b514bbccdd503"
 nuclei: [141Eu]

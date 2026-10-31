@@ -27,7 +27,7 @@ No response starts with `%PDF`. Network and format outcomes are in per-route JSO
 
 Per leader steering, a limited **source-dependency check** used the actual existing four-page Petrache PDF:
 
-`raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf`
+`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf`
 
 SHA256 **ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f**. This unit read the relevant scope/dependency passages on PDF1–4 as text; **it did not newly certify a full-paper or visual read**. The complete earlier reads and corrections in PE06 remain their own provenance. Local text extracts are stored under tmp with the `petrache2006-pageN-targeted-text.txt` names for verification.
 

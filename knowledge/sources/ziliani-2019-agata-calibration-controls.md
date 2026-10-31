@@ -20,7 +20,7 @@ doi: 10.5506/APhysPolB.50.625
 data_version: publishercopy-received7Jan2019-reportingJuly2017experiment
 canonical_source: "https://doi.org/10.5506/APhysPolB.50.625"
 citation_key:
-raw_file: "raw/papers/gpt/day13/ziliani-2019-agata-calibration.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ziliani-2019-agata-calibration.pdf"
 raw_sha256: "261b65b42c50350279b0e94f4c5e119342a9f78253be281315ec93ca6c12745a"
 raw_storage_status: reserved-unpopulated-public-publisher-copy-only
 raw_archive_verified_at: 2026-10-23

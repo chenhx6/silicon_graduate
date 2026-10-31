@@ -28,7 +28,7 @@ observables: [level-scheme, relative-intensity, DCO, mixing-ratio, B(M1)/B(E2), 
 methods: [gamma-gamma-coincidence, delayed-coincidence, angular-correlation]
 tags: [128Cs, chirality, partner-bands, DCO, transition-strength-ratios]
 citation_key: "Koike_2003"
-raw_file: "raw/papers/codex-day10/koike-2003-128cs.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/koike-2003-128cs.pdf"
 raw_sha256: "0aeeb70d4d8fe59e376078d40c9dd7b8c0b6f9c4e9e683b6b9389cb8b802bb5d"
 ---
 

@@ -21,8 +21,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Meyer, R. A. et al. Multiparticle configurations in the odd-neutron nuclei 61Ni and 67Zn populated by decay of 61Cu, 67Cu, and 67Ga. Phys. Rev. C 17, 1822-1830 (1978)."
-library_file: "raw/papers/gpt/high-spin-20260920/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf"
 raw_sha256: "0e3aeebca53776e3f99ac058563cb40b272425136bd2035ceb778b2aea218b36"
 nuclei: ["61Ni", "67Zn", "61Cu", "67Cu", "67Ga"]
 models: ["shell-model", "modified-surface-delta-interaction", "adjusted-surface-delta-interaction", "cluster-model"]
@@ -37,7 +37,7 @@ tags: [61Ni, 67Zn, decay-spectroscopy, multiparticle-configuration, shell-model,
 
 - 作者：R. A. Meyer 等。
 - 期刊：*Physical Review C* 17(5), 1822-1830 (1978)。DOI：`10.1103/PhysRevC.17.1822`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf`；SHA-256：`0e3aeebca53776f3f99ac058563cb40b272425136bd2035ceb778b2aea218b36`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf`；SHA-256：`0e3aeebca53776f3f99ac058563cb40b272425136bd2035ceb778b2aea218b36`。
 
 ## Scope and Reading Depth
 

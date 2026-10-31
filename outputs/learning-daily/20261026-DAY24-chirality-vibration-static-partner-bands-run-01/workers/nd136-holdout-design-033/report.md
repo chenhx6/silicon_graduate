@@ -6,7 +6,7 @@
 
 先读028实际ledger/report、031原模型report，以及canonical thesis source的TH19-D25P-001–005和`knowledge/projects/chirality-shape-coexistence-companion-matrix.md`。其中20+的.21979及3母态14线已固化，未重复作为新发现。**canonical未有21+条件E2比与“比值closure不独立”的设计行**；这是本单元增量。
 
-本轮直接重新核同一真实thesis **physicalPDF94–95/printed93–94的Table5.1**（文字与新视觉），footnote **physicalPDF97/printed96**；用此前已核Fig5.6的family/端点。原件SHA256 **84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749**，`raw/papers/degree dissertation/吕冰峰.pdf`。不声称新读164页全文，不开新body或网络路线。模型仍是031已读的arXiv1805.06162v1/SHA **cba4fa62433207c06b8673dc484d8a2d0ecdd7db51c27eafb2329726190bee91**，这里不重跑producer。
+本轮直接重新核同一真实thesis **physicalPDF94–95/printed93–94的Table5.1**（文字与新视觉），footnote **physicalPDF97/printed96**；用此前已核Fig5.6的family/端点。原件SHA256 **84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749**，`raw/theses/degree dissertation/吕冰峰.pdf`。不声称新读164页全文，不开新body或网络路线。模型仍是031已读的arXiv1805.06162v1/SHA **cba4fa62433207c06b8673dc484d8a2d0ecdd7db51c27eafb2329726190bee91**，这里不重跑producer。
 
 ## 20+本身没有额外E2冗余
 

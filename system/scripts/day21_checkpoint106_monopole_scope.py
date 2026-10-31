@@ -10,7 +10,7 @@ RUN = ROOT / 'outputs/learning-daily/20261023-DAY21-week-three-experimental-boun
 
 
 def audit():
-    raw = ROOT / 'raw/papers/day21-20261023/burgunder-2014-35si-two-body-spin-orbit.pdf'
+    raw = ROOT / 'raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/burgunder-2014-35si-two-body-spin-orbit.pdf'
     digest = hashlib.sha256(raw.read_bytes()).hexdigest()
     assert digest == 'c8db651c453428630b450c53a38c28fba05ed7c0fa0dda3023383213c0e53aef'
     # (total_1/2, K0_1/2, K1_1/2, total_3/2, K0_3/2, K1_3/2)

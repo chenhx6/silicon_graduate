@@ -25,7 +25,7 @@ def main():
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[2]
-    raw_ko = root / "raw/papers/gpt/high-spin-20260920/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf"
+    raw_ko = root / "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf"
     ko_sha = "34428af79a8dcc3a7dc27a6a416c3fa556a2d37e763df76cb1218241f370a755"
     checks = []
 

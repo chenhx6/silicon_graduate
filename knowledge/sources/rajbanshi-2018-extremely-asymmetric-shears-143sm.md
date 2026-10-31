@@ -21,8 +21,8 @@ canonical_source: "arXiv:1809.07138v2"
 zotero_item_key:
 citation_key: rajbanshi_2018_asymmetric_shears_143Sm
 zotero_uri:
-library_file: "raw/papers/gpt/_incoming/20261029-day27-sm143/PDFs/Extremely_asymmetric_shears_band_in_143Sm.pdf"
-raw_file: "raw/papers/gpt/_incoming/20261029-day27-sm143/PDFs/Extremely_asymmetric_shears_band_in_143Sm.pdf"
+library_file: "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/sm143/PDFs/Extremely_asymmetric_shears_band_in_143Sm.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/sm143/PDFs/Extremely_asymmetric_shears_band_in_143Sm.pdf"
 raw_sha256: "b296d3befa5f68b02b945b784d568e07ce77090ad730d85b6b0223935753dbeb"
 nuclei: [143Sm]
 reactions: ["124Sn(24Mg,5n)143Sm"]

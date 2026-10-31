@@ -18,7 +18,7 @@ pages: "044309"
 doi: "10.1103/4443-dlq4"
 canonical_source: "https://doi.org/10.1103/4443-dlq4"
 citation_key: hao_2026_AMR_83Rb_85Y
-raw_file: "raw/papers/gpt/_incoming/20261029-day27-hao2026/hao2026-work.json"
+raw_file: "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/hao2026/hao2026-work.json"
 raw_sha256: "04a8856b102b7cb412450f59cc2ee4b6db9f3d5b9144cc4c62978de467789977"
 nuclei: [83rb, 85y]
 models: [particle-number-conserving-cranked-shell-model]

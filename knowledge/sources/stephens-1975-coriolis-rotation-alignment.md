@@ -21,8 +21,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Stephens, F. S. Coriolis effects and rotation alignment in nuclei. Rev. Mod. Phys. 47, 43-64 (1975)."
-library_file: "raw/papers/gpt/high-spin-20260920/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf"
 raw_sha256: "25369cc4420667d6c38c52d5e6e5a489b48431aaa709998c4743f92ab5049ac3"
 nuclei: ["182W", "235U", "rare-earth odd-mass nuclei", "A≈130 context"]
 models: ["particle-rotor-model", "cranked-shell-model", "Nilsson-model"]
@@ -37,7 +37,7 @@ tags: [Coriolis-coupling, rotation-alignment, backbending, band-crossing, review
 
 - 作者：F. S. Stephens。
 - 期刊：*Reviews of Modern Physics* 47(1), 43-64 (1975)。DOI：`10.1103/RevModPhys.47.43`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf`；SHA-256：`25369cc4420667d6c38c52d5e6e5a489b48431aaa709998c4743f92ab5049ac3`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf`；SHA-256：`25369cc4420667d6c38c52d5e6e5a489b48431aaa709998c4743f92ab5049ac3`。
 
 ## Scope and Reading Depth
 

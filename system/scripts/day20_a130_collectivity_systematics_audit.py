@@ -46,7 +46,7 @@ def main():
     raw_petrache = root / "raw/papers/1998_Petrache et al_Lifetime measurements of highly deformed bands in 1 3 4 , 1 3 5 Nd and 131 Ce.pdf"
     raw_babra = root / "raw/papers/2019_Babra et al_Investigation of a large change in deformation for the γ -soft nucleus Sm 136.pdf"
     raw_klemme = root / "raw/papers/1999_Klemme et al_Lifetimes measurements for 134 Nd and neighboring nuclei with the.pdf"
-    raw_mukhopadhyay = root / "raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf"
+    raw_mukhopadhyay = root / "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf"
 
     check("Singh 2016 raw verified", hashlib.sha256(raw_singh.read_bytes()).hexdigest() == "95e0831b9864a58fd1a896a1b20e227d88d9b7aa5de56c738c3792441caa1a30")
     check("Petrache 1998 raw verified", hashlib.sha256(raw_petrache.read_bytes()).hexdigest() == "9d2297ed085012d2f8633a5faecfa7020cbca96ac06cf2eb5e88d97a24b90e5f")

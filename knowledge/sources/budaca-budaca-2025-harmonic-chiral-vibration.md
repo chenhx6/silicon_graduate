@@ -22,7 +22,7 @@ zotero_item_key: ""
 citation_key: ""
 zotero_uri: ""
 library_file: ""
-raw_file: "raw/papers/gpt/day3-mean-field-20260929/2508-00373-harmonic-chiral-vibration/PDFs/Harmonic_chiral_vibration_in_triaxial_nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2508-00373-harmonic-chiral-vibration/PDFs/Harmonic_chiral_vibration_in_triaxial_nuclei.pdf"
 raw_sha256: f6ef887d1be887af7c4b147de8943824e3d9d25acff5116c6ca0e1ba322876fa
 nuclei: [103Rh, 105Rh, 107Ag, 133Ce, 135Nd, 137Nd]
 reactions: []

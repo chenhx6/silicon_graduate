@@ -17,7 +17,7 @@ citation_key: pohl_1996_107108pd_highspin_metadata
 citation_key_origin: crossref
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1103/PhysRevC.53.2682"
-raw_file: "raw/papers/gpt/day26-20261028/10.1103_PhysRevC.53.2682.crossref.json"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/10.1103_PhysRevC.53.2682.crossref.json"
 raw_sha256: "7e716f6adb29365ab6f1d884993a60be80605999478c3a5371f97343e10cf54c"
 nuclei: [107Pd, 108Pd, 109Ag]
 models: [high-spin-spectroscopy]

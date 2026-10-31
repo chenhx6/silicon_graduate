@@ -20,8 +20,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Garcia-Raffi, L. M. et al. Non-orthogonal gamma-ray Compton polarimeters. Nucl. Instrum. Methods Phys. Res. A 359, 628-631 (1995)."
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Garcia-Raffi et al_Non-orthogonal gamma-ray compton polarimeters.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Garcia-Raffi et al_Non-orthogonal gamma-ray compton polarimeters.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Garcia-Raffi et al_Non-orthogonal gamma-ray compton polarimeters.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Garcia-Raffi et al_Non-orthogonal gamma-ray compton polarimeters.pdf"
 raw_sha256: "129ccca13b7e6ea0153b47e81a37d54832b4979eb6e649cc183822a9b76ff67a"
 nuclei: []
 models: ["Geant3-Monte-Carlo-response"]
@@ -36,7 +36,7 @@ tags: [non-orthogonal-polarimeter, EUROBALL, CLUSTER, Compton-scattering, detect
 
 - 作者：L. M. Garcia-Raffi 等。
 - 期刊：*Nuclear Instruments and Methods in Physics Research A* 359, 628-631 (1995)。DOI：`10.1016/0168-9002(95)00229-4`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Garcia-Raffi et al_Non-orthogonal gamma-ray compton polarimeters.pdf`；SHA-256：`129ccca13b7e6ea0153b47e81a37d54832b4979eb6e649cc183822a9b76ff67a`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Garcia-Raffi et al_Non-orthogonal gamma-ray compton polarimeters.pdf`；SHA-256：`129ccca13b7e6ea0153b47e81a37d54832b4979eb6e649cc183822a9b76ff67a`。
 
 ## Scope and Reading Depth
 

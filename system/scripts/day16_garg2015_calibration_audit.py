@@ -21,7 +21,7 @@ def main()->None:
     p.add_argument('--output',type=Path,required=True)
     args=p.parse_args();cfg=json.loads(args.contract.read_text());assert cfg['identity']=='GARG15-ORIGINAL-CALIBRATION-IDENTITY-01'
     root=Path(__file__).resolve().parents[2]
-    raw=root/'raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf'
+    raw=root/'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf'
     assert sha(raw)==cfg['source_sha256']
     a,rho,lam=sp.symbols('a rho lambda',positive=True)
     d,old=sp.symbols('Delta a0',real=True)

@@ -20,8 +20,8 @@ citation_key: Frauendorf_2015
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1142/S0218301315410013"
-library_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf"
 raw_sha256: "6503190945574eb2a19dc10555f4abc8866340dc3b84e0ff72068fcb0d9010d5"
 nuclei: [102Pd, 152Sm, 62Ni]
 reactions: []
@@ -39,7 +39,7 @@ tags: [quadrupole, triaxiality, gamma-soft, tidal-wave, TPSM, review]
 ## Bibliographic Record
 
 - S. Frauendorf, *International Journal of Modern Physics E* **24**, 1541001 (2015), DOI `10.1142/S0218301315410013`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf`。
 - 38-page review; chapter equations/figures and model limitations read.
 
 ## Scope and Reading Depth

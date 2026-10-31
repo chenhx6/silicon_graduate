@@ -20,8 +20,8 @@ citation_key: Frauendorf_2018
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1088/1402-4896/aaa2e9"
-library_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2018_Frauendorf_Beyond the Unified Model.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2018_Frauendorf_Beyond the Unified Model.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/理论/2018_Frauendorf_Beyond the Unified Model.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/理论/2018_Frauendorf_Beyond the Unified Model.pdf"
 raw_sha256: "327be11cf2e58408fa8f3a3f27ee9cfcd3a9ae3a56ac7dd9658cc0f7245ebfff"
 nuclei: [163Er, 164Er, 135Pr, 138Nd, 102Pd, 110Cd]
 reactions: []
@@ -37,7 +37,7 @@ tags: [review, high-spin, wobbling, chirality, magnetic-rotation, band-terminati
 ## Bibliographic Record
 
 - S. Frauendorf, *Physica Scripta* **93**, 043003 (2018), 80 pp.; DOI `10.1088/1402-4896/aaa2e9`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2018_Frauendorf_Beyond the Unified Model.pdf`，SHA-256 `327be11cf2e58408fa8f3a3f27ee9cfcd3a9ae3a56ac7dd9658cc0f7245ebfff`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/理论/2018_Frauendorf_Beyond the Unified Model.pdf`，SHA-256 `327be11cf2e58408fa8f3a3f27ee9cfcd3a9ae3a56ac7dd9658cc0f7245ebfff`。
 - This is an invited review/comment, not an independent experiment. It reuses historical experimental and theoretical examples; cited examples remain dependent on their original sources.
 
 ## Scope and Reading Depth

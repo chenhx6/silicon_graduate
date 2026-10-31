@@ -10,7 +10,7 @@
       "dataset": "BrIccFO",
       "Z": 70,
       "energy_keV": 489.8,
-      "raw": "raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-m1-0f74bd9078a7.html",
+      "raw": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/bricc-z70-489p8-fo-m1-0f74bd9078a7.html",
       "raw_sha256": "0f74bd9078a77504e3c65e12eff2084533c18db876d2000a03ec6e8d05c7e26d",
       "all_printed_rows": [
         [
@@ -459,7 +459,7 @@
       "dataset": "BrIccFO",
       "Z": 70,
       "energy_keV": 489.8,
-      "raw": "raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-e2-bde3a2eefe5d.html",
+      "raw": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/bricc-z70-489p8-fo-e2-bde3a2eefe5d.html",
       "raw_sha256": "bde3a2eefe5d1f813df58cbbc0273ad0458fce09e462eef0a23e8c682221450d",
       "all_printed_rows": [
         [

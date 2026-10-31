@@ -17,8 +17,8 @@ volume: 114
 pages: "333-340"
 pii: "0029-554X(74)90552-7"
 canonical_source: "Vaillancourt & Taras, Nucl. Instr. Meth. 114, 333-340 (1974)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1974_Vaillancourt et al_Gamma-ray linear-polarization and angular-distribution formulas for mixtures of three multipoles.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1974_Vaillancourt et al_Gamma-ray linear-polarization and angular-distribution formulas for mixtures of three multipoles.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1974_Vaillancourt et al_Gamma-ray linear-polarization and angular-distribution formulas for mixtures of three multipoles.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1974_Vaillancourt et al_Gamma-ray linear-polarization and angular-distribution formulas for mixtures of three multipoles.pdf"
 raw_sha256: "dbdb5bc9bc7aaa99079f2443e4b2e62d3b84e09d4bf1355942dae4e4ce79218f"
 nuclei: [35Cl, 37Ar]
 reactions: [generic-alignment-reaction]
@@ -34,7 +34,7 @@ tags: [three-multipole, polarization, angular-distribution, phase-convention]
 ## Bibliographic Record
 
 - R. Vaillancourt & P. Taras, *Nucl. Instr. Meth.* **114**, 333–340 (1974), PII `0029-554X(74)90552-7`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1974_Vaillancourt et al_Gamma-ray linear-polarization and angular-distribution formulas for mixtures of three multipoles.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1974_Vaillancourt et al_Gamma-ray linear-polarization and angular-distribution formulas for mixtures of three multipoles.pdf`。
 
 ## Scope and Reading Depth
 

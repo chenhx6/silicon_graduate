@@ -20,7 +20,7 @@ arxiv: 1201.6596v2
 language: en
 canonical_source: doi:10.1103/PhysRevC.85.064313
 citation_key: Pai2012_194TlHighSpin
-raw_file: "raw/papers/gpt/day4-20260930/194tl-pai-2012/PDFs/Pai-2012-PRC85-064313-194Tl-arXiv-1201.6596v2.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration/194tl-pai-2012/PDFs/Pai-2012-PRC85-064313-194Tl-arXiv-1201.6596v2.pdf"
 raw_sha256: 633b068625691c4aeb6200867a9cd8820e6528b9fc19ae1c6ca2a3928fcf7553
 source_url: https://arxiv.org/pdf/1201.6596v2
 nuclei: [194tl]

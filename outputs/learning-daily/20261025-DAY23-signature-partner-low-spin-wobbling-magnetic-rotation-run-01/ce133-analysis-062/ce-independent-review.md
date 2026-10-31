@@ -2,7 +2,7 @@
 
 审查对象：`knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md` 的 WK22-01/03/04/08/15/19/20/21/22/23/27/28。只读canonical，不改Git。此为限定claim source self-audit，不是第二次全130页精读，不新增human-reviewed。
 
-原件 `raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf`，130页，实际SHA256 `48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080`，与source页一致。PDF=印刷页+11。
+原件 `raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf`，130页，实际SHA256 `48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080`，与source页一致。PDF=印刷页+11。
 
 ## 需要父代理收紧的两处
 

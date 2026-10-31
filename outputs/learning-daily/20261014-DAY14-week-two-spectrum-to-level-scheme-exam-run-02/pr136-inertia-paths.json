@@ -2,7 +2,7 @@
   "kind": "actual D4 nominal energy-chain finite-response exercise; not Nd reproduction or Pr axis/shape fit",
   "source": {
     "path": "knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md",
-    "raw": "raw/papers/gpt/day3-mean-field-20260929/136pr-2025-tac-cdfTAC/PDFs/Configuration_dependent_shapes_and_types_of_rotations_in_the_gamma-soft_Pr-136_nucleus_revealed_by_detailed_calculations_with_tilted_axis_cr.pdf",
+    "raw": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/136pr-2025-tac-cdfTAC/PDFs/Configuration_dependent_shapes_and_types_of_rotations_in_the_gamma-soft_Pr-136_nucleus_revealed_by_detailed_calculations_with_tilted_axis_cr.pdf",
     "sha256": "c8e14461975a7606d7e38325d6e83b500e75d232027b118743e1f1ff754537d6",
     "locator": "PDF p.7 TableI D4 and PDF p.4 Fig1"
   },

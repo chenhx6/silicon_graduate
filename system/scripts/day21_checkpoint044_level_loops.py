@@ -32,7 +32,7 @@ def main():
               'printed_energy_residuals_within_1keV':all(abs(r[k])<=1 for r in rows for k in ['via_A_residual_keV','via_B_residual_keV']),
               'tentative_last_pair_preserved':rows[-1]['tentative_links'],
               'candidates_not_observations':all(not r['observed_line_in_Fig2'] for r in candidates)}
-    raw = ROOT / 'raw/papers/gpt/high-spin-20261009/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf'
+    raw = ROOT / 'raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf'
     result = dict(raw_sha256=hashlib.sha256(raw.read_bytes()).hexdigest(),
                   rows=rows, unobserved_inband_deltaI2_kinematic_candidates=candidates,
                   checks=checks, experimental_CI_recovered=False,

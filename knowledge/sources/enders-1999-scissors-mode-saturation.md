@@ -18,6 +18,8 @@ pages: "R1851-R1854"
 doi: "10.1103/PhysRevC.59.R1851"
 canonical_source: "https://doi.org/10.1103/PhysRevC.59.R1851"
 citation_key: enders1999scissors
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.59.R1851.pdf"
+raw_sha256: 817d4759fa8c33060740b5b8ca5ccdfc4852ba685f448637a331e25a6b2b009a
 nuclei: [154sm, 156gd, 158gd, 160gd, 164dy, 168er, 174yb, 232th, 236u, 238u]
 reactions: ["nuclear-resonance-fluorescence-gamma-scattering"]
 experiments: [Darmstadt-S-DALINAC, Stuttgart-Dynamitron]
@@ -59,6 +61,14 @@ PRC 59, R1851-R1854 (1999), DOI `10.1103/PhysRevC.59.R1851`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| END99-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-fact | source-reported | Sec. 2, Fig. 1 | false |
+| END99-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 3, Fig. 2 | false |
+| END99-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. 4, Discussion | false |
+| END99-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 4, Eq. (4) | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

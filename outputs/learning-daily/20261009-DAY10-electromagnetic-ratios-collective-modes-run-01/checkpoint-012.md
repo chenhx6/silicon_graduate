@@ -29,7 +29,7 @@ updated_at: 2026-10-10T14:37:39+08:00
 - Boundary check exit 0；knowledge-writeback exit 0，1 block/31 items/0 anchor-locator errors/0 non-atomic suspects。
 - Wiki lint exit 0：errors=0, warnings=91, info=1521；warnings 为 88 个缺 citation key 的既有来源页与 3 个 reaction-parser 警告。
 - `git diff --check` exit 0；report 和 receipt 更新后尚需 closeout 最终复跑。
-- 10 张本轮新增 source pages 现具备 citation_key、raw_file/raw_sha256 和标准章节；10 个文件 hash 与下载件一致。它们位于本地 `raw/papers/codex-day10/`，发布时一律排除 raw。
+- 10 张本轮新增 source pages 现具备 citation_key、raw_file/raw_sha256 和标准章节；10 个文件 hash 与下载件一致。它们位于本地 `raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/`，发布时一律排除 raw。
 - Prochniak 2011 原文首页/DOI已核对；保留的 PDF hash 从错误转录修正为 `38086d08899d60b4b400be263ec600596c0ca971e339ff5cde1d9d13c9e052cd`。
 
 ## 发布待办

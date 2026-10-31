@@ -13,8 +13,8 @@ authors: [Chantal Rebecca Nobs]
 institution: University of Brighton
 year: 2017
 citation_key: ""
-canonical_source: "raw/papers/degree dissertation/nobs_thesis.pdf"
-raw_file: "raw/papers/degree dissertation/nobs_thesis.pdf"
+canonical_source: "raw/theses/degree-dissertation/nobs_thesis.pdf"
+raw_file: "raw/theses/degree-dissertation/nobs_thesis.pdf"
 raw_sha256: "acb846d63e4a8cc61491d6f5ba04a4858bf3efd3e98bb9152b50383987b76a57"
 nuclei: [102y, 102zr, 102sr]
 methods: [decay-spectroscopy, penning-trap, BCS, Gallagher-Moszkowski]

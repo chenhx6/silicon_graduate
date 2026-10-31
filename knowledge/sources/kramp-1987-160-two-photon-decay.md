@@ -16,8 +16,8 @@ volume: 474
 pages: "412-450"
 pii: "0375-9474(87)90625-7"
 canonical_source: "Kramp et al., Nucl. Phys. A 474, 412-450 (1987)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/1987_Kramp et al_Nuclear two-photon decay in 0+→0+ transitions.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/1987_Kramp et al_Nuclear two-photon decay in 0+→0+ transitions.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/1987_Kramp et al_Nuclear two-photon decay in 0+→0+ transitions.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/1987_Kramp et al_Nuclear two-photon decay in 0+→0+ transitions.pdf"
 raw_sha256: "be1b792e5b3e47a50e177a3ec48f7fbb605ae4db0d8af8f6ec2c60cdf9388413"
 nuclei: [16O, 40Ca, 90Zr]
 reactions: [16O-proton-scattering]
@@ -33,7 +33,7 @@ tags: [two-photon-decay, 16O, E1, M1, polarizability, Crystal-Ball]
 ## Bibliographic Record
 
 - J. Kramp *et al.*, *Nucl. Phys. A* **474**, 412–450 (1987), PII `0375-9474(87)90625-7`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/1987_Kramp et al_Nuclear two-photon decay in 0+→0+ transitions.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/1987_Kramp et al_Nuclear two-photon decay in 0+→0+ transitions.pdf`。
 
 ## Scope and Reading Depth
 

@@ -5,7 +5,7 @@
   "sources": [
     {
       "source": "knowledge/sources/droste-1996-pdco-formalism.md",
-      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf",
+      "raw": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf",
       "raw_sha256": "dbfd6796aafc53693b446533c89094a14427e25624321bc16a6edae1b5d84247",
       "actual_this_session_mainline_PDF_pages": 8,
       "scope": "printed518–525 mainline; Eq1–21; visual519/520/521/522/523/524",
@@ -13,7 +13,7 @@
     },
     {
       "source": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
-      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf",
+      "raw": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf",
       "raw_sha256": "ab82cb483425ba984a8c30b35f118b4713e186d53899fcbbba6a19dd444377f1",
       "actual_this_session_mainline_PDF_pages": 11,
       "scope": "printed724–734 mainline; Eq3–19; visual726/727/731/732/733",
@@ -29,7 +29,7 @@
     },
     {
       "source": "knowledge/sources/bargholtz-1987-high-spin-gamma-gamma-directional-correlations.md",
-      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf",
+      "raw": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf",
       "raw_sha256": "1be5667433cc44b2c53f67e5f23a0c0721d2e56d6cc6c284d5da807badbcff17",
       "actual_this_session_mainline_PDF_pages": 8,
       "scope": "printed513–520 mainline and AppendicesA/B; visual515/516; Eq7/10/12/15 and Fig2",

@@ -4,7 +4,7 @@
   "primed": true,
   "source_reading_started_after_freeze": true,
   "jensen": {
-    "raw_file": "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf",
+    "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/NPA695-Jensen-2001-3.pdf",
     "sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770",
     "total_pages": 48,
     "text_pages_read": [
@@ -43,7 +43,7 @@
     "not_read": "remaining general spectroscopy/highspin/systematics pages in this session; raw events/producer/Cov"
   },
   "mu08": {
-    "raw_file": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+    "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
     "sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
     "text_pages_read": [
       1,

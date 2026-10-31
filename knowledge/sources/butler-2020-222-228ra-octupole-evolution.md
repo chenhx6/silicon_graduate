@@ -20,7 +20,7 @@ citation_key_verified: 2026-10-28
 canonical_source: "https://doi.org/10.1103/PhysRevLett.124.042503"
 alternate_source: "https://arxiv.org/abs/2001.09681"
 library_file: "outputs/literature-acquisition/day26-butler-027/Butler_2020_PRL124_042503.pdf"
-raw_file: "raw/papers/gpt/day26-20261028/butler-2020-prl124-042503.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/butler-2020-prl124-042503.pdf"
 raw_sha256: "c0f8646afcd78d8647a7011046c036aa7c8ae7969839f72151646464a43b1502"
 nuclei: [222Ra, 228Ra, 224Ra, 226Ra, 148Nd]
 reactions: [sub-barrier-multistep-coulomb-excitation]
@@ -104,7 +104,7 @@ The author interpretation separates stable pear-like collectivity from an octupo
 
 - Published PDF pages 1–6: experiment, Table I, Figs. 1–5 and conclusions.
 - ArXiv v1 pages 7–16: supplemental level schemes, selected yield fits, E2 systematics and E1 Table II.
-- Local raw copy: `raw/papers/gpt/day26-20261028/butler-2020-prl124-042503.pdf`, 6 pages, SHA-256 recorded in frontmatter.
+- Local raw copy: `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/butler-2020-prl124-042503.pdf`, 6 pages, SHA-256 recorded in frontmatter.
 
 ## Related Research Note
 

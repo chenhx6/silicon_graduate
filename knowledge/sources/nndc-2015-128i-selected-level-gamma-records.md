@@ -17,7 +17,7 @@ pages: "191-436"
 doi: 10.1016/j.nds.2015.09.002
 canonical_source: "NNDC-ENSDF:128I:201510:128053001,128053024,128053003"
 citation_key: ""
-raw_file: "raw/papers/codex-day14/nndc-128i-adopted-2015.ens"
+raw_file: "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-128i-adopted-2015.ens"
 raw_sha256: "27afae52bb7be1c4aa50e332e60abfe30a3d615d7e1586cd1b8b98bc65e5527e"
 raw_storage_status: reserved-unpopulated-public-objects-verified-in-wiki-tmp
 data_version: "201510; CUT28-Feb-2015; objects128053001/128053024/128053003; retrieved2026-10-16"

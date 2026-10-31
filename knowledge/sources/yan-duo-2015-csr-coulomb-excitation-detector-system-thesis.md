@@ -21,8 +21,8 @@ canonical_source: "闫铎. 在 CSR 外靶终端开展中高能库仑激发反应
 zotero_item_key:
 citation_key:
 zotero_uri:
-library_file: "raw/papers/degree dissertation/闫铎 - 在CSR 外靶终端开展中高能库仑激发反应.pdf"
-raw_file: "raw/papers/degree dissertation/闫铎 - 在CSR 外靶终端开展中高能库仑激发反应.pdf"
+library_file: "raw/theses/degree-dissertation/闫铎 - 在CSR 外靶终端开展中高能库仑激发反应.pdf"
+raw_file: "raw/theses/degree-dissertation/闫铎 - 在CSR 外靶终端开展中高能库仑激发反应.pdf"
 raw_sha256: "9a7ba567b498edfa68b89a545698bf1c32f89a5c58d9cb3682448e0257f2a20e"
 nuclei: []
 reactions: []

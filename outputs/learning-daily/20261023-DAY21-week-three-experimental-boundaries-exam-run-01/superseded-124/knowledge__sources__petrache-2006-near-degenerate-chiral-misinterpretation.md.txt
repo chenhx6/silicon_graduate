@@ -19,8 +19,8 @@ citation_key: Petrache_2006
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevLett.96.112502"
-library_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf"
 raw_sha256: "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f"
 nuclei: [134Pr, 136Pm]
 reactions: [literature-systematics, band-crossing-analysis]

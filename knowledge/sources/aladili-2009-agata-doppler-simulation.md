@@ -16,7 +16,7 @@ arxiv: 0909.4800v1
 language: en
 canonical_source: "https://arxiv.org/abs/0909.4800"
 citation_key:
-raw_file: "raw/papers/gpt/day13/aladili-2009-doppler-simulations.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/aladili-2009-doppler-simulations.pdf"
 raw_sha256: "57e28acccf0634cb47df37bf3dcc1ef157c4bd5a7658834b5f3dbdd6a8b04b96"
 raw_storage_status: reserved-unpopulated-public-preprint-only
 raw_archive_verified_at: 2026-10-23

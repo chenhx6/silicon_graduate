@@ -19,7 +19,7 @@ citation_key: roy_2013_105cd_amr_comment_metadata
 citation_key_origin: crossref-and-primary-record
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1103/PhysRevC.87.059801"
-raw_file: "raw/papers/gpt/day26-20261028/roy-2013-105cd-amr-comment-metadata-crossref.json"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/roy-2013-105cd-amr-comment-metadata-crossref.json"
 raw_sha256: "6544798c244d3559b06f7a2b365a3d07675522ba1cdf69889bc68074063637f0"
 nuclei: [105Cd]
 models: [antimagnetic-rotation]

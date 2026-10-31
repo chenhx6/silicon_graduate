@@ -19,9 +19,9 @@ pages: 454-457
 doi: 10.1038/nature09048
 language: en
 canonical_source: doi:10.1038/nature09048
-raw_file: "raw/papers/gpt/day2-shell-gap-20260928/jones-2010-nature09048-supplement.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/jones-2010-nature09048-supplement.pdf"
 raw_sha256: 1854f8e4225ca93038e170845b8a6d45e53ccba2a1e62eca50e54aa46bda5d3d
-related_raw_files: ["raw/papers/gpt/day2-shell-gap-20260928/jones-2010-nature09048-preview.html", "raw/papers/gpt/day2-shell-gap-20260928/nudat-133Sn-levels.html"]
+related_raw_files: ["raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/jones-2010-nature09048-preview.html", "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/nudat-133Sn-levels.html"]
 supplement_url: "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature09048/MediaObjects/41586_2010_BFnature09048_MOESM312_ESM.pdf"
 nuclei: [132sn, 133sn]
 reactions: ["132Sn(d,p)133Sn"]

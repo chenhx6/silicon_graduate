@@ -6,7 +6,7 @@ tags: [130ba, wobbling, source-lineage]
 title_original: "Two quasiparticle wobbling in the even-even nucleus 130Ba"
 year: 2020
 canonical_source: "https://doi.org/10.1016/j.physletb.2020.135246"
-raw_file: "raw/papers/day23-20261025/wang-2020-two-quasiparticle-wobbling-130ba.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/wang-2020-two-quasiparticle-wobbling-130ba.pdf"
 raw_sha256: 09a05657de5b186c3f07ae313836f0cda302f5645305636a62ab6bac981e4bdc
 raw_storage_status: reserved-unpopulated-public-staging-only
 public_staging_file: "tmp/day23-originals/ba130-primary061-2020.pdf"

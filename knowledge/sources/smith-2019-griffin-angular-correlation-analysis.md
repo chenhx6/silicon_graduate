@@ -18,7 +18,7 @@ doi: "10.1016/j.nima.2018.10.097"
 arxiv: "1807.07570v1"
 language: en
 canonical_source: "Smith et al., NIM A 922,47–63(2019), DOI10.1016/j.nima.2018.10.097; 本页实际读arXiv1807.07570v1(2018),28页。"
-raw_file: "raw/papers/gpt/day15/smith-2018-griffin-angular-correlation-arxiv1807.07570v1.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/smith-2018-griffin-angular-correlation-arxiv1807.07570v1.pdf"
 raw_sha256: "0390bdbb6b78f035d1d49abd4ecf863a684f3a8eb3ba6c537cfbd8fb6e352f33"
 nuclei: [60Ni, 152Gd, 66Zn]
 observables: [gamma-gamma-angular-correlation, angular-distribution-coefficient, multipole-mixing-ratio]
@@ -161,8 +161,8 @@ Method1–4的仪器响应模拟与实验fit必须分开。TableA.10给response�
 
 | 原对象 | 版本/日期 | raw归档/SHA-256 |
 | --- | --- | --- |
-| [Zenodo1120421](https://doi.org/10.5281/zenodo.1120421)，paper Ref21 | v1.0，2017-12-20 | `raw/papers/gpt/day15/zenodo-1120421-v1.0.zip`；`62c8c36d216fd6b3b1d3c8b8e300ef5606d473592ce18b5f92eca8e7afd28664` |
-| [Zenodo1123461](https://doi.org/10.5281/zenodo.1123461)，paper Ref22 | v1.0.0，2017-12-21 | `raw/papers/gpt/day15/zenodo-1123461-v1.0.0.zip`；`09acdabb08f58724574ce16490b0c41c3c713ae03767744ec5dd193ac7a7834e` |
+| [Zenodo1120421](https://doi.org/10.5281/zenodo.1120421)，paper Ref21 | v1.0，2017-12-20 | `raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/zenodo-1120421-v1.0.zip`；`62c8c36d216fd6b3b1d3c8b8e300ef5606d473592ce18b5f92eca8e7afd28664` |
+| [Zenodo1123461](https://doi.org/10.5281/zenodo.1123461)，paper Ref22 | v1.0.0，2017-12-21 | `raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/zenodo-1123461-v1.0.0.zip`；`09acdabb08f58724574ce16490b0c41c3c713ae03767744ec5dd193ac7a7834e` |
 
 angular包根目录`README.md`共4行，L4说明扩展旧Geant4.10.01的radioactive-decay module；没有据此认证现版接口。detector包`README.md`的setup区L1–42已核，L4/L18/L34明确第三方IP/NDA源码省略、需要额外文件且公开/保留部分都需要；L10列Geant4.10.01、ROOT6.04.00，L39还提示usage可能过时。`CMakeLists.txt`111行读完，实际依赖Geant4；`src/DetectionSystemGriffin.cc`只核header/dependency和L40–44的constructor/local-NDA说明，未将3049行全文件称为已读。
 

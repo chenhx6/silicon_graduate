@@ -17,8 +17,8 @@ volume: 37
 pages: "105-158"
 doi: "10.1103/RevModPhys.37.105"
 canonical_source: "Davidson, Rev. Mod. Phys. 37, 105-158 (1965)"
-library_file: "raw/papers/gpt/high-spin-20260920/review/1965_Davidson_Rotations and Vibrations in Deformed Nuclei 1.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/1965_Davidson_Rotations and Vibrations in Deformed Nuclei 1.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1965_Davidson_Rotations and Vibrations in Deformed Nuclei 1.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1965_Davidson_Rotations and Vibrations in Deformed Nuclei 1.pdf"
 raw_sha256: "cfaf97cac087bb39d558b654065005dc7e8177ddd5d851bf8a2f698a3abaa5b4"
 nuclei: [generic]
 reactions: [generic-collective-model]
@@ -34,7 +34,7 @@ tags: [rotations, vibrations, deformed-nuclei, collective-model, review]
 ## Bibliographic Record
 
 - J. P. Davidson, *Rev. Mod. Phys.* **37**, 105–158 (1965), DOI `10.1103/RevModPhys.37.105`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/1965_Davidson_Rotations and Vibrations in Deformed Nuclei 1.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1965_Davidson_Rotations and Vibrations in Deformed Nuclei 1.pdf`。
 
 ## Scope and Reading Depth
 

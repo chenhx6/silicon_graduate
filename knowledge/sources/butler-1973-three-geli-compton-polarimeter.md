@@ -20,8 +20,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Butler, P. A. et al. Construction and use of a three Ge(Li) Compton polarimeter. Nucl. Instrum. Methods 108, 497-502 (1973)."
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1973_Butler et al_Construction and use of a three Ge(Li) Compton polarimeter.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1973_Butler et al_Construction and use of a three Ge(Li) Compton polarimeter.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1973_Butler et al_Construction and use of a three Ge(Li) Compton polarimeter.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1973_Butler et al_Construction and use of a three Ge(Li) Compton polarimeter.pdf"
 raw_sha256: "1d19589bd41fb0b28230a3cb76cf8c240fc5f7899b1bd50a1c288bcfb8a3e7c2"
 nuclei: ["33S", "56Fe", "24Mg", "28Si", "12C", "26Al"]
 reactions: ["30Si(α,n)33S"]
@@ -36,7 +36,7 @@ tags: [three-GeLi, Compton-polarimeter, detector-calibration, 33S, spin-parity-a
 
 - 作者：P. A. Butler 等。
 - 期刊：*Nuclear Instruments and Methods* 108, 497-502 (1973)。DOI：`10.1016/0029-554X(73)90530-2`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1973_Butler et al_Construction and use of a three Ge(Li) Compton polarimeter.pdf`；SHA-256：`1d19589bd41fb0b28230a3cb76cf8c240fc5f7899b1bd50a1c288bcfb8a3e7c2`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1973_Butler et al_Construction and use of a three Ge(Li) Compton polarimeter.pdf`；SHA-256：`1d19589bd41fb0b28230a3cb76cf8c240fc5f7899b1bd50a1c288bcfb8a3e7c2`。
 
 ## Scope and Reading Depth
 

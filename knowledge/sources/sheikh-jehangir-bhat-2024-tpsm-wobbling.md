@@ -22,7 +22,7 @@ zotero_item_key: ""
 citation_key: ""
 zotero_uri: ""
 library_file: ""
-raw_file: "raw/papers/gpt/day3-mean-field-20260929/2405-08368-wobbling-133La-135Pr/PDFs/Microscopic_investigation_of_wobbling_motion_in_atomic_nuclei_using_the_triaxial_projected_shell_model_approach.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2405-08368-wobbling-133La-135Pr/PDFs/Microscopic_investigation_of_wobbling_motion_in_atomic_nuclei_using_the_triaxial_projected_shell_model_approach.pdf"
 raw_sha256: a7fa3cc75113a1ff2881cbc7edd9d3285a228b429c34b6f0b9b22da4c2b90d22
 nuclei: [133La, 135Pr]
 reactions: []

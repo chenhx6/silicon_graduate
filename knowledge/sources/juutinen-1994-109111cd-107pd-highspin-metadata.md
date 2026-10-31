@@ -17,7 +17,7 @@ citation_key: juutinen_1994_109111cd_107pd_highspin_metadata
 citation_key_origin: crossref
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1016/0375-9474(94)90942-3"
-raw_file: "raw/papers/gpt/day26-20261028/10.1016_0375-9474(94)90942-3.crossref.json"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/10.1016_0375-9474(94)90942-3.crossref.json"
 raw_sha256: "ccb2f07baee8a7608dfd6ed06daa0f0138c47a40b79b69610400ef612adaab5c"
 nuclei: [109Cd, 111Cd, 107Pd]
 models: [high-spin-spectroscopy]

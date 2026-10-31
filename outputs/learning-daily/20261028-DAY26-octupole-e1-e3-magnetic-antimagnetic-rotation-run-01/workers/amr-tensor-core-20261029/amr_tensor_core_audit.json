@@ -267,21 +267,21 @@
   ],
   "raw_fingerprints": [
     {
-      "path": "raw/papers/gpt/day26-20261028/roy-2011-cd110-systematics-plb.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/roy-2011-cd110-systematics-plb.pdf",
       "pdf_signature_ok": true,
       "bytes": 281553,
       "sha256": "2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a",
       "reading_coverage": "5/5 pages read; Eqs.1-6, Table1, Figs3-4; pp323/325 visually inspected"
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-prc.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/rather-2014-104pd-antimagnetic-prc.pdf",
       "pdf_signature_ok": true,
       "bytes": 52876,
       "sha256": "873b08c05f041d702a2c82f6243e9d73768a902ed91782891353bc42dfb1025b",
       "reading_coverage": "only first journal page 061303-1 obtained, of 5 journal pages"
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf",
       "pdf_signature_ok": true,
       "bytes": 370918,
       "sha256": "d0938039dd5c75f223bac9eca1d75e3c3d55f406504c41dc9f816a11d439de91",

@@ -19,8 +19,8 @@ citation_key: Bucher_2016
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevLett.116.112503"
-library_file: "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf"
 raw_sha256: "f0da6d0a56cd10d1023633aed1a25d021f88a0ff48787c4569a26031e1b3dc4d"
 nuclei: [144Ba, 144La, 208Pb, 134Xe]
 reactions: [sub-barrier-coulomb-excitation]

@@ -19,7 +19,7 @@ pages: 383-387
 doi: 10.1140/epjad/i2005-06-205-y
 language: en
 canonical_source: doi:10.1140/epjad/i2005-06-205-y
-raw_file: "raw/papers/gpt/day2-shell-gap-20260928/radford-2005-130sn-coulex-source.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/radford-2005-130sn-coulex-source.pdf"
 raw_sha256: 9d3325519c41ddf1440b76f2b45dbac0788617ee0c2a872435c6e82b15b123ed
 nuclei: [126sn, 128sn, 130sn, 132te, 134te, 136te, 132sn, 134sn]
 reactions: ["126Sn/128Sn/130Sn Coulomb excitation on natural carbon"]

@@ -16,8 +16,8 @@ volume: 128
 pages: "53-60"
 pii: "0029-554X(75)90773-9"
 canonical_source: "Aoki et al., Nucl. Instr. Meth. 128, 53-60 (1975)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1975_Aoki et al_Ge(Li) summing spectrometers of special type.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1975_Aoki et al_Ge(Li) summing spectrometers of special type.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1975_Aoki et al_Ge(Li) summing spectrometers of special type.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1975_Aoki et al_Ge(Li) summing spectrometers of special type.pdf"
 raw_sha256: "b0a36fa350a078021212b8cd9a28fecc389baf1ebbbd8a60f79f025b68cc70a7"
 nuclei: [generic]
 reactions: [22Na-annihilation, 60Co, 137Cs, 152Eu]
@@ -33,7 +33,7 @@ tags: [GeLi, summing-spectrometer, Compton-polarimetry, polarization]
 ## Bibliographic Record
 
 - T. Aoki *et al.*, *Nucl. Instr. Meth.* **128**, 53–60 (1975), PII `0029-554X(75)90773-9`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1975_Aoki et al_Ge(Li) summing spectrometers of special type.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1975_Aoki et al_Ge(Li) summing spectrometers of special type.pdf`。
 
 ## Scope and Reading Depth
 

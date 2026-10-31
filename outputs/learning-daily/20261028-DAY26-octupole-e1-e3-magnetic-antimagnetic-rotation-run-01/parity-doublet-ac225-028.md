@@ -2,7 +2,7 @@
 
 ## Acquisition
 
-NNDC official ENSDF query returned `225089001,225AC ADOPTED LEVELS, GAMMAS`, evaluation version 2022-07, cutoff 25 October 2019. The retrieved response is archived at `raw/data/day26-20261028/225ac-adopted-225089001-028.html` with SHA-256 `fb3d87428e000397881227c3dc96973c1765310a7811062cc8c297259872a817` (169 wrapper lines; fixed-column ENSDF text in the `<pre>` block).
+NNDC official ENSDF query returned `225089001,225AC ADOPTED LEVELS, GAMMAS`, evaluation version 2022-07, cutoff 25 October 2019. The retrieved response is archived at `raw/data/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/225ac-adopted-225089001-028.html` with SHA-256 `fb3d87428e000397881227c3dc96973c1765310a7811062cc8c297259872a817` (169 wrapper lines; fixed-column ENSDF text in the `<pre>` block).
 
 ## Level and E1 evidence
 

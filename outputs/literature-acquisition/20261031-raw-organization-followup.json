@@ -1,0 +1,1465 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "source": "raw/papers/codex-day10/chen-2017-128cs.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/chen-2017-128cs.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/codex-day10/grodner-2006-128cs.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/grodner-2006-128cs.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/codex-day10/grodner-2011-126cs.xml",
+      "target": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/grodner-2011-126cs.xml",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/codex-day10/grodner-2011-bm1-staggering.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/grodner-2011-bm1-staggering.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/codex-day10/hamamoto-2011-selection-rule.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/hamamoto-2011-selection-rule.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/codex-day10/koike-2003-128cs.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/koike-2003-128cs.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/codex-day10/koike-2004-selection-rules.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/koike-2004-selection-rules.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/codex-day10/prochniak-2011-cphc-s-symmetry.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/prochniak-2011-cphc-s-symmetry.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/codex-day10/rohozinski-2011-cphc-s-symmetry.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/rohozinski-2011-cphc-s-symmetry.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/codex-day10/wang-2006-126cs.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/wang-2006-126cs.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/codex-day14/wang-2010-128i-new-high-spin-level-scheme.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/wang-2010-128i-new-high-spin-level-scheme.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day17-20261019/bethge-1966-stopping-charge-states.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261019-DAY17-linear-polarization-paq-compton/bethge-1966-stopping-charge-states.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day17-20261020/fougeres-2023-mg23-publisher.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/fougeres-2023-mg23-publisher.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day17-20261020/friedman-2020-gadget-accepted.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/friedman-2020-gadget-accepted.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day17-20261020/jenkins-2004-mg23-arxiv-v1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/jenkins-2004-mg23-arxiv-v1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day17-20261020/kirsebom-2016-23mg-dsam-arxiv-v1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/kirsebom-2016-23mg-dsam-arxiv-v1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day17-20261020/sallaska-2010-letter-arxiv-v2.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/sallaska-2010-letter-arxiv-v2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day17-20261020/sallaska-2011-na22-arxiv-v2.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/sallaska-2011-na22-arxiv-v2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day19-20261021/regis-2015-gcd-epjconf-01013.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261021-DAY19-rdds-fast-timing/regis-2015-gcd-epjconf-01013.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day20-20261022/ayangeakaa-2019-rigid-triaxial-ge76.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2019-rigid-triaxial-ge76.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day20-20261022/ayangeakaa-2023-ge76-coulomb-excitation-full.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2023-ge76-coulomb-excitation-full.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day20-20261022/barth-1981-ce-local-moments.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/barth-1981-ce-local-moments.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day20-20261022/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day20-20261022/dafni-1983-ce-tin-quadrupole.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/dafni-1983-ce-tin-quadrupole.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day20-20261022/gosia-user-manual-20120510.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/gosia-user-manual-20120510.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day20-20261022/henderson-2019-triaxiality-selenium76.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/henderson-2019-triaxiality-selenium76.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day20-20261022/henderson-2020-quadrupole-invariant-convergence.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/henderson-2020-quadrupole-invariant-convergence.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day20-20261022/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day20-20261022/vianden-1987-efg-metals.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/vianden-1987-efg-metals.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day21-20261023/burgunder-2014-35si-two-body-spin-orbit.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/burgunder-2014-35si-two-body-spin-orbit.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day21-20261023/mutschler-2017-34si-proton-density-bubble.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/mutschler-2017-34si-proton-density-bubble.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day21-20261023/yao-2012-34si-beyond-mean-field-bubble.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/yao-2012-34si-beyond-mean-field-bubble.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day26-20261028/2003-engel-ra225-schiff.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2003-engel-ra225-schiff.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day26-20261028/2004-podsvirova-141eu.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2004-podsvirova-141eu.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day26-20261028/2005-dobaczewski-ra225-schiff.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2005-dobaczewski-ra225-schiff.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day26-20261028/2010-heyde-magnetic-dipole.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2010-heyde-magnetic-dipole.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day26-20261028/2010-robledo-octupole-ra-ba.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2010-robledo-octupole-ra-ba.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day26-20261028/2012-rodriguez-guzman-sm-gd.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2012-rodriguez-guzman-sm-gd.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day26-20261028/2016-pai-cr50-scissors.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2016-pai-cr50-scissors.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/day26-20261028/2020-nomura-ra-th-d1m.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2020-nomura-ra-th-d1m.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day11-reaction-doppler-20261013/mehl-2015-coulomb-sorting-thesis.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/mehl-2015-coulomb-sorting-thesis.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/20o-2019-acta-dsam.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/20o-2019-acta-dsam.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/akkoyun-2012-agata-overview.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/akkoyun-2012-agata-overview.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/aladili-2009-doppler-simulations.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/aladili-2009-doppler-simulations.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/assie-2021-mugast-campaign.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/assie-2021-mugast-campaign.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/baker-cousins-1984-histogram-fits-kekscan.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/baker-cousins-1984-histogram-fits-kekscan.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/ciemala-2020-c16-o20-lifetimes.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ciemala-2020-c16-o20-lifetimes.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/ciemala-2021-deep-inelastic-lifetime-method.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ciemala-2021-deep-inelastic-lifetime-method.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/crespi-2013-agata-15mev.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/crespi-2013-agata-15mev.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/crespi-2023-agata-tracking-performance.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/crespi-2023-agata-tracking-performance.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/lemasson-2023-fission-spectroscopy.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/lemasson-2023-fission-spectroscopy.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/ljungvall-2020-ganil-performance.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ljungvall-2020-ganil-performance.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/senyigit-2014-agata-neutrons.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/senyigit-2014-agata-neutrons.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/soderstrom-2008-proceedings.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/soderstrom-2008-proceedings.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/tunl-12c-table-12-13-2017.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/tunl-12c-table-12-13-2017.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/vandebrouck-2016-vamos-mwpc.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/vandebrouck-2016-vamos-mwpc.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/zanon-2023-o20-high-precision.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/zanon-2023-o20-high-precision.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day13/ziliani-2019-agata-calibration.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ziliani-2019-agata-calibration.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15/smith-2018-griffin-angular-correlation-arxiv1807.07570v1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/smith-2018-griffin-angular-correlation-arxiv1807.07570v1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15/zenodo-1120421-v1.0.zip",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/zenodo-1120421-v1.0.zip",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15/zenodo-1123461-v1.0.0.zip",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/zenodo-1123461-v1.0.0.zip",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/bricc-z70-489p8-e0-beomg-f6bf17c5f153.html",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/bricc-z70-489p8-e0-beomg-f6bf17c5f153.html",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-e2-bde3a2eefe5d.html",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/bricc-z70-489p8-fo-e2-bde3a2eefe5d.html",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-m1-0f74bd9078a7.html",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/bricc-z70-489p8-fo-m1-0f74bd9078a7.html",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/chakraborty-arxiv2108.05313v3-c8c0accfc9d2.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/chakraborty-arxiv2108.05313v3-c8c0accfc9d2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-arxiv2104.00228-58c0294f6b3d.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/iliadis-friman-gayer-2021-arxiv2104.00228-58c0294f6b3d.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/nndc-129ba-129056001-201408-15d8e353eb23.ens",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056001-201408-15d8e353eb23.ens",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/nndc-129ba-129056013-201408-09194d4feed3.ens",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/nndc-164yb-164070001-201712-606ddb5aaea1.ens",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-164yb-164070001-201712-606ddb5aaea1.ens",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/nndc-164yb-164070003-201712-a46a5830695a.ens",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-164yb-164070003-201712-a46a5830695a.ens",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/nndc-164yb-164070004-201712-eec3131d9213.ens",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-164yb-164070004-201712-eec3131d9213.ens",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day15-20261016/sh26-arxiv-2403.10749v2-source.tar",
+      "target": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/sh26-arxiv-2403.10749v2-source.tar",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day16-20261018/bizzeti2015-agata-polarimetry-46a0bc767d94.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/bizzeti2015-agata-polarimetry-46a0bc767d94.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day16-20261018/ensdf-procedures-1987-f08bf2c3e780.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/ensdf-procedures-1987-f08bf2c3e780.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day16-20261018/jones1998-223ra-alpha-19d50c6b0b8b.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/jones1998-223ra-alpha-19d50c6b0b8b.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day16-20261018/morse-2022-gretina-calibration-author-preprint.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/morse-2022-gretina-calibration-author-preprint.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day16-20261018/palit2000-rh99-polarimetry-16ac6571acce.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/palit2000-rh99-polarimetry-16ac6571acce.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day16-20261018/purry-1997-phd-high-spin-multiparticle-178w-b8ee1308d487.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/purry-1997-phd-high-spin-multiparticle-178w-b8ee1308d487.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day16-20261018/riley-2021-ucgretina-2104.09986v1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/riley-2021-ucgretina-2104.09986v1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day16-20261018/tsuzuki2021-2105-14236v1-f2c69bdb5ec1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/tsuzuki2021-2105-14236v1-f2c69bdb5ec1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day16-20261018/tuli-2001-ensdf-format-3400f0ae84d2.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/tuli-2001-ensdf-format-3400f0ae84d2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day17/garnsworthy-2019-griffin-facility-arxiv-v2.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261019-DAY17-linear-polarization-paq-compton/garnsworthy-2019-griffin-facility-arxiv-v2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/ame2020-mass_1.mas20.txt",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/ame2020-mass_1.mas20.txt",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/ame2020-rct1.mas20.txt",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/ame2020-rct1.mas20.txt",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/doaj-orlandi-2018-131sn.json",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/doaj-orlandi-2018-131sn.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/ensdf-132Sn-coulex.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/ensdf-132Sn-coulex.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/ensdf-134Te-coulex.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/ensdf-134Te-coulex.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/gray-2021-anu-thesis-z50-electromagnetic.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/gray-2021-anu-thesis-z50-electromagnetic.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/iaea-levels-130Sn.csv",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/iaea-levels-130Sn.csv",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/iaea-levels-132Sn.csv",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/iaea-levels-132Sn.csv",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/iaea-levels-134Sn.csv",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/iaea-levels-134Sn.csv",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/iaea-levels-134Te.csv",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/iaea-levels-134Te.csv",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/jones-2010-nature09048-preview.html",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/jones-2010-nature09048-preview.html",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/jones-2010-nature09048-supplement.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/jones-2010-nature09048-supplement.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/nudat-131Sn-levels.html",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/nudat-131Sn-levels.html",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/nudat-132Sn-levels.html",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/nudat-132Sn-levels.html",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/nudat-133Sn-levels.html",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/nudat-133Sn-levels.html",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/nudat-134Te-levels.html",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/nudat-134Te-levels.html",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/openaire-orlandi-2018-131sn.json",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/openaire-orlandi-2018-131sn.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/orlandi-2018-131sn-surrey-delivery.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/orlandi-2018-131sn-surrey-delivery.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/radford-2005-130sn-coulex-source.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/radford-2005-130sn-coulex-source.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day2-shell-gap-20260928/varner-2005-132-134Sn-coulex.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/varner-2005-132-134Sn-coulex.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/10.1016_0375-9474(94)90942-3.crossref.json",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/10.1016_0375-9474(94)90942-3.crossref.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/10.1103_PhysRevC.53.2682.crossref.json",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/10.1103_PhysRevC.53.2682.crossref.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/butler-2020-prl124-042503.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/butler-2020-prl124-042503.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/denisov-2013-multidimensional-cluster-arxiv1311.3810v1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/denisov-2013-multidimensional-cluster-arxiv1311.3810v1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/diwanshu-2025-106cd-amr-crossref.json",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/diwanshu-2025-106cd-amr-crossref.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/egido-1990-barium-negative-parity.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/egido-1990-barium-negative-parity.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/j.nuclphysa.2025.123016.crossref.json",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/j.nuclphysa.2025.123016.crossref.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/juutinen-1994-110cd-gamma-spectroscopy.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/juutinen-1994-110cd-gamma-spectroscopy.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/kumar-2023-amr-review-arxiv2303.00499.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/kumar-2023-amr-review-arxiv2303.00499.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/negi-2010-107in-shears-metadata-crossref.json",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/negi-2010-107in-shears-metadata-crossref.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/nndc-222ra-adopted-cluster-20261029.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-222ra-adopted-cluster-20261029.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/nndc-224ra-adopted-cluster-20261029.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-224ra-adopted-cluster-20261029.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/nndc-226ra-adopted-cluster-20261029.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-226ra-adopted-cluster-20261029.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/nndc-226th-adopted-cluster-20261029.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-226th-adopted-cluster-20261029.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/nndc-228th-adopted-cluster-20261029.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-228th-adopted-cluster-20261029.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/nomura-2018-odd-ba-octupole-arxiv1711.09587v2.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nomura-2018-odd-ba-octupole-arxiv1711.09587v2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/olbratowski-2002-critical-frequency-arxiv-v1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/olbratowski-2002-critical-frequency-arxiv-v1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/piiparinen-1993-110cd-lifetimes.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/piiparinen-1993-110cd-lifetimes.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/pr135-erratum-2019.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/pr135-erratum-2019.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/qiao-2025-pd-systematic-amr-crossref.json",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/qiao-2025-pd-systematic-amr-crossref.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-prc.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/rather-2014-104pd-antimagnetic-prc.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/roy-2011-cd110-systematics-plb.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/roy-2011-cd110-systematics-plb.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/roy-2013-105cd-amr-comment-metadata-crossref.json",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/roy-2013-105cd-amr-comment-metadata-crossref.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/s0218301324500423.crossref.json",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/s0218301324500423.crossref.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/s0218301326500552.crossref.json",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/s0218301326500552.crossref.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/sheikh-2002-pairing-number-projection-arxivnucl-th0207080.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/sheikh-2002-pairing-number-projection-arxivnucl-th0207080.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/warda-2011-actinide-cluster-radioactivity-arxiv1107.1478v1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/warda-2011-actinide-cluster-radioactivity-arxiv1107.1478v1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/wu-2011-pairing-rotation-blocking-arxiv1104.3385.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/wu-2011-pairing-rotation-blocking-arxiv1104.3385.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day26-20261028/zhao-2012-105cd-cdft-antimagnetic-arxiv1205.0867v1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhao-2012-105cd-cdft-antimagnetic-arxiv1205.0867v1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/134la-tpsm-access/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/134la-tpsm-access/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/135ce-chiral-aip/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/135ce-chiral-aip/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/136pr-2025-tac-cdfTAC/PDFs/Configuration_dependent_shapes_and_types_of_rotations_in_the_gamma-soft_Pr-136_nucleus_revealed_by_detailed_calculations_with_tilted_axis_cr.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/136pr-2025-tac-cdfTAC/PDFs/Configuration_dependent_shapes_and_types_of_rotations_in_the_gamma-soft_Pr-136_nucleus_revealed_by_detailed_calculations_with_tilted_axis_cr.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/136pr-2025-tac-cdfTAC/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/136pr-2025-tac-cdfTAC/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/137pr-2007-magnetic-rotation/PDFs/Bandcrossing_of_magnetic_rotation_bands_in_137Pr.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/137pr-2007-magnetic-rotation/PDFs/Bandcrossing_of_magnetic_rotation_bands_in_137Pr.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/137pr-2007-magnetic-rotation/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/137pr-2007-magnetic-rotation/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/2203-12851-tpsm-odd-neutron-xe-20260930/PDFs/Extended_triaxial_projected_shell_model_approach_for_odd-neutron_nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2203-12851-tpsm-odd-neutron-xe-20260930/PDFs/Extended_triaxial_projected_shell_model_approach_for_odd-neutron_nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/2203-12851-tpsm-odd-neutron-xe-20260930/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2203-12851-tpsm-odd-neutron-xe-20260930/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/2405-08368-wobbling-133La-135Pr/PDFs/Microscopic_investigation_of_wobbling_motion_in_atomic_nuclei_using_the_triaxial_projected_shell_model_approach.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2405-08368-wobbling-133La-135Pr/PDFs/Microscopic_investigation_of_wobbling_motion_in_atomic_nuclei_using_the_triaxial_projected_shell_model_approach.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/2405-08368-wobbling-133La-135Pr/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2405-08368-wobbling-133La-135Pr/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/2508-00373-harmonic-chiral-vibration/PDFs/Harmonic_chiral_vibration_in_triaxial_nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2508-00373-harmonic-chiral-vibration/PDFs/Harmonic_chiral_vibration_in_triaxial_nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/2508-00373-harmonic-chiral-vibration/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2508-00373-harmonic-chiral-vibration/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/banik-2020-131xe-reaction/PDFs/Banik_et_al_2020_131Xe_multiple_band_structures.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/banik-2020-131xe-reaction/PDFs/Banik_et_al_2020_131Xe_multiple_band_structures.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/banik-2020-131xe-reaction/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/banik-2020-131xe-reaction/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/bhat-2014-tpsm-124-132cs.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/bhat-2014-tpsm-124-132cs.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/harmonic-chiral-vibration-137nd-2025/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/harmonic-chiral-vibration-137nd-2025/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/odd-neutron-tpsm-odd-neutron-xe/PDFs/Extended_triaxial_projected_shell_model_approach_for_odd-neutron_nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/odd-neutron-tpsm-odd-neutron-xe/PDFs/Extended_triaxial_projected_shell_model_approach_for_odd-neutron_nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/odd-neutron-tpsm-odd-neutron-xe/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/odd-neutron-tpsm-odd-neutron-xe/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day3-mean-field-20260929/simons-2005-130cs-chiral-structures.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/simons-2005-130cs-chiral-structures.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day4-20260930/194tl-pai-2012/PDFs/Pai-2012-PRC85-064313-194Tl-arXiv-1201.6596v2.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration/194tl-pai-2012/PDFs/Pai-2012-PRC85-064313-194Tl-arXiv-1201.6596v2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day4-20260930/194tl-pai-2012/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration/194tl-pai-2012/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day5-20261003/ensdf-131ce-high-spin-bands.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence/ensdf-131ce-high-spin-bands.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day5-20261003/ensdf-131ce-superdeformed-bands.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence/ensdf-131ce-superdeformed-bands.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/day5-20261003/nomura-2018-odd-mass-ba-octupole.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence/nomura-2018-odd-mass-ba-octupole.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/NPA695-Jensen-2001-3.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/external-146ba/manifest.json",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/manifest.json",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1970_Taras_Analysis of particle-gamma angular correlations and distributions.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1970_Taras_Analysis of particle-gamma angular correlations and distributions.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1973_Krane et al_Directional correlations of gamma radiations emitted from nuclear states.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1973_Krane et al_Directional correlations of gamma radiations emitted from nuclear states.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1929_Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynami.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1929_Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynami.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1959_Fagg_Hanna_Polarization Measurements on Nuclear Gamma Rays.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1959_Fagg_Hanna_Polarization Measurements on Nuclear Gamma Rays.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1959_Suffert et al_Polarization measurements of proton capture gamma rays.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1959_Suffert et al_Polarization measurements of proton capture gamma rays.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1969_Ewan et al_Gamma-ray polarization measurements with a single Ge(Li) detector.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1969_Ewan et al_Gamma-ray polarization measurements with a single Ge(Li) detector.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K reaction.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K reaction.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1972_Bass et al_Symmetrical two-crystal compton polarimeter for gamma rays.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1972_Bass et al_Symmetrical two-crystal compton polarimeter for gamma rays.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1973_Butler et al_Construction and use of a three Ge(Li) Compton polarimeter.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1973_Butler et al_Construction and use of a three Ge(Li) Compton polarimeter.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1974_Logan et al_A generalized figure of merit for gamma-ray polarimeters.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1974_Logan et al_A generalized figure of merit for gamma-ray polarimeters.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1975_Aoki et al_Ge(Li) summing spectrometers of special type.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1975_Aoki et al_Ge(Li) summing spectrometers of special type.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1994_Schlitt et al_A sectored Ge-Compton polarimeter for parity assignments in photon scattering.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1994_Schlitt et al_A sectored Ge-Compton polarimeter for parity assignments in photon scattering.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Garcia-Raffi et al_Non-orthogonal gamma-ray compton polarimeters.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Garcia-Raffi et al_Non-orthogonal gamma-ray compton polarimeters.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Von Der Werth et al_Two Compton polarimeter constructions for modern standard γ-spectroscopy.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Von Der Werth et al_Two Compton polarimeter constructions for modern standard γ-spectroscopy.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1997_García-Raffi et al_Monte Carlo simulation of Compton polarimeters.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1997_García-Raffi et al_Monte Carlo simulation of Compton polarimeters.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium2.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/1984_Schirmer et al_Double Gamma Decay in Ca 40 and Zr 90.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/1984_Schirmer et al_Double Gamma Decay in Ca 40 and Zr 90.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/1987_Kramp et al_Nuclear two-photon decay in 0+→0+ transitions.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/1987_Kramp et al_Nuclear two-photon decay in 0+→0+ transitions.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2014_Henderson et al_Upper limit on the two-photon emission branch for the 0 2 + → 0 1 + transition.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2014_Henderson et al_Upper limit on the two-photon emission branch for the 0 2 + → 0 1 + transition.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2015_Gade_Sometimes γ-rays come in twos.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Gade_Sometimes γ-rays come in twos.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/SUPPLEMENTARY INFORMATION.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/SUPPLEMENTARY INFORMATION.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1948_Falkoff_Polarization Correlation of Successive Gamma-Ray Quanta.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1948_Falkoff_Polarization Correlation of Successive Gamma-Ray Quanta.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1948_Hamilton_Polarization and Direction of Propagation of Successive Quanta.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1948_Hamilton_Polarization and Direction of Propagation of Successive Quanta.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1968_Hamilton et al_Angular correlation measurements in 192Pt.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1968_Hamilton et al_Angular correlation measurements in 192Pt.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1969_Hamilton_The multipole mixing ratio of 2′+ → 2+ transitions in 194Pt and 196Pt.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1971_Taras_Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Ma.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1971_Taras_Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Ma.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1974_Vaillancourt et al_Gamma-ray linear-polarization and angular-distribution formulas for mixtures of three multipoles.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1974_Vaillancourt et al_Gamma-ray linear-polarization and angular-distribution formulas for mixtures of three multipoles.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Droste et al_PPCO polarization–polarization correlation from oriented nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1999_Droste et al_PPCO polarization–polarization correlation from oriented nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/1949_Haxel et al_On the Magic Numbers in Nuclear Structure.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1949_Haxel et al_On the Magic Numbers in Nuclear Structure.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/1956_Alder et al_Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1956_Alder et al_Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/1965_Davidson_Rotations and Vibrations in Deformed Nuclei 1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1965_Davidson_Rotations and Vibrations in Deformed Nuclei 1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/1970_Summary of bases for spin and parity assignments — 1970.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1970_Summary of bases for spin and parity assignments — 1970.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/1978_Ragnarsson et al_Shell structure in nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1978_Ragnarsson et al_Shell structure in nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/1995_Hara_Sun_PROJECTED SHELL MODEL AND HIGH-SPIN SPECTROSCOPY.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1995_Hara_Sun_PROJECTED SHELL MODEL AND HIGH-SPIN SPECTROSCOPY.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/1999_Afanasjev et al_Termination of rotational bands.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1999_Afanasjev et al_Termination of rotational bands.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/2005_Hübel_Magnetic rotation in nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2005_Hübel_Magnetic rotation in nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/2016_Pseudospin symmetry in nuclear structure and its supersymmetric representation.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2016_Pseudospin symmetry in nuclear structure and its supersymmetric representation.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/review/Summary of Bases for Spin and Parity Assignments.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/Summary of Bases for Spin and Parity Assignments.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/手征/1997_Frauendorf_Jie Meng_Tilted rotation of triaxial nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/1997_Frauendorf_Jie Meng_Tilted rotation of triaxial nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/手征/2009_孟_原子核是否存在手性.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2009_孟_原子核是否存在手性.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/手征/实验/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/进动/实验/2018_Macchiavelli et al_Erratum.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2018_Macchiavelli et al_Erratum.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/进动/实验/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei 1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei 1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/进动/实验/2024_H. Amro et al_Evidence for Chiral Wobbler in Nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2024_H. Amro et al_Evidence for Chiral Wobbler in Nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/理论/2015_Frauendorf_The low-energy quadrupole mode of nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/三轴/进动/理论/2018_Frauendorf_Beyond the Unified Model.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/理论/2018_Frauendorf_Beyond the Unified Model.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/形变/1990_Aberg et al_Nuclear Shapes in Mean Field Theory.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Aberg et al_Nuclear Shapes in Mean Field Theory.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/形变/2006_Möller et al_Global Calculations of Ground-State Axial Shape Asymmetry of Nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2006_Möller et al_Global Calculations of Ground-State Axial Shape Asymmetry of Nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/形变/2013_Gaffney et al_Studies of pear-shaped nuclei using accelerated radioactive beams.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2013_Gaffney et al_Studies of pear-shaped nuclei using accelerated radioactive beams.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2013_Lister_Butterworth_Exotic pear-shaped nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/形变/2021_Nomura et al_Coupling of pairing and triaxial shape vibrations in collective states of γ.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2021_Nomura et al_Coupling of pairing and triaxial shape vibrations in collective states of γ.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/形变/2025_Gade et al_In-beam spectroscopy reveals competing nuclear shapes in the rare isotope 62Cr.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2025_Gade et al_In-beam spectroscopy reveals competing nuclear shapes in the rare isotope 62Cr.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/振动/1966_Greiner_Magnetic properties of even nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/1966_Greiner_Magnetic properties of even nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/振动/2005_Gore et al_Unexpected rapid variations in odd-even level staggering in gamma-vibrational.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2005_Gore et al_Unexpected rapid variations in odd-even level staggering in gamma-vibrational.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/振动/2018_Eldridge et al_E2M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational b 1.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2018_Eldridge et al_E2M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational b 1.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/振动/2026_Jahangir et al_Microscopic investigation of γ vibrational band structures in odd-mass nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2026_Jahangir et al_Microscopic investigation of γ vibrational band structures in odd-mass nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/纲图/1975_Williams et al_A study of the low-lying levels in 61Ni.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1975_Williams et al_A study of the low-lying levels in 61Ni.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/纲图/1977_Wadsworth et al_Gamma ray spectroscopy insup61-sup Ni-levels below 2.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1977_Wadsworth et al_Gamma ray spectroscopy insup61-sup Ni-levels below 2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1978_Meyer et al_Multiparticle configurations in the odd-neutron nuclei Ni 61 and Zn 67.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/纲图/2020_Das et al_High spin states of Ar 37.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2020_Das et al_High spin states of Ar 37.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/衰变/2026_Dey et al_Multifaceted Decay of Cs 116.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/衰变/2026_Dey et al_Multifaceted Decay of Cs 116.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/1975_Stephens_Coriolis effects and rotation alignment in nuclei.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20260920/转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf",
+      "target": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20261009/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/papers/gpt/high-spin-20261009/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf",
+      "target": "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/theses/day17-20261020/fougeres-2022-thesis.pdf",
+      "target": "raw/theses/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/fougeres-2022-thesis.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/theses/day17-20261020/saastamoinen-2011-thesis.pdf",
+      "target": "raw/theses/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/saastamoinen-2011-thesis.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/data/day26-20261028/110cd-adopted-110048001-023.html",
+      "target": "raw/data/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/110cd-adopted-110048001-023.html",
+      "action": "moved"
+    },
+    {
+      "source": "raw/data/day26-20261028/225ac-adopted-225089001-028.html",
+      "target": "raw/data/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/225ac-adopted-225089001-028.html",
+      "action": "moved"
+    },
+    {
+      "source": "raw/data/day26-20261028/225ra-adopted-225088001-016.html",
+      "target": "raw/data/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/225ra-adopted-225088001-016.html",
+      "action": "moved"
+    },
+    {
+      "source": "raw/reports/day17-20261020/cyclotron-progress2006.pdf",
+      "target": "raw/reports/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/cyclotron-progress2006.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/115I ensdf_nndc.pdf",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/115I ensdf_nndc.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/116Cs ensdf_nndc.pdf",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/116Cs ensdf_nndc.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/116Cs xundl_nndc.pdf",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/116Cs xundl_nndc.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/116Cs_comment-2.pdf",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/116Cs_comment-2.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/116I ensdf_nndc.pdf",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/116I ensdf_nndc.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/116In ensdf_nndc.pdf",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/116In ensdf_nndc.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/116In xundl_nndc.pdf",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/116In xundl_nndc.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/116Xe ensdf_nndc.pdf",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/116Xe ensdf_nndc.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/116Xe xundl_nndc.pdf",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/116Xe xundl_nndc.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/2026_Dey et al_Multifaceted Decay of Cs 116.pdf",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/2026_Dey et al_Multifaceted Decay of Cs 116.pdf",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/2026_Dey et al_Multifaceted Decay of Cs 116_L3 claim audit.md",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/2026_Dey et al_Multifaceted Decay of Cs 116_L3 claim audit.md",
+      "action": "moved"
+    },
+    {
+      "source": "raw/notes/commit/multifaced decay of 116Cs/2026_Dey et al_Multifaceted Decay of Cs 116_critique.md",
+      "target": "raw/notes/gpt/learning-daily/20261031-OPEN-RESEARCH-116Cs-decay-review/2026_Dey et al_Multifaceted Decay of Cs 116_critique.md",
+      "action": "moved"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ pages: "025501"
 doi: "10.1103/PhysRevC.68.025501"
 canonical_source: "Phys. Rev. C 68, 025501 (2003); arXiv:nucl-th/0304075v2"
 source_url: "https://arxiv.org/abs/nucl-th/0304075v2"
-raw_file: "raw/papers/day26-20261028/2003-engel-ra225-schiff.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2003-engel-ra225-schiff.pdf"
 raw_storage_status: raw-pdf-archived
 raw_sha256: "f7e70d8ceddcb7c43e9cef9c137d2118f0d29cc6dc8239dc019120ccbd680009"
 nuclei: [225Ra, 224Ra]
@@ -30,7 +30,7 @@ tags: [octupole, parity-doublet, Schiff-moment, model-boundary]
 
 ## Bibliographic Record
 
-arXiv API的作者、题名、期刊引用、DOI与PDF首页作者/题名相符。实际取得nucl-th/0304075v2预印本，10页；已归档至 `raw/papers/day26-20261028/2003-engel-ra225-schiff.pdf`。文件签名、字节与SHA256见同名机制审计JSON。
+arXiv API的作者、题名、期刊引用、DOI与PDF首页作者/题名相符。实际取得nucl-th/0304075v2预印本，10页；已归档至 `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2003-engel-ra225-schiff.pdf`。文件签名、字节与SHA256见同名机制审计JSON。
 
 ## Summary
 

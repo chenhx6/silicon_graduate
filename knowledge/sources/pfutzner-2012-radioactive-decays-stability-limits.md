@@ -19,8 +19,8 @@ citation_key: Pf_tzner_2012
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Pfützner et al., Rev. Mod. Phys. 84, 567-613 (2012)"
-library_file: "raw/papers/gpt/high-spin-20260920/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf"
 raw_sha256: "8e70ebfb00b61f7288535dc70de5de15b88f81cccde43a412fd9fcae7b4decd2"
 nuclei: [45Fe, 6Be, 19Mg, 48Ni, 54Zn, 105Te, 186Pb, 26O]
 reactions: [fusion-evaporation, fragmentation, spallation, fission, beta-decay, proton-radioactivity, two-proton-radioactivity]
@@ -38,7 +38,7 @@ tags: [drip-lines, radioactive-decay, proton-radioactivity, two-proton-radioacti
 ## Bibliographic Record
 
 - M. Pfützner *et al.*, *Rev. Mod. Phys.* **84**, 567–613 (2012), DOI `10.1103/RevModPhys.84.567`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2012_Pfützner et al_Radioactive decays at limits of nuclear stability.pdf`。
 
 ## Scope and Reading Depth
 

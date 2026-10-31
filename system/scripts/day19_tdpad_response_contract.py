@@ -102,8 +102,8 @@ def main():
     check('printed external-field arithmetic does not exactly reconstruct reported g', all(abs(g - .59) > .01 for g in direct_g))
     hashes = {}
     for path, expected in [
-        ('raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf', 'c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2'),
-        ('raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf', '2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b')]:
+        ('raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf', 'c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2'),
+        ('raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf', '2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b')]:
         actual = hashlib.sha256(Path(path).read_bytes()).hexdigest()
         hashes[path] = actual
         check('source raw hash ' + Path(path).name, actual == expected)

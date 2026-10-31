@@ -22,8 +22,8 @@ canonical_source: "Université Paris-Saclay, 2019, HAL tel-02347000"
 zotero_item_key:
 citation_key:
 zotero_uri:
-library_file: "raw/papers/degree dissertation/吕冰峰.pdf"
-raw_file: "raw/papers/degree dissertation/吕冰峰.pdf"
+library_file: "raw/theses/degree-dissertation/吕冰峰.pdf"
+raw_file: "raw/theses/degree-dissertation/吕冰峰.pdf"
 raw_sha256: "84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749"
 nuclei: [136nd, 135nd, 138nd, 134ce, 137pr, 136pr]
 reactions: ["100Mo(40Ar,xn)135,136Nd"]

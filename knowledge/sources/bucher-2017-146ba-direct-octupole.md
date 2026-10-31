@@ -20,7 +20,7 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevLett.118.152504"
 alternate_source: "https://arxiv.org/abs/1703.05268"
-raw_file: "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf"
 raw_sha256: "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb"
 nuclei: [146Ba, 144Ba, 148Ba, 208Pb]
 reactions: [sub-barrier-coulomb-excitation]

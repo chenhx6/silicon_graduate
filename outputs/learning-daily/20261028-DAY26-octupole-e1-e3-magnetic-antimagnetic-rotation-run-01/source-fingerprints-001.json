@@ -5,7 +5,7 @@
     {
       "source": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
       "doi": "10.1103/PhysRevLett.116.112503",
-      "raw_file": "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
       "signature": "%PDF-1.4",
       "pages": 5,
       "sha256": "f0da6d0a56cd10d1023633aed1a25d021f88a0ff48787c4569a26031e1b3dc4d",
@@ -17,7 +17,7 @@
     {
       "source": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
       "doi": "10.1103/PhysRevLett.118.152504",
-      "raw_file": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
       "signature": "%PDF-1.5",
       "pages": 6,
       "sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",
@@ -32,7 +32,7 @@
     {
       "source": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
       "doi": "10.1103/PhysRevC.92.054325",
-      "raw_file": "raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
+      "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
       "signature": "%PDF-1.6",
       "pages": 9,
       "sha256": "c74e7c12614cf405861c639194e132f3096d5f46d22062b0164fa166282b9e88",
@@ -46,7 +46,7 @@
     {
       "source": "knowledge/sources/bernard-2016-144ba-sccm-octupole.md",
       "doi": "10.1103/PhysRevC.93.061302",
-      "raw_file": "raw/papers/gpt/day26-20261028/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
+      "raw_file": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
       "signature": "%PDF-1.5",
       "pages": 6,
       "sha256": "d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997",

@@ -4,12 +4,12 @@
   "references": {
     "dobaczewski_engel_2005": {
       "doi": "10.1103/PhysRevLett.94.232502",
-      "raw_pdf": "raw/papers/day26-20261028/2005-dobaczewski-ra225-schiff.pdf",
+      "raw_pdf": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2005-dobaczewski-ra225-schiff.pdf",
       "locators": "PDF pp. 2-4, Eqs. (1)-(8), Tables I-II"
     },
     "engel_et_al_2003": {
       "doi": "10.1103/PhysRevC.68.025501",
-      "raw_pdf": "raw/papers/day26-20261028/2003-engel-ra225-schiff.pdf",
+      "raw_pdf": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2003-engel-ra225-schiff.pdf",
       "locators": "PDF pp. 2-6 and 8-9, Eqs. (2)-(6), Fig. 3, Table I"
     },
     "nndc_225ra": {

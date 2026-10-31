@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 
 def main():
-    thesis = Path("raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf")
+    thesis = Path("raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf")
     r465 = 1.89 / 1.95 * (982.0 / 608.3) ** 5
     a, b = .18 / 1.89, .17 / 1.95
     out = {

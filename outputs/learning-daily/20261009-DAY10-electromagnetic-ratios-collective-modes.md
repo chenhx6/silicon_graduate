@@ -103,7 +103,7 @@ Koike 2003 Table VII 与 Grodner 2006 Figure 2 的 128Cs link energies 可交叉
 ### 主来源：`135Nd` 的 MU07 DSAM 强度与 TAC+RPA
 
 - Wiki source：[Mukhopadhyay et al. 2007](../../knowledge/sources/mukhopadhyay-2007-135nd-chiral-vibration-static.md)；DOI [`10.1103/PhysRevLett.99.172501`](https://doi.org/10.1103/PhysRevLett.99.172501)；官方 APS 页面 `https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.99.172501`。
-- raw PDF：`raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf`；SHA-256 `9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425`，与 source frontmatter 相同。Crossref DOI 查询匹配作者/年/期刊/卷；Google Scholar 的 MU07 搜索调用失败，未把它当证据。
+- raw PDF：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf`；SHA-256 `9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425`，与 source frontmatter 相同。Crossref DOI 查询匹配作者/年/期刊/卷；Google Scholar 的 MU07 搜索调用失败，未把它当证据。
 - 原文主线：175-MeV `100Mo(40Ar,5n)`，Gammasphere 约 `2.5×10^9` 五重及以上符合事件；两带 lifetimes 由 angle-gated DSAM / LINESHAPE 与 SRIM stopping powers 提取（PDF pp.1–2、Fig.1、Table I）。Table I 从 lifetimes 派生带内 `B(M1)` 与 `B(E2)`；Figs.2–3 的图例分别标明 Band A、Band B、Band B→Band A 数据点及 TAC/RPA 曲线（MU07-4/5/6；printed 172501-2 Table I、printed 172501-3 Figs.2–3）。
 - 实验事实与派生量分层：能级/带结构、角度依赖线形和寿命是实验链；B 值是从该链派生，不是直接计数。作者报告同自旋 Band A/B 带内 B 值近似相同。 lifetime 误差来自 χ² 最小值附近行为；没有另报 stopping/feeding 系统项与联合协方差（MU07-1/4/15）。
 - 作者解释与模型：TAC 描述内带基线；RPA 给激发能分裂及带间跃迁。作者把低自旋区解释为 chiral vibration，把 RPA mode 变软并降至零后的 TAC 解解释为 static chirality，模型 onset 约在数据中双带最近点上方一个自旋单位（MU07-2/3；PDF pp.3–4）。图中数据点和计算曲线分开，不能把 RPA 曲线写成观测事实。
@@ -363,7 +363,7 @@ Wang 2005 Sec.4.3 的 M1 方向转述冲突现作为 WS05-7 留在 source card �
 
 Prochniak S-symmetry 的EPJA长文和 A/S 对照表已写入 rohozinski-2011-cphc-s-symmetry-chirality / synthesis，来源显示模型可在未设手征几何时生成类似指纹；source relation 明确为Acta短文的理论后续，不算另一套实验。
 
-本轮新增/修复的 10 张 source cards 已补齐 normalized source schema、citation keys 与 raw SHA；对应原文保存在 `raw/papers/codex-day10/` 本地目录，发布时不暂存 raw。Prochniak11 PDF SHA 已按保留的五页原文复算并校正为 `38086d08899d60b4b400be263ec600596c0ca971e339ff5cde1d9d13c9e052cd`；source review 状态不变。
+本轮新增/修复的 10 张 source cards 已补齐 normalized source schema、citation keys 与 raw SHA；对应原文保存在 `raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/` 本地目录，发布时不暂存 raw。Prochniak11 PDF SHA 已按保留的五页原文复算并校正为 `38086d08899d60b4b400be263ec600596c0ca971e339ff5cde1d9d13c9e052cd`；source review 状态不变。
 
 本次继续分析新增 canonical 段落 [126Cs branch-derived ratio sensitivity](../../knowledge/synthesis/chirality-wobbling-competition-evidence.md)：保存差分 `δ` 对奇偶比的传播式、Wang06 intensity-only 不确定度与 Grodner11 `<10%` pure-M1 假设的条件上界，定位为 `WS06-7`、`WS06-8`、`GR126-10`；同时把逐线 δ、branch covariance 与末态映射缺口并入 [knowledge/questions.md](../../knowledge/questions.md)。Day11 预习复核既有方法页和 `HE15-1` 后确认无新知识页增量，不另行写入重叠内容。
 

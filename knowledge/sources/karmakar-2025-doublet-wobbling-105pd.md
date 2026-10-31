@@ -18,6 +18,8 @@ pages: "034323"
 doi: "10.1103/46gk-nqsh"
 canonical_source: "https://doi.org/10.1103/46gk-nqsh"
 citation_key: karmakar2025doublet105pd
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/46gk-nqsh.pdf"
+raw_sha256: 12f37107ee755ff38ed1351d6044c6b90b08433e4a2834357afaac32ce773610
 arxiv: "2403.08235"
 nuclei: [105pd]
 reactions: ["96Zr(13C,4n)105Pd @ 63 MeV"]
@@ -61,6 +63,15 @@ PRC 112, 034323 (2025), DOI `10.1103/46gk-nqsh`; arXiv:2403.08235v2.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| KAR25-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | \delta | source-reported | experimental-result | direct |
+| KAR25-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. IV, Fig. 5 | false |
+| KAR25-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. IV, Fig. 6 | false |
+| KAR25-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. V, Fig. 8, Table II | false |
+| KAR25-5 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | δ | source-reported | author-interpretation | direct |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

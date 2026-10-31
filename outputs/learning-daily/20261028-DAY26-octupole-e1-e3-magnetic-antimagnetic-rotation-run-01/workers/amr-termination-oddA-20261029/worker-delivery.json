@@ -11,8 +11,8 @@
       "knowledge/sources/negi-2010-107in-shears-metadata.md"
     ],
     "raw_primary_pdfs": [
-      "raw/papers/gpt/day26-20261028/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf",
-      "raw/papers/gpt/day26-20261028/zhao-2012-105cd-cdft-antimagnetic-arxiv1205.0867v1.pdf"
+      "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf",
+      "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhao-2012-105cd-cdft-antimagnetic-arxiv1205.0867v1.pdf"
     ],
     "audit_artifacts": [
       "amr_quantum_termination_audit.py",

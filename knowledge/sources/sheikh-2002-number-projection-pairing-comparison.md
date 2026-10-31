@@ -19,7 +19,7 @@ citation_key: sheikh_2002_number_projection_pairing_comparison
 citation_key_origin: crossref-and-arxiv
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1103/PhysRevC.66.044318"
-raw_file: "raw/papers/gpt/day26-20261028/sheikh-2002-pairing-number-projection-arxivnucl-th0207080.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/sheikh-2002-pairing-number-projection-arxivnucl-th0207080.pdf"
 raw_sha256: "9e34140ffe31c15e0753d9e50f91de24886c29149f0b78bb67d9775299f4696c"
 nuclei: []
 models: [exact-cranked-deformed-shell-model, HFB, PAV, Lipkin-Nogami, number-projected-HFB]

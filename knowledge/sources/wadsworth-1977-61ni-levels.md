@@ -16,8 +16,8 @@ citation_key: wadsworth_1977_Gamma
 volume: 3
 pages: "35-53"
 canonical_source: "Wadsworth et al., J. Phys. G 3, 35-53 (1977)"
-library_file: "raw/papers/gpt/high-spin-20260920/纲图/1977_Wadsworth et al_Gamma ray spectroscopy insup61-sup Ni-levels below 2.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/纲图/1977_Wadsworth et al_Gamma ray spectroscopy insup61-sup Ni-levels below 2.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1977_Wadsworth et al_Gamma ray spectroscopy insup61-sup Ni-levels below 2.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1977_Wadsworth et al_Gamma ray spectroscopy insup61-sup Ni-levels below 2.pdf"
 raw_sha256: "47533c460e7af3bdb01b6864790dc1f14aea69f4a1316ea4faf42eb28aec279a"
 nuclei: [61Ni, 58Fe, 61Cu]
 reactions: [58Fe(alpha,nγ)61Ni, 61Ni(p,n)61Cu]
@@ -33,7 +33,7 @@ tags: [61Ni, level-scheme, DSAM, polarization, mixing-ratio, spectroscopy]
 ## Bibliographic Record
 
 - R. Wadsworth *et al.*, *J. Phys. G* **3**, 35–53 (1977).
-- 规范文件：`raw/papers/gpt/high-spin-20260920/纲图/1977_Wadsworth et al_Gamma ray spectroscopy insup61-sup Ni-levels below 2.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1977_Wadsworth et al_Gamma ray spectroscopy insup61-sup Ni-levels below 2.pdf`。
 - 19-page experiment; title/reaction/figures/tables and historical provenance checked.
 
 ## Scope and Reading Depth

@@ -6,7 +6,7 @@ tags: [130ba, wobbling, source-lineage]
 title_original: "Diversity of shapes and rotations in the γ-soft 130Ba nucleus"
 year: 2019
 canonical_source: "https://doi.org/10.1016/j.physletb.2019.06.040"
-raw_file: "raw/papers/day23-20261025/petrache-2019-diversity-shapes-rotations-130ba.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/petrache-2019-diversity-shapes-rotations-130ba.pdf"
 raw_sha256: 98c3128b3d88528b56aa075748065dc2b1f13778a45ad3efedd3058a21a18340
 raw_storage_status: reserved-unpopulated-public-staging-only
 public_staging_file: "tmp/day23-originals/ba130-primary061-2019.pdf"

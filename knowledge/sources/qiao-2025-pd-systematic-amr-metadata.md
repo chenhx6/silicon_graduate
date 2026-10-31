@@ -17,7 +17,7 @@ citation_key: qiao_2025_pd_systematic_amr_metadata
 citation_key_origin: crossref
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1103/pw9s-tty8"
-raw_file: "raw/papers/gpt/day26-20261028/qiao-2025-pd-systematic-amr-crossref.json"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/qiao-2025-pd-systematic-amr-crossref.json"
 raw_sha256: "1f82df4071f96f4ff0922ffb017434ba052ce17be7d41eb75117bc903135e7a1"
 nuclei: [103Pd, 105Pd, 107Pd, 109Pd]
 models: [antimagnetic-rotation]

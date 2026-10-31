@@ -17,8 +17,8 @@ volume: 143
 pages: "481-496"
 pii: "0375-9474(70)90543-9"
 canonical_source: "Twin, Olsen & Sheppard, Nucl. Phys. A 143, 481-496 (1970)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K reaction.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K reaction.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K reaction.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K reaction.pdf"
 raw_sha256: "40cb4df52b26f0eabc9c86eba136fb68bc2da99d123a72276583483cc64dfd11"
 nuclei: [40K, 40Ar, 40Ca]
 reactions: [40Ar(p,nγ)40K]
@@ -34,7 +34,7 @@ tags: [40K, polarization, angular-correlation, mixing-ratio, historical-method]
 ## Bibliographic Record
 
 - P. J. Twin, W. C. Olsen and D. M. Sheppard, *Nuclear Physics A* **143**, 481–496 (1970), PII `0375-9474(70)90543-9`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K reaction.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1970_Twin et al_Polarization and angular correlation measurements following the 40Ar(p, nγ)40K reaction.pdf`。
 - 16-page historical experiment/method paper; HS-033 and HS-034 are exact duplicate rows of this same PDF and will be audited without rereading.
 
 ## Scope and Reading Depth

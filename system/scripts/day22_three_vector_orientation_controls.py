@@ -65,7 +65,7 @@ def case(R,k,total_spin=9):
   result['conjugate_packet_witness']=packets
  return result
 def calculate():
- RAW=ROOT/'raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf'
+ RAW=ROOT/'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf'
  SHA='c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2'
  if hashlib.sha256(RAW.read_bytes()).hexdigest()!=SHA:raise ValueError('raw identity mismatch')
  rows=[case(2,9),case(4,8)]

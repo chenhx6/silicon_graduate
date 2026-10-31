@@ -78,7 +78,7 @@
     "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-01/run.json": true
   },
   "raw_used": {
-    "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf": true,
+    "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf": true,
     "raw/papers/2019_Babra et al_Investigation of a large change in deformation for the γ -soft nucleus Sm 136.pdf": true
   },
   "all_raw_previous_gate": "661 checked032; not repeated039",

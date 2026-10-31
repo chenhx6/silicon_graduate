@@ -21,11 +21,11 @@ citation_key_verified: 2026-10-03
 canonical_source: "https://doi.org/10.1016/j.nds.2006.10.001"
 data_url: "https://www.nndc.bnl.gov/ensnds/131/Ce/hi_xng_superdeformed_bands.pdf"
 nudat_url: "https://www.nndc.bnl.gov/nudat3/getdataset.jsp?nucleus=131CE"
-raw_file: "raw/papers/gpt/day5-20261003/ensdf-131ce-superdeformed-bands.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence/ensdf-131ce-superdeformed-bands.pdf"
 raw_sha256: c7438a39930c111dbe6baff1f96a7fa7a3a6011001f7270d0850b8873a1d51f3
 data_sha256: c7438a39930c111dbe6baff1f96a7fa7a3a6011001f7270d0850b8873a1d51f3
 data_bytes: 94286
-related_raw_files: ["raw/papers/gpt/day5-20261003/ensdf-131ce-high-spin-bands.pdf"]
+related_raw_files: ["raw/papers/gpt/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence/ensdf-131ce-high-spin-bands.pdf"]
 related_raw_sha256: fc07aef609a67abc8d383d14dc96753ceb8706c977f6cb462d5d5371210a2544
 related_data_url: "https://www.nndc.bnl.gov/ensnds/131/Ce/hi_xng.pdf"
 retrieved: 2026-10-03

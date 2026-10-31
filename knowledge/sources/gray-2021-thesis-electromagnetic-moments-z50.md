@@ -16,9 +16,9 @@ year: 2021
 doi: 10.25911/yd6j-qk37
 language: en
 canonical_source: "https://openresearch-repository.anu.edu.au/handle/1885/224114"
-raw_file: "raw/papers/gpt/day2-shell-gap-20260928/gray-2021-anu-thesis-z50-electromagnetic.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/gray-2021-anu-thesis-z50-electromagnetic.pdf"
 raw_sha256: 3ff5dc98a995e43133b23889900a3b579e57413a4a836e7264b9c870389fe152
-related_raw_files: ["raw/papers/gpt/day2-shell-gap-20260928/radford-2005-130sn-coulex-source.pdf"]
+related_raw_files: ["raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/radford-2005-130sn-coulex-source.pdf"]
 nuclei: [128sn, 130sn]
 reactions: []
 experiments: []

@@ -17,7 +17,7 @@ tags: [high-spin, full-text-learning, l3, l4, 2026-09-20]
 - 127 original ledger entries, including 9 user-confirmed contamination exclusions.
 - 118 valid external PDF files and 110 unique SHA-256 values.
 - 8 exact duplicate entries are mapped to five canonical files; they will not be reread as independent papers, but every duplicate row will receive an explicit post-ingest audit result.
-- Canonical copied PDFs are isolated under `raw/papers/gpt/high-spin-20260920/`.
+- Canonical copied PDFs are isolated under `raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/`.
 - Per-item state is in `ledger.json`; recovery state is in `checkpoint.md`.
 
 ## Reading policy

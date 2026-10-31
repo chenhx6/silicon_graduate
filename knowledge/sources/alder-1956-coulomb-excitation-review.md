@@ -17,8 +17,8 @@ volume: 28
 pages: "432-542"
 doi: "10.1103/RevModPhys.28.432"
 canonical_source: "https://doi.org/10.1103/RevModPhys.28.432"
-library_file: "raw/papers/gpt/high-spin-20260920/review/1956_Alder et al_Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/1956_Alder et al_Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1956_Alder et al_Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1956_Alder et al_Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions.pdf"
 raw_sha256: "48d906a64ef15ced5de1d61bb3ffe87c44498e3b8b4f3bf896ae9f7f8ba403f7"
 nuclei: [collective-nuclei]
 reactions: [Coulomb-excitation]
@@ -36,7 +36,7 @@ tags: [review, Coulomb-excitation, electromagnetic-excitation, rotational-vibrat
 ## Bibliographic Record
 
 - K. Alder, A. Bohr, T. Huus, B. Mottelson and A. Winther, *Reviews of Modern Physics* **28**, 432–542 (1956), DOI `10.1103/RevModPhys.28.432`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/1956_Alder et al_Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1956_Alder et al_Study of Nuclear Structure by Electromagnetic Excitation with Accelerated Ions.pdf`。
 - 111-page historical RMP; chapter map, equations, classical/quantum limits, experimental conditions and collective-excitation applications were read. It is a review/method foundation, not an independent experiment.
 
 ## Scope and Reading Depth

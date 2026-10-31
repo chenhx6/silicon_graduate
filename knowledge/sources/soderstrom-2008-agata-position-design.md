@@ -16,7 +16,7 @@ arxiv: 0812.0091v1
 language: en
 canonical_source: "https://arxiv.org/abs/0812.0091v1"
 citation_key:
-raw_file: "raw/papers/gpt/day13/soderstrom-2008-proceedings.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/soderstrom-2008-proceedings.pdf"
 raw_sha256: "6b1ba0ff312d264d600c827d6ee1e46860d31278dea08374455d2ad00b82d69e"
 raw_storage_status: reserved-unpopulated-public-preprint-only
 raw_archive_verified_at: 2026-10-23

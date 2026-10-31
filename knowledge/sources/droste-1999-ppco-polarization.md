@@ -17,8 +17,8 @@ volume: 430
 pages: "260-270"
 pii: "S0168-9002(99)00224-7"
 canonical_source: "Droste et al., NIM A 430, 260-270 (1999)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Droste et al_PPCO polarization–polarization correlation from oriented nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Droste et al_PPCO polarization–polarization correlation from oriented nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1999_Droste et al_PPCO polarization–polarization correlation from oriented nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1999_Droste et al_PPCO polarization–polarization correlation from oriented nuclei.pdf"
 raw_sha256: "7d2a0ecf0805c1ea8d845c3d0f1e36fb873b0ae87e16d5be20152ba8b97773ee"
 nuclei: [164Yb, 114Cd, 118Sn, 126Ba]
 reactions: [138Ba(30Si,4n)164Yb, 114Cd(16O,4n)126Ba, 114Cd-Coulomb-excitation, 118Sn-Coulomb-excitation]
@@ -34,7 +34,7 @@ tags: [PPCO, polarization, CLOVER, DCO, mixing-ratio, high-spin]
 ## Bibliographic Record
 
 - Ch. Droste *et al.*, *NIM A* **430**, 260–270 (1999), PII `S0168-9002(99)00224-7`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Droste et al_PPCO polarization–polarization correlation from oriented nuclei.pdf`.
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1999_Droste et al_PPCO polarization–polarization correlation from oriented nuclei.pdf`.
 
 ## Scope and Reading Depth
 

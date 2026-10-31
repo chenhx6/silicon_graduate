@@ -18,8 +18,8 @@ volume: 423
 pages: "16-26"
 pii: "S0168-9002(98)01220-0"
 canonical_source: "Starosta et al., NIM A 423, 16-26 (1999)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf"
 raw_sha256: "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b"
 nuclei: [164Yb, 126Ba, 114Cd, 118Sn]
 reactions: [138Ba-30Si-4n, 114Cd-16O-4n, 114Cd-16O-Coulomb-excitation, 118Sn-16O-Coulomb-excitation]
@@ -36,7 +36,7 @@ tags: [PDCO, CLOVER, EUROGAM-II, polarization, DCO, multipolarity]
 
 - K. Starosta *et al.*, *NIM A* **423**, 16–26 (1999), PII `S0168-9002(98)01220-0`.
 - 2026-10-17 Crossref exact DOI核题名、11作者、423(1)、16–26及1999年2月：`10.1016/S0168-9002(98)01220-0`；它是元数据交叉核验，正文证据仍取本地原PDF。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf`。
 
 ## Scope and Reading Depth
 

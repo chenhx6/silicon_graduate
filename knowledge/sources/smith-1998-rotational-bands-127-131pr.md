@@ -22,8 +22,8 @@ canonical_source: "Smith, Bradley Hagood. Rotational Bands Representing a Multip
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/Rotational bands representing a multiplicity of shapes in ¹²⁷⁻¹³¹Pr.pdf"
-raw_file: "raw/papers/degree dissertation/Rotational bands representing a multiplicity of shapes in ¹²⁷⁻¹³¹Pr.pdf"
+library_file: "raw/theses/degree-dissertation/Rotational bands representing a multiplicity of shapes in ¹²⁷⁻¹³¹Pr.pdf"
+raw_file: "raw/theses/degree-dissertation/Rotational bands representing a multiplicity of shapes in ¹²⁷⁻¹³¹Pr.pdf"
 raw_sha256: "5759AD75294F1612E2827F9D2854E22C7B5033CB338163AB39107EAED5590C3C"
 nuclei: [127pr, 128pr, 129pr, 130pr, 131pr]
 reactions: ["92Mo(40Ca,xpyn)127-131Pr"]

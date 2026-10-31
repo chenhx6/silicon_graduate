@@ -61,7 +61,7 @@
       "reason": "tool rejected /workspace/wiki/raw/... as outside its configured download directory; no file was written; direct official APS PDF URL was then fetched and verified."
     }
   ],
-  "file": "raw/papers/gpt/high-spin-20261009/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf",
+  "file": "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf",
   "scope_boundary": "The direct publisher PDF was used for research. Unpaywall does not identify an OA license or repository copy; the raw PDF is not planned for Git staging/publication.",
   "method_example": {
     "locator": "CHI01-6",

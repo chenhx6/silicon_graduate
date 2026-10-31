@@ -1,7 +1,7 @@
 [
   {
     "source": "jensen-2001-165tm-h9-2-configuration",
-    "path": "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf",
+    "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/NPA695-Jensen-2001-3.pdf",
     "exists": true,
     "canonical_sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770",
     "sha256": "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770",
@@ -10,7 +10,7 @@
   },
   {
     "source": "mukhopadhyay-2008-136nd-transition-rates",
-    "path": "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
+    "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf",
     "exists": true,
     "canonical_sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
     "sha256": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",

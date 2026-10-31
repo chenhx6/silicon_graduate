@@ -60,8 +60,8 @@ def integrate(endpoint, convention):
 def audit():
     sources = []
     for path, pages in [
-        ("raw/papers/degree dissertation/Spectroscopy of the doubly magic nucleus 100Sn and its decay.pdf", [74, 75, 86, 87]),
-        ("raw/papers/degree dissertation/Decay Spectroscopy of 100 Sn and Neighboring Nuclei.pdf", [88, 89, 91, 92]),
+        ("raw/theses/degree-dissertation/Spectroscopy of the doubly magic nucleus 100Sn and its decay.pdf", [74, 75, 86, 87]),
+        ("raw/theses/degree-dissertation/Decay Spectroscopy of 100 Sn and Neighboring Nuclei.pdf", [88, 89, 91, 92]),
     ]:
         sources.append({"path": path, "sha256": hashlib.sha256((ROOT / path).read_bytes()).hexdigest(), "targeted_pdf_pages": pages})
     models = {}

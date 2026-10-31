@@ -17,8 +17,8 @@ volume: 31
 pages: "711-758"
 doi: "10.1103/RevModPhys.31.711"
 canonical_source: "Fagg & Hanna, Rev. Mod. Phys. 31, 711-758 (1959)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1959_Fagg_Hanna_Polarization Measurements on Nuclear Gamma Rays.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1959_Fagg_Hanna_Polarization Measurements on Nuclear Gamma Rays.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1959_Fagg_Hanna_Polarization Measurements on Nuclear Gamma Rays.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1959_Fagg_Hanna_Polarization Measurements on Nuclear Gamma Rays.pdf"
 raw_sha256: "bb3571150d4c552dc5acdbd148546acc7eea4f07dce907eaf0d82377191cb2ee"
 nuclei: [generic]
 reactions: [radioactive-source, nuclear-reaction, Coulomb-excitation]
@@ -34,7 +34,7 @@ tags: [polarization, Compton, angular-correlation, review, parity]
 ## Bibliographic Record
 
 - L. W. Fagg & S. S. Hanna, *Rev. Mod. Phys.* **31**, 711–758 (1959), DOI `10.1103/RevModPhys.31.711`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1959_Fagg_Hanna_Polarization Measurements on Nuclear Gamma Rays.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1959_Fagg_Hanna_Polarization Measurements on Nuclear Gamma Rays.pdf`。
 
 ## Scope and Reading Depth
 

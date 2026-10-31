@@ -22,8 +22,8 @@ canonical_source: "Gagyi-Pálffy, Adriana. Theory of nuclear excitation by elect
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/palffy phd thesis  Theory of nuclear excitation by electron capture for heavy ions.pdf"
-raw_file: "raw/papers/degree dissertation/palffy phd thesis  Theory of nuclear excitation by electron capture for heavy ions.pdf"
+library_file: "raw/theses/degree-dissertation/palffy phd thesis  Theory of nuclear excitation by electron capture for heavy ions.pdf"
+raw_file: "raw/theses/degree-dissertation/palffy phd thesis  Theory of nuclear excitation by electron capture for heavy ions.pdf"
 raw_sha256: "648E48D8EDC06D7F5C6CF47DA2ECE1914432978576C6E6A6B934D18B37F73665"
 nuclei: [174yb, 235u]
 reactions: ["highly-charged-ion electron recombination collisions"]

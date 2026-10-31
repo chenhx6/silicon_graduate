@@ -17,7 +17,7 @@ from pathlib import Path
 import pymupdf
 
 RUN = Path('outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01')
-MU08 = Path('raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf')
+MU08 = Path('raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf')
 MU08_HASH = 'ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c'
 
 def G_candidate(I):

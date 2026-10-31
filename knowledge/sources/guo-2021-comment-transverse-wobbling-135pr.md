@@ -21,8 +21,8 @@ canonical_source: "https://arxiv.org/abs/2011.14364"
 zotero_item_key:
 citation_key:
 zotero_uri:
-library_file: "raw/papers/gpt/_incoming/20260912-135pr-refresh/guo-2020-comment-135pr-wobbling.pdf"
-raw_file: "raw/papers/gpt/_incoming/20260912-135pr-refresh/guo-2020-comment-135pr-wobbling.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260912-PREPLAN-135pr-refresh/guo-2020-comment-135pr-wobbling.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260912-PREPLAN-135pr-refresh/guo-2020-comment-135pr-wobbling.pdf"
 raw_sha256: "cc9e43e07f23c3e85250c4acf55032d1085901e14d075591bcb141e5fddcdafc"
 nuclei: [135pr]
 reactions: []

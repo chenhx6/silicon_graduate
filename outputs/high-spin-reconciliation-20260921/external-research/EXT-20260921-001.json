@@ -14,8 +14,8 @@
     "retrieved_at": "2026-09-21",
     "bytes": 1423088,
     "sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",
-    "raw_file": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
-    "downloader_manifest": "raw/papers/gpt/high-spin-20260920/external-146ba/manifest.json"
+    "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+    "downloader_manifest": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/manifest.json"
   },
   "scope": "Follow-up to the 144Ba direct-E3 evidence ladder; not part of the original 127 rows.",
   "read_scope": "Six-page arXiv/published-version manuscript read end-to-end; experiment, GOSIA, Table I, E1/E3 discussion, SCCM/GCM interpretation and alternatives checked.",

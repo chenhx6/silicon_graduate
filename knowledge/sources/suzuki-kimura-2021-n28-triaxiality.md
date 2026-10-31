@@ -15,8 +15,8 @@ year: 2021
 pages: "1-18"
 arxiv: "2103.06086v1"
 canonical_source: "https://arxiv.org/abs/2103.06086"
-library_file: "raw/papers/gpt/high-spin-20260920/形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf"
 raw_sha256: "7719016e6ae01cbf5b70f4128420c9802d3f4b6054150baad0c443d43b813423"
 nuclei: [38Mg, 40Mg, 42Si, 44S, 46S, 48Ar]
 reactions: []
@@ -32,7 +32,7 @@ tags: [N28, shell-evolution, triaxiality, AMD, GCM, exotic-nuclei]
 ## Bibliographic Record
 
 - Y. Suzuki and M. Kimura, arXiv:2103.06086v1 (2021), 18 pp.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2021_Suzuki_Kimura_Triaxial deformation and the disappearance of the N = 28 shell gap.pdf`。
 
 ## Scope and Reading Depth
 

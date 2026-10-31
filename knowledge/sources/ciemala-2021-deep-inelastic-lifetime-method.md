@@ -19,7 +19,7 @@ doi: 10.1140/epja/s10050-021-00451-6
 data_version: public-preprint-v1-and-published-final-both-seventeen-pages
 canonical_source: "https://doi.org/10.1140/epja/s10050-021-00451-6"
 citation_key:
-raw_file: "raw/papers/gpt/day13/ciemala-2021-deep-inelastic-lifetime-method.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ciemala-2021-deep-inelastic-lifetime-method.pdf"
 raw_sha256: "b6b3e032000e50f7332bb05393b2b7b8759bf41eb31a43932857f96b212c3bd3"
 raw_storage_status: reserved-unpopulated-public-preprint-only
 raw_archive_verified_at: 2026-10-23

@@ -17,7 +17,7 @@ citation_key: diwanshu_2025_106cd_amr_metadata
 citation_key_origin: crossref
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1140/epja/s10050-025-01525-5"
-raw_file: "raw/papers/gpt/day26-20261028/diwanshu-2025-106cd-amr-crossref.json"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/diwanshu-2025-106cd-amr-crossref.json"
 raw_sha256: "b93938a8aa6385303fc20635830945b464e1ccad5b6e9884085fd19daeca79b8"
 nuclei: [106Cd]
 models: [antimagnetic-rotation]

@@ -5,7 +5,7 @@
   "scope": "原表文字转录后的受限校准/式7核算；非raw复分析、不重新优化delta/sigma、不声称获得实际Cov或作者程序。",
   "priming": "已读ST99完整主线与Table1–4、已知部分rounded replay可能不闭合；本文件在本段数值脚本之前冻结。",
   "source": "knowledge/sources/starosta-1999-pdco-experimental-test.md",
-  "raw_file": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf",
+  "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1999_Starosta et al_Experimental test of the polarization direction correlation method (PDCO).pdf",
   "raw_sha256": "883fdd7b08831efefe25f5df610e84b95bb1acbcd7b8e7f684b1a1b31bf8030b",
   "coordinate_order": [
     "P_A",

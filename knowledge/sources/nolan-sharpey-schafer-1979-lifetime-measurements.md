@@ -15,8 +15,8 @@ year: 1979
 volume: 42
 pages: "1-87"
 canonical_source: "Nolan & Sharpey-Schafer, Rep. Prog. Phys. 42, 1 (1979)"
-library_file: "raw/papers/gpt/high-spin-20260920/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf"
 raw_sha256: "5e20f735e995021f4a0eb8c1a937acedeee53509caed3ffa2cd8ddaa794bbc4f"
 nuclei: [lifetime-methods]
 reactions: []
@@ -34,7 +34,7 @@ tags: [lifetime, DSAM, RDM, Doppler-shift, review, nuclear-structure-method]
 ## Bibliographic Record
 
 - P. J. Nolan and J. F. Sharpey-Schafer, *Reports on Progress in Physics* **42**, 1–87 (1979).
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf`。
 - 88-page review PDF (printed pp.1–87); full chapter map and method comparisons read.
 
 ## Scope and Reading Depth

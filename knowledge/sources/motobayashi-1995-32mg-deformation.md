@@ -18,6 +18,8 @@ pages: "9-14"
 doi: "10.1016/0370-2693(95)00012-A"
 canonical_source: "https://doi.org/10.1016/0370-2693(95)00012-A"
 citation_key: motobayashi1995large
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-037026939500012A-main.pdf"
+raw_sha256: 07075ed4ee3243df628765a1e63b2ffefdb971bf1a0925f1c810767543055586
 nuclei: [32mg, 34si, 36s, 40ca]
 reactions: ["208Pb(32Mg, 32Mg*) @ 49.2 MeV/nucleon"]
 experiments: [RIKEN-RIPS]
@@ -59,6 +61,14 @@ PLB 346, 9-14 (1995), DOI `10.1016/0370-2693(95)00012-A`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MOT95-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. 3, Fig. 2, Table 1 | false |
+| MOT95-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-criterion | source-reported | Sec. 4, Table 1 | false |
+| MOT95-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | cross-source-model-comparison | source-reported | Sec. 4, Fig. 3 | false |
+| MOT95-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. 4, Discussion | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

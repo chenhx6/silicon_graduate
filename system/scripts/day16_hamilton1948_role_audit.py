@@ -23,7 +23,7 @@ def main()->None:
     args=p.parse_args();cfg=json.loads(args.contract.read_text())
     assert cfg['identity']=='HAM48-PHOTON-ROLE-WEIGHT-01'
     root=Path(__file__).resolve().parents[2]
-    raw=root/'raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1948_Hamilton_Polarization and Direction of Propagation of Successive Quanta.pdf'
+    raw=root/'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1948_Hamilton_Polarization and Direction of Propagation of Successive Quanta.pdf'
     assert sha(raw)==cfg['source_sha256']
     a,b,t=sp.symbols('alpha2 alpha4 cos_theta_squared',real=True)
     wf,wl=sp.symbols('alphaAB alphaBC',positive=True)

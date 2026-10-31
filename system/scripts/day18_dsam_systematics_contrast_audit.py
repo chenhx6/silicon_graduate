@@ -33,10 +33,10 @@ from pathlib import Path
 import pymupdf
 
 RUN = Path("outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01")
-J01_PDF = Path("raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf")
+J01_PDF = Path("raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/NPA695-Jensen-2001-3.pdf")
 J01_HASH = "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770"
 
-MU08_PDF = Path("raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf")
+MU08_PDF = Path("raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf")
 MU08_HASH = "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c"
 
 SI16_PDF = Path("raw/papers/2016_Singh et al_Lifetime measurements in the yrast band of the gamma-soft nuclei 131Ce and 133Pr.pdf")

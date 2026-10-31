@@ -14,7 +14,7 @@ Day24主线遵课程matrix：三根角动量、左右手、chiral vibration/stat
 
 ## 重要附属研究：133Ce分析蓝本持续深入学习
 
-用户明确要求像131Ce学位论文支撑其数据分析那样严格对待133Ce；它是整体知识的重要补充，不能以普通摄入、source建页、译稿完成就结项。原件为raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf；canonical入口[[133ce-thesis-analysis-blueprint]]、[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]]，与[[131ce-collective-mode-discrimination]]及[[alwaleedi-2013-band-structures-131ce]]按源/带头/逐线对照。Nobs论文方法边界见[[nobs-2017-spin-parity-102y-thesis]]。
+用户明确要求像131Ce学位论文支撑其数据分析那样严格对待133Ce；它是整体知识的重要补充，不能以普通摄入、source建页、译稿完成就结项。原件为raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf；canonical入口[[133ce-thesis-analysis-blueprint]]、[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]]，与[[131ce-collective-mode-discrimination]]及[[alwaleedi-2013-band-structures-131ce]]按源/带头/逐线对照。Nobs论文方法边界见[[nobs-2017-spin-parity-102y-thesis]]。
 
 先完成主卡高价值工作，再从下面选实际输入具备的一项附属问题；保持可恢复checkpoint和信息增益，不为填表造数据。输入被阻时记录已查入口与明确缺口，转既有可解析问题，不反复撞失败端点。
 

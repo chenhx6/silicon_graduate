@@ -2,7 +2,7 @@
   "identity": "SUN23-SPINHALF-RESTFRAME-ANGULAR-CONTRACT-01",
   "source_and_helper_hashes": {
     "tmp/day17-sun2023/publisher-SI-mmc1.pdf": "630d45a82229a3e45cc1a712b88a0c00c8fd6512398ac9d01843a9aed5c0d0aa",
-    "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf": "e807782c580a0313ee3763f56df1dd424e5c97925d70e3d30a79a8b534c81f70",
+    "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf": "e807782c580a0313ee3763f56df1dd424e5c97925d70e3d30a79a8b534c81f70",
     "system/scripts/day16_co60_conditional_stokes.py": "cf6987cac158e5f0c26b6240da65333b8343291838877c95b11d4c9e06e51e67",
     "system/scripts/day16_ucgretina_stokes_oracle.py": "0c2fc353da0ac7af535bfa61b15fd52e43bcb2ba65a3b58e57dd02eb6bea6598",
     "system/scripts/day16_pdco_ambiguity_preview.py": "619b42017ba91a946942b2c592f927a4299372fb29cd8b75b0964c982b5d9198"

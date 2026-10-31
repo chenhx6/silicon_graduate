@@ -20,7 +20,7 @@ citation_key: ""
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "arXiv2105.14236v1, 29-May-2021; publisherVoRnotobtained"
 source_url: "https://arxiv.org/abs/2105.14236"
-raw_file: "raw/papers/gpt/day16-20261018/tsuzuki2021-2105-14236v1-f2c69bdb5ec1.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/tsuzuki2021-2105-14236v1-f2c69bdb5ec1.pdf"
 raw_sha256: "f2c69bdb5ec135a8334ee977e198a79250b3a1b1322703b7277db8fcdc1f218d"
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23

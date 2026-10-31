@@ -19,7 +19,7 @@ canonical_source: "https://doi.org/10.1103/PhysRevC.64.054314"
 publisher: American Physical Society
 language: en
 citation_key: ""
-raw_file: "raw/papers/gpt/high-spin-20261009/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf"
 raw_sha256: "5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e"
 nuclei: [108in, 110in]
 experiments: [Stony-Brook-six-Ge-array, 8pi, DSAM-backed-target]
@@ -42,7 +42,7 @@ tags: [108in, 110in, lifetime, branching, shears-band, internal-conversion]
 
 - Crossref metadata resolves the author order, title, journal, volume and DOI. The official APS abstract page exposes the standard `citation_pdf_url`; the HTTPS publisher PDF endpoint returned HTTP 200 with `application/pdf` and a valid `%PDF-1.3` body in this run.
 - Unpaywall reports `is_oa=false`, `has_repository_copy=false`, and no OA locations; the exact arXiv DOI query returned zero records. The file was obtained from the directly accessible official APS publisher endpoint, not an OA repository. No institutional login or challenge was used. The APS article page had no supplement link; no SI file was found there.
-- Raw PDF: `raw/papers/gpt/high-spin-20261009/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf`; 440,801 bytes; SHA-256 `5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e`.
+- Raw PDF: `raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf`; 440,801 bytes; SHA-256 `5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e`.
 
 ## Scope and Reading Depth
 

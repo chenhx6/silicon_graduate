@@ -4,8 +4,8 @@ import pymupdf,json,hashlib,datetime
 O=Path(__file__).resolve().parent;ROOT=Path('/workspace/wiki')
 sources={}
 for key,path,offset in [
- ('AW13','raw/papers/degree dissertation/Band structures of 131Ce.pdf',4),
- ('WK22','raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf',11),
+ ('AW13','raw/theses/degree-dissertation/Band structures of 131Ce.pdf',4),
+ ('WK22','raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf',11),
  ('D21','raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf',0)]:
  f=ROOT/path;d=pymupdf.open(f)
  sources[key]={'path':path,'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'pdf_pages':len(d),'printed_page_offset':offset}

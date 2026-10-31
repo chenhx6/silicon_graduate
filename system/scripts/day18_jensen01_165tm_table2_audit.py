@@ -16,7 +16,7 @@ from pathlib import Path
 import pymupdf
 
 RUN = Path('outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01')
-J01_PDF = Path('raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf')
+J01_PDF = Path('raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/NPA695-Jensen-2001-3.pdf')
 J01_HASH = '0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770'
 
 def cg2_K_half(I):

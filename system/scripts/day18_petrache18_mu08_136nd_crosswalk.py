@@ -13,7 +13,7 @@ from pathlib import Path
 import pymupdf
 
 RUN = Path("outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01")
-MU = Path("raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf")
+MU = Path("raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf")
 PE = Path("raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf")
 HASH_MU = "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c"
 HASH_PE = "d2615fc0d95428b06c056eb8946afa2f62940ce58d79c1fc1cc3f50e19c73ef3"

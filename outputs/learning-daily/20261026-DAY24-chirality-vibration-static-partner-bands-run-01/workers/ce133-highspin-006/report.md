@@ -11,7 +11,7 @@ Machine audit: `crosswalk-ledger.json` (17 selected observed links, nine WK22 no
 |Version actually read|Raw identity|SHA256|Locator mapping|
 |---|---|---|---|
 |CHORUS accepted manuscript,8PDF pages|`raw/papers/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 2.pdf`|`91ec60dfa43e7d8748276e18327028d8eabdf6c5047682726b0da4a656d5e837`|PDF1cover;PDF2printed1;PDF3printed2/Fig1;PDF4printed3/Fig2;PDF5printed4/TableI/Fig3;PDF6printed5;PDF7–8references|
-|PRL110,172504 five-page electronic reprint|`raw/papers/gpt/high-spin-20260920/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf`|`3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f`|PDF1–5=printed172504-1…-5;Fig1onPDF2;Fig2/3onPDF3;TableIonPDF4|
+|PRL110,172504 five-page electronic reprint|`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf`|`3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f`|PDF1–5=printed172504-1…-5;Fig1onPDF2;Fig2/3onPDF3;TableIonPDF4|
 
 Same title, author list, DOI10.1103/PhysRevLett.110.172504 and article; the accepted manuscript is dated March20,2013 and the reprint gives publication April24,2013. These are the same-paper versions, not independent experiments. The source page's early “canonical five pages” wording must not replace the actual8-page file mapping.
 

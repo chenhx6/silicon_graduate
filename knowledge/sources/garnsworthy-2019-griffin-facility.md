@@ -21,7 +21,7 @@ citation_key: ""
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "Garnsworthy et al., NIM A918,9-29(2019); actual body arxiv1809.07183v2"
 source_url: "https://arxiv.org/pdf/1809.07183v2"
-raw_file: "raw/papers/gpt/day17/garnsworthy-2019-griffin-facility-arxiv-v2.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261019-DAY17-linear-polarization-paq-compton/garnsworthy-2019-griffin-facility-arxiv-v2.pdf"
 raw_sha256: "b257eb66cf822ef9c8e476125ac8d00979df340b5567baa62f72ca4ff4ef16ed"
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23

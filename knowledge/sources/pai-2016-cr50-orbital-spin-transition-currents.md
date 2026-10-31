@@ -18,7 +18,7 @@ pages: "014318"
 doi: "10.1103/PhysRevC.93.014318"
 canonical_source: "Phys. Rev. C 93, 014318 (2016); arXiv:1601.01905v1"
 source_url: "https://arxiv.org/abs/1601.01905v1"
-raw_file: "raw/papers/day26-20261028/2016-pai-cr50-scissors.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2016-pai-cr50-scissors.pdf"
 raw_storage_status: raw-pdf-archived
 raw_sha256: "aec3ddaf120312d487c3f3a627323bc7904343c03b7e1ab8f234bb5259fe8ff7"
 nuclei: [50Cr]
@@ -31,7 +31,7 @@ tags: [50Cr, scissors-mode, M1, transition-current, QRPA, spin-orbit-interferenc
 
 ## Bibliographic Record
 
-H. Pai et al., *Phys. Rev. C* **93**, 014318 (2016), DOI `10.1103/PhysRevC.93.014318`; arXiv `1601.01905v1`. 取得 10 页 PDF，归档至 `raw/papers/day26-20261028/2016-pai-cr50-scissors.pdf`，SHA-256: `aec3ddaf120312d487c3f3a627323bc7904343c03b7e1ab8f234bb5259fe8ff7`。
+H. Pai et al., *Phys. Rev. C* **93**, 014318 (2016), DOI `10.1103/PhysRevC.93.014318`; arXiv `1601.01905v1`. 取得 10 页 PDF，归档至 `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2016-pai-cr50-scissors.pdf`，SHA-256: `aec3ddaf120312d487c3f3a627323bc7904343c03b7e1ab8f234bb5259fe8ff7`。
 
 ## Scope and Reading Depth
 

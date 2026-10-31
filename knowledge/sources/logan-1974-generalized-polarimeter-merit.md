@@ -20,8 +20,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Logan, B. A., Jones, R. T. & Ljubičić, A. A generalized figure of merit for gamma-ray polarimeters. Nucl. Instrum. Methods 117, 273-275 (1974)."
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1974_Logan et al_A generalized figure of merit for gamma-ray polarimeters.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1974_Logan et al_A generalized figure of merit for gamma-ray polarimeters.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1974_Logan et al_A generalized figure of merit for gamma-ray polarimeters.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1974_Logan et al_A generalized figure of merit for gamma-ray polarimeters.pdf"
 raw_sha256: "1b3e1ad53b79b5128dee32cf63224b7b6f5f6a3d6bc50408814aec681421f364"
 nuclei: []
 models: []
@@ -36,7 +36,7 @@ tags: [figure-of-merit, Compton-polarimeter, background, efficiency, detector-co
 
 - 作者：B. A. Logan, R. T. Jones, A. Ljubičić。
 - 期刊：*Nuclear Instruments and Methods* 117, 273-275 (1974)。DOI：`10.1016/0029-554X(74)90409-1`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1974_Logan et al_A generalized figure of merit for gamma-ray polarimeters.pdf`；SHA-256：`1b3e1ad53b79b5128dee32cf63224b7b6f5f6a3d6bc50408814aec681421f364`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1974_Logan et al_A generalized figure of merit for gamma-ray polarimeters.pdf`；SHA-256：`1b3e1ad53b79b5128dee32cf63224b7b6f5f6a3d6bc50408814aec681421f364`。
 
 ## Scope and Reading Depth
 

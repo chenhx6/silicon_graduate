@@ -2,7 +2,7 @@
   "needs_review": true,
   "scope": "source-scoped identity ledger; no canonical change or human-review promotion",
   "aw_raw_check": {
-    "raw": "raw/papers/degree dissertation/Band structures of 131Ce.pdf",
+    "raw": "raw/theses/degree dissertation/Band structures of 131Ce.pdf",
     "sha256": "b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1",
     "pages": 97
   },

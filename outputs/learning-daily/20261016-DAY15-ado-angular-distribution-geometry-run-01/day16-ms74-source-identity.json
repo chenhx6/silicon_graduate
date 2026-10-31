@@ -1,7 +1,7 @@
 [
   {
     "source": "knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md",
-    "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf",
+    "raw": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf",
     "sha256": "d31d778674037b17ec2e47f3e9a2d917e46bf273b6cc6e01c607e3eccb843e90",
     "pages": 16,
     "text_chars": [
@@ -26,7 +26,7 @@
   },
   {
     "source": "knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md",
-    "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf",
+    "raw": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf",
     "sha256": "90b23807ddc39006a7c17cc05d8dc030139c39802675823c6560f222486d6eeb",
     "pages": 56,
     "text_chars": [

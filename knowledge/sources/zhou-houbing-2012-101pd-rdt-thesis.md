@@ -22,8 +22,8 @@ canonical_source: "周厚兵. 101Pd 在束 γ 谱学研究和 RDT 实验装置�
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/周厚兵.pdf"
-raw_file: "raw/papers/degree dissertation/周厚兵.pdf"
+library_file: "raw/theses/degree-dissertation/周厚兵.pdf"
+raw_file: "raw/theses/degree-dissertation/周厚兵.pdf"
 raw_sha256: "f2ed10bfbe471b574af314708917c790dd39761f4d2814e71157d19f539a916e"
 nuclei: [101pd]
 reactions: ["76Ge(28Si,3n)101Pd"]

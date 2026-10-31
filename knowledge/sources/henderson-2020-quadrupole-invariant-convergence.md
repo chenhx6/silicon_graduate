@@ -19,7 +19,7 @@ arxiv: "2005.11210v4"
 citation_key: ""
 canonical_source: "https://doi.org/10.1103/PhysRevC.102.054306"
 source_url: "https://arxiv.org/pdf/2005.11210v4"
-raw_file: "raw/papers/day20-20261022/henderson-2020-quadrupole-invariant-convergence.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/henderson-2020-quadrupole-invariant-convergence.pdf"
 raw_sha256: "ed2d48f63e1e18a721e1bb3e01676ca91160d1a683d7447e574788a6f5c8e044"
 raw_storage_status: reserved-unpopulated-arxiv-staging-only
 raw_archive_verified_at: 2026-10-23

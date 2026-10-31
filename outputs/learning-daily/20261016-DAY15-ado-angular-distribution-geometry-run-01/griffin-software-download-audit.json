@@ -118,7 +118,7 @@
     ],
     "build_executed": false,
     "full_response_readiness": "unbuilt, historical Geant4.10.01 extension only",
-    "raw_file": "raw/papers/gpt/day15/zenodo-1120421-v1.0.zip"
+    "raw_file": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/zenodo-1120421-v1.0.zip"
   },
   {
     "record_id": "1123461",
@@ -252,6 +252,6 @@
     ],
     "build_executed": false,
     "full_response_readiness": "not-ready: unpublished detector parameters and production data/Cov not acquired",
-    "raw_file": "raw/papers/gpt/day15/zenodo-1123461-v1.0.0.zip"
+    "raw_file": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/zenodo-1123461-v1.0.0.zip"
   }
 ]

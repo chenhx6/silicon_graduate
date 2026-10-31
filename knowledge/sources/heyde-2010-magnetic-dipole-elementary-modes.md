@@ -17,7 +17,7 @@ pages: "2365-2419"
 doi: "10.1103/RevModPhys.82.2365"
 canonical_source: "Rev. Mod. Phys. 82, 2365–2419 (2010); arXiv:1004.3429v2"
 source_url: "https://arxiv.org/abs/1004.3429v2"
-raw_file: "raw/papers/day26-20261028/2010-heyde-magnetic-dipole.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2010-heyde-magnetic-dipole.pdf"
 raw_storage_status: raw-pdf-archived
 raw_sha256: "a50d7385dc59eb5799328f385a46a9ae0499807ed7fa2d9e2249d9614b1c5aa5"
 nuclei: [156Gd]
@@ -30,7 +30,7 @@ tags: [scissors-mode, M1, orbital-magnetism, spin-magnetism, review]
 
 ## Bibliographic Record
 
-K. Heyde, P. von Neumann-Cosel and A. Richter, *Rev. Mod. Phys.* **82**, 2365–2419 (2010), DOI `10.1103/RevModPhys.82.2365`; arXiv `1004.3429v2`。59 页预印本，归档至 `raw/papers/day26-20261028/2010-heyde-magnetic-dipole.pdf`，SHA-256: `a50d7385dc59eb5799328f385a46a9ae0499807ed7fa2d9e2249d9614b1c5aa5`。
+K. Heyde, P. von Neumann-Cosel and A. Richter, *Rev. Mod. Phys.* **82**, 2365–2419 (2010), DOI `10.1103/RevModPhys.82.2365`; arXiv `1004.3429v2`。59 页预印本，归档至 `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2010-heyde-magnetic-dipole.pdf`，SHA-256: `a50d7385dc59eb5799328f385a46a9ae0499807ed7fa2d9e2249d9614b1c5aa5`。
 
 ## Scope and Reading Depth
 

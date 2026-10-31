@@ -19,8 +19,8 @@ citation_key: Miller_2007
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Miller et al., NIM A 581, 713-718 (2007)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf"
 raw_sha256: "a334ee35a84ded50f6a7937c037ee13d2d06b2f8406b0c68fac1a4245999acf3"
 nuclei: [245Cm, 249Cf]
 reactions: [249Cf-alpha-decay]
@@ -36,7 +36,7 @@ tags: [SeGA, polarization, Compton-polarimetry, detector-response]
 ## Bibliographic Record
 
 - D. Miller *et al.*, *NIM A* **581**, 713–718 (2007), DOI `10.1016/j.nima.2007.07.141`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf`。
 
 ## Scope and Reading Depth
 

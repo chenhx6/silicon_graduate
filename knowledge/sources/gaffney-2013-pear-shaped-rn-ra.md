@@ -19,8 +19,8 @@ citation_key: Gaffney_2013
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1038/nature12073"
-library_file: "raw/papers/gpt/high-spin-20260920/形变/2013_Gaffney et al_Studies of pear-shaped nuclei using accelerated radioactive beams.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/形变/2013_Gaffney et al_Studies of pear-shaped nuclei using accelerated radioactive beams.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2013_Gaffney et al_Studies of pear-shaped nuclei using accelerated radioactive beams.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2013_Gaffney et al_Studies of pear-shaped nuclei using accelerated radioactive beams.pdf"
 raw_sha256: "3b7975206409de9286df55a82c820783b2ebd371824bf50d69da6c9e916c551b"
 nuclei: [220Rn, 224Ra]
 reactions: [coulomb-excitation-radioactive-beams]
@@ -38,7 +38,7 @@ tags: [pear-shape, octupole, reflection-asymmetry, Rn, Ra, EDM]
 ## Bibliographic Record
 
 - L. P. Gaffney *et al.*, *Nature* **497**, 199–204 (2013), DOI `10.1038/nature12073`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/形变/2013_Gaffney et al_Studies of pear-shaped nuclei using accelerated radioactive beams.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2013_Gaffney et al_Studies of pear-shaped nuclei using accelerated radioactive beams.pdf`。
 - 6-page Nature PDF; title, author list, DOI, figures, Table 1 and Methods/Outlook identity checked. This is a direct Coulomb-excitation experiment, not merely a review of pear shapes.
 
 ## Scope and Reading Depth

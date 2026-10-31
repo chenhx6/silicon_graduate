@@ -20,8 +20,8 @@ citation_key: Macchiavelli_2018
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevC.97.049902"
-library_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/实验/2018_Macchiavelli et al_Erratum.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/实验/2018_Macchiavelli et al_Erratum.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2018_Macchiavelli et al_Erratum.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2018_Macchiavelli et al_Erratum.pdf"
 raw_sha256: "772804ce5ddf6817024757cede56cabcff9efbbf10d221b04bac2e1f661f7e84"
 nuclei: [11Be, 12Be, 13Be, 13B]
 reactions: [12Be(d,p)13Be, 13B(d,3He)12Be]

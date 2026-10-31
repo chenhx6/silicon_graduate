@@ -22,8 +22,8 @@ canonical_source: "中国科学院近代物理研究所博士学位论文, 2012"
 zotero_item_key:
 citation_key:
 zotero_uri:
-library_file: "raw/papers/degree dissertation/刘艳鑫 - 理论.pdf"
-raw_file: "raw/papers/degree dissertation/刘艳鑫 - 理论.pdf"
+library_file: "raw/theses/degree-dissertation/刘艳鑫 - 理论.pdf"
+raw_file: "raw/theses/degree-dissertation/刘艳鑫 - 理论.pdf"
 raw_sha256: "c89dcf095ad371878a897d3d6e8f86c2d47fa0ef9eaa2922e3f09d3707301403"
 nuclei: [101zr, 102zr, 103zr, 104zr, 105zr, 106zr, 108zr, 104mo, 106mo, 108mo, 110mo]
 reactions: []

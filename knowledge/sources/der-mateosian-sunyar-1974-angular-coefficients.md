@@ -17,8 +17,8 @@ pages: "407-462"
 pii: "0092-640X(74)90008-4"
 doi: "10.1016/0092-640X(74)90008-4"
 canonical_source: "Der Mateosian & Sunyar, ADNDT 13, 407-462 (1974)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf"
 raw_sha256: "90b23807ddc39006a7c17cc05d8dc030139c39802675823c6560f222486d6eeb"
 nuclei: [generic]
 reactions: [heavy-ion-alignment]
@@ -34,7 +34,7 @@ tags: [angular-distribution, ADO, mixing-ratio, alignment, tables]
 ## Bibliographic Record
 
 - E. Der Mateosian & A. W. Sunyar, *At. Data Nucl. Data Tables* **13**, 407–462 (1974), PII `0092-640X(74)90008-4`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of angular-distribution coefficients for gamma rays of mixed.pdf`。
 
 ## Scope and Reading Depth
 

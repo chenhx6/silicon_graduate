@@ -21,8 +21,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Zheng, Y. et al. Gamma-ray linear polarization measurement and (g9/2)−3 neutron alignment in 91Ru. Phys. Rev. C 87, 044328 (2013)."
-library_file: "raw/papers/gpt/high-spin-20260920/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf"
 raw_sha256: "0688633ba372e7f3f60b2e9fd69e556d28070b2f5bde62d13d01d1bd9a5483ef"
 nuclei: ["91Ru", "91Tc", "90Mo", "88Mo"]
 reactions: ["58Ni(36Ar,2p1n)91Ru"]
@@ -39,7 +39,7 @@ tags: [91Ru, 91Tc, EXOGAM, clover-polarimeter, linear-polarization, neutron-alig
 
 - 作者：Y. Zheng 等；Physical Review C 87, 044328 (2013)。DOI：`10.1103/PhysRevC.87.044328`。
 - 论文电子重印包含原文前置信息和 Physical Review C 正文；正文物理页码为 044328-1 至 044328-10。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf`；SHA-256：`0688633ba372e7f3f60b2e9fd69e556d28070b2f5bde62d13d01d1bd9a5483ef`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2013_Zheng et al_γ -ray linear polarization measurements and ( g 9 - 2 ) − 3 neutron alignment.pdf`；SHA-256：`0688633ba372e7f3f60b2e9fd69e556d28070b2f5bde62d13d01d1bd9a5483ef`。
 
 ## Scope and Reading Depth
 

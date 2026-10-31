@@ -16,8 +16,8 @@ volume: 29B
 pages: "352-354"
 pii: "0370-2693(69)90382-7"
 canonical_source: "Ewan et al., Phys. Lett. B 29B, 352-354 (1969)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1969_Ewan et al_Gamma-ray polarization measurements with a single Ge(Li) detector.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1969_Ewan et al_Gamma-ray polarization measurements with a single Ge(Li) detector.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1969_Ewan et al_Gamma-ray polarization measurements with a single Ge(Li) detector.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1969_Ewan et al_Gamma-ray polarization measurements with a single Ge(Li) detector.pdf"
 raw_sha256: "ded2493ef0e816b3ed74bc5921f61324ec71b1ae34de8be96c988c71fa3e7be5"
 nuclei: [102Ru, 100Mo, 56Fe, 24Mg, 28Si, 12C]
 reactions: [100Mo-alpha-2n, 56Fe-p-p-gamma, 24Mg-p-p-gamma, 28Si-p-p-gamma, 12C-p-p-gamma]
@@ -33,7 +33,7 @@ tags: [GeLi, polarization, Compton-polarimeter, 102Ru]
 ## Bibliographic Record
 
 - G. T. Ewan *et al.*, *Phys. Lett. B* **29B**, 352–354 (1969), PII `0370-2693(69)90382-7`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1969_Ewan et al_Gamma-ray polarization measurements with a single Ge(Li) detector.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1969_Ewan et al_Gamma-ray polarization measurements with a single Ge(Li) detector.pdf`。
 
 ## Scope and Reading Depth
 

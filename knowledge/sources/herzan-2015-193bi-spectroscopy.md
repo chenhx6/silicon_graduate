@@ -19,8 +19,8 @@ citation_key: Herz__2015
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevC.92.044310"
-library_file: "raw/papers/gpt/high-spin-20260920/纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Herzáň et al_Detailed spectroscopy of Bi 193.pdf"
 raw_sha256: "f727485ad0f52269a66b27272dac75d34d9e67aaf8b073631cfeac5fe81d3aea"
 nuclei: [193Bi, 192Pb, 191Bi, 193Tl]
 reactions: [165Ho-32S-4n]

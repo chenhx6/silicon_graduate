@@ -18,7 +18,7 @@ doi: 10.1103/PhysRevC.58.2002
 language: en
 canonical_source: https://doi.org/10.1103/PhysRevC.58.2002
 citation_key: bazzacco_1998_Rotationalbands
-raw_file: "raw/papers/gpt/_incoming/20260926-day1-n73/1998_Bazzacco_rotational-bands-133Nd.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260926-DAY1-baseline-research-contract/1998_Bazzacco_rotational-bands-133Nd.pdf"
 raw_sha256: 0beaa99e10c9e19f088975237d573738ed694ae543ba1a57d5dd3c87b2bda22b
 nuclei: [133nd, 131ce, 129ba]
 reactions: ["104Pd(32S,2pn)133Nd", "105Pd(32S,2p2n)133Nd"]

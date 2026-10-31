@@ -8,7 +8,7 @@
   ],
   "fingerprints": [
     {
-      "path": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
       "bytes": 1423088,
       "signature_hex": "255044462d312e35",
       "sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",
@@ -16,7 +16,7 @@
       "reading_coverage": "PDF3–5, Table I and Fig5"
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
       "bytes": 1399379,
       "signature_hex": "255044462d312e35",
       "sha256": "d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997",
@@ -24,7 +24,7 @@
       "reading_coverage": "PDF2 Eqs3–5"
     },
     {
-      "path": "raw/papers/gpt/day5-20261003/nomura-2018-odd-mass-ba-octupole.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence/nomura-2018-odd-mass-ba-octupole.pdf",
       "bytes": 791515,
       "signature_hex": "255044462d312e35",
       "sha256": "4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be",
@@ -32,7 +32,7 @@
       "reading_coverage": "PDF6–9 targeted sections and Tables VI–VII"
     },
     {
-      "path": "raw/data/day26-20261028/225ra-adopted-225088001-016.html",
+      "path": "raw/data/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/225ra-adopted-225088001-016.html",
       "bytes": 30920,
       "signature_hex": "3c3f786d6c207665",
       "sha256": "93ce30628f3f24d08bc1e69c47d2c96e739748868fd03407ddbede9e4732e31e",

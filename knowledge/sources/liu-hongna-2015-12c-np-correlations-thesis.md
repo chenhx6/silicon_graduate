@@ -22,8 +22,8 @@ canonical_source: "北京大学博士学位论文, 2015"
 zotero_item_key:
 citation_key:
 zotero_uri:
-library_file: "raw/papers/degree dissertation/刘红娜.pdf"
-raw_file: "raw/papers/degree dissertation/刘红娜.pdf"
+library_file: "raw/theses/degree-dissertation/刘红娜.pdf"
+raw_file: "raw/theses/degree-dissertation/刘红娜.pdf"
 raw_sha256: "fe17cc42333e33a2325bc2124e5b2a9541408e1a9303161e74f592e55c8b9c25"
 nuclei: [12c, 10b, 10be]
 reactions: ["9Be(12C,11B)X", "9Be(12C,10B)X", "9Be(12C,10Be)X"]

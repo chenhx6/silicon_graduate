@@ -19,8 +19,8 @@ citation_key: H_bel_2005
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Hübel, Prog. Part. Nucl. Phys. 54, 1-69 (2005)"
-library_file: "raw/papers/gpt/high-spin-20260920/review/2005_Hübel_Magnetic rotation in nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/2005_Hübel_Magnetic rotation in nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2005_Hübel_Magnetic rotation in nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2005_Hübel_Magnetic rotation in nuclei.pdf"
 raw_sha256: "8b1913a7639ccdb4f5fa53348453f604048703c2e7942f40b4b4c793d8be4a77"
 nuclei: [193Pb, 196Pb, 197Pb, 198Pb, 199Pb, 84Rb, 106Sn, 108Sn, 110Cd, 142Gd, 106Cd]
 reactions: [multiple-fusion-evaporation-reactions]
@@ -38,7 +38,7 @@ tags: [magnetic-rotation, shears, antimagnetic-rotation, TAC, high-spin, review]
 ## Bibliographic Record
 
 - H. Hübel, *Prog. Part. Nucl. Phys.* **54**, 1–69 (2005), DOI `10.1016/j.ppnp.2004.06.002`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/2005_Hübel_Magnetic rotation in nuclei.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2005_Hübel_Magnetic rotation in nuclei.pdf`。
 
 ## Scope and Reading Depth
 

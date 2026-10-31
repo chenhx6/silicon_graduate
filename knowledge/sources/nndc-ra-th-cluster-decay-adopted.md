@@ -9,7 +9,7 @@ review_status: unreviewed
 source_type: evaluated-nuclear-data
 reading_depth: skimmed
 canonical_source: "NNDC ENSDF Adopted 222Ra, 224Ra, 226Ra, 226Th, 228Th; acquired 2026-10-29"
-raw_file: "raw/papers/gpt/day26-20261028/nndc-222ra-adopted-cluster-20261029.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-222ra-adopted-cluster-20261029.pdf"
 raw_sha256: "3a681f65303cbaa9bba9541dfc439d5155c55f276256121d43652d8dc7004042"
 title_original: "ENSDF Adopted Levels, Gammas: 222Ra, 224Ra, 226Ra, 226Th, 228Th"
 authors: [NNDC ENSDF evaluators]
@@ -27,7 +27,7 @@ tags: [cluster-radioactivity, branching-ratio, evaluated-data, percentage-conver
 
 ## Bibliographic Record
 
-读取官方 `https://www.nndc.bnl.gov/ensnds/<A>/<Element>/adopted.pdf`，2026年是本页获取时间，不是所有数据的评价年份。222Ra/224Ra/226Ra/226Th/228Th的literature cutoff分别为2023-09-25、2022-03-08、1996-02-01、1996-02-01、2012-12-31。精确URL、文件签名、页数和SHA-256载于 `octupole-cluster-radioactivity-boundary.json`；五份PDF均已逐文件核验后以新增原件归档至raw/papers/gpt/day26-20261028/，主raw_file指向222Ra，其余路径和哈希见审计JSON。
+读取官方 `https://www.nndc.bnl.gov/ensnds/<A>/<Element>/adopted.pdf`，2026年是本页获取时间，不是所有数据的评价年份。222Ra/224Ra/226Ra/226Th/228Th的literature cutoff分别为2023-09-25、2022-03-08、1996-02-01、1996-02-01、2012-12-31。精确URL、文件签名、页数和SHA-256载于 `octupole-cluster-radioactivity-boundary.json`；五份PDF均已逐文件核验后以新增原件归档至raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/，主raw_file指向222Ra，其余路径和哈希见审计JSON。
 
 ## Scope and Reading Depth
 

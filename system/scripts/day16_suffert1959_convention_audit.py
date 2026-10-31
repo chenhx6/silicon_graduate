@@ -26,7 +26,7 @@ def main() -> None:
     args = parser.parse_args()
     cfg = json.loads(args.contract.read_text())
     root = Path(__file__).resolve().parents[2]
-    raw = root / 'raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1959_Suffert et al_Polarization measurements of proton capture gamma rays.pdf'
+    raw = root / 'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1959_Suffert et al_Polarization measurements of proton capture gamma rays.pdf'
     assert sha(raw) == cfg['raw_sha256']
 
     # Fig.3: in position1 B is along beam, A is normal to beam in the

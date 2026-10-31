@@ -16,8 +16,8 @@ volume: 80
 pages: "417-433"
 pii: "0029-5582(66)90100-3"
 canonical_source: "Greiner, Nuclear Physics 80, 417-433 (1966)"
-library_file: "raw/papers/gpt/high-spin-20260920/振动/1966_Greiner_Magnetic properties of even nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/振动/1966_Greiner_Magnetic properties of even nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/1966_Greiner_Magnetic properties of even nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/1966_Greiner_Magnetic properties of even nuclei.pdf"
 raw_sha256: "3e7aecb21de5329e02419861eed21d3526bc8efbc51c3c9cc432e974d0cdf83f"
 nuclei: [even-nuclei, rare-earth-nuclei]
 reactions: []
@@ -33,7 +33,7 @@ tags: [magnetic-properties, g-factor, M1, E2, pairing, even-nuclei, historical-t
 ## Bibliographic Record
 
 - Walter Greiner, *Nuclear Physics* **80**, 417–433 (1966), PII `0029-5582(66)90100-3`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/振动/1966_Greiner_Magnetic properties of even nuclei.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/1966_Greiner_Magnetic properties of even nuclei.pdf`。
 - 17-page selectable/OCR-assisted historical theory paper; section headings, equations, Figs.1–6 and Table 1 checked.
 
 ## Scope and Reading Depth

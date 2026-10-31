@@ -19,7 +19,7 @@ arxiv: "1902.00191v1"
 citation_key: wang_2019_RATPRM78Br
 canonical_source: "https://arxiv.org/abs/1902.00191"
 source_url: "https://arxiv.org/pdf/1902.00191v1"
-raw_file: "raw/papers/day27-20261030/wang-2019-rat-prm-78br-arxiv1902.00191v1.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/wang-2019-rat-prm-78br-arxiv1902.00191v1.pdf"
 raw_sha256: "cefe9aeb1fcf8be56c6808825faf95f486246254c231893320ee62f9a9907aae"
 raw_storage_status: reserved-unpopulated-preprint-staging-only
 public_staging_manifest: "outputs/literature-acquisition/20261030-day27-wang2019-rat78br.json"

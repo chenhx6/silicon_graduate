@@ -24,7 +24,7 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 2.pdf"
 raw_sha256: 91EC60DFA43E7D8748276E18327028D8EABDF6C5047682726B0DA4A656D5E837
-alternate_version_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf"
+alternate_version_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2013_Ayangeakaa et al_Evidence for Multiple Chiral Doublet Bands in Ce 133 1.pdf"
 alternate_version_sha256: 3c5a3d7c543140ee25f7cb09376d5aeee760c8ac50c76edd466a010d610c2d0f
 alternate_version_identity: "PRL 110, 172504 electronic reprint; same title/DOI and five-page article"
 nuclei: [133ce]

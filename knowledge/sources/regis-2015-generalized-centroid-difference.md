@@ -19,7 +19,7 @@ doi: "10.1051/epjconf/20159301013"
 citation_key: ""
 canonical_source: "https://doi.org/10.1051/epjconf/20159301013"
 source_url: "https://www.epj-conferences.org/articles/epjconf/pdf/2015/12/epjconf_cgs2015_01013.pdf"
-raw_file: "raw/papers/day19-20261021/regis-2015-gcd-epjconf-01013.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261021-DAY19-rdds-fast-timing/regis-2015-gcd-epjconf-01013.pdf"
 raw_sha256: "144c7bff23312b084a6f2cf3d389a0be887ca80b58d626a3fb7ae215448b7168"
 raw_storage_status: reserved-unpopulated-public-publisher-pdf-only
 raw_archive_verified_at: 2026-10-23

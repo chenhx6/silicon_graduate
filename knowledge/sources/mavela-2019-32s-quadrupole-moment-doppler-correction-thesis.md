@@ -21,8 +21,8 @@ canonical_source: "Lihleli Mavela, Determination of the Spectroscopic Quadrupole
 zotero_item_key:
 citation_key:
 zotero_uri:
-library_file: "raw/papers/degree dissertation/硕士论文_多普勒修正.pdf"
-raw_file: "raw/papers/degree dissertation/硕士论文_多普勒修正.pdf"
+library_file: "raw/theses/degree-dissertation/硕士论文_多普勒修正.pdf"
+raw_file: "raw/theses/degree-dissertation/硕士论文_多普勒修正.pdf"
 raw_sha256: "4c656a983a0502eaef7c551dfaf6e13539ce472f8e76aea6299ad09cfc112ccf"
 nuclei: [32s, 194pt]
 reactions: ["194Pt(32S,32S*)194Pt*"]

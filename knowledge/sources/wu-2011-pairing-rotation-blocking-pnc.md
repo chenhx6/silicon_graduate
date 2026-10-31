@@ -19,7 +19,7 @@ citation_key: wu_2011_pairing_rotation_blocking
 citation_key_origin: crossref-and-arxiv
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1103/PhysRevC.83.034323"
-raw_file: "raw/papers/gpt/day26-20261028/wu-2011-pairing-rotation-blocking-arxiv1104.3385.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/wu-2011-pairing-rotation-blocking-arxiv1104.3385.pdf"
 raw_sha256: "3e0a00171798bed92006eac788d578fbcb73fb2d64338dfab33bf7a7793f2979"
 nuclei: [168Yb, 168Hf, 177Ta, 178W]
 models: [PNC-CSM, BCS, HFB, Lipkin-Nogami]

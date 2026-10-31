@@ -16,8 +16,8 @@ volume: 253
 pages: "365-379"
 pii: "0375-9474(75)90487-X"
 canonical_source: "Williams et al., Nucl. Phys. A 253, 365-379 (1975)"
-library_file: "raw/papers/gpt/high-spin-20260920/纲图/1975_Williams et al_A study of the low-lying levels in 61Ni.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/纲图/1975_Williams et al_A study of the low-lying levels in 61Ni.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1975_Williams et al_A study of the low-lying levels in 61Ni.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1975_Williams et al_A study of the low-lying levels in 61Ni.pdf"
 raw_sha256: "bfdcc111891a0f88c3ab01df131c438337497fc0d456e8ca3fa6a09912f0a02e"
 nuclei: [61Ni, 61Cu]
 reactions: [58Fe-alpha-n-gamma, 60Ni-deuteron-p-gamma]
@@ -33,7 +33,7 @@ tags: [61Ni, level-scheme, DSAM, mixing-ratio, polarization, shell-model]
 ## Bibliographic Record
 
 - J. R. Williams *et al.*, *Nucl. Phys. A* **253**, 365–379 (1975), PII `0375-9474(75)90487-X`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/纲图/1975_Williams et al_A study of the low-lying levels in 61Ni.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/1975_Williams et al_A study of the low-lying levels in 61Ni.pdf`。
 
 ## Scope and Reading Depth
 

@@ -5,7 +5,7 @@
     {
       "record": "164070001",
       "label": "adopted",
-      "path": "raw/papers/gpt/day15-20261016/nndc-164yb-164070001-201712-606ddb5aaea1.ens",
+      "path": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-164yb-164070001-201712-606ddb5aaea1.ens",
       "sha256": "606ddb5aaea1a6563da05ed19c906e839b577b28dadc62707bf6a0b2c27fc569",
       "lines": 653,
       "creation": "new agent-managed public data object, noexistingraw overwritten",
@@ -15,7 +15,7 @@
     {
       "record": "164070004",
       "label": "sm16o",
-      "path": "raw/papers/gpt/day15-20261016/nndc-164yb-164070004-201712-eec3131d9213.ens",
+      "path": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-164yb-164070004-201712-eec3131d9213.ens",
       "sha256": "eec3131d9213eba97bdcdeca9cb2d6963b045e87520df08ea224675ca0e347d8",
       "lines": 527,
       "creation": "new agent-managed public data object, noexistingraw overwritten",
@@ -25,7 +25,7 @@
     {
       "record": "164070003",
       "label": "ca44",
-      "path": "raw/papers/gpt/day15-20261016/nndc-164yb-164070003-201712-a46a5830695a.ens",
+      "path": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-164yb-164070003-201712-a46a5830695a.ens",
       "sha256": "a46a5830695aa2f345fa3e2fa8f83c821a26a0568df57d45b6f81405f7ac0db2",
       "lines": 202,
       "creation": "new agent-managed public data object, noexistingraw overwritten",

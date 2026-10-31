@@ -16,7 +16,7 @@ pages: 113
 language: zh/en
 canonical_source: "郭松. 双奇核174Re高自旋能级结构研究[D]. 中国科学院研究生院, 2009."
 citation_key: ""
-raw_file: "raw/papers/degree dissertation/郭松.pdf"
+raw_file: "raw/theses/degree-dissertation/郭松.pdf"
 raw_sha256: "EECB739CE50F87CACC21408B079FFBDD97C21D70C52CB9DA16FA636AA758DCAC"
 nuclei: [174re]
 experiments: [ciae-hi13-174re-al27]

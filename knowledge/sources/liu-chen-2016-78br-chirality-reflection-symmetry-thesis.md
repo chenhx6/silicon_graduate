@@ -21,8 +21,8 @@ canonical_source: "山东大学博士学位论文, 2016"
 zotero_item_key:
 citation_key:
 zotero_uri:
-library_file: "raw/papers/degree dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf"
-raw_file: "raw/papers/degree dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf"
+library_file: "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf"
+raw_file: "raw/theses/degree-dissertation/刘晨_奇奇核~(78)Br中手征...间反射对称性的联立自发破缺.pdf"
 raw_sha256: "5e00370aab205b689841cb58d65c7fad8829e3de74f084736a74f2d8658ab291"
 nuclei: [78br]
 reactions: ["70Zn(12C,p3n)78Br"]

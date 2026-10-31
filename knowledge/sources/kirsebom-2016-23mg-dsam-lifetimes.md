@@ -18,7 +18,7 @@ doi: 10.1103/PhysRevC.93.025802
 citation_key: ""
 canonical_source: "Kirsebom et al 2016 PRC93 025802 arxiv1508.07188v1"
 source_url: https://arxiv.org/abs/1508.07188v1
-raw_file: raw/papers/day17-20261020/kirsebom-2016-23mg-dsam-arxiv-v1.pdf
+raw_file: raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/kirsebom-2016-23mg-dsam-arxiv-v1.pdf
 raw_sha256: 9c4731688a6bfa1338ed229b8967ccb4f37bb11d067aed429ff2b4469a81673b
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23

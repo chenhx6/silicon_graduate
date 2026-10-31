@@ -24,7 +24,7 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/1997_Frauendorf et al_Tilted rotation of triaxial nuclei.pdf"
 raw_sha256: 9DC81B3147A786189DD0C2F31D79A56E9BB5D83E16FD0C8137BCCAF2A43D81E2
-alternate_version_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/1997_Frauendorf_Jie Meng_Tilted rotation of triaxial nuclei.pdf"
+alternate_version_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/1997_Frauendorf_Jie Meng_Tilted rotation of triaxial nuclei.pdf"
 alternate_version_sha256: 2bd27510b61b1ca7e9d0eff559f8c0bcde46939249d7c5a720bf8425f7114f81
 alternate_version_identity: "FZR-156 preprint, November 1996; same title/authors and precursor to NPA 617 (1997) 131-147"
 nuclei: [134pr]

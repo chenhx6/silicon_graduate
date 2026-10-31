@@ -22,8 +22,8 @@ canonical_source: "王志刚. 双奇核104Ag和近球形核91,92Zr的高自旋�
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/王志刚 - 双奇核104Ag 和近球形核91,92Zr 的高自旋态研究.pdf"
-raw_file: "raw/papers/degree dissertation/王志刚 - 双奇核104Ag 和近球形核91,92Zr 的高自旋态研究.pdf"
+library_file: "raw/theses/degree-dissertation/王志刚 - 双奇核104Ag 和近球形核91,92Zr 的高自旋态研究.pdf"
+raw_file: "raw/theses/degree-dissertation/王志刚 - 双奇核104Ag 和近球形核91,92Zr 的高自旋态研究.pdf"
 raw_sha256: "c3918a968c4540c3fe784310a81902f736a1cca2c79f4b1f9f8bc0d09a44973f"
 nuclei: [104Ag, 91Zr, 92Zr]
 reactions: ["97Mo(11B,4nγ)104Ag", "82Se(13C,4nγ)91Zr", "82Se(13C,3nγ)92Zr"]

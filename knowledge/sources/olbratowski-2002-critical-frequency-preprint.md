@@ -16,7 +16,7 @@ doi:
 related_published_doi: 10.1103/PhysRevLett.93.052501
 canonical_source: https://arxiv.org/abs/nucl-th/0211075v1
 citation_key: ""
-raw_file: raw/papers/gpt/day26-20261028/olbratowski-2002-critical-frequency-arxiv-v1.pdf
+raw_file: raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/olbratowski-2002-critical-frequency-arxiv-v1.pdf
 raw_sha256: 3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb
 raw_storage_status: archived-2026-10-28
 actual_body_file: tmp/day24-critical-tac-007/arxiv-0211075v1.response
@@ -31,7 +31,7 @@ tags: [chirality, critical-frequency, planar-aplanar, model-validity]
 
 ## Bibliographic Record
 
-实际读本为2002-11-25的三作者arXiv:nucl-th/0211075v1，4页。官方PDF URL `https://arxiv.org/pdf/nucl-th/0211075v1` 本轮HTTP200、application/pdf、252547bytes、有效PDF签名；2026-10-28 已将同一字节流归档到 `raw/papers/gpt/day26-20261028/olbratowski-2002-critical-frequency-arxiv-v1.pdf`，SHA见frontmatter。
+实际读本为2002-11-25的三作者arXiv:nucl-th/0211075v1，4页。官方PDF URL `https://arxiv.org/pdf/nucl-th/0211075v1` 本轮HTTP200、application/pdf、252547bytes、有效PDF签名；2026-10-28 已将同一字节流归档到 `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/olbratowski-2002-critical-frequency-arxiv-v1.pdf`，SHA见frontmatter。
 
 Crossref及作者机构网页把这一早期稿关联到*Phys. Rev. Lett.* **93**, 052501 (2004)，DOI10.1103/PhysRevLett.93.052501；2004元数据还列W. Płóciennik为第四作者。实际作者HTML仍是三作者稿，APS正式body未取得。另查官方arXiv历史仅有v1；本轮无版本号current PDF与已读v1逐字节相同，仍为三作者稿，没有因此取得2004正文。不能将早期稿的公式/数值/字面问题无条件归给未读2004 VoR；本source的科学locator一律属于2002 v1。
 
@@ -106,4 +106,4 @@ P0: none identified（版本/字面歧义已隔离）。P1：Eq7/参数/替代�
 
 ## Archive Recovery History
 
-2026-10-28：从 `tmp/day24-critical-tac-007/arxiv-0211075v1.response` 恢复同一 PDF 字节流至 `raw/papers/gpt/day26-20261028/olbratowski-2002-critical-frequency-arxiv-v1.pdf`。复制前目标路径不存在；归档副本 `%PDF-1.4`、4 页、252547 bytes，SHA-256 `3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb`，与实际读本逐字节一致。此恢复只改变存储身份，不改变 source 的版本、locator、review flags 或 2004 VoR 未读边界。
+2026-10-28：从 `tmp/day24-critical-tac-007/arxiv-0211075v1.response` 恢复同一 PDF 字节流至 `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/olbratowski-2002-critical-frequency-arxiv-v1.pdf`。复制前目标路径不存在；归档副本 `%PDF-1.4`、4 页、252547 bytes，SHA-256 `3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb`，与实际读本逐字节一致。此恢复只改变存储身份，不改变 source 的版本、locator、review flags 或 2004 VoR 未读边界。

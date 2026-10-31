@@ -20,7 +20,7 @@ canonical_source: "NNDC ENSDF 110048001,110CD, ADOPTED LEVELS GAMMAS"
 source_url: "https://www.nndc.bnl.gov/ensdf/"
 data_version: "2012-06 listing; H header NDS 113, 1315 (2012), CUT 1-Aug-2011; H MOD 6-Mar-2018 for unrelated 164.26-keV B(E2)"
 raw_storage_status: "official-response-archived-as-retrieved-html-wrapper"
-raw_file: "raw/data/day26-20261028/110cd-adopted-110048001-023.html"
+raw_file: "raw/data/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/110cd-adopted-110048001-023.html"
 raw_sha256: "83f11abd165777b820eb116d77bed3a7d71f30b789d0557c176cd7d987439647"
 nuclei: [110Cd]
 reactions: [heavy-ion-gamma, 96Zr-18O-4n]

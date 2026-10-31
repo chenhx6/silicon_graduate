@@ -4,7 +4,7 @@
 
 ## 原件、目录与实际 scope
 
-Bingfeng Lv, *Chirality in the136Nd and135Nd nuclei*, Université Paris-Saclay thesis,2019，NNT2019SACLS353。现有body：`raw/papers/degree dissertation/吕冰峰.pdf`，164页/6844285bytes，SHA256 **84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749**；封面原标识 `https://theses.hal.science/tel-02347000`。本轮**零网络调用**，未改raw。
+Bingfeng Lv, *Chirality in the136Nd and135Nd nuclei*, Université Paris-Saclay thesis,2019，NNT2019SACLS353。现有body：`raw/theses/degree dissertation/吕冰峰.pdf`，164页/6844285bytes，SHA256 **84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749**；封面原标识 `https://theses.hal.science/tel-02347000`。本轮**零网络调用**，未改raw。
 
 目录定位 physicalPDF6–8 后，当前实际读：
 

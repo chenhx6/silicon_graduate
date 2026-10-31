@@ -19,8 +19,8 @@ citation_key: Dey_2026
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/ztcl-lpdf"
-library_file: "raw/papers/gpt/high-spin-20260920/衰变/2026_Dey et al_Multifaceted Decay of Cs 116.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/衰变/2026_Dey et al_Multifaceted Decay of Cs 116.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/衰变/2026_Dey et al_Multifaceted Decay of Cs 116.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/衰变/2026_Dey et al_Multifaceted Decay of Cs 116.pdf"
 raw_sha256: "f44415e0934f0550238adf9853d41760e1bf456f311f30b5c8dba27dbe442563"
 nuclei: [116Cs, 116Xe, 115I, 104In]
 reactions: [ISOLDE-spallation-fragmentation]

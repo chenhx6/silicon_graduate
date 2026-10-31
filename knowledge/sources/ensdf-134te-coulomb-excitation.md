@@ -16,7 +16,7 @@ volume: 103
 pages: 1
 language: en
 canonical_source: "https://www.nndc.bnl.gov/ensnds/134/Te/coulex.pdf"
-raw_file: "raw/papers/gpt/day2-shell-gap-20260928/ensdf-134Te-coulex.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/ensdf-134Te-coulex.pdf"
 raw_sha256: 37f02b8998302844bd7e1d7816c405e1779e335b5f4a1ef5743ffd01c8e505ea
 data_url: "https://www.nndc.bnl.gov/ensnds/134/Te/coulex.pdf"
 data_sha256: 37f02b8998302844bd7e1d7816c405e1779e335b5f4a1ef5743ffd01c8e505ea

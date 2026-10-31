@@ -22,8 +22,8 @@ canonical_source: "郑勇. 原子核145Tb和157Yb的高自旋态能级结构研�
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/郑勇-原子核145Tb和157Yb的高自旋态能级结构研究.pdf"
-raw_file: "raw/papers/degree dissertation/郑勇-原子核145Tb和157Yb的高自旋态能级结构研究.pdf"
+library_file: "raw/theses/degree-dissertation/郑勇-原子核145Tb和157Yb的高自旋态能级结构研究.pdf"
+raw_file: "raw/theses/degree-dissertation/郑勇-原子核145Tb和157Yb的高自旋态能级结构研究.pdf"
 raw_sha256: "23c4d3c72c829f3353919bec53f89e5bdfda4339ad2f173186b572905a669780"
 nuclei: [145Tb, 157Yb]
 reactions: ["118Sn(32S,1p4n)145Tb", "144Sm(16O,3n)157Yb"]

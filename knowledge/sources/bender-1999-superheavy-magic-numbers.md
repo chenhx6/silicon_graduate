@@ -18,6 +18,8 @@ pages: "034304"
 doi: "10.1103/PhysRevC.60.034304"
 canonical_source: "https://doi.org/10.1103/PhysRevC.60.034304"
 citation_key: bender1999superheavy
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.60.034304.pdf"
+raw_sha256: f345e34d1e3e6c99012b0abc16d0dda87744ba47d480fab0c6b2897bd1ad6d3f
 nuclei: [208pb, 292114, 298114, 304120, 310126]
 reactions: []
 experiments: []
@@ -59,6 +61,14 @@ PRC 60, 034304 (1999), DOI `10.1103/PhysRevC.60.034304`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| BEN99-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. III.A, Figs. 1-2 | false |
+| BEN99-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. III.B, Table I | false |
+| BEN99-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | cross-source-model-comparison | source-reported | Sec. IV, Figs. 6-8 | false |
+| BEN99-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. V, Discussion | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

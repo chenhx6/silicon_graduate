@@ -19,8 +19,8 @@ citation_key: Grodner_2018
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Grodner et al., Phys. Rev. Lett. 120, 022502 (2018)"
-library_file: "raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf"
 raw_sha256: "c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2"
 nuclei: [128Cs, 128Xe]
 reactions: [122Sn-10B-4n]
@@ -36,7 +36,7 @@ tags: [128Cs, chirality, g-factor, TDPAD, planar-aplanar, particle-rotor]
 ## Bibliographic Record
 
 - E. Grodner *et al.*, *Phys. Rev. Lett.* **120**, 022502 (2018), DOI `10.1103/PhysRevLett.120.022502`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf`。
 
 ## Supporting Information Availability
 

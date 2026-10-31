@@ -20,8 +20,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Ionescu-Bujor, M. et al. Static electromagnetic moments and nuclear shapes in 129,131Ce. Nucl. Phys. A 633, 459-478 (1998)."
-library_file: "raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf"
 raw_sha256: "2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b"
 nuclei: ["129Ce", "131Ce", "128Ce", "130Ce"]
 reactions: ["116Sn(16O,3n)129Ce", "119Sn(16O,4n)131Ce"]
@@ -56,7 +56,7 @@ primed-recall-104在本轮开原件前冻结，已明示用户摘要、旧085及
 ## Bibliographic Record
 
 - 作者：M. Ionescu-Bujor 等；*Nuclear Physics A* 633, 459-478 (1998)。DOI：`10.1016/S0375-9474(98)00157-2`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf`。
 
 ## Scope and Reading Depth
 

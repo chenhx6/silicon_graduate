@@ -20,8 +20,8 @@ citation_key: M_ller_2006
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevLett.97.162502"
-library_file: "raw/papers/gpt/high-spin-20260920/形变/2006_Möller et al_Global Calculations of Ground-State Axial Shape Asymmetry of Nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/形变/2006_Möller et al_Global Calculations of Ground-State Axial Shape Asymmetry of Nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2006_Möller et al_Global Calculations of Ground-State Axial Shape Asymmetry of Nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2006_Möller et al_Global Calculations of Ground-State Axial Shape Asymmetry of Nuclei.pdf"
 raw_sha256: "6f56615cf523369591820f4abac6cece7ce3adee02dd33763346d1dc5fff4ebc"
 nuclei: [108Ru, 140Gd, 194Pt]
 reactions: []
@@ -37,7 +37,7 @@ tags: [triaxiality, ground-state, global-model, gamma-band, mass-model]
 ## Bibliographic Record
 
 - Peter Möller *et al.*, *Physical Review Letters* **97**, 162502 (2006), DOI `10.1103/PhysRevLett.97.162502`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/形变/2006_Möller et al_Global Calculations of Ground-State Axial Shape Asymmetry of Nuclei.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2006_Möller et al_Global Calculations of Ground-State Axial Shape Asymmetry of Nuclei.pdf`。
 - 4-page PRL; global calculation, no new experiment.
 
 ## Scope and Reading Depth

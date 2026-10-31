@@ -132,7 +132,7 @@ Wiki 直接支持的事实或判断，会把已实际读取并核实的链接紧
 
 不要把聊天内容或整批未读文献机械倒入 knowledge。新文献应先检查重复、书目信息、citation key 和原始文件定位。
 
-Agent 主动查找文献时采用 Nature-first 路由：先调用 `nature-academic-search`，低能核结构默认并行查询 CrossRef 与 arXiv并按 DOI、题名和第一作者去重；随后必须补查 Google Scholar，无法访问时再用学术镜像。Scholar 或镜像提供的 PDF 可以先进入 `raw/papers/gpt/_incoming/<run-id>/`，不能因入口不稳定直接丢弃；只有文件签名、页数、首页题名、作者、年份、DOI、SHA-256 和全库重复检查均通过，才晋升到 `raw/papers/gpt/`，并把完整核对后的 BibTeX 追加到 `raw/zotero/gpt.bib`。`raw/zotero/wiki-inbox.bib` 始终由用户/Zotero 管理，Agent 不得修改或暂存。每次获取的去凭据记录保存在 `outputs/literature-acquisition/<run-id>.json`，下载、校验、BibTeX 与 ingest 使用独立状态。
+Agent 主动查找文献时采用 Nature-first 路由：先调用 `nature-academic-search`，低能核结构默认并行查询 CrossRef 与 arXiv并按 DOI、题名和第一作者去重；随后必须补查 Google Scholar，无法访问时再用学术镜像。Scholar 或镜像提供的 PDF 直接进入 `raw/papers/gpt/learning-daily/YYYYMMDD-DAYn-topic/` 或 `YYYYMMDD-PREPLAN-topic/`；notes/theses/data/reports 使用对应的 `raw/<type>/gpt/learning-daily/`。只有文件签名、页数、首页题名、作者、年份、DOI、SHA-256 和全库重复检查均通过，才完成归档，并把完整核对后的 BibTeX 追加到 `raw/zotero/gpt.bib`。`raw/zotero/wiki-inbox.bib` 始终由用户/Zotero 管理，Agent 不得修改或暂存。每次获取的去凭据记录保存在 `outputs/literature-acquisition/<run-id>.json`，下载、校验、BibTeX 与 ingest 使用独立状态。
 
 APS/PRC 或 Google Scholar 出现 Turnstile、图片验证码、QR、OTP、登录或反复安全验证时，Codex 保留原标签页并交给用户处理，不循环重试。这里的“禁用浏览器原生 Download”只禁止无法指定路径、会默认写入 Wiki 外 Downloads 的下载方式，不是禁止下载：`nature-downloader`、命令行下载器、browser-context downloader 或可靠的“另存为 Wiki 路径”均可使用。用户若手工下载到外部目录，Agent 只能读取并复制到 Wiki，不得移动、删除或清理外部原文件。
 

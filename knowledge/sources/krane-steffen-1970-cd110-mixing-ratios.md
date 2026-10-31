@@ -19,8 +19,8 @@ citation_key: Krane_1970
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Krane & Steffen, Phys. Rev. C 2, 724-734 (1970)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf"
 raw_sha256: "ab82cb483425ba984a8c30b35f118b4713e186d53899fcbbba6a19dd444377f1"
 nuclei: [110Cd, 110Ag]
 reactions: [110Ag-beta-decay]
@@ -36,7 +36,7 @@ tags: [110Cd, mixing-ratio, angular-correlation, vibrational-nucleus]
 ## Bibliographic Record
 
 - K. S. Krane & R. M. Steffen, *Phys. Rev. C* **2**, 724–734 (1970), DOI `10.1103/PhysRevC.2.724`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf`。
 
 ## Scope and Reading Depth
 

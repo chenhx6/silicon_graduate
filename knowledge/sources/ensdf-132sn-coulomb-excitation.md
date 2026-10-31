@@ -14,7 +14,7 @@ journal: ENSDF evaluation subfile
 year: 2018
 language: en
 canonical_source: "https://www.nndc.bnl.gov/ensnds/132/Sn/coulex.pdf"
-raw_file: "raw/papers/gpt/day2-shell-gap-20260928/ensdf-132Sn-coulex.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/ensdf-132Sn-coulex.pdf"
 raw_sha256: 1fc046f50b2197f637a86591114e4956504ddf4099a7b51a1c4dde040bd708ea
 data_url: "https://www.nndc.bnl.gov/ensnds/132/Sn/coulex.pdf"
 data_sha256: 1fc046f50b2197f637a86591114e4956504ddf4099a7b51a1c4dde040bd708ea
@@ -32,7 +32,7 @@ tags: [ensdf, sn132, coulomb-excitation, b-e2, source-lineage]
 
 ## Bibliographic Record
 
-The single-page `Coulomb excitation` subfile for `132Sn` was retrieved from NNDC NuDat/ENSDF on 2026-09-28, visually checked and retained at `raw/papers/gpt/day2-shell-gap-20260928/ensdf-132Sn-coulex.pdf`. The payload hash is `1fc046f50b2197f637a86591114e4956504ddf4099a7b51a1c4dde040bd708ea` (27,352 bytes). The sheet identifies Balraj Singh as evaluator, ENSDF cutoff date 28-Feb-2018, and cites conference-proceedings records.
+The single-page `Coulomb excitation` subfile for `132Sn` was retrieved from NNDC NuDat/ENSDF on 2026-09-28, visually checked and retained at `raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/ensdf-132Sn-coulex.pdf`. The payload hash is `1fc046f50b2197f637a86591114e4956504ddf4099a7b51a1c4dde040bd708ea` (27,352 bytes). The sheet identifies Balraj Singh as evaluator, ENSDF cutoff date 28-Feb-2018, and cites conference-proceedings records.
 
 ## Scope and Reading Depth
 

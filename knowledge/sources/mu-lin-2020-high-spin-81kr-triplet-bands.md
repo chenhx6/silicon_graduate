@@ -16,7 +16,7 @@ pages: 73
 language: zh/en
 canonical_source: "穆琳. 首次在原子核中观测到两对三重带结构：81Kr的高自旋态研究[D]. 山东大学, 2020."
 citation_key: ""
-raw_file: "raw/papers/degree dissertation/穆林_硕士.pdf"
+raw_file: "raw/theses/degree-dissertation/穆林_硕士.pdf"
 raw_sha256: "D2723499E0298C02D64692577228D638A94A725A73A287C1D19D4DCC0E50D620"
 nuclei: [81kr]
 experiments: [ithembalabs-afrodite-81kr-se82-alpha]

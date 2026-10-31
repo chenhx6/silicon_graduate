@@ -19,8 +19,8 @@ doi: "10.1088/0954-3899/31/7/001"
 language: en
 canonical_source: "A. J. Simons et al., J. Phys. G: Nucl. Part. Phys. 31 (2005) 541-552, doi:10.1088/0954-3899/31/7/001."
 citation_key:
-library_file: "raw/papers/gpt/day3-mean-field-20260929/simons-2005-130cs-chiral-structures.pdf"
-raw_file: "raw/papers/gpt/day3-mean-field-20260929/simons-2005-130cs-chiral-structures.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/simons-2005-130cs-chiral-structures.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/simons-2005-130cs-chiral-structures.pdf"
 raw_sha256: "da71d9f1c88421bc7d4421c87c4f1eb3f15043892a1ae821c62ab48cd5a611d6"
 nuclei: [130cs]
 reactions: ["124Sn(11B,5n)130Cs"]
@@ -37,7 +37,7 @@ tags: [a130, chiral-doublet-candidate, Euroball, odd-odd, polarization, lifetime
 
 - A. J. Simons et al., *Journal of Physics G: Nuclear and Particle Physics* **31**(7), 541–552 (2005), DOI [`10.1088/0954-3899/31/7/001`](https://doi.org/10.1088/0954-3899/31/7/001).
 - Open IOP PDF: [`https://iopscience.iop.org/article/10.1088/0954-3899/31/7/001/pdf`](https://iopscience.iop.org/article/10.1088/0954-3899/31/7/001/pdf). Crossref and OpenAlex confirm title/DOI/volume/pages; the publisher PDF was downloaded directly as OA with SI disabled.
-- Local PDF: `raw/papers/gpt/day3-mean-field-20260929/simons-2005-130cs-chiral-structures.pdf`; 239,000 bytes; SHA-256 `da71d9f1c88421bc7d4421c87c4f1eb3f15043892a1ae821c62ab48cd5a611d6`.
+- Local PDF: `raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/simons-2005-130cs-chiral-structures.pdf`; 239,000 bytes; SHA-256 `da71d9f1c88421bc7d4421c87c4f1eb3f15043892a1ae821c62ab48cd5a611d6`.
 - Local protected BibTeX search found no unique matching item; no citation key was inferred or added.
 
 ## Scope and Reading Depth

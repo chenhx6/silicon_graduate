@@ -47,7 +47,7 @@ for r in identities:
                                              Ba131_epsilon2=.170,Ba131_gamma_deg=8,Ba131_epsilon4=.003,
                                              positive_parity_orbitals=10),
                        boundary='Author model-description inputs; not recovered actual input deck'))
-thesis=ROOT/'raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf'
+thesis=ROOT/'raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf'
 tsha=hashlib.sha256(thesis.read_bytes()).hexdigest();assert tsha=='48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080'
 tdoc=fitz.open(thesis)
 checks.append(dict(source=str(thesis.relative_to(ROOT)),sha256_after=tsha,pages=len(tdoc)))

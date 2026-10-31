@@ -2,7 +2,7 @@
   "kind": "raw-anchored-timing-method-selection-matrix-audit",
   "sources": {
     "nolan_1979": {
-      "path": "raw/papers/gpt/high-spin-20260920/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf",
       "sha256": "5e20f735e995021f4a0eb8c1a937acedeee53509caed3ffa2cd8ddaa794bbc4f"
     },
     "radeck_2012": {
@@ -10,15 +10,15 @@
       "sha256": "21ed965eb3fd0f57059d2bfe3367ecc39fa6cc2761b1f23ec95875d1a6fe3642"
     },
     "regis_2011": {
-      "path": "raw/papers/degree dissertation/LaBr3时间.pdf",
+      "path": "raw/theses/degree-dissertation/LaBr3时间.pdf",
       "sha256": "54ef3c5b70d7ef4ed694ad9089fa40533d39e2bb060228eb3d1a304b03555f52"
     },
     "grodner_2018": {
-      "path": "raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf",
       "sha256": "c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2"
     },
     "ionescu_bujor_1998": {
-      "path": "raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf",
       "sha256": "2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b"
     }
   },

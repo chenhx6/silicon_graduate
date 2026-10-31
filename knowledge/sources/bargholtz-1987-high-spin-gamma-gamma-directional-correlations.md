@@ -20,8 +20,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Bargholtz, C. & Tegnér, P.-E. Gamma-gamma directional correlations: simplifications at high spin. Nucl. Instrum. Methods Phys. Res. A 256, 513-520 (1987)."
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf"
 raw_sha256: "1be5667433cc44b2c53f67e5f23a0c0721d2e56d6cc6c284d5da807badbcff17"
 nuclei: []
 models: ["gamma-gamma-directional-correlation-formalism"]
@@ -36,7 +36,7 @@ tags: [directional-correlation, high-spin, DCO, angular-distribution, triple-cor
 
 - 作者：Chr. Bargholtz, P.-E. Tegnér。
 - 期刊：*Nuclear Instruments and Methods in Physics Research A* 256, 513-520 (1987)。DOI：`10.1016/0168-9002(87)90295-6`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf`；SHA-256：`1be5667433cc44b2c53f67e5f23a0c0721d2e56d6cc6c284d5da807badbcff17`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1987_Bargholtz_Tegnér_Gamma-gamma directional correlations.pdf`；SHA-256：`1be5667433cc44b2c53f67e5f23a0c0721d2e56d6cc6c284d5da807badbcff17`。
 
 ## Scope and Reading Depth
 

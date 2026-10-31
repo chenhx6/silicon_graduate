@@ -19,8 +19,8 @@ citation_key: Liu_1996
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Liu et al., Phys. Rev. C 54, 719-730 (1996)"
-library_file: "raw/papers/gpt/high-spin-20260920/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf"
 raw_sha256: "ca3e1c1bc834158112dee525fa4c42c3d44596975a506f3a2a1da023580a346f"
 nuclei: [120Cs, 122Cs, 124Cs, 126Cs, 128Cs, 130Cs, 124La, 126La, 128La, 130La, 132La, 134La, 130Pr, 132Pr, 134Pr, 136Pr, 134Pm, 136Pm, 138Pm, 138Eu]
 reactions: [compiled-literature-systematics]
@@ -38,7 +38,7 @@ tags: [signature-inversion, A130, h11/2, spin-assignment, triaxial-rotor]
 ## Bibliographic Record
 
 - Y. Liu *et al.*, *Phys. Rev. C* **54**, 719–730 (1996), DOI `10.1103/PhysRevC.54.719`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf`。
 
 ## Scope and Reading Depth
 

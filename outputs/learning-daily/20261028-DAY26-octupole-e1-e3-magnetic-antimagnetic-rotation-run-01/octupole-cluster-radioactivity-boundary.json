@@ -253,7 +253,7 @@
   "fingerprints": [
     {
       "path": "tmp/day26-act-th/222Ra-adopted.pdf",
-      "archived_file": "raw/papers/gpt/day26-20261028/nndc-222ra-adopted-cluster-20261029.pdf",
+      "archived_file": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-222ra-adopted-cluster-20261029.pdf",
       "url": "https://www.nndc.bnl.gov/ensnds/222/Ra/adopted.pdf",
       "bytes": 178531,
       "signature_hex": "255044462d312e34",
@@ -264,7 +264,7 @@
     },
     {
       "path": "tmp/day26-act-th/224Ra-adopted.pdf",
-      "archived_file": "raw/papers/gpt/day26-20261028/nndc-224ra-adopted-cluster-20261029.pdf",
+      "archived_file": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-224ra-adopted-cluster-20261029.pdf",
       "url": "https://www.nndc.bnl.gov/ensnds/224/Ra/adopted.pdf",
       "bytes": 167627,
       "signature_hex": "255044462d312e34",
@@ -275,7 +275,7 @@
     },
     {
       "path": "tmp/day26-act-th/226Ra-adopted.pdf",
-      "archived_file": "raw/papers/gpt/day26-20261028/nndc-226ra-adopted-cluster-20261029.pdf",
+      "archived_file": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-226ra-adopted-cluster-20261029.pdf",
       "url": "https://www.nndc.bnl.gov/ensnds/226/Ra/adopted.pdf",
       "bytes": 155530,
       "signature_hex": "255044462d312e34",
@@ -286,7 +286,7 @@
     },
     {
       "path": "tmp/day26-act-th/226Th-adopted.pdf",
-      "archived_file": "raw/papers/gpt/day26-20261028/nndc-226th-adopted-cluster-20261029.pdf",
+      "archived_file": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-226th-adopted-cluster-20261029.pdf",
       "url": "https://www.nndc.bnl.gov/ensnds/226/Th/adopted.pdf",
       "bytes": 94655,
       "signature_hex": "255044462d312e34",
@@ -297,7 +297,7 @@
     },
     {
       "path": "tmp/day26-act-th/228Th-adopted.pdf",
-      "archived_file": "raw/papers/gpt/day26-20261028/nndc-228th-adopted-cluster-20261029.pdf",
+      "archived_file": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nndc-228th-adopted-cluster-20261029.pdf",
       "url": "https://www.nndc.bnl.gov/ensnds/228/Th/adopted.pdf",
       "bytes": 640568,
       "signature_hex": "255044462d312e34",
@@ -308,7 +308,7 @@
     },
     {
       "path": "tmp/day26-cluster/1107.1478.pdf",
-      "archived_file": "raw/papers/gpt/day26-20261028/warda-2011-actinide-cluster-radioactivity-arxiv1107.1478v1.pdf",
+      "archived_file": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/warda-2011-actinide-cluster-radioactivity-arxiv1107.1478v1.pdf",
       "url": "https://arxiv.org/pdf/1107.1478v1",
       "bytes": 3434371,
       "signature_hex": "255044462d312e34",
@@ -319,7 +319,7 @@
     },
     {
       "path": "tmp/day26-cluster/1311.3810.pdf",
-      "archived_file": "raw/papers/gpt/day26-20261028/denisov-2013-multidimensional-cluster-arxiv1311.3810v1.pdf",
+      "archived_file": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/denisov-2013-multidimensional-cluster-arxiv1311.3810v1.pdf",
       "url": "https://arxiv.org/pdf/1311.3810v1",
       "bytes": 1068033,
       "signature_hex": "255044462d312e34",

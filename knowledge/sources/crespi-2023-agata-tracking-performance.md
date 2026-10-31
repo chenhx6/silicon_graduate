@@ -19,7 +19,7 @@ arxiv: 2305.18850v1
 language: en
 canonical_source: "https://arxiv.org/abs/2305.18850v1"
 citation_key:
-raw_file: "raw/papers/gpt/day13/crespi-2023-agata-tracking-performance.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/crespi-2023-agata-tracking-performance.pdf"
 raw_sha256: "e492edd41f50fd4a520b80c59507e8f07f800acb8285052e78c07a7e7612703d"
 raw_storage_status: reserved-unpopulated-public-preprint-only
 raw_archive_verified_at: 2026-10-23

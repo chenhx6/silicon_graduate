@@ -19,8 +19,8 @@ citation_key: Mukhopadhyay_2007
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Mukhopadhyay et al., Phys. Rev. Lett. 99, 172501 (2007)"
-library_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf"
 raw_sha256: "9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425"
 nuclei: [135Nd]
 reactions: [100Mo-40Ar-5n]
@@ -48,7 +48,7 @@ tags: [135Nd, chirality, chiral-vibration, static-chirality, TAC, RPA, DSAM]
 ## Bibliographic Record
 
 - S. Mukhopadhyay *et al.*, *Phys. Rev. Lett.* **99**, 172501 (2007), DOI `10.1103/PhysRevLett.99.172501`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf`。
 
 ## Supporting Information Availability
 

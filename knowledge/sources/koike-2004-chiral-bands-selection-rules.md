@@ -27,7 +27,7 @@ observables: [B(E2), B(M1), transition-selection-rules, chiral-doublet]
 methods: [discrete-symmetry, quantum-number-selection, electromagnetic-matrix-elements]
 tags: [chirality, selection-rules, dynamical-symmetry-breaking, A-quantum-number, 128Cs]
 citation_key: "Koike_2004"
-raw_file: "raw/papers/codex-day10/koike-2004-selection-rules.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/koike-2004-selection-rules.pdf"
 raw_sha256: "f39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e"
 ---
 

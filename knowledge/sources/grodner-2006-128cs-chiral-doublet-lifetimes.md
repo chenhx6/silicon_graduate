@@ -28,7 +28,7 @@ observables: [level-scheme, lifetime, B(E2), B(M1), band-energy-splitting]
 methods: [gamma-gamma-coincidence, Doppler-shift-attenuation-method]
 tags: [128Cs, chirality, DSAM, transition-strengths, partner-bands]
 citation_key: "Grodner_2006"
-raw_file: "raw/papers/codex-day10/grodner-2006-128cs.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/grodner-2006-128cs.pdf"
 raw_sha256: "654527dc34f2ff9e455d3dc16f88e83f7e846ec457c97c453e652e22c51f01c9"
 ---
 
@@ -97,7 +97,7 @@ Absolute strengths depend on lifetime, feeding, and pure-M1 assumptions. Figure-
 
 ## Day18原件复核纠正：侧馈迁移、强度对比与手征解释边界
 
-2026-10-21 对主原件 `raw/papers/codex-day10/grodner-2006-128cs.pdf` 重新核读，SHA-256 为 `654527dc34f2ff9e455d3dc16f88e83f7e846ec457c97c453e652e22c51f01c9`。本段为 Codex self-audit；前文 GR06-1–10、原有 review 状态和证据边界保持，不计新增实验或课程学分。
+2026-10-21 对主原件 `raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/grodner-2006-128cs.pdf` 重新核读，SHA-256 为 `654527dc34f2ff9e455d3dc16f88e83f7e846ec457c97c453e652e22c51f01c9`。本段为 Codex self-audit；前文 GR06-1–10、原有 review 状态和证据边界保持，不计新增实验或课程学分。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|

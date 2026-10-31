@@ -199,7 +199,7 @@ GOSIA Appendix D 和 Chapter 3 共列 `194Pt`；p.31 的 `196Pt` 单句冲突仍
 
 ### Day 11：反应布居到 `127/128I` 高自旋能级纲图
 
-- **原文指纹。** [Ding 2012 source page](../../knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md)；raw PDF `raw/papers/degree dissertation/丁兵 - 博士论文.pdf`，SHA-256 `ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7`，与已有 source metadata 一致。直接核查 PDF p.34–35 的 Fig.3.3、pp.53–55 的 DCO/ADO 方程、p.57 探测器与统计、pp.58–63/Table 5.1/Fig.5.2、pp.75–79/Fig.6.1–6.2/Table 6.1 和 p.79 ADO 歧义。
+- **原文指纹。** [Ding 2012 source page](../../knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md)；raw PDF `raw/theses/degree-dissertation/丁兵 - 博士论文.pdf`，SHA-256 `ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7`，与已有 source metadata 一致。直接核查 PDF p.34–35 的 Fig.3.3、pp.53–55 的 DCO/ADO 方程、p.57 探测器与统计、pp.58–63/Table 5.1/Fig.5.2、pp.75–79/Fig.6.1–6.2/Table 6.1 和 p.79 ADO 歧义。
 - **实验直接报告。** `124Sn(7Li,4n)127I` 选择 32 MeV，`124Sn(7Li,3n)128I` 选择 28 MeV。实验用了 9 个 BGO 反康同轴 HPGe 与 1 个小平面 HPGe；5 个 detector 在约 `37°/143°`、其余约 `90°`。记录 `67×10^6` 个 `γ-γ-t` 和 `3×10^6` 个 X-γ 事件，`t` 窗为100ns，并离线形成 4 个 `4096×4096` 矩阵（D12-1；PDF p.57）。
 - **模型结果。** Fig.3.3 中 CASCADE/PACE 计算 `7Li+124Sn` 的截面随能量变化，主要 3n/4n/5n 道的相对趋势峰约对应 `128I:26 MeV`、`127I:32 MeV`。作者明说它们是计算趋势，beam-energy 选择还需实验 excitation-function 信息；图中其它通道也在这些能量有非零计算贡献。因此“选定目标道”不等于事件级道纯化（D12-12；PDF pp.34–35, Fig.3.3）。
 - **实验谱与作者赋值分层。** 32/28 MeV 的总 γγ 投影谱对比显示已知 `127I` 线（490.4、609.7、658.8、763.3keV）与 102.1/411.2keV 候选线的相对变化不同；文中用 iodine K x-ray coincidence、已知锚线、γγ 关系和同两束流的谱强度变化将候选线归于 `128I`。K x ray 识别碘元素，不单独区分碘同位素；这是 source assignment，不是残核质量分辨标签（D12-13/14；PDF pp.75–76, Fig.6.1）。
@@ -293,7 +293,7 @@ rows = [line for line in table_text.splitlines()
 assert len(rows) == 61
 ```
 
-这里的 `table_text` 来自 `pdftotext -layout -f 78 -l 79 'raw/papers/degree dissertation/丁兵 - 博士论文.pdf' -`；没有对原始事件或谱图做重计数。
+这里的 `table_text` 来自 `pdftotext -layout -f 78 -l 79 'raw/theses/degree-dissertation/丁兵 - 博士论文.pdf' -`；没有对原始事件或谱图做重计数。
 
 ### Day 12：随机侧窗归一化与分支比相容性
 

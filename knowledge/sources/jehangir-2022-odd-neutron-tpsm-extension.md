@@ -22,7 +22,7 @@ zotero_item_key: ""
 citation_key: ""
 zotero_uri: ""
 library_file: ""
-raw_file: "raw/papers/gpt/day3-mean-field-20260929/2203-12851-tpsm-odd-neutron-xe-20260930/PDFs/Extended_triaxial_projected_shell_model_approach_for_odd-neutron_nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2203-12851-tpsm-odd-neutron-xe-20260930/PDFs/Extended_triaxial_projected_shell_model_approach_for_odd-neutron_nuclei.pdf"
 raw_sha256: 2c2d428aa5d82b8951d8f927bc11ccd9d30ed791fd55d488ea9cfcfb6372dea5
 nuclei: [117Xe, 119Xe, 121Xe, 123Xe, 125Xe, 127Xe, 129Xe, 131Xe]
 reactions: []

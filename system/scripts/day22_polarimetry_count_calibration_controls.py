@@ -3,7 +3,7 @@
 import argparse,hashlib,json,math
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
-RAW=ROOT/'raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf'
+RAW=ROOT/'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/2007_Miller et al_Linear polarization sensitivity of SeGA detectors.pdf'
 SHA='a334ee35a84ded50f6a7937c037ee13d2d06b2f8406b0c68fac1a4245999acf3'
 def pol(x,y,a,q):return (x-a*y)/(x+a*y)/q
 

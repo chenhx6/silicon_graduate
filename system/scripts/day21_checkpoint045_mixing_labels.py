@@ -34,7 +34,7 @@ def main():
     checks = {'four_printed_calculations_reproduced_to_rounding':all(abs(v)<.005 for r in rows for v in r['residuals']),
               'odd_yrast_identity_exchange_retained':rows[0]['band_following_requires_reciprocal'],
               'even_labels_not_inverted':not rows[1]['band_following_requires_reciprocal']}
-    raw = ROOT / 'raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf'
+    raw = ROOT / 'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf'
     result = dict(raw_sha256=hashlib.sha256(raw.read_bytes()).hexdigest(),
                   rows=rows, checks=checks,
                   conditional_Q_squared_range=[1.6**2,2.4**2],

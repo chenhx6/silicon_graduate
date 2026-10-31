@@ -20,7 +20,7 @@ data_version: public-arxiv2306.10818v1
 language: en
 canonical_source: "https://arxiv.org/abs/2306.10818v1"
 citation_key:
-raw_file: "raw/papers/gpt/day13/lemasson-2023-fission-spectroscopy.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/lemasson-2023-fission-spectroscopy.pdf"
 raw_sha256: "f4213d54aacddaa7a5dd34a4e869fb9da2829000246078d48d5beac43a0111be"
 raw_storage_status: reserved-unpopulated-public-preprint-only
 raw_archive_verified_at: 2026-10-23

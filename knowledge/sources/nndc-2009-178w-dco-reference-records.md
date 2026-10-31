@@ -19,7 +19,7 @@ citation_key: ""
 citation_key_status: verified-DOI-but-no-unique-local-BibTeX-entry
 data_version: "200907 / 09NDS headers, cutoff31-May-2008; retrieved2026-10-18; laterQ record separated"
 canonical_source: "NNDC ENSDF 178W records178074001,178074004,178074006,178074005; header200907"
-raw_file: "raw/papers/gpt/day16-20261018/nndc-178w-178074001-200907-a758b17a8a52.ens"
+raw_file: "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/nndc-178w-178074001-200907-a758b17a8a52.ens"
 raw_sha256: "a758b17a8a52102c12ba87b66ea6d7c4cdd499dbd831d78e911d2fe08f51fd21"
 raw_storage_status: public-staging-verified-raw-archive-deferred
 nuclei: [178W]

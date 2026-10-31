@@ -5,19 +5,19 @@
   "scope": "110Cd HI,XNG relative gamma intensities (ENSDF) cross-checked against Roy et al. 2011 Table 1; no shared pages modified, no absolute B inferred from RI.",
   "source_fingerprints": {
     "hi_xng_ensdf": {
-      "path": "raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-hi-xng.ensdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/day26-002/nndc/110cd-hi-xng.ensdf",
       "sha256": "cd14b1104805f54023a420e6021b74fddaa149a7f7f5cd404be23a9c696b47d1",
       "line_count": 575,
       "dataset_header": "110CD (HI,XNG), evaluation 201206"
     },
     "adopted_ensdf": {
-      "path": "raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-adopted.ensdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/day26-002/nndc/110cd-adopted.ensdf",
       "sha256": "04975bce4e22e754b2cc556f7616a3ae9174e6a47b9f506974cc9a9b2c45ba66",
       "line_count": 2616,
       "dataset_header": "110CD adopted levels/gammas"
     },
     "roy_2011_pdf": {
-      "path": "raw/papers/gpt/day26-20261028/roy-2011-cd110-systematics-plb.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/roy-2011-cd110-systematics-plb.pdf",
       "sha256": "2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a",
       "pages": 5,
       "locator": "PDF p.3 Table 1; p.2-5 discussion"
@@ -222,8 +222,8 @@
   ],
   "reproducibility": {
     "commands": [
-      "rg -n \"1074.6|1224.5|1323.0|1314.1|1358.0|1100\" raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-hi-xng.ensdf",
-      "nl -ba raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-adopted.ensdf | sed -n '2485,2504p'",
+      "rg -n \"1074.6|1224.5|1323.0|1314.1|1358.0|1100\" raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/day26-002/nndc/110cd-hi-xng.ensdf",
+      "nl -ba raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/day26-002/nndc/110cd-adopted.ensdf | sed -n '2485,2504p'",
       "pypdf text extraction of Roy PDF p.3 Table 1"
     ],
     "read_only": true

@@ -22,8 +22,8 @@ canonical_source: "中国科学院近代物理研究所博士学位论文, 2019"
 zotero_item_key:
 citation_key:
 zotero_uri:
-library_file: "raw/papers/degree dissertation/孙亚洲 - 16C单质子敲出反应研究.pdf"
-raw_file: "raw/papers/degree dissertation/孙亚洲 - 16C单质子敲出反应研究.pdf"
+library_file: "raw/theses/degree-dissertation/孙亚洲 - 16C单质子敲出反应研究.pdf"
+raw_file: "raw/theses/degree-dissertation/孙亚洲 - 16C单质子敲出反应研究.pdf"
 raw_sha256: "d9d900cfdd783890f2f5d774b18832bbfda40eeb2af2db50b353ac18373496c0"
 nuclei: [16c, 15b, 12c]
 reactions: ["12C(16C,15B)X"]

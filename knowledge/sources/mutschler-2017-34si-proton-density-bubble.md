@@ -20,7 +20,7 @@ citation_key: Mutschler_2017
 citation_key_origin: locally-assigned-from-verified-DOI
 canonical_source: "https://doi.org/10.1038/nphys3916"
 source_url: "https://arxiv.org/pdf/1707.03583v1"
-raw_file: "raw/papers/day21-20261023/mutschler-2017-34si-proton-density-bubble.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/mutschler-2017-34si-proton-density-bubble.pdf"
 raw_sha256: "eb0450b2cfee9fc52098668d090db23b7e728899ec1116528d827e90a6b09a85"
 raw_storage_status: existing-raw-read-only-verified-checkpoint124
 public_staging_verified_at: 2026-10-23

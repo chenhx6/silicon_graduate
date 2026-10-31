@@ -23,8 +23,8 @@ citation_key: Lv_2019
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 zotero_uri:
-library_file: "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf"
-raw_file: "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf"
 raw_sha256: "97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303"
 nuclei: [135nd]
 reactions: ["100Mo(40Ar,5n)135Nd"]

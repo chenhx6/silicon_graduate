@@ -16,7 +16,7 @@ pages: 87
 language: zh/en
 canonical_source: "宋立涛. 质子亏损奇A金核高自旋态能级结构研究[D]. 中国科学院近代物理研究所, 2006."
 citation_key: ""
-raw_file: "raw/papers/degree dissertation/宋立涛论文(全).pdf"
+raw_file: "raw/theses/degree-dissertation/宋立涛论文(全).pdf"
 raw_sha256: "C1EA767F4222FE3E31D06EF7037A14EC14629D6F4726E40B621B760F58978E76"
 nuclei: [179au, 183au]
 models: [cranked-shell-model, triaxial-rotor-model]

@@ -717,8 +717,8 @@
     "knowledge/synthesis/wobbling-vs-signature-partner.md": "6f823d449887c51b91adb3da21a566eb7304694e324207f862a1618e5834cad1"
   },
   "raw_sha256": {
-    "raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
-    "raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb"
+    "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf": "ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c",
+    "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf": "ed925a0577a9257903806acd209c1db707529e86a5bfd9a301a83d597bf78ffb"
   },
   "knowledge_target_sha256_before": {
     "knowledge/sources/mukhopadhyay-2008-136nd-transition-rates.md": "89380d1307321dcf2aad4f620f5dbf49990f197c21154b49adf057e1dcde43be",

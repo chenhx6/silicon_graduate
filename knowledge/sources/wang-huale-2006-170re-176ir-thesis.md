@@ -22,8 +22,8 @@ canonical_source: "王华磊. 奇奇核170Re在束γ谱学和176Ir EC/β+衰变�
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/A王华磊.pdf"
-raw_file: "raw/papers/degree dissertation/A王华磊.pdf"
+library_file: "raw/theses/degree-dissertation/A王华磊.pdf"
+raw_file: "raw/theses/degree-dissertation/A王华磊.pdf"
 raw_sha256: "4D3587FAEFDC877D88D383DB75BBE71033241C2E1AFECA2259E2557A9F4AFA41"
 nuclei: [170re, 176ir, 176os]
 reactions: ["142Nd(32S,1p3n)170Re", "146Nd(35Cl,5n)176Ir"]

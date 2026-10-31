@@ -15,8 +15,8 @@ year: 2001
 volume: 135
 pages: "83-107"
 canonical_source: "Walker & Dracoulis, Hyperfine Interactions 135, 83-107 (2001)"
-library_file: "raw/papers/gpt/high-spin-20260920/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf"
 raw_sha256: "62cc9071a6101118535d16aeb66f0f192e7ad8904abdfa80b6b56119473c1489"
 nuclei: [178Hf, 177Ta, 180Ta, 212Po, 212Bi]
 reactions: []
@@ -34,7 +34,7 @@ tags: [isomer, K-trap, spin-trap, deformed-nuclei, review]
 ## Bibliographic Record
 
 - P. M. Walker and G. D. Dracoulis, *Hyperfine Interactions* **135**, 83–107 (2001).
-- 规范文件：`raw/papers/gpt/high-spin-20260920/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf`。
 - 25-page review; figures, tables, K-trap examples and prospects read.
 
 ## Scope and Reading Depth

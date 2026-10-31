@@ -21,8 +21,8 @@ canonical_source: "王海霞. 173W和128I的高自旋态研究以及Gas-ΔE+Si-E
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/王海霞 - 173W 和128I 的高自旋态研究.pdf"
-raw_file: "raw/papers/degree dissertation/王海霞 - 173W 和128I 的高自旋态研究.pdf"
+library_file: "raw/theses/degree-dissertation/王海霞 - 173W 和128I 的高自旋态研究.pdf"
+raw_file: "raw/theses/degree-dissertation/王海霞 - 173W 和128I 的高自旋态研究.pdf"
 raw_sha256: "1e0a882f8a393714ed5e75c06df9bd17dd578b232ea2cd34b6e333fb1b7a26d7"
 nuclei: [173w, 128i]
 reactions: ["150Nd(28Si,5n)173W", "124Sn(7Li,3n)128I"]

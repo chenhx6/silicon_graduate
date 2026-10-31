@@ -4,7 +4,7 @@
     "author_input_recovered": false,
     "confidence_interval": false,
     "human_review": false,
-    "source": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "source": "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
     "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
     "locators": [
       "physicalPDF67 Table5.2",
@@ -80,7 +80,7 @@
     "interpretation": "printed row identity not proof of two independently established physical levels"
   },
   "pr134_conditional_forward": {
-    "source": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+    "source": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
     "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f",
     "locator": "printed112502-3 TableI/Eqs4-5",
     "experiment_R_17ny_17y_18ny": [

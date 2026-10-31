@@ -16,8 +16,8 @@ volume: 38
 issue: 2
 pages: "87-91"
 canonical_source: "孟杰，《物理》38 (2009) 87-91"
-library_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2009_孟_原子核是否存在手性.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2009_孟_原子核是否存在手性.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2009_孟_原子核是否存在手性.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2009_孟_原子核是否存在手性.pdf"
 raw_sha256: "70ac8390928546ee33ac07a793092880a092bfc4984526e094319eea4fc3dec7"
 nuclei: [nuclear-chirality-systematics]
 reactions: []
@@ -33,7 +33,7 @@ tags: [nuclear-chirality, review, Chinese, A130, triaxiality]
 ## Bibliographic Record
 
 - 孟杰，《物理》38 卷（2009）2 期，pp.87–91（PDF printed pp.87–91）。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/三轴/手征/2009_孟_原子核是否存在手性.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2009_孟_原子核是否存在手性.pdf`。
 - 5-page Chinese review; an unrelated “physics news” column after the reference section is outside scope.
 
 ## Scope and Reading Depth

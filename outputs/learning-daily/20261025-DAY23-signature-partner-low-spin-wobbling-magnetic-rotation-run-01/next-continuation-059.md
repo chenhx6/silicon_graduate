@@ -2,7 +2,7 @@
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-058actualHoward/emcee方法audit已H3published。059回Day23recall/B实际空间，既有Liang2016v1原raw/papers/gpt/high-spin-20260920/review/2016_Pseudospin symmetry...pdf，SHA42addac07765e3bcdc15eefd3c72266f254ea8a7ce97a5e9e9ab23dc26eb5f01，21p，targetedPDF1–8文字＋Fig1/7freshvisual，不重称wholedeepread。新LIANG16-D23-001..003在source、signatureconcept/Auproject/method四页；新增source mapped进唯一writebackblock/explicitwikilink，旧LIANG16-1false/原flags不改。LIANG16-2仅按PDF5physicalΣ0措辞收窄无任意势无谱命题，旧row pre-correction059保。
+058actualHoward/emcee方法audit已H3published。059回Day23recall/B实际空间，既有Liang2016v1原raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2016_Pseudospin symmetry...pdf，SHA42addac07765e3bcdc15eefd3c72266f254ea8a7ce97a5e9e9ab23dc26eb5f01，21p，targetedPDF1–8文字＋Fig1/7freshvisual，不重称wholedeepread。新LIANG16-D23-001..003在source、signatureconcept/Auproject/method四页；新增source mapped进唯一writebackblock/explicitwikilink，旧LIANG16-1false/原flags不改。LIANG16-2仅按PDF5physicalΣ0措辞收窄无任意势无谱命题，旧row pre-correction059保。
 
 Formal2f7/2(n2,l3,j3.5)κ−4与1h9/2(n1,l5,j4.5)κ5，共sum1/κ(κ−1)=20/tilde_l4；pairpseudo_n1由referencefirstorbit定义，别把h的n−1误作0。1h9与1h11 κ5/−6 sum−1/κ(κ+1)=30是spinpair；formalnegativeparity相同，quantum-number-map059字段已纠正为same_parity(不是evenparity)。源Eq34PSSgeneratorsuppertilde_s=σp_hat s σp_hat/lower_s，Eqs36/37要求lowerFa=Fb/upperderivative关系；与signatureπrot±i/α不同。deformedNilssonPSS[Λ]ΩΛ+.5/[Λ+2]ΩΛ+1.5/特定vls/vll4不是通用门。
 

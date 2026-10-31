@@ -183,8 +183,9 @@ For a nuclear-structure question, compare at least one applicable isotope and
 one isotone when reliable evidence exists; explain when a comparison is not
 physical or not available. L3 may search, obtain lawful full text, audit
 locators and ingest evidence through the Nature-first search/downloader
-routes. Candidate PDFs enter `raw/papers/gpt/_incoming/<run-id>/`, are verified
-before promotion to `raw/papers/gpt/`, and Agent-managed BibTeX goes only to
+routes. Candidate PDFs enter their dated canonical archive under
+`raw/papers/gpt/learning-daily/YYYYMMDD-DAYn-topic/`, are verified in place,
+and Agent-managed BibTeX goes only to
 `raw/zotero/gpt.bib`; `raw/zotero/wiki-inbox.bib` is read-only and never staged.
 Download supplementary information only when a key datum or method is there.
 If full text needs login, CAPTCHA or user access, record the DOI, route and

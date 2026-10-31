@@ -19,7 +19,7 @@ citation_key: TimarElekesSingh2014A129ENSDF
 citation_key_origin: agent-local-online-dataset-label
 canonical_source: "NNDC ENSDF129BA records129056001,129056013; version201408"
 data_version: "headers201408/14NDS; cutoff31-May-2014; retrieved17-Oct-2026"
-raw_file: "raw/papers/gpt/day15-20261016/nndc-129ba-129056001-201408-15d8e353eb23.ens"
+raw_file: "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056001-201408-15d8e353eb23.ens"
 raw_sha256: "15d8e353eb23d55847dc0d0127591fd2fb23e6da63ae98146747aecb233f65f6"
 raw_storage_status: archived-agent-managed-public-data-object
 nuclei: [129ba]
@@ -39,8 +39,8 @@ J. Timar、Z. Elekes、B. Singh，*Nuclear Data Sheets* **121**,143–394(2014)�
 
 | object | canonical raw | exacttext SHA-256 |
 | --- | --- | --- |
-| 129056001 ADOPTED，934lines | `raw/papers/gpt/day15-20261016/nndc-129ba-129056001-201408-15d8e353eb23.ens` | `15d8e353eb23d55847dc0d0127591fd2fb23e6da63ae98146747aecb233f65f6` |
-| 129056013 HI reactions，555lines | `raw/papers/gpt/day15-20261016/nndc-129ba-129056013-201408-09194d4feed3.ens` | `09194d4feed3bbda013c551ce5ba9ecf55a25799e8c46ec22f23685df1c1ef19` |
+| 129056001 ADOPTED，934lines | `raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056001-201408-15d8e353eb23.ens` | `15d8e353eb23d55847dc0d0127591fd2fb23e6da63ae98146747aecb233f65f6` |
+| 129056013 HI reactions，555lines | `raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens` | `09194d4feed3bbda013c551ce5ba9ecf55a25799e8c46ec22f23685df1c1ef19` |
 
 官方HTTP HTML wrapper的hash分别为`3f4f3bd8125a2c5c05316d8a23df8c228e96d7cc4c9afe5c2bb4214eec78d067`、`c5837f017e5afba80d8505a676f9fd6125e42b6058e687e1ab3217d115de27ce`。raw为新agent-managed公开数据，原始text不修补、不覆盖旧材料、从不stage。
 

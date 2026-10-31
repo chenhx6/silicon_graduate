@@ -18,7 +18,7 @@ pages: 391-394
 doi: 10.1140/epjad/i2005-06-128-7
 language: en
 canonical_source: doi:10.1140/epjad/i2005-06-128-7
-raw_file: "raw/papers/gpt/day2-shell-gap-20260928/varner-2005-132-134Sn-coulex.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/varner-2005-132-134Sn-coulex.pdf"
 raw_sha256: bf34234243d3a237554fd5be730ff14292b68cf6eb3d5956d847cfc5b854a5f8
 data_url: "https://link.springer.com/content/pdf/10.1140/epjad/i2005-06-128-7.pdf"
 data_sha256: bf34234243d3a237554fd5be730ff14292b68cf6eb3d5956d847cfc5b854a5f8
@@ -38,7 +38,7 @@ tags: [sn132, sn134, n82, b-e2, coulomb-excitation, preliminary-result]
 
 R. L. Varner et al., *The European Physical Journal A* **25** (Supplement 1), 391–394 (2005), DOI `10.1140/epjad/i2005-06-128-7`. Crossref metadata and the Springer publisher page agree on the title, author order, volume and locator.
 
-The public publisher PDF was read end-to-end and visually checked at pp.391–394, including Figs.1–5. The verified PDF is retained at `raw/papers/gpt/day2-shell-gap-20260928/varner-2005-132-134Sn-coulex.pdf` (229,935 bytes; SHA-256 `bf34234243d3a237554fd5be730ff14292b68cf6eb3d5956d847cfc5b854a5f8`).
+The public publisher PDF was read end-to-end and visually checked at pp.391–394, including Figs.1–5. The verified PDF is retained at `raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/varner-2005-132-134Sn-coulex.pdf` (229,935 bytes; SHA-256 `bf34234243d3a237554fd5be730ff14292b68cf6eb3d5956d847cfc5b854a5f8`).
 
 ## Scope and Reading Depth
 

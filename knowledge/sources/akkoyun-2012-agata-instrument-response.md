@@ -19,7 +19,7 @@ arxiv: 1111.5731v2
 language: en
 canonical_source: "https://doi.org/10.1016/j.nima.2011.11.081"
 citation_key:
-raw_file: "raw/papers/gpt/day13/akkoyun-2012-agata-overview.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/akkoyun-2012-agata-overview.pdf"
 raw_sha256: "13882c8bb1dbebb02db5df3300f9cf5981a1ffb519b3731dab099647be168d8b"
 raw_storage_status: reserved-unpopulated-public-preprint-only
 raw_archive_verified_at: 2026-10-23

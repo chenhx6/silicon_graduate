@@ -19,7 +19,7 @@ arxiv: "1906.07542v2"
 citation_key: ""
 canonical_source: "https://doi.org/10.1103/PhysRevC.101.054307"
 source_url: "https://arxiv.org/pdf/1906.07542v2"
-raw_file: "raw/papers/day20-20261022/poves-2020-limits-assigning-nuclear-shape.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/poves-2020-limits-assigning-nuclear-shape.pdf"
 raw_sha256: "ca188d5b2ac257edb8f616b2a055d2bd488f29d5d136baf540753ea049edf21a"
 raw_storage_status: reserved-unpopulated-arxiv-staging-only
 raw_archive_verified_at: 2026-10-23

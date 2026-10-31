@@ -146,7 +146,7 @@ def main():
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     result = calculate()
-    source = Path("raw/papers/gpt/high-spin-20260920/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf")
+    source = Path("raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf")
     result["source_sha256"] = hashlib.sha256(source.read_bytes()).hexdigest()
     result["script_sha256"] = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")

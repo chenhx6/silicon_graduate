@@ -15,7 +15,7 @@ institution: University of Jyväskylä
 citation_key: ""
 canonical_source: "JYX Research Report9/2011 ISBN9789513945565 targetedAl23/response/AppendixA"
 source_url: https://jyx.jyu.fi/jyx/Record/jyx_123456789_40105
-raw_file: raw/theses/day17-20261020/saastamoinen-2011-thesis.pdf
+raw_file: raw/theses/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/saastamoinen-2011-thesis.pdf
 raw_sha256: 53050e00d906ee42d7e4bf15d80feafbebc4e2c52ecfffd451eb432afdcb197c
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23

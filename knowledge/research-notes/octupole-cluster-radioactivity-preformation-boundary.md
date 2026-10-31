@@ -164,7 +164,7 @@ Denisov2013在动态片段形变的多维模型中得到228Th20O计算 $5.0\time
 
 ## 证据边界与获取记录
 
-本轮取得NNDC五核Adopted PDF及两篇理论预印本，实际签名、页数、哈希和阅读覆盖载于对应JSON。7份原件已逐文件核验后新增归档至raw/papers/gpt/day26-20261028/，未覆盖既有文件；未重读每条罕见分支的原始实验论文，未取得生产HFB/GCM代码、通道norm kernels或完整惯性网格。Sawhney–Sharma–Gupta2011的higher-multipole论文仅核验Crossref书目信息，出版社下载403、APS harvest401，不能用未读正文支持beta5/beta7定量增强。**本轮没有实验beta5/beta7值，也没有独立微观P0数值**；这些缺口是研究边界，不转写成确定结论。
+本轮取得NNDC五核Adopted PDF及两篇理论预印本，实际签名、页数、哈希和阅读覆盖载于对应JSON。7份原件已逐文件核验后新增归档至raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/，未覆盖既有文件；未重读每条罕见分支的原始实验论文，未取得生产HFB/GCM代码、通道norm kernels或完整惯性网格。Sawhney–Sharma–Gupta2011的higher-multipole论文仅核验Crossref书目信息，出版社下载403、APS harvest401，不能用未读正文支持beta5/beta7定量增强。**本轮没有实验beta5/beta7值，也没有独立微观P0数值**；这些缺口是研究边界，不转写成确定结论。
 
 ## Assumptions
 

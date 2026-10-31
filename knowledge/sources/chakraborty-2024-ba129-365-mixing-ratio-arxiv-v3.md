@@ -16,7 +16,7 @@ data_version: "v3, 9-Apr-2024; initial submission11-Aug-2021"
 canonical_source: "https://arxiv.org/abs/2108.05313v3"
 citation_key: Chakraborty2024Ba129DeltaV3
 citation_key_origin: agent-local-paper-label-pending-reference-manager
-raw_file: "raw/papers/gpt/day15-20261016/chakraborty-arxiv2108.05313v3-c8c0accfc9d2.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/chakraborty-arxiv2108.05313v3-c8c0accfc9d2.pdf"
 raw_sha256: "c8c0accfc9d21e91ebf9ea201287b44047b6e2aca48fc4d1cc765799a160005d"
 nuclei: [129ba]
 reactions: []

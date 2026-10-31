@@ -29,7 +29,7 @@ LV19相对MU07的另次采集与相对PE18的共同campaign是不同关系，不
 - 现有source：`knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md`。
 - **DD-20260910-136ND-01**（当前source line80）已记152MeV反应、135/136Nd、5.1×10¹⁰、single dependent campaign；**DD-02**（line81）已记与PE18依赖。
 - source line115 limitations明确本thesis与两核期刊存在campaign/data lineage依赖；**AR-LV-1**（line121）也将两核归同Jyväskylä campaign。
-- 实际raw：`raw/papers/degree dissertation/吕冰峰.pdf`；SHA256 **84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749**，164页。
+- 实际raw：`raw/theses/degree dissertation/吕冰峰.pdf`；SHA256 **84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749**，164页。
 - 本轮只fresh读**PDF66/printed65**的§4.1、§4.2及校准段开头，视觉核同页；另文本读**PDF67/printed66**的校准续段。未重读164页，也未恢复真实calibration constants。
 - 短原字面定位：PDF66 §4.1开头“High-spin states in135,136Nd were populated…”位于同一“The experiment”段；§4.2开头“In this experiment…”后直接给common event pool/TDR。完整原段的定向text/render在本worker tmp，不取代原件。
 

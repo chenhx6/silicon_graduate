@@ -19,7 +19,7 @@ citation_key: Nomura2018OddBaOctupole
 citation_key_origin: agent-local-key-with-Crossref-metadata
 citation_key_verified: 2026-10-28
 canonical_source: "Nomura, Nikšić, and Vretenar, Phys. Rev. C 97, 024317 (2018); actual reading: arXiv1711.09587v2"
-raw_file: "raw/papers/gpt/day26-20261028/nomura-2018-odd-ba-octupole-arxiv1711.09587v2.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/nomura-2018-odd-ba-octupole-arxiv1711.09587v2.pdf"
 raw_sha256: 4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be
 nuclei: [143Ba, 145Ba, 147Ba, 142Ba, 144Ba, 146Ba]
 models: [RHB-DD-PC1, SCMF, sdf-IBM, sdf-IBFM]

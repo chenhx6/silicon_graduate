@@ -18,8 +18,8 @@ volume: 378
 pages: "518-525"
 pii: "0168-9002(96)00426-3"
 canonical_source: "Droste et al., NIM A 378, 518-525 (1996)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf"
 raw_sha256: "dbfd6796aafc53693b446533c89094a14427e25624321bc16a6edae1b5d84247"
 nuclei: [generic]
 reactions: [heavy-ion-oriented-nuclei]
@@ -36,7 +36,7 @@ tags: [PDCO, DCO, CLOVER, polarization, angular-correlation]
 
 - Ch. Droste *et al.*, *NIM A* **378**, 518–525 (1996), PII `0168-9002(96)00426-3`.
 - 本session Crossref按exact title/作者/年份匹配DOI `10.1016/0168-9002(96)00426-3`；原件hash匹配，既有citation key不改。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf`。
 
 ## Scope and Reading Depth
 

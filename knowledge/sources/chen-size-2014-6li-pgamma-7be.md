@@ -22,8 +22,8 @@ canonical_source: "陈思泽. 6Li(p,γ)7Be低能截面的实验研究[D]. 中国
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/陈思泽.pdf"
-raw_file: "raw/papers/degree dissertation/陈思泽.pdf"
+library_file: "raw/theses/degree-dissertation/陈思泽.pdf"
+raw_file: "raw/theses/degree-dissertation/陈思泽.pdf"
 raw_sha256: "3CFAB3B6DDED29F7EE9A6FA8C8EAB2E438AC4CE41A2C72F77DA714AB4D052ABD"
 nuclei: [6li, 7be, 3he]
 reactions: ["6Li(p,gamma)7Be", "6Li(p,alpha)3He"]

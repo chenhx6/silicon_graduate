@@ -23,8 +23,8 @@ citation_key: Sensharma_2026
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 zotero_uri:
-library_file: "raw/papers/gpt/_incoming/20260912-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf"
-raw_file: "raw/papers/gpt/_incoming/20260912-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260912-PREPLAN-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260912-PREPLAN-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf"
 raw_sha256: "294f791a230a12005ef43a237afb25b9bf731f8f520a1a65d6b32d0386ef91b3"
 nuclei: [135pr]
 reactions: ["123Sb(16O,4n)135Pr"]
@@ -138,7 +138,7 @@ N. Sensharma 等，*Evolution of chirality from transverse wobbling in `135Pr`*�
 
 本次先冻结primed定向回忆，再核main raw原SHA，读PDF2–5、14–15及17相关引用，视觉核TableI和Fig12；不是新通读17页。旧SH26-1–11及unreviewed状态保持，新12–16均needs_review:true；旧false仅历史Codex self-audit，不扩为人审。Crossref重核正式DOI10.1103/3g4p-ncjn；publisher public abstract返回403，未得VoR正文/其DAS，不把本v2当已核VoR。
 
-公开arXivv2 landing200，submission history定v2为2026-01-15；其TeX Source链接合法取得归档，5825886bytes，SHA-256 cdda3eceff0876c3774b253d91e1e41441941a3a2dbd9d358f64f2b785312278。本地仅新增raw/papers/gpt/day15-20261016/sh26-arxiv-2403.10749v2-source.tar，不覆盖main raw、不执行其中内容、不stage archive。29项inventory与26PDF零embedded files保留，TeX实际164/435行和三张原始chi2 PDF已定向检查。作者文件名V3与arXivv2分开；原件中的注释不是独立正式科学结论。
+公开arXivv2 landing200，submission history定v2为2026-01-15；其TeX Source链接合法取得归档，5825886bytes，SHA-256 cdda3eceff0876c3774b253d91e1e41441941a3a2dbd9d358f64f2b785312278。本地仅新增raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/sh26-arxiv-2403.10749v2-source.tar，不覆盖main raw、不执行其中内容、不stage archive。29项inventory与26PDF零embedded files保留，TeX实际164/435行和三张原始chi2 PDF已定向检查。作者文件名V3与arXivv2分开；原件中的注释不是独立正式科学结论。
 
 SH26-8/9/11的作者偏好与shared-lineage判断仍保留；新SH26-13/15把固定sigma切片、不同数据summary、未知event-level overlap说清。[[135pr-mixing-branch-input-contract]]保存三方delta/input角色表和后续profile设计，未从log10图估计Delta chi²、dof、reject significance或证明任意geometry/feeding下唯一解。当前public package没有足够input独立重放本分支选择，但并不声称作者从未提供过其它渠道。
 

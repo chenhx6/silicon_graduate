@@ -338,7 +338,7 @@ OAI metadata允许正常索引；本次只读元数据定位目标，未下载�
 
 以下文件已由用户提供，核对 PDF 签名、可解析页数和首页身份，按原路径登记。此前未取得正文的记录保留为历史访问结果；本次仅解除文件获取缺口，尚未核查原表、公式或科学结论，不改变已有 review 状态。
 
-- Complete Spectroscopy in the Mercury-187m,g Decay: The Structure of Gold-187.；DOI `10.31390/gradschool_disstheses.5753`；PDF 264 页；原件 [PDF](<../../raw/papers/degree dissertation/Complete Spectroscopy in the Mercury-187mg Decay_ The Structure.pdf>)。SHA-256：`c6067cc8efb4677552d51bb59e0b120f8801a71d67fdbd61c716bd2b938eecea`。
+- Complete Spectroscopy in the Mercury-187m,g Decay: The Structure of Gold-187.；DOI `10.31390/gradschool_disstheses.5753`；PDF 264 页；原件 [PDF](<../../raw/theses/degree-dissertation/Complete Spectroscopy in the Mercury-187mg Decay_ The Structure.pdf>)。SHA-256：`c6067cc8efb4677552d51bb59e0b120f8801a71d67fdbd61c716bd2b938eecea`。
 - Étude par spectroscopie en ligne des états d’énergie de 187Au；DOI `10.1016/0375-9474(78)90184-7`；PDF 21 页；原件 [PDF](<../../raw/papers/1-s2.0-0375947478901847-main.pdf>)。SHA-256：`4d0f586b6493553f95899b244280f6e07a6836b6c8f715f977d3afd04a878223`。
 
 Rupnik 为 1994 学位论文，不能据此把 1998 期刊论文也标为已取得或视为独立实验。264 为本地 PDF 总页数，与机构书目所列正文页数分开。

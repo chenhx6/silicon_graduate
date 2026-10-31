@@ -29,7 +29,7 @@
 
 ## 输入与学位论文读取产物
 
-上一批报告 `outputs/degree-dissertation-ingest-20260905.md` 作为初始来源和问题池入口。其来源谱系包括 15 篇学位论文（含丁兵论文和 Alwaleedi 复读记录）以及不计入学位论文数量的 `103Pd` 附加实验报告；manifest 中的原始输入目录为 `raw/papers/degree dissertation/`。执行时仍须以 raw 目录和 manifest 的实际文件为准，逐一打开 PDF 并登记读取状态。已知的论文主题覆盖 `130,131Ba`、`108,112Ru`、`127–131Pr`、`135Pr/187Au`、`170Re/176Ir`、裂变碎片、`100Sn/100In`、`237Pu`、`178Hf`、NEEC 和 `6Li(p,γ)7Be` 等。
+上一批报告 `outputs/degree-dissertation-ingest-20260905.md` 作为初始来源和问题池入口。其来源谱系包括 15 篇学位论文（含丁兵论文和 Alwaleedi 复读记录）以及不计入学位论文数量的 `103Pd` 附加实验报告；manifest 中的原始输入目录为 `raw/theses/degree-dissertation/`。执行时仍须以 raw 目录和 manifest 的实际文件为准，逐一打开 PDF 并登记读取状态。已知的论文主题覆盖 `130,131Ba`、`108,112Ru`、`127–131Pr`、`135Pr/187Au`、`170Re/176Ir`、裂变碎片、`100Sn/100In`、`237Pu`、`178Hf`、NEEC 和 `6Li(p,γ)7Be` 等。
 
 每篇学位论文的读取记录至少包含：
 

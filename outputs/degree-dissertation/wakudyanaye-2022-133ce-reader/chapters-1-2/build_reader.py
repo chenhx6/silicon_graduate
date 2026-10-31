@@ -10,7 +10,7 @@ from PIL import Image
 
 OUT = Path(__file__).resolve().parent
 ROOT = Path('/workspace/wiki')
-SOURCE = ROOT/'raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf'
+SOURCE = ROOT/'raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf'
 EXPECTED = '48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080'
 doc = fitz.open(SOURCE)
 specs=[]

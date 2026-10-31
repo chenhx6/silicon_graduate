@@ -20,8 +20,8 @@ citation_key: Freire_Fern_ndez_2024
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevLett.133.022502"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf"
 raw_sha256: "3e35af6920c1c22c654fead0e1b9e36fa38ba2a2e39672f02011e65a62ad7dc7"
 nuclei: [72Ge]
 reactions: [78Kr+9Be-fragmentation]
@@ -37,7 +37,7 @@ tags: [two-photon-decay, 72Ge, isomer, storage-ring, Schottky, shape-coexistence
 ## Bibliographic Record
 
 - D. Freire-Fernández *et al.*, *Physical Review Letters* **133**, 022502 (2024), DOI `10.1103/PhysRevLett.133.022502`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2024_Freire-Fernandez et al_Measurement of the Isolated Nuclear Two-Photon Decay in 72 Ge.pdf`。
 - 7-page open-access PRL; title/DOI, figures, Tables I–II and methods text checked. The batch's HS-116 file is the Walz 2015 supplementary information and is unrelated to this Freire-Fernández source; no Freire-Fernández supplement was supplied.
 
 ## Scope and Reading Depth

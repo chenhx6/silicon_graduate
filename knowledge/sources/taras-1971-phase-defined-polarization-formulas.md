@@ -19,8 +19,8 @@ pages: "328-351"
 doi: "10.1139/p71-039"
 language: en
 canonical_source: "Taras, P. Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Matrix Elements. Can. J. Phys. 49, 328-351 (1971)."
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1971_Taras_Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Ma.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1971_Taras_Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Ma.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1971_Taras_Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Ma.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1971_Taras_Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Ma.pdf"
 raw_sha256: "151e8a5274e3f9f510f3884a0e5e20a0ca8c9d883d609fe18ab7b4fb669e8a5d"
 nuclei: ["35Cl", "19F", "26Mg", "29Si", "37Ar"]
 models: ["Rose-Brink-formalism"]
@@ -35,7 +35,7 @@ tags: [phase-defined-matrix-elements, mixing-ratio-sign, angular-distribution, g
 
 - 作者：P. Taras。
 - 期刊：*Canadian Journal of Physics* 49(3), 328-351 (1971)。DOI：`10.1139/p71-039`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1971_Taras_Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Ma.pdf`；SHA-256：`151e8a5274e3f9f510f3884a0e5e20a0ca8c9d883d609fe18ab7b4fb669e8a5d`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1971_Taras_Gamma-Ray Linear Polarization and Angular Distribution Formulas in Terms of Phase-Defined Reduced Ma.pdf`；SHA-256：`151e8a5274e3f9f510f3884a0e5e20a0ca8c9d883d609fe18ab7b4fb669e8a5d`。
 
 ## Scope and Reading Depth
 

@@ -18,7 +18,7 @@ doi: "10.1007/BF02159726"
 citation_key: ""
 canonical_source: "https://doi.org/10.1007/BF02159726"
 source_url: "http://link.springer.com/content/pdf/10.1007/BF02159726.pdf"
-raw_file: "raw/papers/day20-20261022/dafni-1983-ce-tin-quadrupole.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/dafni-1983-ce-tin-quadrupole.pdf"
 raw_sha256: "5b08557f5fd79724547485c93fd729ecce97540cd9a2b5b45df40abc1734ce08"
 raw_storage_status: reserved-unpopulated-public-publisher-pdf-only
 raw_archive_verified_at: 2026-10-23

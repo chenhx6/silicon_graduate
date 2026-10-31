@@ -344,7 +344,7 @@ TableB.1 printed222的Z70为`70-Yb-173`、K binding61.3323keV；superscript b仅
 
 两表N6/N7均空白，各有两条`ICC could not be calculated for EG above 398.000 keV`。缺项未补0；程序仍返回的Tot按“program-reported with coverage warning”保存，**不认证完整total**。K壳条目有值、electron kinetic energy428.47keV，与2008K binding的名义差428.4677相符。主要shell sum在打印Tot误差内只核转录，不恢复missing shells或给严格缺项upper bound；source说典型<1e−9不是每点保证。
 
-响应原件新建为`raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-m1-0f74bd9078a7.html`和`raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-e2-bde3a2eefe5d.html`，从不stage raw。全部printed rows及定向设计保存在[[internal-conversion-analysis]]与[[st99-pdco-calibration-table-replay]]，不仅在outputs。查询/离线capture/计算脚本分别为`day16_bricc_reference_query.py`、`day16_bricc_reference_capture.py`、`day16_bricc_n164_icc_design.py`；精确冻结与hash见其artifact链接。
+响应原件新建为`raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/bricc-z70-489p8-fo-m1-0f74bd9078a7.html`和`raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/bricc-z70-489p8-fo-e2-bde3a2eefe5d.html`，从不stage raw。全部printed rows及定向设计保存在[[internal-conversion-analysis]]与[[st99-pdco-calibration-table-replay]]，不仅在outputs。查询/离线capture/计算脚本分别为`day16_bricc_reference_query.py`、`day16_bricc_reference_capture.py`、`day16_bricc_n164_icc_design.py`；精确冻结与hash见其artifact链接。
 
 ### 固定ST99候选的理论reference
 
@@ -412,7 +412,7 @@ M1/E2 ICC的quoted误差共享table/energy来源，Cov未给；只把两quoted m
 | programTot | — | 6.440E10 | s^-1，非认证complete total |
 | K/Tot | — | .8688 | 无量纲 |
 
-原HTTP SHA-256 `f6bf17c5f15368b2e3143175415a959b9745b87446d134c2434a8abf315aa1dc`；新raw为`raw/papers/gpt/day15-20261016/bricc-z70-489p8-e0-beomg-f6bf17c5f153.html`，未覆盖已有raw且不stage。列出K+L1+L2为6.43956E10，与programTot打印精度相容只检转录；没有填缺壳层或理论误差。这个量是电子因子Omega，pureE0没有single-gamma，不能给它定义普通ICC。
+原HTTP SHA-256 `f6bf17c5f15368b2e3143175415a959b9745b87446d134c2434a8abf315aa1dc`；新raw为`raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/bricc-z70-489p8-e0-beomg-f6bf17c5f153.html`，未覆盖已有raw且不stage。列出K+L1+L2为6.43956E10，与programTot打印精度相容只检转录；没有填缺壳层或理论误差。这个量是电子因子Omega，pureE0没有single-gamma，不能给它定义普通ICC。
 
 用上述两壳M1/E2与Omega，定义w为M1辐射分数、z=OmegaK rho²/Tgamma，无量纲，则K/L1 ratios减pureE2 vector后，矩阵为`A=((.02155,1),(.00309,.1480607685))`。列分别归一后夹角.262192°、2norm条件数437.0513。打印中心满秩不代表stable inversion；source-inspired的名义1% L1 ratio变化、K不变可使w移动−.452108（不是测得误差或blind实验）。另一个postlookup独立scope控制在两K quoted margins内可取M1_K=.0358209924/E2_K=.0149511832，使两列严格共线；不声称实际shared atomicCov允许该同时偏移，也不把marginal误差当joint置信域。
 

@@ -19,8 +19,8 @@ citation_key: Garg_2015
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Garg et al., Phys. Rev. C 92, 054325 (2015)"
-library_file: "raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf"
 raw_sha256: "c74e7c12614cf405861c639194e132f3096d5f46d22062b0164fa166282b9e88"
 nuclei: [135Pr]
 reactions: [123Sb-16O-4n]
@@ -36,7 +36,7 @@ tags: [135Pr, magnetic-rotation, TAC, high-spin, M1-E2]
 ## Bibliographic Record
 
 - R. Garg *et al.*, *Phys. Rev. C* **92**, 054325 (2015), DOI `10.1103/PhysRevC.92.054325`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf`。
 
 ## Scope and Reading Depth
 

@@ -17,7 +17,7 @@ def main():
         'qtr14_raw': root / 'raw/papers/2014_Frauendorf_Dönau_Transverse wobbling.pdf',
         'nd22_raw': root / 'raw/papers/2022_Lv et al_Experimental evidence for transverse wobbling bands in Nd 136.pdf',
         'nd18_raw': root / 'raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf',
-        'thesis19_raw': root / 'raw/papers/degree dissertation/吕冰峰.pdf',
+        'thesis19_raw': root / 'raw/theses/degree-dissertation/吕冰峰.pdf',
     }
     hashes = {k: hashlib.sha256(v.read_bytes()).hexdigest() for k, v in raws.items()}
     expected = {

@@ -19,7 +19,7 @@ citation_key: zhao_2012_105cd_cdft_antimagnetic
 citation_key_origin: crossref-and-primary-record
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1103/PhysRevC.85.054310"
-raw_file: "raw/papers/gpt/day26-20261028/zhao-2012-105cd-cdft-antimagnetic-arxiv1205.0867v1.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhao-2012-105cd-cdft-antimagnetic-arxiv1205.0867v1.pdf"
 raw_sha256: "41dd8f32ab8131913177c41a64c05a36e931910165ca8198ae66344908e5bc3e"
 nuclei: [105Cd]
 models: [antimagnetic-rotation]

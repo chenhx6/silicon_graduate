@@ -22,8 +22,8 @@ canonical_source: "Morgan, Thomas James. Identification of Nilsson Orbitals in t
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/Morgan_Thomas.pdf"
-raw_file: "raw/papers/degree dissertation/Morgan_Thomas.pdf"
+library_file: "raw/theses/degree-dissertation/Morgan_Thomas.pdf"
+raw_file: "raw/theses/degree-dissertation/Morgan_Thomas.pdf"
 raw_sha256: "5FAE0D0604C4A65ED889DFA579DDF902C20B00A457526F6491D9BC672A0476FB"
 nuclei: [237pu, 236u, 240pu]
 reactions: ["235U(alpha,2n)237Pu"]

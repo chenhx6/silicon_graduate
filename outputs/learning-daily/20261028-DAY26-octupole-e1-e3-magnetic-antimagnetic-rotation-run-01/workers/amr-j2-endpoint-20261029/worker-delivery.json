@@ -4,7 +4,7 @@
   "deliverables": {
     "research_note": "knowledge/research-notes/amr-j2-dynamic-inertia-endpoint-audit.md",
     "source_page": "knowledge/sources/rather-2014-104pd-antimagnetic-arxiv-full.md",
-    "raw_pdf": "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf",
+    "raw_pdf": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf",
     "artifacts": [
       "amr-j2-endpoint-20261029_j2.py",
       "j2_systematics.csv",

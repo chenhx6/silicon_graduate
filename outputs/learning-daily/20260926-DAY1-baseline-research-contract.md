@@ -287,7 +287,7 @@ status: in-progress
 
 - 本轮写入前 boundary check exit `0`；矩阵写回仅涉及 `knowledge/projects/a130-thesis-evidence-matrix.md`，未改 raw、PLAN、protected BibTeX 或既有 source review 状态。
 - 已核对 Ding 2021、Walz 2015、Söderström 2020 三个 raw PDF 的 SHA-256；原始 PDF 版本与 source-page metadata 一致。
-- Continuation 1 新增了两个公开全文 source page：`knowledge/sources/palacz-1991-high-spin-131ce.md`（SHA-256 `e230b4a7…ef7b`）和 `knowledge/sources/bazzacco-1998-rotational-bands-133nd.md`（SHA-256 `0beaa99e…a22b`），并在 project page 固化 refs.47/48 的 source lineage。公开 PDF 只进入 `raw/papers/gpt/_incoming/20260926-day1-n73/`，没有覆盖既有 raw。
+- Continuation 1 新增了两个公开全文 source page：`knowledge/sources/palacz-1991-high-spin-131ce.md`（SHA-256 `e230b4a7…ef7b`）和 `knowledge/sources/bazzacco-1998-rotational-bands-133nd.md`（SHA-256 `0beaa99e…a22b`），并在 project page 固化 refs.47/48 的 source lineage。公开 PDF 只进入 `raw/papers/gpt/learning-daily/20260926-DAY1-baseline-research-contract/`，没有覆盖既有 raw。
 - Byrne 1992 `129Ba` 的 DOI/题名已由 Crossref/OpenAlex/Semantic Scholar 交叉确认，但全文获取返回 closed/400；该缺口记录为 source boundary，未用搜索摘要补 claim。
 - Continuation 2 再次运行 `python3 system/scripts/wiki_lint.py --fail-on error`：exit `0`，`errors=0`、`warnings=80`、`info=1120`；`git diff --check`：exit `0`。HJS source correction 及 Day 2 验证没有引入 lint error；剩余 warnings 属于既有基线（citation-key 缺口、三个未自动解析反应和继承的 raw 工作树提示等），不是本轮新增科学错误。
 - 结构化 `knowledge-writeback` 解析器在不带运行前快照的独立复核中返回 `valid: true, mode: updated`；runner 将用启动时快照确认该矩阵页确实发生了 durable change。

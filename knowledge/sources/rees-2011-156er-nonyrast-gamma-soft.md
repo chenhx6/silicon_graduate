@@ -19,8 +19,8 @@ citation_key: Rees_2011
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Rees et al., Phys. Rev. C 83, 044314 (2011)"
-library_file: "raw/papers/gpt/high-spin-20260920/转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf"
 raw_sha256: "899151b1b93fdd2c323d45f252b7ea840516daae85c8d9016cb75aada775059f"
 nuclei: [156Er, 157Er, 158Er]
 reactions: [114Cd-48Ca-6n]
@@ -36,7 +36,7 @@ tags: [156Er, gamma-soft, gamma-band, non-yrast, alignment, Gammasphere]
 ## Bibliographic Record
 
 - J. M. Rees *et al.*, *Phys. Rev. C* **83**, 044314 (2011), DOI `10.1103/PhysRevC.83.044314`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/2011_Rees et al_Non-yrast positive-parity structures in the γ -soft nucleus Er 156.pdf`。
 
 ## Scope and Reading Depth
 

@@ -15,8 +15,8 @@ year: 1990
 volume: 40
 pages: "439-528"
 canonical_source: "Åberg, Flocard & Nazarewicz, Annu. Rev. Nucl. Part. Sci. 40, 439-528 (1990)"
-library_file: "raw/papers/gpt/high-spin-20260920/形变/1990_Aberg et al_Nuclear Shapes in Mean Field Theory.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/形变/1990_Aberg et al_Nuclear Shapes in Mean Field Theory.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Aberg et al_Nuclear Shapes in Mean Field Theory.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Aberg et al_Nuclear Shapes in Mean Field Theory.pdf"
 raw_sha256: "90e3d1324dbf591cc042a3ad3b777a75e00af1463869d9ad557af433469562e6"
 nuclei: [generic, 152Dy, 192Hg, 147Gd, 212Rn, 186Pb]
 reactions: [generic-high-spin-mean-field]
@@ -32,7 +32,7 @@ tags: [mean-field, nuclear-shapes, triaxiality, high-spin, octupole, shape-coexi
 ## Bibliographic Record
 
 - S. Åberg, H. Flocard & W. Nazarewicz, *Annu. Rev. Nucl. Part. Sci.* **40**, 439–528 (1990).
-- 规范文件：`raw/papers/gpt/high-spin-20260920/形变/1990_Aberg et al_Nuclear Shapes in Mean Field Theory.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Aberg et al_Nuclear Shapes in Mean Field Theory.pdf`。
 
 ## Scope and Reading Depth
 

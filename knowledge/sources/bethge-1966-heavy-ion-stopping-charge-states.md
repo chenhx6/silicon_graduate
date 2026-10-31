@@ -18,7 +18,7 @@ doi: 10.1515/zna-1966-0727
 citation_key: ""
 canonical_source: "Bethge Sandner Schmidt 1966 ZNaturforsch21a1052 DOI10.1515/zna-1966-0727"
 source_url: https://doi.org/10.1515/zna-1966-0727
-raw_file: raw/papers/day17-20261019/bethge-1966-stopping-charge-states.pdf
+raw_file: raw/papers/gpt/learning-daily/20261019-DAY17-linear-polarization-paq-compton/bethge-1966-stopping-charge-states.pdf
 raw_sha256: 1b0d51590cd0341ac4fa3a496c81252572740d13ea66ee2612f6fbb6ac0ec6d6
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23

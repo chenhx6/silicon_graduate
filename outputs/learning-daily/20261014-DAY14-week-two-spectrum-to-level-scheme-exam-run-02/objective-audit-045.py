@@ -135,14 +135,14 @@ checks['card_audit_minimum4_deliverables_complete'] = len(re.findall(r'^\|.*\| c
 
 ding = ROOT / 'knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md'
 dingt = ding.read_text()
-dingdoc = pymupdf.open(ROOT / 'raw/papers/degree dissertation/丁兵 - 博士论文.pdf')
+dingdoc = pymupdf.open(ROOT / 'raw/theses/degree-dissertation/丁兵 - 博士论文.pdf')
 cover = re.sub(r'\s+', '', dingdoc[0].get_text())
 checks['ding_cover_submission_april_defense_may'] = '论文提交日期2012年4月' in cover and '论文答辩日期2012年5月' in cover and '论文提交日期：2012 年 4 月；论文答辩日期：2012 年 5 月' in dingt and '| D12-36 |' in dingt
 base045 = json.loads((RUN / 'baseline-045.json').read_text())
 dingold = git('show', base045['HEAD'] + ':' + ding.relative_to(ROOT).as_posix()).stdout
 oldrows = [l for l in dingold.splitlines() if re.match(r'^\| D12-\d+ \|',l)]
 checks['ding_prior35_rows_exact'] = len(oldrows)==35 and all(l in dingt.splitlines() for l in oldrows)
-evidence['metadata_correction'] = dict(knowledge=ding.relative_to(ROOT).as_posix(), locator='D12-36', original_page='PDF p.1 cover', raw_sha256=sha(ROOT / 'raw/papers/degree dissertation/丁兵 - 博士论文.pdf'))
+evidence['metadata_correction'] = dict(knowledge=ding.relative_to(ROOT).as_posix(), locator='D12-36', original_page='PDF p.1 cover', raw_sha256=sha(ROOT / 'raw/theses/degree-dissertation/丁兵 - 博士论文.pdf'))
 
 checks['PLAN_Bib_protected_hashes'] = all(sha(ROOT / p) == h for p, h in baseline['protected_hashes'].items())
 raw_now = {p.relative_to(ROOT).as_posix(): [p.stat().st_size,p.stat().st_mtime_ns] for p in (ROOT/'raw').rglob('*') if p.is_file()}

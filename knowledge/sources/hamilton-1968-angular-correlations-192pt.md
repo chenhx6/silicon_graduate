@@ -16,8 +16,8 @@ volume: 122
 pages: "165-176"
 pii: "0375-9474(68)90710-0"
 canonical_source: "Hamilton & Davies, Nucl. Phys. A 122, 165-176 (1968)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1968_Hamilton et al_Angular correlation measurements in 192Pt.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1968_Hamilton et al_Angular correlation measurements in 192Pt.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1968_Hamilton et al_Angular correlation measurements in 192Pt.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1968_Hamilton et al_Angular correlation measurements in 192Pt.pdf"
 raw_sha256: "5a08c45e80c6793456ad892f68e97bf471c86b4ec69f57fe0920d179ec477f77"
 nuclei: [192Pt, 192Ir]
 reactions: [192Ir-beta-decay]
@@ -33,7 +33,7 @@ tags: [192Pt, mixing-ratio, angular-correlation, polarization, historical-method
 ## Bibliographic Record
 
 - W. D. Hamilton and K. E. Davies, *Nuclear Physics A* **122**, 165–176 (1968), PII `0375-9474(68)90710-0`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1968_Hamilton et al_Angular correlation measurements in 192Pt.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1968_Hamilton et al_Angular correlation measurements in 192Pt.pdf`。
 - 12-page historical experiment; Ge+NaI cascade separation and summing polarimeter checked.
 
 ## Scope and Reading Depth

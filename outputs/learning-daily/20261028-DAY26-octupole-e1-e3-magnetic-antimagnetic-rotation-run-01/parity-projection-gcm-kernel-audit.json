@@ -184,7 +184,7 @@
   ],
   "sources": [
     {
-      "path": "raw/papers/gpt/day26-20261028/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf",
       "bytes": 1399379,
       "sha256": "d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997",
       "signature": "%PDF-",
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "path": "raw/papers/day26-20261028/2010-robledo-octupole-ra-ba.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2010-robledo-octupole-ra-ba.pdf",
       "bytes": 388984,
       "sha256": "ae90e45da93dd20dcdd46aed4e6ca58aa077c5b50f03062892a417d2e96493c8",
       "signature": "%PDF-",

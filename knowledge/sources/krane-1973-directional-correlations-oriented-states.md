@@ -17,8 +17,8 @@ volume: 11
 pages: "351-406"
 pii: "S0092-640X(73)80016-6"
 canonical_source: "Krane, Steffen & Wheeler, Nucl. Data Tables 11, 351-406 (1973)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1973_Krane et al_Directional correlations of gamma radiations emitted from nuclear states.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1973_Krane et al_Directional correlations of gamma radiations emitted from nuclear states.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1973_Krane et al_Directional correlations of gamma radiations emitted from nuclear states.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1973_Krane et al_Directional correlations of gamma radiations emitted from nuclear states.pdf"
 raw_sha256: "66f9b04ad093223c648036063e3e9631317660b532b2b77681089d9d79853848"
 nuclei: [oriented-nuclei]
 reactions: [Coulomb-excitation, heavy-ion-reaction, cryogenic-orientation]
@@ -34,7 +34,7 @@ tags: [DCO, angular-correlation, alignment, orientation, mixing-ratio, method-re
 ## Bibliographic Record
 
 - K. S. Krane, R. M. Steffen and R. M. Wheeler, *Nuclear Data Tables* **11**, 351–406 (1973), PII `S0092-640X(73)80016-6`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1973_Krane et al_Directional correlations of gamma radiations emitted from nuclear states.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1973_Krane et al_Directional correlations of gamma radiations emitted from nuclear states.pdf`。
 - 56-page method review with generalized F-coefficient tables and practical detector geometries.
 
 ## Scope and Reading Depth

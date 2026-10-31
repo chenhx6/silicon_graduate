@@ -19,8 +19,8 @@ citation_key: Henderson_2014
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Henderson et al., Phys. Rev. C 89, 064307 (2014)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2014_Henderson et al_Upper limit on the two-photon emission branch for the 0 2 + → 0 1 + transition.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2014_Henderson et al_Upper limit on the two-photon emission branch for the 0 2 + → 0 1 + transition.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2014_Henderson et al_Upper limit on the two-photon emission branch for the 0 2 + → 0 1 + transition.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2014_Henderson et al_Upper limit on the two-photon emission branch for the 0 2 + → 0 1 + transition.pdf"
 raw_sha256: "cc58109417fc373322985f880b6b54f3bb2efbe9a88baa8536fb96a6a015d7cd"
 nuclei: [98Mo, 90Zr, 16O, 40Ca]
 reactions: [98Mo-proton-scattering]
@@ -36,7 +36,7 @@ tags: [98Mo, two-photon-decay, upper-limit, shape-coexistence, Gammasphere]
 ## Bibliographic Record
 
 - J. Henderson *et al.*, *Phys. Rev. C* **89**, 064307 (2014), DOI `10.1103/PhysRevC.89.064307`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2014_Henderson et al_Upper limit on the two-photon emission branch for the 0 2 + → 0 1 + transition.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2014_Henderson et al_Upper limit on the two-photon emission branch for the 0 2 + → 0 1 + transition.pdf`。
 
 ## Scope and Reading Depth
 

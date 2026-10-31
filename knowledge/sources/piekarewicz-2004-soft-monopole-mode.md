@@ -18,6 +18,8 @@ pages: "041301(R)"
 doi: "10.1103/PhysRevC.69.041301"
 canonical_source: "https://doi.org/10.1103/PhysRevC.69.041301"
 citation_key: piekarewicz2004unmasking
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.69.041301.pdf"
+raw_sha256: 885b59e7151a44b531f945dac490fe95151f1712b72b82608f85e47a65f674f8
 nuclei: [90zr, 116sn, 120sn, 132sn, 140sn, 208pb]
 reactions: []
 experiments: []
@@ -59,6 +61,14 @@ PRC 69, 041301(R) (2004), DOI `10.1103/PhysRevC.69.041301`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PIE04-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. II, Fig. 1 | false |
+| PIE04-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. III, Fig. 2 | false |
+| PIE04-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. IV, Fig. 3, Table I | false |
+| PIE04-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. V, Conclusions | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

@@ -19,7 +19,7 @@ citation_key: ""
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "doi:10.1016/j.nima.2021.166155; actual read: UNC author preprint 2021-12-02"
 source_url: "https://doi.org/10.17615/4vxa-4h20"
-raw_file: "raw/papers/gpt/day16-20261018/morse-2022-gretina-calibration-author-preprint.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/morse-2022-gretina-calibration-author-preprint.pdf"
 raw_sha256: "f76cf7073fb5c5240d638b332802730614f9f81d8aa2f971c6957acfddbfc241"
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23

@@ -22,7 +22,7 @@ zotero_item_key: ""
 citation_key: ""
 zotero_uri: ""
 library_file: ""
-raw_file: "raw/papers/gpt/day3-mean-field-20260929/137pr-2007-magnetic-rotation/PDFs/Bandcrossing_of_magnetic_rotation_bands_in_137Pr.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/137pr-2007-magnetic-rotation/PDFs/Bandcrossing_of_magnetic_rotation_bands_in_137Pr.pdf"
 raw_sha256: 83ccf538913d777f60832ee7ff304ffa8ca0678399b893f827236a6ab33c6a55
 nuclei: [137Pr]
 reactions: ["122Sn(19F,4n)137Pr"]
@@ -37,7 +37,7 @@ tags: [a130, 137pr, magnetic-rotation, band-crossing, high-spin]
 
 ## Bibliographic Record
 
-Priyanka Agarwal et al., Physical Review C 76, 024321 (2007), DOI [10.1103/PhysRevC.76.024321](https://doi.org/10.1103/PhysRevC.76.024321)。Crossref 核实题名、作者、卷和文章号；Crossref 为 APS standard license，OpenAlex 未检出 OA 仓储全文。本次通过 APS 官方 PDF URL 直接取得文件，HTTP 响应为 application/pdf 且以 %PDF 开头；访问 manifest 为 raw/papers/gpt/day3-mean-field-20260929/137pr-2007-magnetic-rotation/manifest.json。此记录为 publisher-direct retrieval，不标为开放许可。
+Priyanka Agarwal et al., Physical Review C 76, 024321 (2007), DOI [10.1103/PhysRevC.76.024321](https://doi.org/10.1103/PhysRevC.76.024321)。Crossref 核实题名、作者、卷和文章号；Crossref 为 APS standard license，OpenAlex 未检出 OA 仓储全文。本次通过 APS 官方 PDF URL 直接取得文件，HTTP 响应为 application/pdf 且以 %PDF 开头；访问 manifest 为 raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/137pr-2007-magnetic-rotation/manifest.json。此记录为 publisher-direct retrieval，不标为开放许可。
 
 ## Scope and Reading Depth
 

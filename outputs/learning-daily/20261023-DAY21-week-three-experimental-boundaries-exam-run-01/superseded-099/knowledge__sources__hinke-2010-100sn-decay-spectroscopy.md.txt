@@ -22,8 +22,8 @@ canonical_source: "Hinke, Christoph B. Spectroscopy of the doubly magic nucleus 
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/Spectroscopy of the doubly magic nucleus 100Sn and its decay.pdf"
-raw_file: "raw/papers/degree dissertation/Spectroscopy of the doubly magic nucleus 100Sn and its decay.pdf"
+library_file: "raw/theses/degree-dissertation/Spectroscopy of the doubly magic nucleus 100Sn and its decay.pdf"
+raw_file: "raw/theses/degree-dissertation/Spectroscopy of the doubly magic nucleus 100Sn and its decay.pdf"
 raw_sha256: "DE8701C318D9C1F973D3F6B3FE8CABEC6D291A19F26059B7B675393C5EDA38D2"
 nuclei: [100sn, 100in, 100cd]
 reactions: ["124Xe projectile fragmentation on Be at 1 GeV per nucleon"]

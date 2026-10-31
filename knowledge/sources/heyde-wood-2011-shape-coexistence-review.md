@@ -19,8 +19,8 @@ citation_key: Heyde_2011
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/RevModPhys.83.1467"
-library_file: "raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf"
 raw_sha256: "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183"
 nuclei: [16O, 40Ca, 56Ni, 186Pb, 188Hg, 100Zr]
 reactions: []
@@ -40,7 +40,7 @@ tags: [shape-coexistence, shell-evolution, E0, E2, review]
 ## Bibliographic Record
 
 - K. Heyde and J. L. Wood, *Reviews of Modern Physics* **83**, 1467–1521 (2011), DOI `10.1103/RevModPhys.83.1467`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf`。
 - 55-page RMP; theoretical approaches, systematic examples, spectroscopic fingerprints and outlook read.
 
 ## Scope and Reading Depth

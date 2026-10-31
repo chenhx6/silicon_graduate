@@ -18,6 +18,8 @@ pages: "241-248"
 doi: "10.1007/bf01287259"
 canonical_source: "https://doi.org/10.1007/bf01287259"
 citation_key: rohozinski1988triaxialscissors
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/BF01287259.pdf"
+raw_sha256: 3a8c54033a22443700329bf860d0ca5d51b7ec34ab3193dd059f426d23228abc
 nuclei: [156gd, 160er, 164dy, 134ce, 192os]
 reactions: []
 experiments: []
@@ -59,6 +61,14 @@ Z. Phys. A 330, 241-248 (1988), DOI `10.1007/BF01287259`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ROH88-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 2, Eqs. (12)-(15) | false |
+| ROH88-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | \omega_1 - \omega_2 | source-reported | method/formalism | direct |
+| ROH88-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 3, Table 1 | false |
+| ROH88-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 4, Eq. (31) | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

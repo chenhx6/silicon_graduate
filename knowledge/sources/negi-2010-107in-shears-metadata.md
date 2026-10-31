@@ -19,7 +19,7 @@ citation_key: negi_2010_107in_shears_metadata
 citation_key_origin: crossref-and-primary-record
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1103/PhysRevC.81.054322"
-raw_file: "raw/papers/gpt/day26-20261028/negi-2010-107in-shears-metadata-crossref.json"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/negi-2010-107in-shears-metadata-crossref.json"
 raw_sha256: "8ee0404859890fdb7244b4c9e6b369256ec86da98e070734751baf9c4355870e"
 nuclei: [107In]
 models: [antimagnetic-rotation]

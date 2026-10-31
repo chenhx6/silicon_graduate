@@ -2,8 +2,8 @@
   "schema_version": 1,
   "task": "grodner11-126cs-dsam-strength-audit",
   "inputs": [
-    "raw/papers/codex-day10/grodner-2011-126cs.xml",
-    "raw/papers/codex-day10/grodner-2006-128cs.pdf"
+    "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/grodner-2011-126cs.xml",
+    "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/grodner-2006-128cs.pdf"
   ],
   "checks": [
     "13 levels exact lifetime reconstruction within experimental 1-sigma",

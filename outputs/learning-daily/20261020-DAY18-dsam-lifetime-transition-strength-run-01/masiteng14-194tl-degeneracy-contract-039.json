@@ -2,7 +2,7 @@
   "schema_version": 1,
   "task": "masiteng14-194tl-degeneracy-audit",
   "inputs": [
-    "raw/papers/gpt/day4-20260930/194tl-pai-2012/PDFs/Pai-2012-PRC85-064313-194Tl-arXiv-1201.6596v2.pdf",
+    "raw/papers/gpt/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration/194tl-pai-2012/PDFs/Pai-2012-PRC85-064313-194Tl-arXiv-1201.6596v2.pdf",
     "raw/papers/2022_Possible existence of chiral and multiple chiral nuclei in thallium isotopes .pdf"
   ],
   "checks": [

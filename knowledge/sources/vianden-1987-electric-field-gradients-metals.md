@@ -19,7 +19,7 @@ doi: "10.1007/BF02394554"
 citation_key: ""
 canonical_source: "https://doi.org/10.1007/BF02394554"
 source_url: "http://link.springer.com/content/pdf/10.1007/BF02394554.pdf"
-raw_file: "raw/papers/day20-20261022/vianden-1987-efg-metals.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/vianden-1987-efg-metals.pdf"
 raw_sha256: "ec9cfaa6f2f47b9ecacde62f226b575c5002915b620dd971b1eac5a63f3f1508"
 raw_storage_status: reserved-unpopulated-public-publisher-pdf-only
 raw_archive_verified_at: 2026-10-23

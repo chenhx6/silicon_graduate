@@ -300,7 +300,7 @@
     "thesis_candidate": "10.7274/sj13902283h; metadata only/body not obtained"
   },
   "SH26_public_archive": {
-    "path": "raw/papers/gpt/day15-20261016/sh26-arxiv-2403.10749v2-source.tar",
+    "path": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/sh26-arxiv-2403.10749v2-source.tar",
     "sha256": "cdda3eceff0876c3774b253d91e1e41441941a3a2dbd9d358f64f2b785312278",
     "regular_members": 29,
     "pdfs": 26,
@@ -529,7 +529,7 @@
       18
     ],
     "VoR_critical_defs_verified": true,
-    "VoR_raw": "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf",
+    "VoR_raw": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf",
     "source_andcanonical_pending": false,
     "independent_IF21_coefficient_vs_originaldirect_error": 8.881784197001252e-16,
     "input": "day16-if21-coefficient-audit-input.json",
@@ -541,7 +541,7 @@
     "not_a_new_actualNRFdelta_fit": true
   },
   "BA129_current": {
-    "arxiv_v3_raw": "raw/papers/gpt/day15-20261016/chakraborty-arxiv2108.05313v3-c8c0accfc9d2.pdf",
+    "arxiv_v3_raw": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/chakraborty-arxiv2108.05313v3-c8c0accfc9d2.pdf",
     "arxiv_v3_date": "9Apr2024",
     "arxiv_history": "v1Aug2021;v2withdrawn;onlyv3read,noinferenceaboutwithdrawalreason/currentwholepaperstatus",
     "CH24rawhash": "d5729de577067f8afeab771afb51328989772c68962a938d553bccb50f0c0808",

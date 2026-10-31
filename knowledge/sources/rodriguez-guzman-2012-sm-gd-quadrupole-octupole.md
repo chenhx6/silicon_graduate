@@ -17,7 +17,7 @@ pages: "034336"
 doi: "10.1103/PhysRevC.86.034336"
 canonical_source: "Phys. Rev. C 86, 034336 (2012); arXiv:1209.2518v1"
 source_url: "https://arxiv.org/abs/1209.2518v1"
-raw_file: "raw/papers/day26-20261028/2012-rodriguez-guzman-sm-gd.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2012-rodriguez-guzman-sm-gd.pdf"
 raw_storage_status: raw-pdf-archived
 raw_sha256: "9f782b344bfd02b6fc3fcd224f3d14235fd9857339a524ae0802859549663642"
 nuclei: [Ra, Th, Ba, Sm]
@@ -30,7 +30,7 @@ tags: [octupole, double-well, mean-field, model-boundary]
 
 ## Bibliographic Record
 
-arXiv API提供的题名、作者和DOI与实际PDF首页相符；期刊卷页由API记录或DOI字段所指书目信息记录。取得1209.2518v1预印本，31页、631428 bytes，已归档至 `raw/papers/day26-20261028/2012-rodriguez-guzman-sm-gd.pdf`。
+arXiv API提供的题名、作者和DOI与实际PDF首页相符；期刊卷页由API记录或DOI字段所指书目信息记录。取得1209.2518v1预印本，31页、631428 bytes，已归档至 `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2012-rodriguez-guzman-sm-gd.pdf`。
 
 ## Summary
 

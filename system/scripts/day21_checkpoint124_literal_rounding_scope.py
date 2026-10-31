@@ -11,7 +11,7 @@ RUN = ROOT / 'outputs/learning-daily/20261023-DAY21-week-three-experimental-boun
 
 def main():
     files = {
-        'yao': ('raw/papers/day21-20261023/yao-2012-34si-beyond-mean-field-bubble.pdf',
+        'yao': ('raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/yao-2012-34si-beyond-mean-field-bubble.pdf',
                 'a3e8765895514298dc2479dc935617ed9972af418fcf9acb28fe83b497c0a0d2'),
         'mutschler': ('tmp/day21/mutschler2017/PDFs/A_proton_density_bubble_in_the_doubly_magic_34Si_nucleus.pdf',
                      'eb0450b2cfee9fc52098668d090db23b7e728899ec1116528d827e90a6b09a85'),

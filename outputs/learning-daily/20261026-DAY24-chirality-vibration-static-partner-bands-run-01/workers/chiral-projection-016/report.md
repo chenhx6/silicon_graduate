@@ -6,7 +6,7 @@
 
 核定题名为 **“Chiral geometry in symmetry-restored states: Chiral doublet bands in 128Cs”**，F. Q. Chen, Q. B. Chen, Y. A. Luo, J. Meng, S. Q. Zhang，*Physical Review C* **96**,051303(2017)，DOI **10.1103/PhysRevC.96.051303**。本轮fresh Crossref确认题名/作者/出版2017-11-20；官方`https://arxiv.org/abs/1708.07282v1`确认v1=2017-08-24、12页4图及journal ref。官方body入口为`https://arxiv.org/pdf/1708.07282v1`，本轮直接读既有raw，未重复下载body。
 
-实际原件：`raw/papers/codex-day10/chen-2017-128cs.pdf`，279433bytes，12页；重新SHA256为 **d176aed6be49e350c18d130ec388383b680da9844173f4e0b386cb34f0c676c6**，与source匹配。PDF1边栏v1/2017日期，与正文typeset “August4,2021”并存；保留两个字段，不发明2021科学修订或VoR等价。本轮locator均为**此arXiv PDF/printed1–12**，不是PRC文章页码。
+实际原件：`raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/chen-2017-128cs.pdf`，279433bytes，12页；重新SHA256为 **d176aed6be49e350c18d130ec388383b680da9844173f4e0b386cb34f0c676c6**，与source匹配。PDF1边栏v1/2017日期，与正文typeset “August4,2021”并存；保留两个字段，不发明2021科学修订或VoR等价。本轮locator均为**此arXiv PDF/printed1–12**，不是PRC文章页码。
 
 实际读完整12页主线/参考文献；视觉核PDF1–8/10–12，覆盖**全部4图、Eqs1–11**、输入段与关键Ref14/40/46。没有读完全部55引用原件，没有恢复作者代码、full matrix dump或原实验response。
 

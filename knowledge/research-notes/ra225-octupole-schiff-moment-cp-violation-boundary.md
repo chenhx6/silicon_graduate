@@ -23,7 +23,7 @@ tags: [225Ra, 223Ra, octupole, Schiff-moment, EDM, CP-violation, parity-doublet,
 
 ### 1. 直接理论原件：一阶 PT 混合与 55 keV 分母
 
-Dobaczewski–Engel, *Phys. Rev. Lett.* **94**, 232502 (2005), DOI `10.1103/PhysRevLett.94.232502`，原件 `raw/papers/day26-20261028/2005-dobaczewski-ra225-schiff.pdf`（PDF p.2，Eqs. (1)–(5)）给出
+Dobaczewski–Engel, *Phys. Rev. Lett.* **94**, 232502 (2005), DOI `10.1103/PhysRevLett.94.232502`，原件 `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2005-dobaczewski-ra225-schiff.pdf`（PDF p.2，Eqs. (1)–(5)）给出
 
 $$
 S=\sum_{i\ne0}\frac{\langle\Psi_0|\hat S_z|\Psi_i\rangle\langle\Psi_i|\hat V_{PT}|\Psi_0\rangle}{E_0-E_i}+c.c.,
@@ -50,7 +50,7 @@ $$
 
 NNDC 225088001 Adopted 数据在 [225Ra source page](../sources/nndc-2009-ra225-adopted-parity-doublet.md:43) 的 NR225-1 记录 `1/2+` 基态与 `1/2−` 的 `55.16(6) keV` 伙伴；同表的 `31.56(3) keV` 态是 `3/2−`，不能代入 J=1/2 的旋转标量 $V_{PT}$ 分母。此处是评价数据，不等于新实验原始计数。
 
-Engel *et al.*, *Phys. Rev. C* **68**, 025501 (2003), DOI `10.1103/PhysRevC.68.025501`，原件 `raw/papers/day26-20261028/2003-engel-ra225-schiff.pdf`：
+Engel *et al.*, *Phys. Rev. C* **68**, 025501 (2003), DOI `10.1103/PhysRevC.68.025501`，原件 `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2003-engel-ra225-schiff.pdf`：
 
 | 原件定位 | 直接报告 | 证据层 |
 | --- | --- | --- |

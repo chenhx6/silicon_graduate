@@ -9,9 +9,9 @@
       "knowledge/sources/diwanshu-2025-106cd-amr-metadata.md"
     ],
     "raw_files": [
-      "raw/papers/gpt/day26-20261028/kumar-2023-amr-review-arxiv2303.00499.pdf",
-      "raw/papers/gpt/day26-20261028/qiao-2025-pd-systematic-amr-crossref.json",
-      "raw/papers/gpt/day26-20261028/diwanshu-2025-106cd-amr-crossref.json"
+      "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/kumar-2023-amr-review-arxiv2303.00499.pdf",
+      "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/qiao-2025-pd-systematic-amr-crossref.json",
+      "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/diwanshu-2025-106cd-amr-crossref.json"
     ],
     "artifacts": [
       "pd_four_hole_audit.py",

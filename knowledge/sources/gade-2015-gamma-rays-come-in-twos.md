@@ -21,8 +21,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Gade, A. Nuclear physics: Sometimes γ-rays come in twos. Nature 526, 330-331 (2015)."
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2015_Gade_Sometimes γ-rays come in twos.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2015_Gade_Sometimes γ-rays come in twos.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Gade_Sometimes γ-rays come in twos.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Gade_Sometimes γ-rays come in twos.pdf"
 raw_sha256: "01ee9ba3e41b26de54f5a443de73f8bcf036390f6fe33b35057c2b0474f89d81"
 nuclei: ["137Ba"]
 models: ["quasiparticle-phonon-model"]
@@ -38,7 +38,7 @@ tags: [two-photon-decay, double-gamma-decay, 137Ba, nuclear-structure-commentary
 - 作者：Alexandra Gade。
 - 类型：Nature News & Views / commentary，评论并解释 Walz et al. 2015 的原始 Letter；不是该实验的原始报告。
 - 期刊：*Nature* 526(7573), 330-331 (2015)。DOI：`10.1038/526330a`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2015_Gade_Sometimes γ-rays come in twos.pdf`；SHA-256：`01ee9ba3e41b26de54f5a443de73f8bcf036390f6fe33b35057c2b0474f89d81`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Gade_Sometimes γ-rays come in twos.pdf`；SHA-256：`01ee9ba3e41b26de54f5a443de73f8bcf036390f6fe33b35057c2b0474f89d81`。
 - 直接关联原始来源：Walz et al., *Nature* 526, 406-409 (2015), DOI `10.1038/nature15543`；该来源应作为独立原始实验来源摄入，Gade 页不替代它。
 - 直接来源已摄入：[[walz-2015-competitive-double-gamma-137ba]]；Gade 的分支比、装置和时间控制叙述现可回到 Walz 原始 Letter，但本页仍保留二手评论体裁。
 - 历史直接双光子方法参照：[[schirmer-1984-double-gamma-40ca-90zr]]；它研究 `40Ca/90Zr`，不是 `137Ba` 实验，也不构成 Walz 结果的独立复核。

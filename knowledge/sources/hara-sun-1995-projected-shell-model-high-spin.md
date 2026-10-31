@@ -21,8 +21,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Hara, K. & Sun, Y. Projected Shell Model and High-Spin Spectroscopy. Int. J. Mod. Phys. E 4, 637-785 (1995)."
-library_file: "raw/papers/gpt/high-spin-20260920/review/1995_Hara_Sun_PROJECTED SHELL MODEL AND HIGH-SPIN SPECTROSCOPY.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/1995_Hara_Sun_PROJECTED SHELL MODEL AND HIGH-SPIN SPECTROSCOPY.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1995_Hara_Sun_PROJECTED SHELL MODEL AND HIGH-SPIN SPECTROSCOPY.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1995_Hara_Sun_PROJECTED SHELL MODEL AND HIGH-SPIN SPECTROSCOPY.pdf"
 raw_sha256: "13ca9edbd3092d2d3c4612e9d22b7cb1ff740d07f0f97c5f139ac901a7b26dac"
 nuclei: ["A≈130 doubly-odd nuclei", "rare-earth nuclei", "doubly-even nuclei", "odd-neutron nuclei", "odd-proton nuclei"]
 models: ["projected-shell-model", "Nilsson-model", "BCS-pairing", "particle-rotor-model", "cranked-shell-model"]
@@ -37,7 +37,7 @@ tags: [projected-shell-model, high-spin-spectroscopy, angular-momentum-projectio
 
 - 作者：Kenji Hara、Yang Sun。
 - 期刊：*International Journal of Modern Physics E* 4(4), 637-785 (1995)。DOI：`10.1142/S0218301395000250`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/review/1995_Hara_Sun_PROJECTED SHELL MODEL AND HIGH-SPIN SPECTROSCOPY.pdf`；SHA-256：`13ca9edbd3092d2d3c4612e9d22b7cb1ff740d07f0f97c5f139ac901a7b26dac`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1995_Hara_Sun_PROJECTED SHELL MODEL AND HIGH-SPIN SPECTROSCOPY.pdf`；SHA-256：`13ca9edbd3092d2d3c4612e9d22b7cb1ff740d07f0f97c5f139ac901a7b26dac`。
 
 ## Scope and Reading Depth
 

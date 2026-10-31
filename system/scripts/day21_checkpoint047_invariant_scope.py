@@ -30,8 +30,8 @@ def main():
                    'cos3delta_absolute_difference':[0,.23,.11], 'sigma_cos3delta_absolute_difference':[-.13,.08,.14]},
         'bare':{'q2_relative_percent':[-15.6,7.8,5.4], 'sigma_Q2_relative_percent':[-30.6,11.6,13.3],
                 'cos3delta_absolute_difference':[.01,.37,.19], 'sigma_cos3delta_absolute_difference':[-.16,.13,.19]}}
-    raws = ['raw/papers/day20-20261022/henderson-2020-quadrupole-invariant-convergence.pdf',
-            'raw/papers/day20-20261022/ayangeakaa-2019-rigid-triaxial-ge76.pdf']
+    raws = ['raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/henderson-2020-quadrupole-invariant-convergence.pdf',
+            'raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2019-rigid-triaxial-ge76.pdf']
     out = dict(upward_variance_control=up,downward_variance_control=down,checks=checks,
                model_table_nI4_literal=table4,
                table_scope='Manual original-table transcription [center,upper spread,lower spread]; not a recomputation of 34 nuclei or experimental CI.',

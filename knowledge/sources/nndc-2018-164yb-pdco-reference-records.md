@@ -19,7 +19,7 @@ citation_key: SinghChen2018A164ENSDF
 citation_key_origin: agent-local-online-dataset-label
 data_version: "201712 headers; cutoff30-Nov-2017; NNDC records164070001/164070004/164070003 retrieved2026-10-17"
 canonical_source: "NNDC ENSDF 164YB records 164070001,164070003,164070004; version201712"
-raw_file: "raw/papers/gpt/day15-20261016/nndc-164yb-164070001-201712-606ddb5aaea1.ens"
+raw_file: "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-164yb-164070001-201712-606ddb5aaea1.ens"
 raw_sha256: "606ddb5aaea1a6563da05ed19c906e839b577b28dadc62707bf6a0b2c27fc569"
 raw_storage_status: archived-agent-managed-public-data-object
 nuclei: [164Yb]
@@ -39,9 +39,9 @@ B. Singh与J. Chen，“Nuclear Data Sheets for A=164”，*Nuclear Data Sheets*
 
 | record /对象 | canonical raw文件 | text SHA-256 |
 | --- | --- | --- |
-| 164070001 ADOPTED | `raw/papers/gpt/day15-20261016/nndc-164yb-164070001-201712-606ddb5aaea1.ens` | `606ddb5aaea1a6563da05ed19c906e839b577b28dadc62707bf6a0b2c27fc569` |
-| 164070004 152SM(16O,4NG) | `raw/papers/gpt/day15-20261016/nndc-164yb-164070004-201712-eec3131d9213.ens` | `eec3131d9213eba97bdcdeca9cb2d6963b045e87520df08ea224675ca0e347d8` |
-| 164070003 124SN(44CA,4NG) | `raw/papers/gpt/day15-20261016/nndc-164yb-164070003-201712-a46a5830695a.ens` | `a46a5830695aa2f345fa3e2fa8f83c821a26a0568df57d45b6f81405f7ac0db2` |
+| 164070001 ADOPTED | `raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-164yb-164070001-201712-606ddb5aaea1.ens` | `606ddb5aaea1a6563da05ed19c906e839b577b28dadc62707bf6a0b2c27fc569` |
+| 164070004 152SM(16O,4NG) | `raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-164yb-164070004-201712-eec3131d9213.ens` | `eec3131d9213eba97bdcdeca9cb2d6963b045e87520df08ea224675ca0e347d8` |
+| 164070003 124SN(44CA,4NG) | `raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-164yb-164070003-201712-a46a5830695a.ens` | `a46a5830695aa2f345fa3e2fa8f83c821a26a0568df57d45b6f81405f7ac0db2` |
 
 对应原HTTP response SHA-256依次为`500e6c10478b82a64d0e3a7424ed5d1dd2945eea81386d00ba5f0930ff85232d`、`0d31ca592d514721f8e3adbe3bc695685a49734761e0052c5ae2eecf6954de0f`和`10194fd7716fae453f90717febd5c0a7d4972952c225f3c3d9a53ad7133b2820`。HTML wrapper与text不是相同hash；来源版本/字段依据text对象，包装hash只标访问记录。
 

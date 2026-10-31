@@ -19,8 +19,8 @@ citation_key: Das_2020
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Das et al., Phys. Rev. C 101, 044310 (2020)"
-library_file: "raw/papers/gpt/high-spin-20260920/纲图/2020_Das et al_High spin states of Ar 37.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2020_Das et al_High spin states of Ar 37.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2020_Das et al_High spin states of Ar 37.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2020_Das et al_High spin states of Ar 37.pdf"
 raw_sha256: "b7c28e74a0c6a572a9c46642982c2d8b19a4ee643fc9f8f7be03aee8f13b6483"
 nuclei: [37Ar, 36Ar, 38Ar]
 reactions: [27Al-12C-np]
@@ -36,7 +36,7 @@ tags: [37Ar, INGA, high-spin, level-scheme, shell-model, RDCO, IPDCO]
 ## Bibliographic Record
 
 - A. Das *et al.*, *Phys. Rev. C* **101**, 044310 (2020), DOI `10.1103/PhysRevC.101.044310`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/纲图/2020_Das et al_High spin states of Ar 37.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2020_Das et al_High spin states of Ar 37.pdf`。
 
 ## Scope and Reading Depth
 

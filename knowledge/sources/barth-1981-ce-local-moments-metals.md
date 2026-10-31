@@ -18,7 +18,7 @@ doi: "10.1007/BF01022015"
 citation_key: ""
 canonical_source: "https://doi.org/10.1007/BF01022015"
 source_url: "http://link.springer.com/content/pdf/10.1007/BF01022015.pdf"
-raw_file: "raw/papers/day20-20261022/barth-1981-ce-local-moments.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/barth-1981-ce-local-moments.pdf"
 raw_sha256: "dff4d09add2aeeb91302ca1b222cc0e3e7e7b280fe0095e097a2585e7b60cb15"
 raw_storage_status: reserved-unpopulated-public-publisher-pdf-only
 raw_archive_verified_at: 2026-10-23

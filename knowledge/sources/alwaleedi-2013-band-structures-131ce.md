@@ -22,7 +22,7 @@ zotero_item_key:
 citation_key: mohammedabdullahalwaleedi_2013_Bandstructures
 zotero_uri:
 library_file:
-raw_file: raw/papers/degree dissertation/Band structures of 131Ce.pdf
+raw_file: raw/theses/degree-dissertation/Band structures of 131Ce.pdf
 raw_sha256: B50C22877418DE560F06002588BB46D34F5BA670C6880E30A89D1509C79AD8C1
 nuclei: [131ce]
 reactions: [100Mo(36S,5n)131Ce]

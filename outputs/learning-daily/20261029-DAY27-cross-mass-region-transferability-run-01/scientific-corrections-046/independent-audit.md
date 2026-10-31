@@ -7,7 +7,7 @@ Evidence keys (line numbers refer to the audited snapshot):
 - **N**: `knowledge/research-notes/k-isomer-triaxial-tunneling-and-hindrance-collapse.md`
 - **S**: `system/scripts/day27_k_isomer_triaxial_breakdown_study.py`
 - **W**: `knowledge/sources/walker-dracoulis-2001-exotic-isomers.md`
-- **PDF**: `raw/papers/gpt/high-spin-20260920/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf`
+- **PDF**: `raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/奇特原子核/综述/2001_Walker_Dracoulis_Exotic Isomers in Deformed Atomic Nuclei.pdf`
 
 The PDF exists, contains 25 pages, and its SHA-256 is `62cc9071a6101118535d16aeb66f0f192e7ad8904abdfa80b6b56119473c1489`, matching W:18-20. Below, PDF page numbers are one-based; printed page = PDF page + 82. PDF text was directly inspected; the original experiments cited by this review were not independently retrieved.
 

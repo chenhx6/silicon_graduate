@@ -18,6 +18,8 @@ pages: "232504"
 doi: "10.1103/PhysRevLett.111.232504"
 canonical_source: "https://doi.org/10.1103/PhysRevLett.111.232504"
 citation_key: schwengner2013m1upbend
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevLett.111.232504.pdf"
+raw_sha256: d7a70974055150e736e3c07a5ba444e32e33bf41a44ada6ae8afff847520ce39
 nuclei: [94mo, 95mo, 56fe, 160dy, 208pb]
 reactions: []
 experiments: [Oslo-Cyclotron, S-DALINAC]
@@ -59,6 +61,14 @@ PRL 111, 232504 (2013), DOI `10.1103/PhysRevLett.111.232504`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SCH13-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 1, Figs. 1-2 | false |
+| SCH13-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. 2, Fig. 3 | false |
+| SCH13-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 3, Discussion | false |
+| SCH13-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | cross-source-model-comparison | source-reported | Sec. 4, Conclusions | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

@@ -15,7 +15,7 @@ doi: 10.1103/phhq-9vmt
 arxiv: ""
 canonical_source: https://journals.aps.org/prc/accepted/10.1103/phhq-9vmt
 citation_key: chen_2026_bayesian_wobbling_135Pr
-raw_file: raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/crossref-work.json
+raw_file: raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/crossref-work.json
 raw_sha256: 5f0beebf4feb6365241079cc20fdd96cea482efad18f736e07faf5b935756eab
 nuclei: [135pr]
 models: [core-quasiparticle-coupling]

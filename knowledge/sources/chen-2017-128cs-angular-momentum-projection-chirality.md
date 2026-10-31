@@ -25,7 +25,7 @@ observables: [energy-spectrum, B(E2), B(M1), K-distribution, angular-momentum-or
 methods: [symmetry-restoration, Hill-Wheeler-equation]
 tags: [128Cs, chirality, angular-momentum-projection, transition-strengths, spin-dependent-geometry]
 citation_key: "Chen_2017"
-raw_file: "raw/papers/codex-day10/chen-2017-128cs.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/chen-2017-128cs.pdf"
 raw_sha256: "d176aed6be49e350c18d130ec388383b680da9844173f4e0b386cb34f0c676c6"
 ---
 

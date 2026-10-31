@@ -22,8 +22,8 @@ canonical_source: "刘渊. 188Pt核的形状共存研究[D]. 中国科学院研�
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/刘渊 - 形状共存.pdf"
-raw_file: "raw/papers/degree dissertation/刘渊 - 形状共存.pdf"
+library_file: "raw/theses/degree-dissertation/刘渊 - 形状共存.pdf"
+raw_file: "raw/theses/degree-dissertation/刘渊 - 形状共存.pdf"
 raw_sha256: "dae7d6fb505b9baa4c8669cedc7081e51f2088099327e578f8d58b7c2c455df7"
 nuclei: [188Pt]
 reactions: ["176Yb(18O,6n)188Pt"]

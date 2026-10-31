@@ -4,7 +4,7 @@
   "conditions": {
     "recorded_at": "2026-10-26T02:01:51.739459+00:00",
     "scope": "extract vector primitives from published SH26 Fig12, retain fixedsigma/I.2 conditional large-root support; no new rawresponse/globalfit",
-    "source_pdf": "raw/papers/gpt/_incoming/20260912-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf",
+    "source_pdf": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf",
     "sha256": "294f791a230a12005ef43a237afb25b9bf731f8f520a1a65d6b32d0386ef91b3",
     "page_index": 13,
     "panels": [

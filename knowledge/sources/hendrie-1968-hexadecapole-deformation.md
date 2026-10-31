@@ -18,6 +18,8 @@ pages: "127-130"
 doi: "10.1016/0370-2693(68)90502-9"
 canonical_source: "https://doi.org/10.1016/0370-2693(68)90502-9"
 citation_key: hendrie1968hexadecapole
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-0370269368905029-main.pdf"
+raw_sha256: e9a24d67571c00c759918fb0b95bc1164327f7172ec527303888c73d07e7fd10
 nuclei: [154sm, 158gd, 166er, 176yb, 182w, 186os, 238u]
 reactions: ["inelastic alpha scattering @ 50 MeV"]
 experiments: [Berkeley 88-inch Cyclotron]
@@ -59,6 +61,14 @@ PLB 26, 127-130 (1968), DOI `10.1016/0370-2693(68)90502-9`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HEN68-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. 1, Fig. 1 | false |
+| HEN68-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Table 1, Fig. 2 | false |
+| HEN68-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Table 1, Fig. 2 | false |
+| HEN68-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 3, Discussion | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

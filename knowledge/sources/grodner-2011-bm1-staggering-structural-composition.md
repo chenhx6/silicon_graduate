@@ -26,7 +26,7 @@ observables: [B(M1), B(E2), inband-strength, interband-strength, chiral-doublet]
 methods: [R_yT-symmetry, phase-convention, transition-matrix-element-analysis]
 tags: [chirality, M1-staggering, configuration-dependence, triaxiality, 128Cs]
 citation_key: "Grodner_2011_BM1"
-raw_file: "raw/papers/codex-day10/grodner-2011-bm1-staggering.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/grodner-2011-bm1-staggering.pdf"
 raw_sha256: "716faa155028c0a6f6e34faca638c9ca76ec98ee7c69642a3d8186eb98190d67"
 ---
 

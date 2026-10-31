@@ -2,7 +2,7 @@
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-056Au公开中心vector已H3published。057source raw/papers/gpt/_incoming/20260912-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf/SHA294f791...91b3，原PDF14Fig12vector(无bitmap)targetedread，freshfullpage/insetvisual。system/scripts/day23_sh26_published_vectors.py新允许producer，contract057initial/final已存。21个circlefs8/diam3.524pt，每个有独立verticalstem+两horizontalcaps(宽5.873pt)，42caps匹配，中点≤4.6e−5pt；finalD用literalred/bluepolyline插值，7controls过(geometry/hash/unit/非闭合保留，非科学归属认证)。
+056Au公开中心vector已H3published。057source raw/papers/gpt/learning-daily/20260912-PREPLAN-135pr-refresh/sensharma-2026-135pr-chirality-wobbling.pdf/SHA294f791...91b3，原PDF14Fig12vector(无bitmap)targetedread，freshfullpage/insetvisual。system/scripts/day23_sh26_published_vectors.py新允许producer，contract057initial/final已存。21个circlefs8/diam3.524pt，每个有独立verticalstem+两horizontalcaps(宽5.873pt)，42caps匹配，中点≤4.6e−5pt；finalD用literalred/bluepolyline插值，7controls过(geometry/hash/unit/非闭合保留，非科学归属认证)。
 
 三sourceprintedenergy746.3/811.6/754.2分别redδ−1.40/−1.63/−2.16、blue−.59/−.52/−.40；不默改成Lv747.3/813.2没有endpointledger。主黑profile在这些打印δ处用原Arctan轴/log10χ²tick校准读到χ标签约2.2769/6.5796、47.433/422.651、5.758/374.906；只是源fixedσ/I.2显示值/不是newfit或p/CI/Δχ²检验。真实大根条件支持保持，不预判自由σ两谷等深。
 

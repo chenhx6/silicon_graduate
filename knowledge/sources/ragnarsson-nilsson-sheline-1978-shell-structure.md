@@ -16,8 +16,8 @@ volume: 45
 pages: "1-87"
 pii: "0370-1573(78)90004-2"
 canonical_source: "Ragnarsson, Nilsson & Sheline, Phys. Rep. 45, 1-87 (1978)"
-library_file: "raw/papers/gpt/high-spin-20260920/review/1978_Ragnarsson et al_Shell structure in nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/1978_Ragnarsson et al_Shell structure in nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1978_Ragnarsson et al_Shell structure in nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1978_Ragnarsson et al_Shell structure in nuclei.pdf"
 raw_sha256: "c0c83854dec7ca897f640f637252646feb65bc03fde5f45ca77d6c0f206d1153"
 nuclei: [generic, actinides, light-nuclei, intermediate-mass, superheavy]
 reactions: [generic-shell-structure]
@@ -33,7 +33,7 @@ tags: [shell-structure, magic-numbers, Strutinsky, Nilsson, deformation, high-sp
 ## Bibliographic Record
 
 - I. Ragnarsson, S. G. Nilsson & R. K. Sheline, *Physics Reports* **45**, 1–87 (1978), PII `0370-1573(78)90004-2`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/1978_Ragnarsson et al_Shell structure in nuclei.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1978_Ragnarsson et al_Shell structure in nuclei.pdf`。
 
 ## Scope and Reading Depth
 

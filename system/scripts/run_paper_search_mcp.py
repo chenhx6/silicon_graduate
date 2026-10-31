@@ -56,7 +56,7 @@ def main() -> int:
             return 2
         if wos_key:
             env["WOS_API_KEY"] = wos_key
-    env["WIKI_PAPER_SEARCH_WORKDIR"] = str(wiki_root / "raw/papers/gpt/_incoming")
+    env["WIKI_PAPER_SEARCH_WORKDIR"] = str(wiki_root / "raw/papers/gpt/learning-daily")
     # The existing launcher retains all other provider settings. Only Starter API
     # is available; Expanded API is not subscribed.
     os.execve(sys.executable, [sys.executable, str(launcher)], env)

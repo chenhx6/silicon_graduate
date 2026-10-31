@@ -20,7 +20,7 @@ citation_key: Burgunder_2014
 citation_key_origin: locally-assigned-from-verified-DOI
 canonical_source: "https://doi.org/10.1103/PhysRevLett.112.042502"
 source_url: "https://arxiv.org/abs/1401.1593v1"
-raw_file: "raw/papers/day21-20261023/burgunder-2014-35si-two-body-spin-orbit.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/burgunder-2014-35si-two-body-spin-orbit.pdf"
 raw_sha256: "c8db651c453428630b450c53a38c28fba05ed7c0fa0dda3023383213c0e53aef"
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23

@@ -69,5 +69,5 @@ This run audited the existing `135Pr` controversy, rendered the relevant pages o
 - Branch: `main`; no task branch was created.
 - Commit: current main HEAD `Finalize weekly self-tests through 2026-08-31`.
 - Publication: final-not-pushed. Fresh fetch and ancestry passed, but both system and Codex bundled Git failed the exact-refspec dry-run because the protected repo-local AskPass executable could not be spawned (`Permission denied`); no real push was attempted.
-- Raw boundary: only controlled downloader manifests were created under `raw/papers/gpt/_incoming/20260824-135pr-mixing-branch/`; no PDF was downloaded, promoted or staged, and no BibTeX file was changed by this task.
+- Raw boundary: only controlled downloader manifests were created under `raw/papers/gpt/learning-daily/20260824-PREPLAN-135pr-mixing-branch/`; no PDF was downloaded, promoted or staged, and no BibTeX file was changed by this task.
 - Overview/index/QMD: unchanged because no knowledge page was added and the unverified external source was not ingested. QMD refresh is deferred until targeted ingest or review finalization.

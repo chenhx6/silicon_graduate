@@ -22,8 +22,8 @@ canonical_source: "Lubos, Daniel Georg. Decay Spectroscopy of 100Sn and Neighbor
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/Decay Spectroscopy of 100 Sn and Neighboring Nuclei.pdf"
-raw_file: "raw/papers/degree dissertation/Decay Spectroscopy of 100 Sn and Neighboring Nuclei.pdf"
+library_file: "raw/theses/degree-dissertation/Decay Spectroscopy of 100 Sn and Neighboring Nuclei.pdf"
+raw_file: "raw/theses/degree-dissertation/Decay Spectroscopy of 100 Sn and Neighboring Nuclei.pdf"
 raw_sha256: "C9AA0494F29BACC00EC8FB0055A5D6AC201237E3BAD943EA34D350DEEB8550D9"
 nuclei: [100sn, 96cd, 98in, 94ag, 90rh, 99sn, 97in, 95cd, 91pd, 93ag, 96in, 94cd, 92ag, 90pd, 98cd]
 reactions: ["124Xe projectile fragmentation on 9Be at 345 AMeV"]

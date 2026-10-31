@@ -22,8 +22,8 @@ canonical_source: "Sensharma, Nirupama. Wobbling Motion in Nuclei: Transverse, L
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/Wobbling_Motion_in_Nuclei.pdf"
-raw_file: "raw/papers/degree dissertation/Wobbling_Motion_in_Nuclei.pdf"
+library_file: "raw/theses/degree-dissertation/Wobbling_Motion_in_Nuclei.pdf"
+raw_file: "raw/theses/degree-dissertation/Wobbling_Motion_in_Nuclei.pdf"
 raw_sha256: "954E6CC853536555F5A691D6EAA257AAA051F79960DE5EB47942F28FB335EF74"
 nuclei: [135pr, 187au]
 reactions: ["123Sb(16O,4n)135Pr", "174Yb(19F,6n)187Au"]

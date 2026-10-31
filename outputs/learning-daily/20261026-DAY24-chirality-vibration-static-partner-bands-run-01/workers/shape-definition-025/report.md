@@ -8,7 +8,7 @@
 
 Kris Heyde and John L. Wood, *Shape coexistence in atomic nuclei*, RMP83,1467–1521(2011), DOI10.1103/RevModPhys.83.1467。
 
-实际raw：`raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf`；55页、3400392bytes；本轮SHA256 **660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183**，匹配source。首页出版2011-11-30并印publisher error corrected2011-12-06，本轮不另猜更正内容。
+实际raw：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf`；55页、3400392bytes；本轮SHA256 **660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183**，匹配source。首页出版2011-11-30并印publisher error corrected2011-12-06，本轮不另猜更正内容。
 
 PDF页+1466=printed页。本轮**不是55页全文重读**：
 

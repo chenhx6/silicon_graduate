@@ -17,7 +17,7 @@ pages: "064326"
 doi: "10.1103/PhysRevC.102.064326"
 canonical_source: "Phys. Rev. C 102, 064326 (2020); arXiv:2008.08870v2"
 source_url: "https://arxiv.org/abs/2008.08870v2"
-raw_file: "raw/papers/day26-20261028/2020-nomura-ra-th-d1m.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2020-nomura-ra-th-d1m.pdf"
 raw_storage_status: raw-pdf-archived
 raw_sha256: "c22d0422bcfb86d3f4e24a7f2012de8d6eadecec0ff264826c62d3eb44d3d4ec"
 nuclei: [Ra, Th, Ba, Sm]
@@ -30,7 +30,7 @@ tags: [octupole, double-well, mean-field, model-boundary]
 
 ## Bibliographic Record
 
-arXiv API提供的题名、作者和DOI与实际PDF首页相符；期刊卷页由API记录或DOI字段所指书目信息记录。取得2008.08870v2预印本，15页、2022542 bytes，已归档至 `raw/papers/day26-20261028/2020-nomura-ra-th-d1m.pdf`。
+arXiv API提供的题名、作者和DOI与实际PDF首页相符；期刊卷页由API记录或DOI字段所指书目信息记录。取得2008.08870v2预印本，15页、2022542 bytes，已归档至 `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2020-nomura-ra-th-d1m.pdf`。
 
 ## Summary
 

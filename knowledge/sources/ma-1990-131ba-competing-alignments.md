@@ -19,8 +19,8 @@ citation_key: Ma_1990
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Ma et al., Phys. Rev. C 41, 717-728 (1990)"
-library_file: "raw/papers/gpt/high-spin-20260920/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf"
 raw_sha256: "a0dbdd4957d1d11af570b5daffc9c44609d9ef5ed570dc3ad32a67388dad90de"
 nuclei: [131Ba, 131Ce, 133Ce, 135Nd, 137Sm, 139Gd]
 reactions: [119Sn-12C-4n]
@@ -36,7 +36,7 @@ tags: [131Ba, proton-alignment, neutron-alignment, signature-splitting, gamma-so
 ## Bibliographic Record
 
 - R. Ma *et al.*, *Phys. Rev. C* **41**, 717–728 (1990), DOI `10.1103/PhysRevC.41.717`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf`。
 
 ## Scope and Reading Depth
 

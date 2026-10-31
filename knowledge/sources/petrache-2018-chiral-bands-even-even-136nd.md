@@ -20,11 +20,11 @@ canonical_source: https://doi.org/10.1103/PhysRevC.97.041304
 citation_key: petrache_2018_Evidencechiral
 raw_file: "raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
 raw_sha256: D2615FC0D95428B06C056EB8946AFA2F62940CE58D79C1FC1CC3F50E19C73EF3
-additional_raw_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
+additional_raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
 additional_raw_sha256: "1a67cab9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697"
-previously_misidentified_supplementary_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
+previously_misidentified_supplementary_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
 previously_misidentified_supplementary_sha256: "1a67cab9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697"
-published_version_file: "raw/papers/gpt/high-spin-20260920/三轴/手征/实验/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
+published_version_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf"
 published_version_sha256: "5e6f1c01501598b5cf765d838d86a2b37a4fcf252039ba9058e631ccc7517f81"
 nuclei: [136nd]
 reactions: ["100Mo(40Ar,4n)136Nd"]

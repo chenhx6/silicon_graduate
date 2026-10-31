@@ -16,8 +16,8 @@ volume: 322
 pages: "1-124"
 pii: "S0370-1573(99)00035-6"
 canonical_source: "Afanasjev et al., Phys. Rep. 322, 1-124 (1999)"
-library_file: "raw/papers/gpt/high-spin-20260920/review/1999_Afanasjev et al_Termination of rotational bands.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/1999_Afanasjev et al_Termination of rotational bands.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1999_Afanasjev et al_Termination of rotational bands.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1999_Afanasjev et al_Termination of rotational bands.pdf"
 raw_sha256: "dff5cc076849dbdcc503bd0a9921efb12059f76ccba3fec643c84473f7e02009"
 nuclei: [20Ne, 48Cr, 80Zr, 102Pd, 109Sb, 158Er]
 reactions: [generic-high-spin-spectroscopy]
@@ -35,7 +35,7 @@ tags: [band-termination, high-spin, CNS, alignment, collectivity]
 ## Bibliographic Record
 
 - A. V. Afanasjev *et al.*, *Phys. Rep.* **322**, 1–124 (1999), PII `S0370-1573(99)00035-6`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/1999_Afanasjev et al_Termination of rotational bands.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1999_Afanasjev et al_Termination of rotational bands.pdf`。
 
 ## Scope and Reading Depth
 

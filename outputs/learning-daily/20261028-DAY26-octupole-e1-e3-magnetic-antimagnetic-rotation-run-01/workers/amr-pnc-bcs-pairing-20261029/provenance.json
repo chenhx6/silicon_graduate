@@ -3,7 +3,7 @@
   "worker_scope": "PNC/BCS/LN pairing, off-diagonal operators and Cd/Pd AMR band evolution",
   "pdf_records": [
     {
-      "path": "raw/papers/gpt/day26-20261028/wu-2011-pairing-rotation-blocking-arxiv1104.3385.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/wu-2011-pairing-rotation-blocking-arxiv1104.3385.pdf",
       "doi": "10.1103/PhysRevC.83.034323",
       "arxiv_version": "1104.3385v2",
       "signature_ascii": "%PDF-1.4",
@@ -15,7 +15,7 @@
       "source_kind": "primary-theory-paper; arXiv payload"
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/sheikh-2002-pairing-number-projection-arxivnucl-th0207080.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/sheikh-2002-pairing-number-projection-arxivnucl-th0207080.pdf",
       "doi": "10.1103/PhysRevC.66.044318",
       "arxiv_version": "nucl-th/0207080v1",
       "signature_ascii": "%PDF-1.4",
@@ -27,7 +27,7 @@
       "source_kind": "primary-theory-paper; arXiv payload"
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf",
       "doi": "10.1103/PhysRevC.87.054314",
       "arxiv_version": "1303.3346v2",
       "signature_ascii": "%PDF-1.4",
@@ -39,7 +39,7 @@
       "source_kind": "primary-theory-paper; arXiv payload"
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf",
       "doi": "10.1088/1674-1137/43/5/054107",
       "arxiv_version": "1912.11990v1",
       "signature_ascii": "%PDF-1.4",

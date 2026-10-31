@@ -18,7 +18,7 @@ doi: 10.1103/PhysRevC.97.069802
 canonical_source: doi:10.1103/PhysRevC.97.069802
 citation_key:
 language: en
-raw_file: raw/papers/gpt/_incoming/20261024-day22-wobbling-comments/tanabe-2018-reply-stability-publisher.pdf
+raw_file: raw/papers/gpt/learning-daily/20261024-DAY22-wobbling-geometry-phonons/tanabe-2018-reply-stability-publisher.pdf
 raw_sha256: 76185615c6d990f923926f21ca75b503fbe687b55625cb26eb9a228ee78dc3a8
 source_version: publisher-version-of-record
 public_fulltext_url: https://journals.aps.org/prc/pdf/10.1103/PhysRevC.97.069802

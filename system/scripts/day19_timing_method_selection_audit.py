@@ -15,19 +15,19 @@ import pymupdf
 
 RUN = Path("outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01")
 
-NOLAN_PDF = Path("raw/papers/gpt/high-spin-20260920/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf")
+NOLAN_PDF = Path("raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf")
 NOLAN_HASH = "5e20f735e995021f4a0eb8c1a937acedeee53509caed3ffa2cd8ddaa794bbc4f"
 
 RADECK_PDF = Path("raw/papers/2012_Radeck et al_Simultaneous deorientation and lifetime measurement in 98 Ru using the recoil distance Doppler shift.pdf")
 RADECK_HASH = "21ed965eb3fd0f57059d2bfe3367ecc39fa6cc2761b1f23ec95875d1a6fe3642"
 
-REGIS_PDF = Path("raw/papers/degree dissertation/LaBr3时间.pdf")
+REGIS_PDF = Path("raw/theses/degree-dissertation/LaBr3时间.pdf")
 REGIS_HASH = "54ef3c5b70d7ef4ed694ad9089fa40533d39e2bb060228eb3d1a304b03555f52"
 
-GRODNER_PDF = Path("raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf")
+GRODNER_PDF = Path("raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf")
 GRODNER_HASH = "c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2"
 
-IB98_PDF = Path("raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf")
+IB98_PDF = Path("raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf")
 IB98_HASH = "2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b"
 
 def clean_text(page):

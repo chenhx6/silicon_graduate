@@ -14,7 +14,7 @@ year: 2007
 citation_key: ""
 canonical_source: "TAMU2005–2006 I5–I10 plus2006–2007 I27–I28 selectedcompleteauthoredreports"
 source_url: https://cyclotron.tamu.edu/publications/
-raw_file: raw/reports/day17-20261020/cyclotron-progress2006.pdf
+raw_file: raw/reports/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/cyclotron-progress2006.pdf
 raw_sha256: e0602d7608a5307c917eb61426e87b7987d9cf777bac7a4930bf3d43ce531f48
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23

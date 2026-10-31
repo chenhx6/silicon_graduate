@@ -2,7 +2,7 @@
 
 > 增量草稿：完整138页native block inventory；全文文字已读，部分段落已译。其余中文明确标待译，所有未译块仍保留原文。不是全文完成译稿。图表与公式回退图片未全部核边，数学以原PDF为准。
 
-Source: `raw/papers/degree dissertation/nobs_thesis.pdf`
+Source: `raw/theses/degree-dissertation/nobs_thesis.pdf`
 
 SHA256: `acb846d63e4a8cc61491d6f5ba04a4858bf3efd3e98bb9152b50383987b76a57`
 

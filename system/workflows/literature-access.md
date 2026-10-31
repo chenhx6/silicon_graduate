@@ -78,12 +78,12 @@ python3 system/scripts/personal_api_preflight.py
 
 该插件的路径校验使用相对当前工作目录的 `./downloads`，仅设置 `DEFAULT_DOWNLOAD_PATH` 不生效。原启动器切换到安装目录，导致 Wiki 内的 `savePath` 被判越界。
 
-本机 `launch_mcp.py` 现从包装器的 `WIKI_PAPER_SEARCH_WORKDIR` 读取工作目录（本项目为 `raw/papers/gpt/_incoming`），创建其 `downloads` 子目录，并将 `DEFAULT_DOWNLOAD_PATH` 同步为该绝对路径；Node 入口仍用安装目录的绝对路径。恢复安装时须同时保留这项启动器配置。
+本机 `launch_mcp.py` 现从包装器的 `WIKI_PAPER_SEARCH_WORKDIR` 读取工作目录（本项目为 `raw/papers/gpt/learning-daily`），按具体 `YYYYMMDD-DAYn-topic` 或 `YYYYMMDD-PREPLAN-topic` 创建归档目录；不再使用 `_incoming` 或 `_incoming/downloads`。
 
-调用时使用 `savePath: "/workspace/wiki/raw/papers/gpt/_incoming/downloads/<run-id>"`，或相对于该 downloads 根的 run 子目录。`tmp/day23-originals/...` 和仓库外路径仍不属于允许目录，需改用上述入口；路径及符号链接越界检查保留。每次使用独立 run 子目录，核验后再归档，避免覆盖已有原件。当前会话的旧 MCP 不热加载，下一会话生效；本轮未发起实际下载。已用插件实际路径校验函数核对：绝对/相对隔离区子路径允许，旧 tmp 路径、仓库外路径和目录穿越拒绝，详见 [路径回执](../../outputs/literature-acquisition/20261026-download-path-check.json)。
+调用时直接使用 `savePath: "/workspace/wiki/raw/papers/gpt/learning-daily/YYYYMMDD-DAYn-topic/"` 或对应的 notes/theses/data/reports 归档目录。`tmp/day23-originals/...`、`_incoming` 和仓库外路径仍不属于允许目录；路径及符号链接越界检查保留。每次使用独立日期/日卡目录，核验后即归档，避免重复目录和散放文件。
 
 ## 全文访问与归档
 
 `daily-learning` 的用户长期授权已包含应读正文、SI和必要附件/数据/代码等资源；默认自主获取并核验，不再询问是否下载或是否需要SI。下载器要求SI flag时直接用 `--si`；这是已重申的每日学习规则，见 [continuous learning](continuous-learning.md#每日学习的资源获取默认) 与 `system/memory.md`，覆盖外部skill的通用SI询问步骤。
 
-WoS 用于发现文献、书目核对和授权范围内的引文信息，不提供出版商全文访问授权。取得 DOI/出版商链接后按既有 Nature-first 流程补查 Scholar，使用 `nature-downloader` 获取公开或已有授权的全文。候选 PDF 在 `raw/papers/gpt/_incoming/<run-id>/` 核对身份与哈希后归档；去凭据获取记录保存到 `outputs/literature-acquisition/`。科学结论仍回到原文和 `knowledge/sources/`。
+WoS 用于发现文献、书目核对和授权范围内的引文信息，不提供出版商全文访问授权。取得 DOI/出版商链接后按既有 Nature-first 流程补查 Scholar，使用 `nature-downloader` 获取公开或已有授权的全文。候选 PDF 直接在 `raw/papers/gpt/learning-daily/YYYYMMDD-DAYn-topic/` 核对身份和哈希；notes/theses/data/reports 使用对应的 `raw/<type>/gpt/learning-daily/` 归档。去凭据获取记录保存到 `outputs/literature-acquisition/`。科学结论仍回到原文和 `knowledge/sources/`。

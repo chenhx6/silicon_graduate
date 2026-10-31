@@ -22,8 +22,8 @@ canonical_source: "强赟华. 130,131Ba高自旋态研究及87Zr低位能级寿�
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/A强赟华博士论文-兰大.pdf"
-raw_file: "raw/papers/degree dissertation/A强赟华博士论文-兰大.pdf"
+library_file: "raw/theses/degree-dissertation/A强赟华博士论文-兰大.pdf"
+raw_file: "raw/theses/degree-dissertation/A强赟华博士论文-兰大.pdf"
 raw_sha256: "CCFAEFF6D5A86C308440ACC218391070C46290C6133FA7104FE83ECE11E73EBF"
 nuclei: [130ba, 131ba, 87zr]
 reactions: ["122Sn(13C,xn)130,131Ba", "87Nb beta-plus decay to 87Zr"]

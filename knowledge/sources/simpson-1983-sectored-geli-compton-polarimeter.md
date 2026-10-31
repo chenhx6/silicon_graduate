@@ -20,8 +20,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Simpson, J., Butler, P. A. & Ekström, L. P. Application of a sectored Ge(Li) detector as a Compton polarimeter. Nucl. Instrum. Methods 204, 463-469 (1983)."
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf"
 raw_sha256: "1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d9"
 nuclei: ["158Er"]
 reactions: ["146Nd(16O,4n)158Er"]
@@ -37,7 +37,7 @@ tags: [Compton-polarimeter, sectored-GeLi, detector-response, 158Er, linear-pola
 
 - 作者：J. Simpson, P. A. Butler, L. P. Ekström。
 - 期刊：*Nuclear Instruments and Methods* 204, 463-469 (1983)。DOI：`10.1016/0167-5087(83)90074-1`。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf`；SHA-256：`1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d9`。2026-10-17核raw与既有frontmatter一致；原正文末位d2为转录错误，已更正，未改raw。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf`；SHA-256：`1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d9`。2026-10-17核raw与既有frontmatter一致；原正文末位d2为转录错误，已更正，未改raw。
 
 ## Scope and Reading Depth
 

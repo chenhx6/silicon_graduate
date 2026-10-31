@@ -42,7 +42,7 @@ session_id: 01a0d794-6454-7563-bac1-3b5ad970edda
 
 ### 主来源与定位
 
-- [Ding 2012：127,128I 高自旋能级结构](../../knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md)。原始文件为 raw/papers/degree dissertation/丁兵 - 博士论文.pdf，SHA-256 为 ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7；source 页保持 status: ai-draft、review_status: unreviewed，所有 claim 的 needs_review: true 不变。
+- [Ding 2012：127,128I 高自旋能级结构](../../knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md)。原始文件为 raw/theses/degree-dissertation/丁兵 - 博士论文.pdf，SHA-256 为 ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7；source 页保持 status: ai-draft、review_status: unreviewed，所有 claim 的 needs_review: true 不变。
 - 我沿 PDF 主线复核了实验反应/阵列与 ADO 设定（PDF pp.57–60，打印 pp.49–52）、127I Fig.5.2/Table 5.1（PDF pp.59–63）、128I Fig.6.2/Table 6.1（PDF pp.69–71）、NPA 与经验壳模型比较 Fig.6.6/Table 6.1（PDF pp.74–76）以及带系统学和模型边界（PDF pp.76–91）。图 6.2 的原始能级连接、箭头强度和 A/B/C 分区与表 6.1 的数值相互核对。
 - **实验直接事实：** 32 MeV 124Sn(7Li,4n)127I 建立 75 个能级、近 150 条 γ 跃迁并给出 ADO（D12-1）；128I 建立 20 个能级、31 条跃迁的新高自旋纲图（D12-7）；表 6.1 记录每条线的 Eγ、相对强度、R_ADO 和初末能级。
 - **作者解释：** 127I 正宇称序列的高-K/旋称分支和 128I 285.2 keV 8− 带头的 πg7/2⊗νh11/2 指认，分别由序列、连接跃迁和邻核系统学支持（D12-2、D12-3、D12-9）。这些是作者的结构解释，不是单个 γ 能量的直接测量。
@@ -238,7 +238,7 @@ Day 2 的 HJS49/RS78 壳隙桥已经有 canonical page [[a130-shell-gap-orbital-
 
 ### Source and evidence
 
-- 主来源是 [Liu et al. 1996 signature-inversion source page](../../knowledge/sources/liu-1996-signature-inversion-a130.md)，DOI [10.1103/PhysRevC.54.719](https://doi.org/10.1103/PhysRevC.54.719)，原始 PDF 为 raw/papers/gpt/high-spin-20260920/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf，SHA-256 ca3e1c1bc834158112dee525fa4c42c3d44596975a506f3a2a1da023580a346f。source 页仍为 review_status: unreviewed，claim-level needs_review 保留。
+- 主来源是 [Liu et al. 1996 signature-inversion source page](../../knowledge/sources/liu-1996-signature-inversion-a130.md)，DOI [10.1103/PhysRevC.54.719](https://doi.org/10.1103/PhysRevC.54.719)，原始 PDF 为 raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/1996_Liu et al_Systematic study of spin assignments and signature inversion of π h 1 1 - 2 ⊗ν.pdf，SHA-256 ca3e1c1bc834158112dee525fa4c42c3d44596975a506f3a2a1da023580a346f。source 页仍为 review_status: unreviewed，claim-level needs_review 保留。
 - 这是 compiled literature systematics，不是一次新的独立谱学实验；原始 La/Pr/Pm/Eu/Cs 实验是依赖输入。论文明确把“平滑激发能曲线 → 修订 I0 → signature inversion”作为方法先验（LU96-1），并把 particle–triaxial-rotor 比较放在修订后的 spin crosswalk 之后（LU96-3）。
 - 视觉复核了 PDF p.720 的 Table I、p.728 的 Fig. 15 和 p.729 的讨论。Fig. 15 的纵轴是 [E(I)-E(I-1)]/(2I)，单位为 keV/ℏ；实心/空心点分别表示作者定义的 favored/unfavored signatures，箭头标出 inversion point。PDF p.723–725 的 Table II/逐条讨论保留 Cs 的多个参考 I0 方案（LU96-4）。
 
@@ -285,7 +285,7 @@ Day 2 的 HJS49/RS78 壳隙桥已经有 canonical page [[a130-shell-gap-orbital-
 
 ### Source and evidence
 
-- 主来源为 [Ma et al. 1990 131Ba source page](../../knowledge/sources/ma-1990-131ba-competing-alignments.md)，DOI [10.1103/PhysRevC.41.717](https://doi.org/10.1103/PhysRevC.41.717)，原始 PDF 为 raw/papers/gpt/high-spin-20260920/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf，SHA-256 a0dbdd4957d1d11af570b5daffc9c44609d9ef5ed570dc3ad32a67388dad90de。source 页仍是 review_status: unreviewed。
+- 主来源为 [Ma et al. 1990 131Ba source page](../../knowledge/sources/ma-1990-131ba-competing-alignments.md)，DOI [10.1103/PhysRevC.41.717](https://doi.org/10.1103/PhysRevC.41.717)，原始 PDF 为 raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1990_Ma et al_Competing proton and neutron rotational alignments.pdf，SHA-256 a0dbdd4957d1d11af570b5daffc9c44609d9ef5ed570dc3ad32a67388dad90de。source 页仍是 review_status: unreviewed。
 - 实验直接事实：119Sn(12C,4n) 反应，57 MeV，五个 Compton-suppressed Ge，约 60 million coincidence events；Fig.1 建立十条带，1–6 为 ΔI=1 双 signature 序列，7–10 为 decoupled ΔI=2 结构（MA90-1；PDF pp.718–725）。
 - PDF p.719 给出角分布拟合式 W(θ)=A₀+A₂P₂(cosθ)+A₄P₄(cosθ)，带 1 的平均 alignment 参数为 a₂=0.59(7)、a₄=0.20(2)，其它带为 a₂=0.75(6)、a₄=0.40(2)。这些是分析输入，不是形变角。
 - Table I（PDF pp.720–722）直接列能量、相对强度、A₂/A₀、A₄/A₀、DCO 和 assignment/mixing。560.0 keV 的 band-6 ΔI=1 线为 A₂/A₀=−0.73(4)、A₄/A₀=0.06(6)、DCO=0.26(1)、M1/E2，δ=−0.42(9)；784 keV 的 stretched E2 与它的强各向异性对照（MA90-4 的 detector/alignment boundary）。

@@ -208,7 +208,7 @@ The official APS 2007 article page had no supplement/attachment link; its SI res
 
 ### Zhu 2003 Ref.[8] transition identity source
 
-CrossRef metadata and the local PDF identify S. Zhu et al., “A Composite Chiral Pair of Rotational Bands in the Odd-A Nucleus 135Nd,” Phys. Rev. Lett. 91, 132501 (2003), DOI 10.1103/PhysRevLett.91.132501, arXiv:nucl-ex/0302029v2. The main text was obtained through the Unpaywall OA route from arXiv and copied read-only to raw/papers/gpt/high-spin-20261009; SHA-256 8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542.
+CrossRef metadata and the local PDF identify S. Zhu et al., “A Composite Chiral Pair of Rotational Bands in the Odd-A Nucleus 135Nd,” Phys. Rev. Lett. 91, 132501 (2003), DOI 10.1103/PhysRevLett.91.132501, arXiv:nucl-ex/0302029v2. The main text was obtained through the Unpaywall OA route from arXiv and copied read-only to raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library; SHA-256 8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542.
 
 PDF p.4 Fig.2 maps the four Band B→Band A links to the corresponding lower-spin Band A states: 31/2−→29/2− at 648 keV in the figure, 33/2−→31/2− at 639 keV, 35/2−→33/2− at 591 keV, and 37/2−→35/2− at (556) keV. The same figure labels Band B in-band links at 226, 282, 309 and 372 keV. Zhu's text has a 648/649-keV difference across DCO discussions; 556 is parenthesized. MU07 printed p.1 says its partial scheme is taken from Ref.[8], while the DSAM strengths come from a separate 100Mo(40Ar,5n) campaign. The 2003 arrow widths indicate relative intensity only, not B values. Atomic locator: [ZH03-3](../../knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md).
 

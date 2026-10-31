@@ -20,7 +20,7 @@ canonical_source: "NNDC ENSDF 225088001,225RA, ADOPTED LEVELS GAMMAS"
 source_url: "https://www.nndc.bnl.gov/ensdf/"
 data_version: "2009-05 listing; H header NDS 110, 1409 (2009), CUT 1-Dec-2008; H err update 11-Mar-2013"
 raw_storage_status: "official-response-archived-as-retrieved-html-wrapper"
-raw_file: "raw/data/day26-20261028/225ra-adopted-225088001-016.html"
+raw_file: "raw/data/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/225ra-adopted-225088001-016.html"
 raw_sha256: "93ce30628f3f24d08bc1e69c47d2c96e739748868fd03407ddbede9e4732e31e"
 nuclei: [225Ra]
 observables: [level-energy, spin-parity, B(E1), B(E2), half-life]

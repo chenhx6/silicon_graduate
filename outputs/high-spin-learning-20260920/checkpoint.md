@@ -21,7 +21,7 @@ The corpus-wide reconciliation has produced `outputs/high-spin-reconciliation-20
 - Valid external files: 118
 - Unique SHA-256: 110
 - Exact duplicate entries: 8
-- Raw batch: `raw/papers/gpt/high-spin-20260920/`
+- Raw batch: `raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/`
 
 ## Completed in this checkpoint
 

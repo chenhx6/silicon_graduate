@@ -23,8 +23,8 @@ citation_key: Karthein_2024
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 zotero_uri:
-library_file: "raw/papers/gpt/_incoming/20260912-100sn-refresh/100sn-indium-2024-arxiv.pdf"
-raw_file: "raw/papers/gpt/_incoming/20260912-100sn-refresh/100sn-indium-2024-arxiv.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260912-PREPLAN-100sn-refresh/100sn-indium-2024-arxiv.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260912-PREPLAN-100sn-refresh/100sn-indium-2024-arxiv.pdf"
 raw_sha256: "4a833c6fbf425ae2f6b190661103ea61335ec1547728788bc9f21f25bf40bd17"
 nuclei: [100sn]
 reactions: ["ISOLDE proton-induced production of 101-131In"]

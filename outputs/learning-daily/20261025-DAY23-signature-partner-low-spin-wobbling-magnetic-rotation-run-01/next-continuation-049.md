@@ -2,7 +2,7 @@
 
 原run2026-10-25-day-23-01/session01a172fd-cbfb-7a13-b715-cfa0c479e08e，原截止2026-10-26 15:00+08，仍active；completed=[]、partial=[23,24]、next23，Day24仅一张无学分预习，不打开Day25。Farmer2698保持，不重启；raw/PLAN/Bib/旧人审/Day21/22学分/继承文件/114隔离producer边界保持。
 
-048已H3 published。049实际TohokuPDF200748455bytes/4pages/SHAf39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e，canonical和raw/papers/codex-day10/koike-2004-selection-rules.pdf早已有同hash，未新建重复source/raw。原KOIKE04-1..13主要选择/limit已覆盖，回读不冒新独立证据。新增目标是具体实现/带标签和旧taskovercertification，full4pagebody/Eqs1–10/Figs1–3actualread/freshvisual2–4。
+048已H3 published。049实际TohokuPDF200748455bytes/4pages/SHAf39816a5d2f3f3ec45098fc636371ee3e8e4dc721b0ced33e7c87b453b7f155e，canonical和raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/koike-2004-selection-rules.pdf早已有同hash，未新建重复source/raw。原KOIKE04-1..13主要选择/limit已覆盖，回读不冒新独立证据。新增目标是具体实现/带标签和旧taskovercertification，full4pagebody/Eqs1–10/Figs1–3actualread/freshvisual2–4。
 
 newKOIKE04-D23-001–004：源γ90以3=mquant、1l2s3m，文称等价Lund−30；Hrot=ħ²[R3²+4(R1²+R2²)]/(8J0)，inertias(Jl,Js,Jm)=(J0,J0,4J0)，numericalJ0=8.55ħ²/MeV（largest34.2），β.3/A130/Z55，与taskZH07γ30 axes1m2s3l及Jmax30不裸等。源A=exp(iπ/2R3)Cpn；Cpnunitaryexchange，不本WikiantiunitaryCχ或parity/signature。sameAcoreE2zero、M1near-isovector只弱非strictzero，rule适用于specialH任何态不要求chirality；A±不强制degeneracy。Eq10equalpartnerstrengths需Eq7/8左右手combinations和Eq9cross-handedEM≈0理想替等号。
 

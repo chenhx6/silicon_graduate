@@ -152,7 +152,7 @@ def main():
     # Matrix inversion consistency independent of the variance-floor identity.
     ident=mm(inv_stat,cov_stat)
     check('propagated statistical covariance has invertible finite design',max(abs(ident[i][j]-float(i==j)) for i in range(5) for j in range(5))<1e-12)
-    src=ROOT/'raw/papers/gpt/high-spin-20260920/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf'
+    src=ROOT/'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf'
     out={'created_at_utc':datetime.now(timezone.utc).isoformat(),
          'session_id':'01a15dcc-49f9-7623-b0e9-75fd73c74a80',
          'script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),

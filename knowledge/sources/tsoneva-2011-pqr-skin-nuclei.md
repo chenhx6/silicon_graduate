@@ -18,6 +18,8 @@ pages: "174-180"
 doi: "10.1016/j.physletb.2010.11.002"
 canonical_source: "https://doi.org/10.1016/j.physletb.2010.11.002"
 citation_key: tsoneva2011pqr
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-S0370269310012761-main.pdf"
+raw_sha256: b21e16fbf7690930171dda77aa14fc0a61719328d1607d815db04a18ee57d90e
 nuclei: [58ni, 68ni, 78ni, 112sn, 120sn, 132sn, 208pb]
 reactions: []
 experiments: []
@@ -59,6 +61,14 @@ PLB 695, 174-180 (2011), DOI `10.1016/j.physletb.2010.11.002`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| TSO11-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 2, Figs. 1-2 | false |
+| TSO11-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 3, Fig. 3 | false |
+| TSO11-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 4, Fig. 4, Table 1 | false |
+| TSO11-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. 5, Conclusions | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

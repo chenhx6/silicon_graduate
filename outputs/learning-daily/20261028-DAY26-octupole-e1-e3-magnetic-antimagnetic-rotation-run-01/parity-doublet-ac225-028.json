@@ -6,7 +6,7 @@
     "title": "225AC ADOPTED LEVELS, GAMMAS",
     "evaluation_version": "2022-07",
     "cutoff": "2019-10-25",
-    "raw_file": "raw/data/day26-20261028/225ac-adopted-225089001-028.html",
+    "raw_file": "raw/data/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/225ac-adopted-225089001-028.html",
     "raw_sha256": "fb3d87428e000397881227c3dc96973c1765310a7811062cc8c297259872a817",
     "retrieved_wrapper_lines": 169,
     "locator": "ENSDF preformatted text: lines 55-161; low-energy L/G/B records lines 65-103"

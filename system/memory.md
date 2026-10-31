@@ -52,7 +52,7 @@ updated: 2026-10-27
 - Nature Skills 的非 API 本机依赖已配置：下载/PDF、专利文档和 CNIPA Playwright Python 依赖已安装，Playwright Chromium 已就绪，Academic Search MCP 通过 `uv` 隔离环境全局注册并使用本机联系邮箱访问无需 key 的 PubMed/CrossRef/OpenAlex 路由。出版商、NCBI 和 Semantic Scholar API key 暂不申请、不配置；Scopus/ScienceDirect 等 key-dependent provider 保持按需禁用。机构入口与联系邮箱只保存在用户本机配置，不写入公开 Wiki 或 Git 历史。
 - Wiki 工作项目由 Docker 内的终端 Codex 接手，Docker 负责 sandbox 和完整仓库访问；`.codex/config.toml` 不声明项目 sandbox。raw 保护、科学证据规则、人工审核和不可逆操作确认仍有效，工作流不依赖桌面端 GUI。
 - 共有能力的 skill 优先进入 Docker 共享 skill 库 `/root/.agents/skills`，并保留固定来源、许可证和结构验证；项目专用 skill 留在项目的 `.agents/skills/`，不能把 Wiki 路径、运行状态、凭据或项目专用脚本未经通用化放进共享层。
-- Nature-first 文献入口固定为：先用 `nature-academic-search` 核对结构化元数据，再补查 Google Scholar 或学术镜像，候选下载交给 `nature-downloader`；Scholar/镜像发现的 PDF 不因入口不稳定直接丢弃，而是在 `raw/papers/gpt/_incoming/<run-id>/` 校验。已验证 PDF 晋升到 `raw/papers/gpt/`，Agent BibTeX 只写 `raw/zotero/gpt.bib`，去凭据 manifest 写入 `outputs/literature-acquisition/`；`raw/zotero/wiki-inbox.bib` 始终保持用户/Zotero 管理和 Agent 只读。APS/PRC 或 Scholar 的真人验证由用户在原标签页完成。
+- Nature-first 文献入口固定为：先用 `nature-academic-search` 核对结构化元数据，再补查 Google Scholar 或学术镜像，候选下载交给 `nature-downloader`；Scholar/镜像发现的 PDF 先在 `raw/papers/gpt/learning-daily/YYYYMMDD-DAYn-topic/` 或 `YYYYMMDD-PREPLAN-topic/` 校验并归档。已验证 PDF 不再保留在 `_incoming`，Agent BibTeX 只写 `raw/zotero/gpt.bib`，去凭据 manifest 写入 `outputs/literature-acquisition/`；`raw/zotero/wiki-inbox.bib` 始终保持用户/Zotero 管理和 Agent 只读。APS/PRC 或 Scholar 的真人验证由用户在原标签页完成。
 - 经典高自旋综述不能仅因年代较早而被笼统降级：通用术语、γ 探测基础和物理成因框架可继续作为有效背景；应分别核对后来发展的物理模式、具体装置性能和单核素证据。
 - 本仓库采用 bounded initiative：允许与当前任务直接相关的必要最小同步，禁止非必要顺手优化；脚本统一使用 Python 3，Git 由当前终端环境提供。
 - 中文科学页面中专业术语首次出现时保留英文名称或标准缩写；可能指向不同物理对象的简称必须写明具体对象，例如 two-band mixing 必须说明是哪两条带，避免后续查询只按中文词面误配。

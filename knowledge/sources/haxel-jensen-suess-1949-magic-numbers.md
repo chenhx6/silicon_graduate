@@ -15,8 +15,8 @@ year: 1949
 volume: 75
 pages: "1766"
 canonical_source: "Haxel, Jensen & Suess, Phys. Rev. 75, 1766 (1949)"
-library_file: "raw/papers/gpt/high-spin-20260920/review/1949_Haxel et al_On the Magic Numbers in Nuclear Structure.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/1949_Haxel et al_On the Magic Numbers in Nuclear Structure.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1949_Haxel et al_On the Magic Numbers in Nuclear Structure.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1949_Haxel et al_On the Magic Numbers in Nuclear Structure.pdf"
 raw_sha256: "55626064ffdeaf2ba8c4a836e425bffa269a2050464064015db09de73a3539a2"
 nuclei: [shell-structure]
 reactions: []
@@ -32,7 +32,7 @@ tags: [magic-numbers, shell-model, spin-orbit, historical-theory]
 ## Bibliographic Record
 
 - O. Haxel, J. H. D. Jensen and H. E. Suess, *Physical Review* **75**, 1766 (1949).
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/1949_Haxel et al_On the Magic Numbers in Nuclear Structure.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1949_Haxel et al_On the Magic Numbers in Nuclear Structure.pdf`。
 - The one-page scan contains three neighboring letters; only the Haxel–Jensen–Suess letter is in scope. It occupies the central portion and includes Table I.
 
 ## Scope and Reading Depth

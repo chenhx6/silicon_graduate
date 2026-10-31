@@ -1385,7 +1385,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
-      "message": "raw/papers/gpt/day16-20261018/nndc-178w-178074001-200907-a758b17a8a52.ens unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/nndc-178w-178074001-200907-a758b17a8a52.ens unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1445,7 +1445,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
-      "message": "raw/papers/codex-day14/nndc-128i-adopted-2015.ens unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-128i-adopted-2015.ens unavailable; hash check not executed"
     },
     {
       "severity": "warning",

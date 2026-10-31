@@ -127,14 +127,14 @@
       "locator": "adopted fixed-column XML/HTML wrapper; focused 3- level and BE3 fields"
     },
     {
-      "path": "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
       "bytes": 881225,
       "signature_hex": "255044462d312e34",
       "sha256": "f0da6d0a56cd10d1023633aed1a25d021f88a0ff48787c4569a26031e1b3dc4d",
       "locator": "direct paper Table I; E3 matrix element"
     },
     {
-      "path": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
       "bytes": 1423088,
       "signature_hex": "255044462d312e35",
       "sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb",

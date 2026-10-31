@@ -17,8 +17,8 @@ volume: 39
 pages: "306-347"
 doi: "10.1103/RevModPhys.39.306"
 canonical_source: "Rose & Brink, Rev. Mod. Phys. 39, 306-347 (1967)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf"
 raw_sha256: "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc"
 nuclei: [generic]
 reactions: [generic-alignment-population]
@@ -34,7 +34,7 @@ tags: [Rose-Brink, angular-distribution, phase-convention, mixing-ratio, alignme
 ## Bibliographic Record
 
 - H. J. Rose & D. M. Brink, *Rev. Mod. Phys.* **39**, 306–347 (1967), DOI `10.1103/RevModPhys.39.306`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf`。
 
 ## Scope and Reading Depth
 

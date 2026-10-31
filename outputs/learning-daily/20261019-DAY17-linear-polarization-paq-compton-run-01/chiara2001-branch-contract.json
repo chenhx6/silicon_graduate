@@ -1,6 +1,6 @@
 {
   "identity": "CHI01-ACTUAL-PARENT-BRANCH-PROVENANCE-01",
-  "pdf": "raw/papers/gpt/high-spin-20261009/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf",
+  "pdf": "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf",
   "pdf_sha256": "5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e",
   "declared_control": "visible photon only, alpha0/delta0, original Eq2/3 constants; no experimental CI",
   "parents": [

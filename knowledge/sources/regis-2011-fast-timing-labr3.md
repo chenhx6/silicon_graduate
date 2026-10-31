@@ -22,8 +22,8 @@ canonical_source: "Régis, Jean-Marc. Fast Timing with LaBr3(Ce) Scintillators a
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/LaBr3时间.pdf"
-raw_file: "raw/papers/degree dissertation/LaBr3时间.pdf"
+library_file: "raw/theses/degree-dissertation/LaBr3时间.pdf"
+raw_file: "raw/theses/degree-dissertation/LaBr3时间.pdf"
 raw_sha256: "54EF3C5B70D7EF4ED694AD9089FA40533D39E2BB060228EB3D1A304B03555F52"
 nuclei: [176w, 172hf, 214bi, 214po, 133cs]
 reactions: ["in-beam gamma-ray fast-timing measurements", "beta-gamma delayed-coincidence calibration sources"]

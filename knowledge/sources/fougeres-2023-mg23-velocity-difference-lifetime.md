@@ -18,7 +18,7 @@ doi: 10.1038/s41467-023-40121-3
 citation_key: ""
 canonical_source: "Fougeres et al NC144536 publisher main7p SI8p Figshare22666537v1 Zenodo8044973"
 source_url: https://www.nature.com/articles/s41467-023-40121-3
-raw_file: raw/papers/day17-20261020/fougeres-2023-mg23-publisher.pdf
+raw_file: raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/fougeres-2023-mg23-publisher.pdf
 raw_sha256: 6652343310f238d7249654411a34713985bf4be73bd7e88d45cccd96158e0be7
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23

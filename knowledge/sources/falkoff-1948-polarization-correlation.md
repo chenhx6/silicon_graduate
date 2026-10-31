@@ -15,8 +15,8 @@ year: 1948
 volume: 73
 pages: "518"
 canonical_source: "Falkoff, Phys. Rev. 73, 518 (1948)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1948_Falkoff_Polarization Correlation of Successive Gamma-Ray Quanta.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1948_Falkoff_Polarization Correlation of Successive Gamma-Ray Quanta.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1948_Falkoff_Polarization Correlation of Successive Gamma-Ray Quanta.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1948_Falkoff_Polarization Correlation of Successive Gamma-Ray Quanta.pdf"
 raw_sha256: "47cf0977334fc9dc8fc27b3d25b46a2eac4272c611df4c10ce69ccdb07d2b589"
 nuclei: [60Co, 46Sc]
 reactions: []

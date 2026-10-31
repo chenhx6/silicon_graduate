@@ -17,7 +17,7 @@ volume: 112
 pages: 855
 language: en
 canonical_source: "https://www.nndc.bnl.gov/nudat3/getdataset.jsp?nucleus=133SN&unc=nds"
-raw_file: "raw/papers/gpt/day2-shell-gap-20260928/nudat-133Sn-levels.html"
+raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/nudat-133Sn-levels.html"
 raw_sha256: 5c631c0f019a3698e01ef549544738c39f3047e08baf04dbf7eaafcec117a4bb
 retrieval_date: 2026-09-29
 ensdf_cutoff: 2010-10-31

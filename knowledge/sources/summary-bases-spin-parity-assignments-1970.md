@@ -15,8 +15,8 @@ year: 1970
 pages: "iii-iv"
 pii: "S0090-550X(70)80047-X"
 canonical_source: "Nuclear Data Sheets 1970 summary of bases"
-library_file: "raw/papers/gpt/high-spin-20260920/review/1970_Summary of bases for spin and parity assignments — 1970.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/1970_Summary of bases for spin and parity assignments — 1970.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1970_Summary of bases for spin and parity assignments — 1970.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1970_Summary of bases for spin and parity assignments — 1970.pdf"
 raw_sha256: "d8386bab5d0b6639354207e7149709c615bf4cf907303e5fc7e61a349a19487e"
 nuclei: [assignment-methods]
 reactions: [transfer, Coulomb-excitation, neutron-capture, high-spin-reaction]
@@ -32,7 +32,7 @@ tags: [spin-parity, DCO, polarization, angular-distribution, method-summary]
 ## Bibliographic Record
 
 - Nuclear Data Sheets editorial compilation, PII `S0090-550X(70)80047-X`, four-page scan with the proposition sheet on pp.iii–iv.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/1970_Summary of bases for spin and parity assignments — 1970.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1970_Summary of bases for spin and parity assignments — 1970.pdf`。
 
 ## Scope and Reading Depth
 

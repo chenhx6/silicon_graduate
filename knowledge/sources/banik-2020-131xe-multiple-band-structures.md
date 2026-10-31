@@ -21,7 +21,7 @@ zotero_item_key: ""
 citation_key: ""
 zotero_uri: ""
 library_file: ""
-raw_file: "raw/papers/gpt/day3-mean-field-20260929/banik-2020-131xe-reaction/PDFs/Banik_et_al_2020_131Xe_multiple_band_structures.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/banik-2020-131xe-reaction/PDFs/Banik_et_al_2020_131Xe_multiple_band_structures.pdf"
 raw_sha256: 21e7e1eed7a93ffc3c38f4580fcf93863d02c56e40ffc900b1634df14c7f34e6
 nuclei: [131Xe]
 reactions: [130Te-alpha-3n-131xe]
@@ -40,7 +40,7 @@ tags: [131xe, a130, inga, signature-partner, gamma-softness, total-routhian-surf
 
 ## Bibliographic Record
 
-R. Banik et al., *Physical Review C* **101**, 044306 (2020), DOI [10.1103/PhysRevC.101.044306](https://doi.org/10.1103/PhysRevC.101.044306)。Crossref 核对题名、作者、年份、卷和文章号。APS 页面标准许可标记不是 OA 授权；Nature Downloader 的 OA-only 查询返回 `oa_not_found`。随后 APS 公开 PDF 直链返回 HTTP 200、`application/pdf`、`%PDF-1.3`，按 publisher-direct public URL 获取，不记为开放许可。主文 15 页已通读，SHA-256 见 frontmatter 与 [`manifest.json`](../../raw/papers/gpt/day3-mean-field-20260929/banik-2020-131xe-reaction/manifest.json)。用户要求先取主文；正文足以复核这里的实验与 TRS 结论，不需要 SI。
+R. Banik et al., *Physical Review C* **101**, 044306 (2020), DOI [10.1103/PhysRevC.101.044306](https://doi.org/10.1103/PhysRevC.101.044306)。Crossref 核对题名、作者、年份、卷和文章号。APS 页面标准许可标记不是 OA 授权；Nature Downloader 的 OA-only 查询返回 `oa_not_found`。随后 APS 公开 PDF 直链返回 HTTP 200、`application/pdf`、`%PDF-1.3`，按 publisher-direct public URL 获取，不记为开放许可。主文 15 页已通读，SHA-256 见 frontmatter 与 [`manifest.json`](../../raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/banik-2020-131xe-reaction/manifest.json)。用户要求先取主文；正文足以复核这里的实验与 TRS 结论，不需要 SI。
 
 ## Scope and Reading Depth
 

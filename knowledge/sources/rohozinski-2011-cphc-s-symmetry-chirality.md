@@ -25,7 +25,7 @@ observables: [band-energy, band-splitting, B(E2), B(M1), magnetic-moment, S(I)]
 methods: [discrete-symmetry, CPHC-diagonalization, triaxial-shape-variation, transition-matrix-element-analysis]
 tags: [S-symmetry, CPHC, nuclear-chirality, M1-staggering, non-unique-fingerprint, A130]
 citation_key: "Rohozinski_2011"
-raw_file: "raw/papers/codex-day10/rohozinski-2011-cphc-s-symmetry.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/rohozinski-2011-cphc-s-symmetry.pdf"
 raw_sha256: "94b2b3bc89c1d942f07f7c512c5aecc38c3cc08bbf48dac507ad373ace64b8c9"
 ---
 

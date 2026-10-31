@@ -17,8 +17,8 @@ volume: 25
 pages: "471-472"
 doi: "10.1140/epjad/i2005-06-178-9"
 canonical_source: "https://doi.org/10.1140/epjad/i2005-06-178-9"
-library_file: "raw/papers/gpt/high-spin-20260920/振动/2005_Gore et al_Unexpected rapid variations in odd-even level staggering in gamma-vibrational.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/振动/2005_Gore et al_Unexpected rapid variations in odd-even level staggering in gamma-vibrational.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2005_Gore et al_Unexpected rapid variations in odd-even level staggering in gamma-vibrational.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2005_Gore et al_Unexpected rapid variations in odd-even level staggering in gamma-vibrational.pdf"
 raw_sha256: "6571b5a3a5c2b14b13fb9411b08a9cf8f91eadcb26ef22a1c69e62a19ecf67b3"
 nuclei: [104Mo, 106Mo, 108Ru, 110Ru, 112Ru, 112Pd, 114Pd, 116Pd, 170Er]
 reactions: [252Cf-fission]
@@ -34,7 +34,7 @@ tags: [gamma-vibration, staggering, triaxiality, gamma-softness, fission]
 ## Bibliographic Record
 
 - P. M. Gore *et al.*, *EPJ A* **25** (S1), 471–472 (2005), DOI `10.1140/epjad/i2005-06-178-9`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/振动/2005_Gore et al_Unexpected rapid variations in odd-even level staggering in gamma-vibrational.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2005_Gore et al_Unexpected rapid variations in odd-even level staggering in gamma-vibrational.pdf`。
 - 2-page electronic article; `5.7×10^11` triple/higher-fold `252Cf` fission events and Fig.1 panels read.
 
 ## Scope and Reading Depth

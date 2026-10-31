@@ -7,8 +7,8 @@
 | 标签 | 实际文件与身份 | SHA-256 | 实际页数 |
 |---|---|---|---|
 | D-manuscript | `raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf`；首页题名相同、Dated November9,2021；本地稿本排版，无正式064304-n页码。不能仅由文件名推为正式版 | `752d3c5da690c20ec7e188dcc043f9da2a7f062deefc371dd8a497a190b66c37` | **16** |
-| D-published | `raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf`；页眉PRC104,064304(2021)，PDF metadata DOI10.1103/PhysRevC.104.064304；页脚064304-n | `47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652` | **15** |
-| W-thesis | `raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf`；Wakudyanaye, Magister Scientiae, March2022 | `48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080` | 130 |
+| D-published | `raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf`；页眉PRC104,064304(2021)，PDF metadata DOI10.1103/PhysRevC.104.064304；页脚064304-n | `47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652` | **15** |
+| W-thesis | `raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf`；Wakudyanaye, Magister Scientiae, March2022 | `48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080` | 130 |
 
 `identity.json`记录前两文件实测哈希、页数和PDF元数据。稿本与正式版的相关section内容对应，但布局/页码/参考文献编号不同；不得把一版的页码或Ref编号直接套入另一版。此次未改旧source页中任何已有阅读深度、人审或flags。
 

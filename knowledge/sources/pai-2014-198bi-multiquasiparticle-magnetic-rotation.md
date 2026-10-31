@@ -19,8 +19,8 @@ arxiv: "1406.5494v3"
 language: en
 canonical_source: "arXiv:1406.5494v3"
 citation_key: pai_2014_198Bi_MR
-library_file: "raw/papers/gpt/_incoming/20261029-day27-bi198/Crossing_of_large_multiquasiparticle_magnetic_rotation_bands_in_198Bi.pdf"
-raw_file: "raw/papers/gpt/_incoming/20261029-day27-bi198/Crossing_of_large_multiquasiparticle_magnetic_rotation_bands_in_198Bi.pdf"
+library_file: "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/bi198/Crossing_of_large_multiquasiparticle_magnetic_rotation_bands_in_198Bi.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/bi198/Crossing_of_large_multiquasiparticle_magnetic_rotation_bands_in_198Bi.pdf"
 raw_sha256: "464d4deb3317e16688fe49de136cbaff91f4dc1a7f570243d2143c74ebd1c5e0"
 nuclei: [198Bi]
 reactions: ["185Re(16O,3n)198Bi", "187Re(16O,5n)198Bi"]

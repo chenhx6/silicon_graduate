@@ -2,7 +2,7 @@
   "data_identity": "DAY16-PREVIEW-SE21-PR135-854-CALIBRATION-01",
   "data_kind": "Published calibration row interpreted conditionally in the source tensor convention, not raw experiment refit",
   "source": "knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md",
-  "raw_path": "raw/papers/degree dissertation/Wobbling_Motion_in_Nuclei.pdf",
+  "raw_path": "raw/theses/degree-dissertation/Wobbling_Motion_in_Nuclei.pdf",
   "raw_sha256": "954e6cc853536555f5a691d6eaa257aaa051f79960de5eb47942f28fb335ef74",
   "reference": {
     "E_keV": "854.3",

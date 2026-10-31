@@ -26,7 +26,7 @@ observables: [B(E2), B(M1), transition-selection-rules, chiral-doublet]
 methods: [discrete-symmetry, electromagnetic-transition-matrix-elements]
 tags: [chirality, selection-rules, B(E2), B(M1), model-limit, 128Cs]
 citation_key: "Hamamoto_2011"
-raw_file: "raw/papers/codex-day10/hamamoto-2011-selection-rule.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/hamamoto-2011-selection-rule.pdf"
 raw_sha256: "dafe5f8f25081661413c5c8e2dc0b1d44a48c12ec4f5169bd1b06b0facd1c205"
 ---
 

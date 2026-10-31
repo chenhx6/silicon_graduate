@@ -5,14 +5,14 @@
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/afanasjev-1999-termination-rotational-bands.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/agarwal-2007-137pr-magnetic-rotation-bandcrossing.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/akkoyun-2012-agata-instrument-response.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/akkoyun-2012-agata-instrument-response.md - raw/papers/gpt/day13/akkoyun-2012-agata-overview.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/akkoyun-2012-agata-instrument-response.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/akkoyun-2012-agata-overview.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/aladili-2009-agata-doppler-simulation.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/aladili-2009-agata-doppler-simulation.md - raw/papers/gpt/day13/aladili-2009-doppler-simulations.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/aladili-2009-agata-doppler-simulation.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/aladili-2009-doppler-simulations.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/aoki-1975-geli-summing-polarimeters.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/assie-2021-mugast-agata-vamos.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/assie-2021-mugast-agata-vamos.md - raw/papers/gpt/day13/assie-2021-mugast-campaign.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/assie-2021-mugast-agata-vamos.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/assie-2021-mugast-campaign.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/baker-cousins-1984-histogram-fits.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/baker-cousins-1984-histogram-fits.md - raw/papers/gpt/day13/baker-cousins-1984-histogram-fits-kekscan.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/baker-cousins-1984-histogram-fits.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/baker-cousins-1984-histogram-fits-kekscan.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/banik-2020-131xe-multiple-band-structures.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/bass-1972-two-crystal-compton-polarimeter.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/budaca-budaca-2025-harmonic-chiral-vibration.md - source has no citation_key
@@ -20,15 +20,15 @@
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/chen-size-2014-6li-pgamma-7be.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/chiara-2001-108-110in-shears-band-lifetimes.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md - raw/papers/gpt/day13/20o-2019-acta-dsam.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/20o-2019-acta-dsam.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/ciemala-2020-c16-o20-lifetimes.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/ciemala-2020-c16-o20-lifetimes.md - raw/papers/gpt/day13/ciemala-2020-c16-o20-lifetimes.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/ciemala-2020-c16-o20-lifetimes.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ciemala-2020-c16-o20-lifetimes.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md - raw/papers/gpt/day13/ciemala-2021-deep-inelastic-lifetime-method.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ciemala-2021-deep-inelastic-lifetime-method.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md - raw/papers/gpt/day13/crespi-2013-agata-15mev.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/crespi-2013-agata-15mev.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/crespi-2023-agata-tracking-performance.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/crespi-2023-agata-tracking-performance.md - raw/papers/gpt/day13/crespi-2023-agata-tracking-performance.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/crespi-2023-agata-tracking-performance.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/crespi-2023-agata-tracking-performance.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/der-mateosian-sunyar-1974-angular-coefficients.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/dietrich-1974-excited-states-103pd.md - source has no citation_key
@@ -55,7 +55,7 @@
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/jones-1995-clover-compton-calibration.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/kramp-1987-160-two-photon-decay.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/lemasson-2023-agata-vamos-fission-history.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/lemasson-2023-agata-vamos-fission-history.md - raw/papers/gpt/day13/lemasson-2023-fission-spectroscopy.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/lemasson-2023-agata-vamos-fission-history.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/lemasson-2023-fission-spectroscopy.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/li-2013-high-spin-184-186au.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/li-mingliang-2006-high-spin-137la-138pr-98sr.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/liu-2008-shape-coexistence-188pt.md - source has no citation_key
@@ -64,7 +64,7 @@
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/liu-minliang-2004-high-spin-141nd-142pm.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/liu-yanxin-2012-projected-shell-model-exotic-nuclei.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/ljungvall-2020-agata-ganil-performance.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/ljungvall-2020-agata-ganil-performance.md - raw/papers/gpt/day13/ljungvall-2020-ganil-performance.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/ljungvall-2020-agata-ganil-performance.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ljungvall-2020-ganil-performance.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/lubos-2016-100sn-neighboring-nuclei-decay-spectroscopy.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/lv-2025-136pr-tac-covariant-density-functional.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/lv-bingfeng-2019-chirality-136nd-135nd-thesis.md - source has no citation_key
@@ -78,10 +78,10 @@
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/mu-lin-2024-exotic-shapes-sn-isotopes.md - source has no citation_key
 [WARNING] RAW_MISSING            knowledge/sources/nndc-2005-67ga-selected-level-gamma-records.md - raw/data/gpt/day14/nndc-2005-67ga-adopted.ens unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/nndc-2009-178w-dco-reference-records.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/nndc-2009-178w-dco-reference-records.md - raw/papers/gpt/day16-20261018/nndc-178w-178074001-200907-a758b17a8a52.ens unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/nndc-2009-178w-dco-reference-records.md - raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/nndc-178w-178074001-200907-a758b17a8a52.ens unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md - raw/papers/codex-day14/nndc-128i-adopted-2015.ens unavailable; hash check not executed
-[WARNING] RAW_MISSING            knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md - raw/papers/gpt/day14/nndc-193bi-adopted-2017-2019.ens unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md - raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-128i-adopted-2015.ens unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md - raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-193bi-adopted-2017-2019.ens unavailable; hash check not executed
 [WARNING] RAW_MISSING            knowledge/sources/nndc-2018-136pr-selected-level-gamma-records.md - raw/data/gpt/day14/nndc-2018-136pr-adopted.ens unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/nolan-sharpey-schafer-1979-lifetime-measurements.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/nptool-2019-reaction-velocity-code-object.md - source has no citation_key
@@ -90,7 +90,7 @@
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md - source has no citation_key
 [WARNING] RAW_MISSING            knowledge/sources/petrache-2015-nd-exotic-rotations-triaxiality.md - raw/papers/2015-Petrache-Nd-exotic-rotations-triaxiality.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md - raw/papers/gpt/day16-20261018/purry-1997-phd-high-spin-multiparticle-178w-b8ee1308d487.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md - raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/purry-1997-phd-high-spin-multiparticle-178w-b8ee1308d487.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/qiang-2019-high-spin-130-131ba-87zr.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/ragnarsson-nilsson-sheline-1978-shell-structure.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/regis-2011-fast-timing-labr3.md - source has no citation_key
@@ -101,13 +101,13 @@
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/schmid-1998-gammasphere-polarization.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/sensharma-2021-wobbling-motion-135pr-187au.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/senyigit-2014-agata-neutron-rejection.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/senyigit-2014-agata-neutron-rejection.md - raw/papers/gpt/day13/senyigit-2014-agata-neutrons.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/senyigit-2014-agata-neutron-rejection.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/senyigit-2014-agata-neutrons.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/sheikh-jehangir-bhat-2024-tpsm-wobbling.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/simons-2005-130cs-chiral-structures.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/smith-1998-rotational-bands-127-131pr.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/smith-2019-griffin-angular-correlation-analysis.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/soderstrom-2008-agata-position-design.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/soderstrom-2008-agata-position-design.md - raw/papers/gpt/day13/soderstrom-2008-proceedings.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/soderstrom-2008-agata-position-design.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/soderstrom-2008-proceedings.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/song-litao-2006-high-spin-179au-183au.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/suffert-1959-proton-capture-polarization.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/summary-bases-spin-parity-assignments-1970.md - source has no citation_key
@@ -115,14 +115,14 @@
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/sun-yazhou-2019-16c-single-proton-knockout-thesis.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/suzuki-kimura-2021-n28-triaxiality.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/tunl-2017-12c-level-widths.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/tunl-2017-12c-level-widths.md - raw/papers/gpt/day13/tunl-12c-table-12-13-2017.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/tunl-2017-12c-level-widths.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/tunl-12c-table-12-13-2017.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md - raw/papers/gpt/day13/vandebrouck-2016-vamos-mwpc.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/vandebrouck-2016-vamos-mwpc.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/varner-2005-coulomb-excitation-132-134sn.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/vonderwerth-1995-compton-polarimeters.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/walker-dracoulis-2001-exotic-isomers.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md - raw/papers/codex-day14/wang-2010-128i-new-high-spin-level-scheme.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md - raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/wang-2010-128i-new-high-spin-level-scheme.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/wang-2013-high-spin-195au-195pt.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/wang-2014-high-spin-104ag-91-92zr.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/wang-2017-109ag-tac-separable-pairing.md - source has no citation_key
@@ -137,7 +137,7 @@
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/yan-duo-2015-csr-coulomb-excitation-detector-system-thesis.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/zanon-2023-o20-high-precision.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/zanon-2023-o20-high-precision.md - raw/papers/gpt/day13/zanon-2023-o20-high-precision.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/zanon-2023-o20-high-precision.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/zanon-2023-o20-high-precision.pdf unavailable; hash check not executed
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/zhang-2022-shape-coexistence-187pb-188bi-188po.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md - source has no citation_key
 [WARNING] RAW_MISSING            knowledge/sources/zhao-2015-pairing-spin-orientation-tac.md - raw/papers/2015-Zhao-pairing-spin-orientation-TAC.pdf unavailable; hash check not executed
@@ -147,7 +147,7 @@
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/zhou-houbing-2012-101pd-rdt-thesis.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/zhu-2003-135nd-composite-chiral-pair.md - source has no citation_key
 [WARNING] CITATION_KEY_MISSING   knowledge/sources/ziliani-2019-agata-calibration-controls.md - source has no citation_key
-[WARNING] RAW_MISSING            knowledge/sources/ziliani-2019-agata-calibration-controls.md - raw/papers/gpt/day13/ziliani-2019-agata-calibration.pdf unavailable; hash check not executed
+[WARNING] RAW_MISSING            knowledge/sources/ziliani-2019-agata-calibration-controls.md - raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ziliani-2019-agata-calibration.pdf unavailable; hash check not executed
 [INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/aberg-flocard-nazarewicz-1990-mean-field-shapes.md - AFN90-1 awaits human review
 [INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/aberg-flocard-nazarewicz-1990-mean-field-shapes.md - AFN90-2 awaits human review
 [INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/aberg-flocard-nazarewicz-1990-mean-field-shapes.md - AFN90-3 awaits human review

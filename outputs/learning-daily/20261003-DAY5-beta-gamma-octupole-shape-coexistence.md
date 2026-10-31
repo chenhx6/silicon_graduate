@@ -22,7 +22,7 @@ manual_finalization: true
 
 - 正式 30 天计划 Day 5。原定 2026-10-01 的触发漏过后于 2026-10-03 补跑；日序仍是 Day 5。按两个选定槽位完成有限候选复排后记录 evidence saturation，未开启第三个问题。
 - Codex session：`01a0ffe6-1332-7ed2-87f0-6a0722bc4a06`；恢复命令：`codex resume 01a0ffe6-1332-7ed2-87f0-6a0722bc4a06 -C /workspace/wiki -s danger-full-access -a never`。初始回执 [run-01](20261003-DAY5-beta-gamma-octupole-shape-coexistence-run-01/run.json) 保留原运行；手动终态回执 [run-02](20261003-DAY5-beta-gamma-octupole-shape-coexistence-run-02/run.json) 记录同一 session 的收尾。
-- 启动时 tracked 工作树干净；继承的 Day 2/3/4 raw 文件和 run 目录保持识别。本轮未覆盖继承 raw、PLAN.md、Zotero inbox 或用户原件；仅在新建的 raw/papers/gpt/day5-20261003/ 保存两份公开 ENSDF 评估 PDF 和一份 arXiv 理论 PDF，均核对来源身份与 SHA-256，保持未暂存。
+- 启动时 tracked 工作树干净；继承的 Day 2/3/4 raw 文件和 run 目录保持识别。本轮未覆盖继承 raw、PLAN.md、Zotero inbox 或用户原件；仅在新建的 raw/papers/gpt/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence/ 保存两份公开 ENSDF 评估 PDF 和一份 arXiv 理论 PDF，均核对来源身份与 SHA-256，保持未暂存。
 - 前台 runner 在 continuation 1 的 Codex turn 已完成后消失，未写 `runner-finished` scheduler 事件；run-01 保留为 `recovered-continuation`，run-02 记录同一 session 的手动终态 reconciliation。Farmer 确认 session `complete`，Codex events 以 `turn.completed` 结束、stderr 为空；父 runner 退出码未捕获，明确保留为 null。
 
 ## Candidate pool and selection

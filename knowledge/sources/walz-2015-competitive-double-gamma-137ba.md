@@ -19,10 +19,10 @@ citation_key: Walz_2015
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1038/nature15543"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf"
 raw_sha256: "4177a89672ef1362d9dc35ff1292c7550c2db477fe34b61abaec4c72475b9c45"
-supplementary_raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/SUPPLEMENTARY INFORMATION.pdf"
+supplementary_raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/SUPPLEMENTARY INFORMATION.pdf"
 supplementary_raw_sha256: "e02bb09bae8f80252a4dca64fe2d487d2c05f292abda1f3a5249ff614a70e2d9"
 nuclei: [137Ba, 137Cs]
 reactions: [137Cs-beta-decay]
@@ -40,7 +40,7 @@ tags: [137Ba, competitive-double-gamma, two-photon-decay, LaBr3, QPM]
 ## Bibliographic Record
 
 - C. Walz *et al.*, *Nature* **526**, 406–409 (2015), DOI `10.1038/nature15543`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2015_Walz et al_Observation of the competitive double-gamma nuclear decay.pdf`。
 - 4-page Nature Letter; the separate `SUPPLEMENTARY INFORMATION.pdf` in the batch is attached material audited as HS-116, not an independent experiment.
 
 ## Scope and Reading Depth

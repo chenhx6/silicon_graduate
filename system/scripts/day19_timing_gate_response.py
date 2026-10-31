@@ -119,8 +119,8 @@ def main():
     naive_variance=primitive_variance/2
     check('mirrored calibration covariance prevents fake sqrt2 gain',proper_variance==primitive_variance and naive_variance<proper_variance)
     raws={
-      'raw/papers/degree dissertation/LaBr3时间.pdf':'54ef3c5b70d7ef4ed694ad9089fa40533d39e2bb060228eb3d1a304b03555f52',
-      'raw/papers/gpt/high-spin-20260920/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf':'5e20f735e995021f4a0eb8c1a937acedeee53509caed3ffa2cd8ddaa794bbc4f'}
+      'raw/theses/degree-dissertation/LaBr3时间.pdf':'54ef3c5b70d7ef4ed694ad9089fa40533d39e2bb060228eb3d1a304b03555f52',
+      'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf':'5e20f735e995021f4a0eb8c1a937acedeee53509caed3ffa2cd8ddaa794bbc4f'}
     for path,expected in raws.items():check('source hash '+Path(path).name,hashlib.sha256(Path(path).read_bytes()).hexdigest()==expected)
     result={'created_at_utc':datetime.now(timezone.utc).isoformat(),
       'script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),

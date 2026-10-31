@@ -8,8 +8,8 @@
   ],
   "shared_index_action": "appended exactly three own source/note links, preserving existing changes",
   "new_raw_files": [
-    "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-prc.pdf",
-    "raw/papers/gpt/day26-20261028/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf"
+    "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/rather-2014-104pd-antimagnetic-prc.pdf",
+    "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf"
   ],
   "checks": "owned lint errors 0; repository lint currently has 22 errors in other concurrent files; boundary ok; targeted diff check passed",
   "git_commit": null,

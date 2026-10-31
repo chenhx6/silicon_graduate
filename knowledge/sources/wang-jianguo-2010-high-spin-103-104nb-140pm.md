@@ -22,8 +22,8 @@ canonical_source: "王建国. 丰中子核103,104Nb及缺中子核140Pm的高自
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/王建国-丰中子核103,104Nb及缺中子核140Pm的高自旋态研究.pdf"
-raw_file: "raw/papers/degree dissertation/王建国-丰中子核103,104Nb及缺中子核140Pm的高自旋态研究.pdf"
+library_file: "raw/theses/degree-dissertation/王建国-丰中子核103,104Nb及缺中子核140Pm的高自旋态研究.pdf"
+raw_file: "raw/theses/degree-dissertation/王建国-丰中子核103,104Nb及缺中子核140Pm的高自旋态研究.pdf"
 raw_sha256: "a4262bba15371b4cfe37f5a89331ba0f7b3ef6aa339fec6e6579ca55baa36635"
 nuclei: [103Nb, 104Nb, 140Pm]
 reactions: ["252Cf spontaneous fission", "126Te(19F,5n)140Pm"]

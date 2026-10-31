@@ -24,7 +24,7 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/2021_Nomura et al_Coupling of pairing and triaxial shape vibrations in collective states of γ -soft nuclei.pdf"
 raw_sha256: CF500A8CDCF4E192AE79DB7AC22A29EB2272034FE797D2E0EC350516810102C4
-alternate_version_file: "raw/papers/gpt/high-spin-20260920/形变/2021_Nomura et al_Coupling of pairing and triaxial shape vibrations in collective states of γ.pdf"
+alternate_version_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2021_Nomura et al_Coupling of pairing and triaxial shape vibrations in collective states of γ.pdf"
 alternate_version_sha256: "883850ece784ecf7fcf126859f1a37c59772b42a5fb5aeae575e0aeef6600087"
 alternate_version_identity: "arXiv:2105.11997v1; same title/authors and seven-page preprint"
 nuclei: [128xe, 130xe]

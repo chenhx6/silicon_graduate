@@ -17,10 +17,10 @@ pages: "95-110"
 pii: "S0168-9002(98)00624-X"
 doi: "10.1016/S0168-9002(98)00624-X"
 canonical_source: "Schmid et al., NIM A 417, 95-110 (1998)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf"
 raw_sha256: "66502edb2f0ff2d09321d3b388767ea98736b83865b90f128fdd1e46921b2a2c"
-alternate_versions: ["raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium2.pdf"]
+alternate_versions: ["raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium2.pdf"]
 alternate_sha256: "bdb397650e5b8cc92f358e386f52703604dd0962184364004eb8985f76998558"
 nuclei: [56Fe, 24Mg, 109Ag, 197Pb, 176Yb]
 reactions: [24Mg(p,pγ), 56Fe(p,pγ), 109Ag(p,pγ), 176Yb(26Mg,5n)197Pb]
@@ -36,7 +36,7 @@ tags: [Gammasphere, segmented-Ge, polarization, detector-response, 197Pb]
 ## Bibliographic Record
 
 - G. J. Schmid *et al.*, *NIM A* **417**, 95–110 (1998), PII `S0168-9002(98)00624-X`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf`。
 
 ## Scope and Reading Depth
 

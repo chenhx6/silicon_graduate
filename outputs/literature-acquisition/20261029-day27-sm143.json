@@ -7,7 +7,7 @@
   "write_authorization": {
     "source_note": "knowledge/sources/rajbanshi-2018-extremely-asymmetric-shears-143sm.md",
     "receipt": "outputs/literature-acquisition/20261029-day27-sm143.json",
-    "new_raw_incoming": "raw/papers/gpt/_incoming/20261029-day27-sm143/",
+    "new_raw_incoming": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/sm143/",
     "scratch": "tmp/day27-sm143/",
     "no_git_mutations": true,
     "no_child_agents": true,
@@ -57,11 +57,11 @@
       "--open-access",
       "--si",
       "--out",
-      "/workspace/wiki/raw/papers/gpt/_incoming/20261029-day27-sm143"
+      "/workspace/wiki/raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/sm143"
     ],
-    "download_manifest": "raw/papers/gpt/_incoming/20261029-day27-sm143/manifest.json",
+    "download_manifest": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/sm143/manifest.json",
     "pdf": {
-      "path": "raw/papers/gpt/_incoming/20261029-day27-sm143/PDFs/Extremely_asymmetric_shears_band_in_143Sm.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/sm143/PDFs/Extremely_asymmetric_shears_band_in_143Sm.pdf",
       "bytes": 202559,
       "pages": 6,
       "header": "%PDF-1.4",
@@ -295,8 +295,8 @@
     "source_note": "knowledge/sources/rajbanshi-2018-extremely-asymmetric-shears-143sm.md",
     "receipt": "outputs/literature-acquisition/20261029-day27-sm143.json",
     "raw_incoming_files": [
-      "raw/papers/gpt/_incoming/20261029-day27-sm143/manifest.json",
-      "raw/papers/gpt/_incoming/20261029-day27-sm143/PDFs/Extremely_asymmetric_shears_band_in_143Sm.pdf"
+      "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/sm143/manifest.json",
+      "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/sm143/PDFs/Extremely_asymmetric_shears_band_in_143Sm.pdf"
     ],
     "scratch_files": [
       "tmp/day27-sm143/aps.txt",

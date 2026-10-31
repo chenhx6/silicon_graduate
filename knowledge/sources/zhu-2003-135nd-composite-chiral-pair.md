@@ -21,8 +21,8 @@ canonical_source: "Zhu et al., Phys. Rev. Lett. 91, 132501 (2003)"
 zotero_item_key: ""
 citation_key: ""
 zotero_uri: ""
-library_file: "raw/papers/gpt/high-spin-20261009/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf"
-raw_file: "raw/papers/gpt/high-spin-20261009/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf"
+library_file: "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf"
 raw_sha256: "8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542"
 nuclei: [135Nd]
 reactions: ["110Pd(30Si,5n)135Nd"]
@@ -39,7 +39,7 @@ tags: [135nd, a130, chiral-doublet, three-quasiparticle, level-scheme, interband
 
 - S. Zhu et al., Physical Review Letters 91, 132501 (2003), DOI 10.1103/PhysRevLett.91.132501, arXiv:nucl-ex/0302029v2.
 - CrossRef metadata confirms the title, first author, journal, volume, article number and DOI. The OA copy used here is arXiv v2 dated 10 June 2003.
-- Raw PDF: raw/papers/gpt/high-spin-20261009/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf; 169,558 bytes; SHA-256 8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542.
+- Raw PDF: raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf; 169,558 bytes; SHA-256 8dd7aaa0a2e369532dd673384bcc18c60abc330408f20243939b31df15d98542.
 - Download route: Unpaywall identified the arXiv repository PDF as an article-level OA candidate. On 2026-10-09, a user-authorized check of the official APS and arXiv records found no linked SI file; this does not rule out separately hosted author material. The route results are listed under Supporting Information Availability.
 
 ## Supporting Information Availability
@@ -171,7 +171,7 @@ P0: none identified.
 
 ## Non-source Notes and Follow-up
 
-The local public OA PDF was fetched from arXiv via Unpaywall; the manifest for this run is in tmp/day9-zhu-2003/manifest.json. The PDF is stored under raw/papers/gpt/high-spin-20261009 and remains immutable.
+The local public OA PDF was fetched from arXiv via Unpaywall; the manifest for this run is in tmp/day9-zhu-2003/manifest.json. The PDF is stored under raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library and remains immutable.
 
 
 ## Day21 checkpoint044：逐线能级回路与跨来源身份边界

@@ -17,8 +17,8 @@ pages: "105-113"
 pii: "0029-554X(74)90433-9"
 doi: "10.1016/0029-554X(74)90433-9"
 canonical_source: "James, Twin & Butler, Nucl. Instr. Meth. 115, 105-113 (1974)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf"
 raw_sha256: "c629c42b34570b1a03f450d63feed892f22df864732a47ab02bfa2d9e2a8101a"
 nuclei: [generic]
 reactions: [generic-alignment-reaction]
@@ -34,7 +34,7 @@ tags: [angular-correlation, statistics, alignment, mixing-ratio, uncertainty]
 ## Bibliographic Record
 
 - A. N. James, P. J. Twin & P. A. Butler, *Nucl. Instr. Meth.* **115**, 105–113 (1974), PII `0029-554X(74)90433-9`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf`。
 
 ## Scope and Reading Depth
 

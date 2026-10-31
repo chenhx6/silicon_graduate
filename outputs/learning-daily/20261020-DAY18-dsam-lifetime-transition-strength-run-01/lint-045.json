@@ -71,7 +71,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/akkoyun-2012-agata-instrument-response.md",
-      "message": "raw/papers/gpt/day13/akkoyun-2012-agata-overview.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/akkoyun-2012-agata-overview.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -83,7 +83,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/aladili-2009-agata-doppler-simulation.md",
-      "message": "raw/papers/gpt/day13/aladili-2009-doppler-simulations.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/aladili-2009-doppler-simulations.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -113,7 +113,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/assie-2021-mugast-agata-vamos.md",
-      "message": "raw/papers/gpt/day13/assie-2021-mugast-campaign.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/assie-2021-mugast-campaign.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -125,7 +125,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/baker-cousins-1984-histogram-fits.md",
-      "message": "raw/papers/gpt/day13/baker-cousins-1984-histogram-fits-kekscan.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/baker-cousins-1984-histogram-fits-kekscan.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -149,7 +149,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/bethge-1966-heavy-ion-stopping-charge-states.md",
-      "message": "raw/papers/day17-20261019/bethge-1966-stopping-charge-states.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261019-DAY17-linear-polarization-paq-compton/bethge-1966-stopping-charge-states.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -161,7 +161,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/bizzeti-2015-agata-triple-cluster-polarimetry.md",
-      "message": "raw/papers/gpt/day16-20261018/bizzeti2015-agata-polarimetry-46a0bc767d94.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/bizzeti2015-agata-polarimetry-46a0bc767d94.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -197,7 +197,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/ciemala-2019-20o-dsam-analysis-status.md",
-      "message": "raw/papers/gpt/day13/20o-2019-acta-dsam.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/20o-2019-acta-dsam.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -209,7 +209,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/ciemala-2020-c16-o20-lifetimes.md",
-      "message": "raw/papers/gpt/day13/ciemala-2020-c16-o20-lifetimes.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ciemala-2020-c16-o20-lifetimes.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -221,7 +221,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/ciemala-2021-deep-inelastic-lifetime-method.md",
-      "message": "raw/papers/gpt/day13/ciemala-2021-deep-inelastic-lifetime-method.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ciemala-2021-deep-inelastic-lifetime-method.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -233,7 +233,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/crespi-2013-agata-high-energy-doppler-response.md",
-      "message": "raw/papers/gpt/day13/crespi-2013-agata-15mev.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/crespi-2013-agata-15mev.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -245,7 +245,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/crespi-2023-agata-tracking-performance.md",
-      "message": "raw/papers/gpt/day13/crespi-2023-agata-tracking-performance.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/crespi-2023-agata-tracking-performance.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -335,7 +335,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/fougeres-2022-thesis-evasions-response-contract.md",
-      "message": "raw/theses/day17-20261020/fougeres-2022-thesis.pdf unavailable; hash check not executed"
+      "message": "raw/theses/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/fougeres-2022-thesis.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -347,7 +347,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/fougeres-2023-mg23-velocity-difference-lifetime.md",
-      "message": "raw/papers/day17-20261020/fougeres-2023-mg23-publisher.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/fougeres-2023-mg23-publisher.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -359,7 +359,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/friedman-2020-gadget-al23-proton-branch.md",
-      "message": "raw/papers/day17-20261020/friedman-2020-gadget-accepted.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/friedman-2020-gadget-accepted.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -377,7 +377,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
-      "message": "raw/papers/gpt/day17/garnsworthy-2019-griffin-facility-arxiv-v2.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261019-DAY17-linear-polarization-paq-compton/garnsworthy-2019-griffin-facility-arxiv-v2.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -515,7 +515,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/jenkins-2004-23mg-fractional-doppler-rate.md",
-      "message": "raw/papers/day17-20261020/jenkins-2004-mg23-arxiv-v1.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/jenkins-2004-mg23-arxiv-v1.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -533,7 +533,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/jones-1998-ra223-alpha-gamma-correlations.md",
-      "message": "raw/papers/gpt/day16-20261018/jones1998-223ra-alpha-19d50c6b0b8b.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/jones1998-223ra-alpha-19d50c6b0b8b.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -545,7 +545,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/kirsebom-2016-23mg-dsam-lifetimes.md",
-      "message": "raw/papers/day17-20261020/kirsebom-2016-23mg-dsam-arxiv-v1.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/kirsebom-2016-23mg-dsam-arxiv-v1.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -563,7 +563,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/lemasson-2023-agata-vamos-fission-history.md",
-      "message": "raw/papers/gpt/day13/lemasson-2023-fission-spectroscopy.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/lemasson-2023-fission-spectroscopy.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -617,7 +617,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/ljungvall-2020-agata-ganil-performance.md",
-      "message": "raw/papers/gpt/day13/ljungvall-2020-ganil-performance.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ljungvall-2020-ganil-performance.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -659,7 +659,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/martin-1987-ensdf-mixing-ratio-phase-conventions.md",
-      "message": "raw/papers/gpt/day16-20261018/ensdf-procedures-1987-f08bf2c3e780.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/ensdf-procedures-1987-f08bf2c3e780.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -707,7 +707,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/morse-2022-gretina-polarization-sensitivity.md",
-      "message": "raw/papers/gpt/day16-20261018/morse-2022-gretina-calibration-author-preprint.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/morse-2022-gretina-calibration-author-preprint.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -773,7 +773,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/nndc-2009-178w-dco-reference-records.md",
-      "message": "raw/papers/gpt/day16-20261018/nndc-178w-178074001-200907-a758b17a8a52.ens unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/nndc-178w-178074001-200907-a758b17a8a52.ens unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -821,13 +821,13 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/nndc-2015-128i-selected-level-gamma-records.md",
-      "message": "raw/papers/codex-day14/nndc-128i-adopted-2015.ens unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-128i-adopted-2015.ens unavailable; hash check not executed"
     },
     {
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/nndc-2017-193bi-level-scheme-evaluation.md",
-      "message": "raw/papers/gpt/day14/nndc-193bi-adopted-2017-2019.ens unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-193bi-adopted-2017-2019.ens unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -929,7 +929,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/palit-2000-rh99-clover-polarimetry.md",
-      "message": "raw/papers/gpt/day16-20261018/palit2000-rh99-polarimetry-16ac6571acce.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/palit2000-rh99-polarimetry-16ac6571acce.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -953,7 +953,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/purry-1997-phd-w178-multiparticle-structure.md",
-      "message": "raw/papers/gpt/day16-20261018/purry-1997-phd-high-spin-multiparticle-178w-b8ee1308d487.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/purry-1997-phd-high-spin-multiparticle-178w-b8ee1308d487.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1007,7 +1007,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/riley-2021-ucgretina-energy-response.md",
-      "message": "raw/papers/gpt/day16-20261018/riley-2021-ucgretina-2104.09986v1.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/riley-2021-ucgretina-2104.09986v1.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1043,7 +1043,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/saastamoinen-2011-thesis-al23-proton-response.md",
-      "message": "raw/theses/day17-20261020/saastamoinen-2011-thesis.pdf unavailable; hash check not executed"
+      "message": "raw/theses/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/saastamoinen-2011-thesis.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1055,7 +1055,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/sallaska-2010-na22-letter-version-contract.md",
-      "message": "raw/papers/day17-20261020/sallaska-2010-letter-arxiv-v2.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/sallaska-2010-letter-arxiv-v2.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1067,7 +1067,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/sallaska-2011-na22-absolute-resonance-strength.md",
-      "message": "raw/papers/day17-20261020/sallaska-2011-na22-arxiv-v2.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/sallaska-2011-na22-arxiv-v2.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1115,7 +1115,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/senyigit-2014-agata-neutron-rejection.md",
-      "message": "raw/papers/gpt/day13/senyigit-2014-agata-neutrons.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/senyigit-2014-agata-neutrons.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1163,7 +1163,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/soderstrom-2008-agata-position-design.md",
-      "message": "raw/papers/gpt/day13/soderstrom-2008-proceedings.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/soderstrom-2008-proceedings.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1235,7 +1235,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/tamu-2006-2007-al23-gamma-reference-reports.md",
-      "message": "raw/reports/day17-20261020/cyclotron-progress2006.pdf unavailable; hash check not executed"
+      "message": "raw/reports/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/cyclotron-progress2006.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1247,7 +1247,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/tsuzuki-2021-sicdte-template-polarimetry.md",
-      "message": "raw/papers/gpt/day16-20261018/tsuzuki2021-2105-14236v1-f2c69bdb5ec1.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/tsuzuki2021-2105-14236v1-f2c69bdb5ec1.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1259,7 +1259,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/tuli-2001-ensdf-format-manual.md",
-      "message": "raw/papers/gpt/day16-20261018/tuli-2001-ensdf-format-3400f0ae84d2.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/tuli-2001-ensdf-format-3400f0ae84d2.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1271,7 +1271,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/tunl-2017-12c-level-widths.md",
-      "message": "raw/papers/gpt/day13/tunl-12c-table-12-13-2017.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/tunl-12c-table-12-13-2017.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1319,7 +1319,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/vandebrouck-2016-vamos-dual-position-mwpc.md",
-      "message": "raw/papers/gpt/day13/vandebrouck-2016-vamos-mwpc.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/vandebrouck-2016-vamos-mwpc.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1349,7 +1349,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/wang-2010-128i-new-high-spin-level-scheme.md",
-      "message": "raw/papers/codex-day14/wang-2010-128i-new-high-spin-level-scheme.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/wang-2010-128i-new-high-spin-level-scheme.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1451,7 +1451,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/zanon-2023-o20-high-precision.md",
-      "message": "raw/papers/gpt/day13/zanon-2023-o20-high-precision.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/zanon-2023-o20-high-precision.pdf unavailable; hash check not executed"
     },
     {
       "severity": "warning",
@@ -1511,7 +1511,7 @@
       "severity": "warning",
       "code": "RAW_MISSING",
       "path": "knowledge/sources/ziliani-2019-agata-calibration-controls.md",
-      "message": "raw/papers/gpt/day13/ziliani-2019-agata-calibration.pdf unavailable; hash check not executed"
+      "message": "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ziliani-2019-agata-calibration.pdf unavailable; hash check not executed"
     },
     {
       "severity": "info",

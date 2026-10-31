@@ -20,8 +20,8 @@ citation_key: K_nigshofen_2001
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevC.64.037302"
-library_file: "raw/papers/gpt/high-spin-20260920/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf"
 raw_sha256: "34428af79a8dcc3a7dc27a6a416c3fa556a2d37e763df76cb1218241f370a755"
 nuclei: [130Ba, 130La]
 reactions: [120Sn(14N,4n)130La]
@@ -37,7 +37,7 @@ tags: [130Ba, mixing-ratio, low-spin, A130, gamma-gamma]
 ## Bibliographic Record
 
 - C. T. Königshofen *et al.*, *Physical Review C* **64**, 037302 (2001), DOI `10.1103/PhysRevC.64.037302`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2001_Königshofen et al_Multipole mixing ratios in 130 Ba.pdf`。
 - 3-page selectable-text PRC Brief Report; title page, authors, DOI, volume/article number and publication date agree.
 
 ## Scope and Reading Depth

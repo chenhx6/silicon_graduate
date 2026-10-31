@@ -19,8 +19,8 @@ arxiv: "1312.6963v1"
 language: en
 canonical_source: "G. H. Bhat et al., Nucl. Phys. A 922 (2014) 150-162, doi:10.1016/j.nuclphysa.2013.12.006; arXiv:1312.6963v1."
 citation_key: "Bhat_2014"
-library_file: "raw/papers/gpt/day3-mean-field-20260929/bhat-2014-tpsm-124-132cs.pdf"
-raw_file: "raw/papers/gpt/day3-mean-field-20260929/bhat-2014-tpsm-124-132cs.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/bhat-2014-tpsm-124-132cs.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/bhat-2014-tpsm-124-132cs.pdf"
 raw_sha256: "3d1e411d0dfad9d565aa5134d9ad75710a2cbb31607286f0bbc9c8b0537a9757"
 nuclei: [124cs, 126cs, 130cs, 132cs]
 models: ["triaxial-projected-shell-model", "triaxial-Nilsson-model", "BCS-pairing"]
@@ -35,7 +35,7 @@ tags: [a130, chiral-candidate, odd-odd, TPSM, triaxiality, configuration-mixing]
 
 - G. H. Bhat, R. N. Ali, J. A. Sheikh & R. Palit, *Nuclear Physics A* **922**, 150–162 (2014), DOI [`10.1016/j.nuclphysa.2013.12.006`](https://doi.org/10.1016/j.nuclphysa.2013.12.006).
 - Lawful open version: [arXiv:1312.6963v1](https://arxiv.org/abs/1312.6963), submitted 2013-12-25. Crossref verified the published title, authors, year, volume and pages; the locally preserved evidence is the arXiv v1, not an independently inspected publisher proof.
-- Local PDF: `raw/papers/gpt/day3-mean-field-20260929/bhat-2014-tpsm-124-132cs.pdf`; 247,430 bytes; SHA-256 `3d1e411d0dfad9d565aa5134d9ad75710a2cbb31607286f0bbc9c8b0537a9757`.
+- Local PDF: `raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/bhat-2014-tpsm-124-132cs.pdf`; 247,430 bytes; SHA-256 `3d1e411d0dfad9d565aa5134d9ad75710a2cbb31607286f0bbc9c8b0537a9757`.
 - Local BibTeX search found no unique citation-key entry; no key was inferred or added to the protected `.bib`.
 
 ## Scope and Reading Depth

@@ -19,8 +19,8 @@ citation_key: S_derstr_m_2020
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1038/s41467-020-16787-4"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/2020_Söderström et al_Electromagnetic character of the competitive γγ-γ-decay from 137mBa.pdf"
 raw_sha256: "fb8bd159bae6e5f1e2b9827e1bf2bce7cd98c126c7fef00f1bd41526154ec12a"
 nuclei: [137Ba, 137Cs, 152Sm]
 reactions: [137Cs-beta-decay]

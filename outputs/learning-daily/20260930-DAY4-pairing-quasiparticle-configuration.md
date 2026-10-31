@@ -27,7 +27,7 @@ session_mode: resumed-existing-session
 - 计划截止时间为 `2026-10-01 15:00 Asia/Shanghai`；行政收束时间为 `2026-09-30 22:10 Asia/Shanghai`。本轮提前收束，理由是 Day 4 两个选定问题已分别完成原文/定量核查，下一步最有价值的 Masiteng 2013/2014 原文路线在可公开来源处受访问阻挡；已停止重复尝试被挡端点。后续只有出现新的合法全文副本或目标带数据时才重开该问题。
 - 执行时 fast 配置为 `global_rounds_max=3`、`optimization_gain_stop=<25%`、`quality_ratio_min=0.60`、`effective_format=Markdown`。没有无 fast 的同环境对照，提速倍数与质量比例未实测。
 - 并行只读审查共派 6 个子代理：Ma 1990、Nomura 2021、194Tl 访问路线、AME2020 Ba 质量差分、Pai 2012 原文、候选池与研究设计；六项均已返回。Wiki farmer `ensure` 成功且 watcher 在运行；`once` exit `0`、`actions=[]`。没有 allowlisted 瞬时失败需要重试；原 runner 在用户中断后由当前 session 明确续接。
-- 起始 tracked 工作树干净；继承的 Day 2 / Day 3 / Day 4-run-01 目录与 Day 2 / Day 3 raw 文件均未改写。新增 Pai PDF 保存于本轮专属 `raw/papers/gpt/day4-20260930/194tl-pai-2012/`，作为原始公开来源保留且不纳入 Git；公式核查渲染留在 `tmp/`。未改 `PLAN.md`、Zotero inbox 或任何 `human-reviewed` 标记。
+- 起始 tracked 工作树干净；继承的 Day 2 / Day 3 / Day 4-run-01 目录与 Day 2 / Day 3 raw 文件均未改写。新增 Pai PDF 保存于本轮专属 `raw/papers/gpt/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration/194tl-pai-2012/`，作为原始公开来源保留且不纳入 Git；公式核查渲染留在 `tmp/`。未改 `PLAN.md`、Zotero inbox 或任何 `human-reviewed` 标记。
 
 ## Candidate pool and selection
 

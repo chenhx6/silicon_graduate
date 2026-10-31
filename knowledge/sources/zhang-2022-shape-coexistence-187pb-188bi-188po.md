@@ -16,7 +16,7 @@ pages: 132
 language: zh/en
 canonical_source: "张文强. Z=82,N=104核区缺中子原子核的形状共存研究[D]. 中国科学院大学, 2022."
 citation_key: ""
-raw_file: "raw/papers/degree dissertation/张文强.pdf"
+raw_file: "raw/theses/degree-dissertation/张文强.pdf"
 raw_sha256: "0BC7A14983E601D81D7E2052587F114B4ECE87756F77955A004D0AAE616616CC"
 nuclei: [187pb, 188bi, 188po]
 experiments: [argonne-gas-filled-analyzer-187pb-188bi-188po]

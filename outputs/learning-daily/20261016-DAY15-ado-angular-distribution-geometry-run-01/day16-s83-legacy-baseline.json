@@ -2,7 +2,7 @@
   "path": "knowledge/sources/simpson-1983-sectored-geli-compton-polarimeter.md",
   "sha256": "3d96adc80d19c4cfc8ace7dfa11f5392b5841f58b62dc693bb5ba4ab95029cf0",
   "old_body_sha_line": [
-    "- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf`；SHA-256：`1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d2`。"
+    "- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1983_Simpson et al_Application of a sectored Ge(Li) detector as a Compton polarimeter.pdf`；SHA-256：`1216684723d0b98daef22997446168c628951c1a062d8d9283ef3efc9fafa6d2`。"
   ],
   "old_Pt_line": [
     "2. 用已知偏振 E2 transitions（`328/356 keV` `192Pt`、`847 keV` `56Fe`、`1369 keV` `24Mg`、`1779 keV` `28Si`、`4430 keV` `12C`）标定 `Q`（PDF p.466，Table 2）。"

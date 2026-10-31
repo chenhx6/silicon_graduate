@@ -17,7 +17,7 @@ citation_key: chauhan_2024_101ru_amr_metadata
 citation_key_origin: crossref
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1142/S0218301324500423"
-raw_file: "raw/papers/gpt/day26-20261028/s0218301324500423.crossref.json"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/s0218301324500423.crossref.json"
 raw_sha256: "6b74d60a6714cc25800dd7b4690c6121b2b0996bec865101ed66af394862d140"
 nuclei: [101Ru]
 models: [antimagnetic-rotation]

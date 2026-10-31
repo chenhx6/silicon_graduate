@@ -19,8 +19,8 @@ citation_key: Gade_2024
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1038/s41567-024-02680-0"
-library_file: "raw/papers/gpt/high-spin-20260920/形变/2025_Gade et al_In-beam spectroscopy reveals competing nuclear shapes in the rare isotope 62Cr.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/形变/2025_Gade et al_In-beam spectroscopy reveals competing nuclear shapes in the rare isotope 62Cr.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2025_Gade et al_In-beam spectroscopy reveals competing nuclear shapes in the rare isotope 62Cr.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2025_Gade et al_In-beam spectroscopy reveals competing nuclear shapes in the rare isotope 62Cr.pdf"
 raw_sha256: "80ada48de9df6bddc15b9de79ad6e6d77fc4a6822264d8d7ebdf23762c12203e"
 nuclei: [62Cr, 64Fe]
 reactions: [64Fe-two-proton-knockout-9Be]
@@ -36,7 +36,7 @@ tags: [62Cr, shape-coexistence, N40-island-inversion, FRIB, GRETINA]
 ## Bibliographic Record
 
 - A. Gade *et al.*, *Nature Physics* **21**, 37–42 (2025), DOI `10.1038/s41567-024-02680-0`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/形变/2025_Gade et al_In-beam spectroscopy reveals competing nuclear shapes in the rare isotope 62Cr.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2025_Gade et al_In-beam spectroscopy reveals competing nuclear shapes in the rare isotope 62Cr.pdf`。
 
 ## Scope and Reading Depth
 

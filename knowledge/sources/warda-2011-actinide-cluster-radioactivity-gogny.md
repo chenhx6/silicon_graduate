@@ -9,7 +9,7 @@ review_status: unreviewed
 source_type: journal-article-theory
 reading_depth: skimmed
 canonical_source: "Phys. Rev. C 84, 044608 (2011); arXiv:1107.1478v1"
-raw_file: "raw/papers/gpt/day26-20261028/warda-2011-actinide-cluster-radioactivity-arxiv1107.1478v1.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/warda-2011-actinide-cluster-radioactivity-arxiv1107.1478v1.pdf"
 raw_sha256: "632768452a96e8fdc9f9abc45caebbdfef154796962ee6cac41e31c360d54aa9"
 title_original: "Microscopic description of cluster radioactivity in actinide nuclei"
 authors: [M. Warda, L. M. Robledo]

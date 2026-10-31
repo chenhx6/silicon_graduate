@@ -18,7 +18,7 @@ doi: "10.1103/PhysRevC.68.031302"
 citation_key: smith_2003_Gamma178m2Hf
 canonical_source: "https://doi.org/10.1103/PhysRevC.68.031302"
 source_url: "https://digital.library.unt.edu/ark%3A/67531/metadc1413376/m2/1/high_res_d/15013782.pdf"
-raw_file: "raw/papers/day27-20261030/smith-2003-hf178-isomer-gamma-decay.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/smith-2003-hf178-isomer-gamma-decay.pdf"
 raw_sha256: "9d326f4ff38af434b8d299b293d1da6da2b33fd412435eb56584cf010ecccb11"
 raw_storage_status: reserved-unpopulated-manuscript-staging-only
 public_staging_manifest: "outputs/literature-acquisition/20261030-day27-smith2003-hf178.json"

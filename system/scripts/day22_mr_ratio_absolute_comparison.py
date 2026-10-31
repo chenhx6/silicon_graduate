@@ -4,8 +4,8 @@ import argparse,hashlib,json,math
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 RAW={
- 'AG07':('raw/papers/gpt/day3-mean-field-20260929/137pr-2007-magnetic-rotation/PDFs/Bandcrossing_of_magnetic_rotation_bands_in_137Pr.pdf','83ccf538913d777f60832ee7ff304ffa8ca0678399b893f827236a6ab33c6a55'),
- 'CHI01':('raw/papers/gpt/high-spin-20261009/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf','5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e')}
+ 'AG07':('raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/137pr-2007-magnetic-rotation/PDFs/Bandcrossing_of_magnetic_rotation_bands_in_137Pr.pdf','83ccf538913d777f60832ee7ff304ffa8ca0678399b893f827236a6ab33c6a55'),
+ 'CHI01':('raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf','5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e')}
 def calculate():
  hashes={}
  for key,(p,sha) in RAW.items():

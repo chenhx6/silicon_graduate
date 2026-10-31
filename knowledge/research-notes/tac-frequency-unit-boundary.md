@@ -25,7 +25,7 @@ Olbratowski 2002 v1 同时给出冻结陀螺经典模型的解析临界值和 Sk
 
 - Olbratowski v1 原件为 4 页、arXiv:nucl-th/0211075v1；PDF pp.2–3 Eqs.(2)–(7) 给出 $I=\hat J\omega+s$、$\omega\times I=0$、$\omega_m(\mu-J_m)=0$ 及解析临界式。其输入为 $J_s,J_m,J_l=(8.5,31,20)\,\hbar^2/\mathrm{MeV}$、$s_s,s_l=(5.43,5.00)\,\hbar$；PDF p.3 说 HF 非平面解从 $\hbar\omega=0.6$ MeV 出现，不能和解析值混写。
 - Starosta 2001 PRL p.4 Table I 给 $^{132}$La（$Z=57$）$\epsilon=0.175,\gamma=32^\circ,\hbar\omega=350$ keV、$\vartheta=65^\circ,\varphi=36^\circ,E_b=12$ keV、$J=11.3\hbar$。该表是混合 Woods–Saxon/修正谐振子势的 3D-TAC 输出；实验两带位移约 $0.37$ MeV 来自 PDF p.3 Fig.3 的能谱系统学。
-- Olbratowski v1 已归档至 `raw/papers/gpt/day26-202610/olbratowski-2002-critical-frequency-arxiv-v1.pdf`；实际读本和归档副本 SHA256 为 `3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb`。Starosta 原件 SHA256 为 `9082c1e8ced3fbfeb2248f5b18c1b646f4dc1adc77af5c27c6a988855583cbf4`。
+- Olbratowski v1 已归档至 `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/olbratowski-2002-critical-frequency-arxiv-v1.pdf`；实际读本和归档副本 SHA256 为 `3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb`。Starosta 原件 SHA256 为 `9082c1e8ced3fbfeb2248f5b18c1b646f4dc1adc77af5c27c6a988855583cbf4`。
 
 ## Provisional Reasoning
 

@@ -4,7 +4,7 @@
     "author": "Ignasio Wakudyanaye",
     "institution": "University of the Western Cape",
     "year": 2022,
-    "source_path": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "source_path": "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
     "source_type": "pdf",
     "source_format": "pdf-text",
     "language": "en"
@@ -4645,7 +4645,7 @@
     }
   ],
   "source_identity": {
-    "path": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+    "path": "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
     "sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080",
     "pages": 130,
     "selected_pdf_pages": [

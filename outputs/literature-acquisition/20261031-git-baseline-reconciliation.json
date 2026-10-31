@@ -1,24 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T16:12:00+08:00",
-  "status": "preserved-and-separated",
+  "generated_at": "2026-10-31T19:52:47+08:00",
+  "status": "ready-for-exact-staging",
   "branch": "main",
-  "head": "4d39cb8997f70edba07fa53635bfcf50a1756868",
+  "head": "cdbf23d2ba2ea5b294351269e8660b1e9408bcd5",
   "origin_main": "4d39cb8997f70edba07fa53635bfcf50a1756868",
   "baseline_source": "outputs/learning-daily/20261030-DAY28-independent-l3-research-week-four-exam-run-01/baseline.json",
   "baseline_observation": "2026-10-30T18:07:20.590268+08:00",
   "working_tree_snapshot": {
-    "tracked_dirty_entries": 25,
-    "untracked_entries": 23,
+    "tracked_dirty_entries": 983,
+    "untracked_entries": 3,
     "staged_entries": 0,
     "tracked_dirty_roots": {
-      "knowledge": 22,
-      "outputs": 1,
-      "system": 2
+      "knowledge": 328,
+      "outputs": 613,
+      "system": 43
     },
     "untracked_roots": {
-      "knowledge": 18,
-      "outputs": 5
+      "outputs": 3
     }
   },
   "root_cause_of_prior_baseline_confusion": [
@@ -34,10 +33,10 @@
     "Preserved all inherited dirty files and runner state; did not reset, clean, delete, rename or overwrite raw material."
   ],
   "staging_policy": {
-    "safe_to_stage": false,
+    "safe_to_stage": true,
     "local_commit_created": true,
     "commit_subject": "Finalize Day28 evidence map and canonical Day29 handoff",
-    "reason": "The exact durable manifest was committed locally; full-Wiki lint remains blocked, so the commit is final-not-pushed.",
+    "reason": "Boundary, lint and diff gates now pass; stage only the explicit tracked changes and three literature-acquisition manifests.",
     "forbidden_actions": [
       "git add .",
       "git add -A",
@@ -48,8 +47,8 @@
     ]
   },
   "next_reconciliation": [
-    "At the next substantive run, capture status --short --branch before the first write.",
-    "Build the task-owned manifest from that snapshot and the canonical prompt path.",
-    "Stage exact paths only after lint, boundary and diff gates pass."
+    "Stage exact paths only; inspect cached name-status and cached diff-check.",
+    "Fetch origin/main, verify ancestry, run push dry-run, then push HEAD:main.",
+    "Record the resulting commit subject and push outcome in handoff."
   ]
 }

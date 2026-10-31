@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-31",
+  "purpose": "Open-research source recovery and raw archive normalization; not a course Day31",
+  "input_dir": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery",
+  "archive_dir": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery",
+  "records": [
+    {
+      "source": "knowledge/sources/hendrie-1968-hexadecapole-deformation.md",
+      "doi": "10.1016/0370-2693(68)90502-9",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-0370269368905029-main.pdf",
+      "sha256": "e9a24d67571c00c759918fb0b95bc1164327f7172ec527303888c73d07e7fd10",
+      "bytes": 342484,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/1-s2.0-0370269368905029-main.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-0370269368905029-main.pdf"
+    },
+    {
+      "source": "knowledge/sources/motobayashi-1995-32mg-deformation.md",
+      "doi": "10.1016/0370-2693(95)00012-A",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-037026939500012A-main.pdf",
+      "sha256": "07075ed4ee3243df628765a1e63b2ffefdb971bf1a0925f1c810767543055586",
+      "bytes": 589954,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/1-s2.0-037026939500012A-main.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-037026939500012A-main.pdf"
+    },
+    {
+      "source": "knowledge/sources/tsoneva-2011-pqr-skin-nuclei.md",
+      "doi": "10.1016/j.physletb.2010.11.002",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-S0370269310012761-main.pdf",
+      "sha256": "b21e16fbf7690930171dda77aa14fc0a61719328d1607d815db04a18ee57d90e",
+      "bytes": 544370,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/1-s2.0-S0370269310012761-main.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-S0370269310012761-main.pdf"
+    },
+    {
+      "source": "knowledge/sources/pandit-2012-gdr-thermal-width-critical-behavior.md",
+      "doi": "10.1016/j.physletb.2012.06.033",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-S0370269312006594-main.pdf",
+      "sha256": "e05ec85afd0ea75ae49a678a11ba86f02f5599bfdee98c1000b79c4df6df5aac",
+      "bytes": 396263,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/1-s2.0-S0370269312006594-main.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-S0370269312006594-main.pdf"
+    },
+    {
+      "source": "knowledge/sources/karmakar-2025-doublet-wobbling-105pd.md",
+      "doi": "10.1103/46gk-nqsh",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/46gk-nqsh.pdf",
+      "sha256": "12f37107ee755ff38ed1351d6044c6b90b08433e4a2834357afaac32ce773610",
+      "bytes": 1281244,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/46gk-nqsh.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/46gk-nqsh.pdf"
+    },
+    {
+      "source": "knowledge/sources/rohozinski-1988-triaxial-scissors-mode.md",
+      "doi": "10.1007/BF01287259",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/BF01287259.pdf",
+      "sha256": "3a8c54033a22443700329bf860d0ca5d51b7ec34ab3193dd059f426d23228abc",
+      "bytes": 461709,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/BF01287259.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/BF01287259.pdf"
+    },
+    {
+      "source": "knowledge/sources/margraf-1995-odd-a-scissors-mode.md",
+      "doi": "10.1103/PhysRevC.52.2429",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.52.2429.pdf",
+      "sha256": "a5bb72005db1e9d4732c0305ac54697b3e21ccfe0ad6bb19cead0ffe14d1f5bc",
+      "bytes": 854118,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/PhysRevC.52.2429.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.52.2429.pdf"
+    },
+    {
+      "source": "knowledge/sources/colo-1995-isospin-mixing-gdr.md",
+      "doi": "10.1103/PhysRevC.52.R1175",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.52.R1175.pdf",
+      "sha256": "346b8c777e73c6027a66878f454ee26a7daa2c0d2631ca26a1759029ef97c8dd",
+      "bytes": 266641,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/PhysRevC.52.R1175.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.52.R1175.pdf"
+    },
+    {
+      "source": "knowledge/sources/enders-1999-scissors-mode-saturation.md",
+      "doi": "10.1103/PhysRevC.59.R1851",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.59.R1851.pdf",
+      "sha256": "817d4759fa8c33060740b5b8ca5ccdfc4852ba685f448637a331e25a6b2b009a",
+      "bytes": 93201,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/PhysRevC.59.R1851.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.59.R1851.pdf"
+    },
+    {
+      "source": "knowledge/sources/bender-1999-superheavy-magic-numbers.md",
+      "doi": "10.1103/PhysRevC.60.034304",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.60.034304.pdf",
+      "sha256": "f345e34d1e3e6c99012b0abc16d0dda87744ba47d480fab0c6b2897bd1ad6d3f",
+      "bytes": 325602,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/PhysRevC.60.034304.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.60.034304.pdf"
+    },
+    {
+      "source": "knowledge/sources/zagrebaev-2001-superheavy-synthesis-survival.md",
+      "doi": "10.1103/PhysRevC.65.014607",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf",
+      "sha256": "0fbce3d3faded1e072ce25eeb8a758cabb81d54b2df2eee71f55efd1686116c8",
+      "bytes": 980505,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/PhysRevC.65.014607.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf"
+    },
+    {
+      "source": "knowledge/sources/youngblood-2004-isgmr-deformation-splitting.md",
+      "doi": "10.1103/PhysRevC.69.034315",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.69.034315.pdf",
+      "sha256": "86875ded113c8f52a0d01635d214dd843f8c8cf8035dfa582cfeeb1845b18042",
+      "bytes": 573029,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/PhysRevC.69.034315.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.69.034315.pdf"
+    },
+    {
+      "source": "knowledge/sources/piekarewicz-2004-soft-monopole-mode.md",
+      "doi": "10.1103/PhysRevC.69.041301",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.69.041301.pdf",
+      "sha256": "885b59e7151a44b531f945dac490fe95151f1712b72b82608f85e47a65f674f8",
+      "bytes": 80861,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/PhysRevC.69.041301.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.69.041301.pdf"
+    },
+    {
+      "source": "knowledge/sources/schwengner-2013-m1-upbend-brink-axel.md",
+      "doi": "10.1103/PhysRevLett.111.232504",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevLett.111.232504.pdf",
+      "sha256": "d7a70974055150e736e3c07a5ba444e32e33bf41a44ada6ae8afff847520ce39",
+      "bytes": 379583,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/PhysRevLett.111.232504.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevLett.111.232504.pdf"
+    },
+    {
+      "source": "knowledge/sources/cavallaro-2019-giant-pairing-vibration.md",
+      "doi": "10.1140/epja/i2019-12786-2",
+      "raw_file": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/i2019-12786-2.pdf",
+      "sha256": "6c138a00e47e3b3daee18177bc8c179025a3074051a5ae6fd7237966089eb736",
+      "bytes": 1135730,
+      "original_path_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery/i2019-12786-2.pdf",
+      "canonical_path": "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/i2019-12786-2.pdf"
+    }
+  ],
+  "count": 15,
+  "input_dir_legacy": "raw/papers/gpt/_incoming/20261031-open-research-source-recovery"
+}

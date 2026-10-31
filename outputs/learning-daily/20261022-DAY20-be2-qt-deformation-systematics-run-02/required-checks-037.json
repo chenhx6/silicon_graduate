@@ -78,7 +78,7 @@
     "outputs/learning-daily/20261022-DAY20-be2-qt-deformation-systematics-run-01/run.json": true
   },
   "raw_used": {
-    "raw/papers/gpt/high-spin-20260920/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf": true
+    "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/转动/2007_McCutchan et al_Staggering in γ-band energies and the transition between different structural.pdf": true
   },
   "all_raw_previous_gate": "661 checked032; not repeated037",
   "guard_execution": {

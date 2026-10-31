@@ -19,7 +19,7 @@ doi: "10.1140/epja/s10050-021-00472-1"
 citation_key: IliadisFrimanGayer2021LPDir
 citation_key_origin: agent-local-paper-label-pending-reference-manager
 canonical_source: "doi:10.1140/epja/s10050-021-00472-1"
-raw_file: "raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/iliadis-friman-gayer-2021-vor-4c0b226de8e5.pdf"
 raw_sha256: "4c0b226de8e5356406122f7610d3d493a171487579b9b6cf879e8f993a30657f"
 arxiv_version: "2104.00228v1 31-Mar-2021, separately acquired"
 nuclei: [generic]
@@ -35,7 +35,7 @@ tags: [phase-convention, nrf, polarization, angular-correlation, identifiability
 
 C. Iliadis与U. Friman-Gayer，*European Physical Journal A* **57**(6),190(2021)，DOI[10.1140/epja/s10050-021-00472-1](https://doi.org/10.1140/epja/s10050-021-00472-1)。Crossref exact DOI核作者、题名、卷/期/article190及2021年6月。
 
-本session先从[arXiv](https://arxiv.org/pdf/2104.00228)取得**v1，31-Mar-2021**，raw为`raw/papers/gpt/day15-20261016/iliadis-friman-gayer-2021-arxiv2104.00228-58c0294f6b3d.pdf`、SHA-256 `58c0294f6b3d1ef6969484bf89dfc6248ea44b5a73b536ca6bf38aa048dfc756`。随后从[出版商PDF](https://link.springer.com/content/pdf/10.1140/epja/s10050-021-00472-1.pdf)取得VoR，39页/42,080,158bytes，hash见frontmatter。两个版本分开保存，不按同题名宣称逐字相同，也不将二者计独立证据。
+本session先从[arXiv](https://arxiv.org/pdf/2104.00228)取得**v1，31-Mar-2021**，raw为`raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/iliadis-friman-gayer-2021-arxiv2104.00228-58c0294f6b3d.pdf`、SHA-256 `58c0294f6b3d1ef6969484bf89dfc6248ea44b5a73b536ca6bf38aa048dfc756`。随后从[出版商PDF](https://link.springer.com/content/pdf/10.1140/epja/s10050-021-00472-1.pdf)取得VoR，39页/42,080,158bytes，hash见frontmatter。两个版本分开保存，不按同题名宣称逐字相同，也不将二者计独立证据。
 
 ## Scope and Reading Depth
 

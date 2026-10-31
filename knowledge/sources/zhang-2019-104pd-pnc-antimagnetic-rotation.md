@@ -20,7 +20,7 @@ citation_key: Zhang2019_104Pd_PNC
 citation_key_origin: arxiv-and-crossref
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1088/1674-1137/43/5/054107"
-raw_file: "raw/papers/gpt/day26-20261028/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf"
 raw_sha256: "d0938039dd5c75f223bac9eca1d75e3c3d55f406504c41dc9f816a11d439de91"
 nuclei: [104Pd]
 models: [particle-number-conserving-cranked-shell-model]

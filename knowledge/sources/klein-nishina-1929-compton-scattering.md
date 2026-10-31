@@ -16,8 +16,8 @@ citation_key: klein_1929_Ueber
 volume: 52
 pages: "853-868"
 canonical_source: "Klein & Nishina, Z. Phys. 52, 853 (1929)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1929_Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynami.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1929_Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynami.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1929_Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynami.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1929_Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynami.pdf"
 raw_sha256: "5020b8c9480606b29a96496412219cb3f985ba3f522223d5bf016c407565a40d"
 nuclei: []
 reactions: []
@@ -33,7 +33,7 @@ tags: [Compton, Klein-Nishina, Dirac, historical-theory, detector-response]
 ## Bibliographic Record
 
 - O. Klein and Y. Nishina, *Zeitschrift für Physik* **52**, 853–868 (1929).
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1929_Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynami.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1929_Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynami.pdf`。
 - 16-page German historical theory PDF; OCR was visually spot-checked for equations and section flow. The paper calculates intensity, not the later polarization treatment promised in its conclusion.
 
 ## Scope and Reading Depth

@@ -3,7 +3,7 @@
   "recorded_utc": "2026-10-28T20:48:24.662430+00:00",
   "sources": [
     {
-      "path": "raw/papers/gpt/day26-20261028/roy-2011-cd110-systematics-plb.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/roy-2011-cd110-systematics-plb.pdf",
       "byte_count": 281553,
       "sha256": "2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a",
       "file_signature_hex": "255044462d312e37",
@@ -11,7 +11,7 @@
       "pdf_page_count": 5
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf",
       "byte_count": 151505,
       "sha256": "b4a74c3f549860e857b83ba87e39a34a14ad2ed30c402a981e681826f01b7e3b",
       "file_signature_hex": "255044462d312e34",
@@ -19,7 +19,7 @@
       "pdf_page_count": 11
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2019-104pd-pnc-amr-arxiv1912.11990v1.pdf",
       "byte_count": 370918,
       "sha256": "d0938039dd5c75f223bac9eca1d75e3c3d55f406504c41dc9f816a11d439de91",
       "file_signature_hex": "255044462d312e34",
@@ -27,7 +27,7 @@
       "pdf_page_count": 8
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf",
       "byte_count": 232718,
       "sha256": "8de4f9800f7b0cd52e6ea597f3d1eb58e0e3be3852054ef570bbc5fda9928c9b",
       "file_signature_hex": "255044462d312e34",
@@ -35,14 +35,14 @@
       "pdf_page_count": 14
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/10.1103_PhysRevC.53.2682.crossref.json",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/10.1103_PhysRevC.53.2682.crossref.json",
       "byte_count": 19043,
       "sha256": "7e716f6adb29365ab6f1d884993a60be80605999478c3a5371f97343e10cf54c",
       "file_signature_hex": "7b0a202022737461",
       "reading_coverage": "Crossref title/DOI/published; no full paper"
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/10.1016_0375-9474(94)90942-3.crossref.json",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/10.1016_0375-9474(94)90942-3.crossref.json",
       "byte_count": 17153,
       "sha256": "ccb2f07baee8a7608dfd6ed06daa0f0138c47a40b79b69610400ef612adaab5c",
       "file_signature_hex": "7b0a202022737461",

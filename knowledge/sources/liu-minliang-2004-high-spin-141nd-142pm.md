@@ -16,7 +16,7 @@ pages: 100
 language: zh/en
 canonical_source: "柳敏良. N=81近球形141Nd和142Pm核高自旋态能级结构[D]. 中国科学院研究生院, 2004."
 citation_key: ""
-raw_file: "raw/papers/degree dissertation/柳敏良.pdf"
+raw_file: "raw/theses/degree-dissertation/柳敏良.pdf"
 raw_sha256: "308A4C6745A91CD01237E07390B2CFAC0056A0C6F56C7960FBE96BDC5440B7F7"
 nuclei: [141nd, 142pm]
 models: [empirical-shell-model, particle-vibration-coupling]

@@ -19,8 +19,8 @@ citation_key: APRAHAMIAN_2005
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Aprahamian, Langanke & Wiescher, Prog. Part. Nucl. Phys. 54, 535-613 (2005)"
-library_file: "raw/papers/gpt/high-spin-20260920/nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf"
 raw_sha256: "8e2b69c75fc398e1266633011f836b852f9c8e527b16a54868867b6c9fb14d12"
 nuclei: [12C, 16O, 56Ni, 100Sn, 130Cd, 176Lu, 180Ta]
 reactions: [pp-chain, CNO-cycle, rp-process, s-process, r-process, triple-alpha, carbon-burning]
@@ -36,7 +36,7 @@ tags: [nuclear-astrophysics, nuclear-structure, shell-effects, clustering, defor
 ## Bibliographic Record
 
 - A. Aprahamian, K. Langanke & M. Wiescher, *Prog. Part. Nucl. Phys.* **54**, 535–613 (2005), DOI `10.1016/j.ppnp.2004.09.002`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/nuclear astrophysics/2005_Aprahamian et al_Nuclear structure aspects in nuclear astrophysics.pdf`。
 
 ## Scope and Reading Depth
 

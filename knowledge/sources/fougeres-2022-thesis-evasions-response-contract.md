@@ -15,7 +15,7 @@ institution: Normandie Université, Université de Caen Normandie
 citation_key: ""
 canonical_source: "HALtel03768524v1 NNT2022NORMC209 Chapters3–6 and AppendicesA.2/B; scoped reading receipts"
 source_url: https://theses.hal.science/tel-03768524v1
-raw_file: raw/theses/day17-20261020/fougeres-2022-thesis.pdf
+raw_file: raw/theses/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/fougeres-2022-thesis.pdf
 raw_sha256: 4f34adb73a9bc9092158c10cb8696f331455d4c027bc57cc884785aaee9d2af1
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23

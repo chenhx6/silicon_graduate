@@ -20,8 +20,8 @@ citation_key: Li_2024
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1007/s41365-024-01532-z"
-library_file: "raw/papers/gpt/high-spin-20260920/形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf"
 raw_sha256: "294e1cc6ae9543ab3c6474d47ff91937be220f4cea3332b3a65897fd29f92155"
 nuclei: [144Ba]
 reactions: []
@@ -37,7 +37,7 @@ tags: [octupole, reflection-asymmetry, 144Ba, CDFT, high-spin, theory]
 ## Bibliographic Record
 
 - Ze-Kai Li and Yuan-Yuan Wang, *Nuclear Science and Techniques* **35**, 139 (2024), pp.1–8; DOI `10.1007/s41365-024-01532-z`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2024_Li et al_Robustness of the octupole collectivity in $${^{144}textrm{Ba}}$$ within the cranking covariant den.pdf`。
 - PDF identity: title page, author list, journal/article number and DOI agree; 8-page selectable-text PDF, hash recorded above. The filename's TeX-like isotope string is a filename artifact, not a second title/version.
 
 ## Scope and Reading Depth

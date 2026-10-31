@@ -17,8 +17,8 @@ volume: 362
 pages: "556-560"
 pii: "0168-9002(95)00246-4"
 canonical_source: "Jones et al., NIM A 362, 556-560 (1995)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf"
 raw_sha256: "8d2cf5ee101d9f3109f6663269fa62f9d6a829e432e05db2502252bf5b132460"
 nuclei: [19F, 107Ag, 109Ag, 56Fe, 24Mg]
 reactions: [19F-polarized-gamma, 107Ag-polarized-gamma, 109Ag-polarized-gamma, 56Fe-polarized-gamma, 24Mg-polarized-gamma]
@@ -35,7 +35,7 @@ tags: [CLOVER, EUROGAM, Compton-polarimetry, Q-calibration, linear-polarization]
 
 - P. M. Jones *et al.*, *NIM A* **362**, 556–560 (1995), PII `0168-9002(95)00246-4`.
 - 2026-10-17 Crossref exact DOI核题名、10作者、362(2–3)、556–560及1995年8月：`10.1016/0168-9002(95)00246-4`。正文取本地原件，不以registry metadata替代。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Jones et al_Calibration of the new composite “clover” detector as a Compton polarimeter for.pdf`。
 
 ## Scope and Reading Depth
 

@@ -19,8 +19,8 @@ citation_key: Butler_1996
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/RevModPhys.68.349"
-library_file: "raw/papers/gpt/high-spin-20260920/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf"
 raw_sha256: "40e915a556361cb472139fb683146d66c1385c3e87de5aaa16d2bd8628afe090"
 nuclei: [224Ra, 226Ra, 220Rn, 226Th, 144Ba, 148Nd, 20Ne, 24Mg, 32S, 40Ca]
 reactions: []
@@ -38,7 +38,7 @@ tags: [review, octupole, reflection-asymmetry, E1, E3, parity-doublet, fission]
 ## Bibliographic Record
 
 - P. A. Butler and W. Nazarewicz, *Reviews of Modern Physics* **68**, 349–421 (1996), DOI `10.1103/RevModPhys.68.349`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1996_Butler_Nazarewicz_Intrinsic reflection asymmetry in atomic nuclei.pdf`。
 - 73-page RMP review; sections, figures, definitions, experimental tables/systematics, theoretical approaches, large-deformation applications and perspectives were read.
 
 ## Scope and Reading Depth

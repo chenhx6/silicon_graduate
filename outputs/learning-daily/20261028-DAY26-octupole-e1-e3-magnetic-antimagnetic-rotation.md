@@ -68,7 +68,7 @@ Day25原run.json为completed、counted_in_substantive_test=true、completed[25]/
 
 |[[butler-2020-222-228ra-octupole-evolution]]|发布版6页与arXiv附加页7–16均读；发布版raw SHA c0f864…；多跃迁E3但星号受耦合约束|独立Ra CoulEx；未闭合总和|
 |[[nndc-2009-ra225-adopted-parity-doublet]] / [[nndc-2022-ac225-adopted-parity-doublet]]|官方ENSDF评价原文归档；225Ra/225Ac的E1和伙伴记录|评价对象；原实验未逐篇重读|
-来源签名/页数/hash与当前session保存在run目录resume-state-001.json。新Bernard已验证后另存raw/papers/gpt/day26-20261028；PDF未列入公开Git。默认请求SI，但当前未确认各目标出版商完整附件清单，不把未检得写成不存在。
+来源签名/页数/hash与当前session保存在run目录resume-state-001.json。新Bernard已验证后另存raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation；PDF未列入公开Git。默认请求SI，但当前未确认各目标出版商完整附件清单，不把未检得写成不存在。
 
 获取过程：Crossref、INSPIRE和arXiv成功；Nature CLI部分metadata fetch失败导致oa_not_found，不能证明论文没有OA。Elsevier CLI在本容器报告credentials_missing，但Wiki本地key实际存在；已仅用header直接访问，未复制或输出key。直接API/APS/OpenAlex随后遇到DNS/连接失败，属于运行访问缺口，不冒称publisher拒绝授权。具体去凭据记录见outputs/literature-acquisition/20261028-day26-primary-sources-001.json及run获取记录。
 

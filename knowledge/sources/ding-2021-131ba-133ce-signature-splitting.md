@@ -24,7 +24,7 @@ zotero_uri:
 library_file:
 raw_file: "raw/papers/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 133.pdf"
 raw_sha256: 752D3C5DA690C20EC7E188DCC043F9DA2A7F062DEEFC371DD8A497A190B66C37
-alternate_version_file: "raw/papers/gpt/high-spin-20260920/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf"
+alternate_version_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/2021_Ding et al_Signature splitting of the g 7 - 2 [ 404 ] 7 - 2 + bands in Ba 131 and Ce 2.pdf"
 alternate_version_sha256: 47451ae95676399c72b907b0efa10bdeb07e82c794a1ed480759ee20bae0c652
 alternate_version_identity: "PRC 104, 064304 published PDF; same title/DOI and fifteen-page article"
 nuclei: [131ba, 133ce]

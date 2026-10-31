@@ -18,7 +18,7 @@ doi: "10.1146/annurev.ns.36.120186.003343"
 citation_key: ""
 canonical_source: "https://doi.org/10.1146/annurev.ns.36.120186.003343"
 source_url: "https://www.pas.rochester.edu/~cline/Publications/annurev.ns.36.120186.pdf"
-raw_file: "raw/papers/day20-20261022/cline-1986-nuclear-shapes-coulomb-excitation.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf"
 raw_sha256: "76d89a9bc5d603aa8dae104c0b6356271b7d152e0bff33e3cf78138861670113"
 raw_storage_status: reserved-unpopulated-public-author-copy-staging-only
 raw_archive_verified_at: 2026-10-23

@@ -22,8 +22,8 @@ canonical_source: "吴鸿毅. 通用数字化获取系统的开发[D]. 北京大
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf"
-raw_file: "raw/papers/degree dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf"
+library_file: "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf"
+raw_file: "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf"
 raw_sha256: "925521da71f14eab642aa1dc55ad6c7cc639c4e1a27bb85227786469c5f8949b"
 nuclei: []
 reactions: []

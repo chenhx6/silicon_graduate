@@ -47,7 +47,7 @@ session_id: 01a0e1e1-812e-7eb3-a140-cedd5fe10111
 
 ### 连续性来源：Ding 2012
 
-- [Ding 2012 source page](../../knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md) 的 `status: ai-draft`、`review_status: unreviewed` 和各 claim 的 `needs_review: true` 原样保留。原始 PDF 为 `raw/papers/degree dissertation/丁兵 - 博士论文.pdf`，SHA-256 为 `ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7`。
+- [Ding 2012 source page](../../knowledge/sources/ding-2012-phd-thesis-127-128i-high-spin.md) 的 `status: ai-draft`、`review_status: unreviewed` 和各 claim 的 `needs_review: true` 原样保留。原始 PDF 为 `raw/theses/degree-dissertation/丁兵 - 博士论文.pdf`，SHA-256 为 `ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7`。
 - **实验直接事实：** `^{124}Sn(^{7}Li,4n)^{127}I` 的新纲图、γ 线和 ADO 表属于 D12-1；`^{128}I` 的 20 个能级、31 条跃迁和 Fig.6.2/Table 6.1 属于 D12-7。PDF 逐页复核还显示作者用开窗符合、强度平衡、交叉跃迁和能量闭合建立 128I 纲图；这些是 placement evidence，不自动升级为唯一结构解释。
 - **最小级联：** D12-9 给出 285.2 keV 的 `8^-` 起始结构、696.2、1041.7、1454.0 和 1873.5 keV 的后续能级，以及 411.0、345.4、412.3、419.5 keV 的表中 γ 线。表内 345.4 keV 与由四舍五入能级相减得到的 345.5 keV 差异是 0.1 keV rounding residual。
 - **作者解释：** D12-2、D12-4 和 D12-9 的退耦带、高 K 组态、`\pi g_{7/2}\otimes\nu h_{11/2}` 类转动结构和负 `E2/M1` 混合比是 author interpretation；不能写成某条 γ 线直接测得的组态或形变。

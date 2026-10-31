@@ -25,7 +25,7 @@ Roy Table 1 与 HI,XNG 评价使用不同的观测层；本审计检查是否把
 
 ## 直接记录：HI,XNG 的 yrast B 带相对强度
 
-`raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-hi-xng.ensdf` 的表头说明 `Eγ, RI` 来自 1994Ju04，并说明实验测量/推导包含 `B(M1)/B(E2)`；但具体高自旋记录只给相对强度 `RI`、多极性和 DCO。18+–24+ 的带内 E2 记录为：
+`raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/day26-002/nndc/110cd-hi-xng.ensdf` 的表头说明 `Eγ, RI` 来自 1994Ju04，并说明实验测量/推导包含 `B(M1)/B(E2)`；但具体高自旋记录只给相对强度 `RI`、多极性和 DCO。18+–24+ 的带内 E2 记录为：
 
 | 初态 | `Eγ` (keV) | RI | 多极性 | 原件定位 |
 |---|---:|---:|---|---|

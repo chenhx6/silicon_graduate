@@ -19,7 +19,7 @@ data_version: "201709 dataset IDs193083001/193083004; adopted ERR17-Jul-2019; cu
 canonical_source: "https://www.nndc.bnl.gov/ensdf/"
 citation_key: Basunia2017A193ENSDF
 citation_key_origin: agent-local-online-dataset-label
-raw_file: "raw/papers/gpt/day14/nndc-193bi-adopted-2017-2019.ens"
+raw_file: "raw/papers/gpt/learning-daily/20261014-DAY14-week-two-spectrum-to-level-scheme-exam/nndc-193bi-adopted-2017-2019.ens"
 raw_sha256: "c787dea4b406d64712f2eee91867136a3decc8ad8d7029236223362904f065ca"
 raw_storage_status: reserved-unpopulated-public-data-object-only
 nuclei: [193bi]

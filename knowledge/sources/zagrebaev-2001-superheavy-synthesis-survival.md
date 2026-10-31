@@ -18,6 +18,8 @@ pages: "014607"
 doi: "10.1103/PhysRevC.65.014607"
 canonical_source: "https://doi.org/10.1103/PhysRevC.65.014607"
 citation_key: zagrebaev2001superheavy
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.65.014607.pdf"
+raw_sha256: 0fbce3d3faded1e072ce25eeb8a758cabb81d54b2df2eee71f55efd1686116c8
 nuclei: [208pb, 248cm, 292114, 294116, 298114, 304120]
 reactions: ["48Ca + 248Cm -> 296-x 116 + xn", "48Ca + 244Pu -> 292-x 114 + xn"]
 experiments: [Dubna-FLNR-DGAS]
@@ -59,6 +61,14 @@ PRC 65, 014607 (2001), DOI `10.1103/PhysRevC.65.014607`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZAG01-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. III.A, Fig. 8 | false |
+| ZAG01-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. III.B, Eq. (14) | false |
+| ZAG01-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. IV.A, Fig. 12 | false |
+| ZAG01-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. IV.B, Table 1 | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

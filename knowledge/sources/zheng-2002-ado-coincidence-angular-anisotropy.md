@@ -17,8 +17,8 @@ issue: 9
 pages: "909-913"
 language: zh
 canonical_source: "郑勇等. 符合模式下的 γ 射线各向异性度测量. 高能物理与核物理 26(9), 909-913 (2002)."
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf"
 raw_sha256: "03044180a59fa5be55bcb6c517e9b87285c0991855afe5e1104e9dd03e9a7f23"
 nuclei: ["145Tb", "144Gd", "143Gd", "142Gd", "143Eu", "146Tb"]
 observables: ["R_ADO", "gamma-ray-multipolarity", "angular-distribution", "detector-efficiency"]
@@ -34,7 +34,7 @@ tags: [ado, coincidence-mode, gamma-ray-anisotropy, multipolarity, detector-effi
 - 中文题名：符合模式下的 γ 射线各向异性度测量。
 - 英文题名：*γ-Ray Anisotropy Measurement in Coincidence Mode*。
 - 期刊：*高能物理与核物理* 26(9), 909-913 (2002)。收稿日期：2001-10-23。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf`；SHA-256：`03044180a59fa5be55bcb6c517e9b87285c0991855afe5e1104e9dd03e9a7f23`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/2002_郑 et al_符合模式下的γ射线各向异性度测量.pdf`；SHA-256：`03044180a59fa5be55bcb6c517e9b87285c0991855afe5e1104e9dd03e9a7f23`。
 
 ## Scope and Reading Depth
 

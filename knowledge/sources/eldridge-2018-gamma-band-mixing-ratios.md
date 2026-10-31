@@ -17,8 +17,8 @@ volume: 54
 pages: "15"
 doi: "10.1140/epja/i2018-12426-5"
 canonical_source: "Eldridge et al., Eur. Phys. J. A 54, 15 (2018)"
-library_file: "raw/papers/gpt/high-spin-20260920/振动/2018_Eldridge et al_E2M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational b 1.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/振动/2018_Eldridge et al_E2M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational b 1.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2018_Eldridge et al_E2M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational b 1.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2018_Eldridge et al_E2M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational b 1.pdf"
 raw_sha256: "a244b7e49fb513f057119bce603c0790a5cf381bd7a909f9c2996d033e1439b7"
 nuclei: [102Mo, 104Mo, 106Mo, 108Mo, 108Ru, 110Ru, 112Ru, 112Pd, 114Pd, 116Pd]
 reactions: [252Cf-fission]
@@ -34,7 +34,7 @@ tags: [gamma-band, mixing-ratio, IPAC, Mo, Ru, Pd, gamma-softness]
 ## Bibliographic Record
 
 - J. M. Eldridge *et al.*, *Eur. Phys. J. A* **54**, 15 (2018), DOI `10.1140/epja/i2018-12426-5`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/振动/2018_Eldridge et al_E2M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational b 1.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2018_Eldridge et al_E2M1 mixing ratios in transitions from the gamma vibrational bands to the ground state rotational b 1.pdf`。
 
 ## Scope and Reading Depth
 

@@ -22,7 +22,7 @@ zotero_item_key:
 citation_key:
 zotero_uri:
 library_file:
-raw_file: "raw/papers/gpt/day11-reaction-doppler-20261013/mehl-2015-coulomb-sorting-thesis.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/mehl-2015-coulomb-sorting-thesis.pdf"
 raw_sha256: "1fc595022c6f1e912b8e2378ccdb092f014babc2434ba901d020e942e09c3d5e"
 nuclei: [20ne, 194pt]
 reactions: ["194Pt(20Ne,20Ne*)194Pt*"]

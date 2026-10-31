@@ -19,7 +19,7 @@ citation_key: Rather2014_104Pd_AMR_full
 citation_key_origin: arxiv-and-crossref
 citation_key_verified: 2026-10-29
 canonical_source: "arXiv:1402.3422v1"
-raw_file: "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf"
 raw_sha256: "b4a74c3f549860e857b83ba87e39a34a14ad2ed30c402a981e681826f01b7e3b"
 nuclei: [104Pd, 106Cd, 108Cd, 110Cd]
 models: [semiclassical-particle-plus-rotor]

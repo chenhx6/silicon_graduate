@@ -14,8 +14,8 @@ journal: "Nuclear Data Sheets"
 year: 2010
 pages: "iv-vi"
 canonical_source: "Nuclear Data Sheets summary of bases for spin and parity assignments"
-library_file: "raw/papers/gpt/high-spin-20260920/review/Summary of Bases for Spin and Parity Assignments.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/Summary of Bases for Spin and Parity Assignments.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/Summary of Bases for Spin and Parity Assignments.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/Summary of Bases for Spin and Parity Assignments.pdf"
 raw_sha256: "671963d1bf820cd35e03960d70c7c6c0a1b243b872fcd72923049853807a77fa"
 nuclei: [assignment-methods]
 reactions: [transfer, Coulomb-excitation, neutron-capture, high-spin-reaction]

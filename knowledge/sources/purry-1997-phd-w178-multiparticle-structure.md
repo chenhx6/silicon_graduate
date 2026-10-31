@@ -18,7 +18,7 @@ citation_key: ""
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "Surrey Open Research doctoral record99513285802346, Purry May1997"
 source_url: "https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/High-spin-multi-particle-and-collective-structure-in/99513285802346"
-raw_file: "raw/papers/gpt/day16-20261018/purry-1997-phd-high-spin-multiparticle-178w-b8ee1308d487.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261018-DAY16-dco-rdco-mixing-ratio-convention/purry-1997-phd-high-spin-multiparticle-178w-b8ee1308d487.pdf"
 raw_sha256: "b8ee1308d4871c1514d0ed54b3d523104da143bb346088a24eb008d97fc96753"
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23

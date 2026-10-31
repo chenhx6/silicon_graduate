@@ -19,8 +19,8 @@ citation_key: Reed_2016
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1016/j.physletb.2015.11.056"
-library_file: "raw/papers/gpt/high-spin-20260920/旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf"
 raw_sha256: "5689134f0960028580c4341bc26ae12d78c633cb1f0ee9ba98cc9be28721ea11"
 nuclei: [187Re, 189Re, 191Re]
 reactions: [deep-inelastic-136Xe-plus-192Os, deep-inelastic-136Xe-plus-187Re, deep-inelastic-136Xe-plus-186W]
@@ -36,7 +36,7 @@ tags: [rhenium, triaxiality, gamma-softness, signature-splitting, high-spin]
 ## Bibliographic Record
 
 - M. W. Reed *et al.*, *Physics Letters B* **752**, 311–316 (2016), DOI `10.1016/j.physletb.2015.11.056`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/旋称/2016_Reed et al_Impact of triaxiality on the rotational structure of neutron-rich rhenium.pdf`。
 - 6-page open-access experiment/model paper; figures, level schemes, angular correlations and model parameters checked.
 
 ## Scope and Reading Depth

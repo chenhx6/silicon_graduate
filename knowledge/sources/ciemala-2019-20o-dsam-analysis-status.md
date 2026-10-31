@@ -21,7 +21,7 @@ doi: 10.5506/APhysPolB.50.615
 data_version: public-publisher-copy-received23Jan2019
 canonical_source: "https://doi.org/10.5506/APhysPolB.50.615"
 citation_key:
-raw_file: "raw/papers/gpt/day13/20o-2019-acta-dsam.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/20o-2019-acta-dsam.pdf"
 raw_sha256: "2021d2e0cac8641d3816ec47c36ac41e2bff91504b857f0423ac5b805f94224b"
 raw_storage_status: reserved-unpopulated-public-publisher-copy-only
 raw_archive_verified_at: 2026-10-23

@@ -26,7 +26,7 @@ observables: [gamma-energy, ADO-ratio, relative-intensity, B(M1)/B(E2), B(M1)in/
 methods: [gamma-gamma-coincidence, angular-distribution, transition-ratio-reconstruction]
 tags: [126Cs, chirality-candidate, NORDBALL, ADO, ratio-staggering, data-lineage]
 citation_key: "Wang_2006"
-raw_file: "raw/papers/codex-day10/wang-2006-126cs.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/wang-2006-126cs.pdf"
 raw_sha256: "88e8cc5625493de58e5d7b2ee88318e49c44183db7e2613009e344538954f536"
 ---
 

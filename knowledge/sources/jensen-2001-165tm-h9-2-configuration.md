@@ -21,8 +21,8 @@ citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 language: en
 canonical_source: "Jensen, H. J. et al. General properties of the πh9/2[541]1/2− configuration and level scheme of 165Tm. Nucl. Phys. A 695, 3-50 (2001)."
-library_file: "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/NPA695-Jensen-2001-3.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/NPA695-Jensen-2001-3.pdf"
 raw_sha256: "0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770"
 duplicate_ids: ["HS-006", "HS-007"]
 nuclei: ["165Tm", "164Tm", "164Er", "166Yb"]
@@ -40,7 +40,7 @@ tags: [165Tm, h9-2, delayed-alignment, i13-2-alignment, gamma-vibration, DSAM, q
 
 - 作者：H. J. Jensen 等；*Nuclear Physics A* 695(1-4), 3-50 (2001)。DOI：`10.1016/S0375-9474(01)01111-3`。
 - 规范来源：HS-006 `NPA695-Jensen-2001-3.pdf`。HS-007 是同一 SHA-256 的第二个外部路径副本，已完成逐条 duplicate audit，不重新摄入。
-- 规范 raw 文件：`raw/papers/gpt/high-spin-20260920/NPA695-Jensen-2001-3.pdf`；SHA-256：`0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770`。
+- 规范 raw 文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/NPA695-Jensen-2001-3.pdf`；SHA-256：`0fde4a838d94fdc23dcd4d4034a945073cb569c47c153e9e3b90676c44838770`。
 
 ## Scope and Reading Depth
 

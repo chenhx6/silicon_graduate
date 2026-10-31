@@ -8,7 +8,7 @@
 
 B. F. Lv et al., *Chirality of 135Nd reexamined: Evidence for multiple chiral doublet bands*, PRC **100**, 024314 (2019), DOI **10.1103/PhysRevC.100.024314**。
 
-- 全文实际读本：`raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf`，官方版本 URL `https://arxiv.org/pdf/1907.12809v1`，侧栏日期 30 July 2019。10 页、285508 bytes，SHA256 **97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303**。本轮读既有 raw，没有重新下载或改 raw。
+- 全文实际读本：`raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf`，官方版本 URL `https://arxiv.org/pdf/1907.12809v1`，侧栏日期 30 July 2019。10 页、285508 bytes，SHA256 **97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303**。本轮读既有 raw，没有重新下载或改 raw。
 - 定向 VoR：既有 `tmp/day21-checkpoint103/lv2019-vor.pdf`，原下载 URL `https://journals.aps.org/prc/pdf/10.1103/PhysRevC.100.024314`。9 页、548795 bytes，SHA256 **450a3032d7fecfdbc16f5a848be3d63842a536b0508dda73f3de55270fbf2066**。本轮只定向核 printed **024314-2/3/4/8**，不冒称新读完整 9 页 VoR。
 - 当前阅读：raw 全 10 页文字；全部 **Figs.1–6**（PDF3–6）视觉；**Table I 全四页 PDF7–10** 视觉；Harris 参考、惯量、Q0/g 因子及各模型输入的未编号公式。正宇称 Fig.1 新放大核对。
 - `active-recall.md` 在打开本轮正文前冻结，明确受 Wiki priming，不评分。不运行 114、历史物理脚本或作者 producer，不恢复正 P/机时排他认证。

@@ -18,9 +18,9 @@ pages: 615-620
 doi: 10.1016/j.physletb.2018.08.005
 language: en
 canonical_source: doi:10.1016/j.physletb.2018.08.005
-raw_file: "raw/papers/gpt/day2-shell-gap-20260928/orlandi-2018-131sn-surrey-delivery.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/orlandi-2018-131sn-surrey-delivery.pdf"
 raw_sha256: 0d743eefaa6f6d62d60aa1b7a5ac4d9e87b3327ababd45a3fc04b3232cd3f684
-related_raw_files: ["raw/papers/gpt/day2-shell-gap-20260928/doaj-orlandi-2018-131sn.json", "raw/papers/gpt/day2-shell-gap-20260928/openaire-orlandi-2018-131sn.json"]
+related_raw_files: ["raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/doaj-orlandi-2018-131sn.json", "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/openaire-orlandi-2018-131sn.json"]
 repository_url: "https://openresearch.surrey.ac.uk/view/delivery/44SUR_INST/12140132340002346/13140326740002346"
 nuclei: [131sn, 132sn, 133sn, 207pb, 208pb]
 reactions: ["132Sn(d,t)131Sn", "132Sn(d,p)133Sn", "208Pb(d,t)207Pb"]

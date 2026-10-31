@@ -18,7 +18,7 @@ doi: 10.1007/BF01295780
 language: en
 canonical_source: https://doi.org/10.1007/BF01295780
 citation_key: palacz_1991_Highspinstates
-raw_file: "raw/papers/gpt/_incoming/20260926-day1-n73/1991_Palacz_high-spin-states-131Ce.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260926-DAY1-baseline-research-contract/1991_Palacz_high-spin-states-131Ce.pdf"
 raw_sha256: e230b4a7874b139ed0f0da70b2520e25076ead4d338311ff6bce66f53d54ef7b
 nuclei: [131ce]
 reactions: ["117Sn(18O,4n)131Ce"]
@@ -33,7 +33,7 @@ tags: [a130, n73-isotone, high-spin, signature-splitting, configuration-assignme
 
 ## Bibliographic Record
 
-M. Palacz 等，*Z. Phys. A* **338**, 467–468 (1991)，DOI `10.1007/BF01295780`。本轮从 Springer 公共 PDF 端点取得并保存到 `raw/papers/gpt/_incoming/20260926-day1-n73/`；文件哈希见 frontmatter。
+M. Palacz 等，*Z. Phys. A* **338**, 467–468 (1991)，DOI `10.1007/BF01295780`。本轮从 Springer 公共 PDF 端点取得并保存到 `raw/papers/gpt/learning-daily/20260926-DAY1-baseline-research-contract/`；文件哈希见 frontmatter。
 
 ## Scope and Reading Depth
 

@@ -11,7 +11,7 @@
   "source": {
     "prior_matrix_artifact": "outputs/learning-daily/20261007-DAY8-angular-momentum-selection-rules-multipolarity-run-01/four-multipole-representation-audit.json",
     "prior_matrix_artifact_sha256": "6a6f44d8005e64d28b011a17d3bd3ce50ab2c11396c4cbdc7d53965491831a24",
-    "raw_path": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
+    "raw_path": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1967_Rose et al_Angular Distributions of Gamma Rays in Terms of Phase-Defined Reduced Matrix Elements.pdf",
     "raw_sha256": "8f846b61b9320de291ee5600126c5e286a0fe05968df819696816f0dc1ec57dc",
     "locators": [
       "RB67 printed p312/PDF7 footnote7",

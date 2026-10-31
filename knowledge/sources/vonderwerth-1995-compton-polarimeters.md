@@ -16,8 +16,8 @@ volume: 357
 pages: "458-466"
 pii: "0168-9002(95)00025-9"
 canonical_source: "von der Werth et al., NIM A 357, 458-466 (1995)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Von Der Werth et al_Two Compton polarimeter constructions for modern standard γ-spectroscopy.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Von Der Werth et al_Two Compton polarimeter constructions for modern standard γ-spectroscopy.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Von Der Werth et al_Two Compton polarimeter constructions for modern standard γ-spectroscopy.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Von Der Werth et al_Two Compton polarimeter constructions for modern standard γ-spectroscopy.pdf"
 raw_sha256: "54db57f926f99e069186e99a5b373ef5cb79f234eec43cc6ff84c82e80563021"
 nuclei: [56Fe, 24Mg, 28Si, 66Zn, 67Zn]
 reactions: [56Fe(p,pγ), 24Mg(p,pγ), 28Si(p,pγ), 66Zn(alpha,nγ), 67Zn(alpha,nγ)]
@@ -33,7 +33,7 @@ tags: [POLALI, MINIPOLA, Compton, detector-response, Euroball]
 ## Bibliographic Record
 
 - A. von der Werth *et al.*, *NIM A* **357**, 458–466 (1995), PII `0168-9002(95)00025-9`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1995_Von Der Werth et al_Two Compton polarimeter constructions for modern standard γ-spectroscopy.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1995_Von Der Werth et al_Two Compton polarimeter constructions for modern standard γ-spectroscopy.pdf`。
 - 9-page method paper; title/PII, POLALI/MINIPOLA schematics, technical tables and calibration figures checked.
 
 ## Scope and Reading Depth

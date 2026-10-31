@@ -18,6 +18,8 @@ pages: "434-438"
 doi: "10.1016/j.physletb.2012.06.033"
 canonical_source: "https://doi.org/10.1016/j.physletb.2012.06.033"
 citation_key: pandit2012gdr
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/1-s2.0-S0370269312006594-main.pdf"
+raw_sha256: e05ec85afd0ea75ae49a678a11ba86f02f5599bfdee98c1000b79c4df6df5aac
 nuclei: [119sb, 120sn, 208pb, 144sm, 63cu]
 reactions: ["alpha + 115In @ 28-50 MeV", "fusion-evaporation"]
 experiments: [VECC-Kolkata-BGO-BaF2]
@@ -59,6 +61,14 @@ PLB 713, 434-438 (2012), DOI `10.1016/j.physletb.2012.06.033`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PAN12-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. 3, Fig. 3 | false |
+| PAN12-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 4, Fig. 4 | false |
+| PAN12-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | cross-source-model-comparison | source-reported | Sec. 4, Discussion | false |
+| PAN12-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. 5, Conclusions | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

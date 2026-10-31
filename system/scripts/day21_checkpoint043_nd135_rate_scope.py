@@ -40,7 +40,7 @@ def main():
         'last_E2_pair_preserved':rows[-1]['BE2_A_e2b2']==.13 and rows[-1]['BE2_B_e2b2']==.11,
         'correlation_changes_conditional_significance':covariance_sweep[0]['absolute_difference_over_conditional_sigma']<1 and covariance_sweep[-1]['absolute_difference_over_conditional_sigma']>3,
     }
-    raw=ROOT/'raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf'
+    raw=ROOT/'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf'
     out={'source':'Mukhopadhyay et al. PRL 99, 172501 (2007)',
          'doi':'10.1103/PhysRevLett.99.172501','raw_sha256':hashlib.sha256(raw.read_bytes()).hexdigest(),
          'rows':rows,'covariance_design_35_over_2':{'difference_BminusA_e2b2':difference,

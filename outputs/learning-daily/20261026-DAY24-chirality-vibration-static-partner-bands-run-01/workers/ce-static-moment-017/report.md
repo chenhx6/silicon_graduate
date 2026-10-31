@@ -8,7 +8,7 @@ All newly organized statements remain `needs_review:true`; existing review flags
 
 M.Ionescu-Bujor et al., *Nuclear Physics A633*,459–478(1998), DOI10.1016/S0375-9474(98)00157-2. Actual20-page PDF:
 
-`raw/papers/gpt/high-spin-20260920/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf`
+`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/1998_Ionescu-Bujor et al_Static electromagnetic moments and nuclear shapes in 129,131Ce.pdf`
 
 SHA256 independently recomputed: `2735874b2be1116741f421a114ffa5995be93c99891ed284d962b53f0446484b`.
 

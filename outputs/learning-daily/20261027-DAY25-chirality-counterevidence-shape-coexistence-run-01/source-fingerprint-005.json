@@ -5,10 +5,10 @@
     {
       "source": "knowledge/sources/petrache-2006-near-degenerate-chiral-misinterpretation.md",
       "declared": {
-        "raw_file": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+        "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
         "raw_sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f"
       },
-      "actual_file": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "actual_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
       "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
       "signature": "%PDF-1.4",
       "bytes": 274213,
@@ -19,10 +19,10 @@
     {
       "source": "knowledge/sources/lv-2019-chirality-135nd-reexamined.md",
       "declared": {
-        "raw_file": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
+        "raw_file": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
         "raw_sha256": "97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303"
       },
-      "actual_file": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
+      "actual_file": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
       "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
       "signature": "%PDF-1.4",
       "bytes": 285508,
@@ -47,10 +47,10 @@
     {
       "source": "knowledge/sources/heyde-wood-2011-shape-coexistence-review.md",
       "declared": {
-        "raw_file": "raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+        "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
         "raw_sha256": "660c376e493e638501bfc8596d4eda46f490becb811ba5f30259d6f78c652183"
       },
-      "actual_file": "raw/papers/gpt/high-spin-20260920/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
+      "actual_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2011_Heyde_Wood_Shape coexistence in atomic nuclei.pdf",
       "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
       "signature": "%PDF-1.4",
       "bytes": 3400392,
@@ -61,10 +61,10 @@
     {
       "source": "knowledge/sources/wakudyanaye-2022-triaxiality-rotational-bands-133ce.md",
       "declared": {
-        "raw_file": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+        "raw_file": "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
         "raw_sha256": "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080"
       },
-      "actual_file": "raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
+      "actual_file": "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf",
       "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
       "signature": "%PDF-1.6",
       "bytes": 7891630,
@@ -90,10 +90,10 @@
     {
       "source": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
       "declared": {
-        "raw_file": "raw/papers/degree dissertation/Band structures of 131Ce.pdf",
+        "raw_file": "raw/theses/degree-dissertation/Band structures of 131Ce.pdf",
         "raw_sha256": "B50C22877418DE560F06002588BB46D34F5BA670C6880E30A89D1509C79AD8C1"
       },
-      "actual_file": "raw/papers/degree dissertation/Band structures of 131Ce.pdf",
+      "actual_file": "raw/theses/degree-dissertation/Band structures of 131Ce.pdf",
       "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
       "signature": "%PDF-1.4",
       "bytes": 769364,
@@ -161,10 +161,10 @@
     {
       "source": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
       "declared": {
-        "raw_file": "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
+        "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
         "raw_sha256": "f0da6d0a56cd10d1023633aed1a25d021f88a0ff48787c4569a26031e1b3dc4d"
       },
-      "actual_file": "raw/papers/gpt/high-spin-20260920/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
+      "actual_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/形变/2016_Bucher et al_Direct Evidence of Octupole Deformation in Neutron-Rich Ba 144.pdf",
       "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
       "signature": "%PDF-1.4",
       "bytes": 881225,
@@ -175,10 +175,10 @@
     {
       "source": "knowledge/sources/bucher-2017-146ba-direct-octupole.md",
       "declared": {
-        "raw_file": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+        "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
         "raw_sha256": "c49cb44350cd24f25d172efe405cd9e78360692eb4087bb3eef1801534264beb"
       },
-      "actual_file": "raw/papers/gpt/high-spin-20260920/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
+      "actual_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/PDFs/Direct_Evidence_for_Octupole_Deformation_in_146Ba_and_the_Origin_of_Large_E1_Moment_Variations_in_Reflection-Asymmetric_Nuclei.pdf",
       "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
       "signature": "%PDF-1.5",
       "bytes": 1423088,
@@ -189,10 +189,10 @@
     {
       "source": "knowledge/sources/garg-2015-135pr-magnetic-rotation.md",
       "declared": {
-        "raw_file": "raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
+        "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
         "raw_sha256": "c74e7c12614cf405861c639194e132f3096d5f46d22062b0164fa166282b9e88"
       },
-      "actual_file": "raw/papers/gpt/high-spin-20260920/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
+      "actual_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2015_Garg et al_Negative-parity high-spin states and a possible magnetic rotation band in Pr 76.pdf",
       "reading_coverage": "见日报逐源读区；指纹核验不等于阅读",
       "signature": "%PDF-1.6",
       "bytes": 571281,

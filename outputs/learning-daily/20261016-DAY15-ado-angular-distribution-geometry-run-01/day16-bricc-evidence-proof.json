@@ -10,8 +10,8 @@
     "input_v1_not_executed": true
   },
   "new_raw_objects": {
-    "raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-m1-0f74bd9078a7.html": true,
-    "raw/papers/gpt/day15-20261016/bricc-z70-489p8-fo-e2-bde3a2eefe5d.html": true
+    "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/bricc-z70-489p8-fo-m1-0f74bd9078a7.html": true,
+    "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/bricc-z70-489p8-fo-e2-bde3a2eefe5d.html": true
   },
   "query_observed_exit": 0,
   "offline_capture_observed_exit": 0,
@@ -27,7 +27,7 @@
     "actualdataset": "BeOmg",
     "raw": {
       "at": "2026-10-17T05:53:40.743592+08:00",
-      "raw": "raw/papers/gpt/day15-20261016/bricc-z70-489p8-e0-beomg-f6bf17c5f153.html",
+      "raw": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/bricc-z70-489p8-e0-beomg-f6bf17c5f153.html",
       "sha256": "f6bf17c5f15368b2e3143175415a959b9745b87446d134c2434a8abf315aa1dc",
       "bytes": 16244,
       "creation": "newpublicagentobject, nooverwrite",

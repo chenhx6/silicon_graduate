@@ -1465,7 +1465,7 @@ updated: 2026-07-15
 - Completed substantive Day 5 on the original day index after the 2026-10-01 trigger was missed. Evidence-saturation stop followed a bounded two-slot review: `131Ce` normal/SD crosswalk and octupole observable ladder.
 - The parent runner disappeared after continuation 1 without a terminal scheduler event or captured runner exit code. Preserved run-01 as `recovered-continuation`; run-02 records manual terminal reconciliation of the same Codex session `01a0ffe6-1332-7ed2-87f0-6a0722bc4a06`. Farmer marks the session complete. The unobserved parent exit remains null.
 - Final checks before publication: preflight/boundary exit 0; Wiki lint exit 0 (0 errors, 92 warnings, 1307 info); knowledge-writeback valid (13 items; all 12 changed/new knowledge paths mapped); report headings/relative links valid; `git diff --check` exit 0. State advanced once to Day 6; prompt is `outputs/learning-daily/prompts/20261004-DAY6-rotation-vibration-alignment-signature.md`.
-- New public source PDFs are hash-verified under `raw/papers/gpt/day5-20261003/`; they remain local and unstaged. Inherited raw/run paths are untouched. Publication uses subject `Complete DAY5 beta-gamma octupole shape evidence study`; exact commit hash and push outcome belong in the local scheduler event.
+- New public source PDFs are hash-verified under `raw/papers/gpt/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence/`; they remain local and unstaged. Inherited raw/run paths are untouched. Publication uses subject `Complete DAY5 beta-gamma octupole shape evidence study`; exact commit hash and push outcome belong in the local scheduler event.
 
 
 ## [2026-10-03] daily-learning | H2 EOL baseline audit for DAY5

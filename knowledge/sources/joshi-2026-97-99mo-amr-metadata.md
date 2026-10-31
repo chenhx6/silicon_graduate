@@ -17,7 +17,7 @@ citation_key: joshi_2026_97_99mo_amr_metadata
 citation_key_origin: crossref
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1142/S0218301326500552"
-raw_file: "raw/papers/gpt/day26-20261028/s0218301326500552.crossref.json"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/s0218301326500552.crossref.json"
 raw_sha256: "2de7bdd4542b1c35a3f8d3263a3ea1c1b730d347b8451ecb3f80a743f83603c5"
 nuclei: [97Mo, 99Mo]
 models: [antimagnetic-rotation]

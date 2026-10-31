@@ -18,6 +18,8 @@ pages: "034315"
 doi: "10.1103/PhysRevC.69.034315"
 canonical_source: "https://doi.org/10.1103/PhysRevC.69.034315"
 citation_key: youngblood2004isgmr
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.69.034315.pdf"
+raw_sha256: 86875ded113c8f52a0d01635d214dd843f8c8cf8035dfa582cfeeb1845b18042
 nuclei: [144sm, 154sm, 116sn, 208pb, 238u]
 reactions: ["inelastic alpha scattering @ 240 MeV"]
 experiments: [Texas-A-and-M-MDM-spectrometer]
@@ -59,6 +61,14 @@ PRC 69, 034315 (2004), DOI `10.1103/PhysRevC.69.034315`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| YOU04-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. IV, Fig. 5, Table II | false |
+| YOU04-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. IV, Fig. 6, Table II | false |
+| YOU04-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. V, Discussion | false |
+| YOU04-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. V, Discussion | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

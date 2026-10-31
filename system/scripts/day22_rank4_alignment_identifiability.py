@@ -8,7 +8,7 @@ from math import sqrt
 from pathlib import Path
 from day14_unobserved_feeding_transfer import tensor
 ROOT=Path(__file__).resolve().parents[2]
-RAW=ROOT/'raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf'
+RAW=ROOT/'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf'
 SHA='e807782c580a0313ee3763f56df1dd424e5c97925d70e3d30a79a8b534c81f70'
 
 def calculate():

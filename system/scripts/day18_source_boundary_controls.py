@@ -10,7 +10,7 @@ from pathlib import Path
 from lxml import etree
 import pymupdf
 RUN=Path('outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01')
-GR=Path('raw/papers/codex-day10/grodner-2011-126cs.xml')
+GR=Path('raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/grodner-2011-126cs.xml')
 MO=Path('raw/papers/2021_Musangu et al_Chiral vibrations and collective bands in Mo 104 , 106.pdf')
 CE=Path('raw/papers/2016_Petrache et al_Triaxiality and exotic rotations at high spins in Ce 134.pdf')
 

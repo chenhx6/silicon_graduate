@@ -105,7 +105,7 @@ figure_branch={
 }
 r={'created_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),
    'scope':'Fixed H/states/E2/energies, entire M1 operator times common real eta>0; no actual g fit',
-   'source_sha256':hashlib.sha256(Path('/workspace/wiki/raw/papers/degree dissertation/Triaxiality and Rotational bands in 133Ce.pdf').read_bytes()).hexdigest(),
+   'source_sha256':hashlib.sha256(Path('/workspace/wiki/raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf').read_bytes()).hexdigest(),
    'units':{'eta':'dimensionless','rE2':'dimensionless','rM1':'muN^2/(e^2 b^2)','delta':'dimensionless'},
    'experimental_printed_table6.11':experimental,'models_printed':models,'required_scales':out,
    'figure_conflict_branch':figure_branch,

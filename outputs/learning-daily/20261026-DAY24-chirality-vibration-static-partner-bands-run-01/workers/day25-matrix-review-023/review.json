@@ -39,13 +39,13 @@
   "raw_checks": [
     {
       "key": "pe06",
-      "raw": "raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
+      "raw": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf",
       "pages": 4,
       "sha256": "ec32a76efbeebf1a924a1c95eb9d404a99158fc9226605414b324e982cfe1d4f"
     },
     {
       "key": "lv19",
-      "raw": "raw/papers/gpt/_incoming/20260912-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
+      "raw": "raw/papers/gpt/learning-daily/20260912-PREPLAN-135nd-crosswalk/lv-2019-135nd-reexamined-arxiv.pdf",
       "pages": 10,
       "sha256": "97182e90125ce57ac2faa0feeef42b6bc12952b3287f82f277a04f8d32cf0303"
     },
@@ -57,7 +57,7 @@
     }
   ],
   "thesis_check": {
-    "raw": "raw/papers/degree dissertation/吕冰峰.pdf",
+    "raw": "raw/theses/degree dissertation/吕冰峰.pdf",
     "sha256": "84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749",
     "pages": 164,
     "actual_pages_read": [

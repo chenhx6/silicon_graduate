@@ -8,7 +8,7 @@
   "sources": [
     {
       "source": "knowledge/sources/droste-1996-pdco-formalism.md",
-      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf",
+      "raw": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1996_Droste et al_PDCO Polarizational-directional correlation from oriented nuclei.pdf",
       "sha256": "dbfd6796aafc53693b446533c89094a14427e25624321bc16a6edae1b5d84247",
       "sha_matches": true,
       "pages": 8,
@@ -25,7 +25,7 @@
     },
     {
       "source": "knowledge/sources/krane-steffen-1970-cd110-mixing-ratios.md",
-      "raw": "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf",
+      "raw": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1970_Krane et al_Determination of the E2M1 Multipole Mixing Ratios of the Gamma Transitions in Cd110.pdf",
       "sha256": "ab82cb483425ba984a8c30b35f118b4713e186d53899fcbbba6a19dd444377f1",
       "sha_matches": true,
       "pages": 11,

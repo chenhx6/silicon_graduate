@@ -11,6 +11,6 @@
 - P0与势垒穿透的分解依赖匹配面。Denisov模型设S=1，而Warda模型沿HFB全路径求作用量；半衰期只能约束总宽度。
 - 点片段E1有效电荷在228Th=208Pb+20O中为0.10526 e，14C/Pb系列为0.45–0.55 e；小E1可以来自荷质比/过渡密度相消，不能据此推断团簇概率。
 
-未创建session/run/deadline，未推进学分，未提交/push。7份PDF已逐文件核验后新增归档至raw/papers/gpt/day26-20261028/，未覆盖任何既有原件；未运行全库lint。higher-multipole论文的下载限制已如实留证，未从未读正文给β5/β7增强倍数。
+未创建session/run/deadline，未推进学分，未提交/push。7份PDF已逐文件核验后新增归档至raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/，未覆盖任何既有原件；未运行全库lint。higher-multipole论文的下载限制已如实留证，未从未读正文给β5/β7增强倍数。
 
 目标验证：4页frontmatter/required-sections检查及3页source raw-hash检查均为0 issue；JSON解析及目标diff空白检查通过。没有运行全库lint。

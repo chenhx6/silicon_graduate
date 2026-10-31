@@ -10,7 +10,7 @@ AW13 Band3的**1/2+带头Ex=61.8keV**由PDF86/printed82 §5.2.2直接报告，ν
 
 ## 原件与实际读取覆盖
 
-- AW13：`raw/papers/degree dissertation/Band structures of 131Ce.pdf`，97页；本轮SHA=`b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1`，匹配source。正文此段PDF页=printed页+4。
+- AW13：`raw/theses/degree dissertation/Band structures of 131Ce.pdf`，97页；本轮SHA=`b50c22877418de560f06002588bb46d34f5ba670c6880e30a89d1509c79ad8c1`，匹配source。正文此段PDF页=printed页+4。
 - Li04：`raw/papers/2004_Lifetimes of Excited Levels in 131Ce.pdf`，3页；SHA=`100a06fc1bb6d7061a153552529c9245f123248f213a93f022b202af97dcdcc5`，匹配source。PDF2/3对应printed462/463。
 - 实际读AW13相关连续主线：PDF55–59的Ch4引言、实验/编号和正负宇称分段；PDF66 Band3/5文字；PDF79–86的§5.1–5.2.2相关解释。定向读Tables4.4–4.7及Fig4.11说明。其它相邻谱页的提取用于核caption，不冒称全论文重新精读或全图逐点数字化。
 - 实际视觉：AW13 PDF57 Fig4.1整图及三张低能级放大裁图，PDF70 Table4.4，PDF72/73 Tables4.5/4.6，PDF76 Table4.7（仅低spin链接，不改highspin配置），PDF77 Fig4.11，PDF80 Fig5.1，PDF83 Fig5.2，PDF86 Band2/3主线。Li PDF2 Fig1及Fig2、PDF3 Table1和相关段落fresh视觉核。没有在本worker重读Li PDF1或声称新全文三页阅读。

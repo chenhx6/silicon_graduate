@@ -19,8 +19,8 @@ citation_key: Rahaman_2024
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Rahaman et al., Phys. Rev. C 109, 024318 (2024)"
-library_file: "raw/papers/gpt/high-spin-20260920/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf"
 raw_sha256: "b5010c6bb7a48625e01ff56741ad919c70f226ca9dfc487fb40c0201a1c15f05"
 nuclei: [40K, 40Ca, 40Ar]
 reactions: [27Al-19F-alpha-np]
@@ -36,7 +36,7 @@ tags: [40K, INGA, high-spin, level-scheme, shell-model, RDCO, IPDCO]
 ## Bibliographic Record
 
 - R. Rahaman *et al.*, *Phys. Rev. C* **109**, 024318 (2024), DOI `10.1103/PhysRevC.109.024318`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2024_Rahaman et al_Spectroscopic study of K 40.pdf`。
 
 ## Scope and Reading Depth
 

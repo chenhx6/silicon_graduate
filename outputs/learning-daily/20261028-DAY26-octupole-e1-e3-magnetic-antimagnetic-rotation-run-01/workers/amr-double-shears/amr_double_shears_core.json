@@ -424,13 +424,13 @@
   },
   "sources": [
     {
-      "path": "raw/papers/gpt/day26-20261028/roy-2011-cd110-systematics-plb.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/roy-2011-cd110-systematics-plb.pdf",
       "sha256": "2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a",
       "bytes": 281553,
       "coverage": "Roy 2011 PDF 5/5 pages; p.324 Table 1; pp.325-326 Eqs.3-6 and Fig.4"
     },
     {
-      "path": "raw/papers/gpt/day26-20261028/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/rather-2014-104pd-antimagnetic-arxiv1402.3422v1.pdf",
       "sha256": "b4a74c3f549860e857b83ba87e39a34a14ad2ed30c402a981e681826f01b7e3b",
       "bytes": 151505,
       "coverage": "Rather 2014 arXiv v1 11/11 PDF pages; pp.1-5 model/data text; p.11 Table I"

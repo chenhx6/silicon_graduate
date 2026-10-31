@@ -23,8 +23,8 @@ tags: [octupole, parity-doublet, odd-A, Ra225, Ac225, E1, evidence-boundary]
 
 ### 数据对象
 
-- $^{225}$Ra：`225088001`，固定栏 L 记录归档于 `raw/data/day26-20261028/225ra-adopted-225088001-016.html`，SHA-256 `93ce30628f3f24d08bc1e69c47d2c96e739748868fd03407ddbede9e4732e31e`。
-- $^{225}$Ac：`225089001`，固定栏 L/G/B 记录归档于 `raw/data/day26-20261028/225ac-adopted-225089001-028.html`，SHA-256 `fb3d87428e000397881227c3dc96973c1765310a7811062cc8c297259872a817`。
+- $^{225}$Ra：`225088001`，固定栏 L 记录归档于 `raw/data/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/225ra-adopted-225088001-016.html`，SHA-256 `93ce30628f3f24d08bc1e69c47d2c96e739748868fd03407ddbede9e4732e31e`。
+- $^{225}$Ac：`225089001`，固定栏 L/G/B 记录归档于 `raw/data/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/225ac-adopted-225089001-028.html`，SHA-256 `fb3d87428e000397881227c3dc96973c1765310a7811062cc8c297259872a817`。
 
 ### 全笛卡尔配对算法
 

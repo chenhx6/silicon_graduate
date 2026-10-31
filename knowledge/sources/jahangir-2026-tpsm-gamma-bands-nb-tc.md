@@ -16,8 +16,8 @@ arxiv: "2603.07157v1"
 doi: "10.48550/arXiv.2603.07157"
 language: en
 canonical_source: "Jahangir, U. et al. Microscopic investigation of γ vibrational band structures in odd-mass nuclei. arXiv:2603.07157v1 (2026)."
-library_file: "raw/papers/gpt/high-spin-20260920/振动/2026_Jahangir et al_Microscopic investigation of γ vibrational band structures in odd-mass nuclei.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/振动/2026_Jahangir et al_Microscopic investigation of γ vibrational band structures in odd-mass nuclei.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2026_Jahangir et al_Microscopic investigation of γ vibrational band structures in odd-mass nuclei.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2026_Jahangir et al_Microscopic investigation of γ vibrational band structures in odd-mass nuclei.pdf"
 raw_sha256: "04187f6dd9a77fcdf87b545506c17f021159a4426c6ce358277e4aeb912c49a4"
 nuclei: ["103Nb", "105Nb", "107Nb", "109Nb", "103Tc", "105Tc", "107Tc", "109Tc"]
 models: ["triaxial-projected-shell-model", "triaxial-Nilsson-model", "BCS-pairing"]
@@ -33,7 +33,7 @@ tags: [gamma-vibration, odd-mass-nuclei, Nb-isotopes, Tc-isotopes, TPSM, triaxia
 - 作者：Uzma Jahangir, S. P. Rouoof, S. Jehangir, G. H. Bhat, J. A. Sheikh, N. A. Rather。
 - 版本：arXiv:2603.07157v1，2026-03-07 提交；11 页、9 幅图。
 - DOI：`10.48550/arXiv.2603.07157`（arXiv-issued DOI）。
-- 原始文件：`raw/papers/gpt/high-spin-20260920/振动/2026_Jahangir et al_Microscopic investigation of γ vibrational band structures in odd-mass nuclei.pdf`；SHA-256：`04187f6dd9a77fcdf87b545506c17f021159a4426c6ce358277e4aeb912c49a4`。
+- 原始文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2026_Jahangir et al_Microscopic investigation of γ vibrational band structures in odd-mass nuclei.pdf`；SHA-256：`04187f6dd9a77fcdf87b545506c17f021159a4426c6ce358277e4aeb912c49a4`。
 
 ## Scope and Reading Depth
 

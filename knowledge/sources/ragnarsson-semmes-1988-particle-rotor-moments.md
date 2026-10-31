@@ -18,7 +18,7 @@ doi: "10.1007/BF02398323"
 citation_key: ""
 canonical_source: "https://doi.org/10.1007/BF02398323"
 source_url: "https://link.springer.com/content/pdf/10.1007/BF02398323.pdf"
-raw_file: "raw/papers/day23-20261025/ragnarsson-semmes-1988-particle-rotor-moments.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/ragnarsson-semmes-1988-particle-rotor-moments.pdf"
 raw_sha256: "af5b8588ac78f40ecb7ac5eb8f2dd8070c3457296e8fdcd63e9ea0d828a2fa6d"
 raw_storage_status: reserved-unpopulated-public-publisher-staging-only
 public_staging_file: "tmp/day23-theses/ragnarsson-semmes-1988.pdf"

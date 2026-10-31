@@ -16,8 +16,8 @@ volume: 391
 pages: "461-467"
 pii: "S0168-9002(97)00389-6"
 canonical_source: "https://doi.org/10.1016/S0168-9002(97)00389-6"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1997_García-Raffi et al_Monte Carlo simulation of Compton polarimeters.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1997_García-Raffi et al_Monte Carlo simulation of Compton polarimeters.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1997_García-Raffi et al_Monte Carlo simulation of Compton polarimeters.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1997_García-Raffi et al_Monte Carlo simulation of Compton polarimeters.pdf"
 raw_sha256: "2b860327fa3d8e0aeeab31e89b8e337ff8278b24f452b4fb456b6bbda4871e31"
 nuclei: []
 reactions: []
@@ -33,7 +33,7 @@ tags: [polarimetry, Compton, GEANT3, detector-response, method]
 ## Bibliographic Record
 
 - L. M. Garcia-Raffi *et al.*, *NIM A* **391**, 461–467 (1997), PII `S0168-9002(97)00389-6`; DOI route recorded above.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1997_García-Raffi et al_Monte Carlo simulation of Compton polarimeters.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1997_García-Raffi et al_Monte Carlo simulation of Compton polarimeters.pdf`。
 - 7-page selectable-text PDF; title-page journal/author/PII identity agrees. The 1997 simulation paper is distinct from the 1995 non-orthogonal polarimeter design paper and is a method-lineage source, not a nuclear-structure experiment.
 
 ## Scope and Reading Depth

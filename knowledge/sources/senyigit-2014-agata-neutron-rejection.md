@@ -19,7 +19,7 @@ arxiv: 1306.2788v1
 language: en
 canonical_source: "https://doi.org/10.1016/j.nima.2013.09.035"
 citation_key:
-raw_file: "raw/papers/gpt/day13/senyigit-2014-agata-neutrons.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/senyigit-2014-agata-neutrons.pdf"
 raw_sha256: "cb796a846c155927d1f559a87a4772cd703904c2d6bdd81bcdde61a7dd06986c"
 raw_storage_status: reserved-unpopulated-public-preprint-only
 raw_archive_verified_at: 2026-10-23

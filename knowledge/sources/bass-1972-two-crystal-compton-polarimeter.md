@@ -16,8 +16,8 @@ volume: 104
 pages: "33-43"
 pii: "0029-554X(72)90293-5"
 canonical_source: "Bass et al., Nucl. Instr. Methods 104, 33-43 (1972)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1972_Bass et al_Symmetrical two-crystal compton polarimeter for gamma rays.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1972_Bass et al_Symmetrical two-crystal compton polarimeter for gamma rays.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1972_Bass et al_Symmetrical two-crystal compton polarimeter for gamma rays.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1972_Bass et al_Symmetrical two-crystal compton polarimeter for gamma rays.pdf"
 raw_sha256: "4f6bfed154b9c2dbe60bae672a2a998f3777b31879746ffeff5bd63040d3994d"
 nuclei: [40Ar, 24Mg, 60Co]
 reactions: [24Mg(p,p'γ), 56Fe(p,p'γ)]
@@ -33,7 +33,7 @@ tags: [Compton-polarimeter, two-crystal, detector-response, polarization]
 ## Bibliographic Record
 
 - R. Bass *et al.*, *Nuclear Instruments and Methods* **104**, 33–43 (1972), PII `0029-554X(72)90293-5`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1972_Bass et al_Symmetrical two-crystal compton polarimeter for gamma rays.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1972_Bass et al_Symmetrical two-crystal compton polarimeter for gamma rays.pdf`。
 - 11-page method paper; title/author/PII and NaI/Ge(Li) test geometry checked.
 
 ## Scope and Reading Depth

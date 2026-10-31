@@ -21,8 +21,8 @@ canonical_source: "王守宇. 126Cs的高自旋态及A～130区手征双重带�
 zotero_item_key:
 citation_key: "Wang_2005_126Cs_thesis"
 zotero_uri:
-library_file: "raw/papers/degree dissertation/王守宇博士 126Cs的高自旋态及A～130区手征双重带研究.pdf"
-raw_file: "raw/papers/degree dissertation/王守宇博士 126Cs的高自旋态及A～130区手征双重带研究.pdf"
+library_file: "raw/theses/degree-dissertation/王守宇博士 126Cs的高自旋态及A～130区手征双重带研究.pdf"
+raw_file: "raw/theses/degree-dissertation/王守宇博士 126Cs的高自旋态及A～130区手征双重带研究.pdf"
 raw_sha256: "f8a2214250cb71a6ea10473713cad62022c9412783876375d87e6ed7a8021ceb"
 nuclei: [126cs, 123i]
 reactions: ["116Cd(14N,4n)126Cs", "116Cd(14N,5n2p)123I"]

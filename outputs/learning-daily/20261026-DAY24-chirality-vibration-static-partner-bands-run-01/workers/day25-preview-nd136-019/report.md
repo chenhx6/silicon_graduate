@@ -11,8 +11,8 @@ All new findings `needs_review:true`; no canonical/raw/PLAN/Bib/Git changes or r
 |Actual local path|SHA256|Size/pages and role|
 |---|---|---|
 |`raw/papers/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf`|`d2615fc0d95428b06c056eb8946afa2f62940ce58d79c1fc1cc3f50e19c73ef3`|1155420bytes,7PDFpages:repository cover+six journal pages. Main read source.|
-|`raw/papers/gpt/high-spin-20260920/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf`|`1a67cab9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697`|1155420bytes,7pages; another copy of the same article, **not a supplement**. All seven extracted page texts equal the main source.|
-|`raw/papers/gpt/high-spin-20260920/三轴/手征/实验/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf`|`5e6f1c01501598b5cf765d838d86a2b37a4fcf252039ba9058e631ccc7517f81`|568727bytes,6journal pages; title/TableI identity checked. No second experiment or independent vote.|
+|`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf`|`1a67cab9a4088f03260d097e98c7cfb8c0bcd69ee79d74b3dd7df93343743697`|1155420bytes,7pages; another copy of the same article, **not a supplement**. All seven extracted page texts equal the main source.|
+|`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/实验/2018_Petrache et al_Evidence of chiral bands in even-even nuclei.pdf`|`5e6f1c01501598b5cf765d838d86a2b37a4fcf252039ba9058e631ccc7517f81`|568727bytes,6journal pages; title/TableI identity checked. No second experiment or independent vote.|
 
 MainPDF2–7 correspond printed041304-1…-6. Main native text was read end-to-end, including references; fresh full-page visuals were inspectedPDF3/Fig1,PDF4/Figs2–3,PDF5/TableI/Figs4–5,PDF6/Fig6/conclusions. Critical alternate-copyPDF5 was freshly viewed. `false-SI-pdf05.png` is its actual configuration TableI, not a transition/δ/B table. The published copy'sTableI was rendered for recovery; no independent full six-page version read is claimed.
 

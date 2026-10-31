@@ -17,8 +17,8 @@ pages: "391-406"
 pii: "0092-640X(74)90007-2"
 doi: "10.1016/0092-640X(74)90007-2"
 canonical_source: "Der Mateosian & Sunyar, ADNDT 13, 391-406 (1974)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf"
 raw_sha256: "d31d778674037b17ec2e47f3e9a2d917e46bf273b6cc6e01c607e3eccb843e90"
 nuclei: [generic]
 reactions: [heavy-ion-alignment]
@@ -34,7 +34,7 @@ tags: [angular-distribution, attenuation, alignment, tables]
 ## Bibliographic Record
 
 - E. Der Mateosian & A. W. Sunyar, *At. Data Nucl. Data Tables* **13**, 391–406 (1974), PII `0092-640X(74)90007-2`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf`。
 
 ## Scope and Reading Depth
 

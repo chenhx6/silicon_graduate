@@ -62,7 +62,7 @@
   },
   "originals": [
     {
-      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/crossref-work.json",
+      "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/crossref-work.json",
       "scratch_source": "tmp/day27-bayesian135pr/crossref-doi.body",
       "bytes": 2512,
       "sha256": "5f0beebf4feb6365241079cc20fdd96cea482efad18f736e07faf5b935756eab",
@@ -73,7 +73,7 @@
       "original_response_unchanged": true
     },
     {
-      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/doi-csl.json",
+      "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/doi-csl.json",
       "scratch_source": "tmp/day27-bayesian135pr/doi-csl.body",
       "bytes": 2341,
       "sha256": "75ee5df2deac9fd5ac02d59c994c7fcab55fb0fec0bd5202b0f061ce9ffc908d",
@@ -84,7 +84,7 @@
       "original_response_unchanged": true
     },
     {
-      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/ecnu-qb-chen-publications.html",
+      "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/ecnu-qb-chen-publications.html",
       "scratch_source": "tmp/day27-bayesian135pr/ecnu-author.body",
       "bytes": 180773,
       "sha256": "fe0bd20f1fbab26aeee04220b199248ac2bb1d0242eb665d556d9ee9d23463c2",
@@ -95,7 +95,7 @@
       "original_response_unchanged": true
     },
     {
-      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-exact-title.atom",
+      "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/arxiv-exact-title.atom",
       "scratch_source": "tmp/day27-bayesian135pr/arxiv-title.body",
       "bytes": 765,
       "sha256": "f7fbe56deebf76bb2e623ce93ee064038428f4dd5c04bf9f818d07dbde1a1b50",
@@ -106,7 +106,7 @@
       "original_response_unchanged": true
     },
     {
-      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-yeruoxi-chen.atom",
+      "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/arxiv-yeruoxi-chen.atom",
       "scratch_source": "tmp/day27-bayesian135pr/arxiv-author.body",
       "bytes": 2762,
       "sha256": "77709ad20946992a9c2ec7df2549fd5d3ae336cb1bff0ec6b8ed0e8298a45c47",
@@ -117,7 +117,7 @@
       "original_response_unchanged": true
     },
     {
-      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-bayesian-wobbling.atom",
+      "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/arxiv-bayesian-wobbling.atom",
       "scratch_source": "tmp/day27-bayesian135pr/arxiv-bayesian-wobbling.body",
       "bytes": 16233,
       "sha256": "128bddf8fcac0dc4d157a1e6a93456c144dc791fc20cdfdc0d1c9864810f78da",
@@ -128,7 +128,7 @@
       "original_response_unchanged": true
     },
     {
-      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-doi.atom",
+      "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/arxiv-doi.atom",
       "scratch_source": "tmp/day27-bayesian135pr/arxiv-doi.body",
       "bytes": 711,
       "sha256": "01f260ebc3f6b8bf49113d5ef08b7ebe6a88fc3df21a2782b65f75d5749e8a11",
@@ -139,7 +139,7 @@
       "original_response_unchanged": true
     },
     {
-      "path": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-chen-wobbling.atom",
+      "path": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/arxiv-chen-wobbling.atom",
       "scratch_source": "tmp/day27-bayesian135pr/arxiv-chen-wobbling.body",
       "bytes": 64842,
       "sha256": "824f1a594b28e969f34d88891424a4e36d48e25e51b37e075bb9335baf3adf1e",
@@ -943,7 +943,7 @@
   "write_scope": {
     "allowed_source": "knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md",
     "allowed_receipt": "outputs/literature-acquisition/20261029-day27-bayesian135pr.json",
-    "allowed_new_originals_prefix": "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/",
+    "allowed_new_originals_prefix": "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/",
     "allowed_scratch_prefix": "tmp/day27-bayesian135pr/",
     "preexisting_target_files": false,
     "raw_overwrites": false,
@@ -954,14 +954,14 @@
     "changed_paths": [
       "knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md",
       "outputs/literature-acquisition/20261029-day27-bayesian135pr.json",
-      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/crossref-work.json",
-      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/doi-csl.json",
-      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/ecnu-qb-chen-publications.html",
-      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-exact-title.atom",
-      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-yeruoxi-chen.atom",
-      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-bayesian-wobbling.atom",
-      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-doi.atom",
-      "raw/papers/gpt/_incoming/20261029-day27-bayesian135pr/arxiv-chen-wobbling.atom",
+      "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/crossref-work.json",
+      "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/doi-csl.json",
+      "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/ecnu-qb-chen-publications.html",
+      "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/arxiv-exact-title.atom",
+      "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/arxiv-yeruoxi-chen.atom",
+      "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/arxiv-bayesian-wobbling.atom",
+      "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/arxiv-doi.atom",
+      "raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/arxiv-chen-wobbling.atom",
       "tmp/day27-bayesian135pr/aps-accepted.body",
       "tmp/day27-bayesian135pr/aps-bibtex.body",
       "tmp/day27-bayesian135pr/aps-doi-resolve.body",

@@ -19,8 +19,8 @@ citation_key: Bisoi_2014
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "Bisoi et al., Phys. Rev. C 89, 024303 (2014)"
-library_file: "raw/papers/gpt/high-spin-20260920/纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf"
 raw_sha256: "bc0af718ffb496f135abe2a51b82f87d208776fce155926a8604e8c05d126f85"
 nuclei: [34Cl, 34S, 26Al]
 reactions: [27Al-12C-alpha-n]
@@ -36,7 +36,7 @@ tags: [34Cl, INGA, high-spin, DSAM, collectivity, shell-model]
 ## Bibliographic Record
 
 - A. Bisoi *et al.*, *Phys. Rev. C* **89**, 024303 (2014), DOI `10.1103/PhysRevC.89.024303`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2014_Bisoi et al_High spin spectroscopy in 34 Cl.pdf`。
 
 ## Scope and Reading Depth
 

@@ -19,7 +19,7 @@ citation_key: Bernard2016SCCM144Ba
 citation_key_origin: agent-local-key-with-Crossref-metadata
 citation_key_verified: 2026-10-28
 canonical_source: "Bernard, Robledo and Rodríguez, Phys. Rev. C 93, 061302(R) (2016); actual reading: arXiv1604.06706v1"
-raw_file: "raw/papers/gpt/day26-20261028/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/bernard-2016-144ba-sccm-arxiv1604.06706v1.pdf"
 raw_sha256: d339bbdde6991e19148ec2d619c79dba4fbb5ca95173084a33ed36a39232b997
 nuclei: [144Ba]
 models: [Gogny-D1S, HFB, SCCM, projected-GCM]

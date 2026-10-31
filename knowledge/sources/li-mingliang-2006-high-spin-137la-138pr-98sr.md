@@ -16,7 +16,7 @@ pages: 124
 language: zh/en
 canonical_source: "李明亮. 137La、138Pr和98Sr高自旋态结构研究[D]. 清华大学, 2006."
 citation_key: ""
-raw_file: "raw/papers/degree dissertation/李明亮.pdf"
+raw_file: "raw/theses/degree-dissertation/李明亮.pdf"
 raw_sha256: "97BED89C1F6A604B1593B2EE1CE1C94E61B2C6CCC71349106897203E12DFEEAB"
 nuclei: [137la, 138pr, 98sr]
 models: [cranked-shell-model, empirical-shell-model]

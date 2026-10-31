@@ -19,7 +19,7 @@ citation_key: zhang_2013_105106cd_pnc_superfluidity
 citation_key_origin: crossref-and-primary-record
 citation_key_verified: 2026-10-29
 canonical_source: "doi:10.1103/PhysRevC.87.054314"
-raw_file: "raw/papers/gpt/day26-20261028/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/zhang-2013-105106cd-pnc-superfluidity-arxiv1303.3346v2.pdf"
 raw_sha256: "8de4f9800f7b0cd52e6ea597f3d1eb58e0e3be3852054ef570bbc5fda9928c9b"
 nuclei: [105Cd, 106Cd]
 models: [antimagnetic-rotation]

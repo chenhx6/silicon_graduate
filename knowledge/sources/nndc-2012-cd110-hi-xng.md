@@ -17,7 +17,7 @@ pages: "1315"
 citation_key: NNDC110CdHIXNG2012
 canonical_source: "https://www.nndc.bnl.gov/ensdf/EnsdfDispatcherServlet?datasetcheck=110048022,110CD"
 data_version: "110048022, cutoff 1-Aug-2011"
-raw_file: "raw/papers/gpt/_incoming/day26-20261028-002/nndc/110cd-hi-xng.ensdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/day26-002/nndc/110cd-hi-xng.ensdf"
 raw_sha256: "cd14b1104805f54023a420e6021b74fddaa149a7f7f5cd404be23a9c696b47d1"
 nuclei: [110Cd]
 reactions: ["96Zr(18O,4nγ)"]

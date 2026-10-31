@@ -9,7 +9,7 @@ review_status: unreviewed
 source_type: journal-article-theory
 reading_depth: skimmed
 canonical_source: "Phys. Rev. C 88, 044608 (2013); arXiv:1311.3810v1"
-raw_file: "raw/papers/gpt/day26-20261028/denisov-2013-multidimensional-cluster-arxiv1311.3810v1.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/denisov-2013-multidimensional-cluster-arxiv1311.3810v1.pdf"
 raw_sha256: "cf00e8012f9100edb443571cbd77c1af14b251dc6a78bb81f1c1e02ef6f181be"
 title_original: "Multidimensional model of cluster radioactivity"
 authors: [V. Yu. Denisov]

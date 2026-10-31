@@ -18,7 +18,7 @@ citation_key: Kumar2023_AMR_review_arXiv
 citation_key_origin: arxiv
 citation_key_verified: 2026-10-29
 canonical_source: "arXiv:2303.00499"
-raw_file: "raw/papers/gpt/day26-20261028/kumar-2023-amr-review-arxiv2303.00499.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/kumar-2023-amr-review-arxiv2303.00499.pdf"
 raw_sha256: "1af5160c1055852abcc151c2588af5cbd99649fd394471d246de451de78f54dd"
 nuclei: [100Pd, 101Pd, 102Pd, 103Pd, 104Pd, 105Pd, 106Cd, 107Cd, 108Cd, 109Cd, 110Cd]
 models: [review-of-experimental-and-theoretical-AMR]

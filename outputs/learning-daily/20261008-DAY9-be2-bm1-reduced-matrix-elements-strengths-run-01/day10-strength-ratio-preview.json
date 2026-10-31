@@ -4,7 +4,7 @@
   "purpose": "uncredited Day10 preview; partial only",
   "source": {
     "citation_key": "Mukhopadhyay_2007",
-    "raw_file": "raw/papers/gpt/high-spin-20260920/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf",
+    "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2007_Mukhopadhyay et al_From Chiral Vibration to Static Chirality in Nd 135.pdf",
     "raw_sha256": "9eccc9c2ad02cc10735d1aad0d76eb2fd8af0a4acc814bcaab8099f50e748425",
     "locator": "printed 172501-2 / PDF p.2, Table I"
   },
@@ -519,7 +519,7 @@
     "no_file_downloaded": true
   },
   "gr18_raw_recheck": {
-    "raw_file": "raw/papers/gpt/high-spin-20260920/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf",
+    "raw_file": "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/g-factor/2018_Grodner et al_First Measurement of the g Factor in the Chiral Band.pdf",
     "sha256": "c71ec59160c444c34ab7f340db5f045c1f26456bc1741197ec62caea7f4efbf2",
     "sha256_matches_source_page": true,
     "pdf_pages": 5,

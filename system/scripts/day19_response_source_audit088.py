@@ -125,8 +125,8 @@ def main():
                   'source':'Regis PDF44 Eq4.13 Fit1 and PDF45 Fig4.16; stated 8ps residual and 4ps limitation only for 240<Egamma<1300keV in this experiment.'}
     source_paths=[
         'raw/papers/2012_Radeck et al_Simultaneous deorientation and lifetime measurement in 98 Ru using the recoil distance Doppler shift.pdf',
-        'raw/papers/degree dissertation/LaBr3时间.pdf',
-        'raw/papers/gpt/high-spin-20260920/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf']
+        'raw/theses/degree-dissertation/LaBr3时间.pdf',
+        'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1979_Nolan_Sharpey-Schafer_The measurement of the lifetimes of excited nuclear states.pdf']
     result={'observed_at_utc':datetime.now(timezone.utc).isoformat(),
       'session_id':'01a15dcc-49f9-7623-b0e9-75fd73c74a80',
       'script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),

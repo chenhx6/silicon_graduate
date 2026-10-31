@@ -20,8 +20,8 @@ citation_key: Samanta_2019
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-09-21
 canonical_source: "https://doi.org/10.1103/PhysRevC.99.014315"
-library_file: "raw/papers/gpt/high-spin-20260920/纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf"
 raw_sha256: "5b0575aeb4d75f13cf239cbe3293875b3c0f62507921568c0dc72749e663c9a5"
 nuclei: [61Ni, 59Co]
 reactions: [59Co(7Li,alpha n)61Ni]
@@ -37,7 +37,7 @@ tags: [61Ni, shell-model, single-particle, g9/2, level-scheme, A≈60]
 ## Bibliographic Record
 
 - S. Samanta *et al.*, *Physical Review C* **99**, 014315 (2019), DOI `10.1103/PhysRevC.99.014315`。
-- 规范文件：`raw/papers/gpt/high-spin-20260920/纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/纲图/2019_Samanta et al_Single particle configurations in 61Ni.pdf`。
 
 ## Scope and Reading Depth
 

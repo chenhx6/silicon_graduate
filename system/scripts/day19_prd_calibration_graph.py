@@ -85,7 +85,7 @@ def main():
     corruption=8.0
     corrupted_residual=(prd(444,244)+corruption)-prd(444,344)-prd(344,244)
     check('non-gradient edge error has detectable cycle residual',math.isclose(corrupted_residual,8.0,abs_tol=1e-10))
-    raw=Path('raw/papers/degree dissertation/LaBr3时间.pdf')
+    raw=Path('raw/theses/degree-dissertation/LaBr3时间.pdf')
     check('source hash',hashlib.sha256(raw.read_bytes()).hexdigest()=='54ef3c5b70d7ef4ed694ad9089fa40533d39e2bb060228eb3d1a304b03555f52')
     result={'created_at_utc':datetime.now(timezone.utc).isoformat(),
       'script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),

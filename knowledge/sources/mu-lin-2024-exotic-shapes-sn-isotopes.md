@@ -16,7 +16,7 @@ pages: 98
 language: zh/en
 canonical_source: "穆琳. 半幻核Sn同位素奇特形状的实验研究[D]. 山东大学, 2024."
 citation_key: ""
-raw_file: "raw/papers/degree dissertation/穆林_博士.pdf"
+raw_file: "raw/theses/degree-dissertation/穆林_博士.pdf"
 raw_sha256: "54352AD352FB574921F49591C1F77BD1710E9B3B854F0FB306E6F289D5E80A2D"
 nuclei: [111sn, 112sn]
 experiments: [beijing-hi13-112sn-111sn]

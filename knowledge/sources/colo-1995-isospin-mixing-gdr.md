@@ -18,6 +18,8 @@ pages: "R1175-R1178"
 doi: "10.1103/PhysRevC.52.R1175"
 canonical_source: "https://doi.org/10.1103/PhysRevC.52.R1175"
 citation_key: colo1995isospin
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.52.R1175.pdf"
+raw_sha256: 346b8c777e73c6027a66878f454ee26a7daa2c0d2631ca26a1759029ef97c8dd
 nuclei: [40ca, 56ni, 80zr, 100sn, 208pb]
 reactions: []
 experiments: []
@@ -59,6 +61,14 @@ PRC 52, R1175-R1178 (1995), DOI `10.1103/PhysRevC.52.R1175`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| COL95-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 2, Table 1, Fig. 1 | false |
+| COL95-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 3, Table 2 | false |
+| COL95-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. 4, Discussion | false |
+| COL95-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | cross-source-model-comparison | source-reported | Sec. 5, Conclusions | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

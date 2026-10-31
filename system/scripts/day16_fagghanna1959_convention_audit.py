@@ -25,7 +25,7 @@ def main() -> None:
     cfg=json.loads(args.contract.read_text())
     assert cfg['identity']=='FH59-ORIGINAL-RATIO-POLYNOMIAL-01'
     root=Path(__file__).resolve().parents[2]
-    raw=root/'raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1959_Fagg_Hanna_Polarization Measurements on Nuclear Gamma Rays.pdf'
+    raw=root/'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1959_Fagg_Hanna_Polarization Measurements on Nuclear Gamma Rays.pdf'
     assert sha(raw)==cfg['raw_sha256']
     p,R=sp.symbols('p R',positive=True)
     r=(p+R)/(p*R+1)

@@ -29,7 +29,7 @@ def main():
               'mean_lifetime_coefficient':.081<mean_tau_ps_coeff<.082}
     raw_paths = [
         'raw/papers/2024_Chakraborty et al_Exploring the possibility of wobbling motion in Ba 129.pdf',
-        'raw/papers/gpt/high-spin-20260920/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf']
+        'raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/1982_Lange et al_E0-E2-M1 multipole admixtures of transitions in even-even nuclei.pdf']
     out = dict(constants={'h_Js':h,'e_C':e,'c_m_per_s':c,'epsilon0_F_per_m':eps0,'alpha':alpha},
                constants_source='https://physics.nist.gov/cuu/Constants/Table/allascii.txt',
                constants_snapshot='nist-constants-046.txt',

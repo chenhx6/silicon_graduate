@@ -20,7 +20,7 @@ citation_key: nomura_2018_Signaturesoctupole
 citation_key_origin: DOI-and-arXiv-metadata
 citation_key_verified: 2026-10-03
 canonical_source: "https://doi.org/10.1103/PhysRevC.97.024317"
-raw_file: "raw/papers/gpt/day5-20261003/nomura-2018-odd-mass-ba-octupole.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261003-DAY5-beta-gamma-octupole-shape-coexistence/nomura-2018-odd-mass-ba-octupole.pdf"
 raw_sha256: 4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be
 data_url: "https://arxiv.org/pdf/1711.09587v2"
 data_sha256: 4df5fce3696da1d019ea07111e064fe9704376f2f6c8b6bb33826cb61fa953be

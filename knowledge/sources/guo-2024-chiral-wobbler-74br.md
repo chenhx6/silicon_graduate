@@ -19,9 +19,9 @@ canonical_source: https://doi.org/10.1103/PhysRevLett.132.092501
 citation_key: guo_2024_EvidenceChiral
 raw_file: "raw/papers/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei.pdf"
 raw_sha256: 1783B784C3843E15DE39406182613757F9C3B928A2791E45A7D650F117EA4333
-supplementary_raw_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/实验/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei 1.pdf"
+supplementary_raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2024_Guo et al_Evidence for Chiral Wobbler in Nuclei 1.pdf"
 supplementary_raw_sha256: 1eb2c1af4ff7d1bf6460c154baabacb80e3ca7e63fa1832ca1d1b3d58b5ea9a0
-alternate_version_file: "raw/papers/gpt/high-spin-20260920/三轴/进动/实验/2024_H. Amro et al_Evidence for Chiral Wobbler in Nuclei.pdf"
+alternate_version_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/进动/实验/2024_H. Amro et al_Evidence for Chiral Wobbler in Nuclei.pdf"
 alternate_version_sha256: f8ca78604264fc3cf5081d8ddd20c2a8e708e3fe4526d73fa037f1f75c532fe6
 nuclei: [74br]
 reactions: ["58Ni(19F,2p1n)74Br"]

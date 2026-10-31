@@ -15,7 +15,7 @@
     },
     {
       "source": "Olbratowski et al. arXiv:nucl-th/0211075v1 (2002), three-author version",
-      "path": "raw/papers/gpt/day26-20261028/olbratowski-2002-critical-frequency-arxiv-v1.pdf",
+      "path": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/olbratowski-2002-critical-frequency-arxiv-v1.pdf",
       "storage": "raw archived 2026-10-28; source version arXiv v1; original read copy retained in tmp",
       "signature": "%PDF-1.4",
       "bytes": 252547,
@@ -82,7 +82,7 @@
   "archive_recovery": {
     "date": "2026-10-28",
     "source_tmp": "tmp/day24-critical-tac-007/arxiv-0211075v1.response",
-    "destination_raw": "raw/papers/gpt/day26-20261028/olbratowski-2002-critical-frequency-arxiv-v1.pdf",
+    "destination_raw": "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/olbratowski-2002-critical-frequency-arxiv-v1.pdf",
     "destination_preexisted": false,
     "byte_identical": true,
     "sha256": "3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb",

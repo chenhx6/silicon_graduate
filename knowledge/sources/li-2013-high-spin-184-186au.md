@@ -22,8 +22,8 @@ canonical_source: "李仕成. 形变双奇核184,186Au的高自旋态实验研�
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/李仕成-形变双奇核184,186Au的高自旋态实验研究.pdf"
-raw_file: "raw/papers/degree dissertation/李仕成-形变双奇核184,186Au的高自旋态实验研究.pdf"
+library_file: "raw/theses/degree-dissertation/李仕成-形变双奇核184,186Au的高自旋态实验研究.pdf"
+raw_file: "raw/theses/degree-dissertation/李仕成-形变双奇核184,186Au的高自旋态实验研究.pdf"
 raw_sha256: "263aab48ec0633e6072343889f8e9c5829cbaa18e80c31f2b7b00319a21d59f6"
 nuclei: [184Au, 186Au]
 reactions: ["159Tb(29Si,4nγ)184Au", "172Yb(19F,5nγ)186Au"]

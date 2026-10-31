@@ -8,7 +8,7 @@
 
 S. Mukhopadhyay et al., *Electromagnetic transition rates in high-spin bands in136Nd*, **PRC78,034311(2008)**，DOI **10.1103/PhysRevC.78.034311**，实际 PDF 标 published17September2008。
 
-原件：`raw/papers/gpt/high-spin-20260920/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf`；6页、171233bytes，SHA256 **ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c**。官方 DOI/PDF入口 `https://journals.aps.org/prc/pdf/10.1103/PhysRevC.78.034311`；本轮直接读已有 raw，没有联网重复获取。
+原件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2008_Mukhopadhyay et al_Electromagnetic transition rates in high-spin bands in Nd 136.pdf`；6页、171233bytes，SHA256 **ea77d7d033051369d19aad2f82a542e91e262eb490d518b246f7f04c2d0dcd2c**。官方 DOI/PDF入口 `https://journals.aps.org/prc/pdf/10.1103/PhysRevC.78.034311`；本轮直接读已有 raw，没有联网重复获取。
 
 阅读：全文6页、全部Figs1–5/TablesI–II/Eqs1–3；关键PDF2–5全部视觉核查。另只定向读 PE18 canonical **PDF3 Fig1** 做级联指纹核对，其SHA256 **d2615fc0d95428b06c056eb8946afa2f62940ce58d79c1fc1cc3f50e19c73ef3**；不冒称新读完整PE18。`active-recall.md`在本轮body前冻结，明确受Wiki priming、不评分。没有运行114、作者程序、旧反演或新的寿命fit。
 

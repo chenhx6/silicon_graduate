@@ -16,8 +16,8 @@ volume: 337
 pages: "416-426"
 pii: "0168-9002(94)91111-8"
 canonical_source: "Schlitt et al., NIM A 337, 416-426 (1994)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1994_Schlitt et al_A sectored Ge-Compton polarimeter for parity assignments in photon scattering.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1994_Schlitt et al_A sectored Ge-Compton polarimeter for parity assignments in photon scattering.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1994_Schlitt et al_A sectored Ge-Compton polarimeter for parity assignments in photon scattering.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1994_Schlitt et al_A sectored Ge-Compton polarimeter for parity assignments in photon scattering.pdf"
 raw_sha256: "d23380e6a8bea4be9e77c845ba125f3b934765744bad6a1f300a3301aae07684"
 nuclei: [106Pd, 24Mg, 28Si, 12C, 162Dy]
 reactions: [106Pd-gamma-gamma, 24Mg-p-p-gamma, 28Si-p-p-gamma, 12C-p-p-gamma, NRF]
@@ -33,7 +33,7 @@ tags: [sectored-Ge, Compton-polarimeter, parity, NRF, polarization]
 ## Bibliographic Record
 
 - B. Schlitt *et al.*, *NIM A* **337**, 416–426 (1994), PII `0168-9002(94)91111-8`.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/polarizaiton/1994_Schlitt et al_A sectored Ge-Compton polarimeter for parity assignments in photon scattering.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1994_Schlitt et al_A sectored Ge-Compton polarimeter for parity assignments in photon scattering.pdf`。
 
 ## Scope and Reading Depth
 

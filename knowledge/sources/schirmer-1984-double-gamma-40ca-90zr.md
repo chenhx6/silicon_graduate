@@ -16,8 +16,8 @@ volume: 53
 issue: 20
 pages: "1897-1900"
 canonical_source: "Schirmer et al., Phys. Rev. Lett. 53, 1897-1900 (1984)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/1984_Schirmer et al_Double Gamma Decay in Ca 40 and Zr 90.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/1984_Schirmer et al_Double Gamma Decay in Ca 40 and Zr 90.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/1984_Schirmer et al_Double Gamma Decay in Ca 40 and Zr 90.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/1984_Schirmer et al_Double Gamma Decay in Ca 40 and Zr 90.pdf"
 raw_sha256: "2e84b4c7bda5077f41edd381e9c225c4e1a898fe988c3c7824e9ecefaaa9adfa"
 nuclei: [40Ca, 90Zr]
 reactions: [40Ca(p,p'), 90Zr(p,p')]
@@ -33,7 +33,7 @@ tags: [double-gamma-decay, two-photon-decay, 40Ca, 90Zr, rare-branch, electromag
 ## Bibliographic Record
 
 - J. Schirmer *et al.*, *Physical Review Letters* **53**(20), 1897–1900 (1984).
-- 规范文件：`raw/papers/gpt/high-spin-20260920/multipolarity/electromagnetic/1984_Schirmer et al_Double Gamma Decay in Ca 40 and Zr 90.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/electromagnetic/1984_Schirmer et al_Double Gamma Decay in Ca 40 and Zr 90.pdf`。
 - 4-page PRL PDF; title page, authors, volume/issue/pages and 1984 date agree. The isotope superscripts are normalized in this page only; raw filename is preserved.
 
 ## Scope and Reading Depth

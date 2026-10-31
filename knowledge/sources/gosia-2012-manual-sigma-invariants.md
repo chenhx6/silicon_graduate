@@ -14,7 +14,7 @@ year: 2012
 citation_key: ""
 canonical_source: "https://www.pas.rochester.edu/~cline/Gosia/downloads.html"
 source_url: "https://www.pas.rochester.edu/~cline/Gosia/Gosia_Manual_20120510.pdf"
-raw_file: "raw/papers/day20-20261022/gosia-user-manual-20120510.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/gosia-user-manual-20120510.pdf"
 raw_sha256: "8258219d56fe5a7ced3a761ab3b07388089cd30e46adcde72f4a1c0c1f6cc633"
 raw_storage_status: reserved-unpopulated-official-public-staging-only
 raw_archive_verified_at: 2026-10-23

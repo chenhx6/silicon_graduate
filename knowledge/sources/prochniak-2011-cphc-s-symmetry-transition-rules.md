@@ -25,7 +25,7 @@ observables: [B(M1), B(E2), inband-strength, interband-strength, M1-staggering]
 methods: [discrete-symmetry, selection-rules, gamma-soft-core]
 tags: [S-symmetry, chirality, electromagnetic-selection-rules, triaxiality, 126Cs]
 citation_key: "Prochniak_2011"
-raw_file: "raw/papers/codex-day10/prochniak-2011-cphc-s-symmetry.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/prochniak-2011-cphc-s-symmetry.pdf"
 raw_sha256: "38086d08899d60b4b400be263ec600596c0ca971e339ff5cde1d9d13c9e052cd"
 ---
 

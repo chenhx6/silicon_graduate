@@ -15,8 +15,8 @@ year: 1948
 volume: 74
 pages: "782-788"
 canonical_source: "Hamilton, Phys. Rev. 74, 782 (1948)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1948_Hamilton_Polarization and Direction of Propagation of Successive Quanta.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/mixing ratio/1948_Hamilton_Polarization and Direction of Propagation of Successive Quanta.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1948_Hamilton_Polarization and Direction of Propagation of Successive Quanta.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/mixing ratio/1948_Hamilton_Polarization and Direction of Propagation of Successive Quanta.pdf"
 raw_sha256: "f569db64c7e402558fd574839ba5c3da56bc8ecf1b37dab330be706118dc0879"
 nuclei: [generic]
 reactions: [successive-gamma-cascade, resonance-radiation]

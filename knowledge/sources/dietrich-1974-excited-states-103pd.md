@@ -22,8 +22,8 @@ canonical_source: "Dietrich, W.; Nyman, B.; Johansson, A.; Bäcklin, A. Excited 
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/EXCITED STATES IN 103Pd.pdf"
-raw_file: "raw/papers/degree dissertation/EXCITED STATES IN 103Pd.pdf"
+library_file: "raw/theses/degree-dissertation/EXCITED STATES IN 103Pd.pdf"
+raw_file: "raw/theses/degree-dissertation/EXCITED STATES IN 103Pd.pdf"
 raw_sha256: "671665819972AC68EFFEA51FFCB18A2C48769A42466D2C2AB96B61BEADE9CE59"
 nuclei: [103pd]
 reactions: ["103Rh(p,nγ)103Pd", "102Pd(d,n)103Ag followed by 103Ag decay"]

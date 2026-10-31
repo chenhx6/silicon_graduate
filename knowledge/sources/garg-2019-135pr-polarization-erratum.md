@@ -17,7 +17,7 @@ pages: "069901(E)"
 doi: "10.1103/PhysRevC.100.069901"
 citation_key: Garg_2019_Erratum
 canonical_source: "https://doi.org/10.1103/PhysRevC.100.069901"
-raw_file: "raw/papers/gpt/day26-20261028/pr135-erratum-2019.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/pr135-erratum-2019.pdf"
 raw_sha256: "c9fbed8bb0a1463c6d083f29e1331ff72102f5fb4edfdd96b76f3c5c0149db30"
 nuclei: [135Pr]
 experiments: [INGA]

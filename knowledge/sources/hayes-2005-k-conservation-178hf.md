@@ -22,8 +22,8 @@ canonical_source: "Hayes, Adam B. Violations of K-Conservation in 178Hf[D]. Univ
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/violations of K-Conservation in 178Hf.pdf"
-raw_file: "raw/papers/degree dissertation/violations of K-Conservation in 178Hf.pdf"
+library_file: "raw/theses/degree-dissertation/violations of K-Conservation in 178Hf.pdf"
+raw_file: "raw/theses/degree-dissertation/violations of K-Conservation in 178Hf.pdf"
 raw_sha256: "4982B80A3E830CFE034E51428D2467C7D94852607D8DBB773E1B66A820EBDDC0"
 nuclei: [178hf]
 reactions: ["178Hf(136Xe,136Xe')178Hf Coulomb excitation", "178Hf beam activation on Ta"]

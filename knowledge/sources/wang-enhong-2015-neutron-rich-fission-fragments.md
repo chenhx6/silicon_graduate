@@ -22,8 +22,8 @@ canonical_source: "Wang, Enhong. Studies of Neutron-rich Nuclei from 252Cf and 2
 zotero_item_key:
 citation_key: ""
 zotero_uri:
-library_file: "raw/papers/degree dissertation/Wang Enhong.pdf"
-raw_file: "raw/papers/degree dissertation/Wang Enhong.pdf"
+library_file: "raw/theses/degree-dissertation/Wang Enhong.pdf"
+raw_file: "raw/theses/degree-dissertation/Wang Enhong.pdf"
 raw_sha256: "95BE30D0C4F5B0121D182E7CBE7F435B3F5F3863ABAAFDD51518EFBCFA28E4A7"
 nuclei: [96y, 100y, 107nb, 118ag, 119ag, 147ce, 148ce, 143pr, 145pr, 146pr, 147pr, 148pr, 149pr, 150pr, 151pr, 152pr, 153pr, 156pm, 157pm, 158sm]
 reactions: ["252Cf spontaneous fission", "238U+9Be induced fission"]

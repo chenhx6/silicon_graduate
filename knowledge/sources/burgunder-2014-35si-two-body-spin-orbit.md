@@ -20,7 +20,7 @@ citation_key: Burgunder_2014
 citation_key_origin: locally-assigned-from-verified-DOI
 canonical_source: "https://doi.org/10.1103/PhysRevLett.112.042502"
 source_url: "https://arxiv.org/abs/1401.1593v1"
-raw_file: "raw/papers/day21-20261023/burgunder-2014-35si-two-body-spin-orbit.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/burgunder-2014-35si-two-body-spin-orbit.pdf"
 raw_sha256: "c8db651c453428630b450c53a38c28fba05ed7c0fa0dda3023383213c0e53aef"
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23
@@ -44,7 +44,7 @@ tags: [a34, a35, spin-orbit, two-body-force, bubble-nucleus, monopole-interactio
 
 ## Bibliographic Record
 
-Burgunder 等，*Physical Review Letters* **112**, 042502 (2014)，DOI: 10.1103/PhysRevLett.112.042502。本篇为法国 GANIL 开展的放射性束反演运动学 (d,p) 转移反应实验，结合 MUST2 硅探测器阵列与 EXOGAM 锗探测器阵列，首次测定中子富余核 ³⁵Si 中中子单粒子态能量与谱因子。arXiv 预印本版本为 1401.1593v1（TeX 源文件为 `spin-orbit_SM_last.tex`）。106实际核对已有归档的 Physical Review Letters 正式版 PDF，已归档至 `raw/papers/day21-20261023/burgunder-2014-35si-two-body-spin-orbit.pdf`；SHA-256 与正文题名页/DOI一致。`tmp/burgunder2014/` 中的 arXiv TeX 仍作为阅读来源记录保留。
+Burgunder 等，*Physical Review Letters* **112**, 042502 (2014)，DOI: 10.1103/PhysRevLett.112.042502。本篇为法国 GANIL 开展的放射性束反演运动学 (d,p) 转移反应实验，结合 MUST2 硅探测器阵列与 EXOGAM 锗探测器阵列，首次测定中子富余核 ³⁵Si 中中子单粒子态能量与谱因子。arXiv 预印本版本为 1401.1593v1（TeX 源文件为 `spin-orbit_SM_last.tex`）。106实际核对已有归档的 Physical Review Letters 正式版 PDF，已归档至 `raw/papers/gpt/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam/burgunder-2014-35si-two-body-spin-orbit.pdf`；SHA-256 与正文题名页/DOI一致。`tmp/burgunder2014/` 中的 arXiv TeX 仍作为阅读来源记录保留。
 
 ## Scope and Reading Depth
 

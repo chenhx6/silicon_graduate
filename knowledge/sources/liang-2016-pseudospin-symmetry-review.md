@@ -16,8 +16,8 @@ citation_key: liang_2016_Pseudospin
 pages: "1-21"
 arxiv: "1606.08570v1"
 canonical_source: "https://arxiv.org/abs/1606.08570"
-library_file: "raw/papers/gpt/high-spin-20260920/review/2016_Pseudospin symmetry in nuclear structure and its supersymmetric representation.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/review/2016_Pseudospin symmetry in nuclear structure and its supersymmetric representation.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2016_Pseudospin symmetry in nuclear structure and its supersymmetric representation.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2016_Pseudospin symmetry in nuclear structure and its supersymmetric representation.pdf"
 raw_sha256: "42addac07765e3bcdc15eefd3c72266f254ea8a7ce97a5e9e9ab23dc26eb5f01"
 nuclei: [deformed-nuclei, exotic-nuclei]
 reactions: []
@@ -33,7 +33,7 @@ tags: [pseudospin, SUSY, Dirac, shell-structure, review]
 ## Bibliographic Record
 
 - H. Z. Liang, arXiv:1606.08570v1 (28 June 2016), 21 pp.
-- 规范文件：`raw/papers/gpt/high-spin-20260920/review/2016_Pseudospin symmetry in nuclear structure and its supersymmetric representation.pdf`。
+- 规范文件：`raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/2016_Pseudospin symmetry in nuclear structure and its supersymmetric representation.pdf`。
 - arXiv review/preprint; no independent experiment. Version is explicitly v1.
 
 ## Scope and Reading Depth

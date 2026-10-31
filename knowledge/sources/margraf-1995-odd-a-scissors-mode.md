@@ -18,6 +18,8 @@ pages: "2429-2443"
 doi: "10.1103/PhysRevC.52.2429"
 canonical_source: "https://doi.org/10.1103/PhysRevC.52.2429"
 citation_key: margraf1995oddscissors
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/PhysRevC.52.2429.pdf"
+raw_sha256: a5bb72005db1e9d4732c0305ac54697b3e21ccfe0ad6bb19cead0ffe14d1f5bc
 nuclei: [155gd, 156gd, 157gd, 158gd, 161dy, 162dy, 163dy, 164dy]
 reactions: ["nuclear-resonance-fluorescence @ 4.1 MeV"]
 experiments: [Stuttgart-Dynamitron-NRF]
@@ -59,6 +61,14 @@ PRC 52, 2429-2443 (1995), DOI `10.1103/PhysRevC.52.2429`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| MAR95-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. III, Table II, Fig. 5 | false |
+| MAR95-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. IV.A, Figs. 6-7 | false |
+| MAR95-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. V.B, Table IV | false |
+| MAR95-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. V.C, Discussion | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

@@ -9,7 +9,7 @@ from pathlib import Path
 import pymupdf
 RUN=Path("outputs/learning-daily/20261020-DAY18-dsam-lifetime-transition-strength-run-01")
 HE=Path("raw/papers/2001_Hecht et al_Evidence for chiral symmetry breaking in 136 Pm and 138 Eu.pdf")
-PR=Path("raw/papers/gpt/high-spin-20260920/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf")
+PR=Path("raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/三轴/手征/2006_Petrache et al_Risk of Misinterpretation of Nearly Degenerate Pair Bands as Chiral Partners in.pdf")
 
 def main():
     checks=[]

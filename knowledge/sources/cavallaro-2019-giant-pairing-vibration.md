@@ -18,6 +18,8 @@ pages: "238"
 doi: "10.1140/epja/i2019-12786-2"
 canonical_source: "https://doi.org/10.1140/epja/i2019-12786-2"
 citation_key: cavallaro2019gpv
+raw_file: "raw/papers/gpt/learning-daily/20261031-OPEN-RESEARCH-source-recovery/i2019-12786-2.pdf"
+raw_sha256: 6c138a00e47e3b3daee18177bc8c179025a3074051a5ae6fd7237966089eb736
 nuclei: [14c, 15c, 12c, 208pb, 120sn]
 reactions: ["12C(18O,16O)14C @ 84 MeV", "13C(18O,16O)15C @ 84 MeV"]
 experiments: [MAGNEX-LNS]
@@ -59,6 +61,14 @@ EPJ A 55, 238 (2019), DOI `10.1140/epja/i2019-12786-2`.
 本页摘要以现有书目、原有正文和已有 claim 表为准；本次补齐结构，不新增来源事实。
 
 ## Key Results
+
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| CAV19-1 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-result | source-reported | Sec. 3, Fig. 2, Table 1 | false |
+| CAV19-2 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | model-result | source-reported | Sec. 4, Fig. 4 | false |
+| CAV19-3 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | experimental-criterion | source-reported | Sec. 5, Fig. 5 | false |
+| CAV19-4 | 对应上方 “Key Findings and Claims” 的同号条目；本表只提供治理字段索引。 | author-interpretation | source-reported | Sec. 5, Discussion | false |
 
 原页面既有的直接报告、作者解释和模型结果保持原文分层；缺失 locator 或原件的项目仍保持相应证据边界。
 

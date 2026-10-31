@@ -17,8 +17,8 @@ volume: 3
 pages: "1-23"
 doi: 10.1016/S0550-306X(67)80002-8
 canonical_source: "Yamazaki, Nuclear Data A 3 (1967)"
-library_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf"
-raw_file: "raw/papers/gpt/high-spin-20260920/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf"
+library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1967_Yamazaki_Tables of coefficients for angular distribution of gamma rays from aligned.pdf"
 raw_sha256: "e807782c580a0313ee3763f56df1dd424e5c97925d70e3d30a79a8b534c81f70"
 nuclei: [generic]
 reactions: [particle-xn-alignment]

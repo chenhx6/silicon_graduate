@@ -17,7 +17,7 @@ pages: "034315"
 doi: "10.1103/PhysRevC.81.034315"
 canonical_source: "Phys. Rev. C 81, 034315 (2010); arXiv:1003.4311v1"
 source_url: "https://arxiv.org/abs/1003.4311v1"
-raw_file: "raw/papers/day26-20261028/2010-robledo-octupole-ra-ba.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2010-robledo-octupole-ra-ba.pdf"
 raw_storage_status: raw-pdf-archived
 raw_sha256: "ae90e45da93dd20dcdd46aed4e6ca58aa077c5b50f03062892a417d2e96493c8"
 nuclei: [Ra, Th, Ba, Sm]
@@ -30,7 +30,7 @@ tags: [octupole, double-well, mean-field, model-boundary]
 
 ## Bibliographic Record
 
-arXiv API提供的题名、作者和DOI与实际PDF首页相符；期刊卷页由API记录或DOI字段所指书目信息记录。取得1003.4311v1预印本，14页、388984 bytes，已归档至 `raw/papers/day26-20261028/2010-robledo-octupole-ra-ba.pdf`。
+arXiv API提供的题名、作者和DOI与实际PDF首页相符；期刊卷页由API记录或DOI字段所指书目信息记录。取得1003.4311v1预印本，14页、388984 bytes，已归档至 `raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/2010-robledo-octupole-ra-ba.pdf`。
 
 ## Summary
 

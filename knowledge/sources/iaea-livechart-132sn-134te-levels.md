@@ -13,9 +13,9 @@ journal: IAEA LiveChart of Nuclides
 year: 2026
 language: en
 canonical_source: "https://nds.iaea.org/relnsd/v1/data?fields=levels&nuclides=132Sn&format=json"
-raw_file: "raw/papers/gpt/day2-shell-gap-20260928/iaea-levels-132Sn.csv"
+raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/iaea-levels-132Sn.csv"
 raw_sha256: cf9bf7423da89883488a6f2106161d8212e62dd5d4da90651ef1c347e8944f11
-related_raw_files: ["raw/papers/gpt/day2-shell-gap-20260928/iaea-levels-130Sn.csv", "raw/papers/gpt/day2-shell-gap-20260928/iaea-levels-134Sn.csv", "raw/papers/gpt/day2-shell-gap-20260928/iaea-levels-134Te.csv", "raw/papers/gpt/day2-shell-gap-20260928/nudat-132Sn-levels.html", "raw/papers/gpt/day2-shell-gap-20260928/nudat-134Te-levels.html"]
+related_raw_files: ["raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/iaea-levels-130Sn.csv", "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/iaea-levels-134Sn.csv", "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/iaea-levels-134Te.csv", "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/nudat-132Sn-levels.html", "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/nudat-134Te-levels.html"]
 retrieved: 2026-09-28
 nuclei: [130sn, 132sn, 134sn, 134te]
 reactions: []

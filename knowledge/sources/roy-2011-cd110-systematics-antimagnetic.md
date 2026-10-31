@@ -19,7 +19,7 @@ citation_key: Roy_2011_PLB
 citation_key_origin: crossref-content-negotiation
 citation_key_verified: 2026-10-28
 canonical_source: "Roy et al., Phys. Lett. B 694, 322 (2011)"
-raw_file: "raw/papers/gpt/day26-20261028/roy-2011-cd110-systematics-plb.pdf"
+raw_file: "raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/roy-2011-cd110-systematics-plb.pdf"
 raw_sha256: "2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a"
 nuclei: [110Cd, 106Cd, 108Cd]
 reactions: [96Zr-18O-4n]
@@ -35,7 +35,7 @@ tags: [110Cd, antimagnetic-rotation, DSAM, shears-mechanism, even-even-Cd]
 ## Bibliographic Record
 
 - S. Roy *et al.*, *Phys. Lett. B* **694**, 322–326 (2011), DOI `10.1016/j.physletb.2010.10.018`.
-- 规范文件：`raw/papers/gpt/day26-20261028/roy-2011-cd110-systematics-plb.pdf`（5 页，SHA-256 `2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a`）。
+- 规范文件：`raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/roy-2011-cd110-systematics-plb.pdf`（5 页，SHA-256 `2a090a6f66d7c908419dd6c1bdc67b4f617101d8e3a4fd8d02d6da9be06d1d0a`）。
 
 ## Scope and Reading Depth
 

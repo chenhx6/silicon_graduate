@@ -16,8 +16,8 @@ year: 2012
 language: zh
 canonical_source: "丁兵. 过渡区核127, 128I 高自旋态能级结构研究[D]. 兰州: 中国科学院近代物理研究所, 2012."
 citation_key: ""
-library_file: "raw/papers/degree dissertation/丁兵 - 博士论文.pdf"
-raw_file: "raw/papers/degree dissertation/丁兵 - 博士论文.pdf"
+library_file: "raw/theses/degree-dissertation/丁兵 - 博士论文.pdf"
+raw_file: "raw/theses/degree-dissertation/丁兵 - 博士论文.pdf"
 raw_sha256: "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7"
 nuclei: ["127I", "128I"]
 reactions: ["124Sn(7Li, 4n)127I", "124Sn(7Li, 3n)128I"]
@@ -37,7 +37,7 @@ tags: [high-spin, transitional-nuclei, iodine-isotopes, decoupled-band, gamma-so
 - 作者：丁兵（指导教师：张玉虎 研究员、博士）
 - 学位授予单位：中国科学院研究生院 / 中国科学院近代物理研究所
 - 论文提交日期：2012 年 4 月；论文答辩日期：2012 年 5 月（PDF p.1 封面，D12-36）
-- 原始文件：`raw/papers/degree dissertation/丁兵 - 博士论文.pdf` (SHA-256: `ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7`)
+- 原始文件：`raw/theses/degree-dissertation/丁兵 - 博士论文.pdf` (SHA-256: `ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7`)
 
 ## Scope and Reading Depth
 

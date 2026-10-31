@@ -27,7 +27,7 @@ observables: [lifetime, B(E2), B(M1), B(M1)/B(E2), inband-strength, interband-st
 methods: [Doppler-shift-attenuation, line-shape-analysis, lifetime-measurement]
 tags: [126Cs, chirality, selection-rules, electromagnetic-strengths, S-symmetry, lifetime]
 citation_key: "Grodner_2011_DSA"
-raw_file: "raw/papers/codex-day10/grodner-2011-126cs.xml"
+raw_file: "raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/grodner-2011-126cs.xml"
 raw_sha256: "dfc649e43493debee93c4d9e76694360972f82382ce0b25a04945b7a766b728c"
 ---
 
@@ -138,7 +138,7 @@ The DSA dataset is a different reaction and detector array from Wang05/Wang06, b
 
 ## Day18原件复核纠正：上限、带身份与条件速率换算
 
-2026-10-21 对主原件 `raw/papers/codex-day10/grodner-2011-126cs.xml` 重新核读，SHA-256 为 `dfc649e43493debee93c4d9e76694360972f82382ce0b25a04945b7a766b728c`。本段为 Codex self-audit，保留前文 GR126-1–12、原有 review 状态和证据边界；不计新增实验或课程学分。
+2026-10-21 对主原件 `raw/papers/gpt/learning-daily/20261009-DAY10-electromagnetic-ratios-collective-modes/grodner-2011-126cs.xml` 重新核读，SHA-256 为 `dfc649e43493debee93c4d9e76694360972f82382ce0b25a04945b7a766b728c`。本段为 Codex self-audit，保留前文 GR126-1–12、原有 review 状态和证据边界；不计新增实验或课程学分。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|

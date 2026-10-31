@@ -18,7 +18,7 @@ doi: 10.1103/PhysRevC.83.034611
 citation_key: ""
 canonical_source: "Sallaska et al PRC83034611, arxiv1009.3925v2"
 source_url: https://arxiv.org/abs/1009.3925v2
-raw_file: raw/papers/day17-20261020/sallaska-2011-na22-arxiv-v2.pdf
+raw_file: raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/sallaska-2011-na22-arxiv-v2.pdf
 raw_sha256: 19a8218ff8c0199409b785dad7ee036445db1b299b2c4b9ab2dc62d6e360efc5
 raw_storage_status: verified-raw-archive
 raw_archive_verified_at: 2026-10-23
