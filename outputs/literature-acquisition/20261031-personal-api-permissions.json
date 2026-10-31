@@ -1,0 +1,45 @@
+{
+  "tested_at": "2026-10-31",
+  "scope": "personal ORCID, CORE and IEEE metadata configuration",
+  "credential_source": "raw/personal/.env",
+  "credential_values_recorded": false,
+  "checks": {
+    "orcid": {
+      "endpoint": "https://pub.orcid.org/v3.0/{orcid}/record",
+      "query": "configured ORCID record",
+      "http_status": 200,
+      "content_type": "application/json",
+      "record_shape_valid": true,
+      "identifier_suffix": "9620"
+    },
+    "core": {
+      "endpoint": "https://api.core.ac.uk/v3/search/works",
+      "query": "nuclear structure",
+      "limit": 1,
+      "http_status": 200,
+      "content_type": "application/json",
+      "result_shape_valid": true,
+      "result_count": 1,
+      "note": "A first request with the default Python client fingerprint received Cloudflare 403; the same credential and query succeeded with the preflight User-Agent."
+    },
+    "ieee": {
+      "endpoint": "https://ieeexploreapi.ieee.org/api/v1/search/articles",
+      "query": "nuclear structure",
+      "max_records": 1,
+      "http_status": 200,
+      "content_type": "application/json",
+      "result_shape_valid": true,
+      "result_count": 1,
+      "total_records": 22456
+    }
+  },
+  "launcher_regression": {
+    "script": "system/scripts/run_paper_search_mcp.py",
+    "result": "all configured personal and existing provider variables passed to a child launcher",
+    "secrets_printed": false
+  },
+  "limitations": [
+    "This verifies the current credentials and endpoint access only; it does not establish quota, full-text entitlement, or future availability.",
+    "The configured local MCP paths were absent in this runtime, so the regression used a temporary child launcher and did not start an MCP server."
+  ]
+}

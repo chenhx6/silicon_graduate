@@ -55,6 +55,25 @@ Paper Search MCP 的 GitHub 来源 `Dianel555/paper-search-nodejs` 当前固定�
 
 Meta/OA 检索成功不等于任意 Springer 论文均有 PDF 权限；全文仍需文章级 OA、JATS/API 返回或合法机构访问。Nature downloader 的 metadata/openaccess 校验均返回 HTTP 200；没有 `fulltext_api_key`，因此不宣称 Springer Full Text API 已开通。新 MCP 进程加载配置，旧进程不热加载。
 
+## ORCID、CORE 与 IEEE（2026-10-31）
+
+`raw/personal/.env` 中的个人研究检索设置由
+`system/scripts/personal_api_env.py` 以白名单方式读取。`USER_ORCID` 同时暴露为
+`USER_ORCID` 和 `ORCID_ID`，供作者身份解析或下游检索器使用；`CORE_API_KEY` 以原
+变量名传递，`IEEE_METADATA_API_KEY` 同时提供为 `IEEE_METADATA_API_KEY` 和常见别名
+`IEEE_API_KEY`。已有环境变量优先于 dotenv，dotenv 内容不会被执行。
+
+三项配置的最小联网检查使用：
+
+```bash
+python3 system/scripts/personal_api_preflight.py
+```
+
+它访问 ORCID record、CORE works search 和 IEEE Xplore article search，各只取一条
+测试结果，并将去凭据回执保存到 `outputs/literature-acquisition/`。CORE 请求带固定
+的识别性 `User-Agent`；这避免默认 Python 客户端指纹被站点边缘防护拦截。该预检只
+证明当前凭据和接口在本次运行中可用，不代表全文权限、长期配额或任意查询都已授权。
+
 ## Paper Search 下载目录（2026-10-26 修正）
 
 该插件的路径校验使用相对当前工作目录的 `./downloads`，仅设置 `DEFAULT_DOWNLOAD_PATH` 不生效。原启动器切换到安装目录，导致 Wiki 内的 `savePath` 被判越界。

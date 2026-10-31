@@ -5,41 +5,9 @@ from __future__ import annotations
 import argparse
 import os
 from pathlib import Path
-import shlex
 import sys
 
-
-_ALLOWED_VARS = {
-    "WEB_OF_SCIENCE_API_KEY_Institutional_Member_Plan",
-    "WEB_OF_SCIENCE_API_KEY_Free_Trial_Plan",
-    "ELSEVIER_API_KEY",
-    "SPRINGER_META_API_KEY",
-    "SPRINGER_OPEN_ACCESS_API_KEY",
-}
-
-
-def read_api_key(path: Path, variable: str) -> str:
-    """Read one allowlisted credential; never execute dotenv contents."""
-    if variable not in _ALLOWED_VARS:
-        raise ValueError("Unsupported credential variable")
-    if not path.is_file():
-        return ""
-    result = ""
-    for line in path.read_text(encoding="utf-8-sig").splitlines():
-        entry = line.strip()
-        if entry.startswith("export "):
-            entry = entry[7:].lstrip()
-        name, separator, value = entry.partition("=")
-        if not separator or name.strip() != variable:
-            continue
-        try:
-            tokens = shlex.split(value, comments=True, posix=True)
-        except ValueError:
-            raise ValueError(f"Invalid {variable} quoting") from None
-        if len(tokens) > 1:
-            raise ValueError(f"{variable} must be a single value")
-        result = tokens[0] if tokens else ""
-    return result
+from personal_api_env import apply_personal_env, read_api_key
 
 
 def read_wos_key(path: Path) -> str:
@@ -59,6 +27,12 @@ def main() -> int:
         parser.error("Expected an existing, separate Python launcher")
     env = os.environ.copy()
     wiki_root = Path(__file__).resolve().parents[2]
+    try:
+        apply_personal_env(env, wiki_root / "raw/personal/.env")
+    except (OSError, UnicodeError, ValueError):
+        print("Cannot load allowlisted personal API settings from the local dotenv file",
+              file=sys.stderr)
+        return 2
     for source, target in (("ELSEVIER_API_KEY", "ELSEVIER_API_KEY"),
                            ("SPRINGER_META_API_KEY", "SPRINGER_API_KEY"),
                            ("SPRINGER_OPEN_ACCESS_API_KEY", "SPRINGER_OPENACCESS_API_KEY")):
