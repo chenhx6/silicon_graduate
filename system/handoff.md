@@ -6000,3 +6000,23 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `isgmr` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **32 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Relativistic Coulomb excitation, virtual photon method and Lorentz boost 2026-11-02T06:30:00+08:00
+
+- Integrated intermediate-to-relativistic Coulomb excitation, virtual photon spectrum, and in-beam Lorentz boost framework (`knowledge/concepts/relativistic-coulomb-excitation-and-virtual-photons.md`):
+  - Straight-line trajectories and safe grazing impact parameter $b_{\\text{min}} = R_P + R_T + d_{\\text{safe}}$ ($d \\approx 2.5\\text{ fm}$), defining the safe forward scattering angle limit $\\theta_{\\text{safe}} \\le 1^\\circ\\text{--}3^\\circ$ to eliminate nuclear force contributions.
+  - Winther-Alder virtual photon theory: adiabaticity parameter $\\xi_0 = \\frac{E_x b_{\\text{min}}}{\\hbar \\gamma \\beta c}$, modified Bessel function expansions of $N_{E1}(E_x)$ and $N_{E2}(E_x)$, and direct uncoupled inversion of $B(E2; 0_1^+ \\to 2_1^+)$ from measured in-beam cross sections $\\sigma_{E2}$ (benchmarked on $^{32}\\text{Mg} + {}^{208}\\text{Pb}$ at $49.2\\text{ MeV/u}$, $\\sigma_{E2} \\approx 60.4\\text{ mb}$).
+  - Full relativistic in-beam $\\gamma$-ray kinematics:
+    1. Doppler energy shift $E_{\\text{lab}} = E_0 \\frac{\\sqrt{1 - \\beta^2}}{1 - \\beta \\cos\\theta_{\\text{lab}}}$;
+    2. Relativistic aberration $\\cos\\theta^* = \\frac{\\cos\\theta_{\\text{lab}} - \\beta}{1 - \\beta \\cos\\theta_{\\text{lab}}}$;
+    3. Solid-angle Jacobian factor $J(\\theta_{\\text{lab}}, \\beta) = \\frac{1 - \\beta^2}{(1 - \\beta \\cos\\theta_{\\text{lab}})^2}$ capturing forward headlight compression;
+    4. Laboratory angular distribution $W_{\\text{lab}}(\\theta_{\\text{lab}}) = W_{\\text{cm}}(\\theta^*) \\cdot J(\\theta_{\\text{lab}}, \\beta)$.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/relativistic_coulex_virtual_photon_calculator.py`:
+  - `calculate_relativistic_coulex_kinematics`: relativistic kinematics $\\beta, \\gamma, b_{\\text{min}}, \\theta_{\\text{safe}}$;
+  - `calculate_virtual_photon_numbers`: $N_{E1}$ and $N_{E2}$ numbers;
+  - `calculate_relativistic_e2_coulex_cross_section`: $\\sigma_{E2}$ forward prediction;
+  - `invert_b_e2_from_coulex_cross_section`: exact round-trip inversion of $B(E2)$;
+  - `transform_gamma_angular_distribution_lorentz`: full angle aberration, Doppler and Jacobian transformation.
+- Unified CLI integration: added `relcoulex` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **33 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

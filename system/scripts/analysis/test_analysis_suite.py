@@ -64,6 +64,7 @@ from band_termination_cns_calculator import calculate_valence_maximum_spin, mode
 from tdpad_hyperfine_precession_calculator import calculate_larmor_frequency, invert_g_factor_from_period, generate_tdpad_r_of_t, calculate_three_vector_chiral_gfactor, calculate_electric_quadrupole_frequency
 from pairing_gap_separation_energy_calculator import calculate_s2n_series, calculate_pairing_gap_3point, calculate_pairing_gap_5point, detect_shell_closure_drop, detect_shape_transition_anomaly, compare_empirical_bcs_gap
 from isgmr_breathing_mode_incompressibility_calculator import calculate_ka_from_isgmr_energy, leptodermous_expansion_ka, model_deformation_splitting_two_state, calculate_qpvc_self_energy_shift, diagnose_incompressibility_status
+from relativistic_coulex_virtual_photon_calculator import calculate_relativistic_coulex_kinematics, calculate_virtual_photon_numbers, calculate_relativistic_e2_coulex_cross_section, invert_b_e2_from_coulex_cross_section, transform_gamma_angular_distribution_lorentz
 
 
 def test_heavy_ion_kinematics():
@@ -620,6 +621,33 @@ def test_isgmr_breathing_mode_incompressibility_calculator():
     assert diag["is_standard_eos_stiffness"] == True, "Should identify standard EOS stiffness"
     print("  ✓ isgmr_breathing_mode_incompressibility_calculator passed.")
 
+
+def test_relativistic_coulex_virtual_photon_calculator():
+    print("Testing relativistic_coulex_virtual_photon_calculator...")
+    # 32Mg on 208Pb at 49.2 MeV/u
+    kin = calculate_relativistic_coulex_kinematics(E_lab_MeV_u=49.2, A_proj=32, Z_proj=12, A_targ=208, Z_targ=82)
+    assert 0.30 < kin["beta"] < 0.33, f"Expected beta ~0.31, got {kin['beta']}"
+    assert 12.5 < kin["b_min_fm"] < 14.5, f"Expected b_min ~13.4 fm, got {kin['b_min_fm']}"
+
+    # Virtual photon numbers
+    v_phot = calculate_virtual_photon_numbers(E_x_MeV=0.885, b_min_fm=kin["b_min_fm"], Z_targ=82, beta=kin["beta"], gamma=kin["gamma"])
+    assert v_phot["N_E1"] > 50.0, f"Expected large N_E1, got {v_phot['N_E1']}"
+    assert v_phot["N_E2"] > 1e4, f"Expected large N_E2, got {v_phot['N_E2']}"
+
+    # Relativistic E2 Coulex cross section
+    cs = calculate_relativistic_e2_coulex_cross_section(B_E2_e2b2=0.045, E_x_MeV=0.885, E_lab_MeV_u=49.2, A_proj=32, Z_proj=12, A_targ=208, Z_targ=82)
+    assert 50.0 < cs["sigma_E2_mb"] < 75.0, f"Expected sigma_E2 ~60 mb, got {cs['sigma_E2_mb']}"
+
+    # Round-trip B(E2) inversion
+    inv = invert_b_e2_from_coulex_cross_section(sigma_E2_mb=cs["sigma_E2_mb"], E_x_MeV=0.885, E_lab_MeV_u=49.2, A_proj=32, Z_proj=12, A_targ=208, Z_targ=82)
+    assert abs(inv["extracted_B_E2_e2b2"] - 0.045) < 1e-4, f"Inversion mismatch: {inv['extracted_B_E2_e2b2']}"
+
+    # Lorentz boost angular transformation: 0 deg vs 180 deg
+    boost = transform_gamma_angular_distribution_lorentz(theta_lab_deg_list=[0.0, 180.0], beta=kin["beta"])
+    assert boost[0]["jacobian_solid_angle"] > 1.5, "Forward Jacobian must compress solid angle (> 1.5)"
+    assert boost[1]["jacobian_solid_angle"] < 0.6, "Backward Jacobian must expand solid angle (< 0.6)"
+    print("  ✓ relativistic_coulex_virtual_photon_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -654,4 +682,5 @@ if __name__ == "__main__":
     test_tdpad_hyperfine_precession_calculator()
     test_pairing_gap_separation_energy_calculator()
     test_isgmr_breathing_mode_incompressibility_calculator()
-    print("ALL 32 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_relativistic_coulex_virtual_photon_calculator()
+    print("ALL 33 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

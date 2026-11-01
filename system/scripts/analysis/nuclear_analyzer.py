@@ -50,6 +50,7 @@ from band_termination_cns_calculator import calculate_valence_maximum_spin, mode
 from tdpad_hyperfine_precession_calculator import calculate_larmor_frequency, invert_g_factor_from_period, generate_tdpad_r_of_t, calculate_three_vector_chiral_gfactor, calculate_electric_quadrupole_frequency
 from pairing_gap_separation_energy_calculator import calculate_s2n_series, calculate_pairing_gap_3point, calculate_pairing_gap_5point, detect_shell_closure_drop, detect_shape_transition_anomaly, compare_empirical_bcs_gap
 from isgmr_breathing_mode_incompressibility_calculator import calculate_ka_from_isgmr_energy, leptodermous_expansion_ka, model_deformation_splitting_two_state, calculate_qpvc_self_energy_shift, diagnose_incompressibility_status
+from relativistic_coulex_virtual_photon_calculator import calculate_relativistic_coulex_kinematics, calculate_virtual_photon_numbers, calculate_relativistic_e2_coulex_cross_section, invert_b_e2_from_coulex_cross_section, transform_gamma_angular_distribution_lorentz
 
 
 def cmd_kinematics(args):
@@ -812,6 +813,41 @@ def cmd_isgmr(args):
         print(f"    Shifted ISGMR Energy     : E_GMR(shifted) = {qpvc['E_gmr_shifted_MeV']:.2f} MeV (Tin softness resolved)")
     print("=======================================================")
 
+
+def cmd_relcoulex(args):
+    print("\n=======================================================")
+    print(" Relativistic Coulomb Excitation & Lorentz Boost")
+    print("=======================================================")
+    if args.Elab is not None and args.Ap is not None and args.Zp is not None and args.At is not None and args.Zt is not None:
+        kin = calculate_relativistic_coulex_kinematics(args.Elab, args.Ap, args.Zp, args.At, args.Zt, d_safe_fm=args.dsafe)
+        print(f"  Reaction: {args.Ap}X({args.Zp}) + {args.At}Y({args.Zt}) at E_lab = {args.Elab:.1f} MeV/u")
+        print(f"  Relativistic Kinematics  : beta = {kin['beta']:.4f} (v = {kin['beta']*100.0:.1f}% c), gamma = {kin['gamma']:.4f}")
+        print(f"  Safe Impact Parameter    : b_min = {kin['b_min_fm']:.2f} fm (Rp={kin['R_proj_fm']:.2f} fm, Rt={kin['R_targ_fm']:.2f} fm)")
+        print(f"  Maximum Safe Lab Angle   : theta_safe(lab) = {kin['theta_safe_lab_deg']:.2f} deg (CM: {kin['theta_safe_cm_deg']:.2f} deg)")
+
+        if args.be2 is not None and args.Ex is not None:
+            cs = calculate_relativistic_e2_coulex_cross_section(args.be2, args.Ex, args.Elab, args.Ap, args.Zp, args.At, args.Zt, d_safe_fm=args.dsafe)
+            print("-------------------------------------------------------")
+            print(f"  Excitation Energy E_x    : {args.Ex:.3f} MeV | Input B(E2) = {args.be2:.4f} e^2b^2")
+            print(f"  Adiabatic Parameter xi_0 : {cs['xi_0']:.4f} (f_E2 scaling = {cs['f_E2']:.4f})")
+            print(f"  Predicted Coulex sigma_E2: {cs['sigma_E2_mb']:.2f} mb")
+
+        elif args.sigma is not None and args.Ex is not None:
+            inv = invert_b_e2_from_coulex_cross_section(args.sigma, args.Ex, args.Elab, args.Ap, args.Zp, args.At, args.Zt, d_safe_fm=args.dsafe)
+            print("-------------------------------------------------------")
+            print(f"  Measured Cross Section   : sigma_E2 = {args.sigma:.2f} mb at E_x = {args.Ex:.3f} MeV")
+            print(f"  Inverted B(E2; 0+ -> 2+) : {inv['extracted_B_E2_e2b2']:.4f} e^2b^2 ({inv['extracted_B_E2_e2fm4']:.1f} e^2fm^4)")
+
+    if args.lorentz_angles is not None:
+        deg_list = [float(x.strip()) for x in args.lorentz_angles.split(",")]
+        beta_val = args.beta if args.beta is not None else (kin['beta'] if 'kin' in locals() else 0.35)
+        boost = transform_gamma_angular_distribution_lorentz(deg_list, beta_val, a2_cm=args.a2, a4_cm=args.a4)
+        print("-------------------------------------------------------")
+        print(f"  In-Beam Gamma Lorentz Boost Transformation (beta = {beta_val:.3f}):")
+        for pt in boost:
+            print(f"    Lab {pt['theta_lab_deg']:5.1f} deg -> CM {pt['theta_cm_deg']:5.1f} deg | Doppler={pt['doppler_shift_factor']:.3f} | Jacobian J={pt['jacobian_solid_angle']:.2f} | W_lab={pt['W_lab']:.3f}")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1143,6 +1179,23 @@ def main():
     p_isgmr.add_argument("--qpvc-ph", type=float, default=None, help="Low-energy phonon energy in MeV for QPVC calculation")
     p_isgmr.add_argument("--qpvc-g", type=float, default=1.65, help="QPVC phonon-resonance coupling constant g in MeV (default: 1.65)")
     p_isgmr.set_defaults(func=cmd_isgmr)
+
+    # Relativistic Coulex & Lorentz Boost
+    p_relc = subparsers.add_parser("relcoulex", help="Relativistic Coulomb excitation, virtual photon and in-beam Lorentz boost analyzer")
+    p_relc.add_argument("--Elab", type=float, default=None, help="Beam energy in MeV/u")
+    p_relc.add_argument("--Ap", type=int, default=None, help="Projectile mass number A")
+    p_relc.add_argument("--Zp", type=int, default=None, help="Projectile atomic number Z")
+    p_relc.add_argument("--At", type=int, default=None, help="Target mass number A")
+    p_relc.add_argument("--Zt", type=int, default=None, help="Target atomic number Z")
+    p_relc.add_argument("--dsafe", type=float, default=2.5, help="Safe distance parameter in fm (default: 2.5)")
+    p_relc.add_argument("--Ex", type=float, default=None, help="Excitation energy E_x in MeV")
+    p_relc.add_argument("--be2", type=float, default=None, help="B(E2; 0+ -> 2+) in e^2b^2")
+    p_relc.add_argument("--sigma", type=float, default=None, help="Measured Coulex cross section in mb")
+    p_relc.add_argument("--lorentz-angles", type=str, default=None, help="Comma-separated laboratory detector angles in deg")
+    p_relc.add_argument("--beta", type=float, default=None, help="Recoil/projectile velocity v/c")
+    p_relc.add_argument("--a2", type=float, default=0.35, help="CM a2 angular distribution coefficient")
+    p_relc.add_argument("--a4", type=float, default=-0.1, help="CM a4 angular distribution coefficient")
+    p_relc.set_defaults(func=cmd_relcoulex)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
