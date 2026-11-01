@@ -3,6 +3,13 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-03T14:00:00+08:00 (真空退取向效应、超精细扰动PAC与角分布解卷积分析器落地)
+
+- **超精细相互作用与在束角分布退取向解卷积闭环完成**：
+  - 沉淀前沿实战指南《在束真空退取向效应（Deorientation）、超精细相互作用与角分布衰减修正指南》（解构反冲高电荷态离子核外数百特斯拉超强随机超精细磁场 {	ext{hf}}$ 诱发的拉莫尔进动退相干机制，推导 Abragam-Pound 随机弛豫模型积分衰减因子 (	au), G_4(	au)$，建立被压制角分布系数恢复真实内禀系数的解卷积算法  = a_k / G_k$ 与充气动态解耦技术）；
+  - 开发完成生产级在束真空退取向效应衰减因子与超精细扰动角分布解算器（system/scripts/analysis/vacuum_deorientation_calculator.py），集成至 nuclear_analyzer CLI 并通过 23 大模块全量自动化回归测试；
+  - 成功提交（commit 6ca3231c）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-03T12:00:00+08:00 (内转换系数ICC、BrIcc参数化与转换电子强度修正分析器落地)
 
 - **内转换电子微观物理与跃迁多极性鉴别闭环完成**：
