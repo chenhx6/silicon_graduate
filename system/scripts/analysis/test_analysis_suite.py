@@ -13,6 +13,7 @@ Tests:
   8. routhian_alignment_analyzer: checks rotational frequency, alignment ix, and Harris baseline.
   9. ensdf_crosswalk_parser: checks ENSDF fixed-width parsing and in-beam crosswalk matching.
   10. excitation_function_calculator: checks target energy loss, yield-to-cross-section inversion, and resonance fit.
+  11. magnetic_rotation_shears_calculator: checks shears angle, B(M1) quenching, and band termination.
 """
 
 import sys
@@ -28,6 +29,7 @@ from coincidence_intensity_balancer import three_point_background_subtraction, h
 from routhian_alignment_analyzer import calculate_alignment_and_routhians, fit_harris_reference
 from ensdf_crosswalk_parser import parse_ensdf_records, crosswalk_match
 from excitation_function_calculator import calculate_target_energy_loss, extract_cross_section_from_yield, fit_excitation_function
+from magnetic_rotation_shears_calculator import calculate_shears_angle, calculate_magnetic_rotation_bm1, shears_band_profile
 
 
 def test_heavy_ion_kinematics():
@@ -192,6 +194,17 @@ def test_excitation_function_calculator():
     print("  ✓ excitation_function_calculator passed.")
 
 
+def test_magnetic_rotation_shears_calculator():
+    print("Testing magnetic_rotation_shears_calculator...")
+    j_pi = 10.5
+    j_nu = 5.5
+    bm1_head, _ = calculate_magnetic_rotation_bm1(12.0, j_pi, j_nu)
+    assert bm1_head > 3.0, f"Bandhead B(M1) should be large: {bm1_head}"
+    bm1_max, _ = calculate_magnetic_rotation_bm1(16.0, j_pi, j_nu)
+    assert abs(bm1_max) < 1e-4, f"Band termination B(M1) must be zero: {bm1_max}"
+    print("  ✓ magnetic_rotation_shears_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -204,4 +217,5 @@ if __name__ == "__main__":
     test_routhian_alignment_analyzer()
     test_ensdf_crosswalk_parser()
     test_excitation_function_calculator()
-    print("ALL 10 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_magnetic_rotation_shears_calculator()
+    print("ALL 11 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

@@ -14,6 +14,7 @@ updated: 2026-11-01
 - [[nuclear-lifetime-measurement-dsam-rdm-stopping-power.md]] — **核激发态寿命测量全指南：DSAM、RDM活塞法与介质阻止本领反演**：基于吴治华教材与微观阻止本领理论，建立 0	ext{ fs}\sim 1	ext{ ns}$ 寿命测量技术矩阵、Ziegler SRIM 电子/核阻止本领模型、DDCM 活塞法衰变分析，以及从多普勒衰减因子 (	au)$ 反演绝对 (E2)$ 与内禀四极矩 $ 的数学物理闭环。
 - [[dipole-polarizability-neutron-skin-and-nuclear-matter-eos]] — **原子核电偶极极化率、中子皮厚度与核物质状态方程（EoS）**：基于 Bohr-Mottelson 与现代微观天体物理，推导反能加权二次和定则 $\sigma_{-2}$ 与极化率 $lpha_D$ 解析关联、中子皮厚度 $\Delta R_{np}$ 对中子压强与对称能斜率 $ 的微观线性约束，打通地球实验室测量与中子星半径 {1.4}$ 及 GW170817 潮汐形变度 $\Lambda$ 的跨界闭环。
 - [[ensdf-format-semantics-and-level-scheme-crosswalk]] — **国际核结构与衰变数据网 ENSDF 格式语义与能级纲图自动对账指南**：系统解构 NNDC/IAEA 标准 80 列固定列宽 Level 与 Gamma 记录格式，确立 $\pm 1.0	ext{ keV}$ 能量窗口匹配、分支比拓扑检验与新候选跃迁自动发现工作流。
+- [[magnetic-rotation-and-shears-mechanism]] — **原子核磁转动、反磁转动与剪刀机制动力学**：基于 Frauendorf (RMP 2001) 与 Clark-Macchiavelli 理论，阐明弱形变核中各向异性磁偶极核流引起的剪刀机制（Shears mechanism），推导磁多极辐射 (M1)$ 与 (M1)/B(E2)$ 随剪刀夹拢角闭合（$	heta 	o 0^\circ$）的特征抛物线单调衰减定律、四叶双剪刀反磁转动（AMR），以及与三轴手征带、摆动带的竞争鉴别判据。
 - [[giant-resonances-and-deformation-splitting]] — **巨多极共振动力学、形变劈裂与微观阻尼机制**：基于 Bohr-Mottelson 与 Heyde，系统阐明同位旋矢量巨偶极共振（IVGDR）在三轴核中的三峰劈裂定理 (eta, \gamma)$、中子皮矮偶极共振（PDR）、磁偶极剪刀模式（Scissors mode），以及朗道阻尼、粒子逃逸与复合扩散三阶段微观阻尼机制。
 - [[high-spin-band-crossing-and-alignment-mechanisms]] — **高自旋能带交叉、准粒子对解耦对齐与带端终止动力学**：基于 Bohr-Mottelson 与 Frauendorf，统一解构 Coriolis 反配对（CAP）与 Stephens-Simon 单对解偶对齐机制，确立 Harris 参考基线与准粒子角动量对齐量 $ 提取算法、三轴旋称反转动力学及能带平滑终止极限。
 - [[drip-line-physics-and-frib-science]] — **极不稳定性核、中子滴线与 FRIB 稀有同位素科学前沿**：基于 FRIB 科学报告，阐述中子晕与中子皮形成机制、反转岛与传统幻数崩溃，以及弱束缚开放量子系统对微观四极形变与三轴极化的深刻映射。

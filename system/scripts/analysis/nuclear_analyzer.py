@@ -28,6 +28,7 @@ from lifetime_lineshape_calculator import calculate_stopping_time_alpha, dsam_in
 from routhian_alignment_analyzer import calculate_alignment_and_routhians, fit_harris_reference
 from ensdf_crosswalk_parser import parse_ensdf_records, crosswalk_match
 from excitation_function_calculator import calculate_target_energy_loss, extract_cross_section_from_yield, fit_excitation_function
+from magnetic_rotation_shears_calculator import calculate_shears_angle, calculate_magnetic_rotation_bm1, shears_band_profile
 
 
 def cmd_kinematics(args):
@@ -184,6 +185,21 @@ def cmd_yield2cs(args):
     print("=======================================================")
 
 
+def cmd_shears(args):
+    spins = [float(x.strip()) for x in args.spins.split(",")]
+    prof = shears_band_profile(spins, args.jpi, args.jnu, B_E2_const_e2b2=args.BE2, g_pi=args.gpi, g_nu=args.gnu)
+    print("\n=======================================================")
+    print(" Magnetic Rotation Shears Mechanism Profile")
+    print("=======================================================")
+    print(f"  Configuration           : j_pi = {args.jpi:.1f}, j_nu = {args.jnu:.1f} (I_max = {args.jpi+args.jnu:.1f} hbar)")
+    print(f"  Effective g-factors     : g_pi = {args.gpi:.2f}, g_nu = {args.gnu:.2f}, Core B(E2) = {args.BE2:.4f} e^2b^2")
+    print("  Spin (hbar) | Shears Angle (deg) | B(M1) (mu_N^2) | B(M1)/B(E2)")
+    print("  --------------------------------------------------------------")
+    for sp, th, m1, rat in zip(prof['spins'], prof['theta_deg'], prof['B_M1_muN2'], prof['B_M1_over_B_E2']):
+        print(f"    {sp:5.1f}     |      {th:5.1f}         |     {m1:5.2f}      |   {rat:6.1f}")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -273,6 +289,16 @@ def main():
     p_y2c.add_argument("--target_mg", type=float, required=True, help="Target thickness in mg/cm^2")
     p_y2c.add_argument("--target_A", type=float, required=True, help="Target mass number A")
     p_y2c.set_defaults(func=cmd_yield2cs)
+
+    # Shears Mechanism Magnetic Rotation
+    p_shears = subparsers.add_parser("shears", help="Shears mechanism angle, B(M1) and B(M1)/B(E2) profile")
+    p_shears.add_argument("--spins", type=str, required=True, help="Comma-separated list of spins")
+    p_shears.add_argument("--jpi", type=float, required=True, help="Proton blade angular momentum j_pi")
+    p_shears.add_argument("--jnu", type=float, required=True, help="Neutron blade angular momentum j_nu")
+    p_shears.add_argument("--BE2", type=float, default=0.03, help="Assumed constant B(E2) in e^2b^2")
+    p_shears.add_argument("--gpi", type=float, default=1.25, help="Proton g-factor")
+    p_shears.add_argument("--gnu", type=float, default=-0.25, help="Neutron g-factor")
+    p_shears.set_defaults(func=cmd_shears)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
