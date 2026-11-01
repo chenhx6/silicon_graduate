@@ -1,0 +1,47 @@
+{
+  "transition_keV": 747.5,
+  "spin_parity": "17/2+ -> 15/2+",
+  "angular_distribution_input": {
+    "source": "Matta et al., PRL 114, 082501 (2015)",
+    "detector": "Gammasphere (Argonne National Laboratory)",
+    "a2_exp": -0.42,
+    "sigma_a2": 0.03,
+    "a4_exp": 0.02,
+    "sigma_a4": 0.04
+  },
+  "polarization_input": {
+    "source": "Lv et al., PLB 824, 136840 (2022)",
+    "detector": "JUROGAM II (University of Jyvaskyla)",
+    "P_exp": -0.21,
+    "sigma_P": 0.04
+  },
+  "dual_root_solutions": {
+    "large_root_delta1 (Matta wobbler)": {
+      "delta": -1.83,
+      "a2_theoretical": -0.42,
+      "f_E2_pct": 77.0,
+      "f_M1_pct": 23.0,
+      "polarization_theoretical": 0.233,
+      "chi2_angular_only": 0.0,
+      "chi2_polarization": 122.85,
+      "chi2_joint": 122.85
+    },
+    "small_root_delta2 (Lv signature partner)": {
+      "delta": -0.47,
+      "a2_theoretical": -0.42,
+      "f_E2_pct": 18.1,
+      "f_M1_pct": 81.9,
+      "polarization_theoretical": -0.181,
+      "chi2_angular_only": 0.0,
+      "chi2_polarization": 0.53,
+      "chi2_joint": 0.53
+    }
+  },
+  "statistical_verdict": {
+    "angular_only_delta_chi2": 0.0,
+    "angular_only_identifiability": "Completely degenerate (Delta chi2 = 0.000)",
+    "joint_likelihood_delta_chi2": 122.3,
+    "wobbler_rejection_significance_sigma": 11.1,
+    "physical_conclusion": "Gammasphere angular distribution data alone possessed zero discriminatory power between the wobbling and signature partner solutions (Delta chi2 = 0.000). The addition of JUROGAM II linear polarization decisively rules out the wobbling root at 11.1 sigma, unambiguously establishing the 747 keV transition as M1-dominated (81.9% M1)."
+  }
+}

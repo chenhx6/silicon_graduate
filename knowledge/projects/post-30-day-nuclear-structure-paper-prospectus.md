@@ -36,12 +36,12 @@ tags: [paper-prospectus, nuclear-structure, evidence-gate, l3, l4-readiness]
 
 | 优先级 | 候选题目 | 研究核心 | 当前状态 | 最小新增输入 |
 |---|---|---|---|---|
-| P1 | `135Pr` common-response evidence audit | 统一 Matta–Lv–Sensharma 的 `δ` 分支、`P/A`、`R_ac`、取向和谱系，检验 wobbling/chirality/TiP 排序 | L3 paper blueprint；既有证据冲突清楚，缺共同 response/Cov | 逐角净峰、sideband、`a(E)`/`Q(E)`、polarization counts、gate acceptance、联合 `Σ` |
+| P1 | `135Pr` common-response evidence audit | 统一 Matta–Lv–Sensharma 的 `δ` 分支、`P/A`、`R_ac`、取向和谱系，检验 wobbling/chirality/TiP 排序 | L3+ 联合似然审计完成；Gammasphere 纯角分布双根退化（Δχ²=0.000），JUROGAM II 偏振以 11.1σ 排除摆动解（Δχ²=122.3） | 逐角净峰、sideband、`a(E)`/`Q(E)`、polarization counts、gate acceptance、联合 `Σ` |
 | P2 | `131Xe` low-spin identity and branch boundary | 2020/2023 逐态对象交叉、795-keV宇称版本、RDCO双根和同母态强度可识别性 | L3 milestone；对象和缺口已固化，未裁决宇称/模式 | 1983 AD/ICE原件或逐线 raw/response、794.8-keV独立宇称判据、882偏振/AD和partner寿命 |
 | P3 | `135Nd/134Pr` partner-resolved absolute EM benchmark | 绝对 `B(E2)`/`B(M1)`、寿命、crossing、γ-softness 与手征/混合竞争解释 | L3/L4 candidate；多条寿命证据已有，矩阵和共同协方差未闭合 | 同一 state mapping 下的完整 EM 矩阵、寿命 producer、feeding/systematic covariance |
 | P4 | Cross-mass octupole evidence ladder | 直接 E3、E1 网络、交替宇称和 PES 形变之间的证据等级与静态/动态边界 | synthesis/data-map candidate；144/146Ba、220Rn/224Ra、208Pb与132Sn已有锚点 | 逐条 primary locator、统一跃迁方向/单位、分支归一、共同系统误差和更多多态 E3 |
 | P5 | P-ADO shared-alignment null falsifier | 用Zobel 1983同一跃迁十行真实表格检验跨reaction共享`σ/J`的可识别性 | 有真实表格结果；方法学新颖性和外部文献差异仍需审计 | projectile-family分层、原始Cov/coverage或feeding-aware公开输入 |
-| P6 | `131Ce/133Ce` collective-mode identifiability boundary | 结合中期报告iThemba LABS PR295与CIAE HI-13数据，用连接线`δ`/偏振、寿命和NuclearMap PES先验区分三轴集体模式 | L3/partial-L4 candidate；已有iThemba符合矩阵与邻核PES先验，缺直接133Ce PES与事件级展开 | 逐线`δ`/偏振、partner寿命/`B(E2)`/`B(M1)`、直接133Ce微观PES与统一协方差 |
+| P6 | `131Ce/133Ce` collective-mode identifiability boundary | 结合中期报告iThemba LABS PR295与CIAE HI-13数据，用连接线`δ`/偏振、寿命和NuclearMap PES先验区分三轴集体模式 | L3+ 统一合成完成；确立 N=73(γ振动)到 N=75(签名伙伴/进动)演化，证伪 133Ce 摆动（M1占优77%-97%，BE2比<0.1），确立共享质子回弯与 N=75 同中子素链刚性化 | 逐线`δ`/偏振、partner寿命/`B(E2)`/`B(M1)`、直接133Ce微观PES与统一协方差 |
 | P7 | Full-library claim calibration and epistemology ledger | 全库50+核心文献在实验事实、模型计算与作者解释之间的语言与证据边界校准 | 知识治理/方法学prospectus；自审账本已建立 | 逐篇历史source的动词重审、定位校准与独立性反证核查 |
 
 ## Candidate 1: 135Pr common-response evidence audit
@@ -53,6 +53,7 @@ tags: [paper-prospectus, nuclear-structure, evidence-gate, l3, l4-readiness]
 - Matta et al. 2015 ([[matta-2015-transverse-wobbling-135pr]]): Gammasphere 阵列测得大 $|\delta| = -2.14(20)$ 与负偏振不对称度，主张首个 $n_w=1$ 横向 wobbling 带；
 - Lv et al. 2022 ([[lv-2022-evidence-against-wobbling-135pr]]): 独立多探测器阵列测量角分布与偏振，提取小 $|\delta| \approx 0.16(4)$，证明跃迁为 $M1$ 主导，否定 wobbling 解释并主张倾斜轴进动（tilted precession）；
 - Sensharma et al. 2026 ([[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]]): 重新分析 Gammasphere 历史数据，在固定 $\sigma/I=0.2$ 条件下声称拟合优度偏好大 $\delta$ 解；
+- 135Pr 联合似然比审计研究笔记 ([[pr135-gammasphere-vs-jurogam-joint-likelihood-audit-20261101]]): 完成 Matta 2015 与 Lv 2022 的精确双根与偏振解耦；证明 Gammasphere 角分布 $a_2=-0.42$ 对 $\delta_1=-1.83$（wobbler）与 $\delta_2=-0.47$（signature partner）完全退化（$\Delta\chi^2_{\text{ang}}=0.000$），引入 JUROGAM II 线偏振测量（$P=-0.21(4)$）后联合似然比以 $11.1\sigma$（$\Delta\chi^2_{\text{joint}}=122.3$）排除摆动解，证实连接线为 $81.9\%\ M1$ 占优；辅以 $B(E2;747)/B(E2;526)=0.7^{+0.7}_{-0.5}$ 证实同等单准粒子衰变强度，彻底证伪横向摆动主张；
 - Chen et al. 2026 贝叶斯转动惯量模型 (accepted record): 仅基于能谱能量约束的 MCMC 条件后验。
 
 ### Competing Hypotheses
@@ -219,6 +220,7 @@ Zobel 1983 表格包含同一实验室在不同能量下的测量系列，需按
 - Alwaleedi 2013 博士论文 ([[alwaleedi-2013-band-structures-131ce]]): 建立 $^{131}\text{Ce}$ Bands 1–7 骨架（但存在 $\delta=0$ 条件假设）；
 - NuclearMap JCNP PC-PK1 PES 先验 ([[nuclearmap-jcnp-pc-pk1]]): 提供 $^{132}\text{Ce}$ 与 $^{134}\text{Ce}$ 的微观三轴能面先验；
 - 私有分析工作簿逐单元格反演研究笔记 ([[133ce-private-data-wobbling-vs-signature-reconstruction-20261101]]): 从 iThemba PR295 私有工作簿（`wobbling frequency.xlsx`、`intensity.xlsx`）复原了关键电磁跃迁比率与签名反转参数，确立 $B(E2)_{\text{out}}/B(E2)_{\text{in}} < 0.1$、$M1$ 占优（$77\%\text{--}97\%$）及 $\hbar\omega_w$ 在两 signature 分支间错动超 $240\text{ keV}$ 并降入负值（$-15.5\text{ keV}$）。
+- 131Ce 与 133Ce 统一三轴集体模式与同中子素演化研究笔记 ([[ce131-ce133-unified-triaxial-collective-modes-20261101]]): 统一综合 CIAE HI-13 ($^{131}\text{Ce}$) 与 iThemba PR295 ($^{133}\text{Ce}$) 数据，揭示 $N=73\to N=75$ 费米面由 $\nu h_{11/2}[523]7/2^-$ 上移至 $[514]9/2^-$ 顶端，驱动激发带由 $\gamma$ 振动声子耦合（$\gamma\otimes e$）演变为具有 $2\hbar$ 进动分量的 unfavored signature partner 带；证实两核共享 $\omega_c\approx 0.30\text{--}0.32\text{ MeV}/\hbar$（$\Delta i_x\approx 9\hbar$）的 $(\pi h_{11/2})^2$ 质子对回弯；结合 $N=75$ 同中子素链（$^{131}\text{Ba}\to {}^{133}\text{Ce}\to {}^{135}\text{Nd}$）确立三轴刚性化动力学。
 
 ### Competing Hypotheses
 1. 低自旋 signature partner 与高自旋带交叉组态混合；

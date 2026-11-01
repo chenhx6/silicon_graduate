@@ -1,0 +1,159 @@
+{
+  "131Ce_N73": {
+    "nucleus": "131Ce",
+    "N": 73,
+    "Z": 58,
+    "Fermi_level_orbital": "nu h11/2 [523]7/2- / [514]9/2-",
+    "band1_yrast_structure": "Decoupled/strongly-coupled nu h11/2 yrast sequence",
+    "band4_structure": "gamma-vibrational phonon coupled to nu h11/2 (gamma x e)",
+    "band4_bandhead_spin": "15/2-",
+    "band4_bandhead_energy_keV": 972.0,
+    "linking_transitions": [
+      994.0,
+      1108.0
+    ],
+    "apparent_wobbling_hw_keV": {
+      "7.5": 289.5,
+      "8.5": 245.5,
+      "9.5": 187.5,
+      "10.5": 119.0,
+      "11.5": 43.5,
+      "12.5": -30.5
+    },
+    "signature_splitting_keV": {
+      "6.5": -5.0,
+      "7.5": 2.5,
+      "8.5": -0.0,
+      "9.5": 1.0,
+      "10.5": 1.5,
+      "11.5": 4.5,
+      "12.5": 5.0,
+      "13.5": 3.0,
+      "14.5": 7.5,
+      "15.5": 0.0,
+      "16.5": -7.5
+    },
+    "proton_crossing_omega_c_MeV": 0.3,
+    "proton_crossing_gain_hx": 9.0
+  },
+  "133Ce_N75": {
+    "nucleus": "133Ce",
+    "N": 75,
+    "Z": 58,
+    "Fermi_level_orbital": "nu h11/2 [514]9/2- / [505]11/2- (top of shell)",
+    "band1_yrast_structure": "nu h11/2 yrast sequence, strong staggering",
+    "band4_structure": "Unfavored signature partner with 2 hbar tilted precession component",
+    "band4_bandhead_spin": "13/2-",
+    "band4_bandhead_energy_keV": 512.0,
+    "linking_transitions_multipolarity": [
+      {
+        "E_gamma_keV": 625.0,
+        "I_initial": "13/2-",
+        "I_final": "11/2-",
+        "delta_E2_M1": -1.5,
+        "delta_lower": -5.7,
+        "delta_upper": 0.97,
+        "f_M1_pct": 30.8,
+        "f_E2_pct": 69.2,
+        "B_E2_out_over_in": null,
+        "status": "ambiguous_large_error_bar"
+      },
+      {
+        "E_gamma_keV": 582.0,
+        "I_initial": "17/2-",
+        "I_final": "15/2-",
+        "delta_E2_M1": -0.55,
+        "delta_lower": -0.25,
+        "delta_upper": 0.12,
+        "f_M1_pct": 76.8,
+        "f_E2_pct": 23.2,
+        "B_E2_out_over_in": 0.063,
+        "B_E2_out_over_in_err": 0.025,
+        "B_M1_out_over_B_E2_in": 0.254,
+        "B_M1_out_over_B_E2_in_err": 0.04,
+        "status": "definitively_M1_dominant"
+      },
+      {
+        "E_gamma_keV": 465.0,
+        "I_initial": "19/2-",
+        "I_final": "17/2-",
+        "delta_E2_M1": -0.17,
+        "delta_lower": -0.2,
+        "delta_upper": 0.09,
+        "f_M1_pct": 97.2,
+        "f_E2_pct": 2.8,
+        "B_E2_out_over_in": 0.088,
+        "B_E2_out_over_in_err": 0.033,
+        "B_M1_out_over_B_E2_in": 0.47,
+        "B_M1_out_over_B_E2_in_err": 0.03,
+        "status": "pure_M1_dominant"
+      }
+    ],
+    "apparent_wobbling_hw_keV": {
+      "6.5": 112.5,
+      "7.5": 31.0,
+      "8.5": 119.0,
+      "9.5": 13.0,
+      "10.5": 96.0,
+      "11.5": 13.5,
+      "12.5": 128.5,
+      "13.5": 54.5
+    },
+    "signature_splitting_yrast_keV": {
+      "6.5": 108.5,
+      "7.5": -110.5,
+      "8.5": 123.0,
+      "9.5": -113.0,
+      "10.5": 126.0,
+      "11.5": -125.5,
+      "12.5": 126.0,
+      "13.5": -130.0,
+      "14.5": 124.5,
+      "15.5": -128.5,
+      "16.5": 119.0
+    },
+    "signature_splitting_band4_keV": {
+      "8.5": 70.0,
+      "9.5": -67.0,
+      "10.5": 58.0,
+      "11.5": -55.5,
+      "12.5": 65.5
+    },
+    "signature_inversion_spin": "19/2- to 21/2-",
+    "proton_crossing_omega_c_MeV": 0.32,
+    "proton_crossing_gain_hx": 8.8,
+    "workbook_transition_wobbling_hw_keV": {
+      "6.5": 315.0,
+      "8.5": 200.5,
+      "9.5": 136.0,
+      "10.5": 262.0,
+      "11.5": -84.5,
+      "13.5": -15.5
+    }
+  },
+  "N75_isotone_chain": {
+    "131Ba_Z56": {
+      "triaxiality_gamma_deg": 12.0,
+      "quadrupole_beta2": 0.17,
+      "core_behavior": "gamma-soft triaxial rotor",
+      "g72_signature_splitting": "moderate (Coriolis mixing with s1/2, d3/2)"
+    },
+    "133Ce_Z58": {
+      "triaxiality_gamma_deg": 18.0,
+      "quadrupole_beta2": 0.22,
+      "core_behavior": "stable triaxial rotor (JCNP PC-PK1 minimum)",
+      "g72_signature_splitting": "large, inverts at higher spin"
+    },
+    "135Nd_Z60": {
+      "triaxiality_gamma_deg": 21.0,
+      "quadrupole_beta2": 0.2,
+      "core_behavior": "stable triaxial rotor with chiral-doublet bands",
+      "g72_signature_splitting": "pronounced, well-developed triaxial geometry"
+    }
+  },
+  "audit_checks": {
+    "check1_133ce_M1_dominant_and_BE2_under_0_1": true,
+    "check2_apparent_wobbling_formula_collapses": true,
+    "check3_proton_crossing_aligned_across_isotopes": true
+  }
+}
