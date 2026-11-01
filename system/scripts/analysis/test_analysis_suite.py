@@ -66,6 +66,7 @@ from pairing_gap_separation_energy_calculator import calculate_s2n_series, calcu
 from isgmr_breathing_mode_incompressibility_calculator import calculate_ka_from_isgmr_energy, leptodermous_expansion_ka, model_deformation_splitting_two_state, calculate_qpvc_self_energy_shift, diagnose_incompressibility_status
 from relativistic_coulex_virtual_photon_calculator import calculate_relativistic_coulex_kinematics, calculate_virtual_photon_numbers, calculate_relativistic_e2_coulex_cross_section, invert_b_e2_from_coulex_cross_section, transform_gamma_angular_distribution_lorentz
 from electromagnetic_transition_alaga_calculator import calculate_weisskopf_unit, convert_lifetime_to_b_e2, calculate_alaga_ratio_e2, calculate_bm1_over_be2
+from two_nucleon_transfer_pairing_vibration_calculator import calculate_bcs_transfer_enhancement, calculate_pairing_vibration_energies, evaluate_kinematic_q_matching, calculate_josephson_transfer_probability
 
 
 def test_heavy_ion_kinematics():
@@ -672,6 +673,31 @@ def test_electromagnetic_transition_alaga_calculator():
     assert 1.5 < bm1["abs_gK_minus_gR_over_Q0_muN_eb"] < 2.0, "gK-gR / Q0 out of range"
     print("  ✓ electromagnetic_transition_alaga_calculator passed.")
 
+
+def test_two_nucleon_transfer_pairing_vibration_calculator():
+    print("Testing two_nucleon_transfer_pairing_vibration_calculator...")
+    # BCS coherent enhancement test
+    bcs = calculate_bcs_transfer_enhancement([(5.5, 0.5), (3.5, 0.5), (2.5, 0.5), (1.5, 0.5), (0.5, 0.5)])
+    assert bcs["enhancement_factor"] > 4.0, f"Expected BCS enhancement > 4x, got {bcs['enhancement_factor']}"
+    assert bcs["sigma_coherent"] > 15.0, "Coherent cross section should exceed 15"
+
+    # 208Pb pairing vibrations
+    pv = calculate_pairing_vibration_energies(S2n_A_plus_2_MeV=9.12, S2n_A_MeV=14.11)
+    assert abs(pv["hw_plus_addition_phonon_MeV"] - 2.495) < 0.01, "Addition phonon mismatch"
+    assert abs(pv["hw_minus_removal_phonon_MeV"] - 2.495) < 0.01, "Removal phonon mismatch"
+    assert abs(pv["Ex_double_phonon_1_1_MeV"] - 4.99) < 0.01, "Double phonon Ex mismatch"
+
+    # Kinematic Q-matching
+    qm = evaluate_kinematic_q_matching(E_lab_MeV=84.0, Q_actual_MeV=-3.2, Z_proj=8, A_proj=18, Z_targ=6, A_targ=12, Z_ejec=8, A_ejec=16)
+    assert qm["Q_optimal_MeV"] == 0.0, "Q_optimal mismatch"
+
+    # Josephson multi-pair transfer
+    jos = calculate_josephson_transfer_probability(P_1pair=0.05, n_pairs=2, enhancement_factor=15.0)
+    assert abs(jos["P_uncorrelated"] - 0.0025) < 1e-6, "P_uncorr mismatch"
+    assert abs(jos["P_Josephson"] - 0.0375) < 1e-6, "P_Josephson mismatch"
+    assert jos["supercurrent_signature"] == True, "Should identify Josephson supercurrent signature"
+    print("  ✓ two_nucleon_transfer_pairing_vibration_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -708,4 +734,5 @@ if __name__ == "__main__":
     test_isgmr_breathing_mode_incompressibility_calculator()
     test_relativistic_coulex_virtual_photon_calculator()
     test_electromagnetic_transition_alaga_calculator()
-    print("ALL 34 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_two_nucleon_transfer_pairing_vibration_calculator()
+    print("ALL 35 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

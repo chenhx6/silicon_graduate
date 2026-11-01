@@ -52,6 +52,7 @@ from pairing_gap_separation_energy_calculator import calculate_s2n_series, calcu
 from isgmr_breathing_mode_incompressibility_calculator import calculate_ka_from_isgmr_energy, leptodermous_expansion_ka, model_deformation_splitting_two_state, calculate_qpvc_self_energy_shift, diagnose_incompressibility_status
 from relativistic_coulex_virtual_photon_calculator import calculate_relativistic_coulex_kinematics, calculate_virtual_photon_numbers, calculate_relativistic_e2_coulex_cross_section, invert_b_e2_from_coulex_cross_section, transform_gamma_angular_distribution_lorentz
 from electromagnetic_transition_alaga_calculator import calculate_weisskopf_unit, convert_lifetime_to_b_e2, calculate_alaga_ratio_e2, calculate_bm1_over_be2
+from two_nucleon_transfer_pairing_vibration_calculator import calculate_bcs_transfer_enhancement, calculate_pairing_vibration_energies, evaluate_kinematic_q_matching, calculate_josephson_transfer_probability
 
 
 def cmd_kinematics(args):
@@ -886,6 +887,44 @@ def cmd_alaga(args):
             print(f"    Intrinsic Parameter |g_K - g_R| / Q_0 = {bm1_be2['abs_gK_minus_gR_over_Q0_muN_eb']:.4f} mu_N / (e b) (Spin I={args.I:.1f}, K={args.K:.1f})")
     print("=======================================================")
 
+
+def cmd_pairvib(args):
+    print("\n=======================================================")
+    print(" Two-Nucleon Transfer, Pairing Vibrations & Josephson Effect")
+    print("=======================================================")
+    if args.bcs_orbitals is not None:
+        pairs = [x.strip().split(":") for x in args.bcs_orbitals.split(",")]
+        orb_list = [(float(p[0]), float(p[1])) for p in pairs]
+        bcs = calculate_bcs_transfer_enhancement(orb_list)
+        print(f"  BCS Pair Transfer Superfluid Coherence ({bcs['orbitals_count']} active orbitals):")
+        print(f"    Coherent Amplitude A_coh     : {bcs['coherent_amplitude_A']:.4f}")
+        print(f"    Coherent Cross Section sigma : {bcs['sigma_coherent']:.3f} | Incoherent baseline: {bcs['sigma_incoherent']:.3f}")
+        print(f"    Collective Enhancement Factor: {bcs['enhancement_factor']:.2f}x single-particle expectation")
+
+    if args.s2n_plus is not None and args.s2n_core is not None:
+        pv = calculate_pairing_vibration_energies(args.s2n_plus, args.s2n_core)
+        print("-------------------------------------------------------")
+        print(f"  Closed-Shell Pairing Vibrational Spectrum (S2n(A+2)={args.s2n_plus:.2f}, S2n(A)={args.s2n_core:.2f} MeV):")
+        print(f"    Pair-Addition Mode Phonon hw+ : {pv['hw_plus_addition_phonon_MeV']:.3f} MeV (e.g. (t,p) on core)")
+        print(f"    Pair-Removal Mode Phonon hw-  : {pv['hw_minus_removal_phonon_MeV']:.3f} MeV (e.g. (p,t) on core)")
+        print(f"    Double-Phonon (1,1) State Ex  : {pv['Ex_double_phonon_1_1_MeV']:.3f} MeV (Collective 0+ vibrational state)")
+
+    if args.q_actual is not None and args.Elab is not None:
+        qm = evaluate_kinematic_q_matching(args.Elab, args.q_actual, args.Zp or 8, args.Ap or 18, args.Zt or 6, args.At or 12, args.Ze or 8, args.Ae or 16)
+        print("-------------------------------------------------------")
+        print(f"  Kinematic Q-Matching in Transfer (E_lab = {args.Elab:.1f} MeV, E_cm = {qm['E_cm_MeV']:.1f} MeV):")
+        print(f"    Optimal Q-Value Q_opt        : {qm['Q_optimal_MeV']:.2f} MeV | Actual Q = {qm['Q_actual_MeV']:.2f} MeV")
+        print(f"    Q-Mismatch                   : DeltaQ = {qm['Q_mismatch_MeV']:.2f} MeV")
+        print(f"    Transmission Status          : {qm['matching_status']}")
+
+    if args.p1_pair is not None:
+        jos = calculate_josephson_transfer_probability(args.p1_pair, n_pairs=args.npairs or 2, enhancement_factor=args.enh_j or 15.0)
+        print("-------------------------------------------------------")
+        print(f"  Nuclear Josephson Multi-Pair Tunneling ({jos['n_pairs']} pairs):")
+        print(f"    Uncorrelated Transfer Prob   : P_uncorr = {jos['P_uncorrelated']:.4e} ({args.p1_pair}^{jos['n_pairs']})")
+        print(f"    Superfluid Josephson Prob    : P_Joseph = {jos['P_Josephson']:.4e} (Enhancement: {jos['enhancement_factor']:.1f}x)")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1252,6 +1291,24 @@ def main():
     p_alaga.add_argument("--I", type=float, default=None, help="Initial state spin I for |gK-gR|/Q0 extraction")
     p_alaga.add_argument("--K", type=float, default=None, help="Band K value for |gK-gR|/Q0 extraction")
     p_alaga.set_defaults(func=cmd_alaga)
+
+    # Two-Nucleon Transfer & Pairing Vibrations
+    p_pv = subparsers.add_parser("pairvib", help="Two-nucleon transfer, pairing vibrations and nuclear Josephson supercurrent")
+    p_pv.add_argument("--bcs-orbitals", type=str, default=None, help="Comma-separated j:v2 pairs (e.g. 5.5:0.5,3.5:0.5,2.5:0.5)")
+    p_pv.add_argument("--s2n-plus", type=float, default=None, help="S_2n of nucleus A+2 in MeV")
+    p_pv.add_argument("--s2n-core", type=float, default=None, help="S_2n of closed-shell core A in MeV")
+    p_pv.add_argument("--Elab", type=float, default=None, help="Beam energy in MeV for Q-matching")
+    p_pv.add_argument("--q-actual", type=float, default=None, help="Actual reaction Q-value in MeV")
+    p_pv.add_argument("--Zp", type=int, default=8, help="Projectile Z (default: 8)")
+    p_pv.add_argument("--Ap", type=int, default=18, help="Projectile A (default: 18)")
+    p_pv.add_argument("--Zt", type=int, default=6, help="Target Z (default: 6)")
+    p_pv.add_argument("--At", type=int, default=12, help="Target A (default: 12)")
+    p_pv.add_argument("--Ze", type=int, default=8, help="Ejectile Z (default: 8)")
+    p_pv.add_argument("--Ae", type=int, default=16, help="Ejectile A (default: 16)")
+    p_pv.add_argument("--p1-pair", type=float, default=None, help="Single-pair transfer probability")
+    p_pv.add_argument("--npairs", type=int, default=2, help="Number of transferred pairs (default: 2)")
+    p_pv.add_argument("--enh-j", type=float, default=15.0, help="Josephson enhancement factor (default: 15.0)")
+    p_pv.set_defaults(func=cmd_pairvib)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

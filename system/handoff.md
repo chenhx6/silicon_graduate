@@ -6036,3 +6036,19 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `alaga` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **34 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Two-nucleon transfer reactions, pairing vibrations and nuclear Josephson effect 2026-11-02T07:30:00+08:00
+
+- Integrated two-nucleon transfer reactions, pairing vibrations, and nuclear Josephson supercurrent dynamics (`knowledge/concepts/two-nucleon-transfer-pairing-vibrations-and-josephson-dynamics.md`):
+  - Microscopic mechanism: $J^\\pi = 0^+, T=1$ Cooper-pair direct transfer probe of gauge-space symmetry breaking, deriving the massive BCS coherent enhancement factor $\\sigma_{\\text{coh}} / \\sigma_{\\text{incoh}} \\sim 15\\text{--}50\\times$ driven by constructive in-phase sum of active orbital amplitudes $\\sum_j \\sqrt{j+1/2} u_j v_j$.
+  - Bès-Broglia pairing vibrational field theory in closed-shell nuclei: pair addition phonon $\\hbar\\omega_+$ and pair removal phonon $\\hbar\\omega_-$, predicting the combined $(1, 1)$ double-phonon $0^+$ collective state at $E_x \\approx 4.99\\text{ MeV}$ in $^{208}\\text{Pb}$ (experimentally verified at $4.87\\text{ MeV}$).
+  - Kinematic $Q$-matching in heavy-ion transfer $(^{18}\\text{O}, {}^{16}	ext{O})$ vs $(p, t)$, explaining the experimental discovery of the Giant Pairing Vibration (GPV) at $E_x \\approx 20\\text{ MeV}$ in $^{14}\\text{C}$ by Cavallaro et al. (MAGNEX 2019).
+  - Nuclear Josephson effect: macroscopic tunneling of Cooper pairs across heavy superfluid nuclei ($^{120}\\text{Sn} + {}^{112}\\text{Sn}$), generating an exponential enhancement of multi-pair transfer probabilities.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/two_nucleon_transfer_pairing_vibration_calculator.py`:
+  - `calculate_bcs_transfer_enhancement`: coherent amplitude and enhancement factor over incoherent baseline;
+  - `calculate_pairing_vibration_energies`: pair addition, removal, and double-phonon $E_x(1, 1)$ spectrum;
+  - `evaluate_kinematic_q_matching`: optimal $Q_{\\text{opt}}$ and mismatch $\\Delta Q$;
+  - `calculate_josephson_transfer_probability`: multi-pair tunneling enhancement diagnostics.
+- Unified CLI integration: added `pairvib` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **a landmark 35 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.
