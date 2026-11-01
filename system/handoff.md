@@ -3,6 +3,13 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-03T06:00:00+08:00 (相互作用玻色子模型IBM/IBFM理论、Casten三角形与相变分析器落地)
+
+- **代数李群对称性与IBFM准粒子-声子耦合动力学闭环完成**：
+  - 沉淀前沿理论《相互作用玻色子模型（IBM/IBFM）动力学对称性、Casten三角形与形变相变》（阐述六维李代数 (6)$ 下的球形振动 (5)$、轴对称拉长转子 (3)$ 与 $\gamma$ 不稳定软核 (6)$ 极限及 Casten 三角形，推导 (6)$ 双重简并指纹与 pprox 130$ 区核芯软度，并解密 IBFM 中准粒子与 $\gamma$ 振动声子动力学耦合 $\gamma \otimes qp$ 伪装成横向摆动的微观机制）；
+  - 开发完成生产级相互作用玻色子模型动力学对称性判定与 R4/2 相变分析器（system/scripts/analysis/ibm_dynamical_symmetry_analyzer.py），集成至 nuclear_analyzer CLI 并通过 19 大模块全量自动化回归测试；
+  - 成功提交（commit 73298b88）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-03T04:00:00+08:00 (超形变SD/TSD微观动力学、J2平原检验与退激穿透模拟器落地)
 
 - **超大四极形变孤岛与量子隧穿脱落动力学闭环完成**：
