@@ -61,6 +61,7 @@ from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_
 from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplitudes, solve_analytic_single_mode_qrpa, scan_pnqrpa_gpp_sensitivity, diagnose_qrpa_stability
 from surface_delta_interaction_pandya_calculator import calculate_clebsch_gordan, calculate_wigner_6j, calculate_sdi_matrix_element, calculate_single_j_sdi_spectrum, perform_pandya_transformation, benchmark_sc42_k40_pandya
 from k_isomer_hindrance_calculator import calculate_k_forbiddenness, calculate_reduced_hindrance, model_triaxial_gamma_tunneling_hindrance, classify_isomer_mechanism
+from dipole_polarizability_neutron_skin_calculator import calculate_polarizability_from_sigma_minus2, integrate_dipole_polarizability_from_spectrum, droplet_model_polarizability_estimate, extract_neutron_skin_from_polarizability, extract_symmetry_energy_slope_L, predict_neutron_star_radius_from_L
 
 
 def cmd_kinematics(args):
@@ -1220,6 +1221,42 @@ def cmd_isomer(args):
         print(f"    Physical Origin               : {cls_info['physical_mechanism']}")
     print("=======================================================")
 
+
+def cmd_polariz(args):
+    print("\n=======================================================")
+    print(" Dipole Polarizability (alpha_D) & Neutron Skin Calculator")
+    print("=======================================================")
+    if args.sigma_m2 is not None:
+        pol = calculate_polarizability_from_sigma_minus2(args.sigma_m2)
+        print(f"  Photoabsorption Inverse Sum Rule: sigma_-2 = {args.sigma_m2:.2f} mb/MeV")
+        print(f"  Electric Dipole Polarizability  : alpha_D = {pol['alpha_D_fm3']:.3f} fm^3")
+        alpha_val = pol['alpha_D_fm3']
+    elif args.alpha_D is not None:
+        alpha_val = args.alpha_D
+        print(f"  Input Dipole Polarizability     : alpha_D = {alpha_val:.3f} fm^3")
+    else:
+        alpha_val = None
+
+    if alpha_val is not None:
+        target = args.target if args.target is not None else "208Pb"
+        skin = extract_neutron_skin_from_polarizability(alpha_val, target_nucleus=target)
+        l_res = extract_symmetry_energy_slope_L(skin['delta_r_np_fm'])
+        r_ns = predict_neutron_star_radius_from_L(l_res['L_slope_MeV'])
+        print("-------------------------------------------------------")
+        print(f"  Target Nucleus: {skin['target_nucleus']}")
+        print(f"    Neutron Skin Thickness Delta_r_np : {skin['delta_r_np_fm']:.3f} +/- {skin['uncertainty_fm']:.3f} fm")
+        print(f"    Symmetry Energy Slope Parameter L : {l_res['L_slope_MeV']:.1f} MeV")
+        print(f"    Pure Neutron Matter Pressure P_0  : {l_res['P_PNM_rho0_MeV_fm3']:.3f} MeV/fm^3 ({l_res['P_PNM_rho0_dyn_cm2']:.2e} dyn/cm^2)")
+        print(f"    Predicted 1.4 M_sun Neutron Star R: {r_ns['predicted_radius_R_NS_km']:.2f} km")
+
+    if args.droplet and args.A is not None and args.Z is not None:
+        drop = droplet_model_polarizability_estimate(args.A, args.Z, J_bulk_MeV=args.J or 32.0, Q_surf_MeV=args.Q or 35.0)
+        print("-------------------------------------------------------")
+        print(f"  Macroscopic Droplet Model Prediction for {args.A}Z({args.Z}):")
+        print(f"    Bulk Symmetry J = {drop['J_bulk_MeV']:.1f} MeV, Surface Q = {drop['Q_surf_MeV']:.1f} MeV")
+        print(f"    Droplet alpha_D = {drop['alpha_D_droplet_fm3']:.2f} fm^3")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1714,6 +1751,18 @@ def main():
     p_iso.add_argument("--seniority", action="store_true", help="Flag as potential seniority isomer")
     p_iso.add_argument("--shape-iso", action="store_true", help="Flag as potential shape/fission isomer")
     p_iso.set_defaults(func=cmd_isomer)
+
+    # Dipole Polarizability & Neutron Skin
+    p_pol = subparsers.add_parser("polariz", help="Electric dipole polarizability alpha_D, neutron skin and EOS slope L")
+    p_pol.add_argument("--sigma-m2", type=float, default=None, help="Inverse energy-weighted photoabsorption cross section in mb/MeV")
+    p_pol.add_argument("--alpha-D", type=float, default=None, help="Electric dipole polarizability in fm^3")
+    p_pol.add_argument("--target", type=str, default="208Pb", help="Target nucleus name (208Pb, 120Sn, 48Ca)")
+    p_pol.add_argument("--droplet", action="store_true", help="Compute droplet model polarizability estimate")
+    p_pol.add_argument("--A", type=int, default=None, help="Mass number A for droplet calculation")
+    p_pol.add_argument("--Z", type=int, default=None, help="Atomic number Z for droplet calculation")
+    p_pol.add_argument("--J", type=float, default=32.0, help="Bulk symmetry energy in MeV (default: 32.0)")
+    p_pol.add_argument("--Q", type=float, default=35.0, help="Surface symmetry stiffness in MeV (default: 35.0)")
+    p_pol.set_defaults(func=cmd_polariz)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

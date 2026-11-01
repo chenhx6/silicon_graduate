@@ -6215,3 +6215,21 @@ u}$ zero-crossing detection;
 - Unified CLI integration: added `isomer` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **a landmark 43 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Electric dipole polarizability, neutron skin and EOS slope L 2026-11-02T12:30:00+08:00
+
+- Integrated electric dipole polarizability ($\alpha_D$), neutron skin thickness ($\Delta r_{np}$), and symmetry energy slope ($L$) framework (`knowledge/concepts/electric-dipole-polarizability-neutron-skin-and-eos.md`):
+  - Inverse-energy-weighted sum rule: $\alpha_D = \frac{\hbar c}{2\pi^2} \sigma_{-2} = \frac{\hbar c}{2\pi^2} \int \frac{\sigma(E)}{E^2} dE$, benchmarked on the RCNP $^{208}\text{Pb}$ experimental standard $\alpha_D = 20.1 \pm 0.6\text{ fm}^3$ (Tamii 2011 PRL), $^{120}\text{Sn}$ ($8.59\text{ fm}^3$), and $^{48}\text{Ca}$ ($2.07\text{ fm}^3$).
+  - Linear covariance relation with neutron skin thickness: $\Delta r_{np}(^{208}\text{Pb}) \approx 0.0125 \cdot (\alpha_D - 7.5) = 0.156 \pm 0.024\text{ fm}$ (Roca-Maza 2011, Piekarewicz 2012), providing a factor-of-3 tighter precision than PREX-II parity-violating electron scattering.
+  - Constrained EOS symmetry energy slope parameter $L \approx 420.0 \cdot \Delta r_{np} - 20.0 \approx 45 \sim 50\text{ MeV}$ and pure neutron matter saturation pressure $P_{\text{PNM}}(\rho_0) \approx 2.46\text{ MeV/fm}^3$.
+  - Connected laboratory dipole polarizability to gravitational-wave neutron star mergers (GW170817) and NICER X-ray observations, predicting $R_{1.4M_\odot} \approx 12.0 \sim 12.5\text{ km}$.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/dipole_polarizability_neutron_skin_calculator.py`:
+  - `calculate_polarizability_from_sigma_minus2`: $\sigma_{-2}$ to $\alpha_D$ conversion;
+  - `integrate_dipole_polarizability_from_spectrum`: numerical trapezoidal integration of photoabsorption spectra;
+  - `droplet_model_polarizability_estimate`: droplet model $\alpha_D$ predictor;
+  - `extract_neutron_skin_from_polarizability`: $\Delta r_{np}$ inversion for $^{208}\text{Pb}, {}^{120}\text{Sn}, {}^{48}\text{Ca}$;
+  - `extract_symmetry_energy_slope_L`: $L$ slope and $P_{\text{PNM}}$ pressure calculator;
+  - `predict_neutron_star_radius_from_L`: $R_{\text{NS}}$ predictor.
+- Unified CLI integration: added `polariz` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **a landmark 44 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

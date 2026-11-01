@@ -75,6 +75,7 @@ from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_
 from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplitudes, solve_analytic_single_mode_qrpa, scan_pnqrpa_gpp_sensitivity, diagnose_qrpa_stability
 from surface_delta_interaction_pandya_calculator import calculate_clebsch_gordan, calculate_wigner_6j, calculate_sdi_matrix_element, calculate_single_j_sdi_spectrum, perform_pandya_transformation, benchmark_sc42_k40_pandya
 from k_isomer_hindrance_calculator import calculate_k_forbiddenness, calculate_reduced_hindrance, model_triaxial_gamma_tunneling_hindrance, classify_isomer_mechanism
+from dipole_polarizability_neutron_skin_calculator import calculate_polarizability_from_sigma_minus2, integrate_dipole_polarizability_from_spectrum, droplet_model_polarizability_estimate, extract_neutron_skin_from_polarizability, extract_symmetry_energy_slope_L, predict_neutron_star_radius_from_L
 
 
 def test_heavy_ion_kinematics():
@@ -925,6 +926,31 @@ def test_k_isomer_hindrance_calculator():
     assert "K-Isomer" in c1["classification"], "Should classify as K-isomer"
     print("  ✓ k_isomer_hindrance_calculator passed.")
 
+
+def test_dipole_polarizability_neutron_skin_calculator():
+    print("Testing dipole_polarizability_neutron_skin_calculator...")
+    # 208Pb polarizability from sigma_-2 = 20.1 mb/MeV
+    pol = calculate_polarizability_from_sigma_minus2(sigma_minus2_mb_MeV_inv=20.1)
+    assert abs(pol["alpha_D_fm3"] - 20.09) < 0.1, f"alpha_D mismatch: {pol['alpha_D_fm3']}"
+
+    # Neutron skin extraction: 208Pb
+    skin = extract_neutron_skin_from_polarizability(pol["alpha_D_fm3"], target_nucleus="208Pb")
+    assert abs(skin["delta_r_np_fm"] - 0.157) < 0.01, f"Skin mismatch: {skin['delta_r_np_fm']}"
+
+    # Symmetry energy slope L and pure neutron matter pressure
+    l_slope = extract_symmetry_energy_slope_L(skin["delta_r_np_fm"])
+    assert 40.0 < l_slope["L_slope_MeV"] < 55.0, f"Slope L out of range: {l_slope['L_slope_MeV']}"
+    assert l_slope["P_PNM_rho0_MeV_fm3"] > 2.0, "PNM pressure unexpectedly low"
+
+    # Neutron star radius prediction
+    r_ns = predict_neutron_star_radius_from_L(l_slope["L_slope_MeV"])
+    assert 11.5 < r_ns["predicted_radius_R_NS_km"] < 13.0, f"Neutron star radius out of range: {r_ns['predicted_radius_R_NS_km']}"
+
+    # Droplet model estimate
+    drop = droplet_model_polarizability_estimate(A=208, Z=82)
+    assert 22.0 < drop["alpha_D_droplet_fm3"] < 30.0, "Droplet alpha_D out of range"
+    print("  ✓ dipole_polarizability_neutron_skin_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -970,4 +996,5 @@ if __name__ == "__main__":
     test_qrpa_matrix_vibrational_calculator()
     test_surface_delta_interaction_pandya_calculator()
     test_k_isomer_hindrance_calculator()
-    print("ALL 43 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_dipole_polarizability_neutron_skin_calculator()
+    print("ALL 44 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
