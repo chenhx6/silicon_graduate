@@ -60,6 +60,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `decouple` | K=1/2 转动带解耦参数 a 与 A=hbar^2/2J 严格线性正规方程组反演及 Stephens-Simon 退耦带模拟 | 绝热转动近似下成立，大形变组态混合或三轴强进动需结合 PRM/TPSM |
 | `alpha` | Alpha 衰变 Gamow 势垒穿透概率 WKB 积分、离心势垒阻碍及 Viola-Seaborg 系统学反演 | 势垒穿透模型假设预成几率 S_alpha，微观多核子团簇需结合壳模型/EDF |
 | `triaxial` | 三轴核转子摆动（TW/LW）频率与临界自旋、Elena Lawrie 倾斜进动（TiP）判据及手征双带 B(M1)/B(E2) 奇偶交错 | 候选带必须具有显著 E2 优势方可定性为摆动；M1 主导时归属于单粒子进动或准粒子-γ 振动耦合 |
+| `feldman` | 小信号测量的 Feldman-Cousins 统一置信区间与物理边界反演（泊松本底与正态截断） | 假设本底严格平稳已知；本底含系统误差时需结合 Profile Likelihood |
+| `hpgefield` | HPGe 同轴探测器耗尽电压、电场分布、Shockley-Ramo 电荷收集、数字梯形平顶弹道亏损与 N 型/P 型快中子损伤调和 | 平面二维近似；闭端弹头区三维拐点需结合三维电荷漂移网格模拟 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -69,6 +71,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py fcoeff -i 7.5 -f 6.5 -d -0.1
 python3 system/scripts/analysis/nuclear_analyzer.py decouple --preset 169Tm --json
 python3 system/scripts/analysis/nuclear_analyzer.py alpha --preset 212Po --json
 python3 system/scripts/analysis/nuclear_analyzer.py triaxial --preset 135Pr --json
+python3 system/scripts/analysis/nuclear_analyzer.py feldman --preset faint_peak_2 --json
+python3 system/scripts/analysis/nuclear_analyzer.py hpgefield --preset standard_coaxial_ptype --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

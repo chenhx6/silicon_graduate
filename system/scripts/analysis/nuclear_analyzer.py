@@ -114,6 +114,8 @@ from directional_correlation_f_coefficients_calculator import calculate_angular_
 from decoupling_parameter_khalf_band_calculator import calculate_pure_j_decoupling_parameter, calculate_khalf_spectrum, invert_khalf_band_parameters, format_text_report as format_decouple_report
 from alpha_decay_gamow_wkb_calculator import calculate_gamow_factor_wkb, evaluate_alpha_hindrance, format_text_report as format_alpha_report
 from triaxial_wobbling_tip_chiral_analyzer import calculate_triaxial_rotor_moi_parameters, calculate_transverse_wobbling_spectrum, classify_tip_vs_phonon_wobbling, analyze_chiral_doublet_staggering, format_text_report as format_triaxial_report
+from feldman_cousins_unified_confidence_interval_calculator import calculate_poisson_fc_interval, calculate_gaussian_fc_interval, format_text_report as format_fc_report
+from hpge_coaxial_electric_field_ballistic_deficit_calculator import calculate_coaxial_depletion_and_field, calculate_shockley_ramo_collection, calculate_coaxial_ballistic_deficit, reconcile_neutron_damage_p_vs_n, format_text_report as format_hpgefield_report
 
 
 def cmd_kinematics(args):
@@ -2102,6 +2104,74 @@ def cmd_triaxial(args):
         print(format_triaxial_report(moi_res, tw_res, tip_res, chiral_res))
 
 
+def cmd_feldman(args):
+    n_val = args.n_obs
+    b_val = args.background
+    cl_val = args.cl
+    gx_val = args.gaussian_x
+
+    if args.preset == "rare_decay_0":
+        n_val, b_val, cl_val = 0, 3.0, 0.90
+    elif args.preset == "faint_peak_2":
+        n_val, b_val, cl_val = 2, 3.0, 0.90
+    elif args.preset == "significant_6":
+        n_val, b_val, cl_val = 6, 3.0, 0.90
+    elif args.preset == "gaussian_neg":
+        n_val, b_val, cl_val = 0, 3.0, 0.90
+        gx_val = -1.5
+
+    p_res = calculate_poisson_fc_interval(n_obs=n_val, background=b_val, cl=cl_val)
+    g_res = None
+    if gx_val is not None:
+        g_res = calculate_gaussian_fc_interval(x_obs=gx_val, sigma=1.0, cl=cl_val)
+
+    if args.json:
+        import json
+        out = {"poisson_feldman_cousins": p_res}
+        if g_res is not None:
+            out["gaussian_feldman_cousins"] = g_res
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_fc_report(p_res, g_res))
+
+
+def cmd_hpgefield(args):
+    r1_val = args.r1
+    r2_val = args.r2
+    n_imp = args.net_impurity
+    v_bias = args.v_bias
+    r0_val = args.r0
+    fluence = args.neutron_fluence
+    det_type = "p_type"
+
+    if args.preset == "standard_coaxial_ptype":
+        r1_val, r2_val, n_imp, v_bias, det_type = 5.0, 35.0, 3.0e9, 4000.0, "p_type"
+        r0_val = 25.0
+    elif args.preset == "reverse_electrode_ntype":
+        r1_val, r2_val, n_imp, v_bias, det_type = 5.0, 35.0, 3.0e9, 4000.0, "n_type"
+        r0_val = 25.0
+    elif args.preset == "large_clover_leaf":
+        r1_val, r2_val, n_imp, v_bias, det_type = 4.0, 25.0, 2.5e9, 3000.0, "n_type"
+        r0_val = 18.0
+
+    dep_res = calculate_coaxial_depletion_and_field(r1_val, r2_val, n_imp, v_bias, det_type)
+    ramo_res = calculate_shockley_ramo_collection(r0_val, r1_val, r2_val, det_type)
+    bal_res = calculate_coaxial_ballistic_deficit(ramo_res["total_collection_time_ns"])
+    neu_res = reconcile_neutron_damage_p_vs_n(fluence)
+
+    if args.json:
+        import json
+        out = {
+            "depletion_and_field": dep_res,
+            "shockley_ramo": ramo_res,
+            "ballistic_deficit": bal_res,
+            "neutron_damage_reconciliation": neu_res
+        }
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_hpgefield_report(dep_res, ramo_res, bal_res, neu_res))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3174,6 +3244,28 @@ def main():
     p_tri.add_argument("--j-single", type=float, default=6.5, help="Single particle angular momentum j (default: 6.5)")
     p_tri.add_argument("--json", action="store_true", help="Output pure JSON")
     p_tri.set_defaults(func=cmd_triaxial)
+
+    # Feldman-Cousins Unified Confidence Intervals
+    p_fc = subparsers.add_parser("feldman", help="Feldman-Cousins unified confidence intervals with physical boundaries (Zhu Yongsheng Ch 11)")
+    p_fc.add_argument("--preset", type=str, default="rare_decay_0", choices=["rare_decay_0", "faint_peak_2", "significant_6", "gaussian_neg"], help="Benchmark preset")
+    p_fc.add_argument("--n-obs", "-n", type=int, default=0, help="Observed count n_obs (default: 0)")
+    p_fc.add_argument("--background", "-b", type=float, default=3.0, help="Expected background b (default: 3.0)")
+    p_fc.add_argument("--cl", type=float, default=0.90, help="Confidence Level CL (default: 0.90)")
+    p_fc.add_argument("--gaussian-x", type=float, default=None, help="Evaluate Gaussian observable x")
+    p_fc.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_fc.set_defaults(func=cmd_feldman)
+
+    # HPGe Coaxial Electric Field, Depletion & Ballistic Deficit
+    p_hpf = subparsers.add_parser("hpgefield", help="HPGe coaxial electric field, depletion, Shockley-Ramo collection & ballistic deficit (Wu Ch 5 / Wang Ch 5)")
+    p_hpf.add_argument("--preset", type=str, default="standard_coaxial_ptype", choices=["standard_coaxial_ptype", "reverse_electrode_ntype", "large_clover_leaf"], help="Benchmark preset")
+    p_hpf.add_argument("--r1", type=float, default=5.0, help="Inner core radius in mm (default: 5.0)")
+    p_hpf.add_argument("--r2", type=float, default=35.0, help="Outer radius in mm (default: 35.0)")
+    p_hpf.add_argument("--net-impurity", type=float, default=3.0e9, help="Net impurity |N_A - N_D| in cm^-3 (default: 3.0e9)")
+    p_hpf.add_argument("--v-bias", type=float, default=4000.0, help="Bias voltage in V (default: 4000 V)")
+    p_hpf.add_argument("--r0", type=float, default=25.0, help="Interaction radius in mm (default: 25.0)")
+    p_hpf.add_argument("--neutron-fluence", type=float, default=2.0e9, help="Fast neutron fluence in n/cm^2 (default: 2.0e9)")
+    p_hpf.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_hpf.set_defaults(func=cmd_hpgefield)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

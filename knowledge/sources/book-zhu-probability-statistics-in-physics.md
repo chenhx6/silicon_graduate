@@ -62,6 +62,7 @@ tags: [books, experimental-statistics, error-propagation, parameter-estimation, 
 | ZHU-2 | 数据加权直方图拟合的下偏缺陷：当直方图道计数 $n_i$ 较小（$n_i \le 10$）时，以 $1/n_i$ 作为权重的 Neyman 最小二乘卡方拟合会受到向下涨落数据点的过度加权拉扯，导致拟合面积出现系统性负偏差。 | model-result | direct | 第 9 章 §9.5, 印刷 pp. 325–331 / PDF pp. 341–347 | false |
 | ZHU-3 | 小信号物理边界与 Feldman-Cousins 统一区间：当待测物理量受物理边界约束（$\mu \ge 0$）且伴随本底 $b$ 时，经典 Neyman 方法在 $n < b$ 时会出现无物理意义的负值或空集；基于似然比 $R(n) = P(n\|\mu+b)/P(n\|\mu_{\text{best}}+b)$ 顺序求和构造的 Feldman-Cousins 统一方法可自然平滑过渡并严格保证覆盖率。 | model-result | direct | 第 11 章 §11.1–11.2, 印刷 pp. 370–381 / PDF pp. 386–397 | false |
 | ZHU-4 | 复合假设似然比检验与 Wilks 定理：定义统计检验量 $\Delta\chi^2 = -2\ln[\mathcal{L}(H_0)/\mathcal{L}(\hat{H})]$；当零假设成立且满足大样本正则条件时，$\Delta\chi^2$ 渐近服从自由度为 $\nu$ 的 $\chi^2$ 分布，单自由度下统计显著度近似为 $Z \approx \sqrt{\Delta\chi^2}$。 | model-result | direct | 第 12 章 §12.2 与 §12.5, 印刷 pp. 394–398, 429–434 / PDF pp. 410–414, 445–450 | false |
+| ZHU-5 | Feldman-Cousins 似然比顺序求和统一置信区间：待测物理量受物理边界约束（$\mu \ge 0$）且伴随本底 $b$ 时，定义似然比 $R(n) = P(n|\mu+b)/P(n|\mu_{\text{best}}+b)$（其中 $\mu_{\text{best}} = \max(0, n-b)$）；按 $R$ 降序累加直至覆盖概率 $\ge \text{CL}$，严格消除空集与涵盖不足，在小计数下自动给出物理上限，大计数下自动平滑过渡为双侧区间。 | model-result | direct | 第 11 章 §11.2, 印刷 pp. 377–381 / PDF pp. 393–397, 式 (11.2.1)–(11.2.4) | false |
 
 ## Competing Interpretations and Limitations
 
@@ -70,6 +71,7 @@ tags: [books, experimental-statistics, error-propagation, parameter-estimation, 
 
 ## Extracted Pages
 
+- 印刷 pp. 370–381（PDF pp. 386–397）：小信号测量的经典边界困境、似然比顺序求和（Feldman-Cousins 统一方法）及正态/泊松置信带构造。
 - 印刷 pp. 242–262（PDF pp. 258–278）：极大似然法原理、Fisher 信息矩阵与剖面似然。
 - 印刷 pp. 325–331（PDF pp. 341–347）：最小二乘法应用于直方图数据及数据加权偏差。
 - 印刷 pp. 370–381（PDF pp. 386–397）：小信号测量的经典边界困境与 Feldman-Cousins 似然比排序构造。

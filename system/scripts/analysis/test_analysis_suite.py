@@ -128,6 +128,8 @@ from directional_correlation_f_coefficients_calculator import calculate_f_coeffi
 from decoupling_parameter_khalf_band_calculator import calculate_pure_j_decoupling_parameter, calculate_khalf_spectrum, invert_khalf_band_parameters
 from alpha_decay_gamow_wkb_calculator import calculate_gamow_factor_wkb, evaluate_alpha_hindrance
 from triaxial_wobbling_tip_chiral_analyzer import calculate_triaxial_rotor_moi_parameters, calculate_transverse_wobbling_spectrum, classify_tip_vs_phonon_wobbling, analyze_chiral_doublet_staggering
+from feldman_cousins_unified_confidence_interval_calculator import calculate_poisson_fc_interval, calculate_gaussian_fc_interval
+from hpge_coaxial_electric_field_ballistic_deficit_calculator import calculate_coaxial_depletion_and_field, calculate_shockley_ramo_collection, calculate_coaxial_ballistic_deficit, reconcile_neutron_damage_p_vs_n
 
 
 def test_heavy_ion_kinematics():
@@ -1639,6 +1641,44 @@ def test_directional_correlation_f_coefficients_calculator():
     print("  ✓ directional_correlation_f_coefficients_calculator passed.")
 
 
+def test_feldman_cousins_unified_confidence_interval_calculator():
+    print("Testing feldman_cousins_unified_confidence_interval_calculator...")
+    # 1. Poisson b=0.0 benchmarks (Feldman-Cousins Table IV)
+    p0 = calculate_poisson_fc_interval(n_obs=0, background=0.0, cl=0.90)
+    assert p0["fc_interval_lower"] == 0.0
+    assert abs(p0["fc_interval_upper"] - 2.435) < 0.05, "Poisson b=0 n=0 upper limit ~ 2.44"
+
+    # 2. Poisson b=3.0 benchmarks (Zhu Yongsheng Table 10.2)
+    p3 = calculate_poisson_fc_interval(n_obs=0, background=3.0, cl=0.90)
+    assert p3["fc_interval_lower"] == 0.0
+    assert p3["fc_interval_upper"] < 1.15, "Poisson b=3 n=0 upper limit ~ 0.95 - 1.08"
+
+    # 3. Gaussian observable benchmark with boundary mu >= 0 (Feldman-Cousins Table X)
+    g_neg = calculate_gaussian_fc_interval(x_obs=-1.5, sigma=1.0, cl=0.90)
+    assert g_neg["mu_fc_lower"] == 0.0
+    assert abs(g_neg["mu_fc_upper"] - 0.555) < 0.05, "Gaussian x=-1.5 upper limit ~ 0.55"
+    print("  ✓ feldman_cousins_unified_confidence_interval_calculator passed.")
+
+
+def test_hpge_coaxial_electric_field_ballistic_deficit_calculator():
+    print("Testing hpge_coaxial_electric_field_ballistic_deficit_calculator...")
+    # 1. Depletion voltage and electric field
+    dep = calculate_coaxial_depletion_and_field(r1_mm=5.0, r2_mm=35.0, N_net_cm3=3.0e9, V_bias_V=4000.0)
+    assert abs(dep["depletion_voltage_V"] - 3026.0) < 10.0, "HPGe depletion voltage ~ 3026 V"
+    assert dep["is_fully_depleted"] is True
+    assert dep["is_velocity_saturated"] is True
+
+    # 2. Shockley-Ramo collection times
+    ramo = calculate_shockley_ramo_collection(r0_mm=25.0, r1_mm=5.0, r2_mm=35.0)
+    assert abs(ramo["total_collection_time_ns"] - 200.0) < 5.0, "HPGe collection time at r0=25mm"
+    assert abs(ramo["max_possible_collection_time_ns"] - 300.0) < 5.0, "Max collection time"
+
+    # 3. Ballistic deficit: flat-top immunity
+    bal = calculate_coaxial_ballistic_deficit(tc_ns=200.0, flat_top_ns=800.0)
+    assert bal["trapezoidal_ballistic_deficit_pct"] == 0.0, "Digital trapezoid flat-top immunity"
+    print("  ✓ hpge_coaxial_electric_field_ballistic_deficit_calculator passed.")
+
+
 def test_triaxial_wobbling_tip_chiral_analyzer():
     print("Testing triaxial_wobbling_tip_chiral_analyzer...")
     # 1. Triaxial MOI & kappa
@@ -1787,4 +1827,6 @@ if __name__ == "__main__":
     test_decoupling_parameter_khalf_band_calculator()
     test_alpha_decay_gamow_wkb_calculator()
     test_triaxial_wobbling_tip_chiral_analyzer()
+    test_feldman_cousins_unified_confidence_interval_calculator()
+    test_hpge_coaxial_electric_field_ballistic_deficit_calculator()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

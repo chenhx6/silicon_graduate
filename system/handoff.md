@@ -6466,3 +6466,36 @@ u}$ zero-crossing detection;
 - Updated skill cheatsheet `.agents/skills/nuclear-triaxial-chirality-wobbling/cheatsheet.md` with Lawrie Table 6.1 and TW formulas.
 - Added unit test suite `system/tests/test_triaxial_wobbling_tip_chiral.py` (5 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to 96 modules, passing cleanly in 3.0s.
+
+### Feldman-Cousins Unified Confidence Intervals with Physical Boundaries (Module 97) 2026-11-03T02:20:00+08:00
+
+- Integrated Feldman-Cousins Unified Confidence Intervals with Physical Boundaries ($\mu \ge 0$) for Poisson and Gaussian observables (`feldman_cousins_unified_confidence_interval_calculator.py`):
+  - Based on G. J. Feldman & R. D. Cousins (Phys. Rev. D 57, 3873, 1998) and 朱永生《实验物理中的概率和统计（第二版）》第 11 章 (印刷 pp. 370–383 / PDF pp. 386–399):
+    * Generalized likelihood ratio ordering: $R(n \mid \mu) = P(n \mid \mu + b) / P(n \mid \mu_{\text{best}} + b)$ where $\mu_{\text{best}} = \max(0, n - b)$.
+    * Accumulates rank-ordered probabilities until $\sum_r P(n_r \mid \mu + b) \ge \text{CL}$, constructing the horizontal confidence belt.
+    * Eliminates unphysical negative signal boundaries and empty sets from classical Neyman construction.
+    * Smooth automatic transition: reports strict Upper Limit when $n_{\text{obs}} \le b$, and two-sided confidence interval when $n_{\text{obs}} > b$, completely avoiding flip-flopping undercoverage.
+  - Benchmarks:
+    * Poisson $b=0.0, \text{CL}=90\%$: verified $n=0 \to [0.00, 2.44], n=1 \to [0.11, 4.36], n=2 \to [0.53, 5.91], n=3 \to [1.10, 7.42]$, matching Table IV of Feldman & Cousins (1998) to within $0.01$.
+    * Poisson $b=3.0, \text{CL}=90\%$: verified $n=0 \to [0.00, 0.95]$ (upper limit) and $n=6 \to [0.16, 8.46]$ (two-sided interval), matching Zhu Yongsheng Table 10.2 / Fig. 11.7.
+    * Gaussian $x \sim \mathcal{N}(\mu, \sigma=1), \mu \ge 0, \text{CL}=90\%$: verified $x=-2.0 \to [0.00, 0.40], x=-1.5 \to [0.00, 0.55], x=0.0 \to [0.00, 1.64], x=2.0 \to [0.58, 3.64]$, matching Feldman-Cousins Table X and Zhu Fig. 11.8 to 2 decimal places.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `feldman`.
+- Created concept page: `knowledge/concepts/feldman-cousins-unified-confidence-intervals-with-physical-boundaries.md`.
+- Updated source card `knowledge/sources/book-zhu-probability-statistics-in-physics.md` with ZHU-5 entry and locators.
+- Added unit test suite `system/tests/test_feldman_cousins_unified.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 97.
+
+### HPGe Coaxial Electric Field, Shockley-Ramo Pulse Formation & Ballistic Deficit (Module 98) 2026-11-03T02:45:00+08:00
+
+- Integrated HPGe Coaxial Detector Electric Field, Depletion Voltage, Shockley-Ramo Induced Current, Ballistic Deficit and N-type/P-type Fast-Neutron Radiation Hardness Reconciler (`hpge_coaxial_electric_field_ballistic_deficit_calculator.py`):
+  - Based on 吴治华《原子核物理实验方法》第 5 章, 汪晓莲等《粒子探测技术》第 5 章, and Nakhostin《辐射探测器信号处理》第 1, 4 章:
+    * Coaxial depletion voltage: $V_{\text{dep}} = \frac{e|N_A - N_D|}{2\varepsilon}[r_2^2 \ln(r_2/r_1) - \frac{1}{2}(r_2^2 - r_1^2)]$.
+    * Electric field $E(r)$ under overbias $V_{\text{bias}} \ge 1.3 V_{\text{dep}}$, verifying $E(r) \ge 10^3\text{ V/cm}$ throughout the active volume for drift velocity saturation ($v_s \approx 10^5\text{ m/s}$ at $77\text{ K}$).
+    * Shockley-Ramo charge collection time profile: $t_c(r_0) = \max(t_e, t_h)$ with maximum collection time $t_{c,\max} = (r_2 - r_1)/v_s \approx 200 - 400\text{ ns}$.
+    * Ballistic deficit: analog Gaussian shaper suffers quadratic attenuation $\sim \frac{1}{12}(t_c/\tau)^2$, whereas digital trapezoidal filtering with flat-top $T_{\text{flat}} \ge t_{c,\max}$ achieves exact zero ballistic deficit ($0.000\%$).
+    * Neutron damage reconciler: demonstrates that N-type (reverse electrode) HPGe has $10 - 20\times$ higher fast-neutron tolerance ($\Phi_n \sim 1 - 2 \times 10^{10}\text{ n/cm}^2$) than P-type ($\Phi_n \sim 10^9\text{ n/cm}^2$) because hole drift distances near the outer entrance window are minimal, suppressing vacancy cluster trapping.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `hpgefield`.
+- Created concept page: `knowledge/concepts/hpge-coaxial-electric-field-shockley-ramo-and-ballistic-deficit.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-5 entry and locators.
+- Added unit test suite `system/tests/test_hpge_coaxial_field_ballistic_deficit.py` (6 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to 98 modules, passing cleanly in 3.9s.

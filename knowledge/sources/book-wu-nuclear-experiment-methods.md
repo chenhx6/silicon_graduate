@@ -62,6 +62,7 @@ tags: [books, experimental-nuclear-physics, hpge-detectors, gamma-spectroscopy, 
 | WU-2 | 常规同轴与倒置电极 HPGe 电场与漂移：P 型常规同轴探测器外电极为 $n^+$（锂扩散）、内电极为 $p^+$（硼注入），外加正偏压，正电荷空穴向中心内电极漂移；N 型倒置电极探测器外层为薄 $p^+$ 接触，外加负偏压，空穴向外表面漂移。中子辐照产生的空穴陷阱严重影响电荷收集效率。 | model-result | direct | 第 5 章 §5.4, 印刷 pp. 144–148 / PDF pp. 152–156, 图 5.6–5.8 | false |
 | WU-3 | 在束 $\gamma-\gamma$ 二维符合矩阵投影与 3 点背景扣除：门谱净截面采用 $S(E) = P(E) - f_B [B_L(E) + B_R(E)]$，权重因子为峰门宽度与左右本底门宽度之比 $f_B = w_{\text{peak}} / (w_L + w_R)$，有效消除康普顿散射连续谱本底。 | method/formalism | direct | 第 10 章 §10.3 与 §10.6, 印刷 pp. 265–273, 285–292 / PDF pp. 273–281, 293–300 | false |
 | WU-4 | 激发态皮秒寿命测量（RDM 与 DSAM）：反冲距离多普勒法（RDM）通过调节靶与阻挡箔间距离 $d$ 测量未移位峰与移位峰比值测定 $1\text{ ps} \sim 1\text{ ns}$ 寿命；多普勒频移衰减法（DSAM）利用反冲核在衬底介质中的慢化阻止过程测定 $10\text{ fs} \sim 1\text{ ps}$ 寿命。 | experimental-criterion | direct | 第 15 章 §15.2, 印刷 pp. 422–448 / PDF pp. 430–456 | false |
+| WU-5 | HPGe 同轴探测器耗尽电压与电荷收集：耗尽电压 $V_{\text{dep}} = \frac{e|N_A - N_D|}{2\varepsilon}[r_2^2 \ln(r_2/r_1) - \frac{1}{2}(r_2^2 - r_1^2)]$；工作高压必须超高压过偏置（$V_{\text{bias}} \ge 1.3 V_{\text{dep}}$）以实现全灵敏体积载流子漂移饱和速度（$v_s \approx 10^7\text{ cm/s}$）；电荷收集时间弥散引起的弹道亏损在数字梯形滤波平顶 $T_{\text{flat}} \ge t_{c,\max}$ 条件下完全消除。 | model-result | direct | 第 5 章 §5.4, 印刷 pp. 144–148 / PDF pp. 152–156 | false |
 
 ## Competing Interpretations and Limitations
 
