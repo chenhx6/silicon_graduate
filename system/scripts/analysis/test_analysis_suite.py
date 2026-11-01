@@ -20,6 +20,7 @@ Tests:
   15. tpsm_band_diagram_calculator: checks 3D projected energy, band crossing Ic, and alignment.
   16. octupole_parity_doublet_calculator: checks parity splitting delta_E, B(E1)/B(E2), and intrinsic D0.
   17. signature_inversion_analyzer: checks signature splitting Delta_E, inversion crossing I_inv, and S(I).
+  18. superdeformation_decayout_calculator: checks SD/TSD J2 plateau flatness and decay-out barrier tunneling.
 """
 
 import sys
@@ -42,6 +43,7 @@ from coulex_kumar_invariant_calculator import calculate_safe_coulex_energy, reor
 from tpsm_band_diagram_calculator import calculate_effective_moi_tpsm, generate_tpsm_band_diagram
 from octupole_parity_doublet_calculator import calculate_parity_splitting, calculate_b_e1_over_b_e2, extract_intrinsic_dipole_moment
 from signature_inversion_analyzer import calculate_staggering_parameter_s, calculate_signature_splitting, detect_inversion_crossing
+from superdeformation_decayout_calculator import evaluate_superdeformation_flatness, model_decayout_tunneling
 
 
 def test_heavy_ion_kinematics():
@@ -292,6 +294,19 @@ def test_signature_inversion_analyzer():
     print("  ✓ signature_inversion_analyzer passed.")
 
 
+def test_superdeformation_decayout_calculator():
+    print("Testing superdeformation_decayout_calculator...")
+    gammas = [780.0, 840.0, 900.0, 960.0, 1020.0]
+    flat = evaluate_superdeformation_flatness(gammas)
+    assert flat["is_superdeformed"] == True, "Should identify SD plateau"
+    assert flat["relative_std_percent"] < 1.0, f"RSD error: {flat['relative_std_percent']}"
+    spins = [20.0, 22.0, 24.0]
+    intens = [0.1, 0.9, 1.0]
+    dec = model_decayout_tunneling(spins, intens, gammas[:3])
+    assert dec["I_decay"] == 20.0, f"Decay spin error: {dec['I_decay']}"
+    print("  ✓ superdeformation_decayout_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -311,4 +326,5 @@ if __name__ == "__main__":
     test_tpsm_band_diagram_calculator()
     test_octupole_parity_doublet_calculator()
     test_signature_inversion_analyzer()
-    print("ALL 17 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_superdeformation_decayout_calculator()
+    print("ALL 18 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

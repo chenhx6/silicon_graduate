@@ -35,6 +35,7 @@ from coulex_kumar_invariant_calculator import calculate_safe_coulex_energy, reor
 from tpsm_band_diagram_calculator import calculate_effective_moi_tpsm, generate_tpsm_band_diagram
 from octupole_parity_doublet_calculator import calculate_parity_splitting, calculate_b_e1_over_b_e2, extract_intrinsic_dipole_moment, estimate_octupole_beta3
 from signature_inversion_analyzer import calculate_staggering_parameter_s, calculate_signature_splitting, detect_inversion_crossing
+from superdeformation_decayout_calculator import evaluate_superdeformation_flatness, model_decayout_tunneling
 
 
 def cmd_kinematics(args):
@@ -354,6 +355,28 @@ def cmd_inversion(args):
     print("=======================================================")
 
 
+def cmd_sd(args):
+    gammas = [float(x.strip()) for x in args.gammas.split(",")]
+    flat = evaluate_superdeformation_flatness(gammas)
+    print("\n=======================================================")
+    print(" Superdeformation (SD/HD/TSD) Plateau & Decay-Out")
+    print("=======================================================")
+    print(f"  Input Cascade           : {len(gammas)} transitions ({gammas[0]:.1f} -> {gammas[-1]:.1f} keV)")
+    print(f"  Mean J2 Moment of Inert : {flat['mean_J2_hbar2_per_MeV']:.2f} hbar^2/MeV (std = {flat['std_J2']:.2f})")
+    print(f"  J2 Relative Std (RSD)   : {flat['relative_std_percent']:.2f}%")
+    print(f"  Plateau Classification  : {flat['classification']}")
+
+    if args.spins and args.intensities:
+        s_arr = [float(x.strip()) for x in args.spins.split(",")]
+        i_arr = [float(x.strip()) for x in args.intensities.split(",")]
+        dec = model_decayout_tunneling(s_arr, i_arr, gammas[:len(s_arr)], Qt_sd_eb=args.Qt)
+        print("-------------------------------------------------------")
+        print(f"  Critical Decay-out Spin : I_decay = {dec['I_decay']:.1f} hbar (E_decay = {dec['E_decay_keV']:.1f} keV)")
+        print(f"  In-band SD B(E2)        : {dec['in_band_B_E2_eb2']:.2f} e^2 b^2 (Qt = {args.Qt:.1f} e*b)")
+        print(f"  Estimated Tunnel Width  : Gamma_tunnel = {dec['estimated_Gamma_tunnel_eV']:.2e} eV")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -515,6 +538,14 @@ def main():
     p_inv.add_argument("--unfav_spins", type=str, required=True, help="Unfavored band spins (e.g. 9,11,13,15)")
     p_inv.add_argument("--unfav_energies", type=str, required=True, help="Unfavored band energies in keV")
     p_inv.set_defaults(func=cmd_inversion)
+
+    # Superdeformation & Decay-Out
+    p_sd = subparsers.add_parser("sd", help="Superdeformation J2 plateau flatness and decay-out tunneling")
+    p_sd.add_argument("--gammas", type=str, required=True, help="Comma-separated list of cascade gamma energies in keV")
+    p_sd.add_argument("--spins", type=str, default="", help="Comma-separated list of spins corresponding to low transitions")
+    p_sd.add_argument("--intensities", type=str, default="", help="Relative cascade intensities (e.g. 0.05,0.4,0.9,1.0)")
+    p_sd.add_argument("--Qt", type=float, default=7.5, help="Assumed SD transition quadrupole moment Qt in e*b")
+    p_sd.set_defaults(func=cmd_sd)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
