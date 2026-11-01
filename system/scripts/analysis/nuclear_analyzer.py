@@ -43,6 +43,7 @@ from internal_conversion_bricc_calculator import calculate_bricc_icc, calculate_
 from vacuum_deorientation_calculator import calculate_attenuation_factors, correct_measured_angular_distribution
 from tidal_wave_dynamics_calculator import calculate_tidal_wave_kinematics, test_b_e2_linear_scaling, reconstruct_dynamic_beta2
 from gamow_teller_ikeda_quenching_calculator import calculate_ikeda_sum_rule, evaluate_ga_quenching, convert_cross_section_to_b_gt
+from halo_breakup_momentum_calculator import calculate_hansen_jonson_fwhm, invert_separation_energy_from_fwhm, calculate_goldhaber_width, diagnose_halo_signature, calculate_cluster_soft_e1_sum_rule, estimate_matter_radius_from_reaction_cross_section
 
 
 def cmd_kinematics(args):
@@ -545,6 +546,46 @@ def cmd_gt(args):
         print(f"  Extracted Microscopic B(GT): {b_gt['B_GT']:.3f}")
     print("=======================================================")
 
+
+def cmd_halo(args):
+    print("\n=======================================================")
+    print(" Neutron Halo, Borromean Breakup & Soft E1 Analyzer")
+    print("=======================================================")
+    if args.fwhm is not None:
+        inv = invert_separation_energy_from_fwhm(args.fwhm, A_core=args.Ac, A_halo=args.Ah)
+        gold = calculate_goldhaber_width(args.Ac + args.Ah, args.Ac)
+        diag = diagnose_halo_signature(args.fwhm, gold["fwhm_Goldhaber_MeV_c"])
+        print(f"  Measured Fragment FWHM   : {args.fwhm:.2f} MeV/c")
+        print(f"  Extracted Separation S_n : {inv['extracted_S_n_keV']:.1f} keV")
+        print(f"  Asymptotic Decay Length  : {inv['decay_length_fm']:.2f} fm")
+        print(f"  Goldhaber Normal FWHM    : {gold['fwhm_Goldhaber_MeV_c']:.2f} MeV/c (Core Fermi motion)")
+        print(f"  Narrowing Factor         : {gold['fwhm_Goldhaber_MeV_c'] / args.fwhm:.2f}x narrower than core")
+        print(f"  Halo Signature Diagnosis : {diag['diagnosis']}")
+    elif args.sn is not None:
+        fwd = calculate_hansen_jonson_fwhm(args.sn, A_core=args.Ac, A_halo=args.Ah)
+        gold = calculate_goldhaber_width(args.Ac + args.Ah, args.Ac)
+        diag = diagnose_halo_signature(fwd["fwhm_MeV_c"], gold["fwhm_Goldhaber_MeV_c"])
+        print(f"  Input Separation S_n     : {args.sn:.1f} keV")
+        print(f"  Predicted Breakup FWHM   : {fwd['fwhm_MeV_c']:.2f} MeV/c")
+        print(f"  Asymptotic Decay Length  : {fwd['decay_length_fm']:.2f} fm")
+        print(f"  Goldhaber Normal FWHM    : {gold['fwhm_Goldhaber_MeV_c']:.2f} MeV/c")
+        print(f"  Halo Signature Diagnosis : {diag['diagnosis']}")
+
+    if args.sigma_r is not None:
+        rad = estimate_matter_radius_from_reaction_cross_section(args.sigma_r, A_p=args.Ac + args.Ah, A_t=args.At)
+        print("-------------------------------------------------------")
+        print(f"  Reaction Cross Section   : {args.sigma_r:.1f} mb on target A_t={args.At:.0f}")
+        print(f"  Extracted Projectile Rrms: {rad['R_rms_projectile_fm']:.2f} fm")
+        print(f"  Standard Core Reference  : {rad['R_rms_normal_reference_fm']:.2f} fm")
+        print(f"  Relative Radius Increase : +{rad['relative_radius_expansion_percent']:.1f}%")
+
+    if args.Zc is not None:
+        soft = calculate_cluster_soft_e1_sum_rule(args.Zc, args.Ac, args.Zh, args.Ah, r_rms_halo_fm=args.r_halo)
+        print("-------------------------------------------------------")
+        print(f"  Cluster Soft E1 Dipole   : B(E1)_cluster = {soft['B_E1_cluster_sum_e2_fm2']:.3f} e^2 fm^2 (r_halo = {args.r_halo:.1f} fm)")
+        print(f"  Effective Dipole Charge  : e_eff = {soft['e_eff']:.3f} e")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -789,6 +830,19 @@ def main():
     p_gt.add_argument("--dsigma", type=float, default=None, help="Forward (0 deg) dsigma/dOmega in mb/sr")
     p_gt.add_argument("--sigma-hat", type=float, default=None, help="Reaction unit cross section sigma_hat in mb/sr")
     p_gt.set_defaults(func=cmd_gt)
+
+    # Halo Nuclei Breakup & Soft E1
+    p_halo = subparsers.add_parser("halo", help="Neutron halo breakup momentum distribution and soft E1 analyzer")
+    p_halo.add_argument("--fwhm", type=float, default=None, help="Measured fragment longitudinal momentum FWHM in MeV/c")
+    p_halo.add_argument("--sn", type=float, default=None, help="Valence separation energy S_n or S_2n in keV")
+    p_halo.add_argument("--Ac", type=float, default=9.0, help="Core mass number A_core (default: 9.0 for 11Li core 9Li)")
+    p_halo.add_argument("--Ah", type=float, default=2.0, help="Halo mass number A_halo (default: 2.0 for 11Li halo 2n)")
+    p_halo.add_argument("--Zc", type=int, default=3, help="Core charge number Z_core (default: 3)")
+    p_halo.add_argument("--Zh", type=int, default=0, help="Halo charge number Z_halo (default: 0 for neutron halo)")
+    p_halo.add_argument("--r-halo", type=float, default=5.5, help="Estimated halo rms radius in fm")
+    p_halo.add_argument("--sigma-r", type=float, default=None, help="High-energy reaction cross section in mb")
+    p_halo.add_argument("--At", type=float, default=12.0, help="Target mass number (default: 12.0 for carbon target)")
+    p_halo.set_defaults(func=cmd_halo)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

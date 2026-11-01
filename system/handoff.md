@@ -5875,3 +5875,22 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `gt` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to 25 scientific analysis modules, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Halo nuclei, Borromean systems and breakup momentum dynamics 2026-11-02T03:00:00+08:00
+
+- Internalized exotic drip-line physics, weakly bound quantum tunneling and Borromean topology from Heyde Ch. 15, Bertulani Ch. 11, and Ye Yanlin《Nuclear Physics》Ch. 10 (`knowledge/concepts/halo-nuclei-borromean-systems-and-breakup-dynamics.md`):
+  - Quantum tunneling & spatial extension: vanishing Coulomb ($V_C=0$) and centrifugal barrier ($l=0$) in $s$-wave neutrons leading to asymptotic Yukawa tail $\psi(r) \propto e^{-\kappa r}/r$ and astronomical RMS matter radii (e.g. $^{11}\text{Be}$ $R_m \approx 7\text{ fm}$).
+  - Shell parity inversion in $^{11}\text{Be}$ ($J^\pi = 1/2^+$ ground state, $2s_{1/2}$) and Borromean three-body topology in $^{11}\text{Li} = {}^9\text{Li} + n + n$ ($S_{2n} = 369\text{ keV}$, non-bound two-body subsystems).
+  - Breakup reaction kinematics & Hansen-Jonson Lorentzian-squared momentum distribution: derived $\Gamma_{\text{FWHM}} = 2\sqrt{\sqrt{2}-1}\sqrt{2\mu S_n} \approx 1.287\sqrt{2\mu S_n}$, demonstrating extreme momentum narrowing ($\approx 43\text{ MeV}/c$ for $^{11}\text{Li}$) vs Goldhaber normal Fermi motion ($\approx 284\text{ MeV}/c$).
+  - Cluster soft E1 dipole mode (Pigmy resonance) exhausting low-energy cluster TRK sum rule.
+  - Optical-limit Glauber model inversion of reaction cross sections $\sigma_R$ to measure anomalous halo radii (Tanihata 1985).
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/halo_breakup_momentum_calculator.py`:
+  - `calculate_hansen_jonson_fwhm`: forward calculation of breakup momentum FWHM and asymptotic decay length from $S_n$;
+  - `invert_separation_energy_from_fwhm`: inverse extraction of valence binding energy from measured fragment momentum width;
+  - `calculate_goldhaber_width`: baseline normal Fermi motion calculation;
+  - `diagnose_halo_signature`: quantitative halo diagnosis against core Fermi motion;
+  - `calculate_cluster_soft_e1_sum_rule`: cluster TRK soft E1 dipole sum rule;
+  - `estimate_matter_radius_from_reaction_cross_section`: Glauber geometric reaction cross section inversion.
+- Unified CLI integration: added `halo` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to 26 scientific analysis modules, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

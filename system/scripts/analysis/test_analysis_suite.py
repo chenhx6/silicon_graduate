@@ -57,6 +57,7 @@ from internal_conversion_bricc_calculator import calculate_bricc_icc, calculate_
 from vacuum_deorientation_calculator import calculate_attenuation_factors, correct_measured_angular_distribution
 from tidal_wave_dynamics_calculator import calculate_tidal_wave_kinematics, test_b_e2_linear_scaling, reconstruct_dynamic_beta2
 from gamow_teller_ikeda_quenching_calculator import calculate_ikeda_sum_rule, evaluate_ga_quenching, convert_cross_section_to_b_gt
+from halo_breakup_momentum_calculator import calculate_hansen_jonson_fwhm, invert_separation_energy_from_fwhm, calculate_goldhaber_width, diagnose_halo_signature, calculate_cluster_soft_e1_sum_rule, estimate_matter_radius_from_reaction_cross_section
 
 
 def test_heavy_ion_kinematics():
@@ -415,6 +416,35 @@ def test_gamow_teller_ikeda_quenching_calculator():
     assert abs(cs["B_GT"] - 5.0) < 1e-5
     print("  ✓ gamow_teller_ikeda_quenching_calculator passed.")
 
+
+def test_halo_breakup_momentum_calculator():
+    print("Testing halo_breakup_momentum_calculator...")
+    # 11Li: S_2n = 369 keV, Ac=9, Ah=2
+    hj = calculate_hansen_jonson_fwhm(S_n_keV=369.0, A_core=9.0, A_halo=2.0)
+    assert 40.0 < hj["fwhm_MeV_c"] < 46.0, f"Expected FWHM ~43 MeV/c, got {hj['fwhm_MeV_c']}"
+    assert 5.0 < hj["decay_length_fm"] < 6.5, f"Expected decay length ~5.8 fm, got {hj['decay_length_fm']}"
+
+    # Inversion test
+    inv = invert_separation_energy_from_fwhm(fwhm_MeV_c=hj["fwhm_MeV_c"], A_core=9.0, A_halo=2.0)
+    assert abs(inv["extracted_S_n_keV"] - 369.0) < 0.1, f"Inversion mismatch: {inv['extracted_S_n_keV']}"
+
+    # Goldhaber baseline comparison
+    gold = calculate_goldhaber_width(A_projectile=11.0, A_fragment=9.0, sigma_0_MeV_c=90.0)
+    assert gold["fwhm_Goldhaber_MeV_c"] > 250.0, "Goldhaber width should be > 250 MeV/c"
+
+    diag = diagnose_halo_signature(hj["fwhm_MeV_c"], gold["fwhm_Goldhaber_MeV_c"])
+    assert diag["is_halo_signature"] == True, "Should identify prominent halo"
+
+    # Soft E1 cluster sum rule
+    soft = calculate_cluster_soft_e1_sum_rule(Z_core=3, A_core=9.0, Z_halo=0, A_halo=2.0, r_rms_halo_fm=5.5)
+    assert soft["B_E1_cluster_sum_e2_fm2"] > 1.0, "Cluster soft E1 sum should be large"
+
+    # Glauber matter radius inversion
+    rad = estimate_matter_radius_from_reaction_cross_section(sigma_R_mb=1060.0, A_p=11.0, A_t=12.0)
+    assert rad["R_rms_projectile_fm"] > 2.7, "11Li matter radius should be > 2.7 fm"
+    assert rad["relative_radius_expansion_percent"] > 25.0, "Radius expansion should be > 25%"
+    print("  ✓ halo_breakup_momentum_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -442,4 +472,5 @@ if __name__ == "__main__":
     test_vacuum_deorientation_calculator()
     test_tidal_wave_dynamics_calculator()
     test_gamow_teller_ikeda_quenching_calculator()
-    print("ALL 25 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_halo_breakup_momentum_calculator()
+    print("ALL 26 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
