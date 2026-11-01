@@ -3,6 +3,20 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T20:30:00+08:00 (Wigner 9j符号L-S/j-j变换、GT淬灭Delta异质态、在束自旋取向衰减、r过程Saha等待点与摆动混合比相位等5大分析器落地，85模块闭环)
+
+- **全域核物理理论与在束实验分析系统化闭环拓展（80 -> 85 模块）**：
+  - **模块 81**：Wigner-Racah 角动量代数、Wigner $9j$ 符号与 $L-S$ 到 $j-j$ 壳模型重耦合计算器（`wigner_racah_algebra_9j_calculator.py`），通过三重 $6j$ 符号收缩严格代数求解四个角动量重耦合，验证单零项退化恒等式，计算两核子表象变换矩阵元 $\langle jj | LS; J \rangle$；
+  - **模块 82**：电荷交换 Gamow-Teller 巨共振 Ikeda 求和规则淬灭与 $\Delta(1232)$ 异质态解卷积计算器（`charge_exchange_gt_quenching_calculator.py`），量化 $(p, n)$ 零度角峰区仅观测到 $56\%$ 强度的物理根源，分解亚核子 $\Delta_{33}$ 夸克翻转混合（推移至 $300\text{ MeV}$）与二阶 $2p-2h$ 张量连续谱弥散，重整化介质有效耦合 $g_A^{\text{eff}} \approx 0.95$；
+  - **模块 83**：在束核自旋取向衰减系数（$\alpha_2, \alpha_4$）与磁子能级分布 $\sigma_m/I$ 反演计算器（`alignment_attenuation_coefficients_calculator.py`），基于 Yamazaki 高斯磁子分布推导取向衰减因子 $\alpha_k$，并利用已知纯延伸 $E2$ 跃迁实测 $a_2$ 作为内标温度计精确反演真实打靶取向宽度 $\sigma_m / I$；
+  - **模块 84**：天体物理 $r$-过程 $(n, \gamma) \rightleftharpoons (\gamma, n)$ 化学统计平衡、等待点丰度与太阳峰生成模拟器（`r_process_waiting_point_flow_calculator.py`），求解高温高密千新星中子风暴下的 Saha 详细平衡，推导特征等待点中子分离能 $S_n^0 \approx 3.056\text{ MeV}$，解析展现中子闭壳（$N=50, 82, 126$）断崖式滞留铸就三大丰度主峰（$A \sim 80, 130, 195$）的物理本质；
+  - **模块 85**：原子核摆动运动 $\Delta I=1$ 多极混合比 $\delta(E2/M1)$ 相位符号法则与 TW/LW 诊断计算器（`wobbling_branching_ratio_phase_calculator.py`），基于 Frauendorf-Dönau 2014 微观理论求解横向摆动大混合比（$|\delta| \gg 1.0, f_{E2} > 80\%$）与 $(g_j - g_R)$ 正负符号约束，结合实验 DCO 双实数根排他性裁决真横向摆动带，彻底消除签名伙伴带伪摆动假象；
+  - **知识大脑与测试全绿**：
+    - 撰写 5 篇权威概念专论，更新 `knowledge/index.md`；
+    - 升级 `nuclear-spectroscopy-and-structure-master-field-manual.md` 为 85 模块完整闭环指南；
+    - 统一 CLI `nuclear_analyzer.py` 新增 `w9j`, `gtq`, `atten`, `rflow`, `wobphase` 子命令；
+    - `test_analysis_suite.py` 自动化回归测试扩展至 **85 大科学分析模块 100% 绿灯全通**！
+
 ## Active checkpoint — 2026-11-02T19:30:00+08:00 (量子角动量投影AMP、自旋偶极SDR、符合矩阵切片、Nolen-Schiffer反常、多声子摆动与RMF对称能斜率L等6大分析器落地，80模块闭环)
 
 - **全域核物理理论与在束实验分析系统化闭环拓展（74 -> 80 模块）**：

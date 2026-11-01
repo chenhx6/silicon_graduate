@@ -1,15 +1,15 @@
 ---
 type: synthesis
-title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的80模块完整闭环指南"
-aliases: [核谱学实战全书, 核结构专家工作手册, 80模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
+title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的85模块完整闭环指南"
+aliases: [核谱学实战全书, 核结构专家工作手册, 85模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
 created: 2026-11-02
 updated: 2026-11-02
 status: active
 review_status: unreviewed
-topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 80-modules-suite, expert-field-manual]
+topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 85-modules-suite, expert-field-manual]
 ---
 
-# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的80模块完整闭环指南
+# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的85模块完整闭环指南
 
 ## 1. 宣言与专家心智模型：大模型如何以世界级核物理学家身份工作
 
@@ -25,9 +25,9 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
 
 ---
 
-## 2. 七大科研实战阶段与 80 大科学分析模块调用图谱
+## 2. 七大科研实战阶段与 85 大科学分析模块调用图谱
 
-本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **80 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
+本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **85 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
 
 ```text
  [Phase 1: 实验提案与反应动力学]
@@ -66,6 +66,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ dco        ── DCO 比值与 Clover 康普顿线偏振分析
    │ ado        ── 特征探测环 ADO 与线偏振二维似然扫描
    │ stats      ── 协方差误差矩阵传播、低计数 Baker-Cousins 似然与双根仲裁
+   │ atten      ── 在束核自旋取向衰减系数 (alpha_2, alpha_4) 与 sigma/I 反演
    │ rdds       ── 反冲距离多普勒频移 (RDDS) 柱塞法皮秒寿命与 DDCM
    │ gk         ── Nilsson 内禀 g_K 因子、磁偶极矩 mu 与 B(M1)/B(E2) 分支比反演
    │ effcharge  ── 核芯微观极化率、GQR 耦合与核子有效电荷 (e_p_eff, e_n_eff)
@@ -91,6 +92,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ rmfdef     ── 轴对称四极约束 RMF 势能曲线、NL3 参数集与中子皮形变
    │ pes        ── 5D Bohr 集体哈密顿四极势能面 (PES) 与 gamma 软度比值
    │ wobbling   ── Davydov-Filippov 转子、横向/纵向摆动模型与伪摆动排他性证伪
+   │ wobphase   ── 摆动运动 Delta_I=1 混合比 delta(E2/M1) 相位符号与 TW/LW 诊断
    │ chiral     ── 3D TAC 倾斜轴推转手征几何、非共面体积度规与四项裁判
    │ chvibe     ── 手征双阱集体势、WKB 量子隧穿劈裂 Delta_E(I) 与相变演化
    │ mwob       ── 多声子摆动运动 (nw = 0,1,2)、非简谐参数与选择定则审计
@@ -99,7 +101,9 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ ibm        ── 相互作用玻色子模型与 Casten 三角形相变
    ▼
  [Phase 7: 滴线物理、微观泛函与核天体前沿]
+   │ w9j        ── Wigner-Racah 9j 符号与 L-S 到 j-j 壳模型重耦合系数
    │ gt         ── 伽莫夫-泰勒巨共振、Ikeda 求和与 gA 介质淬灭
+   │ gtq        ── Gamow-Teller Ikeda 求和规则淬灭与 Delta 异质态解卷积
    │ sdr        ── 自旋-偶极巨共振 (SDR) 0-,1-,2- 多极分解与中子皮求和规则
    │ halo       ── 中子晕核 Hansen-Jonson 动量宽与软 E1 共振
    │ fission    ── 双峰裂变势垒、Hill-Wheeler 穿透与超重核合成
@@ -114,6 +118,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ radioact   ── 质子滴线单质子 WKB、Goldanskii 真双质子与团簇放射性
    │ beta       ── 相对论 beta 衰变相空间 f(Z,Q)、log(ft) 与超允许 CVC 检验
    │ dbd        ── 无中微子双贝塔衰变 (0nu-beta-beta) NME 与马约拉纳质量
+   │ rflow      ── 天体物理 r-过程等待点 (n,gamma)-(gamma,n) 平衡与丰度峰
    │ wigner     ── Wigner 超多重态 SU(4) 对称性与 N=Z 质量尖点维格纳能
 ```
 
@@ -415,7 +420,22 @@ python3 system/scripts/analysis/nuclear_analyzer.py mwob --hw 320.0 --delta-anha
 # 79. RMF 核物质对称能 S(rho) 与斜率 L
 python3 system/scripts/analysis/nuclear_analyzer.py rmfeos --model DD_ME2
 
-# 80. 全套 80 大模块自动化回归自测 (100% 绿灯)
+# 80. Wigner 9j 符号与 L-S 到 j-j 壳模型重耦合
+python3 system/scripts/analysis/nuclear_analyzer.py w9j --recouple-demo
+
+# 81. Gamow-Teller Ikeda 淬灭与 Delta 异质态
+python3 system/scripts/analysis/nuclear_analyzer.py gtq -Z 82 -A 208
+
+# 82. 在束核自旋取向衰减与 sigma/I 反演
+python3 system/scripts/analysis/nuclear_analyzer.py atten -I 6.0
+
+# 83. 天体物理 r-过程等待点与丰度平衡
+python3 system/scripts/analysis/nuclear_analyzer.py rflow -Z 48 --T9 1.5
+
+# 84. 摆动混合比 delta(E2/M1) 相位与 TW/LW 诊断
+python3 system/scripts/analysis/nuclear_analyzer.py wobphase -I 15.5 -j 5.5 --eg 720.0 --q0 5.0 --root1 -0.15 --root2 3.10
+
+# 85. 全套 85 大模块自动化回归自测 (100% 绿灯)
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

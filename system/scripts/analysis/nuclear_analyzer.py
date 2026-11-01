@@ -98,6 +98,11 @@ from gamma_gamma_matrix_slicer_calculator import generate_synthetic_cascade_matr
 from nolen_schiffer_isospin_anomaly_calculator import calculate_theoretical_coulomb_displacement, evaluate_nolen_schiffer_anomaly, format_text_report as format_nsa_report
 from multiphonon_wobbling_anharmonic_calculator import evaluate_multiphonon_wobbling_energies, audit_multiphonon_wobbling_candidate, format_text_report as format_mwob_report
 from rmf_symmetry_energy_slope_calculator import calculate_rmf_symmetry_energy, scan_symmetry_energy_curve, format_text_report as format_rmfeos_report
+from wigner_racah_algebra_9j_calculator import wigner_9j, calculate_ls_to_jj_recoupling, format_text_report as format_w9j_report
+from charge_exchange_gt_quenching_calculator import deconvolve_gt_quenching, format_text_report as format_gtq_report
+from alignment_attenuation_coefficients_calculator import calculate_alignment_attenuation_factors, invert_sigma_over_I_from_stretched_e2, format_text_report as format_align_report
+from r_process_waiting_point_flow_calculator import calculate_isotopic_saha_equilibrium, format_text_report as format_rflow_report
+from wobbling_branching_ratio_phase_calculator import calculate_theoretical_wobbling_delta, compare_wobbling_with_experimental_roots, format_text_report as format_wobphase_report
 
 
 def cmd_kinematics(args):
@@ -1782,6 +1787,68 @@ def cmd_rmfeos(args):
     else:
         print(format_rmfeos_report(summary))
 
+def cmd_w9j(args):
+    val_9j = wigner_9j(args.j1, args.j2, args.j12, args.j3, args.j4, args.j34, args.j13, args.j24, args.total_j)
+    summary = {
+        "j1": args.j1, "j2": args.j2, "j12": args.j12, "j3": args.j3, "j4": args.j4, "j34": args.j34,
+        "j13": args.j13, "j24": args.j24, "J": args.total_j, "wigner_9j_value": round(val_9j, 6)
+    }
+    if args.recouple_demo or (args.j1 == 1.0 and args.j2 == 0.5):
+        summary["recoupling"] = calculate_ls_to_jj_recoupling(1, 0.5, 1.5, 1, 0.5, 1.5, 2, 0, 2)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_w9j_report(summary))
+
+
+def cmd_gtq(args):
+    summary = deconvolve_gt_quenching(args.Z, args.A, args.s_minus, args.s_plus, args.g_delta)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_gtq_report(summary))
+
+
+def cmd_align(args):
+    att_res = calculate_alignment_attenuation_factors(args.spin, args.sigma_i)
+    summary = {"attenuation": att_res}
+    if args.invert or args.a2_exp != 0.28:
+        summary["inversion"] = invert_sigma_over_I_from_stretched_e2(args.a2_exp, args.spin, args.a2_max)
+    elif args.spin == 6.0:
+        summary["inversion"] = invert_sigma_over_I_from_stretched_e2(0.28, 6.0, 0.357)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_align_report(summary))
+
+
+def cmd_rflow(args):
+    A_vals = [126, 127, 128, 129, 130, 131, 132, 133]
+    Sn_vals = [4.8, 3.8, 4.2, 3.2, 3.0, 1.2, 1.5, 0.9]
+    summary = calculate_isotopic_saha_equilibrium(args.Z, A_vals, Sn_vals, args.T9, args.nn)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_rflow_report(summary))
+
+
+def cmd_wobphase(args):
+    th_res = calculate_theoretical_wobbling_delta(args.spin, args.spinj, args.gamma, args.eg, args.q0, args.gj, args.gr, args.mode)
+    summary = {"theory": th_res}
+    if args.root1 is not None and args.root2 is not None:
+        summary["root_comparison"] = compare_wobbling_with_experimental_roots(th_res["theoretical_delta_E2_M1"], args.root1, args.root2)
+    elif args.spin == 15.5:
+        summary["root_comparison"] = compare_wobbling_with_experimental_roots(th_res["theoretical_delta_E2_M1"], -0.15, 3.10)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_wobphase_report(summary))
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -2674,6 +2741,64 @@ def main():
     p_reos.add_argument("--rho", type=float, default=0.153, help="Density in fm^-3 (default: 0.153)")
     p_reos.add_argument("--json", action="store_true", help="Output results in JSON format")
     p_reos.set_defaults(func=cmd_rmfeos)
+
+    # Wigner 9j Symbol & L-S to j-j Recoupling
+    p_w9j = subparsers.add_parser("w9j", help="Wigner 9j symbol and L-S to j-j shell model recoupling calculator")
+    p_w9j.add_argument("--j1", type=float, default=1.0, help="j1 (default: 1.0)")
+    p_w9j.add_argument("--j2", type=float, default=0.5, help="j2 (default: 0.5)")
+    p_w9j.add_argument("--j12", type=float, default=1.5, help="j12 (default: 1.5)")
+    p_w9j.add_argument("--j3", type=float, default=1.0, help="j3 (default: 1.0)")
+    p_w9j.add_argument("--j4", type=float, default=0.5, help="j4 (default: 0.5)")
+    p_w9j.add_argument("--j34", type=float, default=1.5, help="j34 (default: 1.5)")
+    p_w9j.add_argument("--j13", type=float, default=2.0, help="j13 (default: 2.0)")
+    p_w9j.add_argument("--j24", type=float, default=1.0, help="j24 (default: 1.0)")
+    p_w9j.add_argument("-J", "--total-j", type=float, default=2.0, help="Total J (default: 2.0)")
+    p_w9j.add_argument("--recouple-demo", action="store_true", help="Run classic L-S to j-j demo")
+    p_w9j.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_w9j.set_defaults(func=cmd_w9j)
+
+    # Gamow-Teller Ikeda Quenching & Delta-Isobar
+    p_gtq = subparsers.add_parser("gtq", help="Gamow-Teller Ikeda sum rule quenching and Delta-isobar mixing analyzer")
+    p_gtq.add_argument("-Z", type=int, default=82, help="Proton number Z (default: 82)")
+    p_gtq.add_argument("-A", type=int, default=208, help="Mass number A (default: 208)")
+    p_gtq.add_argument("--s-minus", type=float, default=None, help="Measured peak S_- strength")
+    p_gtq.add_argument("--s-plus", type=float, default=0.0, help="Measured S_+ strength (default: 0.0)")
+    p_gtq.add_argument("--g-delta", type=float, default=0.60, help="Landau-Migdal parameter (default: 0.60)")
+    p_gtq.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_gtq.set_defaults(func=cmd_gtq)
+
+    # In-Beam Alignment Attenuation & Substate Width
+    p_aln = subparsers.add_parser("atten", help="In-beam spin alignment attenuation factors (alpha_2, alpha_4) and sigma/I inverter")
+    p_aln.add_argument("-I", "--spin", type=float, default=6.0, help="Initial spin I in hbar (default: 6.0)")
+    p_aln.add_argument("--sigma-i", type=float, default=0.30, help="Assumed sigma_m / I width (default: 0.30)")
+    p_aln.add_argument("--invert", action="store_true", help="Invert alignment width from measured a2")
+    p_aln.add_argument("--a2-exp", type=float, default=0.28, help="Measured a2 of stretched E2")
+    p_aln.add_argument("--a2-max", type=float, default=0.357, help="Theoretical a2_max")
+    p_aln.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_aln.set_defaults(func=cmd_align)
+
+    # Astrophysical r-Process Waiting Point Abundance
+    p_rfl = subparsers.add_parser("rflow", help="Astrophysical r-process waiting point abundance and (n,gamma)-(gamma,n) equilibrium")
+    p_rfl.add_argument("-Z", type=int, default=48, help="Element proton number Z (default: 48)")
+    p_rfl.add_argument("--T9", type=float, default=1.5, help="Temperature in 10^9 K (default: 1.5)")
+    p_rfl.add_argument("--nn", type=float, default=1.0e24, help="Neutron density in cm^-3 (default: 1e24)")
+    p_rfl.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_rfl.set_defaults(func=cmd_rflow)
+
+    # Wobbling Mixing Ratio delta(E2/M1) & Phase Sign
+    p_wbp = subparsers.add_parser("wobphase", help="Wobbling Delta_I=1 mixing ratio delta(E2/M1), phase sign and TW/LW diagnostic")
+    p_wbp.add_argument("-I", "--spin", type=float, default=15.5, help="Wobbling state spin I in hbar (default: 15.5)")
+    p_wbp.add_argument("-j", "--spinj", type=float, default=5.5, help="Quasiparticle spin j in hbar (default: 5.5)")
+    p_wbp.add_argument("--gamma", type=float, default=26.0, help="Triaxial angle gamma in degrees (default: 26.0)")
+    p_wbp.add_argument("--eg", type=float, default=720.0, help="Transition energy in keV (default: 720.0)")
+    p_wbp.add_argument("--q0", type=float, default=5.0, help="Transition quadrupole moment in eb (default: 5.0)")
+    p_wbp.add_argument("--gj", type=float, default=1.25, help="Quasiparticle g_j factor (default: 1.25)")
+    p_wbp.add_argument("--gr", type=float, default=0.40, help="Rotational g_R factor (default: 0.40)")
+    p_wbp.add_argument("--mode", type=str, default="TW", choices=["TW", "LW"], help="Mode: TW or LW")
+    p_wbp.add_argument("--root1", type=float, default=None, help="Experimental DCO root 1")
+    p_wbp.add_argument("--root2", type=float, default=None, help="Experimental DCO root 2")
+    p_wbp.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_wbp.set_defaults(func=cmd_wobphase)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

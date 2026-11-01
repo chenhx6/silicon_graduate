@@ -30,6 +30,7 @@ Tests:
 """
 
 import sys
+import math
 import numpy as np
 
 from heavy_ion_kinematics import calculate_kinematics, doppler_shift, doppler_broadening
@@ -112,6 +113,11 @@ from gamma_gamma_matrix_slicer_calculator import generate_synthetic_cascade_matr
 from nolen_schiffer_isospin_anomaly_calculator import evaluate_nolen_schiffer_anomaly
 from multiphonon_wobbling_anharmonic_calculator import evaluate_multiphonon_wobbling_energies, audit_multiphonon_wobbling_candidate
 from rmf_symmetry_energy_slope_calculator import calculate_rmf_symmetry_energy, scan_symmetry_energy_curve
+from wigner_racah_algebra_9j_calculator import wigner_9j, calculate_ls_to_jj_recoupling
+from charge_exchange_gt_quenching_calculator import deconvolve_gt_quenching
+from alignment_attenuation_coefficients_calculator import calculate_alignment_attenuation_factors, invert_sigma_over_I_from_stretched_e2
+from r_process_waiting_point_flow_calculator import calculate_waiting_point_separation_energy, calculate_isotopic_saha_equilibrium
+from wobbling_branching_ratio_phase_calculator import calculate_theoretical_wobbling_delta, compare_wobbling_with_experimental_roots
 
 
 def test_heavy_ion_kinematics():
@@ -1467,6 +1473,64 @@ def test_rmf_symmetry_energy_slope_calculator():
     assert len(curve) > 10, "Density scan check"
     print("  ✓ rmf_symmetry_energy_slope_calculator passed.")
 
+
+def test_wigner_racah_algebra_9j_calculator():
+    print("Testing wigner_racah_algebra_9j_calculator...")
+    # Zero-entry 9j identity: 9j(1 1 2; 1 1 2; 2 2 0) = 1/150 ~ 0.006667
+    val_zero = wigner_9j(1.0, 1.0, 2.0, 1.0, 1.0, 2.0, 2.0, 2.0, 0.0)
+    assert abs(val_zero - 1.0 / 150.0) < 1e-6, f"9j zero-entry reduction failed: {val_zero}"
+
+    rec = calculate_ls_to_jj_recoupling(1, 0.5, 1.5, 1, 0.5, 1.5, 2, 0, 2)
+    assert abs(rec["recoupling_coefficient"] - 1.0 / math.sqrt(3.0)) < 1e-5, "LS to jj recoupling bracket check"
+    assert abs(rec["recoupling_probability"] - 1.0 / 3.0) < 1e-5, "Recoupling probability check"
+    print("  ✓ wigner_racah_algebra_9j_calculator passed.")
+
+
+def test_charge_exchange_gt_quenching_calculator():
+    print("Testing charge_exchange_gt_quenching_calculator...")
+    res = deconvolve_gt_quenching(Z=82, A=208)
+    assert res["ikeda_sum_rule_3N_minus_Z"] == 132, "Ikeda sum rule for 208Pb must be 132"
+    assert 50.0 < res["peak_observed_fraction"] < 65.0, "Observed peak fraction check"
+    assert 10.0 < res["delta_isobar_quenching_fraction"] < 25.0, "Delta isobar fraction check"
+    assert res["effective_axial_coupling_g_A_eff"] < 1.10, "In-medium g_A must be quenched"
+    print("  ✓ charge_exchange_gt_quenching_calculator passed.")
+
+
+def test_alignment_attenuation_coefficients_calculator():
+    print("Testing alignment_attenuation_coefficients_calculator...")
+    att = calculate_alignment_attenuation_factors(spin_I=6.0, sigma_over_I=0.30)
+    assert 0.70 < att["alpha_2_attenuation"] < 0.90, "alpha_2 attenuation factor check"
+    assert att["alpha_4_attenuation"] < att["alpha_2_attenuation"], "alpha_4 must be smaller than alpha_2"
+
+    inv = invert_sigma_over_I_from_stretched_e2(a2_measured=0.28, spin_I=6.0, a2_max_theoretical=0.357)
+    assert 0.25 < inv["inverted_sigma_over_I"] < 0.35, "Inverted sigma/I sanity check"
+    print("  ✓ alignment_attenuation_coefficients_calculator passed.")
+
+
+def test_r_process_waiting_point_flow_calculator():
+    print("Testing r_process_waiting_point_flow_calculator...")
+    s_n_0 = calculate_waiting_point_separation_energy(temperature_T9=1.5, neutron_density_cm3=1.0e24)
+    assert 2.0 < s_n_0 < 4.0, f"Waiting point S_n^0 out of expected r-process range: {s_n_0}"
+
+    A_vals = [126, 127, 128, 129, 130, 131, 132, 133]
+    Sn_vals = [4.8, 3.8, 4.2, 3.2, 3.0, 1.2, 1.5, 0.9]
+    res_saha = calculate_isotopic_saha_equilibrium(Z_element=48, A_list=A_vals, S_n_list=Sn_vals, temperature_T9=1.5, neutron_density_cm3=1.0e24)
+    assert res_saha["waiting_point_isotope_A"] in [129, 130], "Waiting point should stall at 129Cd/130Cd"
+    print("  ✓ r_process_waiting_point_flow_calculator passed.")
+
+
+def test_wobbling_branching_ratio_phase_calculator():
+    print("Testing wobbling_branching_ratio_phase_calculator...")
+    th = calculate_theoretical_wobbling_delta(spin_I=15.5, spin_j=5.5, gamma_deg=26.0, E_gamma_keV=720.0, Q_0_eb=5.0, g_j=1.25, g_R=0.40, wobbling_mode="TW")
+    assert th["theoretical_delta_E2_M1"] > 1.5, "TW must have large mixing ratio"
+    assert "Positive" in th["phase_sign"], "Phase sign for proton must be positive"
+    assert th["E2_multipolarity_fraction_percent"] > 70.0, "E2 fraction must dominate"
+
+    comp = compare_wobbling_with_experimental_roots(th["theoretical_delta_E2_M1"], root_1_exp=-0.15, root_2_exp=3.10)
+    assert comp["is_wobbling_confirmed"], "Must confirm Root 2 match"
+    assert comp["selected_matching_root"] == "Root 2", "Should select positive large Root 2"
+    print("  ✓ wobbling_branching_ratio_phase_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -1549,4 +1613,9 @@ if __name__ == "__main__":
     test_nolen_schiffer_isospin_anomaly_calculator()
     test_multiphonon_wobbling_anharmonic_calculator()
     test_rmf_symmetry_energy_slope_calculator()
-    print("ALL 80 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_wigner_racah_algebra_9j_calculator()
+    test_charge_exchange_gt_quenching_calculator()
+    test_alignment_attenuation_coefficients_calculator()
+    test_r_process_waiting_point_flow_calculator()
+    test_wobbling_branching_ratio_phase_calculator()
+    print("ALL 85 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
