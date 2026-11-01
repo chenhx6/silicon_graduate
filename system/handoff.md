@@ -3,6 +3,13 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-03T12:00:00+08:00 (内转换系数ICC、BrIcc参数化与转换电子强度修正分析器落地)
+
+- **内转换电子微观物理与跃迁多极性鉴别闭环完成**：
+  - 沉淀前沿实战指南《原子核内转换系数（ICC）、多极性鉴别与 BrIcc 参数化计算指南》（解构单极场对束缚壳层电子的相对论微扰，推导 , L$ 及总内转换系数 $lpha_{	ext{tot}}$ 对多极性与能量的剧烈依赖性，建立 +E2$ 混合跃迁内转换与总跃迁强度纠偏公式 {	ext{tot}} = I_\gamma(1 + lpha_{	ext{tot}})$）；
+  - 开发完成生产级原子核内转换系数（ICC）与 BrIcc 参数化计算器（system/scripts/analysis/internal_conversion_bricc_calculator.py），集成至 nuclear_analyzer CLI 并通过 22 大模块全量自动化回归测试；
+  - 成功提交（commit 1f263f9e）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-03T10:00:00+08:00 (侧馈送时间延迟动力学、顶门符合与DSAM多普勒解卷积分析器落地)
 
 - **在束级联前导衰变与寿命测量解卷积闭环完成**：
