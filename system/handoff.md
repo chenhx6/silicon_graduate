@@ -1,7 +1,18 @@
 ---
 graph-excluded: true
-updated: 2026-11-01
+updated: 2026-11-02
 ---
+
+## Active checkpoint — 2026-11-02T00:00:00+08:00 (2B Token 广泛深入研学开启与首批重大资产落地)
+
+- **用户宏大授权与目标开启**：用户授予 2B tokens 预算，启动“广泛深入学习核物理与低能核结构领域全域知识，重点攻克三轴形变与激发模式前沿、核结构理论基石、在束谱学实验设计与解冲突、数字信号处理与实验数据统计分析，实现全库知识贯穿并转化为生产级资产与核结构专家工作流”的长期研究目标。
+- **全量专著吸收完成**：
+  - 20 部核心专著建立完整可追溯 Source 卡（Petrache 2024, 卢希庭, Bohr-Mottelson I/II, Frauendorf 2001, 林承键, 吴治华, 朱永生, Nakhostin, Greiner, Jain, Suhonen, Hamilton, Bertulani, IAEA RIPL-2, 熊博文 ADNDT, Möller 2019, Raduta, Behnke, Bonamente, FRIB 等）；
+  - 17 篇长卷专业概念与方法巨著落成（涵盖三轴形变集体模式统一全书、手征与摆动五道门裁判法典、在束谱学实验设计全链条手册、吴治华 vs 汪晓莲解冲突指南、微观张量代数、DF刚性转子模型、同核异能态K阻碍度、现代DPP数字滤波算法、角分布双根退化破除、Profile Likelihood高级统计、滴线FRIB前沿与FRDM形变数据库）；
+  - 生产级零外部依赖 Python 分析工具套件（heavy_ion_kinematics, angular_distribution_solver, digital_trapezoidal_filter, gamma_peak_fitting, nuclear_analyzer）通过全量单元测试（test_analysis_suite.py）；
+  - 打造三轴手征与摆动模式专属 Agent 技能（.agents/skills/nuclear-triaxial-chirality-wobbling）并全局链接；
+  - 确立系统级《低能核结构专家工作准则与认知协议》（system/nuclear-structure-expert-protocol.md），全面融入 knowledge/index.md。
+- **Git 发布状态**：已显式提交（commit 73630485）并成功推送到 Gitee 远端（chx6/silicon_graduate:main），工作树干净，六类目录与 QMD 索引 100% 验证合规。
 
 ## Active checkpoint — 2026-11-01T08:33:45+08:00
 
