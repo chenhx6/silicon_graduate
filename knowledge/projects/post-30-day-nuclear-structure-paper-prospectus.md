@@ -217,7 +217,8 @@ Zobel 1983 表格包含同一实验室在不同能量下的测量系列，需按
   - $^{131}\text{Ce}$ (中国原子能科学研究院 CIAE HI-13 串列实验): 在束谱学确立高自旋能级纲图与多极性，对称性夹抱 $N=74$ 三轴核芯 $^{132}\text{Ce}$；
   - PDM 偏振-方向关联方法 (Chen, Guo et al., *NST* 审稿中): 解决无预设 $\sigma/I$ 下非对称误差传递问题；
 - Alwaleedi 2013 博士论文 ([[alwaleedi-2013-band-structures-131ce]]): 建立 $^{131}\text{Ce}$ Bands 1–7 骨架（但存在 $\delta=0$ 条件假设）；
-- NuclearMap JCNP PC-PK1 PES 先验 ([[nuclearmap-jcnp-pc-pk1]]): 提供 $^{132}\text{Ce}$ 与 $^{134}\text{Ce}$ 的微观三轴能面先验。
+- NuclearMap JCNP PC-PK1 PES 先验 ([[nuclearmap-jcnp-pc-pk1]]): 提供 $^{132}\text{Ce}$ 与 $^{134}\text{Ce}$ 的微观三轴能面先验；
+- 私有分析工作簿逐单元格反演研究笔记 ([[133ce-private-data-wobbling-vs-signature-reconstruction-20261101]]): 从 iThemba PR295 私有工作簿（`wobbling frequency.xlsx`、`intensity.xlsx`）复原了关键电磁跃迁比率与签名反转参数，确立 $B(E2)_{\text{out}}/B(E2)_{\text{in}} < 0.1$、$M1$ 占优（$77\%\text{--}97\%$）及 $\hbar\omega_w$ 在两 signature 分支间错动超 $240\text{ keV}$ 并降入负值（$-15.5\text{ keV}$）。
 
 ### Competing Hypotheses
 1. 低自旋 signature partner 与高自旋带交叉组态混合；
@@ -234,7 +235,7 @@ Zobel 1983 表格包含同一实验室在不同能量下的测量系列，需按
 必须在分析中区分瞬发符合窗（`g45/g90` prompt m4b arrays）与未切瞬发窗符合谱（`gg/hgg/vgg`）；严格记录几何立体角修正与符合效率矩阵。
 
 ### Falsifiers (证伪判据)
-若新建立的 $13/2^-$ 侧带到主带的连接跃迁全部由 $M1$ 主导（$|\delta| < 0.3$ 且 $B(E2)_{\text{out}}/B(E2)_{\text{in}} < 0.1$），且带间跃迁能量随自旋增加单调上升，则“低自旋 wobbling 模式”假说被彻底证伪；若观测到高自旋带间存在强电四极跃迁（$B(E2) > 30\text{ W.u.}$）且伴随交替宇称双重态，则支持非对称集体转动。
+当前对私有工作簿的逐单元格反演已达成直接证伪：新建立带到 yrast 带的低自旋连接跃迁（$582, 465\text{ keV}$）测得 $B(E2)_{\text{out}}/B(E2)_{\text{in}} = 0.063(25)$ 与 $0.088(33)$，皆 $<0.1$，且混合比 $|\delta| \le 0.55$（$M1$ 强度占比 $77\%\text{--}97\%$），跨带 $B(M1)/B(E2) \approx 0.25\text{--}0.47\ \mu_N^2/(e^2 b^2)$；同时计算的 $\hbar\omega_w$ 在两个 signature 分支间产生超 $240\text{ keV}$ 的剧烈错动并在 $27/2^-$ 降为负值（$-15.5\text{ keV}$）。这在定量上直接证伪了“单声子 wobbling 模式”假说，明确裁决该带为三轴核芯耦合下的 $\nu h_{11/2}$ unfavored signature partner 带，且在 $I=19/2^-\text{--}21/2^-$ 经历 Coriolis 诱发的 signature inversion。高自旋段若观测到强电四极跃迁（$B(E2) > 30\text{ W.u.}$）且伴随交替宇称双重态，则支持非对称三轴集体转动。
 
 ### Stop Conditions (停止条件)
 在未获得 $^{133}\text{Ce}$ 真实直接微观 PES、ROOT 原始事件树及符合时间响应展开前，不得虚构事件级计数或宣称已完成正式 L4 科学发现；保持受控 L3/partial-L4 准备度。

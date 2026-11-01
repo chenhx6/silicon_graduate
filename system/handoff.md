@@ -5685,3 +5685,13 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
   - Durable knowledge writeback verified for 8 pages with 0 unmapped changes.
   - Curriculum coverage verified: `completed_day_indices: [30]`, `partial_day_indices: []`, `completed_day_count: 30`, `next_day_index: 31`, `status: complete`.
   - Verification: `wiki_boundary_check.py`, `wiki_archive_gate.py`, `wiki_automation_preflight.py`, and `git diff --check` all passed with exit 0.
+
+### 133Ce private data wobbling vs signature reconstruction continuation 2026-11-01T17:45:00+08:00
+
+- Executed cell-level mathematical reconstruction of private analysis workbooks (`wobbling frequency.xlsx`, `intensity.xlsx`, `energy.xlsx`):
+  - Proved $\hbar\omega_w$ formula in Sheet 1 collapses across signatures (staggering >240 keV between $\alpha=-1/2$ and $+1/2$, reaching $-15.5\text{ keV}$ at $27/2^-$), refuting a single-phonon harmonic wobbling excitation.
+  - Reconstructed electromagnetic branching ratios and mixing ratios in `intensity.xlsx`: measured connecting $\Delta I = 1$ lines ($582, 465\text{ keV}$) are heavily $M1$-dominated ($|\delta| \le 0.55$, $M1\% \approx 77\%\text{--}97\%$) with $B(E2)_{\text{out}}/B(E2)_{\text{in}} < 0.1$ ($0.063$ and $0.088$) and $B(M1)/B(E2) \approx 0.25\text{--}0.47\ \mu_N^2/(e^2 b^2)$, definitively matching signature partner transitions.
+  - Decoded signature splitting $S(I) = E(I) - \frac{1}{2}[E(I-1) + E(I+1)]$ from Sheet 2: demonstrated clear signature inversion at $I=19/2^-\text{--}21/2^-$, characteristic of Coriolis-induced quasiparticle realignment and triaxial shape evolution in $A \approx 130$.
+- Authored canonical research note: `knowledge/research-notes/133ce-private-data-wobbling-vs-signature-reconstruction-20261101.md`.
+- Updated `knowledge/index.md` and `knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md` (Candidate 6).
+- Maintained strict evidence boundaries: data remains `partial-L4-readiness` under `raw/data/SouthAfrica/` private user data constraint without manufacturing event-level likelihoods.

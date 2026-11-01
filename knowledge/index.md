@@ -45,6 +45,7 @@ updated: 2026-11-01
 - [[133ce-southafrica-l4-data-contract-20261101]] — 用户提供的 South Africa `133Ce` 数据合同：`133Ce_iThemba2019` acquisition/calibration/matrix 层与 `133Ce` derived/systematics 层；已完成 workbook/ROOT 可读性审计，当前为 partial-L4-readiness。
 - [[userdata-133ce-southafrica-dataset]] — 用户提供的 South Africa `133Ce` 数据 source identity、目录分层和 workbook/ROOT 可读性边界；raw hash 与 L4 数据合同已分开记录。
 - [[133ce-triaxial-core-collective-mode-route-20261101]] — 以 NuclearMap 的 `132Ce/134Ce` 邻近偶偶核 PES 为核心先验，连接私有 `133Ce` ADO/DCO/PDCO、wobbling 工作簿和三轴/签名伙伴/倾斜进动竞争假设；`133Ce` 直接 PES 尚未获得。
+- [[133ce-private-data-wobbling-vs-signature-reconstruction-20261101]] — 基于私有 South Africa 工作簿（`wobbling frequency.xlsx`、`intensity.xlsx`）的逐单元格公式反演：$\hbar\omega_w$ 签名崩塌（>240 keV 错动及负值）、连接线强 M1 占优（$|\delta| \le 0.55$）、$B(E2)_{\text{out}}/B(E2)_{\text{in}} < 0.1$ 与 $I=19/2^-\text{--}21/2^-$ 签名反转，彻底证伪单声子 wobbling 假设，确认为三轴核芯耦合下的 $\nu h_{11/2}$ unfavored signature partner 带。
 - [[nuclearmap-jcnp-pc-pk1]] — NuclearMap 的 PC-PK1 三轴 RHB/5DCH 框架、`132Ce`/`134Ce` 局部字段与已归档 PES 图；不把邻核模型结果冒充 `133Ce` 直接计算。
 - [[131xe-882-branch-response-contract]] — 881.8/880.1双线、取向、偏振、联合协方差与nuisance剖面下的双δ分支分离条件；来源为 Chakraborty C23-D28-3/C23-D28-9、Rose–Brink RB67-D23-001及Krane–Steffen KS70-2/6，保持L4 readiness边界。
 - [[131xe-day29-research-defense-preview]] — Day29无学分预习：794-keV电子/γ宇称判别、882偏振/角分布、共享响应、negative controls与belief revision设计；不推进课程状态。
