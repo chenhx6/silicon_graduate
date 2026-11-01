@@ -3,6 +3,13 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T14:00:00+08:00 (磁转动剪刀机制、反磁转动AMR与BM1模拟器落地)
+
+- **磁多极集体转动与剪刀几何动力学闭环完成**：
+  - 沉淀前沿理论《原子核磁转动、反磁转动与剪刀机制动力学》（深入剖析弱形变核中各向异性磁偶极核流引起的剪刀机制，推导 (M1)$ 随开角夹拢 $	heta 	o 0^\circ$ 的特征抛物线衰减定律、四叶双剪刀反磁转动 AMR，以及与三轴手征带、摆动带的竞争鉴别判据）；
+  - 开发完成生产级剪刀机制磁转动角动量几何与电磁跃迁模拟器（system/scripts/analysis/magnetic_rotation_shears_calculator.py），集成至 nuclear_analyzer CLI 并通过 11 大模块全量自动化回归测试；
+  - 成功提交（commit d5e0c0c0）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-02T12:00:00+08:00 (激发函数靶内阻止积分与反应截面反演工具落地)
 
 - **在束反应动力学与绝对截面反演闭环完成**：
