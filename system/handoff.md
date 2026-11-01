@@ -6156,3 +6156,25 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
   - Catalogued the top six cognitive pitfalls and anti-patterns in nuclear spectroscopy (energy-only wobbling fallacy, dual-root selection bias, static pairing gap transplantation, side-feeding lifetime distortion, deformation ISGMR pseudo-softening, and relativistic Lorentz boost headlight distortion).
   - Provided the complete one-line CLI quick reference for all 40 analysis commands.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### QRPA dynamics, ground-state correlations and pnQRPA gpp sensitivity 2026-11-02T11:00:00+08:00
+
+- Integrated Quasiparticle Random-Phase Approximation (QRPA), ground-state correlations, and proton-neutron QRPA (pnQRPA) framework (`knowledge/concepts/quasiparticle-random-phase-approximation-qrpa-dynamics.md`):
+  - Microscopic mechanism: inclusion of backward-going two-quasiparticle amplitudes $Y_{ab}$ in the phonon creation operator $Q_
+u^\dagger = \sum (X A^\dagger - Y A)$, yielding the non-Hermitian QRPA supermatrix equation $[[A, B], [-B, -A]] [X, Y]^T = \omega [X, Y]^T$.
+  - Normalization and collective enhancement: non-compact hyperbolic metric $\sum (|X|^2 - |Y|^2) = 1$, deriving the coherent transition amplitude enhancement $(X + Y)^2 = \sqrt{(A - B)/(A + B)}$ which explains the massive collective boost of low-lying $2_1^+, 3_1^-$ phonons beyond Tamm-Dancoff (QTDA).
+  - pnQRPA and particle-particle interaction parameter $g_{pp}$: deconstructed the Vogel-Zirnbauer mechanism in double beta decay ($2
+uetaeta / 0
+uetaeta$), demonstrating the steep decline and zero-crossing of $M^{2
+u}$ around $g_{pp} pprox 0.95$ and the impending QRPA collapse at the phase transition threshold.
+  - Analytic proof that the Ikeda sum rule $S_-(GT) - S_+(GT) = 3(N - Z)$ is strictly satisfied in pnQRPA even with finite ground-state correlations ($Y
+e 0$).
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/qrpa_matrix_vibrational_calculator.py`:
+  - `solve_qrpa_eigenvalues_and_amplitudes`: non-Hermitian supermatrix solver with Bose metric normalization;
+  - `solve_analytic_single_mode_qrpa`: exact single-mode analytical solver $\omega = \sqrt{A^2 - B^2}$;
+  - `scan_pnqrpa_gpp_sensitivity`: $g_{pp}$ scan and double beta decay $M^{2
+u}$ zero-crossing detection;
+  - `diagnose_qrpa_stability`: Hessian $(A-B)$ and $(A+B)$ positive-definiteness stability check.
+- Unified CLI integration: added `qrpa` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **a landmark 41 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

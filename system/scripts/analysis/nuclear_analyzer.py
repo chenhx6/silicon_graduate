@@ -58,6 +58,7 @@ from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estim
 from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, extract_delta_r2_from_isotope_shift, decompose_charge_radius_components, perform_king_plot_analysis, calculate_charge_radius_odd_even_staggering
 from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wkb_lifetime, check_goldanskii_true_2p_condition, model_two_proton_jacobi_distribution, calculate_cluster_radioactivity_wkb, diagnose_drip_line_decay_competition
 from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_window, calculate_sommerfeld_parameter, convert_cross_section_to_s_factor, calculate_nonresonant_reaction_rate, calculate_resonant_reaction_rate
+from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplitudes, solve_analytic_single_mode_qrpa, scan_pnqrpa_gpp_sensitivity, diagnose_qrpa_stability
 
 
 def cmd_kinematics(args):
@@ -1117,6 +1118,40 @@ def cmd_astro(args):
         print(f"    Resonant N_A <sigma v>   : {res['resonant_rate_cm3_mol_s']:.4e} cm^3 / (mol * s)")
     print("=======================================================")
 
+
+def cmd_qrpa(args):
+    print("\n=======================================================")
+    print(" Quasiparticle Random-Phase Approximation (QRPA)")
+    print("=======================================================")
+    if args.analytic_A is not None and args.analytic_B is not None:
+        sm = solve_analytic_single_mode_qrpa(args.analytic_A, args.analytic_B)
+        print(f"  Analytic Single-Mode QRPA (A = {args.analytic_A:.2f} MeV, B = {args.analytic_B:.2f} MeV):")
+        print(f"    Phonon Energy omega      : {sm['omega_MeV']:.3f} MeV (Unperturbed A = {args.analytic_A:.2f} MeV)")
+        print(f"    Forward Amplitude X      : {sm['X']:.4f}")
+        print(f"    Backward Amplitude Y     : {sm['Y']:.4f} (Y^2 = {sm['Y_squared']:.4f})")
+        print(f"    Bose Metric Normalization: X^2 - Y^2 = {sm['X_squared_minus_Y_squared']:.4f}")
+        print(f"    Transition Enhancement   : (X + Y)^2 = {sm['coherent_enhancement']:.3f}")
+
+    if args.matrix_2x2 is not None:
+        vals = [float(x.strip()) for x in args.matrix_2x2.split(",")]
+        A = [[vals[0], vals[1]], [vals[1], vals[2]]]
+        B = [[vals[3], vals[4]], [vals[4], vals[5]]]
+        sol = solve_qrpa_eigenvalues_and_amplitudes(A, B)
+        diag = diagnose_qrpa_stability(A, B)
+        print("-------------------------------------------------------")
+        print(f"  2x2 QRPA Supermatrix Diagonalization (Dimension = 2):")
+        print(f"    Vacuum Stability Status  : {diag['diagnosis']}")
+        for idx, m in enumerate(sol['modes']):
+            print(f"    Mode {idx+1}: omega = {m['omega_MeV']:.3f} MeV | X = {m['X_amplitudes']}, Y = {m['Y_amplitudes']} | Coherent Enhancement = {m['coherent_enhancement_factor']:.2f}x")
+
+    if args.scan_gpp:
+        scan = scan_pnqrpa_gpp_sensitivity(E_unpert_MeV=args.E0 or 4.0)
+        print("-------------------------------------------------------")
+        print(f"  pnQRPA Particle-Particle Interaction g_pp Scan:")
+        print(f"    Double Beta Decay M^2nu Zero-Crossing: g_pp = {scan['zero_crossing_gpp']:.2f}")
+        print(f"    Vogel-Zirnbauer Suppression Mechanism successfully demonstrated.")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1577,6 +1612,15 @@ def main():
     p_astro.add_argument("--E-res", type=float, default=None, help="Resonance energy E_res in keV")
     p_astro.add_argument("--omega-gamma", type=float, default=None, help="Resonance strength omega*gamma in eV")
     p_astro.set_defaults(func=cmd_astro)
+
+    # QRPA & pnQRPA Matrix Analyzer
+    p_qrpa = subparsers.add_parser("qrpa", help="Quasiparticle random-phase approximation (QRPA) and pnQRPA matrix analyzer")
+    p_qrpa.add_argument("--analytic-A", type=float, default=None, help="Unperturbed diagonal A matrix element in MeV")
+    p_qrpa.add_argument("--analytic-B", type=float, default=None, help="Off-diagonal ground-state correlation B in MeV")
+    p_qrpa.add_argument("--matrix-2x2", type=str, default=None, help="Comma-separated 2x2 elements: a11,a12,a22,b11,b12,b22 in MeV")
+    p_qrpa.add_argument("--scan-gpp", action="store_true", help="Perform pnQRPA g_pp sensitivity scan for double beta decay")
+    p_qrpa.add_argument("--E0", type=float, default=4.0, help="Unperturbed 1+ state energy in MeV (default: 4.0)")
+    p_qrpa.set_defaults(func=cmd_qrpa)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

@@ -72,6 +72,7 @@ from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estim
 from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, extract_delta_r2_from_isotope_shift, decompose_charge_radius_components, perform_king_plot_analysis, calculate_charge_radius_odd_even_staggering
 from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wkb_lifetime, check_goldanskii_true_2p_condition, model_two_proton_jacobi_distribution, calculate_cluster_radioactivity_wkb, diagnose_drip_line_decay_competition
 from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_window, calculate_sommerfeld_parameter, convert_cross_section_to_s_factor, calculate_nonresonant_reaction_rate, calculate_resonant_reaction_rate
+from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplitudes, solve_analytic_single_mode_qrpa, scan_pnqrpa_gpp_sensitivity, diagnose_qrpa_stability
 
 
 def test_heavy_ion_kinematics():
@@ -843,6 +844,33 @@ def test_thermonuclear_rate_gamow_factor_calculator():
     assert abs(res["resonant_rate_cm3_mol_s"] - 6980.0) < 50.0, f"Resonant rate mismatch: {res['resonant_rate_cm3_mol_s']}"
     print("  ✓ thermonuclear_rate_gamow_factor_calculator passed.")
 
+
+def test_qrpa_matrix_vibrational_calculator():
+    print("Testing qrpa_matrix_vibrational_calculator...")
+    # Analytic single-mode QRPA test
+    sm = solve_analytic_single_mode_qrpa(A_val=3.0, B_val=1.0)
+    assert abs(sm["omega_MeV"] - np.sqrt(8.0)) < 1e-4, f"Omega mismatch: {sm['omega_MeV']}"
+    assert abs(sm["X_squared_minus_Y_squared"] - 1.0) < 1e-4, "Bose normalization violated"
+    assert sm["coherent_enhancement"] > 0.0, "Enhancement factor must be positive"
+
+    # 2x2 matrix QRPA test
+    A = [[3.0, 0.4], [0.4, 3.5]]
+    B = [[0.5, 0.2], [0.2, 0.6]]
+    sol = solve_qrpa_eigenvalues_and_amplitudes(A, B)
+    assert sol["modes_found"] == 2, f"Expected 2 physical modes, got {sol['modes_found']}"
+    assert sol["is_stable_vacuum"] == True, "QRPA vacuum should be stable"
+    assert sol["modes"][0]["omega_MeV"] < sol["modes"][1]["omega_MeV"], "Modes should be sorted ascending"
+
+    # pnQRPA gpp sensitivity scan test
+    scan = scan_pnqrpa_gpp_sensitivity(E_unpert_MeV=4.0)
+    assert scan["zero_crossing_gpp"] is not None, "Zero crossing not found"
+    assert abs(scan["zero_crossing_gpp"] - 0.95) < 0.1, f"Zero crossing mismatch: {scan['zero_crossing_gpp']}"
+
+    # Stability diagnosis test
+    diag = diagnose_qrpa_stability(A, B)
+    assert diag["is_stable"] == True, "Stability diagnosis mismatch"
+    print("  ✓ qrpa_matrix_vibrational_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -885,4 +913,5 @@ if __name__ == "__main__":
     test_isotope_shift_charge_radii_calculator()
     test_drip_line_radioactivity_cluster_calculator()
     test_thermonuclear_rate_gamow_factor_calculator()
-    print("ALL 40 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_qrpa_matrix_vibrational_calculator()
+    print("ALL 41 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
