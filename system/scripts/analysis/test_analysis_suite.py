@@ -21,6 +21,7 @@ Tests:
   16. octupole_parity_doublet_calculator: checks parity splitting delta_E, B(E1)/B(E2), and intrinsic D0.
   17. signature_inversion_analyzer: checks signature splitting Delta_E, inversion crossing I_inv, and S(I).
   18. superdeformation_decayout_calculator: checks SD/TSD J2 plateau flatness and decay-out barrier tunneling.
+  19. ibm_dynamical_symmetry_analyzer: checks R4/2 ratio, Casten triangle phase, and O(6) degeneracy.
 """
 
 import sys
@@ -44,6 +45,7 @@ from tpsm_band_diagram_calculator import calculate_effective_moi_tpsm, generate_
 from octupole_parity_doublet_calculator import calculate_parity_splitting, calculate_b_e1_over_b_e2, extract_intrinsic_dipole_moment
 from signature_inversion_analyzer import calculate_staggering_parameter_s, calculate_signature_splitting, detect_inversion_crossing
 from superdeformation_decayout_calculator import evaluate_superdeformation_flatness, model_decayout_tunneling
+from ibm_dynamical_symmetry_analyzer import calculate_ibm_energy_ratios, classify_casten_triangle_phase
 
 
 def test_heavy_ion_kinematics():
@@ -307,6 +309,22 @@ def test_superdeformation_decayout_calculator():
     print("  ✓ superdeformation_decayout_calculator passed.")
 
 
+def test_ibm_dynamical_symmetry_analyzer():
+    print("Testing ibm_dynamical_symmetry_analyzer...")
+    r_u5 = calculate_ibm_energy_ratios(500.0, 1000.0)
+    c_u5 = classify_casten_triangle_phase(r_u5["R42"])
+    assert "U(5)" in c_u5["phase_name"], f"U(5) error: {c_u5['phase_name']}"
+
+    r_o6 = calculate_ibm_energy_ratios(357.2, 908.1, E_2_2_keV=901.7)
+    c_o6 = classify_casten_triangle_phase(r_o6["R42"], r_o6["R22"])
+    assert "O(6)" in c_o6["phase_name"], f"O(6) error: {c_o6['phase_name']}"
+
+    r_su3 = calculate_ibm_energy_ratios(100.0, 333.0)
+    c_su3 = classify_casten_triangle_phase(r_su3["R42"])
+    assert "SU(3)" in c_su3["phase_name"], f"SU(3) error: {c_su3['phase_name']}"
+    print("  ✓ ibm_dynamical_symmetry_analyzer passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -327,4 +345,5 @@ if __name__ == "__main__":
     test_octupole_parity_doublet_calculator()
     test_signature_inversion_analyzer()
     test_superdeformation_decayout_calculator()
-    print("ALL 18 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_ibm_dynamical_symmetry_analyzer()
+    print("ALL 19 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

@@ -36,6 +36,7 @@ from tpsm_band_diagram_calculator import calculate_effective_moi_tpsm, generate_
 from octupole_parity_doublet_calculator import calculate_parity_splitting, calculate_b_e1_over_b_e2, extract_intrinsic_dipole_moment, estimate_octupole_beta3
 from signature_inversion_analyzer import calculate_staggering_parameter_s, calculate_signature_splitting, detect_inversion_crossing
 from superdeformation_decayout_calculator import evaluate_superdeformation_flatness, model_decayout_tunneling
+from ibm_dynamical_symmetry_analyzer import calculate_ibm_energy_ratios, classify_casten_triangle_phase
 
 
 def cmd_kinematics(args):
@@ -377,6 +378,29 @@ def cmd_sd(args):
     print("=======================================================")
 
 
+def cmd_ibm(args):
+    ratios = calculate_ibm_energy_ratios(args.E21, args.E41, E_0_2_keV=args.E02, E_2_2_keV=args.E22)
+    phase = classify_casten_triangle_phase(ratios['R42'], ratios['R22'])
+    print("\n=======================================================")
+    print(" IBM Symmetry & Casten Triangle Phase Classifier")
+    print("=======================================================")
+    print(f"  Input Level Energies    : E(2_1+) = {args.E21:.1f} keV, E(4_1+) = {args.E41:.1f} keV")
+    if args.E22:
+        print(f"                            E(2_2+) = {args.E22:.1f} keV")
+    if args.E02:
+        print(f"                            E(0_2+) = {args.E02:.1f} keV")
+    print("-------------------------------------------------------")
+    print(f"  Energy Ratio R4/2       : {ratios['R42']:.3f} (U(5)=2.00, O(6)=2.50, SU(3)=3.33)")
+    if ratios['R22']:
+        print(f"  Energy Ratio R22/21     : {ratios['R22']:.3f}")
+    if ratios['O6_degeneracy_diff'] is not None:
+        print(f"  |E(4_1) - E(2_2)| / E(2): {ratios['O6_degeneracy_diff']:.3f}")
+    print("-------------------------------------------------------")
+    print(f"  Classified Phase        : {phase['phase_name']}")
+    print(f"  Description             : {phase['description']}")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -546,6 +570,14 @@ def main():
     p_sd.add_argument("--intensities", type=str, default="", help="Relative cascade intensities (e.g. 0.05,0.4,0.9,1.0)")
     p_sd.add_argument("--Qt", type=float, default=7.5, help="Assumed SD transition quadrupole moment Qt in e*b")
     p_sd.set_defaults(func=cmd_sd)
+
+    # Interacting Boson Model & Casten Triangle
+    p_ibm = subparsers.add_parser("ibm", help="IBM dynamical symmetry (U(5), SU(3), O(6)) and Casten triangle phase")
+    p_ibm.add_argument("--E21", type=float, required=True, help="Energy of 2_1+ state in keV")
+    p_ibm.add_argument("--E41", type=float, required=True, help="Energy of 4_1+ state in keV")
+    p_ibm.add_argument("--E22", type=float, default=None, help="Energy of 2_2+ state in keV")
+    p_ibm.add_argument("--E02", type=float, default=None, help="Energy of 0_2+ state in keV")
+    p_ibm.set_defaults(func=cmd_ibm)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
