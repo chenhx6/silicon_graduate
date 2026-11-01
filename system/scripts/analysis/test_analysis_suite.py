@@ -58,6 +58,7 @@ from vacuum_deorientation_calculator import calculate_attenuation_factors, corre
 from tidal_wave_dynamics_calculator import calculate_tidal_wave_kinematics, test_b_e2_linear_scaling, reconstruct_dynamic_beta2
 from gamow_teller_ikeda_quenching_calculator import calculate_ikeda_sum_rule, evaluate_ga_quenching, convert_cross_section_to_b_gt
 from halo_breakup_momentum_calculator import calculate_hansen_jonson_fwhm, invert_separation_energy_from_fwhm, calculate_goldhaber_width, diagnose_halo_signature, calculate_cluster_soft_e1_sum_rule, estimate_matter_radius_from_reaction_cross_section
+from fission_barrier_superheavy_calculator import calculate_liquid_drop_fissility, calculate_hill_wheeler_penetration, calculate_gamma_n_over_gamma_f, estimate_superheavy_cross_section
 
 
 def test_heavy_ion_kinematics():
@@ -445,6 +446,35 @@ def test_halo_breakup_momentum_calculator():
     assert rad["relative_radius_expansion_percent"] > 25.0, "Radius expansion should be > 25%"
     print("  ✓ halo_breakup_momentum_calculator passed.")
 
+
+def test_fission_barrier_superheavy_calculator():
+    print("Testing fission_barrier_superheavy_calculator...")
+    # 238U: Z=92, A=238
+    u = calculate_liquid_drop_fissility(92, 238)
+    assert 0.75 < u["fissility_x"] < 0.80, f"U-238 fissility mismatch: {u['fissility_x']}"
+    assert 5.5 < u["liquid_drop_barrier_MeV"] < 7.0, f"U-238 LDM barrier mismatch: {u['liquid_drop_barrier_MeV']}"
+
+    # 298Fl superheavy: Z=114, A=298
+    fl = calculate_liquid_drop_fissility(114, 298)
+    assert fl["fissility_x"] > 0.90, "Fl-298 fissility should be > 0.9"
+    assert fl["liquid_drop_barrier_MeV"] < 0.5, "Fl-298 LDM barrier should be nearly zero"
+
+    # Hill-Wheeler transmission symmetry at barrier peak
+    hw_peak = calculate_hill_wheeler_penetration(E_excitation_MeV=6.0, V_barrier_MeV=6.0)
+    assert abs(hw_peak["transmission_probability"] - 0.5) < 1e-4, "T(E=V) must be exactly 0.5"
+
+    # Vandenbosch-Huizenga Gamma_n / Gamma_f with thermal damping
+    comp = calculate_gamma_n_over_gamma_f(E_star_MeV=38.0, B_n_MeV=7.2, B_f_nominal_MeV=6.5, A=292, B_f_ldm_MeV=0.5)
+    assert comp["gamma_n_over_gamma_f"] < 0.01, f"Gamma_n / Gamma_f should be strongly suppressed, got {comp['gamma_n_over_gamma_f']}"
+
+    # Superheavy synthesis multi-step estimation
+    synth = estimate_superheavy_cross_section(sigma_cap_mb=10.0, P_cn=2e-4, E_star_initial_MeV=38.0,
+                                             B_n_list_MeV=[7.2, 7.0, 6.8], B_f_list_MeV=[6.5, 6.5, 6.5],
+                                             A_compound=292, B_f_ldm_MeV=0.5, xn=3)
+    assert synth["P_surv_total"] > 0.0, "Survival probability must be strictly positive"
+    assert synth["sigma_ER_pb"] > 0.0, "Residue cross section must be strictly positive"
+    print("  ✓ fission_barrier_superheavy_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -473,4 +503,5 @@ if __name__ == "__main__":
     test_tidal_wave_dynamics_calculator()
     test_gamow_teller_ikeda_quenching_calculator()
     test_halo_breakup_momentum_calculator()
-    print("ALL 26 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_fission_barrier_superheavy_calculator()
+    print("ALL 27 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

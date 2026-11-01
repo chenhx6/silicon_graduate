@@ -5894,3 +5894,19 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `halo` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to 26 scientific analysis modules, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Double-humped fission barriers, Strutinsky shell correction and superheavy synthesis 2026-11-02T03:30:00+08:00
+
+- Integrated nuclear fission dynamics, Strutinsky macroscopic-microscopic model, and superheavy element synthesis from Bohr-Mottelson Vol. II, Bertulani Ch. 5, Greiner, Lin Chengjian, and Lu Xiting Ch. 9 (`knowledge/concepts/fission-barriers-strutinsky-and-superheavy-dynamics.md`):
+  - Liquid drop model (LDM) fissility parameter $x = (Z^2/A) / (Z^2/A)_{\\text{crit}}$, demonstrating that for $x \\ge 1$ ($Z \\ge 104$), macroscopic liquid-drop barriers vanish entirely ($B_f^{\\text{LDM}} = 0$) and superheavy stability is sustained exclusively by negative ground-state shell corrections ($\\Delta E_{\\text{shell}} \\sim -5\\text{--}-8\\text{ MeV}$).
+  - Double-humped fission barrier structure: ground-state well, inner triaxial saddle $V_A$, superdeformed second well ($\\beta_2 \\sim 0.6$, shape/fission isomer discovered by Polikanov 1962), and outer mass-asymmetric saddle $V_B$ dictating asymmetric fragment division in actinides.
+  - Quantum penetration & statistical competition: Hill-Wheeler transmission coefficient $T(E)$ across parabolic barrier; Vandenbosch-Huizenga $\\Gamma_n / \\Gamma_f$ branching ratio incorporating thermal damping of shell corrections $B_f(E^*) = B_f^{\\text{LDM}} + (B_f^{\\text{nominal}} - B_f^{\\text{LDM}}) \\exp(-E^* / E_D)$ ($E_D \\approx 18.5\\text{ MeV}$).
+  - Three-step superheavy element synthesis cross section model: $\\sigma_{\\text{ER}} = \\sigma_{\\text{cap}} \\cdot P_{\\text{CN}} \\cdot P_{\\text{surv}}$, evaluating cold fusion ($1n$, $^{208}\\text{Pb}$ target) vs hot fusion ($3n\\text{--}4n$, $^{48}\\text{Ca}$ beam) cross-section scaling.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/fission_barrier_superheavy_calculator.py`:
+  - `calculate_liquid_drop_fissility`: macroscopic fissility $x$ and LDM barrier;
+  - `calculate_hill_wheeler_penetration`: quantum barrier penetration probability;
+  - `calculate_gamma_n_over_gamma_f`: statistical neutron vs fission competition ratio with thermal shell damping;
+  - `estimate_superheavy_cross_section`: multi-step evaporation residue cross section predictor (outputs in pb).
+- Unified CLI integration: added `fission` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to 27 scientific analysis modules, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

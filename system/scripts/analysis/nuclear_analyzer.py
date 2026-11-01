@@ -44,6 +44,7 @@ from vacuum_deorientation_calculator import calculate_attenuation_factors, corre
 from tidal_wave_dynamics_calculator import calculate_tidal_wave_kinematics, test_b_e2_linear_scaling, reconstruct_dynamic_beta2
 from gamow_teller_ikeda_quenching_calculator import calculate_ikeda_sum_rule, evaluate_ga_quenching, convert_cross_section_to_b_gt
 from halo_breakup_momentum_calculator import calculate_hansen_jonson_fwhm, invert_separation_energy_from_fwhm, calculate_goldhaber_width, diagnose_halo_signature, calculate_cluster_soft_e1_sum_rule, estimate_matter_radius_from_reaction_cross_section
+from fission_barrier_superheavy_calculator import calculate_liquid_drop_fissility, calculate_hill_wheeler_penetration, calculate_gamma_n_over_gamma_f, estimate_superheavy_cross_section
 
 
 def cmd_kinematics(args):
@@ -586,6 +587,44 @@ def cmd_halo(args):
         print(f"  Effective Dipole Charge  : e_eff = {soft['e_eff']:.3f} e")
     print("=======================================================")
 
+
+def cmd_fission(args):
+    print("\n=======================================================")
+    print(" Nuclear Fission Barrier & Superheavy Synthesis Analyzer")
+    print("=======================================================")
+    if args.Z is not None and args.A is not None:
+        ldm = calculate_liquid_drop_fissility(args.Z, args.A)
+        print(f"  Target Nucleus : Z={ldm['Z']}, A={ldm['A']}, N={ldm['N']} (Asymmetry: {ldm['asymmetry']:.3f})")
+        print(f"  Z^2 / A Ratio  : {ldm['Z2_over_A']:.2f} (Critical Limit: {ldm['Z2_over_A_crit']:.2f})")
+        print(f"  Fissility Param: x = {ldm['fissility_x']:.4f}")
+        print(f"  LDM Macroscopic: B_f(LDM) = {ldm['liquid_drop_barrier_MeV']:.2f} MeV")
+        if ldm['fissility_x'] >= 1.0:
+            print("  Stability Status: Macroscopic LDM barrier completely vanished (x >= 1.0)!")
+            print("                   Stability exclusively sustained by Quantum Shell Corrections!")
+
+    if args.hw_E is not None and args.hw_V is not None:
+        hw = calculate_hill_wheeler_penetration(args.hw_E, args.hw_V, hbar_omega_MeV=args.hw_hw)
+        print("-------------------------------------------------------")
+        print(f"  Hill-Wheeler Penetration : T(E={args.hw_E:.2f} MeV, V={args.hw_V:.2f} MeV) = {hw['transmission_probability']:.4e}")
+
+    if args.E_star is not None and args.Bn is not None and args.Bf is not None:
+        comp = calculate_gamma_n_over_gamma_f(args.E_star, args.Bn, args.Bf, args.A, B_f_ldm_MeV=args.Bf_ldm)
+        print("-------------------------------------------------------")
+        print(f"  Excitation Energy E*     : {args.E_star:.1f} MeV")
+        print(f"  Neutron Separation B_n   : {args.Bn:.2f} MeV")
+        print(f"  Effective Barrier B_f    : {comp['B_f_effective_MeV']:.2f} MeV (Thermal damping: {comp['shell_damping_factor']:.3f})")
+        print(f"  Branching Ratio G_n/G_f  : {comp['gamma_n_over_gamma_f']:.4e}")
+        print(f"  Single-Step Survival P1  : {comp['survival_fraction_step']:.4e}")
+
+    if args.cap_mb is not None and args.p_cn is not None and args.xn is not None:
+        bn_list = [float(x) for x in args.bn_list.split(",")] if args.bn_list else [args.Bn or 7.0] * args.xn
+        bf_list = [float(x) for x in args.bf_list.split(",")] if args.bf_list else [args.Bf or 6.5] * args.xn
+        est = estimate_superheavy_cross_section(args.cap_mb, args.p_cn, args.E_star, bn_list, bf_list, args.A, B_f_ldm_MeV=args.Bf_ldm, xn=args.xn)
+        print("-------------------------------------------------------")
+        print(f"  Superheavy Residue Cross Section: sigma_ER({args.xn}n) = {est['sigma_ER_pb']:.4f} pb ({est['sigma_ER_mb']:.4e} mb)")
+        print(f"  Total Survival Probability P_surv: {est['P_surv_total']:.4e}")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -843,6 +882,24 @@ def main():
     p_halo.add_argument("--sigma-r", type=float, default=None, help="High-energy reaction cross section in mb")
     p_halo.add_argument("--At", type=float, default=12.0, help="Target mass number (default: 12.0 for carbon target)")
     p_halo.set_defaults(func=cmd_halo)
+
+    # Nuclear Fission & Superheavy Synthesis
+    p_fiss = subparsers.add_parser("fission", help="Nuclear fission barriers, Hill-Wheeler penetration and superheavy element synthesis")
+    p_fiss.add_argument("--Z", type=int, default=None, help="Atomic number Z")
+    p_fiss.add_argument("--A", type=int, default=None, help="Mass number A")
+    p_fiss.add_argument("--hw-E", type=float, default=None, help="Excitation energy for Hill-Wheeler in MeV")
+    p_fiss.add_argument("--hw-V", type=float, default=None, help="Barrier height for Hill-Wheeler in MeV")
+    p_fiss.add_argument("--hw-hw", type=float, default=0.7, help="Barrier curvature hbar*omega in MeV")
+    p_fiss.add_argument("--E-star", type=float, default=None, help="Compound nucleus excitation energy E* in MeV")
+    p_fiss.add_argument("--Bn", type=float, default=None, help="Neutron separation energy in MeV")
+    p_fiss.add_argument("--Bf", type=float, default=None, help="Nominal low-energy fission barrier in MeV")
+    p_fiss.add_argument("--Bf-ldm", type=float, default=0.5, help="Macroscopic liquid drop barrier in MeV")
+    p_fiss.add_argument("--cap-mb", type=float, default=None, help="Capture cross section in mb")
+    p_fiss.add_argument("--p-cn", type=float, default=None, help="Compound nucleus formation probability P_CN")
+    p_fiss.add_argument("--xn", type=int, default=None, help="Number of emitted neutrons (xn channel)")
+    p_fiss.add_argument("--bn-list", type=str, default=None, help="Comma-separated list of Bn for steps")
+    p_fiss.add_argument("--bf-list", type=str, default=None, help="Comma-separated list of Bf for steps")
+    p_fiss.set_defaults(func=cmd_fission)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
