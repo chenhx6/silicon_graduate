@@ -3,6 +3,20 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T14:30:00+08:00 (四极PES势能面、HPGe极零相消、3D TAC手征几何、Beta衰变log ft与GM规则5大分析器落地，54模块闭环)
+
+- **全域核物理理论与在束实验分析系统化闭环拓展（49 -> 54 模块）**：
+  - **模块 50**：5D Bohr 集体哈密顿量四极势能面（PES）计算器（`collective_quadrupole_pes_calculator.py`），推导六阶展开式、长椭/扁椭/三轴极小曲率刚度 $C_\beta, C_\gamma$ 与势垒 $\Delta V_\gamma$，建立刚度比值 $\mathcal{R}_\gamma = \Delta V_\gamma / E_{0, \gamma}$ 彻底裁决 $A \approx 130$ $\gamma$ 软核与刚性三轴核争议；
+  - **模块 51**：HPGe 高计数率数字化极零相消（PZC）与弹道亏损（BD）分析器（`hpge_pulse_processing_pole_zero_calculator.py`），建模前放指数衰减与频域极点抵消条件 $\tau_{\text{PZ}} = \tau_{\text{decay}}$，量化同轴锗载流子收集时间涨落造成的弹道亏损二阶展开与平顶覆盖消除律 $t_{\text{flat}} \ge t_c$，评估高率死时间与堆积判弃；
+  - **模块 52**：3D 倾斜轴推转（TAC）手征几何与非共面体积度规计算器（`chiral_geometry_tac_calculator.py`），在内禀参考系中解构短轴质子 $j_p$、长轴中子 $j_n$ 与中轴核心转动 $R_m$ 构成的正交三面体，推导手征体积度规 $\mathcal{V}_{\text{chiral}} = |\mathbf{j}_p \cdot (\mathbf{R} \times \mathbf{j}_n)| / (|j_p||j_n||R|)$，确立手征振动向静态手征转动相变与孪生电磁特征；
+  - **模块 53**：相对论 $\beta$ 衰变相空间积分因子 $f(Z, Q)$、比较半衰期 $\log_{10} ft$ 与 CVC 弱电常数检验器（`beta_decay_log_ft_phase_space_calculator.py`），计算相对论狄拉克费米函数与相空间积分，自动分类超允许到高阶禁戒跃迁，利用超允许 $0^+ \to 0^+$ 基准精密测试 CKM 第一行幺正性与 $|V_{ud}|$；
+  - **模块 54**：形变奇奇核 Gallagher-Moszkowski（GM）耦合定则与 $K=0$ 带 Newby 奇偶位移计算器（`gallagher_moszkowski_coupling_calculator.py`），依据两体自旋平行吸引力判定基态带头 $K_{\text{GM}}$，推导剩余相互作用能量裂分 $\Delta E_{\text{GM}}$，计算 $K=0$ 带 Newby 解耦参数 $a_N$ 导致的偶奇锯齿能量错位；
+  - **知识大脑与测试全绿**：
+    - 撰写 5 篇权威概念专论，更新 `knowledge/index.md`；
+    - 升级 `nuclear-spectroscopy-and-structure-master-field-manual.md` 为 54 模块完整闭环指南；
+    - 统一 CLI `nuclear_analyzer.py` 新增 `pes`, `hpge`, `chiral`, `beta`, `gm` 子命令；
+    - `test_analysis_suite.py` 自动化回归测试扩展至 **54 大科学分析模块 100% 绿灯全通**！
+
 ## Active checkpoint — 2026-11-02T13:30:00+08:00 (能级密度、摆动转子、望远镜PID、熔合蒸发与协方差双根仲裁5大分析器落地，49模块闭环)
 
 - **全域核物理理论与在束实验分析系统化闭环拓展（44 -> 49 模块）**：

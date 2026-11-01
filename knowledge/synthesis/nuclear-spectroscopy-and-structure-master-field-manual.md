@@ -1,15 +1,15 @@
 ---
 type: synthesis
-title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的49模块完整闭环指南"
-aliases: [核谱学实战全书, 核结构专家工作手册, 49模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
+title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的54模块完整闭环指南"
+aliases: [核谱学实战全书, 核结构专家工作手册, 54模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
 created: 2026-11-02
 updated: 2026-11-02
 status: active
 review_status: unreviewed
-topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 49-modules-suite, expert-field-manual]
+topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 54-modules-suite, expert-field-manual]
 ---
 
-# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的49模块完整闭环指南
+# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的54模块完整闭环指南
 
 ## 1. 宣言与专家心智模型：大模型如何以世界级核物理学家身份工作
 
@@ -25,9 +25,9 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
 
 ---
 
-## 2. 七大科研实战阶段与 49 大科学分析模块调用图谱
+## 2. 七大科研实战阶段与 54 大科学分析模块调用图谱
 
-本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **40 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
+本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **54 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
 
 ```text
  [Phase 1: 实验提案与反应动力学]
@@ -42,6 +42,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ filter     ── 数字脉冲梯形滤波 (消除弹道亏损)
    │ peak       ── 全能峰高斯+阶跃低能拖尾非线性拟合
    │ pid        ── 带电粒子 Delta_E-E 望远镜鉴别、脉冲亏损 (PHD) 与能散区判定
+   │ hpge       ── HPGe 极零相消 (PZC)、电荷收集弹道亏损 (BD) 与高率死时间
    ▼
  [Phase 3: 符合能谱、内转换与能级纲图构建]
    │ balance    ── 级联进出强度守恒与内转换电子纠偏
@@ -66,11 +67,14 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ signature  ── 旋称交错 S(I) 追踪与高自旋旋称倒转判决
    │ sd         ── 超形变 (SD) 动力学平坦度与势垒穿透衰变
    │ term       ── 高自旋能带光滑终止、Qt->0 塌缩与价角动量耗尽
+   │ gm         ── Gallagher-Moszkowski (GM) 规则与 K=0 带 Newby 奇偶位移
    ▼
  [Phase 6: 三轴形变、手征双重带与摆动运动五道门实验裁判]
    │ coulex     ── 库仑激发重取向效应与无模型 Kumar 四极不变量
    │ tpsm       ── 三轴投影壳模型 (TPSM) 准粒子能带图
+   │ pes        ── 5D Bohr 集体哈密顿四极势能面 (PES) 与 gamma 软度比值
    │ wobbling   ── Davydov-Filippov 转子、横向/纵向摆动模型与伪摆动排他性证伪
+   │ chiral     ── 3D TAC 倾斜轴推转手征几何、非共面体积度规与四项裁判
    │ tidal      ── 弱形变过渡区潮汐波行波动力学与 B(E2) 线性标度
    │ e0         ── 形状共存两态混合模型与单极强度 rho^2(E0)
    │ ibm        ── 相互作用玻色子模型与 Casten 三角形相变
@@ -84,6 +88,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ rmf        ── 相对论平均场 (RMF)、自旋-轨道耦合与狄拉克赝自旋
    │ radius     ── 原子核均方电荷半径、同位素移与 King 图线性回归
    │ radioact   ── 质子滴线单质子 WKB、Goldanskii 真双质子与团簇放射性
+   │ beta       ── 相对论 beta 衰变相空间 f(Z,Q)、log(ft) 与超允许 CVC 检验
 ```
 
 ---
@@ -291,7 +296,22 @@ python3 system/scripts/analysis/nuclear_analyzer.py evap -Zp 8 -Ap 18 -Zt 48 -At
 # 48. 实验统计协方差误差传播、低计数泊松似然与双根仲裁
 python3 system/scripts/analysis/nuclear_analyzer.py stats --demo-baker --demo-cov --solve-roots --A2 -0.28 --A2-err 0.04 --alpha-exp 0.033 --alpha-M1 0.035 --alpha-E2 0.012
 
-# 49. 全套 49 大模块自动化回归自测 (100% 绿灯)
+# 49. 5D Bohr 集体哈密顿四极势能面 (PES) 与 gamma 软度
+python3 system/scripts/analysis/nuclear_analyzer.py pes --preset triaxial_rigid
+
+# 50. HPGe 数字化极零相消 (PZC) 与弹道亏损 (BD)
+python3 system/scripts/analysis/nuclear_analyzer.py hpge --tc-ns 400.0 --tflat-ns 500.0
+
+# 51. 3D TAC 倾斜轴推转手征几何与非共面体积度规
+python3 system/scripts/analysis/nuclear_analyzer.py chiral --jp 5.5 --jn 5.5 --Rm 8.0 --delta-e-keV 42.0
+
+# 52. 相对论 beta 衰变相空间 f(Z,Q) 与 log(ft)
+python3 system/scripts/analysis/nuclear_analyzer.py beta -Q 3.211 -T 6.345 -Z 12 -A 26 --mode beta_plus --cvc-check
+
+# 53. Gallagher-Moszkowski (GM) 规则与 Newby 位移
+python3 system/scripts/analysis/nuclear_analyzer.py gm --omega-p 2.5 --lambda-p 2 --omega-n 2.5 --lambda-n 3 --A 130 --newby-shift 35.0
+
+# 54. 全套 54 大模块自动化回归自测 (100% 绿灯)
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

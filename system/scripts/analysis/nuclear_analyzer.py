@@ -67,6 +67,11 @@ from davydov_wobbling_rotor_calculator import davydov_filippov_energies_and_be2,
 from particle_identification_delta_e_calculator import calculate_stopping_power, simulate_telescope_response, evaluate_pulse_height_defect, evaluate_energy_straggling, format_text_report as format_pid_report
 from compound_nucleus_evaporation_calculator import calculate_fusion_cross_section, simulate_statistical_evaporation_cascade, format_text_report as format_evap_report
 from experimental_uncertainty_covariance_calculator import calculate_baker_cousins_deviance, synthesize_correlated_systematics, resolve_double_root_delta_mixing, format_text_report as format_uncert_report
+from collective_quadrupole_pes_calculator import scan_potential_energy_surface, format_text_report as format_pes_report
+from hpge_pulse_processing_pole_zero_calculator import calculate_ballistic_deficit, simulate_pole_zero_compensation, calculate_high_rate_pileup, format_text_report as format_hpge_report
+from chiral_geometry_tac_calculator import calculate_chiral_geometry, evaluate_chiral_doublet_criteria, format_text_report as format_chiral_report
+from beta_decay_log_ft_phase_space_calculator import calculate_log_ft, verify_superallowed_cvc_vud, format_text_report as format_beta_report
+from gallagher_moszkowski_coupling_calculator import evaluate_gallagher_moszkowski_rule, calculate_newby_shift_spectrum, format_text_report as format_gm_report
 
 
 def cmd_kinematics(args):
@@ -1337,6 +1342,72 @@ def cmd_stats(args):
     else:
         print(format_uncert_report(summary))
 
+def cmd_pes(args):
+    c2, c3, c4, c5, c6, c6p = args.C2, args.C3, args.C4, args.C5, args.C6, args.C6_prime
+    if args.preset == "prolate":
+        c2, c3, c4, c5, c6, c6p = -18.0, -12.0, 45.0, 0.0, 20.0, 0.0
+    elif args.preset == "oblate":
+        c2, c3, c4, c5, c6, c6p = -18.0, +12.0, 45.0, 0.0, 20.0, 0.0
+    elif args.preset == "gamma_soft":
+        c2, c3, c4, c5, c6, c6p = -15.0, 0.0, 35.0, 0.0, 15.0, 0.0
+    elif args.preset == "triaxial_rigid":
+        c2, c3, c4, c5, c6, c6p = -20.0, 0.0, 30.0, 0.0, 10.0, 80.0
+    summary = scan_potential_energy_surface(c2, c3, c4, c5, c6, c6p)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_pes_report(summary))
+
+
+def cmd_hpge(args):
+    bd_res = calculate_ballistic_deficit(args.tc_ns, args.trise_ns, args.tflat_ns)
+    pz_res = simulate_pole_zero_compensation(args.tau_preamp, args.tau_pz)
+    pu_res = calculate_high_rate_pileup(args.rate_cps, args.trise_ns * 1e-3, args.tflat_ns * 1e-3)
+    summary = {"ballistic_deficit": bd_res, "pole_zero": pz_res, "pileup": pu_res}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_hpge_report(summary))
+
+
+def cmd_chiral(args):
+    geom = calculate_chiral_geometry(args.jp, args.jn, args.Rm, args.Rs, args.Rl)
+    summary = {"geometry": geom}
+    if args.delta_e_keV is not None:
+        audit = evaluate_chiral_doublet_criteria(args.delta_e_keV, args.bm1_ratio, args.be2_ratio, geom["total_spin_I"])
+        summary["doublet_audit"] = audit
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_chiral_report(summary))
+
+
+def cmd_beta(args):
+    res = calculate_log_ft(args.q_beta, args.t12, args.zdaughter, args.mass, args.br, args.mode)
+    summary = {"log_ft": res}
+    if args.cvc_check or res["log10_ft"] < 3.8:
+        summary["cvc_audit"] = verify_superallowed_cvc_vud(res["ft_value_sec"])
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_beta_report(summary))
+
+
+def cmd_gm(args):
+    gm_res = evaluate_gallagher_moszkowski_rule(args.omega_p, args.lambda_p, args.omega_n, args.lambda_n, args.A, args.A_rot)
+    summary = {"gm_rule": gm_res}
+    if gm_res["is_K_zero_band"]:
+        summary["newby_spectrum"] = calculate_newby_shift_spectrum(args.A_rot, args.newby_shift)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_gm_report(summary))
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1910,6 +1981,66 @@ def main():
     p_st.add_argument("--alpha-E2", type=float, default=0.012, help="Theoretical alpha_K for E2")
     p_st.add_argument("--json", action="store_true", help="Output results in JSON format")
     p_st.set_defaults(func=cmd_stats)
+
+    # 5D Bohr Collective Hamiltonian Quadrupole Potential Energy Surface (PES)
+    p_pes = subparsers.add_parser("pes", help="5D Bohr collective Hamiltonian quadrupole potential energy surface (PES)")
+    p_pes.add_argument("--C2", type=float, default=-15.0, help="C2 coefficient in MeV (default: -15.0)")
+    p_pes.add_argument("--C3", type=float, default=-8.0, help="C3 coefficient in MeV (default: -8.0)")
+    p_pes.add_argument("--C4", type=float, default=40.0, help="C4 coefficient in MeV (default: 40.0)")
+    p_pes.add_argument("--C5", type=float, default=0.0, help="C5 coefficient in MeV (default: 0.0)")
+    p_pes.add_argument("--C6", type=float, default=20.0, help="C6 coefficient in MeV (default: 20.0)")
+    p_pes.add_argument("--C6-prime", type=float, default=0.0, help="C6' triaxial coefficient in MeV (default: 0.0)")
+    p_pes.add_argument("--preset", type=str, choices=["prolate", "oblate", "triaxial_rigid", "gamma_soft"], help="Preset scenario")
+    p_pes.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_pes.set_defaults(func=cmd_pes)
+
+    # HPGe Digital Pulse Processing, PZC & Ballistic Deficit
+    p_hp = subparsers.add_parser("hpge", help="HPGe digital pulse processing, pole-zero cancellation and ballistic deficit")
+    p_hp.add_argument("--tc-ns", type=float, default=350.0, help="Charge collection time in ns (default: 350.0)")
+    p_hp.add_argument("--trise-ns", type=float, default=2000.0, help="Trapezoid rise time in ns (default: 2000.0)")
+    p_hp.add_argument("--tflat-ns", type=float, default=800.0, help="Trapezoid flat-top in ns (default: 800.0)")
+    p_hp.add_argument("--tau-preamp", type=float, default=50.0, help="Preamp decay time in us (default: 50.0)")
+    p_hp.add_argument("--tau-pz", type=float, default=50.0, help="PZ time setting in us (default: 50.0)")
+    p_hp.add_argument("--rate-cps", type=float, default=50000.0, help="Input count rate in cps (default: 50000.0)")
+    p_hp.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_hp.set_defaults(func=cmd_hpge)
+
+    # 3D TAC Chiral Geometry & Volume Metric
+    p_ch = subparsers.add_parser("chiral", help="3D tilted axis cranking (TAC) chiral geometry and aplanarity volume metric")
+    p_ch.add_argument("--jp", type=float, default=5.5, help="Valence proton j_p (default: 5.5 for h11/2)")
+    p_ch.add_argument("--jn", type=float, default=5.5, help="Valence neutron j_n (default: 5.5 for h11/2)")
+    p_ch.add_argument("--Rm", type=float, default=8.0, help="Intermediate axis core rotation R_m (default: 8.0)")
+    p_ch.add_argument("--Rs", type=float, default=0.5, help="Short axis core rotation R_s (default: 0.5)")
+    p_ch.add_argument("--Rl", type=float, default=0.5, help="Long axis core rotation R_l (default: 0.5)")
+    p_ch.add_argument("--delta-e-keV", type=float, default=None, help="Energy difference between doublet bands in keV")
+    p_ch.add_argument("--bm1-ratio", type=float, default=1.1, help="B(M1)_in / B(M1)_out ratio (default: 1.1)")
+    p_ch.add_argument("--be2-ratio", type=float, default=1.05, help="B(E2)_Band1 / B(E2)_Band2 ratio (default: 1.05)")
+    p_ch.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_ch.set_defaults(func=cmd_chiral)
+
+    # Beta Decay Phase Space & log(ft)
+    p_bt = subparsers.add_parser("beta", help="Beta decay phase space factor f(Z,Q), comparative half-life log(ft) and CVC audit")
+    p_bt.add_argument("-Q", "--q-beta", type=float, required=True, help="Beta decay Q-value in MeV")
+    p_bt.add_argument("-T", "--t12", type=float, required=True, help="Total half-life in seconds")
+    p_bt.add_argument("-Z", "--zdaughter", type=int, required=True, help="Daughter atomic number Z_daughter")
+    p_bt.add_argument("-A", "--mass", type=int, required=True, help="Mass number A")
+    p_bt.add_argument("--br", type=float, default=1.0, help="Branching ratio (default: 1.0)")
+    p_bt.add_argument("--mode", type=str, default="beta_minus", choices=["beta_minus", "beta_plus"], help="Decay mode")
+    p_bt.add_argument("--cvc-check", action="store_true", help="Perform superallowed 0+->0+ CVC & V_ud audit")
+    p_bt.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_bt.set_defaults(func=cmd_beta)
+
+    # Gallagher-Moszkowski (GM) Rules & Newby Shift
+    p_gm = subparsers.add_parser("gm", help="Gallagher-Moszkowski (GM) coupling rules and Newby shift for deformed odd-odd nuclei")
+    p_gm.add_argument("--omega-p", type=float, default=2.5, help="Proton Omega_p (default: 2.5)")
+    p_gm.add_argument("--lambda-p", type=int, default=2, help="Proton Lambda_p (default: 2)")
+    p_gm.add_argument("--omega-n", type=float, default=2.5, help="Neutron Omega_n (default: 2.5)")
+    p_gm.add_argument("--lambda-n", type=int, default=3, help="Neutron Lambda_n (default: 3)")
+    p_gm.add_argument("--A", type=int, default=130, help="Mass number A (default: 130)")
+    p_gm.add_argument("--A-rot", type=float, default=20.0, help="Rotational constant A_rot in keV (default: 20.0)")
+    p_gm.add_argument("--newby-shift", type=float, default=30.0, help="Newby shift a_N in keV for K=0 (default: 30.0)")
+    p_gm.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_gm.set_defaults(func=cmd_gm)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

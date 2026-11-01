@@ -81,6 +81,11 @@ from davydov_wobbling_rotor_calculator import davydov_filippov_energies_and_be2,
 from particle_identification_delta_e_calculator import calculate_stopping_power, simulate_telescope_response, evaluate_pulse_height_defect, evaluate_energy_straggling
 from compound_nucleus_evaporation_calculator import calculate_fusion_barrier, calculate_fusion_cross_section, simulate_statistical_evaporation_cascade
 from experimental_uncertainty_covariance_calculator import propagate_linear_covariance, synthesize_correlated_systematics, calculate_baker_cousins_deviance, resolve_double_root_delta_mixing
+from collective_quadrupole_pes_calculator import scan_potential_energy_surface
+from hpge_pulse_processing_pole_zero_calculator import calculate_ballistic_deficit, simulate_pole_zero_compensation, calculate_high_rate_pileup
+from chiral_geometry_tac_calculator import calculate_chiral_geometry, evaluate_chiral_doublet_criteria
+from beta_decay_log_ft_phase_space_calculator import calculate_log_ft, verify_superallowed_cvc_vud
+from gallagher_moszkowski_coupling_calculator import evaluate_gallagher_moszkowski_rule, calculate_newby_shift_spectrum
 
 
 def test_heavy_ion_kinematics():
@@ -1052,6 +1057,78 @@ def test_experimental_uncertainty_covariance_calculator():
     assert "Root 1" in dr["recommended_root"], "Root 1 must be selected by alpha_K triage"
     print("  ✓ experimental_uncertainty_covariance_calculator passed.")
 
+
+def test_collective_quadrupole_pes_calculator():
+    print("Testing collective_quadrupole_pes_calculator...")
+    pes_tri = scan_potential_energy_surface(-20.0, 0.0, 30.0, 0.0, 10.0, 80.0)
+    assert pes_tri["shape_classification"] == "Triaxial", "Should detect triaxial minimum"
+    assert pes_tri["gamma_barrier_Delta_V_MeV"] > 1.0, "Triaxial well should have significant barrier"
+    assert pes_tri["rigidity_ratio"] > 1.2, "Rigidity ratio must reflect stable triaxial well"
+
+    pes_soft = scan_potential_energy_surface(-15.0, 0.0, 35.0, 0.0, 15.0, 0.0)
+    assert pes_soft["gamma_stiffness_C_gamma_MeV"] == 0.0, "Gamma-soft potential must have zero gamma stiffness"
+    assert "Gamma-Soft" in pes_soft["softness_verdict"], "Should identify Wilets-Jean gamma-softness"
+    print("  ✓ collective_quadrupole_pes_calculator passed.")
+
+
+def test_hpge_pulse_processing_pole_zero_calculator():
+    print("Testing hpge_pulse_processing_pole_zero_calculator...")
+    # Zero ballistic deficit when flat top >= collection time
+    bd_zero = calculate_ballistic_deficit(charge_collection_time_ns=400.0, trapezoid_rise_time_ns=2000.0, trapezoid_flat_top_ns=500.0)
+    assert bd_zero["ballistic_deficit_fraction"] == 0.0, "BD must be zero when flat top covers collection time"
+
+    # Active ballistic deficit when flat top < collection time
+    bd_act = calculate_ballistic_deficit(charge_collection_time_ns=500.0, trapezoid_rise_time_ns=2000.0, trapezoid_flat_top_ns=300.0)
+    assert bd_act["ballistic_deficit_fraction"] > 0.0, "BD must be non-zero when flat top is insufficient"
+
+    # PZ cancellation
+    pz_perf = simulate_pole_zero_compensation(tau_preamp_us=50.0, tau_pz_setting_us=50.0)
+    assert "Perfect" in pz_perf["cancellation_verdict"], "Must confirm exact cancellation"
+
+    # Pileup throughput
+    pu = calculate_high_rate_pileup(input_count_rate_cps=50000.0, trapezoid_rise_time_us=2.0, trapezoid_flat_top_us=0.8)
+    assert pu["non_paralyzable_throughput_cps"] > 35000.0, "Throughput calculation sanity check"
+    print("  ✓ hpge_pulse_processing_pole_zero_calculator passed.")
+
+
+def test_chiral_geometry_tac_calculator():
+    print("Testing chiral_geometry_tac_calculator...")
+    geom = calculate_chiral_geometry(j_p=5.5, j_n=5.5, R_m=8.0, R_s=0.5, R_l=0.5)
+    assert geom["chiral_volume_metric"] > 0.8, "Should have near-maximum chiral aplanarity"
+    assert "Static_Chiral_Rotation" in geom["chiral_phase"], "Intermediate R must produce static chirality"
+
+    # Chiral doublet criteria
+    audit = evaluate_chiral_doublet_criteria(delta_energy_keV=42.0, bm1_in_over_out=1.1, be2_band1_over_band2=1.05, I_spin=12.0)
+    assert audit["verdict"] == "ROBUST_CHIRAL_DOUBLET_CONFIRMED", "Should pass 4/4 chiral criteria"
+    print("  ✓ chiral_geometry_tac_calculator passed.")
+
+
+def test_beta_decay_log_ft_phase_space_calculator():
+    print("Testing beta_decay_log_ft_phase_space_calculator...")
+    # Superallowed 0+ -> 0+
+    res = calculate_log_ft(Q_beta_MeV=3.211, half_life_sec=6.345, Z_daughter=12, A=26, decay_mode="beta_plus")
+    assert 3.40 < res["log10_ft"] < 3.55, f"Unexpected superallowed log(ft): {res['log10_ft']}"
+    assert "Superallowed" in res["forbiddenness_classification"], "Must classify 0+->0+ correctly"
+
+    cvc = verify_superallowed_cvc_vud(res["ft_value_sec"])
+    assert 0.96 < cvc["extracted_V_ud"] < 1.00, f"Extracted V_ud out of physical range: {cvc['extracted_V_ud']}"
+    print("  ✓ beta_decay_log_ft_phase_space_calculator passed.")
+
+
+def test_gallagher_moszkowski_coupling_calculator():
+    print("Testing gallagher_moszkowski_coupling_calculator...")
+    gm = evaluate_gallagher_moszkowski_rule(Omega_p=2.5, Lambda_p=2, Omega_n=2.5, Lambda_n=3, A_mass=130)
+    assert gm["GM_favored_K"] == 0.0, "K=0 must be favored when spins have opposite signs"
+    assert gm["is_K_zero_band"], "Must flag K=0 band"
+    assert gm["predicted_GM_splitting_keV"] > 30.0, "Doublet splitting must be positive"
+
+    # Newby shift spectrum
+    newby = calculate_newby_shift_spectrum(A_rot_keV=20.0, Newby_aN_keV=30.0, max_spin=4)
+    assert len(newby) == 5, "Should compute 5 levels"
+    # For I=0, shift is -a_N = -30
+    assert newby[0]["newby_shift_keV"] == -30.0
+    print("  ✓ gallagher_moszkowski_coupling_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -1103,4 +1180,9 @@ if __name__ == "__main__":
     test_particle_identification_delta_e_calculator()
     test_compound_nucleus_evaporation_calculator()
     test_experimental_uncertainty_covariance_calculator()
-    print("ALL 49 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_collective_quadrupole_pes_calculator()
+    test_hpge_pulse_processing_pole_zero_calculator()
+    test_chiral_geometry_tac_calculator()
+    test_beta_decay_log_ft_phase_space_calculator()
+    test_gallagher_moszkowski_coupling_calculator()
+    print("ALL 54 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
