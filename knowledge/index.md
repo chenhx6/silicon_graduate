@@ -26,6 +26,7 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[shell-evolution-and-triaxial-core-polarization]] — **微观壳演化、单极漂移与三轴核芯极化动力学**：基于 Heyde《Basic Ideas》与现代壳模型特刊，阐述单极相互作用（Monopole drift）、大塚张量力自旋翻转机制，以及粒子-空穴四极相互作用驱动微观稳定三轴核芯（$\gamma pprox 30^\circ$）的内在本质。
 - [[nuclear-structure-expert-protocol]] () — **低能核结构专家工作准则与认知协议**：定义大模型在 Wiki 中作为核结构专家的三大本能（三轴惯量几何直觉、五道门裁判标准、在束实验全流程实战）与统一调用规范。
 - [[triaxial-collective-modes-unified-theory-and-spectroscopy]] — **三轴形变原子核集体激发模式统一动力学理论与实验谱学判决全书**：系统整合 Petrache 2024、Frauendorf 2001/2014、Bohr-Mottelson、Greiner，详尽解构三轴惯量椭球（$\mathcal{J}_m > \mathcal{J}_s > \mathcal{J}_l$）、横向摆动（TW）vs 纵向摆动（LW）、手征三面体自发对称性破缺、旋称伙伴带竞争与 $\gamma$ 软核声子耦合假象，确立在束谱学“五道门”刚性裁判法典。
+- [[in-beam-coincidence-matrix-and-level-scheme-construction]] — **在束 γ-γ 符合矩阵分析、背景扣除与能级纲图构建实战指南**：基于吴治华教材与 Radware ESCL8R 算法规范，建立二维能量对称矩阵投影选门、标准三点康普顿背景扣除差分方程、Radware HPGe 探测效率曲线参数化，以及能级节点进出强度平衡方程（{	ext{in}} == I_{	ext{out}}$）与内转换电子修正。
 - [[in-beam-spectroscopy-experimental-master-manual]] — **在束 γ 谱学与重离子反应实验设计及数据分析全链条专家手册**：贯穿林承键《重离子核反应》+ 吴治华《原子核物理实验方法》+ Hamilton 1975 + Nakhostin《辐射探测器信号处理》+ 朱永生《实验物理中的概率和统计》，覆盖从 Proposal 束流能量与靶厚计算、HPGe 阵列几何、数字梯形滤波（DPP）、符合矩阵构建、角分布/偏振联合拟合、双根破除到寿命测量的六阶段全闭环实战指南。
 - [[nuclear-physics-standard-terminology-chinese-english]] — **低能核物理与核结构核心中英文标准术语与概念体系规范**：依据卢希庭《原子核物理（修订版）》与全国科技名词审定委员会，统一形变、集体运动、在束谱学与反应动力学的地道中文学术表达，为开题报告与中文期刊写作立标。
 - [[nuclear-detector-spectroscopy-wu-vs-wang-reconciliation]] — **实验核谱学探测技术指南：吴治华《原子核物理实验方法》与汪晓莲《粒子探测技术》视界解冲突与互补手册**：剖析低能束内谱学（keV 级极高能量分辨率、HPGe、$\mu 级梯形成形消除弹道亏损）与高能粒子物理（GeV、空间径迹、ns 级快速成形防堆积）的物理目标差异，彻底化解两书表观矛盾。

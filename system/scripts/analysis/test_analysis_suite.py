@@ -9,6 +9,7 @@ Tests:
   4. gamma_peak_fitting: checks Gaussian + Step model convergence and area extraction.
   5. dco_polarization_analyzer: checks DCO ratio for dipole/quadrupole and polarization sensitivity.
   6. lifetime_lineshape_calculator: checks stopping time, DSAM attenuation inversion, and B(E2).
+  7. coincidence_intensity_balancer: checks 3-point background subtraction and intensity balancing.
 """
 
 import sys
@@ -20,6 +21,7 @@ from digital_trapezoidal_filter import synthesize_preamp_pulse, apply_trapezoida
 from gamma_peak_fitting import single_peak_model, fit_single_gamma_peak
 from dco_polarization_analyzer import calculate_dco_ratio, calculate_linear_polarization, joint_dco_polarization_fit
 from lifetime_lineshape_calculator import calculate_stopping_time_alpha, dsam_invert_lifetime, calculate_absolute_transition_strengths
+from coincidence_intensity_balancer import three_point_background_subtraction, hpge_efficiency_radware, check_level_intensity_balance
 
 
 def test_heavy_ion_kinematics():
@@ -28,7 +30,7 @@ def test_heavy_ion_kinematics():
     assert 110.0 < res["E_cm_MeV"] < 111.0, f"Unexpected E_cm: {res['E_cm_MeV']}"
     assert 85.0 < res["V_B_MeV"] < 95.0, f"Unexpected V_B: {res['V_B_MeV']}"
     assert res["beta_v_over_c"] > 0.015, f"Unexpected beta: {res['beta_v_over_c']}"
-    
+
     E0 = 1000.0
     E_forward = doppler_shift(E0, res["beta_v_over_c"], 0.0)
     E_backward = doppler_shift(E0, res["beta_v_over_c"], 180.0)
@@ -45,14 +47,14 @@ def test_angular_distribution_and_dual_roots():
     fit_res = fit_angular_distribution(thetas, y_true, errors)
     assert abs(fit_res["a2"] - 0.30) < 0.02, f"Fitted a2 mismatch: {fit_res['a2']}"
     assert abs(fit_res["a4"] - (-0.10)) < 0.02, f"Fitted a4 mismatch: {fit_res['a4']}"
-    
+
     F2_11, F2_12, F2_22 = -0.3742, 0.4472, 0.1265
     roots = solve_delta_dual_roots(-0.40, F2_11, F2_12, F2_22, alpha2=0.85)
     assert roots is not None, "Roots should exist for a2 = -0.40"
     d1 = roots["delta_small_root (M1 dominated)"]
     d2 = roots["delta_large_root (E2 dominated)"]
     assert abs(d1) < abs(d2), "Root ordering failed"
-    
+
     a2_from_d1 = 0.85 * (F2_11 + 2*d1*F2_12 + d1**2*F2_22) / (1 + d1**2)
     a2_from_d2 = 0.85 * (F2_11 + 2*d2*F2_12 + d2**2*F2_22) / (1 + d2**2)
     assert abs(a2_from_d1 - a2_from_d2) < 1e-7, "Dual root mathematical degeneracy violated!"
@@ -72,7 +74,7 @@ def test_digital_trapezoidal_filter():
     shaped_step = apply_trapezoidal_filter(step_wave, k=k, m=m, tau_decay=tau)
     meas_amp = extract_trapezoid_amplitude(shaped_step)
     assert abs(meas_amp - true_amp) / true_amp < 0.005, f"Step trapezoid error: {meas_amp} vs {true_amp}"
-    
+
     syn_wave = synthesize_preamp_pulse(length=1500, t_rise=15, tau_decay=tau,
                                        amplitude=true_amp, noise_sigma=0.0,
                                        baseline=0.0, trigger_pos=trig)
@@ -92,7 +94,7 @@ def test_gamma_peak_fitting():
     step_true = 15.0
     b0_true = 50.0
     b1_true = -0.2
-    
+
     sigma_true = fwhm_true / 2.35482
     y = single_peak_model(ch, centroid_true, sigma_true, area_true * (ch[1]-ch[0]), step_true, b0_true, b1_true)
     res = fit_single_gamma_peak(ch, y)
@@ -123,6 +125,23 @@ def test_lifetime_lineshape_calculator():
     print("  ✓ lifetime_lineshape_calculator passed.")
 
 
+def test_coincidence_intensity_balancer():
+    print("Testing coincidence_intensity_balancer...")
+    p = np.array([100.0, 100.0, 500.0, 100.0, 100.0])
+    bl = np.array([50.0, 50.0, 50.0, 50.0, 50.0])
+    br = np.array([50.0, 50.0, 50.0, 50.0, 50.0])
+    sub, err, fB = three_point_background_subtraction(p, bl, br, w_peak=5, w_bg_left=5, w_bg_right=5)
+    assert abs(fB - 0.5) < 1e-5, f"Background factor fB error: {fB}"
+    assert abs(sub[2] - 450.0) < 1e-4, f"Subtracted peak error: {sub[2]}"
+
+    inflows = [{"name": "in1", "net_area": 1000.0, "efficiency": 0.1, "alpha_tot": 0.0}]
+    outflows = [{"name": "out1", "net_area": 1000.0, "efficiency": 0.1, "alpha_tot": 0.0}]
+    bal = check_level_intensity_balance(inflows, outflows)
+    assert bal["is_balanced_within_3sigma"] is True, "Balanced node failed test"
+    assert abs(bal["difference_out_minus_in"]) < 1e-4, "Difference should be zero"
+    print("  ✓ coincidence_intensity_balancer passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -131,4 +150,5 @@ if __name__ == "__main__":
     test_gamma_peak_fitting()
     test_dco_polarization_analyzer()
     test_lifetime_lineshape_calculator()
-    print("ALL 6 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_coincidence_intensity_balancer()
+    print("ALL 7 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
