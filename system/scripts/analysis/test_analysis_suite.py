@@ -60,6 +60,7 @@ from gamow_teller_ikeda_quenching_calculator import calculate_ikeda_sum_rule, ev
 from halo_breakup_momentum_calculator import calculate_hansen_jonson_fwhm, invert_separation_energy_from_fwhm, calculate_goldhaber_width, diagnose_halo_signature, calculate_cluster_soft_e1_sum_rule, estimate_matter_radius_from_reaction_cross_section
 from fission_barrier_superheavy_calculator import calculate_liquid_drop_fissility, calculate_hill_wheeler_penetration, calculate_gamma_n_over_gamma_f, estimate_superheavy_cross_section
 from oslo_method_nld_gsf_analyzer import calculate_rho_at_sn, verify_oslo_lie_transformation_invariance, calibrate_oslo_nld_and_gsf, diagnose_low_energy_enhancement
+from band_termination_cns_calculator import calculate_valence_maximum_spin, model_transition_quadrupole_collapse, calculate_rigid_rotor_subtraction, calculate_dynamic_moment_of_inertia_j2, diagnose_smooth_band_termination
 
 
 def test_heavy_ion_kinematics():
@@ -501,6 +502,33 @@ def test_oslo_method_nld_gsf_analyzer():
     assert lee["enhancement_ratio"] > 2.0, "Enhancement ratio should be > 2x"
     print("  ✓ oslo_method_nld_gsf_analyzer passed.")
 
+
+def test_band_termination_cns_calculator():
+    print("Testing band_termination_cns_calculator...")
+    # Valence max spin test: 109Sb configuration
+    val = calculate_valence_maximum_spin(valence_orbitals_protons=[(5.5, 1)],
+                                         valence_orbitals_neutrons=[(5.5, 2), (3.5, 4), (2.5, 2)])
+    assert val["I_max_protons"] == 5.5, f"Expected 5.5, got {val['I_max_protons']}"
+    assert val["I_max_neutrons"] == 22.0, f"Expected 22.0, got {val['I_max_neutrons']}"
+    assert val["I_max_total"] == 27.5, f"Expected 27.5, got {val['I_max_total']}"
+
+    # Transition quadrupole moment collapse test
+    spins = [14.5, 16.5, 18.5, 20.5, 22.5, 24.5]
+    qt_res = model_transition_quadrupole_collapse(spins, Q0_eb=2.85, I_start=14.5, I_term=24.5)
+    assert qt_res["Q_t_drop_percent"] > 99.0, "Qt should drop by ~100% at termination"
+    assert qt_res["trajectory"][-1]["Q_t_eb"] < 1e-10, "Qt at 60 deg oblate must be 0"
+
+    # Rigid rotor cusp test
+    energies = [2500, 3300, 4300, 5600, 7200, 9100, 11500]
+    sp_rr = [10, 12, 14, 16, 18, 20, 22]
+    rr = calculate_rigid_rotor_subtraction(sp_rr, energies, A=109)
+    assert rr["cusp_spin"] == 20.0, f"Cusp spin mismatch: {rr['cusp_spin']}"
+
+    # Diagnosis test
+    diag = diagnose_smooth_band_termination(q_drop_percent=qt_res["Q_t_drop_percent"], j2_steep_dive=True, e_diff_cusp_found=True)
+    assert diag["is_band_termination"] == True, "Should identify smooth band termination"
+    print("  ✓ band_termination_cns_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -531,4 +559,5 @@ if __name__ == "__main__":
     test_halo_breakup_momentum_calculator()
     test_fission_barrier_superheavy_calculator()
     test_oslo_method_nld_gsf_analyzer()
-    print("ALL 28 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_band_termination_cns_calculator()
+    print("ALL 29 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

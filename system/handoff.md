@@ -5926,3 +5926,23 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `oslo` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to 28 scientific analysis modules, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Rotational band termination, CNS dynamics and Qt collapse 2026-11-02T04:30:00+08:00
+
+- Built comprehensive rotational band termination and Cranked Nilsson-Strutinsky (CNS) alignment framework (`knowledge/concepts/rotational-band-termination-and-cns-dynamics.md`):
+  - Microscopic mechanism: continuous phase transition from collective prolate rotation ($\\gamma = 0^\\circ$) across triaxial shapes to a non-collective oblate state ($\\gamma = 60^\\circ$) where valence angular momentum is completely aligned along the symmetry axis.
+  - Algebraic valence-space spin exhaustion: $I_{\\text{term}} = \\sum m_j^{\\text{max}}$, deriving exact boundary for valence-space spin capacity.
+  - Formulated the three rigid experimental criteria for smooth band termination:
+    1. Transition quadrupole moment catastrophe collapse: $Q_t(I) = Q_0 \\frac{\\cos(\\gamma(I) + 30^\\circ)}{\\cos 30^\\circ} \\to 0$ as $\\gamma \\to 60^\\circ$ (verified via DSAM in $^{109}\\text{Sb}$ with $>85\\%$ drop);
+    2. Steep plunge of dynamic moment of inertia $\\mathcal{J}^{(2)}$ towards zero or negative values;
+    3. Distinct sharp downward cusp in the rigid-rotor subtracted energy trajectory $E - E_{\\text{RR}}$.
+  - Linked band termination as the physical upper spin boundary for triaxial chirality and wobbling in $A \\approx 130$.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/band_termination_cns_calculator.py`:
+  - `calculate_valence_maximum_spin`: algebraic summation of highest single-particle magnetic quantum numbers;
+  - `model_transition_quadrupole_collapse`: continuous $Q_t(I)$ and $B(E2)$ collapse along triaxial path;
+  - `calculate_rigid_rotor_subtraction`: downward cusp localization in $E - E_{\\text{RR}}$;
+  - `calculate_dynamic_moment_of_inertia_j2`: $\\mathcal{J}^{(2)}$ derivative extraction;
+  - `diagnose_smooth_band_termination`: multi-criteria quantitative scoring.
+- Unified CLI integration: added `term` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to 29 scientific analysis modules, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

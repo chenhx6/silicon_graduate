@@ -46,6 +46,7 @@ from gamow_teller_ikeda_quenching_calculator import calculate_ikeda_sum_rule, ev
 from halo_breakup_momentum_calculator import calculate_hansen_jonson_fwhm, invert_separation_energy_from_fwhm, calculate_goldhaber_width, diagnose_halo_signature, calculate_cluster_soft_e1_sum_rule, estimate_matter_radius_from_reaction_cross_section
 from fission_barrier_superheavy_calculator import calculate_liquid_drop_fissility, calculate_hill_wheeler_penetration, calculate_gamma_n_over_gamma_f, estimate_superheavy_cross_section
 from oslo_method_nld_gsf_analyzer import calculate_rho_at_sn, verify_oslo_lie_transformation_invariance, calibrate_oslo_nld_and_gsf, diagnose_low_energy_enhancement
+from band_termination_cns_calculator import calculate_valence_maximum_spin, model_transition_quadrupole_collapse, calculate_rigid_rotor_subtraction, calculate_dynamic_moment_of_inertia_j2, diagnose_smooth_band_termination
 
 
 def cmd_kinematics(args):
@@ -659,6 +660,41 @@ def cmd_oslo(args):
         print(f"  Diagnosis                         : {lee['diagnosis']}")
     print("=======================================================")
 
+
+def cmd_term(args):
+    print("\n=======================================================")
+    print(" High-Spin Band Termination & CNS Valence Alignment")
+    print("=======================================================")
+    if args.spins is not None and args.q0 is not None:
+        sp_list = [float(x.strip()) for x in args.spins.split(",")]
+        iterm = args.iterm if args.iterm is not None else sp_list[-1]
+        istart = sp_list[0]
+        qt_mod = model_transition_quadrupole_collapse(sp_list, args.q0, istart, iterm)
+        print(f"  Start Spin : I_start = {istart:.1f} hbar -> Terminating Spin I_term = {iterm:.1f} hbar")
+        print(f"  Initial Qt : {qt_mod['trajectory'][0]['Q_t_eb']:.2f} eb -> Final Qt : {qt_mod['trajectory'][-1]['Q_t_eb']:.3f} eb")
+        print(f"  Qt Collapse Percentage: -{qt_mod['Q_t_drop_percent']:.1f}% (gamma: 0 deg prolate -> 60 deg oblate)")
+        print("-------------------------------------------------------")
+        print("  Trajectory across Triaxial Space (gamma, Qt, B(E2)):")
+        for pt in qt_mod["trajectory"]:
+            print(f"    Spin {pt['spin']:4.1f} hbar : gamma={pt['gamma_deg']:4.1f} deg, Qt={pt['Q_t_eb']:.3f} eb, B(E2)={pt['B_E2_e2b2']:.4f} e^2b^2")
+
+    if args.energies is not None and args.spins is not None and args.A is not None:
+        sp_list = [float(x.strip()) for x in args.spins.split(",")]
+        en_list = [float(x.strip()) for x in args.energies.split(",")]
+        if len(sp_list) == len(en_list):
+            rr = calculate_rigid_rotor_subtraction(sp_list, en_list, args.A)
+            j2 = calculate_dynamic_moment_of_inertia_j2(sp_list, en_list)
+            print("-------------------------------------------------------")
+            print(f"  Rigid Rotor Reference Cusp : Minimum at Spin I = {rr['cusp_spin']:.1f} hbar")
+            print(f"  Energy Excess (E - E_RR)   : {rr['cusp_min_E_diff_MeV']:.3f} MeV at cusp")
+            if len(j2) > 0:
+                print(f"  Dynamic MOI J^(2) at End   : {j2[-1]['J2_hbar2_MeV']:.2f} hbar^2/MeV (Delta E_gamma = {j2[-1]['Delta_E_gamma_MeV']*1000.0:.1f} keV)")
+            diag = diagnose_smooth_band_termination(q_drop_percent=qt_mod['Q_t_drop_percent'] if 'qt_mod' in locals() else None,
+                                                    j2_steep_dive=len(j2)>0 and j2[-1]['J2_hbar2_MeV'] < 15.0,
+                                                    e_diff_cusp_found=True)
+            print(f"  Diagnosis                  : {diag['diagnosis']}")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -948,6 +984,15 @@ def main():
     p_oslo.add_argument("--lee-gsf", type=str, default=None, help="Comma-separated gSF values for LEE diagnosis")
     p_oslo.add_argument("--lee-eg", type=str, default=None, help="Comma-separated E_gamma values in MeV for LEE diagnosis")
     p_oslo.set_defaults(func=cmd_oslo)
+
+    # Band Termination & CNS Alignment
+    p_term = subparsers.add_parser("term", help="Rotational band termination, Qt collapse and CNS alignment analyzer")
+    p_term.add_argument("--spins", type=str, default=None, help="Comma-separated list of spins")
+    p_term.add_argument("--energies", type=str, default=None, help="Comma-separated level energies in keV")
+    p_term.add_argument("--q0", type=float, default=None, help="Low-spin collective intrinsic/transition quadrupole moment Q0 in eb")
+    p_term.add_argument("--iterm", type=float, default=None, help="Terminating maximum spin I_term")
+    p_term.add_argument("--A", type=int, default=None, help="Mass number A")
+    p_term.set_defaults(func=cmd_term)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
