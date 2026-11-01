@@ -51,6 +51,7 @@ from tdpad_hyperfine_precession_calculator import calculate_larmor_frequency, in
 from pairing_gap_separation_energy_calculator import calculate_s2n_series, calculate_pairing_gap_3point, calculate_pairing_gap_5point, detect_shell_closure_drop, detect_shape_transition_anomaly, compare_empirical_bcs_gap
 from isgmr_breathing_mode_incompressibility_calculator import calculate_ka_from_isgmr_energy, leptodermous_expansion_ka, model_deformation_splitting_two_state, calculate_qpvc_self_energy_shift, diagnose_incompressibility_status
 from relativistic_coulex_virtual_photon_calculator import calculate_relativistic_coulex_kinematics, calculate_virtual_photon_numbers, calculate_relativistic_e2_coulex_cross_section, invert_b_e2_from_coulex_cross_section, transform_gamma_angular_distribution_lorentz
+from electromagnetic_transition_alaga_calculator import calculate_weisskopf_unit, convert_lifetime_to_b_e2, calculate_alaga_ratio_e2, calculate_bm1_over_be2
 
 
 def cmd_kinematics(args):
@@ -848,6 +849,43 @@ def cmd_relcoulex(args):
             print(f"    Lab {pt['theta_lab_deg']:5.1f} deg -> CM {pt['theta_cm_deg']:5.1f} deg | Doppler={pt['doppler_shift_factor']:.3f} | Jacobian J={pt['jacobian_solid_angle']:.2f} | W_lab={pt['W_lab']:.3f}")
     print("=======================================================")
 
+
+def cmd_alaga(args):
+    print("\n=======================================================")
+    print(" Electromagnetic Transition Rates, Weisskopf & Alaga Rules")
+    print("=======================================================")
+    if args.A is not None:
+        wu_e1 = calculate_weisskopf_unit(args.A, "E1")
+        wu_e2 = calculate_weisskopf_unit(args.A, "E2")
+        wu_m1 = calculate_weisskopf_unit(args.A, "M1")
+        print(f"  Weisskopf Units for Target A={args.A}:")
+        print(f"    B_sp(E1) = {wu_e1['B_sp_value']:.4f} {wu_e1['unit']}")
+        print(f"    B_sp(E2) = {wu_e2['B_sp_value']:.3f} {wu_e2['unit']} ({wu_e2['B_sp_value']*1e-4:.6f} e^2b^2)")
+        print(f"    B_sp(M1) = {wu_m1['B_sp_value']:.4f} {wu_m1['unit']}")
+
+    if args.tau is not None and args.Eg is not None and args.A is not None:
+        b2 = convert_lifetime_to_b_e2(args.tau, args.Eg, args.A, branch_fraction=args.branch, alpha_icc=args.icc)
+        print("-------------------------------------------------------")
+        print(f"  Level Lifetime Conversion (tau = {args.tau:.3f} ps, E_gamma = {args.Eg:.1f} keV):")
+        print(f"    B(E2) = {b2['B_E2_e2b2']:.4f} e^2b^2 ({b2['B_E2_e2fm4']:.1f} e^2fm^4)")
+        print(f"    Collective Enhancement   : {b2['B_E2_W_u']:.1f} W.u.")
+        print(f"    Intrinsic Quadrupole Q_0 : {b2['Q0_intrinsic_eb']:.3f} eb")
+
+    if args.alaga_spin is not None:
+        al = calculate_alaga_ratio_e2(args.alaga_spin, K_band=args.alaga_K)
+        print("-------------------------------------------------------")
+        print(f"  Axial Rotor Alaga Ratio B(E2; {args.alaga_spin:.0f} -> {args.alaga_spin-2:.0f}) / B(E2; 2 -> 0):")
+        print(f"    Theoretical Clebsch-Gordan Ratio: R_Alaga = {al['alaga_ratio_to_2_0']:.4f} (K = {args.alaga_K:.0f})")
+
+    if args.Eg1 is not None and args.Eg2 is not None and args.I1 is not None and args.I2 is not None:
+        bm1_be2 = calculate_bm1_over_be2(args.Eg1, args.Eg2, args.I1, args.I2, delta_mixing=args.delta, spin_I=args.I, K_val=args.K)
+        print("-------------------------------------------------------")
+        print(f"  In-Band Branching Ratio Extraction (dI=1: {args.Eg1:.1f} keV, dI=2: {args.Eg2:.1f} keV):")
+        print(f"    B(M1; I -> I-1) / B(E2; I -> I-2) = {bm1_be2['B_M1_over_B_E2_muN2_e2b2']:.4f} mu_N^2 / (e^2b^2)")
+        if "abs_gK_minus_gR_over_Q0_muN_eb" in bm1_be2:
+            print(f"    Intrinsic Parameter |g_K - g_R| / Q_0 = {bm1_be2['abs_gK_minus_gR_over_Q0_muN_eb']:.4f} mu_N / (e b) (Spin I={args.I:.1f}, K={args.K:.1f})")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1196,6 +1234,24 @@ def main():
     p_relc.add_argument("--a2", type=float, default=0.35, help="CM a2 angular distribution coefficient")
     p_relc.add_argument("--a4", type=float, default=-0.1, help="CM a4 angular distribution coefficient")
     p_relc.set_defaults(func=cmd_relcoulex)
+
+    # Electromagnetic Transitions & Alaga Rules
+    p_alaga = subparsers.add_parser("alaga", help="Electromagnetic transition rates, Weisskopf units and Alaga branching rules")
+    p_alaga.add_argument("--A", type=int, default=None, help="Mass number A")
+    p_alaga.add_argument("--tau", type=float, default=None, help="Excited state lifetime in ps")
+    p_alaga.add_argument("--Eg", type=float, default=None, help="Gamma transition energy in keV")
+    p_alaga.add_argument("--branch", type=float, default=1.0, help="Branching fraction (default: 1.0)")
+    p_alaga.add_argument("--icc", type=float, default=0.0, help="Internal conversion coefficient alpha (default: 0.0)")
+    p_alaga.add_argument("--alaga-spin", type=float, default=None, help="Initial spin for Alaga ratio calculation")
+    p_alaga.add_argument("--alaga-K", type=float, default=0.0, help="Band K quantum number for Alaga ratio (default: 0.0)")
+    p_alaga.add_argument("--Eg1", type=float, default=None, help="Delta I = 1 gamma energy in keV")
+    p_alaga.add_argument("--Eg2", type=float, default=None, help="Delta I = 2 gamma energy in keV")
+    p_alaga.add_argument("--I1", type=float, default=None, help="Delta I = 1 gamma intensity")
+    p_alaga.add_argument("--I2", type=float, default=None, help="Delta I = 2 gamma intensity")
+    p_alaga.add_argument("--delta", type=float, default=0.0, help="Delta I = 1 multipole mixing ratio delta(E2/M1)")
+    p_alaga.add_argument("--I", type=float, default=None, help="Initial state spin I for |gK-gR|/Q0 extraction")
+    p_alaga.add_argument("--K", type=float, default=None, help="Band K value for |gK-gR|/Q0 extraction")
+    p_alaga.set_defaults(func=cmd_alaga)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

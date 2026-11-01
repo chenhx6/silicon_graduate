@@ -6020,3 +6020,19 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `relcoulex` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **33 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Electromagnetic transition rates, Weisskopf units and Alaga branching rules 2026-11-02T07:00:00+08:00
+
+- Integrated single-particle Weisskopf estimates, level lifetime conversions, Alaga branching rules, and in-band cascade $B(M1)/B(E2)$ ratios (`knowledge/concepts/electromagnetic-transition-rates-weisskopf-and-alaga-rules.md`):
+  - Weisskopf single-particle reduced transition probability benchmarks: $B_{\\text{sp}}(E1) = 0.06446 A^{2/3}\\ e^2\\text{fm}^2$, $B_{\\text{sp}}(E2) = 0.05940 A^{4/3}\\ e^2\\text{fm}^4$, $B_{\\text{sp}}(M1) = 1.7905\\ \\mu_N^2$, establishing the quantitative metric for collective enhancement ($B(E2) \\sim 100\\text{--}1000\\text{ W.u.}$).
+  - Excited level lifetime to $B(E2)$ and intrinsic quadrupole moment $Q_0$ conversion with internal conversion electron correction $\\alpha_{\\text{icc}}$.
+  - Axial rotor Alaga branching rule: $B(\\lambda; I_i K \\to I_{f1} K) / B(\\lambda; I_i K \\to I_{f2} K) = \\langle I_i K \\lambda 0 | I_{f1} K \\rangle^2 / \\langle I_i K \\lambda 0 | I_{f2} K \\rangle^2$, establishing the benchmark ratio $B(E2; 4^+ \\to 2^+) / B(E2; 2^+ \\to 0^+) = 10/7 \\approx 1.4286$ for $K=0$ ground-state bands.
+  - In-band cascade branching ratio inversion: $\\frac{B(M1; I \\to I-1)}{B(E2; I \\to I-2)} = 0.697 \\frac{E_{\\gamma 2}^5}{E_{\\gamma 1}^3} \\frac{I_{\\gamma 1}}{I_{\\gamma 2}} \\frac{1}{1 + \\delta^2}$, and extraction of the intrinsic structure parameter $|g_K - g_R| / Q_0 = \\sqrt{\\frac{5}{12} \\frac{I^2-1}{K^2} \\frac{B(M1)}{B(E2)}}$.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/electromagnetic_transition_alaga_calculator.py`:
+  - `calculate_weisskopf_unit`: single-particle estimates for $E1, E2, E3, M1, M2$;
+  - `convert_lifetime_to_b_e2`: lifetime to $B(E2)$ ($e^2\\text{b}^2$ and W.u.) and $Q_0$;
+  - `calculate_alaga_ratio_e2`: Clebsch-Gordan Alaga ratio for axial rotors;
+  - `calculate_bm1_over_be2`: $B(M1)/B(E2)$ and $|g_K - g_R| / Q_0$ extraction.
+- Unified CLI integration: added `alaga` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **34 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

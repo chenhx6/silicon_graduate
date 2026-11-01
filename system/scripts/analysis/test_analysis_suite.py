@@ -65,6 +65,7 @@ from tdpad_hyperfine_precession_calculator import calculate_larmor_frequency, in
 from pairing_gap_separation_energy_calculator import calculate_s2n_series, calculate_pairing_gap_3point, calculate_pairing_gap_5point, detect_shell_closure_drop, detect_shape_transition_anomaly, compare_empirical_bcs_gap
 from isgmr_breathing_mode_incompressibility_calculator import calculate_ka_from_isgmr_energy, leptodermous_expansion_ka, model_deformation_splitting_two_state, calculate_qpvc_self_energy_shift, diagnose_incompressibility_status
 from relativistic_coulex_virtual_photon_calculator import calculate_relativistic_coulex_kinematics, calculate_virtual_photon_numbers, calculate_relativistic_e2_coulex_cross_section, invert_b_e2_from_coulex_cross_section, transform_gamma_angular_distribution_lorentz
+from electromagnetic_transition_alaga_calculator import calculate_weisskopf_unit, convert_lifetime_to_b_e2, calculate_alaga_ratio_e2, calculate_bm1_over_be2
 
 
 def test_heavy_ion_kinematics():
@@ -648,6 +649,29 @@ def test_relativistic_coulex_virtual_photon_calculator():
     assert boost[1]["jacobian_solid_angle"] < 0.6, "Backward Jacobian must expand solid angle (< 0.6)"
     print("  ✓ relativistic_coulex_virtual_photon_calculator passed.")
 
+
+def test_electromagnetic_transition_alaga_calculator():
+    print("Testing electromagnetic_transition_alaga_calculator...")
+    # Weisskopf unit test for A=132
+    wu = calculate_weisskopf_unit(A=132, multipolarity="E2")
+    assert abs(wu["B_sp_value"] - 39.92) < 0.1, f"B_sp(E2) mismatch: {wu['B_sp_value']}"
+
+    # Lifetime to B(E2) conversion: 131Ce tau = 1.235 ps, E_gamma = 465 keV
+    conv = convert_lifetime_to_b_e2(tau_ps=1.235, E_gamma_keV=465.0, A=131)
+    assert 2.5 < conv["B_E2_e2b2"] < 3.5, f"B(E2) out of range: {conv['B_E2_e2b2']}"
+    assert conv["B_E2_W_u"] > 500.0, "Collective enhancement should exceed 500 W.u."
+    assert conv["Q0_intrinsic_eb"] > 5.0, "Q0 should exceed 5 eb"
+
+    # Alaga ratio test: 4+ -> 2+ vs 2+ -> 0+
+    al = calculate_alaga_ratio_e2(I_initial=4, K_band=0)
+    assert abs(al["alaga_ratio_to_2_0"] - (10.0 / 7.0)) < 1e-4, f"Alaga ratio mismatch: {al['alaga_ratio_to_2_0']}"
+
+    # In-band B(M1)/B(E2) and |gK - gR| / Q0 extraction
+    bm1 = calculate_bm1_over_be2(E_gamma_dI1_keV=465.0, E_gamma_dI2_keV=820.0, I_gamma_dI1=100.0, I_gamma_dI2=80.0, delta_mixing=0.1, spin_I=8.5, K_val=5.5)
+    assert 3.0 < bm1["B_M1_over_B_E2_muN2_e2b2"] < 3.5, f"B(M1)/B(E2) out of range: {bm1['B_M1_over_B_E2_muN2_e2b2']}"
+    assert 1.5 < bm1["abs_gK_minus_gR_over_Q0_muN_eb"] < 2.0, "gK-gR / Q0 out of range"
+    print("  ✓ electromagnetic_transition_alaga_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -683,4 +707,5 @@ if __name__ == "__main__":
     test_pairing_gap_separation_energy_calculator()
     test_isgmr_breathing_mode_incompressibility_calculator()
     test_relativistic_coulex_virtual_photon_calculator()
-    print("ALL 33 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_electromagnetic_transition_alaga_calculator()
+    print("ALL 34 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
