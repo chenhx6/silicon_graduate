@@ -3,11 +3,11 @@ type: source
 title: "吴治华 2005 - 原子核物理实验方法（第三版）"
 aliases: [吴治华实验方法, Wu 2005 Experimental Methods, 原子核物理实验方法]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "原子核物理实验方法（第三版）"
 authors: [吴治华]
 publisher: "原子能出版社"
@@ -18,6 +18,8 @@ canonical_source: "吴治华, 《原子核物理实验方法（第三版）》, 
 library_file: "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf"
 raw_file: "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf"
 raw_sha256: "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591"
+archive_required: true
+raw_storage_status: archived-local
 nuclei: []
 reactions: [in-beam-gamma, coulomb-excitation, rdm, dsam]
 experiments: []
@@ -26,6 +28,9 @@ topics: [hpge-detectors, gamma-spectroscopy, coincidence-measurements, lifetime-
 ---
 
 # 吴治华 2005 - 原子核物理实验方法（第三版）
+
+> 阅读状态修订（2026-11-02）：撤回无逐页记录支持的整书 deep-read。下方旧概述不作为整章已读证据。本轮实际核查范围及需要修订的仪器表述见 [[reconciliation-of-detector-dead-time-and-pulse-pileup]]；仅对所列原件页取得局部阅读记录。
+
 
 ## 专著概况与定位
 

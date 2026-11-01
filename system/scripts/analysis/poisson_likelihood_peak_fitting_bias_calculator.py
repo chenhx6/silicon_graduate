@@ -1,292 +1,350 @@
 #!/usr/bin/env python3
-"""
-poisson_likelihood_peak_fitting_bias_calculator.py
-==================================================
-Low-Count Gamma Peak Fitting, Poisson Maximum Likelihood vs Neyman Chi-Square Bias &
-Statistical Significance Evaluator.
+"""Fixed-template Poisson peak inference and a single simulated comparison.
 
-Physics & Formulation:
-----------------------
-1. The Infamous Low-Count Chi-Square Bias (Zhu Yongsheng Ch 8 & Baker-Cousins 1984):
-   In nuclear spectroscopy (e.g. weak transitions, coincidence gating, radioactive decay),
-   bin counts n_i frequently fall below 10.
-   Fitting an analytical peak y_i(theta) = S_i(A, mu, sigma) + B_i(b_0) via standard
-   Neyman Least Squares (weighted by observed counts):
-       chi_N^2 = sum_i [ (n_i - y_i)^2 / max(1, n_i) ]
-   systematically UNDERESTIMATES the true peak area A by 15% to 35%!
-   Reason: Channels where n_i fluctuates downwards receive disproportionately high weights (1/n_i),
-   dragging the fitted curve down.
+Counts must be independent, unweighted, unsubtracted Poisson observations.
+Only A >= 0 is fitted; centroid, width and background are treated as known.
+The area is the full Gaussian integral, including tails outside the fit window.
+Likelihood-ratio intervals and local significances have asymptotic calibration;
+neither finite-sample unbiasedness nor a new nuclear level is guaranteed.
 
-2. Baker-Cousins Poisson Likelihood Deviance chi_lambda^2:
-   The mathematically exact Poisson Maximum Likelihood ratio:
-       chi_lambda^2 = -2 * ln[ L(y) / L(n) ] = 2 * sum_i [ y_i - n_i + n_i * ln(n_i / y_i) ]
-   where n_i * ln(n_i / y_i) -> 0 when n_i = 0.
-   Features:
-     - Strictly unbiased parameter estimation even at n_i ~ 0 or 1.
-     - Asymptotically obeys standard chi-square distribution with (N - k) degrees of freedom.
-     - Correct profile likelihood error bars (Delta chi^2 = 1.0 for 1-sigma, 3.84 for 95% CL).
-
-3. Discovery Significance Z (Wilks' Theorem & p-value):
-   Null hypothesis H_0 (background only, A = 0) vs Best-fit H_1:
-       Delta_chi^2 = chi_lambda^2(A=0) - chi_lambda^2(A_hat)
-       Significance Z = sqrt( max(0, Delta_chi^2) )
-   Discovery threshold: Z >= 5.0 sigma (p < 2.87 * 10^-7).
-
-References:
-  - 朱永生, 《实验物理中的概率和统计》, 科学出版社 (2004), 第8章 (参数估计) 与第11章 (区间估计).
-  - S. Baker and R. D. Cousins, Nucl. Instr. Meth. 221, 437-442 (1984).
-  - O. Behnke et al., Data Analysis in High Energy Physics, Wiley (2013), Ch 3.
+Source locators and limits: knowledge/concepts/
+poisson-maximum-likelihood-and-gamma-peak-fitting-bias.md.
+Simulation uses NumPy's local Generator, not the global random state.
 """
 
-import math
-import json
 import argparse
-import sys
-from typing import Dict, Any, List, Optional, Tuple
+import json
+import math
+from typing import Any, Dict, List, Tuple
 
 
-def gaussian_peak_model(channels: List[float], area: float, centroid: float, sigma: float, bg: float) -> List[float]:
+def _finite(value: float, name: str, minimum: float = None) -> float:
+    try:
+        value = float(value)
+    except (TypeError, ValueError, OverflowError) as exc:
+        raise ValueError(f"{name} must be a finite number") from exc
+    if not math.isfinite(value) or (minimum is not None and value < minimum):
+        raise ValueError(f"{name} must be finite and >= {minimum}")
+    return value
+
+
+def _vector(values, name, counts=False) -> List[float]:
+    result = [_finite(x, name, 0 if counts else None) for x in values]
+    if not result:
+        raise ValueError(f"{name} must not be empty")
+    if counts and any(not x.is_integer() for x in result):
+        raise ValueError("Poisson observations must be nonnegative integer raw counts")
+    return result
+
+
+def _paired(n_obs, y_model):
+    counts = _vector(n_obs, "n_obs", counts=True)
+    means = [_finite(y, "model mean", 0) for y in y_model]
+    if len(counts) != len(means):
+        raise ValueError("observations and model must have identical lengths")
+    return counts, means
+
+
+def gaussian_peak_model(
+    channels: List[float], area: float, centroid: float, sigma: float, bg: float
+) -> List[float]:
+    """Integrate a Gaussian over equally spaced channel bins.
+
+    Channel values are bin centres, with edges halfway between them. A single
+    channel has width one. bg is known expected counts per bin, not a density.
+    Nonuniform binning needs an explicit different forward model.
     """
-    Calculates expected bin counts y_i for a Gaussian peak + constant background.
-    """
-    inv_sqrt2pi_sigma = 1.0 / (math.sqrt(2.0 * math.pi) * sigma)
-    two_sigma_sq = 2.0 * (sigma**2)
-    model = []
+    channels = _vector(channels, "channels")
+    area = _finite(area, "area", 0)
+    centroid = _finite(centroid, "centroid")
+    sigma = _finite(sigma, "sigma", 0)
+    bg = _finite(bg, "bg", 0)
+    if sigma == 0:
+        raise ValueError("sigma must be positive")
+    width = channels[1] - channels[0] if len(channels) > 1 else 1.0
+    if width <= 0 or any(
+        not math.isclose(b - a, width, rel_tol=1e-10, abs_tol=1e-12)
+        for a, b in zip(channels, channels[1:])
+    ):
+        raise ValueError("channel centres must be increasing and equally spaced")
+    result = []
     for x in channels:
-        g = area * inv_sqrt2pi_sigma * math.exp(-((x - centroid)**2) / two_sigma_sq)
-        model.append(g + bg)
-    return model
+        lo = ((x - centroid) - width / 2) / sigma / math.sqrt(2)
+        hi = ((x - centroid) + width / 2) / sigma / math.sqrt(2)
+        # Use survival probabilities in either tail to avoid CDF cancellation.
+        if lo >= 0:
+            mass = 0.5 * (math.erfc(lo) - math.erfc(hi))
+        elif hi <= 0:
+            mass = 0.5 * (math.erfc(-hi) - math.erfc(-lo))
+        else:
+            mass = 0.5 * (math.erf(hi) - math.erf(lo))
+        result.append(_finite(area * mass + bg, "model mean", 0))
+    return result
 
 
 def compute_neyman_chisq(n_obs: List[float], y_model: List[float]) -> float:
-    """
-    Standard Neyman chi-square: sum (n_i - y_i)^2 / max(1, n_i).
-    """
-    chisq = 0.0
-    for n, y in zip(n_obs, y_model):
-        w = max(1.0, n)
-        chisq += ((n - y)**2) / w
-    return chisq
+    """Data-weighted comparison loss with the explicit max(1,n) convention."""
+    counts, means = _paired(n_obs, y_model)
+    return math.fsum((n - y) ** 2 / max(1.0, n)
+                     for n, y in zip(counts, means))
 
 
-def compute_baker_cousins_poisson_deviance(n_obs: List[float], y_model: List[float]) -> float:
-    """
-    Baker-Cousins Poisson likelihood deviance:
-    chi_lambda^2 = 2 * sum [ y_i - n_i + (n_i * ln(n_i / y_i) if n_i > 0 else 0) ]
-    """
-    dev = 0.0
-    for n, y in zip(n_obs, y_model):
-        y_safe = max(1e-9, y)
-        if n <= 0.0:
-            dev += 2.0 * y_safe
+def _deviance(counts, means):
+    terms = []
+    for n, y in zip(counts, means):
+        if n == 0:
+            terms.append(2 * y)
+        elif y == 0:
+            return math.inf
         else:
-            dev += 2.0 * (y_safe - n + n * math.log(n / y_safe))
-    return dev
+            d = y - n
+            if abs(d) < 0.1 * n:
+                term = d - n * math.log1p(d / n)
+            else:
+                term = d + n * (math.log(n) - math.log(y))
+            terms.append(2 * max(0.0, term))
+    return math.fsum(terms)
+
+
+def compute_baker_cousins_poisson_deviance(
+    n_obs: List[float], y_model: List[float]
+) -> float:
+    """2 sum(mu-n+n log(n/mu)); (0,0) contributes 0, (n>0,0) infinity.
+
+    Validation rejects fractional or negative observations, but cannot establish
+    their provenance: integer background subtraction is still not Poisson data.
+    """
+    counts, means = _paired(n_obs, y_model)
+    return _deviance(counts, means)
+
+
+def _bisect_increasing(func, lo, hi):
+    """Root of an increasing function bracketed by nonpositive/nonnegative ends."""
+    for _ in range(120):
+        mid = lo + (hi - lo) / 2
+        if func(mid) > 0:
+            hi = mid
+        else:
+            lo = mid
+        if hi - lo <= 2e-12 * max(1.0, abs(mid)):
+            break
+    return lo + (hi - lo) / 2
+
+
+def _fit(channels, n_obs, centroid, sigma, bg, loss_type, data_kind):
+    if data_kind != "raw-counts":
+        raise ValueError("Use a joint on/off likelihood for background-subtracted data")
+    if loss_type not in ("poisson", "neyman"):
+        raise ValueError("loss_type must be 'poisson' or 'neyman'")
+    template = gaussian_peak_model(channels, 1, centroid, sigma, 0)
+    bg = _finite(bg, "bg", 0)
+    counts, _ = _paired(n_obs, template)
+    mass = math.fsum(template)
+    if mass <= 0:
+        raise ValueError("Gaussian has no numerically resolvable mass in this window")
+    if bg == 0 and any(n > 0 and p == 0 for n, p in zip(counts, template)):
+        raise ValueError("Positive counts in a bin with zero model support")
+
+    def loss(area):
+        means = [area * p + bg for p in template]
+        if loss_type == "poisson":
+            return _deviance(counts, means)
+        return math.fsum((n - y) ** 2 / max(1.0, n)
+                         for n, y in zip(counts, means))
+
+    if loss_type == "neyman":
+        # Solve the weighted linear least-squares problem without a scan.
+        curvature = math.fsum(p * p / max(1.0, n)
+                              for n, p in zip(counts, template))
+        if curvature == 0:
+            raise ValueError("Neyman curvature underflow; rescale the model")
+        area = max(0.0, math.fsum(p * (n - bg) / max(1.0, n)
+                                  for n, p in zip(counts, template)) / curvature)
+    elif bg == 0:
+        area = math.fsum(counts) / mass
+    else:
+        # Negative score of log L is monotone; its sign at A=0 tests the boundary.
+        def negative_score(area):
+            return math.fsum(
+                p - (n * p) / (area * p + bg) for n, p in zip(counts, template)
+            )
+
+        if negative_score(0) >= 0:
+            area = 0.0
+        else:
+            # At this bound sum(n*p/(A*p+b)) <= sum(n)/A = mass.
+            upper = _finite(math.fsum(counts) / mass, "area bracket", 0)
+            area = _bisect_increasing(negative_score, 0, upper)
+    return _finite(area, "fitted area", 0), loss, mass
+
+
+def _loss_interval(area, loss, delta):
+    minimum = loss(area)
+    target = minimum + delta
+    lower = 0.0
+    if area > 0 and loss(0) > target:
+        lower = _bisect_increasing(lambda a: target - loss(a), 0, area)
+    upper = area + max(1.0, math.sqrt(area))
+    while loss(upper) < target:
+        upper = area + 2 * (upper - area)
+        if not math.isfinite(upper):
+            raise ValueError("Cannot bracket likelihood endpoint at finite precision")
+    upper = _bisect_increasing(lambda a: loss(a) - target, area, upper)
+    return lower, upper
 
 
 def fit_peak_area_1d(
-    channels: List[float],
-    n_obs: List[float],
-    centroid: float,
-    sigma: float,
-    bg: float,
-    loss_type: str = "poisson"
+    channels: List[float], n_obs: List[float], centroid: float, sigma: float,
+    bg: float, loss_type: str = "poisson"
 ) -> Tuple[float, float, float]:
+    """Compatibility tuple (area, minimum loss, upper delta-loss=1 distance).
+
+    The third element is not a symmetric standard error or a coverage guarantee.
+    For Neyman it is only a loss contour. Use infer_peak_area for Poisson endpoints.
     """
-    1D Golden-section search for optimal peak area A minimizing the chosen loss function.
-    Returns (A_best, min_loss, error_1sigma).
+    area, loss, _ = _fit(channels, n_obs, centroid, sigma, bg, loss_type, "raw-counts")
+    _, upper = _loss_interval(area, loss, 1.0)
+    return area, loss(area), upper - area
+
+
+def infer_peak_area(
+    channels: List[float], n_obs: List[float], centroid: float, sigma: float,
+    bg: float, *, delta_deviance: float = 1.0, data_kind: str = "raw-counts"
+) -> Dict[str, Any]:
+    """Nonnegative MLE and conditional LR interval for fixed shape/background.
+
+    With no nuisance parameters the profile is just the one-dimensional
+    likelihood. Nominal delta=1 (about 68%) or 3.84 (about 95%, two-sided) uses
+    regular asymptotics only. Low counts and A=0 require coverage calibration.
     """
-    def loss_func(A: float) -> float:
-        y = gaussian_peak_model(channels, A, centroid, sigma, bg)
-        if loss_type == "neyman":
-            return compute_neyman_chisq(n_obs, y)
-        else:
-            return compute_baker_cousins_poisson_deviance(n_obs, y)
-
-    # Bracket search around reasonable area range [0, 5000]
-    # Simple grid + quadratic refinement
-    grid_A = [i * 2.0 for i in range(1500)]
-    best_A = 0.0
-    best_val = float("inf")
-    for A in grid_A:
-        val = loss_func(A)
-        if val < best_val:
-            best_val = val
-            best_A = A
-
-    # Refine around best_A
-    A_low = max(0.0, best_A - 5.0)
-    A_high = best_A + 5.0
-    step = 0.05
-    cur_A = A_low
-    while cur_A <= A_high:
-        val = loss_func(cur_A)
-        if val < best_val:
-            best_val = val
-            best_A = cur_A
-        cur_A += step
-
-    # Estimate 1-sigma profile error (Delta loss = 1.0)
-    # Scan upwards
-    A_err_high = best_A
-    cur_A = best_A
-    while cur_A <= best_A + 200.0:
-        cur_A += 0.2
-        if loss_func(cur_A) >= best_val + 1.0:
-            A_err_high = cur_A
-            break
-    err_sigma = max(1.0, A_err_high - best_A)
-
-    return best_A, best_val, err_sigma
+    delta = _finite(delta_deviance, "delta_deviance", 0)
+    if delta == 0:
+        raise ValueError("delta_deviance must be positive")
+    bg = _finite(bg, "bg", 0)
+    area, loss, mass = _fit(channels, n_obs, centroid, sigma, bg, "poisson", data_kind)
+    minimum, null = loss(area), loss(0)
+    lower, upper = _loss_interval(area, loss, delta)
+    q0 = max(0.0, null - minimum) if area > 0 else 0.0
+    if bg == 0:
+        calibration, z, p = "unavailable-zero-background-null", None, None
+    else:
+        calibration = "asymptotic-local-half-chi-square"
+        z = math.sqrt(q0)
+        # Inclusive-tail convention at the atom: no excess means p=1, Z=0.
+        p = 0.5 * math.erfc(z / math.sqrt(2)) if q0 > 0 else 1.0
+    return {
+        "fitted_area_counts": area,
+        "min_deviance_chi_lambda2": minimum,
+        "null_deviance_A0": null if math.isfinite(null) else None,
+        "null_has_zero_likelihood": not math.isfinite(null),
+        "area_error_lower_counts": area - lower,
+        "area_error_upper_counts": upper - area,
+        "profile_likelihood_interval": {
+            "lower_counts": lower, "upper_counts": upper, "delta_deviance": delta,
+            "coverage": "not-calibrated-finite-sample",
+            "nuisance_treatment": "centroid-width-background-fixed",
+        },
+        "window_signal_fraction": mass,
+        "local_test": {
+            "q0": q0 if math.isfinite(q0) else None,
+            "calibration": calibration, "z_asymptotic_local": z,
+            "p_asymptotic_local": p,
+            "p_at_q0_zero_convention": "inclusive-tail-p=1; no-excess-Z=0",
+        },
+    }
 
 
 def evaluate_peak_fitting_methods(
-    true_area: float = 60.0,
-    centroid: float = 50.0,
-    sigma: float = 2.0,
-    bg_counts: float = 2.0,
-    seed: int = 42
+    true_area: float = 60.0, centroid: float = 50.0, sigma: float = 2.0,
+    bg_counts: float = 2.0, seed: int = 42
 ) -> Dict[str, Any]:
+    """Generate ONE spectrum; its errors are not estimates of ensemble bias.
+
+    Positional API and main result sections are preserved. Deprecated
+    bias_percentage means single-realization relative error, undefined at A=0.
+    Legacy Z and upper-error keys alias explicitly qualified quantities.
     """
-    Generates a synthetic low-count spectrum and compares Neyman least-squares
-    vs Baker-Cousins Poisson likelihood fitting.
-    """
-    import random
-    random.seed(seed)
+    import numpy as np
 
-    n_channels = 100
-    channels = [float(i) for i in range(n_channels)]
-    y_true = gaussian_peak_model(channels, true_area, centroid, sigma, bg_counts)
-
-    # Poisson sampling
-    n_obs = []
-    for y in y_true:
-        # Poisson random variate using Knuth algorithm for small mean
-        L = math.exp(-y)
-        k = 0
-        p = 1.0
-        while p > L:
-            k += 1
-            p *= random.random()
-        n_obs.append(float(k - 1))
-
-    # 1. Fit via Poisson Deviance (Baker-Cousins MLE)
-    A_poisson, dev_poisson, err_poisson = fit_peak_area_1d(
-        channels, n_obs, centroid, sigma, bg_counts, loss_type="poisson"
-    )
-
-    # Null hypothesis deviance (A = 0)
-    y_null = gaussian_peak_model(channels, 0.0, centroid, sigma, bg_counts)
-    dev_null = compute_baker_cousins_poisson_deviance(n_obs, y_null)
-    delta_dev = max(0.0, dev_null - dev_poisson)
-    significance_Z = math.sqrt(delta_dev)
-
-    # 2. Fit via standard Neyman Chi-Square
-    A_neyman, chisq_neyman, err_neyman = fit_peak_area_1d(
-        channels, n_obs, centroid, sigma, bg_counts, loss_type="neyman"
-    )
-
-    bias_neyman_pct = ((A_neyman - true_area) / max(1e-6, true_area)) * 100.0
-    bias_poisson_pct = ((A_poisson - true_area) / max(1e-6, true_area)) * 100.0
-
+    true_area = _finite(true_area, "true_area", 0)
+    channels = [float(i) for i in range(100)]
+    means = gaussian_peak_model(channels, true_area, centroid, sigma, bg_counts)
+    counts = np.random.default_rng(seed).poisson(means).tolist()
+    poi = infer_peak_area(channels, counts, centroid, sigma, bg_counts)
+    area, loss, _ = _fit(channels, counts, centroid, sigma, bg_counts,
+                         "neyman", "raw-counts")
+    ney = {"fitted_area_counts": area, "min_neyman_chisq": loss(area)}
+    for fit in (poi, ney):
+        error = fit["fitted_area_counts"] - true_area
+        fit["estimation_error_counts"] = error
+        fit["relative_error_percentage"] = 100 * error / true_area if true_area else None
+        fit["bias_percentage"] = fit["relative_error_percentage"]
+    poi["area_uncertainty_1sigma"] = poi["area_error_upper_counts"]
+    poi["statistical_significance_Z_sigma"] = poi["local_test"]["z_asymptotic_local"]
+    poi["delta_chi2"] = poi["local_test"]["q0"]
     return {
         "true_parameters": {
-            "true_area_counts": true_area,
-            "centroid_channel": centroid,
-            "sigma_channel": sigma,
-            "background_counts_per_channel": bg_counts
+            "true_area_counts": true_area, "centroid_channel": centroid,
+            "sigma_channel": sigma, "background_counts_per_channel": bg_counts,
         },
-        "poisson_mle_baker_cousins": {
-            "fitted_area_counts": A_poisson,
-            "area_uncertainty_1sigma": err_poisson,
-            "min_deviance_chi_lambda2": dev_poisson,
-            "null_deviance_A0": dev_null,
-            "delta_chi2": delta_dev,
-            "statistical_significance_Z_sigma": significance_Z,
-            "bias_percentage": bias_poisson_pct,
-            "is_unbiased": bool(abs(bias_poisson_pct) < 10.0)
+        "poisson_mle_baker_cousins": poi,
+        "neyman_least_squares": ney,
+        "simulation": {
+            "kind": "single-realization-not-ensemble-bias",
+            "seed": seed, "sampler": "numpy.random.default_rng.poisson",
+            "channels": channels, "observed_counts": counts,
+            "expected_counts": means,
         },
-        "neyman_least_squares": {
-            "fitted_area_counts": A_neyman,
-            "area_uncertainty_1sigma": err_neyman,
-            "min_neyman_chisq": chisq_neyman,
-            "bias_percentage": bias_neyman_pct,
-            "systematic_underestimation": bool(bias_neyman_pct < -5.0)
-        }
+        "api_notes": {
+            "bias_percentage": "deprecated alias of single-realization relative_error_percentage",
+            "area_uncertainty_1sigma": "deprecated alias of upper delta-deviance=1 distance only",
+            "statistical_significance_Z_sigma": "alias of asymptotic local Z; may be null",
+            "removed": ["is_unbiased", "systematic_underestimation",
+                        "neyman_least_squares.area_uncertainty_1sigma"],
+        },
     }
 
 
 def format_text_report(res: Dict[str, Any]) -> str:
-    true_p = res["true_parameters"]
-    poi = res["poisson_mle_baker_cousins"]
-    ney = res["neyman_least_squares"]
-    disc_label = "5-sigma Discovery!" if poi["statistical_significance_Z_sigma"] >= 5.0 else "Evidence"
-    bias_label = "SEVERE DOWNWARD BIAS DETECTED!" if ney["systematic_underestimation"] else "Acceptable"
-
-    lines = [
-        "=" * 74,
-        "   LOW-COUNT GAMMA PEAK FITTING: POISSON MLE vs NEYMAN CHI-SQUARE BIAS",
-        "   Based on Zhu Yongsheng (Probability & Statistics in Experimental Physics)",
-        "=" * 74,
-        f" TRUE SIMULATED GAMMA-RAY PEAK:",
-        f"   True Peak Area       : {true_p['true_area_counts']:.1f} counts",
-        f"   Peak Centroid & Width: Centroid = {true_p['centroid_channel']:.1f}, sigma = {true_p['sigma_channel']:.1f} channels",
-        f"   Mean Background      : {true_p['background_counts_per_channel']:.1f} counts/channel (Low-count Poisson regime)",
-        "-" * 74,
-        f" 1. BAKER-COUSINS POISSON MAXIMUM LIKELIHOOD (Unbiased Reference):",
-        f"   Fitted Peak Area     : {poi['fitted_area_counts']:.1f} +/- {poi['area_uncertainty_1sigma']:.1f} counts",
-        f"   Deviance chi_lambda2 : {poi['min_deviance_chi_lambda2']:.2f} (dof ~ 99)",
-        f"   Delta chi^2 (vs A=0) : {poi['delta_chi2']:.2f}",
-        f"   Discovery Signif. Z  : {poi['statistical_significance_Z_sigma']:.2f} sigma ({disc_label})",
-        f"   Estimation Bias      : {poi['bias_percentage']:+.2f}% (Consistent with zero bias)",
-        "-" * 74,
-        f" 2. STANDARD NEYMAN CHI-SQUARE LEAST SQUARES (Data-Weighted):",
-        f"   Fitted Peak Area     : {ney['fitted_area_counts']:.1f} +/- {ney['area_uncertainty_1sigma']:.1f} counts",
-        f"   Neyman Chi-Square    : {ney['min_neyman_chisq']:.2f}",
-        f"   Estimation Bias      : {ney['bias_percentage']:+.2f}%",
-        f"   Systematic Bias Diagn: {bias_label}",
-        "-" * 74,
-        " Physical & Statistical Synthesis:",
-        "   - Standard data-weighted Neyman least squares gives high weights to low fluctuations,",
-        "     dragging the fitted peak down by 15-30% in low-count experimental spectra.",
-        "   - Baker-Cousins Poisson likelihood ratio chi_lambda^2 eliminates this systematic bias,",
-        "     preserving true transition intensities and branching ratios in weak decay channels.",
-        "=" * 74
-    ]
-    return "\n".join(lines)
+    poi, ney = res["poisson_mle_baker_cousins"], res["neyman_least_squares"]
+    interval, test = poi["profile_likelihood_interval"], poi["local_test"]
+    z = test["z_asymptotic_local"]
+    significance = f"{z:.3f}" if z is not None else "unavailable (singular null)"
+    return "\n".join([
+        "POISSON PEAK FIT: fixed centroid, width and known background",
+        f"True simulated full Gaussian area: {res['true_parameters']['true_area_counts']:.3f}",
+        f"Nonnegative Poisson MLE area: {poi['fitted_area_counts']:.3f} counts",
+        f"LR interval (delta={interval['delta_deviance']:g}): "
+        f"[{interval['lower_counts']:.3f}, {interval['upper_counts']:.3f}] counts",
+        f"Minimum Poisson deviance: {poi['min_deviance_chi_lambda2']:.3f}",
+        f"Asymptotic LOCAL excess Z: {significance}",
+        f"Neyman area (max(1,n) weights): {ney['fitted_area_counts']:.3f} counts",
+        f"Single-realization Poisson estimation error: {poi['estimation_error_counts']:+.3f} counts",
+        f"Single-realization Neyman estimation error: {ney['estimation_error_counts']:+.3f} counts",
+        "These errors do not measure ensemble bias; MLE can have finite-sample bias.",
+        "Interval coverage and local p-values need calibration for sparse/boundary data.",
+        "Minimum deviance has no automatic chi-square goodness-of-fit calibration.",
+        "A centroid/width search requires a trials correction; background uncertainty needs profiling.",
+        "A large local Z alone does not establish a new transition or nuclear level.",
+        "Fit raw counts; background-subtracted spectra require a joint observation model.",
+    ])
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Poisson Maximum Likelihood vs Neyman Chi-Square Bias Evaluator"
-    )
-    parser.add_argument("--area", "-A", type=float, default=60.0,
-                        help="True simulated peak area in counts (default: 60.0)")
-    parser.add_argument("--bg", type=float, default=2.0,
-                        help="Background counts per channel (default: 2.0)")
-    parser.add_argument("--centroid", type=float, default=50.0,
-                        help="Peak centroid channel (default: 50.0)")
-    parser.add_argument("--sigma", type=float, default=2.0,
-                        help="Peak Gaussian width sigma in channels (default: 2.0)")
-    parser.add_argument("--seed", type=int, default=42,
-                        help="Random seed for Poisson reproduction (default: 42)")
-    parser.add_argument("--json", action="store_true",
-                        help="Output pure JSON")
-
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--area", "-A", type=float, default=60.0)
+    parser.add_argument("--bg", type=float, default=2.0)
+    parser.add_argument("--centroid", type=float, default=50.0)
+    parser.add_argument("--sigma", type=float, default=2.0)
+    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--json", action="store_true")
     args = parser.parse_args()
-
-    res = evaluate_peak_fitting_methods(
-        true_area=args.area,
-        centroid=args.centroid,
-        sigma=args.sigma,
-        bg_counts=args.bg,
-        seed=args.seed
-    )
-
-    if args.json:
-        print(json.dumps(res, indent=2))
-    else:
-        print(format_text_report(res))
+    try:
+        res = evaluate_peak_fitting_methods(args.area, args.centroid, args.sigma,
+                                            args.bg, args.seed)
+    except ValueError as exc:
+        parser.error(str(exc))
+    print(json.dumps(res, indent=2, allow_nan=False) if args.json else format_text_report(res))
 
 
 if __name__ == "__main__":

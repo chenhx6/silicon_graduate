@@ -1,64 +1,49 @@
-# 巨共振同位旋劈裂（$T_>, T_<$）、Lane 对称势与泡利阻塞微观机理：同位旋代数与电荷无关性破缺
-
-## 1. 物理本质与同位旋 Clebsch-Gordan 耦合
-
-在具有中子过剩（$N > Z$）的原子核基态中，基态具有非零的同位旋量子数：
-$$T_0 = T_z = \frac{N - Z}{2}$$
-其基态同位旋波函数严格处于同位旋多重态的底态 $|T_0, M_T = T_0 \rangle$。
-
-当电弱或强相互作用的异旋跃迁算符（Isovector Operator，$\Delta T = 1, \Delta T_z = 0$）作用于该核时（例如电偶极激发的巨偶极共振 IVGDR、电单极激发的异旋巨单极共振 IVGMR）：
-根据同位旋 Clebsch-Gordan 系数耦合定理：
-$$|T_0, T_0 \rangle \otimes |1, 0 \rangle = C_{T_0 T_0 1 0}^{T_0 T_0} |T_< = T_0, T_0 \rangle + C_{T_0 T_0 1 0}^{T_0+1 T_0} |T_> = T_0 + 1, T_0 \rangle$$
-任何异旋激发态均不可避免地被劈裂为两个具有不同总同位旋的独立物理分支：
-1. **低同位旋主分支（$T_<$ 分支，$T = T_0$）**；
-2. **高同位旋客分支（$T_>$ 分支，$T = T_0 + 1$）**，它是邻近核中同位旋类似态（Isobaric Analog State, IAS）的反转多重态成员。
-
+---
+type: concept
+title: "巨共振同位旋分支：几何系数与动力学强度分开"
+aliases: [同位旋分支与Lane势边界]
+created: 2026-11-02
+updated: 2026-11-02
+status: ai-draft
+review_status: unreviewed
+tags: [isospin, giant-resonance, lane-potential, model-boundary]
 ---
 
-## 2. Lane 对称势与能级劈裂能差 $\Delta E_T$
+# 巨共振同位旋分支：几何系数与动力学强度分开
 
-两个同位旋分支之间的能量间隔直接反映了核相互作用中的同位旋依赖性。根据 A. M. Lane 提出的光学模型核对称势（Lane Potential）：
-$$V(r) = V_0(r) + \frac{V_1(r)}{A} (\vec{t} \cdot \vec{T}_0)$$
-其中 $V_1 \approx 60 - 100\text{ MeV}$ 为 Lane 对称势强度，$\vec{t}$ 为跃迁核子的同位旋（$t = 1/2$），$\vec{T}_0$ 为核芯同位旋。
+## Definition
 
-通过代数恒等式：
-$$\vec{t} \cdot \vec{T}_0 = \frac{1}{2} \left[ T(T+1) - T_0(T_0+1) - t(t+1) \right]$$
-对两个分支求能量本征值差，得到著名的 **Lane 同位旋劈裂定理**：
-$$\Delta E_T = E(T_> = T_0 + 1) - E(T_< = T_0) = \frac{V_1}{A} (T_0 + 1)$$
-这一简练的解析公式表明：**巨共振同位旋双分支的能量裂距直接提供了在有限核体系中独立测定 Lane 对称势强度 $V_1$ 的微观基准**。
+在近似同位旋守恒、基态 T=Tz=(N−Z)/2≥0，且作用为 q=0 的秩一同位旋算符时，角动量加法允许 T'=T 或 T+1；T−1 被 M=T 的下限排除。若 T=0，则**只允许 T'=1**，不能说 N=Z 核一定有两条等强度分支。
 
----
+## Necessary Assumptions
 
-## 3. Clebsch-Gordan 跃迁强度分布与泡利阻塞抑制（Pauli Blocking）
+把同位旋秩、末态同位旋变化量和电磁多极阶数分开：秩一算符不等于每个跃迁必有 ΔT=1。真实核还可能有库仑混合。光核 q=0 响应、核子散射中 t=1/2 弹核耦合与电荷交换 q=±1 不是同一套分支。
 
-两分支跃迁强度的几何比率由同位旋 Clebsch-Gordan 系数决定：
-$$\frac{S(T_>)}{S(T_<)} = \frac{(C_{T_0 T_0 1 0}^{T_0+1 T_0})^2}{(C_{T_0 T_0 1 0}^{T_0 T_0})^2} \left( 1 - \frac{3 T_0}{2 A} \right) = \frac{1}{T_0} \left( 1 - \frac{3 T_0}{2 A} \right)$$
-其中括号中的项为泡利不相容原理（Pauli Blocking）对跃迁中子相干退激的几何阻抑修正。
+Wigner–Eckart 关系包含几何 Clebsch–Gordan 系数，也包含不同末态的**约化矩阵元及其规范因子**。只知道几何系数，不能得到全部巨共振的实验强度百分比。
 
-高同位旋分支 $T_>$ 所占总跃迁强度的相对份额近似为：
-$$\text{Fraction}(T_>) \approx \frac{1}{T_0 + 1}$$
+## Discriminating Observables
 
-### 同位旋演化的物理推论：
-- **自共轭核或轻核（$N \approx Z$，$T_0 \sim 0$ 或 $1$）**：
-  $T_>$ 分支与 $T_<$ 分支具有相近的跃迁强度（各占 $\sim 50\%$），两峰在光核反应截面上表现为对称的双峰结构；
-- **重中子过剩核（如 $^{208}\text{Pb}$，$N=126, Z=82 \implies T_0 = 22.0$）**：
-  由于中子费米面远高于质子费米面，质子向中子轨道的空穴跃迁受到极其严重的泡利完全阻塞（Pauli Exclusion），高同位旋分支的强度份额被剧烈压缩至仅占 **$4.3\%$**！绝大部分强度被锁死在低同位旋 $T_<$ 主峰（占 $95.7\%$）。
+需识别对应激发算符、基态/末态同位旋、各通道实验截面、对其它多极分量的分解及模型输运因素。要提取 Lane 势，须声明光学势中系数及 t·T 的规范，不能将约定不同的 V1 数值直接互换。
 
----
+## Supporting Evidence
 
-## 4. 科学分析套件实战验证
+同位旋三角条件与 q=0 加法是代数重构。[[book-bohr-mottelson-nuclear-structure]] 第一卷对称性/角动量附录是后续逐式学习入口，但本轮未读完这些附录，具体巨共振动力学数值没有获得原式核验，`needs_review: true`。
 
-Wiki 内置模块 `system/scripts/analysis/isovector_giant_resonance_splitting_calculator.py`（CLI 命令：`python3 system/scripts/analysis/nuclear_analyzer.py isg`）对 $^{208}\text{Pb}$ 处的 IVGDR 同位旋劈裂进行了严格微观计算：
+此前程序用人为给定的 V1 和经验质心，先假设高分支份额 1/(T+1)，再倒推出峰位。该程序输出的“Pb 高分支 4.3%、能差 7.19 MeV”是这套假设的结果，不是测量，也不是由泡利阻塞独立算得。其声称的修正强度比甚至未被实现，不能当作定量微观证据。
 
-```bash
-# 模拟 208Pb (T0 = 22.0) 在 Lane 势 V1 = 65.0 MeV 下的同位旋劈裂与分支份额
-python3 system/scripts/analysis/nuclear_analyzer.py isg -Z 82 -A 208 --mode IVGDR --V1 65.0
-```
+## Counter-evidence and Competing Interpretations
 
-**实测输出解析**：
-- **母核同位旋**：$T_0 = 22.0$，IVGDR 质心能量 $E_{\text{centroid}} = 13.73\text{ MeV}$；
-- **Lane 劈裂能距**：$\Delta E_T = 7.19\text{ MeV}$；
-- **多重态分支精细分解**：
-  - 低同位旋主分支（$T_< = 22.0$）：中心能量 $E_< = 13.42\text{ MeV}$，独占 **$95.7\%$** 的跃迁强度；
-  - 高同位旋客分支（$T_> = 23.0$）：中心能量 $E_> = 20.60\text{ MeV}$，仅残存 **$4.3\%$** 的微弱强度；
-- **物理判据**：定量验证了重核中泡利阻塞对高同位旋跃迁的剧烈压低效应，并为通过高能质子非弹性散射分离 $T_>$ 异旋共振提供了精确的能量预测基准。
+旧推导先定义 t=1/2，再把末态写为 T 与 T+1，混淆了 t=1/2 散射耦合的 T±1/2 和秩一激发的 T、T+1。与此同时，同位旋守恒的相互作用本来就可以令不同总 T 有不同能量；出现同位旋分支能差不自动证明电荷无关性破缺。
+
+## Our Current Position
+
+撤回原“Lane 劈裂定理给出无模型精确峰位和分支比”的认证。`isg` 只可作为带明示边界的历史示意参数化；实际强度/峰位与 Pauli blocking 的数值判断应待算符、原式和实验材料闭合。
+
+## Sources
+
+- [[book-bohr-mottelson-nuclear-structure]]：对称性及角动量原件入口。
+- [[giant-dipole-resonance-lorentzian-and-trk-sum-rule]]：GDR 积分与形变演示的不同边界。
+
+## Evolution Log
+
+2026-11-02：纠正 N=Z 分支数、算符秩与 ΔT 混用、CG 几何即实验强度、以及分裂即电荷无关性破缺等表述。未补造外部数值或来源 locator。

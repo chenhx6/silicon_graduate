@@ -1,39 +1,9 @@
 #!/usr/bin/env python3
-"""
-isovector_giant_resonance_splitting_calculator.py
-=================================================
-Nuclear Isovector Giant Resonance (IVGMR, IVGDR) Isospin Splitting (T_>, T_<) &
-Lane Symmetry Potential Analyzer.
+"""Historical schematic isovector splitting parameterization (UNVALIDATED).
 
-Physics & Formulation:
-----------------------
-1. Isovector Operator Isospin Clebsch-Gordan Coupling:
-   Operating on parent ground state |T_0, T_0> (where T_0 = (N - Z)/2):
-   Isovector operator (Delta_T = 1, Delta_Tz = 0) couples to two branches:
-     - T_< = T_0     (main isospin branch)
-     - T_> = T_0 + 1 (upper isospin branch)
-
-2. Lane Symmetry Potential Energy Splitting Delta_E_T:
-   Energy difference between T_> and T_< states:
-     Delta_E_T = E(T_0 + 1) - E(T_0) = (V_1 / A) * (T_0 + 1)
-   where V_1 ~ 60 - 100 MeV is the Lane potential strength.
-
-3. Clebsch-Gordan Strength Ratio & Pauli Blocking:
-   Ratio of transition strengths:
-     S(T_>) / S(T_<) = (1 / T_0) * [ 1 - 1.5 * (T_0 / A) ]
-   Fraction of total strength in upper T_> branch:
-     Fraction(T_>) ~ 1 / (T_0 + 1)
-   - In light N ~ Z nuclei (T_0 ~ 1): T_> holds ~ 50% of cross section.
-   - In heavy neutron-rich nuclei (208Pb, T_0 = 22): T_> holds only ~ 4.3%!
-
-4. Supported Resonances:
-   - IVGDR (Isovector Giant Dipole, L=1, S=0): E_centroid ~ 78 * A^(-1/3) MeV.
-   - IVGMR (Isovector Giant Monopole, L=0, S=0): E_centroid ~ 170 * A^(-1/3) MeV.
-
-References:
-  - S. Fallieros, B. Goulard, and R. H. Venter, Phys. Lett. 19, 398 (1965).
-  - A. M. Lane, Nucl. Phys. 35, 676 (1962).
-  - C. A. Bertulani, Introduction to Nuclear Reactions, CRC Press.
+Branch fractions, the Lane normalization and peak centroids below are supplied
+assumptions, not a microscopic calculation or measured nuclear properties.
+See knowledge/concepts/isovector-giant-resonance-isospin-splitting-and-lane-potential.md.
 """
 
 import math
@@ -53,15 +23,18 @@ def calculate_isovector_splitting(
     Computes isospin splitting Delta_E_T, peak energies E(T_<) and E(T_>),
     and strength fractions for IVGDR or IVGMR.
     """
+    if not isinstance(A, int) or not isinstance(Z, int) or A <= 0 or not 0 <= Z <= A:
+        raise ValueError("Require integer mass/charge with A > 0 and 0 <= Z <= A")
+    if not math.isfinite(V_1_lane_MeV) or V_1_lane_MeV <= 0:
+        raise ValueError("V1 must be finite and positive")
+    if resonance_type.upper() not in {"IVGMR", "IVGDR"}:
+        raise ValueError("Unknown resonance type")
     N = A - Z
     T_0 = (N - Z) / 2.0
     A13 = A ** (1.0 / 3.0)
 
     if T_0 <= 0:
-        return {
-            "error": "Isospin splitting requires neutron excess T_0 = (N-Z)/2 > 0",
-            "T_0": T_0
-        }
+        raise ValueError("This two-branch demonstration only implements T0 > 0; for T0=0 a rank-1 q=0 operator permits only T'=1")
 
     res_type = resonance_type.upper()
     if res_type == "IVGMR":
@@ -86,6 +59,8 @@ def calculate_isovector_splitting(
     E_greater = E_lesser + Delta_E_T
 
     return {
+        "calculation_status": "schematic-unvalidated",
+        "evidence_boundary": "Strength fractions and centroid/splitting are imposed model assumptions, not independent Pauli-blocking predictions or experimental results",
         "A": A,
         "Z": Z,
         "N": N,
@@ -106,7 +81,8 @@ def calculate_isovector_splitting(
 def format_text_report(summary: Dict[str, Any]) -> str:
     lines = []
     lines.append("=" * 72)
-    lines.append("   ISOVECTOR GIANT RESONANCE ISOSPIN SPLITTING (T_>, T_<) ANALYZER")
+    lines.append("   SCHEMATIC ISOVECTOR BRANCH DEMONSTRATION (UNVALIDATED)")
+    lines.append(summary["evidence_boundary"])
     lines.append("=" * 72)
     lines.append(f" NUCLEUS: Z = {summary['Z']}, N = {summary['N']}, A = {summary['A']} (Parent Isospin T_0 = {summary['isospin_T0']})")
     lines.append(f"   Resonance Mode                 : {summary['resonance_type']} (Centroid = {summary['centroid_energy_MeV']} MeV)")
@@ -118,9 +94,9 @@ def format_text_report(summary: Dict[str, Any]) -> str:
     lines.append(f"   T_> Branch (T = {summary['T_greater_isospin']:.1f})             : E_> = {summary['T_greater_energy_MeV']} MeV (Share: {summary['T_greater_strength_fraction_percent']}%)")
     lines.append("-" * 72)
     lines.append(" Physical Significance:")
-    lines.append("   - Non-zero isospin T_0 splits isovector modes into T_< and T_> branches.")
-    lines.append("   - Energy separation directly measures the Lane isovector symmetry potential.")
-    lines.append("   - Pauli blocking severely suppresses the T_> branch in heavy neutron-rich nuclei.")
+    lines.append("   - A rank-1 q=0 operator permits T and T+1 for an assumed T=Tz>0 ground state.")
+    lines.append("   - No reduced transition matrix elements are calculated; physical fractions are unknown.")
+    lines.append("   - The supplied Lane convention and empirical parameters require source validation.")
     lines.append("========================================================================")
     return "\n".join(lines)
 

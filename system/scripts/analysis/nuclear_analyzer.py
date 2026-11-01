@@ -1844,12 +1844,15 @@ def cmd_rflow(args):
 
 
 def cmd_wobphase(args):
-    th_res = calculate_theoretical_wobbling_delta(args.spin, args.spinj, args.gamma, args.eg, args.q0, args.gj, args.gr, args.mode)
+    if (args.root1 is None) != (args.root2 is None):
+        raise ValueError("Supply both experimental candidate roots")
+    th_res = calculate_theoretical_wobbling_delta(
+        args.spin, args.spinj, args.gamma, args.eg, args.q0, args.gj, args.gr,
+        args.mode, args.e2_me, args.m1_me,
+    )
     summary = {"theory": th_res}
     if args.root1 is not None and args.root2 is not None:
         summary["root_comparison"] = compare_wobbling_with_experimental_roots(th_res["theoretical_delta_E2_M1"], args.root1, args.root2)
-    elif args.spin == 15.5:
-        summary["root_comparison"] = compare_wobbling_with_experimental_roots(th_res["theoretical_delta_E2_M1"], -0.15, 3.10)
     if args.json:
         import json
         print(json.dumps(summary, indent=2))
@@ -1935,10 +1938,13 @@ def cmd_coriolis(args):
 
 
 def cmd_selftest(args):
-    print("\nExecuting comprehensive test suite...")
-    ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
-    if ret != 0:
-        sys.exit(1)
+    import subprocess
+    from pathlib import Path
+    print("\nExecuting regression checks (not scientific certification)...", flush=True)
+    test_script = Path(__file__).resolve().with_name("test_analysis_suite.py")
+    result = subprocess.run([sys.executable, str(test_script)], check=False)
+    if result.returncode:
+        sys.exit(result.returncode)
 
 
 def main():
@@ -2871,7 +2877,7 @@ def main():
     p_rfl.set_defaults(func=cmd_rflow)
 
     # Wobbling Mixing Ratio delta(E2/M1) & Phase Sign
-    p_wbp = subparsers.add_parser("wobphase", help="Wobbling Delta_I=1 mixing ratio delta(E2/M1), phase sign and TW/LW diagnostic")
+    p_wbp = subparsers.add_parser("wobphase", help="Mixing amplitudes and unresolved roots; does not identify TW/LW")
     p_wbp.add_argument("-I", "--spin", type=float, default=15.5, help="Wobbling state spin I in hbar (default: 15.5)")
     p_wbp.add_argument("-j", "--spinj", type=float, default=5.5, help="Quasiparticle spin j in hbar (default: 5.5)")
     p_wbp.add_argument("--gamma", type=float, default=26.0, help="Triaxial angle gamma in degrees (default: 26.0)")
@@ -2882,6 +2888,8 @@ def main():
     p_wbp.add_argument("--mode", type=str, default="TW", choices=["TW", "LW"], help="Mode: TW or LW")
     p_wbp.add_argument("--root1", type=float, default=None, help="Experimental DCO root 1")
     p_wbp.add_argument("--root2", type=float, default=None, help="Experimental DCO root 2")
+    p_wbp.add_argument("--e2-me", type=float, default=None, help="Signed reduced E2 element in eb (not intrinsic Q0)")
+    p_wbp.add_argument("--m1-me", type=float, default=None, help="Signed reduced M1 element in mu_N, in the same convention")
     p_wbp.add_argument("--json", action="store_true", help="Output results in JSON format")
     p_wbp.set_defaults(func=cmd_wobphase)
 

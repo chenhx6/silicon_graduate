@@ -6375,3 +6375,20 @@ u}$ zero-crossing detection;
   - `knowledge/synthesis/nuclear-spectroscopy-and-structure-master-field-manual.md`
 - Regression testing: `python3 system/scripts/analysis/nuclear_analyzer.py selftest` passes 100% with all modules verified in 1.4s.
 - Repository integrity: `wiki_boundary_check.py` returns `ok: true`.
+
+### Book Corpus Inventory & Scientific Method Validation 2026-11-02T22:30:00+08:00
+
+- Full 33-PDF library corpus inventory completed in `system/scripts/book_corpus_inventory.py`, `knowledge/synthesis/book-corpus-coverage-ledger.md`, and `outputs/learning-milestones/20261102-book-corpus-inventory.json`:
+  - 12,076 physical PDF pages cataloged into 318 work packets across 4 priority tiers (S1: core nuclear physics, S2: extended physics & detectors, S3: Mathematica programming, S4: atomic data).
+  - Categorized text extraction availability: 6,327 pages with native text layer, 4,022 pages requiring OCR/visual transcription, 1,625 pages with image/OCR overlap.
+- Source page & citation reconciliation:
+  - `book-petrache-chirality-and-wobbling.md`: verified CRC Press 2025 imprint, corrected ISBN, and localized chapters 2, 5, 11 on the 135Pr wobbling debate and IBFM calculations.
+  - `book-bohr-mottelson-nuclear-structure-vol2.md`: created standalone source for Volume II, verified §4-5e high-spin rotor harmonic approximation validity criteria (PDF 212–214 / printed 190–192).
+  - `book-wang-particle-detection.md`: registered Wang Xiaolian et al. (USTC 2009, 444 pages) with verified locators for GM dead time/recovery and semiconductor radiation damage.
+  - `cowan2011-asymptotic-likelihood-tests.md`: registered Cowan et al. (EPJC 2011 / arXiv:1007.1727v3) with full archival manifest under `raw/papers/gpt/learning-daily/20261102-poisson-audit/`.
+- Scientific analysis tool hardening & test boundaries:
+  - `wobbling_branching_ratio_phase_calculator.py`: withdrawn unvalidated analytical TW formula; converted to explicit signed reduced matrix-element amplitude solver; candidate roots are both retained without heuristic selection. Verified with `system/tests/test_wobbling_root_evidence_boundary.py`.
+  - `detector_deadtime_pileup_correction_calculator.py`: corrected nonparalyzable (nonextendable) vs paralyzable (extendable) terminology; hybrid model bounded as Poissonized approximation; HPGe carrier drift corrected; verified with `system/tests/test_detector_deadtime_models.py`.
+  - `poisson_likelihood_peak_fitting_bias_calculator.py`: corrected finite-sample unbiasedness claims; integrated Gaussian over channels; bounded local significance q0; verified with `system/tests/test_poisson_peak_inference.py`.
+  - `heavy_ion_fusion_evaporation_channel_calculator.py`: removed uncalibrated 52 hbar fission cutoff and Gaussian xn branching approximations; bounded as schematic Wong calculation; verified with `system/tests/test_fusion_design_boundary.py`.
+- Regression: all 4 new test suites (62 tests) and `nuclear_analyzer.py selftest` pass.

@@ -9,6 +9,20 @@ updated: 2026-11-01
 
 ## 核心专著深度吸收与核结构专家级综合资产 (2026-11-02)
 
+- [[book-corpus-coverage-ledger]] — **馆藏书籍全量盘点、逐页可读性审计与 318 单元研读队列**：递归核实 `raw/books/` 全部 33 个独立 PDF（共 12,076 个物理页），分类标出纯图像/需 OCR 页面、提取警告页，对账既有阅读凭据，撤回以模块数或单页提取充当全书已读的历史声明。
+- [[book-petrache-chirality-and-wobbling]] — **Petrache (ed.) 专著原件核验与章节分歧**：核定所持原件为 CRC Press 2025 年版（ISBN 9781032691633），定位三轴转子、135Pr 实验/理论分歧、低自旋进动与 IBFM 机制页码，撤回“全书结论一致否定摆动”的过度概括。
+- [[book-bohr-mottelson-nuclear-structure-vol2]] — **Bohr–Mottelson Nuclear Structure II 原件核验与高自旋近似边界**：独立绑定第二卷原件（772 页），逐式复核 §4-5e 非轴对称转子高自旋近似展开条件及 E2 算符的主转轴约定。
+- [[book-wang-particle-detection]] — **汪晓莲等《粒子探测技术》原件登记与核验范围**：核定中国科大 2009 年第 1 版原件（ISBN 978-7-312-02299-9，444 页），定位 GM 计数管死时间/复原时间与半导体辐照损伤选段，撤回虚构的作者专有死时间公式。
+- [[cowan2011-asymptotic-likelihood-tests]] — **Cowan 等 2011 似然检验方法原件核查**：核定并归档 arXiv:1007.1727v3 原件，建立非负信号检验统计量 $q_0$ 分布、单侧 local 显著性与边界条件，为伽马能谱小信号分析提供可追溯依据。
+- [[wobbling-mixing-ratio-phase-and-transition-diagnostics]] — **摆动候选的混合比、相位约定与双根证据边界**：修正以理论混合比自动选根和确认横向摆动的规则，推导约化矩阵元至辐射振幅的代数关系，保留多极混合比的全部候选根及争议。
+- [[reconciliation-of-detector-dead-time-and-pulse-pileup]] — **探测器死时间、脉冲堆积与电荷收集：模型条件及原文核验**：纠正麻痹/非麻痹名称对应，核对吴治华、汪晓莲与 Nakhostin 选页原件，明确级联公式的重新泊松化近似性质，并修正常规同轴 HPGe 空穴漂移方向。
+- [[heavy-ion-fusion-evaporation-and-reaction-channel-design]] — **重离子熔合反应规划的运动学与退激边界**：撤回未经拟合的全局裂变截断和虚构出射道截面，以林承键与 Bertulani 原书选页为基准，阐明质量评价、截面模型、能损与角多普勒响应的实际约束。
+- [[poisson-maximum-likelihood-and-gamma-peak-fitting-bias]] — **低计数伽马峰分析与泊松似然比检验的适用边界**：纠正有限样本无偏声称，推导 bin 积分非负高斯拟合与不对称似然区间，说明一次样本估计误差与系综偏倚的统计区别。
+- [[coriolis-attenuation-and-quasiparticle-band-crossing]] — **科里奥利耦合、衰减参数与回弯诊断的边界**：纠正转子展开算符系数与惯量中英名称，说明单 j 耦合与唯象衰减参数的计算范围，撤回合成能级充当 131La 实验数据的表述。
+- [[giant-dipole-resonance-lorentzian-and-trk-sum-rule]] — **巨偶极共振、TRK 积分与形变反演的模型条件**：明确双洛伦兹模型为轴对称正演示意参数化，撤回未经实验标定的增强因子与四极形变反演精度保证。
+- [[isovector-giant-resonance-isospin-splitting-and-lane-potential]] — **巨共振同位旋分支：几何系数与动力学强度分开**：纠正算符秩、末态同位旋与电磁多极阶数的混用，撤回以几何系数直接给出微观跃迁强度的表述。
+- [[wobbling-harmonic-limit-and-textbook-consistency]] — **摆动谐近似的涨落尺度、角度平方与教材一致性检查**：基于 BM-II §4-5e 建立横向角动量涨落比例 $arepsilon$ 的解析表达式，记录原书推导中的角度平方排印疑点，作为暂定研究笔记保留。
+
 - [[reconciliation-of-detector-dead-time-and-pulse-pileup]] — **辐射探测器死时间模型、脉冲堆积与计数损失核算：吴治华《实验方法》与汪晓莲《探测技术》的系统性调和**：深入调和吴治华非麻痹型 ADC 转换模型与汪晓莲麻痹型微观物理过程，揭示大计数率下麻痹型系统的灾难性双根疑难与高通量误判风险，建立包含模拟成形与数字写入的 Müller 混合级联模型、峰区脉冲堆积损失以及 Shockley-Ramo 定理下的弹道亏损消除与 N 型/P 型 HPGe 快中子辐照寿命准则。
 - [[heavy-ion-fusion-evaporation-and-reaction-channel-design]] — **重离子熔合蒸发反应截面、光学势垒分布与在束 $\gamma$ 谱学出射道设计：林承键《重离子核反应》与 Bertulani 理论融会**：基于 Bass 相互作用势与 Wong 势垒穿透公式，建立重离子熔合入射道动力学、RLDM 转动液滴裂变截断与有效剩余蒸发截面模型，推导 $A \sim 130$ 区 $xn$ 统计蒸发去激最佳激发能高斯窗口，以及反冲运动学多普勒频移、几何展宽控制与薄自支撑/衬底靶材配置实战法典。
 - [[poisson-maximum-likelihood-and-gamma-peak-fitting-bias]] — **实验核物理小信号能谱拟合、泊松最大似然估计与 Neyman 卡方偏差消除：朱永生《概率和统计》方法论实践**：系统剖析传统数据加权 Neyman 最小二乘卡方在低计数（$n_i \le 10$）弱 $\gamma$ 谱线拟合中引入的 $15\% \sim 35\%$ 系统性下偏成因，建立严格无偏的 Baker-Cousins 泊松似然比偏差 $\chi_\lambda^2$ 拟合范式、Wilks 定理渐近卡方检验、Profile Likelihood 轮廓误差置信区间与新物理跃迁 $5\sigma$ 黄金发现判据。

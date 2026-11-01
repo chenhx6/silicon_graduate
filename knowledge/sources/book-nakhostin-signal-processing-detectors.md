@@ -3,11 +3,11 @@ type: source
 title: "Mohammad Nakhostin (吴鸿毅译) 2020 - 辐射探测器信号处理"
 aliases: [吴鸿毅辐射探测器信号处理, Nakhostin 2020 Signal Processing, 数字信号处理探测器]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "Signal Processing for Radiation Detectors"
 authors: [Mohammad Nakhostin, 吴鸿毅(译)]
 publisher: "内部翻译交流版 / John Wiley & Sons 原版"
@@ -17,6 +17,8 @@ canonical_source: "Mohammad Nakhostin 著, 吴鸿毅 译, 《辐射探测器信�
 library_file: "raw/books/翻译版-SignalProcessingforRadiationDetectors.pdf"
 raw_file: "raw/books/翻译版-SignalProcessingforRadiationDetectors.pdf"
 raw_sha256: "85e38c7aeb0121faed84cb0b2d8bb03e3e9c80e65dab84c8aad3893bc1399f99"
+archive_required: true
+raw_storage_status: archived-local
 nuclei: []
 reactions: []
 experiments: []
@@ -25,6 +27,9 @@ topics: [digital-signal-processing, pulse-shaping, hpge-readout, baseline-restor
 ---
 
 # Mohammad Nakhostin (吴鸿毅译) 2020 - 辐射探测器信号处理
+
+> 阅读状态修订（2026-11-02）：撤回无逐页记录支持的整书 deep-read。下方旧概述不作为整章已读证据。本轮实际核查范围及需要修订的仪器表述见 [[reconciliation-of-detector-dead-time-and-pulse-pileup]]；仅对所列原件页取得局部阅读记录。
+
 
 ## 专著概况与定位
 

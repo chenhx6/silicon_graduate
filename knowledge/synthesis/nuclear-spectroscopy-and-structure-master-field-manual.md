@@ -1,452 +1,96 @@
 ---
 type: synthesis
-title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的92模块完整闭环指南"
+title: "核结构与实验谱学工作入口：来源、模型与工具验证状态"
 aliases: [核谱学实战全书, 核结构专家工作手册, 92模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
 created: 2026-11-02
 updated: 2026-11-02
-status: active
+status: ai-draft
 review_status: unreviewed
-topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 92-modules-suite, expert-field-manual]
+scope: "馆藏研学、低能核结构模型和实验谱学计算的证据边界"
+confidence: low
+sources: [book-petrache-chirality-and-wobbling, book-bohr-mottelson-nuclear-structure-vol2, cowan2011-asymptotic-likelihood-tests]
+tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 ---
 
-# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的92模块完整闭环指南
+# 核结构与实验谱学工作入口
 
-## 1. 宣言与专家心智模型：大模型如何以世界级核物理学家身份工作
+## Active summary for agents
 
-本全书旨在为工作在低能核物理与核结构领域的商业大模型（GPT, Gemini, Claude）以及青年核物理研究者提供统一的、无可替代的**心智模型（Mental Models）、实战工作流（Workflows）、裁判法典（Judging Gates）与 Python 工具链（Toolkits）**。
+旧版“92 个生产级模块、全书吸收完成、全部科学验证”认证撤回。代码中有解析计算、经验参数化和合成示例，测试通过不使三者自动成为真实实验分析。当前入口按问题选择工具和已核验 source，先看下面的具体边界。未核验模块不能给其它模型提供确定性物理裁决。
 
-一个真正的核结构专家工作在 Wiki 与实验现场时，必须具备**三大不可动摇的学术本能**：
-1. **三轴惯量几何直觉本能（Geometric Triaxial Intuition）**：
-   时刻建立以转动惯量椭球为核心的物理图像。三轴核（$0^\circ < \gamma < 60^\circ$）在流体动力学与微观平均场下，**中间轴（$m$ 轴）惯量最大（$\mathcal{J}_m > \mathcal{J}_s > \mathcal{J}_l$）**，稳态转动必定绕中间轴发生；绕短轴或长轴的偏移必然诱发量子化摆动进动（Wobbling）。在手征体系中，短轴粒子角动量 $\vec{j}_p$、长轴空穴角动量 $\vec{j}_n$ 与中间轴核心转动 $\vec{R}$ 构成空间右手/左手三面体；
-2. **“五道门”刚性裁判本能（Five-Gate Experimental Falsification）**：
-   **绝不被表观能级靠近或唯象参数拟合所迷惑**！严格将“实验直接事实（Tier 1）”、“模型导出强度（Tier 2）”与“理论势能面预测（Tier 3）”分层隔绝；在面对角分布与偏振测量时，**永远警惕多极混合比 $\delta$ 的数学双根退化（$a_2 \approx -0.4$ 陷阱）**，唯有通过偏振度 $P$ 或内转换电子系数以 $>3\sigma$ 排除小根后方可宣布集体进动；
-3. **实验数据全流程闭环本能（End-to-End Experimental Fluency）**：
-   通晓从束流能量与薄厚靶优化、HPGe 梯形滤波（消除弹道亏损）、符合矩阵投影选门、真空退取向衰减校正、侧馈送拉普拉斯解卷积，到绝对跃迁几率与微观自洽相对论场论反演的全套实操。
+## Question and Scope
 
----
+目标是把全馆藏转成跨会话可检索、可复核的方法与研究知识。优先深入中文核物理基础、Bohr–Mottelson、手征/摆动专著、在束 γ 谱学、反应设计与实验统计。其它书不省略；Mathematica 侧重方法迁移到 Python。覆盖队列和逐页可读性见 [[book-corpus-coverage-ledger]]，不以模块数量计算阅读学分。
 
-## 2. 七大科研实战阶段与 92 大科学分析模块调用图谱
+## Evidence Matrix
 
-本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **85 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
+| 问题 | 可查原件/知识 | 当前核查所得 | 仍未闭合 |
+| --- | --- | --- | --- |
+| 谐近似何时适用 | [[book-bohr-mottelson-nuclear-structure-vol2]]，PDF 212–214 | 频率、横向涨落条件与轴约定已选段核对 | 完整 E2 推导、奇核 PTR 与目标核波函数 |
+| 135Pr 是否已经终局裁定 | [[book-petrache-chirality-and-wobbling]]，Ch. 2/5/11 | 书中保留支持与反对解释 | 原始角关联/偏振数据、后续论文和共同分析 |
+| 混合比能否直接选根 | [[wobbling-mixing-ratio-phase-and-transition-diagnostics]] | 理论最近根不构成独立证据；矩阵元与内禀 Q0 不等同 | 共同响应、校准和 nuisance likelihood |
+| 稀疏峰能否称严格无偏 | [[poisson-maximum-likelihood-and-gamma-peak-fitting-bias]] | Poisson MLE 仍可有有限样本偏差；一次样本误差不是 bias | 真实背景/峰形不确定度、覆盖率与试验数校正 |
+| 两本中文探测教材是否矛盾 | [[reconciliation-of-detector-dead-time-and-pulse-pileup]] | 需先分模型、适用环节及原文条件 | 逐页对照，不能用目录代替冲突证据 |
+| 如何提出实验束流方案 | [[heavy-ion-fusion-evaporation-and-reaction-channel-design]] | 入口道、蒸发竞争、靶内能损及响应应分别约束 | 真实质量/激发函数、输运、探测与束流参数 |
 
-```text
- [Phase 1: 实验提案与反应动力学]
-   │ kinematics ── 熔合运动学与 Bass 势垒
-   │ excite     ── 靶内阻止能量损失与截面积分
-   │ evap       ── 统计重离子熔合蒸发级联 (xn, pxn, axn) 与残核截面
-   │ lmt        ── 重离子线动量转移 (LMT)、不完全熔合与裂变折叠角
-   │ rainbow    ── 重离子半经典偏转函数、核彩虹散射与掠射角布局
-   │ frag       ── 相对论重离子弹核碎裂 (Abrasion-Ablation) 与 Goldhaber 动量宽
-   │ relcoulex  ── 相对论中间能区库仑激发与虚光子
-   │ mnt        ── 多核子转移 (MNT) 与深层非弹性 (DIC)
-   │ astro      ── 恒星热核反应率与伽莫夫能窗
-   │ fusion     ── 重离子熔合蒸发截面、光学势垒分布与出射道设计 (林承键 Ch 6)
-   ▼
- [Phase 2: 探测器电子学与谱线拟合]
-   │ filter     ── 数字脉冲梯形滤波 (消除弹道亏损)
-   │ peak       ── 全能峰高斯+阶跃低能拖尾非线性拟合
-   │ pid        ── 带电粒子 Delta_E-E 望远镜鉴别、脉冲亏损 (PHD) 与能散区判定
-   │ hpge       ── HPGe 极零相消 (PZC)、电荷收集弹道亏损 (BD) 与高率死时间
-   │ psd        ── 闪烁体脉冲形状鉴别 (PSD)、双门电荷比 (CCM) 与优值因子 (FOM)
-   │ clover     ── Clover 探测器康普顿加和 (Add-Back) 与自散射线偏振度
-   │ deadtime   ── 探测器死时间模型与堆积损失核算 (吴治华非麻痹 vs 汪晓莲麻痹双根)
-   │ poissonfit ── 低计数伽马峰 Baker-Cousins 泊松似然比拟合与卡方偏差消除 (朱永生)
-   ▼
- [Phase 3: 符合能谱、内转换与能级纲图构建]
-   │ balance    ── 级联进出强度守恒与内转换电子纠偏
-   │ ensdf      ── 国际 ENSDF 标准数据库交叉比对
-   │ bricc      ── BrIcc 参数化内转换系数绝对计算
-   │ gslice     ── 在束二维符合矩阵切片、Radford 背景扣除与级联检验
-   │ nilsson    ── 变形 Nilsson 平均场单粒子轨道对角化与能级演化
-   │ mqp        ── 多准粒子态 (mqp) 阻塞 BCS 对隙淬灭与高 K 同质异能态
-   │ calorim    ── 复合核多步 gamma 级联量能学与 (E_sum, M_gamma) 通道分选
-   │ density    ── Gilbert-Cameron 复合能级密度、Ignatyuk 壳阻尼与 D0 标定
-   │ sidefeeding── 准连续态侧馈延迟与多普勒 F(tau) 解卷积
-   │ pair       ── S_2n 系统学、3点/5点配对隙与幻数断崖
-   │ coinbal    ── 在束 gamma-gamma 符合矩阵背景扣除与能级强度守恒平衡 (吴治华)
-   ▼
- [Phase 4: 多极性鉴别、偏振测量与破除双根]
-   │ angdist    ── 定向核角分布 a2, a4 与混合比双根求解
-   │ dco        ── DCO 比值与 Clover 康普顿线偏振分析
-   │ ado        ── 特征探测环 ADO 与线偏振二维似然扫描
-   │ stats      ── 协方差误差矩阵传播、低计数 Baker-Cousins 似然与双根仲裁
-   │ atten      ── 在束核自旋取向衰减系数 (alpha_2, alpha_4) 与 sigma/I 反演
-   │ rdds       ── 反冲距离多普勒频移 (RDDS) 柱塞法皮秒寿命与 DDCM
-   │ gk         ── Nilsson 内禀 g_K 因子、磁偶极矩 mu 与 B(M1)/B(E2) 分支比反演
-   │ effcharge  ── 核芯微观极化率、GQR 耦合与核子有效电荷 (e_p_eff, e_n_eff)
-   │ ias        ── 同位旋类似态 (IAS) 库仑位移能与镜像核 CED 对齐判定
-   │ nsa        ── Nolen-Schiffer 库仑位移反常 (NSA) 与 CSB 介子混合力
-   │ alaga      ── Weisskopf 单粒子单位与轴对称转子 Alaga 分支
-   │ ipc        ── 高能电磁跃迁内电子对产生 (IPC)、e+ e- 开角关联与 E0 纯对衰变
-   │ tdpad      ── 时间差分扰动角分布与三矢量手征 g 因子
-   ▼
- [Phase 5: 高自旋集体运动与转动能谱演化]
-   │ routhian   ── 旋转标架 Routhian 能量与准粒子对齐 ix
-   │ moi        ── 运动学 J(1) 与动力学 J(2) 转动惯量分析
-   │ amp        ── 量子角动量投影 (AMP)、恢复旋转对称性与 Peierls-Yoccoz 谱
-   │ shears     ── 磁转动剪刀机制与 B(M1)/B(E2) 抛物线衰减
-   │ signature  ── 旋称交错 S(I) 追踪与高自旋旋称倒转判决
-   │ sd         ── 超形变 (SD) 动力学平坦度与势垒穿透衰变
-   │ term       ── 高自旋能带光滑终止、Qt->0 塌缩与价角动量耗尽
-   │ gm         ── Gallagher-Moszkowski (GM) 规则与 K=0 带 Newby 奇偶位移
-   │ coriolis   ── 科里奥利衰减因子 xi、粒子-转子耦合与准粒子带交叉回弯 (Bohr-Mottelson)
-   ▼
- [Phase 6: 三轴形变、手征双重带与摆动运动五道门实验裁判]
-   │ coulex     ── 库仑激发重取向效应与无模型 Kumar 四极不变量
-   │ tpsm       ── 三轴投影壳模型 (TPSM) 准粒子能带图
-   │ rmfdef     ── 轴对称四极约束 RMF 势能曲线、NL3 参数集与中子皮形变
-   │ pes        ── 5D Bohr 集体哈密顿四极势能面 (PES) 与 gamma 软度比值
-   │ wobbling   ── Davydov-Filippov 转子、横向/纵向摆动模型与伪摆动排他性证伪
-   │ wobphase   ── 摆动运动 Delta_I=1 混合比 delta(E2/M1) 相位符号与 TW/LW 诊断
-   │ chiral     ── 3D TAC 倾斜轴推转手征几何、非共面体积度规与四项裁判
-   │ chvibe     ── 手征双阱集体势、WKB 量子隧穿劈裂 Delta_E(I) 与相变演化
-   │ mwob       ── 多声子摆动运动 (nw = 0,1,2)、非简谐参数与选择定则审计
-   │ tidal      ── 弱形变过渡区潮汐波行波动力学与 B(E2) 线性标度
-   │ e0         ── 形状共存两态混合模型与单极强度 rho^2(E0)
-   │ ibm        ── 相互作用玻色子模型与 Casten 三角形相变
-   ▼
- [Phase 7: 滴线物理、微观泛函与核天体前沿]
-   │ w9j        ── Wigner-Racah 9j 符号与 L-S 到 j-j 壳模型重耦合系数
-   │ gt         ── 伽莫夫-泰勒巨共振、Ikeda 求和与 gA 介质淬灭
-   │ gtq        ── Gamow-Teller Ikeda 求和规则淬灭与 Delta 异质态解卷积
-   │ sdr        ── 自旋-偶极巨共振 (SDR) 0-,1-,2- 多极分解与中子皮求和规则
-   │ halo       ── 中子晕核 Hansen-Jonson 动量宽与软 E1 共振
-   │ fission    ── 双峰裂变势垒、Hill-Wheeler 穿透与超重核合成
-   │ fissfrag   ── 多模式裂变碎片质量产额 Y(A)、Viola TKE 与中子锯齿谱
-   │ fissiso    ── 双峰裂变势垒量子穿透、形状异能态 (Class-II) 与亚阈共振
-   │ oslo       ── 奥斯陆方法主跃迁矩阵解卷积与低能增强 (LEE)
-   │ pairvib    ── BCS 相干对转移增强与闭壳配对振动声子谱
-   │ rmf        ── 相对论平均场 (RMF)、自旋-轨道耦合与狄拉克赝自旋
-   │ rmfeos     ── 相对论平均场对称能 S(rho)、斜率 L 与中子星物态方程 (EOS)
-   │ strut      ── Strutinsky 微观壳修正能平滑方法与平顶条件 (Plateau Condition)
-   │ radius     ── 原子核均方电荷半径、同位素移与 King 图线性回归
-   │ radioact   ── 质子滴线单质子 WKB、Goldanskii 真双质子与团簇放射性
-   │ beta       ── 相对论 beta 衰变相空间 f(Z,Q)、log(ft) 与超允许 CVC 检验
-   │ dbd        ── 无中微子双贝塔衰变 (0nu-beta-beta) NME 与马约拉纳质量
-   │ rflow      ── 天体物理 r-过程等待点 (n,gamma)-(gamma,n) 平衡与丰度峰
-   │ wigner     ── Wigner 超多重态 SU(4) 对称性与 N=Z 质量尖点维格纳能
-```
+以上多为方法核查或综述作者判断，不是新实验事实。重用同一数据的理论论文、专著章节和综述须标明依赖关系。
 
----
+## Synthesis
 
-## 3. 分阶段实战规程与决策树
+### 沿观测到模型的研究路径
 
-### 阶段一：在束实验设计与反应通道优化
-- **束流能量决策（`kinematics` + `excite`）**：
-  在策划熔合蒸发实验（如 $^{124}\text{Sn}(^{13}\text{C}, 4n)^{133}\text{Ce}$）时，输入弹靶质量与电荷，计算 Bass 势垒。利用激发函数模块积分靶内能量损失 $\Delta E$，选取 $4n$ 通道峰位对应的束流能量，确保截面处于最大平原区，同时最小化杂质蒸发通道（$3n, 5n, \alpha xn$）。
-- **极丰中子重核前沿（`mnt`）**：
-  若研究目标为第三个 $r$ 过程峰位（$N=126$ 铅前区），严禁选择熔合反应（必然产生丰质子核）；必须启用多核子转移反应（如 $^{136}\text{Xe} + {}^{208}\text{Pb}$），设定略高于势垒（$\sim 6\text{ MeV/u}$），利用驱动势引导质子从靶流向弹核、中子从弹核流向靶，产出微靶量级的极丰中子重核。
+1. **反应与测量定义**：明确残核、反应道、入射电荷态、束流积分、靶组成/面密度、能损和探测几何；未测参数保留不确定度。
+2. **计数与仪器响应**：原始计数、背景/控制窗、死时间、pile-up、能量/效率校准分别建模。背景扣除后的净谱通常不再是独立泊松计数。
+3. **纲图与电磁性质**：先验证符合关系和能量闭合；混合比、分支比、寿命和 ICC 各有不同含义。能级强度不平衡还可能来自直接布居、未见支路和校准。
+4. **模型比较**：以共同的带/跃迁身份比较 PTR/TPSM、IBFM/γ 软核、旋称伙伴、组态混合、TiP 与手征解释，写出各自能改变判断的观测预言。
+5. **研究设计**：把关键证据缺口转换成有响应与统计功效依据的测量方案；不由一套示意高斯出射道权重直接批准束流能量或靶厚。
 
-### 阶段二：前沿探测器响应与数字化处理
-- **高纯锗（HPGe）成形准则（`filter`）**：
-  必须执行吴治华《原子核物理实验方法》标准：由于半导体探测器电荷收集时间弥散（$100 \sim 500\text{ ns}$），数字梯形滤波必须设置平顶时间（$M \ge 1.0\ \mu\text{s}$），彻底消除**弹道亏损（Ballistic Deficit）**，以获取极限能量分辨率（$1.33\text{ MeV}$ 处 $\text{FWHM} \le 2.0\text{ keV}$）。高能粒子物理的超短成形（ns 级）在此完全不适用！
-- **峰形拟合（`peak`）**：
-  对高自旋微弱谱线，严禁使用纯对称高斯拟合；必须采用“高斯核心 + 阶跃低能不完全电荷收集拖尾 + 线性/多项式康普顿背景”复合模型。
+### 统一 CLI 的本轮用途
 
-### 阶段三：符合矩阵投影与能级进出平衡
-- **背景扣除差分方程**：
-  严格执行标准三点背景门法：对峰门道谱扣除左右对称背景窗的加权平均。
-- **节点守恒与内转换电子纠偏（`balance` + `bricc`）**：
-  对于每一个拟构建的激发能级节点，总馈入强度必须等于总馈出强度：
-  $$\sum I_{\text{in}} = \sum I_{\text{out}}$$
-  在低于 $300\text{ keV}$ 的低能跃迁中，光子发射强度 $I_\gamma$ 远不等于真实跃迁强度；必须调用 `bricc` 计算内转换系数 $\alpha_{\text{tot}}$，以总跃迁强度 $I_{\text{tot}} = I_\gamma (1 + \alpha_{\text{tot}})$ 进行节点平衡，严防纲图虚假断裂。
-
-### 阶段四：自旋宇称判定与破除双根退化
-- **五道门之第三道门刚性执行（`angdist` + `dco` + `ado`）**：
-  - 若实验仅测量到定向核角分布系数 $a_2 \approx -0.4$（典型偶极-四极混合），数学上存在两个完全等价的 $\chi^2$ 极小解：
-    1. 大混合比根（$|\delta| \sim 2 \sim 5$）：$E2$ 主导，可能对应摆动带跃迁；
-    2. 小混合比根（$|\delta| \sim 0.1 \sim 0.5$）：$M1$ 主导，对应常规旋称伙伴带（Signature Partner Band）！
-  - **终极裁判流程**：必须引入 Clover 探测器的康普顿散射线偏振不对称度 $\Delta_{\text{IPDCO}}$。电四极跃迁（$E2$）偏振度为正（$P > 0$），磁偶极跃迁（$M1$）偏振度为负（$P < 0$）。在 $(a_2, P)$ 二维联合似然空间中扫描，以 $>3\sigma$ 显著性彻底排除小根，方可将该跃迁确立为集体摆动声子激发！
-
-### 阶段五：三轴形变手征与摆动运动终极审判
-在宣布发现核手征性或摆动运动前，必须严格遍历**“五道门”裁判法典**：
-1. **能量门**：
-   - 横向摆动（TW）：摆动能量 $\hbar\omega_w(I) = E(I, n_w=1) - \frac{1}{2}[E(I-1) + E(I+1)]$ 必须随自旋单调下降；
-   - 手征带：双带能隙 $\Delta E(I)$ 随自旋平缓收敛至小能隙（$< 150\text{ keV}$）；
-2. **宇称门**：两带宇称必须严格相同（$\pi_1 = \pi_2$）；
-3. **线偏振双根裁判门**：跨带连接线必须通过偏振测量确认为强 $E2$ 占优（排除小根 $M1$）；
-4. **电磁增强门（`alaga`）**：带间 $B(E2)_{\text{out}} / B(E2)_{\text{in}}$ 达到集体进动量级（$0.2 \sim 0.5$），带内 $B(M1)/B(E2)$ 呈现奇偶交错；
-5. **理论刚性门（`coulex` + `tpsm` + `tidal`）**：微观计算（TPSM/CDFT）必须证实核素在该自旋窗口具备稳定的三轴刚性（$\gamma \approx 20^\circ \sim 30^\circ$），排除大振幅 $\gamma$ 振动软核耦合（$\gamma \otimes qp$）伪装。
-
----
-
-## 4. 常见学术误区与反模式避坑指南（Anti-patterns & Pitfalls）
-
-| 序号 | 典型学术认知陷阱与伪科学结论 | 致命物理破绽 | 专家刚性避坑与证伪方法 |
-| :---: | :--- | :--- | :--- |
-| **1** | **“能量下弯即摆动”陷阱**：仅凭伴随带能级差随自旋下降，即宣布发现横向摆动（TW） | 未排除常规旋称伙伴带（Signature Partner Band）在高自旋下的旋称倒转，或 $\gamma$ 振动带假象 | **必须测量跨带连接线的多极混合比 $\delta$ 与偏振 $P$**。旋称伙伴带跨带连接为 $M1$ 主导（$|\delta| < 0.5$），摆动带必须为强 $E2$ 主导（$|\delta| > 2$）！ |
-| **2** | **“单角分布选大根”偏见**：在 $a_2 \approx -0.4$ 时主观采纳大 $|\delta|$ 解，忽略小 $|\delta|$ 解 | 二次方程自然存在双根，在未极化角分布中两根拟合优度 $\chi^2$ 完全并列 | 必须声明“双根退化”，在未测定 Clover 线偏振或内转换系数前，同时保留两种物理可能性！ |
-| **3** | **“基态配对能硬移植”错误**：直接将 AME2020 测得的基态配对能（$\Delta \approx 1.1\text{ MeV}$）代入高自旋推转模型 | 高速旋转诱发强大的 Coriolis 反配对（CAP）效应，第一能带交叉处有效配对隙已萎缩近半 | 必须区分基态静态配对与高自旋动态配对，利用 Harris 参考线与角动量对齐 $i_x$ 确定动态交叉频率 |
-| **4** | **“忽略侧馈送虚假拉长寿命”**：在 DSAM 多普勒线形分析中忽视准连续态侧馈延迟 $\tau_{\text{feed}}$ | 侧馈时间使得发射多普勒线形伪装成更长本征寿命，导致计算的过渡四极矩 $Q_t$ 被严重低估 | **必须采用顶门符合（Top-gating）**完全切断侧馈；若只能用总投影，必须通过拉普拉斯卷积显式解卷积 $\tau_{\text{feed}}$ |
-| **5** | **“形变单极伪软化”陷阱**：直接将长椭形变核（如 $^{154}\text{Sm}$）ISGMR 低能峰代入球形公式计算 $K_A$ | 形变破坏转动对称性，单极呼吸模式与四极 $K=0$ 分支发生二态强混合劈裂 | 必须采用二态混合模型重构未微扰单极能量，严禁直接得出核物质不可压缩系数偏低 $35\text{ MeV}$ 的荒谬结论 |
-| **6** | **“忽略高能光行差前冲”陷阱**：在相对论中间能区（$\beta \sim 0.4$）直接用实验室角拟合 $a_2, a_4$ | 相对论大灯效应（Headlight effect）使前向立体角被压缩放大逾 2 倍，后向被压制 50% | **必须对每个探测角乘上立体角雅可比因子 $J(\theta, \beta)$ 并转换至质心系角度**后再行展开 |
-
----
-
-## 5. 生产级 CLI 一键式快速调用速查表
-
-在本地或拉取至实验现场的任意计算终端上，主程序 `system/scripts/analysis/nuclear_analyzer.py` 提供极简调用接口：
+| 命令 | 可使用内容 | 科学使用边界 |
+| --- | --- | --- |
+| `wobphase` | 有符号约化矩阵元换算；保留两个 δ 候选 | 缺模型矩阵元返回不足，不作 TW/LW 指认 |
+| `poissonfit` | 固定峰位/宽度、已知本底的 bin 积分 Poisson 例子 | 局部渐近显著性与 LR 区间；不保证稀疏覆盖率或发现 |
+| `deadtime` | 明示理想模型下的计数率与反演分支 | 模型需仪器校准；不把两本书的侧重点写成必然矛盾 |
+| `fusion` | 入口运动学及明示的示意反应量 | 合成蒸发权重不是校准的 Hauser–Feshbach 截面 |
+| `coriolis` | 理想单 j 耦合大小、合成能量序列的有限差分 | ξ 是输入；默认数据不是 131La 实测 |
+| `gdr` | 经典积分标度及轴对称参数化的代数演示 | 非三轴完整响应；κ 与宽度非实测；正反演不认证精度 |
+| `isg` | 明示假设的历史同位旋分支示意 | 未算真实约化矩阵元；份额与峰位不作测量或微观认证 |
+| `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
-# 1. 重离子运动学
-python3 system/scripts/analysis/nuclear_analyzer.py kinematics --Ap 13 --Zp 6 --At 124 --Zt 50 --Elab 65.0
-
-# 2. 角分布拟合与求解混合比双根
-python3 system/scripts/analysis/nuclear_analyzer.py angdist --angles "30,60,90,120,150" --counts "820,950,1100,1250,1400" --Ji 11.5 --Jf 10.5
-
-# 3. 数字梯形滤波
-python3 system/scripts/analysis/nuclear_analyzer.py filter --rise 4.0 --flat 1.2 --decay 50.0
-
-# 4. DCO 与 Clover 偏振分析
-python3 system/scripts/analysis/nuclear_analyzer.py dco --par 1200 --perp 1000 --Npar 650 --Nperp 580
-
-# 5. 寿命多普勒线形分析
-python3 system/scripts/analysis/nuclear_analyzer.py lifetime --type dsam --tau 1.25 --v0 0.035
-
-# 6. 能级节点强度平衡
-python3 system/scripts/analysis/nuclear_analyzer.py balance --in-intensities "100.0,45.0" --out-intensities "120.0,25.0"
-
-# 7. 旋转标架 Routhian 与对齐
-python3 system/scripts/analysis/nuclear_analyzer.py routhian --spins "10,12,14,16,18" --energies "2000,2800,3800,5000,6400"
-
-# 8. 激发函数靶内阻止积分
-python3 system/scripts/analysis/nuclear_analyzer.py excite --Ebeam 65.0 --thick 1.5 --Ibeam 10.0 --counts 5000
-
-# 9. 磁转动剪刀机制
-python3 system/scripts/analysis/nuclear_analyzer.py shears --theta 45.0 --I 15.0 --J-moi 18.0
-
-# 10. 形状共存两态混合 E0
-python3 system/scripts/analysis/nuclear_analyzer.py e0 --dE 200.0 --Vmix 45.0 --dbeta2 0.15
-
-# 11. 惯量与自旋回归
-python3 system/scripts/analysis/nuclear_analyzer.py moi --energies "500,1100,1800,2600"
-
-# 12. 库仑激发 Kumar 不变量
-python3 system/scripts/analysis/nuclear_analyzer.py coulex --Zp 6 --Ap 12 --Zt 56 --At 130 --Elab 45.0
-
-# 13. 三轴投影壳模型 TPSM
-python3 system/scripts/analysis/nuclear_analyzer.py tpsm --beta2 0.25 --gamma 25.0
-
-# 14. 八极宇称双重带
-python3 system/scripts/analysis/nuclear_analyzer.py octupole --spins-pos "0,2,4,6" --energies-pos "0,150,450,850" --spins-neg "1,3,5,7" --energies-neg "220,380,680,1080"
-
-# 15. 旋称倒转 S(I) 追踪
-python3 system/scripts/analysis/nuclear_analyzer.py signature --spins "8.5,9.5,10.5,11.5,12.5,13.5" --energies "1200,1500,1850,2250,2700,3200"
-
-# 16. 超形变带衰变
-python3 system/scripts/analysis/nuclear_analyzer.py sd --gamma-energies "600,650,700,750,800,850"
-
-# 17. 相互作用玻色子模型 IBM
-python3 system/scripts/analysis/nuclear_analyzer.py ibm --E4 1200.0 --E2 550.0 --E0 1400.0
-
-# 18. ADO 与偏振联合扫描
-python3 system/scripts/analysis/nuclear_analyzer.py ado --R-ado 1.35 --P-pol 0.25 --Ji 11.5 --Jf 10.5
-
-# 19. 侧馈延迟解卷积
-python3 system/scripts/analysis/nuclear_analyzer.py sidefeeding --tau-eff 1.85 --tau-feed 0.60
-
-# 20. BrIcc 内转换系数
-python3 system/scripts/analysis/nuclear_analyzer.py bricc --Z 56 --Egamma 150.0 --mult E2
-
-# 21. 真空退取向效应
-python3 system/scripts/analysis/nuclear_analyzer.py deorient --tau 25.0 --g 0.35 --taur 3.0 --a2 -0.22
-
-# 22. 潮汐波 B(E2) 线性增长
-python3 system/scripts/analysis/nuclear_analyzer.py tidal --spins "2,4,6,8,10" --be2 "0.12,0.22,0.31,0.42,0.51" --Z 46 --A 102
-
-# 23. 伽莫夫-泰勒 Ikeda 和定则
-python3 system/scripts/analysis/nuclear_analyzer.py gt --Z 52 --A 130 --s-minus 43.0 --s-plus 0.0
-
-# 24. 中子晕核破裂动量宽
-python3 system/scripts/analysis/nuclear_analyzer.py halo --sn 369.0 --Ac 9.0 --Ah 2.0 --Zc 3 --sigma-r 1060.0
-
-# 25. 双峰裂变势垒与超重核合成
-python3 system/scripts/analysis/nuclear_analyzer.py fission --Z 114 --A 298 --E-star 38.0 --Bn 7.2 --Bf 6.5 --Bf-ldm 0.1 --cap-mb 10.0 --p-cn 2e-4 --xn 3
-
-# 26. 奥斯陆方法能级密度与 gSF
-python3 system/scripts/analysis/nuclear_analyzer.py oslo --D0 60.0 --Sn 7.8 --It 0.0 --A 133 --check-invariance
-
-# 27. 能带光滑终止与 Qt 塌缩
-python3 system/scripts/analysis/nuclear_analyzer.py term --spins "14.5,16.5,18.5,20.5,22.5,24.5" --q0 2.85 --energies "3500,4400,5500,6800,8300,10200" --A 109
-
-# 28. TDPAD 进动与手征 g 因子
-python3 system/scripts/analysis/nuclear_analyzer.py tdpad --g 0.59 --B 2.145 --chiral-check --qs 0.92 --vzz 3.0 --I 4.5
-
-# 29. 两中子分离能与配对隙
-python3 system/scripts/analysis/nuclear_analyzer.py pair --n-list "78,80,82,84,86,88,90,92" --s2n "14.5,13.8,13.1,9.2,8.3,7.5,7.4,6.5" --b-3p "1100.0,1107.0,1116.2" --A 132
-
-# 30. 等标巨单极 ISGMR 与不可压缩系数
-python3 system/scripts/analysis/nuclear_analyzer.py isgmr --Egmr 13.5 --A 208 --Z 82 --beta2 0.30 --qpvc-ph 1.17
-
-# 31. 相对论库仑激发与洛伦兹光行差
-python3 system/scripts/analysis/nuclear_analyzer.py relcoulex --Elab 49.2 --Ap 32 --Zp 12 --At 208 --Zt 82 --Ex 0.885 --be2 0.045 --lorentz-angles "0,45,90,135,180"
-
-# 32. Weisskopf 单位与转子 Alaga 规则
-python3 system/scripts/analysis/nuclear_analyzer.py alaga --A 131 --tau 1.235 --Eg 465.0 --alaga-spin 4 --alaga-K 0 --Eg1 465.0 --Eg2 820.0 --I1 100 --I2 80 --delta 0.1 --I 8.5 --K 5.5
-
-# 33. 两核子转移配对振动
-python3 system/scripts/analysis/nuclear_analyzer.py pairvib --bcs-orbitals "5.5:0.5,3.5:0.5,2.5:0.5,1.5:0.5,0.5:0.5" --s2n-plus 9.12 --s2n-core 14.11 --Elab 84.0 --q-actual -3.2
-
-# 34. 多核子转移 MNT 与维琴斯基图
-python3 system/scripts/analysis/nuclear_analyzer.py mnt --Elab 6.0 --Ap 136 --Zp 54 --At 208 --Zt 82 --dZ -2 --dN 2 --sig-dic 1200
-
-# 35. 相对论平均场 RMF 与狄拉克赝自旋
-python3 system/scripts/analysis/nuclear_analyzer.py rmf --pot --l-so 1 --A 16 --n-pss 2 --l-pss 0 --pss-e1 -7.94 --pss-e2 -8.27 --pss-so 3.33
-
-# 36. 电荷半径同位素移与 King 图
-python3 system/scripts/analysis/nuclear_analyzer.py radius --dnu="-0.44676" --A 132 --Aref 130 --Kms 800.0 --Ffs="-4.5" --king-masses "132,134,136" --king-s1="-0.44676,-0.85,-1.22" --king-s2="-0.64,-1.24,-1.79" --oes-n "74,75,76" --oes-r2 "24.0,24.35,24.8"
-
-# 37. 质子滴线单双质子衰变与团簇放射性
-python3 system/scripts/analysis/nuclear_analyzer.py radioact --Qp 1.05 --lp 5 --Zd 68 --Ad 146 --Q2p 1.15 --Sp 0.05 --Qc 31.83 --Ac 14 --Zc 6 --t12-p 0.005 --t12-beta 0.86
-
-# 38. 热核反应率与伽莫夫能窗
-python3 system/scripts/analysis/nuclear_analyzer.py astro --T9 0.015 --Z1 1 --A1 1 --Z2 1 --A2 1 --S0 4.0e-22 --sigma 1e-12 --Ecm 10.0
-
-# 39. ENSDF 格式解析
-python3 system/scripts/analysis/nuclear_analyzer.py ensdf --file tmp/test.ensdf --levels
-
-# 40. QRPA 矩阵振动与 pnQRPA 双贝塔衰变
-python3 system/scripts/analysis/nuclear_analyzer.py qrpa --scan-gpp --E0 4.0
-
-# 41. 表面 delta 相互作用 (SDI) 与 Pandya 变换
-python3 system/scripts/analysis/nuclear_analyzer.py pandya --benchmark-sc42
-
-# 42. K-同质异能素与减缩阻碍度
-python3 system/scripts/analysis/nuclear_analyzer.py isomer --Ki 8.0 --Kf 0.0 --mult-lambda 2 --tau-ps 1000.0 --Eg 200.0 --A 178 --mult E2
-
-# 43. 电偶极极化率与中子皮厚度
-python3 system/scripts/analysis/nuclear_analyzer.py polariz --alpha-D 20.1 --target 208Pb
-
-# 44. Gilbert-Cameron 复合能级密度与 Ignatyuk 壳阻尼
-python3 system/scripts/analysis/nuclear_analyzer.py density -Z 56 -A 130 -E 6.5 -J 2 --sn 7.5
-
-# 45. Davydov-Filippov 转子与横向/纵向摆动模型
-python3 system/scripts/analysis/nuclear_analyzer.py wobbling --gamma 26.0 --E2-1 120.0 --spin-I 15.5 --spin-j 6.5 --mode TW --be2-ratio 0.35 --bm1-out 0.04 --delta-mix 2.5
-
-# 46. 带电粒子鉴别 Delta_E-E 望远镜与脉冲高度亏损 (PHD)
-python3 system/scripts/analysis/nuclear_analyzer.py pid -p alpha -E 20.0 --delta-thick 30.0
-
-# 47. 统计重离子熔合蒸发级联与残核截面
-python3 system/scripts/analysis/nuclear_analyzer.py evap -Zp 8 -Ap 18 -Zt 48 -At 116 -E 75.0
-
-# 48. 实验统计协方差误差传播、低计数泊松似然与双根仲裁
-python3 system/scripts/analysis/nuclear_analyzer.py stats --demo-baker --demo-cov --solve-roots --A2 -0.28 --A2-err 0.04 --alpha-exp 0.033 --alpha-M1 0.035 --alpha-E2 0.012
-
-# 49. 5D Bohr 集体哈密顿四极势能面 (PES) 与 gamma 软度
-python3 system/scripts/analysis/nuclear_analyzer.py pes --preset triaxial_rigid
-
-# 50. HPGe 数字化极零相消 (PZC) 与弹道亏损 (BD)
-python3 system/scripts/analysis/nuclear_analyzer.py hpge --tc-ns 400.0 --tflat-ns 500.0
-
-# 51. 3D TAC 倾斜轴推转手征几何与非共面体积度规
-python3 system/scripts/analysis/nuclear_analyzer.py chiral --jp 5.5 --jn 5.5 --Rm 8.0 --delta-e-keV 42.0
-
-# 52. 相对论 beta 衰变相空间 f(Z,Q) 与 log(ft)
-python3 system/scripts/analysis/nuclear_analyzer.py beta -Q 3.211 -T 6.345 -Z 12 -A 26 --mode beta_plus --cvc-check
-
-# 53. Gallagher-Moszkowski (GM) 规则与 Newby 位移
-python3 system/scripts/analysis/nuclear_analyzer.py gm --omega-p 2.5 --lambda-p 2 --omega-n 2.5 --lambda-n 3 --A 130 --newby-shift 35.0
-
-# 54. 变形 Nilsson 平均场单粒子轨道对角化
-python3 system/scripts/analysis/nuclear_analyzer.py nilsson -N 4 -e 0.25 -A 130
-
-# 55. 多模式核裂变碎片质量产额与 Viola TKE
-python3 system/scripts/analysis/nuclear_analyzer.py fissfrag -Z 92 -A 236
-
-# 56. 闪烁体脉冲形状鉴别 (PSD) 与优值因子 (FOM)
-python3 system/scripts/analysis/nuclear_analyzer.py psd -E 1.2 --t-tail 35.0 --t-long 450.0
-
-# 57. 多准粒子态阻塞 BCS 对隙淬灭与高 K 态能量
-python3 system/scripts/analysis/nuclear_analyzer.py mqp --num-qp 2 --omegas "3.5,4.5" --parities "1,-1"
-
-# 58. 高能电磁跃迁内电子对产生 (IPC) 与开角关联
-python3 system/scripts/analysis/nuclear_analyzer.py ipc -E 18.15 -L M1 --theta 139.0 --mX 17.0
-
-# 59. 轴对称四极约束 RMF 势能曲线与 NL3 形变
-python3 system/scripts/analysis/nuclear_analyzer.py rmfdef -Z 56 -A 130
-
-# 60. 同位旋类似态 (IAS) 库仑位移能与镜像 CED
-python3 system/scripts/analysis/nuclear_analyzer.py ias -Z 24 -A 49 --demo-ced
-
-# 61. 复合核多步 gamma 级联量能学与通道分选
-python3 system/scripts/analysis/nuclear_analyzer.py calorim -E 24.0 -I 22.0 -A 130 --cn-e 58.0
-
-# 62. Wigner 超多重态 SU(4) 与 N=Z 质量尖点
-python3 system/scripts/analysis/nuclear_analyzer.py wigner -Z 24 -A 48 --scan-isobar
-
-# 63. 重离子线动量转移 (LMT) 与裂变折叠角
-python3 system/scripts/analysis/nuclear_analyzer.py lmt -Zp 8 -Ap 16 -Zt 92 -At 238 -E 160.0
-
-# 64. 反冲距离多普勒频移 (RDDS) 柱塞法皮秒寿命
-python3 system/scripts/analysis/nuclear_analyzer.py rdds --demo-fit --beta 0.02 --E0 350.0
-
-# 65. 无中微子双贝塔衰变 NME 与马约拉纳质量
-python3 system/scripts/analysis/nuclear_analyzer.py dbd --iso 76Ge --t12 1.8e26
-
-# 66. 重离子核彩虹散射与偏转函数
-python3 system/scripts/analysis/nuclear_analyzer.py rainbow -Zp 8 -Ap 16 -Zt 82 -At 208 -E 100.0
-
-# 67. 核芯极化率与核子有效电荷
-python3 system/scripts/analysis/nuclear_analyzer.py effcharge -Z 82 -A 208
-
-# 68. 双峰裂变势垒量子穿透与形状异能态
-python3 system/scripts/analysis/nuclear_analyzer.py fissiso --VA 6.0 --VB 5.5
-
-# 69. 相对论弹核碎裂与 Goldhaber 动量宽
-python3 system/scripts/analysis/nuclear_analyzer.py frag -Zp 54 -Ap 136
-
-# 70. 手征双阱集体势与 WKB 隧穿分裂
-python3 system/scripts/analysis/nuclear_analyzer.py chvibe -I 16.0 --scan
-
-# 71. Clover 探测器加和与康普顿偏振
-python3 system/scripts/analysis/nuclear_analyzer.py clover -E 846.0 --n-perp 14200.0 --n-para 10500.0
-
-# 72. Strutinsky 壳修正能与平顶条件
-python3 system/scripts/analysis/nuclear_analyzer.py strut -N 82 -g 8.5
-
-# 73. Nilsson 内禀 g_K 因子与 B(M1)/B(E2) 分支比
-python3 system/scripts/analysis/nuclear_analyzer.py gk --omega 2.5 --lambda-val 2 -A 131 -Z 56 --neutron --invert
-
-# 74. 量子角动量投影 (AMP) 与 Peierls-Yoccoz 谱
-python3 system/scripts/analysis/nuclear_analyzer.py amp --max-spin 10 --jy2 35.0 --a-rot 0.025
-
-# 75. 自旋-偶极巨共振 (SDR) 与中子皮求和规则
-python3 system/scripts/analysis/nuclear_analyzer.py sdr -Z 82 -A 208 --s-minus 1030.0
-
-# 76. 在束二维符合矩阵切片与 Radford 扣除
-python3 system/scripts/analysis/nuclear_analyzer.py gslice -G 350.0 -W 12.0
-
-# 77. Nolen-Schiffer 库仑位移反常与 CSB 核力
-python3 system/scripts/analysis/nuclear_analyzer.py nsa --preset 41Sc_41Ca
-
-# 78. 多声子摆动运动 (nw=0,1,2) 与非简谐性
-python3 system/scripts/analysis/nuclear_analyzer.py mwob --hw 320.0 --delta-anharm -40.0
-
-# 79. RMF 核物质对称能 S(rho) 与斜率 L
-python3 system/scripts/analysis/nuclear_analyzer.py rmfeos --model DD_ME2
-
-# 80. Wigner 9j 符号与 L-S 到 j-j 壳模型重耦合
-python3 system/scripts/analysis/nuclear_analyzer.py w9j --recouple-demo
-
-# 81. Gamow-Teller Ikeda 淬灭与 Delta 异质态
-python3 system/scripts/analysis/nuclear_analyzer.py gtq -Z 82 -A 208
-
-# 82. 在束核自旋取向衰减与 sigma/I 反演
-python3 system/scripts/analysis/nuclear_analyzer.py atten -I 6.0
-
-# 83. 天体物理 r-过程等待点与丰度平衡
-python3 system/scripts/analysis/nuclear_analyzer.py rflow -Z 48 --T9 1.5
-
-# 84. 摆动混合比 delta(E2/M1) 相位与 TW/LW 诊断
-python3 system/scripts/analysis/nuclear_analyzer.py wobphase -I 15.5 -j 5.5 --eg 720.0 --q0 5.0 --root1 -0.15 --root2 3.10
-
-# 85. 全套 92 大模块自动化回归自测 (100% 绿灯)
+python3 system/scripts/analysis/nuclear_analyzer.py wobphase --root1 -0.15 --root2 3.10 --json
+python3 system/scripts/analysis/nuclear_analyzer.py poissonfit --area 60 --bg 2 --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 
----
+示例根和计数都是人工输入，不绑定真实核素。依赖以实际 import/environment 为准，旧“全套零依赖、任意设备即 pull 即用”承诺撤回；现有模块使用 NumPy、SciPy 等时需安装对应依赖。
 
-## 6. 结语：立志成为世界级核结构科学大脑
+## Counter-evidence
 
-本全书确立了商业大模型在 Wiki 内部运作的终极标准：
-不满足于表面文献摘录或文本摘要，而是将理论第一性原理、多体物理代数推演、探测器仪器响应、前沿谱学裁决法典与可执行的 Python 科学代码深度熔铸为一体。无论面对的是三轴手征双重带、横向摆动运动的争议证伪，还是在束符合矩阵与多极混合比的精密求解，系统均能以顶级核物理学家的深邃视野与雷霆手段，输出坚如磐石、可追溯、可复现的高水平科研成果！
+- 专著 Ch. 5 的两准粒子案例允许 M1 比 E2 更强，不能推广固定 E2 份额阈值。
+- Ch. 11 的大 δ 可以来自 M1 小分母，不等价于大绝对 B(E2)。
+- Ch. 2 与 Ch. 5/11 对同一候选可持不同立场；学科能力来自组织并检验这些分歧，而非抹去它们。
+- 统计模块存在非负参数边界、未知本底/峰位与有限样本问题，不能用一个显著性数字替代核结构解释。
+
+## Model Dependence
+
+惯量、γ 参数和坐标轴编号都应随公式/模型记录。纯转子 yrast 稳态偏好最大惯量轴，不等于经典最小惯量轴一律不稳定。冻结对齐、小振幅、刚核与软核的物理假设分开，数值求得正频率不是完整动力学的替代。
+
+## Limitations and Missing Evidence
+
+- 全书逐章正文、例题、附录、图表和公式尚未完成覆盖，必须继续读取。
+- 大批历史自动生成页面和脚本未做科学独立验证；本轮只核查指定范围。
+- 全库结构 lint 当前存在历史问题，目录检查与自测通过不能掩盖它；发布按实际门禁结果执行。
+- 已存在 farmer 进程仅负责特定暂时性故障恢复，不等于保证无限连续运行或学习已完成。
+
+## Sources
+
+- [[book-petrache-chirality-and-wobbling]]：版权页、Ch. 2/5/11 实际选段及争议定位。
+- [[book-bohr-mottelson-nuclear-structure]] 与 [[book-bohr-mottelson-nuclear-structure-vol2]]：原件身份、前言方法论与高自旋近似。
+- [[cowan2011-asymptotic-likelihood-tests]]：有边界单侧似然检验，PDF 公式版本已区分。
+- [[wobbling-harmonic-limit-and-textbook-consistency]]：角度平方疑点，保持 provisional。
+
+## Self-audit and revision
+
+2026-11-02：撤回旧版普适“五道门”阈值、135Pr 争议终结、合成数据作为实测、工具数作为学习完成证明等结论。该历史已保留在 Git；本页给出当前有效认识和来源，不继续传播旧指令。无本轮 human-review 事件。P0 的自动选根已隔离；P1 的全馆藏和全模块独立验证持续进行。

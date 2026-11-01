@@ -1528,13 +1528,12 @@ def test_r_process_waiting_point_flow_calculator():
 def test_wobbling_branching_ratio_phase_calculator():
     print("Testing wobbling_branching_ratio_phase_calculator...")
     th = calculate_theoretical_wobbling_delta(spin_I=15.5, spin_j=5.5, gamma_deg=26.0, E_gamma_keV=720.0, Q_0_eb=5.0, g_j=1.25, g_R=0.40, wobbling_mode="TW")
-    assert th["theoretical_delta_E2_M1"] > 1.5, "TW must have large mixing ratio"
-    assert "Positive" in th["phase_sign"], "Phase sign for proton must be positive"
-    assert th["E2_multipolarity_fraction_percent"] > 70.0, "E2 fraction must dominate"
+    assert th["theoretical_delta_E2_M1"] is None, "Intrinsic inputs cannot specify transition matrix elements"
 
     comp = compare_wobbling_with_experimental_roots(th["theoretical_delta_E2_M1"], root_1_exp=-0.15, root_2_exp=3.10)
-    assert comp["is_wobbling_confirmed"], "Must confirm Root 2 match"
-    assert comp["selected_matching_root"] == "Root 2", "Should select positive large Root 2"
+    assert not comp["is_wobbling_confirmed"], "Model preference is not independent experimental evidence"
+    assert comp["selected_matching_root"] is None, "Both candidate roots must remain"
+    assert len(comp["candidates"]) == 2
     print("  ✓ wobbling_branching_ratio_phase_calculator passed.")
 
 
@@ -1578,20 +1577,29 @@ def test_detector_deadtime_pileup_correction_calculator():
 
 def test_heavy_ion_fusion_evaporation_channel_calculator():
     print("Testing heavy_ion_fusion_evaporation_channel_calculator...")
-    res = analyze_heavy_ion_fusion(Z_p=16, A_p=36, Z_t=42, A_t=100, E_lab_MeV=155.0)
+    res = analyze_heavy_ion_fusion(
+        Z_p=16, A_p=36, Z_t=42, A_t=100, E_lab_MeV=155.0, illustrative_xn=True
+    )
     assert res["entrance_channel"]["compound_nucleus"] == "Z=58, A=136", "Compound nucleus check"
     assert 78.0 < res["barrier_and_fusion"]["V_barrier_MeV"] < 85.0, "Coulomb barrier check"
-    assert res["barrier_and_fusion"]["sigma_fusion_mb"] > 900.0, "Fusion cross section check"
+    assert res["barrier_and_fusion"]["schematic_wong_cross_section_mb"] > 900.0, "Schematic Wong cross section check"
+    assert res["barrier_and_fusion"]["sigma_fusion_mb"] is None, "Physical cross section must not be fabricated"
     assert res["in_beam_spectroscopy"]["recoil_velocity_pct_c"] > 2.0, "Recoil velocity check"
     assert "4n" in res["evaporation_channels"] and "5n" in res["evaporation_channels"], "Evaporation channels check"
+    assert res["evaporation_channels"]["4n"]["cross_section_mb"] is None
+    assert res["evaporation_channels"]["4n"]["illustrative"]["normalized_weight_within_displayed_xn"] is not None
     print("  ✓ heavy_ion_fusion_evaporation_channel_calculator passed.")
 
 
 def test_poisson_likelihood_peak_fitting_bias_calculator():
     print("Testing poisson_likelihood_peak_fitting_bias_calculator...")
     res = evaluate_peak_fitting_methods(true_area=60.0, centroid=50.0, sigma=2.0, bg_counts=2.0, seed=42)
-    assert abs(res["poisson_mle_baker_cousins"]["bias_percentage"]) < 15.0, "Poisson MLE bias should be small"
-    assert res["poisson_mle_baker_cousins"]["statistical_significance_Z_sigma"] > 5.0, "Peak should be significant"
+    poi = res["poisson_mle_baker_cousins"]
+    assert poi["fitted_area_counts"] >= 0.0, "Nonnegative area constraint"
+    assert poi["min_deviance_chi_lambda2"] <= poi["null_deviance_A0"] + 1e-8, "MLE includes the null"
+    interval = poi["profile_likelihood_interval"]
+    assert interval["lower_counts"] <= poi["fitted_area_counts"] <= interval["upper_counts"]
+    assert res["simulation"]["kind"] == "single-realization-not-ensemble-bias"
     print("  ✓ poisson_likelihood_peak_fitting_bias_calculator passed.")
 
 
@@ -1701,4 +1709,4 @@ if __name__ == "__main__":
     test_heavy_ion_fusion_evaporation_channel_calculator()
     test_poisson_likelihood_peak_fitting_bias_calculator()
     test_coriolis_attenuation_bandcrossing_calculator()
-    print("ALL 91 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

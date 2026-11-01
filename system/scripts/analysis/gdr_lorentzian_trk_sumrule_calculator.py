@@ -1,38 +1,9 @@
 #!/usr/bin/env python3
-"""
-gdr_lorentzian_trk_sumrule_calculator.py
-========================================
-Giant Dipole Resonance (GDR) Lorentzian Line Shape, Deformation Splitting &
-Thomas-Reiche-Kuhn (TRK) Classical Sum Rule Analyzer.
+"""Illustrative TRK sum and axial GDR splitting parameterization.
 
-Physics & Formulation:
-----------------------
-1. Thomas-Reiche-Kuhn (TRK) Classical Energy-Weighted Sum Rule:
-   sigma_0 = integral_0^inf sigma_abs(E) dE = 59.74 * (N * Z / A) MeV*mb
-   With meson-exchange-current (MEC) enhancement kappa_TRK ~ 0.20 - 0.40:
-     sigma_int = sigma_0 * (1 + kappa_TRK)
-
-2. Average Spherical GDR Centroid:
-   E_GDR_sph ~ 31.2 * A^(-1/3) + 20.6 * A^(-1/6) MeV   (Berman & Fultz 1975)
-   For 208Pb: E_GDR ~ 13.5 MeV.
-
-3. Deformed GDR Splitting (Danos Model):
-   In axially deformed nuclei, oscillation splits into two distinct modes:
-   - Mode 1 (along long axis z, K=0): E_1 = E_GDR / (1 + 0.66 * beta_2)
-   - Mode 2 (perpendicular, K=1):      E_2 = E_GDR / (1 - 0.33 * beta_2)
-   Axis ratio a/b ~ (1 + 0.63*beta_2) / (1 - 0.315*beta_2)
-   Danos frequency ratio: E_2 / E_1 = 0.911 * (a/b) + 0.089.
-   Inverts ground-state quadrupole deformation beta_2 directly from peak split!
-
-4. Double Lorentzian Cross Section sigma_abs(E):
-   sigma_abs(E) = sum_{k=1}^2 [ sigma_k * E^2 * Gamma_k^2 / ((E^2 - E_k^2)^2 + E^2 * Gamma_k^2) ]
-   Area ratio: sigma_1 * Gamma_1 : sigma_2 * Gamma_2 = 1 : 2 (for prolate).
-
-References:
-  - W. Thomas, Naturwissenschaften 13, 627 (1925); F. Reiche and W. Kuhn, Z. Phys. 34, 510 (1925).
-  - M. Danos, Nucl. Phys. 5, 23 (1958) [GDR in deformed nuclei].
-  - B. L. Berman and S. C. Fultz, Rev. Mod. Phys. 47, 713 (1975).
-  - 卢希庭, 《原子核物理（修订版）》, 第5章.
+Phenomenological widths, enhancement and axis-ratio assumptions are not fitted
+to experimental data. Forward/inverse consistency is not a measured deformation
+uncertainty. This is not a general three-axis triaxial GDR calculation.
 """
 
 import math
@@ -46,6 +17,10 @@ def calculate_trk_sum_rule(Z: int, A: int, kappa_mec: float = 0.25) -> Dict[str,
     """
     Computes classical TRK sum rule sigma_0 and MEC enhanced sum in MeV*mb.
     """
+    if not isinstance(A, int) or not isinstance(Z, int) or A <= 0 or not 0 <= Z <= A:
+        raise ValueError("Require integer A > 0 and 0 <= Z <= A")
+    if not math.isfinite(kappa_mec) or kappa_mec < 0:
+        raise ValueError("Enhancement kappa must be finite and nonnegative")
     N = A - Z
     sigma_0_MeV_mb = 59.74 * (float(N * Z) / float(A))
     sigma_enhanced = sigma_0_MeV_mb * (1.0 + kappa_mec)
@@ -68,6 +43,9 @@ def calculate_deformed_gdr_splitting(
     """
     Computes GDR split peak energies E1 and E2 and inverts deformation.
     """
+    calculate_trk_sum_rule(Z, A)
+    if not math.isfinite(beta_2) or not 0 <= beta_2 < 1:
+        raise ValueError("This illustrative prolate model requires 0 <= beta2 < 1")
     A13 = A ** (1.0 / 3.0)
     A16 = A ** (1.0 / 6.0)
     E_sph = 31.2 / A13 + 20.6 / A16
@@ -99,6 +77,8 @@ def calculate_deformed_gdr_splitting(
     sigma2 = (2.0 / math.pi) * area2 / Gamma2
 
     return {
+        "calculation_status": "illustrative-axial-parameterization",
+        "evidence_boundary": "Assumed deformation, widths and enhancement; not measured nuclear data",
         "spherical_GDR_centroid_MeV": round(E_sph, 2),
         "quadrupole_deformation_beta2": round(beta_2, 3),
         "axis_ratio_a_over_b": round(a_over_b, 3),
@@ -117,7 +97,11 @@ def invert_beta2_from_gdr_peaks(E1_MeV: float, E2_MeV: float) -> float:
     """
     Inverts quadrupole deformation beta_2 from measured GDR peak positions E1, E2.
     """
-    ratio = E2_MeV / max(E1_MeV, 0.1)
+    if not all(math.isfinite(v) and v > 0 for v in (E1_MeV, E2_MeV)):
+        raise ValueError("Peak energies must be finite and positive")
+    if E2_MeV < E1_MeV:
+        raise ValueError("The prolate-axis convention requires E2 >= E1")
+    ratio = E2_MeV / E1_MeV
     # Danos: ratio = 0.911 * (a/b) + 0.089 -> a/b = (ratio - 0.089) / 0.911
     a_over_b = (ratio - 0.089) / 0.911
     # a/b ~ (1 + 0.63*beta) / (1 - 0.315*beta)
@@ -130,7 +114,7 @@ def invert_beta2_from_gdr_peaks(E1_MeV: float, E2_MeV: float) -> float:
 def format_text_report(summary: Dict[str, Any]) -> str:
     lines = []
     lines.append("=" * 72)
-    lines.append("   GIANT DIPOLE RESONANCE (GDR) & TRK SUM RULE ANALYZER")
+    lines.append("   ILLUSTRATIVE GDR & TRK PARAMETERIZATION - NOT FITTED DATA")
     lines.append("=" * 72)
 
     trk = summary["trk_sum"]
@@ -154,9 +138,9 @@ def format_text_report(summary: Dict[str, Any]) -> str:
         lines.append("-" * 72)
 
     lines.append(" Physical Significance:")
-    lines.append("   - TRK sum rule is enhanced by ~25% due to sub-nucleonic meson exchange currents.")
-    lines.append("   - GDR splits into two peaks in deformed nuclei, providing an optical caliper for beta_2.")
-    lines.append("   - Decoupled K=0 and K=1 modes reflect prolate vs oblate elongation.")
+    lines.append("   - Enhancement is a supplied model parameter, not a measured or unique MEC contribution.")
+    lines.append("   - This axial two-mode demonstration does not implement general triaxial three-mode response.")
+    lines.append("   - Inverting the same model is an algebra check, not an experimental uncertainty estimate.")
     lines.append("========================================================================")
     return "\n".join(lines)
 

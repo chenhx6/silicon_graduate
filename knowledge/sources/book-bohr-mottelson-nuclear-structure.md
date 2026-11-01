@@ -1,47 +1,71 @@
 ---
 type: source
-title: "Bohr & Mottelson 1969/1975 - Nuclear Structure (Vols. I & II)"
+title: "Bohr & Mottelson — Nuclear Structure：两卷入口与第一卷原件"
 aliases: [Bohr Mottelson Nuclear Structure, BM1975, 波尔莫特森核结构]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
-title_original: "Nuclear Structure (Volume I: Single-Particle Motion; Volume II: Nuclear Deformations)"
+reading_depth: skimmed
+title_original: "Nuclear Structure, Volume I: Single-Particle Motion"
 authors: [Aage Bohr, Ben R. Mottelson]
-publisher: "W. A. Benjamin / World Scientific"
-year: 1975
-pages: "Vol I: 492; Vol II: 772"
-canonical_source: "A. Bohr and B. R. Mottelson, Nuclear Structure, Vols. I & II, W. A. Benjamin, Inc. (1969, 1975)"
+publisher: "World Scientific (1998 reissue of W. A. Benjamin original)"
+year: 1969
+pages: "492 PDF pages (Vol. I)"
+language: en
+canonical_source: "Local volume I, copyright and prefaces"
 library_file: "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf"
 raw_file: "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf"
 raw_sha256: "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df"
+raw_storage_status: archived-local
+archive_required: true
 nuclei: []
-reactions: []
-experiments: []
-models: [unified-model, particle-rotor-model, deformed-mean-field, backbending, pairing-plus-quadrupole]
-topics: [nuclear-deformation, rotation-vibration-coupling, coriolis-effects, electromagnetic-moments]
+models: [single-particle-model, collective-model]
+tags: [books, nuclear-structure, foundations]
 ---
 
-# Bohr & Mottelson 1969/1975 - Nuclear Structure (Vols. I & II)
+# Nuclear Structure：按原件和实际阅读范围续接
 
-## 专著概况与定位
+## Scope and Reading Depth
 
-Aage Bohr 与 Ben Mottelson 荣获 1975 年诺贝尔物理学奖的奠基之作。该书两卷本构建了现代低能原子核结构理论的完整范式：
-- **Volume I: Single-Particle Motion**（单粒子运动）：单粒子自由度、旋转对称性、自旋-轨道耦合、电偶极与四极单粒子算符；
-- **Volume II: Nuclear Deformations**（核形变）：四极形变动力学、转动与振动耦合、Coriolis 相互作用、粒子-转子耦合（PRM）、回弯与对偶关联塌缩。
+此页保留旧两卷入口的 slug，`raw_file` 与哈希实际只指向第一卷。第二卷已独立登记于 [[book-bohr-mottelson-nuclear-structure-vol2]]。此前将两卷整体标为 deep-read 的声明缺少逐章证据，本轮撤回该完成认定，不把旧摘要当成全书已读证明。
 
-## 核心章节精要与物理内容
+本轮核查第一卷版权页与两篇前言（PDF 7–13）及第二卷目录。尚未核验第一卷全部正文、附录与 illustrative examples。下一轮应从对称性、角动量/张量算符及电磁跃迁矩阵元的共同约定开始，逐章保留页码、计算与理解检验。
 
-### Volume II, Chapter 4: Rotational Spectra（转动谱理论）
-- **转子动力学**：$H_{\text{rot}} = \sum_{k=1}^3 \frac{R_k^2}{2\mathcal{J}_k} = \sum_{k=1}^3 \frac{(I_k - j_k)^2}{2\mathcal{J}_k}$
-  - 展开后显式分离为核心转动项、粒子固有能项与 Coriolis 耦合项：
-    $$H_{\text{Coriolis}} = - \frac{\hbar^2}{\mathcal{J}} (I_+ j_- + I_- j_+)$$
-  - 在奇 $A$ 核中，Coriolis 力作用于高 $j$ 闯入轨道（如 $h_{11/2}, i_{13/2}$），引起能带剧烈的旋称劈裂（Signature splitting）乃至退耦合带（Decoupled bands）。
+## Bibliographic Record
 
-### Volume II, Chapter 5: One-Particle Motion in Nonspherical Nuclei（变形场单粒子运动）
-- **Nilsson 模型**：轴对称拉长/扁长四极形变势中单粒子态的渐近量子数 $[N n_z \Lambda \Omega]$ 演化与费米面穿行规律。
+本地第一卷 PDF 7 给出原版 1969、World Scientific 1998 重印和 1999 再印信息；PDF 8–9 的再版前言同时确认第一卷 1969、第二卷 1975。原版年份与所持有重印版年份分列，不混写为全书 1975。
 
-### Volume II, Chapter 6: Collective Vibrations and Triaxiality（集体振动与三轴性）
-- **$\gamma$ 自由度与三轴非对称性**：推导 Davydov-Filipov 三轴转子能量与 $E2$ 跃迁矩阵元。明确当 $\gamma \ne 0^\circ$ 且 $\gamma \ne 60^\circ$ 时，三个主轴转动惯量 $\mathcal{J}_k = 4 B \beta^2 \sin^2(\gamma - \frac{2\pi}{3} k)$ 发生分立，从而产生摆动运动（wobbling motion）与手征几何。
+## 原书的方法论如何用于实验研究
+
+第一卷原版前言（PDF 10–13）把核结构理解建立在可描述观测的自由度、实验线索、模型体系与对称性关系之间的相互检验上，并将正文、illustrative examples 与附录分开组织。对本库的直接用途是：读完某个解析公式，还应追踪它在例子中具体连接了什么观测、附录中矩阵元怎样定义。
+
+这段是前言的方法论重述，`claim_kind: author-interpretation`，`evidence_level: direct`，不是新的实验结论。
+
+## 修订记录与边界
+
+- 2026-11-02：修正两卷哈希身份混用和未经验证的全量阅读状态。
+- 撤回旧页对第二卷 Coriolis 升降算符项的错误系数；标准轴对称形式须从明定的 H=(I−j)²/(2ℑ) 展开，不能把横向点积与升降算符的 1/2 因子混淆。后续推导归属 [[coriolis-attenuation-and-quasiparticle-band-crossing]]，且其现有数值样例仍待科学核查。
+- 不能把第二卷的经典转子模型回顾性地表述成“当时已经导出后来提出的全部核手征模型”。
+- 全馆藏覆盖与待核查项见 [[book-corpus-coverage-ledger]]；`review_status` 保持 unreviewed。
+
+
+## Summary
+
+详见正文对应小节及核对记录。
+
+
+## Key Results
+
+详见正文对应小节及核对记录。
+
+
+## Competing Interpretations and Limitations
+
+详见正文对应小节及核对记录。
+
+
+## Extracted Pages
+
+详见正文对应小节及核对记录。

@@ -1,41 +1,10 @@
 #!/usr/bin/env python3
-"""
-coriolis_attenuation_bandcrossing_calculator.py
-===============================================
-Coriolis Interaction Attenuation, Particle-Rotor Band Coupling &
-Quasiparticle Band Crossing (Backbending) Analyzer.
+"""Schematic single-j Coriolis matrix-element magnitudes and band diagnostics.
 
-Physics & Formulation:
-----------------------
-1. The Particle-Rotor Hamiltonian & Coriolis Coupling:
-   H = H_intr + [ hbar^2 / (2 * J_0) ] * (I - j)^2
-     = H_intr + [ hbar^2 / (2 * J_0) ] * [ I(I+1) - K^2 + j^2 - Omega^2 ] + H_cor
-   where the Coriolis operator is:
-     H_cor = - [ hbar^2 / (2 * J_0) ] * ( I_+ * j_- + I_- * j_+ )
-
-2. Off-Diagonal Coriolis Matrix Elements & Attenuation Factor xi:
-   <I, K+1 | H_cor | I, K> = - xi * [ hbar^2 / (2 * J_0) ] *
-                             sqrt( (I - K) * (I + K + 1) * (j - K) * (j + K + 1) )
-   - Standard Bohr-Mottelson Rotor: xi = 1.0 (overestimates decoupling in odd-A nuclei).
-   - Realistic Attenuated Value: xi ~ 0.60 - 0.85
-     Physical Origins of Attenuation:
-     * Residual pairing reduction factor: (u_1 * u_2 + v_1 * v_2)
-     * Core polarization by odd nucleon deformation
-     * Delta_N = 2 cross-shell mixing
-
-3. Rotational Alignment & Backbending Analysis:
-   - Aligned angular momentum: I_x = sqrt( (I + 0.5)^2 - K^2 )
-   - Rotational frequency: hbar_omega = (E(I) - E(I-2)) / 2
-   - Kinematical moment of inertia: J^(1) = hbar * I_x / omega  (in hbar^2/MeV)
-   - Dynamical moment of inertia:   J^(2) = hbar * (dI_x / d_omega)
-   - Harris Reference subtraction: J_ref = J_0 + J_1 * omega^2
-     i_x(omega) = I_x(omega) - ( J_0 * omega + J_1 * omega^3 )
-
-References:
-  - A. Bohr and B. R. Mottelson, Nuclear Structure, Vol. II: Nuclear Deformations (1975), §4-3.
-  - K. Heyde, Basic Ideas and Concepts in Nuclear Physics, IOP (1999), Ch 8.
-  - S. Frauendorf, Rev. Mod. Phys. 73, 463 (2001).
-  - 卢希庭, 《原子核物理（修订版）》, 第8章 (集体模型与转动能级).
+The spin/energy sequence in main() is synthetic, not 131La measurement data.
+The attenuation xi is an external phenomenological input; this calculator does
+not derive it from pairing. A frequency decrease is a candidate backbend,
+not a unique identification of a broken pair or quasiparticle configuration.
 """
 
 import math
@@ -55,9 +24,18 @@ def calculate_coriolis_matrix_elements(
     Calculates off-diagonal Coriolis matrix elements <I, K+1 | H_cor | I, K>
     across the K-manifold (K = 1/2, 3/2, ..., j-1).
     """
+    for name, value in (("j", j), ("I", I), ("A_rot_keV", A_rot_keV), ("xi", xi)):
+        if not math.isfinite(value):
+            raise ValueError(f"{name} must be finite")
+    if j < 0 or I < 0 or A_rot_keV <= 0 or not 0 <= xi <= 1:
+        raise ValueError("Require nonnegative spins, positive A_rot and 0 <= xi <= 1")
+    if not all(abs(2*v-round(2*v)) < 1e-9 for v in (j, I)):
+        raise ValueError("Spins must be integer or half-integer")
+    if (round(2*j)-round(2*I)) % 2:
+        raise ValueError("I and j must have the same integer/half-integer parity")
     k_vals = []
-    cur_k = 0.5
-    while cur_k < j:
+    cur_k = 0.0 if round(2*j) % 2 == 0 else 0.5
+    while cur_k < min(j, I):
         k_vals.append(cur_k)
         cur_k += 1.0
 
@@ -74,6 +52,7 @@ def calculate_coriolis_matrix_elements(
 
         val_att = xi * val_unatt
         elements.append({
+            "value_kind": "matrix-element-magnitude-in-single-j-basis",
             "K_initial": k,
             "K_final": k_next,
             "unattenuated_matrix_element_keV": val_unatt,
@@ -97,6 +76,14 @@ def analyze_backbending_alignment(
     if len(spins) != len(energies_keV) or len(spins) < 3:
         raise ValueError("Spins and energies must have at least 3 points.")
 
+    if not all(math.isfinite(v) for v in spins + energies_keV + [J0_harris, J1_harris, K_band]):
+        raise ValueError("Band inputs must be finite")
+    if any(b <= a for a, b in zip(spins, spins[1:])):
+        raise ValueError("Spins must increase strictly")
+    if any(b <= a for a, b in zip(energies_keV, energies_keV[1:])):
+        raise ValueError("Level energies must increase strictly")
+    if any(I < abs(K_band) for I in spins):
+        raise ValueError("Band projection magnitude cannot exceed total spin")
     n = len(spins)
     points = []
     backbend_detected = False
@@ -142,6 +129,7 @@ def analyze_backbending_alignment(
             break
 
     return {
+        "evidence_boundary": "Finite-difference band descriptors; no experimental identity or unique pair-breaking inference",
         "harris_reference_parameters": {
             "J0_hbar2_per_MeV": J0_harris,
             "J1_hbar4_per_MeV3": J1_harris,
@@ -164,10 +152,10 @@ def format_text_report(cor_elem: List[Dict[str, Any]], bb_res: Dict[str, Any], I
     lines = [
         "=" * 74,
         "   CORIOLIS ATTENUATION, PARTICLE-ROTOR COUPLING & BACKBENDING SUITE",
-        "   Based on Bohr & Mottelson (Nuclear Structure Vol II) & Heyde",
+        "   Schematic single-j elements and SYNTHETIC band example",
         "=" * 74,
         f" CORIOLIS MATRIX ELEMENTS AT SPIN I = {I_spin:.1f} (Orbital j = {j_orbital:.1f}):",
-        "   K -> K+1        Unattenuated (xi=1.0)    Attenuated (xi=0.75)    Reduction",
+        "   K -> K+1        Unattenuated (xi=1.0)    Attenuated (input xi)    Reduction",
         "   " + "-" * 70
     ]
 
@@ -183,7 +171,7 @@ def format_text_report(cor_elem: List[Dict[str, Any]], bb_res: Dict[str, Any], I
     lines.extend([
         "-" * 74,
         f" ROTATIONAL ALIGNMENT & BACKBENDING TRAJECTORY (Harris J0={har['J0_hbar2_per_MeV']:.1f}, J1={har['J1_hbar4_per_MeV3']:.1f}):",
-        f"   Backbending Status   : {'BACKBENDING / BAND-CROSSING CONFIRMED!' if diag['backbending_observed'] else 'Smooth rotational upbending'}",
+        f"   Backbending Status   : {'FREQUENCY DECREASE CANDIDATE (heuristic)' if diag['backbending_observed'] else 'Smooth rotational upbending'}",
         f"   Crossing Frequency   : {diag['crossing_frequency_hbar_omega_MeV']} MeV" if diag['crossing_frequency_hbar_omega_MeV'] else "   Crossing Frequency   : N/A",
         f"   Peak Alignment i_x   : {diag['maximum_quasiparticle_alignment_ix']:.2f} hbar",
         "",
@@ -201,10 +189,10 @@ def format_text_report(cor_elem: List[Dict[str, Any]], bb_res: Dict[str, Any], I
     lines.extend([
         "-" * 74,
         " Physical & Microscopic Synthesis:",
-        "   - Pure independent-particle rotor (xi=1) overestimates Coriolis decoupling.",
-        "   - Attenuation factor xi ~ 0.75 arises from pairing gap Delta and core polarization.",
-        "   - At hbar*omega_c, Coriolis force breaks the high-j pair, creating a sharp backbend",
-        "     in J^(1) and transferring ~ 8-10 hbar of alignment to the yrast sequence.",
+        "   - The reported elements are magnitudes in an ideal single-j basis.",
+        "   - xi is a supplied phenomenological scale; no microscopic origin is fitted here.",
+        "   - The demo levels are synthetic; a frequency decrease alone does not identify",
+        "     a specific quasiparticle configuration or prove a band crossing.",
         "=" * 74
     ])
     return "\n".join(lines)
@@ -234,7 +222,7 @@ def main():
         xi=args.xi
     )
 
-    # Representative experimental yrast band crossing in 131La (pi h11/2 band)
+    # Synthetic energy sequence for demonstrating a frequency decrease; not nuclear data.
     demo_spins = [5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5, 21.5, 23.5, 25.5]
     # Energies with backbending around 19.5 -> 21.5
     demo_energies = [0.0, 180.0, 480.0, 910.0, 1470.0, 2160.0, 2980.0, 3650.0, 4200.0, 4850.0, 5600.0]

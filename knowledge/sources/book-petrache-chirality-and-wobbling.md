@@ -1,80 +1,116 @@
 ---
 type: source
-title: "Petrache 2024 - Chirality and Wobbling in Atomic Nuclei"
+title: "Petrache (ed.) — Chirality and Wobbling in Atomic Nuclei (CRC, 2025 imprint)"
 aliases: [Petrache2024, Chirality and Wobbling Book, 核手征与摆动专著]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "Chirality and Wobbling in Atomic Nuclei"
-authors: [Costel Marian Petrache (editor), Stefan Frauendorf, Jie Meng, Elena A. Lawrie, Song Guo, Bingfeng Lv, Kosuke Nomura, J. A. Sheikh, Pengwei Zhao, Qibo Chen, et al.]
+authors: ["Costel Marian Petrache (editor)"]
 publisher: "CRC Press / Taylor & Francis Group"
-year: 2024
-pages: "339"
-isbn: "9781032483863"
-canonical_source: "C. M. Petrache (ed.), Chirality and Wobbling in Atomic Nuclei, CRC Press (2024)"
+year: 2025
+pages: "339 PDF pages; 320 numbered text/index pages"
+isbn: "9781032691633 (ebook); 9781032691282 (hardback); 9781032691602 (paperback)"
+doi: "10.1201/9781032691633"
+canonical_source: "Local edition copyright page, PDF p. 5 (iv)"
 library_file: "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf"
 raw_file: "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf"
 raw_sha256: "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2"
-nuclei: [135Pr, 136Nd, 135Nd, 133La, 133Ce, 131Ce, 187Au, 105Pd, 126Cs, 128Cs, 130Ba, 133Ba, 163Lu, 165Lu]
-reactions: [fusion-evaporation, in-beam-gamma]
-experiments: [JUROGAM, Gammasphere, INGA, AFRODITE, AGATA, GRETINA]
-models: [particle-rotor-model, tilted-axis-cranking, covariant-density-functional-theory, triaxial-projected-shell-model, ibfm]
-topics: [nuclear-chirality, wobbling-motion, transverse-wobbling, longitudinal-wobbling, triaxiality, dual-root-degeneracy]
+raw_storage_status: archived-local
+archive_required: true
+nuclei: [135pr, 105pd, 133la, 187au, 130ba, 136nd, 127xe]
+models: [particle-rotor-model, triaxial-projected-shell-model, ibfm, tilted-precession]
+tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 ---
 
-# Petrache 2024 - Chirality and Wobbling in Atomic Nuclei
+# Chirality and Wobbling in Atomic Nuclei：版本、章节与争议证据入口
 
-## 专著全貌与划时代意义
+## Scope and Reading Depth
 
-本书是低能核结构领域第一部全面系统总结**原子核手征性（Chirality）与摆动运动（Wobbling Motion）**二十余年发展史与最新学术争议的权威巨著（339 页，2024 年出版）。由国际三轴核结构大师 Costel Marian Petrache 领衔主编，汇聚了包括手征性与摆动运动奠基人 Stefan Frauendorf、孟杰、Elena Lawrie，以及中国核物理前沿团队（郭松、吕冰锋、赵鹏巍、陈启博、亓斌等）在内的全球顶级学者。
+本轮核验版权页、完整目录，并对若干关键段落进行了原文重读与公式复核。`reading_depth: skimmed` 表示**全书尚未完成逐章主线阅读**；局部深查不能把整部书标为 deep-read。上一版整书 deep-read、全量吸收和“争议终结”的表述撤回。正文抽取缓存放在 `tmp/`，不等于已经阅读图表或完整章节。
 
-该书全面覆盖了从经典三轴刚体转动、粒子-转子耦合模型（PRM/PTR）、微观协变密度泛函理论（CDFT）、含时协变密度泛函（TD-CDFT）、三轴投影壳模型（TPSM）、相互作用玻色子-费米子模型（IBFM），到大阵列束内 $\gamma$ 谱学实验证据、多重手征带（M$\chi$D）、横向/纵向摆动判定、以及近期在 $^{135}\text{Pr}$、$^{187}\text{Au}$ 等核中引发全球广泛争鸣的低自旋摆动反思。
+实际核查：PDF 43–47 的三轴转子定义及轨道分类；PDF 56–57 的 135Pr 争议；PDF 118–123 的实验判据、低自旋近似和偶偶核案例；PDF 244–246 的 IBFM 混合比公式、参数依赖与结果。PDF 244、122 还做了页面图像核对。未覆盖：其余章节正文、全部图表、参考文献的原始数据与 SI。完整阅读状态应按 [[book-corpus-coverage-ledger]] 续接。
 
----
+## Bibliographic Record
 
-## 17 个核心章节精解与理论图景
+本地 PDF p. 5 标注首版 2025、CRC Press、三种 ISBN 和 DOI；因此按**所持有的版本**登记 2025。部分章节叙述覆盖 2024 年文献，不以此推断版本年份。旧页面的 ISBN `9781032483863` 未由本原件支持，已撤回；Springer 归属错误。保留 `Petrache2024` alias 仅供旧链接检索，不代表书目核验结论。
 
-### Chapter 1: History and Future Perspectives (C. M. Petrache, pp. 20–42)
-- **历史梳理**：系统回顾 1997 年 Frauendorf 与孟杰预言核手征性；2001 年 Ødegård 等在 $^{163}\text{Lu}$ 中首次观测高自旋摆动声子激发；2014 年 Frauendorf 与 Dönau 提出横向摆动（TW）机制；2015 年 Matta 等在 $^{135}\text{Pr}$ 报道首个奇 $A$ 核横向摆动；以及 2022 年后吕冰锋、郭松等在 $^{135}\text{Pr}$ 中指出混淆双根退化、推翻摆动解释的科学反转。
-- **两大模式本质界定**：
-  - **手征性**：三个非共面不相等的角动量矢量（价质子、价中子、三轴核芯转动）打破手征对称性；
-  - **摆动运动**：非轴对称三轴椭球转子绕主转动惯量轴的微幅进动（低能激发本质为转动自由度的量子进动谐振子）。
+本书是多人撰写的编著。各章作者的判断不能互相替代，也不因同处一书就成为独立实验复现。
 
-### Chapter 2: Wobbling Motion in Triaxial Nuclei (S. Frauendorf, pp. 43–80)
-- **三轴转子（Triaxial Rotor）基石**：
-  $$H_{\text{rot}} = \frac{R_1^2}{2\mathcal{J}_1} + \frac{R_2^2}{2\mathcal{J}_2} + \frac{R_3^2}{2\mathcal{J}_3}$$
-  若 $\mathcal{J}_1 > \mathcal{J}_2, \mathcal{J}_3$，能量最低的稳定转动绕 1 轴进行。摆动频率在简谐振子近似下为：
-  $$\hbar\omega_w = \hbar\omega_{\text{rot}} \sqrt{\frac{(\mathcal{J}_1 - \mathcal{J}_2)(\mathcal{J}_1 - \mathcal{J}_3)}{\mathcal{J}_2 \mathcal{J}_3}}$$
-- **粒子-转子耦合（Particle-Triaxial Rotor, PTR）分类**：
-  - **横向摆动（TW）**：高 $j$ 准粒子角动量 $\vec{j}$ 垂直于最大转动惯量轴（如绕 3 轴对齐，而 $\mathcal{J}_1$ 最大）。随自旋 $I$ 增加，Coriolis 力使总角动量向 1 轴倾斜，导致**摆动能量 $E_w(I) = E(I, n_w=1) - [E(I-1, n_w=0) + E(I+1, n_w=0)]/2$ 随自旋 $I$ 下降**！
-  - **纵向摆动（LW）**：准粒子角动量 $\vec{j}$ 与最大转动惯量轴平行（均沿 1 轴）。随着自旋 $I$ 增加，摆动频率随自旋增加而上升。
+## Chapter Map
 
-### Chapter 3: 25th Anniversary of Nuclear Chirality (J. Meng & Y. P. Wang, pp. 81–93)
-- **手征双重带物理判据（“孟杰判据”）**：
-  1. 能级能量近简并：$\Delta E(I) = E_2(I) - E_1(I)$ 较小且随自旋呈现平缓或微小能隙；
-  2. 相同的自旋宇称序列：$I^\pi, (I+1)^\pi, (I+2)^\pi, \dots$ 具有相同的转动惯量与回弯行为；
-  3. 跃迁分支比与强度极度对称：带间/带内 $B(M1)/B(E2)$ 呈现奇偶交替交织并随自旋收敛；
-  4. 手征恢复机制：在静态手征区，左右手系发生量子隧道穿透形成正负宇称伙伴（手征振动向静态手征演化）。
+页码均为 **PDF 物理页（1 起算）**，并非印刷页。正文印刷页通常为 PDF 页减 19。
 
-### Chapter 5: Recent Experimental Results on Chirality and Wobbling (S. Guo & B. F. Lv, pp. 110–126)
-- **$^{135}\text{Pr}$ 摆动争议的关键破局**：
-  详细展示 2022 年在芬兰 JYFL 采用 JUROGAM II 阵列测量的线偏振数据。原先宣称的横向摆动带连接线（$\Delta I=1$ 跃迁）的角分布系数 $a_2 \approx -0.42$ 存在绝对数学双根退化（$\delta_1 = -1.83$ 摆动解 vs $\delta_2 = -0.47$ 伙伴带解）。偏振度测量以 $>11\sigma$ 的显著性彻底排除了大 $|\delta|$ 的摆动解，证实连接线为 $81.9\%\ M1$ 占优，实为常规的旋称伙伴带（signature partner band）！
-- **$^{136}\text{Nd}$ 偶偶核横向摆动的确立**：展示两准中子组态横向摆动的直接微观证据。
+| 章 | 作者/主题 | PDF 范围 | 本轮可声称的阅读状态 |
+| --- | --- | --- | --- |
+| 1 | Petrache，历史与展望 | 20–42 | 目录定位 |
+| 2 | Frauendorf，三轴核摆动 | 43–80 | 选段核查，非全章完成 |
+| 3 | Meng / Wang，核手征性 | 81–93 | 目录定位 |
+| 4 | Tanabe / Sugawara-Tanabe，代数模型 | 94–109 | 目录定位 |
+| 5 | Guo / Lv，实验结果与争议 | 110–126 | 选段核查，非全章完成 |
+| 6 | Lawrie，倾斜进动与术语争议 | 127–155 | 目录与检索定位，正文待读 |
+| 7 | Grodner，126,128Cs 与寿命/g 因子 | 156–166 | 目录定位 |
+| 8 | Raduta 等，半经典模型 | 167–203 | 目录定位 |
+| 9 | Zhao，含时 CDFT 手征动力学 | 204–221 | 目录定位 |
+| 10 | Chen 等，CDFT+PRM | 222–238 | 目录定位 |
+| 11 | Nomura，IBFM/IBFFM | 239–255 | 选段核查，非全章完成 |
+| 12 | Sheikh 等，TPSM 与摆动 | 256–274 | PDF 258–259 选段阅读，公式待逐式复核 |
+| 13 | Budaca，准粒子对齐的自旋动力学 | 275–291 | 目录定位 |
+| 14 | Wang，TPSM 手征与摆动 | 292–301 | 目录定位 |
+| 15 | Qi，A≈80 核手征 | 302–310 | 目录定位 |
+| 16 | Li / Chen，Cs 同位素链 | 311–322 | 目录定位 |
+| 17 | Zhang 等，过渡系统与 γ 振动模型 | 323–337 | 目录定位 |
 
-### Chapter 6: Tilted Precession and Wobbling (E. A. Lawrie, pp. 127–155)
-- **倾斜进动（Tilted Precession, TP）动力学**：
-  从庞加莱截面和非线性经典轨道出发，证明当势能面关于角动量方向具有倾斜极小值时，体系优先发生倾斜进动。若恢复力常数不对称，进动谱与摆动谱极其相似，必须通过绝对电磁跃迁几率 $B(E2)_{\text{out}}/B(E2)_{\text{in}}$ 加以裁决。
+## Key Evidence and Reasoning Chain
 
-### Chapter 11: Interacting Boson-Fermion Model Perspectives (K. Nomura, pp. 239–255)
-- **$\gamma$ 软核对摆动运动的挑战**：
-  Nomura 指出在 $A\approx 130$ 质量区（如 $^{131}\text{Xe}, {}^{133}\text{La}, {}^{135}\text{Pr}$），微观自洽平均场表明核芯具有强烈的 $\gamma$ 柔软度（$\gamma$-softness），有效三轴势能面极浅。在 IBFM 框架下，原本被指认为“摆动激发”的能带，本质上是准粒子与大振幅 $\gamma$ 振动声子耦合的产物，摆动能量随自旋下降是 $\gamma$ 自由度软化的自然表现。
+| ID | 原书内容与用途 | claim_kind | evidence_level | locator | needs_review |
+| --- | --- | --- | --- | --- | --- |
+| CW-1 | 三轴转子模型用三个惯量及轴约定定义；该章采用 s,m,l 为 1,2,3。不能把别章的数字轴标签直接代入。 | model-result | direct | Ch. 2, PDF 43–45 / pp. 24–26, Eqs. 2.1–2.5 | false |
+| CW-2 | Frauendorf 以分离轨道的拓扑分类讨论 wobbling/flip，并明确不同意仅限谐振幅的命名建议。这是作者的分类立场。 | author-interpretation | direct | Ch. 2, PDF 45–46 / pp. 26–27, Fig. 2.3 邻文 | false |
+| CW-3 | 同一章比较 135Pr 的小混合比与大混合比结果，作者仍倾向 TW，并提出需新实验确定 δ。不能说该书已一致否定 135Pr 摆动。 | author-interpretation | direct | Ch. 2, PDF 56–57 / pp. 37–38, Fig. 2.15 邻文 | false |
+| CW-4 | 实验章节讨论 P 与方向角关联联合分析所给的小 δ、M1 主导，并据此反对部分低自旋摆动指认；同时要求标准化分析与公开数据。 | author-interpretation | direct | Ch. 5, PDF 120–121 / pp. 101–102 | false |
+| CW-5 | 书中 130Ba/136Nd 两准粒子案例的连接跃迁可为 M1 分量更强，但 E2 相对旋称伙伴增强。因此“所有摆动必须 fE2>80%”不是通用必要条件。 | author-interpretation | direct | Ch. 5, PDF 122–123 / pp. 103–104, Fig. 5.7 后段 | false |
+| CW-6 | 混合比由有符号约化 E2/M1 矩阵元及光子能量计算；E2/M1 算符有核芯、单粒子及占有振幅贡献。 | model-result | direct | Ch. 11, PDF 244–245 / pp. 225–226, Eqs. 11.10–11.12 | false |
+| CW-7 | IBFM 计算对 135Pr 给出小混合比，并指出某些 127Xe 低自旋大 δ 来自过小的 M1 矩阵元，而非必然很大的 E2。 | model-result | direct | Ch. 11, PDF 245–246 / pp. 226–227, Fig. 11.3 邻文 | false |
 
----
+`false` 表示本轮完成“这段原文是否如此表述”的 self-audit，不等于实验真实性、学界共识或 human-reviewed。
 
-## 对本 Wiki 与博士课题的核心价值
+## Competing Interpretations and Limitations
 
-1. **确立研究体系顶层认知**：彻底建立手征性与摆动运动在 $A\approx 130$ 质量区（包括 $^{131,133}\text{Ce}$）的分类谱系与适用边界。
-2. **筑牢实验反误判防线**：坚决贯彻“五道门”证据裁判标准，绝不因单一度规（如角分布或能谱靠近）轻易宣布新模式，必须提供偏振、多极混合比、绝对寿命和理论势能刚性的完备链条！
+| 问题 | 支持路线 | 反对/替代路线 | 证据依赖 |
+| --- | --- | --- | --- |
+| 135Pr 低自旋候选 | Ch. 2: 能量演化、拟合惯量的 QTR、TPSM、邻核类比 | Ch. 5: 新混合比分析；Ch. 11: IBFM 小 δ 与 γ 软核响应 | 章节重用既有论文，不是三次独立测量 |
+| 低自旋是否称 wobbling | Ch. 2: 轨道拓扑分类可超出谐振幅 | Ch. 5/6: 强调高自旋小振幅近似与 TiP 区别 | 部分是定义/适用域之争，与数值提取争议分开 |
+| E2 指纹 | 要看跨带集体 E2 与模型联合预言 | 大 δ 可来自 M1 小分母；两准粒子磁矩可使 M1 同时增强 | 需绝对或相对 B(E2)、寿命、组态和系统学 |
+
+原文自身也须批判阅读：Ch. 11 PDF 244（p. 225）把 105Pd 列入奇质子例子，并写 127Xe 是该集合中唯一奇中子核；105Pd 的 Z=46、N=59 明确与此冲突。保留为**原书疑似笔误**，不把它转录为核素事实。Ch. 5 PDF 121 的 σ 文字描述与常用高斯宽度记号也应结合具体参数定义核对，不将一个字词强行当成方差定义。
+
+## Analytical Reconstruction
+
+可复用的研究顺序是：先核对轴和相位约定 → 确认能带/跃迁身份 → 保留 δ 的全部可容许解 → 在共同响应模型中联合角关联、偏振与取向不确定度 → 从混合比、分支比和寿命分别建立电磁强度 → 比较 PTR/TPSM、IBFM/γ 软核、旋称伙伴及 TiP 的区分性预言。这个流程是本任务综合，不是原书统一列出的“硬五道门”。
+
+## Knowledge Impact and Self-audit
+
+- 修正 [[wobbling-mixing-ratio-phase-and-transition-diagnostics]] 中未经核验的普适相位法则与自动选根。
+- 连接 [[book-bohr-mottelson-nuclear-structure-vol2]] 的高自旋近似，检查用词与数学条件。
+- P0 科学项：旧“理论选根即确认 TW”已撤回；旧“同宇称手征双带是正负宇称伙伴”错误也撤回。手征恢复与宇称破缺是不同对称性问题。
+- P1：须继续完整重读 Ch. 2、5、6、11，再回到被引实验的实际数据/响应与后续论文；目前不据本书给 135Pr 做终局裁决。
+- 无本轮 human-review 事件；原件哈希核验只确认来源身份，不证明阅读已完成。
+
+
+## Summary
+
+详见正文对应小节及核对记录。
+
+
+## Key Results
+
+详见正文对应小节及核对记录。
+
+
+## Extracted Pages
+
+详见正文对应小节及核对记录。
