@@ -3,6 +3,13 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T12:00:00+08:00 (激发函数靶内阻止积分与反应截面反演工具落地)
+
+- **在束反应动力学与绝对截面反演闭环完成**：
+  - 沉淀实战指南《重离子核反应激发函数、靶内阻止积分与截面反演实战指南》（覆盖薄靶/厚靶产额积分方程、靶内能量损失 $\Delta E$、法拉第杯束流流强积分与绝对生成截面 $\sigma(E)$ 反演算法，以及非对称高斯模型拟合激发函数峰位与最优蒸发窗口）；
+  - 开发完成生产级激发函数与反应截面反演器（system/scripts/analysis/excitation_function_calculator.py），集成至 nuclear_analyzer CLI 并通过 10 大模块全量自动化回归测试；
+  - 成功提交（commit 176a80fb）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-02T10:00:00+08:00 (电偶极极化率EoS、ENSDF数据格式与自动化对账工具落地)
 
 - **跨尺度状态方程理论与国际核数据自动对账闭环**：
