@@ -24,6 +24,7 @@ Tests:
   19. ibm_dynamical_symmetry_analyzer: checks R4/2 ratio, Casten triangle phase, and O(6) degeneracy.
   20. ado_polarization_joint_analyzer: checks ADO ratio, Clover asymmetry conversion, and joint profile fit.
   21. side_feeding_deconvolution_calculator: checks effective F-factor, side-feeding delay deconvolution, and Qt bias.
+  22. internal_conversion_bricc_calculator: checks ICC multipolarity hierarchy, mixed transition alpha, and discrimination.
 """
 
 import sys
@@ -50,6 +51,7 @@ from superdeformation_decayout_calculator import evaluate_superdeformation_flatn
 from ibm_dynamical_symmetry_analyzer import calculate_ibm_energy_ratios, classify_casten_triangle_phase
 from ado_polarization_joint_analyzer import calculate_ado_ratio, convert_clover_counts_to_polarization, joint_ado_polarization_scan
 from side_feeding_deconvolution_calculator import calculate_effective_f_factor, deconvolve_side_feeding_lifetime
+from internal_conversion_bricc_calculator import calculate_bricc_icc, calculate_mixed_icc, discriminate_multipolarity
 
 
 def test_heavy_ion_kinematics():
@@ -345,13 +347,26 @@ def test_side_feeding_deconvolution_calculator():
     print("Testing side_feeding_deconvolution_calculator...")
     f_eff_0 = calculate_effective_f_factor(tau_level_ps=1.0, tau_feed_ps=0.0, f_feed=0.5, alpha_ps=1.0)
     assert abs(f_eff_0 - 0.5) < 1e-4, f"Zero feed time error: {f_eff_0}"
-
     alpha = 1.05
     f_exp = 0.55
     res = deconvolve_side_feeding_lifetime(f_exp, tau_feed_ps=0.35, f_feed=0.40, alpha_ps=alpha)
     assert res["tau_intrinsic_ps"] < res["tau_apparent_ps"], "Intrinsic lifetime must be shorter than apparent"
     assert abs(res["F_measured"] - 0.55) < 1e-4, "F_measured preservation error"
     print("  ✓ side_feeding_deconvolution_calculator passed.")
+
+
+def test_internal_conversion_bricc_calculator():
+    print("Testing internal_conversion_bricc_calculator...")
+    icc_e1 = calculate_bricc_icc(Z=58, E_gamma_keV=150.0, multipolarity="E1")
+    icc_m1 = calculate_bricc_icc(Z=58, E_gamma_keV=150.0, multipolarity="M1")
+    icc_e2 = calculate_bricc_icc(Z=58, E_gamma_keV=150.0, multipolarity="E2")
+    assert icc_e1["alpha_K"] < icc_m1["alpha_K"] < icc_e2["alpha_K"], "ICC multipolarity hierarchy error"
+    mixed = calculate_mixed_icc(Z=58, E_gamma_keV=150.0, delta=1.0)
+    expected = 0.5 * (icc_m1["alpha_total"] + icc_e2["alpha_total"])
+    assert abs(mixed["alpha_total_mixed"] - expected) < 1e-4, "Mixed ICC calculation error"
+    disc = discriminate_multipolarity(Z=58, E_gamma_keV=150.0, alpha_exp=icc_e2["alpha_total"])
+    assert disc["best_multipolarity"] == "E2", f"Multipolarity discrimination error: {disc['best_multipolarity']}"
+    print("  ✓ internal_conversion_bricc_calculator passed.")
 
 
 if __name__ == "__main__":
@@ -377,4 +392,5 @@ if __name__ == "__main__":
     test_ibm_dynamical_symmetry_analyzer()
     test_ado_polarization_joint_analyzer()
     test_side_feeding_deconvolution_calculator()
-    print("ALL 21 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_internal_conversion_bricc_calculator()
+    print("ALL 22 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

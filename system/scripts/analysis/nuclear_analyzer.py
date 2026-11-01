@@ -39,6 +39,7 @@ from superdeformation_decayout_calculator import evaluate_superdeformation_flatn
 from ibm_dynamical_symmetry_analyzer import calculate_ibm_energy_ratios, classify_casten_triangle_phase
 from ado_polarization_joint_analyzer import calculate_ado_ratio, convert_clover_counts_to_polarization, joint_ado_polarization_scan
 from side_feeding_deconvolution_calculator import calculate_effective_f_factor, deconvolve_side_feeding_lifetime
+from internal_conversion_bricc_calculator import calculate_bricc_icc, calculate_mixed_icc, correct_gamma_intensity_for_conversion, discriminate_multipolarity
 
 
 def cmd_kinematics(args):
@@ -449,6 +450,34 @@ def cmd_feed(args):
     print("=======================================================")
 
 
+def cmd_icc(args):
+    print("\n=======================================================")
+    print(" Nuclear Internal Conversion (ICC / BrIcc) Analysis")
+    print("=======================================================")
+    print(f"  Target Nucleus Z={args.Z}, Gamma Transition E = {args.Egamma:.1f} keV")
+    if args.delta is not None and abs(args.delta) > 1e-4:
+        mixed = calculate_mixed_icc(args.Z, args.Egamma, args.delta)
+        print(f"  M1 + E2 Mixed Transition (delta = {args.delta:+.3f}):")
+        print(f"    alpha_K(mixed)        : {mixed['alpha_K_mixed']:.4f}")
+        print(f"    alpha_tot(mixed)      : {mixed['alpha_total_mixed']:.4f}  [BrIcc Parameterized]")
+        print(f"    Pure alpha_tot(M1)    : {mixed['alpha_tot_M1']:.4f}")
+        print(f"    Pure alpha_tot(E2)    : {mixed['alpha_tot_E2']:.4f}")
+    else:
+        res = calculate_bricc_icc(args.Z, args.Egamma, args.mult)
+        print(f"  Single Multipolarity: {res['multipolarity']}")
+        print(f"    K-Shell Binding B_K   : {res['B_K_binding_keV']:.2f} keV")
+        print(f"    Theoretical alpha_K   : {res['alpha_K']:.4f}")
+        print(f"    Theoretical alpha_tot : {res['alpha_total']:.4f}")
+
+    if args.Igamma:
+        corr = correct_gamma_intensity_for_conversion(args.Igamma, args.Z, args.Egamma, delta=args.delta if args.delta else 0.0, multipolarity=args.mult)
+        print("-------------------------------------------------------")
+        print(f"  Intensity Correction:")
+        print(f"    Observed I_gamma      : {corr['I_gamma']:.1f}")
+        print(f"    Total Transition I_tot: {corr['I_total_transition']:.1f} ({corr['conversion_multiplier']:.3f}x multiplier)")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -652,6 +681,15 @@ def main():
     p_feed.add_argument("--f_feed", type=float, default=0.40, help="Fraction of feeding from side quasicontinuum (0 to 1)")
     p_feed.add_argument("--alpha", type=float, default=1.05, help="Stopper foil slowing down time in ps")
     p_feed.set_defaults(func=cmd_feed)
+
+    # Internal Conversion Coefficients & BrIcc
+    p_icc = subparsers.add_parser("icc", help="Internal conversion coefficients (alpha_K, alpha_tot) and intensity correction")
+    p_icc.add_argument("--Z", type=int, required=True, help="Atomic number Z")
+    p_icc.add_argument("--Egamma", type=float, required=True, help="Gamma transition energy in keV")
+    p_icc.add_argument("--mult", type=str, default="E2", help="Multipolarity (E1, M1, E2, M2, E3, M3)")
+    p_icc.add_argument("--delta", type=float, default=None, help="Mixing ratio delta for M1+E2 transitions")
+    p_icc.add_argument("--Igamma", type=float, default=None, help="Measured gamma peak intensity to correct for conversion")
+    p_icc.set_defaults(func=cmd_icc)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
