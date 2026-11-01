@@ -17,6 +17,7 @@ Tests:
   12. shape_coexistence_e0_calculator: checks electronic Omega_K factor, rho^2(E0) extraction, and two-state mixing.
   13. moment_of_inertia_spin_analyzer: checks J1, J2 moments of inertia and floating band spin inversion.
   14. coulex_kumar_invariant_calculator: checks safe Coulex energy, reorientation Q_s, and Kumar invariants.
+  15. tpsm_band_diagram_calculator: checks 3D projected energy, band crossing Ic, and alignment.
 """
 
 import sys
@@ -36,6 +37,7 @@ from magnetic_rotation_shears_calculator import calculate_shears_angle, calculat
 from shape_coexistence_e0_calculator import calculate_omega_k_e0, extract_rho2_e0_from_lifetime, invert_two_state_mixing
 from moment_of_inertia_spin_analyzer import calculate_moments_of_inertia, invert_floating_band_spin
 from coulex_kumar_invariant_calculator import calculate_safe_coulex_energy, reorientation_static_quadrupole, calculate_kumar_invariants
+from tpsm_band_diagram_calculator import calculate_effective_moi_tpsm, generate_tpsm_band_diagram
 
 
 def test_heavy_ion_kinematics():
@@ -245,6 +247,16 @@ def test_coulex_kumar_invariant_calculator():
     print("  ✓ coulex_kumar_invariant_calculator passed.")
 
 
+def test_tpsm_band_diagram_calculator():
+    print("Testing tpsm_band_diagram_calculator...")
+    spins = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+    diag = generate_tpsm_band_diagram(spins, epsilon2=0.22, gamma_deg=25.0, A=132)
+    assert diag["J_eff_core"] > 20.0, f"J_eff_core error: {diag['J_eff_core']}"
+    assert diag["crossing_spin_Ic"] is not None, "Should detect microscopic band crossing"
+    assert 14.0 < diag["crossing_spin_Ic"] < 20.0, f"Crossing spin Ic out of expected bounds: {diag['crossing_spin_Ic']}"
+    print("  ✓ tpsm_band_diagram_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -261,4 +273,5 @@ if __name__ == "__main__":
     test_shape_coexistence_e0_calculator()
     test_moment_of_inertia_spin_analyzer()
     test_coulex_kumar_invariant_calculator()
-    print("ALL 14 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_tpsm_band_diagram_calculator()
+    print("ALL 15 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

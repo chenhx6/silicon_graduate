@@ -32,6 +32,7 @@ from magnetic_rotation_shears_calculator import calculate_shears_angle, calculat
 from shape_coexistence_e0_calculator import calculate_omega_k_e0, extract_rho2_e0_from_lifetime, invert_two_state_mixing
 from moment_of_inertia_spin_analyzer import calculate_moments_of_inertia, invert_floating_band_spin
 from coulex_kumar_invariant_calculator import calculate_safe_coulex_energy, reorientation_static_quadrupole, calculate_kumar_invariants
+from tpsm_band_diagram_calculator import calculate_effective_moi_tpsm, generate_tpsm_band_diagram
 
 
 def cmd_kinematics(args):
@@ -276,6 +277,25 @@ def cmd_coulex(args):
     print("=======================================================")
 
 
+def cmd_tpsm(args):
+    spins = [float(x.strip()) for x in args.spins.split(",")]
+    diag = generate_tpsm_band_diagram(spins, epsilon2=args.eps2, gamma_deg=args.gamma, A=args.A)
+    print("\n=======================================================")
+    print(" Triaxial Projected Shell Model (TPSM) Band Diagram")
+    print("=======================================================")
+    print(f"  Mass Number A={args.A}, Deformation eps2={args.eps2:.2f}, gamma={args.gamma:.1f} deg")
+    print(f"  TPSM Core J_eff         : {diag['J_eff_core']:.2f} hbar^2/MeV (S-band J_eff: {diag['J_eff_sband']:.2f})")
+    print("  Spin (hbar) | E_gband (keV) | E_sband (keV) | Favored Yrast")
+    print("  -------------------------------------------------------------")
+    for sp, eg, es in zip(diag['spins'], diag['E_gband_keV'], diag['E_sband_keV']):
+        fav = "g-band" if eg <= es else "s-band (ALIGNED)"
+        print(f"     {sp:4.0f}     |    {eg:7.1f}    |    {es:7.1f}    |  {fav}")
+    if diag['crossing_spin_Ic']:
+        print(f"\n  [MICRO-CROSSING DETECTED]")
+        print(f"  Backbending Critical Spin I_c approx {diag['crossing_spin_Ic']:.1f} hbar")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -404,6 +424,14 @@ def main():
     p_coulex.add_argument("--M22", type=float, default=None, help="Diagonal matrix element <2||M(E2)||2> in e*b")
     p_coulex.add_argument("--M02", type=str, default="", help="Comma-separated transitional <0||M(E2)||2_i> in e*b")
     p_coulex.set_defaults(func=cmd_coulex)
+
+    # Triaxial Projected Shell Model Band Diagram
+    p_tpsm = subparsers.add_parser("tpsm", help="TPSM microscopic band diagram, crossing spin Ic, and alignment")
+    p_tpsm.add_argument("--spins", type=str, default="0,2,4,6,8,10,12,14,16,18,20", help="Comma-separated list of spins")
+    p_tpsm.add_argument("--eps2", type=float, default=0.22, help="Quadrupole deformation epsilon2")
+    p_tpsm.add_argument("--gamma", type=float, default=25.0, help="Triaxial angle gamma (deg)")
+    p_tpsm.add_argument("--A", type=int, default=132, help="Nuclear mass number A")
+    p_tpsm.set_defaults(func=cmd_tpsm)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
