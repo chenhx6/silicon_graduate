@@ -15,41 +15,239 @@
   "continuation_count": 1,
   "continuation_batch_count": 1,
   "continuation_batches": 1,
-  "counted_in_substantive_test": true,
+  "counted_in_substantive_test": false,
   "session_mode": "new-session-per-run",
   "session_reuse": false,
   "session_scope": "one-new-session-for-each-schedule-run",
   "codex_home": "/root/.codex",
-  "status": "completed",
+  "status": "failed-verification",
   "started_at": "2026-10-31T20:19:43.035873+08:00",
   "report": "/workspace/wiki/outputs/learning-daily/20261031-DAY29-research-design-defense.md",
   "session_id": "01a191e7-29f8-79f2-8276-9a88282a4ed5",
-  "resume_command": "codex resume 01a191e7-29f8-79f2-8276-9a88282a4ed5 -C /workspace/wiki -s danger-full-access -a never",
-  "completed_day_indices": [29],
-  "partial_day_indices": [30],
+  "resume_command": [
+    "codex",
+    "resume",
+    "01a191e7-29f8-79f2-8276-9a88282a4ed5",
+    "-C",
+    "/workspace/wiki",
+    "-s",
+    "danger-full-access",
+    "-a",
+    "never"
+  ],
+  "completed_day_indices": [
+    29
+  ],
+  "partial_day_indices": [
+    30
+  ],
   "next_day_index": 30,
   "curriculum_cards_completed": 1,
-  "completed_at": "2026-10-31T20:54:00+08:00",
   "audit_integration_status": "complete",
   "day29_credit_status": "complete",
   "credit_transition_applied": true,
-  "closeout_reason": "Day29 card, lineage writeback, source audit and release checks completed; Day30 canonical prompt staged for the next schedule run.",
+  "closeout_reason": "Day29 card complete; same-session pre-deadline continuation remains active, with Day30 canonical prompt staged as uncredited partial preview.",
   "closeout_window_ends_at": "2026-11-01T16:00:00+08:00",
-  "last_continuation_at": "2026-10-31T22:24:00+08:00",
-  "last_continuation_scope": "135Pr lineage ledger, P3/P4 boundary checks, and Day30 131Xe source-to-raw preview",
-  "last_continuation_status": "complete; Day30 uncredited; agent runtime audit and performance baseline recorded",
+  "last_continuation_at": "2026-11-01T14:19:54.885729+08:00",
+  "last_continuation_scope": "Checkpoint-009 acknowledgement; doctoral research synthesis on 131, 133Ce and research archive gate verified; course state preserved; awaiting 15:00 closeout",
+  "last_continuation_status": "active; finish current analysis without new source/card; Day30 uncredited; formal closeout pending hard deadline",
   "latest_audit_artifact": "/workspace/wiki/outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/agent-runtime-audit.json",
   "last_closeout_snapshot": {
-    "now_local": "2026-10-31T20:19:43.035873+08:00",
+    "now_local": "2026-11-01T14:19:54.885729+08:00",
     "hard_deadline": "2026-11-01T15:00:00+08:00",
     "next_scheduled_start": "2026-11-01T16:00:00+08:00",
-    "minutes_to_deadline": 1120,
-    "minutes_to_next_start": 1180,
+    "minutes_to_deadline": 40,
+    "minutes_to_next_start": 100,
     "minimum_current_block_minutes": 90,
     "minimum_forward_card_block_minutes": 120,
     "can_continue_current": true,
-    "can_complete_forward_card": true,
-    "decision": "continue-or-advance"
+    "can_complete_forward_card": false,
+    "decision": "finish-current-no-new-unit"
   },
-  "prompt_file": "/workspace/wiki/outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/prompt.md"
+  "observed_clock_executions": [
+    {
+      "clock_event_id": "checkpoint-003",
+      "queued_snapshot_at": "2026-11-01T03:21:28.691199+08:00",
+      "observed_at": "2026-11-01T03:22:52+08:00",
+      "actual_time": "2026-11-01T03:22:52+08:00",
+      "status": "delivered-and-acknowledged",
+      "session_id": "01a191e7-29f8-79f2-8276-9a88282a4ed5",
+      "day_index": 29,
+      "course_state_preserved": true
+    },
+    {
+      "clock_event_id": "checkpoint-004",
+      "queued_snapshot_at": "2026-11-01T04:19:43.469230+08:00",
+      "observed_at": "2026-11-01T04:20:17+08:00",
+      "actual_time": "2026-11-01T04:20:17+08:00",
+      "status": "delivered-and-acknowledged",
+      "session_id": "01a191e7-29f8-79f2-8276-9a88282a4ed5",
+      "day_index": 29,
+      "course_state_preserved": true
+    },
+    {
+      "clock_event_id": "checkpoint-005",
+      "queued_snapshot_at": "2026-11-01T06:19:43.487610+08:00",
+      "observed_at": "2026-11-01T06:19:58+08:00",
+      "actual_time": "2026-11-01T06:19:58+08:00",
+      "status": "delivered-and-acknowledged",
+      "session_id": "01a191e7-29f8-79f2-8276-9a88282a4ed5",
+      "day_index": 29,
+      "course_state_preserved": true
+    },
+    {
+      "clock_event_id": "checkpoint-006",
+      "queued_snapshot_at": "2026-11-01T08:19:43.174929+08:00",
+      "observed_at": "2026-11-01T08:20:16+08:00",
+      "actual_time": "2026-11-01T08:20:16+08:00",
+      "status": "delivered-and-acknowledged",
+      "session_id": "01a191e7-29f8-79f2-8276-9a88282a4ed5",
+      "day_index": 29,
+      "course_state_preserved": true
+    },
+    {
+      "clock_event_id": "checkpoint-007",
+      "queued_snapshot_at": "2026-11-01T10:19:44.280351+08:00",
+      "observed_at": "2026-11-01T10:22:51+08:00",
+      "actual_time": "2026-11-01T10:22:51+08:00",
+      "status": "delivered-and-acknowledged",
+      "session_id": "01a191e7-29f8-79f2-8276-9a88282a4ed5",
+      "day_index": 29,
+      "course_state_preserved": true
+    },
+    {
+      "clock_event_id": "checkpoint-008",
+      "queued_snapshot_at": "2026-11-01T12:19:43.296355+08:00",
+      "observed_at": "2026-11-01T12:22:00+08:00",
+      "actual_time": "2026-11-01T12:22:00+08:00",
+      "status": "delivered-and-acknowledged",
+      "session_id": "01a191e7-29f8-79f2-8276-9a88282a4ed5",
+      "day_index": 29,
+      "course_state_preserved": true
+    },
+    {
+      "clock_event_id": "checkpoint-009",
+      "queued_snapshot_at": "2026-11-01T14:19:43.154319+08:00",
+      "observed_at": "2026-11-01T14:19:54.885729+08:00",
+      "actual_time": "2026-11-01T14:19:54.885729+08:00",
+      "status": "delivered-and-acknowledged",
+      "session_id": "01a191e7-29f8-79f2-8276-9a88282a4ed5",
+      "day_index": 29,
+      "course_state_preserved": true
+    }
+  ],
+  "prompt_file": "/workspace/wiki/outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/prompt.md",
+  "exit_code": 0,
+  "checks": {
+    "preflight": {
+      "exit": 0,
+      "stdout_tail": "ly/20260926-DAY1-baseline-research-contract/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/134la-tpsm-access/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/135ce-chiral-aip/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/136pr-2025-tac-cdfTAC/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/137pr-2007-magnetic-rotation/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2203-12851-tpsm-odd-neutron-xe-20260930/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2405-08368-wobbling-133La-135Pr/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2508-00373-harmonic-chiral-vibration/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/banik-2020-131xe-reaction/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/harmonic-chiral-vibration-137nd-2025/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/odd-neutron-tpsm-odd-neutron-xe/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/prompt-2026-09-29-day-03/134la-2026-npa-publisher-api/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/prompt-2026-09-29-day-03/137pr-2007-magnetic-rotation/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration/194tl-pai-2012/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/day26-001/aps/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/day26-001/elsevier/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/rajbanshi2017/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/sm143/manifest.json\",\"/workspace/wiki/raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/tawseef2026/manifest.json\"]},\"config_default\":null,\"protected_bib\":{\"path\":\"/workspace/wiki/raw/zotero/wiki-inbox.bib\",\"baseline_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"actual_sha256\":\"037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE\",\"status\":\"matched\"},\"exit_code\":0}\n",
+      "stderr_tail": ""
+    },
+    "report_exists": true,
+    "report_changed": true,
+    "report_valid": false,
+    "report_missing_headings": [
+      "## Sources and evidence",
+      "## Theory/analysis exercise",
+      "## Counter-evidence and missing companion observables",
+      "## Knowledge Impact and Learning Decision",
+      "## Open questions and belief revision",
+      "## L0–L4 state",
+      "## Verification and continuation"
+    ],
+    "durable_knowledge": {
+      "valid": false,
+      "mode": "updated",
+      "knowledge_paths": [
+        "knowledge/research-notes/131xe-day29-research-design-defense.md",
+        "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+        "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+        "knowledge/research-notes/full-library-claim-calibration-audit-20261031.md",
+        "knowledge/sources/gaffney-2013-pear-shaped-rn-ra.md",
+        "knowledge/research-notes/135pr-hypothesis-discrimination-priority-20261101.md",
+        "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+        "knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md",
+        "knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr.md",
+        "knowledge/sources/guo-2021-comment-transverse-wobbling-135pr.md",
+        "knowledge/sources/li-2025-imp-dragon-hpge-array.md"
+      ],
+      "changed_paths": [],
+      "change_check": "run-snapshot",
+      "error": "knowledge page does not link to source wu-hongyi-2020-general-purpose-digital-daq-thesis"
+    },
+    "curriculum_coverage": {
+      "valid": true,
+      "completed_day_indices": [
+        29
+      ],
+      "partial_day_indices": [
+        30
+      ],
+      "curriculum_cards_completed": 1,
+      "next_day_index": 30,
+      "error": null
+    },
+    "lint_exit": 0,
+    "lint_tail": " CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-9 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/ziliani-2019-agata-calibration-controls.md - ZL19-10 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-14 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-15 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-16 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-17 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-18 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-19 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1980-magnetic-substate-distributions.md - Z80-20 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-11 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-12 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-13 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-14 awaits human review\n[INFO   ] CLAIM_NEEDS_REVIEW     knowledge/sources/zobel-1983-energy-projectile-alignment.md - Z83-15 awaits human review\nGOVERNANCE page_unreviewed=972 source_unreviewed=424 claims=6057 claim_needs_review=5271 claim_missing_locator=0 claim_missing_kind=0 source_missing_raw_file=0 source_missing_citation_key=219\nSUMMARY pages=1050 wikilinks=11345 hashes=428 errors=0 warnings=439 info=5271\n",
+    "git_diff_check_exit": 0,
+    "git_diff_check_tail": ""
+  },
+  "finished_at": "2026-11-01T15:07:15.213683+08:00",
+  "continuation_runs": [
+    {
+      "number": 1,
+      "study_continuation_number": null,
+      "kind": "closeout",
+      "returncode": 0,
+      "prompt": "/workspace/wiki/outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/interactive-closeout-attestation.json",
+      "events": null,
+      "last_message": null,
+      "time_snapshot": {
+        "now_local": "2026-11-01T15:01:36.039818+08:00",
+        "hard_deadline": "2026-11-01T15:00:00+08:00",
+        "next_scheduled_start": "2026-11-01T16:00:00+08:00",
+        "minutes_to_deadline": -2,
+        "minutes_to_next_start": 58,
+        "minimum_current_block_minutes": 90,
+        "minimum_forward_card_block_minutes": 120,
+        "can_continue_current": false,
+        "can_complete_forward_card": false,
+        "decision": "closeout-only"
+      },
+      "interactive_session_closeout": true
+    }
+  ],
+  "closeout_turn": {
+    "number": 1,
+    "returncode": 0,
+    "prompt": "/workspace/wiki/outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/interactive-closeout-attestation.json",
+    "events": null,
+    "window_missed": false,
+    "time_snapshot": {
+      "now_local": "2026-11-01T15:05:55.307596+08:00",
+      "hard_deadline": "2026-11-01T15:00:00+08:00",
+      "next_scheduled_start": "2026-11-01T16:00:00+08:00",
+      "minutes_to_deadline": -6,
+      "minutes_to_next_start": 54,
+      "minimum_current_block_minutes": 90,
+      "minimum_forward_card_block_minutes": 120,
+      "can_continue_current": false,
+      "can_complete_forward_card": false,
+      "decision": "closeout-only"
+    },
+    "interactive_session_closeout": true
+  },
+  "closeout_window_missed": false,
+  "study_window_closed": true,
+  "closeout_on_time": true,
+  "deliverables_passed": false,
+  "next_prompt_file": null,
+  "next_prompt_error": null,
+  "interactive_closeout_attestation": "/workspace/wiki/outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/interactive-closeout-attestation.json",
+  "baseline_provenance": {
+    "kind": "standard-baseline",
+    "path": "/workspace/wiki/outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/baseline.json",
+    "sha256": "9471170e2cdca62900dc31a245573926e703704835e3218ff9607124594302af"
+  }
 }

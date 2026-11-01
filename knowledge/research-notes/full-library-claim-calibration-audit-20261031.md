@@ -80,6 +80,23 @@ The proof-like wording was minimally softened in five representative source page
 No numerical claim, source locator, review flag or raw file was changed by this
 calibration pass.
 
+## 2026-10-31 targeted calibration: Gaffney static/dynamic wording
+
+The historical `GA13-D19-1` row in
+[[gaffney-2013-pear-shaped-rn-ra]] combines direct `Q2/Q3` and `B(E2)` reports,
+derived Alaga arithmetic, and an interpretation about static octupole structure and
+EDM relevance. Its wording uses proof-like verbs such as “确立” and “推翻” even
+though the same source page records that a strong `B(E3)` alone cannot separate static
+pear projection from dynamic octupole vibration.
+
+The calibrated reusable statement is: Gaffney et al. report stronger and more coherent
+octupole observables in `224Ra` than in `220Rn`; the combined energy-displacement,
+spin-dependence and electromagnetic pattern can support a conditional static-like
+interpretation under the stated model and comparison set. It does not establish a
+universal static-pear criterion, and the E3 measurement alone cannot exclude dynamic
+or configuration-based alternatives. This is a self-audit of claim language; the
+source row, numerical values, review flags and raw files remain unchanged.
+
 ## General Rule
 
 The verb in a reusable summary must be determined by the claim layer:

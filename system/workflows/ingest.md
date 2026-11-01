@@ -53,6 +53,10 @@ updated: 2026-08-06
 6. 若有 Zotero/BibTeX 元数据，记录 citation key、Zotero item key 和 select URI。
 7. 检查 `system/vocabulary.md`、现有 aliases 和文件 slug。
 8. 判断来源类型，并按 `system/workflows/ingest-strategies.md` 确认 ingest strategy。
+9. 按 `system/workflows/research-archive.md` 归档实际取得的论文、学位论文、外部笔记、
+   图片、网页或配套数据；新来源登记 `archive_required: true`。运行
+   `python3 system/scripts/wiki_archive_gate.py check --root . --changed`；
+   没有原件时只可登记已保存的摘要/元数据和访问边界。
 
 citation key 只可在 DOI、题名或文件名能够唯一匹配 BibTeX 条目时写入；无法唯一匹配则留空并在复盘中列出，不得猜测或改写 `.bib`。
 

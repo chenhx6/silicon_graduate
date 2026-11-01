@@ -1,11 +1,354 @@
 ---
 graph-excluded: true
-updated: 2026-10-31
+updated: 2026-11-01
 ---
+
+## Active checkpoint — 2026-11-01T08:33:45+08:00
+
+- Checkpoint-006 was already acknowledged in `run.json`; this follow-up refreshed the
+  actual Asia/Shanghai time without adding a duplicate clock execution.
+- The main session, run-local clock and Farmer are live. Three historical governance
+  sidecars were read and found `interrupted` with no final receipt or repository write;
+  the current multi-agent registry has no handles for them, so they cannot be awakened.
+  Their stale Farmer `running` markers are a verified no-op; no new session or daemon was
+  started.
+- Course state remains `completed_day_indices: [29]`,
+  `partial_day_indices: [30]`, `next_day_index: 30`; Day31 remains unopened.
+- The `132Sn` threshold design gained a bounded anharmonic-shift scan. Using
+  `ROS18-1`, AME2020 mass locators and `ENSDF131SN-4/5`, the 1654.53-keV daughter
+  channel opens only for `δ>+304.023 keV` relative to `2E(3−)`. The central ground
+  and 331.73-keV daughter windows remain approximately `1.340` and `1.011 MeV`;
+  at `δ=+500 keV` the three conditional neutron energies are about `1.836`, `1.507`
+  and `0.194 MeV`. This is response-design arithmetic, not a predicted resonance,
+  width, branching or L4 result.
+- The first detector engineering envelope should therefore retain roughly `0.2–2.4 MeV`
+  neutron response coverage if the upward-shift discriminator is to remain available.
+  The route remains provisional L3/readiness, with no new event-level input.
+- Recoverable checkpoint:
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-009-checkpoint.md`.
+
+## Active checkpoint — 2026-11-01T08:42:59+08:00
+
+- The current `132Sn` route gained a conditional partial-wave discriminator. For a
+  possible `0+` two-octupole doorway, the evaluated 331.73-keV `131Sn(1/2+)` tag can
+  receive an `s`-wave neutron, while the positive-parity `3/2+` ground and 1654.53-keV
+  `5/2+` tags require at least `d` wave. A generic `R≈7.29 fm` scale gives a `d`-wave
+  centrifugal scale of `≈2.36 MeV`; it is an engineering scale, not a penetrability,
+  width or branching prediction.
+- This elevates the 331.73-keV daughter-γ tag to a high-priority response observable,
+  while a null tag remains non-falsifying until spin, optical potential, spectroscopic
+  factor, feeding and neutron response are jointly constrained.
+- QMD text reindex passed: `0 new / 1 updated / 1045 unchanged / 0 removed`;
+  writeback validation remains valid and the course fields are unchanged.
+- Recoverable checkpoint:
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-010-checkpoint.md`.
+
+## Active checkpoint — 2026-11-01T08:48:20+08:00
+
+- The `135Pr` route gained a minimum-identifiability audit with three separate layers:
+  object/state identity, large/small-`δ` branch selection, and mechanism discrimination
+  through partner-resolved absolute EM/lifetime.
+- Matta's `747` AD/polarization and Lv's `P–R_ac` are different acquisition blocks;
+  Matta's `747` row has no experimental `rE2/rM1` pair or absolute lifetime. The
+  practical minimum is therefore a matched `747` branch block plus same-parent
+  `526.2-keV` lifetime/absolute normalization, with `813` leave-EM-out and `450`
+  sensitivity checks. This preserves source independence and does not create a
+  unified likelihood, covariance, Bayes factor or L4 result.
+- Day29/Day30/Day31 course fields remain unchanged. The route remains provisional
+  L3/readiness.
+
+## Active checkpoint — 2026-11-01T08:55:34+08:00
+
+- A new public primary was read and archived as
+  `knowledge/sources/ronning-2026-70zn-magnetic-lee.md`, using PMC HTML
+  `raw/papers/gpt/learning-daily/20261101-day29-70zn-lee/ronning-2026-70zn-lee.html`
+  with verified SHA-256. The attempted PMC PDF endpoint returned an HTML shell and is
+  not used as the source file.
+- The `70Zn` paper's durable transferable lesson is method-level: two
+  spin/parity-selective β parents, total-absorption excitation population, Geant4
+  response unfolding, partial NLD and parity-asymmetry correction jointly support a
+  magnetic LEE interpretation.
+- `133I` belief/design was revised: two `Ex` windows alone cannot identify M1/E1 when
+  spin/parity population is unknown. A `133I` proposal must add population contrast,
+  an independent angular/Compton observable or a calibrated dipole-control network.
+  No `133I` γSF, M1 strength, covariance or L4 result was created.
+- Course state remains Day29 complete, Day30 partial/no-credit, `next_day_index=30`;
+  Day31 remains unopened.
+- Recoverable checkpoint:
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-012-checkpoint.md`.
+
+## Active checkpoint — 2026-11-01T09:12:08+08:00
+
+- The `133I` beam request and cross-mass prospectus now make population contrast an
+  explicit gate. Two `Ex` windows require a particle-kinematics plus spin-distribution
+  mapping with nuisance/Covariance, or an independent angular/Compton dipole observable.
+- Two particle gates are not automatically two independent spin populations. If this
+  mapping cannot be validated, the analysis remains an L3 γSF candidate and cannot
+  claim M1 or test Brink–Axel transfer.
+- The design update uses the `70Zn` primary as a method constraint; it creates no
+  `133I` counts, response, γSF, M1 strength, significance or L4 result.
+- Course state remains `completed_day_indices: [29]`,
+  `partial_day_indices: [30]`, `next_day_index: 30`; Day31 remains unopened.
+- Recoverable checkpoint:
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-013-checkpoint.md`.
+
+## Active checkpoint — 2026-11-01T09:20:24+08:00
+
+- A bounded P3 readback confirms the existing `135Nd/134Pr` ledger boundary:
+  MU07 remains state-level `τ/B` without line-level `Eγ/J_i→J_f` producer mapping;
+  ZH03/LV19 line identities cannot be used to retrofit MU07 producer or shared
+  covariance; Tonev06/07 remain one `134Pr` experimental lineage.
+- This is a grounded verified-no-op, not a new independent source or transition fit.
+  The next P3 advance requires producer-level mapping, feeding/branch data and shared
+  covariance. Day29/Day30/Day31 course state is unchanged.
+- Recoverable checkpoint:
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-014-checkpoint.md`.
+
+## Active checkpoint — 2026-11-01T09:23:24+08:00
+
+- Historical thesis queue audit reread the existing `Mehl 2015` S3/AFRODITE method
+  source. Its 20Ne+194Pt 15-mm geometry, ring-angle and GEANT4-β boundaries are
+  already recorded; no new raw, producer, response or transferable experiment fact
+  appeared. This is a grounded verified-no-op, and it remains separate from Mavela's
+  32S+194Pt acquisition and all current routes.
+- Course state and L3 boundaries remain unchanged.
+- Recoverable checkpoint:
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-015-checkpoint.md`.
+
+## Active checkpoint — 2026-11-01T07:12:48+08:00
+
+- Checkpoint-005 was already acknowledged in `run.json`; this follow-up refreshed
+  the actual clock, Farmer/sidecar liveness, candidate pool, evidence locators and
+  publication scope without starting a new session.
+- The current Farmer state has no nonterminal sidecar handle requiring wake-up.
+  Historical cancelled/parent-inactive records were left untouched; the live main
+  session remains the only active run handle.
+- Course state remains `completed_day_indices: [29]`,
+  `partial_day_indices: [30]`, `next_day_index: 30`; Day31 remains unopened.
+- The publication manifest and dirty baseline now match at `34/34`, including
+  continuation-007. The stale `32-path` wording in `run.json` was corrected; raw, `PLAN.md`, protected
+  BibTeX, tmp and credentials remain excluded.
+- Candidate-pool refresh is a verified scientific no-op: `135Pr` remains the
+  highest-value missing-input route, followed by the existing `133I`, `131Xe`,
+  `132Sn`, `100Sn` and `131Ba/133Ce` bounded routes. No synthetic L4 result or
+  new independent experiment was created.
+- A direct file-signature audit added `UIO26-3`: the staged
+  `grieg-133i-thesis.pdf` is a 3.1-kB HTML shell, so the `133I` thesis remains
+  unavailable and the route stays at secondary/readiness boundary.
+- `knowledge/overview.md` and the ignored QMD text index are now synchronized to
+  the latest governance counts; embeddings and cleanup remain deferred.
+- The cross-mass prospectus now carries the same `133I` thesis-file identity
+  boundary (`UIO26-3`), so its beam-design language cannot be read as thesis-level
+  primary evidence.
+- The `132Sn` doorway note now maps the central harmonic scale onto explicit
+  `131Sn` daughter response windows: approximately `1.340 MeV` to ground,
+  `1.011 MeV` to the 331.73-keV state, and a closed 1654.53-keV branch at the
+  central scale; the unresolved `11/2−` isomer remains excluded.
+- The latest Farmer/OS cross-check found no current nonterminal sidecar handle;
+  only the main session and its existing clock are live. Historical runner
+  statuses were left untouched.
+- The new `131Ba` ENSDF source provides a weak `79.918-keV` E3 control
+  (`B(E3)=0.00087(3) W.u.`, `alpha=80.1`). It is now used to calibrate/negative-test
+  a future high-spin direct-E3 search; it does not establish strong octupole collectivity.
+- A conditional rate arithmetic check gives `T1/2≈812 s` versus the adopted
+  `876 s`; this is a response sanity check under a declared Weisskopf/rate convention,
+  not an independent lifetime result.
+- Precloseout H3 passes for the current uncommitted HEAD: fresh fetch, ancestry and
+  exact `HEAD:main` dry-run all succeed; final post-commit H3 remains pending.
+- QMD exact-text queries hit both the `131Ba` E3/electron response-control source
+  and the `132Sn` daughter-window note plus its question/index entries.
+- The active run receipt is synchronized to writeback `23`, publication scope `37/37`,
+  current checks and precloseout H3; it remains `active-precloseout` until 15:00.
+- A bounded `133Ce` ENSDF counter-source read found only adopted E1/M1/E2 and
+  lifetime controls for the inspected high-spin tables, with no new direct-E3 matrix;
+  it is recorded as a verified no-op and does not enter the knowledge writeback.
+- Checkpoint-006 is acknowledged in `run.json`; recoverable continuation-008 is saved.
+  The explicit publication scope is now `38/38`, with Day30 still partial and Day31 closed.
+- Under the adopted complete-IT condition, the same control has `f_e≈98.8%` and
+  `f_γ≈1.23%`; electron transport/threshold calibration is therefore the primary
+  control requirement.
+- Recoverable checkpoint:
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-007-checkpoint.md`.
+
+## Active checkpoint — 2026-11-01T03:08:51+08:00
+
+- Same-session run remains live with `status: running`; course state is unchanged:
+  `completed_day_indices: [29]`, `partial_day_indices: [30]`, `next_day_index: 30`.
+- The `100Sn` design sidecar completed a read-only attack. Its corrections are now in
+  the note: decay-generation/state identity, absolute three-layer branch ledger,
+  explicit `Cov_new` versus historical-summary boundary, separate `100Sn` and `100In`
+  timing hypotheses, and target-specific RIBLL/BigRIPS transfer conditions.
+- Latest checks after the correction: lint `0 errors / 437 warnings / 5237 info`,
+  writeback `16 items valid`, `git diff --check` clean. QMD reindexed `0 new / 2 updated /
+  1039 unchanged / 0 removed`. No synthetic data, L4 result,
+  Day30 credit, commit or push was created.
+- Sidecar is complete and may be closed; continue the next bounded route or wait for
+  the next schedule checkpoint without restarting the session.
+- Day30 lineage preview now binds Chakraborty arXiv-v1 raw SHA-256
+  `9a871d56…ac72a1` alongside the canonical journal SHA-256
+  `730db3…bd9ff`; `C23-D30-1` records the version relation and preserves
+  `independent_experiment_count: 1`.
+- H3 preflight at `03:20`: fresh Gitee fetch, ancestry, local/remote HEAD equality,
+  boundary and automation preflight passed; index remains unstaged and no push was attempted.
+- Same-session clock is now actively running in session `51776`; it owns the existing
+  run-local `clock-state.json` and `clock-events.jsonl`, preserving the `15:00` hard
+  deadline and `16:00` closeout end without creating another Codex session.
+- Checkpoint `checkpoint-003` was acknowledged at `2026-11-01T03:22:52+08:00`;
+  recoverable continuation record is
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-003-checkpoint.md`.
+- Checkpoint `checkpoint-004` was acknowledged at `2026-11-01T04:20:17+08:00`;
+  recoverable candidate-pool and closeout plan is in
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-004-checkpoint.md`.
+- Latest staging preflight used NUL-safe pathspecs against the 25-path manifest; all
+  emitted paths were manifest entries, with raw/PLAN/BibTeX/tmp excluded and index unchanged.
+
+## Active checkpoint — 2026-11-01T02:54:00+08:00
+
+- Course state remains `completed_day_indices: [29]`, `partial_day_indices: [30]`,
+  `next_day_index: 30`; the hard deadline remains `2026-11-01T15:00:00+08:00`.
+- Rebuilt the candidate pool after the `208Pb` correction. `131Ba` direct E3 is the
+  most practical A≈130 analog route; a separate `100Sn` joint response-closure note
+  now targets endpoint/Q, `100In` branching, beta/gamma response, total absorption and
+  `6+` isomer timing.
+- `100Sn` remains a provisional L3 design: Hinke and Lubos source chains stay
+  independent, no new `B(GT)`, response, efficiency, posterior or L4 measurement was
+  created; LOGFT is retained only as a declared input control.
+- Latest checks: lint `0 errors / 437 warnings / 5236 info`, boundary `ok`,
+  writeback `valid=true` with 15 items, preflight `ok=true`, `git diff --check` clean.
+  QMD text update was `1 new / 4 updated / 1036 unchanged / 0 removed`; embeddings
+  and cleanup remain deferred.
+- `run.json` has been reconciled to the authoritative live state: `status: running`,
+  `last_continuation_status: active`, no premature `completed_at`; the same-session
+  clock dry-run accepts the receipt and retains the `15:00` deadline.
+- Publication scope now reconciles 24 dirty publishable paths, including the corrected
+  live `run.json`; raw/PLAN/BibTeX/tmp
+  boundaries remain explicit. Formal closeout, final H3 and commit/push stay pending
+  the hard deadline.
+
+## Active checkpoint — 2026-11-01T02:40:12+08:00
+
+- Day29/Day30 course state remains `completed_day_indices: [29]`,
+  `partial_day_indices: [30]`, `next_day_index: 30`; hard deadline remains
+  `2026-11-01T15:00:00+08:00`, with closeout buffer through `16:00`.
+- Three fresh read-only sidecars completed: Day30 lineage audit found only the
+  unbound Chakraborty arXiv-v1 raw version as a future minimal increment; the
+  cross-mass candidate audit selected `131Ba` direct-E3 closure; the detector audit
+  narrowed `132Sn` to a core HPGe+BGO+DSSSD/neutron/beam-PID array with optional
+  clover/LaBr3 modules. No sidecar wrote files or created duplicate work.
+- A new public primary was re-read and archived one-file-at-a-time:
+  `knowledge/sources/henderson-2025-208pb-deformation-collectivity.md` with
+  `raw/papers/gpt/learning-daily/20261101-day29-208pb-audit/2025-208pb.pdf` and
+  matching SHA-256. It corrects the old claim that the `208Pb` two-phonon quartet
+  was conclusively established: the paper states the quartet remains unclosed and
+  gives an `800–1500 keV` coupling-induced splitting estimate.
+- The two-phonon cross-mass note now labels the old `208Pb`, `146Gd` and `224Ra`
+  certainty as superseded/provisional; the `132Sn` prospectus tests an unbound
+  doorway and fragmentation. No event-level input, synthetic response, width,
+  branching, posterior or L4 result was created.
+- Verification after writeback: lint `0 errors / 437 warnings / 5236 info`,
+  boundary `ok`, writeback `valid=true` with 13 items, `git diff --check` clean;
+  QMD updated `1 new / 8 updated / 1031 unchanged / 0 removed`, embeddings and
+  cleanup remain deferred.
+- Continue the non-overlapping Day30 preview until the hard deadline. Do not
+  advance Day30 credit or `next_day_index`; formal closeout and H3 publication
+  remain pending the deadline.
+
+## Active checkpoint — 2026-11-01T01:21:06+08:00
+
+- Schedule state remains `completed_day_indices: [29]`, `partial_day_indices: [30]`,
+  `next_day_index: 30`; hard deadline is `2026-11-01T15:00:00+08:00`.
+- The active session `01a191e7-29f8-79f2-8276-9a88282a4ed5` and Farmer PID `622` are
+  live. No second schedule session was started.
+- Durable research frontier now includes: `131Xe` beam-request draft; five-route
+  cross-mass prospectus; `132Sn` neutron-unbound doorway audit; detector-development map;
+  and archived Tonev07 P3 primary lineage.
+- Latest verified checks remain lint `0 errors / 437 warnings / 5236 info`, writeback
+  valid (13 items), boundary `ok`, and `git diff --check` clean.
+- Continue pre-deadline research; at 15:00 switch to formal Day29 closeout only. Day30
+  remains partial/no-credit unless a separate formal Day30 run completes its full card.
+- `run_learning_session_clock.py --dry-run` revalidated the same thread, `15:00` hard
+  deadline, `16:00` closeout end and checkpoint schedule; no new clock or session was started.
+- `knowledge/overview.md` now carries a current `2026-11-01` governance snapshot:
+  1040 Markdown pages, 475 source pages, 6022 claims, `0 errors / 437 warnings / 5236 info`;
+  QMD text update completed (`8 new / 366 updated / 665 unchanged / 1 removed`);
+  embedding and cleanup remain deferred.
+- `01:38` pre-closeout checkpoint confirms the original session/Farmer, canonical Day30
+  prompt, course fields and clock dry-run remain aligned; no Day30 credit transition.
+- A machine-readable pre-closeout publication scope is recorded at
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/precloseout-publication-scope-001.json`;
+  it lists 18 intended paths and explicit raw/PLAN/Bib/tmp/log exclusions.
+- A requirement-level pre-closeout audit is recorded at
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/closeout-requirement-audit-001.json`;
+  R1–R6 are verified, while formal closeout, H3, commit/push and reconciliation remain
+  explicitly pending the hard deadline.
+- Explicit `git add --dry-run` with the NUL pathspec manifest lists the intended 18 files
+  and leaves the index unchanged; the first newline-pathspec attempt was rejected and
+  immediately replaced by the successful NUL-safe dry-run.
+- Current dirty baseline reconciles exactly with the 18-path manifest
+  (`missing_from_manifest=[]`, `manifest_not_current=[]`); no unexpected path is waiting
+  for stage review.
+- `closeout-requirement-audit-001.json` was refreshed at `01:53:15+08:00`; R1–R6 remain
+  verified and R7–R9 remain explicitly pending the hard deadline.
+- H3 remote preflight: `origin` resolves to Gitee, branch is `main`, local `HEAD` is
+  `badbc6302b1078cfe86f830c003fa0bad5fb6757`, and `git ls-remote origin refs/heads/main`
+  returns the same commit; index remains empty.
+- QMD text-index query verification now directly finds the new `132Sn` continuum note,
+  `DRAGON-X` prospectus, IMP-DRAGON/RIBLL source pages and the P3 transition ledger.
+- The closeout requirement audit now records these QMD query hits and keeps embedding and
+  cleanup explicitly deferred.
+- Fresh `git fetch origin main` and `git merge-base --is-ancestor origin/main HEAD`
+  pass at the current pre-closeout snapshot; final dry-run/push must be repeated after
+  the deadline and final commit.
+
+## Active handoff — Cross-mass feasibility correction and thesis retrieval boundary (2026-11-01T00:51:27+08:00)
+
+- Day29/Day30 course state remains unchanged: `completed_day_indices: [29]`, `partial_day_indices: [30]`, `next_day_index: 30`; hard deadline remains `2026-11-01T15:00:00+08:00`.
+- Cross-mass prospectus now contains five routes: `131Xe`, `131Ba/133Ce`, `78Br`, `132Sn`, and `135/137Pr`; `DRAGON-X` remains a provisional detector concept.
+- Belief revision: `78Br` already has a large stable-beam `70Zn(12C,p3n)` primary campaign and E1 network, so its first high-information experiment should add DSAM/RDDS, absolute branching and direct-E3 sensitivity. RIBLL is a follow-up production option rather than the default first experiment.
+- `132Sn` is not an empty octupole region: newly read Rosiak 2018 primary gives a direct `3−_1` E3 strength (`ROS18-1`/`ROS18-2`), alongside existing inverse-kinematics `B(E2)` material. The unresolved target is the two-phonon `0+,2+,4+,6+` network and multi-state E3/feeding closure.
+- Threshold-first correction: `2E(3−)=8.7038 MeV` versus derived `S_n(132Sn)=7.3533 MeV` places the harmonic scale about `1.35 MeV` above threshold. The `132Sn` experiment should test a neutron-unbound doorway with particle–γ–neutron response, not assume a bound γ quartet.
+- Detector map now spans AGATA PSA/tracking, MUGAST–AGATA–VAMOS, MINIBALL, IMP-DRAGON, Gamma Ball and FPGA/list-mode DAQ; `DRAGON-X` adds a calibrated neutron module for the `132Sn` doorway route.
+- A concrete one-page `131Xe` beam-application draft is now at `outputs/plans/20261101-131xe-branch-response-beam-request.md`; it freezes observables, controls, detector modules, likelihood/holdout and go/no-go gates while leaving rate and shift counts to a future pilot.
+- Continuation checkpoint 002 is archived at
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-002-cross-mass.md`;
+  it records the current durable research delta and pre-closeout verification without
+  advancing Day30.
+- P3 lineage improvement: the verified 26-page Tonev07 PDF is now archived at `raw/papers/2007_Tonev_134Pr_Dynamic_Chirality.pdf` with the source-declared SHA; this closes only source→raw identity, not producer/Cov or experimental independence.
+- A public `Rosiak 2018` thesis endpoint was tested for deeper `132Sn` re-reading. The 84.6-MB download remained incomplete after bounded retries and was removed as an agent-created partial artifact; the 7-page primary article was obtained instead and is now a source page with raw hash.
+- Current checks after the expansion: wiki lint `0 errors / 437 warnings / 5230 info`; boundary `ok`; writeback validator `valid=true`, 8 items; `git diff --check` clean.
+
+## Active handoff — Day29 continuation: `135Pr` hypothesis discrimination design (2026-11-01T00:11:20+08:00)
+
+- Current run/session remains `2026-10-31-day-29-01` / `01a191e7-29f8-79f2-8276-9a88282a4ed5`; hard deadline remains `2026-11-01T15:00:00+08:00`, with closeout buffer through `16:00`.
+- Course state is unchanged: `completed_day_indices: [29]`, `partial_day_indices: [30]`, `next_day_index: 30`; Day30 remains uncredited and Day+2 remains unopened.
+- Added `knowledge/research-notes/135pr-hypothesis-discrimination-priority-20261101.md` and linked it from the index and post-30-day prospectus.
+- The durable L3 result is a four-layer hypothesis matrix (`H_TW`, `H_TiP`, `H_SP/CM`, high-spin `H_CH`) with explicit companion observables, falsifiers and belief-revision rules. The highest-information design is one matched branch-plus-absolute-EM measurement on `747`, with `813` frozen as holdout and `450` as sensitivity line.
+- This is a provisional research-design inference. No event-level counts, detector response, joint covariance, lifetime, Bayes factor, synthetic measurement or L4 experimental result was created.
+- Three read-only sidecars are checking new public inputs for P1 `135Pr`, P3 `135Nd/134Pr`, and P4 octupole sources; the existing active agent was asked for a status receipt. Do not duplicate their routes until replies arrive.
+- Next action: inspect sidecar receipts and refresh the Asia/Shanghai clock; if a new primary input changes readiness, integrate it with exact atomic locators. Otherwise record verified-no-op and continue the next non-overlapping candidate until the hard deadline.
+
+## Active handoff — Cross-mass experiment and detector-design expansion (2026-11-01T00:22:56+08:00)
+
+- User's long-term research identity now includes cross-mass phenomenon gaps, thesis re-reading, experimental nuclear-structure expertise with theory competence, beam-proposal design and detector/array development; this durable rule is recorded in `system/memory.md`.
+- Two primary apparatus sources were read and added: `knowledge/sources/li-2025-imp-dragon-hpge-array.md` and `knowledge/sources/sun-2003-ribll-radioactive-ion-beam-line.md`.
+- New L3 project: `knowledge/projects/cross-mass-phenomena-detector-beam-prospectus-20261101.md`; proposal draft: `outputs/plans/20261101-cross-mass-experiment-detector-beam-prospectus.md`.
+- Candidate routes: `131Xe` branch + absolute-EM closure; `131Ba/133Ce` direct-E3 versus E1-mixing; `78Br` octupole–chiral quartet with a RIBLL-type beam. A provisional `DRAGON-X` modular HPGe/BGO/clover/LaBr3/Si/electron/beam-PID array is defined.
+- Current state remains exploratory L3. No reaction yield, target-specific efficiency, synthetic count, current RIBLL-II performance, or L4 result has been asserted. The next high-information step is a rate/response pilot for one A≈130 route and a primary search for `78Br` production feasibility.
+
+## Active handoff — Day29 closeout precheck and Day30 plan verified (2026-10-31T23:00:12+08:00)
+
+- Current run/session: `2026-10-31-day-29-01` / `01a191e7-29f8-79f2-8276-9a88282a4ed5`; hard deadline is `2026-11-01T15:00:00+08:00`, closeout buffer ends at `16:00`.
+- Authoritative course state is `completed_day_indices: [29]`, `partial_day_indices: [30]`, `next_day_index: 30`; Day30 remains uncredited and Day+2 is unopened.
+- The canonical next-day plan exists at `outputs/learning-daily/prompts/20261101-DAY30-evidence-gate-and-research-prospectus.md`; the run-directory `prompt.md` is only the Day29 provenance copy, so its differing hash is expected.
+- `run_learning_session_clock.py --dry-run` resolved the same session, deadline, closeout window and checkpoint schedule; no clock process was started by this precheck.
+- New 1979/1983 primary-recovery routes did not yield full text or line-level AD/ICC/polarization data. This preserves the existing `131Xe` L3/readiness boundary; no source page, raw file, curriculum credit or L4 result was added.
+- `135Pr` P1 supplementary-material probe revalidated the existing 7-page Lv 2022 attachment: observed SHA-256 `c25cf17c...bf225` matches the protected raw file and the source-page supplementary record. Its gate, contamination, `P/R_ac`, calibration and covariance boundaries are already recorded as `L22-14`–`L22-19`; no duplicate ingest or new independent experiment was created.
+- Targeted claim-language audit added one durable calibration entry for `GA13-D19-1`: the combined `224Ra/220Rn` pattern supports only a conditional static-like interpretation; E3 alone cannot exclude dynamic alternatives. No source numerical field, raw file, review flag or experiment count changed.
+- Continue high-information pre-study from the Day30 candidate pool: `135Pr` common-response inputs, `131Xe` primary/response recovery, `135Nd/134Pr` producer ledger, and octupole source-page audit. Stop each route at missing-input boundaries and record only durable changes.
 
 ## Active handoff — Day29 complete; Day30 canonical prompt ready (2026-10-31T20:54:00+08:00)
 
-- Day29 课程审计已完成：`completed_day_indices: [29]`、`partial_day_indices: []`、`next_day_index: 30`；`day29_credit_status: complete`，`credit_transition_applied: true`。
+- Day29 课程审计已完成：`completed_day_indices: [29]`、`partial_day_indices: [30]`、`next_day_index: 30`；`day29_credit_status: complete`，`day30_credit_status: no-credit`，`credit_transition_applied: true`。
 - 正式知识写回为 `knowledge/research-notes/131xe-day29-research-design-defense.md`：794-keV 宇称版本和 882-keV 双根均形成最小 observable、响应矩阵、共享校准/协方差、控制线、belief revision 与 L3/readiness boundary；没有生成代理 L4。
 - Primary recovery：Irving 1979 与 Lönnroth 1983 的 DOI、NNDC 书目和实验覆盖已核；IOP PDF 端点落到 Radware CAPTCHA，原文逐线 AD/ICC/偏振仍未闭合。Banik 2020 与 Chakraborty 2023 本地原件可核，但属于同一 INGA acquisition，不能重复计权。
 - 全库 lineage 审计发现并记录了 2023 journal/arXiv 版本重复、页面级与 claim-level review 状态差异、source→raw 缺口和历史回执/Git 状态漂移；本轮在两份 `131Xe` source 页补齐 lineage/version/raw-link metadata，并在 nucleus、experiment、favored-band 和 crosswalk 页补齐同采集关系链接；没有批量改其它 canonical 页面或移动 raw。
@@ -4977,3 +5320,357 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
   primary-analysis PDF and Chakraborty 2023 dependent-reanalysis PDF. `next_day_index=30`
   is unchanged; the full Day30 lineage/claim-language/path audit remains uncredited.
 - 2026-10-31T22:24:00+08:00 agent/runtime audit：四树基线为 `skills/`、`hooks/`、`plugins/` 缺失且按当前 Wiki 设计保持缺失，`tools/nndc_mcp/` 的运行目录均被 Git 忽略；preflight 三次中位数 `17.447 s`、boundary 三次中位数 `22.641 s`，均退出码 `0`，没有足够的 before/after 证据实施优化。共享环境的 MCP 2.x 与连接器 `mcp==1.29.0` 不匹配，pytest 未安装，均记录为验证限制而非源码升级依据。三源热榜仅作只读候选发现，未导入外部技能；详见 `agent-runtime-audit.json`。
+
+### Day29 continuation checkpoint 2026-11-01T05:36:06+08:00
+
+- Same run/session remains active: `2026-10-31-day-29-01`,
+  `01a191e7-29f8-79f2-8276-9a88282a4ed5`; `completed_day_indices: [29]`,
+  `partial_day_indices: [30]`, `next_day_index: 30`, hard deadline
+  `2026-11-01T15:00:00+08:00`.
+- Day30 canonical prompt remains
+  `outputs/learning-daily/prompts/20261101-DAY30-evidence-gate-and-research-prospectus.md`;
+  run-local `prompt.md` remains provenance only. No Day30 credit or Day31 route was opened.
+- New durable route: `133I` γSF/LEE candidate, metadata-only OCL source `OCL26-1`,
+  and provisional beam-request draft. `DRAGON-X` now has three switchable response modes.
+- Current precloseout publication manifest reconciles `30/30` publishable paths; raw,
+  `PLAN.md`, BibTeX, tmp and credentials remain excluded. No files are staged.
+- Latest checks: writeback `17 items valid`, lint `0 errors / 437 warnings / 5238 info`,
+  boundary `ok`, QMD text update complete, `git diff --check` passed.
+- Formal closeout, explicit stage, commit, H3 fetch/ancestry/dry-run/push and
+  post-commit reconciliation remain pending the hard deadline.
+
+### Day29 continuation checkpoint 2026-11-01T05:47:21+08:00
+
+- OCL Book of Abstracts p.53 was targeted-read and bound to `OCL26-1/2`; it confirms
+  the `133I` experiment was performed but leaves γSF values, LEE/M1 decomposition,
+  event producer, response and covariance unavailable.
+- The `133I` source page now uses the standard `skimmed` reading-depth enum and the
+  report writeback uses one atomic locator per source reference.
+- Latest checks: writeback `17 valid`, lint `0 errors / 437 warnings / 5239 info`,
+  boundary `ok`, `git diff --check` passed. Course state and 30-path publication
+  scope are unchanged; no stage/commit/push.
+
+### Day29 continuation checkpoint 2026-11-01T05:50:17+08:00
+
+- Schedule-level candidate pool refreshed: `133I` remains the highest new-information
+  route, but its missing acquisition/response package prevents L4; existing routes
+  remain bounded by their documented event/Cov/producer gaps.
+- Day30 is still the only partial preview and Day31 remains unopened. The run stays
+  `running`; hard deadline remains `2026-11-01T15:00:00+08:00`.
+
+### Day29 continuation checkpoint 2026-11-01T06:01:06+08:00
+
+- Larsen 2026 OCL presentation source is now schema-complete and indexed; it records
+  `Eα=24 MeV`, the fall-2025 `133I` experiment and preliminary limited sorting.
+- Latest lint is `0 errors / 437 warnings / 5241 info`; QMD text update is
+  `0 new / 1 updated / 1043 unchanged / 0 removed`; writeback and diff checks pass.
+- Publication scope is `31/31`, index remains empty, and formal closeout/H3 remains
+  pending the hard deadline.
+
+### Day29 continuation checkpoint 2026-11-01T06:07:01+08:00
+
+- UiO/NVA secondary announcement now reports the thesis-level `133I` upbend/PDR claim,
+  while the NVA handle API exposes only a LinkedIn media-blog record with no associated
+  artifacts. The thesis PDF and primary analysis remain unavailable.
+- `133I` is therefore ranked as “secondary result reported; primary evidence pending.”
+  No γSF/M1/PDR claim is promoted to primary experimental fact.
+- Publication scope is now `32/32`; Day29/Day30 state remains unchanged and formal
+  closeout/H3 remains pending the hard deadline.
+
+### Day29 continuation checkpoint 2026-11-01T06:09:32+08:00
+
+- UiO/NVA secondary source and NVA API access boundary are indexed; `133I` public
+  upbend/PDR language remains secondary-report evidence because the thesis artifact is
+  unavailable.
+- Latest verification: lint `0 errors / 437 warnings / 5243 info`, QMD
+  `0 new / 2 updated / 1042 unchanged / 0 removed`, writeback valid, boundary ok,
+  diff-check passed. Publication scope remains `32/32`, no staged files.
+
+### Day29 continuation checkpoint 2026-11-01T06:13:27+08:00
+
+- `knowledge/questions.md` now records the refined `133I` state: secondary upbend/PDR
+  report exists, while thesis/producer/response/Cov remain unavailable.
+- Writeback now has `18 valid` items; lint remains `0 errors / 437 warnings / 5243 info`;
+  QMD is `0 new / 1 updated / 1044 unchanged / 0 removed`; boundary and diff checks pass.
+- Course state, canonical Day30 prompt, 32-path publication scope and empty index remain
+  unchanged; formal closeout/H3 waits for the hard deadline.
+
+### Day29 continuation checkpoint 2026-11-01T06:19:58+08:00
+
+- `checkpoint-005` is acknowledged in `run.json.observed_clock_executions`; recoverable
+  artifact `continuation-006-checkpoint.md` fixes the candidate pool, evidence gaps,
+  locators, information-gain ranking and post-deadline recovery actions.
+- Course state remains `completed=[29]`, `partial=[30]`, `next_day_index=30`; publication
+  scope is now `33/33`, and no files are staged.
+
+### Day29 continuation checkpoint 016 (2026-11-01T10:22:51+08:00)
+
+- `checkpoint-007` was acknowledged in `run.json.observed_clock_executions`; the
+  recoverable artifact is
+  `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-016-checkpoint.md`.
+- Asia/Shanghai time is `2026-11-01T10:22:51+08:00`; `277` minutes remain before
+  the `2026-11-01T15:00:00+08:00` hard deadline. Day29 remains complete, Day30
+  remains partial/no-credit, `next_day_index=30`, and Day31 remains unopened.
+- OS and Farmer checks found the main session, clock, Farmer watcher and managed
+  app-server alive. Historical cancelled/manual-attention/stale-running records
+  have no current handle and were not restarted; this is a verified no-op.
+- The non-overlapping candidate pool and source locators remain explicitly bounded
+  by the existing `131Xe`, `135Pr`, `135Nd/134Pr`, `90Zr`, `132Sn`, `133I` and
+  `100Sn` evidence gaps. No new source or data package justified another route.
+- The explicit publication scope now includes `continuation-016-checkpoint.md`;
+  formal closeout and H3 remain pending the hard deadline.
+
+### Day29 continuation source update 2026-11-01T10:31:52+08:00
+
+- A distinct DOI/abstract route for `Irving 1979` was recovered and archived as
+  `knowledge/sources/irving-1979-131xe-spectroscopy-scope.md`, with atomic
+  locators `IR79-1`–`IR79-3`.
+- The source confirms the historical `129,131Xe` experiment identity and broad
+  γ-energy/intensity, angular-distribution and linear-polarization scope. It does
+  not expose the `794.6-keV` line-level AD/ICC table, response matrix or covariance,
+  so the primary readiness boundary is unchanged.
+- `knowledge/research-notes/131xe-1601-parity-version-boundary.md` and the single
+  report `knowledge-writeback` block were updated; the publication manifest now
+  includes the source page and parity-boundary note.
+- QMD text index refreshed: `1 new / 2 updated / 1045 unchanged / 0 removed`;
+  embeddings and cleanup remain deferred because the text collection is sufficient
+  for this checkpoint and the cleanup would alter only the rebuildable cache.
+- Day29 remains complete, Day30 remains partial/no-credit, `next_day_index=30`;
+  no Day31 route or synthetic/L4 result was created.
+
+### Day29 continuation source update 2026-11-01T10:44:56+08:00
+
+- A second DOI/abstract route for `Lönnroth 1983` was recovered and archived as
+  `knowledge/sources/lonnroth-1983-xe-quasiparticle-states.md`, with locators
+  `LO83-1`–`LO83-3`.
+- The source confirms the historical Xe conversion-electron and spin/parity
+  method scope, including `131Xe`; it does not expose the `794.6-keV` line-level
+  conversion record, uncertainty, response matrix or covariance.
+- The report writeback and publication scope now include this source page.
+  Day29/Day30 course state is unchanged and Day31 remains unopened.
+
+### Day29 continuation validation 2026-11-01T10:48:00+08:00
+
+- The Lönnroth source page schema was completed after lint identified its missing
+  `Competing Interpretations and Limitations` section.
+- Final validation for this bounded update is lint `0 errors / 437 warnings /
+  5261 info`, writeback `26 valid`, QMD `1 new / 2 updated / 1046 unchanged /
+  0 removed`, and `git diff --check` passed.
+- The explicit publication manifest currently reconciles `50/50`; no files are
+  staged and the run remains `active-precloseout`.
+
+### Day29 duplicate-lineage correction 2026-11-01T11:08:41+08:00
+
+- The attempted new `78Br` source was found to duplicate the existing
+  human-reviewed `knowledge/sources/liu-2016-octupole-correlations-multiple-chiral-doublet-bands-78br.md`;
+  the PDF SHA-256 is identical.
+- Removed the duplicate `xu-2016` source/page, duplicate index/prospectus/writeback
+  entries and duplicate publication path. The existing `L16-1`–`L16-15` and
+  later correction locators remain the sole source of this experiment.
+- The duplicate raw copy remains outside Git as a local access artifact; it is not
+  treated as a new source or independent experiment. Day29/Day30 state is unchanged.
+
+### Day29 duplicate-lineage validation 2026-11-01T11:10:00+08:00
+
+- After removing the duplicate `78Br` source, writeback is `26 valid`, lint is
+  `0 errors / 437 warnings / 5261 info`, and QMD reports
+  `0 new / 2 updated / 1047 unchanged / 1 removed`.
+- The publishable manifest is back to `50/50`; the existing human-reviewed
+  `liu-2016...78br` page remains the sole source lineage for this experiment.
+
+### Day29 runtime snapshot 2026-11-01T11:15:34+08:00
+
+- Refreshed the schedule snapshot: `224` minutes remain to the
+  `2026-11-01T15:00:00+08:00` hard deadline and `284` minutes to the next
+  scheduled start.
+- No new source route was opened after the duplicate-lineage correction;
+  `run.json` remains `running` with Day29 complete and Day30 partial/no-credit.
+
+### Day29 runtime snapshot 2026-11-01T11:17:39+08:00
+
+- Remaining window is `222` minutes to the `15:00` hard deadline and `282`
+  minutes to the next scheduled start. The active run and course invariants are
+  unchanged; no Day31 route is opened.
+
+### Day29 supervision recovery 2026-11-01T11:50:54+08:00
+
+- After the user resumed the goal, the existing Codex thread remained live but
+  the previous clock/Farmer supervisor had terminated with a recorded
+  `interrupted` receipt. No new session was created.
+- Farmer was re-established as PID `520`; the same-thread clock is now held by
+  the live foreground handle/PID `628`, with the old cancellation event ignored
+  because it predates the resumed supervision reference.
+- Refreshed schedule snapshot: `189` minutes remain to the hard deadline and
+  `249` minutes to the next scheduled start. Course state remains unchanged.
+- Live verification at `2026-11-01T11:51:42+08:00` shows clock PID `628`,
+  Farmer PID `520` and the same Codex thread alive; `188` minutes remain to
+  hard cutoff and `248` minutes to next scheduled start.
+
+### Day29 user-data L4 audit 2026-11-01T12:14:00+08:00
+
+- Audited the user-supplied `raw/data/SouthAfrica` archive without moving,
+  renaming, deleting or overwriting raw files. The existing semantic partition
+  is retained: `133Ce_iThemba2019` for acquisition/calibration/matrix inputs,
+  `133Ce` for derived analysis and systematics.
+- Inventory baseline: `2,906` files, `6,221,719,622` bytes, no zero-byte files;
+  only three small exact duplicate calibration/program groups were found and
+  none was removed.
+- Created the user-data source page
+  `knowledge/sources/userdata-133ce-southafrica-dataset.md`, the provisional
+  contract `knowledge/research-notes/133ce-southafrica-l4-data-contract-20261101.md`
+  and reproducible audit under
+  `outputs/l4/20261101-133ce-southafrica-data-audit/`.
+- Workbook audit recomputed 65 ADO rows, 22 DCO rows and 44 asymmetry rows;
+  ADO/DCO cached formulas matched exactly, while asymmetry was retained as a
+  formula/rounding audit. ROOT opened five selected TH2I matrices with
+  `4096×4096` bins and `[0,2048]` axes.
+- Result remains `partial-L4-readiness`: producer lineage, event-to-matrix
+  provenance, response covariance, background and independent holdout remain
+  open. No synthetic counts, posterior or nuclear-structure claim was created.
+
+### Day29 user-data L4 validation 2026-11-01T12:14:00+08:00
+
+- Final checks for the new user-data artifacts pass: writeback `27 valid`,
+  lint `0 errors / 438 warnings / 5264 info`, boundary/preflight pass,
+  QMD `0 new / 0 updated / 1051 unchanged / 0 removed`, and
+  `git diff --check` pass.
+- The explicit publishable manifest reconciles exactly at `56/56`; no files are
+  staged. The L4 result remains `partial-L4-readiness`, with no synthetic event
+  counts, posterior or curriculum credit.
+
+### Day29 continuation validation 2026-11-01T11:00:48+08:00
+
+- The `78Br` source schema is now complete after replacing `reading_depth: full`
+  with `deep-read` and adding the required Summary section.
+- Validation is green: lint `0 errors / 437 warnings / 5267 info`, writeback
+  `27 valid`, QMD `1 new / 2 updated / 1047 unchanged / 0 removed`, and
+  `git diff --check` passed.
+- The explicit publication manifest is reconciled at `51/51`; no files are
+  staged, and the run remains active before the hard deadline.
+
+### Day29 publication-boundary audit 2026-11-01T11:04:46+08:00
+
+- Fresh `git fetch origin main`, ancestry check and `git push --dry-run
+  origin HEAD:main` passed; local and remote `main` remain aligned.
+- The run-local `final-session-receipt-29.json`,
+  `closeout-requirement-audit-001.json` and
+  `precloseout-publication-scope-001.json` are explicitly ignored by the
+  repository's run-artifact rules. They remain authoritative local closeout
+  records and are not force-added to the publication manifest.
+- The manifest still reconciles exactly with publishable dirty paths; no staged
+  files, raw PDFs or protected data entered the index.
+
+### Day29 runtime snapshot 2026-11-01T11:07:02+08:00
+
+- Refreshed the run-local schedule snapshot: `232` minutes remain to the
+  `2026-11-01T15:00:00+08:00` hard deadline and `292` minutes to the next
+  scheduled start.
+- `run.json` remains `running`; Day29 is complete, Day30 is partial/no-credit,
+  and Day31 remains unopened.
+
+### Day29 checkpoint-008 continuation 2026-11-01T12:22:00+08:00
+
+- Acknowledged `checkpoint-008` and saved
+  `continuation-017-checkpoint.md`. The current route remains the user-data
+  `133Ce` partial-L4 audit; no new source or curriculum card was opened.
+- The schedule snapshot is `158` minutes to hard cutoff and `218` minutes to
+  next scheduled start. Day29/Day30/Day31 invariants remain unchanged.
+
+### Day29 checkpoint manifest reconciliation 2026-11-01T12:24:15+08:00
+
+- Adding the required `continuation-017-checkpoint.md` brings the explicit
+  publishable manifest and dirty paths to `57/57`; no files are staged.
+- The user-data L4 route remains partial and the supervision chain remains
+  active; no Day30 credit or L4 nuclear-structure claim was created.
+
+### Day29 runtime snapshot 2026-11-01T12:25:39+08:00
+
+- Clock PID `628`, Farmer PID `520` and the same Codex thread are live. The
+  current window is `154` minutes to hard cutoff and `214` minutes to the next
+  scheduled start; no course state changed.
+
+### Day29 South Africa cleanup and archive gate 2026-11-01T13:30:54+08:00
+
+- Under explicit user authorization, reorganized `raw/data/SouthAfrica/`:
+  experiment metadata and sorter configuration remain under
+  `133Ce_iThemba2019/`; derived figures, workbooks, code, notebooks and ROOT
+  matrices are under `133Ce/analysis/`; three named backup drawings are in
+  `analysis/archive/`.
+- Removed only four byte-identical utility copies after recording their
+  pre-change hashes. Post-cleanup inventory is `2,902` files and
+  `6,220,928,509` bytes; the cleanup manifest is
+  `outputs/l4/20261101-133ce-southafrica-data-audit/raw-cleanup-plan-20261101.json`.
+- Re-ran the relocated workbook and ROOT checks: `65` ADO, `22` DCO and `44`
+  asymmetry rows; five ROOT matrices remain readable `TH2I` `4096×4096`;
+  all `41/41` move/archive/delete hash/existence checks passed.
+- Archived NuclearMap `132Ce/134Ce` PES images, theory HTML and observation
+  script under `raw/figures/gpt/learning-daily/20261101-day29-133ce-nuclearmap-pes/`.
+  Added the provisional `133Ce` triaxial-core route and NuclearMap source page;
+  no direct `133Ce` PES or event-level L4 result was claimed.
+- Added `.agents/skills/research-archive/SKILL.md` and
+  `system/scripts/wiki_archive_gate.py`; `wiki_hook.py after-edit` now fails
+  on missing source raw files or manifest hash mismatches. This run's changed
+  source/manifest check passed with zero failures. Full historical scan still
+  reports `56` pre-existing missing `raw_file` artifacts; these remain
+  access/readiness gaps and are not silently cleared.
+- Day29/Day30 curriculum state remains `[29]` / `[30]` / `next_day_index=30`;
+  under 90 minutes remain, so no new source or card route is opened.
+
+### Day29 research archive gate verified 2026-11-01T13:46:09+08:00
+
+- Resumed the same task after the explicit interruption. Existing clock PID
+  `628` and Farmer PID `520` were present; no new schedule/session was started.
+- `research-archive` is discoverable in the local skill catalog. The gate now
+  runs through automation preflight, so the daily runner and existing Git
+  publication helper execute it; `after-edit` and `session-summary` also fail
+  on an archive error. This is repository automation, not an installed global
+  Codex or Git hook.
+- Completed `76` targeted regression tests and the official skill structural
+  validator. Current source/archive checks, automation preflight and
+  session-summary pass. Report writeback is `29 valid`; lint is
+  `0 errors / 439 warnings / 5270 info`.
+- Final full scan: `56` missing primary raw paths and `1` companion hash
+  omission; `27` legacy downloader receipts are reported separately.
+  Fourteen historical staging pointers were distinguished from canonical
+  archived files. The full audit is local in
+  `archive-gate-full-audit-002.json`; it is not represented as a passing scan.
+- Canonical Day30 prompt includes the user's archive/private-data amendment;
+  its current SHA-256 is
+  `1d002235874e2f01bb1dcd961c6e3db8c4374e9717a02e955d0e33e30053476d`.
+- Recoverable state: `continuation-018-archive-gate.md`. Day29 complete,
+  Day30 partial, next=30; no new unit or private-result publication.
+
+### Day29 doctoral research synthesis and pre-closeout consolidation 2026-11-01T14:12:00+08:00
+
+- Integrated findings from author's doctoral midterm review report
+  (`raw/personal/graduation_process/midterm_review/附件4：中期报告模板.doc`):
+  - `133Ce` (iThemba LABS PR295): 21 new $\gamma$ transitions; new low-spin
+    band with bandhead $13/2^-$ (12 transitions); interband connecting
+    transitions have small negative $\delta$ ($|\delta| \lesssim 0.5$, $M1$-dominated);
+    signature splitting exhibits signature inversion with spin; triaxial core
+    evolves from $\gamma$-soft to $\gamma$-rigid across $N=75$ isotones
+    ($^{131}\text{Ba} \to {}^{133}\text{Ce} \to {}^{135}\text{Nd}$).
+  - `131Ce` (CIAE Beijing Tandem HI-13 experiment): in-beam spectroscopy to
+    establish high-spin level scheme and multipolarities. Symmetrically brackets
+    the $N=74$ triaxial core $^{132}\text{Ce}$ ($\beta=0.22, \gamma=17^\circ$)
+    opposite to $^{133}\text{Ce}$ ($N=75$).
+  - PDM method (Chen, Guo et al., *NST* under review): extracts $\delta$ from
+    $(R_{ADO}, P)$ without preset $\sigma/I$, resolving asymmetric error
+    propagation.
+- Second-pass fixed-input reorganization: moved supplied ROOT matrices to
+  `133Ce_iThemba2019/mat/root/` and calibration source spectra to
+  `133Ce_iThemba2019/calibration/source-spectra/` (2,751 files, 4.52 GB).
+  Receipt `fixed-input-reclassification-receipt.json` records 0 deletions and 0
+  overwrites.
+- Matrix bin-by-bin integer comparison: confirmed `g45`/`g90` match prompt m4b
+  arrays across all 16,777,216 bins; `gg`/`hgg`/`vgg` match unprompted m4b arrays.
+  Documented the two distinct coincidence time windows.
+- Updated `knowledge/projects/133ce-thesis-analysis-blueprint.md`,
+  `knowledge/projects/131ce-collective-mode-discrimination.md`, and
+  `knowledge/research-notes/133ce-triaxial-core-collective-mode-route-20261101.md`.
+- Generated recoverable checkpoint: `continuation-019-checkpoint.md`.
+- Course state remains `completed_day_indices: [29]`, `partial_day_indices: [30]`,
+  `next_day_index: 30`. All checks green; awaiting 15:00 hard cutoff for formal closeout.
+- Checkpoint-009 acknowledged at `2026-11-01T14:20:00+08:00`. Saved
+  `continuation-020-checkpoint.md`. Publication manifest reconciled at 90/90
+  paths.

@@ -50,6 +50,25 @@ python3 system/scripts/wiki_hook.py after-edit --root .
 python3 system/scripts/wiki_hook.py session-summary --root .
 ```
 
+研究材料归档门由 `wiki_archive_gate.py` 提供。创建或修改
+`knowledge/sources/` 页面、下载论文/学位论文、保存网页图片或登记私有数据时，
+必须让 source 页的 `raw_file` 指向仓库内材料；单文件同时填写 `raw_sha256`，集合
+使用 `raw/figures/gpt/learning-daily/<date>-<topic>/manifest.json` 登记每个文件的
+路径和 SHA-256。生命周期 hook 在检测到 source 页或 manifest 改动时自动运行有界检查：
+
+```bash
+python3 system/scripts/wiki_archive_gate.py check --root . -- path/to/source.md path/to/manifest.json
+python3 system/scripts/wiki_archive_gate.py check --root . --full
+```
+
+日常自动入口为 `check --root . --changed`，已经接入 automation preflight，
+所以每日 runner 和现有 Git 发布脚本会检查。新来源设置 `archive_required: true`
+后会在后续预检中继续核对原件，六类 `gpt/learning-daily/` 目录中的清单也会复核，
+即使 raw 被 Git 忽略。`--full` 会报告历史 source 页中已经存在的缺失 raw 文件；
+这类历史缺口不能用 URL 冒充已归档原件，需保留 access/readiness boundary。
+旧下载器回执单列为 `legacy_receipts_not_archive_validated`，不算通过新清单检查；
+新清单使用 `archive_type: research-archive-v1`。详见 `system/workflows/research-archive.md`。
+
 Farmer 只读取 `CODEX_HOME/sessions/**/*.jsonl`，对 Wiki 根目录内的白名单瞬态失败排队一次固定续接消息；状态写入被忽略的 `tmp/farmer/`，不访问 Codex SQLite，也不执行 Git 发布：
 
 有独立 `session_meta.id` 的子代理按自己的 thread ID 分别监控；其 `session_id` 可能是父会话，不能用来合并兄弟线程。仅旧格式缺少 `id` 时回退 `session_id`。multi-agent v2 不接受对子线程的直接 app-server 输入，因此瞬态故障只向父线程排队一次带子 ID/agent path 的恢复通知，由父线程核对既有成果后用原生协作续接。已完成的子代理不因 `notLoaded` 显示而重启；通知接受不等于新 turn 已运行，须另核该线程事件。

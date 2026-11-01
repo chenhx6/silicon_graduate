@@ -2,12 +2,38 @@
 type: system-overview
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-28
+updated: 2026-11-01
 ---
 
 # Knowledge Base Health Dashboard
 
 全库复习和研究选题入口：[[wiki-full-library-map-20261030]]。该页只做知识导航、证据分层和工作区整理边界，不替代各 `knowledge/sources/` 原件与 locator；代表性证据回链见 [[chakraborty-2023-131xe-wobbling-origin]] C23-D28-1 和 [[gaffney-2013-pear-shaped-rn-ra]] GA13-1。
+
+## Current Snapshot: 2026-11-01 Day29 continuation
+
+本快照来自当前 Wiki 实际目录与 `wiki_lint.py --no-git --fail-on error`。`knowledge/`
+共有 1047 篇 Markdown；其中 1044 篇进入 lint 类型页扫描，source 480、project 20、
+research-note 251、synthesis 14。治理统计为 page/source unreviewed `966/420`，
+claims `6041`，`needs_review` `5255`，缺 locator/kind `0/0`，source 缺
+raw_file/citation_key `0/219`；lint 为 `0 errors / 437 warnings / 5255 info`。
+这些数字是结构和审核元数据统计，不代表独立实验数、全文终审或科学结论通过。
+
+本轮新增或修订的长期入口包括：[[rosiak-2018-132sn-enhanced-octupole]] 的 `132Sn`
+直接单声子 E3、[[132sn-two-phonon-continuum-readiness-20261101]] 的两声子连续谱
+可行性边界、[[henderson-2025-208pb-deformation-collectivity]] 的 `208Pb` quartet
+证据纠正、[[100sn-decay-response-closure-experiment-20261101]] 的 `100Sn` 联合响应
+设计、[[li-2025-imp-dragon-hpge-array]]、[[sun-2003-ribll-radioactive-ion-beam-line]]、
+[[cross-mass-phenomena-detector-beam-prospectus-20261101]]、P3 Tonev07 source→raw
+归档、[[ensdf-131ba-adopted-e3]] 的弱 E3 response control 和
+[[uio-2026-133i-thesis-announcement]] `UIO26-3` 的伪 PDF 文件身份边界，以及
+[[ronning-2026-70zn-magnetic-lee]] 对 `133I` γSF/M1 设计的跨质量区方法约束。
+所有新解释保持 `unreviewed`/`provisional`；没有把设计推断升级为
+`human-reviewed` 或 L4 实验事实。
+
+当前 daily-learning 状态仍为 `completed_day_indices: [29]`、
+`partial_day_indices: [30]`、`next_day_index: 30`。本轮已完成 QMD 文字索引更新
+（0 new、1 updated、1046 unchanged、0 removed）；embedding 和 cleanup 仍按任务边界
+deferred，boundary 继续确认 collection 仅限定为 `knowledge/**/*.md`。
 
 ## Current Snapshot: 2026-10-28 Day26 checkpoint001
 

@@ -15,6 +15,7 @@ updated: 2026-07-06
 python system/scripts/wiki_lint.py --fail-on error
 python3 system/scripts/wiki_boundary_check.py --root .
 python3 system/scripts/wiki_automation_preflight.py --root .
+python3 system/scripts/wiki_archive_gate.py check --root . --changed
 ```
 
 规则由 `system/lint-config.json` 声明，实现位于 `system/scripts/wiki_lint.py`。脚本只依赖 Python 标准库。
@@ -30,6 +31,11 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 退出码只表示是否达到 `--fail-on` 阈值。默认 error 阻止提交，warning/info 保留给人工判断。
 
 路径契约检查先于普通 lint：`wiki_boundary_check.py` 只读确认六类目录、`outputs/plans/`、知识迁移状态和 QMD collection；失败时摄入与每日学习 safe-suspend。它不扫描或修改 raw 原始内容。
+
+automation preflight 还自动执行研究材料归档门：本轮来源、已登记持续检查的来源和
+新格式清单中的 raw 原件缺失、哈希不匹配或路径越界会失败。`--full` 另行盘点全库
+历史缺口；旧下载回执会单列，不被认证为新格式归档清单。详见
+`system/workflows/research-archive.md`。
 
 ## 检查层级
 

@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "created": "2026-11-01",
+  "scope": "raw/data/SouthAfrica",
+  "user_authorized_cleanup": true,
+  "policy": "organize by provenance; retain immutable acquisition/calibration/matrix layer; move derived analysis to 133Ce; remove only bitwise-identical redundant utility copies; archive named backup files",
+  "moves": [
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/ELOG PR295.htm",
+      "destination": "raw/data/SouthAfrica/133Ce_iThemba2019/experiment/ELOG PR295.htm",
+      "size": 325151,
+      "sha256_before": "c46ac3524252abcea3d7b2ee55fc29fd759dfeac0e54d384cd2eeaddfee057b0"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/PR295.doc",
+      "destination": "raw/data/SouthAfrica/133Ce_iThemba2019/experiment/PR295.doc",
+      "size": 714240,
+      "sha256_before": "d61ebc6c9a1111307782870cd483bf58b3f46501877e5f3d8db6dec5b89923a1"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/PR295_clover_status.xlsx",
+      "destination": "raw/data/SouthAfrica/133Ce_iThemba2019/experiment/PR295_clover_status.xlsx",
+      "size": 19130,
+      "sha256_before": "15bf90c8f675e5336c5c3b29be35dabbd1a6c5573f7fd1b3e6182af64770a951"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/experiment setup.xlsx",
+      "destination": "raw/data/SouthAfrica/133Ce_iThemba2019/experiment/experiment setup.xlsx",
+      "size": 9039,
+      "sha256_before": "21c9e9f2bcd3b4f21c2ac19d5f544fbd62570fe51cbb6e57b61f322ef3b84c42"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/PR295offline",
+      "destination": "raw/data/SouthAfrica/133Ce_iThemba2019/config/PR295offline",
+      "size": 85276,
+      "sha256_before": "a47b826733a42a8eac3cd5e4ba05c7f996535acfea54a5dbbc12938714f69088"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/PR295offline75_95.dat",
+      "destination": "raw/data/SouthAfrica/133Ce_iThemba2019/config/PR295offline75_95.dat",
+      "size": 119845,
+      "sha256_before": "e7a8998c537e57a219b1d2d1595aebfe4d3d136dc56acfb99f5c36f3072ea42b"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/PDCO.nb",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/notebooks/PDCO.nb",
+      "size": 199415,
+      "sha256_before": "ec9e7e2feab5956a29c9dda3198760fb75a61f978d461f20e0f0c5dcc36fb5d5"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/intensity.xlsx",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/intensity_iThemba2019_export.xlsx",
+      "size": 160242,
+      "sha256_before": "3ad110823a29c164d8d402a0c49b82bc4718e19b9fac49f8e3107512671d3455"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/S-I.agr",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/S-I.agr",
+      "size": 40027,
+      "sha256_before": "195e3a5dea20a6e5565274c5b0b5711219cca38643df0de2c3889d74d38b1e79"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/S-I.jpeg",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/S-I.jpeg",
+      "size": 41753,
+      "sha256_before": "17e7823b7c02b3ae23dd27b51ab82c2ec9aebe843f84702cacc6ab1b7bc560aa"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/S-I.png",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/S-I.png",
+      "size": 44464,
+      "sha256_before": "41593bb27214f48a420e6905de8ff0ca8ae2f240f4b4a760a08bd0d134c2f6e0"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/S-I.ps",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/S-I.ps",
+      "size": 18732,
+      "sha256_before": "e8f83eb20aa6550513875f75011fc084bce8d704b1b674d65d83f01a0aad4844"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/S-I.svg",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/S-I.svg",
+      "size": 72798,
+      "sha256_before": "42aa6a661f83262aed0c1e06a80ad6f6802387f4de6bb5764777224092b97bc2"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/S-I.txt",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/S-I.txt",
+      "size": 405,
+      "sha256_before": "ff4f5aec062ee9658a10bbf40233530b35aaf57d5cce48a7235146768fb12802"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/beamtime.png",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/beamtime.png",
+      "size": 29824,
+      "sha256_before": "77aabad8a173caf9551a117eda6f39bf3f5885a76daa9ac1cc2e616d6459a2a7"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/beamtime.svg",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/beamtime.svg",
+      "size": 16536,
+      "sha256_before": "6186c2dd0ccc511bf744added5356809a1a5422c25b54653ba60495b725a52f4"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/g5317.png",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/g5317.png",
+      "size": 50005,
+      "sha256_before": "1aeaa85601b0f668aa01e8c6fcc8a556801d601f39a9a46988590467c3205bd2"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/wobbling frequency.agr",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/wobbling frequency.agr",
+      "size": 18019,
+      "sha256_before": "fba9d1e56b78c843f24a876f25a2b7251576cb03f29d735628959eef2ac206de"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/wobbling frequency.ps",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/wobbling frequency.ps",
+      "size": 18284,
+      "sha256_before": "3f88b26dd0e6ee09f95f4fba9f325af376df46f04384b3d387b65cd8435ef8f2"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/wobbling frequency.svg",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/wobbling frequency.svg",
+      "size": 69598,
+      "sha256_before": "7f6a668e23d27f19cb958c8550fb4ea002d8d977c26f9bc89e72458807190226"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce_iThemba2019/wobbling frequency.xlsx",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/figure/wobbling frequency.xlsx",
+      "size": 21561,
+      "sha256_before": "1ca5baaa59fcf82f120a17ca1628638d632bafaa7fd84760335d4435ba303b4d"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce/ADOHow to get the peak area.html",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/methods/ADOHow to get the peak area.html",
+      "size": 932339,
+      "sha256_before": "7425bc28941e8cc13ae180e8d8e3db0e0316623aeaa0b3038d13dc09fc0805a7"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce/PDCOHow to get the peak area.html",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/methods/PDCOHow to get the peak area.html",
+      "size": 1325193,
+      "sha256_before": "e642327b907bcfcb79d31e222589a061988a4ec5a80bf58ab2bba36e8e1b7f14"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce/Area.cpp",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/code/Area.cpp",
+      "size": 8381,
+      "sha256_before": "949ec1bf7bcd7dbe38fca019855146cc20f2200778de082dd9f80920990a2673"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce/Area2.cpp",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/code/Area2.cpp",
+      "size": 9200,
+      "sha256_before": "7a56487b229584d6de221fa3edb8109383c679c1fee4ace18cc6d7e631bd5e39"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce/UNTITLED.opj",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/project-files/UNTITLED.opj",
+      "size": 280294,
+      "sha256_before": "023941aae3e6add0d49e602f6c06c25c0dbb75eef92e2fb62eb56b3576be875a"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce/g45allmatprompt.root",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/matrices/g45allmatprompt.root",
+      "size": 30866193,
+      "sha256_before": "beebddff3261a3781ffc6cf551fab5825febafab1f2109328851d2be50056c8f"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce/g90allmatprompt.root",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/matrices/g90allmatprompt.root",
+      "size": 30874567,
+      "sha256_before": "dee4e77e1b3a31e39a15ff11fe15ad2ef068e51151e9187bef1ac73422aafda6"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce/gg.root",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/matrices/gg.root",
+      "size": 34690246,
+      "sha256_before": "3a686dbb0b86b3ca0e068230eb40bc0308762b387e8d2952390804b7ec3f6362"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce/hgg.root",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/matrices/hgg.root",
+      "size": 23061503,
+      "sha256_before": "b08faad5dd9da100c45927c4550c10f2326f20b10f2aa49c637cc4abe59c58cf"
+    },
+    {
+      "action": "move",
+      "source": "raw/data/SouthAfrica/133Ce/vgg.root",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/matrices/vgg.root",
+      "size": 23193254,
+      "sha256_before": "22ae50a24534f4bb94e25e956de7bae01eb584f90f8af0ba38585c1c00f5c572"
+    }
+  ],
+  "archives": [
+    {
+      "action": "archive",
+      "source": "raw/data/SouthAfrica/133Ce/analysis/figure/Backup_of_133Ce_w.cdr",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/archive/Backup_of_133Ce_w.cdr",
+      "size": 502985,
+      "sha256_before": "5ce30f692751655abeecc7b947b90435313479e34b7d840e93b4438753e4af0d"
+    },
+    {
+      "action": "archive",
+      "source": "raw/data/SouthAfrica/133Ce/analysis/figure/Backup_of_band energy.cdr",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/archive/Backup_of_band energy.cdr",
+      "size": 111907,
+      "sha256_before": "b35709cffb85ccd05d9512510739527430d53e33b098153d9a6b8ea5c482f9d9"
+    },
+    {
+      "action": "archive",
+      "source": "raw/data/SouthAfrica/133Ce/analysis/figure/Backup_of_plot.cdr",
+      "destination": "raw/data/SouthAfrica/133Ce/analysis/archive/Backup_of_plot.cdr",
+      "size": 122643,
+      "sha256_before": "966605e84b103a6a9880afee183d2384c3b641717ae9f57b41ec166e01ef58a9"
+    }
+  ],
+  "canonical_moves": [
+    {
+      "action": "canonicalize-duplicate",
+      "source": "raw/data/SouthAfrica/133Ce/calibration/Ba/Mxa100.ini",
+      "destination": "raw/data/SouthAfrica/133Ce/calibration/_shared/Mxa100.ini",
+      "size": 1075,
+      "sha256_before": "19e65f7f3062aa83a48f69cd6e8e54a84aa08499010bd31321ac558abbb7feb5"
+    },
+    {
+      "action": "canonicalize-duplicate",
+      "source": "raw/data/SouthAfrica/133Ce/calibration/Ba/mxa.exe",
+      "destination": "raw/data/SouthAfrica/133Ce/calibration/_shared/mxa.exe",
+      "size": 784896,
+      "sha256_before": "39e4a776546ae6442d664e112abb4bc6e3af0c683785ece361efdc3246d3fcc6"
+    },
+    {
+      "action": "canonicalize-duplicate",
+      "source": "raw/data/SouthAfrica/133Ce/calibration/convertspectra/asc2netEGASPware.C",
+      "destination": "raw/data/SouthAfrica/133Ce/calibration/_shared/asc2netEGASPware.C",
+      "size": 2571,
+      "sha256_before": "3e2d86725fc72514f0644e0f9c5c026bef46db17f9a1569fb4fcf5d46937596c"
+    }
+  ],
+  "deletes": [
+    {
+      "action": "delete-exact-duplicate",
+      "source": "raw/data/SouthAfrica/133Ce/calibration/Eu/Mxa100.ini",
+      "destination": null,
+      "size": 1075,
+      "sha256_before": "19e65f7f3062aa83a48f69cd6e8e54a84aa08499010bd31321ac558abbb7feb5"
+    },
+    {
+      "action": "delete-exact-duplicate",
+      "source": "raw/data/SouthAfrica/133Ce/calibration/Eu/mxa.exe",
+      "destination": null,
+      "size": 784896,
+      "sha256_before": "39e4a776546ae6442d664e112abb4bc6e3af0c683785ece361efdc3246d3fcc6"
+    },
+    {
+      "action": "delete-exact-duplicate",
+      "source": "raw/data/SouthAfrica/133Ce/calibration/calspec/128129decay/asc2netEGASPware.C",
+      "destination": null,
+      "size": 2571,
+      "sha256_before": "3e2d86725fc72514f0644e0f9c5c026bef46db17f9a1569fb4fcf5d46937596c"
+    },
+    {
+      "action": "delete-exact-duplicate",
+      "source": "raw/data/SouthAfrica/133Ce/calibration/calspec/130Eu/asc2netEGASPware.C",
+      "destination": null,
+      "size": 2571,
+      "sha256_before": "3e2d86725fc72514f0644e0f9c5c026bef46db17f9a1569fb4fcf5d46937596c"
+    }
+  ],
+  "executed_at": "2026-11-01T12:50:00+08:00",
+  "post_cleanup": {
+    "file_count": 2902,
+    "byte_count": 6220928509,
+    "zero_byte_files": 0,
+    "deleted_file_count": 4,
+    "deleted_byte_count": 791113,
+    "hash_and_existence_checks": {
+      "checked": 41,
+      "passed": 41,
+      "failed": 0
+    },
+    "top_level_files_remaining": 0
+  }
+}

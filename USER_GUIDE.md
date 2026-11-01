@@ -21,6 +21,12 @@ tmp/         临时运行数据、缓存和 scratch；不保存唯一知识
 [`system/path-contract.md`](system/path-contract.md)。任何输出中出现的可复用知识都必须同步进入
 `knowledge/`；每天的 `Durable knowledge delta` 不能只指向日报。
 
+论文、学位论文、外部笔记、网页、图片和数据须保留可再次查看的 `raw/` 原件；
+图片及其配套快照归入 `raw/figures/gpt/learning-daily/`。来源页登记文件路径和
+SHA-256，多文件用 `manifest.json`。每日运行和发布预检自动检查本轮及已登记的归档，
+缺档或哈希不符会失败；全库旧缺口另行盘点。详见
+[研究材料留档](system/workflows/research-archive.md)。个人资料和未发表数据仍只保留本地。
+
 最重要的入口：
 
 - `PLAN.md`：你维护的宏观阶段计划、个人好奇心与研究方向草稿；
@@ -60,7 +66,8 @@ Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidi
 
 当前 vault 已启用 Dataview。它用于列出页面元数据，不替代 Markdown 正文和 Git 中可读的静态索引。
 
-建议把附件目录设为 `raw/figures/`。该目录由你或 Obsidian 写入，Agent 不主动修改。
+建议把附件目录设为 `raw/figures/`。Agent 获取的研究图片写入其下约定的
+`gpt/learning-daily/` 子树，用户或 Obsidian 的既有附件保留原位置。
 
 ### 图谱过滤
 

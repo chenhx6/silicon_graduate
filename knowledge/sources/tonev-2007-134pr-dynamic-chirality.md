@@ -20,7 +20,7 @@ canonical_source: https://doi.org/10.1103/PhysRevC.76.044313
 citation_key: ""
 raw_file: raw/papers/2007_Tonev_134Pr_Dynamic_Chirality.pdf
 raw_sha256: 822780157dadbeac4adfa3cd34b919b855a3911c497c229b2216fb7697f1b8aa
-raw_storage_status: public-staging-not-archived
+raw_storage_status: archived-from-verified-public-staging
 actual_body_file: tmp/day24-tonev2007-134pr-long-095/10.1103_PhysRevC.76.044313.pdf
 nuclei: [134Pr]
 reactions: [119Sn-19F-4n-134Pr]
@@ -36,7 +36,7 @@ tags: [134Pr-chirality, dynamic-chirality, shape-fluctuations, companion-matrix]
 
 ## Bibliographic Record
 
-D. Tonev等，Physical Review C 76, 044313 (2007)，DOI [10.1103/PhysRevC.76.044313](https://doi.org/10.1103/PhysRevC.76.044313)，received 2007-04-25，published 2007-10-17。现存VoR实测26页、1,527,111 bytes，SHA与frontmatter一致；印刷044313-1至26。原095下载命令/HTTP回执未找到，不以实物身份反推“APS直接下载”。098 APS入口返回403验证页，SI当前未核，不宣称无SI。raw_file为未归档预留路径，实际文件是actual_body_file，raw未修改。
+D. Tonev等，Physical Review C 76, 044313 (2007)，DOI [10.1103/PhysRevC.76.044313](https://doi.org/10.1103/PhysRevC.76.044313)，received 2007-04-25，published 2007-10-17。现存VoR实测26页、1,527,111 bytes，SHA与frontmatter一致；印刷044313-1至26。原095下载命令/HTTP回执未找到，不以实物身份反推“APS直接下载”。098 APS入口返回403验证页，SI当前未核，不宣称无SI。已将同哈希的公开 staging 原件归档至 `raw/papers/2007_Tonev_134Pr_Dynamic_Chirality.pdf`；`actual_body_file` 保留为历史 staging provenance。
 
 ## Scope and Reading Depth
 

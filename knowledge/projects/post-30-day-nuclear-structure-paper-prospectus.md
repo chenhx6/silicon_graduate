@@ -71,6 +71,14 @@ within-model posterior stability 当作 wobbling 机制的模型间排他证据�
 nuisance 和 Lv `747.3-keV P–R_ac` leave-EM-out holdout。它是 future-input
 analysis contract，不代表当前已有 raw counts、response 或联合协方差。
 
+`knowledge/research-notes/135pr-hypothesis-discrimination-priority-20261101.md`
+进一步把四个竞争层写成可证伪预测：低自旋 transverse wobbling、tilted
+precession/realignment、signature/configuration mixing，以及仅限高自旋 DB1/DB2
+的 chiral interpretation。当前最高信息增益的测量设计是同一 `747` 连接线的
+branch（AD + polarization/`R_ac`）与 partner-resolved absolute EM/lifetime
+联合观测，并预先把 `813` 作为 holdout、`450` 作为敏感性检查。该排序是研究设计
+推断，不是统计功效或新实验结果。
+
 本轮只读 source→raw 对账进一步确认 Matta 2015、Sensharma 2019、Lv 2022 和
 Sensharma 2026 四个本地原件的 SHA-256 与各 source 页 frontmatter 一致。该闭合只
 解决本地文件身份；`S19-D23-1`、`SH26-11` 和 `SH26-15` 所记录的 event/run overlap
@@ -126,6 +134,10 @@ evidence-boundary/branch-identifiability paper，前提是标题和结论明确�
 `134Pr` 的寿命异常可以削弱理想静态手征，但仍需区分动态涨落、configuration
 mixing 和 crossing。投稿前必须把同一母态、同一 operator convention、feeding 和
 systematic covariance 冻结；不能用不同论文的相似 `B` 比值拼出一条独立证据向量。
+Tonev07 的 26 页 primary PDF 已从 verified public staging 归档到 source 页声明的
+`raw_file`，因此逐线表格的 source identity 更稳固；这不改变 Tonev06/07 同一
+Euroball lineage，也不补足 raw lifetime producer、feeding covariance 或 mixed-line
+`M1/E2` decomposition。
 
 Lv et al. 2025 的 `135Nd` 同谱系扩展新增 `17/2−_3`、band T 和
 `B(E2,752)/B(E2,908)=2.0(5)`，可补强 P3 的 transition identity 与相对 E2 层。

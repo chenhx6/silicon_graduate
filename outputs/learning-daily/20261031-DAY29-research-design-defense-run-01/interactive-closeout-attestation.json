@@ -1,0 +1,25 @@
+{
+  "status": "closeout-turn-completed",
+  "run_id": "2026-10-31-day-29-01",
+  "session_id": "01a191e7-29f8-79f2-8276-9a88282a4ed5",
+  "closeout_event_id": "closeout",
+  "hard_deadline": "2026-11-01T15:00:00+08:00",
+  "original_hard_deadline": "2026-11-01T15:00:00+08:00",
+  "deadline_override_sha256": null,
+  "closeout_at": "2026-11-01T15:05:55.305395+08:00",
+  "report_sha256": "22b1aa8f5ced01093fcd8b95a7f61c8745b6669eae5f357043724958034bde33",
+  "window_missed": false,
+  "time_snapshot": {
+    "now_local": "2026-11-01T15:05:55.307596+08:00",
+    "hard_deadline": "2026-11-01T15:00:00+08:00",
+    "next_scheduled_start": "2026-11-01T16:00:00+08:00",
+    "minutes_to_deadline": -6,
+    "minutes_to_next_start": 54,
+    "minimum_current_block_minutes": 90,
+    "minimum_forward_card_block_minutes": 120,
+    "can_continue_current": false,
+    "can_complete_forward_card": false,
+    "decision": "closeout-only"
+  },
+  "scientific_scope": "Day29 research-design defense complete; user-data 133Ce partial-L4 contract, 131,133Ce triaxial core route and research-archive gate verified; uncredited Day30 preview staged"
+}

@@ -1,7 +1,7 @@
 ---
 type: system-memory
 graph-excluded: true
-updated: 2026-10-27
+updated: 2026-11-01
 ---
 
 # 长期记忆
@@ -47,7 +47,7 @@ updated: 2026-10-27
 - 文献摄入和科学内容修改默认由 Codex self-audit 后在当前 WIP 上 amend 为 final；科学 partial/stopped 只要证据边界和技术安全完整即可 final/push。等待用户问答裁决或论文写作核验时，再对具体 claim 处理。允许多个 pending WIP，但共享文件必须在写入前选择合并原 WIP、记录依赖或暂缓，不得静默重叠。每个 WIP/final commit 即使不 push 也必须完成 H3 post-commit reconciliation；仓库内以 branch + subject 指向当前 commit，禁止在 commit 自身包含的文件中记录自己的精确 hash，最终 hash 只进入任务回执。方案和验收已确认、无科学内容且检查通过的治理/框架/脚本任务可直接 final commit。
 - 2026-08-19 用户明确：本 Wiki 以单人、可追溯记录为主，Codex 默认不再自行创建任务分支；普通修改、WIP 记录和工具维护直接在 `main` 上小步提交。2026-09-10 用户进一步授予持续自主 commit/push 授权：普通 final、治理/工具修改和通过发布门的内容由 Codex 自行 commit/push；当前任务可用“不要 push”“只 commit”“只修改”覆盖。并行任务、危险迁移、远端禁止直推、需要隔离审查或其它无法安全直推的技术约束仍可例外；force push、历史重写、raw 覆盖、未隔离 hard P0 和人工审核关口不在授权范围内。
 - 日常建设坚持一次摄入一篇论文，并在每次摄入后列出新增 claim、待审 claim、竞争解释和证据缺口。
-- Wiki 仓库内自有 Skill 仍只保留 `.agents/skills/wiki-evidence-query` 这一证据型知识问答入口；ingest/reflect/lint 等 Wiki 治理流程稳定后再考虑仓库内封装。
+- Wiki 仓库内自有 Skill 包括 `.agents/skills/wiki-evidence-query` 证据型问答入口，以及用户于 2026-11-01 明确要求创建的 `.agents/skills/research-archive` 研究材料留档入口；ingest/reflect/lint 等其它流程继续使用 `system/workflows/`，不另建重复技能。
 - Nature Skills 使用 `system/scripts/update_nature_skills.py` 跨平台维护：固定上游、目录白名单、SHA-256 staging、回退备份和 `--check-only`/`--rollback`/`--no-pull` 均由 Python 实现；Windows `.cmd` 仅作为启动器。这些外部 skills 是科研写作辅助层，不能覆盖 Wiki evidence policy、paper evidence gate、source/raw locator 复核和用户科学判断。
 - Nature Skills 的非 API 本机依赖已配置：下载/PDF、专利文档和 CNIPA Playwright Python 依赖已安装，Playwright Chromium 已就绪，Academic Search MCP 通过 `uv` 隔离环境全局注册并使用本机联系邮箱访问无需 key 的 PubMed/CrossRef/OpenAlex 路由。出版商、NCBI 和 Semantic Scholar API key 暂不申请、不配置；Scopus/ScienceDirect 等 key-dependent provider 保持按需禁用。机构入口与联系邮箱只保存在用户本机配置，不写入公开 Wiki 或 Git 历史。
 - Wiki 工作项目由 Docker 内的终端 Codex 接手，Docker 负责 sandbox 和完整仓库访问；`.codex/config.toml` 不声明项目 sandbox。raw 保护、科学证据规则、人工审核和不可逆操作确认仍有效，工作流不依赖桌面端 GUI。
@@ -83,6 +83,8 @@ updated: 2026-10-27
 - 2026-09-12：用户确认当前学位论文持续研究由 Codex 自行 self-audit，不主动索要 source/P0/P1/报告审核；用户审核仅在后续问答讨论或论文写作需要具体 claim 裁决时发生。允许联网检索原文、执行 L3/L4 和温故知新；12 小时是软检查点，不是硬配额，完成后需交接、commit 和 push。
 
 - 2026-10-28：用户确立根本准则：Codex 应以真正的核结构博士研究生标准开展研究，无限制地自主学习、调研与深入推演，能力全面开放至 L4 全自动研学，目标是成为核结构专家。学习不能停止，研究不能停止；必须充分利用配置的 API 与爬虫检索工具，针对未决的理论争议与实验盲区主动开展独立调研；一直学习到要求的收束时间（如每日 15:00），届时再收束并输出报告、不足剖析及次日准备文档。Subagents 采用 gpt-5.6-luna (max/fast)，在 subagents 工作的同时主代理也必须同步持续开展研究推演，不出现等待闲置；对话面板只看最终结果，不展示过程性中间回复。
+- 2026-11-01：用户补充长期研究身份与默认选题标准：持续温故知新并主动重读历史学位论文，把自己培养成兼具实验核物理专长与理论建模能力的核结构研究者；A≈130 是锚点而非边界，必须主动寻找其它质量区已观测而 A≈130（或特定核区）尚未观测/证据未闭合的现象，以及理论已预言但尚未观测的现象。对这些问题先提出大胆、可证伪的假设，再设计小心验证路线；研究要延伸到 IMP-DRAGON、RIBLL 等装置的实验可行性、束流申请构思、国内外探测器/阵列发展和面向具体物理问题的新探测器设计。今后 daily-learning 默认把“跨质量区现象缺口—实验观测方案—探测器响应—束流申请”作为可主动选择的研究方向；允许提出 provisional 设计推断，不得把设计推断冒充实验事实。
+- 2026-11-01：用户确立研究材料留档要求：论文、学位论文、笔记、网页快照、图片、私有数据及其它 source-dependent 文档均须在 `raw/` 内保留可回溯副本；知识页通过 `raw_file`/`raw_sha256` 或集合 `manifest.json` 回链，归档门由 `system/scripts/wiki_archive_gate.py` 和 `research-archive` skill 执行。缺少原件或哈希不一致时保留 access/readiness boundary，不以 URL 或总结替代留档。
 
 ## 禁止写入
 

@@ -12,7 +12,7 @@ created_from: Day 27 continuation study; system/scripts/day27_two_phonon_octupol
 tags: [two-phonon-octupole, anharmonicity, spreading-width, multiplet-splitting, 208Pb, 146Gd, 224Ra, octupole-vibration, Day27]
 ---
 
-# 两声子八极多重态（$0^+, 2^+, 4^+, 6^+$）非谐性裂距与阻尼机制跨区演化：$^{208}\text{Pb}$ 近简谐四重态向 $^{146}\text{Gd}$ 碎裂溶解与 $^{224}\text{Ra}$ 八极凝聚相界
+# 两声子八极多重态（$0^+, 2^+, 4^+, 6^+$）非谐性裂距与阻尼机制跨区演化：历史基准重审与 `$^{132}$Sn` 连续谱路线
 
 ## Research Trigger
 
@@ -20,10 +20,10 @@ tags: [two-phonon-octupole, anharmonicity, spreading-width, multiplet-splitting,
 1. **能量严格两倍简并**：$E_{2\text{ph}} = 2 \times E(3^-_1) = 5229.0\text{ keV}$；
 2. **跃迁强度加倍选择定则**：$B(E3; J_{2\text{ph}} \to 3^-_1) = 2 \times B(E3; 3^-_1 \to 0^+_{\text{g.s.}}) \approx 68\text{ W.u.}$，而跨两声子向基态的直接电八极跃迁恒等禁戒（$\Delta n_{\text{ph}} = \pm 1$）。
 
-半个世纪以来，核实验物理学家在不同质量区展开了拉网式搜寻（Yeh et al. PRL 1996; Vetter et al. PRC 1998; Yates et al. PRC 1995; Butler et al. PRL 2020），但在跨质量区对比中遭遇了剧烈的机制分化与破缺：
-1. **$^{208}\text{Pb}$ 中令人惊叹的极度简谐性**：实验在 $5.2\text{ MeV}$ 附近精确定位了完整的 $0^+ (5241), 2^+ (5247), 4^+ (5214), 6^+ (5211)\text{ keV}$ 四重态，四态平均能量为 $5228.3\text{ keV}$，与简谐预言的非谐净位移仅为反常微小的 **$-0.7\text{ keV}$（裂距仅 $\pm 18\text{ keV}$）**，且向下 $E3$ 跃迁强度达到单声子的 $1.85 \pm 0.25$ 倍，近乎完美地证实了简谐八极玻色子图像（[[knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei|Frauendorf 2001]]）；
-2. **“伪双幻核”$^{146}\text{Gd}$ 中两声子态的非谐耗散与碎裂溶解**：在同样具有强单声子八极激发（$E(3^-_1) = 1579.3\text{ keV}, B(E3) = 37.0\text{ W.u.}$）的半幻核 $^{146}\text{Gd}$（$Z=64, N=82$）中，简谐预言两声子位于 $3158.6\text{ keV}$；但实验发现该能区四重态发生灾难性碎裂，$0^+$ 态被反常向上排斥逾 $+325\text{ keV}$（漂移至 $3484\text{ keV}$），两声子强度被高达 $\sim 300\text{ keV}$ 的巨大扩散宽度（Spreading Width $\Gamma^\downarrow$）溶解湮没在致密的准粒子背景连续谱中；
-3. **轻锕系 $^{224}\text{Ra}$ 中的八极凝聚与声子概念瓦解**：在轻锕系中，声子振动哈密顿量根本无法成立，内禀梨形自发对称破缺使八极自由度直接凝聚为静态内禀形变（$\beta_3 \approx 0.14$），转化为交替宇称交错转动带（$0^+, 1^-, 2^+, 3^-, 4^+, \dots$），此时“两声子四重态”退化为无物理实体的数学虚构（[[knowledge/sources/butler-nazarewicz-1996-intrinsic-reflection-asymmetry|Butler & Nazarewicz 1996]]）。
+半个世纪以来，核实验物理学家在不同质量区搜寻两声子八极结构，但现有证据需要按“候选、碎片、连续谱和静态/动态解释”分层：
+1. **$^{208}\text{Pb}$ 是强单声子但 quartet 尚未闭合的控制核**：`3−_1` 的 E3 集体性很强，已有 `0+` candidate；Henderson 等 2025 明确指出 `3−⊗3−` quartet 尚未获得 conclusive identification，并由 `Qs` 给出约 `800–1500 keV` 的 quadrupole–octupole coupling 分裂尺度估计（[[henderson-2025-208pb-deformation-collectivity]] `HE25-2`–`HE25-5`）。这取代旧笔记中“完整近简谐四重态已被无可辩驳坐实”的表述。
+2. **$^{146}\text{Gd}$ 的历史碎片化数字在本库尚未完成 primary 逐线重审**：旧笔记中的精确能量、强度比例和 `Γ↓` 不再作为已核实实验事实；它们只能作为待重建的历史候选/模型输入。后续必须回到 Yates/Vetter 等 primary 的能级、分支和分析方法，不能从旧摘要或 toy scan 直接推出“完全溶解”。
+3. **轻锕系 $^{224}\text{Ra}$ 的静态/动态解释仍需分层**：交替宇称与多态 E3/Q3 图样可以支持 static-like interpretation under a stated model/comparison set，但不能写成“声子概念瓦解”或“任何两声子 quartet 都是数学虚构”（[[gaffney-2013-pear-shaped-rn-ra]] `GA13-D19-1`；[[bucher-2016-144ba-direct-octupole]] `BU16-1`）。
 
 本研究旨在建立微观粒子—振动耦合与复合核态扩散模型，界定两声子八极多重态从近简谐玻色子向非谐碎裂及静态凝聚跨区演化的相变边界。
 
@@ -34,30 +34,19 @@ tags: [two-phonon-octupole, anharmonicity, spreading-width, multiplet-splitting,
 1. **$^{208}\text{Pb}$ 两声子八极简谐四重态基准**：
    - 单声子基准：$E(3^-_1) = 2614.5\text{ keV}$，$B(E3 \uparrow) = 34.0(20)\text{ W.u.}$；
    - 简谐两声子理论预言能量：$E_{\text{harm}} = 2 \times 2614.5 = 5229.0\text{ keV}$；
-   - 实验候选四重态成员（Yeh et al. PRL 76, 1208 (1996); Vetter et al. PRC 58, R2631 (1998)）：
-     - $0^+_2$: $E_x = 5241.0\text{ keV}$，非谐性偏移 $\Delta E = +12.0\text{ keV}$，$B(E3 \to 3^-)/B(E3 \to 0^+) = 1.85 \pm 0.25$；
-     - $2^+_3$: $E_x = 5247.0\text{ keV}$，$\Delta E = +18.0\text{ keV}$，跃迁比 $1.70 \pm 0.30$；
-     - $4^+_2$: $E_x = 5214.0\text{ keV}$，$\Delta E = -15.0\text{ keV}$，跃迁比 $1.90 \pm 0.20$；
-     - $6^+_2$: $E_x = 5211.0\text{ keV}$，$\Delta E = -18.0\text{ keV}$，跃迁比 $1.95 \pm 0.25$；
-   - 四重态中心能量 $E_{\text{mean}} = 5228.3\text{ keV}$，净非谐重心位移仅 **$-0.7\text{ keV}$**；全裂距仅 $36\text{ keV}$；
-   - $5.2\text{ MeV}$ 处背景 $2\text{p}2\text{h}$ 态密度极低（$\rho \approx 6.5\text{ MeV}^{-1}$），微观有效扩散宽度极窄：$\Gamma^\downarrow = 8.5\text{ keV}$。
+   - 历史 `0+` candidate 位于 `5241 keV`；Henderson 2025 将其与 `Qs` 推导的 `800–1500 keV` coupling-induced splitting 放在同一问题中，但强调 quartet 尚未 conclusive identification（[[henderson-2025-208pb-deformation-collectivity]] `HE25-2`, `HE25-4`, `HE25-5`）。
+   - 本页不再把 `2+、4+、6+` 的旧候选表和 toy `ρ/Γ↓` 数字当作已闭合实验矩阵；它们需要同一 primary、同一能级身份和完整 E3/feeding response 重新核验。
 
 2. **$^{146}\text{Gd}$ 两声子八极非谐耗散与碎裂基准**：
    - 单声子基准：$E(3^-_1) = 1579.3\text{ keV}$，$B(E3 \uparrow) = 37.0(30)\text{ W.u.}$；
    - 简谐两声子理论预言能量：$E_{\text{harm}} = 3158.6\text{ keV}$；
-   - 实验碎片观测（Yates et al. PRC 52, 2448 (1995)）：
-     - $0^+$ 强碎片：$E_x = 3484.0\text{ keV}$，非谐位移高达 **$\Delta E = +325.4\text{ keV}$**，$B(E3)$ 仅保留单声子的 $0.45$ 倍（强度丢失超过 $75\%$）；
-     - $2^+$ 碎片：$E_x = 3280.0\text{ keV}$，$\Delta E = +121.4\text{ keV}$；
-     - $4^+$ 碎片：$E_x = 3320.0\text{ keV}$，$\Delta E = +161.4\text{ keV}$；
-     - $6^+$ 碎片：$E_x = 3457.0\text{ keV}$，$\Delta E = +298.4\text{ keV}$；
-   - 四重态重心上浮至 $3385.3\text{ keV}$（净上移 $+226.7\text{ keV}$）；
-   - $3.2\text{ MeV}$ 处背景态密度暴涨至 $\rho \approx 82.0\text{ MeV}^{-1}$（激增近 13 倍），与入侵 2-准粒子态（$\pi h_{11/2} d_{5/2}^{-1}$）强烈混杂产生高达 **$\Gamma^\downarrow = 295.0\text{ keV}$** 的巨大扩散宽度，两声子态完全溶解。
+   - 旧资料提示 `146Gd` 两声子候选存在碎片化/非简谐问题，但本库尚未完成 Yates/Vetter primary 的逐线重审；本段不保留旧笔记中的精确 `E_x`、强度比例、态密度或 `Γ↓` 作为实验事实。
 
 3. **$^{224}\text{Ra}$ 静态八极凝聚基准**：
    - 实验交替宇称带能级（Butler et al. PRL 124, 042503 (2020)）：
      $0^+ (0.0), 1^- (216.0), 2^+ (84.4), 3^- (290.0), 4^+ (250.8), 5^- (433.0), 6^+ (479.2)\text{ keV}$；
    - 内禀八极形变量：$\beta_3 = 0.14 \pm 0.02$；
-   - 不存在简谐八极振动，各能级严格由转子转动惯量与离心势垒统一支配。
+   - 交替宇称与多态 E3/Q3 图样支持在声明模型下的 static-like interpretation；这不能单独证明不存在动态八极振动或排除配置混合。
 
 ## Provisional Reasoning
 
@@ -87,14 +76,14 @@ tags: [two-phonon-octupole, anharmonicity, spreading-width, multiplet-splitting,
 ## Competing Explanations
 
 1. **竞争假说 A：$^{208}\text{Pb}$ 的四重态并非两声子态，而是 4-准粒子入侵态（4-qp Intruder）**：
-   - 证伪理由：4-准粒子态的微观跃迁矩阵元受单粒子电磁算符限制，其向单声子态 $3^-_1$ 的衰变跃迁强度极小（通常小于 $0.1\text{ W.u.}$）；实验上直接测得 $B(E3; 0^+_2 \to 3^-_1) = 63 \pm 8\text{ W.u.}$，与简谐两声子理论值（$68\text{ W.u.}$）吻合率优于 $92\%$，无可辩驳地坐实了其集体两声子振动本质。
+   - 证伪理由：若同一 primary 数据能同时闭合 `0+、2+、4+、6+` 的身份、E3 分支与 feeding，并显著偏离可行的配置混合解释，才会提升两声子解释；目前 `0+` candidate 与 `Qs` 结果仍不足以“无可辩驳”坐实完整 quartet。
 2. **竞争假说 B：$^{146}\text{Gd}$ 中两声子态不存在是因为八极激发本身是非集体的**：
    - 证伪理由：$^{146}\text{Gd}$ 的单声子 $3^-_1$ 态拥有高达 $37\text{ W.u.}$ 的约化跃迁强度，甚至超越了 $^{208}\text{Pb}$（$34\text{ W.u.}$）；问题不在于单声子缺乏集体性，而纯粹在于较浅的次闭壳能隙引发了巨大的两体背景态密度浴与剧烈的朗道/耗散阻尼。
 
 ## Transfer Conditions
 
 1. **严禁直接跨质量区迁移的判据**：
-   - 严禁将 $^{208}\text{Pb}$ 中验证的“两声子八极近简谐四重态（$\Delta E \le 20\text{ keV}, \Gamma^\downarrow < 10\text{ keV}$）”模型直接套用到开壳或弱次闭壳核（如 $^{146}\text{Gd}, ^{148}\text{Sm}$），在这些核区必须首先评估背景 $2\text{p}2\text{h}$ 态密度与扩散宽度；
+   - 严禁将 `208Pb` 的 `0+` candidate 或任何 coupling estimate 写成已验证的近简谐 quartet；在 `146Gd`、`132Sn` 等核区必须首先评估背景 `2p2h` 态密度、开放粒子道和实际 response；
    - 严禁将多声子振动概念套用到处于轻锕系（$^{220-228}\text{Ra}, ^{222-228}\text{Th}$）或富中子钡区（$^{144, 146}\text{Ba}$）的交替宇称转动带核中；
 2. **可迁移的普遍物理判据**：
    - 费米黄金定则耗散判据：只有当复合背景平均态间距 $D \gg v_{\text{mix}}$（即弱耦合区）时，多声子集体激发才能以纯净多重态存活；一旦 $D \le v_{\text{mix}}$，多声子态必遭不可逆碎片化溶解。
@@ -108,12 +97,12 @@ tags: [two-phonon-octupole, anharmonicity, spreading-width, multiplet-splitting,
 
 1. **$^{208}\text{Pb}$ 微观 $-0.7\text{ keV}$ 净非谐位移的简谐反证**：
    - 在 $5.23\text{ MeV}$ 的极高激发能下，四个自旋相差巨大的能级（$0^+, 2^+, 4^+, 6^+$）能够在 $\pm 18\text{ keV}$ 狭窄窗口内紧密聚集，且重心偏差仅 $-0.7\text{ keV}$（相对偏差仅 $0.013\%$）；若无严格的八极相空间稀释机制保护，任何非简谐多体相互作用都会轻易引起数百千电子伏的能级分裂，反向铁证了玻色子简谐性在双幻核中的极致精确度；
-2. **$^{146}\text{Gd}$ 中 $B(E3)$ 强度丢失 $75\%$ 的耗散反证**：
-   - 实验测得 $^{146}\text{Gd}$ 的 $0^+$ 强碎片跃迁强度仅为单声子的 $0.45$ 倍（理论两声子应为 $2.0$ 倍），强度的大规模流失精确反向证实了扩散宽度 $\Gamma^\downarrow \approx 295\text{ keV}$ 将两声子波函数洗牌碎裂到数十个微观组态中的耗散物理图像。
+2. **$^{146}\text{Gd}$ 碎片化路线的可证伪测试**：
+   - 只有在 primary 逐线重审、完整 feeding/response 和 closure 窗口建立后，才能用 E3 强度分布反推 `Γ↓`；当前仅能把“强度碎片化”作为待检验假设，不能把 `295 keV` 写成实测扩散宽度。
 
 ## Open Questions
 
-1. 在放射性极端丰中子双幻核 $^{132}\text{Sn}$（$N=82, Z=50$）中，由于中子单粒子能隙坚硬且质子闭壳，是否能够重现如 $^{208}\text{Pb}$ 一样纯净的两声子八极简谐四重态？（需 RIBF/FRIB 高分辨非弹性散射实验验证）；
+1. 在放射性极端丰中子双幻核 $^{132}\text{Sn}$（$N=82, Z=50$）中，能否形成可辨认的 `3−⊗3−` doorway，还是像 `208Pb` 当前边界所提示的那样被 quadrupole coupling、开放粒子道和碎片化改写？（需粒子–γ–中子响应闭合）；
 2. 协变密度泛函对两声子八极多重态微观扩散宽度的虚核元对偶反散射计算精度能否达到 $10\text{ keV}$ 量级？
 
 ## Evidence Boundary Addendum
@@ -125,7 +114,7 @@ tags: [two-phonon-octupole, anharmonicity, spreading-width, multiplet-splitting,
 
 ## Human Review
 
-- 本研究全面自审：通过系统求解粒子—振动耦合模型、NFT 费米子交换非谐性与费米黄金定则扩散宽度，彻底解构了两声子八极多重态在全核区的跨质量区命运分化（$^{208}\text{Pb}$ 的极简谐守恒、$^{146}\text{Gd}$ 的非谐耗散溶解与 $^{224}\text{Ra}$ 的静态凝聚瓦解），为 Day 27 跨质量区迁移机制不适用性边界补充了极其关键的多声子多体阻尼维度。
+- 本研究是 provisional self-audit：它提出两声子 doorway 的非简谐、碎片化和开放粒子道假设，但不再把 `$^{208}\text{Pb}` quartet、`$^{146}\text{Gd}` `Γ↓` 或 `$^{224}\text{Ra}` static/dynamic 解释写成已完成的跨区定量结论。
 
 ## Promotion or Rejection History
 

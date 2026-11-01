@@ -3,7 +3,7 @@ type: source
 title: "Search for the origin of wobbling motion in the A≈130 region: The case of 131Xe"
 aliases: []
 created: 2026-07-01
-updated: 2026-10-30
+updated: 2026-11-01
 status: active
 review_status: human-reviewed
 lineage_id: "vecc-131xe-inga-38mev-130te-a3n"
@@ -16,8 +16,8 @@ source_roles: [dependent-reanalysis, reassignment-analysis, shared-acquisition-f
 raw_link_status: linked-and-manifest-hash-match
 source_raw_audit: linked-and-manifest-hash-match
 hash_verified_at: 2026-10-30
-review_scope: "C23-1..C23-7 human-reviewed; C23-D19-* and C23-D28-* remain self-audited and pending"
-promotion_blocker: "C23-D28-* claims remain needs_review despite page-level human review of C23-1..C23-7"
+review_scope: "C23-1..C23-7 human-reviewed; C23-D19-*, C23-D28-* and C23-D30-* remain self-audited and pending"
+promotion_blocker: "C23-D28-* and C23-D30-* claims remain needs_review despite page-level human review of C23-1..C23-7"
 source_type: journal-article-experiment-and-model
 reading_depth: deep-read
 title_original: "Search for the origin of wobbling motion in the A ≈ 130 region: The case of 131Xe"
@@ -36,6 +36,10 @@ zotero_uri: zotero://select/library/items/5WSF5D6P
 library_file: "E:/zetore reference/高自旋/三轴/进动/理论/2023_Chakraborty et al_Search for the origin of wobbling motion in the A ≈ 130 region.pdf"
 raw_file: "raw/papers/2023_Chakraborty et al_Search for the origin of wobbling motion in the A ≈ 130 region The case of Xe 131.pdf"
 raw_sha256: 730DB39EB9A5AECD3BBCE1DCE3CB9C32829EB2F4A2062EE31C59DDC4D52BD9FF
+alternate_raw_file: "raw/papers/2023_Chakraborty et al_Search for the origin of wobbling motion in the A ≈ 130 region.pdf"
+alternate_raw_sha256: 9a871d56cd2752eed9e09f1f8fc60686cae3c23fe63efc2255846f2e38ac72a1
+alternate_version: arxiv-v1
+alternate_raw_status: linked-and-manifest-hash-match
 nuclei: [131xe, 133ba, 135ce]
 reactions: [130te-alpha-3n-131xe]
 experiments: [vecc-131xe-alpha-38mev]
@@ -50,6 +54,11 @@ tags: [a130, wobbling, signature-partner, triaxiality, in-beam-spectroscopy]
 ## Bibliographic Record
 
 Physical Review C 107, 064318 (2023)，DOI `10.1103/PhysRevC.107.064318`。2026-10-30 对原文件哈希与版式复核：当前本地 PDF 为 8 页期刊排版，页脚 `064318-1` 至 `064318-8`，首页列 published 27 June 2023；此前“arXiv 版本”的描述撤回。arXiv `2311.09713` 是另一个可访问入口，不因标识相同而把本地期刊 PDF 认成预印本。
+
+本页现在同时记录两个版本文件的 source→raw 对账：期刊 PDF 是 canonical
+`primary-analysis`/`dependent-reanalysis` source，arXiv-v1 PDF 是同一论文的
+alternate-access version。两个文件不增加实验独立性，也不能按两个 source 或两个
+acquisition 计数；期刊版与 arXiv-v1 的版本关系只影响文本/排版 provenance。
 
 ## Scope and Reading Depth
 
@@ -80,6 +89,7 @@ Physical Review C 107, 064318 (2023)，DOI `10.1103/PhysRevC.107.064318`。2026-
 | C23-5 | yrare 17/2- 态实验 `B(M1)/B(E2)=1.27(14)` 与 TPRM 1.27 一致；yrast 17/2- 的实验值 2.54(4) 约为模型值两倍。 | experimental-fact | direct | PDF p.7 | false |
 | C23-6 | yrare 13/2- 上的带被认为是更合适的不利 signature partner；yrast 13/2- 序列的起源仍是开放问题。 | author-interpretation | direct | PDF p.7 | false |
 | C23-7 | 作者结论：本工作未发现 wobbling 实验信号；三轴形变本身可能不足以保证 wobbling。 | author-interpretation | direct | PDF p.8, Summary | false |
+| C23-D30-1 | 期刊版 raw 与 arXiv-v1 raw 均已逐文件核验并绑定到本页；期刊版是 canonical source，arXiv-v1 是同一论文的 alternate-access version，不增加实验独立性。 | source-provenance | direct | frontmatter `raw_file`/`alternate_raw_file`; raw-papers-manifest.tsv rows 98–99 | true |
 
 ## Nuclear Structure Information
 

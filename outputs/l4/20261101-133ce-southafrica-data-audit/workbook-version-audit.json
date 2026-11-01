@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-11-01T13:53:42.695927+08:00",
+  "visibility": "private",
+  "inputs": [
+    {
+      "path": "raw/data/SouthAfrica/133Ce/analysis/intensity.xlsx",
+      "size": 160181,
+      "sha256": "7e0c028be9a46502489ea950b610ffcb21fe719b78359386e422cb261fd6fe6e"
+    },
+    {
+      "path": "raw/data/SouthAfrica/133Ce/analysis/intensity_iThemba2019_export.xlsx",
+      "size": 160242,
+      "sha256": "3ad110823a29c164d8d402a0c49b82bc4718e19b9fac49f8e3107512671d3455"
+    }
+  ],
+  "formula_cells": {
+    "checked_cells": 8801,
+    "differences": []
+  },
+  "cached_cells": {
+    "checked_cells": 8801,
+    "differences": []
+  },
+  "container_members": {
+    "unique_first": [],
+    "unique_second": [],
+    "differing_members": [
+      "docProps/core.xml",
+      "xl/calcChain.xml",
+      "xl/externalLinks/externalLink1.xml",
+      "xl/styles.xml",
+      "xl/workbook.xml",
+      "xl/worksheets/sheet1.xml",
+      "xl/worksheets/sheet10.xml",
+      "xl/worksheets/sheet11.xml",
+      "xl/worksheets/sheet2.xml",
+      "xl/worksheets/sheet3.xml",
+      "xl/worksheets/sheet4.xml",
+      "xl/worksheets/sheet5.xml",
+      "xl/worksheets/sheet6.xml",
+      "xl/worksheets/sheet7.xml",
+      "xl/worksheets/sheet8.xml",
+      "xl/worksheets/sheet9.xml"
+    ],
+    "chart_members_compared": 14,
+    "differing_chart_members": []
+  },
+  "interpretation": "Content/version comparison of supplied analysis artifacts; no independent experimental replication or physical interpretation."
+}

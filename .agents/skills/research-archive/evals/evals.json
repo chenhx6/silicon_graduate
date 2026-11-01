@@ -1,0 +1,36 @@
+{
+  "skill_name": "research-archive",
+  "evals": [
+    {
+      "id": "source-with-local-pdf",
+      "prompt": "把一篇新下载的论文保存到 raw/papers，并让 source 页面可复现回链。",
+      "expected_output": "raw_file、raw_sha256 和归档门检查通过",
+      "assertions": [
+        "source page declares raw_file",
+        "single-file source declares raw_sha256",
+        "new source page declares archive_required true",
+        "wiki_archive_gate exits zero"
+      ]
+    },
+    {
+      "id": "web-figure-collection",
+      "prompt": "把网页上的两张势能面图片和来源脚本保存到 raw/figures/gpt/learning-daily。",
+      "expected_output": "collection manifest with per-file hashes and exact URLs",
+      "assertions": [
+        "manifest.json exists",
+        "manifest declares research-archive-v1, provenance and timestamp with timezone",
+        "every manifest path exists",
+        "every manifest hash matches"
+      ]
+    },
+    {
+      "id": "missing-artifact",
+      "prompt": "source 页面只留下 URL，归档文件没有下载成功。",
+      "expected_output": "archive gate fails and keeps an access boundary",
+      "assertions": [
+        "missing raw_file is reported",
+        "the source is not treated as fully archived"
+      ]
+    }
+  ]
+}

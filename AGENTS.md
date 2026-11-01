@@ -25,6 +25,7 @@ Git 工作树可能包含用户或上一轮留下的修改。写入前先运行 
 - `raw/`、`PLAN.md` 默认保持不变；需要修改时必须得到用户明确指令，并逐文件核验。`raw/zotero/wiki-inbox.bib` 是本地 Zotero 输入，不属于公共 Git 跟踪范围。
 - 递归删除、历史重写、force push、覆盖原始证据等不可逆操作必须单独确认。
 - 不使用桌面端 GUI 或 Computer Use 来代替终端操作。浏览器只用于检索和验证，下载应指定到仓库内路径。
+- 研究使用的论文、学位论文、外部笔记、报告、图片、网页快照、数据及参考代码须按 `system/workflows/research-archive.md` 留档；新来源登记 `raw_file`、哈希或集合清单和 `archive_required: true`。相关任务自动使用 `.agents/skills/research-archive/SKILL.md`；每日及发布 preflight 中的归档门失败时不能宣称材料已留档。私有数据的本地归档不构成公开发布授权。
 
 ### 30 天 Docker 学习计划授权
 
@@ -62,6 +63,7 @@ A≈130 是重要研究锚点，不是收录边界。是否建立核素、实验
 - 定时续跑：`system/workflows/scheduled-continuation.md`
 - 健康检查：`system/workflows/lint.md` 和 `check.md`
 - 路径契约与漂移检查：`system/path-contract.md`、`system/scripts/wiki_boundary_check.py`
+- 原始材料留档：`system/workflows/research-archive.md`、`system/scripts/wiki_archive_gate.py`
 
 L0–L4、P0/P1 和每周自测只在 `autonomous-research.md` 维护；其它文件只做路由和任务记录。研究型任务应记录问题、证据缺口、停止原因和下一步，不以论文数量代替信息增益。
 

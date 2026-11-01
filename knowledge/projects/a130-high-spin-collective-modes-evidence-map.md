@@ -108,7 +108,7 @@ The expanded corpus adds a method backbone and several counterexamples that shar
 
 ### Evidence Gaps
 
-`131Ba` supplies direct E1 interband connectivity (GU20-10), but no lifetime/absolute E1/E3 matrix or measured beta-three; static octupole deformation remains unsupported by this source. Keep D3-D6 as a linked four-band manifold because GU20-7 does not select two fixed positive-parity pairs.
+`131Ba` supplies direct E1 interband connectivity (GU20-10), while ENSDF adds a weak adopted `79.918-keV` E3 control (`B(E3)=0.00087(3) W.u.`). There is still no high-spin lifetime/absolute E1/E3 matrix or measured beta-three; static octupole deformation remains unsupported. Keep D3-D6 as a linked four-band manifold because GU20-7 does not select two fixed positive-parity pairs.
 
 
 - 当前来源只覆盖少量核素和问题，不构成系统书目；

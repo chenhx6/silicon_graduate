@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-10-31
+updated: 2026-11-01
 ---
 
 # Wiki Index
@@ -13,6 +13,19 @@ updated: 2026-10-31
 - [[full-library-claim-calibration-audit-20261031]] — 对近期 source 页中的实验事实、派生量、模型结果与作者解释做语言校准；保留原 locator 和 review 状态，不把自审升级为人工审阅。
 - [[post-30-day-nuclear-structure-paper-prospectus]] — 把30天后尝试投稿落成四个候选队列：135Pr共同响应审计、131Xe对象/分支边界、135Nd/134Pr绝对电磁量和跨质量区八极证据梯。
 - [[135pr-common-response-evidence-contract-20261031]] — 将 `135Pr` P1 收束为三条核心连接线、逐实验 nuisance、branch profile、leave-EM-out holdout 和 L3/L4 停止条件。
+- [[135pr-hypothesis-discrimination-priority-20261101]] — 把 `135Pr` 的 transverse wobbling、tilted precession、signature/configuration mixing 与高自旋 chiral 解释转成可区分预测、belief revision 和单次高信息测量设计；仍停在 L3/readiness。
+- [[li-2025-imp-dragon-hpge-array]] — IMP-DRAGON 16 coaxial + 8 clover HPGe、BGO anti-Compton、clover polarization、LaBr3 hybrid timing 与辅助粒子探测的装置原件。
+- [[sun-2003-ribll-radioactive-ion-beam-line]] — RIBLL1 的 Br–ΔE–Br 分离、F2/F4 操作模式、TOF/ΔE–E束流鉴别、偏振束可能性和束斑/质量分辨调束原件。
+- [[ensdf-131ba-adopted-e3]] — ENSDF `131Ba` 的 `79.918-keV` E3 adopted row、`B(E3)=0.00087(3) W.u.` 与低强度 response/negative-control 边界。
+- [[rosiak-2018-132sn-enhanced-octupole]] — HIE-ISOLDE/MINIBALL `132Sn` 安全库仑激发 primary：`3−_1` 直接 E3、`B(E3)=0.11(4) e²b³`、`B(E2)=0.087(19) e²b²`；单声子已闭合，两声子 quartet 仍开放。
+- [[henderson-2025-208pb-deformation-collectivity]] — `208Pb` 四种库仑激发给出 `3−_1` 与 `2+_1` 的大负 `Qs`；正文明确 `3−⊗3−` quartet 尚未获得 conclusive identification，可能分裂尺度为作者的 `800–1500 keV` coupling estimate。
+- [[132sn-two-phonon-continuum-readiness-20261101]] — 由 `2E(3−)` 与 AME2020 `S_n` 对账得到的 `132Sn` 两声子八极 continuum/中子符合可行性边界。
+- [[cross-mass-phenomena-detector-beam-prospectus-20261101]] — 跨质量区现象缺口、IMP-DRAGON/RIBLL 实验路线、DRAGON-X 混合阵列和束流申请框架；仍是未审核 L3 prospectus。
+- [[133i-low-energy-gamma-strength-function-candidate-20261101]] — `133I` 准连续 γSF 低能上弯与 `M1/E1` 字符的 A≈130 稳定束流候选；公开实验记录尚未闭合结果，保持 L3/readiness。
+- [[ronning-2026-70zn-magnetic-lee]] — `70Zn` 2026 primary：用双 β 母态自旋/宇称选择、SuN++总吸收、Geant4响应展开和 partial-NLD/parity 修正建立磁性 LEE 判据；作为 `133I` 的跨质量区方法参照，不迁移其机制或数值。
+- [[indico-2026-133i-gamma-strength-record]] — OCL 公开 `130Te(α,pγ)133I` γSF/NLD 实验记录；metadata-only access anchor，不等同于完整 primary analysis。
+- [[larsen-2026-133i-oslo-preliminary]] — 2026 OCL presentation 的 `132,133I` preliminary analysis；确认 `133I` 实验条件与少量数据 sorting 状态，不提供最终 γSF/LEE/M1 结果。
+- [[uio-2026-133i-thesis-announcement]] — UiO/NVA 二手公告报告 `133I` upbend/PDR，但 handle API 未暴露 thesis PDF；保留 secondary-report 与 access boundary。
 - [[135nd-134pr-transition-identity-ledger-20261031]] — 冻结 `135Nd` 状态级 `τ/B` 与 ZH03/LV19 逐线身份、`134Pr` Tonev07 逐线 EM ledger 及谱系/版本陷阱。
 - [[135nd-2025-tipped-precession-same-lineage-extension]] — `135Nd` 2025 新 `17/2−` 态、band T 与 `B(E2,752)/B(E2,908)=2.0(5)`；标记为 2021 JUROGAM II 同谱系扩展。
 - [[pado-shared-alignment-null-profile]] — 基于Zobel 1983十行真实表格的共享`σ/J`、共同`rho`与`tau` profile；`tau=1`无共同区间，作为P-ADO跨反应alignment迁移的条件性falsifier。
@@ -22,6 +35,12 @@ updated: 2026-10-31
 - [[131xe-low-spin-partner-crosswalk]] — 2020 B1(a)/B5与2023 yrast/yrare逐态对照、794.8-keV宇称版本差异、小δ/负δ分支与同母态比值误差合同；来源为 [[chakraborty-2023-131xe-wobbling-origin]] C23-D28-1至6 和 [[banik-2020-131xe-multiple-band-structures]] BNK20-D28-1/2。旧Day19排他性“零对照/γ软必无wobbling”断言在两source内明确撤回，新增内容保持self-audit/needs_review。
 - [[131xe-same-parent-strength-identifiability]] — 同母态M1/E2两个B商、共享协方差和模型δ的能量约定；来源为 [[rose-brink-1967-phase-defined-angular-distributions]] RB67-D28-001及Chakraborty C23-D28-6/7，条件推导保持provisional。
 - [[131xe-1601-parity-version-boundary]] — 795-keV E1多处标签、766-keV无偏振的宇称判别限制及外部档案待摄入路线；来源为 [[banik-2020-131xe-multiple-band-structures]] BNK20-D28-3和Chakraborty C23-D28-8，不把再观测γ线当作独立重定宇称。
+- [[irving-1979-131xe-spectroscopy-scope]] — `1979IR01` DOI/摘要确认 `129,131Xe` 的反应与 γ角分布/线偏振实验范围，但未提供 `794.6-keV` 逐线 AD/ICC 原表；保留 primary 全文访问边界。
+- [[lonnroth-1983-xe-quasiparticle-states]] — `1983Lo08` DOI/摘要确认 Xe 转换电子谱学及 `131Xe` 自旋宇称研究范围，但未提供 `794.6-keV` 逐线转换系数或联合响应；保留 primary 全文访问边界。
+- [[133ce-southafrica-l4-data-contract-20261101]] — 用户提供的 South Africa `133Ce` 数据合同：`133Ce_iThemba2019` acquisition/calibration/matrix 层与 `133Ce` derived/systematics 层；已完成 workbook/ROOT 可读性审计，当前为 partial-L4-readiness。
+- [[userdata-133ce-southafrica-dataset]] — 用户提供的 South Africa `133Ce` 数据 source identity、目录分层和 workbook/ROOT 可读性边界；raw hash 与 L4 数据合同已分开记录。
+- [[133ce-triaxial-core-collective-mode-route-20261101]] — 以 NuclearMap 的 `132Ce/134Ce` 邻近偶偶核 PES 为核心先验，连接私有 `133Ce` ADO/DCO/PDCO、wobbling 工作簿和三轴/签名伙伴/倾斜进动竞争假设；`133Ce` 直接 PES 尚未获得。
+- [[nuclearmap-jcnp-pc-pk1]] — NuclearMap 的 PC-PK1 三轴 RHB/5DCH 框架、`132Ce`/`134Ce` 局部字段与已归档 PES 图；不把邻核模型结果冒充 `133Ce` 直接计算。
 - [[131xe-882-branch-response-contract]] — 881.8/880.1双线、取向、偏振、联合协方差与nuisance剖面下的双δ分支分离条件；来源为 Chakraborty C23-D28-3/C23-D28-9、Rose–Brink RB67-D23-001及Krane–Steffen KS70-2/6，保持L4 readiness边界。
 - [[131xe-day29-research-defense-preview]] — Day29无学分预习：794-keV电子/γ宇称判别、882偏振/角分布、共享响应、negative controls与belief revision设计；不推进课程状态。
 - [[131xe-day29-research-design-defense]] — Day29正式研究设计：794-keV宇称版本与882-keV双根的最小observable、对象lineage、共享响应/协方差、belief revision和L3/readiness边界。
@@ -1045,6 +1064,7 @@ updated: 2026-10-31
 - [[low-spin-wobbling-controversies]] - `135Pr/187Au` 低自旋 wobbling identification 跨案例证据地图；接入 γ-soft 背景、Lawrie 2020/TiP、`135Nd` reference 与 Nomura 2022 IBFM alternative。
 - [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]] - 支持 NST/P-ADO 写作的 `σ/I` 预设困难、alignment uncertainty 与 feeding dependence evidence map。
 - [[100sn-gamow-teller-independent-evidence]] - 比较 GSI/RIKEN 两条独立 `100Sn` 衰变谱学链的 B(GT)、Q/endpoint 与 `100In` 能级证据边界。
+- [[100sn-decay-response-closure-experiment-20261101]] — 将 `100Sn` 的 `B(GT)` 差异转成 endpoint、branching、β/γ response、total-absorption 和 `6+` isomer timing 的联合实验设计；仍为 provisional L3/readiness。
 - [[source-provenance-coverage-map]] - 全库 source 页图谱归属与 provenance registry；明确哪些 source 尚未由领域页承接，不替代科学审核。
 
  - [[gamma-ray-linear-polarization-in-nuclear-spectroscopy]] - P/A/Q formalism、Compton detector technologies、GRETINA relativistic corrections 与 P-ADO bridge 的 evidence map。

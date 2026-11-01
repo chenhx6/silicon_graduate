@@ -49,3 +49,8 @@ updated: 2026-09-23
 ## 自动化执行约束
 
 `system/scripts/wiki_boundary_check.py` 是本契约的只读机器检查，`wiki_automation_preflight.py` 默认调用它。边界失败时，文献摄入和每日学习在写入前 safe-suspend；检查只读取路径和必要元数据，不读取、修改或哈希扫描 `raw/` 内容。通过边界检查后仍须运行 Wiki lint、证据自审和相应 Git 发布门。
+
+原始材料留档的文件内容校验由独立的 `wiki_archive_gate.py` 承担；automation
+preflight 在路径检查通过后调用其有界检查。具体 raw 类型目录、哈希/清单要求、
+图片 `raw/figures/gpt/learning-daily/` 入口和历史缺档边界见
+`system/workflows/research-archive.md`。此留档规则不授权公开私有原件或覆盖已有材料。

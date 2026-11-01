@@ -114,6 +114,32 @@ def changed_paths(root: Path) -> list[Path]:
     return paths
 
 
+def archive_gate(root: Path, candidates: list[Path]) -> dict[str, object]:
+    relevant = [
+        item.as_posix()
+        for item in candidates
+        if item.parts[:2] == ("knowledge", "sources")
+        or item.name == "manifest.json"
+    ]
+    script = root / "system/scripts/wiki_archive_gate.py"
+    try:
+        result = subprocess.run(
+            [sys.executable, str(script), "check", "--root", str(root), "--changed", *relevant],
+            text=True,
+            capture_output=True,
+            check=False,
+            timeout=GIT_TIMEOUT_SECONDS,
+        )
+    except subprocess.TimeoutExpired:
+        return {"ok": False, "skipped": False, "error": "archive gate timed out"}
+    try:
+        payload = json.loads(result.stdout)
+    except json.JSONDecodeError:
+        payload = {"ok": False, "error": result.stderr.strip() or result.stdout.strip()}
+    payload["exit_code"] = result.returncode
+    return payload
+
+
 def after_edit(root: Path, paths: list[str] | None = None) -> dict[str, object]:
     try:
         diff = subprocess.run(
@@ -126,14 +152,21 @@ def after_edit(root: Path, paths: list[str] | None = None) -> dict[str, object]:
     except subprocess.TimeoutExpired:
         diff = subprocess.CompletedProcess([], 124, "", "timed out")
     candidates = [relative_candidate(root, item) for item in paths] if paths else changed_paths(root)
+    archive_result = archive_gate(root, candidates)
     shell_checks: list[dict[str, object]] = []
     for relative in candidates:
         if relative.suffix not in {".sh", ".bash"} and relative.name not in {"pre-commit", "pre-push"}:
             continue
         result = subprocess.run(["bash", "-n", str(root / relative)], text=True, capture_output=True, check=False, timeout=5)
         shell_checks.append({"path": relative.as_posix(), "ok": result.returncode == 0, "stderr": result.stderr.strip()})
-    ok = diff.returncode == 0 and all(item["ok"] for item in shell_checks)
-    return {"ok": ok, "diff_check": diff.returncode == 0, "diff_stderr": diff.stderr.strip(), "shell_checks": shell_checks}
+    ok = diff.returncode == 0 and all(item["ok"] for item in shell_checks) and bool(archive_result.get("ok"))
+    return {
+        "ok": ok,
+        "diff_check": diff.returncode == 0,
+        "diff_stderr": diff.stderr.strip(),
+        "shell_checks": shell_checks,
+        "archive_gate": archive_result,
+    }
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -149,8 +182,11 @@ def main(argv: list[str] | None = None) -> int:
     if args.event in {"session-start", "session-summary"}:
         payload = status_payload(root)
         payload["event"] = args.event
+        if args.event == "session-summary":
+            payload["checks"] = after_edit(root, args.message or None)
+            payload["ok"] = payload["checks"]["ok"] and payload["status_ok"]
         print(json.dumps(payload, ensure_ascii=False, sort_keys=True))
-        return 0
+        return 0 if payload.get("ok", payload["status_ok"]) else 1
     if args.event == "notify":
         print(json.dumps({"event": "notify", "message": " ".join(args.message) or os.environ.get("CODEX_HOOK_MESSAGE", "")}, ensure_ascii=False))
         return 0

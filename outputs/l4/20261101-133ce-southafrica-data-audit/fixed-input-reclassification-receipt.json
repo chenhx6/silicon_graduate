@@ -1,0 +1,10 @@
+{
+  "verified_at": "2026-11-01T13:54:42.895005+08:00",
+  "file_count": 2751,
+  "byte_count": 4519638519,
+  "deletions": 0,
+  "overwrites": 0,
+  "passed": true,
+  "failures": [],
+  "rollback": "Verify hashes, then reverse the two directory_moves; no content was rewritten."
+}

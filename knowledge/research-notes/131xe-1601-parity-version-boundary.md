@@ -7,7 +7,7 @@ updated: 2026-10-30
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [banik-2020-131xe-multiple-band-structures, chakraborty-2023-131xe-wobbling-origin]
+evidence_sources: [banik-2020-131xe-multiple-band-structures, chakraborty-2023-131xe-wobbling-origin, irving-1979-131xe-spectroscopy-scope, lonnroth-1983-xe-quasiparticle-states]
 created_from: "Day28 parity-provenance worker and parent primary-figure check"
 promotion_target: "131xe-low-spin-partner-crosswalk"
 tags: [131xe, parity, source-lineage, polarization, spectroscopy]
@@ -115,6 +115,26 @@ full text or source record. The returned near matches were unrelated papers. Thi
 repository no-op, not evidence that the primary article is unavailable through
 institutional subscription or interlibrary loan; the 794-keV AD/ICC boundary remains
 unchanged.
+
+## 2026-11-01 DOI and abstract scope recheck
+
+The DOI landing record for `1979IR01` was reachable and its abstract was read.
+It confirms the historical `126,128Te(α,nγ)` at 16 MeV scope and lists gamma
+energies/intensities, angular distributions and linear polarizations among the
+reported observables, with Xe level, spin/parity, mixing-ratio, `B(E2)`,
+`B(M1)` and branching information. The abstract does not expose the
+`794.6-keV` line-level AD/ICC table or a response/covariance package.
+The source page is [[irving-1979-131xe-spectroscopy-scope]], locators
+`IR79-1`–`IR79-3`. This strengthens source identity and method scope only; the
+primary full-text and line-level readiness boundary is unchanged.
+
+The 1983 DOI abstract was also recovered as a separate metadata-only source.
+It explicitly places conversion-electron spectroscopy, level energies and
+definite spin/parity assignments in the Xe evidence chain, including `131Xe`.
+It still does not expose the `794.6-keV` conversion record or its uncertainty.
+The source page is [[lonnroth-1983-xe-quasiparticle-states]], locators
+`LO83-1`–`LO83-3`; this narrows the historical method scope without adding a
+second independent acquisition or closing the line-level response contract.
 
 ## Human Review
 

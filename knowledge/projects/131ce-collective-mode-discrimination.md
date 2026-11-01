@@ -331,3 +331,14 @@ The formal Day7 report initially over-read the Table 4.4 “Band 4” grouping a
 ## Day23深入补充的迁移边界
 
 [[133ce-thesis-analysis-blueprint]]新增两核逐带/selected S/操作清单。[[alwaleedi-2013-band-structures-131ce]] AW13-D23-064-1–3保Band3低61.8、Fig5.2caption/正文冲突及目标τ网络缺口；[[wakudyanaye-2022-triaxiality-rotational-bands-133ce]] WK22-33/34保configuration-only与same-spin近邻身份。用户独立数据未读，新claimsneeds_review:true，旧Band5两高spin分量e⊗AEFG审核保持，不以133Ce同号带替换。
+
+## 2026-11-01 博士研究进展整合：原子能院在束实验与两核三轴演化路线
+
+根据作者博士中期考核报告（2026-10-30）及最新研究进展：
+1. **中国原子能科学研究院（CIAE）在束实验进展**：
+   - 依托北京串列加速器核物理国家实验室 HI-13 开展的 $^{131}\text{Ce}$ 在束 $\gamma$ 射线谱学实验，已完成实验数据初步整理与能量刻度。
+   - 目前正系统梳理 $\gamma$-$\gamma$ 符合关系与能级归属，重点突破弱跃迁的鉴别，完善高自旋能级纲图。
+   - 结合角分布比 $R_{ADO}$、线偏振等观测量，配合作者提出的概率密度映射法（PDM），消除预设自旋排列参数 $\sigma/I$ 的偏差，提取关键跨带跃迁的电多极混合比 $\delta$。
+2. **NuclearMap 偶偶核芯三轴演化对账（$^{131}\text{Ce}$ vs $^{133}\text{Ce}$）**：
+   - NuclearMap PC-PK1 RHB 势能面计算表明：$^{130}\text{Ce}$（$N=72$）为轴对称长椭（$\beta=0.25, \gamma=0^\circ$），而 $^{132}\text{Ce}$（$N=74$）突变出稳定的三轴平衡极小（$\beta=0.22, \gamma=17^\circ$）。
+   - $^{131}\text{Ce}$（$N=73$）恰好卡在由轴对称向三轴平衡态过渡的突变点，而 $^{133}\text{Ce}$（$N=75$）位于三轴向软化轴对称过渡点。两者构成关于 $N=74$ 三轴中心对称分布的一对“双生核”，为系统检验奇中子费米面移动（从 $h_{11/2}$ 低 $\Omega$ 向中 $\Omega$ 演化）对三轴核芯稳定性的极化效应提供了无可替代的实验平台。

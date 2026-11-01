@@ -78,6 +78,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] Farmer 使用 rollout 的实际 thread `id`；旧格式缺 `id` 才回退 `session_id`，未把子代理的父 `session_id` 当作自身。父/子/兄弟事件分开；v2 子故障向父线程通知后由原生协作续接，同事件最多一个 pending；`notLoaded` 不等于失败，排队成功另核真实执行。
 - [ ] 历史子故障的父线程未处于当前 `task_started` 时不唤醒父任务，标为 `parent-inactive`；completed/cancelled父任务不因监控身份修正被批量重开。
 - [ ] Hook 只通过 `system/scripts/wiki_hook.py` 显式调用；输入按数据处理，未自动修改 Codex 配置、source/eval 目标文件或执行外部安装器。
+- [ ] 论文、学位论文、网页快照、图片、私有数据和其它 source-dependent 材料均已在 `raw/` 留档；source 页的 `raw_file`/`raw_sha256` 和集合 `manifest.json` 通过 `python3 system/scripts/wiki_archive_gate.py check --root . --changed`，新来源登记 `archive_required: true`；全库 `--full` 缺口单列，未冒称已全部归档。
 - [ ] 创建分支、提交、fetch 或 push 前运行 `python3 system/scripts/wiki_automation_preflight.py --root .`；不依赖 PowerShell、ACL、运行时 marker 或项目 sandbox profile。
 - [ ] 定时任务正文未通过 shell、补丁或文件 API 读写 Codex 宿主 automation memory、global state、sandbox state 或任何 Wiki 外文件；宿主状态仅由 Codex automation 功能维护。
 - [ ] 定时任务的“一次/重复”、时区和下次运行时间在界面中无歧义；一次性请求未显示为“每天”。

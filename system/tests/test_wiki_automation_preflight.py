@@ -17,7 +17,7 @@ SCRIPT = ROOT / "system" / "scripts" / "wiki_automation_preflight.py"
 class WikiAutomationPreflightTests(unittest.TestCase):
     def setUp(self) -> None:
         self.tmp = Path(tempfile.mkdtemp(prefix="wiki-preflight-", dir=ROOT / "tmp"))
-        (self.tmp / ".git").mkdir()
+        subprocess.run(["git", "init", "-q", str(self.tmp)], check=True, capture_output=True)
         (self.tmp / ".codex").mkdir()
         for directory in ("raw", "knowledge", "outputs", "system", "tools", "tmp"):
             (self.tmp / directory).mkdir()
@@ -64,6 +64,15 @@ class WikiAutomationPreflightTests(unittest.TestCase):
         p, payload = self.invoke()
         self.assertEqual(p.returncode, 0, p.stderr)
         self.assertEqual(payload["protected_bib"]["status"], "absent")
+
+    def test_unarchived_new_source_fails_before_write_probes(self) -> None:
+        source = self.tmp / "knowledge/sources/new.md"
+        source.parent.mkdir()
+        source.write_text("---\ntype: source\n---\n", encoding="utf-8")
+        result, payload = self.invoke()
+        self.assertEqual(result.returncode, 1)
+        self.assertFalse(payload["archive_gate"]["ok"])
+        self.assertEqual(payload["write_probes"], [])
 
 
 if __name__ == "__main__":
