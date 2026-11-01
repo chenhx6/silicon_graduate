@@ -14,6 +14,7 @@ Tests:
   9. ensdf_crosswalk_parser: checks ENSDF fixed-width parsing and in-beam crosswalk matching.
   10. excitation_function_calculator: checks target energy loss, yield-to-cross-section inversion, and resonance fit.
   11. magnetic_rotation_shears_calculator: checks shears angle, B(M1) quenching, and band termination.
+  12. shape_coexistence_e0_calculator: checks electronic Omega_K factor, rho^2(E0) extraction, and two-state mixing.
 """
 
 import sys
@@ -30,6 +31,7 @@ from routhian_alignment_analyzer import calculate_alignment_and_routhians, fit_h
 from ensdf_crosswalk_parser import parse_ensdf_records, crosswalk_match
 from excitation_function_calculator import calculate_target_energy_loss, extract_cross_section_from_yield, fit_excitation_function
 from magnetic_rotation_shears_calculator import calculate_shears_angle, calculate_magnetic_rotation_bm1, shears_band_profile
+from shape_coexistence_e0_calculator import calculate_omega_k_e0, extract_rho2_e0_from_lifetime, invert_two_state_mixing
 
 
 def test_heavy_ion_kinematics():
@@ -205,6 +207,17 @@ def test_magnetic_rotation_shears_calculator():
     print("  ✓ magnetic_rotation_shears_calculator passed.")
 
 
+def test_shape_coexistence_e0_calculator():
+    print("Testing shape_coexistence_e0_calculator...")
+    omega_k = calculate_omega_k_e0(Z=56, A=130, delta_E_keV=850.0)
+    assert omega_k > 1e6, f"Omega_K out of reasonable bounds: {omega_k}"
+    res = extract_rho2_e0_from_lifetime(tau_ps=100.0, Z=56, A=130, delta_E_keV=850.0)
+    assert res["rho2"] > 0.0, "Monopole strength must be positive"
+    mix = invert_two_state_mixing(0.0, 850.0, res["rho2"], Z=56, beta1=0.15)
+    assert mix["beta2"] > mix["beta1"], "Deformation jump must be positive"
+    print("  ✓ shape_coexistence_e0_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -218,4 +231,5 @@ if __name__ == "__main__":
     test_ensdf_crosswalk_parser()
     test_excitation_function_calculator()
     test_magnetic_rotation_shears_calculator()
-    print("ALL 11 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_shape_coexistence_e0_calculator()
+    print("ALL 12 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

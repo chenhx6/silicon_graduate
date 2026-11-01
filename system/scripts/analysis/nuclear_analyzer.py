@@ -29,6 +29,7 @@ from routhian_alignment_analyzer import calculate_alignment_and_routhians, fit_h
 from ensdf_crosswalk_parser import parse_ensdf_records, crosswalk_match
 from excitation_function_calculator import calculate_target_energy_loss, extract_cross_section_from_yield, fit_excitation_function
 from magnetic_rotation_shears_calculator import calculate_shears_angle, calculate_magnetic_rotation_bm1, shears_band_profile
+from shape_coexistence_e0_calculator import calculate_omega_k_e0, extract_rho2_e0_from_lifetime, invert_two_state_mixing
 
 
 def cmd_kinematics(args):
@@ -200,6 +201,25 @@ def cmd_shears(args):
     print("=======================================================")
 
 
+def cmd_e0(args):
+    e0_res = extract_rho2_e0_from_lifetime(args.tau, args.Z, args.A, args.dE, branching_ratio=args.br)
+    print("\n=======================================================")
+    print(" Nuclear Electric Monopole (E0) & Shape Coexistence")
+    print("=======================================================")
+    print(f"  Nucleus (Z, A)          : Z={args.Z}, A={args.A}")
+    print(f"  Transition Energy (dE)  : {args.dE:.1f} keV (lifetime tau = {args.tau:.1f} ps, br = {args.br:.2f})")
+    print(f"  Electronic Omega_K(E0)  : {e0_res['Omega_K_s^-1']:.2e} s^-1")
+    print(f"  Reduced Monopole rho^2  : {e0_res['rho2']:.4e} (rho^2 * 10^3 = {e0_res['rho2_x1000']:.2f})")
+
+    mix = invert_two_state_mixing(0.0, args.dE, e0_res['rho2'], args.Z, beta1=args.beta1)
+    print("-------------------------------------------------------")
+    print("  Two-State Mixing Model Inversion:")
+    print(f"    Coupling Matrix V_mix : {mix['V_mix_keV']:.1f} keV (Unperturbed gap = {mix['unperturbed_gap_keV']:.1f} keV)")
+    print(f"    Coexisting Shapes     : State 1 (beta = {mix['beta1']:.2f}) <-> State 2 (beta = {mix['beta2']:.2f})")
+    print(f"    Deformation Jump      : Delta(beta) = {mix['delta_beta']:+.2f}")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -299,6 +319,16 @@ def main():
     p_shears.add_argument("--gpi", type=float, default=1.25, help="Proton g-factor")
     p_shears.add_argument("--gnu", type=float, default=-0.25, help="Neutron g-factor")
     p_shears.set_defaults(func=cmd_shears)
+
+    # Electric Monopole E0 & Shape Coexistence
+    p_e0 = subparsers.add_parser("e0", help="Electric monopole E0 strength rho^2 and shape coexistence mixing")
+    p_e0.add_argument("--Z", type=int, required=True, help="Atomic number Z")
+    p_e0.add_argument("--A", type=int, required=True, help="Mass number A")
+    p_e0.add_argument("--dE", type=float, required=True, help="Transition energy in keV")
+    p_e0.add_argument("--tau", type=float, required=True, help="State lifetime in ps")
+    p_e0.add_argument("--br", type=float, default=1.0, help="E0 branching ratio")
+    p_e0.add_argument("--beta1", type=float, default=0.15, help="Assumed deformation of State 1")
+    p_e0.set_defaults(func=cmd_e0)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
