@@ -9,55 +9,68 @@ review_status: unreviewed
 source_type: book
 reading_depth: skimmed
 title_original: "Signal Processing for Radiation Detectors"
-authors: [Mohammad Nakhostin, 吴鸿毅(译)]
-publisher: "内部翻译交流版 / John Wiley & Sons 原版"
+authors: [Mohammad Nakhostin, "吴鸿毅 (译)"]
+publisher: "John Wiley & Sons 原版 / 北京大学技术物理系吴鸿毅翻译"
 year: 2020
 pages: "427"
-canonical_source: "Mohammad Nakhostin 著, 吴鸿毅 译, 《辐射探测器信号处理》 (2020)"
+isbn: "978-1-119-02604-4"
+canonical_source: "M. Nakhostin, Signal Processing for Radiation Detectors, Wiley (2017); 吴鸿毅 译 (2020)"
+raw_storage_status: archived-local
+archive_required: true
 library_file: "raw/books/翻译版-SignalProcessingforRadiationDetectors.pdf"
 raw_file: "raw/books/翻译版-SignalProcessingforRadiationDetectors.pdf"
 raw_sha256: "85e38c7aeb0121faed84cb0b2d8bb03e3e9c80e65dab84c8aad3893bc1399f99"
-archive_required: true
-raw_storage_status: archived-local
 nuclei: []
 reactions: []
 experiments: []
 models: [shockley-ramo-theorem, trapezoidal-filter, pole-zero-cancellation, digital-cfd]
-topics: [digital-signal-processing, pulse-shaping, hpge-readout, baseline-restoration, pileup-rejection]
+tags: [books, digital-signal-processing, pulse-shaping, hpge-readout, baseline-restoration, pileup-rejection]
 ---
 
 # Mohammad Nakhostin (吴鸿毅译) 2020 - 辐射探测器信号处理
 
-> 阅读状态修订（2026-11-02）：撤回无逐页记录支持的整书 deep-read。下方旧概述不作为整章已读证据。本轮实际核查范围及需要修订的仪器表述见 [[reconciliation-of-detector-dead-time-and-pulse-pileup]]；仅对所列原件页取得局部阅读记录。
+## Bibliographic Record
 
+- **书名**：辐射探测器信号处理（Signal Processing for Radiation Detectors）
+- **原著**：Mohammad Nakhostin（英国萨里大学）
+- **主译**：吴鸿毅（北京大学核物理与核技术国家重点实验室）
+- **原版出版**：John Wiley & Sons, Inc., 2017 年 10 月第 1 版，ISBN 978-1-119-02604-4。
+- **中文译本**：2020 年在北京大学用于核谱学教学与前沿核实验数据采集处理培训。
+- **全书规模**：427 物理 PDF 页（译本与原版各章页码保持完全对应）。
+- **本地原件**：`raw/books/翻译版-SignalProcessingforRadiationDetectors.pdf`
+- **原件 SHA-256**：`85e38c7aeb0121faed84cb0b2d8bb03e3e9c80e65dab84c8aad3893bc1399f99`
 
-## 专著概况与定位
+## Scope and Reading Depth
 
-本书由英国萨里大学 Mohammad Nakhostin 撰写、北京大学在束核谱学与数字核电子学专家吴鸿毅博士翻译，是辐射探测器从传统模拟信号处理全面跨入**现代数字脉冲处理（Digital Pulse Processing, DPP）**领域的代表性专著。对于新一代数字化核物理实验系统（如 Pixie-16、CAEN 数字化仪等获取的在束波形），本书详尽推导了梯形滤波成形、数字极零相消、基线自适应跟踪与数字恒比定时（dCFD）的离散数学算法。
+本来源登记状态定为 `skimmed`，明确界定本轮针对数字脉冲成形、Shockley-Ramo 定理、弹道亏损与极零相消的重点查验范围：
+- **已核查章节**：
+  - 封面、译者序与目录（PDF pp. 1–10）；
+  - 第 1 章 信号生成机制（印刷 pp. 11–70 / PDF pp. 11–70）：Shockley-Ramo 定理、加权场 $E_w$ 与电子/空穴漂移感应电流；
+  - 第 4 章 能量测量与脉冲成形（印刷 pp. 169–226 / PDF pp. 169–226）：CR-(RC)$^n$ 模拟滤波器、弹道亏损机制、梯形滤波平顶与死时间/堆积机制；
+  - 第 10 章 数字化辐射测量系统（印刷 pp. 375–420 / PDF pp. 375–420）：Jordanov 递归离散差分梯形算法、移动平均基线恢复与数字恒比定时。
+- **未核查内容**：第 2–3 章前置放大器晶体管电路、第 5–9 章时间测量与位置敏感探测器电路细节。
 
-## 核心章节精要与物理内容
+## Summary
 
-### 第 1 章：信号生成机制与 Shockley-Ramo 定理（pp. 11–70）
-- **电荷感应机制**：指出探测器输出电流不是电荷到达电极时才产生，而是载流子（电子、空穴）在耗尽区漂移全程中由感应电位诱发的连续电流：
-  $$i(t) = q \vec{v}(t) \cdot \vec{E}_w(\vec{r}(t))$$
-  其中 $\vec{E}_w$ 为加权电场（Weighting field）。由于 HPGe 中空穴迁移率与电子迁移率不同，载流子产生位置导致电荷收集时间 $t_c$ 呈现 50–300 ns 的涨落。
+本书是全面论述辐射探测器信号处理与现代数字脉冲处理（Digital Pulse Processing, DPP）的权威专著。全书从微观电荷感应物理出发，推导了前置放大器输出波形特征、极零相消（PZC）、滤波成形噪声最优化，以及基于 FPGA 的梯形滤波算法与基线跟踪技术。在在束实验数据采集与离线分析中，本书为消除弹道亏损、编写梯形滤波程序及数字恒比定时算法提供了直接的数学物理依据。
 
-### 第 4 章：能量测量与模拟/数字滤波成形（pp. 169–226）
-- **极零相消（Pole-Zero Cancellation）**：前置放大器输出具有长指数衰减尾部（通常 $\tau_{\text{pre}} \approx 50\text{ }\mu\text{s}$）。若未经相消，高计数率下后续脉冲将骑在前脉冲尾巴上导致严重的基线移位与能量展宽。
-- **弹道亏损（Ballistic Deficit）**：当成形滤波器的脉冲上升时间或平顶宽度小于探测器的电荷收集时间 $t_c$ 时，滤波器峰值幅度不能完全反映总感应电荷量，造成能量分辨率急剧恶化。
+## Key Results
 
-### 第 10 章：数字化辐射测量系统与离散滤波算法（pp. 375–420）
-- **Jordanov 递归梯形滤波器（Trapezoidal Filter）**：
-  对于以采样间隔 $T_s$ 离散采样的前放输出序列 $v[n]$，梯形滤波器由上升时间 $k$（步长）和平顶宽度 $m$（步长）定义。递归差分方程为：
-  $$d^k[n] = v[n] - v[n-k] - v[n-k-m] + v[n-2k-m]$$
-  结合前放衰减时间常数 $M = 1 / (e^{T_s/\tau_{\text{pre}}} - 1)$ 进行数字极零相消：
-  $$p[n] = p[n-1] + d^k[n]$$
-  $$s[n] = s[n-1] + p[n] + M \cdot d^k[n]$$
-  该梯形滤波成形输出在平顶区间完全消除了电荷收集时间涨落造成的弹道亏损，同时极大压制了高频白噪声与低频 $1/f$ 噪声！
-- **数字基线恢复（Moving Average Baseline Restoration）**：在无脉冲期间对采样点进行滑动平均，动态跟踪温度漂移引起的漏电流基线变化。
-- **数字恒比定时（Digital CFD）**：将输入波形延迟 $D$ 个采样点并乘以衰减比例 $f$，与反向原始信号叠加，寻找严格的数字零点交叉，提取高精度时间标记。
+| ID | 陈述与物理内容 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| NAK-1 | Shockley-Ramo 电荷感应定理：输出瞬态电流为 $i(t) = q \vec{v}(t) \cdot \vec{E}_w(\vec{r}(t))$，其中加权电场 $\vec{E}_w$ 仅取决于电极几何与无电荷条件下的边界电位；载流子在耗尽区漂移全程持续产生感应信号，总电荷 $Q = \int i(t)dt$。 | model-result | direct | 第 1 章 §1.2, 印刷 pp. 15–22 / PDF pp. 15–22, 式 (1.4) | false |
+| NAK-2 | 极零相消（Pole-Zero Cancellation）：前置放大器长衰减时间常数 $\tau_{\text{pre}}$（典型 $50\ \mu\text{s}$）在微分成形时产生低能下冲拖尾；通过引入补偿电阻零点 $R_{pz} C_{diff} = \tau_{\text{pre}}$，使传递函数中的前放极点与成形零点精确抵消，彻底消除高计数率下的基线位移与峰展宽。 | method/formalism | direct | 第 4 章 §4.2, 印刷 pp. 175–182 / PDF pp. 175–182, 图 4.6 | false |
+| NAK-3 | 弹道亏损（Ballistic Deficit）与平顶成形：当模拟滤波器的达峰时间短于载流子漂移收集时间（$t_c \sim 100-300\text{ ns}$）时，峰值幅度因电荷收集未完全而发生损失；引入梯形滤波器的平顶（Flat Top $FT \ge t_c^{\max}$）可使电荷收集时间涨落下的信号幅度保持不变，彻底根除弹道亏损。 | model-result | direct | 第 4 章 §4.3, 印刷 pp. 185–194 / PDF pp. 185–194, 图 4.22 | false |
+| NAK-4 | Jordanov 离散递归梯形滤波算法：输入离散采样序列 $v[n]$，梯形上升步长 $k$、平顶步长 $m$，数字极零补偿因子 $M = 1 / (e^{T_s/\tau_{\text{pre}}} - 1)$，通过双级有限差分递归方程 $s[n] = s[n-1] + p[n] + M d^k[n]$ 实现零乘法开销的快速实时成形。 | method/formalism | direct | 第 10 章 §10.2, 印刷 pp. 380–388 / PDF pp. 380–388, 式 (10.12)–(10.16) | false |
 
-## 对本 Wiki 研究的核心指导价值
+## Competing Interpretations and Limitations
 
-1. **实验数据处理底层算法保障**：提供了编写自主 Python 波形处理与能谱分析工具的全部离散差分方程。
-2. **实验设置参数调优**：为设置实验机数字化仪的上升时间（Rise time）和平顶时间（Flat top）提供严格准则（平顶必须大于最大电荷收集时间 $t_c$）。
+- **平顶宽度与噪声性能权衡**：虽然增加梯形滤波器的平顶时间 $FT$ 可以彻底消除大同轴 HPGe 探测器的弹道亏损，但过长的平顶会增加串联电压噪声（白噪声）的积累时间并恶化基线波动，同时增加脉冲堆积几率；必须在弹道亏损抑制与能量分辨率/通过率之间进行实验折衷标定。
+- **译本排印勘误记录**：译本 PDF 第 216 页图 4.47 邻近文字中关于麻痹型死时间的公式印为 $m = m e^{-n\tau}$，系原稿排印符号混淆；根据输入输出定义应为 $m = n e^{-n\tau}$。
+
+## Extracted Pages
+
+- 印刷 pp. 15–25（PDF pp. 15–25）：Shockley-Ramo 定理、加权势与半导体感应电流。
+- 印刷 pp. 175–194（PDF pp. 175–194）：模拟成形、极零相消与弹道亏损产生机理。
+- 印刷 pp. 215–218（PDF pp. 215–218）：串联级联死时间、整形时间与 ADC 处理通道比较。
+- 印刷 pp. 380–395（PDF pp. 380–395）：数字梯形滤波器离散递归算法与 FPGA 实现。

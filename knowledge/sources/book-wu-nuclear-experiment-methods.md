@@ -13,47 +13,64 @@ authors: [吴治华]
 publisher: "原子能出版社"
 year: 2005
 pages: "483"
-isbn: "9787502234058"
+isbn: "978-7-5022-3405-8"
 canonical_source: "吴治华, 《原子核物理实验方法（第三版）》, 原子能出版社 (2005)"
+raw_storage_status: archived-local
+archive_required: true
 library_file: "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf"
 raw_file: "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf"
 raw_sha256: "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591"
-archive_required: true
-raw_storage_status: archived-local
 nuclei: []
 reactions: [in-beam-gamma, coulomb-excitation, rdm, dsam]
 experiments: []
 models: [detector-efficiency, doppler-broadening, coincidence-matrices]
-topics: [hpge-detectors, gamma-spectroscopy, coincidence-measurements, lifetime-measurements, angular-distribution]
+tags: [books, experimental-nuclear-physics, hpge-detectors, gamma-spectroscopy, coincidence-measurements, lifetime-measurements]
 ---
 
 # 吴治华 2005 - 原子核物理实验方法（第三版）
 
-> 阅读状态修订（2026-11-02）：撤回无逐页记录支持的整书 deep-read。下方旧概述不作为整章已读证据。本轮实际核查范围及需要修订的仪器表述见 [[reconciliation-of-detector-dead-time-and-pulse-pileup]]；仅对所列原件页取得局部阅读记录。
+## Bibliographic Record
 
+- **书名**：原子核物理实验方法（第三版）
+- **著**：吴治华（复旦大学现代物理研究所）
+- **出版信息**：原子能出版社（北京海淀区阜成路 43 号），2005 年 12 月第 3 版，2005 年 12 月第 1 次印刷（1981 年第 1 版，1994 年第 2 版）。
+- **书号与定版**：ISBN 978-7-5022-3405-8 / ISBN 7-5022-3405-5。
+- **全书规模**：483 物理 PDF 页；扫描件自第 1 页起为目录，第 9 页为正文第 1 页（PDF 页码与正文印刷页码偏移量为 $\Delta = +8$）。
+- **本地原件**：`raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf`
+- **原件 SHA-256**：`e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591`
 
-## 专著概况与定位
+## Scope and Reading Depth
 
-复旦大学吴治华教授编著的《原子核物理实验方法》是国内低能核物理在束谱学实验的权威经典。不同于通用高能粒子探测器书籍，本书高度针对低能核辐射、束内 $\gamma$ 谱仪阵列、高纯锗（HPGe）探测器性能、符合多道测量系统以及核激发态寿命测量（DSAM/RDM），是设计核物理实验方案与解析离线谱学数据的标准操作宝典。
+本来源登记状态定为 `skimmed`，明确界定本轮针对死时间修正、半导体探测器结构、在束 $\gamma$ 能谱分析与能级寿命测量的重点查验范围：
+- **已核查章节**：
+  - 目录（PDF pp. 1–8）；
+  - 第 1 章 放射性测量中的统计学 §1.5（印刷 pp. 22–25 / PDF pp. 30–33）：事件时间分布、不可扩展型（非麻痹型）与可扩展型（麻痹型）死时间公式、图 1.5 极大计数率与双根分析；
+  - 第 5 章 半导体探测器 §5.4（印刷 pp. 144–148 / PDF pp. 152–156）：HPGe 同轴探测器内部电极结构、常规 P 型与倒置 N 型反向偏压、载流子漂移与快中子辐照缺陷影响；
+  - 第 10 章 $\gamma$ 射线强度和能量的测量（印刷 pp. 257–295 / PDF pp. 265–303）：全能峰效率标定、BGO 康普顿抑制屏蔽与二维符合矩阵切片本底扣除；
+  - 第 15 章 核寿命的测量（印刷 pp. 421–452 / PDF pp. 429–460）：反冲距离多普勒法（RDM / Plunger）与多普勒频移衰减法（DSAM）。
+- **未核查内容**：第 2 章射线与物质相互作用的微观输运细节、第 3 章气体探测器各室结构、第 11–14 章中子探测与低本底谱仪全文。
 
-## 核心章节精要与物理内容
+## Summary
 
-### 第 3 章：半导体探测器与 HPGe 性能（pp. 67–112）
-- **HPGe 探测器工作原理**：高纯锗中电离能 $\epsilon \approx 2.96\text{ eV}$（77 K 下），Fano 因子 $F \approx 0.1$，决定了其极致的能量分辨率（1.33 MeV 处 FWHM 可达 1.8–2.0 keV）。
-- **死层（Dead layer）与不完全电荷收集**：反向偏压、耗尽区厚度、弹道亏损（Ballistic deficit）与捕获效应引起的低能峰拖尾。
+本书是复旦大学吴治华教授编著的国内低能核物理在束谱学实验的标准权威专著。全书针对低能核反应产物鉴别、高纯锗（HPGe）阵列测量系统、能谱离线解析、符合矩阵投影分析与短核态寿命测量，给出了系统的理论推导与工程规范。在在束实验设计中，本书为死时间损失校正、探测器效率拟合与能级强度平衡守恒提供了操作标准。
 
-### 第 10 章：$\gamma$ 射线能谱测量与阵列符合（pp. 257–295）
-- **$\gamma$ 谱形全要素**：全能峰（Photopeak）、单逃逸峰（SEP: $E_\gamma - 511$ keV）、双逃逸峰（DEP: $E_\gamma - 1022$ keV）、康普顿边缘（Compton edge）与背散射峰（Backscatter peak）。
-- **康普顿抑制屏蔽（BGO 抗符合套）**：通过环绕 HPGe 的 BGO 闪烁体探测逃逸光子实施反符合，使峰康比（Peak-to-Compton ratio, P/C）从常规的 40:1 提升至 80:1 以上。
-- **绝对与相对全能峰效率校准**：采用标准放射源（如 $^{152}\text{Eu}, {}^{133}\text{Ba}, {}^{60}\text{Co}$），利用多项式对数函数拟合效率曲线：$\ln\epsilon = \sum_{k=0}^n a_k (\ln E_\gamma)^k$。
-- **多探头符合阵列（$\gamma-\gamma$ 符合矩阵）**：偶然符合本底扣除、全对称矩阵折叠、选门（Gating）提取级联级联路径。
+## Key Results
 
-### 第 15 章：核态寿命的测量（pp. 421–452）
-- **电子学延迟符合法**（测 $T_{1/2} > 1\text{ ns}$）：利用 BaF$_2$/LaBr$_3$ 或 HPGe 与时间数字转换器（TDC/TAC）测特征延迟曲线。
-- **反冲距离多普勒法（RDM / Plunger 活塞法）**（测 $1\text{ ps} \sim 1\text{ ns}$）：利用高精度压电驱动器控制薄靶与停阻箔间微米级距离，测量非移位峰与移位峰强度比随距离的演化。
-- **多普勒频移衰减法（DSAM）**（测 $10\text{ fs} \sim 1\text{ ps}$）：反冲核在厚衬底（如金/铅）中的连续慢化停阻过程，利用实验测量的连续多普勒展宽多峰谱形反演能级平均寿命 $\tau$。
+| ID | 陈述与物理内容 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WU-1 | 死时间机制两类分类：原书正文明确讨论了不可扩展型（非麻痹型）$n = m/(1+m\tau)$ 与可扩展型（麻痹型）$n = m \exp(-m\tau)$（原书以 $m$ 表示真实输入率、$n$ 表示观察记录率）；图 1.5 推导了可扩展型的极大观察计数率 $n_{\max} = 1/(e\tau)$，并指出当 $n < n_{\max}$ 时存在两个真实输入率解（双根疑难）。 | model-result | direct | 第 1 章 §1.5, 印刷 pp. 22–25 / PDF pp. 30–33, 图 1.5, 式 (1.109) | false |
+| WU-2 | 常规同轴与倒置电极 HPGe 电场与漂移：P 型常规同轴探测器外电极为 $n^+$（锂扩散）、内电极为 $p^+$（硼注入），外加正偏压，正电荷空穴向中心内电极漂移；N 型倒置电极探测器外层为薄 $p^+$ 接触，外加负偏压，空穴向外表面漂移。中子辐照产生的空穴陷阱严重影响电荷收集效率。 | model-result | direct | 第 5 章 §5.4, 印刷 pp. 144–148 / PDF pp. 152–156, 图 5.6–5.8 | false |
+| WU-3 | 在束 $\gamma-\gamma$ 二维符合矩阵投影与 3 点背景扣除：门谱净截面采用 $S(E) = P(E) - f_B [B_L(E) + B_R(E)]$，权重因子为峰门宽度与左右本底门宽度之比 $f_B = w_{\text{peak}} / (w_L + w_R)$，有效消除康普顿散射连续谱本底。 | method/formalism | direct | 第 10 章 §10.3 与 §10.6, 印刷 pp. 265–273, 285–292 / PDF pp. 273–281, 293–300 | false |
+| WU-4 | 激发态皮秒寿命测量（RDM 与 DSAM）：反冲距离多普勒法（RDM）通过调节靶与阻挡箔间距离 $d$ 测量未移位峰与移位峰比值测定 $1\text{ ps} \sim 1\text{ ns}$ 寿命；多普勒频移衰减法（DSAM）利用反冲核在衬底介质中的慢化阻止过程测定 $10\text{ fs} \sim 1\text{ ps}$ 寿命。 | experimental-criterion | direct | 第 15 章 §15.2, 印刷 pp. 422–448 / PDF pp. 430–456 | false |
 
-## 对本 Wiki 研究的核心指导价值
+## Competing Interpretations and Limitations
 
-1. **实验方案评估与硬件参数校核**：提供靶厚、束流发散角、立体角张角、吸收体厚度估算的规范流程。
-2. **数据离线分析技术基准**：建立高效的背景扣除、符合矩阵投影分析与效率归一化链条。
+- **死时间模型应用范围**：简单不可扩展或可扩展公式属于单通道理想近似。真实的多道脉冲分析器（MCA）与模数转换器（ADC）包含幅度相关转换时间（如 Wilkinson ADC）以及缓冲排队效应；高计数率下的精密测量必须辅以恒定频率参考脉冲注入（Pulser Injection）或活时间时钟门控实时标定。
+- **弹道亏损与数字平顶滤波**：模拟高斯成形器在短成形时间下无法消除电荷漂移时间引起的弹道亏损，现代核物理大阵列（如 Gammasphere、EUROBALL、EXOGAM）全线采用数字信号处理器（DSP/DPP）运行带有足够平顶时间的数字梯形滤波以消除弹道亏损。
+
+## Extracted Pages
+
+- 印刷 pp. 22–25（PDF pp. 30–33）：放射性事件时间分布、不可扩展与可扩展死时间模型、计数损失与双根曲线。
+- 印刷 pp. 144–148（PDF pp. 152–156）：HPGe 同轴探测器几何、反向偏压电场分布、电荷收集与辐射缺陷。
+- 印刷 pp. 265–292（PDF pp. 273–300）：$\gamma$ 能谱全能峰分析、效率刻度方程与二维符合切片本底扣除。
+- 印刷 pp. 422–456（PDF pp. 430–464）：反冲距离法与多普勒频移衰减法寿命测定物理流程。

@@ -6392,3 +6392,13 @@ u}$ zero-crossing detection;
   - `poisson_likelihood_peak_fitting_bias_calculator.py`: corrected finite-sample unbiasedness claims; integrated Gaussian over channels; bounded local significance q0; verified with `system/tests/test_poisson_peak_inference.py`.
   - `heavy_ion_fusion_evaporation_channel_calculator.py`: removed uncalibrated 52 hbar fission cutoff and Gaussian xn branching approximations; bounded as schematic Wong calculation; verified with `system/tests/test_fusion_design_boundary.py`.
 - Regression: all 4 new test suites (62 tests) and `nuclear_analyzer.py selftest` pass.
+
+### Core Chinese Source Standards Verification (Lu, Lin, Zhu, Wu, Nakhostin) 2026-11-02T23:30:00+08:00
+
+- Systematically verified and standardized 5 foundational Chinese textbook sources:
+  1. `knowledge/sources/book-lu-nuclear-physics-chinese.md`: 《原子核物理（修订版）》(卢希庭、江栋兴、叶沿林, 原子能出版社 2000, ISBN 7-5022-2188-3), established exact physical-to-printed page offset ($\Delta = +10$), verified chapters 7 (gamma transitions, Weisskopf estimates, angular correlations), 8 (shell model, collective Bohr-Mottelson model, VMI, backbending), and 9 (nuclear reactions and optical model).
+  2. `knowledge/sources/book-lin-heavy-ion-reactions.md`: 《重离子核反应》(林承键, 科学出版社 2017, ISBN 978-7-03-053723-2), verified chapters 2 (interaction potentials), 6 (fusion dynamics, Wong formula, critical angular momentum), and 7 (quasi-fission and fusion-fission competition).
+  3. `knowledge/sources/book-zhu-probability-statistics-in-physics.md`: 《实验物理中的概率和统计（第二版）》(朱永生, 科学出版社 2006, ISBN 7-03-016986-7 / 978-7-03-016986-0), established exact physical-to-printed page offset ($\Delta = +16$), verified chapters 8 (MLE and profile likelihood), 9 (least squares and histogram fitting bias), 11 (Feldman-Cousins unified physical intervals), and 12 (hypothesis testing, p-values, and Wilks 5-sigma discovery threshold).
+  4. `knowledge/sources/book-wu-nuclear-experiment-methods.md`: 《原子核物理实验方法（第三版）》(吴治华, 原子能出版社 2005, ISBN 978-7-5022-3405-8), established exact physical-to-printed page offset ($\Delta = +8$), verified chapters 1 (dead time models and dual roots), 5 (HPGe electrode polarity and drift), 10 (gamma spectroscopy and 2D coincidence background subtraction), and 15 (RDM and DSAM lifetime measurements).
+  5. `knowledge/sources/book-nakhostin-signal-processing-detectors.md`: 《辐射探测器信号处理》(M. Nakhostin, 吴鸿毅译, Wiley 2017 / 北大 2020, ISBN 978-1-119-02604-4), verified chapters 1 (Shockley-Ramo theorem), 4 (pulse shaping, pole-zero cancellation, ballistic deficit), and 10 (Jordanov digital trapezoidal filter recursive algorithm).
+- All 5 sources conform strictly to `system/lint-config.json` with verified locators, bibliographic data, and archive integrity.

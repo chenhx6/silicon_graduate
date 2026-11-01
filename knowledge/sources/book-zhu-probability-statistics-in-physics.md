@@ -3,54 +3,74 @@ type: source
 title: "朱永生 2006 - 实验物理中的概率和统计（第二版）"
 aliases: [朱永生实验物理统计, Zhu 2006 Probability and Statistics, 实验物理中的概率和统计]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
 source_type: book
-reading_depth: deep-read
+reading_depth: skimmed
 title_original: "实验物理中的概率和统计（第二版）"
 authors: [朱永生]
 publisher: "科学出版社"
 year: 2006
 pages: "671"
-isbn: "9787030172600"
+isbn: "7-03-016986-7"
 canonical_source: "朱永生, 《实验物理中的概率和统计（第二版）》, 科学出版社 (2006)"
+raw_storage_status: archived-local
+archive_required: true
 library_file: "raw/books/实验物理中的概率和统计_朱永生著.pdf"
 raw_file: "raw/books/实验物理中的概率和统计_朱永生著.pdf"
 raw_sha256: "e97062665497c597609d58c23dfa977824c43e73d3ae8cb4ca3c0855e381894b"
 nuclei: []
 reactions: []
 experiments: []
-models: [maximum-likelihood, least-squares, profile-likelihood, chi-squared-minimization]
-topics: [experimental-statistics, error-propagation, parameter-estimation, dual-root-degeneracy, hypothesis-testing]
+models: [maximum-likelihood, least-squares, profile-likelihood, feldman-cousins, hypothesis-testing]
+tags: [books, experimental-statistics, error-propagation, parameter-estimation, dual-root-degeneracy, hypothesis-testing]
 ---
 
 # 朱永生 2006 - 实验物理中的概率和统计（第二版）
 
-## 专著概况与定位
+## Bibliographic Record
 
-本书由中国科学院高能物理研究所朱永生研究员所著，是国内实验物理学界（尤其是核物理与粒子物理）最具深度、最为权威的数理统计与误差处理巨著（671 页）。本书以极其严谨的数学推导结合物理实操案例，彻底奠定了参数估计（极大似然法与最小二乘法）、协方差矩阵反演、非对称误差、置信区间构造以及似然比假设检验的理论基石。
+- **书名**：实验物理中的概率和统计（第二版）（现代物理基础丛书 10）
+- **著者**：朱永生（中国科学院高能物理研究所）
+- **出版信息**：科学出版社（北京东黄城根北街 16 号），2006 年 4 月第 2 版，2006 年 4 月第 2 次印刷（1992 年 2 月第 1 版）。
+- **书号与定版**：ISBN 7-03-016986-7（978-7-03-016986-0），中国版本图书馆 CIP 数据核字 (2006) 第 016593 号。
+- **全书规模**：671 物理 PDF 页；正文印刷页 1–655（PDF 页码与正文印刷页码偏移量为 $\Delta = +16$）。
+- **本地原件**：`raw/books/实验物理中的概率和统计_朱永生著.pdf`
+- **原件 SHA-256**：`e97062665497c597609d58c23dfa977824c43e73d3ae8cb4ca3c0855e381894b`
 
-## 核心章节精要与物理内容
+## Scope and Reading Depth
 
-### 第 8 章：极大似然法（pp. 228–275）
-- **极大似然原理（Maximum Likelihood Principle）**：对相互独立测量集 $\{x_i\}$，联合概率密度 $\mathcal{L}(\theta) = \prod_{i=1}^N f(x_i; \theta)$。极大化对数似然函数 $\ln\mathcal{L}$。
-- **似然函数的渐近性质与误差估计**：大样本极限下 $\ln\mathcal{L}(\theta)$ 趋于高斯抛物线，参数协方差矩阵由 Fisher 信息阵的逆给出：
-  $$V_{ij}^{-1} = - \left. \frac{\partial^2 \ln\mathcal{L}}{\partial \theta_i \partial \theta_j} \right|_{\hat{\theta}}$$
-- **非对称误差与剖面似然（Profile Likelihood）**：当似然函数偏离对称高斯时，置信度为 $1\sigma$（$68.27\%$）的非对称误差区间由水平切线决定：
-  $$\ln\mathcal{L}(\theta) = \ln\mathcal{L}_{\max} - \frac{1}{2}\Delta\chi^2 \quad (\Delta\chi^2 = 1.0\text{ for } 1\text{ DOF})$$
+本来源登记状态定为 `skimmed`，明确界定本轮针对极大似然法、小信号区间估计与假设检验的重点查验范围：
+- **已核查章节**：
+  - 封面、版权页、第二版前言与目录（PDF pp. 1–16）；
+  - 第 8 章 极大似然法（印刷 pp. 242–292 / PDF pp. 258–308）：极大似然原理、渐近性质、剖面似然（Profile Likelihood）与非正态似然函数误差；
+  - 第 9 章 最小二乘法（印刷 pp. 293–352 / PDF pp. 309–368）：线性与非线性最小二乘、直方图数据拟合、协方差矩阵反演；
+  - 第 11 章 小信号测量的区间估计（印刷 pp. 370–383 / PDF pp. 386–399）：经典 Neyman 边界缺陷、似然比顺序求和（Feldman-Cousins 统一方法）；
+  - 第 12 章 假设检验（印刷 pp. 384–465 / PDF pp. 400–481）：复合假设似然比检验、实验 $p$ 值、信号统计显著性 $Z$ 与 Wilks 定理。
+- **未核查内容**：第 1–7 章概率论初步与常见分布细节、第 10 章矩法细节、第 13 章极小化算法（MINUIT 算法）与第 14 章蒙特卡罗方法全文。
 
-### 第 9 章：最小二乘法与多项式拟合（pp. 276–340）
-- **非相关与相关测量值的加权拟合**：给出具有完全协方差矩阵时的广义 $\chi^2$ 矩阵公式：
-  $$\chi^2 = (\vec{y} - \vec{f}(\vec{\theta}))^T \mathbf{V}^{-1} (\vec{y} - \vec{f}(\vec{\theta}))$$
-- **角分布 Legendre 多项式展开拟合**：推导勒让德多项式基函数正交性下的系数 $a_2, a_4$ 协方差估计与奇异性处理。
+## Summary
 
-### 第 10 章：假设检验与多解退化判定（pp. 341–410）
-- **似然比检验（Likelihood Ratio Test）**：检验两套相互竞争的物理假设（如 $H_0$: 摆动解 vs $H_1$: 旋称伙伴解），定义检验统计量：
-  $$\lambda = -2 \ln \frac{\mathcal{L}(H_0)}{\mathcal{L}(H_1)} = \chi^2(H_0) - \chi^2(H_1) = \Delta\chi^2$$
-  依据 Wilks 定理，自由度差为 $\nu$ 时 $\Delta\chi^2$ 渐近服从 $\chi^2(\nu)$ 分布，从而计算排除显著性（如 $3\sigma, 5\sigma$）。
+本书是中国科学院高能物理研究所朱永生研究员著述的实验物理统计学权威巨著。全书以严谨的数理逻辑紧密结合物理实验数据分析实务，系统阐述了误差传播、参数估计（极大似然、最小二乘）、小信号物理边界下的置信区间构造（Feldman-Cousins 方法）以及信号发现的统计显著性检验。在实验核结构与核谱学中，本书为微弱跃迁峰面积拟合、角分布多极混合比 $\delta$ 双根退化仲裁、以及谱线发现的 $5\sigma$ 准则提供了标准数理统计方法。
 
-## 对本 Wiki 研究的核心指导价值
+## Key Results
 
-1. **角分布混合比双根退化判决**：提供严谨的剖面似然扫描算法，杜绝在局部极小值处盲目截断参数范围。
-2. **非线性参数误差传递**：为从衰变寿命 $\tau$、混合比 $\delta$ 和能量比计算减缩跃迁几率 $B(E2)/B(M1)$ 及其比值提供完全协方差反演算法。
+| ID | 陈述与物理内容 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| ZHU-1 | 极大似然估计（MLE）渐近性：大样本下似然函数趋于高斯抛物线，参数协方差矩阵由 Fisher 信息阵的逆矩阵给出；非正态或小统计量下由剖面似然（Profile Likelihood）轮廓切线 $\Delta \ln\mathcal{L} = -0.5 \Delta\chi^2$ 确定非对称置信区间。 | model-result | direct | 第 8 章 §8.2–8.4, 印刷 pp. 245–262 / PDF pp. 261–278 | false |
+| ZHU-2 | 数据加权直方图拟合的下偏缺陷：当直方图道计数 $n_i$ 较小（$n_i \le 10$）时，以 $1/n_i$ 作为权重的 Neyman 最小二乘卡方拟合会受到向下涨落数据点的过度加权拉扯，导致拟合面积出现系统性负偏差。 | model-result | direct | 第 9 章 §9.5, 印刷 pp. 325–331 / PDF pp. 341–347 | false |
+| ZHU-3 | 小信号物理边界与 Feldman-Cousins 统一区间：当待测物理量受物理边界约束（$\mu \ge 0$）且伴随本底 $b$ 时，经典 Neyman 方法在 $n < b$ 时会出现无物理意义的负值或空集；基于似然比 $R(n) = P(n\|\mu+b)/P(n\|\mu_{\text{best}}+b)$ 顺序求和构造的 Feldman-Cousins 统一方法可自然平滑过渡并严格保证覆盖率。 | model-result | direct | 第 11 章 §11.1–11.2, 印刷 pp. 370–381 / PDF pp. 386–397 | false |
+| ZHU-4 | 复合假设似然比检验与 Wilks 定理：定义统计检验量 $\Delta\chi^2 = -2\ln[\mathcal{L}(H_0)/\mathcal{L}(\hat{H})]$；当零假设成立且满足大样本正则条件时，$\Delta\chi^2$ 渐近服从自由度为 $\nu$ 的 $\chi^2$ 分布，单自由度下统计显著度近似为 $Z \approx \sqrt{\Delta\chi^2}$。 | model-result | direct | 第 12 章 §12.2 与 §12.5, 印刷 pp. 394–398, 429–434 / PDF pp. 410–414, 445–450 | false |
+
+## Competing Interpretations and Limitations
+
+- **小样本下的有限性与边界反常**：虽然极大似然法在大样本极限下具备一致性与最小方差优良性质，但在极其稀疏的小样本下（如每道平均计数接近 0），似然估计仍可能存在有限样本偏差；当待测参数位于物理边界（$\mu=0$）时，标准 Wilks 定理的高斯假设失效，必须采用 Cowan 等 2011 发展的单侧检验统计量 $q_0$ 分布修正。
+- **角分布双根判定与先验依赖**：由单个角分布系数 $a_2$ 反解关于多极混合比 $\delta$ 的二次方程必然产生两个数学实数根，此时两解在卡方空间上完全简并，仅凭统计拟合优度本身无法决定物理真解，必须引入独立的物理先验（如 Clover 康普顿线偏振度 $P$ 或内转换系数 $\alpha_K$）联合破除简并。
+
+## Extracted Pages
+
+- 印刷 pp. 242–262（PDF pp. 258–278）：极大似然法原理、Fisher 信息矩阵与剖面似然。
+- 印刷 pp. 325–331（PDF pp. 341–347）：最小二乘法应用于直方图数据及数据加权偏差。
+- 印刷 pp. 370–381（PDF pp. 386–397）：小信号测量的经典边界困境与 Feldman-Cousins 似然比排序构造。
+- 印刷 pp. 429–434（PDF pp. 445–450）：实验 $p$ 值、统计显著性 $Z\sigma$ 与 Wilks 渐近卡方检验。
