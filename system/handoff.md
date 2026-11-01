@@ -3,6 +3,14 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T06:00:00+08:00 (在束符合矩阵选门、三点背景扣除与能级强度平衡分析器落地)
+
+- **实验数据处理闭环拓展完成**：
+  - 沉淀实战指南《在束 γ-γ 符合矩阵分析、背景扣除与能级纲图构建实战指南》（覆盖时间符合门、二维能量矩阵投门、标准三点康普顿背景扣除差分方程、Radware HPGe 效率校准，以及能级节点进出平衡方程与转换电子修正）；
+  - 开发完成生产级在束符合矩阵三点背景扣除与强度平衡分析器（system/scripts/analysis/coincidence_intensity_balancer.py），自动化检验能级流入/流出差分显著性；
+  - 扩展自动化回归测试套件（test_analysis_suite.py）至 7 大科学分析模块测试，全量 100% 验证通过；
+  - 成功提交（commit 032e14e2）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-02T04:00:00+08:00 (Ce-Nd同位素链三轴演化Prospectus与DSAM/RDM寿命分析工具落地)
 
 - **博士课题核心演化对账完成**：
