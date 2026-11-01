@@ -26,6 +26,7 @@ from gamma_peak_fitting import single_peak_model, fit_single_gamma_peak
 from dco_polarization_analyzer import joint_dco_polarization_fit, calculate_dco_ratio, calculate_linear_polarization
 from lifetime_lineshape_calculator import calculate_stopping_time_alpha, dsam_invert_lifetime, calculate_absolute_transition_strengths
 from routhian_alignment_analyzer import calculate_alignment_and_routhians, fit_harris_reference
+from ensdf_crosswalk_parser import parse_ensdf_records, crosswalk_match
 
 
 def cmd_kinematics(args):
@@ -143,6 +144,29 @@ def cmd_align(args):
     print("=======================================================")
 
 
+def cmd_ensdf(args):
+    with open(args.file, "r", encoding="utf-8", errors="ignore") as f:
+        content = f.read()
+    levels = parse_ensdf_records(content)
+    print("\n=======================================================")
+    print(f" NNDC ENSDF Dataset Parser: {args.file}")
+    print("=======================================================")
+    print(f"  Successfully parsed {len(levels)} levels.")
+    total_gammas = sum(len(l["gammas"]) for l in levels)
+    print(f"  Total gamma transitions : {total_gammas}")
+
+    if args.peaks:
+        meas_peaks = [float(x.strip()) for x in args.peaks.split(",")]
+        cw = crosswalk_match(meas_peaks, levels, tolerance_keV=args.tol)
+        print(f"\n  Crosswalk Matched Known Transitions ({len(cw['matched'])}):")
+        for m in cw["matched"]:
+            print(f"    Exp {m['exp_energy_keV']:6.1f} keV <-> ENSDF {m['ensdf_energy_keV']:6.1f} keV (diff: {m['diff_keV']:+4.1f} keV), J_pi = {m['parent_jpi']}, Mult = {m['mult']}")
+        print(f"\n  Unmatched New Transitions ({len(cw['unmatched_new_candidates'])}):")
+        for u in cw["unmatched_new_candidates"]:
+            print(f"    Candidate new peak: {u:6.1f} keV")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -213,6 +237,13 @@ def main():
     p_align.add_argument("--J1", type=float, default=30.0, help="Harris core parameter J1")
     p_align.add_argument("--K", type=float, default=0.0, help="K quantum number")
     p_align.set_defaults(func=cmd_align)
+
+    # ENSDF Crosswalk
+    p_ensdf = subparsers.add_parser("ensdf", help="Parse ENSDF file and crosswalk match experimental gamma peaks")
+    p_ensdf.add_argument("--file", type=str, required=True, help="Path to ENSDF text file")
+    p_ensdf.add_argument("--peaks", type=str, default="", help="Comma-separated experimental peak energies in keV")
+    p_ensdf.add_argument("--tol", type=float, default=1.0, help="Energy matching tolerance (keV)")
+    p_ensdf.set_defaults(func=cmd_ensdf)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

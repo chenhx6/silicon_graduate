@@ -11,6 +11,7 @@ Tests:
   6. lifetime_lineshape_calculator: checks stopping time, DSAM attenuation inversion, and B(E2).
   7. coincidence_intensity_balancer: checks 3-point background subtraction and intensity balancing.
   8. routhian_alignment_analyzer: checks rotational frequency, alignment ix, and Harris baseline.
+  9. ensdf_crosswalk_parser: checks ENSDF fixed-width parsing and in-beam crosswalk matching.
 """
 
 import sys
@@ -24,6 +25,7 @@ from dco_polarization_analyzer import calculate_dco_ratio, calculate_linear_pola
 from lifetime_lineshape_calculator import calculate_stopping_time_alpha, dsam_invert_lifetime, calculate_absolute_transition_strengths
 from coincidence_intensity_balancer import three_point_background_subtraction, hpge_efficiency_radware, check_level_intensity_balance
 from routhian_alignment_analyzer import calculate_alignment_and_routhians, fit_harris_reference
+from ensdf_crosswalk_parser import parse_ensdf_records, crosswalk_match
 
 
 def test_heavy_ion_kinematics():
@@ -155,6 +157,23 @@ def test_routhian_alignment_analyzer():
     print("  ✓ routhian_alignment_analyzer passed.")
 
 
+def test_ensdf_crosswalk_parser():
+    print("Testing ensdf_crosswalk_parser...")
+    ensdf_sample = """
+ 131CE  L           0.0                 (7/2+)      10.2 M
+ 131CE  L         161.8               1 (11/2-)     4.8 PS
+ 131CE  G         161.8       1      100              M2+E3     -0.15          0.235
+ 131CE  L         450.2               2 (15/2-)
+ 131CE  G         288.4       2      100              E2                       0.045
+"""
+    levels = parse_ensdf_records(ensdf_sample)
+    assert len(levels) == 3, f"Parsed levels should be 3: got {len(levels)}"
+    cw = crosswalk_match([162.0, 500.0], levels, tolerance_keV=1.0)
+    assert len(cw["matched"]) == 1, "Should match 1 transition"
+    assert cw["unmatched_new_candidates"] == [500.0], "500 keV should be unmatched"
+    print("  ✓ ensdf_crosswalk_parser passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -165,4 +184,5 @@ if __name__ == "__main__":
     test_lifetime_lineshape_calculator()
     test_coincidence_intensity_balancer()
     test_routhian_alignment_analyzer()
-    print("ALL 8 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_ensdf_crosswalk_parser()
+    print("ALL 9 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
