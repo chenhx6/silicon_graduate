@@ -61,6 +61,7 @@ from halo_breakup_momentum_calculator import calculate_hansen_jonson_fwhm, inver
 from fission_barrier_superheavy_calculator import calculate_liquid_drop_fissility, calculate_hill_wheeler_penetration, calculate_gamma_n_over_gamma_f, estimate_superheavy_cross_section
 from oslo_method_nld_gsf_analyzer import calculate_rho_at_sn, verify_oslo_lie_transformation_invariance, calibrate_oslo_nld_and_gsf, diagnose_low_energy_enhancement
 from band_termination_cns_calculator import calculate_valence_maximum_spin, model_transition_quadrupole_collapse, calculate_rigid_rotor_subtraction, calculate_dynamic_moment_of_inertia_j2, diagnose_smooth_band_termination
+from tdpad_hyperfine_precession_calculator import calculate_larmor_frequency, invert_g_factor_from_period, generate_tdpad_r_of_t, calculate_three_vector_chiral_gfactor, calculate_electric_quadrupole_frequency
 
 
 def test_heavy_ion_kinematics():
@@ -529,6 +530,33 @@ def test_band_termination_cns_calculator():
     assert diag["is_band_termination"] == True, "Should identify smooth band termination"
     print("  ✓ band_termination_cns_calculator passed.")
 
+
+def test_tdpad_hyperfine_precession_calculator():
+    print("Testing tdpad_hyperfine_precession_calculator...")
+    # 128Cs: g = +0.59, B = 2.145 T
+    larm = calculate_larmor_frequency(g_factor=0.59, B_external_Tesla=2.145)
+    assert abs(larm["omega_L_rad_s"] - 6.061e7) < 1e5, f"omega_L mismatch: {larm['omega_L_rad_s']}"
+    assert abs(larm["modulation_period_T_mod_ns"] - 51.83) < 0.05, f"T_mod mismatch: {larm['modulation_period_T_mod_ns']}"
+
+    # Inversion test
+    inv = invert_g_factor_from_period(T_mod_ns=larm["modulation_period_T_mod_ns"], B_external_Tesla=2.145)
+    assert abs(inv["g_factor_magnitude"] - 0.59) < 1e-4, f"Inverted g mismatch: {inv['g_factor_magnitude']}"
+
+    # R(t) time series test
+    r_t = generate_tdpad_r_of_t(times_ns=[0.0, 10.0, 20.0], g_factor=0.59, B_Tesla=2.145, A2B2=0.25)
+    assert abs(r_t["R_of_t"][0]) < 1e-10, "R(t=0) must be zero"
+    assert r_t["amplitude_A"] > 0.15, "Amplitude out of range"
+
+    # Three-vector chiral test
+    pl = calculate_three_vector_chiral_gfactor(geometry="planar")
+    apl = calculate_three_vector_chiral_gfactor(geometry="aplanar")
+    assert pl["calculated_g_factor"] > apl["calculated_g_factor"], "Planar g must exceed aplanar g"
+
+    # Quadrupole interaction test: 131Ce in Sn host
+    qi = calculate_electric_quadrupole_frequency(Qs_eb=0.92, Vzz_1e21_V_m2=3.0, spin_I=4.5)
+    assert 60.0 < qi["nu_Q_MHz"] < 75.0, f"nu_Q out of expected range: {qi['nu_Q_MHz']}"
+    print("  ✓ tdpad_hyperfine_precession_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -560,4 +588,5 @@ if __name__ == "__main__":
     test_fission_barrier_superheavy_calculator()
     test_oslo_method_nld_gsf_analyzer()
     test_band_termination_cns_calculator()
-    print("ALL 29 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_tdpad_hyperfine_precession_calculator()
+    print("ALL 30 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

@@ -47,6 +47,7 @@ from halo_breakup_momentum_calculator import calculate_hansen_jonson_fwhm, inver
 from fission_barrier_superheavy_calculator import calculate_liquid_drop_fissility, calculate_hill_wheeler_penetration, calculate_gamma_n_over_gamma_f, estimate_superheavy_cross_section
 from oslo_method_nld_gsf_analyzer import calculate_rho_at_sn, verify_oslo_lie_transformation_invariance, calibrate_oslo_nld_and_gsf, diagnose_low_energy_enhancement
 from band_termination_cns_calculator import calculate_valence_maximum_spin, model_transition_quadrupole_collapse, calculate_rigid_rotor_subtraction, calculate_dynamic_moment_of_inertia_j2, diagnose_smooth_band_termination
+from tdpad_hyperfine_precession_calculator import calculate_larmor_frequency, invert_g_factor_from_period, generate_tdpad_r_of_t, calculate_three_vector_chiral_gfactor, calculate_electric_quadrupole_frequency
 
 
 def cmd_kinematics(args):
@@ -695,6 +696,40 @@ def cmd_term(args):
             print(f"  Diagnosis                  : {diag['diagnosis']}")
     print("=======================================================")
 
+
+def cmd_tdpad(args):
+    print("\n=======================================================")
+    print(" Time-Differential Perturbed Angular Distribution (TDPAD)")
+    print("=======================================================")
+    if args.g is not None and args.B is not None:
+        larm = calculate_larmor_frequency(args.g, args.B)
+        print(f"  Input g-Factor           : g = {args.g:+.3f}")
+        print(f"  External Magnetic Field  : B = {args.B:.3f} Tesla")
+        print(f"  Larmor Precession Freq   : omega_L = {larm['omega_L_rad_s']:.3e} rad/s (nu_L = {larm['Larmor_frequency_nu_MHz']:.2f} MHz)")
+        print(f"  Modulation Period (pi/w) : T_mod = {larm['modulation_period_T_mod_ns']:.2f} ns (2*omega_L oscillation)")
+    elif args.tmod is not None and args.B is not None:
+        inv = invert_g_factor_from_period(args.tmod, args.B)
+        print(f"  Measured Modulation Period: T_mod = {args.tmod:.2f} ns in B = {args.B:.3f} Tesla")
+        print(f"  Inverted Nuclear g-Factor : |g| = {inv['g_factor_magnitude']:.4f}")
+
+    if args.chiral_check:
+        pl = calculate_three_vector_chiral_gfactor(geometry="planar")
+        apl = calculate_three_vector_chiral_gfactor(geometry="aplanar")
+        print("-------------------------------------------------------")
+        print(f"  Three-Vector Chiral Geometry Benchmark (e.g. 128Cs):")
+        print(f"    Planar Limit (Proton-aligned)   : g_planar  = {pl['calculated_g_factor']:.3f}")
+        print(f"    Aplanar Limit (Mutually perp)   : g_aplanar = {apl['calculated_g_factor']:.3f}")
+
+    if args.qs is not None and args.vzz is not None:
+        qi = calculate_electric_quadrupole_frequency(args.qs, args.vzz, spin_I=args.I if args.I is not None else 4.5)
+        print("-------------------------------------------------------")
+        print(f"  Electric Quadrupole Interaction (QI) in Host:")
+        print(f"    Static Quadrupole Moment |Qs| : {abs(args.qs):.2f} eb (Spin I = {args.I or 4.5})")
+        print(f"    Host Electric Field Gradient : V_zz = {args.vzz:.2f} x 10^21 V/m^2")
+        print(f"    Quadrupole Coupling Constant : nu_Q = {qi['nu_Q_MHz']:.2f} MHz")
+        print(f"    Fundamental Precession Period: T_0 = {qi['fundamental_period_T0_ns']:.1f} ns")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -993,6 +1028,17 @@ def main():
     p_term.add_argument("--iterm", type=float, default=None, help="Terminating maximum spin I_term")
     p_term.add_argument("--A", type=int, default=None, help="Mass number A")
     p_term.set_defaults(func=cmd_term)
+
+    # TDPAD Hyperfine Precession & g-Factor
+    p_tdpad = subparsers.add_parser("tdpad", help="Time-differential perturbed angular distribution, g-factor and hyperfine precession")
+    p_tdpad.add_argument("--g", type=float, default=None, help="Nuclear Lande g-factor")
+    p_tdpad.add_argument("--B", type=float, default=None, help="External magnetic field in Tesla")
+    p_tdpad.add_argument("--tmod", type=float, default=None, help="Measured modulation period T_mod in ns")
+    p_tdpad.add_argument("--chiral-check", action="store_true", help="Compare three-vector planar vs aplanar chiral g-factor predictions")
+    p_tdpad.add_argument("--qs", type=float, default=None, help="Static electric quadrupole moment in eb")
+    p_tdpad.add_argument("--vzz", type=float, default=None, help="Host electric field gradient in 10^21 V/m^2")
+    p_tdpad.add_argument("--I", type=float, default=None, help="State spin I")
+    p_tdpad.set_defaults(func=cmd_tdpad)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

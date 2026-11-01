@@ -5946,3 +5946,21 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `term` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to 29 scientific analysis modules, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### TDPAD hyperfine precession, g-factor and three-vector chiral geometry 2026-11-02T05:00:00+08:00
+
+- Integrated time-differential perturbed angular distribution (TDPAD), magnetic dipole/electric quadrupole moments, and three-vector chiral geometry framework (`knowledge/concepts/tdpad-hyperfine-precession-and-gfactor-dynamics.md`):
+  - Microscopic mechanism: nuclear spin alignment in fusion-evaporation, Larmor precession in external magnetic field $\\omega_L = -g \\mu_N B / \\hbar$, and double Larmor frequency modulation theorem ($\\omega_{\\text{prec}} = 2\\omega_L$, period $T_{\\text{prec}} = \\pi / \\omega_L$).
+  - Four orthogonal time domains: population decay lifetime $\\tau_{\\text{pop}}$, spin relaxation time $\\tau_{\\text{relax}}$, precession period $T_{\\text{prec}}$, and detector prompt response window $\\text{FWHM}_{\\text{PRF}}$.
+  - Time-differential anisotropy modulation ratio $R(t) \\approx \\frac{3 A_2 B_2}{4 + A_2 B_2} \\sin(2\\omega_L t) e^{-t / \\tau_{\\text{relax}}}$, cancelling population decay.
+  - Generalized three-vector $g$-factor additivity formula $\\vec{I} = \\vec{j}_p + \\vec{j}_n + \\vec{j}_R$, $g(I) = \\sum g_k \\frac{\\vec{j}_k \\cdot \\vec{I}}{I(I+1)}$, used by Grodner 2018 ($^{128}\\text{Cs}$, $g = +0.59(1)$) to confirm coplanar geometry at the bandhead and establish the dynamic chiral rotation threshold at $I \\ge 13\\hbar$.
+  - Electric quadrupole interaction (QI) in polycrystalline hosts, calculating $\\nu_Q$ and inverting $|Q_s|$ (e.g. $^{129,131}\\text{Ce}$ $9/2^-$ isomers, Ionescu-Bujor 1998).
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/tdpad_hyperfine_precession_calculator.py`:
+  - `calculate_larmor_frequency`: Larmor frequency $\\omega_L$, modulation period $T_{\\text{mod}}$, and cyclic frequency $\\nu_L$;
+  - `invert_g_factor_from_period`: exact inversion of $|g|$ from measured period and field;
+  - `generate_tdpad_r_of_t`: time-differential ratio $R(t)$ synthesis with relaxation damping;
+  - `calculate_three_vector_chiral_gfactor`: planar vs aplanar three-vector $g$-factor calculator;
+  - `calculate_electric_quadrupole_frequency`: $\\nu_Q$ and $|Q_s|$ conversion in non-cubic hosts.
+- Unified CLI integration: added `tdpad` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **a milestone of 30 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.
