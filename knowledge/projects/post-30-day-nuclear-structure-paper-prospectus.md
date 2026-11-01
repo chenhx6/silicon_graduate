@@ -250,6 +250,7 @@ iThemba LABS PR295 的 ROOT 矩阵（2751 个文件，4.52 GB）属于单一物�
 
 ### Grounded Evidence & Primary Sources
 - 全库主张校准审计账本 ([[full-library-claim-calibration-audit-20261031]]);
+- 博士认知自审与核结构综合研究笔记 ([[doctoral-cognitive-calibration-and-nuclear-structure-synthesis-20261101]]): 系统梳理并纠正六大认知偏差（能量摆动假象、双根退化、静态手征假设、E1/E3 抵消混淆、模型输出客体化、单次采集伪独立），确立低能核谱学“五道门”证据裁判标准；
 - 近期重点核查源：Hendrie 1968、Rohozinski 1988、Zagrebaev 2001、Piekarewicz 2004、Karmakar 2025、Bucher 2016/2017、Gaffney 2013、Rosiak 2018、Henderson 2025 等。
 
 ### Competing Hypotheses

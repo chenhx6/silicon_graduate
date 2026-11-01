@@ -16,6 +16,7 @@ updated: 2026-11-01
 
 - [[wiki-full-library-map-20261030]] — 2026-10-30 全库结构、知识关系、研究主线、论文候选和 `outputs/`/`raw/papers/` 整理边界；这是复习导航与研究选题索引，不替代 source 原件和 locator。
 - [[full-library-claim-calibration-audit-20261031]] — 对近期 source 页中的实验事实、派生量、模型结果与作者解释做语言校准；保留原 locator 和 review 状态，不把自审升级为人工审阅。
+- [[doctoral-cognitive-calibration-and-nuclear-structure-synthesis-20261101]] — 博士阶段认知自审与核结构知识体系综合：校准六大文献认知偏差（能量摆动假象、双根退化、静态手征假设、E1/E3 抵消混淆、模型输出客体化、单次采集伪独立），系统整合 $N=74$ 三轴核芯（$^{132}\text{Ce}$）及其奇中子邻核（$^{131,133}\text{Ce}$）微观集体动力学，确立核谱学“五道门”证据裁判标准。
 - [[post-30-day-nuclear-structure-paper-prospectus]] — 把30天后尝试投稿落成四个候选队列：135Pr共同响应审计、131Xe对象/分支边界、135Nd/134Pr绝对电磁量和跨质量区八极证据梯。
 - [[135pr-common-response-evidence-contract-20261031]] — 将 `135Pr` P1 收束为三条核心连接线、逐实验 nuisance、branch profile、leave-EM-out holdout 和 L3/L4 停止条件。
 - [[135pr-hypothesis-discrimination-priority-20261101]] — 把 `135Pr` 的 transverse wobbling、tilted precession、signature/configuration mixing 与高自旋 chiral 解释转成可区分预测、belief revision 和单次高信息测量设计；仍停在 L3/readiness。

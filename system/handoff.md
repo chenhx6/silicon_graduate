@@ -5695,3 +5695,13 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Authored canonical research note: `knowledge/research-notes/133ce-private-data-wobbling-vs-signature-reconstruction-20261101.md`.
 - Updated `knowledge/index.md` and `knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md` (Candidate 6).
 - Maintained strict evidence boundaries: data remains `partial-L4-readiness` under `raw/data/SouthAfrica/` private user data constraint without manufacturing event-level likelihoods.
+
+### Doctoral cognitive calibration and comprehensive nuclear structure synthesis 2026-11-01T18:15:00+08:00
+
+- Executed comprehensive 30-day curriculum cognitive audit and expert self-calibration in response to doctoral research mandate:
+  - Audited and corrected six major cognitive pitfalls in low-energy nuclear spectroscopy: (1) energy-only wobbling fallacy, (2) angular distribution dual-root bias, (3) static chirality illusion, (4) E1 dipole-octupole cancellation conflation, (5) model-output vs experimental observable conflation, and (6) single-acquisition pseudo-independence trap.
+  - Synthesized microscopic triaxial collective dynamics across the $N=74$ core ($^{132}\text{Ce}$, $\beta_2 \approx 0.22, \gamma \approx 17^\circ\text{--}20^\circ$) to its odd-neutron neighbours ($^{131}\text{Ce}$ and $^{133}\text{Ce}$) and the $N=75$ isotone chain ($^{131}\text{Ba} \to {}^{133}\text{Ce} \to {}^{135}\text{Nd}$), integrating Alwaleedi 2013, Singh 2016, and author's doctoral midterm data.
+  - Formulated the "Five-Gate" Evidence Standard for nuclear spectroscopy (Lineage, Multipolarity & Mixing Ratios, Relative Transition Probabilities, Absolute Lifetimes, Competing Models & Holdout Validation).
+- Authored canonical research note: `knowledge/research-notes/doctoral-cognitive-calibration-and-nuclear-structure-synthesis-20261101.md`.
+- Updated `knowledge/index.md` and `knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md` (Candidate 7).
+- Verification: `wiki_boundary_check.py`, `wiki_archive_gate.py`, `wiki_automation_preflight.py`, and `git diff --check` all green.
