@@ -6137,3 +6137,22 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `astro` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **a landmark 40 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Master operational field manual for nuclear spectroscopy and structure 2026-11-02T10:30:00+08:00
+
+- Authored canonical master operational synthesis: `knowledge/synthesis/nuclear-spectroscopy-and-structure-master-field-manual.md` (《低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的40模块完整闭环指南》):
+  - Formulated the three foundational instincts of a world-class nuclear structure researcher / LLM operating in Wiki:
+    1. Geometric triaxial intuition ($\mathcal{J}_m > \mathcal{J}_s > \mathcal{J}_l$, chiral trihedrons, aplanar vs planar topologies);
+    2. Five-gate rigorous experimental falsification (evidence tiering, dual-root ambiguity elimination, signature partner separation);
+    3. End-to-end experimental fluency (from beam proposals to microscopic relativistic field theories).
+  - Mapped the complete seven-phase research pipeline directly to the 40 production-grade scientific modules:
+    Phase 1: Experiment Proposals & Reaction Dynamics (`kinematics`, `excite`, `relcoulex`, `mnt`, `astro`);
+    Phase 2: Detector Electronics & Peak Fitting (`filter`, `peak`, Wu vs Wang resolution);
+    Phase 3: Coincidence Matrices & Level Scheme Construction (`balance`, `ensdf`, `bricc`, `sidefeeding`, `pair`);
+    Phase 4: Multipolarity, Polarimetry & Dual-Root Breaking (`angdist`, `dco`, `ado`, `alaga`, `tdpad`);
+    Phase 5: High-Spin Collective Motion & Rotational Evolution (`routhian`, `moi`, `shears`, `signature`, `sd`, `term`);
+    Phase 6: Triaxiality, Chirality & Wobbling Five-Gate Adjudication (`coulex`, `tpsm`, `tidal`, `e0`, `ibm`);
+    Phase 7: Drip-Line Physics, Covariant Functionals & Astrophysics (`gt`, `halo`, `fission`, `oslo`, `pairvib`, `rmf`, `radius`, `radioact`).
+  - Catalogued the top six cognitive pitfalls and anti-patterns in nuclear spectroscopy (energy-only wobbling fallacy, dual-root selection bias, static pairing gap transplantation, side-feeding lifetime distortion, deformation ISGMR pseudo-softening, and relativistic Lorentz boost headlight distortion).
+  - Provided the complete one-line CLI quick reference for all 40 analysis commands.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.
