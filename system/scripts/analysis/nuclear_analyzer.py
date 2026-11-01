@@ -56,6 +56,7 @@ from two_nucleon_transfer_pairing_vibration_calculator import calculate_bcs_tran
 from multi_nucleon_transfer_dic_calculator import calculate_wilczynski_energy_loss_and_orbiting, calculate_charge_equilibration, calculate_driving_potential, calculate_fragment_thermal_excitation_and_evaporation, predict_mnt_cross_section
 from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estimate_spin_orbit_splitting, map_pseudospin_partner, evaluate_pseudospin_symmetry_quality, diagnose_pseudospin_chiral_quartet_manifold
 from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, extract_delta_r2_from_isotope_shift, decompose_charge_radius_components, perform_king_plot_analysis, calculate_charge_radius_odd_even_staggering
+from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wkb_lifetime, check_goldanskii_true_2p_condition, model_two_proton_jacobi_distribution, calculate_cluster_radioactivity_wkb, diagnose_drip_line_decay_competition
 
 
 def cmd_kinematics(args):
@@ -1044,6 +1045,44 @@ def cmd_radius(args):
             print(f"    Odd N = {pt['N_odd']:3d} : gamma_r = {pt['gamma_r']:.3f} -> {pt['interpretation']}")
     print("=======================================================")
 
+
+def cmd_radioact(args):
+    print("\n=======================================================")
+    print(" Drip-Line Proton, True 2p & Cluster Radioactivity")
+    print("=======================================================")
+    if args.Qp is not None and args.Zd is not None and args.Ad is not None:
+        p1 = calculate_proton_decay_wkb_lifetime(args.Qp, args.lp or 0, args.Zd, args.Ad, r0_fm=args.r0 or 1.2)
+        print(f"  Single-Proton Radioactivity (Q_p = {args.Qp:.3f} MeV, l = {args.lp or 0} hbar):")
+        print(f"    Daughter Nucleus         : {args.Ad}Z({args.Zd}) [R_in = {p1['R_in_fm']:.2f} fm -> R_out = {p1['R_out_fm']:.2f} fm]")
+        print(f"    Gamow Action Integral G  : {p1['Gamow_integral_G']:.2f}")
+        print(f"    WKB Penetration Factor P : {p1['penetration_factor_P']:.3e}")
+        print(f"    Calculated Half-Life T1/2: {p1['T12_s']:.3e} s")
+
+    if args.Q2p is not None and args.Sp is not None:
+        g2p = check_goldanskii_true_2p_condition(args.Q2p, args.Sp)
+        print("-------------------------------------------------------")
+        print(f"  Goldanskii True Two-Proton Condition Check:")
+        print(f"    Q_2p = {args.Q2p:.3f} MeV | S_p = {args.Sp:.3f} MeV (Q_1p = {-args.Sp:.3f} MeV)")
+        print(f"    Is True 2p Radioactivity : {g2p['is_true_two_proton_decay']}")
+        print(f"    Diagnosis                : {g2p['diagnosis']}")
+
+    if args.Qc is not None and args.Ac is not None and args.Zc is not None and args.Zd is not None and args.Ad is not None:
+        cl = calculate_cluster_radioactivity_wkb(args.Qc, args.Ac, args.Zc, args.Ad, args.Zd, P_preformation=args.Ppref or 1e-9)
+        print("-------------------------------------------------------")
+        print(f"  Exotic Heavy Cluster Radioactivity ({cl['cluster_nucleus']} emission):")
+        print(f"    Decay Q-value            : Q_c = {args.Qc:.2f} MeV into {cl['daughter_nucleus']}")
+        print(f"    WKB Barrier Penetration  : P_WKB = {cl['P_WKB']:.3e} (Gamow G = {cl['Gamow_factor_G']:.2f})")
+        print(f"    Preformation Probability : P_pref = {cl['P_preformation']:.1e}")
+        print(f"    Predicted Half-Life      : T1/2 = {cl['T12_s']:.3e} s ({cl['T12_years']:.2e} years)")
+
+    if args.t12_p is not None or args.t12_beta is not None:
+        comp = diagnose_drip_line_decay_competition(T12_p_s=args.t12_p, T12_2p_s=args.t12_2p, T12_beta_s=args.t12_beta, T12_alpha_s=args.t12_alpha)
+        print("-------------------------------------------------------")
+        print(f"  Decay Competition Analysis:")
+        print(f"    Dominant Mode            : {comp['dominant_channel']} ({comp['dominant_branching_percent']:.1f}%)")
+        print(f"    Total Effective T1/2     : {comp['total_half_life_s']:.3e} s")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1471,6 +1510,25 @@ def main():
     p_rad.add_argument("--oes-n", type=str, default=None, help="Comma-separated neutron numbers for OES test")
     p_rad.add_argument("--oes-r2", type=str, default=None, help="Comma-separated <r^2> values in fm^2 for OES test")
     p_rad.set_defaults(func=cmd_radius)
+
+    # Drip-Line Radioactivity & Cluster Decay
+    p_rad_act = subparsers.add_parser("radioact", help="Proton drip-line radioactivity, true 2p decay and cluster emission")
+    p_rad_act.add_argument("--Qp", type=float, default=None, help="Proton decay energy Q_p in MeV")
+    p_rad_act.add_argument("--lp", type=int, default=0, help="Proton orbital angular momentum l (default: 0)")
+    p_rad_act.add_argument("--Zd", type=int, default=None, help="Daughter atomic number Z_d")
+    p_rad_act.add_argument("--Ad", type=int, default=None, help="Daughter mass number A_d")
+    p_rad_act.add_argument("--r0", type=float, default=1.2, help="Radius parameter r0 in fm (default: 1.2)")
+    p_rad_act.add_argument("--Q2p", type=float, default=None, help="Two-proton decay energy Q_2p in MeV")
+    p_rad_act.add_argument("--Sp", type=float, default=None, help="Single-proton separation energy S_p in MeV")
+    p_rad_act.add_argument("--Qc", type=float, default=None, help="Cluster decay energy Q_c in MeV")
+    p_rad_act.add_argument("--Ac", type=int, default=None, help="Emitted cluster mass number A_c")
+    p_rad_act.add_argument("--Zc", type=int, default=None, help="Emitted cluster atomic number Z_c")
+    p_rad_act.add_argument("--Ppref", type=float, default=1e-9, help="Cluster preformation probability (default: 1e-9)")
+    p_rad_act.add_argument("--t12-p", type=float, default=None, help="Partial 1p half-life in s")
+    p_rad_act.add_argument("--t12-2p", type=float, default=None, help="Partial 2p half-life in s")
+    p_rad_act.add_argument("--t12-beta", type=float, default=None, help="Partial beta+/EC half-life in s")
+    p_rad_act.add_argument("--t12-alpha", type=float, default=None, help="Partial alpha half-life in s")
+    p_rad_act.set_defaults(func=cmd_radioact)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

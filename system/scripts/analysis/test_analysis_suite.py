@@ -70,6 +70,7 @@ from two_nucleon_transfer_pairing_vibration_calculator import calculate_bcs_tran
 from multi_nucleon_transfer_dic_calculator import calculate_wilczynski_energy_loss_and_orbiting, calculate_charge_equilibration, calculate_driving_potential, calculate_fragment_thermal_excitation_and_evaporation, predict_mnt_cross_section
 from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estimate_spin_orbit_splitting, map_pseudospin_partner, evaluate_pseudospin_symmetry_quality, diagnose_pseudospin_chiral_quartet_manifold
 from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, extract_delta_r2_from_isotope_shift, decompose_charge_radius_components, perform_king_plot_analysis, calculate_charge_radius_odd_even_staggering
+from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wkb_lifetime, check_goldanskii_true_2p_condition, model_two_proton_jacobi_distribution, calculate_cluster_radioactivity_wkb, diagnose_drip_line_decay_competition
 
 
 def test_heavy_ion_kinematics():
@@ -790,6 +791,32 @@ def test_isotope_shift_charge_radii_calculator():
     assert abs(oes[0]["gamma_r"] - 0.875) < 1e-3, "OES gamma_r mismatch"
     print("  ✓ isotope_shift_charge_radii_calculator passed.")
 
+
+def test_drip_line_radioactivity_cluster_calculator():
+    print("Testing drip_line_radioactivity_cluster_calculator...")
+    # Proton decay WKB test
+    p1 = calculate_proton_decay_wkb_lifetime(Q_p_MeV=1.05, l_orbital=5, Z_daughter=68, A_daughter=146)
+    assert abs(p1["Gamow_integral_G"] - 26.95) < 0.1, f"Gamow G mismatch: {p1['Gamow_integral_G']}"
+    assert p1["is_energetically_allowed"] == True, "1p decay should be allowed"
+
+    # True 2p Goldanskii condition test
+    g2p = check_goldanskii_true_2p_condition(Q_2p_MeV=1.15, S_p_MeV=0.05)
+    assert g2p["is_true_two_proton_decay"] == True, "Should identify true 2p decay"
+
+    seq2p = check_goldanskii_true_2p_condition(Q_2p_MeV=1.15, S_p_MeV=-0.10)
+    assert seq2p["is_true_two_proton_decay"] == False, "Sequential 2p should not be classified as true 2p"
+
+    # Cluster decay test: 14C from 223Ra
+    c14 = calculate_cluster_radioactivity_wkb(Q_c_MeV=31.83, A_c=14, Z_c=6, A_d=209, Z_d=82, P_preformation=1e-9)
+    assert abs(c14["Gamow_factor_G"] - 33.64) < 0.1, f"Cluster Gamow G mismatch: {c14['Gamow_factor_G']}"
+    assert c14["T12_s"] > 1e15, "Cluster decay half-life should exceed 10^15 s"
+
+    # Competition test
+    comp = diagnose_drip_line_decay_competition(T12_p_s=0.005, T12_beta_s=0.86)
+    assert comp["dominant_channel"] == "1p_emission", "1p should be dominant"
+    assert comp["dominant_branching_percent"] > 95.0, "1p branching should exceed 95%"
+    print("  ✓ drip_line_radioactivity_cluster_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -830,4 +857,5 @@ if __name__ == "__main__":
     test_multi_nucleon_transfer_dic_calculator()
     test_rmf_spin_orbit_pseudospin_calculator()
     test_isotope_shift_charge_radii_calculator()
-    print("ALL 38 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_drip_line_radioactivity_cluster_calculator()
+    print("ALL 39 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

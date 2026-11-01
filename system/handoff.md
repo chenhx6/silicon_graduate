@@ -6103,3 +6103,21 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `radius` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **a landmark 38 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Proton drip-line radioactivity, true 2p decay and cluster emission 2026-11-02T09:30:00+08:00
+
+- Integrated proton drip-line radioactivity, Goldanskii true two-proton decay, and actinide cluster radioactivity dynamics (`knowledge/concepts/drip-line-proton-and-cluster-radioactivity.md`):
+  - Single-proton radioactivity: WKB tunneling across Coulomb and high-l centrifugal barriers $l(l+1)\hbar^2 / (2\mu r^2)$, calculating Gamow action integrals and extracting single-particle spectroscopic factors $S_p$.
+  - Goldanskii true two-proton radioactivity criterion: $Q_{2p} > 0$ and $S_p > 0$ ($Q_{1p} < 0$), proving that sequential decay is energetically closed and decay must proceed via true three-body continuum tunneling (benchmarked on $^{45}	ext{Fe}$, $^{19}	ext{Mg}$, $^{54}	ext{Zn}$).
+  - Three-body Jacobi coordinate energy sharing distribution: continuous symmetric dome-shaped distribution peaking at $\epsilon = 0.5$ (equal energy sharing $E_1 = E_2 = Q_{2p}/2$) distinguishing true 2p decay from sequential narrow resonances.
+  - Actinide cluster radioactivity (Rose & Jones 1984): WKB tunneling and preformation probabilities for $^{14}	ext{C}, {}^{20}	ext{O}, {}^{24}	ext{Ne}$ emissions driven by the enormous $Q$-value enhancement toward doubly magic $^{208}	ext{Pb}$ daughter cores.
+  - Global competition protocol: branching ratio evaluations across $1p, 2p, eta^+/	ext{EC}$, and $lpha$ channels.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/drip_line_radioactivity_cluster_calculator.py`:
+  - `calculate_proton_decay_wkb_lifetime`: 1p barrier penetration half-life;
+  - `check_goldanskii_true_2p_condition`: Goldanskii condition evaluator;
+  - `model_two_proton_jacobi_distribution`: energy sharing spectrum simulator;
+  - `calculate_cluster_radioactivity_wkb`: cluster decay Gamow factor and partial lifetime in years;
+  - `diagnose_drip_line_decay_competition`: multi-channel branching ratio diagnostics.
+- Unified CLI integration: added `radioact` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **a landmark 39 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.
