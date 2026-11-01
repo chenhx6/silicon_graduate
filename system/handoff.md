@@ -3,6 +3,14 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T04:00:00+08:00 (Ce-Nd同位素链三轴演化Prospectus与DSAM/RDM寿命分析工具落地)
+
+- **博士课题核心演化对账完成**：
+  - 沉淀前沿长卷巨著《铈-钕同位素链三轴集体演化、微观机制对账与手征/摆动前沿研究展望》（系统对账 $^{131}	ext{Ce}$, $^{133}	ext{Ce}$, $^{135}	ext{Nd}$, $^{136}	ext{Nd}$, $^{135}	ext{Pr}$ 的微观壳层拓扑与证据链，确立三大课题突破方向）；
+  - 沉淀《核激发态寿命测量全指南：DSAM、RDM活塞法与介质阻止本领反演》（覆盖 Ziegler SRIM 电子/核阻止本领模型、DDCM 活塞法衰变分析与多普勒衰减因子 (	au)$ 反演绝对 (E2)$ 与内禀四极矩 $）；
+  - 开发完成生产级核态寿命与 DSAM 反演工具（system/scripts/analysis/lifetime_lineshape_calculator.py），集成至 nuclear_analyzer CLI 并通过 6 大模块全量自动化回归测试；
+  - 成功提交（commit fa3ca9c3）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-02T02:00:00+08:00 (巨共振形变劈裂、高自旋回弯与DCO/偏振联合求解器落地)
 
 - **广泛研学纵深扩展完成**：
