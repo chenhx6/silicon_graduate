@@ -12,6 +12,7 @@ Tests:
   7. coincidence_intensity_balancer: checks 3-point background subtraction and intensity balancing.
   8. routhian_alignment_analyzer: checks rotational frequency, alignment ix, and Harris baseline.
   9. ensdf_crosswalk_parser: checks ENSDF fixed-width parsing and in-beam crosswalk matching.
+  10. excitation_function_calculator: checks target energy loss, yield-to-cross-section inversion, and resonance fit.
 """
 
 import sys
@@ -26,6 +27,7 @@ from lifetime_lineshape_calculator import calculate_stopping_time_alpha, dsam_in
 from coincidence_intensity_balancer import three_point_background_subtraction, hpge_efficiency_radware, check_level_intensity_balance
 from routhian_alignment_analyzer import calculate_alignment_and_routhians, fit_harris_reference
 from ensdf_crosswalk_parser import parse_ensdf_records, crosswalk_match
+from excitation_function_calculator import calculate_target_energy_loss, extract_cross_section_from_yield, fit_excitation_function
 
 
 def test_heavy_ion_kinematics():
@@ -174,6 +176,22 @@ def test_ensdf_crosswalk_parser():
     print("  ✓ ensdf_crosswalk_parser passed.")
 
 
+def test_excitation_function_calculator():
+    print("Testing excitation_function_calculator...")
+    eloss = calculate_target_energy_loss(150.0, 36, 16, 100, 42, 1.0)
+    assert 1.0 < eloss["delta_E_MeV"] < 20.0, f"Target energy loss error: {eloss['delta_E_MeV']}"
+    cs = extract_cross_section_from_yield(peak_area=10000.0, efficiency=0.05, branching_ratio=1.0,
+                                          beam_current_pnA=1.0, duration_hours=1.0,
+                                          target_thickness_mg_cm2=1.0, target_mass_A=100.0)
+    assert cs["sigma_mb"] > 0.0, "Cross section must be positive"
+    e_pts = [140.0, 150.0, 160.0]
+    s_pts = [100.0, 300.0, 80.0]
+    errs = [10.0, 20.0, 10.0]
+    fit_res = fit_excitation_function(e_pts, s_pts, errs)
+    assert 145.0 < fit_res["E_opt_MeV"] < 155.0, f"Peak position error: {fit_res['E_opt_MeV']}"
+    print("  ✓ excitation_function_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -185,4 +203,5 @@ if __name__ == "__main__":
     test_coincidence_intensity_balancer()
     test_routhian_alignment_analyzer()
     test_ensdf_crosswalk_parser()
-    print("ALL 9 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_excitation_function_calculator()
+    print("ALL 10 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

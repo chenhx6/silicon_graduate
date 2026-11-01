@@ -27,6 +27,7 @@ from dco_polarization_analyzer import joint_dco_polarization_fit, calculate_dco_
 from lifetime_lineshape_calculator import calculate_stopping_time_alpha, dsam_invert_lifetime, calculate_absolute_transition_strengths
 from routhian_alignment_analyzer import calculate_alignment_and_routhians, fit_harris_reference
 from ensdf_crosswalk_parser import parse_ensdf_records, crosswalk_match
+from excitation_function_calculator import calculate_target_energy_loss, extract_cross_section_from_yield, fit_excitation_function
 
 
 def cmd_kinematics(args):
@@ -167,6 +168,22 @@ def cmd_ensdf(args):
     print("=======================================================")
 
 
+def cmd_yield2cs(args):
+    cs = extract_cross_section_from_yield(
+        peak_area=args.area, efficiency=args.eff, branching_ratio=args.br,
+        beam_current_pnA=args.pnA, duration_hours=args.hours,
+        target_thickness_mg_cm2=args.target_mg, target_mass_A=args.target_A,
+        peak_area_err=args.area_err
+    )
+    print("\n=======================================================")
+    print(" Experimental Yield -> Absolute Cross Section Inversion")
+    print("=======================================================")
+    print(f"  Integrated Projectiles  : {cs['N_projectiles']:.3e} ions")
+    print(f"  Target Areal Density    : {cs['N_target_per_cm2']:.3e} nuclei/cm^2")
+    print(f"  Absolute Cross Section  : {cs['sigma_mb']:.2f} +/- {cs['sigma_err_mb']:.2f} mb")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -244,6 +261,18 @@ def main():
     p_ensdf.add_argument("--peaks", type=str, default="", help="Comma-separated experimental peak energies in keV")
     p_ensdf.add_argument("--tol", type=float, default=1.0, help="Energy matching tolerance (keV)")
     p_ensdf.set_defaults(func=cmd_ensdf)
+
+    # Yield to Cross Section Inverter
+    p_y2c = subparsers.add_parser("yield2cs", help="Invert peak counts to absolute cross section (mb)")
+    p_y2c.add_argument("--area", type=float, required=True, help="Net peak area counts")
+    p_y2c.add_argument("--area_err", type=float, default=None, help="Peak area error")
+    p_y2c.add_argument("--eff", type=float, required=True, help="Detector array peak efficiency")
+    p_y2c.add_argument("--br", type=float, default=1.0, help="Gamma emission branching ratio")
+    p_y2c.add_argument("--pnA", type=float, required=True, help="Beam current in pnA")
+    p_y2c.add_argument("--hours", type=float, required=True, help="Beam irradiation duration in hours")
+    p_y2c.add_argument("--target_mg", type=float, required=True, help="Target thickness in mg/cm^2")
+    p_y2c.add_argument("--target_A", type=float, required=True, help="Target mass number A")
+    p_y2c.set_defaults(func=cmd_yield2cs)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
