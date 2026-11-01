@@ -5910,3 +5910,19 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `fission` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to 27 scientific analysis modules, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Oslo method NLD and gSF extraction protocol with Lie group invariance 2026-11-02T04:00:00+08:00
+
+- Built comprehensive nuclear level density and gamma-ray strength function extraction knowledge base (`knowledge/concepts/oslo-method-level-density-and-gamma-strength-function.md`):
+  - Brink-Axel hypothesis: decoupling of decay probability into final-state level density and dipole transmission coefficient $P(E_x, E_\\gamma) \\propto \\rho(E_x - E_\\gamma) \\cdot \\mathcal{T}(E_\\gamma)$.
+  - Proved the continuous 3-parameter Lie group transformation invariance $\\tilde{\\rho}(E_f) = A \\exp(\\alpha E_f) \\rho(E_f)$, $\\tilde{\\mathcal{T}}(E_\\gamma) = B \\exp(\\alpha E_\\gamma) \\mathcal{T}(E_\\gamma)$ which leaves the normalized primary matrix identical to machine precision.
+  - Formulated the Oslo normalization protocol: low-energy discrete levels anchor ($N_{\\text{disc}}$), high-energy $s$-wave neutron resonance spacing anchor ($D_0$) giving $\\rho(S_n)$, and average radiation width $\\langle \\Gamma_{\\gamma 0} \\rangle$ fixing the absolute scale of $\\gamma\\text{SF}$.
+  - Deconstructed the micro-mechanism of the Low-Energy Enhancement (LEE / Upbend) as $E_\\gamma \\to 0$, driven by $M1$ quasiparticle shears transitions and its orders-of-magnitude impact on astrophysical $(n, \\gamma)$ $r$-process rates.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/oslo_method_nld_gsf_analyzer.py`:
+  - `calculate_rho_at_sn`: level density at $S_n$ from resonance spacing $D_0$ and spin cutoff $\\sigma(S_n)$;
+  - `verify_oslo_lie_transformation_invariance`: machine-precision verification of Lie group invariance;
+  - `calibrate_oslo_nld_and_gsf`: simultaneous determination of $A, \\alpha, B$ from external anchors;
+  - `diagnose_low_energy_enhancement`: automated quantitative diagnosis of the low-energy upbend slope and enhancement factor.
+- Unified CLI integration: added `oslo` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to 28 scientific analysis modules, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

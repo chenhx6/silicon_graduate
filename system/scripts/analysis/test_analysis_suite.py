@@ -59,6 +59,7 @@ from tidal_wave_dynamics_calculator import calculate_tidal_wave_kinematics, test
 from gamow_teller_ikeda_quenching_calculator import calculate_ikeda_sum_rule, evaluate_ga_quenching, convert_cross_section_to_b_gt
 from halo_breakup_momentum_calculator import calculate_hansen_jonson_fwhm, invert_separation_energy_from_fwhm, calculate_goldhaber_width, diagnose_halo_signature, calculate_cluster_soft_e1_sum_rule, estimate_matter_radius_from_reaction_cross_section
 from fission_barrier_superheavy_calculator import calculate_liquid_drop_fissility, calculate_hill_wheeler_penetration, calculate_gamma_n_over_gamma_f, estimate_superheavy_cross_section
+from oslo_method_nld_gsf_analyzer import calculate_rho_at_sn, verify_oslo_lie_transformation_invariance, calibrate_oslo_nld_and_gsf, diagnose_low_energy_enhancement
 
 
 def test_heavy_ion_kinematics():
@@ -475,6 +476,31 @@ def test_fission_barrier_superheavy_calculator():
     assert synth["sigma_ER_pb"] > 0.0, "Residue cross section must be strictly positive"
     print("  ✓ fission_barrier_superheavy_calculator passed.")
 
+
+def test_oslo_method_nld_gsf_analyzer():
+    print("Testing oslo_method_nld_gsf_analyzer...")
+    # Target 133I: D0=60 eV, It=0, Sn=7.8 MeV, A=133
+    sn_calc = calculate_rho_at_sn(D0_eV=60.0, I_target=0.0, S_n_MeV=7.8, A=133)
+    assert sn_calc["rho_Sn_MeV_inv"] > 1e5, f"Expected high level density at Sn, got {sn_calc['rho_Sn_MeV_inv']}"
+    assert 4.5 < sn_calc["spin_cutoff_sigma"] < 7.0, f"Spin cutoff out of range: {sn_calc['spin_cutoff_sigma']}"
+
+    # 3-Parameter Lie Group Invariance verification
+    ex = np.linspace(1.0, 8.0, 15)
+    eg = np.linspace(0.5, 7.5, 15)
+    r = np.exp(0.5 * ex)
+    t = 0.01 * (eg ** 2)
+    inv = verify_oslo_lie_transformation_invariance(r, t, ex, eg, A_factor=1.8, alpha_slope=0.35, B_factor=2.4)
+    assert inv["is_strictly_invariant"] == True, "Primary matrix must be strictly invariant under Lie transformation"
+    assert inv["max_absolute_difference"] < 1e-12, f"Matrix difference exceeds tolerance: {inv['max_absolute_difference']}"
+
+    # Low-Energy Enhancement (LEE) detection
+    eg_lee = np.linspace(0.5, 3.5, 10)
+    gsf_lee = 1e-7 * np.exp(-1.5 * eg_lee) + 1e-9
+    lee = diagnose_low_energy_enhancement(eg_lee, gsf_lee)
+    assert lee["has_lee"] == True, "Should detect distinct low-energy enhancement (upbend)"
+    assert lee["enhancement_ratio"] > 2.0, "Enhancement ratio should be > 2x"
+    print("  ✓ oslo_method_nld_gsf_analyzer passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -504,4 +530,5 @@ if __name__ == "__main__":
     test_gamow_teller_ikeda_quenching_calculator()
     test_halo_breakup_momentum_calculator()
     test_fission_barrier_superheavy_calculator()
-    print("ALL 27 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_oslo_method_nld_gsf_analyzer()
+    print("ALL 28 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

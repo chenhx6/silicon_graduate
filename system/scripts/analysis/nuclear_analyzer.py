@@ -45,6 +45,7 @@ from tidal_wave_dynamics_calculator import calculate_tidal_wave_kinematics, test
 from gamow_teller_ikeda_quenching_calculator import calculate_ikeda_sum_rule, evaluate_ga_quenching, convert_cross_section_to_b_gt
 from halo_breakup_momentum_calculator import calculate_hansen_jonson_fwhm, invert_separation_energy_from_fwhm, calculate_goldhaber_width, diagnose_halo_signature, calculate_cluster_soft_e1_sum_rule, estimate_matter_radius_from_reaction_cross_section
 from fission_barrier_superheavy_calculator import calculate_liquid_drop_fissility, calculate_hill_wheeler_penetration, calculate_gamma_n_over_gamma_f, estimate_superheavy_cross_section
+from oslo_method_nld_gsf_analyzer import calculate_rho_at_sn, verify_oslo_lie_transformation_invariance, calibrate_oslo_nld_and_gsf, diagnose_low_energy_enhancement
 
 
 def cmd_kinematics(args):
@@ -625,6 +626,39 @@ def cmd_fission(args):
         print(f"  Total Survival Probability P_surv: {est['P_surv_total']:.4e}")
     print("=======================================================")
 
+
+def cmd_oslo(args):
+    print("\n=======================================================")
+    print(" Oslo Method: Level Density (NLD) & Gamma Strength (gSF)")
+    print("=======================================================")
+    if args.D0 is not None and args.Sn is not None and args.A is not None:
+        sn_res = calculate_rho_at_sn(args.D0, args.It, args.Sn, args.A)
+        print(f"  Target Nucleus A={args.A}, S_n = {args.Sn:.2f} MeV (Target spin I_t = {args.It:.1f})")
+        print(f"  Neutron Resonance Spacing: D_0 = {args.D0:.2f} eV")
+        print(f"  Spin Cutoff Parameter    : sigma(S_n) = {sn_res['spin_cutoff_sigma']:.3f}")
+        print(f"  Extracted Level Density  : rho(S_n) = {sn_res['rho_Sn_MeV_inv']:.2e} MeV^-1")
+
+    if args.check_invariance:
+        ex = np.linspace(1.0, 8.0, 15)
+        eg = np.linspace(0.5, 7.5, 15)
+        r = np.exp(0.5 * ex)
+        t = 0.01 * (eg ** 2)
+        inv = verify_oslo_lie_transformation_invariance(r, t, ex, eg, A_factor=args.A_factor, alpha_slope=args.alpha, B_factor=args.B_factor)
+        print("-------------------------------------------------------")
+        print(f"  3-Parameter Lie Invariance Check: Verified = {inv['is_strictly_invariant']}")
+        print(f"  Transformation Parameters: A={args.A_factor:.2f}, alpha={args.alpha:.3f}, B={args.B_factor:.2f}")
+        print(f"  Max Normalized Matrix Diff: {inv['max_absolute_difference']:.2e} (Strictly < 1e-12)")
+
+    if args.lee_gsf is not None:
+        gsf_vals = [float(x.strip()) for x in args.lee_gsf.split(",")]
+        eg_vals = [float(x.strip()) for x in args.lee_eg.split(",")] if args.lee_eg else np.linspace(0.5, 0.5 + 0.3 * (len(gsf_vals) - 1), len(gsf_vals))
+        lee = diagnose_low_energy_enhancement(eg_vals, gsf_vals)
+        print("-------------------------------------------------------")
+        print(f"  Low-Energy Enhancement (LEE) Check: Has Upbend = {lee['has_lee']}")
+        print(f"  Enhancement Ratio at Low E_gamma  : {lee['enhancement_ratio']:.2f}x")
+        print(f"  Diagnosis                         : {lee['diagnosis']}")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -900,6 +934,20 @@ def main():
     p_fiss.add_argument("--bn-list", type=str, default=None, help="Comma-separated list of Bn for steps")
     p_fiss.add_argument("--bf-list", type=str, default=None, help="Comma-separated list of Bf for steps")
     p_fiss.set_defaults(func=cmd_fission)
+
+    # Oslo Method NLD & gSF
+    p_oslo = subparsers.add_parser("oslo", help="Oslo method level density, gamma strength function and Lie group analyzer")
+    p_oslo.add_argument("--D0", type=float, default=None, help="s-wave neutron resonance spacing D_0 in eV")
+    p_oslo.add_argument("--Sn", type=float, default=None, help="Neutron separation energy S_n in MeV")
+    p_oslo.add_argument("--It", type=float, default=0.0, help="Target ground state spin I_target (default: 0.0)")
+    p_oslo.add_argument("--A", type=int, default=None, help="Compound nucleus mass number A")
+    p_oslo.add_argument("--check-invariance", action="store_true", help="Verify 3-parameter Lie group transformation invariance")
+    p_oslo.add_argument("--A-factor", type=float, default=1.8, help="Lie transformation scale parameter A (default: 1.8)")
+    p_oslo.add_argument("--alpha", type=float, default=0.35, help="Lie transformation slope parameter alpha (default: 0.35)")
+    p_oslo.add_argument("--B-factor", type=float, default=2.4, help="Lie transformation scale parameter B (default: 2.4)")
+    p_oslo.add_argument("--lee-gsf", type=str, default=None, help="Comma-separated gSF values for LEE diagnosis")
+    p_oslo.add_argument("--lee-eg", type=str, default=None, help="Comma-separated E_gamma values in MeV for LEE diagnosis")
+    p_oslo.set_defaults(func=cmd_oslo)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
