@@ -6402,3 +6402,15 @@ u}$ zero-crossing detection;
   4. `knowledge/sources/book-wu-nuclear-experiment-methods.md`: 《原子核物理实验方法（第三版）》(吴治华, 原子能出版社 2005, ISBN 978-7-5022-3405-8), established exact physical-to-printed page offset ($\Delta = +8$), verified chapters 1 (dead time models and dual roots), 5 (HPGe electrode polarity and drift), 10 (gamma spectroscopy and 2D coincidence background subtraction), and 15 (RDM and DSAM lifetime measurements).
   5. `knowledge/sources/book-nakhostin-signal-processing-detectors.md`: 《辐射探测器信号处理》(M. Nakhostin, 吴鸿毅译, Wiley 2017 / 北大 2020, ISBN 978-1-119-02604-4), verified chapters 1 (Shockley-Ramo theorem), 4 (pulse shaping, pole-zero cancellation, ballistic deficit), and 10 (Jordanov digital trapezoidal filter recursive algorithm).
 - All 5 sources conform strictly to `system/lint-config.json` with verified locators, bibliographic data, and archive integrity.
+
+### Algebraic Yamazaki F-Coefficients, In-Beam Angular Distribution & DCO Solver (Module 93) 2026-11-02T23:55:00+08:00
+
+- Integrated exact algebraic Yamazaki / Biedenharn-Rose $F$-coefficients, directional angular distribution $W(\theta)$, and DCO dual-root solver (`directional_correlation_f_coefficients_calculator.py`):
+  - Solves $F_k(L, L', I_f, I_i) = (-1)^{I_f + I_i + L + L' - 1} \sqrt{(2L+1)(2L'+1)(2I_i+1)} C_{L 1 L' -1}^{k 0} W(I_i I_i L L'; k I_f)$ algebraically using exact Clebsch-Gordan and Wigner $6j$ coefficients in pure Python.
+  - Benchmarked against Hamilton (1975) Appendix 2 tables (p. 890–891 / PDF p. 901–902): verified exact 100% agreement on all tested transitions ($2^+ \to 0^+$, $1 \to 0$, $1 \to 1$, $3/2 \to 3/2$, $15/2 \to 13/2$).
+  - Solves the analytic quadratic equation $(a_2 - \alpha_2 F_2(22)) \delta^2 - 2\alpha_2 F_2(12) \delta + (a_2 - \alpha_2 F_2(11)) = 0$, evaluating the discriminant $\Delta = B^2 - 4AC$ and returning both real roots without table lookups or heuristic truncation.
+  - Calculates in-beam DCO ratio $R_{\text{DCO}}(\theta_1, \theta_2)$ and ADO ratio directly from initial and final state spins $(I_i, I_f)$ and mixing ratio $\delta$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `fcoeff`.
+- Created concept page: `knowledge/concepts/directional-angular-correlation-f-coefficients-and-dco-formalism.md`.
+- Added unit test suite `system/tests/test_directional_correlation_f_coefficients.py` (6 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include `directional_correlation_f_coefficients_calculator`, passing cleanly.

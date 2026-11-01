@@ -124,6 +124,7 @@ from detector_deadtime_pileup_correction_calculator import calculate_deadtime_mo
 from heavy_ion_fusion_evaporation_channel_calculator import analyze_heavy_ion_fusion
 from poisson_likelihood_peak_fitting_bias_calculator import evaluate_peak_fitting_methods
 from coriolis_attenuation_bandcrossing_calculator import calculate_coriolis_matrix_elements, analyze_backbending_alignment
+from directional_correlation_f_coefficients_calculator import calculate_f_coefficient, calculate_angular_distribution_coefficients, invert_delta_dual_roots, calculate_dco_and_ado_ratios
 
 
 def test_heavy_ion_kinematics():
@@ -1616,6 +1617,25 @@ def test_coriolis_attenuation_bandcrossing_calculator():
     assert bb["backbending_diagnostics"]["maximum_quasiparticle_alignment_ix"] > 8.0, "Quasiparticle alignment check"
     print("  ✓ coriolis_attenuation_bandcrossing_calculator passed.")
 
+
+def test_directional_correlation_f_coefficients_calculator():
+    print("Testing directional_correlation_f_coefficients_calculator...")
+    # 2+ -> 0+ stretched E2 (Hamilton Table Appendix 2)
+    f2 = calculate_f_coefficient(2, 2, 2, If=0.0, Ii=2.0)
+    assert abs(f2 - (-0.5976)) < 1e-3, "F2(2 2 0 2) Hamilton benchmark"
+
+    # Ii = 15/2 -> If = 13/2 dipole/quadrupole mixed transition
+    dist = calculate_angular_distribution_coefficients(Ii=7.5, If=6.5, delta=-0.15, alpha2=0.85)
+    a2_theo = dist["attenuated_a_k"]["a2"]
+    inv = invert_delta_dual_roots(a2_theo, Ii=7.5, If=6.5, alpha2=0.85)
+    assert inv["has_real_roots"], "Must yield real roots for physical a2"
+    assert abs(inv["root1_small_magnitude"] - (-0.15)) < 1e-3, "Dual root inversion must recover delta=-0.15"
+
+    dco = calculate_dco_and_ado_ratios(Ii=7.5, If=6.5, delta=-0.15, theta1_deg=30.0, theta2_deg=90.0)
+    assert dco["R_DCO"] > 1.0, "DCO ratio test"
+    print("  ✓ directional_correlation_f_coefficients_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -1709,4 +1729,5 @@ if __name__ == "__main__":
     test_heavy_ion_fusion_evaporation_channel_calculator()
     test_poisson_likelihood_peak_fitting_bias_calculator()
     test_coriolis_attenuation_bandcrossing_calculator()
+    test_directional_correlation_f_coefficients_calculator()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

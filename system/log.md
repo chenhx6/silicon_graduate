@@ -5109,3 +5109,4 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-11-02: Expanded nuclear analysis suite to 92 modules (GDR, IVGDR isospin splitting, coincidence balancer, detector dead time reconciler, heavy-ion fusion designer, Poisson MLE peak fitter, Coriolis attenuation) and assimilated library books.
 - 2026-11-02: Completed 33-PDF library corpus inventory (12,076 pages, 318 packets), verified Petrache/BM/Wang/Cowan source locators, hardened 4 analysis modules with unit tests.
 - 2026-11-02: Standardized 5 core Chinese textbook sources (Lu Xiting, Lin Chengjian, Zhu Yongsheng, Wu Zhihua, Nakhostin) with exact page offsets and verified locators.
+- 2026-11-02: Added Module 93 (fcoeff) for exact algebraic Yamazaki F-coefficients, angular distribution, and DCO dual-root delta inversion.

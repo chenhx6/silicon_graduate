@@ -110,6 +110,7 @@ from detector_deadtime_pileup_correction_calculator import calculate_deadtime_mo
 from heavy_ion_fusion_evaporation_channel_calculator import analyze_heavy_ion_fusion, format_text_report as format_fusion_report
 from poisson_likelihood_peak_fitting_bias_calculator import evaluate_peak_fitting_methods, format_text_report as format_poissonfit_report
 from coriolis_attenuation_bandcrossing_calculator import calculate_coriolis_matrix_elements, analyze_backbending_alignment, format_text_report as format_coriolis_report
+from directional_correlation_f_coefficients_calculator import calculate_angular_distribution_coefficients, invert_delta_dual_roots, calculate_dco_and_ado_ratios, format_text_report as format_fcoeff_report
 
 
 def cmd_kinematics(args):
@@ -1937,6 +1938,33 @@ def cmd_coriolis(args):
         print(format_coriolis_report(mat, bb, args.spin, args.j_orbital))
 
 
+def cmd_fcoeff(args):
+    dist = calculate_angular_distribution_coefficients(
+        Ii=args.Ii, If=args.If, delta=args.delta, alpha2=args.alpha2, alpha4=args.alpha4
+    )
+    inv = None
+    if args.a2_meas is not None:
+        inv = invert_delta_dual_roots(
+            a2_measured=args.a2_meas, Ii=args.Ii, If=args.If, alpha2=args.alpha2
+        )
+    elif args.Ii == 7.5 and args.If == 6.5:
+        inv = invert_delta_dual_roots(
+            a2_measured=dist["attenuated_a_k"]["a2"], Ii=args.Ii, If=args.If, alpha2=args.alpha2
+        )
+    dco = calculate_dco_and_ado_ratios(
+        Ii=args.Ii, If=args.If, delta=args.delta, theta1_deg=args.th1, theta2_deg=args.th2,
+        alpha2=args.alpha2, alpha4=args.alpha4
+    )
+    if args.json:
+        import json
+        out = {"distribution": dist, "dco_ratio": dco}
+        if inv is not None:
+            out["inversion"] = inv
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_fcoeff_report(dist, inv, dco))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -2965,6 +2993,19 @@ def main():
     p_cor.add_argument("--xi", type=float, default=0.75, help="Coriolis attenuation factor xi")
     p_cor.add_argument("--json", action="store_true", help="Output JSON")
     p_cor.set_defaults(func=cmd_coriolis)
+
+    # Directional Correlation F-Coefficients, Angular Distribution & DCO Inverter
+    p_fc = subparsers.add_parser("fcoeff", help="Exact Yamazaki F-coefficients, angular distribution a2/a4, DCO ratio and dual-root delta inverter")
+    p_fc.add_argument("--Ii", "-i", type=float, default=7.5, help="Initial spin Ii in hbar (default: 7.5, 15/2)")
+    p_fc.add_argument("--If", "-f", type=float, default=6.5, help="Final spin If in hbar (default: 6.5, 13/2)")
+    p_fc.add_argument("--delta", "-d", type=float, default=-0.15, help="Mixing ratio delta(E2/M1) (default: -0.15)")
+    p_fc.add_argument("--alpha2", type=float, default=0.85, help="Orientation attenuation alpha2 (default: 0.85)")
+    p_fc.add_argument("--alpha4", type=float, default=0.60, help="Orientation attenuation alpha4 (default: 0.60)")
+    p_fc.add_argument("--a2-meas", type=float, default=None, help="Measured a2 to invert dual roots")
+    p_fc.add_argument("--th1", type=float, default=30.0, help="DCO detector 1 angle in deg (default: 30.0)")
+    p_fc.add_argument("--th2", type=float, default=90.0, help="DCO detector 2 angle in deg (default: 90.0)")
+    p_fc.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_fc.set_defaults(func=cmd_fcoeff)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
