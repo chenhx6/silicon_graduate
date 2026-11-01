@@ -7,6 +7,28 @@ updated: 2026-11-01
 
 # Wiki Index
 
+## 核心专著深度吸收与核结构专家级综合资产 (2026-11-01)
+
+- [[drip-line-physics-and-frib-science]] — **极不稳定性核、中子滴线与 FRIB 稀有同位素科学前沿**：基于 FRIB 科学报告，阐述中子晕与中子皮形成机制、反转岛与传统幻数崩溃，以及弱束缚开放量子系统对微观四极形变与三轴极化的深刻映射。
+- [[frdm-nuclear-mass-and-deformation-systematics]] — **FRDM 宏观-微观模型全核素基态形变与结合能系统学手册**：基于 Möller 2019 (ADNDT)，建立全核素图基态四极形变 $eta_2$、十六极形变 $eta_4$、三轴形变 $\gamma$ 与单粒子分离能基准，给出 pprox 130$（Ce, Pr, Nd）基态形变参数对照表。
+- [[coherent-state-model-and-semiclassical-triaxiality]] — **相干态表象与三轴非对称转动半经典动力学**：基于 Raduta 2016 专著，阐述玻色子相干态角动量投影、半经典相轨道与庞加莱截面分析，揭示转动能量极小值分岔与手征/摆动模式的经典动力系统对应。
+- [[advanced-statistical-inference-feldman-cousins-and-mcmc]] — **现代实验物理高级统计推断：Profile Likelihood、Feldman-Cousins 与 Bootstrap 实战**：基于 Behnke 与 Bonamente，解决微弱 Poisson 计数、物理边界（分支比 $\in [0, 1]$）与强非线性参数的真实非对称置信区间反演。
+- [[triaxial-rigid-rotor-davydov-filipov-model]] — **三轴刚性转子 Davydov-Filipov 模型解析解与跃迁比率推导**：基于 Greiner《Nuclear Models》，推导非对称转子哈密顿量在 $ 群下的矩阵对角化、提取非对称角 $\gamma$ 的 (2_2^+)/E(2_1^+)$ 能级比值定理与 (E2)$ 跨带分支比。
+- [[nuclear-isomers-and-k-hindrance-mechanisms]] — **同核异能态微观机制、K-阻碍跃迁与在束谱学时间窗判据**：基于 Jain《Nuclear Isomers》与 Bohr-Mottelson，阐述自旋陷阱、Seniority 异能态、hBc禁戒度 $
+u = |\Delta K| - \lambda$、折合阻碍度
+u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶室与延迟符合窗口应对。
+- [[compound-nucleus-statistical-decay-and-level-density]] — **复合核统计衰变、能级密度参数化与蒸发道竞争计算手册**：基于 Bertulani《反应论》与 IAEA RIPL-2，建立 Hauser-Feshbach 统计截面、BSFG 反冲费米气体能级密度、自旋截止因子 $\sigma^2$ 与 $ 蒸发窗最优能量速算模型。
+- [[global-chiral-doublet-bands-systematics-atlas]] — **手征双重带全球四大质量区图谱与同位素链演化系统学**：基于熊博文 & 王媛媛（ADNDT 2019）与 Frauendorf 2001，系统解构 pprox 80, 100, 130, 190$ 四大质量区手征带特征，重点对账 pprox 130$（Nd, Ce, Pr）同位素链中子数演化与三轴集体模式竞争。
+- [[shell-evolution-and-triaxial-core-polarization]] — **微观壳演化、单极漂移与三轴核芯极化动力学**：基于 Heyde《Basic Ideas》与现代壳模型特刊，阐述单极相互作用（Monopole drift）、大塚张量力自旋翻转机制，以及粒子-空穴四极相互作用驱动微观稳定三轴核芯（$\gamma pprox 30^\circ$）的内在本质。
+- [[nuclear-structure-expert-protocol]] () — **低能核结构专家工作准则与认知协议**：定义大模型在 Wiki 中作为核结构专家的三大本能（三轴惯量几何直觉、五道门裁判标准、在束实验全流程实战）与统一调用规范。
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]] — **三轴形变原子核集体激发模式统一动力学理论与实验谱学判决全书**：系统整合 Petrache 2024、Frauendorf 2001/2014、Bohr-Mottelson、Greiner，详尽解构三轴惯量椭球（$\mathcal{J}_m > \mathcal{J}_s > \mathcal{J}_l$）、横向摆动（TW）vs 纵向摆动（LW）、手征三面体自发对称性破缺、旋称伙伴带竞争与 $\gamma$ 软核声子耦合假象，确立在束谱学“五道门”刚性裁判法典。
+- [[in-beam-spectroscopy-experimental-master-manual]] — **在束 γ 谱学与重离子反应实验设计及数据分析全链条专家手册**：贯穿林承键《重离子核反应》+ 吴治华《原子核物理实验方法》+ Hamilton 1975 + Nakhostin《辐射探测器信号处理》+ 朱永生《实验物理中的概率和统计》，覆盖从 Proposal 束流能量与靶厚计算、HPGe 阵列几何、数字梯形滤波（DPP）、符合矩阵构建、角分布/偏振联合拟合、双根破除到寿命测量的六阶段全闭环实战指南。
+- [[nuclear-physics-standard-terminology-chinese-english]] — **低能核物理与核结构核心中英文标准术语与概念体系规范**：依据卢希庭《原子核物理（修订版）》与全国科技名词审定委员会，统一形变、集体运动、在束谱学与反应动力学的地道中文学术表达，为开题报告与中文期刊写作立标。
+- [[nuclear-detector-spectroscopy-wu-vs-wang-reconciliation]] — **实验核谱学探测技术指南：吴治华《原子核物理实验方法》与汪晓莲《粒子探测技术》视界解冲突与互补手册**：剖析低能束内谱学（keV 级极高能量分辨率、HPGe、$\mu 级梯形成形消除弹道亏损）与高能粒子物理（GeV、空间径迹、ns 级快速成形防堆积）的物理目标差异，彻底化解两书表观矛盾。
+- [[digital-pulse-processing-algorithms-nuclear-detectors]] — **现代半导体与闪烁体探测器数字脉冲处理算法实战**：推导数字极零相消、Jordanov 递归梯形滤波、滑动基线恢复与数字 CFD 恒比定时离散方程。
+- [[experimental-statistics-and-dual-root-determination]] — **实验物理统计分析、误差传播与多解/双根退化判决指南**：推导 Legendre 展开加权最小二乘法、$ 二次方程导致的混合比 $\delta(E2/M1)$ 双根退化机理与线偏振破除双根的联合似然检验。
+- [[nuclear-analyzer]] () — **实验物理跨设备零外部依赖 Python 分析工具链**：包含 , , ,  及其自动化测试套件 。
+
 ## Day30 课程收束与月度Prospectus
 
 - [[post-30-day-nuclear-structure-paper-prospectus]] — 把30天后研究压缩为七个可投稿候选：135Pr共同响应审计、131Xe对象/分支边界、135Nd/134Pr绝对电磁量、跨质量区八极证据梯、P-ADO跨反应对齐零假说、131Ce/133Ce三轴集体模式判别与全库主张校准认识论。
