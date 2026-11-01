@@ -45,6 +45,7 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[compound-nucleus-statistical-decay-and-level-density]] — **复合核统计衰变、能级密度参数化与蒸发道竞争计算手册**：基于 Bertulani《反应论》与 IAEA RIPL-2，建立 Hauser-Feshbach 统计截面、BSFG 反冲费米气体能级密度、自旋截止因子 $\sigma^2$ 与 $ 蒸发窗最优能量速算模型。
 - [[global-chiral-doublet-bands-systematics-atlas]] — **手征双重带全球四大质量区图谱与同位素链演化系统学**：基于熊博文 & 王媛媛（ADNDT 2019）与 Frauendorf 2001，系统解构 pprox 80, 100, 130, 190$ 四大质量区手征带特征，重点对账 pprox 130$（Nd, Ce, Pr）同位素链中子数演化与三轴集体模式竞争。
 - [[shell-evolution-and-triaxial-core-polarization]] — **微观壳演化、单极漂移与三轴核芯极化动力学**：基于 Heyde《Basic Ideas》与现代壳模型特刊，阐述单极相互作用（Monopole drift）、大塚张量力自旋翻转机制，以及粒子-空穴四极相互作用驱动微观稳定三轴核芯（$\gamma pprox 30^\circ$）的内在本质。
+- [[relativistic-mean-field-spin-orbit-and-pseudospin]] — **相对论平均场（RMF）、协变自旋-轨道耦合与狄拉克赝自旋对称性（PSS）动力学**：基于 Serot-Walecka 1986、Ginocchio 1997 与 Meng 1998/1999，阐述大标量势 $S(r) \approx -400\text{ MeV}$ 与大矢量势 $V(r) \approx +350\text{ MeV}$ 自然导出中心结合势 $V+S \approx -50\text{ MeV}$ 与强自旋-轨道力 $V-S \approx 750\text{ MeV}$，推导 Ginocchio 赝自旋对称性狄拉克小分量条件 $\frac{d}{dr}[V+S]=0$，以及在 $A\approx 130$（如 $^{131}\text{Ba}$）手征-赝自旋四重带（Quartet）中的微观结构表现。
 - [[nuclear-structure-expert-protocol]] () — **低能核结构专家工作准则与认知协议**：定义大模型在 Wiki 中作为核结构专家的三大本能（三轴惯量几何直觉、五道门裁判标准、在束实验全流程实战）与统一调用规范。
 - [[triaxial-collective-modes-unified-theory-and-spectroscopy]] — **三轴形变原子核集体激发模式统一动力学理论与实验谱学判决全书**：系统整合 Petrache 2024、Frauendorf 2001/2014、Bohr-Mottelson、Greiner，详尽解构三轴惯量椭球（$\mathcal{J}_m > \mathcal{J}_s > \mathcal{J}_l$）、横向摆动（TW）vs 纵向摆动（LW）、手征三面体自发对称性破缺、旋称伙伴带竞争与 $\gamma$ 软核声子耦合假象，确立在束谱学“五道门”刚性裁判法典。
 - [[vacuum-deorientation-effect-and-perturbed-angular-correlations]]

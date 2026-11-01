@@ -6069,3 +6069,20 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `mnt` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **a monumental 36 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### RMF theory, spin-orbit coupling and pseudospin symmetry 2026-11-02T08:30:00+08:00
+
+- Integrated Relativistic Mean Field (RMF) theory, Covariant Density Functional Theory (CDFT), Dirac spin-orbit coupling, and Pseudospin Symmetry (PSS) dynamics (`knowledge/concepts/relativistic-mean-field-spin-orbit-and-pseudospin.md`):
+  - Origin of nuclear spin-orbit coupling: scalar potential $S(r) \\approx -400\\text{ MeV}$ and vector potential $V(r) \\approx +350\\text{ MeV}$ cancellation yielding shallow central binding $V_{\\text{cent}} = V+S \\approx -50\\text{ MeV}$ while their sum $V-S \\approx +750\\text{ MeV}$ generates an enormous radial gradient $\\frac{1}{2M^2 r}\\frac{d(V-S)}{dr} \\vec{l}\\cdot\\vec{s}$, naturally explaining the strong nuclear spin-orbit splitting without free phenomenological parameters.
+  - Ginocchio relativistic pseudospin symmetry: quasi-degeneracy of single-particle pairs $(n, l, j=l+1/2)$ and $(n-1, l+2, j=l+3/2)$ sharing pseudo-orbital $\\tilde{l} = l+1$ and $\\tilde{s}=1/2$, proven to be exact when $\\frac{d}{dr}[V(r)+S(r)] = 0$.
+  - Quantified the PSS quality ratio $Q_{\\text{PSS}} = \\Delta E_{\\text{PSS}} / \\Delta E_{SO} \\ll 0.15$ in heavy nuclei ($^{208}\\text{Pb}$ $2d_{5/2} - 1g_{7/2}$ split of $0.33\\text{ MeV}$ vs $3.33\\text{ MeV}$ spin-orbit split).
+  - Linked to $A \\approx 130$ pseudospin-chiral quartet bands (e.g. $^{131}\\text{Ba}$ D3-D6, Guo 2020), where dual spontaneous breaking of chiral and pseudospin symmetries produces an intra-band four-fold manifold with average dispersion $< 450\\text{ keV}$.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/rmf_spin_orbit_pseudospin_calculator.py`:
+  - `calculate_rmf_potentials`: Woods-Saxon RMF potentials and central/spin-orbit depth;
+  - `estimate_spin_orbit_splitting`: single-particle spin-orbit energy gap $\\Delta E_{SO}$;
+  - `map_pseudospin_partner`: mapping single-particle states to pseudo-orbitals $\\tilde{l}$;
+  - `evaluate_pseudospin_symmetry_quality`: quantitative PSS quality ratio $Q_{\\text{PSS}}$;
+  - `diagnose_pseudospin_chiral_quartet_manifold`: four-band dispersion analyzer.
+- Unified CLI integration: added `rmf` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **a landmark 37 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

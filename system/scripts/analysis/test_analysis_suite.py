@@ -68,6 +68,7 @@ from relativistic_coulex_virtual_photon_calculator import calculate_relativistic
 from electromagnetic_transition_alaga_calculator import calculate_weisskopf_unit, convert_lifetime_to_b_e2, calculate_alaga_ratio_e2, calculate_bm1_over_be2
 from two_nucleon_transfer_pairing_vibration_calculator import calculate_bcs_transfer_enhancement, calculate_pairing_vibration_energies, evaluate_kinematic_q_matching, calculate_josephson_transfer_probability
 from multi_nucleon_transfer_dic_calculator import calculate_wilczynski_energy_loss_and_orbiting, calculate_charge_equilibration, calculate_driving_potential, calculate_fragment_thermal_excitation_and_evaporation, predict_mnt_cross_section
+from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estimate_spin_orbit_splitting, map_pseudospin_partner, evaluate_pseudospin_symmetry_quality, diagnose_pseudospin_chiral_quartet_manifold
 
 
 def test_heavy_ion_kinematics():
@@ -725,6 +726,39 @@ def test_multi_nucleon_transfer_dic_calculator():
     assert cs["sigma_MNT_mb"] > 5.0, "MNT cross section unexpectedly low"
     print("  ✓ multi_nucleon_transfer_dic_calculator passed.")
 
+
+def test_rmf_spin_orbit_pseudospin_calculator():
+    print("Testing rmf_spin_orbit_pseudospin_calculator...")
+    # RMF potential test
+    pot = calculate_rmf_potentials([0.0, 5.0, 10.0])
+    assert pot["central_depth_origin_MeV"] < -60.0, f"Central depth mismatch: {pot['central_depth_origin_MeV']}"
+    assert pot["diff_potential_origin_MeV"] > 700.0, f"Difference potential mismatch: {pot['diff_potential_origin_MeV']}"
+
+    # Spin-orbit splitting: 16O p-wave
+    so = estimate_spin_orbit_splitting(l_orbital=1, A=16)
+    assert abs(so["Delta_E_SO_estimated_MeV"] - 6.14) < 0.1, "16O spin-orbit split mismatch"
+
+    # Pseudospin mapping: (2s1/2, 1d3/2)
+    ps = map_pseudospin_partner(n_principal=2, l_orbital=0)
+    assert ps["state_1"] == "2s_1/2", "State 1 mismatch"
+    assert ps["state_2"] == "1d_3/2", "State 2 mismatch"
+    assert ps["pseudo_orbital_tilde_l"] == 1, "Tilde l mismatch"
+
+    # Pseudospin quality
+    qual = evaluate_pseudospin_symmetry_quality(E_state1_MeV=-7.94, E_state2_MeV=-8.27, Delta_E_SO_MeV=3.33)
+    assert qual["is_good_pseudospin_symmetry"] == True, "Should identify high-grade pseudospin symmetry"
+    assert qual["Q_PSS_ratio"] < 0.15, "Quality ratio should be < 0.15"
+
+    # Quartet diagnosis
+    sp = [11.5, 12.5, 13.5]
+    b1 = [2500, 2900, 3400]
+    b2 = [2600, 3050, 3520]
+    b3 = [2720, 3180, 3680]
+    b4 = [2850, 3300, 3790]
+    quart = diagnose_pseudospin_chiral_quartet_manifold(sp, b1, b2, b3, b4)
+    assert quart["is_quartet_candidate"] == True, "Should identify candidate quartet"
+    print("  ✓ rmf_spin_orbit_pseudospin_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -763,4 +797,5 @@ if __name__ == "__main__":
     test_electromagnetic_transition_alaga_calculator()
     test_two_nucleon_transfer_pairing_vibration_calculator()
     test_multi_nucleon_transfer_dic_calculator()
-    print("ALL 36 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_rmf_spin_orbit_pseudospin_calculator()
+    print("ALL 37 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

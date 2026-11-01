@@ -54,6 +54,7 @@ from relativistic_coulex_virtual_photon_calculator import calculate_relativistic
 from electromagnetic_transition_alaga_calculator import calculate_weisskopf_unit, convert_lifetime_to_b_e2, calculate_alaga_ratio_e2, calculate_bm1_over_be2
 from two_nucleon_transfer_pairing_vibration_calculator import calculate_bcs_transfer_enhancement, calculate_pairing_vibration_energies, evaluate_kinematic_q_matching, calculate_josephson_transfer_probability
 from multi_nucleon_transfer_dic_calculator import calculate_wilczynski_energy_loss_and_orbiting, calculate_charge_equilibration, calculate_driving_potential, calculate_fragment_thermal_excitation_and_evaporation, predict_mnt_cross_section
+from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estimate_spin_orbit_splitting, map_pseudospin_partner, evaluate_pseudospin_symmetry_quality, diagnose_pseudospin_chiral_quartet_manifold
 
 
 def cmd_kinematics(args):
@@ -963,6 +964,43 @@ def cmd_mnt(args):
         print(f"    sigma_MNT = {cs['sigma_MNT_mb']:.3f} mb ({cs['sigma_MNT_microbarn']:.1f} microbarns) [Transfer prob = {cs['transfer_probability']:.3e}]")
     print("=======================================================")
 
+
+def cmd_rmf(args):
+    print("\n=======================================================")
+    print(" RMF Theory, Spin-Orbit & Pseudospin Symmetry (PSS)")
+    print("=======================================================")
+    if args.pot:
+        r_grid = np.linspace(0.0, 10.0, 21)
+        pot = calculate_rmf_potentials(r_grid, S0_MeV=args.S0 or -420.0, V0_MeV=args.V0 or 350.0, R0_fm=args.R0 or 6.5)
+        print(f"  RMF Woods-Saxon Potentials (S0 = {args.S0 or -420.0:.1f} MeV, V0 = {args.V0 or 350.0:.1f} MeV):")
+        print(f"    Central Binding Depth V+S    : {pot['central_depth_origin_MeV']:+.1f} MeV (Weak attractive well)")
+        print(f"    Spin-Orbit Driving Sum V-S   : {pot['diff_potential_origin_MeV']:+.1f} MeV (Enormous relativistic gradient)")
+
+    if args.l_so is not None and args.A is not None:
+        so = estimate_spin_orbit_splitting(args.l_so, args.A)
+        print("-------------------------------------------------------")
+        print(f"  Relativistic Spin-Orbit Energy Splitting (l = {args.l_so}, A = {args.A}):")
+        print(f"    Subshell Splitting (j = {so['j_lower']} vs {so['j_higher']}) : Delta E_SO = {so['Delta_E_SO_estimated_MeV']:.2f} MeV")
+
+    if args.n_pss is not None and args.l_pss is not None:
+        ps_map = map_pseudospin_partner(args.n_pss, args.l_pss)
+        print("-------------------------------------------------------")
+        print(f"  Pseudospin Partner Mapping (Input: n={args.n_pss}, l={args.l_pss}):")
+        print(f"    State 1 (j = l + 1/2)        : {ps_map['state_1']}")
+        print(f"    State 2 (j = l + 3/2)        : {ps_map['state_2']}")
+        print(f"    Pseudo-Orbital Quantum Number: tilde(l) = {ps_map['pseudo_orbital_tilde_l']} [{ps_map['pseudo_spectroscopic']}]")
+        print(f"    Pseudospin Quantum Numbers   : j = {ps_map['pseudospin_j1']} and {ps_map['pseudospin_j2']}")
+
+    if args.pss_e1 is not None and args.pss_e2 is not None:
+        so_val = args.pss_so if args.pss_so is not None else 3.5
+        qual = evaluate_pseudospin_symmetry_quality(args.pss_e1, args.pss_e2, so_val)
+        print("-------------------------------------------------------")
+        print(f"  Pseudospin Symmetry Quality Evaluation (E1 = {args.pss_e1:.2f}, E2 = {args.pss_e2:.2f} MeV):")
+        print(f"    PSS Energy Splitting DeltaE  : {qual['Delta_E_PSS_MeV']*1000.0:.1f} keV")
+        print(f"    Relative Quality Factor Q_PSS: {qual['Q_PSS_ratio']*100.0:.1f}% of normal spin-orbit split")
+        print(f"    Diagnosis                    : {qual['diagnosis']}")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1361,6 +1399,21 @@ def main():
     p_mnt.add_argument("--dN", type=int, default=None, help="Net neutron transfer number Delta N to target")
     p_mnt.add_argument("--sig-dic", type=float, default=1200.0, help="Total deep inelastic cross section in mb (default: 1200)")
     p_mnt.set_defaults(func=cmd_mnt)
+
+    # RMF Spin-Orbit & Pseudospin Symmetry
+    p_rmf = subparsers.add_parser("rmf", help="Relativistic mean field (RMF), spin-orbit splitting and pseudospin symmetry (PSS)")
+    p_rmf.add_argument("--pot", action="store_true", help="Display RMF scalar/vector potentials and central/spin-orbit depth")
+    p_rmf.add_argument("--S0", type=float, default=None, help="Scalar potential depth S0 in MeV (default: -420)")
+    p_rmf.add_argument("--V0", type=float, default=None, help="Vector potential depth V0 in MeV (default: +350)")
+    p_rmf.add_argument("--R0", type=float, default=None, help="Radius parameter R0 in fm (default: 6.5)")
+    p_rmf.add_argument("--l-so", type=int, default=None, help="Orbital angular momentum l for spin-orbit splitting")
+    p_rmf.add_argument("--A", type=int, default=None, help="Mass number A")
+    p_rmf.add_argument("--n-pss", type=int, default=None, help="Principal quantum number n for pseudospin mapping")
+    p_rmf.add_argument("--l-pss", type=int, default=None, help="Orbital quantum number l for pseudospin mapping")
+    p_rmf.add_argument("--pss-e1", type=float, default=None, help="Energy of state 1 in MeV")
+    p_rmf.add_argument("--pss-e2", type=float, default=None, help="Energy of state 2 in MeV")
+    p_rmf.add_argument("--pss-so", type=float, default=None, help="Normal spin-orbit splitting baseline in MeV")
+    p_rmf.set_defaults(func=cmd_rmf)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
