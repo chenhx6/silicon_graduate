@@ -3,6 +3,20 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T17:30:00+08:00 (RDDS柱塞法皮秒寿命与DDCM、无中微子双贝塔NME、核彩虹偏转角、核芯极化有效电荷与双峰裂变异能态等5大分析器落地，69模块闭环)
+
+- **全域核物理理论与在束实验分析系统化闭环拓展（64 -> 69 模块）**：
+  - **模块 65**：反冲距离多普勒频移（RDDS）柱塞法皮秒能级寿命与微分衰变曲线（DDCM）计算器（`rdds_plunger_lifetime_calculator.py`），通过压电微米位移标定 $1 \sim 200\text{ ps}$ 能级寿命，利用频移曲线空间导数 $dI_s/dd$ 严格剔除上游侧馈送时间延迟依赖，反演核集体四极跃迁几率 $B(E2)$ 与电四极矩 $Q_t$；
+  - **模块 66**：无中微子双贝塔衰变（$0\nu\beta\beta$）核矩阵元（NME）、相空间 $G_{0\nu}$ 与有效马约拉纳中微子质量灵敏度分析器（`double_beta_decay_nme_calculator.py`），计算闭合近似中微子势虚粒子交换矩阵元，评估轴矢量流 $g_A^4$ 介质淬灭对寿命的拉长效应，对 $^{76}\text{Ge}, {}^{136}\text{Xe}$ 给出倒序质量谱探测灵敏度标定；
+  - **模块 67**：重离子半经典偏转函数、核彩虹散射与掠射角计算器（`heavy_ion_elastic_rainbow_scattering_calculator.py`），推导库仑排斥与 Woods-Saxon 表面吸引势的力学竞争，解算 Blair 四分之一强吸收掠射角 $\theta_{1/4}$ 与核彩虹极值角 $\theta_{\text{rainbow}}$，指导在束带电粒子望远镜阵列的最优角度部署；
+  - **模块 68**：核芯微观极化率、巨四极共振（GQR）耦合与核子有效电荷（$e_p^{\text{eff}}, e_n^{\text{eff}}$）计算器（`core_polarization_effective_charge_calculator.py`），基于等标与等矢巨四极共振虚拟激发微扰，阐明中性中子披上“正电荷极化衣”获得 $\sim 0.5e$ 电四极强度的微观机理，建立从单粒子 $B(E2)$ 逆推经验有效电荷的算法；
+  - **模块 69**：双峰裂变势垒量子穿透、形状异能态（Class-II）与亚阈中间共振计算器（`fission_isomer_double_hump_transmission_calculator.py`），解算 Strutinsky 超形变第二极小基态纳秒-毫秒自发裂变与反向 $\gamma$ 衰变分支，推导双抛物线势垒量子相干穿透公式，解析复现亚阈中子裂变截面中出现的 $T \to 1.0$ 尖锐中间结构共振群；
+  - **知识大脑与测试全绿**：
+    - 撰写 5 篇权威概念专论，更新 `knowledge/index.md`；
+    - 升级 `nuclear-spectroscopy-and-structure-master-field-manual.md` 为 69 模块完整闭环指南；
+    - 统一 CLI `nuclear_analyzer.py` 新增 `rdds`, `dbd`, `rainbow`, `effcharge`, `fissiso` 子命令；
+    - `test_analysis_suite.py` 自动化回归测试扩展至 **69 大科学分析模块 100% 绿灯全通**！
+
 ## Active checkpoint — 2026-11-02T16:30:00+08:00 (轴对称RMF约束形变、IAS库仑能与CED、伽马级联量能学、Wigner超多重态SU(4)与线动量转移LMT等5大分析器落地，64模块闭环)
 
 - **全域核物理理论与在束实验分析系统化闭环拓展（59 -> 64 模块）**：

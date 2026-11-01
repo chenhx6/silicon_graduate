@@ -82,6 +82,11 @@ from isobaric_analog_state_ced_calculator import calculate_coulomb_displacement_
 from gamma_cascade_calorimetry_calculator import simulate_gamma_cascade, compare_evaporation_channel_entry_points, format_text_report as format_calorim_report
 from wigner_supermultiplet_su4_calculator import calculate_wigner_energy, scan_isobaric_wigner_cusp, format_text_report as format_wigner_report
 from linear_momentum_transfer_incomplete_fusion_calculator import calculate_linear_momentum_transfer, scan_folding_angle_vs_lmt, format_text_report as format_lmt_report
+from rdds_plunger_lifetime_calculator import calculate_flight_time_and_shifts, fit_exponential_rdds_lifetime, convert_lifetime_to_be2_and_qt, format_text_report as format_rdds_report
+from double_beta_decay_nme_calculator import invert_majorana_mass_limit, predict_half_life_for_target_mass, format_text_report as format_dbd_report
+from heavy_ion_elastic_rainbow_scattering_calculator import calculate_scattering_kinematics, scan_nuclear_rainbow, format_text_report as format_rainbow_report
+from core_polarization_effective_charge_calculator import calculate_microscopic_polarization_charges, invert_effective_charge_from_be2, format_text_report as format_effcharge_report
+from fission_isomer_double_hump_transmission_calculator import calculate_fission_isomer_properties, scan_subthreshold_fission_cross_section, format_text_report as format_fissiso_report
 
 
 def cmd_kinematics(args):
@@ -1546,6 +1551,79 @@ def cmd_lmt(args):
     else:
         print(format_lmt_report(summary))
 
+def cmd_rdds(args):
+    kin = calculate_flight_time_and_shifts(50.0, args.beta, args.E0)
+    summary = {"beta_v_over_c": args.beta, "kinematics": kin}
+    if args.demo_fit or (args.distances is None):
+        dist = [10.0, 25.0, 50.0, 80.0, 120.0, 180.0, 250.0]
+        iu = [90.0, 75.0, 52.0, 32.0, 16.0, 5.0, 1.5]
+        iss = [10.0, 25.0, 48.0, 68.0, 84.0, 95.0, 98.5]
+        ef_res = fit_exponential_rdds_lifetime(dist, iu, iss, args.beta)
+        summary["exponential_fit"] = ef_res
+        if "extracted_lifetime_ps" in ef_res and ef_res["extracted_lifetime_ps"] > 0:
+            summary["electromagnetic"] = convert_lifetime_to_be2_and_qt(ef_res["extracted_lifetime_ps"], args.E0)
+    elif args.distances and args.I_u and args.I_s:
+        dist = [float(x.strip()) for x in args.distances.split(",")]
+        iu = [float(x.strip()) for x in args.I_u.split(",")]
+        iss = [float(x.strip()) for x in args.I_s.split(",")]
+        ef_res = fit_exponential_rdds_lifetime(dist, iu, iss, args.beta)
+        summary["exponential_fit"] = ef_res
+        if "extracted_lifetime_ps" in ef_res and ef_res["extracted_lifetime_ps"] > 0:
+            summary["electromagnetic"] = convert_lifetime_to_be2_and_qt(ef_res["extracted_lifetime_ps"], args.E0)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_rdds_report(summary))
+
+
+def cmd_dbd(args):
+    limit_res = invert_majorana_mass_limit(args.iso, args.t12, args.gA)
+    pred_res = predict_half_life_for_target_mass(args.iso, args.target_m, args.gA)
+    summary = {"mass_limit": limit_res, "predicted_half_life": pred_res}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_dbd_report(summary))
+
+
+def cmd_rainbow(args):
+    kin = calculate_scattering_kinematics(args.Zp, args.Ap, args.Zt, args.At, args.elab)
+    rb = scan_nuclear_rainbow(kin)
+    summary = {"kinematics": kin, "rainbow": rb}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_rainbow_report(summary))
+
+
+def cmd_effcharge(args):
+    th_res = calculate_microscopic_polarization_charges(args.Z, args.A)
+    summary = {"theory": th_res}
+    if args.be2 is not None:
+        summary["experiment"] = invert_effective_charge_from_be2(args.be2, 5.5, 4.5, args.A + 1, args.neutron)
+    elif args.Z == 82 and args.A == 208:
+        summary["experiment"] = invert_effective_charge_from_be2(45.0, 4.5, 2.5, 209, is_neutron=True)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_effcharge_report(summary))
+
+
+def cmd_fissiso(args):
+    iso_res = calculate_fission_isomer_properties(args.VA, args.hwA, args.EII, args.VB, args.hwB)
+    summary = {"isomer": iso_res}
+    if args.scan or args.VA == 6.0:
+        summary["subthreshold_scan"] = scan_subthreshold_fission_cross_section(args.VA, args.hwA, args.EII, args.VB, args.hwB)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_fissiso_report(summary))
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -2280,6 +2358,56 @@ def main():
     p_lmt.add_argument("--tke", type=float, default=None, help="Fission TKE in MeV (default: Viola)")
     p_lmt.add_argument("--json", action="store_true", help="Output results in JSON format")
     p_lmt.set_defaults(func=cmd_lmt)
+
+    # Recoil Distance Doppler-Shift (RDDS) Plunger Lifetime & DDCM
+    p_rdds = subparsers.add_parser("rdds", help="Recoil distance Doppler-shift (RDDS) plunger lifetime and DDCM analyzer")
+    p_rdds.add_argument("--beta", type=float, default=0.015, help="Recoil velocity v/c (default: 0.015)")
+    p_rdds.add_argument("--E0", type=float, default=400.0, help="Gamma transition energy in keV (default: 400.0)")
+    p_rdds.add_argument("--demo-fit", action="store_true", help="Run benchmark RDDS distance regression")
+    p_rdds.add_argument("--distances", type=str, default=None, help="Comma-separated distances in um")
+    p_rdds.add_argument("--I-u", type=str, default=None, help="Comma-separated unshifted intensities")
+    p_rdds.add_argument("--I-s", type=str, default=None, help="Comma-separated shifted intensities")
+    p_rdds.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_rdds.set_defaults(func=cmd_rdds)
+
+    # Neutrinoless Double Beta Decay NME & Majorana Mass
+    p_dbd = subparsers.add_parser("dbd", help="Neutrinoless double beta decay (0nu-beta-beta) NME and Majorana mass sensitivity")
+    p_dbd.add_argument("--iso", type=str, default="76Ge", help="Candidate isotope (76Ge, 130Te, 136Xe, 100Mo, 82Se)")
+    p_dbd.add_argument("--t12", type=float, default=1.8e26, help="Half-life limit in years (default: 1.8e26)")
+    p_dbd.add_argument("--gA", type=float, default=1.27, help="Axial-vector coupling g_A (default: 1.27)")
+    p_dbd.add_argument("--target-m", type=float, default=20.0, help="Target Majorana mass in meV (default: 20.0)")
+    p_dbd.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_dbd.set_defaults(func=cmd_dbd)
+
+    # Heavy-Ion Rainbow Scattering & Deflection Function
+    p_rb = subparsers.add_parser("rainbow", help="Heavy-ion semiclassical deflection function, rainbow angle and grazing angle")
+    p_rb.add_argument("-Zp", type=int, required=True, help="Projectile charge Z_p")
+    p_rb.add_argument("-Ap", type=int, required=True, help="Projectile mass A_p")
+    p_rb.add_argument("-Zt", type=int, required=True, help="Target charge Z_t")
+    p_rb.add_argument("-At", type=int, required=True, help="Target mass A_t")
+    p_rb.add_argument("-E", "--elab", type=float, required=True, help="Beam energy E_lab in MeV")
+    p_rb.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_rb.set_defaults(func=cmd_rainbow)
+
+    # Core Polarizability & Nucleon Effective Charge
+    p_eff = subparsers.add_parser("effcharge", help="Microscopic core polarizability, GQR coupling and effective nucleon charges")
+    p_eff.add_argument("-Z", type=int, default=82, help="Core proton number Z (default: 82 for 208Pb)")
+    p_eff.add_argument("-A", type=int, default=208, help="Core mass number A (default: 208)")
+    p_eff.add_argument("--be2", type=float, default=None, help="Measured single-particle B(E2) in e^2 fm^4")
+    p_eff.add_argument("--neutron", action="store_true", help="Invert for valence neutron instead of proton")
+    p_eff.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_eff.set_defaults(func=cmd_effcharge)
+
+    # Double-Humped Fission Barrier & Fission Isomers
+    p_fiso = subparsers.add_parser("fissiso", help="Double-humped fission barrier quantum transmission, shape isomers and subthreshold resonance")
+    p_fiso.add_argument("--VA", type=float, default=6.0, help="Inner barrier height V_A in MeV (default: 6.0)")
+    p_fiso.add_argument("--hwA", type=float, default=0.9, help="Inner barrier curvature in MeV (default: 0.9)")
+    p_fiso.add_argument("--EII", type=float, default=2.5, help="Second well excitation in MeV (default: 2.5)")
+    p_fiso.add_argument("--VB", type=float, default=5.5, help="Outer barrier height V_B in MeV (default: 5.5)")
+    p_fiso.add_argument("--hwB", type=float, default=0.6, help="Outer barrier curvature in MeV (default: 0.6)")
+    p_fiso.add_argument("--scan", action="store_true", help="Perform subthreshold energy transmission scan")
+    p_fiso.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_fiso.set_defaults(func=cmd_fissiso)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

@@ -96,6 +96,11 @@ from isobaric_analog_state_ced_calculator import calculate_coulomb_displacement_
 from gamma_cascade_calorimetry_calculator import simulate_gamma_cascade, compare_evaporation_channel_entry_points
 from wigner_supermultiplet_su4_calculator import calculate_wigner_energy, calculate_su4_casimir
 from linear_momentum_transfer_incomplete_fusion_calculator import calculate_linear_momentum_transfer, scan_folding_angle_vs_lmt
+from rdds_plunger_lifetime_calculator import calculate_flight_time_and_shifts, fit_exponential_rdds_lifetime, convert_lifetime_to_be2_and_qt
+from double_beta_decay_nme_calculator import invert_majorana_mass_limit, predict_half_life_for_target_mass
+from heavy_ion_elastic_rainbow_scattering_calculator import calculate_scattering_kinematics, scan_nuclear_rainbow
+from core_polarization_effective_charge_calculator import calculate_microscopic_polarization_charges, invert_effective_charge_from_be2
+from fission_isomer_double_hump_transmission_calculator import calculate_fission_isomer_properties, evaluate_double_barrier_transmission
 
 
 def test_heavy_ion_kinematics():
@@ -1261,6 +1266,71 @@ def test_linear_momentum_transfer_incomplete_fusion_calculator():
     assert lmt_icf["predicted_folding_angle_deg"] > lmt_cf["predicted_folding_angle_deg"], "ICF must have wider folding angle than CF"
     print("  ✓ linear_momentum_transfer_incomplete_fusion_calculator passed.")
 
+
+def test_rdds_plunger_lifetime_calculator():
+    print("Testing rdds_plunger_lifetime_calculator...")
+    kin = calculate_flight_time_and_shifts(distance_um=50.0, beta_v_over_c=0.015, E_0_keV=400.0)
+    assert kin["Doppler_shift_keV"] > 0, "Doppler shift must be positive at forward angle"
+    assert kin["flight_time_ps"] > 1000.0, "Flight time sanity check"
+
+    # Inversion test
+    dist = [10.0, 25.0, 50.0, 80.0, 120.0]
+    iu = [90.0, 75.0, 52.0, 32.0, 16.0]
+    iss = [10.0, 25.0, 48.0, 68.0, 84.0]
+    fit_res = fit_exponential_rdds_lifetime(dist, iu, iss, beta_v_over_c=0.015)
+    assert fit_res["extracted_lifetime_ps"] > 0, "Extracted lifetime must be positive"
+
+    em = convert_lifetime_to_be2_and_qt(tau_ps=15.0, E_gamma_keV=400.0)
+    assert em["B_E2_e2_b2"] > 0, "B(E2) must be positive"
+    assert em["transition_quadrupole_moment_Qt_eb"] > 0, "Qt must be positive"
+    print("  ✓ rdds_plunger_lifetime_calculator passed.")
+
+
+def test_double_beta_decay_nme_calculator():
+    print("Testing double_beta_decay_nme_calculator...")
+    res_ge = invert_majorana_mass_limit(isotope_key="76Ge", half_life_limit_yr=1.8e26)
+    assert 100.0 < res_ge["effective_majorana_mass_upper_bound_meV"] < 300.0, "76Ge mass bound out of expected range"
+    assert "Degenerate" in res_ge["neutrino_mass_hierarchy_regime"], "Should be in degenerate hierarchy"
+
+    pred = predict_half_life_for_target_mass(isotope_key="76Ge", target_mass_meV=20.0)
+    assert pred["predicted_required_half_life_yr"] > 1.0e27, "Must require > 1e27 yr to cover inverted hierarchy"
+    print("  ✓ double_beta_decay_nme_calculator passed.")
+
+
+def test_heavy_ion_elastic_rainbow_scattering_calculator():
+    print("Testing heavy_ion_elastic_rainbow_scattering_calculator...")
+    kin = calculate_scattering_kinematics(Z_p=8, A_p=16, Z_t=82, A_t=208, E_lab_MeV=100.0)
+    assert kin["grazing_angular_momentum_hbar"] > 10.0, "Grazing angular momentum sanity check"
+    assert 120.0 < kin["blair_quarter_point_angle_deg"] < 150.0, "Blair quarter point angle check"
+
+    rb = scan_nuclear_rainbow(kin)
+    assert rb["is_rainbow_active"], "Nuclear rainbow should be active for 16O+208Pb"
+    assert rb["rainbow_angle_deg"] < kin["blair_quarter_point_angle_deg"], "Rainbow angle is inside quarter point"
+    print("  ✓ heavy_ion_elastic_rainbow_scattering_calculator passed.")
+
+
+def test_core_polarization_effective_charge_calculator():
+    print("Testing core_polarization_effective_charge_calculator...")
+    th = calculate_microscopic_polarization_charges(Z_core=82, A_core=208)
+    assert th["theoretical_proton_effective_charge_e"] > 1.20, "Proton effective charge should be ~ 1.3-1.5 e"
+    assert 0.35 < th["theoretical_neutron_effective_charge_e"] < 0.65, "Neutron effective charge should be ~ 0.4-0.6 e"
+
+    inv = invert_effective_charge_from_be2(B_E2_e2_fm4=45.0, j_initial=4.5, j_final=2.5, A_mass=209, is_neutron=True)
+    assert 0.5 < inv["extracted_effective_charge_e"] < 1.0, "Empirical effective charge sanity check"
+    print("  ✓ core_polarization_effective_charge_calculator passed.")
+
+
+def test_fission_isomer_double_hump_transmission_calculator():
+    print("Testing fission_isomer_double_hump_transmission_calculator...")
+    iso = calculate_fission_isomer_properties(V_A=6.0, hw_A=0.9, E_II=2.5, V_B=5.5, hw_B=0.6)
+    assert iso["isomer_half_life_seconds"] > 0, "Isomer half-life must be positive"
+    assert "ns" in iso["formatted_half_life"] or "us" in iso["formatted_half_life"], "Should be in ns or us range"
+
+    trans_res = evaluate_double_barrier_transmission(energy_MeV=4.5, V_A=6.0, hw_A=0.9, E_II=2.5, V_B=5.5, hw_B=0.6)
+    assert trans_res["is_intermediate_resonance"], "4.5 MeV should hit intermediate resonance in second well"
+    assert trans_res["total_transmission_T"] > 0.5, "Resonant transmission should be near 1.0"
+    print("  ✓ fission_isomer_double_hump_transmission_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -1327,4 +1397,9 @@ if __name__ == "__main__":
     test_gamma_cascade_calorimetry_calculator()
     test_wigner_supermultiplet_su4_calculator()
     test_linear_momentum_transfer_incomplete_fusion_calculator()
-    print("ALL 64 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_rdds_plunger_lifetime_calculator()
+    test_double_beta_decay_nme_calculator()
+    test_heavy_ion_elastic_rainbow_scattering_calculator()
+    test_core_polarization_effective_charge_calculator()
+    test_fission_isomer_double_hump_transmission_calculator()
+    print("ALL 69 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
