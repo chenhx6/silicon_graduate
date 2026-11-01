@@ -42,6 +42,7 @@ from side_feeding_deconvolution_calculator import calculate_effective_f_factor, 
 from internal_conversion_bricc_calculator import calculate_bricc_icc, calculate_mixed_icc, correct_gamma_intensity_for_conversion, discriminate_multipolarity
 from vacuum_deorientation_calculator import calculate_attenuation_factors, correct_measured_angular_distribution
 from tidal_wave_dynamics_calculator import calculate_tidal_wave_kinematics, test_b_e2_linear_scaling, reconstruct_dynamic_beta2
+from gamow_teller_ikeda_quenching_calculator import calculate_ikeda_sum_rule, evaluate_ga_quenching, convert_cross_section_to_b_gt
 
 
 def cmd_kinematics(args):
@@ -522,6 +523,28 @@ def cmd_tidal(args):
     print("=======================================================")
 
 
+
+def cmd_gt(args):
+    res = evaluate_ga_quenching(args.Z, args.A, args.s_minus, args.s_plus, g_a_free=args.ga_free)
+    print("\n=======================================================")
+    print(" Gamow-Teller Resonance, Ikeda Sum Rule & g_A Quenching")
+    print("=======================================================")
+    print(f"  Target Nucleus : Z={res['Z']}, A={res['A']}, N={res['N']} (N - Z = {res['N'] - res['Z']})")
+    print(f"  Theoretical Ikeda Limit : S_Ikeda = 3(N - Z) = {res['S_ikeda_theo']:.1f}")
+    print(f"  Measured Net GT Strength: S_exp = {res['S_net_exp']:.2f} (S- = {res['S_minus_exp']:.2f}, S+ = {res['S_plus_exp']:.2f})")
+    print(f"  Strength Recovery Ratio : {res['recovery_fraction']*100.0:.1f}%")
+    print(f"  Quenching Factor q      : {res['quenching_factor_q']:.3f}")
+    print(f"  Effective Axial Vector  : g_A^eff = {res['g_a_eff']:.4f} (Free nucleon: {res['g_a_free']:.4f})")
+    print(f"  0nu2beta Half-Life Ratio: R(T_1/2) = {res['0nu_half_life_prolongation']:.2f}x prolongation")
+    print(f"  Regime Diagnosis        : {res['diagnosis']}")
+    if args.dsigma is not None and args.sigma_hat is not None:
+        b_gt = convert_cross_section_to_b_gt(args.dsigma, args.sigma_hat)
+        print("-------------------------------------------------------")
+        print(f"  Zero-Degree dsigma/dOmega : {b_gt['dsigma_dOmega_0deg_mb_sr']:.2f} mb/sr")
+        print(f"  Unit Cross Section sigma^ : {b_gt['unit_cross_section_sigma_hat_mb_sr']:.2f} mb/sr")
+        print(f"  Extracted Microscopic B(GT): {b_gt['B_GT']:.3f}")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -755,6 +778,17 @@ def main():
     p_tidal.add_argument("--Z", type=int, default=46, help="Atomic number Z")
     p_tidal.add_argument("--A", type=int, default=102, help="Mass number A")
     p_tidal.set_defaults(func=cmd_tidal)
+
+    # Gamow-Teller & Ikeda Quenching
+    p_gt = subparsers.add_parser("gt", help="Gamow-Teller resonance, Ikeda sum rule, and g_A quenching analyzer")
+    p_gt.add_argument("--Z", type=int, required=True, help="Atomic number Z")
+    p_gt.add_argument("--A", type=int, required=True, help="Mass number A")
+    p_gt.add_argument("--s-minus", type=float, required=True, help="Measured S_-(GT) strength")
+    p_gt.add_argument("--s-plus", type=float, default=0.0, help="Measured S_+(GT) strength")
+    p_gt.add_argument("--ga-free", type=float, default=1.2754, help="Free nucleon g_A (default: 1.2754)")
+    p_gt.add_argument("--dsigma", type=float, default=None, help="Forward (0 deg) dsigma/dOmega in mb/sr")
+    p_gt.add_argument("--sigma-hat", type=float, default=None, help="Reaction unit cross section sigma_hat in mb/sr")
+    p_gt.set_defaults(func=cmd_gt)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

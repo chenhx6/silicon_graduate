@@ -56,6 +56,7 @@ from side_feeding_deconvolution_calculator import calculate_effective_f_factor, 
 from internal_conversion_bricc_calculator import calculate_bricc_icc, calculate_mixed_icc, discriminate_multipolarity
 from vacuum_deorientation_calculator import calculate_attenuation_factors, correct_measured_angular_distribution
 from tidal_wave_dynamics_calculator import calculate_tidal_wave_kinematics, test_b_e2_linear_scaling, reconstruct_dynamic_beta2
+from gamow_teller_ikeda_quenching_calculator import calculate_ikeda_sum_rule, evaluate_ga_quenching, convert_cross_section_to_b_gt
 
 
 def test_heavy_ion_kinematics():
@@ -396,6 +397,24 @@ def test_tidal_wave_dynamics_calculator():
     print("  ✓ tidal_wave_dynamics_calculator passed.")
 
 
+
+def test_gamow_teller_ikeda_quenching_calculator():
+    print("Testing gamow_teller_ikeda_quenching_calculator...")
+    # Target 130Te: Z=52, A=130, N=78, N-Z=26, S_Ikeda = 3 * 26 = 78.0
+    ik = calculate_ikeda_sum_rule(52, 130)
+    assert ik["ikeda_sum_rule_limit"] == 78.0, f"Expected 78.0, got {ik['ikeda_sum_rule_limit']}"
+
+    # Typical experimental quenching test: S_exp = 43.0, S_plus = 0.0
+    ev = evaluate_ga_quenching(52, 130, S_minus_exp=43.0, S_plus_exp=0.0)
+    assert abs(ev["recovery_fraction"] - (43.0 / 78.0)) < 1e-4
+    assert 0.70 < ev["quenching_factor_q"] < 0.80, f"Quenching factor should be in 0.70-0.80, got {ev['quenching_factor_q']}"
+    assert ev["0nu_half_life_prolongation"] > 2.5, "0nu2beta prolongation should be > 2.5x"
+
+    # Cross-section conversion test
+    cs = convert_cross_section_to_b_gt(diff_sigma_0deg_mb_sr=15.0, unit_sigma_hat_mb_sr=3.0)
+    assert abs(cs["B_GT"] - 5.0) < 1e-5
+    print("  ✓ gamow_teller_ikeda_quenching_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -422,4 +441,5 @@ if __name__ == "__main__":
     test_internal_conversion_bricc_calculator()
     test_vacuum_deorientation_calculator()
     test_tidal_wave_dynamics_calculator()
-    print("ALL 24 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_gamow_teller_ikeda_quenching_calculator()
+    print("ALL 25 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

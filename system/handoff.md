@@ -5861,3 +5861,17 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Authored canonical research note: `knowledge/research-notes/doctoral-cognitive-calibration-and-nuclear-structure-synthesis-20261101.md`.
 - Updated `knowledge/index.md` and `knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md` (Candidate 7).
 - Verification: `wiki_boundary_check.py`, `wiki_archive_gate.py`, `wiki_automation_preflight.py`, and `git diff --check` all green.
+
+### Gamow-Teller resonance, Ikeda sum rule and gA quenching calculator 2026-11-02T02:30:00+08:00
+
+- Built unified spin-isospin excitation and Gamow-Teller resonance dynamics knowledge base (`knowledge/concepts/gamow-teller-resonance-ikeda-sum-rule-and-ga-quenching.md`):
+  - Formulated model-independent Ikeda sum rule $S_-(GT) - S_+(GT) = 3(N - Z)$ from commutator algebra of isospin ladder operators $[t_-, t_+] = -2 t_z$.
+  - Deconstructed micro-mechanisms of effective axial-vector weak coupling constant quenching ($g_A^{\\text{eff}} \\approx 0.95\\text{--}1.05$): $\\Delta(1232)$-hole mixing pushing strength to 300 MeV and two-body meson-exchange currents (2BC) from chiral EFT.
+  - Linked to $A \\approx 130$ neutrinoless double beta decay ($^{130}\\text{Te}$, $^{136}\\text{Xe}$), demonstrating fourth-power sensitivity $[T_{1/2}^{0\\nu}]^{-1} \\propto (g_A^{\\text{eff}})^4$.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/gamow_teller_ikeda_quenching_calculator.py`:
+  - `calculate_ikeda_sum_rule`: theoretical limit evaluation;
+  - `evaluate_ga_quenching`: net strength recovery fraction, quenching factor $q$, effective $g_A$, and $0\\nu\\beta\\beta$ half-life prolongation factor $\\sim 1/q^4$;
+  - `convert_cross_section_to_b_gt`: forward-angle (0 deg) charge-exchange cross section conversion via unit cross section $\\hat{\\sigma}$.
+- Unified CLI integration: added `gt` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to 25 scientific analysis modules, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.
