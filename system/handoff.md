@@ -6414,3 +6414,18 @@ u}$ zero-crossing detection;
 - Created concept page: `knowledge/concepts/directional-angular-correlation-f-coefficients-and-dco-formalism.md`.
 - Added unit test suite `system/tests/test_directional_correlation_f_coefficients.py` (6 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to include `directional_correlation_f_coefficients_calculator`, passing cleanly.
+
+### Coriolis Decoupling Parameter (a) in K=1/2 Bands & Stephens-Simon Decoupled Bands (Module 94) 2026-11-03T00:30:00+08:00
+
+- Integrated Coriolis decoupling parameter $a$, signature splitting, and exact linear inversion for $K=1/2$ rotational bands (`decoupling_parameter_khalf_band_calculator.py`):
+  - Based on Bohr & Mottelson, *Nuclear Structure*, Vol. II, §4-3 (pp. 31–34 / PDF pp. 53–56) and §5-3 (pp. 309–311 / PDF pp. 331–333):
+    $E(I) = E_0 + A [ I(I+1) + a (-1)^{I+1/2} (I+1/2) ]$ where $A = \frac{\hbar^2}{2\mathcal{J}}$ and $a = \sum_j (-1)^{j-1/2} (j+1/2) |c_j|^2$.
+  - Analyzed analytical pure single-$j$ decoupled band limits:
+    $s_{1/2}: a = +1.0$, $p_{3/2}: a = -2.0$, $d_{5/2}: a = +3.0$, $f_{7/2}: a = -4.0$, $g_{9/2}: a = +5.0$, $h_{11/2}: a = -6.0$ ($A \sim 130$ region!), $i_{13/2}: a = +7.0$ ($A \sim 160$ rare earth!).
+  - Formulated the Stephens-Simon decoupled band phenomenon: for high-$j$ intruder orbitals ($h_{11/2}: a = -6.0$), the favorable signature states ($I = 3/2, 7/2, 11/2, \dots$) are shifted downward so drastically that $I = 11/2$ becomes the bandhead, forming a $\Delta I = 2$ sequence whose energy spacings mimic the even-even core.
+  - Implemented exact linear regression inversion: solves the normal equations $\mathbf{X}^T \mathbf{X} \vec{\theta} = \mathbf{X}^T \vec{E}$ to unbiasly invert $(A, a, E_0)$ from experimental level energies without nonlinear minimization.
+  - Benchmarked against Bohr & Mottelson Vol. II Table 5-16: inverted $^{169}\text{Tm}$ $[411\ 1/2]$ experimental band ($a_{\text{exp}} = -0.743$, $A = 12.350\text{ keV}$, $\mathcal{J} = 40.49\ \hbar^2/\text{MeV}$, RMS residual $1.05\text{ keV}$), matching tabulated $a_{\text{obs}} = -0.77$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `decouple`.
+- Created concept page: `knowledge/concepts/coriolis-decoupling-parameter-khalf-and-stephens-simon-bands.md`.
+- Added unit test suite `system/tests/test_decoupling_parameter_khalf.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include `decoupling_parameter_khalf_band_calculator`, passing cleanly.

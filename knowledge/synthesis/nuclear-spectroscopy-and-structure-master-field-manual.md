@@ -57,12 +57,14 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `gdr` | 经典积分标度及轴对称参数化的代数演示 | 非三轴完整响应；κ 与宽度非实测；正反演不认证精度 |
 | `isg` | 明示假设的历史同位旋分支示意 | 未算真实约化矩阵元；份额与峰位不作测量或微观认证 |
 | `fcoeff` | 任意初末自旋下 Yamazaki F 系数代数计算、理论 a2/a4、DCO 比值与 a2 双根反演 | 双根在数学上完全等价，需偏振度或内转换独立破除简并 |
+| `decouple` | K=1/2 转动带解耦参数 a 与 A=hbar^2/2J 严格线性正规方程组反演及 Stephens-Simon 退耦带模拟 | 绝热转动近似下成立，大形变组态混合或三轴强进动需结合 PRM/TPSM |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
 python3 system/scripts/analysis/nuclear_analyzer.py wobphase --root1 -0.15 --root2 3.10 --json
 python3 system/scripts/analysis/nuclear_analyzer.py poissonfit --area 60 --bg 2 --json
 python3 system/scripts/analysis/nuclear_analyzer.py fcoeff -i 7.5 -f 6.5 -d -0.15 --json
+python3 system/scripts/analysis/nuclear_analyzer.py decouple --preset 169Tm --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

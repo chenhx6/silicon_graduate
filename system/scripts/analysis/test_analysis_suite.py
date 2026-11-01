@@ -125,6 +125,7 @@ from heavy_ion_fusion_evaporation_channel_calculator import analyze_heavy_ion_fu
 from poisson_likelihood_peak_fitting_bias_calculator import evaluate_peak_fitting_methods
 from coriolis_attenuation_bandcrossing_calculator import calculate_coriolis_matrix_elements, analyze_backbending_alignment
 from directional_correlation_f_coefficients_calculator import calculate_f_coefficient, calculate_angular_distribution_coefficients, invert_delta_dual_roots, calculate_dco_and_ado_ratios
+from decoupling_parameter_khalf_band_calculator import calculate_pure_j_decoupling_parameter, calculate_khalf_spectrum, invert_khalf_band_parameters
 
 
 def test_heavy_ion_kinematics():
@@ -1636,6 +1637,22 @@ def test_directional_correlation_f_coefficients_calculator():
     print("  ✓ directional_correlation_f_coefficients_calculator passed.")
 
 
+def test_decoupling_parameter_khalf_band_calculator():
+    print("Testing decoupling_parameter_khalf_band_calculator...")
+    # Pure j decoupling parameters
+    assert calculate_pure_j_decoupling_parameter(5.5) == -6.0, "h11/2 pure intruder decoupling parameter"
+    assert calculate_pure_j_decoupling_parameter(6.5) == 7.0, "i13/2 pure intruder decoupling parameter"
+
+    # Invert 169Tm [411 1/2] ground band
+    spins = [0.5, 1.5, 2.5, 3.5, 4.5, 5.5]
+    energies = [0.0, 8.41, 118.19, 138.93, 332.08, 368.21]
+    inv = invert_khalf_band_parameters(spins, energies)
+    assert abs(inv["decoupling_parameter_a"] - (-0.743)) < 0.05, "169Tm decoupling parameter inversion"
+    assert abs(inv["A_rot_keV"] - 12.35) < 0.1, "169Tm rotational parameter inversion"
+    print("  ✓ decoupling_parameter_khalf_band_calculator passed.")
+
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -1730,4 +1747,5 @@ if __name__ == "__main__":
     test_poisson_likelihood_peak_fitting_bias_calculator()
     test_coriolis_attenuation_bandcrossing_calculator()
     test_directional_correlation_f_coefficients_calculator()
+    test_decoupling_parameter_khalf_band_calculator()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

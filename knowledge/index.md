@@ -23,6 +23,7 @@ updated: 2026-11-01
 - [[isovector-giant-resonance-isospin-splitting-and-lane-potential]] — **巨共振同位旋分支：几何系数与动力学强度分开**：纠正算符秩、末态同位旋与电磁多极阶数的混用，撤回以几何系数直接给出微观跃迁强度的表述。
 - [[wobbling-harmonic-limit-and-textbook-consistency]] — **摆动谐近似的涨落尺度、角度平方与教材一致性检查**：基于 BM-II §4-5e 建立横向角动量涨落比例 $\varepsilon$ 的解析表达式，记录原书推导中的角度平方排印疑点，作为暂定研究笔记保留。
 - [[directional-angular-correlation-f-coefficients-and-dco-formalism]] — **方向角关联与方向角分布：Yamazaki F系数、DCO形式理论与双根退化代数解析**：基于卢希庭《原子核物理》§7.6、吴治华《实验方法》与 Hamilton 专著第 12 章，实现任意自旋下 Yamazaki / Biedenharn-Rose $F$ 系数完全代数求解，建立方向角分布 $W(\theta)$ 展开、在束 DCO 比值与多极混合比 $\delta(E2/M1)$ 双实数根解析反演与判别式判定，杜绝查表依赖与主观选根偏见。
+- [[coriolis-decoupling-parameter-khalf-and-stephens-simon-bands]] — **科里奥利解耦参数a、K=1/2转动带旋称劈裂与Stephens-Simon退耦带动力学**：基于 Bohr & Mottelson Vol. II §4-3 与 §5-3，推导高 $j$ 轨道单粒子解耦参数 $a_{\text{pure}} = (-1)^{j-1/2}(j+1/2)$ 与 Stephens-Simon 彻底退耦带倒转机制（$h_{11/2}: a=-6.0$），建立从实测能级三参数正规方程组无偏线性反演转动常数 $A$、解耦参数 $a$ 与转动惯量 $\mathcal{J}$ 的算法，严格对账 $^{169}\text{Tm}$ 实验基准。
 
 - [[reconciliation-of-detector-dead-time-and-pulse-pileup]] — **辐射探测器死时间模型、脉冲堆积与计数损失核算：吴治华《实验方法》与汪晓莲《探测技术》的系统性调和**：深入调和吴治华非麻痹型 ADC 转换模型与汪晓莲麻痹型微观物理过程，揭示大计数率下麻痹型系统的灾难性双根疑难与高通量误判风险，建立包含模拟成形与数字写入的 Müller 混合级联模型、峰区脉冲堆积损失以及 Shockley-Ramo 定理下的弹道亏损消除与 N 型/P 型 HPGe 快中子辐照寿命准则。
 - [[heavy-ion-fusion-evaporation-and-reaction-channel-design]] — **重离子熔合蒸发反应截面、光学势垒分布与在束 $\gamma$ 谱学出射道设计：林承键《重离子核反应》与 Bertulani 理论融会**：基于 Bass 相互作用势与 Wong 势垒穿透公式，建立重离子熔合入射道动力学、RLDM 转动液滴裂变截断与有效剩余蒸发截面模型，推导 $A \sim 130$ 区 $xn$ 统计蒸发去激最佳激发能高斯窗口，以及反冲运动学多普勒频移、几何展宽控制与薄自支撑/衬底靶材配置实战法典。

@@ -111,6 +111,7 @@ from heavy_ion_fusion_evaporation_channel_calculator import analyze_heavy_ion_fu
 from poisson_likelihood_peak_fitting_bias_calculator import evaluate_peak_fitting_methods, format_text_report as format_poissonfit_report
 from coriolis_attenuation_bandcrossing_calculator import calculate_coriolis_matrix_elements, analyze_backbending_alignment, format_text_report as format_coriolis_report
 from directional_correlation_f_coefficients_calculator import calculate_angular_distribution_coefficients, invert_delta_dual_roots, calculate_dco_and_ado_ratios, format_text_report as format_fcoeff_report
+from decoupling_parameter_khalf_band_calculator import calculate_pure_j_decoupling_parameter, calculate_khalf_spectrum, invert_khalf_band_parameters, format_text_report as format_decouple_report
 
 
 def cmd_kinematics(args):
@@ -1965,6 +1966,38 @@ def cmd_fcoeff(args):
         print(format_fcoeff_report(dist, inv, dco))
 
 
+def cmd_decouple(args):
+    inv_res = None
+    j_single = None
+    if args.preset == "169Tm":
+        spins = [0.5, 1.5, 2.5, 3.5, 4.5, 5.5]
+        energies = [0.0, 8.41, 118.19, 138.93, 332.08, 368.21]
+        inv_res = invert_khalf_band_parameters(spins, energies)
+        levels = calculate_khalf_spectrum(spins, inv_res["A_rot_keV"], inv_res["decoupling_parameter_a"], inv_res["E0_keV"])
+    elif args.preset == "171Lu":
+        spins = [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5]
+        levels = calculate_khalf_spectrum(spins, 13.0, 4.5, 0.0)
+    elif args.preset == "h11/2_pure":
+        spins = [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5]
+        j_single = 5.5
+        a_val = calculate_pure_j_decoupling_parameter(5.5)
+        levels = calculate_khalf_spectrum(spins, 12.0, a_val, 0.0)
+    else:
+        spins = [0.5, 1.5, 2.5, 3.5, 4.5, 5.5]
+        levels = calculate_khalf_spectrum(spins, args.A_rot, args.a_decouple, 0.0)
+
+    if args.json:
+        import json
+        out = {"levels": levels}
+        if inv_res is not None:
+            out["inversion"] = inv_res
+        if j_single is not None:
+            out["pure_j_decoupling_parameter"] = calculate_pure_j_decoupling_parameter(j_single)
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_decouple_report(levels, inv_res, j_single))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3006,6 +3039,15 @@ def main():
     p_fc.add_argument("--th2", type=float, default=90.0, help="DCO detector 2 angle in deg (default: 90.0)")
     p_fc.add_argument("--json", action="store_true", help="Output pure JSON")
     p_fc.set_defaults(func=cmd_fcoeff)
+
+    # Coriolis Decoupling Parameter in K=1/2 Rotational Bands
+    p_dec = subparsers.add_parser("decouple", help="Coriolis decoupling parameter (a) in K=1/2 bands, signature splitting and linear inversion (Bohr-Mottelson)")
+    p_dec.add_argument("--preset", type=str, default="169Tm", choices=["169Tm", "171Lu", "h11/2_pure", "custom"], help="Preset: 169Tm, 171Lu, h11/2_pure, custom")
+    p_dec.add_argument("--A-rot", type=float, default=12.5, help="Rotational parameter A = hbar^2/2J in keV (default: 12.5)")
+    p_dec.add_argument("--a-decouple", type=float, default=-0.77, help="Decoupling parameter a (default: -0.77)")
+    p_dec.add_argument("--j-orbital", type=float, default=5.5, help="Single-j orbital j (default: 5.5 for h11/2)")
+    p_dec.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_dec.set_defaults(func=cmd_decouple)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
