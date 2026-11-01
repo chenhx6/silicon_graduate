@@ -6429,3 +6429,40 @@ u}$ zero-crossing detection;
 - Created concept page: `knowledge/concepts/coriolis-decoupling-parameter-khalf-and-stephens-simon-bands.md`.
 - Added unit test suite `system/tests/test_decoupling_parameter_khalf.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to include `decoupling_parameter_khalf_band_calculator`, passing cleanly.
+
+### Alpha Decay Gamow WKB Penetration, Centrifugal Barrier & Viola-Seaborg Systematics (Module 95) 2026-11-03T01:10:00+08:00
+
+- Integrated Alpha Decay Gamow quantum tunneling, centrifugal barrier hindrance factor, and Viola-Seaborg systematics suite (`alpha_decay_gamow_wkb_calculator.py`):
+  - Based on 卢希庭《原子核物理（修订版）》第 5 章 §5.1–5.3 (印刷 pp. 113–128 / PDF pp. 123–138):
+    $P = \exp[-2G_0]$ where $2G_0 = \frac{8(Z-2)\alpha_{\text{em}}}{v/c}[\arccos\sqrt{x_0} - \sqrt{x_0(1-x_0)}]$ with $x_0 = R_0 / R_c$.
+  - Implemented exact composite Simpson integration for $L > 0$ centrifugal barriers, properly accounting for $L(L+1)\hbar^2/(2\mu r^2)$ hindrance.
+  - Verified Geiger-Nuttall law exponential scaling across 24 orders of magnitude in decay constant:
+    * $^{212}\text{Po}$ ($Q = 8.954\text{ MeV}$): $2G_0 = 30.961$, $T_{1/2}^{\text{WKB}} = 8.99\text{ ns}$, $T_{1/2}^{\text{VS}} = 80.1\text{ ns}$, $T_{1/2}^{\text{exp}} = 299\text{ ns}$, $HF = 33.3$, $S_\alpha = 0.030$.
+    * $^{238}\text{U}$ ($Q = 4.270\text{ MeV}$): $2G_0 = 86.378$, $T_{1/2}^{\text{WKB}} = 1.17 \times 10^{16}\text{ s}$ ($3.7 \times 10^8\text{ yr}$), $T_{1/2}^{\text{VS}} = 2.22 \times 10^{17}\text{ s}$, $T_{1/2}^{\text{exp}} = 1.41 \times 10^{17}\text{ s}$, $HF = 12.1$, $S_\alpha = 0.083$.
+    * Superheavy $^{294}\text{Og}$ ($Z=118$, $Q = 11.81\text{ MeV}$): $T_{1/2}^{\text{VS}} = 0.64\text{ ms}$ matches experimental $T_{1/2} = 0.70\text{ ms}$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `alpha`.
+- Created concept page: `knowledge/concepts/alpha-decay-gamow-wkb-and-viola-seaborg-systematics.md`.
+- Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` to register Chapter 5 verified reading.
+- Added unit test suite `system/tests/test_alpha_decay_gamow_wkb.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 95.
+
+### Triaxial Wobbling Motion, Elena Lawrie TiP Classifier & Chiral Selection Rules (Module 96) 2026-11-03T01:45:00+08:00
+
+- Integrated Triaxial Rotor Wobbling, Elena Lawrie Tilted Precession (TiP) vs Phonon Wobbling Classifier, and Chiral Selection Rules Suite (`triaxial_wobbling_tip_chiral_analyzer.py`):
+  - Based on C. M. Petrache (Ed.), *Chirality and Wobbling in Atomic Nuclei*, CRC Press (2025):
+    * S. Frauendorf, Ch. 2 (pp. 43–80): Ray's asymmetry parameter $\kappa = (2A_s - A_m - A_l)/(A_m - A_l)$, Transverse Wobbling (TW) frequency $\hbar\omega_{\text{TW}}(I) = 2I\sqrt{(A_m - \bar{A}_s)(A_l - \bar{A}_s)}$, critical softening spin $I_c = j \mathcal{J}_m / (\mathcal{J}_m - \mathcal{J}_s)$, and slope diagnostic $d(\hbar\omega)/dI < 0$.
+    * J. Meng & Y. P. Wang, Ch. 3 (pp. 81–93): 3D chiral geometry tripod $\vec{I} = \vec{j}_p + \vec{j}_n + \vec{R}$, aplanarity volume metric $\mathcal{V}_{\text{chiral}} = \vec{j}_p \cdot (\vec{j}_n \times \vec{R})$, and $B(M1)/B(E2)$ odd-even staggering.
+    * E. A. Lawrie, Ch. 6 (pp. 127–155, Table 6.1): 7-dimensional diagnostic criteria separating vibrational wobbling ($E_{\text{exc}} \propto n_w$, $\Delta_{\text{sum}} = E(2_g^+) + E(2_\gamma^+) - E(3_\gamma^+) > 0$, strict $\Delta n_w = 1$ selection rule) from rotational tilted precession ($E_{\text{exc}} \propto m^2$, $\Delta_{\text{sum}} \approx 0$, allowed collective $\Delta m > 1$ $E2$ transitions).
+    * E. Grodner, Ch. 7 (pp. 156–166): $^{128}\text{Cs}$ partner bands plunger lifetime analysis and selection rules.
+    * K. Nomura, Ch. 11 (pp. 239–255): IBFM-2 $\gamma$-soft core coupling in $^{135}\text{Pr}$, demonstrating small mixing ratio $|\delta(E2/M1)| < 1$ and $M1$ dominance without triaxial wobbling.
+  - Benchmarks:
+    * $^{163}\text{Lu}$ TSD1/TSD2: verified $I_c = 52.0\ \hbar$, $\hbar\omega_{\text{TW}}$ evolution peaking at $I \approx 25.5\ \hbar$, matching Fig. 2.10.
+    * $^{135}\text{Pr}$: verified $I_c = 14.44\ \hbar$, negative slope $d\omega/dI = -36.1\text{ keV}/\hbar$, confirming TW breakdown at $I = 29/2^-$.
+    * $^{192}\text{Os}$: verified $\Delta_{\text{sum}} = 205.8 + 489.1 - 690.5 = 4.4\text{ keV} \approx 0$ and allowed $B(E2; 4_\gamma^+ \to 2_g^+) = 15\text{ W.u.}$, proving rotational TiP nature.
+    * $^{128}\text{Cs}$: verified chiral splitting $\Delta E(I)$ falling monotonically from $280\text{ keV}$ to $30\text{ keV}$ and staggering $B(M1)/B(E2)$ profile.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `triaxial`.
+- Created concept page: `knowledge/concepts/triaxial-wobbling-tilted-precession-and-chiral-geometry.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with verified reading of Chapters 2, 3, 6, 7, 11.
+- Updated skill cheatsheet `.agents/skills/nuclear-triaxial-chirality-wobbling/cheatsheet.md` with Lawrie Table 6.1 and TW formulas.
+- Added unit test suite `system/tests/test_triaxial_wobbling_tip_chiral.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to 96 modules, passing cleanly in 3.0s.

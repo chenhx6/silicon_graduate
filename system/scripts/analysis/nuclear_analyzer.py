@@ -112,6 +112,8 @@ from poisson_likelihood_peak_fitting_bias_calculator import evaluate_peak_fittin
 from coriolis_attenuation_bandcrossing_calculator import calculate_coriolis_matrix_elements, analyze_backbending_alignment, format_text_report as format_coriolis_report
 from directional_correlation_f_coefficients_calculator import calculate_angular_distribution_coefficients, invert_delta_dual_roots, calculate_dco_and_ado_ratios, format_text_report as format_fcoeff_report
 from decoupling_parameter_khalf_band_calculator import calculate_pure_j_decoupling_parameter, calculate_khalf_spectrum, invert_khalf_band_parameters, format_text_report as format_decouple_report
+from alpha_decay_gamow_wkb_calculator import calculate_gamow_factor_wkb, evaluate_alpha_hindrance, format_text_report as format_alpha_report
+from triaxial_wobbling_tip_chiral_analyzer import calculate_triaxial_rotor_moi_parameters, calculate_transverse_wobbling_spectrum, classify_tip_vs_phonon_wobbling, analyze_chiral_doublet_staggering, format_text_report as format_triaxial_report
 
 
 def cmd_kinematics(args):
@@ -1998,6 +2000,108 @@ def cmd_decouple(args):
         print(format_decouple_report(levels, inv_res, j_single))
 
 
+def cmd_alpha(args):
+    Z_val = args.Z
+    A_val = args.A
+    Q_val = args.Q
+    L_val = args.L
+    t12_exp = args.t12_exp
+
+    if args.preset == "212Po":
+        Z_val, A_val, Q_val, L_val, t12_exp = 84, 212, 8.954, 0, 2.99e-7
+    elif args.preset == "210Po":
+        Z_val, A_val, Q_val, L_val, t12_exp = 84, 210, 5.407, 0, 1.196e7
+    elif args.preset == "238U":
+        Z_val, A_val, Q_val, L_val, t12_exp = 92, 238, 4.270, 0, 1.41e17
+    elif args.preset == "241Am":
+        Z_val, A_val, Q_val, L_val, t12_exp = 95, 241, 5.578, 0, 1.36e10
+    elif args.preset == "254No":
+        Z_val, A_val, Q_val, L_val, t12_exp = 102, 254, 8.220, 0, 51.0
+    elif args.preset == "294Og":
+        Z_val, A_val, Q_val, L_val, t12_exp = 118, 294, 11.810, 0, 0.0007
+
+    gam_res = calculate_gamow_factor_wkb(
+        Z_parent=Z_val, A_parent=A_val, Q_alpha_MeV=Q_val, L=L_val, r0_fm=args.r0
+    )
+
+    hin_res = None
+    if t12_exp is not None:
+        hin_res = evaluate_alpha_hindrance(
+            t12_exp_sec=t12_exp, t12_wkb_unhindered_sec=gam_res["T12_WKB_unhindered_sec"]
+        )
+
+    if args.json:
+        import json
+        out = {"gamow_wkb": gam_res}
+        if hin_res is not None:
+            out["hindrance"] = hin_res
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_alpha_report(gam_res, hin_res))
+
+
+def cmd_triaxial(args):
+    Jm_val = args.Jm
+    Js_val = args.Js
+    Jl_val = args.Jl
+    j_val = args.j_single
+    tw_res = None
+    tip_res = None
+    chiral_res = None
+
+    if args.preset == "163Lu":
+        Jm_val, Js_val, Jl_val = 64.0, 56.0, 13.0
+        j_val = 6.5
+        spins = [9.5, 11.5, 13.5, 15.5, 17.5, 19.5, 21.5, 25.5, 30.5, 35.5]
+        tw_res = calculate_transverse_wobbling_spectrum(Jm_val, Js_val, Jl_val, j_val, spins)
+    elif args.preset == "135Pr":
+        Jm_val, Js_val, Jl_val = 21.0, 13.0, 4.0
+        j_val = 5.5
+        spins = [6.5, 8.5, 10.5, 12.5, 14.5]
+        tw_res = calculate_transverse_wobbling_spectrum(Jm_val, Js_val, Jl_val, j_val, spins)
+    elif args.preset == "192Os":
+        Jm_val, Js_val, Jl_val = 30.0, 18.0, 6.0
+        tip_res = classify_tip_vs_phonon_wobbling(
+            n_or_m_indices=[1, 2],
+            energies_keV=[867.0, 1980.0],
+            E_2g_keV=205.8,
+            E_2gamma_keV=489.1,
+            E_3gamma_keV=690.5,
+            B_E2_delta2_Wu=15.0
+        )
+    elif args.preset == "128Cs":
+        Jm_val, Js_val, Jl_val = 35.0, 25.0, 10.0
+        spins = [9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0]
+        e_b1 = [0.0, 235.0, 520.0, 856.0, 1245.0, 1680.0, 2160.0]
+        e_b2 = [280.0, 450.0, 680.0, 960.0, 1310.0, 1720.0, 2190.0]
+        bm1_be2 = [0.45, 0.85, 0.38, 0.92, 0.40, 0.88, 0.42]
+        chiral_res = analyze_chiral_doublet_staggering(spins, e_b1, e_b2, bm1_be2, j_p=5.5, j_n=5.5)
+    elif args.preset == "134Pr":
+        Jm_val, Js_val, Jl_val = 32.0, 20.0, 8.0
+        spins = [10.0, 11.0, 12.0, 13.0, 14.0, 15.0]
+        e_b1 = [0.0, 285.0, 620.0, 1010.0, 1450.0, 1940.0]
+        e_b2 = [350.0, 580.0, 840.0, 1160.0, 1540.0, 1990.0]
+        chiral_res = analyze_chiral_doublet_staggering(spins, e_b1, e_b2, j_p=5.5, j_n=5.5)
+    else:
+        spins = [9.5, 11.5, 13.5, 15.5, 17.5]
+        tw_res = calculate_transverse_wobbling_spectrum(Jm_val, Js_val, Jl_val, j_val, spins)
+
+    moi_res = calculate_triaxial_rotor_moi_parameters(Jm_val, Js_val, Jl_val)
+
+    if args.json:
+        import json
+        out = {"moments_of_inertia": moi_res}
+        if tw_res is not None:
+            out["transverse_wobbling"] = tw_res
+        if tip_res is not None:
+            out["tip_classifier"] = tip_res
+        if chiral_res is not None:
+            out["chiral_doublets"] = chiral_res
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_triaxial_report(moi_res, tw_res, tip_res, chiral_res))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3048,6 +3152,28 @@ def main():
     p_dec.add_argument("--j-orbital", type=float, default=5.5, help="Single-j orbital j (default: 5.5 for h11/2)")
     p_dec.add_argument("--json", action="store_true", help="Output pure JSON")
     p_dec.set_defaults(func=cmd_decouple)
+
+    # Alpha Decay Gamow WKB Penetration & Viola-Seaborg Systematics
+    p_alp = subparsers.add_parser("alpha", help="Alpha decay Gamow WKB penetration, hindrance factor & Viola-Seaborg systematics (Lu Xiting Ch 5)")
+    p_alp.add_argument("--preset", type=str, default="212Po", choices=["212Po", "210Po", "238U", "241Am", "254No", "294Og", "custom"], help="Benchmark preset")
+    p_alp.add_argument("--Z", "-Z", type=int, default=84, help="Parent proton number Z (default: 84)")
+    p_alp.add_argument("--A", "-A", type=int, default=212, help="Parent mass number A (default: 212)")
+    p_alp.add_argument("--Q", "-Q", type=float, default=8.954, help="Q_alpha in MeV (default: 8.954)")
+    p_alp.add_argument("--L", "-L", type=int, default=0, help="Orbital angular momentum L (default: 0)")
+    p_alp.add_argument("--r0", type=float, default=1.25, help="Radius parameter r0 in fm (default: 1.25)")
+    p_alp.add_argument("--t12-exp", type=float, default=None, help="Experimental half-life in seconds")
+    p_alp.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_alp.set_defaults(func=cmd_alpha)
+
+    # Triaxial Rotor Wobbling, TiP Classifier & Chiral Doublet Analyzer
+    p_tri = subparsers.add_parser("triaxial", help="Triaxial rotor wobbling (TW/LW), Lawrie TiP classifier & chiral doublets (Petrache 2025 CRC)")
+    p_tri.add_argument("--preset", type=str, default="163Lu", choices=["163Lu", "135Pr", "192Os", "128Cs", "134Pr", "custom"], help="Benchmark preset")
+    p_tri.add_argument("--Jm", type=float, default=64.0, help="Intermediate axis MOI in hbar^2/MeV (default: 64.0)")
+    p_tri.add_argument("--Js", type=float, default=56.0, help="Short axis MOI in hbar^2/MeV (default: 56.0)")
+    p_tri.add_argument("--Jl", type=float, default=13.0, help="Long axis MOI in hbar^2/MeV (default: 13.0)")
+    p_tri.add_argument("--j-single", type=float, default=6.5, help="Single particle angular momentum j (default: 6.5)")
+    p_tri.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tri.set_defaults(func=cmd_triaxial)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

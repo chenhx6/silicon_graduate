@@ -49,6 +49,7 @@ tags: [books, nuclear-physics, nuclear-structure, chinese-terminology, reaction-
 - **已核查章节**：
   - 封面、版权页、修订版前言（PDF pp. 1–5）；
   - 目录（PDF pp. 7–10）；
+  - 第 5 章 $\alpha$ 衰变（印刷 pp. 113–128 / PDF pp. 123–138）：衰变能与 Geiger-Nuttall 定律、Gamow 势垒穿透概率 WKB 积分、离心势垒阻碍因子及 Viola-Seaborg 系统学；
   - 第 7 章 $\gamma$ 跃迁（印刷 pp. 165–189 / PDF pp. 175–199）：多极分类、选择定则、Weisskopf 单粒子单位、内转换系数及级联方向角关联；
   - 第 8 章 核结构模型（印刷 pp. 190–220 / PDF pp. 200–230）：独立粒子壳模型、自旋-轨道耦合、综合/集体模型、形变参数化、转动能级与回弯现象；
   - 第 9 章 原子核反应（印刷 pp. 236–294 / PDF pp. 246–304）：实验室系与质心系变换、光学模型、复合核模型及重离子反应。
@@ -68,6 +69,7 @@ tags: [books, nuclear-physics, nuclear-structure, chinese-terminology, reaction-
 | LU-4 | 独立粒子壳模型强自旋-轨道耦合势 $V_{so} = -f(r)\vec{l}\cdot\vec{s}$，使高 $l$ 轨道发生强下沉（如 $1g_{9/2}, 1h_{11/2}, 1i_{13/2}$ 闯入轨道），微观解释 28, 50, 82, 126 经典幻数。 | model-result | direct | 第 8 章 §8.2, 印刷 pp. 194–199 / PDF pp. 204–209 | false |
 | LU-5 | 玻尔形变参量化与轴对称转子能级：$E(I) = \frac{\hbar^2}{2\mathcal{J}}I(I+1)$，基态带能级间隔比理论值为 $E(4^+)/E(2^+) = 10/3 \approx 3.333$，四极振动带间隔比为 $2.0$。 | model-result | direct | 第 8 章 §8.4–8.5, 印刷 pp. 205–212 / PDF pp. 215–222 | false |
 | LU-6 | 高自旋回弯机制（Backbending）：转动角速度 $\hbar\omega = dE/dI_x$ 与惯量 $2\mathcal{J}/\hbar^2 = [dE/d(I(I+1))]^{-1}$；Coriolis 力的退对作用（CAP）打破高 $j$ 准粒子配对并对齐转轴，导致转动惯量随转动频率急剧回弯。 | model-result | direct | 第 8 章 §8.7, 印刷 pp. 218–220 / PDF pp. 228–230 | false |
+| LU-7 | $\alpha$ 衰变量子穿透与衰变常量：$P = \exp[-2G_0]$，其中 Gamow 因子 $2G_0 = \frac{8(Z-2)\alpha_{\text{em}}}{v/c}[\arccos\sqrt{x_0} - \sqrt{x_0(1-x_0)}]$；衰变常量 $\lambda = \nu P S_\alpha$ 随 $Q_\alpha^{-1/2}$ 呈指数急剧变化，半衰期相差逾 24 个数量级。 | model-result | direct | 第 5 章 §5.3, 印刷 pp. 121–125 / PDF pp. 131–135 | false |
 
 ## Competing Interpretations and Limitations
 
@@ -75,6 +77,7 @@ tags: [books, nuclear-physics, nuclear-structure, chinese-terminology, reaction-
 - **转动惯量微观计算**：书中明确指出实际核的转动惯量介于刚体转动惯量 $\mathcal{J}_{\text{rig}}$ 与无旋流流体惯量 $\mathcal{J}_{\text{irrot}}$ 之间，系对关联引起的超流效应；定量微观自洽计算需依赖 Nilsson-BCS、推转壳模型（CSM）或相对论平均场（RMF）。
 
 ## Extracted Pages
+- 印刷 pp. 121–125（PDF pp. 131–135）：$\alpha$ 衰变 Gamow 势垒穿透量子理论、离心势垒阻碍与衰变常量推导。
 
 - 印刷 pp. 165–173（PDF pp. 175–183）：$\gamma$ 跃迁电磁多极性、选择定则与 Weisskopf 单粒子估计。
 - 印刷 pp. 176–183（PDF pp. 186–193）：级联 $\gamma$ 辐射方向角关联、内转换系数与角关联 Legendre 展开。

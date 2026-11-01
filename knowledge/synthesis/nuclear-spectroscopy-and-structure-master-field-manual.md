@@ -58,6 +58,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `isg` | 明示假设的历史同位旋分支示意 | 未算真实约化矩阵元；份额与峰位不作测量或微观认证 |
 | `fcoeff` | 任意初末自旋下 Yamazaki F 系数代数计算、理论 a2/a4、DCO 比值与 a2 双根反演 | 双根在数学上完全等价，需偏振度或内转换独立破除简并 |
 | `decouple` | K=1/2 转动带解耦参数 a 与 A=hbar^2/2J 严格线性正规方程组反演及 Stephens-Simon 退耦带模拟 | 绝热转动近似下成立，大形变组态混合或三轴强进动需结合 PRM/TPSM |
+| `alpha` | Alpha 衰变 Gamow 势垒穿透概率 WKB 积分、离心势垒阻碍及 Viola-Seaborg 系统学反演 | 势垒穿透模型假设预成几率 S_alpha，微观多核子团簇需结合壳模型/EDF |
+| `triaxial` | 三轴核转子摆动（TW/LW）频率与临界自旋、Elena Lawrie 倾斜进动（TiP）判据及手征双带 B(M1)/B(E2) 奇偶交错 | 候选带必须具有显著 E2 优势方可定性为摆动；M1 主导时归属于单粒子进动或准粒子-γ 振动耦合 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -65,6 +67,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py wobphase --root1 -0.15 --roo
 python3 system/scripts/analysis/nuclear_analyzer.py poissonfit --area 60 --bg 2 --json
 python3 system/scripts/analysis/nuclear_analyzer.py fcoeff -i 7.5 -f 6.5 -d -0.15 --json
 python3 system/scripts/analysis/nuclear_analyzer.py decouple --preset 169Tm --json
+python3 system/scripts/analysis/nuclear_analyzer.py alpha --preset 212Po --json
+python3 system/scripts/analysis/nuclear_analyzer.py triaxial --preset 135Pr --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

@@ -47,16 +47,16 @@ tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 | 章 | 作者/主题 | PDF 范围 | 本轮可声称的阅读状态 |
 | --- | --- | --- | --- |
 | 1 | Petrache，历史与展望 | 20–42 | 目录定位 |
-| 2 | Frauendorf，三轴核摆动 | 43–80 | 选段核查，非全章完成 |
-| 3 | Meng / Wang，核手征性 | 81–93 | 目录定位 |
+| 2 | Frauendorf，三轴核摆动 | 43–80 | 选段精读与TW/LW公式复核（PDF pp. 43–55, 式 2.20–2.21） |
+| 3 | Meng / Wang，核手征性 | 81–93 | 选段精读与手征几何/选择定则核查（PDF pp. 81–86） |
 | 4 | Tanabe / Sugawara-Tanabe，代数模型 | 94–109 | 目录定位 |
 | 5 | Guo / Lv，实验结果与争议 | 110–126 | 选段核查，非全章完成 |
-| 6 | Lawrie，倾斜进动与术语争议 | 127–155 | 目录与检索定位，正文待读 |
-| 7 | Grodner，126,128Cs 与寿命/g 因子 | 156–166 | 目录定位 |
+| 6 | Lawrie，倾斜进动与术语争议 | 127–155 | 选段精读与TiP表6.1判据复核（PDF pp. 127–148, 表6.1） |
+| 7 | Grodner，126,128Cs 与寿命/g 因子 | 156–166 | 选段精读与128Cs寿命/电磁选择定则核查（PDF pp. 156–164） |
 | 8 | Raduta 等，半经典模型 | 167–203 | 目录定位 |
 | 9 | Zhao，含时 CDFT 手征动力学 | 204–221 | 目录定位 |
 | 10 | Chen 等，CDFT+PRM | 222–238 | 目录定位 |
-| 11 | Nomura，IBFM/IBFFM | 239–255 | 选段核查，非全章完成 |
+| 11 | Nomura，IBFM/IBFFM | 239–255 | 选段精读与135Pr小δ机制/γ软核核查（PDF pp. 242–246） |
 | 12 | Sheikh 等，TPSM 与摆动 | 256–274 | PDF 258–259 选段阅读，公式待逐式复核 |
 | 13 | Budaca，准粒子对齐的自旋动力学 | 275–291 | 目录定位 |
 | 14 | Wang，TPSM 手征与摆动 | 292–301 | 目录定位 |
@@ -75,6 +75,8 @@ tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 | CW-5 | 书中 130Ba/136Nd 两准粒子案例的连接跃迁可为 M1 分量更强，但 E2 相对旋称伙伴增强。因此“所有摆动必须 fE2>80%”不是通用必要条件。 | author-interpretation | direct | Ch. 5, PDF 122–123 / pp. 103–104, Fig. 5.7 后段 | false |
 | CW-6 | 混合比由有符号约化 E2/M1 矩阵元及光子能量计算；E2/M1 算符有核芯、单粒子及占有振幅贡献。 | model-result | direct | Ch. 11, PDF 244–245 / pp. 225–226, Eqs. 11.10–11.12 | false |
 | CW-7 | IBFM 计算对 135Pr 给出小混合比，并指出某些 127Xe 低自旋大 δ 来自过小的 M1 矩阵元，而非必然很大的 E2。 | model-result | direct | Ch. 11, PDF 245–246 / pp. 226–227, Fig. 11.3 邻文 | false |
+| CW-8 | Elena Lawrie 建立区分声子摆动与倾斜进动（TiP）的七维判据：常自旋激发能线性（~n_w）对二次方（~m^2）、偶偶核求和定则、以及严格禁止 Delta_k>1 跃迁（对声子摆动 Delta_n=1 选择定则）。 | model-result | direct | Ch. 6, PDF 146–148 / pp. 127–129, Table 6.1 | false |
+| CW-9 | 孟杰与王玉鹏系统总结核手征性 3D 角动量几何：质子粒子沿短轴、中子空穴沿长轴、核芯转动沿中轴形成非零体积元 V_chiral = j_p . (j_n x R)；理想手征双带伴生带内 B(M1)/B(E2) 与带间 B(M1) 奇偶交错。 | model-result | direct | Ch. 3, PDF 82–85 / pp. 63–66, Figs. 3.2–3.4 | false |
 
 `false` 表示本轮完成“这段原文是否如此表述”的 self-audit，不等于实验真实性、学界共识或 human-reviewed。
 

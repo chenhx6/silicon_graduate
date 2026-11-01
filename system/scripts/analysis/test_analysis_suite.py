@@ -126,6 +126,8 @@ from poisson_likelihood_peak_fitting_bias_calculator import evaluate_peak_fittin
 from coriolis_attenuation_bandcrossing_calculator import calculate_coriolis_matrix_elements, analyze_backbending_alignment
 from directional_correlation_f_coefficients_calculator import calculate_f_coefficient, calculate_angular_distribution_coefficients, invert_delta_dual_roots, calculate_dco_and_ado_ratios
 from decoupling_parameter_khalf_band_calculator import calculate_pure_j_decoupling_parameter, calculate_khalf_spectrum, invert_khalf_band_parameters
+from alpha_decay_gamow_wkb_calculator import calculate_gamow_factor_wkb, evaluate_alpha_hindrance
+from triaxial_wobbling_tip_chiral_analyzer import calculate_triaxial_rotor_moi_parameters, calculate_transverse_wobbling_spectrum, classify_tip_vs_phonon_wobbling, analyze_chiral_doublet_staggering
 
 
 def test_heavy_ion_kinematics():
@@ -1637,6 +1639,41 @@ def test_directional_correlation_f_coefficients_calculator():
     print("  ✓ directional_correlation_f_coefficients_calculator passed.")
 
 
+def test_triaxial_wobbling_tip_chiral_analyzer():
+    print("Testing triaxial_wobbling_tip_chiral_analyzer...")
+    # 1. Triaxial MOI & kappa
+    moi = calculate_triaxial_rotor_moi_parameters(J_m=64.0, J_s=56.0, J_l=13.0)
+    assert abs(moi["asymmetry_parameter_kappa"] - 0.9272) < 0.01, "163Lu asymmetry kappa"
+
+    # 2. Pr-135 Transverse wobbling slope
+    tw_pr = calculate_transverse_wobbling_spectrum(J_m=21.0, J_s=13.0, J_l=4.0, j_single=5.5, spins=[6.5, 8.5, 10.5, 12.5, 14.5])
+    assert tw_pr["wobbling_slope_keV_per_hbar"] < 0.0, "Pr-135 transverse wobbling negative slope"
+    assert abs(tw_pr["critical_spin_Ic"] - 14.438) < 0.05, "Pr-135 critical spin Ic"
+
+    # 3. Lawrie TiP sum rule
+    tip = classify_tip_vs_phonon_wobbling([1, 2], [867.0, 1980.0], E_2g_keV=205.8, E_2gamma_keV=489.1, E_3gamma_keV=690.5, B_E2_delta2_Wu=15.0)
+    assert tip["sum_rule_test"]["delta_sum_keV"] < 10.0, "192Os TiP sum rule vanishing"
+
+    # 4. Chiral doublet splitting
+    chiral = analyze_chiral_doublet_staggering([9.0, 10.0, 11.0, 12.0], [0.0, 235.0, 520.0, 856.0], [280.0, 450.0, 680.0, 960.0])
+    assert chiral["band_levels"][0]["energy_splitting_DeltaE_keV"] == 280.0
+    print("  ✓ triaxial_wobbling_tip_chiral_analyzer passed.")
+
+
+def test_alpha_decay_gamow_wkb_calculator():
+    print("Testing alpha_decay_gamow_wkb_calculator...")
+    res_212po = calculate_gamow_factor_wkb(Z_parent=84, A_parent=212, Q_alpha_MeV=8.954, L=0)
+    assert abs(res_212po["Gamow_factor_2G"] - 30.961) < 0.05, "212Po Gamow factor 2G"
+    assert res_212po["T12_WKB_unhindered_sec"] < 1.0e-7, "212Po unhindered half-life scale"
+    hin_212po = evaluate_alpha_hindrance(2.99e-7, res_212po["T12_WKB_unhindered_sec"])
+    assert 10.0 < hin_212po["hindrance_factor_HF"] < 100.0, "212Po hindrance factor"
+
+    res_238u = calculate_gamow_factor_wkb(Z_parent=92, A_parent=238, Q_alpha_MeV=4.270, L=0)
+    assert abs(res_238u["Gamow_factor_2G"] - 86.38) < 0.1, "238U Gamow factor 2G"
+    assert res_238u["T12_WKB_unhindered_sec"] > 1.0e15, "238U unhindered half-life scale"
+    print("  ✓ alpha_decay_gamow_wkb_calculator passed.")
+
+
 def test_decoupling_parameter_khalf_band_calculator():
     print("Testing decoupling_parameter_khalf_band_calculator...")
     # Pure j decoupling parameters
@@ -1748,4 +1785,6 @@ if __name__ == "__main__":
     test_coriolis_attenuation_bandcrossing_calculator()
     test_directional_correlation_f_coefficients_calculator()
     test_decoupling_parameter_khalf_band_calculator()
+    test_alpha_decay_gamow_wkb_calculator()
+    test_triaxial_wobbling_tip_chiral_analyzer()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")
