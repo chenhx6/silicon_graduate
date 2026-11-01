@@ -3,6 +3,20 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T18:30:00+08:00 (相对论弹核碎裂、手征双阱WKB隧穿、Clover偏振加和、Strutinsky平滑与Nilsson磁矩5大分析器落地，74模块闭环)
+
+- **全域核物理理论与在束实验分析系统化闭环拓展（69 -> 74 模块）**：
+  - **模块 70**：相对论重离子弹核碎裂（Abrasion-Ablation）擦伤-烧蚀与 Goldhaber 动量宽计算器（`abrasion_ablation_fragmentation_calculator.py`），结合 Glauber 清洁切削几何与前碎片表面剪切能 $E^* \approx 13.3\text{ MeV} \times A_{\text{part}}$，模拟两步蒸发冷却与费米运动诱发的高斯纵向动量展宽 $\sigma_p$，为放射性束流大装置（FRIB / HIAF）提供初级靶产额优化；
+  - **模块 71**：手征双重势阱量子隧穿劈裂 $\Delta E(I)$ 与手征振动向静态转动相变计算器（`chiral_vibrational_tunneling_calculator.py`），构建四阶非共面双阱集体势 $V(\phi, I)$，利用 WKB 势垒穿透积分推导孪生能带能级差 $\Delta E(I)$ 的指数坍缩，重现低自旋振动（$\sim 300\text{ keV}$）向中自旋静态转动（$\Delta E \le 50\text{ keV}$）及极高自旋哥氏重整相变的马鞍形全自旋演化；
+  - **模块 72**：四叶草（Clover）HPGe 探测器康普顿加和（Add-Back）与自散射线偏振度计算器（`clover_compton_addback_polarization_calculator.py`），解析四晶体矩阵跨晶体散射加和因子 $F_{\text{add-back}}(E_\gamma)$（高能区光电峰效率跃升近 $50\%$），推导 Klein-Nishina 极化散射截面，利用无偏振放射源几何因子 $a_{\text{geom}}$ 纠偏提取真实线偏振度 $P$，确立电多极（$P > 0$）与磁多极（$P < 0$）宇称刚性判据；
+  - **模块 73**：Strutinsky 微观壳修正能平滑方法与平顶条件（Plateau Condition）计算器（`strutinsky_shell_correction_calculator.py`），运用 6 阶 Hermite 曲率多项式加权平滑离散单粒子能级谱，自洽求解平滑费米能级 $\tilde{\lambda}$，从微观量子态中无偏剥离壳修正能 $\delta U = E_{\text{disc}} - \tilde{E}$，并建立平滑参数 $\gamma$ 在 $8 \sim 12\text{ MeV}$ 区间的平顶驻点检验；
+  - **模块 74**：Nilsson 单核子内禀 $g_K$ 因子、磁偶极矩 $\mu$ 与在束 $B(M1)/B(E2)$ 分支比反演计算器（`nilsson_magnetic_moment_gk_calculator.py`），推导轴对称单核子态内禀磁旋比 $K g_K = g_l \Lambda + g_s^{\text{eff}} \Sigma$（考虑介质自旋淬灭 $0.70 g_s^{\text{free}}$）与变形核磁偶极矩 $\mu(I)$，建立由实测交叉与跨步跃迁峰面积比值直接开方反演微观差值 $|g_K - g_R|$ 的解析算法，为判定奇 $A$ 核转动带准粒子组态纯度提供无歧义实验仲裁；
+  - **知识大脑与测试全绿**：
+    - 撰写 5 篇权威概念专论，更新 `knowledge/index.md`；
+    - 升级 `nuclear-spectroscopy-and-structure-master-field-manual.md` 为 74 模块完整闭环指南；
+    - 统一 CLI `nuclear_analyzer.py` 新增 `frag`, `chvibe`, `clover`, `strut`, `gk` 子命令；
+    - `test_analysis_suite.py` 自动化回归测试扩展至 **74 大科学分析模块 100% 绿灯全通**！
+
 ## Active checkpoint — 2026-11-02T17:30:00+08:00 (RDDS柱塞法皮秒寿命与DDCM、无中微子双贝塔NME、核彩虹偏转角、核芯极化有效电荷与双峰裂变异能态等5大分析器落地，69模块闭环)
 
 - **全域核物理理论与在束实验分析系统化闭环拓展（64 -> 69 模块）**：

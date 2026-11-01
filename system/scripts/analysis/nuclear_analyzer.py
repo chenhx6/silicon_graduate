@@ -87,6 +87,11 @@ from double_beta_decay_nme_calculator import invert_majorana_mass_limit, predict
 from heavy_ion_elastic_rainbow_scattering_calculator import calculate_scattering_kinematics, scan_nuclear_rainbow, format_text_report as format_rainbow_report
 from core_polarization_effective_charge_calculator import calculate_microscopic_polarization_charges, invert_effective_charge_from_be2, format_text_report as format_effcharge_report
 from fission_isomer_double_hump_transmission_calculator import calculate_fission_isomer_properties, scan_subthreshold_fission_cross_section, format_text_report as format_fissiso_report
+from abrasion_ablation_fragmentation_calculator import scan_fragmentation_yields, format_text_report as format_frag_report
+from chiral_vibrational_tunneling_calculator import evaluate_chiral_potential_at_spin, scan_chiral_band_splitting_sequence, format_text_report as format_chvibe_report
+from clover_compton_addback_polarization_calculator import calculate_clover_addback_factor, analyze_clover_polarization, format_text_report as format_clover_report
+from strutinsky_shell_correction_calculator import calculate_strutinsky_shell_correction, scan_strutinsky_plateau, format_text_report as format_strut_report
+from nilsson_magnetic_moment_gk_calculator import calculate_nilsson_gk, calculate_magnetic_dipole_moment, invert_gk_from_bm1_be2, format_text_report as format_gk_report
 
 
 def cmd_kinematics(args):
@@ -1624,6 +1629,71 @@ def cmd_fissiso(args):
     else:
         print(format_fissiso_report(summary))
 
+def cmd_frag(args):
+    summary = scan_fragmentation_yields(args.Ap, args.Zp, args.At, args.Zt)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_frag_report(summary))
+
+
+def cmd_chvibe(args):
+    pt_res = evaluate_chiral_potential_at_spin(args.spin, I_crit=args.Icrit, I_rest=args.Irest)
+    summary = {"point_evaluation": pt_res}
+    if args.scan or args.spin == 13.0:
+        summary["sequence_scan"] = scan_chiral_band_splitting_sequence(I_crit=args.Icrit, I_rest=args.Irest)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_chvibe_report(summary))
+
+
+def cmd_clover(args):
+    ab_res = calculate_clover_addback_factor(args.energy)
+    pol_res = analyze_clover_polarization(args.n_perp, args.n_para, args.energy, args.a_geom)
+    summary = {"addback": ab_res, "polarization": pol_res}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_clover_report(summary))
+
+
+def cmd_strut(args):
+    sp_spectrum = []
+    for i in range(41):
+        sp_spectrum.append(-45.0 + i * 0.85)
+    top_below = sp_spectrum[-1]
+    for i in range(25):
+        sp_spectrum.append(top_below + 4.2 + i * 0.90)
+    res = calculate_strutinsky_shell_correction(sp_spectrum, args.particles, args.gamma)
+    plat = scan_strutinsky_plateau(sp_spectrum, args.particles)
+    summary = {"shell_correction": res, "plateau_check": plat}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_strut_report(summary))
+
+
+def cmd_gk(args):
+    gk_res = calculate_nilsson_gk(args.omega, args.lambda_val, args.mass, args.charge, args.neutron)
+    moments = []
+    for dI in range(4):
+        I_val = args.omega + dI
+        mu_val = calculate_magnetic_dipole_moment(I_val, args.omega, gk_res["g_K"], gk_res["g_R"])
+        moments.append({"I": I_val, "mu_muN": mu_val})
+    summary = {"nilsson_gk": gk_res, "magnetic_moments": moments}
+    if args.invert or args.e_cross != 750.0:
+        summary["inversion"] = invert_gk_from_bm1_be2(args.omega + 2.0, args.e_cross, args.e_step, args.i_cross, args.i_step, g_R=gk_res["g_R"])
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_gk_report(summary))
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -2408,6 +2478,55 @@ def main():
     p_fiso.add_argument("--scan", action="store_true", help="Perform subthreshold energy transmission scan")
     p_fiso.add_argument("--json", action="store_true", help="Output results in JSON format")
     p_fiso.set_defaults(func=cmd_fissiso)
+
+    # Relativistic Projectile Fragmentation Abrasion-Ablation
+    p_frag = subparsers.add_parser("frag", help="Relativistic heavy-ion projectile fragmentation abrasion-ablation simulator")
+    p_frag.add_argument("-Zp", type=int, default=54, help="Projectile charge Z_p (default: 54)")
+    p_frag.add_argument("-Ap", type=int, default=136, help="Projectile mass A_p (default: 136)")
+    p_frag.add_argument("-Zt", type=int, default=4, help="Target charge Z_t (default: 4)")
+    p_frag.add_argument("-At", type=int, default=9, help="Target mass A_t (default: 9)")
+    p_frag.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_frag.set_defaults(func=cmd_frag)
+
+    # Chiral Double-Well Potential & Tunneling Splitting
+    p_chv = subparsers.add_parser("chvibe", help="Chiral double-well potential, WKB tunneling splitting and vibration-to-rotation transition")
+    p_chv.add_argument("-I", "--spin", type=float, default=13.0, help="Nuclear spin I in hbar (default: 13.0)")
+    p_chv.add_argument("--Icrit", type=float, default=11.0, help="Onset spin for chirality (default: 11.0)")
+    p_chv.add_argument("--Irest", type=float, default=18.0, help="Planar restoration spin (default: 18.0)")
+    p_chv.add_argument("--scan", action="store_true", help="Scan full spin sequence")
+    p_chv.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_chv.set_defaults(func=cmd_chvibe)
+
+    # Clover HPGe Compton Addback & Linear Polarimetry
+    p_clov = subparsers.add_parser("clover", help="Clover HPGe detector Compton addback enhancement and linear polarimetry analyzer")
+    p_clov.add_argument("-E", "--energy", type=float, default=600.0, help="Gamma energy in keV (default: 600.0)")
+    p_clov.add_argument("--n-perp", type=float, default=12500.0, help="Perpendicular scattering counts")
+    p_clov.add_argument("--n-para", type=float, default=9800.0, help="Parallel scattering counts")
+    p_clov.add_argument("--a-geom", type=float, default=1.00, help="Geometric calibration factor (default: 1.00)")
+    p_clov.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_clov.set_defaults(func=cmd_clover)
+
+    # Strutinsky Shell Correction Energy & Plateau Condition
+    p_strut = subparsers.add_parser("strut", help="Strutinsky shell correction energy smoothing and plateau condition calculator")
+    p_strut.add_argument("-N", "--particles", type=int, default=82, help="Particle number (default: 82)")
+    p_strut.add_argument("-g", "--gamma", type=float, default=8.5, help="Smoothing parameter gamma in MeV (default: 8.5)")
+    p_strut.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_strut.set_defaults(func=cmd_strut)
+
+    # Nilsson Magnetic Dipole Moment mu & g_K Inversion
+    p_gk = subparsers.add_parser("gk", help="Nilsson single-particle magnetic moment mu, g_K factor and B(M1)/B(E2) inverter")
+    p_gk.add_argument("--omega", type=float, default=2.5, help="Nilsson Omega quantum number (default: 2.5)")
+    p_gk.add_argument("--lambda-val", type=int, default=2, help="Nilsson Lambda quantum number (default: 2)")
+    p_gk.add_argument("-A", "--mass", type=int, default=131, help="Mass number A (default: 131)")
+    p_gk.add_argument("-Z", "--charge", type=int, default=56, help="Charge number Z (default: 56)")
+    p_gk.add_argument("--neutron", action="store_true", help="Compute for neutron instead of proton")
+    p_gk.add_argument("--invert", action="store_true", help="Perform in-beam branching ratio inversion")
+    p_gk.add_argument("--e-cross", type=float, default=750.0, help="E2 crossover energy in keV (default: 750.0)")
+    p_gk.add_argument("--e-step", type=float, default=380.0, help="M1+E2 stopover energy in keV (default: 380.0)")
+    p_gk.add_argument("--i-cross", type=float, default=40.0, help="Intensity of E2 crossover")
+    p_gk.add_argument("--i-step", type=float, default=100.0, help="Intensity of M1+E2 stopover")
+    p_gk.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_gk.set_defaults(func=cmd_gk)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

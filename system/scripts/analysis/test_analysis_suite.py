@@ -101,6 +101,11 @@ from double_beta_decay_nme_calculator import invert_majorana_mass_limit, predict
 from heavy_ion_elastic_rainbow_scattering_calculator import calculate_scattering_kinematics, scan_nuclear_rainbow
 from core_polarization_effective_charge_calculator import calculate_microscopic_polarization_charges, invert_effective_charge_from_be2
 from fission_isomer_double_hump_transmission_calculator import calculate_fission_isomer_properties, evaluate_double_barrier_transmission
+from abrasion_ablation_fragmentation_calculator import calculate_geometric_abrasion, simulate_ablation_cooling
+from chiral_vibrational_tunneling_calculator import evaluate_chiral_potential_at_spin, scan_chiral_band_splitting_sequence
+from clover_compton_addback_polarization_calculator import calculate_clover_addback_factor, analyze_clover_polarization
+from strutinsky_shell_correction_calculator import calculate_strutinsky_shell_correction
+from nilsson_magnetic_moment_gk_calculator import calculate_nilsson_gk, calculate_magnetic_dipole_moment, invert_gk_from_bm1_be2
 
 
 def test_heavy_ion_kinematics():
@@ -1331,6 +1336,66 @@ def test_fission_isomer_double_hump_transmission_calculator():
     assert trans_res["total_transmission_T"] > 0.5, "Resonant transmission should be near 1.0"
     print("  ✓ fission_isomer_double_hump_transmission_calculator passed.")
 
+
+def test_abrasion_ablation_fragmentation_calculator():
+    print("Testing abrasion_ablation_fragmentation_calculator...")
+    abr = calculate_geometric_abrasion(A_p=136, Z_p=54, A_t=9, Z_t=4, impact_parameter_fm=4.0)
+    assert abr["pre_fragment_mass_A_pre"] > 80.0, "Pre-fragment mass sanity check"
+    assert abr["pre_fragment_excitation_MeV"] > 100.0, "Pre-fragment should carry significant excitation"
+
+    abl = simulate_ablation_cooling(abr["pre_fragment_mass_A_pre"], abr["pre_fragment_charge_Z_pre"], abr["pre_fragment_excitation_MeV"], A_projectile=136)
+    assert abl["final_fragment_A"] < abr["pre_fragment_mass_A_pre"], "Ablation must cool by evaporating nucleons"
+    assert abl["goldhaber_momentum_width_MeV_c"] > 200.0, "Goldhaber width check"
+    print("  ✓ abrasion_ablation_fragmentation_calculator passed.")
+
+
+def test_chiral_vibrational_tunneling_calculator():
+    print("Testing chiral_vibrational_tunneling_calculator...")
+    # Low spin: vibrational splitting
+    pt_vib = evaluate_chiral_potential_at_spin(spin_I=10.0, I_crit=11.0, I_rest=18.0)
+    assert not pt_vib["is_double_well"], "I=10 should be single well"
+    assert pt_vib["predicted_chiral_splitting_DeltaE_keV"] > 200.0, "Vibrational splitting should be large"
+
+    # Mid spin: double well static chirality
+    pt_static = evaluate_chiral_potential_at_spin(spin_I=16.0, I_crit=11.0, I_rest=18.0)
+    assert pt_static["is_double_well"], "I=16 must develop double well"
+    assert pt_static["predicted_chiral_splitting_DeltaE_keV"] < 60.0, "Static chirality should have degenerate splitting"
+    print("  ✓ chiral_vibrational_tunneling_calculator passed.")
+
+
+def test_clover_compton_addback_polarization_calculator():
+    print("Testing clover_compton_addback_polarization_calculator...")
+    ab = calculate_clover_addback_factor(E_gamma_keV=1000.0)
+    assert 1.30 < ab["addback_factor_F"] < 1.60, f"Addback factor unexpected: {ab['addback_factor_F']}"
+
+    pol = analyze_clover_polarization(N_perp=14200.0, N_parallel=10500.0, E_gamma_keV=846.0, a_geom=1.0)
+    assert pol["linear_polarization_P"] > 0.5, "Perpendicular excess should yield strong positive polarization"
+    assert "Electric" in pol["electromagnetic_character"], "Positive P must diagnose Electric multipolarity"
+    print("  ✓ clover_compton_addback_polarization_calculator passed.")
+
+
+def test_strutinsky_shell_correction_calculator():
+    print("Testing strutinsky_shell_correction_calculator...")
+    levels = [-40.0 + i * 0.9 for i in range(50)]
+    res = calculate_strutinsky_shell_correction(levels, particle_number=40, gamma_smoothing_MeV=8.0)
+    assert abs(res["shell_correction_delta_U_MeV"]) < 50.0, "Shell correction sanity check"
+    assert res["smooth_energy_MeV"] < 0, "Smooth energy should be negative"
+    print("  ✓ strutinsky_shell_correction_calculator passed.")
+
+
+def test_nilsson_magnetic_moment_gk_calculator():
+    print("Testing nilsson_magnetic_moment_gk_calculator...")
+    gk = calculate_nilsson_gk(Omega=2.5, Lambda=2, A_mass=131, Z_charge=56, is_neutron=True)
+    assert gk["g_l"] == 0.0, "Neutron orbital g-factor is 0"
+    assert gk["g_s_effective"] < 0.0, "Neutron spin g-factor is negative"
+
+    mu_head = calculate_magnetic_dipole_moment(spin_I=2.5, Omega_K=2.5, g_K=gk["g_K"], g_R=gk["g_R"])
+    assert abs(mu_head) < 5.0, "Magnetic moment sanity check"
+
+    inv = invert_gk_from_bm1_be2(spin_I=4.5, E_gamma_cross_keV=750.0, E_gamma_step_keV=380.0, I_gamma_cross=40.0, I_gamma_step=100.0)
+    assert inv["extracted_abs_gK_minus_gR"] > 0.0, "Must extract non-zero |gK - gR|"
+    print("  ✓ nilsson_magnetic_moment_gk_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -1402,4 +1467,9 @@ if __name__ == "__main__":
     test_heavy_ion_elastic_rainbow_scattering_calculator()
     test_core_polarization_effective_charge_calculator()
     test_fission_isomer_double_hump_transmission_calculator()
-    print("ALL 69 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_abrasion_ablation_fragmentation_calculator()
+    test_chiral_vibrational_tunneling_calculator()
+    test_clover_compton_addback_polarization_calculator()
+    test_strutinsky_shell_correction_calculator()
+    test_nilsson_magnetic_moment_gk_calculator()
+    print("ALL 74 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

@@ -1,15 +1,15 @@
 ---
 type: synthesis
-title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的69模块完整闭环指南"
-aliases: [核谱学实战全书, 核结构专家工作手册, 69模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
+title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的74模块完整闭环指南"
+aliases: [核谱学实战全书, 核结构专家工作手册, 74模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
 created: 2026-11-02
 updated: 2026-11-02
 status: active
 review_status: unreviewed
-topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 69-modules-suite, expert-field-manual]
+topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 74-modules-suite, expert-field-manual]
 ---
 
-# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的69模块完整闭环指南
+# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的74模块完整闭环指南
 
 ## 1. 宣言与专家心智模型：大模型如何以世界级核物理学家身份工作
 
@@ -25,9 +25,9 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
 
 ---
 
-## 2. 七大科研实战阶段与 69 大科学分析模块调用图谱
+## 2. 七大科研实战阶段与 74 大科学分析模块调用图谱
 
-本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **69 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
+本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **74 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
 
 ```text
  [Phase 1: 实验提案与反应动力学]
@@ -36,6 +36,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ evap       ── 统计重离子熔合蒸发级联 (xn, pxn, axn) 与残核截面
    │ lmt        ── 重离子线动量转移 (LMT)、不完全熔合与裂变折叠角
    │ rainbow    ── 重离子半经典偏转函数、核彩虹散射与掠射角布局
+   │ frag       ── 相对论重离子弹核碎裂 (Abrasion-Ablation) 与 Goldhaber 动量宽
    │ relcoulex  ── 相对论中间能区库仑激发与虚光子
    │ mnt        ── 多核子转移 (MNT) 与深层非弹性 (DIC)
    │ astro      ── 恒星热核反应率与伽莫夫能窗
@@ -46,6 +47,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ pid        ── 带电粒子 Delta_E-E 望远镜鉴别、脉冲亏损 (PHD) 与能散区判定
    │ hpge       ── HPGe 极零相消 (PZC)、电荷收集弹道亏损 (BD) 与高率死时间
    │ psd        ── 闪烁体脉冲形状鉴别 (PSD)、双门电荷比 (CCM) 与优值因子 (FOM)
+   │ clover     ── Clover 探测器康普顿加和 (Add-Back) 与自散射线偏振度
    ▼
  [Phase 3: 符合能谱、内转换与能级纲图构建]
    │ balance    ── 级联进出强度守恒与内转换电子纠偏
@@ -64,6 +66,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ ado        ── 特征探测环 ADO 与线偏振二维似然扫描
    │ stats      ── 协方差误差矩阵传播、低计数 Baker-Cousins 似然与双根仲裁
    │ rdds       ── 反冲距离多普勒频移 (RDDS) 柱塞法皮秒寿命与 DDCM
+   │ gk         ── Nilsson 内禀 g_K 因子、磁偶极矩 mu 与 B(M1)/B(E2) 分支比反演
    │ effcharge  ── 核芯微观极化率、GQR 耦合与核子有效电荷 (e_p_eff, e_n_eff)
    │ ias        ── 同位旋类似态 (IAS) 库仑位移能与镜像核 CED 对齐判定
    │ alaga      ── Weisskopf 单粒子单位与轴对称转子 Alaga 分支
@@ -86,6 +89,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ pes        ── 5D Bohr 集体哈密顿四极势能面 (PES) 与 gamma 软度比值
    │ wobbling   ── Davydov-Filippov 转子、横向/纵向摆动模型与伪摆动排他性证伪
    │ chiral     ── 3D TAC 倾斜轴推转手征几何、非共面体积度规与四项裁判
+   │ chvibe     ── 手征双阱集体势、WKB 量子隧穿劈裂 Delta_E(I) 与相变演化
    │ tidal      ── 弱形变过渡区潮汐波行波动力学与 B(E2) 线性标度
    │ e0         ── 形状共存两态混合模型与单极强度 rho^2(E0)
    │ ibm        ── 相互作用玻色子模型与 Casten 三角形相变
@@ -99,6 +103,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ oslo       ── 奥斯陆方法主跃迁矩阵解卷积与低能增强 (LEE)
    │ pairvib    ── BCS 相干对转移增强与闭壳配对振动声子谱
    │ rmf        ── 相对论平均场 (RMF)、自旋-轨道耦合与狄拉克赝自旋
+   │ strut      ── Strutinsky 微观壳修正能平滑方法与平顶条件 (Plateau Condition)
    │ radius     ── 原子核均方电荷半径、同位素移与 King 图线性回归
    │ radioact   ── 质子滴线单质子 WKB、Goldanskii 真双质子与团簇放射性
    │ beta       ── 相对论 beta 衰变相空间 f(Z,Q)、log(ft) 与超允许 CVC 检验
@@ -371,7 +376,22 @@ python3 system/scripts/analysis/nuclear_analyzer.py effcharge -Z 82 -A 208
 # 68. 双峰裂变势垒量子穿透与形状异能态
 python3 system/scripts/analysis/nuclear_analyzer.py fissiso --VA 6.0 --VB 5.5
 
-# 69. 全套 69 大模块自动化回归自测 (100% 绿灯)
+# 69. 相对论弹核碎裂与 Goldhaber 动量宽
+python3 system/scripts/analysis/nuclear_analyzer.py frag -Zp 54 -Ap 136
+
+# 70. 手征双阱集体势与 WKB 隧穿分裂
+python3 system/scripts/analysis/nuclear_analyzer.py chvibe -I 16.0 --scan
+
+# 71. Clover 探测器加和与康普顿偏振
+python3 system/scripts/analysis/nuclear_analyzer.py clover -E 846.0 --n-perp 14200.0 --n-para 10500.0
+
+# 72. Strutinsky 壳修正能与平顶条件
+python3 system/scripts/analysis/nuclear_analyzer.py strut -N 82 -g 8.5
+
+# 73. Nilsson 内禀 g_K 因子与 B(M1)/B(E2) 分支比
+python3 system/scripts/analysis/nuclear_analyzer.py gk --omega 2.5 --lambda-val 2 -A 131 -Z 56 --neutron --invert
+
+# 74. 全套 74 大模块自动化回归自测 (100% 绿灯)
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 
