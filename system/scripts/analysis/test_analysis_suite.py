@@ -62,6 +62,7 @@ from fission_barrier_superheavy_calculator import calculate_liquid_drop_fissilit
 from oslo_method_nld_gsf_analyzer import calculate_rho_at_sn, verify_oslo_lie_transformation_invariance, calibrate_oslo_nld_and_gsf, diagnose_low_energy_enhancement
 from band_termination_cns_calculator import calculate_valence_maximum_spin, model_transition_quadrupole_collapse, calculate_rigid_rotor_subtraction, calculate_dynamic_moment_of_inertia_j2, diagnose_smooth_band_termination
 from tdpad_hyperfine_precession_calculator import calculate_larmor_frequency, invert_g_factor_from_period, generate_tdpad_r_of_t, calculate_three_vector_chiral_gfactor, calculate_electric_quadrupole_frequency
+from pairing_gap_separation_energy_calculator import calculate_s2n_series, calculate_pairing_gap_3point, calculate_pairing_gap_5point, detect_shell_closure_drop, detect_shape_transition_anomaly, compare_empirical_bcs_gap
 
 
 def test_heavy_ion_kinematics():
@@ -557,6 +558,41 @@ def test_tdpad_hyperfine_precession_calculator():
     assert 60.0 < qi["nu_Q_MHz"] < 75.0, f"nu_Q out of expected range: {qi['nu_Q_MHz']}"
     print("  ✓ tdpad_hyperfine_precession_calculator passed.")
 
+
+def test_pairing_gap_separation_energy_calculator():
+    print("Testing pairing_gap_separation_energy_calculator...")
+    # S2n series test
+    s2n_series = [
+        {"N": 78, "S_2n_MeV": 14.5},
+        {"N": 80, "S_2n_MeV": 13.8},
+        {"N": 82, "S_2n_MeV": 13.1},
+        {"N": 84, "S_2n_MeV": 9.2},   # 3.9 MeV magic cliff!
+        {"N": 86, "S_2n_MeV": 8.3},
+        {"N": 88, "S_2n_MeV": 7.5},
+        {"N": 90, "S_2n_MeV": 7.4},   # 0.1 MeV anomalous flattening!
+        {"N": 92, "S_2n_MeV": 6.5}
+    ]
+    magic = detect_shell_closure_drop(s2n_series, expected_magic=[82])
+    assert magic[0]["is_shell_closure"] == True, "N=82 should be identified as shell closure"
+    assert abs(magic[0]["shell_drop_delta_2n_MeV"] - 3.9) < 1e-4, f"Mismatch in shell drop: {magic[0]['shell_drop_delta_2n_MeV']}"
+
+    # Shape transition detection
+    trans = detect_shape_transition_anomaly(s2n_series)
+    assert len(trans) > 0, "Should detect shape transition anomaly"
+    assert trans[0]["N_transition"] == 90, f"Expected anomaly at N=90, got {trans[0]['N_transition']}"
+
+    # 3-point and 5-point pairing gap
+    gap3 = calculate_pairing_gap_3point(B_minus=1100.0, B_center=1107.0, B_plus=1116.2, is_odd_N=True)
+    assert abs(gap3["delta_3point_MeV"] - 1.1) < 1e-4, f"3-point gap mismatch: {gap3['delta_3point_MeV']}"
+
+    gap5 = calculate_pairing_gap_5point(B_m2=1091.5, B_m1=1100.0, B_0=1107.0, B_p1=1116.2, B_p2=1124.0, is_odd_N=True)
+    assert 0.8 < gap5["delta_5point_MeV"] < 1.0, f"5-point gap mismatch: {gap5['delta_5point_MeV']}"
+
+    # Empirical BCS comparison
+    bcs = compare_empirical_bcs_gap(A=132)
+    assert 0.9 < bcs["Delta_12_over_sqrt_A_MeV"] < 1.2, "Empirical gap out of range"
+    print("  ✓ pairing_gap_separation_energy_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -589,4 +625,5 @@ if __name__ == "__main__":
     test_oslo_method_nld_gsf_analyzer()
     test_band_termination_cns_calculator()
     test_tdpad_hyperfine_precession_calculator()
-    print("ALL 30 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_pairing_gap_separation_energy_calculator()
+    print("ALL 31 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

@@ -48,6 +48,7 @@ from fission_barrier_superheavy_calculator import calculate_liquid_drop_fissilit
 from oslo_method_nld_gsf_analyzer import calculate_rho_at_sn, verify_oslo_lie_transformation_invariance, calibrate_oslo_nld_and_gsf, diagnose_low_energy_enhancement
 from band_termination_cns_calculator import calculate_valence_maximum_spin, model_transition_quadrupole_collapse, calculate_rigid_rotor_subtraction, calculate_dynamic_moment_of_inertia_j2, diagnose_smooth_band_termination
 from tdpad_hyperfine_precession_calculator import calculate_larmor_frequency, invert_g_factor_from_period, generate_tdpad_r_of_t, calculate_three_vector_chiral_gfactor, calculate_electric_quadrupole_frequency
+from pairing_gap_separation_energy_calculator import calculate_s2n_series, calculate_pairing_gap_3point, calculate_pairing_gap_5point, detect_shell_closure_drop, detect_shape_transition_anomaly, compare_empirical_bcs_gap
 
 
 def cmd_kinematics(args):
@@ -730,6 +731,47 @@ def cmd_tdpad(args):
         print(f"    Fundamental Precession Period: T_0 = {qi['fundamental_period_T0_ns']:.1f} ns")
     print("=======================================================")
 
+
+def cmd_pair(args):
+    print("\n=======================================================")
+    print(" Nuclear Pairing Gaps, S_2n Systematics & Shell Closures")
+    print("=======================================================")
+    if args.s2n is not None and args.n_list is not None:
+        n_vals = [int(x.strip()) for x in args.n_list.split(",")]
+        s_vals = [float(x.strip()) for x in args.s2n.split(",")]
+        series = [{"N": n, "S_2n_MeV": s} for n, s in zip(n_vals, s_vals)]
+
+        magic_gaps = detect_shell_closure_drop(series)
+        anomalies = detect_shape_transition_anomaly(series)
+
+        print("  Two-Neutron Separation Energy Profile S_2n(N):")
+        for item in series:
+            print(f"    N = {item['N']:3d} : S_2n = {item['S_2n_MeV']:6.2f} MeV")
+
+        if len(magic_gaps) > 0:
+            print("-------------------------------------------------------")
+            print("  Magic Shell Closure Diagnostics:")
+            for g in magic_gaps:
+                status = "PROMINENT SHELL GAP" if g['is_shell_closure'] else "WEAK/QUENCHED"
+                print(f"    N = {g['N_magic']:3d} : Drop delta_2n = {g['shell_drop_delta_2n_MeV']:.2f} MeV -> {status}")
+
+        if len(anomalies) > 0:
+            print("-------------------------------------------------------")
+            print("  Shape Phase Transition / Flattening Anomalies:")
+            for a in anomalies:
+                print(f"    {a['diagnosis']}")
+
+    if args.b_3p is not None:
+        b_vals = [float(x.strip()) for x in args.b_3p.split(",")]
+        gap3 = calculate_pairing_gap_3point(b_vals[0], b_vals[1], b_vals[2], is_odd_N=args.is_odd)
+        print("-------------------------------------------------------")
+        print(f"  3-Point Odd-Even Staggering Gap : Delta^(3) = {gap3['delta_3point_MeV']:.3f} MeV")
+
+    if args.A is not None:
+        bcs = compare_empirical_bcs_gap(args.A)
+        print(f"  Empirical BCS Baseline (A={args.A}) : Delta = 12/sqrt(A) = {bcs['Delta_12_over_sqrt_A_MeV']:.3f} MeV (4.8/A^1/3 = {bcs['Delta_4.8_over_cbrt_A_MeV']:.3f} MeV)")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1039,6 +1081,15 @@ def main():
     p_tdpad.add_argument("--vzz", type=float, default=None, help="Host electric field gradient in 10^21 V/m^2")
     p_tdpad.add_argument("--I", type=float, default=None, help="State spin I")
     p_tdpad.set_defaults(func=cmd_tdpad)
+
+    # Pairing Gaps & S_2n Systematics
+    p_pair = subparsers.add_parser("pair", help="Two-neutron separation energy, pairing gaps and shell closure analyzer")
+    p_pair.add_argument("--s2n", type=str, default=None, help="Comma-separated list of S_2n values in MeV")
+    p_pair.add_argument("--n-list", type=str, default=None, help="Comma-separated list of neutron numbers N")
+    p_pair.add_argument("--b-3p", type=str, default=None, help="Three binding energies B(N-1), B(N), B(N+1) in MeV")
+    p_pair.add_argument("--is-odd", action="store_true", default=True, help="Center state has odd N (default: True)")
+    p_pair.add_argument("--A", type=int, default=None, help="Mass number A for empirical BCS comparison")
+    p_pair.set_defaults(func=cmd_pair)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

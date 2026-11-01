@@ -5964,3 +5964,22 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `tdpad` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **a milestone of 30 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Two-neutron separation energy, pairing gaps and shell closures 2026-11-02T05:30:00+08:00
+
+- Integrated two-neutron separation energy systematics, odd-even staggering (OES) pairing gaps, and shell-closure diagnostics (`knowledge/concepts/two-neutron-separation-energy-pairing-gaps-and-shell-closures.md`):
+  - First-order and second-order mass differences: $S_{2n}(N, Z) = B(N, Z) - B(N-2, Z)$ filtering odd-even fluctuations to map Fermi surface evolution.
+  - Three-point and five-point pairing gap formalisms: derived $\\Delta^{(3)}$ and curvature-corrected $\\Delta^{(5)} = \\frac{(-1)^N}{8} [M(N+2) - 4M(N+1) + 6M(N) - 4M(N-1) + M(N-2)]$, removing linear and quadratic mass-surface curvature to quantify pure BCS quasi-particle pairing energy.
+  - Shell-closure cliff criterion: $\\delta_{2n}(N_{\\text{magic}}) = S_{2n}(N_{\\text{magic}}) - S_{2n}(N_{\\text{magic}} + 2)$, diagnosing giant $3\\text{--}5\\text{ MeV}$ shell gaps at $N=20, 28, 50, 82, 126$ and shell quenching near the drip line.
+  - Shape phase transition anomaly: anomalous flattening or inversion of $S_{2n}$ curves at transitional boundaries (e.g. $N=88 \\to 90$ in Sm/Nd) caused by the sudden onset of quadrupole collective deformation energy $\\Delta E_{\\text{def}} = \\frac{1}{2} C \\beta_2^2$.
+  - Decoupling of ground-state static pairing gap from high-spin Coriolis anti-pairing (CAP) band-crossing frequencies in $A \\approx 130$.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/pairing_gap_separation_energy_calculator.py`:
+  - `calculate_s2n_series`: $S_{2n}$ series computation from binding energies or AME mass excesses;
+  - `calculate_pairing_gap_3point`: 3-point odd-even staggering gap;
+  - `calculate_pairing_gap_5point`: 5-point curvature-corrected pairing gap;
+  - `detect_shell_closure_drop`: automated shell gap detection and magic number verification;
+  - `detect_shape_transition_anomaly`: slope flattening and phase transition detection;
+  - `compare_empirical_bcs_gap`: global empirical BCS scaling comparisons ($12/\\sqrt{A}$ and $4.8/A^{1/3}$).
+- Unified CLI integration: added `pair` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **31 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.
