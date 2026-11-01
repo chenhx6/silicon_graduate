@@ -6052,3 +6052,20 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `pairvib` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **a landmark 35 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Multi-nucleon transfer, deep inelastic collisions and N=126 factory 2026-11-02T08:00:00+08:00
+
+- Integrated multi-nucleon transfer (MNT), deep inelastic collisions (DIC), and neutron-rich heavy element synthesis dynamics (`knowledge/concepts/multi-nucleon-transfer-and-deep-inelastic-collisions.md`):
+  - Physical mechanism: heavy-ion dissipative collisions near the barrier ($E_{\\text{lab}} \\sim 5.5\\text{--}7.5\\text{ MeV/u}$) bypassing fusion-evaporation limits to access the third $r$-process peak ($N=126$ below lead).
+  - Wilczynski plot topology: correlation between scattering angle $\\theta_{\\text{c.m.}}$ and total kinetic energy loss (TKEL), distinguishing quasi-elastic grazing from deep inelastic orbiting down to the exit Coulomb barrier $V_{\\text{exit}}$.
+  - Driving potential on the dinuclear potential energy surface (PES): $V_{\\text{dr}}(Z, N) = \\sum B_i + V_{\\text{Coul}} - \\sum B_0$, driving fast charge equilibration ($\\tau_{N/Z} \\sim 10^{-22}\\text{ s}$) towards $(N/Z)_{\\text{sys}}$ followed by mass asymmetry diffusion $\\sigma_A^2 \\propto \\text{TKEL}$.
+  - Primary fragment thermal excitation sharing $E_1^* = \\text{TKEL} \\times A_1 / A_{\\text{tot}}$ and post-collision neutron evaporation $\\langle x_n \\rangle \\approx E^* / (B_n + 2T)$, benchmarking the golden reaction $^{136}\\text{Xe} + {}^{208}\\text{Pb}$ for producing $^{202}\\text{Os}$ and $^{200}\\text{W}$ with millibarn-to-microbarn cross sections.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/multi_nucleon_transfer_dic_calculator.py`:
+  - `calculate_wilczynski_energy_loss_and_orbiting`: entrance/exit Coulomb barriers, grazing angular momentum $L_{\\text{graz}}$, and $\\text{TKEL}_{\\text{max}}$;
+  - `calculate_charge_equilibration`: fast $N/Z$ equilibration point;
+  - `calculate_driving_potential`: dinuclear driving potential on the PES;
+  - `calculate_fragment_thermal_excitation_and_evaporation`: thermal partition and neutron evaporation count;
+  - `predict_mnt_cross_section`: MNT residue cross-section predictor.
+- Unified CLI integration: added `mnt` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **a monumental 36 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

@@ -67,6 +67,7 @@ from isgmr_breathing_mode_incompressibility_calculator import calculate_ka_from_
 from relativistic_coulex_virtual_photon_calculator import calculate_relativistic_coulex_kinematics, calculate_virtual_photon_numbers, calculate_relativistic_e2_coulex_cross_section, invert_b_e2_from_coulex_cross_section, transform_gamma_angular_distribution_lorentz
 from electromagnetic_transition_alaga_calculator import calculate_weisskopf_unit, convert_lifetime_to_b_e2, calculate_alaga_ratio_e2, calculate_bm1_over_be2
 from two_nucleon_transfer_pairing_vibration_calculator import calculate_bcs_transfer_enhancement, calculate_pairing_vibration_energies, evaluate_kinematic_q_matching, calculate_josephson_transfer_probability
+from multi_nucleon_transfer_dic_calculator import calculate_wilczynski_energy_loss_and_orbiting, calculate_charge_equilibration, calculate_driving_potential, calculate_fragment_thermal_excitation_and_evaporation, predict_mnt_cross_section
 
 
 def test_heavy_ion_kinematics():
@@ -698,6 +699,32 @@ def test_two_nucleon_transfer_pairing_vibration_calculator():
     assert jos["supercurrent_signature"] == True, "Should identify Josephson supercurrent signature"
     print("  ✓ two_nucleon_transfer_pairing_vibration_calculator passed.")
 
+
+def test_multi_nucleon_transfer_dic_calculator():
+    print("Testing multi_nucleon_transfer_dic_calculator...")
+    # 136Xe + 208Pb at 6.0 MeV/u
+    wil = calculate_wilczynski_energy_loss_and_orbiting(Elab_MeV_u=6.0, Ap=136, Zp=54, At=208, Zt=82)
+    assert 480.0 < wil["E_cm_MeV"] < 505.0, f"E_cm out of expected range: {wil['E_cm_MeV']}"
+    assert 75.0 < wil["TKEL_max_MeV"] < 100.0, f"TKEL_max out of range: {wil['TKEL_max_MeV']}"
+    assert wil["energy_above_barrier_MeV"] > 5.0, "Reaction must be above Coulomb barrier"
+
+    # Fast charge equilibration test
+    ce = calculate_charge_equilibration(Ap=136, Zp=54, At=208, Zt=82)
+    assert abs(ce["N_over_Z_system_equilibrated"] - 1.5294) < 1e-3, "Equilibrated N/Z mismatch"
+
+    # Driving potential calculation
+    vdr = calculate_driving_potential(Z1=56, N1=82, Z_proj=54, N_proj=82, Z_targ=82, N_targ=126)
+    assert abs(vdr["V_driving_potential_MeV"]) < 10.0, "V_dr out of physical range"
+
+    # Fragment thermal excitation and evaporation test
+    evap = calculate_fragment_thermal_excitation_and_evaporation(TKEL_MeV=wil["TKEL_max_MeV"], A1_prim=136, Z1_prim=54, A2_prim=208, Z2_prim=82)
+    assert evap["neutrons_evaporated_frag2"] > 3.0, "Heavy fragment should evaporate multiple neutrons"
+
+    # Cross section prediction
+    cs = predict_mnt_cross_section(sigma_dic_mb=1200.0, delta_Z=-2, delta_N=2, TKEL_MeV=wil["TKEL_max_MeV"])
+    assert cs["sigma_MNT_mb"] > 5.0, "MNT cross section unexpectedly low"
+    print("  ✓ multi_nucleon_transfer_dic_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -735,4 +762,5 @@ if __name__ == "__main__":
     test_relativistic_coulex_virtual_photon_calculator()
     test_electromagnetic_transition_alaga_calculator()
     test_two_nucleon_transfer_pairing_vibration_calculator()
-    print("ALL 35 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_multi_nucleon_transfer_dic_calculator()
+    print("ALL 36 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

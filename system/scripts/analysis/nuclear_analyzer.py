@@ -53,6 +53,7 @@ from isgmr_breathing_mode_incompressibility_calculator import calculate_ka_from_
 from relativistic_coulex_virtual_photon_calculator import calculate_relativistic_coulex_kinematics, calculate_virtual_photon_numbers, calculate_relativistic_e2_coulex_cross_section, invert_b_e2_from_coulex_cross_section, transform_gamma_angular_distribution_lorentz
 from electromagnetic_transition_alaga_calculator import calculate_weisskopf_unit, convert_lifetime_to_b_e2, calculate_alaga_ratio_e2, calculate_bm1_over_be2
 from two_nucleon_transfer_pairing_vibration_calculator import calculate_bcs_transfer_enhancement, calculate_pairing_vibration_energies, evaluate_kinematic_q_matching, calculate_josephson_transfer_probability
+from multi_nucleon_transfer_dic_calculator import calculate_wilczynski_energy_loss_and_orbiting, calculate_charge_equilibration, calculate_driving_potential, calculate_fragment_thermal_excitation_and_evaporation, predict_mnt_cross_section
 
 
 def cmd_kinematics(args):
@@ -925,6 +926,43 @@ def cmd_pairvib(args):
         print(f"    Superfluid Josephson Prob    : P_Joseph = {jos['P_Josephson']:.4e} (Enhancement: {jos['enhancement_factor']:.1f}x)")
     print("=======================================================")
 
+
+def cmd_mnt(args):
+    print("\n=======================================================")
+    print(" Multi-Nucleon Transfer (MNT) & Deep Inelastic (DIC)")
+    print("=======================================================")
+    if args.Elab is not None and args.Ap is not None and args.Zp is not None and args.At is not None and args.Zt is not None:
+        wil = calculate_wilczynski_energy_loss_and_orbiting(args.Elab, args.Ap, args.Zp, args.At, args.Zt, d_scission_fm=args.dsciss)
+        ce = calculate_charge_equilibration(args.Ap, args.Zp, args.At, args.Zt)
+        print(f"  Reaction: {args.Ap}X({args.Zp}) + {args.At}Y({args.Zt}) at E_lab = {args.Elab:.1f} MeV/u (E_cm = {wil['E_cm_MeV']:.1f} MeV)")
+        print(f"  Coulomb Barriers: V_contact = {wil['V_Coul_contact_MeV']:.1f} MeV | V_exit = {wil['V_exit_barrier_MeV']:.1f} MeV")
+        print(f"  Energy Above Barrier   : E_cm - V_coul = {wil['energy_above_barrier_MeV']:+.1f} MeV (L_graz = {wil['L_grazing_hbar']:.0f} hbar)")
+        print(f"  Max Kinetic Energy Loss: TKEL_max = {wil['TKEL_max_MeV']:.1f} MeV (Full Wilczynski damping)")
+        print("-------------------------------------------------------")
+        print(f"  Fast Charge Equilibration (tau_N/Z ~ 10^-22 s):")
+        print(f"    (N/Z)_proj = {ce['N_over_Z_projectile']:.3f} | (N/Z)_targ = {ce['N_over_Z_target']:.3f} -> (N/Z)_sys = {ce['N_over_Z_system_equilibrated']:.3f}")
+        print(f"    Equilibrated Charges   : Z_proj_eq = {ce['Z1_equilibrated_for_Ap']:.1f} | Z_targ_eq = {ce['Z2_equilibrated_for_At']:.1f}")
+
+        if args.tkel is not None:
+            tkel_val = args.tkel
+        else:
+            tkel_val = wil['TKEL_max_MeV']
+
+        evap = calculate_fragment_thermal_excitation_and_evaporation(tkel_val, args.Ap, args.Zp, args.At, args.Zt)
+        print("-------------------------------------------------------")
+        print(f"  Thermal Excitation & Post-Collision Neutron Evaporation (TKEL = {tkel_val:.1f} MeV):")
+        print(f"    Projectile Fragment: E1* = {evap['E1_star_MeV']:.1f} MeV (T1={evap['T1_temperature_MeV']:.2f} MeV) -> Evaporates ~ {evap['neutrons_evaporated_frag1']:.1f} neutrons")
+        print(f"    Target Fragment    : E2* = {evap['E2_star_MeV']:.1f} MeV (T2={evap['T2_temperature_MeV']:.2f} MeV) -> Evaporates ~ {evap['neutrons_evaporated_frag2']:.1f} neutrons")
+
+    if args.dZ is not None and args.dN is not None:
+        sig_dic = args.sig_dic if args.sig_dic is not None else 1200.0
+        tkel_v = args.tkel if args.tkel is not None else 80.0
+        cs = predict_mnt_cross_section(sig_dic, args.dZ, args.dN, TKEL_MeV=tkel_v)
+        print("-------------------------------------------------------")
+        print(f"  MNT Production Cross Section (dZ = {args.dZ:+d}, dN = {args.dN:+d}, dA = {args.dZ+args.dN:+d}):")
+        print(f"    sigma_MNT = {cs['sigma_MNT_mb']:.3f} mb ({cs['sigma_MNT_microbarn']:.1f} microbarns) [Transfer prob = {cs['transfer_probability']:.3e}]")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1309,6 +1347,20 @@ def main():
     p_pv.add_argument("--npairs", type=int, default=2, help="Number of transferred pairs (default: 2)")
     p_pv.add_argument("--enh-j", type=float, default=15.0, help="Josephson enhancement factor (default: 15.0)")
     p_pv.set_defaults(func=cmd_pairvib)
+
+    # Multi-Nucleon Transfer & DIC
+    p_mnt = subparsers.add_parser("mnt", help="Multi-nucleon transfer (MNT), deep inelastic collisions and Wilczynski plot analyzer")
+    p_mnt.add_argument("--Elab", type=float, default=None, help="Beam energy in MeV/u")
+    p_mnt.add_argument("--Ap", type=int, default=None, help="Projectile mass number A")
+    p_mnt.add_argument("--Zp", type=int, default=None, help="Projectile atomic number Z")
+    p_mnt.add_argument("--At", type=int, default=None, help="Target mass number A")
+    p_mnt.add_argument("--Zt", type=int, default=None, help="Target atomic number Z")
+    p_mnt.add_argument("--dsciss", type=float, default=2.5, help="Scission distance neck extension in fm (default: 2.5)")
+    p_mnt.add_argument("--tkel", type=float, default=None, help="Total kinetic energy loss TKEL in MeV")
+    p_mnt.add_argument("--dZ", type=int, default=None, help="Net proton transfer number Delta Z to target")
+    p_mnt.add_argument("--dN", type=int, default=None, help="Net neutron transfer number Delta N to target")
+    p_mnt.add_argument("--sig-dic", type=float, default=1200.0, help="Total deep inelastic cross section in mb (default: 1200)")
+    p_mnt.set_defaults(func=cmd_mnt)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
