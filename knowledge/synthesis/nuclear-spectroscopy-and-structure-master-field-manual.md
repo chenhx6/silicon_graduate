@@ -1,15 +1,15 @@
 ---
 type: synthesis
-title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的54模块完整闭环指南"
-aliases: [核谱学实战全书, 核结构专家工作手册, 54模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
+title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的59模块完整闭环指南"
+aliases: [核谱学实战全书, 核结构专家工作手册, 59模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
 created: 2026-11-02
 updated: 2026-11-02
 status: active
 review_status: unreviewed
-topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 54-modules-suite, expert-field-manual]
+topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 59-modules-suite, expert-field-manual]
 ---
 
-# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的54模块完整闭环指南
+# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的59模块完整闭环指南
 
 ## 1. 宣言与专家心智模型：大模型如何以世界级核物理学家身份工作
 
@@ -25,9 +25,9 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
 
 ---
 
-## 2. 七大科研实战阶段与 54 大科学分析模块调用图谱
+## 2. 七大科研实战阶段与 59 大科学分析模块调用图谱
 
-本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **54 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
+本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **59 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
 
 ```text
  [Phase 1: 实验提案与反应动力学]
@@ -43,11 +43,14 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ peak       ── 全能峰高斯+阶跃低能拖尾非线性拟合
    │ pid        ── 带电粒子 Delta_E-E 望远镜鉴别、脉冲亏损 (PHD) 与能散区判定
    │ hpge       ── HPGe 极零相消 (PZC)、电荷收集弹道亏损 (BD) 与高率死时间
+   │ psd        ── 闪烁体脉冲形状鉴别 (PSD)、双门电荷比 (CCM) 与优值因子 (FOM)
    ▼
  [Phase 3: 符合能谱、内转换与能级纲图构建]
    │ balance    ── 级联进出强度守恒与内转换电子纠偏
    │ ensdf      ── 国际 ENSDF 标准数据库交叉比对
    │ bricc      ── BrIcc 参数化内转换系数绝对计算
+   │ nilsson    ── 变形 Nilsson 平均场单粒子轨道对角化与能级演化
+   │ mqp        ── 多准粒子态 (mqp) 阻塞 BCS 对隙淬灭与高 K 同质异能态
    │ density    ── Gilbert-Cameron 复合能级密度、Ignatyuk 壳阻尼与 D0 标定
    │ sidefeeding── 准连续态侧馈延迟与多普勒 F(tau) 解卷积
    │ pair       ── S_2n 系统学、3点/5点配对隙与幻数断崖
@@ -58,6 +61,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ ado        ── 特征探测环 ADO 与线偏振二维似然扫描
    │ stats      ── 协方差误差矩阵传播、低计数 Baker-Cousins 似然与双根仲裁
    │ alaga      ── Weisskopf 单粒子单位与轴对称转子 Alaga 分支
+   │ ipc        ── 高能电磁跃迁内电子对产生 (IPC)、e+ e- 开角关联与 E0 纯对衰变
    │ tdpad      ── 时间差分扰动角分布与三矢量手征 g 因子
    ▼
  [Phase 5: 高自旋集体运动与转动能谱演化]
@@ -83,6 +87,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ gt         ── 伽莫夫-泰勒巨共振、Ikeda 求和与 gA 介质淬灭
    │ halo       ── 中子晕核 Hansen-Jonson 动量宽与软 E1 共振
    │ fission    ── 双峰裂变势垒、Hill-Wheeler 穿透与超重核合成
+   │ fissfrag   ── 多模式裂变碎片质量产额 Y(A)、Viola TKE 与中子锯齿谱
    │ oslo       ── 奥斯陆方法主跃迁矩阵解卷积与低能增强 (LEE)
    │ pairvib    ── BCS 相干对转移增强与闭壳配对振动声子谱
    │ rmf        ── 相对论平均场 (RMF)、自旋-轨道耦合与狄拉克赝自旋
@@ -311,7 +316,22 @@ python3 system/scripts/analysis/nuclear_analyzer.py beta -Q 3.211 -T 6.345 -Z 12
 # 53. Gallagher-Moszkowski (GM) 规则与 Newby 位移
 python3 system/scripts/analysis/nuclear_analyzer.py gm --omega-p 2.5 --lambda-p 2 --omega-n 2.5 --lambda-n 3 --A 130 --newby-shift 35.0
 
-# 54. 全套 54 大模块自动化回归自测 (100% 绿灯)
+# 54. 变形 Nilsson 平均场单粒子轨道对角化
+python3 system/scripts/analysis/nuclear_analyzer.py nilsson -N 4 -e 0.25 -A 130
+
+# 55. 多模式核裂变碎片质量产额与 Viola TKE
+python3 system/scripts/analysis/nuclear_analyzer.py fissfrag -Z 92 -A 236
+
+# 56. 闪烁体脉冲形状鉴别 (PSD) 与优值因子 (FOM)
+python3 system/scripts/analysis/nuclear_analyzer.py psd -E 1.2 --t-tail 35.0 --t-long 450.0
+
+# 57. 多准粒子态阻塞 BCS 对隙淬灭与高 K 态能量
+python3 system/scripts/analysis/nuclear_analyzer.py mqp --num-qp 2 --omegas "3.5,4.5" --parities "1,-1"
+
+# 58. 高能电磁跃迁内电子对产生 (IPC) 与开角关联
+python3 system/scripts/analysis/nuclear_analyzer.py ipc -E 18.15 -L M1 --theta 139.0 --mX 17.0
+
+# 59. 全套 59 大模块自动化回归自测 (100% 绿灯)
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

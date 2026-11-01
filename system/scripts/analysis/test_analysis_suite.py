@@ -86,6 +86,11 @@ from hpge_pulse_processing_pole_zero_calculator import calculate_ballistic_defic
 from chiral_geometry_tac_calculator import calculate_chiral_geometry, evaluate_chiral_doublet_criteria
 from beta_decay_log_ft_phase_space_calculator import calculate_log_ft, verify_superallowed_cvc_vud
 from gallagher_moszkowski_coupling_calculator import evaluate_gallagher_moszkowski_rule, calculate_newby_shift_spectrum
+from nilsson_model_hamiltonian_diagonalizer import solve_nilsson_subblock
+from fission_fragment_mass_yield_calculator import calculate_viola_tke, calculate_fission_fragment_distribution
+from pulse_shape_discrimination_psd_calculator import calculate_charge_comparison_psd, calculate_figure_of_merit, simulate_zero_crossing_timing
+from multi_quasiparticle_blocked_bcs_calculator import calculate_multi_quasiparticle_energy
+from internal_pair_creation_ipc_calculator import calculate_ipc_coefficient, calculate_angular_correlation
 
 
 def test_heavy_ion_kinematics():
@@ -1129,6 +1134,67 @@ def test_gallagher_moszkowski_coupling_calculator():
     assert newby[0]["newby_shift_keV"] == -30.0
     print("  ✓ gallagher_moszkowski_coupling_calculator passed.")
 
+
+def test_nilsson_model_hamiltonian_diagonalizer():
+    print("Testing nilsson_model_hamiltonian_diagonalizer...")
+    res = solve_nilsson_subblock(N=4, Omega=0.5, epsilon_2=0.20, A_mass=130)
+    assert len(res) == 5, f"Shell N=4, Omega=1/2 should have 5 basis states, got {len(res)}"
+    assert res[0]["energy_MeV"] < res[-1]["energy_MeV"], "Eigenvalues must be sorted"
+    assert "Down-sloping" in res[0]["slope_prolate_driving"], "Lowest state should be prolate-stabilizing"
+    print("  ✓ nilsson_model_hamiltonian_diagonalizer passed.")
+
+
+def test_fission_fragment_mass_yield_calculator():
+    print("Testing fission_fragment_mass_yield_calculator...")
+    tke = calculate_viola_tke(Z_cn=92, A_cn=236)
+    assert 165.0 < tke["mean_viola_TKE_MeV"] < 175.0, f"Viola TKE unexpected: {tke['mean_viola_TKE_MeV']}"
+    assert tke["TKE_Standard_I_MeV"] > tke["TKE_Superlong_MeV"], "ST-I TKE must exceed Superlong"
+
+    dist = calculate_fission_fragment_distribution(92, 236)
+    assert 130 < dist["peak_heavy_fragment_A"] < 145, f"Heavy peak unexpected: {dist['peak_heavy_fragment_A']}"
+    assert 2.0 < dist["mean_prompt_neutron_multiplicity"] < 4.5, "Prompt neutron multiplicity sanity check"
+    print("  ✓ fission_fragment_mass_yield_calculator passed.")
+
+
+def test_pulse_shape_discrimination_psd_calculator():
+    print("Testing pulse_shape_discrimination_psd_calculator...")
+    ccm = calculate_charge_comparison_psd(f_slow_gamma=0.12, f_slow_neutron=0.28)
+    assert ccm["psd_ratio_neutron"] > ccm["psd_ratio_gamma"], "Neutron tail charge must exceed gamma"
+    assert ccm["psd_centroid_separation"] > 0.08, "PSD centroids must be separated"
+
+    fom = calculate_figure_of_merit(ccm["psd_ratio_gamma"], 0.020, ccm["psd_ratio_neutron"], 0.028, energy_MeVee=1.5)
+    assert fom["fom_at_current_energy"] > 1.20, "FOM at 1.5 MeVee should provide clean separation"
+    print("  ✓ pulse_shape_discrimination_psd_calculator passed.")
+
+
+def test_multi_quasiparticle_blocked_bcs_calculator():
+    print("Testing multi_quasiparticle_blocked_bcs_calculator...")
+    qps = [
+        {"name": "p1", "energy_MeV": 0.2, "Omega": 3.5, "parity": 1},
+        {"name": "p2", "energy_MeV": 0.4, "Omega": 4.5, "parity": -1}
+    ]
+    mqp = calculate_multi_quasiparticle_energy(qps, core_G_pairing_MeV=0.18, target_particles=10)
+    assert mqp["total_K"] == 8.0, "K must sum to 8.0"
+    assert mqp["total_parity"] == "-", "Parity must be odd (-)"
+    assert mqp["blocked_pairing_gap_Delta_b_MeV"] < mqp["unblocked_pairing_gap_Delta0_MeV"], "Blocking must quench gap"
+    print("  ✓ multi_quasiparticle_blocked_bcs_calculator passed.")
+
+
+def test_internal_pair_creation_ipc_calculator():
+    print("Testing internal_pair_creation_ipc_calculator...")
+    ipc_below = calculate_ipc_coefficient(E_gamma_MeV=0.8, multipolarity="E1")
+    assert "Below" in ipc_below["status"], "Must reject E < 1.022 MeV"
+
+    ipc_e0 = calculate_ipc_coefficient(E_gamma_MeV=6.05, multipolarity="E0")
+    assert "Forbidden" in ipc_e0["status"], "Single gamma must be forbidden for E0"
+
+    ipc_m1 = calculate_ipc_coefficient(E_gamma_MeV=18.15, multipolarity="M1")
+    assert ipc_m1["alpha_pi"] > 0.001, "High-energy M1 must have active IPC"
+
+    ang = calculate_angular_correlation(18.15, "M1", theta_deg=139.0, m_X_boson_MeV=17.0)
+    assert ang["exotic_boson_resonance"]["is_near_peak"], "ATOMKI 17 MeV boson peak should align with ~139 deg"
+    print("  ✓ internal_pair_creation_ipc_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -1185,4 +1251,9 @@ if __name__ == "__main__":
     test_chiral_geometry_tac_calculator()
     test_beta_decay_log_ft_phase_space_calculator()
     test_gallagher_moszkowski_coupling_calculator()
-    print("ALL 54 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_nilsson_model_hamiltonian_diagonalizer()
+    test_fission_fragment_mass_yield_calculator()
+    test_pulse_shape_discrimination_psd_calculator()
+    test_multi_quasiparticle_blocked_bcs_calculator()
+    test_internal_pair_creation_ipc_calculator()
+    print("ALL 59 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

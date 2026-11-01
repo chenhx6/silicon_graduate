@@ -72,6 +72,11 @@ from hpge_pulse_processing_pole_zero_calculator import calculate_ballistic_defic
 from chiral_geometry_tac_calculator import calculate_chiral_geometry, evaluate_chiral_doublet_criteria, format_text_report as format_chiral_report
 from beta_decay_log_ft_phase_space_calculator import calculate_log_ft, verify_superallowed_cvc_vud, format_text_report as format_beta_report
 from gallagher_moszkowski_coupling_calculator import evaluate_gallagher_moszkowski_rule, calculate_newby_shift_spectrum, format_text_report as format_gm_report
+from nilsson_model_hamiltonian_diagonalizer import solve_nilsson_subblock, scan_nilsson_diagram, format_text_report as format_nilsson_report
+from fission_fragment_mass_yield_calculator import calculate_fission_fragment_distribution, format_text_report as format_fissfrag_report
+from pulse_shape_discrimination_psd_calculator import calculate_charge_comparison_psd, calculate_figure_of_merit, simulate_zero_crossing_timing, format_text_report as format_psd_report
+from multi_quasiparticle_blocked_bcs_calculator import calculate_multi_quasiparticle_energy, format_text_report as format_mqp_report
+from internal_pair_creation_ipc_calculator import calculate_ipc_coefficient, calculate_angular_correlation, format_text_report as format_ipc_report
 
 
 def cmd_kinematics(args):
@@ -1408,6 +1413,71 @@ def cmd_gm(args):
     else:
         print(format_gm_report(summary))
 
+def cmd_nilsson(args):
+    levels = []
+    max_omega = args.shell + 0.5
+    omega_vals = [0.5 + k for k in range(int(max_omega + 0.5))]
+    for om in omega_vals:
+        res = solve_nilsson_subblock(args.shell, om, args.epsilon, args.mass, args.neutron)
+        levels.extend(res)
+    levels.sort(key=lambda x: x["energy_MeV"])
+    summary = {
+        "A_mass": args.mass, "particle_type": "Neutron" if args.neutron else "Proton",
+        "shell_N": args.shell, "epsilon_2": args.epsilon, "beta_2_approx": round(args.epsilon / 0.63, 2),
+        "levels": levels
+    }
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_nilsson_report(summary))
+
+
+def cmd_fissfrag(args):
+    summary = calculate_fission_fragment_distribution(args.Z, args.A, args.w_st1, args.w_st2, args.w_sl)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_fissfrag_report(summary))
+
+
+def cmd_psd(args):
+    ccm_res = calculate_charge_comparison_psd(args.f_slow_g, args.f_slow_n, args.tau_fast, args.tau_slow, args.t_tail, args.t_long)
+    fom_res = calculate_figure_of_merit(ccm_res["psd_ratio_gamma"], 0.020, ccm_res["psd_ratio_neutron"], 0.028, args.energy_mevee)
+    zc_res = simulate_zero_crossing_timing(args.tau_fast, args.tau_slow, args.f_slow_g, args.f_slow_n)
+    summary = {"charge_comparison": ccm_res, "figure_of_merit": fom_res, "zero_crossing": zc_res}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_psd_report(summary))
+
+
+def cmd_mqp(args):
+    om_list = [float(x.strip()) for x in args.omegas.split(",")]
+    par_list = [int(x.strip()) for x in args.parities.split(",")]
+    qps = []
+    for idx, (om, p) in enumerate(zip(om_list, par_list)):
+        qps.append({"name": f"qp_{idx+1}", "energy_MeV": 0.2 * (idx + 1), "Omega": om, "parity": p})
+    summary = calculate_multi_quasiparticle_energy(qps, args.G, target_particles=10, residual_interaction_MeV=args.v_res)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_mqp_report(summary))
+
+
+def cmd_ipc(args):
+    ipc_res = calculate_ipc_coefficient(args.energy, args.mult)
+    ang_res = calculate_angular_correlation(args.energy, args.mult, args.theta, args.mX)
+    summary = {"ipc_coefficient": ipc_res, "angular_distribution": ang_res}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_ipc_report(summary))
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -2041,6 +2111,56 @@ def main():
     p_gm.add_argument("--newby-shift", type=float, default=30.0, help="Newby shift a_N in keV for K=0 (default: 30.0)")
     p_gm.add_argument("--json", action="store_true", help="Output results in JSON format")
     p_gm.set_defaults(func=cmd_gm)
+
+    # Deformed Nilsson Single-Particle Diagonalizer
+    p_nil = subparsers.add_parser("nilsson", help="Deformed harmonic oscillator Nilsson single-particle Hamiltonian diagonalizer")
+    p_nil.add_argument("-N", "--shell", type=int, default=4, help="Major oscillator shell N (default: 4)")
+    p_nil.add_argument("-e", "--epsilon", type=float, default=0.25, help="Quadrupole deformation epsilon_2 (default: 0.25)")
+    p_nil.add_argument("-A", "--mass", type=int, default=130, help="Mass number A (default: 130)")
+    p_nil.add_argument("--neutron", action="store_true", help="Compute for neutron instead of proton")
+    p_nil.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_nil.set_defaults(func=cmd_nilsson)
+
+    # Multi-Modal Fission Fragment Mass Yield & Viola TKE
+    p_ff = subparsers.add_parser("fissfrag", help="Multi-modal nuclear fission fragment mass yield, Viola TKE and neutron sawtooth simulator")
+    p_ff.add_argument("-Z", type=int, default=92, help="Fissioning nucleus charge Z (default: 92)")
+    p_ff.add_argument("-A", type=int, default=236, help="Fissioning nucleus mass A (default: 236)")
+    p_ff.add_argument("--w-st1", type=float, default=0.20, help="Weight of Standard I mode (default: 0.20)")
+    p_ff.add_argument("--w-st2", type=float, default=0.78, help="Weight of Standard II mode (default: 0.78)")
+    p_ff.add_argument("--w-sl", type=float, default=0.02, help="Weight of Superlong symmetric mode (default: 0.02)")
+    p_ff.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_ff.set_defaults(func=cmd_fissfrag)
+
+    # Scintillator Pulse Shape Discrimination (PSD)
+    p_psd = subparsers.add_parser("psd", help="Scintillator neutron-gamma pulse shape discrimination (PSD), charge comparison and FOM")
+    p_psd.add_argument("--f-slow-g", type=float, default=0.12, help="Slow fraction for gamma (default: 0.12)")
+    p_psd.add_argument("--f-slow-n", type=float, default=0.28, help="Slow fraction for neutron (default: 0.28)")
+    p_psd.add_argument("--tau-fast", type=float, default=3.2, help="Fast decay in ns (default: 3.2)")
+    p_psd.add_argument("--tau-slow", type=float, default=270.0, help="Slow decay in ns (default: 270.0)")
+    p_psd.add_argument("--t-tail", type=float, default=30.0, help="Tail gate start in ns (default: 30.0)")
+    p_psd.add_argument("--t-long", type=float, default=400.0, help="Total gate length in ns (default: 400.0)")
+    p_psd.add_argument("-E", "--energy-mevee", type=float, default=1.0, help="Energy in MeVee (default: 1.0)")
+    p_psd.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_psd.set_defaults(func=cmd_psd)
+
+    # Multi-Quasiparticle Blocked BCS Pairing
+    p_mqp = subparsers.add_parser("mqp", help="Multi-quasiparticle blocked BCS pairing gap reduction and high-K isomer bandhead calculator")
+    p_mqp.add_argument("--num-qp", type=int, default=2, choices=[2, 4, 6], help="Number of quasiparticles (2, 4, 6)")
+    p_mqp.add_argument("--omegas", type=str, default="3.5,4.5", help="Comma-separated Omega values (default: 3.5,4.5)")
+    p_mqp.add_argument("--parities", type=str, default="1,1", help="Comma-separated parities (+1 or -1)")
+    p_mqp.add_argument("--G", type=float, default=0.18, help="Pairing force G in MeV (default: 0.18)")
+    p_mqp.add_argument("--v-res", type=float, default=-0.25, help="Residual interaction shift in MeV (default: -0.25)")
+    p_mqp.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_mqp.set_defaults(func=cmd_mqp)
+
+    # Internal Pair Creation (IPC) & e+ e- Correlation
+    p_ipc = subparsers.add_parser("ipc", help="Internal pair creation (IPC) coefficient alpha_pi and e+ e- opening angle correlation")
+    p_ipc.add_argument("-E", "--energy", type=float, required=True, help="Transition energy E_gamma in MeV")
+    p_ipc.add_argument("-L", "--mult", type=str, default="E1", choices=["E0", "E1", "M1", "E2", "M2"], help="Multipolarity (default: E1)")
+    p_ipc.add_argument("--theta", type=float, default=90.0, help="Opening angle in degrees (default: 90.0)")
+    p_ipc.add_argument("--mX", type=float, default=None, help="Hypothetical boson mass in MeV (e.g. 17.0 for ATOMKI)")
+    p_ipc.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_ipc.set_defaults(func=cmd_ipc)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

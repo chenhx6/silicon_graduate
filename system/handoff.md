@@ -3,6 +3,20 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T15:30:00+08:00 (Nilsson变形壳模型、裂变碎片质量产额、闪烁体PSD鉴别、多准粒子阻塞BCS与内对产生IPC等5大分析器落地，59模块闭环)
+
+- **全域核物理理论与在束实验分析系统化闭环拓展（54 -> 59 模块）**：
+  - **模块 55**：变形谐振子势 Nilsson 单粒子哈密顿量对角化计算器（`nilsson_model_hamiltonian_diagonalizer.py`），在球形基底 $|N l j \Omega\rangle$ 下严格计算四极形变耦合矩阵元并运用雅可比旋转对角化，判定下冲轨道（长椭驱动）与上冲轨道（扁椭驱动），为形变核准粒子结构提供基石；
+  - **模块 56**：多模式核裂变碎片质量产额、Viola TKE 系统学与瞬发中子锯齿谱计算器（`fission_fragment_mass_yield_calculator.py`），结合 Brosa 无规颈缩理论（Standard I, Standard II, Superlong）与 Viola 动能公式，再现 $^{132}\text{Sn}$ 壳效应主导的非对称双峰截面及断裂形变转化的中子锯齿形多重数 $\bar{\nu}(A)$；
+  - **模块 57**：闪烁体快中子/$\gamma$ 脉冲形状鉴别（PSD）、双门电荷积分比（CCM）与优值因子（FOM）分析器（`pulse_shape_discrimination_psd_calculator.py`），基于激发单重态快荧光与三重态湮灭慢发光机制，推导电荷比较比值 $Q_{\text{tail}}/Q_{\text{tot}}$ 与过零时间位移，确立 $\text{FOM} \ge 1.27$ 的 $3\sigma$ 纯中子触发判定门；
+  - **模块 58**：多准粒子态自洽阻塞 BCS 对隙淬灭与高 $K$ 同质异能态能量计算器（`multi_quasiparticle_blocked_bcs_calculator.py`），求解多核子占据下的活性空间 BCS 间隙方程，量化泡利阻塞引起的配对相消效应，分解准粒子内禀能、超流凝聚能损失与剩余相互作用；
+  - **模块 59**：原子核内电子对产生（IPC）系数、正负电子开角关联与纯 $E0$ 对衰变计算器（`internal_pair_creation_ipc_calculator.py`），建立高能电磁跃迁（$E_\gamma > 1.022\text{ MeV}$）内对系数 $\alpha_\pi$ 对数增长理论，给出纯单极 $0^+ \to 0^+$ 跃迁与各极性 $e^+ e^-$ 开角分布微分截面，并提供 ATOMKI X17 假想轻玻色子两体共振截断角审计；
+  - **知识大脑与测试全绿**：
+    - 撰写 5 篇权威概念专论，更新 `knowledge/index.md`；
+    - 升级 `nuclear-spectroscopy-and-structure-master-field-manual.md` 为 59 模块完整闭环指南；
+    - 统一 CLI `nuclear_analyzer.py` 新增 `nilsson`, `fissfrag`, `psd`, `mqp`, `ipc` 子命令；
+    - `test_analysis_suite.py` 自动化回归测试扩展至 **59 大科学分析模块 100% 绿灯全通**！
+
 ## Active checkpoint — 2026-11-02T14:30:00+08:00 (四极PES势能面、HPGe极零相消、3D TAC手征几何、Beta衰变log ft与GM规则5大分析器落地，54模块闭环)
 
 - **全域核物理理论与在束实验分析系统化闭环拓展（49 -> 54 模块）**：
