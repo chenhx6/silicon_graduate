@@ -42,6 +42,9 @@ and the second-pass fixed-input ledger and receipt are
 
 ## Grounded Evidence
 
+Primary source anchors are [[userdata-133ce-southafrica-dataset]] and
+[[nuclearmap-jcnp-pc-pk1]].
+
 ### NuclearMap route
 
 The user supplied `http://nuclearmap.jcnp.org/` as a local research entry

@@ -24,7 +24,7 @@ tags: [135pr, common-response, branch-profile, holdout, covariance, l3, l4-readi
 
 ## Grounded Evidence
 
-本页使用 `M15-*`、`L22-*`、`SH26-*` 和 `CH26-B1`–`CH26-B7` 的 source claims。
+本页使用 [[knowledge/sources/matta-2015-transverse-wobbling-135pr|Matta 2015]]（`M15-*`）、[[knowledge/sources/lv-2022-evidence-against-wobbling-135pr|Lv 2022]]（`L22-*`）、[[knowledge/sources/sensharma-2026-evolution-chirality-transverse-wobbling-135pr|Sensharma 2026]]（`SH26-*`）和 [[knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr|Chen 2026]]（`CH26-B1`–`CH26-B7`）的 source claims。
 
 ## Research Question
 

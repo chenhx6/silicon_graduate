@@ -26,6 +26,8 @@ Rosiak et al. 直接测得 `132Sn` 的第一 `3−` 状态和 E3 强度，因此
 
 ## Grounded Evidence
 
+Adopted daughter neutron-hole levels are taken from [[ensdf-131sn-neutron-hole-levels]].
+
 | ID | Statement | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | SN2PH-1 | Rosiak primary reports `E(3−_1)=4351.9 keV` in `132Sn`. | experimental-fact | direct | [[rosiak-2018-132sn-enhanced-octupole]] `ROS18-1` | true |

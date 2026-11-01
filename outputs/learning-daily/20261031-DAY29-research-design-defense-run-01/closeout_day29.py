@@ -148,7 +148,7 @@ def execute_closeout(wait: bool = False) -> int:
     print("H3 preflight passed!")
 
     # Commit
-    commit_message = "research(day29): complete research-design defense, research archive gate, and 131,133Ce triaxial analysis"
+    commit_message = "research(day29): finalize closeout verification and durable knowledge writeback"
     subprocess.run(["git", "-C", str(ROOT), "commit", "-m", commit_message], check=True)
     new_head = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], capture_output=True, text=True, check=True).stdout.strip()
     print(f"Committed new HEAD: {new_head}")

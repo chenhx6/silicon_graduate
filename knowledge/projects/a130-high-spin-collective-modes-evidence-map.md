@@ -187,3 +187,4 @@ The expanded corpus adds a method backbone and several counterexamples that shar
 
 - 2026-07-05：按 theory/experiment + project-ingest 接入 Nomura 2017、Nomura 2021 与 Babra 2019；仅更新 seed evidence map、证据缺口与 data-analysis bridge，不形成综合结论。
 - 2026-09-20：接入 Li–Wang 2024 `144Ba` 3D-lattice cranking CDFT；作为八极形变模型 benchmark，保留 pairing、parity projection 和非独立实验点边界。
+- 2026-11-01：引入 [[ensdf-131ba-adopted-e3]] 作为低能 E3 负对照基准。

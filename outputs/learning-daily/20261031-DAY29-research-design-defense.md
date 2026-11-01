@@ -53,15 +53,18 @@ Day29 课程要求的研究设计已完成。`131Xe` 的 2020 与 2023 论文被
 | `135Nd/134Pr` producer ledger | deferred | 需要 producer-level transition identity、feeding 和 covariance；保留同源性分层 |
 | 八极 source-page audit | deferred | `90Zr` joint covariance/producer 输入仍缺；不做 pooled mean 或静态梨形裁决 |
 | `133I` γSF/LEE | new non-overlapping L3 candidate | 稳定 `130Te(α,pγ)` 入口可检验准连续低能上弯及 M1/E1 字符；公开实验记录尚未闭合结果 |
-| 全库 claim/path audit | performed as read-only guard | 只检查重复证据与写回位置，没有移动、删除或覆盖 raw |
 
-## Evidence synthesis
+## Sources and evidence
+
+### Primary recovery and locator audit
 
 ### Primary recovery and locator audit
 
 `Irving 1979` 已核对为 A. D. Irving et al., *J. Phys. G* 5, 1595, DOI `10.1088/0305-4616/5/11/015`；`Lönnroth 1983` 已核对为 T. Lönnroth et al., *Phys. Scr.* 27, 228–240, DOI `10.1088/0031-8949/27/4/002`。NNDC 引用页确认两项历史来源分别覆盖能级、角分布、偏振或内转换等实验字段，但本轮 IOP PDF 请求落到 Radware bot-manager CAPTCHA，CORE 与 OA-only 检索没有返回可核原文。因此不能把 1979/1983 的目标线逐行 AD、ICC 或偏振数值写成已复核 primary。
 
 本地两份核心原件仍可直接回链：Banik 2020 `10.1103/PhysRevC.101.044306` 的 Table I/ Fig.4/ footnote k 给出 794.8-keV E1 版本及 880.9/881.2 近邻；Chakraborty 2023 `10.1103/PhysRevC.107.064318`（arXiv `2311.09713`）的 Sec. III、Fig.2 和 Table I 区分 880.1/881.8 双峰，并给出 881.8 的 `R_DCO=0.64(11)`。2023 明确是 2020 INGA 数据的重分析，同一采集不能重复计权。ENSDF A=131 adopted PDF 和 BrIcc 只提供评价/理论响应，不是新的实验来源。
+
+## Theory/analysis exercise
 
 ### 794-keV宇称版本
 
@@ -105,11 +108,15 @@ q_i(\delta,\eta)=\frac{a_i(\eta)+2b_i(\eta)\delta+c_i(\eta)\delta^2}{1+\delta^2}
 | 794 与 M1/E2 ICC 凸包重叠，或 882 两分支 profile 仍交叠 | 宇称与 δ 双根保持未决 | 数据对当前设计不足以裁决 |
 | 880 污染、alignment/feeding、轴符号、deadtime 或共同校准吸收差异 | 先修订对象/门/响应身份，再讨论结构机制 | 不把响应失败写成 wobbling 或 signature-partner 新证据 |
 
-## Hard boundary
+## Counter-evidence and missing companion observables
+
+### Hard boundary
 
 以下缺失会把任务停在 L3/readiness：794 目标电子/γ原始计数与共同效率；881.8/880.1逐门峰形；真实 detector-pair/Compton response；1046-keV alignment/feeding；deadtime、random、sideband和acquisition overlap；完整联合协方差；以及目标线的 primary provenance。不得用代理计数、合成 response、出版图像的视觉交点或评估字段生成 L4 似然、Bayes factor、排除σ、全局 mixing-ratio CI 或结构认证。
 
-## Dispatched audits
+## Knowledge Impact and Learning Decision
+
+### Dispatched audits
 
 - `McClintock`：primary/source recovery；完成 Irving/Lönnroth 书目、访问失败边界、794/880/881/766/704/815/930 locator 和同源性审计。
 - `Volta`：794 方案；确认 E1 与 M1/E2 两假设、K-electron/γ 最小观测与 profile 边界。
@@ -407,18 +414,6 @@ historical-writeback:
         {
           "path": "knowledge/sources/sun-2003-ribll-radioactive-ion-beam-line.md",
           "locator": "RBL03-3"
-        },
-        {
-          "path": "knowledge/sources/yan-duo-2015-csr-coulomb-excitation-detector-system-thesis.md",
-          "locator": "DD-20260910-CSR-01"
-        },
-        {
-          "path": "knowledge/sources/yue-ke-2010-hirfl-csr-gamma-ball-csi-thesis.md",
-          "locator": "DD-20260910-CSI-02"
-        },
-        {
-          "path": "knowledge/sources/wu-hongyi-2020-general-purpose-digital-daq-thesis.md",
-          "locator": "DD-20260910-MT-015"
         }
       ]
     },
@@ -455,14 +450,6 @@ historical-writeback:
       "anchor": "### F. `133I`: quasi-continuum γSF low-energy enhancement",
       "sources": [
         {
-          "path": "knowledge/sources/guo-2020-pseudospin-chiral-quartet-131ba.md",
-          "locator": "GU20-10"
-        },
-        {
-          "path": "knowledge/sources/bucher-2016-144ba-direct-octupole.md",
-          "locator": "BU16-1"
-        },
-        {
           "path": "knowledge/sources/li-2025-imp-dragon-hpge-array.md",
           "locator": "ID25-6"
         },
@@ -497,14 +484,6 @@ historical-writeback:
         {
           "path": "knowledge/sources/garnsworthy-2019-griffin-facility.md",
           "locator": "GF19-7"
-        },
-        {
-          "path": "knowledge/sources/ensdf-131ba-adopted-e3.md",
-          "locator": "ENSDF131BA-1"
-        },
-        {
-          "path": "knowledge/sources/ensdf-131ba-adopted-e3.md",
-          "locator": "ENSDF131BA-2"
         },
         {
           "path": "knowledge/sources/uio-2026-133i-thesis-announcement.md",
@@ -937,12 +916,137 @@ historical-writeback:
           "locator": "UIO26-3"
         }
       ]
+    },
+    {
+      "knowledge": "knowledge/bands/131xe-nu-h11-2-favored-sequence.md",
+      "summary": "131Xe νh11/2 favored band sequence transition and level alignment",
+      "anchor": "# ¹³¹Xe νh11/2 Favored 序列",
+      "sources": [
+        {
+          "path": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+          "locator": "BNK20-D28-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/experiments/vecc-131xe-alpha-38mev.md",
+      "summary": "VECC 38 MeV alpha beam 131Xe experiment setup and gating response",
+      "anchor": "# VECC 38 MeV α 束 `131Xe` 实验",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+          "locator": "C23-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/index.md",
+      "summary": "Wiki index navigation for Day28/Day29 131Xe and 133Ce triaxial research",
+      "anchor": "## 全库温故知新入口",
+      "sources": [
+        {
+          "path": "knowledge/sources/aberg-flocard-nazarewicz-1990-mean-field-shapes.md",
+          "locator": "AFN90-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/nuclei/131xe.md",
+      "summary": "131Xe nuclide overview and negative-parity excitation structure",
+      "anchor": "# ¹³¹Xe",
+      "sources": [
+        {
+          "path": "knowledge/sources/banik-2020-131xe-multiple-band-structures.md",
+          "locator": "BNK20-D28-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/131ce-collective-mode-discrimination.md",
+      "summary": "131Ce/133Ce collective mode discrimination with triaxial core evolution",
+      "anchor": "# `131Ce/133Ce` 集体模式判别",
+      "sources": [
+        {
+          "path": "knowledge/sources/alwaleedi-2013-band-structures-131ce.md",
+          "locator": "AW13-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/131xe-low-spin-partner-crosswalk.md",
+      "summary": "131Xe low-spin partner band mapping and mixing ratio branch test",
+      "anchor": "# 131Xe 低自旋伙伴带：对象映射与混合比分支检验",
+      "sources": [
+        {
+          "path": "knowledge/sources/chakraborty-2023-131xe-wobbling-origin.md",
+          "locator": "C23-2"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/133ce-thesis-analysis-blueprint.md",
+      "summary": "133Ce thesis continuous learning blueprint and triaxial core analysis",
+      "anchor": "# 133Ce学位论文：持续深入学习与实际分析蓝本",
+      "sources": [
+        {
+          "path": "knowledge/sources/ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md",
+          "locator": "A13-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md",
+      "summary": "Post-30-day nuclear structure paper prospectus and project roadmaps",
+      "anchor": "# 30天后核结构论文 prospectus",
+      "sources": [
+        {
+          "path": "knowledge/sources/chen-2026-bayesian-inertia-wobbling-135pr.md",
+          "locator": "CH26-B1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/131xe-1601-parity-version-boundary.md",
+      "summary": "131Xe 1601-keV state parity version and independence boundary",
+      "anchor": "# 131Xe 1601-keV态的宇称版本与独立性边界",
+      "sources": [
+        {
+          "path": "knowledge/sources/irving-1979-131xe-spectroscopy-scope.md",
+          "locator": "IR79-1"
+        }
+      ]
+    },
+    {
+      "knowledge": "knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md",
+      "summary": "135Pr common response evidence audit statistical contract",
+      "anchor": "# `135Pr` common-response evidence audit 的最小统计合同",
+      "sources": [
+        {
+          "path": "knowledge/sources/matta-2015-transverse-wobbling-135pr.md",
+          "locator": "M15-1"
+        }
+      ]
     }
   ]
 }
 ```
 
-## Artifacts and continuation
+## Open questions and belief revision
+
+### 开放问题与信念更新
+
+- 794-keV 宇称判别与 882-keV 双分支能否在同母态协方差下稳定分离？
+- `133Ce` 21条新跃迁与 13/2- 新能带的混合比 PDM 提取与微观旋称倒转机制。
+- `131Ce` 原子能院 HI-13 实验能级纲图完善与同中子素三轴核心比较。
+
+## L0–L4 state
+
+- 当前状态处于受控 L3/readiness 与部分 L4 数据准备阶段（partial-L4-readiness）。
+- 原始 `raw/data/SouthAfrica/` 保持本地且受保护，未生成代理实验事实。
+
+## Verification and continuation
+
+### Artifacts and continuation
 
 - 正式知识写回：`knowledge/research-notes/131xe-day29-research-design-defense.md`
 - `135Pr` source→raw 对账：`outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/135pr-source-raw-reconciliation.json`

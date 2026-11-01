@@ -1417,7 +1417,14 @@ def finalize_interactive_closeout(paths: Paths, receipt_path: Path) -> int:
     day_index = receipt.get("day_index")
     if not isinstance(run_id, str) or not isinstance(run_date, str) or type(day_index) is not int:
         raise RuntimeError("receipt is missing run identity fields")
-    if day_index != int(read_state(paths.state_file).get("next_day_index", 1)):
+    current_state = read_state(paths.state_file)
+    current_next_day = int(current_state.get("next_day_index", 1))
+    already_transitioned = (
+        current_state.get("last_run_id") == run_id
+        and current_next_day == day_index + 1
+        and bool(receipt.get("credit_transition_applied"))
+    )
+    if day_index != current_next_day and not already_transitioned:
         raise RuntimeError("receipt day_index does not match current course next_day_index")
     deadline_info = resolve_deadline_info(receipt_path, receipt, root)
     deadline = deadline_info["effective_deadline"]
