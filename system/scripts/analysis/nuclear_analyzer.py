@@ -31,6 +31,7 @@ from excitation_function_calculator import calculate_target_energy_loss, extract
 from magnetic_rotation_shears_calculator import calculate_shears_angle, calculate_magnetic_rotation_bm1, shears_band_profile
 from shape_coexistence_e0_calculator import calculate_omega_k_e0, extract_rho2_e0_from_lifetime, invert_two_state_mixing
 from moment_of_inertia_spin_analyzer import calculate_moments_of_inertia, invert_floating_band_spin
+from coulex_kumar_invariant_calculator import calculate_safe_coulex_energy, reorientation_static_quadrupole, calculate_kumar_invariants
 
 
 def cmd_kinematics(args):
@@ -247,6 +248,34 @@ def cmd_moi(args):
     print("=======================================================")
 
 
+def cmd_coulex(args):
+    safe = calculate_safe_coulex_energy(args.Ap, args.Zp, args.At, args.Zt, d_safe_fm=args.dsafe)
+    print("\n=======================================================")
+    print(" Coulomb Excitation (Coulex) Kinematics & Invariants")
+    print("=======================================================")
+    print(f"  Projectile : A={args.Ap}, Z={args.Zp}  --> Target: A={args.At}, Z={args.Zt}")
+    print(f"  Safe Surface Distance   : d_min = {safe['d_min_fm']:.2f} fm (margin = {args.dsafe:.1f} fm)")
+    print(f"  Max Safe Energy (Lab)   : E_lab_safe = {safe['E_lab_safe_MeV']:.1f} MeV (E_cm = {safe['E_cm_safe_MeV']:.1f} MeV)")
+
+    if args.M22 is not None:
+        reorient = reorientation_static_quadrupole(args.Zt, args.At, args.M22)
+        print("-------------------------------------------------------")
+        print(f"  Reorientation Matrix <2||M(E2)||2> : {args.M22:+.3f} e*b")
+        print(f"  Static Quadrupole Moment Q_s(2_1+) : {reorient['Q_s_eb']:+.3f} e*b")
+        print(f"  Polarity Diagnostic                : {reorient['shape_polarity']}")
+
+    if args.M02:
+        m02_vals = [float(x.strip()) for x in args.M02.split(",")]
+        m22_val = args.M22 if args.M22 is not None else 0.0
+        inv = calculate_kumar_invariants(m02_vals, m22_val, args.Zt, args.At)
+        print("-------------------------------------------------------")
+        print(f"  Kumar Quadrupole Invariant Q^2     : {inv['q2_invariant_e2b2']:.3f} e^2 b^2")
+        print(f"  Asymmetry Invariant cos(3*delta)   : {inv['cos_3delta']:+.3f}")
+        print(f"  Effective Triaxial Angle gamma_eff : {inv['gamma_eff_deg']:.1f} deg")
+        print(f"  Effective RMS Deformation beta_eff : {inv['beta_eff_rms']:.3f}")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -364,6 +393,17 @@ def main():
     p_moi.add_argument("--half_int", action="store_true", default=True, help="Grid search half-integer spins for odd-A nuclei")
     p_moi.add_argument("--J0", type=float, default=15.0, help="Expected bandhead core J0")
     p_moi.set_defaults(func=cmd_moi)
+
+    # Coulomb Excitation & Kumar Invariants
+    p_coulex = subparsers.add_parser("coulex", help="Coulomb excitation safe energy, reorientation Q_s, and Kumar invariants")
+    p_coulex.add_argument("--Ap", type=int, required=True, help="Projectile mass number")
+    p_coulex.add_argument("--Zp", type=int, required=True, help="Projectile atomic number")
+    p_coulex.add_argument("--At", type=int, required=True, help="Target mass number")
+    p_coulex.add_argument("--Zt", type=int, required=True, help="Target atomic number")
+    p_coulex.add_argument("--dsafe", type=float, default=5.0, help="Cline safe distance margin (default 5.0 fm)")
+    p_coulex.add_argument("--M22", type=float, default=None, help="Diagonal matrix element <2||M(E2)||2> in e*b")
+    p_coulex.add_argument("--M02", type=str, default="", help="Comma-separated transitional <0||M(E2)||2_i> in e*b")
+    p_coulex.set_defaults(func=cmd_coulex)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

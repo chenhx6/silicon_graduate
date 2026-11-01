@@ -16,6 +16,7 @@ Tests:
   11. magnetic_rotation_shears_calculator: checks shears angle, B(M1) quenching, and band termination.
   12. shape_coexistence_e0_calculator: checks electronic Omega_K factor, rho^2(E0) extraction, and two-state mixing.
   13. moment_of_inertia_spin_analyzer: checks J1, J2 moments of inertia and floating band spin inversion.
+  14. coulex_kumar_invariant_calculator: checks safe Coulex energy, reorientation Q_s, and Kumar invariants.
 """
 
 import sys
@@ -34,6 +35,7 @@ from excitation_function_calculator import calculate_target_energy_loss, extract
 from magnetic_rotation_shears_calculator import calculate_shears_angle, calculate_magnetic_rotation_bm1, shears_band_profile
 from shape_coexistence_e0_calculator import calculate_omega_k_e0, extract_rho2_e0_from_lifetime, invert_two_state_mixing
 from moment_of_inertia_spin_analyzer import calculate_moments_of_inertia, invert_floating_band_spin
+from coulex_kumar_invariant_calculator import calculate_safe_coulex_energy, reorientation_static_quadrupole, calculate_kumar_invariants
 
 
 def test_heavy_ion_kinematics():
@@ -231,6 +233,18 @@ def test_moment_of_inertia_spin_analyzer():
     print("  ✓ moment_of_inertia_spin_analyzer passed.")
 
 
+def test_coulex_kumar_invariant_calculator():
+    print("Testing coulex_kumar_invariant_calculator...")
+    safe = calculate_safe_coulex_energy(130, 56, 208, 82)
+    assert 500.0 < safe["E_lab_safe_MeV"] < 650.0, f"Safe energy out of bounds: {safe['E_lab_safe_MeV']}"
+    reorient = reorientation_static_quadrupole(56, 130, M22_diagonal_eb=-0.55)
+    assert reorient["Q_s_eb"] < 0.0, "Negative diagonal matrix element must yield prolate Q_s < 0"
+    inv = calculate_kumar_invariants([1.15, 0.35], -0.55, Z=56, A=130)
+    assert 15.0 < inv["gamma_eff_deg"] < 30.0, f"Effective gamma angle error: {inv['gamma_eff_deg']}"
+    assert 0.15 < inv["beta_eff_rms"] < 0.35, f"Effective beta error: {inv['beta_eff_rms']}"
+    print("  ✓ coulex_kumar_invariant_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -246,4 +260,5 @@ if __name__ == "__main__":
     test_magnetic_rotation_shears_calculator()
     test_shape_coexistence_e0_calculator()
     test_moment_of_inertia_spin_analyzer()
-    print("ALL 13 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_coulex_kumar_invariant_calculator()
+    print("ALL 14 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
