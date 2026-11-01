@@ -3,6 +3,13 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-03T04:00:00+08:00 (超形变SD/TSD微观动力学、J2平原检验与退激穿透模拟器落地)
+
+- **超大四极形变孤岛与量子隧穿脱落动力学闭环完成**：
+  - 沉淀前沿理论《超形变（SD）、三轴超形变（TSD）与能带退激穿透动力学》（解构宏观轴比 2:1 次级极小势阱、镥-钽区三轴超形变多声子摆动运动实验基准、带内 $ 辐射与 WKB 势垒隧穿的统计竞争，以及超形变带突然终止脱落 Decay-out 的临界自旋判据与 pprox 130$ 高形变带映射）；
+  - 开发完成生产级超形变能带动力学惯量平原检验与退激穿透模拟器（system/scripts/analysis/superdeformation_decayout_calculator.py），集成至 nuclear_analyzer CLI 并通过 18 大模块全量自动化回归测试；
+  - 成功提交（commit 3f62b531）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-03T02:00:00+08:00 (反常旋称反转动力学、能量交错S(I)与三轴pn相互作用分析器落地)
 
 - **旋称动力学与三轴质中相互作用闭环完成**：
