@@ -3,6 +3,13 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-03T08:00:00+08:00 (在束ADO比值、Clover线偏振度与POL-ADO联合双根破除分析器落地)
+
+- **在束角分布特征环比值与二维偏振联合判决闭环完成**：
+  - 沉淀前沿实战指南《在束谱学 ADO 比值、线偏振度与多极性二维联合判决指南》（阐述特征探测环 0^\circ/90^\circ$ ADO 比值 {	ext{ADO}}$ 对四极与偶极跃迁的高灵敏度响应，推导 Clover 康普顿散射不对称度 $\Delta_{	ext{IPDCO}}$ 转换线偏振度 $ 算法，以及二维联合似然空间彻底破除多极混合比 $\delta$ 数学双根退化的实战法典）；
+  - 开发完成生产级在束谱学 ADO 比值与偏振度二维联合求解器（system/scripts/analysis/ado_polarization_joint_analyzer.py），集成至 nuclear_analyzer CLI 并通过 20 大模块全量自动化回归测试；
+  - 成功提交（commit 977ca387）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-03T06:00:00+08:00 (相互作用玻色子模型IBM/IBFM理论、Casten三角形与相变分析器落地)
 
 - **代数李群对称性与IBFM准粒子-声子耦合动力学闭环完成**：
