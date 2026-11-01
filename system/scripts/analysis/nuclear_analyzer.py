@@ -25,6 +25,7 @@ from digital_trapezoidal_filter import synthesize_preamp_pulse, apply_trapezoida
 from gamma_peak_fitting import single_peak_model, fit_single_gamma_peak
 from dco_polarization_analyzer import joint_dco_polarization_fit, calculate_dco_ratio, calculate_linear_polarization
 from lifetime_lineshape_calculator import calculate_stopping_time_alpha, dsam_invert_lifetime, calculate_absolute_transition_strengths
+from routhian_alignment_analyzer import calculate_alignment_and_routhians, fit_harris_reference
 
 
 def cmd_kinematics(args):
@@ -120,6 +121,28 @@ def cmd_lifetime(args):
     print("=======================================================")
 
 
+def cmd_align(args):
+    spins = [float(x.strip()) for x in args.spins.split(",")]
+    energies = [float(x.strip()) for x in args.energies.split(",")]
+    if len(spins) != len(energies):
+        raise ValueError("Number of spins must equal number of energies.")
+
+    res = calculate_alignment_and_routhians(spins, energies, J0=args.J0, J1=args.J1, K=args.K)
+    print("\n=======================================================")
+    print(" Nuclear Rotational Alignment & Routhian Analysis")
+    print("=======================================================")
+    print(f"  Harris Reference Core   : J0 = {args.J0:.1f} hbar^2/MeV, J1 = {args.J1:.1f} hbar^4/MeV^3, K = {args.K:.1f}")
+    print("  Spin (hbar) | hbar*omega (MeV) | Alignment i_x (hbar) | e' (MeV)")
+    print("  --------------------------------------------------------------")
+    for sp, w, ix, ep in zip(res["spin_mid"], res["omega_MeV"], res["ix_hbar"], res["eprime_MeV"]):
+        print(f"    {sp:5.1f}     |     {w:.4f}     |      {ix:+6.2f}        |  {ep:+.3f}")
+    if res["critical_omega_crossing"]:
+        print(f"\n  [BAND CROSSING DETECTED]")
+        print(f"  Critical Frequency omega_c approx {res['critical_omega_crossing']:.3f} MeV/hbar")
+        print(f"  Alignment Gain Delta(i_x) approx {res['alignment_gain']:.1f} hbar")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -181,6 +204,15 @@ def main():
     p_life.add_argument("--I", type=float, default=10.0, help="Initial state spin")
     p_life.add_argument("--br", type=float, default=1.0, help="Gamma branching ratio")
     p_life.set_defaults(func=cmd_lifetime)
+
+    # Rotational Alignment & Routhian
+    p_align = subparsers.add_parser("align", help="Rotational frequency, alignment i_x, and Routhians")
+    p_align.add_argument("--spins", type=str, required=True, help="Comma-separated list of spins (e.g. 5.5,7.5,9.5,11.5)")
+    p_align.add_argument("--energies", type=str, required=True, help="Comma-separated list of energies in keV (e.g. 0,350,800,1350)")
+    p_align.add_argument("--J0", type=float, default=15.0, help="Harris core parameter J0")
+    p_align.add_argument("--J1", type=float, default=30.0, help="Harris core parameter J1")
+    p_align.add_argument("--K", type=float, default=0.0, help="K quantum number")
+    p_align.set_defaults(func=cmd_align)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

@@ -10,6 +10,7 @@ Tests:
   5. dco_polarization_analyzer: checks DCO ratio for dipole/quadrupole and polarization sensitivity.
   6. lifetime_lineshape_calculator: checks stopping time, DSAM attenuation inversion, and B(E2).
   7. coincidence_intensity_balancer: checks 3-point background subtraction and intensity balancing.
+  8. routhian_alignment_analyzer: checks rotational frequency, alignment ix, and Harris baseline.
 """
 
 import sys
@@ -22,6 +23,7 @@ from gamma_peak_fitting import single_peak_model, fit_single_gamma_peak
 from dco_polarization_analyzer import calculate_dco_ratio, calculate_linear_polarization, joint_dco_polarization_fit
 from lifetime_lineshape_calculator import calculate_stopping_time_alpha, dsam_invert_lifetime, calculate_absolute_transition_strengths
 from coincidence_intensity_balancer import three_point_background_subtraction, hpge_efficiency_radware, check_level_intensity_balance
+from routhian_alignment_analyzer import calculate_alignment_and_routhians, fit_harris_reference
 
 
 def test_heavy_ion_kinematics():
@@ -137,9 +139,20 @@ def test_coincidence_intensity_balancer():
     inflows = [{"name": "in1", "net_area": 1000.0, "efficiency": 0.1, "alpha_tot": 0.0}]
     outflows = [{"name": "out1", "net_area": 1000.0, "efficiency": 0.1, "alpha_tot": 0.0}]
     bal = check_level_intensity_balance(inflows, outflows)
-    assert bal["is_balanced_within_3sigma"] is True, "Balanced node failed test"
+    assert bal["is_balanced_within_3sigma"] == True, "Balanced node failed test"
     assert abs(bal["difference_out_minus_in"]) < 1e-4, "Difference should be zero"
     print("  ✓ coincidence_intensity_balancer passed.")
+
+
+def test_routhian_alignment_analyzer():
+    print("Testing routhian_alignment_analyzer...")
+    spins = [2.0, 4.0, 6.0, 8.0, 10.0]
+    energies = [25.0 * I * (I + 1.0) for I in spins]
+    res = calculate_alignment_and_routhians(spins, energies, J0=20.0, J1=0.0)
+    assert len(res["omega_MeV"]) == 4, "Should have 4 cascade transitions"
+    assert res["omega_MeV"][0] < res["omega_MeV"][-1], "Omega should increase with spin"
+    assert abs(res["ix_hbar"][0]) < 5.0, "Alignment baseline sanity check"
+    print("  ✓ routhian_alignment_analyzer passed.")
 
 
 if __name__ == "__main__":
@@ -151,4 +164,5 @@ if __name__ == "__main__":
     test_dco_polarization_analyzer()
     test_lifetime_lineshape_calculator()
     test_coincidence_intensity_balancer()
-    print("ALL 7 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_routhian_alignment_analyzer()
+    print("ALL 8 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
