@@ -3,6 +3,13 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-03T10:00:00+08:00 (侧馈送时间延迟动力学、顶门符合与DSAM多普勒解卷积分析器落地)
+
+- **在束级联前导衰变与寿命测量解卷积闭环完成**：
+  - 沉淀前沿实战指南《在束级联侧馈送动力学、时间延迟分布与多普勒线形解卷积指南》（建立准连续态级联时间延迟拉普拉斯卷积方程、包含侧馈时间 $	au_{	ext{feed}}$ 的有效多普勒衰减因子 {	ext{eff}}$ 显式修正解，量化忽视侧馈送引起的寿命虚假拉长与四极矩 $ 低估偏差，确立顶门符合物理消除侧馈的黄金法则）；
+  - 开发完成生产级在束级联侧馈送时间分布与多普勒线形解卷积分析器（system/scripts/analysis/side_feeding_deconvolution_calculator.py），集成至 nuclear_analyzer CLI 并通过 21 大模块全量自动化回归测试；
+  - 成功提交（commit 83022d61）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-03T08:00:00+08:00 (在束ADO比值、Clover线偏振度与POL-ADO联合双根破除分析器落地)
 
 - **在束角分布特征环比值与二维偏振联合判决闭环完成**：
