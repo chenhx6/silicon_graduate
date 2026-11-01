@@ -3,6 +3,20 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T16:30:00+08:00 (轴对称RMF约束形变、IAS库仑能与CED、伽马级联量能学、Wigner超多重态SU(4)与线动量转移LMT等5大分析器落地，64模块闭环)
+
+- **全域核物理理论与在束实验分析系统化闭环拓展（59 -> 64 模块）**：
+  - **模块 60**：轴对称四极约束相对论平均场（RMF）计算器（`rmf_deformed_constrained_calculator.py`），基于 NL3 协变拉格朗日量与二次动量约束，自洽解算结合能对四极形变 $\beta_2$ 的势能曲线，定位长椭与扁椭极小，分离质子/中子形变中子皮；
+  - **模块 61**：同位旋类似态（IAS）库仑位移能与镜像核 CED 高自旋对齐计算器（`isobaric_analog_state_ced_calculator.py`），计算费米降低算符 $T_-$ 激发的母子核库仑位移能 $\Delta E_C$，并以镜像转动带库仑能量差 $\text{CED}(I)$ 突跳正负号裁决质子对齐 vs 中子对齐；
+  - **模块 62**：复合核多步 $\gamma$ 级联量能学与多重数谱仪分选计算器（`gamma_cascade_calorimetry_calculator.py`），解构统计 $E1$ 冷却光子与集体 $E2$ 转动光子的两阶段退激，模拟 $4\pi$ 量能球二项折叠，建立 $(E_{\text{sum}}, M_\gamma)$ 二维滤窗通道提纯机制；
+  - **模块 63**：Wigner 超多重态 $SU(4)$ 对称性、Casimir 不变量与 $N=Z$ 质量尖点计算器（`wigner_supermultiplet_su4_calculator.py`），计算 15 生成元结合能不变量 $\langle C_2 \rangle$，阐述同标量 $T=0$ 对能对自共轭核的额外束缚，重现质量尖点（Wigner Cusp）；
+  - **模块 64**：重离子线动量转移（LMT）、不完全熔合（ICF）与裂变折叠角计算器（`linear_momentum_transfer_incomplete_fusion_calculator.py`），建立中能区动量转移分数 $\rho$ 与二体裂变折叠角 $\theta_{\text{fold}} = 2\arctan(\beta_{\text{frag}}/\beta_{\text{rec}})$ 映射，实现完全熔合与不完全熔合截面的实验划分；
+  - **知识大脑与测试全绿**：
+    - 撰写 5 篇权威概念专论，更新 `knowledge/index.md`；
+    - 升级 `nuclear-spectroscopy-and-structure-master-field-manual.md` 为 64 模块完整闭环指南；
+    - 统一 CLI `nuclear_analyzer.py` 新增 `rmfdef`, `ias`, `calorim`, `wigner`, `lmt` 子命令；
+    - `test_analysis_suite.py` 自动化回归测试扩展至 **64 大科学分析模块 100% 绿灯全通**！
+
 ## Active checkpoint — 2026-11-02T15:30:00+08:00 (Nilsson变形壳模型、裂变碎片质量产额、闪烁体PSD鉴别、多准粒子阻塞BCS与内对产生IPC等5大分析器落地，59模块闭环)
 
 - **全域核物理理论与在束实验分析系统化闭环拓展（54 -> 59 模块）**：

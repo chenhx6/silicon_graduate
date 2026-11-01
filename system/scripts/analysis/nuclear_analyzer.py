@@ -77,6 +77,11 @@ from fission_fragment_mass_yield_calculator import calculate_fission_fragment_di
 from pulse_shape_discrimination_psd_calculator import calculate_charge_comparison_psd, calculate_figure_of_merit, simulate_zero_crossing_timing, format_text_report as format_psd_report
 from multi_quasiparticle_blocked_bcs_calculator import calculate_multi_quasiparticle_energy, format_text_report as format_mqp_report
 from internal_pair_creation_ipc_calculator import calculate_ipc_coefficient, calculate_angular_correlation, format_text_report as format_ipc_report
+from rmf_deformed_constrained_calculator import scan_rmf_constrained_pes, format_text_report as format_rmfdef_report
+from isobaric_analog_state_ced_calculator import calculate_coulomb_displacement_energy, analyze_mirror_ced_sequence, format_text_report as format_ias_report
+from gamma_cascade_calorimetry_calculator import simulate_gamma_cascade, compare_evaporation_channel_entry_points, format_text_report as format_calorim_report
+from wigner_supermultiplet_su4_calculator import calculate_wigner_energy, scan_isobaric_wigner_cusp, format_text_report as format_wigner_report
+from linear_momentum_transfer_incomplete_fusion_calculator import calculate_linear_momentum_transfer, scan_folding_angle_vs_lmt, format_text_report as format_lmt_report
 
 
 def cmd_kinematics(args):
@@ -1478,6 +1483,69 @@ def cmd_ipc(args):
     else:
         print(format_ipc_report(summary))
 
+def cmd_rmfdef(args):
+    summary = scan_rmf_constrained_pes(args.Z, args.A, args.bmin, args.bmax)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_rmfdef_report(summary))
+
+
+def cmd_ias(args):
+    de_res = calculate_coulomb_displacement_energy(args.Z, args.A)
+    summary = {"displacement_energy": de_res}
+    if args.demo_ced or (args.spins is None and args.Z == 24 and args.A == 49):
+        spins = [3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5]
+        ep = [261.0, 1073.0, 1982.0, 3173.0, 4679.0, 6420.0, 8350.0, 10450.0]
+        en = [272.0, 1083.0, 1970.0, 3130.0, 4580.0, 6380.0, 8340.0, 10460.0]
+        summary["mirror_ced"] = analyze_mirror_ced_sequence(spins, ep, en)
+    elif args.spins and args.e_p_rich and args.e_n_rich:
+        spins = [float(x.strip()) for x in args.spins.split(",")]
+        ep = [float(x.strip()) for x in args.e_p_rich.split(",")]
+        en = [float(x.strip()) for x in args.e_n_rich.split(",")]
+        summary["mirror_ced"] = analyze_mirror_ced_sequence(spins, ep, en)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_ias_report(summary))
+
+
+def cmd_calorim(args):
+    casc = simulate_gamma_cascade(args.entry_spin, args.entry_e, args.mass)
+    summary = {"single_cascade": casc}
+    if args.triage or args.entry_e == 24.0:
+        summary["channel_triage"] = compare_evaporation_channel_entry_points(args.cn_e, args.mass + 4)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_calorim_report(summary))
+
+
+def cmd_wigner(args):
+    we_res = calculate_wigner_energy(args.Z, args.A, args.aW)
+    summary = {"wigner_energy": we_res}
+    if args.scan_isobar or abs(args.A - 2 * args.Z) <= 4:
+        summary["isobaric_scan"] = scan_isobaric_wigner_cusp(args.A, args.aW)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_wigner_report(summary))
+
+
+def cmd_lmt(args):
+    lmt_res = calculate_linear_momentum_transfer(args.Ap, args.Zp, args.At, args.Zt, args.elab, args.lmt, args.tke)
+    scan_res = scan_folding_angle_vs_lmt(args.Ap, args.Zp, args.At, args.Zt, args.elab)
+    summary = {"lmt_kinematics": lmt_res, "lmt_scan": scan_res}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_lmt_report(summary))
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -2161,6 +2229,57 @@ def main():
     p_ipc.add_argument("--mX", type=float, default=None, help="Hypothetical boson mass in MeV (e.g. 17.0 for ATOMKI)")
     p_ipc.add_argument("--json", action="store_true", help="Output results in JSON format")
     p_ipc.set_defaults(func=cmd_ipc)
+
+    # Axially Deformed RMF Quadrupole Constrained PES
+    p_rmfdef = subparsers.add_parser("rmfdef", help="Axially deformed relativistic mean field (RMF) quadrupole constrained PES engine")
+    p_rmfdef.add_argument("-Z", type=int, required=True, help="Proton number Z")
+    p_rmfdef.add_argument("-A", type=int, required=True, help="Mass number A")
+    p_rmfdef.add_argument("--bmin", type=float, default=-0.40, help="Minimum beta_2 deformation (default: -0.40)")
+    p_rmfdef.add_argument("--bmax", type=float, default=0.50, help="Maximum beta_2 deformation (default: 0.50)")
+    p_rmfdef.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_rmfdef.set_defaults(func=cmd_rmfdef)
+
+    # Isobaric Analog State (IAS) & Mirror CED
+    p_ias = subparsers.add_parser("ias", help="Isobaric analog state (IAS) Coulomb displacement and mirror CED alignment analyzer")
+    p_ias.add_argument("-Z", type=int, default=24, help="Parent proton number Z (default: 24 for Cr)")
+    p_ias.add_argument("-A", type=int, default=49, help="Mass number A (default: 49 for 49Cr/49Mn)")
+    p_ias.add_argument("--demo-ced", action="store_true", help="Run benchmark CED mirror analysis (49Mn vs 49Cr)")
+    p_ias.add_argument("--spins", type=str, default=None, help="Comma-separated spins for custom CED")
+    p_ias.add_argument("--e-p-rich", type=str, default=None, help="Comma-separated energies for Tz = -1/2 in keV")
+    p_ias.add_argument("--e-n-rich", type=str, default=None, help="Comma-separated energies for Tz = +1/2 in keV")
+    p_ias.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_ias.set_defaults(func=cmd_ias)
+
+    # Gamma Cascade Calorimetry & Multiplicity Spectrometry
+    p_cal = subparsers.add_parser("calorim", help="Gamma-ray cascade calorimetry, multiplicity filter and channel separation analyzer")
+    p_cal.add_argument("-E", "--entry-e", type=float, default=24.0, help="Entry state excitation energy in MeV (default: 24.0)")
+    p_cal.add_argument("-I", "--entry-spin", type=float, default=22.0, help="Entry state spin I in hbar (default: 22.0)")
+    p_cal.add_argument("-A", "--mass", type=int, default=130, help="Mass number A (default: 130)")
+    p_cal.add_argument("--triage", action="store_true", help="Perform xn channel entry separation scan")
+    p_cal.add_argument("--cn-e", type=float, default=58.0, help="Compound nucleus excitation energy in MeV")
+    p_cal.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_cal.set_defaults(func=cmd_calorim)
+
+    # Wigner Supermultiplet SU(4) & N=Z Mass Cusp
+    p_wig = subparsers.add_parser("wigner", help="Wigner supermultiplet SU(4) symmetry, Casimir invariants and N=Z mass cusp calculator")
+    p_wig.add_argument("-Z", type=int, required=True, help="Proton number Z")
+    p_wig.add_argument("-A", type=int, required=True, help="Mass number A")
+    p_wig.add_argument("--aW", type=float, default=42.0, help="Wigner energy parameter in MeV (default: 42.0)")
+    p_wig.add_argument("--scan-isobar", action="store_true", help="Scan isobaric chain across N=Z")
+    p_wig.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_wig.set_defaults(func=cmd_wigner)
+
+    # Linear Momentum Transfer (LMT) & Fission Folding Angle
+    p_lmt = subparsers.add_parser("lmt", help="Linear momentum transfer (LMT) and binary fission folding angle simulator")
+    p_lmt.add_argument("-Zp", type=int, required=True, help="Projectile atomic number Z_p")
+    p_lmt.add_argument("-Ap", type=int, required=True, help="Projectile mass number A_p")
+    p_lmt.add_argument("-Zt", type=int, required=True, help="Target atomic number Z_t")
+    p_lmt.add_argument("-At", type=int, required=True, help="Target mass number A_t")
+    p_lmt.add_argument("-E", "--elab", type=float, required=True, help="Beam energy E_lab in MeV")
+    p_lmt.add_argument("--lmt", type=float, default=1.0, help="Fractional LMT rho (default: 1.0)")
+    p_lmt.add_argument("--tke", type=float, default=None, help="Fission TKE in MeV (default: Viola)")
+    p_lmt.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_lmt.set_defaults(func=cmd_lmt)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

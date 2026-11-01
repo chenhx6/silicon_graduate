@@ -91,6 +91,11 @@ from fission_fragment_mass_yield_calculator import calculate_viola_tke, calculat
 from pulse_shape_discrimination_psd_calculator import calculate_charge_comparison_psd, calculate_figure_of_merit, simulate_zero_crossing_timing
 from multi_quasiparticle_blocked_bcs_calculator import calculate_multi_quasiparticle_energy
 from internal_pair_creation_ipc_calculator import calculate_ipc_coefficient, calculate_angular_correlation
+from rmf_deformed_constrained_calculator import calculate_rmf_spherical_ground_state, scan_rmf_constrained_pes
+from isobaric_analog_state_ced_calculator import calculate_coulomb_displacement_energy, analyze_mirror_ced_sequence
+from gamma_cascade_calorimetry_calculator import simulate_gamma_cascade, compare_evaporation_channel_entry_points
+from wigner_supermultiplet_su4_calculator import calculate_wigner_energy, calculate_su4_casimir
+from linear_momentum_transfer_incomplete_fusion_calculator import calculate_linear_momentum_transfer, scan_folding_angle_vs_lmt
 
 
 def test_heavy_ion_kinematics():
@@ -1195,6 +1200,67 @@ def test_internal_pair_creation_ipc_calculator():
     assert ang["exotic_boson_resonance"]["is_near_peak"], "ATOMKI 17 MeV boson peak should align with ~139 deg"
     print("  ✓ internal_pair_creation_ipc_calculator passed.")
 
+
+def test_rmf_deformed_constrained_calculator():
+    print("Testing rmf_deformed_constrained_calculator...")
+    sph = calculate_rmf_spherical_ground_state(Z=56, A=130)
+    assert 500.0 < sph["effective_mass_Mstar_MeV"] < 600.0, "Effective mass M* out of NL3 range"
+    assert sph["scalar_potential_depth_MeV"] < -350.0, "Scalar potential depth check"
+    assert sph["vector_potential_depth_MeV"] > 280.0, "Vector potential depth check"
+
+    pes = scan_rmf_constrained_pes(56, 130)
+    assert pes["equilibrium_beta_2"] > 0.20, "130Ba must have deformed ground state"
+    assert pes["spherical_barrier_height_MeV"] > 5.0, "Deformation barrier sanity check"
+    print("  ✓ rmf_deformed_constrained_calculator passed.")
+
+
+def test_isobaric_analog_state_ced_calculator():
+    print("Testing isobaric_analog_state_ced_calculator...")
+    de = calculate_coulomb_displacement_energy(Z_parent=24, A_mass=49)
+    assert 8.0 < de["Coulomb_displacement_empirical_MeV"] < 9.5, f"Unexpected Coulomb displacement: {de['Coulomb_displacement_empirical_MeV']}"
+
+    spins = [3.5, 5.5, 7.5, 9.5, 11.5, 13.5]
+    ep = [261.0, 1073.0, 1982.0, 3173.0, 4679.0, 6420.0]
+    en = [272.0, 1083.0, 1970.0, 3130.0, 4580.0, 6380.0]
+    ced = analyze_mirror_ced_sequence(spins, ep, en)
+    assert abs(ced["maximum_CED_jump_keV"]) > 30.0, "Must detect alignment jump in CED"
+    print("  ✓ isobaric_analog_state_ced_calculator passed.")
+
+
+def test_gamma_cascade_calorimetry_calculator():
+    print("Testing gamma_cascade_calorimetry_calculator...")
+    casc = simulate_gamma_cascade(entry_spin_I=20.0, entry_excitation_MeV=22.0, A_mass=130)
+    assert casc["collective_E2_multiplicity"] == 10.0, "Collective E2 multiplicity must equal I/2"
+    assert casc["statistical_E1_multiplicity"] > 0, "Must have statistical cooling photons"
+    assert casc["measured_mean_fold"] < casc["total_true_multiplicity"], "Calorimeter fold < true M due to efficiency"
+
+    triage = compare_evaporation_channel_entry_points(compound_excitation_MeV=58.0, A_cn=134)
+    assert len(triage) == 3, "Should compute 3n, 4n, 5n channels"
+    assert triage[0]["entry_excitation_MeV"] > triage[1]["entry_excitation_MeV"], "Fewer evaporated neutrons -> higher entry energy"
+    print("  ✓ gamma_cascade_calorimetry_calculator passed.")
+
+
+def test_wigner_supermultiplet_su4_calculator():
+    print("Testing wigner_supermultiplet_su4_calculator...")
+    we = calculate_wigner_energy(Z=24, A=48)
+    assert we["is_N_equals_Z"], "48Cr must be recognized as N=Z"
+    assert we["su4_casimir_C2"] == 0.0, "Even-even T=0 ground state has C2 = 0"
+
+    su4_odd = calculate_su4_casimir(Z=23, A=47)
+    assert su4_odd["casimir_C2"] > 0.0, "Odd-A has positive Casimir invariant"
+    print("  ✓ wigner_supermultiplet_su4_calculator passed.")
+
+
+def test_linear_momentum_transfer_incomplete_fusion_calculator():
+    print("Testing linear_momentum_transfer_incomplete_fusion_calculator...")
+    lmt_cf = calculate_linear_momentum_transfer(A_p=16, Z_p=8, A_t=238, Z_t=92, E_lab_MeV=160.0, fractional_LMT=1.0)
+    assert "Complete_Fusion" in lmt_cf["reaction_regime"], "Must identify CF at rho=1"
+    assert 145.0 < lmt_cf["predicted_folding_angle_deg"] < 165.0, f"Folding angle out of range: {lmt_cf['predicted_folding_angle_deg']}"
+
+    lmt_icf = calculate_linear_momentum_transfer(A_p=16, Z_p=8, A_t=238, Z_t=92, E_lab_MeV=160.0, fractional_LMT=0.6)
+    assert lmt_icf["predicted_folding_angle_deg"] > lmt_cf["predicted_folding_angle_deg"], "ICF must have wider folding angle than CF"
+    print("  ✓ linear_momentum_transfer_incomplete_fusion_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -1256,4 +1322,9 @@ if __name__ == "__main__":
     test_pulse_shape_discrimination_psd_calculator()
     test_multi_quasiparticle_blocked_bcs_calculator()
     test_internal_pair_creation_ipc_calculator()
-    print("ALL 59 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_rmf_deformed_constrained_calculator()
+    test_isobaric_analog_state_ced_calculator()
+    test_gamma_cascade_calorimetry_calculator()
+    test_wigner_supermultiplet_su4_calculator()
+    test_linear_momentum_transfer_incomplete_fusion_calculator()
+    print("ALL 64 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
