@@ -37,6 +37,7 @@ from octupole_parity_doublet_calculator import calculate_parity_splitting, calcu
 from signature_inversion_analyzer import calculate_staggering_parameter_s, calculate_signature_splitting, detect_inversion_crossing
 from superdeformation_decayout_calculator import evaluate_superdeformation_flatness, model_decayout_tunneling
 from ibm_dynamical_symmetry_analyzer import calculate_ibm_energy_ratios, classify_casten_triangle_phase
+from ado_polarization_joint_analyzer import calculate_ado_ratio, convert_clover_counts_to_polarization, joint_ado_polarization_scan
 
 
 def cmd_kinematics(args):
@@ -401,6 +402,36 @@ def cmd_ibm(args):
     print("=======================================================")
 
 
+def cmd_ado(args):
+    print("\n=======================================================")
+    print(" In-Beam ADO Ratio & Linear Polarization Joint Fit")
+    print("=======================================================")
+    pol_P = args.P
+    pol_err = args.P_err
+    if args.Nperp and args.Npar:
+        clov = convert_clover_counts_to_polarization(args.Nperp, args.Npar, Q_factor=args.Q)
+        pol_P = clov['polarization_P']
+        pol_err = clov['polarization_P_err']
+        print(f"  Clover Asymmetry Delta  : {clov['asymmetry_Delta']:+.3f} +/- {clov['asymmetry_err']:.3f}")
+        print(f"  Deduced Polarization P : {pol_P:+.3f} +/- {pol_err:.3f}")
+        print("-------------------------------------------------------")
+
+    res = joint_ado_polarization_scan(
+        R_ado_exp=args.Rado, R_ado_err=args.Rado_err,
+        P_exp=pol_P, P_err=pol_err,
+        theta1_deg=args.th1, theta2_deg=args.th2,
+        F2_11=args.F11, F2_12=args.F12, F2_22=args.F22, F4_22=args.F44,
+        alpha2=args.alpha2
+    )
+    print(f"  Exp ADO Ratio ({args.th1:.0f}/{args.th2:.0f}) : {args.Rado:.3f} +/- {args.Rado_err:.3f}")
+    print(f"  Exp Linear Polarization : {pol_P:+.3f} +/- {pol_err:.3f}")
+    print(f"  Best-fit delta          : {res['best_delta']:+.3f} (+{res['delta_err_high']:.3f} / -{res['delta_err_low']:.3f})")
+    print(f"  Theoretical R_ADO       : {res['r_ado_at_best']:.3f}")
+    print(f"  Theoretical Pol P       : {res['p_at_best']:+.3f}")
+    print(f"  Joint Chi2 Minimum      : {res['min_chi2']:.2f}")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -578,6 +609,24 @@ def main():
     p_ibm.add_argument("--E22", type=float, default=None, help="Energy of 2_2+ state in keV")
     p_ibm.add_argument("--E02", type=float, default=None, help="Energy of 0_2+ state in keV")
     p_ibm.set_defaults(func=cmd_ibm)
+
+    # ADO Ratio & Linear Polarization
+    p_ado = subparsers.add_parser("ado", help="In-beam ADO ratio R_ADO and Clover polarization joint fit")
+    p_ado.add_argument("--Rado", type=float, required=True, help="Measured ADO ratio")
+    p_ado.add_argument("--Rado_err", type=float, default=0.04, help="ADO ratio error")
+    p_ado.add_argument("--P", type=float, default=0.0, help="Direct linear polarization P (if known)")
+    p_ado.add_argument("--P_err", type=float, default=0.05, help="Polarization error")
+    p_ado.add_argument("--Nperp", type=float, default=None, help="Clover perpendicular scattering counts")
+    p_ado.add_argument("--Npar", type=float, default=None, help="Clover parallel scattering counts")
+    p_ado.add_argument("--Q", type=float, default=0.20, help="Clover polarization sensitivity Q")
+    p_ado.add_argument("--th1", type=float, default=30.0, help="Forward/backward detector angle in deg")
+    p_ado.add_argument("--th2", type=float, default=90.0, help="Perpendicular detector angle in deg")
+    p_ado.add_argument("--F11", type=float, required=True, help="F2(11)")
+    p_ado.add_argument("--F12", type=float, required=True, help="F2(12)")
+    p_ado.add_argument("--F22", type=float, required=True, help="F2(22)")
+    p_ado.add_argument("--F44", type=float, default=0.0, help="F4(22)")
+    p_ado.add_argument("--alpha2", type=float, default=0.85, help="Alignment factor alpha2")
+    p_ado.set_defaults(func=cmd_ado)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

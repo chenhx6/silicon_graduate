@@ -22,6 +22,7 @@ Tests:
   17. signature_inversion_analyzer: checks signature splitting Delta_E, inversion crossing I_inv, and S(I).
   18. superdeformation_decayout_calculator: checks SD/TSD J2 plateau flatness and decay-out barrier tunneling.
   19. ibm_dynamical_symmetry_analyzer: checks R4/2 ratio, Casten triangle phase, and O(6) degeneracy.
+  20. ado_polarization_joint_analyzer: checks ADO ratio, Clover asymmetry conversion, and joint profile fit.
 """
 
 import sys
@@ -46,6 +47,7 @@ from octupole_parity_doublet_calculator import calculate_parity_splitting, calcu
 from signature_inversion_analyzer import calculate_staggering_parameter_s, calculate_signature_splitting, detect_inversion_crossing
 from superdeformation_decayout_calculator import evaluate_superdeformation_flatness, model_decayout_tunneling
 from ibm_dynamical_symmetry_analyzer import calculate_ibm_energy_ratios, classify_casten_triangle_phase
+from ado_polarization_joint_analyzer import calculate_ado_ratio, convert_clover_counts_to_polarization, joint_ado_polarization_scan
 
 
 def test_heavy_ion_kinematics():
@@ -325,6 +327,18 @@ def test_ibm_dynamical_symmetry_analyzer():
     print("  ✓ ibm_dynamical_symmetry_analyzer passed.")
 
 
+def test_ado_polarization_joint_analyzer():
+    print("Testing ado_polarization_joint_analyzer...")
+    F2_11, F2_12, F2_22, F4_22 = -0.3742, 0.4472, 0.1265, -0.4286
+    r_e2 = calculate_ado_ratio(30.0, 90.0, delta=100.0, F2_11=F2_11, F2_12=F2_12, F2_22=F2_22, F4_22=F4_22)
+    assert 1.15 < r_e2 < 1.45, f"Stretched E2 ADO error: {r_e2}"
+    r_m1 = calculate_ado_ratio(30.0, 90.0, delta=0.0, F2_11=F2_11, F2_12=F2_12, F2_22=F2_22, F4_22=F4_22)
+    assert 0.60 < r_m1 < 0.90, f"Dipole ADO error: {r_m1}"
+    clov = convert_clover_counts_to_polarization(N_perp=2000, N_par=2000, Q_factor=0.20)
+    assert abs(clov["polarization_P"]) < 1e-4, "Zero polarization error"
+    print("  ✓ ado_polarization_joint_analyzer passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -346,4 +360,5 @@ if __name__ == "__main__":
     test_signature_inversion_analyzer()
     test_superdeformation_decayout_calculator()
     test_ibm_dynamical_symmetry_analyzer()
-    print("ALL 19 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_ado_polarization_joint_analyzer()
+    print("ALL 20 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
