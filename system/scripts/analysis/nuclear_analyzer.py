@@ -60,6 +60,7 @@ from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wk
 from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_window, calculate_sommerfeld_parameter, convert_cross_section_to_s_factor, calculate_nonresonant_reaction_rate, calculate_resonant_reaction_rate
 from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplitudes, solve_analytic_single_mode_qrpa, scan_pnqrpa_gpp_sensitivity, diagnose_qrpa_stability
 from surface_delta_interaction_pandya_calculator import calculate_clebsch_gordan, calculate_wigner_6j, calculate_sdi_matrix_element, calculate_single_j_sdi_spectrum, perform_pandya_transformation, benchmark_sc42_k40_pandya
+from k_isomer_hindrance_calculator import calculate_k_forbiddenness, calculate_reduced_hindrance, model_triaxial_gamma_tunneling_hindrance, classify_isomer_mechanism
 
 
 def cmd_kinematics(args):
@@ -1180,6 +1181,45 @@ def cmd_pandya(args):
             print(f"      J_ph = {J:2d} : E_ph = {en:7.1f} keV")
     print("=======================================================")
 
+
+def cmd_isomer(args):
+    print("\n=======================================================")
+    print(" Nuclear K-Isomers, Reduced Hindrance & Gamma-Tunneling")
+    print("=======================================================")
+    if args.Ki is not None and args.Kf is not None and args.mult_lambda is not None:
+        forb = calculate_k_forbiddenness(args.Ki, args.Kf, args.mult_lambda)
+        print(f"  K-Selection Rule: K_i = {args.Ki:.1f} -> K_f = {args.Kf:.1f} (Multipolarity lambda = {args.mult_lambda})")
+        print(f"    Delta K                  : |Ki - Kf| = {forb['Delta_K']:.1f}")
+        print(f"    Degree of Forbiddenness  : nu = |Delta K| - lambda = {forb['degree_of_forbiddenness_nu']}")
+        print(f"    Is Transition Forbidden  : {forb['is_K_forbidden']}")
+
+    if args.tau_ps is not None and args.Eg is not None and args.A is not None:
+        dK = abs(args.Ki - args.Kf) if (args.Ki is not None and args.Kf is not None) else (args.dK or 7)
+        rh = calculate_reduced_hindrance(args.tau_ps, args.Eg, args.A, multipolarity=args.mult or "E1", delta_K=dK)
+        print("-------------------------------------------------------")
+        print(f"  Reduced Hindrance Analysis (tau = {args.tau_ps:.2e} ps, E_gamma = {args.Eg:.1f} keV, {args.mult or 'E1'}):")
+        print(f"    Weisskopf Single-Particle T1/2: {rh['T12_sp_s']:.3e} s | Measured T1/2: {rh['T12_exp_s']:.3e} s")
+        print(f"    Total Hindrance Factor F_W    : {rh['hindrance_F_W']:.3e}")
+        print(f"    Degree of Forbiddenness nu    : {rh['degree_of_forbiddenness_nu']}")
+        print(f"    Reduced Hindrance f_nu        : {rh['reduced_hindrance_f_nu']:.2f}")
+        print(f"    Diagnosis                     : {rh['diagnosis']}")
+
+    if args.gamma_deg is not None:
+        tun = model_triaxial_gamma_tunneling_hindrance(args.gamma_deg)
+        print("-------------------------------------------------------")
+        print(f"  Triaxial Gamma-Tunneling Model (gamma = {args.gamma_deg:.1f} deg):")
+        print(f"    Predicted Reduced Hindrance   : f_nu(gamma) = {tun['predicted_reduced_hindrance_f_nu']:.1f}")
+        print(f"    Is Hindrance Collapsed (<10)  : {tun['is_hindrance_collapsed']}")
+
+    if args.classify:
+        t12 = (args.tau_ps * 1e-12 * np.log(2.0)) if args.tau_ps is not None else 0.01
+        cls_info = classify_isomer_mechanism(t12, delta_I=args.dI or 0, delta_K=args.dK or 0, seniority_isomer=args.seniority, is_shape_isomer=args.shape_iso)
+        print("-------------------------------------------------------")
+        print(f"  Nuclear Isomer Mechanism Classification:")
+        print(f"    Category                      : {cls_info['classification']}")
+        print(f"    Physical Origin               : {cls_info['physical_mechanism']}")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1657,6 +1697,23 @@ def main():
     p_pandya.add_argument("--V0", type=float, default=1.0, help="SDI strength constant V0 in MeV (default: 1.0)")
     p_pandya.add_argument("--benchmark-sc42", action="store_true", help="Run classic 42Sc (pp) vs 48Sc/40K (ph) Pandya benchmark")
     p_pandya.set_defaults(func=cmd_pandya)
+
+    # K-Isomers & Reduced Hindrance
+    p_iso = subparsers.add_parser("isomer", help="Nuclear K-isomers, reduced hindrance f_nu and triaxial gamma-tunneling")
+    p_iso.add_argument("--Ki", type=float, default=None, help="Initial state K quantum number")
+    p_iso.add_argument("--Kf", type=float, default=None, help="Final state K quantum number")
+    p_iso.add_argument("--mult-lambda", type=int, default=None, help="Transition multipolarity lambda (1 for dipole, 2 for quadrupole)")
+    p_iso.add_argument("--tau-ps", type=float, default=None, help="Excited level lifetime in ps")
+    p_iso.add_argument("--Eg", type=float, default=None, help="Gamma transition energy in keV")
+    p_iso.add_argument("--A", type=int, default=None, help="Mass number A")
+    p_iso.add_argument("--mult", type=str, default="E1", help="Multipolarity string (E1, E2, M1, M2, E3)")
+    p_iso.add_argument("--dK", type=float, default=None, help="Delta K value")
+    p_iso.add_argument("--dI", type=float, default=0.0, help="Delta I spin change")
+    p_iso.add_argument("--gamma-deg", type=float, default=None, help="Triaxial deformation angle gamma in degrees")
+    p_iso.add_argument("--classify", action="store_true", help="Classify the physical mechanism of the isomer")
+    p_iso.add_argument("--seniority", action="store_true", help="Flag as potential seniority isomer")
+    p_iso.add_argument("--shape-iso", action="store_true", help="Flag as potential shape/fission isomer")
+    p_iso.set_defaults(func=cmd_isomer)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

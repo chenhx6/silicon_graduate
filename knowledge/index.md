@@ -40,7 +40,8 @@ updated: 2026-11-01
 - [[frdm-nuclear-mass-and-deformation-systematics]] — **FRDM 宏观-微观模型全核素基态形变与结合能系统学手册**：基于 Möller 2019 (ADNDT)，建立全核素图基态四极形变 $eta_2$、十六极形变 $eta_4$、三轴形变 $\gamma$ 与单粒子分离能基准，给出 pprox 130$（Ce, Pr, Nd）基态形变参数对照表。
 - [[coherent-state-model-and-semiclassical-triaxiality]] — **相干态表象与三轴非对称转动半经典动力学**：基于 Raduta 2016 专著，阐述玻色子相干态角动量投影、半经典相轨道与庞加莱截面分析，揭示转动能量极小值分岔与手征/摆动模式的经典动力系统对应。
 - [[advanced-statistical-inference-feldman-cousins-and-mcmc]] — **现代实验物理高级统计推断：Profile Likelihood、Feldman-Cousins 与 Bootstrap 实战**：基于 Behnke 与 Bonamente，解决微弱 Poisson 计数、物理边界（分支比 $\in [0, 1]$）与强非线性参数的真实非对称置信区间反演。
-- [[triaxial-rigid-rotor-davydov-filipov-model]] — **三轴刚性转子 Davydov-Filipov 模型解析解与跃迁比率推导**：基于 Greiner《Nuclear Models》，推导非对称转子哈密顿量在 $ 群下的矩阵对角化、提取非对称角 $\gamma$ 的 (2_2^+)/E(2_1^+)$ 能级比值定理与 (E2)$ 跨带分支比。
+- [[triaxial-rigid-rotor-davydov-filipov-model]]
+- [[nuclear-k-isomers-and-hindrance-systematics]] — **原子核K-同核异能态、每度禁戒约化阻碍度（f_nu）与三轴γ隧穿塌缩动力学**：基于 Walker-Dracoulis 1999、Jain 2021 与 Hayes 2005，系统解构四大类同核异能态微观机制、禁戒度 $\nu = |\Delta K| - \lambda$、阻碍因子 $F_W$ 与单度约化阻碍度 $f_\nu = F_W^{1/\nu}$ 标度律，推导三轴非轴对称 $\gamma$ 空间量子隧穿引起的 $f_\nu$ 指数塌缩模型，确立 $^{130}\text{Ba}$（$8^-$）等过渡核 $f_\nu \sim 4 \sim 6$ 异常软度诊断法典。 — **三轴刚性转子 Davydov-Filipov 模型解析解与跃迁比率推导**：基于 Greiner《Nuclear Models》，推导非对称转子哈密顿量在 $ 群下的矩阵对角化、提取非对称角 $\gamma$ 的 (2_2^+)/E(2_1^+)$ 能级比值定理与 (E2)$ 跨带分支比。
 - [[nuclear-isomers-and-k-hindrance-mechanisms]] — **同核异能态微观机制、K-阻碍跃迁与在束谱学时间窗判据**：基于 Jain《Nuclear Isomers》与 Bohr-Mottelson，阐述自旋陷阱、Seniority 异能态、hBc禁戒度 $
 u = |\Delta K| - \lambda$、折合阻碍度
 u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶室与延迟符合窗口应对。

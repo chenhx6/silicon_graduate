@@ -74,6 +74,7 @@ from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wk
 from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_window, calculate_sommerfeld_parameter, convert_cross_section_to_s_factor, calculate_nonresonant_reaction_rate, calculate_resonant_reaction_rate
 from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplitudes, solve_analytic_single_mode_qrpa, scan_pnqrpa_gpp_sensitivity, diagnose_qrpa_stability
 from surface_delta_interaction_pandya_calculator import calculate_clebsch_gordan, calculate_wigner_6j, calculate_sdi_matrix_element, calculate_single_j_sdi_spectrum, perform_pandya_transformation, benchmark_sc42_k40_pandya
+from k_isomer_hindrance_calculator import calculate_k_forbiddenness, calculate_reduced_hindrance, model_triaxial_gamma_tunneling_hindrance, classify_isomer_mechanism
 
 
 def test_heavy_ion_kinematics():
@@ -895,6 +896,35 @@ def test_surface_delta_interaction_pandya_calculator():
     assert bm["ground_state_ph_spin"] != 0, "Particle-hole ground state must invert to J!=0"
     print("  ✓ surface_delta_interaction_pandya_calculator passed.")
 
+
+def test_k_isomer_hindrance_calculator():
+    print("Testing k_isomer_hindrance_calculator...")
+    # K-forbiddenness test
+    forb = calculate_k_forbiddenness(Ki=8, Kf=0, multipolarity_lambda=1)
+    assert forb["Delta_K"] == 8.0, "Delta K mismatch"
+    assert forb["degree_of_forbiddenness_nu"] == 7, "nu mismatch"
+    assert forb["is_K_forbidden"] == True, "Should be K-forbidden"
+
+    # Reduced hindrance test: 130Ba 8- isomer
+    rh = calculate_reduced_hindrance(tau_gamma_ps=13.705e9, E_gamma_keV=54.0, A=130, multipolarity="E1", delta_K=8)
+    assert rh["degree_of_forbiddenness_nu"] == 7, "nu mismatch in reduced hindrance"
+    assert 20.0 < rh["reduced_hindrance_f_nu"] < 30.0, f"f_nu out of expected range: {rh['reduced_hindrance_f_nu']}"
+    assert rh["hindrance_F_W"] > 1e9, "Total hindrance factor F_W unexpectedly low"
+
+    # Triaxial gamma tunneling collapse test
+    tun_0 = model_triaxial_gamma_tunneling_hindrance(gamma_deg=0.0)
+    assert tun_0["predicted_reduced_hindrance_f_nu"] == 80.0, "Axial f_nu mismatch"
+    assert tun_0["is_hindrance_collapsed"] == False, "Axial f_nu should not be collapsed"
+
+    tun_25 = model_triaxial_gamma_tunneling_hindrance(gamma_deg=25.0)
+    assert tun_25["predicted_reduced_hindrance_f_nu"] < 10.0, "Triaxial f_nu should collapse < 10"
+    assert tun_25["is_hindrance_collapsed"] == True, "Triaxial f_nu should be flagged as collapsed"
+
+    # Classification test
+    c1 = classify_isomer_mechanism(T12_s=0.0095, delta_I=0, delta_K=8)
+    assert "K-Isomer" in c1["classification"], "Should classify as K-isomer"
+    print("  ✓ k_isomer_hindrance_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -939,4 +969,5 @@ if __name__ == "__main__":
     test_thermonuclear_rate_gamow_factor_calculator()
     test_qrpa_matrix_vibrational_calculator()
     test_surface_delta_interaction_pandya_calculator()
-    print("ALL 42 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_k_isomer_hindrance_calculator()
+    print("ALL 43 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

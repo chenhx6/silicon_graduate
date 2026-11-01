@@ -6196,3 +6196,22 @@ u}$ zero-crossing detection;
 - Unified CLI integration: added `pandya` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **a landmark 42 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Nuclear K-isomers, reduced hindrance f_nu and gamma-tunneling 2026-11-02T12:00:00+08:00
+
+- Integrated nuclear K-isomers, reduced hindrance per degree of forbiddenness ($f_\nu$), and triaxial $\gamma$-tunneling dynamics (`knowledge/concepts/nuclear-k-isomers-and-hindrance-systematics.md`):
+  - Physical mechanism: spatial orientation traps in axially deformed nuclei where $\Delta K = |K_i - K_f| > \lambda$, defining the degree of forbiddenness $\nu = |\Delta K| - \lambda$.
+  - Scaled hindrance law: total Weisskopf hindrance factor $F_W = T_{1/2}^\gamma / T_{1/2}^{\text{sp}}$, defining reduced hindrance per degree of forbiddenness $f_\nu = (F_W)^{1/\nu}$, maintaining high values ($30 \sim 100$) in rigid axial rotors.
+  - Three micro-mechanisms of anomalous $f_\nu$ collapse ($f_\nu < 10$ or $f_\nu \to 1$):
+    1. Triaxial $\gamma$-tunneling: non-conservation of the symmetry axis allowing direct macroscopic tunneling across the $\gamma$ shape space ($f_\nu(\gamma) \approx f_{\nu, 0} \exp(-c\gamma)$), collapsing $f_\nu$ to $\approx 4$ in $^{130}\text{Ba}$ ($8^-$ isomer at $2475\text{ keV}$);
+    2. High-spin Coriolis $K$-mixing: $H_{\text{Coriolis}} = -\frac{\hbar^2}{2\mathcal{J}} (I_+ j_- + I_- j_+)$ breaking $K$-conservation at high spin;
+    3. Statistical chaotic mixing with background quasi-continuum states.
+  - Taxonomy of the four classic nuclear isomer classes: Spin Traps, Shape/Fission Isomers, Seniority Isomers, and $K$-Isomers.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/k_isomer_hindrance_calculator.py`:
+  - `calculate_k_forbiddenness`: $\Delta K$ and $\nu$ evaluator;
+  - `calculate_reduced_hindrance`: $F_W$ and $f_\nu$ extraction from experimental lifetime $\tau_\gamma$;
+  - `model_triaxial_gamma_tunneling_hindrance`: exponential $f_\nu(\gamma)$ collapse predictor;
+  - `classify_isomer_mechanism`: 4-class isomer mechanism classifier.
+- Unified CLI integration: added `isomer` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **a landmark 43 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.
