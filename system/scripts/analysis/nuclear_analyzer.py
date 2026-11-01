@@ -33,6 +33,7 @@ from shape_coexistence_e0_calculator import calculate_omega_k_e0, extract_rho2_e
 from moment_of_inertia_spin_analyzer import calculate_moments_of_inertia, invert_floating_band_spin
 from coulex_kumar_invariant_calculator import calculate_safe_coulex_energy, reorientation_static_quadrupole, calculate_kumar_invariants
 from tpsm_band_diagram_calculator import calculate_effective_moi_tpsm, generate_tpsm_band_diagram
+from octupole_parity_doublet_calculator import calculate_parity_splitting, calculate_b_e1_over_b_e2, extract_intrinsic_dipole_moment, estimate_octupole_beta3
 
 
 def cmd_kinematics(args):
@@ -296,6 +297,33 @@ def cmd_tpsm(args):
     print("=======================================================")
 
 
+def cmd_octupole(args):
+    print("\n=======================================================")
+    print(" Octupole Parity Doublets & Intrinsic Dipole Moment")
+    print("=======================================================")
+    if args.pos_spins and args.neg_spins:
+        p_spins = [float(x.strip()) for x in args.pos_spins.split(",")]
+        p_energies = [float(x.strip()) for x in args.pos_energies.split(",")]
+        n_spins = [float(x.strip()) for x in args.neg_spins.split(",")]
+        n_energies = [float(x.strip()) for x in args.neg_energies.split(",")]
+        splits = calculate_parity_splitting(p_spins, p_energies, n_spins, n_energies)
+        print("  Parity Splitting Displacement delta_E(I):")
+        print("    Spin I- (hbar) | E(I-) (keV) | E_pos_avg (keV) | delta_E (keV)")
+        print("    ----------------------------------------------------------")
+        for s in splits:
+            print(f"         {s['spin_neg']:2.0f}        |   {s['E_neg_keV']:7.1f}   |     {s['E_pos_avg_keV']:7.1f}     |   {s['delta_E_keV']:+6.1f}")
+
+    if args.E1 and args.E2 and args.IE1 and args.IE2:
+        ratios = calculate_b_e1_over_b_e2(args.E1, args.IE1, args.E2, args.IE2)
+        d0 = extract_intrinsic_dipole_moment(ratios["B_E1_over_B_E2_fm2"], I_initial=args.I, Qt_eb=args.Qt)
+        b3 = estimate_octupole_beta3(d0, args.Z, args.A, beta2=args.beta2)
+        print("-------------------------------------------------------")
+        print(f"  Branching Ratio B(E1)/B(E2) : {ratios['B_E1_over_B_E2_10m4_fm2']:.4f} x 10^-4 fm^-2")
+        print(f"  Inverted Dipole Moment D0   : {d0:.3f} e*fm")
+        print(f"  Estimated Octupole beta3    : {b3:.3f}")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -432,6 +460,23 @@ def main():
     p_tpsm.add_argument("--gamma", type=float, default=25.0, help="Triaxial angle gamma (deg)")
     p_tpsm.add_argument("--A", type=int, default=132, help="Nuclear mass number A")
     p_tpsm.set_defaults(func=cmd_tpsm)
+
+    # Octupole Parity Doublets & D0
+    p_oct = subparsers.add_parser("octupole", help="Parity doublet splitting, B(E1)/B(E2), and intrinsic dipole D0")
+    p_oct.add_argument("--pos_spins", type=str, default="", help="Positive parity band spins")
+    p_oct.add_argument("--pos_energies", type=str, default="", help="Positive parity band energies in keV")
+    p_oct.add_argument("--neg_spins", type=str, default="", help="Negative parity band spins")
+    p_oct.add_argument("--neg_energies", type=str, default="", help="Negative parity band energies in keV")
+    p_oct.add_argument("--E1", type=float, default=None, help="E1 transition energy (keV)")
+    p_oct.add_argument("--IE1", type=float, default=None, help="E1 peak intensity")
+    p_oct.add_argument("--E2", type=float, default=None, help="E2 crossover energy (keV)")
+    p_oct.add_argument("--IE2", type=float, default=None, help="E2 peak intensity")
+    p_oct.add_argument("--I", type=float, default=7.0, help="Decaying state spin")
+    p_oct.add_argument("--Qt", type=float, default=3.5, help="Intrinsic quadrupole moment Qt in e*b")
+    p_oct.add_argument("--Z", type=int, default=58, help="Atomic number Z")
+    p_oct.add_argument("--A", type=int, default=146, help="Mass number A")
+    p_oct.add_argument("--beta2", type=float, default=0.22, help="Quadrupole deformation beta2")
+    p_oct.set_defaults(func=cmd_octupole)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

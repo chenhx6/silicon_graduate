@@ -18,6 +18,7 @@ Tests:
   13. moment_of_inertia_spin_analyzer: checks J1, J2 moments of inertia and floating band spin inversion.
   14. coulex_kumar_invariant_calculator: checks safe Coulex energy, reorientation Q_s, and Kumar invariants.
   15. tpsm_band_diagram_calculator: checks 3D projected energy, band crossing Ic, and alignment.
+  16. octupole_parity_doublet_calculator: checks parity splitting delta_E, B(E1)/B(E2), and intrinsic D0.
 """
 
 import sys
@@ -38,6 +39,7 @@ from shape_coexistence_e0_calculator import calculate_omega_k_e0, extract_rho2_e
 from moment_of_inertia_spin_analyzer import calculate_moments_of_inertia, invert_floating_band_spin
 from coulex_kumar_invariant_calculator import calculate_safe_coulex_energy, reorientation_static_quadrupole, calculate_kumar_invariants
 from tpsm_band_diagram_calculator import calculate_effective_moi_tpsm, generate_tpsm_band_diagram
+from octupole_parity_doublet_calculator import calculate_parity_splitting, calculate_b_e1_over_b_e2, extract_intrinsic_dipole_moment
 
 
 def test_heavy_ion_kinematics():
@@ -257,6 +259,22 @@ def test_tpsm_band_diagram_calculator():
     print("  ✓ tpsm_band_diagram_calculator passed.")
 
 
+def test_octupole_parity_doublet_calculator():
+    print("Testing octupole_parity_doublet_calculator...")
+    pos_spins = [0, 2, 4]
+    pos_energies = [0.0, 100.0, 300.0]
+    neg_spins = [1, 3]
+    neg_energies = [150.0, 320.0]
+    split = calculate_parity_splitting(pos_spins, pos_energies, neg_spins, neg_energies)
+    assert len(split) == 2, f"Should match 2 parity doublet points: got {len(split)}"
+    assert abs(split[0]["delta_E_keV"] - 100.0) < 1e-4, f"Parity splitting error: {split[0]['delta_E_keV']}"
+    ratios = calculate_b_e1_over_b_e2(E_gamma_E1_keV=200.0, I_gamma_E1=50.0, E_gamma_E2_keV=400.0, I_gamma_E2=100.0)
+    assert ratios["B_E1_over_B_E2_fm2"] > 0.0, "B(E1)/B(E2) must be positive"
+    D0 = extract_intrinsic_dipole_moment(ratios["B_E1_over_B_E2_fm2"], I_initial=5.0, Qt_eb=3.0)
+    assert D0 > 0.0, "D0 must be positive"
+    print("  ✓ octupole_parity_doublet_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -274,4 +292,5 @@ if __name__ == "__main__":
     test_moment_of_inertia_spin_analyzer()
     test_coulex_kumar_invariant_calculator()
     test_tpsm_band_diagram_calculator()
-    print("ALL 15 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_octupole_parity_doublet_calculator()
+    print("ALL 16 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
