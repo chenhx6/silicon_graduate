@@ -9,6 +9,8 @@ updated: 2026-11-01
 
 ## 核心专著深度吸收与核结构专家级综合资产 (2026-11-01)
 
+- [[ce-nd-triaxial-collective-evolution-and-chiral-prospectus]] — **铈-钕同位素链三轴集体演化、微观机制对账与手征/摆动前沿研究展望**：系统对账 $^{131}	ext{Ce}$ (CIAE HI-13 在研核心)、$^{133}	ext{Ce}$ (iThemba PR295 孪生核)、$^{135}	ext{Nd}$ (手征标杆核)、$^{136}	ext{Nd}$ (横向摆动基准) 与 $^{135}	ext{Pr}$ (证伪案例)，阐明 =73	o 76$ 中子 {11/2}$ 费米面移动诱发的形变刚性演化与实验突破方案。
+- [[nuclear-lifetime-measurement-dsam-rdm-stopping-power.md]] — **核激发态寿命测量全指南：DSAM、RDM活塞法与介质阻止本领反演**：基于吴治华教材与微观阻止本领理论，建立 0	ext{ fs}\sim 1	ext{ ns}$ 寿命测量技术矩阵、Ziegler SRIM 电子/核阻止本领模型、DDCM 活塞法衰变分析，以及从多普勒衰减因子 (	au)$ 反演绝对 (E2)$ 与内禀四极矩 $ 的数学物理闭环。
 - [[giant-resonances-and-deformation-splitting]] — **巨多极共振动力学、形变劈裂与微观阻尼机制**：基于 Bohr-Mottelson 与 Heyde，系统阐明同位旋矢量巨偶极共振（IVGDR）在三轴核中的三峰劈裂定理 (eta, \gamma)$、中子皮矮偶极共振（PDR）、磁偶极剪刀模式（Scissors mode），以及朗道阻尼、粒子逃逸与复合扩散三阶段微观阻尼机制。
 - [[high-spin-band-crossing-and-alignment-mechanisms]] — **高自旋能带交叉、准粒子对解耦对齐与带端终止动力学**：基于 Bohr-Mottelson 与 Frauendorf，统一解构 Coriolis 反配对（CAP）与 Stephens-Simon 单对解偶对齐机制，确立 Harris 参考基线与准粒子角动量对齐量 $ 提取算法、三轴旋称反转动力学及能带平滑终止极限。
 - [[drip-line-physics-and-frib-science]] — **极不稳定性核、中子滴线与 FRIB 稀有同位素科学前沿**：基于 FRIB 科学报告，阐述中子晕与中子皮形成机制、反转岛与传统幻数崩溃，以及弱束缚开放量子系统对微观四极形变与三轴极化的深刻映射。

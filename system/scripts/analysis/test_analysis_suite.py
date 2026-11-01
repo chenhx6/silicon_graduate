@@ -8,6 +8,7 @@ Tests:
   3. digital_trapezoidal_filter: checks Jordanov recursion and amplitude preservation.
   4. gamma_peak_fitting: checks Gaussian + Step model convergence and area extraction.
   5. dco_polarization_analyzer: checks DCO ratio for dipole/quadrupole and polarization sensitivity.
+  6. lifetime_lineshape_calculator: checks stopping time, DSAM attenuation inversion, and B(E2).
 """
 
 import sys
@@ -18,6 +19,7 @@ from angular_distribution_solver import angular_distribution_model, fit_angular_
 from digital_trapezoidal_filter import synthesize_preamp_pulse, apply_trapezoidal_filter, extract_trapezoid_amplitude
 from gamma_peak_fitting import single_peak_model, fit_single_gamma_peak
 from dco_polarization_analyzer import calculate_dco_ratio, calculate_linear_polarization, joint_dco_polarization_fit
+from lifetime_lineshape_calculator import calculate_stopping_time_alpha, dsam_invert_lifetime, calculate_absolute_transition_strengths
 
 
 def test_heavy_ion_kinematics():
@@ -110,6 +112,17 @@ def test_dco_polarization_analyzer():
     print("  ✓ dco_polarization_analyzer passed.")
 
 
+def test_lifetime_lineshape_calculator():
+    print("Testing lifetime_lineshape_calculator...")
+    alpha = calculate_stopping_time_alpha(131, 58, 0.025, "Au")
+    assert 0.8 < alpha < 1.3, f"Stopping time alpha out of range: {alpha}"
+    tau = dsam_invert_lifetime(0.50, alpha)
+    assert abs(tau - alpha) < 1e-4, f"F=0.5 must yield tau == alpha: {tau} vs {alpha}"
+    strengths = calculate_absolute_transition_strengths(tau_ps=1.0, E_gamma_keV=500.0, delta=100.0, I_initial=10)
+    assert strengths["B_E2_e2b2"] > 0.1, "B(E2) calculation error"
+    print("  ✓ lifetime_lineshape_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -117,4 +130,5 @@ if __name__ == "__main__":
     test_digital_trapezoidal_filter()
     test_gamma_peak_fitting()
     test_dco_polarization_analyzer()
-    print("ALL 5 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_lifetime_lineshape_calculator()
+    print("ALL 6 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

@@ -24,6 +24,7 @@ from angular_distribution_solver import angular_distribution_model, fit_angular_
 from digital_trapezoidal_filter import synthesize_preamp_pulse, apply_trapezoidal_filter, extract_trapezoid_amplitude
 from gamma_peak_fitting import single_peak_model, fit_single_gamma_peak
 from dco_polarization_analyzer import joint_dco_polarization_fit, calculate_dco_ratio, calculate_linear_polarization
+from lifetime_lineshape_calculator import calculate_stopping_time_alpha, dsam_invert_lifetime, calculate_absolute_transition_strengths
 
 
 def cmd_kinematics(args):
@@ -91,6 +92,34 @@ def cmd_dco(args):
     print("=======================================================")
 
 
+def cmd_lifetime(args):
+    alpha = calculate_stopping_time_alpha(args.A, args.Z, args.beta, args.stopper)
+    print("\n=======================================================")
+    print(f" Nuclear Excited-State Lifetime & DSAM Analysis")
+    print("=======================================================")
+    print(f"  Recoil Nucleus          : A={args.A}, Z={args.Z} (beta={args.beta:.4f})")
+    print(f"  Stopper Material        : {args.stopper} (slowing-down time alpha = {alpha:.3f} ps)")
+    if args.F is not None:
+        tau = dsam_invert_lifetime(args.F, alpha)
+        print(f"  Measured Attenuation F  : {args.F:.3f}")
+        print(f"  Inverted Lifetime tau   : {tau:.3f} ps ({tau*1000.0:.1f} fs, T_1/2 = {tau*0.693147*1000.0:.1f} fs)")
+    else:
+        tau = args.tau
+        print(f"  Input Lifetime tau      : {tau:.3f} ps")
+
+    if args.Egamma:
+        strengths = calculate_absolute_transition_strengths(
+            tau_ps=tau, E_gamma_keV=args.Egamma, delta=args.delta,
+            I_initial=args.I, branching_ratio=args.br
+        )
+        print("-------------------------------------------------------")
+        print(f"  Gamma Transition Energy : {args.Egamma:.1f} keV (br = {args.br:.2f}, delta = {args.delta:+.2f})")
+        print(f"  Absolute B(E2)          : {strengths['B_E2_e2b2']:.4f} e^2 b^2 ({strengths['B_E2_W_u']:.1f} W.u.)")
+        print(f"  Absolute B(M1)          : {strengths['B_M1_muN2']:.4f} mu_N^2 ({strengths['B_M1_W_u']:.3f} W.u.)")
+        print(f"  Intrinsic Quadrupole Qt : {strengths['Qt_eb']:.2f} e b")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -101,7 +130,7 @@ def cmd_selftest(args):
 def main():
     parser = argparse.ArgumentParser(description="Nuclear Physics Spectroscopy Analysis Suite")
     subparsers = parser.add_subparsers(dest="command", help="Available subcommands")
-    
+
     # Kinematics
     p_kin = subparsers.add_parser("kinematics", help="Heavy-ion fusion kinematics")
     p_kin.add_argument("--Ap", type=int, required=True, help="Projectile mass number")
@@ -113,7 +142,7 @@ def main():
     p_kin.add_argument("--Egamma", type=float, default=1000.0, help="Gamma energy for Doppler test (keV)")
     p_kin.add_argument("--opening_angle", type=float, default=8.0, help="Detector half-opening angle (deg)")
     p_kin.set_defaults(func=cmd_kinematics)
-    
+
     # Dual roots
     p_dual = subparsers.add_parser("dualroots", help="Solve delta dual roots")
     p_dual.add_argument("--a2", type=float, required=True, help="Fitted a2 coefficient")
@@ -122,7 +151,7 @@ def main():
     p_dual.add_argument("--F22", type=float, required=True, help="F2(L=2, L=2)")
     p_dual.add_argument("--alpha2", type=float, default=1.0, help="Orientation parameter B2/B0")
     p_dual.set_defaults(func=cmd_dualroots)
-    
+
     # DCO & Polarization
     p_dco = subparsers.add_parser("dco", help="Joint DCO ratio and linear polarization fit")
     p_dco.add_argument("--Rdco", type=float, required=True, help="Measured DCO ratio")
@@ -139,14 +168,28 @@ def main():
     p_dco.add_argument("--alpha2", type=float, default=0.85, help="Alignment parameter")
     p_dco.set_defaults(func=cmd_dco)
 
+    # Lifetime & DSAM
+    p_life = subparsers.add_parser("lifetime", help="Excited state lifetime and DSAM stopping analysis")
+    p_life.add_argument("--A", type=int, default=131, help="Recoil mass number")
+    p_life.add_argument("--Z", type=int, default=58, help="Recoil atomic number")
+    p_life.add_argument("--beta", type=float, default=0.025, help="Initial recoil velocity v/c")
+    p_life.add_argument("--stopper", type=str, default="Au", help="Stopper foil material (Au, Pb, Ta)")
+    p_life.add_argument("--F", type=float, default=None, help="Measured DSAM attenuation factor F(tau)")
+    p_life.add_argument("--tau", type=float, default=1.0, help="Lifetime tau in ps (if F is not provided)")
+    p_life.add_argument("--Egamma", type=float, default=None, help="Gamma energy (keV)")
+    p_life.add_argument("--delta", type=float, default=100.0, help="Mixing ratio delta (E2/M1)")
+    p_life.add_argument("--I", type=float, default=10.0, help="Initial state spin")
+    p_life.add_argument("--br", type=float, default=1.0, help="Gamma branching ratio")
+    p_life.set_defaults(func=cmd_lifetime)
+
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
     p_test.set_defaults(func=cmd_selftest)
-    
+
     if len(sys.argv) == 1:
         parser.print_help()
         sys.exit(0)
-        
+
     args = parser.parse_args()
     if hasattr(args, "func"):
         args.func(args)
