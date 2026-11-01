@@ -6086,3 +6086,20 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `rmf` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **a landmark 37 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Nuclear charge radii, isotope shifts and King plot linearity 2026-11-02T09:00:00+08:00
+
+- Integrated nuclear charge radii systematics, optical isotope shifts, and King plot linearity framework (`knowledge/concepts/nuclear-charge-radii-isotope-shifts-and-king-plot.md`):
+  - Physical decomposition of optical isotope shifts: $\delta \nu^{A, A'} = (M + S) \mu_{A, A'} + F \cdot \delta \langle r^2 \rangle^{A, A'}$, cleanly separating normal mass shift (NMS), electron-correlation specific mass shift (SMS), and nuclear-structure field shift (FS).
+  - King plot linearity theorem: modified isotope shifts $\xi_i = \mu^{-1} \delta \nu_i$ strictly satisfy $\xi_2 = (F_2/F_1) \xi_1 + \text{offset}$, providing a self-consistent model-independent test of electronic factor ratios $F_2/F_1$ and non-linearity anomaly detection.
+  - Decomposition of $\delta \langle r^2 \rangle$ into spherical droplet volume increase $\langle r^2 \rangle_{\text{sph}} = \frac{3}{5} R_0^2 A^{2/3}$ and quadrupole deformation change $\Delta \langle \beta_2^2 \rangle = \frac{4\pi}{5 \langle r^2 \rangle_{\text{sph}}} \delta \langle r^2 \rangle_{\text{def}}$.
+  - Charge radius odd-even staggering (OES) $\gamma_r(N)$: normal blocking of dynamic surface quadrupole fluctuations in odd-$N$ nuclei versus anomalous shape staggering/inversion (e.g. $^{181-185}\text{Hg}$).
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/isotope_shift_charge_radii_calculator.py`:
+  - `calculate_normal_mass_shift`: atomic transition NMS evaluator;
+  - `extract_delta_r2_from_isotope_shift`: inversion of $\delta \langle r^2 \rangle$ from experimental shift $\delta \nu$;
+  - `decompose_charge_radius_components`: spherical vs deformation separation;
+  - `perform_king_plot_analysis`: 2D King plot linear regression, slope $F_2/F_1$, $R^2$, and residual checks;
+  - `calculate_charge_radius_odd_even_staggering`: $\gamma_r$ OES diagnostic.
+- Unified CLI integration: added `radius` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **a landmark 38 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

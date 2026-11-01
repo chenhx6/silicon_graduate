@@ -55,6 +55,7 @@ from electromagnetic_transition_alaga_calculator import calculate_weisskopf_unit
 from two_nucleon_transfer_pairing_vibration_calculator import calculate_bcs_transfer_enhancement, calculate_pairing_vibration_energies, evaluate_kinematic_q_matching, calculate_josephson_transfer_probability
 from multi_nucleon_transfer_dic_calculator import calculate_wilczynski_energy_loss_and_orbiting, calculate_charge_equilibration, calculate_driving_potential, calculate_fragment_thermal_excitation_and_evaporation, predict_mnt_cross_section
 from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estimate_spin_orbit_splitting, map_pseudospin_partner, evaluate_pseudospin_symmetry_quality, diagnose_pseudospin_chiral_quartet_manifold
+from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, extract_delta_r2_from_isotope_shift, decompose_charge_radius_components, perform_king_plot_analysis, calculate_charge_radius_odd_even_staggering
 
 
 def cmd_kinematics(args):
@@ -1001,6 +1002,48 @@ def cmd_rmf(args):
         print(f"    Diagnosis                    : {qual['diagnosis']}")
     print("=======================================================")
 
+
+def cmd_radius(args):
+    print("\n=======================================================")
+    print(" Nuclear Charge Radii, Isotope Shifts & King Plot")
+    print("=======================================================")
+    if args.dnu is not None and args.A is not None and args.Aref is not None:
+        k_ms = args.Kms if args.Kms is not None else 800.0
+        f_fs = args.Ffs if args.Ffs is not None else -4.5
+        inv = extract_delta_r2_from_isotope_shift(args.dnu, args.A, args.Aref, k_ms, f_fs)
+        dec = decompose_charge_radius_components(args.A, args.Aref, inv['delta_r2_fm2'])
+        print(f"  Isotope Shift Analysis: {args.A}X vs Reference {args.Aref}X (delta_nu = {args.dnu:.4f} GHz)")
+        print(f"    Total Mass Shift Contribution: {inv['delta_nu_MS_GHz']:+.4f} GHz (K_ms = {k_ms:.1f} GHz*amu)")
+        print(f"    Field Shift Contribution     : {inv['delta_nu_FS_GHz']:+.4f} GHz (F = {f_fs:.2f} GHz/fm^2)")
+        print(f"    Extracted delta<r^2>         : {inv['delta_r2_fm2']:+.4f} fm^2")
+        print("-------------------------------------------------------")
+        print(f"  Decomposition into Spherical Volume vs Deformation:")
+        print(f"    Spherical Droplet Expansion  : {dec['delta_r2_spherical_fm2']:+.4f} fm^2")
+        print(f"    Quadrupole Deformation Contrib: {dec['delta_r2_deformation_fm2']:+.4f} fm^2")
+        print(f"    Induced delta<beta_2^2>      : {dec['delta_mean_square_beta2']:+.4f}")
+
+    if args.king_masses is not None and args.king_s1 is not None and args.king_s2 is not None and args.Aref is not None:
+        m_list = [float(x.strip()) for x in args.king_masses.split(",")]
+        s1_list = [float(x.strip()) for x in args.king_s1.split(",")]
+        s2_list = [float(x.strip()) for x in args.king_s2.split(",")]
+        kp = perform_king_plot_analysis(m_list, args.Aref, s1_list, s2_list)
+        print("-------------------------------------------------------")
+        print(f"  King Plot 2D Linear Regression (Line 2 vs Line 1):")
+        print(f"    Field Shift Ratio F2 / F1    : {kp['slope_F2_over_F1']:.4f}")
+        print(f"    Combined Mass Shift Offset   : {kp['intercept_GHz_amu']:+.2f} GHz*amu")
+        print(f"    Linearity Coefficient R^2    : {kp['R_squared']:.6f} (Strict Linearity: {kp['is_strictly_linear']})")
+        print(f"    Maximum Linearity Residual   : {kp['max_residual_GHz_amu']:.2e} GHz*amu")
+
+    if args.oes_n is not None and args.oes_r2 is not None:
+        n_list = [int(x.strip()) for x in args.oes_n.split(",")]
+        r2_list = [float(x.strip()) for x in args.oes_r2.split(",")]
+        oes = calculate_charge_radius_odd_even_staggering(n_list, r2_list)
+        print("-------------------------------------------------------")
+        print(f"  Charge Radius Odd-Even Staggering (OES) Diagnostics:")
+        for pt in oes:
+            print(f"    Odd N = {pt['N_odd']:3d} : gamma_r = {pt['gamma_r']:.3f} -> {pt['interpretation']}")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1414,6 +1457,20 @@ def main():
     p_rmf.add_argument("--pss-e2", type=float, default=None, help="Energy of state 2 in MeV")
     p_rmf.add_argument("--pss-so", type=float, default=None, help="Normal spin-orbit splitting baseline in MeV")
     p_rmf.set_defaults(func=cmd_rmf)
+
+    # Nuclear Charge Radii & Isotope Shifts
+    p_rad = subparsers.add_parser("radius", help="Nuclear charge radii, optical isotope shifts and King plot linearity")
+    p_rad.add_argument("--dnu", type=float, default=None, help="Measured optical isotope shift in GHz")
+    p_rad.add_argument("--A", type=int, default=None, help="Target isotope mass number A")
+    p_rad.add_argument("--Aref", type=int, default=None, help="Reference isotope mass number A_ref")
+    p_rad.add_argument("--Kms", type=float, default=None, help="Atomic mass shift constant in GHz*amu")
+    p_rad.add_argument("--Ffs", type=float, default=None, help="Electronic field shift factor in GHz/fm^2")
+    p_rad.add_argument("--king-masses", type=str, default=None, help="Comma-separated mass numbers for King plot")
+    p_rad.add_argument("--king-s1", type=str, default=None, help="Comma-separated shifts for Line 1 in GHz")
+    p_rad.add_argument("--king-s2", type=str, default=None, help="Comma-separated shifts for Line 2 in GHz")
+    p_rad.add_argument("--oes-n", type=str, default=None, help="Comma-separated neutron numbers for OES test")
+    p_rad.add_argument("--oes-r2", type=str, default=None, help="Comma-separated <r^2> values in fm^2 for OES test")
+    p_rad.set_defaults(func=cmd_radius)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

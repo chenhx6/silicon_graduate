@@ -69,6 +69,7 @@ from electromagnetic_transition_alaga_calculator import calculate_weisskopf_unit
 from two_nucleon_transfer_pairing_vibration_calculator import calculate_bcs_transfer_enhancement, calculate_pairing_vibration_energies, evaluate_kinematic_q_matching, calculate_josephson_transfer_probability
 from multi_nucleon_transfer_dic_calculator import calculate_wilczynski_energy_loss_and_orbiting, calculate_charge_equilibration, calculate_driving_potential, calculate_fragment_thermal_excitation_and_evaporation, predict_mnt_cross_section
 from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estimate_spin_orbit_splitting, map_pseudospin_partner, evaluate_pseudospin_symmetry_quality, diagnose_pseudospin_chiral_quartet_manifold
+from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, extract_delta_r2_from_isotope_shift, decompose_charge_radius_components, perform_king_plot_analysis, calculate_charge_radius_odd_even_staggering
 
 
 def test_heavy_ion_kinematics():
@@ -759,6 +760,36 @@ def test_rmf_spin_orbit_pseudospin_calculator():
     assert quart["is_quartet_candidate"] == True, "Should identify candidate quartet"
     print("  ✓ rmf_spin_orbit_pseudospin_calculator passed.")
 
+
+def test_isotope_shift_charge_radii_calculator():
+    print("Testing isotope_shift_charge_radii_calculator...")
+    # Normal mass shift test
+    nms = calculate_normal_mass_shift(transition_freq_GHz=1.2e6, mass_A=132, mass_A_ref=130)
+    assert abs(nms["delta_nu_NMS_MHz"] - 76.72) < 0.1, f"NMS mismatch: {nms['delta_nu_NMS_MHz']}"
+
+    # Inversion test
+    inv = extract_delta_r2_from_isotope_shift(delta_nu_exp_GHz=-0.44676, mass_A=132, mass_A_ref=130, K_mass_shift_GHz_amu=800.0, F_field_shift_GHz_fm2=-4.5)
+    assert abs(inv["delta_r2_fm2"] - 0.12) < 1e-4, f"Extracted delta<r^2> mismatch: {inv['delta_r2_fm2']}"
+
+    # Deformation decomposition
+    dec = decompose_charge_radius_components(A=132, A_ref=130, delta_r2_total_fm2=0.12)
+    assert abs(dec["delta_r2_spherical_fm2"] - 0.2268) < 0.01, "Spherical radius expansion mismatch"
+    assert dec["delta_r2_deformation_fm2"] < 0.0, "Deformation contribution should be negative"
+
+    # King plot regression test
+    masses = [132, 134, 136]
+    s1 = [-0.44676, -0.85, -1.22]
+    mu_test = (np.array(masses) - 130.0) / (np.array(masses) * 130.0)
+    s2 = (1.5 * (np.array(s1) / mu_test) + 50.0) * mu_test
+    king = perform_king_plot_analysis(masses_A=masses, mass_A_ref=130, shifts_line1_GHz=s1, shifts_line2_GHz=s2)
+    assert abs(king["slope_F2_over_F1"] - 1.5) < 1e-4, f"King slope mismatch: {king['slope_F2_over_F1']}"
+    assert king["is_strictly_linear"] == True, "King plot must be linear"
+
+    # OES staggering test
+    oes = calculate_charge_radius_odd_even_staggering(N_list=[74, 75, 76], r2_series_fm2=[24.0, 24.35, 24.8])
+    assert abs(oes[0]["gamma_r"] - 0.875) < 1e-3, "OES gamma_r mismatch"
+    print("  ✓ isotope_shift_charge_radii_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -798,4 +829,5 @@ if __name__ == "__main__":
     test_two_nucleon_transfer_pairing_vibration_calculator()
     test_multi_nucleon_transfer_dic_calculator()
     test_rmf_spin_orbit_pseudospin_calculator()
-    print("ALL 37 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_isotope_shift_charge_radii_calculator()
+    print("ALL 38 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
