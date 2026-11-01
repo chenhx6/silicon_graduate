@@ -3,6 +3,13 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T22:00:00+08:00 (三轴投影壳模型TPSM、带图理论与能带交叉模拟器落地)
+
+- **三轴微观自洽多体投影动力学闭环完成**：
+  - 沉淀前沿理论《三轴投影壳模型（TPSM）微观多体动力学与角动量投影理论》（解构 PQQ 哈密顿量、三维角动量严格空间投影算符 $\hat{P}_{MK}^I$、Hill-Wheeler 广义本征方程，以及带图直观揭示准质子/准中子对齐回弯与微观三轴手征/摆动模式的自洽解法）；
+  - 开发完成生产级三轴投影壳模型带图与角动量投影微观能谱模拟器（system/scripts/analysis/tpsm_band_diagram_calculator.py），集成至 nuclear_analyzer CLI 并通过 15 大模块全量自动化回归测试；
+  - 成功提交（commit 5bf142aa）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-02T20:00:00+08:00 (库仑激发微观动力学、重取向效应与Kumar四极不变量分析器落地)
 
 - **纯电磁探针与无模型依赖核形状测绘闭环完成**：
