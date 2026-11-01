@@ -3,6 +3,13 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T20:00:00+08:00 (库仑激发微观动力学、重取向效应与Kumar四极不变量分析器落地)
+
+- **纯电磁探针与无模型依赖核形状测绘闭环完成**：
+  - 沉淀前沿理论《库仑激发动力学、重取向效应与Kumar四极形变不变量》（阐述纯电磁探针下的库仑激发截面、重取向效应直接判定基态/激发态拉长或扁长极性  < 0$ vs  > 0$，推导无模型依赖的 Kumar 四极不变量 ^2$ 与 $\cos(3\delta)$，量化原子核真实三轴角与 $\gamma$ 软度）；
+  - 开发完成生产级库仑激发微观动力学与 Kumar 四极不变量解算器（system/scripts/analysis/coulex_kumar_invariant_calculator.py），集成至 nuclear_analyzer CLI 并通过 14 大模块全量自动化回归测试；
+  - 成功提交（commit b0f71b8a）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
+
 ## Active checkpoint — 2026-11-02T18:00:00+08:00 (转动惯量J1/J2动力学与悬挂带自旋反演分析器落地)
 
 - **高自旋转动动力学与能带自旋反演闭环完成**：
