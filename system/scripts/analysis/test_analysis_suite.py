@@ -71,6 +71,7 @@ from multi_nucleon_transfer_dic_calculator import calculate_wilczynski_energy_lo
 from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estimate_spin_orbit_splitting, map_pseudospin_partner, evaluate_pseudospin_symmetry_quality, diagnose_pseudospin_chiral_quartet_manifold
 from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, extract_delta_r2_from_isotope_shift, decompose_charge_radius_components, perform_king_plot_analysis, calculate_charge_radius_odd_even_staggering
 from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wkb_lifetime, check_goldanskii_true_2p_condition, model_two_proton_jacobi_distribution, calculate_cluster_radioactivity_wkb, diagnose_drip_line_decay_competition
+from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_window, calculate_sommerfeld_parameter, convert_cross_section_to_s_factor, calculate_nonresonant_reaction_rate, calculate_resonant_reaction_rate
 
 
 def test_heavy_ion_kinematics():
@@ -817,6 +818,31 @@ def test_drip_line_radioactivity_cluster_calculator():
     assert comp["dominant_branching_percent"] > 95.0, "1p branching should exceed 95%"
     print("  ✓ drip_line_radioactivity_cluster_calculator passed.")
 
+
+def test_thermonuclear_rate_gamow_factor_calculator():
+    print("Testing thermonuclear_rate_gamow_factor_calculator...")
+    # Solar pp fusion
+    pp = calculate_gamow_peak_and_window(T9=0.015, Z1=1, A1=1, Z2=1, A2=1)
+    assert abs(pp["E0_Gamow_peak_keV"] - 5.89) < 0.05, f"Sun pp E0 mismatch: {pp['E0_Gamow_peak_keV']}"
+    assert abs(pp["Delta_window_width_keV"] - 6.37) < 0.05, f"Sun pp Delta mismatch: {pp['Delta_window_width_keV']}"
+
+    # 12C + alpha at T9 = 0.2
+    c12 = calculate_gamow_peak_and_window(T9=0.2, Z1=2, A1=4, Z2=6, A2=12)
+    assert abs(c12["E0_Gamow_peak_keV"] - 315.5) < 0.5, f"12C+alpha E0 mismatch: {c12['E0_Gamow_peak_keV']}"
+
+    # Sommerfeld parameter test
+    somm = calculate_sommerfeld_parameter(E_cm_keV=10.0, Z1=1, A1=1, Z2=1, A2=1)
+    assert somm["sommerfeld_eta"] > 1.0, "Sommerfeld eta unexpectedly low"
+
+    # Non-resonant reaction rate test: 3He+3He
+    rate_3he = calculate_nonresonant_reaction_rate(T9=0.015, S0_keV_b=5300.0, Z1=2, A1=3, Z2=2, A2=3)
+    assert rate_3he["reaction_rate_cm3_mol_s"] > 0.0, "Non-resonant rate must be positive"
+
+    # Resonant reaction rate test
+    res = calculate_resonant_reaction_rate(T9=0.5, omega_gamma_eV=1.5, E_res_keV=200.0, A1=1, A2=14)
+    assert abs(res["resonant_rate_cm3_mol_s"] - 6980.0) < 50.0, f"Resonant rate mismatch: {res['resonant_rate_cm3_mol_s']}"
+    print("  ✓ thermonuclear_rate_gamow_factor_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -858,4 +884,5 @@ if __name__ == "__main__":
     test_rmf_spin_orbit_pseudospin_calculator()
     test_isotope_shift_charge_radii_calculator()
     test_drip_line_radioactivity_cluster_calculator()
-    print("ALL 39 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_thermonuclear_rate_gamow_factor_calculator()
+    print("ALL 40 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

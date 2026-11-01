@@ -57,6 +57,7 @@ from multi_nucleon_transfer_dic_calculator import calculate_wilczynski_energy_lo
 from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estimate_spin_orbit_splitting, map_pseudospin_partner, evaluate_pseudospin_symmetry_quality, diagnose_pseudospin_chiral_quartet_manifold
 from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, extract_delta_r2_from_isotope_shift, decompose_charge_radius_components, perform_king_plot_analysis, calculate_charge_radius_odd_even_staggering
 from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wkb_lifetime, check_goldanskii_true_2p_condition, model_two_proton_jacobi_distribution, calculate_cluster_radioactivity_wkb, diagnose_drip_line_decay_competition
+from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_window, calculate_sommerfeld_parameter, convert_cross_section_to_s_factor, calculate_nonresonant_reaction_rate, calculate_resonant_reaction_rate
 
 
 def cmd_kinematics(args):
@@ -1083,6 +1084,39 @@ def cmd_radioact(args):
         print(f"    Total Effective T1/2     : {comp['total_half_life_s']:.3e} s")
     print("=======================================================")
 
+
+def cmd_astro(args):
+    print("\n=======================================================")
+    print(" Thermonuclear Reaction Rates & Gamow Peak Analyzer")
+    print("=======================================================")
+    if args.T9 is not None and args.Z1 is not None and args.A1 is not None and args.Z2 is not None and args.A2 is not None:
+        gp = calculate_gamow_peak_and_window(args.T9, args.Z1, args.A1, args.Z2, args.A2)
+        print(f"  Reaction: {args.A1}Z({args.Z1}) + {args.A2}Z({args.Z2}) at Stellar T_9 = {args.T9:.4f} (T = {args.T9*1e9:.1e} K)")
+        print(f"  Gamow Peak Energy        : E_0 = {gp['E0_Gamow_peak_keV']:.2f} keV")
+        print(f"  Gamow Window Width       : Delta = {gp['Delta_window_width_keV']:.2f} keV")
+        print(f"  Effective Burning Window : [{gp['Gamow_window_lower_keV']:.2f}, {gp['Gamow_window_upper_keV']:.2f}] keV")
+
+        if args.S0 is not None:
+            nonres = calculate_nonresonant_reaction_rate(args.T9, args.S0, args.Z1, args.A1, args.Z2, args.A2)
+            print("-------------------------------------------------------")
+            print(f"  Non-Resonant Reaction Rate (S_0 = {args.S0:.2f} keV*b):")
+            print(f"    N_A <sigma v> = {nonres['reaction_rate_cm3_mol_s']:.4e} cm^3 / (mol * s)")
+
+    if args.sigma is not None and args.Ecm is not None and args.Z1 is not None and args.A1 is not None and args.Z2 is not None and args.A2 is not None:
+        s_res = convert_cross_section_to_s_factor(args.sigma, args.Ecm, args.Z1, args.A1, args.Z2, args.A2)
+        print("-------------------------------------------------------")
+        print(f"  Astrophysical S-Factor Conversion (E_cm = {args.Ecm:.2f} keV, sigma = {args.sigma:.3e} b):")
+        print(f"    Sommerfeld Parameter eta : {s_res['sommerfeld_eta']:.4f}")
+        print(f"    Extracted S(E)           : {s_res['S_factor_keV_b']:.4e} keV*b ({s_res['S_factor_MeV_b']:.4e} MeV*b)")
+
+    if args.T9 is not None and args.E_res is not None and args.omega_gamma is not None and args.A1 is not None and args.A2 is not None:
+        res = calculate_resonant_reaction_rate(args.T9, args.omega_gamma, args.E_res, args.A1, args.A2)
+        print("-------------------------------------------------------")
+        print(f"  Resonant Reaction Rate (Breit-Wigner Narrow Resonance):")
+        print(f"    Resonance Energy E_r     : {args.E_res:.2f} keV | Strength omega*gamma = {args.omega_gamma:.2f} eV")
+        print(f"    Resonant N_A <sigma v>   : {res['resonant_rate_cm3_mol_s']:.4e} cm^3 / (mol * s)")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1529,6 +1563,20 @@ def main():
     p_rad_act.add_argument("--t12-beta", type=float, default=None, help="Partial beta+/EC half-life in s")
     p_rad_act.add_argument("--t12-alpha", type=float, default=None, help="Partial alpha half-life in s")
     p_rad_act.set_defaults(func=cmd_radioact)
+
+    # Nuclear Astrophysics & Gamow Peak
+    p_astro = subparsers.add_parser("astro", help="Thermonuclear reaction rates, Gamow peak window and astrophysical S-factor")
+    p_astro.add_argument("--T9", type=float, default=None, help="Stellar temperature in 10^9 K")
+    p_astro.add_argument("--Z1", type=int, default=None, help="Nucleus 1 atomic number Z")
+    p_astro.add_argument("--A1", type=float, default=None, help="Nucleus 1 mass number A")
+    p_astro.add_argument("--Z2", type=int, default=None, help="Nucleus 2 atomic number Z")
+    p_astro.add_argument("--A2", type=float, default=None, help="Nucleus 2 mass number A")
+    p_astro.add_argument("--S0", type=float, default=None, help="Astrophysical S-factor S(0) in keV*b")
+    p_astro.add_argument("--sigma", type=float, default=None, help="Reaction cross section in barns")
+    p_astro.add_argument("--Ecm", type=float, default=None, help="Center-of-mass energy in keV")
+    p_astro.add_argument("--E-res", type=float, default=None, help="Resonance energy E_res in keV")
+    p_astro.add_argument("--omega-gamma", type=float, default=None, help="Resonance strength omega*gamma in eV")
+    p_astro.set_defaults(func=cmd_astro)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

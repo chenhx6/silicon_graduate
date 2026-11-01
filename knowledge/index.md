@@ -45,6 +45,7 @@ updated: 2026-11-01
 u = |\Delta K| - \lambda$、折合阻碍度
 u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶室与延迟符合窗口应对。
 - [[compound-nucleus-statistical-decay-and-level-density]] — **复合核统计衰变、能级密度参数化与蒸发道竞争计算手册**：基于 Bertulani《反应论》与 IAEA RIPL-2，建立 Hauser-Feshbach 统计截面、BSFG 反冲费米气体能级密度、自旋截止因子 $\sigma^2$ 与 $ 蒸发窗最优能量速算模型。
+- [[thermonuclear-reaction-rates-gamow-peak-and-astrophysical-s-factor]] — **热核反应率、伽莫夫峰（Gamow Peak）与天体物理S因子外推法典**：基于 Gamow 1928、Salpeter 1952、Rolfs-Rodney 与 Bertulani，阐明恒星等离子体亚势垒量子隧穿与 Maxwell-Boltzmann 能量分布折衷产生的伽莫夫峰位 $E_0 \approx 122.0 (Z_1^2 Z_2^2 A_{\text{red}})^{1/3} T_9^{2/3}\text{ keV}$ 与能窗宽度 $\Delta$，建立剥离库仑发散项的天体物理 $S(E) = \sigma(E) E \exp(2\pi\eta)$ 因子低能 Taylor 外推规范，以及非共振与孤立 Breit-Wigner 窄共振热核反应率计算模型。
 - [[global-chiral-doublet-bands-systematics-atlas]] — **手征双重带全球四大质量区图谱与同位素链演化系统学**：基于熊博文 & 王媛媛（ADNDT 2019）与 Frauendorf 2001，系统解构 pprox 80, 100, 130, 190$ 四大质量区手征带特征，重点对账 pprox 130$（Nd, Ce, Pr）同位素链中子数演化与三轴集体模式竞争。
 - [[shell-evolution-and-triaxial-core-polarization]] — **微观壳演化、单极漂移与三轴核芯极化动力学**：基于 Heyde《Basic Ideas》与现代壳模型特刊，阐述单极相互作用（Monopole drift）、大塚张量力自旋翻转机制，以及粒子-空穴四极相互作用驱动微观稳定三轴核芯（$\gamma pprox 30^\circ$）的内在本质。
 - [[relativistic-mean-field-spin-orbit-and-pseudospin]] — **相对论平均场（RMF）、协变自旋-轨道耦合与狄拉克赝自旋对称性（PSS）动力学**：基于 Serot-Walecka 1986、Ginocchio 1997 与 Meng 1998/1999，阐述大标量势 $S(r) \approx -400\text{ MeV}$ 与大矢量势 $V(r) \approx +350\text{ MeV}$ 自然导出中心结合势 $V+S \approx -50\text{ MeV}$ 与强自旋-轨道力 $V-S \approx 750\text{ MeV}$，推导 Ginocchio 赝自旋对称性狄拉克小分量条件 $\frac{d}{dr}[V+S]=0$，以及在 $A\approx 130$（如 $^{131}\text{Ba}$）手征-赝自旋四重带（Quartet）中的微观结构表现。

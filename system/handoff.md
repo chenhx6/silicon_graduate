@@ -6121,3 +6121,19 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `radioact` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **a landmark 39 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Thermonuclear reaction rates, Gamow peak and S-factor 2026-11-02T10:00:00+08:00
+
+- Integrated thermonuclear reaction rates, Gamow peak window, and astrophysical S-factor extrapolation framework (`knowledge/concepts/thermonuclear-reaction-rates-gamow-peak-and-astrophysical-s-factor.md`):
+  - Physical mechanism: convolution of Maxwell-Boltzmann energy distribution and sub-barrier quantum mechanical Coulomb penetration (Sommerfeld parameter $\eta$), deriving the Gamow peak energy $E_0 \approx 122.04 (Z_1^2 Z_2^2 A_{\text{red}})^{1/3} T_9^{2/3}\text{ keV}$ and effective burning window width $\Delta \approx 236.8 (Z_1^2 Z_2^2 A_{\text{red}})^{1/6} T_9^{5/6}\text{ keV}$ (benchmarked on solar $pp$ fusion $E_0 = 5.89\text{ keV}$ and $^{12}\text{C}(\alpha, \gamma)^{16}\text{O}$ at $T_9 = 0.2$, $E_0 = 315.5\text{ keV}$).
+  - Astrophysical S-factor definition $S(E) = \sigma(E) E \exp(2\pi\eta)$ removing kinematic $1/E$ and Coulomb penetration divergences, enabling safe low-energy Taylor expansion to stellar zero-energy limits $S(0)$.
+  - Analytical thermonuclear reaction rates: non-resonant smooth rate $N_A \langle \sigma v \rangle_{\text{non-res}}$ vs isolated Breit-Wigner narrow resonance rate $N_A \langle \sigma v \rangle_{\text{res}} = 1.539 \times 10^{11} (A_{\text{red}} T_9)^{-3/2} (\omega\gamma) \exp(-11.605 E_r / T_9)$.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/thermonuclear_rate_gamow_factor_calculator.py`:
+  - `calculate_gamow_peak_and_window`: Gamow peak $E_0$, width $\Delta$, and window bounds $[E_{\text{low}}, E_{\text{high}}]$;
+  - `calculate_sommerfeld_parameter`: $\eta(E)$ and Coulomb transmission factor $\exp(-2\pi\eta)$;
+  - `convert_cross_section_to_s_factor`: cross section to $S(E)$ in $\text{keV}\cdot\text{b}$;
+  - `calculate_nonresonant_reaction_rate`: non-resonant rate in $\text{cm}^3 / (\text{mol}\cdot\text{s})$;
+  - `calculate_resonant_reaction_rate`: Breit-Wigner single-resonance rate in $\text{cm}^3 / (\text{mol}\cdot\text{s})$.
+- Unified CLI integration: added `astro` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **a landmark 40 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.
