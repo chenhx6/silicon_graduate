@@ -26,6 +26,7 @@ Tests:
   21. side_feeding_deconvolution_calculator: checks effective F-factor, side-feeding delay deconvolution, and Qt bias.
   22. internal_conversion_bricc_calculator: checks ICC multipolarity hierarchy, mixed transition alpha, and discrimination.
   23. vacuum_deorientation_calculator: checks G2/G4 attenuation factors and angular distribution deorientation restoration.
+  24. tidal_wave_dynamics_calculator: checks tidal wave surface velocity, B(E2) linear scaling, and dynamic beta2.
 """
 
 import sys
@@ -54,6 +55,7 @@ from ado_polarization_joint_analyzer import calculate_ado_ratio, convert_clover_
 from side_feeding_deconvolution_calculator import calculate_effective_f_factor, deconvolve_side_feeding_lifetime
 from internal_conversion_bricc_calculator import calculate_bricc_icc, calculate_mixed_icc, discriminate_multipolarity
 from vacuum_deorientation_calculator import calculate_attenuation_factors, correct_measured_angular_distribution
+from tidal_wave_dynamics_calculator import calculate_tidal_wave_kinematics, test_b_e2_linear_scaling, reconstruct_dynamic_beta2
 
 
 def test_heavy_ion_kinematics():
@@ -382,6 +384,18 @@ def test_vacuum_deorientation_calculator():
     print("  ✓ vacuum_deorientation_calculator passed.")
 
 
+def test_tidal_wave_dynamics_calculator():
+    print("Testing tidal_wave_dynamics_calculator...")
+    spins = [2, 4, 6, 8, 10]
+    be2_linear = [0.10, 0.20, 0.30, 0.40, 0.50]
+    scaling = test_b_e2_linear_scaling(spins, be2_linear)
+    assert scaling["is_tidal_wave_scaling"] == True, "Should identify tidal wave linear scaling"
+    assert scaling["R_squared"] > 0.99, f"R^2 should be near 1.0: {scaling['R_squared']}"
+    dyn = reconstruct_dynamic_beta2(spins, be2_linear, Z=46, A=102)
+    assert dyn["beta2_final"] > dyn["beta2_initial"], "Dynamic stretching must be positive"
+    print("  ✓ tidal_wave_dynamics_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -407,4 +421,5 @@ if __name__ == "__main__":
     test_side_feeding_deconvolution_calculator()
     test_internal_conversion_bricc_calculator()
     test_vacuum_deorientation_calculator()
-    print("ALL 23 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_tidal_wave_dynamics_calculator()
+    print("ALL 24 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

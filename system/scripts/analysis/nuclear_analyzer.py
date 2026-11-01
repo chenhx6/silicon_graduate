@@ -41,6 +41,7 @@ from ado_polarization_joint_analyzer import calculate_ado_ratio, convert_clover_
 from side_feeding_deconvolution_calculator import calculate_effective_f_factor, deconvolve_side_feeding_lifetime
 from internal_conversion_bricc_calculator import calculate_bricc_icc, calculate_mixed_icc, correct_gamma_intensity_for_conversion, discriminate_multipolarity
 from vacuum_deorientation_calculator import calculate_attenuation_factors, correct_measured_angular_distribution
+from tidal_wave_dynamics_calculator import calculate_tidal_wave_kinematics, test_b_e2_linear_scaling, reconstruct_dynamic_beta2
 
 
 def cmd_kinematics(args):
@@ -498,6 +499,29 @@ def cmd_deorient(args):
     print("=======================================================")
 
 
+def cmd_tidal(args):
+    spins = [float(x.strip()) for x in args.spins.split(",")]
+    b_values = [float(x.strip()) for x in args.be2.split(",")]
+    if len(spins) != len(b_values):
+        raise ValueError("Number of spins must equal number of B(E2) values.")
+
+    scaling = test_b_e2_linear_scaling(spins, b_values)
+    dyn = reconstruct_dynamic_beta2(spins, b_values, args.Z, args.A)
+
+    print("\n=======================================================")
+    print(" Nuclear Tidal Wave Dynamics & B(E2) Scaling Analyzer")
+    print("=======================================================")
+    print(f"  Target Nucleus Z={args.Z}, A={args.A} (Spins: {spins[0]:.0f} -> {spins[-1]:.0f} hbar)")
+    print(f"  B(E2) Linear Slope c1   : {scaling['slope_c1']:.4f} e^2 b^2 / hbar (R^2 = {scaling['R_squared']:.4f})")
+    print(f"  Is Tidal Wave Mode?     : {scaling['is_tidal_wave_scaling']} (Growth per spin: +{scaling['growth_percent_per_spin']:.1f}%)")
+    print("-------------------------------------------------------")
+    print("  Dynamic Quadrupole Deformation Stretching beta_2(I):")
+    for sp, b2 in zip(dyn["spins"], dyn["dynamic_beta2"]):
+        print(f"    Spin {sp:2.0f} hbar : beta_2(I) = {b2:.3f}")
+    print(f"  Total Centrifugal Stretching : +{dyn['relative_stretching_percent']:.1f}%")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -723,6 +747,14 @@ def main():
     p_deor.add_argument("--a4", type=float, default=0.0, help="Measured a4 coefficient")
     p_deor.add_argument("--a4_err", type=float, default=None, help="a4 uncertainty")
     p_deor.set_defaults(func=cmd_deorient)
+
+    # Tidal Waves & Dynamic Stretching
+    p_tidal = subparsers.add_parser("tidal", help="Tidal wave B(E2) linear scaling law and dynamic beta2 stretching")
+    p_tidal.add_argument("--spins", type=str, required=True, help="Comma-separated list of spins")
+    p_tidal.add_argument("--be2", type=str, required=True, help="Comma-separated list of in-band B(E2) in e^2b^2")
+    p_tidal.add_argument("--Z", type=int, default=46, help="Atomic number Z")
+    p_tidal.add_argument("--A", type=int, default=102, help="Mass number A")
+    p_tidal.set_defaults(func=cmd_tidal)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
