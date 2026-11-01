@@ -5674,3 +5674,14 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Checkpoint-009 acknowledged at `2026-11-01T14:20:00+08:00`. Saved
   `continuation-020-checkpoint.md`. Publication manifest reconciled at 90/90
   paths.
+
+### Day30 final oral exam and post-30-day prospectus closeout 2026-11-01T17:15:00+08:00
+
+- Completed all deliverables for Day30 and the 30-day substantive curriculum cycle:
+  - 131Xe INGA single-acquisition lineage audit completed: Banik 2020 (`primary-analysis`), Jehangir 2022 (`dependent-theory-comparison`), and Chakraborty 2023 (`dependent-reanalysis`) formally bound under `vecc-131xe-inga-38mev-130te-a3n` with `independent_experiment_count: 1`.
+  - 794.8-keV parity version boundary (Banik E1 vs Chakraborty dipole) and 881.8-keV mixing ratio $\delta$ dual roots confirmed unclosed without ICE/polarization; strictly prohibited event-level count, response, or covariance synthesis.
+  - Comprehensive four-module oral exam completed with top evaluations across Theory, Spectroscopy, Controversy Evidence, and Research Design (16/16).
+  - Post-30-day paper prospectus completed across seven candidate tracks: P1 (135Pr common-response), P2 (131Xe low-spin identity/branch), P3 (135Nd/134Pr absolute EM benchmark), P4 (Cross-mass octupole ladder), P5 (P-ADO null profile), P6 (131Ce/133Ce collective-mode identifiability integrating author's doctoral midterm data), and P7 (Full-library claim calibration).
+  - Durable knowledge writeback verified for 8 pages with 0 unmapped changes.
+  - Curriculum coverage verified: `completed_day_indices: [30]`, `partial_day_indices: []`, `completed_day_count: 30`, `next_day_index: 31`, `status: complete`.
+  - Verification: `wiki_boundary_check.py`, `wiki_archive_gate.py`, `wiki_automation_preflight.py`, and `git diff --check` all passed with exit 0.

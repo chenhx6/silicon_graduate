@@ -3,7 +3,7 @@ type: source
 title: "Banik et al. 2020 - Multiple band structures in 131Xe"
 aliases: [Banik 2020 131Xe INGA experiment, 131Xe alpha-induced multiple bands]
 created: 2026-09-30
-updated: 2026-10-30
+updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
 lineage_id: "vecc-131xe-inga-38mev-130te-a3n"
@@ -131,3 +131,12 @@ Jehangir et al. 2022 的 TPSM Fig. 7 用先前的 `131Xe` 数据 Refs. [52]–[5
 | BNK20-D28-3 | 795-keV的E1解释不只出现在一处表格：Fig.4图注将其用作已知E1参照，Table I脚注k将794.8 keV列为E1 DCO门，B3讨论也使用795-keV E1门。多处重复削弱“单个宇称符号偶然排印错”这一简化解释，但不保证该物理指认正确。 | author-assignment-and-countercheck | direct-with-bounded-inference | Fig.4 caption, printed 044306-4; Table I footnote k, printed 044306-6; printed 044306-8 B3 discussion | true |
 
 **Knowledge Impact and Learning Decision — revises / limits。** [[131xe-low-spin-partner-crosswalk]] 固化部分闭合的低自旋映射；保留1903/2090等其它B5分支、高自旋B1(a)、新低自旋链和宇称修订的区别。同数据重分析不能获得独立采集权重；γ-soft TRS 不直接判决有限自旋 wobbling 的动态稳定性。
+
+## Day30 Directed Lineage Audit: 794.8-keV E1 Multipolarity and Single-Acquisition Boundary
+
+Day30 定向审计确认：Banik 2020 Table I 中列出的 794.8(1)-keV 跃迁（从 1600.9(2)-keV 态退激至 806.1-keV 15/2− 态）被标为 E1，其观测量为 `Iγ=12.56(21)`、`RDCO=0.55(1)`（四极门，对应纯偶极跃迁）、`ΔPDCO=+0.03(1)`。由于本实验在 VECC K-130 回旋加速器上使用 7 个 Compton-suppressed clover HPGe 探测器进行 γ-γ 符合测量，未配备内转换电子磁谱仪或 Si(Li) 探测器，因此本数据集本身不包含直接内转换系数测量。`ΔPDCO=+0.03(1)` 在 3σ 范围内虽偏向电偶极（E1），但由于零偏振不对称度基准存在残余仪器不对称误差，不能作为排他性确立负宇称到正宇称跃迁的独立判据。与 Chakraborty 2023 标出的 17/2−（无 E1 标签）相比，二者源于同一原始数据，构成版本与解释边界，而非两次独立的宇称测定。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| BNK20-D30-1 | Banik 2020 Table I 的 794.8-keV 线标为 E1，其 `RDCO=0.55(1)` 与 `ΔPDCO=+0.03(1)` 缺乏配套内转换电子谱支持，不能排他性排除 M1 或混合偶极跃迁。 | experimental-report-and-parity-readiness | direct | Table I, printed 044306-6 | true |
+| BNK20-D30-2 | Banik 2020、Jehangir 2022 与 Chakraborty 2023 属于同一个 VECC INGA 采集谱系（`lineage_id: vecc-131xe-inga-38mev-130te-a3n`），全谱系独立实验次数为 1。 | lineage-boundary | direct | printed 044306-2 Sec. II; Chakraborty 2023 Ref. [22] | true |

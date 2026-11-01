@@ -196,3 +196,12 @@ This source is page-level `human-reviewed`; `C23-1..C23-7` remain `needs_review:
 | C23-D28-10 | arXiv源文件和期刊Fig.11/TPRM段落直接支持模型骨架 `H=Hcore+Hsp+Hpair`、`ε2=0.13`、`γ=33°`、`ξ=1`，并明确出带 `17/2−→15/2−` 的模型/实验能量为902/1055.1 keV、带内 `17/2−→13/2−` 为799/815.6 keV；公开材料没有给出E2/M1算符、有效电荷、g因子、淬灭或`δTPRM=-0.69`的确切能量输入约定。`B(M1)/B(E2)=1.27`与δ涉及不同强度商，不能仅由两者反推能量。 | model-convention-source-boundary | direct-primary-and-derived-boundary | arXiv `131Xe.tex:265-275`; Fig.11; printed 064318-6/7 | true |
 
 **Knowledge Impact and Learning Decision — revises / limits。** 保留原作者偏好 yrare signature partner、未见 wobbling 信号的有界解释；修正旧强断言与对象混淆。完整逐态对照、可复算公式、反证和 response 缺口由 [[131xe-low-spin-partner-crosswalk]] 承接。本轮没有新增人审事件，没有改 C23-1 至 C23-7 的历史审核字段。
+
+## Day30 Directed Lineage and Dual-Root Re-analysis Audit
+
+Day30 定向审计确认：Chakraborty 2023 的实验数据源于对 Banik 2020 所用同一套 VECC INGA 符合数据集（`vecc-131xe-inga-38mev-130te-a3n`）的重排序与分析，全谱系独立实验次数为 1（`independent_experiment_count: 1`）。关于 881.8-keV 连接跃迁，Table I 给出的 `RDCO=0.64(11)`（四极门）在 $R_{DCO}(\delta)$ 抛物线方程中对应双重数学根：小正根 $\delta=+0.09(8)$（作者偏好并解释为 signature partner 跃迁）和位于高 E2 区间的第二根；由于 Table I 偏振栏为空，且 880.1-keV 双线成分未在公开标量表格中展开，仅由已发表数据无法排他性折叠为单一物理根。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| C23-D30-1 | Chakraborty 2023 与 Banik 2020、Jehangir 2022 共享同一 VECC INGA 数据集；本篇属于 dependent-reanalysis，不构成第二次独立实验确认。 | lineage-boundary | direct | printed 064318-2 Sec. II; Ref. [22] | true |
+| C23-D30-2 | 881.8-keV 跃迁由 `RDCO=0.64(11)` 导出的 $\delta$ 存在双重数学根；在偏振缺失及 880.1-keV 双线未分离情况下，公开数据无法唯一确定多极混合比。 | derived-observable-and-branch-boundary | direct-and-derived | Table I, printed 064318-3; Fig. 5, printed 064318-4 | true |

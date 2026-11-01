@@ -16,7 +16,7 @@ evaporation_channel: 3n
 residual_nuclei: [131xe]
 detector_array: INGA 7 Compton-suppressed clover HPGe
 data_status: reanalyzed-existing-dataset
-sources: [chakraborty-2023-131xe-wobbling-origin]
+sources: [banik-2020-131xe-multiple-band-structures, chakraborty-2023-131xe-wobbling-origin, jehangir-2022-odd-neutron-tpsm-extension]
 tags: [fusion-evaporation, in-beam-gamma, INGA]
 ---
 
@@ -53,6 +53,16 @@ Pixie-16 250 MHz、12 bit 数字 DAQ，记录带时间戳的 singles/coincidence
 - [[131xe-negative-parity-yrare-sequence]]
 - [[131xe-negative-parity-yrast-13-2-sequence]]
 
+
+## Acquisition Lineage and Dependent Analyses
+
+本实验（`vecc-131xe-inga-38mev-130te-a3n`）对应在加尔各答 VECC K-130 回旋加速器上使用 7 个 Compton-suppressed clover HPGe 探测器完成的单次物理采集（`independent_experiment_count: 1`）。该实验后续产生了三篇关键文献：
+
+1. **Banik et al. (2020)** (*Phys. Rev. C* 101, 044306)：首次系统报道该实验的能级纲图扩展（72 条新跃迁）、DCO 与偏振分析，建立了 Bands 1–7 的框架（`lineage_role: primary-analysis`）。
+2. **Jehangir et al. (2022)** (*Phys. Rev. C* 105, 054310)：将奇中子 TPSM 扩展到五准粒子基底，其 131Xe 能谱比较直接沿用 Banik 2020 Ref. [53] 数据（`lineage_role: dependent-theory-comparison`）。
+3. **Chakraborty et al. (2023)** (*Phys. Rev. C* 107, 064318)：使用相同的原始 INGA 数据集重新构建符合矩阵，对低自旋区进行精细分析，提出负宇称 yrare 带为 signature partner 而非 wobbling 带（`lineage_role: dependent-reanalysis`）。
+
+三篇文献共享同一套束流能量（38 MeV α）、靶厚（2 mg/cm² 130Te）、探测器角度排布（40°, 90°, 125°）和 Pixie-16 数字 DAQ 采集事件，不能在综合分析中按三套独立实验赋予统计权重。
 ## Known Limitations
 
 - 只有三个主要角度组；

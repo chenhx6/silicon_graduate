@@ -7,6 +7,11 @@ updated: 2026-11-01
 
 # Wiki Index
 
+## Day30 课程收束与月度Prospectus
+
+- [[post-30-day-nuclear-structure-paper-prospectus]] — 把30天后研究压缩为七个可投稿候选：135Pr共同响应审计、131Xe对象/分支边界、135Nd/134Pr绝对电磁量、跨质量区八极证据梯、P-ADO跨反应对齐零假说、131Ce/133Ce三轴集体模式判别与全库主张校准认识论。
+- [[131xe-day30-source-lineage-and-readiness-audit]] — 131Xe INGA 实验谱系（Banik 2020、Jehangir 2022、Chakraborty 2023）单次采集对账、794.8-keV宇称与881.8-keV双根的L3/L4准备度边界。
+
 ## 全库温故知新入口
 
 - [[wiki-full-library-map-20261030]] — 2026-10-30 全库结构、知识关系、研究主线、论文候选和 `outputs/`/`raw/papers/` 整理边界；这是复习导航与研究选题索引，不替代 source 原件和 locator。

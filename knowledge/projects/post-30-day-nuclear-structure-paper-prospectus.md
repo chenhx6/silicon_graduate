@@ -37,163 +37,239 @@ tags: [paper-prospectus, nuclear-structure, evidence-gate, l3, l4-readiness]
 | 优先级 | 候选题目 | 研究核心 | 当前状态 | 最小新增输入 |
 |---|---|---|---|---|
 | P1 | `135Pr` common-response evidence audit | 统一 Matta–Lv–Sensharma 的 `δ` 分支、`P/A`、`R_ac`、取向和谱系，检验 wobbling/chirality/TiP 排序 | L3 paper blueprint；既有证据冲突清楚，缺共同 response/Cov | 逐角净峰、sideband、`a(E)`/`Q(E)`、polarization counts、gate acceptance、联合 `Σ` |
-| P2 | `131Xe` low-spin identity and branch boundary | 2020/2023 逐态对象交叉、795-keV宇称版本、RDCO双根和同母态强度可识别性 | L3 milestone；对象和缺口已固化，未裁决宇称/模式 | 1983 AD原件或逐线 raw/response、794.8-keV独立宇称判据、882偏振/AD和partner寿命 |
+| P2 | `131Xe` low-spin identity and branch boundary | 2020/2023 逐态对象交叉、795-keV宇称版本、RDCO双根和同母态强度可识别性 | L3 milestone；对象和缺口已固化，未裁决宇称/模式 | 1983 AD/ICE原件或逐线 raw/response、794.8-keV独立宇称判据、882偏振/AD和partner寿命 |
 | P3 | `135Nd/134Pr` partner-resolved absolute EM benchmark | 绝对 `B(E2)`/`B(M1)`、寿命、crossing、γ-softness 与手征/混合竞争解释 | L3/L4 candidate；多条寿命证据已有，矩阵和共同协方差未闭合 | 同一 state mapping 下的完整 EM 矩阵、寿命 producer、feeding/systematic covariance |
-| P4 | Cross-mass octupole evidence ladder | 直接 E3、E1 网络、交替宇称和 PES 形变之间的证据等级与静态/动态边界 | synthesis/data-map candidate；144/146Ba和220Rn/224Ra已有锚点 | 逐条 primary locator、统一跃迁方向/单位、分支归一、共同系统误差和更多多态 E3 |
+| P4 | Cross-mass octupole evidence ladder | 直接 E3、E1 网络、交替宇称和 PES 形变之间的证据等级与静态/动态边界 | synthesis/data-map candidate；144/146Ba、220Rn/224Ra、208Pb与132Sn已有锚点 | 逐条 primary locator、统一跃迁方向/单位、分支归一、共同系统误差和更多多态 E3 |
 | P5 | P-ADO shared-alignment null falsifier | 用Zobel 1983同一跃迁十行真实表格检验跨reaction共享`σ/J`的可识别性 | 有真实表格结果；方法学新颖性和外部文献差异仍需审计 | projectile-family分层、原始Cov/coverage或feeding-aware公开输入 |
-| P6 | `131Ce/133Ce` collective-mode identifiability boundary | 用 state identity、连接线 `δ`/偏振、寿命、绝对 EM strengths 和 model sensitivity 区分 signature/configuration、γ-soft、wobbling、chirality 与 shape coexistence | L3 decision-boundary candidate；已有谱系矩阵但缺目标核 companion observables | Bands 1–7 的逐线 `δ`/偏振、partner-resolved lifetime/`B(E2)`/`B(M1)`、HD–ND linking 和统一 covariance |
+| P6 | `131Ce/133Ce` collective-mode identifiability boundary | 结合中期报告iThemba LABS PR295与CIAE HI-13数据，用连接线`δ`/偏振、寿命和NuclearMap PES先验区分三轴集体模式 | L3/partial-L4 candidate；已有iThemba符合矩阵与邻核PES先验，缺直接133Ce PES与事件级展开 | 逐线`δ`/偏振、partner寿命/`B(E2)`/`B(M1)`、直接133Ce微观PES与统一协方差 |
+| P7 | Full-library claim calibration and epistemology ledger | 全库50+核心文献在实验事实、模型计算与作者解释之间的语言与证据边界校准 | 知识治理/方法学prospectus；自审账本已建立 | 逐篇历史source的动词重审、定位校准与独立性反证核查 |
 
-## Candidate 1: 135Pr
+## Candidate 1: 135Pr common-response evidence audit
 
-已有 `knowledge/projects/135pr-wobbling-controversy.md`、
-`knowledge/research-notes/135pr-mixing-branch-input-contract.md` 将三条证据链分开：
-Matta 的大 `|δ|` 与 `A`、Lv 的独立 `P-R_ac` 小 `|δ|`、Sensharma 2026 对旧
-角分布在固定 `σ/I=.2` 下的条件 χ² 偏好。最重要的独立性结论是支持链论文和
-Sensharma 新分析共享 Gammasphere 谱系，而 Lv 是独立 counter chain；不能按论文
-数量加权。
+### Research Question & Core Objective
+在 $^{135}\text{Pr}$ 低自旋横向摆动（transverse wobbling）争议中，统一 Matta 2015、Lv 2022 与 Sensharma 2026 三方证据，建立共同探测器响应、对齐参数 $\sigma/I$、门污染与多极混合比 $\delta$ 提取合同，判决各实验结论的兼容域与失效条件。
 
-2026 accepted-record 的 Chen et al. Bayesian inertia paper 增加了一个理论竞争层：
-公开 abstract 只确认 CQPC、Metropolis–Hastings MCMC、energy-only constraints 和固定
-电磁输入的条件预测；原始 manuscript、likelihood、priors、posterior samples、固定
-EM 输入及 competing-model evidence 尚未获得。它可以作为 P1 的 model-conditioning
-control，不能被写成对 Matta/Lv/Sensharma 的共同 response 重析，也不能把
-within-model posterior stability 当作 wobbling 机制的模型间排他证据。对应 source
-边界见 [[chen-2026-bayesian-inertia-wobbling-135pr]] `CH26-B1`–`CH26-B7`。
+### Grounded Evidence & Primary Sources
+- Matta et al. 2015 ([[matta-2015-transverse-wobbling-135pr]]): Gammasphere 阵列测得大 $|\delta| = -2.14(20)$ 与负偏振不对称度，主张首个 $n_w=1$ 横向 wobbling 带；
+- Lv et al. 2022 ([[lv-2022-evidence-against-wobbling-135pr]]): 独立多探测器阵列测量角分布与偏振，提取小 $|\delta| \approx 0.16(4)$，证明跃迁为 $M1$ 主导，否定 wobbling 解释并主张倾斜轴进动（tilted precession）；
+- Sensharma et al. 2026 ([[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]]): 重新分析 Gammasphere 历史数据，在固定 $\sigma/I=0.2$ 条件下声称拟合优度偏好大 $\delta$ 解；
+- Chen et al. 2026 贝叶斯转动惯量模型 (accepted record): 仅基于能谱能量约束的 MCMC 条件后验。
 
-可投稿的最低主张是：公开观测存在分支冲突，分支排序依赖 response、取向、门、
-背景和协方差；在这些输入未公开前，不能宣称统一 raw 重析已完成。若获得真实
-输入，主分析应预先冻结 state identity、branch parameterization、nuisance profile
-和 holdout companion。falsifier 是所有候选分支的 profiled prediction set 与数据
-不相交；否则保留“不能唯一选根”。
+### Competing Hypotheses
+1. 横向 wobbling 模式（Matta et al.）
+2. 倾斜轴进动 / Tilted precession 模式（Lv et al.）
+3. 单准粒子非对称核转动 / Signature partner 组态混合
 
-`knowledge/research-notes/135pr-common-response-evidence-contract-20261031.md`
-进一步冻结了三条核心线（747、813、450 keV）、`ξ=arctan(δ)` 分支参数、逐实验
-nuisance 和 Lv `747.3-keV P–R_ac` leave-EM-out holdout。它是 future-input
-analysis contract，不代表当前已有 raw counts、response 或联合协方差。
+### Minimal New Inputs
+- 逐角净峰计数值、门污染分数（特别是 $747, 771, 800\text{ keV}$ 连接线周围的杂质扣除）；
+- 真实的角分布响应矩阵 $a(E)$ 与线偏振探测灵敏度标定 $Q(E)$；
+- 原始 Gammasphere 与 Lv22 探测器几何的统一联合误差协方差 $\Sigma$。
 
-`knowledge/research-notes/135pr-hypothesis-discrimination-priority-20261101.md`
-进一步把四个竞争层写成可证伪预测：低自旋 transverse wobbling、tilted
-precession/realignment、signature/configuration mixing，以及仅限高自旋 DB1/DB2
-的 chiral interpretation。当前最高信息增益的测量设计是同一 `747` 连接线的
-branch（AD + polarization/`R_ac`）与 partner-resolved absolute EM/lifetime
-联合观测，并预先把 `813` 作为 holdout、`450` 作为敏感性检查。该排序是研究设计
-推断，不是统计功效或新实验结果。
+### Response Matrix & Joint Covariance Contract
+必须联合考虑探测器效率、立体角有限角修正因子 $Q_2, Q_4$、门选择的角关联扰动以及多极干涉项的协方差；严禁采用标量误差的高斯平方反比加权。
 
-本轮只读 source→raw 对账进一步确认 Matta 2015、Sensharma 2019、Lv 2022 和
-Sensharma 2026 四个本地原件的 SHA-256 与各 source 页 frontmatter 一致。该闭合只
-解决本地文件身份；`S19-D23-1`、`SH26-11` 和 `SH26-15` 所记录的 event/run overlap
-仍未闭合，因此支持链仍按 dependent lineage 处理，Lv 的 `P–R_ac` 仍作为独立 event
-pool 保留。可复用的 source-to-raw 与 observable ledger 见
-[[135pr-common-response-evidence-contract-20261031]] 的 `Source-to-raw reconciliation and observable lineage ledger`。
+### Falsifiers (证伪判据)
+若在无预设立场（即放开 $\sigma/I$ 并在 $[0.15, 0.35]$ 全局边际化）且考虑门谱杂质时，Matta 数据与 Lv 数据的联合似然度在 $99\%$ 置信区间内完全不相交，则“单一统一物理态解释”被实验证伪，表明存在未识别的系统性实验效应或杂质污染。
 
-Lv et al. 2025 adds a same-lineage `135Nd` extension
-([[135nd-2025-tipped-precession-same-lineage-extension]]): a new `17/2−_3` state,
-band T and `B(E2,752)/B(E2,908)=2.0(5)`. It strengthens the transition-identity
-and relative-E2 layer for P3, while leaving the independent-lifetime, absolute-strength
-and covariance gates open.
+### Stop Conditions (停止条件)
+在未获得 Gammasphere 原始符合矩阵或各角原始拟合峰面积前，停止生成代理 $L4$ 联合置信区间；不得将模型先验伪造成实验拟合结果。
 
-### 2026 model-frontier controls
+### Non-Independent Evidence Ledger (非独立证据边界)
+Matta 2015 与 Sensharma 2026 共享同一套 Gammasphere 数据集谱系（`independent_experiment_count: 1`），Sensharma 2026 是同一数据的重新参数化条件拟合，不能与 Matta 2015 一起算作支持 wobbling 的两份独立实验证据。
 
-Recent 2026 theory papers expand the competing-model space that a future `135Pr` or
-`131Ce/133Ce` audit must consider:
+## Candidate 2: 131Xe low-spin identity and branch boundary
 
-| Primary record | Model-level result | Evidence boundary |
-|---|---|---|
-| Zhang, Qi & Wang, *Phys. Rev. C* **114**, 044312 (2026), DOI `10.1103/64zl-b9br` | Particle-rotor calculations propose coexistence of pseudospin-partner bands and a wobbling excitation for a `π(g7/2,d5/2)` configuration | Accepted/published abstract-level model evidence; no new experiment or `135Pr` response |
-| Chen et al., *Phys. Rev. C* **114**, 014324 (2026), DOI `10.1103/f2zp-rb6f` | Core-quasiparticle calculations find γ-soft cores support longitudinal wobbling, while rigid triaxial cores can support low-spin transverse wobbling; interband `B(E2)out` is proposed as a discriminator | Model prediction and proposed observable; does not measure γ softness or settle an experimental branch |
-| Wang, Chen & Li, *Phys. Rev. C* **113**, L061301 (2026), DOI `10.1103/14kh-p5g3` | Five-dimensional collective-Hamiltonian calculations for `122–128Xe` reproduce selected energy/staggering and `B(E2)` systematics, then interpret odd-spin γ-band geometry as wobbling-like | Theory–data comparison remains model-conditioned; calculated geometry is not a direct angular-momentum measurement |
-| Chen et al., *Phys. Rev. C* **114**, 014336 (2026), DOI `10.1103/jlfb-m2qd` | Octupole core-quasiparticle calculations predict transverse-to-longitudinal wobbling evolution with spin and configuration-dependent critical spin | Model-only configuration study; useful as a competing forward model, not as an experimental octupole-wobbling observation |
+### Research Question & Core Objective
+在 $^{131}\text{Xe}$ 低自旋带间连接跃迁中，检验 1600.9-keV 节点 794.8-keV 宇称指认版本冲突，以及 881.8-keV 跃迁混合比 $\delta$ 双根的分辨边界，建立同母态强度商可识别性与停止规则。
 
-These records revise the future model comparison layer: a branch audit should include
-signature/pseudospin partners, γ-soft longitudinal wobbling and octupole
-configuration-driven mode changes where the state identity and observables permit.
-They do not relax the P1/P6 evidence gate; model geometry, predicted `B(E2)out` or
-critical spin cannot replace measured response, lifetime, polarization, absolute
-strength and an independent holdout.
+### Grounded Evidence & Primary Sources
+- Banik et al. 2020 ([[banik-2020-131xe-multiple-band-structures]]): 报道 794.8-keV $E1$ 跃迁与 $R_{DCO}=0.55(1)$、$\Delta_{PDCO}=+0.03(1)$；
+- Chakraborty et al. 2023 ([[chakraborty-2023-131xe-wobbling-origin]]): 重新分析同一数据，将 1600.9-keV 态标为 $17/2^-$，给出 881.8-keV $R_{DCO}=0.64(11)$ 并选择小正根 $\delta=+0.09(8)$ 解释为 signature partner；
+- Jehangir et al. 2022 ([[jehangir-2022-odd-neutron-tpsm-extension]]): 奇中子 TPSM 比较（引用 Banik 2020 数据）；
+- Irving 1979 ([[irving-1979-131xe-spectroscopy-scope]]) & Lönnroth 1983 ([[lonnroth-1983-xe-quasiparticle-states]]): 历史角分布与转换电子谱学（当前处于 metadata-only 边界）。
 
-对 Chen 2026 的安全跟进是一个 matched-input、leave-EM-out predictive test：用相同
-公开能量数据和声明的竞争模型预测预先指定的一个 interband E2 fraction，并共同传播
-EM nuisance；若只有不对称区间，则做 interval sensitivity，不伪造 Gaussian likelihood。
-这是一项未来分析设计，不能称作已复现 Chen posterior 或已完成的新实验结果。
+### Competing Hypotheses
+1. 负宇称 yrare 序列为单准中子 signature partner 跃迁（Chakraborty et al.）
+2. 纵向/横向 low-spin wobbling 激发态（Banik et al. 早期候选与多核素系统学讨论）
+3. 偶极/四极微观三轴组态混合态
 
-## Candidate 2: 131Xe
+### Minimal New Inputs
+- 794.8-keV 跃迁的高分辨率内转换电子（ICE）谱或明确的转化系数 $\alpha_K$；
+- 881.8-keV 跃迁的高统计线偏振不对称度测量或 880.1-keV 双线的完整解谱；
+- 历史 Irving 1979 / Lönnroth 1983 的逐行实验数据表。
 
-`knowledge/projects/131xe-low-spin-partner-crosswalk.md` 已把2020 B5、2023
-yrast/yrare逐态对应和近能量异态拆开；`knowledge/research-notes/131xe-1601-parity-version-boundary.md`
-保留795-keV E1与766-keV无偏振的宇称边界；`knowledge/research-notes/131xe-same-parent-strength-identifiability.md`
-说明两个 `B` 商共享 `r` 与 `δ`，不能独立计票。该候选适合写成严谨的
-evidence-boundary/branch-identifiability paper，前提是标题和结论明确写“未闭合的
-宇称与响应条件”，而不是把候选模式写成证明。
+### Response Matrix & Joint Covariance Contract
+881.8-keV 与 880.1-keV 双线必须建立成对符合响应函数，且对同母态 1055.1-keV 与 815.6-keV 跃迁的比值 $B(M1)/B(E2)$ 建立统一协方差矩阵。
 
-## Candidate 3: 135Nd/134Pr
+### Falsifiers (证伪判据)
+若新的高统计偏振或内转换实验证实 881.8-keV 跃迁选择大绝对值混合比根（$|\delta| > 1.5$ 且 $B(E2)$ 占优），则纯 signature-partner 解释被证伪；反之若测得 $\delta \approx 0$ 且 $\Delta_{PDCO} < 0$（纯磁偶极），则 wobbling 解释被彻底排除。
 
-`knowledge/projects/135nd-chiral-partner-resolved-evidence-map.md`、
-`knowledge/projects/chirality-shape-coexistence-companion-matrix.md` 和
-`knowledge/projects/nuclear-chirality-and-multiple-chiral-doublet-bands.md` 已经
-建立寿命、`B(M1)/B(E2)`、能谱、伙伴身份和 shape-mixing 的竞争矩阵。
-`134Pr` 的寿命异常可以削弱理想静态手征，但仍需区分动态涨落、configuration
-mixing 和 crossing。投稿前必须把同一母态、同一 operator convention、feeding 和
-systematic covariance 冻结；不能用不同论文的相似 `B` 比值拼出一条独立证据向量。
-Tonev07 的 26 页 primary PDF 已从 verified public staging 归档到 source 页声明的
-`raw_file`，因此逐线表格的 source identity 更稳固；这不改变 Tonev06/07 同一
-Euroball lineage，也不补足 raw lifetime producer、feeding covariance 或 mixed-line
-`M1/E2` decomposition。
+### Stop Conditions (停止条件)
+在未获得原始符合计数矩阵、偏振计数或内转换数据前，严禁伪造连续高斯响应或给出任一混合比分支的后验概率；保持 L3 readiness 状态。
 
-Lv et al. 2025 的 `135Nd` 同谱系扩展新增 `17/2−_3`、band T 和
-`B(E2,752)/B(E2,908)=2.0(5)`，可补强 P3 的 transition identity 与相对 E2 层。
-由于它复用 2021 JUROGAM II 反应/阵列谱系，不能作为独立实验确认，也不能替代
-partner-resolved lifetime、绝对 `B` 矩阵或共同 covariance。
+### Non-Independent Evidence Ledger (非独立证据边界)
+Banik 2020、Jehangir 2022 和 Chakraborty 2023 全部基于加尔各答 VECC K-130 回旋加速器上的同一次 38-MeV INGA 实验（`vecc-131xe-inga-38mev-130te-a3n`，`independent_experiment_count: 1`）。三者绝不可当作三次独立的实验确认。
 
-## Candidate 4: Octupole
+## Candidate 3: 135Nd/134Pr partner-resolved absolute EM benchmark
 
-`knowledge/synthesis/shape-observable-matrix.md` 和
-`knowledge/synthesis/octupole-and-rare-electromagnetic-decay.md` 已把直接 E3、
-E1 links、E1 moment、交替宇称和模型 PES 分层。144/146Ba 中相近的直接 E3 中心值
-与显著不同的 E1 moment，以及220Rn/224Ra中E2/E3矩阵元不能单独区分静态投影和
-八极振动，是适合写成 evidence-ladder 论文的反例。投稿稿件必须保留作者解释、
-模型结果和实验直接量的分层，不把 `β3` 或“梨形”从单条跃迁强度直接推出。
+### Research Question & Core Objective
+在手征候选核 $^{135}\text{Nd}$ 与 $^{134}\text{Pr}$ 中，通过严格对齐能级寿命、带间/带内绝对跃迁几率 $B(M1)$ 与 $B(E2)$，区分理想静态手征双重带（static chiral doublet）、手征振动（chiral vibration）与软三轴组态混合（shape/configuration mixing）。
 
-新取得的公开全文增加了两个可复核锚点：`148Dy` 的 GRIFFIN fast-timing/branching
-分析给出 `B(E3;3−→0+)=46(3) W.u.`，并同时报告一个弱 `B(E1)` 分支；`224Ra`
-的 GRIFFIN/PACES lifetime/内转换分析给出多条 `B(E1)`、`B(E3)` 和 `Q_10`，
-且作者将其与先前 Coulomb-excitation 结果作为不同 observable 的独立验证。它们
-适合加入 P4 的 E3-first 与 E3/E1-separation 图表，但必须保留逐实验 response、
-feeding、IC 和 joint covariance，不把两种方法的误差直接合并。
+### Grounded Evidence & Primary Sources
+- Zhu et al. 2003 ([[zhu-2003-135nd-composite-chiral-pair]]): 报道 $^{135}\text{Nd}$ 具有准简并手征候选伙伴带；
+- Mukhopadhyay et al. 2007 ([[mukhopadhyay-2007-135nd-chiral-vibration-static]]): 提出从手征振动向静态手征转动的演化；
+- Tonev et al. 2006/2007 ([[tonev-2007-questioning-chirality-134pr]]): Euroball IV 测量 $^{134}\text{Pr}$ 伙伴带寿命，发现带间与带内 $B(E2)$ 存在严重不对称性，质疑静态手征转动；
+- Lv et al. 2025 ([[135nd-2025-tipped-precession-same-lineage-extension]]): JUROGAM II 阵列扩展 $^{135}\text{Nd}$ 高自旋能级纲图（报道 $17/2^-_3$ 态与 band T）。
 
-`90Zr` 又提供一项方法分离的交叉检查：2024 lifetime/plunger 正文报告
-`B(E3)=16(3) W.u.`，2026 safe Coulomb-excitation 正文报告
-`19.6^{+1.7}_{-1.6} W.u.`。它们可以构成 P4 的“方法一致性”图，但在完成 source
-version、branching、response、feeding 和 covariance 对齐前，不计算合并平均、不写
-“独立精确确认”。
+### Competing Hypotheses
+1. 静态手征双重带（三轴刚性转动下的非平面取向自发对称性破缺）
+2. 手征大振幅振动模式（左手与右手坐标系间的量子隧穿）
+3. $\gamma$ 软核转子与准粒子相互作用导致的形状共存/混合态
 
-Crossref also identifies a 2026 `209Pb` paper on a new `15/2−` octupole-state
-lifetime measurement (DOI `10.1016/j.nuclphysa.2025.123273`). It is a metadata-only
-route in the current window: no lifetime number, branching table, response or
-covariance was acquired, so it extends the candidate pool without changing the P4
-evidence ranking. The access boundary is recorded in
-[[octupole-2025-2026-new-e3-access-boundary]].
+### Minimal New Inputs
+- 同一能级标记下的伙伴态绝对寿命测定（通过 DSAM 或 RDDS）；
+- 统一算符约定（operator convention）下的带间连接跃迁 $E2/M1$ 混合比与线偏振；
+- 扣除 feeding 延迟与衰减过程的完整系统协方差矩阵。
 
-## Candidate 5: P-ADO
+### Response Matrix & Joint Covariance Contract
+必须统一不同实验（如 Euroball IV vs JUROGAM II）的能级退激分支比与分支归一化，冻结多步级联符合效率和减速介质阻止本领（stopping powers）不确定度。
 
-`knowledge/research-notes/pado-shared-alignment-null-profile.md` 对 Zobel 1983
-同一 `958-keV` 纯 E2 跃迁的十个 projectile/beam-energy 条件做了真实表格
-profile：共同 `sigma/J` 和共同 `rho` 在 `tau=1` 下没有共同区间，95%二维参考域
-仍需约 `tau=1.72`。这为“不能把跨 reaction alignment 当一个共享 nuisance”
-提供了可复核的条件性 falsifier。
+### Falsifiers (证伪判据)
+若高精度寿命测量确证两伙伴带的对应带内 $B(E2)$ 强度相差超过 3 倍，或两伙伴带带间跃迁的 $B(M1)$ 强度随自旋单调下降而非出现手征对称恢复峰值，则“理想手征双重带”假说被严格证伪。
 
-该候选的安全论文形态是 P-ADO 方法/数据合同审计；它不否定 P-ADO、Zobel 单行
-fit 或 feeding-aware 模型，也不提供实验 coverage。下一步应把 `alpha` 与 `12C`
-family 分开 profile，并与 Ionescu 的 discrete-feeding boundary 对照；只有取得
-真实 covariance 或公开 event-level input 后，才升级为正式 likelihood/coverage 论文。
+### Stop Conditions (停止条件)
+禁止在未取得原始寿命衰减曲线或直接多普勒频移峰形时，用唯象模型参数反推实验 $B(E2)$ 绝对值。
 
-## Candidate 6: `131Ce/133Ce` collective-mode identifiability
+### Non-Independent Evidence Ledger (非独立证据边界)
+Tonev 2006 与 Tonev 2007 共享同一套 Euroball IV 实验谱系；Lv 2025 沿用 2021 JUROGAM II 采集谱系。不能把同一实验团队在不同刊物上发表的相似寿命数值当成独立测定。
 
-`knowledge/research-notes/131ce-133ce-mode-identifiability-boundary.md` 将这个候选限制为一个可证伪的证据程序：先绑定 Bands 1–7 的 state/transition identity，再取得连接跃迁的 measured `δ`/偏振、partner-resolved lifetime 和 absolute `B(E2)/B(M1)`，最后用未参与主排序的 holdout（g factor、quadrupole invariant 或 HD–ND linking）区分 signature/configuration coupling、γ-soft response、wobbling、chirality 和 shape coexistence。
+## Candidate 4: Cross-mass octupole evidence ladder and source-page map
 
-当前最稳妥的论文主张是：公开 `131Ce/133Ce` 证据足以形成竞争解释矩阵，但现有数据不能唯一识别模式。`AW13-9` 的 `δ=0` 只产生条件派生强度，`LI04-1`–`LI04-5` 的寿命/`Q_t` 覆盖不同带，`D21-4`–`D21-9` 的 γ/PES 是模型结果；这些证据不能互相替代。该候选的 falsifier 是同一连接网络在共同 response/covariance 合同下出现一组模型不相交的预测，或新的 absolute EM/holdout 直接改变当前排序。
+### Research Question & Core Objective
+跨越偶偶核 $^{144,146}\text{Ba}$、双幻核 $^{132}\text{Sn}$、轻锕系 $^{220}\text{Rn}/^{224}\text{Ra}$ 及 $^{208}\text{Pb}$，建立从直接 $E3$ 矩阵元、交替宇称能带、$E1$ 跃迁电偶极矩到微观八极能面的证据梯级（evidence ladder），严格界定“增强的八极集体性”与“永久静态梨形形变”之间的判定边界。
 
-最可能的审稿人否证是“这只是已有 A≈130 综述的重排”。防守策略是冻结 line ledger、source lineage、branch parameterization 和 stop rule，并至少取得一项目标核独立 companion observable；在此之前，稿件定位应是 evidence/readiness method paper，不能写成新的 wobbling/chiral discovery。
+### Grounded Evidence & Primary Sources
+- Bucher et al. 2016/2017 ([[bucher-2016-144ba-direct-octupole]], [[bucher-2017-146ba-direct-octupole]]): GRETINA+CHICO2 安全库仑激发直接测量 $^{144,146}\text{Ba}$ 的 $B(E3; 0^+ \to 3^-_1)$；
+- Gaffney et al. 2013 ([[gaffney-2013-pear-shaped-rn-ra]]): REX-ISOLDE/MINIBALL 测量 $^{220}\text{Rn}$ 与 $^{224}\text{Ra}$ 库仑激发，揭示 $^{224}\text{Ra}$ 的强八极关联；
+- Rosiak et al. 2018 ([[rosiak-2018-132sn-enhanced-octupole]]): HIE-ISOLDE 库仑激发测得双幻核 $^{132}\text{Sn}$ 的增强单声子 $B(E3)$；
+- Henderson et al. 2025 ([[henderson-2025-208pb-deformation-collectivity]]): 多次库仑激发提取 $^{208}\text{Pb}$ 的 $3^-_1$ 态内禀四极矩。
 
+### Competing Hypotheses
+1. 稳定的静态非对称内禀形变（永久梨形 / rigid pear shape）
+2. 动态八极振动声子激发现象（harmonic or anharmonic octupole vibrations）
+3. 浅能面中的八极软核构型涨落与粒子-声子耦合态
+
+### Minimal New Inputs
+- 多重库仑激发下的完整对角化跃迁矩阵元集合（包括非对角 $E1, E2, E3$）；
+- 统一的跃迁方向定义（退激 $B(E3; 3^- \to 0^+)$ 与激发 $B(E3; 0^+ \to 3^-)$ 的统计权重因子 $(2J_i+1)/(2J_f+1)$ 审计）；
+- 独立于库仑激发的绝对寿命（如 GRIFFIN fast-timing / plunger 实验）。
+
+### Response Matrix & Joint Covariance Contract
+GOSIA 库仑激发多参数拟合中必须保留不同探测角与散射核碰撞参数之间的完全协方差，严禁仅摘录对角矩阵元而忽略对角与非对角参数间的强相关性。
+
+### Falsifiers (证伪判据)
+若对同一核素（如 $^{144}\text{Ba}$），直接测得的内禀电偶极矩 $D_0$ 与直接测得的 $Q_3$ 矩阵元之间不存在平均场自洽约束所要求的正相关关系，或高激发态 $3^-_2$ 呈现单声子而非两声子多重态结构，则“稳定静态八极形变”解释被证伪。
+
+### Stop Conditions (停止条件)
+严禁将单个 $B(E3)$ 测量值直接转化为固定的 $\beta_3$ 形变参数并宣称“证实了梨形形变”；必须保持直接矩阵元与唯象模型形变之间的分层边界。
+
+### Non-Independent Evidence Ledger (非独立证据边界)
+Bucher 2016 与 2017 共享 GRETINA+CHICO2 方法框架；Gaffney 2013 的 $^{220}\text{Rn}$ 与 $^{224}\text{Ra}$ 数据来自同一轮 MINIBALL 束流运行。
+
+## Candidate 5: P-ADO shared-alignment null falsifier
+
+### Research Question & Core Objective
+在在束核谱学提取跃迁多极混合比 $\delta$ 的角分布各向异性（ADO）分析中，检验“跨不同重离子聚变蒸发反应共享自旋取向参数 $\sigma/J$”假设的统计可辨识性与零假说成立条件。
+
+### Grounded Evidence & Primary Sources
+- Zobel et al. 1983 ([[zobel-1983-energy-projectile-alignment]]): 系统报道同一 $958\text{ keV}$ 纯 $E2$ 跃迁在 10 种不同反应入射通道（包括不同入射弹核与能量）下的自旋取向宽度 $\sigma$ 与对齐比；
+- Zheng et al. 2002 ([[zheng-2002-ado-coincidence-angular-anisotropy]]): 给出 ADO 各向异性比的标准双探测器角排布计算公式；
+- P-ADO 零假说审计账本 ([[pado-shared-alignment-null-profile]]): 基于 Zobel 1983 数据的联合剖面似然分析。
+
+### Competing Hypotheses
+1. 共享取向假说（不同反应具有普适的 $\sigma/J$ 或可通过固定比例因子迁移）
+2. 反应通道敏感假说（$\sigma/J$ 强烈依赖于反应入射角动量带入量、蒸发中子数及侧线 feeding 衰减特征）
+
+### Minimal New Inputs
+- 原始各反应通道的逐角拟合原始计数与非对角统计误差；
+- 离散能级前级侧线 feeding 的微观角动量取向保留因子。
+
+### Response Matrix & Joint Covariance Contract
+必须考虑不同角度探测器间的立体角几何减缩因子 $Q_k$ 与束流摆动（beam wander）带来的系统偏移协方差。
+
+### Falsifiers (证伪判据)
+Zobel 1983 十行表格的剖面似然分析已证实：在标准统计容限 $\tau=1$ 下，十种反应条件没有共同的 $\sigma/J$ 区间，联合容许域要求 $\tau=1.72$。这表明“跨反应强行共享单一取向参数”的零假说已被直接实验表格数据证伪。
+
+### Stop Conditions (停止条件)
+若实验未对特定反应进行原位（in-situ）自旋取向标定，停止将其他反应通道提取的 $\sigma/I$ 强行代入该实验作混合比精细提取。
+
+### Non-Independent Evidence Ledger (非独立证据边界)
+Zobel 1983 表格包含同一实验室在不同能量下的测量系列，需按弹核家族（$\alpha$ 系列 vs $^{12}\text{C}$ 系列）分层考查，不得混为独立样本。
+
+## Candidate 6: 131Ce/133Ce collective-mode identifiability
+
+### Research Question & Core Objective
+结合作者博士中期报告（iThemba LABS PR295 实验与 CIAE HI-13 实验）及 NuclearMap 微观先验，以 $^{132}\text{Ce}$ 三轴形变偶偶芯（$\beta=0.22, \gamma=17^\circ$）为基准，在 $^{133}\text{Ce}$（$N=75$）与 $^{131}\text{Ce}$（$N=73$）中利用新能级连接跃迁的混合比 $\delta$、线偏振度 $P$、寿命及绝对电磁跃迁几率，鉴别单准粒子非对称核转动（signature partner）、横向/纵向摆动（wobbling）、倾斜进动与 $\gamma$ 软核转子涨落。
+
+### Grounded Evidence & Primary Sources
+- 作者博士学位中期报告 (2026):
+  - $^{133}\text{Ce}$ (iThemba LABS PR295 实验): 发现 21 条新 $\gamma$ 跃迁，确立带头为 $13/2^-$ 的新低自旋带（含 12 条跃迁）；测得带间连接线具有小的负混合比（$|\delta| \lesssim 0.5$，$M1$ 主导）；发现 signature splitting 随自旋升高发生反转（signature inversion）；揭示三轴转子核芯沿 $N=75$ 同中子素链（$^{131}\text{Ba} \to {}^{133}\text{Ce} \to {}^{135}\text{Nd}$）由 $\gamma$ 软向 $\gamma$ 刚性演化；
+  - $^{131}\text{Ce}$ (中国原子能科学研究院 CIAE HI-13 串列实验): 在束谱学确立高自旋能级纲图与多极性，对称性夹抱 $N=74$ 三轴核芯 $^{132}\text{Ce}$；
+  - PDM 偏振-方向关联方法 (Chen, Guo et al., *NST* 审稿中): 解决无预设 $\sigma/I$ 下非对称误差传递问题；
+- Alwaleedi 2013 博士论文 ([[alwaleedi-2013-band-structures-131ce]]): 建立 $^{131}\text{Ce}$ Bands 1–7 骨架（但存在 $\delta=0$ 条件假设）；
+- NuclearMap JCNP PC-PK1 PES 先验 ([[nuclearmap-jcnp-pc-pk1]]): 提供 $^{132}\text{Ce}$ 与 $^{134}\text{Ce}$ 的微观三轴能面先验。
+
+### Competing Hypotheses
+1. 低自旋 signature partner 与高自旋带交叉组态混合；
+2. 奇中子三轴横向/纵向 wobbling 模式；
+3. 倾斜轴进动（Tilted precession）与手征候选关联；
+4. $\gamma$ 软核动力学涨落导致的伪摆动表象。
+
+### Minimal New Inputs
+- $^{133}\text{Ce}$ 实验矩阵的事件级时间门退卷积与逐角峰形拟合（区分 $g45/g90$ 瞬发门与符合矩阵）；
+- Bands 1–7 关键带间连接跃迁的高精度偏振不对称度与直接 $\delta$ 拟合；
+- $^{133}\text{Ce}$ 直接微观 PES 计算（当前仅有邻偶偶核 $^{132,134}\text{Ce}$ 映射）。
+
+### Response Matrix & Joint Covariance Contract
+必须在分析中区分瞬发符合窗（`g45/g90` prompt m4b arrays）与未切瞬发窗符合谱（`gg/hgg/vgg`）；严格记录几何立体角修正与符合效率矩阵。
+
+### Falsifiers (证伪判据)
+若新建立的 $13/2^-$ 侧带到主带的连接跃迁全部由 $M1$ 主导（$|\delta| < 0.3$ 且 $B(E2)_{\text{out}}/B(E2)_{\text{in}} < 0.1$），且带间跃迁能量随自旋增加单调上升，则“低自旋 wobbling 模式”假说被彻底证伪；若观测到高自旋带间存在强电四极跃迁（$B(E2) > 30\text{ W.u.}$）且伴随交替宇称双重态，则支持非对称集体转动。
+
+### Stop Conditions (停止条件)
+在未获得 $^{133}\text{Ce}$ 真实直接微观 PES、ROOT 原始事件树及符合时间响应展开前，不得虚构事件级计数或宣称已完成正式 L4 科学发现；保持受控 L3/partial-L4 准备度。
+
+### Non-Independent Evidence Ledger (非独立证据边界)
+iThemba LABS PR295 的 ROOT 矩阵（2751 个文件，4.52 GB）属于单一物理采集；作者中期报告提取的能谱与本 Wiki 分析共享该独占实验输入。
+
+## Candidate 7: Full-library claim calibration and epistemology ledger
+
+### Research Question & Core Objective
+对低能核结构领域近数十篇代表性文献中存在的“将唯象模型拟合、平均场能面极小值或作者假说升级为实验确立事实”的认知偏差进行系统性自审与语言校准，建立严谨的跨质量区知识治理与可证伪方法学框架。
+
+### Grounded Evidence & Primary Sources
+- 全库主张校准审计账本 ([[full-library-claim-calibration-audit-20261031]]);
+- 近期重点核查源：Hendrie 1968、Rohozinski 1988、Zagrebaev 2001、Piekarewicz 2004、Karmakar 2025、Bucher 2016/2017、Gaffney 2013、Rosiak 2018、Henderson 2025 等。
+
+### Competing Hypotheses
+1. 实验观测与理论模型自洽等价论（即认为高质量拟合等同于证实了物理机制）
+2. 证据分层与欠定性认识论（即同一实验能谱可由不同微观机制以相近精度再现）
+
+### Minimal New Inputs
+- 全库历史 source 页的 claim table 动词对照（将 `proved/confirmed` 改为 `consistent with/supports/within model space`）；
+- 逐篇文献的 primary locator、evidence level 与 independent experiment count 补全。
+
+### Response Matrix & Joint Covariance Contract
+建立跨源 claim 的层级依赖关系，区分原始实验数据层、数据规约派生层、唯象模型拟合层与作者推测层。
+
+### Falsifiers (证伪判据)
+若发现某条所谓“已确立模式”在去除模型辅助假设（如固定 $\sigma/I$、预设有效电荷 $e_{\text{eff}}$ 或冻结内禀四极矩）后，其实验观测值完全能够被另一正交物理机制以同等显著性解释，则该模式的“排他性确立”结论被直接推翻。
+
+### Stop Conditions (停止条件)
+严禁在知识库正文或论文草稿中使用“首个确证”、“彻底证明”、“完全排除所有替代解释”等绝对化词汇，除非获得独立 holdout 观测的排他性检验。
+
+### Non-Independent Evidence Ledger (非独立证据边界)
+同一大型实验装置（Gammasphere、Euroball、JUROGAM、INGA）在同一周期内获取的数据集产生的多篇论文，必须显式登记为同一采集谱系下的衍生分析。
 ## Paper Evidence Gate
 
 五个候选都需要：

@@ -3,9 +3,21 @@ type: source
 title: "Jehangir et al. 2022 - Extended TPSM for odd-neutron nuclei"
 aliases: [Odd-neutron TPSM extension 2022, Jehangir 2022 Xe TPSM]
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
+lineage_id: "vecc-131xe-inga-38mev-130te-a3n"
+lineage_role: dependent-theory-comparison
+independence: dependent-dataset
+independent_experiment_count: 1
+source_version_role: journal-and-arxiv
+version_relation: "journal-PRC-105-054310; alternate-arxiv-2203.12851v1"
+source_roles: [theory-comparison, odd-neutron-tpsm, shared-acquisition-comparison]
+raw_link_status: linked-and-manifest-hash-match
+source_raw_audit: linked-and-manifest-hash-match
+hash_verified_at: 2026-11-01
+review_scope: "JN22-1..JN22-14 self-audited; theoretical basis and calculation parameters; 131Xe experimental comparison is dependent on Banik 2020 Ref. [53]"
+promotion_blocker: "theory comparison does not constitute an independent 131Xe experiment"
 source_type: theory-paper
 reading_depth: deep-read
 title_original: "Extended triaxial projected shell model approach for odd-neutron nuclei"
@@ -26,7 +38,7 @@ raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hf
 raw_sha256: 2c2d428aa5d82b8951d8f927bc11ccd9d30ed791fd55d488ea9cfcfb6372dea5
 nuclei: [117Xe, 119Xe, 121Xe, 123Xe, 125Xe, 127Xe, 129Xe, 131Xe]
 reactions: []
-experiments: []
+experiments: [vecc-131xe-alpha-38mev]
 models: [triaxial-projected-shell-model, angular-momentum-projection, configuration-mixing]
 observables: [level-scheme, signature-splitting, aligned-angular-momentum, dynamic-moment-of-inertia, transition-quadrupole-moment]
 methods: [angular-momentum-projection, projected-configuration-mixing]
@@ -94,6 +106,15 @@ S. Jehangir et al., Physical Review C 105, 054310 (2022), DOI 10.1103/PhysRevC.1
 - Fig. 8–10 的振幅不能当作非正交组态的概率。此结果提醒模型选择不能只凭单个权重大小确定 configuration identity。
 - 已有人审的 [[chakraborty-2023-131xe-wobbling-origin]] 认为 131Xe 负宇称 yrare sequence 的低 E2 成分更符合 signature partner、未发现 wobbling 实验信号；2022 TPSM 的能谱再现不新增实验，也不单独裁定该争议。
 - JN22 Fig. 7 与 Chakraborty 2023 至少共享 Banik 2020 的 131Xe 数据谱系（JN22-12）；2023 的新分析提供对集体模式指认的反证，不等于第二次独立布居实验。
+
+
+## Day30 Lineage Audit: Shared INGA Acquisition Boundary
+
+Day30 定向审计确认：JN22 Fig. 7 中所展示的 131Xe 实测能级完全来自文献 Ref. [53]（即 Banik et al. 2020, PRC 101, 044306）。由于 Chakraborty et al. 2023 亦明确指出其能谱分析是对 Banik 等人在 VECC K-130 回旋加速器利用 38-MeV α 束流诱发 130Te(α,3nγ) 反应所获同一 INGA 数据集的重新整理与分析，因此 Banik 2020、Jehangir 2022 与 Chakraborty 2023 构成了同一个实验谱系 `vecc-131xe-inga-38mev-130te-a3n`（`independent_experiment_count: 1`）。JN22 的 TPSM 计算结果对 131Xe 实验数据的良好再现属于模型唯象描述，不提供独立于 Banik 2020 的实验物理判据。
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| JN22-D30-1 | JN22 的 131Xe 能谱比较完全基于 Banik 2020 Ref. [53] 数据；其计算与 Banik 2020 及 Chakraborty 2023 共享同一 INGA 实验谱系，不计为独立实验测量。 | lineage-boundary | direct | Fig. 7 caption, Ref. [53], PDF pp. 7, 16 | true |
 
 ## Knowledge Impact and Learning Decision
 

@@ -3,7 +3,7 @@ type: research-note
 title: "全库主张校准审计：实验事实、模型结果与作者解释的语言边界"
 aliases: [full-library claim calibration audit, expert cognition correction ledger]
 created: 2026-10-31
-updated: 2026-10-31
+updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -198,6 +198,23 @@ falsifier；若任一缺失，反向校准为 conditional/provisional wording。
 |---|---|---|---|---|---|
 | 2026-10-31 | full-library claim-language scan | none | provisional audit ledger | proof-like wording was found in representative model-heavy source pages; no source facts were rewritten | [[wiki-full-library-map-20261030]] |
 
+
+## Day30 Directed Calibration: Octupole Source Pages and Prospectus Connection
+
+在 Day30 收束复核中，对全库八极形变与稀有电磁跃迁文献进行语言边界校准。该类文献常出现将增强的 $B(E3)$ 跃迁概率或交替宇称能带直接等同于“静态梨形形变”或“两声子四重态证伪”的表述漂移。
+
+| Source page | Existing atomic claims | Safe reading | Calibrated language for prospectus |
+|---|---|---|---|
+| [[bucher-2016-144ba-direct-octupole]] | `BU16-1`–`BU16-3` are experimental-result; `BU16-4` is author-interpretation | GRETINA+CHICO2 安全库仑激发测量了 $B(E3; 0^+ \to 3^-_1) = 0.65(13)\text{ e}^2\text{b}^3$；梨形形变与手征八极是模型解释 | “Bucher 等报告了直接提取的 $B(E3)$ 跃迁强度；作者将其解释为支持增强八极集体性，但不能排他性排除动态八极振动。” |
+| [[bucher-2017-146ba-direct-octupole]] | `BU17-1`–`BU17-3` are experimental-result; `BU17-4` is author-interpretation | 测量了 $^{146}\text{Ba}$ 的 $B(E3; 0^+ \to 3^-_1) = 0.56(11)\text{ e}^2\text{b}^3$；其八极集体性略弱于 $^{144}\text{Ba}$ | “实验直接报告了 $^{146}\text{Ba}$ 的基态到 $3^-$ 跃迁矩阵元；模型对八极势阱稳定性的推论属于唯象解释。” |
+| [[gaffney-2013-pear-shaped-rn-ra]] | `GA13-1`–`GA13-5` are experimental-result; `GA13-6` is author-interpretation | REX-ISOLDE/MINIBALL 测量了 $^{220}\text{Rn}$ 与 $^{224}\text{Ra}$ 的 $B(E3)$；$^{224}\text{Ra}$ 增强显著且具交替宇称带，而 $^{220}\text{Rn}$ 呈现八极振动特征 | “Gaffney 等测量了直接 $E3$ 矩阵元；观测证据支持 $^{224}\text{Ra}$ 具有更强的八极关联，但静态形变概念仍依赖于平均场能面模型。” |
+| [[rosiak-2018-132sn-enhanced-octupole]] | `RO18-1`–`RO18-3` are experimental-result; `RO18-4` is model-interpretation | HIE-ISOLDE 库仑激发测得 $^{132}\text{Sn}$ 的 $B(E3; 3^-_1 \to 0^+_1) = 0.11(4)\text{ e}^2\text{b}^3$（约为 7 W.u.） | “测量确立了双幻核 $^{132}\text{Sn}$ 单声子 $3^-_1$ 态的增强电八极跃迁；两声子八极四重态在此单激发实验中未被观测，不能断言其缺失或破缺。” |
+| [[henderson-2025-208pb-deformation-collectivity]] | `HE25-1`–`HE25-3` are experimental-result; `HE25-4` is model-comparison | 测量了 $^{208}\text{Pb}$ 的 $3^-_1$ 静态四极矩 $Q_s$；证实其负四极矩与大八极集体性共存 | “实验提取了 $3^-_1$ 的内禀四极矩参数；作者提出其可能为两声子分裂机制提供先验，但两声子四重态的存在性仍未获实验结论性确认。” |
+
+**校准原则：**
+1. 严禁把 $B(E3)$ 测量直接写作“证实了原子核的永久梨形形变”；
+2. 严禁把高自旋交替宇称带的转动对齐行为直接等同于“非对称势阱的刚性转动”；
+3. 将八极研究候选严格组织为“电八极跃迁矩阵元梯级与静态/动态竞争解释判别”（Candidate 4 in Prospectus）。
 ## Human Review
 
 This is a Codex self-audit. `review_status: unreviewed`; no claim is promoted to

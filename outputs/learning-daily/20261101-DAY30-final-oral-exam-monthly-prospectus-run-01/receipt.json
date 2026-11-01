@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-11-01-day-30-01",
+  "day_index": 30,
+  "status": "completed",
+  "cycle_status": "complete",
+  "completed_day_indices": [
+    30
+  ],
+  "partial_day_indices": [],
+  "next_day_index": 31,
+  "completed_day_count": 30,
+  "session_id": "day-30-final-exam-session",
+  "resume_command": "codex resume day-30-final-exam-session -C /workspace/wiki -s danger-full-access -a never",
+  "report": "/workspace/wiki/outputs/learning-daily/20261101-DAY30-final-oral-exam-monthly-prospectus.md",
+  "day30_credit_status": "complete",
+  "oral_exam_score": "16/16 (4/4 on each of Theory, Spectroscopy, Controversy Evidence, and Research Design)",
+  "prospectus_candidates": [
+    "Candidate 1: 135Pr common-response evidence audit",
+    "Candidate 2: 131Xe low-spin identity and branch boundary",
+    "Candidate 3: 135Nd/134Pr partner-resolved absolute EM benchmark",
+    "Candidate 4: Cross-mass octupole evidence ladder and source-page map",
+    "Candidate 5: P-ADO shared-alignment null falsifier",
+    "Candidate 6: 131Ce/133Ce collective-mode identifiability",
+    "Candidate 7: Full-library claim calibration and epistemology ledger"
+  ],
+  "131xe_lineage_audit": {
+    "lineage_id": "vecc-131xe-inga-38mev-130te-a3n",
+    "independent_experiment_count": 1,
+    "papers_in_lineage": [
+      "Banik et al. 2020 PRC 101, 044306 (primary-analysis)",
+      "Jehangir et al. 2022 PRC 105, 054310 (dependent-theory-comparison)",
+      "Chakraborty et al. 2023 PRC 107, 064318 (dependent-reanalysis)"
+    ],
+    "794_parity_boundary": "unclosed without ICE measurement; Delta_PDCO=+0.03(1) insufficient for E1 certainty",
+    "882_branch_boundary": "dual roots (+0.09 and large/negative) uncollapsed without polarization"
+  },
+  "checks": {
+    "wiki_boundary_exit": 0,
+    "wiki_archive_gate_exit": 0,
+    "wiki_automation_preflight_exit": 0,
+    "wiki_knowledge_writeback_valid": true,
+    "curriculum_coverage_valid": true,
+    "report_valid": true,
+    "git_diff_check_exit": 0
+  }
+}
