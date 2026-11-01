@@ -1,15 +1,15 @@
 ---
 type: synthesis
-title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的74模块完整闭环指南"
-aliases: [核谱学实战全书, 核结构专家工作手册, 74模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
+title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的80模块完整闭环指南"
+aliases: [核谱学实战全书, 核结构专家工作手册, 80模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
 created: 2026-11-02
 updated: 2026-11-02
 status: active
 review_status: unreviewed
-topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 74-modules-suite, expert-field-manual]
+topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 80-modules-suite, expert-field-manual]
 ---
 
-# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的74模块完整闭环指南
+# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的80模块完整闭环指南
 
 ## 1. 宣言与专家心智模型：大模型如何以世界级核物理学家身份工作
 
@@ -25,9 +25,9 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
 
 ---
 
-## 2. 七大科研实战阶段与 74 大科学分析模块调用图谱
+## 2. 七大科研实战阶段与 80 大科学分析模块调用图谱
 
-本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **74 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
+本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **80 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
 
 ```text
  [Phase 1: 实验提案与反应动力学]
@@ -53,6 +53,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ balance    ── 级联进出强度守恒与内转换电子纠偏
    │ ensdf      ── 国际 ENSDF 标准数据库交叉比对
    │ bricc      ── BrIcc 参数化内转换系数绝对计算
+   │ gslice     ── 在束二维符合矩阵切片、Radford 背景扣除与级联检验
    │ nilsson    ── 变形 Nilsson 平均场单粒子轨道对角化与能级演化
    │ mqp        ── 多准粒子态 (mqp) 阻塞 BCS 对隙淬灭与高 K 同质异能态
    │ calorim    ── 复合核多步 gamma 级联量能学与 (E_sum, M_gamma) 通道分选
@@ -69,6 +70,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ gk         ── Nilsson 内禀 g_K 因子、磁偶极矩 mu 与 B(M1)/B(E2) 分支比反演
    │ effcharge  ── 核芯微观极化率、GQR 耦合与核子有效电荷 (e_p_eff, e_n_eff)
    │ ias        ── 同位旋类似态 (IAS) 库仑位移能与镜像核 CED 对齐判定
+   │ nsa        ── Nolen-Schiffer 库仑位移反常 (NSA) 与 CSB 介子混合力
    │ alaga      ── Weisskopf 单粒子单位与轴对称转子 Alaga 分支
    │ ipc        ── 高能电磁跃迁内电子对产生 (IPC)、e+ e- 开角关联与 E0 纯对衰变
    │ tdpad      ── 时间差分扰动角分布与三矢量手征 g 因子
@@ -76,6 +78,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
  [Phase 5: 高自旋集体运动与转动能谱演化]
    │ routhian   ── 旋转标架 Routhian 能量与准粒子对齐 ix
    │ moi        ── 运动学 J(1) 与动力学 J(2) 转动惯量分析
+   │ amp        ── 量子角动量投影 (AMP)、恢复旋转对称性与 Peierls-Yoccoz 谱
    │ shears     ── 磁转动剪刀机制与 B(M1)/B(E2) 抛物线衰减
    │ signature  ── 旋称交错 S(I) 追踪与高自旋旋称倒转判决
    │ sd         ── 超形变 (SD) 动力学平坦度与势垒穿透衰变
@@ -90,12 +93,14 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ wobbling   ── Davydov-Filippov 转子、横向/纵向摆动模型与伪摆动排他性证伪
    │ chiral     ── 3D TAC 倾斜轴推转手征几何、非共面体积度规与四项裁判
    │ chvibe     ── 手征双阱集体势、WKB 量子隧穿劈裂 Delta_E(I) 与相变演化
+   │ mwob       ── 多声子摆动运动 (nw = 0,1,2)、非简谐参数与选择定则审计
    │ tidal      ── 弱形变过渡区潮汐波行波动力学与 B(E2) 线性标度
    │ e0         ── 形状共存两态混合模型与单极强度 rho^2(E0)
    │ ibm        ── 相互作用玻色子模型与 Casten 三角形相变
    ▼
  [Phase 7: 滴线物理、微观泛函与核天体前沿]
    │ gt         ── 伽莫夫-泰勒巨共振、Ikeda 求和与 gA 介质淬灭
+   │ sdr        ── 自旋-偶极巨共振 (SDR) 0-,1-,2- 多极分解与中子皮求和规则
    │ halo       ── 中子晕核 Hansen-Jonson 动量宽与软 E1 共振
    │ fission    ── 双峰裂变势垒、Hill-Wheeler 穿透与超重核合成
    │ fissfrag   ── 多模式裂变碎片质量产额 Y(A)、Viola TKE 与中子锯齿谱
@@ -103,6 +108,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ oslo       ── 奥斯陆方法主跃迁矩阵解卷积与低能增强 (LEE)
    │ pairvib    ── BCS 相干对转移增强与闭壳配对振动声子谱
    │ rmf        ── 相对论平均场 (RMF)、自旋-轨道耦合与狄拉克赝自旋
+   │ rmfeos     ── 相对论平均场对称能 S(rho)、斜率 L 与中子星物态方程 (EOS)
    │ strut      ── Strutinsky 微观壳修正能平滑方法与平顶条件 (Plateau Condition)
    │ radius     ── 原子核均方电荷半径、同位素移与 King 图线性回归
    │ radioact   ── 质子滴线单质子 WKB、Goldanskii 真双质子与团簇放射性
@@ -391,7 +397,25 @@ python3 system/scripts/analysis/nuclear_analyzer.py strut -N 82 -g 8.5
 # 73. Nilsson 内禀 g_K 因子与 B(M1)/B(E2) 分支比
 python3 system/scripts/analysis/nuclear_analyzer.py gk --omega 2.5 --lambda-val 2 -A 131 -Z 56 --neutron --invert
 
-# 74. 全套 74 大模块自动化回归自测 (100% 绿灯)
+# 74. 量子角动量投影 (AMP) 与 Peierls-Yoccoz 谱
+python3 system/scripts/analysis/nuclear_analyzer.py amp --max-spin 10 --jy2 35.0 --a-rot 0.025
+
+# 75. 自旋-偶极巨共振 (SDR) 与中子皮求和规则
+python3 system/scripts/analysis/nuclear_analyzer.py sdr -Z 82 -A 208 --s-minus 1030.0
+
+# 76. 在束二维符合矩阵切片与 Radford 扣除
+python3 system/scripts/analysis/nuclear_analyzer.py gslice -G 350.0 -W 12.0
+
+# 77. Nolen-Schiffer 库仑位移反常与 CSB 核力
+python3 system/scripts/analysis/nuclear_analyzer.py nsa --preset 41Sc_41Ca
+
+# 78. 多声子摆动运动 (nw=0,1,2) 与非简谐性
+python3 system/scripts/analysis/nuclear_analyzer.py mwob --hw 320.0 --delta-anharm -40.0
+
+# 79. RMF 核物质对称能 S(rho) 与斜率 L
+python3 system/scripts/analysis/nuclear_analyzer.py rmfeos --model DD_ME2
+
+# 80. 全套 80 大模块自动化回归自测 (100% 绿灯)
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

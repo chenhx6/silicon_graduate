@@ -106,6 +106,12 @@ from chiral_vibrational_tunneling_calculator import evaluate_chiral_potential_at
 from clover_compton_addback_polarization_calculator import calculate_clover_addback_factor, analyze_clover_polarization
 from strutinsky_shell_correction_calculator import calculate_strutinsky_shell_correction
 from nilsson_magnetic_moment_gk_calculator import calculate_nilsson_gk, calculate_magnetic_dipole_moment, invert_gk_from_bm1_be2
+from angular_momentum_projection_amp_calculator import project_rotational_spectrum
+from spin_dipole_resonance_sdr_calculator import calculate_sdr_sum_rule, invert_neutron_skin_from_sdr
+from gamma_gamma_matrix_slicer_calculator import generate_synthetic_cascade_matrix, slice_matrix_gate
+from nolen_schiffer_isospin_anomaly_calculator import evaluate_nolen_schiffer_anomaly
+from multiphonon_wobbling_anharmonic_calculator import evaluate_multiphonon_wobbling_energies, audit_multiphonon_wobbling_candidate
+from rmf_symmetry_energy_slope_calculator import calculate_rmf_symmetry_energy, scan_symmetry_energy_curve
 
 
 def test_heavy_ion_kinematics():
@@ -1396,6 +1402,71 @@ def test_nilsson_magnetic_moment_gk_calculator():
     assert inv["extracted_abs_gK_minus_gR"] > 0.0, "Must extract non-zero |gK - gR|"
     print("  ✓ nilsson_magnetic_moment_gk_calculator passed.")
 
+
+def test_angular_momentum_projection_amp_calculator():
+    print("Testing angular_momentum_projection_amp_calculator...")
+    spec = project_rotational_spectrum(max_spin_I=6, Jy2_expectation=30.0, E_intrinsic_MeV=-120.0, A_rot_peierls_MeV=0.020)
+    assert len(spec) == 4, "Should project I = 0, 2, 4, 6"
+    assert spec[0]["spin_I"] == 0, "First state must be I=0"
+    assert spec[0]["projected_norm_N_I"] > 0, "Norm must be positive"
+    print("  ✓ angular_momentum_projection_amp_calculator passed.")
+
+
+def test_spin_dipole_resonance_sdr_calculator():
+    print("Testing spin_dipole_resonance_sdr_calculator...")
+    th = calculate_sdr_sum_rule(Z=82, A=208, delta_r_np_fm=0.16)
+    assert 900.0 < th["total_SDR_sum_rule_fm2"] < 1300.0, f"208Pb SDR sum rule unexpected: {th['total_SDR_sum_rule_fm2']}"
+    assert th["multipole_SDR_2_minus_fm2"] > th["multipole_SDR_1_minus_fm2"], "2- multipole has largest 2J+1 weight"
+
+    inv = invert_neutron_skin_from_sdr(S_minus_exp_fm2=1030.0, S_plus_exp_fm2=0.0, Z=82, A=208)
+    assert 0.05 < inv["extracted_neutron_skin_fm"] < 0.20, f"Extracted neutron skin out of range: {inv['extracted_neutron_skin_fm']}"
+    print("  ✓ spin_dipole_resonance_sdr_calculator passed.")
+
+
+def test_gamma_gamma_matrix_slicer_calculator():
+    print("Testing gamma_gamma_matrix_slicer_calculator...")
+    mat = generate_synthetic_cascade_matrix(cascade_energies_keV=[200.0, 350.0, 500.0, 650.0], matrix_dim=100)
+    assert mat["total_matrix_counts"] > 100000.0, "Matrix counts sanity check"
+
+    sl = slice_matrix_gate(mat, gate_energy_keV=350.0, gate_width_keV=12.0)
+    assert sl["peak_to_background_ratio"] > 0.3, "P/B ratio check"
+    assert len(sl["coincident_cascade_peaks"]) == 3, "Should find 3 coincident cascade peaks"
+    assert sl["coincident_cascade_peaks"][0]["net_coincident_area"] > 1000.0, "Coincidence area check"
+    print("  ✓ gamma_gamma_matrix_slicer_calculator passed.")
+
+
+def test_nolen_schiffer_isospin_anomaly_calculator():
+    print("Testing nolen_schiffer_isospin_anomaly_calculator...")
+    res = evaluate_nolen_schiffer_anomaly(Z_core=20, A_mass=41, Delta_E_C_exp_MeV=7.278, r_charge_fm=3.48)
+    assert 150.0 < res["nolen_schiffer_anomaly_keV"] < 350.0, f"41Sc NSA unexpected: {res['nolen_schiffer_anomaly_keV']}"
+    assert res["underestimation_percentage"] > 2.0, "Theoretical underestimation must be positive"
+    assert "CSB" in res["csb_mechanism_verdict"], "Must diagnose CSB force need"
+    print("  ✓ nolen_schiffer_isospin_anomaly_calculator passed.")
+
+
+def test_multiphonon_wobbling_anharmonic_calculator():
+    print("Testing multiphonon_wobbling_anharmonic_calculator...")
+    th = evaluate_multiphonon_wobbling_energies(omega_wob_keV=320.0, Delta_anharm_keV=-40.0)
+    assert th["energy_ratio_R21"] < 2.0, "Subharmonic softening check"
+    assert "Subharmonic" in th["classification"], "Should classify as subharmonic softening"
+
+    aud = audit_multiphonon_wobbling_candidate(E0_keV=0.0, E1_keV=320.0, E2_keV=600.0, be2_2_to_1=0.62, be2_1_to_0=0.32, be2_2_to_0=0.015)
+    assert aud["score"] == "3/3", "Must satisfy all 3 multi-phonon wobbling checks"
+    assert "CONFIRMED" in aud["verdict"], "Should confirm two-phonon wobbling candidate"
+    print("  ✓ multiphonon_wobbling_anharmonic_calculator passed.")
+
+
+def test_rmf_symmetry_energy_slope_calculator():
+    print("Testing rmf_symmetry_energy_slope_calculator...")
+    eos_ddme2 = calculate_rmf_symmetry_energy(rho=0.153, J_val_MeV=32.3, L_val_MeV=51.2)
+    assert 30.0 < eos_ddme2["symmetry_energy_S_MeV"] < 35.0, "Symmetry energy at saturation check"
+    assert 11.5 < eos_ddme2["predicted_NS_radius_1p4Msun_km"] < 13.5, "Neutron star radius check"
+    assert eos_ddme2["crust_core_transition_density_fm3"] > 0.05, "Crust-core transition density check"
+
+    curve = scan_symmetry_energy_curve(J_val_MeV=32.3, L_val_MeV=51.2)
+    assert len(curve) > 10, "Density scan check"
+    print("  ✓ rmf_symmetry_energy_slope_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -1472,4 +1543,10 @@ if __name__ == "__main__":
     test_clover_compton_addback_polarization_calculator()
     test_strutinsky_shell_correction_calculator()
     test_nilsson_magnetic_moment_gk_calculator()
-    print("ALL 74 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_angular_momentum_projection_amp_calculator()
+    test_spin_dipole_resonance_sdr_calculator()
+    test_gamma_gamma_matrix_slicer_calculator()
+    test_nolen_schiffer_isospin_anomaly_calculator()
+    test_multiphonon_wobbling_anharmonic_calculator()
+    test_rmf_symmetry_energy_slope_calculator()
+    print("ALL 80 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

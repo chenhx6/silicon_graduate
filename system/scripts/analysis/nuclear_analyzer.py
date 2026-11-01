@@ -92,6 +92,12 @@ from chiral_vibrational_tunneling_calculator import evaluate_chiral_potential_at
 from clover_compton_addback_polarization_calculator import calculate_clover_addback_factor, analyze_clover_polarization, format_text_report as format_clover_report
 from strutinsky_shell_correction_calculator import calculate_strutinsky_shell_correction, scan_strutinsky_plateau, format_text_report as format_strut_report
 from nilsson_magnetic_moment_gk_calculator import calculate_nilsson_gk, calculate_magnetic_dipole_moment, invert_gk_from_bm1_be2, format_text_report as format_gk_report
+from angular_momentum_projection_amp_calculator import project_rotational_spectrum, format_text_report as format_amp_report
+from spin_dipole_resonance_sdr_calculator import calculate_sdr_sum_rule, invert_neutron_skin_from_sdr, format_text_report as format_sdr_report
+from gamma_gamma_matrix_slicer_calculator import generate_synthetic_cascade_matrix, slice_matrix_gate, format_text_report as format_gslice_report
+from nolen_schiffer_isospin_anomaly_calculator import calculate_theoretical_coulomb_displacement, evaluate_nolen_schiffer_anomaly, format_text_report as format_nsa_report
+from multiphonon_wobbling_anharmonic_calculator import evaluate_multiphonon_wobbling_energies, audit_multiphonon_wobbling_candidate, format_text_report as format_mwob_report
+from rmf_symmetry_energy_slope_calculator import calculate_rmf_symmetry_energy, scan_symmetry_energy_curve, format_text_report as format_rmfeos_report
 
 
 def cmd_kinematics(args):
@@ -1694,6 +1700,88 @@ def cmd_gk(args):
     else:
         print(format_gk_report(summary))
 
+def cmd_amp(args):
+    spec = project_rotational_spectrum(args.max_spin, args.jy2, args.e_int, args.a_rot)
+    summary = {"Jy2_expectation": args.jy2, "E_intrinsic_MeV": args.e_int, "A_rot_peierls_MeV": args.a_rot, "projected_spectrum": spec}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_amp_report(summary))
+
+
+def cmd_sdr(args):
+    th_res = calculate_sdr_sum_rule(args.Z, args.A, delta_r_np_fm=args.skin)
+    summary = {"theory": th_res}
+    if args.s_minus is not None:
+        summary["experiment"] = invert_neutron_skin_from_sdr(args.s_minus, args.s_plus, args.Z, args.A)
+    elif args.Z == 82 and args.A == 208:
+        summary["experiment"] = invert_neutron_skin_from_sdr(1030.0, 0.0, 82, 208)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_sdr_report(summary))
+
+
+def cmd_gslice(args):
+    mat_res = generate_synthetic_cascade_matrix(e_max_keV=args.e_max)
+    slice_res = slice_matrix_gate(mat_res, args.gate, args.width)
+    summary = {
+        "matrix_dim": mat_res["matrix_dim"], "energy_max_keV": mat_res["energy_max_keV"],
+        "total_matrix_counts": mat_res["total_matrix_counts"], "cascade_energies_keV": mat_res["cascade_energies_keV"],
+        "sliced_gate": slice_res
+    }
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_gslice_report(summary))
+
+
+def cmd_nsa(args):
+    z, a, ec, rch = args.zcore, args.mass, args.exp_ec, args.r_ch
+    summary = evaluate_nolen_schiffer_anomaly(z, a, ec, rch)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_nsa_report(summary))
+
+
+def cmd_mwob(args):
+    th_res = evaluate_multiphonon_wobbling_energies(args.hw, args.delta_anharm)
+    summary = {"theoretical_model": th_res}
+    if args.audit or args.e2 != 600.0:
+        summary["experimental_audit"] = audit_multiphonon_wobbling_candidate(args.e0, args.e1, args.e2, args.be2_21, args.be2_10, args.be2_20)
+    elif args.hw == 320.0:
+        summary["experimental_audit"] = audit_multiphonon_wobbling_candidate(0.0, 320.0, 600.0, 0.62, 0.32, 0.015)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_mwob_report(summary))
+
+
+def cmd_rmfeos(args):
+    mod = {"J_MeV": 32.3, "L_MeV": 51.2}
+    if args.model == "NL3":
+        mod = {"J_MeV": 37.4, "L_MeV": 118.5}
+    elif args.model == "NL3_star":
+        mod = {"J_MeV": 38.6, "L_MeV": 122.0}
+    elif args.model == "FSUGold":
+        mod = {"J_MeV": 32.6, "L_MeV": 60.5}
+    j_val = args.J if args.J is not None else mod["J_MeV"]
+    l_val = args.L if args.L is not None else mod["L_MeV"]
+    pt_res = calculate_rmf_symmetry_energy(args.rho, j_val, l_val)
+    curve_res = scan_symmetry_energy_curve(j_val, l_val)
+    summary = {"model_preset": args.model, "saturation_point": pt_res, "density_scan": curve_res}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_rmfeos_report(summary))
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -2527,6 +2615,65 @@ def main():
     p_gk.add_argument("--i-step", type=float, default=100.0, help="Intensity of M1+E2 stopover")
     p_gk.add_argument("--json", action="store_true", help="Output results in JSON format")
     p_gk.set_defaults(func=cmd_gk)
+
+    # Angular Momentum Projection (AMP) & Peierls-Yoccoz Rotational Spectrum
+    p_amp = subparsers.add_parser("amp", help="Quantum angular momentum projection (AMP) from deformed intrinsic states")
+    p_amp.add_argument("--max-spin", type=int, default=10, help="Maximum spin I to project (default: 10)")
+    p_amp.add_argument("--jy2", type=float, default=35.0, help="Intrinsic <Jy^2> dispersion in hbar^2 (default: 35.0)")
+    p_amp.add_argument("--e-int", type=float, default=-120.0, help="Intrinsic state energy in MeV (default: -120.0)")
+    p_amp.add_argument("--a-rot", type=float, default=0.025, help="Peierls-Yoccoz rotational constant in MeV (default: 0.025)")
+    p_amp.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_amp.set_defaults(func=cmd_amp)
+
+    # Spin-Dipole Resonance (SDR) & Neutron Skin Sum Rule
+    p_sdr = subparsers.add_parser("sdr", help="Nuclear spin-dipole resonance (SDR) sum rule and neutron skin analyzer")
+    p_sdr.add_argument("-Z", type=int, default=82, help="Proton number Z (default: 82)")
+    p_sdr.add_argument("-A", type=int, default=208, help="Mass number A (default: 208)")
+    p_sdr.add_argument("--skin", type=float, default=0.16, help="Assumed neutron skin in fm (default: 0.16)")
+    p_sdr.add_argument("--s-minus", type=float, default=None, help="Experimental S_- in fm^2")
+    p_sdr.add_argument("--s-plus", type=float, default=0.0, help="Experimental S_+ in fm^2")
+    p_sdr.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_sdr.set_defaults(func=cmd_sdr)
+
+    # Gamma-Gamma Coincidence Matrix Slicing & Radware Background
+    p_gslice = subparsers.add_parser("gslice", help="2D gamma-gamma coincidence matrix slicing and Radford background subtraction")
+    p_gslice.add_argument("-G", "--gate", type=float, default=350.0, help="Gated gamma energy in keV (default: 350.0)")
+    p_gslice.add_argument("-W", "--width", type=float, default=12.0, help="Gate energy width in keV (default: 12.0)")
+    p_gslice.add_argument("--e-max", type=float, default=1000.0, help="Maximum matrix energy in keV")
+    p_gslice.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_gslice.set_defaults(func=cmd_gslice)
+
+    # Nolen-Schiffer Isospin Anomaly & CSB
+    p_nsa = subparsers.add_parser("nsa", help="Nolen-Schiffer isospin anomaly and charge-symmetry-breaking (CSB) analyzer")
+    p_nsa.add_argument("-Z", "--zcore", type=int, default=20, help="Core proton number Z (default: 20)")
+    p_nsa.add_argument("-A", "--mass", type=int, default=41, help="Mass number A (default: 41)")
+    p_nsa.add_argument("--exp-ec", type=float, default=7.278, help="Experimental Delta_E_C in MeV (default: 7.278)")
+    p_nsa.add_argument("--r-ch", type=float, default=3.48, help="Charge radius in fm (default: 3.48)")
+    p_nsa.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_nsa.set_defaults(func=cmd_nsa)
+
+    # Multi-Phonon Wobbling Hierarchy (nw = 0, 1, 2)
+    p_mwob = subparsers.add_parser("mwob", help="Multi-phonon wobbling hierarchy (nw = 0, 1, 2) and anharmonicity analyzer")
+    p_mwob.add_argument("--hw", type=float, default=320.0, help="One-phonon wobbling energy in keV (default: 320.0)")
+    p_mwob.add_argument("--delta-anharm", type=float, default=-40.0, help="Anharmonic shift in keV (default: -40.0)")
+    p_mwob.add_argument("--audit", action="store_true", help="Perform experimental candidate audit")
+    p_mwob.add_argument("--e0", type=float, default=0.0, help="Bandhead 0 energy in keV")
+    p_mwob.add_argument("--e1", type=float, default=320.0, help="1-phonon band energy in keV")
+    p_mwob.add_argument("--e2", type=float, default=600.0, help="2-phonon band energy in keV")
+    p_mwob.add_argument("--be2-21", type=float, default=0.62, help="B(E2; 2->1) in e^2 b^2")
+    p_mwob.add_argument("--be2-10", type=float, default=0.32, help="B(E2; 1->0) in e^2 b^2")
+    p_mwob.add_argument("--be2-20", type=float, default=0.015, help="B(E2; 2->0) in e^2 b^2")
+    p_mwob.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_mwob.set_defaults(func=cmd_mwob)
+
+    # RMF Nuclear Symmetry Energy S(rho) & Slope L
+    p_reos = subparsers.add_parser("rmfeos", help="RMF nuclear symmetry energy S(rho), slope L and neutron star EOS analyzer")
+    p_reos.add_argument("--model", type=str, default="DD_ME2", choices=["NL3", "NL3_star", "DD_ME2", "FSUGold"], help="RMF parameter set")
+    p_reos.add_argument("--J", type=float, default=None, help="Custom bulk symmetry energy J in MeV")
+    p_reos.add_argument("--L", type=float, default=None, help="Custom slope parameter L in MeV")
+    p_reos.add_argument("--rho", type=float, default=0.153, help="Density in fm^-3 (default: 0.153)")
+    p_reos.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_reos.set_defaults(func=cmd_rmfeos)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

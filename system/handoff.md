@@ -3,6 +3,21 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T19:30:00+08:00 (量子角动量投影AMP、自旋偶极SDR、符合矩阵切片、Nolen-Schiffer反常、多声子摆动与RMF对称能斜率L等6大分析器落地，80模块闭环)
+
+- **全域核物理理论与在束实验分析系统化闭环拓展（74 -> 80 模块）**：
+  - **模块 75**：量子角动量投影（AMP）与 Peierls-Yoccoz 转动能谱计算器（`angular_momentum_projection_amp_calculator.py`），利用 Wigner $D$ 矩阵旋转群积分从内禀破缺态中严格恢复实验室纯自旋态，通过高斯重叠近似（GOA）求解范数核与哈密顿核，自洽导出满足 $I(I+1)$ 的转动能带能级并解算微观转动惯量 $\mathcal{J}_{\text{PY}}$；
+  - **模块 76**：自旋-偶极巨共振（SDR）多极分解与中子皮求和规则计算器（`spin_dipole_resonance_sdr_calculator.py`），建立包含 $0^-, 1^-, 2^-$ 负宇称通道的模型无关电荷交换求和定则 $S_- - S_+ = \frac{9}{4\pi}(N \langle r_n^2 \rangle - Z \langle r_p^2 \rangle)$，给出由实测 $(p, n)$ 截面直接反演中子均方根半径与中子皮厚度 $\Delta r_{np}$ 的无模型代数方程；
+  - **模块 77**：在束 $\gamma-\gamma$ 二维符合矩阵切片与 Radford 2D 背景扣除计算器（`gamma_gamma_matrix_slicer_calculator.py`），基于 Radware / ESCL8R 算法消除“康普顿-康普顿”与“康普顿-峰”连续底，输出平坦基线上的纯符合峰，严格判定能级级联互符合与互斥分支结构；
+  - **模块 78**：Nolen-Schiffer 同位旋反常（NSA）与电荷对称性破缺（CSB）核力分析器（`nolen_schiffer_isospin_anomaly_calculator.py`），解构直接 Hartree 库仑能、Fock 交换能与自旋-轨道耦合贡献，量化镜像核位移能 $\Delta E_C$ 面临的系统性微观亏损，确立夸克质量差与 $\rho^0 - \omega$ 介子混合引致的微观电荷对称性破缺（CSB）核力机制；
+  - **模块 79**：多声子摆动运动（$n_w = 0, 1, 2$）非简谐参数与电磁跃迁选择定则审计器（`multiphonon_wobbling_anharmonic_calculator.py`），求解四阶非简谐微扰位移 $\Delta_{\text{anharm}}$ 与非简谐参数 $A_{\text{anharm}} = (R_{21}/2) - 1.0$，确立跨步跃迁相干倍增律 $B(E2; 2 \to 1) \approx 2 \times B(E2; 1 \to 0)$ 与交叉双声子跃迁绝对受阻律（$B(E2; 2 \to 0) \approx 0$）的刚性实验裁判法典；
+  - **模块 80**：相对论平均场（RMF）核物质对称能 $S(\rho)$、密度斜率 $L$ 与中子星物态方程（EOS）分析器（`rmf_symmetry_energy_slope_calculator.py`），微观分解相对论费米动能与等矢矢量 $\rho$ 介子势能项，推导对称能密度斜率参数 $L$ 与纯中子物质压强 $P_{\text{PNM}}(\rho_0) = \frac{1}{3}\rho_0 L$，建立地壳-地核相变密度 $\rho_t$ 与 $1.4 M_\odot$ 中子星半径 $R_{\text{NS}}$ 宏观天体约束方程；
+  - **知识大脑与测试全绿**：
+    - 撰写 6 篇权威概念专论，更新 `knowledge/index.md`；
+    - 升级 `nuclear-spectroscopy-and-structure-master-field-manual.md` 为 80 模块完整闭环指南；
+    - 统一 CLI `nuclear_analyzer.py` 新增 `amp`, `sdr`, `gslice`, `nsa`, `mwob`, `rmfeos` 子命令；
+    - `test_analysis_suite.py` 自动化回归测试扩展至 **80 大科学分析模块 100% 绿灯全通**！
+
 ## Active checkpoint — 2026-11-02T18:30:00+08:00 (相对论弹核碎裂、手征双阱WKB隧穿、Clover偏振加和、Strutinsky平滑与Nilsson磁矩5大分析器落地，74模块闭环)
 
 - **全域核物理理论与在束实验分析系统化闭环拓展（69 -> 74 模块）**：
