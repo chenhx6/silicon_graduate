@@ -73,6 +73,7 @@ from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, e
 from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wkb_lifetime, check_goldanskii_true_2p_condition, model_two_proton_jacobi_distribution, calculate_cluster_radioactivity_wkb, diagnose_drip_line_decay_competition
 from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_window, calculate_sommerfeld_parameter, convert_cross_section_to_s_factor, calculate_nonresonant_reaction_rate, calculate_resonant_reaction_rate
 from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplitudes, solve_analytic_single_mode_qrpa, scan_pnqrpa_gpp_sensitivity, diagnose_qrpa_stability
+from surface_delta_interaction_pandya_calculator import calculate_clebsch_gordan, calculate_wigner_6j, calculate_sdi_matrix_element, calculate_single_j_sdi_spectrum, perform_pandya_transformation, benchmark_sc42_k40_pandya
 
 
 def test_heavy_ion_kinematics():
@@ -871,6 +872,29 @@ def test_qrpa_matrix_vibrational_calculator():
     assert diag["is_stable"] == True, "Stability diagnosis mismatch"
     print("  ✓ qrpa_matrix_vibrational_calculator passed.")
 
+
+def test_surface_delta_interaction_pandya_calculator():
+    print("Testing surface_delta_interaction_pandya_calculator...")
+    # Clebsch-Gordan and 6j exactness tests
+    cg = calculate_clebsch_gordan(0.5, 0.5, 0.5, -0.5, 0.0, 0.0)
+    assert abs(cg - 1.0 / np.sqrt(2.0)) < 1e-10, "Clebsch-Gordan calculation mismatch"
+
+    w6 = calculate_wigner_6j(3.5, 3.5, 0.0, 3.5, 3.5, 0.0)
+    assert abs(w6 - (-0.125)) < 1e-10, f"Wigner 6j calculation mismatch: {w6}"
+
+    # SDI single-j pairing spectrum test
+    sdi = calculate_single_j_sdi_spectrum(j_val=3.5, l_val=3, V0_MeV=1.0)
+    assert sdi["is_exact_pairing_energy"] == True, "J=0 state must exhibit exact -V0*(j+1/2) pairing energy"
+    assert abs(sdi["E_J0_actual_MeV"] - (-4.0)) < 1e-4, f"E(J=0) mismatch: {sdi['E_J0_actual_MeV']}"
+    assert abs(sdi["spectrum"][1]["V_SDI_MeV"] - (-0.9524)) < 1e-3, "E(J=2) mismatch"
+
+    # Pandya involution P^2 = I test
+    bm = benchmark_sc42_k40_pandya()
+    assert bm["P2_verified"] == True, "Pandya matrix must satisfy P^2 = I (unitary involution)"
+    assert bm["ground_state_pp_spin"] == 0, "42Sc ground state must be J=0+"
+    assert bm["ground_state_ph_spin"] != 0, "Particle-hole ground state must invert to J!=0"
+    print("  ✓ surface_delta_interaction_pandya_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -914,4 +938,5 @@ if __name__ == "__main__":
     test_drip_line_radioactivity_cluster_calculator()
     test_thermonuclear_rate_gamow_factor_calculator()
     test_qrpa_matrix_vibrational_calculator()
-    print("ALL 41 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_surface_delta_interaction_pandya_calculator()
+    print("ALL 42 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

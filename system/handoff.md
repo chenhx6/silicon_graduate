@@ -6178,3 +6178,21 @@ u}$ zero-crossing detection;
 - Unified CLI integration: added `qrpa` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **a landmark 41 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Surface delta interaction, two-body matrix elements and Pandya transformation 2026-11-02T11:30:00+08:00
+
+- Integrated two-body residual interactions, Surface Delta Interaction (SDI), and particle-hole Pandya transformation dynamics (`knowledge/concepts/two-body-residual-interaction-surface-delta-and-pandya.md`):
+  - Microscopic mechanism: nuclear surface contact attraction due to core Pauli blocking, deriving the exact SDI two-body matrix element via Clebsch-Gordan coefficients and proving that the single-j pairing ground state has exact linear scaling $E(J=0) = - V_0 (j + 1/2)$, pushing $J=0^+$ states down by $4V_0$ in $f_{7/2}$ and $6V_0$ in $h_{11/2}$.
+  - Pandya transformation theorem: unitary transformation between particle-particle ($pp$) and particle-hole ($ph$) matrix elements via Wigner $6j$ symbols: $\langle j_1 j_2^{-1}; J | V | j_1 j_2^{-1}; J \rangle = - \sum_{J'} (2J' + 1) \{ j_1 j_2 J; j_1 j_2 J' \} \langle j_1 j_2; J' | V | j_1 j_2; J' \rangle$.
+  - Exact proof and machine-precision numerical verification of the unitary involution property $P^2 = I$ ($< 10^{-15}$).
+  - Benchmarked the classic textbook experimental case: $^{42}\text{Sc}$ ($pp$, ground state $J=0^+$) vs $^{48}\text{Sc}$ / $^{40}\text{K}$ ($ph$, ground state inverted to high spin $J=6^+$ / $4^-$).
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/surface_delta_interaction_pandya_calculator.py`:
+  - `calculate_clebsch_gordan`: exact algebraic Clebsch-Gordan routine;
+  - `calculate_wigner_6j`: exact Racah formula for Wigner $6j$ symbols;
+  - `calculate_sdi_matrix_element`: analytical SDI two-body matrix element evaluator;
+  - `calculate_single_j_sdi_spectrum`: single-j pairing spectrum generator;
+  - `perform_pandya_transformation`: $pp \leftrightarrow ph$ transformation with $P^2 = I$ verification;
+  - `benchmark_sc42_k40_pandya`: automated $^{42}\text{Sc} \leftrightarrow {}^{40}\text{K}$ benchmark.
+- Unified CLI integration: added `pandya` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **a landmark 42 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

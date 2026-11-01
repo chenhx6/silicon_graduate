@@ -59,6 +59,7 @@ from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, e
 from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wkb_lifetime, check_goldanskii_true_2p_condition, model_two_proton_jacobi_distribution, calculate_cluster_radioactivity_wkb, diagnose_drip_line_decay_competition
 from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_window, calculate_sommerfeld_parameter, convert_cross_section_to_s_factor, calculate_nonresonant_reaction_rate, calculate_resonant_reaction_rate
 from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplitudes, solve_analytic_single_mode_qrpa, scan_pnqrpa_gpp_sensitivity, diagnose_qrpa_stability
+from surface_delta_interaction_pandya_calculator import calculate_clebsch_gordan, calculate_wigner_6j, calculate_sdi_matrix_element, calculate_single_j_sdi_spectrum, perform_pandya_transformation, benchmark_sc42_k40_pandya
 
 
 def cmd_kinematics(args):
@@ -1152,6 +1153,33 @@ def cmd_qrpa(args):
         print(f"    Vogel-Zirnbauer Suppression Mechanism successfully demonstrated.")
     print("=======================================================")
 
+
+def cmd_pandya(args):
+    print("\n=======================================================")
+    print(" Surface Delta Interaction (SDI) & Pandya Transformation")
+    print("=======================================================")
+    if args.sdi_j is not None and args.sdi_l is not None:
+        v0 = args.V0 if args.V0 is not None else 1.0
+        sdi = calculate_single_j_sdi_spectrum(args.sdi_j, args.sdi_l, V0_MeV=v0)
+        print(f"  SDI Pairing Spectrum in Single-j Shell (j = {args.sdi_j:.1f}, l = {args.sdi_l}, V_0 = {v0:.2f} MeV):")
+        print(f"    Ground State J=0 Pairing Energy : E(J=0) = {sdi['E_J0_actual_MeV']:.4f} MeV (Exact -V0*(j+1/2) = {sdi['E_J0_expected_MeV']:.4f} MeV)")
+        print(f"    Exact Linear Pairing Verified   : {sdi['is_exact_pairing_energy']}")
+        print("    Two-Body Interaction Energies by Spin:")
+        for pt in sdi['spectrum']:
+            print(f"      J = {pt['J']:2d} : V_SDI = {pt['V_SDI_MeV']:+7.4f} MeV")
+
+    if args.benchmark_sc42:
+        bm = benchmark_sc42_k40_pandya()
+        print("-------------------------------------------------------")
+        print(f"  Pandya Benchmark: {bm['benchmark']}")
+        print(f"    Particle-Particle Ground State Spin : J_pp = {bm['ground_state_pp_spin']}+ (Pairing attraction)")
+        print(f"    Particle-Hole Inverted Ground State : J_ph = {bm['ground_state_ph_spin']}+ (High-spin ground state)")
+        print(f"    Unitary Involution P^2 = I Verified : {bm['P2_verified']}")
+        print("    Transformed Particle-Hole Spectrum:")
+        for J, en in sorted(bm['ph_spectrum_keV'].items()):
+            print(f"      J_ph = {J:2d} : E_ph = {en:7.1f} keV")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1621,6 +1649,14 @@ def main():
     p_qrpa.add_argument("--scan-gpp", action="store_true", help="Perform pnQRPA g_pp sensitivity scan for double beta decay")
     p_qrpa.add_argument("--E0", type=float, default=4.0, help="Unperturbed 1+ state energy in MeV (default: 4.0)")
     p_qrpa.set_defaults(func=cmd_qrpa)
+
+    # Surface Delta Interaction & Pandya Transformation
+    p_pandya = subparsers.add_parser("pandya", help="Surface delta interaction (SDI) two-body matrix elements and Pandya transformation")
+    p_pandya.add_argument("--sdi-j", type=float, default=None, help="Single-particle angular momentum j (e.g. 3.5 for f7/2)")
+    p_pandya.add_argument("--sdi-l", type=int, default=None, help="Single-particle orbital angular momentum l (e.g. 3 for f-wave)")
+    p_pandya.add_argument("--V0", type=float, default=1.0, help="SDI strength constant V0 in MeV (default: 1.0)")
+    p_pandya.add_argument("--benchmark-sc42", action="store_true", help="Run classic 42Sc (pp) vs 48Sc/40K (ph) Pandya benchmark")
+    p_pandya.set_defaults(func=cmd_pandya)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
