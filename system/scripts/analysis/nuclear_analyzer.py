@@ -38,6 +38,7 @@ from signature_inversion_analyzer import calculate_staggering_parameter_s, calcu
 from superdeformation_decayout_calculator import evaluate_superdeformation_flatness, model_decayout_tunneling
 from ibm_dynamical_symmetry_analyzer import calculate_ibm_energy_ratios, classify_casten_triangle_phase
 from ado_polarization_joint_analyzer import calculate_ado_ratio, convert_clover_counts_to_polarization, joint_ado_polarization_scan
+from side_feeding_deconvolution_calculator import calculate_effective_f_factor, deconvolve_side_feeding_lifetime
 
 
 def cmd_kinematics(args):
@@ -432,6 +433,22 @@ def cmd_ado(args):
     print("=======================================================")
 
 
+def cmd_feed(args):
+    res = deconvolve_side_feeding_lifetime(args.F, args.tau_feed, args.f_feed, args.alpha)
+    print("\n=======================================================")
+    print(" DSAM Side-Feeding Lifetime Deconvolution")
+    print("=======================================================")
+    print(f"  Measured Attenuation F  : {res['F_measured']:.3f} (Stopper alpha = {args.alpha:.2f} ps)")
+    print(f"  Side-Feeding Fraction   : {res['f_feed']*100:.1f}%")
+    print(f"  Side-Feeding Time Delay : {res['tau_feed_ps']:.3f} ps ({res['tau_feed_ps']*1000:.0f} fs)")
+    print("-------------------------------------------------------")
+    print(f"  Apparent Lifetime       : {res['tau_apparent_ps']:.3f} ps ({res['tau_apparent_ps']*1000:.1f} fs)  [INFLATED]")
+    print(f"  True Intrinsic Lifetime : {res['tau_intrinsic_ps']:.3f} ps ({res['tau_intrinsic_ps']*1000:.1f} fs)  [CORRECTED]")
+    print(f"  Lifetime Bias Ratio     : {res['lifetime_overestimation_ratio']:.2f}x")
+    print(f"  Resulting Qt Correction : Quadrupole moment was underestimated by {res['Qt_underestimation_percent']:.1f}%")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -627,6 +644,14 @@ def main():
     p_ado.add_argument("--F44", type=float, default=0.0, help="F4(22)")
     p_ado.add_argument("--alpha2", type=float, default=0.85, help="Alignment factor alpha2")
     p_ado.set_defaults(func=cmd_ado)
+
+    # Side-Feeding Deconvolution
+    p_feed = subparsers.add_parser("feed", help="Deconvolve side-feeding time delay from measured DSAM attenuation factor F")
+    p_feed.add_argument("--F", type=float, required=True, help="Measured DSAM attenuation factor F(tau)")
+    p_feed.add_argument("--tau_feed", type=float, default=0.30, help="Side-feeding cascade delay time in ps")
+    p_feed.add_argument("--f_feed", type=float, default=0.40, help="Fraction of feeding from side quasicontinuum (0 to 1)")
+    p_feed.add_argument("--alpha", type=float, default=1.05, help="Stopper foil slowing down time in ps")
+    p_feed.set_defaults(func=cmd_feed)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

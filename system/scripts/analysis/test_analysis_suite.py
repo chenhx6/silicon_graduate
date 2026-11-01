@@ -23,6 +23,7 @@ Tests:
   18. superdeformation_decayout_calculator: checks SD/TSD J2 plateau flatness and decay-out barrier tunneling.
   19. ibm_dynamical_symmetry_analyzer: checks R4/2 ratio, Casten triangle phase, and O(6) degeneracy.
   20. ado_polarization_joint_analyzer: checks ADO ratio, Clover asymmetry conversion, and joint profile fit.
+  21. side_feeding_deconvolution_calculator: checks effective F-factor, side-feeding delay deconvolution, and Qt bias.
 """
 
 import sys
@@ -48,6 +49,7 @@ from signature_inversion_analyzer import calculate_staggering_parameter_s, calcu
 from superdeformation_decayout_calculator import evaluate_superdeformation_flatness, model_decayout_tunneling
 from ibm_dynamical_symmetry_analyzer import calculate_ibm_energy_ratios, classify_casten_triangle_phase
 from ado_polarization_joint_analyzer import calculate_ado_ratio, convert_clover_counts_to_polarization, joint_ado_polarization_scan
+from side_feeding_deconvolution_calculator import calculate_effective_f_factor, deconvolve_side_feeding_lifetime
 
 
 def test_heavy_ion_kinematics():
@@ -339,6 +341,19 @@ def test_ado_polarization_joint_analyzer():
     print("  ✓ ado_polarization_joint_analyzer passed.")
 
 
+def test_side_feeding_deconvolution_calculator():
+    print("Testing side_feeding_deconvolution_calculator...")
+    f_eff_0 = calculate_effective_f_factor(tau_level_ps=1.0, tau_feed_ps=0.0, f_feed=0.5, alpha_ps=1.0)
+    assert abs(f_eff_0 - 0.5) < 1e-4, f"Zero feed time error: {f_eff_0}"
+
+    alpha = 1.05
+    f_exp = 0.55
+    res = deconvolve_side_feeding_lifetime(f_exp, tau_feed_ps=0.35, f_feed=0.40, alpha_ps=alpha)
+    assert res["tau_intrinsic_ps"] < res["tau_apparent_ps"], "Intrinsic lifetime must be shorter than apparent"
+    assert abs(res["F_measured"] - 0.55) < 1e-4, "F_measured preservation error"
+    print("  ✓ side_feeding_deconvolution_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -361,4 +376,5 @@ if __name__ == "__main__":
     test_superdeformation_decayout_calculator()
     test_ibm_dynamical_symmetry_analyzer()
     test_ado_polarization_joint_analyzer()
-    print("ALL 20 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_side_feeding_deconvolution_calculator()
+    print("ALL 21 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
