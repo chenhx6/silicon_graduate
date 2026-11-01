@@ -9,6 +9,8 @@ updated: 2026-11-01
 
 ## 核心专著深度吸收与核结构专家级综合资产 (2026-11-01)
 
+- [[giant-resonances-and-deformation-splitting]] — **巨多极共振动力学、形变劈裂与微观阻尼机制**：基于 Bohr-Mottelson 与 Heyde，系统阐明同位旋矢量巨偶极共振（IVGDR）在三轴核中的三峰劈裂定理 (eta, \gamma)$、中子皮矮偶极共振（PDR）、磁偶极剪刀模式（Scissors mode），以及朗道阻尼、粒子逃逸与复合扩散三阶段微观阻尼机制。
+- [[high-spin-band-crossing-and-alignment-mechanisms]] — **高自旋能带交叉、准粒子对解耦对齐与带端终止动力学**：基于 Bohr-Mottelson 与 Frauendorf，统一解构 Coriolis 反配对（CAP）与 Stephens-Simon 单对解偶对齐机制，确立 Harris 参考基线与准粒子角动量对齐量 $ 提取算法、三轴旋称反转动力学及能带平滑终止极限。
 - [[drip-line-physics-and-frib-science]] — **极不稳定性核、中子滴线与 FRIB 稀有同位素科学前沿**：基于 FRIB 科学报告，阐述中子晕与中子皮形成机制、反转岛与传统幻数崩溃，以及弱束缚开放量子系统对微观四极形变与三轴极化的深刻映射。
 - [[frdm-nuclear-mass-and-deformation-systematics]] — **FRDM 宏观-微观模型全核素基态形变与结合能系统学手册**：基于 Möller 2019 (ADNDT)，建立全核素图基态四极形变 $eta_2$、十六极形变 $eta_4$、三轴形变 $\gamma$ 与单粒子分离能基准，给出 pprox 130$（Ce, Pr, Nd）基态形变参数对照表。
 - [[coherent-state-model-and-semiclassical-triaxiality]] — **相干态表象与三轴非对称转动半经典动力学**：基于 Raduta 2016 专著，阐述玻色子相干态角动量投影、半经典相轨道与庞加莱截面分析，揭示转动能量极小值分岔与手征/摆动模式的经典动力系统对应。

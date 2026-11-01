@@ -23,6 +23,7 @@ from heavy_ion_kinematics import calculate_kinematics, doppler_shift, doppler_br
 from angular_distribution_solver import angular_distribution_model, fit_angular_distribution, solve_delta_dual_roots
 from digital_trapezoidal_filter import synthesize_preamp_pulse, apply_trapezoidal_filter, extract_trapezoid_amplitude
 from gamma_peak_fitting import single_peak_model, fit_single_gamma_peak
+from dco_polarization_analyzer import joint_dco_polarization_fit, calculate_dco_ratio, calculate_linear_polarization
 
 
 def cmd_kinematics(args):
@@ -70,6 +71,26 @@ def cmd_dualroots(args):
     print("=======================================================")
 
 
+def cmd_dco(args):
+    res = joint_dco_polarization_fit(
+        R_dco_exp=args.Rdco, R_dco_err=args.Rdco_err,
+        P_exp=args.P, P_err=args.P_err,
+        theta1_deg=args.th1, theta2_deg=args.th2, theta_pol_deg=args.th_pol,
+        F2_11=args.F11, F2_12=args.F12, F2_22=args.F22, F4_22=args.F44,
+        alpha2=args.alpha2
+    )
+    print("\n=======================================================")
+    print(" Joint DCO Ratio & Linear Polarization Fit")
+    print("=======================================================")
+    print(f"  Input Exp R_DCO         : {args.Rdco:.3f} +/- {args.Rdco_err:.3f} (angles: {args.th1:.0f}/{args.th2:.0f} deg)")
+    print(f"  Input Exp Polarization  : {args.P:+.3f} +/- {args.P_err:.3f} (at {args.th_pol:.0f} deg)")
+    print(f"  Best-fit delta          : {res['best_delta']:+.4f} (+{res['delta_err_high']:.4f} / -{res['delta_err_low']:.4f})")
+    print(f"  Model R_DCO at best-fit : {res['r_dco_theo']:.3f}")
+    print(f"  Model Pol P at best-fit : {res['p_theo']:+.3f}")
+    print(f"  Minimum Chi2            : {res['min_chi2']:.2f}")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -102,6 +123,22 @@ def main():
     p_dual.add_argument("--alpha2", type=float, default=1.0, help="Orientation parameter B2/B0")
     p_dual.set_defaults(func=cmd_dualroots)
     
+    # DCO & Polarization
+    p_dco = subparsers.add_parser("dco", help="Joint DCO ratio and linear polarization fit")
+    p_dco.add_argument("--Rdco", type=float, required=True, help="Measured DCO ratio")
+    p_dco.add_argument("--Rdco_err", type=float, default=0.05, help="DCO ratio error")
+    p_dco.add_argument("--P", type=float, required=True, help="Measured linear polarization degree")
+    p_dco.add_argument("--P_err", type=float, default=0.05, help="Polarization error")
+    p_dco.add_argument("--th1", type=float, default=30.0, help="Detector 1 angle (deg)")
+    p_dco.add_argument("--th2", type=float, default=90.0, help="Detector 2 angle (deg)")
+    p_dco.add_argument("--th_pol", type=float, default=90.0, help="Polarimeter angle (deg)")
+    p_dco.add_argument("--F11", type=float, required=True, help="F2(11)")
+    p_dco.add_argument("--F12", type=float, required=True, help="F2(12)")
+    p_dco.add_argument("--F22", type=float, required=True, help="F2(22)")
+    p_dco.add_argument("--F44", type=float, default=0.0, help="F4(22)")
+    p_dco.add_argument("--alpha2", type=float, default=0.85, help="Alignment parameter")
+    p_dco.set_defaults(func=cmd_dco)
+
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
     p_test.set_defaults(func=cmd_selftest)
