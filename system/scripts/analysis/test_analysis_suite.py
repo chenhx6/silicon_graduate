@@ -15,6 +15,7 @@ Tests:
   10. excitation_function_calculator: checks target energy loss, yield-to-cross-section inversion, and resonance fit.
   11. magnetic_rotation_shears_calculator: checks shears angle, B(M1) quenching, and band termination.
   12. shape_coexistence_e0_calculator: checks electronic Omega_K factor, rho^2(E0) extraction, and two-state mixing.
+  13. moment_of_inertia_spin_analyzer: checks J1, J2 moments of inertia and floating band spin inversion.
 """
 
 import sys
@@ -32,6 +33,7 @@ from ensdf_crosswalk_parser import parse_ensdf_records, crosswalk_match
 from excitation_function_calculator import calculate_target_energy_loss, extract_cross_section_from_yield, fit_excitation_function
 from magnetic_rotation_shears_calculator import calculate_shears_angle, calculate_magnetic_rotation_bm1, shears_band_profile
 from shape_coexistence_e0_calculator import calculate_omega_k_e0, extract_rho2_e0_from_lifetime, invert_two_state_mixing
+from moment_of_inertia_spin_analyzer import calculate_moments_of_inertia, invert_floating_band_spin
 
 
 def test_heavy_ion_kinematics():
@@ -218,6 +220,17 @@ def test_shape_coexistence_e0_calculator():
     print("  ✓ shape_coexistence_e0_calculator passed.")
 
 
+def test_moment_of_inertia_spin_analyzer():
+    print("Testing moment_of_inertia_spin_analyzer...")
+    gammas = [150.0, 250.0, 350.0]
+    data = calculate_moments_of_inertia(gammas, initial_spin=4.0)
+    assert len(data["J2_dynamical_hbar2_per_MeV"]) == 2, "Should have 2 J2 points"
+    assert abs(data["J2_dynamical_hbar2_per_MeV"][0] - 40.0) < 1e-4, f"J2 error: {data['J2_dynamical_hbar2_per_MeV'][0]}"
+    inv = invert_floating_band_spin(gammas, is_half_integer=False, J0_expected=40.0)
+    assert abs(inv["best_candidate_spin_I0"] - 4.0) <= 1.0, f"Inverted spin error: {inv['best_candidate_spin_I0']}"
+    print("  ✓ moment_of_inertia_spin_analyzer passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -232,4 +245,5 @@ if __name__ == "__main__":
     test_excitation_function_calculator()
     test_magnetic_rotation_shears_calculator()
     test_shape_coexistence_e0_calculator()
-    print("ALL 12 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_moment_of_inertia_spin_analyzer()
+    print("ALL 13 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

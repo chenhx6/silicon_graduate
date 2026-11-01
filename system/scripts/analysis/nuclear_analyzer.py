@@ -30,6 +30,7 @@ from ensdf_crosswalk_parser import parse_ensdf_records, crosswalk_match
 from excitation_function_calculator import calculate_target_energy_loss, extract_cross_section_from_yield, fit_excitation_function
 from magnetic_rotation_shears_calculator import calculate_shears_angle, calculate_magnetic_rotation_bm1, shears_band_profile
 from shape_coexistence_e0_calculator import calculate_omega_k_e0, extract_rho2_e0_from_lifetime, invert_two_state_mixing
+from moment_of_inertia_spin_analyzer import calculate_moments_of_inertia, invert_floating_band_spin
 
 
 def cmd_kinematics(args):
@@ -220,6 +221,32 @@ def cmd_e0(args):
     print("=======================================================")
 
 
+def cmd_moi(args):
+    gammas = [float(x.strip()) for x in args.gammas.split(",")]
+    data = calculate_moments_of_inertia(gammas, initial_spin=args.spin)
+    print("\n=======================================================")
+    print(" Moments of Inertia (J1, J2) & Spin Inversion Analysis")
+    print("=======================================================")
+    print(f"  Input Cascade Gammas    : {len(gammas)} transitions ({gammas[0]:.1f} -> {gammas[-1]:.1f} keV)")
+    if args.spin is not None:
+        print(f"  Initial State Spin      : I = {args.spin:.1f} hbar")
+        print("  E_gamma (keV) | Delta_Eg (keV) | hbar*w (MeV) | J2 (hbar^2/MeV) | J1 (hbar^2/MeV)")
+        print("  -----------------------------------------------------------------------------")
+        for i in range(len(data['delta_E_gamma_keV'])):
+            print(f"    {data['gamma_energies_keV'][i]:7.1f}     |     {data['delta_E_gamma_keV'][i]:6.1f}     |    {data['omega_mid_MeV'][i]:.4f}    |     {data['J2_dynamical_hbar2_per_MeV'][i]:5.1f}       |     {data['J1_kinematical_hbar2_per_MeV'][i]:5.1f}")
+    else:
+        print("  Initial Spin Unknown -> Displaying Dynamical Moment of Inertia J2 only:")
+        print("  E_gamma (keV) | Delta_Eg (keV) | hbar*w (MeV) | J2 (hbar^2/MeV)")
+        print("  --------------------------------------------------------------")
+        for i in range(len(data['delta_E_gamma_keV'])):
+            print(f"    {data['gamma_energies_keV'][i]:7.1f}     |     {data['delta_E_gamma_keV'][i]:6.1f}     |    {data['omega_mid_MeV'][i]:.4f}    |     {data['J2_dynamical_hbar2_per_MeV'][i]:5.1f}")
+
+        inv = invert_floating_band_spin(gammas, is_half_integer=args.half_int, J0_expected=args.J0)
+        print(f"\n  [INVERTED CANDIDATE BANDHEAD SPIN]")
+        print(f"  Most Likely Spin I0     : {inv['best_candidate_spin_I0']} hbar (Optimization Score: {inv['min_score']:.2f})")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -329,6 +356,14 @@ def main():
     p_e0.add_argument("--br", type=float, default=1.0, help="E0 branching ratio")
     p_e0.add_argument("--beta1", type=float, default=0.15, help="Assumed deformation of State 1")
     p_e0.set_defaults(func=cmd_e0)
+
+    # Moments of Inertia & Spin Inversion
+    p_moi = subparsers.add_parser("moi", help="Kinematical J1, dynamical J2 moments of inertia and floating band spin inversion")
+    p_moi.add_argument("--gammas", type=str, required=True, help="Comma-separated cascade gamma energies in keV")
+    p_moi.add_argument("--spin", type=float, default=None, help="Decaying state spin of first gamma (if known)")
+    p_moi.add_argument("--half_int", action="store_true", default=True, help="Grid search half-integer spins for odd-A nuclei")
+    p_moi.add_argument("--J0", type=float, default=15.0, help="Expected bandhead core J0")
+    p_moi.set_defaults(func=cmd_moi)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
