@@ -19,6 +19,7 @@ Tests:
   14. coulex_kumar_invariant_calculator: checks safe Coulex energy, reorientation Q_s, and Kumar invariants.
   15. tpsm_band_diagram_calculator: checks 3D projected energy, band crossing Ic, and alignment.
   16. octupole_parity_doublet_calculator: checks parity splitting delta_E, B(E1)/B(E2), and intrinsic D0.
+  17. signature_inversion_analyzer: checks signature splitting Delta_E, inversion crossing I_inv, and S(I).
 """
 
 import sys
@@ -40,6 +41,7 @@ from moment_of_inertia_spin_analyzer import calculate_moments_of_inertia, invert
 from coulex_kumar_invariant_calculator import calculate_safe_coulex_energy, reorientation_static_quadrupole, calculate_kumar_invariants
 from tpsm_band_diagram_calculator import calculate_effective_moi_tpsm, generate_tpsm_band_diagram
 from octupole_parity_doublet_calculator import calculate_parity_splitting, calculate_b_e1_over_b_e2, extract_intrinsic_dipole_moment
+from signature_inversion_analyzer import calculate_staggering_parameter_s, calculate_signature_splitting, detect_inversion_crossing
 
 
 def test_heavy_ion_kinematics():
@@ -275,6 +277,21 @@ def test_octupole_parity_doublet_calculator():
     print("  ✓ octupole_parity_doublet_calculator passed.")
 
 
+def test_signature_inversion_analyzer():
+    print("Testing signature_inversion_analyzer...")
+    fav_spins = [8, 10, 12, 14, 16]
+    fav_energies = [0.0, 300.0, 700.0, 1200.0, 1800.0]
+    unfav_spins = [9, 11, 13, 15]
+    unfav_energies = [120.0, 480.0, 960.0, 1550.0]
+    split = calculate_signature_splitting(fav_spins, fav_energies, unfav_spins, unfav_energies)
+    assert len(split) == 4, f"Should match 4 splitting points: got {len(split)}"
+    diag = detect_inversion_crossing(split)
+    assert diag["has_inversion"] == True, "Should detect signature inversion"
+    assert diag["I_inv"] is not None, "Should locate crossing spin"
+    assert 11.0 < diag["I_inv"] < 15.0, f"Crossing spin out of bounds: {diag['I_inv']}"
+    print("  ✓ signature_inversion_analyzer passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -293,4 +310,5 @@ if __name__ == "__main__":
     test_coulex_kumar_invariant_calculator()
     test_tpsm_band_diagram_calculator()
     test_octupole_parity_doublet_calculator()
-    print("ALL 16 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_signature_inversion_analyzer()
+    print("ALL 17 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

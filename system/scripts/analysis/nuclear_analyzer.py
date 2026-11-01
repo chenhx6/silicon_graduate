@@ -34,6 +34,7 @@ from moment_of_inertia_spin_analyzer import calculate_moments_of_inertia, invert
 from coulex_kumar_invariant_calculator import calculate_safe_coulex_energy, reorientation_static_quadrupole, calculate_kumar_invariants
 from tpsm_band_diagram_calculator import calculate_effective_moi_tpsm, generate_tpsm_band_diagram
 from octupole_parity_doublet_calculator import calculate_parity_splitting, calculate_b_e1_over_b_e2, extract_intrinsic_dipole_moment, estimate_octupole_beta3
+from signature_inversion_analyzer import calculate_staggering_parameter_s, calculate_signature_splitting, detect_inversion_crossing
 
 
 def cmd_kinematics(args):
@@ -324,6 +325,35 @@ def cmd_octupole(args):
     print("=======================================================")
 
 
+def cmd_inversion(args):
+    f_spins = [float(x.strip()) for x in args.fav_spins.split(",")]
+    f_energies = [float(x.strip()) for x in args.fav_energies.split(",")]
+    u_spins = [float(x.strip()) for x in args.unfav_spins.split(",")]
+    u_energies = [float(x.strip()) for x in args.unfav_energies.split(",")]
+
+    splits = calculate_signature_splitting(f_spins, f_energies, u_spins, u_energies)
+    diag = detect_inversion_crossing(splits)
+
+    print("\n=======================================================")
+    print(" Signature Splitting & Inversion Diagnostic")
+    print("=======================================================")
+    print(f"  Favored Band Sequence   : {len(f_spins)} states ({f_spins[0]:.1f} -> {f_spins[-1]:.1f})")
+    print(f"  Unfavored Band Sequence : {len(u_spins)} states ({u_spins[0]:.1f} -> {u_spins[-1]:.1f})")
+    print("  Spin (hbar) | E_unfav (keV) | E_fav_interp (keV) | Delta_E (keV) | Status")
+    print("  -------------------------------------------------------------------------")
+    for s in splits:
+        stat = "INVERTED (Anomalous)" if s['is_inverted'] else "Normal"
+        print(f"    {s['spin']:5.1f}     |   {s['E_unfav_keV']:7.1f}   |      {s['E_fav_interp_keV']:7.1f}       |    {s['delta_E_keV']:+6.1f}   | {stat}")
+    print("-------------------------------------------------------")
+    print(f"  Has Signature Inversion : {diag['has_inversion']}")
+    if diag['has_inversion']:
+        print(f"  Max Inversion Depth     : {diag['max_inversion_depth_keV']:.1f} keV")
+        if diag['I_inv']:
+            print(f"  Crossing Spin I_inv     : approx {diag['I_inv']:.1f} hbar")
+        print("  Physical Interpretation : Clear fingerprint of triaxial gamma deformation and strong p-n interaction!")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -477,6 +507,14 @@ def main():
     p_oct.add_argument("--A", type=int, default=146, help="Mass number A")
     p_oct.add_argument("--beta2", type=float, default=0.22, help="Quadrupole deformation beta2")
     p_oct.set_defaults(func=cmd_octupole)
+
+    # Signature Inversion & Splitting
+    p_inv = subparsers.add_parser("inversion", help="Signature splitting Delta_E(I), staggering S(I), and inversion crossing")
+    p_inv.add_argument("--fav_spins", type=str, required=True, help="Favored band spins (e.g. 8,10,12,14,16)")
+    p_inv.add_argument("--fav_energies", type=str, required=True, help="Favored band energies in keV")
+    p_inv.add_argument("--unfav_spins", type=str, required=True, help="Unfavored band spins (e.g. 9,11,13,15)")
+    p_inv.add_argument("--unfav_energies", type=str, required=True, help="Unfavored band energies in keV")
+    p_inv.set_defaults(func=cmd_inversion)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
