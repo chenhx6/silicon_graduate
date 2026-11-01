@@ -25,6 +25,7 @@ Tests:
   20. ado_polarization_joint_analyzer: checks ADO ratio, Clover asymmetry conversion, and joint profile fit.
   21. side_feeding_deconvolution_calculator: checks effective F-factor, side-feeding delay deconvolution, and Qt bias.
   22. internal_conversion_bricc_calculator: checks ICC multipolarity hierarchy, mixed transition alpha, and discrimination.
+  23. vacuum_deorientation_calculator: checks G2/G4 attenuation factors and angular distribution deorientation restoration.
 """
 
 import sys
@@ -52,6 +53,7 @@ from ibm_dynamical_symmetry_analyzer import calculate_ibm_energy_ratios, classif
 from ado_polarization_joint_analyzer import calculate_ado_ratio, convert_clover_counts_to_polarization, joint_ado_polarization_scan
 from side_feeding_deconvolution_calculator import calculate_effective_f_factor, deconvolve_side_feeding_lifetime
 from internal_conversion_bricc_calculator import calculate_bricc_icc, calculate_mixed_icc, discriminate_multipolarity
+from vacuum_deorientation_calculator import calculate_attenuation_factors, correct_measured_angular_distribution
 
 
 def test_heavy_ion_kinematics():
@@ -369,6 +371,17 @@ def test_internal_conversion_bricc_calculator():
     print("  ✓ internal_conversion_bricc_calculator passed.")
 
 
+def test_vacuum_deorientation_calculator():
+    print("Testing vacuum_deorientation_calculator...")
+    att_short = calculate_attenuation_factors(tau_level_ps=1.0, Z=58, beta_recoil=0.025)
+    assert att_short["G2"] > 0.99, f"Short lifetime G2 error: {att_short['G2']}"
+    att_long = calculate_attenuation_factors(tau_level_ps=1000.0, Z=58, beta_recoil=0.025)
+    assert att_long["G2"] < att_short["G2"], "G2 should decrease with lifetime"
+    corr = correct_measured_angular_distribution(a2_meas=-0.20, a4_meas=0.0, G2=0.50, G4=0.50)
+    assert abs(corr["A2_true"] - (-0.40)) < 1e-4, f"Restoration error: {corr['A2_true']}"
+    print("  ✓ vacuum_deorientation_calculator passed.")
+
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -393,4 +406,5 @@ if __name__ == "__main__":
     test_ado_polarization_joint_analyzer()
     test_side_feeding_deconvolution_calculator()
     test_internal_conversion_bricc_calculator()
-    print("ALL 22 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_vacuum_deorientation_calculator()
+    print("ALL 23 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

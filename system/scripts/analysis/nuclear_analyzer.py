@@ -40,6 +40,7 @@ from ibm_dynamical_symmetry_analyzer import calculate_ibm_energy_ratios, classif
 from ado_polarization_joint_analyzer import calculate_ado_ratio, convert_clover_counts_to_polarization, joint_ado_polarization_scan
 from side_feeding_deconvolution_calculator import calculate_effective_f_factor, deconvolve_side_feeding_lifetime
 from internal_conversion_bricc_calculator import calculate_bricc_icc, calculate_mixed_icc, correct_gamma_intensity_for_conversion, discriminate_multipolarity
+from vacuum_deorientation_calculator import calculate_attenuation_factors, correct_measured_angular_distribution
 
 
 def cmd_kinematics(args):
@@ -478,6 +479,25 @@ def cmd_icc(args):
     print("=======================================================")
 
 
+def cmd_deorient(args):
+    att = calculate_attenuation_factors(args.tau, args.Z, args.beta, g_factor=args.g, tau_r_ps=args.taur)
+    print("\n=======================================================")
+    print(" In-Beam Vacuum Deorientation & Attenuation Correction")
+    print("=======================================================")
+    print(f"  Recoil Ion (Z={args.Z}, beta={args.beta:.4f}), Level Lifetime tau = {args.tau:.1f} ps")
+    print(f"  Estimated Hyperfine B_hf: {att['B_hf_Tesla']:.1f} Tesla (omega_L = {att['omega_L_per_ps']:.4f} rad/ps)")
+    print(f"  Attenuation Factors     : G2(tau) = {att['G2']:.3f}, G4(tau) = {att['G4']:.3f}")
+
+    if args.a2 is not None:
+        a4_val = args.a4 if args.a4 is not None else 0.0
+        corr = correct_measured_angular_distribution(args.a2, a4_val, att['G2'], att['G4'], a2_err=args.a2_err, a4_err=args.a4_err)
+        print("-------------------------------------------------------")
+        print(f"  Measured a2 (Suppressed): {args.a2:+.3f}" + (f" +/- {args.a2_err:.3f}" if args.a2_err else ""))
+        print(f"  Restored True Intrinsic : A2_true = {corr['A2_true']:+.3f}" + (f" +/- {corr['A2_err']:.3f}" if corr['A2_err'] else ""))
+        print(f"  Deorientation Multiplier: {corr['G2_correction_factor']:.2f}x")
+    print("=======================================================")
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -690,6 +710,19 @@ def main():
     p_icc.add_argument("--delta", type=float, default=None, help="Mixing ratio delta for M1+E2 transitions")
     p_icc.add_argument("--Igamma", type=float, default=None, help="Measured gamma peak intensity to correct for conversion")
     p_icc.set_defaults(func=cmd_icc)
+
+    # Vacuum Deorientation Correction
+    p_deor = subparsers.add_parser("deorient", help="Vacuum deorientation attenuation G2, G4 and angular distribution restoration")
+    p_deor.add_argument("--Z", type=int, required=True, help="Atomic number Z of recoil nucleus")
+    p_deor.add_argument("--beta", type=float, default=0.025, help="Recoil velocity beta = v/c")
+    p_deor.add_argument("--tau", type=float, required=True, help="Excited level lifetime in ps")
+    p_deor.add_argument("--g", type=float, default=0.35, help="Nuclear g-factor of state")
+    p_deor.add_argument("--taur", type=float, default=3.0, help="Atomic electron relaxation time in ps")
+    p_deor.add_argument("--a2", type=float, default=None, help="Measured attenuated a2 coefficient")
+    p_deor.add_argument("--a2_err", type=float, default=None, help="a2 uncertainty")
+    p_deor.add_argument("--a4", type=float, default=0.0, help="Measured a4 coefficient")
+    p_deor.add_argument("--a4_err", type=float, default=None, help="a4 uncertainty")
+    p_deor.set_defaults(func=cmd_deorient)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
