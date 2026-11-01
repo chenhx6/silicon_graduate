@@ -49,6 +49,7 @@ from oslo_method_nld_gsf_analyzer import calculate_rho_at_sn, verify_oslo_lie_tr
 from band_termination_cns_calculator import calculate_valence_maximum_spin, model_transition_quadrupole_collapse, calculate_rigid_rotor_subtraction, calculate_dynamic_moment_of_inertia_j2, diagnose_smooth_band_termination
 from tdpad_hyperfine_precession_calculator import calculate_larmor_frequency, invert_g_factor_from_period, generate_tdpad_r_of_t, calculate_three_vector_chiral_gfactor, calculate_electric_quadrupole_frequency
 from pairing_gap_separation_energy_calculator import calculate_s2n_series, calculate_pairing_gap_3point, calculate_pairing_gap_5point, detect_shell_closure_drop, detect_shape_transition_anomaly, compare_empirical_bcs_gap
+from isgmr_breathing_mode_incompressibility_calculator import calculate_ka_from_isgmr_energy, leptodermous_expansion_ka, model_deformation_splitting_two_state, calculate_qpvc_self_energy_shift, diagnose_incompressibility_status
 
 
 def cmd_kinematics(args):
@@ -772,6 +773,45 @@ def cmd_pair(args):
         print(f"  Empirical BCS Baseline (A={args.A}) : Delta = 12/sqrt(A) = {bcs['Delta_12_over_sqrt_A_MeV']:.3f} MeV (4.8/A^1/3 = {bcs['Delta_4.8_over_cbrt_A_MeV']:.3f} MeV)")
     print("=======================================================")
 
+
+def cmd_isgmr(args):
+    print("\n=======================================================")
+    print(" Isoscalar Giant Monopole Resonance (ISGMR) & EOS Analyzer")
+    print("=======================================================")
+    if args.Egmr is not None and args.A is not None:
+        ka = calculate_ka_from_isgmr_energy(args.Egmr, args.A, R0_fm=args.R0)
+        print(f"  Target Nucleus A={args.A} (R0 = {args.R0:.2f} fm, <r^2>^(1/2) = {ka['rms_radius_fm']:.2f} fm)")
+        print(f"  Measured ISGMR Centroid  : E_GMR = {args.Egmr:.2f} MeV")
+        print(f"  Finite Nucleus Stiffness : K_A = {ka['K_A_MeV']:.2f} MeV")
+        if args.Z is not None:
+            lep = leptodermous_expansion_ka(args.A, args.Z, K_vol=args.Kvol, K_tau=args.Ktau)
+            print("-------------------------------------------------------")
+            print(f"  Leptodermous Expansion   : K_A(theory) = {lep['K_A_theoretical_MeV']:.2f} MeV")
+            print(f"    Volume term (K_inf)    : {lep['K_vol_MeV']:+.1f} MeV")
+            print(f"    Surface penalty term   : {lep['K_surf_contribution_MeV']:+.1f} MeV")
+            print(f"    Asymmetry term (K_tau) : {lep['K_tau_contribution_MeV']:+.1f} MeV (Asymmetry = {lep['asymmetry']:.3f})")
+            print(f"    Coulomb repulsion term : {lep['K_coul_contribution_MeV']:+.1f} MeV")
+
+    if args.beta2 is not None and args.A is not None:
+        e0 = args.Egmr if args.Egmr is not None else 14.5
+        split = model_deformation_splitting_two_state(e0, args.beta2, args.A)
+        print("-------------------------------------------------------")
+        print(f"  Deformation-Induced Monopole-Quadrupole Mixing (beta_2 = {args.beta2:.3f}):")
+        print(f"    Unperturbed Breathing E0 : {split['E0_unperturbed_MeV']:.2f} MeV | Quadrupole E2(K=0) : {split['E2_unperturbed_MeV']:.2f} MeV")
+        print(f"    Lower Resonance Peak E1  : {split['E_low_peak_MeV']:.2f} MeV (EWSR: {split['EWSR_fraction_low']*100.0:.1f}%)")
+        print(f"    Upper Resonance Peak E2  : {split['E_high_peak_MeV']:.2f} MeV (EWSR: {split['EWSR_fraction_high']*100.0:.1f}%)")
+        print(f"    Deformation Energy Split : Delta E = {split['splitting_energy_MeV']:.2f} MeV")
+
+    if args.qpvc_ph is not None:
+        e0 = args.Egmr if args.Egmr is not None else 16.7
+        qpvc = calculate_qpvc_self_energy_shift(e0, args.qpvc_ph, g_coupling_MeV=args.qpvc_g)
+        print("-------------------------------------------------------")
+        print(f"  QPVC Dynamic Self-Energy Downward Shift:")
+        print(f"    Low-Energy Phonon Energy : hbar*omega_ph = {args.qpvc_ph:.2f} MeV (Coupling g = {args.qpvc_g:.2f} MeV)")
+        print(f"    Self-Energy Shift DeltaE : {qpvc['self_energy_shift_MeV']:+.2f} MeV")
+        print(f"    Shifted ISGMR Energy     : E_GMR(shifted) = {qpvc['E_gmr_shifted_MeV']:.2f} MeV (Tin softness resolved)")
+    print("=======================================================")
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1090,6 +1130,19 @@ def main():
     p_pair.add_argument("--is-odd", action="store_true", default=True, help="Center state has odd N (default: True)")
     p_pair.add_argument("--A", type=int, default=None, help="Mass number A for empirical BCS comparison")
     p_pair.set_defaults(func=cmd_pair)
+
+    # ISGMR Breathing Mode & Incompressibility
+    p_isgmr = subparsers.add_parser("isgmr", help="Isoscalar giant monopole resonance (breathing mode), incompressibility and deformation splitting")
+    p_isgmr.add_argument("--Egmr", type=float, default=None, help="Measured ISGMR centroid energy in MeV")
+    p_isgmr.add_argument("--A", type=int, default=None, help="Mass number A")
+    p_isgmr.add_argument("--Z", type=int, default=None, help="Atomic number Z")
+    p_isgmr.add_argument("--R0", type=float, default=1.2, help="Nuclear radius parameter R_0 in fm (default: 1.2)")
+    p_isgmr.add_argument("--Kvol", type=float, default=240.0, help="Nuclear matter incompressibility K_infinity in MeV (default: 240.0)")
+    p_isgmr.add_argument("--Ktau", type=float, default=-550.0, help="Asymmetry incompressibility K_tau in MeV (default: -550.0)")
+    p_isgmr.add_argument("--beta2", type=float, default=None, help="Quadrupole deformation parameter beta_2")
+    p_isgmr.add_argument("--qpvc-ph", type=float, default=None, help="Low-energy phonon energy in MeV for QPVC calculation")
+    p_isgmr.add_argument("--qpvc-g", type=float, default=1.65, help="QPVC phonon-resonance coupling constant g in MeV (default: 1.65)")
+    p_isgmr.set_defaults(func=cmd_isgmr)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

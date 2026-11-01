@@ -5983,3 +5983,20 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Unified CLI integration: added `pair` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **31 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### ISGMR breathing mode, nuclear incompressibility and EOS dynamics 2026-11-02T06:00:00+08:00
+
+- Integrated isoscalar giant monopole resonance (ISGMR), nuclear incompressibility, and Equation of State (EOS) framework (`knowledge/concepts/giant-monopole-resonance-incompressibility-and-eos.md`):
+  - Breathing mode collective dynamics: constrained sum rule energy ratio $E_{\\text{ISGMR}} = \\sqrt{\\frac{\\hbar^2 K_A}{m \\langle r^2 \\rangle}}$ exhausting $90\\%\\text{--}100\\%$ of $E0$ EWSR.
+  - Leptodermous expansion of finite nuclear incompressibility: $K_A = K_{\\text{vol}} + K_{\\text{surf}} A^{-1/3} + K_\\tau ((N-Z)/A)^2 + K_{\\text{coul}} Z^2 / A^{4/3}$, yielding the nuclear matter benchmark $K_\\infty = 240 \\pm 20\\text{ MeV}$ and isospin asymmetry stiffness $K_\\tau \\approx -550\\text{ MeV}$.
+  - Microscopic resolution of deformation-induced monopole-quadrupole mixing ($L=0 \\otimes L=2, K=0$): two-state mixing in prolate nuclei ($^{154}\\text{Sm}$) producing two-component ISGMR splitting ($E_1 \\approx 11.45\\text{ MeV}$ with $36\\%$ EWSR, $E_2 \\approx 15.15\\text{ MeV}$ with $62\\%$ EWSR), refuting spherical incompressibility extraction in deformed regimes.
+  - Microscopic resolution of the "Why is Tin so soft?" puzzle: Quasiparticle-Vibration Coupling (QPVC) with low-energy surface phonons ($2_1^+, 3_1^-$) introducing negative dynamic self-energy $\\text{Re}\\Sigma < 0$, pushing resonance centroids downward by $0.8\\text{--}1.0\\text{ MeV}$ in $^{112-124}\\text{Sn}$.
+- Implemented production-grade scientific analysis module: `system/scripts/analysis/isgmr_breathing_mode_incompressibility_calculator.py`:
+  - `calculate_ka_from_isgmr_energy`: inverting $K_A$ from resonance centroid and RMS radius;
+  - `leptodermous_expansion_ka`: theoretical $K_A$ evaluation via four-parameter expansion;
+  - `model_deformation_splitting_two_state`: two-state $E0 \\otimes E2$ mixing eigenvalues and EWSR shares;
+  - `calculate_qpvc_self_energy_shift`: QPVC dynamic self-energy downward shift;
+  - `diagnose_incompressibility_status`: EOS stiffness validation against empirical bounds.
+- Unified CLI integration: added `isgmr` command to `system/scripts/analysis/nuclear_analyzer.py`.
+- Regression suite: expanded `test_analysis_suite.py` to **32 scientific analysis modules**, all passing 100%.
+- Verified via `wiki_boundary_check.py` and `git diff --check`.

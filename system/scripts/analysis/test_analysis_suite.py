@@ -63,6 +63,7 @@ from oslo_method_nld_gsf_analyzer import calculate_rho_at_sn, verify_oslo_lie_tr
 from band_termination_cns_calculator import calculate_valence_maximum_spin, model_transition_quadrupole_collapse, calculate_rigid_rotor_subtraction, calculate_dynamic_moment_of_inertia_j2, diagnose_smooth_band_termination
 from tdpad_hyperfine_precession_calculator import calculate_larmor_frequency, invert_g_factor_from_period, generate_tdpad_r_of_t, calculate_three_vector_chiral_gfactor, calculate_electric_quadrupole_frequency
 from pairing_gap_separation_energy_calculator import calculate_s2n_series, calculate_pairing_gap_3point, calculate_pairing_gap_5point, detect_shell_closure_drop, detect_shape_transition_anomaly, compare_empirical_bcs_gap
+from isgmr_breathing_mode_incompressibility_calculator import calculate_ka_from_isgmr_energy, leptodermous_expansion_ka, model_deformation_splitting_two_state, calculate_qpvc_self_energy_shift, diagnose_incompressibility_status
 
 
 def test_heavy_ion_kinematics():
@@ -593,6 +594,32 @@ def test_pairing_gap_separation_energy_calculator():
     assert 0.9 < bcs["Delta_12_over_sqrt_A_MeV"] < 1.2, "Empirical gap out of range"
     print("  ✓ pairing_gap_separation_energy_calculator passed.")
 
+
+def test_isgmr_breathing_mode_incompressibility_calculator():
+    print("Testing isgmr_breathing_mode_incompressibility_calculator...")
+    # 208Pb: E_gmr = 13.5 MeV, A=208, Z=82
+    ka = calculate_ka_from_isgmr_energy(E_gmr_MeV=13.5, A=208)
+    assert 128.0 < ka["K_A_MeV"] < 138.0, f"Expected Ka ~133 MeV, got {ka['K_A_MeV']}"
+
+    # Leptodermous expansion for 208Pb
+    lep = leptodermous_expansion_ka(A=208, Z=82)
+    assert abs(lep["K_A_theoretical_MeV"] - ka["K_A_MeV"]) < 3.0, "Leptodermous expansion should match empirical Ka within 3 MeV"
+
+    # Deformation splitting: 154Sm (beta2 = 0.30)
+    split = model_deformation_splitting_two_state(E0_unpert_MeV=14.5, beta2=0.30, A=154)
+    assert split["splitting_energy_MeV"] > 4.0, "Deformation splitting should exceed 4 MeV"
+    assert split["E_low_peak_MeV"] < 11.5, "Lower split peak should be < 11.5 MeV"
+    assert split["E_high_peak_MeV"] > 14.5, "Upper split peak should be > 14.5 MeV"
+
+    # QPVC self-energy shift
+    qpvc = calculate_qpvc_self_energy_shift(E_gmr_unpert_MeV=16.7, E_phonon_MeV=1.17, g_coupling_MeV=1.65)
+    assert qpvc["self_energy_shift_MeV"] < 0.0, "QPVC self energy must produce a downward shift"
+
+    # Diagnosis
+    diag = diagnose_incompressibility_status(K_vol_extracted=240.0, K_tau_extracted=-550.0)
+    assert diag["is_standard_eos_stiffness"] == True, "Should identify standard EOS stiffness"
+    print("  ✓ isgmr_breathing_mode_incompressibility_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -626,4 +653,5 @@ if __name__ == "__main__":
     test_band_termination_cns_calculator()
     test_tdpad_hyperfine_precession_calculator()
     test_pairing_gap_separation_energy_calculator()
-    print("ALL 31 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_isgmr_breathing_mode_incompressibility_calculator()
+    print("ALL 32 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
