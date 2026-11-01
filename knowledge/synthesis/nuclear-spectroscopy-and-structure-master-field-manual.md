@@ -1,15 +1,15 @@
 ---
 type: synthesis
-title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的40模块完整闭环指南"
-aliases: [核谱学实战全书, 核结构专家工作手册, 40模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
+title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的49模块完整闭环指南"
+aliases: [核谱学实战全书, 核结构专家工作手册, 49模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
 created: 2026-11-02
 updated: 2026-11-02
 status: active
 review_status: unreviewed
-topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 40-modules-suite, expert-field-manual]
+topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 49-modules-suite, expert-field-manual]
 ---
 
-# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的40模块完整闭环指南
+# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的49模块完整闭环指南
 
 ## 1. 宣言与专家心智模型：大模型如何以世界级核物理学家身份工作
 
@@ -25,7 +25,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
 
 ---
 
-## 2. 七大科研实战阶段与 40 大科学分析模块调用图谱
+## 2. 七大科研实战阶段与 49 大科学分析模块调用图谱
 
 本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **40 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
 
@@ -33,6 +33,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
  [Phase 1: 实验提案与反应动力学]
    │ kinematics ── 熔合运动学与 Bass 势垒
    │ excite     ── 靶内阻止能量损失与截面积分
+   │ evap       ── 统计重离子熔合蒸发级联 (xn, pxn, axn) 与残核截面
    │ relcoulex  ── 相对论中间能区库仑激发与虚光子
    │ mnt        ── 多核子转移 (MNT) 与深层非弹性 (DIC)
    │ astro      ── 恒星热核反应率与伽莫夫能窗
@@ -40,11 +41,13 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
  [Phase 2: 探测器电子学与谱线拟合]
    │ filter     ── 数字脉冲梯形滤波 (消除弹道亏损)
    │ peak       ── 全能峰高斯+阶跃低能拖尾非线性拟合
+   │ pid        ── 带电粒子 Delta_E-E 望远镜鉴别、脉冲亏损 (PHD) 与能散区判定
    ▼
  [Phase 3: 符合能谱、内转换与能级纲图构建]
    │ balance    ── 级联进出强度守恒与内转换电子纠偏
    │ ensdf      ── 国际 ENSDF 标准数据库交叉比对
    │ bricc      ── BrIcc 参数化内转换系数绝对计算
+   │ density    ── Gilbert-Cameron 复合能级密度、Ignatyuk 壳阻尼与 D0 标定
    │ sidefeeding── 准连续态侧馈延迟与多普勒 F(tau) 解卷积
    │ pair       ── S_2n 系统学、3点/5点配对隙与幻数断崖
    ▼
@@ -52,6 +55,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ angdist    ── 定向核角分布 a2, a4 与混合比双根求解
    │ dco        ── DCO 比值与 Clover 康普顿线偏振分析
    │ ado        ── 特征探测环 ADO 与线偏振二维似然扫描
+   │ stats      ── 协方差误差矩阵传播、低计数 Baker-Cousins 似然与双根仲裁
    │ alaga      ── Weisskopf 单粒子单位与轴对称转子 Alaga 分支
    │ tdpad      ── 时间差分扰动角分布与三矢量手征 g 因子
    ▼
@@ -66,6 +70,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
  [Phase 6: 三轴形变、手征双重带与摆动运动五道门实验裁判]
    │ coulex     ── 库仑激发重取向效应与无模型 Kumar 四极不变量
    │ tpsm       ── 三轴投影壳模型 (TPSM) 准粒子能带图
+   │ wobbling   ── Davydov-Filippov 转子、横向/纵向摆动模型与伪摆动排他性证伪
    │ tidal      ── 弱形变过渡区潮汐波行波动力学与 B(E2) 线性标度
    │ e0         ── 形状共存两态混合模型与单极强度 rho^2(E0)
    │ ibm        ── 相互作用玻色子模型与 Casten 三角形相变
@@ -259,7 +264,34 @@ python3 system/scripts/analysis/nuclear_analyzer.py astro --T9 0.015 --Z1 1 --A1
 # 39. ENSDF 格式解析
 python3 system/scripts/analysis/nuclear_analyzer.py ensdf --file tmp/test.ensdf --levels
 
-# 40. 全套 40 大模块自动化回归自测 (100% 绿灯)
+# 40. QRPA 矩阵振动与 pnQRPA 双贝塔衰变
+python3 system/scripts/analysis/nuclear_analyzer.py qrpa --scan-gpp --E0 4.0
+
+# 41. 表面 delta 相互作用 (SDI) 与 Pandya 变换
+python3 system/scripts/analysis/nuclear_analyzer.py pandya --benchmark-sc42
+
+# 42. K-同质异能素与减缩阻碍度
+python3 system/scripts/analysis/nuclear_analyzer.py isomer --Ki 8.0 --Kf 0.0 --mult-lambda 2 --tau-ps 1000.0 --Eg 200.0 --A 178 --mult E2
+
+# 43. 电偶极极化率与中子皮厚度
+python3 system/scripts/analysis/nuclear_analyzer.py polariz --alpha-D 20.1 --target 208Pb
+
+# 44. Gilbert-Cameron 复合能级密度与 Ignatyuk 壳阻尼
+python3 system/scripts/analysis/nuclear_analyzer.py density -Z 56 -A 130 -E 6.5 -J 2 --sn 7.5
+
+# 45. Davydov-Filippov 转子与横向/纵向摆动模型
+python3 system/scripts/analysis/nuclear_analyzer.py wobbling --gamma 26.0 --E2-1 120.0 --spin-I 15.5 --spin-j 6.5 --mode TW --be2-ratio 0.35 --bm1-out 0.04 --delta-mix 2.5
+
+# 46. 带电粒子鉴别 Delta_E-E 望远镜与脉冲高度亏损 (PHD)
+python3 system/scripts/analysis/nuclear_analyzer.py pid -p alpha -E 20.0 --delta-thick 30.0
+
+# 47. 统计重离子熔合蒸发级联与残核截面
+python3 system/scripts/analysis/nuclear_analyzer.py evap -Zp 8 -Ap 18 -Zt 48 -At 116 -E 75.0
+
+# 48. 实验统计协方差误差传播、低计数泊松似然与双根仲裁
+python3 system/scripts/analysis/nuclear_analyzer.py stats --demo-baker --demo-cov --solve-roots --A2 -0.28 --A2-err 0.04 --alpha-exp 0.033 --alpha-M1 0.035 --alpha-E2 0.012
+
+# 49. 全套 49 大模块自动化回归自测 (100% 绿灯)
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

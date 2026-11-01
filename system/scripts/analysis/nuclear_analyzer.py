@@ -62,6 +62,11 @@ from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplit
 from surface_delta_interaction_pandya_calculator import calculate_clebsch_gordan, calculate_wigner_6j, calculate_sdi_matrix_element, calculate_single_j_sdi_spectrum, perform_pandya_transformation, benchmark_sc42_k40_pandya
 from k_isomer_hindrance_calculator import calculate_k_forbiddenness, calculate_reduced_hindrance, model_triaxial_gamma_tunneling_hindrance, classify_isomer_mechanism
 from dipole_polarizability_neutron_skin_calculator import calculate_polarizability_from_sigma_minus2, integrate_dipole_polarizability_from_spectrum, droplet_model_polarizability_estimate, extract_neutron_skin_from_polarizability, extract_symmetry_energy_slope_L, predict_neutron_star_radius_from_L
+from gilbert_cameron_level_density_calculator import solve_gilbert_cameron_matching, compute_level_density, calculate_s_wave_resonance_spacing, format_text_report as format_gc_report
+from davydov_wobbling_rotor_calculator import davydov_filippov_energies_and_be2, frauendorf_wobbling_frequency, falsify_wobbling_vs_signature_partner, format_text_report as format_wob_report
+from particle_identification_delta_e_calculator import calculate_stopping_power, simulate_telescope_response, evaluate_pulse_height_defect, evaluate_energy_straggling, format_text_report as format_pid_report
+from compound_nucleus_evaporation_calculator import calculate_fusion_cross_section, simulate_statistical_evaporation_cascade, format_text_report as format_evap_report
+from experimental_uncertainty_covariance_calculator import calculate_baker_cousins_deviance, synthesize_correlated_systematics, resolve_double_root_delta_mixing, format_text_report as format_uncert_report
 
 
 def cmd_kinematics(args):
@@ -1257,6 +1262,81 @@ def cmd_polariz(args):
         print(f"    Droplet alpha_D = {drop['alpha_D_droplet_fm3']:.2f} fm^3")
     print("=======================================================")
 
+def cmd_density(args):
+    match = solve_gilbert_cameron_matching(args.Z, args.A, args.delta_w, args.gamma)
+    eval_res = compute_level_density(args.energy, args.Z, args.A, args.spin, args.parity, match_params=match)
+    summary = {
+        "Z": args.Z, "A": args.A, "pairing_shift_MeV": match["delta_pair"],
+        "shell_correction_delta_W_MeV": match["delta_W"], "asymptotic_a_MeV_inv": match["a_tilde"],
+        "E_x_MeV": match["E_x"], "U_x_MeV": match["U_x"], "T_0_MeV": match["T_0"],
+        "E_0_MeV": match["E_0"], "rho_match_MeV_inv": match["rho_at_match"],
+        "evaluated_energy": eval_res
+    }
+    if args.sn is not None:
+        summary["resonance_spacing_D0"] = calculate_s_wave_resonance_spacing(
+            args.sn, args.Z, args.A, args.target_spin, args.delta_w, args.gamma
+        )
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_gc_report(summary))
+
+
+def cmd_wobbling(args):
+    df_res = davydov_filippov_energies_and_be2(args.gamma, args.E2_1)
+    wob_res = frauendorf_wobbling_frequency(args.spin_I, args.spin_j, args.A1, args.A2, args.A3, args.mode)
+    fals_res = falsify_wobbling_vs_signature_partner(args.be2_ratio, args.bm1_out, args.delta_mix)
+    summary = {"davydov": df_res, "wobbling_model": wob_res, "falsification": fals_res}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_wob_report(summary))
+
+
+def cmd_pid(args):
+    sp_res = calculate_stopping_power(args.projectile, args.energy, "Si")
+    tele_res = simulate_telescope_response(args.projectile, args.energy, args.delta_thick, args.window_nm)
+    phd_res = evaluate_pulse_height_defect(args.projectile, args.energy, args.bias_V, args.window_nm)
+    strag_res = evaluate_energy_straggling(args.projectile, args.energy, args.delta_thick)
+    summary = {"stopping_power": sp_res, "telescope_response": tele_res, "pulse_height_defect": phd_res, "straggling": strag_res}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_pid_report(summary))
+
+
+def cmd_evap(args):
+    fus_res = calculate_fusion_cross_section(args.Zp, args.Ap, args.Zt, args.At, args.elab)
+    residues = simulate_statistical_evaporation_cascade(
+        args.Zp + args.Zt, args.Ap + args.At, fus_res["compound_excitation_E_ex_MeV"], fus_res["sigma_fusion_mb"]
+    )
+    summary = {"fusion_kinematics": fus_res, "residues": residues}
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_evap_report(summary))
+
+
+def cmd_stats(args):
+    summary = {}
+    if args.demo_baker or (not args.demo_cov and not args.solve_roots):
+        obs = [0, 1, 2, 4, 3, 5, 8, 12, 10, 6, 2, 1]
+        exp = [0.4, 0.9, 1.8, 3.5, 4.2, 5.8, 8.1, 11.2, 9.8, 5.5, 2.1, 0.8]
+        summary["baker_cousins"] = calculate_baker_cousins_deviance(obs, exp)
+    if args.demo_cov:
+        summary["correlated_systematics"] = synthesize_correlated_systematics([100.0, 150.0, 80.0, 220.0], [5.0, 6.5, 4.2, 8.0], 0.04)
+    if args.solve_roots or args.A2 != -0.25:
+        summary["double_root"] = resolve_double_root_delta_mixing(args.A2, args.A2_err, args.F11, args.F12, args.F22, args.B2, args.alpha_exp, args.alpha_M1, args.alpha_E2)
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_uncert_report(summary))
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -1763,6 +1843,73 @@ def main():
     p_pol.add_argument("--J", type=float, default=32.0, help="Bulk symmetry energy in MeV (default: 32.0)")
     p_pol.add_argument("--Q", type=float, default=35.0, help="Surface symmetry stiffness in MeV (default: 35.0)")
     p_pol.set_defaults(func=cmd_polariz)
+
+    # Gilbert-Cameron Level Density & Shell Damping
+    p_ld = subparsers.add_parser("density", help="Gilbert-Cameron composite level density with Ignatyuk shell damping")
+    p_ld.add_argument("-Z", type=int, required=True, help="Proton number Z")
+    p_ld.add_argument("-A", type=int, required=True, help="Mass number A")
+    p_ld.add_argument("-E", "--energy", type=float, default=8.0, help="Excitation energy in MeV (default: 8.0)")
+    p_ld.add_argument("-J", "--spin", type=float, default=None, help="Spin J for spin-dependent density")
+    p_ld.add_argument("-p", "--parity", type=int, default=None, choices=[1, -1], help="Parity (+1 or -1)")
+    p_ld.add_argument("--sn", type=float, default=None, help="Neutron separation energy S_n in MeV for D_0 calculation")
+    p_ld.add_argument("--target-spin", type=float, default=0.0, help="Target ground state spin I_0 (default: 0.0)")
+    p_ld.add_argument("--delta-w", type=float, default=None, help="Shell correction delta_W in MeV")
+    p_ld.add_argument("--gamma", type=float, default=0.054, help="Ignatyuk damping factor gamma in MeV^-1 (default: 0.054)")
+    p_ld.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_ld.set_defaults(func=cmd_density)
+
+    # Davydov-Filippov Rotor & Wobbling Motion
+    p_wob = subparsers.add_parser("wobbling", help="Davydov-Filippov triaxial rotor and Frauendorf transverse/longitudinal wobbling")
+    p_wob.add_argument("--gamma", type=float, default=25.0, help="Triaxial deformation angle gamma in degrees (default: 25.0)")
+    p_wob.add_argument("--E2-1", type=float, default=100.0, help="E(2_1^+) energy in keV (default: 100.0)")
+    p_wob.add_argument("--spin-I", type=float, default=13.5, help="Total spin I for odd-A nucleus")
+    p_wob.add_argument("--spin-j", type=float, default=6.5, help="Quasiparticle spin j (default: 6.5)")
+    p_wob.add_argument("--A1", type=float, default=12.0, help="Rotational constant A1 in keV (default: 12.0)")
+    p_wob.add_argument("--A2", type=float, default=25.0, help="Rotational constant A2 in keV (default: 25.0)")
+    p_wob.add_argument("--A3", type=float, default=45.0, help="Rotational constant A3 in keV (default: 45.0)")
+    p_wob.add_argument("--mode", type=str, default="TW", choices=["TW", "LW"], help="Wobbling mode: TW or LW (default: TW)")
+    p_wob.add_argument("--be2-ratio", type=float, default=None, help="B(E2)_out / B(E2)_in ratio")
+    p_wob.add_argument("--bm1-out", type=float, default=None, help="B(M1)_out in W.u.")
+    p_wob.add_argument("--delta-mix", type=float, default=None, help="Mixing ratio delta(E2/M1)")
+    p_wob.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_wob.set_defaults(func=cmd_wobbling)
+
+    # Particle Identification & Stopping Power
+    p_pid = subparsers.add_parser("pid", help="Charged-particle Delta_E - E telescope identification and Bethe-Bloch stopping power")
+    p_pid.add_argument("-p", "--projectile", type=str, default="alpha", help="Projectile particle (p, d, t, 3He, alpha, 6Li, 7Li, 12C, 16O)")
+    p_pid.add_argument("-E", "--energy", type=float, default=20.0, help="Kinetic energy in MeV (default: 20.0)")
+    p_pid.add_argument("--delta-thick", type=float, default=30.0, help="Delta_E detector thickness in um (default: 30.0)")
+    p_pid.add_argument("--window-nm", type=float, default=100.0, help="Front dead layer thickness in nm (default: 100.0)")
+    p_pid.add_argument("--bias-V", type=float, default=100.0, help="Detector reverse bias in V (default: 100.0)")
+    p_pid.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_pid.set_defaults(func=cmd_pid)
+
+    # Heavy-Ion Fusion-Evaporation Cross Sections
+    p_ev = subparsers.add_parser("evap", help="Statistical heavy-ion fusion-evaporation cascade and residue cross sections")
+    p_ev.add_argument("-Zp", type=int, required=True, help="Projectile atomic number Z_p")
+    p_ev.add_argument("-Ap", type=int, required=True, help="Projectile mass number A_p")
+    p_ev.add_argument("-Zt", type=int, required=True, help="Target atomic number Z_t")
+    p_ev.add_argument("-At", type=int, required=True, help="Target mass number A_t")
+    p_ev.add_argument("-E", "--elab", type=float, required=True, help="Beam energy E_lab in MeV")
+    p_ev.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_ev.set_defaults(func=cmd_evap)
+
+    # Statistical Uncertainty & Double-Root Resolver
+    p_st = subparsers.add_parser("stats", help="Advanced experimental uncertainty propagation, covariance and double-root resolver")
+    p_st.add_argument("--demo-baker", action="store_true", help="Demonstrate Baker-Cousins deviance in low counts")
+    p_st.add_argument("--demo-cov", action="store_true", help="Demonstrate correlated systematic scale covariance")
+    p_st.add_argument("--solve-roots", action="store_true", help="Solve double-root mixing ratio ambiguity")
+    p_st.add_argument("--A2", type=float, default=-0.25, help="Experimental A2 angular distribution coefficient")
+    p_st.add_argument("--A2-err", type=float, default=0.03, help="Uncertainty on A2")
+    p_st.add_argument("--F11", type=float, default=-0.448, help="Theoretical F11 coefficient")
+    p_st.add_argument("--F12", type=float, default=-0.418, help="Theoretical F12 coefficient")
+    p_st.add_argument("--F22", type=float, default=-0.190, help="Theoretical F22 coefficient")
+    p_st.add_argument("--B2", type=float, default=0.85, help="Orientation alignment parameter B2")
+    p_st.add_argument("--alpha-exp", type=float, default=None, help="Experimental internal conversion coefficient alpha_K")
+    p_st.add_argument("--alpha-M1", type=float, default=0.035, help="Theoretical alpha_K for M1")
+    p_st.add_argument("--alpha-E2", type=float, default=0.012, help="Theoretical alpha_K for E2")
+    p_st.add_argument("--json", action="store_true", help="Output results in JSON format")
+    p_st.set_defaults(func=cmd_stats)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

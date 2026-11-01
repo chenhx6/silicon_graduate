@@ -76,6 +76,11 @@ from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplit
 from surface_delta_interaction_pandya_calculator import calculate_clebsch_gordan, calculate_wigner_6j, calculate_sdi_matrix_element, calculate_single_j_sdi_spectrum, perform_pandya_transformation, benchmark_sc42_k40_pandya
 from k_isomer_hindrance_calculator import calculate_k_forbiddenness, calculate_reduced_hindrance, model_triaxial_gamma_tunneling_hindrance, classify_isomer_mechanism
 from dipole_polarizability_neutron_skin_calculator import calculate_polarizability_from_sigma_minus2, integrate_dipole_polarizability_from_spectrum, droplet_model_polarizability_estimate, extract_neutron_skin_from_polarizability, extract_symmetry_energy_slope_L, predict_neutron_star_radius_from_L
+from gilbert_cameron_level_density_calculator import solve_gilbert_cameron_matching, compute_level_density, calculate_s_wave_resonance_spacing, cumulative_level_count
+from davydov_wobbling_rotor_calculator import davydov_filippov_energies_and_be2, frauendorf_wobbling_frequency, extract_experimental_wobbling_sequence, classify_wobbling_trend, falsify_wobbling_vs_signature_partner
+from particle_identification_delta_e_calculator import calculate_stopping_power, simulate_telescope_response, evaluate_pulse_height_defect, evaluate_energy_straggling
+from compound_nucleus_evaporation_calculator import calculate_fusion_barrier, calculate_fusion_cross_section, simulate_statistical_evaporation_cascade
+from experimental_uncertainty_covariance_calculator import propagate_linear_covariance, synthesize_correlated_systematics, calculate_baker_cousins_deviance, resolve_double_root_delta_mixing
 
 
 def test_heavy_ion_kinematics():
@@ -951,6 +956,102 @@ def test_dipole_polarizability_neutron_skin_calculator():
     assert 22.0 < drop["alpha_D_droplet_fm3"] < 30.0, "Droplet alpha_D out of range"
     print("  ✓ dipole_polarizability_neutron_skin_calculator passed.")
 
+def test_gilbert_cameron_level_density_calculator():
+    print("Testing gilbert_cameron_level_density_calculator...")
+    match = solve_gilbert_cameron_matching(56, 130)
+    assert 4.5 < match["E_x"] < 7.0, f"Matching energy E_x unexpected: {match['E_x']}"
+    assert 0.4 < match["T_0"] < 0.9, f"Nuclear temperature T_0 unexpected: {match['T_0']}"
+
+    # Constant temperature regime
+    res_ct = compute_level_density(2.0, 56, 130, match_params=match)
+    assert res_ct["regime"] == "Constant_Temperature", "Should be CT regime at 2 MeV"
+
+    # Fermi gas regime
+    res_fg = compute_level_density(10.0, 56, 130, match_params=match)
+    assert res_fg["regime"] == "Back_Shifted_Fermi_Gas", "Should be BSFG regime at 10 MeV"
+    assert res_fg["rho_total_MeV_inv"] > res_ct["rho_total_MeV_inv"], "Density must grow with excitation"
+
+    # S-wave spacing for Pb-208 (magic nucleus spacing suppression)
+    d0_pb = calculate_s_wave_resonance_spacing(7.37, 82, 208, target_I0=0.0)
+    assert d0_pb["average_s_wave_spacing_D_0_eV"] > 50000.0, "Pb-208 D0 must be large (~keV)"
+    print("  ✓ gilbert_cameron_level_density_calculator passed.")
+
+
+def test_davydov_wobbling_rotor_calculator():
+    print("Testing davydov_wobbling_rotor_calculator...")
+    df = davydov_filippov_energies_and_be2(25.0, E2_1_keV=100.0)
+    assert df["E2_2_keV"] > df["E2_1_keV"], "E(2_2) must be above E(2_1)"
+    assert 2.5 < df["R_42"] < 3.333, f"R42 out of Davydov bounds: {df['R_42']}"
+    assert df["B_E2_22_to_21_over_21_to_01"] > 1.0, "B(E2; 2_2->2_1) should be strong in triaxial rotor"
+
+    # Transverse wobbling
+    wob = frauendorf_wobbling_frequency(I=13.5, j=6.5, A1=12.0, A2=25.0, A3=45.0, mode="TW")
+    assert wob["status"] == "stable", "Wobbling should be stable"
+    assert 300.0 < wob["omega_wob_keV"] < 700.0, f"Wobbling frequency out of range: {wob['omega_wob_keV']}"
+
+    # Falsification check
+    fals = falsify_wobbling_vs_signature_partner(be2_out_over_in=0.35, b_m1_out_w_u=0.04, delta_mixing_ratio=2.5)
+    assert fals["verdict"] == "ROBUST_WOBBLING_CONFIRMED", "Should pass all wobbling tests"
+    print("  ✓ davydov_wobbling_rotor_calculator passed.")
+
+
+def test_particle_identification_delta_e_calculator():
+    print("Testing particle_identification_delta_e_calculator...")
+    sp = calculate_stopping_power("alpha", 20.0, "Si")
+    assert 0.05 < sp["dE_dx_MeV_per_um"] < 0.20, f"Alpha stopping power out of range: {sp['dE_dx_MeV_per_um']}"
+
+    # Telescope response
+    tele = simulate_telescope_response("alpha", 25.0, delta_e_thickness_um=30.0)
+    assert tele["transmitted_delta_E"], "25 MeV alpha should punch through 30 um Si"
+    assert tele["goulding_PID_index"] > 20.0, "PID index for alpha must be large"
+
+    # Straggling regime: thick vs thin
+    strag_thick = evaluate_energy_straggling("alpha", 20.0, absorber_thickness_um=30.0)
+    assert "Gaussian" in strag_thick["straggling_regime"], "Should be Gaussian Bohr regime for thick absorber"
+
+    strag_thin = evaluate_energy_straggling("p", 30.0, absorber_thickness_um=15.0)
+    assert "Vavilov" in strag_thin["straggling_regime"], "Should be Vavilov regime for thin absorber"
+    print("  ✓ particle_identification_delta_e_calculator passed.")
+
+
+def test_compound_nucleus_evaporation_calculator():
+    print("Testing compound_nucleus_evaporation_calculator...")
+    fus = calculate_fusion_cross_section(8, 18, 48, 116, E_lab_MeV=75.0)
+    assert 50.0 < fus["barrier_V_B_MeV"] < 55.0, f"Coulomb barrier out of range: {fus['barrier_V_B_MeV']}"
+    assert fus["sigma_fusion_mb"] > 400.0, f"Fusion cross section too small: {fus['sigma_fusion_mb']}"
+    assert fus["l_crit_hbar"] > 20.0, "Should populate high spin states"
+
+    # Evaporation residues
+    residues = simulate_statistical_evaporation_cascade(56, 134, fus["compound_excitation_E_ex_MeV"], fus["sigma_fusion_mb"])
+    assert len(residues) > 0, "Must produce evaporation residues"
+    top_channel = residues[0]["channel"]
+    assert "n" in top_channel, f"Neutron evaporation should dominate: {top_channel}"
+    print("  ✓ compound_nucleus_evaporation_calculator passed.")
+
+
+def test_experimental_uncertainty_covariance_calculator():
+    print("Testing experimental_uncertainty_covariance_calculator...")
+    # Linear covariance propagation
+    cov_x = [[0.04, 0.0], [0.0, 0.09]]
+    jac = [[1.0, 2.0], [3.0, -1.0]]
+    res_prop = propagate_linear_covariance(cov_x, jac)
+    assert abs(res_prop["cov_y"][0][0] - (0.04 + 4.0 * 0.09)) < 1e-5
+
+    # Baker-Cousins deviance vs Neyman in low counts
+    obs = [0, 2, 5]
+    exp = [0.5, 2.1, 4.8]
+    bc = calculate_baker_cousins_deviance(obs, exp)
+    assert bc["chi2_baker_cousins"] > 0.0, "Deviance must be positive"
+    assert bc["chi2_neyman"] == "Undefined (n_i = 0)", "Neyman must flag zero counts"
+
+    # Double-root triage
+    dr = resolve_double_root_delta_mixing(
+        A2_exp=-0.28, A2_uncert=0.04, F11=-0.448, F12=-0.418, F22=-0.190,
+        alpha_K_exp=0.033, alpha_K_M1=0.035, alpha_K_E2=0.012
+    )
+    assert "Root 1" in dr["recommended_root"], "Root 1 must be selected by alpha_K triage"
+    print("  ✓ experimental_uncertainty_covariance_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -997,4 +1098,9 @@ if __name__ == "__main__":
     test_surface_delta_interaction_pandya_calculator()
     test_k_isomer_hindrance_calculator()
     test_dipole_polarizability_neutron_skin_calculator()
-    print("ALL 44 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_gilbert_cameron_level_density_calculator()
+    test_davydov_wobbling_rotor_calculator()
+    test_particle_identification_delta_e_calculator()
+    test_compound_nucleus_evaporation_calculator()
+    test_experimental_uncertainty_covariance_calculator()
+    print("ALL 49 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

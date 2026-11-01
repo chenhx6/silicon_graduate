@@ -3,6 +3,20 @@ graph-excluded: true
 updated: 2026-11-02
 ---
 
+## Active checkpoint — 2026-11-02T13:30:00+08:00 (能级密度、摆动转子、望远镜PID、熔合蒸发与协方差双根仲裁5大分析器落地，49模块闭环)
+
+- **全域核物理理论与在束实验分析系统化闭环拓展（44 -> 49 模块）**：
+  - **模块 45**：Gilbert-Cameron 复合能级密度与 Ignatyuk 壳热阻尼计算器（`gilbert_cameron_level_density_calculator.py`），严谨统一恒温公式与背移费米气体切线连续性，解构壳效应热融化与中子共振间距 $D_0$ 标定；
+  - **模块 46**：Davydov-Filippov 三轴转子与横向/纵向摆动模型分析器（`davydov_wobbling_rotor_calculator.py`），实现流体力学三轴能级与 $B(E2)$ 分支比、Frauendorf-Dönau 摆动能量随自旋消长轨迹判断及排他性伪摆动证伪；
+  - **模块 47**：带电粒子 $\Delta E - E$ 望远镜鉴别与探测器非理想效应分析器（`particle_identification_delta_e_calculator.py`），消除吴治华《原子核物理实验方法》与汪晓莲《粒子探测技术》关于重离子脉冲高度亏损（死层窗口亏损、非电离核阻止亏损、等离子体复合亏损）以及薄层能散区（玻尔高斯 vs Vavilov vs 朗道长尾）的认知冲突；
+  - **模块 48**：重离子熔合蒸发动力学与级联残核截面计算器（`compound_nucleus_evaporation_calculator.py`），基于 Bass 势垒与 RLDM 裂变临界角动量，结合 Hauser-Feshbach 统计多步级联预测 $xn, pxn, lpha xn$ 产额与最佳在束束流能量；
+  - **模块 49**：实验统计协方差误差传播、泊松低计数极大似然与双根仲裁器（`experimental_uncertainty_covariance_calculator.py`），基于朱永生《实验物理中的概率和统计》，实现 $\mathbf{V}_y = \mathbf{J} \mathbf{V}_x \mathbf{J}^T$ 协方差传播、解决共同标度误差中的皮尔悖论（PPP），建立 Baker-Cousins $\chi^2_\lambda$ 无偏连续似然，并利用转换电子系数 $lpha_K$ 与偏振度彻底破除多极混合比 $\delta$ 双实数根二义性；
+  - **知识大脑与测试全绿**：
+    - 撰写 5 篇权威概念专论，建立中英文术语对照与严格推导，更新 `knowledge/index.md`；
+    - 升级 `nuclear-spectroscopy-and-structure-master-field-manual.md` 为 49 模块完整闭环指南；
+    - 统一 CLI `nuclear_analyzer.py` 新增 `density`, `wobbling`, `pid`, `evap`, `stats` 子命令；
+    - `test_analysis_suite.py` 自动化回归测试扩展至 **49 大科学分析模块 100% 绿灯全通**！
+
 ## Active checkpoint — 2026-11-03T16:00:00+08:00 (原子核潮汐波动力学、动态形变增长与B(E2)线性标度分析器落地)
 
 - **非简谐振转过渡模式与动态表面波动力学闭环完成**：
