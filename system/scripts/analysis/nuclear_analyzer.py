@@ -103,6 +103,13 @@ from charge_exchange_gt_quenching_calculator import deconvolve_gt_quenching, for
 from alignment_attenuation_coefficients_calculator import calculate_alignment_attenuation_factors, invert_sigma_over_I_from_stretched_e2, format_text_report as format_align_report
 from r_process_waiting_point_flow_calculator import calculate_isotopic_saha_equilibrium, format_text_report as format_rflow_report
 from wobbling_branching_ratio_phase_calculator import calculate_theoretical_wobbling_delta, compare_wobbling_with_experimental_roots, format_text_report as format_wobphase_report
+from gdr_lorentzian_trk_sumrule_calculator import calculate_trk_sum_rule, calculate_deformed_gdr_splitting, invert_beta2_from_gdr_peaks, format_text_report as format_gdr_report
+from isovector_giant_resonance_splitting_calculator import calculate_isovector_splitting, format_text_report as format_isg_report
+from coincidence_intensity_balancer import check_level_intensity_balance, format_text_report as format_coinbal_report
+from detector_deadtime_pileup_correction_calculator import calculate_deadtime_models, invert_observed_rate, format_text_report as format_deadtime_report
+from heavy_ion_fusion_evaporation_channel_calculator import analyze_heavy_ion_fusion, format_text_report as format_fusion_report
+from poisson_likelihood_peak_fitting_bias_calculator import evaluate_peak_fitting_methods, format_text_report as format_poissonfit_report
+from coriolis_attenuation_bandcrossing_calculator import calculate_coriolis_matrix_elements, analyze_backbending_alignment, format_text_report as format_coriolis_report
 
 
 def cmd_kinematics(args):
@@ -1849,6 +1856,84 @@ def cmd_wobphase(args):
     else:
         print(format_wobphase_report(summary))
 
+def cmd_gdr(args):
+    trk_res = calculate_trk_sum_rule(args.Z, args.A, args.kappa)
+    gdr_res = calculate_deformed_gdr_splitting(args.Z, args.A, args.beta2)
+    summary = {"trk_sum": trk_res, "deformed_gdr": gdr_res}
+    if args.invert or args.beta2 != 0.30:
+        summary["inverted_beta2"] = invert_beta2_from_gdr_peaks(gdr_res["E1_low_mode_MeV"], gdr_res["E2_high_mode_MeV"])
+    elif args.Z == 82 and args.A == 208:
+        summary["inverted_beta2"] = invert_beta2_from_gdr_peaks(gdr_res["E1_low_mode_MeV"], gdr_res["E2_high_mode_MeV"])
+    if args.json:
+        import json
+        print(json.dumps(summary, indent=2))
+    else:
+        print(format_gdr_report(summary))
+
+
+def cmd_isg(args):
+    res = calculate_isovector_splitting(args.Z, args.A, args.mode, args.V1)
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_isg_report(res))
+
+
+def cmd_coinbal(args):
+    inflows = [{"name": "Inflow", "net_area": args.in_area, "efficiency": args.in_eff, "alpha_tot": args.in_icc}]
+    outflows = [{"name": "Outflow", "net_area": args.out_area, "efficiency": args.out_eff, "alpha_tot": args.out_icc}]
+    balance = check_level_intensity_balance(inflows, outflows)
+    if args.json:
+        import json
+        print(json.dumps(balance, indent=2))
+    else:
+        print(format_coinbal_report(balance))
+
+
+def cmd_deadtime(args):
+    tau_np_sec = args.tau_np * 1e-6
+    tau_p_sec = args.tau_p * 1e-6
+    tp_sec = args.tp * 1e-6
+    fwd = calculate_deadtime_models(args.true_rate, tau_np_sec, tau_p_sec, tau_p_sec * 0.5, tau_np_sec * 0.5, tp_sec)
+    inv = invert_observed_rate(args.obs_rate, tau_np_sec, tau_p_sec)
+    if args.json:
+        import json
+        print(json.dumps({"forward": fwd, "inversion": inv}, indent=2))
+    else:
+        print(format_deadtime_report(fwd, inv))
+
+
+def cmd_fusion(args):
+    res = analyze_heavy_ion_fusion(args.Zp, args.Ap, args.Zt, args.At, args.Elab, args.target_thick, args.th_det, args.dth_det, args.egamma)
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_fusion_report(res))
+
+
+def cmd_poissonfit(args):
+    res = evaluate_peak_fitting_methods(args.area, args.centroid, args.sigma, args.bg, args.seed)
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_poissonfit_report(res))
+
+
+def cmd_coriolis(args):
+    mat = calculate_coriolis_matrix_elements(args.j_orbital, args.spin, args.arot, args.xi)
+    demo_spins = [5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5, 21.5, 23.5, 25.5]
+    demo_energies = [0.0, 180.0, 480.0, 910.0, 1470.0, 2160.0, 2980.0, 3650.0, 4200.0, 4850.0, 5600.0]
+    bb = analyze_backbending_alignment(demo_spins, demo_energies, J0_harris=25.0, J1_harris=35.0, K_band=0.5)
+    if args.json:
+        import json
+        print(json.dumps({"coriolis_elements": mat, "backbending": bb}, indent=2))
+    else:
+        print(format_coriolis_report(mat, bb, args.spin, args.j_orbital))
+
+
 def cmd_selftest(args):
     print("\nExecuting comprehensive test suite...")
     ret = os.system(f"{sys.executable} system/scripts/analysis/test_analysis_suite.py")
@@ -2799,6 +2884,79 @@ def main():
     p_wbp.add_argument("--root2", type=float, default=None, help="Experimental DCO root 2")
     p_wbp.add_argument("--json", action="store_true", help="Output results in JSON format")
     p_wbp.set_defaults(func=cmd_wobphase)
+
+    # Giant Dipole Resonance (GDR) Lorentzian & TRK Sum Rule
+    p_gdr = subparsers.add_parser("gdr", help="Giant Dipole Resonance Lorentzian line shape, Danos deformation splitting and TRK sum rule")
+    p_gdr.add_argument("-Z", type=int, default=82, help="Proton number Z")
+    p_gdr.add_argument("-A", type=int, default=208, help="Mass number A")
+    p_gdr.add_argument("--beta2", type=float, default=0.30, help="Quadrupole deformation beta_2")
+    p_gdr.add_argument("--kappa", type=float, default=0.25, help="MEC enhancement kappa")
+    p_gdr.add_argument("--invert", action="store_true", help="Invert beta2 from peaks")
+    p_gdr.add_argument("--json", action="store_true", help="Output JSON")
+    p_gdr.set_defaults(func=cmd_gdr)
+
+    # Isovector Giant Resonance Isospin Splitting
+    p_isg = subparsers.add_parser("isg", help="Isovector Giant Resonance (IVGDR/IVGMR) isospin splitting (T_>, T_<) and Lane potential")
+    p_isg.add_argument("-Z", type=int, default=82, help="Proton number Z")
+    p_isg.add_argument("-A", type=int, default=208, help="Mass number A")
+    p_isg.add_argument("--mode", type=str, default="IVGDR", choices=["IVGDR", "IVGMR"], help="Resonance mode")
+    p_isg.add_argument("--V1", type=float, default=65.0, help="Lane potential strength in MeV")
+    p_isg.add_argument("--json", action="store_true", help="Output JSON")
+    p_isg.set_defaults(func=cmd_isg)
+
+    # In-beam Coincidence Level Balancer
+    p_cbal = subparsers.add_parser("coinbal", help="In-beam coincidence matrix background subtraction and level intensity balancer")
+    p_cbal.add_argument("--in-area", type=float, default=7000.0, help="Total inflow net peak area")
+    p_cbal.add_argument("--in-eff", type=float, default=0.045, help="Average inflow efficiency")
+    p_cbal.add_argument("--in-icc", type=float, default=0.01, help="Inflow ICC alpha")
+    p_cbal.add_argument("--out-area", type=float, default=8800.0, help="Total outflow net peak area")
+    p_cbal.add_argument("--out-eff", type=float, default=0.052, help="Average outflow efficiency")
+    p_cbal.add_argument("--out-icc", type=float, default=0.015, help="Outflow ICC alpha")
+    p_cbal.add_argument("--json", action="store_true", help="Output JSON")
+    p_cbal.set_defaults(func=cmd_coinbal)
+
+    # Detector Dead Time & Pile-up Reconciler
+    p_dt = subparsers.add_parser("deadtime", help="Detector dead time, pulse pile-up and counting loss reconciler (Wu Zhihua vs Wang Xiaolian)")
+    p_dt.add_argument("--true-rate", "-n", type=float, default=30000.0, help="True count rate in cps")
+    p_dt.add_argument("--obs-rate", "-m", type=float, default=22000.0, help="Observed count rate for dual-root inversion in cps")
+    p_dt.add_argument("--tau-np", type=float, default=10.0, help="Non-paralyzable dead time in us")
+    p_dt.add_argument("--tau-p", type=float, default=10.0, help="Paralyzable dead time in us")
+    p_dt.add_argument("--tp", type=float, default=4.0, help="Peaking time in us")
+    p_dt.add_argument("--json", action="store_true", help="Output JSON")
+    p_dt.set_defaults(func=cmd_deadtime)
+
+    # Heavy-Ion Fusion-Evaporation Channel Designer
+    p_fus = subparsers.add_parser("fusion", help="Heavy-ion fusion-evaporation cross section and channel designer (Lin Chengjian Ch 6)")
+    p_fus.add_argument("--Zp", type=int, default=16, help="Projectile charge Zp")
+    p_fus.add_argument("--Ap", type=int, default=36, help="Projectile mass Ap")
+    p_fus.add_argument("--Zt", type=int, default=42, help="Target charge Zt")
+    p_fus.add_argument("--At", type=int, default=100, help="Target mass At")
+    p_fus.add_argument("--Elab", type=float, default=155.0, help="Lab beam energy in MeV")
+    p_fus.add_argument("--target-thick", type=float, default=0.5, help="Target thickness in mg/cm^2")
+    p_fus.add_argument("--th-det", type=float, default=90.0, help="Detector angle in degrees")
+    p_fus.add_argument("--dth-det", type=float, default=8.0, help="Detector opening angle in degrees")
+    p_fus.add_argument("--egamma", type=float, default=1000.0, help="Gamma energy in keV")
+    p_fus.add_argument("--json", action="store_true", help="Output JSON")
+    p_fus.set_defaults(func=cmd_fusion)
+
+    # Poisson Maximum Likelihood Peak Fitting Bias
+    p_pfit = subparsers.add_parser("poissonfit", help="Low-count gamma peak fitting: Poisson MLE vs Neyman chi-square bias (Zhu Yongsheng)")
+    p_pfit.add_argument("--area", "-A", type=float, default=60.0, help="True peak area in counts")
+    p_pfit.add_argument("--bg", type=float, default=2.0, help="Mean background counts per channel")
+    p_pfit.add_argument("--centroid", type=float, default=50.0, help="Peak centroid channel")
+    p_pfit.add_argument("--sigma", type=float, default=2.0, help="Peak Gaussian width in channels")
+    p_pfit.add_argument("--seed", type=int, default=42, help="Random seed")
+    p_pfit.add_argument("--json", action="store_true", help="Output JSON")
+    p_pfit.set_defaults(func=cmd_poissonfit)
+
+    # Coriolis Attenuation & Band Crossing
+    p_cor = subparsers.add_parser("coriolis", help="Coriolis interaction attenuation, particle-rotor coupling and band crossing (Bohr & Mottelson)")
+    p_cor.add_argument("--spin", "-I", type=float, default=15.5, help="Total spin I in hbar")
+    p_cor.add_argument("--j-orbital", "-j", type=float, default=5.5, help="Valence nucleon orbital j in hbar")
+    p_cor.add_argument("--arot", type=float, default=15.0, help="Rotational parameter hbar^2/2J in keV")
+    p_cor.add_argument("--xi", type=float, default=0.75, help="Coriolis attenuation factor xi")
+    p_cor.add_argument("--json", action="store_true", help="Output JSON")
+    p_cor.set_defaults(func=cmd_coriolis)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

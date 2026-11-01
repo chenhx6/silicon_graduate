@@ -118,6 +118,12 @@ from charge_exchange_gt_quenching_calculator import deconvolve_gt_quenching
 from alignment_attenuation_coefficients_calculator import calculate_alignment_attenuation_factors, invert_sigma_over_I_from_stretched_e2
 from r_process_waiting_point_flow_calculator import calculate_waiting_point_separation_energy, calculate_isotopic_saha_equilibrium
 from wobbling_branching_ratio_phase_calculator import calculate_theoretical_wobbling_delta, compare_wobbling_with_experimental_roots
+from gdr_lorentzian_trk_sumrule_calculator import calculate_trk_sum_rule, calculate_deformed_gdr_splitting, invert_beta2_from_gdr_peaks
+from isovector_giant_resonance_splitting_calculator import calculate_isovector_splitting
+from detector_deadtime_pileup_correction_calculator import calculate_deadtime_models, invert_observed_rate
+from heavy_ion_fusion_evaporation_channel_calculator import analyze_heavy_ion_fusion
+from poisson_likelihood_peak_fitting_bias_calculator import evaluate_peak_fitting_methods
+from coriolis_attenuation_bandcrossing_calculator import calculate_coriolis_matrix_elements, analyze_backbending_alignment
 
 
 def test_heavy_ion_kinematics():
@@ -1531,6 +1537,77 @@ def test_wobbling_branching_ratio_phase_calculator():
     assert comp["selected_matching_root"] == "Root 2", "Should select positive large Root 2"
     print("  ✓ wobbling_branching_ratio_phase_calculator passed.")
 
+
+def test_gdr_lorentzian_trk_sumrule_calculator():
+    print("Testing gdr_lorentzian_trk_sumrule_calculator...")
+    trk = calculate_trk_sum_rule(Z=82, A=208, kappa_mec=0.25)
+    assert 2900.0 < trk["classical_TRK_sum_MeV_mb"] < 3000.0, "Classical TRK sum rule check"
+    assert trk["total_enhanced_sum_MeV_mb"] > 3600.0, "MEC enhanced sum rule check"
+
+    gdr_split = calculate_deformed_gdr_splitting(Z=82, A=208, beta_2=0.30)
+    assert gdr_split["E1_low_mode_MeV"] < gdr_split["E2_high_mode_MeV"], "Prolate splitting check"
+    assert abs(gdr_split["energy_ratio_E2_over_E1"] - 1.285) < 0.05, "Danos frequency ratio check"
+
+    rec_beta = invert_beta2_from_gdr_peaks(E1_MeV=11.54, E2_MeV=14.83)
+    assert abs(rec_beta - 0.30) < 0.05, "GDR beta2 inversion check"
+    print("  ✓ gdr_lorentzian_trk_sumrule_calculator passed.")
+
+
+def test_isovector_giant_resonance_splitting_calculator():
+    print("Testing isovector_giant_resonance_splitting_calculator...")
+    res = calculate_isovector_splitting(Z=82, A=208, resonance_type="IVGDR", V_1_lane_MeV=65.0)
+    assert res["isospin_T0"] == 22.0, "208Pb isospin check"
+    assert 6.0 < res["isospin_splitting_Delta_E_MeV"] < 8.0, "Lane potential splitting check"
+    assert res["T_greater_strength_fraction_percent"] < 6.0, "T_> branch should be heavily suppressed in 208Pb"
+    assert res["T_lesser_strength_fraction_percent"] > 94.0, "T_< branch should dominate"
+    print("  ✓ isovector_giant_resonance_splitting_calculator passed.")
+
+
+def test_detector_deadtime_pileup_correction_calculator():
+    print("Testing detector_deadtime_pileup_correction_calculator...")
+    fwd = calculate_deadtime_models(true_rate=30000.0, tau_nonpar=10e-6, tau_par=10e-6, tau_hybrid_p=5e-6, tau_hybrid_n=5e-6, peaking_time=4e-6)
+    assert 22000.0 < fwd["non_paralyzable"]["observed_rate_cps"] < 24000.0, "Non-paralyzable rate check"
+    assert 21000.0 < fwd["paralyzable"]["observed_rate_cps"] < 23000.0, "Paralyzable rate check"
+    assert fwd["pileup_diagnostics"]["pileup_loss_fraction"] > 0.15, "Pileup loss fraction check"
+
+    inv = invert_observed_rate(observed_rate=22000.0, tau_nonpar=10e-6, tau_par=10e-6)
+    assert inv["paralyzable_dual_root_inversion"]["is_physically_admissible"], "Must find dual roots"
+    assert inv["paralyzable_dual_root_inversion"]["dual_root_discrepancy_ratio"] > 5.0, "Paralyzed branch must be much higher"
+    print("  ✓ detector_deadtime_pileup_correction_calculator passed.")
+
+
+def test_heavy_ion_fusion_evaporation_channel_calculator():
+    print("Testing heavy_ion_fusion_evaporation_channel_calculator...")
+    res = analyze_heavy_ion_fusion(Z_p=16, A_p=36, Z_t=42, A_t=100, E_lab_MeV=155.0)
+    assert res["entrance_channel"]["compound_nucleus"] == "Z=58, A=136", "Compound nucleus check"
+    assert 78.0 < res["barrier_and_fusion"]["V_barrier_MeV"] < 85.0, "Coulomb barrier check"
+    assert res["barrier_and_fusion"]["sigma_fusion_mb"] > 900.0, "Fusion cross section check"
+    assert res["in_beam_spectroscopy"]["recoil_velocity_pct_c"] > 2.0, "Recoil velocity check"
+    assert "4n" in res["evaporation_channels"] and "5n" in res["evaporation_channels"], "Evaporation channels check"
+    print("  ✓ heavy_ion_fusion_evaporation_channel_calculator passed.")
+
+
+def test_poisson_likelihood_peak_fitting_bias_calculator():
+    print("Testing poisson_likelihood_peak_fitting_bias_calculator...")
+    res = evaluate_peak_fitting_methods(true_area=60.0, centroid=50.0, sigma=2.0, bg_counts=2.0, seed=42)
+    assert abs(res["poisson_mle_baker_cousins"]["bias_percentage"]) < 15.0, "Poisson MLE bias should be small"
+    assert res["poisson_mle_baker_cousins"]["statistical_significance_Z_sigma"] > 5.0, "Peak should be significant"
+    print("  ✓ poisson_likelihood_peak_fitting_bias_calculator passed.")
+
+
+def test_coriolis_attenuation_bandcrossing_calculator():
+    print("Testing coriolis_attenuation_bandcrossing_calculator...")
+    mat = calculate_coriolis_matrix_elements(j=5.5, I=15.5, A_rot_keV=15.0, xi=0.75)
+    assert len(mat) == 5, "K-manifold elements count check"
+    assert mat[0]["attenuated_matrix_element_keV"] < mat[0]["unattenuated_matrix_element_keV"], "Attenuation check"
+
+    demo_spins = [5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5, 21.5, 23.5]
+    demo_energies = [0.0, 180.0, 480.0, 910.0, 1470.0, 2160.0, 2980.0, 3650.0, 4200.0, 4850.0]
+    bb = analyze_backbending_alignment(spins=demo_spins, energies_keV=demo_energies, J0_harris=25.0, J1_harris=35.0)
+    assert bb["backbending_diagnostics"]["backbending_observed"], "Backbending should be identified"
+    assert bb["backbending_diagnostics"]["maximum_quasiparticle_alignment_ix"] > 8.0, "Quasiparticle alignment check"
+    print("  ✓ coriolis_attenuation_bandcrossing_calculator passed.")
+
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
@@ -1618,4 +1695,10 @@ if __name__ == "__main__":
     test_alignment_attenuation_coefficients_calculator()
     test_r_process_waiting_point_flow_calculator()
     test_wobbling_branching_ratio_phase_calculator()
-    print("ALL 85 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")
+    test_gdr_lorentzian_trk_sumrule_calculator()
+    test_isovector_giant_resonance_splitting_calculator()
+    test_detector_deadtime_pileup_correction_calculator()
+    test_heavy_ion_fusion_evaporation_channel_calculator()
+    test_poisson_likelihood_peak_fitting_bias_calculator()
+    test_coriolis_attenuation_bandcrossing_calculator()
+    print("ALL 91 SCIENTIFIC ANALYSIS MODULES VERIFIED SUCCESSFULLY!")

@@ -13,6 +13,10 @@ Features:
 """
 
 import numpy as np
+import json
+import argparse
+import sys
+from typing import Dict, Any, List
 
 
 def three_point_background_subtraction(peak_slice, bg_left_slice, bg_right_slice,
@@ -115,33 +119,59 @@ def check_level_intensity_balance(inflow_transitions, outflow_transitions):
     }
 
 
-if __name__ == "__main__":
-    print("=== Benchmark: Coincidence Background Subtraction & Level Intensity Balancing ===")
-    # 1. Test 3-point background subtraction
-    channels = 100
-    # Gated spectrum contains peak at channel 50 + Compton background
-    peak_slice = np.full(channels, 200.0)
-    peak_slice[48:53] += 500.0 # True peak counts
-    bg_left = np.full(channels, 180.0)
-    bg_right = np.full(channels, 160.0)
-    
-    sub, err, fB = three_point_background_subtraction(peak_slice, bg_left, bg_right, w_peak=5, w_bg_left=10, w_bg_right=10)
-    print(f"  Background weight fB = {fB:.3f}")
-    print(f"  Net peak counts extracted around channel 50: {np.sum(sub[48:53]):.1f} (True: 2500.0)")
-    
-    # 2. Test Level Intensity Balance
-    inflows = [
-        {"name": "520 keV", "net_area": 4500.0, "efficiency": 0.05, "alpha_tot": 0.01}, # Inflow approx 90900
-        {"name": "780 keV", "net_area": 2500.0, "efficiency": 0.035, "alpha_tot": 0.005} # Inflow approx 71785
+def format_text_report(balance: Dict[str, Any]) -> str:
+    lines = [
+        "=" * 74,
+        "   IN-BEAM GAMMA-GAMMA COINCIDENCE MATRIX & LEVEL INTENSITY BALANCER",
+        "   Based on Wu Zhihua (Experimental Nuclear Physics) & Radford (RadWare ESCL8R)",
+        "=" * 74,
+        f" LEVEL INTENSITY BALANCE VERIFICATION:",
+        f"   Total Feeding Inflow : {balance['total_inflow']:.1f} +/- {balance['inflow_err']:.1f}",
+        f"   Total Decay Outflow  : {balance['total_outflow']:.1f} +/- {balance['outflow_err']:.1f}",
+        f"   Net Discrepancy      : {balance['difference_out_minus_in']:+.1f} +/- {balance['difference_err']:.1f}",
+        f"   Statistical Pull     : {balance['sigma_discrepancy']:+.2f} sigma",
+        f"   Status Assessment    : {'LEVEL IS BALANCED WITHIN 3-SIGMA!' if balance['is_balanced_within_3sigma'] else 'UNBALANCED! Check for missing transitions.'}",
+        "-" * 74,
+        " Physical & Methodological Synthesis:",
+        "   - Intensity balancing accounts for gamma detection efficiency and internal conversion.",
+        "   - A statistically significant positive difference (outflow > inflow) indicates unobserved",
+        "     side feeding or unrecognized cascade branches populating the state.",
+        "   - Negative difference indicates missing unobserved low-energy or highly-converted decays.",
+        "=" * 74
     ]
-    outflows = [
-        {"name": "430 keV", "net_area": 6000.0, "efficiency": 0.058, "alpha_tot": 0.02}, # Outflow approx 105517
-        {"name": "610 keV", "net_area": 2800.0, "efficiency": 0.048, "alpha_tot": 0.008} # Outflow approx 58800
-    ]
-    
+    return "\n".join(lines)
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="In-Beam Gamma-Gamma Coincidence Matrix Gating & Level Intensity Balancer"
+    )
+    parser.add_argument("--in-area", type=float, default=7000.0,
+                        help="Total inflow net peak area")
+    parser.add_argument("--in-eff", type=float, default=0.045,
+                        help="Average inflow detector efficiency")
+    parser.add_argument("--in-icc", type=float, default=0.01,
+                        help="Average inflow internal conversion coefficient (alpha)")
+    parser.add_argument("--out-area", type=float, default=8800.0,
+                        help="Total outflow net peak area")
+    parser.add_argument("--out-eff", type=float, default=0.052,
+                        help="Average outflow detector efficiency")
+    parser.add_argument("--out-icc", type=float, default=0.015,
+                        help="Average outflow internal conversion coefficient (alpha)")
+    parser.add_argument("--json", action="store_true",
+                        help="Output pure JSON")
+
+    args = parser.parse_args()
+
+    inflows = [{"name": "Inflow", "net_area": args.in_area, "efficiency": args.in_eff, "alpha_tot": args.in_icc}]
+    outflows = [{"name": "Outflow", "net_area": args.out_area, "efficiency": args.out_eff, "alpha_tot": args.out_icc}]
     balance = check_level_intensity_balance(inflows, outflows)
-    print("\nLevel Intensity Balance Report:")
-    print(f"  Total Inflow  : {balance['total_inflow']:.1f} +/- {balance['inflow_err']:.1f}")
-    print(f"  Total Outflow : {balance['total_outflow']:.1f} +/- {balance['outflow_err']:.1f}")
-    print(f"  Difference    : {balance['difference_out_minus_in']:+.1f} +/- {balance['difference_err']:.1f} ({balance['sigma_discrepancy']:+.2f} sigma)")
-    print(f"  Balanced?     : {balance['is_balanced_within_3sigma']}")
+
+    if args.json:
+        print(json.dumps(balance, indent=2))
+    else:
+        print(format_text_report(balance))
+
+
+if __name__ == "__main__":
+    main()

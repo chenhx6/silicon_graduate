@@ -6346,3 +6346,32 @@ u}$ zero-crossing detection;
 - Unified CLI integration: added `polariz` command to `system/scripts/analysis/nuclear_analyzer.py`.
 - Regression suite: expanded `test_analysis_suite.py` to **a landmark 44 scientific analysis modules**, all passing 100%.
 - Verified via `wiki_boundary_check.py` and `git diff --check`.
+
+### Nuclear Analysis Suite Expansion to 92 Modules & Comprehensive Book Assimilation 2026-11-02T17:30:00+08:00
+
+- Comprehensive in-depth assimilation of library books in `raw/books/`:
+  - 《原子核物理（修订版）》(卢希庭、江栋兴、叶沿林) - Standard Chinese terminology, foundation nuclear theory, collective model, radioactive decays, reaction kinematics, and fission/fusion dynamics.
+  - Nuclear Structure Vol 1 & 2 (A. Bohr & B. R. Mottelson) - Foundations of nuclear structure: single-particle motion, deformation, Coriolis force, quasiparticle alignment, and backbending.
+  - Chirality and Wobbling in Atomic Nuclei (C. M. Petrache 2024) & Frauendorf (RMP 2001) - Triaxial collective motion, spontaneous chiral symmetry breaking, transverse/longitudinal wobbling, and dual-root resolution of multipole mixing ratios $\delta(E2/M1)$.
+  - 《原子核物理实验方法》(吴治华) vs 《粒子探测技术》(汪晓莲等) - Reconciled classical textbook conflicts: non-paralyzable ADC dead time vs paralyzable analog shaping / detector discharge space charge, dual-root ambiguity at high count rates, hybrid series models, peak pile-up loss, ballistic deficit elimination via digital trapezoidal filtering, and n-type vs p-type HPGe fast-neutron radiation damage resistance.
+  - 《重离子核反应》(林承键) & Bertulani - Heavy-ion fusion-evaporation reaction channel design for $A \sim 130$ triaxial/chiral nuclei: Bass Coulomb barrier, Wong barrier penetration formula, high-spin rotating liquid drop fission cutoff, $xn$ statistical evaporation temperature/energy matching, and in-beam Doppler shift/broadening minimization via thin self-supporting targets.
+  - 《实验物理中的概率和统计》(朱永生) & Data Analysis texts - Low-count Poisson statistics in $\gamma$-ray spectroscopy: eliminating the infamous $15-35\%$ downward bias of Neyman data-weighted least squares via Baker-Cousins Poisson likelihood ratio deviance $\chi_\lambda^2$, Wilks' theorem, profile likelihood confidence intervals, and $5\sigma$ discovery significance criteria.
+- Implemented and integrated 7 new production-grade scientific analysis modules (expanding the suite from 85 to 92 modules):
+  1. `gdr_lorentzian_trk_sumrule_calculator.py` (CLI: `gdr`): Giant Dipole Resonance Lorentzian line shape, Danos deformation splitting (optical caliper for $\beta_2$), and classical TRK sum rule with MEC enhancement $\kappa$.
+  2. `isovector_giant_resonance_splitting_calculator.py` (CLI: `isg`): Isovector Giant Resonance isospin splitting ($T_>, T_<$), Lane symmetry potential $V_1$, and Pauli blocking suppression in heavy neutron-rich nuclei ($^{208}\text{Pb}$).
+  3. `coincidence_intensity_balancer.py` (CLI: `coinbal`): In-beam $\gamma$-$\gamma$ coincidence matrix background subtraction & level intensity balancing with BrIcc internal conversion correction (Wu Zhihua §10.3 & Radford RadWare ESCL8R).
+  4. `detector_deadtime_pileup_correction_calculator.py` (CLI: `deadtime`): Detector dead time, pulse pile-up & counting loss reconciler between Wu Zhihua & Wang Xiaolian, Lambert $W$ paralyzable dual-root solver, and hybrid series models.
+  5. `heavy_ion_fusion_evaporation_channel_calculator.py` (CLI: `fusion`): Heavy-ion fusion-evaporation reaction cross sections, Bass barrier, Wong formula, $xn$ residue yields, and in-beam Doppler kinematics for $A \sim 130$ spectroscopy (Lin Chengjian Ch 6 & Bertulani).
+  6. `poisson_likelihood_peak_fitting_bias_calculator.py` (CLI: `poissonfit`): Low-count gamma peak fitting: Baker-Cousins Poisson deviance $\chi_\lambda^2$ vs Neyman chi-square bias evaluation, eliminating downward area underestimation (Zhu Yongsheng Ch 8 & 11).
+  7. `coriolis_attenuation_bandcrossing_calculator.py` (CLI: `coriolis`): Coriolis interaction attenuation factor $\xi \sim 0.75$, particle-rotor coupling, high-$j$ intruder alignment, backbending and band-crossing frequency $\hbar\omega_c$ (Bohr-Mottelson Vol 2 §4-3 & Heyde Ch 8).
+- Added 6 in-depth authoritative concepts to `knowledge/concepts/` and cataloged in `knowledge/index.md`:
+  - `knowledge/concepts/reconciliation-of-detector-dead-time-and-pulse-pileup.md`
+  - `knowledge/concepts/heavy-ion-fusion-evaporation-and-reaction-channel-design.md`
+  - `knowledge/concepts/poisson-maximum-likelihood-and-gamma-peak-fitting-bias.md`
+  - `knowledge/concepts/coriolis-attenuation-and-quasiparticle-band-crossing.md`
+  - `knowledge/concepts/giant-dipole-resonance-lorentzian-and-trk-sum-rule.md`
+  - `knowledge/concepts/isovector-giant-resonance-isospin-splitting-and-lane-potential.md`
+- Master Field Manual upgraded to 92-module comprehensive guide:
+  - `knowledge/synthesis/nuclear-spectroscopy-and-structure-master-field-manual.md`
+- Regression testing: `python3 system/scripts/analysis/nuclear_analyzer.py selftest` passes 100% with all modules verified in 1.4s.
+- Repository integrity: `wiki_boundary_check.py` returns `ok: true`.

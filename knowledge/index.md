@@ -7,6 +7,15 @@ updated: 2026-11-01
 
 # Wiki Index
 
+## 核心专著深度吸收与核结构专家级综合资产 (2026-11-02)
+
+- [[reconciliation-of-detector-dead-time-and-pulse-pileup]] — **辐射探测器死时间模型、脉冲堆积与计数损失核算：吴治华《实验方法》与汪晓莲《探测技术》的系统性调和**：深入调和吴治华非麻痹型 ADC 转换模型与汪晓莲麻痹型微观物理过程，揭示大计数率下麻痹型系统的灾难性双根疑难与高通量误判风险，建立包含模拟成形与数字写入的 Müller 混合级联模型、峰区脉冲堆积损失以及 Shockley-Ramo 定理下的弹道亏损消除与 N 型/P 型 HPGe 快中子辐照寿命准则。
+- [[heavy-ion-fusion-evaporation-and-reaction-channel-design]] — **重离子熔合蒸发反应截面、光学势垒分布与在束 $\gamma$ 谱学出射道设计：林承键《重离子核反应》与 Bertulani 理论融会**：基于 Bass 相互作用势与 Wong 势垒穿透公式，建立重离子熔合入射道动力学、RLDM 转动液滴裂变截断与有效剩余蒸发截面模型，推导 $A \sim 130$ 区 $xn$ 统计蒸发去激最佳激发能高斯窗口，以及反冲运动学多普勒频移、几何展宽控制与薄自支撑/衬底靶材配置实战法典。
+- [[poisson-maximum-likelihood-and-gamma-peak-fitting-bias]] — **实验核物理小信号能谱拟合、泊松最大似然估计与 Neyman 卡方偏差消除：朱永生《概率和统计》方法论实践**：系统剖析传统数据加权 Neyman 最小二乘卡方在低计数（$n_i \le 10$）弱 $\gamma$ 谱线拟合中引入的 $15\% \sim 35\%$ 系统性下偏成因，建立严格无偏的 Baker-Cousins 泊松似然比偏差 $\chi_\lambda^2$ 拟合范式、Wilks 定理渐近卡方检验、Profile Likelihood 轮廓误差置信区间与新物理跃迁 $5\sigma$ 黄金发现判据。
+- [[coriolis-attenuation-and-quasiparticle-band-crossing]] — **科里奥利相互作用衰减因子、粒子-转子耦合与准粒子带交叉（Backbending）微观机制：Bohr-Mottelson 经典理论重构**：基于 Bohr-Mottelson Vol. II 与 Frauendorf 理论，推导轴对称变形粒子-转子哈密顿量及非对角科氏矩阵元，阐明残余配对 Bogoliubov 因子与核芯动力学极化驱动的科里奥利衰减因子 $\xi \sim 0.75$ 微观成因，解构旋转坐标系 Routhian 准粒子对齐与回弯现象（Backbending）的动力学破缺。
+- [[giant-dipole-resonance-lorentzian-and-trk-sum-rule]] — **巨偶极共振（GDR）双洛伦兹线形、Danos 形变分裂与 TRK 能量加权求和规则：光核反应微观动力学**：基于卢希庭《原子核物理》与 Bohr-Mottelson，推导 Thomas-Reiche-Kuhn 经典求和规则及介子交换流（MEC）$\sim 25\%$ 增强因子，建立轴对称与三轴核 Danos 流体动力学双峰分裂模型与椭球轴比公式，确立利用光核吸收峰频比逆向反演核基态四极形变 $\beta_2$ 的光学标尺。
+- [[isovector-giant-resonance-isospin-splitting-and-lane-potential]] — **巨共振同位旋劈裂（$T_>, T_<$）、Lane 对称势与泡利阻塞微观机理：同位旋代数与电荷无关性破缺**：推导异旋激发算符在基态 $|T_0, T_0\rangle$ 下的 Clebsch-Gordan 矢量耦合分解，阐明 Lane 光学对称势能差 $\Delta E_T = (V_1/A)(T_0+1)$ 的微观标定方法，并定量证明泡利不相容原理在重中子过剩核（如 $^{208}\text{Pb}$）中对高同位旋客分支 $T_>$ 跃迁强度的极限几何阻抑（压低至仅残存 $4.3\%$）。
+
 ## 核心专著深度吸收与核结构专家级综合资产 (2026-11-01)
 
 - [[multiple-chiral-doublets-and-chiral-parity-quartets]] — **多重手征双重带（MχD）与手征-八极宇称四重带前沿动力学**：基于 Petrache 2024 (第 15–17 章) 与孟杰团队理论，系统解构多组态手征共存（类型 I）与三轴形状共存手征（类型 II），推导时间反演破缺与空间反射不对称性复合下的手征-八极四重带（Chiral-Parity Quartets）简并代数，并为 $^{133}	ext{Ce}$ 与 $^{78}	ext{Br}$ 提供权威判据。

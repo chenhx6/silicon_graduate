@@ -1,15 +1,15 @@
 ---
 type: synthesis
-title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的85模块完整闭环指南"
-aliases: [核谱学实战全书, 核结构专家工作手册, 85模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
+title: "低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的92模块完整闭环指南"
+aliases: [核谱学实战全书, 核结构专家工作手册, 92模块闭环指南, 在束谱学实验手册, 三轴形变与高自旋实战手册]
 created: 2026-11-02
 updated: 2026-11-02
 status: active
 review_status: unreviewed
-topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 85-modules-suite, expert-field-manual]
+topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbling, heavy-ion-reactions, 92-modules-suite, expert-field-manual]
 ---
 
-# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的85模块完整闭环指南
+# 低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的92模块完整闭环指南
 
 ## 1. 宣言与专家心智模型：大模型如何以世界级核物理学家身份工作
 
@@ -25,7 +25,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
 
 ---
 
-## 2. 七大科研实战阶段与 85 大科学分析模块调用图谱
+## 2. 七大科研实战阶段与 92 大科学分析模块调用图谱
 
 本 Wiki 在 `system/scripts/analysis/` 目录下打造了纯 Python 编写、完全自洽、支持任意终端即 pull 即用的 **85 大生产级科学分析模块**，由统一 CLI 主程序 `nuclear_analyzer.py` 驱动。
 
@@ -40,6 +40,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ relcoulex  ── 相对论中间能区库仑激发与虚光子
    │ mnt        ── 多核子转移 (MNT) 与深层非弹性 (DIC)
    │ astro      ── 恒星热核反应率与伽莫夫能窗
+   │ fusion     ── 重离子熔合蒸发截面、光学势垒分布与出射道设计 (林承键 Ch 6)
    ▼
  [Phase 2: 探测器电子学与谱线拟合]
    │ filter     ── 数字脉冲梯形滤波 (消除弹道亏损)
@@ -48,6 +49,8 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ hpge       ── HPGe 极零相消 (PZC)、电荷收集弹道亏损 (BD) 与高率死时间
    │ psd        ── 闪烁体脉冲形状鉴别 (PSD)、双门电荷比 (CCM) 与优值因子 (FOM)
    │ clover     ── Clover 探测器康普顿加和 (Add-Back) 与自散射线偏振度
+   │ deadtime   ── 探测器死时间模型与堆积损失核算 (吴治华非麻痹 vs 汪晓莲麻痹双根)
+   │ poissonfit ── 低计数伽马峰 Baker-Cousins 泊松似然比拟合与卡方偏差消除 (朱永生)
    ▼
  [Phase 3: 符合能谱、内转换与能级纲图构建]
    │ balance    ── 级联进出强度守恒与内转换电子纠偏
@@ -60,6 +63,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ density    ── Gilbert-Cameron 复合能级密度、Ignatyuk 壳阻尼与 D0 标定
    │ sidefeeding── 准连续态侧馈延迟与多普勒 F(tau) 解卷积
    │ pair       ── S_2n 系统学、3点/5点配对隙与幻数断崖
+   │ coinbal    ── 在束 gamma-gamma 符合矩阵背景扣除与能级强度守恒平衡 (吴治华)
    ▼
  [Phase 4: 多极性鉴别、偏振测量与破除双根]
    │ angdist    ── 定向核角分布 a2, a4 与混合比双根求解
@@ -85,6 +89,7 @@ topics: [nuclear-structure, in-beam-spectroscopy, triaxiality, chirality, wobbli
    │ sd         ── 超形变 (SD) 动力学平坦度与势垒穿透衰变
    │ term       ── 高自旋能带光滑终止、Qt->0 塌缩与价角动量耗尽
    │ gm         ── Gallagher-Moszkowski (GM) 规则与 K=0 带 Newby 奇偶位移
+   │ coriolis   ── 科里奥利衰减因子 xi、粒子-转子耦合与准粒子带交叉回弯 (Bohr-Mottelson)
    ▼
  [Phase 6: 三轴形变、手征双重带与摆动运动五道门实验裁判]
    │ coulex     ── 库仑激发重取向效应与无模型 Kumar 四极不变量
@@ -435,7 +440,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py rflow -Z 48 --T9 1.5
 # 84. 摆动混合比 delta(E2/M1) 相位与 TW/LW 诊断
 python3 system/scripts/analysis/nuclear_analyzer.py wobphase -I 15.5 -j 5.5 --eg 720.0 --q0 5.0 --root1 -0.15 --root2 3.10
 
-# 85. 全套 85 大模块自动化回归自测 (100% 绿灯)
+# 85. 全套 92 大模块自动化回归自测 (100% 绿灯)
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 
