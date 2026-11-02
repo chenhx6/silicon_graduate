@@ -6709,3 +6709,36 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure.md` with BM1-1 and BM1-2 entries.
 - Added unit test suite `system/tests/test_schiffer_true_tbme.py` (5 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **110 official analysis modules**, all verified passing in 4.5s.
+
+### 3D Tilted Axis Cranking (TAC) Chiral Orientation Energy Surface (Module 111) 2026-11-03T09:45:00+08:00
+
+- Integrated Three-Dimensional Tilted Axis Cranking (TAC) Orientation Energy Surface, Chiral Bifurcation & Aplanar Barrier Engine (`tac_3d_chiral_orientation_energy_surface_calculator.py`):
+  - Based on S. Frauendorf & J. Meng (Nucl. Phys. A 617, 131, 1997), S. Frauendorf (Rev. Mod. Phys. 73, 463, 2001), and J. Meng & Y. P. Wang in *Chirality and Wobbling in Atomic Nuclei* (CRC 2025) Ch. 3:
+    * Total TAC orientation energy on the unit sphere: $E(\theta, \phi; J) = \frac{(J_s - j_p)^2}{2\mathcal{J}_s} + \frac{J_m^2}{2\mathcal{J}_m} + \frac{(J_l - j_n)^2}{2\mathcal{J}_l}$, with $J_s = J\sin\theta\cos\phi, J_m = J\sin\theta\sin\phi, J_l = J\cos\theta$.
+    * Explains the competition between single-particle alignment ($j_p$ along short $s$-axis, $j_n$ along long $l$-axis) and core collective rotation ($R$ along intermediate $m$-axis, $\mathcal{J}_m > \mathcal{J}_s, \mathcal{J}_l$).
+    * Discovers the Chiral Bifurcation transition: at low spins ($J < J_{\text{crit}}$), rotation is planar ($\phi_{\text{min}} = 0^\circ, J_m = 0$); at high spins ($J \ge J_{\text{crit}}$), the planar minimum becomes a saddle point, spontaneously breaking $\mathcal{T}\mathcal{R}_y(\pi)$ symmetry and producing two degenerate aplanar chiral minima.
+    * Computes the planar energy barrier $\Delta E_{\text{barrier}}$ separating the left- and right-handed states and evaluates the aplanarity volume metric $\mathcal{V}_{\text{chiral}} = J_m / J$.
+  - Benchmarks:
+    * $^{134}\text{Pr}$ chiral tripod ($\mathcal{J}_m = 25, \mathcal{J}_s = 15, \mathcal{J}_l = 5\ \hbar^2/\text{MeV}, j_p = 5.5, j_n = 5.5$): at $J \le 14\ \hbar$, planar rotation ($\phi \approx 1^\circ, J_m \approx 0.2\ \hbar$, barrier $= 0\text{ keV}$); at $J = 16\ \hbar$, onset of chiral bifurcation ($\phi = 17.9^\circ, J_m = 4.4\ \hbar$, barrier $= 6.3\text{ keV}$); at $J = 18\ \hbar$, robust aplanar chiral rotation ($\phi = 34.3^\circ, \theta = 67.5^\circ, J_m = 9.4\ \hbar$, barrier $= 107.8\text{ keV}$, $\mathcal{V}_{\text{chiral}} = 0.520$).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `tac`.
+- Created concept page: `knowledge/concepts/three-dimensional-tac-chiral-orientation-energy-surface.md`.
+- Added unit test suite `system/tests/test_tac_3d_chiral_orientation.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 111.
+
+### Gamma-Vibrational Band Mixing & Mikhailov z_gamma Parameter (Module 112) 2026-11-03T10:15:00+08:00
+
+- Integrated Gamma-Vibrational Band Mixing, Mikhailov $z_\gamma$ Parameter & Alaga Branching Rule Correction Suite (`gamma_band_mixing_z_gamma_alaga_inverter.py`):
+  - Based on G. Alaga et al. (Mat. Fys. Medd. Dan. Vid. Selsk. 29, no. 9, 1955), V. M. Mikhailov (1966), and A. Bohr & B. R. Mottelson Vol. II §4-2 (pp. 140–155):
+    * Computes unperturbed Alaga geometric Clebsch-Gordan ratios: $B(E2; 2_\gamma^+ \to 0_g^+) / B(E2; 2_\gamma^+ \to 2_g^+) = \frac{7}{10} = 0.700$.
+    * Mikhailov first-order Coriolis and $\Delta K=2$ mixing expansion: $M(E2; I_\gamma \to I_g) = M_0 \langle I_\gamma 2 2 -2 \mid I_g 0 \rangle [1 + z_\gamma [I_g(I_g+1) - I_\gamma(I_\gamma+1)]]$.
+    * Solves for $z_\gamma$ from experimental $B(E2)$ ratios: $z_\gamma = \frac{1 - \sqrt{R_{\text{exp}} / 0.700}}{6}$.
+    * Calculates rotational-vibrational coupling matrix element: $h_2 = z_\gamma \frac{E(2_\gamma^+) - E(2_g^+)}{\sqrt{6}}$.
+    * Predicts perturbed branching to the $4_g^+$ state: $R_{4g} = 0.050 \times (1 + 14 z_\gamma)^2$.
+  - Benchmarks:
+    * $^{168}\text{Er}$ well-deformed prolate rotor: $E(2_\gamma^+) = 821.1\text{ keV}, E(2_g^+) = 79.8\text{ keV}$, experimental $R_{\text{exp}} = 0.540 \implies z_\gamma = 0.02028, h_2 = 6.14\text{ keV}$, predicting $B(E2; 2_\gamma \to 4_g) / B(E2; 2_\gamma \to 2_g) = 0.0824$ (vs unperturbed $0.0500$).
+    * $^{130}\text{Ba}$ transitional $\gamma$-soft core: $R_{\text{exp}} = 0.320 \implies z_\gamma = 0.05398 > 0.050, h_2 = 12.14\text{ keV}$, quantitatively diagnosing the onset of triaxial $\gamma$-softness in the $A \sim 130$ region.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `zgamma`.
+- Created concept page: `knowledge/concepts/gamma-vibrational-band-mixing-and-mikhailov-z-gamma-parameter.md`.
+- Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-5 entry.
+- Added unit test suite `system/tests/test_gamma_band_mixing_z_gamma.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **112 official analysis modules**, all verified passing in 4.2s.

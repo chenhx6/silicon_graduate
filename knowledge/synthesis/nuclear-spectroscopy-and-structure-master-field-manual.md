@@ -74,6 +74,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `crank` | 高 j 单壳层三轴推转哈密顿量对角化、Routhian 能谱、对齐量 <jx> 与旋称反转 | 单 j 壳层截断；微观自洽多组态需结合三维推转 RMF 或 TAC-CSM |
 | `pipeline` | 在束实验核谱学全流程数据处理流水线工作台（反应->多普勒->DCO->DSAM->模式仲裁） | 整合 7 大子模块；需提供对应阶段的关键输入观测值 |
 | `schiffer` | Schiffer-True 普适两体相互作用矩阵元（TBME）、Pandya 反转与 Nordheim 手征带头自旋定则 | 纯两体短程势有效；多体有效作用需结合壳模型有效两体相互作用（如 G 矩阵） |
+| `tac` | 三维倾斜轴推转（3D TAC）手征取向势能面 E(theta, phi)、分叉临界自旋与平面势垒 | 拟经典矢量耦合；低势垒大振幅涨落需结合投影壳模型（TPSM） |
+| `zgamma` | Gamma 振动带 Mikhailov z_gamma 混合参数、Alaga 定则偏离修正与转-振耦合矩阵元 h_2 | 一级微扰假设；强非轴对称三轴大形变需采用 Davydov-Filippov 模型 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -97,6 +99,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py doppler --preset 134Ce_in_be
 python3 system/scripts/analysis/nuclear_analyzer.py crank --preset h11/2_triaxial_chiral --json
 python3 system/scripts/analysis/nuclear_analyzer.py pipeline --preset 135Pr_wobbling_audit --json
 python3 system/scripts/analysis/nuclear_analyzer.py schiffer --preset pr134_chiral_bandhead --json
+python3 system/scripts/analysis/nuclear_analyzer.py tac --preset 134Pr_chiral_tripod --json
+python3 system/scripts/analysis/nuclear_analyzer.py zgamma --preset 168Er_gamma_band --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

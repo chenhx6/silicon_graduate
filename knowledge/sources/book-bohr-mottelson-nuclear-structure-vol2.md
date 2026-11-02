@@ -48,6 +48,7 @@ Vol. II 原版 1975；本地为 World Scientific 重印。此记录与 [[book-bo
 | BM2-2 | 小振幅展开经玻色正则变换给 ħω=2I√[(A3−A1)(A2−A1)]。 | model-result | direct | PDF 212–213 / pp. 190–191, Eqs. 4-296–4-304 | false |
 | BM2-3 | 近似要求 I²≫⟨I2²+I3²⟩，亦即 I≫(2n+1)(A2+A3−2A1)/[2√((A3−A1)(A2−A1))]。 | model-result | direct | PDF 214 / p. 192, Eqs. 4-306–4-307；已核图像 | false |
 | BM2-4 | 书中后续 E2 算符使用相对主转轴定义的 Q0、Q2 和轴变换。一个无轴定义的“Q0”不能跨公式直接重用。 | model-result | direct | PDF 214 / p. 192, Eq. 4-308 与前段 | false |
+| BM2-5 | $\gamma$ 振动带与基带 Coriolis 混合（Mikhailov 展开）：电四极跃迁矩阵元引入一级摄动修正 $M(E2) = M_0 \langle I_\gamma 2 2 -2 \mid I_g 0 \rangle [1 + z_\gamma (I_g(I_g+1) - I_\gamma(I_\gamma+1))]$；混合参数 $z_\gamma$ 与转-振耦合矩阵元 $h_2 = z_\gamma \Delta E / \sqrt{6}$ 解释了实测 $B(E2; 2_\gamma \to 0_g)/B(E2; 2_\gamma \to 2_g)$ 比值对 Alaga 理论值 $0.700$ 的系统性压低。 | model-result | direct | Vol. II, §4-2, pp. 140–155 | false |
 
 ## Analytical Reconstruction and Transfer Conditions
 

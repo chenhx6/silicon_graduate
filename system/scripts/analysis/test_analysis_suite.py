@@ -142,6 +142,8 @@ from in_beam_doppler_broadening_array_correction_calculator import calculate_dop
 from triaxial_cranking_single_j_routhian_diagram_calculator import diagonalize_triaxial_cranked_high_j, scan_routhian_frequency_trajectory
 from in_beam_experiment_analysis_pipeline import run_full_in_beam_pipeline
 from schiffer_true_two_body_matrix_elements_calculator import calculate_schiffer_true_pp_spectrum, calculate_schiffer_true_ph_pandya_spectrum, evaluate_nordheim_coupling_rule
+from tac_3d_chiral_orientation_energy_surface_calculator import find_chiral_equilibrium_and_barrier, scan_chiral_spin_evolution
+from gamma_band_mixing_z_gamma_alaga_inverter import invert_z_gamma_from_branching
 
 
 def test_heavy_ion_kinematics():
@@ -1760,6 +1762,34 @@ def test_in_beam_experiment_analysis_pipeline():
     print("  ✓ in_beam_experiment_analysis_pipeline passed.")
 
 
+def test_tac_3d_chiral_orientation_calculator():
+    print("Testing tac_3d_chiral_orientation_energy_surface_calculator...")
+    # 134Pr chiral tripod benchmark: planar at J=10, aplanar chiral at J=18
+    eq_10 = find_chiral_equilibrium_and_barrier(J_tot=10.0, J_m=25.0, J_s=15.0, J_l=5.0)
+    assert eq_10["is_chiral_geometry"] is False, "J=10 must be planar (no chirality)"
+    assert eq_10["phi_min_deg"] < 5.0
+
+    eq_18 = find_chiral_equilibrium_and_barrier(J_tot=18.0, J_m=25.0, J_s=15.0, J_l=5.0)
+    assert eq_18["is_chiral_geometry"] is True, "J=18 must be aplanar chiral"
+    assert eq_18["chiral_barrier_keV"] > 50.0, "Substantial chiral planar barrier at J=18"
+    assert eq_18["aplanarity_volume_metric"] > 0.4
+    print("  ✓ tac_3d_chiral_orientation_energy_surface_calculator passed.")
+
+
+def test_gamma_band_mixing_z_gamma_calculator():
+    print("Testing gamma_band_mixing_z_gamma_alaga_inverter...")
+    # 168Er gamma band benchmark: R_exp = 0.540 -> z_gamma ~ 0.0203
+    res_168 = invert_z_gamma_from_branching(R_exp_B_E2=0.540, E_2gamma_keV=821.1, E_2g_keV=79.8)
+    assert abs(res_168["inverted_z_gamma"] - 0.02028) < 0.001, "168Er z_gamma ~ 0.0203"
+    assert abs(res_168["rotational_vibrational_h2_keV"] - 6.14) < 0.2, "168Er h2 ~ 6.14 keV"
+    assert res_168["structural_classification"].startswith("Well-Deformed")
+
+    # 130Ba gamma-soft benchmark: R_exp = 0.320 -> large z_gamma > 0.05
+    res_130 = invert_z_gamma_from_branching(R_exp_B_E2=0.320, E_2gamma_keV=908.1, E_2g_keV=357.4)
+    assert res_130["inverted_z_gamma"] > 0.05, "130Ba gamma-soft z_gamma > 0.05"
+    print("  ✓ gamma_band_mixing_z_gamma_alaga_inverter passed.")
+
+
 def test_schiffer_true_two_body_matrix_elements_calculator():
     print("Testing schiffer_true_two_body_matrix_elements_calculator...")
     # 1. Particle-particle h11/2^2 pairing gap at J=0
@@ -2032,4 +2062,6 @@ if __name__ == "__main__":
     test_triaxial_cranking_routhian_calculator()
     test_in_beam_experiment_analysis_pipeline()
     test_schiffer_true_two_body_matrix_elements_calculator()
+    test_tac_3d_chiral_orientation_calculator()
+    test_gamma_band_mixing_z_gamma_calculator()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

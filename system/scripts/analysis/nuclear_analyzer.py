@@ -128,6 +128,8 @@ from in_beam_doppler_broadening_array_correction_calculator import calculate_dop
 from triaxial_cranking_single_j_routhian_diagram_calculator import diagonalize_triaxial_cranked_high_j, scan_routhian_frequency_trajectory, format_text_report as format_crank_report
 from in_beam_experiment_analysis_pipeline import run_full_in_beam_pipeline, format_text_report as format_pipe_report
 from schiffer_true_two_body_matrix_elements_calculator import calculate_schiffer_true_pp_spectrum, calculate_schiffer_true_ph_pandya_spectrum, evaluate_nordheim_coupling_rule, format_text_report as format_schiffer_report
+from tac_3d_chiral_orientation_energy_surface_calculator import find_chiral_equilibrium_and_barrier, scan_chiral_spin_evolution, format_text_report as format_tac_report
+from gamma_band_mixing_z_gamma_alaga_inverter import invert_z_gamma_from_branching, format_text_report as format_zgamma_report
 
 
 def cmd_kinematics(args):
@@ -2542,6 +2544,56 @@ def cmd_schiffer(args):
         print(format_schiffer_report(pp_spec, ph_spec, nord_info))
 
 
+def cmd_tac(args):
+    j_val = args.spin
+    jm, js, jl = args.Jm, args.Js, args.Jl
+    jp_val, jn_val = args.jp, args.jn
+
+    if args.preset == "134Pr_chiral_tripod":
+        jm, js, jl = 25.0, 15.0, 5.0
+        jp_val, jn_val = 5.5, 5.5
+    elif args.preset == "128Cs_chiral_doublet":
+        jm, js, jl = 30.0, 18.0, 6.0
+        jp_val, jn_val = 5.5, 5.5
+    elif args.preset == "106Ag_a100_chiral":
+        jm, js, jl = 22.0, 14.0, 5.0
+        jp_val, jn_val = 4.5, 5.5
+
+    spins_scan = [8.0, 10.0, 12.0, 14.0, 16.0, 18.0, 20.0]
+    eq_res = find_chiral_equilibrium_and_barrier(j_val, jm, js, jl, jp_val, jn_val)
+    evo_res = scan_chiral_spin_evolution(spins_scan, jm, js, jl, jp_val, jn_val)
+
+    if args.json:
+        import json
+        out = {"equilibrium": eq_res, "spin_evolution": evo_res}
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_tac_report(eq_res, evo_res))
+
+
+def cmd_zgamma(args):
+    r_val = args.ratio
+    eg_val = args.E_gamma_bandhead
+    e2g_val = args.E_ground_2plus
+
+    if args.preset == "168Er_gamma_band":
+        r_val, eg_val, e2g_val = 0.540, 821.1, 79.8
+    elif args.preset == "166Er_gamma_band":
+        r_val, eg_val, e2g_val = 0.525, 785.9, 80.6
+    elif args.preset == "154Sm_gamma_band":
+        r_val, eg_val, e2g_val = 0.450, 1440.0, 82.0
+    elif args.preset == "130Ba_gamma_soft":
+        r_val, eg_val, e2g_val = 0.320, 908.1, 357.4
+
+    res = invert_z_gamma_from_branching(r_val, E_2gamma_keV=eg_val, E_2g_keV=e2g_val)
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_zgamma_report(res))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3749,6 +3801,27 @@ def main():
     p_sch.add_argument("--j2", type=float, default=5.5, help="Orbital j2")
     p_sch.add_argument("--json", action="store_true", help="Output pure JSON")
     p_sch.set_defaults(func=cmd_schiffer)
+
+    # 3D TAC Chiral Orientation Energy Surface
+    p_tac = subparsers.add_parser("tac", help="3D Tilted Axis Cranking (TAC) chiral orientation energy surface & bifurcation (Frauendorf-Meng 1997)")
+    p_tac.add_argument("--preset", type=str, default="134Pr_chiral_tripod", choices=["134Pr_chiral_tripod", "128Cs_chiral_doublet", "106Ag_a100_chiral", "custom"], help="Benchmark preset")
+    p_tac.add_argument("--spin", "-J", type=float, default=18.0, help="Total angular momentum J")
+    p_tac.add_argument("--Jm", type=float, default=25.0, help="Intermediate axis MOI")
+    p_tac.add_argument("--Js", type=float, default=15.0, help="Short axis MOI")
+    p_tac.add_argument("--Jl", type=float, default=5.0, help="Long axis MOI")
+    p_tac.add_argument("--jp", type=float, default=5.5, help="Proton particle j")
+    p_tac.add_argument("--jn", type=float, default=5.5, help="Neutron hole j")
+    p_tac.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tac.set_defaults(func=cmd_tac)
+
+    # Gamma-Band Mikhailov z_gamma Mixing Inverter
+    p_zg = subparsers.add_parser("zgamma", help="Gamma-vibrational band mixing, Mikhailov z_gamma parameter & Alaga correction (Bohr Vol. II §4-2)")
+    p_zg.add_argument("--preset", type=str, default="168Er_gamma_band", choices=["168Er_gamma_band", "166Er_gamma_band", "154Sm_gamma_band", "130Ba_gamma_soft", "custom"], help="Benchmark preset")
+    p_zg.add_argument("--ratio", type=float, default=0.540, help="Measured B(E2; 2_gamma -> 0_g) / B(E2; 2_gamma -> 2_g)")
+    p_zg.add_argument("--E-gamma-bandhead", type=float, default=821.1, help="E(2_gamma) in keV")
+    p_zg.add_argument("--E-ground-2plus", type=float, default=79.8, help="E(2_g) in keV")
+    p_zg.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_zg.set_defaults(func=cmd_zgamma)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
