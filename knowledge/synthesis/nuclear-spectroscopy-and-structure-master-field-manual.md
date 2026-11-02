@@ -110,6 +110,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `attneqk` | HPGe / Clover 探测器有限立体角角分布几何衰减因子 Q_2, Q_4 数值积分 | 假定探测器晶体为圆柱形对称体；前表面不均匀死层或异形切角需 Monte Carlo 补充校准 |
 | `pulserlt` | 在束高计数率脉冲发生器注入法活时间测定与级联模拟堆积/ADC死时间补偿 | 依赖脉冲发生器频率绝对稳定性；极端超载（>150 kHz）下需检查前放直流偏置饱和 |
 | `tsdpes` | 宏观-微观三轴超形变 3D (beta_2, gamma, beta_4) 势能面 Strutinsky 壳修正计算器 | 采用唯象液滴能与平滑高斯壳修正；极高同位旋非对称区需计入自洽微观泛函约束 |
+| `capgap` | 科里奥利反配对（CAP）动态配对能隙淬灭与转动惯量超流向刚体相变求解器 | 采用 Mottelson-Valatin 单极配对单参量淬灭模型；存在高自旋准粒子顺排后弯时需计入阻塞效应 |
+| `coineff` | 多探测器阵列 gamma-gamma 符合绝对探测效率矩阵几何与角度关联调制反演 | 需结合晶体有限立体角衰减因子 Q_k；极端宽开角（>30 deg）需开展非共轴三维 Monte Carlo 标定 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -169,6 +171,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py chirasch --preset 135Nd_chir
 python3 system/scripts/analysis/nuclear_analyzer.py attneqk --preset standard_coaxial_hpge_15cm --json
 python3 system/scripts/analysis/nuclear_analyzer.py pulserlt --preset in_beam_high_rate_clover_130Ba --json
 python3 system/scripts/analysis/nuclear_analyzer.py tsdpes --preset 163Lu_TSD_potential_energy_surface --json
+python3 system/scripts/analysis/nuclear_analyzer.py capgap --preset 163Lu_TSD_superfluid_to_normal_phase_transition --json
+python3 system/scripts/analysis/nuclear_analyzer.py coineff --preset 12_clover_array_60Co_cascade --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

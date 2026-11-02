@@ -7329,3 +7329,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-10 entry.
 - Added unit test suite `system/tests/test_tsd_pes_strutinsky.py` (3 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **146 official analysis modules**, all verified passing in 2.8s.
+
+### Coriolis Anti-Pairing Gap Quenching & MOI Expansion Engine (Module 147) 2026-11-04T03:45:00+08:00
+
+- Integrated Coriolis Anti-Pairing (CAP) Dynamic Pairing Gap Quenching, Superfluid-to-Normal Phase Transition & Triaxial Moments of Inertia Expansion Engine (`coriolis_anti_pairing_gap_quenching_moi_engine.py`):
+  - Based on A. Bohr & B. R. Mottelson *Nuclear Structure* Vol. II §4-3 & §6-3, *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 2 & Ch. 9 (PDF pp. 204–221), and B. R. Mottelson & J. G. Valatin (Phys. Rev. Lett. 5, 511, 1960):
+    * Models rotational unbinding of Cooper pairs via Coriolis torque: $\Delta(\omega) = \Delta_0 \sqrt{\max(0, 1 - (\omega/\omega_{\text{crit}})^2)}$.
+    * Self-consistently solves for the non-linear expansion of triaxial moments of inertia $\mathcal{J}_k(\Delta)$ from the irrotational fluid baseline towards the rigid-body limit.
+    * Locates the second-order quantum phase transition threshold $I_{\text{CAP}}$ where superfluidity completely collapses, providing the microscopic driving force for high-spin wobbling and chiral bifurcation stability.
+  - Benchmarks:
+    * $^{163}\text{Lu}$ TSD band ($\Delta_0 = 0.95\text{ MeV}, \omega_{\text{crit}} = 0.45\text{ MeV}/\hbar$): gap collapses from $0.763\text{ MeV}$ at $I = 10\ \hbar$ to $0.000\text{ MeV}$ at $I_{\text{CAP}} \approx 35.0\ \hbar$, with $\mathcal{J}_m$ expanding from $37.3$ to the rigid limit $72.0\ \hbar^2/\text{MeV}$.
+    * $^{130}\text{Ba}$ transitional triaxial benchmark: captures CAP-driven inertia growth.
+    * Rigid-rotor zero-pairing limit: verifies exact normal Fermi state baseline.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `capgap`.
+- Created concept page: `knowledge/concepts/coriolis-anti-pairing-and-moment-of-inertia-expansion.md`.
+- Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-11 entry.
+- Added unit test suite `system/tests/test_coriolis_anti_pairing.py` (3 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 147.
+
+### In-Beam Array Coincidence Efficiency Matrix Inverter (Module 148) 2026-11-04T04:15:00+08:00
+
+- Integrated In-Beam Multi-Detector Array Gamma-Gamma Coincidence Absolute Efficiency Matrix, Angular Correlation Modulation & Geometric Attenuation Inversion Suite (`in_beam_array_coincidence_efficiency_angular_matrix_inverter.py`):
+  - Based on 吴治华《原子核物理实验方法》第 10 章 §10.4–10.5 (pp. 265–285), 汪晓莲《粒子探测技术》第 5 章, 朱永生《实验物理中的概率和统计》第 6 章, and K. Debertin & R. G. Helmer (1988):
+    * Evaluates true pair-wise coincidence efficiency $\varepsilon_{\text{coin}}(E_1, E_2) = \sum_{i \ne j} \varepsilon_i(E_1) \varepsilon_j(E_2) W(\theta_{ij})$ weighted by attenuated directional correlations across all spatial opening angles $\theta_{ij}$.
+    * Quantifies the geometric modulation ratio $\mathcal{F}_{\text{geom}} = \varepsilon_{\text{coin}} / \varepsilon_{\text{naive}}$, correcting for the $5\% - 25\%$ systematic bias inherent in naive scalar efficiency products for stretched $E2-E2$ cascades.
+    * Unfolds true absolute cascade branching yields $b_1 b_2$ from measured array coincidence yield matrices.
+  - Benchmarks:
+    * 12-Clover HPGe array (132 crystal pairs) for $^{60}\text{Co}$ $1173 - 1332\text{ keV}$ cascade: evaluates $\varepsilon_{\text{coin}} = 1.4477 \times 10^{-3}$ ($\mathcal{F}_{\text{geom}} = 0.9906$, $-0.94\%$ modulation bias).
+    * In-beam $^{134}\text{Ce}$ quadrupole cascade ($638 - 409\text{ keV}$): verifies angular weighting across $37^\circ, 90^\circ, 143^\circ$ rings.
+    * Isotropic unpolarized reference ($A_2 = A_4 = 0$): confirms $\mathcal{F}_{\text{geom}} \equiv 1.0000$ exact mathematical baseline.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `coineff`.
+- Created concept page: `knowledge/concepts/in-beam-array-coincidence-efficiency-and-angular-matrix.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-17 entry.
+- Added unit test suite `system/tests/test_array_coincidence_efficiency.py` (3 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **148 official analysis modules**, all verified passing in 2.9s.

@@ -54,6 +54,7 @@ Vol. II 原版 1975；本地为 World Scientific 重印。此记录与 [[book-bo
 | BM2-8 | 三轴超形变（TSD）摆动激发与退激穿透动力学：在非轴对称超形变势阱中，准粒子取向与非主轴转动形成多声子摆动能带；当激发能随自旋降低逼近正常形变（ND）态时，经由 Hill-Wheeler 势垒穿透向密集复合态隧穿（Decayout），阐明超形变带在低自旋区的终止截断机制。 | model-result | direct | Vol. II, §4-5, pp. 190–210 | false |
 | BM2-9 | 三轴核高阶十六极形变（$\beta_4, \gamma_4$）对转动惯量与摆动频率的微扰修正：核表面十六极形变使主轴转动惯量引入重整化修正 $\mathcal{J}_k(\beta_2, \gamma, \beta_4) = \mathcal{J}_k^{(0)} [1 + \kappa_4 \beta_4 \cos(\gamma - 2\pi k/3) + \mathcal{O}(\beta_4^2)]$；证明正 $\beta_4 > 0$ 增强中间轴惯量优势并稳定横向摆动，而负 $\beta_4 < 0$ 削弱惯量不对称性并加速频率下落，完善了纯四极转子模型的微观多极拓展。 | model-result | direct | Vol. II, §4-2, pp. 135–150; §4-5, pp. 190–215 | false |
 | BM2-10 | 宏观-微观三维 $(\beta_2, \gamma, \beta_4)$ 势能面 Strutinsky 壳修正与高自旋超形变深阱稳定化：将液滴模型形变能与 Strutinsky 单粒子能级平滑壳修正相结合；揭示中重核由于高-$j$ 闯入轨道形成第二势能低谷，在极高自旋（$I \ge 25 - 40\ \hbar$）下由超形变大转动惯量将转动动能压低 $10 - 15\text{ MeV}$，驱动三轴超形变第二阱在较高温势垒后稳定化存在。 | model-result | direct | Vol. II, §4-2, §6-4, pp. 130–145, 580–615 | false |
+| BM2-11 | Mottelson-Valatin 科里奥利反配对（CAP）与超流态向正常态二级相变：转动科里奥利力向时间反演核子对施加反向力矩，导致单极配对能隙随转动频率单调淬灭 $\Delta(\omega) = \Delta_0 \sqrt{1 - (\omega/\omega_{\text{crit}})^2}$；证明在临界自旋 $I_{\text{CAP}} \approx 30 - 40\ \hbar$ 处超流性彻底崩塌，驱动转动惯量从超流流体值向刚体值发生非线性相变跃迁，奠定了高自旋推转模型与摆动惯量演化的微观基础。 | model-result | direct | Vol. II, §4-3, §6-3, pp. 165–178, 540–565 | false |
 
 ## Analytical Reconstruction and Transfer Conditions
 

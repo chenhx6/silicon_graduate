@@ -164,6 +164,8 @@ from chiral_vibrational_quartic_schrodinger_diagonalizer import run_chiral_schro
 from hpge_detector_solid_angle_attenuation_qk_integrator import run_attenuation_qk_analysis, format_text_report as format_attneqk_report, PRESETS as ATTNEQK_PRESETS
 from in_beam_pulser_injection_live_time_corrector import run_pulser_live_time_analysis, format_text_report as format_pulserlt_report, PRESETS as PULSERLT_PRESETS
 from triaxial_superdeformed_pes_strutinsky_engine import run_pes_strutinsky_analysis, format_text_report as format_tsdpes_report, PRESETS as TSDPES_PRESETS
+from coriolis_anti_pairing_gap_quenching_moi_engine import run_cap_analysis, format_text_report as format_capgap_report, PRESETS as CAPGAP_PRESETS
+from in_beam_array_coincidence_efficiency_angular_matrix_inverter import run_coincidence_matrix_analysis, format_text_report as format_coineff_report, PRESETS as COINEFF_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3797,6 +3799,44 @@ def cmd_tsdpes(args):
     else:
         print(format_tsdpes_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
+
+def cmd_capgap(args):
+    preset_name = args.preset if args.preset else "163Lu_TSD_superfluid_to_normal_phase_transition"
+    p = CAPGAP_PRESETS[preset_name]
+    res = run_cap_analysis(
+        nucleus=p["nucleus"],
+        delta_0_MeV=p["delta_0_MeV"],
+        omega_crit_MeV=p["omega_crit_MeV"],
+        J_rig_dict=p["J_rigid_hbar2_per_MeV"],
+        irr_ratio=p["J_irrotational_ratio"],
+        spins=p["spins_to_evaluate"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_capgap_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_coineff(args):
+    preset_name = args.preset if args.preset else "12_clover_array_60Co_cascade"
+    p = COINEFF_PRESETS[preset_name]
+    res = run_coincidence_matrix_analysis(
+        array_name=p["array_name"],
+        E1=p["E1_keV"],
+        E2=p["E2_keV"],
+        A2=p["A2_coef"],
+        A4=p["A4_coef"],
+        Q2=p["Q2_factor"],
+        Q4=p["Q4_factor"],
+        detectors=p["detector_rings"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_coineff_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5356,6 +5396,20 @@ def main():
                       choices=list(TSDPES_PRESETS.keys()), help="Benchmark preset")
     p_tp.add_argument("--json", action="store_true", help="Output pure JSON")
     p_tp.set_defaults(func=cmd_tsdpes)
+
+    # Coriolis Anti-Pairing (CAP) Dynamic Gap Quenching & MOI Expansion Engine
+    p_cg = subparsers.add_parser("capgap", help="Coriolis Anti-Pairing gap quenching & MOI expansion (Bohr Vol 2 / Mottelson PRL)")
+    p_cg.add_argument("--preset", type=str, default="163Lu_TSD_superfluid_to_normal_phase_transition",
+                      choices=list(CAPGAP_PRESETS.keys()), help="Benchmark preset")
+    p_cg.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_cg.set_defaults(func=cmd_capgap)
+
+    # In-Beam Array Coincidence Absolute Efficiency Matrix Inverter
+    p_ce = subparsers.add_parser("coineff", help="In-beam array coincidence absolute efficiency matrix & W(theta) (Wu Ch 10 / Debertin)")
+    p_ce.add_argument("--preset", type=str, default="12_clover_array_60Co_cascade",
+                      choices=list(COINEFF_PRESETS.keys()), help="Benchmark preset")
+    p_ce.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_ce.set_defaults(func=cmd_coineff)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

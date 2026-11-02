@@ -178,6 +178,8 @@ from chiral_vibrational_quartic_schrodinger_diagonalizer import diagonalize_chir
 from hpge_detector_solid_angle_attenuation_qk_integrator import calculate_solid_angle_attenuation_qk
 from in_beam_pulser_injection_live_time_corrector import calculate_pulser_live_time, correct_peaks
 from triaxial_superdeformed_pes_strutinsky_engine import calculate_ldm_energy_surface, find_pes_minima_and_saddle
+from coriolis_anti_pairing_gap_quenching_moi_engine import calculate_cap_pairing_gap, solve_spin_state_cap
+from in_beam_array_coincidence_efficiency_angular_matrix_inverter import calculate_mutual_pair_angle, evaluate_directional_correlation_weight
 
 
 def test_heavy_ion_kinematics():
@@ -1975,6 +1977,26 @@ def test_tsd_pes_strutinsky():
     print("  ✓ triaxial_superdeformed_pes_strutinsky_engine passed.")
 
 
+def test_coriolis_anti_pairing():
+    print("Testing coriolis_anti_pairing_gap_quenching_moi_engine...")
+    gap = calculate_cap_pairing_gap(0.0, 1.0, 0.5)
+    assert gap["delta_MeV"] == 1.0
+    pt = solve_spin_state_cap(35.0, 0.95, 0.45, {"J_s": 45.0, "J_m": 72.0, "J_l": 20.0}, 0.4)
+    assert pt["pairing_gap_MeV"] < 0.1
+    print("  ✓ coriolis_anti_pairing_gap_quenching_moi_engine passed.")
+
+
+def test_array_coincidence_efficiency():
+    print("Testing in_beam_array_coincidence_efficiency_angular_matrix_inverter...")
+    d1 = {"theta_deg": 90.0, "phi_deg": 0.0}
+    d2 = {"theta_deg": 90.0, "phi_deg": 180.0}
+    _, cos_th = calculate_mutual_pair_angle(d1, d2)
+    assert abs(cos_th - (-1.0)) < 1e-4
+    w = evaluate_directional_correlation_weight(cos_th, 0.0, 0.0, 1.0, 1.0)
+    assert abs(w - 1.0) < 1e-4
+    print("  ✓ in_beam_array_coincidence_efficiency_angular_matrix_inverter passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2483,4 +2505,6 @@ if __name__ == "__main__":
     test_hpge_solid_angle_qk()
     test_pulser_live_time()
     test_tsd_pes_strutinsky()
+    test_coriolis_anti_pairing()
+    test_array_coincidence_efficiency()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")
