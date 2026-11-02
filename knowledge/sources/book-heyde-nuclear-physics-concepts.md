@@ -40,3 +40,9 @@ topics: [nuclear-structure, configuration-mixing, electromagnetic-transitions, n
   证明质子与中子之间的四极吸引力 $H_{QQ} = -\chi \hat{Q}_\pi \cdot \hat{Q}_\nu$ 是克服单粒子球形壳隙、诱发长程空间各向异性并使原子核发生宏观四极形变（拉长或三轴）的根本微观驱动力。
 - **粒子-振动耦合（Particle-Vibration Coupling）与假摆动源头**：
   深入分析奇 $A$ 核中单准粒子与核芯四极声子（$2^+$）的弱耦合模型。当核芯是 $\gamma$ 柔软核时，准粒子与 $\gamma$ 振动声子的相互作用会产生类似摆动的能级下降劈裂，为区分“真实刚性转子摆动”与“动态软核粒子-声子杂化”提供了微观判据。
+
+## Key Results
+
+| ID | 陈述与物理内容 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HEYDE-1 | 三轴形变核双转子模型剪刀模式（Triaxial Scissors Mode）磁偶极激发能与 $B(M1)$ 强度谱求解：在变形核中质子与中子云相对角位移剪刀振荡 $M1$ 激发（Lo Iudice-Palumbo 模型）；在三轴核（$\gamma \ne 0$）中非轴对称性使相对角位移矢量解耦为绕短轴与长轴的两个正交振荡剪刀模，推导剪刀恢复变形参量 $\delta_s = \sqrt{15/\pi}\beta_2\sin\gamma$ 与 $\delta_l = \sqrt{15/\pi}\beta_2\sin(60^\circ-\gamma)$，阐明三轴形变诱导 $1^+$ 磁偶极共振分裂为特征双峰结构的微观机制。 | model-result | direct | Ch. 9, §9.4, pp. 315–335 | false |

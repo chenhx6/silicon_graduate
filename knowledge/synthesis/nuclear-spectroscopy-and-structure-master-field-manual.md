@@ -193,6 +193,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py dsamzbl --preset 130Ba_8plus
 python3 system/scripts/analysis/nuclear_analyzer.py coexpes --preset 130Ba_triaxial_oblate_coexistence --json
 python3 system/scripts/analysis/nuclear_analyzer.py alignmix --preset 130Ba_wobbling_candidate_delta --json
 python3 system/scripts/analysis/nuclear_analyzer.py mchiddis --preset 133Ce_classic_mchid --json
+python3 system/scripts/analysis/nuclear_analyzer.py pidtele --preset silicon_telescope_heavy_ion_in_beam --json
+python3 system/scripts/analysis/nuclear_analyzer.py scissm1 --preset 134Ba_triaxial_scissors_doublet --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

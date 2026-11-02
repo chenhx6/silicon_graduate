@@ -194,6 +194,8 @@ from in_beam_dsam_zbl_stopping_lifetime_inverter import InBeamDSAMZBLInverter
 from cranked_triaxial_shape_coexistence_pes_engine import CrankedShapeCoexistencePESEngine
 from in_beam_spin_alignment_sigma_mixing_ratio_extractor import SpinAlignmentMixingExtractor
 from multiple_chiral_doublets_mchid_discriminator import MultipleChiralDoubletsDiscriminator, PRESETS as MCHID_PRESETS
+from in_beam_charged_particle_pid_delta_e_telescope_inverter import ChargedParticlePIDInverter
+from triaxial_two_rotor_scissors_mode_m1_solver import TriaxialScissorsModeM1Solver
 
 
 def test_heavy_ion_kinematics():
@@ -2139,6 +2141,27 @@ def test_multiple_chiral_doublets_mchid():
     print("  ✓ multiple_chiral_doublets_mchid_discriminator passed.")
 
 
+def test_charged_particle_pid():
+    print("Testing in_beam_charged_particle_pid_delta_e_telescope_inverter...")
+    inv = ChargedParticlePIDInverter(thickness_T0_um=65.0, angle_incidence_deg=45.0)
+    pi_p = inv.calculate_pid_value(1.20, 14.5)
+    pi_a = inv.calculate_pid_value(8.50, 18.2)
+    assert pi_a > 5.0 * pi_p
+    fom = inv.evaluate_separation_fom(proton_ref_pi=pi_p)
+    assert fom["1H (Proton) vs 4He (Alpha)"]["FOM"] > 3.0
+    print("  ✓ in_beam_charged_particle_pid_delta_e_telescope_inverter passed.")
+
+
+def test_triaxial_scissors_mode():
+    print("Testing triaxial_two_rotor_scissors_mode_m1_solver...")
+    solver = TriaxialScissorsModeM1Solver(A=134, Z=56, beta2=0.22, gamma_deg=24.0)
+    res = solver.solve_scissors_modes()
+    assert res["is_scissors_doublet_split"]
+    assert res["scissors_splitting_MeV"] > 0.5
+    assert res["total_B_M1_muN2"] > 0.8
+    print("  ✓ triaxial_two_rotor_scissors_mode_m1_solver passed.")
+
+
 def test_hpge_energy_non_linearity():
     print("Testing hpge_energy_non_linearity_inl_dnl_calibrator...")
     from scipy.interpolate import UnivariateSpline
@@ -2676,4 +2699,6 @@ if __name__ == "__main__":
     test_cranked_shape_coexistence_pes()
     test_spin_alignment_mixing()
     test_multiple_chiral_doublets_mchid()
+    test_charged_particle_pid()
+    test_triaxial_scissors_mode()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

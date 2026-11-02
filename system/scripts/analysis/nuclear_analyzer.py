@@ -180,6 +180,8 @@ from in_beam_dsam_zbl_stopping_lifetime_inverter import run_dsam_zbl_analysis, f
 from cranked_triaxial_shape_coexistence_pes_engine import run_shape_coexistence_pes_analysis, format_text_report as format_coexpes_report, PRESETS as COEXPES_PRESETS
 from in_beam_spin_alignment_sigma_mixing_ratio_extractor import run_spin_alignment_analysis, format_text_report as format_alignmix_report, PRESETS as ALIGNMIX_PRESETS
 from multiple_chiral_doublets_mchid_discriminator import run_mchid_arbitration, format_text_report as format_mchiddis_report, PRESETS as MCHIDDIS_PRESETS
+from in_beam_charged_particle_pid_delta_e_telescope_inverter import run_particle_pid_analysis, format_text_report as format_pidtele_report, PRESETS as PIDTELE_PRESETS
+from triaxial_two_rotor_scissors_mode_m1_solver import run_scissors_mode_analysis, format_text_report as format_scissm1_report, PRESETS as SCISSM1_PRESETS
 
 
 def cmd_kinematics(args):
@@ -4124,6 +4126,51 @@ def cmd_mchiddis(args):
         print(format_mchiddis_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
 
+def cmd_pidtele(args):
+    preset_name = args.preset if args.preset else "silicon_telescope_heavy_ion_in_beam"
+    p = PIDTELE_PRESETS[preset_name]
+    angle = args.angle if hasattr(args, "angle") and args.angle is not None else p.get("angle_incidence_deg", 0.0)
+    if hasattr(args, "dE") and args.dE is not None and hasattr(args, "Eres") and args.Eres is not None:
+        events = [{"label": "cli_event", "delta_E_MeV": args.dE, "E_res_MeV": args.Eres}]
+    else:
+        events = p["test_events"]
+    res = run_particle_pid_analysis(
+        telescope_name=p.get("telescope_name", "Generic Telescope"),
+        thickness_T0_um=p["thickness_T0_um"],
+        angle_incidence_deg=angle,
+        mu_power=p["mu_power"],
+        offset_E0_MeV=p["offset_E0_MeV"],
+        pid_scale=p.get("pid_scale", 100.0),
+        test_events=events
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_pidtele_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_scissm1(args):
+    preset_name = args.preset if args.preset else "134Ba_triaxial_scissors_doublet"
+    p = SCISSM1_PRESETS[preset_name]
+    b2 = args.beta2 if hasattr(args, "beta2") and args.beta2 is not None else p["beta2"]
+    gam = args.gamma if hasattr(args, "gamma") and args.gamma is not None else p["gamma_deg"]
+    bsym = args.bsym if hasattr(args, "bsym") and args.bsym is not None else p.get("b_sym_MeV", 29.0)
+    res = run_scissors_mode_analysis(
+        nucleus=p.get("nucleus", "Generic"),
+        A=p["A"], Z=p["Z"],
+        beta2=b2, gamma_deg=gam,
+        b_sym_MeV=bsym,
+        moi_base_MeV_inv=p.get("moi_base_MeV_inv", 28.0),
+        g_diff=p.get("g_p_minus_g_n", 1.00)
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_scissm1_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5798,6 +5845,26 @@ def main():
     p_md.add_argument("--cross-br", type=float, help="Cross-doublet branching ratio")
     p_md.add_argument("--json", action="store_true", help="Output pure JSON")
     p_md.set_defaults(func=cmd_mchiddis)
+
+    # In-Beam Charged Particle Delta E - E PID Inverter
+    p_pt = subparsers.add_parser("pidtele", help="In-beam charged particle Delta E - E telescope PID inverter (Wu Ch 4 / Wang Ch 3)")
+    p_pt.add_argument("--preset", type=str, default="silicon_telescope_heavy_ion_in_beam",
+                      choices=list(PIDTELE_PRESETS.keys()), help="Benchmark preset")
+    p_pt.add_argument("--dE", type=float, help="Delta E energy loss in transmission detector (MeV)")
+    p_pt.add_argument("--Eres", type=float, help="Residual energy in stopping detector (MeV)")
+    p_pt.add_argument("--angle", type=float, help="Detector angle of incidence (degrees)")
+    p_pt.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_pt.set_defaults(func=cmd_pidtele)
+
+    # Triaxial Two-Rotor Scissors Mode M1 Solver
+    p_sm = subparsers.add_parser("scissm1", help="Triaxial two-rotor scissors mode M1 excitation & splitting solver (Heyde Ch 9 / Greiner Ch 11)")
+    p_sm.add_argument("--preset", type=str, default="134Ba_triaxial_scissors_doublet",
+                      choices=list(SCISSM1_PRESETS.keys()), help="Benchmark preset")
+    p_sm.add_argument("--beta2", type=float, help="Quadrupole deformation beta2")
+    p_sm.add_argument("--gamma", type=float, help="Triaxial deformation gamma (degrees)")
+    p_sm.add_argument("--bsym", type=float, help="Volume symmetry energy b_sym (MeV)")
+    p_sm.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_sm.set_defaults(func=cmd_scissm1)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
