@@ -76,6 +76,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `schiffer` | Schiffer-True 普适两体相互作用矩阵元（TBME）、Pandya 反转与 Nordheim 手征带头自旋定则 | 纯两体短程势有效；多体有效作用需结合壳模型有效两体相互作用（如 G 矩阵） |
 | `tac` | 三维倾斜轴推转（3D TAC）手征取向势能面 E(theta, phi)、分叉临界自旋与平面势垒 | 拟经典矢量耦合；低势垒大振幅涨落需结合投影壳模型（TPSM） |
 | `zgamma` | Gamma 振动带 Mikhailov z_gamma 混合参数、Alaga 定则偏离修正与转-振耦合矩阵元 h_2 | 一级微扰假设；强非轴对称三轴大形变需采用 Davydov-Filippov 模型 |
+| `loopbal` | 在束能级纲图 Ritz 闭合环能量残差、BrIcc 强度平衡与反应侧馈强度提取 | 瞬发符合假设；若中间态存在长寿命同核异能态需进行延迟门控校正 |
+| `chaban` | Davydov-Chaban 非绝热三轴转子模型、离心 beta 拉伸比 p=beta/beta0 与能谱计算 | 假定三轴度 gamma 保持为常数极小；大振幅 gamma 涨落需结合 5D 玻尔哈密顿量 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -101,6 +103,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py pipeline --preset 135Pr_wobb
 python3 system/scripts/analysis/nuclear_analyzer.py schiffer --preset pr134_chiral_bandhead --json
 python3 system/scripts/analysis/nuclear_analyzer.py tac --preset 134Pr_chiral_tripod --json
 python3 system/scripts/analysis/nuclear_analyzer.py zgamma --preset 168Er_gamma_band --json
+python3 system/scripts/analysis/nuclear_analyzer.py loopbal --preset 134Ce_triaxial_scheme --json
+python3 system/scripts/analysis/nuclear_analyzer.py chaban --preset 112Ru_triaxial_chaban --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

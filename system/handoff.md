@@ -6742,3 +6742,38 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-5 entry.
 - Added unit test suite `system/tests/test_gamma_band_mixing_z_gamma.py` (5 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **112 official analysis modules**, all verified passing in 4.2s.
+
+### In-Beam Level Scheme Loop Residuals & Intensity Balancer (Module 113) 2026-11-03T10:45:00+08:00
+
+- Integrated In-Beam Level Scheme Ritz Combination Principle Energy Loops, BrIcc Conversion Intensity Balancer & Direct Side-Feeding Extractor (`level_scheme_loop_residual_intensity_balancer.py`):
+  - Based on 吴治华《原子核物理实验方法》第 10 章 §10.6 (印刷 pp. 285–303 / PDF pp. 293–311), D. C. Radford (Nucl. Instrum. Methods Phys. Res. A 361, 297, 1995), and ENSDF standards:
+    * Implements Ritz combination principle closed-loop validation: $\Delta E_{\text{loop}} = \sum_{\text{fwd}} E_i - \sum_{\text{bwd}} E_j \approx 0.0$.
+    * Computes normalized loop uncertainty $\sigma_{\text{loop}}$ and $Z$-score discrepancy $Z = |\Delta E| / \sigma_{\text{loop}}$, automatically flagging misassigned lines or unresolved doublets when $Z > 3.0\sigma$.
+    * Integrates BrIcc total internal conversion coefficients: $I_{\text{tot}} = I_\gamma (1 + \alpha_{\text{tot}})$.
+    * Calculates level intensity balances $\Delta I = I_{\text{in}} - I_{\text{out}}$, directly extracting prompt reaction side-feeding intensity $I_{\text{side}} = \max(0, I_{\text{out}} - I_{\text{in}})$ and fractional percentage $f_{\text{side}}$.
+  - Benchmarks:
+    * $^{134}\text{Ce}$ in-beam level scheme: Loop 1 ($2_\gamma^+ \to 2^+ \to 0^+$ vs $2_\gamma^+ \to 0^+$) and Loop 2 ($3_\gamma^+ \to 2_\gamma^+ \to 2^+$ vs $3_\gamma^+ \to 2^+$) verified with exact $\Delta E = 0.00\text{ keV}, Z = 0.00\sigma$.
+    * Level balances verified: $0^+$ ground state has $0\%$ side-feeding, $2^+$ state has $0\%$ side-feeding, $4^+$ state has $I_{\text{side}} = 36.73$ ($46.5\%$ side-feeding), and $6^+$ bandhead has $100\%$ side-feeding.
+    * Loop conflict detector accurately identified an $8\text{ keV}$ discrepancy with $Z = 8.5\sigma$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `loopbal`.
+- Created concept page: `knowledge/concepts/in-beam-level-scheme-loop-residuals-and-intensity-balancing.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-9 entry.
+- Added unit test suite `system/tests/test_level_scheme_loop_balancer.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 113.
+
+### Davydov-Chaban Non-Adiabatic Triaxial Rotor Model (Module 114) 2026-11-03T11:15:00+08:00
+
+- Integrated Davydov-Chaban Non-Adiabatic Triaxial Rotor Model, Dynamic Centrifugal $\beta$-Stretching Ratio $p = \beta / \beta_0$ & Band Spectrum Engine (`davydov_chaban_beta_stretching_triaxial_calculator.py`):
+  - Based on A. S. Davydov and A. A. Chaban (Nucl. Phys. 20, 499, 1960), A. Bohr & B. R. Mottelson Vol. II §4-2 (pp. 175–195), and 卢希庭《原子核物理（修订版）》第 8 章 §8.4:
+    * Introduces the core non-adiabaticity parameter $\mu = \frac{1}{\beta_0}[\frac{\hbar^2}{BC}]^{1/4}$, parameterizing the coupling between triaxial rotation and collective $\beta$-vibrational stretching.
+    * Solves the quartic equilibrium equation $p^3 (p - 1.0) = \mu^4 \varepsilon(J, \gamma)$ for the dynamic stretching factor $p_J = \beta(J) / \beta_0 \ge 1.0$.
+    * Evaluates Davydov-Filippov energy factors $\varepsilon(J, \gamma)$ for the $2^+$ doublet ($2_1^+, 2_2^+$), $3_1^+$ odd-spin $\gamma$-band, and $4^+$ doublet.
+    * Simultaneously computes ground-band, $\gamma$-bandhead, and odd-spin level energies with dynamic centrifugal elongation percentages.
+  - Benchmarks:
+    * $^{112}\text{Ru}$ triaxial wobbler core benchmark ($\gamma = 22.0^\circ, \mu = 0.280, E(2_1^+) = 237.2\text{ keV}$): predicts $E(2_2^+) = 706.0\text{ keV}$ (matching experimental $678.8\text{ keV}$ to within $4\%$), $E(3_1^+) = 923.8\text{ keV}$, with $p$ expanding up to $1.0875$ ($+8.75\%$ stretching in $4_2^+$ state).
+    * Accurately reproduces the transition from rigid rotor ($\mu \to 0, p = 1.0$) to compressible $\beta$-soft triaxial cores.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `chaban`.
+- Created concept page: `knowledge/concepts/davydov-chaban-non-adiabatic-triaxial-rotor-model.md`.
+- Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-6 entry.
+- Added unit test suite `system/tests/test_davydov_chaban_stretching.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **114 official analysis modules**, all verified passing in 5.9s.

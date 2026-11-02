@@ -130,6 +130,8 @@ from in_beam_experiment_analysis_pipeline import run_full_in_beam_pipeline, form
 from schiffer_true_two_body_matrix_elements_calculator import calculate_schiffer_true_pp_spectrum, calculate_schiffer_true_ph_pandya_spectrum, evaluate_nordheim_coupling_rule, format_text_report as format_schiffer_report
 from tac_3d_chiral_orientation_energy_surface_calculator import find_chiral_equilibrium_and_barrier, scan_chiral_spin_evolution, format_text_report as format_tac_report
 from gamma_band_mixing_z_gamma_alaga_inverter import invert_z_gamma_from_branching, format_text_report as format_zgamma_report
+from level_scheme_loop_residual_intensity_balancer import evaluate_ritz_combination_loop, calculate_level_intensity_balance, format_text_report as format_loopbal_report
+from davydov_chaban_beta_stretching_triaxial_calculator import calculate_davydov_chaban_spectrum, solve_chaban_stretching_parameter_p, format_text_report as format_chaban_report
 
 
 def cmd_kinematics(args):
@@ -2594,6 +2596,74 @@ def cmd_zgamma(args):
         print(format_zgamma_report(res))
 
 
+def cmd_loopbal(args):
+    loops = []
+    if args.preset == "134Ce_triaxial_scheme":
+        levels = [
+            {"level_id": "0+", "energy_keV": 0.0},
+            {"level_id": "2+", "energy_keV": 409.2},
+            {"level_id": "4+", "energy_keV": 1048.9},
+            {"level_id": "6+", "energy_keV": 1819.3},
+            {"level_id": "2_g+", "energy_keV": 965.2},
+            {"level_id": "3_g+", "energy_keV": 1380.0}
+        ]
+        transitions = [
+            {"from": "6+", "to": "4+", "I_gamma": 42.0, "alpha_tot": 0.005},
+            {"from": "4+", "to": "2+", "I_gamma": 78.0, "alpha_tot": 0.012},
+            {"from": "2+", "to": "0+", "I_gamma": 100.0, "alpha_tot": 0.035},
+            {"from": "3_g+", "to": "2_g+", "I_gamma": 15.0, "alpha_tot": 0.010},
+            {"from": "3_g+", "to": "2+", "I_gamma": 8.0, "alpha_tot": 0.015},
+            {"from": "2_g+", "to": "2+", "I_gamma": 22.0, "alpha_tot": 0.020},
+            {"from": "2_g+", "to": "0+", "I_gamma": 12.0, "alpha_tot": 0.008}
+        ]
+        l1_fwd = [("2_g+ -> 2+", 556.0, 0.2), ("2+ -> 0+", 409.2, 0.2)]
+        l1_bwd = [("2_g+ -> 0+", 965.2, 0.3)]
+        loops.append(evaluate_ritz_combination_loop("Loop 1 (2_g+ cross)", l1_fwd, l1_bwd))
+
+        l2_fwd = [("3_g+ -> 2_g+", 414.8, 0.3), ("2_g+ -> 2+", 556.0, 0.2)]
+        l2_bwd = [("3_g+ -> 2+", 970.8, 0.3)]
+        loops.append(evaluate_ritz_combination_loop("Loop 2 (3_g+ cross)", l2_fwd, l2_bwd))
+    elif args.preset == "loop_conflict_demo":
+        levels = [{"level_id": "0+", "energy_keV": 0.0}, {"level_id": "2+", "energy_keV": 500.0}, {"level_id": "4+", "energy_keV": 1200.0}]
+        transitions = [{"from": "4+", "to": "2+", "I_gamma": 60.0}, {"from": "2+", "to": "0+", "I_gamma": 100.0}]
+        l_fwd = [("4+ -> 2+", 700.0, 0.5), ("2+ -> 0+", 500.0, 0.5)]
+        l_bwd = [("4+ -> 0+ (wrong)", 1208.0, 0.8)]
+        loops.append(evaluate_ritz_combination_loop("Conflict Loop", l_fwd, l_bwd))
+    else:
+        levels = [{"level_id": "0+", "energy_keV": 0.0}, {"level_id": "2+", "energy_keV": 300.0}]
+        transitions = [{"from": "2+", "to": "0+", "I_gamma": 100.0}]
+
+    balances = calculate_level_intensity_balance(levels, transitions)
+
+    if args.json:
+        import json
+        out = {"ritz_loops": loops, "level_intensity_balances": balances}
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_loopbal_report(loops, balances))
+
+
+def cmd_chaban(args):
+    e2_val = args.E2
+    g_val = args.gamma
+    mu_val = args.mu
+
+    if args.preset == "112Ru_triaxial_chaban":
+        e2_val, g_val, mu_val = 237.2, 22.0, 0.28
+    elif args.preset == "190Pt_davydov_chaban":
+        e2_val, g_val, mu_val = 295.8, 30.0, 0.32
+    elif args.preset == "168Er_rigid_chaban":
+        e2_val, g_val, mu_val = 79.8, 12.0, 0.10
+
+    res = calculate_davydov_chaban_spectrum(e2_val, gamma_deg=g_val, mu_nonadiabatic=mu_val)
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_chaban_report(res))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3822,6 +3892,21 @@ def main():
     p_zg.add_argument("--E-ground-2plus", type=float, default=79.8, help="E(2_g) in keV")
     p_zg.add_argument("--json", action="store_true", help="Output pure JSON")
     p_zg.set_defaults(func=cmd_zgamma)
+
+    # Level Scheme Ritz Loops & Intensity Balancer
+    p_lb = subparsers.add_parser("loopbal", help="In-beam level scheme Ritz loops, BrIcc intensity balancing & side-feeding (Wu Ch 10 / Radford)")
+    p_lb.add_argument("--preset", type=str, default="134Ce_triaxial_scheme", choices=["134Ce_triaxial_scheme", "loop_conflict_demo", "custom"], help="Benchmark preset")
+    p_lb.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_lb.set_defaults(func=cmd_loopbal)
+
+    # Davydov-Chaban Beta-Stretching Triaxial Rotor
+    p_chab = subparsers.add_parser("chaban", help="Davydov-Chaban non-adiabatic triaxial rotor with dynamic beta-stretching (Davydov-Chaban 1960)")
+    p_chab.add_argument("--preset", type=str, default="112Ru_triaxial_chaban", choices=["112Ru_triaxial_chaban", "190Pt_davydov_chaban", "168Er_rigid_chaban", "custom"], help="Benchmark preset")
+    p_chab.add_argument("--E2", type=float, default=237.2, help="E(2_1+) in keV")
+    p_chab.add_argument("--gamma", type=float, default=22.0, help="Triaxiality gamma in deg")
+    p_chab.add_argument("--mu", type=float, default=0.28, help="Deformability parameter mu")
+    p_chab.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_chab.set_defaults(func=cmd_chaban)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

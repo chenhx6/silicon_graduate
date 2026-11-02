@@ -144,6 +144,8 @@ from in_beam_experiment_analysis_pipeline import run_full_in_beam_pipeline
 from schiffer_true_two_body_matrix_elements_calculator import calculate_schiffer_true_pp_spectrum, calculate_schiffer_true_ph_pandya_spectrum, evaluate_nordheim_coupling_rule
 from tac_3d_chiral_orientation_energy_surface_calculator import find_chiral_equilibrium_and_barrier, scan_chiral_spin_evolution
 from gamma_band_mixing_z_gamma_alaga_inverter import invert_z_gamma_from_branching
+from level_scheme_loop_residual_intensity_balancer import evaluate_ritz_combination_loop, calculate_level_intensity_balance
+from davydov_chaban_beta_stretching_triaxial_calculator import calculate_davydov_chaban_spectrum, solve_chaban_stretching_parameter_p
 
 
 def test_heavy_ion_kinematics():
@@ -1776,6 +1778,37 @@ def test_tac_3d_chiral_orientation_calculator():
     print("  ✓ tac_3d_chiral_orientation_energy_surface_calculator passed.")
 
 
+def test_level_scheme_loop_balancer():
+    print("Testing level_scheme_loop_residual_intensity_balancer...")
+    # 1. Consistent Ritz loop
+    l_fwd = [("2_g+ -> 2+", 556.0, 0.2), ("2+ -> 0+", 409.2, 0.2)]
+    l_bwd = [("2_g+ -> 0+", 965.2, 0.3)]
+    lp = evaluate_ritz_combination_loop("Loop 1", l_fwd, l_bwd)
+    assert lp["delta_E_residual_keV"] == 0.0, "Ritz loop consistency"
+    assert lp["normalized_z_score"] < 0.1
+
+    # 2. Side-feeding extraction
+    levels = [{"level_id": "4+", "energy_keV": 1048.9}]
+    trans = [{"from": "6+", "to": "4+", "I_gamma": 40.0}, {"from": "4+", "to": "2+", "I_gamma": 80.0}]
+    bal = calculate_level_intensity_balance(levels, trans)
+    assert bal[0]["extracted_side_feeding_I_side"] == 40.0, "Extracted side-feeding 40.0 units"
+    assert bal[0]["side_feeding_fraction_pct"] == 50.0
+    print("  ✓ level_scheme_loop_residual_intensity_balancer passed.")
+
+
+def test_davydov_chaban_stretching_calculator():
+    print("Testing davydov_chaban_beta_stretching_triaxial_calculator...")
+    # 112Ru triaxial Chaban benchmark
+    res = calculate_davydov_chaban_spectrum(E_2plus_keV=237.2, gamma_deg=22.0, mu_nonadiabatic=0.28)
+    assert len(res["levels"]) == 5
+    # Check 2_1+ energy equals input
+    assert abs(res["levels"][0]["energy_keV"] - 237.2) < 0.2
+    # Verify dynamic beta-stretching p > 1.0
+    for lv in res["levels"]:
+        assert lv["stretching_factor_p"] >= 1.0, "Beta stretching p >= 1.0"
+    print("  ✓ davydov_chaban_beta_stretching_triaxial_calculator passed.")
+
+
 def test_gamma_band_mixing_z_gamma_calculator():
     print("Testing gamma_band_mixing_z_gamma_alaga_inverter...")
     # 168Er gamma band benchmark: R_exp = 0.540 -> z_gamma ~ 0.0203
@@ -2064,4 +2097,6 @@ if __name__ == "__main__":
     test_schiffer_true_two_body_matrix_elements_calculator()
     test_tac_3d_chiral_orientation_calculator()
     test_gamma_band_mixing_z_gamma_calculator()
+    test_level_scheme_loop_balancer()
+    test_davydov_chaban_stretching_calculator()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")
