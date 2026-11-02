@@ -7363,3 +7363,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-17 entry.
 - Added unit test suite `system/tests/test_array_coincidence_efficiency.py` (3 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **148 official analysis modules**, all verified passing in 2.9s.
+
+### Triaxial Projected Shell Model (TPSM) 3D Projection Diagonalizer (Module 149) 2026-11-04T04:45:00+08:00
+
+- Integrated Triaxial Projected Shell Model (TPSM) 3D Angular Momentum Projection Matrix Diagonalizer, Generalized Hill-Wheeler Secular Equation & Wobbling Wavefunction Decomposition Suite (`tpsm_3d_angular_momentum_projection_diagonalizer.py`):
+  - Based on *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 12 (J. A. Sheikh, G. H. Bhat, R. Jehangir, PDF pp. 256–274), J. A. Sheikh & K. Hara (Phys. Rev. Lett. 82, 3968, 1999), and P. Ring & P. Schuck *The Nuclear Many-Body Problem* Ch. 11:
+    * Constructs deformed multi-quasiparticle Nilsson+BCS basis states $|\Phi_K\rangle$ ($K=0, 2, 4$) and performs 3D angular momentum projection $\hat{P}^I_{MK}$.
+    * Formulates and solves the generalized Hill-Wheeler secular problem $\sum [H_{KK^\prime}(I) - E(I) N_{KK^\prime}(I)] C_{K^\prime}(I) = 0$ incorporating triaxial core couplings with $\Delta K = \pm 2$.
+    * Simultaneously extracts projected yrast band, $\gamma$-band, and wobbling band energy trajectories, decomposing the microscopic $K$-wavefunction composition.
+  - Benchmarks:
+    * $^{130}\text{Ba}$ triaxial projection ($\varepsilon_2 = 0.23, \gamma = 25^\circ$): resolves yrast sequence ($I = 2 \dots 16$), $\gamma$-band head ($1026.7\text{ keV}$), and wobbling band ($\Delta E_{\text{wob}} \approx 1904.4\text{ keV}$), capturing $K=2$ admixture up to $3.3\%$ in high-spin yrast states.
+    * $^{163}\text{Lu}$ TSD wobbling projection: verifies microscopic wobbling spacing in the superdeformed minimum.
+    * Axial symmetric limit ($\gamma = 0^\circ$): confirms $100.0\%$ $K$-conservation and zero off-diagonal mixing.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `tpsmproj`.
+- Created concept page: `knowledge/concepts/tpsm-3d-angular-momentum-projection-diagonalization.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-13 entry.
+- Added unit test suite `system/tests/test_tpsm_3d_projection.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 149.
+
+### In-Beam RDDS Differential Decay Curve Method (DDCM) Inverter (Module 150) 2026-11-04T05:15:00+08:00
+
+- Integrated In-Beam Recoil Distance Doppler-Shift (RDDS) Differential Decay Curve Method (DDCM), Plateau Lifetime Arbitration & Absolute Transition Probability B(E2) Inverter (`in_beam_rdds_ddcm_lifetime_inverter.py`):
+  - Based on 吴治华《原子核物理实验方法》第 15 章 §15.2 (pp. 430–445), 汪晓莲《粒子探测技术》第 5 章, A. Dewald et al. (Z. Phys. A 334, 163, 1989), and A. Dewald et al. (Prog. Part. Nucl. Phys. 67, 786, 2012):
+    * Formulates Bateman differential decay rate equation for stopped and shifted Doppler components: $\tau(d) = \frac{1}{v} \frac{1 - R(d)}{dR/dd}$.
+    * Implements adaptive numerical spline differentiation of normalized stopped-peak ratios $R(d) = I_u / (I_u + I_s)$ and arbitrates the plateau sensitivity window ($0.15 \le R(d) \le 0.85$).
+    * Deduces model-independent picosecond lifetimes, absolute transition rates $T(E2)$, reduced transition probabilities $B(E2)$ in W.u. and $e^2\text{b}^2$, and intrinsic quadrupole moments $Q_0$, completely eliminating feeding-delay distortions.
+  - Benchmarks:
+    * $^{134}\text{Ce}$ $2_1^+ \to 0^+$ ($409.0\text{ keV}, \beta = 0.0210$): extracts DDCM plateau lifetime $\tau = 14.92 \pm 0.04\text{ ps}$ across 5 plateau distances, deducing $B(E2) = 0.4780\ e^2\text{b}^2$ ($123.8\text{ W.u.}$) and intrinsic quadrupole moment $Q_0 = 4.90\ e\text{ b}$.
+    * $^{128}\text{Cs}$ chiral bandhead $9^+$ state: verifies picosecond deconvolution accuracy.
+    * Rapid decay limit ($\tau \approx 3.2\text{ ps}$): confirms short-distance differentiation robustness.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `rddsddcm`.
+- Created concept page: `knowledge/concepts/in-beam-rdds-differential-decay-curve-lifetime-inversion.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-18 entry.
+- Added unit test suite `system/tests/test_rdds_ddcm_lifetime.py` (3 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **150 official analysis modules**, all verified passing in 3.0s.

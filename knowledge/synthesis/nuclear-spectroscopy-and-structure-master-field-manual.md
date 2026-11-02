@@ -112,6 +112,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `tsdpes` | 宏观-微观三轴超形变 3D (beta_2, gamma, beta_4) 势能面 Strutinsky 壳修正计算器 | 采用唯象液滴能与平滑高斯壳修正；极高同位旋非对称区需计入自洽微观泛函约束 |
 | `capgap` | 科里奥利反配对（CAP）动态配对能隙淬灭与转动惯量超流向刚体相变求解器 | 采用 Mottelson-Valatin 单极配对单参量淬灭模型；存在高自旋准粒子顺排后弯时需计入阻塞效应 |
 | `coineff` | 多探测器阵列 gamma-gamma 符合绝对探测效率矩阵几何与角度关联调制反演 | 需结合晶体有限立体角衰减因子 Q_k；极端宽开角（>30 deg）需开展非共轴三维 Monte Carlo 标定 |
+| `tpsmproj` | 投影壳模型（TPSM）三维角动量投影矩阵元求解与能带 Hill-Wheeler 对角化 | 截断于多准粒子基底；包含高位闯入轨道的大振幅混合需扩展组态空间截断 |
+| `rddsddcm` | 在束反冲距离多普勒频移法（RDDS）微分衰减曲线（DDCM）皮秒寿命反演 | 需平滑自适应样条对 R(d) 求导；飞行有效灵敏区外（R < 0.15 或 > 0.85）涨落较大需剔除 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -173,6 +175,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py pulserlt --preset in_beam_hi
 python3 system/scripts/analysis/nuclear_analyzer.py tsdpes --preset 163Lu_TSD_potential_energy_surface --json
 python3 system/scripts/analysis/nuclear_analyzer.py capgap --preset 163Lu_TSD_superfluid_to_normal_phase_transition --json
 python3 system/scripts/analysis/nuclear_analyzer.py coineff --preset 12_clover_array_60Co_cascade --json
+python3 system/scripts/analysis/nuclear_analyzer.py tpsmproj --preset 130Ba_TPSM_triaxial_bands --json
+python3 system/scripts/analysis/nuclear_analyzer.py rddsddcm --preset 134Ce_2plus_rdds_plunger --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

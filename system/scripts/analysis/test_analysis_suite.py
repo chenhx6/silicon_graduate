@@ -180,6 +180,8 @@ from in_beam_pulser_injection_live_time_corrector import calculate_pulser_live_t
 from triaxial_superdeformed_pes_strutinsky_engine import calculate_ldm_energy_surface, find_pes_minima_and_saddle
 from coriolis_anti_pairing_gap_quenching_moi_engine import calculate_cap_pairing_gap, solve_spin_state_cap
 from in_beam_array_coincidence_efficiency_angular_matrix_inverter import calculate_mutual_pair_angle, evaluate_directional_correlation_weight
+from tpsm_3d_angular_momentum_projection_diagonalizer import calculate_effective_moi_tpsm, diagonalize_spin_tpsm
+from in_beam_rdds_ddcm_lifetime_inverter import evaluate_ddcm_curve, extract_plateau_lifetime_and_be2
 
 
 def test_heavy_ion_kinematics():
@@ -1997,6 +1999,24 @@ def test_array_coincidence_efficiency():
     print("  ✓ in_beam_array_coincidence_efficiency_angular_matrix_inverter passed.")
 
 
+def test_tpsm_3d_projection():
+    print("Testing tpsm_3d_angular_momentum_projection_diagonalizer...")
+    moi = calculate_effective_moi_tpsm(0.23, 25.0, 130)
+    assert moi > 20.0
+    res = diagonalize_spin_tpsm(4, [0, 2, 4], moi, 25.0, 42.0)
+    assert res["E_gamma_band_keV"] > res["E_yrast_keV"]
+    print("  ✓ tpsm_3d_angular_momentum_projection_diagonalizer passed.")
+
+
+def test_rdds_ddcm_lifetime():
+    print("Testing in_beam_rdds_ddcm_lifetime_inverter...")
+    meas = [{"d_um": 25.0, "stopped_counts": 4350.0, "shifted_counts": 16100.0}, {"d_um": 50.0, "stopped_counts": 7900.0, "shifted_counts": 12400.0}]
+    pts, v = evaluate_ddcm_curve(meas, 0.0210)
+    assert len(pts) == 2
+    assert v > 6.0
+    print("  ✓ in_beam_rdds_ddcm_lifetime_inverter passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2507,4 +2527,6 @@ if __name__ == "__main__":
     test_tsd_pes_strutinsky()
     test_coriolis_anti_pairing()
     test_array_coincidence_efficiency()
+    test_tpsm_3d_projection()
+    test_rdds_ddcm_lifetime()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

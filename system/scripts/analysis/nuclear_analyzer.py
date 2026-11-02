@@ -166,6 +166,8 @@ from in_beam_pulser_injection_live_time_corrector import run_pulser_live_time_an
 from triaxial_superdeformed_pes_strutinsky_engine import run_pes_strutinsky_analysis, format_text_report as format_tsdpes_report, PRESETS as TSDPES_PRESETS
 from coriolis_anti_pairing_gap_quenching_moi_engine import run_cap_analysis, format_text_report as format_capgap_report, PRESETS as CAPGAP_PRESETS
 from in_beam_array_coincidence_efficiency_angular_matrix_inverter import run_coincidence_matrix_analysis, format_text_report as format_coineff_report, PRESETS as COINEFF_PRESETS
+from tpsm_3d_angular_momentum_projection_diagonalizer import run_tpsm_analysis, format_text_report as format_tpsmproj_report, PRESETS as TPSMPROJ_PRESETS
+from in_beam_rdds_ddcm_lifetime_inverter import run_rdds_ddcm_analysis, format_text_report as format_rddsddcm_report, PRESETS as RDDSDDCM_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3837,6 +3839,42 @@ def cmd_coineff(args):
     else:
         print(format_coineff_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
+
+def cmd_tpsmproj(args):
+    preset_name = args.preset if args.preset else "130Ba_TPSM_triaxial_bands"
+    p = TPSMPROJ_PRESETS[preset_name]
+    res = run_tpsm_analysis(
+        A=p["A"],
+        epsilon2=p["epsilon2"],
+        gamma_deg=p["gamma_deg"],
+        core_coupling_keV=p["core_coupling_keV"],
+        spins=p["spins"],
+        nucleus=p["nucleus"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_tpsmproj_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_rddsddcm(args):
+    preset_name = args.preset if args.preset else "134Ce_2plus_rdds_plunger"
+    p = RDDSDDCM_PRESETS[preset_name]
+    res = run_rdds_ddcm_analysis(
+        nucleus=p["nucleus"],
+        E_gamma_keV=p["E_gamma_keV"],
+        beta_recoil=p["beta_recoil"],
+        spin_I=p["spin_initial"],
+        K_val=p["K_quantum"],
+        measurements=p["measurements"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_rddsddcm_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5410,6 +5448,20 @@ def main():
                       choices=list(COINEFF_PRESETS.keys()), help="Benchmark preset")
     p_ce.add_argument("--json", action="store_true", help="Output pure JSON")
     p_ce.set_defaults(func=cmd_coineff)
+
+    # Triaxial Projected Shell Model 3D Projection Diagonalizer
+    p_tp = subparsers.add_parser("tpsmproj", help="TPSM 3D angular momentum projection & band diagonalizer (Petrache Ch 12 / Sheikh PRL)")
+    p_tp.add_argument("--preset", type=str, default="130Ba_TPSM_triaxial_bands",
+                      choices=list(TPSMPROJ_PRESETS.keys()), help="Benchmark preset")
+    p_tp.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tp.set_defaults(func=cmd_tpsmproj)
+
+    # In-Beam RDDS Differential Decay Curve Method (DDCM) Lifetime Inverter
+    p_rd = subparsers.add_parser("rddsddcm", help="In-beam RDDS differential decay curve method (DDCM) lifetime inverter (Wu Ch 15 / Dewald)")
+    p_rd.add_argument("--preset", type=str, default="134Ce_2plus_rdds_plunger",
+                      choices=list(RDDSDDCM_PRESETS.keys()), help="Benchmark preset")
+    p_rd.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_rd.set_defaults(func=cmd_rddsddcm)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
