@@ -130,6 +130,8 @@ from alpha_decay_gamow_wkb_calculator import calculate_gamow_factor_wkb, evaluat
 from triaxial_wobbling_tip_chiral_analyzer import calculate_triaxial_rotor_moi_parameters, calculate_transverse_wobbling_spectrum, classify_tip_vs_phonon_wobbling, analyze_chiral_doublet_staggering
 from feldman_cousins_unified_confidence_interval_calculator import calculate_poisson_fc_interval, calculate_gaussian_fc_interval
 from hpge_coaxial_electric_field_ballistic_deficit_calculator import calculate_coaxial_depletion_and_field, calculate_shockley_ramo_collection, calculate_coaxial_ballistic_deficit, reconcile_neutron_damage_p_vs_n
+from heavy_ion_fusion_spin_distribution_wong_calculator import calculate_heavy_ion_fusion_wong
+from dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator import calculate_dsam_f_tau_value, invert_lifetime_from_f_tau, calculate_lss_stopping_constants
 
 
 def test_heavy_ion_kinematics():
@@ -1660,6 +1662,30 @@ def test_feldman_cousins_unified_confidence_interval_calculator():
     print("  ✓ feldman_cousins_unified_confidence_interval_calculator passed.")
 
 
+def test_heavy_ion_fusion_wong_calculator():
+    print("Testing heavy_ion_fusion_spin_distribution_wong_calculator...")
+    res = calculate_heavy_ion_fusion_wong(Z_p=8, A_p=16, Z_t=50, A_t=122, E_lab_MeV=80.0)
+    assert abs(res["Wong_cross_section_mb"] - 1030.0) < 5.0, "Wong analytical cross section"
+    assert abs(res["partial_wave_sum_cross_section_mb"] - 1030.2) < 5.0, "Partial wave sum cross section"
+    assert res["wong_sum_agreement_pct"] > 99.9, "Wong vs partial wave sum convergence > 99.9%"
+    assert res["critical_angular_momentum_l_crit_hbar"] == 40
+    print("  ✓ heavy_ion_fusion_spin_distribution_wong_calculator passed.")
+
+
+def test_dsam_doppler_attenuation_lifetime_calculator():
+    print("Testing dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator...")
+    # Invert 134Ce in Au: F_exp = 0.52 -> tau ~ 0.75 ps
+    inv = invert_lifetime_from_f_tau(F_exp=0.52, F_err=0.03, alpha_stop_ps=0.82)
+    assert abs(inv["tau_ps"] - 0.749) < 0.05, "DSAM lifetime inversion ~ 0.75 ps"
+    assert abs(inv["tau_fs"] - 748.7) < 10.0
+    assert inv["tau_lower_ps"] < inv["tau_ps"] < inv["tau_upper_ps"]
+
+    # LSS constants check
+    lss = calculate_lss_stopping_constants(Z_recoil=58, M_recoil=134.0, Z_backing=79, M_backing=197.0)
+    assert abs(lss["lss_k_e"] - 0.2103) < 0.01, "LSS electronic stopping coefficient ke"
+    print("  ✓ dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator passed.")
+
+
 def test_hpge_coaxial_electric_field_ballistic_deficit_calculator():
     print("Testing hpge_coaxial_electric_field_ballistic_deficit_calculator...")
     # 1. Depletion voltage and electric field
@@ -1829,4 +1855,6 @@ if __name__ == "__main__":
     test_triaxial_wobbling_tip_chiral_analyzer()
     test_feldman_cousins_unified_confidence_interval_calculator()
     test_hpge_coaxial_electric_field_ballistic_deficit_calculator()
+    test_heavy_ion_fusion_wong_calculator()
+    test_dsam_doppler_attenuation_lifetime_calculator()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

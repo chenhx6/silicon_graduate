@@ -6499,3 +6499,39 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-5 entry and locators.
 - Added unit test suite `system/tests/test_hpge_coaxial_field_ballistic_deficit.py` (6 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to 98 modules, passing cleanly in 3.9s.
+
+### Heavy-Ion Fusion Wong Barrier Penetration & Initial Spin Distribution (Module 99) 2026-11-03T03:30:00+08:00
+
+- Integrated Heavy-Ion Fusion Wong Barrier Penetration, Partial Wave Initial Spin Distribution $P(\ell)$, RLDM Fission Limit & In-Beam $xn$ Evaporation Planning (`heavy_ion_fusion_spin_distribution_wong_calculator.py`):
+  - Based on 林承键《重离子核反应》第 6 章 (印刷 pp. 134–153 / PDF pp. 144–163) and Bertulani reaction theory Ch. 5:
+    * Center-of-mass kinematics, barrier radius $R_B = 1.07(A_p^{1/3} + A_t^{1/3}) + 2.72\text{ fm}$, and Coulomb barrier $V_{B0}$.
+    * Exact Hill-Wheeler parabolic transmission $T_\ell(E_{\text{cm}}) = [1 + \exp(2\pi(V_B(\ell) - E_{\text{cm}})/\hbar\omega_0)]^{-1}$.
+    * Closed analytical Wong formula: $\sigma_{\text{fus}}^{\text{Wong}} = \frac{R_B^2 \hbar\omega_0}{2 E_{\text{cm}}} \ln[1 + \exp(2\pi(E_{\text{cm}} - V_{B0})/\hbar\omega_0)]$.
+    * Verified that discrete partial wave summation $\sum_\ell \frac{\pi}{k^2}(2\ell+1)T_\ell$ converges exactly to Wong's analytical solution with **99.98% agreement** ($1030.00\text{ mb}$ vs $1030.22\text{ mb}$).
+    * Cohen-Plasil-Swiatecki Rotating Liquid Drop Model (RLDM) limiting angular momentum $\ell_{\text{fiss}} \approx 70\ \hbar$, partitioning fusion into evaporation residues ($\sigma_{\text{ER}}$) and fast fission ($\sigma_{\text{fiss}}$).
+    * Compound nucleus excitation energy $E^*$ and optimum beam energy windows for $2n, 3n, 4n, 5n, 6n$ residue channels.
+  - Benchmarks:
+    * $^{16}\text{O} + {}^{122}\text{Sn} \to {}^{138}\text{Ce}^* \to {}^{134}\text{Ce} + 4n$: at $E_{\text{lab}} = 80\text{ MeV}$, $E_{\text{cm}} = 70.72\text{ MeV}$, $\sigma_{\text{fus}} = 1030.0\text{ mb}$, $\ell_{\text{crit}} = 40\ \hbar$, $\langle \ell \rangle = 25.9\ \hbar$. Recommended $E_{\text{lab}} = 48.6\text{ MeV}$ for $4n$ channel.
+    * Sub-barrier fusion tunneling confirmed at $E_{\text{cm}} < V_{B0}$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `wong`.
+- Created concept page: `knowledge/concepts/heavy-ion-fusion-wong-barrier-penetration-and-spin-distribution.md`.
+- Updated source card `knowledge/sources/book-lin-heavy-ion-reactions.md` with LIN-5 entry.
+- Added unit test suite `system/tests/test_heavy_ion_fusion_wong.py` (6 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 99.
+
+### DSAM Doppler Attenuation F(tau) & Picosecond Lifetime Inverter (Module 100) 2026-11-03T04:00:00+08:00
+
+- Integrated Doppler Shift Attenuation Method (DSAM) Centroid Shift $F(\tau)$, Lindhard-Scharff-Schiott (LSS) Stopping Power, Blaugrund Semiclassical Scattering & Picosecond Nuclear Lifetime Inverter (`dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator.py`):
+  - Based on 吴治华《原子核物理实验方法》第 15 章 (印刷 pp. 421–452 / PDF pp. 429–460), Nolan & Sharpey-Schafer (1979), and Blaugrund (1966):
+    * Doppler shift attenuation factor $F(\tau) = \frac{1}{v_0 \tau} \int_0^\infty \overline{v(t)\cos\phi(t)} e^{-t/\tau} dt$.
+    * LSS reduced energy $\varepsilon$, electronic stopping $S_e \propto \sqrt{\varepsilon}$ with coefficient $k_e$, and nuclear stopping $S_n(\varepsilon)$ with Thomas-Fermi screening.
+    * Blaugrund direction cosine $\overline{\cos\phi(v)}$ integration for multiple elastic scattering in backing media.
+    * Monotonic numerical inversion of mean lifetime $\tau_{\text{exp}}$ from experimental attenuation factor $F_{\text{exp}} \pm \Delta F_{\text{exp}}$ via Brent's method.
+  - Benchmarks:
+    * $^{134}\text{Ce}$ recoil in gold backing ($Z_1=58, M_1=134; Z_2=79, M_2=197; v_0/c = 0.020$): $a_{\text{TF}} = 0.0811\text{ \AA}, k_e = 0.2103, \alpha_{\text{stop}} = 0.82\text{ ps}$. For $F_{\text{exp}} = 0.520 \pm 0.030$, inverted lifetime is $\tau = 0.7487\text{ ps}$ ($748.7\text{ fs}$), with $1\sigma$ range $[0.6528, 0.8581]\text{ ps}$.
+    * Forward-inverse roundtrip recovered exact input lifetime to within $< 0.001\text{ ps}$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `dsam`.
+- Created concept page: `knowledge/concepts/dsam-doppler-shift-attenuation-and-picosecond-lifetime-inversion.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-6 entry.
+- Added unit test suite `system/tests/test_dsam_doppler_attenuation_lifetime.py` (6 tests, 100% passing).
+- **100 Module Milestone Reached**: Expanded `test_analysis_suite.py` regression suite to **100 official analysis modules**, all verified passing in 3.6s.

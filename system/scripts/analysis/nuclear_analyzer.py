@@ -116,6 +116,8 @@ from alpha_decay_gamow_wkb_calculator import calculate_gamow_factor_wkb, evaluat
 from triaxial_wobbling_tip_chiral_analyzer import calculate_triaxial_rotor_moi_parameters, calculate_transverse_wobbling_spectrum, classify_tip_vs_phonon_wobbling, analyze_chiral_doublet_staggering, format_text_report as format_triaxial_report
 from feldman_cousins_unified_confidence_interval_calculator import calculate_poisson_fc_interval, calculate_gaussian_fc_interval, format_text_report as format_fc_report
 from hpge_coaxial_electric_field_ballistic_deficit_calculator import calculate_coaxial_depletion_and_field, calculate_shockley_ramo_collection, calculate_coaxial_ballistic_deficit, reconcile_neutron_damage_p_vs_n, format_text_report as format_hpgefield_report
+from heavy_ion_fusion_spin_distribution_wong_calculator import calculate_heavy_ion_fusion_wong, format_text_report as format_wong_report
+from dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator import calculate_dsam_f_tau_value, invert_lifetime_from_f_tau, calculate_lss_stopping_constants, generate_f_tau_calibration_curve, format_text_report as format_dsam_report
 
 
 def cmd_kinematics(args):
@@ -2172,6 +2174,57 @@ def cmd_hpgefield(args):
         print(format_hpgefield_report(dep_res, ramo_res, bal_res, neu_res))
 
 
+def cmd_wong(args):
+    zp, ap = args.Zp, args.Ap
+    zt, at = args.Zt, args.At
+    elab = args.Elab
+
+    if args.preset == "16O_122Sn":
+        zp, ap, zt, at, elab = 8, 16, 50, 122, 80.0
+    elif args.preset == "18O_120Sn":
+        zp, ap, zt, at, elab = 8, 18, 50, 120, 78.0
+    elif args.preset == "10B_128Te":
+        zp, ap, zt, at, elab = 5, 10, 52, 128, 55.0
+    elif args.preset == "48Ca_208Pb":
+        zp, ap, zt, at, elab = 20, 48, 82, 208, 230.0
+
+    res = calculate_heavy_ion_fusion_wong(zp, ap, zt, at, elab)
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_wong_report(res))
+
+
+def cmd_dsam(args):
+    f_exp = args.F_exp
+    f_err = args.F_err
+    a_stop = args.alpha_stop
+    lss_res = None
+
+    if args.preset == "134Ce_in_Au":
+        f_exp, f_err, a_stop = 0.52, 0.03, 0.82
+        lss_res = calculate_lss_stopping_constants(Z_recoil=58, M_recoil=134.0, Z_backing=79, M_backing=197.0)
+    elif args.preset == "135Pr_in_Pb":
+        f_exp, f_err, a_stop = 0.45, 0.04, 0.88
+        lss_res = calculate_lss_stopping_constants(Z_recoil=59, M_recoil=135.0, Z_backing=82, M_backing=208.0)
+    elif args.preset == "163Lu_in_Bi":
+        f_exp, f_err, a_stop = 0.62, 0.05, 0.78
+        lss_res = calculate_lss_stopping_constants(Z_recoil=71, M_recoil=163.0, Z_backing=83, M_backing=209.0)
+
+    inv_res = invert_lifetime_from_f_tau(f_exp, f_err, a_stop)
+
+    if args.json:
+        import json
+        out = {"dsam_inversion": inv_res}
+        if lss_res is not None:
+            out["lss_parameters"] = lss_res
+        out["calibration_curve"] = generate_f_tau_calibration_curve(a_stop)
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_dsam_report(inv_res, lss_res))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3266,6 +3319,26 @@ def main():
     p_hpf.add_argument("--neutron-fluence", type=float, default=2.0e9, help="Fast neutron fluence in n/cm^2 (default: 2.0e9)")
     p_hpf.add_argument("--json", action="store_true", help="Output pure JSON")
     p_hpf.set_defaults(func=cmd_hpgefield)
+
+    # Heavy-Ion Fusion Wong Barrier Penetration & Spin Distribution
+    p_wong = subparsers.add_parser("wong", help="Heavy-ion fusion Wong barrier penetration, spin distribution P(l) & xn design (Lin Chengjian Ch 6)")
+    p_wong.add_argument("--preset", type=str, default="16O_122Sn", choices=["16O_122Sn", "18O_120Sn", "10B_128Te", "48Ca_208Pb"], help="Benchmark preset")
+    p_wong.add_argument("--Zp", type=int, default=8, help="Projectile Z")
+    p_wong.add_argument("--Ap", type=int, default=16, help="Projectile A")
+    p_wong.add_argument("--Zt", type=int, default=50, help="Target Z")
+    p_wong.add_argument("--At", type=int, default=122, help="Target A")
+    p_wong.add_argument("--Elab", type=float, default=80.0, help="Beam energy E_lab in MeV")
+    p_wong.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_wong.set_defaults(func=cmd_wong)
+
+    # DSAM Doppler Attenuation F(tau) & Picosecond Lifetime Inversion
+    p_dsam = subparsers.add_parser("dsam", help="DSAM centroid shift F(tau) & picosecond nuclear state lifetime inversion (Wu Ch 15 / Nolan 1979)")
+    p_dsam.add_argument("--preset", type=str, default="134Ce_in_Au", choices=["134Ce_in_Au", "135Pr_in_Pb", "163Lu_in_Bi"], help="Benchmark preset")
+    p_dsam.add_argument("--F-exp", type=float, default=0.55, help="Measured F(tau)")
+    p_dsam.add_argument("--F-err", type=float, default=0.04, help="Uncertainty on F(tau)")
+    p_dsam.add_argument("--alpha-stop", type=float, default=0.85, help="Stopping time scale alpha in ps")
+    p_dsam.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_dsam.set_defaults(func=cmd_dsam)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
