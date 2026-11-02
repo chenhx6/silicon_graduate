@@ -146,6 +146,8 @@ from particle_triaxial_rotor_model_ptrm_diagonalizer import run_ptrm_analysis, f
 from digital_mwd_baseline_restorer_filter import run_mwd_blr_analysis, format_text_report as format_mwd_report, PRESETS as MWD_PRESETS
 from in_beam_fast_timing_gcd_lifetime_calculator import run_fast_timing_gcd_analysis, format_text_report as format_gcd_report, PRESETS as GCD_PRESETS
 from chiral_doublet_g_factor_equality_calculator import run_chiral_gfactor_analysis, format_text_report as format_chiralg_report, PRESETS as CHIRALG_PRESETS
+from in_beam_true_coincidence_summing_tcs_calculator import run_tcs_analysis, format_text_report as format_tcs_report, PRESETS as TCS_PRESETS
+from chiral_octupole_quartet_bands_analyzer import run_chiral_octupole_analysis, format_text_report as format_chiroct_report, PRESETS as CHIROCT_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3302,6 +3304,88 @@ def cmd_chiralg(args):
     else:
         print(format_chiralg_report(res, title=title))
 
+
+def cmd_tcs(args):
+    if args.preset and args.preset in TCS_PRESETS:
+        p = TCS_PRESETS[args.preset]
+        nucleus = p["nucleus"]
+        cascade_pairs = p["cascade_pairs"]
+        peak_effs = p["peak_efficiencies"]
+        pt_ratios = p["pt_ratios"]
+        total_decays = p.get("total_decays", 1e6)
+        W0 = p.get("W0_correlation", 1.0)
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        nucleus = args.nucleus if hasattr(args, "nucleus") and args.nucleus else "60Co"
+        e1 = args.e1 if hasattr(args, "e1") and args.e1 else 1173.2
+        e2 = args.e2 if hasattr(args, "e2") and args.e2 else 1332.5
+        cascade_pairs = [
+            {"E_target_keV": e1, "E_coincident_keV": e2, "branching": 1.0},
+            {"E_target_keV": e2, "E_coincident_keV": e1, "branching": 1.0}
+        ]
+        peak_effs = {e1: 0.025, e2: 0.022}
+        pt_ratios = {e1: 0.22, e2: 0.20}
+        total_decays = 1e6
+        W0 = 1.0
+        title = "Custom User Input"
+
+    res = run_tcs_analysis(
+        nucleus=nucleus,
+        cascade_pairs=cascade_pairs,
+        peak_effs=peak_effs,
+        pt_ratios=pt_ratios,
+        W0=W0,
+        total_decays=total_decays
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_tcs_report(res, title=title))
+
+
+def cmd_chiroct(args):
+    if args.preset and args.preset in CHIROCT_PRESETS:
+        p = CHIROCT_PRESETS[args.preset]
+        nucleus = p["nucleus"]
+        A_mass = p["A_mass"]
+        Z_charge = p["Z_charge"]
+        spins = p["spins"]
+        p1 = p["E_pos1_keV"]
+        p2 = p["E_pos2_keV"]
+        n1 = p["E_neg1_keV"]
+        n2 = p["E_neg2_keV"]
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        p = CHIROCT_PRESETS["78Br_chiral_octupole_quartet"]
+        nucleus = args.nucleus if hasattr(args, "nucleus") and args.nucleus else p["nucleus"]
+        A_mass = args.mass_a if hasattr(args, "mass_a") and args.mass_a else p["A_mass"]
+        Z_charge = args.charge_z if hasattr(args, "charge_z") and args.charge_z else p["Z_charge"]
+        spins = p["spins"]
+        p1 = p["E_pos1_keV"]
+        p2 = p["E_pos2_keV"]
+        n1 = p["E_neg1_keV"]
+        n2 = p["E_neg2_keV"]
+        title = "Default 78Br Quartet"
+
+    res = run_chiral_octupole_analysis(
+        nucleus=nucleus,
+        A_mass=A_mass,
+        Z_charge=Z_charge,
+        spins=spins,
+        E_pos1=p1,
+        E_pos2=p2,
+        E_neg1=n1,
+        E_neg2=n2
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_chiroct_report(res, title=title))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -4713,6 +4797,24 @@ def main():
     p_cg.add_argument("--sig2", type=float, default=0.05, help="Error on g2")
     p_cg.add_argument("--json", action="store_true", help="Output pure JSON")
     p_cg.set_defaults(func=cmd_chiralg)
+
+    # In-Beam True Coincidence Summing (TCS) Correction Engine
+    p_tcs = subparsers.add_parser("tcs", help="In-beam true coincidence summing (TCS) summing-out/in correction (Wu Ch 10 / Debertin)")
+    p_tcs.add_argument("--preset", type=str, default="60Co_close_geometry_clover", choices=["60Co_close_geometry_clover", "134Ce_in_beam_cascade", "152Eu_multi_cascade_summing", "custom"], help="Benchmark preset")
+    p_tcs.add_argument("--nucleus", type=str, default="60Co", help="Nucleus name")
+    p_tcs.add_argument("--e1", type=float, help="E1 in keV")
+    p_tcs.add_argument("--e2", type=float, help="E2 in keV")
+    p_tcs.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tcs.set_defaults(func=cmd_tcs)
+
+    # Chiral-Octupole Dual Symmetry-Breaking Quartet Bands Analyzer
+    p_choct = subparsers.add_parser("chiroct", help="Chiral-octupole dual symmetry-breaking quartet bands analyzer (Liu PRL 2016 / 78Br)")
+    p_choct.add_argument("--preset", type=str, default="78Br_chiral_octupole_quartet", choices=["78Br_chiral_octupole_quartet", "133Ba_candidate_quartet", "pseudo_quartet_counterexample", "custom"], help="Benchmark preset")
+    p_choct.add_argument("--nucleus", type=str, default="78Br", help="Nucleus name")
+    p_choct.add_argument("--mass-a", type=int, help="Mass number A")
+    p_choct.add_argument("--charge-z", type=int, help="Atomic number Z")
+    p_choct.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_choct.set_defaults(func=cmd_chiroct)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

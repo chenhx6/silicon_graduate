@@ -7023,3 +7023,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-7 entry.
 - Added unit test suite `system/tests/test_chiral_gfactor_equality.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **128 official analysis modules**, all verified passing in 2.6s.
+
+### In-Beam True Coincidence Summing (TCS) Correction Engine (Module 129) 2026-11-03T18:45:00+08:00
+
+- Integrated In-Beam True Coincidence Summing (TCS) Summing-Out / Summing-In Correction, Peak-to-Total Ratio & Close-Geometry Efficiency Suite (`in_beam_true_coincidence_summing_tcs_calculator.py`):
+  - Based on 吴治华《原子核物理实验方法》第 10 章 §10.5 (pp. 275–285), 汪晓莲等《粒子探测技术》第 5 章, and K. Debertin & R. G. Helmer (1988):
+    * Models true coincidence summing in compact detector geometries ($d \sim 5 - 15\text{ cm}$): cascade photons emitted in prompt sequence within charge-collection resolving time strike the same crystal simultaneously.
+    * Formulates analytical summing-out correction factor $C_{\text{out}}(E_1) = 1.0 / [1.0 - \varepsilon_t(E_2) W(0)] \ge 1.0$, where total efficiency is evaluated via the Peak-to-Total ratio $\varepsilon_t(E) = \varepsilon_p(E) / (P/T(E))$.
+    * Quantifies summing-in virtual peak yield $N_{\text{sum-in}} = N_0 b_1 b_2 \varepsilon_p(E_1) \varepsilon_p(E_2) W(0)$ at $E_{\text{sum}} = E_1 + E_2$.
+    * Eliminates $10\% - 25\%$ systematic photopeak loss in close-geometry in-beam gamma spectroscopy.
+  - Benchmarks:
+    * $^{60}\text{Co}$ close-geometry Clover calibration ($d=10\text{ cm}$): $\varepsilon_p(1173) = 2.50\%, \varepsilon_t(1332) = 11.00\% \implies C_{\text{out}} = 1.1236$ ($+12.4\%$ correction needed); virtual sum peak at $2505.7\text{ keV}$ produces $550$ false counts per $10^6$ decays.
+    * $^{134}\text{Ce}$ in-beam cascade ($4_1^+ \xrightarrow{638} 2_1^+ \xrightarrow{409} 0^+$): rectifies $15\%$ summing-out attenuation.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `tcs`.
+- Created concept page: `knowledge/concepts/in-beam-true-coincidence-summing-tcs-correction.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-11 entry.
+- Added unit test suite `system/tests/test_tcs_coincidence_summing.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 129.
+
+### Chiral-Octupole Dual Symmetry-Breaking Quartet Bands Analyzer (Module 130) 2026-11-03T19:15:00+08:00
+
+- Integrated Chiral-Octupole Dual Symmetry-Breaking Quartet Bands Analyzer & Aplanar Parity Doublet Inversion Engine (`chiral_octupole_quartet_bands_analyzer.py`):
+  - Based on C. Liu et al. (Phys. Rev. Lett. 116, 112501, 2016), J. Meng & Y. P. Wang in *Chirality and Wobbling in Atomic Nuclei* (CRC 2025) Ch. 3 (PDF pp. 81–93), and J. A. Sheikh Ch. 12 (PDF pp. 256–274):
+    * Formulates dual discrete symmetry breaking: simultaneous breaking of time-reversal $\mathcal{T}\mathcal{R}_y(\pi)$ (chirality) and spatial inversion parity $\mathcal{P}$ (octupole reflection asymmetry) dictates the existence of a four-band super-multiplet (two positive-parity and two negative-parity chiral doublets).
+    * Evaluates positive-parity and negative-parity chiral splittings $\Delta E_{\text{chir}}^+(I) \le 100\text{ keV}, \Delta E_{\text{chir}}^-(I) \le 100\text{ keV}$.
+    * Computes octupole parity separation $\delta E_{\text{oct}}(I) = \frac{1}{2}[(E_3^- + E_4^-) - (E_1^+ + E_2^+)]$, capturing the centrifugal stabilization collapse of pear shape with spin.
+    * Implements comprehensive quartet confidence scoring $Q_{\text{quartet}}$ and cross-parity $E1$ transition diagnostics.
+  - Benchmarks:
+    * $^{78}\text{Br}$ landmark discovery benchmark (Liu et al. PRL 2016): verifies $\pi g_{9/2} \otimes \nu g_{9/2}$ quartet bands across $I = 8 \dots 12$, yielding $\overline{\Delta E^+} = 64.0\text{ keV}, \overline{\Delta E^-} = 55.0\text{ keV}$, octupole displacement collapsing from $197.5\text{ keV}$ to $115.0\text{ keV}$, establishing confirmed status ($68.9\%$ confidence).
+    * Pseudo-quartet counterexample: correctly rejects accidental band structure with large splitting ($> 200\text{ keV}, 27.6\%$ score).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `chiroct`.
+- Created concept page: `knowledge/concepts/chiral-octupole-dual-symmetry-breaking-quartet-bands.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-8 entry.
+- Added unit test suite `system/tests/test_chiral_octupole_quartet.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **130 official analysis modules**, all verified passing in 2.5s.

@@ -160,6 +160,8 @@ from particle_triaxial_rotor_model_ptrm_diagonalizer import evaluate_ptrm_matrix
 from digital_mwd_baseline_restorer_filter import run_mwd_blr_analysis
 from in_beam_fast_timing_gcd_lifetime_calculator import calculate_prf_walk, calculate_gcd_lifetime
 from chiral_doublet_g_factor_equality_calculator import calculate_theoretical_chiral_gfactor, arbitrate_chiral_gfactor_equality
+from in_beam_true_coincidence_summing_tcs_calculator import calculate_total_efficiency, calculate_tcs_corrections
+from chiral_octupole_quartet_bands_analyzer import evaluate_quartet_properties
 
 
 def test_heavy_ion_kinematics():
@@ -1810,6 +1812,28 @@ def test_level_scheme_loop_balancer():
     print("  ✓ level_scheme_loop_residual_intensity_balancer passed.")
 
 
+def test_tcs_coincidence_summing():
+    print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
+    eps_t = calculate_total_efficiency(0.025, 0.25)
+    assert abs(eps_t - 0.10) < 1e-4
+    pairs = [{"E_target_keV": 1000.0, "E_coincident_keV": 500.0, "branching": 1.0}]
+    res = calculate_tcs_corrections(pairs, {1000.0: 0.03, 500.0: 0.04}, {1000.0: 0.25, 500.0: 0.20})
+    assert res["summing_out_corrections"][0]["correction_factor_C_out"] > 1.20
+    print("  ✓ in_beam_true_coincidence_summing_tcs_calculator passed.")
+
+
+def test_chiral_octupole_quartet():
+    print("Testing chiral_octupole_quartet_bands_analyzer...")
+    spins = [8.0, 9.0, 10.0, 11.0, 12.0]
+    p1 = [1850.0, 2260.0, 2730.0, 3260.0, 3850.0]
+    p2 = [1920.0, 2330.0, 2795.0, 3320.0, 3905.0]
+    n1 = [2050.0, 2440.0, 2890.0, 3400.0, 3970.0]
+    n2 = [2115.0, 2500.0, 2945.0, 3450.0, 4015.0]
+    res = evaluate_quartet_properties(spins, p1, p2, n1, n2)
+    assert res["is_chiral_octupole_confirmed"] is True
+    print("  ✓ chiral_octupole_quartet_bands_analyzer passed.")
+
+
 def test_fast_timing_gcd():
     print("Testing in_beam_fast_timing_gcd_lifetime_calculator...")
     w_feed = calculate_prf_walk(600.0)
@@ -2278,4 +2302,6 @@ if __name__ == "__main__":
     test_mwd_baseline_restorer()
     test_fast_timing_gcd()
     test_chiral_gfactor_equality()
+    test_tcs_coincidence_summing()
+    test_chiral_octupole_quartet()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")
