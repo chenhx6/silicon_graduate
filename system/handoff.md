@@ -7296,3 +7296,36 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-15 entry.
 - Added unit test suite `system/tests/test_hpge_solid_angle_qk.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **144 official analysis modules**, all verified passing in 3.6s.
+
+### In-Beam Pulser Injection Live-Time Loss Corrector (Module 145) 2026-11-04T02:45:00+08:00
+
+- Integrated In-Beam High-Count-Rate Pulser Injection Live-Time Clock & Cascaded Pileup/ADC Dead-Time Loss Compensation Suite (`in_beam_pulser_injection_live_time_corrector.py`):
+  - Based on 吴治华《原子核物理实验方法》第 8 章 §8.4 (pp. 210–225), 汪晓莲《粒子探测技术》第 8 章 §8.2, 朱永生《实验物理中的概率和统计》第 4 章, and E. De Filippo et al. (NIM A 438, 397, 1999):
+    * Models cascaded three-stage count losses: analog preamplifier pileup rejection, ADC processing dead time, and DAQ event building busy time.
+    * Formulates exact pulser live-time fraction $\text{LT} = N_{\text{rec}} / N_{\text{inj}}$ and compound Poisson-binomial uncertainty propagation $\sigma_{A_{\text{true}}}$.
+    * Diagnoses hidden analog pileup losses invisible to hardware gated clocks (LTC), eliminating $5\% - 20\%$ systematic cross-section underestimations.
+  - Benchmarks:
+    * $^{130}\text{Ba}$ in-beam high-rate run ($45\text{ kHz}$): pulser measures $\text{LT} = 0.7740 \pm 0.0007$ ($22.60\%$ dead-time loss); reveals $8.08\%$ unmonitored analog pileup loss relative to hardware clock ($84.20\%$), triggering `HIGH_ANALOG_PILEUP_LOSS`. Corrects $328\text{ keV}$ peak from $84500$ to $109173.1 \pm 425.0$.
+    * Moderate-rate run ($12\text{ kHz}$): $\text{LT} = 0.925$.
+    * Low-rate calibration ($1.5\text{ kHz}$): $\text{LT} = 0.988$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `pulserlt`.
+- Created concept page: `knowledge/concepts/in-beam-pulser-injection-live-time-calibration.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-16 entry.
+- Added unit test suite `system/tests/test_pulser_live_time.py` (3 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 145.
+
+### Triaxial Superdeformed 3D PES Strutinsky Engine (Module 146) 2026-11-04T03:15:00+08:00
+
+- Integrated Triaxial Superdeformed (TSD) Macroscopic-Microscopic Potential Energy Surface (PES), 3D (beta_2, gamma, beta_4) Grid Strutinsky Shell Correction & Barrier Inverter (`triaxial_superdeformed_pes_strutinsky_engine.py`):
+  - Based on A. Bohr & B. R. Mottelson *Nuclear Structure* Vol. II §4-2 & §6-4, *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 2 & Ch. 10, and V. M. Strutinsky (Nucl. Phys. A 95, 420, 1967):
+    * Constructs macroscopic Liquid Drop Model (LDM) energy surface combined with microscopic Strutinsky shell corrections and high-spin cranking rotational energy $E_{\text{rot}}(I) = \frac{\hbar^2 I(I+1)}{2\mathcal{J}_{\text{eff}}}$.
+    * Scans 2D $(\beta_2, \gamma)$ terrain with hexadecapole $\beta_4$ coupling to locate normal-deformed (ND) ground well, excited triaxial superdeformed (TSD) secondary well, and intervening saddle barrier.
+    * Demonstrates that at high spin ($I \ge 25 - 40\ \hbar$), the large TSD moment of inertia ($\mathcal{J}_{\text{TSD}} \approx 65\ \hbar^2/\text{MeV}$) lowers the rotational energy by $> 10\text{ MeV}$, pulling the TSD minimum down and stabilizing the secondary well behind a substantial deformation barrier $V_B$.
+  - Benchmarks:
+    * $^{163}\text{Lu}$ at high spin $I = 35.5\ \hbar$: resolves ND minimum at $\beta_2 = 0.188, \gamma = 22.0^\circ$ ($E = 18.84\text{ MeV}$) and TSD minimum at $\beta_2 = 0.375, \gamma = 18.0^\circ$ ($E = 16.82\text{ MeV}$), with decayout barrier $V_B = 3.86\text{ MeV}$, confirming `STABLE_TRIAXIAL_SUPERDEFORMED_WELL_PRESENT`.
+    * $^{208}\text{Pb}$ doubly magic nucleus: confirms steep spherical single-well topology (`NO_SUPERDEFORMED_MINIMUM`).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `tsdpes`.
+- Created concept page: `knowledge/concepts/triaxial-superdeformed-pes-strutinsky-landscape.md`.
+- Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-10 entry.
+- Added unit test suite `system/tests/test_tsd_pes_strutinsky.py` (3 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **146 official analysis modules**, all verified passing in 2.8s.

@@ -108,6 +108,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `hexwob` | 非轴对称三轴核十六极形变 beta_4 微扰修正与摆动频率演化求解器 | 适用于高自旋或超形变能带；大振幅非简谐摆动需结合数值薛定谔方程对角化 |
 | `chirasch` | 手征四次双阱势大振幅集体运动 1D 薛定谔方程有限差分对角化求解器 | 采用一维刚性质量参数近似；高自旋多维坐标混合需多维集体哈密顿量扩展 |
 | `attneqk` | HPGe / Clover 探测器有限立体角角分布几何衰减因子 Q_2, Q_4 数值积分 | 假定探测器晶体为圆柱形对称体；前表面不均匀死层或异形切角需 Monte Carlo 补充校准 |
+| `pulserlt` | 在束高计数率脉冲发生器注入法活时间测定与级联模拟堆积/ADC死时间补偿 | 依赖脉冲发生器频率绝对稳定性；极端超载（>150 kHz）下需检查前放直流偏置饱和 |
+| `tsdpes` | 宏观-微观三轴超形变 3D (beta_2, gamma, beta_4) 势能面 Strutinsky 壳修正计算器 | 采用唯象液滴能与平滑高斯壳修正；极高同位旋非对称区需计入自洽微观泛函约束 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -165,6 +167,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py timegate --preset in_beam_13
 python3 system/scripts/analysis/nuclear_analyzer.py hexwob --preset 163Lu_TSD_positive_beta4 --json
 python3 system/scripts/analysis/nuclear_analyzer.py chirasch --preset 135Nd_chiral_vibration --json
 python3 system/scripts/analysis/nuclear_analyzer.py attneqk --preset standard_coaxial_hpge_15cm --json
+python3 system/scripts/analysis/nuclear_analyzer.py pulserlt --preset in_beam_high_rate_clover_130Ba --json
+python3 system/scripts/analysis/nuclear_analyzer.py tsdpes --preset 163Lu_TSD_potential_energy_surface --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

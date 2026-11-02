@@ -176,6 +176,8 @@ from in_beam_prompt_delayed_time_gating_random_subtractor import calculate_windo
 from triaxial_hexadecapole_deformation_wobbling_modifier import calculate_hexadecapole_modified_moi, calculate_wobbling_frequency_with_beta4
 from chiral_vibrational_quartic_schrodinger_diagonalizer import diagonalize_chiral_schrodinger
 from hpge_detector_solid_angle_attenuation_qk_integrator import calculate_solid_angle_attenuation_qk
+from in_beam_pulser_injection_live_time_corrector import calculate_pulser_live_time, correct_peaks
+from triaxial_superdeformed_pes_strutinsky_engine import calculate_ldm_energy_surface, find_pes_minima_and_saddle
 
 
 def test_heavy_ion_kinematics():
@@ -1954,6 +1956,25 @@ def test_hpge_solid_angle_qk():
     print("  ✓ hpge_detector_solid_angle_attenuation_qk_integrator passed.")
 
 
+def test_pulser_live_time():
+    print("Testing in_beam_pulser_injection_live_time_corrector...")
+    lt = calculate_pulser_live_time(100.0, 50.0, 4000)
+    assert abs(lt["live_time_fraction"] - 0.80) < 1e-4
+    corr = correct_peaks([{"energy_keV": 500.0, "measured_area": 800.0, "sigma_area": 10.0}], lt)
+    assert abs(corr[0]["true_area"] - 1000.0) < 1.0
+    print("  ✓ in_beam_pulser_injection_live_time_corrector passed.")
+
+
+def test_tsd_pes_strutinsky():
+    print("Testing triaxial_superdeformed_pes_strutinsky_engine...")
+    b_arr = np.array([0.1, 0.2, 0.4])
+    g_arr = np.array([10.0, 20.0])
+    E_ldm = calculate_ldm_energy_surface(71, 163, b_arr, g_arr)
+    assert E_ldm.shape == (3, 2)
+    assert E_ldm[2, 0] > E_ldm[0, 0]
+    print("  ✓ triaxial_superdeformed_pes_strutinsky_engine passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2460,4 +2481,6 @@ if __name__ == "__main__":
     test_hexadecapole_wobbling()
     test_chiral_quartic_schrodinger()
     test_hpge_solid_angle_qk()
+    test_pulser_live_time()
+    test_tsd_pes_strutinsky()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

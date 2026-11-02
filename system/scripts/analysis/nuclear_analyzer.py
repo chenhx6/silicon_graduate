@@ -162,6 +162,8 @@ from in_beam_prompt_delayed_time_gating_random_subtractor import run_prompt_dela
 from triaxial_hexadecapole_deformation_wobbling_modifier import run_hexadecapole_wobbling_analysis, format_text_report as format_hexwob_report, PRESETS as HEXWOB_PRESETS
 from chiral_vibrational_quartic_schrodinger_diagonalizer import run_chiral_schrodinger_analysis, format_text_report as format_chirasch_report, PRESETS as CHIRASCH_PRESETS
 from hpge_detector_solid_angle_attenuation_qk_integrator import run_attenuation_qk_analysis, format_text_report as format_attneqk_report, PRESETS as ATTNEQK_PRESETS
+from in_beam_pulser_injection_live_time_corrector import run_pulser_live_time_analysis, format_text_report as format_pulserlt_report, PRESETS as PULSERLT_PRESETS
+from triaxial_superdeformed_pes_strutinsky_engine import run_pes_strutinsky_analysis, format_text_report as format_tsdpes_report, PRESETS as TSDPES_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3761,6 +3763,40 @@ def cmd_attneqk(args):
     else:
         print(format_attneqk_report(res, title=title))
 
+
+def cmd_pulserlt(args):
+    preset_name = args.preset if args.preset else "in_beam_high_rate_clover_130Ba"
+    p = PULSERLT_PRESETS[preset_name]
+    res = run_pulser_live_time_analysis(
+        experiment=p["experiment"],
+        real_time_s=p["real_time_s"],
+        pulser_freq_Hz=p["pulser_frequency_Hz"],
+        recorded_counts=p["pulser_recorded_counts"],
+        hardware_lt=p["hardware_clock_live_time"],
+        physical_peaks=p["physical_peaks"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_pulserlt_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_tsdpes(args):
+    preset_name = args.preset if args.preset else "163Lu_TSD_potential_energy_surface"
+    p = TSDPES_PRESETS[preset_name]
+    res = run_pes_strutinsky_analysis(
+        Z=p["Z"], A=p["A"], spin_I=p.get("spin_I", 0.0), beta4=p["beta4"],
+        shell_amp=p["shell_amp_MeV"], tsd_shell_amp=p["tsd_shell_amp_MeV"],
+        beta2_grid_params=p["beta2_grid"], gamma_grid_params=p["gamma_grid"],
+        nucleus=p["nucleus"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_tsdpes_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5306,6 +5342,20 @@ def main():
     p_aq.add_argument("--energy", type=float, help="Energy in keV")
     p_aq.add_argument("--json", action="store_true", help="Output pure JSON")
     p_aq.set_defaults(func=cmd_attneqk)
+
+    # In-Beam Pulser Injection Live-Time Loss Corrector
+    p_plt = subparsers.add_parser("pulserlt", help="In-beam pulser injection live-time & pileup corrector (Wu Ch 8 / Wang Ch 8)")
+    p_plt.add_argument("--preset", type=str, default="in_beam_high_rate_clover_130Ba",
+                       choices=list(PULSERLT_PRESETS.keys()), help="Benchmark preset")
+    p_plt.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_plt.set_defaults(func=cmd_pulserlt)
+
+    # Triaxial Superdeformed 3D PES Strutinsky Inversion Engine
+    p_tp = subparsers.add_parser("tsdpes", help="Triaxial superdeformed 3D PES Strutinsky engine (Bohr Vol 2 / Ring Ch 2)")
+    p_tp.add_argument("--preset", type=str, default="163Lu_TSD_potential_energy_surface",
+                      choices=list(TSDPES_PRESETS.keys()), help="Benchmark preset")
+    p_tp.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tp.set_defaults(func=cmd_tsdpes)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
