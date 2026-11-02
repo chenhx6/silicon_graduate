@@ -7397,3 +7397,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-18 entry.
 - Added unit test suite `system/tests/test_rdds_ddcm_lifetime.py` (3 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **150 official analysis modules**, all verified passing in 3.0s.
+
+### Davydov-Rostovsky Triaxial Band Mixing Solver (Module 151) 2026-11-04T05:45:00+08:00
+
+- Integrated Davydov-Rostovsky Non-Adiabatic Triaxial Rotor Beta- and Gamma-Band Mixing Engine, Mikhailov Expansion Parameter Inversion & Interband B(E2) Alaga Rule Deviation Suite (`davydov_rostovsky_triaxial_band_mixing_solver.py`):
+  - Based on A. S. Davydov & V. S. Rostovsky (Nucl. Phys. 60, 529, 1964), A. Bohr & B. R. Mottelson *Nuclear Structure* Vol. II §4-2 (pp. 140–165), and W. Greiner & J. A. Maruhn *Nuclear Models* Ch. 6:
+    * Models non-adiabatic centrifugal and Coriolis coupling mixing the ground-state rotational band ($g$) with the $K=0$ $\beta$-vibrational band and $K=2$ $\gamma$-vibrational band.
+    * Formulates Mikhailov expansion $B(E2; 2_\gamma \to 0_g) / B(E2; 2_\gamma \to 2_g) = 0.700 [(1 - 2 z_\gamma)/(1 + z_\gamma)]^2$, inverting the band-mixing parameter $z_\gamma$ directly from measured branching ratios.
+    * Computes microscopic rotation-vibration coupling matrix element $h_2 = z_\gamma [E(2_\gamma) - E(2_g)] / \sqrt{6}$ and non-adiabatic softness $\mu$, predicting interband decay branches to higher-spin yrast states.
+  - Benchmarks:
+    * $^{152}\text{Sm}$ classic rotational-vibrational transitional nucleus ($\mathcal{R}_{\text{exp}} = 0.5400$, $22.86\%$ Alaga deviation): inverts $z_\gamma = +0.04228$, $h_2 = 16.64\text{ keV}$, $\mu = 0.6494$, accurately predicting $B(E2; 2_\gamma \to 4_g) / B(E2; 2_\gamma \to 2_g) = 0.0629$.
+    * $^{130}\text{Ba}$ triaxial $\gamma$-soft nucleus ($\mathcal{R}_{\text{exp}} = 0.485$): captures enhanced band mixing.
+    * Rigid adiabatic rotor reference limit ($\mathcal{R}_{\text{exp}} = 0.700$): strictly yields $z_\gamma \equiv 0.00000$ and $h_2 \equiv 0.00\text{ keV}$, reproducing unperturbed Alaga rules.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `rostovsky`.
+- Created concept page: `knowledge/concepts/davydov-rostovsky-triaxial-band-mixing.md`.
+- Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-12 entry.
+- Added unit test suite `system/tests/test_davydov_rostovsky_mixing.py` (3 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 151.
+
+### In-Beam 2D SNIP Matrix Background Estimator (Module 152) 2026-11-04T06:15:00+08:00
+
+- Integrated In-Beam 2D Gamma-Gamma Coincidence Matrix Sensitive Nonlinear Iterative Peak-Clipping (SNIP) Adaptive Continuous Compton Background Estimation & True Coincidence Extraction Suite (`in_beam_2d_snip_matrix_background_estimator.py`):
+  - Based on 吴治华《原子核物理实验方法》第 10 章 §10.2–10.3 (pp. 250–265), 汪晓莲《粒子探测技术》第 5 章, C. G. Ryan et al. (Nucl. Instrum. Methods B 34, 396, 1988), and M. Morháč et al. (NIM A 401, 113, 1997):
+    * Applies 2D multi-directional non-linear geometric clipping filter on Anscombe variance-stabilized matrices $Z(i, j) = \sqrt{M(i, j) + 3/8}$.
+    * Automatically strips complex 2D Compton scattering continuum and diagonal backscattering ridges without human gating bias or unphysical negative undershoots.
+    * Delivers clean net coincidence matrices $S_{\text{net}} = \max(0, M - B_{\text{snip}})$ with $> 98\%$ peak volume preservation and substantial contrast enhancement.
+  - Benchmarks:
+    * $^{130}\text{Ba}$ $64 \times 64$ coincidence matrix slice: removes $79.59\%$ continuous background volume, extracting genuine $(455, 638)\text{ keV}$ coincidence yield with $\times 26.79$ signal-to-background contrast enhancement.
+    * High-continuum benchmark ($> 85\%$ background): verifies stable continuum stripping.
+    * Isolated Gaussian peak fidelity test: confirms zero peak clipping loss ($> 95\%$ retention).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `snip2d`.
+- Created concept page: `knowledge/concepts/in-beam-2d-snip-matrix-background-estimation.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-19 entry.
+- Added unit test suite `system/tests/test_2d_snip_background.py` (3 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **152 official analysis modules**, all verified passing in 2.9s.

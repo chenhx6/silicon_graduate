@@ -182,6 +182,8 @@ from coriolis_anti_pairing_gap_quenching_moi_engine import calculate_cap_pairing
 from in_beam_array_coincidence_efficiency_angular_matrix_inverter import calculate_mutual_pair_angle, evaluate_directional_correlation_weight
 from tpsm_3d_angular_momentum_projection_diagonalizer import calculate_effective_moi_tpsm, diagonalize_spin_tpsm
 from in_beam_rdds_ddcm_lifetime_inverter import evaluate_ddcm_curve, extract_plateau_lifetime_and_be2
+from davydov_rostovsky_triaxial_band_mixing_solver import invert_gamma_mixing_parameter, calculate_davydov_rostovsky_parameters
+from in_beam_2d_snip_matrix_background_estimator import generate_synthetic_2d_matrix, execute_2d_snip_algorithm
 
 
 def test_heavy_ion_kinematics():
@@ -2017,6 +2019,24 @@ def test_rdds_ddcm_lifetime():
     print("  ✓ in_beam_rdds_ddcm_lifetime_inverter passed.")
 
 
+def test_davydov_rostovsky_mixing():
+    print("Testing davydov_rostovsky_triaxial_band_mixing_solver...")
+    z = invert_gamma_mixing_parameter(0.700)
+    assert abs(z) < 1e-4
+    res = calculate_davydov_rostovsky_parameters(121.8, 1085.9, 684.7, 0.540)
+    assert res["z_gamma_mixing_parameter"] > 0.03
+    print("  ✓ davydov_rostovsky_triaxial_band_mixing_solver passed.")
+
+
+def test_2d_snip_background():
+    print("Testing in_beam_2d_snip_matrix_background_estimator...")
+    peaks = [{"E1_keV": 500.0, "E2_keV": 500.0, "amplitude": 1000.0, "sigma_keV": 2.0}]
+    _, M_raw, _, _, _ = generate_synthetic_2d_matrix(30, 450.0, 550.0, peaks, 50.0)
+    B_snip, S_net, stats = execute_2d_snip_algorithm(M_raw, p_max=3)
+    assert stats["background_fraction_pct"] > 30.0
+    print("  ✓ in_beam_2d_snip_matrix_background_estimator passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2529,4 +2549,6 @@ if __name__ == "__main__":
     test_array_coincidence_efficiency()
     test_tpsm_3d_projection()
     test_rdds_ddcm_lifetime()
+    test_davydov_rostovsky_mixing()
+    test_2d_snip_background()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

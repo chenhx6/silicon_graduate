@@ -168,6 +168,8 @@ from coriolis_anti_pairing_gap_quenching_moi_engine import run_cap_analysis, for
 from in_beam_array_coincidence_efficiency_angular_matrix_inverter import run_coincidence_matrix_analysis, format_text_report as format_coineff_report, PRESETS as COINEFF_PRESETS
 from tpsm_3d_angular_momentum_projection_diagonalizer import run_tpsm_analysis, format_text_report as format_tpsmproj_report, PRESETS as TPSMPROJ_PRESETS
 from in_beam_rdds_ddcm_lifetime_inverter import run_rdds_ddcm_analysis, format_text_report as format_rddsddcm_report, PRESETS as RDDSDDCM_PRESETS
+from davydov_rostovsky_triaxial_band_mixing_solver import run_davydov_rostovsky_analysis, format_text_report as format_rostovsky_report, PRESETS as ROSTOVSKY_PRESETS
+from in_beam_2d_snip_matrix_background_estimator import run_2d_snip_analysis, format_text_report as format_snip2d_report, PRESETS as SNIP2D_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3875,6 +3877,42 @@ def cmd_rddsddcm(args):
     else:
         print(format_rddsddcm_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
+
+def cmd_rostovsky(args):
+    preset_name = args.preset if args.preset else "152Sm_classic_transitional_nucleus"
+    p = ROSTOVSKY_PRESETS[preset_name]
+    res = run_davydov_rostovsky_analysis(
+        nucleus=p["nucleus"],
+        E_2g=p["E_2g_keV"],
+        E_4g=p["E_4g_keV"],
+        E_2gamma=p["E_2gamma_keV"],
+        E_0beta=p["E_0beta_keV"],
+        exp_ratio=p["exp_be2_gamma_ratio"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_rostovsky_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_snip2d(args):
+    preset_name = args.preset if args.preset else "130Ba_gated_matrix_slice_snip"
+    p = SNIP2D_PRESETS[preset_name]
+    res = run_2d_snip_analysis(
+        matrix_dim=p["matrix_dim"],
+        E_min=p["energy_min_keV"],
+        E_max=p["energy_max_keV"],
+        peaks=p["peaks"],
+        bkg_base=p["compton_continuum_base"],
+        p_max=p.get("clipping_window_pmax", 6)
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_snip2d_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5462,6 +5500,20 @@ def main():
                       choices=list(RDDSDDCM_PRESETS.keys()), help="Benchmark preset")
     p_rd.add_argument("--json", action="store_true", help="Output pure JSON")
     p_rd.set_defaults(func=cmd_rddsddcm)
+
+    # Davydov-Rostovsky Non-Adiabatic Triaxial Beta/Gamma Band Mixing Solver
+    p_dr = subparsers.add_parser("rostovsky", help="Davydov-Rostovsky triaxial band mixing & Alaga deviation (Bohr Vol 2 / Davydov)")
+    p_dr.add_argument("--preset", type=str, default="152Sm_classic_transitional_nucleus",
+                      choices=list(ROSTOVSKY_PRESETS.keys()), help="Benchmark preset")
+    p_dr.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_dr.set_defaults(func=cmd_rostovsky)
+
+    # In-Beam 2D SNIP Matrix Background Estimator
+    p_sn = subparsers.add_parser("snip2d", help="In-beam 2D SNIP matrix adaptive background estimator (Wu Ch 10 / Ryan NIMB)")
+    p_sn.add_argument("--preset", type=str, default="130Ba_gated_matrix_slice_snip",
+                      choices=list(SNIP2D_PRESETS.keys()), help="Benchmark preset")
+    p_sn.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_sn.set_defaults(func=cmd_snip2d)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
