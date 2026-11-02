@@ -136,6 +136,8 @@ from mariscotti_vmi_rotational_stretching_calculator import solve_vmi_cubic_moi,
 from seniority_scheme_half_filled_isomer_calculator import calculate_seniority_fractional_factor, evaluate_seniority_isomer_properties
 from constant_fraction_discriminator_fast_timing_calculator import simulate_cfd_walk_elimination, calculate_fast_timing_resolution
 from grodzins_deformation_beta2_quadrupole_inverter import invert_beta2_and_quadrupole
+from cranked_shell_model_band_crossing_v12_inverter import calculate_two_band_crossing_csm, invert_v12_from_experimental_routhians
+from optical_model_potential_reaction_cross_section_calculator import calculate_optical_model_reaction_cross_section
 
 
 def test_heavy_ion_kinematics():
@@ -1705,6 +1707,40 @@ def test_constant_fraction_discriminator_calculator():
     print("  ✓ constant_fraction_discriminator_fast_timing_calculator passed.")
 
 
+def test_cranked_shell_model_band_crossing_calculator():
+    print("Testing cranked_shell_model_band_crossing_v12_inverter...")
+    # 164Er two-band avoided crossing benchmark
+    csm = calculate_two_band_crossing_csm(omega_c_MeV=0.280, V12_keV=90.0, i_align_hbar=10.0)
+    assert abs(csm["minimum_splitting_Delta_e_keV"] - 180.0) < 0.1, "Avoided crossing splitting Delta_e = 2*|V12|"
+    assert csm["crossing_classification"].startswith("Smooth Upbending")
+
+    # Verify 50/50 mixing at crossing
+    for pt in csm["profile"]:
+        if abs(pt["omega_MeV"] - 0.280) < 1e-4:
+            assert abs(pt["g_band_percentage"] - 50.0) < 0.5, "50/50 configuration mixing at crossing"
+            assert abs(pt["splitting_keV"] - 180.0) < 0.5
+
+    # Inversion test
+    w_list = [0.26, 0.27, 0.28, 0.29, 0.30]
+    e_yr = [-1156.5, -1271.2, -1404.3, -1558.5, -1729.4]
+    e_yrar = [-912.6, -1073.7, -1224.3, -1361.9, -1491.2]
+    inv = invert_v12_from_experimental_routhians(w_list, e_yr, e_yrar)
+    assert abs(inv["inverted_V12_keV"] - 90.0) < 0.1, "Inverted |V12| = 90 keV"
+    print("  ✓ cranked_shell_model_band_crossing_v12_inverter passed.")
+
+
+def test_optical_model_potential_reaction_calculator():
+    print("Testing optical_model_potential_reaction_cross_section_calculator...")
+    # 40 MeV p + 58Ni reaction cross section benchmark (~ 1090 mb)
+    omp = calculate_optical_model_reaction_cross_section(
+        Z_p=1, A_p=1, Z_t=28, A_t=58, E_lab_MeV=40.0,
+        V0_MeV=45.0, W0_volume_MeV=10.0, Ws_surface_MeV=3.0
+    )
+    assert abs(omp["total_reaction_cross_section_sigma_R_mb"] - 1094.0) < 20.0, "40 MeV p+58Ni reaction cross section"
+    assert omp["nuclear_opacity_ratio"] > 1.0, "Nuclear opacity ratio > 1.0"
+    print("  ✓ optical_model_potential_reaction_cross_section_calculator passed.")
+
+
 def test_grodzins_deformation_inverter():
     print("Testing grodzins_deformation_beta2_quadrupole_inverter...")
     # 154Sm rotor benchmark
@@ -1928,4 +1964,6 @@ if __name__ == "__main__":
     test_seniority_scheme_half_filled_isomer_calculator()
     test_constant_fraction_discriminator_calculator()
     test_grodzins_deformation_inverter()
+    test_cranked_shell_model_band_crossing_calculator()
+    test_optical_model_potential_reaction_calculator()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

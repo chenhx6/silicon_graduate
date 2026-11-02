@@ -6602,3 +6602,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` with LU-9 entry.
 - Added unit test suite `system/tests/test_grodzins_deformation_inverter.py` (5 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **104 official analysis modules**, all verified passing in 4.2s.
+
+### Cranked Shell Model (CSM) Two-Band Crossing & |V_12| Inverter (Module 105) 2026-11-03T06:45:00+08:00
+
+- Integrated Cranked Shell Model (CSM) Two-Band Crossing, Avoided Crossing Routhians $e'(\omega)$ and Interaction Matrix Element $|V_{12}|$ Inverter (`cranked_shell_model_band_crossing_v12_inverter.py`):
+  - Based on R. Bengtsson and S. Frauendorf (Nucl. Phys. A 327, 139, 1979), Bohr & Mottelson Vol. II §4-3, and F. S. Stephens (Rev. Mod. Phys. 47, 43, 1975):
+    * Constructs $2 \times 2$ diabatic mixing Hamiltonian coupling the ground band ($|1\rangle$) and aligned Stockholm band ($|2\rangle$, broken high-$j$ pair with alignment $i_2$).
+    * Diagonalizes adiabatic Routhians $e_{\pm}'(\omega)$, proving that the minimum avoided crossing splitting equals exactly $\Delta e'_{\text{min}} = 2 |V_{12}|$, corresponding to 50/50 configuration mixing.
+    * Establishes the classification boundary: weak interaction ($|V_{12}| < 35\text{ keV}$) produces sharp S-shaped backbending (e.g. $^{156}\text{Dy}, ^{158}\text{Er}$); strong interaction ($|V_{12}| \ge 65\text{ keV}$) produces smooth upbending without backward frequency loops (e.g. $^{164}\text{Er}, ^{168}\text{Yb}$).
+    * Provides exact inversion of $|V_{12}|$ and crossing frequency $\hbar\omega_c$ from experimental avoided crossing level energies.
+  - Benchmarks:
+    * $^{164}\text{Er}$ ($i_{13/2}$ neutron crossing): $\hbar\omega_c = 0.280\text{ MeV}, \Delta i_x = 10.0\ \hbar, |V_{12}| = 90.0\text{ keV} \implies \Delta e'_{\text{min}} = 180.0\text{ keV}$, classified as smooth upbending.
+    * $^{156}\text{Dy}$ ($i_{13/2}$ neutron crossing): $\hbar\omega_c = 0.290\text{ MeV}, |V_{12}| = 20.0\text{ keV} \implies \Delta e'_{\text{min}} = 40.0\text{ keV}$, classified as sharp backbending.
+    * $^{134}\text{Nd}$ ($h_{11/2}$ proton crossing in $A \sim 130$ region): $\hbar\omega_c = 0.320\text{ MeV}, |V_{12}| = 45.0\text{ keV}, \Delta i_x = 7.5\ \hbar$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `csm`.
+- Created concept page: `knowledge/concepts/cranked-shell-model-band-crossing-and-v12-interaction.md`.
+- Added unit test suite `system/tests/test_cranked_shell_model_crossing.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 105.
+
+### Nuclear Optical Model Potential (OMP) & Reaction Cross Section (Module 106) 2026-11-03T07:15:00+08:00
+
+- Integrated Nuclear Optical Model Potential (OMP), S-Matrix Transmission Functions $T(b)$ & Total Reaction Cross Section Suite (`optical_model_potential_reaction_cross_section_calculator.py`):
+  - Based on C. A. Bertulani & P. Danielewicz, *Introduction to Nuclear Reactions* (CRC 2021) Ch. 3, 卢希庭《原子核物理（修订版）》第 9 章 §9.3 (印刷 pp. 248–254 / PDF pp. 258–264), and 林承键《重离子核反应》第 2 章:
+    * Complex Woods-Saxon optical potential $U(r) = -V_0 f_v(r) - i W_0 f_w(r) - i 4 a_s W_s [-d/dr f_s(r)] + V_C(r)$.
+    * Semiclassical eikonal WKB phase shift integration along impact parameter trajectories $\chi(b) = -\frac{1}{\hbar v} \int_{-\infty}^\infty U(\sqrt{b^2 + z^2}) dz$.
+    * Evaluates S-matrix absorption transmission $T(b) = 1 - |\eta(b)|^2 = 1 - \exp[-2\text{Im}(\chi(b))]$ and integrates total reaction cross section $\sigma_R = 2\pi \int b T(b) db$.
+    * Compares with geometric hard-sphere black-disc limit $\pi(R+a)^2$ and evaluates nuclear opacity ratio.
+  - Benchmarks:
+    * $40\text{ MeV}$ proton on $^{58}\text{Ni}$ ($Z_t=28, A_t=58$): $R_{\text{target}} = 4.84\text{ fm}, a = 0.65\text{ fm}, V_0 = 45.0\text{ MeV}, W_0 = 10.0\text{ MeV}, W_s = 3.0\text{ MeV} \implies \sigma_R = 1093.9\text{ mb}$, matching experimental reaction cross section evaluations.
+    * $T(b)$ profiles confirm black-disc central absorption ($T \approx 0.98$) transitioning smoothly to peripheral direct reaction transparency ($T \to 0$ for $b > R+2a$).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `omp`.
+- Created concept page: `knowledge/concepts/optical-model-potential-and-reaction-cross-section.md`.
+- Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` with LU-10 entry.
+- Added unit test suite `system/tests/test_optical_model_reaction_cross_section.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **106 official analysis modules**, all verified passing in 4.3s.

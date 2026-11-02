@@ -122,6 +122,8 @@ from mariscotti_vmi_rotational_stretching_calculator import calculate_vmi_spectr
 from seniority_scheme_half_filled_isomer_calculator import calculate_seniority_fractional_factor, evaluate_seniority_isomer_properties, format_text_report as format_seniority_report
 from constant_fraction_discriminator_fast_timing_calculator import simulate_cfd_walk_elimination, calculate_fast_timing_resolution, format_text_report as format_cfd_report
 from grodzins_deformation_beta2_quadrupole_inverter import invert_beta2_and_quadrupole, format_text_report as format_grodzins_report
+from cranked_shell_model_band_crossing_v12_inverter import calculate_two_band_crossing_csm, invert_v12_from_experimental_routhians, format_text_report as format_csm_report
+from optical_model_potential_reaction_cross_section_calculator import calculate_optical_model_reaction_cross_section, format_text_report as format_omp_report
 
 
 def cmd_kinematics(args):
@@ -2368,6 +2370,54 @@ def cmd_grodzins(args):
         print(format_grodzins_report(res))
 
 
+def cmd_csm(args):
+    w_c = args.omega_c
+    v12_val = args.v12
+    i_val = args.align
+
+    if args.preset == "164Er_neutron_crossing":
+        w_c, v12_val, i_val = 0.280, 90.0, 10.0
+    elif args.preset == "156Dy_sharp_backbend":
+        w_c, v12_val, i_val = 0.290, 20.0, 10.5
+    elif args.preset == "134Nd_proton_crossing":
+        w_c, v12_val, i_val = 0.320, 45.0, 7.5
+
+    res = calculate_two_band_crossing_csm(w_c, v12_val, i_val)
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_csm_report(res))
+
+
+def cmd_omp(args):
+    zp, ap = args.Zp, args.Ap
+    zt, at = args.Zt, args.At
+    elab = args.Elab
+    v0, w0, ws = args.V0, args.W0, args.Ws
+
+    if args.preset == "40MeV_p_58Ni":
+        zp, ap, zt, at, elab = 1, 1, 28, 58, 40.0
+        v0, w0, ws = 45.0, 10.0, 3.0
+    elif args.preset == "100MeV_alpha_58Ni":
+        zp, ap, zt, at, elab = 2, 4, 28, 58, 100.0
+        v0, w0, ws = 100.0, 20.0, 5.0
+    elif args.preset == "16O_208Pb_fusion_om":
+        zp, ap, zt, at, elab = 8, 16, 82, 208, 90.0
+        v0, w0, ws = 50.0, 15.0, 0.0
+
+    res = calculate_optical_model_reaction_cross_section(
+        zp, ap, zt, at, elab, V0_MeV=v0, W0_volume_MeV=w0, Ws_surface_MeV=ws
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_omp_report(res))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3518,6 +3568,29 @@ def main():
     p_grod.add_argument("--E2", type=float, default=82.0, help="E(2_1^+) in keV")
     p_grod.add_argument("--json", action="store_true", help="Output pure JSON")
     p_grod.set_defaults(func=cmd_grodzins)
+
+    # Cranked Shell Model (CSM) Two-Band Crossing & |V_12| Inverter
+    p_csm = subparsers.add_parser("csm", help="CSM two-band crossing, avoided crossing Routhians & |V_12| inverter (Bengtsson-Frauendorf 1979)")
+    p_csm.add_argument("--preset", type=str, default="164Er_neutron_crossing", choices=["164Er_neutron_crossing", "156Dy_sharp_backbend", "134Nd_proton_crossing", "custom"], help="Benchmark preset")
+    p_csm.add_argument("--omega-c", type=float, default=0.28, help="Crossing frequency in MeV")
+    p_csm.add_argument("--v12", type=float, default=90.0, help="Interaction V12 in keV")
+    p_csm.add_argument("--align", type=float, default=10.0, help="Aligned angular momentum in hbar")
+    p_csm.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_csm.set_defaults(func=cmd_csm)
+
+    # Nuclear Optical Model Potential (OMP) Reaction Cross Section
+    p_omp = subparsers.add_parser("omp", help="Nuclear Optical Model Potential (OMP), S-matrix & reaction cross section (Bertulani Ch 3 / Lu §9.3)")
+    p_omp.add_argument("--preset", type=str, default="40MeV_p_58Ni", choices=["40MeV_p_58Ni", "100MeV_alpha_58Ni", "16O_208Pb_fusion_om", "custom"], help="Benchmark preset")
+    p_omp.add_argument("--Zp", type=int, default=1, help="Projectile Z")
+    p_omp.add_argument("--Ap", type=int, default=1, help="Projectile A")
+    p_omp.add_argument("--Zt", type=int, default=28, help="Target Z")
+    p_omp.add_argument("--At", type=int, default=58, help="Target A")
+    p_omp.add_argument("--Elab", type=float, default=40.0, help="Beam energy in MeV")
+    p_omp.add_argument("--V0", type=float, default=45.0, help="Real well V0 in MeV")
+    p_omp.add_argument("--W0", type=float, default=10.0, help="Imag volume W0 in MeV")
+    p_omp.add_argument("--Ws", type=float, default=3.0, help="Imag surface Ws in MeV")
+    p_omp.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_omp.set_defaults(func=cmd_omp)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

@@ -68,6 +68,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `seniority` | 原子核 Seniority (v) 代数方案、半满壳 n=j+1/2 处 B(E2) 严格相消与代数异能态寿命计算 | 纯单 j 壳层有效；多轨道组态混合与微观核芯极化需引入有效电荷 |
 | `cfd` | 恒比定时甄别器（CFD）最佳延迟 t_d=tr*(1-f) 过零幅度游走消除与快速定时时间分辨 | 假设脉冲波形尺度不变；同轴 HPGe 漂移时间弥散需结合 ARC 定时 |
 | `grodzins` | Grodzins 乘积定则 E(2+)*B(E2)、四极形变 beta_2 反演与 BCS 超流转动惯量淬灭比 | 轴对称 K=0 带头假设；双幻核壳封闭处 Grodzins 经验定则失效 |
+| `csm` | 推转壳模型（CSM）双带回避交叉、相互作用矩阵元 |V_12| 反演与回弯/上弯分类 | 双态截断有效；多对准粒子多重交叉需全对角化 CSM |
+| `omp` | 核光学模型势（OMP）Woods-Saxon 径迹积分、S 矩阵透射率 T(b) 与全反应截面 | 半经典直角径迹近似；极低能库仑偏折显著能区需分波偏相移求和 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -85,6 +87,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py vmi --preset 168Er --json
 python3 system/scripts/analysis/nuclear_analyzer.py seniority --preset 130Sn_h11/2 --json
 python3 system/scripts/analysis/nuclear_analyzer.py cfd --preset labr3_fast_timing --json
 python3 system/scripts/analysis/nuclear_analyzer.py grodzins --preset 154Sm --json
+python3 system/scripts/analysis/nuclear_analyzer.py csm --preset 164Er_neutron_crossing --json
+python3 system/scripts/analysis/nuclear_analyzer.py omp --preset 40MeV_p_58Ni --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 
