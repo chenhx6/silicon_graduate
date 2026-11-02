@@ -182,6 +182,8 @@ from in_beam_spin_alignment_sigma_mixing_ratio_extractor import run_spin_alignme
 from multiple_chiral_doublets_mchid_discriminator import run_mchid_arbitration, format_text_report as format_mchiddis_report, PRESETS as MCHIDDIS_PRESETS
 from in_beam_charged_particle_pid_delta_e_telescope_inverter import run_particle_pid_analysis, format_text_report as format_pidtele_report, PRESETS as PIDTELE_PRESETS
 from triaxial_two_rotor_scissors_mode_m1_solver import run_scissors_mode_analysis, format_text_report as format_scissm1_report, PRESETS as SCISSM1_PRESETS
+from hpge_neutron_damage_hole_trapping_corrector import run_trapping_correction_analysis, format_text_report as format_trapcorr_report, PRESETS as TRAPCORR_PRESETS
+from multiphonon_wobbling_anharmonic_spectrum_solver import run_multiphonon_wobbling_analysis, format_text_report as format_multiphwob_report, PRESETS as MULTIPHWOB_PRESETS
 
 
 def cmd_kinematics(args):
@@ -4171,6 +4173,48 @@ def cmd_scissm1(args):
         print(format_scissm1_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
 
+def cmd_trapcorr(args):
+    preset_name = args.preset if args.preset else "moderate_neutron_damage_1332keV"
+    p = TRAPCORR_PRESETS[preset_name]
+    e_val = args.energy if hasattr(args, "energy") and args.energy is not None else p["E_true_keV"]
+    tau_h = args.tau_h if hasattr(args, "tau_h") and args.tau_h is not None else p["hole_lifetime_us"]
+    res = run_trapping_correction_analysis(
+        detector=p.get("detector", "Generic HPGe"),
+        E_true_keV=e_val,
+        fwhm_undamaged_keV=p["fwhm_undamaged_keV"],
+        hole_lifetime_us=tau_h,
+        detector_depth_cm=p["detector_depth_cm"],
+        t_r_min_ns=p["t_r_min_ns"],
+        n_events=p.get("n_events", 20000)
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_trapcorr_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_multiphwob(args):
+    preset_name = args.preset if args.preset else "163Lu_TSD2_two_phonon_benchmark"
+    p = MULTIPHWOB_PRESETS[preset_name]
+    sp = args.spin if hasattr(args, "spin") and args.spin is not None else p["spin"]
+    om = args.omega if hasattr(args, "omega") and args.omega is not None else p["hbar_omega_w_keV"]
+    g4 = args.g4 if hasattr(args, "g4") and args.g4 is not None else p["g4_anharmonicity_keV"]
+    res = run_multiphonon_wobbling_analysis(
+        nucleus=p.get("nucleus", "Generic"),
+        spin=sp,
+        hbar_omega_w_keV=om,
+        g4_anharmonicity_keV=g4,
+        mixing_epsilon=p.get("mixing_epsilon", 0.12),
+        B_E2_in_e2b2=p.get("B_E2_in_e2b2", 9.5)
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_multiphwob_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5865,6 +5909,25 @@ def main():
     p_sm.add_argument("--bsym", type=float, help="Volume symmetry energy b_sym (MeV)")
     p_sm.add_argument("--json", action="store_true", help="Output pure JSON")
     p_sm.set_defaults(func=cmd_scissm1)
+
+    # HPGe Neutron Damage Hole Trapping Digital Corrector
+    p_tc = subparsers.add_parser("trapcorr", help="HPGe neutron damage hole trapping digital corrector (Wu Ch 8 / Wang Ch 8)")
+    p_tc.add_argument("--preset", type=str, default="moderate_neutron_damage_1332keV",
+                      choices=list(TRAPCORR_PRESETS.keys()), help="Benchmark preset")
+    p_tc.add_argument("--energy", type=float, help="True gamma-ray energy (keV)")
+    p_tc.add_argument("--tau-h", type=float, help="Effective hole lifetime tau_h (microseconds)")
+    p_tc.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tc.set_defaults(func=cmd_trapcorr)
+
+    # Multiphonon Wobbling Anharmonic Spectrum Solver
+    p_mw = subparsers.add_parser("multiphwob", help="Multiphonon wobbling anharmonic spectrum solver (Bohr Vol 2 / Petrache Ch 2,4)")
+    p_mw.add_argument("--preset", type=str, default="163Lu_TSD2_two_phonon_benchmark",
+                      choices=list(MULTIPHWOB_PRESETS.keys()), help="Benchmark preset")
+    p_mw.add_argument("--spin", type=float, help="Total spin I (hbar)")
+    p_mw.add_argument("--omega", type=float, help="Fundamental wobbling frequency (keV)")
+    p_mw.add_argument("--g4", type=float, help="Quartic anharmonicity parameter g4 (keV)")
+    p_mw.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_mw.set_defaults(func=cmd_multiphwob)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

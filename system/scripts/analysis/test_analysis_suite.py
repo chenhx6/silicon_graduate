@@ -196,6 +196,8 @@ from in_beam_spin_alignment_sigma_mixing_ratio_extractor import SpinAlignmentMix
 from multiple_chiral_doublets_mchid_discriminator import MultipleChiralDoubletsDiscriminator, PRESETS as MCHID_PRESETS
 from in_beam_charged_particle_pid_delta_e_telescope_inverter import ChargedParticlePIDInverter
 from triaxial_two_rotor_scissors_mode_m1_solver import TriaxialScissorsModeM1Solver
+from hpge_neutron_damage_hole_trapping_corrector import HPGeneutronDamageTrappingCorrector
+from multiphonon_wobbling_anharmonic_spectrum_solver import MultiphononWobblingSolver
 
 
 def test_heavy_ion_kinematics():
@@ -2162,6 +2164,24 @@ def test_triaxial_scissors_mode():
     print("  ✓ triaxial_two_rotor_scissors_mode_m1_solver passed.")
 
 
+def test_hpge_neutron_trapping():
+    print("Testing hpge_neutron_damage_hole_trapping_corrector...")
+    corrector = HPGeneutronDamageTrappingCorrector(E_true_keV=1332.5, hole_lifetime_us=10.0)
+    res = corrector.execute_restoration(n_events=12000)
+    assert res["is_resolution_recovered"]
+    assert res["fwhm_improvement_percent"] > 5.0
+    print("  ✓ hpge_neutron_damage_hole_trapping_corrector passed.")
+
+
+def test_multiphonon_wobbling_solver():
+    print("Testing multiphonon_wobbling_anharmonic_spectrum_solver...")
+    solver = MultiphononWobblingSolver(spin=23.5, hbar_omega_w_keV=280.0, g4_anharmonicity_keV=-35.0)
+    res = solver.solve_multiphonon_properties()
+    assert res["is_two_phonon_confirmed"]
+    assert 1.50 < res["energy_ratio_R21"] < 1.90
+    print("  ✓ multiphonon_wobbling_anharmonic_spectrum_solver passed.")
+
+
 def test_hpge_energy_non_linearity():
     print("Testing hpge_energy_non_linearity_inl_dnl_calibrator...")
     from scipy.interpolate import UnivariateSpline
@@ -2701,4 +2721,6 @@ if __name__ == "__main__":
     test_multiple_chiral_doublets_mchid()
     test_charged_particle_pid()
     test_triaxial_scissors_mode()
+    test_hpge_neutron_trapping()
+    test_multiphonon_wobbling_solver()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")
