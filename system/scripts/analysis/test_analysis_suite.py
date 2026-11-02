@@ -158,6 +158,8 @@ from coriolis_band_mixing_matrix_diagonalizer import construct_coriolis_matrix, 
 from spontaneous_fission_wkb_action_calculator import calculate_sf_hill_wheeler_transmission, calculate_double_hump_sf_half_life
 from particle_triaxial_rotor_model_ptrm_diagonalizer import evaluate_ptrm_matrix_elements, diagonalize_ptrm_spectrum
 from digital_mwd_baseline_restorer_filter import run_mwd_blr_analysis
+from in_beam_fast_timing_gcd_lifetime_calculator import calculate_prf_walk, calculate_gcd_lifetime
+from chiral_doublet_g_factor_equality_calculator import calculate_theoretical_chiral_gfactor, arbitrate_chiral_gfactor_equality
 
 
 def test_heavy_ion_kinematics():
@@ -1808,6 +1810,27 @@ def test_level_scheme_loop_balancer():
     print("  ✓ level_scheme_loop_residual_intensity_balancer passed.")
 
 
+def test_fast_timing_gcd():
+    print("Testing in_beam_fast_timing_gcd_lifetime_calculator...")
+    w_feed = calculate_prf_walk(600.0)
+    w_decay = calculate_prf_walk(400.0)
+    delta_w = w_feed - w_decay
+    res = calculate_gcd_lifetime(C1_ps=delta_w + 50.0, C2_ps=-delta_w - 50.0,
+                                 sigma_C1_ps=1.0, sigma_C2_ps=1.0,
+                                 E_feed_keV=600.0, E_decay_keV=400.0)
+    assert abs(res["tau_extracted_ps"] - 50.0) < 1e-2
+    print("  ✓ in_beam_fast_timing_gcd_lifetime_calculator passed.")
+
+
+def test_chiral_gfactor_equality():
+    print("Testing chiral_doublet_g_factor_equality_calculator...")
+    theo = calculate_theoretical_chiral_gfactor(128, 55, 11.0, 5.5, 5.5)
+    assert theo["g_chiral_theoretical"] > 0.40
+    arb = arbitrate_chiral_gfactor_equality(0.58, 0.04, 0.56, 0.05)
+    assert arb["status"] == "chiral_equality_confirmed"
+    print("  ✓ chiral_doublet_g_factor_equality_calculator passed.")
+
+
 def test_ptrm_diagonalizer():
     print("Testing particle_triaxial_rotor_model_ptrm_diagonalizer...")
     H, basis = evaluate_ptrm_matrix_elements(7.5, 5.5, 15.0, 26.0, 6.0, 35.0, 26.0)
@@ -2253,4 +2276,6 @@ if __name__ == "__main__":
     test_spontaneous_fission_action()
     test_ptrm_diagonalizer()
     test_mwd_baseline_restorer()
+    test_fast_timing_gcd()
+    test_chiral_gfactor_equality()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

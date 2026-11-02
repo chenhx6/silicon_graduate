@@ -119,6 +119,7 @@ tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 | PETR-4 | 陈启博等协变密度泛函理论与粒子转子模型（CDFT+PRM）对多重手征带的微观描述：同一核内基于不同多准粒子组态（4-qp 基态组态与 4-qp 激发组态）或不同形变极小共存两对以上独立手征双重能带（M$\chi$D），给出能级简并度、平滑无交错 $S(I)$ 参数与带间跃迁受阻规律。 | model-result | direct | Ch. 10, PDF pp. 222–238 | false |
 | PETR-5 | 赵鹏巍与陈启博等含时协变密度泛函与配对微观 3D TAC：推导 Coriolis 反配对（CAP）与泡利阻塞引起的动态配对能隙淬灭 $\Delta(J)$，给出配对依赖的微观转动惯量 $\mathcal{J}_k(\Delta)$ 沿中间轴膨胀机制，量化低自旋平面相、中高自旋非平面手征分叉相与极高自旋（$I \ge 24^+$）手征恢复（Chiral Restoration）相变全动力学过程。 | model-result | direct | Ch. 9, PDF pp. 204–221; Ch. 10, PDF pp. 222–238 | false |
 | PETR-6 | Meyer-ter-Vehn 与 Hamamoto 粒子-三轴转子模型（PTRM）完全代数对角化：在 $D_2$ 对称化基底 $|I M K j \Omega, \alpha\rangle$ 中严格对角化粒子-转子耦合哈密顿量 $H = \sum \frac{(I_k - j_k)^2}{2\mathcal{J}_k} + H_{\text{sp}}(\beta_2, \gamma)$，给出摆动激发频率 $\hbar\omega_w$、非简谐比率 $R_{21}$ 及多声子分支比，消除了高自旋简谐近似在低自旋区域的截断失效。 | model-result | direct | Ch. 2, PDF pp. 43–80; Ch. 8, PDF pp. 167–203 | false |
+| PETR-7 | Grodner 手征孪生带磁偶极矩 $g$ 因子相等性定理：时间反演对称破缺下左右手态波函数的对称/反对称恢复叠加消除了偶极交叉项，证明真正的核手征双重带在各自旋能态上的回旋比必须严格相等 $g(\text{Band 1}, I) \equiv g(\text{Band 2}, I)$；在 $^{128}\text{Cs}$ 实测 $I=11^+$ 孪生态获得首个严格实验证实（$g_1=+0.58(4), g_2=+0.56(5)$），为排他性仲裁伪手征带建立金标准。 | model-result | direct | Ch. 7, PDF pp. 156–166 | false |
 
 
 ## Extracted Pages

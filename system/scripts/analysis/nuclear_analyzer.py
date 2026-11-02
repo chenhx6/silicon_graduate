@@ -144,6 +144,8 @@ from coriolis_band_mixing_matrix_diagonalizer import run_coriolis_analysis, form
 from spontaneous_fission_wkb_action_calculator import run_spontaneous_fission_analysis, format_text_report as format_sf_report, PRESETS as SPONTFISS_PRESETS
 from particle_triaxial_rotor_model_ptrm_diagonalizer import run_ptrm_analysis, format_text_report as format_ptrm_report, PRESETS as PTRM_PRESETS
 from digital_mwd_baseline_restorer_filter import run_mwd_blr_analysis, format_text_report as format_mwd_report, PRESETS as MWD_PRESETS
+from in_beam_fast_timing_gcd_lifetime_calculator import run_fast_timing_gcd_analysis, format_text_report as format_gcd_report, PRESETS as GCD_PRESETS
+from chiral_doublet_g_factor_equality_calculator import run_chiral_gfactor_analysis, format_text_report as format_chiralg_report, PRESETS as CHIRALG_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3197,6 +3199,109 @@ def cmd_mwdblr(args):
     else:
         print(format_mwd_report(res, title=title))
 
+
+def cmd_gcd(args):
+    if args.preset and args.preset in GCD_PRESETS:
+        p = GCD_PRESETS[args.preset]
+        nucleus = p["nucleus"]
+        A_mass = p["A_mass"]
+        E_feed = p["E_feed_keV"]
+        E_decay = p["E_decay_keV"]
+        c1 = p["C1_ps"]
+        sig1 = p.get("sigma_C1_ps", 2.0)
+        c2 = p["C2_ps"]
+        sig2 = p.get("sigma_C2_ps", 2.0)
+        a0 = p.get("a0_walk", 450.0)
+        c0 = p.get("c0_walk", -0.020)
+        alpha_tot = p.get("alpha_tot", 0.0)
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        nucleus = args.nucleus if hasattr(args, "nucleus") and args.nucleus else "Nucleus"
+        A_mass = args.mass_a if hasattr(args, "mass_a") and args.mass_a else 134
+        E_feed = args.efeed if hasattr(args, "efeed") and args.efeed else 638.0
+        E_decay = args.edecay if hasattr(args, "edecay") and args.edecay else 409.0
+        c1 = args.c1 if hasattr(args, "c1") and args.c1 is not None else 75.4
+        sig1 = args.sigc if hasattr(args, "sigc") and args.sigc else 2.0
+        c2 = args.c2 if hasattr(args, "c2") and args.c2 is not None else -72.6
+        sig2 = args.sigc if hasattr(args, "sigc") and args.sigc else 2.0
+        a0 = 450.0
+        c0 = -0.020
+        alpha_tot = 0.022
+        title = "Custom User Input"
+
+    res = run_fast_timing_gcd_analysis(
+        nucleus=nucleus,
+        A_mass=A_mass,
+        E_feed_keV=E_feed,
+        E_decay_keV=E_decay,
+        C1_ps=c1,
+        sigma_C1_ps=sig1,
+        C2_ps=c2,
+        sigma_C2_ps=sig2,
+        a0_walk=a0,
+        c0_walk=c0,
+        alpha_tot=alpha_tot
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_gcd_report(res, title=title))
+
+
+def cmd_chiralg(args):
+    if args.preset and args.preset in CHIRALG_PRESETS:
+        p = CHIRALG_PRESETS[args.preset]
+        nuc = p["nucleus"]
+        A = p["A_mass"]
+        Z = p["Z_charge"]
+        spin_I = p["spin_I"]
+        jp = p["j_proton"]
+        jn = p["j_neutron"]
+        gp = p.get("g_proton", 1.30)
+        gn = p.get("g_neutron", -0.20)
+        g1 = p["g1_measured"]
+        sig1 = p["sigma_g1"]
+        g2 = p["g2_measured"]
+        sig2 = p["sigma_g2"]
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        nuc = args.nucleus if hasattr(args, "nucleus") and args.nucleus else "128Cs"
+        A = args.mass_a if hasattr(args, "mass_a") and args.mass_a else 128
+        Z = args.charge_z if hasattr(args, "charge_z") and args.charge_z else 55
+        spin_I = args.spin_i if hasattr(args, "spin_i") and args.spin_i else 11.0
+        jp = args.jp if hasattr(args, "jp") and args.jp else 5.5
+        jn = args.jn if hasattr(args, "jn") and args.jn else 5.5
+        gp = 1.30
+        gn = -0.20
+        g1 = args.g1 if hasattr(args, "g1") and args.g1 is not None else 0.58
+        sig1 = args.sig1 if hasattr(args, "sig1") and args.sig1 else 0.04
+        g2 = args.g2 if hasattr(args, "g2") and args.g2 is not None else 0.56
+        sig2 = args.sig2 if hasattr(args, "sig2") and args.sig2 else 0.05
+        title = "Custom User Input"
+
+    res = run_chiral_gfactor_analysis(
+        nucleus=nuc,
+        A_mass=A,
+        Z_charge=Z,
+        spin_I=spin_I,
+        j_p=jp,
+        j_n=jn,
+        g1=g1,
+        sigma1=sig1,
+        g2=g2,
+        sigma2=sig2,
+        g_p=gp,
+        g_n=gn
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_chiralg_report(res, title=title))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -4581,6 +4686,33 @@ def main():
     p_mwd.add_argument("--noise", type=float, default=1.5, help="Noise std in keV")
     p_mwd.add_argument("--json", action="store_true", help="Output pure JSON")
     p_mwd.set_defaults(func=cmd_mwdblr)
+
+    # In-Beam Fast-Timing GCD Lifetime Engine
+    p_gcd = subparsers.add_parser("gcd", help="In-beam fast-timing generalized centroid difference (GCD) picosecond lifetime (Regis 2013)")
+    p_gcd.add_argument("--preset", type=str, default="134Ce_fast_timing_2plus", choices=["134Ce_fast_timing_2plus", "135Pr_wobbler_fast_timing", "60Co_prompt_zero_calibration", "custom"], help="Benchmark preset")
+    p_gcd.add_argument("--nucleus", type=str, default="134Ce", help="Nucleus name")
+    p_gcd.add_argument("--mass-a", type=int, help="Mass number A")
+    p_gcd.add_argument("--efeed", type=float, help="Feeding energy in keV")
+    p_gcd.add_argument("--edecay", type=float, help="Decay energy in keV")
+    p_gcd.add_argument("--c1", type=float, help="Centroid C1 in ps")
+    p_gcd.add_argument("--c2", type=float, help="Centroid C2 in ps")
+    p_gcd.add_argument("--sigc", type=float, default=2.0, help="Uncertainty in ps")
+    p_gcd.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_gcd.set_defaults(func=cmd_gcd)
+
+    # Chiral Doublet g-Factor Equality Arbitrator
+    p_cg = subparsers.add_parser("chiralg", help="Chiral doublet g-factor equality theorem & spurious band arbitrator (Grodner PRL 2018)")
+    p_cg.add_argument("--preset", type=str, default="128Cs_chiral_doublet_benchmark", choices=["128Cs_chiral_doublet_benchmark", "134Pr_chiral_candidate", "spurious_pseudo_chiral_counterexample", "custom"], help="Benchmark preset")
+    p_cg.add_argument("--nucleus", type=str, default="128Cs", help="Nucleus name")
+    p_cg.add_argument("--mass-a", type=int, help="Mass number A")
+    p_cg.add_argument("--charge-z", type=int, help="Atomic number Z")
+    p_cg.add_argument("--spin-i", type=float, help="Spin I")
+    p_cg.add_argument("--g1", type=float, help="Measured g-factor for Band 1")
+    p_cg.add_argument("--sig1", type=float, default=0.04, help="Error on g1")
+    p_cg.add_argument("--g2", type=float, help="Measured g-factor for Band 2")
+    p_cg.add_argument("--sig2", type=float, default=0.05, help="Error on g2")
+    p_cg.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_cg.set_defaults(func=cmd_chiralg)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

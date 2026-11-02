@@ -90,6 +90,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `spontfiss` | 重核与超重核双峰势垒自发裂变（SF）WKB 量子穿透作用量积分与半衰期系统学 | 假定一维裂变裂开路径；高维断裂形变与颈缩动力学需结合多维微观自洽 HFB 势能面 |
 | `ptrm` | 粒子-三轴转子模型（PTRM）完全代数对角化、摆动带激发谱与非简谐 R21 提取 | 假定单 j 壳层有效势；多准粒子组态需结合三维倾斜轴推转（TAC）或投影壳模型（TPSM） |
 | `mwdblr` | 数字化移动窗口反褶积（MWD）与自适应基线恢复（BLR）高计数率滤波 | 假定单极性指数前放响应；复杂探测器电荷收集延迟需适度拓宽反褶积平顶 M_win |
+| `gcd` | 在束超快电子学定时广义质心差分法（GCD）皮秒核寿命反演与 PRF 时间游走校准 | 需精确标定快闪烁体探测器的 PRF 能量依赖曲线；存在复杂多步侧馈时需结合微观退卷积 |
+| `chiralg` | 手征双重带磁偶极矩 g 因子相等性定理检验与伪手征伪带排他性仲裁 | 依赖含自旋取向的超精细场或外加磁场 g 因子测量；低自旋大振幅手征振动区需计入量子相干修正 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -129,6 +131,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py coriolismix --preset 159Dy_n
 python3 system/scripts/analysis/nuclear_analyzer.py spontfiss --preset 238U_spontaneous_fission --json
 python3 system/scripts/analysis/nuclear_analyzer.py ptrm --preset 135Pr_triaxial_wobbler_ptrm --json
 python3 system/scripts/analysis/nuclear_analyzer.py mwdblr --preset standard_hpge_high_rate --json
+python3 system/scripts/analysis/nuclear_analyzer.py gcd --preset 134Ce_fast_timing_2plus --json
+python3 system/scripts/analysis/nuclear_analyzer.py chiralg --preset 128Cs_chiral_doublet_benchmark --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

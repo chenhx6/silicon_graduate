@@ -6990,3 +6990,36 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-nakhostin-signal-processing-detectors.md` with NAK-6 entry.
 - Added unit test suite `system/tests/test_mwd_baseline_restorer.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **126 official analysis modules**, all verified passing in 2.4s.
+
+### In-Beam Fast-Timing GCD Lifetime Engine (Module 127) 2026-11-03T17:45:00+08:00
+
+- Integrated In-Beam Electronic Fast-Timing Generalized Centroid Difference (GCD) Method, Prompt Response Function (PRF) Walk Calibration & Picosecond Nuclear Lifetime Suite (`in_beam_fast_timing_gcd_lifetime_calculator.py`):
+  - Based on J.-M. Régis et al. (Nucl. Instrum. Methods A 606, 466, 2009; NIM A 726, 191, 2013), 吴治华《原子核物理实验方法》第 9, 14 章, and 汪晓莲等《粒子探测技术》第 8 章:
+    * Formulates energy-dependent prompt response function walk curve $\text{PRF}(E_\gamma) = a_0 / \sqrt{E_\gamma} + c_0 E_\gamma + d_0$.
+    * Evaluates forward ($C_1$) and reverse ($C_2$) symmetric gated centroids in 2D coincidence time spectra.
+    * Strictly cancels unknown electronic zero-point drift via centroid difference $\Delta C = C_1 - C_2 = 2\tau + 2\Delta\text{PRF}$, inverting excited-state lifetimes down to $5 - 10\text{ ps}$.
+    * Directly deduces absolute transition rates $T_{\text{total}}$ and $B(E2) / B(M1)$ in Weisskopf units with rigorous Gaussian error propagation.
+  - Benchmarks:
+    * $^{134}\text{Ce}$ in-beam fast-timing $2_1^+$ state ($4_1^+ 638\text{ keV} \to 2_1^+ \to 0^+ 409\text{ keV}$): measured $\Delta C = 148.0 \pm 2.5\text{ ps}$ with $\Delta\text{PRF} = -9.02\text{ ps}$ yields extracted lifetime $\tau = 83.0 \pm 1.3\text{ ps}$ (matching literature $\tau_{\text{lit}} \sim 62 - 85\text{ ps}$).
+    * $^{60}\text{Co}$ prompt calibration cascade: verifies prompt zero condition within $\pm 0.5\text{ ps}$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `gcd`.
+- Created concept page: `knowledge/concepts/in-beam-fast-timing-generalized-centroid-difference-method.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-10 entry.
+- Added unit test suite `system/tests/test_fast_timing_gcd.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 127.
+
+### Chiral Doublet g-Factor Equality Arbitrator (Module 128) 2026-11-03T18:15:00+08:00
+
+- Integrated Nuclear Chiral Doublet Bands Magnetic Dipole Moments $g$-Factor Equality Theorem, Aplanar Spin Geometry & Spurious Band Arbitration Engine (`chiral_doublet_g_factor_equality_calculator.py`):
+  - Based on E. Grodner et al. (Phys. Rev. Lett. 120, 022502, 2018), E. Grodner in *Chirality and Wobbling in Atomic Nuclei* (CRC 2025) Ch. 7 (PDF pp. 156–166), and S. Frauendorf (2001):
+    * Proves quantum symmetry theorem: spontaneous time-reversal breaking in body-fixed frame and symmetric/antisymmetric laboratory state superposition eliminates magnetic dipole cross-terms, dictating $g(\text{Band 1}, I) \equiv g(\text{Band 2}, I)$ across the chiral regime.
+    * Evaluates theoretical chiral gyromagnetic factor $g_{\text{chiral}}(I) = g_R + (g_p - g_R)\frac{j_p^2}{I(I+1)} + (g_n - g_R)\frac{j_n^2}{I(I+1)}$ from 3D orthogonal geometry.
+    * Performs hypothesis testing on $H_0: g_1 = g_2$: computes test statistic $\chi^2_g = (\Delta g / \sigma_{\Delta g})^2$ and $p$-value. Excludes spurious pseudo-chiral bands when $\chi^2_g \ge 9.0$ ($> 3\sigma$).
+  - Benchmarks:
+    * $^{128}\text{Cs}$ experimental chiral doublet benchmark (Grodner 2018): measured $g_1 = +0.58 \pm 0.04$ and $g_2 = +0.56 \pm 0.05$ at $I=11^+$, yielding $\Delta g = 0.020 \pm 0.064$, $\chi^2_g = 0.098$ ($0.31\sigma$, $p = 0.755$), confirming chiral equality theorem.
+    * Spurious doublet counterexample: $g_1 = +0.85 \pm 0.04$ vs $g_2 = +0.32 \pm 0.05$ produces $\chi^2_g = 68.51$ ($8.28\sigma$ discrepancy), definitively rejecting chiral interpretation.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `chiralg`.
+- Created concept page: `knowledge/concepts/chiral-doublet-magnetic-moment-g-factor-equality.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-7 entry.
+- Added unit test suite `system/tests/test_chiral_gfactor_equality.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **128 official analysis modules**, all verified passing in 2.6s.

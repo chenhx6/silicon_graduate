@@ -67,6 +67,7 @@ tags: [books, experimental-nuclear-physics, hpge-detectors, gamma-spectroscopy, 
 | WU-7 | 恒比定时（CFD）与快速时间测量：前沿定时存在与脉冲幅度相关的严重时间游走（$\Delta t_{\text{walk}} \sim 200 - 500\text{ ps}$）；CFD 采用双极性信号过零点定时 $V_{\text{CFD}}(t) = V(t-t_d) - f V(t) = 0$，当延迟满足 $t_d = t_r(1-f)$ 时过零点时间与幅度严格无关，理论游走为零；结合快速闪烁体（$\text{LaBr}_3, \text{BaF}_2$）实现亚纳秒级符合时间分辨率。 | model-result | direct | 第 9 章 §9.3, 印刷 pp. 235–256 / PDF pp. 243–264 | false |
 | WU-8 | 在束 $\gamma$ 谱学相对论多普勒展宽：$E_{\text{lab}}(\theta) = E_0 \frac{\sqrt{1-\beta^2}}{1-\beta\cos\theta}$；峰展宽由探测器有限张角 $\Delta E_\theta$（$90^\circ$ 极大）、靶厚度反冲速度弥散 $\Delta E_\beta$（$0^\circ/180^\circ$ 极大）以及中子反冲角离散共同构成；指导在束实验靶厚与探测器环角优化。 | model-result | direct | 第 15 章 §15.2, 印刷 pp. 421–435 / PDF pp. 429–443 | false |
 | WU-9 | 在束能级纲图能量闭合环与强度守恒：Ritz 结合原理要求任意闭合回路能量代数和残差满足 $\Delta E_{\text{loop}} = 0$（归一化残差 $Z \le 1.5\sigma$）；考虑内转换校正的总跃迁强度平衡直接给出各激发能级来自反应连续谱的瞬发直接侧馈份额 $I_{\text{side}}$。 | method/formalism | direct | 第 10 章 §10.6, 印刷 pp. 285–303 / PDF pp. 293–311 | false |
+| WU-10 | 在束超快定时广义质心差分法（GCD）与皮秒寿命测量：阐明瞬发时间响应函数（PRF Walk）能量依赖曲线 $\text{PRF}(E_\gamma) = a_0 / \sqrt{E_\gamma} + c_0 E_\gamma$ 对反向门控质心移动的抵消机制；推导质心差分方程 $\Delta C = C_1 - C_2 = 2\tau + 2\Delta\text{PRF}$，完全消除仪器绝对零点漂移，实现 $5\text{ ps} \sim 1\text{ ns}$ 激发态寿命的高精度测量。 | method/formalism | direct | 第 9 章 §9.3, 第 14 章, 印刷 pp. 385–402 / PDF pp. 393–410 | false |
 
 ## Competing Interpretations and Limitations
 
