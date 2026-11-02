@@ -146,6 +146,8 @@ from tac_3d_chiral_orientation_energy_surface_calculator import find_chiral_equi
 from gamma_band_mixing_z_gamma_alaga_inverter import invert_z_gamma_from_branching
 from level_scheme_loop_residual_intensity_balancer import evaluate_ritz_combination_loop, calculate_level_intensity_balance
 from davydov_chaban_beta_stretching_triaxial_calculator import calculate_davydov_chaban_spectrum, solve_chaban_stretching_parameter_p
+from double_root_dco_polarization_statistical_arbitrator import solve_dco_quadratic, analyze_double_roots
+from multi_quasiparticle_mchid_chirality_calculator import evaluate_chiral_geometry, analyze_mchid
 
 
 def test_heavy_ion_kinematics():
@@ -1796,6 +1798,44 @@ def test_level_scheme_loop_balancer():
     print("  ✓ level_scheme_loop_residual_intensity_balancer passed.")
 
 
+def test_double_root_arbitrator():
+    print("Testing double_root_dco_polarization_statistical_arbitrator...")
+    A = [1.0, 0.45, 0.90]
+    B = [1.4, -0.70, 1.80]
+    sol = solve_dco_quadratic(A, B, 0.45)
+    assert sol["status"] == "two_real_roots"
+    assert len(sol["roots"]) == 2
+    res = analyze_double_roots(
+        A_coeffs=A, B_coeffs=B, R_exp=0.45, sigma_R=0.04,
+        P_coeffs=[-0.15, 0.10, 0.55], Q_coeffs=[1.0, 0.45, 0.90],
+        P_exp=0.22, sigma_P=0.05
+    )
+    assert res["arbitration"]["status"] == "resolved_by_3sigma_statistical_exclusion"
+    print("  ✓ double_root_dco_polarization_statistical_arbitrator passed.")
+
+
+def test_multi_quasiparticle_mchid():
+    print("Testing multi_quasiparticle_mchid_chirality_calculator...")
+    geom = evaluate_chiral_geometry(j_pi=8.0, j_nu=8.0, total_spin=18.0)
+    assert geom["aplanarity_volume_metric"] > 0.50
+    doublets = [{
+        "doublet_id": "Doublet_1", "configuration": "pi h11/2^2 (x) nu h11/2^-2",
+        "parity": "+", "j_pi": 8.0, "j_nu": 8.0,
+        "spins": [15, 16, 17, 18, 19, 20],
+        "E_band1_keV": [5180.0, 5680.0, 6220.0, 6800.0, 7420.0, 8080.0],
+        "E_band2_keV": [5260.0, 5740.0, 6270.0, 6840.0, 7450.0, 8105.0]
+    }, {
+        "doublet_id": "Doublet_2", "configuration": "pi h11/2^2 (x) nu [h11/2^-1 d5/2^-1]",
+        "parity": "-", "j_pi": 8.0, "j_nu": 5.5,
+        "spins": [15, 16, 17, 18, 19, 20],
+        "E_band1_keV": [5350.0, 5840.0, 6370.0, 6940.0, 7550.0, 8200.0],
+        "E_band2_keV": [5440.0, 5910.0, 6420.0, 6980.0, 7580.0, 8225.0]
+    }]
+    res = analyze_mchid(doublets, nucleus_name="136Nd")
+    assert res["is_mchid_verified"] is True
+    print("  ✓ multi_quasiparticle_mchid_chirality_calculator passed.")
+
+
 def test_davydov_chaban_stretching_calculator():
     print("Testing davydov_chaban_beta_stretching_triaxial_calculator...")
     # 112Ru triaxial Chaban benchmark
@@ -2099,4 +2139,6 @@ if __name__ == "__main__":
     test_gamma_band_mixing_z_gamma_calculator()
     test_level_scheme_loop_balancer()
     test_davydov_chaban_stretching_calculator()
+    test_double_root_arbitrator()
+    test_multi_quasiparticle_mchid()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

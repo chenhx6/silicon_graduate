@@ -132,6 +132,8 @@ from tac_3d_chiral_orientation_energy_surface_calculator import find_chiral_equi
 from gamma_band_mixing_z_gamma_alaga_inverter import invert_z_gamma_from_branching, format_text_report as format_zgamma_report
 from level_scheme_loop_residual_intensity_balancer import evaluate_ritz_combination_loop, calculate_level_intensity_balance, format_text_report as format_loopbal_report
 from davydov_chaban_beta_stretching_triaxial_calculator import calculate_davydov_chaban_spectrum, solve_chaban_stretching_parameter_p, format_text_report as format_chaban_report
+from double_root_dco_polarization_statistical_arbitrator import analyze_double_roots, PRESETS as DOUBLEROOT_PRESETS
+from multi_quasiparticle_mchid_chirality_calculator import analyze_mchid, PRESETS as MCHID_PRESETS
 
 
 def cmd_kinematics(args):
@@ -2664,6 +2666,128 @@ def cmd_chaban(args):
         print(format_chaban_report(res))
 
 
+
+def cmd_doubleroot(args):
+    if args.preset and args.preset in DOUBLEROOT_PRESETS:
+        p = DOUBLEROOT_PRESETS[args.preset]
+        A_coeffs = p["A_coeffs"]
+        B_coeffs = p["B_coeffs"]
+        R_exp = p["R_exp"]
+        sigma_R = p["sigma_R"]
+        P_coeffs = p.get("P_coeffs")
+        Q_coeffs = p.get("Q_coeffs")
+        P_exp = p.get("P_exp")
+        sigma_P = p.get("sigma_P")
+        alpha_K_M1 = p.get("alpha_K_M1")
+        alpha_K_E2 = p.get("alpha_K_E2")
+        alpha_exp = p.get("alpha_exp")
+        sigma_alpha = p.get("sigma_alpha")
+        tau_ps = p.get("tau_ps")
+        E_gamma_keV = p.get("E_gamma_keV")
+        A_mass = p.get("A_mass")
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        A_coeffs = [1.0, 0.45, 0.90]
+        B_coeffs = [1.4, -0.70, 1.80]
+        R_exp = args.r_exp if args.r_exp is not None else 0.45
+        sigma_R = args.sigma_r if args.sigma_r is not None else 0.05
+        P_coeffs = [-0.15, 0.10, 0.55] if args.p_exp is not None else None
+        Q_coeffs = [1.0, 0.45, 0.90] if args.p_exp is not None else None
+        P_exp = args.p_exp
+        sigma_P = args.sigma_p if args.sigma_p is not None else 0.05
+        alpha_K_M1 = 0.0058 if args.alpha_exp is not None else None
+        alpha_K_E2 = 0.0042 if args.alpha_exp is not None else None
+        alpha_exp = args.alpha_exp
+        sigma_alpha = args.sigma_alpha if args.sigma_alpha is not None else 0.002
+        tau_ps = args.tau_ps
+        E_gamma_keV = args.energy_kev
+        A_mass = args.mass_a
+        title = "Custom User Input"
+
+    res = analyze_double_roots(
+        A_coeffs=A_coeffs,
+        B_coeffs=B_coeffs,
+        R_exp=R_exp,
+        sigma_R=sigma_R,
+        P_coeffs=P_coeffs,
+        Q_coeffs=Q_coeffs,
+        P_exp=P_exp,
+        sigma_P=sigma_P,
+        alpha_K_M1=alpha_K_M1,
+        alpha_K_E2=alpha_K_E2,
+        alpha_exp=alpha_exp,
+        sigma_alpha=sigma_alpha,
+        tau_ps=tau_ps,
+        E_gamma_keV=E_gamma_keV,
+        A_mass=A_mass
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print("=" * 76)
+        print("DCO Mixing Ratio Double-Root Profile Likelihood & Polarization Arbitrator")
+        print(f"{title}")
+        print("=" * 76)
+        print(f"Discriminant Delta: {res['discriminant']:.5f} -> Status: {res['status']}")
+        print("-" * 76)
+        for r in res["evaluated_roots"]:
+            print(f"Root {r['root_index']}: delta = {r['delta']:+.4f} (arctan delta = {r['arctan_delta_deg']:+.1f} deg)")
+            print(f"  Multipole Fractions : E2 = {r['f_E2_percent']:.1f}%, M1 = {r['f_M1_percent']:.1f}%")
+            print(f"  DCO Ratio           : R_calc = {r['R_calc']:.4f} (chi^2 = {r['chi2_DCO']:.3f})")
+            if "P_calc" in r:
+                print(f"  Linear Polarization : P_calc = {r['P_calc']:+.4f} (chi^2 = {r['chi2_pol']:.3f})")
+            if "alpha_calc" in r:
+                print(f"  Conversion Coeff    : alpha_calc = {r['alpha_calc']:.5f} (chi^2 = {r['chi2_alpha']:.3f})")
+            print(f"  Joint Chi^2         : {r['chi2_joint']:.3f}")
+            if "weisskopf" in r and r["weisskopf"]:
+                wk = r["weisskopf"]
+                print(f"  Weisskopf Strengths : B(M1) = {wk['B_M1_Wu']:.3f} W.u., B(E2) = {wk['B_E2_Wu']:.2f} W.u.")
+            print("-" * 76)
+        arb = res["arbitration"]
+        print(f"Arbitration Result: {arb['status']}")
+        print(f"  Delta Chi^2       : {arb['delta_chi2']:.3f}")
+        print(f"  Exclusion CL      : {arb['exclusion_confidence_percent']:.2f}%")
+        print(f"  Verdict           : {arb['summary']}")
+        print("=" * 76)
+
+
+def cmd_mchid(args):
+    if args.preset and args.preset in MCHID_PRESETS:
+        p = MCHID_PRESETS[args.preset]
+        nucleus = p["nucleus"]
+        doublets = p["doublets"]
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        nucleus = args.nucleus if hasattr(args, "nucleus") and args.nucleus else "136Nd"
+        doublets = MCHID_PRESETS["136Nd_4qp_mchid"]["doublets"]
+        title = f"Default MchiD: {nucleus}"
+
+    res = analyze_mchid(doublets, nucleus_name=nucleus)
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print("=" * 76)
+        print("Multi-Quasiparticle Multiple Chiral Doublets (MchiD) Analyzer")
+        print(f"{title}")
+        print("=" * 76)
+        print(f"Nucleus: {res['nucleus']} | Number of Candidate Doublets: {res['num_doublets']}")
+        print(f"Status : {res['mchid_summary']}")
+        print("=" * 76)
+        for d in res["doublets_analysis"]:
+            print(f"--- {d['doublet_id']}: {d['configuration']} (Parity: {d['parity']}) ---")
+            print(f"  Energy Degeneracy   : Mean Delta E = {d['mean_delta_E_keV']:.1f} keV (Min Delta E = {d['min_delta_E_keV']:.1f} keV)")
+            print(f"  Staggering Delta S  : Mean |S1 - S2| = {d['mean_delta_S_keV']:.2f} keV")
+            geom = d["geometry_at_mid_spin"]
+            print(f"  Aplanar Geometry    : j_pi={geom['j_pi_short']}, j_nu={geom['j_nu_long']}, R_m={geom['R_m_intermediate']:.1f}")
+            print(f"  Chiral Volume Metric: V_chiral = {geom['aplanarity_volume_metric']:.3f} | chi = {geom['scalar_triple_product_chi']:.1f}")
+            print(f"  Chiral Confidence   : {d['chiral_confidence_percent']:.1f}%")
+            print("-" * 76)
+        print("=" * 76)
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3907,6 +4031,30 @@ def main():
     p_chab.add_argument("--mu", type=float, default=0.28, help="Deformability parameter mu")
     p_chab.add_argument("--json", action="store_true", help="Output pure JSON")
     p_chab.set_defaults(func=cmd_chaban)
+
+    # DCO Mixing Ratio Double-Root Statistical Arbitrator
+    p_dr = subparsers.add_parser("doubleroot", help="DCO mixing ratio delta(E2/M1) double-root profile likelihood & polarization arbitrator (Zhu 2006 / Hamilton 1975)")
+    p_dr.add_argument("--preset", type=str, default="135Pr_wobbling_candidate", choices=["135Pr_wobbling_candidate", "134Pr_chiral_intraband", "136Nd_triaxial_crossover", "custom"], help="Benchmark preset")
+    p_dr.add_argument("--r-exp", type=float, help="Experimental DCO ratio R_exp")
+    p_dr.add_argument("--sigma-r", type=float, default=0.05, help="Uncertainty on R_exp")
+    p_dr.add_argument("--p-exp", type=float, help="Experimental linear polarization P_exp")
+    p_dr.add_argument("--sigma-p", type=float, default=0.05, help="Uncertainty on P_exp")
+    p_dr.add_argument("--alpha-exp", type=float, help="Experimental conversion coefficient alpha_exp")
+    p_dr.add_argument("--sigma-alpha", type=float, default=0.002, help="Uncertainty on alpha_exp")
+    p_dr.add_argument("--tau-ps", type=float, help="State lifetime in picoseconds")
+    p_dr.add_argument("--energy-kev", type=float, help="Gamma energy in keV")
+    p_dr.add_argument("--mass-a", type=int, help="Mass number A")
+    p_dr.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_dr.set_defaults(func=cmd_doubleroot)
+
+    # Multi-Quasiparticle Multiple Chiral Doublets (MchiD) Analyzer
+    p_mc = subparsers.add_parser("mchid", help="Multi-quasiparticle Multiple Chiral Doublets (MchiD) & 4-QP aplanarity analyzer (Meng-Wang 2025 / ADNDT 2019)")
+    p_mc.add_argument("--preset", type=str, default="136Nd_4qp_mchid", choices=["136Nd_4qp_mchid", "133Ce_mchid", "103Rh_mchid", "custom"], help="Benchmark preset")
+    p_mc.add_argument("--nucleus", type=str, default="136Nd", help="Nucleus name")
+    p_mc.add_argument("--j-pi", type=float, default=8.0, help="Valence proton angular momentum along short axis")
+    p_mc.add_argument("--j-nu", type=float, default=8.0, help="Valence neutron angular momentum along long axis")
+    p_mc.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_mc.set_defaults(func=cmd_mchid)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

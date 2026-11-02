@@ -111,7 +111,12 @@ tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 
 ## Key Results
 
-详见正文对应小节及核对记录。
+| ID | 陈述与物理内容 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| PETR-1 | Frauendorf 三轴转子与横向/纵向摆动微观理论：高自旋奇 $A$ 核准粒子-转子耦合，横向摆动（TW）特征为 $\mathcal{J}_m > \mathcal{J}_s, \mathcal{J}_l$ 且摆动频率 $\hbar\omega_w$ 随自旋下降，跨带与带内跃迁比 $B(E2_{\text{out}})/B(E2_{\text{in}}) \propto 1/I$ 且跨带 $\Delta I=1$ 跃迁具有大多极混合比 $|\delta(E2/M1)| \gg 1.0$。 | model-result | direct | Ch. 2, PDF pp. 43–55, 式 (2.20)–(2.21) | false |
+| PETR-2 | 孟杰与王玉鹏三维非共面手征旋转与四准粒子多重手征能带（M$\chi$D）：偶偶核（如 $^{136}\text{Nd}$）中 4 准粒子组态 $\pi h_{11/2}^2 \otimes \nu h_{11/2}^{-2}$ 形成短-长-中三轴角动量正交耦合，标量三重积 $\chi = \vec{j}_\pi \cdot (\vec{j}_\nu \times \vec{R}) \ne 0$ 自发破缺 $\mathcal{T}\mathcal{R}_y(\pi)$ 离散对称性，形成近简并同宇称手征双重带。 | model-result | direct | Ch. 3, PDF pp. 81–93 | false |
+| PETR-3 | Lawrie 倾斜进动（TiP）与三轴摆动判据：进动角动量沿非主转动轴偏转形成连续进动，具有不同于单声子摆动的电磁跃迁特征；提出判据表格区分真实横向摆动与倾斜进动、磁转动剪刀带或单粒子签名伙伴带。 | model-result | direct | Ch. 6, PDF pp. 127–148, 表 6.1 | false |
+| PETR-4 | 陈启博等协变密度泛函理论与粒子转子模型（CDFT+PRM）对多重手征带的微观描述：同一核内基于不同多准粒子组态（4-qp 基态组态与 4-qp 激发组态）或不同形变极小共存两对以上独立手征双重能带（M$\chi$D），给出能级简并度、平滑无交错 $S(I)$ 参数与带间跃迁受阻规律。 | model-result | direct | Ch. 10, PDF pp. 222–238 | false |
 
 
 ## Extracted Pages

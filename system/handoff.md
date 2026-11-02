@@ -6777,3 +6777,40 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-6 entry.
 - Added unit test suite `system/tests/test_davydov_chaban_stretching.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **114 official analysis modules**, all verified passing in 5.9s.
+
+### DCO Multipole Mixing Ratio Double-Root Profile Likelihood & Polarization Arbitrator (Module 115) 2026-11-03T11:45:00+08:00
+
+- Integrated In-Beam Gamma-Ray Spectroscopy DCO / Angular Distribution Multipole Mixing Ratio $\delta(E2/M1)$ Double-Root Profile Likelihood, Linear Polarization Arbitration & Statistical Exclusion Suite (`double_root_dco_polarization_statistical_arbitrator.py`):
+  - Based on 朱永生《实验物理中的概率和统计》第 6, 8, 9 章, W. D. Hamilton (1975) Ch. 14, and K. S. Krane & R. M. Steffen (1970):
+    * Solves quadratic DCO ratio equation $R_{\text{DCO}}(\delta) = \frac{A_0 + A_1 \delta + A_2 \delta^2}{B_0 + B_1 \delta + B_2 \delta^2} = R_{\text{exp}}$, extracting both analytical roots $\delta_1, \delta_2$.
+    * Maps $\delta$ to compact bounded angle $\theta_\delta = \arctan(\delta) \in [-90^\circ, +90^\circ]$ to eliminate $\delta \to \pm\infty$ divergences, evaluating continuous profile $\chi^2(\theta_\delta)$.
+    * Implements four-fold physical arbitration:
+      1) Clover Compton linear polarization $P(\delta)$: tests sign and magnitude against $P_{\text{exp}}$;
+      2) BrIcc conversion coefficient $\alpha_K(\delta)$: tests consistency with measured $I_e / I_\gamma$;
+      3) Weisskopf single-particle ceiling: calculates $B(M1)$ and $B(E2)$ in W.u. from level lifetime $\tau$, flagging unphysical $B(M1) > 5\ \text{W.u.}$;
+      4) Likelihood ratio hypothesis testing: evaluates $\Delta\chi^2 = |\chi^2_2 - \chi^2_1|$ and exclusion confidence level $CL = \text{erf}(\sqrt{\Delta\chi^2/2}) \times 100\%$, establishing $>3\sigma$ exclusion when $\Delta\chi^2 \ge 9.0$.
+  - Benchmarks:
+    * $^{135}\text{Pr}$ transverse wobbling candidate ($17/2^+ \to 15/2^+, 728\text{ keV}$): experimental $R_{\text{DCO}} = 0.45 \pm 0.04$ yields $\delta_1 = -7.985$ and $\delta_2 = -0.515$. Linear polarization $P_{\text{exp}} = +0.22 \pm 0.05$ excludes Root 1 with $\Delta\chi^2 = 27.66$ ($CL = 100.0\%$, $>3\sigma$).
+    * $^{134}\text{Pr}$ chiral doublet intraband transition ($13^+ \to 12^+, 422\text{ keV}$): excludes the large $\delta$ quadrupole root with $\Delta\chi^2 = 79.95$ ($CL = 100.0\%$), confirming pure $M1$ character.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `doubleroot`.
+- Created concept page: `knowledge/concepts/dco-mixing-ratio-double-root-arbitration-and-profile-likelihood.md`.
+- Updated source card `knowledge/sources/book-zhu-probability-statistics-in-physics.md` with ZHU-6 entry.
+- Added unit test suite `system/tests/test_double_root_arbitrator.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 115.
+
+### Multi-Quasiparticle Multiple Chiral Doublets (MchiD) Analyzer (Module 116) 2026-11-03T12:15:00+08:00
+
+- Integrated Multi-Quasiparticle Multiple Chiral Doublets (M$\chi$D), 4-Quasiparticle Angular Momentum Geometry & Triaxial Symmetry-Breaking Classification Engine (`multi_quasiparticle_mchid_chirality_calculator.py`):
+  - Based on J. Meng & Y. P. Wang in *Chirality and Wobbling in Atomic Nuclei* (CRC 2025) Ch. 3 (PDF pp. 81–93), Q. B. Chen et al. Ch. 10 (PDF pp. 222–238), and X. H. Xiong et al. (ADNDT 125, 193, 2019):
+    * Formulates 4-quasiparticle chiral geometry in even-even nuclei (e.g. $^{136}\text{Nd}$): $\pi (h_{11/2})^2$ along short axis, $\nu (h_{11/2})^{-2}$ along long axis, and collective core $\vec{R}$ along intermediate axis.
+    * Computes scalar triple product $\chi = \vec{j}_\pi \cdot (\vec{j}_\nu \times \vec{R}) = j_{\pi, s} j_{\nu, l} R_m$ and normalized chiral volume metric $\mathcal{V}_{\text{chiral}} = |\chi| / (|\vec{j}_\pi| |\vec{j}_\nu| |\vec{R}|)$.
+    * Evaluates energy degeneracy $\Delta E(I) = |E_1(I) - E_2(I)| \le 100\text{ keV}$, staggering parameter $S(I) = [E(I) - E(I-1)] / (2I)$ smoothness ($|\Delta S| \le 1.0\text{ keV}$), and chiral confidence score $Q_{\text{chiral}}$.
+    * Quantitative M$\chi$D arbitration: verifies the simultaneous coexistence of multiple independent chiral doublet pairs within a single nucleus.
+  - Benchmarks:
+    * $^{136}\text{Nd}$ 4-quasiparticle M$\chi$D benchmark: verifies Doublet 1 ($\pi h_{11/2}^2 \otimes \nu h_{11/2}^{-2}$, $\overline{\Delta E} = 47.5\text{ keV}, \mathcal{V}_{\text{chiral}} = 0.778$, confidence $87.3\%$) and Doublet 2 ($\pi h_{11/2}^2 \otimes \nu [h_{11/2}^{-1} d_{5/2}^{-1}]$, $\overline{\Delta E} = 50.8\text{ keV}, \mathcal{V}_{\text{chiral}} = 0.842$, confidence $86.3\%$), confirming M$\chi$D.
+    * $^{103}\text{Rh}$ single doublet benchmark: correctly classifies as single chiral doublet ($86.2\%$ confidence) without falsely asserting M$\chi$D.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `mchid`.
+- Created concept page: `knowledge/concepts/multi-quasiparticle-multiple-chiral-doublets-mchid-and-aplanarity.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-1 to PETR-4 entries.
+- Added unit test suite `system/tests/test_multi_quasiparticle_mchid.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **116 official analysis modules**, all verified passing in 2.8s.
