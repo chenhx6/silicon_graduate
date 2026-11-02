@@ -172,6 +172,8 @@ from davydov_rostovsky_triaxial_band_mixing_solver import run_davydov_rostovsky_
 from in_beam_2d_snip_matrix_background_estimator import run_2d_snip_analysis, format_text_report as format_snip2d_report, PRESETS as SNIP2D_PRESETS
 from odd_odd_3d_tac_recoil_chiral_orientator import run_recoil_chiral_analysis, format_text_report as format_recoilchir_report, PRESETS as RECOILCHIR_PRESETS
 from hpge_energy_non_linearity_inl_dnl_calibrator import run_non_linearity_analysis, format_text_report as format_nonlincal_report, PRESETS as NONLINCAL_PRESETS
+from odd_odd_chiral_mep_instanton_tunneling_solver import run_chiral_mep_analysis, format_text_report as format_chirmep_report, PRESETS as CHIRMEP_PRESETS
+from in_beam_hpge_tfa_crossover_walk_jitter_optimizer import run_tfa_walk_analysis, format_text_report as format_tfawalk_report, PRESETS as TFAWALK_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3950,6 +3952,50 @@ def cmd_nonlincal(args):
     else:
         print(format_nonlincal_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
+def cmd_chirmep(args):
+    preset_name = args.preset if args.preset else "134Pr_chiral_mep_instanton"
+    p = CHIRMEP_PRESETS[preset_name]
+    res = run_chiral_mep_analysis(
+        nucleus=p.get("nucleus", "Generic"),
+        spin=p["spin"],
+        j_p=p["j_p"],
+        j_n=p["j_n"],
+        gamma_deg=p["gamma_deg"],
+        moi_s=p["moi_s"],
+        moi_i=p["moi_i"],
+        moi_l=p["moi_l"],
+        n_nodes=p.get("n_nodes", 25)
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_chirmep_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_tfawalk(args):
+    preset_name = args.preset if args.preset else "coaxial_hpge_in_beam_70pct"
+    p = TFAWALK_PRESETS[preset_name]
+    res = run_tfa_walk_analysis(
+        detector=p.get("detector", "Generic HPGe"),
+        t_rise_mean_ns=p["t_rise_mean_ns"],
+        t_rise_sigma_ns=p["t_rise_sigma_ns"],
+        preamp_decay_us=p["preamp_decay_us"],
+        capacitance_pF=p["capacitance_pF"],
+        noise_series_e_n=p["noise_series_e_n"],
+        noise_parallel_i_n=p["noise_parallel_i_n"],
+        preamp_feedback_Cf_pF=p.get("preamp_feedback_Cf_pF", 1.0),
+        amplifier_gain=p.get("amplifier_gain", 20.0),
+        e_gamma_eval_keV=p.get("e_gamma_eval_keV", 511.0),
+        energy_range_keV=p.get("energy_range_keV", [100.0, 3000.0])
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_tfawalk_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5565,6 +5611,20 @@ def main():
                       choices=list(NONLINCAL_PRESETS.keys()), help="Benchmark preset")
     p_nl.add_argument("--json", action="store_true", help="Output pure JSON")
     p_nl.set_defaults(func=cmd_nonlincal)
+
+    # Odd-Odd Chiral MEP & Instanton Tunneling Solver
+    p_cm = subparsers.add_parser("chirmep", help="Odd-odd chiral MEP & instanton tunneling action solver (Petrache Ch 2,10 / Chen PRC)")
+    p_cm.add_argument("--preset", type=str, default="134Pr_chiral_mep_instanton",
+                      choices=list(CHIRMEP_PRESETS.keys()), help="Benchmark preset")
+    p_cm.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_cm.set_defaults(func=cmd_chirmep)
+
+    # HPGe TFA Bipolar Crossover Timing Walk & Jitter Optimizer
+    p_tw = subparsers.add_parser("tfawalk", help="HPGe TFA bipolar crossover walk & jitter optimizer (Wu Ch 9 / Wang Ch 8)")
+    p_tw.add_argument("--preset", type=str, default="coaxial_hpge_in_beam_70pct",
+                      choices=list(TFAWALK_PRESETS.keys()), help="Benchmark preset")
+    p_tw.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tw.set_defaults(func=cmd_tfawalk)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

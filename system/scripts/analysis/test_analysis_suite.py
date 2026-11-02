@@ -186,6 +186,8 @@ from davydov_rostovsky_triaxial_band_mixing_solver import invert_gamma_mixing_pa
 from in_beam_2d_snip_matrix_background_estimator import generate_synthetic_2d_matrix, execute_2d_snip_algorithm
 from odd_odd_3d_tac_recoil_chiral_orientator import evaluate_recoil_coupled_energy, find_optimal_orientation
 from hpge_energy_non_linearity_inl_dnl_calibrator import fit_energy_polynomial, evaluate_calibrated_energy
+from odd_odd_chiral_mep_instanton_tunneling_solver import OddOddChiralMEPInstantonSolver
+from in_beam_hpge_tfa_crossover_walk_jitter_optimizer import HPGeTFACrossoverOptimizer
 
 
 def test_heavy_ion_kinematics():
@@ -2047,6 +2049,26 @@ def test_odd_odd_recoil_chiral():
     print("  ✓ odd_odd_3d_tac_recoil_chiral_orientator passed.")
 
 
+def test_odd_odd_chiral_mep():
+    print("Testing odd_odd_chiral_mep_instanton_tunneling_solver...")
+    solver = OddOddChiralMEPInstantonSolver(spin=17.0, j_p=5.5, j_n=5.5, gamma_deg=30.0,
+                                            moi_s=15.0, moi_i=38.0, moi_l=12.0)
+    res = solver.solve_instanton_action(n_nodes=15)
+    assert res["minima_info"]["is_chiral_broken"]
+    assert res["barrier_height_MeV"] > 0.2
+    assert res["instanton_action_hbar"] > 2.0
+    print("  ✓ odd_odd_chiral_mep_instanton_tunneling_solver passed.")
+
+
+def test_hpge_tfa_crossover_walk():
+    print("Testing in_beam_hpge_tfa_crossover_walk_jitter_optimizer...")
+    opt = HPGeTFACrossoverOptimizer(t_rise_mean_ns=180.0, t_rise_sigma_ns=40.0)
+    res = opt.optimize_shaping_constants(511.0)
+    assert res["optimal"]["total_fwhm_ns"] < res["wu_zhihua_comparison"]["total_fwhm_ns"]
+    assert res["optimization_improvement_pct"] > 0.0
+    print("  ✓ in_beam_hpge_tfa_crossover_walk_jitter_optimizer passed.")
+
+
 def test_hpge_energy_non_linearity():
     print("Testing hpge_energy_non_linearity_inl_dnl_calibrator...")
     from scipy.interpolate import UnivariateSpline
@@ -2576,4 +2598,6 @@ if __name__ == "__main__":
     test_2d_snip_background()
     test_odd_odd_recoil_chiral()
     test_hpge_energy_non_linearity()
+    test_odd_odd_chiral_mep()
+    test_hpge_tfa_crossover_walk()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

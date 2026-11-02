@@ -78,6 +78,7 @@ tags: [books, experimental-nuclear-physics, hpge-detectors, gamma-spectroscopy, 
 | WU-18 | 反冲距离多普勒频移法（RDDS）微分衰减曲线法（DDCM）核态寿命反演：由柱塞靶装置两峰面积比 $R(d) = I_u / (I_u + I_s)$ 随距离微分关系 $\tau(d) = \frac{1}{v} \frac{1-R(d)}{dR/dd}$ 提取平台区本征寿命；彻底消除传统质心漂移法对复杂未知慢侧馈模型的致命依赖，精确导出 $1 - 200\text{ ps}$ 能态绝对跃迁几率 $B(E2)$ 与跃迁内禀四极矩 $Q_0$。 | method/formalism | direct | 第 15 章 §15.2, 印刷 pp. 430–445 / PDF pp. 438–453 | false |
 | WU-19 | 二维自适应敏感非线性峰剪切（2D SNIP）符合矩阵背景平滑剥离：在 Anscombe 方差稳定化矩阵 $Z = \sqrt{M + 3/8}$ 上执行多方向几何非线性剪切迭代 $Z^{(p)} = \min(Z^{(p-1)}, v_{\text{clip}})$；全自动自适应扣除复杂二维康普顿连续谱与对角散射脊线，彻底消除人工设定本底门的主观偏差与负计数下冲，实现 $>98\%$ 的二维符合峰面积保真度与数倍信噪比增强。 | method/formalism | direct | 第 10 章 §10.2–10.3, 印刷 pp. 250–265 / PDF pp. 258–273 | false |
 | WU-20 | HPGe 探测器与多道 ADC 积分非线性（INL/DNL）高次多项式与样条残差高精度能量校准：半导体空间电荷电离非线性与 ADC 传输“S-形”畸变导致简单两点线性刻度产生 $1.5 - 5.0\text{ keV}$ 的系统偏差；采用中心化三次多项式 $E_{\text{poly}}(\text{Ch}) = \sum a_k [(\text{Ch}-\text{Ch}_0)/1000]^k$ 消除病态范德蒙德矩阵发散，联合局部样条残差补偿将刻度误差压低至 $\sigma \le 0.03\text{ keV}$，恢复复杂高自旋能级纲图的 Ritz 结合能量闭合回路守恒。 | method/formalism | direct | 第 8 章 §8.3, 第 10 章 §10.1, 印刷 pp. 195–210, 240–250 / PDF pp. 203–218, 248–258 | false |
+| WU-21 | 在束高纯锗（HPGe）探测器双极性成形定时滤波器放大器（TFA）恒比过零点走动与抖动最优化：吴治华推导长微分时间常数（$\tau_{\\text{diff}} \gg t_r$）以消除弹道亏损对过零点斜率的影响；但高计数率在束实验中会导致严重堆积并增大低频噪声抖动；与汪晓莲推导的噪声谱最小化短时间常数模型对照，建立包含前放噪声谱密度与电荷收集几何弥散的联合 Pareto 最优化模型，实现过零走动（Walk）与噪声抖动（Jitter）的双重极小化。 | method/formalism | direct | 第 9 章 §9.3, 印刷 pp. 235–250 / PDF pp. 243–258 | false |
 
 ## Competing Interpretations and Limitations
 
