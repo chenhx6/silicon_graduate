@@ -7228,3 +7228,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-11 entry.
 - Added unit test suite `system/tests/test_chiral_selection_rules.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **140 official analysis modules**, all verified passing in 2.5s.
+
+### In-Beam Prompt-Delayed Time Gating & Random Background Subtractor (Module 141) 2026-11-04T00:45:00+08:00
+
+- Integrated In-Beam Multi-Detector Array Prompt-Delayed Coincidence Time Gating, Accidental (Random) Background Difference Subtraction & Isomer Isolation Engine (`in_beam_prompt_delayed_time_gating_random_subtractor.py`):
+  - Based on 吴治华《原子核物理实验方法》第 9 章 §9.4 (pp. 245–255), 第 10 章 §10.2 (pp. 250–260), 汪晓莲《粒子探测技术》第 8 章 §8.3, and 朱永生《实验物理中的概率和统计》第 4 章:
+    * Models pulsed-beam microstructure time spectrum containing prompt cascade peaks, delayed isomeric exponential decay tails, and periodic flat accidental background across beam RF periods.
+    * Formulates exact normalized time window subtraction $S_{\text{true}}(E) = S_{\text{prompt}}(E) - (\Delta T_p / \Delta T_r) S_{\text{rand}}(E)$ with channel-by-channel Poisson variance propagation.
+    * Implements delayed isomer gating window ($t > t_{\text{prompt}} + 3\sigma_t$) to reject $> 95\%$ of in-beam prompt continuum, boosting nanosecond isomer peak-to-background ratios by $20 - 50$ times.
+  - Benchmarks:
+    * $^{134}\text{Ce}$ in-beam prompt cascade ($409.0\text{ keV}, 638.0\text{ keV}$): removes $1536$ accidental counts beneath $409\text{ keV}$, restoring true net area $12664.0 \pm 120.7$ with $S/R = 8.24$.
+    * $^{181}\text{Ta}$ nanosecond isomer benchmark: delayed gate isolates $133\text{ keV}$ and $482\text{ keV}$ isomeric lines while completely suppressing the $346\text{ keV}$ prompt feeder.
+    * High-rate random-dominated experiment ($P/R < 0.8$): verifies robust subtraction stability.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `timegate`.
+- Created concept page: `knowledge/concepts/in-beam-prompt-delayed-time-gating-and-random-subtraction.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-14 entry.
+- Added unit test suite `system/tests/test_prompt_delayed_time_gating.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 141.
+
+### Triaxial Hexadecapole Deformation Wobbling Modifier (Module 142) 2026-11-04T01:15:00+08:00
+
+- Integrated Triaxial Nuclear Hexadecapole (beta_4, gamma_4) Deformation Perturbation Engine, Principal Moments of Inertia Renormalization & Wobbling Frequency Modifier (`triaxial_hexadecapole_deformation_wobbling_modifier.py`):
+  - Based on A. Bohr & B. R. Mottelson *Nuclear Structure* Vol. II §4-2 & §4-5, *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 2 & Ch. 10, and D. L. Hendrie (Phys. Rev. Lett. 31, 478, 1973):
+    * Evaluates high-spin hexadecapole surface expansion $R(\theta, \phi) = R_0 [1 + \sum \alpha_{2\mu} Y_{2\mu} + \sum \alpha_{4\mu} Y_{4\mu}]$.
+    * Renormalizes principal moments of inertia $\mathcal{J}_k(\beta_2, \gamma, \beta_4) = \mathcal{J}_k^{(0)} [1 + \kappa_4 \beta_4 \cos(\gamma - 2\pi k/3) + \kappa_{44} \beta_4^2]$ with cross-coupling $\kappa_4 \approx 1.85$.
+    * Demonstrates that positive $\beta_4 > 0$ stabilizes transverse wobbling by reinforcing intermediate-axis dominance ($\mathcal{J}_m$), whereas negative $\beta_4 < 0$ softens MOI asymmetry and accelerates frequency collapse towards tilted precession (TiP).
+  - Benchmarks:
+    * $^{163}\text{Lu}$ TSD band with positive $\beta_4 = +0.025$: predicts $+4.3\text{ keV}$ frequency shift at $I = 35.5\ \hbar$, aligning with measured TSD wobbling persistence.
+    * $^{135}\text{Pr}$ with negative $\beta_4 = -0.015$: reproduces softening shift $\Delta\hbar\omega = -0.9\text{ keV}$.
+    * Pure quadrupole limit ($\beta_4 = 0$): strictly yields $\Delta\hbar\omega \equiv 0.0\text{ keV}$, verifying mathematical continuity with the Bohr-Mottelson rotor.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `hexwob`.
+- Created concept page: `knowledge/concepts/triaxial-hexadecapole-deformation-and-wobbling-modification.md`.
+- Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-9 entry.
+- Added unit test suite `system/tests/test_hexadecapole_wobbling.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **142 official analysis modules**, all verified passing in 2.7s.

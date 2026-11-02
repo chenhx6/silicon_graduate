@@ -158,6 +158,8 @@ from heavy_ion_mcintyre_s_matrix_reaction_cross_section_analyzer import run_mcin
 from three_dimensional_tac_chiral_pitchfork_bifurcation_inverter import run_chiral_pitchfork_analysis, format_text_report as format_tacbifurc_report, PRESETS as TACBIFURC_PRESETS
 from in_beam_array_fold_multiplicity_entry_state_unfolder import run_fold_unfolding_analysis, format_text_report as format_foldmult_report, PRESETS as FOLDMULT_PRESETS
 from chiral_doublet_selection_rules_m1_staggering_arbitrator import run_chiral_selection_analysis, format_text_report as format_chirrules_report, PRESETS as CHIRRULES_PRESETS
+from in_beam_prompt_delayed_time_gating_random_subtractor import run_prompt_delayed_analysis, format_text_report as format_timegate_report, PRESETS as TIMEGATE_PRESETS
+from triaxial_hexadecapole_deformation_wobbling_modifier import run_hexadecapole_wobbling_analysis, format_text_report as format_hexwob_report, PRESETS as HEXWOB_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3664,6 +3666,42 @@ def cmd_chirrules(args):
     else:
         print(format_chirrules_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
+
+def cmd_timegate(args):
+    preset_name = args.preset if args.preset else "in_beam_134Ce_prompt_random_subtraction"
+    p = TIMEGATE_PRESETS[preset_name]
+    res = run_prompt_delayed_analysis(
+        peaks=p["peaks"],
+        prompt_win=p["prompt_window_ns"],
+        rand_win=p["random_window_ns"],
+        delayed_win=p.get("delayed_window_ns", None),
+        nucleus=p["nucleus"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_timegate_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_hexwob(args):
+    preset_name = args.preset if args.preset else "163Lu_TSD_positive_beta4"
+    p = HEXWOB_PRESETS[preset_name]
+    res = run_hexadecapole_wobbling_analysis(
+        nucleus=p["nucleus"],
+        beta2=p["beta2"],
+        gamma_deg=p["gamma_deg"],
+        beta4=p["beta4"],
+        J_base=p["J_base_hbar2_per_MeV"],
+        j_aligned=p["j_aligned_hbar"],
+        spin_I=p["spin_I"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_hexwob_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5177,6 +5215,20 @@ def main():
                       choices=list(CHIRRULES_PRESETS.keys()), help="Benchmark preset")
     p_cr.add_argument("--json", action="store_true", help="Output pure JSON")
     p_cr.set_defaults(func=cmd_chirrules)
+
+    # In-Beam Prompt-Delayed Coincidence Time Gating & Random Background Subtractor
+    p_tg = subparsers.add_parser("timegate", help="In-beam prompt-delayed gating & random coincidence subtractor (Wu Ch 9, 10 / Wang Ch 8)")
+    p_tg.add_argument("--preset", type=str, default="in_beam_134Ce_prompt_random_subtraction",
+                      choices=list(TIMEGATE_PRESETS.keys()), help="Benchmark preset")
+    p_tg.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tg.set_defaults(func=cmd_timegate)
+
+    # Triaxial Nuclear Hexadecapole Deformation Wobbling Modifier
+    p_hw = subparsers.add_parser("hexwob", help="Triaxial hexadecapole beta_4 deformation wobbling modifier (Bohr Vol 2 / Hendrie)")
+    p_hw.add_argument("--preset", type=str, default="163Lu_TSD_positive_beta4",
+                      choices=list(HEXWOB_PRESETS.keys()), help="Benchmark preset")
+    p_hw.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_hw.set_defaults(func=cmd_hexwob)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

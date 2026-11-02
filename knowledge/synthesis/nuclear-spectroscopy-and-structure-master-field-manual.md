@@ -104,6 +104,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `tacbifurc` | 3D-TAC 手征空间取向势能面、超临界叉式分岔临界自旋与手征势垒反演 | 假定两体单粒子角动量刚性对齐；高自旋微观配对波动与软核涨落需含时密度泛函微观校核 |
 | `foldmult` | 在束多探测器阵列符合折叠数到多重度分布与复合核进入态自旋/能量反褶积 | 依赖阵列单光子效率与几何响应模型；受级联非统计电偶极与微弱转换电子竞争微扰 |
 | `chirrules` | 手征双重带带内 B(M1) 奇偶交错同相性与带间 Delta I = 0 M1 跃迁极小仲裁 | 需双带精确电磁跃迁几率或分支比测量；低自旋大振幅手征振动区需结合隧穿波函数修正 |
+| `timegate` | 在束多探头阵列瞬发-缓发时间门选与随机符合本底差分扣除 | 假定束流具有稳定 RF 微脉冲结构；极高计数率下需计入相邻束团重叠污染项 |
+| `hexwob` | 非轴对称三轴核十六极形变 beta_4 微扰修正与摆动频率演化求解器 | 适用于高自旋或超形变能带；大振幅非简谐摆动需结合数值薛定谔方程对角化 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -157,6 +159,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py mcintyre --preset 16O_208Pb_
 python3 system/scripts/analysis/nuclear_analyzer.py tacbifurc --preset 134Pr_chiral_bifurcation --json
 python3 system/scripts/analysis/nuclear_analyzer.py foldmult --preset 4pi_bgo_ball_fusion_evaporation --json
 python3 system/scripts/analysis/nuclear_analyzer.py chirrules --preset 128Cs_chiral_doublet_benchmark --json
+python3 system/scripts/analysis/nuclear_analyzer.py timegate --preset in_beam_134Ce_prompt_random_subtraction --json
+python3 system/scripts/analysis/nuclear_analyzer.py hexwob --preset 163Lu_TSD_positive_beta4 --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

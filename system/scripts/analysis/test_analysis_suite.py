@@ -172,6 +172,8 @@ from heavy_ion_mcintyre_s_matrix_reaction_cross_section_analyzer import calculat
 from three_dimensional_tac_chiral_pitchfork_bifurcation_inverter import calculate_pitchfork_bifurcation
 from in_beam_array_fold_multiplicity_entry_state_unfolder import calculate_binomial_response_matrix, map_to_entry_spin_and_energy
 from chiral_doublet_selection_rules_m1_staggering_arbitrator import calculate_m1_staggering, arbitrate_chiral_selection_rules
+from in_beam_prompt_delayed_time_gating_random_subtractor import calculate_window_width, perform_random_subtraction
+from triaxial_hexadecapole_deformation_wobbling_modifier import calculate_hexadecapole_modified_moi, calculate_wobbling_frequency_with_beta4
 
 
 def test_heavy_ion_kinematics():
@@ -1917,6 +1919,24 @@ def test_chiral_selection_rules():
     print("  ✓ chiral_doublet_selection_rules_m1_staggering_arbitrator passed.")
 
 
+def test_prompt_delayed_time_gating():
+    print("Testing in_beam_prompt_delayed_time_gating_random_subtractor...")
+    p_win = {"t_start": -4.0, "t_stop": 8.0}
+    r_win = {"t_start": 25.0, "t_stop": 75.0}
+    peaks = [{"energy_keV": 409.0, "prompt_counts": 14200, "random_counts": 6400}]
+    res = perform_random_subtraction(peaks, p_win, r_win)
+    assert abs(res["subtracted_peaks"][0]["net_true_counts"] - 12664.0) < 1.0
+    print("  ✓ in_beam_prompt_delayed_time_gating_random_subtractor passed.")
+
+
+def test_hexadecapole_wobbling():
+    print("Testing triaxial_hexadecapole_deformation_wobbling_modifier...")
+    moi = calculate_hexadecapole_modified_moi(0.25, 22.0, 0.0, 30.0)
+    wob = calculate_wobbling_frequency_with_beta4(moi, 19.5, 5.5)
+    assert abs(wob["delta_wobbling_freq_keV"]) < 1e-4
+    print("  ✓ triaxial_hexadecapole_deformation_wobbling_modifier passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2419,4 +2439,6 @@ if __name__ == "__main__":
     test_3d_tac_pitchfork_bifurcation()
     test_fold_multiplicity_unfolding()
     test_chiral_selection_rules()
+    test_prompt_delayed_time_gating()
+    test_hexadecapole_wobbling()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

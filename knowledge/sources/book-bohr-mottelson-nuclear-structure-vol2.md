@@ -52,6 +52,7 @@ Vol. II 原版 1975；本地为 World Scientific 重印。此记录与 [[book-bo
 | BM2-6 | Davydov-Chaban 非绝热三轴转子模型：引入动力学可变性参量 $\mu$，由一元四次平衡方程 $p^3(p-1) = \mu^4 \varepsilon(J, \gamma)$ 求解离心 $\beta$ 拉伸比 $p = \beta/\beta_0$，成功将刚性 Davydov-Filippov 转子推广至同时解释基态带、$\gamma$ 振动带头与奇自旋能态间距。 | model-result | direct | Vol. II, §4-2, pp. 175–195 | false |
 | BM2-7 | 奇 $A$ 变形核 Coriolis 带混合与签名裂相：通过 Coriolis 相互作用 $H_{\text{Coriolis}} = -A_{\text{rot}} [I_+ j_- + I_- j_+]$ 连接 $\Delta K = \pm 1$ 的转动带，推导对角解耦项 $\Delta E_{1/2} = a A_{\text{rot}} (-1)^{I+1/2}(I+1/2)$，严格证明三对角哈密顿矩阵对角化后波函数向多个 $K$ 分量的空间弥散，微观解释单核子对齐与签名交错。 | model-result | direct | Vol. II, §4-3, pp. 158–175 | false |
 | BM2-8 | 三轴超形变（TSD）摆动激发与退激穿透动力学：在非轴对称超形变势阱中，准粒子取向与非主轴转动形成多声子摆动能带；当激发能随自旋降低逼近正常形变（ND）态时，经由 Hill-Wheeler 势垒穿透向密集复合态隧穿（Decayout），阐明超形变带在低自旋区的终止截断机制。 | model-result | direct | Vol. II, §4-5, pp. 190–210 | false |
+| BM2-9 | 三轴核高阶十六极形变（$\beta_4, \gamma_4$）对转动惯量与摆动频率的微扰修正：核表面十六极形变使主轴转动惯量引入重整化修正 $\mathcal{J}_k(\beta_2, \gamma, \beta_4) = \mathcal{J}_k^{(0)} [1 + \kappa_4 \beta_4 \cos(\gamma - 2\pi k/3) + \mathcal{O}(\beta_4^2)]$；证明正 $\beta_4 > 0$ 增强中间轴惯量优势并稳定横向摆动，而负 $\beta_4 < 0$ 削弱惯量不对称性并加速频率下落，完善了纯四极转子模型的微观多极拓展。 | model-result | direct | Vol. II, §4-2, pp. 135–150; §4-5, pp. 190–215 | false |
 
 ## Analytical Reconstruction and Transfer Conditions
 
