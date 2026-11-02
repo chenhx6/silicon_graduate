@@ -188,6 +188,8 @@ from odd_odd_3d_tac_recoil_chiral_orientator import evaluate_recoil_coupled_ener
 from hpge_energy_non_linearity_inl_dnl_calibrator import fit_energy_polynomial, evaluate_calibrated_energy
 from odd_odd_chiral_mep_instanton_tunneling_solver import OddOddChiralMEPInstantonSolver
 from in_beam_hpge_tfa_crossover_walk_jitter_optimizer import HPGeTFACrossoverOptimizer
+from heavy_ion_triaxial_fusion_barrier_distribution_inverter import TriaxialFusionBarrierInverter
+from odd_a_transverse_longitudinal_wobbling_stability_solver import OddAWobblingStabilitySolver
 
 
 def test_heavy_ion_kinematics():
@@ -2069,6 +2071,25 @@ def test_hpge_tfa_crossover_walk():
     print("  ✓ in_beam_hpge_tfa_crossover_walk_jitter_optimizer passed.")
 
 
+def test_triaxial_fusion_barrier():
+    print("Testing heavy_ion_triaxial_fusion_barrier_distribution_inverter...")
+    inv = TriaxialFusionBarrierInverter(V_B0_MeV=72.5, beta2=0.23, gamma_deg=22.0)
+    res = inv.evaluate_barrier_distribution(np.linspace(66.0, 80.0, 15))
+    cb = res["characteristic_barriers"]
+    assert cb["triaxial_belly_splitting_MeV"] > 3.0
+    assert res["is_triaxial_fingerprint"]
+    print("  ✓ heavy_ion_triaxial_fusion_barrier_distribution_inverter passed.")
+
+
+def test_odd_a_wobbling_stability():
+    print("Testing odd_a_transverse_longitudinal_wobbling_stability_solver...")
+    solver = OddAWobblingStabilitySolver(wobbling_mode="TW", inertia_model="rigid", j_qp=5.5, gamma_deg=22.0)
+    res = solver.evaluate_spin_series([8.5, 10.5, 12.5])
+    assert res["frequency_slope_dOmega_dI"] < 0.0
+    assert res["mode_confirmed"]
+    print("  ✓ odd_a_transverse_longitudinal_wobbling_stability_solver passed.")
+
+
 def test_hpge_energy_non_linearity():
     print("Testing hpge_energy_non_linearity_inl_dnl_calibrator...")
     from scipy.interpolate import UnivariateSpline
@@ -2600,4 +2621,6 @@ if __name__ == "__main__":
     test_hpge_energy_non_linearity()
     test_odd_odd_chiral_mep()
     test_hpge_tfa_crossover_walk()
+    test_triaxial_fusion_barrier()
+    test_odd_a_wobbling_stability()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

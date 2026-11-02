@@ -187,6 +187,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py recoilchir --preset 134Pr_re
 python3 system/scripts/analysis/nuclear_analyzer.py nonlincal --preset 16_point_standard_multisource_benchmark --json
 python3 system/scripts/analysis/nuclear_analyzer.py chirmep --preset 134Pr_chiral_mep_instanton --json
 python3 system/scripts/analysis/nuclear_analyzer.py tfawalk --preset coaxial_hpge_in_beam_70pct --json
+python3 system/scripts/analysis/nuclear_analyzer.py triaxfus --preset 16O_186W_triaxial_candidate --json
+python3 system/scripts/analysis/nuclear_analyzer.py wobstab --preset 135Pr_transverse_rigid_stable --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

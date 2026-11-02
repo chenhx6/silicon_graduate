@@ -174,6 +174,8 @@ from odd_odd_3d_tac_recoil_chiral_orientator import run_recoil_chiral_analysis, 
 from hpge_energy_non_linearity_inl_dnl_calibrator import run_non_linearity_analysis, format_text_report as format_nonlincal_report, PRESETS as NONLINCAL_PRESETS
 from odd_odd_chiral_mep_instanton_tunneling_solver import run_chiral_mep_analysis, format_text_report as format_chirmep_report, PRESETS as CHIRMEP_PRESETS
 from in_beam_hpge_tfa_crossover_walk_jitter_optimizer import run_tfa_walk_analysis, format_text_report as format_tfawalk_report, PRESETS as TFAWALK_PRESETS
+from heavy_ion_triaxial_fusion_barrier_distribution_inverter import run_fusion_barrier_analysis, format_text_report as format_triaxfus_report, PRESETS as TRIAXFUS_PRESETS
+from odd_a_transverse_longitudinal_wobbling_stability_solver import run_wobbling_stability_analysis, format_text_report as format_wobstab_report, PRESETS as WOBSTAB_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3996,6 +3998,48 @@ def cmd_tfawalk(args):
         print(format_tfawalk_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
 
+def cmd_triaxfus(args):
+    preset_name = args.preset if args.preset else "16O_186W_triaxial_candidate"
+    p = TRIAXFUS_PRESETS[preset_name]
+    res = run_fusion_barrier_analysis(
+        system=p.get("system", "Generic"),
+        V_B0_MeV=p["V_B0_MeV"],
+        R_B0_fm=p["R_B0_fm"],
+        hbar_omega_B_MeV=p["hbar_omega_B_MeV"],
+        beta2=p["beta2"],
+        gamma_deg=p["gamma_deg"],
+        Ap=p["Ap"],
+        At=p["At"],
+        energy_range_MeV=p.get("energy_eval_range_MeV"),
+        n_points=p.get("n_energy_points", 50)
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_triaxfus_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_wobstab(args):
+    preset_name = args.preset if args.preset else "135Pr_transverse_rigid_stable"
+    p = WOBSTAB_PRESETS[preset_name]
+    res = run_wobbling_stability_analysis(
+        nucleus=p.get("nucleus", "Generic"),
+        wobbling_mode=p["wobbling_mode"],
+        inertia_model=p.get("inertia_model", "rigid"),
+        j_qp=p["j_quasiparticle"],
+        k_att=p.get("k_coriolis_attenuation", 0.85),
+        gamma_deg=p["gamma_deg"],
+        moi_i=p["moi_i"],
+        eval_spins=p.get("eval_spins")
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_wobstab_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5625,6 +5669,20 @@ def main():
                       choices=list(TFAWALK_PRESETS.keys()), help="Benchmark preset")
     p_tw.add_argument("--json", action="store_true", help="Output pure JSON")
     p_tw.set_defaults(func=cmd_tfawalk)
+
+    # Heavy-Ion Triaxial Fusion Barrier Distribution Inverter
+    p_tf = subparsers.add_parser("triaxfus", help="Heavy-ion triaxial fusion barrier distribution inverter (Lin Ch 4 / Bertulani Ch 7)")
+    p_tf.add_argument("--preset", type=str, default="16O_186W_triaxial_candidate",
+                      choices=list(TRIAXFUS_PRESETS.keys()), help="Benchmark preset")
+    p_tf.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tf.set_defaults(func=cmd_triaxfus)
+
+    # Odd-A Wobbling Stability & Bifurcation Solver
+    p_ws = subparsers.add_parser("wobstab", help="Odd-A transverse vs longitudinal wobbling stability solver (Petrache Ch 2,5 / Frauendorf PRC)")
+    p_ws.add_argument("--preset", type=str, default="135Pr_transverse_rigid_stable",
+                      choices=list(WOBSTAB_PRESETS.keys()), help="Benchmark preset")
+    p_ws.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_ws.set_defaults(func=cmd_wobstab)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
