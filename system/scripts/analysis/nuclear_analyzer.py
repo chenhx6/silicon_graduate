@@ -154,6 +154,8 @@ from two_quasiparticle_even_even_wobbling_analyzer import run_two_qp_wobbling_an
 from hpge_efficiency_curve_covariance_fitter import run_efficiency_analysis, format_text_report as format_effcov_report, PRESETS as EFFCOV_PRESETS
 from in_beam_gated_matrix_multiplet_deconvolution_fitter import run_multiplet_analysis, format_text_report as format_gatedmult_report, PRESETS as GATEDMULT_PRESETS
 from triaxial_superdeformed_wobbling_decayout_analyzer import run_tsd_decayout_analysis, format_text_report as format_tsddecay_report, PRESETS as TSDDECAY_PRESETS
+from heavy_ion_mcintyre_s_matrix_reaction_cross_section_analyzer import run_mcintyre_analysis, format_text_report as format_mcintyre_report, PRESETS as MCINTYRE_PRESETS
+from three_dimensional_tac_chiral_pitchfork_bifurcation_inverter import run_chiral_pitchfork_analysis, format_text_report as format_tacbifurc_report, PRESETS as TACBIFURC_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3572,6 +3574,59 @@ def cmd_tsddecay(args):
     else:
         print(format_tsddecay_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
+
+def cmd_mcintyre(args):
+    if args.preset and args.preset in MCINTYRE_PRESETS:
+        p = MCINTYRE_PRESETS[args.preset]
+        Ap, Zp, At, Zt = p["Ap"], p["Zp"], p["At"], p["Zt"]
+        Elab = p["Elab_MeV"]
+        l_g = p["l_grazing"]
+        dl = p["Delta_l"]
+        d0 = p.get("delta_0_rad", 0.40)
+        lmax = p.get("l_max", 90)
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        Ap = args.Ap if hasattr(args, "Ap") and args.Ap else 16
+        Zp = args.Zp if hasattr(args, "Zp") and args.Zp else 8
+        At = args.At if hasattr(args, "At") and args.At else 208
+        Zt = args.Zt if hasattr(args, "Zt") and args.Zt else 82
+        Elab = args.Elab if hasattr(args, "Elab") and args.Elab else 129.5
+        l_g = 55.4
+        dl = 3.25
+        d0 = 0.45
+        lmax = 90
+        title = "Custom User Input"
+
+    res = run_mcintyre_analysis(
+        Ap=Ap, Zp=Zp, At=At, Zt=Zt,
+        Elab_MeV=Elab,
+        l_grazing=l_g,
+        Delta_l=dl,
+        delta_0_rad=d0,
+        l_max=lmax
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_mcintyre_report(res, title=title))
+
+
+def cmd_tacbifurc(args):
+    preset_name = args.preset if args.preset else "134Pr_chiral_bifurcation"
+    p = TACBIFURC_PRESETS[preset_name]
+    res = run_chiral_pitchfork_analysis(
+        nucleus=p["nucleus"],
+        quasiparticles=p["quasiparticles"],
+        moments_of_inertia=p["moments_of_inertia"],
+        spins_to_evaluate=p["spins_to_evaluate"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_tacbifurc_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5052,6 +5107,25 @@ def main():
                        choices=list(TSDDECAY_PRESETS.keys()), help="Benchmark preset")
     p_tsd.add_argument("--json", action="store_true", help="Output pure JSON")
     p_tsd.set_defaults(func=cmd_tsddecay)
+
+    # Heavy-Ion McIntyre S-Matrix Reaction Cross Section Analyzer
+    p_mc = subparsers.add_parser("mcintyre", help="Heavy-ion McIntyre S-matrix & reaction cross section inverter (Lin Ch 3 / Bertulani Ch 3)")
+    p_mc.add_argument("--preset", type=str, default="16O_208Pb_129.5MeV",
+                      choices=list(MCINTYRE_PRESETS.keys()), help="Benchmark preset")
+    p_mc.add_argument("--Ap", type=int, help="Projectile A")
+    p_mc.add_argument("--Zp", type=int, help="Projectile Z")
+    p_mc.add_argument("--At", type=int, help="Target A")
+    p_mc.add_argument("--Zt", type=int, help="Target Z")
+    p_mc.add_argument("--Elab", type=float, help="Beam energy in MeV")
+    p_mc.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_mc.set_defaults(func=cmd_mcintyre)
+
+    # 3D-TAC Chiral Pitchfork Bifurcation Inverter
+    p_tb = subparsers.add_parser("tacbifurc", help="3D-TAC chiral supercritical pitchfork bifurcation & barrier inverter (Petrache Ch 2, 9 / Meng)")
+    p_tb.add_argument("--preset", type=str, default="134Pr_chiral_bifurcation",
+                      choices=list(TACBIFURC_PRESETS.keys()), help="Benchmark preset")
+    p_tb.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tb.set_defaults(func=cmd_tacbifurc)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

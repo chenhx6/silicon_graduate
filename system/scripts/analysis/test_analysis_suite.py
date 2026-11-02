@@ -168,6 +168,8 @@ from two_quasiparticle_even_even_wobbling_analyzer import calculate_two_quasipar
 from hpge_efficiency_curve_covariance_fitter import fit_efficiency_curve_wls, evaluate_efficiency_with_covariance
 from in_beam_gated_matrix_multiplet_deconvolution_fitter import multiplet_model_function, fit_gated_multiplet
 from triaxial_superdeformed_wobbling_decayout_analyzer import calculate_transition_widths_and_tunneling, evaluate_decayout_threshold
+from heavy_ion_mcintyre_s_matrix_reaction_cross_section_analyzer import calculate_kinematics as calc_mcintyre_kin, calculate_reaction_cross_sections as calc_mcintyre_xs
+from three_dimensional_tac_chiral_pitchfork_bifurcation_inverter import calculate_pitchfork_bifurcation
 
 
 def test_heavy_ion_kinematics():
@@ -1879,6 +1881,22 @@ def test_tsd_wobbling_decayout():
     print("  ✓ triaxial_superdeformed_wobbling_decayout_analyzer passed.")
 
 
+def test_mcintyre_s_matrix():
+    print("Testing heavy_ion_mcintyre_s_matrix_reaction_cross_section_analyzer...")
+    kin = calc_mcintyre_kin(16, 8, 208, 82, 129.5)
+    xs = calc_mcintyre_xs(kin, 55.4, 3.25, 0.45, 90)
+    assert xs["sigma_reaction_mb"] > 1000.0
+    print("  ✓ heavy_ion_mcintyre_s_matrix_reaction_cross_section_analyzer passed.")
+
+
+def test_3d_tac_pitchfork_bifurcation():
+    print("Testing three_dimensional_tac_chiral_pitchfork_bifurcation_inverter...")
+    pt = calculate_pitchfork_bifurcation(16.0, 5.5, 5.5, 30.0, 12.0, 6.0)
+    assert pt["is_chiral_phase"]
+    assert pt["chiral_barrier_keV"] > 100.0
+    print("  ✓ three_dimensional_tac_chiral_pitchfork_bifurcation_inverter passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2377,4 +2395,6 @@ if __name__ == "__main__":
     test_hpge_efficiency_covariance()
     test_gated_multiplet_deconvolution()
     test_tsd_wobbling_decayout()
+    test_mcintyre_s_matrix()
+    test_3d_tac_pitchfork_bifurcation()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

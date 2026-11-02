@@ -100,6 +100,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `effcov` | HPGe / Clover 探测器全能峰效率曲线加权最小二乘拟合与严格全协方差误差传播 | 假定对数多项式在大于 80 keV 能区成立；超低能区（< 50 keV）吸收边缘需采用分段双幂律模型 |
 | `gatedmult` | 在束符合矩阵门扣除本底重叠多重峰加权拟合与峰面积协方差反演 | 假定局部探测器能量分辨率为高斯线型；具有极强长低能拖尾的大晶体需扩展非对称卷积尾 |
 | `tsddecay` | 三轴超形变（TSD）摆动带退激穿透、势垒隧穿与分支竞争动力学分析 | 采用 Hill-Wheeler 统计单势垒穿透模型；受正常形变态局部能级密度涨落与共振混合影响 |
+| `mcintyre` | 重离子强吸收 S 矩阵 McIntyre 参数化、分波透光度与总反应截面半经典反演 | 假定平滑 Woods-Saxon 角动量吸收截断；极深能区或微细共振结构需微观光学模型展开 |
+| `tacbifurc` | 3D-TAC 手征空间取向势能面、超临界叉式分岔临界自旋与手征势垒反演 | 假定两体单粒子角动量刚性对齐；高自旋微观配对波动与软核涨落需含时密度泛函微观校核 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -149,6 +151,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py twoqpwob --preset 130Ba_two_
 python3 system/scripts/analysis/nuclear_analyzer.py effcov --preset clover_detector_152Eu_calibration --query-E 409,638,1332 --json
 python3 system/scripts/analysis/nuclear_analyzer.py gatedmult --preset 133Ce_wobbling_candidate_doublet --json
 python3 system/scripts/analysis/nuclear_analyzer.py tsddecay --preset 163Lu_TSD2_wobbling_decayout --json
+python3 system/scripts/analysis/nuclear_analyzer.py mcintyre --preset 16O_208Pb_129.5MeV --json
+python3 system/scripts/analysis/nuclear_analyzer.py tacbifurc --preset 134Pr_chiral_bifurcation --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

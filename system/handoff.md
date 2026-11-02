@@ -7158,3 +7158,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-8 entry.
 - Added unit test suite `system/tests/test_tsd_wobbling_decayout.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **136 official analysis modules**, all verified passing in 2.4s.
+
+### Heavy-Ion McIntyre S-Matrix Reaction Cross Section Analyzer (Module 137) 2026-11-03T22:45:00+08:00
+
+- Integrated Heavy-Ion Strong Absorption Model (SAM) McIntyre S-Matrix Parametrization, Partial Wave Transmission & Total Reaction Cross Section Inversion Suite (`heavy_ion_mcintyre_s_matrix_reaction_cross_section_analyzer.py`):
+  - Based on 林承键《重离子核反应》第 3 章 §3.2 (pp. 55–75), C. A. Bertulani *Introduction to Nuclear Reactions* Ch. 3 & 4, and J. A. McIntyre et al. (Phys. Rev. 117, 1337, 1960):
+    * Formulates McIntyre smooth Woods-Saxon reflection coefficient $\eta_\ell = [1 + \exp((\ell_g - \ell)/\Delta\ell)]^{-1}$ and transmission $T_\ell = 1 - \eta_\ell^2$.
+    * Integrates partial-wave series to evaluate total reaction cross section $\sigma_R = \frac{\pi}{k^2}\sum(2\ell+1)T_\ell$, elastic cross section $\sigma_{\text{el}}$, and total scattering cross section $\sigma_{\text{tot}}$.
+    * Inverts grazing angular momentum $\ell_g$ to strong absorption contact radius $R_{\text{int}}$, radius parameter $r_0 = R_{\text{int}}/(A_p^{1/3} + A_t^{1/3})$, and surface diffuseness $d = \Delta\ell / k$.
+  - Benchmarks:
+    * $^{16}\text{O} + {}^{208}\text{Pb}$ landmark scattering at $E_{\text{lab}} = 129.5\text{ MeV}$ (Ball et al. 1975): accurately inverts $\sigma_R = 1294.8\text{ mb}$ ($1.295\text{ barns}$), $R_{\text{int}} = 11.09\text{ fm}, r_0 = 1.314\text{ fm}$, and diffuseness $d = 0.352\text{ fm}$.
+    * $^{12}\text{C} + {}^{12}\text{C}$ at $E_{\text{lab}} = 120\text{ MeV}$: resolves $\sigma_R = 1387.9\text{ mb}$ and $r_0 = 1.403\text{ fm}$.
+    * $\alpha + {}^{40}\text{Ca}$ at $E_{\text{lab}} = 104\text{ MeV}$: confirms consistent interaction geometry.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `mcintyre`.
+- Created concept page: `knowledge/concepts/heavy-ion-mcintyre-s-matrix-and-reaction-cross-section.md`.
+- Updated source card `knowledge/sources/book-lin-heavy-ion-reactions.md` with LIN-8 entry.
+- Added unit test suite `system/tests/test_mcintyre_s_matrix.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 137.
+
+### 3D-TAC Chiral Pitchfork Bifurcation Inverter (Module 138) 2026-11-03T23:15:00+08:00
+
+- Integrated Three-Dimensional Tilted Axis Cranking (3D-TAC) Chiral Pitchfork Bifurcation Phase Transition Inverter & Out-of-Plane Orientation Energy Engine (`three_dimensional_tac_chiral_pitchfork_bifurcation_inverter.py`):
+  - Based on *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 2 (J. Meng & P. W. Zhao), Ch. 9 (PDF pp. 204–221), P. W. Zhao et al. (Phys. Lett. B 699, 181, 2011), and S. Frauendorf & J. Meng (Nucl. Phys. A 617, 131, 1997):
+    * Evaluates quasiclassical 3D-TAC orientation energy surface $E(J, \theta, \phi)$ in spherical tilt coordinates: $J_s = J \sin\theta \cos\phi, J_m = J \sin\theta \sin\phi, J_l = J \cos\theta$.
+    * Formulates analytical supercritical pitchfork bifurcation: below critical spin $J_{\text{crit}}$, planar rotation ($\phi = 0^\circ$) is stable; crossing $J_{\text{crit}}$ destabilizes the planar minimum into a saddle point, generating two degenerate out-of-plane chiral minima at $\pm\phi_{\text{min}}(J) = \pm\arccos(J_{\text{crit}}/J) > 0^\circ$.
+    * Calculates chiral potential barrier height $\Delta E_{\text{barrier}}(J) = E(\text{saddle}, \phi=0) - E(\text{min}, \phi_{\text{min}})$ and normalized chiral volume metric $V_{\text{chiral}}$, governing quantum tunneling splitting in chiral doublets.
+  - Benchmarks:
+    * $^{134}\text{Pr}$ landmark chiral nucleus: pinpoints pitchfork bifurcation at $J_{\text{crit}} = 12.0\ \hbar$, with out-of-plane angle tilting to $\phi = 50.6^\circ$ at $J = 16\ \hbar$ with chiral barrier $\Delta E = 633.1\text{ keV}$ and chiral volume $V = 0.302$.
+    * $^{128}\text{Cs}$ chiral doublet benchmark: verifies consistent aplanar geometry and barrier growth.
+    * Axially symmetric rotor counterexample: confirms strict absence of bifurcation ($\phi \equiv 0^\circ$, barrier $= 0\text{ keV}$).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `tacbifurc`.
+- Created concept page: `knowledge/concepts/three-dimensional-tac-chiral-pitchfork-bifurcation.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-10 entry.
+- Added unit test suite `system/tests/test_3d_tac_pitchfork_bifurcation.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **138 official analysis modules**, all verified passing in 3.3s.
