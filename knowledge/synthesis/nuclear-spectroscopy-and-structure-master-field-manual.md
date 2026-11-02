@@ -116,6 +116,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `rddsddcm` | 在束反冲距离多普勒频移法（RDDS）微分衰减曲线（DDCM）皮秒寿命反演 | 需平滑自适应样条对 R(d) 求导；飞行有效灵敏区外（R < 0.15 或 > 0.85）涨落较大需剔除 |
 | `rostovsky` | Davydov-Rostovsky 非绝热三轴转子 beta/gamma 带间混合与 Alaga 偏离反演 | 采用一阶 Mikhailov 展开近似；极端转-振强非谐混合需计入多声子高阶修正项 |
 | `snip2d` | 在束二维 gamma-gamma 符合矩阵 2D-SNIP 连续康普顿背景自适应平滑剥离 | 依赖合适剪切窗口 p_max (~1.5 FWHM)；超宽弥散结构需多尺度级联滤波结合 |
+| `recoilchir` | 奇奇核 3D-TAC 残余质子-中子反冲力矩与出平面手征势垒重整化求解器 | 采用准经典粒子-孔正交微观张量耦合；高自旋多极化杂化需拓展全组态空间 |
+| `nonlincal` | HPGe 探测器与多道 ADC 积分非线性（INL/DNL）高次多项式与样条精密校准 | 需多点高精度标准参考源；极端温漂下需实时注入参考脉冲动态跟踪漂移 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -181,6 +183,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py tpsmproj --preset 130Ba_TPSM
 python3 system/scripts/analysis/nuclear_analyzer.py rddsddcm --preset 134Ce_2plus_rdds_plunger --json
 python3 system/scripts/analysis/nuclear_analyzer.py rostovsky --preset 152Sm_classic_transitional_nucleus --json
 python3 system/scripts/analysis/nuclear_analyzer.py snip2d --preset 130Ba_gated_matrix_slice_snip --json
+python3 system/scripts/analysis/nuclear_analyzer.py recoilchir --preset 134Pr_recoil_coupled_chiral_band --json
+python3 system/scripts/analysis/nuclear_analyzer.py nonlincal --preset 16_point_standard_multisource_benchmark --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

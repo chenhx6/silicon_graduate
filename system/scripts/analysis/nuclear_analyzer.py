@@ -170,6 +170,8 @@ from tpsm_3d_angular_momentum_projection_diagonalizer import run_tpsm_analysis, 
 from in_beam_rdds_ddcm_lifetime_inverter import run_rdds_ddcm_analysis, format_text_report as format_rddsddcm_report, PRESETS as RDDSDDCM_PRESETS
 from davydov_rostovsky_triaxial_band_mixing_solver import run_davydov_rostovsky_analysis, format_text_report as format_rostovsky_report, PRESETS as ROSTOVSKY_PRESETS
 from in_beam_2d_snip_matrix_background_estimator import run_2d_snip_analysis, format_text_report as format_snip2d_report, PRESETS as SNIP2D_PRESETS
+from odd_odd_3d_tac_recoil_chiral_orientator import run_recoil_chiral_analysis, format_text_report as format_recoilchir_report, PRESETS as RECOILCHIR_PRESETS
+from hpge_energy_non_linearity_inl_dnl_calibrator import run_non_linearity_analysis, format_text_report as format_nonlincal_report, PRESETS as NONLINCAL_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3913,6 +3915,41 @@ def cmd_snip2d(args):
     else:
         print(format_snip2d_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
+
+def cmd_recoilchir(args):
+    preset_name = args.preset if args.preset else "134Pr_recoil_coupled_chiral_band"
+    p = RECOILCHIR_PRESETS[preset_name]
+    res = run_recoil_chiral_analysis(
+        nucleus=p["nucleus"],
+        jp=p["j_p_hbar"],
+        jn=p["j_n_hbar"],
+        V_pn=p["V_pn_coupling"],
+        moments_of_inertia=p["moments_of_inertia"],
+        spins=p["spins_to_evaluate"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_recoilchir_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_nonlincal(args):
+    preset_name = args.preset if args.preset else "16_point_standard_multisource_benchmark"
+    p = NONLINCAL_PRESETS[preset_name]
+    res = run_non_linearity_analysis(
+        detector=p["detector"],
+        lines=p["calibration_lines"],
+        query_channels=p.get("query_channels", [1000.0, 2000.0, 3000.0]),
+        poly_degree=p.get("poly_degree", 3),
+        ch_center=p.get("channel_center", 4000.0)
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_nonlincal_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5514,6 +5551,20 @@ def main():
                       choices=list(SNIP2D_PRESETS.keys()), help="Benchmark preset")
     p_sn.add_argument("--json", action="store_true", help="Output pure JSON")
     p_sn.set_defaults(func=cmd_snip2d)
+
+    # Odd-Odd 3D-TAC Recoil Chiral Orientator
+    p_rc = subparsers.add_parser("recoilchir", help="Odd-odd 3D-TAC residual p-n recoil torque & chiral barrier (Petrache Ch 2,8 / Frauendorf)")
+    p_rc.add_argument("--preset", type=str, default="134Pr_recoil_coupled_chiral_band",
+                      choices=list(RECOILCHIR_PRESETS.keys()), help="Benchmark preset")
+    p_rc.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_rc.set_defaults(func=cmd_recoilchir)
+
+    # HPGe Detector Energy Non-Linearity (INL/DNL) Precision Calibrator
+    p_nl = subparsers.add_parser("nonlincal", help="HPGe energy non-linearity (INL) polynomial & spline calibrator (Wu Ch 8,10 / Helmer)")
+    p_nl.add_argument("--preset", type=str, default="16_point_standard_multisource_benchmark",
+                      choices=list(NONLINCAL_PRESETS.keys()), help="Benchmark preset")
+    p_nl.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_nl.set_defaults(func=cmd_nonlincal)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

@@ -184,6 +184,8 @@ from tpsm_3d_angular_momentum_projection_diagonalizer import calculate_effective
 from in_beam_rdds_ddcm_lifetime_inverter import evaluate_ddcm_curve, extract_plateau_lifetime_and_be2
 from davydov_rostovsky_triaxial_band_mixing_solver import invert_gamma_mixing_parameter, calculate_davydov_rostovsky_parameters
 from in_beam_2d_snip_matrix_background_estimator import generate_synthetic_2d_matrix, execute_2d_snip_algorithm
+from odd_odd_3d_tac_recoil_chiral_orientator import evaluate_recoil_coupled_energy, find_optimal_orientation
+from hpge_energy_non_linearity_inl_dnl_calibrator import fit_energy_polynomial, evaluate_calibrated_energy
 
 
 def test_heavy_ion_kinematics():
@@ -2037,6 +2039,27 @@ def test_2d_snip_background():
     print("  ✓ in_beam_2d_snip_matrix_background_estimator passed.")
 
 
+def test_odd_odd_recoil_chiral():
+    print("Testing odd_odd_3d_tac_recoil_chiral_orientator...")
+    pt = find_optimal_orientation(16.0, 5.5, 5.5, 30.0, 12.0, 6.0, 0.15)
+    assert pt["is_chiral_phase"]
+    assert pt["chiral_barrier_keV"] > 300.0
+    print("  ✓ odd_odd_3d_tac_recoil_chiral_orientator passed.")
+
+
+def test_hpge_energy_non_linearity():
+    print("Testing hpge_energy_non_linearity_inl_dnl_calibrator...")
+    from scipy.interpolate import UnivariateSpline
+    chs = [200.0, 1000.0, 2000.0, 4000.0]
+    es = [60.0, 320.0, 640.0, 1280.0]
+    sigs = [0.01, 0.01, 0.01, 0.01]
+    fit = fit_energy_polynomial(chs, es, sigs, degree=2, ch_center=2000.0)
+    spline = UnivariateSpline(chs, fit["residuals_keV"], k=2, s=0.0)
+    eval_pt = evaluate_calibrated_energy(1000.0, fit, spline)
+    assert abs(eval_pt["final_calibrated_energy_keV"] - 320.0) < 0.05
+    print("  ✓ hpge_energy_non_linearity_inl_dnl_calibrator passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2551,4 +2574,6 @@ if __name__ == "__main__":
     test_rdds_ddcm_lifetime()
     test_davydov_rostovsky_mixing()
     test_2d_snip_background()
+    test_odd_odd_recoil_chiral()
+    test_hpge_energy_non_linearity()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")
