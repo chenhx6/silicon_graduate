@@ -102,6 +102,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `tsddecay` | 三轴超形变（TSD）摆动带退激穿透、势垒隧穿与分支竞争动力学分析 | 采用 Hill-Wheeler 统计单势垒穿透模型；受正常形变态局部能级密度涨落与共振混合影响 |
 | `mcintyre` | 重离子强吸收 S 矩阵 McIntyre 参数化、分波透光度与总反应截面半经典反演 | 假定平滑 Woods-Saxon 角动量吸收截断；极深能区或微细共振结构需微观光学模型展开 |
 | `tacbifurc` | 3D-TAC 手征空间取向势能面、超临界叉式分岔临界自旋与手征势垒反演 | 假定两体单粒子角动量刚性对齐；高自旋微观配对波动与软核涨落需含时密度泛函微观校核 |
+| `foldmult` | 在束多探测器阵列符合折叠数到多重度分布与复合核进入态自旋/能量反褶积 | 依赖阵列单光子效率与几何响应模型；受级联非统计电偶极与微弱转换电子竞争微扰 |
+| `chirrules` | 手征双重带带内 B(M1) 奇偶交错同相性与带间 Delta I = 0 M1 跃迁极小仲裁 | 需双带精确电磁跃迁几率或分支比测量；低自旋大振幅手征振动区需结合隧穿波函数修正 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -153,6 +155,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py gatedmult --preset 133Ce_wob
 python3 system/scripts/analysis/nuclear_analyzer.py tsddecay --preset 163Lu_TSD2_wobbling_decayout --json
 python3 system/scripts/analysis/nuclear_analyzer.py mcintyre --preset 16O_208Pb_129.5MeV --json
 python3 system/scripts/analysis/nuclear_analyzer.py tacbifurc --preset 134Pr_chiral_bifurcation --json
+python3 system/scripts/analysis/nuclear_analyzer.py foldmult --preset 4pi_bgo_ball_fusion_evaporation --json
+python3 system/scripts/analysis/nuclear_analyzer.py chirrules --preset 128Cs_chiral_doublet_benchmark --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

@@ -170,6 +170,8 @@ from in_beam_gated_matrix_multiplet_deconvolution_fitter import multiplet_model_
 from triaxial_superdeformed_wobbling_decayout_analyzer import calculate_transition_widths_and_tunneling, evaluate_decayout_threshold
 from heavy_ion_mcintyre_s_matrix_reaction_cross_section_analyzer import calculate_kinematics as calc_mcintyre_kin, calculate_reaction_cross_sections as calc_mcintyre_xs
 from three_dimensional_tac_chiral_pitchfork_bifurcation_inverter import calculate_pitchfork_bifurcation
+from in_beam_array_fold_multiplicity_entry_state_unfolder import calculate_binomial_response_matrix, map_to_entry_spin_and_energy
+from chiral_doublet_selection_rules_m1_staggering_arbitrator import calculate_m1_staggering, arbitrate_chiral_selection_rules
 
 
 def test_heavy_ion_kinematics():
@@ -1897,6 +1899,24 @@ def test_3d_tac_pitchfork_bifurcation():
     print("  ✓ three_dimensional_tac_chiral_pitchfork_bifurcation_inverter passed.")
 
 
+def test_fold_multiplicity_unfolding():
+    print("Testing in_beam_array_fold_multiplicity_entry_state_unfolder...")
+    resp = calculate_binomial_response_matrix(16, 0.80, 16, 20)
+    assert resp.shape == (17, 21)
+    info = map_to_entry_spin_and_energy(20.0, 3.0, 20.0, 4.0, 0.5)
+    assert abs(info["mean_entry_spin_hbar"] - 34.0) < 1e-3
+    print("  ✓ in_beam_array_fold_multiplicity_entry_state_unfolder passed.")
+
+
+def test_chiral_selection_rules():
+    print("Testing chiral_doublet_selection_rules_m1_staggering_arbitrator...")
+    b1 = [{"I": 12, "B_M1_muN2": 0.8, "B_E2_e2b2": 0.4}, {"I": 13, "B_M1_muN2": 1.4, "B_E2_e2b2": 0.4}, {"I": 14, "B_M1_muN2": 0.7, "B_E2_e2b2": 0.4}]
+    b2 = [{"I": 12, "B_M1_muN2": 0.7, "B_E2_e2b2": 0.4}, {"I": 13, "B_M1_muN2": 1.3, "B_E2_e2b2": 0.4}, {"I": 14, "B_M1_muN2": 0.6, "B_E2_e2b2": 0.4}]
+    res = arbitrate_chiral_selection_rules(b1, b2, [{"I": 13, "B_M1_inter_muN2": 0.05}])
+    assert res["phase_match_fraction"] == 1.0
+    print("  ✓ chiral_doublet_selection_rules_m1_staggering_arbitrator passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2397,4 +2417,6 @@ if __name__ == "__main__":
     test_tsd_wobbling_decayout()
     test_mcintyre_s_matrix()
     test_3d_tac_pitchfork_bifurcation()
+    test_fold_multiplicity_unfolding()
+    test_chiral_selection_rules()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

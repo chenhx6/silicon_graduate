@@ -156,6 +156,8 @@ from in_beam_gated_matrix_multiplet_deconvolution_fitter import run_multiplet_an
 from triaxial_superdeformed_wobbling_decayout_analyzer import run_tsd_decayout_analysis, format_text_report as format_tsddecay_report, PRESETS as TSDDECAY_PRESETS
 from heavy_ion_mcintyre_s_matrix_reaction_cross_section_analyzer import run_mcintyre_analysis, format_text_report as format_mcintyre_report, PRESETS as MCINTYRE_PRESETS
 from three_dimensional_tac_chiral_pitchfork_bifurcation_inverter import run_chiral_pitchfork_analysis, format_text_report as format_tacbifurc_report, PRESETS as TACBIFURC_PRESETS
+from in_beam_array_fold_multiplicity_entry_state_unfolder import run_fold_unfolding_analysis, format_text_report as format_foldmult_report, PRESETS as FOLDMULT_PRESETS
+from chiral_doublet_selection_rules_m1_staggering_arbitrator import run_chiral_selection_analysis, format_text_report as format_chirrules_report, PRESETS as CHIRRULES_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3627,6 +3629,41 @@ def cmd_tacbifurc(args):
     else:
         print(format_tacbifurc_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
+
+def cmd_foldmult(args):
+    preset_name = args.preset if args.preset else "4pi_bgo_ball_fusion_evaporation"
+    p = FOLDMULT_PRESETS[preset_name]
+    res = run_fold_unfolding_analysis(
+        fold_hist=p["measured_fold_histogram"],
+        N_det=p["N_det"],
+        eps_det=p["eps_det"],
+        eps_sum=p["eps_sum"],
+        mean_H_MeV=p["mean_sum_energy_MeV"],
+        N_stat=p.get("N_stat", 3.5),
+        J_bandhead=p.get("J_bandhead", 0.0)
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_foldmult_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_chirrules(args):
+    preset_name = args.preset if args.preset else "128Cs_chiral_doublet_benchmark"
+    p = CHIRRULES_PRESETS[preset_name]
+    res = run_chiral_selection_analysis(
+        nucleus=p["nucleus"],
+        band1=p["band1"],
+        band2=p["band2"],
+        interband=p["interband_transitions"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_chirrules_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5126,6 +5163,20 @@ def main():
                       choices=list(TACBIFURC_PRESETS.keys()), help="Benchmark preset")
     p_tb.add_argument("--json", action="store_true", help="Output pure JSON")
     p_tb.set_defaults(func=cmd_tacbifurc)
+
+    # In-Beam Array Fold Unfolding & Entry-State Analyzer
+    p_fm = subparsers.add_parser("foldmult", help="In-beam array fold-to-multiplicity & entry-state unfolding (Wu Ch 10 / Bertulani Ch 6)")
+    p_fm.add_argument("--preset", type=str, default="4pi_bgo_ball_fusion_evaporation",
+                      choices=list(FOLDMULT_PRESETS.keys()), help="Benchmark preset")
+    p_fm.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_fm.set_defaults(func=cmd_foldmult)
+
+    # Nuclear Chiral Doublet Selection Rules & M1 Staggering Arbitrator
+    p_cr = subparsers.add_parser("chirrules", help="Chiral doublet selection rules & in-phase M1 staggering arbitrator (Petrache Ch 7,8 / Koike)")
+    p_cr.add_argument("--preset", type=str, default="128Cs_chiral_doublet_benchmark",
+                      choices=list(CHIRRULES_PRESETS.keys()), help="Benchmark preset")
+    p_cr.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_cr.set_defaults(func=cmd_chirrules)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

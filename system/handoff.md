@@ -7192,3 +7192,39 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-10 entry.
 - Added unit test suite `system/tests/test_3d_tac_pitchfork_bifurcation.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **138 official analysis modules**, all verified passing in 3.3s.
+
+### In-Beam Array Fold Unfolding & Entry-State Analyzer (Module 139) 2026-11-03T23:45:00+08:00
+
+- Integrated In-Beam Multi-Detector Array Coincidence Fold-to-Multiplicity Response Inversion, Compound Nucleus Entry-State Spin (J_entry) and Excitation Energy Unfolding Suite (`in_beam_array_fold_multiplicity_entry_state_unfolder.py`):
+  - Based on 吴治华《原子核物理实验方法》第 10 章 §10.6 (pp. 290–305) 与第 15 章, 汪晓莲《粒子探测技术》第 8 章, C. A. Bertulani *Introduction to Nuclear Reactions* Ch. 6, and M. Jääskeläinen et al. (Nucl. Instrum. Methods 204, 385, 1983):
+    * Formulates analytical inclusion-exclusion response matrix $P(k | M) = \binom{N}{k} \sum (-1)^{k-j} \binom{k}{j} [1 - \frac{N-j}{N}\varepsilon]^M$, removing pileup/multi-hit distortions in multi-detector calorimeters.
+    * Unfolds true gamma multiplicity distribution $P(M)$ using Richardson-Lucy Bayesian deconvolution.
+    * Maps mean multiplicity $\langle M \rangle$ and sum energy $\langle H \rangle$ to compound nucleus entry-state spin $\langle J_{\text{entry}} \rangle = 2(\langle M \rangle - \bar{N}_{\text{stat}}) + \bar{N}_{\text{stat}}\Delta I_{\text{stat}} + J_0$ and excitation energy $E^*_{\text{entry}}$, evaluating high-spin populating capability for wobbling and chiral bands.
+  - Benchmarks:
+    * 4$\pi$ BGO ball $^{36}\text{Ar} + {}^{100}\text{Mo} \to {}^{132}\text{Ce} + 4n$ benchmark ($E_{\text{lab}} = 160\text{ MeV}$): unfolds $\langle M \rangle = 24.54 \pm 4.59$ photons, $\langle J_{\text{entry}} \rangle = 43.8 \pm 9.2\ \hbar$, and $\langle E^* \rangle = 33.97\text{ MeV}$, proving optimal high-spin feeding.
+    * Clover array 48-channel filter: resolves high-multiplicity fusion distribution.
+    * Low-multiplicity peripheral transfer benchmark: confirms accurate low-spin mapping.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `foldmult`.
+- Created concept page: `knowledge/concepts/in-beam-array-fold-unfolding-and-entry-state-distribution.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-13 entry.
+- Added unit test suite `system/tests/test_fold_multiplicity_unfolding.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 139.
+
+### Chiral Doublet Selection Rules & M1 Staggering Arbitrator (Module 140) 2026-11-04T00:15:00+08:00
+
+- Integrated Nuclear Chiral Doublet Selection Rules, Intra-Band B(M1) Staggering In-Phase Arbitration & Inter-Band Delta I = 0 M1 Transition Minimum Engine (`chiral_doublet_selection_rules_m1_staggering_arbitrator.py`):
+  - Based on *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 7 & 8, T. Koike, K. Starosta, I. Hamamoto (Phys. Rev. Lett. 93, 172502, 2004), and E. Grodner et al. (Phys. Rev. Lett. 97, 172501, 2006):
+    * Implements the three fundamental chiral electromagnetic selection rules:
+      1) In-phase intra-band $B(M1; I \to I-1)$ odd-even staggering $S_{M1}(I)$ across partner bands ($\text{sign}(S_1-1) \equiv \text{sign}(S_2-1)$);
+      2) Smooth, matching intra-band quadrupole transition rates ($|B(E2)_1 - B(E2)_2| / B(E2)_1 \le 25\%$);
+      3) Inter-band $\Delta I = 0$ $M1$ transition rate cancellation ($B(M1; \text{Band 2} \to \text{Band 1}, \Delta I=0) \to \text{MINIMUM} \approx 0$) at band degeneracy due to time-reversal dipole symmetry.
+    * Arbitrates genuine chirality against pseudo-chiral planar bands or accidental shape coexistence.
+  - Benchmarks:
+    * $^{128}\text{Cs}$ landmark chiral partner bands: achieves $100\%$ in-phase M1 staggering, $4.8\%$ $B(E2)$ difference, and inter-band $M1$ suppression down to $0.040\ \mu_N^2$ ($100\%$ score, confirmed).
+    * $^{134}\text{Pr}$ chiral doublet: verifies selection rules satisfaction.
+    * Spurious out-of-phase planar bands counterexample: successfully rejected ($10\%$ score).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `chirrules`.
+- Created concept page: `knowledge/concepts/chiral-doublet-m1-staggering-and-selection-rules.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-11 entry.
+- Added unit test suite `system/tests/test_chiral_selection_rules.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **140 official analysis modules**, all verified passing in 2.5s.
