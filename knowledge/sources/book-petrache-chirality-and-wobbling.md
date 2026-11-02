@@ -77,6 +77,7 @@ tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 | CW-7 | IBFM 计算对 135Pr 给出小混合比，并指出某些 127Xe 低自旋大 δ 来自过小的 M1 矩阵元，而非必然很大的 E2。 | model-result | direct | Ch. 11, PDF 245–246 / pp. 226–227, Fig. 11.3 邻文 | false |
 | CW-8 | Elena Lawrie 建立区分声子摆动与倾斜进动（TiP）的七维判据：常自旋激发能线性（~n_w）对二次方（~m^2）、偶偶核求和定则、以及严格禁止 Delta_k>1 跃迁（对声子摆动 Delta_n=1 选择定则）。 | model-result | direct | Ch. 6, PDF 146–148 / pp. 127–129, Table 6.1 | false |
 | CW-9 | 孟杰与王玉鹏系统总结核手征性 3D 角动量几何：质子粒子沿短轴、中子空穴沿长轴、核芯转动沿中轴形成非零体积元 V_chiral = j_p . (j_n x R)；理想手征双带伴生带内 B(M1)/B(E2) 与带间 B(M1) 奇偶交错。 | model-result | direct | Ch. 3, PDF 82–85 / pp. 63–66, Figs. 3.2–3.4 | false |
+| CW-10 | 单 $j$ 壳层三轴推转哈密顿量与旋称反转：$h_{\text{crank}}(\gamma, \omega) = h_{\text{sp}}(\gamma) - \omega j_x$；在三轴形变 $\gamma = -30^\circ$ 处，强非对角 $\Delta m = \pm 2$ 耦合使得最低能态在短轴达到强对齐 $\langle j_x \rangle \approx j$（横向摆动起源），并在低转速下诱发反常旋称反转（$\Delta e' < 0$）。 | model-result | direct | Ch. 2, PDF 50–52 / pp. 31–33, Eq. 2.13 | false |
 
 `false` 表示本轮完成“这段原文是否如此表述”的 self-audit，不等于实验真实性、学界共识或 human-reviewed。
 

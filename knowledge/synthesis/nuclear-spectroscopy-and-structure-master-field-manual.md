@@ -70,6 +70,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `grodzins` | Grodzins 乘积定则 E(2+)*B(E2)、四极形变 beta_2 反演与 BCS 超流转动惯量淬灭比 | 轴对称 K=0 带头假设；双幻核壳封闭处 Grodzins 经验定则失效 |
 | `csm` | 推转壳模型（CSM）双带回避交叉、相互作用矩阵元 |V_12| 反演与回弯/上弯分类 | 双态截断有效；多对准粒子多重交叉需全对角化 CSM |
 | `omp` | 核光学模型势（OMP）Woods-Saxon 径迹积分、S 矩阵透射率 T(b) 与全反应截面 | 半经典直角径迹近似；极低能库仑偏折显著能区需分波偏相移求和 |
+| `doppler` | 在束相对论多普勒展宽、有限张角 Delta_theta、速度弥散与中子反冲角离散预算 | 匀速直线发射假设；厚衬底慢化过程需结合 DSAM 连续谱积分 |
+| `crank` | 高 j 单壳层三轴推转哈密顿量对角化、Routhian 能谱、对齐量 <jx> 与旋称反转 | 单 j 壳层截断；微观自洽多组态需结合三维推转 RMF 或 TAC-CSM |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -89,6 +91,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py cfd --preset labr3_fast_timi
 python3 system/scripts/analysis/nuclear_analyzer.py grodzins --preset 154Sm --json
 python3 system/scripts/analysis/nuclear_analyzer.py csm --preset 164Er_neutron_crossing --json
 python3 system/scripts/analysis/nuclear_analyzer.py omp --preset 40MeV_p_58Ni --json
+python3 system/scripts/analysis/nuclear_analyzer.py doppler --preset 134Ce_in_beam --json
+python3 system/scripts/analysis/nuclear_analyzer.py crank --preset h11/2_triaxial_chiral --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

@@ -65,6 +65,7 @@ tags: [books, experimental-nuclear-physics, hpge-detectors, gamma-spectroscopy, 
 | WU-5 | HPGe 同轴探测器耗尽电压与电荷收集：耗尽电压 $V_{\text{dep}} = \frac{e|N_A - N_D|}{2\varepsilon}[r_2^2 \ln(r_2/r_1) - \frac{1}{2}(r_2^2 - r_1^2)]$；工作高压必须超高压过偏置（$V_{\text{bias}} \ge 1.3 V_{\text{dep}}$）以实现全灵敏体积载流子漂移饱和速度（$v_s \approx 10^7\text{ cm/s}$）；电荷收集时间弥散引起的弹道亏损在数字梯形滤波平顶 $T_{\text{flat}} \ge t_{c,\max}$ 条件下完全消除。 | model-result | direct | 第 5 章 §5.4, 印刷 pp. 144–148 / PDF pp. 152–156 | false |
 | WU-6 | 多普勒频移衰减法（DSAM）与 LSS 阻止本领：质心频移由衰减因子 $F(\tau) = \frac{1}{v_0\tau}\int_0^\infty v(t)\overline{\cos\phi(t)} e^{-t/\tau} dt$ 决定；利用 Lindhard-Scharff-Schiott（LSS）电子与核阻止本领及 Blaugrund 空间多次散射方向余弦，实现在束 $\gamma$ 峰频移反演激发态皮秒寿命（$\tau \sim 0.01 - 2.0\text{ ps}$）。 | model-result | direct | 第 15 章 §15.2, 印刷 pp. 430–445 / PDF pp. 438–453 | false |
 | WU-7 | 恒比定时（CFD）与快速时间测量：前沿定时存在与脉冲幅度相关的严重时间游走（$\Delta t_{\text{walk}} \sim 200 - 500\text{ ps}$）；CFD 采用双极性信号过零点定时 $V_{\text{CFD}}(t) = V(t-t_d) - f V(t) = 0$，当延迟满足 $t_d = t_r(1-f)$ 时过零点时间与幅度严格无关，理论游走为零；结合快速闪烁体（$\text{LaBr}_3, \text{BaF}_2$）实现亚纳秒级符合时间分辨率。 | model-result | direct | 第 9 章 §9.3, 印刷 pp. 235–256 / PDF pp. 243–264 | false |
+| WU-8 | 在束 $\gamma$ 谱学相对论多普勒展宽：$E_{\text{lab}}(\theta) = E_0 \frac{\sqrt{1-\beta^2}}{1-\beta\cos\theta}$；峰展宽由探测器有限张角 $\Delta E_\theta$（$90^\circ$ 极大）、靶厚度反冲速度弥散 $\Delta E_\beta$（$0^\circ/180^\circ$ 极大）以及中子反冲角离散共同构成；指导在束实验靶厚与探测器环角优化。 | model-result | direct | 第 15 章 §15.2, 印刷 pp. 421–435 / PDF pp. 429–443 | false |
 
 ## Competing Interpretations and Limitations
 

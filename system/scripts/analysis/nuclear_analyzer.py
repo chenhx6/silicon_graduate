@@ -124,6 +124,8 @@ from constant_fraction_discriminator_fast_timing_calculator import simulate_cfd_
 from grodzins_deformation_beta2_quadrupole_inverter import invert_beta2_and_quadrupole, format_text_report as format_grodzins_report
 from cranked_shell_model_band_crossing_v12_inverter import calculate_two_band_crossing_csm, invert_v12_from_experimental_routhians, format_text_report as format_csm_report
 from optical_model_potential_reaction_cross_section_calculator import calculate_optical_model_reaction_cross_section, format_text_report as format_omp_report
+from in_beam_doppler_broadening_array_correction_calculator import calculate_doppler_broadening_budget, compare_detector_rings, format_text_report as format_doppler_report
+from triaxial_cranking_single_j_routhian_diagram_calculator import diagonalize_triaxial_cranked_high_j, scan_routhian_frequency_trajectory, format_text_report as format_crank_report
 
 
 def cmd_kinematics(args):
@@ -2418,6 +2420,56 @@ def cmd_omp(args):
         print(format_omp_report(res))
 
 
+def cmd_doppler(args):
+    e0 = args.E0
+    beta = args.beta
+    theta = args.theta
+    d_theta = args.opening_angle
+
+    if args.preset == "134Ce_in_beam":
+        e0, beta, theta, d_theta = 1000.0, 0.020, 90.0, 8.0
+    elif args.preset == "agata_tracking_array":
+        e0, beta, theta, d_theta = 1000.0, 0.025, 90.0, 1.2
+    elif args.preset == "gammasphere_standard":
+        e0, beta, theta, d_theta = 1000.0, 0.020, 90.0, 7.5
+
+    res = calculate_doppler_broadening_budget(e0, beta_recoil=beta, theta_deg=theta, opening_angle_deg=d_theta)
+    rings = compare_detector_rings(e0, beta_recoil=beta, opening_angle_deg=d_theta)
+
+    if args.json:
+        import json
+        out = {"budget": res, "rings_comparison": rings}
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_doppler_report(res, rings))
+
+
+def cmd_crank(args):
+    j_val = args.j_orbital
+    gam_val = args.gamma
+    w_val = args.omega
+    kap_val = args.kappa
+
+    if args.preset == "h11/2_triaxial_chiral":
+        j_val, gam_val, w_val, kap_val = 5.5, -30.0, 0.20, 3.0
+    elif args.preset == "h11/2_prolate":
+        j_val, gam_val, w_val, kap_val = 5.5, 0.0, 0.20, 3.0
+    elif args.preset == "h11/2_oblate":
+        j_val, gam_val, w_val, kap_val = 5.5, -60.0, 0.20, 3.0
+    elif args.preset == "i13/2_rare_earth":
+        j_val, gam_val, w_val, kap_val = 6.5, -20.0, 0.25, 3.5
+
+    diag_res = diagonalize_triaxial_cranked_high_j(j_val, gamma_deg=gam_val, omega_MeV=w_val, kappa_MeV=kap_val)
+    traj_res = scan_routhian_frequency_trajectory(j_val, gamma_deg=gam_val, kappa_MeV=kap_val)
+
+    if args.json:
+        import json
+        out = {"diagonalization": diag_res, "frequency_scan": traj_res}
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_crank_report(diag_res, traj_res))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3591,6 +3643,26 @@ def main():
     p_omp.add_argument("--Ws", type=float, default=3.0, help="Imag surface Ws in MeV")
     p_omp.add_argument("--json", action="store_true", help="Output pure JSON")
     p_omp.set_defaults(func=cmd_omp)
+
+    # In-Beam Relativistic Doppler Broadening Analyzer
+    p_dop = subparsers.add_parser("doppler", help="In-beam relativistic Doppler broadening, finite opening angle & straggling (Wu Ch 15 / Nolan 1979)")
+    p_dop.add_argument("--preset", type=str, default="134Ce_in_beam", choices=["134Ce_in_beam", "agata_tracking_array", "gammasphere_standard", "custom"], help="Benchmark preset")
+    p_dop.add_argument("--E0", type=float, default=1000.0, help="Gamma energy in keV")
+    p_dop.add_argument("--beta", type=float, default=0.020, help="Recoil velocity beta=v/c")
+    p_dop.add_argument("--theta", type=float, default=90.0, help="Detector polar angle in deg")
+    p_dop.add_argument("--opening-angle", type=float, default=8.0, help="Opening angle in deg")
+    p_dop.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_dop.set_defaults(func=cmd_doppler)
+
+    # High-j Triaxial Cranking Single-Particle Routhians
+    p_crk = subparsers.add_parser("crank", help="High-j triaxial cranking Routhians, signature alpha=+/-1/2 & alignment (Frauendorf 2025 Ch 2)")
+    p_crk.add_argument("--preset", type=str, default="h11/2_triaxial_chiral", choices=["h11/2_triaxial_chiral", "h11/2_prolate", "h11/2_oblate", "i13/2_rare_earth", "custom"], help="Benchmark preset")
+    p_crk.add_argument("--j-orbital", type=float, default=5.5, help="Orbital j")
+    p_crk.add_argument("--gamma", type=float, default=-30.0, help="Triaxiality gamma in deg")
+    p_crk.add_argument("--omega", type=float, default=0.20, help="Cranking frequency in MeV")
+    p_crk.add_argument("--kappa", type=float, default=3.0, help="Quadrupole coupling kappa in MeV")
+    p_crk.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_crk.set_defaults(func=cmd_crank)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

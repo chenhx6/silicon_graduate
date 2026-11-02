@@ -138,6 +138,8 @@ from constant_fraction_discriminator_fast_timing_calculator import simulate_cfd_
 from grodzins_deformation_beta2_quadrupole_inverter import invert_beta2_and_quadrupole
 from cranked_shell_model_band_crossing_v12_inverter import calculate_two_band_crossing_csm, invert_v12_from_experimental_routhians
 from optical_model_potential_reaction_cross_section_calculator import calculate_optical_model_reaction_cross_section
+from in_beam_doppler_broadening_array_correction_calculator import calculate_doppler_broadening_budget, compare_detector_rings
+from triaxial_cranking_single_j_routhian_diagram_calculator import diagonalize_triaxial_cranked_high_j, scan_routhian_frequency_trajectory
 
 
 def test_heavy_ion_kinematics():
@@ -1729,6 +1731,31 @@ def test_cranked_shell_model_band_crossing_calculator():
     print("  ✓ cranked_shell_model_band_crossing_v12_inverter passed.")
 
 
+def test_in_beam_doppler_broadening_calculator():
+    print("Testing in_beam_doppler_broadening_array_correction_calculator...")
+    # 134Ce in-beam benchmark at 90 deg: opening angle broadening dominates
+    res = calculate_doppler_broadening_budget(E0_keV=1000.0, beta_recoil=0.020, theta_deg=90.0, opening_angle_deg=8.0)
+    assert abs(res["broadening_detector_angle_dE_theta_keV"] - 2.79) < 0.1, "90-deg angle broadening"
+    assert res["total_observed_fwhm_keV"] > res["intrinsic_detector_fwhm_keV"]
+
+    # AGATA tracking array benchmark with narrow 1.2 deg opening angle
+    res_agata = calculate_doppler_broadening_budget(E0_keV=1000.0, beta_recoil=0.025, theta_deg=90.0, opening_angle_deg=1.2)
+    assert res_agata["broadening_detector_angle_dE_theta_keV"] < 1.0, "AGATA sub-1 keV angle broadening"
+    print("  ✓ in_beam_doppler_broadening_array_correction_calculator passed.")
+
+
+def test_triaxial_cranking_routhian_calculator():
+    print("Testing triaxial_cranking_single_j_routhian_diagram_calculator...")
+    # h11/2 triaxial chiral intruder benchmark (gamma = -30 deg)
+    diag = diagonalize_triaxial_cranked_high_j(j_orbital=5.5, gamma_deg=-30.0, omega_MeV=0.20, kappa_MeV=3.0)
+    assert len(diag["levels"]) == 12, "12 single-particle Routhians for j=11/2"
+    # Aligned state at bottom of well
+    lowest_lv = diag["levels"][0]
+    assert abs(lowest_lv["alignment_jx_hbar"] - 5.47) < 0.1, "Strong alignment along rotation axis"
+    assert diag["is_signature_inverted"] is True, "Signature inversion in triaxial high-j shell"
+    print("  ✓ triaxial_cranking_single_j_routhian_diagram_calculator passed.")
+
+
 def test_optical_model_potential_reaction_calculator():
     print("Testing optical_model_potential_reaction_cross_section_calculator...")
     # 40 MeV p + 58Ni reaction cross section benchmark (~ 1090 mb)
@@ -1966,4 +1993,6 @@ if __name__ == "__main__":
     test_grodzins_deformation_inverter()
     test_cranked_shell_model_band_crossing_calculator()
     test_optical_model_potential_reaction_calculator()
+    test_in_beam_doppler_broadening_calculator()
+    test_triaxial_cranking_routhian_calculator()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

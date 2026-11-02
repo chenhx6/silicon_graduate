@@ -6636,3 +6636,40 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` with LU-10 entry.
 - Added unit test suite `system/tests/test_optical_model_reaction_cross_section.py` (5 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **106 official analysis modules**, all verified passing in 4.3s.
+
+### In-Beam Relativistic Doppler Broadening & Array Resolution (Module 107) 2026-11-03T07:45:00+08:00
+
+- Integrated In-Beam Relativistic Doppler Broadening, Finite Detector Opening Angle, Recoil Velocity Dispersion & Neutron Straggling Analyzer (`in_beam_doppler_broadening_array_correction_calculator.py`):
+  - Based on 吴治华《原子核物理实验方法》第 15 章 §15.2 (印刷 pp. 421–445 / PDF pp. 429–453), 汪晓莲等《粒子探测技术》第 5 章, and Nolan & Sharpey-Schafer (1979):
+    * Relativistic Doppler energy shift: $E_{\text{lab}}(\theta) = E_0 \frac{\sqrt{1-\beta^2}}{1-\beta\cos\theta}$.
+    * Decomposes line broadening into three kinematic contributors:
+      1. Detector opening angle broadening: $\Delta E_\theta = E_0 \left[ \frac{\beta\sin\theta}{1-\beta\cos\theta} \right] \Delta\theta$, reaching a sharp maximum at $\theta = 90^\circ$ ($\sin\theta = 1.0$).
+      2. Recoil velocity spread $\Delta E_\beta$ from target energy loss, reaching maximum at forward/backward angles ($0^\circ, 180^\circ$).
+      3. Recoil angular straggling $\Delta E_{\text{strag}}$ from isotropic neutron evaporation kicks $\Delta p_R \approx \sqrt{x \cdot 2 m_n T_n}$.
+    * Evaluates total observed peak FWHM across standard HPGe array rings ($30^\circ, 50^\circ, 90^\circ, 130^\circ, 150^\circ$).
+  - Benchmarks:
+    * $^{134}\text{Ce}$ thin-target in-beam ($E_0 = 1000\text{ keV}, \beta = 0.020, \Delta\theta = 8.0^\circ$): at $90^\circ$, angle broadening $\Delta E_\theta = 2.79\text{ keV}$, neutron straggling $\Delta E_{\text{strag}} = 1.10\text{ keV}$, giving total peak $\text{FWHM} = 3.61\text{ keV}$ ($1.80\times$ degradation over intrinsic $2.0\text{ keV}$).
+    * AGATA tracking array benchmark ($\Delta\theta = 1.2^\circ, \beta = 0.025$): angle broadening drops to $0.52\text{ keV}$, recovering near-intrinsic peak width $\text{FWHM} = 2.34\text{ keV}$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `doppler`.
+- Created concept page: `knowledge/concepts/in-beam-relativistic-doppler-broadening-and-array-resolution.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-8 entry.
+- Added unit test suite `system/tests/test_in_beam_doppler_broadening.py` (6 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 107.
+
+### High-j Triaxial Cranking Routhians & Signature Inversion (Module 108) 2026-11-03T08:15:00+08:00
+
+- Integrated High-$j$ Single-Shell Triaxial Cranking Hamiltonian Diagonalizer, Routhians $e'_\nu(\omega, \gamma)$, Alignment $\langle j_x \rangle$ and Signature Inversion Engine (`triaxial_cranking_single_j_routhian_diagram_calculator.py`):
+  - Based on S. Frauendorf, in *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 2 Eq. (2.13), Frauendorf & Meng (1997), and Bengtsson & Ragnarsson (1985):
+    * Triaxial single-particle Hamiltonian $h_{\text{sp}}(\gamma) = \frac{\kappa}{j(j+1)} [ (3j_z^2 - j(j+1))\cos\gamma + \sqrt{3}(j_x^2 - j_y^2)\sin\gamma ]$.
+    * Cranking Coriolis coupling $h_{\text{crank}}(\gamma, \omega) = h_{\text{sp}}(\gamma) - \omega j_x$ diagonalized in the $(2j+1) \times (2j+1)$ substate basis $|j, m\rangle$.
+    * Proved that $h_{\text{crank}}$ commutes strictly with the signature operator $\mathcal{R}_x(\pi) = \exp(-i \pi j_x)$, labeling all states into favored ($\alpha = +1/2, r = -i$) and unfavored ($\alpha = -1/2, r = +i$) signatures.
+    * Explains the microscopic origin of Transverse Wobbling (TW): at $\gamma = -30^\circ$, non-diagonal $\Delta m = \pm 2$ coupling aligns the particle strongly along the short $s$-axis ($\langle j_x \rangle = 5.47\ \hbar$ for $j=5.5$).
+    * Tracks signature splitting $\Delta e'(\omega) = e'(\alpha = -1/2) - e'(\alpha = +1/2)$ and discovers anomalous Signature Inversion ($\Delta e' < 0$) in the low-frequency triaxial domain.
+  - Benchmarks:
+    * $h_{11/2}$ triaxial chiral intruder ($j=5.5, \gamma=-30^\circ, \kappa=3.0\text{ MeV}$): diagonalizes 12 real Routhians; at $\hbar\omega = 0.20\text{ MeV}$, lowest state has $e' = -5.1658\text{ MeV}, \langle j_x \rangle = 5.47\ \hbar$, with signature splitting $\Delta e' = -2182.8\text{ keV} < 0$ (inverted).
+    * Rotational frequency trajectory scan accurately maps the smooth downward slope of the Routhian and alignment evolution.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `crank`.
+- Created concept page: `knowledge/concepts/high-j-triaxial-cranking-routhians-and-signature-inversion.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with CW-10 entry.
+- Added unit test suite `system/tests/test_triaxial_cranking_routhian.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **108 official analysis modules**, all verified passing in 4.2s.
