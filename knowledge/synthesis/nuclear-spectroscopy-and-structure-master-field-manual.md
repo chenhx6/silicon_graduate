@@ -64,6 +64,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `hpgefield` | HPGe 同轴探测器耗尽电压、电场分布、Shockley-Ramo 电荷收集、数字梯形平顶弹道亏损与 N 型/P 型快中子损伤调和 | 平面二维近似；闭端弹头区三维拐点需结合三维电荷漂移网格模拟 |
 | `wong` | 重离子熔合 Wong 势垒穿透解析解、初态自旋分布 P(l)、RLDM 裂变截断与 xn 最佳束流能量规划 | 抛物线单势垒近似；重合道或强形变亚垒增强需结合耦合道（CCFULL） |
 | `dsam` | 在束多普勒频移衰减法（DSAM）质心频移 F(tau)、LSS 阻止本领、Blaugrund 多次散射与皮秒核能级寿命反演 | 需结合上级跃迁侧馈时间去卷积；阻止本领基于 LSS 理论标度 |
+| `vmi` | Mariscotti 可变转动惯量（VMI）模型 Cardano 三次方程解析求解、动态离心拉伸与 (J0, C) 反演 | 绝热连续拉伸假设；回弯（Backbending）对对齐不适用 |
+| `seniority` | 原子核 Seniority (v) 代数方案、半满壳 n=j+1/2 处 B(E2) 严格相消与代数异能态寿命计算 | 纯单 j 壳层有效；多轨道组态混合与微观核芯极化需引入有效电荷 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -77,6 +79,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py feldman --preset faint_peak_
 python3 system/scripts/analysis/nuclear_analyzer.py hpgefield --preset standard_coaxial_ptype --json
 python3 system/scripts/analysis/nuclear_analyzer.py wong --preset 16O_122Sn --json
 python3 system/scripts/analysis/nuclear_analyzer.py dsam --preset 134Ce_in_Au --json
+python3 system/scripts/analysis/nuclear_analyzer.py vmi --preset 168Er --json
+python3 system/scripts/analysis/nuclear_analyzer.py seniority --preset 130Sn_h11/2 --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

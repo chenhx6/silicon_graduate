@@ -6535,3 +6535,39 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-6 entry.
 - Added unit test suite `system/tests/test_dsam_doppler_attenuation_lifetime.py` (6 tests, 100% passing).
 - **100 Module Milestone Reached**: Expanded `test_analysis_suite.py` regression suite to **100 official analysis modules**, all verified passing in 3.6s.
+
+### Mariscotti Variable Moment of Inertia (VMI) Cubic Solver & Centrifugal Stretching (Module 101) 2026-11-03T04:45:00+08:00
+
+- Integrated Mariscotti Variable Moment of Inertia (VMI) Model, Cardano Cubic Solver & Centrifugal Stretching Inverter (`mariscotti_vmi_rotational_stretching_calculator.py`):
+  - Based on M. A. J. Mariscotti et al. (Phys. Rev. 178, 1864, 1969), 卢希庭《原子核物理（修订版）》第 8 章 §8.5 (印刷 pp. 212–215 / PDF pp. 222–225), and Bohr & Mottelson Vol. II §4-2:
+    * Total rotational energy: $E(I) = \frac{I(I+1)}{2\mathcal{J}(I)} + \frac{1}{2} C (\mathcal{J}(I) - \mathcal{J}_0)^2$.
+    * Cubic equilibrium equation $\mathcal{J}^3 - \mathcal{J}_0 \mathcal{J}^2 = \frac{I(I+1)}{2C}$ solved exactly via Cardano's analytical roots without iterative divergence.
+    * Evaluates dynamic moment of inertia expansion $\mathcal{J}(I)$, potential stretching energy $E_{\text{pot}}$, and structural Casten phase ratio $R_{4/2} = E(4^+)/E(2^+)$.
+    * Inverts ground-state moment of inertia $\mathcal{J}_0$ and core stiffness constant $C$ from experimental levels via Nelder-Mead optimization.
+  - Benchmarks:
+    * $^{168}\text{Er}$ (Well-deformed rotor): VMI inversion yields $\mathcal{J}_0 = 35.805\ \hbar^2/\text{MeV}, C = 0.00280\ \text{MeV}^3, R_{4/2} = 3.2565$, with RMS fit residual of only $3.45\text{ keV}$ across $I = 2^+ \sim 12^+$.
+    * $^{112}\text{Ru}$ (Triaxial wobbler core, Frauendorf 2025 Ch. 2, p. 50): VMI inversion yields $\mathcal{J}_0 = 11.516\ \hbar^2/\text{MeV}, C = 0.00644\ \text{MeV}^3$, reproducing the $2.2\times$ dynamic stretching of $\mathcal{J}(I)$ with RMS residual $6.24\text{ keV}$.
+    * Rigid rotor limit ($C \to \infty$): verifies exact recovery of $R_{4/2} = 3.3333$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `vmi`.
+- Created concept page: `knowledge/concepts/mariscotti-variable-moment-of-inertia-and-centrifugal-stretching.md`.
+- Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` with LU-8 entry.
+- Added unit test suite `system/tests/test_mariscotti_vmi_stretching.py` (6 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 101.
+
+### Nuclear Seniority Scheme & Half-Filled Shell Isomer Engine (Module 102) 2026-11-03T05:15:00+08:00
+
+- Integrated Nuclear Seniority Scheme ($v$), Racah Fractional Parentage $B(E2)$ Vanishing Factor & Seniority Isomer Lifetime Suite (`seniority_scheme_half_filled_isomer_calculator.py`):
+  - Based on A. Bohr & B. R. Mottelson, *Nuclear Structure*, Vol. I, §3-4 (pp. 314–332), A. K. Jain et al., *Nuclear Isomers: A Primer* (Springer 2021), and K. L. G. Heyde Ch. 8:
+    * Seniority fractional parentage factor for $\Delta v = 0$ quadrupole transitions:
+      $F_{\text{seniority}}(j, n) = \frac{2j + 1 - 2n}{2j + 1 - 2v}$, scaling $B(E2; j^n) \propto F^2$.
+    * Exact mathematical proof of the half-filled shell cancellation: at mid-shell $n = j + 1/2$ (e.g. $n=6$ for $h_{11/2}$, $n=5$ for $g_{9/2}$, $n=7$ for $i_{13/2}$), $F \equiv 0$, causing $B(E2) \to 0$ due to particle-hole symmetry.
+    * Evaluates $v=2$ multiplet spins $J = 2, 4, \dots, (2j-1)$ and calculates isomer partial half-life $T_{1/2}(E2)$ and seniority hindrance factor.
+    * Explains the characteristic U-shaped parabolic $B(E2)$ systematics across isotopic chains and particle-hole symmetry between $n$ particles and $(2j+1-n)$ holes.
+  - Benchmarks:
+    * Verified $F = 0.0000$ and $B(E2) = 0.0$ at mid-shell across $h_{11/2}$ ($n=6$), $g_{9/2}$ ($n=5$), and $i_{13/2}$ ($n=7$).
+    * Benchmark against $^{130}\text{Sn}$ ($10^+$ isomer in $h_{11/2}$, $T_{1/2} = 1.61\ \mu\text{s}$), $^{210}\text{Po}$ ($8^+$ isomer in $h_{9/2}$, $T_{1/2} = 110\text{ ns}$), and $^{94}\text{Ru}$ ($8^+$ isomer in $g_{9/2}$, $T_{1/2} = 71\ \mu\text{s}$).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `seniority`.
+- Created concept page: `knowledge/concepts/nuclear-seniority-scheme-and-half-filled-shell-isomers.md`.
+- Standardized and updated source card `knowledge/sources/book-jain-nuclear-isomers.md` with JAIN-1, JAIN-2, JAIN-3 entries.
+- Added unit test suite `system/tests/test_seniority_scheme_isomer.py` (6 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **102 official analysis modules**, all verified passing in 3.7s.

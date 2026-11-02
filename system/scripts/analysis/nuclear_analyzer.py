@@ -118,6 +118,8 @@ from feldman_cousins_unified_confidence_interval_calculator import calculate_poi
 from hpge_coaxial_electric_field_ballistic_deficit_calculator import calculate_coaxial_depletion_and_field, calculate_shockley_ramo_collection, calculate_coaxial_ballistic_deficit, reconcile_neutron_damage_p_vs_n, format_text_report as format_hpgefield_report
 from heavy_ion_fusion_spin_distribution_wong_calculator import calculate_heavy_ion_fusion_wong, format_text_report as format_wong_report
 from dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator import calculate_dsam_f_tau_value, invert_lifetime_from_f_tau, calculate_lss_stopping_constants, generate_f_tau_calibration_curve, format_text_report as format_dsam_report
+from mariscotti_vmi_rotational_stretching_calculator import calculate_vmi_spectrum, invert_vmi_parameters, format_text_report as format_vmi_report
+from seniority_scheme_half_filled_isomer_calculator import calculate_seniority_fractional_factor, evaluate_seniority_isomer_properties, format_text_report as format_seniority_report
 
 
 def cmd_kinematics(args):
@@ -2225,6 +2227,73 @@ def cmd_dsam(args):
         print(format_dsam_report(inv_res, lss_res))
 
 
+def cmd_vmi(args):
+    j0_val = args.J0
+    c_val = args.C
+    spins = [2.0, 4.0, 6.0, 8.0, 10.0, 12.0]
+    inv_res = None
+
+    if args.preset == "168Er":
+        spins = [2.0, 4.0, 6.0, 8.0, 10.0, 12.0]
+        e_exp = [79.8, 264.1, 548.7, 912.0, 1344.0, 1830.0]
+        inv_res = invert_vmi_parameters(spins, e_exp)
+        j0_val = inv_res["J0_fitted_hbar2_MeV"]
+        c_val = inv_res["C_fitted_MeV3"]
+    elif args.preset == "120Xe":
+        spins = [2.0, 4.0, 6.0, 8.0, 10.0]
+        e_exp = [322.6, 795.9, 1389.2, 2073.4, 2824.0]
+        inv_res = invert_vmi_parameters(spins, e_exp)
+        j0_val = inv_res["J0_fitted_hbar2_MeV"]
+        c_val = inv_res["C_fitted_MeV3"]
+    elif args.preset == "110Cd":
+        spins = [2.0, 4.0, 6.0, 8.0]
+        e_exp = [657.8, 1475.8, 2479.9, 3600.0]
+        inv_res = invert_vmi_parameters(spins, e_exp)
+        j0_val = inv_res["J0_fitted_hbar2_MeV"]
+        c_val = inv_res["C_fitted_MeV3"]
+    elif args.preset == "112Ru":
+        spins = [2.0, 4.0, 6.0, 8.0, 10.0]
+        e_exp = [237.2, 678.8, 1279.0, 1999.0, 2780.0]
+        inv_res = invert_vmi_parameters(spins, e_exp)
+        j0_val = inv_res["J0_fitted_hbar2_MeV"]
+        c_val = inv_res["C_fitted_MeV3"]
+
+    spec = calculate_vmi_spectrum(j0_val, c_val, spins)
+
+    if args.json:
+        import json
+        out = {"vmi_spectrum": spec}
+        if inv_res is not None:
+            out["inversion"] = inv_res
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_vmi_report(spec, inv_res))
+
+
+def cmd_seniority(args):
+    j_val = args.j_orbital
+    n_val = args.n_particles
+    e_gam = args.E_gamma
+    a_mass = 130.0
+
+    if args.preset == "130Sn_h11/2":
+        j_val, n_val, e_gam, a_mass = 5.5, 10, 65.0, 130.0
+    elif args.preset == "134Te_h11/2":
+        j_val, n_val, e_gam, a_mass = 5.5, 2, 297.0, 134.0
+    elif args.preset == "210Po_h9/2":
+        j_val, n_val, e_gam, a_mass = 4.5, 2, 84.0, 210.0
+    elif args.preset == "94Ru_g9/2":
+        j_val, n_val, e_gam, a_mass = 4.5, 4, 145.0, 94.0
+
+    res = evaluate_seniority_isomer_properties(j_val, n_val, E_gamma_keV=e_gam, A_mass=a_mass)
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_seniority_report(res))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3339,6 +3408,23 @@ def main():
     p_dsam.add_argument("--alpha-stop", type=float, default=0.85, help="Stopping time scale alpha in ps")
     p_dsam.add_argument("--json", action="store_true", help="Output pure JSON")
     p_dsam.set_defaults(func=cmd_dsam)
+
+    # Mariscotti Variable Moment of Inertia (VMI) Calculator
+    p_vmi = subparsers.add_parser("vmi", help="Mariscotti Variable Moment of Inertia (VMI) cubic solver & R_4/2 stretching (Lu Xiting §8.5)")
+    p_vmi.add_argument("--preset", type=str, default="168Er", choices=["168Er", "120Xe", "110Cd", "112Ru", "custom"], help="Benchmark preset")
+    p_vmi.add_argument("--J0", type=float, default=35.0, help="Ground-state MOI J0 in hbar^2/MeV")
+    p_vmi.add_argument("--C", type=float, default=2500.0, help="Restoring stiffness C in MeV3")
+    p_vmi.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_vmi.set_defaults(func=cmd_vmi)
+
+    # Seniority Scheme & Half-Filled Shell Isomerism
+    p_sen = subparsers.add_parser("seniority", help="Nuclear seniority scheme, half-filled shell B(E2) cancellation & isomerism (Bohr Vol. I §3-4)")
+    p_sen.add_argument("--preset", type=str, default="130Sn_h11/2", choices=["130Sn_h11/2", "134Te_h11/2", "210Po_h9/2", "94Ru_g9/2", "custom"], help="Benchmark preset")
+    p_sen.add_argument("--j-orbital", type=float, default=5.5, help="Single-j orbital (default: 5.5 for h11/2)")
+    p_sen.add_argument("--n-particles", type=int, default=6, help="Particle occupancy n (default: 6)")
+    p_sen.add_argument("--E-gamma", type=float, default=100.0, help="Gamma energy in keV (default: 100.0)")
+    p_sen.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_sen.set_defaults(func=cmd_seniority)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

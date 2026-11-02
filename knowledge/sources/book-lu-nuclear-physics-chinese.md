@@ -70,6 +70,7 @@ tags: [books, nuclear-physics, nuclear-structure, chinese-terminology, reaction-
 | LU-5 | 玻尔形变参量化与轴对称转子能级：$E(I) = \frac{\hbar^2}{2\mathcal{J}}I(I+1)$，基态带能级间隔比理论值为 $E(4^+)/E(2^+) = 10/3 \approx 3.333$，四极振动带间隔比为 $2.0$。 | model-result | direct | 第 8 章 §8.4–8.5, 印刷 pp. 205–212 / PDF pp. 215–222 | false |
 | LU-6 | 高自旋回弯机制（Backbending）：转动角速度 $\hbar\omega = dE/dI_x$ 与惯量 $2\mathcal{J}/\hbar^2 = [dE/d(I(I+1))]^{-1}$；Coriolis 力的退对作用（CAP）打破高 $j$ 准粒子配对并对齐转轴，导致转动惯量随转动频率急剧回弯。 | model-result | direct | 第 8 章 §8.7, 印刷 pp. 218–220 / PDF pp. 228–230 | false |
 | LU-7 | $\alpha$ 衰变量子穿透与衰变常量：$P = \exp[-2G_0]$，其中 Gamow 因子 $2G_0 = \frac{8(Z-2)\alpha_{\text{em}}}{v/c}[\arccos\sqrt{x_0} - \sqrt{x_0(1-x_0)}]$；衰变常量 $\lambda = \nu P S_\alpha$ 随 $Q_\alpha^{-1/2}$ 呈指数急剧变化，半衰期相差逾 24 个数量级。 | model-result | direct | 第 5 章 §5.3, 印刷 pp. 121–125 / PDF pp. 131–135 | false |
+| LU-8 | 可变转动惯量模型（VMI 模型）：$E(I) = \frac{I(I+1)}{2\mathcal{J}(I)} + \frac{1}{2}C(\mathcal{J}(I)-\mathcal{J}_0)^2$；平衡条件导出三次方程 $\mathcal{J}^3 - \mathcal{J}_0\mathcal{J}^2 = \frac{I(I+1)}{2C}$，以两个参数 $(\mathcal{J}_0, C)$ 精确描述从谐振子极限（$R_{4/2}=2.0$）到刚性转子极限（$R_{4/2}=3.333$）的核芯离心拉伸。 | model-result | direct | 第 8 章 §8.5, 印刷 pp. 212–215 / PDF pp. 222–225 | false |
 
 ## Competing Interpretations and Limitations
 

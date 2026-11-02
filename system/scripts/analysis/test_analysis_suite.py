@@ -132,6 +132,8 @@ from feldman_cousins_unified_confidence_interval_calculator import calculate_poi
 from hpge_coaxial_electric_field_ballistic_deficit_calculator import calculate_coaxial_depletion_and_field, calculate_shockley_ramo_collection, calculate_coaxial_ballistic_deficit, reconcile_neutron_damage_p_vs_n
 from heavy_ion_fusion_spin_distribution_wong_calculator import calculate_heavy_ion_fusion_wong
 from dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator import calculate_dsam_f_tau_value, invert_lifetime_from_f_tau, calculate_lss_stopping_constants
+from mariscotti_vmi_rotational_stretching_calculator import solve_vmi_cubic_moi, calculate_vmi_spectrum, invert_vmi_parameters
+from seniority_scheme_half_filled_isomer_calculator import calculate_seniority_fractional_factor, evaluate_seniority_isomer_properties
 
 
 def test_heavy_ion_kinematics():
@@ -1672,6 +1674,41 @@ def test_heavy_ion_fusion_wong_calculator():
     print("  ✓ heavy_ion_fusion_spin_distribution_wong_calculator passed.")
 
 
+def test_mariscotti_vmi_rotational_stretching_calculator():
+    print("Testing mariscotti_vmi_rotational_stretching_calculator...")
+    # 1. Rigid rotor limit: C -> large => R_4/2 = 3.333
+    spec_rigid = calculate_vmi_spectrum(J0=35.0, C=2500.0, spins=[2.0, 4.0, 6.0])
+    assert abs(spec_rigid["R_4_2_ratio"] - 3.3333) < 0.001, "VMI rigid rotor limit R_4/2 ~ 3.333"
+
+    # 2. Inversion for 168Er
+    spins = [2.0, 4.0, 6.0, 8.0, 10.0, 12.0]
+    e_exp = [79.8, 264.1, 548.7, 912.0, 1344.0, 1830.0]
+    inv = invert_vmi_parameters(spins, e_exp)
+    assert abs(inv["J0_fitted_hbar2_MeV"] - 35.8) < 1.0, "168Er J0 fitted"
+    assert inv["rms_residual_keV"] < 5.0, "168Er VMI RMS residual < 5 keV"
+    print("  ✓ mariscotti_vmi_rotational_stretching_calculator passed.")
+
+
+def test_seniority_scheme_half_filled_isomer_calculator():
+    print("Testing seniority_scheme_half_filled_isomer_calculator...")
+    # 1. Exact B(E2) cancellation at half-filled shell n = j + 1/2
+    # For h11/2: j = 5.5, shell capacity = 12, n_half = 6
+    frac_half = calculate_seniority_fractional_factor(j_orbital=5.5, n_particles=6, v_seniority=2)
+    assert frac_half["fractional_parentage_factor"] == 0.0, "Seniority parentage factor zero at n=6"
+    assert frac_half["b_e2_scaling_factor"] == 0.0, "B(E2) scaling exactly 0 at half-filled shell"
+    assert frac_half["is_seniority_cancellation"] is True
+
+    # 2. Seniority isomer lifetime cancellation
+    iso = evaluate_seniority_isomer_properties(j_orbital=5.5, n_particles=6, E_gamma_keV=100.0)
+    assert math.isinf(iso["T12_actual_sec"]), "Infinite T1/2 in pure single-j half-filled shell"
+
+    # 3. Particle-hole symmetry: n=2 and n=10 have identical B(E2) scaling
+    frac_2 = calculate_seniority_fractional_factor(j_orbital=5.5, n_particles=2, v_seniority=2)
+    frac_10 = calculate_seniority_fractional_factor(j_orbital=5.5, n_particles=10, v_seniority=2)
+    assert abs(frac_2["b_e2_scaling_factor"] - frac_10["b_e2_scaling_factor"]) < 1e-6, "Particle-hole symmetry in B(E2)"
+    print("  ✓ seniority_scheme_half_filled_isomer_calculator passed.")
+
+
 def test_dsam_doppler_attenuation_lifetime_calculator():
     print("Testing dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator...")
     # Invert 134Ce in Au: F_exp = 0.52 -> tau ~ 0.75 ps
@@ -1857,4 +1894,6 @@ if __name__ == "__main__":
     test_hpge_coaxial_electric_field_ballistic_deficit_calculator()
     test_heavy_ion_fusion_wong_calculator()
     test_dsam_doppler_attenuation_lifetime_calculator()
+    test_mariscotti_vmi_rotational_stretching_calculator()
+    test_seniority_scheme_half_filled_isomer_calculator()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")
