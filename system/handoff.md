@@ -6850,3 +6850,39 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` with LU-11 entry.
 - Added unit test suite `system/tests/test_octupole_collective_ewsr.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **118 official analysis modules**, all verified passing in 2.5s.
+
+### Digital PSD & Charge Comparison Method Optimizer (Module 119) 2026-11-03T13:45:00+08:00
+
+- Integrated Digital Pulse Shape Discrimination (PSD), Dual-Gate Charge Comparison Method (CCM), Optimal Gate Width Optimization & Figure-of-Merit (FOM) Engine (`digital_psd_charge_comparison_optimizer.py`):
+  - Based on Nakhostin《辐射探测器信号处理》第 4 章 (pp. 110–145), 汪晓莲等《粒子探测技术》第 4, 8 章, and G. F. Knoll (Radiation Detection and Measurement, Ch. 8, 15):
+    * Formulates double exponential scintillation emission with singlet fast decay ($\tau_{\text{fast}} \sim 3.2\text{ ns}$) and delayed triplet-triplet annihilation slow component ($\tau_{\text{slow}} \sim 270\text{ ns}$).
+    * Models $dE/dx$ ionization track density dependence: recoil protons (neutrons) induce enhanced slow fraction ($f_{\text{slow}} \sim 32\%$) relative to Compton electrons ($f_{\text{slow}} \sim 12\%$).
+    * Implements digital Charge Comparison Method (CCM): $Q_{\text{short}} = \int_0^{T_{\text{short}}} v(t)dt, Q_{\text{long}} = \int_0^{T_{\text{long}}} v(t)dt, \text{PSD} = (Q_{\text{long}} - Q_{\text{short}}) / Q_{\text{long}}$.
+    * Solves for the optimal short gate width $T_{\text{short}} \approx 15.0\text{ ns}$ maximizing peak separation $\Delta\text{PSD}$.
+    * Evaluates Figure of Merit $\text{FOM} = |\mu_n - \mu_\gamma| / (2.355(\sigma_n + \sigma_\gamma))$ and light yield energy dependence under Poisson photoelectron statistics $\text{FOM}(E) = \text{FOM}_0 \sqrt{E / E_0}$.
+  - Benchmarks:
+    * EJ-301 / BC-501A liquid scintillator: optimal $T_{\text{short}} = 15.0\text{ ns}, \Delta\text{PSD} = 0.0481$, achieving $\text{FOM} = 1.45$ at $500\text{ keVee}$ ($>3\sigma$ separation) and $2.25$ at $1.2\text{ MeVee}$.
+    * Stilbene crystal benchmark: high light yield delivers $\text{FOM} = 1.75$ at $500\text{ keVee}$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `psdopt`.
+- Created concept page: `knowledge/concepts/digital-pulse-shape-discrimination-and-charge-comparison.md`.
+- Updated source card `knowledge/sources/book-nakhostin-signal-processing-detectors.md` with NAK-5 entry.
+- Added unit test suite `system/tests/test_digital_psd_optimizer.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 119.
+
+### Self-Consistent 3D TAC with BCS Pairing & Chiral Restoration Engine (Module 120) 2026-11-03T14:15:00+08:00
+
+- Integrated Self-Consistent 3D Tilted Axis Cranking (TAC) with BCS Pairing Gap Equation, Coriolis Anti-Pairing (CAP) Quenching & Chiral Restoration Phase Transition Simulator (`tac_pairing_self_consistent_chiral_engine.py`):
+  - Based on P. W. Zhao in *Chirality and Wobbling in Atomic Nuclei* (CRC 2025) Ch. 9 (PDF pp. 204–221), Q. B. Chen et al. Ch. 10, and S. Frauendorf & J. Meng (Nucl. Phys. A 617, 131, 1997):
+    * Formulates 3D tilted rotation $\vec{\omega} = \omega(\sin\theta\cos\phi, \sin\theta\sin\phi, \cos\theta)$ coupled to dynamic BCS pairing.
+    * Implements Coriolis Anti-Pairing (CAP) quenching $\Delta(\omega) = \Delta_{\text{eff}}(0)\sqrt{\max(0, 1 - (\omega/\omega_c)^2)}$ with Pauli blocking ($f_{\text{block}} \approx 0.55$).
+    * Computes pairing-dependent dynamic moments of inertia $\mathcal{J}_k(\Delta) = \mathcal{J}_{k, \text{rig}}[1 - g_k \Delta(J)/\Delta_0]$ expanding towards rigid-body values.
+    * Maps orientation energy surface $E(J; \theta, \phi)$, evaluating planar barrier $\Delta E_{\text{barrier}}(J)$ and chiral aplanarity metric $\mathcal{V}_{\text{chiral}} = \sin\theta_0\sin\phi_0$.
+    * Models the full three-phase spin evolution: low-spin planar rotation ($J < J_{\text{crit}}$), aplanar chiral bifurcation ($J_{\text{crit}} \le J \le J_{\text{term}}$), and high-spin intermediate-axis alignment (chiral restoration / collapse).
+  - Benchmarks:
+    * $^{134}\text{Pr}$ chiral tripod ($\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$): critical bifurcation at $J_{\text{crit}} = 16.0\ \hbar$, robust chirality at $J = 18.0\ \hbar$ (barrier $= 69.9\text{ keV}, \mathcal{V}_{\text{chiral}} = 0.498$), and deep chiral wells at $J = 22.0\ \hbar$ (barrier $> 500\text{ keV}$).
+    * $^{136}\text{Nd}$ 4-quasiparticle M$\chi$D benchmark: multi-quasiparticle alignment shifts bifurcation threshold to $J_{\text{crit}} = 21.0\ \hbar$, reproducing high-spin chiral stability.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `tacpair`.
+- Created concept page: `knowledge/concepts/self-consistent-3d-tac-with-pairing-and-chiral-restoration.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-5 entry.
+- Added unit test suite `system/tests/test_tac_pairing_chiral.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **120 official analysis modules**, all verified passing in 2.5s.

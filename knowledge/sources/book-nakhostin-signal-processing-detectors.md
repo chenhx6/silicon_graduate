@@ -62,6 +62,7 @@ tags: [books, digital-signal-processing, pulse-shaping, hpge-readout, baseline-r
 | NAK-2 | 极零相消（Pole-Zero Cancellation）：前置放大器长衰减时间常数 $\tau_{\text{pre}}$（典型 $50\ \mu\text{s}$）在微分成形时产生低能下冲拖尾；通过引入补偿电阻零点 $R_{pz} C_{diff} = \tau_{\text{pre}}$，使传递函数中的前放极点与成形零点精确抵消，彻底消除高计数率下的基线位移与峰展宽。 | method/formalism | direct | 第 4 章 §4.2, 印刷 pp. 175–182 / PDF pp. 175–182, 图 4.6 | false |
 | NAK-3 | 弹道亏损（Ballistic Deficit）与平顶成形：当模拟滤波器的达峰时间短于载流子漂移收集时间（$t_c \sim 100-300\text{ ns}$）时，峰值幅度因电荷收集未完全而发生损失；引入梯形滤波器的平顶（Flat Top $FT \ge t_c^{\max}$）可使电荷收集时间涨落下的信号幅度保持不变，彻底根除弹道亏损。 | model-result | direct | 第 4 章 §4.3, 印刷 pp. 185–194 / PDF pp. 185–194, 图 4.22 | false |
 | NAK-4 | Jordanov 离散递归梯形滤波算法：输入离散采样序列 $v[n]$，梯形上升步长 $k$、平顶步长 $m$，数字极零补偿因子 $M = 1 / (e^{T_s/\tau_{\text{pre}}} - 1)$，通过双级有限差分递归方程 $s[n] = s[n-1] + p[n] + M d^k[n]$ 实现零乘法开销的快速实时成形。 | method/formalism | direct | 第 10 章 §10.2, 印刷 pp. 380–388 / PDF pp. 380–388, 式 (10.12)–(10.16) | false |
+| NAK-5 | 数字化脉冲形状鉴别（PSD）与双门电荷比较法（CCM）：利用闪烁体单重态快成分（$\sim 3.2\text{ ns}$）与三重态慢成分（$\sim 270\text{ ns}$）电荷比值区分快中子与 $\gamma$ 射线；推导短门最佳积分时间 $T_{\text{short}} \approx 15 - 20\text{ ns}$，并建立光电子泊松涨落下分离优值因子 $\text{FOM}(E) = \text{FOM}_0 \sqrt{E / E_0}$ 的能量依赖模型。 | method/formalism | direct | 第 4 章 §4.5, 印刷 pp. 205–218 / PDF pp. 205–218 | false |
 
 ## Competing Interpretations and Limitations
 

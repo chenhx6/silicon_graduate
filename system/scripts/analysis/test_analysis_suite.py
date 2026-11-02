@@ -150,6 +150,8 @@ from double_root_dco_polarization_statistical_arbitrator import solve_dco_quadra
 from multi_quasiparticle_mchid_chirality_calculator import evaluate_chiral_geometry, analyze_mchid
 from heavy_ion_dic_wilczynski_energy_loss_calculator import calculate_dic_kinematics, run_dic_analysis
 from octupole_collective_ewsr_parity_doublet_analyzer import calculate_octupole_ewsr, calculate_parity_splitting_ewsr
+from digital_psd_charge_comparison_optimizer import optimize_gate_widths, evaluate_fom_energy_dependence
+from tac_pairing_self_consistent_chiral_engine import calculate_self_consistent_pairing_gap, find_tac_pairing_chiral_barrier
 
 
 def test_heavy_ion_kinematics():
@@ -1800,6 +1802,24 @@ def test_level_scheme_loop_balancer():
     print("  ✓ level_scheme_loop_residual_intensity_balancer passed.")
 
 
+def test_digital_psd_optimizer():
+    print("Testing digital_psd_charge_comparison_optimizer...")
+    opt = optimize_gate_widths(1.5, 3.2, 270.0, 0.12, 0.32)
+    assert opt["max_delta_PSD"] > 0.03
+    fom = evaluate_fom_energy_dependence(500.0, 1.45, [200.0, 500.0])
+    assert fom[1]["FOM"] == 1.45
+    print("  ✓ digital_psd_charge_comparison_optimizer passed.")
+
+
+def test_tac_pairing_chiral():
+    print("Testing tac_pairing_self_consistent_chiral_engine...")
+    pair = calculate_self_consistent_pairing_gap(134, 4.0, 30.0)
+    assert pair["Delta_J_MeV"] > 0.0
+    chiral = find_tac_pairing_chiral_barrier(18.0, 5.5, 5.5, 15.0, 25.0, 6.0)
+    assert chiral["barrier_keV"] > 10.0
+    print("  ✓ tac_pairing_self_consistent_chiral_engine passed.")
+
+
 def test_heavy_ion_dic_wilczynski():
     print("Testing heavy_ion_dic_wilczynski_energy_loss_calculator...")
     kin = calculate_dic_kinematics(Ap=86, Zp=36, At=166, Zt=68, Elab_MeV=703.0)
@@ -2167,4 +2187,6 @@ if __name__ == "__main__":
     test_multi_quasiparticle_mchid()
     test_heavy_ion_dic_wilczynski()
     test_octupole_collective_ewsr()
+    test_digital_psd_optimizer()
+    test_tac_pairing_chiral()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

@@ -136,6 +136,8 @@ from double_root_dco_polarization_statistical_arbitrator import analyze_double_r
 from multi_quasiparticle_mchid_chirality_calculator import analyze_mchid, PRESETS as MCHID_PRESETS
 from heavy_ion_dic_wilczynski_energy_loss_calculator import run_dic_analysis, format_text_report as format_dic_report, PRESETS as DIC_PRESETS
 from octupole_collective_ewsr_parity_doublet_analyzer import run_octupole_analysis, format_text_report as format_octewsr_report, PRESETS as OCTEWSR_PRESETS
+from digital_psd_charge_comparison_optimizer import run_psd_analysis, format_text_report as format_psd_report, PRESETS as PSD_PRESETS
+from tac_pairing_self_consistent_chiral_engine import scan_spin_evolution_with_pairing, format_text_report as format_tacpair_report, PRESETS as TACPAIR_PRESETS
 
 
 def cmd_kinematics(args):
@@ -2865,6 +2867,97 @@ def cmd_octewsr(args):
     else:
         print(format_octewsr_report(res, title=title))
 
+
+def cmd_psdopt(args):
+    if args.preset and args.preset in PSD_PRESETS:
+        p = PSD_PRESETS[args.preset]
+        scintillator = p["scintillator"]
+        tau_rise = p.get("tau_rise_ns", 1.5)
+        tau_fast = p["tau_fast_ns"]
+        tau_slow = p["tau_slow_ns"]
+        f_slow_g = p["f_slow_gamma"]
+        f_slow_n = p["f_slow_neutron"]
+        t_long = p.get("T_long_ns", 350.0)
+        dt = p.get("sampling_dt_ns", 0.5)
+        base_energy = p.get("base_energy_keVee", 500.0)
+        base_fom = p.get("base_fom", 1.45)
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        scintillator = args.scintillator if hasattr(args, "scintillator") and args.scintillator else "Organic-Scintillator"
+        tau_rise = 1.5
+        tau_fast = args.tau_fast if hasattr(args, "tau_fast") and args.tau_fast else 3.2
+        tau_slow = args.tau_slow if hasattr(args, "tau_slow") and args.tau_slow else 270.0
+        f_slow_g = args.f_slow_g if hasattr(args, "f_slow_g") and args.f_slow_g else 0.12
+        f_slow_n = args.f_slow_n if hasattr(args, "f_slow_n") and args.f_slow_n else 0.32
+        t_long = args.t_long if hasattr(args, "t_long") and args.t_long else 350.0
+        dt = 0.5
+        base_energy = args.energy_kevee if hasattr(args, "energy_kevee") and args.energy_kevee else 500.0
+        base_fom = args.base_fom if hasattr(args, "base_fom") and args.base_fom else 1.45
+        title = "Custom User Input"
+
+    res = run_psd_analysis(
+        scintillator=scintillator,
+        tau_rise_ns=tau_rise,
+        tau_fast_ns=tau_fast,
+        tau_slow_ns=tau_slow,
+        f_slow_g=f_slow_g,
+        f_slow_n=f_slow_n,
+        T_long_ns=t_long,
+        dt_ns=dt,
+        base_energy_keVee=base_energy,
+        base_fom=base_fom
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_psd_report(res, title=title))
+
+
+def cmd_tacpair(args):
+    if args.preset and args.preset in TACPAIR_PRESETS:
+        p = TACPAIR_PRESETS[args.preset]
+        A_mass = p["A_mass"]
+        spins = p["spins"]
+        jp = p["j_pi"]
+        jn = p["j_nu"]
+        Jm = p["J_m_rig"]
+        Js = p["J_s_rig"]
+        Jl = p["J_l_rig"]
+        f_block = p.get("f_block", 0.55)
+        omega_c = p.get("omega_c_MeV", 0.28)
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        A_mass = args.mass_a if hasattr(args, "mass_a") and args.mass_a else 134
+        spins = list(range(11, 23))
+        jp = args.jp if hasattr(args, "jp") and args.jp else 5.5
+        jn = args.jn if hasattr(args, "jn") and args.jn else 5.5
+        Jm = args.Jm if hasattr(args, "Jm") and args.Jm else 30.0
+        Js = args.Js if hasattr(args, "Js") and args.Js else 18.0
+        Jl = args.Jl if hasattr(args, "Jl") and args.Jl else 8.0
+        f_block = 0.55
+        omega_c = 0.28
+        title = "Custom User Input"
+
+    res = scan_spin_evolution_with_pairing(
+        A_mass=A_mass,
+        spins=spins,
+        j_pi=jp,
+        j_nu=jn,
+        J_m_rig=Jm,
+        J_s_rig=Js,
+        J_l_rig=Jl,
+        f_block=f_block,
+        omega_c_MeV=omega_c
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_tacpair_report(res, title=title))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -4155,6 +4248,32 @@ def main():
     p_oct.add_argument("--b-e3-wu", type=float, help="B(E3; 3- -> 0+) in W.u.")
     p_oct.add_argument("--json", action="store_true", help="Output pure JSON")
     p_oct.set_defaults(func=cmd_octewsr)
+
+    # Digital PSD & Charge Comparison Method (CCM) Gate Optimizer
+    p_psd = subparsers.add_parser("psdopt", help="Digital pulse shape discrimination (PSD), CCM gate optimization & FOM (Nakhostin Ch 4 / Knoll)")
+    p_psd.add_argument("--preset", type=str, default="EJ301_fast_neutron_psd", choices=["EJ301_fast_neutron_psd", "Stilbene_crystal_psd", "Low_energy_threshold_psd", "custom"], help="Benchmark preset")
+    p_psd.add_argument("--scintillator", type=str, default="Organic-Scintillator", help="Scintillator name")
+    p_psd.add_argument("--tau-fast", type=float, default=3.2, help="Fast decay time in ns")
+    p_psd.add_argument("--tau-slow", type=float, default=270.0, help="Slow decay time in ns")
+    p_psd.add_argument("--f-slow-g", type=float, default=0.12, help="Slow fraction for gamma")
+    p_psd.add_argument("--f-slow-n", type=float, default=0.32, help="Slow fraction for neutron")
+    p_psd.add_argument("--t-long", type=float, default=350.0, help="Long integration gate in ns")
+    p_psd.add_argument("--energy-kevee", type=float, default=500.0, help="Reference energy in keVee")
+    p_psd.add_argument("--base-fom", type=float, default=1.45, help="FOM at reference energy")
+    p_psd.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_psd.set_defaults(func=cmd_psdopt)
+
+    # 3D TAC with Self-Consistent BCS Pairing & Chiral Restoration Engine
+    p_tacp = subparsers.add_parser("tacpair", help="Self-consistent 3D TAC with pairing gap equation & chiral restoration (Meng-Zhao CRC 2025 Ch 9)")
+    p_tacp.add_argument("--preset", type=str, default="134Pr_chiral_tripod_pairing", choices=["134Pr_chiral_tripod_pairing", "135Nd_odd_neutron_pairing", "136Nd_4qp_pairing", "custom"], help="Benchmark preset")
+    p_tacp.add_argument("--mass-a", type=int, help="Mass number A")
+    p_tacp.add_argument("--jp", type=float, default=5.5, help="Proton alignment j_pi")
+    p_tacp.add_argument("--jn", type=float, default=5.5, help="Neutron alignment j_nu")
+    p_tacp.add_argument("--Jm", type=float, default=30.0, help="Intermediate axis MOI")
+    p_tacp.add_argument("--Js", type=float, default=18.0, help="Short axis MOI")
+    p_tacp.add_argument("--Jl", type=float, default=8.0, help="Long axis MOI")
+    p_tacp.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tacp.set_defaults(func=cmd_tacpair)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

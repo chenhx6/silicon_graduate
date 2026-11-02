@@ -117,6 +117,7 @@ tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 | PETR-2 | 孟杰与王玉鹏三维非共面手征旋转与四准粒子多重手征能带（M$\chi$D）：偶偶核（如 $^{136}\text{Nd}$）中 4 准粒子组态 $\pi h_{11/2}^2 \otimes \nu h_{11/2}^{-2}$ 形成短-长-中三轴角动量正交耦合，标量三重积 $\chi = \vec{j}_\pi \cdot (\vec{j}_\nu \times \vec{R}) \ne 0$ 自发破缺 $\mathcal{T}\mathcal{R}_y(\pi)$ 离散对称性，形成近简并同宇称手征双重带。 | model-result | direct | Ch. 3, PDF pp. 81–93 | false |
 | PETR-3 | Lawrie 倾斜进动（TiP）与三轴摆动判据：进动角动量沿非主转动轴偏转形成连续进动，具有不同于单声子摆动的电磁跃迁特征；提出判据表格区分真实横向摆动与倾斜进动、磁转动剪刀带或单粒子签名伙伴带。 | model-result | direct | Ch. 6, PDF pp. 127–148, 表 6.1 | false |
 | PETR-4 | 陈启博等协变密度泛函理论与粒子转子模型（CDFT+PRM）对多重手征带的微观描述：同一核内基于不同多准粒子组态（4-qp 基态组态与 4-qp 激发组态）或不同形变极小共存两对以上独立手征双重能带（M$\chi$D），给出能级简并度、平滑无交错 $S(I)$ 参数与带间跃迁受阻规律。 | model-result | direct | Ch. 10, PDF pp. 222–238 | false |
+| PETR-5 | 赵鹏巍与陈启博等含时协变密度泛函与配对微观 3D TAC：推导 Coriolis 反配对（CAP）与泡利阻塞引起的动态配对能隙淬灭 $\Delta(J)$，给出配对依赖的微观转动惯量 $\mathcal{J}_k(\Delta)$ 沿中间轴膨胀机制，量化低自旋平面相、中高自旋非平面手征分叉相与极高自旋（$I \ge 24^+$）手征恢复（Chiral Restoration）相变全动力学过程。 | model-result | direct | Ch. 9, PDF pp. 204–221; Ch. 10, PDF pp. 222–238 | false |
 
 
 ## Extracted Pages
