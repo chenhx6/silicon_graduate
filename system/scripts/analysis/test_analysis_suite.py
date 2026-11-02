@@ -154,6 +154,8 @@ from digital_psd_charge_comparison_optimizer import optimize_gate_widths, evalua
 from tac_pairing_self_consistent_chiral_engine import calculate_self_consistent_pairing_gap, find_tac_pairing_chiral_barrier
 from cascade_deorientation_coefficient_uk_calculator import calculate_single_step_uk, evaluate_cascade_deorientation
 from mwpc_drift_chamber_field_avalanche_simulator import calculate_electrostatic_field, run_mwpc_simulation
+from coriolis_band_mixing_matrix_diagonalizer import construct_coriolis_matrix, diagonalize_coriolis_mixing
+from spontaneous_fission_wkb_action_calculator import calculate_sf_hill_wheeler_transmission, calculate_double_hump_sf_half_life
 
 
 def test_heavy_ion_kinematics():
@@ -1804,6 +1806,24 @@ def test_level_scheme_loop_balancer():
     print("  ✓ level_scheme_loop_residual_intensity_balancer passed.")
 
 
+def test_coriolis_band_mixing():
+    print("Testing coriolis_band_mixing_matrix_diagonalizer...")
+    H, basis = construct_coriolis_matrix(2.5, [0.5, 1.5, 2.5], [0.0, 150.0, 380.0], 13.0, 5.5, a_decouple=-3.5)
+    assert H.shape == (3, 3)
+    levels = diagonalize_coriolis_mixing([1.5, 2.5, 3.5], [0.5, 1.5, 2.5], [0.0, 150.0, 380.0], 13.0, 5.5)
+    assert len(levels) == 3
+    print("  ✓ coriolis_band_mixing_matrix_diagonalizer passed.")
+
+
+def test_spontaneous_fission_action():
+    print("Testing spontaneous_fission_wkb_action_calculator...")
+    P, arg = calculate_sf_hill_wheeler_transmission(6.0, 1.0, 1.0)
+    assert P < 1e-10
+    res = calculate_double_hump_sf_half_life(6.3, 1.0, 5.65, 0.51, 0.80)
+    assert res["log10_T_half_years"] > 10.0
+    print("  ✓ spontaneous_fission_wkb_action_calculator passed.")
+
+
 def test_cascade_deorientation_uk():
     print("Testing cascade_deorientation_coefficient_uk_calculator...")
     u0 = calculate_single_step_uk(6.0, 4.0, 2.0, k=0)
@@ -2211,4 +2231,6 @@ if __name__ == "__main__":
     test_tac_pairing_chiral()
     test_cascade_deorientation_uk()
     test_mwpc_drift_chamber()
+    test_coriolis_band_mixing()
+    test_spontaneous_fission_action()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

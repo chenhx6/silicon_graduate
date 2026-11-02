@@ -6920,3 +6920,39 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-wang-particle-detection.md` with WANG-1 to WANG-5 entries.
 - Added unit test suite `system/tests/test_mwpc_drift_chamber.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **122 official analysis modules**, all verified passing in 2.3s.
+
+### Odd-A Deformed Coriolis Band Mixing & Signature Splitting Engine (Module 123) 2026-11-03T15:45:00+08:00
+
+- Integrated Odd-A Deformed Nuclei Multi-Band Coriolis Matrix Diagonalizer, Signature Splitting / Inversion & Decoupling Parameter Engine (`coriolis_band_mixing_matrix_diagonalizer.py`):
+  - Based on A. Bohr & B. R. Mottelson *Nuclear Structure* Vol. II §4-3 (pp. 158–175), 卢希庭《原子核物理（修订版）》第 8 章 §8.6, and A. K. Kerman (1956):
+    * Formulates particle-rotor coupling in deformed basis $|I, M, K, j\rangle$ with rotational kinetic energy $H_{\text{rot}} = A_{\text{rot}}[I(I+1)-K^2]$ and Coriolis term $H_{\text{Coriolis}} = -A_{\text{rot}}[I_+ j_- + I_- j_+]$.
+    * Evaluates diagonal decoupling shift for $K=1/2$ band $\Delta E_{1/2} = a A_{\text{rot}} (-1)^{I+1/2}(I+1/2)$ and off-diagonal matrix elements connecting $\Delta K = \pm 1$.
+    * Performs tridiagonal matrix diagonalization across sequence of spins, extracting perturbed energy levels and wavefunctions $|\Psi(I)\rangle = \sum c_K |I, K\rangle$.
+    * Quantifies signature staggering $S(I) = [E(I) - E(I-1)] / (2I)$ and single-particle rotation-alignment (Stephens 1975).
+  - Benchmarks:
+    * $^{159}\text{Dy}$ neutron $i_{13/2}$ band mixing: strong Coriolis mixing among $K=1/2, 3/2, 5/2, 7/2$ ($A_{\text{rot}}=12\text{ keV}, a=+0.85$), reproducing delocalized wavefunctions at $I=9/2^+$ ($c_{1/2}=0.659, c_{3/2}=0.654, c_{5/2}=0.355$).
+    * $^{135}\text{Pr}$ proton $h_{11/2}$ band mixing: $a=-3.20$, reproducing large signature splitting.
+    * $^{169}\text{Tm}$ proton $K=1/2^+[411]$ decoupling ($a=-0.77$).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `coriolismix`.
+- Created concept page: `knowledge/concepts/odd-a-coriolis-band-mixing-and-signature-splitting.md`.
+- Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-7 entry.
+- Added unit test suite `system/tests/test_coriolis_band_mixing.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 123.
+
+### Spontaneous Fission Double-Humped Barrier Action & Half-Life Simulator (Module 124) 2026-11-03T16:15:00+08:00
+
+- Integrated Spontaneous Fission (SF) Double-Humped Barrier WKB Quantum Penetration Action, Hill-Wheeler Transmission & Half-Life Systematics Engine (`spontaneous_fission_wkb_action_calculator.py`):
+  - Based on 卢希庭《原子核物理（修订版）》第 4 章 §4.4 (pp. 102–115), C. A. Bertulani "Introduction to Nuclear Reactions" Ch. 11, and P. Möller et al. (Phys. Rev. C 79, 064304, 2009):
+    * Evaluates Hill-Wheeler transmission probabilities $P_A, P_B$ across inner and outer parabolic barriers.
+    * Computes total two-barrier penetration factor $P_{\text{tot}} \approx (P_A P_B) / 4$ and effective WKB action $S_{\text{eff}} = -\ln(P_{\text{tot}})$.
+    * Simulates zero-point assault frequency $\nu_0 \approx 10^{21}\text{ s}^{-1}$ and half-life $T_{1/2}^{\text{SF}} = [\ln(2)/\nu_0]\exp(S_{\text{eff}})$.
+    * Models liquid-drop fissility $Z^2/A$ scaling and Strutinsky ground-state shell correction shielding ($\delta U$).
+  - Benchmarks:
+    * $^{238}\text{U}$ spontaneous fission: $E_A = 6.30\text{ MeV}, E_B = 5.65\text{ MeV}, S_{\text{eff}} = 95.70, P_{\text{tot}} = 2.75 \times 10^{-42}$, predicting $T_{1/2}^{\text{SF}} \approx 7.98 \times 10^{12}\text{ yr}$ ($\log_{10} = 12.90$).
+    * $^{252}\text{Cf}$ commercial neutron source: $E_A = 5.30\text{ MeV}, E_B = 5.05\text{ MeV}, S_{\text{eff}} = 72.82$, predicting $T_{1/2}^{\text{SF}} \approx 927\text{ yr}$ ($\log_{10} = 2.97$).
+    * $^{240}\text{Pu}$ reactor benchmark: $T_{1/2}^{\text{SF}} \approx 1.14 \times 10^{11}\text{ yr}$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `spontfiss`.
+- Created concept page: `knowledge/concepts/spontaneous-fission-wkb-action-and-half-life.md`.
+- Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` with LU-12 entry.
+- Added unit test suite `system/tests/test_spontaneous_fission_action.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **124 official analysis modules**, all verified passing in 2.5s.

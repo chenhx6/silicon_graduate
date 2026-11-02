@@ -140,6 +140,8 @@ from digital_psd_charge_comparison_optimizer import run_psd_analysis, format_tex
 from tac_pairing_self_consistent_chiral_engine import scan_spin_evolution_with_pairing, format_text_report as format_tacpair_report, PRESETS as TACPAIR_PRESETS
 from cascade_deorientation_coefficient_uk_calculator import evaluate_cascade_deorientation, format_text_report as format_deorient_report, PRESETS as DEORIENT_PRESETS
 from mwpc_drift_chamber_field_avalanche_simulator import run_mwpc_simulation, format_text_report as format_mwpc_report, PRESETS as MWPC_PRESETS
+from coriolis_band_mixing_matrix_diagonalizer import run_coriolis_analysis, format_text_report as format_coriolis_report, PRESETS as CORIOLISMIX_PRESETS
+from spontaneous_fission_wkb_action_calculator import run_spontaneous_fission_analysis, format_text_report as format_sf_report, PRESETS as SPONTFISS_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3026,6 +3028,88 @@ def cmd_mwpc(args):
     else:
         print(format_mwpc_report(res, title=title))
 
+
+def cmd_coriolismix(args):
+    if args.preset and args.preset in CORIOLISMIX_PRESETS:
+        p = CORIOLISMIX_PRESETS[args.preset]
+        A_mass = p["A_mass"]
+        spins = p["spins"]
+        K_values = p["K_values"]
+        eps_keV = p["eps_keV"]
+        A_rot_keV = p["A_rot_keV"]
+        j_val = p["j_valence"]
+        a_decouple = p["a_decouple"]
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        A_mass = args.mass_a if hasattr(args, "mass_a") and args.mass_a else 159
+        spins = [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5]
+        K_values = [0.5, 1.5, 2.5]
+        eps_keV = [0.0, 160.0, 380.0]
+        A_rot_keV = args.arot if hasattr(args, "arot") and args.arot else 13.0
+        j_val = args.jval if hasattr(args, "jval") and args.jval else 5.5
+        a_decouple = args.adecouple if hasattr(args, "adecouple") and args.adecouple else 0.0
+        title = "Custom User Input"
+
+    res = run_coriolis_analysis(
+        A_mass=A_mass,
+        spins=spins,
+        K_values=K_values,
+        eps_keV=eps_keV,
+        A_rot_keV=A_rot_keV,
+        j_val=j_val,
+        a_decouple=a_decouple
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_coriolis_report(res, title=title))
+
+
+def cmd_spontfiss(args):
+    if args.preset and args.preset in SPONTFISS_PRESETS:
+        p = SPONTFISS_PRESETS[args.preset]
+        nuc = p["nucleus"]
+        Z = p["Z_charge"]
+        A = p["A_mass"]
+        ea = p["E_A_MeV"]
+        hwa = p["hw_A_MeV"]
+        eb = p["E_B_MeV"]
+        hwb = p["hw_B_MeV"]
+        e0 = p.get("E_0_MeV", 0.80)
+        deltau = p.get("delta_U_MeV", 2.0)
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        nuc = args.nucleus if hasattr(args, "nucleus") and args.nucleus else "Heavy-Nucleus"
+        Z = args.charge_z if hasattr(args, "charge_z") and args.charge_z else 92
+        A = args.mass_a if hasattr(args, "mass_a") and args.mass_a else 238
+        ea = args.ea if hasattr(args, "ea") and args.ea else 6.30
+        hwa = args.hwa if hasattr(args, "hwa") and args.hwa else 1.00
+        eb = args.eb if hasattr(args, "eb") and args.eb else 5.65
+        hwb = args.hwb if hasattr(args, "hwb") and args.hwb else 0.51
+        e0 = args.e0 if hasattr(args, "e0") and args.e0 else 0.80
+        deltau = args.deltau if hasattr(args, "deltau") and args.deltau else 2.0
+        title = "Custom User Input"
+
+    res = run_spontaneous_fission_analysis(
+        nucleus=nuc,
+        Z_charge=Z,
+        A_mass=A,
+        E_A_MeV=ea,
+        hw_A_MeV=hwa,
+        E_B_MeV=eb,
+        hw_B_MeV=hwb,
+        E_0_MeV=e0,
+        delta_U_MeV=deltau
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_sf_report(res, title=title))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -4361,6 +4445,31 @@ def main():
     p_mwpc.add_argument("--pressure", type=float, default=760.0, help="Gas pressure in Torr")
     p_mwpc.add_argument("--json", action="store_true", help="Output pure JSON")
     p_mwpc.set_defaults(func=cmd_mwpc)
+
+    # Odd-A Deformed Coriolis Band Mixing & Signature Splitting Diagonalizer
+    p_cmix = subparsers.add_parser("coriolismix", help="Odd-A deformed Coriolis band mixing & signature splitting (Bohr Vol II §4-3)")
+    p_cmix.add_argument("--preset", type=str, default="159Dy_neutron_i13_2", choices=["159Dy_neutron_i13_2", "135Pr_proton_h11_2", "169Tm_proton_1_2plus", "custom"], help="Benchmark preset")
+    p_cmix.add_argument("--mass-a", type=int, help="Mass number A")
+    p_cmix.add_argument("--arot", type=float, default=13.0, help="Rotational constant A_rot in keV")
+    p_cmix.add_argument("--jval", type=float, default=5.5, help="Valence orbital angular momentum j")
+    p_cmix.add_argument("--adecouple", type=float, default=0.0, help="Decoupling parameter a for K=1/2")
+    p_cmix.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_cmix.set_defaults(func=cmd_coriolismix)
+
+    # Spontaneous Fission Double-Humped Barrier Action & Half-Life Simulator
+    p_spf = subparsers.add_parser("spontfiss", help="Spontaneous fission double-humped barrier WKB action & half-life (Lu Ch 4 / Bertulani)")
+    p_spf.add_argument("--preset", type=str, default="238U_spontaneous_fission", choices=["238U_spontaneous_fission", "252Cf_spontaneous_fission", "240Pu_spontaneous_fission", "294Og_superheavy_sf", "custom"], help="Benchmark preset")
+    p_spf.add_argument("--nucleus", type=str, default="238U", help="Nucleus name")
+    p_spf.add_argument("--charge-z", type=int, help="Atomic number Z")
+    p_spf.add_argument("--mass-a", type=int, help="Mass number A")
+    p_spf.add_argument("--ea", type=float, default=6.3, help="Inner barrier height in MeV")
+    p_spf.add_argument("--hwa", type=float, default=1.0, help="Inner barrier curvature in MeV")
+    p_spf.add_argument("--eb", type=float, default=5.65, help="Outer barrier height in MeV")
+    p_spf.add_argument("--hwb", type=float, default=0.51, help="Outer barrier curvature in MeV")
+    p_spf.add_argument("--e0", type=float, default=0.80, help="Zero-point vibration energy in MeV")
+    p_spf.add_argument("--deltau", type=float, default=2.2, help="Shell correction energy in MeV")
+    p_spf.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_spf.set_defaults(func=cmd_spontfiss)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

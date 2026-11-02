@@ -86,6 +86,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `tacpair` | 自洽 3D TAC 微观配对能隙方程、Coriolis 反配对（CAP）淬灭与手征恢复相变动力学 | 依赖平均场单粒子态基底；大振幅非谐振量子涨落需结合角动量投影（AMP） |
 | `cascadeuk` | 未观测中间级联去取向系数 U_k(I1, I2, L) 与级联角分布各向异性衰减修正 | 需假定未观测跃迁的多极性或混合比；若存在长寿命同核异能态需结合时间微分真空去取向 |
 | `mwpc` | MWPC 与漂移室共形解析静电场、第一 Townsend 雪崩放大与饱和时空校准曲线 | 假定理想平行丝阵列；极端高计数率（>10^5 Hz/mm）下需引入正离子鞘空间电荷屏蔽修正 |
+| `coriolismix` | 奇 A 变形核多带 Coriolis 耦合矩阵代数对角化、波函数混杂与签名交错度分析 | 假定轴对称拉长转子核心；三轴或超形变大形变核需结合非轴对称推转或三轴粒子转子模型 |
+| `spontfiss` | 重核与超重核双峰势垒自发裂变（SF）WKB 量子穿透作用量积分与半衰期系统学 | 假定一维裂变裂开路径；高维断裂形变与颈缩动力学需结合多维微观自洽 HFB 势能面 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -121,6 +123,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py psdopt --preset EJ301_fast_n
 python3 system/scripts/analysis/nuclear_analyzer.py tacpair --preset 134Pr_chiral_tripod_pairing --json
 python3 system/scripts/analysis/nuclear_analyzer.py cascadeuk --preset yrast_stretched_e2_cascade --json
 python3 system/scripts/analysis/nuclear_analyzer.py mwpc --preset standard_mwpc_p10 --json
+python3 system/scripts/analysis/nuclear_analyzer.py coriolismix --preset 159Dy_neutron_i13_2 --json
+python3 system/scripts/analysis/nuclear_analyzer.py spontfiss --preset 238U_spontaneous_fission --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 
