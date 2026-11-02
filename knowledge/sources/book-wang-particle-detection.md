@@ -56,8 +56,13 @@ topics: [gaseous-detectors, gm-counter, semiconductor-detectors, radiation-damag
 
 ## Key Results
 
-- **G-M 计数管死时间与复原时间**（PDF p.143 = 印刷 p.129、图 4.2.18）：放电后正离子鞘包围阳极丝使周围电场降低；只有当正离子鞘向阴极移动、阳极电场恢复到足以再次引起雪崩增殖的时间称为失效时间（死时间 $t_d$）。死时间之后至脉冲高度恢复到正常幅度的时间称为复原时间 $t_r$。
-- **半导体辐射损伤机制**（PDF p.236 = 印刷 p.222、§5.4.8）：辐照在晶格中造成缺陷并形成俘获中心，从而降低载流子寿命、改变电阻率并恶化能量分辨率。
+| ID | 陈述与物理内容 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| WANG-1 | MWPC 与漂移室共形映射电位分布：阳极丝阵列电位严格表达为 $V(x, y) = V_0 - \frac{q}{4\pi\varepsilon_0}[\frac{2\pi L}{s} - \ln(4(\sin^2\frac{\pi x}{s} + \sinh^2\frac{\pi y}{s}))]$，揭示近丝强场区（$r \ll s$）反比发散与远丝漂移区（$y \ge s/2$）均匀电场的双重拓扑架构。 | model-result | direct | 第 3 章 §3.3, 印刷 pp. 75–88 / PDF pp. 89–102 | false |
+| WANG-2 | 第一 Townsend 电离系数与气体雪崩放大：$\alpha(E) = A P \exp(-B P / E)$，沿径向场强积分确定正比工作区雪崩倍增倍数 $M \approx \exp[\int_{r_0}^{r_c} \alpha dr] \sim 10^4 - 10^6$，给出阳极丝表面场强 $E(r_0) \sim 10^5\text{ V/cm}$ 下的工作高压选择准则。 | model-result | direct | 第 3 章 §3.1–3.3, 印刷 pp. 62–75 / PDF pp. 76–89 | false |
+| WANG-3 | 漂移室饱和漂移速度与扩散空间分辨极限：在饱和场区电子漂移速度恒定为 $v_d \approx 50\ \mu\text{m/ns}$，推导由热扩散决定的横向/纵向位置分辨极限 $\sigma_x = \sqrt{2 D x / v_d} \propto \sqrt{x}$。 | model-result | direct | 第 3 章 §3.4, 印刷 pp. 88–95 / PDF pp. 102–109 | false |
+| WANG-4 | G-M 计数管死时间与复原时间：放电后正离子鞘包围阳极丝使周围电场降低；只有当正离子鞘向阴极移动、阳极电场恢复到足以再次引起雪崩增殖的时间称为失效时间（死时间 $t_d$）。死时间之后至脉冲高度恢复到正常幅度的时间称为复原时间 $t_r$。 | model-result | direct | 第 4 章 §4.2, 印刷 p. 129 / PDF p. 143, 图 4.2.18 | false |
+| WANG-5 | 半导体辐射损伤机制：快中子辐照在晶格中造成 Frenkel 缺陷并形成深能级俘获中心，增加漏电流并导致严重的空穴载流子俘获，恶化探测器能量分辨率。 | model-result | direct | 第 5 章 §5.4, 印刷 p. 222 / PDF p. 236, §5.4.8 | false |
 
 ## Competing Interpretations and Limitations
 

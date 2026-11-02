@@ -27,6 +27,15 @@ topics: [bk-parameters, ak-coefficients, f-coefficients, u-coefficients, mixing-
 
 # W. D. Hamilton 1975 - The Electromagnetic Interaction in Nuclear Spectroscopy
 
+## Key Results
+
+| ID | 陈述与物理内容 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| HAM-1 | 定向核态张量与光子角分布展开：定向核态发射光子的角分布表象为 $W(\theta) = 1 + A_2 P_2(\cos\theta) + A_4 P_4(\cos\theta)$，其中各向异性展开系数分解为初态统计取向张量 $B_k(I_i)$ 与跃迁多极几何因子 $R_k(L L' I_i I_f)$ 的乘积。 | model-result | direct | Ch. 12, pp. 505–550 | false |
+| HAM-2 | 未观测中间级联去取向系数 $U_k$：经由未观测多极跃迁 $I_1 \xrightarrow{L} I_2$ 级联退激时，核取向张量严格按 Wigner $6j$ 符号衰减 $B_k(I_2) = B_k(I_1) U_k(I_1, I_2, L)$，其中 $U_k = (-1)^{I_1+I_2+L+k}\sqrt{(2I_1+1)(2I_2+1)}\{I_1 I_1 k; I_2 I_2 L\}$；严格满足总几率守恒 $U_0 \equiv 1$ 与各向异性衰减 $U_k < 1.0$。 | model-result | direct | Ch. 14, pp. 580–625 | false |
+| HAM-3 | 康普顿线偏振度 $P(\theta)$ 宇称符号法则：线偏振不对称度符号在电多极（$E\lambda$）与磁多极（$M\lambda$）辐射下严格相反，为实验直接判定能级跃迁宇称提供排他性判据。 | model-result | direct | Ch. 14, pp. 626–660 | false |
+| HAM-4 | 多极混合比 $\delta(E2/M1)$ 有理二次方程双实数根退化：单角分布测量中 $A_k(\delta)$ 是关于 $\delta$ 的二次有理函数，数学上必然产生两个实数根，唯有联合线偏振或内转换测量方可打破退化。 | model-result | direct | Ch. 14, pp. 600–615 | false |
+
 ## 专著概况与定位
 
 全书 956 页，汇集了 Steffen, Alder, Rose 等电磁理论宗师的经典篇章，被公认为实验核物理中电磁多极辐射与角关联测量领域“最为完备的圣经”。现代高自旋实验谱学所使用的方向角分布（AD）、方向角关联（DCO）、偏振角分布（ADO/POL）与多极混合比 $\delta$ 符号约定（Rose-Brink 约定 vs Krane-Steffen 约定），均源于本书的严格推导。

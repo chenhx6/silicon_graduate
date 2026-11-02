@@ -138,6 +138,8 @@ from heavy_ion_dic_wilczynski_energy_loss_calculator import run_dic_analysis, fo
 from octupole_collective_ewsr_parity_doublet_analyzer import run_octupole_analysis, format_text_report as format_octewsr_report, PRESETS as OCTEWSR_PRESETS
 from digital_psd_charge_comparison_optimizer import run_psd_analysis, format_text_report as format_psd_report, PRESETS as PSD_PRESETS
 from tac_pairing_self_consistent_chiral_engine import scan_spin_evolution_with_pairing, format_text_report as format_tacpair_report, PRESETS as TACPAIR_PRESETS
+from cascade_deorientation_coefficient_uk_calculator import evaluate_cascade_deorientation, format_text_report as format_deorient_report, PRESETS as DEORIENT_PRESETS
+from mwpc_drift_chamber_field_avalanche_simulator import run_mwpc_simulation, format_text_report as format_mwpc_report, PRESETS as MWPC_PRESETS
 
 
 def cmd_kinematics(args):
@@ -2958,6 +2960,72 @@ def cmd_tacpair(args):
     else:
         print(format_tacpair_report(res, title=title))
 
+
+def cmd_deorient(args):
+    if args.preset and args.preset in DEORIENT_PRESETS:
+        p = DEORIENT_PRESETS[args.preset]
+        steps = p["steps"]
+        a2_init = p.get("a2_initial", 0.35)
+        a4_init = p.get("a4_initial", -0.10)
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        steps = DEORIENT_PRESETS["yrast_stretched_e2_cascade"]["steps"]
+        a2_init = args.a2 if hasattr(args, "a2") and args.a2 is not None else 0.35
+        a4_init = args.a4 if hasattr(args, "a4") and args.a4 is not None else -0.10
+        title = "Default 6+ -> 4+ -> 2+ Cascade"
+
+    res = evaluate_cascade_deorientation(steps, a2_init=a2_init, a4_init=a4_init)
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_deorient_report(res, title=title))
+
+
+def cmd_mwpc(args):
+    if args.preset and args.preset in MWPC_PRESETS:
+        p = MWPC_PRESETS[args.preset]
+        pitch_s = p["pitch_s_mm"]
+        gap_L = p["gap_L_mm"]
+        wire_r0 = p["wire_r0_um"]
+        voltage = p["voltage_V0"]
+        pressure = p.get("gas_pressure_Torr", 760.0)
+        A = p.get("townsend_A", 14.0)
+        B = p.get("townsend_B", 180.0)
+        vd = p.get("drift_velocity_cm_us", 5.0)
+        D = p.get("diffusion_D_um2_ns", 120.0)
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        pitch_s = args.pitch_s if hasattr(args, "pitch_s") and args.pitch_s else 2.0
+        gap_L = args.gap_L if hasattr(args, "gap_L") and args.gap_L else 5.0
+        wire_r0 = args.wire_r0 if hasattr(args, "wire_r0") and args.wire_r0 else 10.0
+        voltage = args.voltage if hasattr(args, "voltage") and args.voltage else 2600.0
+        pressure = args.pressure if hasattr(args, "pressure") and args.pressure else 760.0
+        A = 14.0
+        B = 180.0
+        vd = 5.0
+        D = 120.0
+        title = "Custom User Input"
+
+    res = run_mwpc_simulation(
+        pitch_s_mm=pitch_s,
+        gap_L_mm=gap_L,
+        wire_r0_um=wire_r0,
+        voltage_V0=voltage,
+        pressure_Torr=pressure,
+        townsend_A=A,
+        townsend_B=B,
+        drift_velocity_cm_us=vd,
+        diffusion_D_um2_ns=D
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_mwpc_report(res, title=title))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -4274,6 +4342,25 @@ def main():
     p_tacp.add_argument("--Jl", type=float, default=8.0, help="Long axis MOI")
     p_tacp.add_argument("--json", action="store_true", help="Output pure JSON")
     p_tacp.set_defaults(func=cmd_tacpair)
+
+    # Cascade Deorientation Coefficients U_k & Angular Distribution Attenuation
+    p_deor = subparsers.add_parser("cascadeuk", help="Unobserved cascade deorientation coefficients U_k & attenuation (Hamilton 1975 Ch 14)")
+    p_deor.add_argument("--preset", type=str, default="yrast_stretched_e2_cascade", choices=["yrast_stretched_e2_cascade", "chiral_mixed_m1e2_cascade", "dipole_unobserved_feed", "custom"], help="Benchmark preset")
+    p_deor.add_argument("--a2", type=float, default=0.35, help="Initial a2 coefficient")
+    p_deor.add_argument("--a4", type=float, default=-0.10, help="Initial a4 coefficient")
+    p_deor.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_deor.set_defaults(func=cmd_deorient)
+
+    # MWPC & Drift Chamber Field, Townsend Avalanche & Space-Time Simulator
+    p_mwpc = subparsers.add_parser("mwpc", help="MWPC & drift chamber conformal field, Townsend avalanche & drift time (Wang Ch 3 / Sauli)")
+    p_mwpc.add_argument("--preset", type=str, default="standard_mwpc_p10", choices=["standard_mwpc_p10", "high_gain_isobutane_mwpc", "drift_chamber_large_gap", "custom"], help="Benchmark preset")
+    p_mwpc.add_argument("--pitch-s", type=float, default=2.0, help="Wire pitch in mm")
+    p_mwpc.add_argument("--gap-L", type=float, default=5.0, help="Cathode gap in mm")
+    p_mwpc.add_argument("--wire-r0", type=float, default=10.0, help="Anode wire radius in um")
+    p_mwpc.add_argument("--voltage", type=float, default=2600.0, help="Anode high voltage in V")
+    p_mwpc.add_argument("--pressure", type=float, default=760.0, help="Gas pressure in Torr")
+    p_mwpc.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_mwpc.set_defaults(func=cmd_mwpc)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

@@ -152,6 +152,8 @@ from heavy_ion_dic_wilczynski_energy_loss_calculator import calculate_dic_kinema
 from octupole_collective_ewsr_parity_doublet_analyzer import calculate_octupole_ewsr, calculate_parity_splitting_ewsr
 from digital_psd_charge_comparison_optimizer import optimize_gate_widths, evaluate_fom_energy_dependence
 from tac_pairing_self_consistent_chiral_engine import calculate_self_consistent_pairing_gap, find_tac_pairing_chiral_barrier
+from cascade_deorientation_coefficient_uk_calculator import calculate_single_step_uk, evaluate_cascade_deorientation
+from mwpc_drift_chamber_field_avalanche_simulator import calculate_electrostatic_field, run_mwpc_simulation
 
 
 def test_heavy_ion_kinematics():
@@ -1802,6 +1804,24 @@ def test_level_scheme_loop_balancer():
     print("  ✓ level_scheme_loop_residual_intensity_balancer passed.")
 
 
+def test_cascade_deorientation_uk():
+    print("Testing cascade_deorientation_coefficient_uk_calculator...")
+    u0 = calculate_single_step_uk(6.0, 4.0, 2.0, k=0)
+    assert u0 == 1.0
+    u2 = calculate_single_step_uk(6.0, 4.0, 2.0, k=2)
+    assert abs(u2 - 0.9000) < 1e-3
+    print("  ✓ cascade_deorientation_coefficient_uk_calculator passed.")
+
+
+def test_mwpc_drift_chamber():
+    print("Testing mwpc_drift_chamber_field_avalanche_simulator...")
+    fld = calculate_electrostatic_field(2.0, 5.0, 10.0, 2600.0)
+    assert fld["E_surface_V_cm"] > 1e5
+    res = run_mwpc_simulation(2.0, 5.0, 10.0, 2600.0)
+    assert res["avalanche_gain"]["gas_gain_M"] > 1e3
+    print("  ✓ mwpc_drift_chamber_field_avalanche_simulator passed.")
+
+
 def test_digital_psd_optimizer():
     print("Testing digital_psd_charge_comparison_optimizer...")
     opt = optimize_gate_widths(1.5, 3.2, 270.0, 0.12, 0.32)
@@ -2189,4 +2209,6 @@ if __name__ == "__main__":
     test_octupole_collective_ewsr()
     test_digital_psd_optimizer()
     test_tac_pairing_chiral()
+    test_cascade_deorientation_uk()
+    test_mwpc_drift_chamber()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

@@ -6886,3 +6886,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-5 entry.
 - Added unit test suite `system/tests/test_tac_pairing_chiral.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **120 official analysis modules**, all verified passing in 2.5s.
+
+### Cascade Deorientation Coefficients U_k & Attenuation Engine (Module 121) 2026-11-03T14:45:00+08:00
+
+- Integrated In-Beam Gamma-Ray Spectroscopy Unobserved Cascade Deorientation Coefficients $U_k(I_1, I_2, L)$ & Angular Distribution Attenuation Suite (`cascade_deorientation_coefficient_uk_calculator.py`):
+  - Based on W. D. Hamilton *The Electromagnetic Interaction in Nuclear Spectroscopy* (1975) Ch. 14 (pp. 580–625), 吴治华《原子核物理实验方法》第 10 章 §10.3, and B. Herskind et al. (1968):
+    * Formulates deorientation coefficient $U_k(I_1, I_2, L) = (-1)^{I_1+I_2+L+k}\sqrt{(2I_1+1)(2I_2+1)}\{I_1 I_1 k; I_2 I_2 L\}$ from Racah W-algebra.
+    * Verifies analytical invariant $U_0(I_1, I_2, L) \equiv 1.0$ (probability conservation) and systematic anisotropic attenuation $U_k < 1.0$ ($k=2, 4$).
+    * Implements mixed multipolarity unobserved transitions: $U_k = [U_k(L) + \delta_u^2 U_k(L+1)] / (1 + \delta_u^2)$.
+    * Calculates cumulative chain attenuation $\mathcal{U}_k = \prod U_k$ for $n$-step cascades, correctly adjusting observed angular distribution coefficients $a_k = a_k^{\text{init}} \mathcal{U}_k$.
+  - Benchmarks:
+    * Yrast stretched $E2$ cascade $6^+ \to 4^+ \to 2^+ \to 0^+$: $U_2(6, 4) = 0.9000, U_4(6, 4) = 0.6861, U_2(4, 2) = 0.7491, U_4(4, 2) = 0.2847$, cumulative $\mathcal{U}_2 = 0.6742, \mathcal{U}_4 = 0.1953$.
+    * Chiral band mixed dipole feeding $13^+ \xrightarrow{M1+E2} 12^+ \xrightarrow{E2} 10^+$ ($\delta = -0.15$): $\mathcal{U}_2 = 0.9903, \mathcal{U}_4 = 0.9678$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `cascadeuk`.
+- Created concept page: `knowledge/concepts/unobserved-cascade-deorientation-coefficients-uk.md`.
+- Updated source card `knowledge/sources/book-hamilton-electromagnetic-interaction.md` with HAM-1 to HAM-4 entries.
+- Added unit test suite `system/tests/test_cascade_deorientation_uk.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 121.
+
+### MWPC & Drift Chamber Field, Townsend Avalanche & Space-Time Simulator (Module 122) 2026-11-03T15:15:00+08:00
+
+- Integrated Multiwire Proportional Chamber (MWPC) & Drift Chamber Conformal Electrostatic Field, Townsend Avalanche Gas Gain & Space-Time Calibration Simulator (`mwpc_drift_chamber_field_avalanche_simulator.py`):
+  - Based on 汪晓莲等《粒子探测技术》第 3 章 (pp. 58–105), 吴治华《原子核物理实验方法》第 4 章, and F. Sauli (CERN 77-09, 1977):
+    * Implements exact conformal mapping potential $V(x, y) = V_0 - \frac{q}{4\pi\varepsilon_0}[\frac{2\pi L}{s} - \ln(4(\sin^2\frac{\pi x}{s} + \sinh^2\frac{\pi y}{s}))]$.
+    * Decouples near-wire hyperbolic field $E(r) \sim 10^5\text{ V/cm}$ (initiating electron avalanche) from uniform parallel-plate drift field $E_{\text{drift}} \sim 10^3\text{ V/cm}$.
+    * Integrates first Townsend ionization coefficient $\alpha(E) = A P \exp(-B P / E)$ to evaluate proportional gas gain $M \sim 10^4 - 10^6$.
+    * Generates space-time calibration grid $x(t) = v_d t$ and computes thermal diffusion resolution limit $\sigma_x = \sqrt{2 D x / v_d} \sim 100 - 150\ \mu\text{m}$.
+  - Benchmarks:
+    * Standard MWPC with P-10 gas ($s=2\text{ mm}, L=5\text{ mm}, r_0=10\ \mu\text{m}, V_0=2600\text{ V}$): surface field $E(r_0) = 2.30 \times 10^5\text{ V/cm}$, drift field $3610\text{ V/cm}$, gas gain $M = 2.55 \times 10^4$, drift time $100.0\text{ ns}$ with $\sigma_x = 154.9\ \mu\text{m}$.
+    * High-gain Ar-Isobutane MWPC ($V_0=3200\text{ V}$): gas gain $M = 3.90 \times 10^4$, drift field $3970\text{ V/cm}$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `mwpc`.
+- Created concept page: `knowledge/concepts/mwpc-drift-chamber-electrostatic-field-and-avalanche.md`.
+- Updated source card `knowledge/sources/book-wang-particle-detection.md` with WANG-1 to WANG-5 entries.
+- Added unit test suite `system/tests/test_mwpc_drift_chamber.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **122 official analysis modules**, all verified passing in 2.3s.

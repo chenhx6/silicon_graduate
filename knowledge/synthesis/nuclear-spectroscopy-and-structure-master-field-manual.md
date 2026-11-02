@@ -84,6 +84,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `octewsr` | 微观八极集体模式、IS-EWSR 求和定则耗尽率、内禀 D0 偶极矩与交替宇称能带分析 | 依赖 Alaga 几何分支假定；轴不对称八极振动需结合三轴八极微观混合模型 |
 | `psdopt` | 数字化脉冲形状鉴别（PSD）、双门电荷比较法（CCM）门宽最优化与中子/gamma 分离 FOM | 假定双指数荧光衰变动力学；低能区（<100 keVee）受光电子泊松统计涨落限制 |
 | `tacpair` | 自洽 3D TAC 微观配对能隙方程、Coriolis 反配对（CAP）淬灭与手征恢复相变动力学 | 依赖平均场单粒子态基底；大振幅非谐振量子涨落需结合角动量投影（AMP） |
+| `cascadeuk` | 未观测中间级联去取向系数 U_k(I1, I2, L) 与级联角分布各向异性衰减修正 | 需假定未观测跃迁的多极性或混合比；若存在长寿命同核异能态需结合时间微分真空去取向 |
+| `mwpc` | MWPC 与漂移室共形解析静电场、第一 Townsend 雪崩放大与饱和时空校准曲线 | 假定理想平行丝阵列；极端高计数率（>10^5 Hz/mm）下需引入正离子鞘空间电荷屏蔽修正 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -117,6 +119,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py wilczynski --preset 86Kr_166
 python3 system/scripts/analysis/nuclear_analyzer.py octewsr --preset 224Ra_pear_shaped --json
 python3 system/scripts/analysis/nuclear_analyzer.py psdopt --preset EJ301_fast_neutron_psd --json
 python3 system/scripts/analysis/nuclear_analyzer.py tacpair --preset 134Pr_chiral_tripod_pairing --json
+python3 system/scripts/analysis/nuclear_analyzer.py cascadeuk --preset yrast_stretched_e2_cascade --json
+python3 system/scripts/analysis/nuclear_analyzer.py mwpc --preset standard_mwpc_p10 --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 
