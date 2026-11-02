@@ -62,6 +62,7 @@ tags: [books, heavy-ion-reactions, fusion-cross-section, critical-angular-moment
 | LIN-3 | 近垒与垒下熔合截面增强：静态四极/八极形变取向平均以及表面集体振动（低激发态声子）诱发多势垒分布，使近垒截面比单势垒穿透理论提高数个数量级。 | model-result | direct | 第 6 章 §6.2, 印刷 pp. 138–143 / PDF pp. 148–153, 式 (6.17)–(6.20) | false |
 | LIN-4 | 熔合-裂变演化与准裂变（Quasi-fission）：在重体系中，接触双核系统因受到强库仑排斥力在越过鞍点前即可沿质量不对称自由度重新分离，构成重元素合成中完全熔合截面塌缩的主要机制。 | model-result | direct | 第 7 章 §7.1, 印刷 pp. 177–179 / PDF pp. 187–189, 图 7.1–7.2 | false |
 | LIN-5 | 复合核初态自旋分布与出射道设计：分波截面 $\sigma_\ell = \frac{\pi}{k^2}(2\ell+1)T_\ell$ 构成三角形自旋分布；结合转动液滴模型（RLDM）裂变极限 $\ell_{\text{fiss}} \approx 70\ \hbar$ 与中子蒸发结合能-动能损失（每中子 $\sim 10.5\text{ MeV}$），给出 $A \sim 130$ 区手征与三轴态在束高自旋实验的推荐入射能量 $E_{\text{lab}}^{\text{opt}}(xn)$。 | model-result | direct | 第 6 章 §6.1, 印刷 pp. 136–138 / PDF pp. 146–148 | false |
+| LIN-6 | 深部非弹性散射（DIC）动力学、能量耗散（TKEL）与 Wilczynski 能量-角度关联：在 $\ell_{\text{crit}} < \ell \le \ell_{\text{grazing}}$ 碰撞窗口内，双核摩擦力使质心动能完全松弛降至库仑接触势，粘滞极限（Sticking limit）将相对轨道角动量的 $28\% \sim 48\%$ 转移为碎片内禀自旋（可高达 $60\ \hbar$）；双核绕旋转轴盘旋越过 $0^\circ$ 形成负角偏转分支，在 $(\theta_{\text{obs}}, \text{TKEL})$ 平面构成鸟嘴形 Wilczynski 动力学特征脊线。 | model-result | direct | 第 5 章 §5.1–5.4, 印刷 pp. 110–133 / PDF pp. 120–143 | false |
 
 ## Competing Interpretations and Limitations
 

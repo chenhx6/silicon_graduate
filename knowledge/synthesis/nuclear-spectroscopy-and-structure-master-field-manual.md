@@ -80,6 +80,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `chaban` | Davydov-Chaban 非绝热三轴转子模型、离心 beta 拉伸比 p=beta/beta0 与能谱计算 | 假定三轴度 gamma 保持为常数极小；大振幅 gamma 涨落需结合 5D 玻尔哈密顿量 |
 | `doubleroot` | DCO 多极混合比 delta(E2/M1) 双根轮廓极大似然、偏振/转换系数/单粒子极限物理仲裁 | 依赖实验角分布与偏振测量精度；对于纯多极跃迁（delta=0 或 delta->inf）需做退化处理 |
 | `mchid` | 多准粒子多重手征双重带（MchiD）与 4-QP 非共面角动量空间几何测度分析 | 适用于偶偶核与奇 A 核多准粒子态；低自旋大振幅手征振动区域需结合微观量子投影 |
+| `wilczynski` | 重离子深部非弹性散射（DIC）TKEL 能损、粘滞自旋转移与 Wilczynski 鸟嘴脊线模拟 | 假定二体反应机制；极高能区破裂（Breakup）与不完全熔合需引入三体运动学 |
+| `octewsr` | 微观八极集体模式、IS-EWSR 求和定则耗尽率、内禀 D0 偶极矩与交替宇称能带分析 | 依赖 Alaga 几何分支假定；轴不对称八极振动需结合三轴八极微观混合模型 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -109,6 +111,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py loopbal --preset 134Ce_triax
 python3 system/scripts/analysis/nuclear_analyzer.py chaban --preset 112Ru_triaxial_chaban --json
 python3 system/scripts/analysis/nuclear_analyzer.py doubleroot --preset 135Pr_wobbling_candidate --json
 python3 system/scripts/analysis/nuclear_analyzer.py mchid --preset 136Nd_4qp_mchid --json
+python3 system/scripts/analysis/nuclear_analyzer.py wilczynski --preset 86Kr_166Er_703MeV --json
+python3 system/scripts/analysis/nuclear_analyzer.py octewsr --preset 224Ra_pear_shaped --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

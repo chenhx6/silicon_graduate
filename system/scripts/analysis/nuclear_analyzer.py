@@ -134,6 +134,8 @@ from level_scheme_loop_residual_intensity_balancer import evaluate_ritz_combinat
 from davydov_chaban_beta_stretching_triaxial_calculator import calculate_davydov_chaban_spectrum, solve_chaban_stretching_parameter_p, format_text_report as format_chaban_report
 from double_root_dco_polarization_statistical_arbitrator import analyze_double_roots, PRESETS as DOUBLEROOT_PRESETS
 from multi_quasiparticle_mchid_chirality_calculator import analyze_mchid, PRESETS as MCHID_PRESETS
+from heavy_ion_dic_wilczynski_energy_loss_calculator import run_dic_analysis, format_text_report as format_dic_report, PRESETS as DIC_PRESETS
+from octupole_collective_ewsr_parity_doublet_analyzer import run_octupole_analysis, format_text_report as format_octewsr_report, PRESETS as OCTEWSR_PRESETS
 
 
 def cmd_kinematics(args):
@@ -2788,6 +2790,81 @@ def cmd_mchid(args):
             print("-" * 76)
         print("=" * 76)
 
+
+def cmd_wilczynski(args):
+    if args.preset and args.preset in DIC_PRESETS:
+        p = DIC_PRESETS[args.preset]
+        Ap, Zp, At, Zt = p["Ap"], p["Zp"], p["At"], p["Zt"]
+        Elab = p["Elab_MeV"]
+        kdiss = p.get("k_diss", 2.5)
+        r0 = p.get("r0", 1.16)
+        d0 = p.get("d0", 2.0)
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        Ap = args.Ap if args.Ap else 86
+        Zp = args.Zp if args.Zp else 36
+        At = args.At if args.At else 166
+        Zt = args.Zt if args.Zt else 68
+        Elab = args.Elab if args.Elab else 703.0
+        kdiss = args.kdiss if args.kdiss else 2.5
+        r0, d0 = 1.16, 2.0
+        title = "Custom User Input"
+
+    res = run_dic_analysis(Ap, Zp, At, Zt, Elab, r0=r0, d0=d0, k_diss=kdiss)
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_dic_report(res, title=title))
+
+
+def cmd_octewsr(args):
+    if args.preset and args.preset in OCTEWSR_PRESETS:
+        p = OCTEWSR_PRESETS[args.preset]
+        A_mass = p["A_mass"]
+        Z_charge = p["Z_charge"]
+        beta2 = p.get("beta2", 0.20)
+        E_3minus_keV = p["E_3minus_keV"]
+        B_E3_down_Wu = p["B_E3_down_Wu"]
+        pos_spins = p.get("pos_spins")
+        pos_energies = p.get("pos_energies_keV")
+        neg_spins = p.get("neg_spins")
+        neg_energies = p.get("neg_energies_keV")
+        branching_test = p.get("branching_test")
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        A_mass = args.mass_a if args.mass_a else 224
+        Z_charge = args.charge_z if args.charge_z else 88
+        beta2 = args.beta2 if args.beta2 else 0.19
+        E_3minus_keV = args.e3_kev if args.e3_kev else 290.0
+        B_E3_down_Wu = args.b_e3_wu if args.b_e3_wu else 38.0
+        pos_spins = None
+        pos_energies = None
+        neg_spins = None
+        neg_energies = None
+        branching_test = None
+        title = "Custom User Input"
+
+    res = run_octupole_analysis(
+        A_mass=A_mass,
+        Z_charge=Z_charge,
+        beta2=beta2,
+        E_3minus_keV=E_3minus_keV,
+        B_E3_down_Wu=B_E3_down_Wu,
+        pos_spins=pos_spins,
+        pos_energies_keV=pos_energies,
+        neg_spins=neg_spins,
+        neg_energies_keV=neg_energies,
+        branching_test=branching_test
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_octewsr_report(res, title=title))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -4055,6 +4132,29 @@ def main():
     p_mc.add_argument("--j-nu", type=float, default=8.0, help="Valence neutron angular momentum along long axis")
     p_mc.add_argument("--json", action="store_true", help="Output pure JSON")
     p_mc.set_defaults(func=cmd_mchid)
+
+    # Heavy-Ion DIC Wilczynski Energy Loss & Orbiting Simulator
+    p_dic = subparsers.add_parser("wilczynski", help="Heavy-ion deep inelastic collision (DIC) TKEL, spin transfer & Wilczynski plot (Lin Ch 5 / Wilczynski 1973)")
+    p_dic.add_argument("--preset", type=str, default="86Kr_166Er_703MeV", choices=["86Kr_166Er_703MeV", "40Ar_232Th_388MeV", "136Xe_208Pb_860MeV", "custom"], help="Benchmark preset")
+    p_dic.add_argument("--Ap", type=int, help="Projectile mass number")
+    p_dic.add_argument("--Zp", type=int, help="Projectile atomic number")
+    p_dic.add_argument("--At", type=int, help="Target mass number")
+    p_dic.add_argument("--Zt", type=int, help="Target atomic number")
+    p_dic.add_argument("--Elab", type=float, help="Beam energy in MeV")
+    p_dic.add_argument("--kdiss", type=float, default=2.5, help="Dissipation rate parameter")
+    p_dic.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_dic.set_defaults(func=cmd_wilczynski)
+
+    # Microscopic Octupole Modes, IS-EWSR & Parity Doublets Analyzer
+    p_oct = subparsers.add_parser("octewsr", help="Microscopic octupole modes, IS-EWSR sum rule, intrinsic D0 dipole & parity doublets (Lu Ch 8 / Bohr Vol II)")
+    p_oct.add_argument("--preset", type=str, default="224Ra_pear_shaped", choices=["224Ra_pear_shaped", "144Ba_octupole_deformed", "208Pb_spherical_phonon", "custom"], help="Benchmark preset")
+    p_oct.add_argument("--mass-a", type=int, help="Mass number A")
+    p_oct.add_argument("--charge-z", type=int, help="Atomic number Z")
+    p_oct.add_argument("--beta2", type=float, default=0.20, help="Quadrupole deformation beta2")
+    p_oct.add_argument("--e3-kev", type=float, help="3_1- energy in keV")
+    p_oct.add_argument("--b-e3-wu", type=float, help="B(E3; 3- -> 0+) in W.u.")
+    p_oct.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_oct.set_defaults(func=cmd_octewsr)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

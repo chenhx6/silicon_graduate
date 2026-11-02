@@ -6814,3 +6814,39 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-1 to PETR-4 entries.
 - Added unit test suite `system/tests/test_multi_quasiparticle_mchid.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **116 official analysis modules**, all verified passing in 2.8s.
+
+### Heavy-Ion DIC Wilczynski Energy Loss & Orbiting Simulator (Module 117) 2026-11-03T12:45:00+08:00
+
+- Integrated Heavy-Ion Deep Inelastic Collisions (DIC), Total Kinetic Energy Loss (TKEL), Angular Momentum Dissipation & Wilczynski Trajectory Simulator (`heavy_ion_dic_wilczynski_energy_loss_calculator.py`):
+  - Based on 林承键《重离子核反应》第 5 章 (pp. 110–155), 吴治华《原子核物理实验方法》第 11 章, J. Wilczynski (Phys. Lett. B 47, 484, 1973), and W. U. Schröder & J. R. Huizenga (1977):
+    * Formulates reaction kinematics, interaction contact radius $R_{\text{int}}$, contact Coulomb barrier $V_C$, grazing momentum $L_{\text{grazing}}$, and fusion threshold $L_{\text{crit}}$.
+    * Simulates two-body kinetic energy relaxation $\text{TKEL}(l)$ down to the fully relaxed Coulomb limit $\text{TKEL}_{\text{max}} = E_{\text{cm}} - V_C$.
+    * Evaluates tangential friction and the sticking limit fraction $f_{\text{stick}} = (\mathcal{J}_1 + \mathcal{J}_2) / (\mathcal{J}_{\text{rel}} + \mathcal{J}_1 + \mathcal{J}_2)$, transferring up to $50 - 70\ \hbar$ into fragment intrinsic spins.
+    * Models deflection dynamics: positive Coulomb branch $\theta_{\text{pos}}(l)$ near grazing transitioning to attractive nuclear orbiting $\theta_{\text{neg}}(l) < 0^\circ$, reproducing the iconic Wilczynski "bird's beak" contour topology.
+  - Benchmarks:
+    * $^{86}\text{Kr} + ^{166}\text{Er}$ at $703\text{ MeV}$: $E_{\text{cm}} = 463.1\text{ MeV}, V_C = 261.2\text{ MeV}, \text{TKEL}_{\text{max}} = 201.9\text{ MeV}, L_{\text{grazing}} = 316.9\ \hbar, f_{\text{stick}} = 27.2\%$, maximum spin transferred $\Delta L = 57.3\ \hbar$.
+    * $^{40}\text{Ar} + ^{232}\text{Th}$ at $388\text{ MeV}$: Wilczynski 1973 discovery benchmark with $\text{TKEL}_{\text{max}} = 152.8\text{ MeV}$, $f_{\text{stick}} = 47.6\%$, with $24\%$ trajectory in the negative orbiting branch.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `wilczynski`.
+- Created concept page: `knowledge/concepts/heavy-ion-deep-inelastic-collisions-and-wilczynski-plot.md`.
+- Updated source card `knowledge/sources/book-lin-heavy-ion-reactions.md` with LIN-6 entry.
+- Added unit test suite `system/tests/test_heavy_ion_dic_wilczynski.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 117.
+
+### Microscopic Octupole Modes, IS-EWSR & Parity Doublets Analyzer (Module 118) 2026-11-03T13:15:00+08:00
+
+- Integrated Microscopic Octupole Collective Modes, Isoscalar Energy-Weighted Sum Rules (IS-EWSR), Intrinsic Electric Dipole Moment ($D_0$) & Alternating-Parity Pear-Shaped Dynamics Engine (`octupole_collective_ewsr_parity_doublet_analyzer.py`):
+  - Based on 卢希庭《原子核物理（修订版）》第 8 章 §8.3, Bohr & Mottelson Vol. II §6-3 (Eq. 6-82, pp. 340–360), and P. A. Butler & W. Nazarewicz (Rev. Mod. Phys. 68, 349, 1996):
+    * Evaluates single-particle octupole Weisskopf unit $B_{\text{W.u.}}(E3) = \frac{1}{16\pi} R_0^6 e^2 = 0.05944 A^2\ e^2\cdot\text{fm}^6$.
+    * Computes Bohr-Mottelson Isoscalar Octupole EWSR $S_{\text{IS}}(E3) = \frac{147}{4\pi}\frac{\hbar^2}{2m_N}\frac{Z^2}{A}R_0^4$ and percentage exhaustion by the $3_1^-$ state.
+    * Extracts experimental alternating-parity band branching ratio $[B(E1)/B(E2)]_{\text{exp}} = 1.30 \times 10^{-6} \frac{E_\gamma^5(E2)}{E_\gamma^3(E1)} \frac{I_\gamma(E1)}{I_\gamma(E2)}$.
+    * Inverts intrinsic electric dipole moment $|D_0|$ ($e\cdot\text{fm}$) via Alaga Clebsch-Gordan ratio $\frac{B(E1)}{B(E2)} = \frac{16(2I-1)}{15(I-1)}\frac{D_0^2}{Q_0^2}$ and inverts pear-shaped octupole deformation $\beta_3$.
+    * Analyzes parity displacement parameter $\delta E(I) = E(I^-) - 0.5 [E((I+1)^+) + E((I-1)^+)]$, diagnosing static pear-shaped rotors, centrifugally stabilized octupole vibration, and harmonic phonons.
+  - Benchmarks:
+    * $^{208}\text{Pb}$ spherical octupole phonon: $E(3_1^-) = 2614.5\text{ keV}, B(E3) = 34.0\ \text{W.u.}$, exhausting $7.98\%$ of the IS-EWSR limit.
+    * $^{224}\text{Ra}$ alternating-parity pear-shaped rotor: $\delta E(I)$ collapses from $173.8\text{ keV}$ ($1^-$) to $0.0\text{ keV}$ ($9^-$), demonstrating centrifugal stabilization into a rigid reflection-asymmetric shape.
+    * $^{144}\text{Ba}$ fission fragment benchmark: strong octupole collectivity ($48\ \text{W.u.}$) in the neutron-rich $A \sim 140$ region.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `octewsr`.
+- Created concept page: `knowledge/concepts/microscopic-octupole-collective-modes-and-ewsr-sum-rules.md`.
+- Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` with LU-11 entry.
+- Added unit test suite `system/tests/test_octupole_collective_ewsr.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **118 official analysis modules**, all verified passing in 2.5s.

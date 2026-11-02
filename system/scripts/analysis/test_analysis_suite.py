@@ -148,6 +148,8 @@ from level_scheme_loop_residual_intensity_balancer import evaluate_ritz_combinat
 from davydov_chaban_beta_stretching_triaxial_calculator import calculate_davydov_chaban_spectrum, solve_chaban_stretching_parameter_p
 from double_root_dco_polarization_statistical_arbitrator import solve_dco_quadratic, analyze_double_roots
 from multi_quasiparticle_mchid_chirality_calculator import evaluate_chiral_geometry, analyze_mchid
+from heavy_ion_dic_wilczynski_energy_loss_calculator import calculate_dic_kinematics, run_dic_analysis
+from octupole_collective_ewsr_parity_doublet_analyzer import calculate_octupole_ewsr, calculate_parity_splitting_ewsr
 
 
 def test_heavy_ion_kinematics():
@@ -1798,6 +1800,28 @@ def test_level_scheme_loop_balancer():
     print("  ✓ level_scheme_loop_residual_intensity_balancer passed.")
 
 
+def test_heavy_ion_dic_wilczynski():
+    print("Testing heavy_ion_dic_wilczynski_energy_loss_calculator...")
+    kin = calculate_dic_kinematics(Ap=86, Zp=36, At=166, Zt=68, Elab_MeV=703.0)
+    assert kin["L_grazing_hbar"] > 300.0
+    res = run_dic_analysis(86, 36, 166, 68, 703.0)
+    assert res["max_spin_transfer_hbar"] > 50.0
+    print("  ✓ heavy_ion_dic_wilczynski_energy_loss_calculator passed.")
+
+
+def test_octupole_collective_ewsr():
+    print("Testing octupole_collective_ewsr_parity_doublet_analyzer...")
+    ewsr = calculate_octupole_ewsr(208, 82, 2614.5, 34.0)
+    assert ewsr["EWSR_exhaustion_percent"] > 5.0
+    pos_s = [0.0, 2.0, 4.0, 6.0]
+    pos_e = [0.0, 84.4, 254.0, 479.0]
+    neg_s = [1.0, 3.0, 5.0]
+    neg_e = [216.0, 290.0, 433.0]
+    ps = calculate_parity_splitting_ewsr(pos_s, pos_e, neg_s, neg_e)
+    assert len(ps["splittings"]) == 3
+    print("  ✓ octupole_collective_ewsr_parity_doublet_analyzer passed.")
+
+
 def test_double_root_arbitrator():
     print("Testing double_root_dco_polarization_statistical_arbitrator...")
     A = [1.0, 0.45, 0.90]
@@ -2141,4 +2165,6 @@ if __name__ == "__main__":
     test_davydov_chaban_stretching_calculator()
     test_double_root_arbitrator()
     test_multi_quasiparticle_mchid()
+    test_heavy_ion_dic_wilczynski()
+    test_octupole_collective_ewsr()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")
