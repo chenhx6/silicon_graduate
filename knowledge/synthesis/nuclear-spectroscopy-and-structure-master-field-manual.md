@@ -191,6 +191,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py triaxfus --preset 16O_186W_t
 python3 system/scripts/analysis/nuclear_analyzer.py wobstab --preset 135Pr_transverse_rigid_stable --json
 python3 system/scripts/analysis/nuclear_analyzer.py dsamzbl --preset 130Ba_8plus_in_Au_backing --json
 python3 system/scripts/analysis/nuclear_analyzer.py coexpes --preset 130Ba_triaxial_oblate_coexistence --json
+python3 system/scripts/analysis/nuclear_analyzer.py alignmix --preset 130Ba_wobbling_candidate_delta --json
+python3 system/scripts/analysis/nuclear_analyzer.py mchiddis --preset 133Ce_classic_mchid --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

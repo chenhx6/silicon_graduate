@@ -178,6 +178,8 @@ from heavy_ion_triaxial_fusion_barrier_distribution_inverter import run_fusion_b
 from odd_a_transverse_longitudinal_wobbling_stability_solver import run_wobbling_stability_analysis, format_text_report as format_wobstab_report, PRESETS as WOBSTAB_PRESETS
 from in_beam_dsam_zbl_stopping_lifetime_inverter import run_dsam_zbl_analysis, format_text_report as format_dsamzbl_report, PRESETS as DSAMZBL_PRESETS
 from cranked_triaxial_shape_coexistence_pes_engine import run_shape_coexistence_pes_analysis, format_text_report as format_coexpes_report, PRESETS as COEXPES_PRESETS
+from in_beam_spin_alignment_sigma_mixing_ratio_extractor import run_spin_alignment_analysis, format_text_report as format_alignmix_report, PRESETS as ALIGNMIX_PRESETS
+from multiple_chiral_doublets_mchid_discriminator import run_mchid_arbitration, format_text_report as format_mchiddis_report, PRESETS as MCHIDDIS_PRESETS
 
 
 def cmd_kinematics(args):
@@ -4082,6 +4084,46 @@ def cmd_coexpes(args):
         print(format_coexpes_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
 
+def cmd_alignmix(args):
+    preset_name = args.preset if args.preset else "130Ba_wobbling_candidate_delta"
+    p = ALIGNMIX_PRESETS[preset_name]
+    ref_data = p["reference_E2"].copy()
+    target_data = p["target_transition"].copy()
+    if hasattr(args, "a2") and args.a2 is not None:
+        target_data["a2_exp"] = args.a2
+    if hasattr(args, "a4") and args.a4 is not None:
+        target_data["a4_exp"] = args.a4
+    res = run_spin_alignment_analysis(
+        nucleus=p.get("nucleus", "Generic"),
+        ref_data=ref_data,
+        target_data=target_data
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_alignmix_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_mchiddis(args):
+    preset_name = args.preset if args.preset else "133Ce_classic_mchid"
+    p = MCHIDDIS_PRESETS[preset_name]
+    cross_br = args.cross_br if hasattr(args, "cross_br") and args.cross_br is not None else p.get("cross_doublet_branching_ratio", 0.05)
+    res = run_mchid_arbitration(
+        nucleus=p.get("nucleus", "Generic"),
+        harris_J0=p["harris_J0"],
+        harris_J1=p["harris_J1"],
+        pair_A=p["pair_A"],
+        pair_B=p["pair_B"],
+        cross_branching=cross_br
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_mchiddis_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5739,6 +5781,23 @@ def main():
                       choices=list(COEXPES_PRESETS.keys()), help="Benchmark preset")
     p_cp.add_argument("--json", action="store_true", help="Output pure JSON")
     p_cp.set_defaults(func=cmd_coexpes)
+
+    # In-Beam Spin Alignment & Mixing Ratio Joint Extractor
+    p_am = subparsers.add_parser("alignmix", help="In-beam spin alignment sigma/I & mixing ratio extractor (Hamilton Ch 14 / Yamazaki)")
+    p_am.add_argument("--preset", type=str, default="130Ba_wobbling_candidate_delta",
+                      choices=list(ALIGNMIX_PRESETS.keys()), help="Benchmark preset")
+    p_am.add_argument("--a2", type=float, help="Target transition experimental a2")
+    p_am.add_argument("--a4", type=float, help="Target transition experimental a4")
+    p_am.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_am.set_defaults(func=cmd_alignmix)
+
+    # Multiple Chiral Doublets (MChD) Discriminator
+    p_md = subparsers.add_parser("mchiddis", help="Multiple chiral doublets MChD multi-configuration discriminator (Petrache Ch 3,10 / Meng PRC)")
+    p_md.add_argument("--preset", type=str, default="133Ce_classic_mchid",
+                      choices=list(MCHIDDIS_PRESETS.keys()), help="Benchmark preset")
+    p_md.add_argument("--cross-br", type=float, help="Cross-doublet branching ratio")
+    p_md.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_md.set_defaults(func=cmd_mchiddis)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

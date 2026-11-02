@@ -35,6 +35,7 @@ topics: [bk-parameters, ak-coefficients, f-coefficients, u-coefficients, mixing-
 | HAM-2 | 未观测中间级联去取向系数 $U_k$：经由未观测多极跃迁 $I_1 \xrightarrow{L} I_2$ 级联退激时，核取向张量严格按 Wigner $6j$ 符号衰减 $B_k(I_2) = B_k(I_1) U_k(I_1, I_2, L)$，其中 $U_k = (-1)^{I_1+I_2+L+k}\sqrt{(2I_1+1)(2I_2+1)}\{I_1 I_1 k; I_2 I_2 L\}$；严格满足总几率守恒 $U_0 \equiv 1$ 与各向异性衰减 $U_k < 1.0$。 | model-result | direct | Ch. 14, pp. 580–625 | false |
 | HAM-3 | 康普顿线偏振度 $P(\theta)$ 宇称符号法则：线偏振不对称度符号在电多极（$E\lambda$）与磁多极（$M\lambda$）辐射下严格相反，为实验直接判定能级跃迁宇称提供排他性判据。 | model-result | direct | Ch. 14, pp. 626–660 | false |
 | HAM-4 | 多极混合比 $\delta(E2/M1)$ 有理二次方程双实数根退化：单角分布测量中 $A_k(\delta)$ 是关于 $\delta$ 的二次有理函数，数学上必然产生两个实数根，唯有联合线偏振或内转换测量方可打破退化。 | model-result | direct | Ch. 14, pp. 600–615 | false |
+| HAM-5 | 在束反应取向度参数 $\sigma/I$ 校准与多极混合比 $\delta$ 联合自洽提取：阐明高斯子状态分布 $P(m) \propto \exp(-m^2/2\sigma^2)$ 衰减因子 $\alpha_k(I, \sigma) = \rho_{k0}(I, \sigma)/\rho_{k0}(I, \sigma=0)$；基于同级联已知纯 $E2$ 跃迁先期标定 $\sigma/I \approx 0.30 - 0.45$，再反演未知跃迁角分布系数 $a_k = \alpha_k Q_k A_k(\delta)$，彻底消除假设经验取向度导致的 $30\%$ 混合比系统偏差。 | method/formalism | direct | Ch. 12, pp. 520–545; Ch. 14, pp. 580–605 | false |
 
 ## 专著概况与定位
 

@@ -192,6 +192,8 @@ from heavy_ion_triaxial_fusion_barrier_distribution_inverter import TriaxialFusi
 from odd_a_transverse_longitudinal_wobbling_stability_solver import OddAWobblingStabilitySolver
 from in_beam_dsam_zbl_stopping_lifetime_inverter import InBeamDSAMZBLInverter
 from cranked_triaxial_shape_coexistence_pes_engine import CrankedShapeCoexistencePESEngine
+from in_beam_spin_alignment_sigma_mixing_ratio_extractor import SpinAlignmentMixingExtractor
+from multiple_chiral_doublets_mchid_discriminator import MultipleChiralDoubletsDiscriminator, PRESETS as MCHID_PRESETS
 
 
 def test_heavy_ion_kinematics():
@@ -2115,6 +2117,28 @@ def test_cranked_shape_coexistence_pes():
     print("  ✓ cranked_triaxial_shape_coexistence_pes_engine passed.")
 
 
+def test_spin_alignment_mixing():
+    print("Testing in_beam_spin_alignment_sigma_mixing_ratio_extractor...")
+    ext = SpinAlignmentMixingExtractor(I_ref_i=4.0, I_ref_f=2.0, a2_ref=0.285, sigma_a2_ref=0.015,
+                                       a4_ref=-0.075, sigma_a4_ref=0.020)
+    cal = ext.extract_sigma_over_I()
+    assert 0.3 < cal["sigma_over_I"] < 0.6
+    res = ext.invert_mixing_ratio(9.0, 8.0, 0.420, 0.025, -0.010, 0.030)
+    assert res["min_chi2"] < 10.0
+    assert abs(res["best_fit_delta"]) > 0.5
+    print("  ✓ in_beam_spin_alignment_sigma_mixing_ratio_extractor passed.")
+
+
+def test_multiple_chiral_doublets_mchid():
+    print("Testing multiple_chiral_doublets_mchid_discriminator...")
+    p = MCHID_PRESETS["133Ce_classic_mchid"]
+    discrim = MultipleChiralDoubletsDiscriminator(harris_J0=p["harris_J0"], harris_J1=p["harris_J1"])
+    res = discrim.arbitrate_mchid(p["pair_A"], p["pair_B"], p["cross_doublet_branching_ratio"])
+    assert res["is_mchid_confirmed"]
+    assert res["alignment_separation_Delta_ix_hbar"] > 2.0
+    print("  ✓ multiple_chiral_doublets_mchid_discriminator passed.")
+
+
 def test_hpge_energy_non_linearity():
     print("Testing hpge_energy_non_linearity_inl_dnl_calibrator...")
     from scipy.interpolate import UnivariateSpline
@@ -2650,4 +2674,6 @@ if __name__ == "__main__":
     test_odd_a_wobbling_stability()
     test_dsam_zbl_stopping()
     test_cranked_shape_coexistence_pes()
+    test_spin_alignment_mixing()
+    test_multiple_chiral_doublets_mchid()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")
