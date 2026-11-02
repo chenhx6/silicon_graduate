@@ -72,6 +72,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `omp` | 核光学模型势（OMP）Woods-Saxon 径迹积分、S 矩阵透射率 T(b) 与全反应截面 | 半经典直角径迹近似；极低能库仑偏折显著能区需分波偏相移求和 |
 | `doppler` | 在束相对论多普勒展宽、有限张角 Delta_theta、速度弥散与中子反冲角离散预算 | 匀速直线发射假设；厚衬底慢化过程需结合 DSAM 连续谱积分 |
 | `crank` | 高 j 单壳层三轴推转哈密顿量对角化、Routhian 能谱、对齐量 <jx> 与旋称反转 | 单 j 壳层截断；微观自洽多组态需结合三维推转 RMF 或 TAC-CSM |
+| `pipeline` | 在束实验核谱学全流程数据处理流水线工作台（反应->多普勒->DCO->DSAM->模式仲裁） | 整合 7 大子模块；需提供对应阶段的关键输入观测值 |
+| `schiffer` | Schiffer-True 普适两体相互作用矩阵元（TBME）、Pandya 反转与 Nordheim 手征带头自旋定则 | 纯两体短程势有效；多体有效作用需结合壳模型有效两体相互作用（如 G 矩阵） |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -93,6 +95,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py csm --preset 164Er_neutron_c
 python3 system/scripts/analysis/nuclear_analyzer.py omp --preset 40MeV_p_58Ni --json
 python3 system/scripts/analysis/nuclear_analyzer.py doppler --preset 134Ce_in_beam --json
 python3 system/scripts/analysis/nuclear_analyzer.py crank --preset h11/2_triaxial_chiral --json
+python3 system/scripts/analysis/nuclear_analyzer.py pipeline --preset 135Pr_wobbling_audit --json
+python3 system/scripts/analysis/nuclear_analyzer.py schiffer --preset pr134_chiral_bandhead --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

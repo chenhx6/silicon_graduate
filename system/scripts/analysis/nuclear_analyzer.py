@@ -126,6 +126,8 @@ from cranked_shell_model_band_crossing_v12_inverter import calculate_two_band_cr
 from optical_model_potential_reaction_cross_section_calculator import calculate_optical_model_reaction_cross_section, format_text_report as format_omp_report
 from in_beam_doppler_broadening_array_correction_calculator import calculate_doppler_broadening_budget, compare_detector_rings, format_text_report as format_doppler_report
 from triaxial_cranking_single_j_routhian_diagram_calculator import diagonalize_triaxial_cranked_high_j, scan_routhian_frequency_trajectory, format_text_report as format_crank_report
+from in_beam_experiment_analysis_pipeline import run_full_in_beam_pipeline, format_text_report as format_pipe_report
+from schiffer_true_two_body_matrix_elements_calculator import calculate_schiffer_true_pp_spectrum, calculate_schiffer_true_ph_pandya_spectrum, evaluate_nordheim_coupling_rule, format_text_report as format_schiffer_report
 
 
 def cmd_kinematics(args):
@@ -2470,6 +2472,76 @@ def cmd_crank(args):
         print(format_crank_report(diag_res, traj_res))
 
 
+def cmd_pipeline(args):
+    if args.preset == "135Pr_wobbling_audit":
+        res = run_full_in_beam_pipeline(
+            Z_p=7, A_p=14, Z_t=50, A_t=124, E_lab_MeV=65.0,
+            E_gamma_keV=726.5, detector_angle_deg=90.0, opening_angle_deg=8.0,
+            a2_exp=-0.18, I_initial=8.5, I_final=7.5,
+            F_tau_exp=0.55, F_tau_err=0.04, alpha_stop_ps=0.85,
+            candidate_mode="wobbling",
+            E_2plus_core_keV=409.2, B_E2_core_e2_b2=0.78
+        )
+    elif args.preset == "134Pr_chiral_audit":
+        res = run_full_in_beam_pipeline(
+            Z_p=5, A_p=11, Z_t=52, A_t=128, E_lab_MeV=60.0,
+            E_gamma_keV=450.0, detector_angle_deg=90.0, opening_angle_deg=8.0,
+            a2_exp=0.32, I_initial=11.0, I_final=10.0,
+            F_tau_exp=0.62, F_tau_err=0.03, alpha_stop_ps=0.80,
+            candidate_mode="chiral",
+            E_2plus_core_keV=409.2, B_E2_core_e2_b2=0.78
+        )
+    elif args.preset == "163Lu_tsd_wobbling":
+        res = run_full_in_beam_pipeline(
+            Z_p=20, A_p=48, Z_t=50, A_t=119, E_lab_MeV=205.0,
+            E_gamma_keV=580.0, detector_angle_deg=90.0, opening_angle_deg=8.0,
+            a2_exp=0.45, I_initial=17.5, I_final=15.5,
+            F_tau_exp=0.70, F_tau_err=0.04, alpha_stop_ps=0.78,
+            candidate_mode="wobbling",
+            E_2plus_core_keV=80.0, B_E2_core_e2_b2=4.0
+        )
+    else:
+        res = run_full_in_beam_pipeline(
+            Z_p=7, A_p=14, Z_t=50, A_t=124, E_lab_MeV=65.0,
+            E_gamma_keV=726.5, a2_exp=-0.18, F_tau_exp=0.55
+        )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_pipe_report(res))
+
+
+def cmd_schiffer(args):
+    j1_val = args.j1
+    j2_val = args.j2
+    nord_info = None
+
+    if args.preset == "pr134_chiral_bandhead":
+        j1_val, j2_val = 5.5, 5.5
+        nord_info = evaluate_nordheim_coupling_rule(j_p=5.5, l_p=5, j_n=5.5, l_n=5)
+    elif args.preset == "h11_2_squared_te134":
+        j1_val, j2_val = 5.5, 5.5
+    elif args.preset == "g9_2_squared_mo92":
+        j1_val, j2_val = 4.5, 4.5
+    elif args.preset == "bi210_pb210_pandya":
+        j1_val, j2_val = 4.5, 4.5
+        nord_info = evaluate_nordheim_coupling_rule(j_p=4.5, l_p=5, j_n=4.5, l_n=4)
+
+    pp_spec = calculate_schiffer_true_pp_spectrum(j1_val, j2_val)
+    ph_spec = calculate_schiffer_true_ph_pandya_spectrum(j1_val, j2_val)
+
+    if args.json:
+        import json
+        out = {"pp_spectrum": pp_spec, "ph_spectrum": ph_spec}
+        if nord_info is not None:
+            out["nordheim_rule"] = nord_info
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_schiffer_report(pp_spec, ph_spec, nord_info))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3663,6 +3735,20 @@ def main():
     p_crk.add_argument("--kappa", type=float, default=3.0, help="Quadrupole coupling kappa in MeV")
     p_crk.add_argument("--json", action="store_true", help="Output pure JSON")
     p_crk.set_defaults(func=cmd_crank)
+
+    # In-Beam Experimental Spectroscopy Pipeline Workbench
+    p_pipe = subparsers.add_parser("pipeline", help="In-beam experimental nuclear spectroscopy master pipeline workbench")
+    p_pipe.add_argument("--preset", type=str, default="135Pr_wobbling_audit", choices=["135Pr_wobbling_audit", "134Pr_chiral_audit", "163Lu_tsd_wobbling", "custom"], help="Benchmark preset")
+    p_pipe.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_pipe.set_defaults(func=cmd_pipeline)
+
+    # Schiffer-True Universal TBME & Pandya Inversion
+    p_sch = subparsers.add_parser("schiffer", help="Schiffer-True universal TBME theta_12 angle parameterization & Pandya inversion (Schiffer-True 1976)")
+    p_sch.add_argument("--preset", type=str, default="pr134_chiral_bandhead", choices=["pr134_chiral_bandhead", "h11_2_squared_te134", "g9_2_squared_mo92", "bi210_pb210_pandya", "custom"], help="Benchmark preset")
+    p_sch.add_argument("--j1", type=float, default=5.5, help="Orbital j1")
+    p_sch.add_argument("--j2", type=float, default=5.5, help="Orbital j2")
+    p_sch.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_sch.set_defaults(func=cmd_schiffer)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

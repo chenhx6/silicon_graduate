@@ -140,6 +140,8 @@ from cranked_shell_model_band_crossing_v12_inverter import calculate_two_band_cr
 from optical_model_potential_reaction_cross_section_calculator import calculate_optical_model_reaction_cross_section
 from in_beam_doppler_broadening_array_correction_calculator import calculate_doppler_broadening_budget, compare_detector_rings
 from triaxial_cranking_single_j_routhian_diagram_calculator import diagonalize_triaxial_cranked_high_j, scan_routhian_frequency_trajectory
+from in_beam_experiment_analysis_pipeline import run_full_in_beam_pipeline
+from schiffer_true_two_body_matrix_elements_calculator import calculate_schiffer_true_pp_spectrum, calculate_schiffer_true_ph_pandya_spectrum, evaluate_nordheim_coupling_rule
 
 
 def test_heavy_ion_kinematics():
@@ -1744,6 +1746,39 @@ def test_in_beam_doppler_broadening_calculator():
     print("  ✓ in_beam_doppler_broadening_array_correction_calculator passed.")
 
 
+def test_in_beam_experiment_analysis_pipeline():
+    print("Testing in_beam_experiment_analysis_pipeline...")
+    # 135Pr wobbling audit pipeline execution
+    res = run_full_in_beam_pipeline(
+        Z_p=7, A_p=14, Z_t=50, A_t=124, E_lab_MeV=65.0,
+        E_gamma_keV=726.5, a2_exp=-0.18, F_tau_exp=0.55
+    )
+    assert res["pipeline_version"] == "1.0-Production"
+    assert res["stage1_entrance_reaction"]["Wong_cross_section_mb"] > 800.0
+    assert abs(res["stage4_lifetime_dsam"]["tau_ps"] - 0.677) < 0.05
+    assert "delta_root1" in res["stage6_mode_diagnostic"]
+    print("  ✓ in_beam_experiment_analysis_pipeline passed.")
+
+
+def test_schiffer_true_two_body_matrix_elements_calculator():
+    print("Testing schiffer_true_two_body_matrix_elements_calculator...")
+    # 1. Particle-particle h11/2^2 pairing gap at J=0
+    pp = calculate_schiffer_true_pp_spectrum(5.5, 5.5)
+    assert pp["ground_state_spin_J"] == 0, "p-p ground state must be J=0+"
+    assert pp["spectrum"][0]["angle_theta_12_deg"] == 180.0
+    assert pp["spectrum"][0]["V_pp_MeV"] < -3.0
+
+    # 2. Particle-hole Pandya inversion (134Pr chiral configuration)
+    ph = calculate_schiffer_true_ph_pandya_spectrum(5.5, 5.5)
+    assert len(ph["spectrum"]) == 12, "12 states in h11/2 (x) h11/2^-1 multiplet"
+
+    # 3. Nordheim coupling rule
+    nord = evaluate_nordheim_coupling_rule(j_p=5.5, l_p=5, j_n=5.5, l_n=5)
+    assert nord["nordheim_number_N"] == 1
+    assert nord["predicted_favored_spin_J"] == 11
+    print("  ✓ schiffer_true_two_body_matrix_elements_calculator passed.")
+
+
 def test_triaxial_cranking_routhian_calculator():
     print("Testing triaxial_cranking_single_j_routhian_diagram_calculator...")
     # h11/2 triaxial chiral intruder benchmark (gamma = -30 deg)
@@ -1995,4 +2030,6 @@ if __name__ == "__main__":
     test_optical_model_potential_reaction_calculator()
     test_in_beam_doppler_broadening_calculator()
     test_triaxial_cranking_routhian_calculator()
+    test_in_beam_experiment_analysis_pipeline()
+    test_schiffer_true_two_body_matrix_elements_calculator()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

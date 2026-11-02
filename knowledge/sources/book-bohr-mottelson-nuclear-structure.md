@@ -58,7 +58,10 @@ tags: [books, nuclear-structure, foundations]
 
 ## Key Results
 
-详见正文对应小节及核对记录。
+| ID | 陈述与物理内容 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| BM1-1 | Seniority 量子数 $v$ 与电四极母权缩放：在同类核子单 $j$ 壳层中，相同 Seniority（$\Delta v = 0$）之间的电四极跃迁几率满足 $B(E2; j^n, v \to v) = [\frac{2j+1-2n}{2j+1-2v}]^2 B(E2; j^v, v \to v)$；在半满壳 $n = j+1/2$ 处因粒子-空穴对称性导致跃迁几率严格对消为零，解释了高 $j$ 壳层 Seniority 异能态成因。 | model-result | direct | Vol. I, Ch. 3 §3-4, pp. 314–332 | false |
+| BM1-2 | Pandya 粒子-空穴代数反转：通过 Racah 重耦合（Wigner $6j$ 符号），粒子-空穴两体相互作用与粒子-粒子相互作用满足精确反演 $V_{\text{ph}}(J) = - \sum_{J'} (2J'+1) \{j_1 j_2 J; j_1 j_2 J'\} V_{\text{pp}}(J')$，使得粒子-粒子基态配对极小向粒子-空穴最高自旋对齐端反转。 | model-result | direct | Vol. I, Ch. 3 §3-4, pp. 325–329 | false |
 
 
 ## Competing Interpretations and Limitations
@@ -68,4 +71,5 @@ tags: [books, nuclear-structure, foundations]
 
 ## Extracted Pages
 
-详见正文对应小节及核对记录。
+- Vol. I, pp. 314–332 (PDF pp. 327–345)：配对力与 Seniority 代数表象、母权系数展开与半满壳 $B(E2)$ 抛物线对消。
+- Vol. I, pp. 325–329 (PDF pp. 338–342)：Pandya 粒子-空穴张量重耦合与两粒子能谱结构。

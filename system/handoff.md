@@ -6673,3 +6673,39 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with CW-10 entry.
 - Added unit test suite `system/tests/test_triaxial_cranking_routhian.py` (5 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **108 official analysis modules**, all verified passing in 4.2s.
+
+### In-Beam Experimental Nuclear Spectroscopy Pipeline Workbench (Module 109) 2026-11-03T08:45:00+08:00
+
+- Integrated Unified In-Beam Experimental Nuclear Spectroscopy Pipeline & Data Analysis Workbench (`in_beam_experiment_analysis_pipeline.py`):
+  - Builds an end-to-end laboratory data analysis workbench chaining 7 major physical and statistical reduction stages:
+    1. Entrance channel kinematics, Wong barrier penetration $\sigma_{\text{fus}}^{\text{Wong}}$, and $xn$ residue optimal excitation energy windows (Module 99).
+    2. Full relativistic Doppler shift $E_{\text{lab}}(\theta)$ and peak broadening budget ($\Delta E_\theta, \Delta E_\beta, \Delta E_{\text{strag}}$) across array detector rings (Module 107).
+    3. Directional angular distribution and multipole mixing ratio $\delta(E2/M1)$ dual-root quadratic inversion via algebraic Yamazaki $F$-coefficients (Module 93).
+    4. Picosecond excited nuclear state lifetime inversion $\tau$ from measured Doppler attenuation factors $F(\tau)$ via LSS stopping powers and Blaugrund multiple scattering (Module 100).
+    5. Reduced transition probabilities $B(E2)$ and $B(M1)$, transition quadrupole moment $Q_t$, quadrupole deformation $\beta_2$, and Grodzins product rule ratio $\mathcal{G}$ (Module 104).
+    6. Physics mode diagnostics: tests Transverse Wobbling (TW) criteria (dominant $E2$, enhanced $B(E2)_{\text{out}}/B(E2)_{\text{in}}$, negative frequency slope $d\omega/dI < 0$, Lawrie Table 6.1 criteria); tests Chiral Doublet criteria (twin band $\Delta E(I) \to 0$, $B(M1)/B(E2)$ odd-even staggering, 3D aplanarity $\mathcal{V}_{\text{chiral}}$).
+    7. Low-count Poisson statistics: automatically integrates exact Feldman-Cousins unified physical intervals if $n \le 15$ (Module 97).
+  - Benchmarks:
+    * $^{135}\text{Pr}$ wobbling controversy audit: $^{14}\text{N} + {}^{124}\text{Sn} \to {}^{135}\text{Pr} + 3n$ at $65\text{ MeV}$, $E_\gamma = 726.5\text{ keV}$, experimental $a_2 = -0.180 \implies \delta_1 = 0.2530$ ($94.0\%$ $M1$ dominance, Nomura IBFM / Lawrie TiP) vs $\delta_2 = 7.0361$ ($98.0\%$ $E2$ dominance, wobbling), DSAM lifetime $\tau = 0.6767\text{ ps}$ ($676.7\text{ fs}$), and deformation $\beta_2 = 0.1784$.
+    * Successfully outputs publication-grade unified JSON receipts and formatted ASCII reports.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `pipeline`.
+- Created concept page: `knowledge/concepts/in-beam-experimental-spectroscopy-analysis-pipeline.md`.
+- Added unit test suite `system/tests/test_in_beam_pipeline.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 109.
+
+### Schiffer-True Universal TBME & Pandya Inversion Engine (Module 110) 2026-11-03T09:15:00+08:00
+
+- Integrated Schiffer-True Universal Two-Body Matrix Element (TBME) $\theta_{12}$ Angle Parameterization, Pandya Particle-Hole Inversion & Nordheim Chiral Bandhead Coupling Engine (`schiffer_true_two_body_matrix_elements_calculator.py`):
+  - Based on J. P. Schiffer & W. W. True (Rev. Mod. Phys. 48, 191, 1976), A. Bohr & B. R. Mottelson Vol. I §3-4 (pp. 314–332), S. P. Pandya (1956), and L. W. Nordheim (1950):
+    * Semiclassical angle $\theta_{12}$ between valence nucleons in orbitals $j_1, j_2$ coupled to total spin $J$: $\cos\theta_{12} = \frac{J(J+1) - j_1(j_1+1) - j_2(j_2+1)}{2 \sqrt{j_1(j_1+1) j_2(j_2+1)}}$.
+    * Universal Legendre polynomial expansion: $V_{\text{pp}}(\theta_{12}) = v_{\text{pair}} \delta_{J, 0} + v_1 \cos\theta_{12} + v_2 P_2(\cos\theta_{12})$, modeling deep pairing attraction at $\theta_{12} = 180^\circ$ ($J=0$) and secondary attraction at $\theta_{12} \to 0^\circ$ ($J=J_{\text{max}}$).
+    * Exact Pandya transformation: $V_{\text{ph}}(J) = - \sum_{J'} (2J'+1) \{j_1 j_2 J; j_1 j_2 J'\} V_{\text{pp}}(J')$, demonstrating that particle-hole multiplets invert the pairing minimum and shift the lowest energy states to $J \sim j_1 + j_2$ (the aligned chiral bandhead!).
+    * Nordheim coupling rules for odd-odd bandheads: $\mathcal{N} = (j_p - \ell_p) + (j_n - \ell_n)$. For $^{134}\text{Pr}$ ($\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$), $\mathcal{N} = +1$ (Weak rule), predicting favored spin $J \sim j_p + j_n = 11^+$, matching the experimental chiral bandhead at $I_0 = 10^+ / 11^+$.
+  - Benchmarks:
+    * $(h_{11/2}^2)$ in $^{134}\text{Te}$: $J=0^+$ ground state at $-3.70\text{ MeV}$, $J=2^+$ at $-1.27\text{ MeV}$, $J=8^+$ at $+0.33\text{ MeV}$ (repulsive at $90^\circ$), $J=10^+$ at $+0.50\text{ MeV}$.
+    * Pandya transformed $(\pi h_{11/2} \otimes \nu h_{11/2}^{-1})$ in $^{134}\text{Pr}$: inverts the spectrum, removing the $J=0^+$ pairing gap and stabilizing the high-spin aligned chiral bandhead.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `schiffer`.
+- Created concept page: `knowledge/concepts/schiffer-true-universal-two-body-matrix-elements-and-chiral-bandheads.md`.
+- Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure.md` with BM1-1 and BM1-2 entries.
+- Added unit test suite `system/tests/test_schiffer_true_tbme.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **110 official analysis modules**, all verified passing in 4.5s.
