@@ -96,6 +96,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `chiroct` | 三轴手征与八极反射不对称共存核四重能带（Chiral-Octupole Quartet）动力学分析 | 适用于奇奇核与多准粒子态；弱八极关联下四重带退化为独立手征双带与正负宇称能级 |
 | `optrainbow` | 重离子核彩虹散射半经典偏转函数极小值、Airy 振荡结构与光学势深度反演 | 需高能量克服库仑势垒（E_lab >= 10-25 MeV/u）；强表面吸收可能部分削弱 Airy 极小振幅 |
 | `timefit` | 在束电子学符合时间谱高斯-指数卷积解析线型拟合与激发态寿命解卷积 | 假定单指数核衰变与单高斯时间分辨（IRF）；复杂多路级联或时间抖动非高斯拖尾需多成分拓展 |
+| `twoqpwob` | 偶偶三轴核两准粒子横向摆动模式（TW）激发能、频率斜率与带间 E2/M1 比率分析 | 假定两高-j 准粒子沿短轴刚性顺排（j_12 ~ 10 hbar）；受带交叉或高自旋三维取向转变限制 |
+| `effcov` | HPGe / Clover 探测器全能峰效率曲线加权最小二乘拟合与严格全协方差误差传播 | 假定对数多项式在大于 80 keV 能区成立；超低能区（< 50 keV）吸收边缘需采用分段双幂律模型 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -141,6 +143,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py tcs --preset 60Co_close_geom
 python3 system/scripts/analysis/nuclear_analyzer.py chiroct --preset 78Br_chiral_octupole_quartet --json
 python3 system/scripts/analysis/nuclear_analyzer.py optrainbow --preset 16O_16O_350MeV --json
 python3 system/scripts/analysis/nuclear_analyzer.py timefit --preset 181Ta_isomer_decay --json
+python3 system/scripts/analysis/nuclear_analyzer.py twoqpwob --preset 130Ba_two_quasiparticle_wobbler --json
+python3 system/scripts/analysis/nuclear_analyzer.py effcov --preset clover_detector_152Eu_calibration --query-E 409,638,1332 --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

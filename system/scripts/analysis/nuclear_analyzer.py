@@ -150,6 +150,8 @@ from in_beam_true_coincidence_summing_tcs_calculator import run_tcs_analysis, fo
 from chiral_octupole_quartet_bands_analyzer import run_chiral_octupole_analysis, format_text_report as format_chiroct_report, PRESETS as CHIROCT_PRESETS
 from heavy_ion_optical_rainbow_scattering_analyzer import run_rainbow_analysis, format_text_report as format_rainbow_report, PRESETS as RAINBOW_PRESETS
 from in_beam_time_spectrum_convolution_fitter import run_time_convolution_analysis, format_text_report as format_timefit_report, PRESETS as TIMEFIT_PRESETS
+from two_quasiparticle_even_even_wobbling_analyzer import run_two_qp_wobbling_analysis, format_text_report as format_twoqpwob_report, PRESETS as TWOQPWOB_PRESETS
+from hpge_efficiency_curve_covariance_fitter import run_efficiency_analysis, format_text_report as format_effcov_report, PRESETS as EFFCOV_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3470,6 +3472,69 @@ def cmd_timefit(args):
     else:
         print(format_timefit_report(res, title=title))
 
+
+def cmd_twoqpwob(args):
+    if args.preset and args.preset in TWOQPWOB_PRESETS:
+        p = TWOQPWOB_PRESETS[args.preset]
+        nucleus = p["nucleus"]
+        cfg = p["quasiparticle_config"]
+        j_align = p["j_aligned"]
+        gamma = p["gamma_deg"]
+        J_m = p["J_m_hbar2_per_MeV"]
+        J_s = p["J_s_hbar2_per_MeV"]
+        J_l = p["J_l_hbar2_per_MeV"]
+        yrast = p["yrast_levels"]
+        wob = p["wobbling_levels"]
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        p = TWOQPWOB_PRESETS["130Ba_two_quasiparticle_wobbler"]
+        nucleus = p["nucleus"]
+        cfg = p["quasiparticle_config"]
+        j_align = p["j_aligned"]
+        gamma = p["gamma_deg"]
+        J_m = p["J_m_hbar2_per_MeV"]
+        J_s = p["J_s_hbar2_per_MeV"]
+        J_l = p["J_l_hbar2_per_MeV"]
+        yrast = p["yrast_levels"]
+        wob = p["wobbling_levels"]
+        title = "Default 130Ba Preset"
+
+    res = run_two_qp_wobbling_analysis(
+        nucleus=nucleus,
+        quasiparticle_config=cfg,
+        j_aligned=j_align,
+        gamma_deg=gamma,
+        J_m=J_m,
+        J_s=J_s,
+        J_l=J_l,
+        yrast_levels=yrast,
+        wobbling_levels=wob
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_twoqpwob_report(res, title=title))
+
+
+def cmd_effcov(args):
+    preset_name = args.preset if args.preset else "clover_detector_152Eu_calibration"
+    p = EFFCOV_PRESETS[preset_name]
+    q_energies = [float(x.strip()) for x in args.query_E.split(",") if x.strip()] if args.query_E else None
+    order = args.order if hasattr(args, "order") and args.order else p.get("poly_order", 3)
+    res = run_efficiency_analysis(
+        points=p["calibration_points"],
+        query_energies=q_energies,
+        poly_order=order,
+        E0_keV=p.get("E0_keV", 1000.0),
+        detector=f"{p['detector']} ({p['geometry']})"
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_effcov_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -4920,6 +4985,22 @@ def main():
     p_tf.add_argument("--t0-ns", type=float, default=2.00, help="Time zero in ns")
     p_tf.add_argument("--json", action="store_true", help="Output pure JSON")
     p_tf.set_defaults(func=cmd_timefit)
+
+    # Two-Quasiparticle Wobbling Mode Analyzer in Even-Even Triaxial Nuclei
+    p_tqw = subparsers.add_parser("twoqpwob", help="Two-quasiparticle wobbler in even-even triaxial nuclei (Chen PRL 2019 / Wang PLB 2020)")
+    p_tqw.add_argument("--preset", type=str, default="130Ba_two_quasiparticle_wobbler",
+                       choices=list(TWOQPWOB_PRESETS.keys()), help="Benchmark preset")
+    p_tqw.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tqw.set_defaults(func=cmd_twoqpwob)
+
+    # HPGe Detector Efficiency Curve WLS Fit & Covariance Error Engine
+    p_ec = subparsers.add_parser("effcov", help="HPGe efficiency calibration WLS fit & covariance error propagation (Wu Ch 10 / Zhu Ch 3,6)")
+    p_ec.add_argument("--preset", type=str, default="clover_detector_152Eu_calibration",
+                      choices=list(EFFCOV_PRESETS.keys()), help="Calibration preset")
+    p_ec.add_argument("--query-E", type=str, help="Comma-separated query gamma energies in keV (e.g. 409,638,1332)")
+    p_ec.add_argument("--order", type=int, default=3, help="Polynomial order (default: 3)")
+    p_ec.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_ec.set_defaults(func=cmd_effcov)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

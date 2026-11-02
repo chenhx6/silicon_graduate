@@ -7091,3 +7091,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-nakhostin-signal-processing-detectors.md` with NAK-7 entry.
 - Added unit test suite `system/tests/test_time_spectrum_convolution.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **132 official analysis modules**, all verified passing in 2.6s.
+
+### Two-Quasiparticle Wobbling Mode Analyzer in Even-Even Triaxial Nuclei (Module 133) 2026-11-03T20:45:00+08:00
+
+- Integrated Two-Quasiparticle Wobbling Mode Analyzer in Even-Even Triaxial Nuclei, Transverse Wobbling Frequency Inversion & Interband E2/M1 Signature Engine (`two_quasiparticle_even_even_wobbling_analyzer.py`):
+  - Based on Q. B. Chen & S. Frauendorf (Phys. Rev. Lett. 123, 232502, 2019), S. Y. Wang, F. Q. Chen, C. Liu et al. (Phys. Lett. B 808, 135634, 2020), and *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 10 & 11:
+    * Models high-spin two-quasiparticle alignment ($\pi(h_{11/2})^2$, $j_{12} \approx 10\ \hbar$) along the short axis in even-even triaxial nuclei after backbending.
+    * Quantifies transverse wobbling (TW) frequency evolution $E_{\text{wob}}(I) = E(n_w=1, I) - \frac{1}{2}[E(n_w=0, I+1) + E(n_w=0, I-1)]$, establishing that $d(\hbar\omega_w)/dI < 0$ uniquely signals transverse orientation.
+    * Formulates collective interband $E2$ signature: $B(E2)_{\text{out}} / B(E2)_{\text{in}} \approx \frac{2}{I} [\sin(|\gamma|+30^\circ)/\sin(|\gamma|-60^\circ)]^2 \sim 0.3 - 0.6$, orders of magnitude above single-particle transitions.
+  - Benchmarks:
+    * $^{130}\text{Ba}$ experimental landmark (Wang et al. PLB 2020): $E_{\text{wob}}$ decreases monotonically from $505\text{ keV}$ to $325\text{ keV}$ ($dE_{\text{wob}}/dI = -30.25\text{ keV}/\hbar$), experimental $B(E2)_{\text{out}}/B(E2)_{\text{in}} \approx 0.385$ (theory $\sim 0.299$), $100\%$ confidence confirmation.
+    * $^{136}\text{Nd}$ predicted two-quasiparticle wobbler (Chen & Frauendorf 2019): confirms consistent transverse slope and enhanced $E2$ branching.
+    * Spurious single-particle band counterexample: successfully rejected ($20\%$ score).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `twoqpwob`.
+- Created concept page: `knowledge/concepts/two-quasiparticle-wobbling-in-even-even-triaxial-nuclei.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-9 entry.
+- Added unit test suite `system/tests/test_two_quasiparticle_wobbling.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 133.
+
+### HPGe Efficiency Curve Weighted Least Squares & Covariance Fitter (Module 134) 2026-11-03T21:15:00+08:00
+
+- Integrated HPGe / Clover Detector Photopeak Efficiency Calibration Curve Fitter, Weighted Least Squares Matrix Inversion & Full Covariance Error Propagation Engine (`hpge_efficiency_curve_covariance_fitter.py`):
+  - Based on 吴治华《原子核物理实验方法》第 10 章 §10.4 (pp. 265–275), 汪晓莲《粒子探测技术》第 5 章, 朱永生《实验物理中的概率和统计》第 3 & 6–7 章, and D. C. Radford (NIM A 361, 297, 1995):
+    * Solves normal equations $\hat{\mathbf{a}} = (\mathbf{X}^T \mathbf{W} \mathbf{X})^{-1} \mathbf{X}^T \mathbf{W} \mathbf{y}$ for logarithmic polynomial model $\ln\varepsilon(E) = \sum a_k [\ln(E/E_0)]^k$ with energy scaling $E_0 = 1000\text{ keV}$.
+    * Evaluates exact parameter error covariance matrix $\mathbf{V}_a = (\mathbf{X}^T \mathbf{W} \mathbf{X})^{-1}$, quantifying strong negative correlations ($\rho_{ij} \sim -0.80 \dots -0.99$) between adjacent polynomial powers.
+    * Implements rigorous Jacobian error propagation $\sigma^2_{\ln\varepsilon}(E) = \mathbf{j}(E)^T \mathbf{V}_a \mathbf{j}(E)$, proving that naive diagonal variance sums inflate the efficiency uncertainty by $200\% \sim 600\%$.
+    * Interpolates efficiency and uncertainty for any queried in-beam transition line.
+  - Benchmarks:
+    * Clover HPGe $^{152}\text{Eu}$ calibration (121 to 1408 keV): reduced $\chi^2/\text{ndf} = 0.41$; query at $409\text{ keV}$ gives $\varepsilon = 0.011819 \pm 0.000124$ ($1.05\%$ error), revealing naive error overestimation by factor $\times 5.99$.
+    * Broadband coaxial HPGe $^{133}\text{Ba} + {}^{152}\text{Eu} + {}^{60}\text{Co}$ mixed source: reduced $\chi^2/\text{ndf} = 0.26$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `effcov`.
+- Created concept page: `knowledge/concepts/hpge-photopeak-efficiency-calibration-and-covariance-propagation.md`.
+- Updated source card `knowledge/sources/book-zhu-probability-statistics-in-physics.md` with ZHU-7 entry.
+- Added unit test suite `system/tests/test_hpge_efficiency_covariance.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **134 official analysis modules**, all verified passing in 2.4s.

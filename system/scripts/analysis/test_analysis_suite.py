@@ -164,6 +164,8 @@ from in_beam_true_coincidence_summing_tcs_calculator import calculate_total_effi
 from chiral_octupole_quartet_bands_analyzer import evaluate_quartet_properties
 from heavy_ion_optical_rainbow_scattering_analyzer import calculate_kinematics_and_sommerfeld, find_rainbow_singularity_and_airy_minima
 from in_beam_time_spectrum_convolution_fitter import convoluted_decay_model, fit_convoluted_time_spectrum
+from two_quasiparticle_even_even_wobbling_analyzer import calculate_two_quasiparticle_wobbling_energies, evaluate_wobbling_slope_and_criteria
+from hpge_efficiency_curve_covariance_fitter import fit_efficiency_curve_wls, evaluate_efficiency_with_covariance
 
 
 def test_heavy_ion_kinematics():
@@ -1831,6 +1833,31 @@ def test_time_spectrum_convolution():
     print("  ✓ in_beam_time_spectrum_convolution_fitter passed.")
 
 
+def test_two_quasiparticle_wobbling():
+    print("Testing two_quasiparticle_even_even_wobbling_analyzer...")
+    yrast = [{"I": 10, "energy_keV": 3280.0}, {"I": 12, "energy_keV": 3950.0}, {"I": 14, "energy_keV": 4720.0}]
+    wob = [{"I": 11, "energy_keV": 4120.0, "be2_out_in_ratio": 0.48}]
+    res = calculate_two_quasiparticle_wobbling_energies(yrast, wob)
+    assert len(res) == 1
+    assert abs(res[0]["E_wob_keV"] - 505.0) < 1.0
+    print("  ✓ two_quasiparticle_even_even_wobbling_analyzer passed.")
+
+
+def test_hpge_efficiency_covariance():
+    print("Testing hpge_efficiency_curve_covariance_fitter...")
+    pts = [
+        {"E_keV": 121.8, "efficiency": 0.0245, "sigma_eff": 0.00045},
+        {"E_keV": 344.3, "efficiency": 0.0135, "sigma_eff": 0.00025},
+        {"E_keV": 778.9, "efficiency": 0.0068, "sigma_eff": 0.00015},
+        {"E_keV": 1408.0, "efficiency": 0.0040, "sigma_eff": 0.00010}
+    ]
+    fit_res = fit_efficiency_curve_wls(pts, poly_order=2)
+    eval_pt = evaluate_efficiency_with_covariance(344.3, fit_res)
+    assert abs(eval_pt["efficiency"] - 0.0135) < 0.001
+    assert eval_pt["covariance_overestimate_ratio"] > 1.2
+    print("  ✓ hpge_efficiency_curve_covariance_fitter passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2325,4 +2352,6 @@ if __name__ == "__main__":
     test_chiral_octupole_quartet()
     test_heavy_ion_optical_rainbow()
     test_time_spectrum_convolution()
+    test_two_quasiparticle_wobbling()
+    test_hpge_efficiency_covariance()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

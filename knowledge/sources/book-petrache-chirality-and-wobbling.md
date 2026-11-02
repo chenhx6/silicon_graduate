@@ -121,6 +121,7 @@ tags: [books, triaxiality, wobbling, chirality, competing-interpretations]
 | PETR-6 | Meyer-ter-Vehn 与 Hamamoto 粒子-三轴转子模型（PTRM）完全代数对角化：在 $D_2$ 对称化基底 $|I M K j \Omega, \alpha\rangle$ 中严格对角化粒子-转子耦合哈密顿量 $H = \sum \frac{(I_k - j_k)^2}{2\mathcal{J}_k} + H_{\text{sp}}(\beta_2, \gamma)$，给出摆动激发频率 $\hbar\omega_w$、非简谐比率 $R_{21}$ 及多声子分支比，消除了高自旋简谐近似在低自旋区域的截断失效。 | model-result | direct | Ch. 2, PDF pp. 43–80; Ch. 8, PDF pp. 167–203 | false |
 | PETR-7 | Grodner 手征孪生带磁偶极矩 $g$ 因子相等性定理：时间反演对称破缺下左右手态波函数的对称/反对称恢复叠加消除了偶极交叉项，证明真正的核手征双重带在各自旋能态上的回旋比必须严格相等 $g(\text{Band 1}, I) \equiv g(\text{Band 2}, I)$；在 $^{128}\text{Cs}$ 实测 $I=11^+$ 孪生态获得首个严格实验证实（$g_1=+0.58(4), g_2=+0.56(5)$），为排他性仲裁伪手征带建立金标准。 | model-result | direct | Ch. 7, PDF pp. 156–166 | false |
 | PETR-8 | 刘晨等三轴手征与八极反射不对称共存核四重能带（Chiral-Octupole Quartet Bands）：时间反演 $\mathcal{T}\mathcal{R}_y(\pi)$ 与空间反演 $\mathcal{P}$ 双重离散对称性自发破缺，在偶奇核 $^{78}\text{Br}$ 中首次实验证实由两对正宇称手征双带与负宇称手征双带构成的四重简并带结构，确立了跨宇称强 $E1$ 跃迁与手征劈裂 $\Delta E \le 70\text{ keV}$ 的双重破缺判据。 | model-result | direct | Ch. 3, PDF pp. 81–93; Ch. 12, PDF pp. 256–274 | false |
+| PETR-9 | 偶偶核两准粒子横向摆动模式（Two-Quasiparticle Wobbling）：两高-$j$ 准粒子（如 $^{130}\text{Ba}$ 中两质子 $h_{11/2}$）顺排角动量 $\vec{j}_{12} \approx 10\ \hbar$ 垂直于中间转动轴（沿短轴取向），驱动摆动频率随自旋上升单调下落 $d(\hbar\omega_w)/dI < 0$；伴随强集体性带间 $E2$ 跃迁 $B(E2)_{\text{out}}/B(E2)_{\text{in}} \approx 0.3 - 0.6$ 与高混合比 $|\delta| \gg 1$，确立偶偶核突破纯转子限制的全新微观摆动激发图像。 | model-result | direct | Ch. 10, PDF pp. 215–230; Ch. 11, PDF pp. 235–255 | false |
 
 
 ## Extracted Pages
