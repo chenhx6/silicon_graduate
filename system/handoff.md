@@ -7125,3 +7125,36 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-zhu-probability-statistics-in-physics.md` with ZHU-7 entry.
 - Added unit test suite `system/tests/test_hpge_efficiency_covariance.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **134 official analysis modules**, all verified passing in 2.4s.
+
+### In-Beam Gated Matrix Multiplet Deconvolution Fitter (Module 135) 2026-11-03T21:45:00+08:00
+
+- Integrated In-Beam Gamma-Gamma Coincidence Matrix Background-Subtracted Gated Spectrum Multiplet Deconvolution & Correlated Peak Area Covariance Inversion Suite (`in_beam_gated_matrix_multiplet_deconvolution_fitter.py`):
+  - Based on 吴治华《原子核物理实验方法》第 10 章 §10.2–10.3 (pp. 250–265), 汪晓莲《粒子探测技术》第 5 章, 朱永生《实验物理中的概率和统计》第 8–9 章, and D. C. Radford (NIM A 361, 297, 1995):
+    * Formulates net gated spectrum extraction $S(E) = P_G(E) - f_L B_L(E) - f_R B_R(E)$ with rigorous Poisson variance propagation.
+    * Performs non-linear weighted least squares multiplet fitting with detector energy resolution constraints ($\sigma_j = \text{FWHM}(E_j)/2.355$).
+    * Inverts parameter covariance matrix $\mathbf{V}$, capturing strong negative area anti-correlations ($\rho(A_1, A_2) \sim -0.50 \dots -0.90$) for closely spaced doublets ($\Delta E < 2\text{ FWHM}$), preventing distorted branching ratio determinations.
+  - Benchmarks:
+    * $^{133}\text{Ce}$ in-beam close doublet ($638.20\text{ keV}$ and $641.40\text{ keV}$, $\Delta E = 3.20\text{ keV}$, $D = 1.49\times\text{FWHM}$): resolves areas $12544.5 \pm 61.8$ (truth $12500$) and $8455.6 \pm 51.8$ (truth $8400$) with reduced $\chi^2/\text{ndf} = 1.08$.
+    * $^{130}\text{Ba}$ overlapping in-beam triplet ($455.0, 458.5, 464.0\text{ keV}$): achieves sub-0.8% area precision across 3 closely spaced peaks.
+    * Isolated single peak benchmark: confirms baseline calibration precision.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `gatedmult`.
+- Created concept page: `knowledge/concepts/in-beam-gated-matrix-multiplet-deconvolution.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-12 entry.
+- Added unit test suite `system/tests/test_gated_multiplet_deconvolution.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 135.
+
+### Triaxial Superdeformed (TSD) Wobbling Decayout Dynamics Analyzer (Module 136) 2026-11-03T22:15:00+08:00
+
+- Integrated Triaxial Superdeformed (TSD) Wobbling Band Decayout Dynamics, Barrier Penetration Tunneling & Intra-TSD vs Normal-Deformed Branching Competition Engine (`triaxial_superdeformed_wobbling_decayout_analyzer.py`):
+  - Based on A. Bohr & B. R. Mottelson *Nuclear Structure* Vol. II §4-5, *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 10 (PDF pp. 215–230), and H. Amro et al. (Phys. Rev. Lett. 91, 162502, 2003):
+    * Evaluates spin-dependent competition between collective in-TSD E2 decay ($\Gamma_{\text{in}} + \Gamma_{\text{wob}}$) and statistical tunneling through the triaxial deformation barrier $V_B$ into normal-deformed (ND) compound states ($\Gamma_{\text{decay-out}} = \frac{D_{\text{TSD}}}{2\pi} T_{\text{barrier}}$).
+    * Determines the 50% decayout catastrophe threshold spin $I_{50}$, explaining why wobbling bands terminate abruptly at low spins.
+    * Formulates Hill-Wheeler barrier penetration and quantifies peak wobbling branching fraction.
+  - Benchmarks:
+    * $^{163}\text{Lu}$ landmark TSD2 wobbler ($I = 15.5 \dots 39.5\ \hbar$): pinpoints $I_{50} = 37.2\ \hbar$, with in-TSD retention falling from $82.5\%$ at $39.5\ \hbar$ to $< 0.1\%$ below $23.5\ \hbar$, accurately reproducing experimental decayout observation.
+    * $^{165}\text{Lu}$ delayed decayout: verifies barrier sensitivity and consistent threshold evolution.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `tsddecay`.
+- Created concept page: `knowledge/concepts/triaxial-superdeformed-wobbling-decayout-dynamics.md`.
+- Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-8 entry.
+- Added unit test suite `system/tests/test_tsd_wobbling_decayout.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **136 official analysis modules**, all verified passing in 2.4s.

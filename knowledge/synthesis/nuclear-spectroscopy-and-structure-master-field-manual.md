@@ -98,6 +98,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `timefit` | 在束电子学符合时间谱高斯-指数卷积解析线型拟合与激发态寿命解卷积 | 假定单指数核衰变与单高斯时间分辨（IRF）；复杂多路级联或时间抖动非高斯拖尾需多成分拓展 |
 | `twoqpwob` | 偶偶三轴核两准粒子横向摆动模式（TW）激发能、频率斜率与带间 E2/M1 比率分析 | 假定两高-j 准粒子沿短轴刚性顺排（j_12 ~ 10 hbar）；受带交叉或高自旋三维取向转变限制 |
 | `effcov` | HPGe / Clover 探测器全能峰效率曲线加权最小二乘拟合与严格全协方差误差传播 | 假定对数多项式在大于 80 keV 能区成立；超低能区（< 50 keV）吸收边缘需采用分段双幂律模型 |
+| `gatedmult` | 在束符合矩阵门扣除本底重叠多重峰加权拟合与峰面积协方差反演 | 假定局部探测器能量分辨率为高斯线型；具有极强长低能拖尾的大晶体需扩展非对称卷积尾 |
+| `tsddecay` | 三轴超形变（TSD）摆动带退激穿透、势垒隧穿与分支竞争动力学分析 | 采用 Hill-Wheeler 统计单势垒穿透模型；受正常形变态局部能级密度涨落与共振混合影响 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -145,6 +147,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py optrainbow --preset 16O_16O_
 python3 system/scripts/analysis/nuclear_analyzer.py timefit --preset 181Ta_isomer_decay --json
 python3 system/scripts/analysis/nuclear_analyzer.py twoqpwob --preset 130Ba_two_quasiparticle_wobbler --json
 python3 system/scripts/analysis/nuclear_analyzer.py effcov --preset clover_detector_152Eu_calibration --query-E 409,638,1332 --json
+python3 system/scripts/analysis/nuclear_analyzer.py gatedmult --preset 133Ce_wobbling_candidate_doublet --json
+python3 system/scripts/analysis/nuclear_analyzer.py tsddecay --preset 163Lu_TSD2_wobbling_decayout --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

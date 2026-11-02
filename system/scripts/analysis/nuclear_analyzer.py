@@ -152,6 +152,8 @@ from heavy_ion_optical_rainbow_scattering_analyzer import run_rainbow_analysis, 
 from in_beam_time_spectrum_convolution_fitter import run_time_convolution_analysis, format_text_report as format_timefit_report, PRESETS as TIMEFIT_PRESETS
 from two_quasiparticle_even_even_wobbling_analyzer import run_two_qp_wobbling_analysis, format_text_report as format_twoqpwob_report, PRESETS as TWOQPWOB_PRESETS
 from hpge_efficiency_curve_covariance_fitter import run_efficiency_analysis, format_text_report as format_effcov_report, PRESETS as EFFCOV_PRESETS
+from in_beam_gated_matrix_multiplet_deconvolution_fitter import run_multiplet_analysis, format_text_report as format_gatedmult_report, PRESETS as GATEDMULT_PRESETS
+from triaxial_superdeformed_wobbling_decayout_analyzer import run_tsd_decayout_analysis, format_text_report as format_tsddecay_report, PRESETS as TSDDECAY_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3535,6 +3537,41 @@ def cmd_effcov(args):
     else:
         print(format_effcov_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
+
+def cmd_gatedmult(args):
+    preset_name = args.preset if args.preset else "133Ce_wobbling_candidate_doublet"
+    p = GATEDMULT_PRESETS[preset_name]
+    res = run_multiplet_analysis(
+        peaks=p["true_peaks"],
+        fwhm_nominal=p["fwhm_nominal_keV"],
+        bkg_level=p["background_level"],
+        E_min=p["E_min_keV"],
+        E_max=p["E_max_keV"],
+        bin_width=p["bin_width_keV"],
+        nucleus=p["nucleus"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_gatedmult_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_tsddecay(args):
+    preset_name = args.preset if args.preset else "163Lu_TSD2_wobbling_decayout"
+    p = TSDDECAY_PRESETS[preset_name]
+    res = run_tsd_decayout_analysis(
+        nucleus=p["nucleus"],
+        deformation_params=p["deformation_params"],
+        barrier_params=p["barrier_params"],
+        transitions=p["transitions"]
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_tsddecay_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5001,6 +5038,20 @@ def main():
     p_ec.add_argument("--order", type=int, default=3, help="Polynomial order (default: 3)")
     p_ec.add_argument("--json", action="store_true", help="Output pure JSON")
     p_ec.set_defaults(func=cmd_effcov)
+
+    # In-Beam Gated Matrix Multiplet Deconvolution Fitter
+    p_gm = subparsers.add_parser("gatedmult", help="In-beam gated matrix multiplet deconvolution & area covariance (Wu Ch 10 / Radford)")
+    p_gm.add_argument("--preset", type=str, default="133Ce_wobbling_candidate_doublet",
+                      choices=list(GATEDMULT_PRESETS.keys()), help="Benchmark preset")
+    p_gm.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_gm.set_defaults(func=cmd_gatedmult)
+
+    # TSD Wobbling Decayout Dynamics & Barrier Penetration Analyzer
+    p_tsd = subparsers.add_parser("tsddecay", help="Triaxial superdeformed (TSD) wobbling band decayout dynamics (Bohr Vol 2 / Amro PRL)")
+    p_tsd.add_argument("--preset", type=str, default="163Lu_TSD2_wobbling_decayout",
+                       choices=list(TSDDECAY_PRESETS.keys()), help="Benchmark preset")
+    p_tsd.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tsd.set_defaults(func=cmd_tsddecay)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

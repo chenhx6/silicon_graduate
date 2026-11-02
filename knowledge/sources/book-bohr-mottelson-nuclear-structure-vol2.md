@@ -51,6 +51,7 @@ Vol. II 原版 1975；本地为 World Scientific 重印。此记录与 [[book-bo
 | BM2-5 | $\gamma$ 振动带与基带 Coriolis 混合（Mikhailov 展开）：电四极跃迁矩阵元引入一级摄动修正 $M(E2) = M_0 \langle I_\gamma 2 2 -2 \mid I_g 0 \rangle [1 + z_\gamma (I_g(I_g+1) - I_\gamma(I_\gamma+1))]$；混合参数 $z_\gamma$ 与转-振耦合矩阵元 $h_2 = z_\gamma \Delta E / \sqrt{6}$ 解释了实测 $B(E2; 2_\gamma \to 0_g)/B(E2; 2_\gamma \to 2_g)$ 比值对 Alaga 理论值 $0.700$ 的系统性压低。 | model-result | direct | Vol. II, §4-2, pp. 140–155 | false |
 | BM2-6 | Davydov-Chaban 非绝热三轴转子模型：引入动力学可变性参量 $\mu$，由一元四次平衡方程 $p^3(p-1) = \mu^4 \varepsilon(J, \gamma)$ 求解离心 $\beta$ 拉伸比 $p = \beta/\beta_0$，成功将刚性 Davydov-Filippov 转子推广至同时解释基态带、$\gamma$ 振动带头与奇自旋能态间距。 | model-result | direct | Vol. II, §4-2, pp. 175–195 | false |
 | BM2-7 | 奇 $A$ 变形核 Coriolis 带混合与签名裂相：通过 Coriolis 相互作用 $H_{\text{Coriolis}} = -A_{\text{rot}} [I_+ j_- + I_- j_+]$ 连接 $\Delta K = \pm 1$ 的转动带，推导对角解耦项 $\Delta E_{1/2} = a A_{\text{rot}} (-1)^{I+1/2}(I+1/2)$，严格证明三对角哈密顿矩阵对角化后波函数向多个 $K$ 分量的空间弥散，微观解释单核子对齐与签名交错。 | model-result | direct | Vol. II, §4-3, pp. 158–175 | false |
+| BM2-8 | 三轴超形变（TSD）摆动激发与退激穿透动力学：在非轴对称超形变势阱中，准粒子取向与非主轴转动形成多声子摆动能带；当激发能随自旋降低逼近正常形变（ND）态时，经由 Hill-Wheeler 势垒穿透向密集复合态隧穿（Decayout），阐明超形变带在低自旋区的终止截断机制。 | model-result | direct | Vol. II, §4-5, pp. 190–210 | false |
 
 ## Analytical Reconstruction and Transfer Conditions
 

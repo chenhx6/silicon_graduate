@@ -166,6 +166,8 @@ from heavy_ion_optical_rainbow_scattering_analyzer import calculate_kinematics_a
 from in_beam_time_spectrum_convolution_fitter import convoluted_decay_model, fit_convoluted_time_spectrum
 from two_quasiparticle_even_even_wobbling_analyzer import calculate_two_quasiparticle_wobbling_energies, evaluate_wobbling_slope_and_criteria
 from hpge_efficiency_curve_covariance_fitter import fit_efficiency_curve_wls, evaluate_efficiency_with_covariance
+from in_beam_gated_matrix_multiplet_deconvolution_fitter import multiplet_model_function, fit_gated_multiplet
+from triaxial_superdeformed_wobbling_decayout_analyzer import calculate_transition_widths_and_tunneling, evaluate_decayout_threshold
 
 
 def test_heavy_ion_kinematics():
@@ -1858,6 +1860,25 @@ def test_hpge_efficiency_covariance():
     print("  ✓ hpge_efficiency_curve_covariance_fitter passed.")
 
 
+def test_gated_multiplet_deconvolution():
+    print("Testing in_beam_gated_matrix_multiplet_deconvolution_fitter...")
+    E = [638.0, 640.0, 642.0]
+    y = multiplet_model_function(E, 1000.0, 638.0, 800.0, 641.0, 0.9, 10.0, 0.0)
+    assert len(y) == 3
+    assert y[0] > 100.0
+    print("  ✓ in_beam_gated_matrix_multiplet_deconvolution_fitter passed.")
+
+
+def test_tsd_wobbling_decayout():
+    print("Testing triaxial_superdeformed_wobbling_decayout_analyzer...")
+    trans = [{"I": 39.5, "E_in_keV": 890.0, "E_wob_keV": 720.0, "Delta_E_ND_MeV": 1.10, "B_E2_in_W_u": 620.0, "B_E2_wob_W_u": 125.0}]
+    barr = {"V_B_MeV": 1.85, "hbar_omega_barr_MeV": 0.42, "D_TSD_keV": 45.0}
+    res = calculate_transition_widths_and_tunneling(trans, barr)
+    assert len(res) == 1
+    assert res[0]["branching_in"] > 0.50
+    print("  ✓ triaxial_superdeformed_wobbling_decayout_analyzer passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2354,4 +2375,6 @@ if __name__ == "__main__":
     test_time_spectrum_convolution()
     test_two_quasiparticle_wobbling()
     test_hpge_efficiency_covariance()
+    test_gated_multiplet_deconvolution()
+    test_tsd_wobbling_decayout()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

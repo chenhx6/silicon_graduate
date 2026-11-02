@@ -69,6 +69,7 @@ tags: [books, experimental-nuclear-physics, hpge-detectors, gamma-spectroscopy, 
 | WU-9 | 在束能级纲图能量闭合环与强度守恒：Ritz 结合原理要求任意闭合回路能量代数和残差满足 $\Delta E_{\text{loop}} = 0$（归一化残差 $Z \le 1.5\sigma$）；考虑内转换校正的总跃迁强度平衡直接给出各激发能级来自反应连续谱的瞬发直接侧馈份额 $I_{\text{side}}$。 | method/formalism | direct | 第 10 章 §10.6, 印刷 pp. 285–303 / PDF pp. 293–311 | false |
 | WU-10 | 在束超快定时广义质心差分法（GCD）与皮秒寿命测量：阐明瞬发时间响应函数（PRF Walk）能量依赖曲线 $\text{PRF}(E_\gamma) = a_0 / \sqrt{E_\gamma} + c_0 E_\gamma$ 对反向门控质心移动的抵消机制；推导质心差分方程 $\Delta C = C_1 - C_2 = 2\tau + 2\Delta\text{PRF}$，完全消除仪器绝对零点漂移，实现 $5\text{ ps} \sim 1\text{ ns}$ 激发态寿命的高精度测量。 | method/formalism | direct | 第 9 章 §9.3, 第 14 章, 印刷 pp. 385–402 / PDF pp. 393–410 | false |
 | WU-11 | 在束 $\gamma$ 谱学近几何真符合相加（TCS）全能峰损失与修正：阐明近距离测量（$d \sim 5 - 15\text{ cm}$）下相继瞬发级联光子同时进入单个晶体引起的相加出（Summing-Out，峰面积被低估 $10\% - 25\%$）与相加进（Summing-In，产生虚假全能相加峰）机制；推导基于全能峰效率 $\varepsilon_p$ 与总效率 $\varepsilon_t = \varepsilon_p / (P/T)$ 的相加修正因子 $C_{\text{out}}(E_1) = 1 / [1 - \varepsilon_t(E_2) W(0)]$，给出紧凑阵列能谱绝对分支强度的校准规范。 | method/formalism | direct | 第 10 章 §10.5, 印刷 pp. 275–285 / PDF pp. 283–293 | false |
+| WU-12 | 在束 $\gamma-\gamma$ 符合矩阵门扣除本底多重峰解叠与面积协方差反演：在二维对称矩阵 $M(E_1, E_2)$ 中设门提取符合谱并扣除左右本底窗口 $S(E) = P_G(E) - f_L B_L - f_R B_R$；建立探测器能量分辨率约束下的多高斯拟合与全协方差矩阵反演，消除严重重叠双重峰（$\Delta E < 2\text{ FWHM}$）参数负相关（$\rho \sim -0.7 \dots -0.9$）对分支比测定的系统性偏差。 | method/formalism | direct | 第 10 章 §10.2–10.3, 印刷 pp. 250–265 / PDF pp. 258–273 | false |
 
 ## Competing Interpretations and Limitations
 
