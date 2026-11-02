@@ -134,6 +134,8 @@ from heavy_ion_fusion_spin_distribution_wong_calculator import calculate_heavy_i
 from dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator import calculate_dsam_f_tau_value, invert_lifetime_from_f_tau, calculate_lss_stopping_constants
 from mariscotti_vmi_rotational_stretching_calculator import solve_vmi_cubic_moi, calculate_vmi_spectrum, invert_vmi_parameters
 from seniority_scheme_half_filled_isomer_calculator import calculate_seniority_fractional_factor, evaluate_seniority_isomer_properties
+from constant_fraction_discriminator_fast_timing_calculator import simulate_cfd_walk_elimination, calculate_fast_timing_resolution
+from grodzins_deformation_beta2_quadrupole_inverter import invert_beta2_and_quadrupole
 
 
 def test_heavy_ion_kinematics():
@@ -1689,6 +1691,34 @@ def test_mariscotti_vmi_rotational_stretching_calculator():
     print("  ✓ mariscotti_vmi_rotational_stretching_calculator passed.")
 
 
+def test_constant_fraction_discriminator_calculator():
+    print("Testing constant_fraction_discriminator_fast_timing_calculator...")
+    # CFD walk elimination across 10:1 amplitude range
+    res = simulate_cfd_walk_elimination(amplitudes_V=[0.5, 1.0, 2.0, 5.0], rise_time_ns=2.0, fraction=0.20)
+    assert res["cfd_walk_ps"] < 0.01, "CFD zero walk (< 0.01 ps)"
+    assert res["led_walk_ps"] > 250.0, "LED time walk > 250 ps"
+    assert res["walk_reduction_factor"] > 10000.0
+
+    # Fast-timing resolution
+    timing = calculate_fast_timing_resolution(scint_decay_time_ns=16.0, pmt_tts_fwhm_ns=0.35, N_photoelectrons=2500.0)
+    assert timing["total_timing_resolution_FWHM_ps"] < 1000.0, "Sub-nanosecond fast-timing resolution"
+    print("  ✓ constant_fraction_discriminator_fast_timing_calculator passed.")
+
+
+def test_grodzins_deformation_inverter():
+    print("Testing grodzins_deformation_beta2_quadrupole_inverter...")
+    # 154Sm rotor benchmark
+    sm = invert_beta2_and_quadrupole(Z=62, A=154, B_E2_e2_b2=4.35, E_2plus_keV=82.0)
+    assert abs(sm["quadrupole_deformation_beta2"] - 0.341) < 0.005, "154Sm beta2 ~ 0.341"
+    assert abs(sm["grodzins_ratio"] - 1.037) < 0.01, "154Sm Grodzins ratio ~ 1.0"
+    assert abs(sm["superfluid_pairing_reduction_ratio"] - 0.543) < 0.01, "Pairing reduction ~ 0.54"
+
+    # 132Sn spherical benchmark
+    sn = invert_beta2_and_quadrupole(Z=50, A=132, B_E2_e2_b2=0.011, E_2plus_keV=4041.0)
+    assert sn["quadrupole_deformation_beta2"] < 0.05, "132Sn near-spherical beta2 < 0.05"
+    print("  ✓ grodzins_deformation_beta2_quadrupole_inverter passed.")
+
+
 def test_seniority_scheme_half_filled_isomer_calculator():
     print("Testing seniority_scheme_half_filled_isomer_calculator...")
     # 1. Exact B(E2) cancellation at half-filled shell n = j + 1/2
@@ -1896,4 +1926,6 @@ if __name__ == "__main__":
     test_dsam_doppler_attenuation_lifetime_calculator()
     test_mariscotti_vmi_rotational_stretching_calculator()
     test_seniority_scheme_half_filled_isomer_calculator()
+    test_constant_fraction_discriminator_calculator()
+    test_grodzins_deformation_inverter()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

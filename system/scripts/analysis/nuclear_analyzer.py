@@ -120,6 +120,8 @@ from heavy_ion_fusion_spin_distribution_wong_calculator import calculate_heavy_i
 from dsam_doppler_attenuation_lss_blaugrund_lifetime_calculator import calculate_dsam_f_tau_value, invert_lifetime_from_f_tau, calculate_lss_stopping_constants, generate_f_tau_calibration_curve, format_text_report as format_dsam_report
 from mariscotti_vmi_rotational_stretching_calculator import calculate_vmi_spectrum, invert_vmi_parameters, format_text_report as format_vmi_report
 from seniority_scheme_half_filled_isomer_calculator import calculate_seniority_fractional_factor, evaluate_seniority_isomer_properties, format_text_report as format_seniority_report
+from constant_fraction_discriminator_fast_timing_calculator import simulate_cfd_walk_elimination, calculate_fast_timing_resolution, format_text_report as format_cfd_report
+from grodzins_deformation_beta2_quadrupole_inverter import invert_beta2_and_quadrupole, format_text_report as format_grodzins_report
 
 
 def cmd_kinematics(args):
@@ -2294,6 +2296,78 @@ def cmd_seniority(args):
         print(format_seniority_report(res))
 
 
+def cmd_cfd(args):
+    tr_val = args.tr
+    f_val = args.fraction
+    d_val = args.delay
+    res_info = None
+
+    if args.preset == "labr3_fast_timing":
+        tr_val, f_val = 2.0, 0.20
+        amps = [0.5, 1.0, 2.0, 3.5, 5.0]
+        res_info = calculate_fast_timing_resolution(
+            scint_decay_time_ns=16.0, pmt_tts_fwhm_ns=0.35, N_photoelectrons=2500.0,
+            noise_rms_mV=2.0, zero_crossing_slope_V_per_ns=1.2
+        )
+    elif args.preset == "baf2_fast_timing":
+        tr_val, f_val = 0.8, 0.15
+        amps = [0.5, 1.0, 2.0, 3.5, 5.0]
+        res_info = calculate_fast_timing_resolution(
+            scint_decay_time_ns=0.8, pmt_tts_fwhm_ns=0.25, N_photoelectrons=1500.0,
+            noise_rms_mV=1.5, zero_crossing_slope_V_per_ns=2.5
+        )
+    elif args.preset == "hpge_timing":
+        tr_val, f_val = 150.0, 0.30
+        amps = [0.5, 1.0, 2.0, 5.0]
+        res_info = calculate_fast_timing_resolution(
+            scint_decay_time_ns=150.0, pmt_tts_fwhm_ns=0.0, N_photoelectrons=1e5,
+            noise_rms_mV=5.0, zero_crossing_slope_V_per_ns=0.02
+        )
+    elif args.preset == "plastic_scintillator":
+        tr_val, f_val = 0.5, 0.20
+        amps = [0.5, 1.0, 2.0, 4.0]
+        res_info = calculate_fast_timing_resolution(
+            scint_decay_time_ns=1.4, pmt_tts_fwhm_ns=0.20, N_photoelectrons=800.0,
+            noise_rms_mV=1.0, zero_crossing_slope_V_per_ns=3.0
+        )
+    else:
+        amps = [0.5, 1.0, 2.0, 5.0]
+
+    walk_res = simulate_cfd_walk_elimination(amps, tr_val, f_val, d_val)
+
+    if args.json:
+        import json
+        out = {"cfd_walk_analysis": walk_res}
+        if res_info is not None:
+            out["timing_resolution_budget"] = res_info
+        print(json.dumps(out, indent=2))
+    else:
+        print(format_cfd_report(walk_res, res_info))
+
+
+def cmd_grodzins(args):
+    z_val, a_val = args.Z, args.A
+    be2_val = args.BE2
+    e2_val = args.E2
+
+    if args.preset == "154Sm":
+        z_val, a_val, be2_val, e2_val = 62, 154, 4.35, 82.0
+    elif args.preset == "134Ce":
+        z_val, a_val, be2_val, e2_val = 58, 134, 0.78, 409.2
+    elif args.preset == "132Sn":
+        z_val, a_val, be2_val, e2_val = 50, 132, 0.011, 4041.0
+    elif args.preset == "208Pb":
+        z_val, a_val, be2_val, e2_val = 82, 208, 0.30, 4085.0
+
+    res = invert_beta2_and_quadrupole(z_val, a_val, be2_val, e2_val)
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_grodzins_report(res))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -3425,6 +3499,25 @@ def main():
     p_sen.add_argument("--E-gamma", type=float, default=100.0, help="Gamma energy in keV (default: 100.0)")
     p_sen.add_argument("--json", action="store_true", help="Output pure JSON")
     p_sen.set_defaults(func=cmd_seniority)
+
+    # Constant Fraction Discriminator (CFD) Fast-Timing
+    p_cfd = subparsers.add_parser("cfd", help="Constant Fraction Discriminator (CFD) walk elimination & fast timing (Wu Ch 9 / Wang Ch 8)")
+    p_cfd.add_argument("--preset", type=str, default="labr3_fast_timing", choices=["labr3_fast_timing", "baf2_fast_timing", "hpge_timing", "plastic_scintillator"], help="Benchmark preset")
+    p_cfd.add_argument("--tr", type=float, default=2.0, help="Rise time in ns (default: 2.0)")
+    p_cfd.add_argument("--fraction", type=float, default=0.20, help="CFD fraction f (default: 0.20)")
+    p_cfd.add_argument("--delay", type=float, default=None, help="Delay in ns (default: tr*(1-f))")
+    p_cfd.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_cfd.set_defaults(func=cmd_cfd)
+
+    # Grodzins Product Rule & beta_2 Deformation Inverter
+    p_grod = subparsers.add_parser("grodzins", help="Grodzins product rule, B(E2) to beta2 inversion & pairing MOI reduction (Lu Xiting §8.4)")
+    p_grod.add_argument("--preset", type=str, default="154Sm", choices=["154Sm", "134Ce", "132Sn", "208Pb", "custom"], help="Benchmark preset")
+    p_grod.add_argument("--Z", "-Z", type=int, default=62, help="Proton number Z")
+    p_grod.add_argument("--A", "-A", type=int, default=154, help="Mass number A")
+    p_grod.add_argument("--BE2", type=float, default=4.35, help="B(E2; 0+ -> 2+) in e^2 b^2")
+    p_grod.add_argument("--E2", type=float, default=82.0, help="E(2_1^+) in keV")
+    p_grod.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_grod.set_defaults(func=cmd_grodzins)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

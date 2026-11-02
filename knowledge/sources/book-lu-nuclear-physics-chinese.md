@@ -71,6 +71,7 @@ tags: [books, nuclear-physics, nuclear-structure, chinese-terminology, reaction-
 | LU-6 | 高自旋回弯机制（Backbending）：转动角速度 $\hbar\omega = dE/dI_x$ 与惯量 $2\mathcal{J}/\hbar^2 = [dE/d(I(I+1))]^{-1}$；Coriolis 力的退对作用（CAP）打破高 $j$ 准粒子配对并对齐转轴，导致转动惯量随转动频率急剧回弯。 | model-result | direct | 第 8 章 §8.7, 印刷 pp. 218–220 / PDF pp. 228–230 | false |
 | LU-7 | $\alpha$ 衰变量子穿透与衰变常量：$P = \exp[-2G_0]$，其中 Gamow 因子 $2G_0 = \frac{8(Z-2)\alpha_{\text{em}}}{v/c}[\arccos\sqrt{x_0} - \sqrt{x_0(1-x_0)}]$；衰变常量 $\lambda = \nu P S_\alpha$ 随 $Q_\alpha^{-1/2}$ 呈指数急剧变化，半衰期相差逾 24 个数量级。 | model-result | direct | 第 5 章 §5.3, 印刷 pp. 121–125 / PDF pp. 131–135 | false |
 | LU-8 | 可变转动惯量模型（VMI 模型）：$E(I) = \frac{I(I+1)}{2\mathcal{J}(I)} + \frac{1}{2}C(\mathcal{J}(I)-\mathcal{J}_0)^2$；平衡条件导出三次方程 $\mathcal{J}^3 - \mathcal{J}_0\mathcal{J}^2 = \frac{I(I+1)}{2C}$，以两个参数 $(\mathcal{J}_0, C)$ 精确描述从谐振子极限（$R_{4/2}=2.0$）到刚性转子极限（$R_{4/2}=3.333$）的核芯离心拉伸。 | model-result | direct | 第 8 章 §8.5, 印刷 pp. 212–215 / PDF pp. 222–225 | false |
+| LU-9 | Grodzins 经验乘积定则与形变反演：$E(2_1^+) \cdot B(E2; 0_1^+ \to 2_1^+) \approx 2.57 Z^2 A^{-2/3}\text{ keV}\cdot e^2\text{b}^2$；四极形变参量 $\beta_2 = \frac{4\pi}{3 Z R_0^2}\sqrt{B(E2)/e^2}$ 与内禀四极矩 $Q_0 \approx \sqrt{\frac{16\pi}{5}B(E2)}$；实验转动惯量与刚体惯量之比 $\mathcal{J}_{\text{exp}}/\mathcal{J}_{\text{rig}} \approx 0.3 - 0.55$，宏观证实原子核超流配对。 | model-result | direct | 第 8 章 §8.4, 印刷 pp. 205–212 / PDF pp. 215–222 | false |
 
 ## Competing Interpretations and Limitations
 

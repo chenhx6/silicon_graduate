@@ -6571,3 +6571,34 @@ u}$ zero-crossing detection;
 - Standardized and updated source card `knowledge/sources/book-jain-nuclear-isomers.md` with JAIN-1, JAIN-2, JAIN-3 entries.
 - Added unit test suite `system/tests/test_seniority_scheme_isomer.py` (6 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **102 official analysis modules**, all verified passing in 3.7s.
+
+### Constant Fraction Discriminator (CFD) Amplitude Walk Elimination & Fast-Timing (Module 103) 2026-11-03T05:45:00+08:00
+
+- Integrated Constant Fraction Discriminator (CFD) Amplitude Walk Elimination, Delay Parameter Optimization & Scintillator Fast-Timing Jitter Calculator (`constant_fraction_discriminator_fast_timing_calculator.py`):
+  - Based on 吴治华《原子核物理实验方法》第 9 章 §9.3 (印刷 pp. 235–256 / PDF pp. 243–264), 汪晓莲等《粒子探测技术》第 8 章, and Gedcke & McDonald (1968):
+    * Bipolar CFD zero-crossing equation: $V_{\text{CFD}}(t) = V(t - t_d) - f V(t) = 0$.
+    * Proved that optimum delay $t_d = t_r (1 - f)$ makes the zero-crossing time $t_z$ mathematically invariant under pulse height variations $V_0$.
+    * Simulation across a 10:1 dynamic amplitude range ($0.5\text{ V} \to 5.0\text{ V}$): Leading Edge Discriminator (LED) suffers $292.4\text{ ps}$ of time walk, whereas CFD achieves **$< 0.001\text{ ps}$ time walk (a $> 2.9 \times 10^6$ fold reduction)**.
+    * Evaluated fast-timing resolution budget: scintillation statistics $\sigma_{\text{scint}} = \tau / \sqrt{N_{pe}}$, PMT TTS, and electronic noise slope jitter, modeling sub-nanosecond prompt FWHM in $\text{LaBr}_3(\text{Ce})$ and $\text{BaF}_2$ detectors.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `cfd`.
+- Created concept page: `knowledge/concepts/constant-fraction-discriminator-and-fast-timing-walk-elimination.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-7 entry.
+- Added unit test suite `system/tests/test_constant_fraction_discriminator.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 103.
+
+### Grodzins Product Rule, B(E2) to beta_2 Inversion & Superfluid Pairing MOI Reduction (Module 104) 2026-11-03T06:15:00+08:00
+
+- Integrated Grodzins Product Rule, $B(E2; 0_1^+ \to 2_1^+)$ to Quadrupole Deformation $\beta_2$ Inversion, Intrinsic / Spectroscopic Quadrupole Moments & Superfluid Pairing Reduction Engine (`grodzins_deformation_beta2_quadrupole_inverter.py`):
+  - Based on 卢希庭《原子核物理（修订版）》第 8 章 §8.4 (印刷 pp. 205–212 / PDF pp. 215–222), Bohr & Mottelson Vol. II §4-2, and Raman et al. (2001):
+    * Inverts quadrupole deformation $\beta_2 = \frac{4\pi}{3 Z R_0^2} \sqrt{B(E2)/e^2}$ and intrinsic quadrupole moment $Q_0 \approx \sqrt{\frac{16\pi}{5} B(E2)}$.
+    * Calculates spectroscopic quadrupole moment $Q_s(2_1^+) = -\frac{2}{7} Q_0$, distinguishing prolate ($Q_s < 0$) from oblate ($Q_s > 0$) shapes.
+    * Evaluates Grodzins product $E(2_1^+) \cdot B(E2)$ and dimensionless Grodzins ratio $\mathcal{G} = [E(2^+) B(E2)] / [2.57 Z^2 A^{-2/3}]$.
+    * Quantifies nuclear BCS superfluidity via moment of inertia quenching ratio $\mathcal{J}_{\text{exp}} / \mathcal{J}_{\text{rig}} \approx 0.30 - 0.55$.
+  - Benchmarks:
+    * $^{154}\text{Sm}$ (Prolate rotor benchmark): verified $\beta_2 = 0.3406$ (matching Raman 2001 evaluated $\beta_2 = 0.341$), $Q_0 = 6.613\text{ e}\cdot\text{b}, Q_s(2^+) = -1.889\text{ e}\cdot\text{b}$, Grodzins ratio $\mathcal{G} = 1.037 \approx 1.0$, and pairing reduction $\mathcal{J}_{\text{exp}} / \mathcal{J}_{\text{rig}} = 0.543$.
+    * $^{132}\text{Sn}$ (Doubly magic shell closure): verified $\beta_2 = 0.0235$ (near-spherical), $\mathcal{G} = 0.179$, and $\mathcal{J}_{\text{exp}} / \mathcal{J}_{\text{rig}} = 0.016 \ll 1.0$, confirming the breakdown of collective rotation at magic gaps.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `grodzins`.
+- Created concept page: `knowledge/concepts/grodzins-product-rule-and-quadrupole-deformation-inversion.md`.
+- Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` with LU-9 entry.
+- Added unit test suite `system/tests/test_grodzins_deformation_inverter.py` (5 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **104 official analysis modules**, all verified passing in 4.2s.
