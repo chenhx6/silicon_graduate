@@ -189,6 +189,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py chirmep --preset 134Pr_chira
 python3 system/scripts/analysis/nuclear_analyzer.py tfawalk --preset coaxial_hpge_in_beam_70pct --json
 python3 system/scripts/analysis/nuclear_analyzer.py triaxfus --preset 16O_186W_triaxial_candidate --json
 python3 system/scripts/analysis/nuclear_analyzer.py wobstab --preset 135Pr_transverse_rigid_stable --json
+python3 system/scripts/analysis/nuclear_analyzer.py dsamzbl --preset 130Ba_8plus_in_Au_backing --json
+python3 system/scripts/analysis/nuclear_analyzer.py coexpes --preset 130Ba_triaxial_oblate_coexistence --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

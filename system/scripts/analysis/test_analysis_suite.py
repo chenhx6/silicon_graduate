@@ -190,6 +190,8 @@ from odd_odd_chiral_mep_instanton_tunneling_solver import OddOddChiralMEPInstant
 from in_beam_hpge_tfa_crossover_walk_jitter_optimizer import HPGeTFACrossoverOptimizer
 from heavy_ion_triaxial_fusion_barrier_distribution_inverter import TriaxialFusionBarrierInverter
 from odd_a_transverse_longitudinal_wobbling_stability_solver import OddAWobblingStabilitySolver
+from in_beam_dsam_zbl_stopping_lifetime_inverter import InBeamDSAMZBLInverter
+from cranked_triaxial_shape_coexistence_pes_engine import CrankedShapeCoexistencePESEngine
 
 
 def test_heavy_ion_kinematics():
@@ -2090,6 +2092,29 @@ def test_odd_a_wobbling_stability():
     print("  ✓ odd_a_transverse_longitudinal_wobbling_stability_solver passed.")
 
 
+def test_dsam_zbl_stopping():
+    print("Testing in_beam_dsam_zbl_stopping_lifetime_inverter...")
+    inv = InBeamDSAMZBLInverter(Ar=130, Zr=56, As=197, Zs=79)
+    res = inv.invert_lifetime(0.62, 0.04, 0.05)
+    assert 0.3 < res["tau_level_ps"] < 0.7
+    props = inv.calculate_transition_properties(res["tau_level_ps"], 712.5, 8.0)
+    assert props["B_E2_e2b2"] > 0.5
+    print("  ✓ in_beam_dsam_zbl_stopping_lifetime_inverter passed.")
+
+
+def test_cranked_shape_coexistence_pes():
+    print("Testing cranked_triaxial_shape_coexistence_pes_engine...")
+    shell = [
+        {"name": "Triaxial-Min", "beta": 0.24, "gamma_deg": 24.0, "depth_MeV": -2.6, "w_beta": 0.08, "w_gamma_deg": 12.0},
+        {"name": "Oblate-Min",   "beta": 0.17, "gamma_deg": 58.0, "depth_MeV": -2.8, "w_beta": 0.07, "w_gamma_deg": 10.0}
+    ]
+    engine = CrankedShapeCoexistencePESEngine(C2=15.0, C3=-8.0, C4=25.0, J0=34.0, beta0=0.20, shell_minima=shell)
+    res = engine.evaluate_frequency_evolution([0.0, 0.15, 0.25, 0.35])
+    assert res["has_shape_transition"]
+    assert 0.15 < res["critical_crossing_frequency_omega_cross_MeV"] < 0.35
+    print("  ✓ cranked_triaxial_shape_coexistence_pes_engine passed.")
+
+
 def test_hpge_energy_non_linearity():
     print("Testing hpge_energy_non_linearity_inl_dnl_calibrator...")
     from scipy.interpolate import UnivariateSpline
@@ -2623,4 +2648,6 @@ if __name__ == "__main__":
     test_hpge_tfa_crossover_walk()
     test_triaxial_fusion_barrier()
     test_odd_a_wobbling_stability()
+    test_dsam_zbl_stopping()
+    test_cranked_shape_coexistence_pes()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

@@ -176,6 +176,8 @@ from odd_odd_chiral_mep_instanton_tunneling_solver import run_chiral_mep_analysi
 from in_beam_hpge_tfa_crossover_walk_jitter_optimizer import run_tfa_walk_analysis, format_text_report as format_tfawalk_report, PRESETS as TFAWALK_PRESETS
 from heavy_ion_triaxial_fusion_barrier_distribution_inverter import run_fusion_barrier_analysis, format_text_report as format_triaxfus_report, PRESETS as TRIAXFUS_PRESETS
 from odd_a_transverse_longitudinal_wobbling_stability_solver import run_wobbling_stability_analysis, format_text_report as format_wobstab_report, PRESETS as WOBSTAB_PRESETS
+from in_beam_dsam_zbl_stopping_lifetime_inverter import run_dsam_zbl_analysis, format_text_report as format_dsamzbl_report, PRESETS as DSAMZBL_PRESETS
+from cranked_triaxial_shape_coexistence_pes_engine import run_shape_coexistence_pes_analysis, format_text_report as format_coexpes_report, PRESETS as COEXPES_PRESETS
 
 
 def cmd_kinematics(args):
@@ -4040,6 +4042,46 @@ def cmd_wobstab(args):
         print(format_wobstab_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
 
+def cmd_dsamzbl(args):
+    preset_name = args.preset if args.preset else "130Ba_8plus_in_Au_backing"
+    p = DSAMZBL_PRESETS[preset_name]
+    res = run_dsam_zbl_analysis(
+        recoil_nucleus=p.get("recoil_nucleus", "Generic"),
+        Ar=p["Ar"], Zr=p["Zr"],
+        As=p["As"], Zs=p["Zs"],
+        density_g_cm3=p["stopper_density_g_cm3"],
+        beta_0=p["beta_0"],
+        E_gamma_keV=p["E_gamma_keV"],
+        spin_initial=p["spin_initial"],
+        F_experimental=p["F_experimental"],
+        F_uncertainty=p.get("F_uncertainty", 0.04),
+        side_feeding_tau_ps=p.get("side_feeding_tau_ps", 0.0)
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_dsamzbl_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_coexpes(args):
+    preset_name = args.preset if args.preset else "130Ba_triaxial_oblate_coexistence"
+    p = COEXPES_PRESETS[preset_name]
+    res = run_shape_coexistence_pes_analysis(
+        nucleus=p.get("nucleus", "Generic"),
+        C2=p["C2"], C3=p["C3"], C4=p["C4"],
+        J0=p["J0"],
+        beta0=p.get("beta0", 0.20),
+        shell_minima=p.get("shell_minima"),
+        frequencies_MeV=p.get("eval_frequencies_MeV")
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_coexpes_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5683,6 +5725,20 @@ def main():
                       choices=list(WOBSTAB_PRESETS.keys()), help="Benchmark preset")
     p_ws.add_argument("--json", action="store_true", help="Output pure JSON")
     p_ws.set_defaults(func=cmd_wobstab)
+
+    # In-Beam DSAM ZBL Stopping Lifetime Inverter
+    p_dz = subparsers.add_parser("dsamzbl", help="In-beam DSAM ZBL universal stopping lifetime inverter (Wu Ch 15 / Ziegler ZBL)")
+    p_dz.add_argument("--preset", type=str, default="130Ba_8plus_in_Au_backing",
+                      choices=list(DSAMZBL_PRESETS.keys()), help="Benchmark preset")
+    p_dz.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_dz.set_defaults(func=cmd_dsamzbl)
+
+    # Cranked Shape Coexistence PES Engine
+    p_cp = subparsers.add_parser("coexpes", help="Cranked triaxial shape coexistence PES engine (Bohr Vol 2 / Greiner Ch 8)")
+    p_cp.add_argument("--preset", type=str, default="130Ba_triaxial_oblate_coexistence",
+                      choices=list(COEXPES_PRESETS.keys()), help="Benchmark preset")
+    p_cp.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_cp.set_defaults(func=cmd_coexpes)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")
