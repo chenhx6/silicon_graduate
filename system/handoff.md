@@ -6956,3 +6956,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` with LU-12 entry.
 - Added unit test suite `system/tests/test_spontaneous_fission_action.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **124 official analysis modules**, all verified passing in 2.5s.
+
+### Particle-Triaxial-Rotor Model (PTRM) Diagonalizer (Module 125) 2026-11-03T16:45:00+08:00
+
+- Integrated Full Microscopic Particle-Triaxial-Rotor Model (PTRM) Algebraic Diagonalizer & Wobbling Energy Spectrum Engine (`particle_triaxial_rotor_model_ptrm_diagonalizer.py`):
+  - Based on J. Meyer-ter-Vehn (Nucl. Phys. A 249, 111, 1975), S. Frauendorf & F. Dönau (Phys. Rev. C 89, 014322, 2014), and I. Hamamoto (Phys. Rev. C 65, 044305, 2002):
+    * Constructs full PTRM Hamiltonian $H = \sum_{k=1}^3 \frac{(I_k - j_k)^2}{2\mathcal{J}_k} + H_{\text{sp}}(\beta_2, \gamma)$ in symmetrized $D_2$ basis $|I M K j \Omega, \alpha\rangle$.
+    * Formulates deformed single-$j$ Nilsson quadrupole field with triaxial splitting $C[\cos\gamma(3 j_l^2 - j(j+1)) - \sqrt{3}\sin\gamma(j_s^2 - j_m^2)]$.
+    * Solves tridiagonal matrix elements across $\Delta K = \pm 1, \Delta\Omega = \pm 1$ (Coriolis coupling), $\Delta\Omega = \pm 2$ (single-particle asymmetry), and $\Delta K = \pm 2$ (core asymmetry).
+    * Performs exact algebraic diagonalization across low-to-high spin sequences, extracting yrast ($n_w = 0$), one-phonon ($n_w = 1$), and two-phonon ($n_w = 2$) wobbling bands, eliminating the truncation breakdown of high-spin harmonic approximations at low spins.
+  - Benchmarks:
+    * $^{135}\text{Pr}$ transverse wobbler ($h_{11/2}, \gamma = 26^\circ$): solves spectrum across $I = 11/2 \dots 29/2$, yielding smooth wobbling frequency $\hbar\omega_w \approx 2.7\text{ keV}$ in core units with stable short-axis alignment.
+    * $^{163}\text{Lu}$ triaxial superdeformed multi-phonon wobbler ($i_{13/2}, \gamma = 20^\circ$): accurately reproduces multi-phonon wobbling states $n_w = 0, 1, 2$.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `ptrm`.
+- Created concept page: `knowledge/concepts/particle-triaxial-rotor-model-ptrm-diagonalization.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-6 entry.
+- Added unit test suite `system/tests/test_ptrm_diagonalizer.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 125.
+
+### Digital MWD Deconvolution & Baseline Restorer (BLR) Filter (Module 126) 2026-11-03T17:15:00+08:00
+
+- Integrated Digital Moving Window Deconvolution (MWD), Adaptive Baseline Restorer (BLR) & High-Count-Rate Photopeak Resolution Optimization Suite (`digital_mwd_baseline_restorer_filter.py`):
+  - Based on A. Georgiev & W. Gast (IEEE Trans. Nucl. Sci. 40, 770, 1993), Nakhostin《辐射探测器信号处理》第 4 章 (pp. 182–195), and 吴治华《原子核物理实验方法》第 9 章:
+    * Implements recursive Georgiev-Gast MWD filter: $v_{\text{MWD}}[n] = (v[n] - v[n - M_{\text{win}}]) + \frac{1}{M_{\text{decay}}}\sum_{i = n - M_{\text{win}} + 1}^n v[i]$.
+    * Strictly cancels infinite preamplifier exponential decay tails ($\tau_{\text{pre}} \sim 50\ \mu\text{s}$) into finite rectangular flat-top pulses of width $M_{\text{win}}$.
+    * Convolves with moving average filter of length $L_{\text{smooth}}$ to eliminate high-frequency electronic noise and generate symmetric Jordanov-Knoll trapezoids.
+    * Implements adaptive baseline restorer: tracks quiet-period baseline $\text{BL}[n] = \text{BL}[n-1] + \alpha_{\text{BL}}(v[n] - \text{BL}[n-1])$ and freezes baseline during pulse trigger, recovering true zero-referenced photopeak energy.
+  - Benchmarks:
+    * Standard HPGe $50\text{ kHz}$ high-rate trace: uncompensated pileup error on raw waveform is $707\text{ keV}$; MWD + BLR reduces residual error to $19.9\text{ keV}$ (**$35.5\times$ resolution improvement**).
+    * Close doublet pileup ($2.5\ \mu\text{s}$ separation): recovers second peak with $< 10.5\text{ keV}$ residual error (**$45.4\times$ improvement** over $945\text{ keV}$ raw pileup distortion).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `mwdblr`.
+- Created concept page: `knowledge/concepts/digital-mwd-deconvolution-and-baseline-restoration.md`.
+- Updated source card `knowledge/sources/book-nakhostin-signal-processing-detectors.md` with NAK-6 entry.
+- Added unit test suite `system/tests/test_mwd_baseline_restorer.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **126 official analysis modules**, all verified passing in 2.4s.

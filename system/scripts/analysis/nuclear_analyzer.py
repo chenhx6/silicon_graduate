@@ -142,6 +142,8 @@ from cascade_deorientation_coefficient_uk_calculator import evaluate_cascade_deo
 from mwpc_drift_chamber_field_avalanche_simulator import run_mwpc_simulation, format_text_report as format_mwpc_report, PRESETS as MWPC_PRESETS
 from coriolis_band_mixing_matrix_diagonalizer import run_coriolis_analysis, format_text_report as format_coriolis_report, PRESETS as CORIOLISMIX_PRESETS
 from spontaneous_fission_wkb_action_calculator import run_spontaneous_fission_analysis, format_text_report as format_sf_report, PRESETS as SPONTFISS_PRESETS
+from particle_triaxial_rotor_model_ptrm_diagonalizer import run_ptrm_analysis, format_text_report as format_ptrm_report, PRESETS as PTRM_PRESETS
+from digital_mwd_baseline_restorer_filter import run_mwd_blr_analysis, format_text_report as format_mwd_report, PRESETS as MWD_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3110,6 +3112,91 @@ def cmd_spontfiss(args):
     else:
         print(format_sf_report(res, title=title))
 
+
+def cmd_ptrm(args):
+    if args.preset and args.preset in PTRM_PRESETS:
+        p = PTRM_PRESETS[args.preset]
+        A_mass = p["A_mass"]
+        spins = p["spins"]
+        j_val = p["j_valence"]
+        gamma = p["gamma_deg"]
+        c_quad = p["C_quadrupole_keV"]
+        Js = p["J_s_hbar2_MeV"]
+        Jm = p["J_m_hbar2_MeV"]
+        Jl = p["J_l_hbar2_MeV"]
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        A_mass = args.mass_a if hasattr(args, "mass_a") and args.mass_a else 135
+        spins = [5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5]
+        j_val = args.jval if hasattr(args, "jval") and args.jval else 5.5
+        gamma = args.gamma if hasattr(args, "gamma") and args.gamma else 26.0
+        c_quad = args.cquad if hasattr(args, "cquad") and args.cquad else 35.0
+        Js = args.Js if hasattr(args, "Js") and args.Js else 15.0
+        Jm = args.Jm if hasattr(args, "Jm") and args.Jm else 26.0
+        Jl = args.Jl if hasattr(args, "Jl") and args.Jl else 6.0
+        title = "Custom User Input"
+
+    res = run_ptrm_analysis(
+        A_mass=A_mass,
+        spins=spins,
+        j_val=j_val,
+        J_s=Js,
+        J_m=Jm,
+        J_l=Jl,
+        C_quad=c_quad,
+        gamma_deg=gamma
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_ptrm_report(res, title=title))
+
+
+def cmd_mwdblr(args):
+    if args.preset and args.preset in MWD_PRESETS:
+        p = MWD_PRESETS[args.preset]
+        dt = p["sampling_dt_ns"]
+        tau_pre = p["tau_pre_us"]
+        tau_rise = p["tau_rise_ns"]
+        m_win = p["M_win_us"]
+        l_smooth = p["L_smooth_us"]
+        pulse_starts = p["pulse_starts_us"]
+        true_energies = p["true_energies_keV"]
+        noise = p.get("noise_std_keV", 1.5)
+        drift = p.get("baseline_drift_keV", 30.0)
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        dt = args.dt if hasattr(args, "dt") and args.dt else 10.0
+        tau_pre = args.tau_pre if hasattr(args, "tau_pre") and args.tau_pre else 50.0
+        tau_rise = 40.0
+        m_win = args.m_win if hasattr(args, "m_win") and args.m_win else 3.0
+        l_smooth = args.l_smooth if hasattr(args, "l_smooth") and args.l_smooth else 1.0
+        pulse_starts = [2.0, 7.0]
+        true_energies = [661.7, 1332.5]
+        noise = args.noise if hasattr(args, "noise") and args.noise else 1.5
+        drift = 25.0
+        title = "Custom User Input"
+
+    res = run_mwd_blr_analysis(
+        sampling_dt_ns=dt,
+        tau_pre_us=tau_pre,
+        tau_rise_ns=tau_rise,
+        M_win_us=m_win,
+        L_smooth_us=l_smooth,
+        pulse_starts_us=pulse_starts,
+        true_energies_keV=true_energies,
+        noise_std_keV=noise,
+        baseline_drift_keV=drift
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_mwd_report(res, title=title))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -4470,6 +4557,30 @@ def main():
     p_spf.add_argument("--deltau", type=float, default=2.2, help="Shell correction energy in MeV")
     p_spf.add_argument("--json", action="store_true", help="Output pure JSON")
     p_spf.set_defaults(func=cmd_spontfiss)
+
+    # Particle-Triaxial-Rotor Model (PTRM) Algebraic Diagonalizer
+    p_ptrm = subparsers.add_parser("ptrm", help="Full microscopic particle-triaxial-rotor model (PTRM) diagonalizer (Meyer-ter-Vehn / Frauendorf)")
+    p_ptrm.add_argument("--preset", type=str, default="135Pr_triaxial_wobbler_ptrm", choices=["135Pr_triaxial_wobbler_ptrm", "163Lu_tsw_wobbler_ptrm", "105Pd_triaxial_ptrm", "custom"], help="Benchmark preset")
+    p_ptrm.add_argument("--mass-a", type=int, help="Mass number A")
+    p_ptrm.add_argument("--jval", type=float, default=5.5, help="Valence j")
+    p_ptrm.add_argument("--gamma", type=float, default=26.0, help="Triaxial angle gamma in deg")
+    p_ptrm.add_argument("--cquad", type=float, default=35.0, help="Quadrupole splitting C in keV")
+    p_ptrm.add_argument("--Js", type=float, default=15.0, help="Short axis MOI")
+    p_ptrm.add_argument("--Jm", type=float, default=26.0, help="Intermediate axis MOI")
+    p_ptrm.add_argument("--Jl", type=float, default=6.0, help="Long axis MOI")
+    p_ptrm.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_ptrm.set_defaults(func=cmd_ptrm)
+
+    # Digital MWD & Baseline Restorer (BLR) Filter Engine
+    p_mwd = subparsers.add_parser("mwdblr", help="Digital MWD deconvolution, moving average & adaptive BLR filter (Georgiev-Gast / Nakhostin)")
+    p_mwd.add_argument("--preset", type=str, default="standard_hpge_high_rate", choices=["standard_hpge_high_rate", "close_doublet_pileup", "noisy_weak_line", "custom"], help="Benchmark preset")
+    p_mwd.add_argument("--dt", type=float, default=10.0, help="Sampling period in ns")
+    p_mwd.add_argument("--tau-pre", type=float, default=50.0, help="Preamplifier decay in us")
+    p_mwd.add_argument("--m-win", type=float, default=3.0, help="MWD window in us")
+    p_mwd.add_argument("--l-smooth", type=float, default=1.0, help="Smooth length in us")
+    p_mwd.add_argument("--noise", type=float, default=1.5, help="Noise std in keV")
+    p_mwd.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_mwd.set_defaults(func=cmd_mwdblr)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

@@ -156,6 +156,8 @@ from cascade_deorientation_coefficient_uk_calculator import calculate_single_ste
 from mwpc_drift_chamber_field_avalanche_simulator import calculate_electrostatic_field, run_mwpc_simulation
 from coriolis_band_mixing_matrix_diagonalizer import construct_coriolis_matrix, diagonalize_coriolis_mixing
 from spontaneous_fission_wkb_action_calculator import calculate_sf_hill_wheeler_transmission, calculate_double_hump_sf_half_life
+from particle_triaxial_rotor_model_ptrm_diagonalizer import evaluate_ptrm_matrix_elements, diagonalize_ptrm_spectrum
+from digital_mwd_baseline_restorer_filter import run_mwd_blr_analysis
 
 
 def test_heavy_ion_kinematics():
@@ -1806,6 +1808,22 @@ def test_level_scheme_loop_balancer():
     print("  ✓ level_scheme_loop_residual_intensity_balancer passed.")
 
 
+def test_ptrm_diagonalizer():
+    print("Testing particle_triaxial_rotor_model_ptrm_diagonalizer...")
+    H, basis = evaluate_ptrm_matrix_elements(7.5, 5.5, 15.0, 26.0, 6.0, 35.0, 26.0)
+    assert H.shape[0] > 0
+    traj = diagonalize_ptrm_spectrum([7.5, 8.5], 5.5, 15.0, 26.0, 6.0, 35.0, 26.0)
+    assert len(traj) == 2
+    print("  ✓ particle_triaxial_rotor_model_ptrm_diagonalizer passed.")
+
+
+def test_mwd_baseline_restorer():
+    print("Testing digital_mwd_baseline_restorer_filter...")
+    res = run_mwd_blr_analysis(10.0, 50.0, 30.0, 2.0, 0.8, [3.0, 5.5], [1000.0, 1000.0])
+    assert res["resolution_summary"]["resolution_improvement_factor"] > 10.0
+    print("  ✓ digital_mwd_baseline_restorer_filter passed.")
+
+
 def test_coriolis_band_mixing():
     print("Testing coriolis_band_mixing_matrix_diagonalizer...")
     H, basis = construct_coriolis_matrix(2.5, [0.5, 1.5, 2.5], [0.0, 150.0, 380.0], 13.0, 5.5, a_decouple=-3.5)
@@ -2233,4 +2251,6 @@ if __name__ == "__main__":
     test_mwpc_drift_chamber()
     test_coriolis_band_mixing()
     test_spontaneous_fission_action()
+    test_ptrm_diagonalizer()
+    test_mwd_baseline_restorer()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

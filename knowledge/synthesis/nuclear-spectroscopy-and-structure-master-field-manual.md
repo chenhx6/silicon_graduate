@@ -88,6 +88,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `mwpc` | MWPC 与漂移室共形解析静电场、第一 Townsend 雪崩放大与饱和时空校准曲线 | 假定理想平行丝阵列；极端高计数率（>10^5 Hz/mm）下需引入正离子鞘空间电荷屏蔽修正 |
 | `coriolismix` | 奇 A 变形核多带 Coriolis 耦合矩阵代数对角化、波函数混杂与签名交错度分析 | 假定轴对称拉长转子核心；三轴或超形变大形变核需结合非轴对称推转或三轴粒子转子模型 |
 | `spontfiss` | 重核与超重核双峰势垒自发裂变（SF）WKB 量子穿透作用量积分与半衰期系统学 | 假定一维裂变裂开路径；高维断裂形变与颈缩动力学需结合多维微观自洽 HFB 势能面 |
+| `ptrm` | 粒子-三轴转子模型（PTRM）完全代数对角化、摆动带激发谱与非简谐 R21 提取 | 假定单 j 壳层有效势；多准粒子组态需结合三维倾斜轴推转（TAC）或投影壳模型（TPSM） |
+| `mwdblr` | 数字化移动窗口反褶积（MWD）与自适应基线恢复（BLR）高计数率滤波 | 假定单极性指数前放响应；复杂探测器电荷收集延迟需适度拓宽反褶积平顶 M_win |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -125,6 +127,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py cascadeuk --preset yrast_str
 python3 system/scripts/analysis/nuclear_analyzer.py mwpc --preset standard_mwpc_p10 --json
 python3 system/scripts/analysis/nuclear_analyzer.py coriolismix --preset 159Dy_neutron_i13_2 --json
 python3 system/scripts/analysis/nuclear_analyzer.py spontfiss --preset 238U_spontaneous_fission --json
+python3 system/scripts/analysis/nuclear_analyzer.py ptrm --preset 135Pr_triaxial_wobbler_ptrm --json
+python3 system/scripts/analysis/nuclear_analyzer.py mwdblr --preset standard_hpge_high_rate --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 
