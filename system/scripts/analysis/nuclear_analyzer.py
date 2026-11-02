@@ -148,6 +148,8 @@ from in_beam_fast_timing_gcd_lifetime_calculator import run_fast_timing_gcd_anal
 from chiral_doublet_g_factor_equality_calculator import run_chiral_gfactor_analysis, format_text_report as format_chiralg_report, PRESETS as CHIRALG_PRESETS
 from in_beam_true_coincidence_summing_tcs_calculator import run_tcs_analysis, format_text_report as format_tcs_report, PRESETS as TCS_PRESETS
 from chiral_octupole_quartet_bands_analyzer import run_chiral_octupole_analysis, format_text_report as format_chiroct_report, PRESETS as CHIROCT_PRESETS
+from heavy_ion_optical_rainbow_scattering_analyzer import run_rainbow_analysis, format_text_report as format_rainbow_report, PRESETS as RAINBOW_PRESETS
+from in_beam_time_spectrum_convolution_fitter import run_time_convolution_analysis, format_text_report as format_timefit_report, PRESETS as TIMEFIT_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3386,6 +3388,88 @@ def cmd_chiroct(args):
     else:
         print(format_chiroct_report(res, title=title))
 
+
+def cmd_rainbow(args):
+    if args.preset and args.preset in RAINBOW_PRESETS:
+        p = RAINBOW_PRESETS[args.preset]
+        Ap, Zp, At, Zt = p["Ap"], p["Zp"], p["At"], p["Zt"]
+        Elab = p["Elab_MeV"]
+        l_R = p["l_R"]
+        Delta_th = p["Delta_theta_deg"]
+        sig_l = p["sigma_l"]
+        V0_nom = p.get("V0_nominal_MeV", 125.0)
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        Ap = args.Ap if hasattr(args, "Ap") and args.Ap else 16
+        Zp = args.Zp if hasattr(args, "Zp") and args.Zp else 8
+        At = args.At if hasattr(args, "At") and args.At else 16
+        Zt = args.Zt if hasattr(args, "Zt") and args.Zt else 8
+        Elab = args.Elab if hasattr(args, "Elab") and args.Elab else 350.0
+        l_R = 25.0
+        Delta_th = 65.0
+        sig_l = 10.0
+        V0_nom = 120.0
+        title = "Custom User Input"
+
+    res = run_rainbow_analysis(
+        Ap=Ap, Zp=Zp, At=At, Zt=Zt,
+        Elab_MeV=Elab,
+        l_R=l_R,
+        Delta_theta_deg=Delta_th,
+        sigma_l=sig_l,
+        V0_nom=V0_nom
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_rainbow_report(res, title=title))
+
+
+def cmd_timefit(args):
+    if args.preset and args.preset in TIMEFIT_PRESETS:
+        p = TIMEFIT_PRESETS[args.preset]
+        nucleus = p["nucleus"]
+        tau = p["true_tau_ns"]
+        fwhm = p["true_fwhm_ns"]
+        t0 = p["true_t0_ns"]
+        amp = p["true_amplitude"]
+        bg = p["true_background"]
+        tmin = p["t_min_ns"]
+        tmax = p["t_max_ns"]
+        nbins = p["n_bins"]
+        title = f"Preset: {args.preset} ({p['description']})"
+    else:
+        nucleus = args.nucleus if hasattr(args, "nucleus") and args.nucleus else "Nucleus"
+        tau = args.tau_ns if hasattr(args, "tau_ns") and args.tau_ns else 1.0
+        fwhm = args.fwhm_ns if hasattr(args, "fwhm_ns") and args.fwhm_ns else 0.5
+        t0 = args.t0_ns if hasattr(args, "t0_ns") and args.t0_ns else 1.0
+        amp = 25000.0
+        bg = 15.0
+        tmin = -1.0
+        tmax = tau * 5.0 + 2.0
+        nbins = 120
+        title = "Custom User Input"
+
+    res = run_time_convolution_analysis(
+        nucleus=nucleus,
+        true_tau_ns=tau,
+        true_fwhm_ns=fwhm,
+        true_t0_ns=t0,
+        true_amplitude=amp,
+        true_background=bg,
+        t_min_ns=tmin,
+        t_max_ns=tmax,
+        n_bins=nbins
+    )
+
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_timefit_report(res, title=title))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -4815,6 +4899,27 @@ def main():
     p_choct.add_argument("--charge-z", type=int, help="Atomic number Z")
     p_choct.add_argument("--json", action="store_true", help="Output pure JSON")
     p_choct.set_defaults(func=cmd_chiroct)
+
+    # Heavy-Ion Nuclear Rainbow Scattering & Airy Minima Analyzer
+    p_rb = subparsers.add_parser("optrainbow", help="Heavy-ion optical rainbow scattering & Airy minima inverter (Lin Ch 4 / Bertulani)")
+    p_rb.add_argument("--preset", type=str, default="16O_16O_350MeV", choices=["16O_16O_350MeV", "12C_12C_1016MeV", "alpha_40Ca_104MeV", "custom"], help="Benchmark preset")
+    p_rb.add_argument("--Ap", type=int, help="Projectile A")
+    p_rb.add_argument("--Zp", type=int, help="Projectile Z")
+    p_rb.add_argument("--At", type=int, help="Target A")
+    p_rb.add_argument("--Zt", type=int, help="Target Z")
+    p_rb.add_argument("--Elab", type=float, help="Beam energy in MeV")
+    p_rb.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_rb.set_defaults(func=cmd_rainbow)
+
+    # In-Beam Time Spectrum Gaussian-Exponential Convolution Fitter
+    p_tf = subparsers.add_parser("timefit", help="Time spectrum Gaussian-exponential convolution & lifetime deconvolution (Nakhostin Ch 8 / Wu)")
+    p_tf.add_argument("--preset", type=str, default="181Ta_isomer_decay", choices=["181Ta_isomer_decay", "134Ce_fast_timing_cascade", "prompt_calibration_irf", "custom"], help="Benchmark preset")
+    p_tf.add_argument("--nucleus", type=str, default="181Ta", help="Nucleus name")
+    p_tf.add_argument("--tau-ns", type=float, default=6.05, help="Lifetime in ns")
+    p_tf.add_argument("--fwhm-ns", type=float, default=1.20, help="FWHM in ns")
+    p_tf.add_argument("--t0-ns", type=float, default=2.00, help="Time zero in ns")
+    p_tf.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_tf.set_defaults(func=cmd_timefit)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

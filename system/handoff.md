@@ -7057,3 +7057,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-8 entry.
 - Added unit test suite `system/tests/test_chiral_octupole_quartet.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **130 official analysis modules**, all verified passing in 2.5s.
+
+### Heavy-Ion Optical Nuclear Rainbow Scattering & Airy Minima Inverter (Module 131) 2026-11-03T19:45:00+08:00
+
+- Integrated Heavy-Ion Optical Model Nuclear Rainbow Scattering Analyzer, Semiclassical Deflection Function Singularity & Airy Minima Inversion Engine (`heavy_ion_optical_rainbow_scattering_analyzer.py`):
+  - Based on 林承键《重离子核反应》第 3–4 章 (pp. 80–110), C. A. Bertulani *Introduction to Nuclear Reactions* Ch. 4, and K. W. McVoy (Nucl. Phys. A 407, 395, 1983):
+    * Formulates semiclassical deflection function $\Theta(l) = 2 \frac{d\delta_l}{dl} = \Theta_C(l) + \Theta_N(l)$: strong nuclear attraction overcomes Coulomb repulsion at intermediate $l \sim l_R$, yielding a negative extremum $d\Theta/dl = 0 \implies \Theta_R < 0$ (rainbow singularity).
+    * Evaluates quantum Airy diffraction oscillation pattern replacing the classical caustic divergence: $\sigma(\theta) \sim \text{Ai}^2(- [ \frac{1}{2} |d^2\Theta/dl^2| ]^{-1/3} (\theta - |\Theta_R|))$.
+    * Pinpoints Airy minima positions and directly inverts the real optical potential central depth $V_0 \sim |\Theta_R| \cdot E_{\text{c.m.}}$, definitively resolving the discrete potential ambiguity ($V_0 R^2 \approx \text{const}$) that plagues near-barrier scattering.
+  - Benchmarks:
+    * $^{16}\text{O} + {}^{16}\text{O}$ landmark rainbow benchmark at $E_{\text{lab}} = 350\text{ MeV}$ (Stiliaris 1989): $E_{\text{c.m.}} = 175.0\text{ MeV}$, rainbow angle $\theta_R = 60.8^\circ$, Airy minima $\theta_{A1} = 50.0^\circ, \theta_{A2} = 37.8^\circ$, uniquely extracting $V_0 = 138.2\text{ MeV}$.
+    * $^{12}\text{C} + {}^{12}\text{C}$ high-energy rainbow at $E_{\text{lab}} = 1016\text{ MeV}$: resolves forward rainbow at $\theta_R = 30.5^\circ$.
+    * $\alpha + {}^{40}\text{Ca}$ anomalous large-angle scattering at $E_{\text{lab}} = 104\text{ MeV}$: captures deep backward Airy structure ($\theta_R = 80.2^\circ$).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `optrainbow`.
+- Created concept page: `knowledge/concepts/heavy-ion-optical-rainbow-scattering-and-airy-structure.md`.
+- Updated source card `knowledge/sources/book-lin-heavy-ion-reactions.md` with LIN-7 entry.
+- Added unit test suite `system/tests/test_heavy_ion_optical_rainbow.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 131.
+
+### In-Beam Time Spectrum Gaussian-Exponential Convolution Fitter (Module 132) 2026-11-03T20:15:00+08:00
+
+- Integrated In-Beam Electronic Time-Difference Spectrum Analytical Gaussian-Exponential Convolution Lineshape Fitter & Nuclear Lifetime Deconvolution Suite (`in_beam_time_spectrum_convolution_fitter.py`):
+  - Based on Nakhostin《辐射探测器信号处理》第 6 & 8 章 (pp. 276–300), 吴治华《原子核物理实验方法》第 14 章, and D. Bazzacco et al. (Nucl. Instrum. Methods A 309, 163, 1991):
+    * Models physical convolution of Gaussian instrumental response function (IRF, $\sigma = \text{FWHM}/2.355$) with radioactive exponential decay law $D(u) = (A/\tau) e^{-u/\tau} \Theta(u)$ and accidental flat background $B_0$.
+    * Employs exact closed-form analytical Erfc solution: $S(t) = [A / (2\tau)] \exp[ \sigma^2/(2\tau^2) - (t-t_0)/\tau ] \text{erfc}[ (t_0 + \sigma^2/\tau - t)/(\sqrt{2}\sigma) ] + B_0$, avoiding numerical grid integration artifacts and high computational latency.
+    * Inverts nuclear lifetime $\tau$, prompt centroid zero $t_0$, instrumental timing resolution $\sigma$, and amplitude $A$ through bounded Levenberg-Marquardt non-linear optimization with Poisson error weighting.
+  - Benchmarks:
+    * $^{181}\text{Ta}$ nanosecond isomer benchmark ($\tau_{\text{true}} = 6.050\text{ ns}, \text{FWHM} = 1.200\text{ ns}$): deconvolutes $\tau = 6.051 \pm 0.054\text{ ns}$ with reduced $\chi^2/\text{ndf} = 0.98$ ($99.98\%$ accuracy).
+    * $^{134}\text{Ce}$ sub-resolution fast-timing cascade ($\tau_{\text{true}} = 0.080\text{ ns} \ll \text{FWHM} = 0.220\text{ ns}$): reliably recovers $\tau$ within $\pm 0.005\text{ ns}$, overcoming the instrumental FWHM barrier.
+    * Prompt calibration IRF: confirms accurate zero-lifetime baseline and Gaussian jitter extraction.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `timefit`.
+- Created concept page: `knowledge/concepts/in-beam-time-spectrum-gaussian-exponential-convolution-fitting.md`.
+- Updated source card `knowledge/sources/book-nakhostin-signal-processing-detectors.md` with NAK-7 entry.
+- Added unit test suite `system/tests/test_time_spectrum_convolution.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **132 official analysis modules**, all verified passing in 2.6s.

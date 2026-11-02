@@ -64,6 +64,7 @@ tags: [books, digital-signal-processing, pulse-shaping, hpge-readout, baseline-r
 | NAK-4 | Jordanov 离散递归梯形滤波算法：输入离散采样序列 $v[n]$，梯形上升步长 $k$、平顶步长 $m$，数字极零补偿因子 $M = 1 / (e^{T_s/\tau_{\text{pre}}} - 1)$，通过双级有限差分递归方程 $s[n] = s[n-1] + p[n] + M d^k[n]$ 实现零乘法开销的快速实时成形。 | method/formalism | direct | 第 10 章 §10.2, 印刷 pp. 380–388 / PDF pp. 380–388, 式 (10.12)–(10.16) | false |
 | NAK-5 | 数字化脉冲形状鉴别（PSD）与双门电荷比较法（CCM）：利用闪烁体单重态快成分（$\sim 3.2\text{ ns}$）与三重态慢成分（$\sim 270\text{ ns}$）电荷比值区分快中子与 $\gamma$ 射线；推导短门最佳积分时间 $T_{\text{short}} \approx 15 - 20\text{ ns}$，并建立光电子泊松涨落下分离优值因子 $\text{FOM}(E) = \text{FOM}_0 \sqrt{E / E_0}$ 的能量依赖模型。 | method/formalism | direct | 第 4 章 §4.5, 印刷 pp. 205–218 / PDF pp. 205–218 | false |
 | NAK-6 | 数字化移动窗口反褶积（MWD）与自适应基线恢复（BLR）：基于 Georgiev-Gast 递推算法 $v_{\text{MWD}}[n] = (v[n] - v[n-M]) + \frac{1}{M_{\text{decay}}}\sum v[i]$，将前放无限长指数尾部精确抵消为有限矩形阶梯；结合滑动平均滤波与实时自适应基线跟踪冻结算法，根除高计数率（$> 50\text{ kHz}$）下的脉冲堆积与低频基线漂移，恢复本征 Fano 能量分辨率。 | method/formalism | direct | 第 4 章 §4.4, 印刷 pp. 182–195 / PDF pp. 182–195 | false |
+| NAK-7 | 在束符合时间谱高斯-指数卷积（Gaussian-Exponential Convolution）解析线型与寿命解卷积：当核能级寿命 $\tau \lesssim \text{FWHM}_{\text{IRF}}$ 时，实测时间谱为高斯仪器响应（IRF）与放射性指数衰减定律的连续卷积；闭式解析解 $S(t) = \frac{A}{2\tau} e^{\sigma^2/(2\tau^2) - (t-t_0)/\tau} \text{erfc}(\frac{t_0+\sigma^2/\tau-t}{\sqrt{2}\sigma}) + B_0$ 严格描述了光滑前沿上升、峰位右移与渐近指数斜率，可突破探测器定时分辨率极限无偏反演亚纳秒激发态寿命。 | method/formalism | direct | 第 6 章 §6.3–6.4, 印刷 pp. 276–300 / PDF pp. 276–300 | false |
 
 ## Competing Interpretations and Limitations
 

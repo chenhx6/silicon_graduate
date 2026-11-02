@@ -63,6 +63,7 @@ tags: [books, heavy-ion-reactions, fusion-cross-section, critical-angular-moment
 | LIN-4 | 熔合-裂变演化与准裂变（Quasi-fission）：在重体系中，接触双核系统因受到强库仑排斥力在越过鞍点前即可沿质量不对称自由度重新分离，构成重元素合成中完全熔合截面塌缩的主要机制。 | model-result | direct | 第 7 章 §7.1, 印刷 pp. 177–179 / PDF pp. 187–189, 图 7.1–7.2 | false |
 | LIN-5 | 复合核初态自旋分布与出射道设计：分波截面 $\sigma_\ell = \frac{\pi}{k^2}(2\ell+1)T_\ell$ 构成三角形自旋分布；结合转动液滴模型（RLDM）裂变极限 $\ell_{\text{fiss}} \approx 70\ \hbar$ 与中子蒸发结合能-动能损失（每中子 $\sim 10.5\text{ MeV}$），给出 $A \sim 130$ 区手征与三轴态在束高自旋实验的推荐入射能量 $E_{\text{lab}}^{\text{opt}}(xn)$。 | model-result | direct | 第 6 章 §6.1, 印刷 pp. 136–138 / PDF pp. 146–148 | false |
 | LIN-6 | 深部非弹性散射（DIC）动力学、能量耗散（TKEL）与 Wilczynski 能量-角度关联：在 $\ell_{\text{crit}} < \ell \le \ell_{\text{grazing}}$ 碰撞窗口内，双核摩擦力使质心动能完全松弛降至库仑接触势，粘滞极限（Sticking limit）将相对轨道角动量的 $28\% \sim 48\%$ 转移为碎片内禀自旋（可高达 $60\ \hbar$）；双核绕旋转轴盘旋越过 $0^\circ$ 形成负角偏转分支，在 $(\theta_{\text{obs}}, \text{TKEL})$ 平面构成鸟嘴形 Wilczynski 动力学特征脊线。 | model-result | direct | 第 5 章 §5.1–5.4, 印刷 pp. 110–133 / PDF pp. 120–143 | false |
+| LIN-7 | 重离子核彩虹散射（Nuclear Rainbow Scattering）与 Airy 结构：在中高能弹性散射（$E_{\text{lab}} \ge 10-25\text{ MeV/u}$）中，强吸引核势使半经典偏转函数 $\Theta(l)$ 产生极小值（$d\Theta/dl = 0 \implies \Theta_R < 0$），将经典焦散奇异性转化为量子 Airy 衍射振荡；彩虹角 $\theta_R$ 与 Airy 极小位置直接反演核内部实光学势深度 $V_0$，彻底消除低能区 $V_0 R^2 \approx \text{const}$ 的离散势多重解歧义。 | model-result | direct | 第 3–4 章, 印刷 pp. 80–110 / PDF pp. 90–120 | false |
 
 ## Competing Interpretations and Limitations
 

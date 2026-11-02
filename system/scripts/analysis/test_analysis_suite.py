@@ -162,6 +162,8 @@ from in_beam_fast_timing_gcd_lifetime_calculator import calculate_prf_walk, calc
 from chiral_doublet_g_factor_equality_calculator import calculate_theoretical_chiral_gfactor, arbitrate_chiral_gfactor_equality
 from in_beam_true_coincidence_summing_tcs_calculator import calculate_total_efficiency, calculate_tcs_corrections
 from chiral_octupole_quartet_bands_analyzer import evaluate_quartet_properties
+from heavy_ion_optical_rainbow_scattering_analyzer import calculate_kinematics_and_sommerfeld, find_rainbow_singularity_and_airy_minima
+from in_beam_time_spectrum_convolution_fitter import convoluted_decay_model, fit_convoluted_time_spectrum
 
 
 def test_heavy_ion_kinematics():
@@ -1812,6 +1814,23 @@ def test_level_scheme_loop_balancer():
     print("  ✓ level_scheme_loop_residual_intensity_balancer passed.")
 
 
+def test_heavy_ion_optical_rainbow():
+    print("Testing heavy_ion_optical_rainbow_scattering_analyzer...")
+    kin = calculate_kinematics_and_sommerfeld(16, 8, 16, 8, 350.0)
+    assert kin["E_cm_MeV"] == 175.0
+    res = find_rainbow_singularity_and_airy_minima(kin["sommerfeld_eta"], kin["k_fm_minus1"], 25.0, 70.0, 12.0)
+    assert res["observed_rainbow_angle_deg"] > 50.0
+    print("  ✓ heavy_ion_optical_rainbow_scattering_analyzer passed.")
+
+
+def test_time_spectrum_convolution():
+    print("Testing in_beam_time_spectrum_convolution_fitter...")
+    y = convoluted_decay_model(np.array([0.0, 1.0, 2.0]), 1000.0, 1.0, 0.5, 0.2, 5.0)
+    assert len(y) == 3
+    assert y[1] > y[0]
+    print("  ✓ in_beam_time_spectrum_convolution_fitter passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2304,4 +2323,6 @@ if __name__ == "__main__":
     test_chiral_gfactor_equality()
     test_tcs_coincidence_summing()
     test_chiral_octupole_quartet()
+    test_heavy_ion_optical_rainbow()
+    test_time_spectrum_convolution()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

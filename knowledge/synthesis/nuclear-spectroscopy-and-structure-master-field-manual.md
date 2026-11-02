@@ -94,6 +94,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `chiralg` | 手征双重带磁偶极矩 g 因子相等性定理检验与伪手征伪带排他性仲裁 | 依赖含自旋取向的超精细场或外加磁场 g 因子测量；低自旋大振幅手征振动区需计入量子相干修正 |
 | `tcs` | 在束真符合相加（TCS）全能峰损失修正、相加峰产额与近几何立体角效率计算 | 需结合探测器全相互作用总效率与角关联 W(0)；极远距离低效率下相加修正可忽略 |
 | `chiroct` | 三轴手征与八极反射不对称共存核四重能带（Chiral-Octupole Quartet）动力学分析 | 适用于奇奇核与多准粒子态；弱八极关联下四重带退化为独立手征双带与正负宇称能级 |
+| `optrainbow` | 重离子核彩虹散射半经典偏转函数极小值、Airy 振荡结构与光学势深度反演 | 需高能量克服库仑势垒（E_lab >= 10-25 MeV/u）；强表面吸收可能部分削弱 Airy 极小振幅 |
+| `timefit` | 在束电子学符合时间谱高斯-指数卷积解析线型拟合与激发态寿命解卷积 | 假定单指数核衰变与单高斯时间分辨（IRF）；复杂多路级联或时间抖动非高斯拖尾需多成分拓展 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -137,6 +139,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py gcd --preset 134Ce_fast_timi
 python3 system/scripts/analysis/nuclear_analyzer.py chiralg --preset 128Cs_chiral_doublet_benchmark --json
 python3 system/scripts/analysis/nuclear_analyzer.py tcs --preset 60Co_close_geometry_clover --json
 python3 system/scripts/analysis/nuclear_analyzer.py chiroct --preset 78Br_chiral_octupole_quartet --json
+python3 system/scripts/analysis/nuclear_analyzer.py optrainbow --preset 16O_16O_350MeV --json
+python3 system/scripts/analysis/nuclear_analyzer.py timefit --preset 181Ta_isomer_decay --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 
