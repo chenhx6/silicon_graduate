@@ -174,6 +174,8 @@ from in_beam_array_fold_multiplicity_entry_state_unfolder import calculate_binom
 from chiral_doublet_selection_rules_m1_staggering_arbitrator import calculate_m1_staggering, arbitrate_chiral_selection_rules
 from in_beam_prompt_delayed_time_gating_random_subtractor import calculate_window_width, perform_random_subtraction
 from triaxial_hexadecapole_deformation_wobbling_modifier import calculate_hexadecapole_modified_moi, calculate_wobbling_frequency_with_beta4
+from chiral_vibrational_quartic_schrodinger_diagonalizer import diagonalize_chiral_schrodinger
+from hpge_detector_solid_angle_attenuation_qk_integrator import calculate_solid_angle_attenuation_qk
 
 
 def test_heavy_ion_kinematics():
@@ -1937,6 +1939,21 @@ def test_hexadecapole_wobbling():
     print("  ✓ triaxial_hexadecapole_deformation_wobbling_modifier passed.")
 
 
+def test_chiral_quartic_schrodinger():
+    print("Testing chiral_vibrational_quartic_schrodinger_diagonalizer...")
+    res = diagonalize_chiral_schrodinger(-3.5, 18.0, 12.0)
+    assert res["chiral_splitting_keV"] > 100.0
+    print("  ✓ chiral_vibrational_quartic_schrodinger_diagonalizer passed.")
+
+
+def test_hpge_solid_angle_qk():
+    print("Testing hpge_detector_solid_angle_attenuation_qk_integrator...")
+    res = calculate_solid_angle_attenuation_qk(3.5, 7.0, 15.0, 1332.5)
+    assert res["Q2_attenuation_factor"] > 0.95
+    assert res["Q4_attenuation_factor"] > 0.85
+    print("  ✓ hpge_detector_solid_angle_attenuation_qk_integrator passed.")
+
+
 def test_tcs_coincidence_summing():
     print("Testing in_beam_true_coincidence_summing_tcs_calculator...")
     eps_t = calculate_total_efficiency(0.025, 0.25)
@@ -2441,4 +2458,6 @@ if __name__ == "__main__":
     test_chiral_selection_rules()
     test_prompt_delayed_time_gating()
     test_hexadecapole_wobbling()
+    test_chiral_quartic_schrodinger()
+    test_hpge_solid_angle_qk()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

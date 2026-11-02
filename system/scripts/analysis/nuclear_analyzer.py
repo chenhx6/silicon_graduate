@@ -160,6 +160,8 @@ from in_beam_array_fold_multiplicity_entry_state_unfolder import run_fold_unfold
 from chiral_doublet_selection_rules_m1_staggering_arbitrator import run_chiral_selection_analysis, format_text_report as format_chirrules_report, PRESETS as CHIRRULES_PRESETS
 from in_beam_prompt_delayed_time_gating_random_subtractor import run_prompt_delayed_analysis, format_text_report as format_timegate_report, PRESETS as TIMEGATE_PRESETS
 from triaxial_hexadecapole_deformation_wobbling_modifier import run_hexadecapole_wobbling_analysis, format_text_report as format_hexwob_report, PRESETS as HEXWOB_PRESETS
+from chiral_vibrational_quartic_schrodinger_diagonalizer import run_chiral_schrodinger_analysis, format_text_report as format_chirasch_report, PRESETS as CHIRASCH_PRESETS
+from hpge_detector_solid_angle_attenuation_qk_integrator import run_attenuation_qk_analysis, format_text_report as format_attneqk_report, PRESETS as ATTNEQK_PRESETS
 
 
 def cmd_kinematics(args):
@@ -3702,6 +3704,63 @@ def cmd_hexwob(args):
     else:
         print(format_hexwob_report(res, title=f"Preset: {preset_name} ({p['description']})"))
 
+
+def cmd_chirasch(args):
+    preset_name = args.preset if args.preset else "135Nd_chiral_vibration"
+    p = CHIRASCH_PRESETS[preset_name]
+    res = run_chiral_schrodinger_analysis(
+        nucleus=p["nucleus"],
+        c2_MeV=p["c2_MeV"],
+        c4_MeV=p["c4_MeV"],
+        B_phi=p["B_phi_hbar2_per_MeV"],
+        phi_max_rad=p.get("phi_max_rad", 1.15),
+        n_grid=p.get("n_grid", 300)
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_chirasch_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_attneqk(args):
+    if args.preset and args.preset in ATTNEQK_PRESETS:
+        p = ATTNEQK_PRESETS[args.preset]
+        det = p["detector"]
+        R = p["radius_cm"]
+        L = p["length_cm"]
+        d = p["distance_cm"]
+        E = p["energy_keV"]
+        title = f"Preset: {args.preset} ({p['description']})"
+    elif args.radius and args.length and args.distance and args.energy:
+        det = "Custom-HPGe"
+        R = args.radius
+        L = args.length
+        d = args.distance
+        E = args.energy
+        title = "Custom User Input"
+    else:
+        p = ATTNEQK_PRESETS["standard_coaxial_hpge_15cm"]
+        det = p["detector"]
+        R = p["radius_cm"]
+        L = p["length_cm"]
+        d = p["distance_cm"]
+        E = p["energy_keV"]
+        title = "Default Coaxial HPGe Preset"
+
+    res = run_attenuation_qk_analysis(
+        R_cm=R,
+        L_cm=L,
+        d_cm=d,
+        energy_keV=E,
+        detector=det
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_attneqk_report(res, title=title))
+
 def cmd_selftest(args):
     import subprocess
     from pathlib import Path
@@ -5229,6 +5288,24 @@ def main():
                       choices=list(HEXWOB_PRESETS.keys()), help="Benchmark preset")
     p_hw.add_argument("--json", action="store_true", help="Output pure JSON")
     p_hw.set_defaults(func=cmd_hexwob)
+
+    # Chiral Quartic Double-Well Schrödinger Equation Diagonalizer
+    p_cs = subparsers.add_parser("chirasch", help="Chiral quartic potential 1D Schrödinger diagonalizer (Petrache Ch 2 / Mukhopadhyay)")
+    p_cs.add_argument("--preset", type=str, default="135Nd_chiral_vibration",
+                      choices=list(CHIRASCH_PRESETS.keys()), help="Benchmark preset")
+    p_cs.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_cs.set_defaults(func=cmd_chirasch)
+
+    # HPGe Detector Solid-Angle Geometric Attenuation Factors Q_k Integrator
+    p_aq = subparsers.add_parser("attneqk", help="HPGe detector solid-angle attenuation Q_2, Q_4 integrator (Wu Ch 10 / Krane NIM)")
+    p_aq.add_argument("--preset", type=str, default="standard_coaxial_hpge_15cm",
+                      choices=list(ATTNEQK_PRESETS.keys()), help="Benchmark preset")
+    p_aq.add_argument("--radius", type=float, help="Crystal radius in cm")
+    p_aq.add_argument("--length", type=float, help="Crystal length in cm")
+    p_aq.add_argument("--distance", type=float, help="Distance in cm")
+    p_aq.add_argument("--energy", type=float, help="Energy in keV")
+    p_aq.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_aq.set_defaults(func=cmd_attneqk)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

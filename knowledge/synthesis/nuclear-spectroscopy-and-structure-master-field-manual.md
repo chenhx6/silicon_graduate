@@ -106,6 +106,8 @@ tags: [nuclear-structure, spectroscopy, book-study, scientific-validation]
 | `chirrules` | 手征双重带带内 B(M1) 奇偶交错同相性与带间 Delta I = 0 M1 跃迁极小仲裁 | 需双带精确电磁跃迁几率或分支比测量；低自旋大振幅手征振动区需结合隧穿波函数修正 |
 | `timegate` | 在束多探头阵列瞬发-缓发时间门选与随机符合本底差分扣除 | 假定束流具有稳定 RF 微脉冲结构；极高计数率下需计入相邻束团重叠污染项 |
 | `hexwob` | 非轴对称三轴核十六极形变 beta_4 微扰修正与摆动频率演化求解器 | 适用于高自旋或超形变能带；大振幅非简谐摆动需结合数值薛定谔方程对角化 |
+| `chirasch` | 手征四次双阱势大振幅集体运动 1D 薛定谔方程有限差分对角化求解器 | 采用一维刚性质量参数近似；高自旋多维坐标混合需多维集体哈密顿量扩展 |
+| `attneqk` | HPGe / Clover 探测器有限立体角角分布几何衰减因子 Q_2, Q_4 数值积分 | 假定探测器晶体为圆柱形对称体；前表面不均匀死层或异形切角需 Monte Carlo 补充校准 |
 | `selftest` | 执行软件回归 | 不认证其余未审模块的模型、单位、证据或生产状态 |
 
 ```bash
@@ -161,6 +163,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py foldmult --preset 4pi_bgo_ba
 python3 system/scripts/analysis/nuclear_analyzer.py chirrules --preset 128Cs_chiral_doublet_benchmark --json
 python3 system/scripts/analysis/nuclear_analyzer.py timegate --preset in_beam_134Ce_prompt_random_subtraction --json
 python3 system/scripts/analysis/nuclear_analyzer.py hexwob --preset 163Lu_TSD_positive_beta4 --json
+python3 system/scripts/analysis/nuclear_analyzer.py chirasch --preset 135Nd_chiral_vibration --json
+python3 system/scripts/analysis/nuclear_analyzer.py attneqk --preset standard_coaxial_hpge_15cm --json
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
 

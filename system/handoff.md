@@ -7262,3 +7262,37 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md` with BM2-9 entry.
 - Added unit test suite `system/tests/test_hexadecapole_wobbling.py` (4 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **142 official analysis modules**, all verified passing in 2.7s.
+
+### Chiral Quartic Double-Well Schrödinger Diagonalizer (Module 143) 2026-11-04T01:45:00+08:00
+
+- Integrated Large-Amplitude Chiral Collective Motion (LACM) Quartic Double-Well Potential Numerical 1D Schrödinger Equation Diagonalizer & Tunneling Energy Splitting Engine (`chiral_vibrational_quartic_schrodinger_diagonalizer.py`):
+  - Based on *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 2 (PDF pp. 43–80), Ch. 10 (PDF pp. 222–238), S. Mukhopadhyay et al. (Phys. Rev. Lett. 99, 172501, 2007), and Q. B. Chen et al. (Phys. Rev. C 96, 051303(R), 2017):
+    * Formulates 1D collective chiral Hamiltonian $H = -[\hbar^2/(2 B_\phi)] d^2/d\phi^2 + V(\phi)$ with quartic double-well potential $V(\phi) = \frac{1}{2} c_2 \phi^2 + \frac{1}{4} c_4 \phi^4$.
+    * Replaces semiclassical WKB approximations with exact numerical tridiagonal finite-difference matrix diagonalization.
+    * Computes symmetric ground state $\Psi_0$ (Band 1), antisymmetric excited state $\Psi_1$ (Band 2), exact chiral tunneling splitting $\Delta E_{\text{chir}} = E_1 - E_0$, two-phonon anharmonicity ratio $R_{21} = (E_2 - E_0)/(E_1 - E_0)$, and dipole transition matrix element $M_{01} = \langle 0|\sin\phi|1\rangle$.
+  - Benchmarks:
+    * $^{135}\text{Nd}$ soft-potential chiral vibration: shallow barrier $V_B = 170.1\text{ keV}$ produces large vibrational splitting $\Delta E_{\text{chir}} = 332.5\text{ keV}$ and $R_{21} = 2.87$, precisely capturing the chiral vibration regime.
+    * $^{134}\text{Pr}$ deep double-well static chirality: barrier $V_B = 640.0\text{ keV}$ collapses splitting to $\Delta E_{\text{chir}} = 105.4\text{ keV}$ with $R_{21} = 6.36$.
+    * Harmonic single-well vibrator limit: reproduces harmonic ladder $R_{21} = 2.06 \approx 2.00$ and zero barrier.
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `chirasch`.
+- Created concept page: `knowledge/concepts/chiral-quartic-double-well-schrodinger-diagonalization.md`.
+- Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-12 entry.
+- Added unit test suite `system/tests/test_chiral_quartic_schrodinger.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to include Module 143.
+
+### HPGe Solid-Angle Attenuation Q_k Integrator (Module 144) 2026-11-04T02:15:00+08:00
+
+- Integrated Cylindrical and Clover HPGe Detector Finite Solid-Angle Geometric Attenuation Factors (Q_2, Q_4) Numerical Ray-Tracing & Integration Suite (`hpge_detector_solid_angle_attenuation_qk_integrator.py`):
+  - Based on 吴治华《原子核物理实验方法》第 10 章 §10.3 (pp. 255–265), 汪晓莲《粒子探测技术》第 5 章, M. E. Rose (Phys. Rev. 91, 610, 1953), and K. S. Krane (Nucl. Instrum. Methods 98, 405, 1972):
+    * Evaluates ray path lengths $t(\alpha)$ through cylindrical coaxial and Clover HPGe crystals, distinguishing back-face and side-wall exits.
+    * Computes Rose numerical integrals $J_k = \int P_k(\cos\alpha) \sin\alpha [1 - e^{-\mu_{\text{Ge}} t(\alpha)}] d\alpha$ using energy-dependent NIST XCOM linear attenuation coefficients $\mu_{\text{Ge}}(E_\gamma)$.
+    * Delivers normalized geometric attenuation coefficients $Q_k = J_k / J_0$ ($k = 2, 4$), correcting for the $15\% - 30\%$ systematic attenuation of angular anisotropy in experimental DCO and ADO multipole mixing ratio fits.
+  - Benchmarks:
+    * Standard large coaxial HPGe ($d = 15.0\text{ cm}, E_\gamma = 1332.5\text{ keV}$): evaluates $Q_2 = 0.9701, Q_4 = 0.9027$.
+    * Close-geometry Clover ($d = 10.0\text{ cm}, E_\gamma = 638.0\text{ keV}$): evaluates $Q_2 = 0.9672, Q_4 = 0.8936$.
+    * Far calibration geometry ($d = 50.0\text{ cm}$): approaches unity ($Q_2 = 0.9975, Q_4 = 0.9918$).
+- Integrated into unified CLI `nuclear_analyzer.py` as subcommand `attneqk`.
+- Created concept page: `knowledge/concepts/hpge-solid-angle-geometric-attenuation-qk.md`.
+- Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-15 entry.
+- Added unit test suite `system/tests/test_hpge_solid_angle_qk.py` (4 tests, 100% passing).
+- Expanded `test_analysis_suite.py` regression suite to **144 official analysis modules**, all verified passing in 3.6s.
