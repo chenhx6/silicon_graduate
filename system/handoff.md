@@ -6,7 +6,7 @@ updated: 2026-11-05
 ## Active handoff — 2026-11-05：全库审计与 P-ADO 单点论文候选
 
 - **Current active task**：完成 A≈130 全库审计、创新点筛选和一篇单点论文。goal `01a1a756-e768-7320-bc92-6bff2607f122` 仍 active。
-- **Stable pointer**：当前工作在 `main` 上；本轮已完成 `research: establish A130 paper candidate and audit evidence`、`research: add feeding-mixture control and paper claim ledger`、`research: calibrate alignment coverage across covariance grid`、`research: compare observed discrepancy with calibrated coverage` 与 `research: refine covariance profile resolution` 五个提交，并按精确 `HEAD:main` refspec 发布。后续恢复以 branch + subject 为稳定指针，精确 hash 只写入任务回执。
+- **Stable pointer**：当前工作在 `main` 上；本轮已完成 `research: establish A130 paper candidate and audit evidence`、`research: add feeding-mixture control and paper claim ledger`、`research: calibrate alignment coverage across covariance grid`、`research: compare observed discrepancy with calibrated coverage`、`research: refine covariance profile resolution` 与 `research: compile and inspect EPJA manuscript draft` 六个提交，并按精确 `HEAD:main` refspec 发布。后续恢复以 branch + subject 为稳定指针，精确 hash 只写入任务回执。
 - **Completed**：
   - 读取 README、knowledge/index、profile、memory、handoff、PLAN、路径契约、自治研究、归档规则和相关 skills；
   - 盘点全库：约 4,030 个 raw 文件、1,367 个 knowledge 文件；完成 A≈130 source/project/research-note inventory；
@@ -41,7 +41,7 @@ updated: 2026-11-05
   - `python3 system/scripts/wiki_archive_gate.py check --root . --changed` exit 0, 0 failures;
   - `python3 system/scripts/analysis/test_analysis_suite.py` exit 0, regression checks passed;
   - new P-ADO scripts compile with `py_compile`, profile/coverage/figure commands and deterministic output validation rerun successfully;
-  - LaTeX compiler is unavailable in the runtime, so `main.tex` syntax is statically checked but PDF compilation remains unverified.
+  - the default LaTeX toolchain was unavailable, so a temporary Tectonic `0.17.0` binary was downloaded under `tmp/` and successfully compiled the Springer Nature draft to a seven-page A4 `main.pdf`; all pages were rendered and visually checked. Underfull-vbox warnings remain recorded in `analysis/results/compile-record.json`.
 - **Next prompt**：继续 P-ADO paper self-audit：加入 feeding-aware negative-control model、coverage sensitivity and source manifest; then prepare final claim-to-locator table and decide whether EPJA Regular Article threshold is met. Keep `133Ce` secondary until response/holdout/data-release gates close.
 
 ## Active checkpoint — 2026-11-04：Casten 译本最终精修

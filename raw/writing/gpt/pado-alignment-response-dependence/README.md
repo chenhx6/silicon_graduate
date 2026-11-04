@@ -20,6 +20,8 @@ wobbling, chirality, tilted-precession and signature-partner studies.
 - `sources/`: claim-to-locator and source manifest;
 - `sources/claim-ledger.md`: paper-use P0/P1 claim audit;
 - `main.tex`, `references.bib`: created after the evidence and journal gates.
+- `main.pdf`: locally compiled seven-page draft using Tectonic 0.17.0 and the
+  Springer Nature `sn-jnl` class; author metadata remains a placeholder.
 
 The old `a130-triaxial` package remains a separate legacy audit case and is not
 used as the manuscript structure or as an unverified numerical source.

@@ -21,6 +21,14 @@ python3 raw/writing/gpt/pado-alignment-response-dependence/figures/made/generate
 python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/validate_outputs.py
 ```
 
+The manuscript was compiled with the temporary Linux x86_64 Tectonic 0.17.0
+binary into `main.pdf`. The compiler emitted underfull-vbox layout warnings but
+completed successfully; the seven-page PDF was visually inspected. The
+Tectonic binary and cache remain under `tmp/` and are not part of the article
+package.
+
+The exact compiler/output record is in `results/compile-record.json`.
+
 The coverage run uses random seed `20261105`. The profile is a table-level
 Gaussian sensitivity analysis. It does not reconstruct source event counts,
 detector response, or the missing row-internal covariance.
