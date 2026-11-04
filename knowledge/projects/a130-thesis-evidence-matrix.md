@@ -155,5 +155,12 @@ A new line or energy-sum closure may strengthen placement. It cannot by itself p
    - 严禁将 Joss 1998 的高自旋常规三轴带四极矩或 Hauschild 1995 的超形变四极矩（$Q_t \approx 7.5\text{ eb}$）跨带平移给未测寿命的候选带。
 
 3. **$^{133}\text{Ce}$ Band 4 跨带混合比自旋演化与集体 $E2$ 猝灭**：
-   - 定量提取证明：跨带连接跃迁的 $E2$ 光子份额从 $13/2^-$ 态的 $69.2\%$ 断崖式急剧骤降至 $17/2^-$ 态的 $23.2\%$，并在 $19/2^-$ 态塌缩至 $2.8\%$（$M1$ 份额上升至 $97.2\%$）；
-   - 微观转动对齐图景：核芯转动角动量 $R$ 随自旋单调增大驱动总角动量向转轴对齐，波函数重叠迅速收缩猝灭了集体跨带电四极跃迁，而单粒子磁偶极算符稳定激活；该猝灭排他性排除了 wobbling 模式（要求全程 $E2$ 占优），确立了单准粒子倾斜进动（TiP）轨道激发解释。
+   - workbook-derived quantities show a decrease of the interband $E2$ photon
+     fraction from the \(13/2^-\) entry through the \(17/2^-\) and \(19/2^-\)
+     entries, with the last selected line M1-dominated; these values remain
+     conditional on the workbook's \(\delta\), gate, feeding, efficiency and
+     covariance conventions;
+   - this trend is consistent with a signature/realignment or TiP-like
+     interpretation under the declared model, but it does not by itself exclude
+     wobbling or establish a unique orbital mechanism. Event-level response,
+     producer lineage and an independent holdout remain required.
