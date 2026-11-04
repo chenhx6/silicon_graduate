@@ -10,7 +10,13 @@ python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/coverage_che
   --n-toys 1000 \
   --output raw/writing/gpt/pado-alignment-response-dependence/analysis/results/coverage.json
 
+python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/coverage_grid.py \
+  --n-toys 1000 \
+  --output raw/writing/gpt/pado-alignment-response-dependence/analysis/results/coverage-grid.json
+
 python3 raw/writing/gpt/pado-alignment-response-dependence/figures/made/generate_figures.py
+
+python3 raw/writing/gpt/pado-alignment-response-dependence/figures/made/generate_coverage_grid.py
 
 python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/validate_outputs.py
 ```

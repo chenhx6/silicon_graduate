@@ -6,7 +6,7 @@ updated: 2026-11-05
 ## Active handoff — 2026-11-05：全库审计与 P-ADO 单点论文候选
 
 - **Current active task**：完成 A≈130 全库审计、创新点筛选和一篇单点论文。goal `01a1a756-e768-7320-bc92-6bff2607f122` 仍 active。
-- **Stable pointer**：当前工作在 `main` 上；本轮已完成 `research: establish A130 paper candidate and audit evidence` 与 `research: add feeding-mixture control and paper claim ledger` 两个提交，并按精确 `HEAD:main` refspec 发布。后续恢复以 branch + subject 为稳定指针，精确 hash 只写入任务回执。
+- **Stable pointer**：当前工作在 `main` 上；本轮已完成 `research: establish A130 paper candidate and audit evidence`、`research: add feeding-mixture control and paper claim ledger` 与 `research: calibrate alignment coverage across covariance grid` 三个提交，并按精确 `HEAD:main` refspec 发布。后续恢复以 branch + subject 为稳定指针，精确 hash 只写入任务回执。
 - **Completed**：
   - 读取 README、knowledge/index、profile、memory、handoff、PLAN、路径契约、自治研究、归档规则和相关 skills；
   - 盘点全库：约 4,030 个 raw 文件、1,367 个 knowledge 文件；完成 A≈130 source/project/research-note inventory；
@@ -23,7 +23,8 @@ updated: 2026-11-05
   - energy model slope `0.005280` per 10 MeV, no AIC/BIC support over shared at center contract;
   - minimal direct/cascade mixture negative control: `r_direct=0.195230`, `r_cascade=0.365900`, `weight_direct=0.530370`; AIC/BIC are worse than shared at the center contract;
   - 1000 shared-null pseudo-experiments with `r=0.28`, `rho=0`, seed `20261105`: max-row statistic below single-row `q95=5.9915` in `0.654` of toys; empirical 95th percentile `10.0142`;
-  - `sources/claim-ledger.md` now lists P0/P1 paper-use claims and their evidence boundaries;
+  - \(5\times5\) true-\(r\)/true-\(\rho\) coverage grid: matched-covariance coverage `0.616--0.678`; forcing fit \(\rho=0\) under nonzero true correlation can lower coverage to about `0.52`;
+  - `sources/claim-ledger.md` now lists P0/P1 paper-use claims and their evidence boundaries; `coverage-grid.json` and `coverage_grid.pdf/png` are included in the paper package;
   - interpretation is conditional table-level calibration/identifiability, not experimental significance, event-level reanalysis or universal P-ADO invalidation.
 - **Secondary `133Ce` boundary**：
   - South Africa archive contains readable ROOT/m4b matrices, workbooks, calibration and sorter material, but no event list, no complete `polarization.xlsx`, no absolute lifetime input, and no producer-level response covariance;

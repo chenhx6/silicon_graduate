@@ -86,6 +86,12 @@ parametric pseudo-experiments，最大 row-wise `D^2` 小于单行二维
 单行二维阈值不能直接当作十行 maximum statistic 的 family-wise 95% threshold；
 该结果是声明过的 toy coverage 检查，不是实验 p-value。
 
+扩展到 true \(r\in\{0.10,0.20,0.28,0.40,0.60\}\) 和 true
+\(\rho\in\{-0.6,-0.3,0,0.3,0.6\}\) 的 \(5\times5\) 网格后，matched-covariance
+coverage 为约 `0.616--0.678`；当数据具有非零 \(\rho\) 而拟合强制
+\(\rho=0\) 时，coverage 最低约 `0.52`。这把单点 coverage 结果升级为
+统计门限对真实 alignment 和 covariance misspecification 的敏感性证据。
+
 ## Planned tests
 
 1. Rebuild the ten-row fixture from the original Table 1 and correct reaction/

@@ -123,6 +123,28 @@ We generated 1000 pseudo-experiments from the shared model with \(r=0.28\), \(\r
 
 This result does not rescue the shared model for the observed table. It changes the interpretation of a nominal threshold: applying a single-row 95\% contour to the maximum over ten rows is not a 95\% family-wise test. A publication-level rejection or acceptance statement requires a predeclared family-wise statistic, an event-level likelihood, or a coverage-calibrated test.
 
+\subsection{Coverage sensitivity to the true alignment and covariance}
+
+We extended the toy study over five true values of \(r\) from 0.10 to 0.60 and
+five true row correlations from \(-0.6\) to \(0.6\), with 1000 pseudo-experiments
+per cell. When the fitted covariance matched the generating covariance, the
+empirical coverage of the single-row threshold ranged from 0.616 to 0.678.
+When the data were generated with a nonzero correlation but the fit forced
+\(\rho=0\), the coverage fell as low as 0.52 for negative correlations and
+0.58 for several positive-correlation cells. The nominal threshold is therefore
+not stable under either the ten-row maximum operation or modest covariance
+misspecification.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/coverage_grid.pdf}
+\caption{Coverage of the single-row two-dimensional threshold for the maximum
+over ten rows in a \(5\times5\) toy grid. The left panel uses the generating
+correlation in the fit; the right panel forces \(\rho=0\) while varying the
+generating correlation. Values are empirical fractions from 1000 toys per cell.}
+\label{fig:coverage-grid}
+\end{figure}
+
 \section{Implications for A\(\approx130\) collective-mode spectroscopy}
 
 The benchmark has a direct methodological consequence for A\(\approx130\) studies. ADO, DCO, polarization, and mixing-ratio analyses often combine information from different reaction conditions or inherit an alignment width from a reference transition. Zobel's experiment provides the physical reason to question that transfer: direct feeding and cascade feeding can change with projectile and beam energy \cite{Zobel1983}. The present calculation adds a quantitative layer by showing that the shared-response assumption can fail at the level of a multi-row observable vector, while a naive single-row threshold can have poor family-wise coverage.
@@ -133,7 +155,7 @@ The result does not select wobbling, tilted precession, chirality, or signature-
 
 The missing row covariance is the dominant limitation. The table contains fitted coefficients, not raw spectra, so the present analysis cannot recover the covariance from first principles. The Gaussian population is also only one response model; a direct-plus-cascade mixture could explain part of the row-to-row variation. The energy-dependent and family models are descriptive alternatives, not validated feeding calculations.
 
-The next decisive test is a blind, event-level analysis with at least one pure-\(E2\) calibration line and several mixed transitions from the same acquisition. It should use the raw angular counts, on/off or sideband background terms, detector response, and a holdout transition. Pseudo-experiment coverage must be checked before a likelihood-ratio threshold is interpreted as a mode-selection significance.
+The next decisive test is a blind, event-level analysis with at least one pure-\(E2\) calibration line and several mixed transitions from the same acquisition. It should use the raw angular counts, on/off or sideband background terms, detector response, and a holdout transition. Pseudo-experiment coverage must be checked before a likelihood-ratio threshold is interpreted as a mode-selection significance. The present grid is a calibration sensitivity study, not a substitute for that event-level test.
 
 \section{Conclusions}
 
@@ -145,7 +167,10 @@ The normalized ten-row benchmark table and all derived analysis outputs are incl
 
 \section*{Code availability}
 
-The profile and coverage scripts are included under `analysis/` in this manuscript package. They use Python, NumPy, SciPy, and the fixed random seed recorded in the JSON result. The outputs are table-level analyses and are not an event-level detector-response reanalysis.
+The profile, single-point coverage, and coverage-grid scripts are included under
+`analysis/` in this manuscript package. They use Python, NumPy, SciPy, and the
+fixed random seeds recorded in the JSON results. The outputs are table-level
+analyses and are not an event-level detector-response reanalysis.
 
 \bibliography{references}
 
