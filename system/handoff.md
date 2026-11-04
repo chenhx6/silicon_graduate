@@ -12,7 +12,7 @@ updated: 2026-11-05
 - **Stable pointer**：当前工作在 `main` 上；最新已发布 subject 为 `research: update public release handoff pointer`。本轮还完成 `research: add PADO public release manifest`、`research: record PADO lineage and release gates`、`research: harden A130 P-ADO paper and record model audit`、`research: establish A130 paper candidate and audit evidence`、`research: add feeding-mixture control and paper claim ledger`、`research: calibrate alignment coverage across covariance grid`、`research: compare observed discrepancy with calibrated coverage`、`research: refine covariance profile resolution`、`research: compile and inspect EPJA manuscript draft`、`research: audit source covariance boundary and finalize draft` 与 submission-readiness audit，并按精确 `HEAD:main` refspec 发布。后续恢复以 branch + subject 为稳定指针，精确 hash 只写入任务回执。
 - **Completed**：
   - 读取 README、knowledge/index、profile、memory、handoff、PLAN、路径契约、自治研究、归档规则和相关 skills；
-  - 盘点全库：约 4,030 个 raw 文件、1,367 个 knowledge 文件；完成 A≈130 source/project/research-note inventory；
+  - 盘点全库：约 4,088 个 raw 文件、1,358 个 knowledge 文件；完成 A≈130 source/project/research-note inventory；
   - 审计 `raw/writing/gpt/a130-triaxial/`，确认旧稿正文、CSV、图和代码存在多套不一致数字、错误 source identity、未闭合 partner evidence 和不可重建的 figure cache；已将其降格为素材/失败案例；
   - 修正 `133Ce` 研究笔记中“证明/决定性证伪”等超过 partial-L4 边界的措辞；
   - 修正 Casten 中文译本 source 的缺失归档路径，改为当前存在文件并记录实测 SHA-256；archive gate 已恢复 0 failures；
@@ -43,7 +43,7 @@ updated: 2026-11-05
   - P1: all final paper claims require source locator and targeted user confirmation under paper evidence gate.
 - **Validation**：
   - `python3 system/scripts/wiki_boundary_check.py --root .` exit 0;
-  - `python3 system/scripts/wiki_lint.py --fail-on error` exit 0, 0 errors, 615 warnings, 5306 claim-needs-review info;
+  - `python3 system/scripts/wiki_lint.py --fail-on error` exit 0, 0 errors, 616 warnings, 5306 claim-needs-review info;
   - `python3 system/scripts/wiki_archive_gate.py check --root . --changed` exit 0, 0 failures;
   - `python3 system/scripts/analysis/test_analysis_suite.py` exit 0, regression checks passed;
   - new P-ADO scripts compile with `py_compile`, profile/coverage/figure commands and deterministic output validation rerun successfully;
