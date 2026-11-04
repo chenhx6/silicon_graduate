@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [triaxiality, davydov-filippov, wobbling-motion, transverse-wobbling, longitudinal-wobbling, particle-rotor-model, high-spin, electromagnetic-transitions, false-wobbling-falsification]
+tags: [triaxiality, davydov-filippov, wobbling-motion, transverse-wobbling, longitudinal-wobbling, particle-rotor-model, high-spin, electromagnetic-transitions, false-wobbling-falsification]
 ---
 
 # Davydov-Filippov三轴不对称转子模型、横向与纵向摆动（Wobbling）运动微观动力学
 
-## 1. 物理全景：从刚性三轴转动到量子单核子耦合摆动
+## Definition
+
+### 物理全景：从刚性三轴转动到量子单核子耦合摆动
 
 在低能核结构中，原子核的三轴非对称形变（Triaxial Deformation, $\gamma \ne 0^\circ, 60^\circ$）打破了轴对称转动的 $K$ 量子数守恒，使得原子核在三个主轴方向具有三个互不相等的转动惯量 $\mathcal{J}_1 \ne \mathcal{J}_2 \ne \mathcal{J}_3$。
 这种空间几何对称性的破坏，导致了两种极其独特、具有排他性拓扑印记的集体激发模式：
@@ -25,7 +27,9 @@ topics: [triaxiality, davydov-filippov, wobbling-motion, transverse-wobbling, lo
 
 ---
 
-## 2. Davydov-Filippov 偶偶核刚性三轴转子严格理论
+## Necessary Assumptions
+
+### Davydov-Filippov 偶偶核刚性三轴转子严格理论
 
 ### (1) 哈密顿量与流体力学转动惯量
 刚性三轴转子哈密顿量：
@@ -62,7 +66,13 @@ $$\frac{B(E2; 2_2^+ \to 2_1^+)}{B(E2; 2_1^+ \to 0_1^+)} = \frac{10}{7} \frac{\fr
 
 ---
 
-## 3. Frauendorf-Dönau 奇 $A$ 核量子微观摆动模型
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### Frauendorf-Dönau 奇 $A$ 核量子微观摆动模型
 
 在奇 $A$ 核中，一个高 $j$ 准粒子（如 $A \approx 130$ 区的质子 $h_{11/2}$ 或中子 $i_{13/2}$）与三轴转子发生非线性耦合。
 哈密顿量为：
@@ -140,7 +150,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py wobbling \
 
 ---
 
-## 6. 与相关前沿概念的交叉引用
-- [[nuclear-chirality-and-chiral-doublet-bands]]：三轴原子核在三个主轴上角动量投影不同是手征双重带与摆动运动的共同物理母体；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[nuclear-chirality-and-wobbling-triaxial-foundations]]：三轴原子核在三个主轴上角动量投影不同是手征双重带与摆动运动的共同物理母体；
 - [[signature-inversion-and-triaxial-pn-interaction]]：签名反转与摆动运动中哥氏力引起的能级移动相互交织；
 - [[triaxial-projected-shell-model-microscopic-dynamics]]：TPSM 从微观 Nilsson+配对+四极力哈密顿量中直接投影出刚性/软性三轴带。

@@ -1,0 +1,42 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "核对 BM-II Regge 轨迹后续说明和附录 4A 粒子–转子/Coriolis 接口",
+  "source": {
+    "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+    "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+    "scope": "Rendered verification of PDF pp. 219-230 / printed pp. 197-208 selected pages",
+    "evidence_route": "native text extraction plus rendered page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/bm2-particle-rotor-adiabatic-coriolis-contract.md",
+      "reason": "particle-rotor, adiabatic, Coriolis, recoil and inertia-renormalization contract"
+    },
+    {
+      "path": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "reason": "BM2-21 and BM2-22 direct claims plus expanded selected-page scope"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the BM-II particle-rotor appendix method"
+    }
+  ],
+  "source_locators": [
+    "PDF pp. 219-220 / printed pp. 197-198, Fig. 4-34 and Regge continuation",
+    "PDF pp. 221-224 / printed pp. 199-202, Eqs. 4A-1 to 4A-10",
+    "PDF p. 225 / printed p. 203, Eqs. 4A-13 to 4A-15",
+    "PDF pp. 226-229 / printed pp. 204-207, Eqs. 4A-16 to 4A-28",
+    "PDF p. 230 / printed p. 208, Eqs. 4A-29 to 4A-32"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "boundary": [
+      "selected BM-II appendix pages only",
+      "axisymmetric particle-rotor baseline, not full triaxial QTR/TAC/TPSM",
+      "Coriolis and inertia-renormalization results are model statements"
+    ]
+  }
+}

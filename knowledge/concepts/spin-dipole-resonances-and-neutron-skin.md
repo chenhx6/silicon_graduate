@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [spin-dipole-resonance, sdr, sum-rules, neutron-skin-thickness, charge-exchange, 208pb, isovector-modes, multipole-decomposition]
+tags: [spin-dipole-resonance, sdr, sum-rules, neutron-skin-thickness, charge-exchange, 208pb, isovector-modes, multipole-decomposition]
 ---
 
 # 核自旋-偶极巨共振（SDR）、0-、1-、2-多极分解与中子皮厚度求和规则动力学
 
-## 1. 物理全景：利用电荷交换巨共振称量原子核中子皮厚度
+## Definition
+
+### 物理全景：利用电荷交换巨共振称量原子核中子皮厚度
 
 原子核中质子密度分布主要受电磁库仑相互作用与点电荷半径支配，可通过高能电子弹性散射（如 SLAC / JLab / MAMI）以优于 $1\%$ 的超高精度精确测定。
 然而，**中子由于不带电荷，其中子密度分布与均方根半径 $\langle r_n^2 \rangle^{1/2}$ 的测量是现代核物理最具挑战性的难题之一**。
@@ -23,7 +25,9 @@ topics: [spin-dipole-resonance, sdr, sum-rules, neutron-skin-thickness, charge-e
 
 ---
 
-## 2. 严格算符代数与 SDR 模型无关求和定则
+## Necessary Assumptions
+
+### 严格算符代数与 SDR 模型无关求和定则
 
 ### (1) 自旋-偶极（SDR）电荷交换算符
 SDR 跃迁同时改变轨道角动量（$\Delta L = 1$）、自旋（$\Delta S = 1$）与同位旋（$\Delta T = 1$），在空间上激发负宇称激发态。
@@ -68,7 +72,13 @@ $$B(0^-) : B(1^-) : B(2^-) = 1 : 3 : 5$$
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/spin_dipole_resonance_sdr_calculator.py`
@@ -92,6 +102,19 @@ python3 system/scripts/analysis/nuclear_analyzer.py sdr -Z 82 -A 208 --s-minus 1
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[gamow-teller-resonance-ikeda-sum-rule-and-ga-quenching]]：Ikeda 求和定则针对无空间节点标量算符（$L=0$），而此处 SDR 针对空间偶极激发算符（$L=1$）；
-- [[dipole-polarizability-neutron-skin-and-eos]]：电偶极极化率 $\alpha_D$ 提供了电磁光电层面的中子皮约束，与此处强相互作用 SDR 构成了相互印证的闭环。
+- [[electric-dipole-polarizability-neutron-skin-and-eos]]：电偶极极化率 $\alpha_D$ 提供了电磁光电层面的中子皮约束，与此处强相互作用 SDR 构成了相互印证的闭环。

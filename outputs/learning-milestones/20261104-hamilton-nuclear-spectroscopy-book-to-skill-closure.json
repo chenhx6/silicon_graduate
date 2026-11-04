@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-11-04",
+  "task": "hamilton-nuclear-spectroscopy-book-to-skill-delivery",
+  "sources": [
+    {
+      "title": "The Electromagnetic Interaction in Nuclear Spectroscopy",
+      "editor": "W. D. Hamilton",
+      "path": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "archive_required": true,
+      "raw_unchanged": true
+    }
+  ],
+  "skill_root": ".agents/skills/hamilton-nuclear-spectroscopy",
+  "skill_files": [
+    ".agents/skills/hamilton-nuclear-spectroscopy/SKILL.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/glossary.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/patterns.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/cheatsheet.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch11-multipole-fields-and-transition-probabilities.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch12-cascade-deorientation-uk-coefficients.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch12-directional-distributions-and-orientation-tensors.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch14-directional-correlations-and-dco-formalism.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch15-linear-polarization-and-compton-polarimetry.md",
+    ".agents/skills/hamilton-nuclear-spectroscopy/chapters/ch15-mixing-ratio-dual-root-and-profile-fitting.md"
+  ],
+  "chapter_count": 6,
+  "study_focus": [
+    "multipole expansion of electromagnetic radiation fields and Weisskopf single-particle units",
+    "directional distribution theory, axial orientation tensors B_k(I), and F_k geometric coefficients",
+    "cascade deorientation U_k coefficients and orientation product theorem for unobserved feeding",
+    "directional correlations (DCO/ADO) and gated multi-detector coincidence ratios",
+    "Compton linear polarimetry, Klein-Nishina scattering, parity selection rules, and Q(E) sensitivity",
+    "multipole mixing ratio delta dual-root quadratic equation, arctan(delta) grid scanning, and profile errors"
+  ],
+  "evidence_boundary": "AI-generated skill extraction and cross-linking; chapter locators are study navigation aids and do not replace page-level human review for publication claims.",
+  "status": "complete"
+}

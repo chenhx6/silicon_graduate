@@ -11,7 +11,9 @@ tags: [in-beam-spectroscopy, angular-distribution, directional-correlation, deor
 
 # Unobserved cascade deorientation coefficients U_k and attenuated directional correlations
 
-## Definition and Physical Origin
+## Definition
+
+### Definition and Physical Origin
 
 In in-beam $\gamma$-ray spectroscopy, nuclear reactions (such as heavy-ion fusion-evaporation) produce residual nuclei with high degrees of spin alignment along the plane perpendicular to the beam axis. The orientation of the state $I_1$ is described by the statistical orientation tensor $B_k(I_1)$ ($k = 0, 2, 4$).
 
@@ -69,8 +71,36 @@ Failing to account for $\mathcal{U}_k$ in experimental analysis leads to underes
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Hamilton, W. D.**: *The Electromagnetic Interaction in Nuclear Spectroscopy*, North-Holland (1975), Chapter 14 (Directional Correlations of Gamma Rays), pp. 580–625.
 - **Wu Zhihua (吴治华)**: *Methods of Nuclear Physics Experiments* (《原子核物理实验方法》), Fudan University Press (1995), Chapter 10 §10.3.
 - **Krane, K. S., Steffen, R. M. & Wheeler, R. M.**: *Directional correlations of gamma rays emitted from oriented nuclei*, Nuclear Data Tables 11, 351–406 (1973).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

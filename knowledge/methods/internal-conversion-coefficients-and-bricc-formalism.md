@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "原子核内转换系数（ICC）、多极性鉴别与 BrIcc 参数化计算指南"
 aliases: [内转换系数, ICC计算指南, BrIcc参数化, 转换电子谱学, 内转换多极性鉴别]
 created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [internal-conversion, bricc, icc, multipolarity-assignment, conversion-electrons, intensity-balance]
+tags: [internal-conversion, bricc, icc, multipolarity-assignment, conversion-electrons, intensity-balance]
 ---
 
 # 原子核内转换系数（ICC）、多极性鉴别与 BrIcc 参数化计算指南
 
-## 1. 物理全景：光子发射与电子内转换的电磁竞争
+## Purpose
+
+### 物理全景：光子发射与电子内转换的电磁竞争
 
 原子核激发态退激时，核内质子与中子波函数重排产生的电磁多极时变场不仅能向远场辐射真实光子（$\gamma$ 射线），而且能直接与原子核外的电子壳层（特别是空间概率密度最靠拢核电荷的 $K$ 壳层和 $L$ 壳层电子）发生近场库仑微扰，将能量直接传递给束缚电子并将其弹出原子，这一量子过程称为**内转换（Internal Conversion）**。
 
@@ -25,7 +28,9 @@ topics: [internal-conversion, bricc, icc, multipolarity-assignment, conversion-e
 
 ---
 
-## 2. 内部转换系数的微观标度律与相对论特征
+## Inputs and Assumptions
+
+### 内部转换系数的微观标度律与相对论特征
 
 在非相对论与高能极限下，Born 近似给出内转换系数对原子序数 $Z$、能量 $E_\gamma$ 与极数 $L$ 的典型标度律：
 $$\alpha(EL) \propto Z^3 \left( \frac{2 m_e c^2}{E_\gamma} \right)^{L + 7/2}$$
@@ -41,7 +46,13 @@ $$\alpha(ML) \propto Z^3 \left( \frac{2 m_e c^2}{E_\gamma} \right)^{L + 5/2}$$
 
 ---
 
-## 3. 混合跃迁（$M1+E2$）内转换与总跃迁强度计算
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 混合跃迁（$M1+E2$）内转换与总跃迁强度计算
 
 在高自旋三轴能带与旋称伙伴带中，最普遍存在的是 $\Delta I = 1$ 的 $M1 + E2$ 混合跃迁。
 
@@ -55,3 +66,9 @@ $$I_{\text{tot}} = I_\gamma + I_e = I_\gamma \cdot [1 + \alpha_{\text{tot}}(\del
 若在能级纲图构建中忽略 $[1 + \alpha_{\text{tot}}]$ 因子：
 - 在高能区（$E_\gamma > 500\text{ keV}$），$\alpha_{\text{tot}} < 0.01$，影响微弱；
 - 在低能区（如 $A\approx 130$ 区中经常出现的 $E_\gamma \approx 50 \sim 150\text{ keV}$ 的关键连接线），$\alpha_{\text{tot}} \approx 0.5 \sim 5.0$，**若不经转换修正，能级流出强度将被严重低估数倍，直接导致能级强度平衡方程崩溃**！
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

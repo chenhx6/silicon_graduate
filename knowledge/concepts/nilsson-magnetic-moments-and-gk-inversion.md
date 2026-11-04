@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [nilsson-magnetic-moments, g_k-factor, g_r-factor, magnetic-dipole-moment, b-m1-over-b-e2, branching-ratio-inversion, quasiparticle-purity, odd-a-deformed-nuclei]
+tags: [nilsson-magnetic-moments, g_k-factor, g_r-factor, magnetic-dipole-moment, b-m1-over-b-e2, branching-ratio-inversion, quasiparticle-purity, odd-a-deformed-nuclei]
 ---
 
 # Nilsson单核子内禀g_K因子、磁偶极矩μ与在束B(M1)/B(E2)分支比反演动力学
 
-## 1. 物理全景：从转动带退激光子强弱比值到未配对核子波函数纯度
+## Definition
+
+### 物理全景：从转动带退激光子强弱比值到未配对核子波函数纯度
 
 在形变奇 $A$ 核（如 $A \approx 130$ 的 $^{131}\text{Ba}, ^{133}\text{Ce}, ^{135}\text{Nd}$）中，高自旋带中每个激发能级通常具有两个并行的退激通道：
 1. **停止跨步跃迁（Stopover, $I \to I-1$）**：偶极跃迁，以磁偶极（$M1$）为主并掺杂少许电四极（$E2$）；
@@ -32,7 +34,9 @@ $$\lambda = \frac{I_\gamma(I \to I-1)}{I_\gamma(I \to I-2)}$$
 
 ---
 
-## 2. 严格理论推导与反演数学方程
+## Necessary Assumptions
+
+### 严格理论推导与反演数学方程
 
 ### (1) Nilsson 内禀陀螺磁因子 $g_K$ 解析公式
 单核子磁偶极算符由轨道角动量与内禀自旋构成：
@@ -80,7 +84,13 @@ $$|g_K - g_R| = \sqrt{ \left( \frac{B(M1)}{B(E2)} \right)_{\text{exp}} \cdot \fr
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/nilsson_magnetic_moment_gk_calculator.py`
@@ -110,7 +120,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py gk \
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[angular-distribution-and-multipole-mixing-ratios]]：$M1/E2$ 混合比 $\delta$ 的符号严格由此处 $(g_K - g_R)$ 的符号决定；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[directional-angular-correlation-f-coefficients-and-dco-formalism]]：$M1/E2$ 混合比 $\delta$ 的符号严格由此处 $(g_K - g_R)$ 的符号决定；
 - [[tdpad-hyperfine-precession-and-gfactor-dynamics]]：TDPAD 测量的纳秒态 $g$ 因子在理论上即为此处 $g_K$ 与 $g_R$ 的矢量耦合；
 - [[nilsson-deformed-shell-model-dynamics]]：单核子轨道波函数的渐近量子数直接充当此处 $g_K$ 计算的初态输入。

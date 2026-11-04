@@ -17,6 +17,8 @@ import json
 import math
 from typing import Any, Dict, List, Tuple
 
+from experimental_statistics_minimizer import profile_threshold_interval
+
 
 def _finite(value: float, name: str, minimum: float = None) -> float:
     try:
@@ -183,13 +185,33 @@ def _loss_interval(area, loss, delta):
     target = minimum + delta
     lower = 0.0
     if area > 0 and loss(0) > target:
-        lower = _bisect_increasing(lambda a: target - loss(a), 0, area)
+        lower_profile = profile_threshold_interval(
+            loss,
+            area,
+            delta,
+            0.0,
+            area,
+            initial_step=max(area / 100.0, 1.0e-12),
+        )
+        if lower_profile["lower"] is None:
+            raise ValueError("Failed to resolve the lower profile endpoint")
+        lower = lower_profile["lower"]
     upper = area + max(1.0, math.sqrt(area))
     while loss(upper) < target:
         upper = area + 2 * (upper - area)
         if not math.isfinite(upper):
             raise ValueError("Cannot bracket likelihood endpoint at finite precision")
-    upper = _bisect_increasing(lambda a: loss(a) - target, area, upper)
+    profile = profile_threshold_interval(
+        loss,
+        area,
+        delta,
+        0.0,
+        upper,
+        initial_step=max(upper - area, 1.0e-12) / 100.0,
+    )
+    if profile["upper"] is None:
+        raise ValueError("Failed to resolve the upper profile endpoint")
+    upper = profile["upper"]
     return lower, upper
 
 
@@ -243,6 +265,7 @@ def infer_peak_area(
             "lower_counts": lower, "upper_counts": upper, "delta_deviance": delta,
             "coverage": "not-calibrated-finite-sample",
             "nuisance_treatment": "centroid-width-background-fixed",
+            "profile_method": "zhu-ch13-profile-threshold",
         },
         "window_signal_fraction": mass,
         "local_test": {

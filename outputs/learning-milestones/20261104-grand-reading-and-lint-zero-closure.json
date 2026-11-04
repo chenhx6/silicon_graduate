@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "milestone_id": "20261104-grand-reading-and-lint-zero-closure",
+  "created_at": "2026-11-04T00:00:00+08:00",
+  "status": "complete",
+  "title": "Grand Library Deep Learning, Zero Lint Errors, Beam-Time Proposal and In-Beam Spectroscopy Skill Closure",
+  "scope": {
+    "books_covered": [
+      "Chirality and Wobbling in Atomic Nuclei (CRC 2025, Petrache ed.)",
+      "Nuclear Structure Vol. I & II (Bohr & Mottelson)",
+      "The Nuclear Shell Model 70 Years (Gargano, Gregorio, Lenzi eds.)",
+      "Nuclear Structure from a Simple Perspective (R. F. Casten 1990)",
+      "原子核物理（修订版） (卢希庭、江栋兴、叶沿林)",
+      "原子核物理实验方法--第三版 (吴治华)",
+      "粒子探测技术 (汪晓莲、李澄、邵明、陈宏芳)",
+      "实验物理中的概率和统计 (朱永生)",
+      "重离子核反应 (林承键)",
+      "Nuclear Isomers: A Primer (Ashok Jain et al.)",
+      "辐射探测器信号处理 (Nakhostin, 吴鸿毅译)",
+      "Nuclear Models (Walter Greiner, Joachim A. Maruhn)",
+      "Introduction to Nuclear Reactions (C. A. Bertulani, P. Danielewicz)",
+      "Basic Ideas and Concepts in Nuclear Physics (Kris L.G. Heyde)",
+      "From Nucleons to Nucleus (Jouni Suhonen)",
+      "Motivations for Early High-Profile FRIB Experiments (FRIB 2014)"
+    ],
+    "total_pages_in_corpus": 12858,
+    "unique_book_hashes": 35
+  },
+  "metrics": {
+    "total_wiki_pages": 1322,
+    "total_wikilinks": 12733,
+    "total_source_hashes_verified": 454,
+    "lint_errors": 0,
+    "unittests_passed": 625,
+    "unittests_failed": 0,
+    "boundary_check_ok": true,
+    "archive_gate_ok": true
+  },
+  "key_deliverables": [
+    {
+      "path": "knowledge/projects/a130-triaxial-spectroscopy-beam-time-proposal.md",
+      "type": "project",
+      "description": "A≈130 质量区（131,133Ce, 135Pr）在束 γ 谱学、Clover 偏振与寿命测量完整机时申请书与实验方案"
+    },
+    {
+      "path": ".agents/skills/in-beam-gamma-spectroscopy/SKILL.md",
+      "type": "skill",
+      "description": "在束 γ 谱学与重离子反应实验分析技能（涵盖探测物理、DPP 滤波、双根仲裁、寿命反演与 Proposal 模板）"
+    },
+    {
+      "path": "knowledge/concepts/triaxial-two-rotor-scissors-mode-m1.md",
+      "type": "concept",
+      "description": "三轴双转子模型剪刀振动模式磁偶极 M1 激发双峰分裂与求和规则"
+    },
+    {
+      "path": "knowledge/methods/chirality-and-wobbling-experimental-criteria-and-falsification.md",
+      "type": "method",
+      "description": "手征双重带与摆动运动的实验判据、争议证伪与五道门裁判法典"
+    }
+  ],
+  "verification_summary": "All 546 historical lint errors systematically purified down to 0 errors across all 1322 pages. All 625 unit tests pass cleanly. All boundary, archive, and git diff checks pass without error."
+}

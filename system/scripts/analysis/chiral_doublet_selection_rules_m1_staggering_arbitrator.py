@@ -92,6 +92,30 @@ PRESETS = {
             {"I": 13, "B_M1_inter_muN2": 0.03}
         ]
     },
+    "135Nd_chiral_doublet_benchmark": {
+        "description": "135Nd composite chiral pair (Mukhopadhyay PRL 2007, Zhu PRL 2003)",
+        "nucleus": "135Nd",
+        "band1": [
+            {"I": 15.5, "E_level_keV": 3587.0, "B_M1_muN2": 2.50, "B_E2_e2b2": 0.32},
+            {"I": 16.5, "E_level_keV": 4020.0, "B_M1_muN2": 2.20, "B_E2_e2b2": 0.32},
+            {"I": 17.5, "E_level_keV": 4514.0, "B_M1_muN2": 2.40, "B_E2_e2b2": 0.32},
+            {"I": 18.5, "E_level_keV": 5062.0, "B_M1_muN2": 1.70, "B_E2_e2b2": 0.32},
+            {"I": 19.5, "E_level_keV": 5664.0, "B_M1_muN2": 2.10, "B_E2_e2b2": 0.13}
+        ],
+        "band2": [
+            {"I": 15.5, "E_level_keV": 3943.8, "B_M1_muN2": 2.70, "B_E2_e2b2": 0.28},
+            {"I": 16.5, "E_level_keV": 4300.8, "B_M1_muN2": 2.10, "B_E2_e2b2": 0.28},
+            {"I": 17.5, "E_level_keV": 4698.1, "B_M1_muN2": 2.20, "B_E2_e2b2": 0.28},
+            {"I": 18.5, "E_level_keV": 5180.1, "B_M1_muN2": 1.70, "B_E2_e2b2": 0.29},
+            {"I": 19.5, "E_level_keV": 5759.2, "B_M1_muN2": 1.90, "B_E2_e2b2": 0.11}
+        ],
+        "interband_transitions": [
+            {"I": 16.5, "B_M1_inter_muN2": 0.18},
+            {"I": 17.5, "B_M1_inter_muN2": 0.11},
+            {"I": 18.5, "B_M1_inter_muN2": 0.08},
+            {"I": 19.5, "B_M1_inter_muN2": 0.04}
+        ]
+    },
     "spurious_out_of_phase_counterexample": {
         "description": "Counterexample: planar bands with opposite B(M1) staggering phase",
         "nucleus": "Fake-Doublet",

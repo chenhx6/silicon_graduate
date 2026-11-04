@@ -71,5 +71,9 @@ class TestOddOddChiralMEP(unittest.TestCase):
         v_rel = np.array(mep["V_along_mep_MeV"])
         self.assertTrue(np.all(v_rel >= -1e-6))
 
+    def test_synthetic_provenance_labels(self):
+        for name, p in PRESETS.items():
+            self.assertEqual(p.get("data_kind"), "synthetic_model_benchmark")
+
 if __name__ == "__main__":
     unittest.main()

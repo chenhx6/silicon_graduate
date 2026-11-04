@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [bohr-hamiltonian, potential-energy-surface, pes, gamma-softness, triaxial-rigidity, wilets-jean, davydov-filippov, shape-coexistence, collective-dynamics]
+tags: [bohr-hamiltonian, potential-energy-surface, pes, gamma-softness, triaxial-rigidity, wilets-jean, davydov-filippov, shape-coexistence, collective-dynamics]
 ---
 
 # Bohr集体哈密顿量四极势能面（PES）、γ软度与三轴刚度微观动力学判据
 
-## 1. 物理全景：解决 A≈130 质量区“γ软核还是γ刚性核”的历史争议
+## Definition
+
+### 物理全景：解决 A≈130 质量区“γ软核还是γ刚性核”的历史争议
 
 在低能核物理与集体运动演化中，原子核的四极形变空间由两个本征内禀坐标完全表征：
 - **轴向伸长量 $\beta$**（Elongation parameter, $\beta \ge 0$）；
@@ -31,7 +33,9 @@ topics: [bohr-hamiltonian, potential-energy-surface, pes, gamma-softness, triaxi
 
 ---
 
-## 2. 严格数学展开与势能面结构
+## Necessary Assumptions
+
+### 严格数学展开与势能面结构
 
 ### (1) 六阶四极势能函数 $V(\beta, \gamma)$
 采用 Kumar-Baranger 与 Greiner 标准多项式形式（取至六阶）：
@@ -79,7 +83,13 @@ $$\mathcal{R}_\gamma = \frac{\Delta V_\gamma}{E_{0, \gamma}}$$
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/collective_quadrupole_pes_calculator.py`
@@ -105,7 +115,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py pes --preset gamma_soft
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[davydov-filippov-triaxial-rotor-and-wobbling-dynamics]]：Davydov-Filippov 转子只有在 $\mathcal{R}_\gamma > 2.0$ 的刚性极限下才严格成立；
 - [[tidal-waves-in-transitional-nuclei]]：当 $\mathcal{R}_\gamma < 1.0$ 时，核表面转动演化为潮汐波表面行波；
 - [[triaxial-shape-coexistence]]：多个不同 $(\beta_0, \gamma_0)$ 极小共存导致低能单极 $E0$ 跃迁暴增。

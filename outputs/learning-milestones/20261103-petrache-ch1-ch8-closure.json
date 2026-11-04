@@ -1,0 +1,50 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Petrache (ed.) 专著第 1 章（Petrache 历史与未来展望综述）与第 8 章（Raduta 等广义相干态半经典相空间与 GCSM 模型）的精读与核验，实现该专著全部 17 章系统研学全量闭环",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "chapter": "1 and 8",
+    "chapter_title": "Ch.1 History and future perspectives on chirality and wobbling in atomic nuclei; Ch.8 Semiclassical feature of wobbling and chiral properties in atomic nuclei",
+    "authors": "Costel Marian Petrache; Apolodor Aristotel Raduta, Cristian Mircea Raduta, Robert Poenaru",
+    "scope": "Ch.1 PDF pp.20-42 / printed pp.1-23; Ch.8 PDF pp.167-203 / printed pp.148-184; full text, equations, and figures",
+    "evidence_route": "native text extraction plus algebraic and historical verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "updated Chapter 1 and Chapter 8 reading status to full chapter verification and registered claims CW-78 to CW-82, achieving full chapter coverage for all 17 chapters of the monograph"
+    },
+    {
+      "path": "knowledge/concepts/coherent-state-model-and-semiclassical-triaxiality.md",
+      "reason": "cross-referenced Raduta GCSM semiclassical phase space dynamics and Dyson boson mapping"
+    }
+  ],
+  "rendered_pages": [
+    "Ch.1 PDF p.22 Figure 1.1 (134Pr first chiral doublet proposal level scheme)",
+    "Ch.1 PDF p.23 Figure 1.2 (Starosta 2000 N=75 isotones chiral doublet partial level schemes)",
+    "Ch.1 PDF p.31 Figure 1.13 (163Lu TSD2 first wobbling band level scheme)",
+    "Ch.1 PDF p.39 Figure 1.21 (Two-quasiparticle wobbling in 130Ba, 134Ce, 136,138Nd)",
+    "Ch.8 PDF p.180 Figure 8.16 (135Pr yrast and excited bands excitation energies)",
+    "Ch.8 PDF p.181 Figure 8.17 (Phase diagram and separatrices in (u,v) space for 135Pr)"
+  ],
+  "claims": [
+    "Petrache provides a 25-year historical and experimental synthesis of nuclear chirality across A~80, 100, 130, and 190, detailing the progression from single doublets to multiple chiral doublets (MchiD) and outlining the crucial role of next-generation tracking arrays (AGATA, GRETA).",
+    "The ongoing debate regarding transverse vs longitudinal wobbling in normal-deformed nuclei (135Pr, 187Au, 133La) hinges upon multipole mixing ratio delta(E2/M1) and polarization measurements to distinguish collective E2 wobbling from single-particle M1 transitions.",
+    "SU(2) coherent states map the triaxial rotor Hamiltonian to canonical phase space equations on the sphere, where the Dyson boson mapping and Bargmann representation yield the non-Hermitian operator with exact real spectra.",
+    "Phase space stability analysis of the classical energy surface yields the algebraic separatrix equation (1-u)(1-v^2)(v^2-u^2)(v^2-u)=0 bounding distinct dynamical rotation phases.",
+    "The Generalized Coherent State Model (GCSM) decomposes the triaxial particle-core Hamiltonian into chiral-symmetric H_s and chiral-antisymmetric H_a components, allowing exact chiral parity projection."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded full-chapter text and figure unit",
+    "remaining_queue": "All 17 chapters of Petrache (ed.) book have completed chapter-level reading and claim registration",
+    "boundary": [
+      "GCSM assumes coherent state ansatz which approximates large-amplitude multi-particle alignments",
+      "Experimental controversy on low-spin wobbling requires independent multi-observable arbitration rather than single-model fitting"
+    ]
+  }
+}

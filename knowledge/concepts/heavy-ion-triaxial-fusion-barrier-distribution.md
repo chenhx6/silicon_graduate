@@ -11,7 +11,9 @@ tags: [heavy-ion-reactions, fusion-cross-section, barrier-distribution, triaxial
 
 # Heavy-ion triaxial deformed nuclei fusion barrier distribution $D_{\text{fus}}(E)$ inversion and in-plane belly splitting
 
-## Phenomenological Definition & Channel Coupling
+## Definition
+
+### Phenomenological Definition & Channel Coupling
 
 In heavy-ion fusion reactions around the Coulomb barrier, the measured fusion cross section $\sigma_{\text{fus}}(E)$ exceeds the one-dimensional barrier penetration model (1D-BPM) by several orders of magnitude at sub-barrier energies. This phenomenon is driven by the dynamic coupling of the relative radial motion to target/projectile internal collective degrees of freedom (quadrupole/hexadecapole deformation, rotational bands, surface vibrations).
 
@@ -77,3 +79,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py triaxfus --preset 36S_100Mo_
 - **C. A. Bertulani & P. Danielewicz**, *Introduction to Nuclear Reactions* (CRC 2004), Chapter 7, §7.4.
 - **Rowley, Satchler & Stelson**, Phys. Lett. B 254, 25 (1991).
 - **Leigh et al.**, Phys. Rev. C 52, 3151 (1995).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

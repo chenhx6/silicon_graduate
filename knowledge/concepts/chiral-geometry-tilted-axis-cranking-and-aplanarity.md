@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [tilted-axis-cranking, tac, nuclear-chirality, chiral-doublet-bands, aplanarity-metric, 3d-angular-momentum, spontaneous-symmetry-breaking, triaxiality]
+tags: [tilted-axis-cranking, tac, nuclear-chirality, chiral-doublet-bands, aplanarity-metric, 3d-angular-momentum, spontaneous-symmetry-breaking, triaxiality]
 ---
 
 # 倾斜轴推转（TAC）、3D手征三面体几何与非共面手征体积度规动力学
 
-## 1. 物理全景：原子核自发手征对称性破缺的微观几何图像
+## Definition
+
+### 物理全景：原子核自发手征对称性破缺的微观几何图像
 
 在三维空间中，一个物体如果不能通过任何空间纯旋转操作与其镜像重合，该物体便具有手征性（Chirality，如人类的左右手）。
 在微观原子核中，**原子核手征性（Nuclear Chirality）**是自发对称性破缺（Spontaneous Symmetry Breaking）中最优雅的量子现象之一。
@@ -29,7 +31,9 @@ topics: [tilted-axis-cranking, tac, nuclear-chirality, chiral-doublet-bands, apl
 
 ---
 
-## 2. 严格 3D TAC 几何代数推演与度规
+## Necessary Assumptions
+
+### 严格 3D TAC 几何代数推演与度规
 
 ### (1) 倾斜轴推转（TAC）哈密顿量
 在旋转内禀参考系中，推转哈密顿量为：
@@ -64,7 +68,13 @@ $$\mathcal{V}_{\text{chiral}} = \frac{|\mathbf{j}_p \cdot (\mathbf{R} \times \ma
 
 ---
 
-## 3. 手征双重带的实验排他性判据（Four-Point Criteria）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 手征双重带的实验排他性判据（Four-Point Criteria）
 
 为防止将普通的形状共存带或准粒子交叉带误报为手征带，Petrache 2024 与 Frauendorf 确立了刚性四道门准则：
 
@@ -105,7 +115,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py chiral \
 
 ---
 
-## 5. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[davydov-filippov-triaxial-rotor-and-wobbling-dynamics]]：手征双重带（三主轴皆有分量）与摆动运动（围绕单主轴进动）共同构成三轴核的两大奇迹；
 - [[tdpad-hyperfine-precession-and-gfactor-dynamics]]：TDPAD 三矢量磁矩测量可直接通过 $g$ 因子检验手征矢量的三维取向；
 - [[triaxial-projected-shell-model-microscopic-dynamics]]：微观 TPSM 能直接从多准粒子基底中投影出手征双重带的波函数对称性。

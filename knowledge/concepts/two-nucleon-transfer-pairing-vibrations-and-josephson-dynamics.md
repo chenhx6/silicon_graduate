@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [two-nucleon-transfer, pairing-vibrations, giant-pairing-vibration, nuclear-josephson-effect, bcs-superfluidity, cooper-pair, magnex]
+tags: [two-nucleon-transfer, pairing-vibrations, giant-pairing-vibration, nuclear-josephson-effect, bcs-superfluidity, cooper-pair, magnex]
 ---
 
 # 两核子转移反应（Two-Nucleon Transfer）、配对振动（Pairing Vibrations）与原子核约瑟夫森效应动力学
 
-## 1. 物理全景：规范空间对称性破缺与核超流体探针
+## Definition
+
+### 物理全景：规范空间对称性破缺与核超流体探针
 
 在原子核多体物理中，若粒子数守恒（$U(1)$ 规范对称性）发生自发对称性破缺，核系统进入 BCS 超流相（Superfluid Phase），基态成为不具有确定粒子数的 Cooper 对相干凝聚态：
 $$|BCS\rangle = \prod_{k>0} (u_k + v_k a_k^\dagger a_{\bar{k}}^\dagger) |0\rangle$$
@@ -24,7 +26,9 @@ $$|BCS\rangle = \prod_{k>0} (u_k + v_k a_k^\dagger a_{\bar{k}}^\dagger) |0\rangl
 
 ---
 
-## 2. 配对振动（Pairing Vibrations）：规范空间简谐声子场论
+## Necessary Assumptions
+
+### 配对振动（Pairing Vibrations）：规范空间简谐声子场论
 
 在双幻闭壳核（如 $^{208}\text{Pb}$ 或 $^{132}\text{Sn}$）附近，系统处于正常费米液体相（未形成静态配对形变凝聚），但对相互作用诱发了体系在**规范空间（Gauge Space）围绕对称点发生的微幅简谐振动——即配对振动模式（Pairing Vibrations）**。
 
@@ -47,7 +51,13 @@ $$\hbar\omega_- = E_{\text{g.s.}}(A-2) - E_{\text{g.s.}}(A) - 2\lambda_F$$
 
 ---
 
-## 3. 巨对振动（Giant Pairing Vibration, GPV）与运动学匹配
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 巨对振动（Giant Pairing Vibration, GPV）与运动学匹配
 
 1. **跨壳巨配对激发（$2\hbar\omega$ GPV）**：
    Broglia 与 Hansen 预言，正如巨偶极共振是粒子-空穴跨壳激发，两核子转移中同样存在跨越主壳层（$2\hbar\omega$ 能隙，激发能 $E_x \sim 10 \sim 15\text{ MeV}$）的**巨对振动（Giant Pairing Vibration, GPV）**；
@@ -85,3 +95,18 @@ $$\hbar\omega_- = E_{\text{g.s.}}(A-2) - E_{\text{g.s.}}(A) - 2\lambda_F$$
 3. **Cavallaro, M. et al.** (2019). Giant pairing vibrations in light nuclei. *Nature Commun.*, 10, 167.
 4. **von Oertzen, W. & Vitturi, A.** (2001). Pairing correlations of nucleons and multi-nucleon transfer between heavy nuclei. *Rep. Prog. Phys.*, 64(10), 1247.
 5. **Bertulani, C. A. & Danielewicz, P.** (2004). *Introduction to Nuclear Reactions*, Chapter 6 (Direct reactions). CRC Press.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

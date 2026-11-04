@@ -1,0 +1,58 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Petrache (ed.) 专著第 15 章 Qi 关于 A≈80 质量区手征岛微观演化、约束三轴 RMF 组态固定理论、Br 与 Rb 同位素链手征岛演化、74As/84Rb 边界扩展、81Kr 奇 A 核手征双带、76,78Br 手征-八极对称性联合破缺催化机制以及 74Br 首例手征摆子（Chiral Wobbler）的全章精读与系统核验",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "chapter": 15,
+    "chapter_title": "Studies of nuclear Chirality in A≈80 mass region",
+    "author": "Bin Qi",
+    "scope": "Article pp.283-291 / physical PDF pp.302-310, full chapter text, Table 15.1, and Figures 15.1-15.3",
+    "evidence_route": "native text extraction plus RMF calculation table and figure verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/qi-a80-chiral-island-and-chiral-wobbler-contract.md",
+      "reason": "established method contract on A~80 chiral island, configuration-fixed triaxial RMF, neutron Fermi surface evolution, octupole-chiral coexistence catalysis in 76,78Br, and the first chiral wobbler in 74Br"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "updated Chapter 15 status to full chapter verification and registered claims CW-73 to CW-77"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed Qi A~80 chiral island method contract"
+    },
+    {
+      "path": "knowledge/concepts/multiple-chiral-doublets-and-chiral-parity-quartets.md",
+      "reason": "linked A~80 chiral-parity quartets and octupole catalysis"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.304 Table 15.1 (Total energies, triaxial deformations beta, gamma, and unpaired nucleon configurations for 74,76,78,80,82,84Br)",
+    "PDF p.305 Figure 15.1 (Adiabatic and configuration-fixed constrained triaxial RMF energy surfaces with PK1 for 74,76,78,80,82,84Br)",
+    "PDF p.306 Figure 15.2 (Energy surfaces for 76,78,80,82,84,86Rb showing triaxial minima and candidate states)",
+    "PDF p.307 Figure 15.3 (Excitation energies E(I) - J*I(I+1), staggering parameter S(I), MOI, alignments ix, and B(M1)/B(E2) for candidate chiral doublet bands in 74As, 76,78,80,82Br, 81Kr, and 84Rb)",
+    "PDF p.309-310 bibliography"
+  ],
+  "claims": [
+    "Configuration-fixed constrained triaxial RMF calculations with PK1 demonstrate stable triaxial minima in 74,76,78,80,82Br and 76,78,80,82,84,86Rb supporting candidate chiral doublet bands and MchiD.",
+    "As neutron number N increases from 39 to 47 in the Br isotopic chain, the neutron Fermi level approaches the top of the g9/2 subshell, increasing hole purity and stabilizing chiral geometry, which explains the monotonic decrease of experimental energy splitting Delta E(I).",
+    "Experimental discoveries in 74As (Z=33) and 84Rb (Z=37) extend the proton boundaries of the A~80 chiral island, while 81Kr demonstrates that chiral doublet bands can also manifest in odd-A nuclei with 3-quasiparticle configurations.",
+    "The observation of two pairs of opposite-parity chiral doublet bands connected by eight enhanced E1 transitions in 78Br and 76Br demonstrates the coexistence and mutual catalysis of nuclear chirality and octupole correlations (chiral-parity quartets).",
+    "74Br provides the first experimental evidence of a chiral wobbler, establishing that nuclear chirality remains robust against transverse wobbling excitations."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded full-chapter text and figure unit",
+    "remaining_queue": "Remaining chapters of Petrache (ed.) book (Ch.8 Raduta, Ch.1 Petrache) remain queued",
+    "boundary": [
+      "Triaxial RMF provides static mean-field energy surfaces and does not compute quantum tunneling energy splitting without dynamic collective models",
+      "Dynamic pairing correlations were neglected in RMF due to Pauli blocking, which may introduce uncertainties near transitional boundaries",
+      "Candidate chiral nucleus 82Rb is predicted as an optimal candidate but awaits full experimental confirmation"
+    ]
+  }
+}

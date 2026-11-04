@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [nuclear-fission, fission-barrier, strutinsky-method, superheavy-elements, quasi-fission, survival-probability, liquid-drop-model]
+tags: [nuclear-fission, fission-barrier, strutinsky-method, superheavy-elements, quasi-fission, survival-probability, liquid-drop-model]
 ---
 
 # 双峰裂变势垒、Strutinsky壳修正动力学与超重核合成存活几率
 
-## 1. 物理全景：经典液滴裂变性与量子壳效应的微观宏观统一
+## Definition
+
+### 物理全景：经典液滴裂变性与量子壳效应的微观宏观统一
 
 重核与超重核的大振幅裂变分裂（Fission）是微观核多体系统中结合能释放最大（$\sim 200\text{ MeV}$）、形变自由度最剧烈的相变动力学过程。
 
@@ -26,7 +28,9 @@ topics: [nuclear-fission, fission-barrier, strutinsky-method, superheavy-element
 
 ---
 
-## 2. Strutinsky 壳修正方法与双峰裂变势垒（Double-Humped Barrier）
+## Necessary Assumptions
+
+### Strutinsky 壳修正方法与双峰裂变势垒（Double-Humped Barrier）
 
 ### (1) Strutinsky 能量平滑法典（V. M. Strutinsky 1967）
 宏观-微观结合模型（Macroscopic-Microscopic Method）将原子核总势能面分解为宏观平滑背景与量子微观修正之和：
@@ -49,7 +53,13 @@ $$\tilde{g}(\varepsilon) = \frac{1}{\gamma \sqrt{\pi}} \sum_i f_{\text{corr}}\le
 
 ---
 
-## 3. 裂变穿透与统计衰变竞争：Hill-Wheeler 与 $\Gamma_n / \Gamma_f$
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 裂变穿透与统计衰变竞争：Hill-Wheeler 与 $\Gamma_n / \Gamma_f$
 
 ### (1) Hill-Wheeler 抛物线势垒穿透概率
 对于高度为 $V$、曲率倒数频率为 $\hbar\omega$ 的反向抛物线势垒，能量为 $E$ 的复合核量子力学穿透几率由著名的 Hill-Wheeler 公式给出：
@@ -112,3 +122,18 @@ $$\sigma_{\text{ER}}(E_{\text{c.m.}}) = \sum_{J=0}^{J_{\text{max}}} \sigma_{\tex
 5. **Bertulani, C. A. & Danielewicz, P.** (2004). *Introduction to Nuclear Reactions*, Chapter 5 (Fusion and Fission). CRC Press.
 6. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 9 章：核裂变与超重核. 原子能出版社.
 7. **林承键** (2013). 《重离子核反应》第 4 章：完全熔合与准裂变竞争. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

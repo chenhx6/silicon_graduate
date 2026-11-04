@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [two-body-interaction, surface-delta-interaction, pandya-transformation, particle-hole-matrix-elements, pairing-energy, 6j-symbols, shell-model]
+tags: [two-body-interaction, surface-delta-interaction, pandya-transformation, particle-hole-matrix-elements, pairing-energy, 6j-symbols, shell-model]
 ---
 
 # 两体有效核力、表面δ相互作用（SDI）与粒子-空穴Pandya变换动力学
 
-## 1. 物理全景：壳模型多体组态微观矩阵元的统一解构
+## Definition
+
+### 物理全景：壳模型多体组态微观矩阵元的统一解构
 
 在独立粒子壳模型中，单粒子势（Woods-Saxon 或 Nilsson 势）解释了平均场单核子轨道排列。然而，当开壳层中存在两个或多个价核子时，核子之间的**两体剩余相互作用（Two-Body Residual Interaction, $V_{\text{res}}$）**打破了单粒子能级简并，主导了低能核能谱的角动量分裂、基态配对能量以及高自旋多准粒子带交叉。
 
@@ -23,7 +25,9 @@ topics: [two-body-interaction, surface-delta-interaction, pandya-transformation,
 
 ---
 
-## 2. 表面 $\delta$ 相互作用（SDI）解析微观矩阵元
+## Necessary Assumptions
+
+### 表面 $\delta$ 相互作用（SDI）解析微观矩阵元
 
 ### (1) 相互作用势算符
 $$V_{\text{SDI}}(\vec{r}_1, \vec{r}_2) = - 4\pi V_0 \delta(\vec{r}_1 - \vec{r}_2) \delta(r_1 - R_0)$$
@@ -48,7 +52,13 @@ $$\langle j^2; J=0 | V_{\text{SDI}} | j^2; J=0 \rangle = - V_0 \left( j + \frac{
 
 ---
 
-## 3. 粒子-空穴 Pandya 变换定理（Pandya Transformation）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 粒子-空穴 Pandya 变换定理（Pandya Transformation）
 
 ### (1) 幺正几何反转算符（S. P. Pandya 1956）
 在二体相互作用矩阵元中，设粒子-粒子系统状态为 $|(j_1 j_2) J'\rangle$，粒子-空穴系统状态为 $|(j_1 j_2^{-1}) J\rangle$。通过角动量 Racah 重新耦合理论，粒子-空穴相互作用能严格满足：
@@ -101,3 +111,18 @@ $$\langle j_1 j_2; J' | V | j_1 j_2; J' \rangle = - \sum_{J} (2J + 1) \begin{Bma
 3. **Suhonen, J.** (2007). *From Nucleons to Nucleus*, Chapter 8 (Two-body residual interactions and SDI). Springer.
 4. **Brussaard, P. J. & Glaudemans, P. W. M.** (1977). *Shell-Model Applications in Nuclear Spectroscopy*. North-Holland, Amsterdam.
 5. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 2 章：壳层模型与剩余核力. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

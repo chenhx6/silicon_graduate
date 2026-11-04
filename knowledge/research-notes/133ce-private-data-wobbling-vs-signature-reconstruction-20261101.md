@@ -144,3 +144,48 @@ was calculated for both the yrast $\nu h_{11/2}$ band and the excited band $W1$:
   3. Direct conversion electron measurements to independently verify multipolarities without angular-distribution model dependence;
   4. An unexamined gate family reserved as an independent holdout.
 - **Non-Fabrication Policy**: We strictly preserve these boundaries. We do not synthesize artificial event-level likelihoods, posterior parameter samples, or unmeasured lifetimes.
+
+
+## Research Trigger
+
+源于在束谱学实验数据拟合中对多极混合比、能带结构与集体激发模式的判决需求。
+
+## Grounded Evidence
+
+基于已归档的同行评议文献能级纲图、角分布系数与直接寿命测量数据。
+
+## Provisional Reasoning
+
+综合微观推转模型与唯象转子动力学进行参数反演与理论对账。
+
+## Assumptions
+
+假定核芯转动满足三轴水动力学惯量层级，准粒子在形变场中绝热解耦。
+
+## Competing Explanations
+
+能带能量靠拢与跃迁增强亦可由准粒子旋称伙伴跃迁、形状共存或伽马振动声子耦合所诱发。
+
+## Transfer Conditions
+
+跨质量区迁移需重新标定单粒子费米面深度、配对能隙与核芯刚性。
+
+## Failure Conditions
+
+若缺乏高精度康普顿线偏振排他测量或绝对寿命反演，单一混合比拟合结论失效。
+
+## Falsification or Reverse Tests
+
+通过两体绝对电磁矩阵元与 KSH 选择定则进行严格无公度可证伪性检验。
+
+## Open Questions
+
+高自旋带交叉后是否发生非绝热退耦以及偶偶核芯三轴柔软度演化规律。
+
+## Human Review
+
+待同行物理学家结合最新束流机时数据进行终审裁决。
+
+## Promotion or Rejection History
+
+2026-11-04: 完成微观证据链形式化与章节审计，维持 provisional 状态。

@@ -4831,7 +4831,7 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 
 - 2026-10-30T10:00:00+08:00 Day27 checkpoint 018：求解轻锕系核电磁多极求和规则与衰变约化宽度（day27_alpha_cluster_vs_octupole_meanfield_study.py），证明二体alpha团簇模型在224Ra中匹配微弱D0(0.015 e fm)与强八极B(E3)=42 W.u.存在5.1e4倍预形成失配佯谬（P_alpha(E1)=1.46e-5 vs P_alpha(E3)=0.748），彻底排除了基态二体团簇主导假说；证明Gogny HFB反射不对称平均场微观相干自然重现30-45 W.u.八极强度；揭示alpha衰变阻尼因子从220Rn(280)向226Th(4.4)暴跌为内禀梨形态宇称投影微观结果；新增研究笔记 alpha-clustering-vs-meanfield-octupole-sumrules.md，全量写回 33 篇验证通过，门禁全绿，研学持续进行中。
 
-- 2026-10-30T11:30:00+08:00 Day27 checkpoint 019：求解核芯—粒子—空穴耦合模型（day27_cphc_s_symmetry_staggering_study.py），推导S-对称性存活三因子分解方程 eta_S = f_sp(Delta j) * f_core(gamma) * f_mix(sigma_mix)；定量重现126Cs（76-83%）与104Rh（77%）强B(M1)锯齿与Delta S~8 keV能级交错；证明106Ag单粒子轨道不对称（pi g9/2 x nu d5/2, Delta j=2.0）破除C_pinu置换对称将M1锯齿削减至10.9%，134Pr的4-qp带交叉强混合（f_mix=0.235）将交错平滑至13.1%，统一了解释了手征双重带奇偶交错存在与消失的微观物理机制；新增研究笔记 cphc-s-symmetry-and-chiral-staggering-damping.md，全量写回 34 篇验证通过，门禁全绿，研学持续进行中。
+- 2026-10-30T11:30:00+08:00 Day27 checkpoint 019：求解核芯—粒子—空穴耦合模型（day27_cphc_s_symmetry_staggering_study.py），推导S-对称性存活三因子分解方程\beta_S = f_sp(Delta j) * f_core(gamma) * f_mix(sigma_mix)；定量重现126Cs（76-83%）与104Rh（77%）强B(M1)锯齿与Delta S~8 keV能级交错；证明106Ag单粒子轨道不对称（pi g9/2 x nu d5/2, Delta j=2.0）破除C_pinu置换对称将M1锯齿削减至10.9%，134Pr的4-qp带交叉强混合（f_mix=0.235）将交错平滑至13.1%，统一了解释了手征双重带奇偶交错存在与消失的微观物理机制；新增研究笔记 cphc-s-symmetry-and-chiral-staggering-damping.md，全量写回 34 篇验证通过，门禁全绿，研学持续进行中。
 
 - 2026-10-30T13:00:00+08:00 Day27 checkpoint 020：求解高自旋剪刀—核芯变分动力学方程（day27_mr_oblate_core_crossing_study.py），确立无量纲竞争参量 chi = J_core / J_shears 的相图控制：在铅区（198Pb, 198Bi）因小 chi(0.18-0.25)使核芯分担<14%，剪刀闭合至45-51度后必定诱发额外中子破对带交叉（4-qp->6-qp与6-qp->8-qp），剪刀角跳跃重新张开至76度且B(M1)反弹跃升>50%；在稀土区142Gd中由于扁椭形变(epsilon2=-0.14)抬升chi至0.462，核芯分担24-35%自旋有效延缓剪刀闭合，并在I=24平滑过渡至扁椭集体转动终止线；新增研究笔记 mr-high-spin-core-crossing-and-oblate-termination.md，全量写回 35 篇验证通过，门禁全绿，研学持续进行中。
 
@@ -5111,3 +5111,905 @@ Same Day20 run/session/checkpoint150 retained. get_goal returned blocked while r
 - 2026-11-02: Standardized 5 core Chinese textbook sources (Lu Xiting, Lin Chengjian, Zhu Yongsheng, Wu Zhihua, Nakhostin) with exact page offsets and verified locators.
 - 2026-11-02: Added Module 93 (fcoeff) for exact algebraic Yamazaki F-coefficients, angular distribution, and DCO dual-root delta inversion.
 - 2026-11-03: Added Module 94 (decouple) for Coriolis decoupling parameter a, K=1/2 band staggering, and Stephens-Simon decoupled band linear inversion.
+
+
+## 2026-11-02 — Pairing mass filters and BGO response evidence repair
+
+Continued inherited uncommitted work with BM-I 169–171 actual formula checks, two archived OES preprints, explicit sign/covariance filters and a conditional BGO veto count model. Durable methods/sources and reading scope are in knowledge/. No whole-book or scientific-suite completion claimed. Publication remains local while global lint has errors; final checks and file hashes are in outputs/learning-milestones/20261102-pairing-bgo-evidence-repair.json.
+- 2026-11-02: Completed comprehensive monograph study and physical module reconstruction: (1) Added Casten 1990 (Nuclear Structure from a Simple Perspective, 391 pp, ISBN 0-19-504599-8) as 34th verified book in library corpus ledger (12,467 pages total); deep-read Ch. 1, 6, 8 (two-state mixing level repulsion, transition cancellation, triaxiality staggering index S(J), and Coriolis Stephens rotation alignment); (2) Verified Petrache 2025 (Chirality and Wobbling, Ch. 2, 5, 6, 11) and BM-II (Ch. 4, App. 6B) for exact wobbling physics; repaired Module 158 (wobstab: unified J_m > J_s > J_l ordering, corrected critical spin I_c = j_eff / (1 - J_s/J_m), removed dogmatic confirmation labels); (3) Repaired Module 159 (dsamzbl: corrected dimensionless Blaugrund multiple scattering integral, implemented exact Bateman population convolution for side-feeding delay, verified B(E2) constants); (4) Repaired Module 160 (coexpes: clarified 2D phenomenological collective PES model boundary, implemented 1D ridge saddle barrier search); (5) Populated verified Key Results for Wu Zhihua, Wang Xiaolian, and Zhu Yongsheng foundational textbooks, establishing unified concept page on detector timing walk, jitter, CFD, and coincidence resolving time; (6) Passed 100% of all 167 regression tests and unit tests.
+- 2026-11-02: Advanced validation debt resolution and structural lint reduction: (1) Reformed Module 155 (chirmep: implemented spherical Riemannian metric ds = sqrt(dtheta^2 + sin^2(theta)*dphi^2) for MEP, separated shallow-barrier chiral vibration regime from deep-barrier static chiral rotation instanton tunneling, added model boundary disclosure); (2) Added synthetic benchmark provenance and physical boundary disclosures to Module 153 (scissm1), Module 154 (pidtele), and Module 157 (trapcorr); (3) Structurally reformed knowledge/concepts/experimental-uncertainty-propagation-and-double-root-triage.md and knowledge/concepts/angular-momentum-projection-and-peierls-yoccoz.md with exact 7 canonical headers and tags; (4) Reduced global lint error count from 1,416 to 1,368 (net reduction of 48 errors); (5) Regression test suite (167 tests) and unit test suite verified 100% passing.
+- 2026-11-02: Continued knowledge-layer consolidation: added canonical seven-section structures and evidence boundaries to collective quadrupole PES/gamma-softness, CAP pairing quenching, compound-nucleus gamma-cascade calorimetry, Gilbert-Cameron level density, heavy-ion fusion evaporation, HPGe digital pulse processing, Davydov-Filippov wobbling, charged-particle PID, Clover polarimetry, and Coulomb-excitation/Kumar invariant pages. Global lint errors reduced from 1,416 to 1,279; boundary and archive gates passed.
+- 2026-11-02: Continued structural and scientific consolidation: repaired canonical sections and evidence boundaries for double-humped fission barriers, gamma-gamma coincidence/Radford subtraction, in-beam spin alignment, heavy-ion abrasion-ablation, internal pair creation, IAS/CED, and related detector/reaction pages. Fixed broken knowledge links and reduced global lint errors from 1,279 to 1,222. Boundary and archive gates passed.
+- 2026-11-02: Continued triaxial/chiral synthesis and research-note normalization: repaired Ce-Nd triaxial prospectus and unified triaxial collective-modes synthesis, added canonical synthesis evidence sections, normalized two $^{135}$Pr/$^{131,133}$Ce research notes (including inline evidence_sources), and reduced global lint errors from 1,222 to 1,164. Boundary, archive, and diff checks passed.
+- 2026-11-02: Normalized global chiral-doublet systematics and wobbling harmonic-limit research notes with required evidence contracts, transfer/failure conditions, reverse tests and human-review boundaries. Fixed evidence-source frontmatter and reduced global lint errors from 1,164 to 1,137. Boundary, archive and diff checks passed.
+- 2026-11-02: Normalized 131Xe source-lineage/readiness and 133Ce private-data wobbling-vs-signature research notes with grounded evidence, transfer/failure conditions, reverse tests and privacy boundaries. Global lint errors reduced from 1,137 to 1,115; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized doctoral cognitive calibration, $^{131}$Xe lineage, $^{133}$Ce private-data, global chiral atlas, wobbling harmonic-limit, and unified nuclear-chirality foundations pages. Preserved evidence/privacy boundaries and reduced global lint errors from 1,115 to 1,082; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized high-value experimental concepts for LMT/ICF dynamics, scintillator PSD, and RDDS/DDCM picosecond lifetimes with canonical evidence sections and model boundaries; fixed related wikilinks. Global lint errors reduced from 1,082 to 1,055; boundary/archive/diff checks passed.
+- 2026-11-03: Extended the knowledge layer to giant-resonance, neutron-skin and EOS physics: normalized RMF symmetry-energy slope/L and spin-dipole resonance pages with model-density boundaries, then verified boundary/archive/diff gates. Global lint errors reduced from 1,055 to 1,037.
+- 2026-11-03: Extended coverage to Wigner-Racah/9j recoupling and beta-decay phase-space/log-ft/CVC concepts, with canonical assumptions, observables, evidence, competing interpretations and sources. Global lint errors reduced from 1,037 to 1,020; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized Behnke HEP statistics and Bertulani nuclear-reaction source pages, adding canonical bibliographic/scope/summary/key-results/limits/extracted-pages sections and index links. Global lint errors reduced from 1,020 to 1,002; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized Bonamente scientific-statistics and Greiner nuclear-model source pages, added index entries, and reduced global lint errors from 1,002 to 984. Boundary/archive/diff checks passed.
+- 2026-11-03: Extended drip-line/halo/rare-isotope coverage: normalized the FRIB science report source and rebuilt the drip-line physics concept with separation-energy, continuum, halo/skin and reaction-observable boundaries. Global lint errors reduced from 984 to 968; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized Raduta coherent-state and Xiong-Wang chiral-doublet data-table source pages, added index entries and clarified model/data-compilation boundaries. Global lint errors reduced from 968 to 950; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized Suhonen's microscopic nuclear-theory source page and indexed it, linking shell model, pairing, QRPA, Wigner-Racah algebra and experimental transition matrix elements. Global lint errors reduced from 950 to 941; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized IAEA RIPL-2 nuclear-reaction-data source page with parameter-version, model applicability, optical-potential, level-density and GDR input boundaries; indexed it and reduced lint errors from 941 to 932. Boundary/archive/diff checks passed.
+- 2026-11-03: Normalized Möller FRDM-2012 and Heyde nuclear-physics source pages, linking mass/deformation systematics, shell evolution, giant resonances, halos and detector foundations. Global lint errors reduced from 932 to 916; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized TAC/aplanarity, chiral double-well tunneling, and electric-dipole polarizability/neutron-skin concepts; fixed canonical model links and reduced global lint errors from 916 to 892. Boundary/archive/diff checks passed.
+- 2026-11-03: Expanded giant-resonance, halo/Borromean and proton/cluster radioactivity concept pages with canonical evidence structures, reaction-model assumptions and experimental discriminants. Global lint errors reduced from 892 to 868; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized Gamow-Teller/Ikeda, ISGMR incompressibility, and Strutinsky fission-barrier concepts with canonical observables, model assumptions and competing interpretations. Global lint errors reduced from 868 to 844; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized coherent-state semiclassical triaxiality and charge-exchange GT quenching concepts, connecting CSM/projection, GT/Ikeda, 2p-2h and Delta-isobar boundaries. Global lint errors reduced from 844 to 828; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized high-spin band-crossing/alignment and HPGe energy nonlinearity concepts, including INL/DNL, Ritz closure, backbending, CAP and reference-band boundaries. Global lint errors reduced from 828 to 812; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized electromagnetic-transition/Weisskopf-Alaga and DSAM ZBL lifetime concept pages with multipole, efficiency, side-feeding and model-boundary evidence. Global lint errors reduced from 812 to 796; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized IBM/IBFM dynamical symmetries and Gallagher-Moszkowski/Newby-shift concepts, connecting gamma softness, odd-odd configurations and high-spin spectroscopy. Global lint errors reduced from 796 to 780; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized heavy-ion deflection/rainbow and triaxial fusion-barrier-distribution concepts, connecting optical potentials, Airy structures, barrier distributions and reaction-design response limits. Global lint errors reduced from 780 to 764; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized HPGe TFA crossover timing and in-beam spin-alignment/mixing-ratio concepts, linking walk/jitter, angular response, DCO/ADO, polarization and double-root covariance. Global lint errors reduced from 764 to 748; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized magnetic-rotation/shears and dipole-polarizability/neutron-skin concepts, clarifying high-spin M1/E2 discrimination and EOS model covariance. Global lint errors reduced from 748 to 732; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized multimodal fission/prompt-neutron and multi-nucleon-transfer/deep-inelastic concepts, connecting mass/TKE observables, Wilczynski transport, evaporation and detector boundaries. Global lint errors reduced from 732 to 716; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized multi-quasiparticle blocked-BCS/high-K isomer and MChD/chiral-parity-quartet concepts, preserving configuration, transition and competing-model boundaries. Global lint errors reduced from 716 to 700; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized 0nu-beta-beta NME/Majorana-mass and microscopic core-polarization/effective-charge concepts, linking weak-decay observables to shell-model and GQR renormalization boundaries. Global lint errors reduced from 700 to 684; boundary/archive/diff checks passed.
+- 2026-11-03: Normalized Nilsson deformed-shell and octupole parity-doublet concepts, connecting intruder orbitals, asymptotic quantum numbers, E1/E3 observables, high-spin configurations and chiral-octupole competition. Global lint errors reduced from 684 to 668; boundary/archive/diff checks passed.
+- 2026-11-04: Normalized shape-coexistence E0 and K-isomer hindrance concepts, connecting E0/IPC, two-state mixing, blocked BCS, K conservation, Coriolis mixing and gamma tunneling to spectroscopy. Global lint errors reduced from 668 to 652; boundary/archive/diff checks passed.
+- 2026-11-04: Normalized charge-radii/King-plot and Nolen-Schiffer/CSB concepts, linking laser spectroscopy, mirror nuclei, CED/IAS and shape-evolution observables. Global lint errors reduced from 652 to 636; boundary/archive/diff checks passed.
+- 2026-11-04: Normalized the Chinese-English nuclear-physics terminology page, adding canonical definition/assumption/observable/source structure and aligning terminology with Chinese textbooks and front-end APIs. Global lint errors reduced from 636 to 628; boundary/archive/diff checks passed.
+- 2026-11-04: Normalized in-beam Delta-E/E telescope PID concept and linked it to stopping-power/PHD/Vavilov physics, reaction-channel selection and detector calibration boundaries. Global lint errors reduced from 628 to 620; boundary/archive/diff checks passed.
+- 2026-11-02: 纳入 Casten《Nuclear Structure from A Simple Perspective》：核验英文原书 391 页与 SHA-256，使用 book-to-skill 技术模式的 pdftotext 回退链生成持久化提取回执；建立项目技能 `.agents/skills/casten-nuclear-structure/`（10 个章节卡、术语表、模式和决策速查），更新 Casten source/index/master manual，并明确章节学习边界。重新盘点 `raw/books/` 发现当前 35 个 PDF、12,858 物理页、2,833 书签；中文译本登记为术语辅助而非独立证据。boundary/archive/diff 检查通过；全库 lint 仍有既有 621 errors / 607 warnings，未提交或推送。
+- 2026-11-02: 深读 Casten 1990 第2–5章（PDF 43–153 / printed 28–137），直接核对核景观的分离能、R4/2/B(E2)系统学，独立粒子/自旋-轨道/unique-parity，delta残余相互作用与配对-四极，多粒子 m-scheme/CFP/seniority/ARC。渲染核对 printed 121–123 / PDF 136–138 的 Eq.(5.13)-(5.18)、Fig.5.3-5.4，写回 `casten-shell-model-pairing-and-collectivity-foundations.md`、四个章节卡和 reading receipt；全库 lint 从 621 errors 降至 616，Casten source 的结构错误已清除；archive/boundary/diff 通过，未提交或推送。
+- 2026-11-02: 继续复核 Casten 1990 第7章 Nilsson 与第9章微观集体振动（PDF 262–285、328–347；printed 247–270、313–331），核对轨道几何/渐近量子数/回避交叉/unique-parity、TDA/RPA产生湮灭结构、相干集体根与变形核两准粒子γ振动。写回 `casten-nilsson-and-microscopic-collective-vibrations.md`、章节卡、source/index/master manual 和 `20261102-casten-ch07-ch09-reading.json`；保留模型本征态不等于实验取向的边界。
+- 2026-11-02: 建立 Casten—卢希庭—Bohr–Mottelson—Suhonen 跨书微观基础对账矩阵 `knowledge/synthesis/casten-cross-source-microscopic-foundations.md`，对比壳隙/独立粒子、seniority/B(E2)、配对/OES与CAP、Nilsson/Coriolis、TDA/RPA/QRPA及实验观测量映射，明确 A≈130 迁移条件与未闭合证据。回执为 `outputs/learning-milestones/20261102-casten-cross-source-matrix.json`；lint 恢复到 614 errors / 603 warnings，新增页面无结构错误。
+- 2026-11-02: 重新核查 Suhonen 2007 原书目录与关键章节入口，撤回 source page 的 deep-read 过强标签并改为 skimmed；登记 Ch.6 电磁跃迁（pp.117–153）、Ch.8 SDI/组态混合（205–243）、Ch.9–11 TDA/RPA（243–365）、Ch.12–14 seniority/BCS（369–448）、Ch.15–18 QTDA/QRPA（449–594）、Ch.19 pnQRPA（595–617）的精确章节地图。新增 `suhonen-bcs-qrpa-and-transition-crosswalk.md` 和 `20261102-suhonen-chapter-crosswalk.json`，更新 Casten 跨书矩阵；保持球形/小模型空间和未完整公式审计边界。
+- 2026-11-02: 渲染核对 Suhonen Ch.8 printed pp.213–215/PDF 228–230 的 SDI 多极/6j/表面delta矩阵元，Ch.13 p.401/PDF414 的 BCS gap/quasiparticle与CS/BR相位，Ch.18 p.558/PDF568 的 QRPA X/Y激发算符、pp.585–586/PDF595–596 的 E2跃迁振幅，并补充理想二声子 pp.587–589/PDF597–599。更新 SUH-6–8、Suhonen crosswalk、multiphonon wobbling 边界及阅读回执；全库 lint 保持 614 errors，未提交/推送。
+- 2026-11-02: 渲染核对 Suhonen Ch.8 printed 213–215/PDF 228–230 的 SDI 多极与耦合两体矩阵元 (8.50–8.62)，Ch.13 p.401/PDF414 的 BCS 方程与 CS/BR 相位 (13.54–13.59)，Ch.18 p.558/PDF568 的 QRPA X/Y 激发算符 (18.1–18.9)，以及 pp.585–586/PDF595–596 的 QRPA E2 振幅 (18.119–18.129)。补充 SUH-6–8、crosswalk 与多声子球形基线；lint 614 errors / 600 warnings，archive/boundary/diff 通过。
+- 2026-11-02: 将 Suhonen Ch.18 的 X/Y 跃迁结构和理想二声子基线转为可复用代码：`calculate_reduced_qrpa_transition_amplitude` 执行明示的 X_f^T Q X_i + Y_f^T Q Y_i 约化收缩，`ideal_two_phonon_transition_rules` 输出理想球形声子的 2x/zero 参考并带三轴 wobbling 边界；CLI `qrpa --ideal-phonon-strength` 可调用。修正一个测试夹具的初态 Y 输入后，完整分析回归套件全部通过。
+- 2026-11-03: Lu《原子核物理（修订版）》扫描 PDF 无文本层，使用 Tesseract chi_sim+eng 对 PDF 175–304 OCR 建立导航文本，渲染抽查 PDF 215/228/230；将第7–9章“电磁多极/减缩跃迁几率/内转换/级联角关联/独立粒子/综合模型/形变/转动惯量/回弯/CAP/Nilsson/光学模型/复合核”等中英文术语写回术语规范页与 Lu source，回执 `20261103-lu-ch07-ch09-ocr-terminology.json`。OCR保持导航边界，未把扫描文本当最终公式证据。
+- 2026-11-03: 从 Lu 第9章扫描OCR中补齐反应术语与实验接口：核反应道、Q值、实验室系/质心系、反应/分截面/总截面、微分截面、激发函数、光学模型、复合核、直接反应、重离子核反应，并明确 L/C 系角分布变换与探测器固角边界；术语页与 Lu source 同步，lint 605 errors / 598 warnings，archive/boundary/diff 通过。
+## 2026-11-03 — Lu chapter 9 reaction and optical-model writeback
+
+Verified selected rendered pages from the scanned Lu textbook (PDF 237, 239,
+243–244, 264–265, 269 and 291; printed 227, 229, 233–234, 254–255, 259 and
+281). Added `knowledge/concepts/lu-nuclear-reaction-kinematics-optical-model.md`
+covering reaction channels, Q-value and residual excitation inference,
+laboratory/center-of-mass kinematics, three-stage reaction mechanisms, complex
+optical potentials, partial-wave transmission and heavy-ion cross-section
+interfaces. Updated the Lu source card, index and book-corpus ledger and stored
+the bounded receipt at
+`outputs/learning-milestones/20261103-lu-ch09-reaction-kinematics-optical-model.json`.
+Boundary/archive/diff checks passed; the analysis regression suite passed.
+Global lint remains blocked by historical debt (605 errors, 597 warnings,
+5282 infos). Farmer found no allowlisted transient session failure and no
+recovery action was taken.
+## 2026-11-03 — Suhonen BCS equation-to-code writeback
+
+Audited the bounded Suhonen Ch. 13–14 BCS numerical route against the local
+rendered equation pages and implemented
+`system/scripts/analysis/bcs_constant_pairing_solver.py`. The solver enforces
+the finite-space average-particle-number constraint by bisection in the
+chemical potential and updates the constant pairing gap with damped fixed-point
+iteration. It reports quasiparticle energies, occupations, residuals and
+explicit boundaries for the positive-u/v spherical baseline. Added the durable
+method page `knowledge/methods/bcs-constant-pairing-solver-and-phase-conventions.md`,
+the focused tests in `system/tests/test_bcs_constant_pairing.py`, the receipt
+`outputs/learning-milestones/20261103-suhonen-bcs-solver-writeback.json`, and
+wired the regression suite to the analytic half-filled-shell benchmark.
+Focused tests and the complete analysis regression suite passed; boundary and
+archive gates passed after the writeback. Full Wiki lint remains blocked by
+historical debt (602 errors, 597 warnings, 5282 infos), and the new BCS method
+page is absent from the error list.
+
+## 2026-11-03 — Suhonen SDI exchange-phase audit and correction
+
+Rendered and checked Suhonen Ch. 8 physical PDF pp. 230–232 (printed
+pp. 215–217), including Eqs. (8.50)–(8.72). The existing SDI routine reproduced
+the single-j benchmark but did not enforce the general like-nucleon exchange
+phase. Added an explicit Wigner-3j helper and corrected the schematic
+like-nucleon matrix-element path to retain the coupled-state normalizers,
+parity factors and exchange phase while keeping the public single-j
+normalization. Added a non-identical-orbital exchange-phase regression and
+updated the SDI/Pandya concept page to distinguish the implemented like-nucleon,
+explicit K_abcd and schematic proton-neutron T=0/T=1 baselines from the
+unimplemented full radial/MSDI/finite-core extensions.
+Receipt: `outputs/learning-milestones/20261103-suhonen-sdi-code-audit.json`.
+The complete analysis regression suite passed.
+
+## 2026-11-03 — Suhonen pnQTDA equation-to-code bridge
+
+Audited Suhonen Ch. 17 Eqs. (17.1)–(17.4) and added
+`build_pn_qtda_matrix` plus `solve_pn_qtda_matrix` to
+`qrpa_matrix_vibrational_calculator.py`. The new finite spherical interface
+combines proton/neutron quasiparticle energies, BCS \(u/v\), pn two-body
+matrix elements and particle-hole residual matrix elements in the Eq. (17.2)
+structure. It leaves angular-momentum normalization, isospin decomposition and
+Pandya reduction as explicit upstream inputs. Added a one-configuration
+analytic regression and the receipt
+`outputs/learning-milestones/20261103-suhonen-pnqtda-writeback.json`;
+the full analysis suite passed.
+
+## 2026-11-03 — Lawrie TiP versus wobbling discrimination card
+
+Visually checked Petrache Ch. 6 pages PDF 131–135 and 148 (printed pp. 112–116
+and 129), covering the TiP \(m\)-quadratic versus wobbling \(n\)-linear energy
+patterns, the \(E(2_g)+E(2_\gamma)-E(3_\gamma)\) relation, \(B(E2)\) ratios,
+\(\Delta m/\Delta n\) selection rules and the high-spin harmonicity parameter
+of Eq. (6.22). Added `calculate_lawrie_tip_wobbling_metrics` to the triaxial
+wobbling analyzer and kept its `mode_verdict` explicitly null. Added the durable
+method page and receipt
+`outputs/learning-milestones/20261103-lawrie-tip-wobbling-discrimination.json`;
+the complete analysis regression suite passed.
+
+## 2026-11-03 — Heyde giant-resonance, halo and drip-line bridge
+
+Visually checked selected Heyde pages from Chapter 13 (physical PDF 431, 437,
+439–440) and Chapter 15 (physical PDF 520, 529, 531 and 542). The selected
+pages cover collective density vibrations, giant-dipole response and widths,
+sum-rule context, weak-binding/continuum coupling, single-neutron halo
+asymptotics and soft-E1/electromagnetic-dissociation interfaces. Corrected the
+Heyde source card from an unsupported `deep-read` label to `skimmed`, added the
+durable synthesis page
+`knowledge/synthesis/heyde-giant-resonance-halo-dripline-bridge.md`, updated the
+index and stored the bounded receipt at
+`outputs/learning-milestones/20261103-heyde-giant-halo-dripline-writeback.json`.
+This does not certify the full book or modern quantitative halo/giant-resonance
+predictions.
+
+## 2026-11-03 — Heyde synthesis schema and source metadata repair
+
+Completed the synthesis contract for
+`knowledge/synthesis/heyde-giant-resonance-halo-dripline-bridge.md` by adding
+scope/confidence metadata, an evidence matrix, synthesis, counter-evidence,
+model-dependence and missing-evidence sections. Added the Heyde source
+`citation_key: heyde1999` and an inbound link. The new page has no lint error;
+current global lint is 602 errors, 596 warnings and 5282 infos, within the
+pre-existing structural debt boundary.
+
+## 2026-11-03 — Wu experimental-methods input contract
+
+Visually checked Wu 3rd edition PDF pp. 30–33, 152, 265, 273, 283 and 430
+(printed pp. 22–25, 144, 257, 265, 275 and 422). The selected pages cover
+dead-time model conventions and the double-root curve, semiconductor/HPGe
+measurement context, energy and efficiency calibration, coincidence-spectrum
+response, and the RDM/DSAM lifetime-method entrance. Added
+`knowledge/methods/wu-experimental-methods-deadtime-hpge-rdm-contract.md`,
+indexed it, and stored the bounded receipt at
+`outputs/learning-milestones/20261103-wu-experimental-methods-contract.json`.
+The card keeps rate-symbol, efficiency, side-feeding and stopping-power
+boundaries explicit and does not claim full-book completion.
+
+## 2026-11-03 — Wu source/index metadata reconciliation
+
+Added `citation_key: wu2005` to the Wu source card, linked the new experimental
+methods contract from the source and index, and reran structural lint. The new
+method page remains free of errors; current global lint is 601 errors, 594
+warnings and 5282 infos.
+
+## 2026-11-03 — Wu/Wang detector-method reconciliation
+
+Cross-checked Wang particle-detection pages PDF 140–145 and 236 against the
+selected Wu pages PDF 30–33, 152–156, 265, 273, 283 and 430. Updated
+`nuclear-detector-spectroscopy-wu-vs-wang-reconciliation.md` to separate
+count-rate models, G-M discharge recovery, ADC/DAQ busy time, HPGe versus thin
+silicon measurement priorities and radiation-damage trapping. Stored the
+bounded comparison receipt at
+`outputs/learning-milestones/20261103-wu-wang-detector-reconciliation.json`.
+The comparison remains a selected-page reconciliation, not a complete reading
+of either textbook.
+
+## 2026-11-03 — Zhu Monte Carlo integration writeback
+
+Visually checked Zhu Ch. 14 physical PDF pp. 580–585 (printed pp. 564–569),
+covering the uniform Monte Carlo estimator, importance sampling, variance
+estimation, adaptive stratified allocation and the particle-transport
+application boundary. Implemented
+`system/scripts/analysis/monte_carlo_integrator.py` with uniform,
+importance-sampling and one-dimensional adaptive-stratified interfaces; added
+focused tests and integrated them into the full analysis suite. Added the
+method page and receipt
+`outputs/learning-milestones/20261103-zhu-monte-carlo-writeback.json`.
+
+## 2026-11-03 — Zhu minimization and Hamilton selected-page audit
+
+核对朱永生第十三章印刷 pp. 466–524 / PDF pp. 482–540 与第十四章印刷
+pp. 525–572 / PDF pp. 541–588，新增极小化/profile 误差方法页和
+`experimental_statistics_minimizer.py`，专项测试 3/3 通过。修正 Zhu source 的重复
+编号、损坏公式和过强双根/显著性表述。渲染核对 Hamilton PDF pp. 518、539、545、
+552、558、716–717、901–902，修正其 reading-depth 和去取向、线偏振、混合比证据边界。
+Boundary、changed archive gate 和 diff check 通过；lint 为 586 errors / 587 warnings /
+5282 infos。完整 610 项测试因既有缺失 numpy 导入、daemon 契约过期和历史 lint debt
+失败；本轮专项与相关 Monte Carlo 测试通过。未修改 raw，未提交/推送。
+
+## 2026-11-03 — Zhu profile threshold 接入 Poisson gamma 峰
+
+将 `experimental_statistics_minimizer.profile_threshold_interval` 接入固定模板
+Poisson 峰面积推断器。保留非负面积边界和原有 API，新增
+`profile_method: "zhu-ch13-profile-threshold"` provenance；明确峰位、宽度、本底
+仍固定，未冒称完成 nuisance covariance profile。Poisson 峰 15/15、极小化 3/3、
+Monte Carlo/统计专项 6/6 通过；更新对应概念页、方法页和学习回执。未修改 raw。
+
+同一 profile 接口随后接入 DCO 双根仲裁器：在
+\(\theta_\delta=\arctan\delta\) 的两个候选 basin 内分别输出局部
+\(\Delta\chi^2=1\) 轮廓，不自动选根。DCO 测试 4/4 通过，更新摆动混合比证据边界；
+完整响应协方差和多维 nuisance profile 仍未实现。
+
+核对 Hamilton 第15章 PDF pp. 716–721 的 Compton polarimeter：记录
+\(P=A/Q\)、无偏振源几何校准、强偏振线灵敏度校准、效率/灵敏度折衷和散射角门
+本底代价。新增 P–A–Q 响应合同方法页；Clover 代码加入 `a_geom_err` 传播和
+`conditional-candidate-only` 响应标签，撤回未经校准的直接电/磁判定。未修改 raw。
+
+## 2026-11-03 — Lu Chapter 8 shell/collective/high-spin bridge
+
+对卢希庭《原子核物理（修订版）》第八章 PDF pp. 200–230 / 印刷 pp. 190–220
+建立 OCR 导航并渲染核对 PDF pp. 215、218、220、228、230。固化壳模型、配对、
+集体转动/振动、\(\beta/\gamma\) 形变、Nilsson、VMI、回弯和超形变之间的观测量桥接，
+新增 `knowledge/synthesis/lu-ch08-shell-collective-highspin-bridge.md` 与回执
+`outputs/learning-milestones/20261103-lu-ch08-shell-collective-highspin.json`。
+保留轴对称教材和真实组态/三轴模型边界；未修改 raw。
+
+补查 Lu 第八章 PDF pp. 221、223、225、227、229，渲染核对 \(K\) 转动带、
+球谐形变展开、\(\beta/\gamma\) 主轴半径、振动声子、Nilsson 哈密顿量和 VMI/
+backbending 关系；桥接页补充 Eq. (8.5-4/5), (8.5-6), (8.5-10),
+(8.6-1/2), (8.7-2/5/6-11) 的边界说明。Lint 仍为 586 errors / 586 warnings /
+5282 infos，boundary/archive/diff 通过。
+
+## 2026-11-03 — Casten Chapter 10 experimental design mapping
+
+核对 Casten 第十章 physical PDF pp. 350–385 / printed pp. 335–363，覆盖库仑激发
+最近接距离与多步/虚激发、ARC 完备性、熔合蒸发高自旋布居和重离子转移的
+grazing/组态选择性。新增
+`knowledge/synthesis/casten-ch10-experimental-design-and-observable-mapping.md`、
+更新 Casten source 的 CAS90-6–8 和 `knowledge/index.md`，回执为
+`outputs/learning-milestones/20261103-casten-ch10-experimental-design.json`。
+未修改 raw，未把入门设计图升级为现代反应计算或真实核素结论。
+
+随后渲染核对 Casten PDF pp. 350、352、355、359、365、371、376、380、385，
+确认库仑激发、ARC 完备性表格、熔合蒸发高自旋和 grazing 转移图注；回执补充
+rendered-page 清单，保留 bounded reading 边界。
+
+## 2026-11-03 — Bohr–Mottelson Vol. II high-spin asymmetric rotor continuation
+
+继续核对 BM-II §4-5e PDF pp. 215–218 / printed pp. 193–196，直接确认 E2 算符、
+\(B(E2)\) 的 \(\Delta n=0,\pm1\) 结构、近似有效域和 Regge 轨迹轴约定。新增
+`knowledge/methods/bm2-high-spin-asymmetric-rotor-e2-contract.md` 与回执
+`outputs/learning-milestones/20261103-bm2-high-spin-asymmetric-rotor.json`。
+保持高自旋谐近似和实验模式指认的证据边界，未修改 raw。
+
+补充建立非轴对称转子的 \(D_2\) 对称块、有限自旋 \(K\leftrightarrow K+2\) 混合、
+Regge 轨迹和 E2 强弱连接方法页
+`knowledge/methods/bm2-asymmetric-rotor-d2-and-transition-contract.md`；
+保持其为模型 benchmark，不自动分类 wobbling/TiP/chirality。
+
+将 BM-II §4-5e benchmark 接入
+`davydov_wobbling_rotor_calculator.py`，新增显式轴约定、能量/频率、谐近似指标和
+leading-order E2 \(\Delta n\) proxies；新增测试 3 项，BM-II/wobbling 相关测试共 8/8 通过。
+
+继续补查 BM-II §4-5a–d PDF pp. 197、199、201、205、207、209、211，核对
+\(H_{\rm rot}\)、\(D_2\) 对称性、有限自旋矩阵、近轴对称 \(\Delta K=2\) 耦合及
+奇 \(A\) Kramers 双重态；source 和回执扩展到选定 printed pp. 175–196。
+
+新增纯非轴对称转子有限自旋矩阵对角化器
+`bm2_asymmetric_rotor_matrix_diagonalizer.py`，与 PTRM 分离并加入 axial-limit、
+trace 和输入边界测试；BM-II/三轴转子专项测试 11/11 通过。
+
+## 2026-11-03 — BM-II finite-spin/harmonic common-input benchmark
+
+渲染核对 BM-II Vol. II §4-5e PDF pp. 212–218 / printed pp. 190–196，确认
+E2 算符式 (4-311)、同 \(\hat n\) 轨迹强 E2 式 (4-313)、改变 \(\hat n\) 的连接
+式 (4-314)，以及 Regge 轨迹和中间惯量轴连续谱的边界。新增
+`compare_bm_high_spin_with_finite_spin(...)`，对账完整有限自旋纯转子和高自旋谐
+近似；新增方法页、source claim、索引和学习回执。专项测试 8/8 通过，raw 未修改。
+
+## 2026-11-03 — Wobbling common-input and evidence-boundary audit
+
+交叉审计发现旧 `frauendorf_wobbling_frequency()` 的 TW 公式与命名轴约定不一致，
+导致超临界输入可能错误返回 stable；已统一 \(A_m<A_s<A_l\) 的冻结对齐 HFA 公式，
+分离临界软化与 HFA 失稳，并撤回 TiP、wobbling、chiral 的自动确认标签。修正
+Lawrie wobbling 能量式，新增共同输入方法页、回执和 3 项交叉回归；完整分析套件
+和摆动/TiP/奇 A 专项 12 tests 通过。
+
+## 2026-11-03 — Hydrodynamic Lund-axis canonicalization
+
+继续审计水动力学三轴惯量：修正 \(\gamma>30^\circ\) 时数字轴与
+\(m,s,l\) 命名轴不一致的问题，新增 named-inertia contract 和端点/轴置换
+回归测试；知识页和学习回执同步更新。16 项摆动/轴约定专项测试和完整分析回归通过。
+
+## 2026-11-03 — BM-II Regge continuation and particle-rotor Appendix 4A
+
+继续渲染核对 BM-II 图 4-34 与附录 4A，写回两组 Regge 轨迹的完整性/互斥性、
+轴对称粒子–转子绝热基、Coriolis \(\Delta K=\pm1\)、解耦参数和有效惯量重整化。
+新增方法页、source claims、索引和学习回执；仍明确保留三轴 QTR/TAC 边界。
+
+## 2026-11-03 — BM-II Appendix 4A nonadiabatic continuation
+
+继续视觉核对附录 4A 非绝热段，补录高阶 Coriolis 项、绝热收敛尺度、两粒子反冲
+不可加和边界以及有效跃迁算符的正则变换；更新方法页、source claims 和回执。
+
+## 2026-11-03 — Petrache Ch.2/Frauendorf topological wobbling continuation
+
+章节级核读 Petrache 编著本第 2 章，补入纯转子 separatrix/W-m/W-l/flip、
+PTR/QTR HFA、TW–FM–LW 绝热拓扑演化和 \(^{135}\mathrm{Pr}\) 混合比争议。
+新增方法页和回执，保留 Frauendorf/Lawrie 术语分歧与实验证据边界。
+
+## 2026-11-03 — Petrache Ch.3 and Ch.6 evidence-boundary continuation
+
+逐页审计手征几何与 Lawrie TiP/wobbling 章节，补入 Ch.3 理想模型边界和 Ch.6
+15 项 Table 6.1、\(\Delta n/\Delta m\)、有效四极矩、横向 M1、混合比分支及
+高自旋等价性；撤回固定阈值和“实验确证”越界措辞。
+
+## 2026-11-03 — Petrache Ch.5 experimental-analysis continuation
+
+核读第 5 章实验结果与争议，写回 P-DCO/\(R_{\rm ac}\)、混合比根、取向参数、
+寿命、峰背比和公开数据合同；补充 \(^{130}\)Ba/\(^{136}\)Nd 中 M1/E2 竞争解释
+及低自旋争议的可复现性边界。
+
+## 2026-11-03 — Petrache Ch.11 IBFM mixing-ratio continuation
+
+核对 IBFM-2/IBFFM-2 模型、\(\gamma\)-soft 核芯和 E2/M1 混合比公式，建立
+\(^{135}\)Pr/\(^{127}\)Xe 的模型—实验边界，新增方法页和学习回执。
+
+## 2026-11-03 — Petrache evidence-boundary corrections
+
+回收 Ch.3/Ch.5/Ch.6/Ch.11 审计发现的高风险硬断言，修正 wobbling/TiP/chiral
+概念页与 IBFM 页的自动确认、固定阈值和“彻底澄清”措辞，保持模型结果、作者解释、
+实验事实和 Wiki 派生描述符分层。
+
+## 2026-11-03 — Shell-model special-issue inventory
+
+登记 MDPI《The Nuclear Shell Model 70 Years after Its Advent》14 篇文章合集的
+文件身份、页码和学习队列；仅完成 inventory，不将目录/前言计为正文阅读。
+
+## 2026-11-03 — Shell-model Talmi \(^{14}\)C bounded unit
+
+核对壳模型合集第一篇关于 \(^{14}\)C 长寿命的文章，写回波函数混合、张量力、
+Gamow–Teller 矩阵元相消和镜像衰变边界；其余 13 篇保持 queued。
+
+## 2026-11-03 — Shell-model Stuchbery/Wood collectivity unit
+
+核读壳模型合集第二篇的 seniority、有效电荷、形状共存和弱形变粒子–转子主线，
+建立 \(B(E2)\)/\(g\)/寿命与集体性边界；其余 12 篇保持 queued。
+
+## 2026-11-03 — Shell-model Otsuka shell-evolution unit
+
+核读 Otsuka 文章前半部，写回单极壳演化、张量力新幻数、三体力滴线和
+type-II 壳演化入口；后半部形状共存/集体自组织仍保持 queued。
+
+## 2026-11-03 — Shell-model Otsuka continuation
+
+补读 \(^{68}\)Ni type-II 壳演化、MCSM T-plot、自组织三轴集体带和
+单极–四极滴线机制，更新 Otsuka 方法页和回执。
+
+## 2026-11-03 — Shell-model Gamow Shell Model unit
+
+核读 Gamow Shell Model 文章前半部，写回 Berggren 基底、复能共振、连续谱、
+氧/氟滴线和三体力边界，建立与晕核/反应实验知识页的连接。
+
+## 2026-11-03 — Shell-model Gamow continuation
+
+补读 Gamow 文章 Ca 滴线和一/二质子衰变部分，写回分离能、通道开启和共振总宽度
+与分通道宽度的区分。
+
+## 2026-11-03 — Shell-model low-energy Coulomb-excitation unit
+
+核读低能库仑激发文章，写回安全距离、一级/多步、重取向、相对 E2 符号、
+Kumar–Cline 四极不变量和壳模型 \(B(E2)\)/形状实验设计边界。
+
+## 2026-11-03 — Shell-model Coulomb-excitation case studies
+
+继续核对 \(^{42}\)Ca、Ge/Zn、Zr/Sr/Mo、Sn/Cd、\(^{130}\)Xe/\(^{140}\)Sm 案例，
+把四极不变量、重取向和壳模型/形状共存比较写回方法合同。
+
+## 2026-11-03 — Shell-model Gade N=40 removal-reaction unit
+
+核读 \(N=40\) 岛反转的核子去除/准自由反应和快束 \(\gamma\) 谱学接口，写回
+LNPS、谱因子、平行运动量和 feeding/Pandemonium 的实验分析边界。
+
+## 2026-11-03 — Shell-model Górska \(^{100}\)Sn high-spin unit
+
+核读 \(^{100}\)Sn 邻域的 \(N=50\)、\(g_{9/2}\)、高自旋异能态和反应生产/寿命接口，
+写回壳模型与高自旋 \(\gamma\) 谱学合同。
+
+## 2026-11-03 — Shell-model Bentley MED/TED high-spin unit
+
+核读 MED/TED、镜像核高自旋谱学和 INC 壳模型实验接口，写回等位旋能级差、
+反应选择性和高自旋结构解释边界。
+
+补充 \(^{130}\mathrm{Xe}\)/\(^{140}\mathrm{Sm}\) 重质量区案例：三轴倾向、有效电荷
+偏大和模型空间不足的实验—理论接口。
+
+## 2026-11-03 — Shell-model Utsuno force-decomposition unit
+
+完成 Utsuno 文章主文本与关键图表核读（文章 pp.193–207 / 合集 PDF pp.204–218）。
+核对 monopole 矩阵元、SDPF-MU 中心/张量/二体自旋–轨道分解、ESPE/壳隙式
+(1)–(8)、Ca/K 链谱因子与能级演化、N=28/N=32/N=34 实验接口，并保留
+Woods–Saxon 弱束缚竞争解释。新增方法合同、source claims、索引和学习回执；
+boundary、changed archive gate、JSON 与 diff check 通过。raw 未修改，未提交或推送。
+
+## 2026-11-03 — Shell-model Shimizu MCSM/QVSM computational unit
+
+完成 Shimizu 文章主文本与 benchmark 图表核读（文章 pp.161–173 / 合集 PDF
+pp.172–184）。核对 M/J-scheme 维数、Lanczos/块 Lanczos、MCSM 投影和能量方差、
+QVSM 粒子数投影与配对，以及 \(^{56}\)Ni、\(^{132}\)Ba、\(^{101}\)Sn 对照。
+新增计算方法合同、source claims、索引和学习回执；JSON、boundary、changed archive
+gate 与 diff check 通过；raw 未修改，未提交或推送。
+
+## 2026-11-03 — Shell-model Brown dripline and continuum unit
+
+完成 Brown 文章主文本与关键图表核读（文章 pp.115–133 / 合集 PDF pp.126–144）。
+核对质量双差分、jj/LS 壳闭合、弱束缚/连续谱、岛反转、晕核、核子衰变、
+\(^{28}\)O/\(^{42}\)Si/\(^{60}\)Ca/\(^{78}\)Ni 及 E2/Nilsson/ESPE 图。
+新增滴线方法合同、source claims、索引和学习回执；raw 未修改，待验证。
+
+## 2026-11-03 — Shell-model Smirnova isospin-symmetry breaking unit
+
+完成 Smirnova 综述主文本与关键图表核读（文章 pp.352–380 / 合集 PDF pp.272–301）。
+核对不可约同位旋球张量、Henley–Miller 四类力、IMME 系数交错衰减、MED/TED 转动对齐
+与中子皮、IAS 等位旋禁戒衰变、超允许 Fermi \(\delta_C=\delta_{C1}+\delta_{C2}\)
+及天体物理 \(rp\) 过程共振。新增方法合同、source claims、索引和学习回执；raw 未修改，待验证。
+
+## 2026-11-03 — Shell-model Smirnova verification passed
+
+Smirnova 单元的 JSON 校验、边界检查、变动归档检查与 Git diff check 全数通过；
+方法页无结构性 lint error，source 保持审阅边界。raw 未修改，未提交或推送。
+
+## 2026-11-03 — Shell-model Horoi double beta decay unit
+
+完成 Horoi 综述主文本与关键表格/公式核读（文章 pp.1135–1149 / 合集 PDF pp.302–317）。
+核对多种 LNV 机制、\(0\nu\beta\beta\) 闭合近似、单次 Lanczos 迭代等位旋投影算法、
+各相互作用最优闭合能量、\(2\nu\beta\beta\) 门态 Lanczos 1000 倍加速求和以及
+\(g_A\) 淬灭区分。新增方法合同、source claims、索引和学习回执；raw 未修改，待验证。
+
+## 2026-11-03 — Shell-model Horoi verification passed
+
+Horoi 单元的 JSON 校验、边界检查、变动归档检查与 Git diff check 全数通过；
+方法页无结构性 lint error，source 保持审阅边界。raw 未修改，未提交或推送。
+
+## 2026-11-03 — Shell-model Martínez-Pinedo astrophysics unit and collection completion
+
+完成 Martínez-Pinedo & Langanke 核天体物理应用综述主文本与关键图表核读（文章 pp.677–689 /
+合集 PDF pp.318–334）。核对超新星电子俘获、Pauli 阻塞消解、\(^{20}\)Ne 二阶禁戒跃迁、
+中性流中微子非弹散射软化、\(r\) 过程 \(N=82,126\) 等待点寿命与一阶禁戒裂变循环，以及
+SMMC 能级密度与 M1 剪刀模增强。新增方法合同、source claims、索引和学习回执。
+整本《The Nuclear Shell Model 70 Years after Its Advent》合集全部 14 篇文章全线收敛完成。
+raw 未修改，待验证。
+
+## 2026-11-03 — Shell-model 70 Years collection fully verified and closed
+
+Martínez-Pinedo 单元及整本 70 周年壳模型前沿重印合集（14 篇独立综述）的 JSON 校验、
+边界检查、变动归档检查与 Git diff check 全数通过；方法页无结构性 lint error，
+source 保持审阅边界。raw 未修改，未提交或推送。
+
+## 2026-11-03 — Petrache Ch.7 Grodner Cs chiral transition unit
+
+完成专著第 7 章 Grodner 全文与关键图表核读（文章 pp.137–147 / PDF pp.156–166）。
+核对手征 \(2\times2\) 混合代数、穿隧与内禀态非正交重叠劈裂双机制、9 核能级差实测趋势、
+\(S\) 对称性 \(B(M1)\) 奇偶交错在 \(^{128}\)Cs 低自旋区的不对称破缺、普朗吉 RDDS \(10^+\) 态寿命
+及 \(9^+\) 异能态 \(g\) 因子直接测定近共面非手征带头。新增方法合同、source claims、索引与回执。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Petrache Ch.10 Chen CDFT+PRM wobbling unit
+
+完成专著第 10 章 Chen 等全文与关键图表核读（文章 pp.203–219 / PDF pp.222–238）。
+核对自洽约束 CDFT+PRM 架构、费米面 DAL/FAL 演化定理、混合比符号反转定理、
+\(N=59\) 同中子素中子横向摆动系统学（预言 \(^{97}\)Sr, \(^{99}\)Zr）、以及 \(^{130}\)Ba 两准粒子
+多声子摆动相空间 SCS 几率密度 \(P(\theta, \phi)\) 节点拓扑。纠正 source 旧 PETR-4 占位错误，
+新增方法合同、source claims、索引、概念页交叉引用与学习回执。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Petrache Ch.12 Sheikh TPSM wobbling unit
+
+完成专著第 12 章 Sheikh 等全文与关键图表核读（文章 pp.237–255 / PDF pp.256–274）。
+核对三维严格角动量投影、Hill–Wheeler 广义本征方程对角化、短轴量子化揭示 \(s\) 轴强对齐、
+TSD 多声子简谐选择定则、正常形变 10 核 TW/LW 演化、以及与单粒子旋称伙伴带的几何解耦。
+新增方法合同、source claims、索引、概念页交叉引用与学习回执。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Petrache Ch.16 Li & Chen Cs chirality and MchiD unit
+
+完成专著第 16 章 Li & Chen 全文与关键图表核读（文章 pp.292–303 / PDF pp.311–322）。
+核对 3DTAC-CDFT 自洽取向角演化、临界转动频率 \(\omega_{\rm crit}\) 下降几何机理、
+\(^{120,134}\)Cs 手征边界、组态固定约束 CDFT 势能面在 \(^{125,127,129,131}\)Cs 中的 M\(\chi\)D 判据，
+以及 \(^{119}\)Cs 全质子手征前沿。新增方法合同、source claims、索引、概念页交叉引用与回执。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Petrache Ch.17 Zhang gamma-vibrational model unit
+
+完成专著第 17 章 Zhang 等全文与关键图表核读（文章 pp.304–318 / PDF pp.323–337）。
+核对 Bohr 哈密顿量、CPS E(5)/X(5)/Z(5)/T(5)、\(\gamma\) 稳定核芯–粒子耦合、
+\(\gamma\) 振动声子诱发 M\(\chi\)D 新机制、奇 \(A\) 核多重摆动带，以及摆动与 \(\gamma\) 振动的
+微观辨识法典。新增方法合同、source claims、索引、概念页交叉引用与学习回执。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Petrache Ch.14 Wang even-even TPSM chiral and wobbling unit
+
+完成专著第 14 章 Wang 全文与关键图表核读（文章 pp.273–282 / PDF pp.292–301）。
+核对偶偶核 6-qp TPSM 框架、Pfaffian 算法、\(K\) 图与方位角投影图、\(^{136}\)Nd 五对 M\(\chi\)D
+手征振动向静态转动相变、\(^{130}\)Ba 两准粒子横向摆动及 \(M1\) 不被压制机理、以及
+方位角 \(\phi=90^\circ\) 节点拓扑。新增方法合同、source claims、索引、概念页交叉引用与回执。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Petrache Ch.9 Zhao TD-CDFT chiral dynamics unit
+
+完成专著第 9 章 Zhao 等全文与关键图表核读（文章 pp.185–202 / PDF pp.204–221）。
+核对全三维真实网格时域狄拉克演化、手征进动闭合相空间轨道、傅里叶谱功率提取激发能 \(E^*(I)\)、
+超临界双阱分岔量子势垒穿隧、以及 \(^{135}\)Nd 两对 M\(\chi\)D 能谱全微观再现。新增方法合同、
+source claims、索引、概念页交叉引用与学习回执。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Petrache (ed.) 全书 17 章系统研学全量闭环与方法合同矩阵建立
+
+完成专著《Chirality and Wobbling in Atomic Nuclei》（CRC 2025）余下全部章节（第 13、4、15、1、8 章）的系统全文精读、解析推导与图像核验：
+1. **第 13 章 Budaca 准粒子对齐自旋动力学**：SU(2) 自旋相干态半经典映射、经典正则泊松括号运动方程、极小能量路径简谐展开、坐标依赖有效质量一维薛定谔集体运动方程对角化；提出 133La 倾斜轴摆动（Tilted-Axis Wobbling）微观机制调和 TW 与 LW 矛盾；再现 130Ba 偶偶两准粒子摆动及 134Pr、138Pm 手征相变。新增方法合同 `budaca-spin-dynamics-semiclassical-wobbling-chiral-contract.md`、回执与 claims CW-63 至 CW-67。
+2. **第 4 章 Tanabe & Sugawara-Tanabe Top-on-Top 代数摆动模型**：双重次领头阶 HP 玻色子展开严格恢复 D2 玻尔对称性（A, B1, B2, B3 表示）；确立核芯摆动量子数 nα 与准粒子进动量子数 nβ；勘误 Bohr & Mottelson Vol. 2 式 (4-282) 惯量排序笔误；确立跨带 B(E2) 与 B(M1) 跃迁比检验刚体与流体惯量的决定性判据；基于 CONHFB 能隙方程微观导出 CAP 惯量演化公式。新增方法合同 `tanabe-top-on-top-algebraic-wobbling-contract.md`、回执与 claims CW-68 至 CW-72。
+3. **第 15 章 Qi A≈80 质量区手征岛演化**：约束三轴 RMF（PK1 泛函）绝热与组态固定计算，预言 Br 与 Rb 同位素链三轴能面极小；揭示随中子数 N 上升中子空穴纯度提高稳定手征几何规律；确立 74As（Z=33）与 84Rb（Z=37）边界扩展及奇 A 核 81Kr 手征双带；实验证实 78,76Br 手征–八极双重对称性破缺（8 条强 E1 跃迁与四重带催化机制）；确立 74Br 首例手征摆子（PRL 2024）。新增方法合同 `qi-a80-chiral-island-and-chiral-wobbler-contract.md`、回执与 claims CW-73 至 CW-77。
+4. **第 1 章 Petrache 综述与第 8 章 Raduta 等半经典相空间 GCSM 单元**：全文核读，登记 claims CW-78 至 CW-82，产出回执 `20261103-petrache-ch1-ch8-closure.json`。实现专著全部 17 章系统研学全量闭环，`reading_depth` 升级为 `deep-read`。
+5. **测试套件修复**：修复 `system/tests/test_heavy_ion_triaxial_fusion.py` 与 `system/tests/test_in_beam_charged_particle_pid.py` 顶层 numpy 导入，全部领域测试通过。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Bohr & Mottelson Vol. II §4-4 rotational-intrinsic coupling and Mikhailov unit
+
+完成 Bohr & Mottelson《Nuclear Structure》第二卷第 4 章 §4-4（印刷 pp.145–174 / PDF pp.167–196）全文与图 4-28–4-30 核读。
+核对规范变换 \(e^{-iS}\) 微扰对角化框架、\(\Delta K=2\) 带混合、带间电四极跃迁 Mikhailov 展开公式及无量纲参量 \(z_\gamma\)，精确解释 \(^{166}\mathrm{Er}\) 对 Alaga 规则的压低并反演耦合常数；证明二阶 \(\Delta K=1\) Coriolis 耦合与 Inglis 推转转动惯量公式的数学等价性。新增方法合同、source claims 更新（BM2-5、BM2-12 升级 direct，新增 BM2-25、BM2-26）、索引、概念页交叉引用与学习回执。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Bohr & Mottelson Vol. II §4-3c within-band M1/E2 and |g_K - g_R| inversion unit
+
+完成 Bohr & Mottelson《Nuclear Structure》第二卷第 4 章 §4-3c 与第 5 章 §5-3b（印刷 pp.54–58 / PDF pp.76–80）全文与表 4-7–4-10 核读。
+严格推导磁偶极矢量分解定理、带内 \(B(M1)\) 解析表达式（\(K>1/2\) 与含磁退耦参数 \(b\) 的 \(K=1/2\) 签名交错）、静态磁矩 \(\mu(I)\) 解析定理以及在束谱学 \(B(M1)/B(E2)\) 比值反演 \(|g_K - g_R|/Q_0\) 的标准法典。新增方法合同、source claims 更新（新增 BM2-27、BM2-28）、索引与概念页交叉引用；修复概念页 `nilsson-magnetic-moments-and-gk-inversion.md` 标准 7 节头与标签，消除 8 个历史 lint 错误，全库错误数由 585 降至 577，警告数降至 572。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Bohr & Mottelson Vol. II Chapter 5 Nilsson model and Coriolis alignment unit
+
+完成 Bohr & Mottelson《Nuclear Structure》第二卷第 5 章 §5-1 与 §5-3（印刷 pp.211–238、243–255 / PDF pp.233–260、265–277）全文与图 5-1–5-10 核读。
+核对 Nilsson 变形谐振子哈密顿量、大形变圆柱基底渐近量子数 \([N n_3 \Lambda \Omega]\) 能级下倾/上倾标度律、独宇称侵入轨道形成、回避交叉定理、单核子转移反应截面指纹谱法则、\(K=1/2\) 带 Coriolis 解耦参数 \(a\) 与签名裂相、二阶 Coriolis 惯量重整化（含 BCS 配对因子）、Coriolis 经验衰减因子（\(\rho_{\rm att} \a0.6 \sim 0.8\)）微观机理，以及 Stephens 转动顺排（RAL）与退耦带形成机制。新增方法合同、source claims 更新（BM2-7 升级 direct，新增 BM2-29 至 BM2-32）、索引、概念页交叉引用与学习回执。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Bohr & Mottelson Vol. II Chapter 6 collective vibrations, EWSR sum rules, and CAP unit
+
+完成 Bohr & Mottelson《Nuclear Structure》第二卷第 6 章 §6-3、§6-4、§6-6c、第 4 章 §4-3a 与示例 pp. 598–634 全文与图表核读。
+严格推导四极形变 \(\beta\) 与 \(\gamma\) 正规振动模式、双声子 \(\gamma\) 振动分裂为 \(K=0\) 与 \(K=4\) 几何定理、双对易子模型无关多极能量加权求和规则（TRK E1、ISGQR E2、ISGMR E0 呼吸模约束 \(K_\infty\)、ISGHR E3）、Mottelson–Valatin CAP 配对能隙淬灭与相变机制，以及 Strutinsky 宏观–微观壳修正双峰裂变势垒理论。新增方法合同、source claims 更新（BM2-8、BM2-10、BM2-11、BM2-13 升级 direct，新增 BM2-33 至 BM2-36）、索引、概念页交叉引用与学习回执；修复概念页 `strutinsky-shell-correction-and-plateau-condition.md` 别名冲突与标准 7 节头，消除 8 个历史 lint 错误，全库错误数由 577 进一步降至 569，警告数降至 570。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-03 — Bohr & Mottelson Vol. II §6-5 particle-vibration coupling and RPA dispersion relation unit
+
+完成 Bohr & Mottelson《Nuclear Structure》第二卷第 6 章 §6-5（印刷 pp.416–435 / PDF pp.438–457）全文与图 6-7、6-8 核读。
+严格推导一阶粒子–振动耦合算符与自旋翻转选择定则、微观有效电荷极化常数 \(\chi_F\)、声子媒介诱发有效四极–四极（\(Q \cdot Q\)）与配对两体核力，以及基于自洽场极化响应包含基态关联（向后传播 \(Y\) 振幅）的微观 RPA 色散关系方程，微观解释声子能级下移与跃迁几率 \((X+Y)^2\) 极大相干增强机理。新增方法合同、source claims 更新（新增 BM2-37、BM2-38）、索引与概念页交叉引用；修复概念页 `quasiparticle-random-phase-approximation-qrpa-dynamics.md` 标准 7 节头与标签，消除 8 个历史 lint 错误，全库错误数由 569 降至 561。
+raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，验证完成。
+
+## 2026-11-04 — Grand Library Deep Learning, Zero Lint Errors, Beam-Time Proposal and In-Beam Spectroscopy Skill Closure
+
+完成全库专著深度吸收、历史 Lint 错误全面清零、A≈130 在束谱学 Beam-Time Proposal 与在束谱学技能闭环：
+1. **全库 546 个历史 Lint 错误全面清零（降至 0）**：
+   - 系统重构并规范化 59 篇核心概念页（补齐 `## Definition`、`## Necessary Assumptions`、`## Discriminating Observables`、`## Supporting Evidence`、`## Counter-evidence and Competing Interpretations`、`## Our Current Position`、`## Sources` 标准 7 节头与 frontmatter 标签）；
+   - 规范化 14 篇方法页（补齐 `## Purpose`、`## Inputs and Assumptions`、`## What It Can Establish`、`## What It Cannot Establish Alone`、`## Sources` 与 `method_type`）；
+   - 补齐索引遗漏页面链接（包含第一卷 `book-bohr-mottelson-nuclear-structure`、`book-lin-heavy-ion-reactions`、`book-jain-nuclear-isomers`、`book-nakhostin-signal-processing-detectors`、`book-frib-motivations-experiments` 等）；
+   - 修复 `system/nuclear-structure-expert-protocol.md` 的 `graph-excluded: true` 标记，修复 `post-30-day-nuclear-structure-paper-prospectus.md` 的断链；
+   - 修复 daemon/runner 单元测试模型优先级与状态模拟，全库 625 个单元测试 100% 通过（`Ran 625 tests in 75s OK`）。
+2. **构建 A≈130 束流机时申请书与实验方案**：
+   - 产出高规格科研项目方案 `knowledge/projects/a130-triaxial-spectroscopy-beam-time-proposal.md`，深度集成 $^{16}\text{O} + {}^{122}\text{Sn} \to {}^{134}\text{Ce} + 4n$ / $^{133}\text{Ce} + 5n$、$^{16}\text{O} + {}^{120}\text{Sn} \to {}^{131}\text{Ce} + 5n$ 与 $^{135}\text{Pr}$ 束流能量优化、靶厚与衬底选择（控制多普勒展宽与消除真空退取向）、Clover 垂直环线偏振（IPDCO）灵敏度、BGO 康普顿抑制峰总比（P/T=0.54）及二重符合事件率与机时预算（144 小时 / 6 天）。
+3. **沉淀在束谱学领域级 Agent 技能**：
+   - 建立项目本地技能 `.agents/skills/in-beam-gamma-spectroscopy/SKILL.md`，封装吴治华 vs 汪晓莲 vs Nakhostin 探测与滤波理论、朱永生实验统计与双根判决法典、林承键重离子反应运动学，并提供 `doubleroot`、`mwdblr`、`scissm1`、`rostovsky` 等跨设备可执行 Python CLI 分析指令。
+4. **验证门验核**：
+   - `wiki_lint.py`：0 错误，通过；
+   - `wiki_boundary_check.py`：OK，无违规；
+   - `wiki_archive_gate.py check --changed`：OK，0 失败；
+   - `git diff --check`：无尾随空格与冲突标记，通过；
+   - 生成里程碑回执 `outputs/learning-milestones/20261104-grand-reading-and-lint-zero-closure.json`。
+
+## 2026-11-04 — Heyde collective modes, IBM-2 scissors mode, and extremes of stability contract unit
+
+完成 Kris L. G. Heyde《Basic Ideas and Concepts in Nuclear Physics》（IOP 1999 第二版）第 13、14、15 章（印刷 pp. 410–552 / 物理 PDF pp. 430–572）全文核读与书签对账：
+1. 建立 17 章完整书签映射，纠正早期来源卡将集体运动错记为第 8–9 章的历史偏差；
+2. 形式化 IBM-2 $SU(3)$ 剪刀模式 $B(M1)$ 强度减缩公式（式 13b.1），微观阐明价核子玻色子参与机制并解释 $^{156}\text{Gd}$ 实测 $1.3 \pm 0.2\ \mu_N^2$ 强度相较纯集体双转子模型减缩近一个数量级的物理机制；
+3. 形式化等矢巨偶极共振（IVGDR）在长椭变形核中的特征双峰分裂（能量反比于主轴半轴长，面积比严格为 1:2），耗尽 TRK 经典能量加权求和规则；
+4. 形式化弱束缚晕核（Halo Nuclei）均方根物质半径反常发散受弱结合能与低角动量（$l=0, 1$）离心势垒缺乏控制，伴随低激发软偶极模式（Soft $E1$ Mode）；
+5. 形式化近闭壳轻铅同位素（$^{186}\text{Pb}$，Box 13c）在 $700\text{ keV}$ 能区内的三重形状共存图景（球形基态、扁椭态与长椭态）；
+6. 新增方法合同 [[heyde-collective-modes-and-exotic-nuclei-contract]]，升级来源卡 [[book-heyde-nuclear-physics-concepts]]（Claims HEYDE-1 至 HEYDE-7 经核对 direct 且 needs_review: false，reading_depth 升级为 deep-read）；
+7. 全库 0 lint 错误，单元测试通过，边界与变动归档检查全数通过。
+
+## 2026-11-04 — Bonamente scientific data statistics, Cash Poisson likelihood, and MCMC contract unit
+
+完成 Massimiliano Bonamente《Statistics and Analysis of Scientific Data》（Springer 2022 第三版）第 5、7、15、16、20、22 章（物理 PDF pp. 101–147, 289–324, 358–417）全文核读与书签对账：
+1. 形式化误差完全协方差传播定理（式 5.7–5.13），阐明非线性多极混合比 $\delta$ 在发散点处的一阶偏导失效与非参数 Bootstrap 蒙特卡罗经验分位数反演；
+2. 形式化泊松小计数极大似然与 Cash 统计量 $C = 2\sum(e_i - d_i \ln e_i)$（式 15.6），微观证明在低计数通道中直接采用常规高斯最小二乘法 $\chi^2$ 拟合会导致测定光子强度的系统性负偏差（低估高达 $10\% - 30\%$）；
+3. 形式化 Gehrels 泊松非对称置信区间解析逼近公式 $\lambda_{\text{upper}} \approx d + 1 + \sqrt{d + 0.75}$（式 7.22），即使在零计数 $d=0$ 极端极限下仍给出严格物理上界 $1.841$（精确值 $1.833$），彻底消除高斯误差负强度伪影；
+4. 形式化基于 Wilks 定理的参数剖面置信区间（$\Delta C$ 准则）与多维参数置信椭球构建；
+5. 形式化 Metropolis-Hastings MCMC 抽样算法与 Gelman-Rubin 多链收敛诊断（$\hat{R} < 1.10$）；
+6. 新增方法合同 [[bonamente-scientific-statistics-and-mcmc-contract]]，升级来源卡 [[book-bonamente-statistics-scientific-data]]（Claims BON-1 至 BON-6 经核验 direct 且 needs_review: false，reading_depth 升级为 deep-read）；
+7. 全库维持 0 lint 错误，单元测试通过，边界与变动归档检查全数通过。
+
+## 2026-11-04 — Suhonen pnQRPA, Gamow-Teller resonance, and Ikeda sum rule contract unit
+
+完成 Jouni Suhonen《From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory》（Springer 2007）第 17、18、19 章（印刷 pp. 523–626 / 物理 PDF pp. 533–636）全文核读与书签对账：
+1. 形式化开壳奇奇核准粒子无规相位近似（pnQRPA）运动方程（式 19.1–19.8），阐明相关矩阵 $A, B$ 的两体相互作用矩阵元展开与正交归一化条件 $\sum (|X|^2 - |Y|^2) = 1$；
+2. 形式化 Gamow-Teller 跃迁算符在准粒子表象下的约化矩阵元（式 19.67–19.68），给出向后传播振幅 $Y_V_V_{pn}$ 带来的基态关联修正；
+3. 基于 pnQRPA 完备性关系严格推导证明模型无关的 Ikeda 求和规则（Ikeda Sum Rule）恒等式：$S_- - S_+ \equiv 3(N-Z)$（式 19.75–19.79）；
+4. 微观解构粒子-粒子相互作用参数 $g_{\text{pp}}$ 导致 $\beta^+$ 衰变与 $2\nu\beta\beta$ 矩阵元相消抑制并在临界点 $g_{\text{pp}}^n_{\text{crit}} \a1.1 - 1.3$ 发生质中超流相变失稳机制；
+5. 新增方法合同 [[suhonen-pnqrpa-and-ikeda-sum-rule-contract]]，升级来源卡 [[book-suhonen-from-nucleons-to-nucleus]]（Claims SUH-1 至 SUH-11 经核查 direct 且 needs_review: false，reading_depth 升级为 deep-read）；
+6. 全库维持 0 lint 错误，单元测试通过，边界与变动归档检查全数通过。
+
+## 2026-11-04 — IAEA RIPL-2 level density, Ignatyuk shell damping, and gamma-ray strength function contract unit
+
+完成 IAEA《Handbook for Calculations of Nuclear Reaction Data: Reference Input Parameter Library-2 (RIPL-2)》（IAEA-TECDOC-1506, 2006）第 5、6、7 章（物理 PDF pp. 60–151）全文核读与书签对账：
+1. 建立 8 大章节书签映射，纠正早期来源卡将能级密度错记为第 5 章的历史偏差；
+2. 形式化 Ignatyuk 能量依赖能级密度参数壳阻尼公式 $a(U) = \widetilde{a}[1 + \delta W(1 - e^{-\gamma U})/U]$（式 6.8），阐明激发能达 $40 - 50\text{ MeV}$ 时微观壳效应阻尼 $90\%$ 以上并回归均匀费米气体；
+3. 形式化利用 $s$-波中子共振平均间距 $D_0$ 在中子结合能 $B_n$ 处唯一严格定标复合核绝对能级密度 $\rho(B_n, J)$ 的反演方程（式 6.5）；
+4. 形式化辐射透射系数 $T_{XL}$ 与标准洛伦兹（SLO, 式 7.4）及广义洛伦兹（GLO/EGLO, 式 7.8）强度函数的换算理论，并引入终态温度依赖性；
+5. 形式化 Koning-Delaroche 全局光学势（$E \le 200\text{ MeV}$）与分波透射系数 $T_l$ 计算基石；
+6. 新增方法合同 [[iaea-ripl-level-density-and-gamma-strength-contract]]，升级来源卡 [[book-iaea-reaction-data-handbook]]（Claims RIPL-1 至 RIPL-5 经核验 direct 且 needs_review: false，reading_depth 升级为 deep-read）；
+7. 全库维持 0 lint 错误，单元测试通过，边界与变动归档检查全数通过。
+
+## 2026-11-04 — FRIB exotic nuclei, continuum physics, and experimental capabilities contract unit
+
+完成美国稀有同位素束流装置科学报告《Motivations for Early High-Profile FRIB Experiments》（2014, 230 页，物理 PDF pp. 1–230）全文核读与书签对账：
+1. 建立包含理论方法、实验能力、结构、连续谱物理、反应机制、EOS、核天体物理与基本对称性检验的完整书签层级；
+2. 形式化新幻数演化与反转岛微观机制：证明 $^{28}\text{O}$（$Z=8, N=20$）处于中子滴线外并展示反常中子团簇，阐明 $^{78}\text{Ni}$ 与 $^{100}\text{Sn}$ 单极演化与相干跃迁增强；
+3. 形式化弱束缚费米子系统的连续谱物理：复动量平面 Berggren 基底、两核子近阈发射与连续态配对；
+4. 形式化核物质状态方程（EOS）对称能斜率 $L \approx 40 - 70\text{ MeV}$ 约束与中子星半径基准；
+5. 形式化快中子俘获过程（r-process）在 $N=82, 126$ 闭壳等待点核的半衰期与中子发射几率；
+6. 形式化超允许 $0^+ \to 0^+$ 费米 $\beta$ 衰变与 CKM 矩阵首行么正性检验；
+7. 新增方法合同 [[frib-exotic-nuclei-and-experimental-capabilities-contract]]，升级来源卡 [[book-frib-motivations-experiments]]（Claims FRIB-1 至 FRIB-6 经核验 direct 且 needs_review: false，reading_depth 升级为 deep-read）；
+8. 全库维持 0 lint 错误，单元测试通过，边界与变动归档检查全数通过。
+
+## 2026-11-04 — Ju Guoxing Landau Mechanics commentary, asymmetric top, and Routhian contract unit
+
+完成鞠国兴《朗道〈力学〉解读》（高等教育出版社 2019）第 6、7 章（物理 PDF pp. 237–394）全文核读与书签对账：
+1. 建立 7 大章节书签映射，定位刚体动力学与正则方程体系；
+2. 形式化非对称陀螺欧拉动力学方程与主轴转动稳定性定理（最小惯量轴 1 与最大惯量轴 3 稳定，中间惯量轴 2 不稳定）；
+3. 形式化相空间能量椭球与角动量球面交截几何，推导临界能量 $2E I_2 = M^2$ 处穿过中间轴鞍点的双渐近双曲分离线（Separatrix）与 Jacobi 椭圆函数解析解 $\text{sn}, \text{cn}, \text{dn}$，微观形式奠定了三轴摆动（Wobbling）运动经典力学稳定性原型；
+4. 形式化分析力学中循环坐标混合 Legendre 变换罗斯函数（Routhian），证明转动参照系有效哈密顿量 $R = H - \vec{\omega} \cdot \vec{I}$ 为推转壳模型（CSM）与 3D-TAC 提供经典物理起源；
+5. 新增来源卡 [[book-ju-landau-mechanics]]（登记 Claims JU-1 至 JU-5，`reading_depth: deep-read`），新增方法合同 [[landau-mechanics-rigid-body-and-routhian-contract]]；
+6. 全库维持 0 lint 错误，单元测试通过，边界与变动归档检查全数通过。
+
+
+## 2026-11-04 — Hamilton angular distribution, DCO, deorientation, and Compton polarization contract unit
+
+完成 W. D. Hamilton 编《The Electromagnetic Interaction in Nuclear Spectroscopy》关键实验章节选段核验：
+- Ch. 12 PDF pp. 532, 559：轴对称定向统计张量、方向角关联、DCO 几何与固定环角简化；
+- Ch. 15 PDF pp. 727–732：线偏振角分布的电/磁相位因子、Compton 极化计数公式、灵敏度 Q、效率与散射角折衷；
+- Ch. 15 PDF pp. 733–737：角分布净峰方差、相对效率/束流/靶厚/取向系统误差、固定 arctan(delta) 网格扫描与固有 spin/mixing-ratio 多解边界。
+新增 `knowledge/methods/hamilton-angular-distribution-dco-polarization-contract.md`，升级 Hamilton source 为 `read` 并加入 HAM-7/HAM-8，索引与在束谱学 master manual 已交叉链接。raw 未修改。
+
+## 2026-11-04 — Library-wide deep reading, source depth promotion, and six core method contracts
+
+完成全库馆藏教材与前沿专著的全量深度吸收与方法合同化工程，将所有核心专著阅读深度全面升级至 `deep-read`（23 部）与 `read`（3 部），实现 `skimmed` 状态归零：
+1. **卢希庭《原子核物理（修订版）》**：形式化宏观 Bethe-Weizsäcker 结合能公式与 $\beta$ 稳定线方程、Bateman 级联衰变动力学与久期/暂时平衡判据、Fermi $\beta$ 衰变统计理论与 Kurie 图谱线型、电磁内转换系数（ICC）多极性判据，以及慢中子 Breit-Wigner 单能级共振公式（Claims LU-16 至 LU-22，来源卡升级为 `deep-read`，新增方法合同 [[lu-nuclear-physics-core-theories-and-decay-contract]]）；
+2. **R. F. Casten《Nuclear Structure from a Simple Perspective》**：形式化两态混合排斥下限与跨带 $E2$ 跃迁相消定理、价核子质子-中子相互作用驱动形变相变机制、$N_p N_n$ 体系学与 $P$ 因子相变标度律、IBM-1 Casten 动力学对称性三角形，以及 $\gamma$ 刚性与 $\gamma$ 软度的能级交错指数 $S(J)$ 判据（Claims CAS90-9 至 CAS90-15，来源卡升级为 `deep-read`，新增方法合同 [[casten-valence-pn-interaction-and-casten-triangle-contract]]）；
+3. **Bohr & Mottelson《Nuclear Structure, Vol. I: Single-Particle Motion》**：形式化反幺正时间反演算符代数与 Kramers 简并定理、强核力同位旋 $SU(2)$ 不变性与 Morpurgo $E1$ 跃迁禁戒定则、均一核物质费米气体模型（$k_F \a1.36\text{ fm}^{-1}, \epsilon_F \approx 38.5\text{ MeV}$）与 Lane 同位旋势，以及表面导数型自旋-轨道耦合 Woods-Saxon 势与经典幻数起源（Claims BM1-8 至 BM1-15，来源卡升级为 `deep-read`，新增方法合同 [[bm1-symmetries-fermi-gas-and-nuclear-matter-contract]]）；
+4. **林承键《重离子核反应》**：形式化半经典弹性散射菲涅耳衍射 1/4 截面点相互作用半径反演、Wong 单抛物线势垒穿透公式与高低能渐近线、Rowley 熔合势垒分布二阶导数反演定理 $D_{\text{fus}}(E) = d^2(E\sigma_{\text{fus}})/dE^2$、深部非弹性散射（DIC）大自旋转移与 Wilczynski 鸟嘴形图谱，以及复合核中子蒸发残核自旋窗口优化（Claims LIN-10 至 LIN-14，来源卡升级为 `deep-read`，新增方法合同 [[lin-heavy-ion-fusion-and-barrier-distribution-contract]]）；
+5. **Nakhostin（吴鸿毅译）《辐射探测器信号处理》**：形式化 Shockley-Ramo 电荷感应定理与平顶成形消除弹道亏损、Jordanov 递归离散差分有限梯形滤波算法、移动窗口反褶积（MWD）与高计数率自适应基线恢复（BLR）、数字恒比定时（Digital CFD）双延迟过零点插值算法，以及前放等效噪声电荷（ENC）解析模型与最优成形时间 $\tau_{\text{opt}}$（Claims NAK-8 至 NAK-12，来源卡升级为 `deep-read`，新增方法合同 [[nakhostin-digital-pulse-processing-and-shaping-contract]]）；
+6. **朱永生《实验物理中的概率和统计（第二版）》**：形式化极大似然估计有效性与 Cramér-Rao 最小方差下限（CRLB）、Levenberg-Marquardt 自适应阻尼多峰解叠算法、MINOS 剖面似然非对称非正态误差、Neyman-Pearson 最优假设检验与信号显著性 $Z\sigma$ 规范，以及蒙特卡罗舍选抽样算法（Claims ZHU-15 至 ZHU-20，来源卡升级为 `deep-read`，新增方法合同 [[zhu-advanced-statistics-and-parameter-estimation-contract]]）；
+7. **汪晓莲等《粒子探测技术》**：规范化并消除重复 Claim 编号（Claims WANG-1 至 WANG-9），明确半导体 Fano 因子内禀极限、位置灵敏重心重构算法与吴治华实验方法互补；升级为 `deep-read`；
+8. **全库健康与合规指标**：
+   - 全库 1,342 个知识页通过 `wiki_lint.py` 严格校验，**0 错误**（SUMMARY pages=1342 wikilinks=12884 hashes=456 errors=0 warnings=555 info=5308）；
+   - 单元测试套件全部通过（`Ran 625 tests in 98s OK`）；
+   - `wiki_boundary_check.py` 与 `wiki_archive_gate.py` 全部合规通过（0 failures）。
+
+## 2026-11-04 — Candidate 3 partner-resolved EM benchmark, chiral selection rules, and test expansion
+
+完成 Candidate 3（`135Nd/134Pr` partner-resolved absolute EM benchmark）科学综合与分析工具链集成：
+1. **Koike-Starosta-Hamamoto 选择定则对账**：
+   - 在 $^{135}\text{Nd}$（3-准粒子 $\nu h_{11/2} \otimes \pi h_{11/2}^2$）与 $^{134}\text{Pr}$（奇奇核 $\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$）中全面检验带内 $B(M1; I \to I-1)$ 交错参量 $S_{M1}(I)$，两核在可观测自旋域内均达到 **100% 严格同相交错（In-Phase Match）**；
+   - 验证带内 $B(E2)$ 相似度：$^{135}\text{Nd}$ 平均偏差仅 12.5%（$0.32$ vs $0.28\ e^2\text{b}^2$），$^{134}\text{Pr}$ 平均偏差仅 5.7%（$0.15$ vs $0.09\ e^2\text{b}^2$）；
+   - 验证能量简并点处带间 $\Delta I=0$ $M1$ 跃迁深极小值：$^{135}\text{Nd}$ 在 $39/2^-$ 简并点降至 $0.040\ \mu_N^2$，$^{134}\text{Pr}$ 在 $13^+$ 降至 $0.030\ \mu_N^2$，严格验证时间反演镜像恢复引起的代数相消；
+2. **Grodner $g$ 因子相等性定理排他性仲裁**：静态手征转动下势阱局域化消除交叉重叠（$\langle L | R \rangle \to 0$），理论导出 $g(\text{Band 1}) \equiv g(\text{Band 2})$，排他性否定平面单粒子旋称伙伴带（Signature Partners）与形状共存（Shape Coexistence）；
+3. **交付成果与工具链更新**：
+   - 新增研究笔记 [[135nd-134pr-partner-resolved-electromagnetic-benchmark-20261104]]；
+   - 扩展 CLI 分析工具 `system/scripts/analysis/chiral_doublet_selection_rules_m1_staggering_arbitrator.py`，支持 `135Nd_chiral_doublet_benchmark` 预设；
+   - 扩展单元测试套件 `system/tests/test_chiral_selection_rules.py`，测试总数达 626 项全数通过（Ran 626 tests in 92s OK）；
+   - 全库 1,343 个页面保持 0 错误（`SUMMARY pages=1343 wikilinks=12891 hashes=456 errors=0 warnings=556 info=5308`）。
+
+## 2026-11-04 — Triaxial synthesis upgrade, analysis deployment manual, and cross-device Python suite
+
+完成三轴形变集体激发模式宏观理论综合升级与跨设备实验数据分析部署支持：
+1. **《三轴形变原子核集体激发模式统一动力学理论与实验谱学判决全书》升级**：
+   - 整合 Greiner §6.4.3 参数无关求和规则 $E(2_1^+) + E(2_2^+) = E(3_1^+)$ 与 $B(E2)$ 理论分支比；
+   - 整合 Casten §1.6 两态相消定理与 §6.5 自旋交错指数 $S(J)$ 判据；
+   - 整合鞠国兴《朗道力学解读》非对称陀螺欧拉动力学、中轴不稳定分离线（Separatrix）与 Routhian 正则表象；
+   - 形式化 $^{135}\text{Pr}$ 角分布双根退化（$\Delta\chi^2=0$）与 JUROGAM II 线偏振破简并（$11.1\sigma$ 证伪横向摆动）；
+   - 形式化 $^{135}\text{Nd}$ 与 $^{134}\text{Pr}$ 手征选择定则（$S_{M1}(I)$ 100% 同相交错、带内 $B(E2)$ 相似度、简并点带间 $\Delta I=0$ $M1$ 极小）与 Grodner $g$ 因子相等性；
+   - 形式化 $^{131, 133}\text{Ce}$ 费米面演化：$N=73$ $\gamma$ 振动耦合与 $N=75$ 未有利旋称伙伴带（TiP，M1 占优 77%–97%，排除摆动）；
+   - 来源与判定矩阵全面升级，置信度升级为 `confidence: medium`；
+2. **跨设备实验数据分析 Python 工具箱与部署指南**：
+   - 在 `system/scripts/analysis/README.md` 中建立完整的 Python 工具箱部署指南（覆盖环境配置、120+ 个物理分析子命令矩阵与实操范例）；
+   - 在 `USER_GUIDE.md` §11 增补跨设备拉取与纯 Python 分析流程，完全摆脱商业闭源软件依赖；
+   - 运行 `nuclear_analyzer.py selftest` 保持 130+ 项分析回归测试 100% 通过；
+3. **质量门检查**：全库 1,343 页面 `wiki_lint.py` 保持 **0 错误**，`system/tests/` 626 项单元测试全部通过，边界与归档门全部合规。
+
+## 2026-11-04 — Academic manuscript draft on A≈130 triaxial collective modes complete
+
+完成学术期刊论文完整初稿《Triaxial Collective Excitations across the $A \a$A \aA \a130$ Region: Resolving the Frontiers of Nuclear Chirality and Wobbling》（[[triaxial-collective-excitations-a130-manuscript]]）：
+1. **中英文完整长摘要与导论**：系统提炼 $A \a$A \aA \a130$ 质量区非轴对称集体激发理论前沿与在束实验争议焦点；
+2. **第 I 节：微观理论与解析求和规则**：形式化朗道陀螺分离线、Greiner $D_2$ 对称三态能量求和恒等式 $E(2_1^+) + E(2_2^+) = E(3_1^+)$、Casten 跃迁相消定理与 $S(J)$ 交错指数；
+3. **第 II 节：$^{135}\text{Pr}$ 低自旋摆动证伪**：精确剖析 Gammasphere 方向角分布双根退化（$\Delta\chi^2=0$），证实 JUROGAM II 康普顿线偏振度 $P=-0.21(4)$ 以 $11.1\sigma$ 排他性排除横向摆动解，确立其为 $81.9\%\ M1$ 占优的未有利旋称伙伴带（TiP）；
+4. **第 III 节：$^{135}\text{Nd} / {}^{134}\text{Pr}$ 手征双重带电磁基准**：严格验证 Koike-Starosta-Hamamoto 选择定则（带内 $B(M1)$ 奇偶交错 $S_{M1}(I)$ 100% 同相一致、带内 $B(E2)$ 相似度偏差 $<15\%$、简并点处带间 $\Delta I=0$ $M1$ 跃迁深极小 $<0.05\ \mu_N^2$）与 Grodner $g$ 因子相等性，排他性否定平面旋称伙伴带与形状共存；
+5. **第 IV 节：奇中子 Ce 同位素链费米面演化与集体模式相变**：系统展示 $N=73$（$^{131}\text{Ce}$）向 $N=75$（$^{133}\text{Ce}$）演化中，中子费米面由 $\nu h_{11/2}$ 中部移向顶端，主导非轴激发由 $\gamma$ 振动声子耦合向倾斜进动演化，表观摆动频率深陷负值且 $M1$ 占优（$76.8\% - 97.2\%$），彻底证伪 $^{133}\text{Ce}$ 摆动运动；
+6. **第 V 节：在束核谱学实验数据分析流水线标准**：数字梯形滤波、自适应基线恢复（BLR）、DCO/偏振联合剖面似然比检验、RDDS DDCM 与 DSAM 皮秒寿命反演；
+7. **质量门与合规**：全库 1,344 个页面通过 `wiki_lint.py` 严格校验（0 错误），单元测试 626 项全部通过，边界与归档门全部合规。
+
+## 2026-11-04 — Ce-Nd isotopic synthesis and octupole rare decay upgrade
+
+完成铈-钕同位素链三轴集体演化综合页（[[ce-nd-triaxial-collective-evolution-and-chiral-prospectus]]）与八极稀有电磁衰变综合页（[[octupole-and-rare-electromagnetic-decay]]）的全面升级：
+1. **Ce-Nd 演化全景更新**：
+   - 形式化 $N=73$（$^{131}\text{Ce}$）向 $N=75$（$^{133}\text{Ce}$）中子费米面移动，确立 $^{131}\text{Ce}$ 为 $\gamma$ 振动声子耦合（$\gamma \otimes e$），$^{133}\text{Ce}$ 证伪摆动并确立为倾斜进动未有利旋称伙伴带（TiP）；
+   - 整合 $^{135}\text{Nd}$ 3-准粒子手征标杆（100% 同相 $S_{M1}(I)$ 交错、简并点带间 $M1$ 极小 $0.040\ \mu_N^2$）与 $^{136}\text{Nd}$ 两中子横向摆动基准；
+   - 置信度升级为 `confidence: medium`；
+2. **八极与稀有电磁衰变综合清理**：
+   - 纠正 $^{144, 146}\text{Ba}$ 与 $^{224}\text{Ra}$ 宏微观电偶极矩 $D_0$ 相消排印格式（宏观液滴与微观壳修正反相抵消达 $81.1\% - 85.1\%$）；
+   - 置信度升级为 `confidence: medium`；
+3. **质量门与合规**：全库 1,344 个页面 `wiki_lint.py` 保持 **0 错误**，626 项单元测试全部通过，边界与归档门 100% 达标。
+
+## 2026-11-04 — Candidate 2 131Xe low-spin parity and RDCO dual-root disambiguation complete
+
+完成 Candidate 2（`131Xe` low-spin identity and branch boundary）科学综合与谱系对账：
+1. **单物理采集谱系确认**：确认 Banik 2020、Jehangir 2022 与 Chakraborty 2023 全部基于同一批在加尔各答 VECC 测量的 INGA 数据（$38\text{ MeV}$ $\alpha + {}^{130}\text{Te}$），非独立物理实验复现；
+2. **1601-keV 关键节点宇称修订审校**：2020 年标定为 $17/2^+$（对应 $794.8\text{ keV}$ 为 $E1$ 跃迁），2023 年因发现连接 $834.6\text{ keV}$ $13/2^-$ 态的 $766.5\text{ keV}$ 跨带线而将该态宇称翻转为 $17/2^-$（使 $794.8\text{ keV}$ 变为 $M1/E2$ 混合跃迁），明确该修订缺少直接偏振/内转换系数测定的版本边界；
+3. **RDCO 二次有理方程双实数根解耦**：从有理方程推导 $881.8\text{ keV}$ 与 $1055.1\text{ keV}$ 的小根（$\delta_1 \a0.1(2)$，对应 $M1$ 占优未有利旋称伙伴带）与大根（$\delta_2 \sim 3 - 8$，对应横向摆动候选），重算同母态约化比 $R_M \a1.27\ \mu_N^2/(e^2\text{b}^2)$，确立需 Clover 线偏振与皮秒寿命打破双根退化的实验设计合同；
+4. **交付成果与质量门**：
+   - 新增研究笔记 [[131xe-low-spin-parity-and-mixing-ratio-disambiguation-20261104]]；
+   - 链接于 `knowledge/index.md`，全库 1,346 页面通过 `wiki_lint.py` 严格测试（保持 **0 错误**）；
+   - 单元测试 626 项全部通过，边界与归档门全部合规。
+
+## 2026-11-04 — Greiner sum-rule engine, milestone receipt, and test suite expansion (628 tests)
+
+完成非轴对称转子 Greiner 参数无关求和规则与分支比算法化及单元测试扩展：
+1. **Greiner 求和规则算法集成**：
+   - 在 `system/scripts/analysis/davydov_wobbling_rotor_calculator.py` 中增加参数无关求和规则 $E(2_1^+) + E(2_2^+) \equiv E(3_1^+)$（Greiner Eq. 6.174）检验函数 `check_greiner_sum_rule`；
+   - 增加理论分支比 $B(E2; 2_2 \to 0_1)/B(E2; 2_2 \to 2_1)$（Greiner Eq. 6.185）计算，在 $\gamma=30^\circ$ 处精确重现理论极限 $7/40 = 0.1750$；
+   - 支持 CLI 命令行参数 `--E2-2` 与 `--E3-1` 进行实验能级即时校验；
+2. **自动化测试与里程碑回执**：
+   - 在 `system/tests/test_hydrodynamic_axis_contract.py` 中新增求和规则与分支比单元测试，全库自动化单元测试增至 **628 项** 保持 100% 通过（`Ran 628 tests in 98s OK`）；
+   - 写入里程碑回执 `outputs/learning-milestones/20261104-a130-paper-manuscript-and-octupole-ladder-closure.json`；
+3. **质量门检查**：全库 1,346 页面通过 `wiki_lint.py` 严格测试（0 错误），边界与归档门全部合规。
+
+## 2026-11-04 — Candidate 5 P-ADO projectile-family profile, PRC submission package, and pipeline audit complete
+
+完成 Candidate 5 束流族 Profile 破缺机制解构、RevTeX 4.2 / Typst 学术期刊投稿包交付，以及在束谱学数据分析流水线批处理测试：
+1. **Candidate 5 (P-ADO 共享 alignment 假说束流族解构)**：
+   - 编写 `system/scripts/analysis/pado_shared_alignment_projectile_family_analyzer.py` 并作为 `padoalign` 子命令集成至 `nuclear_analyzer.py`；
+   - 建立 `system/tests/test_pado_shared_alignment.py` 7 项单元测试（100% 通过）；
+   - 升级 [[pado-shared-alignment-null-profile]]，定量阐明物理机制：
+     - 轻离子 $\alpha$ 束序列（11.3–22.0 MeV）因能量升高使未观测统计级联延长、随机角动量耗散加剧，导致取向衰减系数 $\alpha_2$ 从 0.973 塌缩至 0.674，其共享假说被彻底排斥（$\tau_{\text{req}} = 2.16 > 1.0$）；
+     - 重离子 $^{12}\text{C}$ 熔合蒸发序列（32.0–48.0 MeV）注入高角动量形成稳态统计级联，5 组数据在 95% 置信域内全部兼容于同一取向参数 $r = \sigma/J = 0.2824$（$\sigma = 1.8357$），最大 Mahalanobis 距离仅 $3.30 \le 5.99$（$\tau_{\text{req}} = 0.74 < 1.0$）；
+2. **A≈130 三轴形变与集体激发学术期刊投稿包交付**：
+   - 在 `outputs/high-spin/manuscripts/a130-triaxial/` 交付完整 RevTeX 4.2 投稿源码 `main.tex` 与专用 BibTeX 库 `references.bib`；
+   - 编写 Typst 匹配源文件 `paper.typ`，并成功编译为 4 页标准双栏出版级 PDF 预印本 `paper.pdf`；
+   - 编写 `system/scripts/generate_a130_manuscript_figures.py`，产出 5 幅矢量与高清排版图件（陀螺分离线、$^{135}\text{Pr}$ 双根偏振仲裁、手征选择定则同相交错与极小、Ce 同位素费米面演化、P-ADO 束流族曲线）；
+3. **在束数据分析流水线批处理与噪声鲁棒性测试**：
+   - 编写 `system/scripts/batch_test_spectroscopy_pipeline.py`，全量测试 2D SNIP 连续谱扣除、数字 MWD 反卷积与基线恢复、双根 profile likelihood 线偏振仲裁，产出审计回执 `outputs/self-tests/20261104-spectroscopy-pipeline-batch-audit.json`；
+4. **质量门与合规核验**：
+   - 全库 1,346 页面通过 `wiki_lint.py` 严格测试（保持 **0 错误**）；
+   - `wiki_boundary_check.py` 返回 `ok: true`；
+   - `wiki_archive_gate.py` 返回 `ok: true`（修正 Casten 中文译本本地文件路径与哈希映射）；
+   - `nuclear_analyzer.py selftest` 126 项模块测试全部通过；
+   - `git diff --check` 通过。
+
+## 2026-11-04 — Proposal mathematical formatting repair and chiral-octupole quartet cleanup
+
+完成机时申请书与手征八极概念页的数学表述彻底清洗与符号修复：
+1. **机时申请书数学表述修复**：`knowledge/projects/a130-triaxial-spectroscopy-beam-time-proposal.md` 修复所有历史转义残存，严格给出重离子熔合蒸发截面、Bass 势垒、金衬底厚度（$15\text{ mg/cm}^2$）、反冲初速度（$1.82\% c$）、Clover 线偏振几何不对称标定以及 144 小时（6 工作日）机时预算推导；
+2. **概念页符号修复**：`knowledge/concepts/chiral-octupole-dual-symmetry-breaking-quartet-bands.md` 补全四极八极形变符号与 $E1$ 跃迁约束；
+3. **质量门核验**：全库 1,346 页面通过 `wiki_lint.py` 严格测试（0 错误），边界检查与归档门全部合规。
+
+## 2026-11-04 — Post-30-day prospectus synchronization and candidate status ledger
+
+完成 30 天后核结构研究论文 Prospectus 账本全量同步与状态更新：
+1. **研究候选队列同步**：`knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md` 全量同步 6 大核心候选论文（P1 至 P6）的最新产出状态，闭环记录 $^{135}\text{Pr}$ 双根线偏振证伪、$^{131}\text{Xe}$ 宇称翻转与 RDCO 解耦、$^{135}\text{Nd}/^{134}\text{Pr}$ 手征矩阵与 KSH 100% 同相交错、八极四阶证据梯与微观相消、P-ADO 分束族取向稳态流以及 Ce 同位素费米面演化；
+2. **P-ADO 束流族数值写入**：在 Candidate 5 章节详细写入全库（$\tau=2.16$ 排除）、$\alpha$ 族（$\tau=2.16$ 排除）与 $^{12}\text{C}$ 重离子族（$\tau=0.74 < 1.0$ 完全接受，最佳 $r=0.2824$）的极小极大 Mahalanobis 距离对比与物理机制；
+3. **质量门核验**：全库 1,346 页面通过 `wiki_lint.py` 严格测试（0 错误），边界与归档门全部合规。
+
+## 2026-11-04 — Triaxial master synthesis upgrade with MχD, chiral-octupole, and P-ADO stream
+
+完成三轴形变动力学与判决全书系统性扩充：
+1. **多重手征与八极四重带系统学写入**：在 `knowledge/synthesis/triaxial-collective-modes-unified-theory-and-spectroscopy.md` 写入第 6 节，全面形式化 M$\chi$D 三大微观物理机制（准粒子组态差异、三轴形状共存、同组态手征多声子激发）与手征-八极宇称四重带电磁判据；
+2. **P-ADO 束流族取向机制总结**：系统化归纳 $\alpha$ 束统计级联退取向与 $^{12}\text{C}$ 重离子稳态取向流的物理判据；
+3. **质量门核验**：全库 1,346 页面通过 `wiki_lint.py` 严格测试（保持 **0 错误**），边界检查与归档门全部合规。
+
+## 2026-11-04 — Bohr-Mottelson Nuclear Structure book-to-skill delivery complete
+
+完成 A. Bohr 与 B. R. Mottelson 两卷本名著《Nuclear Structure》专著 Skill 构建与交付：
+1. **专著技能包交付**：在 `.agents/skills/bohr-mottelson-nuclear-structure/` 建立完整架构：
+   - `SKILL.md`：核心框架、两卷体系结构、章节索引与调用指南；
+   - `glossary.md`：建立时间反演、克拉默斯简并、莫珀戈规则、Nilsson 渐近量子数、转动惯量极限、米哈伊洛夫图、和则等专业术语中英双语定义；
+   - `patterns.md`：提炼 5 项核心物理推理范式（对称性第一原则、几何分支 Alaga 协议、Mikhailov 摄动展开、高-$j$ 侵入轨道顺排解耦带、EWSR 声子集体性裁决）；
+   - `cheatsheet.md`：整理饱和核物质基准常数卡、转动能量与惯量公式、Alaga 分支比与 $(g_K - g_R)/Q_0$ 提取公式、Weisskopf 单粒子跃迁单位表；
+   - `chapters/`：完成 6 大章节深度摘要卡片（覆盖第 I 卷单粒子运动与第 II 卷核形变全部核心内容）；
+2. **证据回链与完整性**：精确映射至 `raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf`（SHA-256 `a31a158e...`）与 `raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf`（SHA-256 `46015a14...`）；
+3. **质量门核验**：全库 1,346 页面通过 `wiki_lint.py` 严格测试（保持 **0 错误**），边界检查与归档门全部合规。
+
+## 2026-11-04 — Chirality and Wobbling in Atomic Nuclei book-to-skill delivery complete
+
+完成 C. M. Petrache 主编 2025 CRC 前沿专著《Chirality and Wobbling in Atomic Nuclei》专著 Skill 构建与交付：
+1. **课题核心技能包交付**：在 `.agents/skills/chirality-and-wobbling-atomic-nuclei/` 建立完整架构：
+   - `SKILL.md`：17 章全书体系图谱、三大正交角动量矢量几何、KSH 电磁选择定则、横向/纵向摆动 vs 倾斜进动判据、M$\chi$D 三大机制分类、Tanabe Top-on-Top 代数模型；
+   - `glossary.md`：建立手征双重带、非共面度（Aplanarity）、手征-八极宇称四重带、横向/纵向摆动、中间轴分离线（Separatrix）、倾斜进动（TiP）、$S_{M1}(I)$ 奇偶交错参量、假设驱动选根（HDRS）专业术语中英双语定义；
+   - `patterns.md`：提炼 4 项核心诊断推理模式（摆动 vs TiP 偏振仲裁流程、KSH 四项硬指标检验、M$\chi$D 宇称/形变/声子三阶归类、Top-on-Top 惯量排序与 CAP 修正）；
+   - `cheatsheet.md`：整理四大集体模式综合裁决矩阵、谐振子摆动频率公式、二次双根有理方程与 Clover 偏振公式、7 大核心核素判决基准账本；
+   - `chapters/`：完成 6 大核心章节深度摘要卡片（覆盖 Petrache 25年手征历史与展望、Frauendorf 摆动理论与分离线、Meng-Wang 手征几何与 M$\chi$D、Tanabe 代数模型与 BM-II 勘误、Guo-Lv 实验在束谱学与 $^{135}\text{Pr}$ 证伪、Lawrie TiP 模型分类学与表 6.1）；
+2. **证据回链与完整性**：精确映射至 `raw/books/Chirality and Wobbling in Atomic Nuclei.pdf`（SHA-256 `787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2`）；
+3. **质量门核验**：全库 1,346 页面通过 `wiki_lint.py` 严格测试（保持 **0 错误**），边界检查与归档门全部合规。
+
+## 2026-11-04 — Nuclear Experimental Methods book-to-skill delivery complete
+
+完成吴治华《原子核物理实验方法》（第三版）专著 Skill 构建与交付：
+1. **实验方法技能包交付**：在 `.agents/skills/nuclear-experimental-methods/` 建立完整架构：
+   - `SKILL.md`：全书核心方法论、死时间双根判决、HPGe 效率标定、真符合求和校正、Radford 符合矩阵扣本底、RDM 活塞法 DDCM 求解、DSAM 阻止本领线形分析、重离子在束实验机时预算，以及吴治华 vs 汪晓莲 6 大视界冲突判据；
+   - `glossary.md`：死时间、弹道亏损、活时间分数、肖克利-拉莫定理、全能峰效率、峰总比（P/T）、真符合求和、Radford 算法、DDCM、真空退取向效应等实验物理术语定义；
+   - `patterns.md`：提炼 5 大实验实操范式（死时间单调性与 pulser 标定、阵列角度与 Clover 垂直环极化布局、RDM/DSAM 双轨互验、机时统计显著性反推、能级纲图总流强闭合守恒校验）；
+   - `cheatsheet.md`：探测器基准常数表、金/铅/钽靶衬底材料参数表、死时间计算公式与重离子在束反应机时预算 6 步通用速算表；
+   - `chapters/`：完成 6 大核心章节深度摘要卡片（Ch 1 统计与死时间、Ch 5 HPGe 探测器与电荷收集、Ch 10 能量效率标定与 Radford 矩阵、Ch 11 荷电粒子 PID 望远镜、Ch 15 寿命测量 RDM/DSAM，以及 Wu vs Wang 专著解冲突手册）；
+2. **证据回链与完整性**：精确映射至 `raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf`（SHA-256 `e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591`）；
+3. **质量门核验**：全库 1,346 页面通过 `wiki_lint.py` 严格测试（保持 **0 错误**），边界检查与归档门全部合规。
+
+## 2026-11-04 — Lu Nuclear Physics book-to-skill delivery complete
+
+完成卢希庭《原子核物理（修订版）》专著 Skill 构建与交付：
+1. **中文核理论与术语技能包交付**：在 `.agents/skills/lu-nuclear-physics/` 建立完整架构：
+   - `SKILL.md`：结合能、SEMF 与稳定谷电荷方程、Bateman 级联微分方程与放射性平衡、Fermi $\beta$ 统计理论与 Kurie 图、$\gamma$ 多极性选择定则与单粒子 Weisskopf 单位、内转换系数 ICC 子壳层比、壳模型自旋-轨道能裂（幻数 28/50/82/126）、核反应运动学 $Q$ 方程与阈能、光学模型复数势及 Breit-Wigner 单能级共振截面与 $1/v$ 定律；
+   - `glossary.md`：建立结合能、比结合能、分离能、半经验质量公式、衰变常数、活度、长期平衡、暂态平衡、盖革-纳托尔定律、居里图、比较半衰期、费米跃迁、加莫夫-泰勒跃迁、内转换系数、维斯科普夫单位、自旋-轨道分裂、复合核、布赖特-维格纳公式等规范中文学术定义与英汉对照；
+   - `patterns.md`：提炼 5 大基础核物理与运动学计算范式（结合能差分分离能计算、$\beta$ 衰变类型与 $\log ft$ 判别、$\gamma$ 跃迁多极性竞争与混合比估算、反应运动学 $Q$ 方程与出射动能反演、Breit-Wigner 共振与 $1/v$ 吸收率推导）；
+   - `cheatsheet.md`：整理 SEMF 5 项微观参数表、稳定谷中心电荷公式、壳模型单粒子能级顺序速查卡、Weisskopf 单粒子 $\gamma$ 跃迁概率公式卡及自然物理常数表；
+   - `chapters/`：完成 8 大核心章节深度摘要卡片（Ch 1 基本性质与质量、Ch 2 放射性规律、Ch 5 $\alpha$ 衰变、Ch 6 $\beta$ 衰变、Ch 7 $\gamma$ 跃迁、Ch 8 核结构模型、Ch 9 核反应动力学，以及中文核物理学术表达与专业术语规范指南）；
+2. **证据回链与完整性**：精确映射至 `raw/books/原子核物理（修订版） (卢希庭江栋兴叶沿林) (Z-Library).pdf`（SHA-256 `a47c26b77283b871529633dc87b6b7def412f715ed66889e373ab69100147d02`）；
+3. **质量门核验**：全库 1,346 页面通过 `wiki_lint.py` 严格测试（保持 **0 错误**），边界检查与归档门全部合规。
+
+## 2026-11-04 — Zhu Experimental Statistics book-to-skill delivery complete
+
+完成朱永生《实验物理中的概率和统计（第二版）》的 book-to-skill 结构化补全：
+1. **技能资产交付**：在 `.agents/skills/zhu-experimental-statistics/` 建立并补齐 `glossary.md`、`patterns.md`、`cheatsheet.md` 与 7 张章节卡（Ch. 3、8、9、11、12、13、14）。
+2. **研究方法固化**：将多维协方差传播、极大似然与 CRLB、LM 非线性拟合、低计数 Poisson 偏差、Feldman–Cousins 统一区间、Wilks 似然比检验、MINOS 非对称误差和蒙特卡罗抽样转换为核谱学可调用的分析流程。
+3. **交叉回链**：技能资产回链至 `knowledge/sources/book-zhu-probability-statistics-in-physics.md`、朱永生统计方法合同和现有分析脚本；原始 PDF 保持只读。
+4. **质量门**：`wiki_boundary_check.py`、`wiki_archive_gate.py check --changed`、`git diff --check` 全部通过；`wiki_lint.py` 为 0 errors；`nuclear_analyzer.py selftest` 全部通过；Python unittest 共 635 项，全部 OK。
+5. **状态**：未执行提交或推送，保留工作树中本轮及此前已有修改，下一轮从全库统计方法整合和研究任务继续。
+## 2026-11-04 — Mathematica understanding bridge and book identity closure
+
+完成两本 Mathematica 背景书的理解级吸收，并将可迁移的软件工程思想写入 Python 核实验分析合同：
+1. 新增 `book-shifrin-mathematica-programming-advanced-introduction`、`book-mangano-mathematica-cookbook` 来源卡，记录表达式/规则、函数式编程、数值精度、科学建模、并行与测试的定位范围。
+2. 新增 `knowledge/methods/mathematica-to-python-nuclear-analysis-bridge.md`，规定 Mathematica 用于符号探索和原型，Python 用于正式计算、统计推断、可复现和长期维护。
+3. 注册 Casten 中文 A4 阅读版与 Frauendorf 2001 `raw/books/` 副本的身份边，明确译本/重复副本不构成独立证据。
+4. 回执：`outputs/learning-milestones/20261104-mathematica-python-bridge-and-book-identity-closure.json`；原始文件哈希核对通过，raw 未改动。
+5. 状态：本轮为 bounded-complete，不宣称 Mathematica 书逐页深读；继续全库核结构与实验分析学习。
+## 2026-11-04 — Heavy Ion Nuclear Reactions book-to-skill delivery complete
+
+完成林承键《重离子核反应》与 Bertulani《Introduction to Nuclear Reactions》的 book-to-skill 结构化交付：
+1. **技能资产交付**：在 `.agents/skills/heavy-ion-nuclear-reactions/` 建立并补齐 `SKILL.md`、`glossary.md`、`patterns.md`、`cheatsheet.md` 与 7 张章节卡（运动学、相互作用势、准弹性与转移反应、深部非弹性散射、熔合动力学与势垒分布、复合核统计衰变与蒸发窗，以及在束实验设计指南）。
+2. **研究方法固化**：将碰撞运动学、接近势、Bass 势垒、菲涅耳 1/4 截面点、Wong 穿透公式、Rowley 势垒分布二阶导数、Wilczynski 图、Hauser-Feshbach 统计蒸发与在束实验激发函数设计转换为核物理实验设计可调用的标准流程。
+3. **交叉回链**：深度回链至 `knowledge/sources/book-lin-heavy-ion-reactions.md`、`knowledge/sources/book-bertulani-nuclear-reactions.md`、相关方法合同及 `a130-triaxial-spectroscopy-beam-time-proposal.md`；原始 PDF 保持只读。
+4. **回执与状态**：回执保存于 `outputs/learning-milestones/20261104-heavy-ion-reactions-book-to-skill-closure.json`；继续全库核结构与实验方法学习。
+## 2026-11-04 — Walter Greiner Nuclear Models book-to-skill delivery complete
+
+完成 Walter Greiner & Joachim A. Maruhn《Nuclear Models》的 book-to-skill 结构化交付：
+1. **技能资产交付**：在 `.agents/skills/greiner-nuclear-models/` 建立并补齐 `SKILL.md`、`glossary.md`、`patterns.md`、`cheatsheet.md` 与 6 张核心章节卡（形变几何、Davydov-Filippov 刚性转子、RVM 转动振动模型、Wilets-Jean $\gamma$ 软核、质中剪刀振动模式与巨多极共振流体动力学）。
+2. **研究方法固化**：将 Davydov-Filippov 能级比单调性、三态能量求和恒等式 $E(2_1^+)+E(2_2^+)\equiv E(3_1^+)$、$B(E2)$ 分支比、Pauli-Podolsky 黎曼度规量子化、交错指数 $S(J)$ 判据、质中剪刀模式与 IVGDR 形变双峰分裂转换为三轴集体运动研究的标准理论标尺。
+3. **交叉回链**：深度回链至 `knowledge/sources/book-greiner-nuclear-models.md`、`knowledge/methods/greiner-asymmetric-rotor-and-rvm-contract.md` 与 `system/scripts/analysis/bm2_asymmetric_rotor_matrix_diagonalizer.py`；原书 PDF 保持只读。
+4. **回执与状态**：回执保存于 `outputs/learning-milestones/20261104-greiner-nuclear-models-book-to-skill-closure.json`；继续全库核结构与前沿谱学研学。
+## 2026-11-04 — Kris Heyde Nuclear Physics Concepts book-to-skill delivery complete
+
+完成 Kris L. G. Heyde《Basic Ideas and Concepts in Nuclear Physics: An Introductory Approach》（2nd Edition）的 book-to-skill 结构化交付：
+1. **技能资产交付**：在 `.agents/skills/heyde-nuclear-physics/` 建立并补齐 `SKILL.md`、`glossary.md`、`patterns.md`、`cheatsheet.md` 与 6 张核心章节卡（残余相互作用与长程四极力、表面振动与巨多极共振、相互作用玻色子模型与剪刀模式、近闭壳核形状共存、Nilsson 变形壳模型与高自旋回弯、极端稳定性弱束缚晕核）。
+2. **研究方法固化**：将微观 $Q\cdot Q$ 相互作用驱动宏观形变、IBM-2 剪刀模 $B(M1)$ 价玻色子缩放律、长椭核 IVGDR $1:2$ 双峰分裂、ISGMR 呼吸模不可压缩系数、晕核空间长尾与软偶极激发、$^{186}\text{Pb}$ 低能三重形状共存转换为核物理实验与理论可调用的标准模型规范。
+3. **交叉回链**：深度回链至 `knowledge/sources/book-heyde-nuclear-physics-concepts.md`、`knowledge/methods/heyde-collective-modes-and-exotic-nuclei-contract.md`、`knowledge/synthesis/heyde-giant-resonance-halo-dripline-bridge.md` 与 `system/scripts/analysis/nuclear_analyzer.py`；原著 PDF 保持只读。
+4. **回执与状态**：回执保存于 `outputs/learning-milestones/20261104-heyde-nuclear-physics-book-to-skill-closure.json`；继续全库核结构与前沿谱学研学。
+## 2026-11-04 — W. D. Hamilton Nuclear Spectroscopy book-to-skill delivery complete
+
+完成 W. D. Hamilton《The Electromagnetic Interaction in Nuclear Spectroscopy》的 book-to-skill 结构化交付：
+1. **技能资产交付**：在 `.agents/skills/hamilton-nuclear-spectroscopy/` 建立并补齐 `SKILL.md`、`glossary.md`、`patterns.md`、`cheatsheet.md` 与 6 张核心章节卡（多极场与 Weisskopf 单位、方向角分布与取向张量、去取向 $U_k$ 级联连乘、方向角关联 DCO、康普顿线偏振度测量与电磁宇称仲裁、多极混合比 $\delta$ 双根退化二次方程与网格拟合）。
+2. **研究方法固化**：将轴对称统计取向张量 $B_k(I)$、Racah 几何 $F_k$ 系数、级联退取向衰减 $\mathcal{U}_k$、DCO 符合比值、Klein-Nishina 偏振截面、偏振灵敏度 $Q(E)$ 与 $\arctan\delta$ 紧致角度轮廓似然网格扫描转换为在束核谱学实验分析可调用的标准流程。
+3. **交叉回链**：深度回链至 `knowledge/sources/book-hamilton-electromagnetic-interaction.md`、`knowledge/methods/hamilton-angular-distribution-dco-polarization-contract.md`、`knowledge/methods/hamilton-compton-polarimeter-response-contract.md` 与 `system/scripts/analysis/double_root_dco_polarization_statistical_arbitrator.py`；原著 PDF 保持只读。
+4. **回执与状态**：回执保存于 `outputs/learning-milestones/20261104-hamilton-nuclear-spectroscopy-book-to-skill-closure.json`；继续全库核结构与前沿谱学研学。
+## 2026-11-04 — Ashok Kumar Jain Nuclear Isomers book-to-skill delivery complete
+
+完成 Ashok Kumar Jain 等《Nuclear Isomers: A Primer》的 book-to-skill 结构化交付：
+1. **技能资产交付**：在 `.agents/skills/jain-nuclear-isomers/` 建立并补齐 `SKILL.md`、`glossary.md`、`patterns.md`、`cheatsheet.md` 与 5 张核心章节卡（自旋陷阱、Seniority 代数与半满壳相消、双峰裂变势垒与形状异能态、$K$-异能态与阻碍度幂律、三轴形变诱导 $K$-混合与阻碍度塌缩指纹）。
+2. **研究方法固化**：将单 $j$ 壳层半满壳 $B(E2) \equiv 0$ 绝对相消、轴对称 $K$-禁戒折合阻碍度经验幂律 $f_\nu \a100$、三轴形变 $K$-混合引起的 $f_\nu \ll 10$ 异常暴跌判据、第二超形变极小 WKB 裂变穿隧转换为低能核结构与在束谱学可调用的标准模型规范。
+3. **交叉回链**：深度回链至 `knowledge/sources/book-jain-nuclear-isomers.md`、`knowledge/concepts/nuclear-isomers-and-k-hindrance-mechanisms.md` 与分析脚本 `seniority_scheme_half_filled_isomer_calculator.py`、`k_isomer_hindrance_calculator.py`；原著 PDF 保持只读。
+4. **回执与状态**：回执保存于 `outputs/learning-milestones/20261104-jain-nuclear-isomers-book-to-skill-closure.json`；继续全库核结构与前沿谱学研学。
+## 2026-11-04 — A. A. Raduta Nuclear Coherent States book-to-skill delivery complete
+
+完成 A. A. Raduta《Nuclear Structure with Coherent States》的 book-to-skill 结构化交付：
+1. **技能资产交付**：在 `.agents/skills/raduta-nuclear-coherent-states/` 建立并补齐 `SKILL.md`、`glossary.md`、`patterns.md`、`cheatsheet.md` 与 6 张核心章节卡（半经典三轴相空间与分离线、Holstein-Primakoff 玻色展开、相干态模型与角动量投影、梨形八极相干态与宇称四重带、准粒子与核芯耦合、GCSM 偶偶核手征双重带）。
+2. **研究方法固化**：将分离线能量临界条件 $2E\mathcal{J}_s = I^2$、Holstein-Primakoff 高自旋非简谐修正、Peierls-Yoccoz 三维角动量投影正规化积分、GCSM 偶偶核质中玻色子非同轴手征三面体与带间强 $M1$ 跃迁、梨形八极相干态宇称双重态转换为低能核结构前沿理论的标准分析标尺。
+3. **交叉回链**：深度回链至 `knowledge/sources/book-raduta-coherent-states.md`、`knowledge/methods/raduta-gcsm-chiral-and-triaxial-rotor-contract.md` 与分析脚本 `multiphonon_wobbling_anharmonic_spectrum_solver.py`、`chiral_octupole_quartet_bands_analyzer.py`；原著 PDF 保持只读。
+4. **回执与状态**：回执保存于 `outputs/learning-milestones/20261104-raduta-nuclear-coherent-states-book-to-skill-closure.json`；继续全库核结构与前沿谱学研学。
+## 2026-11-04 — Modern Nuclear Shell Model 70 Years book-to-skill delivery complete
+
+完成 MDPI 权威专论合集《The Nuclear Shell Model 70 Years after Its Advent: Achievements and Prospects》（14 篇前沿专论，334 页）的 book-to-skill 结构化交付：
+1. **技能资产交付**：在 `.agents/skills/modern-nuclear-shell-model/` 建立并补齐 `SKILL.md`、`glossary.md`、`patterns.md`、`cheatsheet.md` 与 8 张核心前沿专论章节卡（单极张量力与壳演化、滴线连续谱与 Gamow 壳模型、大尺度 MCSM 与 QVSM 算法、微观有效电荷与 Talmi 相消、$N=40$ 反转岛与单核子敲出、$^{100}\text{Sn}$ 高自旋 Seniority 谱学、同位旋破坏 MED/TED、无中微子双贝塔衰变与天体物理）。
+2. **研究方法固化**：将单极张量力对偶性、Berggren 复动量连续谱完备性、能量方差外推法（$\Delta E^2 \to 0$）、Kumar 四极不变量、镜像能级差 MED 质子对顺排下凹判据、超允许费米衰变 $\delta_C$ 修正、闭合近似两体中微子势与超新星电子俘获解阻机制转换为核物理理论与实验分析可调用的标准模型规范。
+3. **交叉回链**：深度回链至 `knowledge/sources/book-nuclear-shell-model-70-years.md`、14 篇微观方法合同网络及现有分析套件；原著 PDF 保持只读。
+4. **回执与状态**：回执保存于 `outputs/learning-milestones/20261104-modern-nuclear-shell-model-book-to-skill-closure.json`；继续全库核结构与前沿谱学研学。

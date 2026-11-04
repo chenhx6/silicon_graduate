@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [r-process, waiting-point-approximation, nuclear-astrophysics, n-gamma-equilibrium, chemical-equilibrium, neutron-star-mergers, 130cd, abundance-peaks]
+tags: [r-process, waiting-point-approximation, nuclear-astrophysics, n-gamma-equilibrium, chemical-equilibrium, neutron-star-mergers, 130cd, abundance-peaks]
 ---
 
 # 天体物理r-过程(n,γ)-(γ,n)化学统计平衡、等待点丰度流与三大太阳丰度峰成因法典
 
-## 1. 物理全景：宇宙重元素（金、铂、铀）在极端等离子体中的闪电锻造
+## Definition
+
+### 物理全景：宇宙重元素（金、铂、铀）在极端等离子体中的闪电锻造
 
 在核天体物理学中，铁（$A \approx 56$）以重的所有稳定化学元素中有一半以上是通过**快中子俘获过程（Rapid Neutron-Capture Process, $r$-过程）**合成的。
 2017 年引力波事件 GW170817 与伴随电磁千新星（Kilonova）AT2017gfo 的里程碑式观测，最终敲定了双中子星并合（Binary Neutron Star Mergers）以及超新星磁旋转射流是宇宙 $r$-过程的主要发生地。
@@ -30,7 +32,9 @@ topics: [r-process, waiting-point-approximation, nuclear-astrophysics, n-gamma-e
 
 ---
 
-## 2. 严格核化学统计平衡方程与推导
+## Necessary Assumptions
+
+### 严格核化学统计平衡方程与推导
 
 ### (1) 同位素链详细平衡（Saha-NSE 方程）
 在中子流平衡下，反应 $(Z, A) + n \rightleftharpoons (Z, A+1) + \gamma$ 的化学势满足：
@@ -71,7 +75,13 @@ $$S_n^0 \approx \frac{T_9}{11.6045} \cdot \ln(10) \cdot \left[ 34.005 + 1.5 \log
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/r_process_waiting_point_flow_calculator.py`
@@ -95,7 +105,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py rflow -Z 48 --T9 1.5 --nn 1e
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[two-neutron-separation-energy-pairing-gaps-and-shell-closures]]：两中子分离能系统学中 $N=82$ 壳层能隙断崖正是此处 $r$-过程发生等待点滞留的微观根源；
 - [[beta-decay-phase-space-log-ft-and-cvc-unitarity]]：等待点核素累积后的总出水通量严格由其弱相互作用 $\beta$ 衰变半衰期所控制；
 - [[thermonuclear-reaction-rates-gamow-peak-and-astrophysical-s-factor]]：带电粒子天体热核反应率（Gamow 峰）与此处纯中性中子俘获相空间形成了宇宙核合成的两大互补拼图。

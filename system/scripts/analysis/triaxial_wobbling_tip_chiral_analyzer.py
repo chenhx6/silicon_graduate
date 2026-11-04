@@ -16,9 +16,8 @@ Physics & Formulation:
      J_m > J_s > J_l  =>  A_m < A_s < A_l  (where A_i = hbar^2 / (2 * J_i))
    The asymmetry parameter kappa (Frauendorf 2025, Eq. 2.2):
      kappa = (2*A_s - A_m - A_l) / (A_m - A_l),  A_m <= A_s <= A_l.
-     - kappa = -1 : Prolate spheroid (A_s = A_l)
-     - kappa =  0 : Maximum triaxial asymmetry
-     - kappa = +1 : Oblate spheroid (A_s = A_m)
+     Its numerical endpoints depend on the adopted axis and gamma convention;
+     the scalar alone is not a shape classification.
 
 2. Transverse Wobbling (TW) vs Longitudinal Wobbling (LW):
    - Particle j aligned with short s-axis (Frauendorf 2025, Eqs. 2.20 - 2.21):
@@ -41,7 +40,7 @@ Physics & Formulation:
        Delta_sum = E(2_g^+) + E(2_gamma^+) - E(3_gamma^+)
        If Delta_sum > 0 => Vibrational (wobbling phonon)
        If Delta_sum == 0 => Rotational (TiP)
-   - Delta k > 1 selection rule:
+   - Delta n or Delta m > 1 selection rule:
        B(E2; n_w=2 -> n_w=0) == 0 (forbidden for harmonic wobbling phonon)
        B(E2; m=2 -> m=0) > 0 (allowed collective rotational transition for TiP)
 
@@ -89,7 +88,8 @@ def calculate_triaxial_rotor_moi_parameters(
     A_s_keV = 1000.0 / (2.0 * J_s)
     A_l_keV = 1000.0 / (2.0 * J_l)
 
-    # Ray's asymmetry parameter kappa: kappa = (2*A_s - A_m - A_l) / (A_m - A_l)
+    # Ray's asymmetry parameter. Its shape interpretation remains convention-
+    # dependent and is intentionally not inferred from the scalar alone.
     diff = A_m_keV - A_l_keV
     if abs(diff) < 1e-12:
         kappa = 0.0
@@ -142,8 +142,11 @@ def calculate_transverse_wobbling_spectrum(
         if I < j_single:
             status = "unphysical_spin_below_j"
             omega_keV = None
-        elif I >= I_c:
-            status = "above_critical_spin_instability"
+        elif abs(I - I_c) <= 1.0e-12:
+            status = "critical_softening"
+            omega_keV = None
+        elif I > I_c:
+            status = "above_critical_spin_requires_full_model"
             omega_keV = None
         else:
             A_bar_s = A_s * (1.0 - j_single / I)
@@ -169,7 +172,11 @@ def calculate_transverse_wobbling_spectrum(
     # Slope check d(omega)/dI
     if len(freqs) >= 2:
         slope = (freqs[-1] - freqs[0]) / (valid_spins[-1] - valid_spins[0])
-        slope_classification = "Transverse Wobbling (TW: d(omega)/dI < 0)" if slope < 0 else "Longitudinal/Rising (d(omega)/dI > 0)"
+        slope_classification = (
+            "negative_local_or_window_slope"
+            if slope < 0
+            else "positive_local_or_window_slope"
+        )
     else:
         slope = None
         slope_classification = "Insufficient points"
@@ -178,7 +185,13 @@ def calculate_transverse_wobbling_spectrum(
         "critical_spin_Ic": round(I_c, 3),
         "single_particle_j": j_single,
         "wobbling_slope_keV_per_hbar": round(slope, 3) if slope is not None else None,
-        "mode_identification": slope_classification,
+        "slope_descriptor": slope_classification,
+        "mode_identification": None,
+        "mode_confirmed": None,
+        "boundary": (
+            "A harmonic-model slope descriptor only; a non-monotonic curve, "
+            "TiP branch, or experimental wobbling identity is not inferred."
+        ),
         "spectrum": results
     }
 
@@ -212,18 +225,20 @@ def classify_tip_vs_phonon_wobbling(
     res_lin = sum((E - c1_lin * k) ** 2 for k, E in zip(n_or_m_indices, energies_keV))
     res_quad = sum((E - c2_quad * (k ** 2)) ** 2 for k, E in zip(n_or_m_indices, energies_keV))
 
-    scaling_favors = "Vibrational Wobbling (Linear E ~ n_w)" if res_lin <= res_quad else "Tilted Precession (Quadratic E ~ m^2)"
+    scaling_favors = (
+        "linear_model_residual_smaller"
+        if res_lin <= res_quad
+        else "quadratic_model_residual_smaller"
+    )
 
     # 2. Even-even sum rule: Delta_sum = E(2_g^+) + E(2_gamma^+) - E(3_gamma^+)
     sum_rule_eval = None
     if E_2g_keV is not None and E_2gamma_keV is not None and E_3gamma_keV is not None:
         delta_sum = E_2g_keV + E_2gamma_keV - E_3gamma_keV
-        if delta_sum > 20.0:
-            sr_diag = f"Vibrational Wobbling (Delta_sum = {delta_sum:.1f} keV > 0)"
-        elif abs(delta_sum) <= 20.0:
-            sr_diag = f"Rotational TiP (Delta_sum = {delta_sum:.1f} keV ~ 0)"
+        if delta_sum > 0.0:
+            sr_diag = f"sum_rule_positive_screening (Delta_sum = {delta_sum:.1f} keV)"
         else:
-            sr_diag = f"Anomalous / Mixed (Delta_sum = {delta_sum:.1f} keV < 0)"
+            sr_diag = f"sum_rule_nonpositive_screening (Delta_sum = {delta_sum:.1f} keV)"
         sum_rule_eval = {
             "delta_sum_keV": round(delta_sum, 2),
             "diagnosis": sr_diag
@@ -232,12 +247,12 @@ def classify_tip_vs_phonon_wobbling(
     # 3. Delta k > 1 Selection Rule
     selection_rule_eval = None
     if B_E2_delta2_Wu is not None:
-        if B_E2_delta2_Wu > 0.5:
-            sel_diag = f"Rotational TiP (B(E2, Delta_k=2) = {B_E2_delta2_Wu:.2f} W.u. > 0 breaks phonon selection rule)"
-        else:
-            sel_diag = f"Vibrational Wobbling (B(E2, Delta_k=2) = {B_E2_delta2_Wu:.2f} W.u. ~ 0 satisfies Delta_n=1)"
+        sel_diag = (
+            "delta_n_or_delta_m_selection_screening_only "
+            f"(input={B_E2_delta2_Wu:.2f} W.u.)"
+        )
         selection_rule_eval = {
-            "B_E2_Delta_k_2_Wu": B_E2_delta2_Wu,
+            "B_E2_Delta_n_or_delta_m_2_Wu": B_E2_delta2_Wu,
             "diagnosis": sel_diag
         }
 
@@ -246,7 +261,109 @@ def classify_tip_vs_phonon_wobbling(
         "quadratic_fit_residual_sq": round(res_quad, 2),
         "energy_scaling_diagnosis": scaling_favors,
         "sum_rule_test": sum_rule_eval,
-        "selection_rule_test": selection_rule_eval
+        "selection_rule_test": selection_rule_eval,
+        "mode_verdict": None,
+        "evidence_level": "conditional-observable-screen",
+        "boundary": (
+            "Residuals, sum rules and selection-rule inputs are reported as "
+            "conditional diagnostics; they do not confirm TiP or wobbling."
+        ),
+    }
+
+
+def calculate_lawrie_tip_wobbling_metrics(
+    *,
+    E_2g_keV: float,
+    E_2gamma_keV: float,
+    E_3gamma_keV: float,
+    B_E2_2gamma_to_2g: Optional[float] = None,
+    B_E2_2g_to_0g: Optional[float] = None,
+    B_E2_3gamma_to_2gamma: Optional[float] = None,
+    B_E2_delta2: Optional[float] = None,
+    A_s_MeV: Optional[float] = None,
+    A_i_MeV: Optional[float] = None,
+    A_l_MeV: Optional[float] = None,
+    spin_I: Optional[float] = None,
+    phonon_n: int = 1,
+) -> Dict[str, Any]:
+    """Return Lawrie Ch. 6 TiP/wobbling observables without auto-confirmation.
+
+    The source distinguishes rotational tilted precession (TiP) from
+    vibrational wobbling through energy additivity, relative excitation
+    energies, and several B(E2) ratios.  This function reports those
+    observables and reference expectations; it deliberately does not collapse
+    them into a nuclear-mode verdict.
+    """
+    energies = (float(E_2g_keV), float(E_2gamma_keV), float(E_3gamma_keV))
+    if not all(math.isfinite(value) for value in energies):
+        raise ValueError("All level energies must be finite.")
+    delta_sum = energies[0] + energies[1] - energies[2]
+
+    ratios: Dict[str, Optional[float]] = {
+        "R_2gamma_2g": None,
+        "R_3gamma_2gamma": None,
+    }
+    for name, value in (
+        ("B_E2_2gamma_to_2g", B_E2_2gamma_to_2g),
+        ("B_E2_2g_to_0g", B_E2_2g_to_0g),
+        ("B_E2_3gamma_to_2gamma", B_E2_3gamma_to_2gamma),
+        ("B_E2_delta2", B_E2_delta2),
+    ):
+        if value is not None and (not math.isfinite(float(value)) or float(value) < 0.0):
+            raise ValueError(f"{name} must be finite and non-negative.")
+    if B_E2_2g_to_0g is not None:
+        denominator = float(B_E2_2g_to_0g)
+        if denominator <= 0.0:
+            raise ValueError("B_E2_2g_to_0g must be positive when ratios are requested.")
+        if B_E2_2gamma_to_2g is not None:
+            ratios["R_2gamma_2g"] = float(B_E2_2gamma_to_2g) / denominator
+        if B_E2_3gamma_to_2gamma is not None:
+            ratios["R_3gamma_2gamma"] = float(B_E2_3gamma_to_2gamma) / denominator
+
+    harmonicity = None
+    if any(value is not None for value in (A_s_MeV, A_i_MeV, A_l_MeV, spin_I)):
+        if any(value is None for value in (A_s_MeV, A_i_MeV, A_l_MeV, spin_I)):
+            raise ValueError("A_s, A_i, A_l and spin_I must be supplied together.")
+        A_s = float(A_s_MeV)
+        A_i = float(A_i_MeV)
+        A_l = float(A_l_MeV)
+        spin = float(spin_I)
+        if min(A_s, A_i, A_l, spin) <= 0.0:
+            raise ValueError("Rotational constants and spin must be positive.")
+        denominator = 2.0 * spin * math.sqrt((A_s - A_i) * (A_l - A_i))
+        if denominator <= 0.0:
+            raise ValueError("Harmonic wobbling condition requires A_i < A_s and A_i < A_l.")
+        numerator = (2.0 * int(phonon_n) + 1.0) * (A_s + A_l - 2.0 * A_i)
+        harmonicity = {
+            "f_n_I": numerator / denominator,
+            "n": int(phonon_n),
+            "spin_I": spin,
+            "high_spin_harmonic_limit": "f(n,I) << 1",
+        }
+
+    return {
+        "delta_sum_keV": delta_sum,
+        "energy_reference": {
+            "tip": "E(3_gamma) = E(2_g) + E(2_gamma), so delta_sum = 0",
+            "wobbling": "E(3_gamma) < E(2_g) + E(2_gamma), so delta_sum > 0",
+        },
+        "B_E2_ratios": ratios,
+        "B_E2_delta2": B_E2_delta2,
+        "reference_expectations": {
+            "R_2gamma_2g_tip": "approximately 0.4-1.4 for gamma around 20-30 degrees",
+            "R_2gamma_2g_wobbling": 0.0,
+            "R_3gamma_2gamma_tip": 1.78,
+            "R_3gamma_2gamma_wobbling": 1.0,
+            "delta_n_ge_2_wobbling": "forbidden in ideal harmonic phonon limit",
+            "delta_m_ge_2_tip": "allowed in general; gamma=30 degrees adds zeros for selected branches",
+        },
+        "harmonicity_parameter": harmonicity,
+        "mode_verdict": None,
+        "boundary": (
+            "Observable comparison card from Lawrie Ch. 6. "
+            "Requires level identity, branching/efficiency corrections and "
+            "competing TiP, gamma-vibration, signature-partner and configuration-mixing tests."
+        ),
     }
 
 
@@ -287,6 +404,7 @@ def analyze_chiral_doublet_staggering(
             "energy_splitting_DeltaE_keV": round(delta_E, 2),
             "S_band1": round(s1, 3) if s1 is not None else None,
             "S_band2": round(s2, 3) if s2 is not None else None,
+            "ideal_orthogonal_tripod_proxy": round(v_chiral, 2),
             "chiral_aplanarity_volume": round(v_chiral, 2)
         }
 
@@ -313,9 +431,15 @@ def analyze_chiral_doublet_staggering(
 
     return {
         "mean_energy_splitting_keV": round(avg_splitting, 2),
-        "chiral_conundrum_status": "Chiral Doublets (Restoration/Degeneracy)" if avg_splitting < 80.0 else "Chiral Vibration / Split Doublets",
+        "chiral_conundrum_status": "energy_splitting_screening_only",
         "m1_e2_staggering_profile": staggering_vals if staggering_vals else None,
-        "band_levels": records
+        "band_levels": records,
+        "mode_confirmed": None,
+        "evidence_level": "conditional-observable-screen",
+        "boundary": (
+            "The ideal orthogonal-tripod quantity is a geometry proxy. "
+            "Energy splitting alone does not confirm chiral doublets."
+        )
     }
 
 

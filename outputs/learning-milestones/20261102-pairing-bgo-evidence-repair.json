@@ -1,0 +1,475 @@
+{
+  "record_type": "bounded-research-evidence-repair-v1",
+  "recorded_at": "2026-11-02T06:28:20.303910+00:00",
+  "thread_id": "01a19763-8210-7542-8a98-1cce409c2d4d",
+  "goal_status": "active",
+  "previous_goal_turn_classification": "progress: authoritative code changes; scientific validation not established by smoke tests",
+  "objective_scope": "all raw/books and broader nuclear physics study remains open; this batch does not redefine completion",
+  "base_commit": {
+    "hash": "c4432ed9bae1a72b8a9732865231028ce42f770c",
+    "subject": "feat(analysis): implement HPGe neutron damage hole trapping corrector (165) and multiphonon wobbling solver (166)"
+  },
+  "publication_status": "local-uncommitted; global lint exit 1 blocks commit/push",
+  "inherited_worktree_changes": "two new modules BGO/pairing, two tests, unified CLI and regression edits were already present; continued with snapshot under tmp",
+  "reading": [
+    {
+      "source": "book-bohr-mottelson-nuclear-structure",
+      "pdf_pages": [
+        162,
+        163,
+        188,
+        189,
+        190
+      ],
+      "printed_pages": [
+        143,
+        144,
+        169,
+        170,
+        171
+      ],
+      "image_checked_pdf_pages": [
+        188,
+        190
+      ],
+      "exclusions": "no whole-section/chapter/volume completion; Fig.2-5 not digitized"
+    },
+    {
+      "source": "satula-1998-odd-even-staggering-pairing-shape",
+      "text_pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image_checked_pdf_pages": [
+        1
+      ],
+      "exclusions": "figure point values not digitized"
+    },
+    {
+      "source": "duguet-2001-odd-even-mass-staggering",
+      "text_pdf_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "image_checked_pdf_pages": [
+        7
+      ],
+      "exclusions": "PDF9-41 not read"
+    },
+    {
+      "source": "li-2025-imp-dragon-hpge-array",
+      "text_pdf_pages": [
+        2,
+        3
+      ],
+      "image_checked_pdf_pages": [
+        3
+      ],
+      "exclusions": "no measured prompt Gaussian fit or rejection calibration"
+    }
+  ],
+  "archive_manifest": {
+    "path": "raw/papers/gpt/learning-daily/20261102-odd-even-mass-stencils/manifest.json",
+    "sha256": "ba947c1a7bd4832eeae3382aff948ee8ed0f23f9f9add49dd03fca5f2ab4e7be"
+  },
+  "checks": {
+    "pairing-tests": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "system/tests",
+        "-p",
+        "test_nuclear_odd_even_pairing_gap.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.725,
+      "test_tail": [
+        "----------------------------------------------------------------------",
+        "Ran 11 tests in 0.153s",
+        "",
+        "OK"
+      ]
+    },
+    "bgo-tests": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "system/tests",
+        "-p",
+        "test_in_beam_bgo_compton_suppression.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.498,
+      "test_tail": [
+        "----------------------------------------------------------------------",
+        "Ran 25 tests in 0.010s",
+        "",
+        "OK"
+      ]
+    },
+    "regression": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/analysis/test_analysis_suite.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 11.356,
+      "smoke_checks_executed": 167
+    },
+    "boundary": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/wiki_boundary_check.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 29.269,
+      "ok": true,
+      "failure_count": 0
+    },
+    "archive": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/wiki_archive_gate.py",
+        "check",
+        "--root",
+        ".",
+        "--changed"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 40.942,
+      "ok": true,
+      "failure_count": 0,
+      "scope": "paths",
+      "legacy_receipts_not_archive_validated_count": 27
+    },
+    "lint": {
+      "command": [
+        "/opt/venv/bin/python3",
+        "system/scripts/wiki_lint.py",
+        "--format",
+        "json",
+        "--output",
+        "tmp/pairing-evidence-20261102/lint-final.json",
+        "--fail-on",
+        "error"
+      ],
+      "exit_code": 1,
+      "elapsed_seconds": 55.488,
+      "baseline_counts": {
+        "error": 1417,
+        "warning": 632,
+        "info": 5276
+      },
+      "counts": {
+        "error": 1416,
+        "warning": 632,
+        "info": 5276
+      },
+      "new_issues": []
+    },
+    "diff-check": {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 9.563
+    },
+    "automation-preflight": {
+      "command": [
+        "python3",
+        "system/scripts/wiki_automation_preflight.py",
+        "--root",
+        "."
+      ],
+      "exit_code": 0,
+      "result": {
+        "schema_version": 1,
+        "ok": true,
+        "root": "/workspace/wiki",
+        "expected_profile": "",
+        "actual_profile": null,
+        "warnings": [],
+        "write_probes": [
+          {
+            "path": "/workspace/wiki",
+            "created": true,
+            "read_back": true,
+            "deleted": true,
+            "error": null
+          },
+          {
+            "path": "/workspace/wiki/.git",
+            "created": true,
+            "read_back": true,
+            "deleted": true,
+            "error": null
+          }
+        ],
+        "error": null,
+        "path_boundary": {
+          "schema_version": 1,
+          "root": "/workspace/wiki",
+          "ok": true,
+          "errors": [],
+          "warnings": [],
+          "checks": {
+            "required_dirs": {
+              "expected": [
+                "raw",
+                "knowledge",
+                "outputs",
+                "system",
+                "tools",
+                "tmp"
+              ],
+              "missing": []
+            },
+            "forbidden_dirs": {
+              "expected_absent": [
+                "docs/plans"
+              ],
+              "present": []
+            },
+            "moved_knowledge": {
+              "outputs/learning-milestones/2026-09-a130-thesis-evidence-matrix.md": {
+                "old_exists": false,
+                "canonical": "knowledge/projects/a130-thesis-evidence-matrix.md",
+                "canonical_exists": true
+              }
+            },
+            "outputs": {
+              "allowed_roots": [
+                "degree-dissertation",
+                "high-spin",
+                "l3",
+                "l4",
+                "learning-daily",
+                "learning-milestones",
+                "learning-weekly",
+                "literature-acquisition",
+                "paper-cards",
+                "plans",
+                "self-tests"
+              ],
+              "unknown_roots": [],
+              "knowledge_page_types_in_outputs": []
+            },
+            "qmd": {
+              "checked": true,
+              "available": true,
+              "command": [
+                "/opt/qmd/bin/qmd",
+                "collection",
+                "show",
+                "nuclear-knowledge"
+              ],
+              "exit": 0,
+              "path": "/workspace/wiki/knowledge",
+              "pattern": "**/*.md"
+            }
+          }
+        },
+        "archive_gate": {
+          "ok": true,
+          "scope": "paths",
+          "checked_sources": [
+            "/workspace/wiki/knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+            "/workspace/wiki/knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+            "/workspace/wiki/knowledge/sources/book-lin-heavy-ion-reactions.md",
+            "/workspace/wiki/knowledge/sources/book-lu-nuclear-physics-chinese.md",
+            "/workspace/wiki/knowledge/sources/book-nakhostin-signal-processing-detectors.md",
+            "/workspace/wiki/knowledge/sources/book-petrache-chirality-and-wobbling.md",
+            "/workspace/wiki/knowledge/sources/book-wang-particle-detection.md",
+            "/workspace/wiki/knowledge/sources/book-wu-nuclear-experiment-methods.md",
+            "/workspace/wiki/knowledge/sources/book-zhu-probability-statistics-in-physics.md",
+            "/workspace/wiki/knowledge/sources/cowan2011-asymptotic-likelihood-tests.md",
+            "/workspace/wiki/knowledge/sources/duguet-2001-odd-even-mass-staggering.md",
+            "/workspace/wiki/knowledge/sources/ensdf-131ba-adopted-e3.md",
+            "/workspace/wiki/knowledge/sources/henderson-2025-208pb-deformation-collectivity.md",
+            "/workspace/wiki/knowledge/sources/indico-2026-133i-gamma-strength-record.md",
+            "/workspace/wiki/knowledge/sources/irving-1979-131xe-spectroscopy-scope.md",
+            "/workspace/wiki/knowledge/sources/larsen-2026-133i-oslo-preliminary.md",
+            "/workspace/wiki/knowledge/sources/li-2025-imp-dragon-hpge-array.md",
+            "/workspace/wiki/knowledge/sources/lonnroth-1983-xe-quasiparticle-states.md",
+            "/workspace/wiki/knowledge/sources/nuclearmap-jcnp-pc-pk1.md",
+            "/workspace/wiki/knowledge/sources/ronning-2026-70zn-magnetic-lee.md",
+            "/workspace/wiki/knowledge/sources/rosiak-2018-132sn-enhanced-octupole.md",
+            "/workspace/wiki/knowledge/sources/satula-1998-odd-even-staggering-pairing-shape.md",
+            "/workspace/wiki/knowledge/sources/sun-2003-ribll-radioactive-ion-beam-line.md",
+            "/workspace/wiki/knowledge/sources/uio-2026-133i-thesis-announcement.md",
+            "/workspace/wiki/knowledge/sources/userdata-133ce-southafrica-dataset.md"
+          ],
+          "checked_manifests": [
+            "/workspace/wiki/raw/figures/gpt/learning-daily/20261101-day29-133ce-nuclearmap-pes/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20261102-odd-even-mass-stencils/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20261102-poisson-audit/manifest.json"
+          ],
+          "failure_count": 0,
+          "failures": [],
+          "legacy_receipts_not_archive_validated": [
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260824-PREPLAN-135pr-mixing-branch/guo-2007/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260824-PREPLAN-135pr-mixing-branch/guo-2011/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260824-PREPLAN-135pr-mixing-branch/publisher/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260824-PREPLAN-135pr-mixing-branch/sensharma-2026/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260831-PREPLAN-106ag-chiral-counterexample/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260831-PREPLAN-106ag-chiral-counterexample/rather-2014/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/external-146ba/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260926-DAY1-baseline-research-contract/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/134la-tpsm-access/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/135ce-chiral-aip/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/136pr-2025-tac-cdfTAC/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/137pr-2007-magnetic-rotation/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2203-12851-tpsm-odd-neutron-xe-20260930/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2405-08368-wobbling-133La-135Pr/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2508-00373-harmonic-chiral-vibration/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/banik-2020-131xe-reaction/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/harmonic-chiral-vibration-137nd-2025/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/odd-neutron-tpsm-odd-neutron-xe/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/prompt-2026-09-29-day-03/134la-2026-npa-publisher-api/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/prompt-2026-09-29-day-03/137pr-2007-magnetic-rotation/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20260930-DAY4-pairing-quasiparticle-configuration/194tl-pai-2012/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/day26-001/aps/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/day26-001/elsevier/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/rajbanshi2017/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/sm143/manifest.json",
+            "/workspace/wiki/raw/papers/gpt/learning-daily/20261029-DAY27-cross-mass-region-transferability/tawseef2026/manifest.json"
+          ]
+        },
+        "config_default": null,
+        "protected_bib": {
+          "path": "/workspace/wiki/raw/zotero/wiki-inbox.bib",
+          "baseline_sha256": "037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE",
+          "actual_sha256": "037EA133DE204270AD36961CA66B3AB36C0913B7D472B45F8FD013C8293BE5BE",
+          "status": "matched"
+        },
+        "exit_code": 0
+      }
+    }
+  },
+  "artifacts": [
+    {
+      "path": "knowledge/concepts/two-neutron-separation-energy-pairing-gaps-and-shell-closures.md",
+      "sha256": "ba08d8726caab7293ef1f971d200dc25ebc5ce70fed985bb5d4b5affc47991d7"
+    },
+    {
+      "path": "knowledge/methods/bgo-veto-response-and-counting-objective.md",
+      "sha256": "2d27968c35bd3255d37e3edaa19e01c49e761daad384311db7398d6b0e1cb122"
+    },
+    {
+      "path": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+      "sha256": "1ca192ce79941b4c0fd6366e15945045382fa1f70f3191d170570b956aa99fa4"
+    },
+    {
+      "path": "knowledge/sources/satula-1998-odd-even-staggering-pairing-shape.md",
+      "sha256": "ec85304480c69248ab572023bb3be302589ba80f4a9e577d9f33d10b3e5bf9ba"
+    },
+    {
+      "path": "knowledge/sources/duguet-2001-odd-even-mass-staggering.md",
+      "sha256": "8904cce6e5e04780881816fa799c0e72ebaf0af9c9f6fc0645b13a78f6f2caa6"
+    },
+    {
+      "path": "knowledge/synthesis/book-corpus-coverage-ledger.md",
+      "sha256": "0680f19235e8e0ab56b7cfdb422d9eacf11e2938a491cfabc6cab0e5dd1611e5"
+    },
+    {
+      "path": "knowledge/synthesis/nuclear-spectroscopy-and-structure-master-field-manual.md",
+      "sha256": "d8da924f8226ea76d8188506df41e977ba739033ce183911fdc45aaaf29acd87"
+    },
+    {
+      "path": "knowledge/index.md",
+      "sha256": "7ba92fbc65b76505492f6a64cdc0f8931184f0d21333f87e7db53ac5d59a8de9"
+    },
+    {
+      "path": "system/scripts/analysis/nuclear_analyzer.py",
+      "sha256": "99664751530a538de10149318a99d18a80430863f3c047e7cec73d253ffa39a8"
+    },
+    {
+      "path": "system/scripts/analysis/test_analysis_suite.py",
+      "sha256": "4118b37146b0e8cb1187377e38d14ff448c025479a190516f906e08edb0f8cb9"
+    },
+    {
+      "path": "system/scripts/analysis/nuclear_odd_even_pairing_gap_multichannel_solver.py",
+      "sha256": "386441b4a641249c233ea3b3e6adc311335584d305d3c88840d9cb9216af9de7"
+    },
+    {
+      "path": "system/scripts/analysis/in_beam_bgo_compton_suppression_pt_ratio_optimizer.py",
+      "sha256": "4c08caace4e666796bb9f7ba4747860e324b05c23a9d1a46e6b392fc48cd5341"
+    },
+    {
+      "path": "system/tests/test_nuclear_odd_even_pairing_gap.py",
+      "sha256": "f19b11bde130928302b497869b127c2db8888bf7a84d8ea6d75574402473c91a"
+    },
+    {
+      "path": "system/tests/test_in_beam_bgo_compton_suppression.py",
+      "sha256": "f433a0fde526d8b6e6729bc80b4b0f929c6137b958e7eeaee748ea778b1b5cc0"
+    },
+    {
+      "path": "system/handoff.md",
+      "sha256": "544368f83053093c201fb2aecac0cbc7e03999426fd5d87b296c262a46eef1c2"
+    },
+    {
+      "path": "system/log.md",
+      "sha256": "5402259ab8b75d4def01fd58204c54d6a994d42b1afb8b6f3fa119a54d6dbe4d"
+    }
+  ],
+  "self_audit": [
+    {
+      "priority": "P0",
+      "finding": "Mass staggering is not identical to a BCS/HFB gap. Unknown masses were silently replaced and guessed masses labelled as nuclear data.",
+      "resolution": "positive-binding parity stencils, missing nulls, synthetic-only fixture, model quantities not inferred",
+      "sources": [
+        "BM-I PDF188/190",
+        "Satula1998 PDF1-4",
+        "Duguet2001 PDF5-8"
+      ]
+    },
+    {
+      "priority": "P0",
+      "finding": "Original BGO response and FOM were uncalibrated and random survival applied inconsistently.",
+      "resolution": "explicit conditional prompt response; peak and continuum share random survival; count objective and limits documented",
+      "sources": [
+        "IMP-DRAGON PDF2-3",
+        "conditional probability derivation"
+      ]
+    },
+    {
+      "priority": "P1",
+      "finding": "Older models and full corpus remain incompletely verified.",
+      "resolution": "specific outstanding audits recorded in master manual and corpus ledger; goal active"
+    }
+  ],
+  "not_claimed": [
+    "whole-book reading completion",
+    "all 168 modules scientifically validated",
+    "real isotope results from synthetic fixtures",
+    "global lint pass",
+    "push completed"
+  ],
+  "next_steps": [
+    "audit automatic MChD/two-phonon confirmations against original sources",
+    "rederive wobbling axis and equilibrium conventions",
+    "verify DSAM stopping/feeding and E2 units",
+    "continue corpus queue, giant resonances, halo/drip lines, Chinese foundations and statistics",
+    "repair structural lint with substantive evidence, not placeholder headings"
+  ]
+}

@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [heavy-ion-scattering, deflection-function, nuclear-rainbow, grazing-angle, blair-quarter-point, rainbow-angle, airy-oscillations, experimental-methods]
+tags: [heavy-ion-scattering, deflection-function, nuclear-rainbow, grazing-angle, blair-quarter-point, rainbow-angle, airy-oscillations, experimental-methods]
 ---
 
 # 重离子半经典偏转函数、核彩虹散射动力学与掠射角探测器布局准则
 
-## 1. 物理全景：重离子散射从宏观轨道到量子衍射的半经典统一
+## Definition
+
+### 物理全景：重离子散射从宏观轨道到量子衍射的半经典统一
 
 在重离子物理与在束带电粒子核反应实验中，由于重核质量巨大且电荷极高，体系的 Sommerfeld 参数往往极大（$\eta = Z_p Z_t e^2 / (\hbar v) \gg 1$），德布罗意波长 $\lambda = 1/k \ll 1\text{ fm}$ 远小于核几何尺度。
 这使得重离子的弹性散射、准弹性转移与深部非弹性碰撞在很大程度上服从经典力学轨迹方程，可用**半经典偏转函数（Semiclassical Deflection Function, $\Theta(l)$）**精确描述。
@@ -26,7 +28,9 @@ topics: [heavy-ion-scattering, deflection-function, nuclear-rainbow, grazing-ang
 
 ---
 
-## 2. 严格半经典偏转方程与彩虹特征
+## Necessary Assumptions
+
+### 严格半经典偏转方程与彩虹特征
 
 ### (1) 经典偏转积分方程
 设质心系有效径向相互作用势为 $V_{\text{eff}}(r) = V_C(r) + V_N(r) + \frac{\hbar^2 l(l+1)}{2\mu r^2}$。
@@ -62,7 +66,13 @@ $$\theta_{\text{rainbow}} = \min_{l} [ \Theta(l) ]$$
 
 ---
 
-## 3. 在束实验探测器布局实战黄金法则
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 在束实验探测器布局实战黄金法则
 
 在策划重离子转移反应、库仑激发或在束带电粒子测量时，实验大厅的探测器布局必须严格服从以下法则：
 
@@ -101,7 +111,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py rainbow \
 
 ---
 
-## 5. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[linear-momentum-transfer-and-incomplete-fusion]]：掠射角附近的擦边碰撞是不完全熔合（ICF）和破裂反应（Breakup）的主产区；
 - [[multi-nucleon-transfer-and-deep-inelastic-collisions]]：多核子转移反应截面的角分布峰位严格定域在 Blair 掠射角 $\theta_{1/4}$ 处；
 - [[charged-particle-identification-and-stopping-power]]：在掠射角处测量的反应产物依赖 $\Delta E - E$ 望远镜进行单同位素鉴别。

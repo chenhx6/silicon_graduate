@@ -59,6 +59,7 @@ PRESETS = {
     "moderate_neutron_damage_1332keV": {
         "detector": "70% Coaxial HPGe (Phi_n ~ 2e9 n/cm^2)",
         "description": "Moderate neutron damage after 60h in-beam run at 60Co 1332.5 keV",
+        "data_kind": "synthetic_simulation_benchmark",
         "E_true_keV": 1332.5,
         "fwhm_undamaged_keV": 2.10,
         "hole_lifetime_us": 14.0,   # lambda_h = 140 cm
@@ -69,6 +70,7 @@ PRESETS = {
     "severe_neutron_damage_850keV": {
         "detector": "Segmented Clover HPGe Leaf (Phi_n ~ 8e9 n/cm^2)",
         "description": "Severe neutron damage after 150h heavy-ion run at 134Ce 852.0 keV",
+        "data_kind": "synthetic_simulation_benchmark",
         "E_true_keV": 852.0,
         "fwhm_undamaged_keV": 1.95,
         "hole_lifetime_us": 8.0,    # lambda_h = 80 cm
@@ -79,6 +81,7 @@ PRESETS = {
     "mild_neutron_damage_511keV": {
         "detector": "Planar HPGe Detector (Phi_n ~ 8e8 n/cm^2)",
         "description": "Mild damage on low-energy planar detector at 511.0 keV annihilation peak",
+        "data_kind": "synthetic_simulation_benchmark",
         "E_true_keV": 511.0,
         "fwhm_undamaged_keV": 1.65,
         "hole_lifetime_us": 25.0,   # lambda_h = 250 cm
@@ -205,6 +208,9 @@ class HPGeneutronDamageTrappingCorrector:
         impr_pct = (raw_metrics["fwhm_keV"] - restored_metrics["fwhm_keV"]) / raw_metrics["fwhm_keV"] * 100.0
 
         return {
+            "analysis_kind": "phenomenological_hecht_trapping_model",
+            "data_kind": "synthetic_simulation_benchmark",
+            "methodological_boundary": "Hecht charge-trapping simulation and digital rise-time restoration model; events are generated from physical transport equations, not replayed from hardware experimental waveforms",
             "E_true_keV": self.E0,
             "fwhm_undamaged_ideal_keV": self.fwhm_0,
             "hole_lifetime_us": self.tau_h * 1e6,

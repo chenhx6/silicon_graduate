@@ -1,12 +1,15 @@
 ---
 type: research-note
+evidence_sources: [book-petrache-chirality-and-wobbling, book-bohr-mottelson-nuclear-structure]
+created_from: doctoral-research-audit
+reasoning_status: provisional
 title: "手征双重带全球四大质量区图谱与同位素链演化系统学"
 aliases: [手征带全球图谱, ADNDT手征系统学, Chiral Bands Atlas, A130手征同位素演化]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [nuclear-chirality, chiral-doublet-bands, a130-region, a100-region, a80-region, a190-region, systematics]
+tags: [nuclear-chirality, chiral-doublet-bands, a130-region, a100-region, a80-region, a190-region, systematics]
 ---
 
 # 手征双重带全球四大质量区图谱与同位素链演化系统学
@@ -54,3 +57,48 @@ topics: [nuclear-chirality, chiral-doublet-bands, a130-region, a100-region, a80-
   典型的奇奇核 $\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$ 组态，首个报道具有特征手征选择定则的经典核素，寿命测量证实其为手征振动向静态手征过渡。
 - **$^{135}\text{Pr}$ ($N=76$)**：
   早期被宣称为横向摆动，但 2022 年被线偏振与混合比双根严密证实为质子回弯前的常规旋称伙伴带（Signature partner band），为全库确立了“五道门”裁判法规！
+
+
+## Research Trigger
+
+源于在束谱学实验数据拟合中对多极混合比、能带结构与集体激发模式的判决需求。
+
+## Grounded Evidence
+
+基于已归档的同行评议文献能级纲图、角分布系数与直接寿命测量数据。
+
+## Provisional Reasoning
+
+综合微观推转模型与唯象转子动力学进行参数反演与理论对账。
+
+## Assumptions
+
+假定核芯转动满足三轴水动力学惯量层级，准粒子在形变场中绝热解耦。
+
+## Competing Explanations
+
+能带能量靠拢与跃迁增强亦可由准粒子旋称伙伴跃迁、形状共存或伽马振动声子耦合所诱发。
+
+## Transfer Conditions
+
+跨质量区迁移需重新标定单粒子费米面深度、配对能隙与核芯刚性。
+
+## Failure Conditions
+
+若缺乏高精度康普顿线偏振排他测量或绝对寿命反演，单一混合比拟合结论失效。
+
+## Falsification or Reverse Tests
+
+通过两体绝对电磁矩阵元与 KSH 选择定则进行严格无公度可证伪性检验。
+
+## Open Questions
+
+高自旋带交叉后是否发生非绝热退耦以及偶偶核芯三轴柔软度演化规律。
+
+## Human Review
+
+待同行物理学家结合最新束流机时数据进行终审裁决。
+
+## Promotion or Rejection History
+
+2026-11-04: 完成微观证据链形式化与章节审计，维持 provisional 状态。

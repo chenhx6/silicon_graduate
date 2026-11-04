@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [chiral-double-well, quantum-tunneling, energy-splitting, chiral-vibration, static-chiral-rotation, coriolis-restoration, wkb-approximation, 128cs]
+tags: [chiral-double-well, quantum-tunneling, energy-splitting, chiral-vibration, static-chiral-rotation, coriolis-restoration, wkb-approximation, 128cs]
 ---
 
 # 手征双重势阱量子隧穿、孪生能带能隙ΔE(I)自旋演化与手征振动向静态转动相变动力学
 
-## 1. 物理全景：手征几何势能面上的宏观量子隧穿
+## Definition
+
+### 物理全景：手征几何势能面上的宏观量子隧穿
 
 在三轴形变原子核（$\gamma \approx 30^\circ$）的手征体系中，核心集体转动矢量 $\mathbf{R}$ 相对两未配对高 $j$ 核子（短轴质子 $\mathbf{j}_p$ 与长轴中子 $\mathbf{j}_n$）构成的平面发生倾斜。
 在内禀参考系中，旋转由非共面方位夹角 $\phi$（Aplanarity angle）标定。
@@ -31,7 +33,9 @@ $$\Delta E(I) = E(I, \text{Band } 2) - E(I, \text{Band } 1)$$
 
 ---
 
-## 2. 严格 1D 双阱集体势与 WKB 隧穿推导
+## Necessary Assumptions
+
+### 严格 1D 双阱集体势与 WKB 隧穿推导
 
 ### (1) 自旋依赖的四阶唯象手征势能函数 $V(\phi, I)$
 沿手征非共面坐标 $\phi$，集体能量泛函展开为对称形式：
@@ -71,7 +75,13 @@ $$\Delta E(I) = \frac{\hbar \omega_0}{\pi} \exp\left( - \frac{S_{\text{tunnel}}}
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/chiral_vibrational_tunneling_calculator.py`
@@ -96,7 +106,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py chvibe -I 16.0 --scan --json
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[chiral-geometry-tilted-axis-cranking-and-aplanarity]]：3D TAC 计算得出的手征体积度规 $\mathcal{V}_{\text{chiral}}$ 与此处 1D 双阱平衡角 $\phi_0$ 构成了微观与集体相空间的严格对应；
 - [[davydov-filippov-triaxial-rotor-and-wobbling-dynamics]]：手征双带能隙随自旋下降与横向摆动（TW）能量随自旋下降，在微观上均来源于核子在三轴势场中的离轴定域取向；
 - [[signature-inversion-and-triaxial-pn-interaction]]：手征振动与签名反转（Signature Inversion）在低自旋区相互交织，必须通过 $B(M1)$ 跃迁检验进行严格辨识。

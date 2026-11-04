@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "实验核谱学探测技术指南：吴治华《原子核物理实验方法》与汪晓莲《粒子探测技术》视界解冲突与互补手册"
 aliases: [探测器书籍解冲突, 谱学实验探测器指南, 吴治华汪晓莲对比, 核物理与高能探测差异]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [hpge-detectors, radiation-detectors, detector-physics, wu-vs-wang, in-beam-spectroscopy]
+tags: [hpge-detectors, radiation-detectors, detector-physics, wu-vs-wang, in-beam-spectroscopy]
 ---
 
 # 实验核谱学探测技术指南：吴治华《原子核物理实验方法》与汪晓莲《粒子探测技术》视界解冲突与互补手册
 
-## 1. 产生“冲突感”的学术背景与根源剖析
+## Purpose
+
+### 产生“冲突感”的学术背景与根源剖析
 
 在系统学习核物理探测器专著时，许多研究者会发现复旦大学吴治华编著的《原子核物理实验方法》与中国科学技术大学汪晓莲等编著的《粒子探测技术》在概念侧重、模型简化、探测器优劣评定乃至设计原则上存在诸多表观上的“矛盾”与“冲突”。
 
@@ -26,7 +29,9 @@ topics: [hpge-detectors, radiation-detectors, detector-physics, wu-vs-wang, in-b
 
 ---
 
-## 2. 典型冲突点的逐项澄清与融合准则
+## Inputs and Assumptions
+
+### 典型冲突点的逐项澄清与融合准则
 
 ### 冲突一：半导体探测器能量分辨率的极限机制
 - **吴治华书视角**：详细推导 Fano 因子（$F \approx 0.1$）、极低本征电离能（$\epsilon_{\text{Ge}} \approx 2.96\text{ eV}$）对统计涨落的抑制，重点分析不完全电荷收集（Incomplete charge collection）、晶体内部深能级杂质捕获空穴、以及前放热噪声对 keV 谱线展宽的敏感性。
@@ -51,7 +56,13 @@ topics: [hpge-detectors, radiation-detectors, detector-physics, wu-vs-wang, in-b
 
 ---
 
-## 3. 本 Wiki 跨设备实验数据分析的行动落地建议
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 本 Wiki 跨设备实验数据分析的行动落地建议
 
 1. **探测器选择与参数设置**：
    - 测能量与纲图：锁定 **HPGe + BGO 康普顿抗符合抑制套**（参照吴书第 10 章与 Nakhostin 数字成形）；
@@ -59,3 +70,9 @@ topics: [hpge-detectors, radiation-detectors, detector-physics, wu-vs-wang, in-b
    - 测带电粒子符合通道（$p, \alpha$ 蒸发道）：采用 **双面硅微条（DSSD）或环形硅望远镜**。
 2. **微观机理补充**：
    - 从汪书中吸纳**肖克利-拉莫定理（Shockley-Ramo Theorem）与加权场概念**，指导理解半导体内部电荷运动诱发脉冲全过程。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

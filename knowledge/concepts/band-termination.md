@@ -67,7 +67,7 @@ New concept page; review pending.
 
 依据独立审计程序 `system/scripts/day21_checkpoint017_band_termination_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/band-termination-audit-017.json`（对标 [[afanasjev-1999-termination-rotational-bands]] 之 `AF99-D21-1`），确立能带光滑终止在推断阶梯上的实证判据：
 1. **微观价核子角动量耗尽与四极形变内禀消失：**
-   能带光滑终止是核体系沿 $(arepsilon_2, \gamma)$ 平面从集体长椭转动（$\gamma = 0^\circ$）向非集体扁椭态（$\gamma = 60^\circ$）的连续光滑演化；在终止态 $I_{	ext{max}}$ 处，价核子角动量完全对齐到对称轴上，集体四极转动在物理上内禀消失（$Q_t 	o 0$ 且 $B(E2) 	o 0$）；
+   能带光滑终止是核体系沿 $(\varepsilon_2, \gamma)$ 平面从集体长椭转动（$\gamma = 0^\circ$）向非集体扁椭态（$\gamma = 60^\circ$）的连续光滑演化；在终止态 $I_{	ext{max}}$ 处，价核子角动量完全对齐到对称轴上，集体四极转动在物理上内禀消失（$Q_t 	o 0$ 且 $B(E2) 	o 0$）；
 2. **$Q_t 	o 0$ 平滑衰减对决统计截断：**
    在 $^{109}	ext{Sb}$ 中，DSAM 实测证实 $Q_t$ 从 $29/2^+$ 态的 $2.85(25)\ e	ext{b}$ 经 5 个连续跃迁平滑单调暴跌至 $49/2^+$ 态的 $\le 0.35\ e	ext{b}$（跌落达 $87.7\%$），排他性地区分于谱线强度消失时 $Q_t$ 依然保持高位的统计截断假象；
 3. **证据门准则：**

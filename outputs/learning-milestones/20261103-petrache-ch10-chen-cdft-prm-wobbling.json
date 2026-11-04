@@ -1,0 +1,65 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Petrache (ed.) 专著第 10 章 Chen 等关于 CDFT+PRM 微观摆动运动、费米面演化定律、混合比符号反转定理、N=59中子摆动系统学与130Ba偶偶核多声子SCS几率节点拓扑的全章精读与核验",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "chapter": 10,
+    "chapter_title": "Study of wobbling motion within CDFT+PRM approach",
+    "author": "Qi-Bo Chen, Hua-Ming Dai, Ying-Zhi Li",
+    "scope": "Article pp.203-219 / physical PDF pp.222-238, full chapter text, equations, Table 10.1 and Figures 10.1-10.7",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/chen-cdft-prm-wobbling-and-fermi-surface-contract.md",
+      "reason": "CDFT+PRM integrated formalism, DAL/FAL Fermi surface evolution laws for TW/LW, delta sign theorem, N=59 isotone wobbling predictions, and 130Ba multi-phonon SCS probability density node topology"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "corrected Chapter 10 title and topic from MchiD placeholder to wobbling motion, registered claims CW-33 to CW-37 and updated PETR-4"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Chen CDFT+PRM wobbling method contract"
+    },
+    {
+      "path": "knowledge/concepts/odd-a-wobbling-mode-stability-and-bifurcation.md",
+      "reason": "linked Fermi-surface DAL/FAL evolution laws and delta sign theorem"
+    },
+    {
+      "path": "knowledge/concepts/multiphonon-wobbling-and-anharmonicity-dynamics.md",
+      "reason": "linked 130Ba two-quasiparticle multi-phonon SCS probability density nodal topology"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.224 Figure 10.1 (chiral and wobbling candidates map) and PRM equations",
+    "PDF p.227 Figure 10.2 (Delta E and B(E2)/B(M1) ratios for Fermi surfaces e1 to e6)",
+    "PDF p.229 Figure 10.3 (Wobbling energies as functions of spin for h11/2 and i13/2 with various beta and gamma)",
+    "PDF p.231 Figure 10.4 (CDFT potential energy curves for N=59 isotones)",
+    "PDF p.232 Figure 10.5 (CDFT triaxial deformation gamma vs beta for N=59 isotones)",
+    "PDF p.233 Figure 10.6 (97Sr and 99Zr PRM vs experiment)",
+    "PDF p.235 Table 10.1 (130Ba CDFT configurations and deformation parameters)",
+    "PDF p.236 Figure 10.7 (Spin coherent state probability distributions P(theta, phi) for 130Ba bands n=0,1,2,3)"
+  ],
+  "claims": [
+    "CDFT+PRM derives triaxial deformation parameters and single-particle levels microscopically from constrained CDFT potential energy surfaces, eliminating ad-hoc PRM parameter fits.",
+    "Fermi surface position dictates wobbling mode: DALs particles and DALl holes drive transverse wobbling (TW) with Delta E decreasing with spin, while mid-shell FAL quasiparticles drive longitudinal wobbling (LW) with Delta E monotonically increasing.",
+    "Electromagnetic multipole mixing ratio delta(E2/M1) has a strict sign signature: positive for quasi-neutron configurations (gn - gR < 0) and negative for quasi-proton configurations (gp - gR > 0).",
+    "Constrained CDFT predicts significant triaxial deformation across N=59 isotones, establishing 97Sr and 99Zr as new neutron transverse wobbling candidates with B(E2)out/B(E2)in >= 0.5 and delta > 0.",
+    "In even-even 130Ba, PC-PK1 constrained CDFT identifies the pi h11/2^2 configuration; its spin coherent state probability density P(theta, phi) displays 0, 1, 2, 3 nodes in phi space for bands n=0, 1, 2, 3, confirming multi-phonon wobbling wave-function topology."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded full-chapter text and figure unit",
+    "remaining_queue": "Remaining chapters of Petrache (ed.) book remain queued according to the chapter map",
+    "boundary": [
+      "Single-j PRM does not include cross-shell mixing or microscopic proton-neutron scissor vibrations",
+      "Triaxial minima on CDFT PECs do not guarantee localization without zero-point energy and gamma-barrier checks",
+      "SCS probability distributions are internal model wave-function representations, not directly measured spectra"
+    ]
+  }
+}

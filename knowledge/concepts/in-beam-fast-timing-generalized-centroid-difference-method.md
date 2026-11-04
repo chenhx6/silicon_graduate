@@ -11,7 +11,9 @@ tags: [in-beam-spectroscopy, fast-timing, nuclear-lifetimes, labr3-detectors, ge
 
 # In-beam electronic fast-timing generalized centroid difference (GCD) method and picosecond lifetimes
 
-## Definition and Fast-Timing Spectroscopy Challenges
+## Definition
+
+### Definition and Fast-Timing Spectroscopy Challenges
 
 Measuring nuclear excited-state lifetimes in the picosecond regime ($\tau \sim 5 - 500\text{ ps}$) provides model-independent access to reduced transition probabilities $B(E2)$ and $B(M1)$, crucial for testing triaxial quadrupole collectivity, wobbling phonon transitions, and chiral partner band structures.
 
@@ -74,9 +76,37 @@ $$B(M1) [\text{W.u.}] = \frac{T(M1)}{3.15 \times 10^{13} E_\gamma^3 [\text{MeV}^
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Régis, J.-M. et al.**: *The generalized centroid difference method for picosecond lifetime measurements with fast-timing detector arrays*, Nucl. Instrum. Methods Phys. Res. A 726, 191–202 (2013).
 - **Régis, J.-M. et al.**: *Picosecond lifetime measurements with LaBr3(Ce) detectors*, Nucl. Instrum. Methods Phys. Res. A 606, 466–474 (2009).
 - **Wu Zhihua (吴治华)**: *Methods of Nuclear Physics Experiments* (《原子核物理实验方法》), Fudan University Press (1995), Chapters 9 & 14.
 - **Mach, H. et al.**: *Subnanosecond lifetime measurements in nuclear spectroscopy*, Nucl. Instrum. Methods Phys. Res. A 280, 49–70 (1989).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

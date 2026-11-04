@@ -1,0 +1,72 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Petrache (ed.) 专著第 4 章 Tanabe & Sugawara-Tanabe 关于 Top-on-Top 代数摆动模型、双重次领头阶 HP 玻色子展开恢复 D2 玻尔对称性、双激发量子数 (nα, nβ)、BM-II 式 (4-282) 惯量排序勘误、刚体 vs 流体惯量在 B(E2)/B(M1) 跃迁比上的决定性判据及微观 CAP 惯量修正的全章精读与系统核验",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "chapter": 4,
+    "chapter_title": "Algebraic description of wobbling motion in nuclei",
+    "authors": "Kosai Tanabe and Kazuko Sugawara-Tanabe",
+    "scope": "Article pp.75-90 / physical PDF pp.94-109, full chapter text, equations 4.1-4.44, and Figures 4.1-4.10",
+    "evidence_route": "native text extraction plus algebraic derivation and figure verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/tanabe-top-on-top-algebraic-wobbling-contract.md",
+      "reason": "established method contract on Top-on-Top NLO Holstein-Primakoff boson expansion, D2 Bohr symmetry recovery, BM-II Eq. 4-282 MOI ordering erratum, rigid vs hydrodynamic MOI electromagnetic transition criteria, and microscopic CAP MOI parameterization"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "updated Chapter 4 status to full chapter verification and registered claims CW-68 to CW-72"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed Tanabe Top-on-Top algebraic wobbling model method contract"
+    },
+    {
+      "path": "knowledge/methods/bm2-asymmetric-rotor-d2-and-transition-contract.md",
+      "reason": "linked BM-II Eq. 4-282 erratum and D2 symmetry basis reconciliation"
+    },
+    {
+      "path": "knowledge/concepts/odd-a-wobbling-mode-stability-and-bifurcation.md",
+      "reason": "linked Top-on-Top rigid vs hydrodynamic MOI transition criteria"
+    },
+    {
+      "path": "knowledge/concepts/davydov-filippov-triaxial-rotor-and-wobbling-dynamics.md",
+      "reason": "linked algebraic D2 symmetry and BM-II erratum"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.99 Figure 4.1 (Comparison of energy levels between four D2 symmetries A, B1, B2, B3 for R<=6 vs exact diagonalization)",
+    "PDF p.100 Figure 4.2 (Rigid MOI core angular momentum alignments as functions of I at gamma=26 deg)",
+    "PDF p.101 Figure 4.3 (Hydrodynamic MOI core angular momentum alignments as functions of I)",
+    "PDF p.102 Figure 4.4 (Alignments between yrast (0,0) even and yrare (1,0) odd for hydrodynamic MOI)",
+    "PDF p.103 Figure 4.5 (B(E2)out/B(E2)in for rigid MOI showing large separation between odd and even I-j)",
+    "PDF p.104 Figure 4.6 (B(E2)out/B(E2)in for hydrodynamic MOI collapsing onto a single curve)",
+    "PDF p.105 Figure 4.7 (B(M1)out/B(E2)in for rigid MOI showing strong suppression of even I-j transitions)",
+    "PDF p.106 Figure 4.8 (B(M1)out/B(E2)in for hydrodynamic MOI showing unphysical large values for even I-j)",
+    "PDF p.107 Figure 4.9 (Comparison of absolute B(M1)out between rigid and hydrodynamic MOI)",
+    "PDF p.109 Figure 4.10 (Theoretical vs experimental energy levels E* - a I(I+1) for 163Lu TSD bands with CAP-corrected MOI)"
+  ],
+  "claims": [
+    "Simultaneous next-to-leading order (NLO) Holstein-Primakoff expansion for both rotor I and quasiparticle j is necessary to preserve D2 Bohr symmetry and reproduce exact diagonalization at the symmetric limit.",
+    "Bohr & Mottelson Vol. 2 Eq. (4-282) and Figure 4-33 contains a typographical ordering inversion in the definition of asymmetry parameter kappa; the correct ordering is A1 >= A2 >= A3 (J1 <= J2 <= J3).",
+    "Hydrodynamic moments of inertia cannot be properly mapped onto BM-II Figure 4-33 as a function of kappa because J_z^hyd vanishes in the prolate limit gamma -> 0, unlike rigid MOI which maintains non-zero values on all three axes.",
+    "Rigid moments of inertia successfully reproduce the experimental observation that B(E2)out/B(E2)in is significantly enhanced for I - j = odd (wobbling bandhead) over I - j = even in 135Pr and 163Lu, whereas hydrodynamic MOI yields nearly identical values.",
+    "Hydrodynamic moments of inertia predict unphysically large B(M1)out/B(E2)in for I - j = even transitions that exceed those of I - j = odd, directly contradicting experimental non-observation of M1 out-of-band decay from even I - j states.",
+    "Microscopic Coriolis anti-pairing (CAP) from CONHFB provides analytical spin-dependent moments of inertia that reproduce the backbending in 135Pr (Fermi-type) and TSD multi-wobbling bands in 163Lu (rational fraction)."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded full-chapter text and figure unit",
+    "remaining_queue": "Remaining chapters of Petrache (ed.) book (Ch.8 Raduta, Ch.15 Qi, Ch.1 Petrache) remain queued",
+    "boundary": [
+      "Top-on-Top model is based on expansion around the principal axis of maximal MOI and does not handle aplanar tilted precession without coordinate rotation",
+      "Model calculates electromagnetic ratios using overlap factors G, which require microscopic basis validation for soft nuclei",
+      "CAP parameterization uses simplified two-parameter forms fitted to empirical crossing frequencies"
+    ]
+  }
+}

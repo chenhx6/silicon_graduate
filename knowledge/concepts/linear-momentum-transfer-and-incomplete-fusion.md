@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [linear-momentum-transfer, lmt, incomplete-fusion, icf, fission-folding-angle, spectator-emission, pre-equilibrium, heavy-ion-reactions]
+tags: [linear-momentum-transfer, lmt, incomplete-fusion, icf, fission-folding-angle, spectator-emission, pre-equilibrium, heavy-ion-reactions]
 ---
 
 # 重离子线动量转移（LMT）、不完全熔合动力学与裂变碎片折叠角关联法典
 
-## 1. 物理全景：从中能碰撞到不完全熔合的动力学相变
+## Definition
+
+### 物理全景：从中能碰撞到不完全熔合的动力学相变
 
 在低能重离子碰撞中（束流能量 $E_{\text{lab}} < 5 \sim 8\text{ MeV/u}$，库仑势垒附近），相互作用时间远长于核内部自由程时间，弹核与靶核发生**完全熔合（Complete Fusion, CF）**：
 弹核的所有质量 $A_p$ 与入射线动量 $p_0$ 被 $100\%$ 转移给复合核系统，线动量转移分数严格等于 1：
@@ -29,7 +31,9 @@ $$\rho = \frac{\Delta p}{p_0} = 1.0$$
 
 ---
 
-## 2. 严格相对论运动学与裂变角关联方程
+## Necessary Assumptions
+
+### 严格相对论运动学与裂变角关联方程
 
 ### (1) 入射弹核动量与完全熔合反冲基准
 设实验室系入射束流动能为 $E_{\text{lab}}$，弹核静能为 $m_p = A_p m_u$：
@@ -77,7 +81,13 @@ $$\theta_{\text{fold}} = 2 \arctan\left( \frac{\beta_{\text{frag}}}{\beta_{\text
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/linear_momentum_transfer_incomplete_fusion_calculator.py`
@@ -103,7 +113,20 @@ python3 system/scripts/analysis/linear_momentum_transfer_incomplete_fusion_calcu
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[fission-fragment-mass-yield-calculator]]：此处裂变折叠角的内在碎片动力学参数 $\text{TKE}$ 正是由 Viola 裂变动能系统学生成；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[spontaneous-fission-wkb-action-and-half-life]]：此处裂变折叠角的内在碎片动力学参数 $\text{TKE}$ 正是由 Viola 裂变动能系统学生成；
 - [[multi-nucleon-transfer-and-deep-inelastic-collisions]]：不完全熔合（ICF）是深部非弹性散射（DIC）向完全熔合（CF）演化过渡的中间动力学形态；
 - [[heavy-ion-fusion-evaporation-and-statistical-decay]]：只有先通过 $\theta_{\text{fold}}$ 判定确认属于完全熔合通道，才能安全代入后续 Hauser-Feshbach 统计蒸发模型。

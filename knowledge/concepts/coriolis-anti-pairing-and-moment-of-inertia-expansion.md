@@ -11,7 +11,9 @@ tags: [high-spin, pairing-correlations, coriolis-anti-pairing, cap, moments-of-i
 
 # Coriolis anti-pairing (CAP) dynamic pairing gap quenching, superfluid-to-normal phase transition and triaxial moment of inertia expansion
 
-## Definition and Phenomenological Origin
+## Definition
+
+### Definition and Phenomenological Origin
 
 In deformed low-energy atomic nuclei, short-range attractive residual interactions between nucleons form Cooper pairs, generating a static monopole pairing gap $\Delta_0 \sim 0.8 - 1.3\text{ MeV}$ and reducing nuclear moments of inertia to $30\% - 50\%$ of the rigid-body value (irrotational fluid flow).
 
@@ -56,3 +58,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py capgap --preset rigid_rotor_
 - At $I = 25\ \hbar$: $\omega = 0.427\text{ MeV}/\hbar$, $\Delta = 0.297\text{ MeV}$ ($68.7\%$ quenched), $\mathcal{J}_m = 58.5\ \hbar^2/\text{MeV}$;
 - At $I = 35\ \hbar$: $\Delta \to 0.000\text{ MeV}$ ($100\%$ collapse), identifying the critical transition threshold $I_{\text{CAP}} \approx 35.0\ \hbar$;
 - Beyond $35\ \hbar$: $\mathcal{J}_m$ locks at the rigid limit $72.0\ \hbar^2/\text{MeV}$, reproducing the observed high-spin moment of inertia plateau.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

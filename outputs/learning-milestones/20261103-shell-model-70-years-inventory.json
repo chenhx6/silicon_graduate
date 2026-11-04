@@ -1,0 +1,32 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "inventory-only",
+  "objective": "登记并建立 The Nuclear Shell Model 70 Years after Its Advent 专题合集的可追溯学习队列",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "scope": "PDF identity, contents, preface and 14 article boundaries",
+    "evidence_route": "pdfinfo plus native text extraction of front matter"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+      "reason": "source identity, article map, evidence boundary and study queue"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the new shell-model review source"
+    }
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "none",
+    "boundary": [
+      "edited special-issue reprint, not a continuous textbook",
+      "contents and preface do not count as article completion",
+      "all 14 articles remain queued"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "lu-ch7-ch9-ocr-terminology-receipt-v1",
+  "date": "2026-11-03",
+  "source": "raw/books/原子核物理（修订版） (卢希庭江栋兴叶沿林) (Z-Library).pdf",
+  "raw_sha256": "a47c26b77283b871529633dc87b6b7def412f715ed66889e373ab69100147d02",
+  "pdf_pages": [
+    175,
+    304
+  ],
+  "printed_pages": [
+    165,
+    294
+  ],
+  "ocr_method": "ocrmypdf + tesseract chi_sim+eng",
+  "ocr_navigation_file": "tmp/lu-20261102/lu-ch7-9-ocr.pdf",
+  "ocr_text_file": "tmp/lu-20261102/ch7-9-ocr.txt",
+  "image_checked_pages": [
+    {
+      "pdf_page": 215,
+      "printed_page": 205,
+      "topic": "collective model entrance and deformation evidence"
+    },
+    {
+      "pdf_page": 228,
+      "printed_page": 218,
+      "topic": "high-spin states, superdeformation and rotational energy"
+    },
+    {
+      "pdf_page": 230,
+      "printed_page": 220,
+      "topic": "kinematic/dynamic moment of inertia and backbending formulas"
+    }
+  ],
+  "durable_outputs": [
+    "knowledge/concepts/nuclear-physics-standard-terminology-chinese-english.md",
+    "knowledge/sources/book-lu-nuclear-physics-chinese.md"
+  ],
+  "evidence_boundary": "OCR is a navigation and terminology aid for a scan-only PDF. Formula signs, symbols, figures and numerical claims require rendered-page verification; no OCR text is treated as final equation evidence."
+}

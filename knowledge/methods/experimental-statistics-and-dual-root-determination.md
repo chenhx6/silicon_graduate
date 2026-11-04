@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "实验物理统计分析、误差传播与多解/双根退化判决指南"
 aliases: [双根退化判决, 实验统计分析指南, 角分布混合比拟合, 极大似然与协方差反演]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [experimental-statistics, maximum-likelihood, profile-likelihood, dual-root-degeneracy, angular-distribution]
+tags: [experimental-statistics, maximum-likelihood, profile-likelihood, dual-root-degeneracy, angular-distribution]
 ---
 
 # 实验物理统计分析、误差传播与多解/双根退化判决指南
 
-## 1. 统计分析在实验核谱学中的核心地位
+## Purpose
+
+### 统计分析在实验核谱学中的核心地位
 
 低能核物理实验获得的数据本质上是微观核反应与核衰变过程的随机计数。根据朱永生《实验物理中的概率和统计》，物理结论的真实性完全取决于数理统计处理的严谨性。
 
@@ -19,7 +22,9 @@ topics: [experimental-statistics, maximum-likelihood, profile-likelihood, dual-r
 
 ---
 
-## 2. 角分布与双根退化的数学物理机理
+## Inputs and Assumptions
+
+### 角分布与双根退化的数学物理机理
 
 ### (1) 方向角分布方程与拟合
 在熔合蒸发反应中，定向核发射的 $\gamma$ 射线在与束流轴夹角 $\theta$ 处的角分布强度表达为 Legendre 多项式展开：
@@ -41,7 +46,13 @@ $$(a_2 - \alpha_2 F_2(2 2 I_f I_i)) \cdot \delta^2 - (2 \alpha_2 F_2(1 2 I_f I_i
 
 ---
 
-## 3. 打破双根退化的正交实验裁判法
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 打破双根退化的正交实验裁判法
 
 ### (1) 康普顿线偏振度（Linear Polarization）正交裁判
 线偏振灵敏度对于多极混合比的响应方程为：
@@ -65,3 +76,9 @@ $$\chi^2_{\text{joint}}(\delta) = \chi^2_{\text{AD}}(\delta) + \left( \frac{P_{\
 若输入变量间存在非零协方差矩阵 $\mathbf{V}_X$，则 $Y$ 的不确定度严格由协方差误差传播公式给出：
 $$\sigma_Y^2 = \sum_{i=1}^m \sum_{j=1}^m \frac{\partial f}{\partial X_i} \frac{\partial f}{\partial X_j} (\mathbf{V}_X)_{ij}$$
 当函数具有高度非线性（如含 $\delta^2$ 或反三角函数）时，一阶偏导数近似失效，必须采用 **Monte Carlo 协方差重采样（Bootstrap / Gaussian Toy Sampling）** 构建真实后验分布区间。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

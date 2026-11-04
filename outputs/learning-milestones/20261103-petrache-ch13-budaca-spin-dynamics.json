@@ -1,0 +1,67 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Petrache (ed.) 专著第 13 章 Budaca 关于三轴核准粒子对齐自旋动力学、SU(2)自旋相干态半经典相空间映射、正则泊松括号运动方程、超临界分岔相变、广义坐标依赖有效质量一维薛定谔集体运动方程量化、130Ba/105Pd/133La非简谐摆动（倾斜轴摆动）及134Pr/138Pm非对称倾角手征相变的全章精读与系统核验",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "chapter": 13,
+    "chapter_title": "Spin dynamics of triaxial nuclei with quasiparticle alignments",
+    "author": "Radu Budaca",
+    "scope": "Article pp.256-272 / physical PDF pp.275-291, full chapter text, equations 13.1-13.32, and Figures 13.1-13.6",
+    "evidence_route": "native text extraction plus analytical equation and figure verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/budaca-spin-dynamics-semiclassical-wobbling-chiral-contract.md",
+      "reason": "established method contract on SU(2) coherent-state semiclassical mapping of PRM, canonical Poisson equations on the sphere, coordinate-dependent mass Schroedinger equation, tilted-axis wobbling in 133La, and asymmetric tilting chirality in 138Pm"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "updated Chapter 13 status to full chapter verification and registered claims CW-63 to CW-67"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Budaca spin dynamics method contract"
+    },
+    {
+      "path": "knowledge/concepts/davydov-filippov-triaxial-rotor-and-wobbling-dynamics.md",
+      "reason": "linked Budaca semiclassical mapping and coordinate-dependent mass wobbling"
+    },
+    {
+      "path": "knowledge/concepts/chiral-vibrational-tunneling-and-double-well-splitting.md",
+      "reason": "linked Budaca double-well bifurcation and quantum tunneling energy splitting"
+    },
+    {
+      "path": "knowledge/concepts/triaxial-wobbling-tilted-precession-and-chiral-geometry.md",
+      "reason": "linked Chapter 13 reference and tilted-axis wobbling model"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.259 Figure 13.1 (xmin/I minima dependence on angular momentum I for gamma=90 and 100 deg with j=0, j'=11/2)",
+    "PDF p.260 Figure 13.2 (xmin/I minima dependence for two quasiparticles j=j'=11/2 with tilting angles)",
+    "PDF p.261 Figure 13.3 (azimuth coordinate phimin dependence on I for gamma=80, 90, 100 deg showing planar to aplanar transition)",
+    "PDF p.264 Figure 13.4 (wobbling energy Delta E for single qp and chiral energy splitting for two qp)",
+    "PDF p.266 Figure 13.5 (wobbling energy and B(M1)out/B(E2)in for 130Ba, 105Pd, and 133La comparison with experiment)",
+    "PDF p.268 Figure 13.6 (energy difference Delta E and B(M1)in/B(E2)in for 138Pm chiral partner bands)"
+  ],
+  "claims": [
+    "SU(2) spin coherent states stereographically parametrized by azimuth phi and projection variable x = I cos(theta) canonically map the frozen-alignment PRM Hamiltonian onto a classical energy function on the sphere with Poisson bracket {phi, x} = 1.",
+    "Stationary points of H(x, phi) track the average angular momentum orientation, exhibiting pitchfork bifurcation from planar to aplanar rotation at a critical angular momentum depending on triaxiality gamma and tilting angles alpha, alpha'.",
+    "Quantization along the minimal energy path phi_0(x) yields a 1D Schroedinger equation with coordinate-dependent effective mass B(x) = [d^2 H/d phi^2]^(-1) and potential V(x) reproducing double-well tunneling.",
+    "Tilted-axis wobbling provides a continuous physical transition between transverse and longitudinal wobbling: non-zero particle tilting shifts the wobbling energy minimum to lower spins, naturally explaining the increasing Delta E(I) in 133La without abandoning particle alignment.",
+    "Non-vanishing and asymmetric tilting of quasiparticle spins (e.g., alpha'=8 deg in 138Pm) breaks the high-spin chiral degeneracy, reproducing the parabolic rebound of Delta E(I) and in-band B(M1)/B(E2) ratios."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded full-chapter text and figure unit",
+    "remaining_queue": "Remaining chapters of Petrache (ed.) book (Ch.4 Tanabe, Ch.8 Raduta, Ch.15 Qi, Ch.1 Petrache) remain queued",
+    "boundary": [
+      "Rigid frozen alignment (FA) replaces dynamic quasiparticle operators by constant vectors and neglects rotation-induced pair-breaking",
+      "Harmonic expansion in phi assumes localized fluctuations around phi_0(x) and is less accurate near shallow isotropic saddle points",
+      "Model parameters (gamma, J_0, alpha, alpha') are phenomenological and must be constrained by independent microscopic PES and lifetime measurements"
+    ]
+  }
+}

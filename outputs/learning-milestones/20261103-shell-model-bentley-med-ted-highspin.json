@@ -1,0 +1,33 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "核对等位旋多重态MED/TED、高自旋镜像核和壳模型INC实验接口",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "scope": "Bentley article 11 selected MED/TED, high-spin and experimental sections",
+    "evidence_route": "native text extraction with formulas, reaction and spectroscopy navigation"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/isobaric-multiplet-med-ted-highspin-contract.md",
+      "reason": "MED/TED definitions, mirror spectroscopy, INC decomposition and high-spin boundary"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the MED/TED high-spin contract"
+    }
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded partial article unit",
+    "remaining_queue": "article continuation and remaining special-issue articles remain queued",
+    "boundary": [
+      "MED/TED require reliable analogue-state identity and gamma spectroscopy",
+      "fitted INC terms are model parameters, not direct observables",
+      "MED/TED alone do not establish triaxiality, chirality or wobbling"
+    ]
+  }
+}

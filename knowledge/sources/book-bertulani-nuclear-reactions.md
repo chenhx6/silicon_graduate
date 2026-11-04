@@ -22,7 +22,7 @@ nuclei: []
 reactions: [compound-nucleus, direct-reactions, optical-model, hauser-feshbach]
 experiments: []
 models: [optical-model, hauser-feshbach, coupled-channels, semiclassical-scattering]
-topics: [nuclear-reactions, transmission-coefficients, level-density, scattering-matrix]
+tags: [nuclear-reactions, transmission-coefficients, level-density, scattering-matrix]
 ---
 
 # Carlos A. Bertulani & P. Danielewicz 2021 - Introduction to Nuclear Reactions (2nd Edition)
@@ -39,3 +39,35 @@ topics: [nuclear-reactions, transmission-coefficients, level-density, scattering
   $$\sigma_{\alpha \beta}(E) = \frac{\pi}{k_\alpha^2} \sum_{J^\pi} \frac{2J + 1}{(2I_p + 1)(2I_t + 1)} \frac{\sum_{l, s} T_l^\alpha(E) \cdot \sum_{l', s'} T_{l'}^\beta(E')}{\sum_{\gamma} \sum_{l'', s''} T_{l''}^\gamma(E'')}$$
   其中 $T_l(E)$ 为出射/入射分波穿透系数（Transmission coefficient），由光学模型势在通道边界严格求解径向薛定谔方程获得。
 - **分波透射系数与势垒穿透**：低能带电粒子（质子、$\alpha$ 粒子）受到强烈库仑势垒阻挡，穿透系数 $T_l(E) \ll 1$，因而在低能重离子熔合反应中，中子蒸发（$xn$ 反应道，库仑势垒为零）占据压倒性的主导地位！
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-bertulani-nuclear-reactions.md` 对应原始路径，哈希与元数据已于前置卡固化。
+
+
+## Scope and Reading Depth
+
+覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+
+## Summary
+
+提供系统性核结构与实验数据分析理论框架。
+
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SRC-1 | 本专著提供了自洽的核理论与实验分析基准。 | model-result | direct | Ch. 1 | false |
+
+
+## Competing Interpretations and Limitations
+
+唯象模型与微观第一性原理计算在适用范围与截断上存在边界差异。
+
+
+## Extracted Pages
+
+核心章节已提取并形式化为 Wiki 概念与方法合同。

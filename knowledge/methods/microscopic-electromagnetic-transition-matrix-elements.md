@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "微观核物理代数与电磁跃迁矩阵元推导全指南"
 aliases: [电磁跃迁微观推导, Suhonen张量代数指南, Wigner-Eckart定理核跃迁, 单粒子跃迁几率计算]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [tensor-algebra, wigner-eckart-theorem, electromagnetic-transitions, suhonen-methods, bcs-quasiparticles]
+tags: [tensor-algebra, wigner-eckart-theorem, electromagnetic-transitions, suhonen-methods, bcs-quasiparticles]
 ---
 
 # 微观核物理代数与电磁跃迁矩阵元推导全指南
 
-## 1. 理论渊源与微观推导基石
+## Purpose
+
+### 理论渊源与微观推导基石
 
 低能核结构实验的核心可观测量（如激发态半衰期 $T_{1/2}$、多极混合比 $\delta$、角分布系数 $a_2$）最终都要归结为原子核波函数之间的**电磁跃迁约化矩阵元（Reduced Transition Matrix Elements）**。
 
@@ -19,7 +22,9 @@ topics: [tensor-algebra, wigner-eckart-theorem, electromagnetic-transitions, suh
 
 ---
 
-## 2. 角动量代数与 Wigner-Eckart 定理严格约定
+## Inputs and Assumptions
+
+### 角动量代数与 Wigner-Eckart 定理严格约定
 
 ### (1) 不可约球张量算符（Irreducible Spherical Tensor Operators）
 阶数为 $\lambda$ 的不可约球张量算符集合 $\{ T_{\lambda \mu} \}$（$\mu = -\lambda, -\lambda+1, \dots, \lambda$）满足与总角动量算符 $\vec{J}$ 的标准对易关系：
@@ -37,7 +42,13 @@ $$\langle j_i || T_\lambda || j_f \rangle = (-1)^{j_i - j_f} \langle j_f || T_\l
 
 ---
 
-## 3. 电多极（$E\lambda$）与磁多极（$M\lambda$）单粒子算符显式表达
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 电多极（$E\lambda$）与磁多极（$M\lambda$）单粒子算符显式表达
 
 ### (1) 电多极跃迁算符 $\mathcal{M}(E\lambda, \mu)$
 $$\mathcal{M}(E\lambda, \mu) = e_{\text{eff}} r^\lambda Y_{\lambda \mu}(\hat{r})$$
@@ -87,3 +98,9 @@ $$a_j^\dagger = u_j c_j^\dagger - v_j \tilde{c}_j$$
 
 **物理精要**：
 在费米面附近的准粒子态之间，若 $u_i \approx u_f \approx 1/\sqrt{2}, v_i \approx v_f \approx 1/\sqrt{2}$，则电跃迁因子 $(u^2 - v^2) \approx 0$，电跃迁受到剧烈配对阻碍；而磁跃迁因子 $(u^2 + v^2) = 1$，磁跃迁保持畅通！这一配对微观机制解释了为何许多奇 $A$ 核低激发能级间的单准粒子交叉跃迁表现为近纯 $M1$ 辐射。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

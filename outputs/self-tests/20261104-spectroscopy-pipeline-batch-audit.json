@@ -1,0 +1,84 @@
+{
+  "pipeline_audit": "In-Beam Precision Spectroscopy Pipeline Verification",
+  "status": "all_checks_passed",
+  "modules_verified": {
+    "in_beam_2d_snip_matrix_background_estimator": {
+      "130Ba_gated_matrix_slice_snip": {
+        "raw_volume": 254636.0,
+        "continuum_fraction_pct": 79.58514568136994,
+        "sbr_enhancement_factor": 26.787530048108877,
+        "status": "passed"
+      },
+      "high_compton_continuum_benchmark": {
+        "raw_volume": 305792.0,
+        "continuum_fraction_pct": 88.30649986481109,
+        "sbr_enhancement_factor": 91.52945472053507,
+        "status": "passed"
+      },
+      "isolated_gaussian_peaks_fidelity_test": {
+        "raw_volume": 16141.0,
+        "continuum_fraction_pct": 38.6742620464056,
+        "sbr_enhancement_factor": 3.923356244973351,
+        "status": "passed"
+      }
+    },
+    "digital_mwd_baseline_restorer_filter": {
+      "standard_hpge_high_rate": {
+        "mean_error_filtered_keV": 17.236777042360206,
+        "resolution_improvement_factor": 41.01905637068827,
+        "peaks_detected": 3,
+        "status": "passed"
+      },
+      "close_doublet_pileup": {
+        "mean_error_filtered_keV": 15.217774348532487,
+        "resolution_improvement_factor": 31.12575582945845,
+        "peaks_detected": 2,
+        "status": "passed"
+      },
+      "noisy_weak_line": {
+        "mean_error_filtered_keV": 32.18972586695257,
+        "resolution_improvement_factor": 0.22772720053676784,
+        "peaks_detected": 1,
+        "status": "passed"
+      }
+    },
+    "double_root_dco_polarization_statistical_arbitrator": {
+      "135Pr_wobbling_candidate": {
+        "n_roots": 2,
+        "delta_chi2": 34.55446341734171,
+        "arbitration_status": "resolved_by_3sigma_statistical_exclusion",
+        "favored_root": 2,
+        "summary": "Root 1 rejected at 100.00% CL (Delta chi^2 = 34.55 >= 9.0, >3-sigma); Root 2 favored.",
+        "status": "passed"
+      },
+      "134Pr_chiral_intraband": {
+        "n_roots": 2,
+        "delta_chi2": 66.6406640847137,
+        "arbitration_status": "resolved_by_3sigma_statistical_exclusion",
+        "favored_root": 1,
+        "summary": "Root 2 rejected at 100.00% CL (Delta chi^2 = 66.64 >= 9.0, >3-sigma); Root 1 favored.",
+        "status": "passed"
+      },
+      "136Nd_triaxial_crossover": {
+        "n_roots": 2,
+        "delta_chi2": 14.00098883702973,
+        "arbitration_status": "resolved_by_3sigma_statistical_exclusion",
+        "favored_root": 1,
+        "summary": "Root 2 rejected at 99.98% CL (Delta chi^2 = 14.00 >= 9.0, >3-sigma); Root 1 favored.",
+        "status": "passed"
+      }
+    },
+    "pado_shared_alignment_projectile_family_analyzer": {
+      "alpha_tau_req": 2.155552,
+      "c12_tau_req": 0.741708,
+      "c12_optimal_r": 0.282417,
+      "conclusion": {
+        "cross_projectile_null": "REJECTED",
+        "alpha_family_null": "REJECTED",
+        "12C_family_null": "ACCEPTED",
+        "physical_interpretation": "Light-ion (alpha, xn) reactions exhibit rapid energy-dependent alignment attenuation as beam energy increases from 11.3 to 22.0 MeV, precluding a shared alignment parameter. In contrast, heavy-ion (12C, xn) fusion-evaporation brings substantial angular momentum with a stable statistical feeding pattern across 32-48 MeV, permitting a single shared alignment parameter r = sigma/J ~ 0.282 (tau_req < 1.0)."
+      },
+      "status": "passed"
+    }
+  }
+}

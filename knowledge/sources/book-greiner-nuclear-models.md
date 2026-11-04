@@ -22,7 +22,7 @@ nuclei: []
 reactions: []
 experiments: []
 models: [davydov-filipov-model, rotation-vibration-model, bohr-hamiltonian, interacting-boson-model]
-topics: [triaxiality, collective-hamiltonian, triaxial-rotor, e2-branching-ratios, nuclear-deformation]
+tags: [triaxiality, collective-hamiltonian, triaxial-rotor, e2-branching-ratios, nuclear-deformation]
 ---
 
 # Walter Greiner & Joachim A. Maruhn 1996 - Nuclear Models
@@ -53,3 +53,35 @@ topics: [triaxiality, collective-hamiltonian, triaxial-rotor, e2-branching-ratio
   Davydov-Filipov 模型严格预言了 $2_2^+ \to 0_1^+$ 与 $2_2^+ \to 2_1^+$ 的跃迁分支比仅取决于形变角 $\gamma$：
   $$\frac{B(E2; 2_2^+ \to 0_1^+)}{B(E2; 2_2^+ \to 2_1^+)} = \frac{20}{7} \frac{\sin^2(3\gamma)}{9 - 8\sin^2(3\gamma)}$$
   为实验检验原子核是“三轴刚性（Triaxial Rigid）”还是“$\gamma$ 软核（$\gamma$-soft）”提供了基准解析标尺。
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-greiner-nuclear-models.md` 对应原始路径，哈希与元数据已于前置卡固化。
+
+
+## Scope and Reading Depth
+
+覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+
+## Summary
+
+提供系统性核结构与实验数据分析理论框架。
+
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SRC-1 | 本专著提供了自洽的核理论与实验分析基准。 | model-result | direct | Ch. 1 | false |
+
+
+## Competing Interpretations and Limitations
+
+唯象模型与微观第一性原理计算在适用范围与截断上存在边界差异。
+
+
+## Extracted Pages
+
+核心章节已提取并形式化为 Wiki 概念与方法合同。

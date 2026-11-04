@@ -11,7 +11,9 @@ tags: [digital-signal-processing, mwd, hpge-detectors, baseline-restorer, pole-z
 
 # Digital moving window deconvolution (MWD) and adaptive baseline restoration (BLR)
 
-## Definition and High-Rate Pileup Challenge
+## Definition
+
+### Definition and High-Rate Pileup Challenge
 
 In high-resolution in-beam $\gamma$-ray spectroscopy using High-Purity Germanium (HPGe) detectors, charge-sensitive preamplifiers convert detector charge pulses into long-tailed voltage waveforms with decay time constants $\tau_{\text{pre}} \approx 50\ \mu\text{s}$.
 
@@ -68,8 +70,36 @@ $$v_{\text{MWD}}[n] = \left( v[n] - v[n - M_{\text{win}}] \right) + \frac{1}{M_{
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Georgiev, A. & Gast, W.**: *Digital pulse processing in high resolution, high throughput gamma-ray spectroscopy*, IEEE Trans. Nucl. Sci. 40, 770–779 (1993).
 - **Nakhostin, M.**: *Signal Processing for Radiation Detectors*, John Wiley & Sons (2017), Chapter 4 (Deconvolution & Baseline Restoration), pp. 182–195.
 - **Wu Zhihua (吴治华)**: *Methods of Nuclear Physics Experiments* (《原子核物理实验方法》), Fudan University Press (1995), Chapter 9.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

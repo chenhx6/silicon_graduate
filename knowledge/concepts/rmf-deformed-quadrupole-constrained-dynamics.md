@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [relativistic-mean-field, rmf, deformed-rmf, quadrupole-constraint, nl3-parameter-set, charge-radius, neutron-skin-deformation, potential-energy-curve]
+tags: [relativistic-mean-field, rmf, deformed-rmf, quadrupole-constraint, nl3-parameter-set, charge-radius, neutron-skin-deformation, potential-energy-curve]
 ---
 
 # 相对论平均场（RMF）轴对称四极约束形变、NL3参数化与核电荷半径动力学
 
-## 1. 物理全景：协变核多体自洽场中的宏观四极形变演化
+## Definition
+
+### 物理全景：协变核多体自洽场中的宏观四极形变演化
 
 在现代微观核结构理论中，**相对论平均场理论（Relativistic Mean Field, RMF）**以洛伦兹协变性、天然包含大自旋-轨道耦合力以及成功解释相对论饱和机制而著称。
 根据 J. Boguta & A. R. Bodmer（Nucl. Phys. A 292, 413, 1977）、G. A. Lalazissis, J. Konig, & P. Ring（Phys. Rev. C 55, 540, 1997，NL3 参数集）以及孟杰《Relativistic Continuum Field Theory》：
@@ -27,7 +29,9 @@ topics: [relativistic-mean-field, rmf, deformed-rmf, quadrupole-constraint, nl3-
 
 ---
 
-## 2. 严格相对论物理方程与能量泛函推导
+## Necessary Assumptions
+
+### 严格相对论物理方程与能量泛函推导
 
 ### (1) RMF 协变有效拉格朗日量密度
 $$\mathcal{L} = \bar{\psi} \left[ i\gamma^\mu \partial_\mu - M - g_\sigma \sigma - g_\omega \gamma^\mu \omega_\mu - g_\rho \gamma^\mu \vec{\tau} \cdot \vec{\rho}_\mu - e \gamma^\mu \frac{1 - \tau_3}{2} A_\mu \right] \psi + \mathcal{L}_{\text{mesons}}$$
@@ -59,7 +63,13 @@ $$\Delta r_{np} = \sqrt{\langle r_n^2 \rangle} - \sqrt{\langle r_p^2 \rangle}$$
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/rmf_deformed_constrained_calculator.py`
@@ -82,7 +92,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py rmfdef -Z 56 -A 130 --json
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[relativistic-mean-field-spin-orbit-and-pseudospin]]：球形 RMF 势阱与狄拉克赝自旋对称性在此处自然拓展为轴对称四极形变场；
 - [[collective-quadrupole-pes-and-gamma-softness]]：微观 RMF 四极约束能量曲线为宏观 5D Bohr 集体哈密顿量提供了微观能量输入基准；
 - [[nuclear-charge-radii-isotope-shifts-and-king-plot]]：形变产生的均方电荷半径增量直接反映在激光同位素移动实验测量中。

@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [relativistic-coulomb-excitation, virtual-photon-method, lorentz-boost, winther-alder, b-e2, radioactive-ion-beams, doppler-reconstruction]
+tags: [relativistic-coulomb-excitation, virtual-photon-method, lorentz-boost, winther-alder, b-e2, radioactive-ion-beams, doppler-reconstruction]
 ---
 
 # 相对论重离子库仑激发、虚光子理论（Virtual Photons）与高能在束谱学洛伦兹变换法典
 
-## 1. 物理全景：中高能放射性核束装置（RIB）的谱学基石
+## Definition
+
+### 物理全景：中高能放射性核束装置（RIB）的谱学基石
 
 在现代大科学装置放射性核束物理（如中国 HIRFL-RIBLL / HIAF、日本 RIKEN-RIBF、美国 FRIB 与德国 GSI/FAIR）中，远离稳定线的不稳定核束流通常以中高能或相对论能量出束（$E_{\text{lab}} \sim 50 \sim 500\text{ MeV/u}$，速度达到光速的相当比例：$\beta = v/c \sim 0.3 \sim 0.75$，洛伦兹因子 $\gamma \sim 1.05 \sim 1.5$）。
 
@@ -27,7 +29,9 @@ topics: [relativistic-coulomb-excitation, virtual-photon-method, lorentz-boost, 
 
 ---
 
-## 2. 虚光子理论（Virtual Photon Formalism）：Winther-Alder 微观推导
+## Necessary Assumptions
+
+### 虚光子理论（Virtual Photon Formalism）：Winther-Alder 微观推导
 
 ### (1) 虚光子等效展开
 高能带电粒子产生的瞬态电磁场可严密傅里叶分解为一系列等效虚光子通量（Virtual Photon Flux）。相对论库仑激发截面直接因式分解为虚拟光子数谱与真实光核吸收截面之积：
@@ -49,7 +53,13 @@ $$N_{E2}(E_x) = \frac{2}{\pi} Z_T^2 \alpha \left(\frac{c}{v}\right)^4 \frac{1}{\
 
 ---
 
-## 3. 高能束内 $\gamma$ 谱学洛伦兹变换法典（Lorentz Boost & Aberration）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 高能束内 $\gamma$ 谱学洛伦兹变换法典（Lorentz Boost & Aberration）
 
 在飞行出射核（$\beta \sim 0.3 \sim 0.7$）退激自发发射光子时，实验室系（Laboratory Frame）与质心静止系（Rest Frame / Center-of-Mass Frame）发生剧烈的狭义相对论运动学变换：
 
@@ -103,3 +113,18 @@ $$\frac{d\sigma}{d\Omega_{\text{lab}}}(\theta_{\text{lab}}) = \frac{d\sigma}{d\O
 3. **Glasmacher, T.** (1998). In-beam spectroscopy of exotic nuclei with intermediate-energy beams. *Annu. Rev. Nucl. Part. Sci.*, 48(1), 1-41.
 4. **Bertulani, C. A. & Danielewicz, P.** (2004). *Introduction to Nuclear Reactions*, Chapter 9 (Relativistic collisions). CRC Press.
 5. **吴治华** (2006). 《原子核物理实验方法》（第三版）第 10 章：核辐射探测与多普勒效应校正. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

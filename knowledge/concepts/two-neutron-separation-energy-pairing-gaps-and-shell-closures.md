@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [separation-energy, pairing-gap, odd-even-staggering, shell-closure, magic-numbers, mass-curvature, bcs-theory]
+tags: [separation-energy, pairing-gap, odd-even-staggering, shell-closure, magic-numbers, mass-curvature, bcs-theory]
 ---
 
 # 两中子分离能系统学、核子配对能（Pairing Gap）与壳层闭合判据
 
-## 1. 物理全景：原子核质量曲面的一阶与二阶微商物理
+## Definition
+
+### 物理全景：原子核质量曲面的一阶与二阶微商物理
 
 原子核基态质量（或结合能 $B(N, Z)$）是核内所有单粒子动能、两体有效核力、表面张力、库仑排斥与短程配对相互作用在整个 $A$ 体多体系统中的总能量积分投影。
 
@@ -28,7 +30,9 @@ topics: [separation-energy, pairing-gap, odd-even-staggering, shell-closure, mag
 
 ---
 
-## 2. 配对能隙微观公式：三点、四点与五点质量差分法典
+## Necessary Assumptions
+
+### 配对能隙微观公式：三点、四点与五点质量差分法典
 
 为了从实测原子核质量谱中精确剥离核物质光滑宏观体积项与对称能曲率，国际物理界建立了多点有限差分指标：
 
@@ -51,7 +55,13 @@ $$\Delta_{\text{empirical}} \approx \frac{12}{\sqrt{A}}\text{ MeV} \quad \text{�
 
 ---
 
-## 3. 两中子分离能 $S_{2n}$ 系统学与物理判定法则
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 两中子分离能 $S_{2n}$ 系统学与物理判定法则
 
 在沿固定质子数 $Z$ 扫描同位素链时，$S_{2n}(N)$ 呈现出极具诊断价值的几何形态：
 
@@ -110,3 +120,18 @@ $$\delta_{2n}(N_{\text{magic}}) \equiv S_{2n}(N_{\text{magic}}, Z) - S_{2n}(N_{\
 3. **Wang, M. et al.** (2021). The AME 2020 atomic mass evaluation. *Chin. Phys. C*, 45(3), 030003.
 4. **Bender, M., Rutz, K., Reinhard, P.-G., & Maruhn, J. A.** (2000). Pairing gaps from nuclear mean-field models. *Eur. Phys. J. A*, 8(1), 59-75.
 5. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 1–2 章：结合能系统学与核子配对相互作用. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

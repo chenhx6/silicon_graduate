@@ -1,0 +1,157 @@
+{
+  "schema": "suhonen-bounded-reading-receipt-v1",
+  "date": "2026-11-02",
+  "source": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+  "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+  "book_pages": 654,
+  "reading_status": "bounded chapter/TOC crosswalk; not full-book completion",
+  "chapters": {
+    "ch06": {
+      "printed": [
+        117,
+        153
+      ],
+      "focus": [
+        "electromagnetic multipoles",
+        "selection rules",
+        "B(sigma lambda)",
+        "Weisskopf units"
+      ]
+    },
+    "ch08": {
+      "printed": [
+        205,
+        243
+      ],
+      "focus": [
+        "two-body interaction",
+        "SDI",
+        "configuration mixing"
+      ]
+    },
+    "ch09_11": {
+      "printed": [
+        243,
+        365
+      ],
+      "focus": [
+        "TDA",
+        "pnTDA",
+        "RPA",
+        "electromagnetic response"
+      ]
+    },
+    "ch12_14": {
+      "printed": [
+        369,
+        448
+      ],
+      "focus": [
+        "seniority",
+        "pure pairing",
+        "BCS vacuum",
+        "gap equation",
+        "quasiparticles"
+      ]
+    },
+    "ch15_17": {
+      "printed": [
+        449,
+        556
+      ],
+      "focus": [
+        "quasiparticle transitions",
+        "QTDA",
+        "odd-odd mixing"
+      ]
+    },
+    "ch18_19": {
+      "printed": [
+        557,
+        617
+      ],
+      "focus": [
+        "QRPA",
+        "pnQRPA",
+        "X/Y amplitudes",
+        "Ikeda sum rule"
+      ]
+    }
+  },
+  "durable_outputs": [
+    "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+    "knowledge/concepts/suhonen-bcs-qrpa-and-transition-crosswalk.md",
+    "knowledge/synthesis/casten-cross-source-microscopic-foundations.md"
+  ],
+  "evidence_boundary": "Content is derived from local PDF front matter, contents and selected extracted sections. Exact equation/image certification remains limited to named sections; spherical small-model-space examples do not directly validate A≈130 triaxial high-spin calculations.",
+  "next_checks": [
+    "render Ch. 8 SDI matrix elements",
+    "render Ch. 13-14 gap equations and LN-BCS",
+    "audit Ch. 18 QRPA transition amplitudes and normalization",
+    "cross-check phase conventions with existing electromagnetic matrix-element method"
+  ],
+  "rendered_formula_pages": [
+    {
+      "physical_pdf": 228,
+      "printed": 213,
+      "objects": [
+        "Eqs. (8.39)-(8.47)",
+        "SDI section entrance"
+      ]
+    },
+    {
+      "physical_pdf": 229,
+      "printed": 214,
+      "objects": [
+        "Eqs. (8.48)-(8.53)",
+        "separable multipole decomposition"
+      ]
+    },
+    {
+      "physical_pdf": 230,
+      "printed": 215,
+      "objects": [
+        "Eqs. (8.54)-(8.62)",
+        "SDI coupled two-body matrix elements"
+      ]
+    },
+    {
+      "physical_pdf": 414,
+      "printed": 401,
+      "objects": [
+        "Eqs. (13.54)-(13.59)",
+        "BCS occupation amplitudes, quasiparticle energy, phase convention"
+      ]
+    },
+    {
+      "physical_pdf": 568,
+      "printed": 558,
+      "objects": [
+        "Eqs. (18.1)-(18.9)",
+        "QRPA excitation operator and correlated vacuum"
+      ]
+    },
+    {
+      "physical_pdf": 595,
+      "printed": 585,
+      "objects": [
+        "Eqs. (18.117)-(18.129)",
+        "QRPA E2 transition amplitude with X/Y"
+      ]
+    },
+    {
+      "physical_pdf": 597,
+      "printed": 587,
+      "objects": [
+        "Eqs. (18.136)-(18.147)",
+        "ideal two-phonon transition rules"
+      ]
+    }
+  ],
+  "audited_claims": [
+    "SDI matrix elements retain radial, multipole, 6j, phase and normalization factors",
+    "BCS gap/quasiparticle equations and CS/BR phase conventions",
+    "QRPA X/Y operator and E2 amplitude sign cancellation",
+    "ideal boson two-phonon 2x/zero selection baseline"
+  ]
+}

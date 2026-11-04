@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [double-beta-decay, 0nu-beta-beta, nuclear-matrix-elements, nme, majorana-neutrino-mass, ga-quenching, closure-approximation, legend-gerda, nexo]
+tags: [double-beta-decay, 0nu-beta-beta, nuclear-matrix-elements, nme, majorana-neutrino-mass, ga-quenching, closure-approximation, legend-gerda, nexo]
 ---
 
 # 无中微子双贝塔衰变（0νββ）核矩阵元（NME）、有效马约拉纳中微子质量与gA淬灭动力学
 
-## 1. 物理全景：粒子物理标准模型之外的轻子数破坏与核多体物理桥梁
+## Definition
+
+### 物理全景：粒子物理标准模型之外的轻子数破坏与核多体物理桥梁
 
 在粒子物理学与原子核物理学的最高前沿，中微子是否为其自身的反粒子（马约拉纳粒子，Majorana Fermion）是揭示宇宙正反物质不对称性（重子数轻子数生成机制, Leptogenesis）的决定性谜题。
 **无中微子双贝塔衰变（Neutrinoless Double Beta Decay, $0\nu\beta\beta$）**：
@@ -31,7 +33,9 @@ $$(T_{1/2}^{0\nu})^{-1} = G_{0\nu}(Q_{\beta\beta}, Z) \cdot |M^{0\nu}|^2 \cdot \
 
 ---
 
-## 2. 严格微观多体表述与中微子势算符
+## Necessary Assumptions
+
+### 严格微观多体表述与中微子势算符
 
 ### (1) 核矩阵元 $M^{0\nu}$ 的算符分解
 在电弱 $V-A$ 理论下，通过交换虚轻中微子，$0\nu\beta\beta$ 跃迁矩阵元分解为 Gamow-Teller 项（自旋翻转）、Fermi 项（同位旋标量）与张量项：
@@ -61,7 +65,13 @@ $$\Gamma_{0\nu} \propto g_A^4 \cdot |M^{0\nu}|^2$$
 
 ---
 
-## 3. 全球主力同位素物理参数与倒序质量谱探测基准
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 全球主力同位素物理参数与倒序质量谱探测基准
 
 | 同位素 | 衰变能 $Q_{\beta\beta}$ (keV) | 相空间因子 $G_{0\nu}$ ($\text{yr}^{-1}$) | 理论 NME 范围 $[M_{\text{min}}, M_{\text{max}}]$ | 实验现状（90% C.L. 寿命下限） | 对应 $\langle m_{\beta\beta} \rangle$ 质量上限 (meV) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -104,7 +114,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py dbd --iso 136Xe --t12 2.3e26
 
 ---
 
-## 5. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[quasiparticle-random-phase-approximation-qrpa-dynamics]]：pnQRPA 中的粒子-粒子相互作用参数 $g_{pp}$ 灵敏度正是此处双贝塔衰变矩阵元计算的核心微观内核；
 - [[gamow-teller-resonance-ikeda-sum-rule-and-ga-quenching]]：Ikeda 求和定则与电荷交换反应对 $g_A$ 介质淬灭的测定，直接决定了此处 $g_A^4$ 寿命标度的理论上限；
 - [[beta-decay-phase-space-log-ft-and-cvc-unitarity]]：单 $\beta$ 衰变相空间积分在此处推广为双轻子相空间因子 $G_{0\nu}$。

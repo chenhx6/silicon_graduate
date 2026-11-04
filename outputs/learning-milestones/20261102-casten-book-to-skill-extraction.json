@@ -1,0 +1,19 @@
+{
+  "schema": "book-to-skill-extraction-receipt-v1",
+  "date": "2026-11-02",
+  "source_file": "/workspace/wiki/raw/books/Nuclear Structure From A Simple Perspective Casten.pdf",
+  "raw_sha256": "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9",
+  "pages": 391,
+  "words": 140163,
+  "estimated_tokens": 186884,
+  "chapters_detected": 168,
+  "has_toc": true,
+  "extraction_method": "pdftotext",
+  "fallback_reason": "docling_unavailable",
+  "images_dropped": null,
+  "quality_boundary": "Text extraction is a navigation aid; equations, figures, tables, signs, subscripts and captions require rendered-PDF verification.",
+  "skill_path": ".agents/skills/casten-nuclear-structure",
+  "chapter_cards": 10,
+  "study_status": "bounded skill scaffold; chapter-specific reading remains queued unless stated in the Casten source page",
+  "reproducible_command": "python3 /root/.codex/skills/book-to-skill/scripts/extract.py \"raw/books/Nuclear Structure From A Simple Perspective Casten.pdf\" --mode technical --install-missing ask"
+}

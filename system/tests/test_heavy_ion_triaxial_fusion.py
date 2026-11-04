@@ -1,3 +1,4 @@
+import numpy as np
 #!/usr/bin/env python3
 """
 Unit tests for heavy_ion_triaxial_fusion_barrier_distribution_inverter.py (Module 157).

@@ -11,7 +11,9 @@ tags: [chirality, octupole-deformation, dual-symmetry-breaking, quartet-bands, p
 
 # Chiral-octupole dual symmetry-breaking quartet bands and aplanar parity doublets
 
-## Definition and Phenomenological Origin
+## Definition
+
+### Definition and Phenomenological Origin
 
 In nuclear structure, chiral symmetry breaking and octupole reflection asymmetry represent two fundamental spontaneous discrete symmetry breakings:
 1. **Nuclear Chirality**: Spontaneous breaking of time-reversal combined with spatial rotation $\mathcal{T}\mathcal{R}_y(\pi)$ in triaxially deformed nuclei, producing a pair of degenerate same-parity doublet bands ($|L\rangle, |R\rangle$);
@@ -57,8 +59,36 @@ The quartet consists of four intertwined rotational bands sharing identical sing
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Liu, C. et al.**: *Evidence for Multiple Chiral Doublet Bands with Octupole Correlations in $^{78}\text{Br}$*, Phys. Rev. Lett. 116, 112501 (2016).
 - **Meng, J. & Wang, Y. P.**: *Chiral Geometry and Multiple Chiral Doublets*, in *Chirality and Wobbling in Atomic Nuclei*, CRC Press (2025), Chapter 3, PDF pp. 81–93.
 - **Sheikh, J. A.**: *Triaxial Projected Shell Model for Wobbling and Chirality*, in *Chirality and Wobbling in Atomic Nuclei*, CRC Press (2025), Chapter 12, PDF pp. 256–274.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

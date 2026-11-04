@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [mchid, chiral-doublet-bands, chiral-parity-quartets, octupole-correlations, shape-coexistence, a130-region, a80-region]
+tags: [mchid, chiral-doublet-bands, chiral-parity-quartets, octupole-correlations, shape-coexistence, a130-region, a80-region]
 ---
 
 # 多重手征双重带（MχD）与手征-八极宇称四重带前沿动力学
 
-## 1. 物理全景：手征几何的多维拓展与对称性复合
+## Definition
+
+### 物理全景：手征几何的多维拓展与对称性复合
 
 在 1997 年 Frauendorf 和孟杰提出单一核手征双重带（Chiral Doublet Bands）的概念之后，核手征性研究在过去十年中向更具微观丰富性的两大多体对称性前沿实现了革命性拓展：
 
@@ -24,7 +26,9 @@ topics: [mchid, chiral-doublet-bands, chiral-parity-quartets, octupole-correlati
 
 ---
 
-## 2. 多重手征双重带（M$\chi$D）微观物理分类与判据
+## Necessary Assumptions
+
+### 多重手征双重带（M$\chi$D）微观物理分类与判据
 
 在微观协变密度泛函理论（CDFT）与三轴投影壳模型（TPSM）中，M$\chi$D 的微观机制主要分为两大物理范式：
 
@@ -44,7 +48,13 @@ topics: [mchid, chiral-doublet-bands, chiral-parity-quartets, octupole-correlati
 
 ---
 
-## 3. 手征-八极宇称四重带（Chiral-Parity Quartets）动力学
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 手征-八极宇称四重带（Chiral-Parity Quartets）动力学
 
 ### (1) 复合对称群与四重简并定理
 在具有反射不对称八极形变（Octupole deformation: $\beta_3 \ne 0$）与三轴形变（$\beta_2 \ne 0, \gamma \ne 0$）的原子核中：
@@ -75,3 +85,18 @@ $$\mathcal{G} = \{ E, \mathcal{P}, \mathcal{T}\mathcal{R}_y(\pi), \mathcal{P}\ma
    南非 iThemba 实验数据显示 $^{133}\text{Ce}$ 不仅在 yrast 线上存在由 $\nu h_{11/2}^{-1} \otimes (\pi h_{11/2})^2$ 构成的负宇称候选带，而且在更高激发能区并存多条相互平行的边带。调用本理论模型，可系统检验这些边带是属于多准粒子激发的第二对手征带（M$\chi$D），还是常规的三轴核芯四极声子激发带！
 2. **严防“伪四重带”混淆**：
    在低能实验中，绝不能将简单的偶然宇称双重态与八极手征四重带混淆，必须严格测定带间交错跃迁的绝对 $B(E1)$ 强度，只有观测到内禀电偶极矩 $D_0 \ge 0.1\text{ e}\cdot\text{fm}$ 时，八极手征机制才得以确立。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

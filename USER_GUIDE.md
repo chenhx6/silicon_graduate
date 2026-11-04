@@ -121,7 +121,7 @@ SORT file.name ASC
 
 一次处理一篇。不要把整个 Zotero 库批量倒进来。
 
-需要 Agent 查找新文献时采用 Nature-first 路由：先以结构化学术检索核对 DOI、作者、年份和期刊，再补查 Google Scholar（不通时用学术镜像），最后由下载技能直接写入 `raw/papers/gpt/learning-daily/YYYYMMDD-DAYn-topic/`；notes/theses/data/reports 使用对应的 `raw/<type>/gpt/learning-daily/`。候选 PDF 通过首页、DOI、页数、文件签名、SHA-256 与重复检查后直接归档，不再经过 `_incoming`。书目只追加到 `raw/zotero/gpt.bib`。允许下载文件，但 Agent 必须显式指定 Wiki 目标路径；无法控制目标路径、会默认落入外部 Downloads 的浏览器下载交给用户处理。APS/PRC 或 Scholar 出现验证码或真人验证时，由你在原标签页完成后再让 Codex 继续。
+需要 Agent 查找新文献时采用 Nature-first 路由：先以结构化学术检索核对 DOI、作者、年份和期刊，再补查 Google Scholar（不通时用学术镜像），最后由下载技能直接写入 `raw/papers/gpt/learning-daily/YYYYMMDD-DAYn-topic/`；普通问答、投稿核查或论文写作临时补齐的来源使用 `raw/papers/gpt/query/YYYYMMDD-<topic>/`，例如 `raw/papers/gpt/query/20261103-pado-dco-review/`。notes/theses/data/reports 使用对应的 `raw/<type>/gpt/learning-daily/`。候选 PDF 通过首页、DOI、页数、文件签名、SHA-256 与重复检查后直接归档，不再经过 `_incoming`。书目只追加到 `raw/zotero/gpt.bib`。允许下载文件，但 Agent 必须显式指定 Wiki 目标路径；无法控制目标路径、会默认落入外部 Downloads 的浏览器下载交给用户处理。未来可能用于专题学习的来源在 manifest 中标记 `learning_candidate`、`learning_topic` 和 `collection_reason`；这不表示已经读完或写入知识层。APS/PRC 或 Scholar 出现验证码或真人验证时，由你在原标签页完成后再让 Codex 继续。
 
 Web of Science 已接入检索启动配置：从 `raw/personal/.env` 读取 `WEB_OF_SCIENCE_API_KEY_Institutional_Member_Plan`（优先，5/s 5000/day）和 `WEB_OF_SCIENCE_API_KEY_Free_Trial_Plan`（fallback，1/s 50/day），在新会话中加载。用途是文献检索、书目信息及权限范围内的引用信息；全文继续走出版商或公开版本。仅 Starter API 可用，Expanded 未订阅。配置与调用说明见 [文献检索与访问配置](system/workflows/literature-access.md)。
 
@@ -392,3 +392,20 @@ Codex 中的定时续跑不是 Windows 任务计划程序，也不能仅靠“�
 ```text
 做一次反向检验：主动寻找反证、替代解释和证据依赖关系。
 ```
+
+## 11. 跨设备数据分析与 Python 工具箱
+
+如果你将本仓库拉取（`git pull`）到实验现场采集机、离线分析工作站或个人电脑上，用于实际实验数据处理，本库提供了一套完全独立的纯 Python 科学计算工具链，无需安装 Mathematica 或商业闭源软件：
+
+- **主分析程序**：`system/scripts/analysis/nuclear_analyzer.py`（提供 120+ 个在束谱学专用子命令）；
+- **详细使用说明**：详见 [system/scripts/analysis/README.md](system/scripts/analysis/README.md)；
+- **快速验证**：在新设备上拉取后，运行以下命令即可自检全部 130+ 个物理分析算法是否正常工作：
+  ```bash
+  python3 system/scripts/analysis/nuclear_analyzer.py selftest
+  ```
+- **主要实验功能**：
+  - **死时间与堆积修正**：不可扩展型与可扩展型公式校正、脉冲注入（Pulser）活时间分析；
+  - **数字脉冲处理**：Shockley-Ramo 电荷收集、数字梯形滤波（Jordanov 递归）、移动窗口反褶积（MWD）、自适应基线恢复（BLR）与数字恒比定时（CFD）；
+  - **在束角关联与偏振**：DCO/ADO 比值曲面计算、Clover 康普顿线偏振不对称度反演、$\delta(E2/M1)$ 混合比双根剖面似然比（Profile Likelihood）联合仲裁；
+  - **核态皮秒寿命反演**：反冲距离多普勒频移法（RDDS / 活塞法 Plunger）微分衰减曲线法（DDCM）、多普勒频移衰减法（DSAM）结合 ZBL 全能区电子/核慢化截面反演；
+  - **集体模式检验**：三轴转子 Davydov-Filippov 模型、横向/纵向摆动模式、核手征双重带 Koike-Starosta-Hamamoto 选择定则与 Grodner $g$ 因子相等性裁决。

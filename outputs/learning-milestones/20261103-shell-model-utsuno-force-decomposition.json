@@ -1,0 +1,57 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Utsuno 文章主文本和关键图表的壳演化力分解、ESPE/壳隙公式与实验接口核读",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "article": "Utsuno, Probing Different Characteristics of Shell Evolution Driven by Central, Spin-Orbit, and Tensor Forces",
+    "doi": "10.3390/physics4010014",
+    "scope": "Article pp.193-207 / physical PDF pp.204-218, main text and key figures/tables",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/utsuno-shell-evolution-force-decomposition-contract.md",
+      "reason": "monopole matrix elements, ESPE/shell-gap equations, force decomposition, spectroscopic-factor interface and competing weak-binding explanation"
+    },
+    {
+      "path": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+      "reason": "corrected Utsuno physical page range, article status and source-level claims"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Utsuno method and removed a pre-existing duplicate Gorska entry"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.204 title/introduction",
+    "PDF p.205 force definitions",
+    "PDF p.206 Table 1 and Eq. (4)",
+    "PDF p.208 Eq. (5)-(7) and Figure 1",
+    "PDF p.209 Figure 2 and model-space setup",
+    "PDF p.210 proton shell evolution",
+    "PDF p.213 Figure 4 and central-force interpretation",
+    "PDF p.214 neutron shell evolution",
+    "PDF p.217 Figure 6 and ESPE comparison",
+    "PDF p.218 conclusion"
+  ],
+  "claims": [
+    "The article separates central, two-body spin-orbit and tensor contributions to cross-shell monopole matrix elements in SDPF-MU.",
+    "ESPE and shell-gap changes are diagnostics derived from monopole matrix-element differences, not direct observables.",
+    "Ca/K spectroscopic distributions and level trends constrain different parts of the shell-evolution argument, with model dependence and missing-strength limits.",
+    "The N=32 spin-orbit reduction retains a Woods-Saxon weak-binding interpretation as a competing explanation."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded article-level main-text and key-figure unit",
+    "remaining_queue": "13 other special-issue articles remain queued; Utsuno references were not independently re-read",
+    "boundary": [
+      "No direct transfer of SDPF-MU numerical monopoles to A~130 was made",
+      "No single energy trend was treated as a unique force decomposition",
+      "No triaxial, wobbling or chirality conclusion was inferred from this article"
+    ]
+  }
+}

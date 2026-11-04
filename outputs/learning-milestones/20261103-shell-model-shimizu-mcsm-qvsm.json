@@ -1,0 +1,57 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Shimizu 文章关于传统壳模型、Lanczos、MCSM、QVSM 和 benchmark 收敛边界的主文本核读",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "article": "Shimizu, Recent Progress of Shell-Model Calculations, Monte Carlo Shell Model, and Quasi-Particle Vacua Shell Model",
+    "doi": "10.3390/physics4030071",
+    "scope": "Article pp.161-173 / physical PDF pp.172-184, main text and key figures/tables",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/shimizu-shell-model-mcsm-qvsm-computational-contract.md",
+      "reason": "CI/Lanczos, MCSM projection and variance extrapolation, QVSM number projection and pairing, benchmark and experimental-transfer boundaries"
+    },
+    {
+      "path": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+      "reason": "corrected Shimizu physical page range, article status and source-level claims"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Shimizu computational contract"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.172 title/introduction",
+    "PDF p.174 dimension table and Lanczos setup",
+    "PDF p.175 block Lanczos and approximation overview",
+    "PDF p.177 MCSM equations and Figure 1",
+    "PDF p.178 energy variance and Figure 2",
+    "PDF p.179 QVSM equations and Figure 3",
+    "PDF p.180 132Ba benchmark continuation and Figure 4",
+    "PDF p.181 101Sn benchmark and summary",
+    "PDF p.183 references start",
+    "PDF p.184 references continuation"
+  ],
+  "claims": [
+    "M-scheme dimensions make full diagonalization rapidly infeasible in medium-heavy nuclei.",
+    "MCSM energy-variance extrapolation is a numerical convergence diagnostic, not an experimental confidence interval.",
+    "QVSM number projection improves pairing treatment and can outperform same-size MCSM/GCM in the 132Ba benchmark.",
+    "ITSM, truncated Lanczos and QVSM give a consistent 101Sn spin ordering while retaining truncation and extrapolation boundaries."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded article-level main-text and key-benchmark unit",
+    "remaining_queue": "Brown, Smirnova, Horoi and shell-model astrophysics articles remain queued; references and production codes were not independently re-read",
+    "boundary": [
+      "No MCSM/QVSM production run was claimed from the review alone",
+      "No energy benchmark was converted into rigid triaxial, wobbling, TiP or chiral confirmation",
+      "No direct transfer of the 132Ba or 101Sn numerical values to A~130 experiments was made"
+    ]
+  }
+}

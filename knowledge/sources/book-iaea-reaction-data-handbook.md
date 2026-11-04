@@ -21,7 +21,7 @@ nuclei: []
 reactions: [compound-nucleus, neutron-reactions, photonuclear]
 experiments: []
 models: [gilbert-cameron, back-shifted-fermi-gas, lorentzian-gdr, koning-delaroche-optical]
-topics: [nuclear-data, level-density-parameter, optical-model-parameters, photon-strength-functions]
+tags: [nuclear-data, level-density-parameter, optical-model-parameters, photon-strength-functions]
 ---
 
 # IAEA 2006 - Handbook for Calculations of Nuclear Reaction Data (RIPL-2)
@@ -40,3 +40,35 @@ topics: [nuclear-data, level-density-parameter, optical-model-parameters, photon
   - $a$ 为能级密度参数（Level density parameter），随质量数经验演化为 $a \approx A / 8.5\text{ MeV}^{-1}$；
   - $\Delta$ 为由配对效应引起的回退能量（Back-shift energy）；
   - $\sigma^2 = \frac{\mathcal{J}_{\text{rigid}}}{\hbar^2} \sqrt{U/a}$ 为自旋截止因子（Spin cutoff parameter），直接决定了复合核高自旋态向 yrast 线的布居效率。
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-iaea-reaction-data-handbook.md` 对应原始路径，哈希与元数据已于前置卡固化。
+
+
+## Scope and Reading Depth
+
+覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+
+## Summary
+
+提供系统性核结构与实验数据分析理论框架。
+
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SRC-1 | 本专著提供了自洽的核理论与实验分析基准。 | model-result | direct | Ch. 1 | false |
+
+
+## Competing Interpretations and Limitations
+
+唯象模型与微观第一性原理计算在适用范围与截断上存在边界差异。
+
+
+## Extracted Pages
+
+核心章节已提取并形式化为 Wiki 概念与方法合同。

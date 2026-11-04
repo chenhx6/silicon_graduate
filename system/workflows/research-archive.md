@@ -2,7 +2,7 @@
 type: system-workflow
 graph-excluded: true
 operation: research-archive
-updated: 2026-11-01
+updated: 2026-11-03
 ---
 
 # 研究材料留档
@@ -24,6 +24,33 @@ updated: 2026-11-01
 书目指针，`actual_body_file`、`public_staging_file` 和 `staging_file` 是已有页面的
 历史暂存记录，均不作为已归档凭证
 或访问外部目录的授权；有效原件由 `raw_file` 校验。
+
+## 回答中的外部来源自动留档
+
+回答、投稿核查、论文写作或证据复核遇到本库尚未收录、但对当前判断有实质帮助的
+外部文献时，Codex 可以按合法可访问路径主动获取原文。用户约定的
+普通问答、投稿核查和论文写作来源的 canonical 落点为
+`raw/papers/gpt/query/YYYYMMDD-<topic>/`；30 天学习计划继续使用
+`raw/papers/gpt/learning-daily/YYYYMMDD-DAYn-topic/` 或
+`YYYYMMDD-PREPLAN-topic/`。不允许把浏览器缓存、外部 Downloads 或 URL-only 记录
+当作归档原件。
+
+这类按需获取的 manifest 除常规 `archive_type`、`retrieved_at`、`files` 外，宜登记：
+
+```json
+{
+  "acquisition_context": "query|submission-review|paper-writing|evidence-check",
+  "learning_candidate": true,
+  "learning_topic": "<future study topic>",
+  "collection_reason": "<why this source should be retained>"
+}
+```
+
+`learning_candidate: true` 表示来源进入未来专题学习候选池，不表示已经读完、已经写入
+`knowledge/` 或已经完成人工审核。候选达到有意义的主题规模后，再组织批量学习，逐篇
+建立 source 页、核对 locator、区分实验事实与作者解释，并把可复用认识写回
+`knowledge/`。单次回答只需使用来源时，可以先完成原件和 manifest 归档，避免把未经
+阅读的摘要机械写入知识层。
 
 新产生的分析笔记仍按路径契约写入 `knowledge/`；不把 AI 总结复制到 `raw/`
 冒充原始材料。用户提供的未发表数据和个人文档保持本地，留档授权不扩大为公开

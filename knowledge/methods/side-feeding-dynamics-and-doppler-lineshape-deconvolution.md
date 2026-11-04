@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "在束级联侧馈送动力学、时间延迟分布与多普勒线形解卷积指南"
 aliases: [侧馈送动力学, Side-Feeding解卷积, 多普勒线形侧馈修正, 顶门符合寿命法, DSAM时间延迟修正]
 created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [side-feeding, dsam, doppler-lineshape, lifetime-measurements, top-gate-coincidence, quasicontinuum-cascade]
+tags: [side-feeding, dsam, doppler-lineshape, lifetime-measurements, top-gate-coincidence, quasicontinuum-cascade]
 ---
 
 # 在束级联侧馈送动力学、时间延迟分布与多普勒线形解卷积指南
 
-## 1. 物理测量背景：准连续态级联与横向馈送
+## Purpose
+
+### 物理测量背景：准连续态级联与横向馈送
 
 在重离子熔合蒸发反应中，由高速旋转核芯蒸发数个轻粒子后形成的残核，初始处于激发能 $E^* \approx 10 \sim 30\text{ MeV}$、角动量高达 $30 \sim 50\hbar$ 的致密**准连续态区（Quasicontinuum Region）**。
 
@@ -25,7 +28,9 @@ topics: [side-feeding, dsam, doppler-lineshape, lifetime-measurements, top-gate-
 
 ---
 
-## 2. 连续时间卷积积分与多普勒衰减因子 $F(\tau, \tau_{\text{feed}})$ 严格修正
+## Inputs and Assumptions
+
+### 连续时间卷积积分与多普勒衰减因子 $F(\tau, \tau_{\text{feed}})$ 严格修正
 
 ### (1) 双能级瞬态布居微分方程
 设能级自身的内禀寿命为 $\tau_0$；从侧馈送通道注入的粒子流强度比为 $f_{\text{feed}} \in [0, 1]$（带内直接流占比 $1 - f_{\text{feed}}$）。
@@ -51,7 +56,13 @@ $$F_{\text{eff}}(\tau_0, \tau_{\text{feed}}, f_{\text{feed}}) = (1 - f_{\text{fe
 
 ---
 
-## 3. 破局方案：顶门符合法（Top-Gating Coincidence Method）
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 破局方案：顶门符合法（Top-Gating Coincidence Method）
 
 为了从实验测量根本上彻底消除侧馈送时间模型的非唯一性与系统误差，现代大阵列核谱学必须执行**顶门符合（Top-Gate Coincidence）**：
 
@@ -74,3 +85,9 @@ $$F_{\text{eff}}(\tau_0, \tau_{\text{feed}}, f_{\text{feed}}) = (1 - f_{\text{fe
 1. 在 $\gamma-\gamma$ 矩阵中，将选门通道严格卡在待测能级上方的顶端跃迁；
 2. 门谱中下方所有跃迁接收的进流在时间上由顶门跃迁唯一锚定，横向未分辨侧馈送被物理隔绝（$f_{\text{feed}} \to 0$）；
 3. 此时直接应用解析反演公式 $\tau_0 = \alpha (1/F - 1)$，提取出的寿命具有极高置信度与严格的微观模型独立性！
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

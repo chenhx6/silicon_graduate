@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [gamow-teller-resonance, ikeda-sum-rule, gt-quenching, delta-isobar, 2p-2h-correlations, charge-exchange, axial-vector-coupling, nuclear-matrix-elements]
+tags: [gamow-teller-resonance, ikeda-sum-rule, gt-quenching, delta-isobar, 2p-2h-correlations, charge-exchange, axial-vector-coupling, nuclear-matrix-elements]
 ---
 
 # 电荷交换Gamow-Teller巨共振Ikeda求和规则淬灭、Δ(1232)异质态与2p-2h张量力解卷积法典
 
-## 1. 物理全景：核物理四十年来悬而未决的“缺失 Gamow-Teller 强度”疑难
+## Definition
+
+### 物理全景：核物理四十年来悬而未决的“缺失 Gamow-Teller 强度”疑难
 
 在原子核电荷交换反应（如 $(p, n), (^3\text{He}, t), (d, {}^{2}\text{He})$）中，自旋-同位旋激发的王牌模式是**Gamow-Teller 巨共振（Gamow-Teller Giant Resonance, GTGR）**。
 该模式由无空间节点的纯自旋-同位旋翻转算符 $\sum_k \vec{\sigma}_k \tau_k^-$ 驱动，在子核激发能 $E_x \sim 10 \sim 20\text{ MeV}$ 处形成高耸的巨共振峰。
@@ -29,7 +31,9 @@ $$S_- - S_+ = 3 (N - Z)$$
 
 ---
 
-## 2. 严格微观机制解卷积与Landau-Migdal理论
+## Necessary Assumptions
+
+### 严格微观机制解卷积与Landau-Migdal理论
 
 ### (1) 机制一：夸克级自旋翻转与 $\Delta_{33}$ 异质态虚拟混合
 核子并不是点状无结构粒子，而是由三个夸克构成的复合粒子。
@@ -62,7 +66,13 @@ $$g_A^{\text{eff}} = g_A^{\text{bare}} \cdot \sqrt{Q_{\text{peak}}} \approx 1.27
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/charge_exchange_gt_quenching_calculator.py`
@@ -91,7 +101,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py gtq -Z 82 -A 208 --json
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[neutrinoless-double-beta-decay-nmes-and-majorana-mass]]：双贝塔衰变半衰期正比于 $(g_A^{\text{eff}})^4$，此处解卷积得出的 $g_A$ 淬灭边界直接决定了下一代马约拉纳中微子探测器的曝光量要求；
 - [[spin-dipole-resonances-and-neutron-skin]]：Gamow-Teller 标量自旋共振（$L=0$）与自旋-偶极共振（$L=1$）共同构成了核介质自旋-同位旋激发的两大支柱；
 - [[beta-decay-phase-space-log-ft-and-cvc-unitarity]]：超允许纯 Fermi 跃迁（$\Delta T=0$）不受介质淬灭，与此处 Gamow-Teller 轴矢量淬灭形成了深刻的弱电物理对照。

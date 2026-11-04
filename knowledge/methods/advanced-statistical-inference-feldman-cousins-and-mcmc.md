@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "现代实验物理高级统计推断：Profile Likelihood、Feldman-Cousins 与 Bootstrap 实战"
 aliases: [高级实验统计推断, Profile Likelihood实战, Feldman-Cousins方法, Bootstrap误差反演]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [profile-likelihood, feldman-cousins, bootstrap-resampling, mcmc, experimental-statistics]
+tags: [profile-likelihood, feldman-cousins, bootstrap-resampling, mcmc, experimental-statistics]
 ---
 
 # 现代实验物理高级统计推断：Profile Likelihood、Feldman-Cousins 与 Bootstrap 实战
 
-## 1. 经典高斯误差分析的失效边界
+## Purpose
+
+### 经典高斯误差分析的失效边界
 
 在传统的初等数据处理中，实验者通常依赖高斯对称误差（$\hat{\theta} \pm \sigma$）与一阶泰勒展开误差传递公式：$\sigma_y^2 \approx \sum (\partial f/\partial x_i)^2 \sigma_i^2$。
 
@@ -22,7 +25,9 @@ topics: [profile-likelihood, feldman-cousins, bootstrap-resampling, mcmc, experi
 
 ---
 
-## 2. 现代高级统计三大核心利器
+## Inputs and Assumptions
+
+### 现代高级统计三大核心利器
 
 ### (1) 剖面似然（Profile Likelihood Ratio, PLR）与冗余参数消除
 设实验测量的物理参数分为两类：**感兴趣参数 $\mu$**（如摆动跃迁的混合比 $\delta$）与**冗余干扰参数 $\vec{\theta}$**（如 HPGe 探测效率漂移因子、连续本底斜率、束流涨落）。
@@ -49,3 +54,19 @@ $$R(x) = \frac{P(x | \mu)}{P(x | \hat{\mu}_{\text{phys}})}$$
 3. 对输出结果序列排序，直接提取第 $16\%$、第 $50\%$、第 $84\%$ 分位数：
    $$\hat{Y} = Y_{50\%}, \quad +\sigma = Y_{84\%} - Y_{50\%}, \quad -\sigma = Y_{50\%} - Y_{16\%}$$
 该方法彻底规避了一阶偏导线性近似，在存在多个局部极值或非单调函数时仍能严格保证真实概率覆盖率！
+
+
+## What It Can Establish
+
+提供能级寿命、多极混合比及跃迁几率的定量反演依据。
+
+
+## What It Cannot Establish Alone
+
+不能在单一角度或无偏振测量条件下排他性裁决多极混合比双根简并。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

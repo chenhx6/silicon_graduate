@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [nuclear-fission, fission-fragment-mass-yield, brosa-model, viola-systematics, prompt-neutrons, sawtooth-multiplicity, 132sn-shell, tke]
+tags: [nuclear-fission, fission-fragment-mass-yield, brosa-model, viola-systematics, prompt-neutrons, sawtooth-multiplicity, 132sn-shell, tke]
 ---
 
 # 多模式核裂变碎片质量产额分布、Viola总动能（TKE）系统学与瞬发中子锯齿谱动力学
 
-## 1. 物理全景：从液滴模型对称裂变到壳效应主导的非对称断颈
+## Definition
+
+### 物理全景：从液滴模型对称裂变到壳效应主导的非对称断颈
 
 在低能核裂变（如 $^{235}\text{U}(n_{\text{th}}, f), ^{239}\text{Pu}(n_{\text{th}}, f), ^{252}\text{Cf}(\text{sf})$）实验中，一个最引人入胜的物理现象是：
 **经典液滴模型预言原子核应沿中间对称裂开（质量相等的两块碎片），但实验测得的重核裂变产额却压倒性地表现为强烈的非对称双峰分布！**
@@ -28,7 +30,9 @@ topics: [nuclear-fission, fission-fragment-mass-yield, brosa-model, viola-system
 
 ---
 
-## 2. 严格物理模型与系统学方程
+## Necessary Assumptions
+
+### 严格物理模型与系统学方程
 
 ### (1) Brosa 多模式高斯对叠加质量产额公式
 总裂变质量分布（归一化为 $200\%$ 产额）：
@@ -61,7 +65,13 @@ $$\bar{\nu}_{\text{tot}} = \frac{1}{200} \int Y(A) \bar{\nu}(A) dA \approx 2.4 \
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/fission_fragment_mass_yield_calculator.py`
@@ -86,6 +96,19 @@ python3 system/scripts/analysis/nuclear_analyzer.py fissfrag -Z 92 -A 236 --json
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[fission-barriers-and-superheavy-stability]]：双峰裂变势垒的高度与第二势阱深度直接决定了穿透到多模式断裂山谷的几率；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[fission-barriers-strutinsky-and-superheavy-dynamics]]：双峰裂变势垒的高度与第二势阱深度直接决定了穿透到多模式断裂山谷的几率；
 - [[beta-decay-phase-space-log-ft-and-cvc-unitarity]]：两碎片及其同量异位素链的 $\beta$ 衰变级联直接构成了核反应堆衰变热与反应堆中微子反常（RAA）的物理源头。

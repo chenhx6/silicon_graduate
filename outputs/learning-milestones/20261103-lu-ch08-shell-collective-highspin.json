@@ -1,0 +1,51 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "深化卢希庭第八章中文核结构术语、壳模型、集体形变与高自旋实验观测量桥接",
+  "source": {
+    "source_page": "knowledge/sources/book-lu-nuclear-physics-chinese.md",
+    "raw_file": "raw/books/原子核物理（修订版） (卢希庭江栋兴叶沿林) (Z-Library).pdf",
+    "raw_sha256": "a47c26b77283b871529633dc87b6b7def412f715ed66889e373ab69100147d02",
+    "scope": "Chapter 8 PDF pp. 200-230 / printed pp. 190-220",
+    "rendered_pages": [215, 218, 220, 221, 223, 225, 227, 228, 229, 230],
+    "ocr_route": "temporary OCR for navigation only; claims checked against rendered pages"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/synthesis/lu-ch08-shell-collective-highspin-bridge.md",
+      "reason": "shell-pairing-collective-Nilsson-VMI-backbending-high-spin bridge"
+    },
+    {
+      "path": "knowledge/sources/book-lu-nuclear-physics-chinese.md",
+      "reason": "added bounded Chapter 8 visual verification and locator"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "added Lu Chapter 8 bridge entry"
+    }
+  ],
+  "key_locators": [
+    "PDF pp. 200-204 / printed pp. 190-194: chapter scope, shell-model foundations and magic-number evidence",
+    "PDF pp. 204-209 / printed pp. 194-199: Woods-Saxon, spin-orbit splitting and magic shells",
+    "PDF pp. 215-218 / printed pp. 205-208: collective motion, deformation, rotation and vibration",
+    "PDF pp. 219-225 / printed pp. 209-215: rotational/vibrational levels and beta/gamma deformation",
+    "PDF pp. 215-217 / printed pp. 205-207: axial Nilsson single-particle levels",
+    "PDF pp. 228-230 / printed pp. 218-220: high spin, VMI, backbending and superdeformation"
+  ],
+  "boundary": [
+    "not full Chapter 8 transcription",
+    "not a triaxial TAC/QTR/TPSM calculation",
+    "not a real-nucleus band or configuration assignment"
+  ],
+  "validation": {
+    "ocr_navigation": "completed",
+    "rendered_page_checks": "completed",
+    "raw_modified": false,
+    "next": [
+      "continue Lu Chapter 8 remaining pages and tables",
+      "cross-check Nilsson notation with Bohr-Mottelson Vol. II and Casten Ch. 7",
+      "connect J1/J2/VMI diagnostics to an actual A~130 level scheme only when data are available"
+    ]
+  }
+}

@@ -58,7 +58,13 @@ from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estim
 from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, extract_delta_r2_from_isotope_shift, decompose_charge_radius_components, perform_king_plot_analysis, calculate_charge_radius_odd_even_staggering
 from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wkb_lifetime, check_goldanskii_true_2p_condition, model_two_proton_jacobi_distribution, calculate_cluster_radioactivity_wkb, diagnose_drip_line_decay_competition
 from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_window, calculate_sommerfeld_parameter, convert_cross_section_to_s_factor, calculate_nonresonant_reaction_rate, calculate_resonant_reaction_rate
-from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplitudes, solve_analytic_single_mode_qrpa, scan_pnqrpa_gpp_sensitivity, diagnose_qrpa_stability
+from qrpa_matrix_vibrational_calculator import (
+    solve_qrpa_eigenvalues_and_amplitudes,
+    solve_analytic_single_mode_qrpa,
+    scan_pnqrpa_gpp_sensitivity,
+    diagnose_qrpa_stability,
+    ideal_two_phonon_transition_rules,
+)
 from surface_delta_interaction_pandya_calculator import calculate_clebsch_gordan, calculate_wigner_6j, calculate_sdi_matrix_element, calculate_single_j_sdi_spectrum, perform_pandya_transformation, benchmark_sc42_k40_pandya
 from k_isomer_hindrance_calculator import calculate_k_forbiddenness, calculate_reduced_hindrance, model_triaxial_gamma_tunneling_hindrance, classify_isomer_mechanism
 from dipole_polarizability_neutron_skin_calculator import calculate_polarizability_from_sigma_minus2, integrate_dipole_polarizability_from_spectrum, droplet_model_polarizability_estimate, extract_neutron_skin_from_polarizability, extract_symmetry_energy_slope_L, predict_neutron_star_radius_from_L
@@ -184,6 +190,14 @@ from in_beam_charged_particle_pid_delta_e_telescope_inverter import run_particle
 from triaxial_two_rotor_scissors_mode_m1_solver import run_scissors_mode_analysis, format_text_report as format_scissm1_report, PRESETS as SCISSM1_PRESETS
 from hpge_neutron_damage_hole_trapping_corrector import run_trapping_correction_analysis, format_text_report as format_trapcorr_report, PRESETS as TRAPCORR_PRESETS
 from multiphonon_wobbling_anharmonic_spectrum_solver import run_multiphonon_wobbling_analysis, format_text_report as format_multiphwob_report, PRESETS as MULTIPHWOB_PRESETS
+from in_beam_bgo_compton_suppression_pt_ratio_optimizer import run_compton_suppression_analysis, format_text_report as format_bgoveto_report, PRESETS as BGOVETO_PRESETS
+from nuclear_odd_even_pairing_gap_multichannel_solver import result_from_args as pairing_result_from_args, format_text_report as format_pairgap_report, PRESETS as PAIRGAP_PRESETS
+from pado_shared_alignment_projectile_family_analyzer import (
+    analyze_projectile_families,
+    format_report as format_padoalign_report,
+    ZOBEL83_ROWS,
+    DEFAULT_FIXTURE_PATH,
+)
 
 
 def cmd_kinematics(args):
@@ -1275,6 +1289,15 @@ def cmd_qrpa(args):
         print(f"  pnQRPA Particle-Particle Interaction g_pp Scan:")
         print(f"    Double Beta Decay M^2nu Zero-Crossing: g_pp = {scan['zero_crossing_gpp']:.2f}")
         print(f"    Vogel-Zirnbauer Suppression Mechanism successfully demonstrated.")
+
+    if args.ideal_phonon_strength is not None:
+        phonon = ideal_two_phonon_transition_rules(args.ideal_phonon_strength)
+        print("-------------------------------------------------------")
+        print("  Ideal Spherical Two-Phonon Benchmark (Suhonen Ch. 18):")
+        print(f"    Single-phonon B(Eλ) proxy : {phonon['single_phonon_strength']:.6g}")
+        print(f"    Two -> one B(Eλ)          : {phonon['two_to_one_strength']:.6g}")
+        print(f"    Two -> ground B(Eλ)       : {phonon['two_to_ground_strength']:.6g}")
+        print(f"    Boundary                  : {phonon['boundary']}")
     print("=======================================================")
 
 
@@ -1838,10 +1861,12 @@ def cmd_nsa(args):
 def cmd_mwob(args):
     th_res = evaluate_multiphonon_wobbling_energies(args.hw, args.delta_anharm)
     summary = {"theoretical_model": th_res}
-    if args.audit or args.e2 != 600.0:
-        summary["experimental_audit"] = audit_multiphonon_wobbling_candidate(args.e0, args.e1, args.e2, args.be2_21, args.be2_10, args.be2_20)
-    elif args.hw == 320.0:
-        summary["experimental_audit"] = audit_multiphonon_wobbling_candidate(0.0, 320.0, 600.0, 0.62, 0.32, 0.015)
+    if args.audit:
+        if any(v is None for v in (args.e0, args.e1, args.e2)):
+            raise SystemExit("mwob: --audit requires --e0, --e1 and --e2")
+        summary["experimental_audit"] = audit_multiphonon_wobbling_candidate(
+            args.e0, args.e1, args.e2, args.be2_21, args.be2_10, args.be2_20,
+            reference_is_common=args.common_reference)
     if args.json:
         import json
         print(json.dumps(summary, indent=2))
@@ -4036,9 +4061,12 @@ def cmd_wobstab(args):
         wobbling_mode=p["wobbling_mode"],
         inertia_model=p.get("inertia_model", "rigid"),
         j_qp=p["j_quasiparticle"],
-        k_att=p.get("k_coriolis_attenuation", 0.85),
+        k_att=p.get("k_coriolis_attenuation", 1.0),
         gamma_deg=p["gamma_deg"],
-        moi_i=p["moi_i"],
+        moi_m=p.get("moi_m", p.get("moi_i", 21.0)),
+        moi_s=p.get("moi_s"),
+        moi_l=p.get("moi_l"),
+        moi_i=p.get("moi_i", p.get("moi_m", 21.0)),
         eval_spins=p.get("eval_spins")
     )
     if args.json:
@@ -4195,7 +4223,7 @@ def cmd_trapcorr(args):
 
 
 def cmd_multiphwob(args):
-    preset_name = args.preset if args.preset else "163Lu_TSD2_two_phonon_benchmark"
+    preset_name = args.preset if args.preset else "synthetic_softening"
     p = MULTIPHWOB_PRESETS[preset_name]
     sp = args.spin if hasattr(args, "spin") and args.spin is not None else p["spin"]
     om = args.omega if hasattr(args, "omega") and args.omega is not None else p["hbar_omega_w_keV"]
@@ -4205,14 +4233,79 @@ def cmd_multiphwob(args):
         spin=sp,
         hbar_omega_w_keV=om,
         g4_anharmonicity_keV=g4,
-        mixing_epsilon=p.get("mixing_epsilon", 0.12),
-        B_E2_in_e2b2=p.get("B_E2_in_e2b2", 9.5)
+        mixing_epsilon=p.get("mixing_epsilon"),
+        B_E2_in_e2b2=p.get("B_E2_in_e2b2")
     )
     if args.json:
         import json
         print(json.dumps(res, indent=2))
     else:
         print(format_multiphwob_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_bgoveto(args):
+    preset_name = args.preset if args.preset else "gammasphere_bgo_standard_1332keV"
+    p = BGOVETO_PRESETS[preset_name]
+    e_val = args.energy if hasattr(args, "energy") and args.energy is not None else p["E_gamma_keV"]
+    r_val = args.rate if hasattr(args, "rate") and args.rate is not None else p["bgo_singles_rate_kHz"]
+    res = run_compton_suppression_analysis(
+        spectrometer=p.get("spectrometer", "Generic Spectrometer"),
+        E_gamma_keV=e_val,
+        pt_unsuppressed=p["pt_unsuppressed"],
+        bgo_singles_rate_kHz=r_val,
+        bgo_scintillation_decay_ns=p.get("bgo_scintillation_decay_ns", 300.0),
+        bgo_energy_threshold_keV=p.get("bgo_energy_threshold_keV", 80.0),
+        eval_veto_windows_ns=p.get("eval_veto_windows_ns"),
+        prompt_sigma_ns=args.prompt_sigma,
+        correlated_escape_rejection=args.continuum_rejection,
+        correlated_peak_rejection=args.peak_rejection,
+        signal_counts=args.signal_counts,
+        background_counts=args.background_counts,
+        objective=args.objective,
+        response_provenance=args.response_provenance,
+    )
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_bgoveto_report(res, title=f"Preset: {preset_name} ({p['description']})"))
+
+
+def cmd_pairgap(args):
+    res = pairing_result_from_args(args)
+    if args.json:
+        import json
+        print(json.dumps(res, indent=2, allow_nan=False))
+    else:
+        print(format_pairgap_report(res))
+
+
+def cmd_padoalign(args):
+    import json
+    rows = None
+    if args.fixture:
+        with open(args.fixture, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            rows = data.get("rows", data)
+    else:
+        if DEFAULT_FIXTURE_PATH.is_file():
+            try:
+                with open(DEFAULT_FIXTURE_PATH, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    rows = data.get("rows")
+            except Exception:
+                rows = ZOBEL83_ROWS
+        else:
+            rows = ZOBEL83_ROWS
+
+    if args.beam != "all":
+        rows = [r for r in rows if r.get("beam") == args.beam]
+
+    res = analyze_projectile_families(rows, j=args.spin, rho=args.rho)
+    if args.json:
+        print(json.dumps(res, indent=2))
+    else:
+        print(format_padoalign_report(res))
 
 
 def cmd_selftest(args):
@@ -4686,6 +4779,7 @@ def main():
     p_qrpa.add_argument("--matrix-2x2", type=str, default=None, help="Comma-separated 2x2 elements: a11,a12,a22,b11,b12,b22 in MeV")
     p_qrpa.add_argument("--scan-gpp", action="store_true", help="Perform pnQRPA g_pp sensitivity scan for double beta decay")
     p_qrpa.add_argument("--E0", type=float, default=4.0, help="Unperturbed 1+ state energy in MeV (default: 4.0)")
+    p_qrpa.add_argument("--ideal-phonon-strength", type=float, default=None, help="Single-phonon B(Eλ) proxy for the ideal spherical two-phonon 2x/zero benchmark")
     p_qrpa.set_defaults(func=cmd_qrpa)
 
     # Surface Delta Interaction & Pandya Transformation
@@ -5092,13 +5186,14 @@ def main():
     p_mwob = subparsers.add_parser("mwob", help="Multi-phonon wobbling hierarchy (nw = 0, 1, 2) and anharmonicity analyzer")
     p_mwob.add_argument("--hw", type=float, default=320.0, help="One-phonon wobbling energy in keV (default: 320.0)")
     p_mwob.add_argument("--delta-anharm", type=float, default=-40.0, help="Anharmonic shift in keV (default: -40.0)")
-    p_mwob.add_argument("--audit", action="store_true", help="Perform experimental candidate audit")
-    p_mwob.add_argument("--e0", type=float, default=0.0, help="Bandhead 0 energy in keV")
-    p_mwob.add_argument("--e1", type=float, default=320.0, help="1-phonon band energy in keV")
-    p_mwob.add_argument("--e2", type=float, default=600.0, help="2-phonon band energy in keV")
-    p_mwob.add_argument("--be2-21", type=float, default=0.62, help="B(E2; 2->1) in e^2 b^2")
-    p_mwob.add_argument("--be2-10", type=float, default=0.32, help="B(E2; 1->0) in e^2 b^2")
-    p_mwob.add_argument("--be2-20", type=float, default=0.015, help="B(E2; 2->0) in e^2 b^2")
+    p_mwob.add_argument("--audit", action="store_true", help="Describe caller inputs; no automatic mode assignment")
+    p_mwob.add_argument("--common-reference", action="store_true", help="Caller asserts comparable spin/yrast energy reference")
+    p_mwob.add_argument("--e0", type=float, help="Reference energy in keV")
+    p_mwob.add_argument("--e1", type=float, help="First candidate energy in keV")
+    p_mwob.add_argument("--e2", type=float, help="Second candidate energy in keV")
+    p_mwob.add_argument("--be2-21", type=float, help="Caller-supplied B(E2; 2->1) in e^2 b^2")
+    p_mwob.add_argument("--be2-10", type=float, help="Caller-supplied B(E2; 1->0) in e^2 b^2")
+    p_mwob.add_argument("--be2-20", type=float, help="Caller-supplied B(E2; 2->0) in e^2 b^2")
     p_mwob.add_argument("--json", action="store_true", help="Output results in JSON format")
     p_mwob.set_defaults(func=cmd_mwob)
 
@@ -5920,14 +6015,47 @@ def main():
     p_tc.set_defaults(func=cmd_trapcorr)
 
     # Multiphonon Wobbling Anharmonic Spectrum Solver
-    p_mw = subparsers.add_parser("multiphwob", help="Multiphonon wobbling anharmonic spectrum solver (Bohr Vol 2 / Petrache Ch 2,4)")
-    p_mw.add_argument("--preset", type=str, default="163Lu_TSD2_two_phonon_benchmark",
-                      choices=list(MULTIPHWOB_PRESETS.keys()), help="Benchmark preset")
+    p_mw = subparsers.add_parser("multiphwob", help="Synthetic finite phonon spectrum; no E2 inference or nuclear confirmation")
+    p_mw.add_argument("--preset", type=str, default="synthetic_softening",
+                      choices=list(MULTIPHWOB_PRESETS.keys()), help="Synthetic fixture or explicitly synthetic legacy alias")
     p_mw.add_argument("--spin", type=float, help="Total spin I (hbar)")
     p_mw.add_argument("--omega", type=float, help="Fundamental wobbling frequency (keV)")
     p_mw.add_argument("--g4", type=float, help="Quartic anharmonicity parameter g4 (keV)")
     p_mw.add_argument("--json", action="store_true", help="Output pure JSON")
     p_mw.set_defaults(func=cmd_multiphwob)
+
+    # In-Beam BGO Compton Suppression Optimizer
+    p_bv = subparsers.add_parser("bgoveto", help="Conditional BGO veto response and fixed-exposure ROI count model")
+    p_bv.add_argument("--preset", type=str, default="gammasphere_bgo_standard_1332keV",
+                      choices=list(BGOVETO_PRESETS.keys()), help="Benchmark preset")
+    p_bv.add_argument("--energy", type=float, help="Gamma-ray energy (keV)")
+    p_bv.add_argument("--rate", type=float, help="BGO singles rate (kHz)")
+    p_bv.add_argument("--prompt-sigma", type=float, default=20.0, help="Prompt time difference sigma (ns); default synthetic")
+    p_bv.add_argument("--continuum-rejection", type=float, default=0.8, help="Infinite-window correlated continuum rejection; default synthetic")
+    p_bv.add_argument("--peak-rejection", type=float, default=0.0, help="Infinite-window correlated peak rejection")
+    p_bv.add_argument("--signal-counts", type=float, default=1000.0, help="Baseline ROI signal counts at fixed exposure")
+    p_bv.add_argument("--background-counts", type=float, default=4000.0, help="Baseline ROI background counts")
+    p_bv.add_argument("--objective", choices=["significance", "signal_counts"], default="significance")
+    p_bv.add_argument("--response-provenance", default="synthetic", help="Caller-supplied calibration provenance label")
+    p_bv.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_bv.set_defaults(func=cmd_bgoveto)
+
+    # Nuclear Odd-Even Pairing Gap Multichannel Solver
+    p_pg = subparsers.add_parser("pairgap", help="Signed odd-even mass indicators and full covariance (BM I pp.169-171)")
+    p_pg_input = p_pg.add_mutually_exclusive_group()
+    p_pg_input.add_argument("--preset", choices=list(PAIRGAP_PRESETS), help="Synthetic algebra fixture")
+    p_pg_input.add_argument("--input", help="JSON with identity, mass chain, convention and optional covariance")
+    p_pg.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_pg.set_defaults(func=cmd_pairgap)
+
+    # P-ADO Shared Alignment Null & Projectile Family Profile
+    p_pa = subparsers.add_parser("padoalign", help="P-ADO shared alignment null and projectile family profile (Zobel 1983 Table 1)")
+    p_pa.add_argument("--fixture", type=str, default=None, help="Path to fixture JSON")
+    p_pa.add_argument("--beam", choices=["all", "alpha", "12C"], default="all", help="Projectile beam family")
+    p_pa.add_argument("--rho", type=float, default=0.0, help="Row-internal alpha2-alpha4 correlation rho")
+    p_pa.add_argument("--spin", type=float, default=6.5, help="State spin J (default 6.5)")
+    p_pa.add_argument("--json", action="store_true", help="Output pure JSON")
+    p_pa.set_defaults(func=cmd_padoalign)
 
     # Selftest
     p_test = subparsers.add_parser("selftest", help="Run regression test suite")

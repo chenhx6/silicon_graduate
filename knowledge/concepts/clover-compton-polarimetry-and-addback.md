@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [clover-detector, compton-addback, compton-polarimetry, linear-polarization, geometric-asymmetry, parity-assignment, in-beam-spectroscopy, gamma-detectors]
+tags: [clover-detector, compton-addback, compton-polarimetry, linear-polarization, geometric-asymmetry, parity-assignment, in-beam-spectroscopy, gamma-detectors]
 ---
 
 # 四叶草（Clover）HPGe探测器康普顿加和（Add-Back）、自散射偏振测量与几何不对称度校正法典
 
-## 1. 物理全景：四叶草几何对核谱仪探测效率与跃迁宇称判定的双重革命
+## Definition
+
+### 物理全景：四叶草几何对核谱仪探测效率与跃迁宇称判定的双重革命
 
 在现代在束 $\gamma$ 谱学与核结构衰变实验中，单晶高纯锗探测器（HPGe）虽然具有卓越的能量分辨能力，但在探测高能 $\gamma$ 光子（$E_\gamma > 1\text{ MeV}$）时，绝大部分事件发生康普顿散射逃逸出晶体，使得全能峰绝对探测效率（Peak-to-Total, P/T）大幅萎缩。
 同时，确定激发态的宇称（$\pi = \pm$）以及区分跃迁的电性与磁性（$E1$ vs $M1$，$E2$ vs $M2$）需要测量发射光子的线偏振度，传统外加散射体偏振仪因效率过低而极难应用于弱反应通道。
@@ -28,7 +30,9 @@ Clover 探测器实现了核仪器学上的两大核心飞跃：
 
 ---
 
-## 2. 严格物理推导与实验数据校正算法
+## Necessary Assumptions
+
+### 严格物理推导与实验数据校正算法
 
 ### (1) 康普顿加和增强因子 $F_{\text{add-back}}(E_\gamma)$
 定义加和增强因子为加和模式全能峰面积与单晶直接记录面积之比：
@@ -79,7 +83,13 @@ $$Q(E_\gamma) \approx 0.24 \exp\left( - 0.00040 \cdot E_\gamma\text{ (keV)} \rig
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/clover_compton_addback_polarization_calculator.py`
@@ -104,7 +114,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py clover \
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[angular-distribution-and-multipole-mixing-ratios]]：角分布系数 $a_2, a_4$ 只能确定跃迁多极阶数（偶极 vs 四极），必须与此处测得的偏振度 $P$ 联合才能彻底锁定电/磁属性与宇称；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[directional-angular-correlation-f-coefficients-and-dco-formalism]]：角分布系数 $a_2, a_4$ 只能确定跃迁多极阶数（偶极 vs 四极），必须与此处测得的偏振度 $P$ 联合才能彻底锁定电/磁属性与宇称；
 - [[hpge-digital-pulse-processing-pzc-and-ballistic-deficit]]：Clover 各叶片输出的数字化能量与定时是实施亚微秒跨晶体 Add-Back 积分的电子学基础；
 - [[experimental-uncertainty-propagation-and-double-root-triage]]：偏振度测量是解决多极混合比 $\delta(E2/M1)$ 双实数解退化歧义的最终仲裁法则。

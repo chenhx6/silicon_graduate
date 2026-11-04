@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [tidal-waves, transitional-nuclei, b_e2-linear-scaling, dynamic-deformation, frauendorf-model, a130-region]
+tags: [tidal-waves, transitional-nuclei, b_e2-linear-scaling, dynamic-deformation, frauendorf-model, a130-region]
 ---
 
 # 原子核潮汐波（Tidal Waves）微观动力学与大振幅非简谐振转过渡模式
 
-## 1. 物理全景：振动与转动二元论的超越
+## Definition
+
+### 物理全景：振动与转动二元论的超越
 
 在经典核物理理论中，偶偶核的基态转动能带通常被严格划分为两大极端模式：
 1. **球形核的谐振子微幅振动（Harmonic Vibrator）**：能级等间距 $E \propto n$，特征比 $R_{4/2} = 2.00$；
@@ -26,7 +28,9 @@ topics: [tidal-waves, transitional-nuclei, b_e2-linear-scaling, dynamic-deformat
 
 ---
 
-## 2. 潮汐波核心动力学方程与微观机制
+## Necessary Assumptions
+
+### 潮汐波核心动力学方程与微观机制
 
 ### (1) 表面行波轮廓与波速
 四极表面行波的矢径表面表达为：
@@ -43,7 +47,13 @@ $$\beta_2(I) \approx \beta_0 \sqrt{\frac{I}{2}}$$
 
 ---
 
-## 3. 潮汐波标志性实验指纹：$B(E2)$ 严格线性增长定律
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 潮汐波标志性实验指纹：$B(E2)$ 严格线性增长定律
 
 在常规刚体轴对称转子中，由于内禀四极矩 $Q_0$ 是常数，带内约化电四极跃迁几率满足清一色的平坦常数行为：
 $$B(E2; I \to I-2) \approx \frac{5}{16\pi} e^2 Q_0^2 \cdot \frac{3}{8} \approx \text{常数} \quad (\text{刚体转子指纹})$$
@@ -67,3 +77,18 @@ $$B(E2; I \to I-2) = B_0 \cdot \frac{I - I_{\text{ref}}}{2} \propto I$$
 2. **奇核子与潮汐波的干涉耦合**：
    当奇质子（如 $^{135}\text{Pr}$ 的 $\pi h_{11/2}$）耦合到具有潮汐波行波的软核表面时，核子与表面大振幅四极波的相互作用诱发出特征的波形相干，不仅导致了旋称反转，而且产生了表观上类似横向摆动能级的下沉；
 3. 这一理论与 IBFM 玻色子-费米子耦合模型形成了微观自洽的互补闭环，彻底夯实了 Wiki 在多模式竞争领域的理论裁判深度。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

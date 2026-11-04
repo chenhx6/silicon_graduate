@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [rdds-plunger, recoil-distance-method, ddcm, differential-decay-curve, level-lifetimes, picosecond-lifetimes, absolute-be2, in-beam-spectroscopy]
+tags: [rdds-plunger, recoil-distance-method, ddcm, differential-decay-curve, level-lifetimes, picosecond-lifetimes, absolute-be2, in-beam-spectroscopy]
 ---
 
 # 反冲距离多普勒频移（RDDS）柱塞法、皮秒能级寿命与微分衰变曲线法（DDCM）
 
-## 1. 物理全景：填补飞秒与纳秒之间的皮秒测量黄金窗口
+## Definition
+
+### 物理全景：填补飞秒与纳秒之间的皮秒测量黄金窗口
 
 在低能核物理与在束 $\gamma$ 射线谱学中，原子核低自旋集体转动态、三轴摆动带头与手征双重带关键能级的平均寿命通常分布在 **$1 \sim 200\text{ ps}$（皮秒量级）**。
 - 对于飞秒级寿命（$\tau < 1\text{ ps}$），由于反冲核在厚衬底介质中边慢化边退激，采用多普勒频移衰变法（DSAM）拟合多普勒连续线形；
@@ -32,7 +34,9 @@ topics: [rdds-plunger, recoil-distance-method, ddcm, differential-decay-curve, l
 
 ---
 
-## 2. 严格物理公式与 DDCM 数学推导
+## Necessary Assumptions
+
+### 严格物理公式与 DDCM 数学推导
 
 ### (1) 几何运动学与飞行时间转换
 设反冲核相对速度为 $\beta = v/c$（典型熔合反应 $\beta \approx 0.015 \sim 0.030$，即 $v \approx 4.5 \sim 9.0\text{ }\mu\text{m/ps}$）：
@@ -84,7 +88,13 @@ $$Q_t = \sqrt{\frac{16\pi}{5} \frac{B(E2; 2_1^+ \to 0_1^+)}{\langle 2 0 2 0 | 0 
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/rdds_plunger_lifetime_calculator.py`
@@ -106,7 +116,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py rdds \
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[lifetime-and-lineshape-dsam]]：DSAM 针对飞秒（$<1\text{ ps}$）内带高自旋态，而 RDDS 柱塞法针对皮秒（$1 \sim 200\text{ ps}$）低自旋态，共同构建了核寿命全寿命谱段覆盖；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[in-beam-dsam-zbl-stopping-and-lifetime]]：DSAM 针对飞秒（$<1\text{ ps}$）内带高自旋态，而 RDDS 柱塞法针对皮秒（$1 \sim 200\text{ ps}$）低自旋态，共同构建了核寿命全寿命谱段覆盖；
 - [[side-feeding-dynamics-and-doppler-lineshape-deconvolution]]：DDCM 方法在数学原理上克服了传统侧馈送拖尾的虚假寿命拉长风险；
 - [[davydov-filippov-triaxial-rotor-and-wobbling-dynamics]]：证伪伪摆动所必需的 $B(E2)_{\text{out}} / B(E2)_{\text{in}}$ 绝对比值，完全依赖柱塞寿命测量的精确输入。

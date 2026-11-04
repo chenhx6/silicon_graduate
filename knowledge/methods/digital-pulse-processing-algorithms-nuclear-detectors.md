@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "现代半导体与闪烁体探测器数字脉冲处理算法实战"
 aliases: [数字脉冲处理, 梯形滤波算法, DPP算法, 数字极零相消, 数字CFD]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [digital-signal-processing, trapezoidal-filter, pole-zero-cancellation, digital-cfd, hpge-processing]
+tags: [digital-signal-processing, trapezoidal-filter, pole-zero-cancellation, digital-cfd, hpge-processing]
 ---
 
 # 现代半导体与闪烁体探测器数字脉冲处理算法实战
 
-## 1. 模拟处理向数字脉冲处理（DPP）的范式演进
+## Purpose
+
+### 模拟处理向数字脉冲处理（DPP）的范式演进
 
 在传统核谱仪系统中，探测器前置放大器的信号经过模拟成形放大器（如 CR-RC 成形、模拟极零电位器调节、模拟基线恢复器）成形后送入多道分析器（MCA）。模拟处理存在温度漂移大、通道间一致性差、复杂堆积难以在线识别等固有弊端。
 
@@ -19,7 +22,9 @@ topics: [digital-signal-processing, trapezoidal-filter, pole-zero-cancellation, 
 
 ---
 
-## 2. 核心数字算法数学推导与离散差分方程
+## Inputs and Assumptions
+
+### 核心数字算法数学推导与离散差分方程
 
 ### 算法 1：数字极零相消（Digital Pole-Zero Cancellation）
 前放输出的典型波形表现为快速上升后缓慢指数衰减：
@@ -57,3 +62,19 @@ $$w[n] = f \cdot v[n] - v[n-D]$$
 寻找合成双极性信号 $w[n]$ 严格跨越零电平的插值点 $n_0$：
 $$n_0 = n_{\text{cross}} - \frac{w[n_{\text{cross}}]}{w[n_{\text{cross}}+1] - w[n_{\text{cross}}]}$$
 求出的 $n_0 \cdot T_s$ 具有完全独立于脉冲幅度的极佳时间稳定性（亚纳秒至皮秒级精度）。
+
+
+## What It Can Establish
+
+提供能级寿命、多极混合比及跃迁几率的定量反演依据。
+
+
+## What It Cannot Establish Alone
+
+不能在单一角度或无偏振测量条件下排他性裁决多极混合比双根简并。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

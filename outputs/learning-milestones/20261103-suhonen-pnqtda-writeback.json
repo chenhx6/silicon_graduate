@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-03",
+  "source": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+  "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+  "reading_status": "bounded equation-to-code audit; not full chapter completion",
+  "source_scope": {
+    "chapter": "17",
+    "printed_pages": [523, 526],
+    "physical_pdf_pages": [537, 540],
+    "equations": ["17.1", "17.2", "17.3", "17.4"]
+  },
+  "audited_structure": [
+    "pnQTDA eigenvalue equation",
+    "two-quasiparticle energy diagonal",
+    "pp two-body matrix contribution",
+    "particle-hole residual contribution",
+    "Pandya reduction boundary"
+  ],
+  "implementation": {
+    "module": "system/scripts/analysis/qrpa_matrix_vibrational_calculator.py",
+    "functions": ["build_pn_qtda_matrix", "solve_pn_qtda_matrix"],
+    "basis": "Cartesian product of finite proton and neutron quasiparticle spaces",
+    "inputs": [
+      "proton/neutron quasiparticle energies",
+      "BCS u/v amplitudes",
+      "pn two-body matrix",
+      "pn particle-hole residual matrix"
+    ],
+    "boundary": "Angular-momentum normalizers, isospin decomposition and Pandya reduction are explicit upstream inputs."
+  },
+  "tests": [
+    "one-configuration analytic pnQTDA matrix benchmark",
+    "matrix symmetry check",
+    "complete analysis regression suite"
+  ],
+  "status": "passed",
+  "writeback": [
+    "knowledge/concepts/suhonen-bcs-qrpa-and-transition-crosswalk.md",
+    "system/scripts/analysis/qrpa_matrix_vibrational_calculator.py",
+    "system/scripts/analysis/test_analysis_suite.py"
+  ],
+  "evidence_boundary": "This is a finite spherical pnQTDA interface based on Suhonen Eq. (17.2), not a full deformed, cranked, triaxial or A~130 predictive calculation."
+}

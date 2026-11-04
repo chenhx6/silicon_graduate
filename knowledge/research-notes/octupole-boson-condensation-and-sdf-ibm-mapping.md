@@ -88,7 +88,7 @@ evidence_sources: [butler-nazarewicz-1996-intrinsic-reflection-asymmetry, bucher
  |N;\beta_2,\beta_3\rangle={1\over\sqrt{N!}}
  (b_c^\dagger)^N|0\rangle,
  \quad b_c^\dagger={s^\dagger+\beta_2d_0^\dagger+\beta_3f_0^\dagger
- \over\sqrt{D}},\quad D=1+\beta_2^2+eta_3^2.
+ \over\sqrt{D}},\quad D=1+\beta_2^2+\beta_3^2.
 \]
 
 直接得到

@@ -11,7 +11,9 @@ tags: [triaxiality, wobbling-motion, even-even-nuclei, two-quasiparticle-alignme
 
 # Two-quasiparticle wobbling excitations in even-even triaxial nuclei and transverse frequency evolution
 
-## Definition and Phenomenological Origin
+## Definition
+
+### Definition and Phenomenological Origin
 
 Wobbling motion is a unique fingerprint of stable triaxial deformation ($\gamma \ne 0^\circ, 60^\circ$). Historically predicted by A. Bohr and B. R. Mottelson for simple asymmetric rotors and first observed in odd-$A$ Lu isotopes ($^{161,163,165,167}\text{Lu}$) in the 2000s, wobbling was long believed to be absent in low-lying even-even nuclei due to the lack of high-$j$ single-particle alignment and early band crossings.
 
@@ -68,3 +70,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py twoqpwob --preset spurious_q
    Confidence score: $100\%$, establishing `CONFIRMED_TWO_QUASIPARTICLE_TRANSVERSE_WOBBLING`.
 2. **Spurious Counterexample**:
    Displays rising frequency ($+125\text{ keV}/\hbar$) and negligible $B(E2)$ ratio ($0.023$), correctly triggering `REJECTED_SPURIOUS_OR_SINGLE_PARTICLE_BAND`.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

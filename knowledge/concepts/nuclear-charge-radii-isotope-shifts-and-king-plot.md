@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [charge-radii, isotope-shift, king-plot, field-shift, mass-shift, laser-spectroscopy, odd-even-staggering, shape-evolution]
+tags: [charge-radii, isotope-shift, king-plot, field-shift, mass-shift, laser-spectroscopy, odd-even-staggering, shape-evolution]
 ---
 
 # 原子核均方电荷半径、激光同位素移动（Isotope Shifts）与King图线性检验法典
 
-## 1. 物理全景：原子光学超精细跃迁对原子核体积与形变的直接映射
+## Definition
+
+### 物理全景：原子光学超精细跃迁对原子核体积与形变的直接映射
 
 原子核均方电荷半径 $\langle r^2 \rangle$ 是低能核结构中极少数完全不依赖特定核模型假设、可由高精度原子光学光谱学或电子弹性散射绝对测定的宏观基本物理量。
 
@@ -28,7 +30,9 @@ topics: [charge-radii, isotope-shift, king-plot, field-shift, mass-shift, laser-
 
 ---
 
-## 2. King 图线性理论（King Plot Analysis）与高精度微观解耦
+## Necessary Assumptions
+
+### King 图线性理论（King Plot Analysis）与高精度微观解耦
 
 在实际实验中，原子电子因子 $F_i$ 与质量移参数 $M_i, S_i$ 难以纯理论无误差计算。King 图分析法通过联立两个不同原子跃迁，消去未知的核半径项，提供了一种严格自洽的线性验证标准。
 
@@ -46,7 +50,13 @@ $$\xi_2^{A, A'} = \frac{F_2}{F_1} \xi_1^{A, A'} + \left( K_2 - \frac{F_2}{F_1} K
 
 ---
 
-## 3. 电荷半径系统学两大经典谱学指纹
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 电荷半径系统学两大经典谱学指纹
 
 ### (1) 电荷半径奇偶交错（Odd-Even Staggering, OES in Radii）
 在全核素图的几乎所有同位素链中：
@@ -89,3 +99,18 @@ $$\xi_2^{A, A'} = \frac{F_2}{F_1} \xi_1^{A, A'} + \left( K_2 - \frac{F_2}{F_1} K
 3. **Karthein, C. M. et al.** (2024). Electromagnetic properties of ground and isomeric states in indium isotopes towards $^{100}\text{Sn}$. *Nature Phys.*, 20(3), 390-396.
 4. **Otten, E. W.** (1989). Nuclear radii and moments of unstable isotopes. *Treatise on Heavy-Ion Science*, Vol. 8, pp. 517-638. Plenum Press.
 5. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 1 章：核半径与电荷分布测量. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

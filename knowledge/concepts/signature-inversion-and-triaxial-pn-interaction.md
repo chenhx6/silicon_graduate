@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [signature-inversion, signature-splitting, staggering-parameter, triaxiality, pn-interaction, a130-region]
+tags: [signature-inversion, signature-splitting, staggering-parameter, triaxiality, pn-interaction, a130-region]
 ---
 
 # 原子核旋称反转动力学、能量交错参量与三轴质中残余相互作用
 
-## 1. 物理全景：科里奥利力经典排序的量子反转
+## Definition
+
+### 物理全景：科里奥利力经典排序的量子反转
 
 在旋转变形原子核中，绕垂直于对称轴旋转 $180^\circ$ 的空间离散旋转操作 $\mathcal{R}_x(\pi) = \exp(-i\pi \hat{I}_x)$ 构成系统的运动常数。其本征量子数定义为**旋称（Signature, $\alpha$）**：
 $$r = \exp(-i\pi \alpha) \implies I = \alpha \pmod 2$$
@@ -25,7 +27,9 @@ $$r = \exp(-i\pi \alpha) \implies I = \alpha \pmod 2$$
 
 ---
 
-## 2. 能量交错参量 $S(I)$ 与实验判定指标
+## Necessary Assumptions
+
+### 能量交错参量 $S(I)$ 与实验判定指标
 
 在在束 $\gamma$ 谱学分析中，实验上通过**能量交错参量（Staggering Parameter, $S(I)$）**精确量化旋称劈裂的幅度与符号：
 
@@ -42,7 +46,13 @@ $$S(I) = \frac{E(I) - E(I-1)}{2I}$$
 
 ---
 
-## 3. 三轴形变与质中相互作用微观驱动机制
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 三轴形变与质中相互作用微观驱动机制
 
 ### (1) 三轴形变势对单粒子矩阵元的调制
 当原子核处于三轴形变（$\gamma \ne 0^\circ$）时，变形单粒子 Nilsson 势在不同主轴上的曲率互不相等。
@@ -68,3 +78,18 @@ $$\Delta E_{pn} = \langle \alpha_u | V_{pn} | \alpha_u \rangle - \langle \alpha_
    - 旋称反转带是单一准粒子组态内由于绕轴旋转 $180^\circ$ 离散对称性引起的自旋相差 $1\hbar$ 的交错劈裂；
 2. **对 $^{131}\text{Ce}$ 与 $^{133}\text{Ce}$ 的关键启示**：
    在分析 $^{133}\text{Ce}$ 带头 $13/2^-$ 的伴随能带时，必须通过能量交错参量 $S(I)$ 检验是否存在相位翻转，从而在数理上严格排除旋称反转假象，确保三轴手征结论的纯粹性！
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [magnetic-rotation, shears-mechanism, antimagnetic-rotation, m1-bands, a130-region, lead-region]
+tags: [magnetic-rotation, shears-mechanism, antimagnetic-rotation, m1-bands, a130-region, lead-region]
 ---
 
 # 原子核磁转动、反磁转动与剪刀机制动力学
 
-## 1. 物理全景：超越电荷四极形变的磁性自旋激发
+## Definition
+
+### 物理全景：超越电荷四极形变的磁性自旋激发
 
 在经典原子核结构观念中，转动能级（Rotational bands）必定与宏观四极形变（拉长或三轴椭球）紧密相连，并通过强烈的集体电四极辐射（$B(E2) \gg 100\text{ W.u.}$）实现退激。
 
@@ -24,7 +26,9 @@ topics: [magnetic-rotation, shears-mechanism, antimagnetic-rotation, m1-bands, a
 
 ---
 
-## 2. 剪刀机制（Shears Mechanism）数学物理模型
+## Necessary Assumptions
+
+### 剪刀机制（Shears Mechanism）数学物理模型
 
 ### (1) 角动量矢量几何与开角 $\theta$
 设高 $j$ 质子粒子角动量矢量为 $\vec{j}_\pi$（如 $A\approx 130$ 区的 $\pi h_{11/2}$ 或 Pb 区的 $\pi h_{9/2} i_{13/2}$）；
@@ -54,7 +58,13 @@ $$B(M1; I \to I-1) \propto \left[ 1 - \left( \frac{I - I_{\text{bandhead}}}{I_{\
 
 ---
 
-## 3. 反磁转动（Antimagnetic Rotation, AMR）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 反磁转动（Antimagnetic Rotation, AMR）
 
 如果原子核的微观组态包含**两对相互对称抵消的高 $j$ 准粒子**（例如两个质子粒子对称指向两侧，两个中子空穴对称指向另两侧），构成了“四叶双剪刀”几何：
 1. 系统的净磁偶极矩在空间完全抵消（$\vec{\mu}_{\text{tot}} \approx 0$），因此奇极 $M1$ 阶梯跃迁被完全抑制；
@@ -76,3 +86,18 @@ $$B(M1; I \to I-1) \propto \left[ 1 - \left( \frac{I - I_{\text{bandhead}}}{I_{\
 | **反磁转动 (AMR)** | 两对对称双剪刀夹拢 | $\Delta I=2$ 纯 $E2$ 级联 | 严格为零 (无 $M1$) | **随自旋单调下降至零** |
 | **横向摆动 (TW)** | 准粒子垂直于最大惯量轴 | $\Delta I=1$ 强 $E2$ 跨带 | 极弱 ($M1$ 受到压制) | **跨带 $B(E2)_{\text{out}}$ 集体增强** |
 | **手征双重带** | 粒子在短轴, 空穴在长轴, 核心在轴3 | 伴随能带间复合跃迁 | **带内/带间呈奇偶交替交错** | 带内强且两带高度对称 |
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

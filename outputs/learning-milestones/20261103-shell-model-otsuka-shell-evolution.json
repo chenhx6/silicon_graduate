@@ -1,0 +1,38 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "核对 Otsuka 壳模型文章前半部的单极相互作用、壳演化、新幻数和三体力滴线机制",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "scope": "Otsuka article physical PDF pp.96-111 / article pp.87-102 selected sections",
+    "evidence_route": "native text extraction with selected figure/equation navigation"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/otsuka-shell-evolution-monopole-contract.md",
+      "reason": "monopole, tensor, 3NF, shell-evolution, new-magic and dripline contract"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Otsuka shell-evolution method"
+    }
+  ],
+  "source_locators": [
+    "Article pp.87-90 / physical PDF pp.96-99, shell model and traditional/new magic numbers",
+    "Article pp.90-98 / physical PDF pp.99-107, monopole, tensor, VMU, N=34 and 3NF/dripline",
+    "Article pp.98-102, type-II shell evolution, T-plot, self-organization and dripline mechanism"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded partial article unit",
+    "remaining_queue": "article continuation and 11 other special-issue articles remain queued",
+    "boundary": [
+      "ESPE and monopole shifts are model diagnostics, not direct observables",
+      "new magic number evidence requires multiple observables",
+      "type-II shell evolution and shape coexistence continuation remains unread"
+    ]
+  }
+}

@@ -425,11 +425,12 @@ class DailyLearningRunnerTests(unittest.TestCase):
 
     def test_dry_run_checks_root_prompt_and_returns_command(self) -> None:
         paths = run_daily_learning.get_paths(REPO_ROOT)
-        with patch.object(run_daily_learning.shutil, "which", return_value="/usr/bin/codex"):
+        mock_state = {"next_day_index": 1, "status": "active"}
+        with patch.object(run_daily_learning.shutil, "which", return_value="/usr/bin/codex"),              patch.object(run_daily_learning, "read_state", return_value=mock_state):
             result = run_daily_learning.dry_run(paths, "gpt-6-luna", True)
-        self.assertEqual(result["status"], "dry-run-ok")
-        state = run_daily_learning.read_state(paths.state_file)
-        self.assertEqual(result["day_index"], int(state.get("next_day_index", 1)))
+            self.assertEqual(result["status"], "dry-run-ok")
+            state = run_daily_learning.read_state(paths.state_file)
+            self.assertEqual(result["day_index"], int(state.get("next_day_index", 1)))
         self.assertIn("danger-full-access", result["command"])
         self.assertEqual(result["session_mode"], "new-session-per-run")
         self.assertEqual(result["schedule_id"], "wiki-daily-learning")

@@ -1,0 +1,38 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "核对 Gamow Shell Model 文章的 Berggren 基底、复能共振和氧/氟滴线连续谱接口",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "scope": "Gamow Shell Model article physical PDF pp.150-171 / article pp.139-160 selected sections",
+    "evidence_route": "native text extraction with formalism and figure navigation"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/gamow-shell-model-dripline-continuum-contract.md",
+      "reason": "Berggren basis, complex resonances, oxygen/fluorine dripline and experimental interface"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Gamow Shell Model dripline method"
+    }
+  ],
+  "source_locators": [
+    "Article pp.139-143 / physical PDF pp.150-154, Berggren basis, complex energy and effective Hamiltonian",
+    "Article pp.144-147 / physical PDF pp.155-158, oxygen/fluorine dripline and 24-26O examples",
+    "Article pp.147-160 / physical PDF pp.158-171, GHF basis and later dripline applications"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded partial article unit",
+    "remaining_queue": "article continuation and 11 other special-issue articles remain queued",
+    "boundary": [
+      "complex eigenvalues require reaction/response comparison",
+      "continuum, three-nucleon force and single-particle inputs are confounded unless varied separately",
+      "dripline and halo assignments require masses, widths and reaction observables together"
+    ]
+  }
+}

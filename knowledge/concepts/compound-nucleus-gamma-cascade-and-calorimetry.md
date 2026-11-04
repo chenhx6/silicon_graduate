@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [gamma-cascade, calorimetry, multiplicity-filter, entry-state-distribution, statistical-e1, collective-e2, bgo-ball, channel-selection, nuclear-instrumentation]
+tags: [gamma-cascade, calorimetry, multiplicity-filter, entry-state-distribution, statistical-e1, collective-e2, bgo-ball, channel-selection, nuclear-instrumentation]
 ---
 
 # 复合核退激多步γ光子级联量能学、多重数谱仪与在束反应通道分选法典
 
-## 1. 物理全景：从准连续态入口点到高自旋基态能带的光子瀑布
+## Definition
+
+### 物理全景：从准连续态入口点到高自旋基态能带的光子瀑布
 
 在重离子熔合蒸发反应中，当复合核发射完最后一个热化中子后，残余原子核落在一个由热激发能与旋转角动量张成的相空间中：**入口态（Entry States, $(E_{\text{entry}}^*, I_{\text{entry}})$）**。
 此时，激发能已低于所有带电粒子与中子的结合能阈值，强相互作用通道被彻底冻结，**原子核唯一合法的退激手段便是发射密集的 $\gamma$ 光子瀑布（$\gamma$-Cascade）**。
@@ -27,7 +29,9 @@ topics: [gamma-cascade, calorimetry, multiplicity-filter, entry-state-distributi
 
 ---
 
-## 2. 严格物理模型与量能器仪器响应
+## Necessary Assumptions
+
+### 严格物理模型与量能器仪器响应
 
 ### (1) 入口态空间边界与 Yrast 能量线
 入口态在 $(E^*, I)$ 平面上的几何分布边界为：
@@ -70,7 +74,13 @@ $$\langle H \rangle = f_{\text{abs}} \cdot E_{\text{sum}}$$
 
 ---
 
-## 3. 在束实验 $(E_{\text{sum}}, k)$ 反应通道分选准则
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 在束实验 $(E_{\text{sum}}, k)$ 反应通道分选准则
 
 在熔合反应中，由于每多蒸发一个中子必然多消耗 $S_n + 2T \approx 11\text{ MeV}$ 的总能量以及约 $1.5\hbar$ 的角动量：
 - **$3n$ 残核通道**：保留了最高的激发能与最高的入口自旋，在 $(E_{\text{sum}}, k)$ 平面上位于**右上角**；
@@ -104,6 +114,19 @@ python3 system/scripts/analysis/nuclear_analyzer.py calorim -E 24.0 -I 22.0 -A 1
 
 ---
 
-## 5. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[heavy-ion-fusion-evaporation-and-statistical-decay]]：粒子蒸发阶段输出的残核能量正是此处 $\gamma$ 级联的初始入口条件；
 - [[hpge-digital-pulse-processing-pzc-and-ballistic-deficit]]：量能球的高效率多重数门通常用于为主力 HPGe 阵列提供高选择性符合选通信号。

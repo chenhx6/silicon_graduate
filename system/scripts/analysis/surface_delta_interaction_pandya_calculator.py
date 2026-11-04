@@ -97,26 +97,177 @@ def calculate_clebsch_gordan(j1, m1, j2, m2, j3, m3):
     return float(pre * sum_k)
 
 
+def calculate_wigner_3j(j1, j2, j3, m1, m2, m3):
+    """Calculate a Wigner 3j symbol through the exact CG implementation."""
+    if abs(m1 + m2 + m3) > 1e-8:
+        return 0.0
+    if abs(m3) > j3:
+        return 0.0
+    # <j1 m1 j2 m2 | j3, -m3>
+    cg = calculate_clebsch_gordan(j1, m1, j2, m2, j3, -m3)
+    exponent = int(round(j1 - j2 + m3))
+    return float(((-1) ** exponent) * cg / math.sqrt(2.0 * j3 + 1.0))
+
+
 def calculate_sdi_matrix_element(ja, jb, jc, jd, J, la, lb, lc, ld, V0_MeV=1.0):
     """
     Compute Surface Delta Interaction (SDI) two-body matrix element:
       < (ja jb) J | V_SDI | (jc jd) J >.
+
+    This is the like-nucleon schematic SDI of Suhonen Eqs. (8.66) and
+    (8.70), where ``V0_MeV`` is the fitted A_T strength.  It retains the
+    coupled-state normalizers, parity factors, exchange phase and the two
+    Wigner-3j factors.  It does not include orbital-dependent radial
+    amplitudes or the separate proton-neutron T=0/T=1 expression of Eq. (8.68).
     """
-    parity_factor = 1.0 + ((-1) ** int(round(la + lb - J)))
-    if abs(parity_factor) < 1e-4:
+    parity_factor = 1.0 + ((-1) ** int(round(la + lb + lc + ld)))
+    angular_parity_factor = 1.0 + ((-1) ** int(round(lc + ld + J)))
+    if abs(parity_factor * angular_parity_factor) < 1e-4:
         return 0.0
 
-    cg1 = calculate_clebsch_gordan(ja, 0.5, jb, -0.5, J, 0.0)
-    cg2 = calculate_clebsch_gordan(jc, 0.5, jd, -0.5, J, 0.0)
+    w3j1 = calculate_wigner_3j(ja, jb, J, 0.5, -0.5, 0.0)
+    w3j2 = calculate_wigner_3j(jc, jd, J, 0.5, -0.5, 0.0)
 
-    delta_ab = 1.0 if (abs(ja - jb) < 1e-4 and la == lb) else 0.0
-    delta_cd = 1.0 if (abs(jc - jd) < 1e-4 and lc == ld) else 0.0
-    norm = math.sqrt((1.0 + delta_ab) * (1.0 + delta_cd))
+    same_ab = abs(ja - jb) < 1e-4 and la == lb
+    same_cd = abs(jc - jd) < 1e-4 and lc == ld
+    if (same_ab and int(round(J)) % 2 == 1) or (same_cd and int(round(J)) % 2 == 1):
+        return 0.0
+    norm_ab = math.sqrt(
+        (1.0 + (1.0 if same_ab else 0.0) * ((-1) ** int(round(J))))
+        / (1.0 + (1.0 if same_ab else 0.0))
+    )
+    norm_cd = math.sqrt(
+        (1.0 + (1.0 if same_cd else 0.0) * ((-1) ** int(round(J))))
+        / (1.0 + (1.0 if same_cd else 0.0))
+    )
 
-    pre = - (float(V0_MeV) / (2.0 * (2.0 * J + 1.0))) * (parity_factor / norm)
-    geom = math.sqrt((2.0 * ja + 1.0) * (2.0 * jb + 1.0) * (2.0 * jc + 1.0) * (2.0 * jd + 1.0))
+    # The public V0 interface is normalized so the single-j benchmark remains
+    # E(J=0) = -V0*(j + 1/2), as used by the existing API. The fitted A_T in
+    # Suhonen Eq. (8.70) absorbs convention factors that are explicit here.
+    k_abcd = -float(V0_MeV) / 8.0
+    phase = (-1) ** int(round(la + lc + jb + jd))
+    geom = math.sqrt(
+        (2.0 * ja + 1.0) * (2.0 * jb + 1.0)
+        * (2.0 * jc + 1.0) * (2.0 * jd + 1.0)
+    )
 
-    return float(pre * geom * cg1 * cg2)
+    return float(
+        -k_abcd
+        * norm_ab
+        * norm_cd
+        * phase
+        * parity_factor
+        * angular_parity_factor
+        * geom
+        * w3j1
+        * w3j2
+    )
+
+
+def _sdi_like_from_k(
+    ja, jb, jc, jd, J, la, lb, lc, ld, k_abcd
+):
+    """Evaluate Eq. (8.66) for a supplied radial K_abcd coefficient."""
+    parity_factor = 1.0 + ((-1) ** int(round(la + lb + lc + ld)))
+    angular_parity_factor = 1.0 + ((-1) ** int(round(lc + ld + J)))
+    if abs(parity_factor * angular_parity_factor) < 1e-4:
+        return 0.0
+
+    same_ab = abs(ja - jb) < 1e-4 and la == lb
+    same_cd = abs(jc - jd) < 1e-4 and lc == ld
+    j_phase = int(round(J))
+    if (same_ab and j_phase % 2 == 1) or (same_cd and j_phase % 2 == 1):
+        return 0.0
+    norm_ab = math.sqrt(
+        (1.0 + (1.0 if same_ab else 0.0) * ((-1) ** j_phase))
+        / (1.0 + (1.0 if same_ab else 0.0))
+    )
+    norm_cd = math.sqrt(
+        (1.0 + (1.0 if same_cd else 0.0) * ((-1) ** j_phase))
+        / (1.0 + (1.0 if same_cd else 0.0))
+    )
+    w3j1 = calculate_wigner_3j(ja, jb, J, 0.5, -0.5, 0.0)
+    w3j2 = calculate_wigner_3j(jc, jd, J, 0.5, -0.5, 0.0)
+    phase = (-1) ** int(round(la + lc + jb + jd))
+    geom = math.sqrt(
+        (2.0 * ja + 1.0) * (2.0 * jb + 1.0)
+        * (2.0 * jc + 1.0) * (2.0 * jd + 1.0)
+    )
+    return float(
+        -float(k_abcd)
+        * norm_ab
+        * norm_cd
+        * phase
+        * parity_factor
+        * angular_parity_factor
+        * geom
+        * w3j1
+        * w3j2
+    )
+
+
+def calculate_sdi_matrix_element_from_radial_k(
+    ja, jb, jc, jd, J, la, lb, lc, ld, k_abcd_MeV
+):
+    """Evaluate the like-nucleon SDI matrix element for a supplied K_abcd.
+
+    Suhonen Eq. (8.62) defines ``K_abcd`` from the interaction strength and
+    surface radial amplitudes.  This entry point keeps that coefficient
+    explicit, while the legacy ``calculate_sdi_matrix_element`` uses the
+    single-j public V0 normalization.
+    """
+    return _sdi_like_from_k(
+        ja, jb, jc, jd, J, la, lb, lc, ld, k_abcd_MeV
+    )
+
+
+def calculate_sdi_isospin_matrix_element(
+    ja, jb, jc, jd, J, la, lb, lc, ld, T, A_T_MeV=1.0
+):
+    """Evaluate the schematic isospin SDI of Suhonen Eq. (8.68)/(8.70).
+
+    ``A_T_MeV`` is the simplified constant-strength parameter for T=0 or 1.
+    The implementation uses the same convention as the public single-j
+    baseline, so the 0d-1s table values can be used as regression anchors.
+    """
+    if int(T) not in (0, 1):
+        raise ValueError("T must be 0 or 1 for the schematic SDI.")
+    same_ab = abs(ja - jb) < 1e-4 and la == lb
+    same_cd = abs(jc - jd) < 1e-4 and lc == ld
+    jt = int(round(J + T))
+    norm_ab = math.sqrt(
+        (1.0 - (1.0 if same_ab else 0.0) * ((-1) ** jt))
+        / (1.0 + (1.0 if same_ab else 0.0))
+    )
+    norm_cd = math.sqrt(
+        (1.0 - (1.0 if same_cd else 0.0) * ((-1) ** jt))
+        / (1.0 + (1.0 if same_cd else 0.0))
+    )
+    if norm_ab == 0.0 or norm_cd == 0.0:
+        return 0.0
+
+    parity_factor = 1.0 + ((-1) ** int(round(la + lb + lc + ld)))
+    if abs(parity_factor) < 1e-4:
+        return 0.0
+    plus_ab = calculate_wigner_3j(ja, jb, J, 0.5, 0.5, -1.0)
+    plus_cd = calculate_wigner_3j(jc, jd, J, 0.5, 0.5, -1.0)
+    minus_ab = calculate_wigner_3j(ja, jb, J, 0.5, -0.5, 0.0)
+    minus_cd = calculate_wigner_3j(jc, jd, J, 0.5, -0.5, 0.0)
+    exchange_phase = (-1) ** int(round(la + lc + jb + jd))
+    bracket = (
+        (1.0 + (-1) ** int(T)) * plus_ab * plus_cd
+        - exchange_phase
+        * (1.0 - (-1) ** int(round(lc + ld + J + T)))
+        * minus_ab
+        * minus_cd
+    )
+    geom = math.sqrt(
+        (2.0 * ja + 1.0) * (2.0 * jb + 1.0)
+        * (2.0 * jc + 1.0) * (2.0 * jd + 1.0)
+    )
+    # Convention matched to the public single-j A_T benchmark.
+    k_abcd = -float(A_T_MeV) / 8.0
+    return float(k_abcd * norm_ab * norm_cd * parity_factor * geom * bracket)
 
 
 def calculate_single_j_sdi_spectrum(j_val, l_val, V0_MeV=1.0):

@@ -11,7 +11,9 @@ tags: [gamma-spectroscopy, efficiency-calibration, hpge-detectors, clover-detect
 
 # HPGe and Clover detector photopeak efficiency curve weighted least squares calibration and rigorous covariance error propagation
 
-## Definition and Physical Motivation
+## Definition
+
+### Definition and Physical Motivation
 
 In in-beam $\gamma$-ray spectroscopy and radioactivity measurements, determining absolute and relative transition intensities, branching ratios $I_\gamma$, internal conversion coefficients $\alpha_K$, and multipole mixing ratios requires knowledge of the detector photopeak efficiency curve $\varepsilon(E_\gamma)$ across $E_\gamma \sim 80\text{ keV} - 3.5\text{ MeV}$.
 
@@ -71,3 +73,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py effcov --preset broadband_co
    The naive variance sum yields an unphysical error $\pm 0.000742$, overestimating the uncertainty by a factor of $\times 5.99$!
 2. **Consistency Across Energy Range**:
    Provides accurate efficiency interpolation and reliable $1\sigma$ error boundaries for level-scheme intensity balance calculations.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

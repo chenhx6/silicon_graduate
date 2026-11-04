@@ -1,0 +1,59 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Petrache (ed.) 专著第 16 章 Li & Chen 关于铯同位素链手征对称性演化、3DTAC-CDFT临界转动频率几何机制、手征同位素边界以及奇A核组态固定约束CDFT能面MchiD判据的全章精读与核验",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "chapter": 16,
+    "chapter_title": "Recent progress in nuclear chirality of cesium isotopes",
+    "author": "Jian Li and Duo Chen",
+    "scope": "Article pp.292-303 / physical PDF pp.311-322, full chapter text, equations, Table 16.1 and Figures 16.1-16.5",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/li-chen-cs-chiral-evolution-and-mchid-contract.md",
+      "reason": "3DTAC-CDFT self-consistent angles, critical frequency omega_crit decrease mechanism, Cs isotopic chiral boundaries (120,134Cs), odd-A 3-qp chiral configurations, and configuration-fixed CDFT PES MchiD criteria"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "updated Chapter 16 status to full chapter verification and registered claims CW-43 to CW-47"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Li-Chen Cs chiral evolution and MchiD method contract"
+    },
+    {
+      "path": "knowledge/concepts/multiple-chiral-doublets-and-chiral-parity-quartets.md",
+      "reason": "linked configuration-fixed constrained CDFT MchiD PES criteria in odd-A Cs isotopes"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.312 Figure 16.1 (Chiral and MchiD map in A~130)",
+    "PDF p.314 Figure 16.2 (Rotational excitation energies in 120-134Cs by 3DTAC-CDFT)",
+    "PDF p.315 Figure 16.3 (B(M1)/B(E2) ratios vs spin)",
+    "PDF p.316 Figure 16.4 (Polar angle theta and azimuth angle phi vs rotational frequency)",
+    "PDF p.318 Figure 16.5 (Constrained CDFT PES for 125, 127, 129, 131Cs)",
+    "PDF p.319 Table 16.1 (Deformations, configurations, and bandhead energies)"
+  ],
+  "claims": [
+    "3DTAC-CDFT self-consistently determines rotational angles, defining chiral critical frequency omega_crit via the bifurcation of azimuth angle phi from zero to non-zero.",
+    "Critical frequency omega_crit decreases monotonically with neutron number due to (gd) and (sd) neutrons shifting angular momentum from short/long axes to the collective medium axis.",
+    "Boundary isotopes 120Cs and 134Cs maintain phi = 0 throughout experimentally accessible spins, establishing the natural isotopic boundaries of chirality in the Cs chain.",
+    "Configuration-fixed constrained CDFT proves 125,129,131Cs possess two distinct triaxial minima (gamma ~ 13-26 deg) supporting MchiD, while 127Cs is excluded from A1/A2 MchiD due to near-axial prolate shape (gamma = 0.8 deg).",
+    "119Cs demonstrates pure proton chirality based on pi g9/2^-1 (x) pi h11/2^2, and 126Cs demonstrates odd-odd MchiD based on the same 2-quasiparticle configuration."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded full-chapter text and figure unit",
+    "remaining_queue": "Remaining chapters of Petrache (ed.) book remain queued according to the chapter map",
+    "boundary": [
+      "3DTAC-CDFT is a mean-field theory that does not yield discrete quantum energy splitting without collective Hamiltonian restoration",
+      "Semiclassical B(M1)/B(E2) ratios do not reproduce discrete S-symmetry odd-even staggering",
+      "Triaxial minima on static PES require dynamical gamma-softness checks to confirm rigid rotation"
+    ]
+  }
+}

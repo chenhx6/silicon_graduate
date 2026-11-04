@@ -1,0 +1,59 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Petrache (ed.) 专著第 9 章 Zhao 等关于含时协变密度泛函理论（TD-CDFT）核手征动力学、手征进动相空间闭合轨迹、时域傅里叶谱提取激发能E*(I)、超临界双阱分岔量子势垒穿隧以及135Nd正负宇称MchiD双重带全微观能谱再现的全章精读与核验",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "chapter": 9,
+    "chapter_title": "Nuclear chiral dynamics within time dependent covariant density functional theory",
+    "author": "Bo Li and Peng-Wei Zhao",
+    "scope": "Article pp.185-202 / physical PDF pp.204-221, full chapter text, equations, and Figures 9.1-9.16",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/zhao-tdcdft-chiral-precession-and-tunneling-contract.md",
+      "reason": "3D TD-CDFT and 3DTAC-CDFT microscopic framework, chiral precession elliptic phase space orbits, Fourier spectral excitation energy extraction, supercritical double-well bifurcation and quantum tunneling, and 135Nd MchiD energy spectra"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "updated Chapter 9 status to full chapter verification, registered claims CW-58 to CW-62 and updated PETR-5"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Zhao TD-CDFT chiral dynamics method contract"
+    },
+    {
+      "path": "knowledge/concepts/chiral-vibrational-tunneling-and-double-well-splitting.md",
+      "reason": "linked 3D TD-CDFT microscopic chiral tunneling and precession dynamics"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.208 Figure 9.1 (I=19/2h trajectories on energy surface, time evolutions, and Fourier spectral powers)",
+    "PDF p.211 Figure 9.4 (I=25/2h trajectories and spectral powers)",
+    "PDF p.213 Figure 9.6 (I=29/2h softening trajectories) and Figure 9.7 (I=31/2h supercritical bifurcation and double-well tunneling)",
+    "PDF p.214 Figure 9.8 (I=27/2h negative-parity configuration trajectories)",
+    "PDF p.219 Figure 9.15 (I=41/2h trajectories) and Figure 9.16 (135Nd chiral doublet bands excitation energies vs experiment)",
+    "PDF p.220 bibliography"
+  ],
+  "claims": [
+    "TD-CDFT in 3D coordinate space tracks real-time non-linear evolution of single-particle Dirac spinors under PC-PK1 without spatial symmetry restrictions.",
+    "Chiral precession manifests as closed elliptic trajectories of (theta_J, phi_J) on the total energy surface around the tilted axis in the (s-l) plane.",
+    "Fourier spectral analysis of theta_J(t) and phi_J(t) oscillations directly extracts the chiral partner band excitation energy E*(I) in the harmonic limit without phenomenological rotor parameter tuning.",
+    "At critical spin I=31/2h in 135Nd, the energy surface undergoes supercritical pitchfork bifurcation into twin degenerate chiral minima separated by a barrier at phi_J=0, demonstrating static chirality below the barrier and quantum tunneling across the barrier.",
+    "TD-CDFT combined with static 3DTAC-CDFT self-consistently reproduces both positive- and negative-parity chiral doublet bands in 135Nd without any adjustable parameters beyond PC-PK1."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded full-chapter text and figure unit",
+    "remaining_queue": "Remaining chapters of Petrache (ed.) book remain queued according to the chapter map",
+    "boundary": [
+      "TD-CDFT single-determinant trajectory does not directly yield quantum parity-chiral eigenstates without GCM path requantization",
+      "Fourier extraction assumes stationary precession and does not treat non-adiabatic dissipative decays",
+      "Dynamic pairing fluctuations beyond mean field are not included, introducing possible uncertainties at low spins"
+    ]
+  }
+}

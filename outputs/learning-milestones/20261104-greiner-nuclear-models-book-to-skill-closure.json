@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-11-04",
+  "task": "greiner-nuclear-models-book-to-skill-delivery",
+  "sources": [
+    {
+      "title": "Nuclear Models",
+      "author": "Walter Greiner & Joachim A. Maruhn",
+      "path": "raw/books/Nuclear Models (Walter Greiner, Joachim A. Maruhn) (Z-Library).pdf",
+      "sha256": "db5e43efaa80877822540bf0caae9be93d54d5499c5df89faae69769e6f77091",
+      "archive_required": true,
+      "raw_unchanged": true
+    }
+  ],
+  "skill_root": ".agents/skills/greiner-nuclear-models",
+  "skill_files": [
+    ".agents/skills/greiner-nuclear-models/SKILL.md",
+    ".agents/skills/greiner-nuclear-models/glossary.md",
+    ".agents/skills/greiner-nuclear-models/patterns.md",
+    ".agents/skills/greiner-nuclear-models/cheatsheet.md",
+    ".agents/skills/greiner-nuclear-models/chapters/ch01-liquid-drop-and-geometric-shapes.md",
+    ".agents/skills/greiner-nuclear-models/chapters/ch06-davydov-filippov-asymmetric-rotor.md",
+    ".agents/skills/greiner-nuclear-models/chapters/ch06-giant-resonances-gt-and-sj.md",
+    ".agents/skills/greiner-nuclear-models/chapters/ch06-rotation-vibration-model-rvm.md",
+    ".agents/skills/greiner-nuclear-models/chapters/ch06-scissors-mode-and-generalized-collective.md",
+    ".agents/skills/greiner-nuclear-models/chapters/ch06-wilets-jean-gamma-soft-model.md"
+  ],
+  "chapter_count": 6,
+  "study_focus": [
+    "collective quadrupole deformation surface and Hill-Wheeler coordinates",
+    "Davydov-Filippov asymmetric rigid rotor model and D2 symmetry",
+    "exact algebraic energy levels and three-state sum rule E(2_1)+E(2_2)=E(3_1)",
+    "E2 branching ratio B(E2; 2_2->0_1)/B(E2; 2_2->2_1) and gamma deformation angle inversion",
+    "Faessler-Greiner rotation-vibration model (RVM) and Pauli-Podolsky quantization",
+    "Wilets-Jean gamma-unstable soft core model and O(5) dynamical symmetry",
+    "staggering index S(J) for discriminating rigid triaxiality from gamma-softness",
+    "two-rotor scissors mode M1 collective excitation and symmetry energy restoration",
+    "giant multipole resonances: Goldhaber-Teller vs Steinwedel-Jensen and IVGDR deformation splitting"
+  ],
+  "evidence_boundary": "AI-generated skill extraction and cross-linking; chapter locators are study navigation aids and do not replace page-level human review for publication claims.",
+  "status": "complete"
+}

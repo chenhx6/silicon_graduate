@@ -11,7 +11,9 @@ tags: [triaxiality, non-adiabatic-rotor, band-mixing, alaga-rule, davydov-rostov
 
 # Davydov-Rostovsky non-adiabatic triaxial rotor beta- and gamma-band mixing, Mikhailov expansion and Alaga rule deviation
 
-## Definition and Phenomenological Origin
+## Definition
+
+### Definition and Phenomenological Origin
 
 In the adiabatic rotor limit (Alaga rule), interband electromagnetic transitions connecting vibrational bands to the ground-state rotational band depend solely on geometry (Clebsch-Gordan coefficients):
 $$\frac{B(E2; 2_\gamma^+ \to 0_g^+)}{B(E2; 2_\gamma^+ \to 2_g^+)} = \frac{\langle 2 2 2 -2 | 0 0 \rangle^2}{\langle 2 2 2 -2 | 2 0 \rangle^2} = \frac{7}{10} = 0.700$$
@@ -63,3 +65,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py rostovsky --preset rigid_rot
 - Inverts mixing parameter $z_\gamma = +0.04228$;
 - Rotation-vibration coupling matrix element $h_2 = 16.64\text{ keV}$, softness parameter $\mu = 0.6494$;
 - Accurately predicts $B(E2; 2_\gamma \to 4_g) / B(E2; 2_\gamma \to 2_g) = 0.0629$ (matching experiment).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

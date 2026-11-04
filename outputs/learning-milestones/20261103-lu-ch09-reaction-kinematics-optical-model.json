@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-03",
+  "source": "raw/books/原子核物理（修订版） (卢希庭江栋兴叶沿林) (Z-Library).pdf",
+  "source_sha256": "a47c26b77283b871529633dc87b6b7def412f715ed66889e373ab69100147d02",
+  "reading_status": "bounded visual verification and knowledge writeback; not chapter completion",
+  "scope": {
+    "pdf_pages": [
+      [237, 244],
+      [263, 269],
+      [291, 292]
+    ],
+    "printed_pages": [
+      [227, 234],
+      [253, 259],
+      [281, 282]
+    ],
+    "sections": ["9.1", "9.2", "9.3", "9.7", "9.8", "9.11"]
+  },
+  "visual_checks": [
+    {
+      "pdf_page": 237,
+      "printed_page": 227,
+      "objects": ["chapter title", "reaction definition", "first reaction notation"]
+    },
+    {
+      "pdf_page": 239,
+      "printed_page": 229,
+      "objects": ["reaction channels", "conservation-law introduction"]
+    },
+    {
+      "pdf_page": 243,
+      "printed_page": 233,
+      "objects": ["Q-value example", "residual excitation-energy example", "section 9.3 heading"]
+    },
+    {
+      "pdf_page": 244,
+      "printed_page": 234,
+      "objects": ["laboratory/center-of-mass coordinates", "reduced mass", "relative kinetic energy"]
+    },
+    {
+      "pdf_page": 264,
+      "printed_page": 254,
+      "objects": ["cross-section decomposition", "section 9.8 heading"]
+    },
+    {
+      "pdf_page": 265,
+      "printed_page": 255,
+      "objects": ["complex square-well optical potential", "imaginary-part attenuation"]
+    },
+    {
+      "pdf_page": 269,
+      "printed_page": 259,
+      "objects": ["partial-wave absorption cross section", "compound-nucleus cutoff"]
+    },
+    {
+      "pdf_page": 291,
+      "printed_page": 281,
+      "objects": ["heavy-ion total-cross-section decomposition", "classical grazing/angular-momentum formulas"]
+    }
+  ],
+  "writeback": [
+    "knowledge/concepts/lu-nuclear-reaction-kinematics-optical-model.md",
+    "knowledge/sources/book-lu-nuclear-physics-chinese.md",
+    "knowledge/index.md"
+  ],
+  "evidence_boundary": "OCR was used for navigation. Formula and diagram claims in the new concept page are limited to the listed rendered-page checks. No full-section or full-book completion credit is assigned.",
+  "next": [
+    "Audit the existing heavy-ion kinematics and optical-model scripts against evaluated-mass and energy-loss inputs.",
+    "Continue Lu chapter 8 Nilsson/high-spin pages and chapter 9 compound-nucleus/Breit-Wigner details only after page-image checks.",
+    "Crosswalk the Lu reaction terminology with Lin heavy-ion reactions and the Wu experimental-methods channel-selection workflow."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "核对低能库仑激发文章的安全距离、多步/重取向、四极不变量和壳模型实验接口",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "scope": "Rocchini/Zielinska article physical PDF pp.186-203 / article pp.175-192 formalism and selected examples",
+    "evidence_route": "native text extraction with formula and figure navigation"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/low-energy-coulomb-excitation-shell-model-contract.md",
+      "reason": "Coulomb-excitation safety, interference, reorientation, invariants and experiment design"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the low-energy Coulomb-excitation method"
+    }
+  ],
+  "source_locators": [
+    "Article pp.175-178 / physical PDF pp.186-189, basics and first/higher-order effects",
+    "Article pp.178-180 / physical PDF pp.189-191, reorientation and quadrupole invariants",
+    "Article pp.180-192 / physical PDF pp.191-203, shell-model relevant shape/coexistence examples"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded partial article unit",
+    "remaining_queue": "article continuation and 11 other special-issue articles remain queued",
+    "boundary": [
+      "shape parameters require complete matrix-element/sign contracts",
+      "multi-step and reorientation effects are response-model terms",
+      "one B(E2) or Qs cannot uniquely identify a rigid triaxial shape"
+    ]
+  }
+}

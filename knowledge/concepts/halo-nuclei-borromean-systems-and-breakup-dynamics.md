@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [halo-nuclei, borromean-systems, breakup-reactions, momentum-distribution, soft-e1-resonance, glauber-theory, drip-line]
+tags: [halo-nuclei, borromean-systems, breakup-reactions, momentum-distribution, soft-e1-resonance, glauber-theory, drip-line]
 ---
 
 # 中子晕核（Halo Nuclei）、Borromean三体体系与破裂反应动量分布动力学
 
-## 1. 物理全景：滴线量子隧穿与极端弥散空间核结构
+## Definition
+
+### 物理全景：滴线量子隧穿与极端弥散空间核结构
 
 在远离 $\beta$ 稳定线的极其丰中子极限区（中子滴线附近），原子核的最后单核子或双核子结合能急剧趋近于零（$S_n, S_{2n} \ll 1\text{ MeV}$）。
 
@@ -29,7 +31,9 @@ topics: [halo-nuclei, borromean-systems, breakup-reactions, momentum-distributio
 
 ---
 
-## 2. 破裂反应动量分布：Serber 近似与 Hansen-Jonson 渐近标度律
+## Necessary Assumptions
+
+### 破裂反应动量分布：Serber 近似与 Hansen-Jonson 渐近标度律
 
 ### (1) 突发近似（Sudden Approximation）与动量映射
 在高能外周反应（如 $E_{\text{lab}} \sim 400 \sim 800\text{ MeV/u}$）下，晕核穿过靶核时，强核作用将晕中子剥离（Breakup），而核芯碎块（Core Fragment，如 $^{11}\text{Li}$ 反应中的 $^{9}\text{Li}$）在极短时间内飞出靶区。
@@ -56,7 +60,13 @@ $$\Gamma_{\text{FWHM}} = 2 \sqrt{\sqrt{2} - 1} \cdot \alpha = 2 \sqrt{\sqrt{2} -
 
 ---
 
-## 3. 巨电偶极软模式（Soft E1 Dipole Mode）与结团求和定则
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 巨电偶极软模式（Soft E1 Dipole Mode）与结团求和定则
 
 在稳定核中，巨偶极共振（GDR）发生在 $E_x \sim 15 \sim 25\text{ MeV}$，表现为全体质子流与全体中子流的反相宏观体振动。
 
@@ -107,3 +117,18 @@ $$\Gamma_{\text{FWHM}} = 2 \sqrt{\sqrt{2} - 1} \cdot \alpha = 2 \sqrt{\sqrt{2} -
 4. **Bertulani, C. A. & Danielewicz, P.** (2004). *Introduction to Nuclear Reactions*, Chapter 11 (Breakup of halo nuclei). CRC Press.
 5. **Heyde, K.** (2004). *Basic Ideas and Concepts in Nuclear Physics* (3rd Edition), Chapter 15 (Weakly bound quantum systems and exotic nuclei). CRC Press.
 6. **叶沿林、卢希庭、江栋兴** (2000). 《原子核物理（修订版）》第 10 章：放射性核束物理与晕核. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

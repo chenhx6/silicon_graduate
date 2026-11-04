@@ -1,0 +1,33 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "核对Gorska 100Sn邻域文章的N=50壳结构、高自旋、反应生产和gamma谱学接口",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "scope": "Gorska article selected sections, article pp.223-242 / physical PDF pp.234-253",
+    "evidence_route": "native text extraction with reaction and level-scheme navigation"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/sn100-region-highspin-spectroscopy-contract.md",
+      "reason": "100Sn region shell-model, high-spin, isomer and experimental-production contract"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the 100Sn high-spin spectroscopy method"
+    }
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded partial article unit",
+    "remaining_queue": "article continuation and remaining special-issue articles remain queued",
+    "boundary": [
+      "high-spin assignments require reaction-channel and feeding control",
+      "g9/2 seniority is a model organization, not a universal wavefunction identity",
+      "100Sn-region shape and isomer claims require lifetimes, Qs, g factors and electromagnetic data"
+    ]
+  }
+}

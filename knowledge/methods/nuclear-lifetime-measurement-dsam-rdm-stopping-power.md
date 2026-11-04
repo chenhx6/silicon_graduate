@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "核激发态寿命测量全指南：DSAM、RDM活塞法与介质阻止本领反演"
 aliases: [核寿命测量指南, DSAM多普勒衰减法, RDM活塞法, 介质阻止本领, 寿命线形反演]
 created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [nuclear-lifetimes, dsam, rdm-plunger, stopping-power, srim, doppler-lineshape]
+tags: [nuclear-lifetimes, dsam, rdm-plunger, stopping-power, srim, doppler-lineshape]
 ---
 
 # 核激发态寿命测量全指南：DSAM、RDM活塞法与介质阻止本领反演
 
-## 1. 物理测量视界与时间尺度分段
+## Purpose
+
+### 物理测量视界与时间尺度分段
 
 激发态寿命 $\tau$（或半衰期 $T_{1/2} = \tau \ln 2$）是直接提取核波函数内禀四极矩 $Q_t$、形变参量 $\beta_2$、减缩电磁跃迁几率 $B(E2)$ 和 $B(M1)$ 的最纯净物理可观测量。
 
@@ -30,7 +33,9 @@ topics: [nuclear-lifetimes, dsam, rdm-plunger, stopping-power, srim, doppler-lin
 
 ---
 
-## 2. 反冲距离多普勒法（RDM / Plunger 活塞法：$1\text{ ps} \sim 1\text{ ns}$）
+## Inputs and Assumptions
+
+### 反冲距离多普勒法（RDM / Plunger 活塞法：$1\text{ ps} \sim 1\text{ ns}$）
 
 ### (1) 实验装置几何与物理原理
 靶室由安装在超高精度压电驱动器（Piezoelectric controller）上的**自支撑薄靶箔（Thin Target）**和其后方的**重金属停阻箔（Stopper Foil, 如金或铅）**构成。
@@ -48,7 +53,13 @@ $$R_0(d) = \frac{I_{\text{stopped}}(d)}{I_{\text{stopped}}(d) + I_{\text{shifted
 
 ---
 
-## 3. 多普勒频移衰减法（DSAM：$10\text{ fs} \sim 1\text{ ps}$）
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 多普勒频移衰减法（DSAM：$10\text{ fs} \sim 1\text{ ps}$）
 
 ### (1) 介质阻止本领（Stopping Power）微观物理
 在 DSAM 实验中，采用在薄靶背面直接蒸镀厚金属衬底（厚度足以完全停阻反冲核，通常 $>10\text{ mg/cm}^2$ 的 Au, Pb 或 Ta）的“带衬靶”。
@@ -81,3 +92,9 @@ $$B(M1; I \to I-1) = \frac{0.05679 \cdot b_\gamma}{\tau(\text{ps}) \cdot E_\gamm
 在转动带内部，内禀四极矩 $Q_t$ 由轴对称或三轴转动投影公式给出：
 $$B(E2; I \to I-2) = \frac{5}{16\pi} e^2 Q_t^2 \cdot (C_{I K 2 0}^{I-2, K})^2$$
 由此解出的 $Q_t$ 直接决定了原子核的真实宏观四极形变 $\beta_2 \approx \frac{\sqrt{5\pi}}{3 Z R_0^2} Q_t$，完成了从在束微观能谱测量到原子核几何形貌的终极闭环！
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

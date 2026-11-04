@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [giant-resonances, ivgdr, isgqr, scissors-mode, pdr, deformation-splitting, landau-damping]
+tags: [giant-resonances, ivgdr, isgqr, scissors-mode, pdr, deformation-splitting, landau-damping]
 ---
 
 # 巨多极共振动力学、形变劈裂与微观阻尼机制
 
-## 1. 物理全景：核多体系统的高频集体振荡
+## Definition
+
+### 物理全景：核多体系统的高频集体振荡
 
 低能核物理中的转动与低能表面声子振动属于外层价核子的低频激发（$E_x \sim 0.1 \sim 2\text{ MeV}$）。当激发能升高至 $10 \sim 30\text{ MeV}$ 时，原子核内**全体核子（$A$ 个核子）协同参与**相干的高频多极振荡，形成强烈的吸光截面共振峰——**巨多极共振（Giant Multipole Resonances, GMR）**。
 
@@ -19,7 +21,9 @@ topics: [giant-resonances, ivgdr, isgqr, scissors-mode, pdr, deformation-splitti
 
 ---
 
-## 2. 核心巨共振分类与唯象流体动力学
+## Necessary Assumptions
+
+### 核心巨共振分类与唯象流体动力学
 
 ```
                          【原子核巨多极共振谱系】
@@ -51,7 +55,13 @@ topics: [giant-resonances, ivgdr, isgqr, scissors-mode, pdr, deformation-splitti
 
 ---
 
-## 3. 巨共振微观微扰论与阻尼机制（Damping Mechanisms）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 巨共振微观微扰论与阻尼机制（Damping Mechanisms）
 
 巨共振具有高达几兆电子伏（$\Gamma \approx 4 \sim 8\text{ MeV}$）的总表观宽度。微观多体理论（RPA 及其扩展）将阻尼分为三个微观物理阶段：
 
@@ -61,3 +71,18 @@ topics: [giant-resonances, ivgdr, isgqr, scissors-mode, pdr, deformation-splitti
    共振态能量位于连续态阈值以上，$1p\text{-}1h$ 态直接向连续态发射核子（直接衰变），在重核中贡献较小（$<10\%$）；
 3. **复合扩散宽（Spreading Width, $\Gamma^\downarrow$）**：
    巨共振阻尼的最主要机制（占总宽度的 $>90\%$）。二体剩余相互作用通过核子-核子硬碰撞与低能表面声子耦合，将简正的 $1p\text{-}1h$ 集体态逐级级联耗散到更复杂的 $2p\text{-}2h$、$3p\text{-}3h$ 组态，最终热化为复合核致密的混沌多体本征态。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

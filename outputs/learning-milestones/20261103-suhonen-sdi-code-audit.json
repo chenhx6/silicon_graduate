@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-03",
+  "source": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+  "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+  "reading_status": "bounded visual equation audit and implementation correction; not full chapter completion",
+  "source_scope": {
+    "chapter": "8",
+    "printed_pages": [213, 217],
+    "physical_pdf_pages": [228, 232],
+    "equations": ["8.50", "8.51", "8.52", "8.53", "8.54", "8.55", "8.56", "8.57", "8.58", "8.59", "8.60", "8.61", "8.62", "8.65", "8.66", "8.67", "8.68", "8.70", "8.71", "8.72"]
+  },
+  "visual_checks": [
+    {
+      "physical_pdf_page": 230,
+      "printed_page": 215,
+      "objects": ["separable interaction", "SDI radial integral", "A_abcd", "K_abcd"]
+    },
+    {
+      "physical_pdf_page": 231,
+      "printed_page": 216,
+      "objects": ["3j products", "like-nucleon SDI Eq. 8.66", "isospin entry"]
+    },
+    {
+      "physical_pdf_page": 232,
+      "printed_page": 217,
+      "objects": ["T=0/T=1 Eq. 8.68", "constant-strength Eq. 8.70", "single-orbital special cases"]
+    }
+  ],
+  "implementation_change": {
+    "module": "system/scripts/analysis/surface_delta_interaction_pandya_calculator.py",
+    "changes": [
+      "added an explicit Wigner-3j helper through the exact Clebsch-Gordan routine",
+      "replaced the single-j-only SDI shortcut with the like-nucleon exchange-phase and parity-factor structure",
+      "kept the public V0 normalization tied to E(J=0)=-V0*(j+1/2)",
+      "added an explicit K_abcd entry point corresponding to the Eq. (8.62) coefficient",
+      "added the schematic proton-neutron T=0/T=1 Eq. (8.68) entry point with table anchors",
+      "kept full radial wavefunction, MSDI and finite-core extensions outside the baseline"
+    ]
+  },
+  "tests": [
+    "single-j f7/2 J=0 and J=2 benchmark",
+    "non-identical-orbital exchange phase from Eq. (8.30)",
+    "0d-1s T=0/T=1 table anchors from Suhonen Table 8.2",
+    "explicit K_abcd radial-coefficient normalization",
+    "Pandya P^2 involution",
+    "complete analysis regression suite"
+  ],
+  "status": "passed",
+  "writeback": [
+    "knowledge/concepts/two-body-residual-interaction-surface-delta-and-pandya.md",
+    "system/scripts/analysis/surface_delta_interaction_pandya_calculator.py",
+    "system/scripts/analysis/test_analysis_suite.py"
+  ],
+  "evidence_boundary": "The implementation now covers the like-nucleon Eq. (8.66) structure, an explicit K_abcd coefficient path and the schematic Eq. (8.68) T=0/T=1 path. It does not certify full radial wavefunctions, MSDI/finite-core interactions, or A~130 triaxial calculations."
+}

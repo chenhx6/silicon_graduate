@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-11-04",
+  "task": "mathematica-understanding-and-raw-books-identity-closure",
+  "source_files": [
+    {
+      "path": "raw/books/MathProgrammingIntro.pdf",
+      "sha256": "43c24ec835b7ad38ee7a4c4a4263f1afc6d6b2812ed764a734980525db8db107",
+      "raw_unchanged": true
+    },
+    {
+      "path": "raw/books/Mathematica Cookbook.pdf",
+      "sha256": "e0db550c74888adf211725140f3c8549cdfc85aff79f279b1eeb1eb00de2a37d",
+      "raw_unchanged": true
+    },
+    {
+      "path": "raw/books/Spontaneous symmetry breaking in rotating nuclei_Frauendorf.pdf",
+      "sha256": "d43c7290cf5899ebc9b94324af5e95eb40e488bacf1c70c89e0b3bd61d916172",
+      "raw_unchanged": true
+    },
+    {
+      "path": "raw/books/translations/Nuclear_Structure_From_A_Simple_Perspective_中文译本_A4_电脑阅读版.pdf",
+      "sha256": "7734ad29785df190e6690d48aea77e087b83ea7e378dcb7d75e1c40f88bf1a99",
+      "raw_unchanged": true
+    }
+  ],
+  "writeback_files": [
+    "knowledge/sources/book-shifrin-mathematica-programming-advanced-introduction.md",
+    "knowledge/sources/book-mangano-mathematica-cookbook.md",
+    "knowledge/sources/book-frauendorf-spontaneous-symmetry-breaking-rotating-nuclei-copy.md",
+    "knowledge/sources/book-casten-nuclear-structure-simple-perspective-chinese-translation.md",
+    "knowledge/methods/mathematica-to-python-nuclear-analysis-bridge.md"
+  ],
+  "scope": {
+    "mathprogramming": "skimmed locator-bounded study of expression trees, evaluation, rules, patterns, lists, functional programming, structural performance and modularization",
+    "mathematica_cookbook": "skimmed locator-bounded study of numerics, functional programming, data structures, patterns, calculus, statistics, science/engineering, parallelism and testing",
+    "duplicates": "Casten Chinese reading edition and Frauendorf RMP raw/books copy registered as non-independent identities"
+  },
+  "python_policy": "Future formal nuclear calculations use Python; Mathematica material supplies transferable design ideas only.",
+  "evidence_boundary": "No full-page reading credit is awarded to either Mathematica book or duplicate PDF. Version-specific Mathematica behavior requires current documentation and executable verification.",
+  "status": "bounded-complete"
+}

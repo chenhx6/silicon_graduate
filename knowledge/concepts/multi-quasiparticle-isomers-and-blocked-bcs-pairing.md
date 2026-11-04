@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [multi-quasiparticle-states, blocked-bcs, pairing-gap-quenching, high-k-isomers, k-isomerism, condensation-energy, seniority, nuclear-structure]
+tags: [multi-quasiparticle-states, blocked-bcs, pairing-gap-quenching, high-k-isomers, k-isomerism, condensation-energy, seniority, nuclear-structure]
 ---
 
 # 多准粒子态组态能量、自洽阻塞BCS对隙淬灭与高K同质异能态动力学
 
-## 1. 物理全景：配对关联的相变与多核子高K激发构型
+## Definition
+
+### 物理全景：配对关联的相变与多核子高K激发构型
 
 在轴对称变形核（尤其在稀土区 $A \approx 180$ 与缺中子区 $A \approx 130$）的高自旋能谱演化中，基态表现为单极配对的零准粒子（0qp）BCS 超流凝聚相，所有核子均配对为具有时间反演对称的克喇默斯共轭对（Kramers pairs），净自旋在对称轴投影为 $K=0$。
 然而，当实验通过重离子熔合反应或库仑激发输入巨大能量与角动量时，多个 Cooper 对相继断裂（Breaking of Pairs），退偶联出两个（2qp）、四个（4qp）乃至六个（6qp）未配对核子。
@@ -29,7 +31,9 @@ topics: [multi-quasiparticle-states, blocked-bcs, pairing-gap-quenching, high-k-
 
 ---
 
-## 2. 严格物理推导与自洽阻塞方程
+## Necessary Assumptions
+
+### 严格物理推导与自洽阻塞方程
 
 ### (1) 阻塞 BCS 间隙方程（Blocked Gap Equation）
 设 $M$ 个准粒子占据特定的轨道集合 $\{k_b\}_{b=1}^M$。对于这些阻塞轨道，由于被单核子占据，不能参与库珀对跃迁，占据几率被硬性冻结。
@@ -70,7 +74,13 @@ $$f_\nu = \left( \frac{T_{1/2}^\gamma}{T_{1/2}^{\text{Weisskopf}}} \right)^{1/\n
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/multi_quasiparticle_blocked_bcs_calculator.py`
@@ -92,7 +102,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py mqp \
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[nuclear-k-isomers-and-hindrance-systematics]]：本模块计算的组态能量与对隙正是分析 $K$-同质异能素存在性与寿命的底层微观微扰源；
 - [[gallagher-moszkowski-rules-and-newby-shifts]]：GM 定则中质子与中子轨道自旋平行与反平行的能量差，直接构成此处多准粒子两体剩余能量 $\Delta E_{\text{residual}}$ 的主要来源；
 - [[rotational-band-termination-and-cns-dynamics]]：当准粒子数达到价核子极值时，多准粒子带最终走向能带终止（Band Termination）。

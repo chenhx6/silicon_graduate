@@ -1,0 +1,122 @@
+{
+  "schema": "casten-bounded-reading-receipt-v1",
+  "date": "2026-11-02",
+  "source": "raw/books/Nuclear Structure From A Simple Perspective Casten.pdf",
+  "raw_sha256": "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9",
+  "scope": {
+    "ch02": {
+      "physical_pdf": [
+        43,
+        59
+      ],
+      "printed": [
+        28,
+        45
+      ],
+      "status": "bounded-review",
+      "focus": [
+        "separation energies",
+        "magic numbers",
+        "E(2+1)",
+        "R4/2",
+        "B(E2)"
+      ]
+    },
+    "ch03": {
+      "physical_pdf": [
+        62,
+        81
+      ],
+      "printed": [
+        47,
+        66
+      ],
+      "status": "bounded-review",
+      "focus": [
+        "central potential",
+        "l2 term",
+        "spin-orbit",
+        "unique-parity"
+      ]
+    },
+    "ch04": {
+      "physical_pdf": [
+        82,
+        123
+      ],
+      "printed": [
+        67,
+        108
+      ],
+      "status": "bounded-review",
+      "focus": [
+        "delta interaction",
+        "J=0 pairing",
+        "multipole decomposition",
+        "particle-hole"
+      ]
+    },
+    "ch05": {
+      "physical_pdf": [
+        124,
+        153
+      ],
+      "printed": [
+        109,
+        137
+      ],
+      "status": "bounded-review",
+      "focus": [
+        "m-scheme",
+        "CFP",
+        "seniority",
+        "B(E2)",
+        "pairing gap",
+        "ARC"
+      ]
+    }
+  },
+  "rendered_formula_pages": [
+    {
+      "physical_pdf": 136,
+      "printed": 121,
+      "objects": [
+        "Eq. (5.13)",
+        "Eq. (5.14)",
+        "Eq. (5.15)",
+        "Eq. (5.16)"
+      ]
+    },
+    {
+      "physical_pdf": 137,
+      "printed": 122,
+      "objects": [
+        "Fig. 5.3",
+        "Eq. (5.17)"
+      ]
+    },
+    {
+      "physical_pdf": 138,
+      "printed": 123,
+      "objects": [
+        "Eq. (5.18)",
+        "Fig. 5.4 discussion"
+      ]
+    }
+  ],
+  "durable_outputs": [
+    "knowledge/concepts/casten-shell-model-pairing-and-collectivity-foundations.md",
+    ".agents/skills/casten-nuclear-structure/chapters/ch02-nuclear-landscape.md",
+    ".agents/skills/casten-nuclear-structure/chapters/ch03-independent-particle-model.md",
+    ".agents/skills/casten-nuclear-structure/chapters/ch04-two-particle-configurations.md",
+    ".agents/skills/casten-nuclear-structure/chapters/ch05-multiparticle-configurations.md"
+  ],
+  "evidence_boundary": "Direct source/model results, author interpretations and Wiki synthesis are separated. This is bounded reading, not whole-chapter or whole-book completion. Unrendered figures/tables/equations remain uncertified.",
+  "main_claims": [
+    "R4/2 and B(E2) systematics map shell-to-collective evolution",
+    "unique-parity orbitals are useful but model-dependent configuration benchmarks",
+    "short-range residual interaction lowers J=0 and pairing-plus-quadrupole separates pairing from deformation",
+    "seniority gives f(1-f) B(E2) and mid-shell quadrupole-moment sign change in the single-j limit",
+    "pair scattering produces quasiparticle gap and ARC level-density signature"
+  ]
+}

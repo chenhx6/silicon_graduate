@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [nilsson-model, deformed-shell-model, single-particle-energies, quadrupole-deformation, asymptotic-quantum-numbers, jacobi-diagonalization, intruder-orbitals]
+tags: [nilsson-model, deformed-shell-model, single-particle-energies, quadrupole-deformation, asymptotic-quantum-numbers, jacobi-diagonalization, intruder-orbitals]
 ---
 
 # Nilsson变形平均场壳模型、单粒子轨道对角化与能级演化动力学
 
-## 1. 物理全景：从球形 Mayer-Jensen 壳模型到轴对称变形核能谱
+## Definition
+
+### 物理全景：从球形 Mayer-Jensen 壳模型到轴对称变形核能谱
 
 在开壳层原子核中，多个价核子对核芯施加的四极长程相互作用压倒了对能配对倾向，驱使原子核打破空间转动不变性，自发产生宏观四极变形（轴对称长椭、扁椭或三轴形变）。
 球形平均场中高度简并的 $j$ 单粒子壳层被彻底撕裂，每个具有特定角动量投影 $\Omega$ 的时间反演克喇默斯（Kramers）双重态 $| \pm \Omega \rangle$ 获得了不同的空间能量移动。
@@ -33,7 +35,9 @@ topics: [nilsson-model, deformed-shell-model, single-particle-energies, quadrupo
 
 ---
 
-## 2. 严格数学表象与矩阵对角化
+## Necessary Assumptions
+
+### 严格数学表象与矩阵对角化
 
 ### (1) Nilsson 哈密顿量标准形式
 $$H = H_0 + H_\delta - 2 \kappa \hbar \omega_0 \mathbf{l} \cdot \mathbf{s} - \kappa \mu \hbar \omega_0 \left[ \mathbf{l}^2 - \frac{1}{2} N(N + 3) \right]$$
@@ -65,7 +69,13 @@ $$\mathbf{A}^{(k+1)} = \mathbf{R}^T \mathbf{A}^{(k)} \mathbf{R}$$
 
 ---
 
-## 3. 高自旋与闯入轨道（Intruder Orbitals）的决定性角色
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 高自旋与闯入轨道（Intruder Orbitals）的决定性角色
 
 在每个大壳 $N$ 中，由于极强的自旋-轨道吸引力（$-2\kappa \mathbf{l} \cdot \mathbf{s}$），具有最大角动量的态 $j = l + 1/2$（如 $N=4$ 壳层中的 $1g_{9/2}$，或 $N=5$ 中的 $1h_{11/2}$，以及 $N=6$ 中的 $1i_{13/2}$）被整体压入下方大壳层中，称为**唯一宇称闯入轨道（Intruder Orbitals）**。
 
@@ -93,7 +103,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py nilsson -N 4 -e 0.25 -A 130 
 
 ---
 
-## 5. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[collective-quadrupole-pes-and-gamma-softness]]：微观 Nilsson 单粒子能级求和与液滴势相结合，正是 Strutinsky 构造 5D 四极势能面（PES）的核心输入；
 - [[chiral-geometry-tilted-axis-cranking-and-aplanarity]]：手征三面体中短轴与长轴质子-中子矢量的微观来源完全由 Nilsson 轨道 $\Omega$ 决定；
 - [[gallagher-moszkowski-rules-and-newby-shifts]]：GM 规则中的 $\Omega [N n_z \Lambda]$ 渐近量子数即为此处解析推导的 Nilsson 表象。

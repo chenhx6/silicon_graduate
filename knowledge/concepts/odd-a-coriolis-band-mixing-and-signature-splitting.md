@@ -11,7 +11,9 @@ tags: [coriolis-mixing, odd-a-nuclei, signature-splitting, decoupling-parameter,
 
 # Odd-A deformed Coriolis band mixing, signature splitting and decoupling parameter
 
-## Definition and Theoretical Origin
+## Definition
+
+### Definition and Theoretical Origin
 
 In deformed odd-$A$ atomic nuclei (such as odd-neutron rare earths $^{159}\text{Dy}, ^{167}\text{Er}$ or odd-proton transitional nuclei $^{135}\text{Pr}, ^{169}\text{Tm}$), the odd valence nucleon moves in an axially deformed Nilsson potential with projection $K = \Omega$ along the symmetry axis.
 
@@ -75,9 +77,37 @@ $$S(I) = \frac{E(I) - E(I-1)}{2I}$$
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Bohr, A. & Mottelson, B. R.**: *Nuclear Structure*, Vol. II, Chapter 4 §4-3 (Perturbations of Rotational Motion, Coriolis Coupling), pp. 158–175.
 - **Lu Xiting (卢希庭)**: *Nuclear Physics (Revised Edition)* (《原子核物理（修订版）》), Atomic Energy Press (2000), Chapter 8 §8.6.
 - **Kerman, A. K.**: *Rotational perturbations in nuclei of odd mass*, Mat. Fys. Medd. Dan. Vid. Selsk. 30, no. 15 (1956).
 - **Stephens, F. S.**: *Coriolis effects and rotation-alignment in nuclei*, Rev. Mod. Phys. 47, 43–65 (1975).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

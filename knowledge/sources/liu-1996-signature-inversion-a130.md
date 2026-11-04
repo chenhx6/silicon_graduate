@@ -102,5 +102,5 @@ Liu *et al.* show that signature-inversion systematics and spin assignments are 
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| LU96-D21-1 | Liu 1996 系统学与微观模型确立 A≈130 奇奇核旋称反转推断阶梯边界：(1) 带头自旋指认依赖性：旋称量子数遵循 $lpha = I mod 2$，带头自旋 $I_0$ 的 $1\hbar$ 微调（如由 8 调至 9）会彻底对调 favored 与 unfavored 枝，使所谓“反转”完全受制于自旋交叉对账；(2) 玻尔—莫特森三轴形变非排他性：在严格轴对称长椭形变（$\gamma = 0^\circ$）下，Semmes-Ragnarsson 零程残余质子—中子（$p-n$）相互作用（$\Delta E_{pn} \sim 80	ext{ keV}$）足以在低自旋压低 unfavored 态，直到角动量增大到科里奥利退耦能克服 $p-n$ 势垒（$I_{	ext{inv}} pprox 12 - 16\hbar$）才恢复正常能序；(3) 翻转自旋随中子数线性增长（斜率达 $0.83\hbar/	ext{中子}$）反映了 $
+| LU96-D21-1 | Liu 1996 系统学与微观模型确立 A≈130 奇奇核旋称反转推断阶梯边界：(1) 带头自旋指认依赖性：旋称量子数遵循 $\alpha = I \bmod 2$，带头自旋 $I_0$ 的 $1\hbar$ 微调（如由 8 调至 9）会彻底对调 favored 与 unfavored 枝，使所谓“反转”完全受制于自旋交叉对账；(2) 玻尔—莫特森三轴形变非排他性：在严格轴对称长椭形变（$\gamma = 0^\circ$）下，Semmes-Ragnarsson 零程残余质子—中子（$p-n$）相互作用（$\Delta E_{pn} \sim 80	ext{ keV}$）足以在低自旋压低 unfavored 态，直到角动量增大到科里奥利退耦能克服 $p-n$ 势垒（$I_{	ext{inv}} \approx 12 - 16\hbar$）才恢复正常能序；(3) 翻转自旋随中子数线性增长（斜率达 $0.83\hbar/	ext{中子}$）反映了 $
 u h_{11/2}$ 壳层的逐渐填充。推断阶梯确立：严禁仅凭低自旋旋称反转断言负 $\gamma$ 三轴形变，确证反转与微观机制必须依赖绝对带头自旋测定与排他性模型对照。 | claim-boundary-audit | direct-and-derived | PRC 54, 719 pp.719-730; signature-inversion-audit-013.json | true |

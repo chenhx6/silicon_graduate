@@ -65,10 +65,26 @@ def calculate_hydrodynamic_inertias(
     Computes rotational constants A_k = hbar^2 / (2 * J_k) [keV]
     using Bohr-Mottelson hydrodynamic irrotational flow:
     J_k = 4 * B * beta_2^2 * sin^2(gamma - 2*pi*k / 3)
-    Returns (A1, A2, A3) in keV.
+
+    Returns the constants in the named Lund order ``(A_m, A_s, A_l)``.
+    For 0 <= gamma <= 30 degrees the raw k=(1,2,3) order already has
+    this meaning.  For 30 < gamma <= 60 degrees, the short and long
+    labels are exchanged before returning the tuple.  The returned order
+    therefore satisfies A_m <= A_s <= A_l, up to numerical regularization
+    at an axial endpoint.
     """
+    gamma_deg = float(gamma_deg)
+    beta2 = float(beta2)
+    hbar2_over_2B = float(hbar2_over_2B)
+    if not math.isfinite(gamma_deg) or not 0.0 <= gamma_deg <= 60.0:
+        raise ValueError("gamma_deg must lie in the Lund interval [0, 60].")
+    if not math.isfinite(beta2) or beta2 <= 0.0:
+        raise ValueError("beta2 must be finite and positive.")
+    if not math.isfinite(hbar2_over_2B) or hbar2_over_2B <= 0.0:
+        raise ValueError("hbar2_over_2B must be finite and positive.")
+
     gamma_rad = math.radians(gamma_deg)
-    A_list = []
+    raw = []
 
     for k in (1, 2, 3):
         angle = gamma_rad - (2.0 * math.pi * k / 3.0)
@@ -76,10 +92,150 @@ def calculate_hydrodynamic_inertias(
         denom = 4.0 * (beta2 ** 2) * (sin_val ** 2)
         if denom < 1e-4:
             denom = 1e-4
-        A_k = hbar2_over_2B / denom
-        A_list.append(A_k)
+        raw.append(hbar2_over_2B / denom)
 
-    return A_list[0], A_list[1], A_list[2]
+    if gamma_deg <= 30.0:
+        return raw[0], raw[1], raw[2]
+    return raw[0], raw[2], raw[1]
+
+
+def hydrodynamic_inertia_contract(
+    gamma_deg: float,
+    beta2: float = 0.25,
+    hbar2_over_2B: float = 20.0,
+) -> Dict[str, Any]:
+    """Return named hydrodynamic inertias plus the axis-convention metadata."""
+    gamma_deg = float(gamma_deg)
+    A_m, A_s, A_l = calculate_hydrodynamic_inertias(
+        gamma_deg, beta2=beta2, hbar2_over_2B=hbar2_over_2B
+    )
+    tol = 1.0e-10 * max(1.0, abs(A_m), abs(A_s), abs(A_l))
+    if abs(A_m - A_s) <= tol:
+        A_m = A_s = 0.5 * (A_m + A_s)
+    if abs(A_s - A_l) <= tol:
+        A_s = A_l = 0.5 * (A_s + A_l)
+    if abs(gamma_deg) <= 1.0e-10:
+        axial_limit = "J_m = J_s (A_m = A_s)"
+    elif abs(gamma_deg - 60.0) <= 1.0e-10:
+        axial_limit = "J_s = J_l (A_s = A_l)"
+    elif abs(A_s - A_l) <= tol:
+        axial_limit = "J_s approximately J_l (near axial endpoint)"
+    else:
+        axial_limit = None
+
+    return {
+        "gamma_deg": gamma_deg,
+        "beta2": float(beta2),
+        "hbar2_over_2B": float(hbar2_over_2B),
+        "A_m_keV": A_m,
+        "A_s_keV": A_s,
+        "A_l_keV": A_l,
+        "raw_A1_A2_A3_keV": (
+            (A_m, A_s, A_l)
+            if gamma_deg <= 30.0
+            else (A_m, A_l, A_s)
+        ),
+        "axis_order": "A_m <= A_s <= A_l; J_m >= J_s >= J_l",
+        "raw_k_axis_mapping": (
+            "A_m=A1,A_s=A2,A_l=A3"
+            if gamma_deg <= 30.0
+            else "A_m=A1,A_s=A3,A_l=A2"
+        ),
+        "axial_limit": axial_limit,
+        "axis_permutation_applied": gamma_deg > 30.0,
+        "boundary": (
+            "Hydrodynamic irrotational-flow constants only; no inference of "
+            "gamma rigidity or experimental wobbling/chirality."
+        ),
+    }
+
+
+def calculate_bm_high_spin_asymmetric_rotor(
+    I: float,
+    A1: float,
+    A2: float,
+    A3: float,
+    n: int = 0,
+    Q0_eb: Optional[float] = None,
+    Q2_eb: Optional[float] = None,
+) -> Dict[str, Any]:
+    """Evaluate the BM-II Sec. 4-5e high-spin asymmetric-rotor benchmark.
+
+    The axis convention is explicit: ``A1 < A2 < A3`` means
+    ``J1 > J2 > J3``.  The returned frequency and energies are model
+    benchmarks; they do not identify an experimental wobbling or TiP mode.
+    """
+    I = float(I)
+    A1, A2, A3 = float(A1), float(A2), float(A3)
+    if not math.isfinite(I) or I <= 0.0:
+        raise ValueError("I must be finite and positive.")
+    if not all(math.isfinite(value) for value in (A1, A2, A3)):
+        raise ValueError("A1, A2 and A3 must be finite.")
+    if not (A1 < A2 < A3):
+        raise ValueError("BM-II convention requires A1 < A2 < A3.")
+    if not isinstance(n, int) or n < 0:
+        raise ValueError("n must be a nonnegative integer.")
+
+    omega = 2.0 * I * math.sqrt((A2 - A1) * (A3 - A1))
+    energy = A1 * I * (I + 1.0) + (n + 0.5) * omega
+    epsilon = (
+        (2.0 * n + 1.0) * (A2 + A3 - 2.0 * A1)
+        / (2.0 * I * math.sqrt((A3 - A1) * (A2 - A1)))
+    )
+    result: Dict[str, Any] = {
+        "I": I,
+        "n": n,
+        "A1_keV": A1,
+        "A2_keV": A2,
+        "A3_keV": A3,
+        "axis_convention": "A1 < A2 < A3; J1 > J2 > J3",
+        "hbar_omega_keV": omega,
+        "energy_keV": energy,
+        "harmonicity_indicator_epsilon": epsilon,
+        "small_amplitude_condition": "I^2 >> <I2^2 + I3^2>",
+        "approximation_status": (
+            "small-amplitude benchmark"
+            if epsilon < 0.3
+            else "check finite-spin corrections"
+        ),
+        "mode_inference": None,
+        "boundary": (
+            "BM-II Sec. 4-5e high-spin asymmetric rotor only; no quasiparticle, "
+            "feeding, detector response, or experimental mode classification."
+        ),
+    }
+
+    if Q0_eb is not None or Q2_eb is not None:
+        if Q0_eb is None or Q2_eb is None:
+            raise ValueError("Q0_eb and Q2_eb must be supplied together.")
+        Q0, Q2 = float(Q0_eb), float(Q2_eb)
+        if not math.isfinite(Q0) or not math.isfinite(Q2):
+            raise ValueError("Q0_eb and Q2_eb must be finite.")
+
+        alpha = (A2 + A3 - 2.0 * A1) * I
+        beta = (A2 - A3) * I
+        x = math.sqrt(0.5 * (alpha / omega + 1.0))
+        y = math.copysign(math.sqrt(max(0.0, 0.5 * (alpha / omega - 1.0))), beta)
+        prefactor = 5.0 / (16.0 * math.pi)
+        result["e2_operator_convention"] = (
+            "Q0 and Q2 are intrinsic moments relative to BM-II axis 1; "
+            "signs follow the displayed canonical transformation."
+        )
+        result["bogoliubov_x"] = x
+        result["bogoliubov_y"] = y
+        result["B_E2_delta_n_0_proxy_eb2"] = prefactor * Q2 * Q2
+        result["B_E2_delta_n_minus_1_proxy_eb2"] = (
+            prefactor * n / I * (math.sqrt(3.0) * Q0 * x - math.sqrt(2.0) * Q2 * y) ** 2
+        )
+        result["B_E2_delta_n_plus_1_proxy_eb2"] = (
+            prefactor * (n + 1.0) / I
+            * (math.sqrt(3.0) * Q0 * y - math.sqrt(2.0) * Q2 * x) ** 2
+        )
+        result["e2_strength_boundary"] = (
+            "Leading-order BM-II E2 proxies; finite-spin, particle-rotor and "
+            "experimental efficiency corrections are not included."
+        )
+    return result
 
 
 def davydov_filippov_energies_and_be2(gamma_deg: float, E2_1_keV: float = 100.0) -> Dict[str, Any]:
@@ -121,16 +277,48 @@ def davydov_filippov_energies_and_be2(gamma_deg: float, E2_1_keV: float = 100.0)
     else:
         be2_22_to_21_ratio = 0.0
 
+    branching_22_01_over_22_21 = (
+        round(be2_22_to_01_ratio / be2_22_to_21_ratio, 4)
+        if be2_22_to_21_ratio > 1e-6 else None
+    )
+
     return {
         "gamma_deg": gamma_deg,
         "E2_1_keV": E2_1_keV,
         "E2_2_keV": round(E2_2_keV, 2),
         "E4_1_keV": round(E4_1_keV, 2),
+        "E3_1_sum_rule_keV": round(E2_1_keV + E2_2_keV, 2),
         "E2_2_over_E2_1": round(E2_2_over_E2_1, 3),
         "R_42": round(R_42, 3),
         "B_E2_22_to_01_over_21_to_01": round(be2_22_to_01_ratio, 4),
         "B_E2_22_to_21_over_21_to_01": round(be2_22_to_21_ratio, 4),
+        "B_E2_22_to_01_over_22_to_21": branching_22_01_over_22_21,
         "triaxial_regime": "Axial" if gamma_deg < 5.0 else ("Maximal_Triaxial" if abs(gamma_deg - 30.0) < 5.0 else "Triaxial")
+    }
+
+
+def check_greiner_sum_rule(E2_1_keV: float, E2_2_keV: float, E3_1_keV: float) -> Dict[str, Any]:
+    """
+    Evaluates the parameter-independent Greiner asymmetric rotor sum rule:
+      E(2_1^+) + E(2_2^+) == E(3_1^+)  (Greiner & Maruhn 1996 Eq. 6.174)
+    Returns absolute residual, relative discrepancy, and asymmetric rotor compatibility verdict.
+    """
+    predicted_E3_1 = E2_1_keV + E2_2_keV
+    residual_keV = abs(predicted_E3_1 - E3_1_keV)
+    rel_discrepancy_pct = (residual_keV / E3_1_keV) * 100.0 if E3_1_keV > 0 else 0.0
+
+    verdict = "RIGID_ASYMMETRIC_ROTOR_CONFIRMED" if rel_discrepancy_pct <= 3.0 else (
+        "MODERATE_TRIAXIAL_DEVIATION" if rel_discrepancy_pct <= 10.0 else "GAMMA_SOFT_OR_NON_ROTOR"
+    )
+
+    return {
+        "E2_1_keV": E2_1_keV,
+        "E2_2_keV": E2_2_keV,
+        "E3_1_exp_keV": E3_1_keV,
+        "E3_1_sum_rule_pred_keV": round(predicted_E3_1, 2),
+        "residual_keV": round(residual_keV, 2),
+        "relative_discrepancy_pct": round(rel_discrepancy_pct, 2),
+        "greiner_sum_rule_verdict": verdict
     }
 
 
@@ -145,52 +333,69 @@ def frauendorf_wobbling_frequency(
     """
     Computes theoretical wobbling frequency hbar*omega_wob (in keV) for spin I
     under Transverse (TW) or Longitudinal (LW) wobbling model (Frauendorf & Donau 2014).
-    Assumes A1 < A2, A3 (axis 1 has largest moment of inertia).
+
+    The input names are explicit aliases for the common convention
+    ``A1=A_m, A2=A_s, A3=A_l`` in keV, so ``A1 < A2 < A3`` corresponds to
+    ``J_m > J_s > J_l``.  The result is a frozen-alignment harmonic-model
+    descriptor; it does not identify an experimental mode.
     """
-    if mode.upper() == "TW":
-        # Transverse wobbling: j perpendicular to rotation axis (j along axis 3)
-        term1 = 2.0 * I * (A2 - A1) + 2.0 * j * A1
-        term2 = 2.0 * I * (A3 - A1) - 2.0 * j * (A3 - A1)
-
-        prod = term1 * term2
-        if prod > 0:
-            omega = math.sqrt(prod)
-            status = "stable"
-        else:
-            omega = 0.0
-            status = "unstable_or_realigned"
-
+    I, j, A_m, A_s, A_l = map(float, (I, j, A1, A2, A3))
+    if not all(math.isfinite(value) for value in (I, j, A_m, A_s, A_l)):
+        raise ValueError("I, j and A inputs must be finite.")
+    if I <= 0.0 or j < 0.0:
+        raise ValueError("I must be positive and j must be non-negative.")
+    if not (A_m < A_s < A_l):
+        raise ValueError("Expected A_m < A_s < A_l (J_m > J_s > J_l).")
+    mode = mode.upper()
+    if mode not in {"TW", "LW"}:
+        raise ValueError("mode must be 'TW' or 'LW'.")
+    if I < j:
         return {
             "I": I,
             "j": j,
-            "mode": "Transverse_Wobbling (TW)",
-            "omega_wob_keV": round(omega, 2),
-            "status": status,
-            "term1_keV": round(term1, 2),
-            "term2_keV": round(term2, 2)
+            "mode": f"{'Transverse' if mode == 'TW' else 'Longitudinal'}_Wobbling ({mode})",
+            "axis_convention": "A1=A_m < A2=A_s < A3=A_l",
+            "omega_wob_keV": 0.0,
+            "status": "spin_below_aligned_particle",
+            "mode_confirmed": None,
         }
+
+    if mode == "TW":
+        # Frozen particle along the short axis; core rotation is around m.
+        a_bar = A_s * (1.0 - j / I)
+        term1 = 2.0 * I * (A_m - a_bar)
+        term2 = 2.0 * I * (A_l - a_bar)
     else:
-        # Longitudinal wobbling: j along rotation axis (axis 1)
-        term1 = 2.0 * (I - j) * (A2 - A1) + A2
-        term2 = 2.0 * (I - j) * (A3 - A1) + A3
+        # Frozen particle along the intermediate axis; the same common
+        # convention gives the longitudinal counterpart.
+        a_bar = A_m * (1.0 - j / I)
+        term1 = 2.0 * I * (A_s - a_bar)
+        term2 = 2.0 * I * (A_l - a_bar)
 
-        prod = term1 * term2
-        if prod > 0:
-            omega = math.sqrt(prod)
-            status = "stable"
-        else:
-            omega = 0.0
-            status = "unstable"
+    product = term1 * term2
+    if product > 0.0:
+        omega = math.sqrt(product)
+        status = "stable_harmonic"
+    elif product == 0.0:
+        omega = 0.0
+        status = "critical_softening"
+    else:
+        omega = 0.0
+        status = "HFA_unstable_requires_full_model"
 
-        return {
-            "I": I,
-            "j": j,
-            "mode": "Longitudinal_Wobbling (LW)",
-            "omega_wob_keV": round(omega, 2),
-            "status": status,
-            "term1_keV": round(term1, 2),
-            "term2_keV": round(term2, 2)
-        }
+    return {
+        "I": I,
+        "j": j,
+        "mode": f"{'Transverse' if mode == 'TW' else 'Longitudinal'}_Wobbling ({mode})",
+        "axis_convention": "A1=A_m < A2=A_s < A3=A_l",
+        "A_bar_aligned_keV": a_bar,
+        "omega_wob_keV": round(omega, 2),
+        "status": status,
+        "mode_confirmed": None,
+        "term1_keV": round(term1, 2),
+        "term2_keV": round(term2, 2),
+        "boundary": "Frozen-alignment harmonic model descriptor only.",
+    }
 
 
 def extract_experimental_wobbling_sequence(
@@ -301,16 +506,22 @@ def falsify_wobbling_vs_signature_partner(
     if total == 0:
         verdict = "INSUFFICIENT_ELECTROMAGNETIC_DATA"
     elif score == total:
-        verdict = "ROBUST_WOBBLING_CONFIRMED"
+        verdict = "MODEL_CRITERIA_SATISFIED__NOT_EXPERIMENTAL_CONFIRMATION"
     elif score == 0:
-        verdict = "REJECTED_AS_WOBBLING (Signature Partner or Magnetic Rotation)"
+        verdict = "MODEL_CRITERIA_NOT_SATISFIED__ALTERNATIVES_REMAIN"
     else:
-        verdict = "AMBIGUOUS_NEED_PRECISE_LIFETIMES"
+        verdict = "MODEL_CRITERIA_MIXED__NEEDS_CALIBRATED_DATA"
 
     return {
         "verdict": verdict,
         "score": f"{score}/{total}",
-        "diagnostic_checks": tests
+        "diagnostic_checks": tests,
+        "evidence_level": "conditional-observable-screen",
+        "mode_confirmed": None,
+        "boundary": (
+            "Threshold checks are screening descriptors. They cannot by themselves "
+            "confirm wobbling, signature-partner, or magnetic-rotation identity."
+        ),
     }
 
 
@@ -327,8 +538,22 @@ def format_text_report(summary: Dict[str, Any]) -> str:
         lines.append(f"   E(2_1^+) Energy                : {df['E2_1_keV']:.1f} keV")
         lines.append(f"   E(2_2^+) Gamma Bandhead        : {df['E2_2_keV']:.1f} keV (Ratio = {df['E2_2_over_E2_1']:.3f})")
         lines.append(f"   E(4_1^+) Energy                : {df['E4_1_keV']:.1f} keV (R_42 = {df['R_42']:.3f})")
+        if "E3_1_sum_rule_keV" in df:
+            lines.append(f"   E(3_1^+) Greiner Sum Rule Pred : {df['E3_1_sum_rule_keV']:.1f} keV (Eq. 6.174)")
         lines.append(f"   B(E2; 2_2->0_1) / B(E2; 2_1->0_1): {df['B_E2_22_to_01_over_21_to_01']:.4f}")
         lines.append(f"   B(E2; 2_2->2_1) / B(E2; 2_1->0_1): {df['B_E2_22_to_21_over_21_to_01']:.4f}")
+        if df.get("B_E2_22_to_01_over_22_to_21") is not None:
+            lines.append(f"   B(E2; 2_2->0_1) / B(E2; 2_2->2_1): {df['B_E2_22_to_01_over_22_to_21']:.4f} (Greiner Eq. 6.185)")
+        lines.append("-" * 72)
+
+    if "greiner_sum_rule" in summary:
+        gs = summary["greiner_sum_rule"]
+        lines.append(" GREINER ASYMMETRIC ROTOR SUM RULE AUDIT (Eq. 6.174):")
+        lines.append("   Sum Rule Identity              : E(2_1^+) + E(2_2^+) == E(3_1^+)")
+        lines.append(f"   Experimental Values            : E(2_1)={gs['E2_1_keV']:.1f} keV, E(2_2)={gs['E2_2_keV']:.1f} keV, E(3_1)={gs['E3_1_exp_keV']:.1f} keV")
+        lines.append(f"   Predicted E(3_1^+)             : {gs['E3_1_sum_rule_pred_keV']:.1f} keV")
+        lines.append(f"   Residual Delta                 : {gs['residual_keV']:.2f} keV ({gs['relative_discrepancy_pct']:.2f}%)")
+        lines.append(f"   Verdict                        : {gs['greiner_sum_rule_verdict']}")
         lines.append("-" * 72)
 
     if "wobbling_model" in summary:
@@ -369,6 +594,8 @@ def main():
     )
     parser.add_argument("--gamma", type=float, default=25.0, help="Triaxial deformation angle gamma in degrees (default: 25.0)")
     parser.add_argument("--E2-1", type=float, default=100.0, help="E(2_1^+) energy in keV (default: 100.0)")
+    parser.add_argument("--E2-2", type=float, default=None, help="Experimental E(2_2^+) energy in keV for sum rule check")
+    parser.add_argument("--E3-1", type=float, default=None, help="Experimental E(3_1^+) energy in keV for Greiner sum rule check")
     parser.add_argument("--spin-I", type=float, default=13.5, help="Total spin I for odd-A nucleus")
     parser.add_argument("--spin-j", type=float, default=6.5, help="Quasiparticle spin j (e.g. 6.5 for i13/2)")
     parser.add_argument("--A1", type=float, default=12.0, help="Rotational constant A1 = hbar^2/(2*J1) in keV (default: 12.0)")
@@ -391,6 +618,10 @@ def main():
         "wobbling_model": wob_res,
         "falsification": fals_res
     }
+
+    if args.E3_1 is not None:
+        e2_2_val = args.E2_2 if args.E2_2 is not None else df_res["E2_2_keV"]
+        summary["greiner_sum_rule"] = check_greiner_sum_rule(args.E2_1, e2_2_val, args.E3_1)
 
     if args.json:
         print(json.dumps(summary, indent=2))

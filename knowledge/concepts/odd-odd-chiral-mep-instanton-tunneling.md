@@ -11,7 +11,9 @@ tags: [triaxiality, chirality, instanton, minimum-energy-path, neb, string-metho
 
 # Odd-odd triaxial nuclei chiral minimum energy path (MEP) and instanton quantum tunneling action solver
 
-## Definition and Physical Mechanism
+## Definition
+
+### Definition and Physical Mechanism
 
 In odd-odd triaxial nuclei with $A \sim 130$ (e.g., $^{134}\text{Pr}$, $^{128}\text{Cs}$) and $A \sim 100$ (e.g., $^{106}\text{Ag}$), nuclear chirality arises from the mutually orthogonal coupling of three angular momentum vectors:
 1. High-$j$ valence proton particle $\vec{j}_p$ (aligned along the nuclear short axis $s$, $\theta = \pi/2, \phi = 0$);
@@ -75,3 +77,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py chirmep --preset 128Cs_chira
 - **Chen, Frauendorf, Sun**, Phys. Rev. C 96, 051303(R) (2017): *Collective Hamiltonian for chiral modes in nuclei*.
 - **Frauendorf & Meng**, Nucl. Phys. A 617, 131 (1997): *Tilted axis cranking and chiral symmetry breaking*.
 - **Bohr & Mottelson**, *Nuclear Structure*, Vol. II, §4-2.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

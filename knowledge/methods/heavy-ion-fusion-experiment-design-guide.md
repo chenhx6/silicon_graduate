@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "低能重离子熔合蒸发实验设计与 Proposal 撰写全指南"
 aliases: [重离子熔合实验设计, 实验Proposal指南, Fusion-Evaporation Experiment Design, 重离子实验方案]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [heavy-ion-fusion, fusion-evaporation, experiment-design, beam-energy-selection, cross-section-calculation]
+tags: [heavy-ion-fusion, fusion-evaporation, experiment-design, beam-energy-selection, cross-section-calculation]
 ---
 
 # 低能重离子熔合蒸发实验设计与 Proposal 撰写全指南
 
-## 1. 物理全景与实验设计目标
+## Purpose
+
+### 物理全景与实验设计目标
 
 在低能实验核结构研究中，利用重离子熔合蒸发反应（Heavy-Ion Fusion-Evaporation Reaction）布居中高自旋态是探测三轴形变、摆动运动（wobbling）、手征双重带（chiral doublet bands）以及形状共存的最有效手段。
 
@@ -25,7 +28,9 @@ topics: [heavy-ion-fusion, fusion-evaporation, experiment-design, beam-energy-se
 
 ---
 
-## 2. 核心物理公式与计算步骤
+## Inputs and Assumptions
+
+### 核心物理公式与计算步骤
 
 ### 步骤 1：运动学转换与质心能量 $E_{\text{cm}}$
 设入射束流弹核质量数为 $A_p$、电荷数为 $Z_p$，实验室系束流能量为 $E_{\text{lab}}$（MeV）；静止靶核质量数为 $A_t$、电荷数为 $Z_t$。
@@ -71,7 +76,13 @@ $$\Delta E_D = E_{\gamma 0} \beta \sin\theta_d \cdot \Delta\theta_d$$
 
 ---
 
-## 3. Proposal 中的实验参数核算模板
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### Proposal 中的实验参数核算模板
 
 在向加速器实验室提交 Proposal 时，必须列出标准的**计数率预算表（Count Rate Budget）**：
 
@@ -88,3 +99,9 @@ $$\Delta E_D = E_{\gamma 0} \beta \sin\theta_d \cdot \Delta\theta_d$$
    其中 $\epsilon_{\text{array}}$ 为探测器阵列全能峰总效率（如 10 台 HPGe 阵列通常为 $1\% \sim 3\%$），$b_\gamma$ 为级联分支比。
 5. **统计学门槛需求**：
    为在 $\gamma-\gamma$ 矩阵中清晰辨识高自旋微弱跃迁（峰本比约 1:5），单条关键弱线门内全能峰净计数不得少于 $10^3$ counts，由此倒推总有效机时（通常为 72–120 小时）。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

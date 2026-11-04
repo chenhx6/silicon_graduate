@@ -1,3 +1,4 @@
+import numpy as np
 #!/usr/bin/env python3
 """
 Unit tests for in_beam_charged_particle_pid_delta_e_telescope_inverter.py (Module 163).

@@ -11,7 +11,9 @@ tags: [in-beam-spectroscopy, coincidence-measurements, time-gating, random-subtr
 
 # In-beam detector array coincidence prompt-delayed time gating, accidental background difference subtraction and isomer isolation
 
-## Definition and Phenomenological Origin
+## Definition
+
+### Definition and Phenomenological Origin
 
 In accelerator-based in-beam $\gamma$-ray spectroscopy, pulsed heavy-ion beams possess a periodic high-frequency microstructure determined by the cyclotron/linac radiofrequency (RF period $T_{\text{RF}} \sim 40 - 100\text{ ns}$).
 
@@ -61,3 +63,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py timegate --preset high_rate_
    Removes $1536$ accidental counts beneath $409\text{ keV}$, restoring true peak area $12664.0 \pm 120.7$ with signal-to-random ratio $8.24$.
 2. **$^{181}\text{Ta}$ Isomer Isolation**:
    Delayed window ($10 - 45\text{ ns}$) cleanly isolates isomeric lines at $133\text{ keV}$ and $482\text{ keV}$ (`YES (Isomer Line)`), while prompt transition $346\text{ keV}$ is suppressed to negative net background (`NO (Prompt)`).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

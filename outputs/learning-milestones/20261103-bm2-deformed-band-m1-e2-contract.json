@@ -1,0 +1,60 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Bohr & Mottelson《Nuclear Structure》第二卷第 4 章 §4-3c（形变核带内 M1/E2 跃迁、磁退耦参数 b 与 |g_K - g_R| 反演）的系统精读与核验",
+  "source": {
+    "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+    "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+    "chapter": "4 (§4-3c)",
+    "chapter_title": "Chapter 4: Rotational Spectra (§4-3c M1-Matrix Elements within Band)",
+    "authors": "Aage Bohr and Ben R. Mottelson",
+    "scope": "Printed pp.54-58 / physical PDF pp.76-80, full text, equations 4-84 to 4-89, and Tables 4-7 to 4-10",
+    "evidence_route": "native text extraction plus algebraic derivation and table verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/bm2-deformed-band-m1-e2-and-gk-gr-contract.md",
+      "reason": "established method contract on magnetic dipole vector factorization, within-band B(M1) analytical expressions for K>1/2 and K=1/2, magnetic decoupling parameter b, static moments mu(I), and in-beam B(M1)/B(E2) ratio inversion of |g_K - g_R|/Q0"
+    },
+    {
+      "path": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "reason": "registered claims BM2-27 and BM2-28, updated method references"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the BM2 deformed band M1/E2 contract"
+    },
+    {
+      "path": "knowledge/concepts/electromagnetic-transition-rates-weisskopf-and-alaga-rules.md",
+      "reason": "linked BM2 within-band M1/E2 branching ratio relations"
+    },
+    {
+      "path": "knowledge/concepts/nilsson-magnetic-moments-and-gk-inversion.md",
+      "reason": "cross-referenced BM2 within-band M1/E2 contract and fixed missing standard headers"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.78 Eq. 4-84 (Magnetic dipole vector decomposition mu = g_R I + (g_K - g_R) K)",
+    "PDF p.78 Eq. 4-85 to 4-87 (Within-band B(M1) reduced transition probability and magnetic decoupling parameter b)",
+    "PDF p.79 Eq. 4-88 (Static magnetic dipole moment mu(I) for K>1/2 and K=1/2)",
+    "PDF p.79 Table 4-7 to 4-10 (Experimental tests of M1 intensity relations in odd-A deformed nuclei)"
+  ],
+  "claims": [
+    "In axially deformed nuclei, the magnetic dipole operator factorizes into collective core rotation and intrinsic nucleon projection: mu = g_R I + (g_K - g_R) K.",
+    "For K > 1/2 bands, the within-band reduced transition probability B(M1; I -> I-1) is proportional to (g_K - g_R)^2 K^2 (I^2 - K^2) / [I(2I+1)], providing a smooth spin dependence.",
+    "For K = 1/2 bands, Coriolis-induced coupling between Omega = +1/2 and -1/2 states introduces the magnetic decoupling parameter b, producing an odd-even staggering in B(M1) proportional to [1 + (-1)^(I+1/2) b]^2.",
+    "The in-band branching ratio B(M1; I -> I-1) / B(E2; I -> I-2) provides the experimental standard for inverting |g_K - g_R|/Q_0 directly from gamma-ray intensities and multipole mixing ratios delta(E2/M1).",
+    "Static magnetic moments mu(I) exhibit signature splitting in K=1/2 bands and approach the collective limit g_R I asymptotically as spin increases."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded section text, algebraic formulas, and experimental table unit",
+    "remaining_queue": "Remaining sections of Bohr & Mottelson Vol. II remain queued",
+    "boundary": [
+      "B(M1)/B(E2) ratios determine only the magnitude |g_K - g_R|; the sign requires multipole mixing ratio delta(E2/M1) sign measurements",
+      "Formulas assume strong-coupling axial symmetry; K-mixing from large Coriolis forces requires non-adiabatic PTRM or TPSM models"
+    ]
+  }
+}

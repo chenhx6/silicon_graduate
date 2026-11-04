@@ -19,6 +19,170 @@ Features:
 import numpy as np
 
 
+def build_pn_qtda_matrix(
+    proton_qp_energies,
+    neutron_qp_energies,
+    proton_u,
+    proton_v,
+    neutron_u,
+    neutron_v,
+    two_body_matrix,
+    particle_hole_matrix,
+):
+    """Build the real proton-neutron QTDA matrix of Suhonen Eq. (17.2).
+
+    The basis is the Cartesian product of the supplied proton and neutron
+    quasiparticle lists.  ``two_body_matrix`` contains
+    <p n; J | V | p' n'; J>, while ``particle_hole_matrix`` contains
+    <p n^-1; J | V_RES | p' n'^-1; J>.  Angular-momentum normalizers,
+    isospin decomposition and Pandya reduction must be supplied upstream.
+    """
+    ep = np.asarray(proton_qp_energies, dtype=float)
+    en = np.asarray(neutron_qp_energies, dtype=float)
+    up = np.asarray(proton_u, dtype=float)
+    vp = np.asarray(proton_v, dtype=float)
+    un = np.asarray(neutron_u, dtype=float)
+    vn = np.asarray(neutron_v, dtype=float)
+    v_pp = np.asarray(two_body_matrix, dtype=float)
+    v_ph = np.asarray(particle_hole_matrix, dtype=float)
+
+    n_p = ep.size
+    n_n = en.size
+    if n_p == 0 or n_n == 0:
+        raise ValueError("Proton and neutron quasiparticle spaces must be non-empty.")
+    if any(arr.ndim != 1 for arr in (ep, en, up, vp, un, vn)):
+        raise ValueError("All quasiparticle inputs must be one-dimensional.")
+    if up.size != n_p or vp.size != n_p or un.size != n_n or vn.size != n_n:
+        raise ValueError("u/v arrays must match their proton or neutron spaces.")
+    dimension = n_p * n_n
+    if v_pp.shape != (dimension, dimension) or v_ph.shape != (dimension, dimension):
+        raise ValueError("Interaction matrices must match the Cartesian pn basis dimension.")
+    arrays = (ep, en, up, vp, un, vn, v_pp, v_ph)
+    if not all(np.all(np.isfinite(arr)) for arr in arrays):
+        raise ValueError("QTDA inputs must be finite.")
+
+    matrix = np.zeros((dimension, dimension), dtype=float)
+
+    def flat_index(p_idx, n_idx):
+        return p_idx * n_n + n_idx
+
+    for p in range(n_p):
+        for n in range(n_n):
+            row = flat_index(p, n)
+            for pp in range(n_p):
+                for nn in range(n_n):
+                    col = flat_index(pp, nn)
+                    diagonal = (ep[p] + en[n]) if row == col else 0.0
+                    forward = (
+                        up[p] * un[n] * up[pp] * un[nn]
+                        + vp[p] * vn[n] * vp[pp] * vn[nn]
+                    )
+                    particle_hole = (
+                        up[p] * vn[n] * up[pp] * vn[nn]
+                        + vp[p] * un[n] * vp[pp] * un[nn]
+                    )
+                    matrix[row, col] = (
+                        diagonal + forward * v_pp[row, col]
+                        + particle_hole * v_ph[row, col]
+                    )
+
+    return {
+        "matrix": matrix,
+        "basis": [(p, n) for p in range(n_p) for n in range(n_n)],
+        "dimension": dimension,
+        "is_symmetric": bool(np.allclose(matrix, matrix.T, atol=1.0e-10)),
+        "boundary": (
+            "pnQTDA Eq. (17.2) in a real finite basis; angular-momentum "
+            "normalizers, isospin decomposition and Pandya reduction are inputs."
+        ),
+    }
+
+
+def solve_pn_qtda_matrix(*args, **kwargs):
+    """Build and diagonalize a symmetric pnQTDA matrix."""
+    result = build_pn_qtda_matrix(*args, **kwargs)
+    eigenvalues, eigenvectors = np.linalg.eigh(result["matrix"])
+    result["eigenvalues_MeV"] = eigenvalues.tolist()
+    result["eigenvectors"] = eigenvectors.tolist()
+    result["ground_state_energy_MeV"] = float(eigenvalues[0])
+    return result
+
+
+def calculate_reduced_qrpa_transition_amplitude(
+    x_initial,
+    y_initial,
+    x_final,
+    y_final,
+    operator_matrix,
+):
+    """
+    Evaluate the reduced-basis QRPA transition contraction
+
+        M = X_f^T Q X_i + Y_f^T Q Y_i.
+
+    This is the real, phase-fixed contraction used for a compact two-quasiparticle
+    basis audit. It is not a replacement for a full QRPA one-body operator
+    derivation with all angular-momentum and quasiparticle factors.
+    """
+    x_i = np.asarray(x_initial, dtype=float)
+    y_i = np.asarray(y_initial, dtype=float)
+    x_f = np.asarray(x_final, dtype=float)
+    y_f = np.asarray(y_final, dtype=float)
+    q_mat = np.asarray(operator_matrix, dtype=float)
+
+    if any(vec.ndim != 1 for vec in (x_i, y_i, x_f, y_f)):
+        raise ValueError("QRPA amplitudes must be one-dimensional.")
+    n_dim = x_i.size
+    if any(vec.size != n_dim for vec in (y_i, x_f, y_f)):
+        raise ValueError("All QRPA amplitude vectors must have the same length.")
+    if q_mat.shape != (n_dim, n_dim):
+        raise ValueError("The operator matrix must be square in the QRPA basis.")
+    if not np.all(np.isfinite(q_mat)) or not all(
+        np.all(np.isfinite(vec)) for vec in (x_i, y_i, x_f, y_f)
+    ):
+        raise ValueError("QRPA amplitudes and operator matrix must be finite.")
+
+    forward = float(x_f @ q_mat @ x_i)
+    backward = float(y_f @ q_mat @ y_i)
+    amplitude = forward + backward
+    return {
+        "forward_term": forward,
+        "backward_term": backward,
+        "amplitude": amplitude,
+        "strength_proxy": amplitude ** 2,
+        "boundary": (
+            "Reduced-basis real contraction; angular-momentum, effective-charge, "
+            "phase and full one-body operator factors must be supplied separately."
+        ),
+    }
+
+
+def ideal_two_phonon_transition_rules(single_phonon_strength):
+    """
+    Return Suhonen's ideal-boson two-phonon benchmark.
+
+    For the same multipolarity in an ideal spherical phonon model:
+      B(lambda^2 -> lambda) = 2 * B(lambda -> ground)
+      B(lambda^2 -> ground) = 0
+
+    These are a spherical phonon reference, not a universal wobbling rule.
+    """
+    strength = float(single_phonon_strength)
+    if not np.isfinite(strength) or strength < 0.0:
+        raise ValueError("The single-phonon strength must be finite and non-negative.")
+    return {
+        "single_phonon_strength": strength,
+        "two_to_one_strength": 2.0 * strength,
+        "two_to_ground_strength": 0.0,
+        "assumptions": [
+            "ideal boson commutator",
+            "same multipolarity",
+            "spherical phonon reference",
+        ],
+        "boundary": "Do not apply as a universal triaxial wobbling selection rule.",
+    }
+
+
 def solve_qrpa_eigenvalues_and_amplitudes(matrix_A, matrix_B):
     """
     Solve the non-Hermitian QRPA eigenvalue problem:

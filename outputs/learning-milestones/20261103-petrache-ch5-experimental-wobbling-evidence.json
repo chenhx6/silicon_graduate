@@ -1,0 +1,41 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "把 Petrache 第5章实验结果与争议转成在束gamma谱学证据合同",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "scope": "Chapter 5 PDF pp.110-126 / printed pp.91-107",
+    "evidence_route": "native text extraction plus selected experimental figure/page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/petrache-ch5-experimental-wobbling-evidence-contract.md",
+      "reason": "in-beam gamma spectroscopy, P-DCO/Rac, mixing-ratio roots, lifetime and reproducibility contract"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "added CW-21 to CW-24 and expanded chapter-5 reading status"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Ch.5 experimental wobbling evidence contract"
+    }
+  ],
+  "source_locators": [
+    "PDF pp.110-111 / printed pp.91-92, detector statistics and coincidence sensitivity",
+    "PDF pp.119-123 / printed pp.100-104, low-spin mixing-ratio/P-DCO controversy",
+    "PDF pp.123-126 / printed pp.104-107, 130Ba/136Nd medium-spin candidates",
+    "PDF p.126 / printed p.107, standardization and public-data recommendation"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "boundary": [
+      "chapter-level experimental workflow, not a reanalysis of raw counts",
+      "mixing-ratio disagreements require original response and covariance inputs",
+      "medium-spin model agreement does not become a universal wobbling criterion"
+    ]
+  }
+}

@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [gamow-teller, ikeda-sum-rule, ga-quenching, isobaric-analog-state, charge-exchange, double-beta-decay]
+tags: [gamow-teller, ikeda-sum-rule, ga-quenching, isobaric-analog-state, charge-exchange, double-beta-decay]
 ---
 
 # 伽莫夫-泰勒巨共振（GTGR）、Ikeda求和定则与轴矢量耦合常数gA淬灭动力学
 
-## 1. 物理全景：强弱相互作用的同位旋统一视界
+## Definition
+
+### 物理全景：强弱相互作用的同位旋统一视界
 
 在原子核低能电弱物理与在束电荷交换核反应（如 $(p, n)$、$(^3\text{He}, t)$、$(d, {}^2\text{He})$）中，核子在空间发生自旋翻转与同位旋阶梯算符操作，将核素转变为相邻的同量异位素（Isobars）。
 
@@ -24,7 +26,9 @@ topics: [gamow-teller, ikeda-sum-rule, ga-quenching, isobaric-analog-state, char
 
 ---
 
-## 2. 算符代数与 Ikeda 模型无关求和定则
+## Necessary Assumptions
+
+### 算符代数与 Ikeda 模型无关求和定则
 
 ### (1) 同位旋阶梯算符与基本跃迁算符
 定义单核子同位旋下降算符 $t_-$（将中子变为质子：$t_- |n\rangle = |p\rangle$）与上升算符 $t_+$（将质子变为中子：$t_+ |p\rangle = |n\rangle$）。
@@ -50,7 +54,13 @@ $$S_-(GT) - S_+(GT) = 3(N - Z)$$
 
 ---
 
-## 3. 轴矢量弱电耦合常数 $g_A$ 淬灭微观机制
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 轴矢量弱电耦合常数 $g_A$ 淬灭微观机制
 
 ### (1) 实验强度缺失现象（Missing GT Strength）
 自 1980 年代以来，全球利用高分辨 $(p, n)$ 与 $(^3\text{He}, t)$ 束内反应（如在大阪大学 RCNP 谱仪）对全核素图进行高精度测量，发现：
@@ -111,3 +121,18 @@ $$\frac{d\sigma}{d\Omega}(q=0, \omega=0) = \hat{\sigma}_{GT} \cdot B(GT)$$
 5. **Ejiri, H., Suhonen, J., & Zuber, K.** (2019). Neutrino-nuclear responses for astro-neutrinos, single beta decays and double beta decays. *Phys. Rep.*, 797, 1-102.
 6. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 4 章：核衰变与弱相互作用选择定则. 原子能出版社.
 7. **吴治华** (2006). 《原子核物理实验方法》（第三版）第 10 章：核辐射与核谱学测量. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

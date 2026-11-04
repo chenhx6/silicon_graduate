@@ -11,7 +11,9 @@ tags: [gamma-spectroscopy, in-beam-spectroscopy, energy-calibration, non-lineari
 
 # HPGe detector and multichannel ADC integral non-linearity (INL/DNL) high-order polynomial and spline residual energy calibration
 
-## Definition and Phenomenological Origin
+## Definition
+
+### Definition and Phenomenological Origin
 
 In high-precision in-beam $\gamma$-ray spectroscopy, verifying level scheme consistency via Ritz loop energy closure ($\sum_{\text{loop}} E_i \equiv 0$) requires absolute energy calibration accuracies better than $\Delta E \le 0.05 - 0.1\text{ keV}$.
 
@@ -56,3 +58,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py nonlincal --preset in_beam_c
 - Polynomial fit reduced $\chi^2$: drops from $1151.7$ (linear) to $0.88$ (polynomial + spline);
 - RMS residual is suppressed to $\sigma_{\text{res}} = 0.11\text{ keV}$ globally, and $\le 0.001\text{ keV}$ at calibration nodes;
 - Provides accurate energy interpolation and error propagation for in-beam transitions ($409.11\text{ keV}, 638.65\text{ keV}$).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

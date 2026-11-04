@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [tdpad, g-factor, larmor-precession, hyperfine-interaction, quadrupole-interaction, chiral-geometry, planar-aplanar, magnetic-moment]
+tags: [tdpad, g-factor, larmor-precession, hyperfine-interaction, quadrupole-interaction, chiral-geometry, planar-aplanar, magnetic-moment]
 ---
 
 # 时间差分扰动角分布（TDPAD）、核超精细进动与三矢量g因子动力学
 
-## 1. 物理全景：纳秒至微秒异能态的核电磁矩在束直接精密测量
+## Definition
+
+### 物理全景：纳秒至微秒异能态的核电磁矩在束直接精密测量
 
 在低能核物理与高自旋在束 $\gamma$ 谱学中，虽然跃迁几率（$B(M1), B(E2)$）反映了初末态之间的微观矩阵元，但**唯有静态电四极矩 $Q_s$ 与静态磁偶极矩 $\mu$（即朗德 $g$ 因子）能够提供核态内禀波函数几何构型与单粒子角动量对齐方向的直接、绝对测量**！
 
@@ -26,7 +28,9 @@ topics: [tdpad, g-factor, larmor-precession, hyperfine-interaction, quadrupole-i
 
 ---
 
-## 2. TDPAD 实验可观测量：四重时间对象与各向异性比值 $R(t)$
+## Necessary Assumptions
+
+### TDPAD 实验可观测量：四重时间对象与各向异性比值 $R(t)$
 
 ### (1) 四重独立时间实体的严格解耦
 在分析 TDPAD 实验时，必须严格区分四类本质不同的时间常数，严禁混淆：
@@ -44,7 +48,13 @@ $$R(t) \approx \frac{3 A_2 B_2}{4 + A_2 B_2} \sin(2\omega_L t) \cdot \exp\left( 
 
 ---
 
-## 3. 三矢量磁矩叠加模型与手征核几何判据（Grodner 2018）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 三矢量磁矩叠加模型与手征核几何判据（Grodner 2018）
 
 在奇奇核与三轴奇 $A$ 核中，朗德 $g$ 因子对单粒子轨道与集体转动矢量的空间拓扑具有极其敏感的指向性。
 
@@ -97,3 +107,18 @@ $$\vec{j}_p \cdot \vec{I} = \frac{1}{2} \left[ I(I+1) + j_p(j_p+1) - |\vec{j}_n 
 3. **Ionescu-Bujor, M. et al.** (1998). Static electromagnetic moments of the $9/2^-$ isomers in $^{129,131}\text{Ce}$ and shape evolution in odd-neutron light Ce isotopes. *Nucl. Phys. A*, 643(4), 459-478.
 4. **Gray, T. J. et al.** (2020). Hyperfine magnetic fields and $g$-factor measurements of nuclear isomers. *Phys. Rev. C*, 101(4), 044308.
 5. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 3 章：原子核电磁矩与超精细相互作用. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

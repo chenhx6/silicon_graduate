@@ -11,7 +11,9 @@ tags: [triaxiality, tpsm, angular-momentum-projection, shell-model, k-mixing, ga
 
 # Triaxial projected shell model (TPSM) 3D angular momentum projection matrix diagonalization, Hill-Wheeler secular equation and K-mixing
 
-## Definition and Phenomenological Origin
+## Definition
+
+### Definition and Phenomenological Origin
 
 While the particle-rotor model (PRM) treats the core macroscopically and tilted axis cranking (CSM/TAC) breaks rotational invariance in the laboratory frame, the **Triaxial Projected Shell Model (TPSM)** provides a fully microscopic quantum mechanical framework.
 
@@ -67,3 +69,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py tpsmproj --preset axial_symm
    Yrast $K=0$ weight decreases from $99.8\%$ ($I=2$) to $96.7\%$ ($I=16$), with $K=2$ expanding to $3.3\%$.
 2. **Axial Symmetric Limit**:
    At $\gamma = 0^\circ$, off-diagonal matrix elements vanish identically ($K=0$ strictly $100.0\%$, $K=2$ is $0.0\%$), confirming exact quantum consistency.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

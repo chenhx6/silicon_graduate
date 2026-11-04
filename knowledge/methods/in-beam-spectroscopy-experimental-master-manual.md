@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "在束 γ 谱学与重离子反应实验设计及数据分析全链条专家手册"
 aliases: [在束谱学专家手册, 实验设计全流程手册, 实验核物理实战宝典, Proposal与分析闭环指南]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [in-beam-spectroscopy, heavy-ion-fusion, experiment-proposal, hpge-arrays, dpp-algorithms, data-analysis-workflow]
+tags: [in-beam-spectroscopy, heavy-ion-fusion, experiment-proposal, hpge-arrays, dpp-algorithms, data-analysis-workflow]
 ---
 
 # 在束 γ 谱学与重离子反应实验设计及数据分析全链条专家手册
 
-## 1. 实验全生命周期工程视界
+## Purpose
+
+### 实验全生命周期工程视界
 
 低能在束核物理实验（In-beam nuclear spectroscopy）是一项涵盖加速器重离子核反应动力学、大型复合探测器阵列、高速数字电子学（DPP）以及严格数理统计误差反演的系统工程。
 
@@ -63,7 +66,9 @@ topics: [in-beam-spectroscopy, heavy-ion-fusion, experiment-proposal, hpge-array
 
 ---
 
-## 2. 核心实验计算公式速查表
+## Inputs and Assumptions
+
+### 核心实验计算公式速查表
 
 ### (1) 重离子反应设计核心公式（林承键体系）
 - **质心能量**：$E_{\text{cm}} = E_{\text{lab}} \frac{A_t}{A_p + A_t}$
@@ -95,7 +100,13 @@ topics: [in-beam-spectroscopy, heavy-ion-fusion, experiment-proposal, hpge-array
 
 ---
 
-## 3. 跨设备 Python 分析实操指南
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 跨设备 Python 分析实操指南
 
 在任何终端将本 Wiki 代码拉取到本地后，使用标准 Python 环境即可一键执行分析：
 
@@ -118,3 +129,9 @@ python3 gamma_peak_fitting.py
 # 6. 运行全套单元回归测试
 python3 test_analysis_suite.py
 ```
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

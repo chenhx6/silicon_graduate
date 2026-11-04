@@ -1,57 +1,73 @@
 #!/usr/bin/env python3
 """
-Odd-A Transverse vs Longitudinal Wobbling Stability Boundary & Bifurcation Solver.
+Odd-A Transverse vs. Longitudinal Wobbling Stability Boundary & Bifurcation Solver.
 
 Physical Principle & Formalism:
-In odd-A triaxial deformed nuclei, the coupling of a high-j quasiparticle to a triaxial
-rotor gives rise to two distinct geometric classes of wobbling excitations:
+In odd-A triaxially deformed nuclei, a high-j valence quasiparticle couples to a triaxial
+rotor core. Following the Lund convention for the triaxiality parameter gamma in (0, 60 deg),
+the principal axes of the intrinsic density and inertia distributions are:
+  - Axis 1 = Short axis (s)
+  - Axis 2 = Intermediate / Medium axis (m)
+  - Axis 3 = Long axis (l)
 
-1. Transverse Wobbling (TW):
-   The high-j valence quasiparticle (e.g., pi h_11/2 in 135Pr, 133La or nu h_11/2 in 105Pd)
-   aligns along the short nuclear axis (s), perpendicular to the intermediate axis (i) which
-   has the maximum moment of inertia (J_i > J_s, J_l).
-   The collective core rotates primarily about the intermediate axis.
-   Under the frozen alignment harmonic approximation:
-     hbar * omega_w_TW = sqrt( [omega_rot * (1 - J_i / J_s) + j / J_s] * [omega_rot * (1 - J_i / J_l) + j / J_l] )
-   Because J_i > J_s, J_l, both (1 - J_i / J_s) and (1 - J_i / J_l) are negative.
-   Consequently, as rotational frequency omega_rot increases with spin, the terms inside
-   the square root decrease, causing the wobbling excitation energy hbar * omega_w to
-   DECREASE with spin I:
-     d(hbar * omega_w) / dI < 0   (Hallmark signature of Transverse Wobbling)
+The moments of inertia obey the fundamental ordering:
+  J_m > J_s > J_l    (i.e. A_m < A_s < A_l where A_k = 1 / (2 * J_k))
+such that collective core rotation preferentially takes place around the intermediate axis (m).
 
-   Critical Instability Frequency & Inertia Dependence:
-   The first term reaches zero when the core angular momentum reaches:
-     R_crit_TW = j_eff / (1 - J_l / J_i)
-   where j_eff = k_att * j is the Coriolis-attenuated alignment (k_att ~ 0.7 - 1.0).
-   Crucial Physical Paradigm Discovered:
-   - Hydrodynamic (Irrotational) Inertia: J_l / J_i ~ 0.25 - 0.30 -> R_crit ~ 7.5 hbar (I_crit ~ 9.5 hbar).
-     Harmonic TW is quickly extinguished at low spin, plunging into Tilted Precession (TiP).
-   - Rigid-Body / Pairing-Quenched Inertia: J_l / J_i ~ 0.65 - 0.75 -> R_crit ~ 18 - 25 hbar (I_crit ~ 20 - 26 hbar).
-     Enables stable transverse wobbling across the full experimental band!
+1. Transverse Wobbling (TW) [Frauendorf & Donau, PRC 89, 014322 (2014)]:
+   The valence quasiparticle aligns along the short axis (s), perpendicular to the collective
+   rotation axis (m).
+   Under the Harmonic Frozen Alignment (HFA) approximation [Frauendorf 2025, Ch. 2, Eq. (2.20)]:
+     hbar * omega_w_TW = 2 * I * sqrt( (A_m - A_s_bar(I)) * (A_l - A_s_bar(I)) )
+   where the effective rotational parameter A_s_bar is attenuated by particle alignment:
+     A_s_bar(I) = A_s * (1 - j_eff / I)
+   Expressed directly in terms of moments of inertia:
+     hbar * omega_w_TW = sqrt( [ I / J_m - (I - j_eff) / J_s ] * [ I / J_l - (I - j_eff) / J_s ] )
+
+   Because J_m > J_s > J_l, the second factor [ I / J_l - (I - j_eff) / J_s ] is strictly positive
+   for all I >= j_eff.
+   The first factor [ I / J_m - (I - j_eff) / J_s ] starts positive at I = j_eff, but decreases
+   monotonically as spin I increases, causing the wobbling excitation energy to DECREASE with spin:
+     d(hbar * omega_w_TW) / dI < 0   (Characteristic signature of Transverse Wobbling)
+
+   Critical Instability & Bifurcation to Tilted Precession (TiP):
+   The first factor reaches zero at the critical spin I_c:
+     I_c = j_eff / (1 - J_s / J_m)
+   At I = I_c, the harmonic TW mode softens to zero frequency (omega_w -> 0).
+   For I > I_c, the harmonic mode becomes dynamically unstable (omega_w^2 < 0), and the
+   classical precession orbit bifurcates into the flip mode (FM) or tilted precession (TiP),
+   eventually approaching longitudinal wobbling (LW) at very high spins.
+
+   Nuclear Inertia Paradigms:
+   - Hydrodynamic (Irrotational) Flow [Bohr-Mottelson Vol. II, Eq. (6B-17)]:
+     J_m = J_0 * sin^2(gamma - 120 deg), J_s = J_0 * sin^2(gamma + 120 deg), J_l = J_0 * sin^2(gamma).
+     At gamma ~ 20-26 deg, J_s / J_m ~ 0.30 - 0.38, yielding a very low I_c ~ 8 - 9 hbar.
+     Pure hydrodynamic inertia thus predicts premature instability at the band head for 135Pr (j=11/2).
+   - Rigid-Body / Pairing-Quenched (CAP) Inertia:
+     Pairing correlations are quenched with spin, raising J_s / J_m to ~ 0.60 - 0.75.
+     This expands I_c to 14 - 22 hbar, stabilizing harmonic TW across the experimentally observed band!
 
 2. Longitudinal Wobbling (LW):
-   The high-j quasiparticle aligns along the intermediate axis (i), parallel to the main
-   collective rotation axis.
-   The wobbling excitation energy INCREASES with spin I:
-     d(hbar * omega_w) / dI > 0   (Signature of Longitudinal Wobbling, e.g. 187Au)
+   The high-j quasiparticle aligns along the intermediate axis (m), parallel to core rotation.
+     hbar * omega_w_LW = sqrt( [ I / J_s - (I - j_eff) / J_m ] * [ I / J_l - (I - j_eff) / J_m ] )
+   Both factors are strictly positive and increase with spin:
+     d(hbar * omega_w_LW) / dI > 0   (Signature of Longitudinal Wobbling, e.g. 187Au)
 
 3. Electromagnetic Transition Signature:
-   The ratio of inter-band to intra-band E2 transition probabilities is:
-     B(E2_out) / B(E2_in) = 2 / (J_i * omega_w * I) * [1 + sqrt(J_s / J_l)]^2 / 4
+   Within the harmonic approximation well below I_c:
+     B(E2_out) / B(E2_in) approx (1 / I) * (1 / (J_m * omega_w)) * [1 + sqrt(J_s / J_l)]^2 / 2
    which scales inversely with spin I.
 
-This module implements:
-1. Exact evaluation of omega_w(omega_rot) and omega_w(I) for both TW and LW modes.
-2. Analytic calculation of the critical bifurcation frequency omega_crit and spin I_crit.
-3. Comparative evaluation of Hydrodynamic vs Rigid-Body / CAP moments of inertia.
-4. B(E2_out)/B(E2_in) transition probability ratio evolution.
-5. Presets for classic wobbling nuclei (135Pr, 105Pd, 187Au).
-
 Textbook & Literature References:
-- Chirality and Wobbling in Atomic Nuclei (CRC Press 2025), Ch. 2 (S. Frauendorf), Ch. 5 (Guo & Lv), Ch. 6 (Lawrie)
+- Bohr & Mottelson, "Nuclear Structure", Vol. II, §4-5e (pp. 190-193), App. 6B (Eq. 6B-17)
+- C. M. Petrache (Ed.), "Chirality and Wobbling in Atomic Nuclei" (CRC Press 2025):
+  * Ch. 2: S. Frauendorf, "Wobbling motion in triaxial nuclei", pp. 24-61 (Eqs. 2.20-2.21)
+  * Ch. 5: S. Guo & B. F. Lv, "Recent experimental results on chirality and wobbling", pp. 91-107
+  * Ch. 6: E. A. Lawrie, "Tilted precession and wobbling in triaxial nuclei", pp. 108-136
 - Frauendorf & Donau, Phys. Rev. C 89, 014322 (2014)
 - Tanabe & Sugawara-Tanabe, Phys. Rev. C 95, 064315 (2017)
 - Sensharma et al., Phys. Rev. Lett. 124, 052501 (2020)
+- Lv et al., Phys. Rev. Lett. 128, 242501 (2022) [Evidence against wobbling in 135Pr]
 """
 
 import sys
@@ -61,54 +77,70 @@ import numpy as np
 
 PRESETS = {
     "135Pr_transverse_rigid_stable": {
-        "nucleus": "135Pr",
-        "description": "Prototype transverse wobbling with rigid/pairing-quenched inertia (stable up to high spin)",
+        "nucleus": "135Pr (synthetic model demonstration)",
+        "description": "Prototype transverse wobbling with rigid/pairing-quenched inertia (stable up to I_c ~ 14.4 hbar)",
+        "data_kind": "synthetic_model_benchmark",
         "wobbling_mode": "TW",
         "inertia_model": "rigid",
         "j_quasiparticle": 5.5,
-        "k_coriolis_attenuation": 0.85,
-        "gamma_deg": 22.0,
-        "moi_i": 42.0,
-        "eval_spins": [8.5, 10.5, 12.5, 14.5, 16.5, 18.5, 20.5]
+        "k_coriolis_attenuation": 1.0,
+        "gamma_deg": 26.0,
+        "moi_m": 21.0,
+        "moi_i": 21.0,
+        "moi_s": 13.0,
+        "moi_l": 4.0,
+        "eval_spins": [8.5, 10.5, 12.5]
     },
     "135Pr_transverse_hydro_unstable": {
-        "nucleus": "135Pr",
-        "description": "Transverse wobbling with hydrodynamic irrotational inertia (exhibits low-spin instability at I~10h)",
+        "nucleus": "135Pr (synthetic hydro demonstration)",
+        "description": "Transverse wobbling with hydrodynamic irrotational inertia (exhibits low-spin instability at I_c ~ 8.0 hbar)",
+        "data_kind": "synthetic_model_benchmark",
         "wobbling_mode": "TW",
         "inertia_model": "hydrodynamic",
         "j_quasiparticle": 5.5,
         "k_coriolis_attenuation": 1.0,
-        "gamma_deg": 22.0,
-        "moi_i": 34.0,
-        "eval_spins": [8.5, 10.5, 12.5, 14.5, 16.5, 18.5, 20.5]
+        "gamma_deg": 26.0,
+        "moi_m": 21.0,
+        "moi_i": 21.0,
+        "eval_spins": [8.5, 10.5, 12.5]
     },
     "105Pd_transverse_odd_neutron": {
-        "nucleus": "105Pd",
-        "description": "Odd-neutron transverse wobbling candidate in A~100 region (nu h11/2 particle)",
+        "nucleus": "105Pd (synthetic model demonstration)",
+        "description": "Odd-neutron transverse wobbling candidate in A~100 region (nu h11/2 quasiparticle)",
+        "data_kind": "synthetic_model_benchmark",
         "wobbling_mode": "TW",
         "inertia_model": "rigid",
         "j_quasiparticle": 5.5,
         "k_coriolis_attenuation": 0.85,
         "gamma_deg": 20.0,
+        "moi_m": 32.0,
         "moi_i": 32.0,
-        "eval_spins": [8.5, 10.5, 12.5, 14.5, 16.5, 18.5]
+        "moi_s": 22.0,
+        "moi_l": 7.0,
+        "eval_spins": [8.5, 10.5, 12.5, 14.5]
     },
     "187Au_longitudinal_wobbling": {
-        "nucleus": "187Au",
+        "nucleus": "187Au (synthetic model demonstration)",
         "description": "Longitudinal wobbling candidate in A~190 region (pi h9/2 along intermediate axis)",
+        "data_kind": "synthetic_model_benchmark",
         "wobbling_mode": "LW",
         "inertia_model": "rigid",
         "j_quasiparticle": 4.5,
         "k_coriolis_attenuation": 1.0,
         "gamma_deg": 20.0,
+        "moi_m": 45.0,
         "moi_i": 45.0,
-        "eval_spins": [11.5, 13.5, 15.5, 17.5, 19.5, 21.5]
+        "moi_s": 28.0,
+        "moi_l": 10.0,
+        "eval_spins": [11.5, 13.5, 15.5, 17.5]
     }
 }
 
+
 class OddAWobblingStabilitySolver:
     def __init__(self, wobbling_mode="TW", inertia_model="rigid", j_qp=5.5,
-                 k_att=0.85, gamma_deg=22.0, moi_i=40.0, moi_s=None, moi_l=None):
+                 k_att=1.0, gamma_deg=26.0, moi_m=21.0, moi_s=None, moi_l=None,
+                 moi_i=None):
         self.mode = wobbling_mode.upper()
         self.inertia_model = inertia_model.lower()
         self.j = float(j_qp)
@@ -117,104 +149,128 @@ class OddAWobblingStabilitySolver:
         self.gamma_deg = float(gamma_deg)
         self.gamma = np.radians(gamma_deg)
 
-        # Determine relative moments of inertia: J_s, J_i, J_l
-        # Definition: 1=s (short), 2=i (intermediate), 3=l (long)
+        # Handle legacy alias moi_i for moi_m
+        effective_moi_m = moi_m if moi_i is None else moi_i
+
+        # Determine relative moments of inertia: J_m, J_s, J_l
+        # Following Bohr-Mottelson App. 6B / Frauendorf 2025:
+        # J_m (intermediate) > J_s (short) > J_l (long)
         if moi_s is not None and moi_l is not None:
-            self.moi_i = float(moi_i)
+            self.moi_m = float(effective_moi_m)
             self.moi_s = float(moi_s)
             self.moi_l = float(moi_l)
         elif self.inertia_model == "hydrodynamic":
-            # Hydrodynamic flow: J_k = 4 * J_0 * sin^2(gamma - 2*pi*k / 3)
-            # s: k=1, i: k=2, l: k=3
-            j1 = np.sin(self.gamma - 2.0 * np.pi / 3.0)**2
-            j2 = np.sin(self.gamma - 4.0 * np.pi / 3.0)**2
-            j3 = np.sin(self.gamma)**2
-            scale = float(moi_i) / max(1e-6, j2)
-            self.moi_s = scale * j1
-            self.moi_i = float(moi_i)
-            self.moi_l = scale * j3
-        else: # "rigid"
-            # Rigid rotor: J_k = J_0 * [1 - 0.25 * cos(gamma - 2*pi*k / 3)]
-            jr1 = 1.0 - 0.25 * np.cos(self.gamma - 2.0 * np.pi / 3.0)
-            jr2 = 1.0 - 0.25 * np.cos(self.gamma - 4.0 * np.pi / 3.0)
-            jr3 = 1.0 - 0.25 * np.cos(self.gamma)
-            scale = float(moi_i) / jr2
-            self.moi_s = scale * jr1
-            self.moi_i = float(moi_i)
-            self.moi_l = scale * jr3
+            # Bohr-Mottelson Eq. (6B-17): J_k = 4*B*beta^2 * sin^2(gamma - 2*pi*k / 3)
+            # For 0 < gamma < 60 deg:
+            # Intermediate axis (m): sin^2(gamma - 120 deg) -> largest (maximum at gamma=30 deg)
+            # Short axis (s): sin^2(gamma + 120 deg) -> middle
+            # Long axis (l): sin^2(gamma) -> smallest
+            jm_hydro = np.sin(self.gamma - 2.0 * np.pi / 3.0)**2
+            js_hydro = np.sin(self.gamma + 2.0 * np.pi / 3.0)**2
+            jl_hydro = np.sin(self.gamma)**2
+            scale = float(effective_moi_m) / max(1e-6, jm_hydro)
+            self.moi_m = float(effective_moi_m)
+            self.moi_s = scale * js_hydro
+            self.moi_l = scale * jl_hydro
+        else: # "rigid" or empirical quenched
+            # When explicit values not provided, use typical pairing-quenched ratios J_s/J_m ~ 0.65, J_l/J_m ~ 0.20
+            self.moi_m = float(effective_moi_m)
+            self.moi_s = 0.65 * self.moi_m
+            self.moi_l = 0.20 * self.moi_m
 
-        # Critical frequency for TW instability:
-        # R_crit = j_eff / (1 - J_l / J_i)
-        ratio_l_i = self.moi_l / self.moi_i
-        ratio_s_i = self.moi_s / self.moi_i
+        # Legacy alias for backward compatibility
+        self.moi_i = self.moi_m
 
-        denom_l = 1.0 - ratio_l_i
-        denom_s = 1.0 - ratio_s_i
-
-        if denom_l > 1e-4:
-            self.R_crit_l = self.j_eff / denom_l
+        # Critical spin for Transverse Wobbling instability:
+        # I_c = j_eff / (1 - J_s / J_m)  [Frauendorf 2025, Eq. 2.21]
+        ratio_s_m = self.moi_s / self.moi_m
+        denom = 1.0 - ratio_s_m
+        if denom > 1e-4:
+            self.I_crit = self.j_eff / denom
         else:
-            self.R_crit_l = 999.0
+            self.I_crit = 999.0
 
-        if denom_s > 1e-4:
-            self.R_crit_s = self.j_eff / denom_s
-        else:
-            self.R_crit_s = 999.0
-
-        self.R_crit = min(self.R_crit_l, self.R_crit_s)
-        self.omega_crit = self.R_crit / self.moi_i
-        self.I_crit = np.sqrt(self.R_crit**2 + self.j_eff**2)
+        self.omega_crit = self.I_crit / self.moi_m
+        self.R_crit = np.sqrt(max(0.0, self.I_crit**2 - self.j_eff**2))
 
     def calculate_wobbling_frequency(self, spin):
         """
-        Calculate rotational frequency omega_rot and wobbling frequency hbar * omega_w for given spin I.
+        Calculate rotational frequency and wobbling excitation energy for a single spin I.
         """
         I = float(spin)
+        if I < self.j_eff:
+            return {
+                "spin": I,
+                "omega_rot_MeV": 0.0,
+                "hbar_omega_w_MeV": 0.0,
+                "is_stable": False,
+                "stability_status": "spin_below_aligned_particle",
+                "BE2_out_in_ratio": 0.0
+            }
 
         if self.mode == "TW":
-            # For TW, collective core angular momentum R = sqrt(max(0, I^2 - j_eff^2))
-            R = np.sqrt(max(0.01, I**2 - self.j_eff**2))
-            omega_rot = R / self.moi_i
+            # Transverse Wobbling:
+            # term1 = I / J_m - (I - j_eff) / J_s
+            # term2 = I / J_l - (I - j_eff) / J_s
+            omega_rot = I / self.moi_m
+            term1 = I / self.moi_m - (I - self.j_eff) / self.moi_s
+            term2 = I / self.moi_l - (I - self.j_eff) / self.moi_s
 
-            term_s = omega_rot * (1.0 - self.moi_i / self.moi_s) + self.j_eff / self.moi_s
-            term_l = omega_rot * (1.0 - self.moi_i / self.moi_l) + self.j_eff / self.moi_l
-
-            prod = term_s * term_l
-            if prod > 0 and term_s > 0 and term_l > 0:
+            prod = term1 * term2
+            if prod > 0.0 and term1 > 0.0 and term2 > 0.0:
                 hbar_omega_w = float(np.sqrt(prod))
                 is_stable = True
+                stability_status = "stable_harmonic"
+            elif abs(prod) <= 1.0e-14:
+                hbar_omega_w = 0.0
+                is_stable = False
+                stability_status = "critical_softening"
             else:
                 hbar_omega_w = 0.0
                 is_stable = False
+                stability_status = "HFA_unstable_requires_full_model"
+
+            # B(E2_out)/B(E2_in) transition probability ratio:
+            # Scales as (1 / I) * [1 / (J_m * omega_w)] * [1 + sqrt(J_s / J_l)]^2 / 2
+            if is_stable and hbar_omega_w > 1e-3:
+                geo_factor = 0.5 * (1.0 + np.sqrt(self.moi_s / self.moi_l))**2
+                be2_ratio = float((1.0 / (I * self.moi_m * hbar_omega_w)) * geo_factor)
+            else:
+                be2_ratio = 0.0
 
         else: # "LW"
-            # For LW, quasiparticle aligns parallel to intermediate axis: R = I - j_eff
-            R = max(0.1, I - self.j_eff)
-            omega_rot = R / self.moi_i
+            # Longitudinal Wobbling:
+            omega_rot = I / self.moi_m
+            term1 = I / self.moi_s - (I - self.j_eff) / self.moi_m
+            term2 = I / self.moi_l - (I - self.j_eff) / self.moi_m
 
-            term_s = omega_rot * (self.moi_i / self.moi_s - 1.0) + self.j_eff / self.moi_s
-            term_l = omega_rot * (self.moi_i / self.moi_l - 1.0) + self.j_eff / self.moi_l
-
-            prod = term_s * term_l
-            if prod > 0:
+            prod = term1 * term2
+            if prod > 0.0 and term1 > 0.0 and term2 > 0.0:
                 hbar_omega_w = float(np.sqrt(prod))
                 is_stable = True
+                stability_status = "stable_harmonic"
+            elif abs(prod) <= 1.0e-14:
+                hbar_omega_w = 0.0
+                is_stable = False
+                stability_status = "critical_softening"
             else:
                 hbar_omega_w = 0.0
                 is_stable = False
+                stability_status = "HFA_unstable_requires_full_model"
 
-        # Transition ratio B(E2_out) / B(E2_in)
-        if hbar_omega_w > 1e-4:
-            geo_factor = 0.25 * (1.0 + np.sqrt(self.moi_s / self.moi_l))**2
-            be2_ratio = (2.0 / (self.moi_i * hbar_omega_w * I)) * geo_factor
-        else:
-            be2_ratio = 0.0
+            if is_stable and hbar_omega_w > 1e-3:
+                geo_factor = 0.5 * (1.0 + np.sqrt(self.moi_m / self.moi_l))**2
+                be2_ratio = float((1.0 / (I * self.moi_s * hbar_omega_w)) * geo_factor)
+            else:
+                be2_ratio = 0.0
 
         return {
             "spin": I,
             "omega_rot_MeV": float(omega_rot),
+            "omega_rot_definition": "I / J_m (total-spin cranking proxy; not a separately inferred core frequency)",
             "hbar_omega_w_MeV": float(hbar_omega_w),
             "is_stable": is_stable,
+            "stability_status": stability_status,
             "BE2_out_in_ratio": float(be2_ratio)
         }
 
@@ -233,71 +289,107 @@ class OddAWobblingStabilitySolver:
         else:
             slope = 0.0
 
+        all_stable = (len(valid_pts) == len(results)) and len(results) > 0
+
         if self.mode == "TW":
-            mode_confirmed = (slope < -1e-4) and (len(valid_pts) >= 3)
-            diag_str = "Transverse Wobbling Confirmed (Decreasing omega_w with spin)" if mode_confirmed else "Low-spin Instability / Premature TiP Bifurcation"
+            if all_stable and slope < 0.0:
+                diag_str = "Harmonic TW model stable across evaluated spins; d(omega_w)/dI < 0"
+            elif any(r["stability_status"] == "critical_softening" for r in results):
+                diag_str = (
+                    f"Frozen-alignment HFA reaches softening near I_c = "
+                    f"{self.I_crit:.1f} hbar; full model required"
+                )
+            elif any(not r["is_stable"] for r in results):
+                diag_str = (
+                    f"Frozen-alignment HFA is unstable above its boundary near "
+                    f"I_c = {self.I_crit:.1f} hbar; full QTR/TAC treatment required"
+                )
+            else:
+                diag_str = "Anomalous TW slope in model"
         else:
-            mode_confirmed = (slope > 1e-4) and (len(valid_pts) >= 3)
-            diag_str = "Longitudinal Wobbling Confirmed (Increasing omega_w with spin)" if mode_confirmed else "Anomalous LW"
+            if all_stable and slope > 0.0:
+                diag_str = "Harmonic LW model stable across evaluated spins; d(omega_w)/dI > 0"
+            else:
+                diag_str = "Anomalous LW slope in model"
 
         return {
+            "analysis_kind": "quantitative_model_descriptors_only",
+            "data_kind": "synthetic_model_benchmark",
             "wobbling_mode": self.mode,
             "inertia_model": self.inertia_model,
             "j_qp": self.j,
             "k_coriolis_attenuation": self.k_att,
+            "j_eff": self.j_eff,
             "gamma_deg": self.gamma_deg,
             "moments_of_inertia": {
+                "moi_m": float(self.moi_m),
                 "moi_s": float(self.moi_s),
-                "moi_i": float(self.moi_i),
-                "moi_l": float(self.moi_l)
+                "moi_l": float(self.moi_l),
+                "moi_i": float(self.moi_m)  # legacy compatibility alias
             },
-            "critical_frequency_omega_crit_MeV": float(self.omega_crit),
             "critical_spin_I_crit": float(self.I_crit),
+            "critical_frequency_omega_crit_MeV": float(self.omega_crit),
             "frequency_slope_dOmega_dI": slope,
-            "mode_confirmed": bool(mode_confirmed),
+            "is_harmonic_stable": all_stable,
+            "mode_confirmed": None,  # Model calculations do not confirm physical modes in real nuclei
             "diagnosis": diag_str,
-            "spin_trajectory": results
+            "spin_trajectory": results,
+            "scientific_context": {
+                "TW_hallmark": "d(hbar*omega_w)/dI < 0 and collective inter-band E2 enhancement B(E2_out)/B(E2_in) ~ 1/I",
+                "LW_hallmark": "d(hbar*omega_w)/dI > 0 with dominant E2 inter-band transitions",
+                "bifurcation_boundary": (
+                    f"TW HFA softens to omega_w=0 at I_c = {self.I_crit:.1f} hbar; "
+                    "the post-softening branch is not identified by this solver"
+                ),
+                "controversy_status": "Empirical identification requires mixing ratio delta, linear polarization P_gamma, and lifetime tau; model slope alone does not establish nature of band."
+            }
         }
 
+
 def run_wobbling_stability_analysis(nucleus="Generic", wobbling_mode="TW", inertia_model="rigid",
-                                    j_qp=5.5, k_att=0.85, gamma_deg=22.0, moi_i=40.0,
-                                    moi_s=None, moi_l=None, eval_spins=None):
+                                    j_qp=5.5, k_att=1.0, gamma_deg=26.0, moi_m=21.0,
+                                    moi_s=None, moi_l=None, moi_i=None, eval_spins=None):
     if eval_spins is None:
-        eval_spins = [8.5, 10.5, 12.5, 14.5, 16.5, 18.5, 20.5]
+        eval_spins = [8.5, 10.5, 12.5]
+    effective_moi_m = moi_m if moi_i is None else moi_i
     solver = OddAWobblingStabilitySolver(
         wobbling_mode=wobbling_mode, inertia_model=inertia_model,
-        j_qp=j_qp, k_att=k_att, gamma_deg=gamma_deg, moi_i=moi_i,
+        j_qp=j_qp, k_att=k_att, gamma_deg=gamma_deg, moi_m=effective_moi_m,
         moi_s=moi_s, moi_l=moi_l
     )
     res = solver.evaluate_spin_series(eval_spins)
     res["nucleus"] = nucleus
     return res
 
+
 def format_text_report(output, title="Odd-A Wobbling Stability & Bifurcation Analysis"):
     lines = []
-    lines.append("=" * 76)
+    lines.append("=" * 78)
     lines.append(f"  {title}")
-    lines.append("=" * 76)
-    lines.append(f"Nucleus: {output['nucleus']} | Mode: {output['wobbling_mode']} | Inertia: {output['inertia_model'].upper()}")
-    lines.append(f"j = {output['j_qp']:.1f} hbar (k_att = {output['k_coriolis_attenuation']:.2f}), gamma = {output['gamma_deg']:.1f} deg")
+    lines.append("=" * 78)
+    lines.append(f"Nucleus: {output.get('nucleus', 'Generic')} | Mode: {output['wobbling_mode']} | Inertia Model: {output['inertia_model'].upper()}")
+    lines.append(f"j = {output['j_qp']:.1f} hbar (k_att = {output['k_coriolis_attenuation']:.2f}, j_eff = {output['j_eff']:.2f} hbar), gamma = {output['gamma_deg']:.1f} deg")
     moi = output["moments_of_inertia"]
-    lines.append(f"Moments of Inertia: J_s = {moi['moi_s']:.1f}, J_i = {moi['moi_i']:.1f}, J_l = {moi['moi_l']:.1f} MeV^-1")
-    lines.append("\n[1] Dynamic Stability Boundaries:")
-    lines.append(f"  Critical Bifurcation Frequency:   omega_crit = {output['critical_frequency_omega_crit_MeV']:.3f} MeV/hbar")
-    lines.append(f"  Predicted Critical Spin:          I_crit     = {output['critical_spin_I_crit']:.1f} hbar")
-    lines.append(f"  Wobbling Frequency Slope:         d(hbar*omega_w)/dI = {output['frequency_slope_dOmega_dI']:+.4f} MeV/hbar")
-    lines.append(f"  Diagnostic Status:                {output['diagnosis']}")
+    lines.append(f"Moments of Inertia: J_m = {moi['moi_m']:.1f}, J_s = {moi['moi_s']:.1f}, J_l = {moi['moi_l']:.1f} hbar^2/MeV")
+    lines.append("\n[1] Dynamic Stability Boundaries (Frozen Alignment Harmonic Approximation):")
+    lines.append(f"  Critical Bifurcation Spin:        I_c        = {output['critical_spin_I_crit']:.2f} hbar")
+    lines.append(f"  Critical Core Frequency:          omega_c    = {output['critical_frequency_omega_crit_MeV']:.3f} MeV/hbar")
+    lines.append(f"  Wobbling Frequency Slope:         d(omega)/dI= {output['frequency_slope_dOmega_dI']:+.4f} MeV/hbar")
+    lines.append(f"  Model Diagnostic Status:          {output['diagnosis']}")
+    lines.append(f"  Mode Confirmation Status:         UNASSESSED (Model descriptor only; requires delta, P_gamma, tau)")
     lines.append("\n[2] Spin Evolution Trajectory:")
     lines.append("   Spin I (hbar)    omega_rot (MeV)    hbar*omega_w (MeV)    B(E2_out)/B(E2_in)    Stability")
     lines.append("   ---------------------------------------------------------------------------------")
     for pt in output["spin_trajectory"]:
-        stab_str = "Stable" if pt["is_stable"] else "UNSTABLE (Bifurc/TiP)"
+        stab_str = pt.get("stability_status", "unknown")
         lines.append(f"       {pt['spin']:4.1f}             {pt['omega_rot_MeV']:6.3f}             {pt['hbar_omega_w_MeV']:6.3f}                {pt['BE2_out_in_ratio']:6.3f}          {stab_str}")
-    lines.append("-" * 76)
-    lines.append("Methodology Takeaway: Transverse wobbling requires d(omega_w)/dI < 0 and terminates")
-    lines.append("at omega_crit, providing an unambiguous physical gate against false claims.")
-    lines.append("=" * 76)
+    lines.append("-" * 78)
+    lines.append("Evidence Boundary Note:")
+    lines.append("  In this frozen-alignment parameterization, TW can soften at I_c = j_eff / (1 - J_s/J_m); the post-softening branch is unresolved here.")
+    lines.append("  Competing interpretations (e.g. 135Pr: TW vs SP vs TiP vs IBFM gamma-vibration) remain open.")
+    lines.append("=" * 78)
     return "\n".join(lines)
+
 
 def main():
     parser = argparse.ArgumentParser(description="Odd-A Wobbling Stability & Bifurcation Solver")
@@ -319,16 +411,18 @@ def main():
     if args.spin:
         spins = [args.spin]
     else:
-        spins = cfg.get("eval_spins", [8.5, 10.5, 12.5, 14.5, 16.5, 18.5, 20.5])
+        spins = cfg.get("eval_spins", [8.5, 10.5, 12.5])
 
     res = run_wobbling_stability_analysis(
         nucleus=cfg.get("nucleus", "Generic"),
         wobbling_mode=cfg["wobbling_mode"],
         inertia_model=cfg.get("inertia_model", "rigid"),
         j_qp=cfg["j_quasiparticle"],
-        k_att=cfg.get("k_coriolis_attenuation", 0.85),
+        k_att=cfg.get("k_coriolis_attenuation", 1.0),
         gamma_deg=cfg["gamma_deg"],
-        moi_i=cfg["moi_i"],
+        moi_m=cfg.get("moi_m", cfg.get("moi_i", 21.0)),
+        moi_s=cfg.get("moi_s", None),
+        moi_l=cfg.get("moi_l", None),
         eval_spins=spins
     )
 
@@ -336,6 +430,7 @@ def main():
         print(json.dumps(res, indent=2))
     else:
         print(format_text_report(res, title=f"Preset: {args.preset or '135Pr_transverse_rigid_stable'} ({cfg['description']})"))
+
 
 if __name__ == "__main__":
     main()

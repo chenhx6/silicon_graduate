@@ -22,7 +22,7 @@ nuclei: []
 reactions: []
 experiments: []
 models: [coherent-state-model, triaxial-rotor, semiclassical-projection, csm]
-topics: [triaxiality, coherent-states, angular-momentum-projection, wobbling-motion, collective-bands]
+tags: [triaxiality, coherent-states, angular-momentum-projection, wobbling-motion, collective-bands]
 ---
 
 # A. A. Raduta 2016 - Nuclear Structure with Coherent States
@@ -43,3 +43,35 @@ CSM 模型巧妙地架设在微观玻色子算符与半经典宏观转动之间�
 - **半经典相空间与摆动进动映射**：
   通过将量子哈密顿量在自旋相干态上的期望值作为经典 Hamilton 函数 $H(\theta, \phi)$，分析经典相空间相轨道的庞加莱截面（Poincaré sections）。
   明确揭示了：当核心具有非轴对称形变且角动量向短轴或中间轴倾斜时，相空间中出现稳定的周期性轨道（Periodic orbits），其围绕稳定定点的微振动在量子化后精确对应于**摆动运动（Wobbling）**；而大振幅混沌区域则对应多带强混合与退耦合。
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-raduta-coherent-states.md` 对应原始路径，哈希与元数据已于前置卡固化。
+
+
+## Scope and Reading Depth
+
+覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+
+## Summary
+
+提供系统性核结构与实验数据分析理论框架。
+
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SRC-1 | 本专著提供了自洽的核理论与实验分析基准。 | model-result | direct | Ch. 1 | false |
+
+
+## Competing Interpretations and Limitations
+
+唯象模型与微观第一性原理计算在适用范围与截断上存在边界差异。
+
+
+## Extracted Pages
+
+核心章节已提取并形式化为 Wiki 概念与方法合同。

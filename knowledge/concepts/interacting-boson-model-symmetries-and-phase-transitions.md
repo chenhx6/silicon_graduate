@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [ibm, ibfm, casten-triangle, dynamical-symmetries, u5-su3-o6, phase-transitions, gamma-softness, a130-region]
+tags: [ibm, ibfm, casten-triangle, dynamical-symmetries, u5-su3-o6, phase-transitions, gamma-softness, a130-region]
 ---
 
 # 相互作用玻色子模型（IBM/IBFM）动力学对称性、Casten三角形与形变相变
 
-## 1. 物理全景：从微观费米子对到酉代数 $U(6)$
+## Definition
+
+### 物理全景：从微观费米子对到酉代数 $U(6)$
 
 在低能集体核结构中，几何模型（Bohr-Mottelson 模型）从连续核表面坐标出发，而壳模型从离散单粒子轨道出发。1974 年，F. Iachello 与 A. Arima 提出了基于李代数对称性的**相互作用玻色子模型（Interacting Boson Model, IBM）**。
 
@@ -24,7 +26,9 @@ topics: [ibm, ibfm, casten-triangle, dynamical-symmetries, u5-su3-o6, phase-tran
 
 ---
 
-## 2. 三大极限动力学对称性与 Casten 三角形
+## Necessary Assumptions
+
+### 三大极限动力学对称性与 Casten 三角形
 
 群链约化定理指出，当哈密顿量完全由某一子群链的 Casimir 算符线性组合构成时，系统具有精确解析解，构成**三大经典极限动力学对称性**，在著名核结构 **Casten 三角形（Casten Triangle）** 中构成三个端点：
 
@@ -67,7 +71,13 @@ topics: [ibm, ibfm, casten-triangle, dynamical-symmetries, u5-su3-o6, phase-tran
 
 ---
 
-## 3. 相互作用玻色子-费米子模型（IBFM）与低自旋“伪摆动”解密
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 相互作用玻色子-费米子模型（IBFM）与低自旋“伪摆动”解密
 
 当在由 $s, d$ 玻色子构成的偶偶核芯外，添加一个占据高 $j$ 单粒子轨道（如 $\pi h_{11/2}$ 或 $\nu h_{11/2}$）的奇核子（费米子）时，系统扩展为**相互作用玻色子-费米子模型（Interacting Boson-Fermion Model, IBFM）**。
 
@@ -84,3 +94,18 @@ $$V_{BF} = \sum_j \Gamma_j [Q_B \cdot (a_j^\dagger \tilde{a}_j)] + \sum_{j j'} \
 2. **声子耦合伪装**：单粒子占据 $\pi h_{11/2}$ 轨道时，奇核子与大振幅 $\gamma$ 振动声子发生强烈动力学杂化（$\gamma \otimes qp$）；
 3. 交换相互作用在低转动频率下，自然导致投影出的第一伴随能带能量相对于主带发生特征性下沉，**完美再现了类似横向摆动的“摆动能量向下弯曲”能级拓扑**！
 4. **判决分水岭**：IBFM 证明该伴随带内部的 $E2$ 矩阵元并未获得宏观转子进动的集体增强，跨带跃迁主要由单粒子磁跃迁驱动（$M1$ 占优）——这一理论结论与郭松、吕冰锋在 $^{135}\text{Pr}$ 中测得线偏振排斥摆动的实验事实**完全不谋而合**！
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

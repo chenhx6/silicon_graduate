@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-11-04",
+  "task": "suhonen-microscopic-nuclear-theory-book-to-skill-delivery",
+  "sources": [
+    {
+      "title": "From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory",
+      "author": "Jouni Suhonen",
+      "path": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+      "sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+      "archive_required": true,
+      "raw_unchanged": true
+    }
+  ],
+  "skill_root": ".agents/skills/suhonen-microscopic-nuclear-theory",
+  "skill_files": [
+    ".agents/skills/suhonen-microscopic-nuclear-theory/SKILL.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/glossary.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/patterns.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/cheatsheet.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/chapters/ch01-02-racah-algebra-wigner-eckart.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/chapters/ch06-electromagnetic-transition-operators.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/chapters/ch08-surface-delta-interaction-sdi.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/chapters/ch13-14-bcs-pairing-quasiparticles.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/chapters/ch18-qrpa-collective-vibrations.md",
+    ".agents/skills/suhonen-microscopic-nuclear-theory/chapters/ch19-pnqrpa-ikeda-sum-rule-beta-decay.md"
+  ],
+  "chapter_count": 6,
+  "study_focus": [
+    "Racah algebra, irreducible spherical tensors, 6j and 9j recoupling symbols, and Edmonds-Bohr-Mottelson phase conventions",
+    "microscopic electromagnetic transition operators, effective charges, and single-particle reduced matrix elements",
+    "surface delta interaction (SDI) and analytical antisymmetrized two-particle matrix elements",
+    "BCS pairing mean field, Bogoliubov-Valatin quasiparticle transformation, gap equation, and occupation numbers",
+    "quasiparticle random phase approximation (QRPA), X and Y amplitudes, and two-phonon collective vibrations",
+    "proton-neutron QRPA (pnQRPA), Gamow-Teller matrix elements, and the exact Ikeda sum rule S_- - S_+ = 3(N-Z)"
+  ],
+  "evidence_boundary": "AI-generated skill extraction and cross-linking; chapter locators are study navigation aids and do not replace page-level human review for publication claims.",
+  "status": "complete"
+}

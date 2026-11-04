@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [wigner-supermultiplet, su4-symmetry, casimir-invariants, wigner-energy, mass-cusp, n-equals-z, pn-pairing, nuclear-masses]
+tags: [wigner-supermultiplet, su4-symmetry, casimir-invariants, wigner-energy, mass-cusp, n-equals-z, pn-pairing, nuclear-masses]
 ---
 
 # Wigner超多重态SU(4)对称性、Casimir不变量与N=Z质量尖点维格纳能动力学
 
-## 1. 物理全景：经典液滴质量公式的尖点偏离与自旋-同位旋统一
+## Definition
+
+### 物理全景：经典液滴质量公式的尖点偏离与自旋-同位旋统一
 
 在宏观核物理模型中，Bethe-Weizsäcker 经典液滴质量公式将核对称能简单描述为同位旋非对称度（$N-Z$）的光滑二次抛物线项：
 $$E_{\text{sym}}(A, T) = - a_{\text{sym}} \frac{(N - Z)^2}{A} = - 4 a_{\text{sym}} \frac{T_z^2}{A}$$
@@ -29,7 +31,9 @@ $$E_{\text{sym}}(A, T) = - a_{\text{sym}} \frac{(N - Z)^2}{A} = - 4 a_{\text{sym
 
 ---
 
-## 2. 严格物理公式与代数推导
+## Necessary Assumptions
+
+### 严格物理公式与代数推导
 
 ### (1) Wigner $SU(4)$ 代数与 Casimir 不变量
 群 $SU(4)$ 具有 15 个生成元：
@@ -74,7 +78,13 @@ $$\langle \hat{C}_2(SU(4)) \rangle = \frac{1}{2} \left[ P(P + 4) + P'(P' + 2) + 
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/wigner_supermultiplet_su4_calculator.py`
@@ -95,6 +105,19 @@ python3 system/scripts/analysis/nuclear_analyzer.py wigner -Z 24 -A 48 --scan-is
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[isobaric-analog-states-and-coulomb-energy-differences]]：同位旋类似态（IAS）的同位旋多重态能量在扣除电磁库仑项后，基底完全由此处 $SU(4)$ 体系维格纳能支配；
 - [[two-nucleon-transfer-pairing-vibrations-and-josephson-dynamics]]：自共轭核之间的双核子转移反应（如 $(p, t)$ 与 $(^3\text{He}, p)$）正是探测同标量 $T=0$ 对能的重要工具。

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-11-04",
+  "task": "heavy-ion-nuclear-reactions-book-to-skill-delivery",
+  "sources": [
+    {
+      "title": "重离子核反应",
+      "author": "林承键",
+      "path": "raw/books/重离子核反应 (林承键) (Z-Library).pdf",
+      "sha256": "792bfe7f7807623b7e1439b32eddb7320ab3ec6bf6be7e3894b436c1c9f65b2e",
+      "archive_required": true,
+      "raw_unchanged": true
+    },
+    {
+      "title": "Introduction to Nuclear Reactions (2nd Ed.)",
+      "author": "Carlos A. Bertulani & Pawel Danielewicz",
+      "path": "raw/books/Introduction to Nuclear Reactions (C.A. Bertulani P. Danielewicz) (Z-Library).pdf",
+      "sha256": "ad1391abd781e2277433283b6635679cfc45efc9d9d5472d4aabcd172509cb71",
+      "archive_required": true,
+      "raw_unchanged": true
+    }
+  ],
+  "skill_root": ".agents/skills/heavy-ion-nuclear-reactions",
+  "skill_files": [
+    ".agents/skills/heavy-ion-nuclear-reactions/SKILL.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/glossary.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/patterns.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/cheatsheet.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/ch01-kinematics-and-scattering.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/ch02-heavy-ion-interaction-potentials.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/ch04-quasi-elastic-and-transfer-reactions.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/ch05-deep-inelastic-collisions-and-wilczynski.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/ch06-fusion-dynamics-and-barrier-distribution.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/ch07-compound-nucleus-decay-and-statistical-evaporation.md",
+    ".agents/skills/heavy-ion-nuclear-reactions/chapters/heavy-ion-experiment-design-guide.md"
+  ],
+  "chapter_count": 7,
+  "study_focus": [
+    "two-body collision kinematics and center-of-mass frame transformation",
+    "heavy-ion interaction potentials, proximity force theorem, and Bass barrier",
+    "Fresnel elastic scattering and quarter-point interaction radius extraction",
+    "Wong parabolic barrier penetration formula and sub-barrier fusion enhancement",
+    "Rowley barrier distribution second-derivative theorem and coupled-channels effects",
+    "quasi-elastic scattering, Q-matching, and DWBA multi-nucleon transfer reactions",
+    "deep inelastic collisions, Wilczynski plot, and angular momentum dissipation",
+    "Hauser-Feshbach compound nucleus statistical decay and neutron evaporation window",
+    "in-beam experiment design: beam energy, target thickness, recoil velocity, and beam-time budget"
+  ],
+  "evidence_boundary": "AI-generated skill extraction and cross-linking; chapter locators are study navigation aids and do not replace page-level human review for publication claims.",
+  "status": "complete"
+}

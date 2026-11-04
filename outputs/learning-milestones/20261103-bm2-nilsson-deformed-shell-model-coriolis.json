@@ -1,0 +1,64 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Bohr & Mottelson《Nuclear Structure》第二卷第 5 章 §5-1 与 §5-3（Nilsson 变形单粒子能级、渐近量子数、转移反应指纹与高自旋 Coriolis 顺排）的系统精读与核验",
+  "source": {
+    "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+    "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+    "chapter": "5 (§5-1 and §5-3)",
+    "chapter_title": "Chapter 5: One-Particle Motion in Nonspherical Nuclei (§5-1 Stationary States; §5-3 Moments and Transitions)",
+    "authors": "Aage Bohr and Ben R. Mottelson",
+    "scope": "Printed pp.211-238 and pp.243-255 / physical PDF pp.233-260 and pp.265-277, full text, equations 5-1 to 5-48, and Figures 5-1 to 5-10",
+    "evidence_route": "native text extraction plus algebraic derivation and diagrammatic verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/bm2-nilsson-deformed-shell-model-and-coriolis-alignment-contract.md",
+      "reason": "established method contract on Nilsson deformed harmonic oscillator Hamiltonian, asymptotic quantum numbers [N n3 Lambda Omega], avoided crossings, single-nucleon transfer fingerprints, Coriolis decoupling parameter a, second-order MOI renormalization, and Stephens rotation-alignment"
+    },
+    {
+      "path": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "reason": "upgraded claim BM2-7 to verified direct, registered claims BM2-29 to BM2-32, updated method references"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the BM2 Nilsson model and Coriolis alignment contract"
+    },
+    {
+      "path": "knowledge/concepts/nilsson-deformed-shell-model-dynamics.md",
+      "reason": "cross-referenced BM2 Chapter 5 Nilsson model foundations"
+    },
+    {
+      "path": "knowledge/methods/bm2-particle-rotor-adiabatic-coriolis-contract.md",
+      "reason": "linked BM2 Chapter 5 Nilsson decoupling parameter and Stephens rotation alignment"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.241 Eq. 5-10 (Nilsson model deformed harmonic oscillator Hamiltonian with l.s and l^2 terms)",
+    "PDF p.243-247 Figures 5-1 to 5-5 (Nilsson single-particle level diagrams for protons and neutrons in prolate potentials)",
+    "PDF p.246 Eq. 5-15 (Asymptotic single-particle energy expression in cylindrical basis [N n3 Lambda Omega])",
+    "PDF p.250 Table 5-2 (Expansion of Nilsson wave functions in spherical basis and avoided crossings)",
+    "PDF p.266 (Single-nucleon transfer reaction cross sections and Vergnes-Sheline fingerprint patterns)",
+    "PDF p.272 Eq. 5-46 (Coriolis decoupling parameter a in K=1/2 bands)",
+    "PDF p.273 Eq. 5-47 (Second-order Coriolis contribution to moment of inertia delta A with BCS pairing factors)"
+  ],
+  "claims": [
+    "The Nilsson deformed harmonic oscillator Hamiltonian provides single-particle states characterized in the large prolate deformation limit by asymptotic quantum numbers [N n3 Lambda Omega], with large n3 down-sloping orbits forming unique-parity intruder states (e.g. h11/2, i13/2).",
+    "Single-particle states with identical parity pi = (-1)^N and projection Omega undergo avoided crossings that mix spherical j-components c_j.",
+    "Single-nucleon transfer reactions (stripping and pickup) yield cross sections proportional to c_j^2 u_nu^2 or c_j^2 v_nu^2, producing distinctive fingerprint patterns that uniquely identify Nilsson orbitals.",
+    "In K = 1/2 bands, diagonal Coriolis matrix elements generate the decoupling parameter a, inducing a signature-dependent energy staggering Delta E_1/2(I) = A_rot a (-1)^(I+1/2) (I+1/2).",
+    "Second-order Coriolis band mixing renormalizes the rotational parameter delta A through the BCS pairing factor (u_nu u_nu' + v_nu v_nu')^2, with pure Nilsson matrix elements systematically quenched by an empirical attenuation factor of 0.6 - 0.8.",
+    "At high spin, Coriolis force -omega j_x decouples the particle from the deformed core, aligning j with the rotational axis to form Stephens rotation-aligned decoupled bands with core-like energy spacings."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded section text, algebraic equations, and diagrammatic unit",
+    "remaining_queue": "Remaining chapters of Bohr & Mottelson Vol. II (e.g. Chapter 6) remain queued",
+    "boundary": [
+      "Standard Nilsson model assumes axial symmetry and does not describe triaxial gamma deformation without introducing non-axial terms",
+      "Coriolis attenuation factor rho_att ~ 0.7 is phenomenological and requires microscopic particle-vibration and pairing-fluctuation models for quantitative prediction"
+    ]
+  }
+}

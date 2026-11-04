@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "国际核结构与衰变数据网 ENSDF 格式语义与能级纲图自动对账指南"
 aliases: [ENSDF格式指南, NNDC核数据规范, XUNDL解析方法, 能级纲图跨平台对账, 核谱学数据格式]
 created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [ensdf, nndc, level-scheme, nuclear-data-formats, spectroscopy-crosswalk, gamma-rays]
+tags: [ensdf, nndc, level-scheme, nuclear-data-formats, spectroscopy-crosswalk, gamma-rays]
 ---
 
 # 国际核结构与衰变数据网 ENSDF 格式语义与能级纲图自动对账指南
 
-## 1. 国际核数据基础设施全景
+## Purpose
+
+### 国际核数据基础设施全景
 
 在低能实验核物理与核谱学分析中，由国际原子能机构（IAEA）协调、美国布鲁克海文国家实验室国家核数据中心（NNDC）主导维护的**评估核结构数据文件（Evaluated Nuclear Structure Data File, ENSDF）**与**在束编译核数据文件（XUNDL）**，是全球学术界公认的最权威能级结构与衰变性质基准数据库。
 
@@ -19,7 +22,9 @@ topics: [ensdf, nndc, level-scheme, nuclear-data-formats, spectroscopy-crosswalk
 
 ---
 
-## 2. ENSDF 80 列固定宽度（Fixed-Width）格式规范
+## Inputs and Assumptions
+
+### ENSDF 80 列固定宽度（Fixed-Width）格式规范
 
 ENSDF 文件采用经典的 80 列 ASCII 纯文本格式组织，每一行代表一个特定的物理实体。
 
@@ -53,7 +58,13 @@ ENSDF 文件采用经典的 80 列 ASCII 纯文本格式组织，每一行代表
 
 ---
 
-## 3. 自动化能级纲图对账工作流（Crosswalk Protocol）
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 自动化能级纲图对账工作流（Crosswalk Protocol）
 
 编写数据对账程序时，必须遵循以下容差匹配与判定法则：
 
@@ -65,3 +76,9 @@ ENSDF 文件采用经典的 80 列 ASCII 纯文本格式组织，每一行代表
    - 若强度比发生严重畸变，提示存在未分辨的能量重叠双峰（Unresolved doublet）或该能级受高自旋转动带强力布居导致的级联重配；
 3. **新跃迁确认规则（New Transition Candidate）**：
    - 若某条强符合线在 $\pm 2.0\text{ keV}$ 内无任何 ENSDF 对应记录，且满足与已知能带的门控符合关系，标记为新发现候选跃迁，记录为独立研究增益。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

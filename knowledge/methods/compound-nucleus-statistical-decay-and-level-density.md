@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "复合核统计衰变、能级密度参数化与蒸发道竞争计算手册"
 aliases: [复合核统计衰变, 能级密度计算, Hauser-Feshbach模型, 蒸发道截面评估, RIPL-2参数手册]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [compound-nucleus, hauser-feshbach, level-density, transmission-coefficients, evaporation-channels]
+tags: [compound-nucleus, hauser-feshbach, level-density, transmission-coefficients, evaporation-channels]
 ---
 
 # 复合核统计衰变、能级密度参数化与蒸发道竞争计算手册
 
-## 1. 物理框架：Bohr 独立性假设与 Hauser-Feshbach 统计理论
+## Purpose
+
+### 物理框架：Bohr 独立性假设与 Hauser-Feshbach 统计理论
 
 在重离子熔合反应中，当入射弹核与靶核克服库仑势垒发生完全熔合后，弹核的宏观动能通过核子间的剧烈多次两体碰撞完全热化，形成处于高激发能 $E^*$ 和高角动量 $J$ 的热平衡中间态——**复合核（Compound Nucleus, CN）**。
 
@@ -24,7 +27,9 @@ $$\sigma_{\alpha \beta}(E_{\text{inc}}) = \frac{\pi}{k_\alpha^2} \sum_{J^\pi} \f
 
 ---
 
-## 2. 能级密度（Nuclear Level Density）参数化理论
+## Inputs and Assumptions
+
+### 能级密度（Nuclear Level Density）参数化理论
 
 当复合核激发能高于核子分离能时，分立能级演化为致密的准连续区，粒子衰变速率强烈正比于残核的能级密度 $\rho(E^*, J^\pi)$。
 
@@ -41,7 +46,13 @@ $$\rho(U, J) = \frac{\sqrt{\pi}}{12} \frac{\exp(2\sqrt{a U})}{a^{1/4} U^{5/4}} \
 
 ---
 
-## 3. 出射通道穿透系数与蒸发道竞争物理法则
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 出射通道穿透系数与蒸发道竞争物理法则
 
 ### (1) 中子 vs 带电粒子蒸发竞争
 - **中子蒸发通道（$xn$ 道）**：
@@ -64,3 +75,9 @@ $$\langle E_{\text{kin}}^n \rangle \approx 2 T = 2 \sqrt{\frac{E^*}{a}} \approx 
 - $5n$ 最佳复合核激发能：$E^* \approx 58 \sim 68\text{ MeV}$。
 
 这套理论模型为利用 Python 编写精准截面预测与分析算法提供了严格的数学函数基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

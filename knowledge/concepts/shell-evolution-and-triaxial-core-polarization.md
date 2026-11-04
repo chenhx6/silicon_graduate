@@ -6,12 +6,14 @@ created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [shell-evolution, monopole-interaction, tensor-force, triaxial-core-polarization, heyde-concepts]
+tags: [shell-evolution, monopole-interaction, tensor-force, triaxial-core-polarization, heyde-concepts]
 ---
 
 # 微观壳演化、单极漂移与三轴核芯极化动力学
 
-## 1. 理论源头：经典壳模型与远离稳定线壳演化
+## Definition
+
+### 理论源头：经典壳模型与远离稳定线壳演化
 
 在经典 Mayer-Jensen 独立粒子壳模型中，单粒子势阱由球形谐振子势加自旋-轨道耦合项 $V_{ls} \vec{l} \cdot \vec{s}$ 构成，预言了固定的幻数（2, 8, 20, 28, 50, 82, 126）。
 
@@ -21,7 +23,9 @@ topics: [shell-evolution, monopole-interaction, tensor-force, triaxial-core-pola
 
 ---
 
-## 2. 单极相互作用（Monopole Drift）与张量力机制
+## Necessary Assumptions
+
+### 单极相互作用（Monopole Drift）与张量力机制
 
 ### (1) 单极相互作用定义
 二体相互作用 $V$ 在质子轨道 $j_p$ 与中子轨道 $j_n$ 之间的单极矩阵元定义为角动量耦合矩阵元按总自旋 $J$ 统计权重的平均：
@@ -38,7 +42,13 @@ $$\Delta \epsilon(j_p) = V_{j_p j_n}^m \cdot n_{j_n}$$
 
 ---
 
-## 3. 从微观组态到宏观三轴形变的极化（Core Polarization）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 从微观组态到宏观三轴形变的极化（Core Polarization）
 
 ### (1) 多极展开与四极形变驱动
 二体相互作用展开为多极项：$V(1, 2) = V^0 + V^2 \hat{Q}_1 \cdot \hat{Q}_2 + \dots$。
@@ -54,3 +64,18 @@ $$\Delta \epsilon(j_p) = V_{j_p j_n}^m \cdot n_{j_n}$$
 - 质子处于 $Z=56 \sim 62$（位于 $Z=50$ 壳层以上粒子型）；
 - 中子处于 $N=73 \sim 77$（位于 $N=82$ 闭壳以下空穴型）；
 - 粒子-空穴四极极化强行锁定了 $\gamma \approx 20^\circ \sim 30^\circ$ 的三轴非轴对称形变，从而为手征三面体标架和摆动惯量分立提供了牢固的微观基石。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

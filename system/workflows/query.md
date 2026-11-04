@@ -2,7 +2,7 @@
 type: system-workflow
 graph-excluded: true
 operation: query
-updated: 2026-07-15
+updated: 2026-11-03
 ---
 
 # QUERY：知识库查询流程
@@ -17,6 +17,20 @@ updated: 2026-07-15
 普通 Wiki 问答以直接回答、必要 inline evidence links 和证据边界为目标，不默认执行完整持续学习闭环，不自动追加迁移案例、失效检验、反向检验或研究问题，也不自动创建或默认检索 provisional research reasoning。
 
 路径规则：遵守 [`system/path-contract.md`](../path-contract.md)。问答的长期事实候选只来自 `knowledge/` 及其回链的 `raw/` 原文；`outputs/`、`system/`、`tools/` 和 `tmp/` 中的报告、计划、回执或日志不是长期事实源。若用户要求把输出中的内容用于后续问答或写作，先将可复用内容提炼到 `knowledge/` 并补齐 source/locator。
+
+### 1.2 外部文献补齐与主题候选
+
+如果当前问题需要本库尚未收录的论文、学位论文、补充材料或方法原文，且该来源
+会实质改善回答、投稿核查或论文写作，Codex 可以按合法可访问路径主动下载到
+`raw/papers/gpt/query/YYYYMMDD-<topic>/`，并按
+[`research-archive`](research-archive.md) 登记 URL、获取时间、文件大小、SHA-256、
+`archive_required: true` 和阅读边界。30 天学习计划来源仍进入
+`raw/papers/gpt/learning-daily/`。
+
+该外部获取规则是 raw 归档例外，仍不自动把摘要或 AI 总结写入 `knowledge/`。若来源
+未来可能服务于多个问题，在 manifest 中设置 `learning_candidate: true`、
+`learning_topic` 和 `collection_reason`，后续按主题规模组织专题学习。下载失败或只能
+取得摘要时，回答必须保留证据边界，不能用 URL-only citation 冒充已归档全文。
 
 L0-L4 路由由 `autonomous-research.md` 维护。普通问答保持只读；授权摄入/综合默认进入 L2，高价值问题可进入 L3；L4 必须由用户确认数据后手动启动。不要在本文件复制等级定义。
 

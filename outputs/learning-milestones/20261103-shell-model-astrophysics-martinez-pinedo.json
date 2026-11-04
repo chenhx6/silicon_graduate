@@ -1,0 +1,54 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Martínez-Pinedo & Langanke 关于核天体物理壳模型应用（超新星电子俘获、中微子反应、r过程等待点核与SMMC统计输入）的主文本核读，完成整本70周年壳模型合集的最终闭环",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "article": "Martínez-Pinedo & Langanke, Shell Model Applications in Nuclear Astrophysics",
+    "doi": "10.3390/physics4020046",
+    "scope": "Article pp.677-689 / physical PDF pp.318-334, main text, Figures 1-3, and full references",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/martinez-pinedo-shell-model-astrophysics-contract.md",
+      "reason": "ISM and SMMC in core-collapse supernovae, electron capture, Pauli unblocking at N=40/50, neutrino downscattering, r-process N=82/126 waiting points, and level density/M1 scissors capture inputs"
+    },
+    {
+      "path": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+      "reason": "corrected MP physical page range, completed the entire 14-article special issue reading queue, and updated source-level claims"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Martinez-Pinedo astrophysics shell model contract"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.318 title and introduction",
+    "PDF p.320 Figure 1 (EC rates on pf-shell nuclei)",
+    "PDF p.321 Figure 2 (20Ne EC rate vs density and second-forbidden dominance)",
+    "PDF p.322 core collapse continuation and Section 2.2 neutrino-nucleus reactions",
+    "PDF p.325 Figure 3 (N=82 waiting point half-lives: RIKEN/ISOLDE vs Shell Model) and Section 3 continuation",
+    "PDF p.327 references and level density discussion"
+  ],
+  "claims": [
+    "Shell model EC rates on pf-shell nuclei accurately reproduce charge-exchange GT+ data with a standard (0.74)^2 quenching.",
+    "20Ne ground-state to ground-state second-forbidden EC increases rates by orders of magnitude, shifting oxygen ignition off-center.",
+    "Multi-particle multi-hole correlations and thermal excitations unblock GT+ transitions across N=40 and N=50 shell gaps, proving heavy nuclei dominate EC throughout collapse.",
+    "First-forbidden transitions in N=126 r-process waiting points noticeably accelerate beta decay, enhancing mass flow toward fissioning nuclei and shaping the A~130 abundance peak.",
+    "SMMC level densities and low-energy M1 strength upbend/scissors mode significantly enhance statistical neutron capture rates in the r-process."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded article-level main-text and key-figure unit; special issue collection complete",
+    "remaining_queue": "All 14 articles of The Nuclear Shell Model 70 Years have now been read and written back into dedicated method contracts",
+    "boundary": [
+      "Microscopic nuclear inputs do not replace multi-dimensional hydrodynamic supernova or merger simulations",
+      "SMMC does not extract discrete spin-parity quantum numbers for individual excited states",
+      "First-forbidden acceleration at N=126 remains a theoretical extrapolation awaiting direct experimental half-life tests"
+    ]
+  }
+}

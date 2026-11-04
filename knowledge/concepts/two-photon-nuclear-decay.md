@@ -81,7 +81,7 @@ An L3 method comparison can test which combination of timing, PAF sidebands, ang
 
 依据独立审计程序 `system/scripts/day21_checkpoint015_two_photon_decay_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/two-photon-decay-audit-015.json`（对标 [[walz-2015-competitive-double-gamma-137ba]] 之 `W15-D21-1` 与 [[soderstrom-2020-137ba-competitive-gamma]] 之 `SO20-D21-1`），确立核双光子衰变在推断阶梯上的实证判据：
 1. **总分支比符合与路径解耦鸿沟：**
-   Walz 2015（$(2.05 \pm 0.37) 	imes 10^{-6}$）与 Söderström 2020（$(2.62 \pm 0.30) 	imes 10^{-6}$）在总分支比上仅相差 $1.20\sigma$（加权均值 $2.39(23) 	imes 10^{-6}$），确立了竞争双光子分支的存在性；但两实验在微观虚态多极路径比值上发生了高达 $13.88$ 倍的剧烈反转（四极主导 $lpha_{E2M2}/lpha_{M1E3} = 3.356$ 反转为八极主导 $lpha_{M2E2}/lpha_{E3M1} = 0.2418$）；
+   Walz 2015（$(2.05 \pm 0.37) 	imes 10^{-6}$）与 Söderström 2020（$(2.62 \pm 0.30) 	imes 10^{-6}$）在总分支比上仅相差 $1.20\sigma$（加权均值 $2.39(23) 	imes 10^{-6}$），确立了竞争双光子分支的存在性；但两实验在微观虚态多极路径比值上发生了高达 $13.88$ 倍的剧烈反转（四极主导 $\alpha_{E2M2}/\alpha_{M1E3} = 3.356$ 反转为八极主导 $\alpha_{M2E2}/\alpha_{E3M1} = 0.2418$）；
 2. **两角简并与能量截断假象机制：**
    Walz 2015 的两角探测几何（$72^\circ, 144^\circ$）在数学上不足以解耦勒让德多项式多解简并，且施加的对称能窗截断（$|E_1 - E_2| < 250	ext{ keV}$ 裁剪了逾 $35\%$ 相空间）人为滤除了在非对称能量端占统治地位的 $E3M1$ 分量；
 3. **微观壳模型与选择定则物理自洽：**

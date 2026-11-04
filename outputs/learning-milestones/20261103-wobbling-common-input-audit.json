@@ -1,0 +1,45 @@
+{
+  "schema": "bounded-code-audit-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "统一冻结对齐 TW/LW 实现的轴约定、修复不等价公式并降低模式自动确认风险",
+  "audit_inputs": [
+    "system/scripts/analysis/davydov_wobbling_rotor_calculator.py",
+    "system/scripts/analysis/triaxial_wobbling_tip_chiral_analyzer.py",
+    "system/scripts/analysis/odd_a_transverse_longitudinal_wobbling_stability_solver.py",
+    "knowledge/methods/lawrie-tip-wobbling-discrimination.md"
+  ],
+  "findings_fixed": [
+    "frauendorf_wobbling_frequency now uses the common A_m < A_s < A_l frozen-alignment formula",
+    "critical softening is separated from supercritical HFA instability",
+    "HFA instability no longer auto-labels a TiP or flip-mode branch",
+    "electromagnetic screening output no longer claims experimental wobbling confirmation",
+    "Lawrie wobbling energy uses additive rotor plus phonon terms",
+    "TiP/wobbling and chiral outputs are conditional screening descriptors",
+    "hydrodynamic gamma-axis permutations are canonicalized into named m,s,l constants"
+  ],
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/wobbling-model-common-input-and-evidence-boundary.md",
+      "reason": "shared input contract and model-to-experiment evidence boundary"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the common-input wobbling contract"
+    },
+    {
+      "path": "system/tests/test_hydrodynamic_axis_contract.py",
+      "reason": "gamma branch, endpoint, permutation and input-boundary regression coverage"
+    }
+  ],
+  "validation": {
+    "commands": [
+      "python3 system/scripts/analysis/test_analysis_suite.py",
+      "python3 -m unittest system.tests.test_wobbling_common_input system.tests.test_triaxial_wobbling_tip_chiral system.tests.test_odd_a_wobbling_stability system.tests.test_hydrodynamic_axis_contract"
+    ],
+    "analysis_suite": "passed",
+    "targeted_tests": "16 tests passed",
+    "raw_modified": false,
+    "boundary": "Model consistency and evidence labels only; no experimental mode confirmation"
+  }
+}

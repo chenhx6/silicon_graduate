@@ -1,0 +1,48 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "将 Casten 第十章实验技术转化为可追溯的反应选择与观测量设计框架",
+  "source": {
+    "source_page": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+    "raw_file": "raw/books/Nuclear Structure From A Simple Perspective Casten.pdf",
+    "raw_sha256": "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9",
+    "scope": "Chapter 10 physical PDF pp. 350-385 / printed pp. 335-363",
+    "evidence_route": "native text extraction with rendered page checks",
+    "rendered_pages": [350, 352, 355, 359, 365, 371, 376, 380, 385]
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/synthesis/casten-ch10-experimental-design-and-observable-mapping.md",
+      "reason": "reaction-to-structure-question mapping for Coulomb excitation, ARC, fusion-evaporation and transfer"
+    },
+    {
+      "path": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "reason": "added Ch. 10 evidence rows and locators"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "added Casten Ch. 10 experimental design bridge"
+    }
+  ],
+  "key_locators": [
+    "PDF pp. 350-358 / printed pp. 335-344: Coulomb excitation, closest approach, semiclassical/adiabatic parameters, multistep and virtual excitation",
+    "PDF pp. 359-370 / printed pp. 344-356: ARC, completeness and non-observation arguments",
+    "PDF pp. 371-375 / printed pp. 356-361: heavy-ion compound reactions and high-spin states",
+    "PDF pp. 376-385 / printed pp. 361-363: heavy-ion transfer, grazing window and selectivity"
+  ],
+  "boundary": [
+    "introductory 1990 design map, not modern coupled-channel or detector-response prescription",
+    "does not certify a real reaction proposal or a specific A~130 structure assignment",
+    "does not replace Wu/Hamilton response and uncertainty contracts"
+  ],
+  "validation": {
+    "source_hash": "matched",
+    "raw_modified": false,
+    "next": [
+      "cross-check Casten Coulomb-excitation assumptions against Lu reaction kinematics and Wu detector methods",
+      "map the chapter's high-spin population logic onto an A~130 reaction design matrix",
+      "retain ARC completeness as a conditional evidence layer rather than a universal level-scheme guarantee"
+    ]
+  }
+}

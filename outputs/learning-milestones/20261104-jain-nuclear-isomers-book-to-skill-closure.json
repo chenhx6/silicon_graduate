@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-11-04",
+  "task": "jain-nuclear-isomers-book-to-skill-delivery",
+  "sources": [
+    {
+      "title": "Nuclear Isomers: A Primer",
+      "author": "Ashok Kumar Jain, Bhoomika Maheshwari, Alpana Goel",
+      "path": "raw/books/nuclear isomer - A Prime.pdf",
+      "sha256": "20f88b84240637e10a6086eca6b9f6e80a28813ad1ecf14a795144a4d5c2ac34",
+      "archive_required": true,
+      "raw_unchanged": true
+    }
+  ],
+  "skill_root": ".agents/skills/jain-nuclear-isomers",
+  "skill_files": [
+    ".agents/skills/jain-nuclear-isomers/SKILL.md",
+    ".agents/skills/jain-nuclear-isomers/glossary.md",
+    ".agents/skills/jain-nuclear-isomers/patterns.md",
+    ".agents/skills/jain-nuclear-isomers/cheatsheet.md",
+    ".agents/skills/jain-nuclear-isomers/chapters/ch01-isomers-classification-and-spin-traps.md",
+    ".agents/skills/jain-nuclear-isomers/chapters/ch03-seniority-isomers-and-mid-shell-cancellation.md",
+    ".agents/skills/jain-nuclear-isomers/chapters/ch04-shape-isomers-and-double-humped-fission.md",
+    ".agents/skills/jain-nuclear-isomers/chapters/ch05-k-isomers-and-hindrance-systematics.md",
+    ".agents/skills/jain-nuclear-isomers/chapters/ch05-triaxiality-induced-k-mixing.md"
+  ],
+  "chapter_count": 5,
+  "study_focus": [
+    "four fundamental physical mechanisms of nuclear isomers (spin traps, seniority, K-isomers, shape isomers)",
+    "seniority scheme in single j-shell and mid-shell B(E2) destructive cancellation theorem",
+    "experimental benchmarks: 130Sn 10+, 210Po 8+, 214Rn 8+, and 94Ru 8+ seniority isomers",
+    "K-selection rules in axially deformed nuclei and reduced hindrance power law f_nu ~ 100",
+    "triaxiality-induced K-mixing and anomalous hindrance collapse (f_nu << 10) in A~130 nuclei",
+    "double-humped fission barriers, second superdeformed minima, and WKB penetration lifetimes"
+  ],
+  "evidence_boundary": "AI-generated skill extraction and cross-linking; chapter locators are study navigation aids and do not replace page-level human review for publication claims.",
+  "status": "complete"
+}

@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "手征双重带与摆动运动的实验判据、争议证伪与裁判法典"
 aliases: [手征摆动判据与证伪, 摆动实验判据法典, 135Pr证伪反转分析, 实验谱学五道门]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [wobbling-criteria, chiral-doublet-bands, 135pr-controversy, linear-polarization, falsification-protocol]
+tags: [wobbling-criteria, chiral-doublet-bands, 135pr-controversy, linear-polarization, falsification-protocol]
 ---
 
 # 手征双重带与摆动运动的实验判据、争议证伪与裁判法典
 
-## 1. 国际背景与学术危机反思
+## Purpose
+
+### 国际背景与学术危机反思
 
 在 2015–2021 年期间，国际核物理界在 $A\approx 130$ 质量区掀起了寻找“低自旋摆动运动（Low-spin wobbling）”的热潮，先后报道了 $^{135}\text{Pr}, {}^{133}\text{La}, {}^{187}\text{Au}, {}^{127}\text{Xe}, {}^{105}\text{Pd}, {}^{133}\text{Ba}$ 等十余个核素。
 
@@ -23,7 +26,9 @@ topics: [wobbling-criteria, chiral-doublet-bands, 135pr-controversy, linear-pola
 
 ---
 
-## 2. 手征双重带的黄金裁判判据（“孟杰判据”）
+## Inputs and Assumptions
+
+### 手征双重带的黄金裁判判据（“孟杰判据”）
 
 宣称一对能带为手征双重带（Chiral Doublet Bands），必须严格同时满足以下**四大判据**：
 
@@ -38,7 +43,13 @@ topics: [wobbling-criteria, chiral-doublet-bands, 135pr-controversy, linear-pola
 
 ---
 
-## 3. 摆动运动激发的“五道门”裁判准则
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 摆动运动激发的“五道门”裁判准则
 
 只有当一个候选带顺序跨越以下五道严苛的裁判门时，方可被确认为真实的量子摆动运动：
 
@@ -92,3 +103,9 @@ topics: [wobbling-criteria, chiral-doublet-bands, 135pr-controversy, linear-pola
    联合似然检验显示：
    $$\chi^2(\text{摆动解}) - \chi^2(\text{伙伴带解}) = \Delta\chi^2_{\text{joint}} = 122.3$$
    以 **$11.1\sigma$ 的压倒性置信度** 将摆动解彻底排除！证明连接线实际上是 $81.9\%\ M1$ 占优，该带仅为常规的质子回弯前的旋称伙伴带（Signature partner band）。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

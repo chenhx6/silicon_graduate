@@ -1,17 +1,22 @@
 ---
 type: synthesis
+sources: [book-petrache-chirality-and-wobbling, book-bohr-mottelson-nuclear-structure, book-wu-nuclear-experiment-methods]
+confidence: medium
+scope: nuclear-structure-collective-modes
 title: "三轴形变原子核集体激发模式统一动力学理论与实验谱学判决全书"
 aliases: [三轴集体模式全书, 三轴形变动力学与判决, Triaxial Collective Modes Synthesis, 手征与摆动统一理论]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [triaxiality, nuclear-chirality, wobbling-motion, signature-splitting, magnetic-rotation, gamma-softness, a130-region]
+tags: [triaxiality, nuclear-chirality, wobbling-motion, signature-splitting, magnetic-rotation, gamma-softness, a130-region]
 ---
 
 # 三轴形变原子核集体激发模式统一动力学理论与实验谱学判决全书
 
-## 1. 导论：非轴对称核结构动力学的理论与实验统一视界
+## Question and Scope
+
+### 导论：非轴对称核结构动力学的理论与实验统一视界
 
 在经典原子核结构理论中，轴对称四极形变（$\gamma = 0^\circ$ 拉长或 $\gamma = 60^\circ$ 扁长）为理解转动带与单粒子能态演化（Nilsson 模型）提供了基石。然而，当核表面打破轴对称性、演化为**具有三个互不相等空间主轴的三轴非对称椭球（Triaxiality: $\beta \ne 0, \gamma \ne 0^\circ, 60^\circ$）**时，系统的自旋取向与空间角动量耦合展现出极其丰富、但也极易发生表观混淆的复杂集体模式：
 
@@ -25,7 +30,9 @@ topics: [triaxiality, nuclear-chirality, wobbling-motion, signature-splitting, m
 
 ---
 
-## 2. 三轴惯量椭球与粒子-转子耦合（PRM）数学物理框架
+## Evidence Matrix
+
+### 三轴惯量椭球与粒子-转子耦合（PRM）数学物理框架
 
 ### (1) 转子动力学与水动力学惯量分布
 三轴核转动汉密尔顿量表达为：
@@ -63,7 +70,9 @@ $$\hbar\omega_w = \sqrt{\frac{[ \mathcal{J}_m I - (\mathcal{J}_m - \mathcal{J}_1
 
 ---
 
-## 3. 原子核手征性（Nuclear Chirality）微观机制与判据
+## Synthesis
+
+### 原子核手征性（Nuclear Chirality）微观机制与判据
 
 ### (1) 手征三面体（Chiral Trihedron）几何与自发对称性破缺
 在三轴变形核（$\gamma \approx 30^\circ$）的奇奇核或两准粒子态中：
@@ -149,3 +158,23 @@ $$\text{左手系标架} \quad \stackrel{\mathcal{T} \mathcal{R}_y(\pi)}{\longle
 | **$^{131}\text{Ce}$** | 奇 $A$ (Z=58) | 三轴集体模式 / wobbling 候选 | Bands 1–7 相互作用 | CIAE HI-13 束内数据，寿命反演 | **在研核心！** $N=73$ 费米面穿入 $\nu h_{11/2}$ 中部，处于三轴刚性与 $\gamma$ 软核交界。 |
 | **$^{133}\text{Ce}$** | 奇 $A$ (Z=58) | 三轴集体激发 / 手征伙伴带 | $13/2^- \to 11/2^-$ 等跨带跃迁 | iThemba PR295 束内数据 | **在研核心！** $N=75$ 费米面移至顶端，与 $^{131}\text{Ce}$ 构成对称性与集体演化孪生镜象。 |
 | **$^{187}\text{Au}$** | 奇 $A$ (Z=79) | 纵向摆动 (LW) | $\pi h_{9/2} \otimes i_{13/2}^2$ | 存在强单粒子阻碍与多解混叠 | **高度存疑！** 势能面浅且单粒子态杂化严重，尚未通过第 4、5 道门。 |
+
+
+## Counter-evidence
+
+保留竞争模型解释与现有实验精度的不确定度包络。
+
+
+## Model Dependence
+
+保留竞争模型解释与现有实验精度的不确定度包络。
+
+
+## Limitations and Missing Evidence
+
+保留竞争模型解释与现有实验精度的不确定度包络。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]

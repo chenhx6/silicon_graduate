@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [projectile-fragmentation, abrasion-ablation, goldhaber-momentum-width, exotic-beams, relativistic-heavy-ions, pre-fragment-excitation, statistical-evaporation]
+tags: [projectile-fragmentation, abrasion-ablation, goldhaber-momentum-width, exotic-beams, relativistic-heavy-ions, pre-fragment-excitation, statistical-evaporation]
 ---
 
 # 相对论重离子弹核碎裂（Abrasion-Ablation）擦伤-烧蚀模型与Goldhaber动量分布动力学
 
-## 1. 物理全景：大科学装置产生极端同位素放射性束流的理论基石
+## Definition
+
+### 物理全景：大科学装置产生极端同位素放射性束流的理论基石
 
 在现代重离子大科学装置（如美国 FRIB、德国 GSI/FAIR、日本 RIKEN RIBF 以及中国兰州 HIRFL-CSR / 惠州 HIAF）中，为了合成远离稳定线的极丰中子或极丰质子“滴线核”，**相对论能量弹核碎裂反应（Relativistic Projectile Fragmentation, $E_{\text{beam}} \ge 100 \sim 1000\text{ MeV/nucleon}$）**是最强大、普适的高产额生产技术。
 当重离子以近光速冲向轻靶（如 $^{9}\text{Be}$ 或金刚石炭靶）时：
@@ -28,7 +30,9 @@ topics: [projectile-fragmentation, abrasion-ablation, goldhaber-momentum-width, 
 
 ---
 
-## 2. 严格物理公式与数学建模
+## Necessary Assumptions
+
+### 严格物理公式与数学建模
 
 ### (1) Glauber 几何擦伤与前碎片质量-电荷公式
 设弹核与靶核半径分别为 $R_p = r_0 A_p^{1/3}$ 与 $R_t = r_0 A_t^{1/3}$（取 $r_0 = 1.20\text{ fm}$）。
@@ -75,7 +79,13 @@ $$\sigma_0 = \frac{p_F}{\sqrt{5}} \approx 85 \sim 90\text{ MeV}/c$$
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/abrasion_ablation_fragmentation_calculator.py`
@@ -95,7 +105,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py frag -Zp 54 -Ap 136 -Zt 4 -A
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[halo-nuclei-borromean-systems-and-breakup-dynamics]]：中子晕核的破裂反应动量分布正是本 Goldhaber 宽度的极端窄化极限（Hansen-Jonson 极限）；
 - [[multi-nucleon-transfer-and-deep-inelastic-collisions]]：在库仑位垒附近的低速多核子转移反应与此处的高速擦伤碎裂，共同构成了产生极端奇特核的两大物理途径；
-- [[fission-fragment-mass-yield-calculator]]：碎裂反应与重核裂变产物在同位素产额图谱上互补覆盖了全核素图。
+- [[spontaneous-fission-wkb-action-and-half-life]]：碎裂反应与重核裂变产物在同位素产额图谱上互补覆盖了全核素图。

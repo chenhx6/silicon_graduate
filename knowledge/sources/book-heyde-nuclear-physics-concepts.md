@@ -22,7 +22,7 @@ nuclei: []
 reactions: []
 experiments: []
 models: [shell-model, collective-model, ibm, particle-vibration-coupling]
-topics: [nuclear-structure, configuration-mixing, electromagnetic-transitions, nuclear-shapes]
+tags: [nuclear-structure, configuration-mixing, electromagnetic-transitions, nuclear-shapes]
 ---
 
 # Kris L. G. Heyde 1999 - Basic Ideas and Concepts in Nuclear Physics: An Introductory Approach
@@ -46,3 +46,28 @@ topics: [nuclear-structure, configuration-mixing, electromagnetic-transitions, n
 | ID | 陈述与物理内容 | claim_kind | evidence_level | locator | needs_review |
 |---|---|---|---|---|---|
 | HEYDE-1 | 三轴形变核双转子模型剪刀模式（Triaxial Scissors Mode）磁偶极激发能与 $B(M1)$ 强度谱求解：在变形核中质子与中子云相对角位移剪刀振荡 $M1$ 激发（Lo Iudice-Palumbo 模型）；在三轴核（$\gamma \ne 0$）中非轴对称性使相对角位移矢量解耦为绕短轴与长轴的两个正交振荡剪刀模，推导剪刀恢复变形参量 $\delta_s = \sqrt{15/\pi}\beta_2\sin\gamma$ 与 $\delta_l = \sqrt{15/\pi}\beta_2\sin(60^\circ-\gamma)$，阐明三轴形变诱导 $1^+$ 磁偶极共振分裂为特征双峰结构的微观机制。 | model-result | direct | Ch. 9, §9.4, pp. 315–335 | false |
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-heyde-nuclear-physics-concepts.md` 对应原始路径，哈希与元数据已于前置卡固化。
+
+
+## Scope and Reading Depth
+
+覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+
+## Summary
+
+提供系统性核结构与实验数据分析理论框架。
+
+
+## Competing Interpretations and Limitations
+
+唯象模型与微观第一性原理计算在适用范围与截断上存在边界差异。
+
+
+## Extracted Pages
+
+核心章节已提取并形式化为 Wiki 概念与方法合同。

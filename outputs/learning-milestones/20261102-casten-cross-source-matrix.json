@@ -1,0 +1,28 @@
+{
+  "schema": "cross-source-microscopic-foundations-receipt-v1",
+  "date": "2026-11-02",
+  "sources": [
+    "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+    "knowledge/sources/book-lu-nuclear-physics-chinese.md",
+    "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+    "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md"
+  ],
+  "matrix": "knowledge/synthesis/casten-cross-source-microscopic-foundations.md",
+  "questions": [
+    "shell and unique-parity",
+    "seniority and B(E2)",
+    "pairing/OES versus dynamic high-spin gap",
+    "Nilsson/Coriolis/CAP",
+    "TDA/RPA/QRPA",
+    "observable-to-experiment mapping"
+  ],
+  "status": "bounded cross-source synthesis",
+  "evidence_boundary": "Uses current source cards and verified bounded Casten locators. It does not certify unrecorded chapters, common-input numerical agreement, or a nucleus-specific experimental verdict.",
+  "next_checks": [
+    "Suhonen exact chapter/page locator for SDI/BCS/QRPA",
+    "BM-I full seniority derivation crosswalk",
+    "Lu Chinese terminology page-by-page crosswalk",
+    "common-input A≈130 Nilsson-BCS plus PRM/TPSM/TAC comparison"
+  ]
+}

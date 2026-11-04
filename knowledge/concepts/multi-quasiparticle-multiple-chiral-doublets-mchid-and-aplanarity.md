@@ -11,7 +11,9 @@ tags: [chirality, multiple-chiral-doublets, mchid, four-quasiparticle, aplanarit
 
 # Multi-quasiparticle multiple chiral doublets (MchiD) and aplanar angular momentum geometry
 
-## Definition and Physical Mechanisms
+## Definition
+
+### Definition and Physical Mechanisms
 
 Chiral doublet bands in atomic nuclei were initially discovered in odd-odd nuclei (e.g. $^{134}\text{Pr}$) characterized by a simple two-quasiparticle configuration: one high-$j$ valence proton particle ($\pi h_{11/2}$) and one high-$j$ valence neutron hole ($\nu h_{11/2}^{-1}$) coupled to a triaxial collective core (Frauendorf & Meng 1997).
 
@@ -82,10 +84,38 @@ An experimental candidate pair of bands is verified as a chiral doublet if it sa
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Meng, J. & Wang, Y. P.**: *Chirality and Wobbling in Atomic Nuclei*, CRC Press (2025), Chapter 3 (Chiral Geometry and Multiple Chiral Doublets), PDF pp. 81–93.
 - **Chen, Q. B. et al.**: *Chirality and Wobbling in Atomic Nuclei*, CRC Press (2025), Chapter 10 (CDFT+PRM for MchiD), PDF pp. 222–238.
 - **Xiong, X. H. & Wang, S. Y. et al.**: *Nuclear chiral doublet bands: Data tables*, Atomic Data and Nuclear Data Tables 125, 193–225 (2019).
 - **Petrache, C. M. et al.**: Phys. Rev. C 97, 041304(R) (2018) (Multiple chiral doublet bands in $^{136}\text{Nd}$).
 - **Frauendorf, S. & Meng, J.**: Nucl. Phys. A 617, 131 (1997) (Tilted rotation of triaxial nuclei - origin of nuclear chirality).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

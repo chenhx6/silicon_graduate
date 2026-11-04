@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [isobaric-analog-state, ias, coulomb-displacement-energy, coulomb-energy-difference, ced, isospin-symmetry-breaking, mirror-nuclei, band-crossing-alignment]
+tags: [isobaric-analog-state, ias, coulomb-displacement-energy, coulomb-energy-difference, ced, isospin-symmetry-breaking, mirror-nuclei, band-crossing-alignment]
 ---
 
 # 同位旋类似态（IAS）库仑位移能、同位旋对称性破缺与镜像核CED高自旋对齐法典
 
-## 1. 物理全景：电磁库仑相互作用对微观强相互作用对称性的精细破缺
+## Definition
+
+### 物理全景：电磁库仑相互作用对微观强相互作用对称性的精细破缺
 
 在完全忽略电磁相互作用的理想假定下，核力具有严格的电荷无关性（Charge Independence）与电荷对称性（Charge Symmetry），原子核多体哈密顿量在同位旋群 $SU(2)_{\text{isospin}}$ 下严格对易。
 然而，质子之间无处不在的长程排斥库仑势：
@@ -29,7 +31,9 @@ $$V_C = \sum_{i < j}^Z \frac{e^2}{|\vec{r}_i - \vec{r}_j|}$$
 
 ---
 
-## 2. 严格物理公式与数学推导
+## Necessary Assumptions
+
+### 严格物理公式与数学推导
 
 ### (1) 同位旋类似态（IAS）算符定义
 设母核基态为 $|J_0^\pi, T_0, T_{z0} = T_0\rangle$。
@@ -69,7 +73,13 @@ $$\text{CED}(I) = E_x(I, T_z = -1/2) - E_x(I, T_z = +1/2)$$
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/isobaric_analog_state_ced_calculator.py`
@@ -91,7 +101,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py ias -Z 24 -A 49 --demo-ced -
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[routhian-alignment-and-band-crossing-analysis]]：经典 Harris 标架对齐角动量 $i_x$ 与此处 CED 库仑跳跃共同构成了回弯机制判决的双重印证；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[high-spin-band-crossing-and-alignment-mechanisms]]：经典 Harris 标架对齐角动量 $i_x$ 与此处 CED 库仑跳跃共同构成了回弯机制判决的双重印证；
 - [[beta-decay-phase-space-log-ft-and-cvc-unitarity]]：超允许 $0^+ \to 0^+$ $\beta$ 衰变本质上就是发生在 IAS 之间的纯 Fermi 跃迁；
 - [[wigner-supermultiplet-su4-and-mass-cusp]]：同位旋多重态能量正是从 Wigner 超多重态微观对称性中衍生而来。

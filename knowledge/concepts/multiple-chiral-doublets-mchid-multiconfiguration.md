@@ -11,7 +11,9 @@ tags: [triaxiality, chirality, multiple-chiral-doublets, mchid, alignment-separa
 
 # Multiple Chiral Doublet bands (MChD) multi-quasiparticle configuration coexistence and 4-fold arbitration gates
 
-## Phenomenological Definition & Scientific Significance
+## Definition
+
+### Phenomenological Definition & Scientific Significance
 
 Multiple Chiral Doublets (M$\chi$D) describe the simultaneous coexistence of two or more pairs of chiral doublet bands (Pair A: Bands 1 & 2; Pair B: Bands 3 & 4) within the *same* atomic nucleus.
 
@@ -69,3 +71,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py mchiddis --preset 103Rh_A100
 - **Ayangeakaa et al.**, Phys. Rev. Lett. 110, 172504 (2013).
 - **Kuti et al.**, Phys. Rev. Lett. 113, 032501 (2014).
 - **Petrache et al.**, Phys. Rev. C 97, 041304(R) (2018).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

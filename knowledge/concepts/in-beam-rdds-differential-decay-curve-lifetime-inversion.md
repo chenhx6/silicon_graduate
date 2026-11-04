@@ -11,7 +11,9 @@ tags: [in-beam-spectroscopy, lifetime-measurement, rdds, plunger, ddcm, b-e2, pi
 
 # In-beam recoil distance Doppler-shift (RDDS) differential decay curve method (DDCM) picosecond lifetime inversion and transition collectivity B(E2)
 
-## Definition and Phenomenological Origin
+## Definition
+
+### Definition and Phenomenological Origin
 
 The Recoil Distance Doppler-Shift (RDDS) or plunger method is the definitive experimental technique for measuring excited nuclear state lifetimes in the range $\tau \sim 1 - 200\text{ ps}$.
 In an in-beam experiment, compound nuclei recoil from a thin target at velocity $v = \beta c$ ($\beta \sim 1\% - 4\%$) towards an adjustable metallic stopper foil separated by distance $d$.
@@ -64,3 +66,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py rddsddcm --preset rapid_deca
 - Evaluates $R(d)$ across 8 distances ($12 - 350\ \mu\text{m}$);
 - Plateau region ($R \in [0.21, 0.87]$, 5 distances) extracts lifetime $\bar{\tau} = 14.92 \pm 0.04\text{ ps}$;
 - Deduces collective quadrupolarity $B(E2) = 0.4780\ e^2\text{b}^2$ ($123.8\text{ W.u.}$) and intrinsic quadrupole moment $Q_0 = 4.90\ e\text{ b}$.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

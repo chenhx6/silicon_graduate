@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [moments-of-inertia, kinematical-moi, dynamical-moi, spin-assignment, floating-bands, superdeformation]
+tags: [moments-of-inertia, kinematical-moi, dynamical-moi, spin-assignment, floating-bands, superdeformation]
 ---
 
 # 原子核运动学与动力学转动惯量（J1与J2）及未知能带自旋反演算法
 
-## 1. 物理测量全景：微观自旋与宏观转动的桥梁
+## Definition
+
+### 物理测量全景：微观自旋与宏观转动的桥梁
 
 在低能高自旋实验核谱学中，实验探测器阵列记录的最直接量是级联退激的 $\gamma$ 射线能量。根据 A. Bohr & B. R. Mottelson《Nuclear Structure》Vol. II 与高自旋物理学，如何从分立的跃迁能量差中提取原子核转动响应，依赖于两个内涵截然不同的转动惯量定义：
 
@@ -22,7 +24,9 @@ topics: [moments-of-inertia, kinematical-moi, dynamical-moi, spin-assignment, fl
 
 ---
 
-## 2. $\mathcal{J}^{(1)}$ 与 $\mathcal{J}^{(2)}$ 的严格微积分定义与物理诠释
+## Necessary Assumptions
+
+### $\mathcal{J}^{(1)}$ 与 $\mathcal{J}^{(2)}$ 的严格微积分定义与物理诠释
 
 ### (1) 运动学转动惯量 $\mathcal{J}^{(1)}$（一阶导数）
 定义为总角动量在转动轴上的投影 $I_x$ 与旋转角速度 $\omega$ 的静态比值：
@@ -50,7 +54,13 @@ $$\mathcal{J}^{(2)} \approx \frac{4\hbar^2}{\Delta E_\gamma}$$
 
 ---
 
-## 3. 悬挂能带的未知自旋反演算法（Spin Assignment Protocol）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 悬挂能带的未知自旋反演算法（Spin Assignment Protocol）
 
 在束内重离子实验中，常常会发现一条漂亮的规则四极转动能带，但其底端向已知低自旋基带的退激路径极其分散微弱，未能在二维符合矩阵中找到连接线（称为“悬挂能带，Floating band”）。此时能带能级的绝对自旋 $I$ 悬空未知。
 
@@ -67,3 +77,18 @@ $$I(I+1) - K^2 \approx \left[ \mathcal{J}_0 \omega + \mathcal{J}_1 \omega^3 + i_
 2. 对每组候选自旋计算试验运动学转动惯量 $\mathcal{J}^{(1)}_{\text{trial}}(\omega)$；
 3. 检验微观自洽性：在未回弯频率区，真实的能带必须满足 $\mathcal{J}^{(2)} \ge \mathcal{J}^{(1)}$ 且二者在大形变极限下渐近收敛；
 4. 寻找使 $\sum [\mathcal{J}^{(1)}_{\text{trial}}(\omega) - \mathcal{J}_{\text{model}}(\omega)]^2$ 最小的离散实数解，即可**以 $\pm 1\hbar$ 的极高置信度锁定未知悬挂带的带头真实自旋**！
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

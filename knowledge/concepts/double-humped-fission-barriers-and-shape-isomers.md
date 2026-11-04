@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [double-humped-fission-barrier, fission-isomers, shape-isomers, class-ii-states, subthreshold-fission, strutinsky-shell-correction, intermediate-structure, actinide-fission]
+tags: [double-humped-fission-barrier, fission-isomers, shape-isomers, class-ii-states, subthreshold-fission, strutinsky-shell-correction, intermediate-structure, actinide-fission]
 ---
 
 # 双峰裂变势垒量子穿透、裂变形状异能态（Class-II）与亚阈中间共振动力学
 
-## 1. 物理全景：超形变第二势阱与微观壳效应重构的裂变图景
+## Definition
+
+### 物理全景：超形变第二势阱与微观壳效应重构的裂变图景
 
 在经典旋转液滴模型中，重核裂变势垒呈现单峰抛物线结构（Single-humped barrier），从基态穿过鞍点后便不可逆地滑向断裂。
 然而，20 世纪 60 年代初，苏联物理学家 S. M. Polikanov 等在杜布纳联合核子研究所发现了一个极为离奇的自发裂变现象：
@@ -28,7 +30,9 @@ topics: [double-humped-fission-barrier, fission-isomers, shape-isomers, class-ii
 
 ---
 
-## 2. 严格双重势垒量子穿透方程
+## Necessary Assumptions
+
+### 严格双重势垒量子穿透方程
 
 ### (1) 双峰势垒几何轮廓参数化
 沿裂变延伸坐标 $\beta$：
@@ -72,7 +76,13 @@ $$t_{1/2} = \frac{\hbar \ln 2}{\Gamma_{\text{tot}}}$$
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/fission_isomer_double_hump_transmission_calculator.py`
@@ -95,7 +105,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py fissiso \
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[fission-barriers-and-superheavy-stability]]：超重核稳定岛（$Z=114 \sim 126$）的存活几率在宏观微观势能面上同样依赖此双峰位垒的穿透计算；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[fission-barriers-strutinsky-and-superheavy-dynamics]]：超重核稳定岛（$Z=114 \sim 126$）的存活几率在宏观微观势能面上同样依赖此双峰位垒的穿透计算；
 - [[superdeformation-triaxial-sd-and-decayout-dynamics]]：第二势阱本质上就是超形变态（轴比 $2:1$），其向第一阱的衰变机制与超形变衰退（Decay-out）在数学上完全等价；
 - [[multi-modal-nuclear-fission-and-prompt-neutrons]]：从第二极小出发跨过外势垒后，原子核随即分叉进入 Standard I / II 等多模式断裂山谷。

@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [proton-radioactivity, two-proton-decay, cluster-radioactivity, goldanskii-condition, jacobi-coordinates, wkb-barrier-penetration, drip-line]
+tags: [proton-radioactivity, two-proton-decay, cluster-radioactivity, goldanskii-condition, jacobi-coordinates, wkb-barrier-penetration, drip-line]
 ---
 
 # 质子滴线单/双质子放射性、三体连续谱与锕系团簇放射性动力学
 
-## 1. 物理全景：库仑-离心势垒阻碍下的核基态粒子放射性
+## Definition
+
+### 物理全景：库仑-离心势垒阻碍下的核基态粒子放射性
 
 在质子滴线（Proton Drip Line）之外，核子的单质子分离能或双质子分离能跌入负值区域（$S_p < 0$ 或 $S_{2p} < 0$），基态核子在强相互作用下不再处于束缚态。
 
@@ -29,7 +31,9 @@ $$V_{\text{eff}}(r) = V_N(r) + \frac{Z_d e^2}{r} + \frac{l(l+1)\hbar^2}{2\mu r^2
 
 ---
 
-## 2. 真双质子放射性：Goldanskii 假说与三体 Jacobi 坐标
+## Necessary Assumptions
+
+### 真双质子放射性：Goldanskii 假说与三体 Jacobi 坐标
 
 ### (1) Goldanskii 能级排布准则（Goldanskii 1960）
 为观测到真正的同时双质子发射（Simultaneous $2p$ Emission），母核、中间奇核与子核的能级必须严格满足以下能量分层：
@@ -52,7 +56,13 @@ $$Q_{2p} > 0 \quad \text{且} \quad Q_{1p}(A, Z) = -S_p(A, Z) < 0$$
 
 ---
 
-## 3. 锕系团簇放射性（Cluster Radioactivity）与 Rose-Jones 发现
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 锕系团簇放射性（Cluster Radioactivity）与 Rose-Jones 发现
 
 1984 年，Rose 与 Jones 在牛津大学实验中首次发现天然放射性核 $^{223}\text{Ra}$ 能够自发发射 $^{14}\text{C}$ 重离子并落入双幻子核 $^{209}\text{Pb}$，分支比仅为 $\alpha$ 衰变的 $8.5 \times 10^{-10}$：
 $$^{223}\text{Ra} \to {}^{209}\text{Pb} + {}^{14}\text{C} \quad (Q_{\text{cluster}} = 31.83\text{ MeV})$$
@@ -98,3 +108,18 @@ $$P_{\text{WKB}} = \exp\left[ - \frac{2}{\hbar} \int_{R_{\text{in}}}^{R_{\text{o
 3. **Rose, H. J. & Jones, G. A.** (1984). A new kind of natural radioactivity. *Nature*, 307(5948), 245-247.
 4. **Dey, B. et al.** (2026). Multifaceted radioactivity near the proton drip line in $^{116}\text{Cs}$. *Phys. Rev. Lett.* (in press).
 5. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 4 章：核衰变与放射性. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

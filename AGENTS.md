@@ -26,6 +26,8 @@ Git 工作树可能包含用户或上一轮留下的修改。写入前先运行 
 - 递归删除、历史重写、force push、覆盖原始证据等不可逆操作必须单独确认。
 - 不使用桌面端 GUI 或 Computer Use 来代替终端操作。浏览器只用于检索和验证，下载应指定到仓库内路径。
 - 研究使用的论文、学位论文、外部笔记、报告、图片、网页快照、数据及参考代码须按 `system/workflows/research-archive.md` 留档；新来源登记 `raw_file`、哈希或集合清单和 `archive_required: true`。相关任务自动使用 `.agents/skills/research-archive/SKILL.md`；每日及发布 preflight 中的归档门失败时不能宣称材料已留档。私有数据的本地归档不构成公开发布授权。
+- 回答、投稿核查或论文写作需要本库尚未收录的外部文献时，Codex 可以在合法可访问的范围内自行检索并下载原始材料，不必先等待用户逐篇指定。普通问答和论文相关来源按主题归档到 `raw/papers/gpt/query/YYYYMMDD-<topic>/`；`raw/papers/gpt/learning-daily/` 只用于 30 天学习计划。每个主题目录必须登记来源 URL、文件大小、SHA-256、获取时间和 `archive_required: true`；后续回答和论文写作优先回到本地原件。仅获得元数据、摘要或访问失败页时保留实际获得物和访问边界，不能把 URL 当作已归档全文。
+- 通过普通问答或投稿核查主动获取、且未来可能对研究有用的来源，在 manifest 中标记 `learning_candidate: true`、`learning_topic` 和 `collection_reason`，作为后续专题学习候选；候选来源达到有意义的主题规模后，单独组织批量学习和 source/knowledge 回写。自动下载原件不等于自动把摘要或 AI 总结写入 `knowledge/`，长期知识仍须按证据门和定位符流程生成。
 
 ### 30 天 Docker 学习计划授权
 

@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [multi-nucleon-transfer, deep-inelastic-collisions, wilczynski-plot, driving-potential, charge-equilibration, neutron-rich-nuclei, n-126-factory]
+tags: [multi-nucleon-transfer, deep-inelastic-collisions, wilczynski-plot, driving-potential, charge-equilibration, neutron-rich-nuclei, n-126-factory]
 ---
 
 # 多核子转移反应（MNT）、深层非弹性碰撞（DIC）与丰中子重核产生机制
 
-## 1. 物理全景：突破熔合蒸发极限，开辟极丰中子重核新航道
+## Definition
+
+### 物理全景：突破熔合蒸发极限，开辟极丰中子重核新航道
 
 在核物理与天体物理中，探索远离稳定线的极丰中子重核（尤其是第三个天体 $r$ 过程峰位所在的中子幻数 $N=126$ 铅前核区，如 $^{202}\text{Os}, {}^{200}\text{W}$，以及超铀同位素）是国际核物理界的战略制高点。
 
@@ -29,7 +31,9 @@ topics: [multi-nucleon-transfer, deep-inelastic-collisions, wilczynski-plot, dri
 
 ---
 
-## 2. 维琴斯基图（Wilczyński Plot）与能量-角偏转双峰拓扑
+## Necessary Assumptions
+
+### 维琴斯基图（Wilczyński Plot）与能量-角偏转双峰拓扑
 
 1973 年，Wilczyński 绘制出二维微分截面关于出射质心角 $\theta_{\text{c.m.}}$ 与出射总动能 $E_{\text{TKE}}$ 的关联等高线图（Wilczyński Plot），确立了重离子耗散反应的相空间指纹：
 
@@ -55,7 +59,13 @@ E_TKE
 
 ---
 
-## 3. 驱动势能面（Driving Potential）与电荷平衡动力学
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 驱动势能面（Driving Potential）与电荷平衡动力学
 
 ### (1) 双核系统驱动势方程
 在质量不对称度 $\eta = (A_1 - A_2) / (A_1 + A_2)$ 与电荷不对称度空间，双核系统的势能由两碎片基态结合能加相互作用势给出：
@@ -116,3 +126,18 @@ $$\langle x_n \rangle \approx \frac{E^*}{B_n + 2T}$$
 3. **Zagrebaev, V. I. & Greiner, W.** (2008). Production of new heavy and superheavy nuclei in multi-nucleon transfer reactions. *Phys. Rev. Lett.*, 101(12), 122701.
 4. **Zagrebaev, V. I. & Greiner, W.** (2011). Production of heavy neutron-rich nuclei in transfer reactions: $^{136}\text{Xe} + {}^{208}\text{Pb}$. *Phys. Rev. C*, 83(4), 044618.
 5. **林承键** (2013). 《重离子核反应》第 3 章：深层非弹性碰撞与准裂变动力学. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

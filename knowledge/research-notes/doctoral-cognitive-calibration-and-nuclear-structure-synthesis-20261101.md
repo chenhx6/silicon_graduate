@@ -7,19 +7,7 @@ updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
-evidence_sources: [
-  matta-2015-transverse-wobbling-135pr,
-  lv-2022-evidence-against-wobbling-135pr,
-  sensharma-2026-evolution-chirality-transverse-wobbling-135pr,
-  banik-2020-131xe-multiple-band-structures,
-  chakraborty-2023-131xe-wobbling-origin,
-  tonev-2006-134pr-lifetime-chiral,
-  mukhopadhyay-2007-135nd-chiral-vibration-static,
-  bucher-2016-144ba-direct-octupole,
-  alwaleedi-2013-band-structures-131ce,
-  userdata-133ce-southafrica-dataset,
-  nuclearmap-jcnp-pc-pk1
-]
+evidence_sources: [matta-2015-transverse-wobbling-135pr, lv-2022-evidence-against-wobbling-135pr, sensharma-2026-evolution-chirality-transverse-wobbling-135pr, banik-2020-131xe-multiple-band-structures, chakraborty-2023-131xe-wobbling-origin, tonev-2006-134pr-lifetime-chiral, mukhopadhyay-2007-135nd-chiral-vibration-static, bucher-2016-144ba-direct-octupole, alwaleedi-2013-band-structures-131ce, userdata-133ce-southafrica-dataset, nuclearmap-jcnp-pc-pk1]
 created_from: "Doctoral research mandate: continuous learning, self-audit, and cognitive calibration"
 promotion_target: "post-30-day-nuclear-structure-paper-prospectus"
 scope: nuclear-structure/epistemology/wobbling-vs-signature/triaxiality/octupole/a130-systematics
@@ -182,3 +170,48 @@ To protect future doctoral research from repeating literature errors, we establi
 2. **Next Frontier (L4 Autonomous Exploration)**:
    - Perform microscopic particle-triaxial-rotor model (PTRM) and triaxial projected shell model (TPSM) calculations for $^{133}\text{Ce}$ using the NuclearMap $^{132}\text{Ce}$ core parameters ($\beta_2=0.22, \gamma=17^\circ$).
    - Reconstruct the gating background subtraction covariance in `Area.cpp` to achieve full Bayesian parameter estimation.
+
+
+## Research Trigger
+
+源于在束谱学实验数据拟合中对多极混合比、能带结构与集体激发模式的判决需求。
+
+## Grounded Evidence
+
+基于已归档的同行评议文献能级纲图、角分布系数与直接寿命测量数据。
+
+## Provisional Reasoning
+
+综合微观推转模型与唯象转子动力学进行参数反演与理论对账。
+
+## Assumptions
+
+假定核芯转动满足三轴水动力学惯量层级，准粒子在形变场中绝热解耦。
+
+## Competing Explanations
+
+能带能量靠拢与跃迁增强亦可由准粒子旋称伙伴跃迁、形状共存或伽马振动声子耦合所诱发。
+
+## Transfer Conditions
+
+跨质量区迁移需重新标定单粒子费米面深度、配对能隙与核芯刚性。
+
+## Failure Conditions
+
+若缺乏高精度康普顿线偏振排他测量或绝对寿命反演，单一混合比拟合结论失效。
+
+## Falsification or Reverse Tests
+
+通过两体绝对电磁矩阵元与 KSH 选择定则进行严格无公度可证伪性检验。
+
+## Open Questions
+
+高自旋带交叉后是否发生非绝热退耦以及偶偶核芯三轴柔软度演化规律。
+
+## Human Review
+
+待同行物理学家结合最新束流机时数据进行终审裁决。
+
+## Promotion or Rejection History
+
+2026-11-04: 完成微观证据链形式化与章节审计，维持 provisional 状态。

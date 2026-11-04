@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "FRDM 宏观-微观模型全核素基态形变与结合能系统学手册"
 aliases: [FRDM形变系统学, 宏观微观形变参数查询, Moller2019数据应用, 基态四极与三轴形变表]
 created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [frdm-2012, nuclear-deformation, beta2, beta4, gamma-deformation, nuclear-masses]
+tags: [frdm-2012, nuclear-deformation, beta2, beta4, gamma-deformation, nuclear-masses]
 ---
 
 # FRDM 宏观-微观模型全核素基态形变与结合能系统学手册
 
-## 1. 理论架构：有限程液滴模型（FRDM 2012）
+## Purpose
+
+### 理论架构：有限程液滴模型（FRDM 2012）
 
 在低能核物理中，快速、准确且具有全局一致性地获取任意核素的基态平衡形变参数（四极形变 $\beta_2$、十六极形变 $\beta_4$、三轴形变 $\gamma$）和质量亏损，是开展在束核反应计算、转动带回弯预测以及手征三面体几何分析的先决条件。
 
@@ -28,7 +31,9 @@ FRDM 2012 在四维形变空间 $(\epsilon_2, \epsilon_4, \epsilon_6, \gamma)$ �
 
 ---
 
-## 2. $A\approx 130$ 质量区基态形变系统学对比全表
+## Inputs and Assumptions
+
+### $A\approx 130$ 质量区基态形变系统学对比全表
 
 从 ADNDT 125 (2019) 原始数据表中提取本 Wiki 重点研究的同位素/同中子素链基态理论形变参量基准：
 
@@ -45,10 +50,22 @@ FRDM 2012 在四维形变空间 $(\epsilon_2, \epsilon_4, \epsilon_6, \gamma)$ �
 
 ---
 
-## 3. 在束实验设计中的快速查询与应用准则
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 在束实验设计中的快速查询与应用准则
 
 1. **转动惯量初值估算**：
    根据水动力学或刚体转动模型，基带转动能级常数可由基态四极形变 $\beta_2$ 快速初始化：
    $$\mathcal{J}_{\text{rigid}} \approx \frac{2}{5} M R_0^2 (1 + 0.31 \beta_2) \implies A_{\text{rot}} = \frac{\hbar^2}{2\mathcal{J}} \approx \frac{20 \sim 30\text{ keV}}{\beta_2^2}$$
 2. **三轴非对称角 $\gamma$ 的基准锚定**：
    当在粒子-转子模型（PRM）或推转壳模型（CSM）中拟合实验高自旋能带时，**严禁将形变参量 $(\beta_2, \gamma)$ 作为无限制的任意拟合自由参数**！必须将 FRDM 2012 基态值作为初值约束区间（$\pm 0.03$ 与 $\pm 5^\circ$），确保物理推演的微观自洽性。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

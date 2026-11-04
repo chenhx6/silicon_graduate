@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [nolen-schiffer-anomaly, nsa, charge-symmetry-breaking, csb, coulomb-displacement-energy, mirror-nuclei, isospin-violation, rho-omega-mixing]
+tags: [nolen-schiffer-anomaly, nsa, charge-symmetry-breaking, csb, coulomb-displacement-energy, mirror-nuclei, isospin-violation, rho-omega-mixing]
 ---
 
 # Nolen-Schiffer同位旋反常（NSA）、微观库仑位移亏损与电荷对称性破缺（CSB）核力法典
 
-## 1. 物理全景：经典电磁势无法解释的几百keV微观系统性缺失
+## Definition
+
+### 物理全景：经典电磁势无法解释的几百keV微观系统性缺失
 
 在原子核物理学中，镜像核对（Mirror Nuclei，如单核子闭壳外的 $^{41}\text{Sc} - {}^{41}\text{Ca}$、$^{17}\text{F} - {}^{17}\text{O}$、$^{39}\text{Ca} - {}^{39}\text{K}$）之间的结合能之差，传统理论认为**应该完全由电磁库仑相互作用解释**：
 因为根据核力的电荷对称性（Charge Symmetry），中子-中子强相互作用势与质子-质子强相互作用势应该严格相等（$V_{nn} \equiv V_{pp}$）。
@@ -24,7 +26,9 @@ topics: [nolen-schiffer-anomaly, nsa, charge-symmetry-breaking, csb, coulomb-dis
 
 ---
 
-## 2. 严格微观库仑项分解与反常定义
+## Necessary Assumptions
+
+### 严格微观库仑项分解与反常定义
 
 根据 S. Shlomo（Rep. Prog. Phys. 41, 957, 1978）与 G. A. Miller 等（Phys. Rep. 194, 1, 1990）：
 理论电磁位移能分解为四个精确项：
@@ -50,7 +54,13 @@ $$\Delta E_{\text{NSA}} = \Delta E_C^{\text{exp}} - \Delta E_C^{\text{theory}} \
 
 ---
 
-## 3. 电荷对称性破缺（CSB）核力的终极物理机制
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 电荷对称性破缺（CSB）核力的终极物理机制
 
 Nolen-Schiffer 反常的最终解决，迫使物理学界承认：
 **强相互作用核力并非在绝对意义上电荷对称！存在微弱但决定性的电荷对称性破缺核力（Charge-Symmetry-Breaking, CSB）：**
@@ -98,6 +108,19 @@ python3 system/scripts/analysis/nuclear_analyzer.py nsa --preset 41Sc_41Ca --jso
 
 ---
 
-## 5. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[isobaric-analog-states-and-coulomb-energy-differences]]：IAS 库仑位移能系统学在本文中得到了基于微观反常与 CSB 核力的严谨物理修正；
 - [[wigner-supermultiplet-su4-and-mass-cusp]]：电荷对称性破缺（CSB）与电荷独立性破缺（CIB）是微扰破坏 Wigner $SU(4)$ 对称性的最根本核力来源。

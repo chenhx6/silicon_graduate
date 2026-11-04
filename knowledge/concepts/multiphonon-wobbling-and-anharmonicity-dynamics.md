@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [multiphonon-wobbling, wobbling-motion, anharmonicity, phonon-hierarchy, electromagnetic-selection-rules, triaxiality, 163lu]
+tags: [multiphonon-wobbling, wobbling-motion, anharmonicity, phonon-hierarchy, electromagnetic-selection-rules, triaxiality, 163lu]
 ---
 
 # 多声子摆动运动（n_w=0,1,2）层级结构、非简谐软化参数与电磁跃迁选择定则法典
 
-## 1. 物理全景：从单声子横向进动到双声子激发谱的完全确证
+## Definition
+
+### 物理全景：从单声子横向进动到双声子激发谱的完全确证
 
 在低能核物理与三轴超形变（Triaxial Superdeformation, TSD）前沿中，摆动运动（Wobbling Motion）代表着刚性三轴核主转动轴在量子力学下的横向简谐进动。
 在发现一维单声子摆动带（$n_w = 1$）之后，国际核结构实验界（如 EUROBALL / Gammasphere 上的 $^{163}\text{Lu}, ^{165}\text{Lu}, ^{167}\text{Lu}$ 实验，D. R. Jensen et al. Phys. Rev. Lett. 89, 142503, 2002）：
@@ -32,7 +34,9 @@ topics: [multiphonon-wobbling, wobbling-motion, anharmonicity, phonon-hierarchy,
 
 ---
 
-## 2. 严格微观代数推导与判决参数
+## Necessary Assumptions
+
+### 严格微观代数推导与判决参数
 
 ### (1) 粒子-转子哈密顿量的非简谐代数展开
 设未扰动转子转动常数为 $A_k = \frac{\hbar^2}{2\mathcal{J}_k}$（主轴中轴 $\mathcal{J}_1$ 最大，奇核子指向短轴 3）。
@@ -79,7 +83,13 @@ $$A_{\text{anharm}} = \frac{R_{21}}{2.0} - 1.0 = \frac{\Delta_{\text{anharm}}}{2
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/multiphonon_wobbling_anharmonic_calculator.py`
@@ -105,7 +115,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py mwob \
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[davydov-filippov-triaxial-rotor-and-wobbling-dynamics]]：一维单声子横向/纵向摆动模型在此处被严格提升至多声子量子激发全景；
 - [[chiral-vibrational-tunneling-and-double-well-splitting]]：多声子摆动进动与手征双阱量子隧穿分别代表了三轴非对称势场中连续与离散对称性的最高演化形式；
 - [[superdeformation-triaxial-sd-and-decayout-dynamics]]：双声子摆动在实验上主要在三轴超形变（TSD）势阱中被清晰捕捉。

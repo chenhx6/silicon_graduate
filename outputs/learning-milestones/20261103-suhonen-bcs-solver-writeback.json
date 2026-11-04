@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-03",
+  "source": "raw/books/From nucleons to nucleus concepts of microscopic .pdf",
+  "raw_sha256": "4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c",
+  "reading_status": "bounded equation-to-code audit; not full-chapter completion",
+  "source_scope": {
+    "chapter": "14",
+    "printed_pages": [418, 423],
+    "physical_pdf_pages": [414, 419],
+    "equations": ["14.1", "14.2", "14.3", "14.4", "14.5", "14.6", "14.7", "14.8", "14.9", "14.10", "14.11"]
+  },
+  "audited_content": [
+    "BCS quasiparticle energy and occupation amplitudes",
+    "average particle-number constraint",
+    "gap-equation fixed-point iteration",
+    "chemical-potential correction and convergence control",
+    "SDI self-energy and phase-convention boundary"
+  ],
+  "implementation": {
+    "module": "system/scripts/analysis/bcs_constant_pairing_solver.py",
+    "method": "finite-space constant monopole pairing with bisection lambda and damped gap iteration",
+    "explicit_boundaries": [
+      "spherical finite model space",
+      "average particle number rather than exact number projection",
+      "positive u/v phase and gap magnitude",
+      "no SDI orbital self-energy, LN projection, blocking, deformation or cranking"
+    ]
+  },
+  "tests": {
+    "file": "system/tests/test_bcs_constant_pairing.py",
+    "cases": [
+      "analytic half-filled degenerate shell",
+      "particle-number and quasiparticle normalization",
+      "invalid pairing-strength rejection"
+    ],
+    "status": "passed"
+  },
+  "writeback": [
+    "knowledge/methods/bcs-constant-pairing-solver-and-phase-conventions.md",
+    "knowledge/index.md"
+  ],
+  "evidence_boundary": "The implementation is a reusable numerical baseline derived from the checked BCS equations. It is not a claim that the full Suhonen chapter, SDI self-energy, Lipkin-Nogami extension, or A~130 triaxial pairing problem has been completed."
+}

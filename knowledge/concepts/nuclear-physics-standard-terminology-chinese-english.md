@@ -6,12 +6,14 @@ created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [terminology, nuclear-structure, in-beam-spectroscopy, collective-motion, triaxiality]
+tags: [terminology, nuclear-structure, in-beam-spectroscopy, collective-motion, triaxiality]
 ---
 
 # 低能核物理与核结构核心中英文标准术语与概念体系规范
 
-## 1. 建立背景与学术规范意义
+## Definition
+
+### 建立背景与学术规范意义
 
 在当代理论与实验核物理研究中，绝大多数前沿原始文献以英文发表；然而在撰写中文开题报告、国家自然科学基金/青年基金申请书、博士学位论文以及向国内权威中文期刊（如《中国科学: 物理学 力学 天文学》《物理学报》《原子核物理评论》）投稿时，必须使用严谨、地道、公认的中文学术规范术语。
 
@@ -19,7 +21,9 @@ topics: [terminology, nuclear-structure, in-beam-spectroscopy, collective-motion
 
 ---
 
-## 2. 核心术语分类对照矩阵
+## Necessary Assumptions
+
+### 核心术语分类对照矩阵
 
 ### (1) 核形变、集体激发与三轴前沿
 
@@ -70,7 +74,13 @@ topics: [terminology, nuclear-structure, in-beam-spectroscopy, collective-motion
 
 ---
 
-## 3. 常见易混淆概念与规范表述指引
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 常见易混淆概念与规范表述指引
 
 1. **“摆动（wobbling）”与“振动（vibration）”的区别**：
    - 振动是核表面形状随时间的周期性伸缩或扭曲（如声子激发）；
@@ -79,3 +89,18 @@ topics: [terminology, nuclear-structure, in-beam-spectroscopy, collective-motion
    - 真正的手征双重带必须满足电磁跃迁特征（$B(M1)$ 与 $B(E2)$ 在两带间呈现近简并或交替劈裂）；不能仅凭能量上的两条靠近的带就宣称为手征带。
 3. **“混合比 $\delta$ 的符号约定”**：
    - 必须注明采用 **Rose-Brink 约定** 还是 **Krane-Steffen 约定**（二者相差一个负号：$\delta_{\text{KS}} = -\delta_{\text{RB}}$）。国际常规核数据表（ENSDF）均统一遵循 Krane-Steffen 约定。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

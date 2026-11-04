@@ -1,0 +1,54 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Horoi 关于双贝塔衰变壳模型核矩阵元、闭合近似、Lanczos加速算法与LNV机制解耦的主文本核读",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "article": "Horoi, Double Beta Decay: A Shell Model Approach",
+    "doi": "10.3390/physics4040074",
+    "scope": "Article pp.1135-1149 / physical PDF pp.302-317, main text, equations, Table 1 and Figures 1-2",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/horoi-double-beta-decay-shell-model-contract.md",
+      "reason": "ISM 0vbb and 2vbb NME methods, closure approximation, optimal closure energy, Lanczos isospin projection trick, 2vbb doorway acceleration, and ga quenching contract"
+    },
+    {
+      "path": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+      "reason": "corrected Horoi physical page range, article status and source-level claims"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Horoi double beta decay shell model contract"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.302 title and introduction",
+    "PDF p.303 Table 1 and Figures 1-2 Feynman diagrams",
+    "PDF p.305 Equations (1)-(2) generalized LNV half-life",
+    "PDF p.307 Equation (5) intermediate state summation",
+    "PDF p.309 Equations (7)-(11) Lanczos isospin projection acceleration",
+    "PDF p.310 optimal closure energy discussion and Section 4 Equations (12)-(13)"
+  ],
+  "claims": [
+    "0vbb half-life combines multiple LNV mechanisms, phase-space factors and specific NMEs.",
+    "Closure approximation in 0vbb can be evaluated efficiently via a single Lanczos iteration using isospin projection without computing full TBTDs.",
+    "Optimal closure energies are Hamiltonian-specific, with CMU and Strasbourg-Madrid groups adopting distinct optimal values.",
+    "2vbb doorway-state Lanczos algorithm speeds up intermediate-state summation by a factor of approximately 1000 over direct diagonalization.",
+    "gA quenching factor of ~0.6-0.74 is required for 2vbb Gamow-Teller decay but is not applied to high-momentum-transfer 0vbb operators."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded article-level main-text and key-table unit",
+    "remaining_queue": "Only Martínez-Pinedo/Langanke astrophysics article remains queued; production code implementations were not independently re-read",
+    "boundary": [
+      "No single isotope half-life limit was claimed to uniquely determine the Majorana neutrino mass",
+      "No closure NME was directly applied to 2vbb decay",
+      "No claim of resolving the experimental gA quenching problem in 0vbb was made"
+    ]
+  }
+}

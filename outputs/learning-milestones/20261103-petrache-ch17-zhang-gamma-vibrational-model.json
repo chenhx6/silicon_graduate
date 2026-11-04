@@ -1,0 +1,62 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Petrache (ed.) 专著第 17 章 Zhang 等关于过渡核玻尔哈密顿量、临界点对称性、gamma稳定谐振势能核芯-粒子耦合、gamma振动声子诱发MchiD新机制以及摆动运动与gamma振动判据全章精读与核验",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "chapter": 17,
+    "chapter_title": "Collective model for multiple chiral doublets bands and wobbling bands",
+    "author": "Yu Zhang, Hong-Di Jiang, Bin Qi",
+    "scope": "Article pp.304-318 / physical PDF pp.323-337, full chapter text, equations, and Figures 17.1-17.4",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/zhang-gamma-vibrational-collective-model-contract.md",
+      "reason": "Bohr Hamiltonian beyond rigid rotor, CPS solutions (E(5), X(5), Z(5), T(5)), gamma-stable core-particle coupling, gamma-vibrational MchiD mechanism, multiple wobbling bands, and wobbling vs gamma-vibration discrimination"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "updated Chapter 17 status to full chapter verification and registered claims CW-48 to CW-52"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Zhang gamma-vibrational collective model contract"
+    },
+    {
+      "path": "knowledge/concepts/collective-quadrupole-pes-and-gamma-softness.md",
+      "reason": "linked Bohr Hamiltonian gamma-stable collective model and CPS"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.324 Equations (17.1)-(17.5) and E(5) solution",
+    "PDF p.326 Equations (17.13)-(17.20) X(5) solution and Z(5) introduction",
+    "PDF p.328 Equations (17.33)-(17.41) T(5) solution and Section 17.3 core-particle model",
+    "PDF p.329 Equations (17.43)-(17.47) core Hamiltonian with gamma-stable potential",
+    "PDF p.330 Equations (17.48)-(17.53) adiabatic separation of rotational and vibrational equations",
+    "PDF p.331 Equations (17.54)-(17.62) harmonic gamma-vibrational eigenvalues and electromagnetic formulas",
+    "PDF p.332 Figures 17.1-17.2 (MchiD level pattern and inband B(E2)/B(M1) transitions)",
+    "PDF p.333 Figures 17.3-17.4 (Multiple wobbling bands and wobbling energies/ratios)",
+    "PDF p.334 Section 17.3.1 discussions and Section 17.3.2 odd-odd chiral rotations"
+  ],
+  "claims": [
+    "The Bohr Hamiltonian with a gamma-stable potential V(gamma) = c/(4B beta^2) * (gamma - gamma_e)^2 generalizes the PRM beyond rigid rotor assumptions.",
+    "Under the adiabatic approximation, the total energy separates into an exact 1D harmonic oscillator gamma-vibrational term A' n_gamma' and rotational eigenvalues B' r_s^I.",
+    "Gamma-vibrational excitations (n_gamma' = 1, 2) on a single particle-hole configuration generate a new class of MchiD with identical rotational patterns and in-band B(E2)/B(M1) transitions.",
+    "Coupling a single high-j particle to a gamma-stable core generates multiple rotation-wobbling doublets with strong collective E2 inter-band transitions.",
+    "Interband E2 enhancement alone does not uniquely confirm wobbling, as gamma-vibrational core-particle coupling naturally yields B(E2)out/B(E2)in ~ 0.3-0.8; multi-phonon spacing and S(I) staggering indices are required to discriminate."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded full-chapter text and figure unit",
+    "remaining_queue": "Remaining chapters of Petrache (ed.) book remain queued according to the chapter map",
+    "boundary": [
+      "Harmonic gamma-potential is an idealization that does not replace full 2D beta-gamma PES from microscopic functionals",
+      "Adiabatic decoupling ignores Coriolis-induced rotation-vibration mixing at high spin",
+      "Beta-rigidity assumption requires testing in strongly beta-soft transitional nuclei"
+    ]
+  }
+}

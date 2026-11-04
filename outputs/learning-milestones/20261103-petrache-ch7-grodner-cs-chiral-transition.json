@@ -1,0 +1,55 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Petrache (ed.) 专著第 7 章 Grodner 关于 126,128Cs 从非手征向手征构型演化、2x2混合能级劈裂双机制、S对称性B(M1)交错断裂、RDDS寿命与9+带头g因子直接非共面测定的全章精读与核验",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "chapter": 7,
+    "chapter_title": "Experimental search for non-chiral to chiral configuration transition in 126,128Cs isotopes",
+    "author": "Ernest Grodner",
+    "scope": "Article pp.137-147 / physical PDF pp.156-166, full chapter text, equations, and Figures 7.1-7.3",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/grodner-cs-chiral-transition-and-selection-rules-contract.md",
+      "reason": "2x2 chiral mixing algebra, energy splitting dual mechanisms (tunneling vs non-orthogonal overlap), S-symmetry B(M1) staggering asymmetry, RDDS plunger lifetime bounds, and g-factor direct volume probe"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "updated Chapter 7 status to full chapter verification and registered claims CW-28 to CW-32"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Grodner Cs chiral transition method contract"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.156 title and introduction",
+    "PDF p.158 2x2 mixing picture and energy splitting equations",
+    "PDF p.160 Figure 7.1 (global 9-nucleus experimental energy splitting trends)",
+    "PDF p.163 Figure 7.2 (B(M1) staggering and low-spin asymmetry in 126,128Cs)",
+    "PDF p.164 Figure 7.3 (preliminary plunger RDDS decay curves) and g-factor discussion",
+    "PDF p.165 conclusions and bibliography"
+  ],
+  "claims": [
+    "Nuclear chirality energy splitting stems from both inter-well tunneling and non-orthogonal overlap <L|R> != 0; splitting persists even when tunneling vanishes.",
+    "Experimental energy differences Delta E(I) in 9 representative odd-odd chiral candidates do not follow the naive 'rapid decrease and high-spin stabilization' rule, showing near-constant splitting or moment-of-inertia divergence.",
+    "B(M1) staggering is governed by S-symmetry; the asymmetry in 128Cs below 15 hbar (vanishing in yrast band, amplified in partner band) proves S-symmetry holds while chirality dissolves into planar geometry.",
+    "Plunger RDDS lifetimes in 128Cs confirm that the 10+ state lifetime is 9 +- 5 ps, ruling out staggering extrapolation and confirming staggering collapses before 10+.",
+    "The g-factor of the 56 ns isomeric 9+ bandhead in 128Cs directly measures the volume spanned by the three spins and proves a near-planar non-chiral geometry, establishing a non-chiral to chiral transition between 9 hbar and 14 hbar."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded full-chapter text and figure unit",
+    "remaining_queue": "Remaining chapters of Petrache (ed.) book remain queued according to the chapter map",
+    "boundary": [
+      "2x2 mixing is a discrete truncation that does not model continuous aplanarity wavefunctions",
+      "Near-constant energy splitting alone cannot prove or disprove chirality without electromagnetic symmetry and staggering",
+      "The planar bandhead measured in 128Cs cannot be blindly generalized to 126Cs without independent g-factor measurement"
+    ]
+  }
+}

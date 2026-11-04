@@ -1,0 +1,56 @@
+{
+  "schema": "casten-bounded-reading-receipt-v1",
+  "date": "2026-11-02",
+  "source": "raw/books/Nuclear Structure From A Simple Perspective Casten.pdf",
+  "raw_sha256": "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9",
+  "scope": {
+    "ch07": {
+      "physical_pdf": [
+        262,
+        285
+      ],
+      "printed": [
+        247,
+        270
+      ],
+      "status": "bounded-review",
+      "focus": [
+        "Nilsson slopes",
+        "pseudo-crossings",
+        "unique-parity",
+        "asymptotic quantum numbers"
+      ]
+    },
+    "ch09": {
+      "physical_pdf": [
+        328,
+        347
+      ],
+      "printed": [
+        313,
+        331
+      ],
+      "status": "bounded-review",
+      "focus": [
+        "TDA",
+        "RPA",
+        "collective roots",
+        "two-quasiparticle gamma vibration",
+        "octupole/beta systematics"
+      ]
+    }
+  },
+  "durable_outputs": [
+    "knowledge/concepts/casten-nilsson-and-microscopic-collective-vibrations.md",
+    ".agents/skills/casten-nuclear-structure/chapters/ch07-nilsson-model.md",
+    ".agents/skills/casten-nuclear-structure/chapters/ch09-microscopic-collective-vibrations.md"
+  ],
+  "evidence_boundary": "Nilsson/TDA/RPA outputs are model-layer results. This bounded reading does not certify all figures, tables or equations and does not establish wobbling/chirality.",
+  "main_claims": [
+    "Nilsson slopes and asymptotic labels organize deformation-driving orbitals",
+    "same-K avoided crossings exchange spherical parentage",
+    "unique-parity orbitals can be relatively pure configuration benchmarks",
+    "TDA/RPA collective roots arise from coherent particle-hole or quasiparticle mixing",
+    "deformed gamma-vibration composition is selected by quasiparticle energies and quadrupole matrix elements"
+  ]
+}

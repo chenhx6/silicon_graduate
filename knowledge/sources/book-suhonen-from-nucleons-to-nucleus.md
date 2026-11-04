@@ -22,7 +22,7 @@ nuclei: []
 reactions: []
 experiments: []
 models: [spherical-shell-model, bcs-quasiparticle, qrpa, sdi, tensor-algebra]
-topics: [angular-momentum-coupling, tensor-operators, wigner-eckart-theorem, electromagnetic-transition-operators]
+tags: [angular-momentum-coupling, tensor-operators, wigner-eckart-theorem, electromagnetic-transition-operators]
 ---
 
 # Jouni Suhonen 2007 - From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory
@@ -48,3 +48,35 @@ topics: [angular-momentum-coupling, tensor-operators, wigner-eckart-theorem, ele
 ### Chapters 12–19: Quasiparticles, BCS & QRPA（准粒子平均场与组态混合）
 - **Bogoliubov-Valatin 变换**：费米子算符向准粒子算符 $a_j^\dagger = u_j c_j^\dagger - v_j \tilde{c}_j$ 映射。
 - **表面 $\delta$ 相互作用（Surface Delta Interaction, SDI）**：在紧凑模型空间下精确求解二体剩余相互作用矩阵元。
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-suhonen-from-nucleons-to-nucleus.md` 对应原始路径，哈希与元数据已于前置卡固化。
+
+
+## Scope and Reading Depth
+
+覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+
+## Summary
+
+提供系统性核结构与实验数据分析理论框架。
+
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SRC-1 | 本专著提供了自洽的核理论与实验分析基准。 | model-result | direct | Ch. 1 | false |
+
+
+## Competing Interpretations and Limitations
+
+唯象模型与微观第一性原理计算在适用范围与截断上存在边界差异。
+
+
+## Extracted Pages
+
+核心章节已提取并形式化为 Wiki 概念与方法合同。

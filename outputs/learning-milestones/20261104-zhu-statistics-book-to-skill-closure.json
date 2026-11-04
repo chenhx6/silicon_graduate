@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-11-04",
+  "task": "zhu-experimental-statistics-book-to-skill-delivery",
+  "source": {
+    "path": "raw/books/实验物理中的概率和统计_朱永生著.pdf",
+    "sha256": "e97062665497c597609d58c23dfa977824c43e73d3ae8cb4ca3c0855e381894b",
+    "archive_required": true,
+    "raw_unchanged": true
+  },
+  "skill_root": ".agents/skills/zhu-experimental-statistics",
+  "skill_files": [
+    ".agents/skills/zhu-experimental-statistics/SKILL.md",
+    ".agents/skills/zhu-experimental-statistics/glossary.md",
+    ".agents/skills/zhu-experimental-statistics/patterns.md",
+    ".agents/skills/zhu-experimental-statistics/cheatsheet.md",
+    ".agents/skills/zhu-experimental-statistics/chapters/ch03-error-propagation-and-covariance.md",
+    ".agents/skills/zhu-experimental-statistics/chapters/ch08-maximum-likelihood-and-crlb.md",
+    ".agents/skills/zhu-experimental-statistics/chapters/ch09-least-squares-and-lm-algorithm.md",
+    ".agents/skills/zhu-experimental-statistics/chapters/ch11-small-signals-and-feldman-cousins.md",
+    ".agents/skills/zhu-experimental-statistics/chapters/ch12-hypothesis-testing-and-wilks-theorem.md",
+    ".agents/skills/zhu-experimental-statistics/chapters/ch13-minimization-methods-and-minuit.md",
+    ".agents/skills/zhu-experimental-statistics/chapters/ch14-monte-carlo-sampling-and-integration.md"
+  ],
+  "chapter_count": 7,
+  "study_focus": [
+    "multivariate covariance error propagation",
+    "maximum likelihood and Cramer-Rao lower bound",
+    "Levenberg-Marquardt nonlinear fitting",
+    "low-count Poisson likelihood and Baker-Cousins deviance",
+    "Feldman-Cousins confidence construction with physical boundaries",
+    "likelihood-ratio hypothesis testing and Wilks conditions",
+    "MIGRAD/HESSE/MINOS minimization and asymmetric errors",
+    "Monte Carlo sampling and integration"
+  ],
+  "validation": {
+    "wiki_boundary_check": "ok",
+    "wiki_archive_gate_changed": "ok",
+    "wiki_lint_errors": 0,
+    "nuclear_analyzer_selftest": "passed",
+    "python_unittest": {
+      "command": "python3 -m unittest discover -s system/tests -p \"test_*.py\"",
+      "tests": 635,
+      "status": "passed"
+    },
+    "git_diff_check": "passed"
+  },
+  "evidence_boundary": "AI-generated skill extraction and cross-linking; chapter locators are study navigation aids and do not replace page-level human review for publication claims.",
+  "status": "complete"
+}

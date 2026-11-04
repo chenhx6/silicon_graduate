@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [tpsm, angular-momentum-projection, band-diagram, pairing-plus-quadrupole, triaxiality, wobbling-motion, chiral-doublet-bands]
+tags: [tpsm, angular-momentum-projection, band-diagram, pairing-plus-quadrupole, triaxiality, wobbling-motion, chiral-doublet-bands]
 ---
 
 # 三轴投影壳模型（TPSM）微观多体动力学与角动量投影理论
 
-## 1. 理论渊源：打破轴对称性与对称性精确恢复
+## Definition
+
+### 理论渊源：打破轴对称性与对称性精确恢复
 
 在低能核结构微观模型体系中，传统大尺度球形壳模型（LSSM）在处理中重质量变形核（如 $A\approx 130$ 质量区）的高自旋态时，面临着千亿维配置空间的指数爆炸难题；而自洽推转平均场（TAC/CSM）虽然能在大形变下求解，但其内禀波函数打破了三维空间旋转对称性，导致角动量不是守恒量，无法直接输出具有确定自旋和宇称的离散实验室物理跃迁。
 
@@ -19,7 +21,9 @@ topics: [tpsm, angular-momentum-projection, band-diagram, pairing-plus-quadrupol
 
 ---
 
-## 2. TPSM 哈密顿量与多准粒子投影基底
+## Necessary Assumptions
+
+### TPSM 哈密顿量与多准粒子投影基底
 
 ### (1) 配对加四极-四极相互作用（PQQ）微观哈密顿量
 TPSM 采用可严格求解长程形变与短程配对竞争的标准微观多体能量算符：
@@ -40,7 +44,13 @@ $$H_{\text{sp}} = H_0 - \frac{2}{3} \hbar\omega_0 \left[ \epsilon_2 \cos\gamma \
 
 ---
 
-## 3. 三维角动量投影算符（3D Angular Momentum Projection）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 三维角动量投影算符（3D Angular Momentum Projection）
 
 由于三轴变形内禀态 $|\Phi_\kappa\rangle$ 不具备良好的实验室角动量，必须通过三维投影算符从变形波函数中“滤出”具有确定自旋 $I$、实验室分量 $M$ 与内禀投影 $K$ 的严格物理本征基矢：
 $$\hat{P}_{MK}^I = \frac{2I + 1}{8\pi^2} \int D_{MK}^{I*}(\alpha, \beta, \gamma) \hat{R}(\alpha, \beta, \gamma) d\Omega$$
@@ -70,3 +80,18 @@ $$E_\kappa(I) = \frac{\langle \Phi_\kappa | \hat{H} \hat{P}_{KK}^I | \Phi_\kappa
    在三轴变形下（$\gamma \approx 30^\circ$），同一单粒子态在不同的 $K$ 投影之间发生强力混杂，$K=0, 2, 4$ 态在自旋投影后展现出系列规则排列的伴随能级，其能量差即对应微观摆动声子能量；
 3. **手征双重带（Chiral Doublets）**：
    质子粒子-中子空穴两准粒子态在三维旋转坐标系中形成左右手对称态，经投影后自然在能谱中输出严格对称的孪生手征双重带。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

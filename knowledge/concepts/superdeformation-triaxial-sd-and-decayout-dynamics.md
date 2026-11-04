@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [superdeformation, triaxial-superdeformation, tsd-wobbling, decayout-tunneling, 163lu, a130-hd-bands]
+tags: [superdeformation, triaxial-superdeformation, tsd-wobbling, decayout-tunneling, 163lu, a130-hd-bands]
 ---
 
 # 超形变（SD）、三轴超形变（TSD）与能带退激穿透动力学
 
-## 1. 物理全景：宏观空间几何轴比 2:1 的量子孤岛
+## Definition
+
+### 物理全景：宏观空间几何轴比 2:1 的量子孤岛
 
 在原子核有限量子多体系统中，常规四极形变通常处于中等幅度（轴比约 1.2:1 至 1.3:1，对应 $\beta_2 \approx 0.2 \sim 0.3$）。然而，当原子核处于高速推旋转动时，单粒子平均场中会出现一组全新的具有简单整数组合（如长轴与短轴之比为 2:1）的宏观壳层闭合，称为**超形变（Superdeformation, SD: $\beta_2 \approx 0.6 \sim 0.7$）**。
 
@@ -25,7 +27,9 @@ topics: [superdeformation, triaxial-superdeformation, tsd-wobbling, decayout-tun
 
 ---
 
-## 2. 三轴超形变（TSD）核中的多声子摆动运动实验基准
+## Necessary Assumptions
+
+### 三轴超形变（TSD）核中的多声子摆动运动实验基准
 
 在 2001–2003 年期间，国际核物理界在哥本哈根与法国利用 EUROBALL 阵列取得了一系列划时代发现：
 
@@ -41,7 +45,13 @@ topics: [superdeformation, triaxial-superdeformation, tsd-wobbling, decayout-tun
 
 ---
 
-## 3. 超形变带退激脱落（Decay-out）统计穿透理论
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 超形变带退激脱落（Decay-out）统计穿透理论
 
 超形变能带在谱线上具有极其独特的“突然死亡”特征：在自旋 $I \ge 25 \sim 60\hbar$ 范围内，带内发射系列等间距四极 $\gamma$ 射线（$\Delta E_\gamma \approx \text{常数}$，强度保持 $100\%$）；然而当自旋下降到某一临界自旋 $I_{\text{decay}}$ 时，**整条能带在 1–2 个自旋步长内彻底消失**！
 
@@ -69,3 +79,18 @@ $$\frac{\Gamma_{\text{out}}(I_{\text{decay}})}{\Gamma_{\text{in}}(I_{\text{decay
    调用本指南的算法，通过检验 $\mathcal{J}^{(2)}$ 是否在宽频率区间保持平坦无回弯平台，严格判定其是否属于微观次级势阱中的超形变/高形变相；
 2. **脱落点寻找**：
    在 $^{131}\text{Ce}$ CIAE HI-13 实验中，高形变能带向基态带的连接线极其微弱；利用 WKB 势垒穿透模型，可反演阻隔次级势阱的微观单极势垒高度，为寻找极端微弱的脱落连接线提供能量与多极性预测窗口！
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

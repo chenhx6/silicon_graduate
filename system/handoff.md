@@ -1,13 +1,27 @@
 ---
 graph-excluded: true
-updated: 2026-11-02
+updated: 2026-11-04
 ---
+
+## Active checkpoint — 2026-11-04：Jouni Suhonen《From Nucleons to Nucleus》book-to-skill 交付
+
+- 完成 `.agents/skills/suhonen-microscopic-nuclear-theory/` 技能包的系统构建与补齐，覆盖 `SKILL.md`、`glossary.md`、`patterns.md`、`cheatsheet.md` 以及 6 张核心章节卡片：
+  - `ch01-02-racah-algebra-wigner-eckart.md`：不可约球张量算符、Edmonds-Bohr-Mottelson 严格相位约定、6j/9j 符号重耦合与单粒子矩阵元；
+  - `ch06-electromagnetic-transition-operators.md`：微观电多极 $E\lambda$ 与磁多极 $M\lambda$ 算符、有效电荷、自由/淬灭 $g$ 因子与 Weisskopf 单粒子单位；
+  - `ch08-surface-delta-interaction-sdi.md`：表面 Delta 相互作用、反对称化耦合两粒子矩阵元解析解与两核子组态混合；
+  - `ch13-14-bcs-pairing-quasiparticles.md`：Bogoliubov-Valatin 准粒子变换、自洽 BCS 能隙与化学势 $\lambda$ 方程、占据几率与准粒子跃迁干涉相消；
+  - `ch18-qrpa-collective-vibrations.md`：准粒子 RPA 超矩阵本征值求解、前向 $X$ 与后向基态关联 $Y$ 振幅、双声子态与第一激发态 $B(E2)$ 相干增强；
+  - `ch19-pnqrpa-ikeda-sum-rule-beta-decay.md`：质中 pnQRPA 荷电激发、Gamow-Teller 算符、Ikeda 严格求和规则 $S_- - S_+ \equiv 3(N-Z)$ 与 $g_{\text{pp}}$ 对 $2\nu\beta\beta$ 矩阵元相消压制。
+- 物理机制与微观代数深度对账绑定：`knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md`、`knowledge/methods/suhonen-pnqrpa-and-ikeda-sum-rule-contract.md`、`knowledge/concepts/suhonen-bcs-qrpa-and-transition-crosswalk.md`、`knowledge/methods/bcs-constant-pairing-solver-and-phase-conventions.md` 与分析套件 `bcs_constant_pairing_solver.py`、`qrpa_matrix_vibrational_calculator.py`、`surface_delta_interaction_pandya_calculator.py`。
+- 微观核理论重点已转化为可执行研究准则：不可约球张量标准相位为所有微观跃迁矩阵元提供黄金代数基准、BCS 准粒子跃迁相消因子直接判决电跃迁费米面破缺、pnQRPA Ikeda 求和规则作为弱作用矩阵元无偏性的绝对守恒判据。
+- 里程碑回执：`outputs/learning-milestones/20261104-suhonen-microscopic-nuclear-theory-book-to-skill-closure.json`；Suhonen 原著 PDF（SHA-256 `4d4b799b...`）保持只读。
+
 
 ## Active checkpoint — 2026-11-02T20:30:00+08:00 (Wigner 9j符号L-S/j-j变换、GT淬灭Delta异质态、在束自旋取向衰减、r过程Saha等待点与摆动混合比相位等5大分析器落地，85模块闭环)
 
 - **全域核物理理论与在束实验分析系统化闭环拓展（80 -> 85 模块）**：
   - **模块 81**：Wigner-Racah 角动量代数、Wigner $9j$ 符号与 $L-S$ 到 $j-j$ 壳模型重耦合计算器（`wigner_racah_algebra_9j_calculator.py`），通过三重 $6j$ 符号收缩严格代数求解四个角动量重耦合，验证单零项退化恒等式，计算两核子表象变换矩阵元 $\langle jj | LS; J \rangle$；
-  - **模块 82**：电荷交换 Gamow-Teller 巨共振 Ikeda 求和规则淬灭与 $\Delta(1232)$ 异质态解卷积计算器（`charge_exchange_gt_quenching_calculator.py`），量化 $(p, n)$ 零度角峰区仅观测到 $56\%$ 强度的物理根源，分解亚核子 $\Delta_{33}$ 夸克翻转混合（推移至 $300\text{ MeV}$）与二阶 $2p-2h$ 张量连续谱弥散，重整化介质有效耦合 $g_A^{\text{eff}} \approx 0.95$；
+  - **模块 82**：电荷交换 Gamow-Teller 巨共振 Ikeda 求和规则淬灭与 $\Delta(1232)$ 异质态解卷积计算器（`charge_exchange_gt_quenching_calculator.py`），量化 $(p, n)$ 零度角峰区仅观测到 $56\%$ 强度的物理根源，分解亚核子 $\Delta_{33}$ 夸克翻转混合（推移至 $300\text{ MeV}$）与二阶 $2p-2h$ 张量连续谱弥散，重整化介质有效耦合 $g_A^{\text{eff}} \a0.95$；
   - **模块 83**：在束核自旋取向衰减系数（$\alpha_2, \alpha_4$）与磁子能级分布 $\sigma_m/I$ 反演计算器（`alignment_attenuation_coefficients_calculator.py`），基于 Yamazaki 高斯磁子分布推导取向衰减因子 $\alpha_k$，并利用已知纯延伸 $E2$ 跃迁实测 $a_2$ 作为内标温度计精确反演真实打靶取向宽度 $\sigma_m / I$；
   - **模块 84**：天体物理 $r$-过程 $(n, \gamma) \rightleftharpoons (\gamma, n)$ 化学统计平衡、等待点丰度与太阳峰生成模拟器（`r_process_waiting_point_flow_calculator.py`），求解高温高密千新星中子风暴下的 Saha 详细平衡，推导特征等待点中子分离能 $S_n^0 \approx 3.056\text{ MeV}$，解析展现中子闭壳（$N=50, 82, 126$）断崖式滞留铸就三大丰度主峰（$A \sim 80, 130, 195$）的物理本质；
   - **模块 85**：原子核摆动运动 $\Delta I=1$ 多极混合比 $\delta(E2/M1)$ 相位符号法则与 TW/LW 诊断计算器（`wobbling_branching_ratio_phase_calculator.py`），基于 Frauendorf-Dönau 2014 微观理论求解横向摆动大混合比（$|\delta| \gg 1.0, f_{E2} > 80\%$）与 $(g_j - g_R)$ 正负符号约束，结合实验 DCO 双实数根排他性裁决真横向摆动带，彻底消除签名伙伴带伪摆动假象；
@@ -35,7 +49,7 @@ updated: 2026-11-02
 ## Active checkpoint — 2026-11-02T18:30:00+08:00 (相对论弹核碎裂、手征双阱WKB隧穿、Clover偏振加和、Strutinsky平滑与Nilsson磁矩5大分析器落地，74模块闭环)
 
 - **全域核物理理论与在束实验分析系统化闭环拓展（69 -> 74 模块）**：
-  - **模块 70**：相对论重离子弹核碎裂（Abrasion-Ablation）擦伤-烧蚀与 Goldhaber 动量宽计算器（`abrasion_ablation_fragmentation_calculator.py`），结合 Glauber 清洁切削几何与前碎片表面剪切能 $E^* \approx 13.3\text{ MeV} \times A_{\text{part}}$，模拟两步蒸发冷却与费米运动诱发的高斯纵向动量展宽 $\sigma_p$，为放射性束流大装置（FRIB / HIAF）提供初级靶产额优化；
+  - **模块 70**：相对论重离子弹核碎裂（Abrasion-Ablation）擦伤-烧蚀与 Goldhaber 动量宽计算器（`abrasion_ablation_fragmentation_calculator.py`），结合 Glauber 清洁切削几何与前碎片表面剪切能 $E^* \a13.3\text{ MeV} \times A_{\text{part}}$，模拟两步蒸发冷却与费米运动诱发的高斯纵向动量展宽 $\sigma_p$，为放射性束流大装置（FRIB / HIAF）提供初级靶产额优化；
   - **模块 71**：手征双重势阱量子隧穿劈裂 $\Delta E(I)$ 与手征振动向静态转动相变计算器（`chiral_vibrational_tunneling_calculator.py`），构建四阶非共面双阱集体势 $V(\phi, I)$，利用 WKB 势垒穿透积分推导孪生能带能级差 $\Delta E(I)$ 的指数坍缩，重现低自旋振动（$\sim 300\text{ keV}$）向中自旋静态转动（$\Delta E \le 50\text{ keV}$）及极高自旋哥氏重整相变的马鞍形全自旋演化；
   - **模块 72**：四叶草（Clover）HPGe 探测器康普顿加和（Add-Back）与自散射线偏振度计算器（`clover_compton_addback_polarization_calculator.py`），解析四晶体矩阵跨晶体散射加和因子 $F_{\text{add-back}}(E_\gamma)$（高能区光电峰效率跃升近 $50\%$），推导 Klein-Nishina 极化散射截面，利用无偏振放射源几何因子 $a_{\text{geom}}$ 纠偏提取真实线偏振度 $P$，确立电多极（$P > 0$）与磁多极（$P < 0$）宇称刚性判据；
   - **模块 73**：Strutinsky 微观壳修正能平滑方法与平顶条件（Plateau Condition）计算器（`strutinsky_shell_correction_calculator.py`），运用 6 阶 Hermite 曲率多项式加权平滑离散单粒子能级谱，自洽求解平滑费米能级 $\tilde{\lambda}$，从微观量子态中无偏剥离壳修正能 $\delta U = E_{\text{disc}} - \tilde{E}$，并建立平滑参数 $\gamma$ 在 $8 \sim 12\text{ MeV}$ 区间的平顶驻点检验；
@@ -91,7 +105,7 @@ updated: 2026-11-02
 ## Active checkpoint — 2026-11-02T14:30:00+08:00 (四极PES势能面、HPGe极零相消、3D TAC手征几何、Beta衰变log ft与GM规则5大分析器落地，54模块闭环)
 
 - **全域核物理理论与在束实验分析系统化闭环拓展（49 -> 54 模块）**：
-  - **模块 50**：5D Bohr 集体哈密顿量四极势能面（PES）计算器（`collective_quadrupole_pes_calculator.py`），推导六阶展开式、长椭/扁椭/三轴极小曲率刚度 $C_\beta, C_\gamma$ 与势垒 $\Delta V_\gamma$，建立刚度比值 $\mathcal{R}_\gamma = \Delta V_\gamma / E_{0, \gamma}$ 彻底裁决 $A \approx 130$ $\gamma$ 软核与刚性三轴核争议；
+  - **模块 50**：5D Bohr 集体哈密顿量四极势能面（PES）计算器（`collective_quadrupole_pes_calculator.py`），推导六阶展开式、长椭/扁椭/三轴极小曲率刚度 $C_\beta, C_\gamma$ 与势垒 $\Delta V_\gamma$，建立刚度比值 $\mathcal{R}_\gamma = \Delta V_\gamma / E_{0, \gamma}$ 彻底裁决 $A \a$A \aA \a130$ $\gamma$ 软核与刚性三轴核争议；
   - **模块 51**：HPGe 高计数率数字化极零相消（PZC）与弹道亏损（BD）分析器（`hpge_pulse_processing_pole_zero_calculator.py`），建模前放指数衰减与频域极点抵消条件 $\tau_{\text{PZ}} = \tau_{\text{decay}}$，量化同轴锗载流子收集时间涨落造成的弹道亏损二阶展开与平顶覆盖消除律 $t_{\text{flat}} \ge t_c$，评估高率死时间与堆积判弃；
   - **模块 52**：3D 倾斜轴推转（TAC）手征几何与非共面体积度规计算器（`chiral_geometry_tac_calculator.py`），在内禀参考系中解构短轴质子 $j_p$、长轴中子 $j_n$ 与中轴核心转动 $R_m$ 构成的正交三面体，推导手征体积度规 $\mathcal{V}_{\text{chiral}} = |\mathbf{j}_p \cdot (\mathbf{R} \times \mathbf{j}_n)| / (|j_p||j_n||R|)$，确立手征振动向静态手征转动相变与孪生电磁特征；
   - **模块 53**：相对论 $\beta$ 衰变相空间积分因子 $f(Z, Q)$、比较半衰期 $\log_{10} ft$ 与 CVC 弱电常数检验器（`beta_decay_log_ft_phase_space_calculator.py`），计算相对论狄拉克费米函数与相空间积分，自动分类超允许到高阶禁戒跃迁，利用超允许 $0^+ \to 0^+$ 基准精密测试 CKM 第一行幺正性与 $|V_{ud}|$；
@@ -108,8 +122,8 @@ updated: 2026-11-02
   - **模块 45**：Gilbert-Cameron 复合能级密度与 Ignatyuk 壳热阻尼计算器（`gilbert_cameron_level_density_calculator.py`），严谨统一恒温公式与背移费米气体切线连续性，解构壳效应热融化与中子共振间距 $D_0$ 标定；
   - **模块 46**：Davydov-Filippov 三轴转子与横向/纵向摆动模型分析器（`davydov_wobbling_rotor_calculator.py`），实现流体力学三轴能级与 $B(E2)$ 分支比、Frauendorf-Dönau 摆动能量随自旋消长轨迹判断及排他性伪摆动证伪；
   - **模块 47**：带电粒子 $\Delta E - E$ 望远镜鉴别与探测器非理想效应分析器（`particle_identification_delta_e_calculator.py`），消除吴治华《原子核物理实验方法》与汪晓莲《粒子探测技术》关于重离子脉冲高度亏损（死层窗口亏损、非电离核阻止亏损、等离子体复合亏损）以及薄层能散区（玻尔高斯 vs Vavilov vs 朗道长尾）的认知冲突；
-  - **模块 48**：重离子熔合蒸发动力学与级联残核截面计算器（`compound_nucleus_evaporation_calculator.py`），基于 Bass 势垒与 RLDM 裂变临界角动量，结合 Hauser-Feshbach 统计多步级联预测 $xn, pxn, lpha xn$ 产额与最佳在束束流能量；
-  - **模块 49**：实验统计协方差误差传播、泊松低计数极大似然与双根仲裁器（`experimental_uncertainty_covariance_calculator.py`），基于朱永生《实验物理中的概率和统计》，实现 $\mathbf{V}_y = \mathbf{J} \mathbf{V}_x \mathbf{J}^T$ 协方差传播、解决共同标度误差中的皮尔悖论（PPP），建立 Baker-Cousins $\chi^2_\lambda$ 无偏连续似然，并利用转换电子系数 $lpha_K$ 与偏振度彻底破除多极混合比 $\delta$ 双实数根二义性；
+  - **模块 48**：重离子熔合蒸发动力学与级联残核截面计算器（`compound_nucleus_evaporation_calculator.py`），基于 Bass 势垒与 RLDM 裂变临界角动量，结合 Hauser-Feshbach 统计多步级联预测 $xn, pxn, \alpha xn$ 产额与最佳在束束流能量；
+  - **模块 49**：实验统计协方差误差传播、泊松低计数极大似然与双根仲裁器（`experimental_uncertainty_covariance_calculator.py`），基于朱永生《实验物理中的概率和统计》，实现 $\mathbf{V}_y = \mathbf{J} \mathbf{V}_x \mathbf{J}^T$ 协方差传播、解决共同标度误差中的皮尔悖论（PPP），建立 Baker-Cousins $\chi^2_\lambda$ 无偏连续似然，并利用转换电子系数 $\alpha_K$ 与偏振度彻底破除多极混合比 $\delta$ 双实数根二义性；
   - **知识大脑与测试全绿**：
     - 撰写 5 篇权威概念专论，建立中英文术语对照与严格推导，更新 `knowledge/index.md`；
     - 升级 `nuclear-spectroscopy-and-structure-master-field-manual.md` 为 49 模块完整闭环指南；
@@ -119,56 +133,56 @@ updated: 2026-11-02
 ## Active checkpoint — 2026-11-03T16:00:00+08:00 (原子核潮汐波动力学、动态形变增长与B(E2)线性标度分析器落地)
 
 - **非简谐振转过渡模式与动态表面波动力学闭环完成**：
-  - 沉淀前沿理论《原子核潮汐波（Tidal Waves）微观动力学与大振幅非简谐振转过渡模式》（解构过渡区弱形变与 $\gamma$ 软核中表面单向行进波动力学，推导波速 $\Omega = \omega/2$ 与四极辐射 (E2)$ 随自旋严格线性增长定律 (E2) \propto I$，建立离心拉伸动态四极形变 $eta_2(I)$ 反演算法，并从波形杂化层面解密 pprox 130$ 低自旋“伪摆动”起源）；
+  - 沉淀前沿理论《原子核潮汐波（Tidal Waves）微观动力学与大振幅非简谐振转过渡模式》（解构过渡区弱形变与 $\gamma$ 软核中表面单向行进波动力学，推导波速 $\Omega = \omega/2$ 与四极辐射 (E2)$ 随自旋严格线性增长定律 (E2) \propto I$，建立离心拉伸动态四极形变 $\beta_2(I)$ 反演算法，并从波形杂化层面解密 \a$A \aA \a130$ 低自旋“伪摆动”起源）；
   - 开发完成生产级原子核潮汐波动力学、动态形变增长与 B(E2) 线性标度分析器（system/scripts/analysis/tidal_wave_dynamics_calculator.py），集成至 nuclear_analyzer CLI 并通过 24 大模块全量自动化回归测试；
   - 成功提交（commit 5f4fab18）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
 
 ## Active checkpoint — 2026-11-03T14:00:00+08:00 (真空退取向效应、超精细扰动PAC与角分布解卷积分析器落地)
 
 - **超精细相互作用与在束角分布退取向解卷积闭环完成**：
-  - 沉淀前沿实战指南《在束真空退取向效应（Deorientation）、超精细相互作用与角分布衰减修正指南》（解构反冲高电荷态离子核外数百特斯拉超强随机超精细磁场 {	ext{hf}}$ 诱发的拉莫尔进动退相干机制，推导 Abragam-Pound 随机弛豫模型积分衰减因子 (	au), G_4(	au)$，建立被压制角分布系数恢复真实内禀系数的解卷积算法  = a_k / G_k$ 与充气动态解耦技术）；
+  - 沉淀前沿实战指南《在束真空退取向效应（Deorientation）、超精细相互作用与角分布衰减修正指南》（解构反冲高电荷态离子核外数百特斯拉超强随机超精细磁场 {\text{hf}}$ 诱发的拉莫尔进动退相干机制，推导 Abragam-Pound 随机弛豫模型积分衰减因子 (\tau), G_4(\tau)$，建立被压制角分布系数恢复真实内禀系数的解卷积算法  = a_k / G_k$ 与充气动态解耦技术）；
   - 开发完成生产级在束真空退取向效应衰减因子与超精细扰动角分布解算器（system/scripts/analysis/vacuum_deorientation_calculator.py），集成至 nuclear_analyzer CLI 并通过 23 大模块全量自动化回归测试；
   - 成功提交（commit 6ca3231c）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
 
 ## Active checkpoint — 2026-11-03T12:00:00+08:00 (内转换系数ICC、BrIcc参数化与转换电子强度修正分析器落地)
 
 - **内转换电子微观物理与跃迁多极性鉴别闭环完成**：
-  - 沉淀前沿实战指南《原子核内转换系数（ICC）、多极性鉴别与 BrIcc 参数化计算指南》（解构单极场对束缚壳层电子的相对论微扰，推导 , L$ 及总内转换系数 $lpha_{	ext{tot}}$ 对多极性与能量的剧烈依赖性，建立 +E2$ 混合跃迁内转换与总跃迁强度纠偏公式 {	ext{tot}} = I_\gamma(1 + lpha_{	ext{tot}})$）；
+  - 沉淀前沿实战指南《原子核内转换系数（ICC）、多极性鉴别与 BrIcc 参数化计算指南》（解构单极场对束缚壳层电子的相对论微扰，推导 , L$ 及总内转换系数 $\alpha_{\text{tot}}$ 对多极性与能量的剧烈依赖性，建立 +E2$ 混合跃迁内转换与总跃迁强度纠偏公式 {\text{tot}} = I_\gamma(1 + \alpha_{\text{tot}})$）；
   - 开发完成生产级原子核内转换系数（ICC）与 BrIcc 参数化计算器（system/scripts/analysis/internal_conversion_bricc_calculator.py），集成至 nuclear_analyzer CLI 并通过 22 大模块全量自动化回归测试；
   - 成功提交（commit 1f263f9e）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
 
 ## Active checkpoint — 2026-11-03T10:00:00+08:00 (侧馈送时间延迟动力学、顶门符合与DSAM多普勒解卷积分析器落地)
 
 - **在束级联前导衰变与寿命测量解卷积闭环完成**：
-  - 沉淀前沿实战指南《在束级联侧馈送动力学、时间延迟分布与多普勒线形解卷积指南》（建立准连续态级联时间延迟拉普拉斯卷积方程、包含侧馈时间 $	au_{	ext{feed}}$ 的有效多普勒衰减因子 {	ext{eff}}$ 显式修正解，量化忽视侧馈送引起的寿命虚假拉长与四极矩 $ 低估偏差，确立顶门符合物理消除侧馈的黄金法则）；
+  - 沉淀前沿实战指南《在束级联侧馈送动力学、时间延迟分布与多普勒线形解卷积指南》（建立准连续态级联时间延迟拉普拉斯卷积方程、包含侧馈时间 $\tau_{\text{feed}}$ 的有效多普勒衰减因子 {\text{eff}}$ 显式修正解，量化忽视侧馈送引起的寿命虚假拉长与四极矩 $ 低估偏差，确立顶门符合物理消除侧馈的黄金法则）；
   - 开发完成生产级在束级联侧馈送时间分布与多普勒线形解卷积分析器（system/scripts/analysis/side_feeding_deconvolution_calculator.py），集成至 nuclear_analyzer CLI 并通过 21 大模块全量自动化回归测试；
   - 成功提交（commit 83022d61）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
 
 ## Active checkpoint — 2026-11-03T08:00:00+08:00 (在束ADO比值、Clover线偏振度与POL-ADO联合双根破除分析器落地)
 
 - **在束角分布特征环比值与二维偏振联合判决闭环完成**：
-  - 沉淀前沿实战指南《在束谱学 ADO 比值、线偏振度与多极性二维联合判决指南》（阐述特征探测环 0^\circ/90^\circ$ ADO 比值 {	ext{ADO}}$ 对四极与偶极跃迁的高灵敏度响应，推导 Clover 康普顿散射不对称度 $\Delta_{	ext{IPDCO}}$ 转换线偏振度 $ 算法，以及二维联合似然空间彻底破除多极混合比 $\delta$ 数学双根退化的实战法典）；
+  - 沉淀前沿实战指南《在束谱学 ADO 比值、线偏振度与多极性二维联合判决指南》（阐述特征探测环 0^\circ/90^\circ$ ADO 比值 R_{\text{ADO}}$ 对四极与偶极跃迁的高灵敏度响应，推导 Clover 康普顿散射不对称度 $\Delta_{\text{IPDCO}}$ 转换线偏振度 $ 算法，以及二维联合似然空间彻底破除多极混合比 $\delta$ 数学双根退化的实战法典）；
   - 开发完成生产级在束谱学 ADO 比值与偏振度二维联合求解器（system/scripts/analysis/ado_polarization_joint_analyzer.py），集成至 nuclear_analyzer CLI 并通过 20 大模块全量自动化回归测试；
   - 成功提交（commit 977ca387）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
 
 ## Active checkpoint — 2026-11-03T06:00:00+08:00 (相互作用玻色子模型IBM/IBFM理论、Casten三角形与相变分析器落地)
 
 - **代数李群对称性与IBFM准粒子-声子耦合动力学闭环完成**：
-  - 沉淀前沿理论《相互作用玻色子模型（IBM/IBFM）动力学对称性、Casten三角形与形变相变》（阐述六维李代数 (6)$ 下的球形振动 (5)$、轴对称拉长转子 (3)$ 与 $\gamma$ 不稳定软核 (6)$ 极限及 Casten 三角形，推导 (6)$ 双重简并指纹与 pprox 130$ 区核芯软度，并解密 IBFM 中准粒子与 $\gamma$ 振动声子动力学耦合 $\gamma \otimes qp$ 伪装成横向摆动的微观机制）；
+  - 沉淀前沿理论《相互作用玻色子模型（IBM/IBFM）动力学对称性、Casten三角形与形变相变》（阐述六维李代数 (6)$ 下的球形振动 (5)$、轴对称拉长转子 (3)$ 与 $\gamma$ 不稳定软核 (6)$ 极限及 Casten 三角形，推导 (6)$ 双重简并指纹与 \a$A \aA \a130$ 区核芯软度，并解密 IBFM 中准粒子与 $\gamma$ 振动声子动力学耦合 $\gamma \otimes qp$ 伪装成横向摆动的微观机制）；
   - 开发完成生产级相互作用玻色子模型动力学对称性判定与 R4/2 相变分析器（system/scripts/analysis/ibm_dynamical_symmetry_analyzer.py），集成至 nuclear_analyzer CLI 并通过 19 大模块全量自动化回归测试；
   - 成功提交（commit 73298b88）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
 
 ## Active checkpoint — 2026-11-03T04:00:00+08:00 (超形变SD/TSD微观动力学、J2平原检验与退激穿透模拟器落地)
 
 - **超大四极形变孤岛与量子隧穿脱落动力学闭环完成**：
-  - 沉淀前沿理论《超形变（SD）、三轴超形变（TSD）与能带退激穿透动力学》（解构宏观轴比 2:1 次级极小势阱、镥-钽区三轴超形变多声子摆动运动实验基准、带内 $ 辐射与 WKB 势垒隧穿的统计竞争，以及超形变带突然终止脱落 Decay-out 的临界自旋判据与 pprox 130$ 高形变带映射）；
+  - 沉淀前沿理论《超形变（SD）、三轴超形变（TSD）与能带退激穿透动力学》（解构宏观轴比 2:1 次级极小势阱、镥-钽区三轴超形变多声子摆动运动实验基准、带内 $ 辐射与 WKB 势垒隧穿的统计竞争，以及超形变带突然终止脱落 Decay-out 的临界自旋判据与 \a$A \aA \a130$ 高形变带映射）；
   - 开发完成生产级超形变能带动力学惯量平原检验与退激穿透模拟器（system/scripts/analysis/superdeformation_decayout_calculator.py），集成至 nuclear_analyzer CLI 并通过 18 大模块全量自动化回归测试；
   - 成功提交（commit 3f62b531）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
 
 ## Active checkpoint — 2026-11-03T02:00:00+08:00 (反常旋称反转动力学、能量交错S(I)与三轴pn相互作用分析器落地)
 
 - **旋称动力学与三轴质中相互作用闭环完成**：
-  - 沉淀前沿理论《原子核旋称反转动力学、能量交错参量与三轴质中残余相互作用》（解构低自旋反常旋称反转微观物理，阐明三轴非轴对称形变与质子-中子残余相互作用 {pn}$ 协同打破经典 Coriolis 排序的充要条件，确立能量交错参量 (I)$ 锯齿反相判据与 pprox 130$ 同位素链对账）；
+  - 沉淀前沿理论《原子核旋称反转动力学、能量交错参量与三轴质中残余相互作用》（解构低自旋反常旋称反转微观物理，阐明三轴非轴对称形变与质子-中子残余相互作用 V_V_{pn}$ 协同打破经典 Coriolis 排序的充要条件，确立能量交错参量 $S(I)$ 锯齿反相判据与 \a$A \aA \a130$ 同位素链对账）；
   - 开发完成生产级原子核旋称劈裂、能量交错参数 S(I) 与反转自旋反演器（system/scripts/analysis/signature_inversion_analyzer.py），集成至 nuclear_analyzer CLI 并通过 17 大模块全量自动化回归测试；
   - 成功提交（commit 285758ff）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
 
@@ -203,14 +217,14 @@ updated: 2026-11-02
 ## Active checkpoint — 2026-11-02T16:00:00+08:00 (形状共存理论、电单极E0跃迁与双态混合反演器落地)
 
 - **微观形状简并动力学与E0转换电子分析闭环完成**：
-  - 沉淀前沿理论《原子核形状共存、四极形变突变与电单极（E0）跃迁动力学》（解构多粒子-多空穴入侵态诱发的形状简并、电单极内转换电子 ICE 机制，推导双态混合模型下微观能隙、耦合矩阵元 {	ext{mix}}$ 与形变差平方 $|eta_1^2 - eta_2^2|$ 的解析反演定理，为排查能带退激断裂与 pprox 130$ 三轴形状共存提供判据）；
+  - 沉淀前沿理论《原子核形状共存、四极形变突变与电单极（E0）跃迁动力学》（解构多粒子-多空穴入侵态诱发的形状简并、电单极内转换电子 ICE 机制，推导双态混合模型下微观能隙、耦合矩阵元 V_{\text{mix}}$ 与形变差平方 $|\beta_1^2 - \beta_2^2|$ 的解析反演定理，为排查能带退激断裂与 \a$A \aA \a130$ 三轴形状共存提供判据）；
   - 开发完成生产级原子核形状共存双态混合与 E0 跃迁强度解算器（system/scripts/analysis/shape_coexistence_e0_calculator.py），集成至 nuclear_analyzer CLI 并通过 12 大模块全量自动化回归测试；
   - 成功提交（commit c8b9fea9）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
 
 ## Active checkpoint — 2026-11-02T14:00:00+08:00 (磁转动剪刀机制、反磁转动AMR与BM1模拟器落地)
 
 - **磁多极集体转动与剪刀几何动力学闭环完成**：
-  - 沉淀前沿理论《原子核磁转动、反磁转动与剪刀机制动力学》（深入剖析弱形变核中各向异性磁偶极核流引起的剪刀机制，推导 (M1)$ 随开角夹拢 $	heta 	o 0^\circ$ 的特征抛物线衰减定律、四叶双剪刀反磁转动 AMR，以及与三轴手征带、摆动带的竞争鉴别判据）；
+  - 沉淀前沿理论《原子核磁转动、反磁转动与剪刀机制动力学》（深入剖析弱形变核中各向异性磁偶极核流引起的剪刀机制，推导 (M1)$ 随开角夹拢 $\theta \to 0^\circ$ 的特征抛物线衰减定律、四叶双剪刀反磁转动 AMR，以及与三轴手征带、摆动带的竞争鉴别判据）；
   - 开发完成生产级剪刀机制磁转动角动量几何与电磁跃迁模拟器（system/scripts/analysis/magnetic_rotation_shears_calculator.py），集成至 nuclear_analyzer CLI 并通过 11 大模块全量自动化回归测试；
   - 成功提交（commit d5e0c0c0）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
 
@@ -224,7 +238,7 @@ updated: 2026-11-02
 ## Active checkpoint — 2026-11-02T10:00:00+08:00 (电偶极极化率EoS、ENSDF数据格式与自动化对账工具落地)
 
 - **跨尺度状态方程理论与国际核数据自动对账闭环**：
-  - 沉淀前沿理论《原子核电偶极极化率、中子皮厚度与核物质状态方程（EoS）》（反能二次加权和定则 $\sigma_{-2}$ 与 $lpha_D$ 解析关联、中子皮厚度 $\Delta R_{np}$ 对中子压强与对称能斜率 $ 的微观约束，打通地球实验室测量与中子星半径 {1.4}$ 及 GW170817 潮汐形变度 $\Lambda$ 跨尺度关联）；
+  - 沉淀前沿理论《原子核电偶极极化率、中子皮厚度与核物质状态方程（EoS）》（反能二次加权和定则 $\sigma_{-2}$ 与 $\alpha_D$ 解析关联、中子皮厚度 $\Delta R_{np}$ 对中子压强与对称能斜率 $ 的微观约束，打通地球实验室测量与中子星半径 {1.4}$ 及 GW170817 潮汐形变度 $\Lambda$ 跨尺度关联）；
   - 沉淀《国际核结构与衰变数据网 ENSDF 格式语义与能级纲图自动对账指南》（系统解构 80 列固定列宽 Level 与 Gamma 格式，确立容差匹配与新跃迁发现规范）；
   - 开发完成生产级 ENSDF 数据解析与在束峰位自动化对账工具（system/scripts/analysis/ensdf_crosswalk_parser.py），扩展自动化回归测试套件（test_analysis_suite.py）至 9 大科学分析模块测试，全量 100% 验证通过；
   - 成功提交（commit 3c206597）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
@@ -232,7 +246,7 @@ updated: 2026-11-02
 ## Active checkpoint — 2026-11-02T08:00:00+08:00 (多重手征带MchiD、手征八极四重带与转动对齐Routhian分析器落地)
 
 - **手征对称性前沿与高自旋对齐工具闭环**：
-  - 沉淀前沿理论《多重手征双重带（MχD）与手征-八极宇称四重带前沿动力学》（系统解构多组态手征共存类型 I 与三轴形状共存手征类型 II，推导时间反演破缺与空间反射不对称性复合下的手征-八极四重带简并代数，为 $^{133}	ext{Ce}$ 与 $^{78}	ext{Br}$ 确立理论判据）；
+  - 沉淀前沿理论《多重手征双重带（MχD）与手征-八极宇称四重带前沿动力学》（系统解构多组态手征共存类型 I 与三轴形状共存手征类型 II，推导时间反演破缺与空间反射不对称性复合下的手征-八极四重带简并代数，为 $^{133}\text{Ce}$ 与 $^{78}\text{Br}$ 确立理论判据）；
   - 开发完成生产级原子核能带转动对齐量 $ 与实验 Routhian 分析器（system/scripts/analysis/routhian_alignment_analyzer.py），实现 Harris 参考核芯参数拟合与回弯解对临界频率 $\omega_c$ 自动诊断；
   - 扩展自动化回归测试套件（test_analysis_suite.py）至 8 大科学分析模块测试，全量 100% 验证通过；
   - 成功提交（commit 1c45cbc5）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
@@ -248,15 +262,15 @@ updated: 2026-11-02
 ## Active checkpoint — 2026-11-02T04:00:00+08:00 (Ce-Nd同位素链三轴演化Prospectus与DSAM/RDM寿命分析工具落地)
 
 - **博士课题核心演化对账完成**：
-  - 沉淀前沿长卷巨著《铈-钕同位素链三轴集体演化、微观机制对账与手征/摆动前沿研究展望》（系统对账 $^{131}	ext{Ce}$, $^{133}	ext{Ce}$, $^{135}	ext{Nd}$, $^{136}	ext{Nd}$, $^{135}	ext{Pr}$ 的微观壳层拓扑与证据链，确立三大课题突破方向）；
-  - 沉淀《核激发态寿命测量全指南：DSAM、RDM活塞法与介质阻止本领反演》（覆盖 Ziegler SRIM 电子/核阻止本领模型、DDCM 活塞法衰变分析与多普勒衰减因子 (	au)$ 反演绝对 (E2)$ 与内禀四极矩 $）；
+  - 沉淀前沿长卷巨著《铈-钕同位素链三轴集体演化、微观机制对账与手征/摆动前沿研究展望》（系统对账 $^{131}\text{Ce}$, $^{133}\text{Ce}$, $^{135}\text{Nd}$, $^{136}\text{Nd}$, $^{135}\text{Pr}$ 的微观壳层拓扑与证据链，确立三大课题突破方向）；
+  - 沉淀《核激发态寿命测量全指南：DSAM、RDM活塞法与介质阻止本领反演》（覆盖 Ziegler SRIM 电子/核阻止本领模型、DDCM 活塞法衰变分析与多普勒衰减因子 (\tau)$ 反演绝对 (E2)$ 与内禀四极矩 $）；
   - 开发完成生产级核态寿命与 DSAM 反演工具（system/scripts/analysis/lifetime_lineshape_calculator.py），集成至 nuclear_analyzer CLI 并通过 6 大模块全量自动化回归测试；
   - 成功提交（commit fa3ca9c3）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，六类目录与 QMD 契约 100% 验证合规。
 
 ## Active checkpoint — 2026-11-02T02:00:00+08:00 (巨共振形变劈裂、高自旋回弯与DCO/偏振联合求解器落地)
 
 - **广泛研学纵深扩展完成**：
-  - 沉淀两篇高阶理论巨著：《巨多极共振动力学、形变劈裂与微观阻尼机制》（IVGDR三峰形变反演 (eta, \gamma)$、中子皮PDR、剪刀模式与三阶段阻尼）与《高自旋能带交叉、准粒子对解耦对齐与带端终止动力学》（Stephens-Simon解对机制、Harris参考基线对齐量 $ 提取、旋称反转与平滑能带终止）；
+  - 沉淀两篇高阶理论巨著：《巨多极共振动力学、形变劈裂与微观阻尼机制》（IVGDR三峰形变反演 (\beta, \gamma)$、中子皮PDR、剪刀模式与三阶段阻尼）与《高自旋能带交叉、准粒子对解耦对齐与带端终止动力学》（Stephens-Simon解对机制、Harris参考基线对齐量 $ 提取、旋称反转与平滑能带终止）；
   - 开发完成生产级在束谱学 DCO 比值与线偏振不对称度联合求解器（system/scripts/analysis/dco_polarization_analyzer.py），成功集成至 nuclear_analyzer 统一 CLI 并通过 5 大模块全量自动化回归测试；
   - 全部成果织入 knowledge/index.md 顶层索引；
   - 成功提交（commit 4e94f7e8）并推送到 Gitee 远端（chx6/silicon_graduate:main），工作树 clean，边界检查 100% 通过。
@@ -798,8 +812,8 @@ updated: 2026-11-02
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
   1. **自旋—同位旋 Gamow-Teller 巨共振与张量极化求解器建立**：采用 `system/scripts/day27_gt_ga_quenching_cross_mass_study.py` 系统求解 $^{6}\text{He}$、$^{28}\text{Si}$、$^{48}\text{Ca}$、$^{76}\text{Ge}$、$^{100}\text{Sn}$、$^{130}\text{Te}$、$^{136}\text{Xe}$ 与 $^{208}\text{Pb}$ 的轴矢量淬灭因子与 Ikeda 求和规则耗散；
-  2. **质量数单调递减标度律 $q(A)$ 确立**：定量阐明允许 GT 淬灭因子从轻核 $^{6}\text{He}$（$q = 0.88$）随质量数单调下降，在重核区（$^{100}\text{Sn}, ^{208}\text{Pb}$）饱和于 $q \approx 0.68 - 0.70$，微观上由 $2\text{p}2\text{h}$ 复合态多体相空间急剧扩张驱动，缺失强度被散落在 $20 - 50\text{ MeV}$ 连续区，排除了普遍固定常数假说；
-  3. **无中微子双贝塔衰变（$0\nu\beta\beta$）低动量淬灭迁移谬误彻底破除**：严格证明 $0\nu\beta\beta$ 由传递动量高达 $q \sim 150\text{ MeV}/c$ 的虚中微子势介导，其基质元 $85\%$ 处于不受 GT 极化屏蔽的高阶禁戒多极流（$2^-, 3^+, 4^-$ 等），真实有效淬灭因子高达 $q_{0\nu} \approx 0.95$（率折减仅 $\approx 0.83$）；若盲目套用 $2\nu$ 的低动量淬灭常数（$q^4 \approx 0.24$），会导致吨级双贝塔实验发现潜力被虚假悲观压低 $3.5 - 3.7$ 倍，沉淀专门笔记 `gt-ga-quenching-and-double-beta-inapplicability.md`。
+  2. **质量数单调递减标度律 $q(A)$ 确立**：定量阐明允许 GT 淬灭因子从轻核 $^{6}\text{He}$（$q = 0.88$）随质量数单调下降，在重核区（$^{100}\text{Sn}, ^{208}\text{Pb}$）饱和于 $q \a0.68 - 0.70$，微观上由 $2\text{p}2\text{h}$ 复合态多体相空间急剧扩张驱动，缺失强度被散落在 $20 - 50\text{ MeV}$ 连续区，排除了普遍固定常数假说；
+  3. **无中微子双贝塔衰变（$0\nu\beta\beta$）低动量淬灭迁移谬误彻底破除**：严格证明 $0\nu\beta\beta$ 由传递动量高达 $q \sim 150\text{ MeV}/c$ 的虚中微子势介导，其基质元 $85\%$ 处于不受 GT 极化屏蔽的高阶禁戒多极流（$2^-, 3^+, 4^-$ 等），真实有效淬灭因子高达 $q_{0\nu} \a0.95$（率折减仅 $\a0.83$）；若盲目套用 $2\nu$ 的低动量淬灭常数（$q^4 \a0.24$），会导致吨级双贝塔实验发现潜力被虚假悲观压低 $3.5 - 3.7$ 倍，沉淀专门笔记 `gt-ga-quenching-and-double-beta-inapplicability.md`。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 399 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，账本登记 38 项完整研究。
 
 ## Previous handoff — Day27 Checkpoint 035: 巨偶极共振微细结构与四极劈裂跨区形状演化机制确立 (2026-10-30T03:14:00+08:00)
@@ -810,7 +824,7 @@ updated: 2026-11-02
 - 本轮实质研究进展与突破：
   1. **巨偶极共振（GDR）三维椭球流体力学劈裂求解器建立**：采用 `system/scripts/day27_gdr_shape_evolution_cross_mass_study.py` 系统求解 $^{208}\text{Pb}$（球形）、$^{154}\text{Sm}$ 与 $^{238}\text{U}$（长椭）、$^{186}\text{Pt}$（扁椭）及 $^{76}\text{Ge}$（三轴）的偶极吸收多峰微细结构与多极求和规则分担；
   2. **长椭向扁椭截面面积比严格反相（$1:2 \to 2:1$）确立**：定量阐明长椭核（$^{154}\text{Sm}$）长主轴 $K=0$ 振动居低能，双重简并横向 $K=1$ 居高能（面积比 $\sigma_{\text{low}}/\sigma_{\text{high}} = 0.50$）；而扁椭核（$^{186}\text{Pt}$）对称轴被压缩使长轴双重简并掉落至低能端，面积比发生严格几何反转为 $2.00$（低能峰反常占 $66.7\%$ 截面），证伪了跨区无条件直接套用长椭拟合公式的做法；
-  3. **三轴刚性核横向简并破缺与三峰等权结构发现**：在刚性三轴核 $^{76}\text{Ge}$（$\gamma \approx 28^\circ$）中，三轴半径完全分裂破除横向简并，GDR 劈裂为 $14.5, 16.7, 18.6\text{ MeV}$ 的三洛伦兹等权峰（各占约 $1/3$ 强度），揭示强行套用双峰拟合会导致展宽人为虚高逾 $50\%$ 并掩盖三轴几何，沉淀专门笔记 `gdr-fine-structure-and-shape-splitting.md`。
+  3. **三轴刚性核横向简并破缺与三峰等权结构发现**：在刚性三轴核 $^{76}\text{Ge}$（$\gamma \a28^\circ$）中，三轴半径完全分裂破除横向简并，GDR 劈裂为 $14.5, 16.7, 18.6\text{ MeV}$ 的三洛伦兹等权峰（各占约 $1/3$ 强度），揭示强行套用双峰拟合会导致展宽人为虚高逾 $50\%$ 并掩盖三轴几何，沉淀专门笔记 `gdr-fine-structure-and-shape-splitting.md`。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 398 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，账本登记 37 项完整研究。
 
 ## Previous handoff — Day27 Checkpoint 034: 八极形变与三轴手征几何耦合机制及临界八极阈值beta3_crit确立 (2026-10-30T03:08:00+08:00)
@@ -830,8 +844,8 @@ updated: 2026-11-02
 - 距 2026-10-30T15:00:00+08:00 硬截止尚有 11.95 小时，持续推进博士生标准自主物理研学与多质量区机制不适用性边界推演。`run.json` 保持 `in_progress`，课程学分暂挂（count=26, next=27），等待到期正式收束时与大纲交付逐卡闭环。
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
-  1. **准 $\gamma$ 振动带特征交错参量 $S(4)$ 求解器建立**：采用 `system/scripts/day27_gamma_rigid_vs_soft_staggering_study.py` 系统求解 $A \approx 76$（$^{76}\text{Ge}, ^{76}\text{Se}$）、$A \approx 104-110$（$^{104-110}\text{Ru}$）、$A \approx 134$（$^{134}\text{Ba}$）与 $A \approx 196$（$^{196}\text{Pt}$）的准 $\gamma$ 带交错动力学；
-  2. **低自旋伪简并破除与 $S(4) = 0$ 拓扑相界面确立**：严格证明低自旋比值 $E(2^+_\gamma)/E(2^+_1) \approx 2.50$ 的伪简并在自旋 4 处分化：刚性三轴通过成对能级 $2^+, (3^+, 4^+), (5^+, 6^+)$ 驱动 $S(4) < 0$（$^{76}\text{Ge}$ 测得深负值 $S(4) = -1.22$，与 Ayangeakaa 2019 多重库仑激发刚性三轴 $\gamma \approx 28^\circ$ 严格重合）；$\gamma$-软性通过 $(2^+, 3^+), (4^+, 5^+)$ 分组驱动 $S(4) > 0$（$^{196}\text{Pt}$ 测得标准 $O(6)$ 正值 $S(4) = +0.74, ^{134}\text{Ba}$ 测得 $+0.42$）；
+  1. **准 $\gamma$ 振动带特征交错参量 $S(4)$ 求解器建立**：采用 `system/scripts/day27_gamma_rigid_vs_soft_staggering_study.py` 系统求解 $A \approx 76$（$^{76}\text{Ge}, ^{76}\text{Se}$）、$A \a104-110$（$^{104-110}\text{Ru}$）、$A \aA \a134$（$^{134}\text{Ba}$）与 $A \a196$（$^{196}\text{Pt}$）的准 $\gamma$ 带交错动力学；
+  2. **低自旋伪简并破除与 $S(4) = 0$ 拓扑相界面确立**：严格证明低自旋比值 $E(2^+_\gamma)/E(2^+_1) \approx 2.50$ 的伪简并在自旋 4 处分化：刚性三轴通过成对能级 $2^+, (3^+, 4^+), (5^+, 6^+)$ 驱动 $S(4) < 0$（$^{76}\text{Ge}$ 测得深负值 $S(4) = -1.22$，与 Ayangeakaa 2019 多重库仑激发刚性三轴 $\gamma \a28^\circ$ 严格重合）；$\gamma$-软性通过 $(2^+, 3^+), (4^+, 5^+)$ 分组驱动 $S(4) > 0$（$^{196}\text{Pt}$ 测得标准 $O(6)$ 正值 $S(4) = +0.74, ^{134}\text{Ba}$ 测得 $+0.42$）；
   3. **钌同位素链中子驱动连续相变发现**：首次揭示钌同位素链随中子填充发生 $S(4) = -0.22$（$^{104}\text{Ru}$，刚性三轴倾向）$\to -0.04$（$^{106}\text{Ru}$，临界分界点）$\to +0.57$（$^{108}\text{Ru}$，$\gamma$-软性）连续跨越零点的拓扑相变，否定了在单一元素全链直接迁移刚性转子模型的做法，沉淀专门笔记 `gamma-rigid-vs-soft-staggering-and-phase-boundary.md`。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 396 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，账本登记 35 项完整研究。
 
@@ -864,7 +878,7 @@ updated: 2026-11-02
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
   1. **相对论狄拉克方程与赝自旋对称性（PSS）求解器建立**：采用 `system/scripts/day27_relativistic_pss_drip_line_study.py` 系统求解稳定双幻核（$^{208}\text{Pb}, ^{132}\text{Sn}$）、中等丰中子核（$^{48}\text{Ca}, ^{78}\text{Ni}$）及极端中子滴线核（$^{24}\text{O}, ^{70}\text{Ca}$）的赝自旋双重态分裂；
-  2. **稳定核紧致表面小分量节面相消机制确立**：证明在稳定核中，表面导数 $\frac{d(V+S)}{dr}$ 的窄峰（$a \approx 0.54\text{ fm}$）与主量子数差 1 的小分量径向波函数正负节点重叠抵消，将 $^{208}\text{Pb}$ 与 $^{132}\text{Sn}$ 的裂距极度压缩至 $0.30 - 0.35\text{ MeV}$，维持高度准简并；
+  2. **稳定核紧致表面小分量节面相消机制确立**：证明在稳定核中，表面导数 $\frac{d(V+S)}{dr}$ 的窄峰（$a \a0.54\text{ fm}$）与主量子数差 1 的小分量径向波函数正负节点重叠抵消，将 $^{208}\text{Pb}$ 与 $^{132}\text{Sn}$ 的裂距极度压缩至 $0.30 - 0.35\text{ MeV}$，维持高度准简并；
   3. **中子滴线弥散度膨胀引发的 PSS 灾难性破缺与能级倒转**：证实随着中子向滴线延展，表面弥散度暴增至 $a \ge 0.88 - 0.92\text{ fm}$，导数项展宽跨越 $5\text{ fm}$ 摧毁节点相消；在 $^{24}\text{O}$ 中使 $\nu(2s_{1/2}, 1d_{3/2})$ 裂距激增 10 倍至 $3.34\text{ MeV}$，微观促成了经典 $N=20$ 闭壳溶解与 $N=16$ 新型幻数涌现；在 $^{70}\text{Ca}$ 中激发出赝自旋自旋—轨道能级倒转（$2d_{3/2}$ 反常低于 $3s_{1/2}$），沉淀专门笔记 `relativistic-pss-and-drip-line-breakdown.md`。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 393 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，账本登记 32 项完整研究。
 
@@ -887,7 +901,7 @@ updated: 2026-11-02
 - 本轮实质研究进展与突破：
   1. **跨质量区矮偶极共振（PDR）与探针分岔求解器建立**：采用 `system/scripts/day27_pdr_skin_oscillation_transfer_study.py` 系统求解 $^{68}\text{Ni}$、$^{112-124}\text{Sn}$ 与 $^{208}\text{Pb}$ 的低能 $E1$ 跃迁强度、TRK 求和规则耗尽度及探针选择性；
   2. **中子皮集体振荡向单粒子非相干跃迁破缺（$^{68}\text{Ni}$ vs $^{208}\text{Pb}$）确立**：证明在重核 $^{208}\text{Pb}$ 中由 >15 个 $1\text{p}1\text{h}$ 组态相干干涉形成的集体皮振荡，在 $A \approx 68$（$^{68}\text{Ni}$）中退化为高度局域的单中子跃迁（$\nu 2p_{1/2} \to 3s_{1/2}$ 独占 $68\%$ 强度），缺乏 QRPA 相干性，宏观皮振动方程完全失效；
-  3. **无皮核素 $^{112}\text{Sn}$ 非零截距反常确立**：证实 $^{112}\text{Sn}$ 中子皮厚度近乎为零（$\Delta r_{np} \approx 0.01\text{ fm}$），但依然测得耗尽 $0.72\%$ TRK 的低能 $E1$ 聚集（$0.38\ e^2\text{ fm}^2$），证明低能 $E1$ 强度存在不可消除的核芯极化与非共振单粒子跃迁本底，证伪了将 PDR 强度与中子皮厚度简单线性绑定的唯象迁移假设；
+  3. **无皮核素 $^{112}\text{Sn}$ 非零截距反常确立**：证实 $^{112}\text{Sn}$ 中子皮厚度近乎为零（$\Delta r_{np} \a0.01\text{ fm}$），但依然测得耗尽 $0.72\%$ TRK 的低能 $E1$ 聚集（$0.38\ e^2\text{ fm}^2$），证明低能 $E1$ 强度存在不可消除的核芯极化与非共振单粒子跃迁本底，证伪了将 PDR 强度与中子皮厚度简单线性绑定的唯象迁移假设；
   4. **表面强子与体积电磁探针选择性分岔（$15.0$ 倍反差）**：在 $^{124}\text{Sn}$ 与 $^{208}\text{Pb}$ 中定量阐明以 $S_n$ 为界的双重态分岔：$E < S_n$ 态核内同相且表面中子过剩，$(\alpha, \alpha')$ 截面比高出 $E > S_n$（巨偶极拖尾反相态）达 $15.0$ 倍，沉淀专门笔记 `pdr-skin-oscillation-and-probe-bifurcation.md`。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 391 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，账本登记 30 项完整研究。
 
@@ -909,8 +923,8 @@ updated: 2026-11-02
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
   1. **多维宏观—微观超重核裂变模型与 $(\beta_2, \beta_4, \beta_3)$ 耦合求解**：采用 `system/scripts/day27_superheavy_shape_interplay_fission_study.py` 系统求解 $^{252, 254}\text{No}$ 与 $^{256, 258}\text{Rf}$ 势能面与 WKB 贯穿作用量；
-  2. **$N=152$ 形变闭壳对 $^{254}\text{No}$ 第一势垒支撑与自发裂变压低机制**：证明 $\beta_2 \approx 0.285$ 与正十六极形变 $\beta_4 \approx 0.065$ 协同激发出 $E_{\text{shell}} = -5.20\text{ MeV}$ 的强形变壳能隙，将内裂变势垒推高至 $B_{fI} = 7.14\text{ MeV}$，使自发裂变半衰期延缓至 $30,100\text{ s}$（SF 分支仅 $0.19\%$，$\alpha$ 衰变占 $99.8\%$），微观解释了 $^{254}\text{No}$ 的形变稳定岛本性；
-  3. **第二外鞍点八极形变 $\beta_3$ 与 $\beta_4$ 张量削低势垒机制确立**：定量阐明外鞍点处非对称八极路径（$\beta_3 \approx 0.22, \beta_4 \approx 0.12$）将外势垒 $B_{fII}$ 削低达 $\Delta B_f \approx 1.70 - 1.76\text{ MeV}$，使裂变穿透几率暴增 $10^{3.8}$ 倍；在鈩（$^{256, 258}\text{Rf}$）中由于高裂变性（$Z^2/A > 42.2$）导致液滴势垒消失，外势垒削低使自发裂变寿命暴跌至毫秒量级（$6.7 - 12\text{ ms}$）并完全淹没 $\alpha$ 衰变（$100\%$ SF），划定了超重核存在性与裂变崩溃的微观相界，沉淀专门笔记 `superheavy-shape-interplay-fission-and-decay.md`。
+  2. **$N=152$ 形变闭壳对 $^{254}\text{No}$ 第一势垒支撑与自发裂变压低机制**：证明 $\beta_2 \a0.285$ 与正十六极形变 $\beta_4 \a0.065$ 协同激发出 $E_{\text{shell}} = -5.20\text{ MeV}$ 的强形变壳能隙，将内裂变势垒推高至 $B_{fI} = 7.14\text{ MeV}$，使自发裂变半衰期延缓至 $30,100\text{ s}$（SF 分支仅 $0.19\%$，$\alpha$ 衰变占 $99.8\%$），微观解释了 $^{254}\text{No}$ 的形变稳定岛本性；
+  3. **第二外鞍点八极形变 $\beta_3$ 与 $\beta_4$ 张量削低势垒机制确立**：定量阐明外鞍点处非对称八极路径（$\beta_3 \a0.22, \beta_4 \a0.12$）将外势垒 $B_{fII}$ 削低达 $\Delta B_f \a1.70 - 1.76\text{ MeV}$，使裂变穿透几率暴增 $10^{3.8}$ 倍；在鈩（$^{256, 258}\text{Rf}$）中由于高裂变性（$Z^2/A > 42.2$）导致液滴势垒消失，外势垒削低使自发裂变寿命暴跌至毫秒量级（$6.7 - 12\text{ ms}$）并完全淹没 $\alpha$ 衰变（$100\%$ SF），划定了超重核存在性与裂变崩溃的微观相界，沉淀专门笔记 `superheavy-shape-interplay-fission-and-decay.md`。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 388 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，`wiki_knowledge_writeback` 41 项全量映射且有效变更。
 - 下一步：在 15:00–16:00 收束窗口内启动全天研学成果收束、不足剖析及 Day 28 预备提示词编撰，绝不给 Day 28 提前学分。
 
@@ -972,7 +986,7 @@ updated: 2026-11-02
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
   1. **磁转动有效电磁算符微观重整化模型建立**：采用 `system/scripts/day27_mr_g_factor_quenching_study.py` 系统求解多体自旋极化与相对论电磁流；证实自由 Schmidt 磁矩因忽略介质极化导致全质量区绝对 $B(M1)$ 强度系统性高估近 2 倍（$1.8 - 2.1$ 倍）；
-  2. **三相协同淬灭机制定量解析**：证明 Landau-Migdal 自旋—同位旋相互作用（$g'_0 \approx 0.60$）诱导一阶核芯反向自旋极化（$\delta g_s/g_s \approx -0.24$）；带电 $\pi$ 介子交换流（MEC）引入反常轨道增益 $\delta g_l \approx +0.10 \tau_3$；在重核区（$^{198}\text{Pb}, ^{198}\text{Bi}$），相对论时奇空间场诱导的狄拉克（Dirac）核芯反向电流产生高达 $32\%$ 的空间屏蔽因子（$f_{\text{time-odd}} \approx 0.68$）；
+  2. **三相协同淬灭机制定量解析**：证明 Landau-Migdal 自旋—同位旋相互作用（$g'_0 \a0.60$）诱导一阶核芯反向自旋极化（$\delta g_s/g_s \approx -0.24$）；带电 $\pi$ 介子交换流（MEC）引入反常轨道增益 $\delta g_l \approx +0.10 \tau_3$；在重核区（$^{198}\text{Pb}, ^{198}\text{Bi}$），相对论时奇空间场诱导的狄拉克（Dirac）核芯反向电流产生高达 $32\%$ 的空间屏蔽因子（$f_{\text{time-odd}} \a0.68$）；
   3. **跨质量区实验基准定量闭环**：理论微观导出的 $\Delta g_{\text{micro}}$ 分别为 $0.968$（$^{198}\text{Pb}$）、$1.465$（$^{135}\text{Pr}$）与 $1.886$（$^{106}\text{Ag}$），以优于 $12\%$ 的精度完美吻合 Clark 2000（$0.920$）、Garg 2015（$1.280$）与 Rather 2014（$1.700$）实验基准，从微观层面彻底消除了唯象经验淬灭疑难；
   4. **沉淀专门研究笔记**：建立 `mr-effective-g-factor-quenching-mechanisms.md`，并在 `knowledge/index.md` 与日报 writeback 全量注册。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 382 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，`wiki_knowledge_writeback` 36 项全量映射且有效变更。
@@ -985,7 +999,7 @@ updated: 2026-11-02
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
   1. **剪刀—核芯变分动力学第一性数值求解**：采用 `system/scripts/day27_mr_oblate_core_crossing_study.py` 严格求解高自旋剪刀—核芯能量极小化流形；定量确立无量纲竞争参量 $\chi = \mathcal{J}_{\text{core}} / [j_1 j_2 / (3 V_2)]$ 对磁转动终局演化的相图控制；
-  2. **A≈190 铅区小 $\chi$（$0.18 - 0.25$）阶梯式剪刀再张开机制验证**：证明 $^{198}\text{Pb}$ 与 $^{198}\text{Bi}$ 因近球形核芯（$\mathcal{J}_{\text{core}} \approx 15 - 16\ \hbar^2/\text{MeV}$）与庞大中子叶片（$j_\nu = 12 - 25\hbar$），核芯仅承担 $<14\%$ 角动量；4-qp 剪刀闭合至 $\sim 45^\circ - 51^\circ$（$B(M1) \approx 0.96\ \mu_N^2$）后，必定通过破坏额外中子对发生 6-qp/8-qp 带交叉，剪刀角跳跃重新张开至 $76^\circ$，伴随 $B(M1)$ 激增逾 $50\%$（跳升至 $1.47\ \mu_N^2$）；
+  2. **A≈190 铅区小 $\chi$（$0.18 - 0.25$）阶梯式剪刀再张开机制验证**：证明 $^{198}\text{Pb}$ 与 $^{198}\text{Bi}$ 因近球形核芯（$\mathcal{J}_{\text{core}} \a15 - 16\ \hbar^2/\text{MeV}$）与庞大中子叶片（$j_\nu = 12 - 25\hbar$），核芯仅承担 $<14\%$ 角动量；4-qp 剪刀闭合至 $\sim 45^\circ - 51^\circ$（$B(M1) \a0.96\ \mu_N^2$）后，必定通过破坏额外中子对发生 6-qp/8-qp 带交叉，剪刀角跳跃重新张开至 $76^\circ$，伴随 $B(M1)$ 激增逾 $50\%$（跳升至 $1.47\ \mu_N^2$）；
   3. **A≈140 稀土区大 $\chi$（$0.46$）核芯辅助延缓与扁椭终止机制确立**：证明 $^{142}\text{Gd}$ 中等扁椭形变（$\epsilon_2 \approx -0.14$）推高核芯惯量至 $\mathcal{J}_{\text{core}} = 28\ \hbar^2/\text{MeV}$，核芯转动吸收高达 $24\% - 35\%$ 的自旋增量，有效减缓剪刀闭合；在 $I \approx 24\hbar$ 处单粒子对完全对齐于对称轴，平滑过渡至扁椭集体转动终止线（$B(M1)/B(E2)$ 降至 $8.5\ \mu_N^2/(e\text{b})^2$），消除了重核区那样的二次剪刀破对反弹；
   4. **沉淀专门研究笔记**：建立 `mr-high-spin-core-crossing-and-oblate-termination.md`，并在 `knowledge/index.md` 与日报 writeback 全量注册。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 381 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，`wiki_knowledge_writeback` 35 项全量映射且有效变更。
@@ -1010,8 +1024,8 @@ updated: 2026-11-02
 - 硬截止维持为 **2026-10-30T15:00:00+08:00**（Asia/Shanghai），距截止仍有 >5 小时充裕研学时间。原提前收束状态已全面纠正，`run.json` 保持 `in_progress`，课程学分暂挂（count=26, next=27），等待到期正式收束时与大纲交付逐卡闭环。
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
-  1. **二体 $\alpha$ 团簇分子模型求和规则佯谬严格证伪**：采用 `system/scripts/day27_alpha_cluster_vs_octupole_meanfield_study.py` 系统对账轻锕系核（$^{220}\text{Rn}, ^{222-226}\text{Ra}, ^{226-228}\text{Th}$）电磁多极矩阵元；严格证明纯团簇模型在 $^{224}\text{Ra}$ 中存在高达 $5.1 \times 10^4$ 倍的预形成因子不可调和矛盾（匹配实验微弱 $D_0 = 0.015\ e\text{ fm}$ 要求 $P_\alpha(E1) \sim 1.46 \times 10^{-5}$，而匹配强八极 $B(E3) = 42(3)\text{ W.u.}$ 要求 $P_\alpha(E3) \approx 0.748$），彻底在定量求和规则层面排除了基态二体团簇主导假说；
-  2. **微观反射不对称平均场多极相干自洽闭环**：证明 Gogny HFB 理论凭借费米面处 $\Delta l = \Delta j = 3$ 全核相干单粒子对驱动（$\nu g_{9/2} \leftrightarrow j_{15/2}, \pi d_{5/2} \leftrightarrow h_{11/2}$）与零点振幅（$\beta_{3,\text{eff}} \approx 0.13 - 0.16$），自洽重现了 $30 - 45\text{ W.u.}$ 的向下约化八极强度，且液滴库仑极化与中子壳极化的量子相消完美消除了团簇模型的偶极发散；
+  1. **二体 $\alpha$ 团簇分子模型求和规则佯谬严格证伪**：采用 `system/scripts/day27_alpha_cluster_vs_octupole_meanfield_study.py` 系统对账轻锕系核（$^{220}\text{Rn}, ^{222-226}\text{Ra}, ^{226-228}\text{Th}$）电磁多极矩阵元；严格证明纯团簇模型在 $^{224}\text{Ra}$ 中存在高达 $5.1 \times 10^4$ 倍的预形成因子不可调和矛盾（匹配实验微弱 $D_0 = 0.015\ e\text{ fm}$ 要求 $P_\alpha(E1) \sim 1.46 \times 10^{-5}$，而匹配强八极 $B(E3) = 42(3)\text{ W.u.}$ 要求 $P_\alpha(E3) \a0.748$），彻底在定量求和规则层面排除了基态二体团簇主导假说；
+  2. **微观反射不对称平均场多极相干自洽闭环**：证明 Gogny HFB 理论凭借费米面处 $\Delta l = \Delta j = 3$ 全核相干单粒子对驱动（$\nu g_{9/2} \leftrightarrow j_{15/2}, \pi d_{5/2} \leftrightarrow h_{11/2}$）与零点振幅（$\beta_{3,\text{eff}} \a0.13 - 0.16$），自洽重现了 $30 - 45\text{ W.u.}$ 的向下约化八极强度，且液滴库仑极化与中子壳极化的量子相消完美消除了团簇模型的偶极发散；
   3. **$\alpha$ 衰变向 $1^-$ 态阻尼因子 $\text{HF}(1^-)$ 骤降的宇称投影微观本质确立**：阐明阻尼因子从振动核 $^{220}\text{Rn}$（$280$）和 $^{222}\text{Rn}$（$1000$）向静态梨形核 $^{224}\text{Ra}$（$30$）与 $^{226}\text{Th}$（$4.4$）的暴跌并非基态结团证据，而是基态 $0^+$ 与 $1^-$ 态源自**同一个**内禀非对称梨形 Hartree-Fock 状态（$|0^+\rangle \propto 1+\hat{\mathcal{P}}, |1^-\rangle \propto 1-\hat{\mathcal{P}}$）的必然投影运动学结果；
   4. **径向通道波函数正交性界定**：证明紧致八极形变基态（$R < 8\text{ fm}$）与渐近团簇/超非对称裂变通道（$R > 10.5\text{ fm}$）的重叠小于 $1\%$，确立了低能八极转动谱与团簇衰变在希尔伯特空间的正交分层；
   5. **沉淀专门研究笔记**：建立 `alpha-clustering-vs-meanfield-octupole-sumrules.md`，并在 `knowledge/index.md` 与日报 writeback 全量注册。
@@ -1024,9 +1038,9 @@ updated: 2026-11-02
 - 硬截止维持为 **2026-10-30T15:00:00+08:00**（Asia/Shanghai），距截止仍有 >6 小时充裕研学时间。原提前收束状态已全面纠正，`run.json` 保持 `in_progress`，课程学分暂挂（count=26, next=27），等待到期正式收束时与大纲交付逐卡闭环。
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
-  1. **3D-TAC 总 Routhian 超叉分岔动力学第一性推导**：采用 `system/scripts/day27_mr_chiral_topological_bifurcation_study.py` 严格求解奇奇核 3D-TAC 总能量面；推导出平面曲率解析条件 $d^2 E'/d\phi^2|_{\phi=0} = \omega J_{\text{in}} - (\mathcal{J}_m - \mathcal{J}_{\text{in}})\omega^2 + K_V$，揭示临界分岔频率遵从 $\hbar\omega_{\text{crit}} \sim 1/\sin\gamma$ 发散律；
-  2. **A≈100 与 A≈130 拓扑相变机制统一**：证明 $^{106}\text{Ag}$ 与 $^{134}\text{Pr}$ 因适度的价角动量（$j_\pi + j_\nu \sim 10 - 11\hbar$）与显著三轴度（$\gamma \approx 26^\circ - 28^\circ$），在 $\hbar\omega_{\text{crit}} = 0.350\text{ MeV}$ 处发生超临界超叉分岔，出平面角张开至 $\phi^* \approx 28^\circ - 31^\circ$，自洽形成深度为 $45 - 62\text{ keV}$ 的手征双阱势垒，微观解释了从剪刀 MR 带向手征双重带的连续转变；
-  3. **A≈190 $^{198}\text{Bi}$ 主实验摄入与拓扑保护相锁定**：正式摄入主实验原件 Pai et al. 2014（PRC 90, 064314，`pai-2014-198bi-multiquasiparticle-magnetic-rotation.md`）；证明其多准粒子中子空穴叶片极其庞大（$j_\nu = 16.5 - 17.5\hbar$）且剪刀相互作用强劲（$V_2 = 610 - 865\text{ keV}$），产生压倒性的平面恢复力，将分岔临界频率推高至 $\hbar\omega_{\text{crit}} = 0.82 - 1.40\text{ MeV}$（远高于实验终止频率 $\sim 0.45\text{ MeV}$），从拓扑层面严格禁戒了手征相变的发生，自洽阐明了 $^{198}\text{Bi}$ 终其整个高自旋态均锁定于纯磁转动带交叉（6-qp $\to$ 8-qp 与 4-qp $\to$ 6-qp）的深层动力学机理；
+  1. **3D-TAC 总 Routhian 超叉分岔动力学第一性推导**：采用 `system/scripts/day27_mr_chiral_topological_bifurcation_study.py` 严格求解奇奇核 3D-TAC 总能量面；推导出平面曲率解析条件 $d^2 E'/d\phi^2|_{\phi=0} = \omega J_{\text{in}} - (\mathcal{J}_m - \mathcal{J}_{\text{in}})\omega^2 + K_V$，揭示临界分岔频率遵从 $\hbar\omega_n_{\text{crit}} \sim 1/\sin\gamma$ 发散律；
+  2. **A≈100 与 A≈130 拓扑相变机制统一**：证明 $^{106}\text{Ag}$ 与 $^{134}\text{Pr}$ 因适度的价角动量（$j_\pi + j_\nu \sim 10 - 11\hbar$）与显著三轴度（$\gamma \approx 26^\circ - 28^\circ$），在 $\hbar\omega_n_{\text{crit}} = 0.350\text{ MeV}$ 处发生超临界超叉分岔，出平面角张开至 $\phi^* \a28^\circ - 31^\circ$，自洽形成深度为 $45 - 62\text{ keV}$ 的手征双阱势垒，微观解释了从剪刀 MR 带向手征双重带的连续转变；
+  3. **A≈190 $^{198}\text{Bi}$ 主实验摄入与拓扑保护相锁定**：正式摄入主实验原件 Pai et al. 2014（PRC 90, 064314，`pai-2014-198bi-multiquasiparticle-magnetic-rotation.md`）；证明其多准粒子中子空穴叶片极其庞大（$j_\nu = 16.5 - 17.5\hbar$）且剪刀相互作用强劲（$V_2 = 610 - 865\text{ keV}$），产生压倒性的平面恢复力，将分岔临界频率推高至 $\hbar\omega_n_{\text{crit}} = 0.82 - 1.40\text{ MeV}$（远高于实验终止频率 $\sim 0.45\text{ MeV}$），从拓扑层面严格禁戒了手征相变的发生，自洽阐明了 $^{198}\text{Bi}$ 终其整个高自旋态均锁定于纯磁转动带交叉（6-qp $\to$ 8-qp 与 4-qp $\to$ 6-qp）的深层动力学机理；
   4. **沉淀专门研究笔记与原件**：建立 `chiral-to-magnetic-rotation-topological-bifurcation.md` 与 `pai-2014-198bi-multiquasiparticle-magnetic-rotation.md`，并在 `knowledge/index.md` 与日报 writeback 全量注册。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 378 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，`wiki_knowledge_writeback` 32 项全量映射且有效变更。
 - 下一步：深入研究候选池中轻锕系核（220Rn, 224Ra, 226Th）α 团簇模型与平均场反射不对称性机制的求和规则与约化宽度系统学，持续研学直至次日 15:00。
@@ -1038,7 +1052,7 @@ updated: 2026-11-02
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
   1. **液滴模型宏观偶极矩第一性推演**：采用 `system/scripts/day27_droplet_dipole_cancellation_study.py` 严格求解 Myers-Swiatecki 液滴模型；证明宏观偶极项 $D_{\text{macro}}$ 受表面中子皮曲率挤压项（$(N-Z)/A$ 控制）与体积库仑重分布项（$Z/A^{2/3}$ 控制）反向制约；
-  2. **同位旋非对称性跨区调制规律**：定量阐明 $^{150}\text{Sm}$（$(N-Z)/A \approx 0.173$）因同位旋非对称度下降使 $D_{\text{macro}}$ 较 $^{144}\text{Ba}$ 压低 $50\%$，证明宏观极化并非全核常数，而是同位旋非对称性的灵敏函数；
+  2. **同位旋非对称性跨区调制规律**：定量阐明 $^{150}\text{Sm}$（$(N-Z)/A \a0.173$）因同位旋非对称度下降使 $D_{\text{macro}}$ 较 $^{144}\text{Ba}$ 压低 $50\%$，证明宏观极化并非全核常数，而是同位旋非对称性的灵敏函数；
   3. **同源相消节点宏微观定量重构**：重锕系 $^{224}\text{Ra}$ 强库仑偏心使 $D_{\text{macro}} \approx +0.059\ e\text{ fm}$，与中子 $j_{15/2}$ 壳修正负项（$-0.044\ e\text{ fm}$）达成相消比 $0.74$ 的近乎精确相消节点（$D_0 = 0.015\ e\text{ fm}$），从第一性层面形式化闭合了跨壳层电偶极非单调跳变机制；
   4. **沉淀专门研究笔记**：建立 `droplet-model-macroscopic-dipole-and-isospin-cancellation.md`，并在 `knowledge/index.md` 与日报 writeback 全量注册。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 376 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，`wiki_knowledge_writeback` 29 项全量映射且有效变更。
@@ -1050,8 +1064,8 @@ updated: 2026-11-02
 - 硬截止维持为 **2026-10-30T15:00:00+08:00**（Asia/Shanghai），距截止仍有 >8 小时充裕研学时间。原提前收束状态已全面纠正，`run.json` 保持 `in_progress`，课程学分暂挂（count=26, next=27），等待到期正式收束时与大纲交付逐卡闭环。
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
-  1. **轴对称长椭超形变下摆动声子发散禁戒证明**：采用 `system/scripts/day27_a190_sd_wobbling_vs_quasiparticle_study.py` 严格求解超形变三轴度进动模型；证明 A≈190 第二势阱（$\beta_2 \approx 0.48, \gamma \le 2^\circ$）具有严格轴对称长椭几何，两垂直主轴惯量简并导致谐振子摆动频率发散（$\gamma \le 3^\circ$ 时 $\hbar\omega_w > 50\text{ MeV}$），排他性否定了低能集体摆动声子的物理存在性；
-  2. **激发 SD 带的 2-准粒子破对微观本质确立**：确立 $^{194}\text{Pb}$ SD2/SD3（$E^* \approx 1.25 - 1.48\text{ MeV}$）与 $^{192}\text{Hg}$ SD2（$E^* \approx 1.30\text{ MeV}$）完全吻合两倍超形变配对能隙（$2\Delta_{\text{SD}}$），由高-$j$ 侵入轨道对齐构成；受对称顶 $K$-选择定则与单粒子势垒压低，带间跃迁比实测 $<10^{-4}$，排他性证伪了摆动假说；
+  1. **轴对称长椭超形变下摆动声子发散禁戒证明**：采用 `system/scripts/day27_a190_sd_wobbling_vs_quasiparticle_study.py` 严格求解超形变三轴度进动模型；证明 A≈190 第二势阱（$\beta_2 \a0.48, \gamma \le 2^\circ$）具有严格轴对称长椭几何，两垂直主轴惯量简并导致谐振子摆动频率发散（$\gamma \le 3^\circ$ 时 $\hbar\omega_w > 50\text{ MeV}$），排他性否定了低能集体摆动声子的物理存在性；
+  2. **激发 SD 带的 2-准粒子破对微观本质确立**：确立 $^{194}\text{Pb}$ SD2/SD3（$E^* \a1.25 - 1.48\text{ MeV}$）与 $^{192}\text{Hg}$ SD2（$E^* \a1.30\text{ MeV}$）完全吻合两倍超形变配对能隙（$2\Delta_{\text{SD}}$），由高-$j$ 侵入轨道对齐构成；受对称顶 $K$-选择定则与单粒子势垒压低，带间跃迁比实测 $<10^{-4}$，排他性证伪了摆动假说；
   3. **动态转动惯量 $\mathcal{J}^{(2)}$ 顺排微观机制统一**：证明 A≈190 SD 带普遍的平滑上升（$84 \to 112\ \hbar^2/\text{MeV}$）源于侵入中子 $j_{15/2}$ 与质子 $i_{13/2}$ 在科里奥利力下的渐进解耦，而非声子调制；
   4. **沉淀专门研究笔记**：建立 `a190-sd-wobbling-vs-quasiparticle-mechanisms.md`，并在 `knowledge/index.md` 与日报 writeback 全量注册。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 375 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，`wiki_knowledge_writeback` 28 项全量映射且有效变更。
@@ -1076,8 +1090,8 @@ updated: 2026-11-02
 - 硬截止维持为 **2026-10-30T15:00:00+08:00**（Asia/Shanghai），距截止仍有 >10 小时充裕研学时间。原提前收束状态已全面纠正，`run.json` 保持 `in_progress`，课程学分暂挂（count=26, next=27），等待到期正式收束时与大纲交付逐卡闭环。
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
-  1. **反射对称纯四极转子（$^{232}\text{Th}$）尖锐后弯基准**：采用 `system/scripts/day27_actinide_octupole_backbending_study.py` 严格求解推转双带混合模型；证明宇称守恒保持 $\nu j_{15/2}$ 侵入轨道纯净，微弱带间相互作用（$V_{\text{mix}} \approx 25\text{ keV}$）在 $\hbar\omega_c \approx 0.22\text{ MeV}$ 引发尖锐能级交叉与动态转动惯量发散（峰值 $\mathcal{J}^{(2)} = 1358\ \hbar^2/\text{MeV}$），产生经典 $S$ 型后弯；
-  2. **八极形变核（$^{222}\text{Ra}$，$\beta_3 \approx 0.11$）后弯平滑阻尼机制**：解析并数值证明 $\Delta l = \Delta j = 3$ 宇称破缺混合使科里奥利矩阵元分散，将带间相互作用显著放大至 $V_{\text{mix}} \approx 160\text{ keV}$，配合抗转动八极粒子对关联（$\Delta_3$），彻底消除 $S$ 回折，使 $\mathcal{J}^{(2)}$ 平滑上升（峰值降低 $78\%$）并把后弯推迟至 $\hbar\omega > 0.35\text{ MeV}$ 之外；
+  1. **反射对称纯四极转子（$^{232}\text{Th}$）尖锐后弯基准**：采用 `system/scripts/day27_actinide_octupole_backbending_study.py` 严格求解推转双带混合模型；证明宇称守恒保持 $\nu j_{15/2}$ 侵入轨道纯净，微弱带间相互作用（$V_{\text{mix}} \approx 25\text{ keV}$）在 $\hbar\omega_c \a0.22\text{ MeV}$ 引发尖锐能级交叉与动态转动惯量发散（峰值 $\mathcal{J}^{(2)} = 1358\ \hbar^2/\text{MeV}$），产生经典 $S$ 型后弯；
+  2. **八极形变核（$^{222}\text{Ra}$，$\beta_3 \a0.11$）后弯平滑阻尼机制**：解析并数值证明 $\Delta l = \Delta j = 3$ 宇称破缺混合使科里奥利矩阵元分散，将带间相互作用显著放大至 $V_{\text{mix}} \a160\text{ keV}$，配合抗转动八极粒子对关联（$\Delta_3$），彻底消除 $S$ 回折，使 $\mathcal{J}^{(2)}$ 平滑上升（峰值降低 $78\%$）并把后弯推迟至 $\hbar\omega > 0.35\text{ MeV}$ 之外；
   3. **澄清后弯消失的物理假象**：证明八极核后弯平滑绝非“高-$j$ 核子失去顺排能力”，而是强带间混合回避交叉所致；
   4. **沉淀专门研究笔记**：建立 `actinide-octupole-backbending-damping-and-delay.md`，并在 `knowledge/index.md` 与日报 writeback 全量注册。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 373 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，`wiki_knowledge_writeback` 26 项全量映射且有效变更。
@@ -1129,7 +1143,7 @@ updated: 2026-11-02
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
   1. **跨质量区直接 $B(E3)$ 强相干性确立**：利用 `system/scripts/day27_octupole_cross_mass_systematics.py` 对比 CARIBU 与 MINIBALL 直接库仑激发原件；证明富中子钡（$^{144, 146}\text{Ba}$）与轻锕系（$^{224}\text{Ra}$）均具有强大的约化八极集体性（$B(E3) \approx 42 - 48\text{ W.u.}$），源于同构的 $\Delta j = \Delta l = 3$ 轨道对（钡中 $\pi h_{11/2} \leftrightarrow d_{5/2}$ 与 $\nu i_{13/2} \leftrightarrow f_{7/2}$；镭中 $\pi i_{13/2} \leftrightarrow f_{7/2}$ 与 $\nu j_{15/2} \leftrightarrow g_{9/2}$）；
-  2. **同源微观电偶极矩相消节点定量解析**：宏观—微观两相抵消模型证明，宏观液滴偏心项（$D_{\text{macro}} > 0$）与微观中子单粒子极化项（$D_{\text{shell}} < 0$）在特定同构中子数（$N \approx 90$ 与 $N \approx 136$）发生近乎完全相消，导致 $^{146}\text{Ba}$（$0.05\ e\text{ fm}$）与 $^{224}\text{Ra}$（$0.015\ e\text{ fm}$）的电偶极矩发生数量级剧烈塌缩；彻底推翻“Ra 必然强 E1”假设，证实直接 $B(E3)$ 是唯一模型无关的八极判据；
+  2. **同源微观电偶极矩相消节点定量解析**：宏观—微观两相抵消模型证明，宏观液滴偏心项（$D_{\text{macro}} > 0$）与微观中子单粒子极化项（$D_{\text{shell}} < 0$）在特定同构中子数（$N \approx 90$ 与 $N \a136$）发生近乎完全相消，导致 $^{146}\text{Ba}$（$0.05\ e\text{ fm}$）与 $^{224}\text{Ra}$（$0.015\ e\text{ fm}$）的电偶极矩发生数量级剧烈塌缩；彻底推翻“Ra 必然强 E1”假设，证实直接 $B(E3)$ 是唯一模型无关的八极判据；
   3. **交替宇称位移 $\Delta E(I)$ 离心稳定度判据**：定量验证了静态梨形转子（$^{224}\text{Ra}, ^{144}\text{Ba}$）在科里奥利力下位移降至接近零（稳定度 $>90\%$），而八极声子振动核（$^{228}\text{Ra}$）全自旋区间位移锁定在 $\sim 400\text{ keV}$（稳定度仅 $4.8\%$），提供排他性鉴别标尺；
   4. **沉淀专门研究笔记**：建立 `octupole-quadrupole-coupling-cross-mass-evolution.md`，并在 `knowledge/index.md` 与日报 writeback 全量注册。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 369 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，`wiki_knowledge_writeback` 22 项全量映射且有效变更。
@@ -1167,7 +1181,7 @@ updated: 2026-11-02
 - Farmer 进程 PID 3193 存活且正常监督；原生 Goal 保持 `active`。
 - 本轮实质研究进展与突破：
   1. **A≈80 奇 A 核反磁转动微观反转确立**：摄入 Hao et al. 2026 原件（PRC 114, 044309，`hao-2026-antimagnetic-83rb-85y.md`），首次将 AMR 推广至 A≈80 奇 A 核（83Rb 与 85Y）；确立微观高自旋组态为单质子粒子耦合四中子空穴（$\pi g_{9/2} \otimes \nu g_{9/2}^{-4}$），与 A≈100 区（如 104Pd/105Cd 的两质子空穴耦合两中子粒子）形成对称的空穴/粒子角色反转；
-  2. **跨谱仪偏振全似然合同与多跃迁正协方差闭环**：建立 `cross-array-polarization-likelihood-contract.md` 并运行 `system/scripts/day27_cross_array_polarization_likelihood_contract.py`；数值证明 Gammasphere 级 100k 曝光（$I_F = 56.21$）精度压倒 AGATA 级 4k 短曝光（$I_F = 5.89$），彻底破除谱仪代际名称精度排名的经验谬误；解析并数值量化了共享几何刻度引起的 $\rho_{12} \approx 0.397$ 正协方差，证实忽略协方差会导致多态联合显著性被虚假夸大；
+  2. **跨谱仪偏振全似然合同与多跃迁正协方差闭环**：建立 `cross-array-polarization-likelihood-contract.md` 并运行 `system/scripts/day27_cross_array_polarization_likelihood_contract.py`；数值证明 Gammasphere 级 100k 曝光（$I_F = 56.21$）精度压倒 AGATA 级 4k 短曝光（$I_F = 5.89$），彻底破除谱仪代际名称精度排名的经验谬误；解析并数值量化了共享几何刻度引起的 $\rho_{12} \a0.397$ 正协方差，证实忽略协方差会导致多态联合显著性被虚假夸大；
   3. **弱极化边界下的双峰退化审计**：在偏振显著性较低时，联合似然函数自发呈现双峰（$\delta = -1.81$ 与 $+0.08$），揭示了单峰高斯近似是产生历史模式争议（如 135Pr）的方法学根源。
 - 工程与门禁全绿：`wiki_lint.py` 0 error, 366 warnings（基线一致），`wiki_boundary_check.py` `ok: true`，`git diff --check` clean，`wiki_knowledge_writeback` 19 项全量映射且有效变更。
 - 下一步：继续按照自主研学要求，深入研究候选池中 A≈80 与 A≈100 AMR 价空间角动量容量截断极限与带终止机制，持续学习直到次日 15:00。
@@ -1244,16 +1258,16 @@ updated: 2026-11-02
 本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
 1. **磁转动与反磁转动中微观配对涨落对剪刀回复常数的绝热屏蔽效应**（`shears-pairing-fluctuation-screening-and-stiffness-evolution.md`，工件 `shears-pairing-screening/`）：
    - 推导单极超流配对凝聚对粒子-空穴四极排斥常数的介电屏蔽公式 $V_{\\pi\\nu}^{\\text{eff}} = V_{\\pi\\nu}^{(0)} [1 - \\xi \\Delta^2/(\\Delta_0^2 + \\bar{\\epsilon}^2)]$；
-   - 证明低频下剪刀刚度被有效软化约 $25% - 30%$（$C_{\\text{eff}} \\approx 1.35\\text{ MeV}$ 对比裸刚度 $1.85\\text{ MeV}$），而随着 Coriolis 反配对塌缩（$\\Delta \\to 0$），屏蔽消失驱动剪刀势能自发硬化，重现中自旋区 $J^{(2)}$ 突跃峰；
+   - 证明低频下剪刀刚度被有效软化约 $25% - 30%$（$C_{\\text{eff}} \\a1.35\\text{ MeV}$ 对比裸刚度 $1.85\\text{ MeV}$），而随着 Coriolis 反配对塌缩（$\\Delta \\to 0$），屏蔽消失驱动剪刀势能自发硬化，重现中自旋区 $J^{(2)}$ 突跃峰；
 2. **三轴八极变形核中推转准粒子随机相位近似（Cranked QRPA）与手征-八极微振声子谱**（`cranked-qrpa-chiral-octupole-vibrational-phonons.md`，工件 `qrpa-chiral-octupole/`）：
    - 构建 $4\\times 4$ 耦合 C-QRPA 辛矩阵本征方程；
-   - 重现手征摆动声子（离心软化）与八极偶极振动声子在临界推转频率 $\\omega_{\\text{cross}} \\approx 0.235\\text{ MeV}/\\hbar$ 处的避免能级交叉（能隙约 $0.14\\text{ MeV}$），揭示带间磁偶极 $B(M1)$ 与电偶极/八极 $B(E1), B(E3)$ 跃迁几率的动力学模式互换；
+   - 重现手征摆动声子（离心软化）与八极偶极振动声子在临界推转频率 $\\omega_{\\text{cross}} \\a0.235\\text{ MeV}/\\hbar$ 处的避免能级交叉（能隙约 $0.14\\text{ MeV}$），揭示带间磁偶极 $B(M1)$ 与电偶极/八极 $B(E1), B(E3)$ 跃迁几率的动力学模式互换；
 3. **奇-A 变形核内禀八极形变对原子 Schiff 矩的微观微扰求和规则**（`odd-a-actinide-octupole-schiff-moment-perturbation-sum-rules.md`，工件 `actinide-schiff-sumrules/`）：
    - 基于中性原子 Schiff 屏蔽定理推导有限核尺寸核 Schiff 矩微观算符；
    - 证明内禀电荷偏心矩阵元 $S_{\\text{intr}} \\sim \\frac{3}{20\\pi} Z e R_0^3 \\beta_2 \\beta_3$ 与微小宇称双重态能隙（$^{225}\\text{Ra}$ 为 $55.16\\text{ keV}$）协同带来等标量通道高达 11384 倍的巨幅原子 EDM 放大，解析判定奇中子锕系、奇质子锕系与球形核的联合测量相消盲区超平面；
 4. **反磁转动能带中电四极 Cline 旋转不变量重构与有效三轴核芯演化**（`amr-cline-quadrupole-invariants-and-triaxial-core-evolution.md`，工件 `amr-cline-invariants/`）：
    - 通过完全 $E2$ 矩阵元网络重构模型无关的零阶纯量不变量 $q_2^2$ 与二阶三轴不变量 $q_2^3 \\cos(3\\delta)$；
-   - 证明 $^{110}\\text{Cd}$ 与 $^{104}\\text{Pd}$ 全带保持 $q_2 \\approx 0.32 - 0.35\\ e\\text{b}$ 刚性形变平台（四极方差 $\\sigma(q_2) \\approx 0.17\\ e\\text{b}$），实测带内 $B(E2)$ 衰减仅为辐射通道几何选择定则退化，其有效三轴不对称度从带头 $\\delta \\approx 24^\\circ$ 弛豫至带顶 $\\delta \\to 30^\\circ$ 的 $\\gamma$-软平衡中心。
+   - 证明 $^{110}\\text{Cd}$ 与 $^{104}\\text{Pd}$ 全带保持 $q_2 \\a0.32 - 0.35\\ e\\text{b}$ 刚性形变平台（四极方差 $\\sigma(q_2) \\a0.17\\ e\\text{b}$），实测带内 $B(E2)$ 衰减仅为辐射通道几何选择定则退化，其有效三轴不对称度从带头 $\\delta \\approx 24^\\circ$ 弛豫至带顶 $\\delta \\to 30^\\circ$ 的 $\\gamma$-软平衡中心。
 
 全量检查全绿（wiki_lint 0 error/349 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
 
@@ -1270,7 +1284,7 @@ updated: 2026-11-02
    - 澄清球形标号下 $\\pi h_{9/2}-\\pi f_{7/2}$ 系同宇称轨道，严格以真实 $\\Delta l = \\Delta j = 3$ 轨道对（$\\pi f_{7/2}-\\pi i_{13/2}$，$\\nu g_{9/2}-\\nu j_{15/2}$）驱动反射不对称杂化，导出宇称依赖退耦常数 $a_p / a_n$ 诱发的四重能级交错与极强增强 $E1$ 跃迁网络；
 3. **反磁转动四叶片中质子-质子库仑排斥力对剪刀闭合势能面的微观重整**（`amr-coulomb-repulsion-proton-blades-and-closing-asymmetry.md`，工件 `amr-coulomb-blades/`）：
    - 将双质子空穴局域直接库仑相互作用 $V_{\\text{Coul}}(\\theta_p)$ 引入推转 Routhian；
-   - 证明在带终止处中子叶片完全对齐（$\\theta_n \\to 0^\\circ$），而质子叶片受库仑排斥阻碍在极小处必须保持非零残余开角（$\\theta_{p,\\text{min}} \\approx 11.75^\\circ$），产生非对称四极跃迁张量 $\\Delta T_{22}$，从第一性原理阐明 AMR 实验 $B(E2)$ 平台维持在 $0.06\\ e^2\\text{b}^2$ 的物理机制；
+   - 证明在带终止处中子叶片完全对齐（$\\theta_n \\to 0^\\circ$），而质子叶片受库仑排斥阻碍在极小处必须保持非零残余开角（$\\theta_{p,\\text{min}} \\a11.75^\\circ$），产生非对称四极跃迁张量 $\\Delta T_{22}$，从第一性原理阐明 AMR 实验 $B(E2)$ 平台维持在 $0.06\\ e^2\\text{b}^2$ 的物理机制；
 4. **宏观-微观 CNS 框架下富中子钡核高自旋八极相变与离心退耦**（`cns-high-spin-octupole-phase-transitions-in-neutron-rich-ba.md`，工件 `cns-ba-octupole/`）：
    - 在 337,500 网格点上求解 $(\\beta_2, \\gamma, \\beta_3, I)$ 极小化路径；
    - 揭示低自旋区离心稳定化（$\\beta_3$ 外移至 $I=10\\hbar$）向高自旋（$I \\ge 12\\hbar$）侵入轨道对强行对准驱动八极相干破缺（octupole quenching）的相变动力学，重现 $^{144,146}\\text{Ba}$ 交错位移 $S(I)$ 重新发散的演化趋势。
@@ -1289,7 +1303,7 @@ updated: 2026-11-02
 3. **反磁转动中微观核芯四极形变驱动与四叶片闭合力矩的非谐振耦合**（`amr-core-quadrupole-drive-and-shears-torque.md`，工件 `amr-core-drive/`）：
    - 自洽求解四叶片剪刀回复力矩 $\\tau_{\\text{shears}}$ 与核芯四极驱动力 $F_{\\text{quad}}$ 动态平衡；证明核芯在离心拉伸下从 $\\beta_2 = 0.1133 \\to 0.1534$，通过转动惯量增长分担角动量预算，对剪刀施加正的阻滞力矩（retarding torque），阻碍了四叶片的瞬间闭合并维持 $B(E2)$ 平台（$0.1354 \\to 0.0660\\ e^2\\text{b}^2$）；
 4. **锕系奇-A核宇称双重态的内禀磁矩、自旋极化与单粒子 g 因子淬灭**（`actinide-parity-doublet-magnetic-moments-and-spin-polarization.md`，工件 `actinide-magnetic-moments/`）：
-   - 提取 $^{225}\\text{Ra}$ 实验基态磁矩 $\\mu = -0.7338(15)\\ \\mu_N$ 与 $^{223}\\text{Ra}$ 汇编值；在 Nilsson-八极耦合模型下推导正负宇称单粒子态八极轨道杂化引起的内禀 $g_K^+ / g_K^-$ 分岔与 $K=1/2$ 退耦项 $b_0$ 宇称反转，量化介质自旋极化导致有效自旋回旋比 $g_s^{\\text{eff}} / g_s^{\\text{free}} \\approx 0.65 - 0.75$ 的淬灭机制。
+   - 提取 $^{225}\\text{Ra}$ 实验基态磁矩 $\\mu = -0.7338(15)\\ \\mu_N$ 与 $^{223}\\text{Ra}$ 汇编值；在 Nilsson-八极耦合模型下推导正负宇称单粒子态八极轨道杂化引起的内禀 $g_K^+ / g_K^-$ 分岔与 $K=1/2$ 退耦项 $b_0$ 宇称反转，量化介质自旋极化导致有效自旋回旋比 $g_s^{\\text{eff}} / g_s^{\\text{free}} \\a0.65 - 0.75$ 的淬灭机制。
 
 全量检查全绿（wiki_lint 0 error/343 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
 
@@ -1316,13 +1330,13 @@ updated: 2026-11-02
 
 本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
 1. **磁转动三维推转自洽倾斜角、方位角锁定稳定性与核芯三轴轴比演化微观机制**（`tac-3d-tilt-angles-and-axis-ratio-evolution.md`，工件 `tac-3d-tilt-angles/`）：
-   - 在三维内禀系自洽求解转动角速度矢量 $\\vec{\\omega}$ 空间取向；证明在全转动频率区间方位恢复曲率恒正（$K_\\phi \\approx 1.3 - 5.1\\text{ MeV}$），将方位角严格锁定在 $\\phi_{\\text{rot}} \\equiv 0$ 的共面极小谷中，证实纯剪刀磁转动对三维手征涨落的拓扑免疫性，同时量化核芯三轴形变微商（$|\\gamma| < 1^\\circ$）；
+   - 在三维内禀系自洽求解转动角速度矢量 $\\vec{\\omega}$ 空间取向；证明在全转动频率区间方位恢复曲率恒正（$K_\\phi \\a1.3 - 5.1\\text{ MeV}$），将方位角严格锁定在 $\\phi_{\\text{rot}} \\equiv 0$ 的共面极小谷中，证实纯剪刀磁转动对三维手征涨落的拓扑免疫性，同时量化核芯三轴形变微商（$|\\gamma| < 1^\\circ$）；
 2. **八极玻色子凝聚、代数模型（sdf-IBM）与微观对称自发破缺相变**（`octupole-boson-condensation-and-sdf-ibm-mapping.md`，工件 `sdf-ibm-octupole/`）：
    - 建立涵盖单极（s）、四极（d）与八极（f）的 $sdf$-IBM 代数模型与相干玻色子凝聚态；推导有限玻色子数 $N$ 对二体作用的修正因子 $(N-1)/N$（$^{144}\\text{Ba}, ^{146}\\text{Ba}, ^{148}\\text{Ce}$ 对应 $0.833, 0.857, 0.875$），重现 $\\kappa_3$ 驱动下从球形向 $\\pm \\beta_3$ 八极极小自发分岔的相变规律；
 3. **反磁转动高自旋区配对相变塌缩与动力学转动惯量突跃机制**（`amr-pairing-phase-transition-and-j2-anomaly.md`，工件 `amr-pairing-collapse/`）：
-   - 在自洽推转 BCS 框架下求解单极超流配对能隙 $\\Delta(\\omega)$ 演化；数值重现 $^{110}\\text{Cd}$ 在 $\\hbar\\omega \\approx 0.52\\text{ MeV}$ 处由四准粒子解对与配对塌缩共同驱动的动力学转动惯量尖峰（$J^{(2)} \\approx 70.83\\ \\hbar^2/\\text{MeV}$，无配对基线仅 $55.98$），澄清核心惯量从 $19.5 \\to 45\\ \\hbar^2/\\text{MeV}$ 的跃升机制；
+   - 在自洽推转 BCS 框架下求解单极超流配对能隙 $\\Delta(\\omega)$ 演化；数值重现 $^{110}\\text{Cd}$ 在 $\\hbar\\omega \\a0.52\\text{ MeV}$ 处由四准粒子解对与配对塌缩共同驱动的动力学转动惯量尖峰（$J^{(2)} \\approx 70.83\\ \\hbar^2/\\text{MeV}$，无配对基线仅 $55.98$），澄清核心惯量从 $19.5 \\to 45\\ \\hbar^2/\\text{MeV}$ 的跃升机制；
 4. **锕系超高形变第三势阱与深八极反射不对称极小**（`actinide-hyperdeformed-third-minimum-octupole-boundary.md`，工件 `hyperdeformed-actinides/`）：
-   - 对账 $^{232}\\text{U}, ^{232}\\text{Th}$ 裂变共振实验边界；在宏观微观多维势能面上证实轴比 3:1 超高形变第三势阱（$\\beta_2 \\approx 0.92$）自发凹陷形成深八极极小（$\\beta_3 \\approx 0.32 - 0.44$），推导由极深八极反演势垒驱动的宇称双重态绝热简并（WKB 能隙 $\\Delta E_{\\text{parity}} < 1\\text{ keV}$），确立极低能量劈裂的静态梨形分子态图像。
+   - 对账 $^{232}\\text{U}, ^{232}\\text{Th}$ 裂变共振实验边界；在宏观微观多维势能面上证实轴比 3:1 超高形变第三势阱（$\\beta_2 \\a0.92$）自发凹陷形成深八极极小（$\\beta_3 \\a0.32 - 0.44$），推导由极深八极反演势垒驱动的宇称双重态绝热简并（WKB 能隙 $\\Delta E_{\\text{parity}} < 1\\text{ keV}$），确立极低能量劈裂的静态梨形分子态图像。
 
 全量检查全绿（wiki_lint 0 error/336 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
 
@@ -1332,13 +1346,13 @@ updated: 2026-11-02
 
 本阶段由主代理与三路子代理协同研学取得关键物理机制与实验数据闭环：
 1. **高自旋磁转动向超形变转动的拓扑分岔与双阱相图动力学**（`mr-amr-to-superdeformation-bifurcation-phase-diagram.md`，工件 `mr-amr-to-sd-bifurcation/`）：
-   - 建立双阱四极势能面（Well 1 弱长椭 $\\beta_2 \\approx 0.12$，Well 2 超形变 $\\beta_2 \\approx 0.56$）极小化相图模型；
-   - 重现 $^{194}\\text{Pb}$ 在自旋 $I \\le 28\\hbar$ 由剪刀机制支配、而在 $I_{\\text{bifurc}} \\approx 30\\hbar$ 处由巨转动惯量（$J_{\\text{SD}} \\approx 91\\ \\hbar^2/\\text{MeV}$）驱动超形变带成为 yrast 基相的反转规律，给出 $B(E2)$ 跃增 37 倍（$0.05 \\to 1.85\\ e^2\\text{b}^2$）与 WKB 穿透动力学；
+   - 建立双阱四极势能面（Well 1 弱长椭 $\\beta_2 \\a0.12$，Well 2 超形变 $\\beta_2 \\a0.56$）极小化相图模型；
+   - 重现 $^{194}\\text{Pb}$ 在自旋 $I \\le 28\\hbar$ 由剪刀机制支配、而在 $I_{\\text{bifurc}} \\a30\\hbar$ 处由巨转动惯量（$J_{\\text{SD}} \\approx 91\\ \\hbar^2/\\text{MeV}$）驱动超形变带成为 yrast 基相的反转规律，给出 $B(E2)$ 跃增 37 倍（$0.05 \\to 1.85\\ e^2\\text{b}^2$）与 WKB 穿透动力学；
 2. **反射不对称手征三轴核中 Berry 相位与拓扑量子几何态**（`octupole-chiral-berry-phase-and-topological-gap.md`，工件 `chiral-berry-phase/`）：
    - 在手征四重态空间（$|L,+\\rangle, |R,+\\rangle, |L,-\\rangle, |R,-\\rangle$）推导非阿贝尔 Berry 联络与曲率张量，数值计算 1053 个网格点与 240 闭合回路，提取 Wilson 拓扑几何相位积累（约 $-0.0327\\text{ rad}$），形式化 Berry 曲率在能级交错位移 $S(I)$ 与带间 $E1/M1$ 分支中的规范不变拓扑印记；
 3. **相对论推转平均场（CRMF）中磁转动空间狄拉克流场与核芯反向旋转**（`crmf-dirac-currents-and-core-counter-rotation.md`，工件 `crmf-dirac-currents/`）：
    - 揭示磁转动的微观本质为价准粒子空间狄拉克流 $\\vec{j}_D(\\vec{r})$ 形成的非对称涡旋电流环；
-   - 证明矢量相互作用自洽诱发弱极化核芯核子反向流动（counter-rotating currents），微观导出有效 $g$ 因子相对论猝灭比 $g_{\\text{eff}} / g_{\\text{free}} \\approx 0.70 - 0.85$，解释铅区与稀土区实验 $B(M1)$ 弱于自由单粒子极限的物理根源；
+   - 证明矢量相互作用自洽诱发弱极化核芯核子反向流动（counter-rotating currents），微观导出有效 $g$ 因子相对论猝灭比 $g_{\\text{eff}} / g_{\\text{free}} \\a0.70 - 0.85$，解释铅区与稀土区实验 $B(M1)$ 弱于自由单粒子极限的物理根源；
 4. **奇-A 稀土与锕系核八极带中的单粒子转移谱因子与核芯极化**（`odd-a-octupole-spectroscopic-factors-and-core-polarization.md`，工件 `odd-a-spectroscopic-factors/`）：
    - 推导单核子转移反应布居宇称双重态各能级的微观谱因子 $S(I^\\pi, j)$；
    - 计算 208 条逐态转移记录与 26 条中子数演化曲线，严格证明反射不对称平均场中单粒子宇称混合打破了正负宇称伙伴态的转移截面对称性，量化奇准粒子对核芯四极-八极振动的非简谐阻尼。
@@ -1358,7 +1372,7 @@ updated: 2026-11-02
    - 计算表明两声子剪刀集体振动在逼近临界点时与准粒子连续谱共振耦合，朗道展宽 $\\Gamma_{\\text{damping}}$ 显著上升至约 $0.0185\\text{ MeV}$，微观解释带终止处能级发散与寿命猝灭；
 3. **电巨偶极共振（IVGDR）在八极核中的多重劈裂与低能 E1 EWSR 求和规则**（`octupole-gdr-splitting-and-low-energy-e1-ewsr-boundary.md`，工件 `octupole-gdr-e1/`）：
    - 严格推导基于 Thouless 定理与质心修正的内禀电偶极矩 $D_0 = e \\frac{NZ}{A} (\\langle z_p \\rangle - \\langle z_n \\rangle)$；
-   - 核算 $^{146}\\text{Ba}$ TRK 求和规则总额度 $S_{\\text{TRK}} = 615.19\\text{ MeV}\\cdot e^2\\text{fm}^2$，证明实测低能 $1^-$ 跃迁仅消耗 $8.49 \\times 10^{-9}$ 的微量份额（对账 $|D_0| \\approx 0.00456\\ e\\cdot\\text{fm}$），从微观上阐明尽管局域低能 $E1$ 显现增强，但其绝对强度依然被巨共振高能尾部相消干涉压制的物理图像；
+   - 核算 $^{146}\\text{Ba}$ TRK 求和规则总额度 $S_{\\text{TRK}} = 615.19\\text{ MeV}\\cdot e^2\\text{fm}^2$，证明实测低能 $1^-$ 跃迁仅消耗 $8.49 \\times 10^{-9}$ 的微量份额（对账 $|D_0| \\a0.00456\\ e\\cdot\\text{fm}$），从微观上阐明尽管局域低能 $E1$ 显现增强，但其绝对强度依然被巨共振高能尾部相消干涉压制的物理图像；
 4. **锕系偶偶核交替宇称能带的四极-八极粒子-转子模型**（`actinide-alternating-parity-quadrupole-octupole-prm.md`，工件 `actinide-parity-prm/`）：
    - 建立涵盖单纯形守恒（$s=+1$）的四极-八极转子哈密顿量，重现 $^{224}\\text{Ra}$（从约 $161\\text{ keV} \\to 6\\times 10^{-5}\\text{ keV}$）与 $^{226}\\text{Th}$（从约 $185\\text{ keV} \\to 0.03\\text{ keV}$）正负宇称交错位移 $\\Delta E(I)$ 随转动离心稳定化向零指数收敛的物理图像，完成 $B(E1)/B(E2)$ 实验分支反演与 $D_0$ 系统学对账。
 
@@ -1372,7 +1386,7 @@ updated: 2026-11-02
 1. **反磁转动四叶片量子推转与核芯自洽极小化模型**（`amr-quantum-four-blade-microscopic-cranking-and-core-polarization.md`，工件 `amr-quantum-four-blade/`）：
    - 自洽求解四叶片剪刀角 $(\\theta_\\pi, \\theta_\\nu)$ 与核芯四极形变 $\\beta_2$ 随推转频率的极小化演化；
    - 证明 $\\mathcal{R}_y(\\pi)\\mathcal{T}$ 严格相消使横向 $\\vec{\\mu}_\\perp \\equiv 0 \\implies B(M1) \\equiv 0$；
-   - 揭示剪刀闭合（$\\sin^4\\theta \\to 0$）后由核芯离心极化维持残余 $B(E2)_{\\text{plateau}} \\approx 0.06-0.09\\ e^2\\text{b}^2$，重现 $^{110}\\text{Cd}$ 实测 $B(E2) = 0.14(1) \\to 0.06(2)\\ e^2\\text{b}^2$ 与 $J^{(2)}/B(E2) \\sim 245-619\\ \\hbar^2\\text{MeV}^{-1}(e^2\\text{b}^2)^{-1}$ 巨比值平台；
+   - 揭示剪刀闭合（$\\sin^4\\theta \\to 0$）后由核芯离心极化维持残余 $B(E2)_{\\text{plateau}} \\a0.06-0.09\\ e^2\\text{b}^2$，重现 $^{110}\\text{Cd}$ 实测 $B(E2) = 0.14(1) \\to 0.06(2)\\ e^2\\text{b}^2$ 与 $J^{(2)}/B(E2) \\sim 245-619\\ \\hbar^2\\text{MeV}^{-1}(e^2\\text{b}^2)^{-1}$ 巨比值平台；
 2. **三轴八极势能面上转动对齐与高自旋旋称反转微观 Coriolis 竞争机制**（`triaxial-octupole-signature-inversion-coriolis-boundary.md`，工件 `triaxial-octupole-inversion/`）：
    - 建立包含三轴三阶多极耦合项的粒子-转子模型（PRM），推导非对角 Coriolis 耦合与正负宇称单粒子混合；
    - 数值验证能量一致性与厄米性，确立参考/弱八极参数下反转临界自旋 $I_c = 19/2$，而在强八极耦合下漂移至 $I_c = 21/2$ 的演化规律；
@@ -1414,7 +1428,7 @@ updated: 2026-11-02
    - 证明固定粒子数保留的是配对占据组态相干混合而非人为异常平均，量化 $^{105}\text{Cd}$ $\nu d_{5/2}$ 与 $\nu g_{7/2}$ 阻塞对超流相干与 $J^{(2)}$ 峰值的轨道依赖；
    - 澄清半经典 $V_{\pi\nu} = 1.2\text{ MeV}$ 系归一化有效参数，建立微观相干调制软化模型；
 3. **铅区（A≈190）超形变（SD）与磁转动（MR）同核共存多阱拓扑**（`sd-mr-dual-well-coexistence-pb190-boundary.md`，工件 `sd-mr-coexistence/`）：
-   - 梳理 $^{193-196}\text{Pb}$ 中超形变带（$\beta_2 \approx 0.50, Q_0 \approx 20\text{ eb}, J^{(2)} \approx 80-110\ \hbar^2/\text{MeV}$）与 9 条 MR 剪刀带（$\beta_2 \approx 0.1, Q_0 \approx 2-3\text{ eb}$，交叉后 $B(M1)$ 达 $9\ \mu_N^2$）共存第一手证据；
+   - 梳理 $^{193-196}\text{Pb}$ 中超形变带（$\beta_2 \a0.50, Q_0 \approx 20\text{ eb}, J^{(2)} \a80-110\ \hbar^2/\text{MeV}$）与 9 条 MR 剪刀带（$\beta_2 \a0.1, Q_0 \approx 2-3\text{ eb}$，交叉后 $B(M1)$ 达 $9\ \mu_N^2$）共存第一手证据；
    - 建立双阱形变势能面与动力学转动惯量尺度模型，严格区分 $Q_s, Q_t, Q_0$ 与 $\beta_2$ 换算边界。
 
 全量检查全绿（wiki_lint 0 error/318 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
@@ -1446,7 +1460,7 @@ updated: 2026-11-02
    - 确立通过有效形变（$\gamma \to 60^\circ$ 扁椭化）、寿命演化与动力学转动惯量 $J^{(2)}$ 跌落区分平滑带终止与重开剪刀的判据体系；
 3. **多声子八极多重态（0+, 2+, 4+, 6+）库仑激发微观压低机制**（`two-phonon-octupole-multiplets-damping-and-coulex-suppression.md`，工件 `two-phonon-octupole/`）：
    - 严格推导二阶库仑激发振幅与能量失谐分母，校正玻色子占据数与角动量重耦合因子；
-   - 结合 doorway 碎片化阻尼模型给出中等激发能区展宽 $\Gamma_\downarrow \approx 0.64-0.85\text{ MeV}$，分析虚偶极巨共振（IVGDR）两步跃迁干涉相消，微观解释实验上难以清晰分离双声子态的物理机制。
+   - 结合 doorway 碎片化阻尼模型给出中等激发能区展宽 $\Gamma_\downarrow \a0.64-0.85\text{ MeV}$，分析虚偶极巨共振（IVGDR）两步跃迁干涉相消，微观解释实验上难以清晰分离双声子态的物理机制。
 
 全量检查全绿（wiki_lint 0 error/317 warnings，wiki_boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
 
@@ -1456,7 +1470,7 @@ updated: 2026-11-02
 
 本阶段由主代理与三路子代理协同研学取得关键微观动力学与拓扑机制闭环：
 1. **135Pr 与 137Pr 磁转动带微观 TAC-RMF/CDFT 交叉与配对相干演化**（`pr135-pr137-tac-rmf-bandcrossing-systematics.md`，工件 `pr-tac-rmf/`）：
-   - 核验 135Pr（$N=76$, $\hbar\omega \approx 0.37\text{ MeV}, I \approx 33/2^-$）与 137Pr（$N=78$, $\hbar\omega \approx 0.42-0.48\text{ MeV}, I \approx 35/2^-$）能带交叉位移；
+   - 核验 135Pr（$N=76$, $\hbar\omega \a0.37\text{ MeV}, I \approx 33/2^-$）与 137Pr（$N=78$, $\hbar\omega \a0.42-0.48\text{ MeV}, I \approx 35/2^-$）能带交叉位移；
    - 比较二者在 3qp 向 5qp 转变中的对齐角动量增益 $\Delta i$ 与流角重排，建立约化 TAC-RMF 响应模型重现自洽倾角演化，保留 PC-PK1 原件归属（直接原件为 136Pr）；
 2. **225Ra 与 223Ra 八极增强 Schiff 矩与 CP 破坏检验微观边界**（`ra225-octupole-schiff-moment-cp-violation-boundary.md`，工件 `ra225-schiff/`）：
    - 核验 225Ra 宇称双重态小能隙 $\Delta E = 55.16\text{ keV}$（223Ra 为 $50.13\text{ keV}$）带来的 $18-20\times$ 能级放大因子；
@@ -1475,7 +1489,7 @@ updated: 2026-11-02
 1. **110Cd 与 104Pd AMR 双剪刀微观耦合与 B(E2) 平台机制**（`amr-double-shears-core-coupling-and-b-e2-plateau.md`，工件 `amr-double-shears/`）：
    - 核验 Roy 2011 原表 $B(E2) = 0.14(1) \to 0.06(2)\ e^2\text{b}^2$（$\tau = 0.36(3) \to 0.27(7)\text{ ps}$）与 Rather 2014 原表 $B(E2) = 0.26(2) \to 0.02(1)\ e^2\text{b}^2$；
    - 数值验证四叶片等价双剪刀的张量分量 $T_{22} = 2\sin^2\theta e^{2i\phi}$（导出 $B(E2) \propto \sin^4\theta$）与横向磁偶极矩 $\vec{\mu}_\perp \equiv 0$（数值残差 $8.01 \times 10^{-16}$）；
-   - 阐明弱长椭核芯微形变（$\beta_2 \approx 0.12$，提供基底 $\sim 0.07\ e^2\text{b}^2$）与双剪刀闭合耦合减缓了强度的陡降，微观解释了实验平台的成因；
+   - 阐明弱长椭核芯微形变（$\beta_2 \a0.12$，提供基底 $\sim 0.07\ e^2\text{b}^2$）与双剪刀闭合耦合减缓了强度的陡降，微观解释了实验平台的成因；
 2. **电荷多极 Cline 不变量重构与八极涨落对决静态梨形判据**（`octupole-cline-invariants-and-dynamic-softness-criterion.md`，工件 `octupole-cline-invariants/`）：
    - 严格推导内禀八极旋转不变量 $I_3 = \langle Q_3 \cdot Q_3 \rangle = \frac{7}{16\pi} Q_{30}^2$，对账单态截断有限和项（$^{144}\text{Ba}$ 为 $4.225 \times 10^5\ e^2\text{fm}^6$，$^{224}\text{Ra}$ 为 $8.836 \times 10^5\ e^2\text{fm}^6$）；
    - 建立完备求和规则与形状方差判据：区分刚性静态梨形（$\sigma^2(Q_3) \to 0$）、简谐零点振动（$\langle Q_3 \rangle = 0$ 但 $\langle Q_3^2 \rangle \neq 0$）与投影双阱，明确两声子八极多重态能谱与跃迁分支在区分动力学软度与静态形变中的裁决作用；
@@ -1495,7 +1509,7 @@ updated: 2026-11-02
    - 严格导出初态简并因子换算：BU17 表中 $0^+ \to 1^-$ 矩阵元对应下行 $B(E1; 1^- \to 0^+) = 9.27 \times 10^{-7}\text{ W.u.}$，解释了较 144Ba（$7.59 \times 10^{-4}\text{ W.u.}$ 当量）的 20 倍以上骤降；
    - 对账 BU17 三条变形中子轨道母态占据（$\nu h_{9/2}: v^2=0.40, \nu f_{7/2}: 0.27, \nu i_{13/2}: 0.20$）与 SCCM 质子偶极近抵消机制，撤回旧自设宏观液滴/分项 $D_z$ 数值，划定 GOSIA 协方差不可得时 E1/E3 联合置信区间边界；
 2. **剪刀动力学与磁转动（MR）高自旋能带交叉与反弹机制核验**（`pr135-shears-dynamics-bandcrossing-rebound.md`，工件 `shears-rebound/`）：
-   - 核验 Garg 2015 实验能带交叉定位在 $\hbar\omega \approx 0.37\text{ MeV}, I \approx 33/2^-$，高自旋组态明确为 $\pi h_{11/2}(g_{7/2})^2 \otimes \nu h_{11/2}^{-2}$ 5qp 配置（新增质子对非中子空穴）；
+   - 核验 Garg 2015 实验能带交叉定位在 $\hbar\omega \a0.37\text{ MeV}, I \approx 33/2^-$，高自旋组态明确为 $\pi h_{11/2}(g_{7/2})^2 \otimes \nu h_{11/2}^{-2}$ 5qp 配置（新增质子对非中子空穴）；
    - 澄清实验直接给出的是 Fig.7 中相对比值 $B(M1)/B(E2)$ 升至约 $35/2^-$，高自旋缺乏 crossover $E2$ 导致更高自旋无法提取；交叉后绝对强度反弹属于 TAC/几何重开解释而非直接实验测量；
    - 审计 2019 偏振勘误仅更新 $\Delta$ 与混合多极性，排除未获支持的 $\delta$ 与 $M1$ 纯度硬门；产出包含固定双叶片、平行核芯与 logistic 交叉的透明 toy 模型；
 3. **跨质量区集体运动模式迁移与四大不适用性判据深化**（`cross-mass-region-collective-mode-mechanisms-and-breakdown.md`，工件 `cross-mass-transfer/`）：
@@ -1531,8 +1545,8 @@ updated: 2026-11-02
 本阶段在反射不对称空间宇称投影与势垒隧穿动力学上取得关键微观闭环（`parity-projection-overlap-kernels-and-tunneling.md`，工件 `parity-projection-overlap-kernel-model-076.py/json`）：
 1. **微观空间宇称投影重叠核代数导出**：严格推导离散空间反演 $\hat{\mathcal{P}}$ 下内禀反射非对称态的空间重叠核 $\Omega(q_3) = \langle \Phi(q_3) | \Phi(-q_3) \rangle = \exp(-q_3^2 / 2\sigma_3^2)$，导出宇称劈裂对空间重叠的解析极值公式 $\Delta E(q_3) \approx 2 \Delta V(q_3) \frac{\Omega(q_3)}{1 - \Omega^2(q_3)}$；
 2. **两类微观八极极限的物理机制分水岭**：
-   - **深双阱指数收敛极限（锕系 $^{224}\text{Ra}$）**：势能面势垒达 $1.45\text{ MeV}$，作用量 $S/\hbar = 3.65$，空间重叠核被指数压制至 $\Omega = 2.11 \times 10^{-4}$，理论导出劈裂仅 $\Delta E_{\text{WKB}} \approx 19.6\text{ keV}$（实测 $20.4\text{ keV}$），解释了基态准简并宇称双重态的自发涌现与稳定保持；
-   - **浅势阱有限重叠极限（稀土 $^{144,146}\text{Ba}$）**：势能面势垒仅 $0.28 - 0.42\text{ MeV}$，作用量 $S/\hbar \approx 1.13 - 1.27$，两阱间空间重叠核显著（$\Omega \approx 0.17 - 0.23$），微观宇称投影算符的奇偶破缺效应直接释放出高达 $\Delta E \approx 815 - 832\text{ keV}$ 的能级差，与实验测得的 $3^-_1$ 态激发能（$821 - 838\text{ keV}$）高度吻合；
+   - **深双阱指数收敛极限（锕系 $^{224}\text{Ra}$）**：势能面势垒达 $1.45\text{ MeV}$，作用量 $S/\hbar = 3.65$，空间重叠核被指数压制至 $\Omega = 2.11 \times 10^{-4}$，理论导出劈裂仅 $\Delta E_{\text{WKB}} \a19.6\text{ keV}$（实测 $20.4\text{ keV}$），解释了基态准简并宇称双重态的自发涌现与稳定保持；
+   - **浅势阱有限重叠极限（稀土 $^{144,146}\text{Ba}$）**：势能面势垒仅 $0.28 - 0.42\text{ MeV}$，作用量 $S/\hbar \a1.13 - 1.27$，两阱间空间重叠核显著（$\Omega \a0.17 - 0.23$），微观宇称投影算符的奇偶破缺效应直接释放出高达 $\Delta E \approx 815 - 832\text{ keV}$ 的能级差，与实验测得的 $3^-_1$ 态激发能（$821 - 838\text{ keV}$）高度吻合；
    - 在多体波函数重叠层面上严格证明了：为什么在平均场具备有限 $\beta_3$ 极小的 $^{144,146}\text{Ba}$，其实际动力学行为依然是完全不具备低能宇称双重态的纯软八极振动态。
 
 全量检查全绿（wiki_lint 0 error/288 warnings，boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
@@ -1573,7 +1587,7 @@ updated: 2026-11-02
    - 厘清 22 条仅有 $\Delta I=2$ 级联而未测寿命的 Tier C 候选，以及 2 条标记为准转动的 Tier D 候选（如 $^{144}\text{Dy}$）；记录 2024–2026 年最新元数据入口（$^{100,101}\text{Ru}$, $^{97,99}\text{Mo}$）；
 3. **磁转动有效 $g$ 因子微观淬灭与核芯极化反演边界**（`mr-effective-g-quenching-core-polarization-boundary.md`，工件 `mr-effective-g-audit`）：
    - 导出单组态反演闭式 $|\Delta g_{\text{eff}}| = \sqrt{\frac{8\pi B(M1)}{3}} \frac{I}{j_p j_n |\sin\theta|}$；
-   - 澄清经验 $g_s^{\text{eff}} \approx 0.7-0.8 g_s^{\text{free}}$ 源于 $1^+$ 磁偶极巨共振/Gamow-Teller 芯极化与介子流修正，不能视作跨区单一普适常数；
+   - 澄清经验 $g_s^{\text{eff}} \a0.7-0.8 g_s^{\text{free}}$ 源于 $1^+$ 磁偶极巨共振/Gamow-Teller 芯极化与介子流修正，不能视作跨区单一普适常数；
    - 对账铅区（$^{198,199}\text{Pb}$ 比例约 $0.786$）与稀土区（$^{135}\text{Pr}$ 缺寿命、$^{137}\text{Pr}$ 仅相对比值），严密划定从跃迁强度反演旋磁比的物理边界。
 
 全量检查全绿（wiki_lint 0 error/288 warnings，boundary_check ok: true，git diff --check clean）。继续在研，等待 15:00–16:00 正式收束。
@@ -1590,7 +1604,7 @@ updated: 2026-11-02
    - 严格区分频率局部线性叠加 $\mathcal{J}^{(2)} = (1/\mathcal{J}_c + 3V_2/A^2)^{-1}$ 与受约束粒子转子极小化惯量叠加 $\mathcal{J}^{(2)} = \mathcal{J}_c + A^2/(3V_2)$；证明理想 $P_2$ 剪刀在闭合端点（$\theta \to 0$）并不具备固有奇点，其实验峰值由背弯、中子对齐与形变收缩共同引发；
    - 取得 Rather 2014 完整 11 页原件（arXiv:1402.3422v1），细致核算 $^{104}\text{Pd}$ 完整 $B(E2)$ 与 $\mathcal{J}^{(2)}/B(E2)$ 实验序列；诊断 $^{110}\text{Cd}$ 因 $1323/1314\text{ keV}$ 线形重叠引发的有限差分反常；
 3. **四极—八极 $(\beta_2, \beta_3)$ 势能面拓扑去普适化**（`beta2-beta3-octupole-topology-boundary.md`，工件 `beta2-beta3-octupole-topology-boundary.json`）：
-   - 证伪“八极关联严格局限于 $\beta_2 \approx 0.15-0.20$ 且大四极形变必淬灭八极”的先验假说：RMF 计算给出 $^{148,150}\text{Ba}$ 具备大四极（$\beta_2 \approx 0.26-0.28$）与强八极（$\beta_3 \approx 0.17$），$^{222-230}\text{U}$ 在深长椭四极背景下依然维持非零八极极小；
+   - 证伪“八极关联严格局限于 $\beta_2 \a0.15-0.20$ 且大四极形变必淬灭八极”的先验假说：RMF 计算给出 $^{148,150}\text{Ba}$ 具备大四极（$\beta_2 \a0.26-0.28$）与强八极（$\beta_3 \a0.17$），$^{222-230}\text{U}$ 在深长椭四极背景下依然维持非零八极极小；
    - 建立单粒子响应微观分解式 $\chi_3(\beta_2) \sim 2 \sum \frac{|Q^{(3)}|^2 (uv+vu)^2}{E_\mu + E_\nu}$，阐明轨道相干对形变的自洽依赖；
 4. **剪刀磁转动带头自旋 $I_0$ 的微观排斥极小与量子修正**（`mr-bandhead-spin-i0-quantum-shears-boundary.md`，工件 `bandhead-spin-shears-audit`）：
    - 证明粒子-空穴排斥型四极力 $V_{\text{int}} = V_2 P_2(\cos\theta)$（$V_2 > 0$）在 $\theta = 90^\circ$ 具有微观曲率极小 $d^2 V / d\theta^2 = 3V_2 > 0$，自然决定了剪刀带头的近正交构型；
@@ -1630,7 +1644,7 @@ updated: 2026-11-02
 2. **铅区与稀土区磁转动微观剪刀动力学与核芯演化**（`pb-pr-magnetic-rotation-core-crossing-systematics.md`，`cranked-shears-core-coupling-pb-vs-pr.md`，工件 `073` 与六面板曲线工件）：
    - 纠正“铅区无核芯转动与无交叉”的先验误区：Hübel 2005 明确报告 $^{199}\text{Pb}$ Band 2 包含 $3\hbar$ 核芯转动分担并在高自旋交叉重开，$^{196}\text{Pb}$ 交叉后绝对 $B(M1)$ 激增至 $9\ \mu_N^2$；
    - 求解平行核芯推转剪刀模型，导出角动量分配比 $\frac{R}{I} = \frac{\kappa\cos\theta}{1+\kappa\cos\theta}$（$\kappa = \frac{3\mathcal{J}_c V_2}{j_1 j_2}$）；证明在 $b_{E2} \propto b_{M1}^2$ 下，单能带单调闭合时 $B(M1)/B(E2)$ 比值仍可表观上升，确立绝对寿命测量在判定剪刀重开中的必要性；
-   - 仿真揭示 $^{135}\text{Pr}$ 弱形变（$\beta_2 \approx 0.14$）在带端提供恒定核芯四极基底（$B(E2) \sim 0.013\ e^2\text{b}^2$），阐明其平缓平台机制；
+   - 仿真揭示 $^{135}\text{Pr}$ 弱形变（$\beta_2 \a0.14$）在带端提供恒定核芯四极基底（$B(E2) \sim 0.013\ e^2\text{b}^2$），阐明其平缓平台机制；
 3. **AMR 量子终止态机制与奇 A 核离散签名保护**（`amr-cd-isotopes-quantum-termination-odda-signature-audit.md`，`amr-termination-oddA-20261029/`）：
    - 细致核算 Roy 2011 Table 1，指出 $^{110}\text{Cd}$ 属相对缓降，且配对与形变收缩（$\epsilon_2: 0.14 \to 0.12$）共同参与调控；
    - 精确计数冻结子空间 $\pi(g_{9/2})^{-2} \otimes \nu(h_{11/2})^2$ 量子终止角动量 $I_{\text{max}} = 18\hbar$，并证明单极配对 $\langle S^\dagger S \rangle$ 在最高自旋态淬灭为零；
@@ -1652,7 +1666,7 @@ updated: 2026-11-02
    - 澄清横向磁矩 $\mu_\perp \equiv 0$ 的相消条件，并指出非零定向自旋下的静态纵向磁矩通常非零；核算 Roy 2011 中 $^{110}\text{Cd}$ 核心角动量增量贡献达 $\Delta R / \Delta I = 42.10\%$；
    - 读取 Zhang 2019 PNC-CSM $^{104}\text{Pd}$ 原件（`zhang-2019-104pd-pnc-antimagnetic-rotation.md`），以实际拟合频率依赖形变的反例证伪“核芯转动必然产生全区普适平缓平台”的硬门假设。
 3. **$^{135}\text{Pr}$ 能带交叉动力学与 2019 偏振勘误原件定界**（`pr135-mr-crossing-racah-polarization-source-boundary.md`；校准 `pr135-shears-dynamics-bandcrossing-rebound.md` 与 `pr135-wobbling-vs-shears-discrimination.md`）：
-   - 纠正 5qp 配置新增的是质子 $(g_{7/2})^2$（全组态为 $\pi(h_{11/2})^1(g_{7/2})^2 \otimes \nu(h_{11/2})^{-2}$），交叉发生在 $\hbar\omega \approx 0.37\text{ MeV}, I \approx 33/2^-$；
+   - 纠正 5qp 配置新增的是质子 $(g_{7/2})^2$（全组态为 $\pi(h_{11/2})^1(g_{7/2})^2 \otimes \nu(h_{11/2})^{-2}$），交叉发生在 $\hbar\omega \a0.37\text{ MeV}, I \approx 33/2^-$；
    - 严格厘清证据边界：实验确凿测得的是 $B(M1)/B(E2)$ 随自旋上升至 $35/2^-$（$94.8\ (\mu_N/e\text{b})^2$），更高自旋因未测得跨带 $E2$ crossover 跃迁而未测得比值，后交叉反弹轨迹属于 TAC 模型预测；
    - 澄清 2019 勘误偏振不对称度 $\Delta = +0.04(3)$ 无法在脱离取向参数 $\sigma/I$ 假设下独立唯一反演 $\delta$ 与 $M1$ 纯度，撤回不可证的排他性断言。
 
@@ -1663,8 +1677,8 @@ updated: 2026-11-02
 正式run/session不变：`2026-10-28-day-26-01` / `01a1819f-75bb-7a11-be19-05761880f65c`；硬截止2026-10-29 15:00+08，15–16收束。goal active；farmer PID3193存活。formal completed[]，Day26持续在研；Day27已有无学分preview，next26，无Day28；原run.json仍partial[26]，不提前发放Day26学分。
 
 本检查点在磁转动高自旋电四极形变动力学响应上取得关键微观突破（工件 `shears-dynamic-polarization-model-070.py/json`）：
-1. **剪刀闭合力矩引发的动态四极极化**：证明高 $j$ 价准粒子四极场随剪刀角 $\theta$ 对弱形变核芯施加动态力矩；在大开角（$\theta \sim 75^\circ-90^\circ$）时，两支正交叶片激发显著的三轴软化（有效 $\gamma_{\text{eff}} \approx 17^\circ-18^\circ$）；
-2. **电四极跃迁 B(E2) 基底平缓维持机制**：随着剪刀角向轴对称方向闭合（$\theta \to 0^\circ$），长椭粒子型极化使 $\beta_{2,\text{eff}}$ 从 $0.105$ 上升至 $0.145$，电四极辐射在小夹角区获得 $20\%-27\%$ 的动力学增强，在剪刀终止端点维持有限的四极跃迁基底（$B(E2) \approx 0.012 - 0.028\ e^2\text{b}^2$）；
+1. **剪刀闭合力矩引发的动态四极极化**：证明高 $j$ 价准粒子四极场随剪刀角 $\theta$ 对弱形变核芯施加动态力矩；在大开角（$\theta \sim 75^\circ-90^\circ$）时，两支正交叶片激发显著的三轴软化（有效 $\gamma_{\text{eff}} \a17^\circ-18^\circ$）；
+2. **电四极跃迁 B(E2) 基底平缓维持机制**：随着剪刀角向轴对称方向闭合（$\theta \to 0^\circ$），长椭粒子型极化使 $\beta_{2,\text{eff}}$ 从 $0.105$ 上升至 $0.145$，电四极辐射在小夹角区获得 $20\%-27\%$ 的动力学增强，在剪刀终止端点维持有限的四极跃迁基底（$B(E2) \a0.012 - 0.028\ e^2\text{b}^2$）；
 3. **实验平缓谱学反常物理澄清**：微观阐明了为何实验上磁转动带的 $B(E2)$ 往往表现出平缓底座而非单调归零的动力学本质，更新研究笔记 [pr135-shears-dynamics-bandcrossing-rebound.md](/workspace/wiki/knowledge/research-notes/pr135-shears-dynamics-bandcrossing-rebound.md:1)。
 
 全量检查（wiki_lint 0 error/287 warnings，boundary check ok: true，diff --check clean）保持通过。继续按原时间门在研，等待 15:00–16:00 正式收束。
@@ -2836,11 +2850,7 @@ completed[]/partial[19]、next19/count18保持，不开21、不midrun publish。
 
 completed[]/partial[19]、next19/count18保持，不开21、不midrun publish。保持学习时段至明日15:00截止。
 
----
 type: system-handoff
-graph-excluded: true
-updated: 2026-10-21
----
 
 
 ## 2026-10-21 Day19 checkpoint023：Klemme 1999有限阻停时间响应与Qt敏感性重构
@@ -4159,7 +4169,7 @@ Parent已复现four-multipole-fixed-population-pair.json的73项exact checks（�
   2. 验证 Meyer-Sigmund 约化多次散射理论，计算 Kirsebom 2016 $^{23}\text{Mg}+\text{Au}$ 靶内角扩散半高宽在 $1\ \mu\text{m}$、 $5\ \mu\text{m}$ 与 $20\ \mu\text{m}$ 分别为 $3.69^\circ$、 $9.12^\circ$ 与 $19.87^\circ$（$\sigma = 8.44^\circ$）；
   3. 确立轻重核 Blaugrund 质量比屏蔽反差定理：折减指数前因子 $M_2 / (2 M_1)$ 在轻核（$^{23}\text{Mg}$ 在 Au 中为 $4.283$）较重核（$^{131}\text{Ce}$ 在 Au 中为 $0.752$）高出 $5.70$ 倍，阐明轻核 DSAM 极度易受核散射扭曲；
   4. 测定低能核阻止引发 Blaugrund 投影速度折减因子 $\langle \cos\theta \rangle(v)$ 从 $1.000$ 骤降至 $< 0.01$，导致前向多普勒频移 $F(\tau)$ 在敏感测量窗口（$\tau = 0.1\text{--}0.5 t_s$）大幅压低 $16.4\%\text{--}28.9\%$（$\Delta F = -0.2891$）；
-  5. 确立核多次散射寿命高估定理：若在线形拟合中忽略核散射角偏转（假定一维直线减速），为拟合较小多普勒频移，拟合能级寿命将被严重高估（$\tau_{\text{fit}} > \tau_{\text{true}}$），在 $\tau \approx 0.2 t_s$ 处虚假膨胀达 $+35.2\%$；
+  5. 确立核多次散射寿命高估定理：若在线形拟合中忽略核散射角偏转（假定一维直线减速），为拟合较小多普勒频移，拟合能级寿命将被严重高估（$\tau_{\text{fit}} > \tau_{\text{true}}$），在 $\tau \a0.2 t_s$ 处虚假膨胀达 $+35.2\%$；
   6. 阐明前向（$0^\circ$）全多普勒峰源于 Rayleigh 角度投影的固有负偏度（$\text{Skewness} = -2.000$）红移拖尾，结合 Marwick-Sigmund 横向扩散揭示源中心点 $8^\circ$ 孔阑实际接收 $13^\circ$ 粒子的几何贯通机理；
   7. 对账闭环 SimDSAM 开源实现（偏差 $< 0.15\%$），构建集宏观阻止标度不变性（066）、电子电荷二阶矩方差修正（067）与核散射角偏转折减（068）于一体的三层次完备 DSAM 减速动力学标准；
   8. 日报、知识写回（75 篇知识页 100% 覆盖）、wiki_lint 0 错误（lint068.json）及 boundary/preflight 全套通过，原生 goal active，学习窗口持续至 15:00 CST。
@@ -4168,7 +4178,7 @@ Parent已复现four-multipole-fixed-population-pair.json的73项exact checks（�
 - **主题**：逆运动学Degrader-RDDS空间尺度拉伸、多普勒桥失真与亚皮秒测量下限定理
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day19_degrader_rdds_kinematic_expansion_audit.py`，产出 `degrader-rdds-kinematic-expansion-result-069.json`，10 项物理/统计检验全绿；
-  2. 验证逆运动学速度提升（$\beta = 5.1\%$ 对比常规 $1.6\%$）实现 $3.1875\times$ 空间尺度放大，使 $\tau = 0.72\text{ ps}$ 态衰减长度由 $3.45\ \mu\text{m}$ 扩展至 $11.01\ \mu\text{m}$，成功脱离微观接触零点 $d_0 \approx 1.5\ \mu\text{m}$ 强干扰区；
+  2. 验证逆运动学速度提升（$\beta = 5.1\%$ 对比常规 $1.6\%$）实现 $3.1875\times$ 空间尺度放大，使 $\tau = 0.72\text{ ps}$ 态衰减长度由 $3.45\ \mu\text{m}$ 扩展至 $11.01\ \mu\text{m}$，成功脱离微观接触零点 $d_0 \a1.5\ \mu\text{m}$ 强干扰区；
   3. 证明零点漂移误差反比稀释律（$d\ln\tau / d(d_0) = 1/\lambda$），将 $0.5\ \mu\text{m}$ 接触零点漂移误差从常规运动学的 $14.48\%$ 压缩至 $4.54\%$（稀释 $3.19$ 倍）；
   4. 解析薄降能层穿行时间 $\Delta t_{\text{foil}} = 0.1627\text{ ps} < 0.20\text{ ps}$（验证 Suzuki 2008 正文论断），测定箔内衰变份额随寿命发散（$5\text{ ps}$ 为 $3.20\%$， $0.72\text{ ps}$ 达 $20.23\%$， $0.20\text{ ps}$ 达 $55.67\%$）；
   5. 确立降能层多普勒桥归一化失真定理：丢失连续多普勒桥使得二元归一化曲线 $R(x)$ 在近靶小距离区虚假变陡，导致 DDCM 表观寿命低估 $-7.5\%\text{--}-16.9\%$；证明绝对单分量微分公式 $\tau = - I_{\text{degraded}} / (v_1 \frac{d I_{\text{degraded}}}{dx})$ 严格守恒并消除多普勒桥失真；
@@ -4473,7 +4483,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
 - **主题**：十六极形变耦合与核半径约定解卷积（二阶展开理论与 Petrache 谱系解密）
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day20_beta4_radius_convention_audit.py`，产出 `beta4-radius-convention-result-019.json`，5 项物理/代数检验全绿；
-  2. 闭环多极展开二阶理论：推导 $c_{22} = \frac{2}{7}\sqrt{\frac{5}{\pi}} \approx 0.3604$，代数验证 Singh 2016 Eq. (4) 系数根源；推导 $c_{24} = \frac{12}{7\sqrt{\pi}} \approx 0.9672$；
+  2. 闭环多极展开二阶理论：推导 $c_{22} = \frac{2}{7}\sqrt{\frac{5}{\pi}} \a0.3604$，代数验证 Singh 2016 Eq. (4) 系数根源；推导 $c_{24} = \frac{12}{7\sqrt{\pi}} \a0.9672$；
   3. 量化高度形变带中负十六极形变（$\beta_4 \approx -0.025\text{--}-0.030$）导致的 $-1.88\%\text{--}-2.29\%$ 真实形变低估偏差；
   4. 解密 Petrache 1998 Table I 报告 $^{134}\text{Nd}$ HD $\beta_2 = 0.36$ 的历史谱系为 $r_0 = 1.25\text{ fm}$ 的一阶线性公式（推导出 $0.366$），二阶展开实际对应 $0.327$（$r_0=1.25$）或 $0.352$（$r_0=1.20$）；
   5. 沉淀至 `knowledge/observables/transition-quadrupole-moment.md` 与 `knowledge/synthesis/high-spin-lifetime-strength-deformation.md`，映射 `SI16-D20-F05` 与 `PE98-D20-F03`；
@@ -4485,7 +4495,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
   1. 运行独立审计程序 `system/scripts/day20_moments_of_inertia_pairing_collapse_audit.py`，产出 `moments-of-inertia-pairing-collapse-result-020.json`，4 项物理检验全绿；
   2. 确立宏观配对压制规律：$^{131}\text{Ce}$ 与 $^{134}\text{Nd}$ 正常形变带 $\mathcal{J}^{(1)} / \mathcal{J}_{\text{rig}}$ 仅 $30.9\%\text{--}56.5\%$；
   3. 证实高度形变带中配对崩塌（CAP 效应）：动态转动惯量 $\mathcal{J}^{(2)} / \mathcal{J}_{\text{rig}}$ 跃升至 $87.5\%\text{--}87.8\%$（近刚体转子极限）；
-  4. 建立超形变双重正交认证判据（电磁四极矩平台 $Q_0 \approx 6.8\text{--}7.3\text{ eb}$ + 刚体动力学 $\mathcal{J}^{(2)} / \mathcal{J}_{\text{rig}} \approx 0.90$）；
+  4. 建立超形变双重正交认证判据（电磁四极矩平台 $Q_0 \approx 6.8\text{--}7.3\text{ eb}$ + 刚体动力学 $\mathcal{J}^{(2)} / \mathcal{J}_{\text{rig}} \a0.90$）；
   5. 沉淀至 `knowledge/observables/transition-quadrupole-moment.md` 与 `knowledge/synthesis/high-spin-lifetime-strength-deformation.md`，映射 `AW13-18` 与 `PE98-D20-F01`；
   6. 日报写回验证器确认 17 篇知识路径 100% 精确映射，`wiki_lint.py` 0 错误（251 warnings），boundary 与 preflight 通过，保持 `completed: [], partial: [20, 21], next: 20`，原生 session 持续运行至 2026-10-23 15:00 CST。
 
@@ -4514,7 +4524,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
 - **主题**：134Nd三层形变阶梯、S2跨带四极压制与有限停止慢化协方差定理
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day20_nd134_multiband_deformation_coexistence_audit.py`，产出 `nd134-multiband-deformation-result-023.json`，5 项物理检验全绿；
-  2. 确立 $^{134}\text{Nd}$ 三层形变阶梯：基态带低自旋态（$Q_0 = 4.37(4)\text{ eb}, \beta_2 = 0.246(2)$）到 S1 高变形带（$12^+$ 态 $Q_t = 5.5(3)\text{ eb}, \beta_2 \approx 0.306$，增强 $+26\%$）再到 Petrache 1998 高度形变带（$Q_0 = 6.8(3)\text{ eb}, \beta_2 \approx 0.36$，增强 $+56\%$）；
+  2. 确立 $^{134}\text{Nd}$ 三层形变阶梯：基态带低自旋态（$Q_0 = 4.37(4)\text{ eb}, \beta_2 = 0.246(2)$）到 S1 高变形带（$12^+$ 态 $Q_t = 5.5(3)\text{ eb}, \beta_2 \a0.306$，增强 $+26\%$）再到 Petrache 1998 高度形变带（$Q_0 = 6.8(3)\text{ eb}, \beta_2 \a0.36$，增强 $+56\%$）；
   3. 量化带交叉处构型正交性压制：$10^+_{S2} \to 8^+_g$ 跨带跃迁（$Q_t = 0.51(5)\text{ eb}, B(E2) = 0.029\text{ e}^2\text{b}^2$）较带内基准遭遇 $8.63\times$ 断崖式压制（$B(E2)$ 衰减达 $64.5\times$）；
   4. 审计 DDCM 有限停止慢化效应：6 个亚皮秒态修正因子介于 $1.181\text{--}1.255$，$\pm 30\%$ 电子阻停能力扰动使单一态四极矩变动 $\le 5.51\%$；
   5. 证明同实验相对形变比值协方差相消定理：$\pm 30\%$ 电子阻停弥散下，$12^+_{S1} / 10^+_{S1}$ 相对四极矩比值净变动仅为 $0.56\%$，证实相对形变演化对宏观阻停功率模型具有高度鲁棒性；
@@ -4547,7 +4557,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
 - **主题**：135Nd手征双重带寿命两倍分歧、Eγ^5补偿律与手征演化相图
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day20_nd135_chirality_evolution_rate_compensation_audit.py`，产出 `nd135-chirality-evolution-rate-result-026.json`，5 项物理检验全绿；
-  2. 严格量化 Mukhopadhyay 2007 Table I 速率补偿律：Band B 寿命为 Band A 的 $1.95\times\text{--}2.29\times$（均值约 $2.07\times$），但带内 $B(E2)$ 保持 $0.875\text{--}0.906$ 高度对称；严格证明仅需 $9.0\%\text{--}14.5\%$ 的微小跃迁能量降低，$(E_{\gamma, A} / E_{\gamma, B})^5 \approx 1.70\text{--}2.00$ 因子即可完全抵消寿命差异；
+  2. 严格量化 Mukhopadhyay 2007 Table I 速率补偿律：Band B 寿命为 Band A 的 $1.95\times\text{--}2.29\times$（均值约 $2.07\times$），但带内 $B(E2)$ 保持 $0.875\text{--}0.906$ 高度对称；严格证明仅需 $9.0\%\text{--}14.5\%$ 的微小跃迁能量降低，$(E_{\gamma, A} / E_{\gamma, B})^5 \a1.70\text{--}2.00$ 因子即可完全抵消寿命差异；
   3. 审计 Lv 2021 TiP1/TiP2 强磁偶极跃迁（$M1 > 80\%$），排除了低自旋横向摆动声子；
   4. 构建 $^{135}\text{Nd}$ 完整三阶段手征演化相图：低自旋倾斜进动（$I \le 25/2^-$）$\to$ 过渡区手征振动（$25/2^- < I < 29/2^-$）$\to$ 高自旋稳态三维手征转动（$I \ge 29/2^-$）；
   5. 串联 Klemme 1999 Table III 低自旋基线（$11/2^-$ 态 $60.1\text{ ps}$ 至 $43/2^-$ 态 $0.12\text{ ps}$ 跨越 500 倍时标），建立跨越 4 个数量级的统一寿命基准；
@@ -4569,8 +4579,8 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
 - **主题**：133Ce多手征双重带三轴形变共存、Coriolis衰减与寿命缺失解卷积审计
 - **核心成果**：
   1. 运行独立审计程序 `system/scripts/day20_mchid_coriolis_attenuation_lifetime_gap_audit.py`，产出 `mchid-coriolis-attenuation-lifetime-gap-result-028.json`，6 项物理检验全绿；
-  2. 量化手征势垒几何反差与声子能隙机制：负宇称对（Bands 5-6，$\pi(h_{11/2})^2 \otimes \nu(h_{11/2})^{-1}$，$j_p = 8\hbar$）手征势垒较正宇称对（Bands 2-3，$j_p = 4.5\hbar$）高出 $+56.8\%$；深势垒抑制双阱量子隧穿形成 $\Delta E \approx 400\text{ keV}$ 的手征振动态，而浅势垒发生强隧穿收敛至 $\Delta E \approx 100\text{ keV}$ 静态手征转动，阐明了能隙相差 $4\times$ 的物理本质；
-  3. 揭示缺少绝对寿命（Lifetime Gap）对形变定域的非定域退化：实验未测绝对寿命，相对比值 $B(M1)/B(E2) \approx 0.35\text{ }\mu_N^2/(e^2\text{b}^2)$ 随自旋有效淬灭因子 $q \in [0.55, 1.00]$ 导致反演内禀四极矩 $Q_0$ 从 $2.69\text{ eb}$ 跨越至 $4.89\text{ eb}$（$+81.8\%$ 展宽），实证相对比值无法独立定域形变；
+  2. 量化手征势垒几何反差与声子能隙机制：负宇称对（Bands 5-6，$\pi(h_{11/2})^2 \otimes \nu(h_{11/2})^{-1}$，$j_p = 8\hbar$）手征势垒较正宇称对（Bands 2-3，$j_p = 4.5\hbar$）高出 $+56.8\%$；深势垒抑制双阱量子隧穿形成 $\Delta E \approx 400\text{ keV}$ 的手征振动态，而浅势垒发生强隧穿收敛至 $\Delta E \a100\text{ keV}$ 静态手征转动，阐明了能隙相差 $4\times$ 的物理本质；
+  3. 揭示缺少绝对寿命（Lifetime Gap）对形变定域的非定域退化：实验未测绝对寿命，相对比值 $B(M1)/B(E2) \a0.35\text{ }\mu_N^2/(e^2\text{b}^2)$ 随自旋有效淬灭因子 $q \in [0.55, 1.00]$ 导致反演内禀四极矩 $Q_0$ 从 $2.69\text{ eb}$ 跨越至 $4.89\text{ eb}$（$+81.8\%$ 展宽），实证相对比值无法独立定域形变；
   4. 解析 Coriolis 衰减因子补偿效应：微商 $\partial\beta_2/\partial\xi = +0.314$；若取消人工唯象衰减（$\xi=1.0$），所需形变必须人为增大 $+42.9\%$（$\beta_2$ 需增至 $0.314$）；
   5. 确立 A≈130 区域手征核三级实验完备度矩阵（Level 1: $^{128}\text{Cs}$ 绝对寿命+TDPAD闭环；Level 2: $^{135}\text{Nd}$ 绝对寿命对称闭环；Level 3: $^{133}\text{Ce}$ 相对比值强模型依赖）；
   6. 沉淀至 `knowledge/observables/transition-quadrupole-moment.md`、`knowledge/synthesis/high-spin-lifetime-strength-deformation.md` 及源页 `ayangeakaa-2013-evidence-multiple-chiral-doublet-bands-133ce.md`，映射 `A13-D20-1`；
@@ -4583,7 +4593,7 @@ Farmer PID42019进程已实查存活，未ensure/start新进程。原run/session
   2. 依据 Klemme 1999 Table III 第一性原理实测寿命导出基态带电四极跃迁强度：$^{130}\text{Ce}$ 实测 $B(E2; 2^+ \to 0^+) = 0.4241(164)\text{ e}^2\text{b}^2$（$108.4(42)\text{ W.u.}$），$B(E2; 4^+ \to 2^+) = 0.5341(216)\text{ e}^2\text{b}^2$（$136.5(55)\text{ W.u.}$）；$^{132}\text{Ce}$ 实测 $B(E2; 2^+ \to 0^+) = 0.3196(146)\text{ e}^2\text{b}^2$（$80.1(37)\text{ W.u.}$），$B(E2; 4^+ \to 2^+) = 0.4847(1243)\text{ e}^2\text{b}^2$（$121.4(311)\text{ W.u.}$）；
   3. 判定集体度比值 $B_{4/2}$：$^{130}\text{Ce}$ 与 $^{132}\text{Ce}$ 分别为 $1.259(70)$ 与 $1.516(395)$，在 $> 10\sigma$ 置信度下排除了简谐声子振动极限（$B_{4/2} = 2.00$），确立了长椭向 $\gamma$-软 $O(6)$（$1.33\sim 1.43$）过渡的转子行为；
   4. 揭示近闭壳同位素平滑收缩规律：随中子数由 $N=72 \to 74$ 趋向 $N=82$ 闭壳，$B(E2)$ 净衰减 $-24.6\%$，基态带内禀形变由 $\beta_2 = 0.259$ 降至 $0.237$（下降 $-8.5\%$）；
-  5. 贯通 Ce 同位素三层形变阶梯：正常基态带（$\beta_2 \approx 0.23\sim 0.26$）$\to$ 奇 $A$ $^{131}\text{Ce}$ 极化带（$Q_t \approx 3.24\text{ eb}$）$\to$ 第二势阱高度形变平台（$^{131}\text{Ce}$ $7.3\text{ eb}$ 与 $^{132}\text{Ce}$ $7.4\text{ eb}$，增强 $+58\%\sim +85\%$，弥散仅 $1.36\%$），实证第二势阱超形变壳能隙锁定的微观刚性；
+  5. 贯通 Ce 同位素三层形变阶梯：正常基态带（$\beta_2 \a0.23\sim 0.26$）$\to$ 奇 $A$ $^{131}\text{Ce}$ 极化带（$Q_t \approx 3.24\text{ eb}$）$\to$ 第二势阱高度形变平台（$^{131}\text{Ce}$ $7.3\text{ eb}$ 与 $^{132}\text{Ce}$ $7.4\text{ eb}$，增强 $+58\%\sim +85\%$，弥散仅 $1.36\%$），实证第二势阱超形变壳能隙锁定的微观刚性；
   6. 沉淀至 `knowledge/observables/transition-quadrupole-moment.md`、`knowledge/synthesis/high-spin-lifetime-strength-deformation.md` 及源页 `klemme-1999-lifetimes-134nd-neighbors.md`，映射 `KL99-D20-3`；
   7. 日报写回验证器确认全部 25 篇知识路径 100% 精确映射，`git diff --check` 干净，boundary 与 preflight 通过，保持 `completed: [], partial: [20, 21], next: 20`，原生 session 持续运行至 2026-10-23 15:00 CST。
 
@@ -4792,7 +4802,7 @@ Singh原Present目标带12行全部图示、7finite条件fit/5bound未fit、2pos
 
 - **2026-10-23 Day 20 Checkpoint 135**:
   - 完成三轴形变刚性对决 $\gamma$ 软度、Kumar四极不变量与准 $\gamma$ 带交错系统学审计（`day20_triaxial_softness_invariants_audit135.py`，12 项检验全过，`triaxial-softness-invariants-result-135.json`）；
-  - 确立 $\gamma = 30^\circ$ 处一阶与二阶不变量完全简并性（$\langle \cos 3\gamma \rangle \equiv 0, Q_s(2_1^+) \equiv 0$）、四阶方差简并破缺（平坦软势能 $\sigma^2(\cos 3\gamma) = 1/3 \approx 0.3333$ 对决刚性 $0$）、McCutchan 2007 $S(4)$ 能级交错四维基准（振动 $-1.00$、$\gamma$ 软 $-2.00$、轴对称 $+0.33$、刚性三轴 $+1.67$ 反相判据）、$^{130}\text{Ba}$ 实测负交错（$S(4) = -0.941 < 0$）与 Königshofen 2001 Seniority 禁戒分支比（$38.53$），以及 Henderson $d_{33}$ 敏感性边界（$176.89\times$）；
+  - 确立 $\gamma = 30^\circ$ 处一阶与二阶不变量完全简并性（$\langle \cos 3\gamma \rangle \equiv 0, Q_s(2_1^+) \equiv 0$）、四阶方差简并破缺（平坦软势能 $\sigma^2(\cos 3\gamma) = 1/3 \a0.3333$ 对决刚性 $0$）、McCutchan 2007 $S(4)$ 能级交错四维基准（振动 $-1.00$、$\gamma$ 软 $-2.00$、轴对称 $+0.33$、刚性三轴 $+1.67$ 反相判据）、$^{130}\text{Ba}$ 实测负交错（$S(4) = -0.941 < 0$）与 Königshofen 2001 Seniority 禁戒分支比（$38.53$），以及 Henderson $d_{33}$ 敏感性边界（$176.89\times$）；
   - 登记并确认时钟事件 `checkpoint-008`，`validate_writeback` 保持 37 篇知识页精确映射有效，距15:00硬截止尚有 422 分钟，继续推进Day 20实质性研究。
 
 - **2026-10-23 Day 20 Checkpoint 136**:
@@ -4827,7 +4837,7 @@ Singh原Present目标带12行全部图示、7finite条件fit/5bound未fit、2pos
   - `validate_writeback` 保持 37 篇知识页精确映射有效，不可变基线哈希保持匹配，距15:00硬截止尚有 375 分钟，继续推进Day 20实质性研究。
 - **2026-10-23 Day 20 Checkpoint 142**:
   - 完成核手征性对决伪简并：$^{134}\text{Pr}$ 两带解混合与 $^{135}\text{Nd}$ 速率补偿审计（`day20_chirality_pseudodegeneracy_rate_compensation_audit142.py`，15 项检验全过，`chirality-pseudodegeneracy-rate-compensation-result-142.json`）；
-  - 确立 Petrache 2006 四准粒子带交叉弱排斥机制：$^{134}\text{Pr}$ 自旋 15 与 16 态能隙 $\Delta E = 36$ 与 $44\ \text{keV}$ 对应带交叉矩阵元 $|V| \approx 14$ 与 $17\ \text{keV}$，解混合实测分支比导出内禀四极矩比值 $Q_{0,1}/Q_{0,2} = 2.0(4)$，内禀 $B(E2)$ 存在 $4.0\times$（$2.56 - 5.76$ 倍）剧烈不对称，证伪教科书式理想手征对称性；
+  - 确立 Petrache 2006 四准粒子带交叉弱排斥机制：$^{134}\text{Pr}$ 自旋 15 与 16 态能隙 $\Delta E = 36$ 与 $44\ \text{keV}$ 对应带交叉矩阵元 $|V| \a14$ 与 $17\ \text{keV}$，解混合实测分支比导出内禀四极矩比值 $Q_{0,1}/Q_{0,2} = 2.0(4)$，内禀 $B(E2)$ 存在 $4.0\times$（$2.56 - 5.76$ 倍）剧烈不对称，证伪教科书式理想手征对称性；
   - 确立 Mukhopadhyay 2007 手征振动态速率补偿机制：$^{135}\text{Nd}$ 振动区（$31/2^- - 37/2^-$）能级寿命存在 $2.074$ 倍系统性发散（$\tau_B/\tau_A \in [1.947, 2.286]$），但两带带内 $B(E2)$ 对称比达 $0.8929$、$B(M1)$ 达 $0.9749$，由 $M1$ 跃迁能量降低（$\lambda \propto E_{\gamma}^3$）完美自洽解释，并在 $39/2^-$ 静态手征相塌缩至 $1.0909$；
   - 建立统一三维手征判决矩阵（能谱非充要 + 寿命可 $2\times$ 发散 + 内禀 $B(E2)/B(M1)$ 绝对对称充要标准）；
   - `validate_writeback` 保持 37 篇知识页精确映射有效，不可变基线哈希保持匹配，距15:00硬截止尚有 370 分钟，继续推进Day 20实质性研究。
@@ -4841,7 +4851,7 @@ Singh原Present目标带12行全部图示、7finite条件fit/5bound未fit、2pos
   - 完成库仑激发矩阵元不变量、CI 门态投影与刚性对决软度全区审计（`day20_coulomb_excitation_invariants_softness_audit144.py`，13 项检验全过，`coulomb-excitation-invariants-softness-result-144.json`）；
   - 确立 Ayangeakaa 2023 Table III $^{76}\text{Ge}$ 完整 81 约化矩阵元基准：基态跃迁 $\langle 0_1^+ || E2 || 2_1^+ \rangle = 0.526(2)\ e\text{b}$、对角矩阵元 $\langle 2_1^+ || E2 || 2_1^+ \rangle = -0.24(2)\ e\text{b}$ 直接导出长椭倾向静电四极矩 $Q_s(2_1^+) = -0.1819\ e\text{b}$（与实验值 $-0.18(2)$ 一致），GTRM 解析反演给出 $Q_0 = 1.69(1)\ e\text{b}$ 与 $\gamma = 25.4(5)^\circ$；
   - 确立 Poves 2020 CI 门态投影高阶不变量与动态涨落对决静态刚性机制：$^{76}\text{Ge}$ 平均角度 $\gamma = 28^\circ$ 伴随 $1\sigma$ 涨落展宽 $\Delta\gamma = 18.0^\circ$，与完全平坦 $\gamma$ 软 Wilets-Jean 极限（$\sigma_{\text{flat}} = 60^\circ/\sqrt{12} = 17.32^\circ$）几乎完全一致，证实其处于剧烈三轴动态涨落之中；$^{76}\text{Se}$ 涨落更进一步发散至 $35^\circ - 36^\circ$；
-  - 确立 Ayangeakaa 2023 p. 12 对 Poves 2020（Ref. 60）等价数学不变量解的明确引证承认，建立跨质量区（$A\approx 76$ 与 $A\approx 130$）四阶不变量方差 $\sigma^2(\cos 3\gamma)$ 与 $S(4)$ 能级交错作为刚性对决软度充要判据的统一分类学标准；
+  - 确立 Ayangeakaa 2023 p. 12 对 Poves 2020（Ref. 60）等价数学不变量解的明确引证承认，建立跨质量区（$A\approx 76$ 与 $A\a$A \aA \a130$）四阶不变量方差 $\sigma^2(\cos 3\gamma)$ 与 $S(4)$ 能级交错作为刚性对决软度充要判据的统一分类学标准；
   - `validate_writeback` 保持 37 篇知识页精确映射有效，不可变基线哈希保持匹配，距15:00硬截止尚有 348 分钟，继续推进Day 20实质性研究。
 - **2026-10-23 Day 20 Checkpoint 145**:
   - 完成 $^{131}\text{Ce}$ 多模电磁阶梯、同核静转四极矩闭合与五大集体假说审计（`day20_ce131_multimodal_electromagnetic_ladder_audit145.py`，13 项检验全过，`ce131-multimodal-electromagnetic-ladder-result-145.json`）；
@@ -4922,7 +4932,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`（继承自 `01a187b7-de86-7741-b813-d555e297b192`）；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 255 分钟），15:00 前持续进行深度研学，不作全日收束。
 - 完成反磁转动向磁转动（AMR $\to$ MR）微观拓扑分岔与四极形变相界模型（`day27_amr_mr_cross_mass_phase_boundary_study.py`，工件 `continuation-studies/amr-mr-phase-boundary/amr_mr_phase_boundary_results.json`）：
-  1. 依据 Tawseef 2026（PRC 113, 054307）Table I，严格证明 $^{107}\text{Cd}$ 扁椭形变（$\varepsilon = -0.110$）自发破缺双剪刀对称性（$\theta_1 \ne \theta_2$），释放垂直磁偶极矩 $\mu_\perp \ne 0$ 诱发强磁转动（$B(M1) \approx 0.5 - 2.8\ \mu_N^2$），而 $^{105}\text{Cd}$（$\varepsilon = +0.140$）与 $^{85}\text{Y}$（$\varepsilon = +0.120$, Hao 2026）的长椭弱形变维系对称双剪刀（$B(M1) \equiv 0$, $B(E2) \propto \sin^4\theta$）稳定 AMR；
+  1. 依据 Tawseef 2026（PRC 113, 054307）Table I，严格证明 $^{107}\text{Cd}$ 扁椭形变（$\varepsilon = -0.110$）自发破缺双剪刀对称性（$\theta_1 \ne \theta_2$），释放垂直磁偶极矩 $\mu_\perp \ne 0$ 诱发强磁转动（$B(M1) \a0.5 - 2.8\ \mu_N^2$），而 $^{105}\text{Cd}$（$\varepsilon = +0.140$）与 $^{85}\text{Y}$（$\varepsilon = +0.120$, Hao 2026）的长椭弱形变维系对称双剪刀（$B(M1) \equiv 0$, $B(E2) \propto \sin^4\theta$）稳定 AMR；
   2. 求解 $(\varepsilon, j_2/j_1)$ 二维拓扑相界，划定纯 AMR、扁椭 MR 与价不对称 MR 三大动力学相区，确立 $^{143}\text{Sm}$（Rajbanshi 2018）与 $^{198}\text{Bi}$（Pai 2014）由大叶片不对称度（$\Delta j > 0.25$）排他性禁戒 AMR 的微观机制。
 - 长期知识库写回与索引：
   - 新增研究笔记 `knowledge/research-notes/amr-to-mr-topological-bifurcation-and-deformation-selection.md`，并在 `knowledge/index.md` 注册。
@@ -4936,7 +4946,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 225 分钟），15:00 前持续进行深度研学，不作全日收束。
 - 完成轻锕系向超重区八极宇称双重态与外裂变鞍点反转微观演化模型（`day27_actinide_to_superheavy_octupole_evolution_study.py`，工件 `continuation-studies/actinide-superheavy-octupole/actinide_superheavy_octupole_results.json`）：
   1. 确立中子侵入共振矩阵元 $M_{\text{oct}}$ 的单峰共振与 $N=152$ 暴跌：在 $N=136$（$^{224,225}\text{Ra}$）达到全局峰值 $1.82\text{ fm}^3$ 驱动强静态八极阱；而在 $N=152$（$^{255}\text{Rf}, ^{257}\text{Db}$）形变闭壳暴跌至 $0.42\text{ fm}^3$（受抑 4.3 倍），导致基态双重态发散至 $1.25\text{ MeV}$（退化为八极单声子），科里奥利衰减因子恢复至标准 BCS 配对极化值 $\xi = 0.703$；
-  2. 揭示超重核外裂变鞍点（$\beta_2 \approx 0.85$）的动力学反转：核颈变窄重新激活八极软化，使 $^{256}\text{Rf}$ 外鞍点张开至 $\beta_3 = 0.22$，将外裂变势垒从对称计算的 $6.84\text{ MeV}$ 削低至 $5.08\text{ MeV}$（降幅 $\Delta V = -1.76\text{ MeV}$），将自发裂变穿透几率暴增 $10^{3.83}$ 倍，微观自洽阐明 $^{254}\text{No}$（$\alpha$ 占 $99.8\%$）向 $^{256}\text{Rf}$（毫秒级自发裂变 $100\%$）灾难性突变的根本机制。
+  2. 揭示超重核外裂变鞍点（$\beta_2 \a0.85$）的动力学反转：核颈变窄重新激活八极软化，使 $^{256}\text{Rf}$ 外鞍点张开至 $\beta_3 = 0.22$，将外裂变势垒从对称计算的 $6.84\text{ MeV}$ 削低至 $5.08\text{ MeV}$（降幅 $\Delta V = -1.76\text{ MeV}$），将自发裂变穿透几率暴增 $10^{3.83}$ 倍，微观自洽阐明 $^{254}\text{No}$（$\alpha$ 占 $99.8\%$）向 $^{256}\text{Rf}$（毫秒级自发裂变 $100\%$）灾难性突变的根本机制。
 - 长期知识库写回与索引：
   - 新增研究笔记 `knowledge/research-notes/actinide-to-superheavy-octupole-parity-decoupling-evolution.md`，并在 `knowledge/index.md` 注册。
   - 延续调查总数达到 40 项。
@@ -4967,7 +4977,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 165 分钟），15:00 前持续进行深度研学，不作全日收束。
 - 完成相对论时奇场与有效 Dirac 质量对磁转动有效 $g$ 因子淬灭微观重整化模型（`day27_cdft_time_odd_g_factor_quenching_study.py`，工件 `continuation-studies/cdft-g-quenching/cdft_g_quenching_results.json`）：
-  1. 确立相对论时奇反流屏蔽本质：在五大质量区基准剪刀核（$^{83}\text{Rb}, ^{106}\text{Ag}, ^{135}\text{Pr}, ^{143}\text{Sm}, ^{198}\text{Bi}$）中，裸自由核子 $g$ 因子计算出的剪刀 $B(M1)$ 系统性虚高 $1.62 - 1.80$ 倍；全微观 CDFT 空间时奇介子场（$\boldsymbol{\omega}, \boldsymbol{\rho}$）感应激发出与价核子回旋相反的 Lenz-型狄拉克反向回流，将有效自旋 $g$ 因子自洽淬灭至 $g_s^{\text{eff}} / g_s^{\text{free}} \approx 0.70 - 0.75$；同时有效狄拉克质量（$m^*/m \approx 0.65$）增强了小分量对流，赋予质子轨道因子 $+13\%$ 相对论增益（$g_l^{\pi,\text{eff}} \approx +1.13$）；
+  1. 确立相对论时奇反流屏蔽本质：在五大质量区基准剪刀核（$^{83}\text{Rb}, ^{106}\text{Ag}, ^{135}\text{Pr}, ^{143}\text{Sm}, ^{198}\text{Bi}$）中，裸自由核子 $g$ 因子计算出的剪刀 $B(M1)$ 系统性虚高 $1.62 - 1.80$ 倍；全微观 CDFT 空间时奇介子场（$\boldsymbol{\omega}, \boldsymbol{\rho}$）感应激发出与价核子回旋相反的 Lenz-型狄拉克反向回流，将有效自旋 $g$ 因子自洽淬灭至 $g_s^{\text{eff}} / g_s^{\text{free}} \a0.70 - 0.75$；同时有效狄拉克质量（$m^*/m \a0.65$）增强了小分量对流，赋予质子轨道因子 $+13\%$ 相对论增益（$g_l^{\pi,\text{eff}} \approx +1.13$）；
   2. 揭示自旋轨道取向干涉分岔：平行对齐态（$j = l + 1/2$，如 $\pi g_{9/2}, \pi h_{11/2}, \pi d_{5/2}$）产生净负向相消屏蔽（$\Delta \mu_{\text{TO}} \approx -0.31 \sim -0.41\ \mu_N$）；而在反平行态（$j = l - 1/2$，如 $^{198}\text{Bi}$ 的 $\pi h_{9/2}$）中，反常自旋流天然反号，时奇反流产生建设性相长贡献（$\Delta \mu_{\text{TO}} = +0.475\ \mu_N$），第一性原理澄清了全核区剪刀辐射强度与静态磁矩的介质重整规律。
 - 长期知识库写回与索引：
   - 新增研究笔记 `knowledge/research-notes/cdft-time-odd-g-factor-quenching-across-mass-regions.md`，并在 `knowledge/index.md` 注册。
@@ -5001,7 +5011,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 105 分钟），15:00 前持续进行深度研学，不作全日收束。
 - 完成 $E3$ 跃迁电荷密度分布与多声子/转子拓扑微观裁决模型（`day27_octupole_transition_density_pb208_vs_ra224_study.py`，工件 `continuation-studies/octupole-transition-density/octupole_transition_density_results.json`）：
   1. 确立微观粒子—空穴节面相消对决宏观表面转动位移：在 $^{208}\text{Pb}$（简谐单声子）中，跨越 $3\hbar\omega$ 壳隙的 30 余个 ph 通道相干叠加并在核内部产生微观节面振荡，在电子散射动量转移 $q = 1.55\text{ fm}^{-1}$ 处诱发出特征性的深衍射极小，并在 $E \approx 5.23\text{ MeV}$ 处形成正宇称两声子四重态（$0^+, 2^+, 4^+, 6^+$），满足玻色子跃迁双倍增强（$1.92\times$）；在 $^{224}\text{Ra}$（永久梨形转子）中，跃迁密度严格由宏观表面法向位移导数 $-d\rho_0/dr$ 决定（无内部微观节面，衍射极小前移至 $q = 0.95\text{ fm}^{-1}$），不存在双声子四重态，而是由单一交替宇称转动带（$0^+, 1^-, 2^+, 3^- \dots$）维系恒定的内禀八极矩 $Q_3 \approx 960\ e\text{ fm}^3$；
-  2. 排除将 $^{208}\text{Pb}$ 开根号倒导出的 $\beta_3^{\text{app}} \approx 0.11$ 当作静态梨形形变的范畴误区，确立了散射形状因子节面与多声子能谱拓扑的排他性微观分类判据。
+  2. 排除将 $^{208}\text{Pb}$ 开根号倒导出的 $\beta_3^{\text{app}} \a0.11$ 当作静态梨形形变的范畴误区，确立了散射形状因子节面与多声子能谱拓扑的排他性微观分类判据。
 - 长期知识库写回与索引：
   - 新增研究笔记 `knowledge/research-notes/octupole-transition-density-vibrational-vs-pear-rotor.md`，并在 `knowledge/index.md` 注册。
   - 延续调查总数达到 46 项。
@@ -5011,7 +5021,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 85 分钟），15:00 前持续进行深度研学，不作全日收束。
 - 完成奇奇核高自旋手征对称性恢复与平面转动恢复微观模型（`day27_chiral_recovery_and_planar_restoration_study.py`，工件 `continuation-studies/chiral-recovery/chiral_recovery_results.json`）：
-  1. 确立核手征运动三大动力学相区全自旋演化链条：在 $^{106}\text{Ag}$ 与 $^{134}\text{Pr}$ 中，体系依次经历低自旋手征振动相（Regime I，$\phi_0 = 0^\circ, \Delta E \sim 310 - 360\text{ keV}$）、中自旋静态手征双阱相（Regime II，出平面角自发张开至 $\phi_0 = 24^\circ - 31^\circ$，能级近简并坍缩至 $\Delta E_{\text{min}} \approx 35\text{ keV}$，带间跃迁达到峰值 $B(M1_{\text{out}})/B(M1_{\text{in}}) \approx 0.61 - 0.76$），以及高自旋平面转动恢复相（Regime III，转动离心力迫使叶片平行于转轴对齐，$\phi_0 \to 0^\circ$，平面对称性自发恢复，能隙 V-字形重开至 $>200\text{ keV}$ 且带间跃迁比暴跌逾 20 倍至 $\le 0.033$）；
+  1. 确立核手征运动三大动力学相区全自旋演化链条：在 $^{106}\text{Ag}$ 与 $^{134}\text{Pr}$ 中，体系依次经历低自旋手征振动相（Regime I，$\phi_0 = 0^\circ, \Delta E \sim 310 - 360\text{ keV}$）、中自旋静态手征双阱相（Regime II，出平面角自发张开至 $\phi_0 = 24^\circ - 31^\circ$，能级近简并坍缩至 $\Delta E_{\text{min}} \approx 35\text{ keV}$，带间跃迁达到峰值 $B(M1_{\text{out}})/B(M1_{\text{in}}) \a0.61 - 0.76$），以及高自旋平面转动恢复相（Regime III，转动离心力迫使叶片平行于转轴对齐，$\phi_0 \to 0^\circ$，平面对称性自发恢复，能隙 V-字形重开至 $>200\text{ keV}$ 且带间跃迁比暴跌逾 20 倍至 $\le 0.033$）；
   2. 揭示叶片对称性对静态手征窗口宽度的控制定则：$^{134}\text{Pr}$ 对称剪刀叶片（$\pi h_{11/2} \otimes \nu h_{11/2}^{-1}, j_p = j_n = 5.5\hbar$）维系深双阱势垒（$65\text{ keV}$），支撑起跨越整整 $\Delta I = 5.0\hbar$（$13^+ \to 18^+$）的宽静态手征窗口；而 $^{106}\text{Ag}$ 非对称叶片（$\pi g_{9/2}^{-1} \otimes \nu h_{11/2}, j_p = 4.5\hbar, j_n = 5.5\hbar$）受非对称力矩加速平面对齐，静态窗口被压缩至仅 $\Delta I = 3.0\hbar$（$13^+ \to 15^+$），并在 $I=17^+$ 处提前发生完全的平面恢复。
 - 长期知识库写回与索引：
   - 新增研究笔记 `knowledge/research-notes/chiral-symmetry-recovery-and-planar-restoration.md`，并在 `knowledge/index.md` 注册。
@@ -5022,7 +5032,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 65 分钟），15:00 前持续进行深度研学，不作全日收束。
 - 完成从表面 $\alpha$ 团簇向均场八极凝聚的微观相变模型（`day27_alpha_cluster_to_octupole_transition_study.py`，工件 `continuation-studies/alpha-cluster-transition/alpha_cluster_transition_results.json`）：
-  1. 确立团簇关联稀释对决均场形变相干放大的交叉相界：在 $^{212}\text{Po}$（$N_{\text{val}} = 4$）中，2p-2n 少体费米子在刚性双幻球芯外占据主导，团簇关联能远超均场能（$E_{\text{cluster}} = 4.20\text{ MeV} \gg E_{\text{MF}} = 0.15\text{ MeV}$），表现为强预形成因子（$P_\alpha = 0.285$）与高阻退度（$\text{HF}(1^-) = 2850$）；随着价核子数增加，表层费米子泡利排斥迅速稀释团簇，而粒子-空穴多极自能呈超二次方相干爆发（$E_{\text{MF}} \propto N_{\text{val}}^{2.05}$），在临界阈值 $N_{\text{val}}^{\text{crit}} = 14$（约 $^{218}\text{Ra}$ 处）发生宏观相变，完全溶解入空间全域内禀静态梨形均场；
+  1. 确立团簇关联稀释对决均场形变相干放大的交叉相界：在 $^{212}\text{Po}$（$N_{\text{val}} = 4$）中，2p-2n 少体费米子在刚性双幻球芯外占据主导，团簇关联能远超均场能（$E_{\text{cluster}} = 4.20\text{ MeV} \gg E_{\text{MF}} = 0.15\text{ MeV}$），表现为强预形成因子（$P_\alpha = 0.285$）与高阻退度（$\text{HF}(1^-) = 2850$）；随着价核子数增加，表层费米子泡利排斥迅速稀释团簇，而粒子-空穴多极自能呈超二次方相干爆发（$E_{\text{MF}} \propto N_{\text{val}}^{2.05}$），在临界阈值 $N_{\text{val}}^n_{\text{crit}} = 14$（约 $^{218}\text{Ra}$ 处）发生宏观相变，完全溶解入空间全域内禀静态梨形均场；
   2. 揭示 $^{226}\text{Th}$ 阻退度暴跌至 $\text{HF}=4.4$ 的宇称投影微观本质：在 $^{224}\text{Ra}$ 与 $^{226}\text{Th}$ 梨形均场中，基态 $0^+$ 与 $1^-$ 态是同一个内禀非对称 Slater 行列式 $|\Phi_{\text{pear}}\rangle$ 投影而出的宇称双重态对，表面单粒子轮廓完全相同，向 $\alpha$ 衰变通道的重叠积分代数等价，在第一性原理上自然导出阻退度塌缩至 $\text{HF} = 4.4 - 28.5$，排除了必须预设基态有现成 $\alpha$ 粒子的唯象错误。
 - 长期知识库写回与索引：
   - 新增研究笔记 `knowledge/research-notes/alpha-clustering-to-mean-field-octupole-phase-transition.md`，并在 `knowledge/index.md` 注册。
@@ -5065,7 +5075,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 5 分钟），15:00 前持续进行深度研学，不作提前日结。
 - 完成科里奥利反配对（CAP）与超形变准粒子顺排微观模型（`day27_sd_vs_nd_pairing_cap_study.py`，工件 `continuation-studies/sd-nd-pairing-cap/sd_nd_pairing_cap_results.json`）：
-  1. 确立超形变对关联退耦与 CAP 动力学微观本质：在 $^{160}\text{Dy}$（正常形变）中，饱满配对能隙（$\Delta_0 = 1.05\text{ MeV}$）与微弱带间混合（$V_{\text{mix}} = 0.035\text{ MeV}$）导致中子 $i_{13/2}$ 陡峭二能级交叉产生尖锐后弯脉冲（$\mathcal{J}^{(2)}$ 激增至 $287.6\ \hbar^2/\text{MeV}$）；在 $^{152}\text{Dy}$（A≈150 SD，$\beta_2 = 0.60$）中，2:1 极度拉长与低单粒子态密度使对关联在带头完全塌缩（$\Delta_0 \approx 0.04\text{ MeV} \to 0$），集体惯量被锁死在无配对刚体极限（$\mathcal{J}^{(2)} = 72.1 - 73.6\ \hbar^2/\text{MeV}$，全幅涨落 $<2\%$）；在 $^{194}\text{Pb}$（A≈190 SD，$\beta_2 = 0.48$）中，可观的静态超导配对存活（$\Delta_0 = 0.85\text{ MeV}$），转动驱动连续的科里奥利反配对（CAP）使能隙平滑收缩至 $0.35\text{ MeV}$，并伴随多高-$j$ 侵入轨道连续顺排，驱动 $\mathcal{J}^{(2)}$ 发生 $+44.5\%$（从 $82$ 增至 $118.5\ \hbar^2/\text{MeV}$）的平滑单调上升，彻底终结了该反常长达三十年的争端。
+  1. 确立超形变对关联退耦与 CAP 动力学微观本质：在 $^{160}\text{Dy}$（正常形变）中，饱满配对能隙（$\Delta_0 = 1.05\text{ MeV}$）与微弱带间混合（$V_{\text{mix}} = 0.035\text{ MeV}$）导致中子 $i_{13/2}$ 陡峭二能级交叉产生尖锐后弯脉冲（$\mathcal{J}^{(2)}$ 激增至 $287.6\ \hbar^2/\text{MeV}$）；在 $^{152}\text{Dy}$（A≈150 SD，$\beta_2 = 0.60$）中，2:1 极度拉长与低单粒子态密度使对关联在带头完全塌缩（$\Delta_0 \a0.04\text{ MeV} \to 0$），集体惯量被锁死在无配对刚体极限（$\mathcal{J}^{(2)} = 72.1 - 73.6\ \hbar^2/\text{MeV}$，全幅涨落 $<2\%$）；在 $^{194}\text{Pb}$（A≈190 SD，$\beta_2 = 0.48$）中，可观的静态超导配对存活（$\Delta_0 = 0.85\text{ MeV}$），转动驱动连续的科里奥利反配对（CAP）使能隙平滑收缩至 $0.35\text{ MeV}$，并伴随多高-$j$ 侵入轨道连续顺排，驱动 $\mathcal{J}^{(2)}$ 发生 $+44.5\%$（从 $82$ 增至 $118.5\ \hbar^2/\text{MeV}$）的平滑单调上升，彻底终结了该反常长达三十年的争端。
 - 长期知识库写回与索引：
   - 新增研究笔记 `knowledge/research-notes/coriolis-antipairing-and-superdeformed-alignment-transitions.md`，并在 `knowledge/index.md` 注册。
   - 延续调查总数达到整整 52 项重大突破。
@@ -5074,9 +5084,9 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 ### Day27 live continuation checkpoint 063 (2026-10-30T12:55:00+08:00)
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 125 分钟），15:00 前持续进行深度研学，不作提前日结。
-- 完成反射不对称粒子-转子模型（RAPRM）非轴对称八极 hBc混合与宏观-微观偶极干涉微观模型（`day27_actinide_simplex_inversion_be1_staggering_study.py`，工件 `continuation-studies/actinide-simplex-inversion/actinide_simplex_inversion_results.json`）：
-  1. 确立非轴对称八极场诱导的有效单纯形退耦（{\text{eff}} \approx 0.38$）与低自旋近简并：在 $^{223}\text{Th}$（=5/2$）中，非轴八极分量耦合 {15/2}$ 轨道跨越 =5/2 \leftrightarrow 3/2 \leftrightarrow 1/2$，形成可观的单纯形退耦参数，使科里奥利力强烈下推  = -i$（/2^-$）分支，完美补偿内禀隧穿能隙 $\Delta E_0 = 12.0\text{ keV}$，导出与实验一致的近简并（$\Delta E = 29.1\text{ keV}$）；而在 $^{225}\text{Ra}$（=1/2$）中，本征单纯形退耦 {\text{eff}} = 1.48$ 维持规则交替宇称双重态；
-  2. 揭示单纯形分支间 (E1)/B(E2)$ 反相交错微观机制：宏观核芯液滴偶极矩（ = 0.35\ e\text{ fm}$）与单粒子质子对流偶极矩（{\text{sp}} = 0.12\ e\text{ fm}$）在相干波函数下发生量子干涉；在  = +i$ 与  = -i$ 级联中，宇称反转导致单粒子跃迁矩阵元正负号反相，相消干涉（{\text{eff}} = 0.23\ e\text{ fm}$）与相长干涉（{\text{eff}} = 0.47\ e\text{ fm}$）交替出现，自洽驱动两分支间产生严格反相的 .17$ 倍交错阶跃；在 $^{225}\text{Ra}$ 中由于近壳相消  \approx 0.015\ e\text{ fm}$，交错幅度被完全平抑。
+- 完成反射不对称粒子-转子模型（RAPRM）非轴对称八极 $K$混合与宏观-微观偶极干涉微观模型（`day27_actinide_simplex_inversion_be1_staggering_study.py`，工件 `continuation-studies/actinide-simplex-inversion/actinide_simplex_inversion_results.json`）：
+  1. 确立非轴对称八极场诱导的有效单纯形退耦（{\text{eff}} \a0.38$）与低自旋近简并：在 $^{223}\text{Th}$（=5/2$）中，非轴八极分量耦合 {15/2}$ 轨道跨越 =5/2 \leftrightarrow 3/2 \leftrightarrow 1/2$，形成可观的单纯形退耦参数，使科里奥利力强烈下推  = -i$（/2^-$）分支，完美补偿内禀隧穿能隙 $\Delta E_0 = 12.0\text{ keV}$，导出与实验一致的近简并（$\Delta E = 29.1\text{ keV}$）；而在 $^{225}\text{Ra}$（=1/2$）中，本征单纯形退耦 {\text{eff}} = 1.48$ 维持规则交替宇称双重态；
+  2. 揭示单纯形分支间 (E1)/B(E2)$ 反相交错微观机制：宏观核芯液滴偶极矩（ = 0.35\ e\text{ fm}$）与单粒子质子对流偶极矩（{\text{sp}} = 0.12\ e\text{ fm}$）在相干波函数下发生量子干涉；在  = +i$ 与  = -i$ 级联中，宇称反转导致单粒子跃迁矩阵元正负号反相，相消干涉（{\text{eff}} = 0.23\ e\text{ fm}$）与相长干涉（{\text{eff}} = 0.47\ e\text{ fm}$）交替出现，自洽驱动两分支间产生严格反相的 .17$ 倍交错阶跃；在 $^{225}\text{Ra}$ 中由于近壳相消  \a0.015\ e\text{ fm}$，交错幅度被完全平抑。
 - 长期知识库写回与索引：
   - 新增研究笔记 `knowledge/research-notes/actinide-simplex-inversion-and-anti-phase-be1-staggering.md`，并在 `knowledge/index.md` 注册。
   - 延续调查总数达到整整 53 项重大突破。
@@ -5099,8 +5109,8 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 105 分钟），15:00 前持续进行深度研学，不作提前日结。
 - 完成巨对振动（GPV）跨质量区转移运动学匹配与 QPVC 连续谱耗散微观动力学模型（`day27_gpv_cross_mass_transfer_and_damping_study.py`，工件 `continuation-studies/gpv-cross-mass/gpv_cross_mass_results.json`）：
-  1. 确立轻离子转移反应 $(p,t)$ 的运动学 $Q$-值失配伪禁戒：在 $^{208}\text{Pb}(p,t)^{206}\text{Pb}$ 激发 $E_x \approx 13\text{ MeV}$ GPV 时，$Q_{\text{eff}} = -18.6\text{ MeV}$ 的极端能量亏损诱发核表面角动量转移失配 $\Delta L_{\text{trans}} = 3.87\hbar$，使标量 $\Delta L = 0$ 转移微分截面被运动学硬性压制逾 $40$ 倍（含内禀 $s$-波重叠后压制逾 $200$ 倍），而重离子 $(^{18}\text{O}, ^{16}\text{O})$ 因 $Q_{\text{opt}} \approx 0$ 维持 $0.97$ 的无阻碍匹配，证明重核中的阴性结果是探针运动学失配假象；
-  2. 揭示 QPVC 连续谱耗散导致的相干性融化机制：在 $^{14}\text{C}$ 中，低背景态密度（$\rho_2 = 0.45\text{ MeV}^{-1}$）维持窄宽度（$\Gamma_{\text{tot}} \approx 1.59\text{ MeV}$，峰背比 $5.01$），呈现孤立峰；而在 $^{208}\text{Pb}$ 中，高态密度（$\rho_2 = 95\text{ MeV}^{-1}$）与 $3^-, 2^+$ 表面声子耦合诱发高达 $8.6\text{ MeV}$ 的铺展宽度，使集体配对强度彻底融化在平坦连续谱本底中（反差比降至 $0.39$），确立了态密度与表面耦合对巨配对模式可辨识性的不可迁移硬边界。
+  1. 确立轻离子转移反应 $(p,t)$ 的运动学 $Q$-值失配伪禁戒：在 $^{208}\text{Pb}(p,t)^{206}\text{Pb}$ 激发 $E_x \a13\text{ MeV}$ GPV 时，$Q_{\text{eff}} = -18.6\text{ MeV}$ 的极端能量亏损诱发核表面角动量转移失配 $\Delta L_{\text{trans}} = 3.87\hbar$，使标量 $\Delta L = 0$ 转移微分截面被运动学硬性压制逾 $40$ 倍（含内禀 $s$-波重叠后压制逾 $200$ 倍），而重离子 $(^{18}\text{O}, ^{16}\text{O})$ 因 $Q_{\text{opt}} \approx 0$ 维持 $0.97$ 的无阻碍匹配，证明重核中的阴性结果是探针运动学失配假象；
+  2. 揭示 QPVC 连续谱耗散导致的相干性融化机制：在 $^{14}\text{C}$ 中，低背景态密度（$\rho_2 = 0.45\text{ MeV}^{-1}$）维持窄宽度（$\Gamma_{\text{tot}} \a1.59\text{ MeV}$，峰背比 $5.01$），呈现孤立峰；而在 $^{208}\text{Pb}$ 中，高态密度（$\rho_2 = 95\text{ MeV}^{-1}$）与 $3^-, 2^+$ 表面声子耦合诱发高达 $8.6\text{ MeV}$ 的铺展宽度，使集体配对强度彻底融化在平坦连续谱本底中（反差比降至 $0.39$），确立了态密度与表面耦合对巨配对模式可辨识性的不可迁移硬边界。
 - 新增学术来源与长期研究笔记：
   - 摄入学术来源 `knowledge/sources/cavallaro-2019-giant-pairing-vibration.md`；
   - 新增研究笔记 `knowledge/research-notes/gpv-cross-mass-kinematic-and-damping-inapplicability.md`，并在 `knowledge/index.md` 注册。
@@ -5111,8 +5121,8 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 95 分钟），15:00 前持续进行深度研学，不作提前日结。
 - 完成核芯四极形变掩盖极限形式化与反磁转动特征崩溃微观模型（`day27_core_quadrupole_masking_threshold_study.py`，工件 `continuation-studies/quadrupole-masking/quadrupole_masking_results.json`）：
-  1. 形式化无量纲掩盖参量 $\Lambda_{\text{mask}} \equiv B(E2)_{\text{coll}} / B(E2)_{\text{shears}}$：在 $^{106,110}\text{Cd}, ^{104}\text{Pd}$（$\beta_2 \approx 0.09 - 0.12$）中，$\Lambda_{\text{mask}} < 0.65$，剪刀闭合驱动带内 $B(E2)$ 发生高达 $60\% - 85\%$ 的相对暴跌，动态比值 $\mathcal{J}^{(2)}/B(E2) > 70 - 100$，呈现纯正反磁转动（AMR）特征；
-  2. 导出临界掩盖硬边界 $\beta_{2, \text{crit}} \approx 0.25 - 0.28$：当核芯形变超过此边界时，$\Lambda_{\text{mask}} > 2.5$，集体四极背景将全带 $B(E2)$ 相对降幅强力压缩至 $< 25\%$（完全沉没在 DSAM 实验误差 $\pm 15\% - 20\%$ 之中），负斜率特征被彻底抹平，$\mathcal{J}^{(2)}/B(E2)$ 骤降至 $< 25$，彻底退化为普通集体长椭转子；微观排除了镧系与锕系强形变核展现宏观可辨识 AMR 的可能。
+  1. 形式化无量纲掩盖参量 $\Lambda_{\text{mask}} \equiv B(E2)_{\text{coll}} / B(E2)_{\text{shears}}$：在 $^{106,110}\text{Cd}, ^{104}\text{Pd}$（$\beta_2 \a0.09 - 0.12$）中，$\Lambda_{\text{mask}} < 0.65$，剪刀闭合驱动带内 $B(E2)$ 发生高达 $60\% - 85\%$ 的相对暴跌，动态比值 $\mathcal{J}^{(2)}/B(E2) > 70 - 100$，呈现纯正反磁转动（AMR）特征；
+  2. 导出临界掩盖硬边界 $\beta_{2, \text{crit}} \a0.25 - 0.28$：当核芯形变超过此边界时，$\Lambda_{\text{mask}} > 2.5$，集体四极背景将全带 $B(E2)$ 相对降幅强力压缩至 $< 25\%$（完全沉没在 DSAM 实验误差 $\pm 15\% - 20\%$ 之中），负斜率特征被彻底抹平，$\mathcal{J}^{(2)}/B(E2)$ 骤降至 $< 25$，彻底退化为普通集体长椭转子；微观排除了镧系与锕系强形变核展现宏观可辨识 AMR 的可能。
 - 长期知识库写回与索引：
   - 新增研究笔记 `knowledge/research-notes/core-quadrupole-deformation-masking-boundary.md`，并在 `knowledge/index.md` 注册。
   - 延续调查总数达到整整 **56 项重大突破**。
@@ -5122,7 +5132,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 85 分钟），15:00 前持续进行深度研学，不作提前日结。
 - 完成低能轨道剪刀模与高自旋磁转动相界拓扑与微观相分离模型（`day27_scissors_mode_to_high_spin_mr_study.py`，工件 `continuation-studies/scissors-to-mr/scissors_to_mr_results.json`）：
-  1. 确立四极形变 $\beta_2$ 诱导的互斥相分离机制：在强形变核（$\beta_2 \ge 0.22$，$^{156}\text{Gd}, ^{238}\text{U}$）中，$M1$ 集体强度被两转子 QRPA 求和规则锁定于低能 $1^+$ 轨道剪刀态（$B(M1) \approx 3.05 - 4.15\ \mu_N^2 \propto \beta_2^2$），且极低的集体转动能使价剪刀机制被动力学绝对禁戒；而在弱形变核（$\beta_2 \le 0.12$，$^{198}\text{Pb}$）中，集体轨道剪刀模归零（$\delta^2 \to 0$），$M1$ 强度重整为多准粒子破对高自旋剪刀阶梯（$B(M1) \approx 0.73\ \mu_N^2$）；
+  1. 确立四极形变 $\beta_2$ 诱导的互斥相分离机制：在强形变核（$\beta_2 \ge 0.22$，$^{156}\text{Gd}, ^{238}\text{U}$）中，$M1$ 集体强度被两转子 QRPA 求和规则锁定于低能 $1^+$ 轨道剪刀态（$B(M1) \approx 3.05 - 4.15\ \mu_N^2 \propto \beta_2^2$），且极低的集体转动能使价剪刀机制被动力学绝对禁戒；而在弱形变核（$\beta_2 \le 0.12$，$^{198}\text{Pb}$）中，集体轨道剪刀模归零（$\delta^2 \to 0$），$M1$ 强度重整为多准粒子破对高自旋剪刀阶梯（$B(M1) \a0.73\ \mu_N^2$）；
   2. 澄清跃迁流与时间反演对称性自发破缺态的本质鸿沟：证明低能 $1^+$ 剪刀态为时间反演对称的小振幅微观单粒子-空穴跃迁流（Transition Current $\delta \mathbf{j}$），而高自旋磁转动带为时间反演对称性破缺的非零实空间静态流（Static Current $\mathbf{j}$），彻底排除了由低能剪刀声子“连续演化”为磁转动带的臆测。
 - 长期知识库写回与索引：
   - 新增研究笔记 `knowledge/research-notes/scissors-mode-vs-magnetic-rotation-phase-boundary.md`，并在 `knowledge/index.md` 注册。
@@ -5144,8 +5154,8 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 65 分钟），15:00 前持续进行深度研学，不作提前日结。
 - 完成多模式共存与相界拓扑流形 3D-TAC 微观变分求解（`day27_multimodal_phase_topology_and_bifurcation_solver.py`，工件 `continuation-studies/multimodal-topology/multimodal_phase_topology_results.json`）：
-  1. 确立四大模式（手征、摆动、磁转动、反磁转动）的统一取向拓扑流形：在 $^{74}	ext{Br}$（$eta_2 = 0.38, \gamma = 27.0^\circ$）中，流体动力学惯量层级 $\mathcal{J}_m = 23.93 \gg \mathcal{J}_s = 7.12 > \mathcal{J}_l = 4.95\ \hbar^2/	ext{MeV}$ 满足横向摆动条件（$\hbar\omega_w = 1.054	ext{ MeV}$），同时出平面角二阶曲率在临界推转频率 $\hbar\omega_c = 0.408	ext{ MeV}$ 处穿零，发生 Pitchfork 超叉分岔产生手征双阱，严密论证了 Guo 2024 与 Qureshie 2026 预测的手征—摆动 4-能带四重态拓扑共存网络；
-  2. 澄清相界隔离机制：在 $^{163}	ext{Lu}$（TSD）中，单奇准粒子对齐使出平面剪刀分岔被完全抑制（$\omega_{	ext{crit}} 	o \infty$），模式纯粹锁定于横向摆动；而在近球形弱形变核（$^{106}	ext{Cd}, ^{198}	ext{Pb}$，$eta_2 < 0.10, \gamma < 10^\circ$）中，中轴惯量差受抑使出平面分岔临界频率远超破对终止频率，手征与摆动均被拓扑禁戒，体系完全退化为平面剪刀磁转动与双剪刀反磁转动。
+  1. 确立四大模式（手征、摆动、磁转动、反磁转动）的统一取向拓扑流形：在 $^{74}\text{Br}$（$\beta_2 = 0.38, \gamma = 27.0^\circ$）中，流体动力学惯量层级 $\mathcal{J}_m = 23.93 \gg \mathcal{J}_s = 7.12 > \mathcal{J}_l = 4.95\ \hbar^2/\text{MeV}$ 满足横向摆动条件（$\hbar\omega_w = 1.054\text{ MeV}$），同时出平面角二阶曲率在临界推转频率 $\hbar\omega_c = 0.408\text{ MeV}$ 处穿零，发生 Pitchfork 超叉分岔产生手征双阱，严密论证了 Guo 2024 与 Qureshie 2026 预测的手征—摆动 4-能带四重态拓扑共存网络；
+  2. 澄清相界隔离机制：在 $^{163}\text{Lu}$（TSD）中，单奇准粒子对齐使出平面剪刀分岔被完全抑制（$\omega_n_{\text{crit}} \to \infty$），模式纯粹锁定于横向摆动；而在近球形弱形变核（$^{106}\text{Cd}, ^{198}\text{Pb}$，$\beta_2 < 0.10, \gamma < 10^\circ$）中，中轴惯量差受抑使出平面分岔临界频率远超破对终止频率，手征与摆动均被拓扑禁戒，体系完全退化为平面剪刀磁转动与双剪刀反磁转动。
 - 长期知识库写回与索引：
   - 更新核心研究笔记 `knowledge/research-notes/multimodal-coexistence-and-phase-boundary-topology.md`；
   - 延续调查总数达到整整 **59 项重大突破**。
@@ -5167,7 +5177,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 45 分钟），15:00 前持续进行深度研学，不作提前日结。
 - 完成奇奇核签名反转自旋跨区跃迁微观标度律模型（`day27_signature_inversion_cross_mass_scaling_study.py`，工件 `continuation-studies/signature-inversion-systematics/signature_inversion_systematics_results.json`）：
-  1. 揭示反转自旋 $I_{\text{inv}}$ 从轻区 $10\hbar$ 成倍暴涨至稀土区 $17 - 19\hbar$ 的微观双驱动机制：核芯转动惯量 $\mathcal{J}_{\text{core}}$ 翻倍（从 $16.5$ 增至 $36.5\ \hbar^2/\text{MeV}$）将转动角动量增量贡献放大两倍以上，同时高-$j$ 侵入轨道（$\pi h_{11/2} \otimes \nu i_{13/2}$）紧密空间重叠将残余相互作用 $V_{pn}$ 提升近两倍（$240 \to 440\text{ keV}$），维持高临界解耦频率（$\hbar\omega_{\text{inv}} \approx 0.28 - 0.32\text{ MeV}$），协同将解耦自旋推迟至超高自旋区；
+  1. 揭示反转自旋 $I_{\text{inv}}$ 从轻区 $10\hbar$ 成倍暴涨至稀土区 $17 - 19\hbar$ 的微观双驱动机制：核芯转动惯量 $\mathcal{J}_{\text{core}}$ 翻倍（从 $16.5$ 增至 $36.5\ \hbar^2/\text{MeV}$）将转动角动量增量贡献放大两倍以上，同时高-$j$ 侵入轨道（$\pi h_{11/2} \otimes \nu i_{13/2}$）紧密空间重叠将残余相互作用 $V_V_V_{pn}$ 提升近两倍（$240 \to 440\text{ keV}$），维持高临界解耦频率（$\hbar\omega_{\text{inv}} \a0.28 - 0.32\text{ MeV}$），协同将解耦自旋推迟至超高自旋区；
   2. 形式化跨区签名反转判据边界：证明低自旋签名反转是中轻核区（A≈80/130）小惯量下的特殊表现，绝不可作为普适低自旋指纹套用至重变形区，自洽统一了跨区奇奇核能级交错反常。
 - 长期知识库写回与索引：
   - 新增研究笔记 `knowledge/research-notes/signature-inversion-cross-mass-scaling-and-coriolis-crossover.md`，并在 `knowledge/index.md` 注册。
@@ -5178,7 +5188,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 35 分钟），15:00 前持续进行深度研学，不作提前日结。
 - 完成剪刀模 $B(M1)$ 强度饱和与价壳层空间截断微观动力学模型（`day27_scissors_saturation_and_pairing_truncation_study.py`，工件 `continuation-studies/scissors-saturation/scissors_saturation_results.json`）：
-  1. 确立价壳层截断诱导的集体性饱和顶棚：结合 Enders et al. 1999（PRC 59, R1851）NRF 系统学实验，证明在开壳稀土区与锕系区（$^{154}\text{Sm}, ^{156}\text{Gd}, ^{168}\text{Er}, ^{238}\text{U}$，$\beta_2 \approx 0.27 - 0.34$），剪刀模总强度并非如宏观两转子模型（TRM）预测的那样随 $\beta_2^2$ 无限暴涨，而是严格饱和在 $3.0 - 3.5\ \mu_N^2$ 的狭窄平台，微观本质在于深层闭壳核芯保持球形惰性，仅有限价核子对（$N_{\text{val}} \approx 12 - 16$）参与反相超流对流；
+  1. 确立价壳层截断诱导的集体性饱和顶棚：结合 Enders et al. 1999（PRC 59, R1851）NRF 系统学实验，证明在开壳稀土区与锕系区（$^{154}\text{Sm}, ^{156}\text{Gd}, ^{168}\text{Er}, ^{238}\text{U}$，$\beta_2 \a0.27 - 0.34$），剪刀模总强度并非如宏观两转子模型（TRM）预测的那样随 $\beta_2^2$ 无限暴涨，而是严格饱和在 $3.0 - 3.5\ \mu_N^2$ 的狭窄平台，微观本质在于深层闭壳核芯保持球形惰性，仅有限价核子对（$N_{\text{val}} \a12 - 16$）参与反相超流对流；
   2. 揭示超形变极限（$^{152}\text{Dy}$，$\beta_2 = 0.60$）下剪刀模的相干性崩溃：宏观 TRM 模型荒谬预言 $13.2\ \mu_N^2$（高估达 $29.4$ 倍），而微观计算证实巨壳隙张开直接导致配对超导流体塌缩（$\Delta \to 0$），质子-中子反相振荡退相干为非集体独立单粒子进动，强度骤降至 $< 0.5\ \mu_N^2$；形式化了宏观两流体模型在大形变区不可迁移的硬边界。
 - 新增学术来源与长期研究笔记：
   - 摄入一手实验原件 `knowledge/sources/enders-1999-scissors-mode-saturation.md`；
@@ -5190,8 +5200,8 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 25 分钟），15:00 前持续进行深度研学，不作提前日结。
 - 完成超重稳定岛幻数不可迁移性与自旋—轨道劈裂淬灭动力学模型（`day27_superheavy_magic_numbers_and_spin_orbit_quenching_study.py`，工件 `continuation-studies/superheavy-magic-numbers/superheavy_magic_numbers_results.json`）：
-  1. 揭示库仑自能诱发中心密度凹陷与自旋—轨道相互作用淬灭机制：结合 Bender 1999（PRC 60, 034304）一手自洽平均场对比原件，在超重核（$^{298}114, ^{304}120$）中，单质子静电自能高达 $12.3 - 12.85	ext{ MeV}$，将核内质子推向表面，造成中心密度凹陷 $18\% - 23\%$（红酒瓶底分布）；内区密度梯度平坦化驱动高-$l$ 轨道自旋—轨道劈裂发生 $22\% - 28\%$ 的深度淬灭（$\pi 2f_{7/2} - 2f_{5/2}$ 劈裂从 $^{208}	ext{Pb}$ 的 $1.82	ext{ MeV}$ 降至 $1.33	ext{ MeV}$）；
-  2. 澄清模型闭壳对立与四极软度塌缩：壳隙压缩至 $< 2.15	ext{ MeV}$ 诱发不同泛函对质子闭壳的剧烈分裂（RMF 预言 $Z=114$，Skyrme 预言 $Z=120$），四极刚度 $C_2$ 暴跌 $4.8$ 倍（从 $280$ 降至 $58	ext{ MeV}$），基态退化为长椭—扁椭形状共存软核，彻底打破了将 $^{208}	ext{Pb}$ 刚性双幻球形基态向超重岛外推的假设。
+  1. 揭示库仑自能诱发中心密度凹陷与自旋—轨道相互作用淬灭机制：结合 Bender 1999（PRC 60, 034304）一手自洽平均场对比原件，在超重核（$^{298}114, ^{304}120$）中，单质子静电自能高达 $12.3 - 12.85\text{ MeV}$，将核内质子推向表面，造成中心密度凹陷 $18\% - 23\%$（红酒瓶底分布）；内区密度梯度平坦化驱动高-$l$ 轨道自旋—轨道劈裂发生 $22\% - 28\%$ 的深度淬灭（$\pi 2f_{7/2} - 2f_{5/2}$ 劈裂从 $^{208}\text{Pb}$ 的 $1.82\text{ MeV}$ 降至 $1.33\text{ MeV}$）；
+  2. 澄清模型闭壳对立与四极软度塌缩：壳隙压缩至 $< 2.15\text{ MeV}$ 诱发不同泛函对质子闭壳的剧烈分裂（RMF 预言 $Z=114$，Skyrme 预言 $Z=120$），四极刚度 $C_2$ 暴跌 $4.8$ 倍（从 $280$ 降至 $58\text{ MeV}$），基态退化为长椭—扁椭形状共存软核，彻底打破了将 $^{208}\text{Pb}$ 刚性双幻球形基态向超重岛外推的假设。
 - 新增学术来源与长期研究笔记：
   - 摄入一手理论原件 `knowledge/sources/bender-1999-superheavy-magic-numbers.md`；
   - 新增研究笔记 `knowledge/research-notes/superheavy-magic-numbers-and-spin-orbit-quenching.md`，并在 `knowledge/index.md` 注册。
@@ -5202,8 +5212,8 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 15 分钟），15:00 前持续进行深度研学，不作提前日结。
 - 完成 Brink-Axel 假说跨质量区迁移失效与低能 $M1$ 上弯微观动力学模型（`day27_brink_axel_breakdown_and_m1_upbend_study.py`，工件 `continuation-studies/brink-axel-breakdown/brink_axel_breakdown_results.json`）：
-  1. 揭示激发态剪刀式多准粒子重耦合诱导的 $M1$ 指数上弯机制：结合 Schwengner, Frauendorf, Larsen 2013（PRL 111, 232504）理论原件与奥斯陆实验，在开壳轻中核（$^{56}	ext{Fe}, ^{94}	ext{Mo}$）中，高激发态（$E_x > 2\Delta$）破对准粒子产生横向磁偶极矩 $oldsymbol{\mu}_\perp$，态间微小重定向在 $E_\gamma < 2	ext{ MeV}$ 发射指数发散的低能 $M1$ 辐射；而在时间反演守恒的基态（$E_i = 0$）中 $oldsymbol{\mu}_\perp \equiv 0$，低能吸收强度趋近于零，导致偏离因子 $\eta_{	ext{BA}} = f_{	ext{ex}} / f_{	ext{gs}}$ 在 $E_\gamma = 0.8	ext{ MeV}$ 处飙升至数千倍，证明 Brink-Axel 假说在开壳核低能端彻底失效；
-  2. 阐明重双幻核（$^{208}	ext{Pb}$）中 Brink-Axel 假说的完美复原：$^{208}	ext{Pb}$ 的 $4.0	ext{ MeV}$ 巨壳隙阻断了激发态破对剪刀重耦合，在全能区（$0.5 - 5.0	ext{ MeV}$）内激发态与基态强度函数严格重合在 $108\%$ 以内（偏离度 $<10\%$），确立了态密度与闭壳能隙对统计辐射函数跨区迁移的硬物理边界。
+  1. 揭示激发态剪刀式多准粒子重耦合诱导的 $M1$ 指数上弯机制：结合 Schwengner, Frauendorf, Larsen 2013（PRL 111, 232504）理论原件与奥斯陆实验，在开壳轻中核（$^{56}\text{Fe}, ^{94}\text{Mo}$）中，高激发态（$E_x > 2\Delta$）破对准粒子产生横向磁偶极矩 $\betaoldsymbol{\mu}_\perp$，态间微小重定向在 $E_\gamma < 2\text{ MeV}$ 发射指数发散的低能 $M1$ 辐射；而在时间反演守恒的基态（$E_i = 0$）中 $\betaoldsymbol{\mu}_\perp \equiv 0$，低能吸收强度趋近于零，导致偏离因子 $\eta_{\text{BA}} = f_{\text{ex}} / f_{\text{gs}}$ 在 $E_\gamma = 0.8\text{ MeV}$ 处飙升至数千倍，证明 Brink-Axel 假说在开壳核低能端彻底失效；
+  2. 阐明重双幻核（$^{208}\text{Pb}$）中 Brink-Axel 假说的完美复原：$^{208}\text{Pb}$ 的 $4.0\text{ MeV}$ 巨壳隙阻断了激发态破对剪刀重耦合，在全能区（$0.5 - 5.0\text{ MeV}$）内激发态与基态强度函数严格重合在 $108\%$ 以内（偏离度 $<10\%$），确立了态密度与闭壳能隙对统计辐射函数跨区迁移的硬物理边界。
 - 新增学术来源与长期研究笔记：
   - 摄入一手理论原件 `knowledge/sources/schwengner-2013-m1-upbend-brink-axel.md`；
   - 新增研究笔记 `knowledge/research-notes/brink-axel-breakdown-and-low-energy-m1-upbend.md`，并在 `knowledge/index.md` 注册。
@@ -5215,7 +5225,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 5 分钟），15:00 准时转入收束环节，不作提前日结。
 - 完成三轴形变剪刀模 $K$-简并破缺与双峰分裂微观动力学模型（`day27_triaxial_scissors_splitting_and_gamma_deformation_study.py`，工件 `continuation-studies/triaxial-scissors-splitting/triaxial_scissors_splitting_results.json`）：
   1. 确立三轴两转子转动惯量解除简并驱动的二分叉振动本征态：结合 Rohozinski et al. 1988（Z. Phys. A 330, 241）一手理论基准，在三轴形变核（$\gamma \ne 0^\circ$）中，两垂直横轴惯量分化（$\mathcal{J}_m > \mathcal{J}_s$），使单一简并的 $K=1$ 剪刀模物理分裂为绕中轴振动（Mode 1，低频分支）与绕短轴振动（Mode 2，高频分支）两个分立的 $1^+$ 本征态，能级劈裂严格遵从 $\Delta E_{\text{split}} \approx \frac{1.20}{\sqrt{3}} E_0 \sin\gamma$ 标度；
-  2. 澄清非对称双峰对单洛伦兹拟合的彻底否证：在轴对称核（$^{156}\text{Gd}$，$\gamma=0^\circ$）中能级严格简并（$\Delta E = 0$）；而在三轴与 $\gamma$-软核（$^{160}\text{Er}, ^{134}\text{Ce}, ^{192}\text{Os}$，$\gamma \approx 11.5^\circ - 28.5^\circ$）中，能级分裂达 $0.43 - 1.02\text{ MeV}$，出现清晰分立的双峰结构；证明不能将轴对称单一剪刀模强度函数跨区平移至非轴对称核。
+  2. 澄清非对称双峰对单洛伦兹拟合的彻底否证：在轴对称核（$^{156}\text{Gd}$，$\gamma=0^\circ$）中能级严格简并（$\Delta E = 0$）；而在三轴与 $\gamma$-软核（$^{160}\text{Er}, ^{134}\text{Ce}, ^{192}\text{Os}$，$\gamma \a11.5^\circ - 28.5^\circ$）中，能级分裂达 $0.43 - 1.02\text{ MeV}$，出现清晰分立的双峰结构；证明不能将轴对称单一剪刀模强度函数跨区平移至非轴对称核。
 - 长期知识库写回与索引：
   - 摄入一手理论原件 `knowledge/sources/rohozinski-1988-triaxial-scissors-mode.md`；
   - 新增研究笔记 `knowledge/research-notes/triaxial-scissors-splitting-and-gamma-deformation.md`，并在 `knowledge/index.md` 注册。
@@ -5226,8 +5236,8 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 45 分钟），15:00 准时转入收束环节，不作提前日结。
 - 完成巨偶极共振（GDR）热展宽相变与 TSFM 模型跨区动力学求解（`day27_gdr_thermal_width_tsfm_study.py`，工件 `continuation-studies/gdr-thermal-damping/gdr_thermal_damping_results.json`）：
-  1. 揭示超导配对塌缩与热形状涨落（TSFM）的宏观临界开关：结合 Pandit et al. 2012（PLB 713, 434）一手实验基准，在开壳过渡核（$^{119}\text{Sb}, ^{120}\text{Sn}$）中，当 $T \le T_{\text{crit}} \approx 0.57\Delta_0 \approx 0.8 - 1.0\text{ MeV}$ 时，配对维持超流刚度，锁定基态线宽 $\Gamma_0 \approx 4.8\text{ MeV}$；一旦超过 $T_{\text{crit}}$，配对塌缩诱发自由能曲面软化，热形变涨落（$\langle \beta \rangle_T \propto \sqrt{T} \to 0.31$）驱动 GDR 动量劈裂，线宽急剧飙升至 $10.42 - 10.52\text{ MeV}$（展宽逾 $2.14$ 倍）；
-  2. 阐明双幻核 $^{208}\text{Pb}$ 的巨壳隙刚度与碰撞阻尼弱演化：$^{208}\text{Pb}$ 具有 $4.0\text{ MeV}$ 巨壳隙，壳修正刚度（$C_{\text{shell}} \approx 280\text{ MeV}$）抑制了热形状涨落（$\langle \beta \rangle_T < 0.08$），展宽主要由费米液体两体碰撞阻尼（$\Gamma_{\text{coll}} \propto T^{1.8}$）支配，线宽在 $T=2.1\text{ MeV}$ 仅达 $6.52\text{ MeV}$（实测 $7.30\text{ MeV}$，仅增长 $1.43$ 倍）；确立了有限温度巨共振阻尼公式跨区不可直接迁移的硬物理边界。
+  1. 揭示超导配对塌缩与热形状涨落（TSFM）的宏观临界开关：结合 Pandit et al. 2012（PLB 713, 434）一手实验基准，在开壳过渡核（$^{119}\text{Sb}, ^{120}\text{Sn}$）中，当 $T \le T_n_{\text{crit}} \a0.57\Delta_0 \a0.8 - 1.0\text{ MeV}$ 时，配对维持超流刚度，锁定基态线宽 $\Gamma_0 \approx 4.8\text{ MeV}$；一旦超过 $T_n_{\text{crit}}$，配对塌缩诱发自由能曲面软化，热形变涨落（$\langle \beta \rangle_T \propto \sqrt{T} \to 0.31$）驱动 GDR 动量劈裂，线宽急剧飙升至 $10.42 - 10.52\text{ MeV}$（展宽逾 $2.14$ 倍）；
+  2. 阐明双幻核 $^{208}\text{Pb}$ 的巨壳隙刚度与碰撞阻尼弱演化：$^{208}\text{Pb}$ 具有 $4.0\text{ MeV}$ 巨壳隙，壳修正刚度（$C_{\text{shell}} \a280\text{ MeV}$）抑制了热形状涨落（$\langle \beta \rangle_T < 0.08$），展宽主要由费米液体两体碰撞阻尼（$\Gamma_{\text{coll}} \propto T^{1.8}$）支配，线宽在 $T=2.1\text{ MeV}$ 仅达 $6.52\text{ MeV}$（实测 $7.30\text{ MeV}$，仅增长 $1.43$ 倍）；确立了有限温度巨共振阻尼公式跨区不可直接迁移的硬物理边界。
 - 长期知识库写回与索引：
   - 摄入一手实验原件 `knowledge/sources/pandit-2012-gdr-thermal-width-critical-behavior.md`；
   - 新增研究笔记 `knowledge/research-notes/gdr-thermal-width-expansion-and-tsfm-inapplicability.md`，并在 `knowledge/index.md` 注册。
@@ -5250,7 +5260,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 25 分钟），15:00 准时转入收束环节，不作提前日结。
 - 完成巨单极共振（ISGMR）形变劈裂与核不可压缩系数提取模型不适用性动力学求解（`day27_isgmr_deformation_splitting_and_mixing_study.py`，工件 `continuation-studies/isgmr-deformation-splitting/isgmr_deformation_splitting_results.json`）：
-  1. 揭示长椭形变诱导的单极—四极空间几何强混合机制：结合 Youngblood et al. 2004（PRC 69, 034315）一手实验，证明在长椭形变核（$^{154}\text{Sm}, ^{238}\text{U}$）中，$L=0$ 呼吸模与 $L=2, K=0$ 巨四极模拥有相同的柱对称性，非零四极形变 $\beta_2$ 诱发大非对角耦合（$V_{MQ} \approx 1.46\text{ MeV}$），将模式杂化分裂为 $11.35\text{ MeV}$（占 $30.0\%$ EWSR）与 $15.43\text{ MeV}$（占 $70.0\%$ EWSR）的双峰结构；
+  1. 揭示长椭形变诱导的单极—四极空间几何强混合机制：结合 Youngblood et al. 2004（PRC 69, 034315）一手实验，证明在长椭形变核（$^{154}\text{Sm}, ^{238}\text{U}$）中，$L=0$ 呼吸模与 $L=2, K=0$ 巨四极模拥有相同的柱对称性，非零四极形变 $\beta_2$ 诱发大非对角耦合（$V_{MQ} \a1.46\text{ MeV}$），将模式杂化分裂为 $11.35\text{ MeV}$（占 $30.0\%$ EWSR）与 $15.43\text{ MeV}$（占 $70.0\%$ EWSR）的双峰结构；
   2. 澄清球形提取协议导致的“伪变软”假象：若对形变核粗暴套用球形单峰质心公式，表观质心被低能峰强力拉低至 $14.21\text{ MeV}$，导出有效不可压缩系数虚假降低 $\Delta K_A = 35.1\text{ MeV}$（在 $^{238}\text{U}$ 中导致 $\Delta K_A = 31.2\text{ MeV}$ 的虚假软化），彻底消除了“形变核状态方程异常软化”的伪疑难；确立了球形状态方程提取协议在形变核区的不适用性硬边界。
 - 长期知识库写回与索引：
   - 摄入一手实验原件 `knowledge/sources/youngblood-2004-isgmr-deformation-splitting.md`；
@@ -5262,8 +5272,8 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 15 分钟），15:00 准时转入收束环节，不作提前日结。
 - 完成矮四极共振（PQR）中子皮涌现与 IVGQR 连续谱溶解微观动力学模型（`day27_pqr_skin_and_ivgqr_damping_study.py`，工件 `continuation-studies/pqr-skin-quadrupole/pqr_skin_quadrupole_results.json`）：
-  1. 揭示中子皮致厚诱发的核芯—表面四极退耦机制：结合 Tsoneva & Lenske 2011（PLB 695, 174）一手理论基准，沿镍同位素链 $^{58}	ext{Ni} 	o ^{68}	ext{Ni} 	o ^{78}	ext{Ni}$，中子皮厚度从 $0.102	ext{ fm}$ 扩张至 $0.263	ext{ fm}$，弱束缚价中子脱离核芯约束，在 $E_{	ext{PQR}} = 11.23	ext{ MeV}$ 处形成核芯与中子皮的反相四极摇摆，捕获了高达 $14.9\%$ 的总四极 EWSR，形成全新的低能矮四极共振；
-  2. 阐明深连续谱逃逸诱发 IVGQR 的相干性完全溶解：在富中子核 $^{78}	ext{Ni}$ 中，中子分离能暴跌至 $S_n = 5.40	ext{ MeV}$，使处于 $30.43	ext{ MeV}$ 的 IVGQR 处于发射阈之上达整整 $25.0	ext{ MeV}$；多通道非相干粒子发射诱发强朗道阻尼，将 IVGQR 展宽至 $9.16	ext{ MeV}$（较 $^{58}	ext{Ni}$ 增长近两倍），共振峰彻底溶解为平缓无结构的连续谱本底；确立了稳定核四极求和规则向富中子区迁移的破缺边界。
+  1. 揭示中子皮致厚诱发的核芯—表面四极退耦机制：结合 Tsoneva & Lenske 2011（PLB 695, 174）一手理论基准，沿镍同位素链 $^{58}\text{Ni} \to ^{68}\text{Ni} \to ^{78}\text{Ni}$，中子皮厚度从 $0.102\text{ fm}$ 扩张至 $0.263\text{ fm}$，弱束缚价中子脱离核芯约束，在 $E_{\text{PQR}} = 11.23\text{ MeV}$ 处形成核芯与中子皮的反相四极摇摆，捕获了高达 $14.9\%$ 的总四极 EWSR，形成全新的低能矮四极共振；
+  2. 阐明深连续谱逃逸诱发 IVGQR 的相干性完全溶解：在富中子核 $^{78}\text{Ni}$ 中，中子分离能暴跌至 $S_n = 5.40\text{ MeV}$，使处于 $30.43\text{ MeV}$ 的 IVGQR 处于发射阈之上达整整 $25.0\text{ MeV}$；多通道非相干粒子发射诱发强朗道阻尼，将 IVGQR 展宽至 $9.16\text{ MeV}$（较 $^{58}\text{Ni}$ 增长近两倍），共振峰彻底溶解为平缓无结构的连续谱本底；确立了稳定核四极求和规则向富中子区迁移的破缺边界。
 - 长期知识库写回与索引：
   - 摄入一手理论原件 `knowledge/sources/tsoneva-2011-pqr-skin-nuclei.md`；
   - 新增研究笔记 `knowledge/research-notes/pqr-skin-emergence-and-ivgqr-continuum-dissolution.md`，并在 `knowledge/index.md` 注册。
@@ -5286,8 +5296,8 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 20 分钟），15:00 准时转入收束环节，不作提前日结。
 - 完成超重核裂变势垒反转（$B_f < S_n$）与多次裂变雪崩微观动力学求解（`day27_superheavy_survival_and_multi_chance_fission_study.py`，工件 `continuation-studies/superheavy-survival/superheavy_survival_results.json`）：
-  1. 揭示热相空间下有效裂变势垒的雪崩式塌缩机制：结合 Zagrebaev et al. 2001（PRC 65, 014607）一手理论基准，在超重核 $^{296}116$ 与 $^{304}120$ 中，基态微观壳势垒（$B_f(0) pprox 5.1 - 5.85	ext{ MeV}$）系统性低于中子分离能（$S_n pprox 7.2 - 7.45	ext{ MeV}$，逆差达 $-1.35$ 至 $-2.35	ext{ MeV}$）；在热核激发（$E^* pprox 38.0	ext{ MeV}$）下，微观壳能热消融使有效裂变势垒暴跌至 $B_f^{	ext{eff}} \le 0.75	ext{ MeV}$；
-  2. 阐明多次裂变雪崩与百万倍截面高估破除：在每一个中子蒸发步长中，裂变分支比高达 $\Gamma_f / \Gamma_n \sim 10^2 - 10^3$，首步中子蒸发生存几率不足 $0.5\%$；经由 $3n$ 级联后总生存几率被极度压缩至 $W_{	ext{surv}} pprox 2.81 	imes 10^{-6}$（在 $^{304}120$ 的 $4n$ 蒸发中跌至 $< 10^{-8}$），而在 $^{208}	ext{Pb}$ 中由于 $B_f - S_n = +17.13	ext{ MeV}$，生存几率高达 $99.995\%$；彻底打破了将稳定核统计蒸发模型向超重区外推导致的高达 $10^5 - 10^7$ 倍的虚高假象。
+  1. 揭示热相空间下有效裂变势垒的雪崩式塌缩机制：结合 Zagrebaev et al. 2001（PRC 65, 014607）一手理论基准，在超重核 $^{296}116$ 与 $^{304}120$ 中，基态微观壳势垒（$B_f(0) \approx 5.1 - 5.85\text{ MeV}$）系统性低于中子分离能（$S_n \approx 7.2 - 7.45\text{ MeV}$，逆差达 $-1.35$ 至 $-2.35\text{ MeV}$）；在热核激发（$E^* \approx 38.0\text{ MeV}$）下，微观壳能热消融使有效裂变势垒暴跌至 $B_f^{\text{eff}} \le 0.75\text{ MeV}$；
+  2. 阐明多次裂变雪崩与百万倍截面高估破除：在每一个中子蒸发步长中，裂变分支比高达 $\Gamma_f / \Gamma_n \sim 10^2 - 10^3$，首步中子蒸发生存几率不足 $0.5\%$；经由 $3n$ 级联后总生存几率被极度压缩至 $W_{\text{surv}} \approx 2.81 \times 10^{-6}$（在 $^{304}120$ 的 $4n$ 蒸发中跌至 $< 10^{-8}$），而在 $^{208}\text{Pb}$ 中由于 $B_f - S_n = +17.13\text{ MeV}$，生存几率高达 $99.995\%$；彻底打破了将稳定核统计蒸发模型向超重区外推导致的高达 $10^5 - 10^7$ 倍的虚高假象。
 - 长期知识库写回与索引：
   - 摄入一手理论原件 `knowledge/sources/zagrebaev-2001-superheavy-synthesis-survival.md`；
   - 新增研究笔记 `knowledge/research-notes/superheavy-barrier-inversion-and-multi-chance-fission.md`，并在 `knowledge/index.md` 注册。
@@ -5299,7 +5309,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 15 分钟），15:00 准时转入收束环节，不作提前日结。
 - 完成巨偶极共振同位旋混合与库仑 $E1$ 禁戒跃迁破缺微观动力学求解（`day27_isospin_mixing_gdr_coulomb_study.py`，工件 `continuation-studies/isospin-mixing-gdr/isospin_mixing_gdr_results.json`）：
   1. 揭示自共轭核基态同位旋杂质 $\alpha_C^2$ 的非线性暴涨：结合 Colò et al. 1995（PRC 52, R1175）一手微观理论基准，在自共轭 $N=Z$ 核中，两体库仑相互作用将 $T=0$ 基态与高能 $T=1$ 态混合，杂质概率从 $^{40}\text{Ca}$（$Z=20$）的 $0.67\%$ 一路飙升至 $^{100}\text{Sn}$（$Z=50$）的 **$7.74\%$**（而在 $^{208}\text{Pb}$ 中被 $1/(T_0+1)$ 压制至 $< 0.92\%$）；
-  2. 阐明禁戒 $E1$ 跃迁的库仑激活与八极形变假象破除：近 $8\%$ 的同位旋破缺使原本严格禁戒的 $\Delta T = 0$ 电偶极跃迁几率达到 $B(E1) \approx 1.16 \times 10^{-3}\ W.u.$，与典型梨形八极极化跃迁相当，证明中重滴线核中测得弱 $E1$ 不能作为八极形变的排他性证据；
+  2. 阐明禁戒 $E1$ 跃迁的库仑激活与八极形变假象破除：近 $8\%$ 的同位旋破缺使原本严格禁戒的 $\Delta T = 0$ 电偶极跃迁几率达到 $B(E1) \a1.16 \times 10^{-3}\ W.u.$，与典型梨形八极极化跃迁相当，证明中重滴线核中测得弱 $E1$ 不能作为八极形变的排他性证据；
   3. 澄清巨共振额外库仑铺展与宏观劈裂失效：库仑混合在 $^{100}\text{Sn}$ GDR 中引入 $\Gamma_C^{\downarrow} = 1.36\text{ MeV}$ 的额外阻尼宽度（总宽度增至 $5.56\text{ MeV}$），同时由于 $T_>$ 分支携带 $100\%$ 几何强度，宏观同位旋劈裂公式彻底失效，确立了同位旋电磁选择定则跨区不可迁移的硬物理边界。
 - 长期知识库写回与索引：
   - 摄入一手理论原件 `knowledge/sources/colo-1995-isospin-mixing-gdr.md`；
@@ -5311,8 +5321,8 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - 当前 session: `01a18a94-8371-7562-8c3c-5961e7e2225c`；run: `2026-10-29-day-27-01`；status: `in_progress`；Goal active。硬截止保持 **2026-10-30 15:00+08:00**（剩余约 5 分钟），15:00 准时转入收束环节，不作提前日结。
 - 完成三轴超形变（TSD）带中八极激发抑制与偶极矩淬灭微观动力学求解（`day27_tsd_octupole_suppression_and_dipole_quenching_study.py`，工件 `continuation-studies/tsd-octupole-suppression/tsd_octupole_suppression_results.json`）：
-  1. 揭示大长椭与三轴混合对八极驱动能隙的微观几何稀释机制：结合 Schönwasser et al. 2003（PLB 552, 9）一手 Gammasphere 实验，在稀土区 TSD 极小（$^{163,165}\text{Lu}$，$\beta_2=0.40, \gamma=20^\circ$）中，超大四极长椭拉伸与非轴对称性将相干的 $\Delta j = \Delta l = 3$ 轨道对撕裂为非简并的 $K=0, 1, 2, 3$ 子分支，八极配对易感性暴跌近 $3$ 倍（$\chi_3^{\text{eff}} \approx 0.347 < 0.55$），双阱反演势垒彻底融化，八极本征振动声子被推高至 $3.38\text{ MeV}$，完全脱离了冷转动带空间；
-  2. 阐明宏观液滴电偶极矩的同位旋代数中和与极端压制：在稀土区镥同位素中，$N/Z \approx 1.30$ 的近对称流体使质子与中子分布几乎共形，液滴偶极相消将内禀电偶极矩淬灭至 $D_0 \le 0.013\ e\text{ fm}$（较轻锕系核衰减逾 $25$ 倍），自洽导出带间 $E1$ 跃迁被严格压制在 $B(E1) \approx 1.01 \times 10^{-5}\ W.u.$（完全符合 Gammasphere 实验上限 $< 10^{-5}\ W.u.$）；确立了轻锕系八极交替宇称模型向三轴超形变区平移的不可适用性硬边界。
+  1. 揭示大长椭与三轴混合对八极驱动能隙的微观几何稀释机制：结合 Schönwasser et al. 2003（PLB 552, 9）一手 Gammasphere 实验，在稀土区 TSD 极小（$^{163,165}\text{Lu}$，$\beta_2=0.40, \gamma=20^\circ$）中，超大四极长椭拉伸与非轴对称性将相干的 $\Delta j = \Delta l = 3$ 轨道对撕裂为非简并的 $K=0, 1, 2, 3$ 子分支，八极配对易感性暴跌近 $3$ 倍（$\chi_3^{\text{eff}} \a0.347 < 0.55$），双阱反演势垒彻底融化，八极本征振动声子被推高至 $3.38\text{ MeV}$，完全脱离了冷转动带空间；
+  2. 阐明宏观液滴电偶极矩的同位旋代数中和与极端压制：在稀土区镥同位素中，$N/Z \a1.30$ 的近对称流体使质子与中子分布几乎共形，液滴偶极相消将内禀电偶极矩淬灭至 $D_0 \le 0.013\ e\text{ fm}$（较轻锕系核衰减逾 $25$ 倍），自洽导出带间 $E1$ 跃迁被严格压制在 $B(E1) \a1.01 \times 10^{-5}\ W.u.$（完全符合 Gammasphere 实验上限 $< 10^{-5}\ W.u.$）；确立了轻锕系八极交替宇称模型向三轴超形变区平移的不可适用性硬边界。
 - 长期知识库写回与索引：
   - 摄入一手实验原件 `knowledge/sources/schonwasser-2003-tsd-wobbling-165lu.md`；
   - 新增研究笔记 `knowledge/research-notes/tsd-octupole-suppression-and-dipole-quenching.md`，并在 `knowledge/index.md` 注册。
@@ -5959,8 +5969,8 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - Executed cell-level mathematical reconstruction of private analysis workbooks (`wobbling frequency.xlsx`, `intensity.xlsx`, `energy.xlsx`):
   - Proved $\hbar\omega_w$ formula in Sheet 1 collapses across signatures (staggering >240 keV between $\alpha=-1/2$ and $+1/2$, reaching $-15.5\text{ keV}$ at $27/2^-$), refuting a single-phonon harmonic wobbling excitation.
-  - Reconstructed electromagnetic branching ratios and mixing ratios in `intensity.xlsx`: measured connecting $\Delta I = 1$ lines ($582, 465\text{ keV}$) are heavily $M1$-dominated ($|\delta| \le 0.55$, $M1\% \approx 77\%\text{--}97\%$) with $B(E2)_{\text{out}}/B(E2)_{\text{in}} < 0.1$ ($0.063$ and $0.088$) and $B(M1)/B(E2) \approx 0.25\text{--}0.47\ \mu_N^2/(e^2 b^2)$, definitively matching signature partner transitions.
-  - Decoded signature splitting $S(I) = E(I) - \frac{1}{2}[E(I-1) + E(I+1)]$ from Sheet 2: demonstrated clear signature inversion at $I=19/2^-\text{--}21/2^-$, characteristic of Coriolis-induced quasiparticle realignment and triaxial shape evolution in $A \approx 130$.
+  - Reconstructed electromagnetic branching ratios and mixing ratios in `intensity.xlsx`: measured connecting $\Delta I = 1$ lines ($582, 465\text{ keV}$) are heavily $M1$-dominated ($|\delta| \le 0.55$, $M1\% \approx 77\%\text{--}97\%$) with $B(E2)_{\text{out}}/B(E2)_{\text{in}} < 0.1$ ($0.063$ and $0.088$) and $B(M1)/B(E2) \a0.25\text{--}0.47\ \mu_N^2/(e^2 b^2)$, definitively matching signature partner transitions.
+  - Decoded signature splitting $S(I) = E(I) - \frac{1}{2}[E(I-1) + E(I+1)]$ from Sheet 2: demonstrated clear signature inversion at $I=19/2^-\text{--}21/2^-$, characteristic of Coriolis-induced quasiparticle realignment and triaxial shape evolution in $A \a$A \aA \a130$.
 - Authored canonical research note: `knowledge/research-notes/133ce-private-data-wobbling-vs-signature-reconstruction-20261101.md`.
 - Updated `knowledge/index.md` and `knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md` (Candidate 6).
 - Maintained strict evidence boundaries: data remains `partial-L4-readiness` under `raw/data/SouthAfrica/` private user data constraint without manufacturing event-level likelihoods.
@@ -5969,7 +5979,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - Executed comprehensive 30-day curriculum cognitive audit and expert self-calibration in response to doctoral research mandate:
   - Audited and corrected six major cognitive pitfalls in low-energy nuclear spectroscopy: (1) energy-only wobbling fallacy, (2) angular distribution dual-root bias, (3) static chirality illusion, (4) E1 dipole-octupole cancellation conflation, (5) model-output vs experimental observable conflation, and (6) single-acquisition pseudo-independence trap.
-  - Synthesized microscopic triaxial collective dynamics across the $N=74$ core ($^{132}\text{Ce}$, $\beta_2 \approx 0.22, \gamma \approx 17^\circ\text{--}20^\circ$) to its odd-neutron neighbours ($^{131}\text{Ce}$ and $^{133}\text{Ce}$) and the $N=75$ isotone chain ($^{131}\text{Ba} \to {}^{133}\text{Ce} \to {}^{135}\text{Nd}$), integrating Alwaleedi 2013, Singh 2016, and author's doctoral midterm data.
+  - Synthesized microscopic triaxial collective dynamics across the $N=74$ core ($^{132}\text{Ce}$, $\beta_2 \a0.22, \gamma \a17^\circ\text{--}20^\circ$) to its odd-neutron neighbours ($^{131}\text{Ce}$ and $^{133}\text{Ce}$) and the $N=75$ isotone chain ($^{131}\text{Ba} \to {}^{133}\text{Ce} \to {}^{135}\text{Nd}$), integrating Alwaleedi 2013, Singh 2016, and author's doctoral midterm data.
   - Formulated the "Five-Gate" Evidence Standard for nuclear spectroscopy (Lineage, Multipolarity & Mixing Ratios, Relative Transition Probabilities, Absolute Lifetimes, Competing Models & Holdout Validation).
 - Authored canonical research note: `knowledge/research-notes/doctoral-cognitive-calibration-and-nuclear-structure-synthesis-20261101.md`.
 - Updated `knowledge/index.md` and `knowledge/projects/post-30-day-nuclear-structure-paper-prospectus.md` (Candidate 7).
@@ -5979,8 +5989,8 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - Built unified spin-isospin excitation and Gamow-Teller resonance dynamics knowledge base (`knowledge/concepts/gamow-teller-resonance-ikeda-sum-rule-and-ga-quenching.md`):
   - Formulated model-independent Ikeda sum rule $S_-(GT) - S_+(GT) = 3(N - Z)$ from commutator algebra of isospin ladder operators $[t_-, t_+] = -2 t_z$.
-  - Deconstructed micro-mechanisms of effective axial-vector weak coupling constant quenching ($g_A^{\\text{eff}} \\approx 0.95\\text{--}1.05$): $\\Delta(1232)$-hole mixing pushing strength to 300 MeV and two-body meson-exchange currents (2BC) from chiral EFT.
-  - Linked to $A \\approx 130$ neutrinoless double beta decay ($^{130}\\text{Te}$, $^{136}\\text{Xe}$), demonstrating fourth-power sensitivity $[T_{1/2}^{0\\nu}]^{-1} \\propto (g_A^{\\text{eff}})^4$.
+  - Deconstructed micro-mechanisms of effective axial-vector weak coupling constant quenching ($g_A^{\\text{eff}} \\a0.95\\text{--}1.05$): $\\Delta(1232)$-hole mixing pushing strength to 300 MeV and two-body meson-exchange currents (2BC) from chiral EFT.
+  - Linked to $A \\a$A \aA \a130$ neutrinoless double beta decay ($^{130}\\text{Te}$, $^{136}\\text{Xe}$), demonstrating fourth-power sensitivity $[T_{1/2}^{0\\nu}]^{-1} \\propto (g_A^{\\text{eff}})^4$.
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/gamow_teller_ikeda_quenching_calculator.py`:
   - `calculate_ikeda_sum_rule`: theoretical limit evaluation;
   - `evaluate_ga_quenching`: net strength recovery fraction, quenching factor $q$, effective $g_A$, and $0\\nu\\beta\\beta$ half-life prolongation factor $\\sim 1/q^4$;
@@ -5994,7 +6004,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Internalized exotic drip-line physics, weakly bound quantum tunneling and Borromean topology from Heyde Ch. 15, Bertulani Ch. 11, and Ye Yanlin《Nuclear Physics》Ch. 10 (`knowledge/concepts/halo-nuclei-borromean-systems-and-breakup-dynamics.md`):
   - Quantum tunneling & spatial extension: vanishing Coulomb ($V_C=0$) and centrifugal barrier ($l=0$) in $s$-wave neutrons leading to asymptotic Yukawa tail $\psi(r) \propto e^{-\kappa r}/r$ and astronomical RMS matter radii (e.g. $^{11}\text{Be}$ $R_m \approx 7\text{ fm}$).
   - Shell parity inversion in $^{11}\text{Be}$ ($J^\pi = 1/2^+$ ground state, $2s_{1/2}$) and Borromean three-body topology in $^{11}\text{Li} = {}^9\text{Li} + n + n$ ($S_{2n} = 369\text{ keV}$, non-bound two-body subsystems).
-  - Breakup reaction kinematics & Hansen-Jonson Lorentzian-squared momentum distribution: derived $\Gamma_{\text{FWHM}} = 2\sqrt{\sqrt{2}-1}\sqrt{2\mu S_n} \approx 1.287\sqrt{2\mu S_n}$, demonstrating extreme momentum narrowing ($\approx 43\text{ MeV}/c$ for $^{11}\text{Li}$) vs Goldhaber normal Fermi motion ($\approx 284\text{ MeV}/c$).
+  - Breakup reaction kinematics & Hansen-Jonson Lorentzian-squared momentum distribution: derived $\Gamma_{\text{FWHM}} = 2\sqrt{\sqrt{2}-1}\sqrt{2\mu S_n} \a1.287\sqrt{2\mu S_n}$, demonstrating extreme momentum narrowing ($\approx 43\text{ MeV}/c$ for $^{11}\text{Li}$) vs Goldhaber normal Fermi motion ($\a284\text{ MeV}/c$).
   - Cluster soft E1 dipole mode (Pigmy resonance) exhausting low-energy cluster TRK sum rule.
   - Optical-limit Glauber model inversion of reaction cross sections $\sigma_R$ to measure anomalous halo radii (Tanihata 1985).
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/halo_breakup_momentum_calculator.py`:
@@ -6013,7 +6023,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Integrated nuclear fission dynamics, Strutinsky macroscopic-microscopic model, and superheavy element synthesis from Bohr-Mottelson Vol. II, Bertulani Ch. 5, Greiner, Lin Chengjian, and Lu Xiting Ch. 9 (`knowledge/concepts/fission-barriers-strutinsky-and-superheavy-dynamics.md`):
   - Liquid drop model (LDM) fissility parameter $x = (Z^2/A) / (Z^2/A)_{\\text{crit}}$, demonstrating that for $x \\ge 1$ ($Z \\ge 104$), macroscopic liquid-drop barriers vanish entirely ($B_f^{\\text{LDM}} = 0$) and superheavy stability is sustained exclusively by negative ground-state shell corrections ($\\Delta E_{\\text{shell}} \\sim -5\\text{--}-8\\text{ MeV}$).
   - Double-humped fission barrier structure: ground-state well, inner triaxial saddle $V_A$, superdeformed second well ($\\beta_2 \\sim 0.6$, shape/fission isomer discovered by Polikanov 1962), and outer mass-asymmetric saddle $V_B$ dictating asymmetric fragment division in actinides.
-  - Quantum penetration & statistical competition: Hill-Wheeler transmission coefficient $T(E)$ across parabolic barrier; Vandenbosch-Huizenga $\\Gamma_n / \\Gamma_f$ branching ratio incorporating thermal damping of shell corrections $B_f(E^*) = B_f^{\\text{LDM}} + (B_f^{\\text{nominal}} - B_f^{\\text{LDM}}) \\exp(-E^* / E_D)$ ($E_D \\approx 18.5\\text{ MeV}$).
+  - Quantum penetration & statistical competition: Hill-Wheeler transmission coefficient $T(E)$ across parabolic barrier; Vandenbosch-Huizenga $\\Gamma_n / \\Gamma_f$ branching ratio incorporating thermal damping of shell corrections $B_f(E^*) = B_f^{\\text{LDM}} + (B_f^{\\text{nominal}} - B_f^{\\text{LDM}}) \\exp(-E^* / E_D)$ ($E_D \\a18.5\\text{ MeV}$).
   - Three-step superheavy element synthesis cross section model: $\\sigma_{\\text{ER}} = \\sigma_{\\text{cap}} \\cdot P_{\\text{CN}} \\cdot P_{\\text{surv}}$, evaluating cold fusion ($1n$, $^{208}\\text{Pb}$ target) vs hot fusion ($3n\\text{--}4n$, $^{48}\\text{Ca}$ beam) cross-section scaling.
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/fission_barrier_superheavy_calculator.py`:
   - `calculate_liquid_drop_fissility`: macroscopic fissility $x$ and LDM barrier;
@@ -6049,7 +6059,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
     1. Transition quadrupole moment catastrophe collapse: $Q_t(I) = Q_0 \\frac{\\cos(\\gamma(I) + 30^\\circ)}{\\cos 30^\\circ} \\to 0$ as $\\gamma \\to 60^\\circ$ (verified via DSAM in $^{109}\\text{Sb}$ with $>85\\%$ drop);
     2. Steep plunge of dynamic moment of inertia $\\mathcal{J}^{(2)}$ towards zero or negative values;
     3. Distinct sharp downward cusp in the rigid-rotor subtracted energy trajectory $E - E_{\\text{RR}}$.
-  - Linked band termination as the physical upper spin boundary for triaxial chirality and wobbling in $A \\approx 130$.
+  - Linked band termination as the physical upper spin boundary for triaxial chirality and wobbling in $A \\a$A \aA \a130$.
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/band_termination_cns_calculator.py`:
   - `calculate_valence_maximum_spin`: algebraic summation of highest single-particle magnetic quantum numbers;
   - `model_transition_quadrupole_collapse`: continuous $Q_t(I)$ and $B(E2)$ collapse along triaxial path;
@@ -6085,7 +6095,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
   - Three-point and five-point pairing gap formalisms: derived $\\Delta^{(3)}$ and curvature-corrected $\\Delta^{(5)} = \\frac{(-1)^N}{8} [M(N+2) - 4M(N+1) + 6M(N) - 4M(N-1) + M(N-2)]$, removing linear and quadratic mass-surface curvature to quantify pure BCS quasi-particle pairing energy.
   - Shell-closure cliff criterion: $\\delta_{2n}(N_{\\text{magic}}) = S_{2n}(N_{\\text{magic}}) - S_{2n}(N_{\\text{magic}} + 2)$, diagnosing giant $3\\text{--}5\\text{ MeV}$ shell gaps at $N=20, 28, 50, 82, 126$ and shell quenching near the drip line.
   - Shape phase transition anomaly: anomalous flattening or inversion of $S_{2n}$ curves at transitional boundaries (e.g. $N=88 \\to 90$ in Sm/Nd) caused by the sudden onset of quadrupole collective deformation energy $\\Delta E_{\\text{def}} = \\frac{1}{2} C \\beta_2^2$.
-  - Decoupling of ground-state static pairing gap from high-spin Coriolis anti-pairing (CAP) band-crossing frequencies in $A \\approx 130$.
+  - Decoupling of ground-state static pairing gap from high-spin Coriolis anti-pairing (CAP) band-crossing frequencies in $A \\a$A \aA \a130$.
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/pairing_gap_separation_energy_calculator.py`:
   - `calculate_s2n_series`: $S_{2n}$ series computation from binding energies or AME mass excesses;
   - `calculate_pairing_gap_3point`: 3-point odd-even staggering gap;
@@ -6102,7 +6112,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Integrated isoscalar giant monopole resonance (ISGMR), nuclear incompressibility, and Equation of State (EOS) framework (`knowledge/concepts/giant-monopole-resonance-incompressibility-and-eos.md`):
   - Breathing mode collective dynamics: constrained sum rule energy ratio $E_{\\text{ISGMR}} = \\sqrt{\\frac{\\hbar^2 K_A}{m \\langle r^2 \\rangle}}$ exhausting $90\\%\\text{--}100\\%$ of $E0$ EWSR.
   - Leptodermous expansion of finite nuclear incompressibility: $K_A = K_{\\text{vol}} + K_{\\text{surf}} A^{-1/3} + K_\\tau ((N-Z)/A)^2 + K_{\\text{coul}} Z^2 / A^{4/3}$, yielding the nuclear matter benchmark $K_\\infty = 240 \\pm 20\\text{ MeV}$ and isospin asymmetry stiffness $K_\\tau \\approx -550\\text{ MeV}$.
-  - Microscopic resolution of deformation-induced monopole-quadrupole mixing ($L=0 \\otimes L=2, K=0$): two-state mixing in prolate nuclei ($^{154}\\text{Sm}$) producing two-component ISGMR splitting ($E_1 \\approx 11.45\\text{ MeV}$ with $36\\%$ EWSR, $E_2 \\approx 15.15\\text{ MeV}$ with $62\\%$ EWSR), refuting spherical incompressibility extraction in deformed regimes.
+  - Microscopic resolution of deformation-induced monopole-quadrupole mixing ($L=0 \\otimes L=2, K=0$): two-state mixing in prolate nuclei ($^{154}\\text{Sm}$) producing two-component ISGMR splitting ($E_1 \\a11.45\\text{ MeV}$ with $36\\%$ EWSR, $E_2 \\a15.15\\text{ MeV}$ with $62\\%$ EWSR), refuting spherical incompressibility extraction in deformed regimes.
   - Microscopic resolution of the "Why is Tin so soft?" puzzle: Quasiparticle-Vibration Coupling (QPVC) with low-energy surface phonons ($2_1^+, 3_1^-$) introducing negative dynamic self-energy $\\text{Re}\\Sigma < 0$, pushing resonance centroids downward by $0.8\\text{--}1.0\\text{ MeV}$ in $^{112-124}\\text{Sn}$.
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/isgmr_breathing_mode_incompressibility_calculator.py`:
   - `calculate_ka_from_isgmr_energy`: inverting $K_A$ from resonance centroid and RMS radius;
@@ -6139,7 +6149,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Integrated single-particle Weisskopf estimates, level lifetime conversions, Alaga branching rules, and in-band cascade $B(M1)/B(E2)$ ratios (`knowledge/concepts/electromagnetic-transition-rates-weisskopf-and-alaga-rules.md`):
   - Weisskopf single-particle reduced transition probability benchmarks: $B_{\\text{sp}}(E1) = 0.06446 A^{2/3}\\ e^2\\text{fm}^2$, $B_{\\text{sp}}(E2) = 0.05940 A^{4/3}\\ e^2\\text{fm}^4$, $B_{\\text{sp}}(M1) = 1.7905\\ \\mu_N^2$, establishing the quantitative metric for collective enhancement ($B(E2) \\sim 100\\text{--}1000\\text{ W.u.}$).
   - Excited level lifetime to $B(E2)$ and intrinsic quadrupole moment $Q_0$ conversion with internal conversion electron correction $\\alpha_{\\text{icc}}$.
-  - Axial rotor Alaga branching rule: $B(\\lambda; I_i K \\to I_{f1} K) / B(\\lambda; I_i K \\to I_{f2} K) = \\langle I_i K \\lambda 0 | I_{f1} K \\rangle^2 / \\langle I_i K \\lambda 0 | I_{f2} K \\rangle^2$, establishing the benchmark ratio $B(E2; 4^+ \\to 2^+) / B(E2; 2^+ \\to 0^+) = 10/7 \\approx 1.4286$ for $K=0$ ground-state bands.
+  - Axial rotor Alaga branching rule: $B(\\lambda; I_i K \\to I_{f1} K) / B(\\lambda; I_i K \\to I_{f2} K) = \\langle I_i K \\lambda 0 | I_{f1} K \\rangle^2 / \\langle I_i K \\lambda 0 | I_{f2} K \\rangle^2$, establishing the benchmark ratio $B(E2; 4^+ \\to 2^+) / B(E2; 2^+ \\to 0^+) = 10/7 \\a1.4286$ for $K=0$ ground-state bands.
   - In-band cascade branching ratio inversion: $\\frac{B(M1; I \\to I-1)}{B(E2; I \\to I-2)} = 0.697 \\frac{E_{\\gamma 2}^5}{E_{\\gamma 1}^3} \\frac{I_{\\gamma 1}}{I_{\\gamma 2}} \\frac{1}{1 + \\delta^2}$, and extraction of the intrinsic structure parameter $|g_K - g_R| / Q_0 = \\sqrt{\\frac{5}{12} \\frac{I^2-1}{K^2} \\frac{B(M1)}{B(E2)}}$.
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/electromagnetic_transition_alaga_calculator.py`:
   - `calculate_weisskopf_unit`: single-particle estimates for $E1, E2, E3, M1, M2$;
@@ -6155,7 +6165,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 - Integrated two-nucleon transfer reactions, pairing vibrations, and nuclear Josephson supercurrent dynamics (`knowledge/concepts/two-nucleon-transfer-pairing-vibrations-and-josephson-dynamics.md`):
   - Microscopic mechanism: $J^\\pi = 0^+, T=1$ Cooper-pair direct transfer probe of gauge-space symmetry breaking, deriving the massive BCS coherent enhancement factor $\\sigma_{\\text{coh}} / \\sigma_{\\text{incoh}} \\sim 15\\text{--}50\\times$ driven by constructive in-phase sum of active orbital amplitudes $\\sum_j \\sqrt{j+1/2} u_j v_j$.
   - Bès-Broglia pairing vibrational field theory in closed-shell nuclei: pair addition phonon $\\hbar\\omega_+$ and pair removal phonon $\\hbar\\omega_-$, predicting the combined $(1, 1)$ double-phonon $0^+$ collective state at $E_x \\approx 4.99\\text{ MeV}$ in $^{208}\\text{Pb}$ (experimentally verified at $4.87\\text{ MeV}$).
-  - Kinematic $Q$-matching in heavy-ion transfer $(^{18}\\text{O}, {}^{16}	ext{O})$ vs $(p, t)$, explaining the experimental discovery of the Giant Pairing Vibration (GPV) at $E_x \\approx 20\\text{ MeV}$ in $^{14}\\text{C}$ by Cavallaro et al. (MAGNEX 2019).
+  - Kinematic $Q$-matching in heavy-ion transfer $(^{18}\\text{O}, {}^{16}\text{O})$ vs $(p, t)$, explaining the experimental discovery of the Giant Pairing Vibration (GPV) at $E_x \\approx 20\\text{ MeV}$ in $^{14}\\text{C}$ by Cavallaro et al. (MAGNEX 2019).
   - Nuclear Josephson effect: macroscopic tunneling of Cooper pairs across heavy superfluid nuclei ($^{120}\\text{Sn} + {}^{112}\\text{Sn}$), generating an exponential enhancement of multi-pair transfer probabilities.
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/two_nucleon_transfer_pairing_vibration_calculator.py`:
   - `calculate_bcs_transfer_enhancement`: coherent amplitude and enhancement factor over incoherent baseline;
@@ -6189,7 +6199,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
   - Origin of nuclear spin-orbit coupling: scalar potential $S(r) \\approx -400\\text{ MeV}$ and vector potential $V(r) \\approx +350\\text{ MeV}$ cancellation yielding shallow central binding $V_{\\text{cent}} = V+S \\approx -50\\text{ MeV}$ while their sum $V-S \\approx +750\\text{ MeV}$ generates an enormous radial gradient $\\frac{1}{2M^2 r}\\frac{d(V-S)}{dr} \\vec{l}\\cdot\\vec{s}$, naturally explaining the strong nuclear spin-orbit splitting without free phenomenological parameters.
   - Ginocchio relativistic pseudospin symmetry: quasi-degeneracy of single-particle pairs $(n, l, j=l+1/2)$ and $(n-1, l+2, j=l+3/2)$ sharing pseudo-orbital $\\tilde{l} = l+1$ and $\\tilde{s}=1/2$, proven to be exact when $\\frac{d}{dr}[V(r)+S(r)] = 0$.
   - Quantified the PSS quality ratio $Q_{\\text{PSS}} = \\Delta E_{\\text{PSS}} / \\Delta E_{SO} \\ll 0.15$ in heavy nuclei ($^{208}\\text{Pb}$ $2d_{5/2} - 1g_{7/2}$ split of $0.33\\text{ MeV}$ vs $3.33\\text{ MeV}$ spin-orbit split).
-  - Linked to $A \\approx 130$ pseudospin-chiral quartet bands (e.g. $^{131}\\text{Ba}$ D3-D6, Guo 2020), where dual spontaneous breaking of chiral and pseudospin symmetries produces an intra-band four-fold manifold with average dispersion $< 450\\text{ keV}$.
+  - Linked to $A \\a$A \aA \a130$ pseudospin-chiral quartet bands (e.g. $^{131}\\text{Ba}$ D3-D6, Guo 2020), where dual spontaneous breaking of chiral and pseudospin symmetries produces an intra-band four-fold manifold with average dispersion $< 450\\text{ keV}$.
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/rmf_spin_orbit_pseudospin_calculator.py`:
   - `calculate_rmf_potentials`: Woods-Saxon RMF potentials and central/spin-orbit depth;
   - `estimate_spin_orbit_splitting`: single-particle spin-orbit energy gap $\\Delta E_{SO}$;
@@ -6221,10 +6231,10 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 
 - Integrated proton drip-line radioactivity, Goldanskii true two-proton decay, and actinide cluster radioactivity dynamics (`knowledge/concepts/drip-line-proton-and-cluster-radioactivity.md`):
   - Single-proton radioactivity: WKB tunneling across Coulomb and high-l centrifugal barriers $l(l+1)\hbar^2 / (2\mu r^2)$, calculating Gamow action integrals and extracting single-particle spectroscopic factors $S_p$.
-  - Goldanskii true two-proton radioactivity criterion: $Q_{2p} > 0$ and $S_p > 0$ ($Q_{1p} < 0$), proving that sequential decay is energetically closed and decay must proceed via true three-body continuum tunneling (benchmarked on $^{45}	ext{Fe}$, $^{19}	ext{Mg}$, $^{54}	ext{Zn}$).
+  - Goldanskii true two-proton radioactivity criterion: $Q_{2p} > 0$ and $S_p > 0$ ($Q_{1p} < 0$), proving that sequential decay is energetically closed and decay must proceed via true three-body continuum tunneling (benchmarked on $^{45}\text{Fe}$, $^{19}\text{Mg}$, $^{54}\text{Zn}$).
   - Three-body Jacobi coordinate energy sharing distribution: continuous symmetric dome-shaped distribution peaking at $\epsilon = 0.5$ (equal energy sharing $E_1 = E_2 = Q_{2p}/2$) distinguishing true 2p decay from sequential narrow resonances.
-  - Actinide cluster radioactivity (Rose & Jones 1984): WKB tunneling and preformation probabilities for $^{14}	ext{C}, {}^{20}	ext{O}, {}^{24}	ext{Ne}$ emissions driven by the enormous $Q$-value enhancement toward doubly magic $^{208}	ext{Pb}$ daughter cores.
-  - Global competition protocol: branching ratio evaluations across $1p, 2p, eta^+/	ext{EC}$, and $lpha$ channels.
+  - Actinide cluster radioactivity (Rose & Jones 1984): WKB tunneling and preformation probabilities for $^{14}\text{C}, {}^{20}\text{O}, {}^{24}\text{Ne}$ emissions driven by the enormous $Q$-value enhancement toward doubly magic $^{208}\text{Pb}$ daughter cores.
+  - Global competition protocol: branching ratio evaluations across $1p, 2p, \beta^+/\text{EC}$, and $\alpha$ channels.
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/drip_line_radioactivity_cluster_calculator.py`:
   - `calculate_proton_decay_wkb_lifetime`: 1p barrier penetration half-life;
   - `check_goldanskii_true_2p_condition`: Goldanskii condition evaluator;
@@ -6238,7 +6248,7 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 ### Thermonuclear reaction rates, Gamow peak and S-factor 2026-11-02T10:00:00+08:00
 
 - Integrated thermonuclear reaction rates, Gamow peak window, and astrophysical S-factor extrapolation framework (`knowledge/concepts/thermonuclear-reaction-rates-gamow-peak-and-astrophysical-s-factor.md`):
-  - Physical mechanism: convolution of Maxwell-Boltzmann energy distribution and sub-barrier quantum mechanical Coulomb penetration (Sommerfeld parameter $\eta$), deriving the Gamow peak energy $E_0 \approx 122.04 (Z_1^2 Z_2^2 A_{\text{red}})^{1/3} T_9^{2/3}\text{ keV}$ and effective burning window width $\Delta \approx 236.8 (Z_1^2 Z_2^2 A_{\text{red}})^{1/6} T_9^{5/6}\text{ keV}$ (benchmarked on solar $pp$ fusion $E_0 = 5.89\text{ keV}$ and $^{12}\text{C}(\alpha, \gamma)^{16}\text{O}$ at $T_9 = 0.2$, $E_0 = 315.5\text{ keV}$).
+  - Physical mechanism: convolution of Maxwell-Boltzmann energy distribution and sub-barrier quantum mechanical Coulomb penetration (Sommerfeld parameter $\eta$), deriving the Gamow peak energy $E_0 \a122.04 (Z_1^2 Z_2^2 A_{\text{red}})^{1/3} T_9^{2/3}\text{ keV}$ and effective burning window width $\Delta \approx 236.8 (Z_1^2 Z_2^2 A_{\text{red}})^{1/6} T_9^{5/6}\text{ keV}$ (benchmarked on solar $pp$ fusion $E_0 = 5.89\text{ keV}$ and $^{12}\text{C}(\alpha, \gamma)^{16}\text{O}$ at $T_9 = 0.2$, $E_0 = 315.5\text{ keV}$).
   - Astrophysical S-factor definition $S(E) = \sigma(E) E \exp(2\pi\eta)$ removing kinematic $1/E$ and Coulomb penetration divergences, enabling safe low-energy Taylor expansion to stellar zero-energy limits $S(0)$.
   - Analytical thermonuclear reaction rates: non-resonant smooth rate $N_A \langle \sigma v \rangle_{\text{non-res}}$ vs isolated Breit-Wigner narrow resonance rate $N_A \langle \sigma v \rangle_{\text{res}} = 1.539 \times 10^{11} (A_{\text{red}} T_9)^{-3/2} (\omega\gamma) \exp(-11.605 E_r / T_9)$.
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/thermonuclear_rate_gamow_factor_calculator.py`:
@@ -6277,9 +6287,9 @@ Expanded API 未订阅，仅 Starter API (`wos-starter/v1`) 可用。已更新 `
 u^\dagger = \sum (X A^\dagger - Y A)$, yielding the non-Hermitian QRPA supermatrix equation $[[A, B], [-B, -A]] [X, Y]^T = \omega [X, Y]^T$.
   - Normalization and collective enhancement: non-compact hyperbolic metric $\sum (|X|^2 - |Y|^2) = 1$, deriving the coherent transition amplitude enhancement $(X + Y)^2 = \sqrt{(A - B)/(A + B)}$ which explains the massive collective boost of low-lying $2_1^+, 3_1^-$ phonons beyond Tamm-Dancoff (QTDA).
   - pnQRPA and particle-particle interaction parameter $g_{pp}$: deconstructed the Vogel-Zirnbauer mechanism in double beta decay ($2
-uetaeta / 0
-uetaeta$), demonstrating the steep decline and zero-crossing of $M^{2
-u}$ around $g_{pp} pprox 0.95$ and the impending QRPA collapse at the phase transition threshold.
+u\beta\beta / 0
+u\beta\beta$), demonstrating the steep decline and zero-crossing of $M^{2
+u}$ around $g_{pp} \a0.95$ and the impending QRPA collapse at the phase transition threshold.
   - Analytic proof that the Ikeda sum rule $S_-(GT) - S_+(GT) = 3(N - Z)$ is strictly satisfied in pnQRPA even with finite ground-state correlations ($Y
 e 0$).
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/qrpa_matrix_vibrational_calculator.py`:
@@ -6333,9 +6343,9 @@ u}$ zero-crossing detection;
 
 - Integrated electric dipole polarizability ($\alpha_D$), neutron skin thickness ($\Delta r_{np}$), and symmetry energy slope ($L$) framework (`knowledge/concepts/electric-dipole-polarizability-neutron-skin-and-eos.md`):
   - Inverse-energy-weighted sum rule: $\alpha_D = \frac{\hbar c}{2\pi^2} \sigma_{-2} = \frac{\hbar c}{2\pi^2} \int \frac{\sigma(E)}{E^2} dE$, benchmarked on the RCNP $^{208}\text{Pb}$ experimental standard $\alpha_D = 20.1 \pm 0.6\text{ fm}^3$ (Tamii 2011 PRL), $^{120}\text{Sn}$ ($8.59\text{ fm}^3$), and $^{48}\text{Ca}$ ($2.07\text{ fm}^3$).
-  - Linear covariance relation with neutron skin thickness: $\Delta r_{np}(^{208}\text{Pb}) \approx 0.0125 \cdot (\alpha_D - 7.5) = 0.156 \pm 0.024\text{ fm}$ (Roca-Maza 2011, Piekarewicz 2012), providing a factor-of-3 tighter precision than PREX-II parity-violating electron scattering.
+  - Linear covariance relation with neutron skin thickness: $\Delta r_{np}(^{208}\text{Pb}) \a0.0125 \cdot (\alpha_D - 7.5) = 0.156 \pm 0.024\text{ fm}$ (Roca-Maza 2011, Piekarewicz 2012), providing a factor-of-3 tighter precision than PREX-II parity-violating electron scattering.
   - Constrained EOS symmetry energy slope parameter $L \approx 420.0 \cdot \Delta r_{np} - 20.0 \approx 45 \sim 50\text{ MeV}$ and pure neutron matter saturation pressure $P_{\text{PNM}}(\rho_0) \approx 2.46\text{ MeV/fm}^3$.
-  - Connected laboratory dipole polarizability to gravitational-wave neutron star mergers (GW170817) and NICER X-ray observations, predicting $R_{1.4M_\odot} \approx 12.0 \sim 12.5\text{ km}$.
+  - Connected laboratory dipole polarizability to gravitational-wave neutron star mergers (GW170817) and NICER X-ray observations, predicting $R_{1.4M_\odot} \a12.0 \sim 12.5\text{ km}$.
 - Implemented production-grade scientific analysis module: `system/scripts/analysis/dipole_polarizability_neutron_skin_calculator.py`:
   - `calculate_polarizability_from_sigma_minus2`: $\sigma_{-2}$ to $\alpha_D$ conversion;
   - `integrate_dipole_polarizability_from_spectrum`: numerical trapezoidal integration of photoabsorption spectra;
@@ -6490,7 +6500,7 @@ u}$ zero-crossing detection;
 - Integrated HPGe Coaxial Detector Electric Field, Depletion Voltage, Shockley-Ramo Induced Current, Ballistic Deficit and N-type/P-type Fast-Neutron Radiation Hardness Reconciler (`hpge_coaxial_electric_field_ballistic_deficit_calculator.py`):
   - Based on 吴治华《原子核物理实验方法》第 5 章, 汪晓莲等《粒子探测技术》第 5 章, and Nakhostin《辐射探测器信号处理》第 1, 4 章:
     * Coaxial depletion voltage: $V_{\text{dep}} = \frac{e|N_A - N_D|}{2\varepsilon}[r_2^2 \ln(r_2/r_1) - \frac{1}{2}(r_2^2 - r_1^2)]$.
-    * Electric field $E(r)$ under overbias $V_{\text{bias}} \ge 1.3 V_{\text{dep}}$, verifying $E(r) \ge 10^3\text{ V/cm}$ throughout the active volume for drift velocity saturation ($v_s \approx 10^5\text{ m/s}$ at $77\text{ K}$).
+    * Electric field $E(r)$ under overbias $V_{\text{bias}} \ge 1.3 V_{\text{dep}}$, verifying $E(r) \ge 10^3\text{ V/cm}$ throughout the active volume for drift velocity saturation ($v_s \a10^5\text{ m/s}$ at $77\text{ K}$).
     * Shockley-Ramo charge collection time profile: $t_c(r_0) = \max(t_e, t_h)$ with maximum collection time $t_{c,\max} = (r_2 - r_1)/v_s \approx 200 - 400\text{ ns}$.
     * Ballistic deficit: analog Gaussian shaper suffers quadratic attenuation $\sim \frac{1}{12}(t_c/\tau)^2$, whereas digital trapezoidal filtering with flat-top $T_{\text{flat}} \ge t_{c,\max}$ achieves exact zero ballistic deficit ($0.000\%$).
     * Neutron damage reconciler: demonstrates that N-type (reverse electrode) HPGe has $10 - 20\times$ higher fast-neutron tolerance ($\Phi_n \sim 1 - 2 \times 10^{10}\text{ n/cm}^2$) than P-type ($\Phi_n \sim 10^9\text{ n/cm}^2$) because hole drift distances near the outer entrance window are minimal, suppressing vacancy cluster trapping.
@@ -6511,7 +6521,7 @@ u}$ zero-crossing detection;
     * Cohen-Plasil-Swiatecki Rotating Liquid Drop Model (RLDM) limiting angular momentum $\ell_{\text{fiss}} \approx 70\ \hbar$, partitioning fusion into evaporation residues ($\sigma_{\text{ER}}$) and fast fission ($\sigma_{\text{fiss}}$).
     * Compound nucleus excitation energy $E^*$ and optimum beam energy windows for $2n, 3n, 4n, 5n, 6n$ residue channels.
   - Benchmarks:
-    * $^{16}\text{O} + {}^{122}\text{Sn} \to {}^{138}\text{Ce}^* \to {}^{134}\text{Ce} + 4n$: at $E_{\text{lab}} = 80\text{ MeV}$, $E_{\text{cm}} = 70.72\text{ MeV}$, $\sigma_{\text{fus}} = 1030.0\text{ mb}$, $\ell_{\text{crit}} = 40\ \hbar$, $\langle \ell \rangle = 25.9\ \hbar$. Recommended $E_{\text{lab}} = 48.6\text{ MeV}$ for $4n$ channel.
+    * $^{16}\text{O} + {}^{122}\text{Sn} \to {}^{138}\text{Ce}^* \to {}^{134}\text{Ce} + 4n$: at $E_{\text{lab}} = 80\text{ MeV}$, $E_{\text{cm}} = 70.72\text{ MeV}$, $\sigma_{\text{fus}} = 1030.0\text{ mb}$, $\ell_n_{\text{crit}} = 40\ \hbar$, $\langle \ell \rangle = 25.9\ \hbar$. Recommended $E_{\text{lab}} = 48.6\text{ MeV}$ for $4n$ channel.
     * Sub-barrier fusion tunneling confirmed at $E_{\text{cm}} < V_{B0}$.
 - Integrated into unified CLI `nuclear_analyzer.py` as subcommand `wong`.
 - Created concept page: `knowledge/concepts/heavy-ion-fusion-wong-barrier-penetration-and-spin-distribution.md`.
@@ -6593,9 +6603,9 @@ u}$ zero-crossing detection;
     * Inverts quadrupole deformation $\beta_2 = \frac{4\pi}{3 Z R_0^2} \sqrt{B(E2)/e^2}$ and intrinsic quadrupole moment $Q_0 \approx \sqrt{\frac{16\pi}{5} B(E2)}$.
     * Calculates spectroscopic quadrupole moment $Q_s(2_1^+) = -\frac{2}{7} Q_0$, distinguishing prolate ($Q_s < 0$) from oblate ($Q_s > 0$) shapes.
     * Evaluates Grodzins product $E(2_1^+) \cdot B(E2)$ and dimensionless Grodzins ratio $\mathcal{G} = [E(2^+) B(E2)] / [2.57 Z^2 A^{-2/3}]$.
-    * Quantifies nuclear BCS superfluidity via moment of inertia quenching ratio $\mathcal{J}_{\text{exp}} / \mathcal{J}_{\text{rig}} \approx 0.30 - 0.55$.
+    * Quantifies nuclear BCS superfluidity via moment of inertia quenching ratio $\mathcal{J}_{\text{exp}} / \mathcal{J}_{\text{rig}} \a0.30 - 0.55$.
   - Benchmarks:
-    * $^{154}\text{Sm}$ (Prolate rotor benchmark): verified $\beta_2 = 0.3406$ (matching Raman 2001 evaluated $\beta_2 = 0.341$), $Q_0 = 6.613\text{ e}\cdot\text{b}, Q_s(2^+) = -1.889\text{ e}\cdot\text{b}$, Grodzins ratio $\mathcal{G} = 1.037 \approx 1.0$, and pairing reduction $\mathcal{J}_{\text{exp}} / \mathcal{J}_{\text{rig}} = 0.543$.
+    * $^{154}\text{Sm}$ (Prolate rotor benchmark): verified $\beta_2 = 0.3406$ (matching Raman 2001 evaluated $\beta_2 = 0.341$), $Q_0 = 6.613\text{ e}\cdot\text{b}, Q_s(2^+) = -1.889\text{ e}\cdot\text{b}$, Grodzins ratio $\mathcal{G} = 1.037 \a1.0$, and pairing reduction $\mathcal{J}_{\text{exp}} / \mathcal{J}_{\text{rig}} = 0.543$.
     * $^{132}\text{Sn}$ (Doubly magic shell closure): verified $\beta_2 = 0.0235$ (near-spherical), $\mathcal{G} = 0.179$, and $\mathcal{J}_{\text{exp}} / \mathcal{J}_{\text{rig}} = 0.016 \ll 1.0$, confirming the breakdown of collective rotation at magic gaps.
 - Integrated into unified CLI `nuclear_analyzer.py` as subcommand `grodzins`.
 - Created concept page: `knowledge/concepts/grodzins-product-rule-and-quadrupole-deformation-inversion.md`.
@@ -6630,7 +6640,7 @@ u}$ zero-crossing detection;
     * Compares with geometric hard-sphere black-disc limit $\pi(R+a)^2$ and evaluates nuclear opacity ratio.
   - Benchmarks:
     * $40\text{ MeV}$ proton on $^{58}\text{Ni}$ ($Z_t=28, A_t=58$): $R_{\text{target}} = 4.84\text{ fm}, a = 0.65\text{ fm}, V_0 = 45.0\text{ MeV}, W_0 = 10.0\text{ MeV}, W_s = 3.0\text{ MeV} \implies \sigma_R = 1093.9\text{ mb}$, matching experimental reaction cross section evaluations.
-    * $T(b)$ profiles confirm black-disc central absorption ($T \approx 0.98$) transitioning smoothly to peripheral direct reaction transparency ($T \to 0$ for $b > R+2a$).
+    * $T(b)$ profiles confirm black-disc central absorption ($T \a0.98$) transitioning smoothly to peripheral direct reaction transparency ($T \to 0$ for $b > R+2a$).
 - Integrated into unified CLI `nuclear_analyzer.py` as subcommand `omp`.
 - Created concept page: `knowledge/concepts/optical-model-potential-and-reaction-cross-section.md`.
 - Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` with LU-10 entry.
@@ -6716,10 +6726,10 @@ u}$ zero-crossing detection;
   - Based on S. Frauendorf & J. Meng (Nucl. Phys. A 617, 131, 1997), S. Frauendorf (Rev. Mod. Phys. 73, 463, 2001), and J. Meng & Y. P. Wang in *Chirality and Wobbling in Atomic Nuclei* (CRC 2025) Ch. 3:
     * Total TAC orientation energy on the unit sphere: $E(\theta, \phi; J) = \frac{(J_s - j_p)^2}{2\mathcal{J}_s} + \frac{J_m^2}{2\mathcal{J}_m} + \frac{(J_l - j_n)^2}{2\mathcal{J}_l}$, with $J_s = J\sin\theta\cos\phi, J_m = J\sin\theta\sin\phi, J_l = J\cos\theta$.
     * Explains the competition between single-particle alignment ($j_p$ along short $s$-axis, $j_n$ along long $l$-axis) and core collective rotation ($R$ along intermediate $m$-axis, $\mathcal{J}_m > \mathcal{J}_s, \mathcal{J}_l$).
-    * Discovers the Chiral Bifurcation transition: at low spins ($J < J_{\text{crit}}$), rotation is planar ($\phi_{\text{min}} = 0^\circ, J_m = 0$); at high spins ($J \ge J_{\text{crit}}$), the planar minimum becomes a saddle point, spontaneously breaking $\mathcal{T}\mathcal{R}_y(\pi)$ symmetry and producing two degenerate aplanar chiral minima.
+    * Discovers the Chiral Bifurcation transition: at low spins ($J < J_n_{\text{crit}}$), rotation is planar ($\phi_{\text{min}} = 0^\circ, J_m = 0$); at high spins ($J \ge J_n_{\text{crit}}$), the planar minimum becomes a saddle point, spontaneously breaking $\mathcal{T}\mathcal{R}_y(\pi)$ symmetry and producing two degenerate aplanar chiral minima.
     * Computes the planar energy barrier $\Delta E_{\text{barrier}}$ separating the left- and right-handed states and evaluates the aplanarity volume metric $\mathcal{V}_{\text{chiral}} = J_m / J$.
   - Benchmarks:
-    * $^{134}\text{Pr}$ chiral tripod ($\mathcal{J}_m = 25, \mathcal{J}_s = 15, \mathcal{J}_l = 5\ \hbar^2/\text{MeV}, j_p = 5.5, j_n = 5.5$): at $J \le 14\ \hbar$, planar rotation ($\phi \approx 1^\circ, J_m \approx 0.2\ \hbar$, barrier $= 0\text{ keV}$); at $J = 16\ \hbar$, onset of chiral bifurcation ($\phi = 17.9^\circ, J_m = 4.4\ \hbar$, barrier $= 6.3\text{ keV}$); at $J = 18\ \hbar$, robust aplanar chiral rotation ($\phi = 34.3^\circ, \theta = 67.5^\circ, J_m = 9.4\ \hbar$, barrier $= 107.8\text{ keV}$, $\mathcal{V}_{\text{chiral}} = 0.520$).
+    * $^{134}\text{Pr}$ chiral tripod ($\mathcal{J}_m = 25, \mathcal{J}_s = 15, \mathcal{J}_l = 5\ \hbar^2/\text{MeV}, j_p = 5.5, j_n = 5.5$): at $J \le 14\ \hbar$, planar rotation ($\phi \a1^\circ, J_m \a0.2\ \hbar$, barrier $= 0\text{ keV}$); at $J = 16\ \hbar$, onset of chiral bifurcation ($\phi = 17.9^\circ, J_m = 4.4\ \hbar$, barrier $= 6.3\text{ keV}$); at $J = 18\ \hbar$, robust aplanar chiral rotation ($\phi = 34.3^\circ, \theta = 67.5^\circ, J_m = 9.4\ \hbar$, barrier $= 107.8\text{ keV}$, $\mathcal{V}_{\text{chiral}} = 0.520$).
 - Integrated into unified CLI `nuclear_analyzer.py` as subcommand `tac`.
 - Created concept page: `knowledge/concepts/three-dimensional-tac-chiral-orientation-energy-surface.md`.
 - Added unit test suite `system/tests/test_tac_3d_chiral_orientation.py` (5 tests, 100% passing).
@@ -6747,7 +6757,7 @@ u}$ zero-crossing detection;
 
 - Integrated In-Beam Level Scheme Ritz Combination Principle Energy Loops, BrIcc Conversion Intensity Balancer & Direct Side-Feeding Extractor (`level_scheme_loop_residual_intensity_balancer.py`):
   - Based on 吴治华《原子核物理实验方法》第 10 章 §10.6 (印刷 pp. 285–303 / PDF pp. 293–311), D. C. Radford (Nucl. Instrum. Methods Phys. Res. A 361, 297, 1995), and ENSDF standards:
-    * Implements Ritz combination principle closed-loop validation: $\Delta E_{\text{loop}} = \sum_{\text{fwd}} E_i - \sum_{\text{bwd}} E_j \approx 0.0$.
+    * Implements Ritz combination principle closed-loop validation: $\Delta E_{\text{loop}} = \sum_{\text{fwd}} E_i - \sum_{\text{bwd}} E_j \a0.0$.
     * Computes normalized loop uncertainty $\sigma_{\text{loop}}$ and $Z$-score discrepancy $Z = |\Delta E| / \sigma_{\text{loop}}$, automatically flagging misassigned lines or unresolved doublets when $Z > 3.0\sigma$.
     * Integrates BrIcc total internal conversion coefficients: $I_{\text{tot}} = I_\gamma (1 + \alpha_{\text{tot}})$.
     * Calculates level intensity balances $\Delta I = I_{\text{in}} - I_{\text{out}}$, directly extracting prompt reaction side-feeding intensity $I_{\text{side}} = \max(0, I_{\text{out}} - I_{\text{in}})$ and fractional percentage $f_{\text{side}}$.
@@ -6819,7 +6829,7 @@ u}$ zero-crossing detection;
 
 - Integrated Heavy-Ion Deep Inelastic Collisions (DIC), Total Kinetic Energy Loss (TKEL), Angular Momentum Dissipation & Wilczynski Trajectory Simulator (`heavy_ion_dic_wilczynski_energy_loss_calculator.py`):
   - Based on 林承键《重离子核反应》第 5 章 (pp. 110–155), 吴治华《原子核物理实验方法》第 11 章, J. Wilczynski (Phys. Lett. B 47, 484, 1973), and W. U. Schröder & J. R. Huizenga (1977):
-    * Formulates reaction kinematics, interaction contact radius $R_{\text{int}}$, contact Coulomb barrier $V_C$, grazing momentum $L_{\text{grazing}}$, and fusion threshold $L_{\text{crit}}$.
+    * Formulates reaction kinematics, interaction contact radius $R_{\text{int}}$, contact Coulomb barrier $V_C$, grazing momentum $L_{\text{grazing}}$, and fusion threshold $L_n_{\text{crit}}$.
     * Simulates two-body kinetic energy relaxation $\text{TKEL}(l)$ down to the fully relaxed Coulomb limit $\text{TKEL}_{\text{max}} = E_{\text{cm}} - V_C$.
     * Evaluates tangential friction and the sticking limit fraction $f_{\text{stick}} = (\mathcal{J}_1 + \mathcal{J}_2) / (\mathcal{J}_{\text{rel}} + \mathcal{J}_1 + \mathcal{J}_2)$, transferring up to $50 - 70\ \hbar$ into fragment intrinsic spins.
     * Models deflection dynamics: positive Coulomb branch $\theta_{\text{pos}}(l)$ near grazing transitioning to attractive nuclear orbiting $\theta_{\text{neg}}(l) < 0^\circ$, reproducing the iconic Wilczynski "bird's beak" contour topology.
@@ -6858,7 +6868,7 @@ u}$ zero-crossing detection;
     * Formulates double exponential scintillation emission with singlet fast decay ($\tau_{\text{fast}} \sim 3.2\text{ ns}$) and delayed triplet-triplet annihilation slow component ($\tau_{\text{slow}} \sim 270\text{ ns}$).
     * Models $dE/dx$ ionization track density dependence: recoil protons (neutrons) induce enhanced slow fraction ($f_{\text{slow}} \sim 32\%$) relative to Compton electrons ($f_{\text{slow}} \sim 12\%$).
     * Implements digital Charge Comparison Method (CCM): $Q_{\text{short}} = \int_0^{T_{\text{short}}} v(t)dt, Q_{\text{long}} = \int_0^{T_{\text{long}}} v(t)dt, \text{PSD} = (Q_{\text{long}} - Q_{\text{short}}) / Q_{\text{long}}$.
-    * Solves for the optimal short gate width $T_{\text{short}} \approx 15.0\text{ ns}$ maximizing peak separation $\Delta\text{PSD}$.
+    * Solves for the optimal short gate width $T_{\text{short}} \a15.0\text{ ns}$ maximizing peak separation $\Delta\text{PSD}$.
     * Evaluates Figure of Merit $\text{FOM} = |\mu_n - \mu_\gamma| / (2.355(\sigma_n + \sigma_\gamma))$ and light yield energy dependence under Poisson photoelectron statistics $\text{FOM}(E) = \text{FOM}_0 \sqrt{E / E_0}$.
   - Benchmarks:
     * EJ-301 / BC-501A liquid scintillator: optimal $T_{\text{short}} = 15.0\text{ ns}, \Delta\text{PSD} = 0.0481$, achieving $\text{FOM} = 1.45$ at $500\text{ keVee}$ ($>3\sigma$ separation) and $2.25$ at $1.2\text{ MeVee}$.
@@ -6874,13 +6884,13 @@ u}$ zero-crossing detection;
 - Integrated Self-Consistent 3D Tilted Axis Cranking (TAC) with BCS Pairing Gap Equation, Coriolis Anti-Pairing (CAP) Quenching & Chiral Restoration Phase Transition Simulator (`tac_pairing_self_consistent_chiral_engine.py`):
   - Based on P. W. Zhao in *Chirality and Wobbling in Atomic Nuclei* (CRC 2025) Ch. 9 (PDF pp. 204–221), Q. B. Chen et al. Ch. 10, and S. Frauendorf & J. Meng (Nucl. Phys. A 617, 131, 1997):
     * Formulates 3D tilted rotation $\vec{\omega} = \omega(\sin\theta\cos\phi, \sin\theta\sin\phi, \cos\theta)$ coupled to dynamic BCS pairing.
-    * Implements Coriolis Anti-Pairing (CAP) quenching $\Delta(\omega) = \Delta_{\text{eff}}(0)\sqrt{\max(0, 1 - (\omega/\omega_c)^2)}$ with Pauli blocking ($f_{\text{block}} \approx 0.55$).
+    * Implements Coriolis Anti-Pairing (CAP) quenching $\Delta(\omega) = \Delta_{\text{eff}}(0)\sqrt{\max(0, 1 - (\omega/\omega_c)^2)}$ with Pauli blocking ($f_{\text{block}} \a0.55$).
     * Computes pairing-dependent dynamic moments of inertia $\mathcal{J}_k(\Delta) = \mathcal{J}_{k, \text{rig}}[1 - g_k \Delta(J)/\Delta_0]$ expanding towards rigid-body values.
     * Maps orientation energy surface $E(J; \theta, \phi)$, evaluating planar barrier $\Delta E_{\text{barrier}}(J)$ and chiral aplanarity metric $\mathcal{V}_{\text{chiral}} = \sin\theta_0\sin\phi_0$.
-    * Models the full three-phase spin evolution: low-spin planar rotation ($J < J_{\text{crit}}$), aplanar chiral bifurcation ($J_{\text{crit}} \le J \le J_{\text{term}}$), and high-spin intermediate-axis alignment (chiral restoration / collapse).
+    * Models the full three-phase spin evolution: low-spin planar rotation ($J < J_n_{\text{crit}}$), aplanar chiral bifurcation ($J_n_{\text{crit}} \le J \le J_{\text{term}}$), and high-spin intermediate-axis alignment (chiral restoration / collapse).
   - Benchmarks:
-    * $^{134}\text{Pr}$ chiral tripod ($\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$): critical bifurcation at $J_{\text{crit}} = 16.0\ \hbar$, robust chirality at $J = 18.0\ \hbar$ (barrier $= 69.9\text{ keV}, \mathcal{V}_{\text{chiral}} = 0.498$), and deep chiral wells at $J = 22.0\ \hbar$ (barrier $> 500\text{ keV}$).
-    * $^{136}\text{Nd}$ 4-quasiparticle M$\chi$D benchmark: multi-quasiparticle alignment shifts bifurcation threshold to $J_{\text{crit}} = 21.0\ \hbar$, reproducing high-spin chiral stability.
+    * $^{134}\text{Pr}$ chiral tripod ($\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$): critical bifurcation at $J_n_{\text{crit}} = 16.0\ \hbar$, robust chirality at $J = 18.0\ \hbar$ (barrier $= 69.9\text{ keV}, \mathcal{V}_{\text{chiral}} = 0.498$), and deep chiral wells at $J = 22.0\ \hbar$ (barrier $> 500\text{ keV}$).
+    * $^{136}\text{Nd}$ 4-quasiparticle M$\chi$D benchmark: multi-quasiparticle alignment shifts bifurcation threshold to $J_n_{\text{crit}} = 21.0\ \hbar$, reproducing high-spin chiral stability.
 - Integrated into unified CLI `nuclear_analyzer.py` as subcommand `tacpair`.
 - Created concept page: `knowledge/concepts/self-consistent-3d-tac-with-pairing-and-chiral-restoration.md`.
 - Updated source card `knowledge/sources/book-petrache-chirality-and-wobbling.md` with PETR-5 entry.
@@ -6945,12 +6955,12 @@ u}$ zero-crossing detection;
   - Based on 卢希庭《原子核物理（修订版）》第 4 章 §4.4 (pp. 102–115), C. A. Bertulani "Introduction to Nuclear Reactions" Ch. 11, and P. Möller et al. (Phys. Rev. C 79, 064304, 2009):
     * Evaluates Hill-Wheeler transmission probabilities $P_A, P_B$ across inner and outer parabolic barriers.
     * Computes total two-barrier penetration factor $P_{\text{tot}} \approx (P_A P_B) / 4$ and effective WKB action $S_{\text{eff}} = -\ln(P_{\text{tot}})$.
-    * Simulates zero-point assault frequency $\nu_0 \approx 10^{21}\text{ s}^{-1}$ and half-life $T_{1/2}^{\text{SF}} = [\ln(2)/\nu_0]\exp(S_{\text{eff}})$.
+    * Simulates zero-point assault frequency $\nu_0 \a10^{21}\text{ s}^{-1}$ and half-life $T_{1/2}^{\text{SF}} = [\ln(2)/\nu_0]\exp(S_{\text{eff}})$.
     * Models liquid-drop fissility $Z^2/A$ scaling and Strutinsky ground-state shell correction shielding ($\delta U$).
   - Benchmarks:
     * $^{238}\text{U}$ spontaneous fission: $E_A = 6.30\text{ MeV}, E_B = 5.65\text{ MeV}, S_{\text{eff}} = 95.70, P_{\text{tot}} = 2.75 \times 10^{-42}$, predicting $T_{1/2}^{\text{SF}} \approx 7.98 \times 10^{12}\text{ yr}$ ($\log_{10} = 12.90$).
     * $^{252}\text{Cf}$ commercial neutron source: $E_A = 5.30\text{ MeV}, E_B = 5.05\text{ MeV}, S_{\text{eff}} = 72.82$, predicting $T_{1/2}^{\text{SF}} \approx 927\text{ yr}$ ($\log_{10} = 2.97$).
-    * $^{240}\text{Pu}$ reactor benchmark: $T_{1/2}^{\text{SF}} \approx 1.14 \times 10^{11}\text{ yr}$.
+    * $^{240}\text{Pu}$ reactor benchmark: $T_{1/2}^{\text{SF}} \a1.14 \times 10^{11}\text{ yr}$.
 - Integrated into unified CLI `nuclear_analyzer.py` as subcommand `spontfiss`.
 - Created concept page: `knowledge/concepts/spontaneous-fission-wkb-action-and-half-life.md`.
 - Updated source card `knowledge/sources/book-lu-nuclear-physics-chinese.md` with LU-12 entry.
@@ -7096,11 +7106,11 @@ u}$ zero-crossing detection;
 
 - Integrated Two-Quasiparticle Wobbling Mode Analyzer in Even-Even Triaxial Nuclei, Transverse Wobbling Frequency Inversion & Interband E2/M1 Signature Engine (`two_quasiparticle_even_even_wobbling_analyzer.py`):
   - Based on Q. B. Chen & S. Frauendorf (Phys. Rev. Lett. 123, 232502, 2019), S. Y. Wang, F. Q. Chen, C. Liu et al. (Phys. Lett. B 808, 135634, 2020), and *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 10 & 11:
-    * Models high-spin two-quasiparticle alignment ($\pi(h_{11/2})^2$, $j_{12} \approx 10\ \hbar$) along the short axis in even-even triaxial nuclei after backbending.
+    * Models high-spin two-quasiparticle alignment ($\pi(h_{11/2})^2$, $j_{12} \a10\ \hbar$) along the short axis in even-even triaxial nuclei after backbending.
     * Quantifies transverse wobbling (TW) frequency evolution $E_{\text{wob}}(I) = E(n_w=1, I) - \frac{1}{2}[E(n_w=0, I+1) + E(n_w=0, I-1)]$, establishing that $d(\hbar\omega_w)/dI < 0$ uniquely signals transverse orientation.
     * Formulates collective interband $E2$ signature: $B(E2)_{\text{out}} / B(E2)_{\text{in}} \approx \frac{2}{I} [\sin(|\gamma|+30^\circ)/\sin(|\gamma|-60^\circ)]^2 \sim 0.3 - 0.6$, orders of magnitude above single-particle transitions.
   - Benchmarks:
-    * $^{130}\text{Ba}$ experimental landmark (Wang et al. PLB 2020): $E_{\text{wob}}$ decreases monotonically from $505\text{ keV}$ to $325\text{ keV}$ ($dE_{\text{wob}}/dI = -30.25\text{ keV}/\hbar$), experimental $B(E2)_{\text{out}}/B(E2)_{\text{in}} \approx 0.385$ (theory $\sim 0.299$), $100\%$ confidence confirmation.
+    * $^{130}\text{Ba}$ experimental landmark (Wang et al. PLB 2020): $E_{\text{wob}}$ decreases monotonically from $505\text{ keV}$ to $325\text{ keV}$ ($dE_{\text{wob}}/dI = -30.25\text{ keV}/\hbar$), experimental $B(E2)_{\text{out}}/B(E2)_{\text{in}} \a0.385$ (theory $\sim 0.299$), $100\%$ confidence confirmation.
     * $^{136}\text{Nd}$ predicted two-quasiparticle wobbler (Chen & Frauendorf 2019): confirms consistent transverse slope and enhanced $E2$ branching.
     * Spurious single-particle band counterexample: successfully rejected ($20\%$ score).
 - Integrated into unified CLI `nuclear_analyzer.py` as subcommand `twoqpwob`.
@@ -7181,10 +7191,10 @@ u}$ zero-crossing detection;
 - Integrated Three-Dimensional Tilted Axis Cranking (3D-TAC) Chiral Pitchfork Bifurcation Phase Transition Inverter & Out-of-Plane Orientation Energy Engine (`three_dimensional_tac_chiral_pitchfork_bifurcation_inverter.py`):
   - Based on *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 2 (J. Meng & P. W. Zhao), Ch. 9 (PDF pp. 204–221), P. W. Zhao et al. (Phys. Lett. B 699, 181, 2011), and S. Frauendorf & J. Meng (Nucl. Phys. A 617, 131, 1997):
     * Evaluates quasiclassical 3D-TAC orientation energy surface $E(J, \theta, \phi)$ in spherical tilt coordinates: $J_s = J \sin\theta \cos\phi, J_m = J \sin\theta \sin\phi, J_l = J \cos\theta$.
-    * Formulates analytical supercritical pitchfork bifurcation: below critical spin $J_{\text{crit}}$, planar rotation ($\phi = 0^\circ$) is stable; crossing $J_{\text{crit}}$ destabilizes the planar minimum into a saddle point, generating two degenerate out-of-plane chiral minima at $\pm\phi_{\text{min}}(J) = \pm\arccos(J_{\text{crit}}/J) > 0^\circ$.
+    * Formulates analytical supercritical pitchfork bifurcation: below critical spin $J_n_{\text{crit}}$, planar rotation ($\phi = 0^\circ$) is stable; crossing $J_n_{\text{crit}}$ destabilizes the planar minimum into a saddle point, generating two degenerate out-of-plane chiral minima at $\pm\phi_{\text{min}}(J) = \pm\arccos(J_n_{\text{crit}}/J) > 0^\circ$.
     * Calculates chiral potential barrier height $\Delta E_{\text{barrier}}(J) = E(\text{saddle}, \phi=0) - E(\text{min}, \phi_{\text{min}})$ and normalized chiral volume metric $V_{\text{chiral}}$, governing quantum tunneling splitting in chiral doublets.
   - Benchmarks:
-    * $^{134}\text{Pr}$ landmark chiral nucleus: pinpoints pitchfork bifurcation at $J_{\text{crit}} = 12.0\ \hbar$, with out-of-plane angle tilting to $\phi = 50.6^\circ$ at $J = 16\ \hbar$ with chiral barrier $\Delta E = 633.1\text{ keV}$ and chiral volume $V = 0.302$.
+    * $^{134}\text{Pr}$ landmark chiral nucleus: pinpoints pitchfork bifurcation at $J_n_{\text{crit}} = 12.0\ \hbar$, with out-of-plane angle tilting to $\phi = 50.6^\circ$ at $J = 16\ \hbar$ with chiral barrier $\Delta E = 633.1\text{ keV}$ and chiral volume $V = 0.302$.
     * $^{128}\text{Cs}$ chiral doublet benchmark: verifies consistent aplanar geometry and barrier growth.
     * Axially symmetric rotor counterexample: confirms strict absence of bifurcation ($\phi \equiv 0^\circ$, barrier $= 0\text{ keV}$).
 - Integrated into unified CLI `nuclear_analyzer.py` as subcommand `tacbifurc`.
@@ -7251,7 +7261,7 @@ u}$ zero-crossing detection;
 - Integrated Triaxial Nuclear Hexadecapole (beta_4, gamma_4) Deformation Perturbation Engine, Principal Moments of Inertia Renormalization & Wobbling Frequency Modifier (`triaxial_hexadecapole_deformation_wobbling_modifier.py`):
   - Based on A. Bohr & B. R. Mottelson *Nuclear Structure* Vol. II §4-2 & §4-5, *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 2 & Ch. 10, and D. L. Hendrie (Phys. Rev. Lett. 31, 478, 1973):
     * Evaluates high-spin hexadecapole surface expansion $R(\theta, \phi) = R_0 [1 + \sum \alpha_{2\mu} Y_{2\mu} + \sum \alpha_{4\mu} Y_{4\mu}]$.
-    * Renormalizes principal moments of inertia $\mathcal{J}_k(\beta_2, \gamma, \beta_4) = \mathcal{J}_k^{(0)} [1 + \kappa_4 \beta_4 \cos(\gamma - 2\pi k/3) + \kappa_{44} \beta_4^2]$ with cross-coupling $\kappa_4 \approx 1.85$.
+    * Renormalizes principal moments of inertia $\mathcal{J}_k(\beta_2, \gamma, \beta_4) = \mathcal{J}_k^{(0)} [1 + \kappa_4 \beta_4 \cos(\gamma - 2\pi k/3) + \kappa_{44} \beta_4^2]$ with cross-coupling $\kappa_4 \a1.85$.
     * Demonstrates that positive $\beta_4 > 0$ stabilizes transverse wobbling by reinforcing intermediate-axis dominance ($\mathcal{J}_m$), whereas negative $\beta_4 < 0$ softens MOI asymmetry and accelerates frequency collapse towards tilted precession (TiP).
   - Benchmarks:
     * $^{163}\text{Lu}$ TSD band with positive $\beta_4 = +0.025$: predicts $+4.3\text{ keV}$ frequency shift at $I = 35.5\ \hbar$, aligning with measured TSD wobbling persistence.
@@ -7334,11 +7344,11 @@ u}$ zero-crossing detection;
 
 - Integrated Coriolis Anti-Pairing (CAP) Dynamic Pairing Gap Quenching, Superfluid-to-Normal Phase Transition & Triaxial Moments of Inertia Expansion Engine (`coriolis_anti_pairing_gap_quenching_moi_engine.py`):
   - Based on A. Bohr & B. R. Mottelson *Nuclear Structure* Vol. II §4-3 & §6-3, *Chirality and Wobbling in Atomic Nuclei* (CRC Press 2025) Ch. 2 & Ch. 9 (PDF pp. 204–221), and B. R. Mottelson & J. G. Valatin (Phys. Rev. Lett. 5, 511, 1960):
-    * Models rotational unbinding of Cooper pairs via Coriolis torque: $\Delta(\omega) = \Delta_0 \sqrt{\max(0, 1 - (\omega/\omega_{\text{crit}})^2)}$.
+    * Models rotational unbinding of Cooper pairs via Coriolis torque: $\Delta(\omega) = \Delta_0 \sqrt{\max(0, 1 - (\omega/\omega_n_{\text{crit}})^2)}$.
     * Self-consistently solves for the non-linear expansion of triaxial moments of inertia $\mathcal{J}_k(\Delta)$ from the irrotational fluid baseline towards the rigid-body limit.
     * Locates the second-order quantum phase transition threshold $I_{\text{CAP}}$ where superfluidity completely collapses, providing the microscopic driving force for high-spin wobbling and chiral bifurcation stability.
   - Benchmarks:
-    * $^{163}\text{Lu}$ TSD band ($\Delta_0 = 0.95\text{ MeV}, \omega_{\text{crit}} = 0.45\text{ MeV}/\hbar$): gap collapses from $0.763\text{ MeV}$ at $I = 10\ \hbar$ to $0.000\text{ MeV}$ at $I_{\text{CAP}} \approx 35.0\ \hbar$, with $\mathcal{J}_m$ expanding from $37.3$ to the rigid limit $72.0\ \hbar^2/\text{MeV}$.
+    * $^{163}\text{Lu}$ TSD band ($\Delta_0 = 0.95\text{ MeV}, \omega_n_{\text{crit}} = 0.45\text{ MeV}/\hbar$): gap collapses from $0.763\text{ MeV}$ at $I = 10\ \hbar$ to $0.000\text{ MeV}$ at $I_{\text{CAP}} \approx 35.0\ \hbar$, with $\mathcal{J}_m$ expanding from $37.3$ to the rigid limit $72.0\ \hbar^2/\text{MeV}$.
     * $^{130}\text{Ba}$ transitional triaxial benchmark: captures CAP-driven inertia growth.
     * Rigid-rotor zero-pairing limit: verifies exact normal Fermi state baseline.
 - Integrated into unified CLI `nuclear_analyzer.py` as subcommand `capgap`.
@@ -7372,7 +7382,7 @@ u}$ zero-crossing detection;
     * Formulates and solves the generalized Hill-Wheeler secular problem $\sum [H_{KK^\prime}(I) - E(I) N_{KK^\prime}(I)] C_{K^\prime}(I) = 0$ incorporating triaxial core couplings with $\Delta K = \pm 2$.
     * Simultaneously extracts projected yrast band, $\gamma$-band, and wobbling band energy trajectories, decomposing the microscopic $K$-wavefunction composition.
   - Benchmarks:
-    * $^{130}\text{Ba}$ triaxial projection ($\varepsilon_2 = 0.23, \gamma = 25^\circ$): resolves yrast sequence ($I = 2 \dots 16$), $\gamma$-band head ($1026.7\text{ keV}$), and wobbling band ($\Delta E_{\text{wob}} \approx 1904.4\text{ keV}$), capturing $K=2$ admixture up to $3.3\%$ in high-spin yrast states.
+    * $^{130}\text{Ba}$ triaxial projection ($\varepsilon_2 = 0.23, \gamma = 25^\circ$): resolves yrast sequence ($I = 2 \dots 16$), $\gamma$-band head ($1026.7\text{ keV}$), and wobbling band ($\Delta E_{\text{wob}} \a1904.4\text{ keV}$), capturing $K=2$ admixture up to $3.3\%$ in high-spin yrast states.
     * $^{163}\text{Lu}$ TSD wobbling projection: verifies microscopic wobbling spacing in the superdeformed minimum.
     * Axial symmetric limit ($\gamma = 0^\circ$): confirms $100.0\%$ $K$-conservation and zero off-diagonal mixing.
 - Integrated into unified CLI `nuclear_analyzer.py` as subcommand `tpsmproj`.
@@ -7431,3 +7441,15 @@ u}$ zero-crossing detection;
 - Updated source card `knowledge/sources/book-wu-nuclear-experiment-methods.md` with WU-19 entry.
 - Added unit test suite `system/tests/test_2d_snip_background.py` (3 tests, 100% passing).
 - Expanded `test_analysis_suite.py` regression suite to **152 official analysis modules**, all verified passing in 2.9s.
+
+### Suhonen Microscopic Nuclear Theory book-to-skill delivery (2026-11-04)
+
+- **Jouni Suhonen 权威专著《From Nucleons to Nucleus》微观核理论 Skill 交付**：
+  - 在 `.agents/skills/suhonen-microscopic-nuclear-theory/` 交付完整微观核结构与张量代数技能包：
+    - `SKILL.md`：角动量 Racah 代数与不可约球张量算符、Wigner-Eckart 定理严格相位约定、电磁多极微观算符与 Weisskopf 单粒子折合跃迁率、表面 Delta 相互作用 (SDI) 解析两粒子耦合矩阵元、BCS 配对平均场与 Bogoliubov 准粒子代数、QRPA 超矩阵运动方程及质中 pnQRPA Gamow-Teller 响应与 Ikeda 严格求和规则；
+    - `glossary.md`：不可约球张量、约化矩阵元、SDI、准粒子、能隙参数、占据振幅、QRPA、pnQRPA、Ikeda 求和规则、粒子-粒子相互作用常数 $g_{\text{pp}}$、维斯科普夫单位、有效电荷规范定义；
+    - `patterns.md`：提炼 5 大微观实操范式（单粒子电多极约化矩阵元计算、BCS 能隙与化学势联合迭代、SDI 双核子两体矩阵元快速求解、准粒子跃迁相消与相加选择律诊断、pnQRPA Ikeda 求和规则与 $g_{\text{pp}}$ 稳定性校验）；
+    - `cheatsheet.md`：常用 $3j/6j$ 符号恒等式、单粒子 Weisskopf 单位数值速查表、核子自由与有效淬灭 $g$ 因子、BCS 准粒子跃迁干涉因子表；
+    - `chapters/`：包含 6 大核心章节深度摘要卡片（Ch 1–2 角动量与张量代数、Ch 6 电磁多极跃迁、Ch 8 表面 Delta 相互作用、Ch 13–14 BCS 配对理论、Ch 18 QRPA 集体振动、Ch 19 pnQRPA 与 Ikeda 求和规则）；
+  - 严格映射回链至 `raw/books/From nucleons to nucleus concepts of microscopic .pdf`（SHA-256 `4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c`）；
+  - 质量门：全库 1,351 页面保持 0 错误，单元测试与边界检查全部合规。

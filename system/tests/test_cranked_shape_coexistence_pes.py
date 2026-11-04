@@ -58,5 +58,9 @@ class TestCrankedShapeCoexistencePES(unittest.TestCase):
         self.assertEqual(min_info["yrast_shape"], "Triaxial/Prolate")
         self.assertGreater(min_info["energy_difference_E2_minus_E1_MeV"], 0.0)
 
+    def test_synthetic_provenance_labels(self):
+        for name, p in PRESETS.items():
+            self.assertEqual(p.get("data_kind"), "synthetic_model_benchmark")
+
 if __name__ == "__main__":
     unittest.main()

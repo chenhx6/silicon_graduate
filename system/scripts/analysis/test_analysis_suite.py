@@ -34,6 +34,7 @@ import math
 import numpy as np
 
 from heavy_ion_kinematics import calculate_kinematics, doppler_shift, doppler_broadening
+from bcs_constant_pairing_solver import solve_constant_pairing_bcs
 from angular_distribution_solver import angular_distribution_model, fit_angular_distribution, solve_delta_dual_roots
 from digital_trapezoidal_filter import synthesize_preamp_pulse, apply_trapezoidal_filter, extract_trapezoid_amplitude
 from gamma_peak_fitting import single_peak_model, fit_single_gamma_peak
@@ -73,8 +74,26 @@ from rmf_spin_orbit_pseudospin_calculator import calculate_rmf_potentials, estim
 from isotope_shift_charge_radii_calculator import calculate_normal_mass_shift, extract_delta_r2_from_isotope_shift, decompose_charge_radius_components, perform_king_plot_analysis, calculate_charge_radius_odd_even_staggering
 from drip_line_radioactivity_cluster_calculator import calculate_proton_decay_wkb_lifetime, check_goldanskii_true_2p_condition, model_two_proton_jacobi_distribution, calculate_cluster_radioactivity_wkb, diagnose_drip_line_decay_competition
 from thermonuclear_rate_gamow_factor_calculator import calculate_gamow_peak_and_window, calculate_sommerfeld_parameter, convert_cross_section_to_s_factor, calculate_nonresonant_reaction_rate, calculate_resonant_reaction_rate
-from qrpa_matrix_vibrational_calculator import solve_qrpa_eigenvalues_and_amplitudes, solve_analytic_single_mode_qrpa, scan_pnqrpa_gpp_sensitivity, diagnose_qrpa_stability
-from surface_delta_interaction_pandya_calculator import calculate_clebsch_gordan, calculate_wigner_6j, calculate_sdi_matrix_element, calculate_single_j_sdi_spectrum, perform_pandya_transformation, benchmark_sc42_k40_pandya
+from qrpa_matrix_vibrational_calculator import (
+    build_pn_qtda_matrix,
+    solve_qrpa_eigenvalues_and_amplitudes,
+    solve_analytic_single_mode_qrpa,
+    scan_pnqrpa_gpp_sensitivity,
+    diagnose_qrpa_stability,
+    calculate_reduced_qrpa_transition_amplitude,
+    ideal_two_phonon_transition_rules,
+)
+from monte_carlo_integrator import monte_carlo_integrate, adaptive_stratified_integrate_1d
+from surface_delta_interaction_pandya_calculator import (
+    calculate_clebsch_gordan,
+    calculate_wigner_6j,
+    calculate_sdi_matrix_element,
+    calculate_sdi_matrix_element_from_radial_k,
+    calculate_sdi_isospin_matrix_element,
+    calculate_single_j_sdi_spectrum,
+    perform_pandya_transformation,
+    benchmark_sc42_k40_pandya,
+)
 from k_isomer_hindrance_calculator import calculate_k_forbiddenness, calculate_reduced_hindrance, model_triaxial_gamma_tunneling_hindrance, classify_isomer_mechanism
 from dipole_polarizability_neutron_skin_calculator import calculate_polarizability_from_sigma_minus2, integrate_dipole_polarizability_from_spectrum, droplet_model_polarizability_estimate, extract_neutron_skin_from_polarizability, extract_symmetry_energy_slope_L, predict_neutron_star_radius_from_L
 from gilbert_cameron_level_density_calculator import solve_gilbert_cameron_matching, compute_level_density, calculate_s_wave_resonance_spacing, cumulative_level_count
@@ -127,7 +146,7 @@ from coriolis_attenuation_bandcrossing_calculator import calculate_coriolis_matr
 from directional_correlation_f_coefficients_calculator import calculate_f_coefficient, calculate_angular_distribution_coefficients, invert_delta_dual_roots, calculate_dco_and_ado_ratios
 from decoupling_parameter_khalf_band_calculator import calculate_pure_j_decoupling_parameter, calculate_khalf_spectrum, invert_khalf_band_parameters
 from alpha_decay_gamow_wkb_calculator import calculate_gamow_factor_wkb, evaluate_alpha_hindrance
-from triaxial_wobbling_tip_chiral_analyzer import calculate_triaxial_rotor_moi_parameters, calculate_transverse_wobbling_spectrum, classify_tip_vs_phonon_wobbling, analyze_chiral_doublet_staggering
+from triaxial_wobbling_tip_chiral_analyzer import calculate_triaxial_rotor_moi_parameters, calculate_transverse_wobbling_spectrum, classify_tip_vs_phonon_wobbling, calculate_lawrie_tip_wobbling_metrics, analyze_chiral_doublet_staggering
 from feldman_cousins_unified_confidence_interval_calculator import calculate_poisson_fc_interval, calculate_gaussian_fc_interval
 from hpge_coaxial_electric_field_ballistic_deficit_calculator import calculate_coaxial_depletion_and_field, calculate_shockley_ramo_collection, calculate_coaxial_ballistic_deficit, reconcile_neutron_damage_p_vs_n
 from heavy_ion_fusion_spin_distribution_wong_calculator import calculate_heavy_ion_fusion_wong
@@ -198,6 +217,8 @@ from in_beam_charged_particle_pid_delta_e_telescope_inverter import ChargedParti
 from triaxial_two_rotor_scissors_mode_m1_solver import TriaxialScissorsModeM1Solver
 from hpge_neutron_damage_hole_trapping_corrector import HPGeneutronDamageTrappingCorrector
 from multiphonon_wobbling_anharmonic_spectrum_solver import MultiphononWobblingSolver
+from in_beam_bgo_compton_suppression_pt_ratio_optimizer import BGOComptonSuppressionOptimizer
+from nuclear_odd_even_pairing_gap_multichannel_solver import NuclearPairingGapSolver
 
 
 def test_heavy_ion_kinematics():
@@ -213,6 +234,20 @@ def test_heavy_ion_kinematics():
     assert E_forward > E0, f"Forward Doppler shift should be > E0: {E_forward}"
     assert E_backward < E0, f"Backward Doppler shift should be < E0: {E_backward}"
     print("  ✓ heavy_ion_kinematics passed.")
+
+
+def test_bcs_constant_pairing_solver():
+    print("Testing bcs_constant_pairing_solver...")
+    result = solve_constant_pairing_bcs(
+        single_particle_energies_MeV=[0.0],
+        pair_degeneracies=[3.0],
+        target_particles=3.0,
+        pairing_strength_MeV=1.0,
+    )
+    assert result["converged"], "Analytic half-filled BCS case must converge"
+    assert abs(result["gap_MeV"] - 1.5) < 1.0e-8, "Half-filled gap mismatch"
+    assert abs(result["particle_number"] - 3.0) < 1.0e-8, "Particle-number constraint mismatch"
+    print("  ✓ bcs_constant_pairing_solver passed.")
 
 
 def test_angular_distribution_and_dual_roots():
@@ -991,10 +1026,55 @@ def test_qrpa_matrix_vibrational_calculator():
     assert scan["zero_crossing_gpp"] is not None, "Zero crossing not found"
     assert abs(scan["zero_crossing_gpp"] - 0.95) < 0.1, f"Zero crossing mismatch: {scan['zero_crossing_gpp']}"
 
+    # Suhonen Eq. (17.2) pnQTDA one-configuration benchmark.
+    qtda = build_pn_qtda_matrix(
+        proton_qp_energies=[2.0],
+        neutron_qp_energies=[3.0],
+        proton_u=[1.0 / np.sqrt(2.0)],
+        proton_v=[1.0 / np.sqrt(2.0)],
+        neutron_u=[1.0 / np.sqrt(2.0)],
+        neutron_v=[1.0 / np.sqrt(2.0)],
+        two_body_matrix=[[-2.0]],
+        particle_hole_matrix=[[1.0]],
+    )
+    assert qtda["is_symmetric"], "pnQTDA matrix should be symmetric"
+    assert abs(qtda["matrix"][0, 0] - 4.5) < 1e-12, "pnQTDA one-state benchmark mismatch"
+
+    # Suhonen reduced-basis X/Y transition contraction.
+    transition = calculate_reduced_qrpa_transition_amplitude(
+        x_initial=[1.0, 0.0],
+        y_initial=[0.5, 0.0],
+        x_final=[1.0, 0.0],
+        y_final=[0.5, 0.0],
+        operator_matrix=[[2.0, 0.0], [0.0, 1.0]],
+    )
+    assert abs(transition["forward_term"] - 2.0) < 1e-12
+    assert abs(transition["backward_term"] - 0.5) < 1e-12
+    assert abs(transition["amplitude"] - 2.5) < 1e-12
+
+    # Ideal spherical two-phonon benchmark from Suhonen Ch. 18.
+    phonon = ideal_two_phonon_transition_rules(3.0)
+    assert phonon["two_to_one_strength"] == 6.0
+    assert phonon["two_to_ground_strength"] == 0.0
+    assert "triaxial wobbling" in phonon["boundary"]
+
     # Stability diagnosis test
     diag = diagnose_qrpa_stability(A, B)
     assert diag["is_stable"] == True, "Stability diagnosis mismatch"
     print("  ✓ qrpa_matrix_vibrational_calculator passed.")
+
+
+def test_monte_carlo_integrator():
+    print("Testing monte_carlo_integrator...")
+    uniform = monte_carlo_integrate(lambda x: x[0] ** 2, [(0.0, 1.0)], 12000, seed=7)
+    assert abs(uniform["estimate"] - 1.0 / 3.0) < 4.0 * uniform["standard_error"]
+    adaptive = adaptive_stratified_integrate_1d(
+        lambda x: np.exp(x), 0.0, 1.0, 1200,
+        n_strata=8, pilot_samples_per_stratum=8, seed=19
+    )
+    assert abs(adaptive["estimate"] - (np.e - 1.0)) < 5.0 * adaptive["standard_error"]
+    assert sum(adaptive["stratum_sample_counts"]) == 1200
+    print("  ✓ monte_carlo_integrator passed.")
 
 
 def test_surface_delta_interaction_pandya_calculator():
@@ -1011,6 +1091,24 @@ def test_surface_delta_interaction_pandya_calculator():
     assert sdi["is_exact_pairing_energy"] == True, "J=0 state must exhibit exact -V0*(j+1/2) pairing energy"
     assert abs(sdi["E_J0_actual_MeV"] - (-4.0)) < 1e-4, f"E(J=0) mismatch: {sdi['E_J0_actual_MeV']}"
     assert abs(sdi["spectrum"][1]["V_SDI_MeV"] - (-0.9524)) < 1e-3, "E(J=2) mismatch"
+
+    # Suhonen Eq. (8.30): exchanging the two coupled orbitals carries the
+    # fermion phase (-1)^(j_a+j_b+J+1).
+    v_ab = calculate_sdi_matrix_element(1.5, 2.5, 1.5, 1.5, 2, 1, 1, 1, 1)
+    v_ba = calculate_sdi_matrix_element(2.5, 1.5, 1.5, 1.5, 2, 1, 1, 1, 1)
+    assert abs(v_ab + v_ba) < 1e-10, "SDI exchange phase mismatch"
+
+    # Suhonen Table 8.2 anchors for the 0d-1s schematic isospin SDI:
+    # orbital 3 is 0d3/2, A_T=1.
+    assert abs(calculate_sdi_isospin_matrix_element(
+        1.5, 1.5, 1.5, 1.5, 0, 2, 2, 2, 2, 1, 1.0
+    ) + 2.0) < 1e-10, "SDI T=1 table anchor mismatch"
+    assert abs(calculate_sdi_isospin_matrix_element(
+        1.5, 1.5, 1.5, 1.5, 1, 2, 2, 2, 2, 0, 1.0
+    ) + 1.2) < 1e-10, "SDI T=0 table anchor mismatch"
+    assert abs(calculate_sdi_matrix_element_from_radial_k(
+        3.5, 3.5, 3.5, 3.5, 0, 3, 3, 3, 3, -0.125
+    ) + 4.0) < 1e-10, "SDI radial K interface mismatch"
 
     # Pandya involution P^2 = I test
     bm = benchmark_sc42_k40_pandya()
@@ -1102,13 +1200,15 @@ def test_davydov_wobbling_rotor_calculator():
     assert df["B_E2_22_to_21_over_21_to_01"] > 1.0, "B(E2; 2_2->2_1) should be strong in triaxial rotor"
 
     # Transverse wobbling
-    wob = frauendorf_wobbling_frequency(I=13.5, j=6.5, A1=12.0, A2=25.0, A3=45.0, mode="TW")
-    assert wob["status"] == "stable", "Wobbling should be stable"
-    assert 300.0 < wob["omega_wob_keV"] < 700.0, f"Wobbling frequency out of range: {wob['omega_wob_keV']}"
+    wob = frauendorf_wobbling_frequency(I=10.5, j=6.5, A1=12.0, A2=25.0, A3=45.0, mode="TW")
+    assert wob["status"] == "stable_harmonic", "Subcritical frozen-alignment point should be stable"
+    assert wob["omega_wob_keV"] > 0.0, f"Wobbling frequency must be positive: {wob['omega_wob_keV']}"
+    critical = frauendorf_wobbling_frequency(I=13.5, j=6.5, A1=12.0, A2=25.0, A3=45.0, mode="TW")
+    assert critical["status"] == "HFA_unstable_requires_full_model"
 
     # Falsification check
     fals = falsify_wobbling_vs_signature_partner(be2_out_over_in=0.35, b_m1_out_w_u=0.04, delta_mixing_ratio=2.5)
-    assert fals["verdict"] == "ROBUST_WOBBLING_CONFIRMED", "Should pass all wobbling tests"
+    assert fals["verdict"] == "MODEL_CRITERIA_SATISFIED__NOT_EXPERIMENTAL_CONFIRMATION"
     print("  ✓ davydov_wobbling_rotor_calculator passed.")
 
 
@@ -1462,7 +1562,17 @@ def test_clover_compton_addback_polarization_calculator():
 
     pol = analyze_clover_polarization(N_perp=14200.0, N_parallel=10500.0, E_gamma_keV=846.0, a_geom=1.0)
     assert pol["linear_polarization_P"] > 0.5, "Perpendicular excess should yield strong positive polarization"
-    assert "Electric" in pol["electromagnetic_character"], "Positive P must diagnose Electric multipolarity"
+    assert "Electric" in pol["electromagnetic_character"], "Positive P should remain an electric-sign candidate"
+    assert pol["evidence_level"] == "conditional-candidate-only"
+    pol_with_geom_error = analyze_clover_polarization(
+        N_perp=14200.0,
+        N_parallel=10500.0,
+        E_gamma_keV=846.0,
+        a_geom=1.0,
+        a_geom_err=0.01,
+    )
+    assert pol_with_geom_error["asymmetry_uncertainty"] > pol["asymmetry_uncertainty"]
+    assert pol["response_contract"]["sensitivity_Q"].startswith("must be obtained")
     print("  ✓ clover_compton_addback_polarization_calculator passed.")
 
 
@@ -1537,8 +1647,10 @@ def test_multiphonon_wobbling_anharmonic_calculator():
     assert "Subharmonic" in th["classification"], "Should classify as subharmonic softening"
 
     aud = audit_multiphonon_wobbling_candidate(E0_keV=0.0, E1_keV=320.0, E2_keV=600.0, be2_2_to_1=0.62, be2_1_to_0=0.32, be2_2_to_0=0.015)
-    assert aud["score"] == "3/3", "Must satisfy all 3 multi-phonon wobbling checks"
-    assert "CONFIRMED" in aud["verdict"], "Should confirm two-phonon wobbling candidate"
+    assert aud["score"] is None
+    assert aud["physical_assignment"] is None
+    assert aud["energy_ratio_R21"] is None, "Energy reference must not be presumed from band labels"
+    assert abs(aud["be2_ratio_stepover"] - 0.62/0.32) < 1e-12
     print("  ✓ multiphonon_wobbling_anharmonic_calculator passed.")
 
 
@@ -2094,7 +2206,8 @@ def test_odd_a_wobbling_stability():
     solver = OddAWobblingStabilitySolver(wobbling_mode="TW", inertia_model="rigid", j_qp=5.5, gamma_deg=22.0)
     res = solver.evaluate_spin_series([8.5, 10.5, 12.5])
     assert res["frequency_slope_dOmega_dI"] < 0.0
-    assert res["mode_confirmed"]
+    assert res["is_harmonic_stable"]
+    assert res["mode_confirmed"] is None
     print("  ✓ odd_a_transverse_longitudinal_wobbling_stability_solver passed.")
 
 
@@ -2138,8 +2251,8 @@ def test_multiple_chiral_doublets_mchid():
     p = MCHID_PRESETS["133Ce_classic_mchid"]
     discrim = MultipleChiralDoubletsDiscriminator(harris_J0=p["harris_J0"], harris_J1=p["harris_J1"])
     res = discrim.arbitrate_mchid(p["pair_A"], p["pair_B"], p["cross_doublet_branching_ratio"])
-    assert res["is_mchid_confirmed"]
-    assert res["alignment_separation_Delta_ix_hbar"] > 2.0
+    assert res["is_mchid_confirmed"] is None
+    assert abs(res["alignment_separation_Delta_ix_hbar"] - 2.0) < 1e-5
     print("  ✓ multiple_chiral_doublets_mchid_discriminator passed.")
 
 
@@ -2177,9 +2290,47 @@ def test_multiphonon_wobbling_solver():
     print("Testing multiphonon_wobbling_anharmonic_spectrum_solver...")
     solver = MultiphononWobblingSolver(spin=23.5, hbar_omega_w_keV=280.0, g4_anharmonicity_keV=-35.0)
     res = solver.solve_multiphonon_properties()
-    assert res["is_two_phonon_confirmed"]
+    assert res["is_two_phonon_confirmed"] is None
+    assert res["electromagnetic_rates"]["B_E2_2_to_0_e2b2"] is None
     assert 1.50 < res["energy_ratio_R21"] < 1.90
     print("  ✓ multiphonon_wobbling_anharmonic_spectrum_solver passed.")
+
+
+def test_bgo_compton_suppression():
+    print("Testing in_beam_bgo_compton_suppression_pt_ratio_optimizer...")
+    opt = BGOComptonSuppressionOptimizer(E_gamma_keV=1332.5, pt_unsuppressed=0.23, bgo_singles_rate_kHz=85.0)
+    perf = opt.evaluate_performance(100.0)
+    q = math.exp(-85e3 * 100e-9)
+    assert abs(perf["peak_acceptance"] - q) < 1e-12
+    assert abs(opt.evaluate_performance(0)["pt_suppressed"] - 0.23) < 1e-12
+    assert perf["background_counts"] < 4000.0 * q
+    print("  ✓ in_beam_bgo_compton_suppression_pt_ratio_optimizer passed.")
+
+
+def test_nuclear_pairing_gap():
+    print("Testing nuclear_odd_even_pairing_gap_multichannel_solver...")
+    for q in (73, 74):
+        chain = {q+k: 1000+8*k-0.02*k*k+0.6*(-1)**(q+k) for k in range(-2,3)}
+        solver = NuclearPairingGapSolver(A=q+56, Z=56, N=q,
+                    binding_chain_MeV=chain, uncertainties_MeV=[0.01]*5)
+        res = solver.execute_analysis()
+        g = res["multipoint_pairing_gaps"]
+        assert abs(g["Delta_5_point_MeV"] - 1.2) < 1e-10
+        assert abs(g["filters"]["Delta_5_point_MeV"]["sigma_MeV"]**2 - 70e-4/64) < 1e-14
+        assert res["quasiparticle_properties"]["status"] == "not-inferred"
+    print("  ✓ nuclear_odd_even_pairing_gap_multichannel_solver passed.")
+
+
+def test_pado_shared_alignment():
+    print("Testing pado_shared_alignment_projectile_family_analyzer...")
+    from pado_shared_alignment_projectile_family_analyzer import analyze_projectile_families, ZOBEL83_ROWS
+    res = analyze_projectile_families(ZOBEL83_ROWS, j=6.5, rho=0.0)
+    assert res["conclusion"]["cross_projectile_null"] == "REJECTED"
+    assert res["conclusion"]["alpha_family_null"] == "REJECTED"
+    assert res["conclusion"]["12C_family_null"] == "ACCEPTED"
+    assert res["c12_family"]["optimal_r_sigma_over_j"] > 0.25
+    assert res["c12_family"]["tau_required"] < 1.0
+    print("  ✓ pado_shared_alignment_projectile_family_analyzer passed.")
 
 
 def test_hpge_energy_non_linearity():
@@ -2519,6 +2670,22 @@ def test_triaxial_wobbling_tip_chiral_analyzer():
     # 3. Lawrie TiP sum rule
     tip = classify_tip_vs_phonon_wobbling([1, 2], [867.0, 1980.0], E_2g_keV=205.8, E_2gamma_keV=489.1, E_3gamma_keV=690.5, B_E2_delta2_Wu=15.0)
     assert tip["sum_rule_test"]["delta_sum_keV"] < 10.0, "192Os TiP sum rule vanishing"
+    metrics = calculate_lawrie_tip_wobbling_metrics(
+        E_2g_keV=205.8,
+        E_2gamma_keV=489.1,
+        E_3gamma_keV=690.5,
+        B_E2_2gamma_to_2g=15.0,
+        B_E2_2g_to_0g=20.0,
+        B_E2_3gamma_to_2gamma=35.6,
+        B_E2_delta2=15.0,
+        A_s_MeV=0.30,
+        A_i_MeV=0.10,
+        A_l_MeV=0.40,
+        spin_I=10.0,
+    )
+    assert metrics["mode_verdict"] is None, "Metrics card must not auto-confirm a mode"
+    assert abs(metrics["B_E2_ratios"]["R_2gamma_2g"] - 0.75) < 1e-12
+    assert metrics["harmonicity_parameter"]["f_n_I"] > 0.0
 
     # 4. Chiral doublet splitting
     chiral = analyze_chiral_doublet_staggering([9.0, 10.0, 11.0, 12.0], [0.0, 235.0, 520.0, 856.0], [280.0, 450.0, 680.0, 960.0])
@@ -2559,6 +2726,7 @@ def test_decoupling_parameter_khalf_band_calculator():
 if __name__ == "__main__":
     print("=== Running Nuclear Analysis Suite Regression Tests ===")
     test_heavy_ion_kinematics()
+    test_bcs_constant_pairing_solver()
     test_angular_distribution_and_dual_roots()
     test_digital_trapezoidal_filter()
     test_gamma_peak_fitting()
@@ -2599,6 +2767,7 @@ if __name__ == "__main__":
     test_drip_line_radioactivity_cluster_calculator()
     test_thermonuclear_rate_gamow_factor_calculator()
     test_qrpa_matrix_vibrational_calculator()
+    test_monte_carlo_integrator()
     test_surface_delta_interaction_pandya_calculator()
     test_k_isomer_hindrance_calculator()
     test_dipole_polarizability_neutron_skin_calculator()
@@ -2723,4 +2892,7 @@ if __name__ == "__main__":
     test_triaxial_scissors_mode()
     test_hpge_neutron_trapping()
     test_multiphonon_wobbling_solver()
+    test_bgo_compton_suppression()
+    test_nuclear_pairing_gap()
+    test_pado_shared_alignment()
     print("Regression checks passed. Scientific validation and book-reading coverage require separate evidence.")

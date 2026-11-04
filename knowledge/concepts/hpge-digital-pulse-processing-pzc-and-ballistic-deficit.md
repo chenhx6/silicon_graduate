@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [hpge-detectors, pulse-processing, pole-zero-cancellation, ballistic-deficit, trapezoidal-filter, dead-time, pileup-rejection, nuclear-instrumentation]
+tags: [hpge-detectors, pulse-processing, pole-zero-cancellation, ballistic-deficit, trapezoidal-filter, dead-time, pileup-rejection, nuclear-instrumentation]
 ---
 
 # 高纯锗（HPGe）数字化脉冲成形、极零相消（PZC）与弹道亏损动力学消除
 
-## 1. 物理全景：高计数率束内核谱学中的能量分辨率瓶颈
+## Definition
+
+### 物理全景：高计数率束内核谱学中的能量分辨率瓶颈
 
 在现代大型在束 $\gamma$ 探测阵列（如中国 CAGRA、欧洲 AGATA、美国 GRETA/Gammasphere）实验中，高纯锗（HPGe）探测器是无可替代的高分辨率探测中枢。
 然而，当实验处于大束流强、高本底反应（总道计数率超过 $20 \sim 50\text{ kcps}$）时，HPGe 谱仪的能量分辨率（FWHM）往往发生显著劣化，特征谱线呈现出明显的低能侧不对称拖尾，甚至导致弱谱线被完全淹没。
@@ -25,7 +27,9 @@ topics: [hpge-detectors, pulse-processing, pole-zero-cancellation, ballistic-def
 
 ---
 
-## 2. 严格物理与数字信号处理（DSP）数学表述
+## Necessary Assumptions
+
+### 严格物理与数字信号处理（DSP）数学表述
 
 ### (1) 电荷敏前置放大器输出响应
 当单色光子在晶体内电离产生总电荷 $Q = E / w$（锗中平均电离能 $w = 2.96\text{ eV}$）时，前放电容 $C_f$ 上的电压输出为：
@@ -89,7 +93,13 @@ $$\tau_{\text{pulse}} = 2 t_{\text{rise}} + t_{\text{flat}}$$
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/hpge_pulse_processing_pole_zero_calculator.py`
@@ -109,7 +119,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py hpge \
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[digital-trapezoidal-filter-and-dsp]]：经典的梯形滤波在本文中得到了基于载流子漂移时间与极零相消的完备硬件物理支撑；
-- [[gamma-ray-peak-fitting-and-background-subtraction]]：未校准弹道亏损与 PZC 产生的低能拖尾，正是高斯峰拟合中需要引入 Erfc 阶跃拖尾函数的直接物理根源；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[digital-pulse-processing-algorithms-nuclear-detectors]]：经典的梯形滤波在本文中得到了基于载流子漂移时间与极零相消的完备硬件物理支撑；
+- [[poisson-maximum-likelihood-and-gamma-peak-fitting-bias]]：未校准弹道亏损与 PZC 产生的低能拖尾，正是高斯峰拟合中需要引入 Erfc 阶跃拖尾函数的直接物理根源；
 - [[heavy-ion-fusion-evaporation-and-statistical-decay]]：在束实验流强上限往往受限于 HPGe 探测器的这套死时间与堆积边界。

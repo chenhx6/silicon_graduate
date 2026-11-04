@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [giant-monopole-resonance, isgmr, nuclear-incompressibility, equation-of-state, breathing-mode, deformation-splitting, qpvc, leptodermous-expansion]
+tags: [giant-monopole-resonance, isgmr, nuclear-incompressibility, equation-of-state, breathing-mode, deformation-splitting, qpvc, leptodermous-expansion]
 ---
 
 # 等标量巨单极共振（ISGMR）、核物质不可压缩系数与状态方程（EOS）动力学
 
-## 1. 物理全景：对称核物质状态方程的刚度基准
+## Definition
+
+### 物理全景：对称核物质状态方程的刚度基准
 
 在原子核物理与致密天体物理中，对称核物质在饱和密度点（$\rho_0 \approx 0.16\text{ fm}^{-3}$）附近的状态方程（Equation of State, EOS）表征了核物质抵抗宏观体积压缩与膨胀的力学刚度：
 $$E(\rho, \delta) = E_0(\rho) + S(\rho) \delta^2 + \mathcal{O}(\delta^4), \quad \delta = \frac{\rho_n - \rho_p}{\rho}$$
@@ -23,7 +25,9 @@ $K_\infty$ 是现代核理论最基础的核心物理量之一，直接决定了
 
 ---
 
-## 2. 呼吸模微观运动学与有限核不可压缩系数 $K_A$
+## Necessary Assumptions
+
+### 呼吸模微观运动学与有限核不可压缩系数 $K_A$
 
 根据流体动力学与受约束无规相位近似（Constrained RPA）：
 1. **单极偶极能量与有限核刚度**：
@@ -37,7 +41,13 @@ $K_\infty$ 是现代核理论最基础的核心物理量之一，直接决定了
 
 ---
 
-## 3. 薄皮展开（Leptodermous Expansion）与 $K_\infty$ 反演法典
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 薄皮展开（Leptodermous Expansion）与 $K_\infty$ 反演法典
 
 为将有限核测得的有效不可压缩系数 $K_A$ 外推至无限大核物质基准 $K_\infty$，Blaizot (1980) 建立了类贝特-魏茨泽克宏观薄皮展开理论：
 $$K_A = K_{\text{vol}} + K_{\text{surf}} A^{-1/3} + K_\tau \left( \frac{N - Z}{A} \right)^2 + K_{\text{Coul}} \frac{Z^2}{A^{4/3}}$$
@@ -89,3 +99,18 @@ $$H = \begin{pmatrix} E_0 & V_{\text{coup}} \\ V_{\text{coup}} & E_2(K=0) \end{p
 4. **Piekarewicz, J.** (2004). Soft monopole mode and the equation of state of neutron-rich matter. *Phys. Rev. C*, 69(4), 041301.
 5. **Garg, U. & Colò, G.** (2018). The compression-mode giant resonances and nuclear incompressibility. *Prog. Part. Nucl. Phys.*, 101, 55-95.
 6. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 8 章：巨共振与原子核集体振动. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

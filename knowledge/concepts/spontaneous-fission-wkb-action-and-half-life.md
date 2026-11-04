@@ -11,7 +11,9 @@ tags: [nuclear-fission, spontaneous-fission, double-humped-barrier, wkb-action, 
 
 # Spontaneous fission double-humped barrier WKB action and half-life systematics
 
-## Definition and Phenomenological Framework
+## Definition
+
+### Definition and Phenomenological Framework
 
 Spontaneous Fission (SF) is a fundamental decay mode of heavy actinides and superheavy elements (SHE), wherein a nucleus in its ground state undergoes sub-barrier quantum mechanical tunneling through the multidimensional potential energy surface into two fission fragments without external excitation.
 
@@ -73,9 +75,37 @@ For a ground state with zero-point vibration energy $E_0 \approx 0.80\text{ MeV}
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Lu Xiting (卢希庭)**: *Nuclear Physics (Revised Edition)* (《原子核物理（修订版）》), Atomic Energy Press (2000), Chapter 4 §4.4 (Nuclear Fission), pp. 102–115.
 - **Bertulani, C. A. & Danielewicz, P.**: *Introduction to Nuclear Reactions*, CRC Press / Z-Library (2004), Chapter 11 (Fission).
 - **Möller, P. et al.**: *Heavy-element fission barriers*, Phys. Rev. C 79, 064304 (2009).
 - **Swiatecki, W. J.**: *Systematics of fission, alpha, and beta decay half-lives*, Phys. Rev. 100, 937–938 (1955).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

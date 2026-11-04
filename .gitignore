@@ -16,6 +16,10 @@
 # Raw originals stay local; keep one empty root marker for the path contract.
 raw/**
 !raw/.gitkeep
+!raw/writing/
+raw/writing/*
+!raw/writing/gpt/
+!raw/writing/gpt/**
 # Temporary and generated caches
 tmp/
 __pycache__/

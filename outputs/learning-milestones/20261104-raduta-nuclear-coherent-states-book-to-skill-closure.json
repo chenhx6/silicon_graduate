@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-11-04",
+  "task": "raduta-nuclear-coherent-states-book-to-skill-delivery",
+  "sources": [
+    {
+      "title": "Nuclear Structure with Coherent States",
+      "author": "A. A. Raduta",
+      "path": "raw/books/nuclear structure with coherent states_Raduta.pdf",
+      "sha256": "98b057e53e323b0f4781060ad5ae4a8c045ac36b32c0650033953360d951aca3",
+      "archive_required": true,
+      "raw_unchanged": true
+    }
+  ],
+  "skill_root": ".agents/skills/raduta-nuclear-coherent-states",
+  "skill_files": [
+    ".agents/skills/raduta-nuclear-coherent-states/SKILL.md",
+    ".agents/skills/raduta-nuclear-coherent-states/glossary.md",
+    ".agents/skills/raduta-nuclear-coherent-states/patterns.md",
+    ".agents/skills/raduta-nuclear-coherent-states/cheatsheet.md",
+    ".agents/skills/raduta-nuclear-coherent-states/chapters/ch04-boson-expansions-holstein-primakoff.md",
+    ".agents/skills/raduta-nuclear-coherent-states/chapters/ch04-semiclassical-triaxial-rotors-and-separatrix.md",
+    ".agents/skills/raduta-nuclear-coherent-states/chapters/ch06-coherent-state-model-and-3d-projection.md",
+    ".agents/skills/raduta-nuclear-coherent-states/chapters/ch07-pear-shaped-octupole-coherent-states.md",
+    ".agents/skills/raduta-nuclear-coherent-states/chapters/ch08-quasiparticle-coupling-to-csm-core.md",
+    ".agents/skills/raduta-nuclear-coherent-states/chapters/ch10-gcsm-even-even-chiral-doublet-bands.md"
+  ],
+  "chapter_count": 6,
+  "study_focus": [
+    "semiclassical triaxial rotor phase space, Poincare sections, and separatrix topology (2E J_s = I^2)",
+    "Holstein-Primakoff and Dyson boson expansions for high-spin triaxial wobbling and anharmonic soft modes",
+    "coherent state model (CSM) and 3D Peierls-Yoccoz angular momentum projection for ground, beta, and gamma bands",
+    "pear-shaped octupole-deformed coherent states, parity projection, and alternating-parity bands",
+    "quasiparticle fermion coupling to collective CSM boson core and rotation-aligned bands",
+    "generalized coherent state model (GCSM) for spontaneous chiral symmetry breaking in even-even nuclei and interband M1 transitions"
+  ],
+  "evidence_boundary": "AI-generated skill extraction and cross-linking; chapter locators are study navigation aids and do not replace page-level human review for publication claims.",
+  "status": "complete"
+}

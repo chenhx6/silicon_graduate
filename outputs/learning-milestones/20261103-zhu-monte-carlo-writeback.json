@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-03",
+  "source": "raw/books/实验物理中的概率和统计_朱永生著.pdf",
+  "raw_sha256": "e97062665497c597609d58c23dfa977824c43e73d3ae8cb4ca3c0855e381894b",
+  "reading_status": "bounded visual verification of Chapter 14 pages 564-569; not full-book completion",
+  "scope": {
+    "physical_pdf_pages": [580, 581, 582, 583, 584, 585],
+    "printed_pages": [564, 565, 566, 567, 568, 569],
+    "equations": ["14.4.39", "14.4.40", "14.4.41", "14.4.42", "14.4.43", "14.4.44", "14.4.45", "14.4.46"]
+  },
+  "audited_content": [
+    "uniform Monte Carlo integral estimator and variance",
+    "importance sampling density and inverse transform example",
+    "pilot variance estimation",
+    "adaptive stratified sample allocation",
+    "Monte Carlo particle-transport problem boundary"
+  ],
+  "implementation": {
+    "module": "system/scripts/analysis/monte_carlo_integrator.py",
+    "functions": ["monte_carlo_integrate", "adaptive_stratified_integrate_1d"],
+    "outputs": ["estimate", "sample_variance", "standard_error", "seed", "stratum allocation", "explicit uncertainty boundary"]
+  },
+  "tests": {
+    "file": "system/tests/test_monte_carlo_integrator.py",
+    "cases": [
+      "uniform integral x^2 on [0,1]",
+      "importance sampling with q(x)=2x",
+      "adaptive stratified integral exp(x) on [0,1]"
+    ],
+    "analysis_suite_integrated": true,
+    "status": "passed"
+  },
+  "writeback": [
+    "knowledge/methods/zhu-monte-carlo-integration-and-adaptive-sampling.md",
+    "knowledge/sources/book-zhu-probability-statistics-in-physics.md",
+    "knowledge/index.md"
+  ],
+  "evidence_boundary": "The implementation is a numerical integration baseline from selected Chapter 14 pages. It does not certify the rest of Chapter 14, MINUIT, detector response, likelihood coverage or experiment-specific systematic uncertainties."
+}

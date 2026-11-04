@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "重离子核反应激发函数、靶内阻止积分与截面反演实战指南"
 aliases: [激发函数分析指南, 反应截面反演, 靶内能量损失积分, 熔合蒸发产额计算, 束流靶厚优化]
 created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [excitation-functions, cross-section-extraction, energy-loss, stopping-power, fusion-evaporation, beam-time-estimation]
+tags: [excitation-functions, cross-section-extraction, energy-loss, stopping-power, fusion-evaporation, beam-time-estimation]
 ---
 
 # 重离子核反应激发函数、靶内阻止积分与截面反演实战指南
 
-## 1. 物理测量视界：从宏观束流计数到微观反应截面
+## Purpose
+
+### 物理测量视界：从宏观束流计数到微观反应截面
 
 在低能重离子在束核物理实验中，目标核（如 $^{131}\text{Ce}$ 或 $^{133}\text{Ce}$）的布居几率强烈依赖于入射束流能量。
 描述特定出射反应道（如 $3n, 4n, 5n$ 蒸发道）的生成截面随入射能量或复合核激发能演化的关系曲线，称为**激发函数（Excitation Function）**。
@@ -20,7 +23,9 @@ topics: [excitation-functions, cross-section-extraction, energy-loss, stopping-p
 
 ---
 
-## 2. 核心数学积分方程与阻止本领修正
+## Inputs and Assumptions
+
+### 核心数学积分方程与阻止本领修正
 
 ### (1) 产额-截面积分基本方程
 设入射束流粒子数为 $N_p$，在实验室系入射能量为 $E_{\text{in}}$；靶核质量数为 $A_t$，靶面密度为 $\rho \Delta x$（单位：$\text{mg/cm}^2$）。
@@ -45,7 +50,13 @@ $$\sigma(E_{\text{eff}}) = \frac{N_\gamma}{N_p \cdot N_{\text{target}} \cdot \ep
 
 ---
 
-## 3. 束流流强积分与法拉第杯电荷换算
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 束流流强积分与法拉第杯电荷换算
 
 在加速器运行中，束流流强通常由法拉第杯（Faraday Cup）以电荷流形式测量（单位：粒子纳安 $\text{pnA}$ 或电荷微库仑 $\mu\text{C}$）。
 设束流离子电荷态为 $q$（例如 $^{36}\text{S}^{10+}$，则 $q = 10$）：
@@ -70,3 +81,9 @@ $$\Gamma(E) = \begin{cases} \Gamma_{\text{low}}, & E < E_{\text{opt}} \quad (\te
 1. 最佳反应束流能量 $E_{\text{opt}}$；
 2. 峰值最大产生截面 $\sigma_{\max}$；
 3. 相邻蒸发道（如 $4n$ 杂质道对 $5n$ 目标道）的交叉污染比例，为离线谱学设定纯净选门提供坚实的反应动力学依据。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

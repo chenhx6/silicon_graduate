@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [thermonuclear-rates, gamow-peak, astrophysical-s-factor, sommerfeld-parameter, stellar-nucleosynthesis, pp-chain, cno-cycle, radiative-capture]
+tags: [thermonuclear-rates, gamow-peak, astrophysical-s-factor, sommerfeld-parameter, stellar-nucleosynthesis, pp-chain, cno-cycle, radiative-capture]
 ---
 
 # 热核反应率、伽莫夫峰（Gamow Peak）与天体物理S因子外推法典
 
-## 1. 物理全景：恒星等离子体中的极低能库仑隧穿与能量产生机制
+## Definition
+
+### 物理全景：恒星等离子体中的极低能库仑隧穿与能量产生机制
 
 在恒星演化内部（如太阳核心温度 $T \approx 1.5 \times 10^7\text{ K}$，热运动能量 $k T \approx 1.3\text{ keV}$），带电轻核聚变面临高达数百 keV 至数 MeV 的库仑势垒排斥。经典力学下粒子能量远远不足以克服库仑斥力，恒星能够稳定燃烧数十亿年的物理本质，源于**亚势垒量子力学隧道效应（Sub-barrier Quantum Tunneling）**。
 
@@ -25,7 +27,9 @@ $$\langle \sigma v \rangle = \left(\frac{8}{\pi \mu (k T)^3}\right)^{1/2} \int_0
 
 ---
 
-## 2. 伽莫夫峰位 $E_0$ 与能窗有效宽度 $\Delta$ 微观解析推导
+## Necessary Assumptions
+
+### 伽莫夫峰位 $E_0$ 与能窗有效宽度 $\Delta$ 微观解析推导
 
 ### (1) 索末菲参数（Sommerfeld Parameter）与 Gamow 因子
 定义无量纲索末菲参数：
@@ -49,7 +53,13 @@ $$\Delta = 4 \left( \frac{E_0 k T}{3} \right)^{1/2} = 236.8 \cdot \left( Z_1^2 Z
 
 ---
 
-## 3. 天体物理 $S$ 因子（Astrophysical S-Factor）与实验低能外推
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 天体物理 $S$ 因子（Astrophysical S-Factor）与实验低能外推
 
 在实验室中，直接测量伽莫夫能窗（数 keV 至数百 keV）处的带电核反应截面面临巨大的实验挑战：在势垒之下，截面随能量降低呈指数坍塌至飞靶甚至皮靶（$10^{-15} \sim 10^{-12}\text{ b}$），地面实验计数率极低，受强宇宙射线本底掩盖。
 
@@ -102,3 +112,18 @@ $$\omega \gamma \equiv \frac{2 J_r + 1}{(2 J_1 + 1)(2 J_2 + 1)} \frac{\Gamma_{\t
 3. **Rolfs, C. E. & Rodney, W. S.** (1988). *Cauldrons in the Cosmos: Nuclear Astrophysics*. University of Chicago Press.
 4. **Bertulani, C. A. & Danielewicz, P.** (2004). *Introduction to Nuclear Reactions*, Chapter 7 (Nuclear reactions in the cosmos). CRC Press.
 5. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 11 章：核天体物理概论. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

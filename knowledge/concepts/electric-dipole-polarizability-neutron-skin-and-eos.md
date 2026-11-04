@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [electric-dipole-polarizability, neutron-skin-thickness, symmetry-energy-slope-L, equation-of-state, rcnp-experiment, prex-ii, neutron-stars]
+tags: [electric-dipole-polarizability, neutron-skin-thickness, symmetry-energy-slope-L, equation-of-state, rcnp-experiment, prex-ii, neutron-stars]
 ---
 
 # 核电偶极极化率（alpha_D）、中子皮厚度与状态方程对称能斜率（L）动力学
 
-## 1. 物理全景：从低能微观静态极化到中子星致密天体物理的跨度
+## Definition
+
+### 物理全景：从低能微观静态极化到中子星致密天体物理的跨度
 
 在低能核物理与核天体物理中，原子核对外部均匀电偶极弱电探针的静态电极化响应——**电偶极极化率（Electric Dipole Polarizability, $\alpha_D$）**与富中子核表面的**中子皮厚度（Neutron Skin Thickness, $\Delta r_{np} = \langle r_n^2 \rangle^{1/2} - \langle r_p^2 \rangle^{1/2}$）**，构成了地面核结构实验标定宇宙极端致密物质状态方程（Equation of State, EOS）的最敏锐钥匙。
 
@@ -27,7 +29,9 @@ topics: [electric-dipole-polarizability, neutron-skin-thickness, symmetry-energy
 
 ---
 
-## 2. 国际基准实验对账：大阪大学 RCNP 极小角 $(p, p')$ 散射
+## Necessary Assumptions
+
+### 国际基准实验对账：大阪大学 RCNP 极小角 $(p, p')$ 散射
 
 2011 年，Tamii 等人在日本大阪大学核物理研究中心（RCNP），利用 $E_p = 295\text{ MeV}$ 质子在极前角（$0^\circ \sim 4^\circ$）下对双幻核 $^{208}\text{Pb}$ 实施高分辨非弹性散射。在质子极前角下，库仑激发占绝对主导，成功在 $E_x = 4.8 \sim 40\text{ MeV}$ 完整提取了全能区 $E1$ 吸收谱，测得国际公认最高精度基准：
 $$\alpha_D(^{208}\text{Pb}) = 20.1 \pm 0.6\text{ fm}^3$$
@@ -38,7 +42,13 @@ $$\alpha_D(^{208}\text{Pb}) = 20.1 \pm 0.6\text{ fm}^3$$
 
 ---
 
-## 3. 中子皮厚度 $\Delta r_{np}$ 与对称能斜率 $L$ 的微观线性协方差链
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 中子皮厚度 $\Delta r_{np}$ 与对称能斜率 $L$ 的微观线性协方差链
 
 自洽相对论密度泛函（CDFT）与非相对论 Skyrme-Hartree-Fock 多参数协方差分析严格证明：**$\alpha_D \cdot J$ 与中子皮厚度 $\Delta r_{np}$ 之间具有高度紧密的线性强相关性（相关系数 $R > 0.95$）**！
 
@@ -90,3 +100,18 @@ $$L \approx 420.0 \cdot \Delta r_{np}(^{208}\text{Pb})\ [\text{fm}] - 20.0\text{
 3. **Piekarewicz, J. et al.** (2012). Electric dipole polarizability and the neutron skin. *Phys. Rev. C*, 85(4), 041302(R).
 4. **Lattimer, J. M. & Prakash, M.** (2001). Neutron star structure and the equation of state. *Astrophys. J.*, 550(1), 426-442.
 5. **Birkhan, J. et al.** (2017). Electric dipole polarizability of $^{48}\text{Ca}$ and implications for the neutron skin. *Phys. Rev. Lett.*, 118(25), 252501.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

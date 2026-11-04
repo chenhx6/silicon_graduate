@@ -119,7 +119,7 @@ Banik 2020、Jehangir 2022 和 Chakraborty 2023 全部基于加尔各答 VECC K-
 ### Grounded Evidence & Primary Sources
 - Zhu et al. 2003 ([[zhu-2003-135nd-composite-chiral-pair]]): 报道 $^{135}\text{Nd}$ 具有准简并手征候选伙伴带；
 - Mukhopadhyay et al. 2007 ([[mukhopadhyay-2007-135nd-chiral-vibration-static]]): 提出从手征振动向静态手征转动的演化；
-- Tonev et al. 2006/2007 ([[tonev-2007-questioning-chirality-134pr]]): Euroball IV 测量 $^{134}\text{Pr}$ 伙伴带寿命，发现带间与带内 $B(E2)$ 存在严重不对称性，质疑静态手征转动；
+- Tonev et al. 2006/2007 ([[tonev-2007-134pr-dynamic-chirality]]): Euroball IV 测量 $^{134}\text{Pr}$ 伙伴带寿命，发现带间与带内 $B(E2)$ 存在严重不对称性，质疑静态手征转动；
 - Lv et al. 2025 ([[135nd-2025-tipped-precession-same-lineage-extension]]): JUROGAM II 阵列扩展 $^{135}\text{Nd}$ 高自旋能级纲图（报道 $17/2^-_3$ 态与 band T）。
 
 ### Competing Hypotheses

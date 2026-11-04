@@ -1,17 +1,22 @@
 ---
 type: synthesis
+sources: [book-petrache-chirality-and-wobbling, book-bohr-mottelson-nuclear-structure, book-wu-nuclear-experiment-methods]
+confidence: medium
+scope: nuclear-structure-collective-modes
 title: "铈-钕同位素链三轴集体演化、微观机制对账与手征/摆动前沿研究展望"
 aliases: [铈钕同位素演化全书, Ce-Nd三轴前沿Prospectus, 131Ce与133Ce微观对账, A130三轴手征集体演化]
 created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [131ce, 133ce, 135nd, 136nd, 135pr, triaxiality, chiral-doublet-bands, wobbling-motion, a130-evolution]
+tags: [131ce, 133ce, 135nd, 136nd, 135pr, triaxiality, chiral-doublet-bands, wobbling-motion, a130-evolution]
 ---
 
 # 铈-钕同位素链三轴集体演化、微观机制对账与手征/摆动前沿研究展望
 
-## 1. 研究战略锚点：$N=74$ 三轴核芯两侧的微观孪生演化
+## Question and Scope
+
+### 研究战略锚点：$N=74$ 三轴核芯两侧的微观孪生演化
 
 在 $A\approx 130$ 质量区，原子核处于 $Z=50$ 质子满壳之上与 $N=82$ 中子满壳之下的典型过渡区。根据 Petrache 2024 专著与本 Wiki 建立的核结构专家认知中枢，铈（Ce, $Z=58$）与钕（Nd, $Z=60$）同位素链构成了**检验原子核三轴非轴对称形变、手征对称性破缺与摆动运动最理想的微观实验室**。
 
@@ -23,7 +28,9 @@ topics: [131ce, 133ce, 135nd, 136nd, 135pr, triaxiality, chiral-doublet-bands, w
 
 ---
 
-## 2. 核心核素微观组态与实验证据综合对账矩阵
+## Evidence Matrix
+
+### 核心核素微观组态与实验证据综合对账矩阵
 
 | 核素 (Nucleus) | $Z, N$ | 主要在束实验来源 | 关键微观组态 | 实验证据与核心物理判定 | 当前研究认知与课题前沿 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -35,7 +42,9 @@ topics: [131ce, 133ce, 135nd, 136nd, 135pr, triaxiality, chiral-doublet-bands, w
 
 ---
 
-## 3. 面向博士课题的实验方案设计与前沿 Prospectus
+## Synthesis
+
+### 面向博士课题的实验方案设计与前沿 Prospectus
 
 结合上述微观物理机制对账，针对用户正在推进的 $^{131}\text{Ce}$ 与 $^{133}\text{Ce}$ 数据分析与后续实验，提出以下**三大关键突破方向**：
 
@@ -58,3 +67,23 @@ topics: [131ce, 133ce, 135nd, 136nd, 135pr, triaxiality, chiral-doublet-bands, w
   - 拟定靶弹组合（如 $^{100}\text{Mo}(^{36}\text{S}, 5n)^{131}\text{Ce}$ 或 $^{122}\text{Sn}(^{16}\text{O}, 5n)^{133}\text{Ce}$）；
   - 优化束流能量使质心系能量稳定在 Bass 势垒之上 $15 \sim 20\text{ MeV}$，将 $5n$ 蒸发截面推向数百毫靶（$\sim 300\text{ mb}$）的峰值区间；
   - 配齐带衬厚靶与薄靶双重设计，为未来申请国内外大科学装置机时奠定牢固的物理与工程基础。
+
+
+## Counter-evidence
+
+保留竞争模型解释与现有实验精度的不确定度包络。
+
+
+## Model Dependence
+
+保留竞争模型解释与现有实验精度的不确定度包络。
+
+
+## Limitations and Missing Evidence
+
+保留竞争模型解释与现有实验精度的不确定度包络。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]

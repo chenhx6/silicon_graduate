@@ -1,0 +1,36 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "核对 Petrache 第11章 IBFM-2 对gamma-soft核芯、混合比和低自旋wobbling争议的模型接口",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "scope": "Chapter 11 PDF pp.239-255 / printed pp.220-236, selected formula and result pages",
+    "evidence_route": "native text extraction with selected page/figure verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/petrache-ch11-ibfm-mixing-ratio-contract.md",
+      "reason": "IBFM-2 gamma-soft core, E2/M1 matrix elements and model-experiment boundary"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Ch.11 IBFM mixing-ratio contract"
+    }
+  ],
+  "source_locators": [
+    "PDF pp.239-243 / printed pp.220-224, IBFM-2 Hamiltonian and gamma-soft PES",
+    "PDF pp.244-246 / printed pp.225-227, Eqs.11.10-11.12 and 135Pr/127Xe mixing ratios",
+    "PDF pp.247-255 / printed pp.228-236, IBFFM-2 and odd-odd model boundary"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "boundary": [
+      "IBFM model results are not experimental mode confirmations",
+      "large delta can result from a small M1 matrix element",
+      "chapter band labels and 105Pd text require nuclear-identity cross-check"
+    ]
+  }
+}

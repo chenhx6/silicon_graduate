@@ -84,6 +84,11 @@ class TestDoubleRootArbitrator(unittest.TestCase):
         summary = res["profile_scan_summary"]
         self.assertIn("min_chi2_tot", summary)
         self.assertIn("theta_min_deg", summary)
+        self.assertEqual(len(summary["local_profile_intervals"]), 2)
+        for interval in summary["local_profile_intervals"]:
+            self.assertIn("delta_min", interval)
+            self.assertIn("delta_lower", interval)
+            self.assertIn("delta_upper", interval)
         self.assertGreaterEqual(summary["theta_min_deg"], -90.0)
         self.assertLessEqual(summary["theta_min_deg"], 90.0)
 

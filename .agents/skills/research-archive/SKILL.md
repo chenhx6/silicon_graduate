@@ -21,6 +21,8 @@ the source.
 1. Choose a stable `raw/` destination before downloading or generating a
    source-dependent artifact.
    - Papers: `raw/papers/gpt/learning-daily/<date>-<topic>/`
+   - On-demand answer or paper-review acquisition: `raw/papers/gpt/query/<date>-<topic>/`.
+     This is separate from the `learning-daily/` directory reserved for the 30-day study plan.
    - Theses: `raw/theses/gpt/learning-daily/<date>-<topic>/`
    - Imported notes and reports: `raw/notes/gpt/learning-daily/` and `raw/reports/gpt/learning-daily/`.
    - Figures and their companion web snapshots: `raw/figures/gpt/learning-daily/<date>-<topic>/`.
@@ -33,7 +35,10 @@ the source.
    Set `archive_type: research-archive-v1` and a timezone-qualified actual
    `retrieved_at`. Each entry contains `path`, `sha256`, and `url` or a local
    `source` description; record `size` when known. The manifest is the archive
-   index.
+   index. For sources acquired while answering a question or checking a
+   manuscript, also record `acquisition_context`, `learning_candidate`,
+   `learning_topic`, and `collection_reason` when the source should be retained
+   for a later topic-level study.
 4. In the corresponding `knowledge/sources/*.md`, set `raw_file` to the
    archived path and set `raw_sha256` for a single-file source. For a
    collection, point `raw_file` to its manifest, record the manifest's own
@@ -60,6 +65,16 @@ the source.
 6. If the gate fails, report the missing path or hash mismatch and keep the
    source at its evidence boundary. Do not replace a missing artifact with a
    URL-only citation.
+
+## Query and writing behavior
+
+When an external source is materially useful but absent from the Wiki, the
+agent may acquire it through a lawful, configured route without waiting for a
+separate per-paper instruction. The source must enter
+`raw/papers/gpt/query/YYYYMMDD-<topic>/`, be hash-registered, and remain
+distinguishable from a source that was actually read and synthesized.
+`learning_candidate: true` queues the source for future batch learning; it does
+not claim that the paper has been read, reviewed, or promoted to `knowledge/`.
 
 ## Required source-page shape
 

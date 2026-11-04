@@ -1,0 +1,39 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "核对壳模型合集第二篇中有效电荷、seniority、形状共存和弱形变粒子–转子实验边界",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "scope": "Stuchbery/Wood article physical PDF pp.22-95 / article pp.9-82 selected sections",
+    "evidence_route": "native text extraction with selected figure/table navigation"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/stuchbery-wood-shell-model-effective-charge-collectivity-contract.md",
+      "reason": "shell-model/seniority/effective-charge/shape-coexistence and particle-rotor boundary"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Stuchbery-Wood collectivity contract"
+    }
+  ],
+  "source_locators": [
+    "Article pp.9-20 / physical PDF pp.22-33, shell-model versus unified-model and seniority context",
+    "Article pp.21-30 / physical PDF pp.34-43, effective charges and B(E2) systematics",
+    "Article pp.31-36 / physical PDF pp.44-49, unique-parity and rotation-aligned particle-rotor structures",
+    "Article pp.37-82 / physical PDF pp.50-95, open-shell collectivity and shell-model boundary"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded article-level partial unit",
+    "remaining_queue": "12 articles in the edited special issue remain queued",
+    "boundary": [
+      "selected sections and figure navigation, not complete article verification",
+      "effective charge is not a direct shape measurement",
+      "weak-deformation tiers require strong E2 and full response evidence before wobbling assignment"
+    ]
+  }
+}

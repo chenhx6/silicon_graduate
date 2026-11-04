@@ -1,0 +1,210 @@
+{
+  "timestamp": "2026-11-04T12:00:00Z",
+  "milestone": "GRAND_READING_LIBRARY_DEEP_READ_AND_METHOD_CONTRACTS_COMPLETE",
+  "total_books_cataloged": 26,
+  "books": [
+    {
+      "file": "knowledge/sources/book-behnke-data-analysis-hep.md",
+      "id": "book-behnke-data-analysis-hep",
+      "title": "Olaf Behnke 等 2013 - Data Analysis in High Energy Physics: A Practical Guide to Statistical Methods",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-bertulani-nuclear-reactions.md",
+      "id": "book-bertulani-nuclear-reactions",
+      "title": "Carlos A. Bertulani & P. Danielewicz 2021 - Introduction to Nuclear Reactions (2nd Edition)",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "id": "book-bohr-mottelson-nuclear-structure-vol2",
+      "title": "Bohr–Mottelson Nuclear Structure II：非轴对称转子高自旋近似选段",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+      "id": "book-bohr-mottelson-nuclear-structure",
+      "title": "Bohr & Mottelson — Nuclear Structure：两卷入口与第一卷原件",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-bonamente-statistics-scientific-data.md",
+      "id": "book-bonamente-statistics-scientific-data",
+      "title": "Massimiliano Bonamente 2022 - Statistics and Analysis of Scientific Data (3rd Edition)",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "id": "book-casten-nuclear-structure-simple-perspective",
+      "title": "Casten 1990 - Nuclear Structure from a Simple Perspective",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-frib-motivations-experiments.md",
+      "id": "book-frib-motivations-experiments",
+      "title": "FRIB 2014 - Motivations for Early High-Profile FRIB Experiments",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-greiner-nuclear-models.md",
+      "id": "book-greiner-nuclear-models",
+      "title": "Walter Greiner & Joachim A. Maruhn 1996 - Nuclear Models",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+      "id": "book-hamilton-electromagnetic-interaction",
+      "title": "W. D. Hamilton 1975 - The Electromagnetic Interaction in Nuclear Spectroscopy",
+      "reading_depth": "read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-heyde-nuclear-physics-concepts.md",
+      "id": "book-heyde-nuclear-physics-concepts",
+      "title": "Kris L. G. Heyde 1999 - Basic Ideas and Concepts in Nuclear Physics: An Introductory Approach (2nd Edition)",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-iaea-reaction-data-handbook.md",
+      "id": "book-iaea-reaction-data-handbook",
+      "title": "IAEA 2006 - Handbook for Calculations of Nuclear Reaction Data: Reference Input Parameter Library-2 (RIPL-2)",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-jain-nuclear-isomers.md",
+      "id": "book-jain-nuclear-isomers",
+      "title": "Ashok Kumar Jain 等 2021 - Nuclear Isomers: A Primer",
+      "reading_depth": "read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-ju-landau-mechanics.md",
+      "id": "book-ju-landau-mechanics",
+      "title": "鞠国兴 2019 - 朗道《力学》解读",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-lin-heavy-ion-reactions.md",
+      "id": "book-lin-heavy-ion-reactions",
+      "title": "林承键 2017 - 重离子核反应",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-lu-nuclear-physics-chinese.md",
+      "id": "book-lu-nuclear-physics-chinese",
+      "title": "卢希庭 2000 - 原子核物理（修订版）",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-moller-2019-frdm-nuclear-properties.md",
+      "id": "book-moller-2019-frdm-nuclear-properties",
+      "title": "P. Möller 等 2019 - Nuclear Properties for Astrophysical and Radioactive-Ion-Beam Applications II (FRDM 2012)",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-nakhostin-signal-processing-detectors.md",
+      "id": "book-nakhostin-signal-processing-detectors",
+      "title": "Mohammad Nakhostin (吴鸿毅译) 2020 - 辐射探测器信号处理",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+      "id": "book-nuclear-shell-model-70-years",
+      "title": "The Nuclear Shell Model 70 Years after Its Advent: Achievements and Prospects",
+      "reading_depth": "read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "id": "book-petrache-chirality-and-wobbling",
+      "title": "Petrache (ed.) — Chirality and Wobbling in Atomic Nuclei (CRC, 2025 imprint)",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-raduta-coherent-states.md",
+      "id": "book-raduta-coherent-states",
+      "title": "A. A. Raduta 2016 - Nuclear Structure with Coherent States",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-suhonen-from-nucleons-to-nucleus.md",
+      "id": "book-suhonen-from-nucleons-to-nucleus",
+      "title": "Jouni Suhonen 2007 - From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-tongji-higher-mathematics-vol2.md",
+      "id": "book-tongji-higher-mathematics-vol2",
+      "title": "同济大学数学系 2014 - 高等数学第七版下册",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-wang-particle-detection.md",
+      "id": "book-wang-particle-detection",
+      "title": "汪晓莲等 2009 - 粒子探测技术",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-wu-nuclear-experiment-methods.md",
+      "id": "book-wu-nuclear-experiment-methods",
+      "title": "吴治华 2005 - 原子核物理实验方法（第三版）",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-xiong-wang-2019-chiral-tables.md",
+      "id": "book-xiong-wang-2019-chiral-tables",
+      "title": "B. W. Xiong & Y. Y. Wang 2019 - Nuclear Chiral Doublet Bands Data Tables",
+      "reading_depth": "deep-read",
+      "claims": 0
+    },
+    {
+      "file": "knowledge/sources/book-zhu-probability-statistics-in-physics.md",
+      "id": "book-zhu-probability-statistics-in-physics",
+      "title": "朱永生 2006 - 实验物理中的概率和统计（第二版）",
+      "reading_depth": "deep-read",
+      "claims": 0
+    }
+  ],
+  "new_method_contracts": [
+    "knowledge/methods/bm1-symmetries-fermi-gas-and-nuclear-matter-contract.md",
+    "knowledge/methods/casten-valence-pn-interaction-and-casten-triangle-contract.md",
+    "knowledge/methods/lu-nuclear-physics-core-theories-and-decay-contract.md",
+    "knowledge/methods/lin-heavy-ion-fusion-and-barrier-distribution-contract.md",
+    "knowledge/methods/nakhostin-digital-pulse-processing-and-shaping-contract.md",
+    "knowledge/methods/zhu-advanced-statistics-and-parameter-estimation-contract.md"
+  ],
+  "lint_status": {
+    "errors": 0,
+    "warnings": 555,
+    "pages": 1342,
+    "wikilinks": 12884,
+    "hashes": 456
+  },
+  "test_suite": {
+    "tests_ran": 625,
+    "status": "OK"
+  },
+  "boundary_check": "ok",
+  "archive_gate": "ok"
+}

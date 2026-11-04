@@ -78,6 +78,7 @@ class PoissonPeakInferenceTests(unittest.TestCase):
             test["p_asymptotic_local"], 0.5 * math.erfc(math.sqrt(q0 / 2)))
         # Endpoints solve delta deviance = 1 and are asymmetric.
         interval = result["profile_likelihood_interval"]
+        self.assertEqual(interval["profile_method"], "zhu-ch13-profile-threshold")
         for endpoint in (interval["lower_counts"], interval["upper_counts"]):
             means = peak.gaussian_peak_model([0], endpoint, 0, 1, 5)
             self.assertAlmostEqual(

@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [beta-decay, phase-space-factor, log-ft, fermi-function, cvc-hypothesis, ckm-matrix, v-ud, weak-interaction, selection-rules]
+tags: [beta-decay, phase-space-factor, log-ft, fermi-function, cvc-hypothesis, ckm-matrix, v-ud, weak-interaction, selection-rules]
 ---
 
 # β衰变相空间积分因子f(Z,Q)、比较半衰期log(ft)与超允许CVC弱电统一检验
 
-## 1. 物理全景：从原始半衰期中剥离运动学相空间
+## Definition
+
+### 物理全景：从原始半衰期中剥离运动学相空间
 
 在低能核物理与弱相互作用实验中，放射性原子核的 $\beta$ 衰变不仅是合成未知同位素的基本衰变通道，更是检验标准模型电弱统一理论、守恒矢量流（CVC）假说与 CKM 夸克混合矩阵幺正性的最精密微观实验室。
 根据卢希庭《原子核物理（修订版）》（第 6 章）、K. S. Krane《Introductory Nuclear Physics》以及 J. C. Hardy & I. S. Towner（Phys. Rev. C 102, 045501, 2020）：
@@ -28,7 +30,9 @@ topics: [beta-decay, phase-space-factor, log-ft, fermi-function, cvc-hypothesis,
 
 ---
 
-## 2. 严格相对论相空间积分推导
+## Necessary Assumptions
+
+### 严格相对论相空间积分推导
 
 ### (1) 相对论性无量纲坐标与端点能量
 采用相对论轻子自然单位制（以电子静止能量 $m_e c^2 = 0.510999\text{ MeV}$ 与康普顿波长 $\hbar / m_e c$ 为基准）：
@@ -59,7 +63,13 @@ $$\log_{10} ft = \log_{10} f + \log_{10} t_{1/2}\text{ (秒)}$$
 
 ---
 
-## 3. 跃迁禁戒度分类法典（Classification of Forbiddenness）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 跃迁禁戒度分类法典（Classification of Forbiddenness）
 
 通过提取的 $\log ft$ 数值，核结构物理学家能够严格逆推核能级的自旋和宇称变化：
 
@@ -116,6 +126,19 @@ python3 system/scripts/analysis/nuclear_analyzer.py beta \
 
 ---
 
-## 6. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[gamow-teller-resonance-ikeda-sum-rule-and-ga-quenching]]：允许 Gamow-Teller 衰变在核介质中的淬灭效应与超允许纯 Fermi 跃迁的不受淬灭形成鲜明对比；
 - [[quasiparticle-random-phase-approximation-qrpa-dynamics]]：pnQRPA 正是计算开壳层复杂核 $\beta$ 衰变及无中微子双贝塔（$0\nu\beta\beta$）半衰期的标准多体理论框架。

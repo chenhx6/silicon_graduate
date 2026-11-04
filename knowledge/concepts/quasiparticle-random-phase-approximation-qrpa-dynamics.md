@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [qrpa, pnqrpa, bcs-quasiparticle, ground-state-correlations, double-beta-decay, gpp-parameter, ikeda-sum-rule, collective-vibrations]
+tags: [qrpa, pnqrpa, bcs-quasiparticle, ground-state-correlations, double-beta-decay, gpp-parameter, ikeda-sum-rule, collective-vibrations]
 ---
 
 # 准粒子无规相位近似（QRPA）、基态关联与超流核多体集体振动动力学
 
-## 1. 物理全景：超越平均场的谐振子小振幅量子涨落理论
+## Definition
+
+### 物理全景：超越平均场的谐振子小振幅量子涨落理论
 
 在开壳层原子核中，费米面附近的核子由于短程吸引配对力形成 BCS 超流体态（Superfluid Vacuum, $|\text{BCS}\rangle$）。然而，真实的原子核不仅具有静态平均场与静态对能隙，而且表现出强烈的动力学表面集体振动（如低激发态 $2_1^+, 3_1^-$ 声子）与高激发态巨多极共振（如 IVGDR, ISGQR, GTGR）。
 
@@ -26,7 +28,9 @@ topics: [qrpa, pnqrpa, bcs-quasiparticle, ground-state-correlations, double-beta
 
 ---
 
-## 2. QRPA 运动方程与非厄米超矩阵本征值问题
+## Necessary Assumptions
+
+### QRPA 运动方程与非厄米超矩阵本征值问题
 
 ### (1) 声子生成算符与准粒子双重表象
 定义多极性为 $J M$ 的双准粒子对算符：
@@ -52,7 +56,13 @@ $$\sum_{a \le b} \left( |X_{ab}^\nu|^2 - |Y_{ab}^\nu|^2 \right) = 1$$
 
 ---
 
-## 3. 质子-中子 QRPA（pnQRPA）与粒子-粒子相互作用参数 $g_{pp}$
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 质子-中子 QRPA（pnQRPA）与粒子-粒子相互作用参数 $g_{pp}$
 
 在电荷交换反应（如 $(p, n), (n, p)$）与单/双贝塔衰变中，体系涉及质子向中子（或中子向质子）的转换，对应由**质子-中子对算符 $[a_p^\dagger a_n^\dagger]_{JM}$ 构成的 pnQRPA 框架**。
 
@@ -101,3 +111,18 @@ $$S_-(GT) - S_+(GT) = \sum_m B(GT_-; 0_{\text{g.s.}}^+ \to 1_m^+) - \sum_m B(GT_
 3. **Vogel, P. & Zirnbauer, M. R.** (1986). Suppression of the two-neutrino double beta decay by nuclear-structure effects. *Phys. Rev. Lett.*, 57(25), 3148-3151.
 4. **Civitarese, O., Faessler, A., & Tomoda, T.** (1987). Suppression of the two-neutrino $\beta\beta$ decay by the proton-neutron-quasiparticle interaction. *Phys. Lett. B*, 194(1), 11-14.
 5. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 8 章：原子核集体运动与微观多体模型. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

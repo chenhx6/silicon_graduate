@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-03",
+  "source": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+  "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+  "reading_status": "bounded visual verification of Chapter 6; not full-book completion",
+  "scope": {
+    "chapter": "6",
+    "physical_pdf_pages": [127, 135],
+    "printed_pages": [108, 116],
+    "equations": ["6.3", "6.4", "6.5", "6.6", "6.7", "6.8", "6.9", "6.10", "6.11", "6.12", "6.13", "6.14", "6.15", "6.16", "6.17", "6.18", "6.19", "6.20", "6.21", "6.22"],
+    "figures": ["6.2", "6.3", "6.4", "6.5"],
+    "table": "6.1"
+  },
+  "visual_checks": [
+    {
+      "physical_pdf_page": 131,
+      "printed_page": 112,
+      "objects": ["wobbling B(E2) relations", "TiP Hamiltonian", "TiP m quantum number", "Eq. 6.14-6.15"]
+    },
+    {
+      "physical_pdf_page": 132,
+      "printed_page": 113,
+      "objects": ["Fig. 6.3", "linear versus quadratic excitation", "Eqs. 6.16-6.17"]
+    },
+    {
+      "physical_pdf_page": 134,
+      "printed_page": 115,
+      "objects": ["Q0/Q2 transformation", "TiP/wobbling B(E2) differences", "delta-m and delta-n selection rules"]
+    },
+    {
+      "physical_pdf_page": 135,
+      "printed_page": 116,
+      "objects": ["high-spin harmonic approximation", "Eq. 6.22", "TSD section entrance"]
+    },
+    {
+      "physical_pdf_page": 148,
+      "printed_page": 129,
+      "objects": ["experimental 192Os energy and B(E2) comparison", "TiP versus wobbling interpretation"]
+    }
+  ],
+  "implementation": {
+    "module": "system/scripts/analysis/triaxial_wobbling_tip_chiral_analyzer.py",
+    "function": "calculate_lawrie_tip_wobbling_metrics",
+    "outputs": [
+      "delta_sum",
+      "R_2gamma_2g",
+      "R_3gamma_2gamma",
+      "delta-k-2 input",
+      "high-spin harmonicity f(n,I)",
+      "reference expectations without automatic mode confirmation"
+    ]
+  },
+  "tests": [
+    "192Os-like TiP energy-sum benchmark",
+    "B(E2) ratio calculation",
+    "harmonicity parameter calculation",
+    "mode_verdict remains None",
+    "complete analysis regression suite"
+  ],
+  "status": "passed",
+  "writeback": [
+    "knowledge/methods/lawrie-tip-wobbling-discrimination.md",
+    "knowledge/index.md",
+    "system/scripts/analysis/triaxial_wobbling_tip_chiral_analyzer.py",
+    "system/scripts/analysis/test_analysis_suite.py"
+  ],
+  "evidence_boundary": "The method card records Lawrie model discriminants and selected visual page checks. It does not resolve any specific nuclear wobbling/TiP controversy or certify a complete reading of the Petrache volume."
+}

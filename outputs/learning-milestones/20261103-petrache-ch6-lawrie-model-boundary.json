@@ -1,0 +1,38 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "逐页核对 Petrache 编著本第6章 Lawrie 的 TiP/wobbling 模型比较与适用边界",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "scope": "Chapter 6 PDF pp.127-155 / printed pp.108-136, page-by-page text and rendered verification",
+    "evidence_route": "native text extraction plus rendered page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/lawrie-tip-wobbling-discrimination.md",
+      "reason": "corrected model conditions, delta-n/delta-m terminology, M1 boundary and source typo"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "added CW-16 to CW-20 direct chapter claims and conditions"
+    }
+  ],
+  "source_locators": [
+    "PDF pp.130-135 / printed pp.111-116, Eqs.6.7-6.22",
+    "PDF pp.140-143 / printed pp.121-124, transverse-coupling B(M1) and QTR examples",
+    "PDF pp.146-148 / printed pp.127-129, Table 6.1 and experimental workflow",
+    "PDF p.152 / printed p.133, 135Pr two mixing-ratio branches",
+    "PDF pp.149-151 / printed pp.130-132, 163Lu high-spin equivalence boundary"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "boundary": [
+      "Table 6.1 is a conditional model comparison, not an automatic classifier",
+      "delta-n/delta-m are theoretical labels; experimental k is only a band-indexing label",
+      "single energy sum, B(E2), B(M1), or mixing-ratio branch does not confirm a mode"
+    ]
+  }
+}

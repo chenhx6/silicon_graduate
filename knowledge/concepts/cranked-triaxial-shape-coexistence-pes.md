@@ -11,7 +11,9 @@ tags: [triaxiality, shape-coexistence, cranked-strutinsky, pes, potential-energy
 
 # Cranked Strutinsky triaxial shape coexistence potential energy surface (PES) and spin-induced yrast shape transitions
 
-## Phenomenological Definition & Microscopic Origin
+## Definition
+
+### Phenomenological Definition & Microscopic Origin
 
 In transitional nuclei across multiple mass regions ($A \approx 130$ Ba-Ce; $A \approx 70$ Kr-Se; $A \approx 180$ Pt-Pb), competing shell structures produce **Shape Coexistence**: the presence of multiple local minima on the 2D $(\beta_2, \gamma)$ collective quadrupole potential energy surface.
 
@@ -69,3 +71,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py coexpes --preset 186Pb_tripl
 - **W. Greiner & J. A. Maruhn**, *Nuclear Models* (Springer 1996), Chapter 8.
 - **S. Frauendorf**, Rev. Mod. Phys. 73, 463 (2001): *Spontaneous symmetry breaking in rotating nuclei*.
 - **Petrache et al.**, Phys. Rev. C 99, 044303 (2019): *Diversity of shapes and rotations in 130Ba*.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

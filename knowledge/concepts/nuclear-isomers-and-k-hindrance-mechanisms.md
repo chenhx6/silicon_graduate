@@ -6,12 +6,14 @@ created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [nuclear-isomers, k-quantum-number, transition-hindrance, spin-traps, delayed-gamma-spectroscopy]
+tags: [nuclear-isomers, k-quantum-number, transition-hindrance, spin-traps, delayed-gamma-spectroscopy]
 ---
 
 # 同核异能态微观机制、K-阻碍跃迁与在束谱学时间窗判据
 
-## 1. 物理全景：同核异能态（Isomer）定义与四大分类
+## Definition
+
+### 物理全景：同核异能态（Isomer）定义与四大分类
 
 在原子核激发态能谱中，大多数电磁辐射退激（$\gamma$ 跃迁）发生在飞秒至皮秒量级（$10^{-15} \sim 10^{-12}\text{ s}$）。然而，当电磁跃迁几率由于波函数空间重叠极小、自旋跨度过大或对称性量子数守恒受到极端阻碍时，激发态寿命可延长至纳秒（ns）、微秒（$\mu\text{s}$）、毫秒乃至数年。在实验谱学上，通常将**半衰期 $T_{1/2} \ge 1\text{ ns}$ 的激发态定义为同核异能态（Nuclear Isomer）**。
 
@@ -30,7 +32,9 @@ topics: [nuclear-isomers, k-quantum-number, transition-hindrance, spin-traps, de
 
 ---
 
-## 2. $K$-同核异能态与跃迁禁戒度数学理论
+## Necessary Assumptions
+
+### $K$-同核异能态与跃迁禁戒度数学理论
 
 ### (1) $K$ 量子数与禁戒度 $\nu$
 在强四极形变的轴对称原子核中，角动量在内禀对称轴（$z$ 轴）上的投影分量 $K$ 是一个良好的渐近守恒量子数。
@@ -53,7 +57,13 @@ $$f_\nu = (F_W)^{1/\nu} = \left( \frac{T_{1/2}^{\text{exp}}}{T_{1/2}^{\text{sp}}
 
 ---
 
-## 3. 在束 $\gamma$ 谱学实验设计中的时间窗应对
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 在束 $\gamma$ 谱学实验设计中的时间窗应对
 
 同核异能态对在束核物理实验装置的几何与定时逻辑具有决定性影响：
 
@@ -64,3 +74,18 @@ $$f_\nu = (F_W)^{1/\nu} = \left( \frac{T_{1/2}^{\text{exp}}}{T_{1/2}^{\text{sp}}
    熔合反冲核在真空靶室中具有速度 $v \approx 2\% c \approx 6\text{ mm/ns}$。
    若异能态寿命为几纳秒，反冲核将在飞行数厘米后才发射 $\gamma$ 射线，导致发射点严重脱离 HPGe 阵列的聚焦几何中心，引起强烈的角畸变与效率损失。
    - *对策*：必须采用厚靶停阻衬底（如金/铅衬底，反冲停阻时间约 $1\text{ ps}$），使反冲核瞬间停在靶位点处退激，彻底消除空间飞行弥散！
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "在束真空退取向效应（Deorientation）、超精细相互作用与角分布衰减修正指南"
 aliases: [退取向效应, 扰动角关联, 超精细磁场进动, Gk衰减因子, 真空退取向校正]
 created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [deorientation-effect, hyperfine-interactions, pac, attenuation-factors, angular-distribution-correction, in-beam-spectroscopy]
+tags: [deorientation-effect, hyperfine-interactions, pac, attenuation-factors, angular-distribution-correction, in-beam-spectroscopy]
 ---
 
 # 在束真空退取向效应（Deorientation）、超精细相互作用与角分布衰减修正指南
 
-## 1. 物理测量背景：高电荷态离子与随机超精细扰动
+## Purpose
+
+### 物理测量背景：高电荷态离子与随机超精细扰动
 
 在重离子熔合蒸发反应中，反冲核穿出薄靶飞入真空靶室时，由于与靶原子的剧烈碰撞剥离，其核外电子壳层发生高阶电离，形成**高电荷态反冲离子（Highly Stripped Recoil Ions）**（在 $A\approx 130$ 质量区，反冲离子平均电荷态达 $q \sim 15 \sim 25+$）。
 
@@ -23,7 +26,9 @@ topics: [deorientation-effect, hyperfine-interactions, pac, attenuation-factors,
 
 ---
 
-## 2. 衰减因子 $G_k(t)$ 与 Abragam-Pound 随机弛豫模型
+## Inputs and Assumptions
+
+### 衰减因子 $G_k(t)$ 与 Abragam-Pound 随机弛豫模型
 
 ### (1) 时间微分角分布方程
 在超精细场扰动下，含时方向角分布函数表达为未受扰分布与衰减因子 $G_k(t)$ 的乘积：
@@ -48,9 +53,21 @@ $$G_k(\tau) = \frac{1}{\tau} \int_0^\infty G_k(t) e^{-t/\tau} dt = \frac{1}{1 + 
 
 ---
 
-## 3. 实验对策与气体充气反冲技术（Gas Decoupling）
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 实验对策与气体充气反冲技术（Gas Decoupling）
 
 1. **薄靶衬底直接停阻法（Backing Target）**：
    若实验重点是测量角分布，采用具有高电导率的重金属衬底（如金 Au 衬底）。反冲核穿靶后在 $\sim 1\text{ ps}$ 内停入金属点阵，金属中丰富的传导电子海在飞秒尺度内将离子完全中和（$B_{\text{hf}} \to 0$），彻底消除退取向！
 2. **充气靶室动态解耦（Gas-Filled Decoupling）**：
    若必须使用薄靶飞行测量（如 RDM 活塞法），在靶室中充入数百帕的氢气或氦气，利用密集的分子碰撞强行缩短电子弛豫时间（$\tau_r \to 0$），将 $G_k$ 恢复至接近 1.0。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

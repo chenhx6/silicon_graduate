@@ -1,0 +1,64 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Bohr & Mottelson《Nuclear Structure》第一卷第 3 章 §3-3（电磁矩与跃迁矩阵元）与附录 3C（电磁多极辐射场展开与 Weisskopf 单粒子基准）的精读与系统核验",
+  "source": {
+    "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+    "raw_file": "raw/books/nuclear structure Ⅰ_Bohr, Mottelson.pdf",
+    "raw_sha256": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df",
+    "chapter": "3 and Appendix 3C",
+    "chapter_title": "Chapter 3: Single-Particle Configurations (§3-3); Appendix 3C: Matrix Elements for Electromagnetic Interactions",
+    "authors": "Aage Bohr and Ben R. Mottelson",
+    "scope": "Printed pp.332-345 and pp.379-391 / physical PDF pp.351-364 and pp.398-410",
+    "evidence_route": "native text extraction plus analytical equation and table verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/bm1-electromagnetic-multipoles-and-single-particle-contract.md",
+      "reason": "established method contract on long-wavelength multipole expansion, transition rates, Weisskopf single-particle units, core polarization effective charges, and Schmidt limits"
+    },
+    {
+      "path": "knowledge/sources/book-bohr-mottelson-nuclear-structure.md",
+      "reason": "updated reading scope to include Section 3-3 and Appendix 3C, registered claims BM1-3 to BM1-7"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the BM1 electromagnetic multipoles and single-particle contract"
+    },
+    {
+      "path": "knowledge/concepts/electromagnetic-transition-rates-weisskopf-and-alaga-rules.md",
+      "reason": "linked BM1 multipole expansion and Weisskopf units derivation"
+    },
+    {
+      "path": "knowledge/methods/microscopic-electromagnetic-transition-matrix-elements.md",
+      "reason": "linked BM1 single-particle multipole operators and effective charges"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.351 Eq. 3-27 (Single-particle electric quadrupole moment Qsp definition)",
+    "PDF p.353 Eq. 3-32 (Single-particle B(E2) transition probability)",
+    "PDF p.354 (Discussion of closed shell core polarization and effective charge e_eff)",
+    "PDF p.355 Eq. 3-35 to 3-38 (Magnetic dipole moment operator and Schmidt limits)",
+    "PDF p.356 Eq. 3-39 to 3-41 (M1 reduced transition probability and delta l=0 selection rule)",
+    "PDF p.401 Eq. 3C-16 to 3C-18 (Electromagnetic radiation transition rate T(sigma lambda) explicit constants)",
+    "PDF p.408 Eq. 3C-38 (Weisskopf single-particle unit B_W(E lambda) and B_W(M lambda) analytical expressions)"
+  ],
+  "claims": [
+    "In the long-wavelength limit qr << 1, the multipole radiation field yields decay rate T(sigma lambda) proportional to reduced transition probability B(sigma lambda) with explicit numerical conversion factors for E1-E4 and M1-M4.",
+    "Weisskopf single-particle units B_W(E lambda) and B_W(M lambda) derived from an idealized single-particle transition in a rigid sphere of radius R = 1.2 A^(1/3) fm provide model-independent collective enhancement benchmarks.",
+    "The single-proton quadrupole moment Qsp = -[(2j-1)/(2j+2)] <r^2> exhibits an equatorial charge concentration for m=j, while a single-proton hole state has Qhole = -Qsp due to particle-hole conjugation.",
+    "Core polarization by valence nucleons via virtual coupling to the high-lying 2 hbar omega_0 isoscalar giant quadrupole resonance induces effective charges e_eff(p) ~ 1.5e and e_eff(n) ~ 0.5e.",
+    "Single-particle magnetic dipole moments follow the two Schmidt limits for j = l +/- 1/2, and single-particle M1 transitions are strictly forbidden across different orbital angular momentum states (delta l = 0), occurring solely between spin-orbit partners."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded section and appendix text and formula unit",
+    "remaining_queue": "Remaining chapters and illustrative examples of Bohr & Mottelson Vol. I remain queued",
+    "boundary": [
+      "Weisskopf units assume constant radial wave function and neglect realistic radial nodes and pairing correlations",
+      "Core polarization effective charge e_pol ~ Z/A is a leading-order macroscopic estimate that varies near drip lines",
+      "Schmidt lines neglect meson-exchange currents and tensor-force core polarization that quench empirical magnetic moments"
+    ]
+  }
+}

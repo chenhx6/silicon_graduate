@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [wigner-racah-algebra, 9j-symbol, 6j-symbol, ls-to-jj-coupling, angular-momentum-recoupling, shell-model, tensor-algebra]
+tags: [wigner-racah-algebra, 9j-symbol, 6j-symbol, ls-to-jj-coupling, angular-momentum-recoupling, shell-model, tensor-algebra]
 ---
 
 # Wigner-Racah角动量代数、9j符号严格代数求解与L-S到j-j重耦合系数法典
 
-## 1. 物理全景：核壳模型与跃迁矩阵元的底层代数基石
+## Definition
+
+### 物理全景：核壳模型与跃迁矩阵元的底层代数基石
 
 在量子力学与微观核结构多体理论中，角动量耦合不仅是标定核能级量子数（$J^\pi$）的工具，更是计算微观两体剩余相互作用矩阵元（如中心力、张量力、自旋-轨道力）与电磁跃迁几率的底层数学中枢。
 当体系涉及三个角动量耦合时，变换由 Racah $W$ 系数或 Wigner $6j$ 符号完全解决；
@@ -25,7 +27,9 @@ $$| ((j_1 j_2) j_{12}, (j_3 j_4) j_{34}) J \rangle \longleftrightarrow | ((j_1 j
 
 ---
 
-## 2. 严格数学展开与 Racah 三重 $6j$ 收缩方程
+## Necessary Assumptions
+
+### 严格数学展开与 Racah 三重 $6j$ 收缩方程
 
 ### (1) Wigner $9j$ 符号的定义与对称性
 $9j$ 符号由 $3 \times 3$ 矩阵的 9 个角动量构成，满足行三角定则与列三角定则：
@@ -64,7 +68,13 @@ $$\sum_{j_1, j_2} |\langle jj | LS; J \rangle|^2 = 1, \qquad \sum_{L, S} |\langl
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/wigner_racah_algebra_9j_calculator.py`
@@ -87,6 +97,19 @@ python3 system/scripts/analysis/nuclear_analyzer.py w9j --recouple-demo --json
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[surface-delta-interaction-and-pandya-transformation]]：表面 $\delta$ 相互作用在进行粒子-空穴变换时依赖此类 Racah 代数重整；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[two-body-residual-interaction-surface-delta-and-pandya]]：表面 $\delta$ 相互作用在进行粒子-空穴变换时依赖此类 Racah 代数重整；
 - [[wigner-supermultiplet-su4-and-mass-cusp]]：Wigner 超多重态在从非相对论 $L-S$ 表象投影至现实自旋-轨道势场中时，必须通过该 $9j$ 矩阵进行对角化。

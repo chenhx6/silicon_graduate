@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [oslo-method, nuclear-level-density, gamma-strength-function, brink-axel-hypothesis, low-energy-enhancement, neutron-capture-rate, primary-gamma-matrix]
+tags: [oslo-method, nuclear-level-density, gamma-strength-function, brink-axel-hypothesis, low-energy-enhancement, neutron-capture-rate, primary-gamma-matrix]
 ---
 
 # 奥斯陆方法（Oslo Method）、核能级密度（NLD）与伽马光子强度函数（γSF）联合反演动力学
 
-## 1. 物理全景：统计能区核结构与天体物理俘获截面的核心输入
+## Definition
+
+### 物理全景：统计能区核结构与天体物理俘获截面的核心输入
 
 在原子核中高激发能区（$E_x \ge 3 \sim 8\text{ MeV}$，中子分离能 $S_n$ 附近），离散孤立能级转变为极其密集的准连续能级谱（Quasi-continuum）。在该统计能区，核反应截面（如快中子辐射俘获 $(n, \gamma)$ 天体 $r$ 过程与 $s$ 过程核合成速率）由两大微观统计物理量主导：
 1. **核能级密度（Nuclear Level Density, NLD, $\rho(E_x)$）**：单位能量间隔内的核量子能级总数；
@@ -21,7 +23,9 @@ topics: [oslo-method, nuclear-level-density, gamma-strength-function, brink-axel
 
 ---
 
-## 2. 物理公理：Brink-Axel 假说与一阶主跃迁矩阵因子化
+## Necessary Assumptions
+
+### 物理公理：Brink-Axel 假说与一阶主跃迁矩阵因子化
 
 ### (1) Brink-Axel 假说（D. M. Brink 1955, P. Axel 1962）
 Brink-Axel 假说假设：
@@ -40,7 +44,13 @@ Brink-Axel 假说假设：
 
 ---
 
-## 3. 数学本质：三参数连续李群变换简并（Lie Group Invariance）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 数学本质：三参数连续李群变换简并（Lie Group Invariance）
 
 Schiller 等人（NIM A 447, 498, 2000）严格证明，对于归一化的主跃迁矩阵 $P(E_x, E_\gamma)$（满足 $\sum_{E_\gamma} P(E_x, E_\gamma) = 1$），方程 $P(E_x, E_\gamma) \propto \rho(E_x - E_\gamma) \mathcal{T}(E_\gamma)$ 存在连续三参数群变换简并：
 $$\tilde{\rho}(E_x - E_\gamma) = A \exp[\alpha (E_x - E_\gamma)] \cdot \rho(E_x - E_\gamma)$$
@@ -106,3 +116,18 @@ $$\langle \Gamma_{\gamma 0} \rangle = \frac{D_0}{2\pi} \sum_{I_f, \pi_f} \int_0^
 4. **Guttormsen, M. et al.** (1990). First generation $\gamma$-rays from highly excited nuclei. *Phys. Scr.*, T32, 54-60.
 5. **Larsen, A. C. & Goriely, S.** (2010). Extreme low-energy enhancement of the $\gamma$-ray strength function of exotic neutron-rich nuclei and its consequence for stellar reaction rates. *Phys. Rev. C*, 82(1), 014318.
 6. **Larsen, A. C. et al.** (2026). *The Oslo method for nuclear-model ingredients: Recent results and applications*. IJCLab Seminar Presentation.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

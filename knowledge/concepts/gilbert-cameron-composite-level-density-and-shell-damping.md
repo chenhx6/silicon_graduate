@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [level-density, gilbert-cameron, ignatyuk-damping, back-shifted-fermi-gas, constant-temperature-model, s-wave-resonance, hauser-feshbach, statistical-decay]
+tags: [level-density, gilbert-cameron, ignatyuk-damping, back-shifted-fermi-gas, constant-temperature-model, s-wave-resonance, hauser-feshbach, statistical-decay]
 ---
 
 # Gilbert-Cameron复合核能级密度公式与Ignatyuk壳效应热阻尼动力学
 
-## 1. 物理全景：连续区统计衰变与能级密度的基石地位
+## Definition
+
+### 物理全景：连续区统计衰变与能级密度的基石地位
 
 在低能核物理、高自旋核结构与核反应动力学中，原子核的**能级密度（Nuclear Level Density, $\rho(E, J, \pi)$）**是连接微观离散单粒子/集体能态与宏观热力学连续相的核心物理量。
 无论是化合物核的粒子蒸发谱（Hauser-Feshbach 统计模型，如 TALYS、EMPIRE、PACE4、CASCADE 代码）、准连续区退激（$\gamma$-热化瀑布、准连续 $\gamma$ 谱、Oslo 方法提取核能级密度与巨偶极共振 $\gamma$ 强度函数），还是超重核与裂变位垒穿透几率计算，能级密度都是最关键的输入参数。
@@ -26,7 +28,9 @@ topics: [level-density, gilbert-cameron, ignatyuk-damping, back-shifted-fermi-ga
 
 ---
 
-## 2. 严格物理公式与数学结构
+## Necessary Assumptions
+
+### 严格物理公式与数学结构
 
 ### (1) 配对能移动（Pairing Shift, $\Delta$）与有效激发能
 由于核子配对相互作用，偶偶核的基态由 BCS 凝聚配对对隙占据，需要消耗配对能 $2\Delta$ 才能产生双准粒子激发。
@@ -110,7 +114,13 @@ $$f(J, \sigma^2) = \frac{2J + 1}{2\sigma^2} \exp\left(-\frac{(J + 1/2)^2}{2\sigm
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/gilbert_cameron_level_density_calculator.py`
@@ -131,7 +141,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py density -Z 82 -A 208 -E 10.0
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[oslo-method-nuclear-level-density-and-gamma-strength-function]]：Oslo 方法正是利用 $D_0$ 将未归一化的斜率参数变换为物理能级密度；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[oslo-method-level-density-and-gamma-strength-function]]：Oslo 方法正是利用 $D_0$ 将未归一化的斜率参数变换为物理能级密度；
 - [[heavy-ion-fusion-evaporation-and-statistical-decay]]：化合物核蒸发宽度 $\Gamma_n, \Gamma_p, \Gamma_\alpha$ 完全正比于子核的能级密度；
-- [[fission-barriers-and-superheavy-stability]]：超重核存活几率中的 $\Gamma_n / \Gamma_f$ 竞争，本质是裂变鞍点过渡态能级密度与中子蒸发残核能级密度的比值。
+- [[fission-barriers-strutinsky-and-superheavy-dynamics]]：超重核存活几率中的 $\Gamma_n / \Gamma_f$ 竞争，本质是裂变鞍点过渡态能级密度与中子蒸发残核能级密度的比值。

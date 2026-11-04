@@ -69,6 +69,7 @@ PRESETS = {
     "156Gd_axial_prolate_baseline": {
         "nucleus": "156Gd",
         "description": "Classic axial prolate scissors mode baseline (beta2=0.34, gamma=0 deg)",
+        "data_kind": "synthetic_model_benchmark",
         "A": 156, "Z": 64,
         "beta2": 0.34,
         "gamma_deg": 0.0,
@@ -79,6 +80,7 @@ PRESETS = {
     "134Ba_triaxial_scissors_doublet": {
         "nucleus": "134Ba",
         "description": "Transitional triaxial nucleus with scissors mode splitting (beta2=0.22, gamma=24 deg)",
+        "data_kind": "synthetic_model_benchmark",
         "A": 134, "Z": 56,
         "beta2": 0.22,
         "gamma_deg": 24.0,
@@ -89,6 +91,7 @@ PRESETS = {
     "196Pt_gamma_soft_oblate": {
         "nucleus": "196Pt",
         "description": "Heavy gamma-soft/oblate scissors mode candidate (beta2=0.15, gamma=45 deg)",
+        "data_kind": "synthetic_model_benchmark",
         "A": 196, "Z": 78,
         "beta2": 0.15,
         "gamma_deg": 45.0,
@@ -179,6 +182,9 @@ class TriaxialScissorsModeM1Solver:
         is_split = bool(self.gamma_deg > 3.0 and self.gamma_deg < 57.0 and BM1_s > 0.05 and BM1_l > 0.05)
 
         return {
+            "analysis_kind": "phenomenological_trm_model",
+            "data_kind": "synthetic_model_benchmark",
+            "methodological_boundary": "Unfragmented Two-Rotor Model (TRM) centroid and EWSR; does not account for quasiparticle-phonon fragmentation in realistic NRF experiments",
             "nucleus_A": self.A, "nucleus_Z": self.Z,
             "beta2": self.beta2, "gamma_deg": self.gamma_deg,
             "shear_deformations": {"delta_s": delta_s, "delta_l": delta_l},

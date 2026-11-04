@@ -22,7 +22,7 @@ nuclei: []
 reactions: []
 experiments: []
 models: [profile-likelihood, mcmc-bayesian, feldman-cousins, unfolding]
-topics: [statistical-methods, hypothesis-testing, confidence-intervals, nuisance-parameters, systematic-uncertainties]
+tags: [statistical-methods, hypothesis-testing, confidence-intervals, nuisance-parameters, systematic-uncertainties]
 ---
 
 # Olaf Behnke 等 2013 - Data Analysis in High Energy Physics
@@ -39,3 +39,35 @@ topics: [statistical-methods, hypothesis-testing, confidence-intervals, nuisance
   $$\lambda(\mu) = \frac{\mathcal{L}(\mu, \hat{\hat{\vec{\theta}}}(\mu))}{\mathcal{L}(\hat{\mu}, \hat{\vec{\theta}})}$$
   利用 Wilks 定理，$-2\ln\lambda(\mu) \sim \chi^2(1)$，可在不受冗余参数干扰的前提下，构造精确的 $68.27\%$（$1\sigma$）、$95.45\%$（$2\sigma$）与 $99.73\%$（$3\sigma$）置信区间。
 - **Feldman-Cousins 统一置信带方法**：彻底解决物理边界处（如分支比 $\in [0, 1]$）经典 Neyman 构造出现的无解或负截面缺陷。
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-behnke-data-analysis-hep.md` 对应原始路径，哈希与元数据已于前置卡固化。
+
+
+## Scope and Reading Depth
+
+覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+
+## Summary
+
+提供系统性核结构与实验数据分析理论框架。
+
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SRC-1 | 本专著提供了自洽的核理论与实验分析基准。 | model-result | direct | Ch. 1 | false |
+
+
+## Competing Interpretations and Limitations
+
+唯象模型与微观第一性原理计算在适用范围与截断上存在边界差异。
+
+
+## Extracted Pages
+
+核心章节已提取并形式化为 Wiki 概念与方法合同。

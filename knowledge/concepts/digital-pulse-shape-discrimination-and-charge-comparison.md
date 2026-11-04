@@ -11,7 +11,9 @@ tags: [detector-physics, digital-signal-processing, organic-scintillators, pulse
 
 # Digital pulse shape discrimination (PSD), charge comparison and neutron-gamma FOM
 
-## Physical Origin: Scintillation Decay and Ionization Density ($dE/dx$)
+## Definition
+
+### Physical Origin: Scintillation Decay and Ionization Density ($dE/dx$)
 
 In experimental in-beam $\gamma$-ray spectroscopy and reaction channel selection (e.g. discriminating prompt evaporation neutrons from $\gamma$-rays in liquid scintillators like BC-501A, EJ-301, or organic crystals like Stilbene), particle identification relies on the **linear energy transfer ($dE/dx$) dependence of fluorescence decay**:
 
@@ -73,8 +75,36 @@ At low electron-equivalent energies ($E_{ee} \le 100\text{ keVee}$), Poisson flu
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Nakhostin, M.**: *Signal Processing for Radiation Detectors*, John Wiley & Sons (2017) / 科学出版社中译本, Chapter 4 (Digital Pulse Processing & Particle Identification), pp. 110–145.
 - **Wang Xiaolian (汪晓莲) et al.**: *Particle Detection Technology* (《粒子探测技术》), USTC Press (2009), Chapters 4 & 8.
 - **Knoll, G. F.**: *Radiation Detection and Measurement*, 4th ed., John Wiley & Sons (2010), Chapters 8 & 15.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

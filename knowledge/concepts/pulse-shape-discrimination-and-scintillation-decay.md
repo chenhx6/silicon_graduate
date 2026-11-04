@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [pulse-shape-discrimination, psd, scintillation-decay, charge-comparison-method, zero-crossing, figure-of-merit, fom, neutron-gamma-separation, nuclear-instrumentation]
+tags: [pulse-shape-discrimination, psd, scintillation-decay, charge-comparison-method, zero-crossing, figure-of-merit, fom, neutron-gamma-separation, nuclear-instrumentation]
 ---
 
 # 闪烁体脉冲形状鉴别（PSD）、双成分荧光衰变动力学与优值因子（FOM）
 
-## 1. 物理全景：混合辐射场中快中子与γ射线的超纯分离
+## Definition
+
+### 物理全景：混合辐射场中快中子与γ射线的超纯分离
 
 在实验核物理、重离子熔合蒸发反应与核安全监测中，实验大厅与靶室环境总是充斥着高通量的混合辐射（强 $\gamma$ 射线背景与快中子伴随产生）。
 对于液闪探测器（如 BC501A, NE213, EJ-301）、有机晶体（如对联苯、二苯乙烯 Stilbene）以及某些无机晶体（如 $\text{CsI}(\text{Tl})$）：
@@ -28,7 +30,9 @@ topics: [pulse-shape-discrimination, psd, scintillation-decay, charge-comparison
 
 ---
 
-## 2. 严格时域物理推导与鉴别算法
+## Necessary Assumptions
+
+### 严格时域物理推导与鉴别算法
 
 ### (1) 闪烁发光时间电流谱方程
 光电倍增管（PMT）阳极输出的感应电流脉冲时域波形表述为快慢双指数叠加模型：
@@ -82,7 +86,13 @@ $$\text{FOM}(E) \approx \text{FOM}_0 \sqrt{E_{\text{MeVee}}}$$
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/pulse_shape_discrimination_psd_calculator.py`
@@ -102,7 +112,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py psd -E 1.0 --json
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[charged-particle-identification-and-stopping-power]]：$\Delta E - E$ 望远镜鉴别带电轻离子（$p, d, \alpha$）与本 PSD 模块鉴别中子/$\gamma$ 互为实验带电/中性粒子鉴别的完整闭环；
 - [[heavy-ion-fusion-evaporation-and-statistical-decay]]：在束 $(HI, xn)$ 实验中，中子墙的 PSD 纯中子触发门是滤除数千倍巨偶极辐射 $\gamma$ 泛滥的生命线；
-- [[digital-trapezoidal-filter-and-dsp]]：数字化多通道采集卡对闪烁脉冲的高速数字化是双门电荷积分算法落地的硬件载体。
+- [[digital-pulse-processing-algorithms-nuclear-detectors]]：数字化多通道采集卡对闪烁脉冲的高速数字化是双门电荷积分算法落地的硬件载体。

@@ -11,7 +11,9 @@ tags: [in-beam-spectroscopy, true-coincidence-summing, tcs, peak-to-total-ratio,
 
 # In-beam true coincidence summing (TCS) corrections and close-geometry efficiency calibration
 
-## Definition and Phenomenological Origin
+## Definition
+
+### Definition and Phenomenological Origin
 
 In in-beam $\gamma$-ray spectroscopy, experiments increasingly deploy compact, close-geometry High-Purity Germanium (HPGe) arrays (such as Clover detectors or mini-arrays placed at distances $d \sim 5 - 15\text{ cm}$ from the target) to maximize geometric solid angle coverage ($\Omega / 4\pi \sim 1\% - 5\%$ per crystal).
 
@@ -61,8 +63,36 @@ $$N_{\text{sum-in}}(E_1 + E_2) = N_0 \cdot b_1 b_2 \cdot \varepsilon_p(E_1) \var
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Wu Zhihua (吴治华)**: *Methods of Nuclear Physics Experiments* (《原子核物理实验方法》), Fudan University Press (1995), Chapter 10 §10.5 (Coincidence Summing in Spectrometry), pp. 275–285.
 - **Wang Xiaolian (汪晓莲) et al.**: *Particle Detection Technology* (《粒子探测技术》), USTC Press (2009), Chapter 5.
 - **Debertin, K. & Helmer, R. G.**: *Gamma- and X-Ray Spectrometry with Semiconductor Detectors*, North-Holland (1988).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

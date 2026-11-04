@@ -1,0 +1,42 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "深入核对 Petrache 编著本第2章 Frauendorf 的三轴转子拓扑、PTR/QTR、TW-FM-LW 和135Pr争议",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "scope": "Chapter 2 PDF pp.43-80; native text read with rendered verification of core formula/figure pages",
+    "evidence_route": "native text extraction plus selected rendered page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/petrache-ch2-frauendorf-topological-wobbling-contract.md",
+      "reason": "TR separatrix topology, PTR/QTR HFA and TW-FM-LW evidence contract"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "expanded Ch.2 scope and added CW-11 to CW-15"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Frauendorf topological wobbling method"
+    }
+  ],
+  "source_locators": [
+    "PDF pp.47-49 / printed pp.28-30, Fig.2.3 and separatrix topology",
+    "PDF pp.53-55 / printed pp.34-36, Eqs.2.18-2.21",
+    "PDF pp.56-58 / printed pp.37-39, 135Pr mixing-ratio controversy",
+    "PDF pp.61-66 / printed pp.42-47, Figs.2.19-2.22 and TW-FM-LW classification",
+    "PDF pp.75-80 / printed pp.56-61, RPA/TPSM/gamma-soft boundary"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "boundary": [
+      "chapter-level selected evidence, not full-book completion",
+      "author terminology and competing Lawrie terminology remain separate",
+      "energy slope, HFA critical spin and mixing-ratio roots are conditional diagnostics"
+    ]
+  }
+}

@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [octupole-deformation, parity-doublets, reflection-asymmetry, intrinsic-dipole-moment, e1-transitions, pear-shaped-nuclei]
+tags: [octupole-deformation, parity-doublets, reflection-asymmetry, intrinsic-dipole-moment, e1-transitions, pear-shaped-nuclei]
 ---
 
 # 原子核八极形变、反射不对称性与宇称双重带动力学
 
-## 1. 物理全景：空间反演对称性（$\mathcal{P}$）的宏观自发破缺
+## Definition
+
+### 物理全景：空间反演对称性（$\mathcal{P}$）的宏观自发破缺
 
 在低能核物理中，绝大多数偶偶核的基态具有正宇称（$J^\pi = 0^+$），且在内禀系中具有反演中心（$\mathcal{P} \vec{r} = -\vec{r}$，四极形变满足 $\beta_2$ 对称性）。然而，在特定的质子数和中子数孤岛中，核表面会自发发生**反射不对称的八极形变（Octupole Deformation: $\beta_3 \ne 0$）**，原子核宏观上呈现两端粗细不一的**梨形（Pear shape）**。
 
@@ -26,7 +28,9 @@ topics: [octupole-deformation, parity-doublets, reflection-asymmetry, intrinsic-
 
 ---
 
-## 2. 宇称双重带（Parity Doublets）与单极量子数（Simplex）
+## Necessary Assumptions
+
+### 宇称双重带（Parity Doublets）与单极量子数（Simplex）
 
 ### (1) 双势阱隧道穿透与正负宇称交错带
 在反射不对称八极形变势下，内禀系存在两个互为镜像的定态 $|\Phi_+\rangle$（梨尖朝上）与 $|\Phi_-\rangle$（梨尖朝下），由有限八极势垒阻隔。
@@ -45,7 +49,13 @@ $$s = p \cdot e^{-i\pi I} = \pm 1 \quad (\text{偶偶核}) \quad \text{或} \qua
 
 ---
 
-## 3. 内禀电偶极矩 $D_0$ 与超强交错 $E1$ 跃迁
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 内禀电偶极矩 $D_0$ 与超强交错 $E1$ 跃迁
 
 ### (1) 质心-电荷中心分离与内禀偶极矩 $D_0$
 在轴对称拉长四极核中，电荷中心与质量中心重合，宏观内禀电偶极矩严格为零（$D_0 \equiv 0$）。
@@ -69,3 +79,18 @@ $$|D_0| = \sqrt{ \frac{5}{16} \frac{B(E1)/B(E2)}{Q_t^2} } \cdot \frac{C_{I 0 2 0
 在紧邻 $A\approx 130$ 的过渡区核中：
 1. **八极与手征的复合**：当三轴形变（$\gamma \approx 30^\circ$）与八极形变（$\beta_3 \ne 0$）共存时，时间反演与空间反演联合对称性破缺，形成手征-八极宇称四重带（Chiral-Parity Quartets）；
 2. **伪八极带排除法规**：若在实验中仅观察到负宇称带靠近正宇称带，但未测得增强的 $B(E1)$ 跃迁（$D_0 < 0.05\text{ e}\cdot\text{fm}$），绝不能宣布为八极形变，只能归为常规的单粒子八极声子八极振动耦合！
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

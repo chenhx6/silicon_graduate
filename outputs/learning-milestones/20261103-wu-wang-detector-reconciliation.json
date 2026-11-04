@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "sources": [
+    {
+      "key": "wu2005",
+      "path": "raw/books/原子核物理实验方法--第三版 (吴治华) (Z-Library).pdf",
+      "sha256": "e23f010ff8d3b4737405235c4aba920533f44e89409ebb7e2cb076b7ab4ee591",
+      "pages": ["PDF 30-33", "PDF 152-156", "PDF 265", "PDF 273", "PDF 283", "PDF 430"]
+    },
+    {
+      "key": "wang2009",
+      "path": "raw/books/粒子探测技术 (汪晓莲  李澄  绍明  陈宏芳) (Z-Library).pdf",
+      "sha256": "250b51039f35e6a22e1311d645637d741b0f859af9d328f62c450ae9422c3cb4",
+      "pages": ["PDF 140-145", "PDF 236"]
+    }
+  ],
+  "reading_status": "bounded cross-text reconciliation; not full-book completion",
+  "reconciled_topics": [
+    "nonparalyzable versus paralyzable dead-time terminology",
+    "G-M discharge-space-charge recovery versus ADC/DAQ busy time",
+    "HPGe spectroscopy versus thin-silicon/MIP detector priorities",
+    "radiation-damage trapping centers and charge collection",
+    "energy calibration/efficiency/lifetime inputs for in-beam spectroscopy"
+  ],
+  "writeback": [
+    "knowledge/methods/nuclear-detector-spectroscopy-wu-vs-wang-reconciliation.md",
+    "knowledge/methods/wu-experimental-methods-deadtime-hpge-rdm-contract.md",
+    "knowledge/index.md"
+  ],
+  "evidence_boundary": "The comparison is limited to the listed rendered pages and does not establish a universal detector ranking, a measured array response, or a complete reading of either textbook."
+}

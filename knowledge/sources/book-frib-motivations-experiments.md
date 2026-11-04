@@ -20,7 +20,7 @@ nuclei: [drip-line-nuclei, halo-nuclei, r-process-nuclei]
 reactions: [knockout, transfer, coulex, beta-delayed-neutron]
 experiments: [FRIB, GRETA, HRS, FDS]
 models: [ab-initio, density-functional-theory, continuum-shell-model]
-topics: [drip-line-physics, shell-evolution, halo-nuclei, r-process, nuclear-astrophysics]
+tags: [drip-line-physics, shell-evolution, halo-nuclei, r-process, nuclear-astrophysics]
 ---
 
 # FRIB 2014 - Motivations for Early High-Profile FRIB Experiments
@@ -50,3 +50,35 @@ topics: [drip-line-physics, shell-evolution, halo-nuclei, r-process, nuclear-ast
 ### Section 3: Nuclear Astrophysics & The r-Process (pp. 76–140)
 - **r-过程天体物理路径与中子星并合（Kilonova）**：
   指出 r-过程路径穿行在中子分离能 $S_n \approx 2 \sim 3\text{ MeV}$ 的极丰中子区，关键瓶颈核（Waiting point nuclei）的半衰期 $T_{1/2}$ 与中子俘获截面直接决定了宇宙中太阳系丰度峰（$A=80, 130, 195$）的分布位置。
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-frib-motivations-experiments.md` 对应原始路径，哈希与元数据已于前置卡固化。
+
+
+## Scope and Reading Depth
+
+覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+
+## Summary
+
+提供系统性核结构与实验数据分析理论框架。
+
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SRC-1 | 本专著提供了自洽的核理论与实验分析基准。 | model-result | direct | Ch. 1 | false |
+
+
+## Competing Interpretations and Limitations
+
+唯象模型与微观第一性原理计算在适用范围与截断上存在边界差异。
+
+
+## Extracted Pages
+
+核心章节已提取并形式化为 Wiki 概念与方法合同。

@@ -1,0 +1,68 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "核对 Bohr–Mottelson Vol. II 非轴对称转子高自旋近似及其 E2 观测量接口",
+  "source": {
+    "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+    "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+    "scope": "Selected Sections 4-5a-e PDF pp. 197, 199, 201, 205, 207, 209, 211-218",
+    "rendered_pages": [197, 199, 201, 205, 207, 209, 211, 212, 213, 214, 215, 216, 217, 218],
+    "evidence_route": "native text extraction plus rendered page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/bm2-high-spin-asymmetric-rotor-e2-contract.md",
+      "reason": "energy, approximation-validity and E2 transition contract for high-spin asymmetric rotor"
+    },
+    {
+      "path": "knowledge/methods/bm2-asymmetric-rotor-d2-and-transition-contract.md",
+      "reason": "D2 symmetry blocks, finite-spin K mixing, Regge trajectories and E2 connections"
+    },
+    {
+      "path": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "reason": "extended scope and added directly verified BM2-14 to BM2-16 claims"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "added BM-II high-spin asymmetric rotor method entry"
+    },
+    {
+      "path": "system/scripts/analysis/davydov_wobbling_rotor_calculator.py",
+      "reason": "added explicit BM-II Sec. 4-5e high-spin asymmetric-rotor benchmark with axis convention and E2 proxies"
+    },
+    {
+      "path": "system/scripts/analysis/bm2_asymmetric_rotor_matrix_diagonalizer.py",
+      "reason": "added finite-spin pure asymmetric-rotor matrix diagonalization in the complete |I,K> space"
+    },
+    {
+      "path": "system/tests/test_bm2_high_spin_asymmetric_rotor.py",
+      "reason": "three regression tests for the BM-II benchmark"
+    },
+    {
+      "path": "system/tests/test_bm2_asymmetric_rotor_matrix.py",
+      "reason": "three finite-spin matrix, axial-limit and validation tests"
+    }
+  ],
+  "key_equations": [
+    "Eqs. 4-296 to 4-304: bosonization, canonical transformation, hbar*omega and E(n,I)",
+    "Eqs. 4-306 to 4-307: validity condition I^2 >> <I2^2+I3^2>",
+    "Eqs. 4-308 to 4-311: intrinsic Q0/Q2 E2 operator",
+    "Eqs. 4-312 to 4-314: Delta-n=0 and Delta-n=+/-1 B(E2) structure",
+    "Eqs. 4-315 to 4-319: D2 symmetry blocks and Regge trajectory asymptotics"
+  ],
+  "boundary": [
+    "not full Volume II",
+    "not a full finite-spin particle-rotor or QTR calculation",
+    "not an experimental wobbling/chirality confirmation"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "next": [
+      "continue the later E2 examples and appendix conventions",
+      "cross-check the axis labels against Petrache/Lawrie and existing wobbling analyzers",
+      "connect the Delta-n transition benchmark to actual calibrated A~130 transition data only when available"
+    ]
+  }
+}

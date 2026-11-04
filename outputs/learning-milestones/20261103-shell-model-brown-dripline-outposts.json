@@ -1,0 +1,59 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Brown 文章关于滴线壳模型、弱束缚、连续谱、岛反转、晕核和四个 neutron-rich outposts 的主文本核读",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "article": "Brown, The Nuclear Shell Model towards the Drip Lines",
+    "doi": "10.3390/physics4020035",
+    "scope": "Article pp.115-133 / physical PDF pp.126-144, main text and key figures/tables",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/brown-shell-model-dripline-continuum-outposts-contract.md",
+      "reason": "mass-gap diagnostics, jj/LS magic numbers, weak binding and continuum, islands of inversion, halo/decay, E2 maps and outpost experiment contract"
+    },
+    {
+      "path": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+      "reason": "corrected Brown physical page range, article status and source-level claims"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Brown dripline and continuum contract"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.126 title/introduction",
+    "PDF p.127 magic-number and D(N) figures",
+    "PDF p.129 LS magic-number chart",
+    "PDF p.130 continuum/halo and outpost discussion",
+    "PDF p.132 34Si/32Mg/29F spectra",
+    "PDF p.136 ESPE figure",
+    "PDF p.137 28O and 42Si transition",
+    "PDF p.138 28Si E2 map",
+    "PDF p.140 42Si Nilsson/E2 map continuation",
+    "PDF p.142 56Ni/40Mg E2 maps and effective-charge discussion",
+    "PDF p.143 60Ca region",
+    "PDF p.144 78Ni region and conclusion"
+  ],
+  "claims": [
+    "Binding-energy double differences, 2+ energies, ESPE and electromagnetic observables provide complementary shell-closure diagnostics.",
+    "Weak binding and continuum coupling change radial wavefunctions, resonance centroids, widths and Thomas-Ehrman shifts.",
+    "28O, 32Mg and 29F require configuration mixing, pairing, quadrupole correlations and many-body continuum treatment.",
+    "42Si oblate E2 maps, 60Ca shell-gap/intruder competition and 78Ni double-jj magicity are model-experiment interfaces rather than standalone mode confirmations."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded article-level main-text and key-figure unit",
+    "remaining_queue": "Smirnova, Horoi and shell-model astrophysics articles remain queued; references and production CI/GSM codes were not independently re-read",
+    "boundary": [
+      "No single 2+ energy, D(q), ESPE or B(E2) was treated as unique magicity or deformation proof",
+      "No continuum width was interpreted without Q, angular momentum and daughter-channel context",
+      "No direct transfer of Brown's outpost predictions to A~130 was made"
+    ]
+  }
+}

@@ -51,6 +51,19 @@ class TestChiralSelectionRules(unittest.TestCase):
         self.assertGreaterEqual(res["confidence_score_pct"], 80.0)
         self.assertEqual(res["selection_rule_verdict"], "CONFIRMED_CHIRAL_SELECTION_RULES_SATISFIED")
 
+    def test_135Nd_chiral_rules_confirmed(self):
+        p = PRESETS["135Nd_chiral_doublet_benchmark"]
+        res = run_chiral_selection_analysis(
+            nucleus=p["nucleus"],
+            band1=p["band1"],
+            band2=p["band2"],
+            interband=p["interband_transitions"]
+        )
+        self.assertEqual(res["phase_match_fraction"], 1.0)
+        self.assertLess(res["mean_be2_discrepancy_pct"], 15.0)
+        self.assertLess(res["min_interband_bm1_muN2"], 0.05)
+        self.assertEqual(res["selection_rule_verdict"], "CONFIRMED_CHIRAL_SELECTION_RULES_SATISFIED")
+
     def test_spurious_counterexample_rejected(self):
         p = PRESETS["spurious_out_of_phase_counterexample"]
         res = run_chiral_selection_analysis(

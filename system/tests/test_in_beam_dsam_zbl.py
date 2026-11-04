@@ -6,6 +6,7 @@ Unit tests for in_beam_dsam_zbl_stopping_lifetime_inverter.py (Module 159).
 import sys
 import unittest
 from pathlib import Path
+import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts" / "analysis"))
 
@@ -54,6 +55,9 @@ class TestInBeamDSAMZBL(unittest.TestCase):
         self.assertGreater(props["intrinsic_quadrupole_moment_Q0_eb"], 3.0)
         self.assertLess(props["intrinsic_quadrupole_moment_Q0_eb"], 12.0)
 
+    def test_synthetic_provenance_labels(self):
+        for name, p in PRESETS.items():
+            self.assertEqual(p.get("data_kind"), "synthetic_model_benchmark")
+
 if __name__ == "__main__":
-    import numpy as np
     unittest.main()

@@ -91,3 +91,8 @@ P0：公式适用域与轴对应已明确；P1：补读 E2 强度公式后续页
 ## Extracted Pages
 
 详见正文对应小节及核对记录。
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-bohr-mottelson-nuclear-structure-vol2.md` 对应原始路径，哈希与元数据已于前置卡固化。

@@ -1,53 +1,51 @@
 #!/usr/bin/env python3
 """
-Cranked Triaxial Shape Coexistence Potential Energy Surface (PES) & Phase Transition Engine.
+Cranked Triaxial Shape Coexistence Potential Energy Surface (PES) Engine.
 
-Physical Principle & Formalism:
+Physical Principle & Methodological Foundations:
 In transitional atomic nuclei (e.g., 130Ba, 134Ce in A~130 region; 76Kr, 72Se in A~70 region;
 186Pb in A~180 region), the nuclear mean-field exhibits Shape Coexistence: the presence of
 two or more local minima on the quadrupole deformation surface (beta, gamma) with distinct
 intrinsic geometric shapes (prolate, oblate, and triaxial).
 
-In the Cranked Macroscopic-Microscopic Strutinsky framework, the total Routhian at cranking
-rotational frequency omega is:
-  E_total(beta, gamma, omega) = E_macro(beta, gamma) + delta_U(beta, gamma) - 0.5 * J_x(beta, gamma) * omega^2
+Model Nature & Methodological Boundary:
+This module implements a Phenomenological Parameterized 2D Macroscopic-Microscopic Collective
+Routhian Surface on the Bohr-Mottelson quadrupole deformation plane (beta, gamma) under 1D
+cranking rotation about the intermediate axis.
+It is an illustrative, quantitative phenomenological tool demonstrating the mechanism of
+spin-induced shape transitions and triaxial stabilization, NOT a self-consistent microscopic
+Hartree-Fock-Bogoliubov (HFB) or full Strutinsky calculation based on single-particle orbits.
 
 1. Macroscopic Energy (Liquid Drop / Lublin-Strasbourg Drop):
    E_macro(beta, gamma) = C_2 * beta^2 + C_3 * beta^3 * cos(3*gamma) + C_4 * beta^4
-   where C_3 * cos(3*gamma) produces the fundamental prolate (gamma=0) versus oblate (gamma=60) asymmetry.
+   where C_3 * cos(3*gamma) produces the fundamental prolate (gamma=0) versus oblate (gamma=60 deg) asymmetry.
 
 2. Microscopic Shell Correction delta_U(beta, gamma):
-   Nuclear shell gaps (e.g., Z=56 subshell, N=74 neutron hole gap) modulate the surface.
+   Nuclear shell gaps modulate the surface.
    In transitional nuclei, the filling of low-Omega h11/2 proton intruder states favors triaxial
    deformation (gamma ~ 20 - 30 deg), while high-Omega neutron hole states create a competing
    oblate minimum (gamma ~ 55 - 60 deg).
-   The shell correction is parameterized via Gaussian deformation valleys:
-     delta_U(beta, gamma) = sum_k u_k * exp( - ((beta - beta_k)^2 / (2 * sigma_beta^2) + (gamma - gamma_k)^2 / (2 * sigma_gamma^2)) )
+   The shell correction is parameterized via localized Gaussian deformation valleys:
+     delta_U(beta, gamma) = sum_k u_k * exp( - [ (beta - beta_k)^2 / (2 * w_beta^2) + (gamma - gamma_k)^2 / (2 * w_gamma^2) ] )
 
-3. Cranking Rotational Energy & Deformation-Dependent Moment of Inertia:
+3. Cranking Rotational Energy & Intermediate-Axis Moment of Inertia:
    E_rot(beta, gamma, omega) = - 0.5 * J_x(beta, gamma) * omega^2
-   The effective moment of inertia along the cranking axis increases strongly with quadrupole deformation beta
+   The effective moment of inertia along the cranking axis increases with quadrupole deformation beta
    and favors intermediate axis rotation (gamma ~ 20 - 30 deg):
      J_x(beta, gamma) = J_0 * (beta / beta_0)^1.5 * [1.0 - 0.5 * cos(gamma - 4*pi/3)]
    Because triaxial shapes possess significantly larger moments of inertia J_x than near-spherical
    or oblate shapes, the rotational energy -0.5 * J_x * omega^2 deepens the triaxial well as spin increases!
 
-Phase Transition & Shape Crossing:
+Yrast Shape Transition & Shape Crossing:
 At low spin (omega ~ 0), the oblate or spherical shape may be the absolute ground state.
 As omega increases, the rotational energy gain drives an Yrast Shape Transition:
 the triaxial minimum drops below the oblate minimum at a critical crossing frequency omega_cross,
-stabilizing the triaxial shape required for wobbling motion and chiral doublet bands!
-
-This module implements:
-1. 2D PES grid calculation V(beta, gamma; omega) across 0 <= beta <= 0.6, 0 <= gamma <= 60 deg.
-2. Automated local search for coexistence minima (Min 1, Min 2) and the intervening saddle point.
-3. Shape barrier height Delta V_barrier and relative energy Delta E_12(omega) evolution.
-4. Determination of the critical shape-crossing frequency omega_cross.
-5. Presets for 130Ba, 76Kr, and 186Pb.
+stabilizing the triaxial shape required for wobbling motion and chiral doublet bands.
 
 Textbook & Literature References:
-- Bohr & Mottelson, 《Nuclear Structure》, Vol. II, §4-2, §6-4
-- W. Greiner & J. A. Maruhn, 《Nuclear Models》 (Springer 1996), Ch. 8
+- Bohr & Mottelson, "Nuclear Structure", Vol. II, §4-2, §6-4, App. 6B
+- W. Greiner & J. A. Maruhn, "Nuclear Models" (Springer 1996), Ch. 8
+- R. F. Casten, "Nuclear Structure from a Simple Perspective" (Oxford 1990), Ch. 6
 - S. Frauendorf, Rev. Mod. Phys. 73, 463 (2001)
 - Petrache et al., Phys. Rev. C 99, 044303 (2019)
 """
@@ -60,8 +58,9 @@ from scipy.optimize import minimize
 
 PRESETS = {
     "130Ba_triaxial_oblate_coexistence": {
-        "nucleus": "130Ba",
+        "nucleus": "130Ba (synthetic benchmark)",
         "description": "130Ba (Z=56, N=74) triaxial-oblate shape coexistence driving high-spin wobbling",
+        "data_kind": "synthetic_model_benchmark",
         "C2": 15.0,  # MeV
         "C3": -8.0,  # MeV
         "C4": 25.0,  # MeV
@@ -74,8 +73,9 @@ PRESETS = {
         "eval_frequencies_MeV": [0.0, 0.15, 0.25, 0.35, 0.45]
     },
     "76Kr_prolate_oblate_coexistence": {
-        "nucleus": "76Kr",
+        "nucleus": "76Kr (synthetic benchmark)",
         "description": "76Kr (Z=36, N=40) classic large-amplitude prolate-oblate shape coexistence",
+        "data_kind": "synthetic_model_benchmark",
         "C2": 12.0,
         "C3": -10.0,
         "C4": 22.0,
@@ -88,8 +88,9 @@ PRESETS = {
         "eval_frequencies_MeV": [0.0, 0.15, 0.25, 0.35, 0.45]
     },
     "186Pb_triple_shape_coexistence": {
-        "nucleus": "186Pb",
+        "nucleus": "186Pb (synthetic benchmark)",
         "description": "186Pb (Z=82, N=104) exotic shape coexistence (oblate ground state, prolate/triaxial intruder)",
+        "data_kind": "synthetic_model_benchmark",
         "C2": 25.0,
         "C3": -12.0,
         "C4": 40.0,
@@ -103,6 +104,7 @@ PRESETS = {
     }
 }
 
+
 class CrankedShapeCoexistencePESEngine:
     def __init__(self, C2=15.0, C3=-8.0, C4=25.0, J0=34.0, beta0=0.20, shell_minima=None):
         self.C2 = float(C2)
@@ -114,13 +116,13 @@ class CrankedShapeCoexistencePESEngine:
 
     def potential_routhian(self, beta, gamma_rad, omega_MeV):
         """
-        Evaluates total Routhian E_total(beta, gamma, omega) in MeV.
-        beta >= 0.02, 0 <= gamma <= pi/3.
+        Evaluates total collective Routhian E_total(beta, gamma, omega) in MeV.
+        beta >= 0.01, 0 <= gamma <= pi/3.
         """
         b = max(0.01, float(beta))
         g = float(gamma_rad)
 
-        # Macroscopic LDM energy:
+        # Macroscopic liquid-drop energy:
         E_ldm = self.C2 * (b**2) + self.C3 * (b**3) * np.cos(3.0 * g) + self.C4 * (b**4)
 
         # Microscopic shell correction:
@@ -134,8 +136,7 @@ class CrankedShapeCoexistencePESEngine:
             gauss = depth * np.exp(-0.5 * ((b - b_k) / w_b)**2 - 0.5 * ((g - g_k) / w_g)**2)
             delta_U += gauss
 
-        # Deformation-dependent moment of inertia J_x:
-        # Scales as (beta / beta_0)^1.5, modulated by intermediate axis cranking factor
+        # Deformation-dependent moment of inertia J_x along the intermediate axis:
         def_factor = (b / self.beta0)**1.5
         axis_factor = 1.0 - 0.5 * np.cos(g - 4.0 * np.pi / 3.0)
         J_x = self.J0 * def_factor * axis_factor
@@ -146,31 +147,37 @@ class CrankedShapeCoexistencePESEngine:
 
     def find_coexisting_minima(self, omega_MeV=0.0):
         """
-        Locates the two primary coexisting shape minima and intervening saddle point on the (beta, gamma) surface.
+        Locates the two primary coexisting shape minima (Min 1: triaxial/prolate, Min 2: oblate)
+        and the intervening barrier along the minimum energy path.
         """
-        # Minimum 1: Triaxial / Prolate minimum (gamma ~ 10-30 deg)
+        # Minimum 1: Triaxial / Prolate minimum (gamma ~ 0-35 deg)
         res1 = minimize(lambda p: self.potential_routhian(p[0], p[1], omega_MeV),
                         x0=[0.24, np.radians(22.0)],
                         bounds=[(0.08, 0.55), (0.0, np.radians(35.0))],
                         method='L-BFGS-B')
 
-        # Minimum 2: Oblate minimum (gamma ~ 50-60 deg)
+        # Minimum 2: Oblate minimum (gamma ~ 45-60 deg)
         res2 = minimize(lambda p: self.potential_routhian(p[0], p[1], omega_MeV),
                         x0=[0.17, np.radians(57.0)],
                         bounds=[(0.08, 0.55), (np.radians(45.0), np.radians(60.0))],
                         method='L-BFGS-B')
 
-        # Intervening saddle point:
-        b_mid = 0.5 * (res1.x[0] + res2.x[0])
-        g_mid = 0.5 * (res1.x[1] + res2.x[1])
-        res_sad = minimize(lambda p: -self.potential_routhian(p[0], p[1], omega_MeV),
-                           x0=[b_mid, g_mid],
-                           bounds=[(0.10, 0.45), (np.radians(25.0), np.radians(50.0))],
-                           method='L-BFGS-B')
-
         v1 = float(res1.fun)
         v2 = float(res2.fun)
-        v_sad = float(-res_sad.fun)
+
+        # 1D ridge path between Min 1 and Min 2 to locate the true saddle barrier:
+        b1, g1 = res1.x[0], res1.x[1]
+        b2, g2 = res2.x[0], res2.x[1]
+
+        s_vals = np.linspace(0.0, 1.0, 60)
+        b_path = (1.0 - s_vals) * b1 + s_vals * b2
+        g_path = (1.0 - s_vals) * g1 + s_vals * g2
+        v_path = [self.potential_routhian(b, g, omega_MeV) for b, g in zip(b_path, g_path)]
+
+        idx_max = int(np.argmax(v_path))
+        v_sad = float(v_path[idx_max])
+        b_sad = float(b_path[idx_max])
+        g_sad = float(g_path[idx_max])
 
         barrier1 = max(0.0, v_sad - v1)
         barrier2 = max(0.0, v_sad - v2)
@@ -190,8 +197,8 @@ class CrankedShapeCoexistencePESEngine:
                 "energy_MeV": v2
             },
             "saddle_point": {
-                "beta": float(res_sad.x[0]),
-                "gamma_deg": float(np.degrees(res_sad.x[1])),
+                "beta": b_sad,
+                "gamma_deg": float(np.degrees(g_sad)),
                 "energy_MeV": v_sad
             },
             "energy_difference_E2_minus_E1_MeV": float(v2 - v1),
@@ -220,10 +227,14 @@ class CrankedShapeCoexistencePESEngine:
                 break
 
         return {
+            "analysis_kind": "phenomenological_pes_model",
+            "data_kind": "synthetic_model_benchmark",
             "frequency_evolution": evol,
             "critical_crossing_frequency_omega_cross_MeV": omega_cross,
-            "has_shape_transition": bool(omega_cross is not None)
+            "has_shape_transition": bool(omega_cross is not None),
+            "methodological_boundary": "Phenomenological 2D collective PES; does not replace microscopic HFB/CDFT calculations"
         }
+
 
 def run_shape_coexistence_pes_analysis(nucleus="Generic", C2=15.0, C3=-8.0, C4=25.0,
                                        J0=34.0, beta0=0.20, shell_minima=None,
@@ -237,12 +248,13 @@ def run_shape_coexistence_pes_analysis(nucleus="Generic", C2=15.0, C3=-8.0, C4=2
     res["nucleus"] = nucleus
     return res
 
+
 def format_text_report(output, title="Cranked Triaxial Shape Coexistence PES Engine"):
     lines = []
-    lines.append("=" * 76)
+    lines.append("=" * 78)
     lines.append(f"  {title}")
-    lines.append("=" * 76)
-    lines.append(f"Nucleus: {output['nucleus']}")
+    lines.append("=" * 78)
+    lines.append(f"Nucleus: {output.get('nucleus', 'Generic')} | Model Type: 2D Phenomenological PES")
     cross_str = f"{output['critical_crossing_frequency_omega_cross_MeV']:.3f} MeV/hbar" if output['has_shape_transition'] else "None (Single Yrast Shape across range)"
     lines.append(f"Shape Crossing Status:        {'Yrast Shape Transition DETECTED' if output['has_shape_transition'] else 'No Crossing in evaluated range'}")
     lines.append(f"Critical Crossing Frequency:  omega_cross = {cross_str}")
@@ -255,11 +267,14 @@ def format_text_report(output, title="Cranked Triaxial Shape Coexistence PES Eng
         diff = pt["energy_difference_E2_minus_E1_MeV"]
         yrast = pt["yrast_shape"]
         lines.append(f"     {pt['omega_MeV']:4.2f}       b={m1['beta']:.2f}, g={m1['gamma_deg']:4.1f} deg     b={m2['beta']:.2f}, g={m2['gamma_deg']:4.1f} deg      {diff:+6.3f}     {yrast}")
-    lines.append("-" * 76)
-    lines.append("Methodology Takeaway: Rotational Coriolis energy -0.5*J*omega^2 preferentially lowers")
-    lines.append("the triaxial minimum, driving spin-induced shape transitions towards wobbling/chirality.")
-    lines.append("=" * 76)
+    lines.append("-" * 78)
+    lines.append("Methodology & Evidence Boundary:")
+    lines.append("  Rotational Coriolis energy -0.5*J_x*omega^2 preferentially lowers the triaxial")
+    lines.append("  minimum because intermediate-axis rotation has the maximal collective moment of inertia.")
+    lines.append("  This demonstrates the mechanism of spin-stabilized triaxiality (e.g. for wobbling/chirality).")
+    lines.append("==============================================================================")
     return "\n".join(lines)
+
 
 def main():
     parser = argparse.ArgumentParser(description="Cranked Shape Coexistence PES Engine")
@@ -290,6 +305,7 @@ def main():
         print(json.dumps(res, indent=2))
     else:
         print(format_text_report(res, title=f"Preset: {args.preset or '130Ba_triaxial_oblate_coexistence'} ({cfg['description']})"))
+
 
 if __name__ == "__main__":
     main()

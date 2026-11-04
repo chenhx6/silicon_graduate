@@ -11,7 +11,9 @@ tags: [in-beam-spectroscopy, heavy-ion-reactions, multiplicity-filter, entry-sta
 
 # In-beam detector array coincidence fold-to-multiplicity unfolding and compound nucleus entry-state spin-energy reconstruction
 
-## Definition and Phenomenological Origin
+## Definition
+
+### Definition and Phenomenological Origin
 
 In heavy-ion fusion-evaporation reactions populating high-spin states (e.g. $^{36}\text{Ar} + {}^{100}\text{Mo} \to {}^{132}\text{Ce} + 4n$), the compound nucleus de-excites first by particle evaporation (neutrons, protons, $\alpha$) down to the "entry-state line", and subsequently through cascades of statistical and discrete $\gamma$-rays.
 
@@ -61,3 +63,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py foldmult --preset low_multip
 - Unfolded true multiplicity: $\langle M \rangle = 24.54 \pm 4.59$ photons;
 - Reconstructed entry state: $\langle J_{\text{entry}} \rangle = 43.8 \pm 9.2\ \hbar$, $\langle E^* \rangle = 33.97\text{ MeV}$;
 - Confirms optimal feeding conditions for populating high-spin triaxial and wobbling bands.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

@@ -1,0 +1,42 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "逐页核对 Petrache 编著本第3章手征几何、PRM双带、理想选择定则与模型边界",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "scope": "Chapter 3 body PDF pp.81-91 / printed pp.62-72; PDF pp.92-93 are references",
+    "evidence_route": "page-by-page native extraction plus rendered visual verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/petrache-ch3-chiral-geometry-and-selection-boundary.md",
+      "reason": "direct chapter claims versus derived geometry and experimental-threshold boundary"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "corrected CW-9, PETR-2, PETR-8 and PETR-17 evidence scope"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Ch.3 chiral-geometry boundary method"
+    }
+  ],
+  "source_locators": [
+    "PDF pp.81-82 / printed pp.62-63, ideal particle-hole-rotor geometry",
+    "PDF pp.83-85 / printed pp.64-66, Figs.3.2-3.4 and ideal electromagnetic fingerprints",
+    "PDF pp.86-87 / printed pp.67-68, MchiD history and CDFT model figure",
+    "PDF pp.87-90 / printed pp.68-71, TAC/PSM collective coordinates, ChP and pairing",
+    "PDF p.91 / printed p.72, summary and future measurements"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "boundary": [
+      "scalar triple product is a Wiki-derived descriptor, not a Ch.3 numbered equation",
+      "fixed energy/B(E1)/D0 thresholds are not direct Ch.3 claims",
+      "model statements and author historical summaries are not independent experimental confirmations"
+    ]
+  }
+}

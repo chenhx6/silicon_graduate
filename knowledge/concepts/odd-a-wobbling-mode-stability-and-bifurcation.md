@@ -11,7 +11,9 @@ tags: [triaxiality, wobbling, transverse-wobbling, longitudinal-wobbling, 135pr,
 
 # Odd-A nuclei transverse vs. longitudinal wobbling modes, dynamic stability boundaries, and inertia-driven bifurcations
 
-## Physical Classification: Transverse (TW) vs. Longitudinal (LW) Wobbling
+## Definition
+
+### Physical Classification: Transverse (TW) vs. Longitudinal (LW) Wobbling
 
 In triaxially deformed odd-$A$ nuclei, a high-$j$ valence quasiparticle (e.g. $\pi h_{11/2}$ in $^{135}\text{Pr}$, $\nu h_{11/2}$ in $^{105}\text{Pd}$, $\pi h_{9/2}$ in $^{187}\text{Au}$) couples to the triaxial rotor core ($\mathcal{J}_i > \mathcal{J}_s, \mathcal{J}_l$).
 Two distinct geometrical modes arise:
@@ -69,3 +71,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py wobstab --preset 187Au_longi
 - **Frauendorf & Dönau**, Phys. Rev. C 89, 014322 (2014): *Transverse wobbling in odd-A nuclei*.
 - **Tanabe & Sugawara-Tanabe**, Phys. Rev. C 95, 064315 (2017).
 - **Sensharma et al.**, Phys. Rev. Lett. 124, 052501 (2020): *Longitudinal wobbling in 187Au*.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

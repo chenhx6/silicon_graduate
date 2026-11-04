@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [symmetry-energy, slope-parameter-l, rmf-eos, neutron-star-matter, crust-core-transition, pure-neutron-matter, prex-ii, gw170817]
+tags: [symmetry-energy, slope-parameter-l, rmf-eos, neutron-star-matter, crust-core-transition, pure-neutron-matter, prex-ii, gw170817]
 ---
 
 # 相对论平均场（RMF）非对称核物质对称能S(ρ)、密度斜率L与中子星物态方程（EOS）动力学
 
-## 1. 物理全景：从微观有限核电荷半径到宏观致密天体中子星半径
+## Definition
+
+### 物理全景：从微观有限核电荷半径到宏观致密天体中子星半径
 
 在核物理学与相对论天体物理学的交叉前沿，**非对称核物质状态方程（Equation of State, EOS）**是理解有限核结构性质、极端核反应机制以及冷致密物质天体（中子星、引力波双中子星并合）的核心红线。
 对于包含中子密度 $\rho_n$ 与质子密度 $\rho_p$ 的核物质系统，总密度为 $\rho = \rho_n + \rho_p$，同位旋非对称度为 $\delta = (\rho_n - \rho_p) / \rho$。
@@ -29,7 +31,9 @@ $$L = 3 \rho_0 \left. \frac{d S(\rho)}{d\rho} \right|_{\rho_0}$$
 
 ---
 
-## 2. 严格 RMF 协变推导与微观泛函方程
+## Necessary Assumptions
+
+### 严格 RMF 协变推导与微观泛函方程
 
 ### (1) 相对论平均场中对称能 $S(\rho)$ 的微观组成
 在包含 $\sigma, \omega, \rho$ 介子的标准协变拉氏量密度下，均匀中子-质子混合费米气体中的对称能解析表述为两部分之和：
@@ -68,7 +72,13 @@ $$P_{\text{PNM}} \approx 3.06\text{ MeV/fm}^3 \approx 4.9 \times 10^{33}\text{ d
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/rmf_symmetry_energy_slope_calculator.py`
@@ -96,7 +106,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py rmfeos --model NL3
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[dipole-polarizability-neutron-skin-and-eos]]：铅核偶极极化率 $\alpha_D$ 与此处 $L$ 斜率参数在理论上呈现近乎严格的一维关联曲线；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[electric-dipole-polarizability-neutron-skin-and-eos]]：铅核偶极极化率 $\alpha_D$ 与此处 $L$ 斜率参数在理论上呈现近乎严格的一维关联曲线；
 - [[spin-dipole-resonances-and-neutron-skin]]：SDR 求和定则测得的中子皮厚度 $\Delta r_{np}$ 直接决定了此处 $L$ 参数的唯象边界；
 - [[rmf-deformed-quadrupole-constrained-dynamics]]：有限形变核中质子与中子四极形变的分裂 $\beta_{2n} - \beta_{2p}$ 本质上即受此处核对称能恢复力的微观调控。

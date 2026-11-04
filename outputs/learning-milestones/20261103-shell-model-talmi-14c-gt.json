@@ -1,0 +1,38 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "核对壳模型合集第一篇关于14C长寿命、张量力和GT矩阵元相消的有界小单元",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "scope": "Talmi article physical PDF pp.14-21 / article pp.1-8",
+    "evidence_route": "native text extraction plus rendered formula-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/shell-model-14c-gamow-teller-cancellation-contract.md",
+      "reason": "bounded shell-model wavefunction, tensor-force and GT-cancellation derivation"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Talmi 14C shell-model unit"
+    }
+  ],
+  "source_locators": [
+    "Article pp.1-3 / physical PDF pp.14-16, shell-model history and effective-interaction context",
+    "Article pp.4-6 / physical PDF pp.17-19, wavefunction mixing matrices and GT cancellation",
+    "Article pp.7-8 / physical PDF pp.20-21, higher-shell/configuration-mixing limitations and references"
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "one bounded article unit only",
+    "remaining_queue": "13 articles in the edited special issue remain queued",
+    "boundary": [
+      "simplified p-shell derivation is not a complete ab initio explanation",
+      "experimental half-life and mirror decay remain separate evidence",
+      "small matrix elements are sensitive to model space and effective operators"
+    ]
+  }
+}

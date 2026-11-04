@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [internal-pair-creation, ipc, e-plus-e-minus-correlation, electromagnetic-transitions, electric-monopole-e0, atomki-anomaly, x17-boson, nuclear-spectroscopy]
+tags: [internal-pair-creation, ipc, e-plus-e-minus-correlation, electromagnetic-transitions, electric-monopole-e0, atomki-anomaly, x17-boson, nuclear-spectroscopy]
 ---
 
 # 原子核内电子对产生（IPC）、正负电子角关联与高能E0/E1/M1跃迁动力学
 
-## 1. 物理全景：高能激发态的电磁退激革命与量子电动力学对效应
+## Definition
+
+### 物理全景：高能激发态的电磁退激革命与量子电动力学对效应
 
 在低能核物理中，原子核激发态退激主要通过发射实光子（$\gamma$ 跃迁）或将能量传递给原子壳层电子（电子内转换, ICC）。
 然而，当激发能超过电子-正电子对静质量阈值：
@@ -29,7 +31,9 @@ IPC 过程在现代核物理与基础物理交叉前沿展现出极其独特的�
 
 ---
 
-## 2. 严格 QED 理论推导与角关联模型
+## Necessary Assumptions
+
+### 严格 QED 理论推导与角关联模型
 
 ### (1) 运动学约束与可用动能
 设原子核激发跃迁能量为 $E_\gamma$：
@@ -79,7 +83,13 @@ $$\theta_{\text{peak}} = 2 \arcsin\left(\frac{17.0}{18.15}\right) \approx 2 \arc
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/internal_pair_creation_ipc_calculator.py`
@@ -105,7 +115,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py ipc -E 18.15 -L M1 --theta 1
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[shape-coexistence-and-e0-transitions]]：低能 $E0$ 跃迁多依赖内转换电子，而高能轻核 $E0$ 跃迁（如 $^{16}\text{O}, ^{4}\text{He}$）完全由内对产生（IPC）接管；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[nuclear-shape-coexistence-and-e0-transitions]]：低能 $E0$ 跃迁多依赖内转换电子，而高能轻核 $E0$ 跃迁（如 $^{16}\text{O}, ^{4}\text{He}$）完全由内对产生（IPC）接管；
 - [[internal-conversion-coefficients-and-bricc-formalism]]：内部转换（束缚电子逸出）与内对产生（真空负能电子激发）构成了电磁微扰连续统的阴阳两极；
 - [[electromagnetic-transition-rates-weisskopf-and-alaga-rules]]：Weisskopf 单粒子 $\gamma$ 宽度与此处 $\alpha_\pi$ 相乘，直接给出了内对跃迁的绝对部分寿命。

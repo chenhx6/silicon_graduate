@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [particle-identification, delta-e-e-telescope, bethe-bloch, stopping-power, pulse-height-defect, energy-straggling, detector-physics, silicon-detectors, experimental-methods]
+tags: [particle-identification, delta-e-e-telescope, bethe-bloch, stopping-power, pulse-height-defect, energy-straggling, detector-physics, silicon-detectors, experimental-methods]
 ---
 
 # 带电粒子鉴别（ΔE-E望远镜）、Bethe-Bloch阻止本领与探测器非理想效应冲突消除
 
-## 1. 物理全景：核反应产物鉴别与两本经典教材的深度比对
+## Definition
+
+### 物理全景：核反应产物鉴别与两本经典教材的深度比对
 
 在重离子核反应、在束 $\gamma$ 谱学（如带电粒子反符合过滤）与晕核直接反应中，反应产物伴随大量质子（$p$）、氘核（$d$）、氚核（$t$）、氦核（$^3\text{He}, \alpha$）及重离子反冲核（$^{6,7}\text{Li}, ^{12}\text{C}, ^{16}\text{O}$ 等）。
 **$\Delta E - E$ 望远镜探测器（Telescope System）**是核物理中分离带电粒子同位素的最根本实验方法。
@@ -29,7 +31,9 @@ topics: [particle-identification, delta-e-e-telescope, bethe-bloch, stopping-pow
 
 ---
 
-## 2. 严格理论与数学形式
+## Necessary Assumptions
+
+### 严格理论与数学形式
 
 ### (1) 相对论性 Bethe-Bloch 阻止本领与有效电荷
 带电粒子在吸收物质中的线阻止本领（Stopping Power, $-dE/dx$）：
@@ -66,7 +70,13 @@ $$PI = (\Delta E + E_{\text{res}})^b - E_{\text{res}}^b = \frac{\Delta x}{a} M^{
 
 ---
 
-## 3. 教材冲突深度消除（Reconciliation of Text Discrepancies）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 教材冲突深度消除（Reconciliation of Text Discrepancies）
 
 ### (1) 重离子脉冲高度亏损（PHD）的三重微观来源
 在硅金面垒或 PIPS 探测器中，测得的电荷输出等效能量 $E_{\text{meas}}$ 总是小于粒子的真动能 $E_{\text{true}}$：
@@ -120,6 +130,19 @@ python3 system/scripts/analysis/nuclear_analyzer.py pid -p p -E 30.0 --delta-thi
 
 ---
 
-## 5. 与相关前沿概念的交叉引用
-- [[digital-trapezoidal-filter-and-dsp]]：梯形滤波器对半导体探测器弹道亏损（Ballistic Deficit）的修正与 PHD 电荷收集时间直接相关；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[digital-pulse-processing-algorithms-nuclear-detectors]]：梯形滤波器对半导体探测器弹道亏损（Ballistic Deficit）的修正与 PHD 电荷收集时间直接相关；
 - [[heavy-ion-fusion-evaporation-and-statistical-decay]]：蒸发残核伴随的轻带电粒子（$p, \alpha$）出射通道依赖 $\Delta E - E$ 望远镜阵列进行高纯度通道选择。

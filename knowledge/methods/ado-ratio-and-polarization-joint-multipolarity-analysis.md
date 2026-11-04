@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "在束谱学 ADO 比值、线偏振度与多极性二维联合判决指南"
 aliases: [ADO比值分析, POL-ADO联合判决, 多极混合比2D扫描, Clover偏振拟合, 角分布比值法]
 created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [ado-ratio, linear-polarization, clover-detectors, multipole-mixing-ratio, dual-root-elimination, in-beam-spectroscopy]
+tags: [ado-ratio, linear-polarization, clover-detectors, multipole-mixing-ratio, dual-root-elimination, in-beam-spectroscopy]
 ---
 
 # 在束谱学 ADO 比值、线偏振度与多极性二维联合判决指南
 
-## 1. 物理测量背景：全角度拟合与特征环比值的互补
+## Purpose
+
+### 物理测量背景：全角度拟合与特征环比值的互补
 
 在在束 $\gamma$ 谱学实验中，测定辐射跃迁的电磁多极性（如纯四极 $E2$、纯偶极 $E1/M1$、或偶极-四极混合跃迁 $M1+E2$）是建立原子核自旋宇称与能带结构判据的基石。
 
@@ -24,7 +27,9 @@ topics: [ado-ratio, linear-polarization, clover-detectors, multipole-mixing-rati
 
 ---
 
-## 2. 核心数学方程与多极性响应特征
+## Inputs and Assumptions
+
+### 核心数学方程与多极性响应特征
 
 ### (1) ADO 比值理论公式
 定向核发射的 $\gamma$ 射线角分布展开为：
@@ -52,7 +57,13 @@ $$a_4(\delta) = \alpha_4 \frac{\delta^2 F_4(2 2 I_f I_i)}{1 + \delta^2}$$
 
 ---
 
-## 3. Clover 探测器康普顿线偏振度（Linear Polarization）与双根破除
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### Clover 探测器康普顿线偏振度（Linear Polarization）与双根破除
 
 在 $90^\circ$ 处放置的 Clover 探测器由 4 个独立的 $n$-型 HPGe 晶体组成。当光子入射并在一个晶体中发生康普顿散射、在相邻晶体中被吸收时：
 1. **散射不对称度（Asymmetry Ratio）**：
@@ -70,3 +81,9 @@ $$\chi^2(\delta) = \left( \frac{R_{\text{ADO}}^{\text{exp}} - R_{\text{ADO}}^{\t
 - 仅凭 $R_{\text{ADO}}$ 会在 $\chi^2$ 空间产生两个等价的深谷（绝对双根退化）；
 - 引入 $P$ 之后，由于磁跃迁与电跃迁在线偏振灵敏度公式中的分子交叉项相差一个负号，其中一个解处的 $\chi^2$ 将剧增；
 - **若 $\Delta\chi^2 > 9.0$（排除显著性 $> 3\sigma$），即可合法宣称证伪假根，确立唯一起源！**
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

@@ -6,12 +6,14 @@ created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [drip-line-physics, halo-nuclei, neutron-skin, frib-science, shell-evolution, r-process]
+tags: [drip-line-physics, halo-nuclei, neutron-skin, frib-science, shell-evolution, r-process]
 ---
 
 # 极不稳定性核、中子滴线与 FRIB 稀有同位素科学前沿
 
-## 1. 物理全景：从稳定谷走向核存在极限
+## Definition
+
+### 物理全景：从稳定谷走向核存在极限
 
 在自然界存在的近 300 种稳定核素之外，核素图的广阔未知领域由放射性极不稳定性核（Exotic Nuclei）构成。原子核能够作为束缚态存在的物质边界由**质子滴线（Proton Drip Line, $S_p = 0$）**与**中子滴线（Neutron Drip Line, $S_n = 0$）**严格界定。
 
@@ -23,7 +25,9 @@ topics: [drip-line-physics, halo-nuclei, neutron-skin, frib-science, shell-evolu
 
 ---
 
-## 2. 弱束缚开放量子体系核心物理特征
+## Necessary Assumptions
+
+### 弱束缚开放量子体系核心物理特征
 
 ### (1) 中子晕（Neutron Halo）形成机制
 在中子滴线极端弱结合极限下（单中子分离能 $S_n \to 0$），束缚态能量无限逼近零连续态能量。
@@ -43,8 +47,29 @@ $$\psi(r) \propto \frac{1}{r} \exp(-\kappa r) \quad \left(\kappa = \sqrt{\frac{2
 
 ---
 
-## 3. 对本 Wiki $A\approx 130$ 研究的深度映射与启示
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 对本 Wiki $A\approx 130$ 研究的深度映射与启示
 
 FRIB 科学前沿指出的“弱束缚与形变微观驱动”，与我们重点研究的 $A\approx 130$ 质量区（如 $^{131,133}\text{Ce}, {}^{135}\text{Pr}, {}^{135}\text{Nd}$）的三轴形变机制在微观上完全同源：
 - $A\approx 130$ 区核素虽然位于远离滴线的过渡区，但质子处于 $Z=50$ 壳层刚出壳（粒子型），中子处于 $N=82$ 闭壳前夕（空穴型）；
 - 驱动反转岛发生形变的**大尺度粒子-空穴四极极化势**，正是使得 $A\approx 130$ 区核芯自发打破轴对称性、稳定在 $\gamma \approx 20^\circ \sim 30^\circ$ 三轴极小值的同一套微观物理驱动力！
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

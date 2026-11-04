@@ -11,7 +11,9 @@ tags: [in-beam-spectroscopy, charged-particles, particle-identification, telesco
 
 # In-beam charged particle Delta E - E telescope PID and Goulding power-law geometric correction
 
-## Physical Principle & In-Beam Reaction Channel Selection
+## Definition
+
+### Physical Principle & In-Beam Reaction Channel Selection
 
 In heavy-ion fusion-evaporation reactions, compound nuclei de-excite via competing light charged particle evaporation (protons $p$, deuterons $d$, tritons $t$, $\alpha$ particles) and neutrons ($xn$) before emitting $\gamma$-ray cascades. Identifying evaporated particles with high efficiency and purity is essential to isolate weak exotic channels (e.g., $2p, 3p, \alpha p, \alpha 2n$ leading to neutron-deficient $A \sim 130$ and $N \approx Z$ isotopes).
 
@@ -65,3 +67,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py pidtele --preset gas_silicon
 - **汪晓莲, 李澄, 绍明, 陈宏芳**, 《粒子探测技术》, 第 3 章 §3.2 (pp. 75–95).
 - **K. Heyde**, *Basic Ideas and Concepts in Nuclear Physics* (3rd Ed.), Chapter 4.
 - **F. S. Goulding & B. G. Harvey**, Ann. Rev. Nucl. Sci. 25, 167 (1975).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

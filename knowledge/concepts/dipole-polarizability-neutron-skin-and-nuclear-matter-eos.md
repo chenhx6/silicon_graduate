@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [dipole-polarizability, neutron-skin, symmetry-energy, nuclear-matter-eos, neutron-stars, pdr, ivgdr]
+tags: [dipole-polarizability, neutron-skin, symmetry-energy, nuclear-matter-eos, neutron-stars, pdr, ivgdr]
 ---
 
 # 原子核电偶极极化率、中子皮厚度与核物质状态方程（EoS）
 
-## 1. 物理跨界视界：从飞米微观尺度到公里级中子星
+## Definition
+
+### 物理跨界视界：从飞米微观尺度到公里级中子星
 
 在低能核物理中，原子核对外部电弱探针的静态电极化响应（Electric Dipole Polarizability, $\alpha_D$）与富中子核表面的**中子皮厚度（Neutron Skin Thickness, $\Delta R_{np} = R_n - R_p$）**，是跨越微观核结构、高能重离子碰撞（HIC）以及极端致密天体物理（中子星内部结构与引力波）的终极交汇点。
 
@@ -19,7 +21,9 @@ topics: [dipole-polarizability, neutron-skin, symmetry-energy, nuclear-matter-eo
 
 ---
 
-## 2. 电偶极极化率 $\alpha_D$ 与反能加权和定则
+## Necessary Assumptions
+
+### 电偶极极化率 $\alpha_D$ 与反能加权和定则
 
 ### (1) 宏观与微观响应定义
 当原子核处于外加静电场 $\vec{E}_{\text{ext}}$ 中时，核内带正电的质子流与电中性的中子流受到反向位移力，产生感应电偶极矩 $\vec{D} = \alpha_D \vec{E}_{\text{ext}}$。
@@ -35,7 +39,13 @@ $$\alpha_D = \frac{\hbar c}{2\pi^2 e^2} \int_0^\infty \frac{\sigma_{\text{abs}}(
 
 ---
 
-## 3. 中子皮厚度 $\Delta R_{np}$ 与核物质对称能（Symmetry Energy）
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 中子皮厚度 $\Delta R_{np}$ 与核物质对称能（Symmetry Energy）
 
 ### (1) 核物质能量密度泛函展开
 无限均匀核物质中每个核子的结合能按同位旋不对称度 $\delta = (\rho_n - \rho_p)/\rho$ 展开：
@@ -59,3 +69,18 @@ $$\Delta R_{np} \equiv \langle r_n^2 \rangle^{1/2} - \langle r_p^2 \rangle^{1/2}
    典型 $1.4 M_\odot$ 中子星的外壳层厚度与整体半径 $R_{1.4}$ 强烈正比于 $L$ 参量。较厚的中子皮对应更硬的状态方程，预言更大的中子星半径（$R_{1.4} \approx 12 \sim 13.5\text{ km}$）；
 2. **引力波潮汐形变度（Tidal Deformability $\Lambda$）**：
    双中子星并合引力波事件（如 LIGO/Virgo GW170817）测定的无量纲潮汐形变度 $\Lambda_{1.4} \le 720$，与地球实验室 $^{208}\text{Pb}$ 的极化率 $\alpha_D$ 形成了完美的跨尺度天体物理闭环！
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

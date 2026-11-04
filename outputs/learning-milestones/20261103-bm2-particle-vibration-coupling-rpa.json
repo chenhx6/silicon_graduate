@@ -1,0 +1,61 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Bohr & Mottelson《Nuclear Structure》第二卷第 6 章 §6-5（粒子–振动耦合微观机制、有效电荷极化常数、声子媒介有效相互作用与微观 RPA 色散方程）的系统精读与核验",
+  "source": {
+    "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+    "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+    "chapter": "6 (§6-5)",
+    "chapter_title": "Chapter 6: Vibrational Spectra (§6-5 Particle-Vibration Coupling)",
+    "authors": "Aage Bohr and Ben R. Mottelson",
+    "scope": "Printed pp.416-435 / physical PDF pp.438-457, full text, equations 6-204 to 6-276, and Figures 6-7 to 6-8",
+    "evidence_route": "native text extraction plus algebraic derivation and diagrammatic verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/bm2-particle-vibration-coupling-and-rpa-contract.md",
+      "reason": "established method contract on first-order particle-vibration coupling Hamiltonian, polarizability coefficient chi_F, phonon-mediated effective Q.Q interaction, and microscopic RPA dispersion relation"
+    },
+    {
+      "path": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "reason": "registered claims BM2-37 and BM2-38, updated method references"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the BM2 particle-vibration coupling and RPA contract"
+    },
+    {
+      "path": "knowledge/concepts/quasiparticle-random-phase-approximation-qrpa-dynamics.md",
+      "reason": "cross-referenced BM2 Section 6-5 RPA foundations and added standard 7 headers"
+    },
+    {
+      "path": "knowledge/methods/bm2-collective-vibrations-and-sum-rules-contract.md",
+      "reason": "linked BM2 Section 6-5 microscopic RPA dispersion relation"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.439 Eq. 6-204 to 6-205 (First-order particle-vibration coupling Hamiltonian H')",
+    "PDF p.440 Eq. 6-208 to 6-210 (Spherical tensor matrix elements of particle-vibration coupling)",
+    "PDF p.441 Figure 6-7 (Diagrams illustrating first-order particle-vibration coupling)",
+    "PDF p.443 Eq. 6-215 to 6-216 and Figure 6-8 (Renormalization of single-particle moment and polarizability chi_F)",
+    "PDF p.450 Eq. 6-258 to 6-261 (Phonon-mediated effective two-body interaction and Q.Q force)",
+    "PDF p.456 Eq. 6-276 (Microscopic RPA dispersion relation for self-consistent collective modes)"
+  ],
+  "claims": [
+    "First-order particle-vibration coupling H' = - sum_mu alpha_lambda_mu k_lambda(r) Y_lambda_mu* describes the scattering of nucleons via phonon emission and absorption, with surface form factor k_lambda(r) = -R_0 dV_0/dr.",
+    "Coupling to high-lying giant resonances (e.g. 2 hbar omega_0 ISGQR) polarizes the closed-shell core, inducing effective polarizability chi_F = kappa alpha_0^2 / (hbar omega - Delta E) and establishing microscopic effective charges e_eff(p) ~ 1.5e and e_eff(n) ~ 0.5e.",
+    "Exchange of virtual collective phonons between valence nucleons generates long-range effective two-body interactions, providing the microscopic origin of the quadrupole-quadrupole (Q.Q) and pairing forces.",
+    "The self-consistent RPA dispersion relation 1/kappa = sum_{ph} |<p|F|h>|^2 [1/(epsilon_p - epsilon_h - hbar omega) + 1/(epsilon_p - epsilon_h + hbar omega)] accounts for ground-state quantum fluctuations (backward-going Y amplitudes), explaining both the energy depression of collective phonons and the huge (X+Y)^2 collective transition enhancement."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded section text, algebraic equations, and diagrammatic unit",
+    "remaining_queue": "Remaining topics and illustrative examples in Bohr & Mottelson Vol. II remain queued",
+    "boundary": [
+      "RPA dispersion relation assumes harmonic small-amplitude motion around a spherical or deformed minimum; it diverges near phase-transition critical points where hbar omega -> 0",
+      "Single-phonon exchange truncates higher-order phonon-phonon scattering channels that generate non-harmonic damping"
+    ]
+  }
+}

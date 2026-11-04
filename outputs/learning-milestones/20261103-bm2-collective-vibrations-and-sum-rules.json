@@ -1,0 +1,65 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Bohr & Mottelson《Nuclear Structure》第二卷第 6 章 §6-3、§6-4 与第 4 章 §4-3a（四极正规振动模式、多声子劈裂、多极能量加权求和规则 EWSR、Mottelson-Valatin CAP 机制与 Strutinsky 壳修正势能面）的系统精读与核验",
+  "source": {
+    "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+    "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+    "chapter": "6 (§6-3, §6-4) and 4 (§4-3a)",
+    "chapter_title": "Chapter 6: Vibrational Spectra (§6-3 Normal Modes; §6-4 Sum Rules) and Chapter 4: Rotational Spectra (§4-3a Mottelson-Valatin CAP)",
+    "authors": "Aage Bohr and Ben R. Mottelson",
+    "scope": "Printed pp.361-398, pp.399-415, pp.42-44, and pp.598-634 / physical PDF pp.383-420, pp.421-437, pp.64-66, and pp.620-656",
+    "evidence_route": "native text extraction plus algebraic derivation and diagrammatic verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/bm2-collective-vibrations-and-sum-rules-contract.md",
+      "reason": "established method contract on spheroidal quadrupole normal modes (beta and gamma vibrations), two-phonon splitting theorem (K=0 and K=4), double-commutator model-independent EWSR (TRK E1, ISGQR E2, ISGMR E0, ISGHR E3), Mottelson-Valatin CAP phase transition, and Strutinsky double-humped fission barrier"
+    },
+    {
+      "path": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "reason": "upgraded claims BM2-8, BM2-10, BM2-11, BM2-13 to verified direct status, registered claims BM2-33 to BM2-36, and updated method sources"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the BM2 collective vibrations and sum rules contract"
+    },
+    {
+      "path": "knowledge/concepts/giant-resonances-and-deformation-splitting.md",
+      "reason": "linked BM2 EWSR sum rules and giant resonance excitation energies"
+    },
+    {
+      "path": "knowledge/concepts/strutinsky-shell-correction-and-plateau-condition.md",
+      "reason": "cross-referenced BM2 Strutinsky macro-microscopic energy surfaces and fixed missing standard headers"
+    },
+    {
+      "path": "knowledge/concepts/coriolis-anti-pairing-and-moment-of-inertia-expansion.md",
+      "reason": "linked BM2 Mottelson-Valatin CAP phase transition"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.64-65 (Mottelson-Valatin 1960 CAP superfluid-to-normal phase transition and rotation alignment)",
+    "PDF p.384-385 Eq. 6-90 and Figure 6-3 (Quadrupole shape oscillations beta and gamma vibrations and two-phonon splitting into K=0 and K=4)",
+    "PDF p.388 Eq. 6-93 to 6-95 (Fissility parameter x and critical limit (Z^2/A)_crit = 49)",
+    "PDF p.421-426 Eq. 6-168 to 6-174 (Double-commutator EWSR sum rule and TRK E1, ISGQR E2, ISGMR E0 expressions)",
+    "PDF p.483-485 Eq. 6-293 to 6-296 (Rotation-vibration coupling and logarithmic derivatives of MOI with respect to beta and gamma)",
+    "PDF p.627 Figure 6-52 (Strutinsky macro-microscopic shell correction energy surface and double-humped fission barrier)"
+  ],
+  "claims": [
+    "Quadrupole vibrations about axially deformed spheroidal equilibrium decompose into axial-preserving beta-vibrations (K=0) and axial-breaking gamma-vibrations (K=2); the two-phonon gamma state strictly splits into K=0 and K=4 rotational bandheads under Bose symmetry.",
+    "The double-commutator theorem provides model-independent energy-weighted sum rules (EWSR) evaluated from ground-state densities, yielding the TRK E1 integrated cross section 60 NZ/A MeV mb, the ISGQR E2 sum rule 25.7 Z A^(2/3) MeV e^2 fm^4, and the breathing mode E0 sum rule directly constraining nuclear incompressibility K_inf ~ 230 MeV.",
+    "The Mottelson-Valatin Coriolis anti-pairing (CAP) mechanism describes the second-order phase transition from the pairing superfluid state to the normal rigid-rotor Fermi gas as Coriolis forces quench the pairing gap Delta(omega) = Delta_0 [1 - (omega/omega_crit)^2]^(1/2).",
+    "The Strutinsky shell correction method superimposing macroscopic liquid-drop energy and smoothed single-particle shell fluctuations explains the double-humped fission barriers (E_A, E_B) and microsecond-lived shape isomers in the actinides."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded section text, algebraic equations, sum rules, and diagrammatic unit",
+    "remaining_queue": "Remaining topics and illustrative examples in Bohr & Mottelson Vol. II remain queued",
+    "boundary": [
+      "EWSR provides integral bounds on transition strength and does not predict individual resonance escape widths or damping widths",
+      "Harmonic vibration model breaks down in transitional nuclei with strong gamma-softness requiring non-linear collective Hamiltonians"
+    ]
+  }
+}

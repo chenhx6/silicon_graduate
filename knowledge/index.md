@@ -95,21 +95,21 @@ updated: 2026-11-01
 - [[multiple-chiral-doublets-and-chiral-parity-quartets]] — **多重手征双重带（MχD）与手征-八极宇称四重带前沿动力学**：基于 Petrache 2024 (第 15–17 章) 与孟杰团队理论，系统解构多组态手征共存（类型 I）与三轴形状共存手征（类型 II），推导时间反演破缺与空间反射不对称性复合下的手征-八极四重带（Chiral-Parity Quartets）简并代数，并为 $^{133}	ext{Ce}$ 与 $^{78}	ext{Br}$ 提供权威判据。
 - [[ce-nd-triaxial-collective-evolution-and-chiral-prospectus]] — **铈-钕同位素链三轴集体演化、微观机制对账与手征/摆动前沿研究展望**：系统对账 $^{131}	ext{Ce}$ (CIAE HI-13 在研核心)、$^{133}	ext{Ce}$ (iThemba PR295 孪生核)、$^{135}	ext{Nd}$ (手征标杆核)、$^{136}	ext{Nd}$ (横向摆动基准) 与 $^{135}	ext{Pr}$ (证伪案例)，阐明 =73	o 76$ 中子 {11/2}$ 费米面移动诱发的形变刚性演化与实验突破方案。
 - [[nuclear-lifetime-measurement-dsam-rdm-stopping-power.md]] — **核激发态寿命测量全指南：DSAM、RDM活塞法与介质阻止本领反演**：基于吴治华教材与微观阻止本领理论，建立 0	ext{ fs}\sim 1	ext{ ns}$ 寿命测量技术矩阵、Ziegler SRIM 电子/核阻止本领模型、DDCM 活塞法衰变分析，以及从多普勒衰减因子 (	au)$ 反演绝对 (E2)$ 与内禀四极矩 $ 的数学物理闭环。
-- [[dipole-polarizability-neutron-skin-and-nuclear-matter-eos]] — **原子核电偶极极化率、中子皮厚度与核物质状态方程（EoS）**：基于 Bohr-Mottelson 与现代微观天体物理，推导反能加权二次和定则 $\sigma_{-2}$ 与极化率 $lpha_D$ 解析关联、中子皮厚度 $\Delta R_{np}$ 对中子压强与对称能斜率 $ 的微观线性约束，打通地球实验室测量与中子星半径 {1.4}$ 及 GW170817 潮汐形变度 $\Lambda$ 的跨界闭环。
+- [[dipole-polarizability-neutron-skin-and-nuclear-matter-eos]] — **原子核电偶极极化率、中子皮厚度与核物质状态方程（EoS）**：基于 Bohr-Mottelson 与现代微观天体物理，推导反能加权二次和定则 $\sigma_{-2}$ 与极化率 $\alpha_D$ 解析关联、中子皮厚度 $\Delta R_{np}$ 对中子压强与对称能斜率 $ 的微观线性约束，打通地球实验室测量与中子星半径 {1.4}$ 及 GW170817 潮汐形变度 $\Lambda$ 的跨界闭环。
 - [[ensdf-format-semantics-and-level-scheme-crosswalk]] — **国际核结构与衰变数据网 ENSDF 格式语义与能级纲图自动对账指南**：系统解构 NNDC/IAEA 标准 80 列固定列宽 Level 与 Gamma 记录格式，确立 $\pm 1.0	ext{ keV}$ 能量窗口匹配、分支比拓扑检验与新候选跃迁自动发现工作流。
-- [[interacting-boson-model-symmetries-and-phase-transitions]] — **相互作用玻色子模型（IBM/IBFM）动力学对称性、Casten三角形与形变相变**：基于 Iachello-Arima 与 Nomura 理论，阐述六维李代数 (6)$ 下的球形振动 (5)$、轴对称拉长转子 (3)$ 与 $\gamma$ 不稳定软核 (6)$ 极限及 Casten 三角形，推导 (6)$ 双重简并指纹与 pprox 130$ 区核芯软度，并解密 IBFM 中准粒子与 $\gamma$ 振动声子动力学耦合（$\gamma \otimes qp$）伪装成横向摆动的微观机制。
-- [[superdeformation-triaxial-sd-and-decayout-dynamics]] — **超形变（SD）、三轴超形变（TSD）与能带退激穿透动力学**：基于 Twin (1986)、Ødegård (2001) 与 Khoo 理论，系统解构宏观轴比 2:1 次级极小势阱、镥-钽区三轴超形变（TSD）多声子摆动运动实验基准、带内 $ 辐射与 WKB 势垒隧穿的统计竞争，以及超形变带突然终止脱落（Decay-out）的临界自旋判据与 pprox 130$（Ce, Nd）高形变带映射。
-- [[signature-inversion-and-triaxial-pn-interaction]] — **原子核旋称反转动力学、能量交错参量与三轴质中残余相互作用**：基于 Frauendorf (RMP 2001) 与 Bengtsson 理论，解构反常旋称反转（低自旋不利旋称态反常低于有利旋称态）的微观物理机制，阐明三轴非轴对称形变与高 $ 质子-中子残余力（{pn}$）协同打破传统科里奥利力排序的充要条件，确立能量交错参量 (I)$ 反转相位判据与 pprox 130$（Cs, La, Pr, Ce）对账图谱。
+- [[interacting-boson-model-symmetries-and-phase-transitions]] — **相互作用玻色子模型（IBM/IBFM）动力学对称性、Casten三角形与形变相变**：基于 Iachello-Arima 与 Nomura 理论，阐述六维李代数 (6)$ 下的球形振动 (5)$、轴对称拉长转子 (3)$ 与 $\gamma$ 不稳定软核 (6)$ 极限及 Casten 三角形，推导 (6)$ 双重简并指纹与 \approx 130$ 区核芯软度，并解密 IBFM 中准粒子与 $\gamma$ 振动声子动力学耦合（$\gamma \otimes qp$）伪装成横向摆动的微观机制。
+- [[superdeformation-triaxial-sd-and-decayout-dynamics]] — **超形变（SD）、三轴超形变（TSD）与能带退激穿透动力学**：基于 Twin (1986)、Ødegård (2001) 与 Khoo 理论，系统解构宏观轴比 2:1 次级极小势阱、镥-钽区三轴超形变（TSD）多声子摆动运动实验基准、带内 $ 辐射与 WKB 势垒隧穿的统计竞争，以及超形变带突然终止脱落（Decay-out）的临界自旋判据与 \approx 130$（Ce, Nd）高形变带映射。
+- [[signature-inversion-and-triaxial-pn-interaction]] — **原子核旋称反转动力学、能量交错参量与三轴质中残余相互作用**：基于 Frauendorf (RMP 2001) 与 Bengtsson 理论，解构反常旋称反转（低自旋不利旋称态反常低于有利旋称态）的微观物理机制，阐明三轴非轴对称形变与高 $ 质子-中子残余力（{pn}$）协同打破传统科里奥利力排序的充要条件，确立能量交错参量 (I)$ 反转相位判据与 \approx 130$（Cs, La, Pr, Ce）对账图谱。
 - [[octupole-deformation-and-parity-doublet-bands]] — **原子核八极形变、反射不对称性与宇称双重带动力学**：基于 Butler-Nazarewicz (RMP 1996) 与 Bohr-Mottelson 理论，解构 $\Delta j = \Delta l = 3$ 轨道长程八极相互作用诱发的梨形反射不对称性自发破缺，推导正负宇称交错带单极量子数 $、内禀电偶极矩 $（\cdot	ext{fm}$）与增强交错 $ 跃迁比值 (E1)/B(E2)$ 提取算法。
 - [[triaxial-projected-shell-model-microscopic-dynamics]] — **三轴投影壳模型（TPSM）微观多体动力学与角动量投影理论**：基于 Petrache 2024 (第 12, 14 章) 与 Sheikh-Hara 理论，解构配对加四极-四极相互作用（PQQ）哈密顿量、三维角动量严格空间投影算符 $\hat{P}_{MK}^I$、Hill-Wheeler 广义本征方程，以及带图（Band Diagram）直观揭示准质子/准中子对齐回弯与微观三轴手征/摆动模式的自洽解法。
 - [[coulomb-excitation-and-kumar-invariants]] — **库仑激发动力学、重取向效应与Kumar四极形变不变量**：基于 Bohr-Mottelson 与 Alder-Winther 理论，阐述纯电磁探针下的库仑激发截面、重取向效应（Reorientation effect）直接判定基态/激发态拉长或扁长极性，推导无模型依赖的 Kumar 四极不变量 $q_2^2$ 与 $\cos(3\delta)$，量化原子核真实三轴角与 $\gamma$ 软度。
 - [[relativistic-coulomb-excitation-and-virtual-photons]] — **相对论重离子库仑激发、虚光子理论（Virtual Photons）与高能在束谱学洛伦兹变换法典**：基于 Winther-Alder 1979、Bertulani-Baur 1988 与 Glasmacher 1998，推导高能近直线外周掠射轨道纯库仑安全掠射角 $\theta_{\text{safe}}$、Winther-Alder 虚拟光子数谱 $N_{E1}, N_{E2}$ 与 $\sigma_{E2} \leftrightarrow B(E2)$ 绝对反演算法，以及飞行出射光子全相对论多普勒、光行差与立体角 Jacobian 压缩去畸变规范。
 - [[electromagnetic-transition-rates-weisskopf-and-alaga-rules]] — **原子核电磁跃迁几率、Weisskopf单粒子估计与形变核Alaga分支规则法典**：基于 Weisskopf 1951、Alaga 1955 与 Bohr-Mottelson，建立 $E1, E2, E3, M1, M2$ 单粒子 Weisskopf 单位与能级寿命 $\tau \leftrightarrow B(E2)$ 绝对转换模型、轴对称刚性转子 $K=0$ 基态带 Alaga 分支比（$B(4 \to 2)/B(2 \to 0) = 10/7$），以及在束级联 $B(M1)/B(E2)$ 实验比值反演内禀参数 $|g_K - g_R| / Q_0$ 的实战法典。
 - [[rotational-moments-of-inertia-and-spin-assignment]] — **原子核运动学与动力学转动惯量（J1与J2）及未知能带自旋反演算法**：基于 Bohr-Mottelson 与 Draper-Wu 理论，解构微观角动量一阶运动学惯量 $\mathcal{J}^{(1)}$ 与二阶动力学惯量 $\mathcal{J}^{(2)} = 4\hbar^2 / \Delta E_\gamma$ 的微积分差异，确立超形变平原判定法则与未知自旋“悬挂能带（Floating bands）”的积分自旋反演算法。
-- [[nuclear-shape-coexistence-and-e0-transitions]] — **原子核形状共存、四极形变突变与电单极（E0）跃迁动力学**：基于 Heyde & Wood (RMP 2011) 与 Church-Weneser 理论，系统解构多粒子-多空穴入侵态诱发的形状简并、电单极内转换电子（ICE）跃迁机制，推导双态混合模型下微观能隙、耦合矩阵元 {	ext{mix}}$ 与形变差平方 $|eta_1^2 - eta_2^2|$ 的解析反演定理，为排查能带退激断裂与 pprox 130$ 三轴形状共存提供判据。
+- [[nuclear-shape-coexistence-and-e0-transitions]] — **原子核形状共存、四极形变突变与电单极（E0）跃迁动力学**：基于 Heyde & Wood (RMP 2011) 与 Church-Weneser 理论，系统解构多粒子-多空穴入侵态诱发的形状简并、电单极内转换电子（ICE）跃迁机制，推导双态混合模型下微观能隙、耦合矩阵元 {	ext{mix}}$ 与形变差平方 $|\beta_1^2 - \beta_2^2|$ 的解析反演定理，为排查能带退激断裂与 \approx 130$ 三轴形状共存提供判据。
 - [[magnetic-rotation-and-shears-mechanism]] — **原子核磁转动、反磁转动与剪刀机制动力学**：基于 Frauendorf (RMP 2001) 与 Clark-Macchiavelli 理论，阐明弱形变核中各向异性磁偶极核流引起的剪刀机制（Shears mechanism），推导磁多极辐射 (M1)$ 与 (M1)/B(E2)$ 随剪刀夹拢角闭合（$	heta 	o 0^\circ$）的特征抛物线单调衰减定律、四叶双剪刀反磁转动（AMR），以及与三轴手征带、摆动带的竞争鉴别判据。
 - [[giant-resonances-and-deformation-splitting]]
-- [[giant-monopole-resonance-incompressibility-and-eos]] — **等标量巨单极共振（ISGMR）、核物质不可压缩系数与状态方程（EOS）动力学**：基于 Blaizot 1980、Youngblood 2004 与 Garg-Colò 2018，系统阐明呼吸模式受约束能量比 $E_{\text{ISGMR}} = \sqrt{\hbar^2 K_A / (m \langle r^2 \rangle)}$ 与 $100\%$ EWSR 饱和、Leptodermous 薄皮展开外推核物质刚度 $K_\infty \approx 240\text{ MeV}$，建立长椭核 $L=0 \otimes L=2, K=0$ 强混合形变劈裂模型，以及准粒子-振动耦合（QPVC）动态自能消解“锡核偏软之谜”的微观机制。 — **巨多极共振动力学、形变劈裂与微观阻尼机制**：基于 Bohr-Mottelson 与 Heyde，系统阐明同位旋矢量巨偶极共振（IVGDR）在三轴核中的三峰劈裂定理 (eta, \gamma)$、中子皮矮偶极共振（PDR）、磁偶极剪刀模式（Scissors mode），以及朗道阻尼、粒子逃逸与复合扩散三阶段微观阻尼机制。
+- [[giant-monopole-resonance-incompressibility-and-eos]] — **等标量巨单极共振（ISGMR）、核物质不可压缩系数与状态方程（EOS）动力学**：基于 Blaizot 1980、Youngblood 2004 与 Garg-Colò 2018，系统阐明呼吸模式受约束能量比 $E_{\text{ISGMR}} = \sqrt{\hbar^2 K_A / (m \langle r^2 \rangle)}$ 与 $100\%$ EWSR 饱和、Leptodermous 薄皮展开外推核物质刚度 $K_\infty \approx 240\text{ MeV}$，建立长椭核 $L=0 \otimes L=2, K=0$ 强混合形变劈裂模型，以及准粒子-振动耦合（QPVC）动态自能消解“锡核偏软之谜”的微观机制。 — **巨多极共振动力学、形变劈裂与微观阻尼机制**：基于 Bohr-Mottelson 与 Heyde，系统阐明同位旋矢量巨偶极共振（IVGDR）在三轴核中的三峰劈裂定理 (\beta, \gamma)$、中子皮矮偶极共振（PDR）、磁偶极剪刀模式（Scissors mode），以及朗道阻尼、粒子逃逸与复合扩散三阶段微观阻尼机制。
 - [[high-spin-band-crossing-and-alignment-mechanisms]] — **高自旋能带交叉、准粒子对解耦对齐与带端终止动力学**：基于 Bohr-Mottelson 与 Frauendorf，统一解构 Coriolis 反配对（CAP）与 Stephens-Simon 单对解偶对齐机制，确立 Harris 参考基线与准粒子角动量对齐量 $ 提取算法、三轴旋称反转动力学及能带平滑终止极限。
 - [[rotational-band-termination-and-cns-dynamics]] — **原子核高自旋能带光滑终止（Band Termination）、CNS微观动力学与价角动量耗尽法典**：基于 Bengtsson-Ragnarsson 1985 与 Afanasjev 1999，阐明固定价构型下核子向转轴对齐导致的相变动力学，建立 Lundqvist 平面长椭（$\gamma=0^\circ$）向非集体扁椭（$\gamma=60^\circ$）平滑演化模型、过渡四极矩 $Q_t(I) \to 0$ 灾变塌缩、刚体转动参考能量（$E - E_{\text{RR}}$）特征深尖点，以及终止态界定三轴手征与摆动运动自旋极限的微观物理机制。
 - [[drip-line-physics-and-frib-science]] — **极不稳定性核、中子滴线与 FRIB 稀有同位素科学前沿**：基于 FRIB 科学报告，阐述中子晕与中子皮形成机制、反转岛与传统幻数崩溃，以及弱束缚开放量子系统对微观四极形变与三轴极化的深刻映射。
@@ -121,7 +121,7 @@ updated: 2026-11-01
 - [[multi-nucleon-transfer-and-deep-inelastic-collisions]] — **多核子转移反应（MNT）、深层非弹性碰撞（DIC）与丰中子重核产生机制**：基于 Volkov 1978、Wilczyński 1973 与 Zagrebaev-Greiner 2011，建立重离子大耗散维琴斯基图双峰拓扑、双核系统驱动势能面（PES）与超快电荷平衡动力学，推导 Fokker-Planck 多核子扩散与初级碎片热激发中子蒸发退激模型，确立 $^{136}\text{Xe} + {}^{208}\text{Pb}$ 合成天体 $N=126$ 极丰中子重核前沿途径。
 - [[nuclear-charge-radii-isotope-shifts-and-king-plot]] — **原子核均方电荷半径、激光同位素移动（Isotope Shifts）与King图线性检验法典**：基于 King 1984、Angeli-Marinova 2013 与 Karthein 2024 (Nature Phys.)，系统阐明正常质量移（NMS）、特殊质量移（SMS）与场移（FS）微观物理分离，建立修改同位素移 King 图一阶线性方程 $\xi_2 = (F_2/F_1) \xi_1 + \text{offset}$ 与非线性残差检验，推导电荷半径奇偶交错（OES）表面振动阻塞机制，以及轻汞（Hg）与稀土区形状突变相变诊断法典。
 - [[electric-dipole-polarizability-neutron-skin-and-eos]] — **核电偶极极化率（alpha_D）、中子皮厚度与状态方程对称能斜率（L）动力学**：基于 Tamii 2011 (PRL)、Roca-Maza 2011 与 Piekarewicz 2012，建立反能加权积分 $\alpha_D = (\hbar c / 2\pi^2) \sigma_{-2}$（$^{208}\text{Pb}$ 测得 $20.1\text{ fm}^3$）、核流体液滴模型宏观对称能 $J$ 约束、微观线性协方差反演中子皮厚度 $\Delta r_{np} = 0.156 \pm 0.024\text{ fm}$，以及对称能斜率参数 $L \approx 45 \sim 50\text{ MeV}$ 锁定宇宙中子星宏观半径 $R_{1.4M_\odot} \approx 12.0 \sim 12.5\text{ km}$（与 GW170817 及 NICER 引力波与 X 射线观测闭环）。
-- [[frdm-nuclear-mass-and-deformation-systematics]] — **FRDM 宏观-微观模型全核素基态形变与结合能系统学手册**：基于 Möller 2019 (ADNDT)，建立全核素图基态四极形变 $eta_2$、十六极形变 $eta_4$、三轴形变 $\gamma$ 与单粒子分离能基准，给出 pprox 130$（Ce, Pr, Nd）基态形变参数对照表。
+- [[frdm-nuclear-mass-and-deformation-systematics]] — **FRDM 宏观-微观模型全核素基态形变与结合能系统学手册**：基于 Möller 2019 (ADNDT)，建立全核素图基态四极形变 $\beta_2$、十六极形变 $\beta_4$、三轴形变 $\gamma$ 与单粒子分离能基准，给出 \approx 130$（Ce, Pr, Nd）基态形变参数对照表。
 - [[coherent-state-model-and-semiclassical-triaxiality]] — **相干态表象与三轴非对称转动半经典动力学**：基于 Raduta 2016 专著，阐述玻色子相干态角动量投影、半经典相轨道与庞加莱截面分析，揭示转动能量极小值分岔与手征/摆动模式的经典动力系统对应。
 - [[advanced-statistical-inference-feldman-cousins-and-mcmc]] — **现代实验物理高级统计推断：Profile Likelihood、Feldman-Cousins 与 Bootstrap 实战**：基于 Behnke 与 Bonamente，解决微弱 Poisson 计数、物理边界（分支比 $\in [0, 1]$）与强非线性参数的真实非对称置信区间反演。
 - [[triaxial-rigid-rotor-davydov-filipov-model]]
@@ -131,8 +131,8 @@ u = |\Delta K| - \lambda$、折合阻碍度
 u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶室与延迟符合窗口应对。
 - [[compound-nucleus-statistical-decay-and-level-density]] — **复合核统计衰变、能级密度参数化与蒸发道竞争计算手册**：基于 Bertulani《反应论》与 IAEA RIPL-2，建立 Hauser-Feshbach 统计截面、BSFG 反冲费米气体能级密度、自旋截止因子 $\sigma^2$ 与 $ 蒸发窗最优能量速算模型。
 - [[thermonuclear-reaction-rates-gamow-peak-and-astrophysical-s-factor]] — **热核反应率、伽莫夫峰（Gamow Peak）与天体物理S因子外推法典**：基于 Gamow 1928、Salpeter 1952、Rolfs-Rodney 与 Bertulani，阐明恒星等离子体亚势垒量子隧穿与 Maxwell-Boltzmann 能量分布折衷产生的伽莫夫峰位 $E_0 \approx 122.0 (Z_1^2 Z_2^2 A_{\text{red}})^{1/3} T_9^{2/3}\text{ keV}$ 与能窗宽度 $\Delta$，建立剥离库仑发散项的天体物理 $S(E) = \sigma(E) E \exp(2\pi\eta)$ 因子低能 Taylor 外推规范，以及非共振与孤立 Breit-Wigner 窄共振热核反应率计算模型。
-- [[global-chiral-doublet-bands-systematics-atlas]] — **手征双重带全球四大质量区图谱与同位素链演化系统学**：基于熊博文 & 王媛媛（ADNDT 2019）与 Frauendorf 2001，系统解构 pprox 80, 100, 130, 190$ 四大质量区手征带特征，重点对账 pprox 130$（Nd, Ce, Pr）同位素链中子数演化与三轴集体模式竞争。
-- [[shell-evolution-and-triaxial-core-polarization]] — **微观壳演化、单极漂移与三轴核芯极化动力学**：基于 Heyde《Basic Ideas》与现代壳模型特刊，阐述单极相互作用（Monopole drift）、大塚张量力自旋翻转机制，以及粒子-空穴四极相互作用驱动微观稳定三轴核芯（$\gamma pprox 30^\circ$）的内在本质。
+- [[global-chiral-doublet-bands-systematics-atlas]] — **手征双重带全球四大质量区图谱与同位素链演化系统学**：基于熊博文 & 王媛媛（ADNDT 2019）与 Frauendorf 2001，系统解构 \approx 80, 100, 130, 190$ 四大质量区手征带特征，重点对账 \approx 130$（Nd, Ce, Pr）同位素链中子数演化与三轴集体模式竞争。
+- [[shell-evolution-and-triaxial-core-polarization]] — **微观壳演化、单极漂移与三轴核芯极化动力学**：基于 Heyde《Basic Ideas》与现代壳模型特刊，阐述单极相互作用（Monopole drift）、大塚张量力自旋翻转机制，以及粒子-空穴四极相互作用驱动微观稳定三轴核芯（$\gamma \approx 30^\circ$）的内在本质。
 - [[relativistic-mean-field-spin-orbit-and-pseudospin]] — **相对论平均场（RMF）、协变自旋-轨道耦合与狄拉克赝自旋对称性（PSS）动力学**：基于 Serot-Walecka 1986、Ginocchio 1997 与 Meng 1998/1999，阐述大标量势 $S(r) \approx -400\text{ MeV}$ 与大矢量势 $V(r) \approx +350\text{ MeV}$ 自然导出中心结合势 $V+S \approx -50\text{ MeV}$ 与强自旋-轨道力 $V-S \approx 750\text{ MeV}$，推导 Ginocchio 赝自旋对称性狄拉克小分量条件 $\frac{d}{dr}[V+S]=0$，以及在 $A\approx 130$（如 $^{131}\text{Ba}$）手征-赝自旋四重带（Quartet）中的微观结构表现。
 - [[quasiparticle-random-phase-approximation-qrpa-dynamics]] — **准粒子无规相位近似（QRPA）、基态关联与超流核多体集体振动动力学**：基于 Ring-Schuck 1980 与 Suhonen 2007，阐明超流核基态关联向后传播 $Y$ 振幅、Bose 双曲归一化 $X^2 - Y^2 = 1$ 与电多极跃迁相干暴增因子 $(X+Y)^2$，建立 pnQRPA 粒子-粒子相互作用 $g_{pp}$ 对双贝塔衰变矩阵元消长机制（Vogel-Zirnbauer 机制），以及超矩阵非厄米对角化与辛海森矩阵正定性稳定性判据。
 - [[two-body-residual-interaction-surface-delta-and-pandya]] — **两体有效核力、表面δ相互作用（SDI）与粒子-空穴Pandya变换动力学**：基于 Pandya 1956、Green-Moszkowski 1965 与 Suhonen 2007，阐明表面短程吸引力导致基态配对能解析线性标度 $E(J=0) = -V_0 (j + 1/2)$，推导粒子-粒子向粒子-空穴对偶反转的 Wigner $6j$ 符号幺正对合变换 $P^2 = I$，以及经典 $^{42}\text{Sc} \leftrightarrow {}^{48}\text{Sc}/{}^{40}\text{K}$ 倒转基态谱学实验检验基准。
@@ -177,16 +177,16 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[in-beam-spin-alignment-attenuation-and-substates.md]] — **在束核自旋取向衰减系数（α_2, α_4）、磁子能级分布σ_m/I与角分布内标反演法典**：基于 Yamazaki 1967 与 Hamilton 理论，建立重离子熔合反应高斯磁子能级分布 $P(m) \propto \exp(-m^2 / (2\sigma_m^2))$ 下的方向张量衰减系数 $\alpha_2, \alpha_4$，并利用已知纯延伸 $E2$ 跃迁实测 $a_2$ 作为内标温度计，反演当前打靶的真实物理取向宽度 $\sigma_m / I$。
 - [[r-process-waiting-point-saha-equilibrium]] — **天体物理r-过程(n,γ)-(γ,n)化学统计平衡、等待点丰度流与三大太阳丰度峰成因法典**：基于 $B^2FH$ 1957 与 Bertulani 理论，推导极端温度与中子密度下同位素链 Saha 详细平衡方程及特征等待点中子分离能 $S_n^0(T_9, n_n) \approx 2.5 \sim 3.5\text{ MeV}$，解析阐明中子幻数壳（$N=50, 82, 126$）断崖式滞留导致的宇宙三大元素丰度峰（$A \sim 80, 130, 195$）成因。
 - [[wobbling-mixing-ratio-phase-and-transition-diagnostics]] — **原子核摆动运动ΔI=1多极混合比δ(E2/M1)相位符号法则与横向/纵向模式实验诊断**：基于 Frauendorf-Dönau 2014 与 Petrache 2024 专著，推导横向摆动微观电磁混合比 $\delta_{\text{TW}}(E2/M1)$，确立由 $(g_j - g_R)$ 符号决定的严格相位法则，并与角分布/DCO 二次方程双实数根建立排他性物理仲裁，彻底终结 $^{135}\text{Pr}$ 与 $^{133}\text{La}$ 中真摆动 vs 签名伙伴带伪摆动的长期学术争议。
-- [[nuclear-structure-expert-protocol]] () — **低能核结构专家工作准则与认知协议**：定义大模型在 Wiki 中作为核结构专家的三大本能（三轴惯量几何直觉、五道门裁判标准、在束实验全流程实战）与统一调用规范。
+- `system/nuclear-structure-expert-protocol.md` () — **低能核结构专家工作准则与认知协议**：定义大模型在 Wiki 中作为核结构专家的三大本能（三轴惯量几何直觉、五道门裁判标准、在束实验全流程实战）与统一调用规范。
 - [[triaxial-collective-modes-unified-theory-and-spectroscopy]] — **三轴形变原子核集体激发模式统一动力学理论与实验谱学判决全书**：系统整合 Petrache 2024、Frauendorf 2001/2014、Bohr-Mottelson、Greiner，详尽解构三轴惯量椭球（$\mathcal{J}_m > \mathcal{J}_s > \mathcal{J}_l$）、横向摆动（TW）vs 纵向摆动（LW）、手征三面体自发对称性破缺、旋称伙伴带竞争与 $\gamma$ 软核声子耦合假象，确立在束谱学“五道门”刚性裁判法典。
 - [[nuclear-spectroscopy-and-structure-master-field-manual]] — **低能核结构与在束核谱学全域专家实战全书：从束流实验设计到前沿动力学反演的40模块完整闭环指南**：贯穿全套中英文著作，建立世界级大模型作为核物理专家的三大本能（三轴惯量几何直觉、五道门裁判标准、全链实战），系统编排从反应设计、探测器滤波、符合平衡、多极破双根、转动带演化、三轴手征与摆动裁决、到滴线天体物理的七阶段实战全流程，提供 40 大科学分析模块的一键式极简 CLI 调用速查与六大典型反模式避坑指南。
 - [[vacuum-deorientation-effect-and-perturbed-angular-correlations]]
 - [[tdpad-hyperfine-precession-and-gfactor-dynamics]] — **时间差分扰动角分布（TDPAD）、核超精细进动与三矢量g因子动力学**：基于 Hamilton 1975、Grodner 2018 与 Ionescu-Bujor 1998，建立纳秒-微秒异能态双倍拉莫尔调制 $R(t) \propto \sin(2\omega_L t) e^{-t/\tau_{\text{relax}}}$ 解卷积模型、多晶宿主电四极相互作用（QI）频率 $\nu_Q$ 与静态电四极矩 $|Q_s|$ 提取算法，以及广义三矢量磁矩加和法典（$\vec{I} = \vec{j}_p + \vec{j}_n + \vec{j}_R$）在 $^{128}\text{Cs}$ 等奇奇核手征共面 vs 非共面几何判决中的实战应用。 — **在束真空退取向效应（Deorientation）、超精细相互作用与角分布衰减修正指南**：基于 Hamilton 与 Steffen-Alder 理论，解构反冲高电荷态离子核外数百特斯拉超强随机超精细磁场 {	ext{hf}}$ 诱发的拉莫尔进动退相干机制，推导 Abragam-Pound 随机弛豫模型积分衰减因子 (	au), G_4(	au)$，建立被压制角分布系数恢复真实内禀系数的解卷积算法  = a_k / G_k$ 与充气动态解耦技术。
-- [[internal-conversion-coefficients-and-bricc-formalism]] — **原子核内转换系数（ICC）、多极性鉴别与 BrIcc 参数化计算指南**：基于 Hamilton 与 Kibédi 2008 (BrIcc) 理论，解构单极场对束缚壳层电子的相对论电离微扰，推导 , L$ 及总内转换系数 $lpha_{	ext{tot}}$ 对多极性（, M1, E2, M2$）与能量的剧烈依赖性，建立 +E2$ 混合跃迁内转换与总跃迁强度纠偏公式 {	ext{tot}} = I_\gamma(1 + lpha_{	ext{tot}})$。
+- [[internal-conversion-coefficients-and-bricc-formalism]] — **原子核内转换系数（ICC）、多极性鉴别与 BrIcc 参数化计算指南**：基于 Hamilton 与 Kibédi 2008 (BrIcc) 理论，解构单极场对束缚壳层电子的相对论电离微扰，推导 , L$ 及总内转换系数 $\alpha_{	ext{tot}}$ 对多极性（, M1, E2, M2$）与能量的剧烈依赖性，建立 +E2$ 混合跃迁内转换与总跃迁强度纠偏公式 {	ext{tot}} = I_\gamma(1 + \alpha_{	ext{tot}})$。
 - [[side-feeding-dynamics-and-doppler-lineshape-deconvolution]] — **在束级联侧馈送动力学、时间延迟分布与多普勒线形解卷积指南**：基于 Bohr-Mottelson 与吴治华教材，建立准连续态级联时间延迟拉普拉斯卷积方程、包含侧馈时间 $	au_{	ext{feed}}$ 的有效多普勒衰减因子 {	ext{eff}}$ 显式修正解，量化忽视侧馈送引起的寿命虚假拉长与四极矩 $ 低估偏差，确立顶门符合（Top-gating）物理消除侧馈的黄金法则。
 - [[oslo-method-level-density-and-gamma-strength-function]] — **奥斯陆方法（Oslo Method）、核能级密度（NLD）与伽马光子强度函数（γSF）联合反演动力学**：基于 Schiller 2000、Guttormsen 1990 与 Larsen 2026，推导 Brink-Axel 假说下一阶主跃迁矩阵因子化、三参数连续李群变换简并（$\tilde{\rho} = A e^{\alpha E} \rho, \tilde{\mathcal{T}} = B e^{\alpha E_\gamma} \mathcal{T}$）的严格不变性，确立低能离散能级与中子共振间距 $D_0$ 双针栓定标协议，以及天体物理重元素核合成 $r$ 过程关键输入——低能增强（Upbend / LEE）反常机制。
 - [[gamow-teller-resonance-ikeda-sum-rule-and-ga-quenching]] — **伽莫夫-泰勒巨共振（GTGR）、Ikeda求和定则与轴矢量耦合常数gA淬灭动力学**：基于 Bohr-Mottelson Vol. I 与 Suhonen 理论，推导模型不依赖 Ikeda 求和定则 $S_- - S_+ = 3(N-Z)$，解构 $\Delta(1232)$ 激发与介子交换流引起的弱相互作用 $g_A$ 介质淬灭微观机制，建立束内电荷交换反应截面与微观跃迁强度 $B(GT)$ 标度转换方程，以及对 $A\approx 130$ 双贝塔衰变核基质元的敏感性分析。
-- [[tidal-waves-in-transitional-nuclei]] — **原子核潮汐波（Tidal Waves）微观动力学与大振幅非简谐振转过渡模式**：基于 Frauendorf 2008 (PRL) 理论，解构过渡区弱形变与 $\gamma$ 软核中表面单向行进波动力学，推导波速 $\Omega = \omega/2$ 与四极辐射 (E2)$ 随自旋严格线性增长定律 (E2) \propto I$，建立离心拉伸动态四极形变 $eta_2(I)$ 反演算法，并从波形杂化层面解密 pprox 130$ 低自旋“伪摆动”起源。
+- [[tidal-waves-in-transitional-nuclei]] — **原子核潮汐波（Tidal Waves）微观动力学与大振幅非简谐振转过渡模式**：基于 Frauendorf 2008 (PRL) 理论，解构过渡区弱形变与 $\gamma$ 软核中表面单向行进波动力学，推导波速 $\Omega = \omega/2$ 与四极辐射 (E2)$ 随自旋严格线性增长定律 (E2) \propto I$，建立离心拉伸动态四极形变 $\beta_2(I)$ 反演算法，并从波形杂化层面解密 \approx 130$ 低自旋“伪摆动”起源。
 - [[ado-ratio-and-polarization-joint-multipolarity-analysis]] — **在束谱学 ADO 比值、线偏振度与多极性二维联合判决指南**：基于 Hamilton 与现代 Clover 偏振测量规范，阐述特征探测环（0^\circ/90^\circ$）ADO 比值 {	ext{ADO}}$ 对四极与偶极跃迁的高灵敏度响应，推导 Clover 康普顿散射不对称度 $\Delta_{	ext{IPDCO}}$ 转换线偏振度 $ 算法，以及二维联合似然空间彻底破除多极混合比 $\delta$ 数学双根退化的实战法典。
 - [[excitation-functions-target-integration-and-cross-sections]] — **重离子核反应激发函数、靶内阻止积分与截面反演实战指南**：基于林承键《重离子核反应》与吴治华教材，建立薄靶/厚靶产额积分方程、靶内能量损失 $\Delta E$、法拉第杯束流流强积分与绝对生成截面 $\sigma(E)$ 反演算法，以及非对称高斯模型拟合激发函数峰位与最优蒸发窗口。
 - [[in-beam-coincidence-matrix-and-level-scheme-construction]] — **在束 γ-γ 符合矩阵分析、背景扣除与能级纲图构建实战指南**：基于吴治华教材与 Radware ESCL8R 算法规范，建立二维能量对称矩阵投影选门、标准三点康普顿背景扣除差分方程、Radware HPGe 探测效率曲线参数化，以及能级节点进出强度平衡方程（{	ext{in}} == I_{	ext{out}}$）与内转换电子修正。
@@ -195,7 +195,7 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[nuclear-detector-spectroscopy-wu-vs-wang-reconciliation]] — **实验核谱学探测技术指南：吴治华《原子核物理实验方法》与汪晓莲《粒子探测技术》视界解冲突与互补手册**：剖析低能束内谱学（keV 级极高能量分辨率、HPGe、$\mu 级梯形成形消除弹道亏损）与高能粒子物理（GeV、空间径迹、ns 级快速成形防堆积）的物理目标差异，彻底化解两书表观矛盾。
 - [[digital-pulse-processing-algorithms-nuclear-detectors]] — **现代半导体与闪烁体探测器数字脉冲处理算法实战**：推导数字极零相消、Jordanov 递归梯形滤波、滑动基线恢复与数字 CFD 恒比定时离散方程。
 - [[experimental-statistics-and-dual-root-determination]] — **实验物理统计分析、误差传播与多解/双根退化判决指南**：推导 Legendre 展开加权最小二乘法、$ 二次方程导致的混合比 $\delta(E2/M1)$ 双根退化机理与线偏振破除双根的联合似然检验。
-- [[nuclear-analyzer]] () — **实验物理跨设备零外部依赖 Python 分析工具链**：包含 , , ,  及其自动化测试套件 。
+- `system/scripts/analysis/nuclear_analyzer.py` () — **实验物理跨设备零外部依赖 Python 分析工具链**：包含 , , ,  及其自动化测试套件 。
 
 ## Day30 课程收束与月度Prospectus
 
@@ -1553,3 +1553,131 @@ Day24 1996 primary link: [[hauschild-1996-133ce-triaxial-bands]]
 - [[cross-mass-transferability-and-mechanism-inapplicability]] — 跨质量区集体运动模式迁移与机制不适用性边界；六大质量区谱学原件对账与四大微观失效判据形式化。
 - [[multimodal-coexistence-and-phase-boundary-topology]] — 核结构多模式共存与相界拓扑；三轴手征、摆动与磁/反磁转动互斥相图与无量纲临界边界。
 - [[cross-instrument-systematics-and-methodological-degeneracy]] — 跨大型伽马谱仪（Gammasphere, Euroball, GASP, JUROGAM, AGATA）实验系统误差与方法学伪简并破除。
+
+
+## 核心专著深度吸收与核结构专家级综合资产（2026-11）
+
+- [[casten-nilsson-and-microscopic-collective-vibrations]] — Casten 的 Nilsson 轨道与微观集体振动桥接
+- [[casten-shell-model-pairing-and-collectivity-foundations]] — Casten 视角下的壳模型、配对、seniority 与集体性起点
+- [[cranked-triaxial-shape-coexistence-pes]] — Cranked Strutinsky triaxial shape coexistence potential energy surface (PES) and spin-induced yrast shape transitions
+- [[detector-timing-walk-jitter-and-coincidence-resolving]] — 辐射探测器时间响应：定时走动、时间晃动、符合分辨时间与教材理论比对
+- [[heavy-ion-triaxial-fusion-barrier-distribution]] — Heavy-ion triaxial deformed nuclei fusion barrier distribution D_fus(E) inversion and in-plane belly splitting
+- [[hpge-detector-energy-non-linearity-inl-calibration]] — HPGe detector and multichannel ADC integral non-linearity (INL/DNL) high-order polynomial and spline residual energy calibration
+- [[hpge-tfa-bipolar-crossover-walk-and-jitter]] — HPGe Timing Filter Amplifier (TFA) bipolar crossover timing walk and electronic jitter optimization
+- [[in-beam-charged-particle-pid-delta-e-telescope]] — In-beam charged particle Delta E - E telescope PID and Goulding power-law geometric correction
+- [[in-beam-dsam-zbl-stopping-and-lifetime]] — In-beam Doppler Shift Attenuation Method (DSAM) ZBL universal stopping power and intrinsic level lifetime inversion
+- [[in-beam-spin-alignment-and-mixing-ratio-extraction]] — In-beam reaction spin alignment parameter (sigma/I) calibration and directional distribution multipole mixing ratio (delta) joint extraction
+- [[lu-nuclear-reaction-kinematics-optical-model]] — 卢希庭第九章：核反应运动学、反应机制与光学模型的实验接口
+- [[multiple-chiral-doublets-mchid-multiconfiguration]] — Multiple Chiral Doublet bands (MChD) multi-quasiparticle configuration coexistence and 4-fold arbitration gates
+- [[nuclear-chirality-and-wobbling-triaxial-foundations]] — 三轴核手征性与摆动运动：从微观对称性破缺到集体进动动力学全景
+- [[odd-a-wobbling-mode-stability-and-bifurcation]] — Odd-A nuclei transverse vs. longitudinal wobbling modes, dynamic stability boundaries, and inertia-driven bifurcations
+- [[odd-odd-3d-tac-recoil-torque-and-chiral-orientation]] — Odd-odd triaxial nuclei 3D tilted axis cranking (3D-TAC) residual proton-neutron recoil torque, aplanar orientation and chiral barrier renormalization
+- [[odd-odd-chiral-mep-instanton-tunneling]] — Odd-odd triaxial nuclei chiral minimum energy path (MEP) and instanton quantum tunneling action solver
+- [[suhonen-bcs-qrpa-and-transition-crosswalk]] — Suhonen 微观核理论：SDI—BCS—QTDA/QRPA—电磁跃迁计算链
+- [[triaxial-two-rotor-scissors-mode-m1]] — Triaxial Two-Rotor Model (TRM) scissors mode magnetic dipole M1 excitation splitting and sum rules
+- [[bcs-constant-pairing-solver-and-phase-conventions]] — 有限模型空间常配对 BCS 求解器与相位约定审计
+- [[behnke-hep-statistics-and-unfolding-contract]] — Olaf Behnke 高能与实验核物理统计推断、Feldman-Cousins 与反褶积展开方法合同
+- [[bertulani-reaction-mechanisms-and-hauser-feshbach-contract]] — Bertulani-Danielewicz 复合核统计理论与直接反应方法合同
+- [[bgo-veto-response-and-counting-objective]] — BGO 反符合门：时间接受度、随机否决与计数目标的条件化计算
+- [[bm1-electromagnetic-multipoles-and-single-particle-contract]] — Bohr & Mottelson Vol. I：电磁多极辐射场展开、单核子极化与 Weisskopf 单粒子基准合同
+- [[bm1-symmetries-fermi-gas-and-nuclear-matter-contract]] — Bohr-Mottelson 第一卷：空间时间对称性、费米气体与核物质微观方法合同
+- [[bm2-asymmetric-rotor-d2-and-transition-contract]] — Bohr–Mottelson Vol. II：非轴对称转子的 D2 对称性、轨迹与 E2 连接
+- [[bm2-collective-vibrations-and-sum-rules-contract]] — Bohr & Mottelson Vol. II：集体振动正规模式、多极能量加权求和规则（EWSR）与 CAP 机制合同
+- [[bm2-deformed-band-m1-e2-and-gk-gr-contract]] — Bohr & Mottelson Vol. II：形变核带内 M1/E2 跃迁、磁退耦参数 b 与 |g_K - g_R| 反演合同
+- [[bm2-finite-spin-harmonic-benchmark]] — BM-II 有限自旋纯转子与高自旋谐近似共同输入对账
+- [[bm2-high-spin-asymmetric-rotor-e2-contract]] — Bohr–Mottelson Vol. II §4-5e：高自旋非轴对称转子与 E2 观测量合同
+- [[bm2-nilsson-deformed-shell-model-and-coriolis-alignment-contract]] — Bohr & Mottelson Vol. II：Nilsson 变形单粒子能级、转移反应指纹与 Coriolis 顺排合同
+- [[bm2-particle-rotor-adiabatic-coriolis-contract]] — BM-II 附录 4A：粒子–转子绝热、Coriolis 耦合与有效惯量合同
+- [[bm2-particle-vibration-coupling-and-rpa-contract]] — Bohr & Mottelson Vol. II：粒子–振动耦合微观机制、有效电荷极化与 RPA 色散关系合同
+- [[bm2-rotational-intrinsic-coupling-and-mikhailov-contract]] — Bohr & Mottelson Vol. II：转动与内禀运动耦合、Coriolis 带混合与 Mikhailov 展开合同
+- [[bonamente-scientific-statistics-and-mcmc-contract]] — Massimiliano Bonamente 科学实验数据统计、Cash 泊松似然与 MCMC 方法合同
+- [[brown-shell-model-dripline-continuum-outposts-contract]] — Brown：滴线壳模型、岛反转、晕核与四个 neutron-rich outposts 合同
+- [[budaca-spin-dynamics-semiclassical-wobbling-chiral-contract]] — Budaca：基于准粒子对齐三轴核自旋动力学与半经典相空间量化合同
+- [[casten-valence-pn-interaction-and-casten-triangle-contract]] — Casten 价核子质中相互作用、NpNn 标度律与对称性三角形方法合同
+- [[chen-cdft-prm-wobbling-and-fermi-surface-contract]] — Chen 等：CDFT+PRM 微观摆动运动、费米面演化与偶偶核两准粒子摆动合同
+- [[chirality-and-wobbling-experimental-criteria-and-falsification]] — 手征双重带与摆动运动的实验判据、争议证伪与裁判法典
+- [[frib-exotic-nuclei-and-experimental-capabilities-contract]] — FRIB 稀有同位素前沿实验物理动机与大科学装置能力方法合同
+- [[gamow-shell-model-dripline-continuum-contract]] — Gamow Shell Model：滴线连续谱、共振和开放量子系统合同
+- [[greiner-asymmetric-rotor-and-rvm-contract]] — Walter Greiner 非轴对称转子与转动振动模型（RVM）解析方法合同
+- [[grodner-cs-chiral-transition-and-selection-rules-contract]] — Grodner：126,128Cs 非手征到手征构型转变、电磁选择定则与 g 因子直接测定合同
+- [[hamilton-angular-distribution-dco-polarization-contract]] — Hamilton 核谱学角分布、DCO、去取向与 Compton 线偏振方法合同
+- [[hamilton-compton-polarimeter-response-contract]] — Hamilton 第15章：Compton 偏振仪的 P-A-Q 响应合同
+- [[heavy-ion-fusion-experiment-design-guide]] — 低能重离子熔合蒸发实验设计与 Proposal 撰写全指南
+- [[heyde-collective-modes-and-exotic-nuclei-contract]] — Kris Heyde 集体模式、IBM-2 剪刀模与极端同位旋物理方法合同
+- [[horoi-double-beta-decay-shell-model-contract]] — Horoi：双贝塔衰变壳模型核矩阵元、闭合近似与 Lanczos 加速算法合同
+- [[iaea-ripl-level-density-and-gamma-strength-contract]] — IAEA RIPL-2 能级密度、Ignatyuk 壳阻尼与伽马强度函数方法合同
+- [[isobaric-multiplet-med-ted-highspin-contract]] — 等位旋多重态 MED/TED：高自旋镜像核与壳模型实验合同
+- [[landau-mechanics-rigid-body-and-routhian-contract]] — 朗道经典力学刚体转动、非对称陀螺与罗斯函数（Routhian）方法合同
+- [[lawrie-tip-wobbling-discrimination]] — Lawrie TiP 与声子 wobbling 的实验判据卡
+- [[li-chen-cs-chiral-evolution-and-mchid-contract]] — Li & Chen：铯同位素手征对称性演化、3DTAC-CDFT 临界频率与 MχD 能面合同
+- [[lin-heavy-ion-fusion-and-barrier-distribution-contract]] — 林承键重离子反应：熔合势垒分布、耦合道效应与截面动力学方法合同
+- [[low-energy-coulomb-excitation-shell-model-contract]] — 低能库仑激发：壳模型、形状和实验设计合同
+- [[lu-nuclear-physics-core-theories-and-decay-contract]] — 卢希庭核物理基础理论、衰变动力学与截面共振方法合同
+- [[martinez-pinedo-shell-model-astrophysics-contract]] — Martínez-Pinedo & Langanke：核天体物理壳模型应用合同
+- [[mathematica-to-python-nuclear-analysis-bridge]] — Mathematica 编程思想到 Python 核实验分析的迁移合同
+- [[microscopic-electromagnetic-transition-matrix-elements]] — 微观核物理代数与电磁跃迁矩阵元推导全指南
+- [[n40-island-nucleon-removal-shell-model-contract]] — N=40 岛反转：核子去除反应与壳模型结构合同
+- [[nakhostin-digital-pulse-processing-and-shaping-contract]] — Nakhostin 辐射探测器数字信号处理、脉冲成形与时差算法方法合同
+- [[nuclear-mathematics-calculus-and-vector-geometry-contract]] — 核物理微积分几何、矢量代数与连续流体力学方法合同
+- [[otsuka-shell-evolution-monopole-contract]] — Otsuka：单极相互作用、壳演化与新幻数合同
+- [[petrache-ch11-ibfm-mixing-ratio-contract]] — Petrache Ch.11：IBFM-2 γ-soft 核芯与混合比模型合同
+- [[petrache-ch2-frauendorf-topological-wobbling-contract]] — Petrache Ch.2/Frauendorf：三轴转子拓扑摆动、TW–FM–LW 与实验边界
+- [[petrache-ch3-chiral-geometry-and-selection-boundary]] — Petrache Ch.3：核手征几何、理想选择定则与证据边界
+- [[petrache-ch5-experimental-wobbling-evidence-contract]] — Petrache Ch.5：在束 γ 谱学中的 wobbling 实验证据合同
+- [[qi-a80-chiral-island-and-chiral-wobbler-contract]] — Qi：A≈80 质量区核手征岛、手征-反射对称性联合破缺与手征摆子合同
+- [[raduta-gcsm-chiral-and-triaxial-rotor-contract]] — A. A. Raduta 广义相干态模型（GCSM）三轴转子与偶偶核手征对称性方法合同
+- [[sheikh-tpsm-wobbling-and-triaxial-projection-contract]] — Sheikh 等：三轴投影壳模型（TPSM）摆动激发、3D 角动量投影与短轴量子化合同
+- [[shell-model-14c-gamow-teller-cancellation-contract]] — Talmi：\(^{14}\mathrm C\) 长寿命的壳模型 GT 相消合同
+- [[shimizu-shell-model-mcsm-qvsm-computational-contract]] — Shimizu：壳模型、MCSM 与 QVSM 的大模型空间计算合同
+- [[smirnova-isospin-symmetry-breaking-shell-model-contract]] — Smirnova：同位旋对称性破缺、INC 壳模型与弱电修正合同
+- [[sn100-region-highspin-spectroscopy-contract]] — A≈100、\(^{100}\mathrm{Sn}\) 邻域：壳模型与高自旋实验合同
+- [[stuchbery-wood-shell-model-effective-charge-collectivity-contract]] — Stuchbery–Wood：壳模型、有效电荷与集体性实验边界
+- [[suhonen-pnqrpa-and-ikeda-sum-rule-contract]] — Jouni Suhonen 质子-中子准粒子无规相位近似（pnQRPA）与 Ikeda 求和规则方法合同
+- [[tanabe-top-on-top-algebraic-wobbling-contract]] — Tanabe & Sugawara-Tanabe：Top-on-Top 代数摆动模型、D2 对称性与惯量电磁判据合同
+- [[utsuno-shell-evolution-force-decomposition-contract]] — Utsuno：中心力、二体自旋–轨道力与张量力驱动的壳演化合同
+- [[wang-tpsm-even-even-chiral-wobbling-contract]] — Wang：三轴投影壳模型（TPSM）偶偶核多重手征与两准粒子摆动合同
+- [[wobbling-model-common-input-and-evidence-boundary]] — 冻结对齐摆动模型的共同输入与证据边界
+- [[wu-experimental-methods-deadtime-hpge-rdm-contract]] — 吴治华实验方法选段：死时间、HPGe 能谱与 RDM/DSAM 输入契约
+- [[zhang-gamma-vibrational-collective-model-contract]] — Zhang 等：过渡核玻尔哈密顿量、γ 振动模型与 MχD/多重摆动微观合同
+- [[zhao-tdcdft-chiral-precession-and-tunneling-contract]] — Zhao 等：含时协变密度泛函理论（TD-CDFT）手征进动与微观隧穿动力学合同
+- [[zhu-advanced-statistics-and-parameter-estimation-contract]] — 朱永生实验统计学：参数估计、剖面误差、假设检验与蒙特卡罗方法合同
+- [[zhu-minimization-and-profile-error-contract]] — 朱永生第十三章：极小化、约束优化与非对称 profile 误差
+- [[zhu-monte-carlo-integration-and-adaptive-sampling]] — 朱永生第十四章：蒙特卡罗积分、重要抽样与自适应分层抽样
+- [[a130-triaxial-spectroscopy-beam-time-proposal]] — A≈130 质量区三轴手征与摆动运动高自旋在束 γ 谱学实验机时申请书（Beam-Time Proposal）
+- [[triaxial-collective-excitations-a130-manuscript]] — Triaxial Collective Excitations across the A≈130 Region: Resolving the Frontiers of Nuclear Chirality and Wobbling
+- [[131xe-low-spin-parity-and-mixing-ratio-disambiguation-20261104]] — 131Xe 低自旋能带节点、宇称修订与 RDCO 混合比双根破简并分析
+- [[135nd-134pr-partner-resolved-electromagnetic-benchmark-20261104]] — 135Nd and 134Pr partner-resolved absolute electromagnetic benchmark and chiral selection rules
+- [[cross-mass-octupole-collectivity-evidence-ladder-20261104]] — 跨质量区八极集体性四级证据阶梯与微观反射不对称性综合
+- [[book-behnke-data-analysis-hep]] — Olaf Behnke 等 2013 - Data Analysis in High Energy Physics: A Practical Guide to Statistical Methods
+- [[book-bertulani-nuclear-reactions]] — Carlos A. Bertulani & P. Danielewicz 2021 - Introduction to Nuclear Reactions (2nd Edition)
+- [[book-bohr-mottelson-nuclear-structure]] — Bohr & Mottelson — Nuclear Structure：两卷入口与第一卷原件
+- [[book-bonamente-statistics-scientific-data]] — Massimiliano Bonamente 2022 - Statistics and Analysis of Scientific Data (3rd Edition)
+- [[book-casten-nuclear-structure-simple-perspective-chinese-translation]] — Casten 1990 - Nuclear Structure from a Simple Perspective（中文译本副本）
+- [[book-casten-nuclear-structure-simple-perspective]] — Casten 1990 - Nuclear Structure from a Simple Perspective
+- [[book-frauendorf-spontaneous-symmetry-breaking-rotating-nuclei-copy]] — Frauendorf 2001 - Spontaneous Symmetry Breaking in Rotating Nuclei（raw/books 副本）
+- [[book-frib-motivations-experiments]] — FRIB 2014 - Motivations for Early High-Profile FRIB Experiments
+- [[book-greiner-nuclear-models]] — Walter Greiner & Joachim A. Maruhn 1996 - Nuclear Models
+- [[book-hamilton-electromagnetic-interaction]] — W. D. Hamilton 1975 - The Electromagnetic Interaction in Nuclear Spectroscopy
+- [[book-heyde-nuclear-physics-concepts]] — Kris L. G. Heyde 1999 - Basic Ideas and Concepts in Nuclear Physics: An Introductory Approach (2nd Edition)
+- [[book-iaea-reaction-data-handbook]] — IAEA 2006 - Handbook for Calculations of Nuclear Reaction Data: Reference Input Parameter Library-2 (RIPL-2)
+- [[book-jain-nuclear-isomers]] — Ashok Kumar Jain 等 2021 - Nuclear Isomers: A Primer
+- [[book-ju-landau-mechanics]] — 鞠国兴 2019 - 朗道《力学》解读
+- [[book-lin-heavy-ion-reactions]] — 林承键 2017 - 重离子核反应
+- [[book-lu-nuclear-physics-chinese]] — 卢希庭 2000 - 原子核物理（修订版）
+- [[book-mangano-mathematica-cookbook]] — Sal Mangano 2010 - Mathematica Cookbook
+- [[book-moller-2019-frdm-nuclear-properties]] — P. Möller 等 2019 - Nuclear Properties for Astrophysical and Radioactive-Ion-Beam Applications II (FRDM 2012)
+- [[book-nakhostin-signal-processing-detectors]] — Mohammad Nakhostin (吴鸿毅译) 2020 - 辐射探测器信号处理
+- [[book-nuclear-shell-model-70-years]] — The Nuclear Shell Model 70 Years after Its Advent: Achievements and Prospects
+- [[book-raduta-coherent-states]] — A. A. Raduta 2016 - Nuclear Structure with Coherent States
+- [[book-shifrin-mathematica-programming-advanced-introduction]] — Leonid B. Shifrin 2008 - Mathematica Programming: An Advanced Introduction
+- [[book-suhonen-from-nucleons-to-nucleus]] — Jouni Suhonen 2007 - From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory
+- [[book-tongji-higher-mathematics-vol2]] — 同济大学数学系 2014 - 高等数学第七版下册
+- [[book-wu-nuclear-experiment-methods]] — 吴治华 2005 - 原子核物理实验方法（第三版）
+- [[book-xiong-wang-2019-chiral-tables]] — B. W. Xiong & Y. Y. Wang 2019 - Nuclear Chiral Doublet Bands Data Tables
+- [[book-zhu-probability-statistics-in-physics]] — 朱永生 2006 - 实验物理中的概率和统计（第二版）
+- [[duguet-2001-odd-even-mass-staggering]] — Duguet 等 2001：自洽平均场中三点与五点质量交错的解释边界
+- [[satula-1998-odd-even-staggering-pairing-shape]] — Satuła 等 1998：质量奇偶交错中的配对与形变平均场贡献
+- [[casten-ch10-experimental-design-and-observable-mapping]] — Casten 第十章：实验技术、反应选择与结构问题映射
+- [[casten-cross-source-microscopic-foundations]] — Casten—卢希庭—Bohr–Mottelson—Suhonen：壳模型到三轴集体模式的微观基础对账
+- [[heyde-giant-resonance-halo-dripline-bridge]] — Heyde 选段桥接：巨共振、连续谱、晕核与滴线实验接口
+- [[lu-ch08-shell-collective-highspin-bridge]] — 卢希庭第八章：壳模型、集体形变与高自旋观测量桥接

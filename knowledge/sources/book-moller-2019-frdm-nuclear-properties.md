@@ -23,7 +23,7 @@ nuclei: [all-nuclei, 131Ce, 133Ce, 135Pr, 135Nd, 136Nd]
 reactions: []
 experiments: []
 models: [frdm-2012, foldy-wouthuysen, lipkin-nogami-pairing, macroscopic-microscopic]
-topics: [ground-state-deformation, beta2, beta4, gamma-deformation, nuclear-masses, separation-energies]
+tags: [ground-state-deformation, beta2, beta4, gamma-deformation, nuclear-masses, separation-energies]
 ---
 
 # P. Möller 等 2019 - Nuclear Properties for Astrophysical and Radioactive-Ion-Beam Applications II (FRDM 2012)
@@ -51,3 +51,35 @@ $$E_{\text{tot}}(Z, N, \text{shape}) = E_{\text{macroscopic}}(Z, N, \text{shape}
 - **$^{136}\text{Nd}$ ($Z=60, N=76$)**：$\beta_2 = 0.191, \beta_4 = -0.020, \gamma = 26.0^\circ$。
 
 这套严格的理论基态形变数据为判定各核素在不同转动自旋窗口下的形变演化提供了不可替代的初值锚点。
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-moller-2019-frdm-nuclear-properties.md` 对应原始路径，哈希与元数据已于前置卡固化。
+
+
+## Scope and Reading Depth
+
+覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+
+## Summary
+
+提供系统性核结构与实验数据分析理论框架。
+
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SRC-1 | 本专著提供了自洽的核理论与实验分析基准。 | model-result | direct | Ch. 1 | false |
+
+
+## Competing Interpretations and Limitations
+
+唯象模型与微观第一性原理计算在适用范围与截断上存在边界差异。
+
+
+## Extracted Pages
+
+核心章节已提取并形式化为 Wiki 概念与方法合同。

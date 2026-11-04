@@ -1,0 +1,56 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Smirnova 关于同位旋对称性破缺、INC 壳模型、IMME/MED/TED、IAS 禁戒衰变和超允许 Fermi 衰变弱电修正的主文本核读",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "article": "Smirnova, Isospin-Symmetry Breaking within the Nuclear Shell Model: Present Status and Developments",
+    "doi": "10.3390/physics5020026",
+    "scope": "Article pp.352-380 / physical PDF pp.272-301, main text and key figures/tables",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/smirnova-isospin-symmetry-breaking-shell-model-contract.md",
+      "reason": "isospin tensor decomposition, Henley-Miller classes, IMME b and c coefficients, MED/TED, isospin-forbidden decays from IAS, and superallowed Fermi delta_C two-component contract"
+    },
+    {
+      "path": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+      "reason": "corrected Smirnova physical page range, article status and source-level claims"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Smirnova isospin-symmetry breaking method"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.272 title and introduction",
+    "PDF p.274 isospin tensor decomposition and IMME quadratic formula",
+    "PDF p.277 Henley-Miller force classes and chiral EFT hierarchy",
+    "PDF p.280 Figure 1 (IMME b and c) and Figure 2 (Delta b pairing staggering)",
+    "PDF p.281 Figure 3 (c coefficients of excited states and staggering damping)",
+    "PDF p.286 Figure 4 (beta-delayed decay from IAS and isospin mixing)",
+    "PDF p.289 Equation (29) and Figure 5 (delta_C comparison across theoretical models)",
+    "PDF p.291 Figure 6 (Fermi strength distribution, delta_C1 and delta_C2)",
+    "PDF p.294 rp-process resonance rates, Thomas-Ehrman effect on spectroscopic factors, and conclusion"
+  ],
+  "claims": [
+    "INC nuclear forces are classified into Henley-Miller Classes I-IV, with chiral EFT establishing a clear hierarchy.",
+    "IMME b and c coefficients exhibit pairing-driven staggering that dampens with excitation energy.",
+    "MED and TED provide sensitive probes of high-spin pair alignment, neutron skins and s1/2 Thomas-Ehrman shifts.",
+    "Superallowed Fermi decay correction delta_C splits into configuration mixing delta_C1 and radial-overlap mismatch delta_C2, with SM-WS showing the highest CVC consistency."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded article-level main-text and key-figure unit",
+    "remaining_queue": "Horoi and shell-model astrophysics articles remain queued; references and production code implementations were not independently re-read",
+    "boundary": [
+      "No single mirror pair energy difference was treated as uniquely isolating nuclear CD/CSB from Coulomb",
+      "No claim that theoretical uncertainty on delta_C or Vud is fully closed was made",
+      "No direct transfer of light-to-medium ISB conclusions to heavy triaxial wobbling/chiral nuclei was asserted"
+    ]
+  }
+}

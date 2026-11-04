@@ -1,0 +1,150 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "继续将朱永生统计教材与 Hamilton 电磁相互作用专著转化为可追溯知识和实验核谱学分析能力",
+  "sources": [
+    {
+      "source_page": "knowledge/sources/book-zhu-probability-statistics-in-physics.md",
+      "raw_file": "raw/books/实验物理中的概率和统计_朱永生著.pdf",
+      "raw_sha256": "e97062665497c597609d58c23dfa977824c43e73d3ae8cb4ca3c0855e381894b",
+      "verified_scope": [
+        "Chapter 13 printed pp. 466-524 / PDF pp. 482-540",
+        "Chapter 14 printed pp. 525-572 / PDF pp. 541-588"
+      ],
+      "evidence_route": "OCR navigation plus rendered checks of contents and selected equations/figures",
+      "completion_boundary": "not full-book or full-chapter human transcription"
+    },
+    {
+      "source_page": "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+      "raw_file": "raw/books/The Electromagnetic Interaction In Nuclear Spectroscopy.pdf",
+      "raw_sha256": "93b32a8debb66ad036229d860ad56f0434dc49b56edd32f1628af1d71a21ae00",
+      "verified_scope": [
+        "Chapter 12 PDF pp. 518, 539, 545, 552, 558",
+        "Chapter 15 PDF pp. 716-721",
+        "Appendix 2 PDF pp. 901-902"
+      ],
+      "evidence_route": "rendered page image verification",
+      "completion_boundary": "selected-page verification; source reading_depth corrected to skimmed"
+    }
+  ],
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/zhu-minimization-and-profile-error-contract.md",
+      "reason": "Ch. 13 minimization, constraints and MINUIT-style asymmetric profile errors"
+    },
+    {
+      "path": "knowledge/methods/zhu-monte-carlo-integration-and-adaptive-sampling.md",
+      "reason": "Expanded Ch. 14 coverage to pseudo-random diagnostics, sampling and transport boundaries"
+    },
+    {
+      "path": "knowledge/sources/book-zhu-probability-statistics-in-physics.md",
+      "reason": "Removed duplicate/malformed claims and added bounded Ch. 13-14 claims"
+    },
+    {
+      "path": "knowledge/sources/book-hamilton-electromagnetic-interaction.md",
+      "reason": "Corrected overstrong deep-read, double-root, polarization and deorientation claims"
+    },
+    {
+      "path": "knowledge/concepts/poisson-maximum-likelihood-and-gamma-peak-fitting-bias.md",
+      "reason": "Recorded the actual Zhu Ch. 13 profile-threshold integration and fixed-template boundary"
+    },
+    {
+      "path": "knowledge/concepts/wobbling-mixing-ratio-phase-and-transition-diagnostics.md",
+      "reason": "Recorded root-basin profile intervals while preserving both DCO mixing-ratio candidates"
+    },
+    {
+      "path": "knowledge/concepts/clover-compton-polarimetry-and-addback.md",
+      "reason": "Corrected direct electric/magnetic assignment and added Hamilton response boundaries"
+    },
+    {
+      "path": "knowledge/methods/hamilton-compton-polarimeter-response-contract.md",
+      "reason": "Hamilton Ch. 15 P-A-Q, calibration, efficiency and response covariance contract"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "Added the Zhu minimization method entry"
+    }
+  ],
+  "code_writeback": [
+    {
+      "path": "system/scripts/analysis/experimental_statistics_minimizer.py",
+      "capabilities": [
+        "bounded golden-section local minimization",
+        "asymmetric profile-threshold interval",
+        "open-boundary reporting"
+      ],
+      "boundary": "not a full MINUIT implementation and does not provide confidence coverage"
+    },
+    {
+      "path": "system/scripts/analysis/poisson_likelihood_peak_fitting_bias_calculator.py",
+      "capabilities": [
+        "Poisson peak-area likelihood endpoints now use the shared profile-threshold solver",
+        "explicit profile-method provenance in the interval output"
+      ],
+      "boundary": "centroid, width and background remain fixed; no nuisance covariance profiling"
+    },
+    {
+      "path": "system/scripts/analysis/double_root_dco_polarization_statistical_arbitrator.py",
+      "capabilities": [
+        "local arctan(delta) chi-square profiles for each candidate root basin",
+        "delta lower/upper endpoints with open-boundary states"
+      ],
+      "boundary": "keeps both roots and does not auto-select a physical branch or include full covariance"
+    },
+    {
+      "path": "system/scripts/analysis/clover_compton_addback_polarization_calculator.py",
+      "capabilities": [
+        "geometric-factor uncertainty propagation",
+        "explicit P-A-Q response contract",
+        "conditional candidate-only electromagnetic-character output"
+      ],
+      "boundary": "Q remains an empirical placeholder until detector-specific calibration is supplied"
+    },
+    {
+      "path": "system/tests/test_experimental_statistics_minimizer.py",
+      "tests": 3
+    },
+    {
+      "path": "system/tests/test_poisson_peak_inference.py",
+      "tests": 15
+    },
+    {
+      "path": "system/tests/test_double_root_arbitrator.py",
+      "tests": 4
+    }
+  ],
+  "validation": {
+    "focused_unittest": "passed: 22 tests (3 minimizer + 15 Poisson peak + 4 DCO arbitrator)",
+    "py_compile": "passed",
+    "git_diff_check": "passed",
+    "full_wiki_lint_after_writeback": {
+      "errors": 586,
+      "warnings": 587,
+      "infos": 5282,
+      "interpretation": "historical repository debt remains; not a new claim that the full lint gate passes"
+    },
+    "boundary_check": "passed",
+    "archive_gate_changed_scope": "passed",
+    "full_unittest_discover": {
+      "status": "failed_on_preexisting_debt",
+      "ran": 610,
+      "failures": [
+        "test_daily_learning_daemon.DailyLearningDaemonTests.test_model_priority_is_luna_sol_astra",
+        "test_daily_learning_runner.DailyLearningRunnerTests.test_dry_run_checks_root_prompt_and_returns_command",
+        "test_wiki_lint.RepositoryIntegrationTests.test_repository_has_no_lint_errors"
+      ],
+      "errors": [
+        "test_heavy_ion_triaxial_fusion.TestHeavyIonTriaxialFusion.test_prolate_axial_barrier_splitting: missing np import in existing test",
+        "test_heavy_ion_triaxial_fusion.TestHeavyIonTriaxialFusion.test_triaxial_belly_splitting_signature: missing np import in existing test",
+        "test_in_beam_charged_particle_pid.TestInBeamChargedParticlePID.test_geometric_thickness_scaling: missing np import in existing test"
+      ],
+    "relevant_new_tests": "passed: 25 focused profile/Poisson/DCO/Monte Carlo tests; analysis-suite Clover regression updated"
+    }
+  },
+  "next": [
+    "connect profile_threshold_interval to a Poisson gamma-peak or delta-branch likelihood with explicit covariance",
+    "continue Hamilton Chapter 12/15 selected pages and audit detector response versus physical polarization",
+    "continue raw/books corpus queue without upgrading selected-page evidence to full-book completion"
+  ]
+}

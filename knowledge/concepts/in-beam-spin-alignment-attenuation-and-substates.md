@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [spin-alignment, attenuation-coefficients, substate-population, in-beam-spectroscopy, angular-distributions, yamazaki-coefficients, multipole-mixing-ratios]
+tags: [spin-alignment, attenuation-coefficients, substate-population, in-beam-spectroscopy, angular-distributions, yamazaki-coefficients, multipole-mixing-ratios]
 ---
 
 # 在束核自旋取向衰减系数（α_2, α_4）、磁子能级分布σ_m/I与角分布内标反演法典
 
-## 1. 物理全景：从熔合带入纯取向到统计去取向的实验现实
+## Definition
+
+### 物理全景：从熔合带入纯取向到统计去取向的实验现实
 
 在在束 $\gamma$ 射线谱学中，利用反应发射光子的角分布各向异性 $W(\theta)$ 测定跃迁多极性与多极混合比 $\delta(E2/M1)$，其理论基础是：
 **重离子熔合蒸发反应将残核置于高度非各向同性的核自旋取向状态（Nuclear Spin Alignment）**。
@@ -31,7 +33,9 @@ topics: [spin-alignment, attenuation-coefficients, substate-population, in-beam-
 
 ---
 
-## 2. 严格统计张量代数与 Yamazaki 高斯模型
+## Necessary Assumptions
+
+### 严格统计张量代数与 Yamazaki 高斯模型
 
 ### (1) 高斯磁子能级占有概率分布 $P(m)$
 在非极化弹核与靶核的柱对称熔合反应中，磁子能级分布关于 $m = 0$ 对称（$P(m) = P(-m)$），服从高斯截断分布：
@@ -76,7 +80,13 @@ $$\frac{\sigma_m}{I} = \sqrt{ - \ln\left( \alpha_2^{\text{meas}} \right) \cdot \
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/alignment_attenuation_coefficients_calculator.py`
@@ -102,7 +112,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py atten -I 6.0 --a2-exp 0.28 -
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[angular-distribution-and-multipole-mixing-ratios]]：经典的角分布双根模型必须在此处标定的衰减因子 $\alpha_2, \alpha_4$ 下展开；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[directional-angular-correlation-f-coefficients-and-dco-formalism]]：经典的角分布双根模型必须在此处标定的衰减因子 $\alpha_2, \alpha_4$ 下展开；
 - [[vacuum-deorientation-effect-and-perturbed-angular-correlations]]：反冲核飞入真空产生的超精细退取向（$G_k(\tau)$）是在此处初始取向衰减 $\alpha_k$ 之上的二次衰减；
 - [[heavy-ion-fusion-evaporation-and-statistical-decay]]：熔合角动量输入量级直接决定了初始自旋 $I$ 与 $\sigma_m$ 的初态边界。

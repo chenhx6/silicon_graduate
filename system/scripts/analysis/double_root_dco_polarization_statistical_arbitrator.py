@@ -60,6 +60,11 @@ import math
 import argparse
 import numpy as np
 
+from experimental_statistics_minimizer import (
+    golden_section_minimize,
+    profile_threshold_interval,
+)
+
 
 PRESETS = {
     "135Pr_wobbling_candidate": {
@@ -296,6 +301,70 @@ def analyze_double_roots(
 
         evaluated_roots.append(root_info)
 
+    def joint_chi2(theta):
+        delta = math.tan(theta)
+        value = ((evaluate_r_dco(delta, A_coeffs, B_coeffs) - R_exp) / sigma_R) ** 2
+        if P_coeffs is not None and Q_coeffs is not None and P_exp is not None and sigma_P is not None:
+            value += ((evaluate_polarization(delta, P_coeffs, Q_coeffs) - P_exp) / sigma_P) ** 2
+        if alpha_K_M1 is not None and alpha_K_E2 is not None and alpha_exp is not None and sigma_alpha is not None:
+            value += ((evaluate_alpha_k(delta, alpha_K_M1, alpha_K_E2) - alpha_exp) / sigma_alpha) ** 2
+        return float(value)
+
+    local_profile_intervals = []
+    if roots:
+        theta_roots = sorted(math.atan(d) for d in roots)
+        theta_floor = -math.pi / 2.0 + 1.0e-6
+        theta_ceiling = math.pi / 2.0 - 1.0e-6
+        region_edges = [theta_floor]
+        region_edges.extend(
+            (left + right) / 2.0
+            for left, right in zip(theta_roots, theta_roots[1:])
+        )
+        region_edges.append(theta_ceiling)
+        for index, theta_root in enumerate(theta_roots):
+            region_lo = region_edges[index]
+            region_hi = region_edges[index + 1]
+            minimum = golden_section_minimize(
+                joint_chi2,
+                region_lo,
+                region_hi,
+                tolerance=1.0e-8,
+            )
+            theta_min = minimum["x"]
+            interval = profile_threshold_interval(
+                joint_chi2,
+                theta_min,
+                1.0,
+                region_lo,
+                region_hi,
+                initial_step=max((region_hi - region_lo) / 100.0, 1.0e-8),
+            )
+            local_profile_intervals.append({
+                "root_index": index + 1,
+                "region_theta_deg": [
+                    math.degrees(region_lo),
+                    math.degrees(region_hi),
+                ],
+                "theta_min_deg": math.degrees(theta_min),
+                "delta_min": math.tan(theta_min),
+                "chi2_min": minimum["objective"],
+                "delta_chi2": 1.0,
+                "delta_lower": (
+                    None if interval["lower"] is None
+                    else math.tan(interval["lower"])
+                ),
+                "delta_upper": (
+                    None if interval["upper"] is None
+                    else math.tan(interval["upper"])
+                ),
+                "lower_status": interval["lower_status"],
+                "upper_status": interval["upper_status"],
+                "boundary": (
+                    "Local one-dimensional chi2 profile in arctan(delta); "
+                    "both candidate basins are retained and no root is favored."
+                ),
+            })
+
     arbitration = {
         "status": "undetermined",
         "favored_root": None,
@@ -354,7 +423,8 @@ def analyze_double_roots(
         "arbitration": arbitration,
         "profile_scan_summary": {
             "min_chi2_tot": float(min(chi2_tot_scan)),
-            "theta_min_deg": float(theta_deg[np.argmin(chi2_tot_scan)])
+            "theta_min_deg": float(theta_deg[np.argmin(chi2_tot_scan)]),
+            "local_profile_intervals": local_profile_intervals,
         }
     }
 

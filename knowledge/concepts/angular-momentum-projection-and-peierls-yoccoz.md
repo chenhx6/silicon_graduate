@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [angular-momentum-projection, amp, peierls-yoccoz, rotational-bands, symmetry-restoration, gaussian-overlap-approximation, goa, tpsm]
+tags: [angular-momentum-projection, amp, peierls-yoccoz, rotational-bands, symmetry-restoration, gaussian-overlap-approximation, goa, tpsm]
 ---
 
 # 量子角动量投影（AMP）、重整化转动能谱与Peierls-Yoccoz转动惯量动力学
 
-## 1. 物理全景：从破缺对称性内禀波包到实验室系纯自旋态
+## Definition
+
+### 物理全景：从破缺对称性内禀波包到实验室系纯自旋态
 
 在微观核多体理论（如 Nilsson 变形平均场、Hartree-Fock 或 Hartree-Fock-Bogoliubov）中，为了在变分空间中容纳强形变核芯的集体四极关联，自洽场强制打破了空间转动不变性：
 $$[\hat{H}, \hat{\mathbf{J}}^2] \ne 0$$
@@ -30,7 +32,9 @@ $$[\hat{H}, \hat{\mathbf{J}}^2] \ne 0$$
 
 ---
 
-## 2. 严格投影数学积分与高斯重叠近似（GOA）
+## Necessary Assumptions
+
+### 严格投影数学积分与高斯重叠近似（GOA）
 
 ### (1) 轴对称 $K=0$ 能态投影算符推导
 对于轴对称形变基态 $|\Phi\rangle$（$K=0$），绕对称轴旋转 $\alpha$ 与 $\gamma$ 是平凡简并的。投影算符完全简化为沿中间轴 $y$ 旋转极角 $\beta$ 的一维角动量积分：
@@ -64,7 +68,13 @@ $$E(I) = \frac{H_{00}^I}{N_{00}^I}$$
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 转动谱与范数积分分布
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/angular_momentum_projection_amp_calculator.py`
@@ -83,7 +93,21 @@ python3 system/scripts/analysis/nuclear_analyzer.py amp --max-spin 10 --jy2 35.0
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[tpsm-band-diagram-calculator]]：三轴投影壳模型（TPSM）正是在此处 1D 投影基础上拓展出三维非轴对称欧拉角全投影；
+
+## Counter-evidence and Competing Interpretations
+
+1. **变分后投影 (VAP) 对决投影后变分 (PAV)**：PAV 假定内禀波包由破缺对称平均场先行确定，可能低估大形变转动对内禀态的自洽极化重构；
+2. **高斯重叠近似 (GOA) 适用域**：GOA 假定转动重叠函数为严格高斯型，在轻质量核或弱形变近球形核中由于角动量涨落有限将产生截断偏差。
+
+## Our Current Position
+
+本 Wiki 将量子角动量投影（AMP）视为从微观变形内禀态恢复实验室参考系转动对称性、严格消除假旋赝态并导出自洽物理转动能谱的黄金微观基准。
+
+## Sources
+
+### 与相关前沿概念的交叉引用
+- [[tpsm-3d-angular-momentum-projection-diagonalization]]
+- [[rotational-moments-of-inertia-and-spin-assignment]]
+- [[tpsm-3d-angular-momentum-projection-diagonalization]]：三轴投影壳模型（TPSM）正是在此处 1D 投影基础上拓展出三维非轴对称欧拉角全投影；
 - [[nilsson-deformed-shell-model-dynamics]]：微观 Nilsson 单核子波函数在进行组态混合后，正是经由此处投影算符输出实验室系可观测在束能级；
-- [[moment-of-inertia-spin-analyzer]]：运动学转动惯量 $\mathcal{J}^{(1)}$ 在理论微观起源上正是 Peierls-Yoccoz 投影积分的宏观体现。
+- [[rotational-moments-of-inertia-and-spin-assignment]]：运动学转动惯量 $\mathcal{J}^{(1)}$ 在理论微观起源上正是 Peierls-Yoccoz 投影积分的宏观体现。

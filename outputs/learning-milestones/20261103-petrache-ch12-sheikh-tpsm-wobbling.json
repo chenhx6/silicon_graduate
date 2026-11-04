@@ -1,0 +1,63 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Petrache (ed.) 专著第 12 章 Sheikh 等关于三轴投影壳模型（TPSM）摆动激发、3D角动量投影、短轴量子化、TSD与正常形变10核TW/LW演化以及多声子简谐选择定则的全章精读与核验",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "chapter": 12,
+    "chapter_title": "Microscopic investigation of wobbling motion in atomic nuclei using TPSM",
+    "author": "Javid Ahmad Sheikh, Sheikh Jehangir, Gow-Har Bhat",
+    "scope": "Article pp.237-255 / physical PDF pp.256-274, full chapter text, equations, Table 12.1 and Figures 12.1-12.14",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/sheikh-tpsm-wobbling-and-triaxial-projection-contract.md",
+      "reason": "TPSM 3D projection, P+Q Hamiltonian, Hill-Wheeler generalized eigenvalue problem, short-axis quantization K-distributions, TSD multi-phonon harmonic selection rules, and normal deformed 10-nucleus TW/LW systematics"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "updated Chapter 12 status to full chapter verification and registered claims CW-38 to CW-42"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Sheikh TPSM wobbling method contract"
+    },
+    {
+      "path": "knowledge/concepts/odd-a-wobbling-mode-stability-and-bifurcation.md",
+      "reason": "linked short-axis quantization alignment and ND 10-nucleus TW/LW systematics"
+    },
+    {
+      "path": "knowledge/concepts/multiphonon-wobbling-and-anharmonicity-dynamics.md",
+      "reason": "linked TSD harmonic multi-phonon E2 selection rules"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.261 Equations (12.8)-(12.17) and Table 12.1 (deformation parameters for 15 nuclei)",
+    "PDF p.264 Figures 12.3-12.4 (excitation energies) and Equation (12.18) (wobbling frequency)",
+    "PDF p.267 Figure 12.8 (in-band and inter-band B(E2) vs spin for Lu and Ta isotopes)",
+    "PDF p.268 Figure 12.9 (B(E2) and B(M1) ratios for Lu and Ta isotopes) and short-axis discussion",
+    "PDF p.269 Figure 12.10 (Projected K-configurations with short axis as quantization axis for 163Lu) and Figure 12.11 (ND 10 nuclei energy levels and wobbling frequencies)",
+    "PDF p.271 Figure 12.12 (rotational frequencies) and Figure 12.13 (alignments i_x)"
+  ],
+  "claims": [
+    "TPSM restores laboratory rotational symmetry by 3D angular-momentum projection from deformed Nilsson+BCS multi-quasiparticle bases, solving the Hill-Wheeler equation without cranking approximations.",
+    "Short-axis quantization (gamma -> -120 deg - gamma) microscopically reveals that the yrast band is dominated by K=11/2 along the s-axis, while the excited wobbling band has K=7/2, directly demonstrating off-axis tilted precession.",
+    "TSD nuclei (161-167Lu, 167Ta) exhibit TW with identical alignments and dynamic moments of inertia between doublet bands, satisfying the harmonic multi-phonon selection rule B(E2; n=2 -> 1) ~ 2 x B(E2; n=1 -> 0) with forbidden n=2 -> 0 cross-phonon transitions.",
+    "Normal deformed 10 nuclei are classified into TW, LW and inflection categories with enhanced B(E2)out/B(E2)in and suppressed B(M1).",
+    "TPSM provides a unified microscopic description that distinguishes collective wobbling bands from single-particle signature partner bands within the same Hamiltonian."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded full-chapter text and figure unit",
+    "remaining_queue": "Remaining chapters of Petrache (ed.) book remain queued according to the chapter map",
+    "boundary": [
+      "P+Q separable force does not include self-consistent relativistic mean-field terms",
+      "TPSM calculations for 135Pr agree with early large-mixing-ratio data but cannot resolve subsequent experimental debate by calculation alone",
+      "Rigid vs soft gamma nature in even-even wobbling candidates requires full multi-body potential checks"
+    ]
+  }
+}

@@ -5,6 +5,7 @@ aliases: [核结构专家工作协议, 专家认知中枢, Nuclear Structure Exp
 created: 2026-11-01
 updated: 2026-11-01
 status: active
+graph-excluded: true
 ---
 
 # 低能核结构专家工作准则与认知协议
@@ -40,7 +41,7 @@ status: active
 5. **自洽理论刚性门**：微观计算必须确认核芯具有确定三轴刚性，排除大振幅 $\gamma$ 振动软核耦合（$\gamma \otimes qp$）伪摆动假象。
 
 ### (3) 实验全流程实战本能（从束流到数字波形）
-- 熟练掌握低能重离子熔合反应运动学：质心能 $E_{\text{cm}}$、Bass 库仑势垒 $V_B$、临界角动量 $\ell_{\text{crit}}$、反冲速度 $\beta$ 与多普勒展宽控制；
+- 熟练掌握低能重离子熔合反应运动学：质心能 $E_{\text{cm}}$、Bass 库仑势垒 $V_B$、临界角动量 $\ell_n_{\text{crit}}$、反冲速度 $\beta$ 与多普勒展宽控制；
 - 坚守低能高纯锗 $\gamma$ 谱仪的最佳实践：严格确保数字化梯形滤波器平顶时间大于晶体电荷收集时间（$m \cdot T_s \ge 300\sim 500\text{ ns}$），彻底消除弹道亏损；
 - 统计分析必须严守极大似然、Profile Likelihood 扫描与非线性参数协方差传播。
 

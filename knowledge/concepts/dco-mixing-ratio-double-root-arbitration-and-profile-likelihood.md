@@ -11,7 +11,9 @@ tags: [in-beam-spectroscopy, dco-ratio, multipole-mixing-ratio, double-root-prob
 
 # DCO multipole mixing ratio double-root arbitration and profile likelihood
 
-## Definition and Mathematical Origin of Double Roots
+## Definition
+
+### Definition and Mathematical Origin of Double Roots
 
 In in-beam $\gamma$-ray spectroscopy (e.g. studying triaxial wobbling bands, chiral doublets, or octupole bands), the multipole mixing ratio $\delta(L+1/L) \equiv \delta(E2/M1)$ of a $\Delta I = 1$ transition is extracted from directional correlations from oriented states ($R_{\text{DCO}}$) or angular distribution ratios.
 
@@ -90,9 +92,37 @@ $$CL = \text{erf}\left( \sqrt{\frac{\Delta\chi^2}{2}} \right) \times 100\%$$
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Zhu Yongsheng (朱永生)**: *Probability and Statistics in Experimental Physics* (《实验物理中的概率和统计》), Science Press (2006), Chapters 6, 8, 9.
 - **Hamilton, W. D.**: *The Electromagnetic Interaction in Nuclear Spectroscopy*, North-Holland (1975), Chapter 14 (Directional Correlations and Polarization).
 - **Krane, K. S. & Steffen, R. M.**: Phys. Rev. C 2, 724 (1970) (Formulation of angular distributions and delta-fitting).
 - **Kibédi, T. et al.**: Nucl. Instrum. Methods Phys. Res. A 589, 202 (2008) (BrIcc conversion coefficient evaluation).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

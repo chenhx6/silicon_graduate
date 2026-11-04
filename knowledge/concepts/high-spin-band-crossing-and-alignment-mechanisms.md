@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [high-spin-physics, backbending, band-crossing, alignment, band-termination, signature-inversion]
+tags: [high-spin-physics, backbending, band-crossing, alignment, band-termination, signature-inversion]
 ---
 
 # 高自旋能带交叉、准粒子对解耦对齐与带端终止动力学
 
-## 1. 物理源头：高角动量下的核多体旋转重构
+## Definition
+
+### 物理源头：高角动量下的核多体旋转重构
 
 当原子核被重离子反应注入极高角动量（$I \ge 20 \sim 60\hbar$）并在转动频率 $\hbar\omega \ge 0.3\text{ MeV}$ 下高速推转旋转时，微观单核子受到强烈的经典惯性离心力与**科里奥利力（Coriolis force: $-2\vec{\omega} \times \vec{v}$）**。
 
@@ -19,7 +21,9 @@ topics: [high-spin-physics, backbending, band-crossing, alignment, band-terminat
 
 ---
 
-## 2. 回弯机制的理论统一视界：CAP vs Stephens-Simon
+## Necessary Assumptions
+
+### 回弯机制的理论统一视界：CAP vs Stephens-Simon
 
 ### (1) Mottelson-Valatin Coriolis 反配对假说（CAP Effect, 1960）
 假定随角速度 $\omega$ 增加，Coriolis 力连续弱化单粒子能态间的对关联能隙 $\Delta$，直到在临界角速度 $\omega_c$ 处配对能隙完全塌缩（$\Delta \to 0$），转动惯量从超流转动惯量 $\mathcal{J}_{\text{pair}} \approx 0.4 \sim 0.5 \mathcal{J}_{\text{rigid}}$ 突变为全刚体惯量 $\mathcal{J}_{\text{rigid}}$。
@@ -33,7 +37,13 @@ topics: [high-spin-physics, backbending, band-crossing, alignment, band-terminat
 
 ---
 
-## 3. Harris 三参数展开与角动量对齐量 $i_x$ 提取算法
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### Harris 三参数展开与角动量对齐量 $i_x$ 提取算法
 
 在数据分析中，为从宏观总自旋中分离出解耦准粒子的真实内禀贡献，必须扣除纯集体核心转动的平滑基线：
 
@@ -66,3 +76,18 @@ $$\mathcal{J}_0 \approx 12 \sim 18\text{ }\hbar^2\text{MeV}^{-1}, \quad \mathcal
 ### (2) 能带平滑终止（Smooth Band Termination）
 当能带自旋继续上升至极端高自旋极限时，外层价核子的全部独立轨道角动量被 Coriolis 力完全拉向转动轴（$M = \sum j_i = I_{\text{max}}$）。
 此时，**已不再有剩余的微观单粒子自由度可供集体转动**，系统由大四极形变的集体转动光滑演化为沿对称轴取向的非集体扁椭球态（Oblate state with $\gamma = 60^\circ$）。在谱线上表现为能级间距骤增、转动惯量断崖式下跌，集体跃迁 $B(E2)$ 彻底淬灭（消失至单粒子极限以下）。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

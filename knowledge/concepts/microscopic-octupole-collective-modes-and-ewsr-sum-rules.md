@@ -11,7 +11,9 @@ tags: [octupole-deformation, pear-shaped, ewsr, sum-rule, parity-doublets, intri
 
 # Microscopic octupole collective modes, IS-EWSR sum rules and alternating-parity bands
 
-## Definition and Symmetry-Breaking Framework
+## Definition
+
+### Definition and Symmetry-Breaking Framework
 
 While quadrupole deformation ($\lambda = 2$) preserves spatial inversion parity ($\mathcal{P}$ symmetry), **octupole deformation ($\lambda = 3$) breaks reflection symmetry**, creating reflection-asymmetric, pear-shaped nuclear ground states and low-lying negative-parity collective states ($J^\pi = 3^-$ in spherical nuclei, alternating parity sequences $0^+, 1^-, 2^+, 3^-, \dots$ in deformed nuclei).
 
@@ -65,9 +67,37 @@ $$\delta E(I) = E(I^-) - \frac{E((I+1)^+) + E((I-1)^+)}{2}$$
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Lu Xiting (卢希庭)**: *Nuclear Physics (Revised Edition)* (《原子核物理（修订版）》), Atomic Energy Press (2000), Chapter 8 §8.3 (Octupole Vibrations).
 - **Bohr, A. & Mottelson, B. R.**: *Nuclear Structure*, Vol. II, Chapter 6 §6-3 (Octupole Deformations and Vibrations, Eq. 6-82), pp. 340–360.
 - **Butler, P. A. & Nazarewicz, W.**: *Intrinsic reflection asymmetry in atomic nuclei*, Rev. Mod. Phys. 68, 349–421 (1996).
 - **Gaffney, L. P. et al.**: *Studies of pear-shaped nuclei using accelerated radioactive beams*, Nature 497, 199–204 (2013).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

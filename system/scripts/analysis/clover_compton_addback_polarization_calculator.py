@@ -30,8 +30,9 @@ Physics & Formulation:
    P = A_corr / Q(E_gamma)
    Clover sensitivity parametrization:
      Q(E_gamma) ~ 0.22 * exp(-0.00035 * E_gamma_keV)  (for E_gamma in 200 - 2000 keV)
-   - P > 0: Electric character (E1, E2).
-   - P < 0: Magnetic character (M1, M2).
+   - The sign is a convention-dependent candidate constraint. It is not a
+     universal electric/magnetic assignment without calibrated geometry,
+     alignment, mixing-ratio and phase inputs.
 
 References:
   - G. Duchene et al., Nucl. Instrum. Methods A 432, 481 (1999) [The EUROGAM Clover].
@@ -79,7 +80,8 @@ def analyze_clover_polarization(
     E_gamma_keV: float,
     a_geom: float = 1.00,
     N_perp_err: Optional[float] = None,
-    N_parallel_err: Optional[float] = None
+    N_parallel_err: Optional[float] = None,
+    a_geom_err: Optional[float] = None
 ) -> Dict[str, Any]:
     """
     Computes corrected Compton scattering asymmetry, linear polarization P,
@@ -102,7 +104,15 @@ def analyze_clover_polarization(
     # dA / dN_para = - 2*a*N_perp / den^2
     dA_dperp = (2.0 * a_geom * N_parallel) / (den ** 2)
     dA_dpara = (-2.0 * a_geom * N_perp) / (den ** 2)
-    s_A = math.sqrt((dA_dperp * s_perp) ** 2 + (dA_dpara * s_para) ** 2)
+    s_a_geom = 0.0 if a_geom_err is None else float(a_geom_err)
+    if not math.isfinite(s_a_geom) or s_a_geom < 0:
+        raise ValueError("a_geom_err must be finite and nonnegative")
+    dA_dgeom = (-2.0 * N_perp * N_parallel) / (den ** 2)
+    s_A = math.sqrt(
+        (dA_dperp * s_perp) ** 2
+        + (dA_dpara * s_para) ** 2
+        + (dA_dgeom * s_a_geom) ** 2
+    )
 
     # Polarization sensitivity Q
     Q_factor = calculate_polarization_sensitivity(E_gamma_keV)
@@ -113,23 +123,38 @@ def analyze_clover_polarization(
 
     # Parity assignment
     if P_val > 2.0 * s_P and P_val > 0.05:
-        em_type = "Electric (E1, E2) [Positive Polarization]"
+        em_type = "Electric-sign candidate [conditional on calibration/convention]"
     elif P_val < -2.0 * s_P and P_val < -0.05:
-        em_type = "Magnetic (M1, M2) [Negative Polarization]"
+        em_type = "Magnetic-sign candidate [conditional on calibration/convention]"
     else:
-        em_type = "Ambiguous / Mixed Parity (P consistent with 0 within 2-sigma)"
+        em_type = "Ambiguous / mixed response (P consistent with 0 within 2-sigma)"
 
     return {
         "E_gamma_keV": E_gamma_keV,
         "N_perpendicular": N_perp,
         "N_parallel": N_parallel,
         "geometric_factor_a_geom": a_geom,
+        "geometric_factor_uncertainty": s_a_geom,
         "corrected_asymmetry_A": round(A_corr, 4),
         "asymmetry_uncertainty": round(s_A, 4),
         "polarization_sensitivity_Q": round(Q_factor, 4),
         "linear_polarization_P": round(P_val, 4),
         "polarization_uncertainty": round(s_P, 4),
-        "electromagnetic_character": em_type
+        "electromagnetic_character": em_type,
+        "evidence_level": "conditional-candidate-only",
+        "sensitivity_model": "empirical-placeholder; replace with detector-specific calibration",
+        "response_contract": {
+            "physical_polarization_P": "derived only after Q and phase convention are calibrated",
+            "count_asymmetry_A": "measured count-layer observable",
+            "geometry_factor_a_geom": "must be obtained from unpolarized calibration",
+            "sensitivity_Q": "must be obtained from polarized reference or validated response",
+            "required_joint_inputs": [
+                "alignment/statistical tensors",
+                "multipole-mixing-ratio convention",
+                "background/random subtraction",
+                "detector geometry and efficiency"
+            ]
+        }
     }
 
 
@@ -154,7 +179,7 @@ def format_text_report(summary: Dict[str, Any]) -> str:
         lines.append(f"   Corrected Asymmetry A_corr     : {pol['corrected_asymmetry_A']} +/- {pol['asymmetry_uncertainty']}")
         lines.append(f"   Polarization Sensitivity Q     : {pol['polarization_sensitivity_Q']}")
         lines.append(f"   Linear Polarization P          : {pol['linear_polarization_P']} +/- {pol['polarization_uncertainty']}")
-        lines.append(f"   Assigned Character             : {pol['electromagnetic_character']}")
+        lines.append(f"   Character Evidence             : {pol['electromagnetic_character']}")
         lines.append("-" * 72)
 
     lines.append(" Physical Significance:")

@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [gallagher-moszkowski, gm-rules, odd-odd-nuclei, nilsson-model, pn-residual-interaction, newby-shift, k-zero-bands, ground-state-spins]
+tags: [gallagher-moszkowski, gm-rules, odd-odd-nuclei, nilsson-model, pn-residual-interaction, newby-shift, k-zero-bands, ground-state-spins]
 ---
 
 # 形变奇奇核Gallagher-Moszkowski（GM）耦合定则、剩余p-n相互作用裂分与Newby奇偶位移法典
 
-## 1. 物理全景：轴对称形变场中的价核子自旋对齐法则
+## Definition
+
+### 物理全景：轴对称形变场中的价核子自旋对齐法则
 
 在轴对称变形核（Deformed Nuclei）中，单核子在平均 Nilsson 势场中运动，其空间波函数由渐近量子数 $\Omega [N n_z \Lambda]$ 完全标定。
 对于奇奇核（Odd-Odd Nuclei），奇质子与奇中子分别占据一个未配对的准粒子轨道：
@@ -33,7 +35,9 @@ $$K_- = |\Omega_p - \Omega_n|$$
 
 ---
 
-## 2. 严格物理推导与数学判据
+## Necessary Assumptions
+
+### 严格物理推导与数学判据
 
 ### (1) Gallagher-Moszkowski 定则判定判据
 已知质子与中子的 Nilsson 渐近参数，首先计算内禀自旋符号：
@@ -76,7 +80,13 @@ $$E(I, K=0) = \frac{\hbar^2}{2\mathcal{J}} \left[ I(I + 1) + a_N (-1)^{I+1} \rig
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/gallagher_moszkowski_coupling_calculator.py`
@@ -106,7 +116,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py gm \
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[chiral-geometry-tilted-axis-cranking-and-aplanarity]]：奇奇核中高 $j$ 质子粒子与中子空穴的相互取向正是手征几何的母体；
 - [[nuclear-k-isomers-and-hindrance-systematics]]：利用 GM 定则预言的高 $K$ 构型（如 $K_+$）往往构成核素图中的长寿命 $K$-同质异能素；
 - [[signature-inversion-and-triaxial-pn-interaction]]：当三轴形变增强时，单核子波函数的 Nilsson 表象与推转角动量对齐发生强非线性纠缠。

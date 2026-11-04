@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-11-04",
+  "task": "modern-nuclear-shell-model-book-to-skill-delivery",
+  "sources": [
+    {
+      "title": "The Nuclear Shell Model 70 Years after Its Advent: Achievements and Prospects",
+      "editors": "Angela Gargano, Giovanni De Gregorio, Silvia Monica Lenzi",
+      "path": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+      "sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+      "archive_required": true,
+      "raw_unchanged": true
+    }
+  ],
+  "skill_root": ".agents/skills/modern-nuclear-shell-model",
+  "skill_files": [
+    ".agents/skills/modern-nuclear-shell-model/SKILL.md",
+    ".agents/skills/modern-nuclear-shell-model/glossary.md",
+    ".agents/skills/modern-nuclear-shell-model/patterns.md",
+    ".agents/skills/modern-nuclear-shell-model/cheatsheet.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch01-monopole-tensor-force-and-shell-evolution.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch02-dripline-continuum-and-gamow-shell-model.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch03-computational-algorithms-mcsm-and-qvsm.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch04-effective-charges-and-coulomb-excitation.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch05-islands-of-inversion-and-nucleon-removal.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch06-sn100-region-high-spin-spectroscopy.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch07-isospin-symmetry-breaking-med-and-ted.md",
+    ".agents/skills/modern-nuclear-shell-model/chapters/ch08-double-beta-decay-and-astrophysics.md"
+  ],
+  "chapter_count": 8,
+  "study_focus": [
+    "monopole tensor interaction and shell evolution driving new magic numbers and quenching traditional closures",
+    "Gamow shell model (GSM) on Berggren complex momentum completeness and drip-line continuum outposts (28O)",
+    "advanced large-scale computational algorithms: MCSM importance truncation, energy variance extrapolation, and QVSM",
+    "microscopic core polarization effective charges, Talmi 14C Gamow-Teller matrix element cancellation, and Coulex invariants",
+    "N=40 island of inversion, deformed intruder configurations, and intermediate-energy nucleon knockout reaction momentum distributions",
+    "100Sn doubly-magic region high-spin seniority spectroscopy, 16+ spin-gap isomers, and superallowed GT decay",
+    "isospin-symmetry breaking (ISB), Henley-Miller force classification, mirror energy differences (MED/TED), and delta_C corrections",
+    "neutrinoless double beta decay (0vbb) microscopic closure nuclear matrix elements (NME), short-range correlations, and astrophysics electron capture rates"
+  ],
+  "evidence_boundary": "AI-generated skill extraction and cross-linking; chapter locators are study navigation aids and do not replace page-level human review for publication claims.",
+  "status": "complete"
+}

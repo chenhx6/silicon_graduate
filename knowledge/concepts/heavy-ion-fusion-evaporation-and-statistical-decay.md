@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [heavy-ion-reactions, fusion-evaporation, statistical-decay, hauser-feshbach, bass-model, critical-angular-momentum, rldm, in-beam-spectroscopy, experimental-design]
+tags: [heavy-ion-reactions, fusion-evaporation, statistical-decay, hauser-feshbach, bass-model, critical-angular-momentum, rldm, in-beam-spectroscopy, experimental-design]
 ---
 
 # 重离子熔合蒸发反应动力学、统计衰变级联与在束γ谱学实验设计准则
 
-## 1. 物理全景：从束流碰撞到高自旋核结构态的布居
+## Definition
+
+### 物理全景：从束流碰撞到高自旋核结构态的布居
 
 在低能实验核物理中，为了产生高自旋激发态、研究三轴超形变、寻找手征双重带与摆动运动，**重离子熔合蒸发反应（Heavy-Ion Fusion-Evaporation Reaction）**是最有效、最主要的实验合成手段。
 根据林承键《重离子核反应》、R. Bass《Nuclear Reactions with Heavy Ions》以及 W. Hauser & H. Feshbach（Phys. Rev. 87, 366, 1952）：
@@ -27,7 +29,9 @@ topics: [heavy-ion-reactions, fusion-evaporation, statistical-decay, hauser-fesh
 
 ---
 
-## 2. 严格物理公式与动力学机制
+## Necessary Assumptions
+
+### 严格物理公式与动力学机制
 
 ### (1) 质心系运动学与库仑/Bass 相互作用位垒
 设实验室系束流能量为 $E_{\text{lab}}$：
@@ -83,7 +87,13 @@ $$\sigma_{\text{fus}}(E_{\text{c.m.}}) = \frac{\pi \hbar^2}{2\mu E_{\text{c.m.}}
 
 ---
 
-## 3. 在束 $\gamma$ 谱学实验设计实战准则
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 在束 $\gamma$ 谱学实验设计实战准则
 
 在设计研究三轴形变核（例如 $^{130}\text{Ba}, ^{134}\text{Ce}$）的在束实验时，必须遵循以下黄金法则：
 
@@ -119,7 +129,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py evap -Zp 8 -Ap 18 -Zt 48 -At
 
 ---
 
-## 5. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[gilbert-cameron-composite-level-density-and-shell-damping]]：蒸发残核能级密度的精确描述是截面预测精度的基石；
-- [[heavy-ion-kinematics-and-spectroscopy]]：熔合蒸发残核的质心系反冲速度 $\beta = v/c$ 决定了在束 $\gamma$ 探测的多普勒展宽校正；
-- [[fission-barriers-and-superheavy-stability]]：超重核合成中的极端竞争（极低存活几率），本质是蒸发级联中 $\Gamma_n / \Gamma_f \ll 10^{-2}$ 的极端情形。
+- [[heavy-ion-fusion-evaporation-and-statistical-decay]]：熔合蒸发残核的质心系反冲速度 $\beta = v/c$ 决定了在束 $\gamma$ 探测的多普勒展宽校正；
+- [[fission-barriers-strutinsky-and-superheavy-dynamics]]：超重核合成中的极端竞争（极低存活几率），本质是蒸发级联中 $\Gamma_n / \Gamma_f \ll 10^{-2}$ 的极端情形。

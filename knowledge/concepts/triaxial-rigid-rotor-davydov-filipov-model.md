@@ -6,12 +6,14 @@ created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [triaxiality, davydov-filipov-model, greiner-models, e2-branching-ratios, asymmetric-rotor]
+tags: [triaxiality, davydov-filipov-model, greiner-models, e2-branching-ratios, asymmetric-rotor]
 ---
 
 # 三轴刚性转子 Davydov-Filipov 模型解析解与跃迁比率推导
 
-## 1. 物理模型提出与学术价值
+## Definition
+
+### 物理模型提出与学术价值
 
 1958 年，苏联理论物理学家 A. S. Davydov 和 G. F. Filipov 在《Nuclear Physics》上发表了划时代的解析理论（Davydov-Filipov 模型，简称 DF 模型）。该模型在 Walter Greiner《Nuclear Models》（第 6 章）中得到了最为系统和优雅的数学展开。
 
@@ -19,7 +21,9 @@ DF 模型假定原子核在内禀系中具有**完全刚性的三轴椭球形变
 
 ---
 
-## 2. 汉密尔顿量与波函数基矢
+## Necessary Assumptions
+
+### 汉密尔顿量与波函数基矢
 
 ### (1) 转动能量算符
 设原子核三个主惯性轴为 $1, 2, 3$。根据水动力学转动惯量：
@@ -35,7 +39,13 @@ $$\hat{H} = \sum_{k=1}^3 \frac{\hat{I}_k^2}{2\mathcal{J}_k} = A_1 \hat{I}_1^2 + 
 
 ---
 
-## 3. $I=2^+$ 能级的严格矩阵对角化与能级公式
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### $I=2^+$ 能级的严格矩阵对角化与能级公式
 
 对于 $I=2$，基矢空间仅由两个正宇称正规化态张成：
 $|2, 0\rangle \quad (K=0), \quad |2, 2\rangle \quad (K=2)$$
@@ -68,3 +78,18 @@ $$\frac{B(E2; 2_2^+ \to 0_1^+)}{B(E2; 2_2^+ \to 2_1^+)} = \frac{20}{7} \frac{\si
 $$B(E2; 2_1^+ \to 0_1^+) = \frac{1}{2} \left[ 1 + \frac{3 - 2\sin^2(3\gamma)}{\sqrt{9 - 8\sin^2(3\gamma)}} \right] \times B(E2)_{\text{axial}}$$
 
 这套解析公式构成了三轴刚性模型（Rigid Triaxiality）与 $\gamma$ 软核（$\gamma$-soft Jean-Wilets 模型）竞争鉴别的第一道经典检验标尺。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

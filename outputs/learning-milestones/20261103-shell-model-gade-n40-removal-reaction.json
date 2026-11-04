@@ -1,0 +1,33 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "核对 Gade N=40 岛反转文章的核子去除反应、快束gamma谱学和LNPS结构接口",
+  "source": {
+    "source_page": "knowledge/sources/book-nuclear-shell-model-70-years.md",
+    "raw_file": "raw/books/The Nuclear Shell Model 70 Years after Its Advent Achievements and Prospects_Gargano, Gregorio, Lenzi.pdf",
+    "raw_sha256": "1b2418417419c343d2a35684a7d3dc7136ad0bc340d609eecbd028830b55eec1",
+    "scope": "Gade article 9 selected reaction-analysis and N=40 sections",
+    "evidence_route": "native text extraction with figure and workflow navigation"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/n40-island-nucleon-removal-shell-model-contract.md",
+      "reason": "rare-isotope reaction, gamma spectroscopy and LNPS configuration contract"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the N=40 removal-reaction contract"
+    }
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded partial article unit",
+    "remaining_queue": "article continuation and remaining special-issue articles remain queued",
+    "boundary": [
+      "partial cross sections require reaction-model and feeding corrections",
+      "momentum distributions constrain orbital angular momentum but do not uniquely prove a configuration",
+      "N=40 shape and shell assignments require combined spectroscopy and reaction observables"
+    ]
+  }
+}

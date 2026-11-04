@@ -11,7 +11,9 @@ tags: [triaxiality, nuclear-chirality, 3d-tac, recoil-torque, proton-neutron-int
 
 # Odd-odd triaxial nuclei 3D tilted axis cranking (3D-TAC) residual proton-neutron recoil torque, aplanar orientation and chiral barrier renormalization
 
-## Definition and Phenomenological Origin
+## Definition
+
+### Definition and Phenomenological Origin
 
 In odd-odd triaxial nuclei displaying nuclear chirality (e.g. $^{134}\text{Pr}, {}^{128}\text{Cs}$ with $\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$), simplified models assume that the valence proton particle $\vec{j}_p$ and valence neutron hole $\vec{j}_n$ are frozen rigidly along the short ($s$) and long ($l$) axes.
 
@@ -56,3 +58,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py recoilchir --preset zero_rec
 - Pitchfork bifurcation occurs at $J_{\text{crit}} = 12.0\ \hbar$;
 - At $J = 16.0\ \hbar$: out-of-plane azimuth tilts to $\phi = 52.6^\circ$, generating a deep chiral barrier $\Delta E_{\text{barrier}} = 733.2\text{ keV}$ with a recoil energy shift of $+123.8\text{ keV}$;
 - Confirms that residual p-n recoil stabilizes the aplanar geometry against Coriolis back-tilting.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

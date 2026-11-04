@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [band-termination, cranked-nilsson-strutinsky, high-spin-physics, transition-quadrupole-moment, dynamic-moment-of-inertia, valence-space, dsma]
+tags: [band-termination, cranked-nilsson-strutinsky, high-spin-physics, transition-quadrupole-moment, dynamic-moment-of-inertia, valence-space, dsma]
 ---
 
 # 原子核高自旋能带光滑终止（Band Termination）、CNS微观动力学与价角动量耗尽法典
 
-## 1. 物理全景：从集体转动到单粒子非集体激发的连续相变
+## Definition
+
+### 物理全景：从集体转动到单粒子非集体激发的连续相变
 
 在变形原子核的高自旋前沿，一个最引人入胜的量子多体现象是**能带光滑终止（Smooth Band Termination）**：一个在低自旋下展现出高度集体转动特性（强 $B(E2)$ 跃迁、规则的转动能谱）的转动带，随着自旋增加并不发生不连续的裂片或带交叉，而是**光滑演化直至价核子角动量全部沿转轴对齐，最终终结于一个纯粹的非集体单粒子激发态**！
 
@@ -26,7 +28,9 @@ topics: [band-termination, cranked-nilsson-strutinsky, high-spin-physics, transi
 
 ---
 
-## 2. 旋转 Nilsson-Strutinsky（CNS）微观形式理论
+## Necessary Assumptions
+
+### 旋转 Nilsson-Strutinsky（CNS）微观形式理论
 
 旋转 Nilsson-Strutinsky（Cranked Nilsson-Strutinsky, CNS）模型是在高自旋下完全消除经验配对力的人工假象、严格按单粒子轨道追踪构型的第一性自洽平均场模型：
 1. **单粒子 Routhian 哈密顿量**：
@@ -42,7 +46,13 @@ topics: [band-termination, cranked-nilsson-strutinsky, high-spin-physics, transi
 
 ---
 
-## 3. 实验确证能带终止的三大物理判据
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 实验确证能带终止的三大物理判据
 
 在实验数据分析中，严禁仅凭“能级断裂看不到了”或“回弯（Backbending）”断言为能带终止！确立能带终止必须经过以下三项刚性检验：
 
@@ -93,3 +103,18 @@ $$E_{\text{diff}}(I) = E(I) - \frac{\hbar^2}{2\mathcal{J}_{\text{RR}}} I(I+1), \
 3. **Wadsworth, R. et al.** (1998). Loss of collectivity in the smooth terminating band in $^{109}\text{Sb}$. *Phys. Rev. Lett.*, 80(6), 1174-1177.
 4. **Frauendorf, S.** (2001). Spontaneous symmetry breaking in rotating nuclei. *Rev. Mod. Phys.*, 73(2), 463-514.
 5. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 8 章：高自旋态与形变核转动能谱. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

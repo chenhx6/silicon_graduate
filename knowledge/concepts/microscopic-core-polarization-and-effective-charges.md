@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [core-polarization, effective-charges, giant-quadrupole-resonance, gqr, particle-vibration-coupling, isoscalar-polarization, isovector-polarization, b-e2]
+tags: [core-polarization, effective-charges, giant-quadrupole-resonance, gqr, particle-vibration-coupling, isoscalar-polarization, isovector-polarization, b-e2]
 ---
 
 # 核芯微观极化率、巨四极共振（GQR）耦合与核子有效电荷（e_p_eff, e_n_eff）动力学
 
-## 1. 物理全景：中性中子为何能够发射强烈的电四极辐射？
+## Definition
+
+### 物理全景：中性中子为何能够发射强烈的电四极辐射？
 
 在最朴素的微观电磁学观念中：
 - 自由质子携带电荷 $+1e$，而自由中子电中性，携带电荷严格为 $0e$；
@@ -31,7 +33,9 @@ topics: [core-polarization, effective-charges, giant-quadrupole-resonance, gqr, 
 
 ---
 
-## 2. 严格微观微扰推导与巨共振解耦
+## Necessary Assumptions
+
+### 严格微观微扰推导与巨共振解耦
 
 ### (1) 有效算符与微观极化电荷定义
 在壳模型价空间截断中，电四极算符被重整化为有效电荷算符：
@@ -72,7 +76,13 @@ $$\langle r^2 \rangle \approx \frac{3}{5} R_0^2 = 0.6 \left( 1.2 A^{1/3} \right)
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/core_polarization_effective_charge_calculator.py`
@@ -99,6 +109,19 @@ python3 system/scripts/analysis/nuclear_analyzer.py effcharge -Z 82 -A 208 --jso
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 - [[electromagnetic-transition-rates-weisskopf-and-alaga-rules]]：Weisskopf 单粒子单位是基于裸电荷估算的，结合有效电荷 $e^{\text{eff}}$ 才能准确重现真实壳模型单粒子跃迁强度；
 - [[electric-dipole-polarizability-neutron-skin-and-eos]]：电偶极极化率 $\alpha_D$ 对应于巨偶极共振（GDR）的极化，与此处巨四极共振（GQR）极化构成了核极化率的多极展开图景。

@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [experimental-statistics, covariance-propagation, baker-cousins-deviance, low-count-poisson, double-root-ambiguity, mixing-ratio-delta, peelles-puzzle, internal-conversion]
+tags: [experimental-statistics, covariance-propagation, baker-cousins-deviance, low-count-poisson, double-root-ambiguity, mixing-ratio-delta, peelles-puzzle, internal-conversion]
 ---
 
 # 实验数据统计、协方差误差传播、泊松低计数极大似然与双根判据分选
 
-## 1. 物理全景：从原始谱仪计数到可信物理结论的统计严密性
+## Definition
+
+### 物理全景：从原始谱仪计数到可信物理结论的统计严密性
 
 在实验核物理、束内 $\gamma$ 射线谱学与衰变数据评价中，实验物理学家直接面对的是探测器记录的离散脉冲计数（Counts）。
 将这些离散计数转化为精确的物理量（能级寿命 $\tau$、电四极跃迁强度 $B(E2)$、磁偶极跃迁强度 $B(M1)$、多极混合比 $\delta$、截面 $\sigma$ 与形变参数）时，**统计处理的严谨性直接决定了科学发现的生死存亡**。
@@ -26,7 +28,9 @@ topics: [experimental-statistics, covariance-propagation, baker-cousins-deviance
 
 ---
 
-## 2. 严格数学统计形式与误差矩阵算法
+## Necessary Assumptions
+
+### 严格数学统计形式与误差矩阵算法
 
 ### (1) 多变量非线性协方差传播定理
 设输入参量为 $n$ 维随机矢量 $\mathbf{x} = (x_1, \dots, x_n)^T$，其协方差误差矩阵为 $n \times n$ 阶实对称正定矩阵 $\mathbf{V}_x$：
@@ -69,7 +73,13 @@ $$\chi^2_\lambda = - 2 \ln \lambda = 2 \sum_i \left[ \mu_i - n_i + n_i \ln\left(
 
 ---
 
-## 3. 多极混合比 $\delta(E2/M1)$ 的双根判据分选协议
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 多极混合比 $\delta(E2/M1)$ 的双根判据分选协议
 
 在在束 $\gamma$ 谱学中，对于初态自旋为 $I_i$、末态自旋为 $I_f$ 的混合跃迁（$M1 + E2$），定向分布系数 $A_2$（或规整化 DCO 比值 $R_{\text{DCO}}$）可表达为：
 $$A_2(\delta) = B_2(I_i) \cdot \frac{F_2(I_f, 1, 1, I_i) + 2 \delta F_2(I_f, 1, 2, I_i) + \delta^2 F_2(I_f, 2, 2, I_i)}{1 + \delta^2}$$
@@ -122,7 +132,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py stats \
 
 ---
 
-## 5. 与相关前沿概念的交叉引用
-- [[angular-distribution-and-multipole-mixing-ratios]]：经典的角分布双根模型在本文中得到了基于转换电子与偏振证据的完整物理闭环；
-- [[internal-conversion-coefficients-bricc]]：BrIcc 高精度内转换系数直接充当双根判据仲裁的第一准则；
-- [[ado-polarization-joint-spectroscopy]]：将 DCO/ADO 与 Clover 散射偏振测量联合，从第一性原理上消除多极混合比的非物理伪根。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[directional-angular-correlation-f-coefficients-and-dco-formalism]]：经典的角分布双根模型在本文中得到了基于转换电子与偏振证据的完整物理闭环；
+- [[internal-conversion-coefficients-and-bricc-formalism]]：BrIcc 高精度内转换系数直接充当双根判据仲裁的第一准则；
+- [[ado-ratio-and-polarization-joint-multipolarity-analysis]]：将 DCO/ADO 与 Clover 散射偏振测量联合，从第一性原理上消除多极混合比的非物理伪根。

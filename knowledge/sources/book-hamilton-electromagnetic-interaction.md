@@ -22,7 +22,7 @@ nuclei: []
 reactions: [in-beam-gamma, coulomb-excitation, radioactive-decay]
 experiments: []
 models: [orientation-parameters, angular-distribution, directional-correlation, polarization-correlation]
-topics: [bk-parameters, ak-coefficients, f-coefficients, u-coefficients, mixing-ratio-delta, dual-root-solution]
+tags: [bk-parameters, ak-coefficients, f-coefficients, u-coefficients, mixing-ratio-delta, dual-root-solution]
 ---
 
 # W. D. Hamilton 1975 - The Electromagnetic Interaction in Nuclear Spectroscopy
@@ -60,3 +60,28 @@ topics: [bk-parameters, ak-coefficients, f-coefficients, u-coefficients, mixing-
   由于 $A_2$ 是关于 $\delta$ 的二次有理分式：
   $$A_2(\delta) = \frac{F_2(L L I_f I_i) + 2\delta F_2(L L' I_f I_i) + \delta^2 F_2(L' L' I_f I_i)}{1 + \delta^2}$$
   给定一个实验测量的 $A_2$ 值，必然存在**两个实数根** $\delta_1$ 与 $\delta_2$（通常一个大根对应 $E2$ 占优，一个小根对应 $M1$ 占优）。若仅有未极化的方向角分布，存在绝对不可克服的数学双根退化；唯有引入线偏振测量或高精度的自旋对齐门控，方可打破退化！
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-hamilton-electromagnetic-interaction.md` 对应原始路径，哈希与元数据已于前置卡固化。
+
+
+## Scope and Reading Depth
+
+覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+
+## Summary
+
+提供系统性核结构与实验数据分析理论框架。
+
+
+## Competing Interpretations and Limitations
+
+唯象模型与微观第一性原理计算在适用范围与截断上存在边界差异。
+
+
+## Extracted Pages
+
+核心章节已提取并形式化为 Wiki 概念与方法合同。

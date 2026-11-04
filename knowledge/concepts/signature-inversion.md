@@ -68,7 +68,7 @@ signature splitting/inversion 随自旋的能量序列、alignment、Routhian、
 
 依据独立审计程序 `system/scripts/day21_checkpoint013_signature_inversion_audit.py` 与审计产物 `outputs/learning-daily/20261023-DAY21-week-three-experimental-boundaries-exam-run-01/signature-inversion-audit-013.json`（对标 [[liu-1996-signature-inversion-a130]] 之 `LU96-D21-1`），确立旋称反转在推断阶梯上的实证判据：
 1. **带头自旋指认的奇偶对调陷阱：**
-   旋称量子数由 $lpha = I mod 2$ 决定。奇奇核带头自旋 $I_0$ 的 $1\hbar$ 平移（例如由 $8$ 修正至 $9$）会完全颠覆 favored（$lpha=1$）与 unfavored（$lpha=0$）的指认，将表观正常劈裂变成反转或反之。确证旋称反转必须依赖绝对自旋与多极性测量；
+   旋称量子数由 $\alpha = I \bmod 2$ 决定。奇奇核带头自旋 $I_0$ 的 $1\hbar$ 平移（例如由 $8$ 修正至 $9$）会完全颠覆 favored（$\alpha=1$）与 unfavored（$\alpha=0$）的指认，将表观正常劈裂变成反转或反之。确证旋称反转必须依赖绝对自旋与多极性测量；
 2. **残余质子—中子相互作用与轴对称相容性：**
    在恒定轴对称长椭形变（$\gamma = 0^\circ$）下，未配对准质子与准中子之间的短程四极与张量残余力（$\Delta E_{pn} \sim 80	ext{ keV}$）产生倾斜对齐势垒，使 unfavored 态能量低于 favored 态；当频率增大至科里奥利力压倒残余力时（$I_{	ext{inv}} \sim 12 - 16\hbar$），恢复正常科里奥利能序；
 3. **证据门准则：**

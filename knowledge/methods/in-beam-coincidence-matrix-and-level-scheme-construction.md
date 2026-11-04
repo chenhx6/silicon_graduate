@@ -1,17 +1,20 @@
 ---
 type: method
+method_type: experimental-analysis-contract
 title: "在束 γ-γ 符合矩阵分析、背景扣除与能级纲图构建实战指南"
 aliases: [符合矩阵分析指南, 能级纲图构建, 背景扣除算法, 跃迁强度平衡, Radware方法论]
 created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [coincidence-matrix, background-subtraction, intensity-balance, level-scheme, efficiency-calibration, radware]
+tags: [coincidence-matrix, background-subtraction, intensity-balance, level-scheme, efficiency-calibration, radware]
 ---
 
 # 在束 γ-γ 符合矩阵分析、背景扣除与能级纲图构建实战指南
 
-## 1. 物理测量全景：从原始事件列表（List-mode Data）到能级纲图
+## Purpose
+
+### 物理测量全景：从原始事件列表（List-mode Data）到能级纲图
 
 在束重离子核反应中，探测器阵列（如多探头 HPGe 阵列）以多参数事件列表（List-mode data: 包含时间戳 $t_i$、探测器编号 $\text{det}_i$、脉冲幅度 $E_i$）记录所有光子信号。
 
@@ -53,7 +56,9 @@ topics: [coincidence-matrix, background-subtraction, intensity-balance, level-sc
 
 ---
 
-## 2. 核心算法与数学差分方程
+## Inputs and Assumptions
+
+### 核心算法与数学差分方程
 
 ### (1) 标准三点背景扣除法（Standard 3-Point Background Subtraction）
 在对二维符合矩阵投门时，若仅仅对全能峰所在的能量通道求和，所得的一维能谱中将不可避免地混入该能量下方的**连续康普顿散射本底所产生的伪符合峰**。
@@ -77,7 +82,13 @@ $$I_\gamma = \frac{\text{Net\_Peak\_Area}}{\epsilon(E_\gamma)}$$
 
 ---
 
-## 3. 纲图拓扑构建：节点进出强度平衡方程（Intensity Balance）
+## What It Can Establish
+
+### 理论判据与可观测量
+
+## What It Cannot Establish Alone
+
+### 纲图拓扑构建：节点进出强度平衡方程（Intensity Balance）
 
 在建立的激发态能级纲图中，对于任何一个非基态中间能级 $L_k$（激发能 $E_k$，自旋宇称 $I_k^\pi$），依据电荷与微观粒子流守恒，**从上方所有能级馈入该能级的总跃迁强度，必须严格等于从该能级向下退激的所有跃迁总强度**：
 
@@ -96,3 +107,9 @@ $$I_{\text{tot}} = I_\gamma \cdot (1 + \alpha_{\text{tot}})$$
 若流入强度显著大于流出强度（$I_{\text{in}} \gg I_{\text{out}}$）：
 1. 表明该能级向下存在**未被观测到的极低能跃迁（$E_\gamma < 50\text{ keV}$）**，由于 HPGe 铍窗与死层吸收无法探测，但具有极大的内转换系数 $\alpha_{\text{tot}} \gg 10$；
 2. 提示存在**电单极 $E0$ 纯转换电子跃迁**（常见于形状共存原子核中不同形变基带之间的混合脱激）。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

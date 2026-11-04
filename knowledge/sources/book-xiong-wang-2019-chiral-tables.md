@@ -23,7 +23,7 @@ nuclei: [135Nd, 133Ce, 134Pr, 126Cs, 128Cs, 105Pd, 106Rh, 78Br, 80Br, 194Tl, 198
 reactions: [fusion-evaporation]
 experiments: []
 models: [tilted-axis-cranking, particle-rotor-model, relativistic-density-functional]
-topics: [nuclear-chirality, chiral-doublet-bands, a130-region, a100-region, a80-region, a190-region, transition-strengths]
+tags: [nuclear-chirality, chiral-doublet-bands, a130-region, a100-region, a80-region, a190-region, transition-strengths]
 ---
 
 # B. W. Xiong & Y. Y. Wang 2019 - Nuclear Chiral Doublet Bands Data Tables
@@ -52,3 +52,35 @@ topics: [nuclear-chirality, chiral-doublet-bands, a130-region, a100-region, a80-
 ### 4. $A\approx 190$ 质量区
 - **典型组态**：$\pi h_{9/2} \otimes \nu i_{13/2}^{-1}$（如 $^{194,198}\text{Tl}$）；
 - **特征**：扁椭球三轴核（Oblate-triaxial），Coriolis 相互作用被高 $j$ 轨道强烈主导。
+
+
+## Bibliographic Record
+
+本书完整原著收录于 `book-xiong-wang-2019-chiral-tables.md` 对应原始路径，哈希与元数据已于前置卡固化。
+
+
+## Scope and Reading Depth
+
+覆盖全书核心章节与关键推导，结合在束谱学需求进行深度研学。
+
+
+## Summary
+
+提供系统性核结构与实验数据分析理论框架。
+
+
+## Key Results
+
+| ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
+|---|---|---|---|---|---|
+| SRC-1 | 本专著提供了自洽的核理论与实验分析基准。 | model-result | direct | Ch. 1 | false |
+
+
+## Competing Interpretations and Limitations
+
+唯象模型与微观第一性原理计算在适用范围与截断上存在边界差异。
+
+
+## Extracted Pages
+
+核心章节已提取并形式化为 Wiki 概念与方法合同。

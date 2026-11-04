@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-In-Beam DSAM Ziegler-Biersack-Littmark (ZBL) Stopping Lifetime & Quadrupole Moment Inverter.
+In-Beam DSAM Stopping Power Lifetime & Quadrupole Moment Inverter.
 
-Physical Principle & Core Textbook Source:
+Physical Principle & Methodological Foundations:
 In heavy-ion in-beam gamma-ray spectroscopy, the Doppler Shift Attenuation Method (DSAM)
 determines short nuclear state lifetimes (0.02 ps <= tau <= 2.0 ps) of high-spin rotational
 and wobbling states.
@@ -12,48 +12,62 @@ with initial recoil velocity beta_0 = v_0 / c ~ 0.015 - 0.040.
 While slowing down, the recoil emits gamma-rays with Doppler-shifted energy:
   E_gamma(theta, t) = E_0 * [1 + (v(t) / c) * cos(theta)]
 The experimentally measured centroid Doppler shift factor is:
-  F(tau) = <v * cos(phi)> / v_0 = (1 / (v_0 * tau)) * int_0^{t_stop} v(t) * <cos(phi)>(t) * exp(-t / tau) dt
+  F(tau) = <v * cos(phi)> / v_0 = int_0^{t_stop} P(t) * (v(t) / v_0) * <cos(phi)>(t) dt
+where P(t) is the decay probability distribution of the state.
 
-Textbook Controversy & LSS vs. ZBL Electronic Stopping:
-- Wu Zhihua 《原子核物理实验方法》 §15.3 (pp. 435-450) & Lu Xiting 《原子核物理》 Ch. 6:
-  Use Lindhard-Scharff-Schiott (LSS) theory where electronic stopping S_e is strictly
-  proportional to v (S_e = k * v).
-  However, LSS fails to capture Z_1/Z_2 shell oscillations and systematically underestimates
-  stopping power at low ion velocities (v < v_0 * Z_1^(2/3)) by 15% - 30%, resulting in
-  underestimated nuclear lifetimes and artificially inflated B(E2) transition strengths!
-- Ziegler, Biersack & Littmark (ZBL 1985 / SRIM):
-  Incorporates calibrated stopping parameters where the universal nuclear stopping S_n(E)
-  and velocity-interpolated electronic stopping S_e(v) are scaled to match measured heavy-ion ranges.
+1. Electronic and Nuclear Stopping:
+   - Electronic Stopping S_e = - (dE/dx)_e:
+     At low-to-medium velocities (v < v_0 * Z_1^(2/3)), electronic stopping is dominated by
+     velocity-proportional drag S_e = k_e * sqrt(E), with shell oscillation modulations
+     characterized by Ziegler, Biersack & Littmark (ZBL 1985 / SRIM).
+   - Nuclear Stopping S_n = - (dE/dx)_n:
+     At very low energies, screened Coulomb collisions dominate energy loss and direction deflections.
 
-Nuclear Multiple Scattering (Blaugrund Theory):
-The projection of velocity onto the initial direction is attenuated by nuclear elastic deflections:
-  <cos(phi)>(t) = exp( - (M_stopper / (2 * M_recoil)) * int_0^t (S_n(t') / E(t')) dt' )
+2. Nuclear Multiple Scattering (Blaugrund Theory):
+   Elastic nuclear scattering deflects the ion velocity vector away from the initial beam axis:
+     <cos(phi)>(t) = exp( - (1 / 2) * C_B * (M_stopper / M_recoil) * int_0^t (S_n(t') * v(t') / E(t')) dt' )
+   where C_B ~ 0.5 - 1.0 is the Blaugrund deflection parameter and the integrand (S_n * v / E) dt'
+   is strictly dimensionless.
 
-This module implements:
-1. Full trajectory integration of ZBL electronic and nuclear stopping powers.
-2. Blaugrund multiple scattering angular deflection calculation.
-3. Accurate theoretical F(tau) attenuation curve over 0.01 ps <= tau <= 5.0 ps.
-4. Lifetime tau inversion from experimental F_exp +/- sigma_F, including side-feeding delay tau_sf.
-5. Extraction of transition probability B(E2; I -> I-2) and intrinsic quadrupole moment Q_0.
+3. Side-Feeding Temporal Delay (Bateman Population Convolution):
+   In in-beam reactions, a discrete state is fed by a quasicontinuum cascade.
+   Modeling the side-feeding as an effective single-cascade delay with time constant tau_sf:
+     dP/dt = (1 / tau_sf) * exp(-t / tau_sf) - P(t) / tau_level
+   The state population decay profile is the exact Bateman convolution:
+     P(t) = (1 / (tau_level - tau_sf)) * [ exp(-t / tau_level) - exp(-t / tau_sf) ]   (tau_level != tau_sf)
+     P(t) = (t / tau_level^2) * exp(-t / tau_level)                                    (tau_level == tau_sf)
+   When tau_sf = 0, P(t) recovers the prompt exponential decay (1 / tau) * exp(-t / tau).
+   Delayed side-feeding shifts decays toward later times when recoils are slower, reducing the
+   observed F factor. The intrinsic level lifetime tau_level is inverted by matching the convoluted F.
+
+4. Electromagnetic Transition Rates:
+   From Bohr & Mottelson, "Nuclear Structure" Vol. I, p. 382, Eq. (3-28):
+     T(E2) = (4 * pi / (75 * hbar * (hbar * c)^5)) * E_gamma^5 * B(E2)
+           = 8.50845e12 * (E_gamma_MeV^5) * B(E2)[e^2 b^2]   (in s^-1)
+   The intrinsic quadrupole moment Q_0 is obtained via the rotational projection:
+     B(E2; I -> I-2) = (5 / (16 * pi)) * e^2 * Q_0^2 * <I 0 2 0 | I-2 0>^2
 
 Textbook & Literature References:
-- Wu Zhihua, 《原子核物理实验方法》 (3rd Ed.), Ch. 15, §15.3
+- Wu Zhihua, 《原子核物理实验方法》 (3rd Ed.), Ch. 15, §15.3 (pp. 435-450)
 - Lu Xiting, 《原子核物理》 (Revised Ed.), Ch. 6, §6.4
-- J. F. Ziegler, J. P. Biersack, U. Littmark, "The Stopping and Range of Ions in Solids" (Pergamon 1985)
 - A. E. Blaugrund, Nucl. Phys. 88, 501 (1966)
+- J. F. Ziegler, J. P. Biersack, U. Littmark, "The Stopping and Range of Ions in Solids" (Pergamon 1985)
 - Bohr & Mottelson, "Nuclear Structure", Vol. I, p. 382
+- P. J. Nolan & J. F. Sharpey-Schafer, Rep. Prog. Phys. 42, 1 (1979)
 """
 
 import sys
 import json
 import argparse
 import numpy as np
+from scipy.optimize import brentq
 from scipy.interpolate import interp1d
 
 PRESETS = {
     "130Ba_8plus_in_Au_backing": {
-        "recoil_nucleus": "130Ba",
-        "description": "130Ba 8+ state DSAM lifetime in gold (Au) backing (E_gamma = 712.5 keV)",
+        "recoil_nucleus": "130Ba (synthetic benchmark)",
+        "description": "130Ba 8+ state DSAM lifetime benchmark in gold (Au) backing (E_gamma = 712.5 keV)",
+        "data_kind": "synthetic_model_benchmark",
         "Ar": 130, "Zr": 56,
         "As": 197, "Zs": 79,  # Au stopper
         "stopper_density_g_cm3": 19.32,
@@ -65,8 +79,9 @@ PRESETS = {
         "side_feeding_tau_ps": 0.05
     },
     "134Ce_12plus_in_Pb_backing": {
-        "recoil_nucleus": "134Ce",
+        "recoil_nucleus": "134Ce (synthetic benchmark)",
         "description": "134Ce 12+ high-spin state in lead (Pb) backing (E_gamma = 852.0 keV)",
+        "data_kind": "synthetic_model_benchmark",
         "Ar": 134, "Zr": 58,
         "As": 208, "Zs": 82,  # Pb stopper
         "stopper_density_g_cm3": 11.34,
@@ -78,8 +93,9 @@ PRESETS = {
         "side_feeding_tau_ps": 0.03
     },
     "164Yb_14plus_in_Cu_backing": {
-        "recoil_nucleus": "164Yb",
+        "recoil_nucleus": "164Yb (synthetic benchmark)",
         "description": "164Yb 14+ yrast band crossing state in copper (Cu) backing (E_gamma = 628.0 keV)",
+        "data_kind": "synthetic_model_benchmark",
         "Ar": 164, "Zr": 70,
         "As": 63, "Zs": 29,   # Cu stopper
         "stopper_density_g_cm3": 8.96,
@@ -91,6 +107,7 @@ PRESETS = {
         "side_feeding_tau_ps": 0.08
     }
 }
+
 
 class InBeamDSAMZBLInverter:
     def __init__(self, Ar=130, Zr=56, As=197, Zs=79, density_g_cm3=19.32, beta_0=0.022):
@@ -105,20 +122,18 @@ class InBeamDSAMZBLInverter:
         self.v_0 = self.beta_0 * self.c_cm_s
 
         self.M_recoil_MeV = self.Ar * self.u_MeV
+        E_init = self.E_init_MeV()
 
-        # Calibration of electronic and nuclear stopping parameters (ZBL calibrated):
-        # S_e(E) in MeV / cm = k_e * sqrt(E)
-        # S_n(E) in MeV / cm = k_n / (1.0 + b_n * E)
-        # Scaled to mass density rho and effective charges:
-        k_lss = 850.0 * (self.rho / 19.32) * (self.Zr * self.Zs / 4424.0) * np.sqrt(130.0 / self.Ar)
-        self.k_e = float(k_lss * 19.5)  # ~ 16500 MeV/cm for Ba in Au
-        self.k_n = float(k_lss * 28.0)  # ~ 24000 MeV/cm
-        self.b_n = 0.35 / (self.E_init_MeV() / 30.0)
+        # Electronic and nuclear stopping parameters (scaled to density and effective charges):
+        k_scale = 850.0 * (self.rho / 19.32) * (self.Zr * self.Zs / 4424.0) * np.sqrt(130.0 / self.Ar)
+        self.k_e = float(k_scale * 19.5)  # MeV / cm / sqrt(MeV)
+        self.k_n = float(k_scale * 28.0)  # MeV / cm
+        self.b_n = 0.35 / (E_init / 30.0)
 
     def E_init_MeV(self):
         return 0.5 * self.M_recoil_MeV * (self.beta_0**2)
 
-    def zbl_stopping_powers(self, E_MeV):
+    def stopping_powers(self, E_MeV):
         """
         Calculate electronic stopping S_e and nuclear stopping S_n in MeV / cm.
         """
@@ -130,8 +145,11 @@ class InBeamDSAMZBLInverter:
 
     def integrate_slowing_down(self, dt_fs=2.0, max_time_ps=5.0):
         """
-        Integrates equation of motion dE/dt = -v * (S_e + S_n).
-        Returns times_ps, v_over_v0, cos_phi.
+        Integrates recoil trajectory dE/dt = - (S_e + S_n) * v.
+        Returns:
+          times_ps: array of time steps in ps
+          v_over_v0: array of fractional velocity v(t) / v_0
+          cos_phi: array of Blaugrund nuclear multiple scattering angular factor <cos(phi)>(t)
         """
         E = self.E_init_MeV()
         t = 0.0
@@ -141,19 +159,21 @@ class InBeamDSAMZBLInverter:
         v_over_v0 = [1.0]
         cos_phi = [1.0]
         integral_sn_over_e = 0.0
-        mass_ratio = self.As / (2.0 * self.Ar)
+        mass_ratio = self.As / self.Ar
 
         while t < max_time_ps * 1e-12 and E > 0.02 * self.E_init_MeV():
             v = np.sqrt(2.0 * E / self.M_recoil_MeV) * self.c_cm_s
-            S_e, S_n = self.zbl_stopping_powers(E)
+            S_e, S_n = self.stopping_powers(E)
 
             dE = (S_e + S_n) * v * dt_s  # MeV loss
             E = max(1e-4, E - dE)
             t += dt_s
 
             v_new = np.sqrt(2.0 * E / self.M_recoil_MeV) * self.c_cm_s
+
+            # Dimensionless Blaugrund integral: (S_n * v / E) dt is dimensionless
             integral_sn_over_e += (S_n * v / max(1e-4, E)) * dt_s
-            blaugrund_factor = np.exp(-0.08 * mass_ratio * integral_sn_over_e * 1e-12)
+            blaugrund_factor = np.exp(-0.25 * mass_ratio * integral_sn_over_e)
 
             times_ps.append(t * 1e12)
             v_over_v0.append(v_new / self.v_0)
@@ -161,52 +181,98 @@ class InBeamDSAMZBLInverter:
 
         return np.array(times_ps), np.array(v_over_v0), np.array(cos_phi)
 
-    def calculate_F_tau(self, tau_ps, times_ps, v_over_v0, cos_phi):
+    def calculate_F_tau(self, tau_level_ps, times_ps=None, v_over_v0=None, cos_phi=None, tau_sf_ps=0.0):
         """
-        Evaluates theoretical F(tau) for a given lifetime tau.
+        Calculates theoretical F(tau) for a given level lifetime and side-feeding delay.
+        Uses exact Bateman population convolution.
         """
-        if tau_ps <= 1e-4:
+        if times_ps is None:
+            times_ps, v_over_v0, cos_phi = self.integrate_slowing_down()
+
+        if tau_level_ps <= 1e-4:
             return 1.0
-        decay_weights = np.exp(-times_ps / tau_ps) / tau_ps
-        integrand = v_over_v0 * cos_phi * decay_weights
+
+        t_ps = times_ps
+        t_lvl = float(tau_level_ps)
+        t_sf = float(tau_sf_ps)
+
+        if t_sf <= 1e-4:
+            P = np.exp(-t_ps / t_lvl) / t_lvl
+        else:
+            if abs(t_lvl - t_sf) < 1e-4:
+                P = (t_ps / (t_lvl**2)) * np.exp(-t_ps / t_lvl)
+            else:
+                P = (np.exp(-t_ps / t_lvl) - np.exp(-t_ps / t_sf)) / (t_lvl - t_sf)
+
+        integrand = v_over_v0 * cos_phi * P
         trap = getattr(np, "trapezoid", getattr(np, "trapz", None))
-        F = trap(integrand, times_ps)
+        F = trap(integrand, t_ps)
         return float(np.clip(F, 0.01, 0.99))
 
-    def generate_attenuation_curve(self, tau_grid_ps=None):
+    def generate_attenuation_curve(self, tau_grid_ps=None, tau_sf_ps=0.0):
         """
         Generates reference F(tau) attenuation curve across 0.02 ps to 4.0 ps.
         """
         if tau_grid_ps is None:
             tau_grid_ps = np.logspace(-1.7, 0.6, 60)
         times_ps, v_ratio, cos_phi = self.integrate_slowing_down()
-        F_values = [self.calculate_F_tau(tau, times_ps, v_ratio, cos_phi) for tau in tau_grid_ps]
+        F_values = [self.calculate_F_tau(tau, times_ps, v_ratio, cos_phi, tau_sf_ps) for tau in tau_grid_ps]
         return tau_grid_ps, np.array(F_values)
 
     def invert_lifetime(self, F_exp, F_err=0.04, tau_sf_ps=0.0):
         """
         Inverts nuclear state lifetime tau from experimental F_exp +/- F_err.
+        Inverts both prompt raw lifetime tau_raw (assuming tau_sf=0) and intrinsic level lifetime tau_level
+        (accounting for side-feeding convolution).
         """
-        tau_grid, F_grid = self.generate_attenuation_curve()
-        # F decreases monotonically with tau: sort so F is strictly increasing for interp
-        sort_idx = np.argsort(F_grid)
-        F_sorted = F_grid[sort_idx]
-        tau_sorted = tau_grid[sort_idx]
+        times_ps, v_ratio, cos_phi = self.integrate_slowing_down()
 
-        interp_func = interp1d(F_sorted, tau_sorted, kind='linear', fill_value='extrapolate')
+        # Invert prompt raw lifetime (tau_sf = 0)
+        def f_raw_root(tau):
+            return self.calculate_F_tau(tau, times_ps, v_ratio, cos_phi, 0.0) - F_exp
 
-        F_val = float(np.clip(F_exp, F_sorted[0], F_sorted[-1]))
-        F_high = float(np.clip(F_exp + F_err, F_sorted[0], F_sorted[-1]))
-        F_low = float(np.clip(F_exp - F_err, F_sorted[0], F_sorted[-1]))
+        try:
+            tau_raw = float(brentq(f_raw_root, 0.005, 5.0))
+        except ValueError:
+            tau_grid, F_grid = self.generate_attenuation_curve(tau_sf_ps=0.0)
+            interp = interp1d(F_grid[::-1], tau_grid[::-1], kind='linear', fill_value='extrapolate')
+            tau_raw = float(interp(F_exp))
 
-        tau_raw = float(interp_func(F_val))
-        tau_min = float(interp_func(F_high))  # higher F corresponds to shorter tau
-        tau_max = float(interp_func(F_low))
+        # Invert intrinsic level lifetime with side-feeding convolution
+        if tau_sf_ps <= 1e-4:
+            tau_level = tau_raw
+            def f_err_high(t):
+                return self.calculate_F_tau(t, times_ps, v_ratio, cos_phi, 0.0) - (F_exp + F_err)
+            def f_err_low(t):
+                return self.calculate_F_tau(t, times_ps, v_ratio, cos_phi, 0.0) - (F_exp - F_err)
+        else:
+            def f_level_root(tau):
+                return self.calculate_F_tau(tau, times_ps, v_ratio, cos_phi, tau_sf_ps) - F_exp
+            try:
+                tau_level = float(brentq(f_level_root, 0.005, 5.0))
+            except ValueError:
+                tau_level = max(0.005, tau_raw - float(tau_sf_ps))
 
-        tau_level = max(0.005, tau_raw - float(tau_sf_ps))
-        sigma_tau = 0.5 * abs(tau_max - tau_min)
+            def f_err_high(t):
+                return self.calculate_F_tau(t, times_ps, v_ratio, cos_phi, tau_sf_ps) - (F_exp + F_err)
+            def f_err_low(t):
+                return self.calculate_F_tau(t, times_ps, v_ratio, cos_phi, tau_sf_ps) - (F_exp - F_err)
+
+        try:
+            t_min = float(brentq(f_err_high, 0.005, 5.0))
+        except ValueError:
+            t_min = max(0.005, tau_level * 0.8)
+
+        try:
+            t_max = float(brentq(f_err_low, 0.005, 5.0))
+        except ValueError:
+            t_max = tau_level * 1.25
+
+        sigma_tau = 0.5 * abs(t_max - t_min)
 
         return {
+            "analysis_kind": "quantitative_dsam_inversion",
+            "data_kind": "synthetic_model_benchmark",
             "F_experimental": float(F_exp),
             "F_uncertainty": float(F_err),
             "side_feeding_tau_ps": float(tau_sf_ps),
@@ -214,21 +280,22 @@ class InBeamDSAMZBLInverter:
             "tau_level_ps": tau_level,
             "sigma_tau_ps": sigma_tau,
             "tau_level_fs": tau_level * 1000.0,
-            "sigma_tau_fs": sigma_tau * 1000.0
+            "sigma_tau_fs": sigma_tau * 1000.0,
+            "side_feeding_model": "Bateman convolution cascade: P(t) = (e^(-t/tau_lvl) - e^(-t/tau_sf))/(tau_lvl - tau_sf)"
         }
 
     def calculate_transition_properties(self, tau_level_ps, E_gamma_keV, spin_I):
         """
         Calculates B(E2; I -> I-2) in e^2 b^2 and intrinsic quadrupole moment Q_0 in e*b.
-        T(E2) = 8.508e12 * (E_gamma_MeV^5) * B(E2)
+        From Bohr & Mottelson Vol. I p. 382:
+          T(E2) = 8.50845e12 * (E_gamma_MeV^5) * B(E2)
         """
         tau_s = tau_level_ps * 1e-12
         E_gamma_MeV = E_gamma_keV * 1e-3
         I = float(spin_I)
 
         lambda_trans = 1.0 / tau_s
-        # B(E2) in e^2 * b^2:
-        be2 = lambda_trans / (8.5084e12 * (E_gamma_MeV**5))
+        be2 = lambda_trans / (8.50845e12 * (E_gamma_MeV**5))
 
         # Clebsch-Gordan squared <I 0 2 0 | I-2 0>^2 = 3*I*(I-1) / (2*(2I-1)*(2I+1))
         cg_squared = (3.0 * I * (I - 1.0)) / (2.0 * (2.0 * I - 1.0) * (2.0 * I + 1.0))
@@ -244,8 +311,10 @@ class InBeamDSAMZBLInverter:
             "spin_initial": I,
             "B_E2_e2b2": float(be2),
             "B_E2_W_u": float(be2_wu),
-            "intrinsic_quadrupole_moment_Q0_eb": float(Q_0)
+            "intrinsic_quadrupole_moment_Q0_eb": float(Q_0),
+            "rotational_projection_cg2": float(cg_squared)
         }
+
 
 def run_dsam_zbl_analysis(recoil_nucleus="Generic", Ar=130, Zr=56, As=197, Zs=79,
                           density_g_cm3=19.32, beta_0=0.022, E_gamma_keV=712.5,
@@ -258,52 +327,65 @@ def run_dsam_zbl_analysis(recoil_nucleus="Generic", Ar=130, Zr=56, As=197, Zs=79
     lifetime_res = inverter.invert_lifetime(F_experimental, F_uncertainty, side_feeding_tau_ps)
     trans_res = inverter.calculate_transition_properties(lifetime_res["tau_level_ps"], E_gamma_keV, spin_initial)
 
-    lifetime_res.update(trans_res)
-    lifetime_res["recoil_nucleus"] = recoil_nucleus
-    lifetime_res["stopper_element"] = f"A={int(As)}, Z={int(Zs)}"
-    return lifetime_res
+    return {
+        "analysis_kind": "quantitative_dsam_inversion",
+        "data_kind": "synthetic_model_benchmark",
+        "recoil_nucleus": recoil_nucleus,
+        "Ar": Ar, "Zr": Zr,
+        "As": As, "Zs": Zs,
+        "stopper_density_g_cm3": density_g_cm3,
+        "beta_0": beta_0,
+        "lifetime_analysis": lifetime_res,
+        "transition_properties": trans_res
+    }
 
-def format_text_report(output, title="In-Beam DSAM ZBL Stopping Lifetime Inverter"):
+
+def format_text_report(output, title="In-Beam DSAM Lifetime & Transition Inversion"):
+    lt = output["lifetime_analysis"]
+    tp = output["transition_properties"]
     lines = []
-    lines.append("=" * 76)
+    lines.append("=" * 78)
     lines.append(f"  {title}")
-    lines.append("=" * 76)
-    lines.append(f"Recoil Nucleus: {output['recoil_nucleus']} | Stopper: {output['stopper_element']}")
-    lines.append(f"Gamma Ray: E_gamma = {output['E_gamma_keV']:.1f} keV, Spin Transition: {output['spin_initial']:.0f}+ -> {output['spin_initial']-2:.0f}+")
-    lines.append("\n[1] Doppler Shift Attenuation Inversion:")
-    lines.append(f"  Experimental Centroid Shift:       F_exp   = {output['F_experimental']:.3f} +- {output['F_uncertainty']:.3f}")
-    lines.append(f"  Side-Feeding Delay (tau_sf):       tau_sf  = {output['side_feeding_tau_ps']*1000.0:.1f} fs")
-    lines.append(f"  Effective Apparent Lifetime:       tau_raw = {output['tau_raw_ps']*1000.0:.1f} fs ({output['tau_raw_ps']:.3f} ps)")
-    lines.append(f"  Inverted Nuclear Level Lifetime:   tau     = {output['tau_level_fs']:.1f} +- {output['sigma_tau_fs']:.1f} fs")
-    lines.append(f"                                             = {output['tau_level_ps']:.3f} +- {output['sigma_tau_ps']:.3f} ps")
-    lines.append("\n[2] Electromagnetic Transition Properties:")
-    lines.append(f"  Reduced Transition Probability:    B(E2)   = {output['B_E2_e2b2']:.4f} e^2*b^2")
-    lines.append(f"  Weisskopf Single-Particle Units:   B(E2)   = {output['B_E2_W_u']:.1f} W.u.")
-    lines.append(f"  Intrinsic Transition Quadrupole:   Q_0     = {output['intrinsic_quadrupole_moment_Q0_eb']:.2f} e*b")
-    lines.append("-" * 76)
-    lines.append("Methodology Takeaway: Replaces LSS with ZBL universal stopping and Blaugrund")
-    lines.append("multiple scattering, eliminating 20% systematic lifetime underestimation.")
-    lines.append("=" * 76)
+    lines.append("=" * 78)
+    lines.append(f"Recoil: {output['recoil_nucleus']} (A={output['Ar']}, Z={output['Zr']}) | Stopper: A={output['As']}, Z={output['Zs']}")
+    lines.append(f"Initial Velocity: beta_0 = {output['beta_0']:.4f} (v_0/c) | Stopper Density: {output['stopper_density_g_cm3']:.2f} g/cm^3")
+    lines.append("\n[1] Doppler Shift Attenuation Factor Inversion:")
+    lines.append(f"  Experimental F(tau):              {lt['F_experimental']:.3f} +/- {lt['F_uncertainty']:.3f}")
+    lines.append(f"  Side-Feeding Cascade Delay:       tau_sf     = {lt['side_feeding_tau_ps']:.3f} ps")
+    lines.append(f"  Uncorrected Prompt Lifetime:      tau_raw    = {lt['tau_raw_ps']:.3f} ps ({lt['tau_raw_ps']*1000.0:.1f} fs)")
+    lines.append(f"  Inverted Intrinsic Level Lifetime: tau_level  = {lt['tau_level_ps']:.3f} +/- {lt['sigma_tau_ps']:.3f} ps")
+    lines.append(f"                                              = {lt['tau_level_fs']:.1f} +/- {lt['sigma_tau_fs']:.1f} fs")
+    lines.append("\n[2] Transition Probability & Deformation:")
+    lines.append(f"  E_gamma:                          {tp['E_gamma_keV']:.1f} keV (I_i = {tp['spin_initial']:.1f} -> I_f = {tp['spin_initial']-2.0:.1f})")
+    lines.append(f"  B(E2; I -> I-2):                  {tp['B_E2_e2b2']:.4f} e^2 b^2 ({tp['B_E2_W_u']:.1f} W.u.)")
+    lines.append(f"  Intrinsic Quadrupole Moment Q_0:  {tp['intrinsic_quadrupole_moment_Q0_eb']:.2f} e*b")
+    lines.append("-" * 78)
+    lines.append("Methodology & Evidence Boundary:")
+    lines.append("  Side-feeding is evaluated using Bateman population convolution; nuclear scattering")
+    lines.append("  is computed via Blaugrund angular deflection <cos(phi)>(t).")
+    lines.append("  Stopping power parameters are scaled to target backing density.")
+    lines.append("=" * 78)
     return "\n".join(lines)
 
+
 def main():
-    parser = argparse.ArgumentParser(description="In-Beam DSAM ZBL Stopping Lifetime Inverter")
+    parser = argparse.ArgumentParser(description="In-Beam DSAM Stopping Lifetime Inverter")
     parser.add_argument("--preset", choices=list(PRESETS.keys()), help="Preset configuration")
-    parser.add_argument("--fexp", type=float, help="Experimental centroid shift factor F")
-    parser.add_argument("--egamma", type=float, help="Gamma-ray transition energy (keV)")
-    parser.add_argument("--spin", type=float, help="Initial state spin")
+    parser.add_argument("--f-exp", type=float, help="Experimental F(tau) factor")
+    parser.add_argument("--f-err", type=float, default=0.04, help="Uncertainty on F(tau)")
+    parser.add_argument("--tau-sf", type=float, help="Side-feeding delay time in ps")
     parser.add_argument("--json", action="store_true", help="Output machine-readable JSON format")
     args = parser.parse_args()
 
     cfg = PRESETS["130Ba_8plus_in_Au_backing"].copy()
     if args.preset:
         cfg = PRESETS[args.preset].copy()
-    if args.fexp is not None:
-        cfg["F_experimental"] = args.fexp
-    if args.egamma is not None:
-        cfg["E_gamma_keV"] = args.egamma
-    if args.spin is not None:
-        cfg["spin_initial"] = args.spin
+    if args.f_exp is not None:
+        cfg["F_experimental"] = args.f_exp
+    if args.f_err is not None:
+        cfg["F_uncertainty"] = args.f_err
+    if args.tau_sf is not None:
+        cfg["side_feeding_tau_ps"] = args.tau_sf
 
     res = run_dsam_zbl_analysis(
         recoil_nucleus=cfg.get("recoil_nucleus", "Generic"),
@@ -314,7 +396,7 @@ def main():
         E_gamma_keV=cfg["E_gamma_keV"],
         spin_initial=cfg["spin_initial"],
         F_experimental=cfg["F_experimental"],
-        F_uncertainty=cfg.get("F_uncertainty", 0.04),
+        F_uncertainty=cfg["F_uncertainty"],
         side_feeding_tau_ps=cfg.get("side_feeding_tau_ps", 0.0)
     )
 
@@ -322,6 +404,7 @@ def main():
         print(json.dumps(res, indent=2))
     else:
         print(format_text_report(res, title=f"Preset: {args.preset or '130Ba_8plus_in_Au_backing'} ({cfg['description']})"))
+
 
 if __name__ == "__main__":
     main()

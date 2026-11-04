@@ -60,9 +60,10 @@ class TriaxialWobblingTiPChiralTests(unittest.TestCase):
         self.assertAlmostEqual(tw_pr["spectrum"][0]["hbar_omega_TW_keV"], 600.07, places=1)
         self.assertAlmostEqual(tw_pr["spectrum"][3]["hbar_omega_TW_keV"], 383.22, places=1)
         self.assertIsNone(tw_pr["spectrum"][4]["hbar_omega_TW_keV"]) # I = 14.5 > Ic
-        self.assertEqual(tw_pr["spectrum"][4]["status"], "above_critical_spin_instability")
+        self.assertEqual(tw_pr["spectrum"][4]["status"], "above_critical_spin_requires_full_model")
         self.assertLess(tw_pr["wobbling_slope_keV_per_hbar"], 0.0)
-        self.assertIn("Transverse Wobbling", tw_pr["mode_identification"])
+        self.assertIsNone(tw_pr["mode_identification"])
+        self.assertIsNotNone(tw_pr["slope_descriptor"])
 
     def test_lawrie_tip_vs_phonon_wobbling_diagnostics(self):
         """Verify Elena Lawrie's Ch. 6 Table 6.1 criteria: sum rule, Delta_k=2 transition, and scaling."""
@@ -76,8 +77,9 @@ class TriaxialWobblingTiPChiralTests(unittest.TestCase):
             B_E2_delta2_Wu=15.0
         )
         self.assertAlmostEqual(tip["sum_rule_test"]["delta_sum_keV"], 4.4, places=1)
-        self.assertIn("Rotational TiP", tip["sum_rule_test"]["diagnosis"])
-        self.assertIn("Rotational TiP", tip["selection_rule_test"]["diagnosis"])
+        self.assertIn("screening", tip["sum_rule_test"]["diagnosis"])
+        self.assertIn("screening", tip["selection_rule_test"]["diagnosis"])
+        self.assertIsNone(tip["mode_verdict"])
 
     def test_chiral_doublet_staggering_and_aplanarity(self):
         """Verify chiral doublet energy splitting Delta_E(I), S(I), and odd-even M1/E2 staggering."""

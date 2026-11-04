@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [electromagnetic-transitions, weisskopf-units, alaga-rules, reduced-transition-probability, branching-ratios, mixing-ratios, deformed-rotors]
+tags: [electromagnetic-transitions, weisskopf-units, alaga-rules, reduced-transition-probability, branching-ratios, mixing-ratios, deformed-rotors]
 ---
 
 # 原子核电磁跃迁几率、Weisskopf单粒子估计与形变核Alaga分支规则法典
 
-## 1. 物理全景：核态寿命、电磁跃迁多极性与微观波函数重叠
+## Definition
+
+### 物理全景：核态寿命、电磁跃迁多极性与微观波函数重叠
 
 原子核激发态通过发射 $\gamma$ 光子或内转换电子退激的跃迁速率，直接由初末态波函数在电磁多极算符作用下的空间重叠积分决定：
 $$T(\sigma \lambda) = \frac{8\pi (\lambda+1)}{\lambda [(2\lambda+1)!!]^2} \frac{1}{\hbar} \left(\frac{E_\gamma}{\hbar c}\right)^{2\lambda+1} B(\sigma \lambda; I_i \to I_f)$$
@@ -28,7 +30,9 @@ $$T(\sigma \lambda) = \frac{8\pi (\lambda+1)}{\lambda [(2\lambda+1)!!]^2} \frac{
 
 ---
 
-## 2. Weisskopf 单粒子估计显式计算公式
+## Necessary Assumptions
+
+### Weisskopf 单粒子估计显式计算公式
 
 在核物理标准单位（$E_\gamma$ 以 MeV 为单位，$B(E\lambda)$ 以 $e^2\text{fm}^{2\lambda}$ 为单位，$B(M\lambda)$ 以 $\mu_N^2\text{fm}^{2\lambda-2}$ 为单位）下：
 
@@ -52,7 +56,13 @@ $$B_{\text{sp}}(M\lambda) = \frac{10}{\pi} (1.2)^{2\lambda-2} \left(\frac{3}{\la
 
 ---
 
-## 3. 轴对称刚性转子 Alaga 分支规则法典
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 轴对称刚性转子 Alaga 分支规则法典
 
 对于轴对称内禀形变核，核态波函数具有分离形式 $|I M K\rangle = \sqrt{\frac{2I+1}{8\pi^2}} D_{MK}^I(\theta_i) \chi_K$。
 
@@ -110,3 +120,18 @@ $$\frac{B(M1; I \to I-1)}{B(E2; I \to I-2)} = \frac{12}{5} \frac{(g_K - g_R)^2}{
 3. **Hamilton, W. D.** (1975). *The Electromagnetic Interaction in Nuclear Spectroscopy*, Chapters 1, 2, 7. North-Holland.
 4. **Bohr, A. & Mottelson, B. R.** (1975). *Nuclear Structure*, Vol. II, Chapter 4 (Electromagnetic Transitions). Benjamin, New York.
 5. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 3 章：原子核电磁跃迁. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

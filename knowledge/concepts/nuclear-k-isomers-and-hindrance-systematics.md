@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [k-isomers, hindrance-factor, reduced-hindrance, spin-traps, seniority-isomers, gamma-tunneling, coriolis-mixing, shape-coexistence]
+tags: [k-isomers, hindrance-factor, reduced-hindrance, spin-traps, seniority-isomers, gamma-tunneling, coriolis-mixing, shape-coexistence]
 ---
 
 # 原子核K-同核异能态、每度禁戒约化阻碍度（f_nu）与三轴γ隧穿塌缩动力学
 
-## 1. 物理全景：轴对称形变与空间取向束缚量子陷阱
+## Definition
+
+### 物理全景：轴对称形变与空间取向束缚量子陷阱
 
 在具有大长椭变形（Prolate Deformation）的轴对称原子核中，总角动量 $\vec{I}$ 在核对称轴上的投影量子数 $K = \sum_i \Omega_i$ 是一个高度守恒的好量子数。
 
@@ -30,7 +32,9 @@ $$|\Delta K| \le \lambda$$
 
 ---
 
-## 2. 禁戒度 $\nu$、阻碍因子 $F_W$ 与每度禁戒约化阻碍度 $f_\nu$
+## Necessary Assumptions
+
+### 禁戒度 $\nu$、阻碍因子 $F_W$ 与每度禁戒约化阻碍度 $f_\nu$
 
 ### (1) 禁戒度定义（Degree of Forbiddenness, $\nu$）
 对于多极度为 $\lambda$ 的电磁跃迁，其超出跃迁能力的选择定则差额定义为禁戒度：
@@ -49,7 +53,13 @@ $$F_W \sim f_\nu^\nu \implies f_\nu \equiv (F_W)^{1/\nu} = \left( \frac{T_{1/2}^
 
 ---
 
-## 3. 前沿异常：$K$-阻碍的灾变性塌缩与三轴 $\gamma$ 隧穿动力学
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 前沿异常：$K$-阻碍的灾变性塌缩与三轴 $\gamma$ 隧穿动力学
 
 在许多过渡核与三轴软核区（如 $A\approx 130$ 的 $^{130}\text{Ba}$，以及 $A\approx 180$ 的特定能带），实验测得的约化阻碍度发生惊人的崩溃：**$f_\nu$ 急剧跌落至 $2 \sim 5$ 甚至趋近于 1（近乎无阻碍衰变）**！
 
@@ -95,3 +105,18 @@ $$F_W \sim f_\nu^\nu \implies f_\nu \equiv (F_W)^{1/\nu} = \left( \frac{T_{1/2}^
 3. **Jain, A. K. et al.** (2021). *Nuclear Isomers: A Primer*. Springer.
 4. **Hayes, A. B. et al.** (2005). Breakdown of K selection in $^{178}\text{Hf}$. *Phys. Rev. Lett.*, 96(4), 042501.
 5. **卢希庭、江栋兴、叶沿林** (2000). 《原子核物理（修订版）》第 3–4 章：原子核同核异能态与选择定则. 原子能出版社.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

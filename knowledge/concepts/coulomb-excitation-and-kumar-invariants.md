@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [coulomb-excitation, reorientation-effect, kumar-invariants, static-quadrupole-moment, triaxiality, gamma-softness]
+tags: [coulomb-excitation, reorientation-effect, kumar-invariants, static-quadrupole-moment, triaxiality, gamma-softness]
 ---
 
 # 库仑激发动力学、重取向效应与Kumar四极形变不变量
 
-## 1. 物理全景：纯电磁探针下的核形状测绘
+## Definition
+
+### 物理全景：纯电磁探针下的核形状测绘
 
 在原子核低激发态研究中，强相互作用引起的核反应往往伴随复杂的光学势、核子重叠与不可避免的模型依赖性。而**库仑激发（Coulomb Excitation, Coulex）**将入射带电粒子的质心系碰撞能量严格控制在库仑势垒以下（即满足安全距离判据，通常外缘接触距离 $d_{\text{min}} \ge R_p + R_t + 5\text{ fm}$），彻底隔绝了强核相互作用的核势干扰。
 
@@ -22,7 +24,9 @@ topics: [coulomb-excitation, reorientation-effect, kumar-invariants, static-quad
 
 ---
 
-## 2. 库仑激发二阶微扰与重取向效应（Reorientation Effect）
+## Necessary Assumptions
+
+### 库仑激发二阶微扰与重取向效应（Reorientation Effect）
 
 ### (1) 一阶微扰激发几率
 在半经典近似下，带电粒子沿双曲线轨道运动，一阶 $E2$ 激发几率为：
@@ -42,7 +46,13 @@ $$Q_s(2_1^+) = \sqrt{\frac{16\pi}{5}} \frac{C_{2 2 2 0}^{2 2}}{\sqrt{5}} \langle
 
 ---
 
-## 3. Kumar 四极形变不变量（Kumar Invariants）数学理论
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### Kumar 四极形变不变量（Kumar Invariants）数学理论
 
 在具有大振幅软振动的过渡区核（如 $A\approx 130$ 质量区）中，单凭固定形变模型（如纯拉长或纯三轴）无法描述波函数随形状的广泛分布。Krishna Kumar（1972）提出利用电四极张量算符 $\mathcal{M}(E2)$ 的零阶张量标量积，构造全局不变量：
 
@@ -52,7 +62,7 @@ $$Q^2 = \left( \frac{3 Z}{4\pi} R_0^2 \right)^2 \langle \beta^2 \rangle$$
 该求和由所有中间 $2^+$ 态的跃迁几率耗尽，直接给出基态全四极形变均方根值 $\sqrt{\langle \beta^2 \rangle}$。
 
 ### (2) 三阶不变量 $Q^3 \cos(3\delta)$（非对称偏斜度）
-$$q_3 \equiv -\sqrt{\frac{35}{2}} \langle 0_1^+ | [[\mathcal{M}(E2) \times \mathcal{M}(E2)]_2 \times \mathcal{M}(E2)]_0 | 0_1^+ \rangle = \left( \frac{3 Z}{4\pi} R_0^2 \right)^3 \langle \beta^3 \cos(3\gamma) \rangle$$
+$$q_3 \equiv -\sqrt{\frac{35}{2}} \langle 0_1^+ | [ [\mathcal{M}(E2) \times \mathcal{M}(E2)]_2 \times \mathcal{M}(E2)]_0 | 0_1^+ \rangle = \left( \frac{3 Z}{4\pi} R_0^2 \right)^3 \langle \beta^3 \cos(3\gamma) \rangle$$
 由此定义等效非对称角参数 $\delta$（对应微观形变角 $\gamma$）：
 $$\cos(3\delta) \equiv \frac{q_3}{(q_2)^{3/2}}$$
 
@@ -62,3 +72,18 @@ $$\cos(3\delta) \equiv \frac{q_3}{(q_2)^{3/2}}$$
 3. $\cos(3\delta) \approx 0.0 \implies \delta \approx 30^\circ$（**最大三轴非对称形变**）；
 4. **$\gamma$ 刚性 vs $\gamma$ 软度判定**：
    计算高阶涨落方差 $\sigma_\gamma^2 = \langle \cos^2(3\delta) \rangle - \langle \cos(3\delta) \rangle^2$。若方差接近零，为三轴刚性转子（如 Davydov-Filipov 模型）；若方差很大，为大振幅 $\gamma$ 软核（Jean-Wilets 软核模型）。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

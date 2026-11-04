@@ -11,7 +11,9 @@ tags: [chirality, g-factor, magnetic-moments, grodner-theorem, spontaneous-symme
 
 # Chiral doublet magnetic moment g-factor equality theorem and spurious band arbitration
 
-## The Grodner Chiral $g$-Factor Equality Theorem
+## Definition
+
+### The Grodner Chiral $g$-Factor Equality Theorem
 
 A major challenge in high-spin nuclear spectroscopy is that accidental degeneracies (e.g. signature partner bands, shape coexistence, or pseudo-spin doublets) can exhibit near-identical excitation energies ($\Delta E \le 100\text{ keV}$), masquerading as chiral doublet bands.
 
@@ -71,8 +73,36 @@ $$\chi^2_g = \left( \frac{\Delta g}{\sigma_{\Delta g}} \right)^2, \quad p = \tex
 
 ---
 
-## Primary Source References
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
 
 - **Grodner, E. et al.**: *Partner bands in $^{128}\text{Cs}$ as the first identification of chiral doublet bands by magnetic moment measurements*, Phys. Rev. Lett. 120, 022502 (2018).
 - **Grodner, E.**: *Experimental Evidence of Chirality in $^{126,128}\text{Cs}$*, in *Chirality and Wobbling in Atomic Nuclei*, CRC Press (2025), Chapter 7, PDF pp. 156–166.
 - **Frauendorf, S.**: *Spontaneous symmetry breaking in rotating nuclei*, Rev. Mod. Phys. 73, 463–514 (2001).
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。

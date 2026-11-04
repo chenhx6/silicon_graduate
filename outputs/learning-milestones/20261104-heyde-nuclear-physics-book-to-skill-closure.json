@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-11-04",
+  "task": "heyde-nuclear-physics-book-to-skill-delivery",
+  "sources": [
+    {
+      "title": "Basic Ideas and Concepts in Nuclear Physics: An Introductory Approach (2nd Edition)",
+      "author": "Kris L. G. Heyde",
+      "path": "raw/books/Basic Ideas and Concepts in Nuclear Physics An Introductory Approach (Kris L.G. Heyde) (Z-Library).pdf",
+      "sha256": "0490c8036be9cd8702cd8aec9c858ebb0e898e6c7b2b1056ce36e205f9f3c18a",
+      "archive_required": true,
+      "raw_unchanged": true
+    }
+  ],
+  "skill_root": ".agents/skills/heyde-nuclear-physics",
+  "skill_files": [
+    ".agents/skills/heyde-nuclear-physics/SKILL.md",
+    ".agents/skills/heyde-nuclear-physics/glossary.md",
+    ".agents/skills/heyde-nuclear-physics/patterns.md",
+    ".agents/skills/heyde-nuclear-physics/cheatsheet.md",
+    ".agents/skills/heyde-nuclear-physics/chapters/ch11-residual-interactions-and-multipoles.md",
+    ".agents/skills/heyde-nuclear-physics/chapters/ch13-collective-vibrations-and-giant-resonances.md",
+    ".agents/skills/heyde-nuclear-physics/chapters/ch13-interacting-boson-model-and-scissors-mode.md",
+    ".agents/skills/heyde-nuclear-physics/chapters/ch13-nuclear-shape-coexistence.md",
+    ".agents/skills/heyde-nuclear-physics/chapters/ch14-deformed-shell-model-and-backbending.md",
+    ".agents/skills/heyde-nuclear-physics/chapters/ch15-extremes-of-stability-and-halo-nuclei.md"
+  ],
+  "chapter_count": 6,
+  "study_focus": [
+    "two-body residual interactions and quadrupole-quadrupole attraction driving deformation",
+    "interacting boson model (IBM-1/IBM-2) dynamical symmetries and Casten triangle phase transitions",
+    "mixed-symmetry states and scissors mode M1 strength reduction formula",
+    "giant multipole resonances: ISGMR incompressibility and IVGDR deformation splitting in prolate nuclei",
+    "weakly-bound halo nuclei, low centrifugal barrier, Borromean 3-body systems, and soft E1 modes",
+    "shape coexistence and intruder states in near-magic nuclei (186Pb triple coexistence)",
+    "deformed shell model, Coriolis decoupling, rotational alignment, and backbending"
+  ],
+  "evidence_boundary": "AI-generated skill extraction and cross-linking; chapter locators are study navigation aids and do not replace page-level human review for publication claims.",
+  "status": "complete"
+}

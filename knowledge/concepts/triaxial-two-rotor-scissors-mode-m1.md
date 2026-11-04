@@ -11,7 +11,9 @@ tags: [nuclear-models, scissors-mode, m1-transitions, two-rotor-model, triaxiali
 
 # Triaxial Two-Rotor Model (TRM) scissors mode magnetic dipole M1 excitation splitting and sum rules
 
-## Physical Phenomenon & Two-Rotor Model (TRM)
+## Definition
+
+### Physical Phenomenon & Two-Rotor Model (TRM)
 
 The nuclear Scissors Mode (Lo Iudice & Palumbo PRL 1978, Bohle et al. PLB 1984) is a fundamental collective magnetic dipole ($M1$) excitation in deformed nuclei, representing the out-of-phase rotational oscillation of deformed proton versus neutron clouds about an axis perpendicular to the deformation axis.
 
@@ -33,9 +35,9 @@ Because axial symmetry is broken ($\mathcal{J}_s \ne \mathcal{J}_i \ne \mathcal{
    $$\delta_l = \sqrt{\frac{15}{\pi}} \beta_2 \sin\left(\frac{\pi}{3} - \gamma\right)$$
 
 ### Restoring Force and Reduced Inertia:
-$$C_k = \frac{4 Z N}{A^2} b_{\text{sym}} \cdot \delta_k^2 \cdot \frac{A}{6}$$
+$$C_k = \frac{4 Z N}{A^2} b_$C_{\text{sym}}$ \cdot \delta_k^2 \cdot \frac{A}{6}$$
 $$\mathcal{J}_{\text{red}, k} = \frac{Z N}{A^2} \mathcal{J}_k(\beta_2, \gamma)$$
-where $b_{\text{sym}} \approx 28 - 32\text{ MeV}$ is the nuclear symmetry energy.
+where $b_$C_{\text{sym}}$ \approx 28 - 32\text{ MeV}$ is the nuclear symmetry energy.
 
 ### Eigenfrequencies & $B(M1)$ Strengths:
 $$E_{1^+, k} = \hbar\omega_k = \hbar \sqrt{\frac{C_k}{\mathcal{J}_{\text{red}, k}}}$$
@@ -69,3 +71,33 @@ python3 system/scripts/analysis/nuclear_analyzer.py scissm1 --preset 196Pt_gamma
 - **N. Lo Iudice & F. Palumbo**, Phys. Rev. Lett. 41, 1532 (1978).
 - **D. Bohle et al.**, Phys. Lett. B 137, 27 (1984).
 - **A. A. Raduta**, *Nuclear Structure with Coherent States*, Chapter 4.
+
+
+## Necessary Assumptions
+
+微观平均场假定核子在有效单体势中运动，通过剩余相互作用自洽诱发四极形变与集体转动。
+
+
+## Discriminating Observables
+
+激发能量级间距、跃迁多极性比值与电磁约化跃迁几率是关键鉴别观测量。
+
+
+## Supporting Evidence
+
+在束伽马谱学实验测定的角分布、DCO比值与能级寿命提供直接实证。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

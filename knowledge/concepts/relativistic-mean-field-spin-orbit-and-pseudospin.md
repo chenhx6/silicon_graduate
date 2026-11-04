@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [relativistic-mean-field, covariant-density-functional, spin-orbit-coupling, pseudospin-symmetry, ginocchio-condition, dirac-equation, chiral-quartet]
+tags: [relativistic-mean-field, covariant-density-functional, spin-orbit-coupling, pseudospin-symmetry, ginocchio-condition, dirac-equation, chiral-quartet]
 ---
 
 # 相对论平均场（RMF）、协变自旋-轨道耦合与狄拉克赝自旋对称性（PSS）动力学
 
-## 1. 物理全景：微观自旋-轨道力的自然起源与相对论协变结构
+## Definition
+
+### 物理全景：微观自旋-轨道力的自然起源与相对论协变结构
 
 在非相对论量子核物理中，为了解释原子核幻数（28, 50, 82, 126），Mayer 与 Jensen（1949 年诺贝尔奖成果）必须在单粒子哈密顿量中人为引入唯象的强自旋-轨道相互作用势 $V_{SO}(r) \vec{l} \cdot \vec{s}$，其起源在非相对论框架下长期无法自洽推导。
 
@@ -27,7 +29,9 @@ topics: [relativistic-mean-field, covariant-density-functional, spin-orbit-coupl
 
 ---
 
-## 2. 狄拉克赝自旋对称性（Pseudospin Symmetry, PSS）物理机制
+## Necessary Assumptions
+
+### 狄拉克赝自旋对称性（Pseudospin Symmetry, PSS）物理机制
 
 ### (1) 赝自旋能级简并之谜（Arima 1969, Hecht & Adler 1969）
 1969 年，实验核物理学家在单粒子能级谱中发现了一个惊人的系统学规律：
@@ -48,7 +52,13 @@ $$\frac{d}{dr} [V(r) + S(r)] = 0 \quad \text{或} \quad V(r) + S(r) = C$$
 
 ---
 
-## 3. 赝自旋对称性破缺、壳演化与滴线反转
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 赝自旋对称性破缺、壳演化与滴线反转
 
 1. **势垒边界破缺（Surface Breaking）**：
    在原子核表面，$V(r)$ 与 $S(r)$ 逐渐趋于零，使得 $d(V+S)/dr$ 在核表层不可避免地出现非零峰值，导致真实单粒子态产生数百 keV 的细微赝自旋劈裂（$\\Delta E_{\text{PSS}} = E(\tilde{l} - 1/2) - E(\tilde{l} + 1/2) \sim 200 \sim 500\text{ keV}$）；
@@ -90,3 +100,18 @@ $$\frac{d}{dr} [V(r) + S(r)] = 0 \quad \text{或} \quad V(r) + S(r) = C$$
 5. **Meng, J., Sugawara-Tanabe, K., Yamaji, S., & Arima, A.** (1999). Pseudospin symmetry in acidic nuclei. *Phys. Rev. Lett.*, 82(19), 3819-3822.
 6. **Liang, H., Shen, S., Zhao, P., & Meng, J.** (2015). Hidden symmetries in relativistic nuclear physics: Pseudospin and spin symmetries. *Phys. Rep.*, 570, 1-84.
 7. **Guo, S. et al.** (2020). Evidence for pseudospin-chiral quartet bands in $^{131}\text{Ba}$. *Phys. Rev. Lett.*, 124(19), 192501.
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

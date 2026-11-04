@@ -56,6 +56,7 @@ PRESETS = {
     "silicon_telescope_heavy_ion_in_beam": {
         "telescope_name": "Silicon Microball Delta E (65 um) - E (1000 um) Telescope",
         "description": "Standard in-beam fusion-evaporation telescope at theta=45 deg",
+        "data_kind": "synthetic_model_benchmark",
         "thickness_T0_um": 65.0,
         "angle_incidence_deg": 45.0,
         "mu_power": 1.73,
@@ -73,6 +74,7 @@ PRESETS = {
     "gas_silicon_hybrid_telescope": {
         "telescope_name": "Ionization Chamber Delta E - Silicon E Hybrid Telescope",
         "description": "Low-energy particle identification telescope with high transmission",
+        "data_kind": "synthetic_model_benchmark",
         "thickness_T0_um": 120.0,
         "angle_incidence_deg": 0.0,
         "mu_power": 1.75,
@@ -218,6 +220,9 @@ def run_particle_pid_analysis(telescope_name="Generic Telescope",
     fom_res = inverter.evaluate_separation_fom(proton_ref_pi=ref_pi)
 
     return {
+        "analysis_kind": "phenomenological_goulding_pid",
+        "data_kind": "synthetic_model_benchmark",
+        "methodological_boundary": "Theoretical Goulding range-energy PID model; FOM and species separation are calculated for idealized test events and do not substitute for in-beam digitizer detector calibration",
         "telescope_name": telescope_name,
         "effective_thickness_um": inverter.T_eff,
         "proton_reference_PI": float(ref_pi),

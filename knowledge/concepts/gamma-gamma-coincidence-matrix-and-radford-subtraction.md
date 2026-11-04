@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [gamma-gamma-coincidence, radford-subtraction, radware, matrix-slicing, level-scheme-construction, in-beam-spectroscopy, peak-to-background]
+tags: [gamma-gamma-coincidence, radford-subtraction, radware, matrix-slicing, level-scheme-construction, in-beam-spectroscopy, peak-to-background]
 ---
 
 # 在束γ-γ二维符合矩阵切片、Radford二维背景扣除算法与能级纲图级联判据
 
-## 1. 物理全景：从庞杂全投影谱到清晰级联关系的二维解析
+## Definition
+
+### 物理全景：从庞杂全投影谱到清晰级联关系的二维解析
 
 在束核物理实验中，重离子熔合蒸发反应产生的残核在极短时间内（飞秒至纳秒）发射密集的 $\gamma$ 射线瀑布。
 如果仅仅使用单道谱仪记录一维全投影能谱（Total Projection Spectrum）：
@@ -28,7 +30,9 @@ topics: [gamma-gamma-coincidence, radford-subtraction, radware, matrix-slicing, 
 
 ---
 
-## 2. 严格数学推导与 Radford 扣除公式
+## Necessary Assumptions
+
+### 严格数学推导与 Radford 扣除公式
 
 ### (1) 矩阵总计数与一维投影关系
 设 $M_{ij}$ 为经过能量标定后的对称符合矩阵（$M_{ij} = M_{ji}$，道宽为 $\Delta E$）。
@@ -75,7 +79,13 @@ $$S_i = \sum_{j \in G} M_{ij} - \frac{W_G}{W_{BG}} \sum_{j \in BG} M_{ij} - \fra
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/gamma_gamma_matrix_slicer_calculator.py`
@@ -100,7 +110,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py gslice -G 350.0 -W 12.0 --js
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[coincidence-intensity-and-level-scheme-balancing]]：此处提取的真符合峰面积 $A_{\text{coinc}}$ 直接充当能级进出流强平衡守恒检验的原始输入；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[in-beam-level-scheme-loop-residuals-and-intensity-balancing]]：此处提取的真符合峰面积 $A_{\text{coinc}}$ 直接充当能级进出流强平衡守恒检验的原始输入；
 - [[hpge-digital-pulse-processing-pzc-and-ballistic-deficit]]：高质量的数字脉冲梯形滤波确保光电峰不发生弹道拖尾，是实现高信噪比 2D 矩阵切片的前提；
 - [[side-feeding-dynamics-and-doppler-lineshape-deconvolution]]：在符合矩阵中设置顶门（Top-gate）切片，是彻底排除慢侧馈送延迟的物理黄金方案。

@@ -6,12 +6,14 @@ created: 2026-11-01
 updated: 2026-11-01
 status: ai-draft
 review_status: unreviewed
-topics: [triaxiality, nuclear-chirality, wobbling-motion, ptr-model, tac-model, cdft]
+tags: [triaxiality, nuclear-chirality, wobbling-motion, ptr-model, tac-model, cdft]
 ---
 
 # 三轴核手征性与摆动运动：从微观对称性破缺到集体进动动力学全景
 
-## 1. 物理源头：三轴形变（Triaxiality）与主转动轴
+## Definition
+
+### 物理源头：三轴形变（Triaxiality）与主转动轴
 
 在原子核集体模型中，四极形变表面由 Bohr 形变参量 $(\beta, \gamma)$ 描述：
 $$R(\theta, \phi) = R_0 \left[ 1 + \beta \cos\gamma Y_{20} + \frac{1}{\sqrt{2}} \beta \sin\gamma (Y_{22} + Y_{2-2}) \right]$$
@@ -25,7 +27,9 @@ $$\mathcal{J}_m > \mathcal{J}_s, \mathcal{J}_l$$
 
 ---
 
-## 2. 摆动运动（Wobbling Motion）：量子进动动力学
+## Necessary Assumptions
+
+### 摆动运动（Wobbling Motion）：量子进动动力学
 
 ### (1) 纯三轴偶偶核转子摆动（Bohr-Mottelson 谐振子极限）
 当总角动量 $I$ 很大且主要沿着最大惯量轴（1 轴）转动时，横向角动量分量 $I_2, I_3 \ll I_1 \approx I$。在 Holstein-Primakoff 玻色化展开下：
@@ -51,7 +55,13 @@ $$H = \sum_{k=1}^3 \frac{(I_k - j_k)^2}{2\mathcal{J}_k} + H_{\text{sp}}$$
 
 ---
 
-## 3. 核手征性（Nuclear Chirality）：离散对称性自发破缺
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 核手征性（Nuclear Chirality）：离散对称性自发破缺
 
 ### (1) 倾斜轴推转（TAC）模型与手征三面体
 1997 年 Frauendorf 与孟杰发现，在奇奇核或两准粒子态中，当核具有稳定三轴形变（$\gamma \approx 30^\circ$）时：
@@ -68,3 +78,18 @@ $$\mathcal{T} \mathcal{R}_y(\pi): \text{Right-handed frame} \longleftrightarrow 
 ### (2) 手征振动与静态手征演化
 - **手征振动（Chiral Vibration）**：在低自旋区，左右手系之间的势垒极低，总角动量在两个极小值之间快速量子隧道涨落；
 - **静态手征（Static Chirality）**：随自旋增加，转动离心力加深了三维势能极小值，势垒阻断隧道效应，系统自发破缺为左右两重定态；在实验室坐标系通过宇称投影还原为能量严格近简并的**手征双重能带（Chiral Doublet Bands）**。
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+
+## Sources
+
+- [[triaxial-collective-modes-unified-theory-and-spectroscopy]]
+- [[nuclear-spectroscopy-and-structure-master-field-manual]]

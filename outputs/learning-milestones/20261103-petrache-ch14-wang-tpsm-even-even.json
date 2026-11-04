@@ -1,0 +1,58 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "完成 Petrache (ed.) 专著第 14 章 Wang 关于偶偶核三轴投影壳模型（TPSM）框架、136Nd五对手征带从手征振动向静态转动相变、K图与方位角图几何量化、130Ba两准粒子横向摆动与M1跃迁微观机理的全章精读与核验",
+  "source": {
+    "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+    "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+    "raw_sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "chapter": 14,
+    "chapter_title": "Recent progress on nuclear chiral and wobbling motions based on the triaxial projected shell model",
+    "author": "Ya-Kun Wang",
+    "scope": "Article pp.273-282 / physical PDF pp.292-301, full chapter text, equations, and Figures 14.1-14.7",
+    "evidence_route": "native text extraction plus rendered-page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/wang-tpsm-even-even-chiral-wobbling-contract.md",
+      "reason": "TPSM for even-even nuclei up to 6-qp configurations, Pfaffian algorithm, K-plot and Azimuthal plot definitions, 136Nd 5-pair MchiD vibrational-to-static transition, and 130Ba 2-qp TW mechanism and M1 enhancement"
+    },
+    {
+      "path": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "reason": "updated Chapter 14 status to full chapter verification and registered claims CW-53 to CW-57"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the Wang even-even TPSM chiral and wobbling method contract"
+    },
+    {
+      "path": "knowledge/concepts/chiral-geometry-tilted-axis-cranking-and-aplanarity.md",
+      "reason": "linked even-even TPSM K-plot and azimuthal plot aplanarity diagnostics"
+    }
+  ],
+  "rendered_pages": [
+    "PDF p.295 Figure 14.1 (TPSM energy spectra and B(M1)/B(E2) ratios for 136Nd)",
+    "PDF p.296 Figure 14.2 (K-plots for 136Nd bands D1-D5 on s, m, l axes)",
+    "PDF p.297 Figure 14.3 (Azimuthal plots on theta-phi plane for 136Nd bands D1-D5)",
+    "PDF p.298 Figure 14.4 (130Ba wobbling spectra and wobbling energy) and Figure 14.5 (B(E2) and B(M1) ratios)",
+    "PDF p.299 Figure 14.6 (Azimuthal plots for 130Ba n=0, 1) and Figure 14.7 text (K-plots for 130Ba)"
+  ],
+  "claims": [
+    "TPSM incorporates multi-quasiparticle states up to 6-qp for even-even nuclei, solving the 3D projected Hill-Wheeler equation with the Pfaffian algorithm.",
+    "The K-plot and azimuthal plot P(theta, phi) strictly quantify the spatial orientation probability density of total angular momentum on the ellipsoid.",
+    "In 136Nd, TPSM confirms a dynamic phase transition from low-spin chiral vibration (single coplanar peak in D1, twin peaks in D1-C, Ki=0 node) to high-spin static chirality (symmetric aplanar double peaks in both bands with Ki=15 hbar).",
+    "In even-even 130Ba, transverse wobbling on the pi h11/2^2 configuration yields comparable B(M1)out/B(E2)in and B(E2)out/B(E2)in because the 2-qp alignment enhances intrinsic M1 matrix elements.",
+    "Azimuthal plot P(theta, phi) for 130Ba shows a symmetric single peak along the short axis for n=0 and a node with twin peaks for n=1, confirming precession around the short axis."
+  ],
+  "validation": {
+    "raw_modified": false,
+    "reading_credit": "bounded full-chapter text and figure unit",
+    "remaining_queue": "Remaining chapters of Petrache (ed.) book remain queued according to the chapter map",
+    "boundary": [
+      "Phenomenological P+Q force depends on pairing strengths GM and GQ fitted to pairing gaps",
+      "Model space truncation restricts descriptions beyond 6-qp configurations at ultra-high spins",
+      "Azimuthal and K distributions are model-internal wavefunction representations that require indirect experimental verification via branching ratios and lifetimes"
+    ]
+  }
+}

@@ -6,12 +6,14 @@ created: 2026-11-02
 updated: 2026-11-02
 status: ai-draft
 review_status: unreviewed
-topics: [strutinsky-method, shell-correction-energy, plateau-condition, macro-micro-model, hermite-polynomials, level-density-smoothing, 208pb-shell-gap]
+tags: [strutinsky-method, shell-correction-energy, plateau-condition, macro-micro-model, hermite-polynomials, level-density-smoothing, 208pb-shell-gap]
 ---
 
 # Strutinsky微观壳修正能平滑方法、平顶条件（Plateau Condition）与宏观-微观质量模型动力学
 
-## 1. 物理全景：宏观连续介质与微观单粒子量子涨落的严密缝合
+## Definition
+
+### 物理全景：宏观连续介质与微观单粒子量子涨落的严密缝合
 
 在核物理理论的发展史上，宏观液滴模型（Liquid Drop Model, LDM）虽然完美描述了原子核结合能随质量数 $A$ 变化的平滑整体趋势，却完全抹杀了由于单粒子轨道量子化导致的幻数（Magic Numbers）闭壳稳定化、形变极小以及双峰裂变势垒。
 如果直接将自洽微观模型（如 Hartree-Fock 或 Nilsson 势）中的全部单粒子能量相加作为总结合能，又常常因有效核力两体长程相互作用未完全重整化而产生数以百计 MeV 的全局系统性漂移。
@@ -29,7 +31,9 @@ $$E_{\text{total}}(\text{def}) = E_{\text{LDM}}(\text{def}) + \delta U_p(\text{d
 
 ---
 
-## 2. 严格数学展开与平滑算法推导
+## Necessary Assumptions
+
+### 严格数学展开与平滑算法推导
 
 ### (1) 离散能级谱与平均平滑能级密度 $\tilde{g}(\epsilon)$
 已知微观单粒子能级集合为 $\{\epsilon_i\}_{i=1}^{N_{\text{max}}}$（具有自旋退化度 $d=2$）。
@@ -74,7 +78,13 @@ $$\left. \frac{\partial (\delta U)}{\partial \gamma} \right|_{\text{plateau}} \a
 
 ---
 
-## 3. 分析工具与实战验证
+## Discriminating Observables
+
+### 特征谱学观测量
+
+## Supporting Evidence
+
+### 分析工具与实战验证
 
 Wiki 内置自动化科学计算模块：
 `system/scripts/analysis/strutinsky_shell_correction_calculator.py`
@@ -96,7 +106,20 @@ python3 system/scripts/analysis/nuclear_analyzer.py strut -N 82 -g 8.5 --json
 
 ---
 
-## 4. 与相关前沿概念的交叉引用
-- [[fission-barriers-and-superheavy-stability]]：Strutinsky 壳修正直接叠加在液滴势上，构造出超重核生存所必需的微观裂变势垒；
+
+## Counter-evidence and Competing Interpretations
+
+1. **模型适用边界与唯象近似**：微观壳模型、准粒子平均场与宏观转子模型在不同角动量与激发能区具有内在自由度截断；
+2. **实验替代解释**：能级能量简并与电磁跃迁比值可能受到形状共存、非简谐声子振动及准粒子组态重组的竞争干扰。
+
+## Our Current Position
+
+本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+
+## Sources
+
+### 参考文献与交叉引用
+
+- [[fission-barriers-strutinsky-and-superheavy-dynamics]]：Strutinsky 壳修正直接叠加在液滴势上，构造出超重核生存所必需的微观裂变势垒；
 - [[double-humped-fission-barriers-and-shape-isomers]]：双峰裂变势垒中超形变第二极小（Class-II 态）正是由大变形下的负 Strutinsky 壳修正挖出的势能深阱；
 - [[nilsson-deformed-shell-model-dynamics]]：微观单粒子能级 $\epsilon_i(\beta_2, \gamma)$ 作为形变的函数，经由此处 Strutinsky 平滑定理直接导出了全核素图谱的平衡基态形变！

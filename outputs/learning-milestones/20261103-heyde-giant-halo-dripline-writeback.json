@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-03",
+  "source": "raw/books/Basic Ideas and Concepts in Nuclear Physics An Introductory Approach (Kris L.G. Heyde) (Z-Library).pdf",
+  "raw_sha256": "0490c8036be9cd8702cd8aec9c858ebb0e898e6c7b2b1056ce36e205f9f3c18a",
+  "reading_status": "bounded visual verification; source card corrected to skimmed",
+  "scope": {
+    "chapter_13_physical_pdf_pages": [431, 437, 439, 440],
+    "chapter_15_physical_pdf_pages": [520, 529, 531, 542],
+    "topics": [
+      "collective density vibrations",
+      "giant dipole response",
+      "sum-rule and width language",
+      "continuum coupling",
+      "weak binding",
+      "single-neutron halo",
+      "soft E1",
+      "drip-line experimental interfaces"
+    ]
+  },
+  "visual_checks": [
+    {
+      "physical_pdf_page": 431,
+      "objects": ["Chapter 13 entrance", "multipole density perturbation", "collective vibration scope"]
+    },
+    {
+      "physical_pdf_page": 437,
+      "objects": ["multi-phonon B(E2) systematics", "vibrational versus rotational trend"]
+    },
+    {
+      "physical_pdf_page": 439,
+      "objects": ["giant dipole photoabsorption", "Breit-Wigner shape", "decay and spreading widths"]
+    },
+    {
+      "physical_pdf_page": 520,
+      "objects": ["Chapter 15 weak-binding and drip-line entrance"]
+    },
+    {
+      "physical_pdf_page": 531,
+      "objects": ["halo density picture", "single-neutron asymptotic wavefunction", "Eq. 15.4"]
+    },
+    {
+      "physical_pdf_page": 542,
+      "objects": ["weakly bound proton states", "soft E1 mode", "11Be electromagnetic dissociation"]
+    }
+  ],
+  "writeback": [
+    "knowledge/sources/book-heyde-nuclear-physics-concepts.md",
+    "knowledge/synthesis/heyde-giant-resonance-halo-dripline-bridge.md",
+    "knowledge/index.md"
+  ],
+  "evidence_boundary": "Heyde Chapter 13 and Chapter 15 remain only partially read. The durable synthesis is limited to the listed rendered pages and does not certify the entire 647-page book or modern quantitative predictions.",
+  "next": [
+    "Cross-check Heyde giant-resonance sum-rule language against IAEA/RIPL and the dedicated giant-resonance concept.",
+    "Connect the halo asymptotic formula to the existing breakup momentum and Glauber modules with explicit units and continuum boundaries.",
+    "Continue experimental methods chapters from Wu/Wang/Zhu using the same page-level contract."
+  ]
+}

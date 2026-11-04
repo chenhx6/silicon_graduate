@@ -1,0 +1,51 @@
+{
+  "schema": "bounded-book-reading-writeback-v1",
+  "run_date": "2026-11-03",
+  "status": "partial-writeback",
+  "objective": "在同一输入下对账 BM-II 高自旋非轴对称转子谐近似与有限自旋纯转子谱",
+  "source": {
+    "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+    "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+    "scope": "Rendered verification of PDF pp. 212-218 / printed pp. 190-196",
+    "evidence_route": "native text extraction plus rendered page verification"
+  },
+  "knowledge_writeback": [
+    {
+      "path": "knowledge/methods/bm2-finite-spin-harmonic-benchmark.md",
+      "reason": "common-input finite-spin versus harmonic-limit benchmark and evidence boundary"
+    },
+    {
+      "path": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "reason": "BM2-20 derived-method claim linked to the selected pages and local implementation"
+    },
+    {
+      "path": "knowledge/index.md",
+      "reason": "indexed the finite-spin/harmonic benchmark method"
+    },
+    {
+      "path": "system/scripts/analysis/bm2_asymmetric_rotor_matrix_diagonalizer.py",
+      "reason": "added common-input comparison with pair-centroid and finite-spin residual diagnostics"
+    },
+    {
+      "path": "system/tests/test_bm2_asymmetric_rotor_matrix.py",
+      "reason": "regression coverage for high-spin convergence and invalid trajectory requests"
+    }
+  ],
+  "source_locators": [
+    "PDF pp. 212-213 / printed pp. 190-191, Eqs. 4-296 to 4-304",
+    "PDF p. 214 / printed p. 192, Eqs. 4-306 to 4-308",
+    "PDF p. 215 / printed p. 193, Eqs. 4-310 to 4-314",
+    "PDF pp. 217-218 / printed pp. 195-196, Eqs. 4-315 to 4-319"
+  ],
+  "validation": {
+    "tests": "python3 -m unittest system.tests.test_bm2_asymmetric_rotor_matrix system.tests.test_bm2_high_spin_asymmetric_rotor",
+    "result": "8 tests passed",
+    "raw_modified": false,
+    "boundary": [
+      "pure collective finite-spin rotor only",
+      "pair-centroid mapping is a numerical diagnostic, not an experimental band label",
+      "no quasiparticle, particle-rotor, detector-response, or mode-identification inference"
+    ]
+  }
+}
