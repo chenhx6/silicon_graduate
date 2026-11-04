@@ -36,7 +36,7 @@ tags: [paper-prospectus, nuclear-structure, evidence-gate, l3, l4-readiness]
 
 | 优先级 | 候选题目 | 研究核心 | 当前状态 | 最小新增输入 |
 |---|---|---|---|---|
-| P1 | `135Pr` common-response evidence audit | 统一 Matta–Lv–Sensharma 的 `δ` 分支、`P/A`、`R_ac`、取向和谱系，检验 wobbling/chirality/TiP 排序 | L3+ 联合似然审计完成；Gammasphere 纯角分布双根退化（Δχ²=0.000），JUROGAM II 偏振以 11.1σ 排除摆动解（Δχ²=122.3） | 逐角净峰、sideband、`a(E)`/`Q(E)`、polarization counts、gate acceptance、联合 `Σ` |
+| P1 | `135Pr` common-response evidence audit | 统一 Matta–Lv–Sensharma 的 `δ` 分支、`P/A`、`R_ac`、取向和谱系，检验 wobbling/chirality/TiP 排序 | L3+ 条件性联合似然审计完成；Gammasphere 纯角分布双根退化（Δχ²=0.000），声明 toy response 下 JUROGAM II 偏振偏好小根（Δχ²=122.3）；不称为实验 11.1σ 排除 | 逐角净峰、sideband、`a(E)`/`Q(E)`、polarization counts、gate acceptance、联合 `Σ` |
 | P2 | `131Xe` low-spin identity and branch boundary | 2020/2023 逐态对象交叉、795-keV宇称版本、RDCO双根和同母态强度可识别性 | L3 milestone；对象和缺口已固化，未裁决宇称/模式 | 1983 AD/ICE原件或逐线 raw/response、794.8-keV独立宇称判据、882偏振/AD和partner寿命 |
 | P3 | `135Nd/134Pr` partner-resolved absolute EM benchmark | 绝对 `B(E2)`/`B(M1)`、寿命、crossing、γ-softness 与手征/混合竞争解释 | L3/L4 candidate；多条寿命证据已有，矩阵和共同协方差未闭合 | 同一 state mapping 下的完整 EM 矩阵、寿命 producer、feeding/systematic covariance |
 | P4 | Cross-mass octupole evidence ladder | 直接 E3、E1 网络、交替宇称和 PES 形变之间的证据等级与静态/动态边界 | synthesis/data-map candidate；144/146Ba、220Rn/224Ra、208Pb与132Sn已有锚点 | 逐条 primary locator、统一跃迁方向/单位、分支归一、共同系统误差和更多多态 E3 |
@@ -53,7 +53,7 @@ tags: [paper-prospectus, nuclear-structure, evidence-gate, l3, l4-readiness]
 - Matta et al. 2015 ([[matta-2015-transverse-wobbling-135pr]]): Gammasphere 阵列测得大 $|\delta| = -2.14(20)$ 与负偏振不对称度，主张首个 $n_w=1$ 横向 wobbling 带；
 - Lv et al. 2022 ([[lv-2022-evidence-against-wobbling-135pr]]): 独立多探测器阵列测量角分布与偏振，提取小 $|\delta| \approx 0.16(4)$，证明跃迁为 $M1$ 主导，否定 wobbling 解释并主张倾斜轴进动（tilted precession）；
 - Sensharma et al. 2026 ([[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]]): 重新分析 Gammasphere 历史数据，在固定 $\sigma/I=0.2$ 条件下声称拟合优度偏好大 $\delta$ 解；
-- 135Pr 联合似然比审计研究笔记 ([[pr135-gammasphere-vs-jurogam-joint-likelihood-audit-20261101]]): 完成 Matta 2015 与 Lv 2022 的精确双根与偏振解耦；证明 Gammasphere 角分布 $a_2=-0.42$ 对 $\delta_1=-1.83$（wobbler）与 $\delta_2=-0.47$（signature partner）完全退化（$\Delta\chi^2_{\text{ang}}=0.000$），引入 JUROGAM II 线偏振测量（$P=-0.21(4)$）后联合似然比以 $11.1\sigma$（$\Delta\chi^2_{\text{joint}}=122.3$）排除摆动解，证实连接线为 $81.9\%\ M1$ 占优；辅以 $B(E2;747)/B(E2;526)=0.7^{+0.7}_{-0.5}$ 证实同等单准粒子衰变强度，彻底证伪横向摆动主张；
+- 135Pr 联合似然比审计研究笔记 ([[pr135-gammasphere-vs-jurogam-joint-likelihood-audit-20261101]]): 在声明的 toy response 下，Gammasphere 角分布对 $\delta_1=-1.83$ 与 $\delta_2=-0.47$ 完全退化（$\Delta\chi^2_{\text{ang}}=0.000$），加入 Lv 报告的 JUROGAM II 偏振值后偏好小根（条件性 $\Delta\chi^2_{\text{joint}}=122.3$）；该结果不是实验 11.1σ，也不独立证明 signature-partner 机制。相对 $B(E2)$ ratio 只作条件性敏感性检查；
 - Chen et al. 2026 贝叶斯转动惯量模型 (accepted record): 仅基于能谱能量约束的 MCMC 条件后验。
 
 ### Competing Hypotheses
@@ -199,7 +199,10 @@ Bucher 2016 与 2017 共享 GRETINA+CHICO2 方法框架；Gaffney 2013 的 $^{22
 必须考虑不同角度探测器间的立体角几何减缩因子 $Q_k$ 与束流摆动（beam wander）带来的系统偏移协方差。
 
 ### Falsifiers (证伪判据)
-Zobel 1983 十行表格的剖面似然分析已证实：在标准统计容限 $\tau=1$ 下，十种反应条件没有共同的 $\sigma/J$ 区间，联合容许域要求 $\tau=1.72$。这表明“跨反应强行共享单一取向参数”的零假说已被直接实验表格数据证伪。
+Zobel 1983 十行表格的 table-level Gaussian profile analysis shows that, under
+the declared covariance contract, the shared-response discrepancy is large and
+requires a sensitivity scale above unity. This is a conditional calibration
+warning, not a general experimental falsification of all shared-alignment models.
 
 ### Stop Conditions (停止条件)
 若实验未对特定反应进行原位（in-situ）自旋取向标定，停止将其他反应通道提取的 $\sigma/I$ 强行代入该实验作混合比精细提取。
