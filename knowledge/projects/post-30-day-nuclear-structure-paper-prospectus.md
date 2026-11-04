@@ -50,8 +50,8 @@ tags: [paper-prospectus, nuclear-structure, evidence-gate, l3, l4-readiness]
 在 $^{135}\text{Pr}$ 低自旋横向摆动（transverse wobbling）争议中，统一 Matta 2015、Lv 2022 与 Sensharma 2026 三方证据，建立共同探测器响应、对齐参数 $\sigma/I$、门污染与多极混合比 $\delta$ 提取合同，判决各实验结论的兼容域与失效条件。
 
 ### Grounded Evidence & Primary Sources
-- Matta et al. 2015 ([[matta-2015-transverse-wobbling-135pr]]): Gammasphere 阵列测得大 $|\delta| = -2.14(20)$ 与负偏振不对称度，主张首个 $n_w=1$ 横向 wobbling 带；
-- Lv et al. 2022 ([[lv-2022-evidence-against-wobbling-135pr]]): 独立多探测器阵列测量角分布与偏振，提取小 $|\delta| \approx 0.16(4)$，证明跃迁为 $M1$ 主导，否定 wobbling 解释并主张倾斜轴进动（tilted precession）；
+- Matta et al. 2015 ([[matta-2015-transverse-wobbling-135pr]]): Gammasphere/INGA 数据报告若干 E2-rich、大 \(|\delta|\) 连接支和正的偏振不对称，并据此提出 \(n_w=1\) 横向 wobbling 解释；
+- Lv et al. 2022 ([[lv-2022-evidence-against-wobbling-135pr]]): 独立多探测器阵列联合角分布、偏振和 \(R_{ac}\)，对 747、813、450 keV 线给出小 \(|\delta|\) 分支和 M1-dominated 解释；该结果是反方 source interpretation，不能写成无条件排除所有 wobbling；
 - Sensharma et al. 2026 ([[sensharma-2026-evolution-chirality-transverse-wobbling-135pr]]): 重新分析 Gammasphere 历史数据，在固定 $\sigma/I=0.2$ 条件下声称拟合优度偏好大 $\delta$ 解；
 - 135Pr 联合似然比审计研究笔记 ([[pr135-gammasphere-vs-jurogam-joint-likelihood-audit-20261101]]): 在声明的 toy response 下，Gammasphere 角分布对 $\delta_1=-1.83$ 与 $\delta_2=-0.47$ 完全退化（$\Delta\chi^2_{\text{ang}}=0.000$），加入 Lv 报告的 JUROGAM II 偏振值后偏好小根（条件性 $\Delta\chi^2_{\text{joint}}=122.3$）；该结果不是实验 11.1σ，也不独立证明 signature-partner 机制。相对 $B(E2)$ ratio 只作条件性敏感性检查；
 - Chen et al. 2026 贝叶斯转动惯量模型 (accepted record): 仅基于能谱能量约束的 MCMC 条件后验。
