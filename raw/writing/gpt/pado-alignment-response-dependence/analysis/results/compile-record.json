@@ -7,8 +7,9 @@
   "output": "raw/writing/gpt/pado-alignment-response-dependence/main.pdf",
   "pages": 7,
   "page_size": "A4",
-  "pdf_sha256": "3d4f506f05e2d7fe14ffd33fbf7da5ee5e267e7a59ae74e8355099cf8119356d",
+  "pdf_sha256": "0d8dd3d2064af440d5da9c84e934018b8823ed4f1b098acaa4d83e1b7340b1d2",
   "status": "compiled-and-visually-inspected",
   "warnings": "underfull-vbox layout warnings; no fatal errors",
-  "visual_inspection": "pages 1-7 rendered and checked for clipping, overlap, and figure/table truncation"
+  "visual_inspection": "pages 1-7 rendered and checked for clipping, overlap, and figure/table truncation",
+  "compiled_at": "2026-11-05T04:07:00+08:00"
 }

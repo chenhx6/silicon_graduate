@@ -14,3 +14,7 @@ result is table-level and conditional on the stated covariance contract.
 
 `claim-ledger.md` is the paper-use P0/P1 audit. It does not mark any claim as
 human-reviewed or admitted for final submission.
+
+`zobel-covariance-audit.md` records the direct PDF visual check that the source
+mentions error ellipses and correlation but does not publish their numerical
+parameters or raw counts.
