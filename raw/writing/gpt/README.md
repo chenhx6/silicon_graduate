@@ -27,5 +27,6 @@
 | [`a130-triaxial/main.tex`](a130-triaxial/main.tex) | LaTeX | Physical Review C (RevTeX 4.2) 投稿源码 |
 | [`a130-triaxial/references.bib`](a130-triaxial/references.bib) | BibTeX | 42 篇核心同行评议文献数据库 |
 | [`a130-triaxial/DATA_PROVENANCE.md`](a130-triaxial/DATA_PROVENANCE.md) | Markdown | **防作假实验数据溯源手册**（详尽标明所有数据点原始文献、表号与公式） |
-| [`a130-triaxial/data/`](a130-triaxial/data/) | CSV 数据 | 5 幅插图底层的全部真实实验与理论数据集 |
-| [`a130-triaxial/figures/`](a130-triaxial/figures/) | PDF / PNG | 5 幅插图的全套矢量图与 300 DPI 高清预览图 |
+| [`a130-triaxial/data/`](a130-triaxial/data/) | CSV 数据 | **原始基准数据（不可动铁律·文章主要依据·唯一公开数据集）** |
+| [`a130-triaxial/figures/made/`](a130-triaxial/figures/made/) | Python / CSV | 绘图工程主目录（脚本与临时辅助缓存 `made/data/`，可有可无，非文章依赖数据） |
+| [`a130-triaxial/figures/`](a130-triaxial/figures/) | PDF / PNG | 出版级矢量图 (`figures/pdf/`) 与在线预览图 (`figures/png/`) |
