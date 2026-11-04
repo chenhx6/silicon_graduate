@@ -128,6 +128,11 @@ family-wise calibration 下，shared-null 的条件性不兼容仍然存在，�
 `active-L3-public-data-L4`: the source and table are archived, but the new model,
 coverage study, claim-specific evidence gate and journal fit are still pending.
 No experimental fact, user-data result or final paper conclusion has been admitted.
+
+Submission readiness is recorded in
+`outputs/l4/20261105-pado-submission-readiness/report.md`; current disposition is
+`partial/not-ready` because author metadata, targeted claim review and source
+covariance/event-level evidence remain unresolved.
 ## Current Hypotheses
 
 `H_shared` 假设所有条件共享一个 `r=sigma/J`；`H_family` 允许

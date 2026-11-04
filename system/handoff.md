@@ -6,7 +6,7 @@ updated: 2026-11-05
 ## Active handoff — 2026-11-05：全库审计与 P-ADO 单点论文候选
 
 - **Current active task**：完成 A≈130 全库审计、创新点筛选和一篇单点论文。goal `01a1a756-e768-7320-bc92-6bff2607f122` 仍 active。
-- **Stable pointer**：当前工作在 `main` 上；本轮已完成 `research: establish A130 paper candidate and audit evidence`、`research: add feeding-mixture control and paper claim ledger`、`research: calibrate alignment coverage across covariance grid`、`research: compare observed discrepancy with calibrated coverage`、`research: refine covariance profile resolution`、`research: compile and inspect EPJA manuscript draft` 与 `research: audit source covariance boundary and finalize draft` 七个提交，并按精确 `HEAD:main` refspec 发布。后续恢复以 branch + subject 为稳定指针，精确 hash 只写入任务回执。
+- **Stable pointer**：当前工作在 `main` 上；本轮已完成 `research: establish A130 paper candidate and audit evidence`、`research: add feeding-mixture control and paper claim ledger`、`research: calibrate alignment coverage across covariance grid`、`research: compare observed discrepancy with calibrated coverage`、`research: refine covariance profile resolution`、`research: compile and inspect EPJA manuscript draft`、`research: audit source covariance boundary and finalize draft` 与本次 submission-readiness audit 提交，并按精确 `HEAD:main` refspec 发布。后续恢复以 branch + subject 为稳定指针，精确 hash 只写入任务回执。
 - **Completed**：
   - 读取 README、knowledge/index、profile、memory、handoff、PLAN、路径契约、自治研究、归档规则和相关 skills；
   - 盘点全库：约 4,030 个 raw 文件、1,367 个 knowledge 文件；完成 A≈130 source/project/research-note inventory；
@@ -26,6 +26,7 @@ updated: 2026-11-05
   - \(5\times5\) true-\(r\)/true-\(\rho\) coverage grid: matched-covariance coverage `0.616--0.678`; forcing fit \(\rho=0\) under nonzero true correlation can lower coverage to about `0.52`;
   - the minimum observed shared-model \(D_{\max}^2\) over the refined \(\Delta\rho=0.02\) profile is `22.18` at \(\rho=0.64\), versus matched toy maximum-statistic 95% quantiles `9.60--10.59`; this preserves a conditional shared-null incompatibility after family-wise calibration;
   - direct visual audit of Zobel 1983 pp.393--394 confirmed that the paper mentions error ellipses and alpha-pair dependence but does not publish numerical covariance or raw counts; this is now a source-level boundary artifact in the paper package;
+  - submission-readiness report `outputs/l4/20261105-pado-submission-readiness/report.md` records the current disposition as `partial/not-ready`, with the remaining author metadata, targeted claim review and event-level covariance gates.
   - `sources/claim-ledger.md` now lists P0/P1 paper-use claims and their evidence boundaries; `coverage-grid.json` and `coverage_grid.pdf/png` are included in the paper package;
   - interpretation is conditional table-level calibration/identifiability, not experimental significance, event-level reanalysis or universal P-ADO invalidation.
 - **Secondary `133Ce` boundary**：
