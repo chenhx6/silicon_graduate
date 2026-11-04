@@ -71,7 +71,7 @@ mixing-ratio 分支判定 wobbling、TiP、chirality 或 signature partner 的�
   `0.62--0.68`；
 - 强制拟合 `rho=0` 时，部分非零相关生成格点的 coverage 约降到 `0.47`，
   发生在扫描的负相关边界。
-- profile-preserving toys (300 per true-\(\rho\)) give \(q_{0.95}=8.27--8.65\)
+- profile-preserving toys (1000 per true-\(\rho\)) give \(q_{0.95}=8.47--8.79\)
   for true \(\rho=-0.6,0,0.6\), compared with observed profiled
   \(D_{\max}^2=22.18\).
 

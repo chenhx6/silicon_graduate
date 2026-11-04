@@ -95,8 +95,9 @@ acceptance 为约 `0.62--0.68`；当数据具有非零 \(\rho\) 而拟合强制
 
 在 spacing \(\Delta\rho=0.02\) 的 profile 网格 \(\rho\in[-0.8,0.8]\) 上，
 observed shared-model `Dmax^2` 的最小值仍为 `22.18`（\(\rho=0.64\)）。
-profile-preserving toy 中，对 true \(\rho=-0.6,0,0.6\) 重复同一 \(\rho\)
-profile，经验 95% 分位数为 `8.27--8.65`。这仍是声明的
+profile-preserving toy 中，对 true \(\rho=-0.6,0,0.6\) 重复同一 \(\rho\)，
+每个 true-\(\rho\) 使用 1000 个 pseudo-experiments，经验 95% 分位数为
+`8.47--8.79`。这仍是声明的
 block-diagonal/common-\(\rho\) Gaussian 合同下的条件性校准，不能替代真实
 event-level covariance 和 feeding-aware likelihood。
 

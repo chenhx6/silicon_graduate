@@ -48,7 +48,7 @@ Under the declared table-level Gaussian contract:
 - the observed shared-model maximum discrepancy remains large after profiling
   \(\rho\), with refined minimum \(D_{\max}^2=22.18\) at \(\rho=0.64\);
 - profile-preserving toy maximum-statistic 95% quantiles are approximately
-  \(8.27\)--\(8.65\) for true \(\rho=-0.6,0,0.6\);
+  \(8.47\)--\(8.79\) for true \(\rho=-0.6,0,0.6\), using 1000 toys per value;
 - forcing \(\rho=0\) when the generating toy has nonzero correlation lowers
   empirical coverage in some grid cells to approximately \(0.47\) at the edge
   of the scanned negative-correlation range.

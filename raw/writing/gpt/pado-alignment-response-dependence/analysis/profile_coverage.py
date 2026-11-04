@@ -36,7 +36,7 @@ def main() -> None:
         / "results"
         / "profile-coverage.json",
     )
-    parser.add_argument("--n-toys", type=int, default=300)
+    parser.add_argument("--n-toys", type=int, default=1000)
     parser.add_argument("--seed", type=int, default=20261107)
     parser.add_argument("--spin", type=float, default=6.5)
     args = parser.parse_args()

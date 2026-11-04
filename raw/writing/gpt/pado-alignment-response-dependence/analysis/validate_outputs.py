@@ -27,7 +27,7 @@ assert coverage["max_d2_quantiles"]["0.95"] > coverage["threshold_q95_2d"]
 assert len(coverage_grid["matched_covariance"]) == 35
 assert len(coverage_grid["rho_misspecified_to_zero"]) == 35
 assert coverage["empirical_fraction_mc_se"] > 0.0
-assert profile_coverage["n_toys_per_true_rho"] == 300
+assert profile_coverage["n_toys_per_true_rho"] == 1000
 assert profile_coverage["observed_profiled_max_d2"] > 20.0
 assert all(
     profile_coverage["profiled_max_d2_quantiles"][str(rho)]["0.95"]

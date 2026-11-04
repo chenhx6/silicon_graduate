@@ -40,14 +40,14 @@
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/profile_coverage.py",
-      "sha256": "a0ee0cbb2e77c3ec793df6487f612623a81ee22b89dd5c2376b6aa68c5b937b1",
-      "size": 4048,
+      "sha256": "30b4b4a5b8e44d62e2b95a1b4819c70f9e73216d7c341c02ecbb3075617d448d",
+      "size": 4049,
       "release_role": "candidate-public"
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/validate_outputs.py",
-      "sha256": "326e3ce960ccb1cf4c82b00023defb8d4eab744871822ec620079150b8e6a94f",
-      "size": 1931,
+      "sha256": "e6930483b230343d5ec177db1a96dfacc51830d7385257cfc49b3bb276876f3b",
+      "size": 1932,
       "release_role": "candidate-public"
     },
     {
@@ -70,8 +70,8 @@
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage.json",
-      "sha256": "025df0b615e0f1d10e309b8918e1650b960a84f46c12e3ca0af161610fd5c145",
-      "size": 2995,
+      "sha256": "e8b77d058b8470f4d98969fc639d4fdd0ceece48348dd11153dedb86ffb9d492",
+      "size": 2987,
       "release_role": "candidate-public"
     },
     {
@@ -100,8 +100,8 @@
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/main.tex",
-      "sha256": "308eed0e0170df49f64793c21f4619e824c63108be20eed5081d9c0461de7ceb",
-      "size": 18507,
+      "sha256": "c09b37a4031e598322bf2a93ff3e3fe88649dde9105a4fa45254897e82b7eaac",
+      "size": 18509,
       "release_role": "candidate-public"
     },
     {
@@ -112,8 +112,8 @@
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/PUBLIC_RELEASE.md",
-      "sha256": "d262f2d739463796b4c09fc3a8977573e9c1f1ecb9e7206f3e16b2fffbb112c6",
-      "size": 1970,
+      "sha256": "157348d63283460539432bc06fe9eee913c8de9e030b6c7ca712bf7886a341a2",
+      "size": 2158,
       "release_role": "candidate-public"
     }
   ],
@@ -143,6 +143,6 @@
     "fixed_rho_grid_seed": 20261106,
     "single_toy_seed": 20261105,
     "profile_toy_seed": 20261107,
-    "profile_toys_per_true_rho": 300
+    "profile_toys_per_true_rho": 1000
   }
 }

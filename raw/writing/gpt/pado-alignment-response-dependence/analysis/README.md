@@ -15,7 +15,7 @@ python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/coverage_gri
   --output raw/writing/gpt/pado-alignment-response-dependence/analysis/results/coverage-grid.json
 
 python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/profile_coverage.py \
-  --n-toys 300 \
+  --n-toys 1000 \
   --output raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage.json
 
 python3 raw/writing/gpt/pado-alignment-response-dependence/figures/made/generate_figures.py
@@ -35,7 +35,7 @@ package.
 The exact compiler/output record is in `results/compile-record.json`.
 
 The coverage run uses random seed `20261105`; the fixed-rho grid uses
-`20261106`; the profile-preserving calibration uses seed `20261107` and 300
+`20261106`; the profile-preserving calibration uses seed `20261107` and 1000
 toys per true-rho value. The profile is a table-level Gaussian sensitivity
 analysis with a block-diagonal covariance contract: rows are treated as
 independent, quoted marginal errors are treated as fixed standard errors, and

@@ -8,9 +8,9 @@
   "class_options": "pdflatex,iicol,sn-mathphys-num",
   "pages": 6,
   "page_size": "A4",
-  "pdf_sha256": "9329ae80d6cfb0c9ef53ae5e4b9711f5e61eae60f6bafaa2a06a36ce74e81ede",
+  "pdf_sha256": "0ba9c72a1c6bf170ba032ba59df1fce87b8675dfbfc0b67ddaff10094876a3cf",
   "status": "compiled-and-visually-inspected",
   "warnings": "underfull hbox/vbox layout warnings only; no overfull boxes, unresolved citations, fatal errors, clipping, overlap, or figure/table truncation observed",
   "visual_inspection": "pages 1-6 rendered and checked after enabling iicol, full-width figure/table floats, split likelihood equation, and numeric citations",
-  "compiled_at": "2026-11-05T05:31:00+08:00"
+  "compiled_at": "2026-11-05T05:40:00+08:00"
 }

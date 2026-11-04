@@ -6,7 +6,7 @@
 | Shared-alignment baseline | `knowledge/research-notes/pado-shared-alignment-null-profile.md` | Real-table Result; provisional max-Mahalanobis contract |
 | Profile results in this package | `analysis/profile_alignment_models.py` | `analysis/results/alignment-profile.json` |
 | Toy coverage result | `analysis/coverage_check.py` | `analysis/results/coverage.json`; seed 20261105 |
-| Profile-preserving toy calibration | `analysis/profile_coverage.py` | `analysis/results/profile-coverage.json`; seed 20261107; 300 toys per true-rho value |
+| Profile-preserving toy calibration | `analysis/profile_coverage.py` | `analysis/results/profile-coverage.json`; seed 20261107; 1000 toys per true-rho value |
 | Fixed-rho coverage sensitivity | `analysis/coverage_grid.py` | `analysis/results/coverage-grid.json`; seed 20261106; 5x7 grid |
 | Historical source lineage | `knowledge/sources/zobel-1980-magnetic-substate-distributions.md` and `knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md` | Related method sources; not silently merged into the 1983 fixture |
 | Public release candidate | `sources/public-release-manifest.json` | SHA-256 inventory; pending author license, metadata and permanent archive |
