@@ -184,7 +184,8 @@ def fit_model(rows: list[dict], model: str, rho: float, j: float = 6.5) -> dict:
 
 def rho_profile(rows: list[dict], j: float) -> list[dict]:
     out = []
-    for rho in np.linspace(-0.8, 0.8, 17):
+    # 0.02 spacing resolves the covariance profile minimum used in the paper.
+    for rho in np.linspace(-0.8, 0.8, 81):
         for model in ("shared", "family", "energy", "mixture"):
             fit = fit_model(rows, model, float(rho), j)
             out.append(
