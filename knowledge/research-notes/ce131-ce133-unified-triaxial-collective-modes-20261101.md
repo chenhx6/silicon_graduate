@@ -1,9 +1,9 @@
 ---
 type: research-note
-title: "131Ce and 133Ce unified triaxial collective modes, Fermi surface evolution, and isotone systematics"
+title: "Conditional `131Ce/133Ce` collective-mode comparison and isotone hypotheses"
 aliases: [131Ce 133Ce unified collective modes, Ce odd-A triaxial evolution, N=75 isotone systematics]
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-05
 status: ai-draft
 review_status: unreviewed
 reasoning_status: provisional
@@ -16,25 +16,39 @@ observables: [routhian, alignment, signature-splitting, signature-inversion, mix
 tags: [131ce, 133ce, triaxiality, collective-modes, signature-partner, wobbling-falsification, gamma-vibration, tilted-precession, isotone-systematics]
 ---
 
-# `131Ce` and `133Ce` unified triaxial collective modes, Fermi surface evolution, and isotone systematics
+# Conditional `131Ce/133Ce` collective-mode comparison and isotone hypotheses
+
+## Evidence boundary
+
+This note is a provisional cross-source synthesis, not a completed nuclear-structure
+paper result. It combines published assignments, neighboring even-even PES model
+outputs and private workbook-derived quantities. It does not establish a direct
+microscopic PES for odd-mass \(^{133}\mathrm{Ce}\), an event-level likelihood,
+absolute transition strengths or a unique collective-mode identity.
 
 ## Executive Summary & Research Context
 
-This research note completes the scientific synthesis for **Candidate 6** of the post-30-day research prospectus: *“131Ce/133Ce collective-mode identifiability: Differentiating unfavored signature partner, wobbling, tilted precession, and $\gamma$-vibrational coupling in odd-$A$ Ce isotopes.”*
+This research note records a conditional research route for **Candidate 6** of the
+post-30-day research prospectus: *“131Ce/133Ce collective-mode identifiability:
+Differentiating unfavored signature partner, wobbling, tilted precession, and
+\(\gamma\)-vibrational coupling in odd-\(A\) Ce isotopes.”*
 
-By integrating the CIAE HI-13 beam experiment on $^{131}\text{Ce}$ ($N=73$, [[alwaleedi-2013-band-structures-131ce]]), the iThemba LABS PR295 experiment on $^{133}\text{Ce}$ ($N=75$, [[wakudyanaye-2022-triaxiality-rotational-bands-133ce]], Ding Bing et al. 2022 [[ding-2021-131ba-133ce-signature-splitting]], and the private workbook layer [[userdata-133ce-southafrica-dataset]]), and microscopic covariant density functional theory priors from NuclearMap ([[nuclearmap-jcnp-pc-pk1]]), we resolve the structural evolution across the $N=74$ triaxial core $^{132}\text{Ce}$ ($\beta_2 \approx 0.22\text{--}0.24, \gamma \approx 17^\circ\text{--}20^\circ$).
+By comparing the CIAE HI-13 \(^{131}\mathrm{Ce}\) sources, the iThemba LABS
+PR295 \(^{133}\mathrm{Ce}\) sources, the private workbook layer and neighboring
+even-even NuclearMap priors, we formulate testable hypotheses around the \(N=74\)
+core. The comparison does not by itself resolve the odd-mass structural evolution.
 
-### Key Scientific Conclusions
-1. **Microscopic Fermi Surface Shift ($N=73 \to N=75$)**:
-   - In $^{131}\text{Ce}$ ($N=73$), the neutron Fermi level resides in the lower-middle $\nu h_{11/2}$ subshell near $[523]7/2^-$. Band 4 is established as a **$\gamma$-vibrational phonon coupled to the $\nu h_{11/2}$ quasiparticle** ($\gamma \otimes e$), with bandhead $I^\pi = 15/2^-$ at $972\text{ keV}$ above the $9/2^-$ isomer, decaying via high-energy linking transitions ($994, 1108\text{ keV}$).
-   - In $^{133}\text{Ce}$ ($N=75$), adding two neutrons pushes the Fermi level to the top of the $\nu h_{11/2}$ shell (orbitals $[514]9/2^-$ and $[505]11/2^-$). The valence hole exerts an oblate-driving shape polarization competing against the prolate-driving core protons, stabilizing triaxiality ($\gamma \approx 18^\circ$). Band 4 is an **unfavored signature partner** possessing a $2\hbar$ long-axis rotation component (tilted precession, TiP), with bandhead $I^\pi = 13/2^-$ at $512\text{ keV}$, decaying via low-energy transitions ($465, 582, 625\text{ keV}$).
-2. **Definitive Falsification of Wobbling in $^{133}\text{Ce}$**:
-   - Reconstructing the transition-level apparent wobbling frequency formula $\hbar\omega_w = E_{\gamma,\text{out}} - \frac{1}{2}E_{\gamma,\text{in}}$ reveals massive signature staggering ($>300\text{ keV}$) and drops into unphysical negative territory ($-84.5\text{ keV}$ at $23/2^-$ and $-15.5\text{ keV}$ at $27/2^-$).
-   - The connecting transitions are strictly $M1$-dominated: $582\text{ keV}$ ($17/2^- \to 15/2^-$) has $\delta = -0.55$, $M1\% = 76.8\%$, $B(E2)_{\text{out}}/B(E2)_{\text{in}} = 0.063(25)$; $465\text{ keV}$ ($19/2^- \to 17/2^-$) has $\delta = -0.17$, $M1\% = 97.2\%$, $B(E2)_{\text{out}}/B(E2)_{\text{in}} = 0.088(33)$. Both $B(E2)_{\text{out}}/B(E2)_{\text{in}}$ values are $< 0.1$, strictly excluding wobbling ($B(E2)_{\text{out}}/B(E2)_{\text{in}} \sim 0.2\text{--}0.5$).
-3. **Common Microscopic Proton Backbend**:
-   - Both $^{131}\text{Ce}$ and $^{133}\text{Ce}$ exhibit an identical, sharp band crossing at rotational frequency $\omega_c \approx 0.30\text{--}0.32\text{ MeV}/\hbar$ with alignment gain $\Delta i_x \approx 8.8\text{--}9.0\hbar$, corresponding to the alignment of the first pair of $h_{11/2}$ protons ($(\pi h_{11/2})^2$ $S$-band crossing).
-4. **$N=75$ Isotone Chain Systematics ($^{131}\text{Ba} \to {}^{133}\text{Ce} \to {}^{135}\text{Nd}$)**:
-   - Triaxiality evolves smoothly from $\gamma$-soft ($^{131}\text{Ba}$, $\gamma \approx 10^\circ\text{--}12^\circ$) to rigid triaxial ($^{133}\text{Ce}$, $\gamma \approx 18^\circ$) to rigid chiral triaxiality ($^{135}\text{Nd}$, $\gamma \approx 21^\circ$), driven by proton addition into the $\pi h_{11/2}$ orbital.
+### Conditional Synthesis
+1. **Fermi-surface and configuration hypothesis ($N=73 \to N=75$)**:
+   - In \(^{131}\mathrm{Ce}\), published work assigns a band structure compatible with a \(\gamma\)-vibrational quasiparticle-coupling interpretation; this remains an author/model assignment.
+   - In \(^{133}\mathrm{Ce}\), the top-of-shell configuration and small-\(|\delta|\) workbook-derived links make a simple one-phonon wobbling interpretation less favored under the declared local contract, but do not uniquely establish signature partner or TiP.
+2. **Conditional workbook discriminator in \(^{133}\mathrm{Ce}\)**:
+   - The derived \(\hbar\omega_w\) proxy shows strong signature dependence and negative entries for selected workbook mappings.
+   - The selected 582- and 465-keV ratios are M1-dominated and have derived \(B(E2)\) ratios below 0.1. These are conditional workbook results, not direct absolute matrix elements or an event-level exclusion.
+3. **Possible common proton crossing**:
+   - Similar crossing/alignment estimates occur in the two source/systematics chains, but they are not an independent microscopic confirmation of an identical \((\pi h_{11/2})^2\) crossing. Configuration identity, response and covariance must be closed before using this as a shared mechanism.
+4. **\(N=75\) isotone hypothesis**:
+   - The \(^{131}\mathrm{Ba}\to{}^{133}\mathrm{Ce}\to{}^{135}\mathrm{Nd}\) comparison motivates a triaxial-softness/rigidity evolution hypothesis; the quoted \(\gamma\) values are model outputs or author interpretations and do not form a direct experimental rigidity measurement.
 
 ---
 
@@ -67,7 +81,7 @@ The spectroscopic parameters synthesized by `system/scripts/ce131_ce133_unified_
 | **Excited Band (Band 4) Bandhead** | $15/2^-$ ($E_x = 972\text{ keV}$ above $9/2^-$) | $13/2^-$ ($E_x = 512\text{ keV}$ above $9/2^-$) | $\Delta I = 3$ ($\gamma$-vibration) vs $\Delta I = 2$ ($R_l = 2\hbar$ TiP) |
 | **Connecting Transitions** | $994\text{ keV}, 1108\text{ keV}$ | $625\text{ keV}, 582\text{ keV}, 465\text{ keV}$ | High energy (phonon) vs low energy (signature partner) |
 | **Connecting Multipolarity** | Quadrupole / Dipole mixed | $77\%\text{--}97\%\ M1$ ($|\delta| \le 0.55$) | Single-particle spin flip vs collective phonon |
-| **$B(E2)_{\text{out}}/B(E2)_{\text{in}}$** | Not directly reported (weak branch) | $0.063(25)$ ($582\text{ keV}$), $0.088(33)$ ($465\text{ keV}$) | Definitively $< 0.1$, refuting wobbling |
+| **$B(E2)_{\text{out}}/B(E2)_{\text{in}}$** | Not directly reported (weak branch) | $0.063(25)$ ($582\text{ keV}$), $0.088(33)$ ($465\text{ keV}$) | Workbook-derived values are below 0.1; conditionally disfavors a simple wobbling assignment |
 | **$B(M1)/B(E2)$ ratio** | Small (intraband dominant) | $0.254\ \mu_N^2/(e^2 b^2)$, $0.470\ \mu_N^2/(e^2 b^2)$ | Large single-particle magnetic dipole strength |
 | **Signature Staggering $S(I)$** | Small at low spin ($\pm 5\text{ keV}$) | Huge staggering ($>100\text{ keV}$), inverts at $19/2^-\text{--}21/2^-$ | Non-axial Coriolis mixing with $\Omega=1/2$ components |
 | **Proton Crossing $\omega_c$** | $0.30\text{ MeV}/\hbar$ ($\Delta i_x = 9.0\hbar$) | $0.32\text{ MeV}/\hbar$ ($\Delta i_x = 8.8\hbar$) | Common $(\pi h_{11/2})^2$ $S$-band alignment |
@@ -82,7 +96,7 @@ The $N=75$ isotone chain represents a prime laboratory for studying the onset of
 ```
 Proton Number Z:   Z = 56 (131Ba)  ------>  Z = 58 (133Ce)  ------>  Z = 60 (135Nd)
 Core Non-axiality: gamma ~ 10-12 deg        gamma ~ 18 deg           gamma ~ 21 deg
-Core Rigidity:     gamma-soft rotor         stable triaxial core     rigid triaxial rotor
+Core Rigidity:     gamma-soft hypothesis   triaxiality hypothesis    rigid-triaxial hypothesis
 Collective Modes:  Coriolis signature       Tilted precession (TiP)  Chiral doublet bands
                    splitting in g7/2, h11/2  + signature partner      (pi h11/2 x nu h11/2^-1)
 ```
@@ -107,7 +121,7 @@ Collective Modes:  Coriolis signature       Tilted precession (TiP)  Chiral doub
 ## Artifact & Reproducibility Record
 - Synthesis script: `system/scripts/ce131_ce133_unified_collective_modes.py`
 - Executable JSON artifact: `outputs/l3/ce-collective-modes/ce131_ce133_collective_modes_synthesis.json`
-- Passing audit checks:
+- Internal consistency checks (not experimental validation):
   * `check1_133ce_M1_dominant_and_BE2_under_0_1`: **PASS**
   * `check2_apparent_wobbling_formula_collapses`: **PASS**
   * `check3_proton_crossing_aligned_across_isotopes`: **PASS**
