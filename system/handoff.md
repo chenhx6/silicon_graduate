@@ -6,7 +6,7 @@ updated: 2026-11-05
 ## Active handoff — 2026-11-05：全库审计与 P-ADO 单点论文候选
 
 - **Current active task**：完成 A≈130 全库审计、创新点筛选和一篇单点论文。goal `01a1a756-e768-7320-bc92-6bff2607f122` 仍 active。
-- **Stable pointer**：当前工作在 `main` 上；本轮尚未创建 commit。提交前以 branch + subject 作为恢复指针，精确 hash 只写入最终回执。
+- **Stable pointer**：当前工作在 `main` 上；本轮已完成提交 `research: establish A130 paper candidate and audit evidence` 并按精确 `HEAD:main` refspec 发布。后续恢复以 branch + subject 为稳定指针，精确 hash 只写入任务回执。
 - **Completed**：
   - 读取 README、knowledge/index、profile、memory、handoff、PLAN、路径契约、自治研究、归档规则和相关 skills；
   - 盘点全库：约 4,030 个 raw 文件、1,367 个 knowledge 文件；完成 A≈130 source/project/research-note inventory；
