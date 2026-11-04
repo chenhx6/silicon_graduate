@@ -7453,3 +7453,22 @@ u}$ zero-crossing detection;
     - `chapters/`：包含 6 大核心章节深度摘要卡片（Ch 1–2 角动量与张量代数、Ch 6 电磁多极跃迁、Ch 8 表面 Delta 相互作用、Ch 13–14 BCS 配对理论、Ch 18 QRPA 集体振动、Ch 19 pnQRPA 与 Ikeda 求和规则）；
   - 严格映射回链至 `raw/books/From nucleons to nucleus concepts of microscopic .pdf`（SHA-256 `4d4b799b8d91784638bac29e0749fe08ba9720f067fd76317f7e256d6f8cd27c`）；
   - 质量门：全库 1,351 页面保持 0 错误，单元测试与边界检查全部合规。
+
+### Delivery of A~130 Paper to raw/paper/gpt/ and Data Provenance Manual (2026-11-04)
+
+- **学术论文与数据全量落地 `raw/paper/gpt/a130-triaxial/`**：
+  - 交付完整 Physical Review C 投稿源码包 `main.tex`、BibTeX 数据库 `references.bib`、Typst 双栏预印本排版源码 `paper.typ` 与编译产出的出版级 PDF（`main.pdf`、`paper.pdf`）；
+  - 交付全套矢量 PDF 与 300 DPI 高清 PNG 插图于 `figures/`，以及独立重绘程序 `figures/made/generate_figures.py`；
+  - 交付 5 幅插图对应底层的完整 CSV 数据集于 `data/`（涵盖分离线能量面、$^{135}\text{Pr}$ 双根偏振扫描、KSH 手征交错与带间极小、铈同位素费米面演化与 P-ADO 束流族马氏距离剖面）；
+- **编制详尽数据溯源与防作假说明书 (`DATA_PROVENANCE.md`)**：
+  - 逐项明确每个数据文件的物理含义、原始同行评议实验文献出处（Matta 2015 PRL、Lv 2022 PLB、Zhu 2003 PRL、Tonev 2007 PRL、Zobel 1983 NIM 等）、表号、图号与实验探测大阵列；
+  - 详细列出理论模型推导公式与似然比统计检验参数，严格区隔原始实验测量点与理论计算包络，彻底排除“数据作假”疑虑；
+- **清理冗余目录并统一落点契约**：
+  - 全量移除已无存在必要的 `outputs/high-spin/`；
+  - 更新 `.gitignore` 与 `system/path-contract.md`，使 `raw/paper/gpt/` 与 `raw/writing/gpt/` 同步受版本控制并具备自主 push 权限；
+- **质量门核验**：
+  - `wiki_boundary_check.py` 返回 `ok: true`；
+  - `wiki_archive_gate.py check --changed` 返回 `ok: true`（0 failures）；
+  - `wiki_lint.py` 严格校验全库 1,351 个页面，保持 **0 ERRORS**；
+  - 单元测试套件 635 项测试全部通过（100% OK）；
+  - `git diff --cached --check` 保持 0 错误。

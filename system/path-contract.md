@@ -13,7 +13,7 @@ updated: 2026-11-03
 
 | 路径 | 唯一职责 | 可以写入 | 不得写入 |
 |---|---|---|---|
-| `raw/` | 用户原始论文、手稿、数据、图片、笔记和其它原始材料 | 用户明确提供的原件，以及经用户持续授权、为回答或研究取得的外部原件；30 天学习计划使用 `raw/papers/gpt/learning-daily/`，普通问答和论文相关来源使用 `raw/papers/gpt/query/YYYYMMDD-<topic>/`，学术手稿与论文初稿使用 `raw/writing/gpt/<topic>/`（含图表代码与数据溯源说明），其它类型继续使用对应的 `raw/<type>/gpt/learning-daily/` 和 `raw/zotero/gpt.bib` | 知识页、日报、计划、审计、临时缓存；不得覆盖、改写、重命名或批量整理用户原件；`raw/zotero/wiki-inbox.bib` 始终只读 |
+| `raw/` | 用户原始论文、手稿、数据、图片、笔记和其它原始材料 | 用户明确提供的原件，以及经用户持续授权、为回答或研究取得的外部原件；30 天学习计划使用 `raw/papers/gpt/learning-daily/`，普通问答和论文相关来源使用 `raw/papers/gpt/query/YYYYMMDD-<topic>/`，学术手稿与论文初稿使用 `raw/paper/gpt/<topic>/` 与 `raw/writing/gpt/<topic>/`（含图表代码与数据溯源说明），其它类型继续使用对应的 `raw/<type>/gpt/learning-daily/` 和 `raw/zotero/gpt.bib` | 知识页、日报、计划、审计、临时缓存；不得覆盖、改写、重命名或批量整理用户原件；`raw/zotero/wiki-inbox.bib` 始终只读 |
 | `knowledge/` | 长期知识大脑，供 Q&A、研究和论文写作检索 | 可复用的 source、nucleus、band、experiment、method、model、observable、concept、project、synthesis、question、受控 research-note、证据矩阵和经过证据回链的知识增量 | 仅一次性的运行回执、调度日志、日报正文、临时草稿；重要事实必须能回到 `knowledge/sources/` 和 `raw/` locator |
 | `outputs/` | 交代性输出与过程状态 | 日报、周报、审计、paper card、L3/L4 readiness/report、run receipt、scheduler state、literature-acquisition manifest、`outputs/plans/` 任务计划书和其它过程报告 | 只在这里保存长期知识正文、project/synthesis/evidence matrix 的唯一副本；输出中产生的可复用知识必须同步提炼到 `knowledge/` |
 | `system/` | 治理与执行层 | `AGENTS`/规则、workflow、schema、prompt、template、memory、handoff、log、queue、脚本和测试 | 科学来源正文、日报/周报、原始材料、运行缓存 |

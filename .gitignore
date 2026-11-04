@@ -20,6 +20,12 @@ raw/**
 raw/writing/*
 !raw/writing/gpt/
 !raw/writing/gpt/**
+
+!raw/paper/
+!raw/paper/**
+
+!raw/papers/gpt/
+!raw/papers/gpt/**
 # Temporary and generated caches
 tmp/
 __pycache__/
