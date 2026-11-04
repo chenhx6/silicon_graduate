@@ -92,6 +92,12 @@ coverage 为约 `0.616--0.678`；当数据具有非零 \(\rho\) 而拟合强制
 \(\rho=0\) 时，coverage 最低约 `0.52`。这把单点 coverage 结果升级为
 统计门限对真实 alignment 和 covariance misspecification 的敏感性证据。
 
+在 profile 网格 \(\rho\in[-0.8,0.8]\) 上，observed shared-model `Dmax^2`
+的最小值仍为 `22.24`（粗网格位置 \(\rho=0.6\)）；matched-covariance
+toy maximum-statistic 的经验 95% 分位数为 `9.60--10.59`。因此在该声明的
+family-wise calibration 下，shared-null 的条件性不兼容仍然存在，但不能
+替代真实 event-level covariance 和 feeding-aware likelihood。
+
 ## Planned tests
 
 1. Rebuild the ten-row fixture from the original Table 1 and correct reaction/
