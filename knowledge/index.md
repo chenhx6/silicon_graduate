@@ -227,6 +227,8 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[135nd-134pr-transition-identity-ledger-20261031]] — 冻结 `135Nd` 状态级 `τ/B` 与 ZH03/LV19 逐线身份、`134Pr` Tonev07 逐线 EM ledger 及谱系/版本陷阱。
 - [[135nd-2025-tipped-precession-same-lineage-extension]] — `135Nd` 2025 新 `17/2−` 态、band T 与 `B(E2,752)/B(E2,908)=2.0(5)`；标记为 2021 JUROGAM II 同谱系扩展。
 - [[pado-shared-alignment-null-profile]] — 基于Zobel 1983十行真实表格的共享`σ/J`、共同`rho`与`tau` profile；`tau=1`无共同区间，作为P-ADO跨反应alignment迁移的条件性falsifier。
+- [[pado-alignment-response-dependence-paper]] — P-ADO 公开表格方法学论文候选：比较 shared、projectile-family 和 energy-dependent alignment response，并用 pseudo-experiment coverage 校准 maximum-row 统计量。
+- [[journal-route-and-template-audit-20261105]] — EPJA/PRC/PLB 官方投稿页与模板审计，明确当前 P-ADO 与 `133Ce` 候选的期刊路线和数据可用性门。
 
 ## Day28 当前L3：131Xe低自旋对象身份与δ分支
 
@@ -238,7 +240,9 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[133ce-southafrica-l4-data-contract-20261101]] — 用户提供的 South Africa `133Ce` 数据合同：`133Ce_iThemba2019` acquisition/calibration/matrix 层与 `133Ce` derived/systematics 层；已完成 workbook/ROOT 可读性审计，当前为 partial-L4-readiness。
 - [[userdata-133ce-southafrica-dataset]] — 用户提供的 South Africa `133Ce` 数据 source identity、目录分层和 workbook/ROOT 可读性边界；raw hash 与 L4 数据合同已分开记录。
 - [[133ce-triaxial-core-collective-mode-route-20261101]] — 以 NuclearMap 的 `132Ce/134Ce` 邻近偶偶核 PES 为核心先验，连接私有 `133Ce` ADO/DCO/PDCO、wobbling 工作簿和三轴/签名伙伴/倾斜进动竞争假设；`133Ce` 直接 PES 尚未获得。
-- [[133ce-private-data-wobbling-vs-signature-reconstruction-20261101]] — 基于私有 South Africa 工作簿（`wobbling frequency.xlsx`、`intensity.xlsx`）的逐单元格公式反演：$\hbar\omega_w$ 签名崩塌（>240 keV 错动及负值）、连接线强 M1 占优（$|\delta| \le 0.55$）、$B(E2)_{\text{out}}/B(E2)_{\text{in}} < 0.1$ 与 $I=19/2^-\text{--}21/2^-$ 签名反转，彻底证伪单声子 wobbling 假设，确认为三轴核芯耦合下的 $\nu h_{11/2}$ unfavored signature partner 带。
+- [[133ce-private-data-wobbling-vs-signature-reconstruction-20261101]] — 基于私有 South Africa 工作簿的逐单元格公式审计：$\hbar\omega_w$ 构造具有明显 branch sensitivity，部分连接线给出小中心 $|\delta|$ 和选定的低 $B(E2)$ 比值；这些结果条件性不支持简单单声子 wobbling，但在 response、协方差、transition identity 和 holdout 闭合前不升级为最终模式判决。
+- [[a130-single-point-paper-133ce-response-aware-identifiability]] — A≈130 单点论文候选：以 `133Ce` 为例建立 gate/response/alignment 显式的 collective-mode identifiability test，比较 wobbling、signature/TiP、γ-soft particle-core 与 crossing/configuration-mixing。
+- [[a130-triaxial-writing-package-audit-20261105]] — 旧 `a130-triaxial` 写作包的 provenance、数值一致性、伙伴带证据和生成链审计；保留为素材/失败案例，不作为新稿正文或事实源。
 - [[nuclearmap-jcnp-pc-pk1]] — NuclearMap 的 PC-PK1 三轴 RHB/5DCH 框架、`132Ce`/`134Ce` 局部字段与已归档 PES 图；不把邻核模型结果冒充 `133Ce` 直接计算。
 - [[131xe-882-branch-response-contract]] — 881.8/880.1双线、取向、偏振、联合协方差与nuisance剖面下的双δ分支分离条件；来源为 Chakraborty C23-D28-3/C23-D28-9、Rose–Brink RB67-D23-001及Krane–Steffen KS70-2/6，保持L4 readiness边界。
 - [[131xe-day29-research-defense-preview]] — Day29无学分预习：794-keV电子/γ宇称判别、882偏振/角分布、共享响应、negative controls与belief revision设计；不推进课程状态。

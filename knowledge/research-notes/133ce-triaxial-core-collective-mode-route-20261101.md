@@ -129,10 +129,11 @@ the different prompt time-gate cut and background continuum.
 In the transverse wobbling model (Frauendorf & Dönau 2014), the $n=1 \to n=0$
 wobbling transition is characterized by enhanced collective $E2$ strength
 ($B(E2)_{out}/B(E2)_{in} \sim 0.2 - 0.5$) and large mixing ratios ($|\delta| \gg 1$).
-The experimental observation in `133Ce` that the interband connecting transitions
-have negative, small absolute mixing ratios ($|\delta| \lesssim 0.5$) provides
-strong experimental evidence against a simple one-phonon wobbling interpretation
-for this branch.
+The workbook-derived observation in `133Ce` that selected interband connecting
+transitions have negative, small central mixing ratios ($|\delta| \lesssim 0.5$)
+provides a conditional challenge to a simple one-phonon wobbling interpretation
+for this branch. The conclusion still depends on the mixing-ratio convention,
+alignment nuisance, gate/response treatment and transition identity.
 
 Instead, small negative $\delta$ values with dominant $M1$ character are the
 hallmark of:
@@ -161,8 +162,10 @@ hallmark of:
    625, 582, and 464 keV transitions extracted from `g45allmatprompt.root` and
    `g90allmatprompt.root` and compare with the cached values in
    `133Ce/analysis/intensity.xlsx`. If the marginalized posterior of $\delta$
-   excludes the large-$\delta$ wobbling domain, the transverse wobbling
-   assignment for this band is ruled out.
+   excludes the large-$\delta$ wobbling domain across the declared gate and
+   detector holdout, the simple transverse-wobbling assignment for this band
+   would be disfavored under that model space. A workbook-only interval is not
+   a final exclusion.
 2. **Time-gate matching check**: Project the 170 keV and 620 keV gates from both
    `ggmatprompt.m4b` and `m4b/ggmat.m4b` to quantify the prompt time cut
    efficiency. A valid $R_{ADO}$ or asymmetry ratio must show invariance under
@@ -190,7 +193,8 @@ subshell for negative-parity states, with potential mixing from $2f_{7/2}$.
 1. Signature-partner band with signature inversion.
 2. Tilted precession (TiP) band (Lawrie 2020).
 3. Quasi-$\gamma$ bandhead coupled to a single quasiparticle.
-4. Transverse wobbling (substantially disfavored by small negative $\delta$).
+4. Transverse wobbling (conditionally disfavored by the current workbook-derived
+   small negative central $\delta$ values; response closure is still required).
 
 ## Transfer Conditions
 

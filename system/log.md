@@ -6013,3 +6013,5 @@ raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，�
 2. **研究方法固化**：将单极张量力对偶性、Berggren 复动量连续谱完备性、能量方差外推法（$\Delta E^2 \to 0$）、Kumar 四极不变量、镜像能级差 MED 质子对顺排下凹判据、超允许费米衰变 $\delta_C$ 修正、闭合近似两体中微子势与超新星电子俘获解阻机制转换为核物理理论与实验分析可调用的标准模型规范。
 3. **交叉回链**：深度回链至 `knowledge/sources/book-nuclear-shell-model-70-years.md`、14 篇微观方法合同网络及现有分析套件；原著 PDF 保持只读。
 4. **回执与状态**：回执保存于 `outputs/learning-milestones/20261104-modern-nuclear-shell-model-book-to-skill-closure.json`；继续全库核结构与前沿谱学研学。
+
+- 2026-11-05: Full-library A≈130 audit and paper-candidate selection advanced. The legacy `raw/writing/gpt/a130-triaxial/` package was audited and downgraded to a material/failure-case source; `133Ce` remains a secondary partial-L4 candidate. The primary public-data candidate is now the P-ADO reaction-dependent alignment-response paper, with corrected Zobel `^{67}Ga` Table 1 provenance, table-level profile likelihood, covariance sensitivity, 1000-toy coverage output, figures, manuscript draft, and EPJA/REVTeX template artifacts. Boundary, lint, archive-gate, and analysis regression checks passed; LaTeX compilation remains unavailable in this runtime.

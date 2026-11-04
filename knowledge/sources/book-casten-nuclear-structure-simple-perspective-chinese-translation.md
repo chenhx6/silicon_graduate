@@ -14,9 +14,9 @@ publisher: "Oxford University Press"
 year: 1990
 pages: "391"
 canonical_source: "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md"
-library_file: "raw/books/translations/Nuclear_Structure_From_A_Simple_Perspective_中文译本_A4_电脑阅读版.pdf"
-raw_file: "raw/books/translations/Nuclear_Structure_From_A_Simple_Perspective_中文译本_A4_电脑阅读版.pdf"
-raw_sha256: "7734ad29785df190e6690d48aea77e087b83ea7e378dcb7d75e1c40f88bf1a99"
+library_file: "raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective.pdf"
+raw_file: "raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective.pdf"
+raw_sha256: "d41d50c04e85c202632d61cbd8f13164bb8b5c1a239625dbb3c00266bb22335e"
 nuclei: []
 reactions: []
 experiments: []
@@ -26,6 +26,11 @@ tags: [books, translated-duplicate, chinese-terminology, casten]
 ---
 
 # Casten 1990 中文译本副本
+
+> 2026-11-05 archive correction: the prior registered A4 filename is absent.
+> This page now points to the existing local translation copy and its measured
+> hash. The copy remains a terminology aid and is not treated as an independent
+> source; edition identity remains bounded by the English original.
 
 ## Bibliographic Record
 
@@ -67,4 +72,4 @@ tags: [books, translated-duplicate, chinese-terminology, casten]
 ## Sources
 
 - [[book-casten-nuclear-structure-simple-perspective]]
-- `raw/books/translations/Nuclear_Structure_From_A_Simple_Perspective_中文译本_A4_电脑阅读版.pdf`
+- `raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective.pdf`

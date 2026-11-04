@@ -1,7 +1,44 @@
 ---
 graph-excluded: true
-updated: 2026-11-04
+updated: 2026-11-05
 ---
+
+## Active handoff — 2026-11-05：全库审计与 P-ADO 单点论文候选
+
+- **Current active task**：完成 A≈130 全库审计、创新点筛选和一篇单点论文。goal `01a1a756-e768-7320-bc92-6bff2607f122` 仍 active。
+- **Stable pointer**：当前工作在 `main` 上；本轮尚未创建 commit。提交前以 branch + subject 作为恢复指针，精确 hash 只写入最终回执。
+- **Completed**：
+  - 读取 README、knowledge/index、profile、memory、handoff、PLAN、路径契约、自治研究、归档规则和相关 skills；
+  - 盘点全库：约 4,030 个 raw 文件、1,367 个 knowledge 文件；完成 A≈130 source/project/research-note inventory；
+  - 审计 `raw/writing/gpt/a130-triaxial/`，确认旧稿正文、CSV、图和代码存在多套不一致数字、错误 source identity、未闭合 partner evidence 和不可重建的 figure cache；已将其降格为素材/失败案例；
+  - 修正 `133Ce` 研究笔记中“证明/决定性证伪”等超过 partial-L4 边界的措辞；
+  - 修正 Casten 中文译本 source 的缺失归档路径，改为当前存在文件并记录实测 SHA-256；archive gate 已恢复 0 failures；
+  - 建立 `knowledge/projects/a130-single-point-paper-133ce-response-aware-identifiability.md` 作为 secondary nuclear-structure candidate；
+  - 建立 `knowledge/projects/pado-alignment-response-dependence-paper.md` 作为当前 primary EPJA candidate；
+  - 用正确的 Zobel 1983 `^{67}Ga` Table 1 十行 public benchmark 建立 P-ADO article package：table-level profile likelihood、rho sensitivity、1000 toy coverage、图件、EPJA/Springer Nature 和 REVTeX templates、claim-to-source map、Data/Code Availability boundary；
+  - 取得官方 EPJA/APS/Elsevier submission pages 的本地 query manifest；PLB Guide for Authors 当前 runtime 返回 access failure，已如实保留。
+- **Current primary paper result**：
+  - shared alignment model at `rho=0`: `r0=0.280146`, `AIC=32.0415`, `BIC=33.0372`, `Dmax^2=31.2643`;
+  - family model: `r_alpha=0.288714`, `r_12C=0.275782`, no AIC/BIC support over shared at center contract;
+  - energy model slope `0.005280` per 10 MeV, no AIC/BIC support over shared at center contract;
+  - 1000 shared-null pseudo-experiments with `r=0.28`, `rho=0`, seed `20261105`: max-row statistic below single-row `q95=5.9915` in `0.654` of toys; empirical 95th percentile `10.0142`;
+  - interpretation is conditional table-level calibration/identifiability, not experimental significance, event-level reanalysis or universal P-ADO invalidation.
+- **Secondary `133Ce` boundary**：
+  - South Africa archive contains readable ROOT/m4b matrices, workbooks, calibration and sorter material, but no event list, no complete `polarization.xlsx`, no absolute lifetime input, and no producer-level response covariance;
+  - keep `133Ce` at partial-L4/readiness and local-only-unpublished-data boundary; do not publish private derived data without explicit release authorization.
+- **P0/P1 review focus**：
+  - P0: primary P-ADO source identity, Table 1 transcription, row covariance and family-wise coverage;
+  - P0: old A≈130 package numeric/source conflicts;
+  - P1: `133Ce` response/producer/holdout closure and user-data publication boundary;
+  - P1: all final paper claims require source locator and targeted user confirmation under paper evidence gate.
+- **Validation**：
+  - `python3 system/scripts/wiki_boundary_check.py --root .` exit 0;
+  - `python3 system/scripts/wiki_lint.py --fail-on error` exit 0, 0 errors, 615 warnings, 5300 claim-needs-review info;
+  - `python3 system/scripts/wiki_archive_gate.py check --root . --changed` exit 0, 0 failures;
+  - `python3 system/scripts/analysis/test_analysis_suite.py` exit 0, regression checks passed;
+  - new P-ADO scripts compile with `py_compile`, profile/coverage/figure commands rerun successfully;
+  - LaTeX compiler is unavailable in the runtime, so `main.tex` syntax is statically checked but PDF compilation remains unverified.
+- **Next prompt**：继续 P-ADO paper self-audit：加入 feeding-aware negative-control model、coverage sensitivity and source manifest; then prepare final claim-to-locator table and decide whether EPJA Regular Article threshold is met. Keep `133Ce` secondary until response/holdout/data-release gates close.
 
 ## Active checkpoint — 2026-11-04：Casten 译本最终精修
 

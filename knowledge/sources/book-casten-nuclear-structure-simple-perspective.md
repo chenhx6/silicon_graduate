@@ -21,14 +21,21 @@ raw_file: "raw/books/Nuclear Structure From A Simple Perspective Casten.pdf"
 raw_sha256: "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9"
 raw_storage_status: archived-local
 archive_required: true
-translation_file: "raw/books/translations/Nuclear_Structure_From_A_Simple_Perspective_中文译本_A4_电脑阅读版.pdf"
-translation_sha256: "7734ad29785df190e6690d48aea77e087b83ea7e378dcb7d75e1c40f88bf1a99"
+translation_file: "raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective.pdf"
+translation_sha256: "d41d50c04e85c202632d61cbd8f13164bb8b5c1a239625dbb3c00266bb22335e"
 translation_role: "Chinese terminology aid; not an independent evidence source"
 book_to_skill_receipt: "outputs/learning-milestones/20261102-casten-book-to-skill-extraction.json"
 tags: [books, nuclear-structure, collective-model, two-state-mixing, transition-rates, triaxiality, coriolis-coupling, casten-triangle]
 ---
 
 # Casten 1990：从直观图像到跃迁相消、集体性演化与Coriolis耦合分析
+
+> 2026-11-05 archive correction: the previously registered translation path
+> `Nuclear_Structure_From_A_Simple_Perspective_中文译本_A4_电脑阅读版.pdf`
+> is absent. The existing local translation copy is
+> `中译_Nuclear_Structure_From_A_Simple_Perspective.pdf` with the hash recorded
+> above. The English original remains the physical evidence source; the
+> translation identity/edition is retained as a terminology-aid boundary.
 
 ## Bibliographic Record
 

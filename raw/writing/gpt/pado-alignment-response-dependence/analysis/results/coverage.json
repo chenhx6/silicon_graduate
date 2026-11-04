@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "input": "/workspace/wiki/raw/writing/gpt/pado-alignment-response-dependence/data/zobel83_958_table1.csv",
+  "n_toys": 1000,
+  "seed": 20261105,
+  "rho": 0.0,
+  "true_r": 0.28,
+  "true_mu": [
+    0.808935607911132,
+    0.4975156281791071
+  ],
+  "threshold_q95_2d": 5.991464547107979,
+  "empirical_fraction_max_d2_leq_q95": 0.654,
+  "max_d2_quantiles": {
+    "0.5": 5.082432439317125,
+    "0.9": 8.801117323114871,
+    "0.95": 10.01416388546638,
+    "0.99": 13.218504124109694
+  },
+  "fitted_r_quantiles": {
+    "0.05": 0.2718354423047607,
+    "0.5": 0.27989422219409865,
+    "0.95": 0.2886107151896458
+  },
+  "interpretation_boundary": [
+    "This checks the coverage of the chosen max-row statistic under a declared table-level Gaussian toy model.",
+    "It is not a source covariance reconstruction and is not an experimental p-value.",
+    "The 2D single-row q95 threshold is not automatically a 10-row family-wise 95% threshold."
+  ]
+}

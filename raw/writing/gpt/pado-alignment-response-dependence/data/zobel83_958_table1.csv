@@ -1,0 +1,11 @@
+beam,beam_energy_lab_MeV,nucleus,reaction,transition_energy_keV,Ji,Jf,alpha2,sigma_alpha2,alpha4,sigma_alpha4,source_locator
+alpha,11.3,67Ga,"64Zn(alpha,p gamma)67Ga",958.0,13/2,9/2,0.973,0.037,0.803,0.090,"Zobel 1983 printed p.392 / PDF p.4 Table 1"
+alpha,12.0,67Ga,"64Zn(alpha,p gamma)67Ga",958.0,13/2,9/2,0.910,0.037,0.810,0.090,"Zobel 1983 printed p.392 / PDF p.4 Table 1"
+alpha,15.0,67Ga,"64Zn(alpha,p gamma)67Ga",958.0,13/2,9/2,0.681,0.036,0.419,0.087,"Zobel 1983 printed p.392 / PDF p.4 Table 1"
+alpha,18.0,67Ga,"64Zn(alpha,p gamma)67Ga",958.0,13/2,9/2,0.728,0.036,0.263,0.087,"Zobel 1983 printed p.392 / PDF p.4 Table 1"
+alpha,22.0,67Ga,"64Zn(alpha,p gamma)67Ga",958.0,13/2,9/2,0.674,0.036,0.215,0.087,"Zobel 1983 printed p.392 / PDF p.4 Table 1"
+12C,32.0,67Ga,"57Fe(12C,pn gamma)67Ga",958.0,13/2,9/2,0.793,0.032,0.595,0.093,"Zobel 1983 printed p.392 / PDF p.4 Table 1"
+12C,36.0,67Ga,"57Fe(12C,pn gamma)67Ga",958.0,13/2,9/2,0.821,0.016,0.569,0.051,"Zobel 1983 printed p.392 / PDF p.4 Table 1"
+12C,40.0,67Ga,"57Fe(12C,pn gamma)67Ga",958.0,13/2,9/2,0.820,0.020,0.569,0.078,"Zobel 1983 printed p.392 / PDF p.4 Table 1"
+12C,44.0,67Ga,"57Fe(12C,pn gamma)67Ga",958.0,13/2,9/2,0.754,0.033,0.573,0.088,"Zobel 1983 printed p.392 / PDF p.4 Table 1"
+12C,48.0,67Ga,"57Fe(12C,pn gamma)67Ga",958.0,13/2,9/2,0.756,0.038,0.413,0.110,"Zobel 1983 printed p.392 / PDF p.4 Table 1"

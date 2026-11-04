@@ -56,9 +56,9 @@ When evaluated across the experimental levels of band $W1$ decaying into the yra
 | $27/2^-$ (13.5) | $+1/2$ | 485 (1129-644) | 1001 | `=1129-644-1001/2` | $-15.5$ |
 
 **Physical Diagnostics:**
-1. **Signature Asymmetry & Energy Collapse**: In a harmonic wobbler ($n_w=1$), the wobbling excitation carries $\Delta I = 1$ and changes the signature by $\Delta\alpha = 1$. Consequently, a pure single-phonon wobbling band consists of a **single signature** sequence. If band $W1$ contains states of both signatures ($\alpha = -1/2$ and $\alpha = +1/2$), it cannot be a simple one-phonon wobbler.
-2. **Catastrophic Staggering**: The quantity $\hbar\omega_w$ exhibits a staggering of over $240\text{ keV}$ between the two signatures ($324.5\text{ keV}$ at $25/2^-$ vs $-15.5\text{ keV}$ at $27/2^-$).
-3. **Negative Wobbling Frequency**: At spin $27/2^-$, the calculated $\hbar\omega_w$ becomes negative ($-15.5\text{ keV}$), which violates the physical requirement of a stable positive harmonic phonon excitation ($\hbar\omega_w > 0$).
+1. **Signature composition**: In the simple harmonic one-phonon picture, the candidate band is expected to follow a definite signature branch. The workbook ledger contains entries assigned to both signatures, which disfavors that simple assignment under the current band mapping; it does not by itself establish a signature-partner identity.
+2. **Branch-sensitive staggering**: The workbook construction gives values separated by more than $240\text{ keV}$ between selected entries. This is evidence that the derived quantity is sensitive to signature and line mapping, not an independent measurement of a phonon frequency.
+3. **Negative derived entry**: The $-15.5\text{ keV}$ value is a warning about the chosen branch and transition combination. It should not be described as a physical negative phonon energy until the level ledger and response-aware analysis are closed.
 
 ### 2. Electromagnetic Transition Ratios & $B(E2)$ Suppression (`intensity.xlsx`)
 
@@ -83,18 +83,18 @@ The extracted experimental parameters from the workbook are:
 | $25/2^-$ (12.5) | $W1 \to \text{yrast}$ ($\Delta I=1$) | 798 | $-5.0$ ($-1.0$ to $-20.0$) | $E2 + M1$ | $0.998$ | $0.018$ |
 | $25/2^-$ (12.5) | $W1 \to \text{yrast}$ ($\Delta I=2$) | 1084 | pure $E2$ | $E2$ | $0.269$ | --- |
 
-**Critical Physics of the Electromagnetic Decays:**
+**Conditional interpretation of the electromagnetic decays:**
 1. **Suppression of Interband $E2$ Strengths**:
    - In wobbling motion, the wobbling phonon is an oscillatory collective mode about the principal axis of inertia, which generates strong collective $E2$ transitions:
      $$B(E2; n_w=1, I \to n_w=0, I-1) \sim \frac{1}{I} B(E2; \text{in-band}) \sim 0.2\text{--}0.5 \times B(E2; \text{in-band})$$
      and the cross-over interband $E2$ ($I \to I-2$) is strictly forbidden in first order harmonic wobbling.
    - In $^{133}\text{Ce}$, the interband $E2$ strength ratio $B(E2,\text{out})/B(E2,\text{in})$ for the cross-over transitions is severely suppressed:
      $B(E2; 818)/B(E2; 578) = 0.063(25)$ and $B(E2; 982)/B(E2; 608) = 0.088(33)$.
-     Both ratios are $< 0.1$, proving the absence of enhanced collective interband $E2$ transitions.
+     These selected workbook ratios are below $0.1$, which conditionally disfavors an enhanced interband $E2$ component. Because the mixing-ratio, feeding, efficiency and covariance inputs are not fully closed, the values do not prove the absence of a collective component.
 2. **Dominant $M1$ Multipole Character**:
    - For the connecting $\Delta I = 1$ lines at lower spins ($17/2^-$ and $19/2^-$), the measured mixing ratios are small and negative: $\delta(582) = -0.55$ and $\delta(465) = -0.17$.
-   - This means that $76.8\%$ (for 582 keV) and $97.2\%$ (for 465 keV) of the transition intensity is magnetic dipole ($M1$), with negligible $E2$ contribution.
-   - Pure or dominant $M1$ transitions with $B(M1)/B(E2) \approx 0.25\text{--}0.47\ \mu_N^2/(e^2 b^2)$ are the hallmark of **signature partner bands** connected by transverse magnetic dipole operators $\vec{\mu} = g_R \vec{R} + g_j \vec{j}$, where off-diagonal matrix elements between the two signature branches ($\alpha = +1/2$ and $\alpha = -1/2$) are large.
+   - Under the workbook convention, these central values correspond to an $M1$-dominated decomposition. The percentages are derived from workbook mixing-ratio inputs and should not be presented as independently measured multipolarity fractions before the response-aware reanalysis.
+   - An $M1$-dominated link is compatible with a signature-partner interpretation, but it is not unique to that interpretation without a frozen transition identity, response model and competing-mode calculation.
 
 ### 3. Signature Splitting & Inversion Dynamics (`wobbling frequency.xlsx`, Sheet 2)
 
@@ -121,18 +121,18 @@ was calculated for both the yrast $\nu h_{11/2}$ band and the excited band $W1$:
 
 | Criterion | Wobbling Hypothesis ($n_w=1$) | Signature Partner Hypothesis | Experimental Private Data in $^{133}\text{Ce}$ | Verdict |
 |---|---|---|---|---|
-| Signature structure | Single signature only ($\Delta\alpha=1$) | Both signatures ($\alpha = \pm 1/2$) connected by $\Delta I = 1$ | Band $W1$ contains both $\alpha = +1/2$ and $-1/2$ | **Refutes Wobbling**; Supports Signature Partner |
-| $\hbar\omega_w(I)$ stability | Smooth, positive $\hbar\omega_w > 0$ across spins | Massive staggering between signature branches | Staggering $> 240\text{ keV}$; collapses to $-15.5\text{ keV}$ | **Refutes Wobbling**; Proves signature staggering |
-| Interband multipolarity | Dominant $E2$ ($|\delta| \gg 1$, $E2\% > 80\%$) | Dominant $M1$ ($|\delta| \lesssim 0.5$, $M1\% > 75\%$) | $\delta(582) = -0.55$, $\delta(465) = -0.17$ ($M1\% = 77\%\text{--}97\%$) | **Refutes Wobbling**; Decisively favors Signature Partner |
-| $B(E2,\text{out})/B(E2,\text{in})$ | Enhanced ($0.2\text{--}0.5$) | Suppressed ($< 0.1$) | Measured $0.063(25)$ and $0.088(33)$ ($< 0.1$) | **Refutes Wobbling**; Confirms Signature Partner |
-| $B(M1)/B(E2)$ strength | Vanishingly small ($B(M1) \approx 0$) | Substantial ($0.2\text{--}0.5\ \mu_N^2/(e^2 b^2)$) | Measured $0.254$ and $0.470\ \mu_N^2/(e^2 b^2)$ | **Refutes Wobbling**; Consistent with Signature Partner |
-| Staggering / Inversion | No signature inversion (one signature) | Characteristic signature staggering & inversion | Distinct inversion at $I = 19/2^-\text{--}21/2^-$ | **Refutes Wobbling**; Matches $A \approx 130$ systematics |
+| Signature structure | A simple one-phonon assignment follows a definite branch | A signature-partner interpretation contains both branches | The workbook ledger contains both assigned signatures | **Disfavors the simple assignment conditionally**; motivates a signature-partner test |
+| $\hbar\omega_w(I)$ stability | A phonon construction needs a consistent branch and smooth mapping | Signature splitting/crossing can make the construction branch-dependent | Workbook values show strong branch dependence and one negative derived value | **Shows a mapping problem to resolve**, not a direct phonon measurement |
+| Interband multipolarity | Enhanced $E2$ character is a necessary wobbling test | Small $|\delta|$ is compatible with an $M1$-dominated signature link | Selected workbook rows have small central $|\delta|$ | **Conditionally disfavors wobbling**; response and root assumptions remain open |
+| $B(E2,\text{out})/B(E2,\text{in})$ | Enhanced out-of-band $E2$ is expected in the relevant wobbling limit | Suppression is compatible with a signature/configuration link | Selected workbook ratios include $0.063(25)$ and $0.088(33)$ | **Supports a suppression pattern conditionally**; not a final absolute-$B(E2)$ result |
+| $B(M1)/B(E2)$ strength | The selected wobbling limit requires a small $M1$ component | A sizable $M1$ component is compatible with a signature link | Values are derived from workbook branching and $\delta$ inputs | **Provides a conditional discriminator**; covariance is incomplete |
+| Staggering / Inversion | Energy staggering is not a unique mode identifier | Signature inversion is a competing configuration/core explanation | The workbook shows a possible inversion pattern | **Motivates comparison with signature/TiP explanations** |
 
 ### Competing Explanations Ranking
 
-1. **Rank 1 (Robustly supported by all observables)**: **Unfavored signature partner band of $\nu h_{11/2}$**. The band structure, $\Delta I = 1$ $M1$-dominated interband transitions, suppressed interband $B(E2)$, and Coriolis-induced signature inversion are in complete harmony with an unfavored signature partner coupled to a triaxial/$\gamma$-soft $^{132}\text{Ce}$ core.
-2. **Rank 2 (Plausible high-spin perturbation)**: **Band crossing and quasiparticle realignment**. Around $I = 21/2^-$, the sudden increase in $B(E2)$ and anomaly in $\delta$ indicates a 3-quasiparticle alignment ($\nu h_{11/2} \otimes \pi h_{11/2}^2$ or similar) crossing the single-quasiparticle band.
-3. **Rank 3 (Decisively falsified)**: **Single-phonon wobbling excitation**. The wobbling hypothesis is ruled out by the $M1$ multipolarity of the connecting lines, the collapse of $\hbar\omega_w$, the dual-signature composition, and the suppression of $B(E2,\text{out})/B(E2,\text{in}) < 0.1$.
+1. **Working candidate**: **Unfavored signature partner/TiP-like interpretation**. The workbook-derived pattern is compatible with small-$|\delta|$ links, branch-dependent staggering and suppressed selected $E2$ ratios, but the response-aware joint analysis has not yet been run.
+2. **Competing explanation**: **Band crossing and quasiparticle realignment**. The high-spin rows contain broad or incomplete mixing-ratio information and may reflect configuration changes; this requires a frozen transition ledger.
+3. **Disfavored conditional hypothesis**: **Simple one-phonon wobbling excitation**. The current reconstruction does not provide the expected clean combination of a single branch, stable phonon spacing and enhanced connecting $E2$, but it is not a publication-grade falsification until response, covariance and holdout checks are complete.
 
 ## L4 Readiness & Epistemic Boundaries
 
