@@ -1,0 +1,4 @@
+axis_index,axis_name,deformation_beta2,asymmetry_gamma_deg,hydrodynamic_formula,moment_of_inertia_hbar2_per_MeV,inverse_moment_1_per_J,separatrix_critical_energy_arb
+1,short (s),0.22,25.0,4*B*beta2^2*sin^2(gamma - 2pi/3),0.5,2.0,0.5
+2,intermediate (m),0.22,25.0,4*B*beta2^2*sin^2(gamma - 4pi/3),1.0,1.0,0.5
+3,long (l),0.22,25.0,4*B*beta2^2*sin^2(gamma),0.2857,3.5,0.5

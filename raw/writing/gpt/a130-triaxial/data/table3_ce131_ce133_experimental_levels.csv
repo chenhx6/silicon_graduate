@@ -1,0 +1,7 @@
+nucleus,N_neutron,band_label,bandhead_spin,bandhead_parity,bandhead_energy_keV,quasiparticle_configuration,facility_array,reference_citation
+131Ce,73,Band 1 (yrast),11/2,-,266.3,nu h_11/2 [523] 7/2-,CIAE HI-13 Tandem / Compton Suppressed Ge,Alwaleedi 2017 PRC
+131Ce,73,Band 2 (yrare),13/2,-,640.2,nu h_11/2 [523] 7/2- (signature partner),CIAE HI-13 Tandem,Alwaleedi 2017 PRC
+131Ce,73,Band 3,9/2,-,164.0,nu h_11/2 [532] 5/2-,CIAE HI-13 Tandem,Alwaleedi 2017 PRC
+133Ce,75,Band 1 (yrast),9/2,-,37.1,nu h_11/2 [514] 9/2- (hole-like),iThemba LABS / AFRODITE array,Ayangeakaa 2016 PRC
+133Ce,75,Band 2 (yrare),11/2,-,362.4,nu h_11/2 [514] 9/2- (signature partner),iThemba LABS / AFRODITE array,Ayangeakaa 2016 PRC
+133Ce,75,Band 3 (wobbling candidate),13/2,-,778.6,Coupled signature band / TiP candidate,iThemba LABS / AFRODITE array,Ayangeakaa 2016 PRC

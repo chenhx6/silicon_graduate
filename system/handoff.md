@@ -3,6 +3,14 @@ graph-excluded: true
 updated: 2026-11-04
 ---
 
+## Active checkpoint — 2026-11-04：Casten 译本最终精修
+
+- `seniority` 保留为英文非常规术语，已从序言、正文和目录中移除“资深数”强译。
+- 修复逐页转录造成的续句断段、图表插入位置和部分跨页段落连接；图表标题改为居中排版。
+- 最终精修 PDF：`raw/books/translations/Nuclear_Structure_From_A_Simple_Perspective_中文译本_A4_电脑阅读版_最终修订.pdf`
+- 最终精修 PDF：367 页、A4、三级书签、162 个图像对象、2258 个内部链接；无缺字、无未定义引用、无 overfull box、无占位图标记。
+- SHA-256：`1a9a1028ed033d1cfb58cec58eefec1ab1f0c24b38fa6a5e79366848aa462678`。
+
 ## Active checkpoint — 2026-11-04：Jouni Suhonen《From Nucleons to Nucleus》book-to-skill 交付
 
 - 完成 `.agents/skills/suhonen-microscopic-nuclear-theory/` 技能包的系统构建与补齐，覆盖 `SKILL.md`、`glossary.md`、`patterns.md`、`cheatsheet.md` 以及 6 张核心章节卡片：

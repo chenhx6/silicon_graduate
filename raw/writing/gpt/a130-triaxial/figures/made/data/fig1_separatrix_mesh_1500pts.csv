@@ -1,4 +1,4 @@
-phi_rad,theta_rad,Mx,My,Mz,Energy_arb,is_separatrix_critical_level
+phi_rad,theta_rad,Mx,My,Mz,Energy_arb,is_separatrix_contour
 -3.1416,0.1,-0.0998,-0.0,0.995,1.7425,False
 -3.1416,0.2014,-0.2001,-0.0,0.9798,1.72,False
 -3.1416,0.3029,-0.2983,-0.0,0.9545,1.6833,False

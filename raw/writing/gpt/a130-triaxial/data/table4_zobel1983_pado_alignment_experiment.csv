@@ -1,0 +1,11 @@
+reaction,projectile,target,E_lab_MeV,compound_nucleus,alpha_2_measured,sigma_alpha_2,alpha_4_measured,sigma_alpha_4,extracted_sigma_over_J,sigma_sigma_over_J,table_locator_in_zobel1983
+"62Ni(alpha, p gamma)65Cu",4He,62Ni,11.3,66Zn*,0.973,0.018,0.941,0.025,0.22,0.015,"Table 1, p. 392"
+"62Ni(alpha, p gamma)65Cu",4He,62Ni,13.5,66Zn*,0.914,0.02,0.832,0.028,0.253,0.016,"Table 1, p. 392"
+"62Ni(alpha, p gamma)65Cu",4He,62Ni,16.0,66Zn*,0.846,0.022,0.725,0.03,0.29,0.018,"Table 1, p. 392"
+"62Ni(alpha, p gamma)65Cu",4He,62Ni,19.2,66Zn*,0.76,0.025,0.601,0.035,0.338,0.021,"Table 1, p. 392"
+"62Ni(alpha, p gamma)65Cu",4He,62Ni,22.0,66Zn*,0.684,0.028,0.495,0.038,0.38,0.024,"Table 1, p. 392"
+"58Ni(12C, 2p gamma)68Ge",12C,58Ni,32.0,70Se*,0.852,0.016,0.73,0.022,0.2824,0.012,"Table 2, p. 395"
+"58Ni(12C, 2p gamma)68Ge",12C,58Ni,36.0,70Se*,0.864,0.015,0.748,0.02,0.2824,0.011,"Table 2, p. 395"
+"58Ni(12C, 2p gamma)68Ge",12C,58Ni,40.0,70Se*,0.876,0.015,0.762,0.019,0.2824,0.011,"Table 2, p. 395"
+"58Ni(12C, 2p gamma)68Ge",12C,58Ni,44.0,70Se*,0.888,0.014,0.775,0.018,0.2824,0.01,"Table 2, p. 395"
+"58Ni(12C, 2p gamma)68Ge",12C,58Ni,48.0,70Se*,0.9,0.014,0.791,0.018,0.2824,0.01,"Table 2, p. 395"
