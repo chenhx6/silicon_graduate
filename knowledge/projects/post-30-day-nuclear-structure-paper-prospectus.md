@@ -41,7 +41,7 @@ tags: [paper-prospectus, nuclear-structure, evidence-gate, l3, l4-readiness]
 | P3 | `135Nd/134Pr` partner-resolved absolute EM benchmark | 绝对 `B(E2)`/`B(M1)`、寿命、crossing、γ-softness 与手征/混合竞争解释 | L3/L4 candidate；多条寿命证据已有，矩阵和共同协方差未闭合 | 同一 state mapping 下的完整 EM 矩阵、寿命 producer、feeding/systematic covariance |
 | P4 | Cross-mass octupole evidence ladder | 直接 E3、E1 网络、交替宇称和 PES 形变之间的证据等级与静态/动态边界 | synthesis/data-map candidate；144/146Ba、220Rn/224Ra、208Pb与132Sn已有锚点 | 逐条 primary locator、统一跃迁方向/单位、分支归一、共同系统误差和更多多态 E3 |
 | P5 | P-ADO shared-alignment null falsifier | 用Zobel 1983同一跃迁十行真实表格检验跨reaction共享`σ/J`的可识别性 | 有真实表格结果；方法学新颖性和外部文献差异仍需审计 | projectile-family分层、原始Cov/coverage或feeding-aware公开输入 |
-| P6 | `131Ce/133Ce` collective-mode identifiability boundary | 结合中期报告iThemba LABS PR295与CIAE HI-13数据，用连接线`δ`/偏振、寿命和NuclearMap PES先验区分三轴集体模式 | L3+ 统一合成完成；确立 N=73(γ振动)到 N=75(签名伙伴/进动)演化，证伪 133Ce 摆动（M1占优77%-97%，BE2比<0.1），确立共享质子回弯与 N=75 同中子素链刚性化 | 逐线`δ`/偏振、partner寿命/`B(E2)`/`B(M1)`、直接133Ce微观PES与统一协方差 |
+| P6 | `131Ce/133Ce` collective-mode identifiability boundary | 结合中期报告 iThemba LABS PR295、CIAE HI-13 数据和 NuclearMap 邻核先验，用连接线 `δ`/偏振、寿命和响应合同区分三轴集体模式 | L3+ 条件性合成完成；`133Ce` 私有 workbook 派生量不支持简单单声子 wobbling，但尚不能确立 signature partner/TiP，也不能把 N=73→N=75 演化或共享质子回弯写成实验结论 | 逐线 `δ`/偏振、partner 寿命/`B(E2)`/`B(M1)`、直接 `133Ce` 微观 PES、producer lineage、holdout 与统一协方差 |
 | P7 | Full-library claim calibration and epistemology ledger | 全库50+核心文献在实验事实、模型计算与作者解释之间的语言与证据边界校准 | 知识治理/方法学prospectus；自审账本已建立 | 逐篇历史source的动词重审、定位校准与独立性反证核查 |
 
 ## Candidate 1: 135Pr common-response evidence audit
@@ -223,7 +223,7 @@ Zobel 1983 表格包含同一实验室在不同能量下的测量系列，需按
 - Alwaleedi 2013 博士论文 ([[alwaleedi-2013-band-structures-131ce]]): 建立 $^{131}\text{Ce}$ Bands 1–7 骨架（但存在 $\delta=0$ 条件假设）；
 - NuclearMap JCNP PC-PK1 PES 先验 ([[nuclearmap-jcnp-pc-pk1]]): 提供 $^{132}\text{Ce}$ 与 $^{134}\text{Ce}$ 的微观三轴能面先验；
 - 私有分析工作簿逐单元格反演研究笔记 ([[133ce-private-data-wobbling-vs-signature-reconstruction-20261101]]): 从 iThemba PR295 私有工作簿（`wobbling frequency.xlsx`、`intensity.xlsx`）复原了关键电磁跃迁比率与签名反转参数，确立 $B(E2)_{\text{out}}/B(E2)_{\text{in}} < 0.1$、$M1$ 占优（$77\%\text{--}97\%$）及 $\hbar\omega_w$ 在两 signature 分支间错动超 $240\text{ keV}$ 并降入负值（$-15.5\text{ keV}$）。
-- 131Ce 与 133Ce 统一三轴集体模式与同中子素演化研究笔记 ([[ce131-ce133-unified-triaxial-collective-modes-20261101]]): 统一综合 CIAE HI-13 ($^{131}\text{Ce}$) 与 iThemba PR295 ($^{133}\text{Ce}$) 数据，揭示 $N=73\to N=75$ 费米面由 $\nu h_{11/2}[523]7/2^-$ 上移至 $[514]9/2^-$ 顶端，驱动激发带由 $\gamma$ 振动声子耦合（$\gamma\otimes e$）演变为具有 $2\hbar$ 进动分量的 unfavored signature partner 带；证实两核共享 $\omega_c\approx 0.30\text{--}0.32\text{ MeV}/\hbar$（$\Delta i_x\approx 9\hbar$）的 $(\pi h_{11/2})^2$ 质子对回弯；结合 $N=75$ 同中子素链（$^{131}\text{Ba}\to {}^{133}\text{Ce}\to {}^{135}\text{Nd}$）确立三轴刚性化动力学。
+- 131Ce 与 133Ce 统一三轴集体模式与同中子素演化研究笔记 ([[ce131-ce133-unified-triaxial-collective-modes-20261101]]): 该页给出 CIAE HI-13 与 iThemba PR295 的条件性跨核素综合，提出 $N=73\to N=75$ 费米面和组态演化假设；邻核 PES、私有 workbook 派生量和质子回弯趋势均需 response、producer、绝对 EM 和 holdout 进一步验证，不能写成直接确立的三轴刚性化动力学。
 
 ### Competing Hypotheses
 1. 低自旋 signature partner 与高自旋带交叉组态混合；
@@ -240,7 +240,7 @@ Zobel 1983 表格包含同一实验室在不同能量下的测量系列，需按
 必须在分析中区分瞬发符合窗（`g45/g90` prompt m4b arrays）与未切瞬发窗符合谱（`gg/hgg/vgg`）；严格记录几何立体角修正与符合效率矩阵。
 
 ### Falsifiers (证伪判据)
-当前对私有工作簿的逐单元格反演已达成直接证伪：新建立带到 yrast 带的低自旋连接跃迁（$582, 465\text{ keV}$）测得 $B(E2)_{\text{out}}/B(E2)_{\text{in}} = 0.063(25)$ 与 $0.088(33)$，皆 $<0.1$，且混合比 $|\delta| \le 0.55$（$M1$ 强度占比 $77\%\text{--}97\%$），跨带 $B(M1)/B(E2) \approx 0.25\text{--}0.47\ \mu_N^2/(e^2 b^2)$；同时计算的 $\hbar\omega_w$ 在两个 signature 分支间产生超 $240\text{ keV}$ 的剧烈错动并在 $27/2^-$ 降为负值（$-15.5\text{ keV}$）。这在定量上直接证伪了“单声子 wobbling 模式”假说，明确裁决该带为三轴核芯耦合下的 $\nu h_{11/2}$ unfavored signature partner 带，且在 $I=19/2^-\text{--}21/2^-$ 经历 Coriolis 诱发的 signature inversion。高自旋段若观测到强电四极跃迁（$B(E2) > 30\text{ W.u.}$）且伴随交替宇称双重态，则支持非对称三轴集体转动。
+当前私有 workbook 的逐单元格反演给出：582、465 keV 连接线的派生 \(B(E2)_{\rm out}/B(E2)_{\rm in}\) 为 `0.063(25)` 和 `0.088(33)`，中心混合比为小 \(|\delta|\) 且 M1 占优；同时 workbook-derived \(\hbar\omega_w\) 在两个 signature 分支间明显不稳定。这些结果在当前 workbook、门条件和未闭合 response/covariance 合同下条件性不支持简单单声子 wobbling，但不能单独裁决 signature partner、TiP 或 configuration mixing。高自旋段若获得独立强 E2 与 holdout，才可能进一步更新模式排序。
 
 ### Stop Conditions (停止条件)
 在未获得 $^{133}\text{Ce}$ 真实直接微观 PES、ROOT 原始事件树及符合时间响应展开前，不得虚构事件级计数或宣称已完成正式 L4 科学发现；保持受控 L3/partial-L4 准备度。
