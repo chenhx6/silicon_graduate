@@ -16,7 +16,7 @@ tags: [in-beam-spectroscopy, lifetime-measurement, rdds, plunger, ddcm, b-e2, pi
 ### Definition and Phenomenological Origin
 
 The Recoil Distance Doppler-Shift (RDDS) or plunger method is the definitive experimental technique for measuring excited nuclear state lifetimes in the range $\tau \sim 1 - 200\text{ ps}$.
-In an in-beam experiment, compound nuclei recoil from a thin target at velocity $v = \beta c$ ($\beta \sim 1\% - 4\%$) towards an adjustable metallic stopper foil separated by distance $d$.
+In an in-beam experiment, compound nuclei recoil from a thin target at velocity $v = \beta c$ ($\beta \sim 1\% - 4\%$) towards an adjustable metallic stopper foil separated by distance $d$. The local CLI preset is a synthetic demonstration and does not represent a stored plunger acquisition.
 
 Based on 吴治华《原子核物理实验方法》第 15 章 §15.2 (pp. 430–445), 汪晓莲《粒子探测技术》第 5 章, A. Dewald et al. (Z. Phys. A 334, 163, 1989), and A. Dewald et al. (Prog. Part. Nucl. Phys. 67, 786, 2012):
 The measured $\gamma$-ray spectrum exhibits two resolved Doppler components:
@@ -36,8 +36,7 @@ $$\tau(d) = \frac{1}{v} \cdot \frac{1 - R(d)}{\frac{dR(d)}{dd}}$$
 where $R(d) = \frac{I_u(d)}{I_u(d) + I_s(d)}$ is the normalized stopped-peak intensity ratio.
 
 ### 2. Plateau Region Arbitration & B(E2) Extraction
-In the sensitive flight domain where $0.15 \le R(d) \le 0.85$, $\tau(d)$ forms a horizontal plateau strictly independent of feeding delays.
-The weighted average plateau lifetime $\bar{\tau}$ yields model-independent transition observables:
+In the sensitive flight domain where $0.15 \le R(d) \le 0.85$, a valid input may show a plateau in $\tau(d)$. A weighted average plateau lifetime can be transformed into conditional derived quantities only after gates, response, stopping, feeding, distance calibration, and covariance are checked.
 - **Transition Rate**: $T(E2) = 1 / \bar{\tau}$ [$\text{s}^{-1}$];
 - **Reduced Transition Probability**:
   $$B(E2; I \to I-2) = \frac{1}{1.225 \times 10^{13} \cdot E_{\gamma}^5 \cdot \bar{\tau}} \quad [e^2\text{b}^2] \quad (E_\gamma \text{ in MeV, } \bar{\tau} \text{ in s})$$
@@ -51,21 +50,31 @@ The weighted average plateau lifetime $\bar{\tau}$ yields model-independent tran
 The Python analysis suite integrates `in_beam_rdds_ddcm_lifetime_inverter.py`, accessible via:
 
 ```bash
-# Benchmark 1: 134Ce 2+_1 -> 0+ (409 keV) plunger measurement (beta = 0.0210)
+# Synthetic demonstration 1: 134Ce-like 2+_1 -> 0+ fixture (beta = 0.0210)
 python3 system/scripts/analysis/nuclear_analyzer.py rddsddcm --preset 134Ce_2plus_rdds_plunger
 
-# Benchmark 2: 128Cs chiral bandhead 9+ (280 keV) plunger lifetime (beta = 0.0185)
+# Synthetic demonstration 2: 128Cs-like 9+ fixture (beta = 0.0185)
 python3 system/scripts/analysis/nuclear_analyzer.py rddsddcm --preset 128Cs_chiral_bandhead_lifetime
 
-# Benchmark 3: Short-lived rapid decay limit (tau ~ 3.2 ps)
+# Synthetic demonstration 3: short-lived-state fixture
 python3 system/scripts/analysis/nuclear_analyzer.py rddsddcm --preset rapid_decay_short_lifetime_limit
 ```
 
-### Benchmark Validation: $^{134}\text{Ce}$ $2_1^+ \to 0^+$ ($409.0\text{ keV}$)
+### Derived-from-synthetic-counts example: $^{134}\text{Ce}$-like $2_1^+ \to 0^+$ ($409.0\text{ keV}$)
 - Recoil velocity $v = 6.296\ \mu\text{m/ps}$ ($\beta = 0.0210$);
 - Evaluates $R(d)$ across 8 distances ($12 - 350\ \mu\text{m}$);
-- Plateau region ($R \in [0.21, 0.87]$, 5 distances) extracts lifetime $\bar{\tau} = 14.92 \pm 0.04\text{ ps}$;
-- Deduces collective quadrupolarity $B(E2) = 0.4780\ e^2\text{b}^2$ ($123.8\text{ W.u.}$) and intrinsic quadrupole moment $Q_0 = 4.90\ e\text{ b}$.
+- Plateau region ($R \in [0.21, 0.87]$, 5 synthetic distances) gives a derived lifetime $\bar{\tau} = 14.92 \pm 0.04\text{ ps}$;
+- The same synthetic counts give derived $B(E2) = 0.4780\ e^2\text{b}^2$ ($123.8\text{ W.u.}$) and derived $Q_0 = 4.90\ e\text{ b}$. These are not measurements for $^{134}$Ce.
+
+If no valid plateau points remain after the stated gate and response checks, the analysis must return `not-ready` and withhold lifetime, $B(E2)$, and $Q_0$ values.
+
+## Evidence boundary
+
+The preset is `data_kind: synthetic_ddcm_demo`. Its stopped and shifted counts are embedded
+fixtures, not archived spectra or fitted peak areas. The outputs are
+`derived-from-synthetic-counts`. A source-backed experimental result requires raw spectra,
+distance calibration, stopped/shifted peak fits, gate purity, stopping and feeding treatment,
+and a covariance or uncertainty contract.
 
 
 ## Necessary Assumptions
@@ -89,7 +98,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py rddsddcm --preset rapid_deca
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本 Wiki 将该页面作为 DDCM 方法和证据边界的说明；本地 preset 只提供
+`synthetic_ddcm_demo`，不作为核素实验事实或论文级绝对跃迁量来源。
 
 
 ## Sources

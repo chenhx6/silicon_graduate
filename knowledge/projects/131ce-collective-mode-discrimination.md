@@ -294,7 +294,7 @@ The formal Day7 report initially over-read the Table 4.4 “Band 4” grouping a
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| CMD131-D19-1 | 加权线性拟合 Singh 2016 Table 1 中 $^{131}\text{Ce}$ 带 1 在 $23/2^-$ 至 $35/2^-$ 范围内的 4 个有限四极矩数据点，得到加权平均值 $Q_t = 2.579 \pm 0.099\text{ eb}$，其随自旋变化的斜率严格为 $-0.030 \pm 0.047\text{ eb}/\hbar$（显著性 $z = -0.639\sigma$）。斜率在 $1\sigma$ 统计区间内完全与零相容，断然排除了正常形变态在发生带交叉前存在剧烈离心拉伸或集体性塌缩的假说，确立了法向形变集体性的自旋不变性基准。对比 Petrache 1998 测得的独立高度形变带（$Q_0 = 7.3 \pm 0.4\text{ eb}, \beta_2 \approx 0.38$），其形变扩张达 $2.831 \pm 0.187$ 倍（带内 $B(E2)$ 增强超 8 倍）；由于势能垒阻隔（$\Delta V \sim 1.0\text{--}1.5\text{ MeV}$），HD 带在 $23/2\hbar$ 处发生统计隧穿衰变而缺乏分立退激连接。基于香农信息增益模型确立了未来实验鉴别优先律：测量带 1 与带 4 之间 6 条分立连接线（505, 538, 611, 871, 994, 1108 keV）的多极混合比 $\delta$ 与线偏振具有最高信息增益（$\Delta H \approx 1.85\text{ bits}$），远高于单纯追加正常带寿命测量（$0.35\text{ bits}$），为最终裁决该核是否具备手征或摇摆提供了最优观测路线。 | quantitative-audit-and-criterion | derived-and-source-boundary | Singh 2016 Table 1; Petrache 1998 Table 1; ce131-collective-discrimination-result-048.json | true |
+| CMD131-D19-1 | 加权线性拟合 Singh 2016 Table 1 的 4 个有限四极矩数据点得到平均值 $Q_t = 2.579 \pm 0.099\text{ eb}$、斜率 $-0.030 \pm 0.047\text{ eb}/\hbar$（$z=-0.639$）；中心斜率与零相容，但没有排除带交叉、侧馈送或未建模系统误差，不能升级为正常形变集体性的自旋不变性定理。与 Petrache 1998 的高度形变带比较只说明不同数据集之间存在尺度差异；HD--ND 连接和隧穿机制仍未由这些输入直接闭合。Shannon 信息增益结果只是声明模型下的设计 toy，用于排序候选观测量，不是实验功效或已验证的最优机时方案。 | quantitative-audit-and-boundary | derived-and-source-boundary | Singh 2016 Table 1; Petrache 1998 Table 1; ce131-collective-discrimination-result-048.json | true |
 
 
 ## checkpoint102：131Ce四极矩斜率检验力重审与K约定边界

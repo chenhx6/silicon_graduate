@@ -1,5 +1,12 @@
 # A≈130 论文数据体系全景与防作假审计手册 (Master Data Provenance Manual)
 
+> **WITHDRAWN / historical audit only.** This package is not a submission source
+> and its bundled tables and derived claims are not admitted as current evidence.
+> The provenance layout is retained to document how the omnibus draft mixed
+> direct measurements, model outputs, toy calculations and private workbook
+> quantities. Use the narrower P-ADO package for the current public-data paper
+> candidate and the `133Ce` project for the separate private-data route.
+
 **论文题目**：*Triaxial Collective Excitations across the $A \approx 130$ Region: Resolving the Frontiers of Nuclear Chirality and Wobbling*
 **拟投期刊**：*Physical Review C* (Regular Article)
 **数据体系架构**：严格区隔 `data/`（原始基准铁律）与 `figures/made/data/`（插图特定渲染数据）双层体系。

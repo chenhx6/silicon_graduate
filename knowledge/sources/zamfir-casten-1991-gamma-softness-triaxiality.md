@@ -107,7 +107,7 @@ Physics Letters B 260 (1991) 265-270。PDF 正文完整，共 6 页。
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| ZC91-D19-1 | 准 $\gamma$ 振动带能级交错参数 $S(4,3,2) = \{[E(4_2^+) - E(3_1^+)] - [E(3_1^+) - E(2_2^+)]\} / E(2_1^+)$ 构成分离 $\gamma$-软核与刚性三轴核的解析分水岭：在 Wilets-Jean / O(6) $\gamma$-软性极限下，能级形成 $(2^+), (3^+, 4^+), (5^+, 6^+)$ 成对排布，$S(4,3,2) = -2.00$；而在 Davydov-Filippov $\gamma = 30^\circ$ 刚性转子极限下，能级形成 $(2^+, 3^+), (4^+, 5^+)$ 相反成对，$S(4,3,2) = +1.67$。对 A≈130 区域 7 个代表性 Xe 与 Ba 偶偶核的普查表明，所有被测同位素的 $S(4,3,2)$ 均处于 $[-1.01, -0.42]$ 负值区间，100% 落在 $\gamma$-软性盆地；进一步联合第二 $2_2^+$ 态的电磁分支比 $B(E2; 2_2^+ \to 0_1^+) / B(E2; 2_2^+ \to 2_1^+)$ 检验，实测值（$^{128}\text{Xe}$ 处为 $0.023(5)$）相对刚性转子预测值（$2/11 \approx 0.1818$）受到接近 8 倍的强烈压制，证实了 $\Delta\tau = 2$ 禁戒选择定则，确立了 A≈130 偶偶核芯普遍具有平坦 $\gamma$-软势能面的本性，为该区手征与摇摆激发的动态脆弱性提供了核芯基础。 | quantitative-audit-and-criterion | derived-and-source-boundary | PLB 260, 265 pp.1-4; Eqs.(2)-(5); gamma-soft-rigid-watershed-result-041.json | true |
+| ZC91-D19-1 | 在 Wilets--Jean/O(6) 与 Davydov--Filippov 理想极限下，$S(4,3,2)$ 的符号和能级成对方式不同；A≈130 偶偶样本的任务算术在声明的样本和自旋范围内落在负值区间，支持 gamma-soft-like 的谱学背景，但不能单独确立普遍平坦势能面、唯一 O(6) 对称性或奇 A 核 wobbling/chirality 的稳定性。$^{128}$Xe 分支比与刚性转子参考值的差异属于附加比较，仍需保留矩阵元、分支和模型适用性边界。 | quantitative-audit-and-source-boundary | derived-and-source-boundary | PLB 260, 265 pp.1-4; Eqs.(2)-(5); gamma-soft-rigid-watershed-result-041.json | true |
 
 ## Day 21 Checkpoint 020 证据门量化审计：S(4) 刚软分水岭与相位反转
 

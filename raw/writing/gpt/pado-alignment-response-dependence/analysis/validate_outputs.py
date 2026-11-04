@@ -12,6 +12,12 @@ profile = json.loads((ROOT / "analysis" / "results" / "alignment-profile.json").
 coverage = json.loads((ROOT / "analysis" / "results" / "coverage.json").read_text())
 coverage_grid = json.loads((ROOT / "analysis" / "results" / "coverage-grid.json").read_text())
 profile_coverage = json.loads((ROOT / "analysis" / "results" / "profile-coverage.json").read_text())
+response_map = json.loads(
+    (ROOT / "analysis" / "results" / "response-map-validation.json").read_text()
+)
+influence = json.loads(
+    (ROOT / "analysis" / "results" / "influence-checks.json").read_text()
+)
 
 fits = profile["fits_at_rho_center"]
 assert set(fits) == {"shared", "family", "energy", "mixture"}
@@ -29,6 +35,8 @@ assert len(coverage_grid["rho_misspecified_to_zero"]) == 35
 assert coverage["empirical_fraction_mc_se"] > 0.0
 assert profile_coverage["n_toys_per_true_rho"] == 1000
 assert profile_coverage["observed_profiled_max_d2"] > 20.0
+assert abs(profile_coverage["observed_profile_rho"] - 0.64) < 0.021
+assert profile_coverage["toy_value_count"] == 3000
 assert all(
     profile_coverage["profiled_max_d2_quantiles"][str(rho)]["0.95"]
     < profile_coverage["observed_profiled_max_d2"]
@@ -38,4 +46,8 @@ matched = [x["coverage_at_q95_2d"] for x in coverage_grid["matched_covariance"]]
 misspecified = [x["coverage_at_q95_2d"] for x in coverage_grid["rho_misspecified_to_zero"]]
 assert min(matched) > 0.60
 assert min(misspecified) < 0.56
+assert all(check["passed"] for check in response_map["checks"])
+assert influence["full_table"]["profiled_max_d2"] > 20.0
+assert influence["range_leave_one_out_profiled_max_d2"][0] > 15.0
+assert influence["range_leave_one_out_profiled_max_d2"][1] < 25.0
 print("P-ADO manuscript output validation passed.")

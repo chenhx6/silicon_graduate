@@ -7527,3 +7527,45 @@ u}$ zero-crossing detection;
   - `wiki_lint.py` 严格校验全库 1,351 个页面，保持 **0 ERRORS**；
   - 单元测试套件 635 项测试全部通过（100% OK）；
   - `git diff --cached --check` 保持 0 错误。
+
+## 2026-11-05 full-library audit and P-ADO article convergence
+
+本轮完成了用户要求的三条主线的一次完整推进：全库高风险措辞/模型输出审计、A≈130 研究动机与创新路线收敛、公开 benchmark 论文包修订。
+
+### 论文主线
+
+- 当前主稿为 `raw/writing/gpt/pado-alignment-response-dependence/`，定位已收紧为：面向在束 gamma 角分布的 alignment-transfer / coverage audit workflow，加上公开 `67Ga` 表格的条件性校准案例。
+- 论文不再声称新的 alignment theory、首次发现 reaction dependence、event-level likelihood、实验 p-value、真实 feeding fraction 或 A≈130 某个核素的模式终局裁决。
+- 统计合同明确为 independent-row Gaussian、固定 quoted marginal errors、block-diagonal row covariance、common-rho sensitivity profile、十个 row vector 作为 BIC sample units。
+- `profile_coverage.py` 已逐 toy 重复 `min_rho max_row_D2`，保存 raw toy values、bootstrap quantile intervals、输入/脚本 SHA-256 与 Python/NumPy/SciPy 版本。
+- 新增 `validate_response_map.py`，独立重放 Der Mateosian--Sunyar 1974 `J=23/2, sigma/J=0.2` attenuation row；新增 `influence_checks.py`，leave-one-row-out profiled statistic 为 `15.81--24.44`，仅作描述性影响控制。
+- `main.pdf` 最终为 6 页 A4 双栏；当前 compile record 记录最新 SHA-256 和视觉检查；作者、机构、永久 DOI、许可证、公共归档和 paper-level claim review 仍是未完成门。
+- EPJ A 与 Springer Nature 官方投稿/LaTeX 页面已归档至 `raw/papers/gpt/query/20261105-epja-submission-guidelines/`；EPJ-hosted ZIP 返回 HTTP 403，已在 manifest 记录访问边界。
+
+### Wiki 与模型审计
+
+- 收紧了 gamma-soft/gamma-rigid synthesis、三轴统一 synthesis、131Ce/133Ce blueprint、133Ce private workbook note、135Pr Hessian/TiP note、跨质量区 wobbling transfer note、Ding 2021 signature-splitting audit、Wang 2006 Cs audit、lifetime/Q_t audit、time-differential method 和 gamma-vibrational model contract 中的“证明/确立/彻底排除/硬边界/完整相图”表述。
+- 旧 `raw/writing/gpt/a130-triaxial/` omnibus 稿件、README、DATA_PROVENANCE 和 LaTeX 已显式标为 withdrawn historical failure case；不再作为当前文章结构或数值事实源。
+- 模型/analysis P0 修复已由代理直接实施：synthetic fixtures 不再输出 `Production`、`gold-standard`、`CONFIRMED` 或 `ready for publication`；pipeline、RDDS/DDCM 和 chiral selection 输出改为 demonstration/derived/screening 状态并携带 evidence boundary；回归文档明确绿灯不是物理验证。
+
+### 已通过验证
+
+- `wiki_lint.py --fail-on error`: 0 errors（warnings/info 保留）。
+- `wiki_boundary_check.py --root .`: ok=true。
+- `wiki_archive_gate.py check --root . --changed`: ok=true；legacy receipt 列表仍是历史提示，不是本轮失败。
+- `wiki_automation_preflight.py --root .`: ok=true；protected BibTeX baseline matched。
+- `system/scripts/analysis/test_analysis_suite.py`: regression checks passed。
+- `nuclear_analyzer.py selftest`: regression checks passed，并明确输出不是 scientific certification。
+- P-ADO `validate_outputs.py`、Python compile、图件重生成、Tectonic 编译、PDF 6 页视觉检查均通过。
+- `clean_knowledge_eol_dirty.py --dry-run` 保留 20 个 substantive knowledge modifications，未发现可安全恢复的行尾伪脏状态。
+
+### 当前未完成
+
+- 仍需作者提供真实署名、通讯作者、机构、最终数据权限、许可证、永久公共 DOI，并完成 P0/P1 paper-use claim review。
+- P-ADO source covariance、cross-row dependence、raw event counts、detector response 和 feeding-aware likelihood 仍不可得；稿件必须维持 conditional table-level boundary。
+- 133Ce 仍为 private/local-only secondary route，缺 event list、producer covariance、完整 polarization/absolute lifetime inputs 和 holdout，不能并入公开主稿。
+- full least-favorable profile calibration across all nuisance cells and an independent public control (e.g. Ionescu 1981) remain useful pre-submission upgrades, but are not silently claimed as complete in the current manuscript.
+
+### Resume point
+
+先复核最终 `git diff`，显式暂存本轮文件（不得使用 `git add .`），执行 commit 前的 lint/boundary/archive/preflight/diff checks；然后提交并按仓库授权推送 `HEAD:main`，最后做 post-commit reconciliation and stable handoff update。

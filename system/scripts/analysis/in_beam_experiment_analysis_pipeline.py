@@ -6,9 +6,9 @@ Unified In-Beam Experimental Nuclear Spectroscopy Pipeline & Data Analysis Workb
 
 Physics & Experimental Architecture:
 ------------------------------------
-This master pipeline integrates the full scientific chain of experimental nuclear spectroscopy,
-enabling researchers to pull the repository onto any laboratory machine and execute end-to-end
-data reduction and model diagnostics:
+This demonstration pipeline combines several analytical components for source-summary replay,
+synthetic fixtures, and caller-supplied derived inputs. It is not a raw event-level reduction
+producer and does not certify experimental or publication results:
 
   Stage 1: Entrance Channel Reaction Kinematics & Residue Optimization
            - Calculates E_cm, Coulomb barrier V_B0, and Wong fusion cross section.
@@ -77,14 +77,24 @@ def run_full_in_beam_pipeline(
     background_counts: float = 0.0,
     candidate_mode: str = "wobbling",
     E_2plus_core_keV: Optional[float] = None,
-    B_E2_core_e2_b2: Optional[float] = None
+    B_E2_core_e2_b2: Optional[float] = None,
+    data_kind: str = "synthetic_or_source_summary_replay"
 ) -> Dict[str, Any]:
     """
-    Executes the full end-to-end experimental nuclear spectroscopy pipeline.
+    Executes a demonstration-derived analysis chain.
+
+    Presets are synthetic or source-summary replay inputs. They do not carry raw event
+    data, detector response, feeding covariance, or a paper-level evidence gate.
     """
     pipeline_report = {
-        "pipeline_version": "1.0-Production",
-        "candidate_mode": candidate_mode
+        "pipeline_version": "1.0-demonstration-derived",
+        "candidate_mode": candidate_mode,
+        "data_kind": data_kind,
+        "evidence_boundary": [
+            "Preset and caller inputs are derived or source-summary values, not raw event data.",
+            "Outputs are conditional calculations and screening diagnostics.",
+            "Experimental claims require source locators, response, feeding, covariance, and independent observables."
+        ]
     }
 
     # 1. Reaction Kinematics & Fusion Evaporation
@@ -143,10 +153,10 @@ def run_full_in_beam_pipeline(
             diag_summary["delta_root2"] = r2
             if r1 is not None and abs(r1) < 1.0 and r2 is not None and abs(r2) < 1.0:
                 diag_summary["e2_dominance_check"] = "FAILED (Both roots have |delta| < 1 => M1 dominates!)"
-                diag_summary["wobbling_verdict"] = "RULLED OUT as pure wobbling phonon; attributed to single-particle precession or gamma-vibrational coupling (Nomura IBFM / Lawrie TiP)."
+                diag_summary["wobbling_verdict"] = "conditional-candidate-screen: pure wobbling branch disfavored by both small-|delta| roots; competing TiP/configuration explanations remain."
             else:
                 diag_summary["e2_dominance_check"] = "PASS / AMBIGUOUS (Contains |delta| > 1 root; independent polarization required)."
-                diag_summary["wobbling_verdict"] = "Candidate Transverse Wobbling retained pending linear polarimetry."
+                diag_summary["wobbling_verdict"] = "conditional-candidate-screen: a large-|delta| branch remains; independent polarization and source-level response checks are required."
     elif candidate_mode == "chiral":
         diag_summary["chiral_criteria"] = "Twin bands require identical parity, Delta_E(I) -> 0, and B(M1)/B(E2) odd-even staggering."
 
@@ -199,7 +209,7 @@ def format_text_report(pipe: Dict[str, Any]) -> str:
         s3 = pipe["stage3_angular_distribution_delta"]
         lines.extend([
             f" [STAGE 3] ANGULAR DISTRIBUTION & MULTIPOLE MIXING RATIO DUAL ROOTS:",
-            f"   Transition Assignment       : {s3['initial_spin_Ii']} -> {s3['final_spin_If']} (Experimental a_2 = {s3['a2_measured']:.4f})",
+            f"   Transition Assignment       : {s3['initial_spin_Ii']} -> {s3['final_spin_If']} (Preset/source-summary a_2 = {s3['a2_measured']:.4f})",
             f"   Algebraic Roots for delta   : Root 1 = {s3['root1_small_magnitude']:.4f},  Root 2 = {s3['root2_large_magnitude']:.4f}",
             f"   Root 1 E2 Fraction          : {s3['root1_E2_percentage']:.1f}% E2",
             f"   Root 2 E2 Fraction          : {s3['root2_E2_percentage']:.1f}% E2",
@@ -249,7 +259,7 @@ def format_text_report(pipe: Dict[str, Any]) -> str:
 
     lines.extend([
         "=" * 76,
-        "   PIPELINE EXECUTION COMPLETE: Data validated and ready for thesis / paper publication.",
+        "   PIPELINE DEMONSTRATION COMPLETE: derived output; source/raw/response review required before experimental or paper use.",
         "=" * 76
     ])
     return "\n".join(lines)
@@ -257,20 +267,19 @@ def format_text_report(pipe: Dict[str, Any]) -> str:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Unified In-Beam Experimental Nuclear Spectroscopy Pipeline"
+        description="Demonstration-derived in-beam spectroscopy analysis chain"
     )
     parser.add_argument("--preset", type=str, default="135Pr_wobbling_audit",
                         choices=["135Pr_wobbling_audit", "134Pr_chiral_audit", "163Lu_tsd_wobbling"],
-                        help="Benchmark experiment preset")
+                        help="Synthetic or source-summary replay preset")
     parser.add_argument("--json", action="store_true", help="Output pure JSON")
 
     args = parser.parse_args()
 
     if args.preset == "135Pr_wobbling_audit":
         # 14N (Z=7, A=14) + 124Sn (Z=50, A=124) -> 138Pr* -> 135Pr + 3n at 65 MeV
-        # Gated 726.5 keV 17/2- -> 15/2- transition
-        # Experimental a2 = -0.18 (Matta 2015 / Sensharma 2019)
-        # DSAM F(tau) = 0.55
+        # Source-summary replay input; not a raw event-level reanalysis.
+        # 726.5 keV, a2 and F(tau) remain conditional preset values.
         res = run_full_in_beam_pipeline(
             Z_p=7, A_p=14, Z_t=50, A_t=124, E_lab_MeV=65.0,
             E_gamma_keV=726.5, detector_angle_deg=90.0, opening_angle_deg=8.0,

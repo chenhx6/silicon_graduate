@@ -101,6 +101,23 @@ profile-preserving toy 中，对 true \(\rho=-0.6,0,0.6\) 重复同一 \(\rho\)�
 block-diagonal/common-\(\rho\) Gaussian 合同下的条件性校准，不能替代真实
 event-level covariance 和 feeding-aware likelihood。
 
+2026-11-05 增加了两个可复现门：
+
+- `validate_response_map.py` 独立重放 Der Mateosian--Sunyar 1974
+  \(J=23/2,\sigma/J=0.2\) 表格行，计算
+  \((\alpha_2,\alpha_4)=(0.894266204,0.689096079)\)，与表中
+  \((0.894266,0.689096)\) 的绝对差小于 \(5\times10^{-7}\)。这是有限-\(J\)
+  Gaussian 约定的数值交叉核对，不是 Zobel 探测器响应或 feeding 的验证。
+- `profile_coverage.py` 现在把每个 toy 的
+  \(\min_{\rho}\max_iD_i^2\) 写入 `profile-coverage-toys.csv`，并记录
+  bootstrap Monte Carlo 区间、输入/脚本 SHA-256 和 Python/NumPy/SciPy
+  版本。观测 profile 的最小点仍为 \(\rho=0.64\)；profile 统计量的 toy
+  校准仍只适用于固定的 block-diagonal/common-\(\rho\) 合同。
+- `influence_checks.py` 对十个表格行逐一执行 leave-one-row-out profile；
+  当前未校准的 \(T_{\mathrm{prof}}\) 范围为 \(15.81\)--\(24.44\)。这只说明
+  当前 fixture 的大残差不由单个行数值主导，不改变缺失 cross-row covariance
+  和 row-specific \(\rho_i\) 的证据边界。
+
 ## Planned tests
 
 1. Rebuild the ten-row fixture from the original Table 1 and correct reaction/
@@ -158,7 +175,10 @@ raw event counts、detector response 和真实 feeding model 尚未提供。
 
 ## Next Actions
 
-1. Complete family-wise coverage and covariance sensitivity;
-2. add a feeding-aware negative-control model;
-3. freeze the EPJA claim-to-source map and Data Availability Statement;
+1. Complete the remaining source-lineage and author-level review of the
+   conditional claims;
+2. retain the feeding-aware negative control as weakly identified and do not
+   interpret its coefficients as measured feeding fractions;
+3. freeze the EPJA claim-to-source map, AI declaration and Data Availability
+   Statement after author metadata and a permanent archive are supplied;
 4. run a final manuscript self-audit before any paper-level user review.

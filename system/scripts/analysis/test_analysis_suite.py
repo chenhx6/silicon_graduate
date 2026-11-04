@@ -1311,7 +1311,7 @@ def test_chiral_geometry_tac_calculator():
 
     # Chiral doublet criteria
     audit = evaluate_chiral_doublet_criteria(delta_energy_keV=42.0, bm1_in_over_out=1.1, be2_band1_over_band2=1.05, I_spin=12.0)
-    assert audit["verdict"] == "ROBUST_CHIRAL_DOUBLET_CONFIRMED", "Should pass 4/4 chiral criteria"
+    assert audit["score"] == "4/4", "Derived test fixture should pass all heuristic criteria"
     print("  ✓ chiral_geometry_tac_calculator passed.")
 
 
@@ -1921,7 +1921,9 @@ def test_in_beam_experiment_analysis_pipeline():
         Z_p=7, A_p=14, Z_t=50, A_t=124, E_lab_MeV=65.0,
         E_gamma_keV=726.5, a2_exp=-0.18, F_tau_exp=0.55
     )
-    assert res["pipeline_version"] == "1.0-Production"
+    assert res["pipeline_version"] == "1.0-demonstration-derived"
+    assert res["data_kind"] == "synthetic_or_source_summary_replay"
+    assert res["stage6_mode_diagnostic"]["wobbling_verdict"].startswith("conditional-candidate-screen")
     assert res["stage1_entrance_reaction"]["Wong_cross_section_mb"] > 800.0
     assert abs(res["stage4_lifetime_dsam"]["tau_ps"] - 0.677) < 0.05
     assert "delta_root1" in res["stage6_mode_diagnostic"]
@@ -2052,6 +2054,9 @@ def test_chiral_selection_rules():
     b2 = [{"I": 12, "B_M1_muN2": 0.7, "B_E2_e2b2": 0.4}, {"I": 13, "B_M1_muN2": 1.3, "B_E2_e2b2": 0.4}, {"I": 14, "B_M1_muN2": 0.6, "B_E2_e2b2": 0.4}]
     res = arbitrate_chiral_selection_rules(b1, b2, [{"I": 13, "B_M1_inter_muN2": 0.05}])
     assert res["phase_match_fraction"] == 1.0
+    assert res["heuristic_score_pct"] == 100.0
+    assert res["selection_rule_verdict"] == "selection-rule-screening-pass"
+    assert res["confidence_score_pct"] is None
     print("  ✓ chiral_doublet_selection_rules_m1_staggering_arbitrator passed.")
 
 
@@ -2364,7 +2369,7 @@ def test_chiral_octupole_quartet():
     n1 = [2050.0, 2440.0, 2890.0, 3400.0, 3970.0]
     n2 = [2115.0, 2500.0, 2945.0, 3450.0, 4015.0]
     res = evaluate_quartet_properties(spins, p1, p2, n1, n2)
-    assert res["is_chiral_octupole_confirmed"] is True
+    assert res["quartet_confidence_percent"] >= 65.0
     print("  ✓ chiral_octupole_quartet_bands_analyzer passed.")
 
 
@@ -2385,7 +2390,7 @@ def test_chiral_gfactor_equality():
     theo = calculate_theoretical_chiral_gfactor(128, 55, 11.0, 5.5, 5.5)
     assert theo["g_chiral_theoretical"] > 0.40
     arb = arbitrate_chiral_gfactor_equality(0.58, 0.04, 0.56, 0.05)
-    assert arb["status"] == "chiral_equality_confirmed"
+    assert arb["sigma_discrepancy"] <= 1.0
     print("  ✓ chiral_doublet_g_factor_equality_calculator passed.")
 
 

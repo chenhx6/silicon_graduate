@@ -1,32 +1,38 @@
-# GPT 辅助前沿核物理学术手稿库 (GPT Scientific Writing Hub)
+# GPT 辅助学术手稿库
 
-本目录归档由 Wiki 知识中枢深入研读全域藏书、对账实验数据后产出的正式学术期刊论文投稿包。
+这里保存论文工作包、可复现分析、图件和数据 provenance。目录中的文件按
+论文证据门维护；本地编译通过不等于作者已经批准投稿。
 
----
+## 当前主线
 
-## 1. 论文主页：$A \approx 130$ 三轴形变与集体激发模式
+[`pado-alignment-response-dependence/`](pado-alignment-response-dependence/) 是
+当前最成熟的单点论文候选，主题是公开 \(^{67}\mathrm{Ga}\) 表格上的
+P-ADO alignment-response transfer 与 profile-preserving coverage audit。
+它目前是 EPJ A Regular Article 的 `partial/not-ready` 候选，结论严格限于
+声明的 independent-row Gaussian、固定边际误差和 common-\(\rho\) 合同。
+文章不提供 event-level likelihood、实验 p-value、真实 feeding fraction 或
+A≈130 某个核素的模式裁决。
 
-### 基本信息
-- **论文题目**：*Triaxial Collective Excitations across the $A \approx 130$ Region: Resolving the Frontiers of Nuclear Chirality and Wobbling*
-- **拟投期刊**：*Physical Review C* (Regular Article)
-- **论文路径**：[`a130-triaxial/`](a130-triaxial/)
-- **核心成果**：
-  1. **理论求和规则**：建立三轴相空间极值、中间主轴双曲鞍点分离线拓扑与 Greiner 三态求和恒等式 $E(2_1^+) + E(2_2^+) \equiv E(3_1^+)$；
-  2. **双根偏振破简并**：利用 Clover 康普顿散射线偏振度（$P = -0.18(6)$）在 $>10.5\sigma$ 置信度下彻底证伪 $^{135}\text{Pr}$ 的大模摆动根，确立其为单粒子旋称伙伴带；
-  3. **绝对电磁手征基准**：基于 $^{135}\text{Nd}$ 与 $^{134}\text{Pr}$ 实测寿命，验证 Koike-Starosta-Hamamoto (KSH) 手征选择定则（带内 $B(M1)$ 奇偶交错 $S_{M1}(I)$ 100% 同相吻合，简并点带间 $\Delta I=0$ 的 $M1$ 跃迁深极小 $<0.05\ \mu_N^2$）；
-  4. **费米面微观演化**：阐明 $^{131}\text{Ce} \to {}^{133}\text{Ce}$ 费米面从中壳向顶壳移动引发的 Coriolis 阻尼与手征/摆动模式退化机制；
-  5. **P-ADO 束流族判据**：通过极小极大马氏距离求解，证实重离子 $^{12}\text{C}$ 熔合蒸发注入稳态取向流（$\tau=0.74 < 1.0$），而轻离子 $\alpha$ 束退取向破缺（$\tau=2.16 > 1.0$）。
+[`133ce-response-aware-collective-mode-identifiability/`](133ce-response-aware-collective-mode-identifiability/)
+是第二条核结构路线。它依赖私有 iThemba 数据、producer lineage、响应协方差
+和独立 holdout，当前保持 local-only、partial-L4，不能把私有数据写成公开数据。
 
----
+## 历史失败案例
 
-## 2. 成果文件清单
+[`a130-triaxial/`](a130-triaxial/) 是已撤回的 omnibus 草稿，只用于保存失败
+模式、来源谱系和审计记录。它把多个核素、模型输出、toy calculation 和私有
+workbook-derived 数值混在一篇稿件中；其中的“证明”“彻底排除”“\(>10\sigma\)”
+等旧表述不属于当前证据库，不能作为事实源、投稿稿件或新图的输入。
 
-| 文件/目录 | 格式 | 说明 |
-|---|---|---|
-| [`a130-triaxial/main.pdf`](a130-triaxial/main.pdf) | PDF (1.5 MB) | **正式双栏出版级预印本（点击可直接在线阅读）** |
-| [`a130-triaxial/main.tex`](a130-triaxial/main.tex) | LaTeX | Physical Review C (RevTeX 4.2) 投稿源码 |
-| [`a130-triaxial/references.bib`](a130-triaxial/references.bib) | BibTeX | 42 篇核心同行评议文献数据库 |
-| [`a130-triaxial/DATA_PROVENANCE.md`](a130-triaxial/DATA_PROVENANCE.md) | Markdown | **防作假实验数据溯源手册**（详尽标明所有数据点原始文献、表号与公式） |
-| [`a130-triaxial/data/`](a130-triaxial/data/) | CSV 数据 | **原始基准数据（不可动铁律·文章主要依据·唯一公开数据集）** |
-| [`a130-triaxial/figures/made/`](a130-triaxial/figures/made/) | Python / CSV | 绘图工程主目录（脚本与临时辅助缓存 `made/data/`，可有可无，非文章依赖数据） |
-| [`a130-triaxial/figures/`](a130-triaxial/figures/) | PDF / PNG | 出版级矢量图 (`figures/pdf/`) 与在线预览图 (`figures/png/`) |
+对应的长期说明见
+[`knowledge/projects/triaxial-collective-excitations-a130-manuscript.md`](../../knowledge/projects/triaxial-collective-excitations-a130-manuscript.md)
+和
+[`knowledge/research-notes/a130-triaxial-writing-package-audit-20261105.md`](../../knowledge/research-notes/a130-triaxial-writing-package-audit-20261105.md)。
+
+## 文件规则
+
+- 文章直接可公开的数据放在各主题目录的 `data/`；
+- 绘图及中间缓存放在 `figures/made/data/` 或分析结果目录，并注明其派生性质；
+- 原始论文、来源页、哈希和权限边界按 Wiki 的 research-archive 工作流维护；
+- `main.pdf` 只表示本地编译产物；作者信息、许可证、永久 DOI 和最终措辞仍须
+  通过论文级证据门。

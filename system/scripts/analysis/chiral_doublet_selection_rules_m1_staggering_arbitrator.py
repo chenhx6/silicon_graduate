@@ -50,8 +50,9 @@ import numpy as np
 
 PRESETS = {
     "128Cs_chiral_doublet_benchmark": {
-        "description": "128Cs landmark chiral partner bands (Grodner 2006, Koike 2004)",
+        "description": "128Cs published-strength-derived hardcoded fixture (Grodner 2006, Koike 2004)",
         "nucleus": "128Cs",
+        "data_kind": "published-strength-derived-hardcoded-fixture",
         "band1": [
             {"I": 12, "E_level_keV": 2250.0, "B_M1_muN2": 0.85, "B_E2_e2b2": 0.42},
             {"I": 13, "E_level_keV": 2580.0, "B_M1_muN2": 1.45, "B_E2_e2b2": 0.40},
@@ -73,8 +74,9 @@ PRESETS = {
         ]
     },
     "134Pr_chiral_doublet_benchmark": {
-        "description": "134Pr chiral doublet (Tonev 2006, Petrache 1996)",
+        "description": "134Pr published-strength-derived hardcoded fixture (Tonev 2006, Petrache 1996)",
         "nucleus": "134Pr",
+        "data_kind": "published-strength-derived-hardcoded-fixture",
         "band1": [
             {"I": 11, "E_level_keV": 2100.0, "B_M1_muN2": 0.65, "B_E2_e2b2": 0.35},
             {"I": 12, "E_level_keV": 2420.0, "B_M1_muN2": 1.25, "B_E2_e2b2": 0.34},
@@ -93,8 +95,9 @@ PRESETS = {
         ]
     },
     "135Nd_chiral_doublet_benchmark": {
-        "description": "135Nd composite chiral pair (Mukhopadhyay PRL 2007, Zhu PRL 2003)",
+        "description": "135Nd published-strength-derived hardcoded fixture (Mukhopadhyay PRL 2007, Zhu PRL 2003)",
         "nucleus": "135Nd",
+        "data_kind": "published-strength-derived-hardcoded-fixture",
         "band1": [
             {"I": 15.5, "E_level_keV": 3587.0, "B_M1_muN2": 2.50, "B_E2_e2b2": 0.32},
             {"I": 16.5, "E_level_keV": 4020.0, "B_M1_muN2": 2.20, "B_E2_e2b2": 0.32},
@@ -117,8 +120,9 @@ PRESETS = {
         ]
     },
     "spurious_out_of_phase_counterexample": {
-        "description": "Counterexample: planar bands with opposite B(M1) staggering phase",
+        "description": "Synthetic counterexample: planar bands with opposite B(M1) staggering phase",
         "nucleus": "Fake-Doublet",
+        "data_kind": "synthetic-test-fixture",
         "band1": [
             {"I": 12, "E_level_keV": 2000.0, "B_M1_muN2": 0.50, "B_E2_e2b2": 0.40},
             {"I": 13, "E_level_keV": 2400.0, "B_M1_muN2": 1.50, "B_E2_e2b2": 0.40},
@@ -218,28 +222,44 @@ def arbitrate_chiral_selection_rules(band1, band2, interband):
     total_score = phase_score + be2_score + inter_score
 
     if total_score >= 80.0:
-        verdict = "CONFIRMED_CHIRAL_SELECTION_RULES_SATISFIED"
+        verdict = "selection-rule-screening-pass"
     elif total_score >= 50.0:
-        verdict = "CANDIDATE_CHIRAL_DOUBLET_PLAUSIBLE"
+        verdict = "selection-rule-screening-conditional"
     else:
-        verdict = "REJECTED_PLANAR_OR_PSEUDO_CHIRAL_BAND"
+        verdict = "selection-rule-screening-fail"
 
     return {
         "staggering_comparison": staggering_comparison,
         "phase_match_fraction": float(phase_fraction),
         "mean_be2_discrepancy_pct": float(mean_be2_diff * 100.0),
         "min_interband_bm1_muN2": float(min_inter_bm1),
-        "confidence_score_pct": float(total_score),
-        "selection_rule_verdict": verdict
+        "heuristic_score_pct": float(total_score),
+        "confidence_score_pct": None,
+        "selection_rule_verdict": verdict,
+        "evidence_boundary": (
+            "Heuristic screening of caller-supplied strengths. Hardcoded presets are "
+            "published-strength-derived or synthetic fixtures; no raw spectra, source "
+            "locators, covariance, configuration proof, or independent geometry evidence "
+            "is inferred."
+        )
     }
 
 
-def run_chiral_selection_analysis(nucleus, band1, band2, interband):
+def run_chiral_selection_analysis(
+    nucleus,
+    band1,
+    band2,
+    interband,
+    data_kind="published-strength-derived-hardcoded-fixture",
+    source_locator="preset source locator required before paper use",
+):
     """
     Complete execution pipeline for chiral selection rules arbitration.
     """
     res = arbitrate_chiral_selection_rules(band1, band2, interband)
     res["nucleus"] = nucleus
+    res["data_kind"] = data_kind
+    res["source_locator"] = source_locator
     return res
 
 
@@ -250,7 +270,9 @@ def format_text_report(res, title="Chiral Doublet Selection Rules & M1 Staggerin
     lines = []
     lines.append("=" * 76)
     lines.append(f"{title}")
-    lines.append(f"Nucleus: {nuc} | Selection Score = {res['confidence_score_pct']:.1f}% | Verdict: {res['selection_rule_verdict']}")
+    lines.append(f"Nucleus: {nuc} | Heuristic Screening Score = {res['heuristic_score_pct']:.1f}% | Verdict: {res['selection_rule_verdict']}")
+    lines.append(f"Data kind: {res.get('data_kind', 'caller-supplied-derived')}")
+    lines.append("Evidence boundary: screening output; not a chirality confirmation or confidence estimate.")
     lines.append("=" * 76)
     lines.append("Intra-Band B(M1) Staggering S_M1(I) In-Phase Comparison:")
     lines.append("  Spin I (hbar)   S_M1(Band 1)   S_M1(Band 2)    Phase Alignment Status")
@@ -268,9 +290,9 @@ def format_text_report(res, title="Chiral Doublet Selection Rules & M1 Staggerin
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Nuclear Chiral Doublet Selection Rules & M1 Staggering Arbitrator."
+        description="Chiral-doublet selection-rule screening on derived or synthetic fixtures."
     )
-    parser.add_argument("--preset", choices=list(PRESETS.keys()), help="Load experimental preset")
+    parser.add_argument("--preset", choices=list(PRESETS.keys()), help="Load published-strength-derived or synthetic fixture")
     parser.add_argument("--json", action="store_true", help="Output pure JSON")
     args = parser.parse_args()
 
@@ -288,7 +310,9 @@ def main():
         nucleus=nucleus,
         band1=b1,
         band2=b2,
-        interband=inter
+        interband=inter,
+        data_kind=p.get("data_kind", "caller-supplied-derived"),
+        source_locator=p.get("source_locator"),
     )
 
     if args.json:

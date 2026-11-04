@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "analysis_script": "/workspace/wiki/raw/writing/gpt/pado-alignment-response-dependence/analysis/validate_response_map.py",
+  "analysis_script_sha256": "08af401ef2775f7ad63f028a3901b7732b3d166960c017ee4e79a92bb009f083",
+  "response_implementation": "profile_alignment_models.alpha_prediction",
+  "checks": [
+    {
+      "id": "DA74-6",
+      "description": "finite-J Gaussian attenuation-table replay",
+      "spin_j": 11.5,
+      "r": 0.2,
+      "expected_alpha2_alpha4": [
+        0.894266,
+        0.689096
+      ],
+      "calculated_alpha2_alpha4": [
+        0.8942662041976023,
+        0.6890960786436691
+      ],
+      "absolute_difference": [
+        2.041976022715275e-07,
+        7.864366902143871e-08
+      ],
+      "tolerance": 5e-07,
+      "source": "knowledge/sources/der-mateosian-sunyar-1974-attenuation-coefficients.md",
+      "locator": "DA74-6; printed p.400 / PDF p.10, Table II, J=23/2, sigma/J=0.2",
+      "passed": true
+    },
+    {
+      "id": "finite-J-limit",
+      "description": "narrow-width complete-alignment limit",
+      "spin_j": 6.5,
+      "r": 0.02,
+      "expected_alpha2_alpha4": [
+        1.0,
+        1.0
+      ],
+      "calculated_alpha2_alpha4": [
+        1.0,
+        1.0
+      ],
+      "tolerance": 1e-12,
+      "source": "local analytical limit",
+      "locator": "Gaussian population concentrated at the minimum |m| substate under the declared normalization",
+      "passed": true
+    }
+  ],
+  "interpretation_boundary": [
+    "The external-table replay checks the finite-J Gaussian attenuation convention.",
+    "It does not validate the Zobel detector response, event counts, covariance, or feeding history.",
+    "The local narrow-width check is a mathematical limit, not an experimental result."
+  ]
+}

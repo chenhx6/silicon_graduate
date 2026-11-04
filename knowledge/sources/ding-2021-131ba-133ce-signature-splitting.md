@@ -176,7 +176,7 @@ configuration-constrained PES、cranked shell model（CSM）和 quasiparticle-pl
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| D21-D19-1 | 在 $N=75$ 同中子异位素（$^{133}\text{Ce}$ 与 $^{131}\text{Ba}$）中，强耦合带（$\nu g_{7/2}[404]7/2^+$）实测出交替的强旋称劈裂（$^{133}\text{Ce}$ 的 $S(11/2) \approx +29.0\text{ keV}$；$^{131}\text{Ba}$ 的 $S(11/2) \approx +52.8\text{ keV}$），其幅度达到奇 $Z$ 核 Ta/Re 质子 $g_{7/2}$ 类比带的 10 倍以上。理论审计证实该劈裂由三轴非轴性（$V_{\text{tri}} \propto \sin\gamma$）与近邻低-$j$ 轨道（$\nu s_{1/2}[400]1/2^+$，解耦参数 $a \approx 1$）的科里奥利混合共同驱动，且在能谱上形成连续的单参数简并山谷：实测 $S(11/2) = 29.0\text{ keV}$ 既可由中等形变加全科里奥利耦合（$\gamma = 10^\circ, \xi = 0.92$）精确复现，亦可由大三轴形变加重度衰减耦合（$\gamma = 26^\circ, \xi = 0.0$）复现。因此，仅凭能级旋称劈裂无法独立反演三轴形变 $\gamma$。打破该简并的排他观测量为跃迁几率比 $B(M1)/B(E2)$：纯三轴转子导致平滑的 $B(M1)/B(E2) \approx 0.23\ (\mu_N/e\text{b})^2$；而 $s_{1/2}$ 轨道的大自旋回转因子（$g_s = -3.826$）在科里奥利混合下必然引发 $>3.5$ 倍的 $B(M1)/B(E2)$ 奇偶交错震荡（$0.42 \text{ vs } 0.11$）。 | quantitative-audit-and-criterion | derived-and-source-boundary | PRC 104, 064304 pp.9-12; Figs.5,8-9; signature-splitting-coriolis-result-039.json | true |
+| D21-D19-1 | 在 $N=75$ 同中子异位素（$^{133}\text{Ce}$ 与 $^{131}\text{Ba}$）中，实测旋称劈裂可由不同的三轴性与邻近低-$j$ 轨道 Coriolis mixing 组合在所选 CSM/QTR 参数化下共同再现；该结果说明仅凭能级旋称劈裂不能唯一反演 $\gamma$。$B(M1)/B(E2)$ 可作为进一步区分的候选观测量，但其具体幅度和交错形式属于模型预测，不能写成必然或排他判据。 | quantitative-audit-and-boundary | derived-and-source-boundary | PRC 104, 064304 pp.9-12; Figs.5,8-9; signature-splitting-coriolis-result-039.json | true |
 
 ## Day23：稿本、正式版与学位论文的装置和模型输入交叉核查
 

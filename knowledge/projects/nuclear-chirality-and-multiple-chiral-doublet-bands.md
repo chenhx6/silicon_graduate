@@ -497,7 +497,7 @@ REFLECT persistence decision: keep this final corpus synthesis inside the projec
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| MCHD-D19-1 | 在 Nd 同位素链中，$^{135}\text{Nd}$ 提供了手征双重带寿命与跃迁率完全对称的黄金基准（双带寿命比 $\sim 1.08$，带内 $B(M1)$ 比 $\sim 0.97$，带内 $B(E2)$ 比 $\sim 0.88$，带间 $B(E2_{\text{out}})/B(E2_{\text{in}})$ 从 $0.14$ 跃增至 $0.50$），确立了从手征振动向静态手征进动的完整相变演化。反观 $^{137}\text{Nd}$ M$\chi$D 候选带，弱带 D3 与 D6 缺少带内 $\Delta I = 2$ 跨能级跃迁（带内 $B(M1)/B(E2)$ 实验测量点为零），且全带无寿命测量；其实测约 $2\hbar$ 的对齐差 $\Delta i_x$ 在微观上兼具手征振动与单粒子重排的双重解释可能。建立多重手征核的充要条件必须达到 $^{135}\text{Nd}$ 级别的双带绝对寿命与跃迁强度闭环。 | quantitative-synthesis-and-criterion | derived-and-source-boundary | PRL 99, 172501; EPJA 56, 208; nd-chiral-evolution-result-042.json | true |
+| MCHD-D19-1 | 在 Nd 同位素链中，$^{135}\text{Nd}$ 的寿命与跃迁率数据为手征双重带解释提供较强电磁比较基准（双带寿命比、带内 $B(M1)$ 与 $B(E2)$ 比值见原始数据）；这些比值支持从手征振动到较稳定手征解释的连续图像，但不能单独证明完整相变。$^{137}\text{Nd}$ 的弱带缺少寿命和部分带内跃迁，且约 $2\hbar$ 的对齐差可由手征振动或单粒子重排解释。这里的比较是条件性证据矩阵，不是多重手征核的充要条件。 | quantitative-synthesis-and-source-boundary | derived-and-source-boundary | PRL 99, 172501; EPJA 56, 208; nd-chiral-evolution-result-042.json | true |
 
 
 ## Day19量化审计：手征选择定则四支柱门禁、临界频率涌现与反相交错定理
@@ -505,7 +505,7 @@ REFLECT persistence decision: keep this final corpus synthesis inside the projec
 > checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
 
 
-[[koike-2004-chiral-bands-selection-rules]] KOIKE04-D19-2 确立了核手征性领域判决双重带几何性质的四支柱黄金门禁：
+[[koike-2004-chiral-bands-selection-rules]] KOIKE04-D19-2 提供了理想模型下比较双重带几何的四个候选维度；这些选择定则和经验阈值需要与具体的自旋、组态、响应、寿命和绝对强度一起使用，不能当作脱离模型的黄金门禁：
 1. **$\mathcal{A}$ 算符代数与电磁选择定则**：在理想三轴哈密顿量下，带内与带间跃迁满足严格的 $\mathcal{A}$ 宇称选择定则，导致同态跨带 $E2$ 禁戒、异态跨带 $M1$ 极大增强；
 2. **带内/带间 $M1$ 反相奇偶交错定理**：由于左右手隧穿宇称本征态的交替二分，双带内 $B(M1; I \to I-1)$ 呈现出严格 $180^\circ$ 的反相交错振荡；
 3. **三轴度偏离泄漏定律**：偏离 $\gamma = 30^\circ$ 引发禁戒跃迁强度按 $\sim \sin^2(30^\circ - \gamma)$ 泄漏（$\gamma = 20^\circ$ 处达 $3.02\%$）；

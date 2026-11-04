@@ -7,6 +7,10 @@ updated: 2026-11-01
 
 # Wiki Index
 
+## 当前投稿合规来源
+
+- [[epja-submission-guidelines-20261105]] — EPJ A 投稿页与 Springer Nature LaTeX 支持页的归档核查；仅用于格式、声明、数据/代码可用性和模板 provenance，不是科学证据。
+
 ## 核心专著深度吸收与核结构专家级综合资产 (2026-11-02)
 
 - [[book-corpus-coverage-ledger]] — **馆藏书籍全量盘点、逐页可读性审计与 318 单元研读队列**：递归核实 `raw/books/` 全部 33 个独立 PDF（共 12,076 个物理页），分类标出纯图像/需 OCR 页面、提取警告页，对账既有阅读凭据，撤回以模块数或单页提取充当全书已读的历史声明。

@@ -9,7 +9,7 @@ review_status: unreviewed
 tags: [triaxiality, nuclear-chirality, chiral-doublets, selection-rules, m1-staggering, interband-m1, 128cs]
 ---
 
-# Nuclear chiral doublet electromagnetic selection rules, in-phase B(M1) staggering and inter-band M1 transition suppression
+# Nuclear chiral doublet electromagnetic selection-rule screening, in-phase B(M1) staggering and inter-band M1 transition suppression
 
 ## Definition
 
@@ -51,21 +51,35 @@ $$B(M1; \text{Band 2}(I) \to \text{Band 1}(I)) \xrightarrow{\Delta E \to 0} 0 \q
 The Python analysis suite integrates `chiral_doublet_selection_rules_m1_staggering_arbitrator.py`, accessible via:
 
 ```bash
-# Benchmark 1: 128Cs landmark chiral partner bands (Grodner 2006, Koike 2004)
+# Published-strength-derived fixture 1: 128Cs (Grodner 2006, Koike 2004)
 python3 system/scripts/analysis/nuclear_analyzer.py chirrules --preset 128Cs_chiral_doublet_benchmark
 
-# Benchmark 2: 134Pr chiral doublet (Tonev 2006)
+# Published-strength-derived fixture 2: 134Pr (Tonev 2006)
 python3 system/scripts/analysis/nuclear_analyzer.py chirrules --preset 134Pr_chiral_doublet_benchmark
 
 # Counterexample: Planar bands with out-of-phase M1 staggering
 python3 system/scripts/analysis/nuclear_analyzer.py chirrules --preset spurious_out_of_phase_counterexample
 ```
 
-### Benchmark Validation: $^{128}\text{Cs}$
-- $S_{M1}(I)$ exhibits 100% in-phase staggering between Band 1 and Band 2 across $I = 13 \dots 15\ \hbar$;
-- Mean intra-band $B(E2)$ difference is only $4.8\%$;
-- Inter-band $B(M1; \text{Band 2} \to \text{Band 1}, \Delta I=0)$ drops to $0.040\ \mu_N^2$ at the degeneracy point $I = 14\ \hbar$;
-- Final score: $100\%$, confirming `CONFIRMED_CHIRAL_SELECTION_RULES_SATISFIED`.
+### Derived fixture screening: $^{128}\text{Cs}$
+- The hardcoded fixture gives 100% in-phase agreement across the tested rows;
+- Mean fixture $B(E2)$ discrepancy is $4.8\%$;
+- The smallest fixture inter-band $B(M1)$ value is $0.040\ \mu_N^2$;
+- The output is a `heuristic_score_pct` and `selection-rule-screening-pass`, not a confidence estimate or chirality confirmation.
+
+## Evidence boundary
+
+The CLI presets are `published-strength-derived-hardcoded-fixture` values, while the
+counterexample is a `synthetic-test-fixture`. They are retained to test the arithmetic
+screening path. They do not load raw spectra, source tables, line-by-line locators,
+covariance, configuration assignments, or independent geometry observables.
+
+The source chain must keep experiment, author interpretation, and model result separate.
+Grodner's reported $B(E2)$/$B(M1)$ values are derived through lifetime, branching,
+side-feeding, and multipolarity assumptions. Koike's selection rule is a model result and
+does not by itself establish non-coplanar chiral geometry. Current outputs should be
+marked `derived` or `selection-rule-screening-pass`, with `needs_review: true` for
+paper-facing use.
 
 
 ## Necessary Assumptions
@@ -89,7 +103,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py chirrules --preset spurious_
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本 Wiki 将该页面作为选择规则和证据边界的说明。当前 CLI 只提供启发式筛选和
+测试 fixture，不自动裁决手征性，也不把硬编码或派生强度写成实验确认。
 
 
 ## Sources

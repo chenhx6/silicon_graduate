@@ -13,7 +13,7 @@ tags: [in-beam-spectroscopy, analysis-pipeline, heavy-ion-fusion, doppler-correc
 
 ## Definition
 
-In-beam $\gamma$-ray spectroscopy of excited nuclear states involves an intricate, multi-stage physical reduction pipeline bridging raw experimental detector observables to macroscopic collective models and microscopic shell-model wave functions. To ensure full reproducibility and enable researchers to pull the repository onto any laboratory machine for offline analysis, the **In-Beam Experimental Nuclear Spectroscopy Pipeline** integrates six standardized stages:
+In-beam $\gamma$-ray spectroscopy of excited nuclear states involves an intricate, multi-stage physical reduction pipeline bridging detector observables to collective-model diagnostics. The repository implementation is a demonstration and source-summary replay chain: its presets do not replace raw event sorting, detector-response calibration, feeding treatment, or a paper-level evidence review.
 
 1. **Stage 1: Reaction Entrance Kinematics & Evaporation Residue Planning**:
    Calculates center-of-mass energy $E_{\text{cm}}$, Coulomb barrier $V_{B0}$, Wong barrier penetration cross section $\sigma_{\text{fus}}^{\text{Wong}}$, and $xn$ residue optimal excitation energy windows (Module 99).
@@ -38,23 +38,23 @@ In-beam $\gamma$-ray spectroscopy of excited nuclear states involves an intricat
 ## Discriminating Observables
 
 1. **Multipole Mixing Ratio Dual Root Ambiguity**:
-   Demonstrates whether an experimental $a_2$ coefficient admits two divergent physical solutions (e.g. $|\delta_1| < 1$ with $M1$ dominance vs $|\delta_2| > 1$ with $E2$ dominance), mandating independent linear polarimetry or internal conversion measurements.
+   Demonstrates whether a supplied $a_2$ coefficient admits two divergent conditional solutions (e.g. $|\delta_1| < 1$ with $M1$ dominance vs $|\delta_2| > 1$ with $E2$ dominance), mandating independent linear polarimetry or internal conversion measurements before physical use.
 2. **Coincidence Peak FWHM Recovery**:
-   Tracks total observed peak width against detector ring angle, demonstrating the recovery of intrinsic HPGe resolution when moving from wide collimators to tracking array geometries.
-3. **Unified Publication-Grade JSON Receipt**:
-   All intermediate kinematic variables, inverted lifetimes, and diagnostic classifications are bundled into a single JSON schema.
+   Tracks supplied peak-width inputs against detector ring angle as a response-budget demonstration; it does not recover an experimental intrinsic resolution without calibrated data.
+3. **Derived Demonstration JSON Receipt**:
+   Intermediate kinematic variables, model inversions, and screening diagnostics are bundled into a JSON schema. The receipt is `demonstration-derived`; it is not a paper-level validation record.
 
 ## Supporting Evidence
 
-1. **$^{135}\text{Pr}$ Wobbling Controversy Audit Benchmark**:
+1. **$^{135}\text{Pr}$ Source-Summary Replay Fixture**:
    - Reaction: $^{14}\text{N} + {}^{124}\text{Sn} \to {}^{138}\text{Pr}^* \to {}^{135}\text{Pr} + 3n$ at $E_{\text{lab}} = 65\text{ MeV}$;
-   - Gated $726.5\text{ keV}$ ($17/2^- \to 15/2^-$) linking transition with experimental $a_2 = -0.180$;
+   - Preset $726.5\text{ keV}$ ($17/2^- \to 15/2^-$) and $a_2 = -0.180$ inputs; these are source-summary replay values, not a new raw event-level measurement;
    - Stage 1 yields Wong fusion cross section $\sigma_{\text{fus}} = 840.8\text{ mb}$, $\ell_{\text{crit}} = 31\ \hbar$;
    - Stage 2 gives Doppler shifted energy $E_{\text{lab}}(90^\circ) = 726.46\text{ keV}$, peak width $\text{FWHM} = 2.39\text{ keV}$;
    - Stage 3 inverts dual roots: $\delta_1 = 0.2530$ ($94.0\%$ $M1$ dominance) and $\delta_2 = 7.0361$ ($98.0\%$ $E2$ dominance);
-   - Stage 4 inverts DSAM lifetime $\tau = 0.6767\text{ ps}$ ($676.7\text{ fs}$);
-   - Stage 6 flags the dual root ambiguity: Root 1 confirms Nomura IBFM / Lawrie TiP $M1$ dominance, while Root 2 supports wobbling, proving why linear polarization is mandatory.
-2. **$^{134}\text{Pr}$ Chiral Doublet Audit Benchmark**:
+   - Stage 4 returns a derived DSAM lifetime $\tau = 0.6767\text{ ps}$ ($676.7\text{ fs}$) under the preset attenuation model;
+   - Stage 6 retains a conditional candidate screen: the two roots remain unresolved until independent polarization, response, feeding, and source-level checks are supplied.
+2. **$^{134}\text{Pr}$ Source-Summary Replay Fixture**:
    - Reaction: $^{11}\text{B} + {}^{128}\text{Te} \to {}^{139}\text{Pr}^* \to {}^{134}\text{Pr} + 5n$ at $60\text{ MeV}$;
    - Analyzes twin bands starting at $I_0 = 10^+$, testing energy splitting $\Delta E(I)$ and $B(M1)/B(E2)$ staggering.
 
@@ -65,9 +65,23 @@ In-beam $\gamma$-ray spectroscopy of excited nuclear states involves an intricat
 2. **Polarization Conventions**:
    Polarization asymmetries $A_{\text{pol}}$ must be matched to the exact phase convention of the $F$-coefficients (Rose-Brink vs Krane-Steffen) to prevent erroneous sign assignment for $\delta$.
 
+## Evidence boundary
+
+The CLI preset is `data_kind: synthetic_or_source_summary_replay`. It does not contain raw
+events, detector response, peak-fit covariance, side-feeding histories, or a reproducible
+joint likelihood. The $135$Pr source lineage must be read with
+[[matta-2015-transverse-wobbling-135pr]], [[sensharma-2019-two-phonon-wobbling-135pr]], and
+[[lv-2022-evidence-against-wobbling-135pr]]; those sources distinguish experiment, author
+interpretation, model output, and later counter-evidence. Values produced by this module should
+be marked `derived` or `conditional-candidate-screen`.
+
 ## Our Current Position
 
-In this wiki, the end-to-end experimental analysis workflow is orchestrated by Module 109 (`in_beam_experiment_analysis_pipeline.py`, CLI subcommand `pipeline`). The pipeline chains kinematics, Doppler broadening, DCO dual roots, DSAM lifetimes, deformation parameters, mode diagnostics, and Feldman-Cousins unified intervals into an automated, publication-ready analysis engine.
+In this wiki, Module 109 (`in_beam_experiment_analysis_pipeline.py`, CLI subcommand
+`pipeline`) is a demonstration-derived analysis chain. It combines kinematics, Doppler
+broadening, DCO dual roots, DSAM lifetime inversion, deformation transforms, mode diagnostics,
+and Feldman-Cousins intervals. It does not certify experimental facts, mode assignments, or
+publication readiness.
 
 ## Sources
 

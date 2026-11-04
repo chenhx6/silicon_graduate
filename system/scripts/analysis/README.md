@@ -33,7 +33,9 @@ pip install numpy scipy matplotlib
 # 4. 运行全套自检回归测试
 python3 system/scripts/analysis/nuclear_analyzer.py selftest
 ```
-若输出 `Regression checks passed.`，则表明 130+ 个物理分析子模块已在当前设备上完全就绪！
+若输出 `Regression checks passed.`，则表示当前测试输入下的
+`numerical-regression-passed`：代码路径、数值断言和接口回归通过。
+这不认证实验复现、物理适用性或论文就绪状态。
 
 ---
 
@@ -157,4 +159,6 @@ python3 system/scripts/analysis/nuclear_analyzer.py mwdblr \\
 # 运行全库单元测试套件
 python3 -m unittest discover -s system/tests
 ```
-测试覆盖了极端边界条件、简并点发散、物理守恒律、双根判据及真实高自旋在束文献数据，确保算法在任何设备上均保持数值精度与物理严密性。
+测试覆盖极端边界条件、简并点发散、代数不变量、双根判据以及部分预设输入。
+测试输出应理解为 `numerical-regression-passed`；手工构造、模拟或来源摘要输入产生的
+结果属于 `derived-test-fixture`，保留测试用途，不能单独作为实验事实、模型适用性或论文结论。

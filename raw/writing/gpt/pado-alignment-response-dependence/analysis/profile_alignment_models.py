@@ -11,15 +11,27 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 import math
+import platform
 from pathlib import Path
+import sys
 from typing import Callable
 
 import numpy as np
+import scipy
 from scipy.optimize import minimize
 
 Q95_2D = 5.991464547107979
+
+
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
 
 
 def read_rows(path: Path) -> list[dict]:
@@ -189,7 +201,7 @@ def fit_model(rows: list[dict], model: str, rho: float, j: float = 6.5) -> dict:
 def rho_profile(rows: list[dict], j: float) -> list[dict]:
     out = []
     # 0.02 spacing resolves the covariance profile minimum used in the paper.
-    for rho in np.linspace(-0.8, 0.8, 81):
+    for rho in np.round(np.linspace(-0.8, 0.8, 81), 12):
         for model in ("shared", "family", "energy", "mixture"):
             fit = fit_model(rows, model, float(rho), j)
             out.append(
@@ -217,6 +229,7 @@ def main() -> None:
     args = parser.parse_args()
 
     rows = read_rows(args.input)
+    input_path = args.input.resolve()
     fits = {}
     for model in ("shared", "family", "energy", "mixture"):
         fits[model] = fit_model(rows, model, args.rho, args.spin)
@@ -229,8 +242,11 @@ def main() -> None:
         )
     profiles = rho_profile(rows, args.spin)
     payload = {
-        "schema_version": 1,
+        "schema_version": 2,
         "input": str(args.input),
+        "input_sha256": sha256_file(input_path),
+        "analysis_script": str(Path(__file__)),
+        "analysis_script_sha256": sha256_file(Path(__file__)),
         "input_kind": "public normalized Table 1 benchmark; not raw spectra",
         "rho_contract": {
             "rho_center": args.rho,
@@ -246,6 +262,12 @@ def main() -> None:
             "alpha_map": "finite-J tensor-polynomial average implemented in alpha_prediction",
         },
         "spin": args.spin,
+        "environment": {
+            "python": sys.version.split()[0],
+            "platform": platform.platform(),
+            "numpy": np.__version__,
+            "scipy": scipy.__version__,
+        },
         "fits_at_rho_center": fits,
         "rho_profile": profiles,
         "interpretation_boundary": [

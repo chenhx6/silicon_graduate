@@ -9,21 +9,9 @@
   "permanent_archive": "not assigned",
   "files": [
     {
-      "path": "raw/writing/gpt/pado-alignment-response-dependence/data/zobel83_958_table1.csv",
-      "sha256": "c323f12a7ec31a205e528e5b26db07301d53a2fb6f8f7c3ef2fa65bd7c06eed0",
-      "size": 1370,
-      "release_role": "candidate-public"
-    },
-    {
-      "path": "raw/writing/gpt/pado-alignment-response-dependence/data/README.md",
-      "sha256": "81b0ae78ec3cc31ac36f95f56401e91c99cbd14b3d619b2e7689521cd1baabd8",
-      "size": 1156,
-      "release_role": "candidate-public"
-    },
-    {
-      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/profile_alignment_models.py",
-      "sha256": "b64498a172a2efce45921d564373a8559bdff401e6a2f61690c2caff4835b3ba",
-      "size": 9690,
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/PUBLIC_RELEASE.md",
+      "sha256": "17d608036fc73e3668fa68ae552668736ca3010ad0f8da41788371638957c1ff",
+      "size": 2439,
       "release_role": "candidate-public"
     },
     {
@@ -39,21 +27,39 @@
       "release_role": "candidate-public"
     },
     {
-      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/profile_coverage.py",
-      "sha256": "30b4b4a5b8e44d62e2b95a1b4819c70f9e73216d7c341c02ecbb3075617d448d",
-      "size": 4049,
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/influence_checks.py",
+      "release_role": "candidate-public",
+      "sha256": "11cfeea90264edd0c516f7aed1f9a1927afb5badcc1a47958222206fa4e3ebb7",
+      "size": 3760
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/profile_alignment_models.py",
+      "sha256": "5095f22fb51dc1b9a86b823467c2684c4d47e3416263831ff32a1c77483b0ebe",
+      "size": 10394,
       "release_role": "candidate-public"
     },
     {
-      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/validate_outputs.py",
-      "sha256": "e6930483b230343d5ec177db1a96dfacc51830d7385257cfc49b3bb276876f3b",
-      "size": 1932,
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/profile_coverage.py",
+      "sha256": "cf17a490e3f573059f427173e8daa98f05896ee2194027b355ed109670b2c1b0",
+      "size": 6503,
       "release_role": "candidate-public"
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/alignment-profile.json",
-      "sha256": "396b5d8b380ef5c1f28e47c05074cc4449c85f0e77bb7d3f949201778e201c15",
-      "size": 132552,
+      "sha256": "4af86091f9c1632e0a34cea833d4462e4b615fa337261107f0822d4ba4ef8815",
+      "size": 130330,
+      "release_role": "candidate-public"
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/compile-record.json",
+      "release_role": "candidate-public",
+      "sha256": "4835ad63a78475f02634bccd5df748a0c98f24c4b0c1c44287cce518966736cd",
+      "size": 915
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/coverage-grid.json",
+      "sha256": "029bd44187241fff89e51137bbac4f7d25351467bf2793a06bb43b67b01d4802",
+      "size": 20523,
       "release_role": "candidate-public"
     },
     {
@@ -63,21 +69,63 @@
       "release_role": "candidate-public"
     },
     {
-      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/coverage-grid.json",
-      "sha256": "029bd44187241fff89e51137bbac4f7d25351467bf2793a06bb43b67b01d4802",
-      "size": 20523,
-      "release_role": "candidate-public"
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/influence-checks.json",
+      "release_role": "candidate-public",
+      "sha256": "d6da76c89f7bdca5c84e6813fa912f60d08120a21c9c075adca553bbad4ae57b",
+      "size": 3401
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage-toys.csv",
+      "release_role": "candidate-public",
+      "sha256": "46995c0c8bf6ba7b66f3ac9b844d9430972b6e52952b93e5c476074670ac05f2",
+      "size": 79437
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage.json",
-      "sha256": "e8b77d058b8470f4d98969fc639d4fdd0ceece48348dd11153dedb86ffb9d492",
-      "size": 2987,
+      "sha256": "22f0ec513e0d2dcddf3b67336768f26300032601a4db4e01ec26216f14026d19",
+      "size": 3370,
       "release_role": "candidate-public"
     },
     {
-      "path": "raw/writing/gpt/pado-alignment-response-dependence/figures/made/generate_figures.py",
-      "sha256": "31be0def5204f1a9b0644631a0935ef9a5465e800ed9b600a8f517638a203421",
-      "size": 3878,
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/response-map-validation.json",
+      "release_role": "candidate-public",
+      "sha256": "76aed5f52e90c1a9e800868d9f1c2d298d954d78934bda096a43274c2b4bb688",
+      "size": 1777
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/validate_outputs.py",
+      "sha256": "b21e894feae30155c2075372c836820e7acadab42a401fca9cd6ca1be05f7bc8",
+      "size": 2514,
+      "release_role": "candidate-public"
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/validate_response_map.py",
+      "release_role": "candidate-public",
+      "sha256": "08af401ef2775f7ad63f028a3901b7732b3d166960c017ee4e79a92bb009f083",
+      "size": 3639
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/data/README.md",
+      "sha256": "81b0ae78ec3cc31ac36f95f56401e91c99cbd14b3d619b2e7689521cd1baabd8",
+      "size": 1156,
+      "release_role": "candidate-public"
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/data/zobel83_958_table1.csv",
+      "sha256": "c323f12a7ec31a205e528e5b26db07301d53a2fb6f8f7c3ef2fa65bd7c06eed0",
+      "size": 1370,
+      "release_role": "candidate-public"
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/figures/alignment_response_profile.pdf",
+      "sha256": "faa5d4ae0615d76e05ec47c121849b9c0346e38f553307a69211d319917fc1c0",
+      "size": 30087,
+      "release_role": "candidate-public"
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/figures/coverage_grid.pdf",
+      "sha256": "fb85f4e01b7620339b61d5ccb57db8089cbe8cd948ee91b6a8a670583272a342",
+      "size": 25822,
       "release_role": "candidate-public"
     },
     {
@@ -87,34 +135,40 @@
       "release_role": "candidate-public"
     },
     {
-      "path": "raw/writing/gpt/pado-alignment-response-dependence/figures/alignment_response_profile.pdf",
-      "sha256": "d47dbaa356c433059a2c9de210890af1af7de13b390f9f3670f99feac1150353",
-      "size": 30083,
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/figures/made/generate_figures.py",
+      "sha256": "31be0def5204f1a9b0644631a0935ef9a5465e800ed9b600a8f517638a203421",
+      "size": 3878,
       "release_role": "candidate-public"
     },
     {
-      "path": "raw/writing/gpt/pado-alignment-response-dependence/figures/coverage_grid.pdf",
-      "sha256": "29d9df959be0995a33685ac5e3c12dbc7f29b9d6db59ae05c61ec6c6b186083c",
-      "size": 25822,
-      "release_role": "candidate-public"
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/main.pdf",
+      "release_role": "candidate-public",
+      "sha256": "977473b54523a70dc4ce2990c06c528fa097134e5298dbe33af1411dd8e86d7b",
+      "size": 161574
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/main.tex",
-      "sha256": "c09b37a4031e598322bf2a93ff3e3fe88649dde9105a4fa45254897e82b7eaac",
-      "size": 18509,
+      "sha256": "fede029dee6a43e1e10ac7ab1bdd0b4af28b037a31330045b3e470bf7df99f4f",
+      "size": 20283,
       "release_role": "candidate-public"
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/references.bib",
-      "sha256": "ce8af09a3fcaae476bd165b683f1a74882f155278e83065d0721dc8f4c3a9fcd",
-      "size": 3540,
+      "sha256": "0dec6279464ac39d0f20e854c0e5868be18377d9a9d607df621ff21ea456a74e",
+      "size": 2875,
       "release_role": "candidate-public"
     },
     {
-      "path": "raw/writing/gpt/pado-alignment-response-dependence/PUBLIC_RELEASE.md",
-      "sha256": "157348d63283460539432bc06fe9eee913c8de9e030b6c7ca712bf7886a341a2",
-      "size": 2158,
-      "release_role": "candidate-public"
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/sn-jnl.cls",
+      "release_role": "candidate-public",
+      "sha256": "6bc9a034a19b7cf7aa34dc334092fa1cf4cee2cca83d5b1efd12a6729f9a43a3",
+      "size": 55789
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/sn-mathphys-num.bst",
+      "release_role": "candidate-public",
+      "sha256": "7635e72a5b22440d819e43eefc2ba16bbcae89df83521a1d66c31c3987f93816",
+      "size": 63311
     }
   ],
   "excluded_materials": [
@@ -143,6 +197,15 @@
     "fixed_rho_grid_seed": 20261106,
     "single_toy_seed": 20261105,
     "profile_toy_seed": 20261107,
-    "profile_toys_per_true_rho": 1000
+    "profile_toys_per_true_rho": 1000,
+    "profile_grid": {
+      "rho_min": -0.8,
+      "rho_max": 0.8,
+      "step": 0.02
+    },
+    "profile_bootstrap_toys": 1000,
+    "profile_toy_values_file": "analysis/results/profile-coverage-toys.csv",
+    "response_map_check": "DA74-6 finite-J replay plus local narrow-width limit",
+    "influence_check": "leave-one-row-out descriptive profile"
   }
 }

@@ -103,7 +103,7 @@ Matta 2015 与 Sensharma 2026 共享同一套 Gammasphere 数据集谱系（`ind
 881.8-keV 与 880.1-keV 双线必须建立成对符合响应函数，且对同母态 1055.1-keV 与 815.6-keV 跃迁的比值 $B(M1)/B(E2)$ 建立统一协方差矩阵。
 
 ### Falsifiers (证伪判据)
-若新的高统计偏振或内转换实验证实 881.8-keV 跃迁选择大绝对值混合比根（$|\delta| > 1.5$ 且 $B(E2)$ 占优），则纯 signature-partner 解释被证伪；反之若测得 $\delta \approx 0$ 且 $\Delta_{PDCO} < 0$（纯磁偶极），则 wobbling 解释被彻底排除。
+若新的高统计偏振或内转换实验证实 881.8-keV 跃迁选择大绝对值混合比根（$|\delta| > 1.5$ 且 $B(E2)$ 占优），则会削弱当前的纯 signature-partner 解释；反之若测得 $\delta \approx 0$ 且 $\Delta_{PDCO} < 0$（在声明响应约定下偏向磁偶极），则会削弱最简单的 wobbling 参数化。两种结果都不能脱离共同 response、branch、feeding 和协方差合同完成机制终局裁决。
 
 ### Stop Conditions (停止条件)
 在未获得原始符合计数矩阵、偏振计数或内转换数据前，严禁伪造连续高斯响应或给出任一混合比分支的后验概率；保持 L3 readiness 状态。

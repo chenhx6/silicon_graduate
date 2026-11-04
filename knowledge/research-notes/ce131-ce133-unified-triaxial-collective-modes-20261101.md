@@ -112,8 +112,8 @@ Collective Modes:  Coriolis signature       Tilted precession (TiP)  Chiral doub
 
 ## Falsifier Verification & Stopping Criteria Audit
 
-- **Falsifier 1 (Wobbling Multipolarity)**: The connecting lines $582\text{ keV}$ and $465\text{ keV}$ exhibit $|\delta| \le 0.55$, $M1\% \ge 76.8\%$, and $B(E2)_{\text{out}}/B(E2)_{\text{in}} < 0.10$. This conclusively falsifies the single-phonon transverse wobbling hypothesis ($|\delta| > 1, B(E2)_{\text{out}}/B(E2)_{\text{in}} \ge 0.2$).
-- **Falsifier 2 (Wobbling Frequency Staggering & Negativity)**: The workbook frequency $\hbar\omega_w = E_{\gamma,\text{out}} - \frac{1}{2}E_{\gamma,\text{in}}$ exhibits signature staggering exceeding $300\text{ keV}$ and plunges to $-84.5\text{ keV}$ ($23/2^-$) and $-15.5\text{ keV}$ ($27/2^-$), which is impossible for harmonic rotor wobbling.
+- **Falsifier 1 (Wobbling Multipolarity)**: Under the declared transition mapping, workbook mixing-ratio, gate, efficiency and covariance contract, the 582-keV and 465-keV links are M1-rich ($|\delta|\leq0.55$, $M1\%\geq76.8\%$, selected $B(E2)_{\rm out}/B(E2)_{\rm in}<0.10$). This does not support the simplest single-phonon transverse-wobbling parameterization, but it cannot unconditionally exclude more general wobbling, TiP, signature/realignment, $\gamma$-soft particle--core or crossing/configuration-mixing explanations.
+- **Falsifier 2 (Wobbling Frequency Staggering & Negativity)**: The workbook proxy $\hbar\omega_w = E_{\gamma,\rm out} - \frac{1}{2}E_{\gamma,\rm in}$ shows strong staggering and negative values at selected spins. These values are derived under the workbook mapping and should not be interpreted as physical negative phonon energies or as an unconditional impossibility theorem for harmonic wobbling.
 - **Stopping Condition**: Without event-level raw ROOT matrix deconvolution or direct microscopic PES calculations for $^{133}\text{Ce}$, this note maintains `status: ai-draft` and `reasoning_status: provisional`, preserving strict epistemic boundaries.
 
 ---

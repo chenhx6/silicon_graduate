@@ -26,11 +26,13 @@ claims into the final paper evidence gate and does not replace user/author revie
 |---|---|---|---|
 | Single central innovation | pass | `main.tex`, P-ADO project page | The paper tests reaction-dependent alignment response and maximum-row coverage |
 | Public benchmark identity | pass | `data/zobel83_958_table1.csv`, Zobel source page, `sources/zobel-covariance-audit.md` | The input is a fitted public table, not raw spectra |
-| Reproducible analysis | local pass / public pending | `analysis/profile_alignment_models.py`, `coverage_check.py`, `coverage_grid.py`, `profile_coverage.py`, `validate_outputs.py` | Table-level Gaussian contract; public repository/DOI and author metadata remain open |
+| Reproducible analysis | local pass / public pending | `analysis/profile_alignment_models.py`, `coverage_check.py`, `coverage_grid.py`, `profile_coverage.py`, `validate_response_map.py`, `influence_checks.py`, `validate_outputs.py` | Table-level Gaussian contract; public repository/DOI and author metadata remain open |
 | Reproducible figures | pass | `figures/made/generate_figures.py`, two PDF/PNG figures | Figure producer uses derived JSON/table inputs |
 | Manuscript compilation | pass | `analysis/results/compile-record.json`, `main.pdf` | Tectonic 0.17.0 with Springer Nature `iicol`; six-page A4 PDF; underfull layout warnings remain |
 | Source provenance | pass | `sources/README.md`, `sources/claim-ledger.md`, archived Zobel source | Exact source locator is recorded |
-| Current covariance treatment | partial | common-\(\rho\) profile, \(5\times7\) fixed-\(\rho\) grid and profile-preserving toy calibration | Source does not publish numerical row or cross-row covariance |
+| Current covariance treatment | conditional pass | common-\(\rho\) profile, \(5\times7\) fixed-\(\rho\) grid and profile-preserving toy calibration | Source does not publish numerical row or cross-row covariance; all calibration remains contract-bound |
+| Response-map convention | conditional pass | `response-map-validation.json`, DA74-6 replay | Finite-\(J\) Gaussian convention is cross-checked against a published attenuation-table row; Zobel detector response remains unavailable |
+| Row influence | descriptive pass | `influence-checks.json` | Leave-one-row-out profiled discrepancy remains \(15.81\)--\(24.44\); this is not a separate calibrated null test |
 | Event-level reanalysis | not ready | Zobel source has no raw event counts or response matrix | Cannot claim event-level likelihood or detector-response reconstruction |
 | Feeding-aware physics model | partial | global convex-mixture negative control | Mixture is weakly identified and is not a direct/cascade feeding fraction or validated simulation |
 | Paper-use claim review | not ready | P0/P1 ledger exists | No targeted user confirmation or human review has occurred |
@@ -49,6 +51,10 @@ Under the declared table-level Gaussian contract:
   \(\rho\), with refined minimum \(D_{\max}^2=22.18\) at \(\rho=0.64\);
 - profile-preserving toy maximum-statistic 95% quantiles are approximately
   \(8.47\)--\(8.79\) for true \(\rho=-0.6,0,0.6\), using 1000 toys per value;
+- the toy output now includes the raw profiled statistics, bootstrap Monte Carlo
+  intervals for the empirical quantiles, input/script hashes and software
+  versions;
+- leave-one-row-out profiled discrepancies range from \(15.81\) to \(24.44\);
 - forcing \(\rho=0\) when the generating toy has nonzero correlation lowers
   empirical coverage in some grid cells to approximately \(0.47\) at the edge
   of the scanned negative-correlation range.
@@ -70,7 +76,8 @@ or author-provided dataset becomes available.
 
 1. Replace the placeholder author and affiliation block.
 2. Obtain user/author confirmation of the exact P0/P1 manuscript wording.
-3. Resolve the 1980/1983 source lineage and finite-\(J\) response-map convention.
+3. Resolve the 1980/1983 source lineage and retain the finite-\(J\) response-map
+   check as a convention boundary.
 4. Fill the public-release manifest with a permanent repository/DOI, license and
    author authorization.
 5. Decide whether the table-level conditional result is sufficient for an EPJA

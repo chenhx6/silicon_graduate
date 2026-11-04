@@ -16,11 +16,16 @@ The machine-readable file inventory and SHA-256 values are in
 - `analysis/coverage_check.py`
 - `analysis/coverage_grid.py`
 - `analysis/profile_coverage.py`
+- `analysis/validate_response_map.py`
+- `analysis/influence_checks.py`
 - `analysis/validate_outputs.py`
 - `analysis/results/alignment-profile.json`
 - `analysis/results/coverage.json`
 - `analysis/results/coverage-grid.json`
 - `analysis/results/profile-coverage.json`
+- `analysis/results/profile-coverage-toys.csv`
+- `analysis/results/response-map-validation.json`
+- `analysis/results/influence-checks.json`
 - `figures/made/generate_figures.py`
 - `figures/made/generate_coverage_grid.py`
 - `figures/alignment_response_profile.pdf`
@@ -49,7 +54,8 @@ The release must record:
 5. the independent-row, fixed-marginal-error, common-\(\rho\) Gaussian contract;
 6. the distinction between fixed-\(\rho\) sensitivity toys and the
    profile-preserving calibration;
-7. the fact that no experimental p-value or event-level likelihood is provided.
+7. the finite-\(J\) response-map convention check and its limitation;
+8. the fact that no experimental p-value or event-level likelihood is provided.
 
 The final public DOI, license and author authorization are unresolved gates.
 Until they are filled, the manuscript remains a local reproducible candidate.

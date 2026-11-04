@@ -2,6 +2,12 @@
 
 **论文投稿源码包与全套数据中枢**
 
+> **已撤回的历史失败案例。** 本目录不属于当前投稿队列，不能作为事实源或
+> 新图输入。它把多个核素、模型输出、toy calculation 和私有
+> workbook-derived 数值合在一篇稿件中；其中的“证明”“彻底排除”和显著性
+> 表述已被撤回。当前单点文章候选见
+> [`../pado-alignment-response-dependence/`](../pado-alignment-response-dependence/)。
+
 - **论文题目**：*Triaxial Collective Excitations across the $A \approx 130$ Region: Resolving the Frontiers of Nuclear Chirality and Wobbling*
 - **拟投期刊**：*Physical Review C* (Regular Article)
 - **预印本文件**：[`main.pdf`](main.pdf) 与 [`paper.pdf`](paper.pdf)（4 页双栏排版，1.5 MB）
@@ -38,7 +44,9 @@
 ---
 
 ### Figure 2: $^{135}\\text{Pr}$ 角分布与线偏振双根破简并仲裁
-实测 $a_2 = -0.32(4)$（Matta 2015）双根退化（$\\delta_1 = -0.11$ vs $\\delta_2 = -1.35$）。结合 JUROGAM-II Clover 康普顿散射线偏振实测值 $P = -0.18(6)$（Lv 2022），在 $>10.5\\sigma$ 置信度下彻底证伪大模摆动根。
+旧稿曾把实测 $a_2$ 双根和 JUROGAM-II 偏振值组合成一个过强的
+“\(>10.5\sigma\) 排除”表述。该结果已撤回；当前证据只能在声明的 toy
+response 下给出条件性根偏好，不能写成实验显著性或唯一模式裁决。
 - **原始基准数据 (主要依据·不可变铁律)**：[`data/table1_135pr_experiment_benchmark.csv`](data/table1_135pr_experiment_benchmark.csv)
 - **临时绘图辅助 (100点扫描抛物线·可有可无)**：[`figures/made/data/fig2_135pr_profile_likelihood_curve.csv`](figures/made/data/fig2_135pr_profile_likelihood_curve.csv)
 - **插图文件**：[`figures/fig2_135pr_dual_root_polarization.pdf`](figures/fig2_135pr_dual_root_polarization.pdf)（矢量 PDF）/ [`figures/pdf/fig2_135pr_dual_root_polarization.pdf`](figures/pdf/fig2_135pr_dual_root_polarization.pdf)
@@ -68,7 +76,11 @@
 ---
 
 ### Figure 5: P-ADO 取向参数跨反应迁移之束流族 Mahalanobis 剖面
-基于科隆大学 Zobel 1983 NIM 实验数据，证明轻离子 $\\alpha$ 束退取向随能量急剧破缺（$\\tau = 2.16 > 1.0$），而重离子 $^{12}\\text{C}$ 熔合蒸发注入稳态取向流（$\\tau = 0.74 < 1.0$）。
+旧稿曾把一个有限表格、固定协方差合同下的马氏距离量写成
+“轻离子退取向破缺/重离子稳态取向流”。该表现在由
+[`../pado-alignment-response-dependence/`](../pado-alignment-response-dependence/)
+重新分析为条件性的 table-level response 与 coverage 结果；旧数值不应再作为
+实验结论引用。
 - **原始基准数据 (主要依据·不可变铁律)**：[`data/table4_zobel1983_pado_alignment_experiment.csv`](data/table4_zobel1983_pado_alignment_experiment.csv)
 - **临时绘图辅助 (25点马氏距离剖面·可有可无)**：[`figures/made/data/fig5_pado_mahalanobis_distance_profiles.csv`](figures/made/data/fig5_pado_mahalanobis_distance_profiles.csv)
 - **插图文件**：[`figures/fig5_pado_projectile_families.pdf`](figures/fig5_pado_projectile_families.pdf)（矢量 PDF）/ [`figures/pdf/fig5_pado_projectile_families.pdf`](figures/pdf/fig5_pado_projectile_families.pdf)
