@@ -4,6 +4,10 @@ This file defines the smallest sanitized release that can accompany the
 P-ADO table-level manuscript. It is a release plan and provenance contract; it
 does not itself grant publication or collaboration permission.
 
+The machine-readable file inventory and SHA-256 values are in
+`sources/public-release-manifest.json`. Its status is intentionally
+`pending-author-metadata-license-and-permanent-archive`.
+
 ## Candidate public files
 
 - `data/zobel83_958_table1.csv`

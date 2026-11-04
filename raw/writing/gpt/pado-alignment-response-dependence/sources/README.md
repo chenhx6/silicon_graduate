@@ -9,6 +9,7 @@
 | Profile-preserving toy calibration | `analysis/profile_coverage.py` | `analysis/results/profile-coverage.json`; seed 20261107; 300 toys per true-rho value |
 | Fixed-rho coverage sensitivity | `analysis/coverage_grid.py` | `analysis/results/coverage-grid.json`; seed 20261106; 5x7 grid |
 | Historical source lineage | `knowledge/sources/zobel-1980-magnetic-substate-distributions.md` and `knowledge/sources/ionescu-1981-improved-angular-distribution-analysis-particle-xn.md` | Related method sources; not silently merged into the 1983 fixture |
+| Public release candidate | `sources/public-release-manifest.json` | SHA-256 inventory; pending author license, metadata and permanent archive |
 | Figure | `figures/made/generate_figures.py` | `figures/alignment_response_profile.pdf` and `.png` |
 | A≈130 motivation and competing interpretations | `knowledge/sources/matta-2015-transverse-wobbling-135pr.md`, `knowledge/sources/lawrie-2020-tilted-precession-wobbling.md`, `knowledge/sources/lv-2022-evidence-against-wobbling-135pr.md`, `knowledge/sources/nomura-2022-questioning-wobbling-ibfm.md` | Source-specific locators must be checked again for final submission |
 
