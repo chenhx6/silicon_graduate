@@ -128,14 +128,14 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 | 三篇 source 中 M15-1-M15-15、S19-1-S19-13、L22-1-L22-13 | eligible evidence pool | source/claim 已人工复核、citation key 与 locator 完整；写作时仍须回到 raw，并保持 claim kind |
 | 能级、transition energy、mixing ratio、polarization、`R_ac`、相对 transition ratio | eligible as reported observation | 必须引用对应原始 source，不能只引用本 project |
 | transverse wobbling、two-phonon wobbling、TiP/realignment | eligible only as attributed interpretation/model result | 必须使用“作者解释/模型计算”，不得写成裸事实 |
-| Lv L22-9 对 Matta/Garg/erratum 的比较 | follow-up lead only | 当前只摄入 Lv 的二手比较；Garg 原文、erratum 与相关质疑尚未分别进入 evidence gate |
+| Lv L22-9 对 Matta/Garg/erratum 的比较 | source-linked comparison with correction boundary | Garg 2015 original and Garg 2019 erratum are separately archived; the erratum is current for corrected polarization rows, while raw counts, full covariance and cross-campaign re-fit remain unavailable |
 | Lv 逐带 realignment 细节（L22-15） | eligible as model result | supplementary material 已作为主文附属证据层挂接且 claim 已人工复核；仍只能作为模型结果 |
 | Nomura NOM22-1 至 NOM22-15 | source-level evidence boundary / claim-specific paper gate | 只作为 IBFM theoretical alternative；普通研究可继续使用有边界的结果，后续问答或论文写作需要具体措辞时再做定向核验 |
 | 本 project 的矩阵与综合句 | reviewed navigation/synthesis | project 为 `review_status: human-reviewed`，但综合页仍不能替代原始 source |
 
 ## Evidence Review Status
 
-- 原有三篇 source 的 41 条结构化 claims 当前均为 `needs_review: false`；本轮新增 SH26-1–11 与 GU21-1–6 也已由 Codex 完成 direct-source self-audit，页面级新增内容不等于用户追加审核。
+- 原有三篇 source 的 41 条结构化 claims 当前均为 `needs_review: false`；Garg 2015 original and Garg 2019 erratum are separate source layers, and erratum claims remain source-level correction evidence rather than a new event pool。
 - Lv supplementary material 的 L22-14 至 L22-15 已人工复核，`needs_review: false`。
 - 用户已审核本 project 的 evidence matrix 与其余章节，页面为 `review_status: human-reviewed`。
 - [[nomura-2022-questioning-wobbling-ibfm]] 及 NOM22-1 至 NOM22-15 保留 source-level evidence boundary；普通研究不等待用户审核，后续问答或论文写作使用具体 claim 时再触发定向核验。新增 SH26/GU21 的 `needs_review: false` 仅表示 Codex self-audit，不改变本 project 既有 `human-reviewed` 的历史范围。
@@ -161,7 +161,7 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 
 ## Follow-Up Sources
 
-1. Garg et al. 2015 `135Pr` polarization 原始论文及其 erratum，用于独立核对 Lv L22-9。
+1. Raw counts and the full calibration/covariance chain behind Garg 2015 and its 2019 erratum, if legally available, for a common-response re-fit of the corrected 747/813 polarization rows.
 2. Matta 2015 所称后续完整 coincidence/angular-distribution/asymmetry 分析或 supplementary information。
 3. Sensharma 2019 supplementary material；Lv 2022 supplementary material 已挂接到现有 source 并完成 L22-14 至 L22-15 复核。
 4. Lawrie et al. 2020 *Tilted precession and wobbling in triaxial nuclei*，建立 TiP 理论定义与 wobbling 区分。
@@ -248,9 +248,9 @@ Matta 2015 的 yrast/side-band pair 是否满足 transverse-wobbling 判据？Se
 
 ### Agent active summary — 新追加材料
 
-此节为2026-10-19 Codex self-audit，不扩张前面human-reviewed范围；旧project全prefix逐字节保持。Garg2015 original现已本session完整原读，2019erratum只核metadata未得body；NNDC selectedAdopted仍旧评价、XUNDL的同名pol/编译日期不是同一观测或新实验。争议排序不改。
+此节为2026-10-19 Codex self-audit，不扩张前面human-reviewed范围；旧project全prefix逐字节保持。Garg2015 original与2019 erratum 均已有独立 source/raw 层；erratum 的 corrected polarization rows 取代旧的 747/813 偏振输入，但 raw counts、完整 calibration covariance 和 cross-campaign re-fit 仍未得。NNDC selectedAdopted 与 XUNDL 的同名 pol/编译日期不是同一观测或新实验。争议排序不改。
 
-[[garg-2015-135pr-magnetic-rotation]] GA15-4–14补实际IUAC82MeV/15clover/3e8事件、148/90RDCO和Eu152a≈.93(.06)及原2015targetΔ；原版确实覆盖747/813，但不报两线δ，755无Δ。原后续入口“Garg原文未单独核”现只对2019erratum/actualproducer仍成立，不能把旧TableI负值冒作已核更正值。
+[[garg-2015-135pr-magnetic-rotation]] GA15-4–14补实际IUAC82MeV/15clover/3e8事件、148/90RDCO和Eu152a≈.93(.06)及原2015targetΔ；原版确实覆盖747/813，但不报两线δ，755无Δ。当前 813.3-keV 偏振应使用 erratum 的 `+0.04(3)`，747.5-keV 应使用 `+0.03(3)`；这只是 calibration correction，不提供 raw re-fit 或绝对强度。
 
 [[nndc-2008-135pr-selected-mixing-records]] N135-1–10保留2008Adopted空MR、2015Ga39的XUNDL3旧Δ、2022Lv01的XUNDL6 P及2026Se03的XUNDL7 AD/MR字段。后两compiled日期不增加独立采集；大/小模差异不由单纯phase换号消除。同名pol需沿primary辨A还是P。
 
