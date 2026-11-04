@@ -166,7 +166,10 @@ def fit_model(rows: list[dict], model: str, rho: float, j: float = 6.5) -> dict:
             prediction["r"] = model_r(params, row, model, ebar)
         predictions.append(prediction)
     k = len(params)
-    n = 2 * len(rows)
+    # The ten rows are the independent observational units in this
+    # table-level contract. Each row contributes a two-component vector, but
+    # the row-internal covariance is already represented by Sigma_i.
+    n = len(rows)
     return {
         "model": model,
         "rho": rho,
@@ -176,6 +179,7 @@ def fit_model(rows: list[dict], model: str, rho: float, j: float = 6.5) -> dict:
         "chi2": chi2,
         "aic": float(2 * best.fun + 2 * k),
         "bic": float(2 * best.fun + k * math.log(n)),
+        "bic_sample_size": n,
         "max_mahalanobis_d2": max(p["mahalanobis_d2"] for p in predictions),
         "tau_max_d2": float(math.sqrt(max(p["mahalanobis_d2"] for p in predictions) / Q95_2D)),
         "predictions": predictions,
@@ -216,12 +220,31 @@ def main() -> None:
     fits = {}
     for model in ("shared", "family", "energy", "mixture"):
         fits[model] = fit_model(rows, model, args.rho, args.spin)
+    for model_fit in fits.values():
+        model_fit["delta_aic_vs_shared"] = float(
+            model_fit["aic"] - fits["shared"]["aic"]
+        )
+        model_fit["delta_bic_vs_shared"] = float(
+            model_fit["bic"] - fits["shared"]["bic"]
+        )
     profiles = rho_profile(rows, args.spin)
     payload = {
         "schema_version": 1,
         "input": str(args.input),
         "input_kind": "public normalized Table 1 benchmark; not raw spectra",
-        "rho_contract": {"rho_center": args.rho, "profile_range": [-0.8, 0.8], "covariance_source": "not supplied by source"},
+        "rho_contract": {
+            "rho_center": args.rho,
+            "profile_range": [-0.8, 0.8],
+            "common_row_rho": True,
+            "rows_assumed_independent": True,
+            "covariance_source": "not supplied by source",
+        },
+        "response_map_contract": {
+            "spin_j": args.spin,
+            "alignment_proxy": "Gaussian magnetic-substate width r=sigma/J",
+            "r_bounds": [0.02, 1.0],
+            "alpha_map": "finite-J tensor-polynomial average implemented in alpha_prediction",
+        },
         "spin": args.spin,
         "fits_at_rho_center": fits,
         "rho_profile": profiles,

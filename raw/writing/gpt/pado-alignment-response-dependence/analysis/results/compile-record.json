@@ -5,11 +5,12 @@
   "class": "sn-jnl.cls",
   "bibliography_style": "sn-mathphys-num.bst",
   "output": "raw/writing/gpt/pado-alignment-response-dependence/main.pdf",
-  "pages": 7,
+  "class_options": "pdflatex,iicol,sn-mathphys-num",
+  "pages": 6,
   "page_size": "A4",
-  "pdf_sha256": "0d8dd3d2064af440d5da9c84e934018b8823ed4f1b098acaa4d83e1b7340b1d2",
+  "pdf_sha256": "9329ae80d6cfb0c9ef53ae5e4b9711f5e61eae60f6bafaa2a06a36ce74e81ede",
   "status": "compiled-and-visually-inspected",
-  "warnings": "underfull-vbox layout warnings; no fatal errors",
-  "visual_inspection": "pages 1-7 rendered and checked for clipping, overlap, and figure/table truncation",
-  "compiled_at": "2026-11-05T04:07:00+08:00"
+  "warnings": "underfull hbox/vbox layout warnings only; no overfull boxes, unresolved citations, fatal errors, clipping, overlap, or figure/table truncation observed",
+  "visual_inspection": "pages 1-6 rendered and checked after enabling iicol, full-width figure/table floats, split likelihood equation, and numeric citations",
+  "compiled_at": "2026-11-05T05:31:00+08:00"
 }

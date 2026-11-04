@@ -6,6 +6,8 @@ updated: 2026-11-05
 ## Active handoff — 2026-11-05：全库审计与 P-ADO 单点论文候选
 
 - **Current active task**：完成 A≈130 全库审计、创新点筛选和一篇单点论文。goal `01a1a756-e768-7320-bc92-6bff2607f122` 仍 active。
+- **Continuation update 2026-11-05**：完成公开模型/代码与运行时定向审计，并将结果写回 `knowledge/sources/a130-model-runtime-and-public-code-audit-20261105.md`、`knowledge/research-notes/a130-model-runtime-and-code-route-audit-20261105.md` 和 `outputs/l4/20261105-a130-model-runtime-audit/report.md`；新取得材料的 manifest 位于 `raw/papers/gpt/query/20261105-model-runtime-audit/manifest.json`。HFODD 源码端点返回 404、DIRHB 未编译、KSHELL/ArbModel/NPTool 仍受环境或访问边界限制，均保留为未闭合状态。
+- **Paper refinement update 2026-11-05**：根据统计/期刊/核结构只读审查，P-ADO 包新增 profile-preserving pseudo-experiment calibration (`analysis/profile_coverage.py`, seed `20261107`, 300 toys per true-\(\rho\)); fixed-\(\rho\) grid 扩展为 \(5\times7\)；BIC 改用十个独立 row vector 作为 sample units；正文收紧为 `^{67}Ga` table-level calibration case study，补入 Zobel 1980/Ionescu 1981 lineage 和 common-\(\rho\)/block-diagonal contract。
 - **Stable pointer**：当前工作在 `main` 上；本轮已完成 `research: establish A130 paper candidate and audit evidence`、`research: add feeding-mixture control and paper claim ledger`、`research: calibrate alignment coverage across covariance grid`、`research: compare observed discrepancy with calibrated coverage`、`research: refine covariance profile resolution`、`research: compile and inspect EPJA manuscript draft`、`research: audit source covariance boundary and finalize draft` 与本次 submission-readiness audit 提交，并按精确 `HEAD:main` refspec 发布。后续恢复以 branch + subject 为稳定指针，精确 hash 只写入任务回执。
 - **Completed**：
   - 读取 README、knowledge/index、profile、memory、handoff、PLAN、路径契约、自治研究、归档规则和相关 skills；
@@ -17,6 +19,7 @@ updated: 2026-11-05
   - 建立 `knowledge/projects/pado-alignment-response-dependence-paper.md` 作为当前 primary EPJA candidate；
   - 用正确的 Zobel 1983 `^{67}Ga` Table 1 十行 public benchmark 建立 P-ADO article package：table-level profile likelihood、rho sensitivity、1000 toy coverage、图件、EPJA/Springer Nature 和 REVTeX templates、claim-to-source map、Data/Code Availability boundary；
   - 取得官方 EPJA/APS/Elsevier submission pages 的本地 query manifest；PLB Guide for Authors 当前 runtime 返回 access failure，已如实保留。
+  - 完成 HFODD、BIGSTICK、DIRHB、ROOT、Geant4、CSM、IBM、KSHELL、NPTool 和本地 PTRM/TPSM/TAC 路线的可运行性/适用域审计；明确第一篇文章不依赖完整 TPSM/TAC-CDFT/SN100 生产者。
 - **Current primary paper result**：
   - shared alignment model at `rho=0`: `r0=0.280146`, `AIC=32.0415`, `BIC=33.0372`, `Dmax^2=31.2643`;
   - family model: `r_alpha=0.288714`, `r_12C=0.275782`, no AIC/BIC support over shared at center contract;
@@ -39,12 +42,12 @@ updated: 2026-11-05
   - P1: all final paper claims require source locator and targeted user confirmation under paper evidence gate.
 - **Validation**：
   - `python3 system/scripts/wiki_boundary_check.py --root .` exit 0;
-  - `python3 system/scripts/wiki_lint.py --fail-on error` exit 0, 0 errors, 615 warnings, 5300 claim-needs-review info;
+  - `python3 system/scripts/wiki_lint.py --fail-on error` exit 0, 0 errors, 615 warnings, 5306 claim-needs-review info;
   - `python3 system/scripts/wiki_archive_gate.py check --root . --changed` exit 0, 0 failures;
   - `python3 system/scripts/analysis/test_analysis_suite.py` exit 0, regression checks passed;
   - new P-ADO scripts compile with `py_compile`, profile/coverage/figure commands and deterministic output validation rerun successfully;
-  - the default LaTeX toolchain was unavailable, so a temporary Tectonic `0.17.0` binary was downloaded under `tmp/` and successfully compiled the Springer Nature draft to a seven-page A4 `main.pdf`; all pages were rendered and visually checked. Underfull-vbox warnings remain recorded in `analysis/results/compile-record.json`.
-- **Next prompt**：继续 P-ADO paper self-audit：加入 feeding-aware negative-control model、coverage sensitivity and source manifest; then prepare final claim-to-locator table and decide whether EPJA Regular Article threshold is met. Keep `133Ce` secondary until response/holdout/data-release gates close.
+  - the default LaTeX toolchain was unavailable, so a temporary Tectonic `0.17.0` binary was downloaded under `tmp/` and successfully compiled the Springer Nature draft with the EPJ A-recommended `iicol` option to a six-page A4 `main.pdf`; all pages were rendered and visually checked after converting wide figures/table to full-width floats and splitting the likelihood equation. Underfull layout warnings remain recorded in `analysis/results/compile-record.json`.
+- **Next prompt**：继续 P-ADO paper self-audit：冻结最终 claim-to-locator wording、复核 EPJA Regular Article 门槛和 author/data metadata；同步保持 `133Ce` secondary，直到 response/producer/holdout/data-release gates close。若启动 HFODD/Geant4 计算，先固定版本、输入和独立 companion observable，不把 benchmark 或 scaffold 输出直接写成核结构结论。
 
 ## Active checkpoint — 2026-11-04：Casten 译本最终精修
 

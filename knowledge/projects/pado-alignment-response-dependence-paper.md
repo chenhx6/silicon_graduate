@@ -64,16 +64,17 @@ wobbling/chirality/TiP 证据链中 alignment nuisance 的公开校准基准。
 这些数字是 Codex self-audit 的 profile result，不是原文作者报告的实验显著性、
 coverage-calibrated p-value 或正式 likelihood-ratio test。
 
-新建的 profile likelihood 结果（`raw/writing/gpt/pado-alignment-response-dependence/analysis/results/alignment-profile.json`）进一步给出：
+新建的 covariance-profile 结果（`raw/writing/gpt/pado-alignment-response-dependence/analysis/results/alignment-profile.json`）进一步给出：
 
-- shared model: `r0=0.280146`, `AIC=32.0415`, `BIC=33.0372`,
+- shared model: `r0=0.280146`, `AIC=32.0415`, `BIC=32.3441`,
   `Dmax^2=31.2643`;
 - family model: `r_alpha=0.288714`, `r_12C=0.275782`,
-  `AIC=32.6274`, `BIC=34.6188`;
+  `AIC=32.6274`, `BIC=33.2325`;
 - energy model: `r0=0.278525`, slope `0.005280` per 10 MeV,
-  `AIC=32.6339`, `BIC=34.6253`.
+  `AIC=32.6339`, `BIC=33.2390`.
 - two-component mixture: `r_direct=0.195230`, `r_cascade=0.365900`,
-  `weight_direct=0.530370`, `AIC=33.5635`, `BIC=36.5507`.
+  `weight_direct=0.530370`, `AIC=33.5635`, `BIC=34.4713`; its coefficient is
+  not interpreted as a physical direct-feeding fraction.
 
 在 `rho=0` 的 Gaussian table-level sensitivity 下，family、energy 和最小
 direct/cascade mixture 都没有获得 AIC/BIC 支持；这使文章主张保持为
@@ -87,31 +88,33 @@ parametric pseudo-experiments，最大 row-wise `D^2` 小于单行二维
 该结果是声明过的 toy coverage 检查，不是实验 p-value。
 
 扩展到 true \(r\in\{0.10,0.20,0.28,0.40,0.60\}\) 和 true
-\(\rho\in\{-0.6,-0.3,0,0.3,0.6\}\) 的 \(5\times5\) 网格后，matched-covariance
-coverage 为约 `0.616--0.678`；当数据具有非零 \(\rho\) 而拟合强制
-\(\rho=0\) 时，coverage 最低约 `0.52`。这把单点 coverage 结果升级为
-统计门限对真实 alignment 和 covariance misspecification 的敏感性证据。
+\(\rho\in\{-0.8,-0.6,-0.3,0,0.3,0.6,0.8\}\) 的 \(5\times7\) 固定-\(\rho\) 网格后，matched-covariance
+acceptance 为约 `0.62--0.68`；当数据具有非零 \(\rho\) 而拟合强制
+\(\rho=0\) 时，coverage 最低约 `0.47`（在 \(\rho=-0.8\) 的扫描边界）。这把单点 coverage 结果升级为
+固定-\(\rho\) 统计门限对真实 alignment 和 covariance misspecification 的敏感性证据。
 
 在 spacing \(\Delta\rho=0.02\) 的 profile 网格 \(\rho\in[-0.8,0.8]\) 上，
-observed shared-model `Dmax^2` 的最小值仍为 `22.18`（\(\rho=0.64\)）；
-matched-covariance
-toy maximum-statistic 的经验 95% 分位数为 `9.60--10.59`。因此在该声明的
-family-wise calibration 下，shared-null 的条件性不兼容仍然存在，但不能
-替代真实 event-level covariance 和 feeding-aware likelihood。
+observed shared-model `Dmax^2` 的最小值仍为 `22.18`（\(\rho=0.64\)）。
+profile-preserving toy 中，对 true \(\rho=-0.6,0,0.6\) 重复同一 \(\rho\)
+profile，经验 95% 分位数为 `8.27--8.65`。这仍是声明的
+block-diagonal/common-\(\rho\) Gaussian 合同下的条件性校准，不能替代真实
+event-level covariance 和 feeding-aware likelihood。
 
 ## Planned tests
 
 1. Rebuild the ten-row fixture from the original Table 1 and correct reaction/
-   nucleus/page provenance.
+   nucleus/page provenance, including the dependent 1980/1983 source lineage.
 2. Fit shared, family-specific and energy-dependent alignment models with a
-   profiled common covariance parameter.
-3. Run parametric pseudo-experiments under each null to measure false-rejection and
-   coverage under missing covariance.
-4. Compare maximum Mahalanobis, Gaussian profile likelihood and robust covariance
-   sensitivity; keep the contracts separate.
-5. Propagate condition-specific `r` into a toy `delta`/ADO inversion to demonstrate
-   the practical effect on A≈130 mode identification without claiming a new
-   A≈130 measurement.
+   declared common covariance parameter and ten-row BIC sample-unit convention.
+3. Repeat the full \(\rho\)-profile inside pseudo-experiments before comparing the
+   observed profiled statistic with a toy quantile.
+4. Run fixed-\(\rho\) sensitivity grids under row-independent Gaussian toys; keep
+   them separate from profile-preserving calibration.
+5. Compare maximum Mahalanobis and covariance sensitivity while keeping the
+   mixture control as a weakly identified descriptive negative control.
+6. Propagate condition-specific `r` into a toy `delta`/ADO inversion only if a
+   source-grounded response map and an explicit synthetic-data contract are added;
+   otherwise keep the article as a table-level calibration case study.
 
 ## Stop conditions
 

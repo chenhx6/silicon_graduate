@@ -11,6 +11,7 @@
   ],
   "threshold_q95_2d": 5.991464547107979,
   "empirical_fraction_max_d2_leq_q95": 0.654,
+  "empirical_fraction_mc_se": 0.015042739112276061,
   "max_d2_quantiles": {
     "0.5": 5.082432439317125,
     "0.9": 8.801117323114871,

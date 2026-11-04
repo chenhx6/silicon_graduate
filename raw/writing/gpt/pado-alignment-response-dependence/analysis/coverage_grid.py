@@ -43,6 +43,13 @@ def run_grid(rows, true_rs, true_rhos, n_toys, seed, fit_rho_mode):
                     "true_rho": true_rho,
                     "fit_rho": fit_rho,
                     "coverage_at_q95_2d": float(np.mean(values <= Q95_2D)),
+                    "coverage_mc_se": float(
+                        np.sqrt(
+                            np.mean(values <= Q95_2D)
+                            * (1.0 - np.mean(values <= Q95_2D))
+                            / n_toys
+                        )
+                    ),
                     "q95_max_d2": float(np.quantile(values, 0.95)),
                     "q99_max_d2": float(np.quantile(values, 0.99)),
                     "median_max_d2": float(np.quantile(values, 0.5)),
@@ -69,7 +76,7 @@ def main() -> None:
 
     rows = read_rows(args.input)
     true_rs = [0.10, 0.20, 0.28, 0.40, 0.60]
-    true_rhos = [-0.60, -0.30, 0.00, 0.30, 0.60]
+    true_rhos = [-0.80, -0.60, -0.30, 0.00, 0.30, 0.60, 0.80]
     payload = {
         "schema_version": 1,
         "input": str(args.input),
@@ -85,9 +92,10 @@ def main() -> None:
             rows, true_rs, true_rhos, args.n_toys, args.seed + 1, "zero"
         ),
         "interpretation_boundary": [
-            "The grid calibrates a declared maximum-row statistic under a Gaussian toy model.",
+            "The finite grid calibrates a declared maximum-row statistic under a Gaussian toy model.",
             "It does not reconstruct the source covariance or establish an experimental p-value.",
             "The rho=0 fit in the misspecified grid is a sensitivity control, not a recommended covariance choice.",
+            "The grid is not a supremum calibration over all admissible covariance structures.",
         ],
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)

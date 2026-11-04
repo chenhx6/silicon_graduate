@@ -66,6 +66,8 @@ def main() -> None:
 
     max_values = np.asarray(max_values)
     fitted_r = np.asarray(fitted_r)
+    acceptance = float(np.mean(max_values <= Q95_2D))
+    mc_se = float(np.sqrt(acceptance * (1.0 - acceptance) / args.n_toys))
     result = {
         "schema_version": 1,
         "input": str(args.input),
@@ -75,7 +77,8 @@ def main() -> None:
         "true_r": args.true_r,
         "true_mu": true_mu.tolist(),
         "threshold_q95_2d": Q95_2D,
-        "empirical_fraction_max_d2_leq_q95": float(np.mean(max_values <= Q95_2D)),
+        "empirical_fraction_max_d2_leq_q95": acceptance,
+        "empirical_fraction_mc_se": mc_se,
         "max_d2_quantiles": {str(q): float(np.quantile(max_values, q)) for q in (0.5, 0.9, 0.95, 0.99)},
         "fitted_r_quantiles": {str(q): float(np.quantile(fitted_r, q)) for q in (0.05, 0.5, 0.95)},
         "interpretation_boundary": [

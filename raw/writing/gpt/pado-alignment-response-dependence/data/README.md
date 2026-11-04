@@ -12,3 +12,9 @@ benchmark table from the archived public paper:
 The CSV is a normalized public benchmark table, not a copy of the raw spectra or
 event data. Any article result must distinguish this table-level analysis from
 an event-level reanalysis.
+
+The 1980 and 1983 Zobel papers are retained as related source lineages rather
+than silently merged into one experiment. This package uses the 1983 Table 1
+fixture as its canonical benchmark because the source locator and reaction
+labels are explicit in that paper; the relationship to the 1980 `^{67}Ga`
+values remains a source-lineage item for final author review.
