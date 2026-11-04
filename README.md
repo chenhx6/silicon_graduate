@@ -45,6 +45,15 @@ A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策
 | 论文级证据门 | [system/paper-evidence-gate.md](system/paper-evidence-gate.md) |
 | 完整人工检查 | [check.md](check.md) |
 
+## 学术手稿与期刊投稿包 (Scientific Manuscripts & Writing)
+
+- **$A \approx 130$ 三轴形变与集体激发模式期刊论文**：[`raw/writing/gpt/a130-triaxial/`](raw/writing/gpt/a130-triaxial/)
+  - [出版级双栏预印本 PDF (`main.pdf`)](raw/writing/gpt/a130-triaxial/main.pdf)
+  - [Physical Review C (RevTeX 4.2) 投稿源码 (`main.tex`)](raw/writing/gpt/a130-triaxial/main.tex)
+  - [防作假实验数据溯源手册 (`DATA_PROVENANCE.md`)](raw/writing/gpt/a130-triaxial/DATA_PROVENANCE.md)
+  - [底层实验与理论数据集 (`data/`)](raw/writing/gpt/a130-triaxial/data/)
+  - [成套插图库 (`figures/`)](raw/writing/gpt/a130-triaxial/figures/)
+
 日常主要浏览 `knowledge/`：它是 Wiki 的长期知识大脑，保存 source、实体、方法、模型、project、synthesis 和可复用研究矩阵。六类目录的唯一落点与漂移检查见 [`system/path-contract.md`](system/path-contract.md)。`raw/` 只保存原始材料，`system/` 保存规则与执行交接，`outputs/` 只保存日报、周报、审计、回执、调度状态和 `outputs/plans/` 任务计划书。输出中产生的可复用知识必须同步写入 `knowledge/`，不能只留在日报或计划书里。
 
 推荐流程：

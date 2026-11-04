@@ -1,47 +1,68 @@
-# A≈130 质量区三轴形变与集体激发模式学术期刊论文投稿包
+# Triaxial Collective Excitations across the A≈130 Region: Resolving the Frontiers of Nuclear Chirality and Wobbling
 
-本目录归档由 Wiki 知识中枢产出的高水平学术论文完整初稿及全套出版套件：
+**论文投稿源码包与全套衍生数据中枢**
 
 - **论文题目**：*Triaxial Collective Excitations across the $A \approx 130$ Region: Resolving the Frontiers of Nuclear Chirality and Wobbling*
-- **拟投期刊**：Physical Review C (Regular Article)
-- **目标物理**：
-  1. 建立非对称转子相空间极值、中间主轴双曲鞍点分离线拓扑与 Greiner 三态求和规则 $E(2_1^+) + E(2_2^+) = E(3_1^+)$；
-  2. 针对 $^{135}\text{Pr}$“摆动运动”争议，通过 DCO-偏振二维 Profile Likelihood 似然比检验（$\Delta\chi^2 = 111.4$，$>10\sigma$），打破多极混合比 $\delta$ 的双实数根退化，彻底证伪大模摆动根，确立其为单粒子旋称跃迁；
-  3. 针对 $^{135}\text{Nd}$ 与 $^{134}\text{Pr}$，基于实测绝对电磁跃迁几率，建立 Koike-Starosta-Hamamoto 选择定则的黄金基准（带内 $B(M1)$ 奇偶交错 $S_{M1}(I)$ 达到 100% 同相吻合，简并点带间 $\Delta I=0$ 的 $M1$ 跃迁深极小 $<0.05\ \mu_N^2$）；
-  4. 阐明 $^{131}\text{Ce} \to {}^{133}\text{Ce}$ 费米面在中子 $h_{11/2}$ 壳层内的深度演化（中壳到顶壳），阐明其三轴摆动阻尼与手征相变动力学；
-  5. 形式化 P-ADO 取向参数跨反应迁移之束流族极小极大 Mahalanobis 判据，确立重离子熔合稳态流（$\tau=0.74 < 1.0$）与轻离子退取向破缺机理。
+- **拟投期刊**：*Physical Review C* (Regular Article)
+- **预印本文件**：[`main.pdf`](main.pdf) 与 [`paper.pdf`](paper.pdf)（4 页双栏排版，1.5 MB）
+- **数据防作假溯源手册**：[`DATA_PROVENANCE.md`](DATA_PROVENANCE.md)
 
 ---
 
-## 文件清单与说明
+## 论文核心插图与数据预览 (Figures & Data Preview)
 
-| 文件/目录 | 格式 | 功用说明 |
-|---|---|---|
-| `main.tex` | LaTeX | Physical Review C (RevTeX 4.2) 标准双栏双盲/单盲投稿源码 |
-| `references.bib` | BibTeX | 论文引用的全部 42 篇核心同行评议文献数据库 |
-| `paper.typ` | Typst | 现代排版引擎 Typst 双栏预印本排版源码 |
-| `paper.pdf` | PDF | 编译产出的 4 页出版级预印本双栏 PDF 文件 |
-| `figures/made/` | 目录 | 绘图主程序、数据溯源说明书与各图 CSV 衍生数据集 |
-| `figures/pdf/` | 目录 | 5 幅矢量图源文件（PDF 格式，供 LaTeX 编译插入） |
-| `figures/png/` | 目录 | 5 幅高清预览图（PNG 格式，300 DPI） |
+### Figure 1: 半经典三轴转子相空间能量曲面与分离线拓扑
+基于朗道刚体欧拉方程与 Raduta 相干态分离线临界条件 $2E_{\text{crit}}\mathcal{J}_2 = I^2$。
+- **对应数据文件**：[`data/fig1_separatrix_energy_surface.csv`](data/fig1_separatrix_energy_surface.csv)
+- **矢量图文件**：[`figures/fig1_separatrix_rotor.pdf`](figures/fig1_separatrix_rotor.pdf)
+
+![Figure 1: 相空间分离线](figures/fig1_separatrix_rotor.png)
 
 ---
 
-## 编译与重现指引
+### Figure 2: $^{135}\text{Pr}$ 角分布与线偏振双根破简并仲裁
+实测 $a_2 = -0.32(4)$（Matta 2015）双根退化（$\delta_1 = -0.11$ vs $\delta_2 = -1.35$）。结合 JUROGAM-II Clover 康普顿散射线偏振实测值 $P = -0.18(6)$（Lv 2022），在 $>10.5\sigma$ 置信度下彻底证伪大模摆动根。
+- **对应数据文件**：[`data/fig2_135pr_polarization_dual_roots.csv`](data/fig2_135pr_polarization_dual_roots.csv)
+- **矢量图文件**：[`figures/fig2_135pr_dual_root_polarization.pdf`](figures/fig2_135pr_dual_root_polarization.pdf)
 
-- **LaTeX 编译**：
-  ```bash
-  pdflatex main.tex
-  bibtex main
-  pdflatex main.tex
-  pdflatex main.tex
-  ```
-- **Typst 编译**：
-  ```bash
-  typst compile paper.typ paper.pdf
-  ```
-- **重新生成全部插图**：
-  ```bash
-  cd figures/made
-  python3 generate_figures.py
-  ```
+![Figure 2: 偏振双根仲裁](figures/fig2_135pr_dual_root_polarization.png)
+
+---
+
+### Figure 3: 手征双重带内带内 $B(M1)$ 同相奇偶交错与简并点极小
+基于 $^{135}\text{Nd}$（Zhu 2003 PRL）与 $^{134}\text{Pr}$（Tonev 2007 PRL）绝对电磁跃迁几率，验证 Koike-Starosta-Hamamoto (KSH) 手征选择定则。双带内带内交错 $S_{M1}(I)$ 100% 同相吻合，简并点带间 $\Delta I=0$ 的 $M1$ 跃迁深极小（$<0.05\ \mu_N^2$）。
+- **对应数据文件**：[`data/fig3_chiral_m1_staggering.csv`](data/fig3_chiral_m1_staggering.csv)
+- **矢量图文件**：[`figures/fig3_chiral_m1_staggering_and_minima.pdf`](figures/fig3_chiral_m1_staggering_and_minima.pdf)
+
+![Figure 3: 手征选择定则同相交错与极小](figures/fig3_chiral_m1_staggering_and_minima.png)
+
+---
+
+### Figure 4: $^{131}\text{Ce} \to {}^{133}\text{Ce}$ 中子费米面演化与摆动阻尼
+基于推转 Nilsson-Strutinsky 模型对比 CIAE HI-13 $^{131}\text{Ce}$（Alwaleedi 2017）与 iThemba $^{133}\text{Ce}$（Ayangeakaa 2016）。中子费米面由中壳升至顶壳，引发高 $\Omega$ 轨道 Coriolis 阻尼。
+- **对应数据文件**：[`data/fig4_ce_fermi_surface_evolution.csv`](data/fig4_ce_fermi_surface_evolution.csv)
+- **矢量图文件**：[`figures/fig4_fermi_surface_evolution_ce.pdf`](figures/fig4_fermi_surface_evolution_ce.pdf)
+
+![Figure 4: 铈同位素费米面演化](figures/fig4_fermi_surface_evolution_ce.png)
+
+---
+
+### Figure 5: P-ADO 取向参数跨反应迁移之束流族 Mahalanobis 剖面
+基于科隆大学 Zobel 1983 NIM 实验数据，证明轻离子 $\alpha$ 束退取向随能量急剧破缺（$\tau = 2.16 > 1.0$），而重离子 $^{12}\text{C}$ 熔合蒸发注入稳态取向流（$\tau = 0.74 < 1.0$）。
+- **对应数据文件**：[`data/fig5_pado_projectile_family_profile.csv`](data/fig5_pado_projectile_family_profile.csv)
+- **矢量图文件**：[`figures/fig5_pado_projectile_families.pdf`](figures/fig5_pado_projectile_families.pdf)
+
+![Figure 5: P-ADO 束流族剖面](figures/fig5_pado_projectile_families.png)
+
+---
+
+## 源码与复现说明
+
+```bash
+# 1. 重新生成全套矢量 PDF 与 300 DPI PNG 插图
+cd figures/made
+python3 generate_figures.py
+
+# 2. 编译 Typst 双栏预印本
+typst compile paper.typ main.pdf
+```
