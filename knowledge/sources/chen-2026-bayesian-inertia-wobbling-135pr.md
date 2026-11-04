@@ -3,7 +3,7 @@ type: source
 title: "Chen et al. 2026: Bayesian inertias in 135Pr, accepted-record and inference boundaries"
 aliases: [Chen 2026 Bayesian inertia 135Pr, Bayesian inference of moments of inertia for wobbling motion in 135Pr]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-05
 status: ai-draft
 review_status: unreviewed
 source_type: theoretical-paper
@@ -29,6 +29,11 @@ tags: [a130, wobbling, identifiability, conditional-prediction, metadata-only]
 ## Scope and Reading Depth
 
 Identity and version checks were performed on 2026-10-29 UTC. Covered scope: the Crossref work JSON, DOI content-negotiated CSL JSON, the author's ECNU publication list, five official arXiv Atom searches, and the official APS accepted page successfully opened through the web tool on the correction pass. In that rendered page, the abstract is at lines 76-78 and acceptance is at line 146. Fresh terminal HTTP requests still returned 403; this does not negate the successful web open. The `raw_file` above is a metadata original, not a paper PDF.
+
+The 2026-11-05 query snapshot is archived at
+`raw/papers/gpt/query/20261105-135pr-bayesian-inertia/manifest.json`. It preserves
+the terminal APS 403 challenge HTML and response headers as an access boundary. It
+does not add manuscript text, equations, SI, code or posterior samples.
 
 **Not covered:** any manuscript version, numerical tables, figures, equations, reference list, SI, code, posterior samples, or sampling implementation. No original manuscript full text or SI was acquired. `reading_depth: metadata-only` deliberately includes the public abstract without implying a methods reading. Acquisition receipt: `outputs/literature-acquisition/20261029-day27-bayesian135pr.json`. This bounded task does not close Day27 or advance curriculum state; the parent session owns that lifecycle.
 
