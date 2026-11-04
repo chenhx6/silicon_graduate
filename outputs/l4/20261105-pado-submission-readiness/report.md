@@ -71,11 +71,13 @@ or author-provided dataset becomes available.
 1. Replace the placeholder author and affiliation block.
 2. Obtain user/author confirmation of the exact P0/P1 manuscript wording.
 3. Resolve the 1980/1983 source lineage and finite-\(J\) response-map convention.
-4. Decide whether the table-level conditional result is sufficient for an EPJA
+4. Fill the public-release manifest with a permanent repository/DOI, license and
+   author authorization.
+5. Decide whether the table-level conditional result is sufficient for an EPJA
    Regular Article or whether an additional public data set is required.
-5. Add a final covariance/feeding sensitivity appendix and state that it is a
+6. Add a final covariance/feeding sensitivity appendix and state that it is a
    declared model contract.
-6. Recheck EPJA submission requirements, data statement wording and template
+7. Recheck EPJA submission requirements, data statement wording and template
    version immediately before any submission.
 
 ## Current disposition

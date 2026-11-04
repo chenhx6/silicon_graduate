@@ -230,6 +230,7 @@ u$ 与三轴形变 hBcmixing 破缺指纹，以及在束实验中反冲飞出靶
 - [[pado-alignment-response-dependence-paper]] — P-ADO 公开表格方法学论文候选：比较 shared、projectile-family 和 energy-dependent alignment response，并用 pseudo-experiment coverage 校准 maximum-row 统计量。
 - [[a130-model-runtime-and-code-route-audit-20261105]] — HFODD、BIGSTICK、DIRHB、ROOT、Geant4 及本地 PTRM/TPSM/TAC scaffold 的可运行性、适用域和论文证据边界；明确模型代码存在不等于目标核素生产结果。
 - [[a130-model-runtime-and-public-code-audit-20261105]] — 上述公开软件、论文和运行时审计的归档 source 页，保留版本、哈希、访问失败和可复现边界。
+- [[pado-zobel-1980-1983-lineage-audit-20261105]] — P-ADO `^{67}Ga` benchmark 的 1979/1980/1983 依赖谱系审计；禁止静默合并或重复计数。
 - [[journal-route-and-template-audit-20261105]] — EPJA/PRC/PLB 官方投稿页与模板审计，明确当前 P-ADO 与 `133Ce` 候选的期刊路线和数据可用性门。
 
 ## Day28 当前L3：131Xe低自旋对象身份与δ分支
