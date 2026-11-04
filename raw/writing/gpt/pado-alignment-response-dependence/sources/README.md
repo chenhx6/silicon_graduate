@@ -11,3 +11,6 @@
 
 The paper is currently a Codex self-audited local draft. The main numerical
 result is table-level and conditional on the stated covariance contract.
+
+`claim-ledger.md` is the paper-use P0/P1 audit. It does not mark any claim as
+human-reviewed or admitted for final submission.

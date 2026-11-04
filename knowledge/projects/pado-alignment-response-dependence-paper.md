@@ -72,10 +72,13 @@ coverage-calibrated p-value 或正式 likelihood-ratio test。
   `AIC=32.6274`, `BIC=34.6188`;
 - energy model: `r0=0.278525`, slope `0.005280` per 10 MeV,
   `AIC=32.6339`, `BIC=34.6253`.
+- two-component mixture: `r_direct=0.195230`, `r_cascade=0.365900`,
+  `weight_direct=0.530370`, `AIC=33.5635`, `BIC=36.5507`.
 
-在 `rho=0` 的 Gaussian table-level sensitivity下，额外参数没有获得 AIC/BIC
-支持；这使文章主张保持为“shared-null incompatibility and calibration boundary”，
-而不是声称 family-specific 或 energy-dependent model 已被数据唯一选中。
+在 `rho=0` 的 Gaussian table-level sensitivity 下，family、energy 和最小
+direct/cascade mixture 都没有获得 AIC/BIC 支持；这使文章主张保持为
+“shared-null incompatibility and calibration boundary”，而不是声称某个
+condition-specific 或 feeding-specific model 已被数据唯一选中。
 
 用 shared-null `r=0.28`、`rho=0`、固定随机种子 `20261105` 的 1000 次
 parametric pseudo-experiments，最大 row-wise `D^2` 小于单行二维

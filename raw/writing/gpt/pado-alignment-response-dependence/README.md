@@ -18,6 +18,7 @@ wobbling, chirality, tilted-precession and signature-partner studies.
 - `figures/`: article figures;
 - `figures/made/data/`: regenerable plotting data;
 - `sources/`: claim-to-locator and source manifest;
+- `sources/claim-ledger.md`: paper-use P0/P1 claim audit;
 - `main.tex`, `references.bib`: created after the evidence and journal gates.
 
 The old `a130-triaxial` package remains a separate legacy audit case and is not

@@ -70,6 +70,15 @@ def model_r(params: np.ndarray, row: dict, model: str, ebar: float) -> float:
     raise ValueError(f"unknown model: {model}")
 
 
+def model_prediction(params: np.ndarray, row: dict, model: str, ebar: float, j: float) -> np.ndarray:
+    if model == "mixture":
+        r_direct, r_cascade, weight_direct = params
+        direct = np.array(alpha_prediction(j, r_direct))
+        cascade = np.array(alpha_prediction(j, r_cascade))
+        return weight_direct * direct + (1.0 - weight_direct) * cascade
+    return np.array(alpha_prediction(j, model_r(params, row, model, ebar)))
+
+
 def objective(
     params: np.ndarray,
     rows: list[dict],
@@ -80,10 +89,15 @@ def objective(
 ) -> float:
     total = 0.0
     for row in rows:
-        r = model_r(params, row, model, ebar)
-        if not 0.02 <= r <= 1.0:
-            return 1e12 + 1e9 * min(abs(r - 0.02), abs(r - 1.0))
-        mu = np.array(alpha_prediction(j, r))
+        if model == "mixture":
+            if not (0.02 <= params[0] <= 1.0 and 0.02 <= params[1] <= 1.0 and 0.0 <= params[2] <= 1.0):
+                return 1e12
+            mu = model_prediction(params, row, model, ebar, j)
+        else:
+            r = model_r(params, row, model, ebar)
+            if not 0.02 <= r <= 1.0:
+                return 1e12 + 1e9 * min(abs(r - 0.02), abs(r - 1.0))
+            mu = model_prediction(params, row, model, ebar, j)
         dy = row_vector(row) - mu
         cov = covariance(row, rho)
         sign, logdet = np.linalg.slogdet(cov)
@@ -104,6 +118,9 @@ def fit_model(rows: list[dict], model: str, rho: float, j: float = 6.5) -> dict:
     elif model == "energy":
         x0 = np.array([0.27, 0.0])
         bounds = [(0.02, 1.0), (-0.5, 0.5)]
+    elif model == "mixture":
+        x0 = np.array([0.15, 0.45, 0.5])
+        bounds = [(0.02, 1.0), (0.02, 1.0), (0.0, 1.0)]
     else:
         raise ValueError(model)
     starts = [x0]
@@ -128,21 +145,26 @@ def fit_model(rows: list[dict], model: str, rho: float, j: float = 6.5) -> dict:
     predictions = []
     chi2 = 0.0
     for row in rows:
-        r = model_r(params, row, model, ebar)
-        mu = np.array(alpha_prediction(j, r))
+        mu = model_prediction(params, row, model, ebar, j)
         dy = row_vector(row) - mu
         d2 = float(dy @ np.linalg.solve(covariance(row, rho), dy))
         chi2 += d2
-        predictions.append(
-            {
-                "beam": row["beam"],
-                "energy_MeV": row["beam_energy_lab_MeV"],
-                "r": r,
-                "alpha2_pred": float(mu[0]),
-                "alpha4_pred": float(mu[1]),
-                "mahalanobis_d2": d2,
-            }
-        )
+        prediction = {
+            "beam": row["beam"],
+            "energy_MeV": row["beam_energy_lab_MeV"],
+            "alpha2_pred": float(mu[0]),
+            "alpha4_pred": float(mu[1]),
+            "mahalanobis_d2": d2,
+        }
+        if model == "mixture":
+            prediction.update({
+                "r_direct": float(params[0]),
+                "r_cascade": float(params[1]),
+                "weight_direct": float(params[2]),
+            })
+        else:
+            prediction["r"] = model_r(params, row, model, ebar)
+        predictions.append(prediction)
     k = len(params)
     n = 2 * len(rows)
     return {
@@ -163,7 +185,7 @@ def fit_model(rows: list[dict], model: str, rho: float, j: float = 6.5) -> dict:
 def rho_profile(rows: list[dict], j: float) -> list[dict]:
     out = []
     for rho in np.linspace(-0.8, 0.8, 17):
-        for model in ("shared", "family", "energy"):
+        for model in ("shared", "family", "energy", "mixture"):
             fit = fit_model(rows, model, float(rho), j)
             out.append(
                 {
@@ -191,7 +213,7 @@ def main() -> None:
 
     rows = read_rows(args.input)
     fits = {}
-    for model in ("shared", "family", "energy"):
+    for model in ("shared", "family", "energy", "mixture"):
         fits[model] = fit_model(rows, model, args.rho, args.spin)
     profiles = rho_profile(rows, args.spin)
     payload = {

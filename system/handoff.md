@@ -21,7 +21,9 @@ updated: 2026-11-05
   - shared alignment model at `rho=0`: `r0=0.280146`, `AIC=32.0415`, `BIC=33.0372`, `Dmax^2=31.2643`;
   - family model: `r_alpha=0.288714`, `r_12C=0.275782`, no AIC/BIC support over shared at center contract;
   - energy model slope `0.005280` per 10 MeV, no AIC/BIC support over shared at center contract;
+  - minimal direct/cascade mixture negative control: `r_direct=0.195230`, `r_cascade=0.365900`, `weight_direct=0.530370`; AIC/BIC are worse than shared at the center contract;
   - 1000 shared-null pseudo-experiments with `r=0.28`, `rho=0`, seed `20261105`: max-row statistic below single-row `q95=5.9915` in `0.654` of toys; empirical 95th percentile `10.0142`;
+  - `sources/claim-ledger.md` now lists P0/P1 paper-use claims and their evidence boundaries;
   - interpretation is conditional table-level calibration/identifiability, not experimental significance, event-level reanalysis or universal P-ADO invalidation.
 - **Secondary `133Ce` boundary**：
   - South Africa archive contains readable ROOT/m4b matrices, workbooks, calibration and sorter material, but no event list, no complete `polarization.xlsx`, no absolute lifetime input, and no producer-level response covariance;
@@ -36,7 +38,7 @@ updated: 2026-11-05
   - `python3 system/scripts/wiki_lint.py --fail-on error` exit 0, 0 errors, 615 warnings, 5300 claim-needs-review info;
   - `python3 system/scripts/wiki_archive_gate.py check --root . --changed` exit 0, 0 failures;
   - `python3 system/scripts/analysis/test_analysis_suite.py` exit 0, regression checks passed;
-  - new P-ADO scripts compile with `py_compile`, profile/coverage/figure commands rerun successfully;
+  - new P-ADO scripts compile with `py_compile`, profile/coverage/figure commands and deterministic output validation rerun successfully;
   - LaTeX compiler is unavailable in the runtime, so `main.tex` syntax is statically checked but PDF compilation remains unverified.
 - **Next prompt**：继续 P-ADO paper self-audit：加入 feeding-aware negative-control model、coverage sensitivity and source manifest; then prepare final claim-to-locator table and decide whether EPJA Regular Article threshold is met. Keep `133Ce` secondary until response/holdout/data-release gates close.
 

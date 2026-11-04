@@ -57,7 +57,7 @@ def main() -> None:
             color=colors[beam],
             label=beam,
         )
-    for model, ls in (("shared", "--"), ("family", "-"), ("energy", ":")):
+    for model, ls in (("shared", "--"), ("family", "-"), ("energy", ":"), ("mixture", "-.")):
         fit = center[model]
         for beam in ("alpha", "12C"):
             pred = [p for p in fit["predictions"] if p["beam"] == beam]
@@ -75,7 +75,12 @@ def main() -> None:
 
     # Panel B: tau profile
     ax = axes[1]
-    for model, label, ls in (("shared", "shared", "--"), ("family", "family", "-"), ("energy", "energy", ":")):
+    for model, label, ls in (
+        ("shared", "shared", "--"),
+        ("family", "family", "-"),
+        ("energy", "energy", ":"),
+        ("mixture", "mixture", "-."),
+    ):
         rows = [r for r in profile["rho_profile"] if r["model"] == model]
         ax.plot([r["rho"] for r in rows], [r["tau_max_d2"] for r in rows], ls=ls, label=label)
     ax.axhline(1.0, color="black", lw=1, alpha=0.6)
