@@ -1,12 +1,12 @@
 ---
 type: project
-title: "Triaxial Collective Excitations across the A≈130 Region: Resolving the Frontiers of Nuclear Chirality and Wobbling"
+title: "WITHDRAWN legacy draft: Triaxial Collective Excitations across the A≈130 Region"
 aliases: [Triaxial collective modes A130 paper draft, A130 chirality and wobbling paper, 135Pr-135Nd-133Ce triaxial manuscript]
 created: 2026-11-04
-updated: 2026-11-04
-status: active
+updated: 2026-11-05
+status: deprecated
 review_status: unreviewed
-project_stage: manuscript-first-draft
+project_stage: withdrawn-legacy-draft
 confidentiality: private
 tags: [paper-draft, triaxiality, chirality, wobbling, 135pr, 135nd, 133ce, 134pr, 131ce, a130]
 nuclei: [135pr, 135nd, 133ce, 134pr, 131ce, 128cs, 136nd]
@@ -14,9 +14,23 @@ nuclei: [135pr, 135nd, 133ce, 134pr, 131ce, 128cs, 136nd]
 
 # Triaxial Collective Excitations across the $A \\a$A \aA \a130$ Region: Resolving the Frontiers of Nuclear Chirality and Wobbling
 
+## Withdrawal and evidence boundary
+
+This manuscript-first draft is withdrawn from the active paper queue. It bundled
+too many nuclei, mechanisms and model results, and promoted conditional toy
+calculations, author interpretations and private workbook-derived quantities
+to experimental conclusions. The old `11.1 sigma`, “definitively proves
+chirality” and “definitively excludes wobbling” language is withdrawn and must
+not be reused as Wiki evidence or paper text.
+
+The current successors are the narrower public `^{67}Ga` P-ADO calibration
+case study, the response-aware `133Ce` identifiability project, and the
+conditional `135Pr` branch audit. This file remains as a historical failure
+case and navigation aid.
+
 ## Research Question
 
-How can non-axial quadrupole collective excitations in the $A \\a$A \aA \a130$ mass region—encompassing transverse and longitudinal wobbling motion, chiral doublet bands, tilted axis precession, and $\\gamma$-vibrational quasiparticle coupling—be definitively identified and discriminated against planar signature partner bands and triaxial shape coexistence?
+How can non-axial quadrupole collective excitations in the $A \\a$A \aA \a130$ mass region—encompassing transverse and longitudinal wobbling motion, chiral doublet bands, tilted axis precession, and $\\gamma$-vibrational quasiparticle coupling—be identified under explicit response, covariance, state-identity and holdout contracts?
 Specifically, this manuscript addresses three core questions at the frontier of low-energy nuclear structure:
 1. **The $^{135}\\text{Pr}$ Wobbling Controversy**: Does the Gammasphere directional angular distribution provide genuine evidence for transverse wobbling, or does linear polarization data break the mathematical dual-root degeneracy in favor of an unfavored signature partner?
 2. **Electromagnetic Rigor of Nuclear Chirality**: Do the benchmark chiral doublets in $^{135}\\text{Nd}$ and $^{134}\\text{Pr}$ satisfy the Koike-Starosta-Hamamoto electromagnetic selection rules (in-phase $S_{M1}(I)$ staggering, intra-band $B(E2)$ similarity, and interband $\\Delta I=0$ $M1$ vanishing minimum), and does Grodner $g$-factor equality hold?
@@ -26,12 +40,18 @@ Specifically, this manuscript addresses three core questions at the frontier of 
 
 ## Current Hypotheses
 
-1. **Hypothesis 1 (Falsification of Low-Spin Wobbling in $^{135}\\text{Pr}$)**:
-   The apparent transverse wobbling band in $^{135}\\text{Pr}$ claimed by Gammasphere measurements (Matta 2015, Sensharma 2019) is an artifact of Hypothesis-Driven Root Selection (HDRS). Directional angular distribution alone ($a_2 = -0.42(3)$) possesses zero discriminatory power between the wobbling solution ($\\delta_1 = -1.83$) and the signature partner solution ($\\delta_2 = -0.47$). The Compton linear polarization asymmetry measured by JUROGAM II ($P = -0.21(4)$) rejects the wobbling root at **$11.1\\sigma$**, proving that the connecting $747.5\\text{ keV}$ transition is $81.9\\%$ $M1$-dominated, characteristic of an unfavored signature partner band (tilted precession, TiP).
-2. **Hypothesis 2 (Electromagnetic Confirmation of Nuclear Chirality in $^{135}\\text{Nd}$ and $^{134}\\text{Pr}$)**:
-   Nuclear chirality in the $A \\a$A \aA \a130$ region is a robust, experimentally verifiable quantum phenomenon. True chiral partner bands exhibit **$100\\%$ in-phase $S_{M1}(I)$ staggering**, intra-band $B(E2)$ values matching within $<15\\%$, and an interband $\\Delta I = 0$ $M1$ transition rate that drops to a deep minimum ($<0.05\\ \\mu_N^2$) at the chiral degeneracy point due to time-reversal interference. Both $^{135}\\text{Nd}$ (3-quasiparticle) and $^{134}\\text{Pr}$ (odd-odd) strictly fulfill these criteria, while planar signature partners and shape-coexisting bands are definitively excluded.
+1. **Hypothesis 1 (conditional low-spin branch audit in $^{135}\\text{Pr}$)**:
+   The angular-distribution input alone is degenerate between the large- and
+   small-\(\delta\) roots under the declared toy response. The reported
+   JUROGAM II polarization favors the small root in that conditional calculation,
+   but this is not an experimental \(11.1\sigma\) exclusion or proof of a unique
+   signature-partner/TiP mechanism.
+2. **Hypothesis 2 (conditional electromagnetic chirality audit in $^{135}\\text{Nd}$ and $^{134}\\text{Pr}$)**:
+   Electromagnetic selection rules form a useful comparison bundle, but the
+   available sources do not establish a universal chiral criterion or
+   definitively exclude signature/configuration-mixing alternatives.
 3. **Hypothesis 3 (Isotone-Driven Collective Mode Shift in $^{131,133}\\text{Ce}$)**:
-   In $^{131}\\text{Ce}$ ($N=73$), the neutron Fermi level lies in the lower-middle $\\nu h_{11/2}$ shell, where Band 4 is formed by a $\\gamma$-vibrational phonon coupled to the $\\nu h_{11/2}$ quasiparticle ($\\gamma \\otimes e$), decaying via high-energy transitions ($994, 1108\\text{ keV}$). In $^{133}\\text{Ce}$ ($N=75$), the Fermi level shifts to the top of the $\\nu h_{11/2}$ shell, where Band 4 is an unfavored signature partner band with $M1$-dominated interband transitions ($76.8\\% - 97.2\\%$) and $B(E2)_{\\text{inter}}/B(E2)_{\\text{intra}} < 0.1$, definitively ruling out wobbling.
+   In $^{131}\\text{Ce}$ ($N=73$), the neutron Fermi level lies in the lower-middle $\\nu h_{11/2}$ shell, where Band 4 is formed by a $\\gamma$-vibrational phonon coupled to the $\\nu h_{11/2}$ quasiparticle ($\\gamma \\otimes e$), decaying via high-energy transitions ($994, 1108\\text{ keV}$). In $^{133}\\text{Ce}$ ($N=75$), the Fermi level shifts to the top of the $\\nu h_{11/2}$ shell, where Band 4 is an unfavored signature partner band with $M1$-dominated interband transitions ($76.8\\% - 97.2\\%$) and $B(E2)_{\\text{inter}}/B(E2)_{\\text{intra}} < 0.1$, conditionally disfavoring a simple one-phonon wobbling assignment under the workbook-derived response assumptions.
 
 ---
 
@@ -56,9 +76,9 @@ The primary experimental and theoretical evidence base synthesized in this manus
 ## Manuscript Structure & Analytical Content
 
 ### Abstract (Chinese & English)
-**摘要**：非轴对称三轴形变（$\\gamma \\a30^\\circ$）在低能原子核中诱发出量子摆动运动（Wobbling）与手征双重带（Chiral Doublets）等奇异集体激发模式。然而在 $A \\a$A \aA \a130$ 质量区，由于方向角分布中普遍存在的多极混合比 $\\delta(E2/M1)$ 双根退化以及 $\\gamma$ 软核芯的动态涨落，大量低自旋候选带引发了激烈的学术争论。本文基于严格的经典陀螺欧拉动力学分离线、Greiner 三态能量求和规则、Casten 跃迁相消定理以及在束 $\\gamma$ 谱学五道门严苛筛查法典，对 $A \\a$A \aA \a130$ 核心核素开展了全矩阵对账与统计似然仲裁。结果表明：(1) $^{135}\\text{Pr}$ 的 Gammasphere 纯角分布存在内在双根退化（$\\Delta\\chi^2=0$），JUROGAM II 康普顿线偏振度（$P=-0.21(4)$）以 $11.1\\sigma$ 的绝对置信度排除了大混合比横向摆动解，确立其为 $81.9\\%$ $M1$ 占优的未有利旋称伙伴带（TiP）；(2) $^{135}\\text{Nd}$（3-准粒子）与 $^{134}\\text{Pr}$（奇奇核）严格满足 Koike-Starosta-Hamamoto 选择定则，带内 $B(M1)$ 奇偶交错参量 $S_{M1}(I)$ 呈现 $100\\%$ 同相一致，带内 $B(E2)$ 相似度偏差 $<15\\%$，且在双带能量简并点处测得带间 $\\Delta I=0$ $M1$ 跃迁深极小（$<0.05\\ \\mu_N^2$），结合 Grodner $g$ 因子相等性排他性确立了真实核手征性；(3) 奇中子 Ce 同位素链随中子数由 $N=73$（$^{131}\\text{Ce}$）增至 $N=75$（$^{133}\\text{Ce}$），费米面由 $\\nu h_{11/2}$ 中部移至顶端，使主导非轴激发由 $\\gamma$ 振动声子耦合向倾斜进动未有利伙伴带演化，表观摆动频率深陷负值且 $M1$ 占优（$76.8\\% - 97.2\\%$），彻底证伪 $^{133}\\text{Ce}$ 摆动运动。本文为新一代大立体角跟踪阵列（AGATA/GRETA）开展三轴核结构精密实验确立了统一的谱学物理判据标准。
+**摘要**：非轴对称三轴形变（$\\gamma \\a30^\\circ$）在低能原子核中诱发出量子摆动运动（Wobbling）与手征双重带（Chiral Doublets）等奇异集体激发模式。然而在 $A \\a$A \aA \a130$ 质量区，由于方向角分布中普遍存在的多极混合比 $\\delta(E2/M1)$ 双根退化以及 $\\gamma$ 软核芯的动态涨落，大量低自旋候选带引发了激烈的学术争论。本文基于严格的经典陀螺欧拉动力学分离线、Greiner 三态能量求和规则、Casten 跃迁相消定理以及在束 $\\gamma$ 谱学五道门严苛筛查法典，对 $A \\a$A \aA \a130$ 核心核素开展了全矩阵对账与统计似然仲裁。结果表明：(1) $^{135}\\text{Pr}$ 的 Gammasphere 纯角分布存在内在双根退化（$\\Delta\\chi^2=0$），JUROGAM II 康普顿线偏振度（$P=-0.21(4)$）在声明的 toy response 下偏好小混合比根，但不构成实验显著性或唯一的未有利旋称伙伴/TiP 裁决；(2) $^{135}\\text{Nd}$（3-准粒子）与 $^{134}\\text{Pr}$（奇奇核）严格满足 Koike-Starosta-Hamamoto 选择定则，带内 $B(M1)$ 奇偶交错参量 $S_{M1}(I)$ 呈现 $100\\%$ 同相一致，带内 $B(E2)$ 相似度偏差 $<15\\%$，且在双带能量简并点处测得带间 $\\Delta I=0$ $M1$ 跃迁深极小（$<0.05\\ \\mu_N^2$），结合 Grodner $g$ 因子相等性提供支持核手征的条件性证据，但不排除动态或组态混合解释；(3) 奇中子 Ce 同位素链随中子数由 $N=73$（$^{131}\\text{Ce}$）增至 $N=75$（$^{133}\\text{Ce}$），费米面由 $\\nu h_{11/2}$ 中部移至顶端，使主导非轴激发由 $\\gamma$ 振动声子耦合向倾斜进动未有利伙伴带演化，表观摆动频率深陷负值且 $M1$ 占优（$76.8\\% - 97.2\\%$），条件性不支持简单 $^{133}\\text{Ce}$ 单声子摆动归属，完整响应和 holdout 仍未闭合。本文为新一代大立体角跟踪阵列（AGATA/GRETA）开展三轴核结构精密实验确立了统一的谱学物理判据标准。
 
-**Abstract**: Non-axial triaxial deformation ($\\gamma \\a30^\\circ$) in atomic nuclei gives rise to exotic collective modes, most notably wobbling motion and chiral doublet bands. However, in the $A \\a$A \aA \a130$ region, severe controversies have emerged due to mathematical dual-root degeneracies in directional angular distributions and coupling to soft $\\gamma$-vibrational cores. Here, we present a unified theoretical and experimental synthesis combining Euler asymmetric-top separatrix dynamics, Greiner parameter-independent sum rules, Casten two-state transition cancellation, and a five-gate in-beam spectroscopy arbitration protocol. Our principal conclusions are: (1) In $^{135}\\text{Pr}$, directional angular distributions from Gammasphere possess zero intrinsic discriminatory power ($\\Delta\\chi^2=0$), while Clover linear polarization from JUROGAM II ($P=-0.21(4)$) breaks the degeneracy at **$11.1\\sigma$**, ruling out transverse wobbling in favor of an $81.9\\%$ $M1$-dominated unfavored signature partner band; (2) In $^{135}\\text{Nd}$ and $^{134}\\text{Pr}$, the partner bands rigorously fulfill the Koike-Starosta-Hamamoto selection rules with **$100\\%$ in-phase $S_{M1}(I)$ staggering**, intra-band $B(E2)$ similarity ($<15\\%$ deviation), and vanishing interband $\\Delta I=0$ $M1$ transitions ($<0.05\\ \\mu_N^2$) at degeneracy, which, combined with Grodner $g$-factor equality, definitively proves nuclear chirality; (3) In odd-$A$ Ce isotopes, the shift of the neutron Fermi level from middle $\\nu h_{11/2}$ ($N=73$, $^{131}\\text{Ce}$) to top $\\nu h_{11/2}$ ($N=75$, $^{133}\\text{Ce}$) drives a transition from $\\gamma$-vibrational core coupling ($\\gamma \\otimes e$) to tilted precession, where apparent wobbling frequencies drop into unphysical negative territory and $M1$ dominance ($76.8\\% - 97.2\\%$) excludes wobbling. This work establishes benchmark criteria for next-generation gamma-ray tracking spectrometers.
+**Abstract**: Non-axial triaxial deformation ($\\gamma \\a30^\\circ$) in atomic nuclei gives rise to exotic collective modes, most notably wobbling motion and chiral doublet bands. However, in the $A \\a$A \aA \a130$ region, severe controversies have emerged due to mathematical dual-root degeneracies in directional angular distributions and coupling to soft $\\gamma$-vibrational cores. Here, we present a unified theoretical and experimental synthesis combining Euler asymmetric-top separatrix dynamics, Greiner parameter-independent sum rules, Casten two-state transition cancellation, and a five-gate in-beam spectroscopy arbitration protocol. Our principal conclusions are: (1) In $^{135}\\text{Pr}$, directional angular distributions from Gammasphere possess zero intrinsic discriminatory power ($\\Delta\\chi^2=0$), while Clover linear polarization from JUROGAM II ($P=-0.21(4)$) breaks the degeneracy under the declared toy response, favoring the small root rather than experimentally excluding transverse wobbling in favor of an $81.9\\%$ $M1$-dominated unfavored signature partner band; (2) In $^{135}\\text{Nd}$ and $^{134}\\text{Pr}$, the partner bands rigorously fulfill the Koike-Starosta-Hamamoto selection rules with **$100\\%$ in-phase $S_{M1}(I)$ staggering**, intra-band $B(E2)$ similarity ($<15\\%$ deviation), and vanishing interband $\\Delta I=0$ $M1$ transitions ($<0.05\\ \\mu_N^2$) at degeneracy, which, combined with Grodner $g$-factor equality, provides conditional support for a chiral interpretation while retaining competing explanations; (3) In odd-$A$ Ce isotopes, the shift of the neutron Fermi level from middle $\\nu h_{11/2}$ ($N=73$, $^{131}\\text{Ce}$) to top $\\nu h_{11/2}$ ($N=75$, $^{133}\\text{Ce}$) drives a transition from $\\gamma$-vibrational core coupling ($\\gamma \\otimes e$) to tilted precession, where workbook-derived wobbling-frequency proxies and $M1$ dominance ($76.8\\% - 97.2\\%$) conditionally disfavor a simple wobbling assignment. This work establishes benchmark criteria for next-generation gamma-ray tracking spectrometers.
 
 ---
 
@@ -89,7 +109,7 @@ The primary experimental and theoretical evidence base synthesized in this manus
    $$P(\\delta) = \\frac{3 \\delta^2 R_{22} - 2 \\sqrt{6} \\delta R_{12} - R_{20}}{(2 - \\delta^2) R_{20} + 1 + \\delta^2}$$
    - Root 1 predicts $P_{\\text{calc}}(\\delta_1) = +0.34$
    - Root 2 predicts $P_{\\text{calc}}(\\delta_2) = -0.22$
-   JUROGAM II measured $P_{\\text{exp}} = -0.21(4)$, yielding $\\Delta\\chi^2 = 122.3$ ($11.1\\sigma$), definitively rejecting the wobbling hypothesis.
+   JUROGAM II measured $P_{\\text{exp}} = -0.21(4)$, yielding $\\Delta\\chi^2 = 122.3$ (a large conditional toy discrepancy), providing a conditional toy comparison rather than an experimental rejection.
 
 ---
 
