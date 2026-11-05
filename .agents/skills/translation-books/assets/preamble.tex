@@ -1,0 +1,148 @@
+% XeLaTeX/Tectonic. Load after:
+% \documentclass[UTF8,11pt,a4paper,twoside,openright,fontset=fandol]{ctexbook}
+\usepackage{geometry}
+\geometry{a4paper,portrait,left=30mm,right=30mm,top=25mm,bottom=25mm,
+  bindingoffset=0mm,headheight=22pt,headsep=7mm,footskip=12mm}
+\usepackage{fontspec}
+\IfFileExists{texgyretermes-regular.otf}{%
+  \setmainfont{texgyretermes}[
+    Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,
+    ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+  \newcommand{\TranslationWesternFont}{TeX Gyre Termes}
+}{%
+  \IfFontExistsTF{TeX Gyre Termes}{%
+    \setmainfont{TeX Gyre Termes}
+    \newcommand{\TranslationWesternFont}{TeX Gyre Termes}
+  }{%
+    \setmainfont{Nimbus Roman}
+    \newcommand{\TranslationWesternFont}{Nimbus Roman}
+  }%
+}
+% fontset=fandol already declares Song, Hei and Kai; do not redefine families.
+\xeCJKsetup{CJKglue={\hskip 0pt},PunctStyle=kaiming,
+  CJKecglue={\hskip .2em plus .1em minus .1em},CheckSingle=true}
+\ctexset{autoindent=2,chapter={
+  name={第,章},number=\arabic{chapter},
+  format=\heiti\fontsize{18}{22.5}\selectfont,
+  nameformat={},titleformat={},aftername=\quad,
+  beforeskip=24pt,afterskip=24pt,fixskip=true,pagestyle=plain},
+  section={format=\heiti\fontsize{14}{17.5}\selectfont,
+    beforeskip=18pt,afterskip=9pt,afterindent=true},
+  subsection={format=\heiti\fontsize{12}{15}\selectfont,
+    beforeskip=15pt,afterskip=6pt,afterindent=true}}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx,xcolor}
+\usepackage{array,tabularx,longtable,booktabs,multirow}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage{etoolbox}
+\usepackage{needspace}
+\usepackage{fancyhdr}
+% In book classes chapter is level 0: depth 2 gives THREE visible tiers.
+\usepackage[unicode,pdfencoding=auto,bookmarksnumbered=true,
+  hypertexnames=false,
+  bookmarksopen=true,bookmarksopenlevel=2,bookmarksdepth=2,
+  colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue,
+  pdfdisplaydoctitle=true]{hyperref}
+\usepackage[depth=2]{bookmark}
+\pdfstringdefDisableCommands{%
+  \def\alpha{α}\def\beta{β}\def\gamma{γ}\def\delta{δ}%
+  \def\chi{χ}\def\({}\def\){}}
+\hypersetup{pdfdisplaydoctitle=true}
+
+\makeatletter
+\@ifclassloaded{ctexbook}{}{\PackageError{translation-layout}
+  {The ctexbook class is required}{Use the class line documented above.}}
+\if@twoside\else
+  \PackageError{translation-layout}{twoside is required}{Add twoside to the class options.}
+\fi
+\if@openright\else
+  \PackageError{translation-layout}{openright is required}{Add openright to the class options.}
+\fi
+\if@twocolumn
+  \PackageError{translation-layout}{One column is required}{Remove twocolumn.}
+\fi
+% ctex has its own line spread; remove it before requesting exact baselines.
+\linespread{1}
+\renewcommand{\normalsize}{%
+  \@setfontsize\normalsize{11}{18}%
+  \abovedisplayskip=9pt
+  \belowdisplayskip=9pt
+  \abovedisplayshortskip=9pt
+  \belowdisplayshortskip=9pt
+  \let\@listi\@listI}
+\normalsize
+\setlength{\parindent}{22pt}
+\setlength{\parskip}{6pt}
+\setlength{\jot}{8pt}
+\allowdisplaybreaks[1]
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\brokenpenalty=5000
+\predisplaypenalty=10000
+\raggedbottom
+\emergencystretch=2em
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+% One item per header. Chapter/section commands update marks, never fancyhead.
+\definecolor{TranslationHeaderGray}{gray}{.42}
+\newcommand{\TranslationHeaderFont}{\normalfont\songti\fontsize{9}{11.25}\selectfont
+  \xeCJKsetup{CJKecglue={\hskip 0pt}}\color{TranslationHeaderGray}}
+\newcommand{\TranslationFooterFont}{\normalfont\fontsize{9}{11.25}\selectfont}
+\fancypagestyle{translation}{%
+  \fancyhf{}
+  \fancyhead[RO]{\TranslationHeaderFont\nouppercase{\leftmark}}
+  \fancyhead[LE]{\TranslationHeaderFont\nouppercase{\rightmark}}
+  \fancyfoot[RO,LE]{\TranslationFooterFont\thepage}
+  \renewcommand{\headrulewidth}{.25pt}
+  \renewcommand{\footrulewidth}{0pt}
+  \renewcommand{\headrule}{\ifdim\headrulewidth>0pt
+    \hbox to\headwidth{%
+      \color{TranslationHeaderGray}\leaders\hrule height\headrulewidth\hfill}\fi}}
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyfoot[RO,LE]{\TranslationFooterFont\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}}
+\pagestyle{translation}
+\renewcommand{\chaptermark}[1]{%
+  \markboth{\if@mainmatter 第\thechapter 章\hspace{.5em}\fi #1}{}}
+\renewcommand{\sectionmark}[1]{%
+  \markright{\ifnum\c@secnumdepth>\z@\thesection\hspace{.5em}\fi #1}}
+\renewcommand{\subsectionmark}[1]{}
+% A blank verso inserted by openright must not retain an earlier running head.
+\renewcommand{\cleardoublepage}{\clearpage
+  \if@twoside\ifodd\c@page\else
+    \hbox{}\thispagestyle{empty}\newpage
+    \if@twocolumn\hbox{}\newpage\fi
+  \fi\fi}
+\makeatother
+
+\DeclareCaptionFont{translationnine}{\fontsize{9}{12}\selectfont}
+\captionsetup{font=translationnine,labelfont=normalfont,textfont=normalfont,
+  labelsep=quad,skip=6pt,singlelinecheck=true,justification=centering}
+\captionsetup[figure]{position=bottom}
+\captionsetup[table]{position=top}
+\setlength{\tabcolsep}{5pt}
+\setlength{\extrarowheight}{2pt}
+\setlength{\LTpre}{9pt}
+\setlength{\LTpost}{9pt}
+\setlength{\LTcapwidth}{\textwidth}
+\newcommand{\TranslationTableFont}{\fontsize{9}{13.5}\selectfont}
+\AtBeginEnvironment{tabular}{\TranslationTableFont}
+\AtBeginEnvironment{tabularx}{\TranslationTableFont}
+\AtBeginEnvironment{longtable}{\TranslationTableFont}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{.85}
+\renewcommand{\bottomfraction}{.75}
+\renewcommand{\textfraction}{.12}
+\renewcommand{\floatpagefraction}{.65}
+
+
+\AtBeginDocument{\normalsize\setlength{\parindent}{2\ccwd}\setlength{\parskip}{6pt}}

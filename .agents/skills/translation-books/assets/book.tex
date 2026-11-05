@@ -1,0 +1,40 @@
+\documentclass[UTF8,11pt,a4paper,twoside,openright,fontset=fandol]{ctexbook}
+\input{preamble}
+\hypersetup{pdftitle={书籍译本排版示例}}
+\begin{document}
+\frontmatter
+\begin{titlepage}
+  \centering
+  \vspace*{30mm}
+  {\heiti\fontsize{24}{32}\selectfont 书籍译本排版示例\par}
+  \vspace{12mm}
+  {\large 中文译本\par}
+  \vfill
+\end{titlepage}
+% Arrange the actual front matter in the source book's order.
+\tableofcontents
+\mainmatter
+\chapter{正文示例}\label{ch:sample}
+\section{段落与组件}\label{sec:components}
+这里展示默认的 A4 中文阅读版式。实际翻译时替换为经原文核对的完整内容，
+并为公式、表格和图片建立稳定标签。
+\subsection{数学排版}\label{subsec:math}
+行内公式 \(E=\hbar\omega\) 随文排版，式~\eqref{eq:sample} 展示行间公式。
+\begin{equation}
+  \int_0^\infty e^{-a x}\,\mathrm{d}x=\frac{1}{a},\qquad a>0 .
+  \label{eq:sample}
+\end{equation}
+\begin{table}[htbp]
+  \centering
+  \caption{用于检查列距和横线的示例表格}\label{tab:sample}
+  \begin{tabular}{lcc}
+    \toprule
+    项目 & 数值 & 单位 \\
+    \midrule
+    长度 & 1.0 & cm \\
+    时间 & 2.0 & s \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+章节、公式和表格引用均应指向实际对象，例如表~\ref{tab:sample}。
+\end{document}

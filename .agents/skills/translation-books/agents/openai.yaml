@@ -1,0 +1,4 @@
+interface:
+  display_name: "书籍翻译 translation-books"
+  short_description: "通用书籍翻译与中文 PDF 排版，侧重核物理，默认 A4 电脑阅读版"
+  default_prompt: "使用 $translation-books 将指定书籍译成中文 PDF，沿用已确认要求，未指定版式时采用 A4 电脑阅读版，并完成组件核对与视觉检查。"
