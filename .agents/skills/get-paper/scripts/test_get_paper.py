@@ -201,6 +201,31 @@ class GetPaperTests(unittest.TestCase):
             self.assertEqual(result["kind"], "pdf")
             self.assertTrue((destination / "paper.pdf").is_file())
 
+    def test_raw_pull_preserves_all_candidate_responses(self) -> None:
+        with tempfile.TemporaryDirectory(prefix="get-paper-test-", dir=REPO_DATA) as temporary:
+            destination = Path(temporary) / "paper" / "source"
+            responses = iter([
+                (b"<html>redirect/login response</html>", {"url": "http://publisher.example/landing", "status": "403", "content_type": "text/html"}),
+                (b"%PDF-1.4\ncomplete bytes", {"url": "http://publisher.example/paper.pdf", "status": "200", "content_type": "application/pdf"}),
+            ])
+            with mock.patch.object(MODULE, "request_bytes", side_effect=lambda *args, **kwargs: next(responses)):
+                result = MODULE.download_raw_candidates(["http://publisher.example/landing", "http://publisher.example/paper.pdf"], destination, force=False)
+            self.assertTrue(result["pdf_found"])
+            self.assertEqual(result["kind"], "raw-pull")
+            self.assertTrue((destination / "response-001.html").is_file())
+            self.assertTrue((destination / "paper.pdf").is_file())
+            self.assertEqual(len(result["responses"]), 2)
+
+    def test_publisher_candidates_cover_common_doi_prefixes(self) -> None:
+        springer = MODULE.publisher_candidate_urls("10.1007/s00159-024-00123-4")
+        wiley = MODULE.publisher_candidate_urls("10.1002/andp.202400123")
+        iop = MODULE.publisher_candidate_urls("10.1088/1361-6471/ad1234")
+        aps = MODULE.publisher_candidate_urls("10.1103/PhysRevC.98.064302")
+        self.assertIn("https://link.springer.com/content/pdf/10.1007/s00159-024-00123-4.pdf", springer)
+        self.assertIn("https://onlinelibrary.wiley.com/doi/pdf/10.1002/andp.202400123", wiley)
+        self.assertIn("https://iopscience.iop.org/article/10.1088/1361-6471/ad1234/pdf", iop)
+        self.assertIn("https://journals.aps.org/prc/pdf/10.1103/PhysRevC.98.064302", aps)
+
     def test_unknown_artifact_payload_is_rejected(self) -> None:
         with tempfile.TemporaryDirectory(prefix="get-paper-test-", dir=REPO_DATA) as temporary:
             with self.assertRaises(MODULE.GetPaperError):
@@ -308,10 +333,11 @@ class GetPaperTests(unittest.TestCase):
             with self.assertRaises(MODULE.GetPaperError):
                 MODULE.load_cached_payload(destination, "task")
 
-    def test_non_http_and_private_urls_are_rejected(self) -> None:
+    def test_normal_url_mode_rejects_but_raw_pull_mode_accepts_urls(self) -> None:
         for url in ("file:///tmp/paper.pdf", "http://127.0.0.1/paper.pdf", "http://localhost/paper.pdf"):
             with self.subTest(url=url), self.assertRaises(MODULE.NetworkError):
                 MODULE.validate_remote_url(url)
+            MODULE.validate_remote_url(url, unrestricted=True)
 
 
 if __name__ == "__main__":
