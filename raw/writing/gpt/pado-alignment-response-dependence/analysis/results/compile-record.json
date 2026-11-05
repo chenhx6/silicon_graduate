@@ -11,6 +11,6 @@
   "pdf_sha256": "2950f55e10d8cc005e114a36362c60960603452d8754f748d44417cb8d90ab83",
   "status": "compiled-and-visually-inspected",
   "warnings": "underfull hbox/vbox layout warnings only; no overfull boxes, unresolved citations, fatal errors, clipping, overlap, or figure/table truncation observed",
-  "visual_inspection": "pages 1-6 rendered and checked after the least-favorable 35-cell coverage result was compressed into the Results text",
-  "compiled_at": "2026-11-05T09:16:01+08:00"
+  "visual_inspection": "pages 1-6 rendered and checked after the least-favorable coverage sentence was compressed; bibliography remained complete",
+  "compiled_at": "2026-11-05T09:18:21+08:00"
 }

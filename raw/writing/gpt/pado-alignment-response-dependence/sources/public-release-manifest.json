@@ -59,8 +59,8 @@
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/compile-record.json",
       "release_role": "candidate-public",
-      "sha256": "7434340fa81a4cd62ce47dfeb484a5fd016f026fbff29f4d875f8573c6b5c732",
-      "size": 851
+      "sha256": "066a556f04adfc3d2f317fc5412a423153e03371e9bfe7a7356bc12924f11b83",
+      "size": 855
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/coverage-grid.json",
@@ -83,8 +83,8 @@
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage-grid-toys.csv",
       "release_role": "candidate-public",
-      "sha256": "7777a370c8451cb2355ba15a887582324a7045365329bf3479312b02c20e4648",
-      "size": 554112
+      "sha256": "5facd962d764cf449e38107c76f858bce15a59817cc7ea87283b65dc79e4de6b",
+      "size": 536611
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage-grid.json",
