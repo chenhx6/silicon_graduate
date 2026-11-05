@@ -22,8 +22,9 @@ Physics Formulation:
      S_M1(I) = B(M1; I -> I - 1) / [ 0.5 * ( B(M1; I + 1 -> I) + B(M1; I - 1 -> I - 2) ) ]
    RULE 1: In both Band 1 and Band 2, S_M1(I) must oscillate with IDENTICAL PHASE:
      sign( S_M1_band1(I) - 1.0 ) == sign( S_M1_band2(I) - 1.0 ) across the chiral regime.
-   An out-of-phase oscillation definitively rejects the chiral interpretation, signaling
-   planar signature splitting.
+   An out-of-phase oscillation weakens the idealized chiral-selection-rule
+   interpretation under the declared model and response contract; it does not
+   by itself classify the bands as planar signature splitting.
 
 3. Inter-Band Delta I = 0 M1 Transition Minimum:
    Because laboratory chiral states are symmetric (|1>) and antisymmetric (|2>) superpositions:

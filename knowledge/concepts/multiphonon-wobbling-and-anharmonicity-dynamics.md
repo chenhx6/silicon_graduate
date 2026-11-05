@@ -13,7 +13,7 @@ tags: [multiphonon-wobbling, wobbling-motion, anharmonicity, phonon-hierarchy, e
 
 ## Definition
 
-### 物理全景：从单声子横向进动到双声子激发谱的完全确证
+### 物理全景：从单声子横向进动到双声子激发谱的条件检验
 
 在低能核物理与三轴超形变（Triaxial Superdeformation, TSD）前沿中，摆动运动（Wobbling Motion）代表着刚性三轴核主转动轴在量子力学下的横向简谐进动。
 在发现一维单声子摆动带（$n_w = 1$）之后，国际核结构实验界（如 EUROBALL / Gammasphere 上的 $^{163}\text{Lu}, ^{165}\text{Lu}, ^{167}\text{Lu}$ 实验，D. R. Jensen et al. Phys. Rev. Lett. 89, 142503, 2002）：
@@ -111,7 +111,10 @@ python3 system/scripts/analysis/nuclear_analyzer.py mwob \
    - 能量比值审查：$R_{21} = 1.88 \in [1.5, 2.3]$（PASS）；
    - 跨步跃迁倍增审查：$B(E2; 2 \to 1) / B(E2; 1 \to 0) = 0.62 / 0.32 = 1.94 \approx 2$（PASS，展现出宏观量子玻色相干增强！）；
    - 交叉跃迁受阻审查：$B(E2; 2 \to 0) / B(E2; 2 \to 1) = 0.015 / 0.62 = 0.0242 \le 0.10$（PASS，微弱交叉泄漏小于 $2.5\%$）；
-   - **最终结论：`CONFIRMED_TWO_PHONON_WOBBLING (Jensen/Petrache standard satisfied)`**，以无可辩驳的证据链彻底敲定了双声子摆动运动的实验存在！
+   - **当前结论：`conditional-two-phonon-wobbling-screening-pass`**。这组
+     synthetic/derived 输入通过声明的能量和分支比筛选，但没有 raw spectra、
+     source-level covariance、完整寿命/feeding 或独立模式观测，因此不能写成
+     双声子摆动的无条件实验确证。
 
 ---
 
@@ -123,7 +126,9 @@ python3 system/scripts/analysis/nuclear_analyzer.py mwob \
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本页整理多声子 wobbling 的模型公式和条件性 screening 量。任何 preset
+输出都必须标记为 derived/model-dependent，不能替代逐线实验电磁强度、
+寿命、响应和竞争解释审计。
 
 ## Sources
 

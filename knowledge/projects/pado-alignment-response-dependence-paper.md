@@ -43,6 +43,9 @@ wobbling/chirality/TiP 证据链中 alignment nuisance 的公开校准基准。
 
 - [[zobel-1983-energy-projectile-alignment]]：原始 `^{67}Ga` 反应、Table 1、
   `alpha2/alpha4` fit outputs、statistical-error 和 covariance boundary；
+- [[pado-ionescu-control-feasibility-20261105]]：Ionescu 1981 的 feeding-aware
+  pure-\(E2\) 先验和独立 public-control 可行性审计；该来源用于 motivation/
+  limitation，不与 \(^{67}\)Ga common-\(\rho\) sample 合并；
 - [[pado-shared-alignment-null-profile]]：现有 provisional max-Mahalanobis
   shared-null 结果；
 - [[sigma-over-i-uncertainty-in-pado-mixing-ratio-extraction]]：alignment

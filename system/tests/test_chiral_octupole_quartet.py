@@ -35,14 +35,16 @@ class TestChiralOctupoleQuartet(unittest.TestCase):
         p = PRESETS["78Br_chiral_octupole_quartet"]
         res = evaluate_quartet_properties(p["spins"], p["E_pos1_keV"], p["E_pos2_keV"],
                                           p["E_neg1_keV"], p["E_neg2_keV"])
-        self.assertTrue(res["is_chiral_octupole_confirmed"])
+        self.assertTrue(res["screening_pass"])
+        self.assertIsNone(res["is_chiral_octupole_confirmed"])
         self.assertGreaterEqual(res["quartet_confidence_percent"], 65.0)
 
     def test_rejection_counterexample(self):
         p = PRESETS["pseudo_quartet_counterexample"]
         res = evaluate_quartet_properties(p["spins"], p["E_pos1_keV"], p["E_pos2_keV"],
                                           p["E_neg1_keV"], p["E_neg2_keV"])
-        self.assertFalse(res["is_chiral_octupole_confirmed"])
+        self.assertFalse(res["screening_pass"])
+        self.assertIsNone(res["is_chiral_octupole_confirmed"])
         self.assertLess(res["quartet_confidence_percent"], 50.0)
 
     def test_run_quartet_analysis(self):
@@ -51,7 +53,8 @@ class TestChiralOctupoleQuartet(unittest.TestCase):
             p["nucleus"], p["A_mass"], p["Z_charge"], p["spins"],
             p["E_pos1_keV"], p["E_pos2_keV"], p["E_neg1_keV"], p["E_neg2_keV"]
         )
-        self.assertTrue(out["quartet_evaluation"]["is_chiral_octupole_confirmed"])
+        self.assertTrue(out["quartet_evaluation"]["screening_pass"])
+        self.assertIsNone(out["quartet_evaluation"]["is_chiral_octupole_confirmed"])
         self.assertEqual(len(out["quartet_evaluation"]["levels"]), 5)
 
 

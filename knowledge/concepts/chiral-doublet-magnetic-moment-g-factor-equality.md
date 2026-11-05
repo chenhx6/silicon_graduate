@@ -33,7 +33,10 @@ $$\langle \text{Band 1} \mid \hat{\mu} \mid \text{Band 1} \rangle = \frac{1}{2} 
 **The Fundamental Theorem**:
 $$g(\text{Band 1}, I) \equiv g(\text{Band 2}, I)$$
 **The $g$-factors of the two partner bands must be identical at every spin $I$ within the chiral regime!**
-If an experimental measurement reveals $g_1(I) \ne g_2(I)$ with statistical significance $\ge 3\sigma$, the candidate doublet is definitively ruled out as chiral.
+If an experimental measurement reveals \(g_1(I)\ne g_2(I)\) with a discrepancy
+of at least \(3\sigma\), that result strongly disfavors the idealized equality
+model for the specified spin and response contract. It is not, by itself, a
+model-independent classification of the bands.
 
 ---
 
@@ -53,7 +56,8 @@ where:
 Given experimental measurements $g_1 \pm \sigma_1$ and $g_2 \pm \sigma_2$:
 $$\Delta g = |g_1 - g_2|, \quad \sigma_{\Delta g} = \sqrt{\sigma_1^2 + \sigma_2^2}$$
 $$\chi^2_g = \left( \frac{\Delta g}{\sigma_{\Delta g}} \right)^2, \quad p = \text{erfc}\left( \sqrt{\frac{\chi^2_g}{2}} \right)$$
-- $\chi^2_g \le 1.0$: Chiral equality confirmed ($H_0: g_1 = g_2$ supported);
+- $\chi^2_g \le 1.0$: compatible with the equality model under the declared
+  independent-error approximation;
 - $1.0 < \chi^2_g \le 4.0$: Compatible within $2\sigma$;
 - $\chi^2_g \ge 9.0$: Chiral hypothesis rejected at $> 99.73\%$ ($3\sigma$) confidence level.
 
@@ -65,7 +69,9 @@ $$\chi^2_g = \left( \frac{\Delta g}{\sigma_{\Delta g}} \right)^2, \quad p = \tex
    - Measured $g$-factors at $I = 11^+$:
      $$g(\text{Band 1}) = +0.58 \pm 0.04, \quad g(\text{Band 2}) = +0.56 \pm 0.05$$
    - $\Delta g = 0.020 \pm 0.064 \implies \chi^2_g = 0.098$ ($0.31\sigma$ discrepancy, $p = 0.755$);
-   - Confirms the Grodner equality theorem, providing the most rigorous proof of nuclear chirality in $^{128}\text{Cs}$.
+   - Supports the equality model for this measurement, while leaving the
+     chiral geometry and its competing interpretations to the full
+     electromagnetic evidence chain.
 2. **Spurious Pseudo-Chiral Counterexample**:
    - Experimental doublet with $g_1 = +0.85 \pm 0.04$ and $g_2 = +0.32 \pm 0.05$:
    - $\Delta g = 0.530 \pm 0.064 \implies \chi^2_g = 68.51$ ($8.28\sigma$ discrepancy, $p = 1.26 \times 10^{-16}$);

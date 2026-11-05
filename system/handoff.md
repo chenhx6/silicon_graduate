@@ -7576,3 +7576,7 @@ u}$ zero-crossing detection;
 - Commit and push completed successfully to `origin/main`; post-push `HEAD == origin/main`.
 - Final staged checks: `git diff --cached --check`, Wiki lint 0 errors, boundary ok, archive gate ok, automation preflight ok, analysis regression and selftest passed.
 - The scientific task remains active for future author metadata/claim review, public DOI/license closure, independent public control and 133Ce private-data closure; this commit is a completed audit-and-convergence checkpoint, not a submission claim.
+
+## 2026-11-05 residual analysis-state audit
+
+A follow-up scan found additional scientific state words outside the first P0 batch. The remaining two-quasiparticle wobbling, multiphonon wobbling, chiral-octupole, MchiD, g-factor and RDDS outputs were converted to conditional screening/model-compatibility language; targeted tests passed. Ionescu 1981 was separately recorded as a feeding-aware public methodological precedent, with an explicit stop boundary against pooling its rho2/rho4/direct-feeding contract into the 67Ga common-rho sample. This is a governance/evidence-boundary checkpoint; it does not change the PADO paper's partial/not-ready status.

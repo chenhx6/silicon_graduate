@@ -26,7 +26,7 @@ class TestTwoQuasiparticleWobbling(unittest.TestCase):
         self.assertAlmostEqual(wobs[0]["E_wob_keV"], 505.0, places=1)
         self.assertAlmostEqual(wobs[-1]["E_wob_keV"], 325.0, places=1)
 
-    def test_130Ba_transverse_wobbling_confirmed(self):
+    def test_130Ba_transverse_wobbling_screening(self):
         p = PRESETS["130Ba_two_quasiparticle_wobbler"]
         res = run_two_qp_wobbling_analysis(
             nucleus=p["nucleus"],
@@ -42,8 +42,9 @@ class TestTwoQuasiparticleWobbling(unittest.TestCase):
         wv = res["wobbling_verdict"]
         self.assertTrue(wv["is_transverse_trend"])
         self.assertLess(wv["slope_dE_wob_dI_keV_per_hbar"], -15.0)
-        self.assertGreater(wv["confidence_score_pct"], 80.0)
-        self.assertEqual(wv["wobbling_verdict"], "CONFIRMED_TWO_QUASIPARTICLE_TRANSVERSE_WOBBLING")
+        self.assertGreater(wv["heuristic_score_pct"], 80.0)
+        self.assertIsNone(wv["confidence_score_pct"])
+        self.assertEqual(wv["wobbling_verdict"], "conditional-two-quasiparticle-transverse-wobbling-screening-pass")
 
     def test_136Nd_predicted_wobbler(self):
         p = PRESETS["136Nd_two_quasiparticle_wobbler"]
@@ -60,7 +61,7 @@ class TestTwoQuasiparticleWobbling(unittest.TestCase):
         )
         wv = res["wobbling_verdict"]
         self.assertTrue(wv["is_transverse_trend"])
-        self.assertEqual(wv["wobbling_verdict"], "CONFIRMED_TWO_QUASIPARTICLE_TRANSVERSE_WOBBLING")
+        self.assertEqual(wv["wobbling_verdict"], "conditional-two-quasiparticle-transverse-wobbling-screening-pass")
 
     def test_spurious_counterexample_rejected(self):
         p = PRESETS["spurious_quasiparticle_counterexample"]
@@ -77,7 +78,7 @@ class TestTwoQuasiparticleWobbling(unittest.TestCase):
         )
         wv = res["wobbling_verdict"]
         self.assertFalse(wv["is_transverse_trend"])
-        self.assertEqual(wv["wobbling_verdict"], "REJECTED_SPURIOUS_OR_SINGLE_PARTICLE_BAND")
+        self.assertEqual(wv["wobbling_verdict"], "screening-fail-or-alternative-band")
 
 
 if __name__ == "__main__":

@@ -6030,3 +6030,5 @@ raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，�
 - 2026-11-05：完成 A≈130 全库高风险 claim/model audit 的一轮收紧；撤回或条件化 gamma-soft、wobbling/TiP、133Ce workbook、131Ce Q_t、135Pr Hessian、Ding/Wang systematics 等过强表述。P-ADO 文章收敛为 coverage-calibrated alignment-transfer audit workflow + public 67Ga case study；新增 profile-preserving toy raw values、response-map validation、leave-one-row-out influence control、EPJ A 官方页面归档和 public-release manifest 更新。模型 analysis P0 synthetic/production/confirmed 语气修复完成。lint/boundary/archive/preflight/regression/selftest/LaTeX/PDF gates 均通过；作者 metadata、DOI/license、paper claim review、source covariance/raw events 和 133Ce private-data closure 保持未完成。
 
 - 2026-11-05 post-commit reconciliation：`main` / `research: audit A130 evidence and converge PADO paper` pushed successfully; `HEAD == origin/main`; worktree clean after commit `c8fc1d9b`.
+
+- 2026-11-05：残余 analysis-state audit 修复双声子/两准粒子 wobbling、chiral-octupole、MchiD、g-factor 和 RDDS 的确认/金标准语气；targeted tests 12/12 通过。Ionescu 1981 独立 public-control feasibility note 建立，明确不与 67Ga common-rho sample 合并。

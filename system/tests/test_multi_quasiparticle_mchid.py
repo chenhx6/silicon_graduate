@@ -43,14 +43,16 @@ class TestMultiQuasiparticleMchiD(unittest.TestCase):
         p = PRESETS["136Nd_4qp_mchid"]
         res = analyze_mchid(p["doublets"], nucleus_name=p["nucleus"])
         self.assertEqual(res["num_doublets"], 2)
-        self.assertTrue(res["is_mchid_verified"])
-        self.assertIn("MchiD confirmed", res["mchid_summary"])
+        self.assertTrue(res["screening_pass"])
+        self.assertIsNone(res["is_mchid_verified"])
+        self.assertIn("MchiD conditional screening pass", res["mchid_summary"])
 
     def test_103rh_single_doublet(self):
         p = PRESETS["103Rh_mchid"]
         res = analyze_mchid(p["doublets"], nucleus_name=p["nucleus"])
         self.assertEqual(res["num_doublets"], 1)
-        self.assertFalse(res["is_mchid_verified"])
+        self.assertFalse(res["screening_pass"])
+        self.assertIsNone(res["is_mchid_verified"])
         self.assertIn("Single chiral doublet", res["mchid_summary"])
 
 

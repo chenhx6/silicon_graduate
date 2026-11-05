@@ -206,11 +206,11 @@ def evaluate_wobbling_slope_and_criteria(wob_results, J_m, J_s, J_l, j_aligned, 
     total_confidence = slope_score + ratio_score + moi_score
 
     if total_confidence >= 75.0:
-        verdict = "CONFIRMED_TWO_QUASIPARTICLE_TRANSVERSE_WOBBLING"
+        verdict = "conditional-two-quasiparticle-transverse-wobbling-screening-pass"
     elif total_confidence >= 50.0:
-        verdict = "CANDIDATE_TWO_QUASIPARTICLE_WOBBLING"
+        verdict = "conditional-two-quasiparticle-wobbling-screening"
     else:
-        verdict = "REJECTED_SPURIOUS_OR_SINGLE_PARTICLE_BAND"
+        verdict = "screening-fail-or-alternative-band"
 
     return {
         "slope_dE_wob_dI_keV_per_hbar": float(slope_keV_per_hbar),
@@ -218,8 +218,14 @@ def evaluate_wobbling_slope_and_criteria(wob_results, J_m, J_s, J_l, j_aligned, 
         "geometric_c_factor": float(c_geom),
         "mean_experimental_be2_ratio": mean_exp_ratio,
         "mean_theoretical_be2_ratio": mean_theo_ratio,
-        "confidence_score_pct": float(total_confidence),
-        "wobbling_verdict": verdict
+        "heuristic_score_pct": float(total_confidence),
+        "confidence_score_pct": None,
+        "wobbling_verdict": verdict,
+        "evidence_boundary": (
+            "Heuristic screening of caller-supplied or preset energies and ratios. "
+            "The score is not a confidence level and does not establish wobbling "
+            "without source locators, response, lifetimes, covariance and competing-model checks."
+        )
     }
 
 
@@ -268,7 +274,8 @@ def format_text_report(res, title="Two-Quasiparticle Even-Even Wobbling Mode Ana
     lines.append("Physics Diagnostics & Verification Verdict:")
     lines.append(f"  Wobbling Frequency Slope d(E_wob)/dI: {wv['slope_dE_wob_dI_keV_per_hbar']:.2f} keV/hbar ({'Decreasing -> Transverse Wobbling' if wv['is_transverse_trend'] else 'Rising -> Non-transverse/spurious'})")
     lines.append(f"  Mean Experimental B(E2) Ratio       : {wv['mean_experimental_be2_ratio']:.3f} (Theory expectation ~ {wv['mean_theoretical_be2_ratio']:.3f})")
-    lines.append(f"  Evaluation Confidence Score         : {wv['confidence_score_pct']:.1f}%")
+    lines.append(f"  Heuristic Screening Score           : {wv['heuristic_score_pct']:.1f}%")
+    lines.append("  Evidence boundary                   : screening output, not a wobbling confirmation")
     lines.append(f"  Final Physical Verdict              : {wv['wobbling_verdict']}")
     lines.append("=" * 76)
     return "\n".join(lines)

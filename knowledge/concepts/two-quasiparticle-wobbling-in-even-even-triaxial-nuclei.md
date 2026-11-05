@@ -39,7 +39,10 @@ $$E_{\text{wob}}(I) = E(n_w=1, I) - \frac{1}{2}\left[ E(n_w=0, I+1) + E(n_w=0, I
 Because the quasiparticle angular momentum $\vec{j}_{12}$ is perpendicular to the collective rotation axis ($m$), this constitutes **Transverse Wobbling (TW)**.
 The wobbling frequency decreases with increasing spin $I$:
 $$\frac{d(\hbar\omega_w)}{dI} < 0$$
-This negative slope ($dE_{\text{wob}}/dI \sim -20 \text{ to } -35\text{ keV}/\hbar$) is the definitive hallmark of transverse alignment, distinguishing it from longitudinal wobbling (LW) where $\hbar\omega_w$ rises with $I$.
+This negative slope can support a transverse-alignment interpretation within a
+specified model and spin window, but it is not by itself a definitive hallmark.
+Longitudinal wobbling, configuration mixing, band crossing and response
+assumptions must remain in the comparison.
 
 ### 3. Interband $E2/M1$ Transitions
 The transition connecting the $n_w = 1$ band to the $n_w = 0$ yrast band proceeds via $\Delta I = 1$ transitions with prominent $E2$ nature:
@@ -63,11 +66,12 @@ python3 system/scripts/analysis/nuclear_analyzer.py twoqpwob --preset 136Nd_two_
 python3 system/scripts/analysis/nuclear_analyzer.py twoqpwob --preset spurious_quasiparticle_counterexample
 ```
 
-### Benchmark Validation
+### Conditional screening examples
 1. **$^{130}\text{Ba}$ ($I = 11 \dots 17$)**:
    $E_{\text{wob}}$ decreases monotonically from $505\text{ keV}$ to $325\text{ keV}$ (slope $-30.25\text{ keV}/\hbar$).
    Experimental $B(E2)_{\text{out}}/B(E2)_{\text{in}}$ averages $0.385$, in excellent agreement with theoretical expectation ($0.299$).
-   Confidence score: $100\%$, establishing `CONFIRMED_TWO_QUASIPARTICLE_TRANSVERSE_WOBBLING`.
+   The preset passes a heuristic transverse-wobbling screening score. It is a
+   derived fixture and does not establish experimental wobbling.
 2. **Spurious Counterexample**:
    Displays rising frequency ($+125\text{ keV}/\hbar$) and negligible $B(E2)$ ratio ($0.023$), correctly triggering `REJECTED_SPURIOUS_OR_SINGLE_PARTICLE_BAND`.
 
@@ -93,7 +97,9 @@ python3 system/scripts/analysis/nuclear_analyzer.py twoqpwob --preset spurious_q
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本页整理模型和观测量的条件性 screening logic。预设输出属于 derived
+fixture；它不能替代带有 source locator、响应、寿命、协方差和竞争模型的
+实验级模式判定。
 
 
 ## Sources

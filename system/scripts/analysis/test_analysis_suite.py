@@ -2520,7 +2520,8 @@ def test_multi_quasiparticle_mchid():
         "E_band2_keV": [5440.0, 5910.0, 6420.0, 6980.0, 7580.0, 8225.0]
     }]
     res = analyze_mchid(doublets, nucleus_name="136Nd")
-    assert res["is_mchid_verified"] is True
+    assert res["screening_pass"] is True
+    assert res["is_mchid_verified"] is None
     print("  ✓ multi_quasiparticle_mchid_chirality_calculator passed.")
 
 

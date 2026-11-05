@@ -102,7 +102,7 @@ def evaluate_quartet_properties(spins, E_pos1, E_pos2, E_neg1, E_neg2):
 
     total_q = (0.35 * q_pos + 0.35 * q_neg + 0.15 * q_oct + 0.15 * q_span) * 100.0
 
-    is_confirmed = (mean_dE_pos <= 100.0) and (mean_dE_neg <= 100.0) and (total_q >= 65.0)
+    screening_pass = (mean_dE_pos <= 100.0) and (mean_dE_neg <= 100.0) and (total_q >= 65.0)
 
     level_details = []
     for i in range(len(spins)):
@@ -122,7 +122,14 @@ def evaluate_quartet_properties(spins, E_pos1, E_pos2, E_neg1, E_neg2):
         "mean_chiral_splitting_neg_keV": mean_dE_neg,
         "mean_octupole_separation_keV": mean_delta_oct,
         "quartet_confidence_percent": float(total_q),
-        "is_chiral_octupole_confirmed": bool(is_confirmed),
+        "screening_pass": bool(screening_pass),
+        "is_chiral_octupole_confirmed": None,
+        "evidence_boundary": (
+            "Energy-spacing screening of caller-supplied or preset bands. "
+            "It is not a confidence level and does not establish simultaneous "
+            "chiral and octupole symmetry breaking without transition, parity, "
+            "response and competing-model evidence."
+        ),
         "levels": level_details
     }
 
@@ -151,8 +158,9 @@ def format_text_report(res, title="Chiral-Octupole Quartet Bands Analyzer"):
     lines.append(f"  Negative-Parity Chiral Splitting : Mean Delta E- = {q['mean_chiral_splitting_neg_keV']:.1f} keV")
     lines.append(f"  Octupole Parity Separation       : Mean delta_oct = {q['mean_octupole_separation_keV']:.1f} keV")
     lines.append(f"  Quartet Confidence Score         : {q['quartet_confidence_percent']:.1f}%")
-    status_str = "CONFIRMED (Chiral-Octupole Dual Symmetry Breaking Established)" if q["is_chiral_octupole_confirmed"] else "UNCONFIRMED / REJECTED"
+    status_str = "CONDITIONAL SCREENING PASS" if q["screening_pass"] else "SCREENING FAIL / ALTERNATIVE REMAINS"
     lines.append(f"  Classification Status            : {status_str}")
+    lines.append("  Evidence boundary                : screening output, not experimental confirmation")
     lines.append("-" * 76)
     lines.append("Quartet Energy Spectrum & Splittings Table:")
     lines.append("   Spin I   E_pos1   E_pos2   DeltaE+   E_neg1   E_neg2   DeltaE-   delta_oct")

@@ -210,15 +210,15 @@ def analyze_mchid(doublets_data, nucleus_name=None):
         results.append(res)
 
     num_doublets = len(results)
-    is_mchid_verified = False
+    screening_pass = False
     mchid_summary = ""
 
     if num_doublets >= 2:
         c1 = results[0]["chiral_confidence_percent"]
         c2 = results[1]["chiral_confidence_percent"]
         if c1 >= 60.0 and c2 >= 60.0:
-            is_mchid_verified = True
-            mchid_summary = f"MchiD confirmed in {nucleus_name}: 2 independent chiral doublets coexisting with confidence {c1:.1f}% and {c2:.1f}%."
+            screening_pass = True
+            mchid_summary = f"MchiD conditional screening pass in {nucleus_name}: two doublets pass the heuristic geometry score ({c1:.1f}% and {c2:.1f}%)."
         else:
             mchid_summary = f"MchiD candidate: Doublet 1 confidence {c1:.1f}%, Doublet 2 confidence {c2:.1f}%."
     else:
@@ -228,8 +228,13 @@ def analyze_mchid(doublets_data, nucleus_name=None):
     return {
         "nucleus": nucleus_name,
         "num_doublets": num_doublets,
-        "is_mchid_verified": is_mchid_verified,
+        "screening_pass": screening_pass,
+        "is_mchid_verified": None,
         "mchid_summary": mchid_summary,
+        "evidence_boundary": (
+            "Heuristic geometry and energy screening of caller-supplied or preset "
+            "doublets; it is not a confidence level or experimental MchiD confirmation."
+        ),
         "doublets_analysis": results
     }
 

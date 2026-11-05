@@ -211,9 +211,9 @@ def format_text_report(summary: Dict[str, Any]) -> str:
         lines.append("-" * 72)
 
     lines.append(" Physical Significance:")
-    lines.append("   - RDDS Plunger is the gold-standard method for picosecond lifetimes (1-200 ps).")
-    lines.append("   - DDCM removes side-feeding delay dependence by using shifted curve derivatives.")
-    lines.append("   - Provides absolute B(E2) to test triaxial wobbling and superdeformation.")
+    lines.append("   - RDDS/DDCM is an established method for picosecond lifetime studies under a specified input and response contract.")
+    lines.append("   - DDCM uses shifted/stopped curve derivatives to reduce sensitivity to feeding delays; the residual systematics require source-specific checks.")
+    lines.append("   - Derived B(E2) can contribute to tests of triaxial wobbling and superdeformation when transition identity, feeding, response and covariance are closed.")
     lines.append("========================================================================")
     return "\n".join(lines)
 
