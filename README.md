@@ -49,6 +49,7 @@ A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策
 
 ## 学术手稿与期刊投稿包 (Scientific Manuscripts & Writing)
 
+- **束流申请与 proposal 初稿**：[`raw/proposal/`](raw/proposal/README.md)，独立于执行任务计划，允许随 Git 提交与推送。
 - **$A \approx 130$ 三轴形变与集体激发模式期刊论文**：[`raw/writing/gpt/a130-triaxial/`](raw/writing/gpt/a130-triaxial/)
   - [出版级双栏预印本 PDF (`main.pdf`)](raw/writing/gpt/a130-triaxial/main.pdf)
   - [Physical Review C (RevTeX 4.2) 投稿源码 (`main.tex`)](raw/writing/gpt/a130-triaxial/main.tex)

@@ -671,7 +671,7 @@ updated: 2026-11-05
 - `132Sn` is not an empty octupole region: newly read Rosiak 2018 primary gives a direct `3−_1` E3 strength (`ROS18-1`/`ROS18-2`), alongside existing inverse-kinematics `B(E2)` material. The unresolved target is the two-phonon `0+,2+,4+,6+` network and multi-state E3/feeding closure.
 - Threshold-first correction: `2E(3−)=8.7038 MeV` versus derived `S_n(132Sn)=7.3533 MeV` places the harmonic scale about `1.35 MeV` above threshold. The `132Sn` experiment should test a neutron-unbound doorway with particle–γ–neutron response, not assume a bound γ quartet.
 - Detector map now spans AGATA PSA/tracking, MUGAST–AGATA–VAMOS, MINIBALL, IMP-DRAGON, Gamma Ball and FPGA/list-mode DAQ; `DRAGON-X` adds a calibrated neutron module for the `132Sn` doorway route.
-- A concrete one-page `131Xe` beam-application draft is now at `outputs/plans/20261101-131xe-branch-response-beam-request.md`; it freezes observables, controls, detector modules, likelihood/holdout and go/no-go gates while leaving rate and shift counts to a future pilot.
+- A concrete one-page `131Xe` beam-application draft is now at `raw/proposal/20261101-131xe-branch-response-beam-request.md`; it freezes observables, controls, detector modules, likelihood/holdout and go/no-go gates while leaving rate and shift counts to a future pilot.
 - Continuation checkpoint 002 is archived at
   `outputs/learning-daily/20261031-DAY29-research-design-defense-run-01/continuation-002-cross-mass.md`;
   it records the current durable research delta and pre-closeout verification without
@@ -694,7 +694,7 @@ updated: 2026-11-05
 
 - User's long-term research identity now includes cross-mass phenomenon gaps, thesis re-reading, experimental nuclear-structure expertise with theory competence, beam-proposal design and detector/array development; this durable rule is recorded in `system/memory.md`.
 - Two primary apparatus sources were read and added: `knowledge/sources/li-2025-imp-dragon-hpge-array.md` and `knowledge/sources/sun-2003-ribll-radioactive-ion-beam-line.md`.
-- New L3 project: `knowledge/projects/cross-mass-phenomena-detector-beam-prospectus-20261101.md`; proposal draft: `outputs/plans/20261101-cross-mass-experiment-detector-beam-prospectus.md`.
+- New L3 project: `knowledge/projects/cross-mass-phenomena-detector-beam-prospectus-20261101.md`; proposal draft: `raw/proposal/20261101-cross-mass-experiment-detector-beam-prospectus.md`.
 - Candidate routes: `131Xe` branch + absolute-EM closure; `131Ba/133Ce` direct-E3 versus E1-mixing; `78Br` octupole–chiral quartet with a RIBLL-type beam. A provisional `DRAGON-X` modular HPGe/BGO/clover/LaBr3/Si/electron/beam-PID array is defined.
 - Current state remains exploratory L3. No reaction yield, target-specific efficiency, synthetic count, current RIBLL-II performance, or L4 result has been asserted. The next high-information step is a rate/response pilot for one A≈130 route and a primary search for `78Br` production feasibility.
 
@@ -7639,3 +7639,10 @@ The result and raw toy CSV are now in the PADO package and public-release manife
 - Updated policy/workflow/skill/docs and removed PROMOTED_WITHOUT_REVIEW; legacy day17/day20/day21 checks record annotations without failing on their values. Existing research handoff and scientific files are preserved.
 - Validation: isolated committed knowledge snapshot plus task changes passed all 13 wiki_lint tests; live boundary check and query skill validation passed. Live integration found five issues in pre-existing concurrent Ba129 files, left untouched.
 - Publication pointer: main / fix: make review annotations behavior-neutral. Scope and verification receipt: outputs/self-tests/20261105-review-status-neutrality.md.
+
+
+## Proposal location update — 2026-11-05
+
+- Canonical proposal location: `raw/proposal/`, authorized for Git commit/push alongside existing raw exceptions. Task execution plans remain in `outputs/plans/`.
+- Moved three 20261101 drafts (131Xe, 133I and cross-mass detector/beam prospectus) without content changes; updated navigation and previous path references. All remain early drafts, with no scientific promotion.
+- Hash receipt: `outputs/self-tests/20261105-proposal-path-migration.json`. Stable publication pointer: `main / docs: move proposal drafts to raw proposal archive`.

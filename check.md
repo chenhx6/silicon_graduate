@@ -54,6 +54,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 本次规则修改已同步到 `AGENTS.md`、`check.md` 和相应工作流。
 - [ ] 每日学习遇到问题/来源局部饱和时，先核对实时钟和硬截止，再重建候选池并检查下一张未完成日卡；至少剩 120 分钟时可预习恰好一张 Day+1 卡的知识，但保持今日 `day_index`、只记 `partial_day_indices`，不推进其学分或越过它更新 `next_day_index`，也不打开 Day+2；15:00 前不把 checkpoint/局部饱和当作全日收束，15:00–16:00 只做 closeout；逐卡完成审计通过后才推进状态。
 - [ ] 本轮写入前已通过 `python3 system/scripts/wiki_boundary_check.py --root .`；`docs/plans/` 不存在，任务计划使用 `outputs/plans/`。
+- [ ] 束流申请等 proposal 使用 `raw/proposal/`，可按授权 commit/push；迁移时核验文件内容未丢失、引用已更新，保留初稿状态，不将申请书当作实验证据。
 - [ ] 报告、计划、回执或调度状态中的可复用知识已同步到 `knowledge/` canonical 页面，并在输出中列出知识路径与 source locator；没有把 outputs 当作长期事实源。
 - [ ] 每日学习日报包含唯一 `knowledge-writeback` JSON 区块；每个 item 的 knowledge anchor、source path 和 locator/claim ID 在正文中存在，`updated` 有运行前后 knowledge 变更，`verified-no-op` 有 grounded page 与无变化理由。
 - [ ] L0-L4 完整定义只存在于 `system/workflows/autonomous-research.md`；AGENTS/query/reflect/ingest/Skill 仅保留短路由，没有复制漂移或堆积第二套规则。

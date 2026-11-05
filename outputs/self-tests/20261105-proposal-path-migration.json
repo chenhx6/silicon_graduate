@@ -1,0 +1,23 @@
+{
+  "operation": "proposal-path-migration",
+  "date": "2026-11-05",
+  "content_unchanged": true,
+  "files": [
+    {
+      "old": "outputs/plans/20261101-131xe-branch-response-beam-request.md",
+      "new": "raw/proposal/20261101-131xe-branch-response-beam-request.md",
+      "sha256": "95f6f6b28de8468fa4dfaa3069ef6aeea3b1645bce7cf61a48d7378d654f4dc1"
+    },
+    {
+      "old": "outputs/plans/20261101-133i-gamma-strength-beam-request.md",
+      "new": "raw/proposal/20261101-133i-gamma-strength-beam-request.md",
+      "sha256": "4e87f0e3b9a23030839534af2345737d8c491de26c001a5263b58f3248810ec8"
+    },
+    {
+      "old": "outputs/plans/20261101-cross-mass-experiment-detector-beam-prospectus.md",
+      "new": "raw/proposal/20261101-cross-mass-experiment-detector-beam-prospectus.md",
+      "sha256": "c30432dcbaf4fc32b41ed2fa49f6a457be6c56739d7ad2d67fc55096b00e195d"
+    }
+  ],
+  "publication_pointer": "main / docs: move proposal drafts to raw proposal archive"
+}

@@ -23,6 +23,7 @@ Git 工作树可能包含用户或上一轮留下的修改。写入前先运行 
 - 六类目录的唯一落点契约见 [`system/path-contract.md`](system/path-contract.md)：`raw/` 保存原始材料，`knowledge/` 保存长期知识大脑，`outputs/` 保存日报/周报/审计/回执/调度状态和 `outputs/plans/` 任务计划书，`system/` 保存规则/工作流/脚本/测试/交接，`tools/` 保存外部工具，`tmp/` 保存临时运行数据。
 - 任何输出、计划或运行记录中产生的可复用事实、方法、证据矩阵、竞争解释、开放问题或研究设计，都必须同步写入 `knowledge/`；`outputs/` 不是第二知识库，不能成为长期问答或论文事实源。
 - `docs/plans/` 已废止，不得重新创建；根目录 `PLAN.md` 仍由用户维护，不迁移到 `outputs/` 或 `knowledge/`。
+- 束流申请等 proposal（初稿、修订稿及配套材料）的 canonical 路径为 `raw/proposal/`，不放在 `outputs/plans/`；后者仅保存执行任务计划。`raw/proposal/` 与 `raw/writing/gpt/`、`raw/zotero/wiki-auto-generated.bib` 均为明确允许 Git 跟踪、commit/push 的例外，初稿身份不妨碍发布。
 - `knowledge/` 是可维护的知识层；`system/` 是治理和脚本层；`outputs/` 保存交代性输出。QMD 只索引 `knowledge/**/*.md`。
 - `raw/`、`PLAN.md` 默认保持不变；需要修改时必须得到用户明确指令，并逐文件核验。`raw/zotero/wiki-inbox.bib` 是本地 Zotero 输入，不属于公共 Git 跟踪范围。
 - 递归删除、历史重写、force push、覆盖原始证据等不可逆操作必须单独确认。

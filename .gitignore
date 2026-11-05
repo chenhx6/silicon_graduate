@@ -24,6 +24,8 @@ raw/zotero/*
 raw/writing/*
 !raw/writing/gpt/
 !raw/writing/gpt/**
+!raw/proposal/
+!raw/proposal/**
 
 # Temporary and generated caches
 tmp/

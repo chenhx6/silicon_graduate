@@ -1084,11 +1084,11 @@ historical-writeback:
 - `133I` OCL metadata-only source：`knowledge/sources/indico-2026-133i-gamma-strength-record.md`
 - `133I` OCL preliminary presentation source：`knowledge/sources/larsen-2026-133i-oslo-preliminary.md`
 - `70Zn` 2026 magnetic LEE primary source：`knowledge/sources/ronning-2026-70zn-magnetic-lee.md`
-- `133I` 束流申请草案：`outputs/plans/20261101-133i-gamma-strength-beam-request.md`
+- `133I` 束流申请草案：`raw/proposal/20261101-133i-gamma-strength-beam-request.md`
 - `100Sn` 联合响应闭合设计：`knowledge/research-notes/100sn-decay-response-closure-experiment-20261101.md`
 - 跨质量区实验/探测器 prospectus：`knowledge/projects/cross-mass-phenomena-detector-beam-prospectus-20261101.md`
-- 束流申请与探测器初稿：`outputs/plans/20261101-cross-mass-experiment-detector-beam-prospectus.md`
-- `131Xe` 一页束流申请初稿：`outputs/plans/20261101-131xe-branch-response-beam-request.md`
+- 束流申请与探测器初稿：`raw/proposal/20261101-cross-mass-experiment-detector-beam-prospectus.md`
+- `131Xe` 一页束流申请初稿：`raw/proposal/20261101-131xe-branch-response-beam-request.md`
 - `Irving 1979` DOI/abstract scope source：`knowledge/sources/irving-1979-131xe-spectroscopy-scope.md`
 - `133Ce` user-data source：`knowledge/sources/userdata-133ce-southafrica-dataset.md`
 - `133Ce` L4 contract：`knowledge/research-notes/133ce-southafrica-l4-data-contract-20261101.md`
