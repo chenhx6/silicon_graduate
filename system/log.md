@@ -6040,3 +6040,5 @@ raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，�
 - 2026-11-05：修复 alignmix 残余模式分类/“消除30%系统误差”语气，改为 conditional screening；targeted tests 12/12 通过。
 
 - 2026-11-05：第三批残余 model-state audit 完成，修复 chiral geometry/Davydov/gamma-gamma/MχD/odd-A wobbling/g-factor equality 的确认语气；24 targeted tests 通过。least-favorable PADO grid 仍在独立运行。
+
+- 2026-11-05：PADO least-favorable profile grid完成：35 cells × 500 complete profile toys = 17,500；worst empirical q95=9.66 at (r=0.10,rho=0), observed T=22.18。已写入文章包、manifest、claim ledger、project note，明确仅适用于声明的 independent-row Gaussian grid。

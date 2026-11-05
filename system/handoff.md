@@ -7600,3 +7600,9 @@ The residual analysis scan found `alignmix` still returning scientific-looking `
 ## 2026-11-05 third residual model-state audit
 
 A further scan found legacy confirmation language in chiral-geometry TAC, Davydov wobbling, gamma-gamma cascade grouping, chiral-octupole/MchiD concepts, odd-A wobbling and g-factor equality. These were changed to conditional screening or model-compatibility statements; 24 targeted tests passed. A separate least-favorable PADO profile-grid job remains live and is not part of this commit.
+
+## 2026-11-05 least-favorable PADO coverage grid
+
+The long-running profile job completed: 35 nuisance cells (five true r values by seven true rho values), 500 complete profile toys per cell, 17,500 toys total. The worst empirical q95 is 9.66 at (r_true=0.10, rho_true=0.0), below the observed profiled statistic 22.18. This is the strongest current coverage artifact, but remains conservative only inside the declared independent-row Gaussian nuisance grid; it does not solve source covariance, cross-row dependence, detector response or feeding.
+
+The result and raw toy CSV are now in the PADO package and public-release manifest. The main PDF remains six pages after compacting the Results sentence; compile record and hashes were refreshed.

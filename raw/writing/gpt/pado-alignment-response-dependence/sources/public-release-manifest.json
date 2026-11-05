@@ -10,8 +10,8 @@
   "files": [
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/PUBLIC_RELEASE.md",
-      "sha256": "8ce49f7e886b2cfb83aae07ac20d35b4ff7ab6f32de00073b994c463d3065e72",
-      "size": 2529,
+      "sha256": "3ed91542ef6dd41af9299573ed6090cef4d0d26600382a35ac6316edec0d93eb",
+      "size": 2667,
       "release_role": "candidate-public"
     },
     {
@@ -45,6 +45,12 @@
       "release_role": "candidate-public"
     },
     {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/profile_coverage_grid.py",
+      "release_role": "candidate-public",
+      "sha256": "5b532eb2223d1225f3c434f729f3a2d4c40027e586bff20d1f7533545d0c4627",
+      "size": 6563
+    },
+    {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/alignment-profile.json",
       "sha256": "4af86091f9c1632e0a34cea833d4462e4b615fa337261107f0822d4ba4ef8815",
       "size": 130330,
@@ -53,8 +59,8 @@
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/compile-record.json",
       "release_role": "candidate-public",
-      "sha256": "4835ad63a78475f02634bccd5df748a0c98f24c4b0c1c44287cce518966736cd",
-      "size": 915
+      "sha256": "7434340fa81a4cd62ce47dfeb484a5fd016f026fbff29f4d875f8573c6b5c732",
+      "size": 851
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/coverage-grid.json",
@@ -73,6 +79,18 @@
       "release_role": "candidate-public",
       "sha256": "d6da76c89f7bdca5c84e6813fa912f60d08120a21c9c075adca553bbad4ae57b",
       "size": 3401
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage-grid-toys.csv",
+      "release_role": "candidate-public",
+      "sha256": "7777a370c8451cb2355ba15a887582324a7045365329bf3479312b02c20e4648",
+      "size": 554112
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage-grid.json",
+      "release_role": "candidate-public",
+      "sha256": "d799d21099fdfffe20032a386f93c535c66f7f8ff58b8d0cc89086391401636a",
+      "size": 9902
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage-toys.csv",
@@ -106,8 +124,8 @@
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/validate_outputs.py",
-      "sha256": "a4f3bd6d0b71f71b4aea8b19af7fd6c805c35d472389b2906e9ace5dd9a91595",
-      "size": 2689,
+      "sha256": "e42b372827ccf6fd05551aa197ec48f101a5d15b8eed0130a617eb0e137dab20",
+      "size": 2964,
       "release_role": "candidate-public"
     },
     {
@@ -155,13 +173,13 @@
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/main.pdf",
       "release_role": "candidate-public",
-      "sha256": "977473b54523a70dc4ce2990c06c528fa097134e5298dbe33af1411dd8e86d7b",
-      "size": 161574
+      "sha256": "2950f55e10d8cc005e114a36362c60960603452d8754f748d44417cb8d90ab83",
+      "size": 162287
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/main.tex",
-      "sha256": "fab1dee7cfe164c34c8d418bb8e241d83bd4f7cfc0ae99a1a8a4f136d49f1388",
-      "size": 20598,
+      "sha256": "4b03e1a80fbe795c2799a387250e148089e4ea81a3ac9a3b1e22983c67f03941",
+      "size": 20834,
       "release_role": "candidate-public"
     },
     {
@@ -219,6 +237,25 @@
     "profile_toy_values_file": "analysis/results/profile-coverage-toys.csv",
     "response_map_check": "DA74-6 finite-J replay plus local narrow-width limit",
     "influence_check": "leave-one-row-out descriptive profile",
-    "row_covariance_envelope": "uncalibrated row-specific rho_i sensitivity on [-0.8,0.8]"
+    "row_covariance_envelope": "uncalibrated row-specific rho_i sensitivity on [-0.8,0.8]",
+    "least_favorable_grid": {
+      "true_r": [
+        0.1,
+        0.2,
+        0.28,
+        0.4,
+        0.6
+      ],
+      "true_rho": [
+        -0.8,
+        -0.6,
+        -0.3,
+        0.0,
+        0.3,
+        0.6,
+        0.8
+      ],
+      "n_toys_per_cell": 500
+    }
   }
 }

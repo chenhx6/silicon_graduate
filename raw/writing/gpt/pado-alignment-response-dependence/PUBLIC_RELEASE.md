@@ -19,6 +19,7 @@ The machine-readable file inventory and SHA-256 values are in
 - `analysis/validate_response_map.py`
 - `analysis/influence_checks.py`
 - `analysis/row_covariance_envelope.py`
+- `analysis/profile_coverage_grid.py`
 - `analysis/validate_outputs.py`
 - `analysis/results/alignment-profile.json`
 - `analysis/results/coverage.json`
@@ -28,6 +29,8 @@ The machine-readable file inventory and SHA-256 values are in
 - `analysis/results/response-map-validation.json`
 - `analysis/results/influence-checks.json`
 - `analysis/results/row-covariance-envelope.json`
+- `analysis/results/profile-coverage-grid.json`
+- `analysis/results/profile-coverage-grid-toys.csv`
 - `figures/made/generate_figures.py`
 - `figures/made/generate_coverage_grid.py`
 - `figures/alignment_response_profile.pdf`

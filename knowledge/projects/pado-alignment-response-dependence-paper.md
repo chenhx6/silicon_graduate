@@ -124,6 +124,11 @@ event-level covariance 和 feeding-aware likelihood。
   \(\rho_i\in[-0.8,0.8]\)；在仍共享一个 \(r\) 的未校准 envelope 中，
   \(D_{\max}^2=16.86\)（\(r=0.2716\)）。它仍高于当前 profile toys 的经验
   \(q_{0.95}\) 区间，但不构成新的 p-value 或 cross-row covariance 结论。
+- `profile_coverage_grid.py` 在 \(r_{\rm true}\in\{0.10,0.20,0.28,0.40,0.60\}\)
+  与 \(\rho_{\rm true}\in\{-0.8,-0.6,-0.3,0,0.3,0.6,0.8\}\) 的 35 个
+  nuisance cells 上各运行 500 个完整 profile toys。最坏经验
+  \(q_{0.95}=9.66\)，低于 observed \(T_{\mathrm{prof}}=22.18\)；该结果
+  仍只适用于 independent-row Gaussian 合同，不是实验 p-value。
 
 ## Planned tests
 

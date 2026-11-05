@@ -27,6 +27,10 @@ python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/influence_ch
 python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/row_covariance_envelope.py \
   --output raw/writing/gpt/pado-alignment-response-dependence/analysis/results/row-covariance-envelope.json
 
+python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/profile_coverage_grid.py \
+  --n-toys 500 \
+  --output raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage-grid.json
+
 python3 raw/writing/gpt/pado-alignment-response-dependence/figures/made/generate_figures.py
 
 python3 raw/writing/gpt/pado-alignment-response-dependence/figures/made/generate_coverage_grid.py
@@ -76,3 +80,8 @@ leave-one-row-out null distribution is not treated as a calibrated p-value.
 correlation on the declared finite grid while retaining one shared response
 proxy. It is an uncalibrated sensitivity envelope and does not resolve
 cross-row dependence.
+
+`profile_coverage_grid.py` repeats the complete profile statistic on a
+five-by-seven \((r_{\rm true},\rho_{\rm true})\) nuisance grid. The reported
+worst-case empirical 95% quantile is a conservative reference only within the
+declared independent-row Gaussian contract.

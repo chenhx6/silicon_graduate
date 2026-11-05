@@ -21,6 +21,9 @@ influence = json.loads(
 row_covariance = json.loads(
     (ROOT / "analysis" / "results" / "row-covariance-envelope.json").read_text()
 )
+profile_grid = json.loads(
+    (ROOT / "analysis" / "results" / "profile-coverage-grid.json").read_text()
+)
 
 fits = profile["fits_at_rho_center"]
 assert set(fits) == {"shared", "family", "energy", "mixture"}
@@ -54,4 +57,7 @@ assert influence["full_table"]["profiled_max_d2"] > 20.0
 assert influence["range_leave_one_out_profiled_max_d2"][0] > 15.0
 assert influence["range_leave_one_out_profiled_max_d2"][1] < 25.0
 assert 16.0 < row_covariance["profiled_rowwise_max_d2"] < 18.0
+assert profile_grid["n_toys_per_cell"] == 500
+assert len(profile_grid["cells"]) == 35
+assert profile_grid["worst_case_q95"] < profile_grid["observed_profiled_max_d2"]
 print("P-ADO manuscript output validation passed.")
