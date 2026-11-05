@@ -1,0 +1,30 @@
+{
+  "status": "source-self-audit-complete",
+  "recorded_at": "2026-11-05T07:42:45.879707+00:00",
+  "acquisition": "user downloaded subscribed PDF and placed it in Wiki; agent direct-link download was unsuccessful",
+  "doi": "10.1016/0375-9474(79)90678-X",
+  "raw_file": "raw/papers/gpt/query/20261105-zobel-1979-67ga/High spin states in 67Ga.pdf",
+  "raw_sha256": "69497888ea9e0b25fead2a28800ec2d14a58242ef0d6a9c214e6861f7fbffba5",
+  "pages": 24,
+  "bytes": 1201324,
+  "manifest": "raw/papers/gpt/query/20261105-zobel-1979-67ga/manifest.json",
+  "knowledge_writeback": [
+    "knowledge/sources/zobel-1979-high-spin-states-67ga.md",
+    "knowledge/sources/zobel-1980-magnetic-substate-distributions.md"
+  ],
+  "reading_scope": "24-page extracted text through references; pixel checks of PDF pages 7,14,17; no pointwise visual audit of every figure or model amplitude",
+  "review_status": "Codex self-audit, not human-reviewed",
+  "scientific_findings": "See canonical Z79 claims and source limitations; no new experimental fit or mode assignment.",
+  "validation": {
+    "archive_gate": true,
+    "preflight": true,
+    "lint_summary": "SUMMARY pages=1363 wikilinks=12619 hashes=463 errors=0 warnings=620 info=5323"
+  },
+  "initial_ingest_commit": "9a39c0ce6c8afc9c9b027774277fe2dfafabbf3f",
+  "final_publication_pointer": {
+    "branch": "main",
+    "subject": "research: verify Zobel primary claims and index"
+  },
+  "isolation": "Only own Zobel index hunk is staged; existing Ba129 index line, handoff, log and other-session artifacts excluded.",
+  "raw_publication": "PDF and manifest remain local under ignored raw/papers; no signed URL or subscription credential retained in public notes"
+}
