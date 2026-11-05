@@ -53,13 +53,13 @@ Above $R_{\text{crit}}$, $\omega_w^2 < 0$, causing planar rotation to destabiliz
 The Python analysis suite integrates `odd_a_transverse_longitudinal_wobbling_stability_solver.py`, accessible via CLI:
 
 ```bash
-# 1. 135Pr prototype TW with rigid/pairing-quenched inertia (confirmed dOmega/dI < 0)
+# 1. 135Pr prototype TW with rigid/pairing-quenched inertia (model trend dOmega/dI < 0)
 python3 system/scripts/analysis/nuclear_analyzer.py wobstab --preset 135Pr_transverse_rigid_stable
 
 # 2. 135Pr with hydrodynamic inertia (exhibits premature instability at I = 10.5h)
 python3 system/scripts/analysis/nuclear_analyzer.py wobstab --preset 135Pr_transverse_hydro_unstable
 
-# 3. 187Au longitudinal wobbling benchmark (confirmed dOmega/dI > 0)
+# 3. 187Au longitudinal wobbling benchmark (model trend dOmega/dI > 0)
 python3 system/scripts/analysis/nuclear_analyzer.py wobstab --preset 187Au_longitudinal_wobbling
 ```
 

@@ -7596,3 +7596,7 @@ The PADO package now includes an uncalibrated row-specific within-row correlatio
 ## 2026-11-05 alignmix residual-state repair
 
 The residual analysis scan found `alignmix` still returning scientific-looking `is_wobbling_like`/`is_pure_dipole` fields and claiming removal of systematic uncertainty. It now returns conditional E2-rich/M1-rich screening fields, preserves the old fields as null for compatibility, and states the missing raw/feeding/response/covariance boundary. Targeted alignmix, chiral-selection and pipeline tests pass.
+
+## 2026-11-05 third residual model-state audit
+
+A further scan found legacy confirmation language in chiral-geometry TAC, Davydov wobbling, gamma-gamma cascade grouping, chiral-octupole/MchiD concepts, odd-A wobbling and g-factor equality. These were changed to conditional screening or model-compatibility statements; 24 targeted tests passed. A separate least-favorable PADO profile-grid job remains live and is not part of this commit.

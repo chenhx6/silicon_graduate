@@ -146,7 +146,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py wobbling \
    - $B(E2)_{\text{out}}/B(E2)_{\text{in}} = 0.35 \ge 0.15$（集体 $E2$ 声子性质成立）；
    - $B(M1)_{\text{out}} = 0.04\text{ W.u.} \le 0.15\text{ W.u.}$（$M1$ 被深度阻尼）；
    - $|\delta(E2/M1)| = 2.50 \ge 1.0$（$E2$ 多极性占优）；
-   - **最终结论：`ROBUST_WOBBLING_CONFIRMED`**，彻底排除了签名伙伴带伪摆动假象。
+   - **条件性结论：模型 screening 支持该参数化下的 wobbling-like 分支**；
+     它不能排除 signature partner、TiP、组态混合或响应合同替代解释。
 
 ---
 

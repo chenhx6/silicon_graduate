@@ -106,7 +106,9 @@ python3 system/scripts/analysis/nuclear_analyzer.py gslice -G 350.0 -W 12.0 --js
      - $200.0\text{ keV}$ 跃迁：净峰面积为 $5000.0$；
      - $500.0\text{ keV}$ 跃迁：净峰面积为 $5000.0$；
      - $650.0\text{ keV}$ 跃迁：净峰面积为 $5000.0$；
-   - 全部标记为 `In_Cascade_Confirmed`，严格证实了 $200 \to 350 \to 500 \to 650\text{ keV}$ 四条射线完全处于同一个级联转动带中，彻底复现了 Radware 在束建纲图的经典分析流程！
+   - 在该 synthetic/gated fixture 中全部标记为 `In_Cascade_Screening_Pass`；
+     这表示算法按输入门和面积阈值把四条线放入同一候选级联，不能替代
+     原始 coincidence matrix、peak covariance、端点 identity 和实验纲图闭合。
 
 ---
 

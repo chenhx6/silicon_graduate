@@ -146,7 +146,7 @@ def slice_matrix_gate(
                     "energy_keV": e_casc,
                     "channel": ch_c,
                     "net_coincident_area": area,
-                    "status": "In_Cascade_Confirmed" if area > 500.0 else "Weak_or_Unobserved"
+                    "status": "In_Cascade_Screening_Pass" if area > 500.0 else "Weak_or_Unobserved"
                 })
 
     return {

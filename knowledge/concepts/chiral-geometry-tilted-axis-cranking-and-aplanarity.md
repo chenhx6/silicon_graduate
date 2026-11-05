@@ -111,7 +111,9 @@ python3 system/scripts/analysis/nuclear_analyzer.py chiral \
    - 能级简并度 $\Delta E = 42\text{ keV} \le 60\text{ keV}$；
    - $B(M1)_{\text{in}}/B(M1)_{\text{out}} = 1.15 \approx 1$；
    - $B(E2)$ 孪生一致度达 $1.08 \approx 1$；
-   - **最终结论：`ROBUST_CHIRAL_DOUBLET_CONFIRMED`**！
+   - **条件性结论：`conditional-chiral-doublet-screening-pass`**。该输出是
+     caller-supplied 参数下的几何/能谱 screening，不能替代带有寿命、偏振、
+     响应和竞争模型的实验手征判定。
 
 ---
 

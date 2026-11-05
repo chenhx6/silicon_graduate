@@ -175,14 +175,19 @@ def evaluate_chiral_doublet_criteria(
         checks.append(f"FAIL: Spin I = {I_spin} too low for developed core rotation")
 
     if score == total:
-        verdict = "ROBUST_CHIRAL_DOUBLET_CONFIRMED"
+        verdict = "conditional-chiral-doublet-screening-pass"
     elif score >= 2:
-        verdict = "CHIRAL_VIBRATION_OR_CANDIDATE"
+        verdict = "chiral-candidate-or-vibrational-screening"
     else:
-        verdict = "REJECTED_AS_CHIRAL_DOUBLET"
+        verdict = "screening-fail-or-alternative-doublet"
 
     return {
         "verdict": verdict,
+        "evidence_boundary": (
+            "Heuristic geometry/energy screening under caller-supplied inputs. "
+            "The score is not a confidence level and does not establish chiral "
+            "geometry without source locators, response, lifetimes and competing models."
+        ),
         "score": f"{score}/{total}",
         "criteria_checks": checks
     }

@@ -131,14 +131,14 @@ def arbitrate_chiral_gfactor_equality(g1, sigma1, g2, sigma2):
     sigma_discrepancy = delta_g / sigma_delta
 
     if chi2_val <= 1.0:
-        status = "chiral_equality_confirmed"
-        verdict = f"Consistent with chiral equality theorem: Delta_g = {delta_g:.3f} +- {sigma_delta:.3f} (chi2 = {chi2_val:.2f}, {sigma_discrepancy:.1f}-sigma, p = {p_val:.3f})."
+        status = "chiral-equality-compatible"
+        verdict = f"Compatible with the idealized equality model: Delta_g = {delta_g:.3f} +- {sigma_delta:.3f} (chi2 = {chi2_val:.2f}, {sigma_discrepancy:.1f}-sigma, p = {p_val:.3f})."
     elif chi2_val <= 4.0:
         status = "chiral_compatible_2sigma"
         verdict = f"Compatible within 2-sigma: Delta_g = {delta_g:.3f} +- {sigma_delta:.3f} (chi2 = {chi2_val:.2f}, {sigma_discrepancy:.1f}-sigma)."
     elif chi2_val >= 9.0:
-        status = "chiral_equality_definitively_rejected"
-        verdict = f"REJECTED (>3-sigma discrepancy): Delta_g = {delta_g:.3f} +- {sigma_delta:.3f} (chi2 = {chi2_val:.2f}, {sigma_discrepancy:.1f}-sigma, p = {p_val:.4e}). Candidate bands are NOT chiral partners!"
+        status = "chiral-equality-model-disfavored"
+        verdict = f"Strong discrepancy from the idealized equality model: Delta_g = {delta_g:.3f} +- {sigma_delta:.3f} (chi2 = {chi2_val:.2f}, {sigma_discrepancy:.1f}-sigma, p = {p_val:.4e}). Full band classification still requires independent electromagnetic and response evidence."
     else:
         status = "marginal_discrepancy"
         verdict = f"Marginal tension (2 - 3 sigma): chi2 = {chi2_val:.2f} ({sigma_discrepancy:.1f}-sigma). Higher precision g-factor data needed."

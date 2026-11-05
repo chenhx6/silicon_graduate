@@ -53,7 +53,8 @@ The quartet consists of four intertwined rotational bands sharing identical sing
      - Mean positive-parity chiral splitting: $\overline{\Delta E^+} = 64.0\text{ keV}$;
      - Mean negative-parity chiral splitting: $\overline{\Delta E^-} = 55.0\text{ keV}$;
      - Octupole parity separation: $\overline{\delta E_{\text{oct}}} = 155.5\text{ keV}$ (collapsing from $197.5\text{ keV}$ at $I=8$ to $115.0\text{ keV}$ at $I=12$);
-     - Quartet confidence score: $68.9\%$ (confirmed).
+     - Quartet heuristic screening score: $68.9\%$ (conditional fixture result;
+       not a confidence level or model-independent confirmation).
 2. **$^{133}\text{Ba}$ Candidate Quartet**:
    - Coexisting triaxiality and octupole collectivity in the $A \approx 130$ region.
 

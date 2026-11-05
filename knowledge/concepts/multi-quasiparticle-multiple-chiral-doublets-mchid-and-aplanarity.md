@@ -73,7 +73,9 @@ An experimental candidate pair of bands is verified as a chiral doublet if it sa
 ## Canonical Experimental Benchmarks
 
 - **$^{136}\text{Nd}$ (Petrache et al. 2018 / ADNDT 2019)**:
-  First confirmed 4-quasiparticle M$\chi$D in an even-even nucleus.
+  A published candidate/analysis case for 4-quasiparticle M$\chi$D in an
+  even-even nucleus; the label remains dependent on the source's band identity,
+  lifetimes, transition strengths and competing configurations.
   - Doublet 1 ($\pi h_{11/2}^2 \otimes \nu h_{11/2}^{-2}$): $\overline{\Delta E} = 47.5\text{ keV}$, $\overline{|\Delta S|} = 0.32\text{ keV}$, $\mathcal{V}_{\text{chiral}} = 0.778$, confidence $= 87.3\%$.
   - Doublet 2 ($\pi h_{11/2}^2 \otimes \nu [h_{11/2}^{-1} d_{5/2}^{-1}]$): $\overline{\Delta E} = 50.8\text{ keV}$, $\overline{|\Delta S|} = 0.38\text{ keV}$, $\mathcal{V}_{\text{chiral}} = 0.842$, confidence $= 86.3\%$.
   - Both doublets coexist simultaneously, confirming M$\chi$D.

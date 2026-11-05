@@ -6038,3 +6038,5 @@ raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，�
 - 2026-11-05：P-ADO 增加 row-specific rho_i 的未校准 covariance envelope（D_max²=16.86, r=0.2716），明确不作为 p-value 或 cross-row covariance 解；manifest/validator/claim ledger/project note 已同步。
 
 - 2026-11-05：修复 alignmix 残余模式分类/“消除30%系统误差”语气，改为 conditional screening；targeted tests 12/12 通过。
+
+- 2026-11-05：第三批残余 model-state audit 完成，修复 chiral geometry/Davydov/gamma-gamma/MχD/odd-A wobbling/g-factor equality 的确认语气；24 targeted tests 通过。least-favorable PADO grid 仍在独立运行。
