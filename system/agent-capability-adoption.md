@@ -13,6 +13,7 @@ updated: 2026-09-10
 | 来源 | 固定提交 | 采用范围 | 许可/处理 |
 | --- | --- | --- | --- |
 | [configure](https://gitee.com/zhangxin8069/configure/tree/18a5bfec545adc0029cee1129dba8a3437730299) | `18a5bfec545adc0029cee1129dba8a3437730299` | `brainstorm`、`auto`、`up`、`tag`、`go-on`、`team`、`dispatch`、`follow-up` 及同目录通用技能 | 上游声明 MIT；按原目录安装到用户级 Codex skills，并保留许可证副本 |
+| [configure（GitLab 镜像）](https://gitlab.itp.ac.cn/ZhangXin8069/configure/-/tree/57285cef243414ac1c84363a7d49bc732fb822e9) | `57285cef243414ac1c84363a7d49bc732fb822e9` | 本项目 `.agents/skills/get-paper` 与 `.agents/skills/absorb`；仅采用两个 skill 子树及其离线测试 | 上游 `LICENSE` 声明 MIT；保留本地许可证、`PROVENANCE.md` 和上游文件哈希；按 Wiki `raw/`、`tmp/`、归档门和工作树边界适配，不启用外部 hook/安装器 |
 | [muIon-beam](https://gitee.com/chx6/muIon-beam/tree/d8498ade8821c02a6e01127fcab51a0a4c42d579) | `d8498ade8821c02a6e01127fcab51a0a4c42d579` | 共享层 `team`/`dispatch` 采用 manifest/依赖波次、单写者、能力过滤、证据门、资源锁限制、生命周期/重试记录和 leader 发布归属；`autopilot`/`research-workflow`/`farmer`/项目脚本仅作参考 | 根目录 MIT；不复制项目路径、研究状态、模型路由、Codex 队列或 Gitee/Drive 发布代码；来源文件 SHA-256 记录在共享层 `ATTRIBUTIONS.md` |
 
 25 个跨项目 configure skill 已迁移到共享卷 `/root/.agents/skills`，并保留 `ATTRIBUTIONS.md` 与 MIT 许可证；本轮将 muIon-beam 的通用执行/派发原则扩展进共享 `team`、`dispatch`、`all`、`make` 和 `test`，同时保留 Wiki 的 farmer/evolution/hook 适配器在项目本地，因为它们依赖 Wiki 脚本和运行状态。共享层的 `skills-sync` 负责 checkpoint/push，本仓库不把共享库内容复制进 Git。
@@ -34,6 +35,8 @@ updated: 2026-09-10
 | `farmer` | 监控 Wiki Codex 会话并续接瞬态失败 | `python3 system/scripts/wiki_farmer.py` | 只读 rollout JSONL；只处理 Wiki 根目录内会话和白名单瞬态错误；不读写 Codex SQLite，不独立提交、推送或改科学文件 |
 | `go-on` / `follow-up` | 中断后恢复现场或压缩交接 | 上游 skill + `system/handoff.md` | 以 handoff、Git 状态和报告为证据；不把猜测写成完成状态 |
 | `team` / `dispatch` | 多个真正独立的任务域 | 上游 skill | 共享文件或依赖不并行；单文件单写者；整合后必须在主工作树复验 |
+| `get-paper` | 用户给出 DOI、论文链接、arXiv ID，要求检索、筛选、下载全文或 LaTeX 源码 | `.agents/skills/get-paper` | 只取合法 HTTPS OA/ arXiv 资源；原件进入 `raw/papers/gpt/query/` 并通过归档门；付费墙、验证码和访问控制保持边界 |
+| `absorb` | 需要审查或吸收外部 Git 内容、第三方代码、配置、测试或 skill | `.agents/skills/absorb` | 先固定来源/许可/哈希并盘点所有候选；运行清单进入 `tmp/runs/absorb/`；不执行外来内容或自动安装 hook |
 
 ## Hook 事件
 

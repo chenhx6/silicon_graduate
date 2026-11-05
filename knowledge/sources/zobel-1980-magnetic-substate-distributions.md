@@ -115,3 +115,15 @@ Crossref精确书目匹配[High spin states in 67Ga](https://doi.org/10.1016/037
 按本次无人值守计划的bounded正文companion范围，以nature-downloader出版商API、合法OA与public publisher PDF discovery推进；API未配置、没有OA文件/公开PDFcandidate，精确Scholar检索超时。未配置或改动credentials，未进入宿主GUI/浏览器，没有获得或写入raw文件。下载器将Elsevier TDM userlicense标签为confirmed_oa，本轮不接受该判定：Unpaywall is_oa=false且无可读OA对象。这里是access metadata自审，不把TDMlicense当开放许可。
 
 故停止这条原文获取路线，缺失的purity误差/producer/response为何重要已保留：它们决定表中采用δ=0后的α能否代表所声明的核张量，以及多个引用是否共享数据。下一最高信息路线是NNDC/ENSDF 67Ga的公开evaluated/reaction记录核对multipolarity/δ来源；它也不能自动变成独立实验或补当前角fitCov。DAY14继续，Day15仅无学分预习。新增Z80-20 true，旧review范围保持。
+
+### 2026-11-05 companion acquisition recheck
+
+按用户要求重新尝试获取 Ref.9 / 1983 Ref.4 的 1979 primary：
+V. Zobel et al., *High spin states in* \(^{67}\)Ga, *Nuclear Physics A*
+316, 165–188 (1979), DOI `10.1016/0375-9474(79)90678-X`。本次核查了
+Crossref、Unpaywall、OpenAlex、OpenAIRE、INSPIRE 和 Elsevier 的 DOI/PII
+接口；得到的均为元数据、闭源状态、出版社重定向或无全文的接口响应，没有得到
+可读 PDF。实际响应和逐文件 SHA-256 已归档于
+`raw/papers/gpt/query/20261105-zobel-1979-67ga/manifest.json`，因此本次仍不能
+补写该 1979 文章的 level、\(\delta\)、purity、response 或 raw-acquisition
+结论。该 manifest 是访问边界记录，不是 1979 原件。
