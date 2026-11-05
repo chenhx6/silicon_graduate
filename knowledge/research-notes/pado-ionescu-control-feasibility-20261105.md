@@ -11,17 +11,18 @@ evidence_sources: [ionescu-1981-improved-angular-distribution-analysis-particle-
 scope: pado/public-control/feeding-aware-angular-distribution
 nuclei: [167tm]
 tags: [pado, angular-distribution, feeding, gaussian-hypothesis, public-control, evidence-boundary]
+created_from: "P-ADO public-control feasibility audit"
 ---
 
 # Ionescu 1981 as an independent public control for the P-ADO audit
 
-## Question
+## Research Trigger
 
 Can the `165Ho(alpha,2n)167Tm` angular-distribution data of Ionescu et al.
 (1981) be added as a second public benchmark for the
 `pado-alignment-response-dependence` article?
 
-## Directly available fields
+## Grounded Evidence
 
 The archived nine-page paper provides:
 
@@ -39,7 +40,27 @@ The source explicitly reports that the global Gaussian population hypothesis is
 inadequate for this studied `167Tm` case. It then constrains the population
 model with pure-\(E2\) transitions before fitting mixed-transition mixing ratios.
 
-## Why it cannot be pooled with the \(^{67}\)Ga audit
+## Assumptions
+
+The source table is treated as a public transcription with its own \(\rho_2/\rho_4\), \(A_2/A_4\), intensity and feeding conventions. No cross-source notation conversion is assumed to be exact without a separate Yamazaki/sign audit.
+
+## Competing Explanations
+
+The observed failure of the global Gaussian description may reflect discrete direct feeding, side feeding, disorientation, source-specific spin hypotheses or detector/fit conventions. It is not evidence that all Gaussian alignment models fail.
+
+## Transfer Conditions
+
+Any future numerical control must preserve the Ionescu reaction, band identity, feeding graph, notation and source-specific covariance contract. It cannot be pooled with the \(^{67}\)Ga rows as one common-\(r\) sample.
+
+## Failure Conditions
+
+Stop the control if parent tensors, disorientation coefficients, total conversion-corrected intensities or row covariance are unavailable for the chosen replay. Do not infer missing fields from energy proximity or from the published calculated rows.
+
+## Falsification or Reverse Tests
+
+The public-control proposal would be falsified as a direct numerical replication if a complete source-level replay showed that the printed Table 1 rows cannot be reproduced under the declared notation and feeding direction. A successful replay would still remain a separate method control, not a pooled experiment.
+
+## Provisional Reasoning
 
 The paper is a strong methodological precedent, but it is not a drop-in second
 sample for the current common-\(\rho\) statistic:
@@ -81,9 +102,23 @@ separate `ionescu1981` control package containing:
 - no pooling with the \(^{67}\)Ga common-\(\rho\) sample unless a complete
   covariance and response contract is obtained.
 
+## Open Questions
+
+- Can the complete parent-tensor, disorientation and conversion-corrected intensity inputs be reconstructed from the cited feeding chain?
+- Can the \(\rho_2/\rho_4\) convention be mapped to the finite-\(J\) response representation without importing an unverified sign or normalization?
+- Would a separate source-replay statistic add enough information to justify supplementary material in the EPJ A paper?
+
+## Human Review
+
+This note is Codex self-audit and remains `review_status: unreviewed`. The Ionescu source page has its own source-review history, but the proposed control has not been run as a publication analysis.
+
 ## Decision
 
 For the current manuscript, use Ionescu 1981 as a verified methodological
 precedent and explicit limitation. Do not claim that an independent numerical
 public control has been completed. The \(^{67}\)Ga table remains the only
 quantitative benchmark in the article.
+
+## Promotion or Rejection History
+
+2026-11-05: kept as a separate public-control feasibility note; no numerical Ionescu control was admitted to the article.
