@@ -1,0 +1,813 @@
+{
+  "review_kind": "independent mathematical/scientific audit; no primary retrieval",
+  "timestamp_utc": "2026-11-05T07:46:35.004924+00:00",
+  "runtime": {
+    "python": "3.12.3",
+    "sympy": "1.14.0",
+    "executable": "/opt/venv/bin/python3"
+  },
+  "review_script_sha256": "144159440e19e8f393d5fb51219756e093703420279fab10a8f9fae760a1e7fc",
+  "initial_read_hashes": {
+    "raw/writing/gpt/ba129-rank4-identifiability/main.tex": "3c9d9a2bfded468af0069381115b3de112cbfff756adde94cd392770d3868f36",
+    "raw/writing/gpt/ba129-rank4-identifiability/analysis/rank4_invariant.py": "3ad6b43008cf24f1bbaf6d1ff3b7467be722cb85e46656580fe3061a99042c21"
+  },
+  "execution_before_hashes": {
+    "raw/writing/gpt/ba129-rank4-identifiability/main.tex": "3c9d9a2bfded468af0069381115b3de112cbfff756adde94cd392770d3868f36",
+    "raw/writing/gpt/ba129-rank4-identifiability/analysis/rank4_invariant.py": "3ad6b43008cf24f1bbaf6d1ff3b7467be722cb85e46656580fe3061a99042c21"
+  },
+  "execution_after_hashes": {
+    "raw/writing/gpt/ba129-rank4-identifiability/main.tex": "3c9d9a2bfded468af0069381115b3de112cbfff756adde94cd392770d3868f36",
+    "raw/writing/gpt/ba129-rank4-identifiability/analysis/rank4_invariant.py": "3ad6b43008cf24f1bbaf6d1ff3b7467be722cb85e46656580fe3061a99042c21"
+  },
+  "same_as_initial_read": true,
+  "proof": {
+    "sixj_target": {
+      "exact": "-8*sqrt(12155)/15015",
+      "float": -0.05874110772050543
+    },
+    "sixj_reference": {
+      "exact": "-sqrt(12155)/5005",
+      "float": -0.022027915395189532
+    },
+    "sixj_ratio": "8/3",
+    "sixj_square_ratio": "64/9",
+    "F4_target": {
+      "exact": "32*sqrt(2431)/3003",
+      "float": 0.5253964397467514
+    },
+    "F4_reference": {
+      "exact": "-4*sqrt(2431)/1001",
+      "float": -0.19702366490503176
+    },
+    "F4_ratio": "-8/3",
+    "photon_route_all_parent_m": [
+      {
+        "m": "-13/2",
+        "target_E2_A4": "16/21",
+        "reference_E2_A4": "-2/7"
+      },
+      {
+        "m": "-11/2",
+        "target_E2_A4": "-16/39",
+        "reference_E2_A4": "2/13"
+      },
+      {
+        "m": "-9/2",
+        "target_E2_A4": "-64/91",
+        "reference_E2_A4": "24/91"
+      },
+      {
+        "m": "-7/2",
+        "target_E2_A4": "-1472/3003",
+        "reference_E2_A4": "184/1001"
+      },
+      {
+        "m": "-5/2",
+        "target_E2_A4": "-16/231",
+        "reference_E2_A4": "2/77"
+      },
+      {
+        "m": "-3/2",
+        "target_E2_A4": "48/143",
+        "reference_E2_A4": "-18/143"
+      },
+      {
+        "m": "-1/2",
+        "target_E2_A4": "576/1001",
+        "reference_E2_A4": "-216/1001"
+      },
+      {
+        "m": "1/2",
+        "target_E2_A4": "576/1001",
+        "reference_E2_A4": "-216/1001"
+      },
+      {
+        "m": "3/2",
+        "target_E2_A4": "48/143",
+        "reference_E2_A4": "-18/143"
+      },
+      {
+        "m": "5/2",
+        "target_E2_A4": "-16/231",
+        "reference_E2_A4": "2/77"
+      },
+      {
+        "m": "7/2",
+        "target_E2_A4": "-1472/3003",
+        "reference_E2_A4": "184/1001"
+      },
+      {
+        "m": "9/2",
+        "target_E2_A4": "-64/91",
+        "reference_E2_A4": "24/91"
+      },
+      {
+        "m": "11/2",
+        "target_E2_A4": "-16/39",
+        "reference_E2_A4": "2/13"
+      },
+      {
+        "m": "13/2",
+        "target_E2_A4": "16/21",
+        "reference_E2_A4": "-2/7"
+      }
+    ],
+    "scope": "diagonal parent density; unobserved final substates and helicities; point response"
+  },
+  "identifiability": {
+    "rank4_only_identifies": "f_E2*s4 when common postselection holds and A4_reference != 0",
+    "delta_sign": "not identifiable from rank4",
+    "product_jacobian": "Matrix([[s, f]])",
+    "nonidentifiable_positive_Q_examples": [
+      {
+        "f_E2": "4/5",
+        "s4": "1",
+        "Q4_reference": "1/4",
+        "Q4_target": "1/4",
+        "abs_delta": "2"
+      },
+      {
+        "f_E2": "1/5",
+        "s4": "4",
+        "Q4_reference": "1/4",
+        "Q4_target": "1",
+        "abs_delta": "1/2"
+      }
+    ],
+    "known_s4_inverse": "f=z/s4; |delta|=sqrt(f/(1-f)); 0<=f<1",
+    "bounded_positive_s4_inverse": "f in [z/s_max,z/s_min] intersect [0,1], for z>=0",
+    "known_negative_s4_example": {
+      "z": "-3/4",
+      "s4": "-1",
+      "f": "3/4",
+      "abs_delta": "sqrt(3)"
+    },
+    "zero_cases": [
+      "rho4=0: no rank4 information",
+      "Q4_reference=0: ratio undefined",
+      "Q4_target=0: no target rank4 sensitivity",
+      "f=1: pure-E2 infinite-delta endpoint"
+    ]
+  },
+  "gate_and_response_controls": {
+    "different_postselection_toy": {
+      "population_before_selection": "equal mixture of m=+-1/2 and m=+-7/2",
+      "target_postselection": "m=+-1/2",
+      "reference_postselection": "m=+-7/2",
+      "f_E2": "1",
+      "Q4_target": "1",
+      "Q4_reference": "1",
+      "target_A4": "576/1001",
+      "reference_A4": "184/1001",
+      "g4_rho_target_over_reference": "-27/23",
+      "status": "ideal positive substate filters, not historical gamma-gate simulation"
+    },
+    "correct_general_relation": "At=-(8/3)*f*s4*g4*Ar, g4=rho4t/rho4r, where scalar factorization holds",
+    "nonnegative_kernel_negative_Q4": {
+      "model": "uniform solid-angle cone, beta_max=60deg",
+      "Q4": "-15/128"
+    },
+    "rank_mixing_response": {
+      "W": "x**2/2 + 5/6",
+      "h": "3*x**2/4 + 3/4",
+      "true_A4": "0",
+      "observed_A4": "18/217",
+      "status": "chosen positive polar efficiency; not a scalar convolution"
+    }
+  },
+  "summary_checks": {
+    "central_product": "-3/4",
+    "one_marginal_box_image_s4_one": [
+      "-26/75",
+      "0"
+    ],
+    "two_marginal_box_image_s4_one": [
+      "-12/25",
+      "4/75"
+    ],
+    "two_marginal_gap_s4_one": "1/150",
+    "two_marginal_overlap_threshold_s4": "9/8",
+    "diagonal_profile": {
+      "objective": "256*(4*f + 3)**2/(25*(64*f**2 + 9))",
+      "candidate_f": [
+        "0",
+        "1",
+        "3/16"
+      ],
+      "best_f": "1",
+      "minimum": {
+        "exact": "12544/1825",
+        "float": 6.873424657534247
+      },
+      "not_experimental_test": true
+    }
+  },
+  "implementation_findings": [
+    "canonical-case F4 values and diagonal diagnostic match independent calculations",
+    "reference Ji_twice is ignored; mismatched parent spin accepted",
+    "duplicate labels silently accepted and overwritten",
+    "exact_ratio is a literal -8/3; exact square plus independently handled phase should certify sign",
+    "synthetic roundtrip validates an algebra product, not a new parameter-identification method"
+  ],
+  "checks": [
+    {
+      "name": "standard_6j_ratio",
+      "passed": true,
+      "got": "8/3",
+      "expected": "8/3"
+    },
+    {
+      "name": "standard_6j_square_ratio",
+      "passed": true,
+      "got": "64/9",
+      "expected": "64/9"
+    },
+    {
+      "name": "signed_F4_ratio",
+      "passed": true,
+      "got": "-8/3",
+      "expected": "-8/3"
+    },
+    {
+      "name": "rank4_M1_M1_CG_zero",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "rank4_M1_E2_CG_zero",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=-13/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=-13/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=-13/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=-13/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=-13/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=-11/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=-11/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=-11/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=-11/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=-11/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=-9/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=-9/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=-9/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=-9/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=-9/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=-7/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=-7/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=-7/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=-7/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=-7/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=-5/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=-5/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=-5/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=-5/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=-5/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=-3/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=-3/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=-3/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=-3/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=-3/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=-1/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=-1/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=-1/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=-1/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=-1/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=1/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=1/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=1/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=1/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=1/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=3/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=3/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=3/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=3/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=3/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=5/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=5/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=5/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=5/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=5/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=7/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=7/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=7/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=7/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=7/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=9/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=9/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=9/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=9/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=9/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=11/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=11/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=11/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=11/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=11/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "target_E2_normalization_m=13/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "reference_E2_normalization_m=13/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "target_M1_normalization_m=13/2",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "photon_rank4_relation_m=13/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "photon_M1_rank4_zero_m=13/2",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "low_m_target_A4",
+      "passed": true,
+      "got": "576/1001",
+      "expected": "576/1001"
+    },
+    {
+      "name": "low_m_reference_A4",
+      "passed": true,
+      "got": "-216/1001",
+      "expected": "-216/1001"
+    },
+    {
+      "name": "isotropic_W",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "delta_sign_invariance",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "product_jacobian_rank_is_one",
+      "passed": true
+    },
+    {
+      "name": "product_null_direction",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "same_product_f=4/5_s=1",
+      "passed": true,
+      "got": "4/5",
+      "expected": "4/5"
+    },
+    {
+      "name": "same_product_f=1/5_s=4",
+      "passed": true,
+      "got": "4/5",
+      "expected": "4/5"
+    },
+    {
+      "name": "different_postselection_same_sign_A4",
+      "passed": true
+    },
+    {
+      "name": "gate_ratio_g_restores_algebra",
+      "passed": true,
+      "got": "576/1001",
+      "expected": "576/1001"
+    },
+    {
+      "name": "uniform_cone_Q4",
+      "passed": true,
+      "got": "c*(7*c**4 - 10*c**2 + 3)/(8*(c - 1))",
+      "expected": "c*(c + 1)*(7*c**2 - 3)/8"
+    },
+    {
+      "name": "positive_kernel_60deg_negative_Q4",
+      "passed": true,
+      "got": "-15/128",
+      "expected": "-15/128"
+    },
+    {
+      "name": "point_response_limit",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "unfolded_example_true_A4",
+      "passed": true,
+      "got": "0",
+      "expected": "0"
+    },
+    {
+      "name": "polar_efficiency_leaks_rank2_into4",
+      "passed": true,
+      "got": "18/217",
+      "expected": "18/217"
+    },
+    {
+      "name": "public_central_product",
+      "passed": true,
+      "got": "-3/4",
+      "expected": "-3/4"
+    },
+    {
+      "name": "negative_known_s4_can_identify_f",
+      "passed": true,
+      "got": "-3/4",
+      "expected": "-3/4"
+    },
+    {
+      "name": "negative_known_s4_abs_delta",
+      "passed": true,
+      "got": "sqrt(3)",
+      "expected": "sqrt(3)"
+    },
+    {
+      "name": "two_margin_gap_at_s4_one",
+      "passed": true,
+      "got": "1/150",
+      "expected": "1/150"
+    },
+    {
+      "name": "s4_9_over_8_closes_two_margin_box",
+      "passed": true,
+      "got": "3/50",
+      "expected": "3/50"
+    },
+    {
+      "name": "independent_diagonal_profile_min_f",
+      "passed": true,
+      "got": "1",
+      "expected": "1"
+    },
+    {
+      "name": "submitted_F4_matches_standard_target",
+      "passed": true
+    },
+    {
+      "name": "submitted_F4_matches_standard_reference",
+      "passed": true
+    },
+    {
+      "name": "submitted_diagonal_score_matches_independent_minimum",
+      "passed": true
+    },
+    {
+      "name": "demonstrated_missing_same_spin_validation",
+      "passed": true
+    },
+    {
+      "name": "demonstrated_duplicate_row_acceptance",
+      "passed": true
+    },
+    {
+      "name": "reviewed_files_unchanged_during_execution",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "number_of_checks": 102,
+  "boundary": "No new experimental delta, covariance, p-value, B(E2), or mode assignment; no novelty search."
+}

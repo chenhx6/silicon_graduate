@@ -1,0 +1,263 @@
+{
+  "timestamp_utc": "2026-11-05T07:56:52.777234+00:00",
+  "runtime": {
+    "python": "3.12.3",
+    "sympy": "1.14.0"
+  },
+  "script_sha256": "fc42a54db73008857ec1136168c74dc44a4732a6a341fab0d9693d3759077db4",
+  "supplied_primary": {
+    "hashes_before": {
+      "raw/papers/gpt/query/20261105-ba129-primary/gizon1977-full-json.json": "1dd29020347823672adba2ef2f7e7955976236c8d09fe8cf00a12ee83025ef3e",
+      "tmp/ba129-primary-review/gizon1977-full.txt": "51f4152221d0ea2fae48b595c3cce6e1af698ce27eb6af009fefe94b6d6484e1"
+    },
+    "hashes_after": {
+      "raw/papers/gpt/query/20261105-ba129-primary/gizon1977-full-json.json": "1dd29020347823672adba2ef2f7e7955976236c8d09fe8cf00a12ee83025ef3e",
+      "tmp/ba129-primary-review/gizon1977-full.txt": "51f4152221d0ea2fae48b595c3cce6e1af698ce27eb6af009fefe94b6d6484e1"
+    },
+    "JSON_field": "full-text-retrieval-response.originalText",
+    "originalText_characters": 33742,
+    "table1_365_offset_zero_based": 9932,
+    "table1_461_offset_zero_based": 9967,
+    "alignment_attenuation_offset_zero_based": 16170,
+    "boundary": "User reports only page-one visual PDF; OCR missing signs cannot be certified."
+  },
+  "rank2": {
+    "standard_F2_reference": "-10*sqrt(13)/91",
+    "matrix": [
+      [
+        "-7/10",
+        "7*sqrt(11)/10"
+      ],
+      [
+        "7*sqrt(11)/10",
+        "-1/10"
+      ]
+    ],
+    "quotient": "-(delta**2 - 14*sqrt(11)*delta + 7)/(10*(delta**2 + 1))",
+    "eigenvalue_minimum": {
+      "exact": "-sqrt(137)/5 - 2/5",
+      "float": -2.740939982143925
+    },
+    "eigenvalue_maximum": {
+      "exact": "-2/5 + sqrt(137)/5",
+      "float": 1.940939982143925
+    },
+    "delta_at_minimum_in_declared_phase": "sqrt(11)*(3 - 2*sqrt(137))/77",
+    "central_A2_ratio": "-35/11",
+    "central_s2_minimum_for_positive_s2": {
+      "exact": "-50/209 + 25*sqrt(137)/209",
+      "float": 1.16084927161718
+    },
+    "ENSDF_one_margin_s2_threshold": 1.0185070395022162,
+    "correct_forward_relation": "A2_target/A2_reference = s2*g2*q(delta); g2=1 only for common selected parent density",
+    "boundary": "This bound cancels common rank2 orientation; it does not determine actual Q2 or actual delta."
+  },
+  "uncertainty_scenarios": [
+    {
+      "scenario": "ENSDF_as_in_manuscript",
+      "marginal_error_multiplier": 1,
+      "A2_ratio_box": [
+        "-73/20",
+        "-67/24"
+      ],
+      "rank2_box_has_solution_s2_one": false,
+      "A4_reference_box": [
+        "3/100",
+        "13/100"
+      ],
+      "A4_target_box": [
+        "11/100",
+        "21/100"
+      ],
+      "A4_target_image_s4_one": [
+        "-26/75",
+        "0"
+      ],
+      "rank4_box_has_solution_s4_one": false,
+      "no_joint_confidence_interpretation": true
+    },
+    {
+      "scenario": "ENSDF_as_in_manuscript",
+      "marginal_error_multiplier": 2,
+      "A2_ratio_box": [
+        "-38/9",
+        "-32/13"
+      ],
+      "rank2_box_has_solution_s2_one": true,
+      "A4_reference_box": [
+        "-1/50",
+        "9/50"
+      ],
+      "A4_target_box": [
+        "3/50",
+        "13/50"
+      ],
+      "A4_target_image_s4_one": [
+        "-12/25",
+        "4/75"
+      ],
+      "rank4_box_has_solution_s4_one": false,
+      "no_joint_confidence_interpretation": true
+    },
+    {
+      "scenario": "literal_OCR_provisional",
+      "marginal_error_multiplier": 1,
+      "A2_ratio_box": [
+        "-25/6",
+        "-5/2"
+      ],
+      "rank2_box_has_solution_s2_one": true,
+      "A4_reference_box": [
+        "1/50",
+        "7/50"
+      ],
+      "A4_target_box": [
+        "11/100",
+        "21/100"
+      ],
+      "A4_target_image_s4_one": [
+        "-28/75",
+        "0"
+      ],
+      "rank4_box_has_solution_s4_one": false,
+      "no_joint_confidence_interpretation": true
+    },
+    {
+      "scenario": "literal_OCR_provisional",
+      "marginal_error_multiplier": 2,
+      "A2_ratio_box": [
+        "-40/7",
+        "-2"
+      ],
+      "rank2_box_has_solution_s2_one": true,
+      "A4_reference_box": [
+        "-1/25",
+        "1/5"
+      ],
+      "A4_target_box": [
+        "3/50",
+        "13/50"
+      ],
+      "A4_target_image_s4_one": [
+        "-8/15",
+        "8/75"
+      ],
+      "rank4_box_has_solution_s4_one": true,
+      "no_joint_confidence_interpretation": true
+    }
+  ],
+  "interpretation": [
+    "The user's matrix and eigenvalue lower bound are correct in the stated phase convention.",
+    "The rank2 central mismatch assumes s2=1 and g2=1; positive response alone is insufficient.",
+    "ENSDF one-marginal box misses the rank2 range, but s2 about 1.018507 already permits contact.",
+    "The literal OCR one-marginal rank2 box overlaps; this is provisional uncertainty sensitivity.",
+    "The literal OCR two-marginal rank4 box overlaps at s4=1, unlike the ENSDF box.",
+    "Do not use the 701.4-keV-specific nuclear attenuation alpha2/alpha4 as global rho or detector Q.",
+    "Rank2 and rank4 summaries share sources and potentially fit/calibration covariance; do not count as independent confirmations.",
+    "No OCR missing sign, original table error or 2024 fit error is diagnosed."
+  ],
+  "checks": [
+    {
+      "name": "M00",
+      "passed": true
+    },
+    {
+      "name": "M01",
+      "passed": true
+    },
+    {
+      "name": "M11",
+      "passed": true
+    },
+    {
+      "name": "lower_eigenvalue",
+      "passed": true
+    },
+    {
+      "name": "upper_eigenvalue",
+      "passed": true
+    },
+    {
+      "name": "rayleigh_minimum_attained",
+      "passed": true
+    },
+    {
+      "name": "stationary_at_minimum",
+      "passed": true
+    },
+    {
+      "name": "delta_phase_flip_preserves_spectrum",
+      "passed": true
+    },
+    {
+      "name": "central_ratio",
+      "passed": true
+    },
+    {
+      "name": "central_below_lower_eigenvalue_at_s2_one",
+      "passed": true
+    },
+    {
+      "name": "central_requires_s2_above_one",
+      "passed": true
+    },
+    {
+      "name": "ENSDF_as_in_manuscript_reference_rank2_nonzero_box_1",
+      "passed": true
+    },
+    {
+      "name": "ENSDF_as_in_manuscript_rank2_box_result_1",
+      "passed": true
+    },
+    {
+      "name": "ENSDF_as_in_manuscript_rank4_box_result_1",
+      "passed": true
+    },
+    {
+      "name": "ENSDF_as_in_manuscript_reference_rank2_nonzero_box_2",
+      "passed": true
+    },
+    {
+      "name": "ENSDF_as_in_manuscript_rank2_box_result_2",
+      "passed": true
+    },
+    {
+      "name": "ENSDF_as_in_manuscript_rank4_box_result_2",
+      "passed": true
+    },
+    {
+      "name": "literal_OCR_provisional_reference_rank2_nonzero_box_1",
+      "passed": true
+    },
+    {
+      "name": "literal_OCR_provisional_rank2_box_result_1",
+      "passed": true
+    },
+    {
+      "name": "literal_OCR_provisional_rank4_box_result_1",
+      "passed": true
+    },
+    {
+      "name": "literal_OCR_provisional_reference_rank2_nonzero_box_2",
+      "passed": true
+    },
+    {
+      "name": "literal_OCR_provisional_rank2_box_result_2",
+      "passed": true
+    },
+    {
+      "name": "literal_OCR_provisional_rank4_box_result_2",
+      "passed": true
+    },
+    {
+      "name": "derived_text_matches_JSON_originalText",
+      "passed": true
+    },
+    {
+      "name": "supplied_primary_files_not_changed",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "number_of_checks": 25
+}

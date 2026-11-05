@@ -1,0 +1,37 @@
+{
+  "contract": "ba129-companion-summary-v2",
+  "measurement_vector_order": ["A2_target", "A4_target", "A2_reference", "A4_reference"],
+  "canonical_summary": {
+    "file": "data/ba129_same_parent_A4.csv",
+    "upstream_raw": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens",
+    "upstream_sha256": "09194d4feed3bbda013c551ce5ba9ecf55a25799e8c46ec22f23685df1c1ef19",
+    "locator": "lines 132-142, L643.6/G364.7/G461.6; global source rules lines 19-26",
+    "reported_covariance": null,
+    "measurement_status": "evaluated legacy summary; no new measurement"
+  },
+  "uncertainty_scenarios": [
+    {
+      "id": "evaluated",
+      "standard_error_scales": [0.03, 0.05, 0.02, 0.05],
+      "role": "CSV quoted margins interpreted as standard errors for a declared Gaussian sensitivity calculation"
+    },
+    {
+      "id": "primary_ocr_scale_sensitivity",
+      "standard_error_scales": [0.05, 0.05, 0.04, 0.06],
+      "role": "provisional error-scale sensitivity only; retain evaluated means and signs; not corrected experimental data",
+      "upstream_raw": "raw/papers/gpt/query/20261105-ba129-primary/gizon1977-full-json.json",
+      "upstream_sha256": "1dd29020347823672adba2ef2f7e7955976236c8d09fe8cf00a12ee83025ef3e",
+      "locator": "/full-text-retrieval-response/originalText; printed p.466 Table 1, 365.0/461.8 rows; zero-based character offsets 9932 and 9967",
+      "visual_table_verification": false
+    }
+  ],
+  "shared_selected_parent_verified": false,
+  "reference_purity_verified": false,
+  "response_ratio_s2_s4": [1.0, 1.0],
+  "response_ratio_role": "declared diagnostic scenario, not measured calibration",
+  "covariance_family": "D [R_cross-line(rho_c) tensor-product R_within-line(rho_w)] D",
+  "correlation_grid": [-0.8, -0.4, 0.0, 0.4, 0.8],
+  "correlation_grid_role": "finite sensitivity family; neither measured covariance nor exhaustive covariance uncertainty",
+  "parent_orientation_role": "profile over free real rank-2 and rank-4 reference coefficients; physical population positivity not imposed",
+  "inference_boundary": "diagnostic residual distances only; no p-value, confidence interval, branch probability, experimental root estimate or collective-mode verdict"
+}

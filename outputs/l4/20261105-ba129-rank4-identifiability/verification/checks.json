@@ -1,0 +1,87 @@
+[
+  {
+    "name": "lint",
+    "command": [
+      "python3",
+      "system/scripts/wiki_lint.py",
+      "--fail-on",
+      "error"
+    ],
+    "started_at": "2026-11-05T08:28:48.907296+00:00",
+    "completed_at": "2026-11-05T08:30:28.514130+00:00",
+    "exit": 0,
+    "log": "outputs/l4/20261105-ba129-rank4-identifiability/verification/lint.log",
+    "summary": [
+      "SUMMARY pages=1364 wikilinks=12633 hashes=464 errors=0 warnings=619 info=5330"
+    ],
+    "publication_blocker": false
+  },
+  {
+    "name": "preflight",
+    "command": [
+      "python3",
+      "system/scripts/wiki_automation_preflight.py",
+      "--root",
+      "."
+    ],
+    "started_at": "2026-11-05T08:28:48.907528+00:00",
+    "completed_at": "2026-11-05T08:30:22.692715+00:00",
+    "exit": 0,
+    "log": "outputs/l4/20261105-ba129-rank4-identifiability/verification/preflight.log",
+    "ok": true,
+    "boundary_ok": true,
+    "archive_ok": true,
+    "protected_bib_status": "matched",
+    "publication_blocker": false
+  },
+  {
+    "name": "eol-dry-run",
+    "command": [
+      "python3",
+      "system/scripts/clean_knowledge_eol_dirty.py",
+      "--dry-run"
+    ],
+    "started_at": "2026-11-05T08:28:48.907956+00:00",
+    "completed_at": "2026-11-05T08:29:11.805493+00:00",
+    "exit": 1,
+    "log": "outputs/l4/20261105-ba129-rank4-identifiability/verification/eol-dry-run.log",
+    "interpretation": "Expected nonzero status: one substantive index change retained; no EOL-only restore or unsafe/mixed state.",
+    "publication_blocker": false
+  },
+  {
+    "name": "diff-check",
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "started_at": "2026-11-05T08:28:48.908531+00:00",
+    "completed_at": "2026-11-05T08:29:05.191151+00:00",
+    "exit": 0,
+    "log": "outputs/l4/20261105-ba129-rank4-identifiability/verification/diff-check.log",
+    "publication_blocker": false
+  },
+  {
+    "name": "final-lint-after-source-completion",
+    "completed_at": "2026-11-05T08:40:45.626158+00:00",
+    "exit": 0,
+    "summary": [
+      "SUMMARY pages=1364 wikilinks=12633 hashes=464 errors=0 warnings=619 info=5331"
+    ],
+    "staged_diff_check_exit": 0,
+    "staged_files": 41,
+    "expected_scope_matches": true,
+    "format_repair": "Two task-owned plot-cache CSVs converted to LF; generators set explicit LF terminator."
+  },
+  {
+    "name": "publication-lint-final-content",
+    "completed_at": "2026-11-05T08:50:33.602689+00:00",
+    "exit": 0,
+    "summary": [
+      "SUMMARY pages=1364 wikilinks=12634 hashes=464 errors=0 warnings=619 info=5331"
+    ],
+    "expected_scope_matches": true,
+    "staged_files": 42,
+    "release_hashes_verified": 27
+  }
+]

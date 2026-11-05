@@ -1,0 +1,112 @@
+{
+  "identity": {
+    "nucleus": "129Ba",
+    "target": "643.6-keV 13/2- -> 11/2- 364.7-keV line",
+    "reference": "643.6-keV 13/2- -> 9/2- 461.6-keV line",
+    "source_locator": "ENSDF 129056001/013; 1977 Gi02 A2/A4 records"
+  },
+  "input_sha256": "047cdd0fa3c98b75b474b22299db3d88322ee99d5c988ae0b2ded8f3b53ea9e0",
+  "script_sha256": "025286d118adce08efe7716b52839d6edbb4de7c5c5210e30bc05f06832035cd",
+  "algebra": {
+    "F4_target_pure_E2": 0.5253964397467513,
+    "F4_reference_pure_E2": -0.19702366490503173,
+    "F4_ratio": -2.666666666666667,
+    "exact_F4_ratio": "-8/3",
+    "exact_6j_squared_ratio": "64/9",
+    "6j_signs": {
+      "target": -1,
+      "reference": -1
+    },
+    "relation": "A4_target = -(8/3) * f_E2 * s4 * A4_reference",
+    "physical_domain": "0 <= f_E2 <= 1; s4 = Q4_target/Q4_reference"
+  },
+  "public_summary_values": {
+    "target_A2": -0.7,
+    "target_A2_sigma": 0.03,
+    "target_A4": 0.16,
+    "target_A4_sigma": 0.05,
+    "reference_A2": 0.22,
+    "reference_A2_sigma": 0.02,
+    "reference_A4": 0.08,
+    "reference_A4_sigma": 0.05
+  },
+  "central_diagnostic": {
+    "target_A4_times_reference_A4": 0.0128,
+    "target_over_reference_A4": 2.0,
+    "required_f_E2_times_s4": -0.75,
+    "central_physical_domain_satisfied_for_positive_s4": false,
+    "interpretation": "The central summary values require a negative f_E2*s4 under the declared companion-line contract. This is a contract diagnostic, not an experimental error verdict."
+  },
+  "identification": {
+    "identified_quantity_under_shared_selected_parent": "f_E2*s4",
+    "s4_calibrated": false,
+    "f_E2_identified": false,
+    "delta_magnitude_identified": false,
+    "delta_sign_identified": false,
+    "zero_reference_case": "ratio undefined; coefficient-space method required",
+    "different_parent_selection": "retain g4=rho4_target/rho4_reference as a distinct factor"
+  },
+  "synthetic_algebra_control": {
+    "f_E2_true": 0.65,
+    "s4_true": 1.25,
+    "reference_A4": 0.08,
+    "target_A4_generated": -0.17333333333333337,
+    "f_E2_times_s4_recovered": 0.8125000000000002,
+    "passed": true,
+    "not_experimental_data": true
+  },
+  "interval_controls": [
+    {
+      "quoted_marginal_multiplier": 1,
+      "reference_A4_interval": [
+        0.03,
+        0.13
+      ],
+      "target_A4_interval": [
+        0.11,
+        0.21000000000000002
+      ],
+      "both_intervals_strictly_positive": true,
+      "predicted_target_image_for_s4_1_and_f_E2_0_1": [
+        -0.3466666666666667,
+        0.0
+      ],
+      "overlap_with_target_interval_for_s4_1": false,
+      "not_joint_confidence_region": true
+    },
+    {
+      "quoted_marginal_multiplier": 2,
+      "reference_A4_interval": [
+        -0.020000000000000004,
+        0.18
+      ],
+      "target_A4_interval": [
+        0.06,
+        0.26
+      ],
+      "both_intervals_strictly_positive": false,
+      "predicted_target_image_for_s4_1_and_f_E2_0_1": [
+        -0.48,
+        0.053333333333333344
+      ],
+      "overlap_with_target_interval_for_s4_1": false,
+      "not_joint_confidence_region": true
+    }
+  ],
+  "diagonal_s4_one_control": {
+    "minimum_diagnostic_score": 6.873424657534247,
+    "f_E2_at_minimum": 1.0,
+    "reference_true_at_minimum": -0.04273972602739726,
+    "target_true_at_minimum": 0.11397260273972601,
+    "interpretation": "literal independent-marginal Gaussian diagnostic only; not a formal test"
+  },
+  "boundary": [
+    "common parent_id and spin checked; common postselection remains an assumption",
+    "target is restricted to M1+E2 and reference is treated as pure E2",
+    "the coefficient layer and finite-acceptance corrections must be commensurate",
+    "s4 must be positive for the sign gate; this is not established by the public summary alone",
+    "quoted marginal errors are not a joint covariance or a formal confidence region",
+    "no event counts, detector response, feeding model, lifetime, absolute B(E2), or mode classification is inferred"
+  ],
+  "scientific_certification": false
+}

@@ -1,0 +1,24 @@
+{
+  "scope": "candidate source-internal companion-control replay; no independent experimental validation",
+  "source": "raw/papers/gpt/query/20261105-zobel-1979-67ga/High spin states in 67Ga.pdf",
+  "sha256": "69497888ea9e0b25fead2a28800ec2d14a58242ef0d6a9c214e6861f7fbffba5",
+  "locator": "printed p.171 Table2 rows843.161/1202.249; p.175 discusses delta843=3.08; visually checked Table2",
+  "spin_twice": [
+    7,
+    5,
+    3
+  ],
+  "coefficient_values": {
+    "target_A4": 0.156,
+    "target_margin": 0.03,
+    "reference_A4": -0.097,
+    "reference_margin": 0.009
+  },
+  "conditional_response_ratio": 1.0,
+  "F4_ratio": -1.777777777777778,
+  "f_E2_times_response_ratio": 0.904639175257732,
+  "conditional_delta_magnitude": 3.08001403998204,
+  "reported_delta_table": 3.1,
+  "reported_delta_prose": 3.08,
+  "independence_boundary": "The source infers alignment and mixing from its same spectroscopy data; agreement may be an internal reconstruction of that analysis. Do not call this independent holdout, validate the sign of delta, pool it with Ba129, or derive a p-value."
+}

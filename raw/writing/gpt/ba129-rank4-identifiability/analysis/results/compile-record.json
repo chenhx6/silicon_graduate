@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-11-05T08:27:41.002515+00:00",
+  "toolchain": "Tectonic 0.17.0",
+  "class": "Springer Nature sn-jnl with iicol and sn-mathphys-num",
+  "template_origin": "Byte-identical copies of classes previously archived for the PADO package; no prose from the old A130 omnibus.",
+  "pdf": "main.pdf",
+  "pdf_sha256": "853298722faa303881108829be3aef41337539899abae82d76cbfcc648ff6b57",
+  "tex_sha256": "8a9ea6ba24779febe2ec7316b9d64681fa98bc7803737d0748dffe2f9a764ae5",
+  "pages": 5,
+  "article_status": "exploratory-not-ready",
+  "visual_check": "All five rendered pages inspected in contact sheet after final equation/table repairs; no visible overlap or truncation.",
+  "overfull_boxes": 0,
+  "undefined_references": false,
+  "known_warnings": [
+    "Underfull box warnings retained."
+  ],
+  "scientific_boundary": "Standard method application; novelty unproven. No experimental root, p-value, confidence interval, detector calibration, or collective-mode verdict."
+}

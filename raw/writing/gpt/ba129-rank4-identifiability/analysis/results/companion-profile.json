@@ -1,0 +1,2049 @@
+{
+  "scope": "conditional coefficient-space nuisance profiling; not an experimental refit",
+  "input_sha256": "047cdd0fa3c98b75b474b22299db3d88322ee99d5c988ae0b2ded8f3b53ea9e0",
+  "contract_sha256": "d614c794f4416a6222018ee4309fd89ccb0b76beb8045199d71e911c90e77560",
+  "script_sha256": "1e3750223183d8cc7745dfc04ada91bd32f7fc28e14ddfd4ae76b901d8e72d4b",
+  "runtime": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "rank2": {
+    "reference_normalized_matrix": [
+      [
+        -0.7,
+        2.3216373532487795
+      ],
+      [
+        2.3216373532487795,
+        -0.1
+      ]
+    ],
+    "quotient": "(-7 + 14*sqrt(11)*delta - delta^2)/(10*(1+delta^2))",
+    "lower_bound": -2.7409399821439253,
+    "upper_bound": 1.940939982143925,
+    "central_ratio": -3.1818181818181817,
+    "positive_s2_needed_at_central_values": 1.1608492716171799,
+    "condition": "shared rank-2 selected-parent tensor; bound on response-corrected ratio only"
+  },
+  "profile_definition": "min over real b2,b4 of (y-B_delta b)' V^-1 (y-B_delta b)",
+  "response_ratios_s2_s4": [
+    1.0,
+    1.0
+  ],
+  "cases": [
+    {
+      "scenario": "evaluated",
+      "rho_within_line": -0.8,
+      "rho_cross_line": -0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 28.829634621353218,
+          "theta_radians": -0.9496191730956239,
+          "delta_at_diagnostic_minimum": -1.3972576643394135,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6612843600471876,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 53.47309956406778,
+          "theta_radians": -0.5232742891548595,
+          "delta_at_diagnostic_minimum": -0.5769177016214099,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.24971903916224752,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 478.9740637168806,
+          "theta_radians": 0.7853981633974483,
+          "delta_at_diagnostic_minimum": 0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 28.829634621353218,
+        "theta_radians": -0.9496191730956239,
+        "delta_at_diagnostic_minimum": -1.3972576643394135,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6612843600471876,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 24.643464942714562
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": -0.8,
+      "rho_cross_line": -0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 13.619506956760793,
+          "theta_radians": -0.9462443200582193,
+          "delta_at_diagnostic_minimum": -1.3873407140304446,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6580862565726676,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 19.968205384667034,
+          "theta_radians": -0.515249047632254,
+          "delta_at_diagnostic_minimum": -0.5662704537419875,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.24280411772108063,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 460.78205517690054,
+          "theta_radians": 0.7853981633974483,
+          "delta_at_diagnostic_minimum": 0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 13.619506956760793,
+        "theta_radians": -0.9462443200582193,
+        "delta_at_diagnostic_minimum": -1.3873407140304446,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6580862565726676,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 6.348698427906241
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": -0.8,
+      "rho_cross_line": 0.0,
+      "branches": {
+        "negative_large": {
+          "distance": 8.915025506110965,
+          "theta_radians": -0.943590517881628,
+          "delta_at_diagnostic_minimum": -1.3796075542053552,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6555663750279477,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 12.444692335422806,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 534.5962705370797,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 8.915025506110965,
+        "theta_radians": -0.943590517881628,
+        "delta_at_diagnostic_minimum": -1.3796075542053552,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6555663750279477,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 3.529666829311841
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": -0.8,
+      "rho_cross_line": 0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 6.624906432070152,
+          "theta_radians": -0.9417926969735151,
+          "delta_at_diagnostic_minimum": -1.3744008187834704,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6538567843843005,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 8.971750250618886,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 620.8460713399677,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 6.624906432070152,
+        "theta_radians": -0.9417926969735151,
+        "delta_at_diagnostic_minimum": -1.3744008187834704,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6538567843843005,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 2.3468438185487335
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": -0.8,
+      "rho_cross_line": 0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 5.2703722985197725,
+          "theta_radians": -0.9405263355188326,
+          "delta_at_diagnostic_minimum": -1.3707486834401423,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6526513758227711,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 7.014951546119103,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 841.2907057825801,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 5.2703722985197725,
+        "theta_radians": -0.9405263355188326,
+        "delta_at_diagnostic_minimum": -1.3707486834401423,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6526513758227711,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 1.7445792475993303
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": -0.4,
+      "rho_cross_line": -0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 35.069556156414855,
+          "theta_radians": -0.9124775079592845,
+          "delta_at_diagnostic_minimum": -1.2929675774100815,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.625715606902491,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 44.267300199459925,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 394.0659987165995,
+          "theta_radians": 0.7853981633974483,
+          "delta_at_diagnostic_minimum": 0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 35.069556156414855,
+        "theta_radians": -0.9124775079592845,
+        "delta_at_diagnostic_minimum": -1.2929675774100815,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.625715606902491,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 9.19774404304507
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": -0.4,
+      "rho_cross_line": -0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 15.807817576831702,
+          "theta_radians": -0.8767003463035362,
+          "delta_at_diagnostic_minimum": -1.2015684105967843,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5907956261268965,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 16.816555534866644,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 422.97373292179117,
+          "theta_radians": 0.7853981633974483,
+          "delta_at_diagnostic_minimum": 0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 15.807817576831702,
+        "theta_radians": -0.8767003463035362,
+        "delta_at_diagnostic_minimum": -1.2015684105967843,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5907956261268965,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 1.008737958034942
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": -0.4,
+      "rho_cross_line": 0.0,
+      "branches": {
+        "negative_large": {
+          "distance": 10.09623202331149,
+          "theta_radians": -0.8557133627382972,
+          "delta_at_diagnostic_minimum": -1.1515354697341234,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5700836588670549,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 10.394898161886138,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 509.74430852363076,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 10.09623202331149,
+        "theta_radians": -0.8557133627382972,
+        "delta_at_diagnostic_minimum": -1.1515354697341234,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5700836588670549,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.29866613857464763
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": -0.4,
+      "rho_cross_line": 0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 7.394052976171468,
+          "theta_radians": -0.8427848836595738,
+          "delta_at_diagnostic_minimum": -1.121902895603337,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5572608112245577,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 7.524278908540486,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 497.9316507640804,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 7.394052976171468,
+        "theta_radians": -0.8427848836595738,
+        "delta_at_diagnostic_minimum": -1.121902895603337,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5572608112245577,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.1302259323690178
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": -0.4,
+      "rho_cross_line": 0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 5.8264779000540186,
+          "theta_radians": -0.8342504957147884,
+          "delta_at_diagnostic_minimum": -1.1028089193657582,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5487746437068984,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 5.896510734761445,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 496.55367811971576,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 5.8264779000540186,
+        "theta_radians": -0.8342504957147884,
+        "delta_at_diagnostic_minimum": -1.1028089193657582,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5487746437068984,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.07003283470742616
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.0,
+      "rho_cross_line": -0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 47.01047829850703,
+          "theta_radians": -0.8827426028080287,
+          "delta_at_diagnostic_minimum": -1.2164424447497508,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5967306504409741,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 52.33652828277731,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 328.2949464591767,
+          "theta_radians": 0.9631518686837545,
+          "delta_at_diagnostic_minimum": 1.4379831849429385,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6740330461054538,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 47.01047829850703,
+        "theta_radians": -0.8827426028080287,
+        "delta_at_diagnostic_minimum": -1.2164424447497508,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5967306504409741,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 5.326049984270277
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.0,
+      "rho_cross_line": -0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 20.43712613447217,
+          "theta_radians": -0.8238623393676474,
+          "delta_at_diagnostic_minimum": -1.0800467648901666,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.538426248879392,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 20.632506713769732,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 395.46123540991397,
+          "theta_radians": 0.8744952044902662,
+          "delta_at_diagnostic_minimum": 1.1961937906212,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5886262708011138,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 20.43712613447217,
+        "theta_radians": -0.8238623393676474,
+        "delta_at_diagnostic_minimum": -1.0800467648901666,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.538426248879392,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.19538057929756292
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.0,
+      "rho_cross_line": 0.0,
+      "branches": {
+        "negative_large": {
+          "distance": 12.879735927017414,
+          "theta_radians": -0.7987089001904358,
+          "delta_at_diagnostic_minimum": -1.0269822203696142,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5133091646225022,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 12.893299325010938,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 515.3734246575343,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 12.879735927017414,
+        "theta_radians": -0.7987089001904358,
+        "delta_at_diagnostic_minimum": -1.0269822203696142,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5133091646225022,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.013563397993523907
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.0,
+      "rho_cross_line": 0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 9.381469834600662,
+          "theta_radians": -0.7869449419810025,
+          "delta_at_diagnostic_minimum": -1.0030983521027461,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5015467761164188,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 9.381602509623434,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 488.3034269673164,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 9.381469834600662,
+        "theta_radians": -0.7869449419810025,
+        "delta_at_diagnostic_minimum": -1.0030983521027461,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5015467761164188,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.00013267502277258814
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.0,
+      "rho_cross_line": 0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 7.374618479486674,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 7.373541381869806,
+          "theta_radians": -0.780443742090507,
+          "delta_at_diagnostic_minimum": -0.9901399276623962,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.49504565976777043,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 464.188129263914,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 7.373541381869806,
+        "theta_radians": -0.780443742090507,
+        "delta_at_diagnostic_minimum": -0.9901399276623962,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.49504565976777043,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -0.001077097616867917
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.4,
+      "rho_cross_line": -0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 75.35146292106676,
+          "theta_radians": -0.852910194461921,
+          "delta_at_diagnostic_minimum": -1.1450361675733272,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5673070770819932,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 72.64625610799247,
+          "theta_radians": -0.47356932814546787,
+          "delta_at_diagnostic_minimum": -0.5124643920324115,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.207995916788188,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 300.03364645518576,
+          "theta_radians": 0.9141053820742108,
+          "delta_at_diagnostic_minimum": 1.2973260522665662,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6272905167691136,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 72.64625610799247,
+        "theta_radians": -0.47356932814546787,
+        "delta_at_diagnostic_minimum": -0.5124643920324115,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.207995916788188,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -2.705206813074284
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.4,
+      "rho_cross_line": -0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 31.93701593343426,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 31.93558769398456,
+          "theta_radians": -0.7826193091070194,
+          "delta_at_diagnostic_minimum": -0.9944576784571398,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4972211600151486,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 381.2334374140527,
+          "theta_radians": 0.8705238093998253,
+          "delta_at_diagnostic_minimum": 1.1865854020670283,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5847150066472927,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 31.93558769398456,
+        "theta_radians": -0.7826193091070194,
+        "delta_at_diagnostic_minimum": -0.9944576784571398,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.4972211600151486,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -0.001428239449701607
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.4,
+      "rho_cross_line": 0.0,
+      "branches": {
+        "negative_large": {
+          "distance": 20.19034025557362,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 20.15504728317968,
+          "theta_radians": -0.7688852575394158,
+          "delta_at_diagnostic_minimum": -0.9675077759826898,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.48349009576100654,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 527.7331614846307,
+          "theta_radians": 0.8516036316227307,
+          "delta_at_diagnostic_minimum": 1.142021069029527,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5660121781299203,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 20.15504728317968,
+        "theta_radians": -0.7688852575394158,
+        "delta_at_diagnostic_minimum": -0.9675077759826898,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.48349009576100654,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -0.03529297239393969
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.4,
+      "rho_cross_line": 0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 14.775471626416396,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 14.731753827430532,
+          "theta_radians": -0.7645620870423749,
+          "delta_at_diagnostic_minimum": -0.9591726212064098,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4791699536663147,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 559.1826079263058,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 14.731753827430532,
+        "theta_radians": -0.7645620870423749,
+        "delta_at_diagnostic_minimum": -0.9591726212064098,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.4791699536663147,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -0.043717798985863254
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.4,
+      "rho_cross_line": 0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 11.654222078714426,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 11.611316174485097,
+          "theta_radians": -0.762578367285825,
+          "delta_at_diagnostic_minimum": -0.9553710835485539,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4771881252308312,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 572.6200359612321,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 11.611316174485097,
+        "theta_radians": -0.762578367285825,
+        "delta_at_diagnostic_minimum": -0.9553710835485539,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.4771881252308312,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -0.04290590422932894
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.8,
+      "rho_cross_line": -0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 193.82197134793878,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 79.81029137701455,
+          "theta_radians": -0.4531746763683733,
+          "delta_at_diagnostic_minimum": -0.4869765548903991,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.19168807350297604,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 297.95921076752785,
+          "theta_radians": 0.8098430347814493,
+          "delta_at_diagnostic_minimum": 1.0501250271054763,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5244351344974953,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 79.81029137701455,
+        "theta_radians": -0.4531746763683733,
+        "delta_at_diagnostic_minimum": -0.4869765548903991,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.19168807350297604,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -114.01167997092423
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.8,
+      "rho_cross_line": -0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 86.69742939114008,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 72.04577019145258,
+          "theta_radians": -0.508785587361629,
+          "delta_at_diagnostic_minimum": -0.5577654164742272,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.23728298649919508,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 382.1442388065195,
+          "theta_radians": 0.7978685082230214,
+          "delta_at_diagnostic_minimum": 1.0252569619216358,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5124690520277225,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 72.04577019145258,
+        "theta_radians": -0.508785587361629,
+        "delta_at_diagnostic_minimum": -0.5577654164742272,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.23728298649919508,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -14.6516591996875
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.8,
+      "rho_cross_line": 0.0,
+      "branches": {
+        "negative_large": {
+          "distance": 56.79518736015891,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 54.86387570943798,
+          "theta_radians": -0.7003702222761002,
+          "delta_at_diagnostic_minimum": -0.8429214542705771,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.415381287255027,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 533.0207686005094,
+          "theta_radians": 0.7902781311506367,
+          "delta_at_diagnostic_minimum": 1.0098078754777535,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.504879890278912,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 54.86387570943798,
+        "theta_radians": -0.7003702222761002,
+        "delta_at_diagnostic_minimum": -0.8429214542705771,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.415381287255027,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -1.9313116507209358
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.8,
+      "rho_cross_line": 0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 42.3450189157075,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 41.67225968845529,
+          "theta_radians": -0.736358380916393,
+          "delta_at_diagnostic_minimum": -0.9064338794783234,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4510388035683799,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 783.5976820980259,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 41.67225968845529,
+        "theta_radians": -0.736358380916393,
+        "delta_at_diagnostic_minimum": -0.9064338794783234,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.4510388035683799,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -0.6727592272522074
+    },
+    {
+      "scenario": "evaluated",
+      "rho_within_line": 0.8,
+      "rho_cross_line": 0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 33.784125128930775,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 33.46966017499424,
+          "theta_radians": -0.750442031905378,
+          "delta_at_diagnostic_minimum": -0.9324224591438355,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.46507233753974353,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 1120.4229146438977,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 33.46966017499424,
+        "theta_radians": -0.750442031905378,
+        "delta_at_diagnostic_minimum": -0.9324224591438355,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.46507233753974353,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -0.31446495393653606
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": -0.8,
+      "rho_cross_line": -0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 14.549440816036485,
+          "theta_radians": -1.0355546950755818,
+          "delta_at_diagnostic_minimum": -1.6863979564584524,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.7398501270240069,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 42.17460370083696,
+          "theta_radians": -0.4052879695473504,
+          "delta_at_diagnostic_minimum": -0.4290404598506761,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.15545941334001356,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 219.79191623366808,
+          "theta_radians": 0.7853981633974483,
+          "delta_at_diagnostic_minimum": 0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 14.549440816036485,
+        "theta_radians": -1.0355546950755818,
+        "delta_at_diagnostic_minimum": -1.6863979564584524,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.7398501270240069,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 27.625162884800474
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": -0.8,
+      "rho_cross_line": -0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 8.491011023770001,
+          "theta_radians": -1.0503719040382704,
+          "delta_at_diagnostic_minimum": -1.7448184601666803,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.7527440134930755,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 17.527151543488326,
+          "theta_radians": -0.3852074002009756,
+          "delta_at_diagnostic_minimum": -0.4054635006470148,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.1411890746596001,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 172.68824414956703,
+          "theta_radians": 0.7853981633974483,
+          "delta_at_diagnostic_minimum": 0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 8.491011023770001,
+        "theta_radians": -1.0503719040382704,
+        "delta_at_diagnostic_minimum": -1.7448184601666803,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.7527440134930755,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 9.036140519718325
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": -0.8,
+      "rho_cross_line": 0.0,
+      "branches": {
+        "negative_large": {
+          "distance": 6.035282549441716,
+          "theta_radians": -1.0571647642459923,
+          "delta_at_diagnostic_minimum": -1.7726214026448994,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.7585816170039728,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 12.017646482356856,
+          "theta_radians": -0.36716094729561694,
+          "delta_at_diagnostic_minimum": -0.38460059187577383,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.12885734420605613,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 186.3056586297124,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 6.035282549441716,
+        "theta_radians": -1.0571647642459923,
+        "delta_at_diagnostic_minimum": -1.7726214026448994,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.7585816170039728,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 5.98236393291514
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": -0.8,
+      "rho_cross_line": 0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 4.690707270387737,
+          "theta_radians": -1.061087429064073,
+          "delta_at_diagnostic_minimum": -1.7889836697417016,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.761930981840277,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 9.567507252393524,
+          "theta_radians": -0.3527467378665392,
+          "delta_at_diagnostic_minimum": -0.3681443559023594,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.11935416496361095,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 206.72277732365174,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 4.690707270387737,
+        "theta_radians": -1.061087429064073,
+        "delta_at_diagnostic_minimum": -1.7889836697417016,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.761930981840277,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 4.876799982005787
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": -0.8,
+      "rho_cross_line": 0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 3.8391770322505856,
+          "theta_radians": -1.0636453956924912,
+          "delta_at_diagnostic_minimum": -1.799777731724136,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.7641064286998407,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 7.734842617320149,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 273.74241732427157,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 3.8391770322505856,
+        "theta_radians": -1.0636453956924912,
+        "delta_at_diagnostic_minimum": -1.799777731724136,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.7641064286998407,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 3.8956655850695636
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": -0.4,
+      "rho_cross_line": -0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 17.137843360474637,
+          "theta_radians": -0.9898994067272923,
+          "delta_at_diagnostic_minimum": -1.5233426625312432,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6988471447830136,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 29.06919026015263,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 141.9854741506608,
+          "theta_radians": 0.9986757133218941,
+          "delta_at_diagnostic_minimum": 1.5528806898708554,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.7068685194017222,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 17.137843360474637,
+        "theta_radians": -0.9898994067272923,
+        "delta_at_diagnostic_minimum": -1.5233426625312432,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6988471447830136,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 11.931346899677994
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": -0.4,
+      "rho_cross_line": -0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 9.646717667417072,
+          "theta_radians": -0.9803890704463697,
+          "delta_at_diagnostic_minimum": -1.4922129511110984,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.690085797377313,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 12.645127572061737,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 140.5736483678423,
+          "theta_radians": 0.7853981633974483,
+          "delta_at_diagnostic_minimum": 0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 9.646717667417072,
+        "theta_radians": -0.9803890704463697,
+        "delta_at_diagnostic_minimum": -1.4922129511110984,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.690085797377313,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 2.9984099046446655
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": -0.4,
+      "rho_cross_line": 0.0,
+      "branches": {
+        "negative_large": {
+          "distance": 6.706393462331753,
+          "theta_radians": -0.9706329464580253,
+          "delta_at_diagnostic_minimum": -1.461183618004738,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6810265907087399,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 8.080629451836348,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 174.56089524615822,
+          "theta_radians": 0.7886431089586012,
+          "delta_at_diagnostic_minimum": 1.0065110419520473,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5032449227823933,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 6.706393462331753,
+        "theta_radians": -0.9706329464580253,
+        "delta_at_diagnostic_minimum": -1.461183618004738,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6810265907087399,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 1.3742359895045952
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": -0.4,
+      "rho_cross_line": 0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 5.134182853385864,
+          "theta_radians": -0.9626390332094804,
+          "delta_at_diagnostic_minimum": -1.4364110697274708,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6735521867777186,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 5.937520626375565,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 174.1806329559572,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 5.134182853385864,
+        "theta_radians": -0.9626390332094804,
+        "delta_at_diagnostic_minimum": -1.4364110697274708,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6735521867777186,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.8033377729897007
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": -0.4,
+      "rho_cross_line": 0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 4.1563566459502,
+          "theta_radians": -0.9562342000024059,
+          "delta_at_diagnostic_minimum": -1.4169698855416801,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6675314900198638,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 4.6929228885885514,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 170.7200437672411,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 4.1563566459502,
+        "theta_radians": -0.9562342000024059,
+        "delta_at_diagnostic_minimum": -1.4169698855416801,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6675314900198638,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.5365662426383517
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.0,
+      "rho_cross_line": -0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 22.313411854216064,
+          "theta_radians": -0.9520537178173222,
+          "delta_at_diagnostic_minimum": -1.4044697889096593,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6635868477628782,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 30.260939425592515,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 103.9360960462329,
+          "theta_radians": 1.0030752667456353,
+          "delta_at_diagnostic_minimum": 1.567992838953996,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.7108657971830391,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 22.313411854216064,
+        "theta_radians": -0.9520537178173222,
+        "delta_at_diagnostic_minimum": -1.4044697889096593,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6635868477628782,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 7.947527571376451
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.0,
+      "rho_cross_line": -0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 12.118124270887707,
+          "theta_radians": -0.9183262214811512,
+          "delta_at_diagnostic_minimum": -1.308713217578516,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6313677016802137,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 13.500882658012898,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 119.85190011008962,
+          "theta_radians": 0.9037948012864296,
+          "delta_at_diagnostic_minimum": 1.2700263959644253,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6172932982985793,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 12.118124270887707,
+        "theta_radians": -0.9183262214811512,
+        "delta_at_diagnostic_minimum": -1.308713217578516,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6313677016802137,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 1.3827583871251914
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.0,
+      "rho_cross_line": 0.0,
+      "branches": {
+        "negative_large": {
+          "distance": 8.23569977137162,
+          "theta_radians": -0.8925936855222567,
+          "delta_at_diagnostic_minimum": -1.241167579881402,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6063762266934037,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 8.704178507094449,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 156.25054154229085,
+          "theta_radians": 0.8673012089779123,
+          "delta_at_diagnostic_minimum": 1.1788549624543656,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5815372603063338,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 8.23569977137162,
+        "theta_radians": -0.8925936855222567,
+        "delta_at_diagnostic_minimum": -1.241167579881402,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.6063762266934037,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.4684787357228295
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.0,
+      "rho_cross_line": 0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 6.210819395165593,
+          "theta_radians": -0.8743411334907633,
+          "delta_at_diagnostic_minimum": -1.195819331583289,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5884746352489093,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 6.424867540585836,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 175.82020464605765,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 6.210819395165593,
+        "theta_radians": -0.8743411334907633,
+        "delta_at_diagnostic_minimum": -1.195819331583289,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5884746352489093,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.21404814542024386
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.0,
+      "rho_cross_line": 0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 4.975617401817303,
+          "theta_radians": -0.8612913745258909,
+          "delta_at_diagnostic_minimum": -1.1645941293021211,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5756021278717306,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 5.092237676615972,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 165.49662717365777,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 4.975617401817303,
+        "theta_radians": -0.8612913745258909,
+        "delta_at_diagnostic_minimum": -1.1645941293021211,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5756021278717306,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.11662027479866932
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.4,
+      "rho_cross_line": -0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 35.10813925552404,
+          "theta_radians": -0.923082140336052,
+          "delta_at_diagnostic_minimum": -1.3216956449414496,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.635950523324367,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 42.258410439076336,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 88.95395666100941,
+          "theta_radians": 0.9489146244376254,
+          "delta_at_diagnostic_minimum": 1.3951796502462661,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6606173124006112,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 35.10813925552404,
+        "theta_radians": -0.923082140336052,
+        "delta_at_diagnostic_minimum": -1.3216956449414496,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.635950523324367,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 7.150271183552299
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.4,
+      "rho_cross_line": -0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 18.509675516736944,
+          "theta_radians": -0.871564298229933,
+          "delta_at_diagnostic_minimum": -1.1890939815454995,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5857402681526303,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 19.312913500059388,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 110.27118028701277,
+          "theta_radians": 0.8869947394504909,
+          "delta_at_diagnostic_minimum": 1.2270414922268866,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6008989071483708,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 18.509675516736944,
+        "theta_radians": -0.871564298229933,
+        "delta_at_diagnostic_minimum": -1.1890939815454995,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5857402681526303,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.8032379833224432
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.4,
+      "rho_cross_line": 0.0,
+      "branches": {
+        "negative_large": {
+          "distance": 12.38601107669662,
+          "theta_radians": -0.8408646349175523,
+          "delta_at_diagnostic_minimum": -1.1175750132311162,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5553527786759764,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 12.579428444580008,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 149.10229532320704,
+          "theta_radians": 0.8572552429900613,
+          "delta_at_diagnostic_minimum": 1.1551283175837745,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5716099817650011,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 12.38601107669662,
+        "theta_radians": -0.8408646349175523,
+        "delta_at_diagnostic_minimum": -1.1175750132311162,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5553527786759764,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.19341736788338793
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.4,
+      "rho_cross_line": 0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 9.269783717752574,
+          "theta_radians": -0.82382713840656,
+          "delta_at_diagnostic_minimum": -1.0799705048715387,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5383911519308869,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 9.337291447819661,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 204.50990187000863,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 9.269783717752574,
+        "theta_radians": -0.82382713840656,
+        "delta_at_diagnostic_minimum": -1.0799705048715387,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5383911519308869,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.06750773006708677
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.4,
+      "rho_cross_line": 0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 7.397309315019635,
+          "theta_radians": -0.8137138130651902,
+          "delta_at_diagnostic_minimum": -1.0582976155706376,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5283005168887096,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 7.426546205431155,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 209.63920602526088,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 7.397309315019635,
+        "theta_radians": -0.8137138130651902,
+        "delta_at_diagnostic_minimum": -1.0582976155706376,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5283005168887096,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.029236890411519667
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.8,
+      "rho_cross_line": -0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 100.26948354786954,
+          "theta_radians": -0.8879108013348829,
+          "delta_at_diagnostic_minimum": -1.2293393887047717,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.6017959532313415,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 42.83809782567515,
+          "theta_radians": -0.35880171654038073,
+          "delta_at_diagnostic_minimum": -0.37503541256379724,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.1233080859446952,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 86.24162601985584,
+          "theta_radians": 0.8271585428709749,
+          "delta_at_diagnostic_minimum": 1.0872135331607402,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5417118449720456,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 42.83809782567515,
+        "theta_radians": -0.35880171654038073,
+        "delta_at_diagnostic_minimum": -0.37503541256379724,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.1233080859446952,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -43.403528194180694
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.8,
+      "rho_cross_line": -0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 50.400302951672174,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 43.36673055502226,
+          "theta_radians": -0.38755533452922436,
+          "delta_at_diagnostic_minimum": -0.4082000471313273,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.14282820361906828,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 109.83044260600936,
+          "theta_radians": 0.7994858598431674,
+          "delta_at_diagnostic_minimum": 1.0285799086810254,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5140858325935735,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 43.36673055502226,
+        "theta_radians": -0.38755533452922436,
+        "delta_at_diagnostic_minimum": -0.4082000471313273,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.14282820361906828,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -7.033572396649916
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.8,
+      "rho_cross_line": 0.0,
+      "branches": {
+        "negative_large": {
+          "distance": 33.73016477723248,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 33.71613838778661,
+          "theta_radians": -0.7748049037763917,
+          "delta_at_diagnostic_minimum": -0.9790347864829839,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.48940753285808886,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 151.84543536678316,
+          "theta_radians": 0.7853981633974483,
+          "delta_at_diagnostic_minimum": 0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 33.71613838778661,
+        "theta_radians": -0.7748049037763917,
+        "delta_at_diagnostic_minimum": -0.9790347864829839,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.48940753285808886,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -0.014026389445874088
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.8,
+      "rho_cross_line": 0.4,
+      "branches": {
+        "negative_large": {
+          "distance": 25.44168881727907,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 25.440799187237438,
+          "theta_radians": -0.7827184624309339,
+          "delta_at_diagnostic_minimum": -0.9946549085197647,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4973203118617268,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 247.12373167708773,
+          "theta_radians": 0.7853981633974483,
+          "delta_at_diagnostic_minimum": 0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 25.440799187237438,
+        "theta_radians": -0.7827184624309339,
+        "delta_at_diagnostic_minimum": -0.9946549085197647,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.4973203118617268,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": -0.0008896300416303404
+    },
+    {
+      "scenario": "primary_ocr_scale_sensitivity",
+      "rho_within_line": 0.8,
+      "rho_cross_line": 0.8,
+      "branches": {
+        "negative_large": {
+          "distance": 20.448372772993153,
+          "theta_radians": -0.787498043260811,
+          "delta_at_diagnostic_minimum": -1.0042086034743551,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.5020998736904276,
+          "not_an_experimental_estimate": true
+        },
+        "small": {
+          "distance": 20.448876916017383,
+          "theta_radians": -0.7853981633974483,
+          "delta_at_diagnostic_minimum": -0.9999999999999999,
+          "pure_E2_endpoint": false,
+          "f_E2_at_diagnostic_minimum": 0.4999999999999999,
+          "not_an_experimental_estimate": true
+        },
+        "positive_large": {
+          "distance": 414.60970505995147,
+          "theta_radians": 1.5707963267948966,
+          "delta_at_diagnostic_minimum": null,
+          "pure_E2_endpoint": true,
+          "f_E2_at_diagnostic_minimum": 1.0,
+          "not_an_experimental_estimate": true
+        }
+      },
+      "global": {
+        "distance": 20.448372772993153,
+        "theta_radians": -0.787498043260811,
+        "delta_at_diagnostic_minimum": -1.0042086034743551,
+        "pure_E2_endpoint": false,
+        "f_E2_at_diagnostic_minimum": 0.5020998736904276,
+        "not_an_experimental_estimate": true
+      },
+      "distance_small_minus_large": 0.0005041430242300748
+    }
+  ],
+  "controls": {
+    "maximum_projected_vs_direct_GLS_error": 1.1368683772161603e-12,
+    "maximum_1025_vs_2049_grid_refined_distance_change": 8.881784197001252e-15,
+    "isotropic_reference_all_delta_unidentified": true,
+    "physical_same_parent_coefficient_controls_passed": true
+  },
+  "boundary": [
+    "covariance is a chosen finite family; no actual covariance inferred",
+    "OCR error-scale scenario keeps evaluated signs and means; it is not a corrected measurement",
+    "free reference coefficients relax physical population-positivity constraints",
+    "branch distance contrasts have no p-value, probability or confidence interpretation",
+    "same-parent state identity does not establish identical postselection or response"
+  ]
+}

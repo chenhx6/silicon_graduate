@@ -1,0 +1,3 @@
+label,parent_id,transition,Ji_twice,Jf_twice,energy_keV,multipolarity,A2,A2_sigma,A4,A4_sigma,source_locator
+target_365,ENSDF129056013:L643.6,13/2- -> 11/2-,13,11,364.7,M1+E2,-0.70,0.03,0.16,0.05,"ENSDF 129056013 lines132-138: L643.6 G364.7; paired coefficients attributed to 1977Gi02"
+reference_462,ENSDF129056013:L643.6,13/2- -> 9/2-,13,9,461.6,E2,0.22,0.02,0.08,0.05,"ENSDF 129056013 lines139-142: G461.6; paired coefficients attributed to 1977Gi02"

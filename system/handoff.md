@@ -3,6 +3,18 @@ graph-excluded: true
 updated: 2026-11-05
 ---
 
+## Active continuation — 2026-11-05：129Ba 原件取证与条件系数分析
+
+- **Goal active**：全库审计/学习、A≈130创新调查及可发表单点文章仍是完整目标，尚未完成。不能以可编译稿件或结构检查替代科学闭环。
+- **Belief revision**：此前把129Ba rank4关系称为新方法、最强论文路线过早。Diamond1966 p.1206已给同母态纯跃迁标定思想；−8/3是标准形式主义的具体化。该候选改为exploratory/not-ready。
+- **New primary**：授权Elsevier FULL JSON返回Gizon1977 pp.464–476全文OCR；PDF仍只有首页，Table1扫描未核。OCR误差尺度与ENSDF不同，必须保留版本分离。归档`raw/papers/gpt/query/20261105-ba129-primary/evidence/manifest.json`；新source `knowledge/sources/gizon-1977-ba129-angular-distribution-primary.md`。Gizon1978仍缺全文，访问边界已登记。
+- **Scientific correction**：rank4约束f_E2*s4，未知s4时不识别|delta|，也不识别sign；不同选择的核张量g_k与instrument Q_k分开。较大的OCR误差尺度使二倍margin box相交，不能用旧非相交作稳健拒绝。
+- **New computation**：`analysis/companion_profile.py`在四系数空间profile两个真实reference coefficients；不除以弱A4，也不假定所得reference对应正布居。s2=s4=1、对角covariance下评价误差Dmin=12.879736、诊断delta=-1.026982、small-minus-large=0.013563；OCR-scale情景8.235700/-1.241168/0.468479。50个chosen covariance cells中排序可变，无实验p-value/CI/新delta。
+- **Package**：`raw/writing/gpt/ba129-rank4-identifiability/`现含原数据、input-contract、两个计算脚本、独立验证、JSON及两幅可重绘图；`main.tex`已按反审重写为同母态一致性应用，未宣布新集体模式。报告与原稿反审记录在`outputs/l4/20261105-ba129-rank4-identifiability/`。
+- **Verification**：标准SymPy系数、14磁子态独立光子投影、直接GLS对照、网格细化和错误输入拒绝已实际通过；记录在`analysis/results/validation.json`。新的source/manifest归档门通过。
+- **Next**：核原始Table1视觉页、1978版本和独立控制；确定能否产生超出既有方法的信息增益后再决定是否作为期刊稿。不因摘要数据合同不足停止其他高价值A≈130路线。
+- **Scope**：本轮只修改自己建立的文章/source/project/output及必要index/handoff/log；没有改动其他session的安装/工具文件。发布状态以本轮publication receipt为准。
+
 ## Active handoff — 2026-11-05：全库审计与 P-ADO 单点论文候选
 
 - **Current active task**：完成 A≈130 全库审计、创新点筛选和一篇单点论文。goal `01a1a756-e768-7320-bc92-6bff2607f122` 仍 active。

@@ -1,0 +1,147 @@
+{
+  "manifest_type": "research-article-release-v1",
+  "generated_at": "2026-11-05T08:35:43.395876+00:00",
+  "topic": "ba129-rank4-identifiability",
+  "status": "exploratory-not-ready",
+  "license": null,
+  "permanent_archive": null,
+  "data_boundary": "Two evaluated summary rows plus a separately labeled OCR error-scale sensitivity contract. No publisher full text, raw events or private data.",
+  "scientific_gate": "Novelty, original table/1978 version, response/purity/covariance and final claim admission remain open.",
+  "files": [
+    {
+      "path": "PUBLIC_RELEASE.md",
+      "sha256": "9ea5bcd39067066e0d6e3589aebd9c620bd150b96231e6992bafdfdede6f6a40",
+      "size": 2410
+    },
+    {
+      "path": "README.md",
+      "sha256": "159b4f6575332285307fb574bf1f92fa7eff411722c59d8181c9d931cfe8a4f5",
+      "size": 2283
+    },
+    {
+      "path": "analysis/README.md",
+      "sha256": "ad4b675a12bc1e38dfead043acda9173038677efb18271a7fbf3ecfb877b1f4c",
+      "size": 2060
+    },
+    {
+      "path": "analysis/companion_profile.py",
+      "sha256": "1e3750223183d8cc7745dfc04ada91bd32f7fc28e14ddfd4ae76b901d8e72d4b",
+      "size": 10982
+    },
+    {
+      "path": "analysis/rank4_invariant.py",
+      "sha256": "025286d118adce08efe7716b52839d6edbb4de7c5c5210e30bc05f06832035cd",
+      "size": 15704
+    },
+    {
+      "path": "analysis/results/companion-profile.json",
+      "sha256": "96a7456e35e0588581af35ad37f274924398806820257b3aad4430a89e53e7e3",
+      "size": 76144
+    },
+    {
+      "path": "analysis/results/compile-record.json",
+      "sha256": "2d6b6bdfd7ddc42c1a64e86fd96db32871e26071c738276f7352cf6733a47cb6",
+      "size": 983
+    },
+    {
+      "path": "analysis/results/rank4-invariant.json",
+      "sha256": "e35bd055040db6d5c145637b72c9a48120dc42ce81b051e2753b34a5b0496bce",
+      "size": 4006
+    },
+    {
+      "path": "analysis/results/validation.json",
+      "sha256": "42d7919c1ab115c6defb54d50a6a9bbb99cae83378bbee506a34cd95e60b8019",
+      "size": 1341
+    },
+    {
+      "path": "analysis/validate_case.py",
+      "sha256": "1d56941e92dbb98de88ed2c7934881f8f4397b62f7dd58ed2ddacd7c121dbc40",
+      "size": 6799
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "a9fcea139607cbd695a0c04fb6ac6710bbf707457c949f1a3c587cafb900f67a",
+      "size": 1938
+    },
+    {
+      "path": "data/ba129_same_parent_A4.csv",
+      "sha256": "047cdd0fa3c98b75b474b22299db3d88322ee99d5c988ae0b2ded8f3b53ea9e0",
+      "size": 453
+    },
+    {
+      "path": "data/input-contract.json",
+      "sha256": "d614c794f4416a6222018ee4309fd89ccb0b76beb8045199d71e911c90e77560",
+      "size": 2276
+    },
+    {
+      "path": "figures/companion_profiles.pdf",
+      "sha256": "82881f05e4c74de7b442044ef6632f6816a114f7cd7745b3f3725719bb9d231d",
+      "size": 24696
+    },
+    {
+      "path": "figures/companion_profiles.png",
+      "sha256": "9d65d2cfea79d03763cf19e295ac93ed0a02d222dc9e744dc7abc5bf98be0547",
+      "size": 187309
+    },
+    {
+      "path": "figures/made/data/companion_profile_curves.csv",
+      "sha256": "681601b0917d311dac708c9aab1c26b23c05a4d39cc0fbc14d460042a7ac9e96",
+      "size": 92285
+    },
+    {
+      "path": "figures/made/data/rank4_relation_curve.csv",
+      "sha256": "5f3ad9951fec1af028ed2d205ff8d0ade5e58cf400e2e9c605120dab363c91fa",
+      "size": 15433
+    },
+    {
+      "path": "figures/made/generate_figures.py",
+      "sha256": "7c1923a381e966ee53d168e5002fda98677e54068099a3706136f311393f0ab9",
+      "size": 4272
+    },
+    {
+      "path": "figures/made/generate_profile_figure.py",
+      "sha256": "65b5bf3da2fe1288ab34b9aafd022e39cf9c331032ad36197c409add847701b6",
+      "size": 3298
+    },
+    {
+      "path": "figures/rank4_companion_gate.pdf",
+      "sha256": "92e58df9adea80948e0469eef1fd01b18c9fe7d97fe0546f658db63e6cbd3c91",
+      "size": 32447
+    },
+    {
+      "path": "figures/rank4_companion_gate.png",
+      "sha256": "9da2d609d5a3e9452a28e632d986ee5838adb478e62d92e276b7764138b0ae8b",
+      "size": 161204
+    },
+    {
+      "path": "main.pdf",
+      "sha256": "853298722faa303881108829be3aef41337539899abae82d76cbfcc648ff6b57",
+      "size": 123612
+    },
+    {
+      "path": "main.tex",
+      "sha256": "8a9ea6ba24779febe2ec7316b9d64681fa98bc7803737d0748dffe2f9a764ae5",
+      "size": 16313
+    },
+    {
+      "path": "references.bib",
+      "sha256": "416779657d604f4fa55706ab6bf027bc5d25bc12d43c24ce944f41b78ed7fa11",
+      "size": 2339
+    },
+    {
+      "path": "sn-jnl.cls",
+      "sha256": "6bc9a034a19b7cf7aa34dc334092fa1cf4cee2cca83d5b1efd12a6729f9a43a3",
+      "size": 55789
+    },
+    {
+      "path": "sn-mathphys-num.bst",
+      "sha256": "7635e72a5b22440d819e43eefc2ba16bbcae89df83521a1d66c31c3987f93816",
+      "size": 63311
+    },
+    {
+      "path": "sources/claim-ledger.md",
+      "sha256": "fa4048b2790a32c5d607ea644467794855a5fefa4ba7023e835f81b52554b501",
+      "size": 3573
+    }
+  ]
+}

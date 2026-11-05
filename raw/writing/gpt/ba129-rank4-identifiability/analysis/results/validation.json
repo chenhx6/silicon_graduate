@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "rows": 2,
+  "profile_cases": 50,
+  "invalid_inputs_rejected": [
+    "duplicate_target",
+    "different_parent_id",
+    "different_parent_spin",
+    "nonfinite_coefficient",
+    "nonpositive_error",
+    "zero_ratio_denominator",
+    "wrong_reference_multipoles"
+  ],
+  "independent_sympy": {
+    "status": "passed",
+    "rank4_ratio": "-8/3",
+    "rank2_matrix": "Matrix([[-7/10, 7*sqrt(11)/10], [7*sqrt(11)/10, -1/10]])",
+    "rank2_eigenvalues": [
+      "-2/5 + sqrt(137)/5",
+      "-sqrt(137)/5 - 2/5"
+    ],
+    "photon_substates_checked": 14,
+    "maximum_photon_route_cancellation_error": 3.6637359812630166e-15,
+    "maximum_photon_normalization_error": 3.3306690738754696e-16
+  },
+  "upstream_hashes_checked": [
+    "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens",
+    "raw/papers/gpt/query/20261105-ba129-primary/gizon1977-full-json.json"
+  ],
+  "numerical_controls": {
+    "maximum_projected_vs_direct_GLS_error": 1.1368683772161603e-12,
+    "maximum_1025_vs_2049_grid_refined_distance_change": 8.881784197001252e-15,
+    "isotropic_reference_all_delta_unidentified": true,
+    "physical_same_parent_coefficient_controls_passed": true
+  },
+  "scope": "code, identity and algebra validation; no experimental or novelty certification"
+}
