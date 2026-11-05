@@ -53,11 +53,11 @@ python3 system/scripts/analysis/nuclear_analyzer.py capgap --preset 130Ba_transi
 python3 system/scripts/analysis/nuclear_analyzer.py capgap --preset rigid_rotor_zero_pairing_limit
 ```
 
-### Benchmark Validation: $^{163}\text{Lu}$ Superfluid-to-Normal Transition
+### Model or fixture replay (not experimental validation): $^{163}\text{Lu}$ Superfluid-to-Normal Transition
 - At $I = 10\ \hbar$: $\omega = 0.268\text{ MeV}/\hbar$, $\Delta = 0.763\text{ MeV}$ ($19.7\%$ quenched), $\mathcal{J}_m = 37.3\ \hbar^2/\text{MeV}$;
 - At $I = 25\ \hbar$: $\omega = 0.427\text{ MeV}/\hbar$, $\Delta = 0.297\text{ MeV}$ ($68.7\%$ quenched), $\mathcal{J}_m = 58.5\ \hbar^2/\text{MeV}$;
 - At $I = 35\ \hbar$: $\Delta \to 0.000\text{ MeV}$ ($100\%$ collapse), identifying the critical transition threshold $I_{\text{CAP}} \approx 35.0\ \hbar$;
-- Beyond $35\ \hbar$: $\mathcal{J}_m$ locks at the rigid limit $72.0\ \hbar^2/\text{MeV}$, reproducing the observed high-spin moment of inertia plateau.
+- Beyond $35\ \hbar$: $\mathcal{J}_m$ locks at the rigid limit $72.0\ \hbar^2/\text{MeV}$, approaching the chosen rigid-limit preset; no experimental plateau is inferred.
 
 
 ## Necessary Assumptions
@@ -81,7 +81,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py capgap --preset rigid_rotor_
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本页整理模型公式、参数化输出和观测量映射的条件性 screening logic。预设结果属于 model-derived 或 synthetic fixture；它们不能替代 raw spectra、detector response、feeding/covariance 和逐线实验审计。
 
 
 ## Sources

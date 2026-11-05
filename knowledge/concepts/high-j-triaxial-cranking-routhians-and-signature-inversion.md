@@ -60,7 +60,11 @@ where:
    - Lowest Routhian at $\hbar\omega = 0.20\text{ MeV}$: $e' = -5.1658\text{ MeV}$, with alignment $\langle j_x \rangle = 5.47\ \hbar$ along the rotation axis.
    - Lowest signature splitting $\Delta e' = -2182.8\text{ keV} < 0$, verifying signature inversion in the triaxial potential.
 2. **$A \sim 130$ Experimental Observables**:
-   Signature inversion is confirmed in candidate chiral doublet bands in $^{134}\text{Pr}, ^{128}\text{Cs}, ^{106}\text{Ag}$, where the inversion crossing occurs at spin $I_{\text{inv}} \approx 13 - 15\ \hbar$.
+   Signature inversion is reported or reconstructed in candidate bands of
+   $^{134}\text{Pr}, ^{128}\text{Cs}$ and $^{106}\text{Ag}$, with crossings near
+   $I_{\text{inv}} \approx 13 - 15\ \hbar$ in the cited cases. The inversion is
+   an observable/systematics handle and does not by itself establish chiral
+   geometry.
 
 ## Counter-evidence and Competing Interpretations
 

@@ -61,10 +61,10 @@ python3 system/scripts/analysis/nuclear_analyzer.py snip2d --preset high_compton
 python3 system/scripts/analysis/nuclear_analyzer.py snip2d --preset isolated_gaussian_peaks_fidelity_test
 ```
 
-### Benchmark Validation: $^{130}\text{Ba}$ Matrix Slice
-- Total raw counts: $254636.0$ counts;
+### Model or fixture replay (not experimental validation): $^{130}\text{Ba}$ Matrix Slice
+- Preset matrix counts: $254636.0$ counts;
 - Estimated 2D Compton continuum: $202652.4$ counts ($79.59\%$ background fraction);
-- Extracted net coincidence volume: $51983.6$ counts;
+- Derived net coincidence volume: $51983.6$ counts;
 - Signal-to-background contrast improves by factor $\times 26.79$, preserving coincidence peak geometry without negative overshoots.
 
 
@@ -89,7 +89,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py snip2d --preset isolated_gau
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本页整理模型公式、参数化输出和观测量映射的条件性 screening logic。预设结果属于 model-derived 或 synthetic fixture；它们不能替代 raw spectra、detector response、feeding/covariance 和逐线实验审计。
 
 
 ## Sources

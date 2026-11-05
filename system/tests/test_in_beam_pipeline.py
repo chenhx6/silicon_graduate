@@ -27,7 +27,9 @@ class InBeamPipelineTests(unittest.TestCase):
             candidate_mode="wobbling",
             E_2plus_core_keV=409.2, B_E2_core_e2_b2=0.78
         )
-        self.assertEqual(res["pipeline_version"], "1.0-Production")
+        self.assertEqual(res["pipeline_version"], "1.0-demonstration-derived")
+        self.assertEqual(res["data_kind"], "synthetic_or_source_summary_replay")
+        self.assertIn("evidence_boundary", res)
         # Stage 1: Entrance reaction
         self.assertAlmostEqual(res["stage1_entrance_reaction"]["Wong_cross_section_mb"], 840.8, places=0)
         # Stage 2: Doppler broadening

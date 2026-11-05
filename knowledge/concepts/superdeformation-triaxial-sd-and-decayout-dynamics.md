@@ -36,7 +36,9 @@ tags: [superdeformation, triaxial-superdeformation, tsd-wobbling, decayout-tunne
 ### (1) $^{163}\text{Lu}$ 摆动模式的历史首创（Ødegård et al. 2001 PRL）
 - 在 $^{163}\text{Lu}$ 中发现了基于高 $j$ 准质子 $\pi i_{13/2}$ 组态的 TSD 能带（$\epsilon_2 \approx 0.38, \gamma \approx 20^\circ$）；
 - 在主带（$n_w=0$）上方紧邻处观测到伴随带（$n_w=1$），两带由强烈的跨带 $\Delta I=1$ 纯 $E2$ 射线相连接；
-- 测得跨带减缩跃迁几率 $B(E2; n_w=1 \to n_w=0) \approx 20 \sim 100\text{ W.u.}$，以无可辩驳的证据证实了 Bohr-Mottelson 预言半个世纪的三轴转子量子摆动运动！
+- 测得跨带减缩跃迁几率 $B(E2; n_w=1 \to n_w=0) \approx 20 \sim 100\text{ W.u.}$，为
+  Bohr--Mottelson 三轴转子量子摆动解释提供重要支持；具体模式判定仍需
+  结合带身份、偏振、寿命、响应和竞争模型。
 
 ### (2) 二声子摆动模式的确立（Jensen et al. 2002 PRL）
 - 随后在主带上方进一步观测到了二声子激发能带（$n_w=2$）；

@@ -62,7 +62,9 @@ $$P(\theta) = \frac{ \pm 2 \delta \cdot \dots + \delta^2 \cdot \dots }{ 1 + a_2 
 $$\chi^2_{\text{joint}}(\delta) = \chi^2_{\text{AD}}(\delta) + \left( \frac{P_{\text{exp}} - P_{\text{theo}}(\delta)}{\sigma_P} \right)^2$$
 扫描剖面似然曲线 $\Delta\chi^2(\delta) = \chi^2_{\text{joint}}(\delta) - \chi^2_{\min}$：
 - 若在其中一个根处 $\Delta\chi^2 > 9.0$（对应 $> 3\sigma$ 排除），则该根被显著否定；
-- 若 $\Delta\chi^2 > 25.0$（对应 $> 5\sigma$ 排除），则该假设被彻底证伪。
+- 若预先声明的检验合同、适用的渐近分布和覆盖率检查均成立，且
+  $\Delta\chi^2 > 25.0$ 可作为强烈不支持该假设的参考；它不自动等同于
+  模型无关的“彻底证伪”，尤其在双根、边界或响应协方差未闭合时。
 
 ### (2) 反模式警示：切忌“先入为主”挑选根
 - **严重科研误区**：某些文献因为预设了原子核具有“摆动模式（Wobbling）”，便主观认定跨带连接线必须是 $E2$ 占优的大 $\delta$ 根，而对小 $\delta$ 的 $M1$ 占优伙伴带解置之不理。

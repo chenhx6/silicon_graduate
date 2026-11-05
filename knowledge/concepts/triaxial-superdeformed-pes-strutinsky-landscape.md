@@ -61,11 +61,11 @@ python3 system/scripts/analysis/nuclear_analyzer.py tsdpes --preset 130Ba_triaxi
 python3 system/scripts/analysis/nuclear_analyzer.py tsdpes --preset 208Pb_spherical_doubly_magic
 ```
 
-### Benchmark Validation: $^{163}\text{Lu}$ at $I = 35.5\ \hbar$
+### Model or fixture replay (not experimental validation): $^{163}\text{Lu}$ at $I = 35.5\ \hbar$
 - Normal Deformed (ND) minimum located at: $\beta_2 = 0.188, \gamma = 22.0^\circ$ ($E = 18.84\text{ MeV}$);
 - Triaxial Superdeformed (TSD) minimum located at: $\beta_2 = 0.375, \gamma = 18.0^\circ$ ($E = 16.82\text{ MeV}$);
 - Barrier height preventing decayout: $V_B = 3.86\text{ MeV}$;
-- Confirms topology: `STABLE_TRIAXIAL_SUPERDEFORMED_WELL_PRESENT`.
+- Model output topology: `STABLE_TRIAXIAL_SUPERDEFORMED_WELL_PRESENT`.
 
 
 ## Necessary Assumptions
@@ -89,7 +89,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py tsdpes --preset 208Pb_spheri
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本页整理模型公式、参数化输出和观测量映射的条件性 screening logic。预设结果属于 model-derived 或 synthetic fixture；它们不能替代 raw spectra、detector response、feeding/covariance 和逐线实验审计。
 
 
 ## Sources

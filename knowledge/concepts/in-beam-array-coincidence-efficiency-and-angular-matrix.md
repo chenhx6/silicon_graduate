@@ -61,7 +61,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py coineff --preset in_beam_134
 python3 system/scripts/analysis/nuclear_analyzer.py coineff --preset isotropic_unpolarized_reference
 ```
 
-### Benchmark Validation
+### Model or fixture replay (not experimental validation)
 1. **12-Clover Array $^{60}\text{Co}$ Cascade**:
    Evaluates 132 crystal pairs across $45^\circ, 90^\circ, 135^\circ$ rings.
    True coincidence efficiency is $\varepsilon_{\text{coin}} = 1.4477 \times 10^{-3}$ vs naive scalar estimate $1.4614 \times 10^{-3}$ ($\mathcal{F}_{\text{geom}} = 0.9906$, $-0.94\%$ modulation bias).
@@ -90,7 +90,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py coineff --preset isotropic_u
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本页整理模型公式、参数化输出和观测量映射的条件性 screening logic。预设结果属于 model-derived 或 synthetic fixture；它们不能替代 raw spectra、detector response、feeding/covariance 和逐线实验审计。
 
 
 ## Sources

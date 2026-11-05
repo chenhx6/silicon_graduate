@@ -18,7 +18,8 @@ tags: [wigner-supermultiplet, su4-symmetry, casimir-invariants, wigner-energy, m
 在宏观核物理模型中，Bethe-Weizsäcker 经典液滴质量公式将核对称能简单描述为同位旋非对称度（$N-Z$）的光滑二次抛物线项：
 $$E_{\text{sym}}(A, T) = - a_{\text{sym}} \frac{(N - Z)^2}{A} = - 4 a_{\text{sym}} \frac{T_z^2}{A}$$
 根据该平滑抛物线假定，结合能对同位旋的导数在 $N = Z$（$T_z = 0$）处应平滑地等于零。
-然而，精确的高精度原子核质量测量（AME 数据集）无可辩驳地揭示出一个普适的惊人反常：
+然而，精确的高精度原子核质量测量（AME 数据集）显示出一个值得检验的
+质量系统学反常：
 **核质量曲面在 $N = Z$ 处呈现出一个尖锐的、非微商平滑的“尖点”（Wigner Cusp），自共轭核（Self-conjugate nuclei）的实测结合能比液滴模型抛物线外推值系统性高出数个 MeV！**
 
 根据 E. P. Wigner（Phys. Rev. 51, 106, 1937）、A. Bohr & B. R. Mottelson《Nuclear Structure》Vol. I（第 1 章）以及 W. Satuła 等（Phys. Lett. B 407, 103, 1997）：

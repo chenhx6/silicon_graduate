@@ -60,8 +60,8 @@ python3 system/scripts/analysis/nuclear_analyzer.py rostovsky --preset 130Ba_gam
 python3 system/scripts/analysis/nuclear_analyzer.py rostovsky --preset rigid_rotor_zero_mixing_limit
 ```
 
-### Benchmark Validation: $^{152}\text{Sm}$
-- Experimental ratio $\mathcal{R}_{\text{exp}} = 0.5400$ ($22.86\%$ suppression relative to Alaga $0.700$);
+### Model or fixture replay (not experimental validation): $^{152}\text{Sm}$
+- Preset/public-derived ratio $\mathcal{R}_{\text{exp}} = 0.5400$ ($22.86\%$ suppression relative to Alaga $0.700$);
 - Inverts mixing parameter $z_\gamma = +0.04228$;
 - Rotation-vibration coupling matrix element $h_2 = 16.64\text{ keV}$, softness parameter $\mu = 0.6494$;
 - Accurately predicts $B(E2; 2_\gamma \to 4_g) / B(E2; 2_\gamma \to 2_g) = 0.0629$ (matching experiment).
@@ -88,7 +88,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py rostovsky --preset rigid_rot
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本页整理模型公式、参数化输出和观测量映射的条件性 screening logic。预设结果属于 model-derived 或 synthetic fixture；它们不能替代 raw spectra、detector response、feeding/covariance 和逐线实验审计。
 
 
 ## Sources

@@ -66,7 +66,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py tacbifurc --preset 128Cs_chi
 python3 system/scripts/analysis/nuclear_analyzer.py tacbifurc --preset axial_symmetric_no_bifurcation
 ```
 
-### Benchmark Validation: $^{134}\text{Pr}$
+### Model or fixture replay (not experimental validation): $^{134}\text{Pr}$
 - At $J = 10\ \hbar$: planar phase ($\phi = 0^\circ$, barrier $\Delta E = 0\text{ keV}$);
 - Bifurcation occurs at $J_{\text{crit}} = 12.0\ \hbar$, with out-of-plane angle rising to $\phi = 21.2^\circ$;
 - At $J = 16\ \hbar$: mature aplanar chiral phase ($\phi = 50.6^\circ$, barrier $\Delta E = 633.1\text{ keV}$, chiral volume $V = 0.302$).
@@ -94,7 +94,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py tacbifurc --preset axial_sym
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本页整理模型公式、参数化输出和观测量映射的条件性 screening logic。预设结果属于 model-derived 或 synthetic fixture；它们不能替代 raw spectra、detector response、feeding/covariance 和逐线实验审计。
 
 
 ## Sources

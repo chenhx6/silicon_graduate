@@ -63,7 +63,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py tpsmproj --preset 163Lu_TSD_
 python3 system/scripts/analysis/nuclear_analyzer.py tpsmproj --preset axial_symmetric_limit
 ```
 
-### Benchmark Validation
+### Model or fixture replay (not experimental validation)
 1. **$^{130}\text{Ba}$ Triaxial Projection**:
    At $I=4$: Yrast = $259.6\text{ keV}$, $\gamma$-band = $1292.5\text{ keV}$, Wobbling = $2164.0\text{ keV}$ ($\Delta E_{\text{wob}} = 1904.4\text{ keV}$).
    Yrast $K=0$ weight decreases from $99.8\%$ ($I=2$) to $96.7\%$ ($I=16$), with $K=2$ expanding to $3.3\%$.
@@ -92,7 +92,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py tpsmproj --preset axial_symm
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本页整理模型公式、参数化输出和观测量映射的条件性 screening logic。预设结果属于 model-derived 或 synthetic fixture；它们不能替代 raw spectra、detector response、feeding/covariance 和逐线实验审计。
 
 
 ## Sources

@@ -64,9 +64,9 @@ python3 system/scripts/analysis/nuclear_analyzer.py chirasch --preset 134Pr_stat
 python3 system/scripts/analysis/nuclear_analyzer.py chirasch --preset harmonic_vibrator_limit
 ```
 
-### Benchmark Validation
+### Model or fixture replay (not experimental validation)
 1. **$^{135}\text{Nd}$ Chiral Vibration**:
-   Shallow barrier $V_B = 170.1\text{ keV}$ produces large vibrational splitting $\Delta E_{\text{chir}} = 332.5\text{ keV}$ and $R_{21} = 2.87$, in excellent agreement with experimental observation.
+   Shallow barrier $V_B = 170.1\text{ keV}$ produces large vibrational splitting $\Delta E_{\text{chir}} = 332.5\text{ keV}$ and $R_{21} = 2.87$, matching the declared preset reference values; this is not an experimental validation.
 2. **$^{134}\text{Pr}$ Static Chirality**:
    Deep barrier $V_B = 640.0\text{ keV}$ collapses the splitting to $\Delta E_{\text{chir}} = 105.4\text{ keV}$ with high anharmonicity $R_{21} = 6.36$.
 3. **Harmonic Limit**:
@@ -94,7 +94,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py chirasch --preset harmonic_v
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本页整理模型公式、参数化输出和观测量映射的条件性 screening logic。预设结果属于 model-derived 或 synthetic fixture；它们不能替代 raw spectra、detector response、feeding/covariance 和逐线实验审计。
 
 
 ## Sources

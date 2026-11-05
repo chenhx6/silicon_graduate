@@ -7580,3 +7580,11 @@ u}$ zero-crossing detection;
 ## 2026-11-05 residual analysis-state audit
 
 A follow-up scan found additional scientific state words outside the first P0 batch. The remaining two-quasiparticle wobbling, multiphonon wobbling, chiral-octupole, MchiD, g-factor and RDDS outputs were converted to conditional screening/model-compatibility language; targeted tests passed. Ionescu 1981 was separately recorded as a feeding-aware public methodological precedent, with an explicit stop boundary against pooling its rho2/rho4/direct-feeding contract into the 67Ga common-rho sample. This is a governance/evidence-boundary checkpoint; it does not change the PADO paper's partial/not-ready status.
+
+## 2026-11-05 second residual model-state audit
+
+A second scan of `knowledge/concepts`, `knowledge/models`, `knowledge/methods` and `system/scripts/analysis` found residual model/fixture language that was stronger than its input contract. Two-quasiparticle and multiphonon wobbling, chiral-octupole quartet, MchiD, g-factor equality, RDDS, TDPAD, superdeformation, signature-inversion and several model-validation pages were changed to conditional screening/model compatibility language. Associated unit tests were updated to assert screening fields rather than scientific confirmation strings.
+
+Ionescu 1981 was read as a separate public feeding-aware case. It supplies a strong methodological precedent, but its rho2/rho4, Eq.(9)--(11) feeding recursion, parent tensors, conversion-corrected intensities and covariance contract cannot be pooled with the 67Ga alpha2/alpha4 common-rho sample. The feasibility note therefore remains a stop-boundary artifact; no second numerical benchmark was fabricated.
+
+Verification for this checkpoint: 635 system tests OK; targeted collective-mode tests 17/17 OK; Python compilation OK; Wiki lint 0 errors; boundary, archive and preflight gates OK. The next required action is explicit staging/commit/push of this residual audit batch; the main goal remains active.
