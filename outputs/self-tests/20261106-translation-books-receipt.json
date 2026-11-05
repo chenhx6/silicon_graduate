@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "skill": "translation-books",
+  "wiki_package": ".agents/skills/translation-books",
+  "shared_installation": "/root/.agents/skills/translation-books",
+  "implementation_commit": "acd08ff882961cfcd6ba8bd2a9cfd8650c89d791",
+  "implementation_pointer": "main / skills: add portable translation-books workflow",
+  "publication": "pushed",
+  "remote": "origin",
+  "refspec": "HEAD:main",
+  "non_force": true,
+  "committed_files": [
+    ".agents/skills/AGENTS.md",
+    ".agents/skills/translation-books/AGENTS.md",
+    ".agents/skills/translation-books/SKILL.md",
+    ".agents/skills/translation-books/agents/openai.yaml",
+    ".agents/skills/translation-books/assets/book.tex",
+    ".agents/skills/translation-books/assets/preamble.tex",
+    ".agents/skills/translation-books/evals/scenarios.json",
+    ".agents/skills/translation-books/references/editorial.md",
+    ".agents/skills/translation-books/references/layout-and-pdf.md",
+    ".agents/skills/translation-books/references/nuclear-physics.md",
+    ".agents/skills/translation-books/scripts/audit_pdf.py",
+    ".agents/skills/translation-books/scripts/preflight.py",
+    "outputs/self-tests/20261106-translation-books.md"
+  ],
+  "identical_package_sha256": {
+    "AGENTS.md": "1050e171f3de6f016d3c383540570f7c8490938c323ada6af5d1522618f2f219",
+    "SKILL.md": "f1cc1376b675ed397056a5e9e89647f2b2f9b942ef2fa307a8297dedf30e0b2f",
+    "agents/openai.yaml": "8602856ba98d4aaeeaf7dbc7d58a727052696cc1f2c7fe15e925eeaa236377ed",
+    "assets/book.tex": "273c05fdefea1c5f7373012c092237a009b147507b86dd99d3a2d5387deb2b67",
+    "assets/preamble.tex": "2dd85cc72a3c495c411fa239d52d3a81931fb137ff67288361dd2b6723cbebbc",
+    "evals/scenarios.json": "557996e2101af661e2e6418db8658d1aaf09e8db57c6bd144164a6464a2b0858",
+    "references/editorial.md": "608b6d828b7e149d5223f4729aa46394424a264de2d807a51a7b17cc5b2d0045",
+    "references/layout-and-pdf.md": "9d9297b73f623833ac239b41f0e9320b6410aa9b13942b8de1e47f31c0fa0004",
+    "references/nuclear-physics.md": "2fc5cfdc00cc4a9bb60c53b3f093d490d1ff58eac9fe1273b98d057303943513",
+    "scripts/audit_pdf.py": "4f8ab01e560c771b194b3c64992db1d9fbd4a7b98147d61d9cac62c9f215dab2",
+    "scripts/preflight.py": "0645ba9f69337e685d727f29cee6455c813922d449464b8fbc7c950524cd4432"
+  },
+  "shared_checkpoint": "fdd476a364f945a403cec39f9ffee210f1e1c3b2",
+  "shared_worktree_clean": true,
+  "checks": {
+    "skill_structure_both_locations": "pass",
+    "relative_links_and_python_syntax": "pass",
+    "dependency_preflight_installed_missing_explicit_alternative": "pass",
+    "template_compile_and_mechanical_pdf_audit": "pass",
+    "sample_pages": 5,
+    "negative_pdf_and_log_detection": "pass",
+    "landscape_a4": "pass",
+    "visual_review": "template contact sheet and enlarged body page viewed",
+    "independent_scenarios": {
+      "method": "static walkthrough",
+      "count": 3,
+      "findings": 2,
+      "findings_addressed": 2
+    },
+    "boundary": "pass",
+    "isolated_lint": {
+      "warning": 369,
+      "info": 5348
+    },
+    "staged_diff_check": "pass"
+  },
+  "unrelated_worktree_findings": {
+    "lint_errors": 5,
+    "preexisting_diff_check": "PLAN.md trailing whitespace",
+    "action": "preserved; excluded from publication"
+  },
+  "no_book_changed": true,
+  "receipt_commit_pointer": "main / docs: record translation-books publication"
+}
