@@ -357,8 +357,16 @@ class SpinAlignmentMixingExtractor:
             "delta_1sigma_range": [delta_1sig_min, delta_1sig_max],
             "min_chi2": min_chi2,
             "pct_E2_character": float(pct_E2),
-            "is_wobbling_like": bool(abs(best_delta) > 1.5 and pct_E2 > 70.0),
-            "is_pure_dipole": bool(abs(best_delta) < 0.2 and pct_E2 < 5.0)
+            "wobbling_screening": bool(abs(best_delta) > 1.5 and pct_E2 > 70.0),
+            "dipole_screening": bool(abs(best_delta) < 0.2 and pct_E2 < 5.0),
+            "is_wobbling_like": None,
+            "is_pure_dipole": None,
+            "evidence_boundary": (
+                "Conditional angular-distribution screening under a Gaussian "
+                "alignment, finite-solid-angle and quoted-error contract. "
+                "No raw counts, feeding likelihood, response covariance or "
+                "mode classification is inferred."
+            )
         }
 
 def run_spin_alignment_analysis(nucleus="Generic", ref_data=None, target_data=None):
@@ -408,16 +416,16 @@ def format_text_report(output, title="In-Beam Spin Alignment & Mixing Ratio Join
     lines.append(f"  1-sigma Confidence Range:          [{output['delta_1sigma_range'][0]:+.3f}, {output['delta_1sigma_range'][1]:+.3f}]")
     lines.append(f"  Minimum Goodness of Fit:           chi^2_min = {output['min_chi2']:.3f}")
     lines.append(f"  Electric Quadrupole Fraction:      %E2 = {output['pct_E2_character']:.1f} % (M1 fraction = {100.0 - output['pct_E2_character']:.1f} %)")
-    if output["is_wobbling_like"]:
-        nature = "Wobbling-like Dominant E2 Character (|delta| > 1.5, %E2 > 70%)"
-    elif output["is_pure_dipole"]:
-        nature = "Pure/Dominant M1 Dipole Character (|delta| < 0.2, %M1 > 95%)"
+    if output["wobbling_screening"]:
+        nature = "Conditional E2-rich screening branch (|delta| > 1.5, %E2 > 70%)"
+    elif output["dipole_screening"]:
+        nature = "Conditional M1-rich screening branch (|delta| < 0.2, %M1 > 95%)"
     else:
         nature = "Mixed M1 + E2 Intermediate Character"
     lines.append(f"  Electromagnetic Classification:    {nature}")
     lines.append("-" * 76)
-    lines.append("Methodology Takeaway: Calibrates alignment width sigma/I from reference E2")
-    lines.append("before inverting delta, eliminating 30% systematic uncertainty in mixing ratios.")
+    lines.append("Methodology boundary: calibrates sigma/I from a reference E2")
+    lines.append("before a conditional delta scan; it does not remove unmodeled response, feeding or covariance systematics.")
     lines.append("=" * 76)
     return "\n".join(lines)
 

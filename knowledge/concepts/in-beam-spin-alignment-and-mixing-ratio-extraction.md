@@ -48,7 +48,7 @@ Here:
    Invert $\alpha_2(I_{\text{ref}}, \sigma)$ to obtain the reaction parameter $\sigma/I$.
 2. **Target Inversion Step**:
    Apply $\sigma = (\sigma/I) \cdot I_{\text{tgt}}$ to compute $\alpha_k(I_{\text{tgt}})$.
-   Fit the observed $(a_2^{\text{exp}}, a_4^{\text{exp}})$ of the unknown transition to extract the mixing ratio $\delta(E2/M1)$ and $\%E2$ fraction via $\chi^2$ minimization, resolving the physical nature (wobbling vs. magnetic rotation vs. chiral partner decay).
+   Fit the observed $(a_2^{\text{exp}}, a_4^{\text{exp}})$ of the unknown transition to obtain a conditional mixing-ratio profile and E2 fraction under the declared alignment/response contract. The result is a diagnostic input to wobbling, magnetic-rotation and chiral-partner comparisons, not a mode classifier.
 
 ---
 

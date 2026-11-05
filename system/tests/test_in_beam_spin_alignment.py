@@ -67,7 +67,8 @@ class TestInBeamSpinAlignment(unittest.TestCase):
         )
         # Chiral partner dipole transition should be predominantly M1 (|delta| < 0.2)
         self.assertLess(abs(res["best_fit_delta"]), 0.2)
-        self.assertTrue(res["is_pure_dipole"])
+        self.assertTrue(res["dipole_screening"])
+        self.assertIsNone(res["is_pure_dipole"])
 
 if __name__ == "__main__":
     unittest.main()

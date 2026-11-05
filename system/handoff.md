@@ -7592,3 +7592,7 @@ Verification for this checkpoint: 635 system tests OK; targeted collective-mode 
 ## 2026-11-05 row-specific covariance envelope
 
 The PADO package now includes an uncalibrated row-specific within-row correlation envelope: each row may choose rho_i in [-0.8, 0.8] while one shared response r is retained. The observed envelope is D_max^2=16.86 at r=0.2716. This remains a sensitivity result only; it does not model cross-row covariance, provide a likelihood ratio, or produce a p-value. The output, validator, public-release manifest and claim ledger record the boundary.
+
+## 2026-11-05 alignmix residual-state repair
+
+The residual analysis scan found `alignmix` still returning scientific-looking `is_wobbling_like`/`is_pure_dipole` fields and claiming removal of systematic uncertainty. It now returns conditional E2-rich/M1-rich screening fields, preserves the old fields as null for compatibility, and states the missing raw/feeding/response/covariance boundary. Targeted alignmix, chiral-selection and pipeline tests pass.
