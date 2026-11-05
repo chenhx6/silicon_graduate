@@ -96,9 +96,7 @@ def sanitized_error(error: BaseException) -> str:
     )
 
 
-def validate_remote_url(url: str, *, unrestricted: bool = False) -> None:
-    if unrestricted:
-        return
+def validate_remote_url(url: str) -> None:
     parsed = urllib.parse.urlsplit(url)
     if parsed.scheme != "https":
         raise NetworkError(f"拒绝非 HTTPS URL: {sanitized_url(url)}")
@@ -127,10 +125,6 @@ def validate_remote_url(url: str, *, unrestricted: bool = False) -> None:
 
 
 class SafeRedirectHandler(urllib.request.HTTPRedirectHandler):
-    def __init__(self, *, unrestricted: bool = False) -> None:
-        super().__init__()
-        self.unrestricted = unrestricted
-
     def redirect_request(
         self,
         req: Any,
@@ -141,7 +135,7 @@ class SafeRedirectHandler(urllib.request.HTTPRedirectHandler):
         newurl: str,
     ) -> Any:
         target = urllib.parse.urljoin(req.full_url, newurl)
-        validate_remote_url(target, unrestricted=self.unrestricted)
+        validate_remote_url(target)
         return super().redirect_request(req, fp, code, msg, headers, target)
 
 
@@ -272,40 +266,29 @@ def request_bytes(
     *,
     timeout: float = 30.0,
     attempts: int = 3,
-    max_bytes: int | None = MAX_METADATA_BYTES,
+    max_bytes: int = MAX_METADATA_BYTES,
     headers: dict[str, str] | None = None,
-    unrestricted: bool = False,
 ) -> tuple[bytes, dict[str, str]]:
-    validate_remote_url(url, unrestricted=unrestricted)
+    validate_remote_url(url)
     request_headers = {"User-Agent": USER_AGENT, "Accept": "*/*"}
     request_headers.update(headers or {})
     last_error: Exception | None = None
     for attempt in range(1, attempts + 1):
         try:
             request = urllib.request.Request(url, headers=request_headers, method="GET")
-            opener = urllib.request.build_opener(
-                SafeRedirectHandler(unrestricted=unrestricted)
-            )
+            opener = urllib.request.build_opener(SafeRedirectHandler)
             with opener.open(request, timeout=timeout) as response:
-                data = response.read() if max_bytes is None else response.read(max_bytes + 1)
-                if max_bytes is not None and len(data) > max_bytes:
+                data = response.read(max_bytes + 1)
+                if len(data) > max_bytes:
                     raise NetworkError(f"响应超过大小上限 {max_bytes} bytes: {sanitized_url(url)}")
-                return data, {
+                metadata = {
                     "url": response.geturl(),
                     "status": str(getattr(response, "status", 200)),
                     "content_type": response.headers.get("Content-Type", ""),
-                    "content_length": response.headers.get("Content-Length", ""),
                 }
+                return data, metadata
         except urllib.error.HTTPError as error:
             last_error = error
-            if unrestricted:
-                return error.read(), {
-                    "url": error.geturl(),
-                    "status": str(error.code),
-                    "content_type": error.headers.get("Content-Type", ""),
-                    "content_length": error.headers.get("Content-Length", ""),
-                    "http_error": str(error),
-                }
             if error.code != 429 and error.code < 500:
                 raise NetworkError(f"HTTP {error.code}: {sanitized_url(url)}") from error
             retry_after = error.headers.get("Retry-After", "")
@@ -1075,131 +1058,6 @@ def download_pdf(url: str, destination: Path, *, force: bool) -> dict[str, Any]:
     return result
 
 
-
-APS_JOURNAL_PATHS = {
-    "PhysRevA": "pra",
-    "PhysRevB": "prb",
-    "PhysRevC": "prc",
-    "PhysRevD": "prd",
-    "PhysRevE": "pre",
-    "PhysRevLett": "prl",
-    "RevModPhys": "rmp",
-    "PhysRevX": "prx",
-}
-
-
-def publisher_candidate_urls(doi: str, paper: Paper | None = None) -> list[str]:
-    candidates: list[str] = [f"https://doi.org/{doi}"]
-    if paper is not None:
-        candidates.extend(value for value in (paper.pdf_url, paper.oa_url) if value)
-    if doi.casefold().startswith("10.1016/"):
-        pii = re.sub(r"[^0-9a-z]", "", doi.split("/", 1)[1], flags=re.IGNORECASE)
-        candidates.extend([
-            f"https://www.sciencedirect.com/science/article/pii/{pii}/pdfft",
-            f"https://linkinghub.elsevier.com/retrieve/pii/{pii}",
-        ])
-    if doi.casefold().startswith("10.1007/"):
-        candidates.append(f"https://link.springer.com/content/pdf/{doi}.pdf")
-    if doi.casefold().startswith(("10.1111/", "10.1002/")):
-        candidates.append(f"https://onlinelibrary.wiley.com/doi/pdf/{doi}")
-    if doi.casefold().startswith("10.1088/"):
-        candidates.append(f"https://iopscience.iop.org/article/{doi}/pdf")
-    if doi.casefold().startswith("10.1080/"):
-        candidates.append(f"https://www.tandfonline.com/doi/pdf/{doi}")
-    aps_match = re.match(r"10\.1103/([A-Za-z]+)\.(.+)$", doi, re.IGNORECASE)
-    if aps_match and aps_match.group(1) in APS_JOURNAL_PATHS:
-        candidates.append(
-            f"https://journals.aps.org/{APS_JOURNAL_PATHS[aps_match.group(1)]}/pdf/{doi}"
-        )
-    return list(dict.fromkeys(candidates))
-
-
-def download_raw_candidates(urls: list[str], destination: Path, *, force: bool) -> dict[str, Any]:
-    destination = destination.resolve()
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    if destination.exists() and not force:
-        raise UnsafeArchiveError(f"原始拉取目标已存在；需要覆盖时显式使用 --force: {destination}")
-    staging = Path(tempfile.mkdtemp(prefix=f".{destination.name}.tmp-", dir=destination.parent))
-    files: list[str] = []
-    responses: list[dict[str, Any]] = []
-    pdf_found = False
-    try:
-        for index, url in enumerate(urls, start=1):
-            blob, metadata = request_bytes(url, timeout=120, attempts=1, max_bytes=None, unrestricted=True)
-            content_type = metadata.get("content_type", "").casefold()
-            is_pdf = blob.startswith(b"%PDF") or "application/pdf" in content_type
-            suffix = ".pdf" if is_pdf else (".html" if "html" in content_type or blob.lstrip().startswith(b"<") else ".bin")
-            name = "paper.pdf" if is_pdf and not pdf_found else f"response-{index:03d}{suffix}"
-            (staging / name).write_bytes(blob)
-            files.append(name)
-            record = {
-                "requested_url": url,
-                "retrieval_url": metadata.get("url", url),
-                "status": metadata.get("status"),
-                "content_type": metadata.get("content_type", ""),
-                "bytes": len(blob),
-                "sha256": hashlib.sha256(blob).hexdigest(),
-                "file": name,
-            }
-            if metadata.get("http_error"):
-                record["http_error"] = metadata["http_error"]
-            responses.append(record)
-            pdf_found = pdf_found or is_pdf
-        result = {
-            "kind": "raw-pull",
-            "files": files,
-            "main_tex": None,
-            "responses": responses,
-            "pdf_found": pdf_found,
-            "tree_sha256": directory_digest(staging),
-        }
-        if destination.exists():
-            if destination.is_dir():
-                shutil.rmtree(destination)
-            else:
-                destination.unlink()
-        staging.replace(destination)
-        return result
-    except Exception:
-        shutil.rmtree(staging, ignore_errors=True)
-        raise
-
-
-def write_raw_manifest(output_root: Path, payload: dict[str, Any]) -> Path:
-    output_root = output_root.resolve()
-    destination = Path(str(payload.get("path") or "")).resolve()
-    artifact = payload.get("artifact") if isinstance(payload.get("artifact"), dict) else {}
-    files: list[dict[str, Any]] = []
-    if destination.is_dir():
-        for path in sorted(candidate for candidate in destination.rglob("*") if candidate.is_file()):
-            try:
-                relative = path.relative_to(Path.cwd().resolve()).as_posix()
-            except ValueError:
-                relative = str(path)
-            data = path.read_bytes()
-            files.append({
-                "path": relative,
-                "sha256": hashlib.sha256(data).hexdigest(),
-                "size": len(data),
-                "source": str(artifact.get("kind") or "raw-pull"),
-            })
-    manifest = {
-        "archive_type": "research-archive-v1",
-        "archive_required": True,
-        "retrieved_at": payload.get("fetched_at"),
-        "acquisition_context": "evidence-check",
-        "learning_candidate": True,
-        "learning_topic": str(payload.get("paper", {}).get("title") or "paper retrieval"),
-        "collection_reason": "Complete raw-pull response set for local source audit.",
-        "identifier": payload.get("identifier"),
-        "citation": payload.get("paper"),
-        "full_text_obtained": bool(artifact.get("pdf_found")),
-        "files": files,
-    }
-    path = output_root / "manifest.json"
-    write_json(path, manifest)
-    return path
-
 def slugify(value: str, fallback: str = "paper") -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", value.casefold()).strip("-")
     return slug[:80] or fallback
@@ -1270,7 +1128,6 @@ def fetch_paper(
     force: bool,
     max_extract_bytes: int,
     max_files: int,
-    raw_pull: bool = False,
 ) -> dict[str, Any]:
     destination = output_root / folder_for_identifier(identifier)
     metadata_path = destination / "metadata.json"
@@ -1282,6 +1139,7 @@ def fetch_paper(
     arxiv_id = paper.arxiv_id or arxiv_id_from_text(identifier)
     if arxiv_id:
         paper.arxiv_id = arxiv_id
+
     destination.mkdir(parents=True, exist_ok=True)
     payload: dict[str, Any] = {
         "schema_version": 1,
@@ -1293,29 +1151,23 @@ def fetch_paper(
         "relevance_score": relevance_score(task, paper.title, paper.abstract),
         "source_kind": None,
         "artifact": None,
-        "raw_pull": raw_pull,
         "license_url": None,
-        "usage_note": "Raw-pull preserves every candidate response verbatim for local audit; it does not grant redistribution or publication rights.",
+        "usage_note": "Verify the source license before redistribution; this tool does not bypass paywalls.",
     }
     errors: list[str] = []
-    if arxiv_id and not raw_pull:
+    if arxiv_id:
         payload["license_url"] = arxiv_license(arxiv_id)
         try:
             payload["artifact"] = download_arxiv_source(
-                arxiv_id, destination / "source", max_extract_bytes, max_files, force=force
+                arxiv_id,
+                destination / "source",
+                max_extract_bytes,
+                max_files,
+                force=force,
             )
             payload["source_kind"] = payload["artifact"]["kind"]
         except (GetPaperError, OSError) as error:
             errors.append(f"arXiv source: {sanitized_error(error)}")
-    if payload["artifact"] is None and raw_pull:
-        try:
-            doi = doi_from_text(identifier) or paper.doi
-            candidates = publisher_candidate_urls(doi, paper) if doi else [v for v in (paper.pdf_url, paper.oa_url) if v]
-            if candidates:
-                payload["artifact"] = download_raw_candidates(candidates, destination / "source", force=force)
-                payload["source_kind"] = payload["artifact"]["kind"]
-        except (GetPaperError, OSError) as error:
-            errors.append(f"raw pull: {sanitized_error(error)}")
     if payload["artifact"] is None and pdf_fallback:
         pdf_url = paper.pdf_url or paper.oa_url
         if pdf_url:
@@ -1329,9 +1181,8 @@ def fetch_paper(
     payload["errors"] = errors
     payload["path"] = str(destination)
     write_json(metadata_path, payload)
-    if raw_pull:
-        payload["manifest_path"] = str(write_raw_manifest(output_root, payload))
     return payload
+
 
 def output_manifest_path(output: str | None) -> Path | None:
     if not output:
@@ -1378,7 +1229,6 @@ def command_search(args: argparse.Namespace) -> int:
                         force=args.force,
                         max_extract_bytes=args.max_extract_bytes,
                         max_files=args.max_files,
-                        raw_pull=args.raw_pull,
                     )
                 )
             except GetPaperError as error:
@@ -1405,7 +1255,6 @@ def command_fetch(args: argparse.Namespace) -> int:
         force=args.force,
         max_extract_bytes=args.max_extract_bytes,
         max_files=args.max_files,
-        raw_pull=args.raw_pull,
     )
     print(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True))
     return 0
@@ -1413,7 +1262,7 @@ def command_fetch(args: argparse.Namespace) -> int:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Search papers and retrieve complete source responses for local audit.",
+        description="Search papers across scholarly APIs and retrieve arXiv LaTeX sources safely.",
     )
     parser.add_argument("--version", action="version", version="get-paper 1.0")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -1435,10 +1284,9 @@ def build_parser() -> argparse.ArgumentParser:
     search.add_argument("--force", action="store_true")
     search.add_argument("--max-extract-bytes", type=int, default=DEFAULT_EXTRACT_BYTES)
     search.add_argument("--max-files", type=int, default=DEFAULT_MAX_FILES)
-    search.add_argument("--raw-pull", action="store_true", help="preserve every fetched response verbatim and try DOI/publisher endpoints")
     search.set_defaults(func=command_search)
 
-    fetch = subparsers.add_parser("fetch", help="retrieve arXiv source, OA PDF, or raw DOI/publisher responses")
+    fetch = subparsers.add_parser("fetch", help="retrieve arXiv source or an open-access PDF")
     fetch.add_argument("identifier", help="arXiv URL/ID or DOI URL/ID")
     fetch.add_argument("--output", required=True, help="download root directory")
     task_group = fetch.add_mutually_exclusive_group(required=True)
@@ -1448,7 +1296,6 @@ def build_parser() -> argparse.ArgumentParser:
     fetch.add_argument("--force", action="store_true", help="replace an existing metadata.json")
     fetch.add_argument("--max-extract-bytes", type=int, default=DEFAULT_EXTRACT_BYTES)
     fetch.add_argument("--max-files", type=int, default=DEFAULT_MAX_FILES)
-    fetch.add_argument("--raw-pull", action="store_true", help="preserve every fetched response verbatim and try DOI/publisher endpoints")
     fetch.set_defaults(func=command_fetch)
     return parser
 

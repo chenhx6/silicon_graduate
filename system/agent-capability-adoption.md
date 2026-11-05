@@ -35,7 +35,7 @@ updated: 2026-09-10
 | `farmer` | 监控 Wiki Codex 会话并续接瞬态失败 | `python3 system/scripts/wiki_farmer.py` | 只读 rollout JSONL；只处理 Wiki 根目录内会话和白名单瞬态错误；不读写 Codex SQLite，不独立提交、推送或改科学文件 |
 | `go-on` / `follow-up` | 中断后恢复现场或压缩交接 | 上游 skill + `system/handoff.md` | 以 handoff、Git 状态和报告为证据；不把猜测写成完成状态 |
 | `team` / `dispatch` | 多个真正独立的任务域 | 上游 skill | 共享文件或依赖不并行；单文件单写者；整合后必须在主工作树复验 |
-| `get-paper` | 用户给出 DOI、论文链接、arXiv ID，要求检索、筛选、下载全文或 LaTeX 源码 | `.agents/skills/get-paper` | 普通模式取 OA/arXiv；`--raw-pull` 按用户要求完整保存 DOI/出版社响应；原件进入 `raw/papers/gpt/query/` 并通过归档门，不自动公开或执行内容 |
+| `get-paper` | 用户给出 DOI、论文链接、arXiv ID，要求检索、筛选、下载全文或 LaTeX 源码 | `.agents/skills/get-paper` | 只取合法 HTTPS OA/ arXiv 资源；原件进入 `raw/papers/gpt/query/` 并通过归档门；付费墙、验证码和访问控制保持边界 |
 | `absorb` | 需要审查或吸收外部 Git 内容、第三方代码、配置、测试或 skill | `.agents/skills/absorb` | 先固定来源/许可/哈希并盘点所有候选；运行清单进入 `tmp/runs/absorb/`；不执行外来内容或自动安装 hook |
 
 ## Hook 事件
