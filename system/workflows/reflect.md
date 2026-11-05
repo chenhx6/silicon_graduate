@@ -1,11 +1,13 @@
-﻿---
+---
 type: system-workflow
 graph-excluded: true
 operation: reflect
-updated: 2026-08-06
+updated: 2026-11-05
 ---
 
 # REFLECT：综合与反向检验
+
+> 当前规则（2026-11-05）：`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。真实用户审核事件可以记录，但不赋予或撤销任何知识使用资格。
 
 本 workflow 在授权写入任务中默认承担 L2 研究学习闭环；活跃 L3/L4 的自主选题、假设循环和数据分析状态由 `autonomous-research.md` 负责，本文件只维护证据矩阵、反向检验、research-note 与 project/synthesis 晋升边界。
 
@@ -55,7 +57,7 @@ updated: 2026-08-06
 
 Project 用于承载特定研究问题下的证据组织、候选解释和决策状态；synthesis 用于承载具有跨任务复用价值、证据边界清楚且经过相称审核的跨来源综合。只有新证据真实改变证据矩阵、解释强度、适用条件或开放问题时才更新这些页面，不因每篇新文献机械重写。
 
-重用旧 project/synthesis 时，只对本轮实际使用且确有必要的部分做最小 on-touch migration；仅有格式差异不触发机械重写，不批量补历史字段或转换旧 Personal Notes。任何新的科学判断、竞争解释、结论或状态变化继续进入 Agent self-audit triage；用户审核只在后续问答裁决或论文写作使用具体 claim 时触发。
+重用旧 project/synthesis 时，只对本轮实际使用且确有必要的部分做最小 on-touch migration；仅有格式差异不触发机械重写，不批量补历史字段或转换旧 Personal Notes。任何新的科学判断、竞争解释、结论或状态变化继续进入 Agent self-audit triage；使用具体 claim 时由 Agent 自主核验，不自动触发用户审核。
 
 暂定研究推理、迁移假设、反向检验和认识修正候选不得直接写成正式 project/synthesis 结论。晋升时至少记录：此前认识、新认识、触发证据与 locator、支持/冲突来源、关键假设、仍存不确定性、Codex self-audit 结果和晋升目标；若后续问答或论文写作发生用户裁决，再记录对应 Human review。被修正、拒绝或取代的认识保留简短 history，不静默删除。
 
@@ -74,7 +76,6 @@ Project 用于承载特定研究问题下的证据组织、候选解释和决策
 5. `withdrawn`：创建者/用户主动撤回且不再作为活动候选；保留原因。
 
 修订记录写入 history，状态回到适用稳定值。不得通过静默删除掩盖错误认识；用户明确要求删除尚未正式接纳的草稿时，按用户指令处理。Research note 不得成为所有文献的默认产物，也不得反向替代其 grounded sources。
-
 
 ## Stage 2.5：Project / synthesis active summary
 
@@ -95,7 +96,7 @@ Project 用于承载特定研究问题下的证据组织、候选解释和决策
 
 ## Stage 4：Codex self-audit and later user decision
 
-涉及 `confidence: high`、概念合并或研究方向决策时，Codex 先完成证据矩阵、竞争解释、适用条件和反向检验的 self-audit，并记录判断依据。普通研究不等待用户确认；后续问答或论文写作需要具体措辞时，再对相关 claim 进行定向用户确认。
+涉及 `confidence: high`、概念合并或研究方向决策时，Codex 先完成证据矩阵、竞争解释、适用条件和反向检验的 self-audit，并记录判断依据。普通研究不等待用户确认；后续问答或论文写作需要具体措辞时，由 Agent 对相关 claim 自主进行定向证据核验。
 
 若综合结果将用于论文级主张，还必须通过 `system/paper-evidence-gate.md`：回到原始 source/raw、检查 locator、claim kind、人工复核状态、citation key 和竞争解释。综合页自身不能替代原始文献。
 

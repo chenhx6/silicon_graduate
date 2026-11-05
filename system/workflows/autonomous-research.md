@@ -2,10 +2,12 @@
 type: system-workflow
 graph-excluded: true
 operation: autonomous-research
-updated: 2026-08-06
+updated: 2026-11-05
 ---
 
 # Autonomous Research：L0-L4 科研自治
+
+> 当前规则（2026-11-05）：`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。真实用户审核事件可以记录，但不赋予或撤销任何知识使用资格。
 
 本文件是 Wiki 科研自治等级、升级条件、问题状态、每周自测和用户数据关口的唯一 canonical owner。其它治理文件只做路由。Docker 的运行权限不表示科学自治等级；L0–L4 仍按本文件和用户授权推进。
 
@@ -27,11 +29,11 @@ updated: 2026-08-06
 
 Codex 默认自主完成普通摄入、locator 复核、低风险纠错、关联固化、L3/L4 研究和候选问题记录。Codex self-audit 必须检查直接来源、locator、claim kind、证据层级、竞争解释、source lineage、适用条件和失败条件，并把判断写入对应报告或 source/project 页面。
 
-- 用户审核只在后续问答需要裁决具体说法，或论文写作需要将具体 claim 纳入 paper evidence gate 时发生；
+- 用户审核仅在真实发生时作历史记录，不自动触发，也不参与 claim 准入；
 - `human-reviewed` 只记录真实用户审核事件，Codex self-audit 不伪装成该事件；
 - 权限、ACL、项目配置、用户 raw、不可逆操作和外部状态变化仍按各自安全边界处理。
 
-Codex self-audit 可以依据直接证据更新 `needs_review` 和 confidence 的技术记录，但必须保留证据边界，不能设置 `human-reviewed`。论文写作或后续问答中的最终措辞仍按 paper evidence gate 需要用户确认。
+Codex self-audit 可以依据直接证据更新 `needs_review` 和 confidence 的技术记录，但必须保留证据边界，不能设置 `human-reviewed`。论文写作或后续问答中的最终措辞由 Agent 按直接证据自主判断。
 
 ## L2 默认研究学习闭环
 
@@ -68,7 +70,7 @@ P0/P1 表示重要程度，不自动等于等待用户逐项处理。每个重�
 - `blocked-needs-source`
 - `blocked-needs-user-data`
 - `safe-suspended`
-- `formal-review-required`
+- `formal-review-required`（历史值，仅保留记录；不产生人工审核门槛）
 
 来源身份/哈希无法确认、关键数值或 locator 无法追溯、数据安全/权限/Git/raw 异常、用户数据可能被破坏属于技术 hard P0，必须阻止 finalization/push。科学措辞越级、争议、partial/stopped 研究状态和未触发的用户审核由 Codex self-audit 降级、隔离并记录，不单独阻止发布。
 
@@ -181,7 +183,7 @@ L4 对公开数值或可靠模拟可以在具备数据身份、参数、代码�
 每次运行先检查 Git/远端、dirty baseline、WIP queue、运行内 `wiki-inbox.bib` 基线和文件 overlap；独立运行之间的 Zotero 正常更新不阻断新运行。完成 H1 后先做全局只读候选筛选，再决定续跑或写入：
 
 - active weekly/L3 WIP 只能在满足信息增益条件时占用温故槽；不能跳过新知槽筛选；
-- 用户未审核的内容只阻止需要该用户裁决的最终问答/写作措辞，不阻止全局只读选题、无重叠的新知任务或 Codex self-audit 写回；
+- 用户是否审核不影响最终问答、写作措辞、选题、知识写回或发布；实际证据缺口由 Agent 自主追踪和核验；
 - 无法区分归属或存在 unresolved overlap 时只读检查并 safe suspend；
 - 无实质发现不创建分支或 commit；
 - 普通治理和周测修改继续在已核验 `main` 上小步提交；只有确有技术隔离需要时才创建分支。
@@ -194,7 +196,7 @@ L4 对公开数值或可靠模拟可以在具备数据身份、参数、代码�
 
 报告、计划和回执属于交代层；新增 source/project/synthesis/evidence-map/question 或其它长期资产必须在同一任务中落到 `knowledge/`，并在报告中列出 canonical 路径。没有新增知识时明确写 `verified no-op`，不以长报告文字替代知识增量。
 
-用户默认可只阅读 P0、P1 和升级状态；Codex 不主动索要审核。低风险内容只提供摘要与可追溯链接；后续问答或论文写作需要用户裁决具体 claim 时，再触发定向审核。
+用户默认可只阅读 P0、P1 和升级状态；Codex 不主动索要审核。低风险内容只提供摘要与可追溯链接；后续问答和论文写作的定向核验由 Agent 自主完成，不等待用户审核。
 
 有实质变化时完成 Git 检查、Wiki lint、显式 stage；Codex self-audit 完成且无技术 hard P0 时，使用当前 rolling WIP amend 为 final 并按发布门 push。未完成 L3、L4 输入不足、技术 hard P0 或安全暂停时使用 `WIP suspend: weekly L3 YYYY-MM-DD <topic>`，不 push。同一分支继续时 amend，不创建第二个 active WIP。无实质变化不制造空 commit。
 

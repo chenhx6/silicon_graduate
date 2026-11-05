@@ -1,11 +1,13 @@
-﻿---
+---
 type: system-workflow
 graph-excluded: true
 operation: ingest-strategies-detail
-updated: 2026-07-07
+updated: 2026-11-05
 ---
 
 # INGEST STRATEGIES DETAIL：详细教程与扩展示例
+
+> 当前规则（2026-11-05）：`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。真实用户审核事件可以记录，但不赋予或撤销任何知识使用资格。
 
 本文件为 `system/workflows/ingest.md` 提供详细策略背景。策略是读取与写回范围的约束，不是必须填满的抽取清单；只记录文中实际存在且能够定位的信息。
 本文件保留拆分前的详细说明、长解释和示例。普通单篇摄入默认读取短规则 [ingest-strategies.md](ingest-strategies.md)，只有用户要求解释策略、修改 workflow、复杂多篇摄入、短规则不足以判断、要求 detailed recap / detailed strategy audit，或明确要求查阅详细教程时才读取本文件。
@@ -25,21 +27,21 @@ updated: 2026-07-07
 9. 不修改 `raw/zotero/wiki-inbox.bib`，除非用户明确要求。
 10. 不新增 Skill、automation、脚本或调度器。
 11. 普通摄入不修改 lint 脚本、lint 配置或测试；若认为必须修改，停止并询问用户。
-12. 普通文献摄入在长任务、未完成、等待审核或存在 hard P0 时创建本地 WIP ingest commit并暂不 push；完成发布门后按持续授权自动 push，完整规则见下节。
+12. 普通文献摄入在长任务、未完成或存在实际技术 hard P0 时创建本地 WIP ingest commit并暂不 push；完成发布门后按持续授权自动 push，完整规则见下节。
 13. 摄入后列出新增 claims、`needs_review` claims、证据缺口和建议人工审阅的文件。
 14. 按 `AGENTS.md` 的 bounded initiative 只做直接相关的最小同步；有帮助但非必要的修改只列为建议。
 15. 单篇文献的新术语或别名优先写入页面 `aliases`。只有需要跨库统一、存在歧义或重复 slug/aliases 风险，或用户明确要求时，才修改 `system/vocabulary.md`；不确定时先询问或只列建议。
-16. 文献摄入、project、synthesis、data-analysis-bridge 和 claim-review-update 完成后，按下述 Human review triage 对审核点排序；不得把所有 `needs_review` 等权重铺开。
+16. 文献摄入、project、synthesis、data-analysis-bridge 和 claim-review-update 完成后，按下述 Agent evidence triage 对实际科学风险排序；不得把所有 `needs_review` 等权重铺开。
 
-## Human review triage protocol
+## Agent evidence triage protocol
 
 本节提供分类示例和详细说明；P0/P1/P2/P3 的运行时输出与批次规则以 [ingest-strategies.md](ingest-strategies.md) 为 canonical owner。若本节示例与短规则冲突，以短规则为准。
 
-审核优先级描述“用户应先审哪里”，与页面级 `review_status` 和 claim-level `needs_review` 分别维护。`needs_review: true` 不自动等于 P0；优先级应由该项对科学结论、证据链、project/synthesis 主线和论文级使用的影响决定。
+核验优先级描述“Agent 应先核查哪些实际证据风险”，与页面级 `review_status` 和 claim-level `needs_review` 分别维护。`needs_review: true` 不自动等于 P0；优先级应由该项对科学结论、证据链、project/synthesis 主线和论文级使用的影响决定。
 
 ### P0：必须审核
 
-P0 未审核前，不建议把对应 WIP amend 为 final commit 或 push。P0 包括：
+P0 由 Agent 自主核验；仅实际技术、安全或证据完整性问题按发布规则处理，人工审核与否不影响 final commit 或 push。P0 包括：
 
 - 影响科学结论、project/synthesis 主线或 paper evidence gate 的核心 claim 或段落；
 - high-risk observed fact、experimental criterion、model result 或 author interpretation；
@@ -504,4 +506,4 @@ project 关系：
 <通过发布门后自动 final commit/push / 默认本地 WIP / 禁止任何本地 commit / 审核后只 final commit>
 ```
 
-用户不需要重复 Global ingest rules 或各策略默认清单。未填写提交策略时，已完成且通过发布门的任务默认自动 final commit/push；等待审核、存在 hard P0 或未完成时默认本地 WIP、不 push。旧式“不 commit/push，等待审核”也不禁止本地 WIP，只有明确写“禁止任何本地 commit”才禁止。`daily-ingest`、`claim-review-update` 和 `data-analysis-bridge` 可在“摄入策略”或任务正文中直接指定；缺少关键信息且无法从仓库唯一确定时，Codex 应先询问，不得猜测。
+用户不需要重复 Global ingest rules 或各策略默认清单。未填写提交策略时，已完成且通过发布门的任务默认自动 final commit/push；存在实际技术 hard P0 或未完成时保留本地 WIP；审核标注不影响 push。旧式“不 commit/push，等待审核”也不禁止本地 WIP，只有明确写“禁止任何本地 commit”才禁止。`daily-ingest`、`claim-review-update` 和 `data-analysis-bridge` 可在“摄入策略”或任务正文中直接指定；缺少关键信息且无法从仓库唯一确定时，Codex 应先询问，不得猜测。

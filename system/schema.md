@@ -2,10 +2,12 @@
 type: system-schema
 graph-excluded: true
 version: 0.2.0
-updated: 2026-07-15
+updated: 2026-11-05
 ---
 
 # 页面类型与字段规范
+
+> 当前规则（2026-11-05）：`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。真实用户审核事件可以记录，但不赋予或撤销任何知识使用资格。
 
 ## 允许的核心类型
 
@@ -50,7 +52,7 @@ tags: []
 - `unreviewed`：页面尚未经过用户页面级检查；不阻止 Codex 继续进行证据核查、研究或普通发布；
 - `human-reviewed`：用户已查看页面并确认无明显页面级问题，但不自动确认页面内全部 claims；
 - `verified`：已按任务约定由 Codex 完成更严格核验；不等同于用户审核或论文级准入；
-- `needs-human-review`：页面整体存在需要用户判断的问题。
+- `needs-human-review`：历史页面审核标注；不要求用户处理，也不限制使用。
 
 页面级 `review_status` 与 claim-level `needs_review` 独立。页面升级为 `human-reviewed` 时，不得批量改写 claim-level 状态。
 
@@ -94,7 +96,7 @@ Research note 还必须包含：
 - `source_independence`: `single`、`multiple-dependent`、`multiple-independent`；
 - `confidence`: `low`、`medium`、`high`；
 - `locator`: 页码、图号、表号、能级或数据位置。
-- `needs_review`: `true` 或 `false`；Codex 可在完成直接来源、locator、claim kind、竞争解释和适用条件的 self-audit 后更新；不得把该更新写成用户审核。论文写作或后续问答中的最终措辞仍按 paper evidence gate 触发用户确认。
+- `needs_review`: `true` 或 `false`；Codex 可在完成直接来源、locator、claim kind、竞争解释和适用条件的 self-audit 后更新；不得把该更新写成用户审核。论文写作或后续问答中的最终措辞由 Agent 按直接证据自主判断。
 
 source 页还使用 `citation_key` 连接只读 BibTeX 导出。无法通过 DOI、题名或文件名唯一匹配时保持空值，不得猜测；citation key 缺失影响写作链稳定性，不自动表示科学内容错误。
 

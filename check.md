@@ -1,10 +1,12 @@
-﻿---
+---
 type: system-checklist
 graph-excluded: true
-updated: 2026-08-04
+updated: 2026-11-05
 ---
 
 # Wiki 系统核查清单
+
+> 当前规则（2026-11-05）：`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。真实用户审核事件可以记录，但不赋予或撤销任何知识使用资格。
 
 本文件是人工可读的最高层检查入口。检查必须报告“通过 / 警告 / 失败 / 未执行”，不得把未执行写成通过。
 
@@ -88,7 +90,6 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] Safe suspend 未被表述为自动睡眠/原地恢复，未自动创建 automation 或 push；大量 diff 场景已按规则判断是否创建本地 WIP checkpoint。
 - [ ] Safe suspend / checkpoint 已写明未完成内容、未核查 locator / claim gaps、P0/P1 风险和 continuation prompt；未把 metadata-only 或 skimmed 伪装成 read / deep-read。
 
-
 ### 启动与工具开销控制
 
 - [ ] 未读取 handoff archive，除非用户明确要求审计历史。
@@ -105,12 +106,12 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 ## C. 科学表述与证据
 
 - [ ] 已查看 lint 的 `GOVERNANCE` 统计，页面级 review 状态与 claim-level `needs_review` 没有混为一谈。
-- [ ] `CLAIM_NEEDS_REVIEW` info 已列入 Codex self-audit 队列；未因页面为 `human-reviewed` 而自动清除，后续问答/写作的用户核验另行触发。
+- [ ] `CLAIM_NEEDS_REVIEW` 仅作历史统计；不据此创建核验队列、改变优先级或触发用户确认。
 - [ ] `claim_missing_locator` 与 `claim_missing_kind` 均为 0，或已按 error 处理。
 - [ ] `source_missing_raw_file` 与 `source_missing_citation_key` 均为 0，或已解释并处理。
 - [ ] 实验事实、作者解释、模型结果和个人推断已明确区分。
 - [ ] 置信度没有仅凭引用数量自动提高。
-- [ ] `high` 置信度若用于论文或需要最终措辞，均有对应用户确认；普通研究中的 high candidate 有直接证据和 Codex self-audit 记录，未伪装成用户确认。
+- [ ] `high` 置信度仅依据直接证据、独立性、误差和竞争解释；任何用途均不要求用户审核确认。
 - [ ] 多来源结论已判断证据是否真正独立。
 - [ ] 竞争解释、反证与限制没有被静默覆盖。
 - [ ] “候选”“支持”“强证据”“确定”用词与证据强度匹配。
@@ -174,7 +175,6 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 高复用答案才持久化，普通聊天不机械入库。
 - [ ] 综合前执行了反向检验，并记录未找到反证时的回音室风险。
 
-
 ### Project / synthesis active summary 与 staged reading
 
 - [ ] 如果本轮修改了大型 project/synthesis 主体，已同步最小更新该页 `Agent active summary`；若页面缺失 active summary 且本轮实际修改该页，已创建短 summary。
@@ -194,19 +194,19 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 
 ### Agent self-audit triage
 
-- [ ] 文献摄入、project、synthesis、data-analysis-bridge 或 claim-review-update 的最终复盘包含 Agent self-audit triage；论文用途另列 Paper-use Human review triage。
+- [ ] 文献摄入、project、synthesis、data-analysis-bridge 或 claim-review-update 的最终复盘包含 Agent self-audit triage；论文用途按实际证据风险列 Agent 核验项。
 - [ ] 每篇 source-specific triage 已写回对应 source 页面而非只存在于聊天/复盘，并直接采用现有 P0/P1/P2/P3 定义。Human Review Notes/Human Review Record 只在后续问答或写作批注真实发生后实例化。
 - [ ] Triage 明确列出 P0/P1/P2/P3；没有 P0 时写明 `P0: none identified`。
 - [ ] P0 无总量硬上限；所有 P0 逐项给出实际判断、文件、section/段落、claim ID（如有）、source locator、grounded evidence、Agent inference、后续核验目的和不核验风险。
 - [ ] P0 可以分批但没有聚合隐藏、降级、删除或直接晋升；后续未审 P0 队列完整保留。
-- [ ] 没有把所有 `needs_review` 等权重铺开；P1 可按文件分组但重要判断仍可审核，P2/P3 按文件聚合。
+- [ ] 核验权重仅由科学风险决定，完全不读取 `needs_review` 标注；P1 可按文件分组但重要判断仍可审核，P2/P3 按文件聚合。
 - [ ] 审核点较多时给出“精力有限时建议先看”的 3-5 个位置。
 - [ ] 低风险 index/overview/handoff/log、格式和导航更新与科学 claim 分开。
-- [ ] Paper evidence gate 候选被列为 P0/P1；未完成该论文用途所需的 focused review 和用户确认时，没有描述为可直接用于论文。
+- [ ] Paper evidence gate 由 Agent 按实际证据完成核验；论文使用不要求用户确认，也不按审核标注决定资格。
 - [ ] 高相关未核验材料未因 `unreviewed` 或缺少 Review history entry 而被隐藏；已作为 candidate evidence 标明 review/source/locator 状态、适用条件、缺口和核查路径。
-- [ ] P0/P1 聚焦当前关键 claim 或证据项；普通研究不要求用户逐项审核，论文用途仍按具体 claim 触发 focused review 和用户确认。
+- [ ] P0/P1 聚焦当前关键 claim 或证据项；所有用途均由 Agent 按具体 claim 自主核验，不触发用户审核确认。
 - [ ] 页面整体 `unreviewed` 未阻止具体 claim 核验；页面 `human-reviewed` 也未替代精确、高风险或论文用途 claim 的直接来源核验。
-- [ ] Paper admission 由具体 claim、拟用措辞、直接来源、locator、适用条件、数据一致性和竞争解释共同决定，并经用户明确确认；局部准入未扩张为整页或其它 claims 的 review 状态更新。
+- [ ] Paper admission 由具体 claim、拟用措辞、直接来源、locator、适用条件、数据一致性和竞争解释共同决定，由 Agent 自主核验；局部准入未扩张为整页或其它 claims 的 review 状态更新。
 - [ ] 用户数据解释、competing interpretation、innovation candidate 和 paper-level candidate 被列为 P0/P1。
 - [ ] 多篇逐篇摄入没有粗略批处理；每篇文献分别列 source-level / claim-level 审核重点和 P0/P1。
 - [ ] Project/synthesis 任务列出主结论段落、evidence matrix 和跨来源解释的 Codex self-audit 优先级。
@@ -328,7 +328,7 @@ python -m unittest discover -s system/tests -p "test_*.py" -v
 - [ ] 证据不完整时已降低表述强度并说明限制，而不是无必要地拒绝回答。
 - [ ] 普通问答、研究讨论、综合分析或早期草稿没有误用投稿级 paper evidence gate。
 - [ ] Wiki miss 被表述为个人化上下文或已整理证据缺口，而不是自动拒答；普通问题在适当时仍补充稳定的一般专业背景。
-- [ ] 一般专业背景与 Wiki-grounded、human-reviewed、externally verified evidence 分开标明，没有被冒充为 Wiki 证据；没有用模型记忆虚构论文、数据、locator 或作者结论。
+- [ ] 一般专业背景与 Wiki-grounded、externally verified evidence 分开标明，没有被冒充为 Wiki 证据；没有用模型记忆虚构论文、数据、locator 或作者结论。
 - [ ] Wiki 直接支持的关键判断使用就地 informative line link；anchor text 让用户看出页面/文献名称和 `line N`，没有默认重复生成末尾证据区。
 - [ ] 没有使用 `[内容页]`、`[打开证据位置]`、`[证据页]` 或其它无信息 anchor；没有只给裸页面名、slug、反引号包裹的 `[[wikilink]]` 或裸 `[[wikilink]]`；名称或 alias 有多个候选时列出已解析路径，没有猜测。
 - [ ] 行号是在回答时读取目标文件后确定，落在直接承载判断的 claim、段落、表格行或小节内容，没有猜测行号或在可精确定位时只链接文件开头。

@@ -1,11 +1,13 @@
-﻿---
+---
 type: system-workflow
 graph-excluded: true
 operation: ingest-strategies
-updated: 2026-07-16
+updated: 2026-11-05
 ---
 
 # INGEST STRATEGIES：运行时短规则
+
+> 当前规则（2026-11-05）：`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。真实用户审核事件可以记录，但不赋予或撤销任何知识使用资格。
 
 本文件是普通文献摄入默认读取的短规则。详细 workflow 教程、策略说明、长示例、复杂案例和历史说明见 [ingest-strategies-detail.md](ingest-strategies-detail.md)。普通单篇摄入不默认读取 detail；detail 不是 PDF reading depth，不读取 detail 不得降低 PDF 阅读深度。只有用户要求解释策略、修改 workflow、短规则不足以判断、要求 detailed workflow recap / detailed strategy-policy audit，或明确要求查阅详细教程时才读取。
 
@@ -88,7 +90,7 @@ Staged evidence reading 是阅读顺序优化，不是降低摄入标准。用�
 
 ## Agent self-audit triage
 
-P0/P1 是 Codex self-audit 的复盘重点，不把所有 `needs_review` 等权重铺开；但科学风险不能因展示预算被隐藏。后续问答或论文写作需要用户裁决具体 claim 时，再触发人工审核。
+P0/P1 是 Codex self-audit 的复盘重点，不从 `needs_review` 派生核验权重或任务；但科学风险不能因展示预算被隐藏。后续问答和论文写作由 Agent 按具体证据自主核验，不触发人工审核门。
 
 - `P0`：无总量硬上限。每项必须给出实际判断、文件、section/claim ID、source locator、grounded evidence、Agent inference、为什么重要、后续问答/写作核验目的和不核验风险。可按信息增益分批继续或 safe suspend，但完整 P0 队列必须保留，不得聚合隐藏、降级或删除。
 - `P1`：允许软性展示预算和按文件分组，但每个重要判断仍须显示 evidence、Agent inference 与后续核验目的，不能退化为纯文件名列表。

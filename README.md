@@ -1,5 +1,7 @@
 # 低能核结构研究 Wiki
 
+> 当前规则（2026-11-05）：`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。真实用户审核事件可以记录，但不赋予或撤销任何知识使用资格。
+
 本 Wiki 是面向个人科研工作的可追溯知识库，用于积累文献事实、竞争性物理解读、研究决策和失败经验，并支持 Obsidian 浏览、AI 辅助整理与科研写作。
 
 Wiki 可在不同操作系统和 AI 工具环境中使用。Docker、Obsidian、QMD 和其它工具配置属于使用者本地环境；科学证据、原始资料和不可逆 Git 操作仍按本仓库工作约定处理。
@@ -8,7 +10,7 @@ Wiki 可在不同操作系统和 AI 工具环境中使用。Docker、Obsidian、
 
 当前系统是 **Continuous Research-Learning v2（硅基研究生 V2）**：面向低能核结构研究、由 Codex self-audit 驱动的可追溯 research Wiki。它支持 traceable evidence、L1/L2 学习、课题调查型 L3 和可复现的数据研究型 L4。用户已为 Docker 内的 30 天 daily-learning 计划授权联网、`danger-full-access` 和 L1–L4 自主推进；正式论文措辞仍回到证据门，ordinary Q&A 保持轻量。
 
-A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策与 `131Ce` pilot 见 [Continuous Research-Learning v2 architecture record](system/architecture-updates/2026-07-l3-autonomy-l4-foundation.md)；完整 L0–L4 状态机只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。Wiki 仍不是最终权威，也不保证文献完整覆盖；论文级结论必须回到 `knowledge/sources/`、`raw/` 原文、精确 locator 和人工复核，并遵循 [system/paper-evidence-gate.md](system/paper-evidence-gate.md)。
+A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策与 `131Ce` pilot 见 [Continuous Research-Learning v2 architecture record](system/architecture-updates/2026-07-l3-autonomy-l4-foundation.md)；完整 L0–L4 状态机只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。Wiki 仍不是最终权威，也不保证文献完整覆盖；论文级结论由 Agent 自主核验，须回到 `knowledge/sources/`、`raw/` 原文、精确 locator 和Agent 直接证据核验，并遵循 [system/paper-evidence-gate.md](system/paper-evidence-gate.md)。
 
 ## 研究范围
 
@@ -82,7 +84,7 @@ python system/scripts/wiki_boundary_check.py --root .
 
 ## Repository information
 
-文献摄入推荐按“一篇摄入 → 本地 WIP → 用户审核 → amend 为 final → 再摄入下一篇”串行推进，以减少共享知识页重叠。确需并行时可保留多个 pending WIP，但写入前必须检查文件 overlap，并选择合并、依赖或暂缓共享文件。
+文献摄入推荐按“一篇摄入 → 本地 WIP → Agent 证据核验 → final → 再摄入下一篇”串行推进，以减少共享知识页重叠。确需并行时可保留多个 pending WIP，但写入前必须检查文件 overlap，并选择合并、依赖或暂缓共享文件。
 
 - Canonical repository: [Gitee `chx6/silicon_graduate`](https://gitee.com/chx6/silicon_graduate)
 - GitHub 若存在仅作为 Gitee 镜像，不承担本库维护或 CI。

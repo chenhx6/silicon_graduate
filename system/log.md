@@ -6061,3 +6061,5 @@ raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，�
 ### Post-commit reconciliation — Ba129 observable checkpoint
 
 `main / research: test Ba129 energy-calibrated observables` was pushed with non-force `HEAD:main`; the 98-file commit exactly matched the scoped inventory. HEAD matched origin/main after push. Existing PLAN changes remain untouched. Exact research hash and verification pointers are in the task publication receipt; full research goal remains active.
+
+- 2026-11-05: Made review annotations behavior-neutral across policy, query skill, workflows and lint/promotion checks; 13 isolated lint tests passed; preserved concurrent research edits. See outputs/self-tests/20261105-review-status-neutrality.md.

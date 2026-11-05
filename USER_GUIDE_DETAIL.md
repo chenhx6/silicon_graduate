@@ -1,4 +1,6 @@
-﻿# 低能核结构 Wiki 详细使用说明
+# 低能核结构 Wiki 详细使用说明
+
+> 当前规则（2026-11-05）：`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。真实用户审核事件可以记录，但不赋予或撤销任何知识使用资格。
 
 ## 1. Purpose / 文件定位
 
@@ -29,11 +31,11 @@
 - 不是最终权威，不能替代原始论文阅读；
 - 不保证文献完整覆盖；
 - 不能仅凭已有页面生成可直接投稿的确定结论；
-- 不能把尚未完成 claim-specific verification 和用户确认的 candidate evidence 写成最终论文依据；普通研究和 Codex self-audit 不受此论文用途条件阻塞；
+- 不能把尚未完成 Agent claim-specific verification的 candidate evidence 写成最终论文依据；普通研究和 Codex self-audit 不受此论文用途条件阻塞；
 - 不能因为未收录某类文献就断言“没有相关工作”；
 - 不能用 synthesis 页面代替原始文献引用。
 
-论文级结论必须回到 source、必要的 raw 原文、精确 locator、citation key 和针对具体 claim 的用户确认，并通过 paper evidence gate。普通 Wiki 问答、研究讨论、跨来源综合和早期草稿不默认进入严格 paper evidence gate；这些场景由 Codex self-audit，基于现有证据给出最佳可支持内容，并校准措辞和限制。
+论文级结论由 Agent 自主核验，须回到 source、必要的 raw 原文、精确 locator、citation key 和 Agent 对具体 claim 的证据核验，并通过 paper evidence gate。普通 Wiki 问答、研究讨论、跨来源综合和早期草稿不默认进入严格 paper evidence gate；这些场景由 Codex self-audit，基于现有证据给出最佳可支持内容，并校准措辞和限制。
 
 ## 4. Core layers / 核心层级
 
@@ -75,7 +77,7 @@
 | `review_status` | 页面级审阅状态 |
 | `human-reviewed` | 用户已看过页面并完成页面层检查，不代表所有 claim 已确认 |
 | `unreviewed` | 页面尚未完成用户页面级检查 |
-| `needs_review` | claim-level 待审标记；`true` 表示该具体陈述仍需确认 |
+| `needs_review` | claim-level 待审标记；`true` 是历史待审标注，不代表当前证据质量或操作条件 |
 | synthesis | 跨来源综合层，不是原始文献 |
 | evidence gap | 当前证据链缺失的来源、观测、定位或验证步骤 |
 | competing interpretation | 对同一现象或数据的竞争性解释 |
@@ -102,7 +104,7 @@ Research note 还使用第三个独立状态：`reasoning_status`。新 note 为
 
 ```text
 当前哪些来源讨论这个问题？请区分原始论文与 synthesis，
-并说明哪些 claim 尚未完成 Codex self-audit、哪些只在论文使用时需要用户确认。
+并说明哪些 claim 尚未完成 Codex self-audit、哪些在论文使用时还需 Agent 核对实际证据。
 ```
 
 可显式调用 `$wiki-evidence-query`。该 Skill 默认只读；知识库缺少足够出处时，应明确报告证据边界。普通问答仍可补充稳定的一般专业背景，但不得将其冒充 Wiki 已收录、已审核或已外部核验的证据，也不得用模型记忆虚构论文、数据、locator 或作者结论。
@@ -128,7 +130,7 @@ Wiki 直接支持的事实或判断，会把已实际读取并核实的链接紧
 3. Codex 按 schema 更新相关 concept、observable、nucleus、band、model、experiment 和必要的 synthesis；
 4. Codex 在复盘中列出新增 claims、self-audit 结果、竞争解释和证据缺口；
 5. Codex 自行完成 source 页和关键 claims 的研究核查；用户不需要在本批次逐项审核；
-6. 可能用于论文的具体 claim 完成直接来源、locator、适用条件和竞争解释核验，并由用户确认当前拟用措辞后，才进入论文级证据池；页面整体无需先完成全面审核。
+6. 可能用于论文的具体 claim 完成直接来源、locator、适用条件和竞争解释核验，由 Agent 判断当前拟用措辞是否获证据支持后进入论文级证据池；页面整体无需先完成全面审核。
 
 不要把聊天内容或整批未读文献机械倒入 knowledge。新文献应先检查重复、书目信息、citation key 和原始文件定位。
 
@@ -157,7 +159,7 @@ Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidi
 3. 摄入完整、检查通过且没有技术 hard P0 时，Codex 使用 `git commit --amend` 把 rolling WIP 转为 final ingest commit，不创建第二个 final commit；
 4. Agent self-audit 不写 Human Review Record/history，不把页面升级为 `human-reviewed`；可依据直接证据更新对应 `needs_review`，但不得把它写成用户审核；
 5. 用户已经为普通 ingest 建立持续 commit/push 授权；除非当前指令明确要求不 push，Codex 在 H3、fresh fetch、remote ancestry 和精确 refspec dry-run 通过后使用同一 refspec 非 force push；
-6. 认证、远端漂移、检查失败或技术 hard P0 均 safe suspend。后续问答和论文证据采用时，再按具体 claim 由用户确认最终表述；普通研究继续由 Codex self-audit 完成。
+6. 认证、远端漂移、检查失败或技术 hard P0 均 safe suspend。后续问答和论文证据采用时，由 Agent 按具体 claim 的直接证据确定最终表述；普通研究继续由 Codex self-audit 完成。
 
 同一分支最多保留一个 active WIP。旧式“不 commit/push，等待审核”表示不 final commit、不 push，但允许本地 WIP；若要禁止所有本地 commit，需明确写“禁止本地 WIP commit”。Safe suspend 遇到大量 Markdown diff 时也优先采用本地 WIP checkpoint，暂停本轮自动 push，减少 Codex、Git、编辑器或文件监听的持续 CPU 占用；checkpoint 在恢复并通过发布门后再发布。
 
@@ -194,18 +196,18 @@ Codex 应自动理解为：本轮人工审核已经结束，可以记录一条 R
 - citation key 是否与来源唯一匹配；
 - 是否遗漏限制条件、反证或竞争解释。
 
-用户查看 source 页只足以更新页面级状态，不自动清除 `needs_review: true`。Codex 完成直接来源、locator、claim kind、适用条件和竞争解释的 self-audit 后，可以更新对应 claim-level 状态；用户确认只在后续问答或论文写作需要最终表述时发生。
+用户查看 source 页只足以更新页面级状态，不自动清除 `needs_review: true`。Codex 完成直接来源、locator、claim kind、适用条件和竞争解释的 self-audit 后，可以更新对应 claim-level 状态；用户确认不作为后续问答或论文写作最终表述的条件。
 
 ### 如何根据审核优先级审核 Codex 输出
 
-文献摄入、project、synthesis、data-analysis-bridge 和 claim-review-update 完成后，Codex 应提供 Agent self-audit triage；论文用途另列 Paper-use Human review triage：
+文献摄入、project、synthesis、data-analysis-bridge 和 claim-review-update 完成后，Codex 应提供 Agent self-audit triage；论文用途按实际证据风险列 Agent 核验项：
 
 - **P0 优先处置**：影响核心科学结论、关键数值/指认、数据/权限安全或论文级证据门的位置。Codex 可通过自校验、隔离、降级、L3/L4 调查或标记受阻来处置研究型 P0；只有未隔离的 hard P0、正式结论越级或权限/数据风险必须阻止 finalization 与 push。
 - **P1 优先自审**：关键 source claims、evidence matrix、模型假设、跨来源总结、定义和高歧义 aliases。Codex 有时间应优先处理；后续用户问答/写作再决定是否需要用户核验。
 - **P2 可抽查**：背景摘要、follow-up sources、evidence gaps 和 planning notes，按文件抽查即可。
 - **P3 快速扫过**：index、overview、handoff/log、普通反链、格式和低风险导航。
 
-P0/P1 是当前关键 claim 或证据项的 Codex self-audit 优先级；不要求用户全面审核整页或整篇文献。论文或后续问答的局部 claim 核验和用户确认只适用于该 claim 与当前使用语境，不自动改变页面或其它 claims 的 review 状态。
+P0/P1 是当前关键 claim 或证据项的 Codex self-audit 优先级；不要求用户全面审核整页或整篇文献。论文或后续问答的局部 claim 核验只适用于该 claim 与当前使用语境，不自动改变页面或其它 claims 的 review 状态。
 
 审核时，source 重点核对原文与 locator；project 重点核对证据归类、研究问题和数据桥；synthesis 重点核对跨来源结论是否过强；data-analysis-bridge 重点核对数据事实、分析结果、物理解释和创新点候选是否分层。页面级 `human-reviewed` 与 claim-level `needs_review` 仍然独立，不能因整页通过就自动清除具体 claim 的待审状态。
 
@@ -238,7 +240,7 @@ Codex 可以在 self-audit 后保留 provisional、修改、晋升、拒绝、�
 
 ## 10. How to prepare for writing / 如何为写作准备
 
-未来写作 Skill 可基于 source、synthesis、project、citation key、数据处理结果和用户确认结论辅助：
+未来写作 Skill 可基于 source、synthesis、project、citation key、数据处理结果和可追溯的科学结论辅助：
 
 - literature review 或 background 草稿；
 - related-work 比较；
@@ -281,7 +283,6 @@ qmd.cmd embed -c nuclear-knowledge
 
 模型缺失或损坏时才运行 `qmd pull`。不要运行 `qmd update --pull`，避免检索工具在用户存在未提交修改时隐式操作 Git。
 
-
 ## 12. How to reduce ingest overhead without losing evidence quality / 如何减少 Codex 摄入固定开销而不牺牲证据质量
 
 用户日常仍然可以使用短提示词启动文献摄入；未指定模式时采用标准深入阅读模式。优化目标是减少启动文件、长 handoff/log、无过滤全库扫描、每篇强制 QMD embed、过长策略文件和超长复盘带来的浪费，不是降低用户模式要求。`reading_depth` 只在完成后记录实际覆盖状态，不从默认模式预先推定。
@@ -323,7 +324,7 @@ Docker 内每日任务通常由 `system/scripts/run_daily_learning_daemon.py` �
 - 把 synthesis 当作原始文献；
 - 把作者解释写成观测事实；
 - 把模型结果写成实验事实；
-- 把尚未完成 claim-specific verification 和用户确认的 candidate evidence 写成最终论文结论；
+- 把尚未完成 Agent claim-specific verification的 candidate evidence 写成最终论文结论；
 - 认为 Wiki 未收录就等于没有相关工作；
 - 缺少 locator 或 citation key 时自行猜测；
 - 让 Codex 大规模重写用户维护的 `PLAN.md`；

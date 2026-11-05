@@ -1,10 +1,12 @@
 ---
 type: system-memory
 graph-excluded: true
-updated: 2026-11-01
+updated: 2026-11-05
 ---
 
 # 长期记忆
+
+> 当前规则（2026-11-05）：`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。真实用户审核事件可以记录，但不赋予或撤销任何知识使用资格。
 
 这里只保存跨项目、跨会话仍应成立的规则。临时任务状态写入 `system/handoff.md`。
 
@@ -39,13 +41,13 @@ updated: 2026-11-01
 - 当前系统为 Continuous Research-Learning v2（硅基研究生 V2），是面向低能核结构研究的 Human-in-the-loop research Wiki；普通摄入默认运行 L0–L2，高价值问题可进入 L3。用户已明确授权 Docker 内 30 天 daily-learning 计划联网、`danger-full-access` 和 L1–L4 自主推进；L4 仍须按数据身份、可复现分析和失败检查校准结论。完整等级、状态、每周自测和人工关口只由 `system/workflows/autonomous-research.md` 维护；ordinary Q&A 保持轻量，Wiki 不是最终权威，也不保证文献完整性。
 - Review status 是核查元数据，不是检索、可见性、科学价值或知识资格门槛。高相关、高信息增益的未审核内容应主动呈现，并说明其可能贡献、review/source/locator 状态和核查路径；不机械罗列低相关内容。
 - `human-reviewed` 不表示永久正确、完整或已穷尽文献知识；已审核内容仍可被质疑、重新核验、纠正和继续挖掘。页面整体 `unreviewed` 不妨碍针对具体 claim 完成直接来源核验。
-- Paper admission 针对具体 claim、拟用措辞和使用语境，并需要用户明确确认。普通研究和摄入由 Codex self-audit 完成；局部 claim 核验可更新对应证据状态，但不得写成 `human-reviewed`。只有内容实际进入论文写作、关键问答裁决或 paper-level evidence pool 时，才触发 targeted claim review。
+- Paper admission 由 Agent 按具体 claim、拟用措辞、直接证据和使用语境自主核验，不需要用户审核确认。普通研究和摄入由 Codex self-audit 完成；局部 claim 核验可更新对应证据状态，但不得写成 `human-reviewed`。针对论文与关键问答的核验由 Agent 自主执行，不触发人工审核门。
 - 多篇摄入批次可以在 Codex source self-audit 完成后 operationally close，不要求逐篇用户审核理论/综述；未完成的 source、理论或 analytical reconstruction 仍可保留 `unreviewed` / `needs_review: true`，但这些状态不作为用户待办或普通发布阻塞。需要论文措辞时，再按具体 claim 回到原文和适用条件。
 - Strict paper evidence mode 只用于论文或投稿核查、正式引用、直接来源或原文引文、精确 locator、关键科学 claim 确认；普通问答、研究讨论、探索性综合、早期草稿和一般争议讨论仍使用 ordinary mode。
 - Wiki 证据入口采用读取后核实的绝对文件行号链接，并在当前 Codex 客户端打开实时渲染可编辑视图；普通 Markdown 与 inline `code-comment` 均不能稳定强制只读审核界面。不得为改变界面而修改证据页、制造 fake/空白 diff 或创建临时 commit。
 - 仓库用 `.gitattributes` 固定 Markdown 和常用文本格式为 LF；editable evidence view 仍可能产生 LF/CRLF-only dirty state。统一清理入口是 `system/scripts/clean_knowledge_eol_dirty.py`，写任务第一次写入前、commit 前和 push 前运行；纯 read-only 问答不运行。脚本只清理可证明为 LF/CRLF 行尾格式差异的 worktree 修改，不忽略普通行尾空格、Markdown 双空格或 Tab，也不审批科学修改。不得使用 `git add .`。
 - 文献摄入和科学内容修改默认由 Codex self-audit 后在当前 WIP 上 amend 为 final；科学 partial/stopped 只要证据边界和技术安全完整即可 final/push。等待用户问答裁决或论文写作核验时，再对具体 claim 处理。允许多个 pending WIP，但共享文件必须在写入前选择合并原 WIP、记录依赖或暂缓，不得静默重叠。每个 WIP/final commit 即使不 push 也必须完成 H3 post-commit reconciliation；仓库内以 branch + subject 指向当前 commit，禁止在 commit 自身包含的文件中记录自己的精确 hash，最终 hash 只进入任务回执。方案和验收已确认、无科学内容且检查通过的治理/框架/脚本任务可直接 final commit。
-- 2026-08-19 用户明确：本 Wiki 以单人、可追溯记录为主，Codex 默认不再自行创建任务分支；普通修改、WIP 记录和工具维护直接在 `main` 上小步提交。2026-09-10 用户进一步授予持续自主 commit/push 授权：普通 final、治理/工具修改和通过发布门的内容由 Codex 自行 commit/push；当前任务可用“不要 push”“只 commit”“只修改”覆盖。并行任务、危险迁移、远端禁止直推、需要隔离审查或其它无法安全直推的技术约束仍可例外；force push、历史重写、raw 覆盖、未隔离 hard P0 和人工审核关口不在授权范围内。
+- 2026-08-19 用户明确：本 Wiki 以单人、可追溯记录为主，Codex 默认不再自行创建任务分支；普通修改、WIP 记录和工具维护直接在 `main` 上小步提交。2026-09-10 用户进一步授予持续自主 commit/push 授权：普通 final、治理/工具修改和通过发布门的内容由 Codex 自行 commit/push；当前任务可用“不要 push”“只 commit”“只修改”覆盖。并行任务、危险迁移、远端禁止直推、需要隔离审查或其它无法安全直推的技术约束仍可例外；force push、历史重写、raw 覆盖、未隔离 hard P0 和独立的危险操作确认不在授权范围内。
 - 日常建设坚持一次摄入一篇论文，并在每次摄入后列出新增 claim、待审 claim、竞争解释和证据缺口。
 - Wiki 仓库内自有 Skill 包括 `.agents/skills/wiki-evidence-query` 证据型问答入口，以及用户于 2026-11-01 明确要求创建的 `.agents/skills/research-archive` 研究材料留档入口；ingest/reflect/lint 等其它流程继续使用 `system/workflows/`，不另建重复技能。
 - Nature Skills 使用 `system/scripts/update_nature_skills.py` 跨平台维护：固定上游、目录白名单、SHA-256 staging、回退备份和 `--check-only`/`--rollback`/`--no-pull` 均由 Python 实现；Windows `.cmd` 仅作为启动器。这些外部 skills 是科研写作辅助层，不能覆盖 Wiki evidence policy、paper evidence gate、source/raw locator 复核和用户科学判断。
@@ -80,7 +82,7 @@ updated: 2026-11-01
 - 2026-07-06：用户重申审核后 WIP 收口规则：文献摄入使用 `WIP ingest:`，project/synthesis/跨来源综合等待审核使用 `WIP review:`；用户审核完成并要求 final commit/push 时，必须 amend 对应 WIP，不保留独立 WIP 后另建 final commit。用户指定 final message 时原样使用；未指定时由 Codex 推荐直接相关的 message 并报告。该仓库内授权优先于通用“不主动 amend”约束。
 - 2026-07-10：用户强调：Wiki 是面向实验核物理与低能核结构研究的个人科研知识库。当前主线质量区是研究锚点，不是收录边界；摄入优先级应由实验核结构价值、证据密度、方法复用价值、跨质量区比较意义和用户明确优先级决定，不得因非当前主线质量区自动降级，也不得凭空推断某实验与用户个人履历直接相关。
 - 2026-07-10：Review history 记录“用户已完成的一轮实质性人工审核”，不要求固定触发短语，也不由 commit/push/overview/QMD 触发；它不要求 task closed，可与 Pending WIP 并存，只记录 `review commit message` 而不记录 hash/push 状态。Review history 是核查与追溯元数据，不是科学证据、知识白名单或 paper-readiness 索引。
-- 2026-09-12：用户确认当前学位论文持续研究由 Codex 自行 self-audit，不主动索要 source/P0/P1/报告审核；用户审核仅在后续问答讨论或论文写作需要具体 claim 裁决时发生。允许联网检索原文、执行 L3/L4 和温故知新；12 小时是软检查点，不是硬配额，完成后需交接、commit 和 push。
+- 历史记录（人工审核条件已由 2026-11-05 行为中立规则取代）：2026-09-12 用户确认当前学位论文持续研究由 Codex 自行 self-audit，不主动索要 source/P0/P1/报告审核；用户审核仅在后续问答讨论或论文写作需要具体 claim 裁决时发生。允许联网检索原文、执行 L3/L4 和温故知新；12 小时是软检查点，不是硬配额，完成后需交接、commit 和 push。
 
 - 2026-10-28：用户确立根本准则：Codex 应以真正的核结构博士研究生标准开展研究，无限制地自主学习、调研与深入推演，能力全面开放至 L4 全自动研学，目标是成为核结构专家。学习不能停止，研究不能停止；必须充分利用配置的 API 与爬虫检索工具，针对未决的理论争议与实验盲区主动开展独立调研；一直学习到要求的收束时间（如每日 15:00），届时再收束并输出报告、不足剖析及次日准备文档。Subagents 采用 gpt-5.6-luna (max/fast)，在 subagents 工作的同时主代理也必须同步持续开展研究推演，不出现等待闲置；对话面板只看最终结果，不展示过程性中间回复。
 - 2026-11-01：用户补充长期研究身份与默认选题标准：持续温故知新并主动重读历史学位论文，把自己培养成兼具实验核物理专长与理论建模能力的核结构研究者；A≈130 是锚点而非边界，必须主动寻找其它质量区已观测而 A≈130（或特定核区）尚未观测/证据未闭合的现象，以及理论已预言但尚未观测的现象。对这些问题先提出大胆、可证伪的假设，再设计小心验证路线；研究要延伸到 IMP-DRAGON、RIBLL 等装置的实验可行性、束流申请构思、国内外探测器/阵列发展和面向具体物理问题的新探测器设计。今后 daily-learning 默认把“跨质量区现象缺口—实验观测方案—探测器响应—束流申请”作为可主动选择的研究方向；允许提出 provisional 设计推断，不得把设计推断冒充实验事实。

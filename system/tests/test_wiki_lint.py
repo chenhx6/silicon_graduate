@@ -73,7 +73,23 @@ class ScientificGuardrailTests(unittest.TestCase):
         issues = []
         wiki_lint.validate_page(page, config, issues)
         self.assertIn("PROMOTION_TARGET_MISSING", {issue.code for issue in issues})
-        self.assertIn("PROMOTED_WITHOUT_REVIEW", {issue.code for issue in issues})
+        self.assertNotIn("PROMOTED_WITHOUT_REVIEW", {issue.code for issue in issues})
+
+        # Review annotations cannot change promotion errors or publication eligibility.
+        error_sets = []
+        for review_status in config["allowed_review_status"]:
+            page.meta = {
+                **base_meta,
+                "review_status": review_status,
+                "reasoning_status": "promoted",
+                "promotion_target": "example-target",
+            }
+            issues = []
+            wiki_lint.validate_page(page, config, issues)
+            error_sets.append({issue.code for issue in issues if issue.severity == "error"})
+            self.assertNotIn("PROMOTED_WITHOUT_REVIEW", {issue.code for issue in issues})
+        self.assertTrue(all(errors == error_sets[0] for errors in error_sets))
+        self.assertNotIn("PROMOTION_TARGET_MISSING", error_sets[0])
 
         page.meta = {
             **base_meta,

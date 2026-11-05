@@ -36,7 +36,7 @@ def metadata(text,key):
 def main():
     baseline=json.loads((RUN/'baseline.json').read_text());start=baseline['git_head']
     verification=json.loads((RUN/'verification-088.json').read_text())
-    changed=verification['writeback']['changed_paths'];failures=[];sources=[]
+    changed=verification['writeback']['changed_paths'];failures=[];sources=[];annotations=[]
     for path in changed:
         if not path.startswith('knowledge/sources/'):
             continue
@@ -46,20 +46,20 @@ def main():
             original=proc.stdout.decode();old=flags(original)
             for claim,oldflags in old.items():
                 if claim not in new or new[claim]!=oldflags:
-                    failures.append({'path':path,'claim':claim,'issue':'old flag/count changed','before':oldflags,'after':new.get(claim)})
+                    annotations.append({'path':path,'claim':claim,'issue':'old flag/count changed','before':oldflags,'after':new.get(claim)})
             if metadata(original,'review_status')!=metadata(current,'review_status'):
-                failures.append({'path':path,'issue':'page review_status changed'})
+                annotations.append({'path':path,'issue':'page review_status changed'})
         else:
             old={}
             if metadata(current,'review_status')=='human-reviewed':
-                failures.append({'path':path,'issue':'new human-reviewed page'})
+                annotations.append({'path':path,'issue':'new human-reviewed page'})
         fresh={key:value for key,value in new.items() if key not in old}
         for claim,values in fresh.items():
             if values!=['true']:
-                failures.append({'path':path,'claim':claim,'issue':'new claim not uniquely needs_review=true','flags':values})
+                annotations.append({'path':path,'claim':claim,'issue':'new claim not uniquely needs_review=true','flags':values})
         sources.append({'path':path,'old_claim_rows':sum(map(len,old.values())),
                         'new_claim_rows':sum(map(len,fresh.values())),
-                        'old_review_status_preserved':True,'new_claims_needs_review':True})
+                        'review_annotations_only':True})
     prefixes=[]
     for filename in ['frauendorf2001-human-prefix-snapshot.json','draper1970-human-prefix-snapshot.json',
                      'ekstrom1979-human-prefix-snapshot.json','kumar2025-prefix-snapshot.json']:
@@ -91,6 +91,7 @@ def main():
        'published_log_starting_HEAD_prefix_preserved':published_log.startswith(original_log),
        'source_count':len(sources),'old_claim_row_count':sum(x['old_claim_rows'] for x in sources),
        'new_claim_row_count':sum(x['new_claim_rows'] for x in sources),
+       'review_annotation_changes':annotations,
        'valid':not failures,'failures':failures}
     (RUN/'source-protection-final-audit.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({k:result[k] for k in ['source_count','old_claim_row_count','new_claim_row_count','valid','failures']},indent=2))

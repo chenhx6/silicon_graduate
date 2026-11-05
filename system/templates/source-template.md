@@ -112,7 +112,7 @@ Allowed relation types: `supports`, `limits`, `conflicts`, `foundational-backgro
 
 ## Human Review Triage
 
-Use the canonical P0/P1/P2/P3 definitions in `system/workflows/ingest-strategies.md`. Persist source-specific review priorities here; do not leave them only in chat or the final report. Each P0 must identify the claim/section, locator, grounded evidence, Agent inference, user check, and risk. Write `P0: none identified` when applicable.
+Use the canonical P0/P1/P2/P3 definitions in `system/workflows/ingest-strategies.md`. Persist source-specific evidence-risk priorities here; do not leave them only in chat or the final report. Each P0 must identify the claim/section, locator, grounded evidence, Agent inference, autonomous verification, and risk. Write `P0: none identified` when applicable.
 
 ### P0
 
@@ -146,3 +146,5 @@ Agent-organized notes may compress or reorder the user's wording for clarity, bu
 ## Non-source Notes and Follow-up
 
 本节只保存局部维护、导航或后续处理说明，不是 provisional reasoning 的默认容器。普通联想留在当次输出；科学推理由 Analytical Reconstruction、受控 research-note 或 synthesis 承载，未经分类、溯源和审核不得写成 source evidence。
+
+Review annotations are historical metadata only; never use them for ranking, confidence, verification priority, wording, promotion, manuscript use, publication, or user-confirmation gates.

@@ -1,5 +1,7 @@
 # 低能核结构 Wiki 使用指南
 
+> 当前规则（2026-11-05）：`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。真实用户审核事件可以记录，但不赋予或撤销任何知识使用资格。
+
 这套 Wiki 面向熔合蒸发反应和低能原子核结构研究。Obsidian 是人的浏览、审阅和写作界面；Agent 负责摄入、交叉引用、综合、检查与维护；Markdown 文件是双方共享的长期记忆。
 
 当前系统是 Continuous Research-Learning v2（硅基研究生 V2）：面向低能核结构研究的 Human-in-the-loop research Wiki。普通授权摄入/综合任务运行 L2 闭环，高价值问题可进入 L3；用户已明确授权 Docker 内 30 天 daily-learning 计划联网、`danger-full-access` 和 L1–L4 自主推进，L4 仍按数据身份、可复现分析和失败检查校准结论。ordinary Q&A 保持轻量。A≈130 是当前研究锚点，不是收录边界。详细架构见 [architecture updates](system/architecture-updates/README.md)。Wiki 不是最终权威，不保证文献完整覆盖，不能替代原文阅读和人工科学判断。
@@ -39,7 +41,7 @@ Wiki 可在不同操作系统和 AI 工具环境中使用；`.codex/`、`.obsidi
 
 ### 科研自治入口
 
-完整 L0–L4、每周自测、P0/P1 和人工关口只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。常用触发示例：`摄入 <文献>` 默认完成 L0–L2；`开始 L3 研究：<问题>` 启动课题调查。30 天 daily-learning 是用户明确授权的 L1–L4 例外，可直接使用可访问数据和联网来源；`:danger-full-access` 在该 Docker 计划中是有意启用的运行方式。每周自测有实质变化时先建立本地 WIP 和集中 P0/P1 报告，经你审核后才发布。
+完整 L0–L4、每周自测、P0/P1 和人工关口只在 [autonomous-research workflow](system/workflows/autonomous-research.md) 维护。常用触发示例：`摄入 <文献>` 默认完成 L0–L2；`开始 L3 研究：<问题>` 启动课题调查。30 天 daily-learning 是用户明确授权的 L1–L4 例外，可直接使用可访问数据和联网来源；`:danger-full-access` 在该 Docker 计划中是有意启用的运行方式。每周自测有实质变化时先建立本地 WIP 和集中 P0/P1 报告，完成实际发布检查后自主发布，不等待人工审核。
 
 90 天持续学习由 [continuous-learning workflow](system/workflows/continuous-learning.md) 和 [learning queue](system/learning-queue.md) 管理；当前先执行一个重新计数的 30 天实质周期。Docker 内 daemon 每日 16:00（Asia/Shanghai）触发独立新 session；每个回执保存 `session_id` 和 `resume_command`，便于回到某日讨论。2–3 小时是 checkpoint，不是硬停止。默认次日 15:00 才停止新增研究，15:00–16:00 收束；若当前问题局部饱和且距离硬截止至少 120 分钟，先重建候选池并检查下一张未完成日卡，可预习恰好一张 Day+1 卡的知识，但保持今日 `day_index`、只记部分预览、不推进 Day+1 学分或打开 Day+2。提前结束须说明最新时间快照、已检查路线、无剩余高价值路线的依据和续接命令。可用 arXiv、NNDC/ENSDF、Google Scholar、Crossref 及出版商/机构来源。可复用知识写入 `knowledge/`，日报和运行交代写入 `outputs/`。
 
@@ -134,7 +136,7 @@ Web of Science 已接入检索启动配置：从 `raw/personal/.env` 读取 `WEB
 3. Codex 按 schema 更新相关 nucleus、band、concept、observable、model、experiment 和必要的 synthesis 页面；
 4. Codex 在最终复盘中列出修改文件、新增 claims、self-audit 结果、缺失原始文献和竞争解释；
 5. Codex 自行完成 source 页和关键 claims 的研究核查；用户不需要在本批次逐项审核；
-6. 后续问答或论文写作需要使用具体 claim 时，再完成直接来源、locator、适用条件和竞争解释核验；论文级最终措辞仍由用户确认，不要求先全面审核整页。
+6. 后续问答或论文写作需要使用具体 claim 时，再完成直接来源、locator、适用条件和竞争解释核验；论文级最终措辞由 Agent 根据证据自主确定，不要求先全面审核整页。
 
 ### 摄入后 Codex 自审什么
 
@@ -145,7 +147,7 @@ Web of Science 已接入检索启动配置：从 `raw/personal/.env` 读取 `WEB
 - Agent 拟合并的概念是否真的物理等价；
 - `needs-human-review` 或 `needs_review` 项的证据边界、后续核验路径和措辞强度。
 
-页面级 `review_status: human-reviewed` 只表示真实用户看过该页并完成页面层复核。Codex 可以在完成直接来源、locator、claim kind、适用条件和竞争解释的 self-audit 后更新对应 claim 的 `needs_review` 或 confidence 技术记录，但不得把该动作写成用户审核。后续问答或论文写作中的最终措辞仍按具体 claim 触发用户确认。
+页面级 `review_status: human-reviewed` 只表示真实用户看过该页并完成页面层复核。Codex 可以在完成直接来源、locator、claim kind、适用条件和竞争解释的 self-audit 后更新对应 claim 的 `needs_review` 或 confidence 技术记录，但不得把该动作写成用户审核。后续问答或论文写作中的最终措辞由 Agent 按具体 claim 的证据自主判断。
 
 ### 本地 WIP 检查点
 
@@ -357,7 +359,7 @@ python system/scripts/wiki_lint.py --format json --output outputs/lint-report.js
 
 自动 lint 不判断“某带是否真的属于 wobbling/chiral”这类科学结论，也不会自动合并或改写页面。维护远端为 Gitee，GitHub 镜像不运行本库维护工作流；由于 PDF 不进入公开远端，云端缺少 PDF 时只报告 warning；完整哈希核验应在本机运行。
 
-当前自动 lint 主要证明结构健康，不等于科学内容已全部人工复核。输出中的 `GOVERNANCE` 行会自动统计页面级/source 页 unreviewed、claim-level `needs_review: true`、缺 locator、缺 `claim_kind`、source 缺 `raw_file` 和缺 citation key。`CLAIM_NEEDS_REVIEW` 作为非阻断 info 保留人工审阅队列；缺 locator/kind 为 error，缺 citation key 为 warning。
+当前自动 lint 主要证明结构健康，不等于科学内容已全部人工复核。输出中的 `GOVERNANCE` 行会自动统计页面级/source 页 unreviewed、claim-level `needs_review: true`、缺 locator、缺 `claim_kind`、source 缺 `raw_file` 和缺 citation key。`CLAIM_NEEDS_REVIEW` 作为非阻断 info 保留历史标注计数，不生成审阅队列；缺 locator/kind 为 error，缺 citation key 为 warning。
 
 ## 9. 定时续跑与无人值守任务
 

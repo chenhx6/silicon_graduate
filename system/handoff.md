@@ -7631,3 +7631,11 @@ A further scan found legacy confirmation language in chiral-geometry TAC, Davydo
 The long-running profile job completed: 35 nuisance cells (five true r values by seven true rho values), 500 complete profile toys per cell, 17,500 toys total. The worst empirical q95 is 9.66 at (r_true=0.10, rho_true=0.0), below the observed profiled statistic 22.18. This is the strongest current coverage artifact, but remains conservative only inside the declared independent-row Gaussian nuisance grid; it does not solve source covariance, cross-row dependence, detector response or feeding.
 
 The result and raw toy CSV are now in the PADO package and public-release manifest. The main PDF remains six pages after compacting the Results sentence; compile record and hashes were refreshed.
+
+
+## Governance update — 2026-11-05: review annotations are behavior-neutral
+
+- User explicitly removed all behavioral effects of review_status, needs_review and human-review history. Query, confidence, verification priority, wording, promotion, manuscript use and publication now depend on actual evidence, not user review.
+- Updated policy/workflow/skill/docs and removed PROMOTED_WITHOUT_REVIEW; legacy day17/day20/day21 checks record annotations without failing on their values. Existing research handoff and scientific files are preserved.
+- Validation: isolated committed knowledge snapshot plus task changes passed all 13 wiki_lint tests; live boundary check and query skill validation passed. Live integration found five issues in pre-existing concurrent Ba129 files, left untouched.
+- Publication pointer: main / fix: make review annotations behavior-neutral. Scope and verification receipt: outputs/self-tests/20261105-review-status-neutrality.md.

@@ -254,7 +254,7 @@ def validate_page(page: Page, config: dict[str, Any], issues: list[Issue]) -> No
             f"invalid review_status {meta.get('review_status')!r}",
         )
     if meta.get("review_status") == "needs-human-review":
-        add(issues, "info", "HUMAN_REVIEW", page.relative, "page awaits human review")
+        add(issues, "info", "HUMAN_REVIEW", page.relative, "historical page review annotation: needs-human-review")
 
     if page.expected_type == "research-note":
         reasoning_status = meta.get("reasoning_status")
@@ -284,17 +284,6 @@ def validate_page(page: Page, config: dict[str, Any], issues: list[Issue]) -> No
                 "EVIDENCE_SOURCES_EMPTY",
                 page.relative,
                 "research-note requires at least one grounded evidence source",
-            )
-        if reasoning_status == "promoted" and meta.get("review_status") not in {
-            "human-reviewed",
-            "verified",
-        }:
-            add(
-                issues,
-                "error",
-                "PROMOTED_WITHOUT_REVIEW",
-                page.relative,
-                "promoted research-note requires human-reviewed or verified review_status",
             )
 
     for field in ("created", "updated"):
@@ -598,7 +587,7 @@ def audit_governance(
                     "info",
                     "CLAIM_NEEDS_REVIEW",
                     page.relative,
-                    f"{claim_id} awaits human review",
+                    f"{claim_id} historical needs_review annotation: true",
                 )
     return metrics
 

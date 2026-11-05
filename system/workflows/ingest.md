@@ -1,11 +1,13 @@
-﻿---
+---
 type: system-workflow
 graph-excluded: true
 operation: ingest
-updated: 2026-08-06
+updated: 2026-11-05
 ---
 
 # INGEST：来源摄入流程
+
+> 当前规则（2026-11-05）：`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。真实用户审核事件可以记录，但不赋予或撤销任何知识使用资格。
 
 原则：一次精确处理一个来源；原始文件只读；先建证据链，再做物理解读。
 
@@ -97,7 +99,7 @@ Staged evidence reading 只是阅读顺序优化，不是降低摄入标准，�
 9. 可检验 research-question potential；
 10. 新证据是否要求修正现有认识；
 11. 该内容应留在当次输出、进入受控暂定推理层，还是经审核后晋升到正式知识；
-12. Codex self-audit 与后续 promotion decision；用户审核只在后续问答或论文写作实际需要时触发。
+12. Codex self-audit 与后续 promotion decision；人工审核仅在真实发生时记录，不触发任何使用或发布门槛。
 
 ### 2.2.1 伴随观测与反证审计（高风险谱学 claim）
 
@@ -184,7 +186,7 @@ Codex 在 source ingest、L3/L4 和批次综合中自行核对以下内容：
 - `confidence` 是否由证据而非引用数量决定；
 - source lineage、反证、适用条件和失败条件是否完整。
 
-完成上述 self-audit 后，Codex 可以更新对应 claim 的 evidence 状态或 `needs_review`，但不得设置 `human-reviewed` 或写成用户确认。后续问答需要裁决具体表述、或论文写作需要进入 paper evidence gate 时，再对具体 claim 触发用户确认。
+完成上述 self-audit 后，Codex 可以更新对应 claim 的 evidence 状态或 `needs_review`，但不得设置 `human-reviewed` 或写成用户确认。后续问答和论文写作由 Agent 对具体 claim 自主核验，不因审核标注触发用户确认。
 
 ## 7. 收尾与 WIP lifecycle
 

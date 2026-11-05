@@ -1,93 +1,46 @@
-﻿---
+---
 type: system-policy
 graph-excluded: true
 updated: 2026-11-05
 ---
 
-# 论文级证据门
+# 论文级证据核验
 
-本规则用于判断 Wiki 内容能否进入论文级证据池。它不是论文写作模板，也不表示当前 Wiki 已完整覆盖文献。
+本文件规定 Agent 在写作中如何核实科学主张，不设置人工审核准入门。
 
-The paper evidence gate is a conditional manuscript-readiness check. It is not the default operating mode for ordinary Wiki questions, exploratory synthesis, research discussion, or early drafting. `review_status` (including `needs_review`, `unreviewed`, `human-reviewed`) is a purely informational annotation; it must never gate, restrict, or degrade any behavior, including but not limited to question answering, discussion, writing, drafting, citation, or any other use of Wiki content.
+## 审核标注行为中立
 
-Failure to pass the paper evidence gate does not prohibit discussion, provisional synthesis, or draft generation. It requires calibrated wording, traceable supporting material when available, and a clear indication of what should be checked before final submission.
+`review_status`、`needs_review` 和人工审核记录仅保存历史标注，不参与检索排序、置信度计算、核验优先级、措辞强度、知识晋升、论文使用或发布判断，也不自动触发用户确认。Agent 根据直接证据、来源独立性、误差、适用条件和竞争解释自主判断与核验。
 
-中文边界：未通过 paper evidence gate，不等于不能讨论、不能写草稿或不能提出合理推断；只表示正式投稿、正式引用核查或关键主张确认前，还需要进一步检查直接来源、精确 locator、适用条件、数据一致性、竞争解释和引用风险。
+这一原则适用于普通问答、讨论、探索性综合、初稿、正式论文写作、引用核验和知识发布。未审核不降低材料权重，已审核不提高材料权重；人工审核记录不证明科学正确性。不得把 Agent self-audit 记录成真实用户审核。
 
-## Candidate evidence and claim admission
+## 从知识发现到论文使用
 
-1. **Knowledge discovery / candidate evidence**：高度相关且有信息增益的材料，无论页面或 claim 的 review status，均可用于普通问答、研究讨论、探索性综合、早期草稿、文献发现和 candidate manuscript evidence discovery。Review status 是纯标注字段，不影响任何行为，不决定相关内容是否可被检索、呈现、引用或用于写作。
-2. **Claim-specific verification**：当材料可能进入论文、正式引用或关键主张时，针对当前准备使用的具体 claim 和准确措辞，核查原始 source、必要 raw、作者原意、精确 locator、数据与不确定度、适用条件、claim kind、source attribution、竞争解释及当前使用语境；无需先全面审核整页。
-3. **Paper admission**：Codex 可以自主执行 claim-specific verification（回 source、查 locator、核对 claim_kind、检查竞争解释）并输出核验报告；用户审核核验报告结论即可准入，无需逐步操作。确认只适用于已核验 claim 和当前语境，不自动改变页面级 `review_status`、其它 claims 的 `needs_review`，也不扩大为整页审核完成。
+1. 按相关性、信息增益和当前问题发现材料，不读取审核标注作为筛选或排序依据。
+2. 对拟使用的具体 claim 和措辞，由 Agent 自主核对直接 source、必要 raw、作者原意、精确 locator、数据及不确定度、适用条件、来源独立性和竞争解释。无需等待用户确认，也无需先审核整页或全库。
+3. 根据实际证据确定可支持的措辞、引用和推断边界，可直接用于授权的论文写作。存在真实证据缺口时继续可完成的工作，记录缺口或采用有条件表述；不能因为 `needs_review` 或缺少人工审核而降格结论。
+4. 核验结果记录当前 claim、使用语境、证据和适用范围，不自动覆盖其它 claims，也不更新虚构的人工审核事件。
 
-A page may remain `unreviewed` while a specific claim is directly verified and admitted for a specific manuscript use. A `human-reviewed` page does not by itself qualify a specific claim when precision, controversy, new evidence, or wording risk requires claim-specific verification.
+## 科学核验要求
 
-## 科学主张准入条件
+- 提供可追溯的 source 与 locator，例如页码、图表、公式、能级、跃迁或数据位置。
+- 分开实验事实、实验判据、作者解释、模型结果、Agent 推断与跨来源综合。
+- 检查反证、竞争解释、参数假设、来源依赖和测量误差；不以论文数量代替独立证据。
+- Synthesis 可以组织推理，但不冒充原始实验来源。
+- Citation key 可根据真实书目元数据自主生成，并同步 source 页与 `raw/zotero/wiki-auto-generated.bib`；不得编造作者、DOI 或文献。
+- 自主完成关键 claim 的证据核验，不把“用户已审核”或“用户未审核”作为科学结论或论文使用的依据。
+- Wiki 未收录只能表述为“当前知识库未覆盖”，不能据此声称不存在相关工作或文献已穷尽。
 
-论文正文使用 Wiki 支撑科学主张时，至少满足：
+## 核验优先级与发布
 
-1. 当前准备写入论文的具体 claim 已完成 claim-specific verification：Codex 自主回到原始 source 和必要 raw 原文，核对作者原意、精确 locator、数据与不确定度、适用条件、claim kind、source attribution 和竞争解释，并输出核验报告供用户确认。`review_status` 不参与准入判断——`unreviewed` 页面的 claim 与 `human-reviewed` 页面的 claim 在写作中一视同仁，均以 claim-specific verification 为准；
-2. claim 有精确 locator，例如页码、图号、表号、能级、跃迁或数据位置；
-3. 明确区分 experimental fact、experimental criterion、author interpretation、model result、Codex/我们的暂时推断和 cross-source synthesis；
-4. 关键解释已经检查竞争解释或完成反向检验；
-5. 回到原始 source 和必要的 raw 原文，不能用 synthesis 代替原始文献；
-6. citation key 已存在或可从 source 页 YAML 自动生成（`firstauthor_year_shortkeyword` 格式）；生成的 key 同步写入 source 页和 `raw/zotero/wiki-auto-generated.bib`；
-7. 尚未完成 claim-specific verification 或用户确认的内容，不得写成最终确定的论文结论，也不得描述为已经通过 paper evidence gate；但相关且可能有用的内容必须作为 candidate evidence 向用户呈现，并说明 review、source、locator、适用条件和缺口，以及最值得核查的位置，不得仅因 `unreviewed` 而隐藏。它仍可用于研究讨论、探索性综合和带明确限制的早期草稿。
+P0/P1/P2/P3 仅按实际科学风险、证据缺口及对当前结论的影响安排 Agent 核验，不从审核标注派生，不生成必须由用户处理的待办。关键风险保留文件、claim、locator、支持与反证、Agent 判断和下一步；不得隐去实质缺口。
 
-Wiki 未收录某类文献，只能写“当前知识库未覆盖”。不得据此声称“没有相关工作”“文献已经完整覆盖”或“一篇不漏”。
+授权范围内的写作、知识晋升、commit/push 不需要额外人工审核准入。发布仍遵守真实的来源身份、权限、凭据、Git 安全和不可逆操作边界；这些条件不来自 review status。论文向期刊实际提交等外部行动依照用户对该行动的授权执行。
 
-## Paper-use Human review triage gate
+## 投稿前覆盖检查
 
-任何准备进入 paper evidence gate 的 claim、project statement、synthesis-supporting statement 或 data-analysis-derived statement，默认必须列为 P0 或 P1 审核对象。P0/P1 是当前关键 claim、证据项或高风险位置的核验优先级；focused review 可以满足当前 claim 的审核需求，不要求全面审核整页或整篇文献，除非该 claim 依赖更广上下文。其它 claims 保持原状态。
+Agent 自主检查相关 Wiki source/synthesis、更大本地全文语料，以及必要的外部学术来源，记录检索范围、日期、检索式和覆盖限制。该检查评估书目覆盖与引用真实性，不要求用户逐条确认。
 
-P0/P1 focused review 和用户确认未完成时，不得描述为“可直接用于论文”“可直接作为论文结论”“已经进入 paper evidence gate”或“无需回原文引用”，但仍须呈现 candidate evidence、风险和最值得核查的位置。完成当前 claim 的 focused review 和用户确认后，可以判断该 claim 对当前论文措辞的支持能力，不自动将整个页面或文献标记为已审核。这个用户确认门只在实际论文写作、正式引用或用户要求的严格 claim 核查中触发，不阻止普通研究、Codex self-audit 或常规知识发布。
+## 写作技能接口
 
-Synthesis 可以组织跨来源思路，project 可以推进证据链，但两者都不能替代 source 和原文 locator。论文写作仍须回到原始来源，并满足本文件的全部准入条件。普通研究中的 P0/P1 由 Codex self-audit 处置；只有准备进入论文用途时，才需要本节规定的 focused review 和用户确认。
-
-进入 paper evidence gate 的最终复盘必须完整列出全部 P0；P0 可以分批展示，但不得聚合隐藏、降级或省略。P1 可以按主题或页面分组，但仍须展示实际判断、证据、Agent inference 和审核目的。每个 P0/P1 必须保留文件、claim/section、locator、审核事项和风险；P2/P3 可以聚合。
-
-## 投稿前漏引检查
-
-投稿前至少检查：
-
-1. 已精读 Wiki 中的相关 source 和 synthesis；
-2. 更大的本地全文语料或文献库；
-3. 必要时在线学术检索；
-4. 记录检索式、检索日期、数据库或语料范围及覆盖限制。
-
-本检查完成前，不得把 Wiki 的来源集合描述为领域完整书目。
-
-## 未来写作 Skill 接口
-
-当前阶段只预留接口，不创建写作 Skill。
-
-未来写作 Skill 可辅助 literature review、introduction/background、创新点候选梳理、claim-to-paragraph、related-work 比较和 evidence-table-to-paragraph。它应优先读取：
-
-- `README.md`、`AGENTS.md`；
-- `system/evidence-policy.md`、本文件和 `USER_GUIDE.md`；
-- 相关 source、synthesis、concept、observable、nucleus 和 band 页面；
-- `.bib` citation key 信息；
-- 用户提供的数据处理结果和人工确认结论。
-
-生成论文级文字前必须检查 source、locator、claim kind、citation key、人工复核状态、竞争解释/反向证据，并确认没有把 synthesis 当作原始文献。
-
-A writing skill may surface reviewed or unreviewed candidate evidence with explicit review/source/locator status and verification tasks. It may use unverified candidates for exploratory drafting with calibrated wording, but final manuscript claims require claim-specific verification and explicit user confirmation. Whole-page review is not a prerequisite, and admitted claims must remain clearly separated from unverified candidates.
-
-允许输出草稿段落、证据表、创新点候选、related-work 对比、引用候选及缺失证据/待人工确认清单。不得自动：
-
-- 宣称文献完整覆盖；
-- 把未复核 claim 写成确定结论；
-- 把 synthesis 当作原始文献引用；
-- 编造 citation key 或实验数据；
-- 替用户决定最终创新性；
-- 修改论文正文或提交 Git，除非用户明确要求。
-
-满足以下条件后再考虑创建写作 Skill：
-
-- source/synthesis 层已经较稳定；
-- citation key 基本补齐；
-- 本证据门已经实际执行；
-- 至少存在一个真实 project 或 synthesis 闭环案例；
-- 用户已有数据处理结果或明确写作目标。
-
-候选名称仅作接口记录：`wiki-paper-draft`、`wiki-literature-review`、`wiki-innovation-map`、`wiki-claim-to-paragraph`。
+写作技能读取相关 source、synthesis、project、方法、模型和 BibTeX，完成 claim-to-paragraph、related-work 比较、证据表、正文和引用核验。科学措辞只由证据决定，审核标注只在用户要求查看历史时展示，不作为写作、置信度或发布条件。

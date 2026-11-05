@@ -22,7 +22,7 @@ description: >-
 - Use the Wiki to understand and calibrate to the user, not to confine the
   answer. It is a personalization layer, not a closed corpus or the boundary of
   answerable knowledge.
-- Prefer relevant Wiki context, terminology, reviewed evidence, methods,
+- Prefer relevant Wiki context, terminology, direct evidence, methods,
   competing interpretations, projects, and priorities. A current anchor such
   as A≈130 is not a query boundary.
 - If the Wiki is incomplete, answer ordinary questions with stable general
@@ -197,10 +197,11 @@ numbers, locators, quotations, or author wording. Do not turn snippets, model
 memory, or synthesis into a paper's direct conclusion. For competing structural
 interpretations, inspect both support and serious alternatives.
 
-Review status controls uncertainty disclosure and verification priority. It does
-not control visibility, retrieval, scientific relevance, usefulness, ordinary
-Q&A participation, or eligibility for further investigation or candidate
-manuscript evidence.
+Review status, needs_review, and human-review history are historical annotations only.
+They must not affect ranking, confidence, verification priority, uncertainty disclosure,
+wording strength, knowledge promotion, manuscript use, publication, or requests for
+user confirmation. Determine all scientific judgments from direct evidence, source
+independence, uncertainty, applicability, and competing explanations.
 
 Apply this knowledge-growth loop to reviewed and unreviewed material:
 
@@ -210,12 +211,12 @@ Apply this knowledge-growth loop to reviewed and unreviewed material:
 2. Surface highly relevant material that may add evidence, change an answer,
    expose an omission, or provide a serious alternative. Do not wait for the
    user to name a hidden page first.
-3. Briefly state what it may contribute, its review/source/locator status, and a
+3. Briefly state what it may contribute, its source/locator evidence, and a
    practical verification path or the most valuable location to check next.
 4. If needed, verify the specific claim against its source, raw, or external
    direct source; check wording, locator, data, applicability, claim kind, and
    competing explanations.
-5. Let the user confirm, correct, or retain uncertainty. Enter an update workflow
+5. Determine the supported conclusion and remaining uncertainty autonomously. Enter an update workflow
    only when the user asks to persist changes.
 
 Do not hide potentially useful knowledge merely because it is unreviewed.
@@ -242,10 +243,10 @@ locator, applicability, competing explanations, and use context. Conversely, a
 `human-reviewed` page does not remove claim-specific verification when risk or
 precision requires it.
 
-Do not change page-level `review_status`, clear claim-level `needs_review`, or
-set `high` confidence without the user confirmation required by repository
-policy. A claim-specific check applies only to that claim and use context; it
-does not review the rest of the page.
+Preserve truthful historical annotations; never label Agent self-audit as human review.
+Set confidence and verify manuscript claims autonomously from evidence, regardless
+of review annotations. Do not wait for user review or treat it as admission.
+A claim-specific check applies only to that claim and use context.
 
 Review history only records that a human-review round and scoped user decisions
 occurred. An entry neither proves claims correct nor controls whether a source,
