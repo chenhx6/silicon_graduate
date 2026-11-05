@@ -24,6 +24,9 @@ python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/validate_res
 python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/influence_checks.py \
   --output raw/writing/gpt/pado-alignment-response-dependence/analysis/results/influence-checks.json
 
+python3 raw/writing/gpt/pado-alignment-response-dependence/analysis/row_covariance_envelope.py \
+  --output raw/writing/gpt/pado-alignment-response-dependence/analysis/results/row-covariance-envelope.json
+
 python3 raw/writing/gpt/pado-alignment-response-dependence/figures/made/generate_figures.py
 
 python3 raw/writing/gpt/pado-alignment-response-dependence/figures/made/generate_coverage_grid.py
@@ -68,3 +71,8 @@ inputs.
 `influence_checks.py` repeats the profiled maximum-row calculation after removing
 each row in turn. The result is a descriptive influence diagnostic; its
 leave-one-row-out null distribution is not treated as a calibrated p-value.
+
+`row_covariance_envelope.py` allows each row to choose its own within-row
+correlation on the declared finite grid while retaining one shared response
+proxy. It is an uncalibrated sensitivity envelope and does not resolve
+cross-row dependence.

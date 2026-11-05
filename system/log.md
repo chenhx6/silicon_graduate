@@ -6034,3 +6034,5 @@ raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，�
 - 2026-11-05：残余 analysis-state audit 修复双声子/两准粒子 wobbling、chiral-octupole、MchiD、g-factor 和 RDDS 的确认/金标准语气；targeted tests 12/12 通过。Ionescu 1981 独立 public-control feasibility note 建立，明确不与 67Ga common-rho sample 合并。
 
 - 2026-11-05：第二批 model-state audit 完成；将多声子/两准粒子 wobbling、MchiD、chiral-octupole、g-factor、RDDS/TDPAD 等概念和 analyzer 状态降为条件 screening 或 model-derived。Ionescu 1981 public-control feasibility note 补齐 research-note schema；635 tests、17 targeted tests、lint 0 errors、boundary/archive/preflight 均通过。
+
+- 2026-11-05：P-ADO 增加 row-specific rho_i 的未校准 covariance envelope（D_max²=16.86, r=0.2716），明确不作为 p-value 或 cross-row covariance 解；manifest/validator/claim ledger/project note 已同步。

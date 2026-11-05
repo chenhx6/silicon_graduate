@@ -120,6 +120,10 @@ event-level covariance 和 feeding-aware likelihood。
   当前未校准的 \(T_{\mathrm{prof}}\) 范围为 \(15.81\)--\(24.44\)。这只说明
   当前 fixture 的大残差不由单个行数值主导，不改变缺失 cross-row covariance
   和 row-specific \(\rho_i\) 的证据边界。
+- `row_covariance_envelope.py` 允许每行独立选择
+  \(\rho_i\in[-0.8,0.8]\)；在仍共享一个 \(r\) 的未校准 envelope 中，
+  \(D_{\max}^2=16.86\)（\(r=0.2716\)）。它仍高于当前 profile toys 的经验
+  \(q_{0.95}\) 区间，但不构成新的 p-value 或 cross-row covariance 结论。
 
 ## Planned tests
 

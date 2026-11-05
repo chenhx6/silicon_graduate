@@ -18,6 +18,9 @@ response_map = json.loads(
 influence = json.loads(
     (ROOT / "analysis" / "results" / "influence-checks.json").read_text()
 )
+row_covariance = json.loads(
+    (ROOT / "analysis" / "results" / "row-covariance-envelope.json").read_text()
+)
 
 fits = profile["fits_at_rho_center"]
 assert set(fits) == {"shared", "family", "energy", "mixture"}
@@ -50,4 +53,5 @@ assert all(check["passed"] for check in response_map["checks"])
 assert influence["full_table"]["profiled_max_d2"] > 20.0
 assert influence["range_leave_one_out_profiled_max_d2"][0] > 15.0
 assert influence["range_leave_one_out_profiled_max_d2"][1] < 25.0
+assert 16.0 < row_covariance["profiled_rowwise_max_d2"] < 18.0
 print("P-ADO manuscript output validation passed.")

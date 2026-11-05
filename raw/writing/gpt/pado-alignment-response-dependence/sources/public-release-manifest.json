@@ -10,8 +10,8 @@
   "files": [
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/PUBLIC_RELEASE.md",
-      "sha256": "17d608036fc73e3668fa68ae552668736ca3010ad0f8da41788371638957c1ff",
-      "size": 2439,
+      "sha256": "8ce49f7e886b2cfb83aae07ac20d35b4ff7ab6f32de00073b994c463d3065e72",
+      "size": 2529,
       "release_role": "candidate-public"
     },
     {
@@ -93,9 +93,21 @@
       "size": 1777
     },
     {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/row-covariance-envelope.json",
+      "release_role": "candidate-public",
+      "sha256": "00d2c878004b508ca85b548b3250a9e1ef572b78180fdb45e144716a90d44354",
+      "size": 3239
+    },
+    {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/row_covariance_envelope.py",
+      "release_role": "candidate-public",
+      "sha256": "3f43f3e48080a525e59bc7d899a96f22b0901ce408e5b28d596a2a8ffbbe32ac",
+      "size": 3587
+    },
+    {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/validate_outputs.py",
-      "sha256": "b21e894feae30155c2075372c836820e7acadab42a401fca9cd6ca1be05f7bc8",
-      "size": 2514,
+      "sha256": "a4f3bd6d0b71f71b4aea8b19af7fd6c805c35d472389b2906e9ace5dd9a91595",
+      "size": 2689,
       "release_role": "candidate-public"
     },
     {
@@ -148,8 +160,8 @@
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/main.tex",
-      "sha256": "fede029dee6a43e1e10ac7ab1bdd0b4af28b037a31330045b3e470bf7df99f4f",
-      "size": 20283,
+      "sha256": "fab1dee7cfe164c34c8d418bb8e241d83bd4f7cfc0ae99a1a8a4f136d49f1388",
+      "size": 20598,
       "release_role": "candidate-public"
     },
     {
@@ -206,6 +218,7 @@
     "profile_bootstrap_toys": 1000,
     "profile_toy_values_file": "analysis/results/profile-coverage-toys.csv",
     "response_map_check": "DA74-6 finite-J replay plus local narrow-width limit",
-    "influence_check": "leave-one-row-out descriptive profile"
+    "influence_check": "leave-one-row-out descriptive profile",
+    "row_covariance_envelope": "uncalibrated row-specific rho_i sensitivity on [-0.8,0.8]"
   }
 }

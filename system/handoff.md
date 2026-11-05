@@ -7588,3 +7588,7 @@ A second scan of `knowledge/concepts`, `knowledge/models`, `knowledge/methods` a
 Ionescu 1981 was read as a separate public feeding-aware case. It supplies a strong methodological precedent, but its rho2/rho4, Eq.(9)--(11) feeding recursion, parent tensors, conversion-corrected intensities and covariance contract cannot be pooled with the 67Ga alpha2/alpha4 common-rho sample. The feasibility note therefore remains a stop-boundary artifact; no second numerical benchmark was fabricated.
 
 Verification for this checkpoint: 635 system tests OK; targeted collective-mode tests 17/17 OK; Python compilation OK; Wiki lint 0 errors; boundary, archive and preflight gates OK. The next required action is explicit staging/commit/push of this residual audit batch; the main goal remains active.
+
+## 2026-11-05 row-specific covariance envelope
+
+The PADO package now includes an uncalibrated row-specific within-row correlation envelope: each row may choose rho_i in [-0.8, 0.8] while one shared response r is retained. The observed envelope is D_max^2=16.86 at r=0.2716. This remains a sensitivity result only; it does not model cross-row covariance, provide a likelihood ratio, or produce a p-value. The output, validator, public-release manifest and claim ledger record the boundary.
