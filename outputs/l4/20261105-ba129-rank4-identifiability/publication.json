@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-11-05T08:56:46.154160+00:00",
+  "goal_status": "active",
+  "research_commit": "f1170a346d36c88dfe4aa55dadff8b26a977ac59",
+  "research_subject": "research: audit Ba129 primary uncertainties and companion profiles",
+  "research_push_status": "pushed-and-origin-main-matched",
+  "research_commit_file_count": 42,
+  "research_file_scope_verified": true,
+  "publication_refspec": "HEAD:main",
+  "force_used": false,
+  "scientific_state": "exploratory-not-ready",
+  "metadata_record_pointer": "main / docs: reconcile Ba129 research publication",
+  "unrelated_worktree_change_preserved": [
+    "PLAN.md"
+  ],
+  "task_log_relocation": {
+    "outputs/l4/20261105-ba129-rank4-identifiability/verification/diff-check.log": {
+      "path": "tmp/ba129-publication-logs/verification-diff-check.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "outputs/l4/20261105-ba129-rank4-identifiability/verification/eol-dry-run.log": {
+      "path": "tmp/ba129-publication-logs/verification-eol-dry-run.log",
+      "sha256": "1842100ab197f132192bfe1e6e9d5d0cf762a7a69799eed6e7183814f570bec6"
+    },
+    "outputs/l4/20261105-ba129-rank4-identifiability/verification/lint-final.log": {
+      "path": "tmp/ba129-publication-logs/verification-lint-final.log",
+      "sha256": "3518be594dc3a8b29588e29113eaf229e4d95d634cd2a66fd0f11a0c33f092b6"
+    },
+    "outputs/l4/20261105-ba129-rank4-identifiability/verification/lint-publication.log": {
+      "path": "tmp/ba129-publication-logs/verification-lint-publication.log",
+      "sha256": "c51b3979afd5146f4f90b09374d5d15a504d447e12535cc2d2d74311c34003da"
+    },
+    "outputs/l4/20261105-ba129-rank4-identifiability/verification/lint.log": {
+      "path": "tmp/ba129-publication-logs/verification-lint.log",
+      "sha256": "cc74682e98c1d5267c45b75a29e9040604e33289f1692bebd3cb6aca5b6db868"
+    },
+    "outputs/l4/20261105-ba129-rank4-identifiability/verification/preflight.log": {
+      "path": "tmp/ba129-publication-logs/verification-preflight.log",
+      "sha256": "b590a39f1e116218f8b1f0883d3058ba1621f885cd5b59f8892da7445d70e65b"
+    },
+    "outputs/l4/20261105-ba129-rank4-identifiability/verification/staged-diff-check.log": {
+      "path": "tmp/ba129-publication-logs/verification-staged-diff-check.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "raw/writing/gpt/ba129-rank4-identifiability/main.log": {
+      "path": "tmp/ba129-publication-logs/article-main.log",
+      "sha256": "47b4fabf3e626e8df772eaca16d32085c012d1bf2b29a7263c19076d25130e6b"
+    },
+    "raw/writing/gpt/ba129-rank4-identifiability/main.blg": {
+      "path": "tmp/ba129-publication-logs/article-main.blg",
+      "sha256": "1ffcd5e75925a6ede6fb60bf24e04e39bc0f9f0e24c1207ac53f393f4a3ad58c"
+    }
+  },
+  "scope_note": "Publisher originals remain local, authenticated retrieval credentials excluded, other-session tool files untouched."
+}

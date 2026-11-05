@@ -10,11 +10,13 @@
     "started_at": "2026-11-05T08:28:48.907296+00:00",
     "completed_at": "2026-11-05T08:30:28.514130+00:00",
     "exit": 0,
-    "log": "outputs/l4/20261105-ba129-rank4-identifiability/verification/lint.log",
+    "log": "tmp/ba129-publication-logs/verification-lint.log",
     "summary": [
       "SUMMARY pages=1364 wikilinks=12633 hashes=464 errors=0 warnings=619 info=5330"
     ],
-    "publication_blocker": false
+    "publication_blocker": false,
+    "log_sha256": "cc74682e98c1d5267c45b75a29e9040604e33289f1692bebd3cb6aca5b6db868",
+    "full_log_storage": "local regenerable execution log; substantive result in this receipt"
   },
   {
     "name": "preflight",
@@ -27,12 +29,14 @@
     "started_at": "2026-11-05T08:28:48.907528+00:00",
     "completed_at": "2026-11-05T08:30:22.692715+00:00",
     "exit": 0,
-    "log": "outputs/l4/20261105-ba129-rank4-identifiability/verification/preflight.log",
+    "log": "tmp/ba129-publication-logs/verification-preflight.log",
     "ok": true,
     "boundary_ok": true,
     "archive_ok": true,
     "protected_bib_status": "matched",
-    "publication_blocker": false
+    "publication_blocker": false,
+    "log_sha256": "b590a39f1e116218f8b1f0883d3058ba1621f885cd5b59f8892da7445d70e65b",
+    "full_log_storage": "local regenerable execution log; substantive result in this receipt"
   },
   {
     "name": "eol-dry-run",
@@ -44,9 +48,11 @@
     "started_at": "2026-11-05T08:28:48.907956+00:00",
     "completed_at": "2026-11-05T08:29:11.805493+00:00",
     "exit": 1,
-    "log": "outputs/l4/20261105-ba129-rank4-identifiability/verification/eol-dry-run.log",
+    "log": "tmp/ba129-publication-logs/verification-eol-dry-run.log",
     "interpretation": "Expected nonzero status: one substantive index change retained; no EOL-only restore or unsafe/mixed state.",
-    "publication_blocker": false
+    "publication_blocker": false,
+    "log_sha256": "1842100ab197f132192bfe1e6e9d5d0cf762a7a69799eed6e7183814f570bec6",
+    "full_log_storage": "local regenerable execution log; substantive result in this receipt"
   },
   {
     "name": "diff-check",
@@ -58,8 +64,10 @@
     "started_at": "2026-11-05T08:28:48.908531+00:00",
     "completed_at": "2026-11-05T08:29:05.191151+00:00",
     "exit": 0,
-    "log": "outputs/l4/20261105-ba129-rank4-identifiability/verification/diff-check.log",
-    "publication_blocker": false
+    "log": "tmp/ba129-publication-logs/verification-diff-check.log",
+    "publication_blocker": false,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "full_log_storage": "local regenerable execution log; substantive result in this receipt"
   },
   {
     "name": "final-lint-after-source-completion",
