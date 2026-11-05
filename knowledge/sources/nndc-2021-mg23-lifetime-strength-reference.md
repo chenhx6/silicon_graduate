@@ -15,7 +15,7 @@ journal: Nuclear Data Sheets
 volume: 171
 pages: 1-252
 doi: 10.1016/j.nds.2020.12.001
-citation_key: ""
+citation_key: "basunia_2021_23mg-adopted-levels"
 canonical_source: "NNDC ENSDF202101 Mg23 selected objects, NDS1711, cutoff1Jun2020"
 source_url: https://www.nndc.bnl.gov/ensdf/
 raw_file: raw/nuclear-data/day17-20261020/23Mg-Adopted-202101.ens

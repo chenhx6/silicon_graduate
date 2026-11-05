@@ -20,7 +20,7 @@ arxiv:
 language: en
 canonical_source: "Sensharma, Nirupama. Wobbling Motion in Nuclei: Transverse, Longitudinal and Chiral[D]. University of Notre Dame, 2021."
 zotero_item_key:
-citation_key: ""
+citation_key: "sensharma_2021_135pr-wobbling-motion"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/Wobbling_Motion_in_Nuclei.pdf"
 raw_file: "raw/theses/degree-dissertation/Wobbling_Motion_in_Nuclei.pdf"

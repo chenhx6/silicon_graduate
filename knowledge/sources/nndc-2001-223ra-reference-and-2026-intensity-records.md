@@ -15,7 +15,7 @@ year: 2001
 volume: 93
 pages: 763--1061
 doi: "10.1006/ndsh.2001.0016"
-citation_key: ""
+citation_key: "browne_2001_223ra-adopted-levels"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "NNDC223088001/003 base200110; 223088009 XUNDL202602"
 data_version: "fullcut1-May-2001; Jpierr27-Mar-2003; alphaNRerr27-Aug-2012; XUNDLcompiled8-Jan-2026from2019Co05"

@@ -17,7 +17,7 @@ issue: 4
 pages: 2105–2108
 doi: 10.1103/PhysRevC.55.2105
 canonical_source: https://doi.org/10.1103/PhysRevC.55.2105
-citation_key: ""
+citation_key: "emediato_1997_133ce-lifetime"
 raw_file: raw/papers/1997_Emediato_133Ce_Lifetime_Measurements.pdf
 raw_sha256: 39f6d6a7bb4e2da109504aaab2c22c52fa8b1465b860c1dfd58937bc404869df
 raw_storage_status: public-staging-not-archived

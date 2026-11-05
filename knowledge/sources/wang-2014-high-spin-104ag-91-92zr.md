@@ -20,7 +20,7 @@ arxiv:
 language: zh
 canonical_source: "王志刚. 双奇核104Ag和近球形核91,92Zr的高自旋态研究[D]. 中国科学院大学, 中国科学院近代物理研究所, 2014."
 zotero_item_key:
-citation_key: ""
+citation_key: "wang_2014_104ag"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/王志刚 - 双奇核104Ag 和近球形核91,92Zr 的高自旋态研究.pdf"
 raw_file: "raw/theses/degree-dissertation/王志刚 - 双奇核104Ag 和近球形核91,92Zr 的高自旋态研究.pdf"

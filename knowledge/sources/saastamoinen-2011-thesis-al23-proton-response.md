@@ -12,7 +12,7 @@ reading_depth: skimmed
 authors: [Antti Saastamoinen]
 year: 2011
 institution: University of Jyväskylä
-citation_key: ""
+citation_key: "saastamoinen_2011_23al-studies-nuclei"
 canonical_source: "JYX Research Report9/2011 ISBN9789513945565 targetedAl23/response/AppendixA"
 source_url: https://jyx.jyu.fi/jyx/Record/jyx_123456789_40105
 raw_file: raw/theses/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/saastamoinen-2011-thesis.pdf

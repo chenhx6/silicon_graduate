@@ -18,7 +18,7 @@ pages: 262501
 doi: 10.1103/PhysRevLett.131.262501
 data_version: arXiv-2405.14305v1-main-and-bundled-supplement
 canonical_source: "https://doi.org/10.1103/PhysRevLett.131.262501"
-citation_key:
+citation_key: "zanon_2023_19o-precision-benchmarking"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/zanon-2023-o20-high-precision.pdf"
 raw_sha256: "2bd272e29518978205cb47b0d7829a0f57f1a5b81f8c0be7d7d984cec94435cc"
 raw_storage_status: reserved-unpopulated-public-preprint-only

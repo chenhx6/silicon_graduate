@@ -10,7 +10,7 @@ source_type: public-software-and-runtime-audit
 reading_depth: skimmed
 authors: [HFODD Collaboration, BIGSTICK contributors, DIRHB authors, ROOT Collaboration, Geant4 Collaboration]
 year: 2026
-citation_key: ""
+citation_key: "hfodd_2026_132la-reproducibility-audit"
 title_original: "A reproducibility audit of public nuclear-structure models and the current runtime for A≈130 research"
 canonical_source: "HFODD official index; BIGSTICK public repository; DIRHB arXiv:1403.4039; ROOT install page; Geant4 11.4 download page (all retained in the archive manifest)"
 source_url: "See canonical_source and the archived manifest."

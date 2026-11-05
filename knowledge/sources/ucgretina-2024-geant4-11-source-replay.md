@@ -12,7 +12,7 @@ title_original: "UCGretina — geant4.11 branch"
 authors: [L. A. Riley, UCGretina contributors]
 year: 2024
 data_version: "public02e5a9241322f661c6918f6705cab813c691cd21; installedGeant4 11.4.2; source-only recording overlays explicitly separate"
-citation_key: ""
+citation_key: "riley_2024_152eu-ucgretina-geant"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "fixed public G411 code, official Geant4 headers, and declared source-history controls"
 source_url: "https://github.com/rileyle/UCGretina/tree/02e5a9241322f661c6918f6705cab813c691cd21"

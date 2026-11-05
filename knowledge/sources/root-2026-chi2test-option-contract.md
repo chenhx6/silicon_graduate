@@ -11,7 +11,7 @@ source_type: public-software-repository
 reading_depth: skimmed
 authors: [ROOT collaboration]
 year: 2026
-citation_key: ""
+citation_key: "root_2026_23mg-root-chi"
 canonical_source: "root-project/root 1211eda93010f26710eafd527d1e66921bffdf8e and 3b796f86a30e274053669931a24d77a3d36c8f18 hist/hist/src/TH1.cxx"
 source_url: https://github.com/root-project/root/blob/1211eda93010f26710eafd527d1e66921bffdf8e/hist/hist/src/TH1.cxx
 raw_file: raw/code/day17-20261020/ROOT-v64004-TH1.cxx

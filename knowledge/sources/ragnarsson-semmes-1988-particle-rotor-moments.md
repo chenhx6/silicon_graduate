@@ -15,7 +15,7 @@ journal: Hyperfine Interactions
 volume: "43"
 pages: "425-440 (article); 423-440 (publisher wrapper)"
 doi: "10.1007/BF02398323"
-citation_key: ""
+citation_key: "ragnarsson_1988_185au-description-moments"
 canonical_source: "https://doi.org/10.1007/BF02398323"
 source_url: "https://link.springer.com/content/pdf/10.1007/BF02398323.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261025-DAY23-signature-partner-low-spin-wobbling-magnetic-rotation/ragnarsson-semmes-1988-particle-rotor-moments.pdf"

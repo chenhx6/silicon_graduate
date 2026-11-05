@@ -15,7 +15,7 @@ journal: Physical Review Letters
 volume: "123"
 pages: "102501"
 doi: "10.1103/PhysRevLett.123.102501"
-citation_key: ""
+citation_key: "ayangeakaa_2019_76ge-rigid-triaxial"
 canonical_source: "https://doi.org/10.1103/PhysRevLett.123.102501"
 source_url: "https://link.aps.org/accepted/10.1103/PhysRevLett.123.102501"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2019-rigid-triaxial-ge76.pdf"

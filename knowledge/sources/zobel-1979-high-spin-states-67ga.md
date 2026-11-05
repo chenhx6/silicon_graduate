@@ -16,6 +16,7 @@ year: 1979
 volume: 316
 pages: 165--188
 doi: 10.1016/0375-9474(79)90678-X
+citation_key: "zobel_1979_67ga"
 language: en
 canonical_source: doi:10.1016/0375-9474(79)90678-X
 raw_file: "raw/papers/gpt/query/20261105-zobel-1979-67ga/High spin states in 67Ga.pdf"

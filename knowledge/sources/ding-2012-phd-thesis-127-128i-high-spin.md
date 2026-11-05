@@ -15,7 +15,7 @@ journal: "中国科学院近代物理研究所博士学位论文"
 year: 2012
 language: zh
 canonical_source: "丁兵. 过渡区核127, 128I 高自旋态能级结构研究[D]. 兰州: 中国科学院近代物理研究所, 2012."
-citation_key: ""
+citation_key: "ding_2012_127i"
 library_file: "raw/theses/degree-dissertation/丁兵 - 博士论文.pdf"
 raw_file: "raw/theses/degree-dissertation/丁兵 - 博士论文.pdf"
 raw_sha256: "ca7765ad962ea0c106791532f5a7d9f359533d25bb0170f03197bfec414be5c7"

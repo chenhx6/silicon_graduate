@@ -15,7 +15,7 @@ journal: Physical Review C
 volume: 93
 pages: 025802
 doi: 10.1103/PhysRevC.93.025802
-citation_key: ""
+citation_key: "kirsebom_2016_23mg-measurement-lifetimes"
 canonical_source: "Kirsebom et al 2016 PRC93 025802 arxiv1508.07188v1"
 source_url: https://arxiv.org/abs/1508.07188v1
 raw_file: raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/kirsebom-2016-23mg-dsam-arxiv-v1.pdf

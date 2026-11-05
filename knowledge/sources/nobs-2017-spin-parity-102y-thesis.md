@@ -12,7 +12,7 @@ reading_depth: deep-read
 authors: [Chantal Rebecca Nobs]
 institution: University of Brighton
 year: 2017
-citation_key: ""
+citation_key: "nobs_2017_102y-parity-assignment"
 canonical_source: "raw/theses/degree-dissertation/nobs_thesis.pdf"
 raw_file: "raw/theses/degree-dissertation/nobs_thesis.pdf"
 raw_sha256: "acb846d63e4a8cc61491d6f5ba04a4858bf3efd3e98bb9152b50383987b76a57"

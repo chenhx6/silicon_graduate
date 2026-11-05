@@ -15,7 +15,7 @@ year: 2008
 volume: 109
 pages: "517-698"
 doi: "10.1016/j.nds.2008.02.001"
-citation_key: ""
+citation_key: "singh_2008_135pr-adopted-xundl"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "NNDC135059001/009/012/013; actual2026-10-19 access"
 source_url: "https://www.nndc.bnl.gov/ensdf/"

@@ -12,6 +12,7 @@ title_original: "Nuclear two-photon decay in 0+ → 0+ transitions"
 authors: [J. Kramp, D. Habs, R. Kroth, M. Music, J. Schirmer, D. Schwalm, C. Broude]
 journal: "Nuclear Physics A"
 year: 1987
+citation_key: "kramp_1987_16o-two-photon"
 volume: 474
 pages: "412-450"
 pii: "0375-9474(87)90625-7"

@@ -16,6 +16,7 @@ volume: 417
 pages: "95-110"
 pii: "S0168-9002(98)00624-X"
 doi: "10.1016/S0168-9002(98)00624-X"
+citation_key: "schmid_1998_56fe-gamma-ray"
 canonical_source: "Schmid et al., NIM A 417, 95-110 (1998)"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/polarizaiton/1998_Schmid et al_Gamma-ray polarization sensitivity of the Gammasphere segmented germanium.pdf"

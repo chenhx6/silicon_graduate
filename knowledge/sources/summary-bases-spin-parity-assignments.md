@@ -12,6 +12,7 @@ title_original: "Summary of Bases for Spin and Parity Assignments"
 authors: [Nuclear Data Sheets editorial compilation]
 journal: "Nuclear Data Sheets"
 year: 2010
+citation_key: "compilation_2010_assignment-methods-summary-bases"
 pages: "iv-vi"
 canonical_source: "Nuclear Data Sheets summary of bases for spin and parity assignments"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/review/Summary of Bases for Spin and Parity Assignments.pdf"

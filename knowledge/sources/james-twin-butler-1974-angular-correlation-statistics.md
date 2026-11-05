@@ -16,6 +16,7 @@ volume: 115
 pages: "105-113"
 pii: "0029-554X(74)90433-9"
 doi: "10.1016/0029-554X(74)90433-9"
+citation_key: "james_1974_generic-statistical-ray"
 canonical_source: "James, Twin & Butler, Nucl. Instr. Meth. 115, 105-113 (1974)"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/DCO/1974_James et al_The statistical analysis of γ-ray angular correlation experiments.pdf"

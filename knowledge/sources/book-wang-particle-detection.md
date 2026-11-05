@@ -12,6 +12,7 @@ title_original: "粒子探测技术"
 authors: [汪晓莲, 李澄, 邵明, 陈宏芳]
 publisher: "中国科学技术大学出版社"
 year: 2009
+citation_key: "wang_2009_particle-detectors-gaseous-detectors"
 pages: "444"
 isbn: "978-7-312-02299-9"
 canonical_source: "汪晓莲, 李澄, 邵明, 陈宏芳 编, 《粒子探测技术》, 中国科学技术大学出版社 (2009)"

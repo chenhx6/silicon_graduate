@@ -12,6 +12,7 @@ title_original: "134Te Coulomb excitation"
 authors: [A. A. Sonzogni]
 journal: Nuclear Data Sheets
 year: 2004
+citation_key: "sonzogni_2004_134te-coulomb-excitation"
 volume: 103
 pages: 1
 language: en

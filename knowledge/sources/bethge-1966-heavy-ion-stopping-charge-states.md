@@ -15,7 +15,7 @@ journal: Zeitschrift für Naturforschung A
 volume: 21a
 pages: 1052-1056
 doi: 10.1515/zna-1966-0727
-citation_key: ""
+citation_key: "bethge_1966_11b-energieverluste-und"
 canonical_source: "Bethge Sandner Schmidt 1966 ZNaturforsch21a1052 DOI10.1515/zna-1966-0727"
 source_url: https://doi.org/10.1515/zna-1966-0727
 raw_file: raw/papers/gpt/learning-daily/20261019-DAY17-linear-polarization-paq-compton/bethge-1966-stopping-charge-states.pdf

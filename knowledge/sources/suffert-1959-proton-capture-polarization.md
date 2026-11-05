@@ -12,6 +12,7 @@ title_original: "Polarization Measurements of Proton Capture Gamma Rays"
 authors: [M. Suffert, P. M. Endt, A. M. Hoogenboom]
 journal: Physica
 year: 1959
+citation_key: "suffert_1959_25al-polarization-proton"
 volume: 25
 pages: "659-670"
 canonical_source: "Suffert, Endt & Hoogenboom, Physica 25, 659 (1959)"

@@ -15,7 +15,7 @@ journal: Nature Communications
 volume: 14
 pages: 4536
 doi: 10.1038/s41467-023-40121-3
-citation_key: ""
+citation_key: "fougeres_2023_23mg-search-novae"
 canonical_source: "Fougeres et al NC144536 publisher main7p SI8p Figshare22666537v1 Zenodo8044973"
 source_url: https://www.nature.com/articles/s41467-023-40121-3
 raw_file: raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/fougeres-2023-mg23-publisher.pdf

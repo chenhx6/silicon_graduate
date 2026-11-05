@@ -30,7 +30,7 @@ doi: 10.1103/PhysRevC.101.044306
 language: en
 canonical_source: "https://doi.org/10.1103/PhysRevC.101.044306"
 zotero_item_key: ""
-citation_key: ""
+citation_key: "banik_2020_131xe-revealing-multiple"
 zotero_uri: ""
 library_file: ""
 raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/banik-2020-131xe-reaction/PDFs/Banik_et_al_2020_131Xe_multiple_band_structures.pdf"

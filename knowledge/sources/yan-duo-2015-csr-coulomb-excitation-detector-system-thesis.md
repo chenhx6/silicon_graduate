@@ -19,8 +19,7 @@ arxiv:
 language: zh/en
 canonical_source: "闫铎. 在 CSR 外靶终端开展中高能库仑激发反应实验相关探测器系统的研究[D]. 中国科学院大学, 2015."
 zotero_item_key:
-citation_key:
-zotero_uri:
+citation_key: "yan_2015_csr"
 library_file: "raw/theses/degree-dissertation/闫铎 - 在CSR 外靶终端开展中高能库仑激发反应.pdf"
 raw_file: "raw/theses/degree-dissertation/闫铎 - 在CSR 外靶终端开展中高能库仑激发反应.pdf"
 raw_sha256: "9a7ba567b498edfa68b89a545698bf1c32f89a5c58d9cb3682448e0257f2a20e"

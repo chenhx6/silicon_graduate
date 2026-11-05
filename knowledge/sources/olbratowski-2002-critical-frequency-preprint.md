@@ -15,7 +15,7 @@ arxiv: nucl-th/0211075v1
 doi:
 related_published_doi: 10.1103/PhysRevLett.93.052501
 canonical_source: https://arxiv.org/abs/nucl-th/0211075v1
-citation_key: ""
+citation_key: "olbratowski_2002_132la-critical-frequency"
 raw_file: raw/papers/gpt/learning-daily/20261028-DAY26-octupole-correlation-e1-e3-magnetic-rotation/olbratowski-2002-critical-frequency-arxiv-v1.pdf
 raw_sha256: 3cc0000405bb8360d0b7112fbd6d6a3811546091dee182da2b44be071c8bbffb
 raw_storage_status: archived-2026-10-28

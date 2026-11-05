@@ -16,7 +16,7 @@ status: ai-draft
 review_status: unreviewed
 source_type: experiment-and-model-article
 reading_depth: deep-read
-citation_key: ""
+citation_key: "unknown_2019_130ba-diversity-shapes"
 doi: 10.1016/j.physletb.2019.06.040
 nuclei: [130ba]
 ---

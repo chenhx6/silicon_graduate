@@ -12,6 +12,7 @@ title_original: "Ge(Li) Summing Spectrometers of Special Type"
 authors: [T. Aoki, J.-Z. Ruan, A. Yoshimura, Y. Matsuyama]
 journal: "Nuclear Instruments and Methods"
 year: 1975
+citation_key: "aoki_1975_generic-geli-summing"
 volume: 128
 pages: "53-60"
 pii: "0029-554X(75)90773-9"

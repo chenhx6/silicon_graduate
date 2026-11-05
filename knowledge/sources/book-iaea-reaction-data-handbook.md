@@ -12,6 +12,7 @@ title_original: "Handbook for calculations of nuclear reaction data, Reference I
 authors: [IAEA (International Atomic Energy Agency)]
 publisher: "IAEA-TECDOC-1506, Vienna"
 year: 2006
+citation_key: "iaea_2006_handbook-calculations-reaction"
 pages: "172"
 canonical_source: "IAEA, Handbook for calculations of nuclear reaction data (RIPL-2), IAEA-TECDOC-1506 (2006)"
 library_file: "raw/books/Handbook for calculations of nuclear reaction data.pdf"

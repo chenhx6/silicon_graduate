@@ -20,7 +20,7 @@ arxiv:
 language: zh
 canonical_source: "王华磊. 奇奇核170Re在束γ谱学和176Ir EC/β+衰变研究[D]. 中国科学院研究生院, 2006."
 zotero_item_key:
-citation_key: ""
+citation_key: "wang_2006_170re-beam-gamma"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/A王华磊.pdf"
 raw_file: "raw/theses/degree-dissertation/A王华磊.pdf"

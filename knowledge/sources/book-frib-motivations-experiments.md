@@ -11,6 +11,7 @@ reading_depth: deep-read
 title_original: "Motivations for Early High-Profile FRIB Experiments"
 authors: [FRIB Science Community / NSCL / MSU]
 year: 2014
+citation_key: "frib_2014_drip-line-nuclei-motivations-early"
 pages: "230"
 canonical_source: "FRIB Science Advisory Committee, Motivations for Early High-Profile FRIB Experiments, Michigan State University (2014)"
 library_file: "raw/books/Motivations for Early High-Profle FRIB Experiments.pdf"

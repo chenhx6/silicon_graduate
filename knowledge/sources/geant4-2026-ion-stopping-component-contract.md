@@ -11,7 +11,7 @@ source_type: software-source-code
 reading_depth: skimmed
 authors: [Geant4 Collaboration]
 year: 2026
-citation_key: ""
+citation_key: "collaboration_2026_31s-geant-ion"
 canonical_source: "Geant4 v11.4.2 ion stopping source and installed SDK component"
 source_url: https://github.com/Geant4/geant4/tree/v11.4.2
 data_version: v11.4.2-G4EMLOW8.8

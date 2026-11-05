@@ -16,8 +16,7 @@ volume: 97
 pages: '069802'
 doi: 10.1103/PhysRevC.97.069802
 canonical_source: doi:10.1103/PhysRevC.97.069802
-citation_key:
-language: en
+citation_key: "tanabe_2018_135pr-reply-comment"
 raw_file: raw/papers/gpt/learning-daily/20261024-DAY22-wobbling-geometry-phonons/tanabe-2018-reply-stability-publisher.pdf
 raw_sha256: 76185615c6d990f923926f21ca75b503fbe687b55625cb26eb9a228ee78dc3a8
 source_version: publisher-version-of-record

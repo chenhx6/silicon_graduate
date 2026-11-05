@@ -17,7 +17,7 @@ issue: 5
 pages: 285–289
 doi: 10.1016/0370-2693(83)90261-7
 canonical_source: https://doi.org/10.1016/0370-2693(83)90261-7
-citation_key: ""
+citation_key: "nolan_1983_130ce-moment-inertia"
 raw_file: raw/papers/1983_Nolan_Ce130_HighSpinMomentInertia.pdf
 raw_sha256: 9085414a3cf1daafdeb3e7b685ea9bc6fdbfa44ee91f2e484c5eda353af6f927
 raw_storage_status: public-staging-not-archived

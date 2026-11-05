@@ -16,7 +16,7 @@ volume: 353
 pages: 438–443
 doi: 10.1016/0370-2693(95)00601-G
 canonical_source: https://doi.org/10.1016/0370-2693(95)00601-G
-citation_key: ""
+citation_key: "hauschild_1995_133ce-neutron-orbitals"
 raw_file: raw/papers/1995_Hauschild_133Ce_superdeformed_bands.pdf
 raw_sha256: ce219bb983b42a15cb634f95e9ad99bcfbc8442bc179a5e5f0e613b9ac9958fb
 raw_storage_status: public-staging-not-archived

@@ -16,7 +16,7 @@ volume: 35
 pages: "1079-1118"
 pages_crossref: "1077-1118"
 doi: "10.1007/BF02394554"
-citation_key: ""
+citation_key: "vianden_1987_134ce-electric-field"
 canonical_source: "https://doi.org/10.1007/BF02394554"
 source_url: "http://link.springer.com/content/pdf/10.1007/BF02394554.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/vianden-1987-efg-metals.pdf"

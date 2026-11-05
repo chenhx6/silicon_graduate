@@ -18,7 +18,7 @@ pages: 2683-2695
 doi: ""
 language: en
 canonical_source: "https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=32&page=2683"
-citation_key: ""
+citation_key: "riley_2001_130pr-global-lifetime"
 raw_file: "raw/papers/2001-Riley-global-lifetime-A135.pdf"
 raw_sha256: 09d58089a1985ef9d3d02432921b302a77c5d51eca9846bdea03dd9330d0d036
 raw_storage_status: verified-raw-archive

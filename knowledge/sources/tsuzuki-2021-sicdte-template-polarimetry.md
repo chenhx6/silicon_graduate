@@ -16,7 +16,7 @@ volume: 92
 pages: "063101"
 doi: "10.1063/5.0050826"
 arxiv: "2105.14236v1"
-citation_key: ""
+citation_key: "tsuzuki_2021_application-sicdte-compton"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "arXiv2105.14236v1, 29-May-2021; publisherVoRnotobtained"
 source_url: "https://arxiv.org/abs/2105.14236"

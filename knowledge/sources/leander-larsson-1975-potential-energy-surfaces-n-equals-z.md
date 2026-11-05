@@ -16,7 +16,7 @@ volume: 239
 pages: 93–113
 doi: 10.1016/0375-9474(75)91136-7
 canonical_source: https://doi.org/10.1016/0375-9474(75)91136-7
-citation_key: ""
+citation_key: "leander_1975_12c-potential-energy"
 raw_file: raw/papers/1975_Leander_Larsson_PotentialEnergySurfaces_NequalsZ.pdf
 raw_sha256: 35ce50a080755f3a11dac48cfbe2e2041659694038bc6bcaf28b452d72da562d
 raw_storage_status: public-staging-not-archived

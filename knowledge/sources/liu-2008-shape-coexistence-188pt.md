@@ -20,7 +20,7 @@ arxiv:
 language: zh
 canonical_source: "刘渊. 188Pt核的形状共存研究[D]. 中国科学院研究生院, 中国科学院近代物理研究所, 2008."
 zotero_item_key:
-citation_key: ""
+citation_key: "liu_2008_188pt"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/刘渊 - 形状共存.pdf"
 raw_file: "raw/theses/degree-dissertation/刘渊 - 形状共存.pdf"

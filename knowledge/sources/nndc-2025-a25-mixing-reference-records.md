@@ -16,7 +16,7 @@ year: 2025
 volume: 205
 pages: 1--188
 doi: "10.1016/j.nds.2025.08.001"
-citation_key: ""
+citation_key: "basunia_2025_25na-decay-data"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "NNDC:25011001,25011012,25011015,25012001,25012036; selected25Mg reaction objects; official200910 ensdf.025"
 source_url: "https://www.nndc.bnl.gov/ensdf/"

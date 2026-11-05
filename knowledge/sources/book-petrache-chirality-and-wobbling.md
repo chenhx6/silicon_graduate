@@ -15,6 +15,7 @@ year: 2025
 pages: "339 PDF pages; 320 numbered text/index pages"
 isbn: "9781032691633 (ebook); 9781032691282 (hardback); 9781032691602 (paperback)"
 doi: "10.1201/9781032691633"
+citation_key: "editor_2025_135pr-chirality-wobbling"
 canonical_source: "Local edition copyright page, PDF p. 5 (iv)"
 library_file: "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf"
 raw_file: "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf"

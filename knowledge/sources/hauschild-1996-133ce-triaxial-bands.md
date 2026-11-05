@@ -16,7 +16,7 @@ volume: 54
 pages: 613–619
 doi: 10.1103/PhysRevC.54.613
 canonical_source: https://doi.org/10.1103/PhysRevC.54.613
-citation_key: ""
+citation_key: "hauschild_1996_133ce-triaxial-bands"
 raw_file: raw/papers/1996_Hauschild_133Ce_triaxial_bands.pdf
 raw_sha256: 560215bbff5898a3e304f4219f35f628b3a4bd03c87ed1745dc25ae147162872
 raw_storage_status: public-staging-not-archived

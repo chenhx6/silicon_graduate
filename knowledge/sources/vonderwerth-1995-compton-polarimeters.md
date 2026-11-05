@@ -12,6 +12,7 @@ title_original: "Two Compton polarimeter constructions for modern standard γ-sp
 authors: [A. von der Werth, F. Becker, J. Eberth, S. Freund, U. Hermkens, T. Mylaeus, S. Skoda, H. G. Thomas, W. Teichert]
 journal: "Nuclear Instruments and Methods in Physics Research A"
 year: 1995
+citation_key: "werth_1995_56fe-two-compton"
 volume: 357
 pages: "458-466"
 pii: "0168-9002(95)00025-9"

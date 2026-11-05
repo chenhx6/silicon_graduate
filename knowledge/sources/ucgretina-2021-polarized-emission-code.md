@@ -12,7 +12,7 @@ title_original: "UCGretina"
 authors: [L. A. Riley, UCGretina contributors]
 year: 2021
 data_version: "historical1cd773473028ee4d2a30b848187471a06089fc99; head1271388e03ec9b3f8e055a988aeb4c2e4d2efedf; Geant4v10.7.4 functions/installed11.4.2 SDK"
-citation_key: ""
+citation_key: "riley_2021_24mg-ucgretina"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "rileyle/UCGretina selected pinned files and officialGeant4 selected v10.7.4 sources"
 source_url: "https://github.com/rileyle/UCGretina"

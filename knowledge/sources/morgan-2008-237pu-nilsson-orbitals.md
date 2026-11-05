@@ -20,7 +20,7 @@ arxiv:
 language: en
 canonical_source: "Morgan, Thomas James. Identification of Nilsson Orbitals in the Superdeformed Minimum of 237Pu[D]. Ludwig-Maximilians-Universität München, 2008."
 zotero_item_key:
-citation_key: ""
+citation_key: "morgan_2008_237pu-identification-nilsson"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/Morgan_Thomas.pdf"
 raw_file: "raw/theses/degree-dissertation/Morgan_Thomas.pdf"

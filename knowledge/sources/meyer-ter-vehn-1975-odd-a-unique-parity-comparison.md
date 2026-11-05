@@ -16,7 +16,7 @@ volume: 249
 pages: 141–165
 doi: 10.1016/0375-9474(75)90096-2
 canonical_source: https://doi.org/10.1016/0375-9474(75)90096-2
-citation_key: ""
+citation_key: "meyertervehn_1975_133ce-collective-description"
 raw_file: raw/papers/1975_MeyerTerVehn_CollectiveOddANuclei_PartII.pdf
 raw_sha256: fd1ba7f9280e8bafd86bbec06ec18e8a7089f93e84306829a4be897d9dd8439d
 raw_storage_status: public-staging-not-archived

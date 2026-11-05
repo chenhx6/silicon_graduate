@@ -17,7 +17,7 @@ pages: 114016
 doi: 10.1088/0031-8949/90/11/114016
 language: en
 canonical_source: "https://doi.org/10.1088/0031-8949/90/11/114016"
-citation_key: ""
+citation_key: "petrache_2015_128nd-exotic-rotations"
 raw_file: "raw/papers/2015-Petrache-Nd-exotic-rotations-triaxiality.pdf"
 raw_sha256: cc6f8b952b32ff32b462987cc86f9417a0cb8702b16bc797231356b153ca5b35
 raw_storage_status: verified-raw-archive

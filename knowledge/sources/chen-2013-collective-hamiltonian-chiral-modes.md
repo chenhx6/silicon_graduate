@@ -14,7 +14,7 @@ year: 2013
 doi: 10.1103/PhysRevC.87.024314
 arxiv: 1212.2313v2
 canonical_source: https://arxiv.org/abs/1212.2313
-citation_key: ""
+citation_key: "chen_2013_collective-hamiltonian-chiral"
 raw_file: raw/papers/2013_Chen_CollectiveHamiltonianChiralModes_arxiv12122313v2.pdf
 raw_sha256: bef6182263a6282ea6c4fc3e2fbae481bbf629e484dbf9668e3ea9e622342a2c
 raw_storage_status: public-staging-not-archived

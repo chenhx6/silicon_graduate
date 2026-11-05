@@ -11,6 +11,7 @@ reading_depth: skimmed
 title_original: "IAEA LiveChart of Nuclides v1 API, ENSDF-derived level records"
 journal: IAEA LiveChart of Nuclides
 year: 2026
+citation_key: "unknown_2026_130sn-iaea-livechart"
 language: en
 canonical_source: "https://nds.iaea.org/relnsd/v1/data?fields=levels&nuclides=132Sn&format=json"
 raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/iaea-levels-132Sn.csv"

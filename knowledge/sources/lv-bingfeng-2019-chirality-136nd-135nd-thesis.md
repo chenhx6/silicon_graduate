@@ -20,8 +20,7 @@ arxiv:
 language: en
 canonical_source: "Université Paris-Saclay, 2019, HAL tel-02347000"
 zotero_item_key:
-citation_key:
-zotero_uri:
+citation_key: "lv_2019_136nd-chirality-nuclei"
 library_file: "raw/theses/degree-dissertation/吕冰峰.pdf"
 raw_file: "raw/theses/degree-dissertation/吕冰峰.pdf"
 raw_sha256: "84e8b934fda9a97ea79527a8b1456f40e534bc67be847d61b1a1219002d85749"

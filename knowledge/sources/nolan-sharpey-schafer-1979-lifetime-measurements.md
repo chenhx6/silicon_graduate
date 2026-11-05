@@ -12,6 +12,7 @@ title_original: "The measurement of the lifetimes of excited nuclear states"
 authors: [P. J. Nolan, J. F. Sharpey-Schafer]
 journal: "Reports on Progress in Physics"
 year: 1979
+citation_key: "nolan_1979_lifetime-methods-measurement-lifetimes"
 volume: 42
 pages: "1-87"
 canonical_source: "Nolan & Sharpey-Schafer, Rep. Prog. Phys. 42, 1 (1979)"

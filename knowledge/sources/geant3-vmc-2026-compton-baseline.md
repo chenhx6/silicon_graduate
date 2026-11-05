@@ -11,7 +11,7 @@ reading_depth: skimmed
 title_original: "Geant3 + VMC; G3COMP/G3FANG/G3DROT selected source"
 authors: [Geant3 and VMC contributors]
 year: 2026
-citation_key: ""
+citation_key: "contributors_2026_geant-vmc-compg"
 citation_key_status: no-local-software-BibTeX-entry
 canonical_source: "vmc-project/geant3@347fc6804dd116c66c2695df5d2c03d166a0364c"
 source_url: "https://github.com/vmc-project/geant3/tree/347fc6804dd116c66c2695df5d2c03d166a0364c"

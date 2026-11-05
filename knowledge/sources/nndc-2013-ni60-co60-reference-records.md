@@ -15,7 +15,7 @@ year: 2013
 volume: 114
 pages: 1849--2022
 doi: "10.1016/j.nds.2013.11.002"
-citation_key: ""
+citation_key: "browne_2013_60ni-data-sheets"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "NNDC60028001 ADOPTED; 60028002 CO60 B-1925.28D; 201312"
 source_url: "https://www.nndc.bnl.gov/ensdf/"

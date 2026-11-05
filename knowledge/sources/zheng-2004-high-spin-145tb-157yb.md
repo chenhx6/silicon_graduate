@@ -20,7 +20,7 @@ arxiv:
 language: zh
 canonical_source: "郑勇. 原子核145Tb和157Yb的高自旋态能级结构研究[D]. 中国科学院大学, 中国科学院近代物理研究所, 2004."
 zotero_item_key:
-citation_key: ""
+citation_key: "zheng_2004_145tb"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/郑勇-原子核145Tb和157Yb的高自旋态能级结构研究.pdf"
 raw_file: "raw/theses/degree-dissertation/郑勇-原子核145Tb和157Yb的高自旋态能级结构研究.pdf"

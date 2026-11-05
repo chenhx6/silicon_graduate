@@ -12,6 +12,7 @@ title_original: "Monte Carlo simulation of Compton polarimeters"
 authors: [L. M. Garcia-Raffi, J. L. Tain, J. Bea, A. Gadea, J. Rico, B. Rubio]
 journal: "Nuclear Instruments and Methods in Physics Research A"
 year: 1997
+citation_key: "garciaraffi_1997_monte-carlo-simulation"
 volume: 391
 pages: "461-467"
 pii: "S0168-9002(97)00389-6"

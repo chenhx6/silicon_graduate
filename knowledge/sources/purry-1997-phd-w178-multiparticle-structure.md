@@ -14,7 +14,7 @@ year: 1997
 institution: University of Surrey
 degree: Doctor of Philosophy
 date_original: May1997
-citation_key: ""
+citation_key: "purry_1997_178w-multi-particle"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "Surrey Open Research doctoral record99513285802346, Purry May1997"
 source_url: "https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/High-spin-multi-particle-and-collective-structure-in/99513285802346"

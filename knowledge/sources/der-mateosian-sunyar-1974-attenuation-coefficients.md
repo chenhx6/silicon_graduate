@@ -16,6 +16,7 @@ volume: 13
 pages: "391-406"
 pii: "0092-640X(74)90007-2"
 doi: "10.1016/0092-640X(74)90007-2"
+citation_key: "mateosian_1974_generic-tables-attenuation"
 canonical_source: "Der Mateosian & Sunyar, ADNDT 13, 391-406 (1974)"
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/multipolarity/angular distribution/ADO/1974_Der Mateosian_Sunyar_Tables of attenuation coefficients for angular distribution of gamma rays from.pdf"

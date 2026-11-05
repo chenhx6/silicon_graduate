@@ -12,7 +12,7 @@ reading_depth: read
 authors: [GRIFFIN Collaboration contributors]
 year: 2026
 data_version: "GRSISort6bd3c617cf212158da80918594ba9623fb4137c2; GRSIData54dfb1d244593a48820142ee20232a12cc959d50"
-citation_key: ""
+citation_key: "griffin_2026_grsisort-comptonpolarimetryhelper-compton"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "GRIFFINCollaboration/GRSISort selected pinned files and targeted GRSIData API"
 source_url: "https://github.com/GRIFFINCollaboration/GRSISort/tree/6bd3c617cf212158da80918594ba9623fb4137c2"

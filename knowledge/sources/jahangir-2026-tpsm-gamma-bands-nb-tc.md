@@ -14,6 +14,7 @@ journal: "arXiv preprint"
 year: 2026
 arxiv: "2603.07157v1"
 doi: "10.48550/arXiv.2603.07157"
+citation_key: "jahangir_2026_103nb-microscopic-vibrational"
 language: en
 canonical_source: "Jahangir, U. et al. Microscopic investigation of γ vibrational band structures in odd-mass nuclei. arXiv:2603.07157v1 (2026)."
 library_file: "raw/papers/gpt/learning-daily/20260920-PREPLAN-high-spin-library/振动/2026_Jahangir et al_Microscopic investigation of γ vibrational band structures in odd-mass nuclei.pdf"

@@ -20,8 +20,7 @@ arxiv:
 language: zh/en
 canonical_source: "北京大学博士学位论文, 2015"
 zotero_item_key:
-citation_key:
-zotero_uri:
+citation_key: "liu_2015_12c"
 library_file: "raw/theses/degree-dissertation/刘红娜.pdf"
 raw_file: "raw/theses/degree-dissertation/刘红娜.pdf"
 raw_sha256: "fe17cc42333e33a2325bc2124e5b2a9541408e1a9303161e74f592e55c8b9c25"

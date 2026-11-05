@@ -16,7 +16,7 @@ volume: 54
 issue: 3
 pages: "347-354"
 doi: "10.1007/s12043-000-0126-x"
-citation_key: ""
+citation_key: "palit_2000_99rh-parity-band"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "Publisher PDF Pramana54(3),347–354(2000)"
 source_url: "https://link.springer.com/content/pdf/10.1007/s12043-000-0126-x.pdf"

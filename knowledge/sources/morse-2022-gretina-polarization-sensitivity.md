@@ -15,7 +15,7 @@ year: 2022
 volume: 1025
 pages: 166155
 doi: "10.1016/j.nima.2021.166155"
-citation_key: ""
+citation_key: "morse_2022_24mg-polarization-sensitivity"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "doi:10.1016/j.nima.2021.166155; actual read: UNC author preprint 2021-12-02"
 source_url: "https://doi.org/10.17615/4vxa-4h20"

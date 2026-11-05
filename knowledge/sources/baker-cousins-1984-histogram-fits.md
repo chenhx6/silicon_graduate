@@ -18,7 +18,7 @@ pages: 437-442
 doi: "10.1016/0167-5087(84)90016-4"
 data_version: UCLA-HEP-83-3-July1983-acceptedOctober1983-KEKSCAN83-11-266
 canonical_source: "https://doi.org/10.1016/0167-5087(84)90016-4"
-citation_key:
+citation_key: "baker_1984_clarification-use-chi"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/baker-cousins-1984-histogram-fits-kekscan.pdf"
 raw_sha256: "e687601ebec8241a46db58aeeccffa2b4b252fe62c79db5b44ec51092e7c245a"
 raw_storage_status: reserved-unpopulated-public-author-report-scan-only

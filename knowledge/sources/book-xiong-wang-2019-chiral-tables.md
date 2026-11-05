@@ -15,6 +15,7 @@ year: 2019
 volume: 125
 pages: "193-225"
 doi: "10.1016/j.adt.2018.05.003"
+citation_key: "xiong_2019_135nd-chiral-doublet"
 canonical_source: "B. W. Xiong and Y. Y. Wang, At. Data Nucl. Data Tables 125, 193-225 (2019)"
 library_file: "raw/books/ScienceDirect_articles_11Jan2024_03-00-19.625/Nuclear-chiral-doublet-bands-data-tabl_2019_Atomic-Data-and-Nuclear-Data-Tab.pdf"
 raw_file: "raw/books/ScienceDirect_articles_11Jan2024_03-00-19.625/Nuclear-chiral-doublet-bands-data-tabl_2019_Atomic-Data-and-Nuclear-Data-Tab.pdf"

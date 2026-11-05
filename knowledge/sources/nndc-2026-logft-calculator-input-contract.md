@@ -12,7 +12,7 @@ reading_depth: read
 authors: [NNDC]
 year: 2026
 canonical_source: https://www.nndc.bnl.gov/logft/help.html
-citation_key: ""
+citation_key: "nndc_2026_100sn-logft-help"
 raw_file: raw/software-reference/day21-20261024/nndc-logft-help.html
 raw_sha256: cc466141f516a8c126818294e751c81afe64b572104b4851a413689ca9e4d7ec
 raw_storage_status: public-staging-verified-raw-archive-deferred

@@ -16,7 +16,7 @@ volume: 1003
 pages: "165305"
 doi: "10.1016/j.nima.2021.165305"
 arxiv: "2104.09986v1"
-citation_key: ""
+citation_key: "riley_2021_137cs-ucgretina-geant"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "arXiv2104.09986v1 actual26pagePDF, CrossrefDOI metadata"
 source_url: "https://arxiv.org/abs/2104.09986v1"

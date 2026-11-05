@@ -11,7 +11,7 @@ source_type: institutional-research-reports
 reading_depth: read
 authors: [Y. Zhai, L. Trache, V. E. Iacob, et al.]
 year: 2007
-citation_key: ""
+citation_key: "zhai_2007_23al-selected-reports"
 canonical_source: "TAMU2005–2006 I5–I10 plus2006–2007 I27–I28 selectedcompleteauthoredreports"
 source_url: https://cyclotron.tamu.edu/publications/
 raw_file: raw/reports/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/cyclotron-progress2006.pdf

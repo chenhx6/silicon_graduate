@@ -18,7 +18,7 @@ doi: 10.1103/PhysRevC.92.034319
 arxiv: 1506.08340v2
 language: en
 canonical_source: "https://doi.org/10.1103/PhysRevC.92.034319"
-citation_key: ""
+citation_key: "zhao_2015_135nd-impact-pairing"
 raw_file: "raw/papers/2015-Zhao-pairing-spin-orientation-TAC.pdf"
 raw_sha256: ce3c7672420b07e9bbe7d7a869049771c5cef9aa64f4dffce5dfd18bcb0b3c21
 raw_storage_status: verified-raw-archive

@@ -14,7 +14,7 @@ author_role: repository-software-attribution-not-certified-data-acquisition-auth
 year: 2012
 year_scope: acquisition-period-from-example-README-not-repository-publication
 data_version: "UCGretina1271388e03ec9b3f8e055a988aeb4c2e4d2efedf; GRUTinizerf648d7cb4fc0609f13aaad7148977f87641ecac9"
-citation_key: ""
+citation_key: "riley_2012_152eu-ucgretina"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "pinnedUCGretina Eu152 run007/run020 ROOT, README/Fit and sorting objects; pinnedGRUT point decoder"
 source_url: "https://github.com/rileyle/UCGretina/tree/1271388e03ec9b3f8e055a988aeb4c2e4d2efedf/examples/sources/eu152"

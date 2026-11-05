@@ -12,6 +12,7 @@ title_original: "原子核物理（修订版）"
 authors: [卢希庭, 江栋兴, 叶沿林]
 publisher: "原子能出版社"
 year: 2000
+citation_key: "lu_2000_books-nuclear-physics"
 pages: "439"
 isbn: "7-5022-2188-3"
 canonical_source: "卢希庭, 江栋兴, 叶沿林, 《原子核物理（修订版）》, 原子能出版社 (2000)"

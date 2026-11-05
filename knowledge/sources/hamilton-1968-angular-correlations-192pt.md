@@ -12,6 +12,7 @@ title_original: "Angular correlation measurements in 192Pt"
 authors: [W. D. Hamilton, K. E. Davies]
 journal: "Nuclear Physics A"
 year: 1968
+citation_key: "hamilton_1968_192pt-angular-correlation"
 volume: 122
 pages: "165-176"
 pii: "0375-9474(68)90710-0"

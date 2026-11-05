@@ -17,7 +17,7 @@ issue: 4
 pages: "044313"
 doi: 10.1103/PhysRevC.76.044313
 canonical_source: https://doi.org/10.1103/PhysRevC.76.044313
-citation_key: ""
+citation_key: "tonev_2007_134pr-question-dynamic"
 raw_file: raw/papers/2007_Tonev_134Pr_Dynamic_Chirality.pdf
 raw_sha256: 822780157dadbeac4adfa3cd34b919b855a3911c497c229b2216fb7697f1b8aa
 raw_storage_status: archived-from-verified-public-staging

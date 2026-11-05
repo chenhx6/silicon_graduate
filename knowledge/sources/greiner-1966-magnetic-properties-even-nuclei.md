@@ -12,6 +12,7 @@ title_original: "Magnetic Properties of Even Nuclei"
 authors: [Walter Greiner]
 journal: "Nuclear Physics"
 year: 1966
+citation_key: "greiner_1966_even-nuclei-magnetic-even"
 volume: 80
 pages: "417-433"
 pii: "0029-5582(66)90100-3"

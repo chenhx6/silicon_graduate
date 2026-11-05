@@ -12,6 +12,7 @@ title_original: "Introduction to Nuclear Reactions"
 authors: [Carlos A. Bertulani, Pawel Danielewicz]
 publisher: "CRC Press / Taylor & Francis Group"
 year: 2021
+citation_key: "bertulani_2021_introduction-reactions"
 pages: "421"
 isbn: "9780367353629"
 canonical_source: "C. A. Bertulani and P. Danielewicz, Introduction to Nuclear Reactions (2nd Ed.), CRC Press (2021)"

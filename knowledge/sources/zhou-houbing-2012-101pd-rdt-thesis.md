@@ -20,7 +20,7 @@ arxiv:
 language: zh/en
 canonical_source: "周厚兵. 101Pd 在束 γ 谱学研究和 RDT 实验装置设计[D]. 中国科学院近代物理研究所, 2012."
 zotero_item_key:
-citation_key: ""
+citation_key: "zhou_2012_101pd-rdt"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/周厚兵.pdf"
 raw_file: "raw/theses/degree-dissertation/周厚兵.pdf"

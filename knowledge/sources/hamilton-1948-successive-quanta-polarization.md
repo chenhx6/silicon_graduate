@@ -12,6 +12,7 @@ title_original: "Polarization and Direction of Propagation of Successive Quanta"
 authors: [Donald R. Hamilton]
 journal: "Physical Review"
 year: 1948
+citation_key: "hamilton_1948_generic-polarization-direction"
 volume: 74
 pages: "782-788"
 canonical_source: "Hamilton, Phys. Rev. 74, 782 (1948)"

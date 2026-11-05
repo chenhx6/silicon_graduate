@@ -14,7 +14,7 @@ year: 2023
 version: "1.0.5 at fixed commit"
 commit_date: "2023-03-17T18:04:55Z"
 license: GPL-3.0-or-later
-citation_key: ""
+citation_key: "frimangayer_2023_110cd-alpaca-linearly"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "github:u-eff-gee/alpaca@f173c2d2e2fd855451e06446a2cfcce679c42d24"
 source_url: "https://github.com/u-eff-gee/alpaca/tree/f173c2d2e2fd855451e06446a2cfcce679c42d24"

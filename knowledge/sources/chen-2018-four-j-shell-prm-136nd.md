@@ -18,7 +18,7 @@ doi: 10.1016/j.physletb.2018.06.030
 arxiv: 1805.06162v1
 canonical_source: https://doi.org/10.1016/j.physletb.2018.06.030
 full_text_url: https://arxiv.org/pdf/1805.06162v1
-citation_key: ""
+citation_key: "chen_2018_136nd-multiple-chiral"
 raw_file: raw/papers/2018_Chen_FourJShellPRM136Nd_arxiv180506162v1.pdf
 raw_sha256: cba4fa62433207c06b8673dc484d8a2d0ecdd7db51c27eafb2329726190bee91
 raw_storage_status: public-staging-not-archived

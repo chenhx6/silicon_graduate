@@ -15,7 +15,7 @@ journal: Hyperfine Interactions
 volume: "15/16"
 pages: "101-104"
 doi: "10.1007/BF02159726"
-citation_key: ""
+citation_key: "dafni_1983_134ce-electric-quadrupole"
 canonical_source: "https://doi.org/10.1007/BF02159726"
 source_url: "http://link.springer.com/content/pdf/10.1007/BF02159726.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/dafni-1983-ce-tin-quadrupole.pdf"

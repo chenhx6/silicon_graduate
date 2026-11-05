@@ -18,7 +18,7 @@ doi: 10.1016/j.nima.2012.12.084
 arxiv: 1209.1188v1
 language: en
 canonical_source: "https://doi.org/10.1016/j.nima.2012.12.084"
-citation_key:
+citation_key: "crespi_2013_12c-response-agata"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/crespi-2013-agata-15mev.pdf"
 raw_sha256: "1334b31bac18e12c1ce887de43d2e74e6ec0d409d49e0dc5d5660db03ab5b983"
 raw_storage_status: reserved-unpopulated-public-preprint-only

@@ -12,6 +12,7 @@ title_original: "From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theor
 authors: [Jouni Suhonen]
 publisher: "Springer-Verlag Berlin Heidelberg"
 year: 2007
+citation_key: "suhonen_2007_nucleons-nucleus-concepts"
 pages: "654"
 isbn: "9783540488590"
 canonical_source: "J. Suhonen, From Nucleons to Nucleus: Concepts of Microscopic Nuclear Theory, Springer (2007)"

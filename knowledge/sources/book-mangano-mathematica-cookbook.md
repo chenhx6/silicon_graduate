@@ -12,6 +12,7 @@ title_original: "Mathematica Cookbook"
 authors: [Sal Mangano]
 publisher: "O'Reilly Media"
 year: 2010
+citation_key: "mangano_2010_mathematica-cookbook"
 pages: "827"
 isbn: "978-0-596-52099-1"
 canonical_source: "Sal Mangano, Mathematica Cookbook, O'Reilly Media (2010)"

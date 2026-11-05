@@ -20,7 +20,7 @@ arxiv:
 language: zh
 canonical_source: "王思成. 过渡区核195Au和195Pt高自旋态能级结构研究[D]. 中国科学院大学, 中国科学院近代物理研究所, 2013."
 zotero_item_key:
-citation_key: ""
+citation_key: "wang_2013_195au"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/王思成 - 过渡区核195Au和195Pt高自旋态能级结构研究.pdf"
 raw_file: "raw/theses/degree-dissertation/王思成 - 过渡区核195Au和195Pt高自旋态能级结构研究.pdf"

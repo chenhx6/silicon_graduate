@@ -11,7 +11,7 @@ source_type: public-software-repository
 reading_depth: skimmed
 authors: [ROOT collaboration, Rene Brun, Fons Rademakers, Miroslav Morhac]
 year: 2008
-citation_key: ""
+citation_key: "root_2008_23al-root-tspectrum"
 canonical_source: "root-project/root tagv5-22-00 commita365d2fa4cdc4fea91420c400280dc9fc7c64214"
 source_url: https://github.com/root-project/root/tree/a365d2fa4cdc4fea91420c400280dc9fc7c64214
 raw_file: raw/code/day17-20261020/ROOT-v522-TH1.cxx

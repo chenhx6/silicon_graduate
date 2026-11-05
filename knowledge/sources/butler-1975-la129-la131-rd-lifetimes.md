@@ -17,7 +17,7 @@ issue: 5
 pages: 453–456
 doi: 10.1016/0370-2693(75)90410-4
 canonical_source: https://doi.org/10.1016/0370-2693(75)90410-4
-citation_key: ""
+citation_key: "butler_1975_129la-triaxial-shapes"
 raw_file: raw/papers/1975_Butler_TriaxialShapes_LightLa.pdf
 raw_sha256: 231b6f427ac9bdd15688bf373959d2dff63dd7e694ee2dbb9b12cc0186ba8e0a
 raw_storage_status: public-staging-not-archived

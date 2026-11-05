@@ -16,7 +16,7 @@ journal: EPJ Web of Conferences
 volume: 93
 pages: "01013"
 doi: "10.1051/epjconf/20159301013"
-citation_key: ""
+citation_key: "regis_2015_100zr-generalized-centroid"
 canonical_source: "https://doi.org/10.1051/epjconf/20159301013"
 source_url: "https://www.epj-conferences.org/articles/epjconf/pdf/2015/12/epjconf_cgs2015_01013.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261021-DAY19-rdds-fast-timing/regis-2015-gcd-epjconf-01013.pdf"

@@ -15,7 +15,7 @@ journal: Hyperfine Interactions
 volume: 10
 pages: "811-820"
 doi: "10.1007/BF01022015"
-citation_key: ""
+citation_key: "barth_1981_136ce-local-moment"
 canonical_source: "https://doi.org/10.1007/BF01022015"
 source_url: "http://link.springer.com/content/pdf/10.1007/BF01022015.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/barth-1981-ce-local-moments.pdf"

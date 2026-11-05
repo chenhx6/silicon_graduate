@@ -11,6 +11,7 @@ reading_depth: skimmed
 title_original: "Nuclear Structure, Volume II: Nuclear Deformations"
 authors: [Aage Bohr, Ben R. Mottelson]
 year: 1975
+citation_key: "bohr_1975_volume-deformations"
 publisher: "World Scientific reissue of W. A. Benjamin original"
 pages: "772 PDF pages; selected printed pp. 190–192"
 language: en

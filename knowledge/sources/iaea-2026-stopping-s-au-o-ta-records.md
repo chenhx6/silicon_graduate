@@ -11,7 +11,7 @@ source_type: compiled-experimental-and-model-data
 reading_depth: read
 authors: [IAEA Nuclear Data Section]
 year: 2026
-citation_key: ""
+citation_key: "iaea_2026_31s-electronic-stopping"
 canonical_source: "IAEA Stopping Power Database 2026-09 selected S-Au O-Ta download objects"
 source_url: https://www-nds.iaea.org/stopping/
 data_version: website-version-2026-09-selected-pairs-last-modified-2023-11-27

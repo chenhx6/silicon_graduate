@@ -15,7 +15,7 @@ journal: Physical Review C
 volume: 77
 pages: 055803
 doi: 10.1103/PhysRevC.77.055803
-citation_key: ""
+citation_key: "schurmann_2008_15o-lifetime-measurement"
 canonical_source: https://doi.org/10.1103/PhysRevC.77.055803
 raw_file: raw/papers/2008_Schuermann_et_al_15O6792_Doppler_attenuation.pdf
 raw_sha256: e052b2ab382b9982522d009612cb1362f4ecb981a8724ad7b3829ff492671f61

@@ -20,7 +20,7 @@ arxiv:
 language: zh
 canonical_source: "李仕成. 形变双奇核184,186Au的高自旋态实验研究[D]. 中国科学院大学, 中国科学院近代物理研究所, 2013."
 zotero_item_key:
-citation_key: ""
+citation_key: "li_2013_184au"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/李仕成-形变双奇核184,186Au的高自旋态实验研究.pdf"
 raw_file: "raw/theses/degree-dissertation/李仕成-形变双奇核184,186Au的高自旋态实验研究.pdf"

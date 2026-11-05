@@ -18,7 +18,7 @@ doi: "10.1103/PhysRevC.64.054314"
 canonical_source: "https://doi.org/10.1103/PhysRevC.64.054314"
 publisher: American Physical Society
 language: en
-citation_key: ""
+citation_key: "chiara_2001_108in-isotopes-lifetime"
 raw_file: "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2001_Chiara et al_Spectroscopy in 108,110In isotopes_Lifetime measurements in shears bands.pdf"
 raw_sha256: "5672ffce1e4049245b3107e6132af0ff7501d14182a03d803cd66828e6660a4e"
 nuclei: [108in, 110in]

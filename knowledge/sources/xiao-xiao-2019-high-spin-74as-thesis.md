@@ -19,8 +19,7 @@ arxiv:
 language: zh/en
 canonical_source: "肖骁. 奇奇核74As的高自旋态研究[D]. 山东大学, 2019."
 zotero_item_key:
-citation_key:
-zotero_uri:
+citation_key: "xiao_2019_74as"
 library_file: "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf"
 raw_file: "raw/theses/degree-dissertation/肖骁_奇奇核~(74)As的高自旋态研究.pdf"
 raw_sha256: "bf0763004d98be5a540ab7802eb0baed7c11387224f1818426b891f5a3ef362b"

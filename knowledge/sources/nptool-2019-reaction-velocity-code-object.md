@@ -18,7 +18,7 @@ upstream_commit: 415ad50066f715ca1de312da1202201f9381e87e
 upstream_committed_at: 2019-09-02T12:38:49Z
 canonical_source: "https://github.com/adrien-matta/nptool/blob/415ad50066f715ca1de312da1202201f9381e87e/NPLib/Physics/NPReaction.cxx"
 data_version: pinned-2019-public-Github-object-successor-not-read
-citation_key:
+citation_key: "matta_2019_nptool-reactionnucleus-kinematic"
 raw_file: "raw/code/gpt/day13/nptool-2019/NPReaction.cxx"
 raw_sha256: "e9babf556002357bfed1bb87dcd86efd66959f45779c425887536c3dd43d4d88"
 raw_storage_status: reserved-unpopulated-public-code-copy-only

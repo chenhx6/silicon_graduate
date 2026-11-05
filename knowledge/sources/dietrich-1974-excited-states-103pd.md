@@ -20,7 +20,7 @@ arxiv:
 language: en
 canonical_source: "Dietrich, W.; Nyman, B.; Johansson, A.; Bäcklin, A. Excited States in 103Pd. Uppsala University Institute of Physics, UUIP-882, 1974."
 zotero_item_key:
-citation_key: ""
+citation_key: "dietrich_1974_103pd-excited"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/EXCITED STATES IN 103Pd.pdf"
 raw_file: "raw/theses/degree-dissertation/EXCITED STATES IN 103Pd.pdf"

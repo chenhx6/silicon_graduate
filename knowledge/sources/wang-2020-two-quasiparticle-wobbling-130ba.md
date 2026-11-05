@@ -16,7 +16,7 @@ status: ai-draft
 review_status: unreviewed
 source_type: theory-article
 reading_depth: deep-read
-citation_key: ""
+citation_key: "unknown_2020_130ba-two-quasiparticle"
 doi: 10.1016/j.physletb.2020.135246
 nuclei: [130ba]
 ---

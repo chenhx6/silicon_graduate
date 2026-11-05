@@ -15,6 +15,7 @@ year: 2019
 volume: "922"
 pages: "47-63"
 doi: "10.1016/j.nima.2018.10.097"
+citation_key: "smith_2019_60ni-gammagamma-angular"
 arxiv: "1807.07570v1"
 language: en
 canonical_source: "Smith et al., NIM A 922,47–63(2019), DOI10.1016/j.nima.2018.10.097; 本页实际读arXiv1807.07570v1(2018),28页。"

@@ -15,7 +15,7 @@ year: 1998
 volume: 2
 pages: 129--141
 doi: "10.1007/s100500050101"
-citation_key: ""
+citation_key: "jones_1998_223ra-populated-alpha"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "doi:10.1007/s100500050101 publisherPDF"
 source_url: "https://link.springer.com/content/pdf/10.1007/s100500050101.pdf"

@@ -12,6 +12,7 @@ title_original: "Triaxial deformation and the loss of the N=28 shell gap"
 authors: [Y. Suzuki, M. Kimura]
 journal: "arXiv:2103.06086v1"
 year: 2021
+citation_key: "suzuki_2021_38mg-triaxial-deformation"
 pages: "1-18"
 arxiv: "2103.06086v1"
 canonical_source: "https://arxiv.org/abs/2103.06086"

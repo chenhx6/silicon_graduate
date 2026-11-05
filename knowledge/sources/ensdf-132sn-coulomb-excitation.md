@@ -12,6 +12,7 @@ title_original: "132Sn Coulomb excitation"
 authors: [Balraj Singh]
 journal: ENSDF evaluation subfile
 year: 2018
+citation_key: "singh_2018_132sn-coulomb-excitation"
 language: en
 canonical_source: "https://www.nndc.bnl.gov/ensnds/132/Sn/coulex.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/ensdf-132Sn-coulex.pdf"

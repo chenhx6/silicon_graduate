@@ -20,7 +20,7 @@ arxiv: 2104.10707v1
 data_version: "public arXiv2104.10707v1 copy; beam configurations2019/2020 separated"
 language: en
 canonical_source: "https://arxiv.org/abs/2104.10707v1"
-citation_key:
+citation_key: "assie_2021_17o-mugast-agata"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/assie-2021-mugast-campaign.pdf"
 raw_sha256: "7eb71ca9d7816083184fbdac2b1f8ca91b77cbb69da47988017a563c4719c451"
 raw_storage_status: reserved-unpopulated-public-preprint-only

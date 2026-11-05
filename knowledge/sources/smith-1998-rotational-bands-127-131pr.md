@@ -20,7 +20,7 @@ arxiv:
 language: en
 canonical_source: "Smith, Bradley Hagood. Rotational Bands Representing a Multiplicity of Shapes in 127-131Pr[D]. University of Tennessee, Knoxville, 1998."
 zotero_item_key:
-citation_key: ""
+citation_key: "smith_1998_127pr-rotational-bands"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/Rotational bands representing a multiplicity of shapes in ¹²⁷⁻¹³¹Pr.pdf"
 raw_file: "raw/theses/degree-dissertation/Rotational bands representing a multiplicity of shapes in ¹²⁷⁻¹³¹Pr.pdf"

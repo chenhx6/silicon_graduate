@@ -12,6 +12,7 @@ title_original: "Nuclear Structure with Coherent States"
 authors: [A. A. Raduta]
 publisher: "Springer International Publishing Switzerland"
 year: 2016
+citation_key: "raduta_2016_coherent"
 pages: "524"
 isbn: "9783319168470"
 canonical_source: "A. A. Raduta, Nuclear Structure with Coherent States, Springer (2016)"

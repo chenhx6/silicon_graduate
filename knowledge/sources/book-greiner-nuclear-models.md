@@ -12,6 +12,7 @@ title_original: "Nuclear Models"
 authors: [Walter Greiner, Joachim A. Maruhn]
 publisher: "Springer-Verlag Berlin Heidelberg"
 year: 1996
+citation_key: "greiner_1996_models"
 pages: "399"
 isbn: "9783540591801"
 canonical_source: "W. Greiner and J. A. Maruhn, Nuclear Models, Springer-Verlag (1996)"

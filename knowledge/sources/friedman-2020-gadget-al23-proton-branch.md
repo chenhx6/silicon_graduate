@@ -15,7 +15,7 @@ journal: Physical Review C
 volume: 101
 pages: 052802
 doi: 10.1103/PhysRevC.101.052802
-citation_key: ""
+citation_key: "friedman_2020_23al-energy-beta"
 canonical_source: "Friedman PRC101052802 OSTI1726146 LANLacceptedmanuscript/arxiv191108783v2"
 source_url: https://www.osti.gov/servlets/purl/1726146
 raw_file: raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/friedman-2020-gadget-accepted.pdf

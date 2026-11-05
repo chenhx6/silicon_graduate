@@ -12,6 +12,7 @@ title_original: "A sectored Ge-Compton polarimeter for parity assignments in pho
 authors: [B. Schlitt, U. Maier, H. Friedrichs, S. Albers, J. Bauske, P. von Brentano, R. D. Heil, R.-D. Herzberg, U. Kneissl, J. Margraf, H. H. Pitz, C. Wesselborg, A. Zilges]
 journal: "Nuclear Instruments and Methods in Physics Research A"
 year: 1994
+citation_key: "schlitt_1994_106pd-sectored-compton"
 volume: 337
 pages: "416-426"
 pii: "0168-9002(94)91111-8"

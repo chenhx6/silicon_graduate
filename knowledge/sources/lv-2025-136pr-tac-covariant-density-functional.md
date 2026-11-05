@@ -19,7 +19,7 @@ arxiv:
 language: en
 canonical_source: "https://doi.org/10.1103/PhysRevC.111.014321"
 zotero_item_key: ""
-citation_key: ""
+citation_key: "lv_2025_136pr-configuration-dependent"
 zotero_uri: ""
 library_file: ""
 raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/136pr-2025-tac-cdfTAC/PDFs/Configuration_dependent_shapes_and_types_of_rotations_in_the_gamma-soft_Pr-136_nucleus_revealed_by_detailed_calculations_with_tilted_axis_cr.pdf"

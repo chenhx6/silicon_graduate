@@ -12,6 +12,7 @@ title_original: "原子核是否存在手性"
 authors: [孟杰]
 journal: "物理"
 year: 2009
+citation_key: "meng_2009_nuclear-chirality-systematics"
 volume: 38
 issue: 2
 pages: "87-91"

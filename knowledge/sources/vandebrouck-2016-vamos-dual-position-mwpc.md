@@ -18,7 +18,7 @@ doi: 10.1016/j.nima.2015.12.040
 arxiv: 1512.08881v1
 language: en
 canonical_source: "https://doi.org/10.1016/j.nima.2015.12.040"
-citation_key:
+citation_key: "vandebrouck_2016_98zr-dual-position"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/vandebrouck-2016-vamos-mwpc.pdf"
 raw_sha256: "66afd2c355fb3a6e4e507b9c369154f282e7a685848c0ad4110397b6c8d57e71"
 raw_storage_status: reserved-unpopulated-public-preprint-only

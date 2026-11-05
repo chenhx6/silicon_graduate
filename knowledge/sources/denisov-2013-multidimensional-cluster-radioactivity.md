@@ -18,6 +18,7 @@ journal: Physical Review C
 volume: "88"
 pages: "044608"
 doi: "10.1103/PhysRevC.88.044608"
+citation_key: "denisov_2013_228th-multidimensional-cluster"
 source_url: "https://arxiv.org/abs/1311.3810v1"
 raw_storage_status: "raw-pdf-archived-new-original"
 staging_file: "tmp/day26-cluster/1311.3810.pdf"

@@ -18,7 +18,7 @@ pages: 021303
 doi: 10.1103/PhysRevC.101.021303
 data_version: arXiv-2002.04814v1-main-seven-pages
 canonical_source: "https://doi.org/10.1103/PhysRevC.101.021303"
-citation_key:
+citation_key: "ciemaa_2020_16c-testing-initio"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ciemala-2020-c16-o20-lifetimes.pdf"
 raw_sha256: "b3d93fffb158ac68f7b99d627fe81fe9588dbf316d9f6eea92eb5cfcc1af2962"
 raw_storage_status: reserved-unpopulated-public-preprint-only

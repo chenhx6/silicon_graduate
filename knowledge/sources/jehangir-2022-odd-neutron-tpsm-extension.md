@@ -31,7 +31,7 @@ arxiv: 2203.12851v1
 language: en
 canonical_source: "https://arxiv.org/abs/2203.12851"
 zotero_item_key: ""
-citation_key: ""
+citation_key: "jehangir_2022_117xe-extended-triaxial"
 zotero_uri: ""
 library_file: ""
 raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2203-12851-tpsm-odd-neutron-xe-20260930/PDFs/Extended_triaxial_projected_shell_model_approach_for_odd-neutron_nuclei.pdf"

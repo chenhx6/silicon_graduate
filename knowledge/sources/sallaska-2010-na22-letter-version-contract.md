@@ -15,7 +15,7 @@ journal: Physical Review Letters
 volume: 105
 pages: 152501
 doi: 10.1103/PhysRevLett.105.152501
-citation_key: ""
+citation_key: "sallaska_2010_22na-direct-napgamma"
 canonical_source: "Sallaska PRL105152501 arxiv1008.4170v2 and targetedv1; officialerratum105209901 metadataonly"
 source_url: https://arxiv.org/abs/1008.4170v2
 raw_file: raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/sallaska-2010-letter-arxiv-v2.pdf

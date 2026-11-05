@@ -19,7 +19,7 @@ arxiv:
 language: zh
 canonical_source: "王海霞. 173W和128I的高自旋态研究以及Gas-ΔE+Si-E望远镜系统的研制[D]. 中国科学院研究生院, 2012."
 zotero_item_key:
-citation_key: ""
+citation_key: "wang_2012_173w-gas-esi"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/王海霞 - 173W 和128I 的高自旋态研究.pdf"
 raw_file: "raw/theses/degree-dissertation/王海霞 - 173W 和128I 的高自旋态研究.pdf"

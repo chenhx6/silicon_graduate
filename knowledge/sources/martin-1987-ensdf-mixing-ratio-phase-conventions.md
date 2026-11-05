@@ -18,7 +18,7 @@ parent_report: BNL-NCS-40503
 parent_date: October1987
 doi: "10.2172/5262270"
 doi_scope: edited-parent-manual-not-chapter-specific
-citation_key: ""
+citation_key: "martin_1987_phase-conventions-mixing"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "Martin August1987 phase chapter pp1-9 in NNDC BNL-NCS-40503"
 source_url: "https://www.nndc.bnl.gov/ensdf/evalcorner/pdfs/ensdf-procedures.pdf"

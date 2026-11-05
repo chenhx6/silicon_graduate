@@ -16,7 +16,7 @@ volume: 114
 issue: 3
 pages: "034322"
 doi: 10.1103/gm4m-8wyn
-citation_key: ""
+citation_key: "stuchbery_2026_54cr-doppler-shift"
 canonical_source: https://doi.org/10.1103/gm4m-8wyn
 raw_file: raw/papers/2026_Stuchbery_Cr54_Dsam_reevaluation.pdf
 raw_sha256: 918ba5cb8a663bf57aedfef50f8106774a539f45454066079854bf425cfe1440

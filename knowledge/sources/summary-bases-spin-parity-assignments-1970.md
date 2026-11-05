@@ -12,6 +12,7 @@ title_original: "Summary of Bases for Spin and Parity Assignments - 1970"
 authors: [Nuclear Data Sheets editorial compilation]
 journal: "Nuclear Data Sheets"
 year: 1970
+citation_key: "compilation_1970_assignment-methods-summary-bases"
 pages: "iii-iv"
 pii: "S0090-550X(70)80047-X"
 canonical_source: "Nuclear Data Sheets 1970 summary of bases"

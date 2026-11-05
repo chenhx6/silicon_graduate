@@ -12,6 +12,7 @@ title_original: "Exotic Isomers in Deformed Atomic Nuclei"
 authors: [P. M. Walker, G. D. Dracoulis]
 journal: "Hyperfine Interactions"
 year: 2001
+citation_key: "walker_2001_178hf-exotic-isomers"
 volume: 135
 pages: "83-107"
 canonical_source: "Walker & Dracoulis, Hyperfine Interactions 135, 83-107 (2001)"

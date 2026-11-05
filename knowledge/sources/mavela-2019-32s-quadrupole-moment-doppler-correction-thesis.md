@@ -19,8 +19,7 @@ arxiv:
 language: en
 canonical_source: "Lihleli Mavela, Determination of the Spectroscopic Quadrupole moment of the first 2+ excited state in 32S, University of the Western Cape, 2019."
 zotero_item_key:
-citation_key:
-zotero_uri:
+citation_key: "mavela_2019_32s-determination-spectroscopic"
 library_file: "raw/theses/degree-dissertation/硕士论文_多普勒修正.pdf"
 raw_file: "raw/theses/degree-dissertation/硕士论文_多普勒修正.pdf"
 raw_sha256: "4c656a983a0502eaef7c551dfaf6e13539ce472f8e76aea6299ad09cfc112ccf"

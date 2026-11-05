@@ -15,7 +15,7 @@ journal: Physical Review C
 volume: "99"
 pages: "054313"
 doi: "10.1103/PhysRevC.99.054313"
-citation_key: ""
+citation_key: "henderson_2019_76se-triaxiality-selenium"
 canonical_source: "https://doi.org/10.1103/PhysRevC.99.054313"
 source_url: "https://link.aps.org/accepted/10.1103/PhysRevC.99.054313"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/henderson-2019-triaxiality-selenium76.pdf"

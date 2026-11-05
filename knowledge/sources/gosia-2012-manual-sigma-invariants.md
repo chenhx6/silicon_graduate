@@ -11,7 +11,7 @@ source_type: technical-manual-and-program-source
 reading_depth: skimmed
 authors: [D. Cline, T. Czosnyka, A.B. Hayes, P. Napiorkowski, N. Warr, C.Y. Wu]
 year: 2012
-citation_key: ""
+citation_key: "cline_2012_gosia-user-manual"
 canonical_source: "https://www.pas.rochester.edu/~cline/Gosia/downloads.html"
 source_url: "https://www.pas.rochester.edu/~cline/Gosia/Gosia_Manual_20120510.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/gosia-user-manual-20120510.pdf"

@@ -19,7 +19,7 @@ arxiv: 2508.00373v1
 language: en
 canonical_source: "https://doi.org/10.1016/j.physletb.2025.139794"
 zotero_item_key: ""
-citation_key: ""
+citation_key: "budaca_2025_103rh-harmonic-chiral"
 zotero_uri: ""
 library_file: ""
 raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2508-00373-harmonic-chiral-vibration/PDFs/Harmonic_chiral_vibration_in_triaxial_nuclei.pdf"

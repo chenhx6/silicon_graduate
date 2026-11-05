@@ -12,6 +12,7 @@ title_original: "原子核物理实验方法（第三版）"
 authors: [吴治华]
 publisher: "原子能出版社"
 year: 2005
+citation_key: "wu_2005_books-experimental-nuclear-physics"
 pages: "483"
 isbn: "978-7-5022-3405-8"
 canonical_source: "吴治华, 《原子核物理实验方法（第三版）》, 原子能出版社 (2005)"

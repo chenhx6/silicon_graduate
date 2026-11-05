@@ -12,6 +12,7 @@ title_original: "On the Magic Numbers in Nuclear Structure"
 authors: [Otto Haxel, J. Hans D. Jensen, Hans E. Suess]
 journal: "Physical Review"
 year: 1949
+citation_key: "haxel_1949_shell-structure-magic-numbers"
 volume: 75
 pages: "1766"
 canonical_source: "Haxel, Jensen & Suess, Phys. Rev. 75, 1766 (1949)"

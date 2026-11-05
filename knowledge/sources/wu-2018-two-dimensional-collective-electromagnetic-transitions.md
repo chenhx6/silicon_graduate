@@ -14,7 +14,7 @@ year: 2018
 doi: 10.1103/PhysRevC.98.064302
 arxiv: 1809.04418v2
 canonical_source: https://arxiv.org/abs/1809.04418
-citation_key: ""
+citation_key: "wu_2018_two-dimensional-collective"
 raw_file: raw/papers/2018_Wu_TwoDimensionalCollectiveEM_arxiv180904418v2.pdf
 raw_sha256: 7d7c12ebc754f23721bd5367acc050c54dd3cf0f03f2f7480de407c1f3493dcb
 raw_storage_status: public-staging-not-archived

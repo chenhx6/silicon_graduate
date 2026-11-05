@@ -18,7 +18,7 @@ record_id: 133058001
 companion_record_id: 133058014
 retrieved_local: 2026-10-27
 canonical_source: https://www.nndc.bnl.gov/nudat3/getdataset.jsp?nucleus=133Ce&unc=nds
-citation_key: ""
+citation_key: "khazov_2011_133ce-adopted-levels"
 raw_file: raw/database-records/133ce-2011-adopted-133058001.ensdf
 raw_sha256: 4ac09f19661a52dd6061c8797cd3daeeadb869ca5be67d4423bc35040da4bced
 raw_storage_status: public-staging-not-archived

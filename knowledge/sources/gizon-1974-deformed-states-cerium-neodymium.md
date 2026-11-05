@@ -17,7 +17,7 @@ issue: 3
 pages: 557–578
 doi: 10.1016/0375-9474(74)90339-X
 canonical_source: https://doi.org/10.1016/0375-9474(74)90339-X
-citation_key: ""
+citation_key: "gizon_1974_133ce-deformed-neutron"
 raw_file: raw/papers/1974_Gizon_DeformedStates_CeNd.pdf
 raw_sha256: 9d09f0fca35c125cb35241bbd2f231a65ec710702889c8b0262a529af7f56dac
 raw_storage_status: public-staging-not-archived

@@ -12,6 +12,7 @@ title_original: "Double Gamma Decay in 40Ca and 90Zr"
 authors: [J. Schirmer, D. Habs, R. Kroth, N. Kwong, D. Schwalm, M. Zirnbauer, C. Broude]
 journal: "Physical Review Letters"
 year: 1984
+citation_key: "schirmer_1984_40ca-double-gamma"
 volume: 53
 issue: 20
 pages: "1897-1900"

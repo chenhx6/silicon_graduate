@@ -12,6 +12,7 @@ title_original: "Gamma-ray polarization measurements with a single Ge(Li) detect
 authors: [G. T. Ewan, G. I. Andersson, G. A. Bartholomew, A. E. Litherland]
 journal: "Physics Letters B"
 year: 1969
+citation_key: "ewan_1969_102ru-gamma-ray"
 volume: 29B
 pages: "352-354"
 pii: "0370-2693(69)90382-7"

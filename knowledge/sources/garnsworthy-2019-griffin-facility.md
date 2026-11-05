@@ -17,7 +17,7 @@ pages: "9-29"
 doi: "10.1016/j.nima.2018.11.115"
 arxiv: "1809.07183v2"
 data_version: "arXiv v2 dated 2018-12-06; PDF footer 2018-12-10; VoR metadata2019"
-citation_key: ""
+citation_key: "garnsworthy_2019_60ni-griffin-facility"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "Garnsworthy et al., NIM A918,9-29(2019); actual body arxiv1809.07183v2"
 source_url: "https://arxiv.org/pdf/1809.07183v2"

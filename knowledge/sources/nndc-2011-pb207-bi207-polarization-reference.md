@@ -16,7 +16,7 @@ volume: 112
 pages: "707-853"
 doi: "10.1016/j.nds.2011.02.002"
 data_version: "ENSDF201102; cutoff2010-08-01; EC format note2012-03-07"
-citation_key: ""
+citation_key: "kondev_2011_207pb-adopted-levels"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "NNDC ENSDF207082001/207082005; Kondev/Lalkovski NDS112,707-853(2011)"
 source_url: "https://www.nndc.bnl.gov/ensdf/"

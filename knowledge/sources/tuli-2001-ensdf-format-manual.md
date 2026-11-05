@@ -13,7 +13,7 @@ authors: [Jagdish K. Tuli]
 year: 2001
 date_original: February2001
 report_number: BNL-NCS-51655-01/02-Rev
-citation_key: ""
+citation_key: "tuli_2001_evaluated-data-file"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "NNDC official ENSDF format manual, Tuli February2001"
 source_url: "https://www.nndc.bnl.gov/ensdf/ensdf-manual.pdf"

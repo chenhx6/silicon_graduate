@@ -20,8 +20,7 @@ arxiv:
 language: zh/en
 canonical_source: "中国科学院近代物理研究所博士学位论文, 2012"
 zotero_item_key:
-citation_key:
-zotero_uri:
+citation_key: "liu_2012_101zr"
 library_file: "raw/theses/degree-dissertation/刘艳鑫 - 理论.pdf"
 raw_file: "raw/theses/degree-dissertation/刘艳鑫 - 理论.pdf"
 raw_sha256: "c89dcf095ad371878a897d3d6e8f86c2d47fa0ef9eaa2922e3f09d3707301403"

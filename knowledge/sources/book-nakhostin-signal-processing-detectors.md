@@ -12,6 +12,7 @@ title_original: "Signal Processing for Radiation Detectors"
 authors: [Mohammad Nakhostin, "吴鸿毅 (译)"]
 publisher: "John Wiley & Sons 原版 / 北京大学技术物理系吴鸿毅翻译"
 year: 2020
+citation_key: "nakhostin_2020_signal-processing-radiation"
 pages: "427"
 isbn: "978-1-119-02604-4"
 canonical_source: "M. Nakhostin, Signal Processing for Radiation Detectors, Wiley (2017); 吴鸿毅 译 (2020)"

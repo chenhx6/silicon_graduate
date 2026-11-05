@@ -12,6 +12,7 @@ title_original: "重离子核反应"
 authors: [林承键]
 publisher: "科学出版社"
 year: 2017
+citation_key: "lin_2017_books-heavy-ion-reactions"
 pages: "223"
 isbn: "9787030537232"
 canonical_source: "林承键, 《重离子核反应》, 科学出版社 (2017)"

@@ -18,8 +18,7 @@ pages: "541-552"
 doi: "10.1088/0954-3899/31/7/001"
 language: en
 canonical_source: "A. J. Simons et al., J. Phys. G: Nucl. Part. Phys. 31 (2005) 541-552, doi:10.1088/0954-3899/31/7/001."
-citation_key:
-library_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/simons-2005-130cs-chiral-structures.pdf"
+citation_key: "simons_2005_130cs-chiral-structures"
 raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/simons-2005-130cs-chiral-structures.pdf"
 raw_sha256: "da71d9f1c88421bc7d4421c87c4f1eb3f15043892a1ae821c62ab48cd5a611d6"
 nuclei: [130cs]

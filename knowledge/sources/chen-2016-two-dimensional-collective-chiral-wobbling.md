@@ -14,7 +14,7 @@ year: 2016
 doi: 10.1103/PhysRevC.94.044301
 arxiv: 1609.06967v2
 canonical_source: https://arxiv.org/abs/1609.06967
-citation_key: ""
+citation_key: "chen_2016_two-dimensional-collective"
 raw_file: raw/papers/2016_Chen_TwoDimensionalCollectiveChiralWobbling_arxiv160906967v2.pdf
 raw_sha256: 158efcad3d6f9c69ec61ee3a427ace3aa54ba0e6be7dfbb6419226f3078332be
 raw_storage_status: public-staging-not-archived

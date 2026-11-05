@@ -19,7 +19,7 @@ arxiv: "nucl-ex/0302029v2"
 language: en
 canonical_source: "Zhu et al., Phys. Rev. Lett. 91, 132501 (2003)"
 zotero_item_key: ""
-citation_key: ""
+citation_key: "zhu_2003_135nd-composite-chiral"
 zotero_uri: ""
 library_file: "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261009-PREPLAN-high-spin-library/2003_Zhu et al_A Composite Chiral Pair of Rotational Bands in 135Nd.pdf"

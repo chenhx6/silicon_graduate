@@ -12,6 +12,7 @@ title_original: "Symmetrical two-crystal Compton polarimeter for gamma rays"
 authors: [R. Bass, S. Brinkmann, C. von Charzewski, H. Hanle]
 journal: "Nuclear Instruments and Methods"
 year: 1972
+citation_key: "bass_1972_40ar-symmetrical-two"
 volume: 104
 pages: "33-43"
 pii: "0029-554X(72)90293-5"

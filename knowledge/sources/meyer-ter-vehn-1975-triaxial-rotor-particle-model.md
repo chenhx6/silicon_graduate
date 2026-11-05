@@ -16,7 +16,7 @@ volume: 249
 pages: 111–140
 doi: 10.1016/0375-9474(75)90095-0
 canonical_source: https://doi.org/10.1016/0375-9474(75)90095-0
-citation_key: ""
+citation_key: "meyertervehn_1975_collective-description-transitional"
 raw_file: raw/papers/1975_MeyerTerVehn_CollectiveOddANuclei_PartI.pdf
 raw_sha256: 10cb7aca223dcbccb17ee7aa224a7a1c13fb9f1e6e58a04fcdd8ab1e4b888da9
 raw_storage_status: public-staging-not-archived

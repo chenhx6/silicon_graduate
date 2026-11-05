@@ -12,6 +12,7 @@ title_original: "Data Analysis in High Energy Physics: A Practical Guide to Stat
 authors: [Olaf Behnke, Kevin Kröninger, Grégory Schott, Thomas Schörner-Sadenius]
 publisher: "Wiley-VCH Verlag GmbH & Co. KGaA"
 year: 2013
+citation_key: "behnke_2013_data-energy-physics"
 pages: "430"
 isbn: "9783527410583"
 canonical_source: "O. Behnke et al., Data Analysis in High Energy Physics, Wiley-VCH (2013)"

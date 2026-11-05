@@ -15,7 +15,7 @@ journal: Physical Review C
 volume: "107"
 pages: "044314"
 doi: "10.1103/PhysRevC.107.044314"
-citation_key: ""
+citation_key: "ayangeakaa_2023_76ge-triaxiality-nature"
 canonical_source: "https://doi.org/10.1103/PhysRevC.107.044314"
 source_url: "https://link.aps.org/accepted/10.1103/PhysRevC.107.044314"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/ayangeakaa-2023-ge76-coulomb-excitation-full.pdf"

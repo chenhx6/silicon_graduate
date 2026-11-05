@@ -20,7 +20,7 @@ arxiv:
 language: en
 canonical_source: "Régis, Jean-Marc. Fast Timing with LaBr3(Ce) Scintillators and the Mirror Symmetric Centroid Difference Method[D]. University of Cologne, 2011."
 zotero_item_key:
-citation_key: ""
+citation_key: "regis_2011_176w-fast-timing"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/LaBr3时间.pdf"
 raw_file: "raw/theses/degree-dissertation/LaBr3时间.pdf"

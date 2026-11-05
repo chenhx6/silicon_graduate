@@ -12,6 +12,7 @@ title_original: "Termination of rotational bands: disappearance of quantum many-
 authors: [A. V. Afanasjev, D. B. Fossan, G. J. Lane, I. Ragnarsson]
 journal: "Physics Reports"
 year: 1999
+citation_key: "afanasjev_1999_20ne-termination-rotational"
 volume: 322
 pages: "1-124"
 pii: "S0370-1573(99)00035-6"

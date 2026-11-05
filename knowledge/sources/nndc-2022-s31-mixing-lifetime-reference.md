@@ -14,7 +14,7 @@ year: 2022
 journal: Nuclear Data Sheets
 volume: 184
 pages: 29
-citation_key: ""
+citation_key: "chen_2022_31s-adopted-levels"
 canonical_source: "NNDC ENSDF202209 31S selected datasets 31016001/31016064, Chen and Singh NDS18429"
 source_url: https://www.nndc.bnl.gov/ensdf/
 data_version: ENSDF202209-fullcut24Jun2022-Adopted-update23Nov2022-and-XUNDL202401-2023Su03

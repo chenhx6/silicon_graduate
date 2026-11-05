@@ -15,7 +15,7 @@ year: 2017
 volume: 145
 pages: "25-340"
 doi: "10.1016/j.nds.2017.09.002"
-citation_key: ""
+citation_key: "browne_2017_99rh-data-sheets"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "NNDC99045001/99045019, accessed2026-10-19"
 source_url: "https://www.nndc.bnl.gov/ensdf/"

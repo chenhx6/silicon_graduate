@@ -15,7 +15,7 @@ journal: Physical Review Letters
 volume: 112
 pages: "202503"
 doi: 10.1103/PhysRevLett.112.202503
-citation_key: ""
+citation_key: "rather_2014_106ag-exploring-origin"
 canonical_source: https://doi.org/10.1103/PhysRevLett.112.202503
 raw_file: raw/papers/2014_Rather_106Ag.pdf
 raw_sha256: f2c4d8340087095ab2175bd9f319e1271c6187199c86faad0e2bf37d330ab006

@@ -12,7 +12,7 @@ reading_depth: read
 authors: [MADAI project contributors]
 year: 2015
 data_version: 9f9ee0dac704d77492d9905b4d90a57746201912
-citation_key: ""
+citation_key: "madai_2015_madai-distributionsampling-sampler"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: https://github.com/MADAI/DistributionSampling/tree/9f9ee0dac704d77492d9905b4d90a57746201912
 source_url: https://github.com/MADAI/DistributionSampling/tree/9f9ee0dac704d77492d9905b4d90a57746201912

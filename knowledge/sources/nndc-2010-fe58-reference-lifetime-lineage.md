@@ -14,7 +14,7 @@ year: 2010
 journal: Nuclear Data Sheets
 volume: 111
 pages: 897
-citation_key: ""
+citation_key: "nesaraja_2010_58fe-adopted-levels"
 canonical_source: "NNDC ENSDF201004 Fe58 exact datasets58026001/58026019/58026007"
 source_url: https://www.nndc.bnl.gov/ensdf/
 data_version: ENSDF201004-cut12Jan2010-Adopted-JPIerrata12Nov2013

@@ -17,7 +17,7 @@ issue: 6
 pages: 3219–3222
 doi: 10.1103/PhysRevC.58.3219
 canonical_source: https://doi.org/10.1103/PhysRevC.58.3219
-citation_key: ""
+citation_key: "joss_1998_133ce-lifetime-triaxial"
 raw_file: raw/papers/1998_Joss_133Ce_Triaxial_Band_Lifetimes.pdf
 raw_sha256: 81b6ace5d9ee867220c5425e7f3d9ae4f5074d9484f7063fd04fd137b0deea0a
 raw_storage_status: public-staging-not-archived

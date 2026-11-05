@@ -13,6 +13,7 @@ authors: [P. M. Jones, L. Wei, F. A. Beck, P. A. Butler, T. Byrski, G. Duchêne,
 journal: "Nuclear Instruments and Methods in Physics Research A"
 year: 1995
 doi: "10.1016/0168-9002(95)00246-4"
+citation_key: "jones_1995_19f-calibration-composite"
 volume: 362
 pages: "556-560"
 pii: "0168-9002(95)00246-4"

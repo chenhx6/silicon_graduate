@@ -18,7 +18,7 @@ doi: 10.1103/PhysRevC.83.054308
 arxiv: 0709.0969v2
 language: en
 canonical_source: https://doi.org/10.1103/PhysRevC.83.054308
-citation_key: ""
+citation_key: "almehed_2011_135nd-chiral-vibrations"
 raw_file: raw/papers/2011_Almehed_ChiralVibrations_A135_arxiv07090969v2.pdf
 raw_sha256: becba964421bb8860fa657865071df117622a492a2bbb2b23d661d235296f29b
 raw_storage_status: public-staging-not-archived

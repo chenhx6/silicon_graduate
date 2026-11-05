@@ -12,6 +12,7 @@ title_original: "Statistics and Analysis of Scientific Data"
 authors: [Massimiliano Bonamente]
 publisher: "Springer Nature Switzerland (Graduate Texts in Physics)"
 year: 2022
+citation_key: "bonamente_2022_statistics-scientific-data"
 pages: "491"
 isbn: "9783030999513"
 canonical_source: "M. Bonamente, Statistics and Analysis of Scientific Data (3rd Ed.), Springer (2022)"

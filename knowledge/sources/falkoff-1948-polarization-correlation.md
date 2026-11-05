@@ -12,6 +12,7 @@ title_original: "Polarization Correlation of Successive Gamma-Ray Quanta"
 authors: [David L. Falkoff]
 journal: "Physical Review"
 year: 1948
+citation_key: "falkoff_1948_60co-polarization-correlation"
 volume: 73
 pages: "518"
 canonical_source: "Falkoff, Phys. Rev. 73, 518 (1948)"

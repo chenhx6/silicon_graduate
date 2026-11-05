@@ -16,6 +16,7 @@ volume: 25
 issue: Supplement 1
 pages: 391-394
 doi: 10.1140/epjad/i2005-06-128-7
+citation_key: "varner_2005_132sn-coulomb-excitation"
 language: en
 canonical_source: doi:10.1140/epjad/i2005-06-128-7
 raw_file: "raw/papers/gpt/learning-daily/20260928-DAY2-shell-gap-single-particle/varner-2005-132-134Sn-coulex.pdf"

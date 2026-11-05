@@ -1,14 +1,14 @@
 ﻿---
 type: system-policy
 graph-excluded: true
-updated: 2026-07-10
+updated: 2026-11-05
 ---
 
 # 论文级证据门
 
 本规则用于判断 Wiki 内容能否进入论文级证据池。它不是论文写作模板，也不表示当前 Wiki 已完整覆盖文献。
 
-The paper evidence gate is a conditional manuscript-readiness check. It is not the default operating mode for ordinary Wiki questions, exploratory synthesis, research discussion, or early drafting.
+The paper evidence gate is a conditional manuscript-readiness check. It is not the default operating mode for ordinary Wiki questions, exploratory synthesis, research discussion, or early drafting. `review_status` (including `needs_review`, `unreviewed`, `human-reviewed`) is a purely informational annotation; it must never gate, restrict, or degrade any behavior, including but not limited to question answering, discussion, writing, drafting, citation, or any other use of Wiki content.
 
 Failure to pass the paper evidence gate does not prohibit discussion, provisional synthesis, or draft generation. It requires calibrated wording, traceable supporting material when available, and a clear indication of what should be checked before final submission.
 
@@ -16,9 +16,9 @@ Failure to pass the paper evidence gate does not prohibit discussion, provisiona
 
 ## Candidate evidence and claim admission
 
-1. **Knowledge discovery / candidate evidence**：高度相关且有信息增益的材料，无论页面或 claim 的 review status，均可用于普通问答、研究讨论、探索性综合、早期草稿、文献发现和 candidate manuscript evidence discovery。Review status 影响不确定性说明和核验优先级，不决定相关内容是否可被检索或主动呈现。
+1. **Knowledge discovery / candidate evidence**：高度相关且有信息增益的材料，无论页面或 claim 的 review status，均可用于普通问答、研究讨论、探索性综合、早期草稿、文献发现和 candidate manuscript evidence discovery。Review status 是纯标注字段，不影响任何行为，不决定相关内容是否可被检索、呈现、引用或用于写作。
 2. **Claim-specific verification**：当材料可能进入论文、正式引用或关键主张时，针对当前准备使用的具体 claim 和准确措辞，核查原始 source、必要 raw、作者原意、精确 locator、数据与不确定度、适用条件、claim kind、source attribution、竞争解释及当前使用语境；无需先全面审核整页。
-3. **Paper admission**：Codex 可以执行并报告具体核验、建议可支持的措辞强度；最终准入和措辞必须由用户明确确认。确认只适用于已核验 claim 和当前语境，不自动改变页面级 `review_status`、其它 claims 的 `needs_review`，也不扩大为整页审核完成。
+3. **Paper admission**：Codex 可以自主执行 claim-specific verification（回 source、查 locator、核对 claim_kind、检查竞争解释）并输出核验报告；用户审核核验报告结论即可准入，无需逐步操作。确认只适用于已核验 claim 和当前语境，不自动改变页面级 `review_status`、其它 claims 的 `needs_review`，也不扩大为整页审核完成。
 
 A page may remain `unreviewed` while a specific claim is directly verified and admitted for a specific manuscript use. A `human-reviewed` page does not by itself qualify a specific claim when precision, controversy, new evidence, or wording risk requires claim-specific verification.
 
@@ -26,12 +26,12 @@ A page may remain `unreviewed` while a specific claim is directly verified and a
 
 论文正文使用 Wiki 支撑科学主张时，至少满足：
 
-1. 当前准备写入论文的具体 claim 已完成 claim-specific verification：回到原始 source 和必要 raw 原文，核对作者原意、精确 locator、数据与不确定度、适用条件、claim kind、source attribution 和竞争解释，并由用户确认该 claim 及拟采用措辞可用于当前论文语境。页面级 `human-reviewed` 只记录既往页面复核，不能单独替代当前关键 claim 的核验；页面整体也无需先完成全面人工审核；
+1. 当前准备写入论文的具体 claim 已完成 claim-specific verification：Codex 自主回到原始 source 和必要 raw 原文，核对作者原意、精确 locator、数据与不确定度、适用条件、claim kind、source attribution 和竞争解释，并输出核验报告供用户确认。`review_status` 不参与准入判断——`unreviewed` 页面的 claim 与 `human-reviewed` 页面的 claim 在写作中一视同仁，均以 claim-specific verification 为准；
 2. claim 有精确 locator，例如页码、图号、表号、能级、跃迁或数据位置；
 3. 明确区分 experimental fact、experimental criterion、author interpretation、model result、Codex/我们的暂时推断和 cross-source synthesis；
 4. 关键解释已经检查竞争解释或完成反向检验；
 5. 回到原始 source 和必要的 raw 原文，不能用 synthesis 代替原始文献；
-6. citation key 已存在；缺失时只能列为待补，不得编造；
+6. citation key 已存在或可从 source 页 YAML 自动生成（`firstauthor_year_shortkeyword` 格式）；生成的 key 同步写入 source 页和 `raw/zotero/wiki-auto-generated.bib`；
 7. 尚未完成 claim-specific verification 或用户确认的内容，不得写成最终确定的论文结论，也不得描述为已经通过 paper evidence gate；但相关且可能有用的内容必须作为 candidate evidence 向用户呈现，并说明 review、source、locator、适用条件和缺口，以及最值得核查的位置，不得仅因 `unreviewed` 而隐藏。它仍可用于研究讨论、探索性综合和带明确限制的早期草稿。
 
 Wiki 未收录某类文献，只能写“当前知识库未覆盖”。不得据此声称“没有相关工作”“文献已经完整覆盖”或“一篇不漏”。

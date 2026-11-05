@@ -12,6 +12,7 @@ title_original: "Nuclear Isomers: A Primer"
 authors: [Ashok Kumar Jain, Bhoomika Maheshwari, Alpana Goel]
 publisher: "Springer Nature Switzerland"
 year: 2021
+citation_key: "jain_2021_130sn-isomers-primer"
 pages: "151"
 isbn: "978-3-030-76722-8"
 canonical_source: "A. K. Jain, B. Maheshwari, and A. Goel, Nuclear Isomers: A Primer, Springer (2021)"

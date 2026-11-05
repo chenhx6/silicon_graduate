@@ -12,6 +12,7 @@ title_original: "A study of the low-lying levels in 61Ni"
 authors: [J. R. Williams, C. R. Gould, R. O. Nelson, D. R. Tilley, D. G. Rickel, N. R. Roberson]
 journal: "Nuclear Physics A"
 year: 1975
+citation_key: "williams_1975_61ni-lying-levels"
 volume: 253
 pages: "365-379"
 pii: "0375-9474(75)90487-X"

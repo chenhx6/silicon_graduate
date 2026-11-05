@@ -12,6 +12,7 @@ title_original: "Nuclear Structure, Volume I: Single-Particle Motion"
 authors: [Aage Bohr, Ben R. Mottelson]
 publisher: "World Scientific (1998 reissue of W. A. Benjamin original)"
 year: 1969
+citation_key: "bohr_1969_volume-single-particle"
 pages: "492 PDF pages (Vol. I)"
 language: en
 canonical_source: "Local volume I, copyright and prefaces"

@@ -16,6 +16,7 @@ volume: 73
 number: 2
 pages: "463-514"
 doi: "10.1103/RevModPhys.73.463"
+citation_key: "frauendorf_2001_spontaneous-symmetry-breaking"
 canonical_source: "knowledge/sources/frauendorf-2001-spontaneous-symmetry-breaking-rotating-nuclei.md"
 library_file: "raw/books/Spontaneous symmetry breaking in rotating nuclei_Frauendorf.pdf"
 raw_file: "raw/books/Spontaneous symmetry breaking in rotating nuclei_Frauendorf.pdf"

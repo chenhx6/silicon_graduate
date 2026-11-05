@@ -12,6 +12,7 @@ title_original: "实验物理中的概率和统计（第二版）"
 authors: [朱永生]
 publisher: "科学出版社"
 year: 2006
+citation_key: "zhu_2006_books-experimental-statistics"
 pages: "671"
 isbn: "7-03-016986-7"
 canonical_source: "朱永生, 《实验物理中的概率和统计（第二版）》, 科学出版社 (2006)"

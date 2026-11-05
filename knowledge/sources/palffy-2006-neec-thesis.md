@@ -20,7 +20,7 @@ arxiv:
 language: en
 canonical_source: "Gagyi-Pálffy, Adriana. Theory of nuclear excitation by electron capture for heavy ions[D]. Justus-Liebig-Universität Gießen, 2006."
 zotero_item_key:
-citation_key: ""
+citation_key: "gagyipalffy_2006_174yb-theory-excitation"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/palffy phd thesis  Theory of nuclear excitation by electron capture for heavy ions.pdf"
 raw_file: "raw/theses/degree-dissertation/palffy phd thesis  Theory of nuclear excitation by electron capture for heavy ions.pdf"

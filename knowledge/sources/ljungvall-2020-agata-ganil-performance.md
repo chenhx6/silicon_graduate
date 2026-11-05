@@ -19,7 +19,7 @@ arxiv: 2011.08003v1
 data_version: "public PDF requested at arXiv2011.08003v1; header2020 and printed submission footer2022 both preserved"
 language: en
 canonical_source: "https://arxiv.org/abs/2011.08003v1"
-citation_key:
+citation_key: "ljungvall_2020_98zr-performance-advanced"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/ljungvall-2020-ganil-performance.pdf"
 raw_sha256: "07cb8ea5bf3fa310ad00802a08ef9e07702e7a837d27ba15ae567a3a6adfe3c9"
 raw_storage_status: reserved-unpopulated-public-preprint-only

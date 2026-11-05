@@ -12,7 +12,7 @@ reading_depth: skimmed
 authors: [Chloé Fougères]
 year: 2022
 institution: Normandie Université, Université de Caen Normandie
-citation_key: ""
+citation_key: "fougeres_2022_23mg-understanding-cosmic"
 canonical_source: "HALtel03768524v1 NNT2022NORMC209 Chapters3–6 and AppendicesA.2/B; scoped reading receipts"
 source_url: https://theses.hal.science/tel-03768524v1
 raw_file: raw/theses/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/fougeres-2022-thesis.pdf

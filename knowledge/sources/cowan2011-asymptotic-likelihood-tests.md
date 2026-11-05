@@ -19,7 +19,7 @@ doi: "10.1140/epjc/s10052-011-1554-0"
 arxiv: "1007.1727"
 data_version: "arXiv:1007.1727v3, 2013-06-24, 32-page PDF"
 canonical_source: "https://arxiv.org/abs/1007.1727v3"
-citation_key:
+citation_key: "cowan_2011_asymptotic-formulae-likelihood"
 raw_file: "raw/papers/gpt/learning-daily/20261102-poisson-audit/manifest.json"
 raw_sha256: "aa5e26a4df8fb55c45e5db53000529eadd9d2647b2b7b9124d8f0044de492f2f"
 raw_storage_status: archived-local

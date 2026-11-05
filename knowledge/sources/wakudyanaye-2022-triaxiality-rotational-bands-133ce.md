@@ -13,7 +13,7 @@ authors: [Ignasio Wakudyanaye]
 year: 2022
 institution: University of the Western Cape
 degree: Magister Scientiae
-citation_key: ""
+citation_key: "wakudyanaye_2022_133ce-triaxiality-rotational"
 canonical_source: "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf"
 raw_file: "raw/theses/degree-dissertation/Triaxiality and Rotational bands in 133Ce.pdf"
 raw_sha256: "48556dbfe5284efebdb901cd949f534ac5552c6504e2c744603afca386660080"

@@ -20,8 +20,7 @@ arxiv:
 language: zh/en
 canonical_source: "中国科学院近代物理研究所博士学位论文, 2019"
 zotero_item_key:
-citation_key:
-zotero_uri:
+citation_key: "sun_2019_16c"
 library_file: "raw/theses/degree-dissertation/孙亚洲 - 16C单质子敲出反应研究.pdf"
 raw_file: "raw/theses/degree-dissertation/孙亚洲 - 16C单质子敲出反应研究.pdf"
 raw_sha256: "d9d900cfdd783890f2f5d774b18832bbfda40eeb2af2db50b353ac18373496c0"

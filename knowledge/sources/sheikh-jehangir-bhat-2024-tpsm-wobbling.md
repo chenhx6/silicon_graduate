@@ -19,7 +19,7 @@ arxiv: 2405.08368v1
 language: en
 canonical_source: "https://doi.org/10.1201/9781032691633-12"
 zotero_item_key: ""
-citation_key: ""
+citation_key: "sheikh_2024_133la-microscopic-wobbling"
 zotero_uri: ""
 library_file: ""
 raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/2405-08368-wobbling-133La-135Pr/PDFs/Microscopic_investigation_of_wobbling_motion_in_atomic_nuclei_using_the_triaxial_projected_shell_model_approach.pdf"

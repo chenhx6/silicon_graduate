@@ -18,7 +18,7 @@ doi: 10.1016/j.physletb.2009.02.061
 arxiv: 0812.4597v1
 language: en
 canonical_source: https://doi.org/10.1016/j.physletb.2009.02.061
-citation_key: ""
+citation_key: "qi_2009_135nd-chirality-odd"
 raw_file: raw/papers/2009_Qi_135Nd_PRM_arxiv08124597v1.pdf
 raw_sha256: 248546abd4a1d1597bf9ddf39cfffd5f09604802704204f0ff61647bbdb19346
 raw_storage_status: public-staging-not-archived

@@ -20,7 +20,7 @@ arxiv:
 language: zh
 canonical_source: "强赟华. 130,131Ba高自旋态研究及87Zr低位能级寿命测量[D]. 兰州大学, 2019."
 zotero_item_key:
-citation_key: ""
+citation_key: "qiang_2019_130ba-lifetime-measurement"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/A强赟华博士论文-兰大.pdf"
 raw_file: "raw/theses/degree-dissertation/A强赟华博士论文-兰大.pdf"

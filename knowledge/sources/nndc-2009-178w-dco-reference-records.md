@@ -15,7 +15,7 @@ year: 2009
 volume: 110
 pages: 1473-1688
 doi: "10.1016/j.nds.2009.05.002"
-citation_key: ""
+citation_key: "achterberg_2009_178w-adopted-levels"
 citation_key_status: verified-DOI-but-no-unique-local-BibTeX-entry
 data_version: "200907 / 09NDS headers, cutoff31-May-2008; retrieved2026-10-18; laterQ record separated"
 canonical_source: "NNDC ENSDF 178W records178074001,178074004,178074006,178074005; header200907"

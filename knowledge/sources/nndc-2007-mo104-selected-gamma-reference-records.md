@@ -16,7 +16,7 @@ year: 2007
 volume: 108
 pages: 2035--2172
 doi: "10.1016/j.nds.2007.09.001"
-citation_key: ""
+citation_key: "blachot_2007_104mo-data-sheets"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "NNDC:ENSDF:104MO:104042001,104042005,104042004"
 source_url: "https://www.nndc.bnl.gov/ensdf/"

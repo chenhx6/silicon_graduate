@@ -19,7 +19,7 @@ arxiv:
 language: en
 canonical_source: "https://doi.org/10.1103/PhysRevC.76.024321"
 zotero_item_key: ""
-citation_key: ""
+citation_key: "agarwal_2007_137pr-bandcrossing-magnetic"
 zotero_uri: ""
 library_file: ""
 raw_file: "raw/papers/gpt/learning-daily/20260929-DAY3-mean-field-nilsson-csm-hfb-projection/137pr-2007-magnetic-rotation/PDFs/Bandcrossing_of_magnetic_rotation_bands_in_137Pr.pdf"

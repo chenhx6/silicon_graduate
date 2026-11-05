@@ -15,7 +15,7 @@ year: 2008
 pages: 97
 language: zh/en
 canonical_source: "方永得. 双奇核188Au高自旋态能级结构研究[D]. 中国科学院研究生院, 2008."
-citation_key: ""
+citation_key: "fang_2008_188au-level-doubly"
 raw_file: "raw/theses/degree-dissertation/方永得.pdf"
 raw_sha256: "7559F64EF9059BAA6C6331F50C311405E3669C98B381C88428B2B0A5CE621EAF"
 nuclei: [188au]

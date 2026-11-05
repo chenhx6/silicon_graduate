@@ -12,6 +12,7 @@ title_original: "符合模式下的 γ 射线各向异性度测量"
 authors: ["郑勇", "周小红", "柳敏良", "刘忠", "何建军", "郭应祥", "雷相国", "张玉虎", "罗万居"]
 journal: "高能物理与核物理"
 year: 2002
+citation_key: "zheng_2002_145tb"
 volume: 26
 issue: 9
 pages: "909-913"

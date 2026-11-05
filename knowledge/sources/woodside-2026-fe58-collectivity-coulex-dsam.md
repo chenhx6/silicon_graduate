@@ -16,7 +16,7 @@ volume: 113
 issue: 4
 pages: "044306"
 doi: 10.1103/16y4-bggw
-citation_key: ""
+citation_key: "woodside_2026_56fe-resolving-anomalous"
 canonical_source: https://doi.org/10.1103/16y4-bggw
 raw_file: raw/papers/2026_Woodside_Fe58_collectivity_Coulex_Dsam.pdf
 raw_sha256: fddbd3b0de35b1b723c2bcb9959af4cf6c489a0d8e00f87e9126218acfec8d5a

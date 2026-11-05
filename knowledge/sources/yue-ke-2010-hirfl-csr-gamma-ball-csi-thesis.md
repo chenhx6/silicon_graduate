@@ -19,8 +19,7 @@ arxiv:
 language: zh/en
 canonical_source: "岳珂. HIRFL-CSR 外靶实验装置中 CsI(Tl)闪烁体阵列型探测器的设计与模拟研究[D]. 中国科学院研究生院, 2010."
 zotero_item_key:
-citation_key:
-zotero_uri:
+citation_key: "yue_2010_hirfl-csr-csitl"
 library_file: "raw/theses/degree-dissertation/岳珂 - HIRFL-CSR 外靶实验装置中CsI(Tl)闪烁体.pdf"
 raw_file: "raw/theses/degree-dissertation/岳珂 - HIRFL-CSR 外靶实验装置中CsI(Tl)闪烁体.pdf"
 raw_sha256: "5d880a011d8a3755531718bb731289e3b8f21a2ee277c0fb5e8b81aaa9771ca3"

@@ -11,7 +11,7 @@ source_type: public-software-and-data-release
 reading_depth: read
 authors: [Chloé Fougères]
 year: 2023
-citation_key: ""
+citation_key: "fougeres_2023_23mg-cfougeresevasionscode-zenodo"
 doi: 10.5281/zenodo.8044973
 canonical_source: "EVASIONSv1.0.0 c6a4ff3756724d6becd17414851bc8140d00a311 Zenodo8044973"
 source_url: https://doi.org/10.5281/zenodo.8044973

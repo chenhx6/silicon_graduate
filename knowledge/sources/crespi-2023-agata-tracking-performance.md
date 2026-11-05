@@ -18,7 +18,7 @@ doi: 10.1140/epja/s10050-023-01019-2
 arxiv: 2305.18850v1
 language: en
 canonical_source: "https://arxiv.org/abs/2305.18850v1"
-citation_key:
+citation_key: "crespi_2023_16o-agata-performance"
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/crespi-2023-agata-tracking-performance.pdf"
 raw_sha256: "e492edd41f50fd4a520b80c59507e8f07f800acb8285052e78c07a7e7612703d"
 raw_storage_status: reserved-unpopulated-public-preprint-only

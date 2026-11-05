@@ -20,7 +20,7 @@ arxiv:
 language: en
 canonical_source: "Wang, Enhong. Studies of Neutron-rich Nuclei from 252Cf and 238U+9Be Fission Fragments[D]. Vanderbilt University, 2015."
 zotero_item_key:
-citation_key: ""
+citation_key: "wang_2015_96y-studies-neutron"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/Wang Enhong.pdf"
 raw_file: "raw/theses/degree-dissertation/Wang Enhong.pdf"

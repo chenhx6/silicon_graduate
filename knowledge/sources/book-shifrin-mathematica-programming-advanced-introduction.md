@@ -12,6 +12,7 @@ title_original: "Mathematica programming: an advanced introduction"
 authors: [Leonid B. Shifrin]
 publisher: "Leonid Shifrin"
 year: 2008
+citation_key: "shifrin_2008_mathematica-programming-advanced"
 pages: "408"
 license: "Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States"
 canonical_source: "Leonid B. Shifrin, Mathematica programming: an advanced introduction (Version 1.01, 2008)"

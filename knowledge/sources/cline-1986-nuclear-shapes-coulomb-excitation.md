@@ -15,7 +15,7 @@ journal: Annual Review of Nuclear and Particle Science
 volume: "36"
 pages: "683-716"
 doi: "10.1146/annurev.ns.36.120186.003343"
-citation_key: ""
+citation_key: "cline_1986_232th-shapes-studied"
 canonical_source: "https://doi.org/10.1146/annurev.ns.36.120186.003343"
 source_url: "https://www.pas.rochester.edu/~cline/Publications/annurev.ns.36.120186.pdf"
 raw_file: "raw/papers/gpt/learning-daily/20261022-DAY20-be2-qt-deformation-systematics/cline-1986-nuclear-shapes-coulomb-excitation.pdf"

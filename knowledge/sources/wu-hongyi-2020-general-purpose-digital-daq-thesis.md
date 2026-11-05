@@ -20,7 +20,7 @@ arxiv:
 language: zh/en
 canonical_source: "吴鸿毅. 通用数字化获取系统的开发[D]. 北京大学, 2020."
 zotero_item_key:
-citation_key: ""
+citation_key: "wu_2020_digital-daq-waveform-analysis"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf"
 raw_file: "raw/theses/degree-dissertation/吴鸿毅_通用数字化获取系统的开发_授权版.pdf"

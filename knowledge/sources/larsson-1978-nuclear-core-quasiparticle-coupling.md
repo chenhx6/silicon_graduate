@@ -16,7 +16,7 @@ volume: 307
 pages: 189–223
 doi: 10.1016/0375-9474(78)90613-9
 canonical_source: https://doi.org/10.1016/0375-9474(78)90613-9
-citation_key: ""
+citation_key: "larsson_1978_185re-core-quasiparticle"
 raw_file: raw/papers/1-s2.0-0375947478906139-main.pdf
 raw_sha256: 108c29bed9de467d99f330c0b8cef47be82a290263a85e398ba3b4f2e97d77eb
 nuclei: [185re, 75se, 77se]

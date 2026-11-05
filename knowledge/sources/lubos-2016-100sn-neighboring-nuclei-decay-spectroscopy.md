@@ -20,7 +20,7 @@ arxiv:
 language: en
 canonical_source: "Lubos, Daniel Georg. Decay Spectroscopy of 100Sn and Neighboring Nuclei[D]. Technical University of Munich, 2016."
 zotero_item_key:
-citation_key: ""
+citation_key: "lubos_2016_100sn-decay-neighboring"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/Decay Spectroscopy of 100 Sn and Neighboring Nuclei.pdf"
 raw_file: "raw/theses/degree-dissertation/Decay Spectroscopy of 100 Sn and Neighboring Nuclei.pdf"

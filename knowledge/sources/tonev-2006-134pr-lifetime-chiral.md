@@ -17,7 +17,7 @@ issue: 5
 pages: "052501"
 doi: 10.1103/PhysRevLett.96.052501
 canonical_source: https://doi.org/10.1103/PhysRevLett.96.052501
-citation_key: ""
+citation_key: "tonev_2006_134pr-transition-probabilities"
 raw_file: raw/papers/2006_Tonev_134Pr_Transition_Probabilities.pdf
 raw_sha256: eac94a5ff8402144aa66b003fbafada85e180126941063eb5bfc62be5b20d134
 raw_storage_status: public-staging-not-archived

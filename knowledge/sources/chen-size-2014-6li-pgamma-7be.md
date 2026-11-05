@@ -20,7 +20,7 @@ arxiv:
 language: zh
 canonical_source: "陈思泽. 6Li(p,γ)7Be低能截面的实验研究[D]. 中国科学院大学/近代物理研究所, 2014."
 zotero_item_key:
-citation_key: ""
+citation_key: "chen_2014_6li-energy-cross"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/陈思泽.pdf"
 raw_file: "raw/theses/degree-dissertation/陈思泽.pdf"

@@ -15,6 +15,7 @@ year: 2019
 volume: 125
 pages: "1-192"
 doi: "10.1016/j.adt.2018.03.003"
+citation_key: "moller_2019_all-nuclei-astrophysical-radioactive"
 canonical_source: "P. Möller, W. D. Myers, H. Sagawa, and S. Yoshida, At. Data Nucl. Data Tables 125, 1-192 (2019)"
 library_file: "raw/books/ScienceDirect_articles_11Jan2024_03-00-19.625/Nuclear-properties-for-astrophysical-and-radioact_2019_Atomic-Data-and-Nucle.pdf"
 raw_file: "raw/books/ScienceDirect_articles_11Jan2024_03-00-19.625/Nuclear-properties-for-astrophysical-and-radioact_2019_Atomic-Data-and-Nucle.pdf"

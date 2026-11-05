@@ -12,6 +12,7 @@ title_original: "Shell Structure in Nuclei"
 authors: [I. Ragnarsson, S. G. Nilsson, R. K. Sheline]
 journal: "Physics Reports"
 year: 1978
+citation_key: "ragnarsson_1978_generic-shell-nuclei"
 volume: 45
 pages: "1-87"
 pii: "0370-1573(78)90004-2"

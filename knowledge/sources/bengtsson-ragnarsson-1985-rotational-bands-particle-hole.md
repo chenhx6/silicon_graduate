@@ -17,7 +17,7 @@ issue: 1
 pages: 14–82
 doi: 10.1016/0375-9474(85)90541-X
 canonical_source: https://doi.org/10.1016/0375-9474(85)90541-X
-citation_key: ""
+citation_key: "bengtsson_1985_187au-rotational-bands"
 raw_file: raw/papers/1985_Bengtsson_Ragnarsson_RotationalBandsParticleHole.pdf
 raw_sha256: 605e785734279f1a7a6dfd234f1d3ff6b136f983b134ccf9d6b766f3b027d6b8
 raw_storage_status: public-staging-not-archived

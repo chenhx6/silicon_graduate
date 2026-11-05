@@ -20,7 +20,7 @@ arxiv:
 language: zh
 canonical_source: "王建国. 丰中子核103,104Nb及缺中子核140Pm的高自旋态研究[D]. 清华大学, 2010."
 zotero_item_key:
-citation_key: ""
+citation_key: "wang_2010_103nb"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/王建国-丰中子核103,104Nb及缺中子核140Pm的高自旋态研究.pdf"
 raw_file: "raw/theses/degree-dissertation/王建国-丰中子核103,104Nb及缺中子核140Pm的高自旋态研究.pdf"

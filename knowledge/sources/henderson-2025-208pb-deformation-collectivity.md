@@ -16,6 +16,7 @@ year: 2025
 volume: 134
 article_number: 062502
 doi: 10.1103/PhysRevLett.134.062502
+citation_key: "henderson_2025_208pb-deformation-collectivity"
 language: en
 canonical_source: https://doi.org/10.1103/PhysRevLett.134.062502
 direct_pdf_url: https://eprintspublications.npl.co.uk/10188/1/eid10188.pdf

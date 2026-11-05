@@ -15,7 +15,7 @@ year: 2015
 volume: 51
 pages: "49"
 doi: "10.1140/epja/i2015-15049-4"
-citation_key: ""
+citation_key: "bizzeti_2015_104pd-analyzing-power"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "publisherPDF DOI10.1140/epja/i2015-15049-4, published28-Apr-2015"
 source_url: "https://link.springer.com/content/pdf/10.1140/epja/i2015-15049-4.pdf"

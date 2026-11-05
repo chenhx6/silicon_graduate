@@ -15,7 +15,7 @@ journal: Nuclear Data Sheets
 volume: 189
 pages: "1"
 data_version: "ENSDF202305; cutoff14-Feb-2023"
-citation_key: ""
+citation_key: "nesaraja_2023_245cm-adopted-levels"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "NNDC245096001/245096004; Nesaraja NDS189,1(2023)"
 source_url: "https://www.nndc.bnl.gov/ensdf/"

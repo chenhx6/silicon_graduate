@@ -14,7 +14,7 @@ year: 1993
 version: "1.01 [15-Apr-1993]; original August1983, later header initials TWB"
 source_route: PyNE-vendored-public-source
 license: "Public PyNE source mirror; repository license retained in tmp; no upstream standalone-license certification or source redistribution"
-citation_key: ""
+citation_key: "ekstrom_1993_104mo-delta-version"
 citation_key_status: no-unique-local-BibTeX-entry
 canonical_source: "sha256:6e118b8c79784f67b33ea0388f84f5a187af33563653443076afe4cd568837fc"
 source_url: "https://raw.githubusercontent.com/pyne/pyne/0.7.8/src/ensdf_processing/DELTA/delta.for"

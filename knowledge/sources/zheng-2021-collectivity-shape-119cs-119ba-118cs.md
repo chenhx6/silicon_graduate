@@ -15,7 +15,7 @@ year: 2021
 pages: 177
 language: en/fr
 canonical_source: "Zheng, Kuankuan. Collectivity and shape phenomena in extremely neutron deficient 119Cs, 119Ba, and 118Cs[D]. Université Paris-Saclay, 2021."
-citation_key: ""
+citation_key: "zheng_2021_118cs-collectivity-shape"
 raw_file: "raw/theses/degree-dissertation/郑宽宽.pdf"
 raw_sha256: "72A90D742C6FC7ED0872F072BFFEBA0AB0D342D7C5BFD43E478FEB8953365AFE"
 nuclei: [118cs, 119ba, 119cs]

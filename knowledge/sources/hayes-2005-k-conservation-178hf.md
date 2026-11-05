@@ -20,7 +20,7 @@ arxiv:
 language: en
 canonical_source: "Hayes, Adam B. Violations of K-Conservation in 178Hf[D]. University of Rochester, 2005."
 zotero_item_key:
-citation_key: ""
+citation_key: "hayes_2005_178hf-violations-conservation"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/violations of K-Conservation in 178Hf.pdf"
 raw_file: "raw/theses/degree-dissertation/violations of K-Conservation in 178Hf.pdf"

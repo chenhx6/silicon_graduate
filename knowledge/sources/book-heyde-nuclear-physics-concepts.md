@@ -12,6 +12,7 @@ title_original: "Basic Ideas and Concepts in Nuclear Physics: An Introductory Ap
 authors: [Kris L. G. Heyde]
 publisher: "Institute of Physics Publishing (IOP), Bristol and Philadelphia"
 year: 1999
+citation_key: "heyde_1999_basic-ideas-concepts"
 pages: "647"
 isbn: "0750305357"
 canonical_source: "K. L. G. Heyde, Basic Ideas and Concepts in Nuclear Physics (2nd Ed.), IOP Publishing (1999)"

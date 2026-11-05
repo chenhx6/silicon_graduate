@@ -12,6 +12,7 @@ title_original: "The Electromagnetic Interaction in Nuclear Spectroscopy"
 authors: [W. D. Hamilton (editor)]
 publisher: "North-Holland Publishing Company / American Elsevier"
 year: 1975
+citation_key: "editor_1975_electromagnetic-interaction"
 pages: "956"
 isbn: "0720402747"
 canonical_source: "W. D. Hamilton (ed.), The Electromagnetic Interaction in Nuclear Spectroscopy, North-Holland (1975)"

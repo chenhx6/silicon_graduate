@@ -19,8 +19,7 @@ arxiv:
 language: en
 canonical_source: "Craig Mehl, Developing a sorting code for Coulomb excitation data analysis, University of the Western Cape MSc thesis, 2015."
 zotero_item_key:
-citation_key:
-zotero_uri:
+citation_key: "mehl_2015_20ne-developing-sorting"
 library_file:
 raw_file: "raw/papers/gpt/learning-daily/20261013-DAY13-doppler-correction-recoil-velocity/mehl-2015-coulomb-sorting-thesis.pdf"
 raw_sha256: "1fc595022c6f1e912b8e2378ccdb092f014babc2434ba901d020e942e09c3d5e"

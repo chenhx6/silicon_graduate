@@ -11,7 +11,7 @@ source_type: software-source-code
 reading_depth: skimmed
 authors: [O. S. Kirsebom]
 year: 2015
-citation_key: ""
+citation_key: "kirsebom_2015_23mg-simdsam-monte"
 canonical_source: "oliskir SimDSAM 2015 code1e5763659e46d636ed90234ae0df0b6402d129a8 READMEpin21809a67"
 source_url: https://github.com/oliskir/SimDSAM/tree/21809a67ea9f3b0514cc57908659463f29b1e1ab
 data_version: code2015-08-04-README2021-10-24-pinned21809a67

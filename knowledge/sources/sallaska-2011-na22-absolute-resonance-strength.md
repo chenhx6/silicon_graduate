@@ -15,7 +15,7 @@ journal: Physical Review C
 volume: 83
 pages: 034611
 doi: 10.1103/PhysRevC.83.034611
-citation_key: ""
+citation_key: "sallaska_2011_22na-absolute-determination"
 canonical_source: "Sallaska et al PRC83034611, arxiv1009.3925v2"
 source_url: https://arxiv.org/abs/1009.3925v2
 raw_file: raw/papers/gpt/learning-daily/20261020-DAY18-dsam-lifetime-strength/sallaska-2011-na22-arxiv-v2.pdf

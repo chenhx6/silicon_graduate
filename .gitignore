@@ -16,6 +16,10 @@
 # Raw originals stay local; keep one empty root marker for the path contract.
 raw/**
 !raw/.gitkeep
+!raw/zotero/
+raw/zotero/*
+!raw/zotero/wiki-auto-generated.bib
+!raw/zotero/README.md
 !raw/writing/
 raw/writing/*
 !raw/writing/gpt/

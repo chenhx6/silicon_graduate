@@ -16,8 +16,7 @@ volume: 97
 pages: '069801'
 doi: 10.1103/PhysRevC.97.069801
 canonical_source: doi:10.1103/PhysRevC.97.069801
-citation_key:
-language: en
+citation_key: "frauendorf_2018_135pr-comment-stability"
 raw_file: raw/papers/gpt/learning-daily/20261024-DAY22-wobbling-geometry-phonons/frauendorf-2018-comment-stability-accepted.pdf
 raw_sha256: 06179c2ab9d669651d1da3bd5aadf91e2e9ce2c3ae38babdf80b90c428408191
 source_version: accepted-manuscript-with-CHORUS-cover

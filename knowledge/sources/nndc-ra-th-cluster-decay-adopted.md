@@ -14,6 +14,7 @@ raw_sha256: "3a681f65303cbaa9bba9541dfc439d5155c55f276256121d43652d8dc7004042"
 title_original: "ENSDF Adopted Levels, Gammas: 222Ra, 224Ra, 226Ra, 226Th, 228Th"
 authors: [NNDC ENSDF evaluators]
 year: 2026
+citation_key: "nndc_2026_222ra-ensdf-adopted"
 source_url: "https://www.nndc.bnl.gov/ensnds/"
 raw_storage_status: "official-pdf-archived-new-original"
 retrieved: 2026-10-29

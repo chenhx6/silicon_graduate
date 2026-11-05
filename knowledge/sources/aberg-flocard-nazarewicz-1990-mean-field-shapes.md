@@ -12,6 +12,7 @@ title_original: "Nuclear Shapes in Mean Field Theory"
 authors: [S. Åberg, H. Flocard, W. Nazarewicz]
 journal: "Annual Review of Nuclear and Particle Science"
 year: 1990
+citation_key: "aberg_1990_generic-shapes-mean"
 volume: 40
 pages: "439-528"
 canonical_source: "Åberg, Flocard & Nazarewicz, Annu. Rev. Nucl. Part. Sci. 40, 439-528 (1990)"

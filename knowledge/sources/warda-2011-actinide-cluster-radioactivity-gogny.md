@@ -18,6 +18,7 @@ journal: Physical Review C
 volume: "84"
 pages: "044608"
 doi: "10.1103/PhysRevC.84.044608"
+citation_key: "warda_2011_222ra-microscopic-description"
 source_url: "https://arxiv.org/abs/1107.1478v1"
 raw_storage_status: "raw-pdf-archived-new-original"
 staging_file: "tmp/day26-cluster/1107.1478.pdf"

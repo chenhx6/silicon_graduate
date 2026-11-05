@@ -20,7 +20,7 @@ arxiv:
 language: en
 canonical_source: "Hinke, Christoph B. Spectroscopy of the doubly magic nucleus 100Sn and its decay[D]. Technical University of Munich, 2010."
 zotero_item_key:
-citation_key: ""
+citation_key: "hinke_2010_100sn-doubly-magic"
 zotero_uri:
 library_file: "raw/theses/degree-dissertation/Spectroscopy of the doubly magic nucleus 100Sn and its decay.pdf"
 raw_file: "raw/theses/degree-dissertation/Spectroscopy of the doubly magic nucleus 100Sn and its decay.pdf"
