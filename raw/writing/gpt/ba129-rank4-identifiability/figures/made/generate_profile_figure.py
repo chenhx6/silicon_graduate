@@ -24,12 +24,15 @@ def main() -> None:
     y = np.array([t["A2"], t["A4"], r["A2"], r["A4"]])
     response = np.array(contract["response_ratio_s2_s4"])
     fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.9), layout="constrained")
-    names = {"evaluated": "Evaluated margins", "primary_ocr_scale_sensitivity": "Provisional OCR scales"}
-    colors = {"evaluated": "#2166ac", "primary_ocr_scale_sensitivity": "#b35806"}
+    names = {"evaluated": "2014 evaluation", "primary1977": "1977 primary table"}
+    colors = {"evaluated": "#2166ac", "primary1977": "#b35806"}
     theta = np.deg2rad(np.linspace(-85, 0, 800))
     curves = []
     for scenario in contract["uncertainty_scenarios"]:
         name = scenario["id"]
+        version_rows = load_rows(ARTICLE / scenario["dataset_file"], require_reference_nonzero=False)
+        vt, vr = version_rows["target_365"], version_rows["reference_462"]
+        y = np.array([vt["A2"], vt["A4"], vr["A2"], vr["A4"]])
         cov = covariance(np.array(scenario["standard_error_scales"]), 0, 0)
         central = next(c for c in result["cases"]
                        if c["scenario"] == name and c["rho_within_line"] == c["rho_cross_line"] == 0)

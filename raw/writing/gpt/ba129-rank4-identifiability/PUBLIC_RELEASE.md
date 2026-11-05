@@ -16,14 +16,14 @@ inventory and SHA-256 values are in
 ## Evidence boundary
 
 The case study uses evaluated public summary coefficients from ENSDF.
-`data/input-contract.json` keeps the evaluated and provisional OCR error-scale
-scenarios distinct; `analysis/companion_profile.py` profiles both angular ranks
+`data/input-contract.json` keeps the evaluated and visually checked primary-table
+versions distinct; `analysis/companion_profile.py` profiles both angular ranks
 in coefficient space under explicitly chosen covariance matrices. It does
 not reconstruct the original 1977/1978/1992 spectra, detector response,
 finite-angle corrections, feeding, gate acceptance or coefficient covariance.
 The relation is therefore reported as a conditional identifiability gate.
 
-The release excludes publisher full-text JSON, first-page PDFs and authentication
+The release excludes publisher full-text JSON/XML, complete PDFs, previews and authentication
 responses. The manuscript must retain the following boundaries:
 
 - the 2024 \(^{129}\)Ba paper's large-root result is an attributed

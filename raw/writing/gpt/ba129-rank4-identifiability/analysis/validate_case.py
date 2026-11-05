@@ -13,6 +13,7 @@ import numpy as np
 
 from companion_profile import analyze as profile
 from rank4_invariant import analyze, load_rows
+from physical_population_witness import reference_vertices, solve as population_witness
 
 
 def validate(root: Path, wiki_root: Path | None = None) -> dict:
@@ -28,6 +29,17 @@ def validate(root: Path, wiki_root: Path | None = None) -> dict:
     assert rerun["script_sha256"] == old_profile["script_sha256"]
     assert rerun["input_sha256"] == old_profile["input_sha256"]
     assert rerun["contract_sha256"] == old_profile["contract_sha256"]
+    assert rerun["dataset_sha256"] == old_profile["dataset_sha256"]
+    witness_record = json.loads((root / "analysis/results/physical-population-witness.json").read_text())
+    input_contract = json.loads((root / "data/input-contract.json").read_text())
+    assert witness_record["contract_sha256"] == rerun["contract_sha256"]
+    for case in witness_record["cases"]:
+        version = next(s for s in input_contract["uncertainty_scenarios"] if s["id"] == case["source_version"])
+        data = load_rows(root / version["dataset_file"], require_reference_nonzero=False)
+        target, ref = data["target_365"], data["reference_462"]
+        y = np.array([target["A2"], target["A4"], ref["A2"], ref["A4"]])
+        repeated = population_witness(y, np.array(version["standard_error_scales"]), case["delta_chosen"])
+        assert abs(repeated["minimum_literal_margin_multiplier"] - case["minimum_literal_margin_multiplier"]) < 1e-9
     with csv_path.open(newline="") as handle:
         reader = csv.DictReader(handle)
         fieldnames = reader.fieldnames
@@ -86,7 +98,9 @@ def validate(root: Path, wiki_root: Path | None = None) -> dict:
         x, weights = np.polynomial.legendre.leggauss(16)
         d_matrices = [d_function(np.arccos(c)) for c in x]
         p4 = np.polynomial.legendre.legval(x, [0, 0, 0, 0, 1])
+        p2 = np.polynomial.legendre.legval(x, [0, 0, 1])
         photon_checks = []
+        vertex_checks = []
         normalization_errors = []
         for twice_mi in range(-13, 14, 2):
             coefficients = []
@@ -103,12 +117,19 @@ def validate(root: Path, wiki_root: Path | None = None) -> dict:
                 integral = weights @ intensity
                 normalization_errors.append(abs(integral / 2 - 1))
                 coefficients.append(float(9 * (weights @ (intensity * p4)) / integral))
+                if twice_jf == 9 and twice_mi > 0:
+                    direct_vertex = np.array([5 * (weights @ (intensity * p2)) / integral, coefficients[-1]])
+                    vertex_checks.append(float(np.max(np.abs(
+                        direct_vertex - reference_vertices()[:, (twice_mi - 1) // 2]
+                    ))))
             photon_checks.append(abs(coefficients[0] + (8 / 3) * coefficients[1]))
         assert max(photon_checks) < 1e-12
         assert max(normalization_errors) < 1e-12
+        assert max(vertex_checks) < 1e-12
         exact.update(photon_substates_checked=14,
                      maximum_photon_route_cancellation_error=max(photon_checks),
-                     maximum_photon_normalization_error=max(normalization_errors))
+                     maximum_photon_normalization_error=max(normalization_errors),
+                     maximum_photon_vs_population_vertex_error=max(vertex_checks))
 
     upstream = []
     if wiki_root:
@@ -119,6 +140,7 @@ def validate(root: Path, wiki_root: Path | None = None) -> dict:
             assert hashlib.sha256(path.read_bytes()).hexdigest() == entry["upstream_sha256"]
             upstream.append(entry["upstream_raw"])
     return {"ok": True, "rows": len(rows), "profile_cases": len(rerun["cases"]),
+            "physical_population_witness_cases": len(witness_record["cases"]),
             "invalid_inputs_rejected": failures_rejected, "independent_sympy": exact,
             "upstream_hashes_checked": upstream, "numerical_controls": rerun["controls"],
             "scope": "code, identity and algebra validation; no experimental or novelty certification"}

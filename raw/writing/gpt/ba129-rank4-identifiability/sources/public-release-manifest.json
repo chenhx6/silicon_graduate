@@ -1,32 +1,37 @@
 {
   "manifest_type": "research-article-release-v1",
-  "generated_at": "2026-11-05T08:35:43.395876+00:00",
+  "generated_at": "2026-11-05T12:47:51.310096+00:00",
   "topic": "ba129-rank4-identifiability",
   "status": "exploratory-not-ready",
   "license": null,
   "permanent_archive": null,
-  "data_boundary": "Two evaluated summary rows plus a separately labeled OCR error-scale sensitivity contract. No publisher full text, raw events or private data.",
-  "scientific_gate": "Novelty, original table/1978 version, response/purity/covariance and final claim admission remain open.",
+  "data_boundary": "Two evaluated summary rows and two separately preserved visually checked 1977 primary-table rows. No publisher full text, raw events or private data.",
+  "scientific_gate": "Novelty, 1978/evaluation uncertainty revision, response/purity/covariance and final claim admission remain open; 1977 Table1 scan has been checked.",
   "files": [
     {
       "path": "PUBLIC_RELEASE.md",
-      "sha256": "9ea5bcd39067066e0d6e3589aebd9c620bd150b96231e6992bafdfdede6f6a40",
-      "size": 2410
+      "sha256": "57da664298c1913781bb306efa75899bfa8543bfaeb861fa22a53128f903b6d4",
+      "size": 2424
     },
     {
       "path": "README.md",
-      "sha256": "159b4f6575332285307fb574bf1f92fa7eff411722c59d8181c9d931cfe8a4f5",
-      "size": 2283
+      "sha256": "ac2e90116efc9f47da2d7c73590267608783c14fccf38112a0de9be131466179",
+      "size": 2574
     },
     {
       "path": "analysis/README.md",
-      "sha256": "ad4b675a12bc1e38dfead043acda9173038677efb18271a7fbf3ecfb877b1f4c",
-      "size": 2060
+      "sha256": "5af9cbc5498a1439ba4d297e25ee2e912d7e3592e69754b5f20c481ccd134f6f",
+      "size": 2474
     },
     {
       "path": "analysis/companion_profile.py",
-      "sha256": "1e3750223183d8cc7745dfc04ada91bd32f7fc28e14ddfd4ae76b901d8e72d4b",
-      "size": 10982
+      "sha256": "db018af90f84af7e162a820b2b4fc45b6004726a1bfa069b6c9c485affc17b7e",
+      "size": 11611
+    },
+    {
+      "path": "analysis/physical_population_witness.py",
+      "sha256": "3f58b954bc04320c4dfa2d36153f45678e7ae0ff2f8aff9c58402d52cbfe5272",
+      "size": 4205
     },
     {
       "path": "analysis/rank4_invariant.py",
@@ -35,13 +40,18 @@
     },
     {
       "path": "analysis/results/companion-profile.json",
-      "sha256": "96a7456e35e0588581af35ad37f274924398806820257b3aad4430a89e53e7e3",
-      "size": 76144
+      "sha256": "6779364af52bd2ded33f52193fa892a5798df5f00be9796c1e8ec8ca7eb1fd75",
+      "size": 75882
     },
     {
       "path": "analysis/results/compile-record.json",
-      "sha256": "2d6b6bdfd7ddc42c1a64e86fd96db32871e26071c738276f7352cf6733a47cb6",
-      "size": 983
+      "sha256": "96ad1f3e4171993352ee7d45dd4dfedb43b293d551d92a51ca90d7fe3de1682b",
+      "size": 1041
+    },
+    {
+      "path": "analysis/results/physical-population-witness.json",
+      "sha256": "56a96273e034eea36a843c33afa8ab434f42ca110320e3e3569e3489dfd9d726",
+      "size": 7363
     },
     {
       "path": "analysis/results/rank4-invariant.json",
@@ -50,18 +60,23 @@
     },
     {
       "path": "analysis/results/validation.json",
-      "sha256": "42d7919c1ab115c6defb54d50a6a9bbb99cae83378bbee506a34cd95e60b8019",
-      "size": 1341
+      "sha256": "3b8f1581580d098a6f618f0048c7e6c82dbc97f11dea811e35ca2b98c5d416cc",
+      "size": 1458
     },
     {
       "path": "analysis/validate_case.py",
-      "sha256": "1d56941e92dbb98de88ed2c7934881f8f4397b62f7dd58ed2ddacd7c121dbc40",
-      "size": 6799
+      "sha256": "f0fd4d177841e2a87b47634d3ea11b9000fd3c081baf5138afa06494f5223b90",
+      "size": 8440
     },
     {
       "path": "data/README.md",
-      "sha256": "a9fcea139607cbd695a0c04fb6ac6710bbf707457c949f1a3c587cafb900f67a",
-      "size": 1938
+      "sha256": "cd8230072990fa2e0764881a53fcc91d9652f9b2e1853e2d6e9224f39f9a29ee",
+      "size": 1975
+    },
+    {
+      "path": "data/ba129_primary1977_coefficients.csv",
+      "sha256": "1608471ca731e3e667eb83c77de7d672b186fed8283c94e511f4b3443039db7c",
+      "size": 458
     },
     {
       "path": "data/ba129_same_parent_A4.csv",
@@ -70,23 +85,23 @@
     },
     {
       "path": "data/input-contract.json",
-      "sha256": "d614c794f4416a6222018ee4309fd89ccb0b76beb8045199d71e911c90e77560",
-      "size": 2276
+      "sha256": "fd7e992d31b310231b1ae90bd4bcc3efa54cc982bcf0af2358b86813b746a874",
+      "size": 2314
     },
     {
       "path": "figures/companion_profiles.pdf",
-      "sha256": "82881f05e4c74de7b442044ef6632f6816a114f7cd7745b3f3725719bb9d231d",
-      "size": 24696
+      "sha256": "269f1fa2bed5772195bf3d1d57734d594aa2f4fdeef4f0d2a9469b5349b8cc98",
+      "size": 24534
     },
     {
       "path": "figures/companion_profiles.png",
-      "sha256": "9d65d2cfea79d03763cf19e295ac93ed0a02d222dc9e744dc7abc5bf98be0547",
-      "size": 187309
+      "sha256": "024767c432f5eb9582f9cb84bb9c4b5ff73a2292091094e6575a57f883e5c9c9",
+      "size": 185069
     },
     {
       "path": "figures/made/data/companion_profile_curves.csv",
-      "sha256": "681601b0917d311dac708c9aab1c26b23c05a4d39cc0fbc14d460042a7ac9e96",
-      "size": 92285
+      "sha256": "277dd88d606b18626939173b89b58078a63d4ce025c41d238c195d0df8172ec9",
+      "size": 77885
     },
     {
       "path": "figures/made/data/rank4_relation_curve.csv",
@@ -100,8 +115,8 @@
     },
     {
       "path": "figures/made/generate_profile_figure.py",
-      "sha256": "65b5bf3da2fe1288ab34b9aafd022e39cf9c331032ad36197c409add847701b6",
-      "size": 3298
+      "sha256": "bb66ca410b522079518d8935afbf972d9cbb2da0ea8707da0a243cff7f8888de",
+      "size": 3496
     },
     {
       "path": "figures/rank4_companion_gate.pdf",
@@ -115,13 +130,13 @@
     },
     {
       "path": "main.pdf",
-      "sha256": "853298722faa303881108829be3aef41337539899abae82d76cbfcc648ff6b57",
-      "size": 123612
+      "sha256": "f039d5d7094bb2a726fbd547086b7ee6b88cdd487e5b573c64ec3572c62a0b10",
+      "size": 125072
     },
     {
       "path": "main.tex",
-      "sha256": "8a9ea6ba24779febe2ec7316b9d64681fa98bc7803737d0748dffe2f9a764ae5",
-      "size": 16313
+      "sha256": "a2fe7c75a78aa97fd758fde3fa5f3dde5049dc419cd3e361df5821036ee8b8c4",
+      "size": 16896
     },
     {
       "path": "references.bib",
@@ -140,8 +155,8 @@
     },
     {
       "path": "sources/claim-ledger.md",
-      "sha256": "fa4048b2790a32c5d607ea644467794855a5fefa4ba7023e835f81b52554b501",
-      "size": 3573
+      "sha256": "ac3646c1fd56a6cbdca78e2680e5e21e5795f6b13fba819eb2b4be57b22edb32",
+      "size": 3963
     }
   ]
 }

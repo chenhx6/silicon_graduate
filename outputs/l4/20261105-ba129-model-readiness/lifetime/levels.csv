@@ -1,0 +1,18 @@
+level_id,energy_keV_raw,energy_uncertainty_keV,Jpi_reaction_raw,Jpi_adopted_raw,ENSDF_band,Chakraborty2024_band,Chakraborty2024_role,T1_2_raw,DT_raw,T1_2_value,T1_2_uncertainty,time_unit,mean_tau_derived,mean_tau_uncertainty_derived,mean_tau_ps_derived,mean_tau_ps_uncertainty_derived,lifetime_primary_keys,lifetime_method_and_locator,reaction_locator,adopted_locator,registered_outgoing_gamma_count
+129Ba_Ex182p04keV,182.04,0.11,9/2-,9/2-,B,,common_9/2_base_below_plotted_sequences,15.2 NS,10,15.2,1.0,NS,21.928964621512243,1.4426950408889634,21928.964621512245,1442.6950408889634,2013Ka27;1992By03,evaluated_weighted_gamma_t;R:81-82;A:113-114,R:79,A:108,1
+129Ba_Ex278p81keV,278.81,0.12,11/2-,11/2-,A,1,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:97,A:143,1
+129Ba_Ex643p6keV,643.6,0.1,13/2-,13/2-,B,3,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:132,A:245,2
+129Ba_Ex797p4keV,797.4,0.1,15/2-,15/2-,A,1,plotted_band_member,6.5 PS,2,6.5,0.2,PS,9.377517765778263,0.2885390081777927,9.377517765778263,0.2885390081777927,2000St07,"RDDS_DDCM;R:10-11,38-39;A:30",R:143,A:290,2
+129Ba_Ex883p43keV,883.43,0.13,13/2-,13/2-,D,2,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:166,A:325,2
+129Ba_Ex1210p0keV,1210.0,0.1,15/2-,15/2-,C,4,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:180,A:411,2
+129Ba_Ex1318p4keV,1318.4,0.1,17/2-,17/2-,B,3,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:195,A:443,2
+129Ba_Ex1475p4keV,1475.4,0.1,19/2-,19/2-,A,1,plotted_band_member,1.0 PS,4,1.0,0.4,PS,1.4426950408889634,0.5770780163555854,1.4426950408889634,0.5770780163555854,2000St07,"RDDS_DDCM;R:10-11,38-39;A:30",R:206,A:473,2
+129Ba_Ex1545p3keV,1545.3,0.2,(17/2-),17/2-,D,2,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:215,A:488,3
+129Ba_Ex1845p0keV,1845.0,0.2,19/2-,19/2-,C,4,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:239,A:558,2
+129Ba_Ex2146p3keV,2146.3,0.2,21/2-,(21/2-),B,3,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:255,A:613,2
+129Ba_Ex2281p2keV,2281.2,0.2,23/2-,(23/2-),A,1,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:262,A:620,1
+129Ba_Ex2336p7keV,2336.7,0.2,21/2-,(21/2-),D,2,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:266,A:629,3
+129Ba_Ex2599p6keV,2599.6,0.2,23/2-,(23/2-),C,4,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:305,A:677,3
+129Ba_Ex3094p2keV,3094.2,0.2,25/2-,(25/2-),B,3,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:367,A:741,2
+129Ba_Ex3179p4keV,3179.4,0.2,27/2-,(27/2-),A,1,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:372,A:745,1
+129Ba_Ex3430p6keV,3430.6,0.2,(27/2-),(27/2-),C,4,plotted_band_member,,,,,,,,,,,not_reported_in_checked_objects,R:392,A:764,2

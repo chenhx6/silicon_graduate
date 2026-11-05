@@ -6048,3 +6048,12 @@ raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，�
 - 2026-11-05：完成 \(^{129}\)Ba 365-keV 单点论文候选的第一版 research package。以同母态 461.6-keV \(E2\) 候选线消去 rank-4 alignment 因子，精确得到 \(A_4^{(t)}=-(8/3)f_{E2}s_4A_4^{(r)}\)；公开中心值给 \(f_{E2}s_4=-0.75\)，但保留 response/purity/gate/covariance 边界。新增 `knowledge/projects/ba129-rank4-identifiability.md`、`outputs/l4/20261105-ba129-rank4-identifiability/report.md` 和 `raw/writing/gpt/ba129-rank4-identifiability/`；5页 EPJ A draft、exact algebra script、deterministic replay、figure、claim ledger 和 release manifest 均已生成。boundary、archive、preflight 通过；Wiki lint 修复标准 project sections 后 0 errors。当前稿件保持 `partial/not-ready`。
 
 - 2026-11-05：129Ba续研取得Gizon1977授权FULL JSON全文OCR（PDF仅首页），发现误差尺度版本差异。独立反审确认−8/3但否定“新识别方法”表述；将核选择g与响应s分开，承认Diamond1966先例。新增四系数空间GLS profile与50-cell条件敏感性；对角情况下small−large距离仅0.013563，相关性扫描可反转排序。OCR-scale情景使原二倍margin非相交消失。source/project/稿件/report同步改为exploratory/not-ready，goal仍active；未修改其他session工具安装。
+
+## 2026-11-05 — 129Ba primary-source and observable checkpoint
+
+- Archived and read the complete Gizon1977, Bucurescu1998 and Byrne1992 papers; visually verified the original angular-coefficient table and preserved the primary/evaluated uncertainty versions separately. Restored missing Meyer-ter-Vehn originals by exact hash without overwriting evidence.
+- Implemented the declared positive-BCS single-j rotor, core-E2/particle-j tensors and bare R0 transfer operator; 48 targeted tests passed. Energy-only fits and the predeclared one-anchor/five-withheld photon protocol produced 14 retained original/dual parameter predictions.
+- Independent source and numerical audits verified data correspondence, phase-space powers, signed EM duality and transfer sums. They also exposed uncontrolled omitted-coupling scales at the best free-inertia energy point; this prevents a physical shape verdict.
+- Acquired the two-page DAE68 129Ba TPSM precedent (PDF volume year2024; INSPIRE publication2025). The 1991 IBFM paper remains metadata-only after403/401 responses. Reusable conclusions were written to knowledge sources, model and research-note pages.
+- Rebuilt and visually inspected the five-page angular draft, which remains exploratory/not-ready. Lint errors0; primary/precedent archive gates, boundary, preflight, angular validation and release hashes passed.
+- Publication scope is this task's explicit file list. PLAN and installation/session work are preserved. Full A130 research goal remains active; this checkpoint is not a completed paper or a claim of exhaustive reading.

@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-11-05T12:57:06.756390+00:00",
+  "status": "validated-research-checkpoint-publication-pending",
+  "goal_status": "active",
+  "previous_goal_turn": "progress",
+  "protected_unrelated_change": "PLAN.md retained; get-paper untouched",
+  "new_primary_sources": {
+    "Gizon1977": "full13-page PDF and Table1 visually verified",
+    "Bucurescu1998": "full18-page transfer/IBFM paper read",
+    "Byrne1992": "full28-page paper; selected methods/branches and model-assisted B ratios audited",
+    "RouoofDAE68": "2-page TPSM energy report; PDF header2024, INSPIRE publication2025, separately preserved."
+  },
+  "archive_manifest": "raw/papers/gpt/query/20261105-ba129-model-readiness/manifest.json",
+  "angular_paper_update": "Primary1977 CSV visually verified; 6 LP witnesses and 50 coefficient cases validated; 5-page PDF rebuilt/visually checked, release manifest refreshed.",
+  "model_core": "system/scripts/analysis/paired_single_j_{rotor,em,transfer}.py;48 tests passed",
+  "energy_fit_done": [
+    "model-fit/energy-calibration.json",
+    "model-fit-C60/energy-calibration.json",
+    "model-fit-free-inertias/energy-calibration.json",
+    "model-fit-free-inertias-C120/energy-calibration.json"
+  ],
+  "energy_fit_result": "C120 independent inertias best RMS39.9252017keV, no active bounds; other local minimum43.264878keV. Descriptive energy fit; Nambu approximation not controlled at all fitted states.",
+  "live_exec_handle": null,
+  "worker": {
+    "id": "01a1aaf9-9d4c-7761-9b62-954971b8db47",
+    "task": "Independent observable and omitted-coupling audit",
+    "write_scope": [
+      "outputs/l4/20261105-ba129-model-readiness/observable-review/"
+    ],
+    "status": "complete"
+  },
+  "frozen_em_protocol": "em-branch-test-contract.json: one153.8/518.6yrast ratio calibrates common eta;5other ratios held out; no use of model-derived published B ratios",
+  "remaining": [
+    "Complete scoped publication/reconciliation",
+    "Assess full Nambu branch tracking and physically constrained fields/core/occupancy",
+    "Study energy-near-equivalent parameter-domain predictions under declared operators",
+    "Continue A130 innovation investigation; manuscript remains exploratory/not-ready"
+  ],
+  "predictions": "observables-v1/observable-predictions.json:7 energy starts /14 parameter sets /84 photon ratios; one fixed scale anchor and5 withheld branches; all outputs retained.",
+  "approximation_boundary": "Best C120 I=11/2 discarded Nambu block norm1.095091MeV; not an eigenvalue correction or error bar."
+}

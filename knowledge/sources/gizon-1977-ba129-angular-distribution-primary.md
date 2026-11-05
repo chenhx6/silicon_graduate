@@ -18,8 +18,10 @@ doi: 10.1016/0375-9474(77)90714-X
 canonical_source: "https://doi.org/10.1016/0375-9474(77)90714-X"
 citation_key: Gizon1977
 citation_key_origin: agent-local-manuscript-bibliography
-raw_file: raw/papers/gpt/query/20261105-ba129-primary/evidence/manifest.json
-raw_sha256: 3c613ebc9613aa4ee4a42e2084a935db5049530264b5647fe31982734d40ac44
+raw_file: raw/papers/gpt/query/20261105-ba129-model-readiness/gizon1977-main.pdf
+raw_sha256: 017e979cea49b19daecc5394a5ca90e460ad0cb2c1a60edaf510e3b7dc446795
+acquisition_manifest_file: raw/papers/gpt/query/20261105-ba129-model-readiness/manifest.json
+acquisition_manifest_sha256: bc6ad44bff5658934c28d1df417453364db5f95d0f036369532454180b7187c6
 archive_required: true
 raw_storage_status: archived-local-publisher-api
 nuclei: [129ba]
@@ -39,16 +41,16 @@ J. Gizon, A. Gizon and J. Meyer-ter-Vehn, *Nuclear Physics A* **277**,
 
 ## Scope and Reading Depth
 
-已读 `gizon1977-full-json.json` 的
-`/full-text-retrieval-response/originalText`：出版商返回的全文 OCR 文本
-覆盖引言、实验、能级讨论、模型比较、总结与参考文献（印刷 pp.464–476）。
-深读 §§2–3、Tables 1–3、§4.1 的模型输入及引用的 Yamazaki/Diamond
-取向处理。它不是完整扫描 PDF 的视觉复核。
+初次取得全文 JSON/OCR 和两个仅首页的 PDF，旧访问回执保留在
+`20261105-ba129-primary/evidence/manifest.json`。本轮改读出版商
+`FULL XML` 的 `web-pdf-purpose=MAIN` 元素，从其明确给出的
+`attachment-eid` 经标准 Object API 取得完整13页扫描 PDF；不是从首页
+或下载器状态推断全文。
 
-两次出版商 PDF 请求均只取得第一页（printed p.464）。HAL 的外链
-ISTEX 端点重定向至身份认证；没有登录。Table 1 的正负号、误差分隔符和
-分数自旋在 OCR 中有损，尚不能认证印刷表格全部数字。尤其不能由 OCR
-中缺少一个负号推断原表一定为正，或据此修改 ENSDF 原件。
+全文主线与方法/结果已结合先前OCR和本轮PDF读取。实际视觉核验包括
+printed p.466 Table 1 的365.0、461.8行及表头/脚注，p.471
+Tables 2–3，p.473 Fig.4参数，p.474–475模型讨论。没有声称逐像素核验
+每一个谱峰或理论衰变箭头。旧“Table 1扫描页缺失”的边界现已关闭。
 
 Gizon 1978 偏振论文仍只有本轮题录/访问记录：APS PDF 403、Harvest
 401、HAL notice、CORE 精确 DOI 检索无结果。未读其正文。
@@ -57,7 +59,7 @@ Gizon 1978 偏振论文仍只有本轮题录/访问记录：APS PDF 403、Harves
 
 本文通过重离子反应研究 129Ba 能带及连接，角分布用于多极性和混合比，
 并与三轴核芯模型比较。此次取得原始正文补充了角分布的单谱采集条件、
-强度归一条件和原作者的取向假设，也暴露出原表 OCR 与后续评价之间的
+强度归一条件和原作者的取向假设，也暴露出原始表格与后续评价之间的
 误差尺度差异。差异原因尚未确定，不能默合两种版本。
 
 ## Key Results
@@ -68,10 +70,11 @@ Gizon 1978 偏振论文仍只有本轮题录/访问记录：APS PDF 403、Harves
 | GI77-2 | Table 1 强度在相对束流 55° 处给出；不能不经角分布/效率核对就把该列当全立体角光子分支。 | experimental-definition | publisher-original-text | printed p.465, paragraph before Table 1 | true |
 | GI77-3 | §3.1 将 365.0 与 461.8-keV 线放在同一母态退激分支；后续评价的 364.7/461.6 标签须按连接关系映射，不能精确能量等同。 | level-connection | publisher-original-text | printed p.469, §3.1; Table 1 and Fig.3 references | true |
 | GI77-4 | 在讨论 701.4-keV 线的自旋判别时，作者提到 α2 约0.5与 α4 小于0.2的部分取向修正；这些数不能自动移给365-keV母态，也不是 detector Q4。 | method-and-scope | publisher-original-text-with-OCR-boundary | printed p.469, end of §3.1 | true |
-| GI77-5 | Table 1 的出版商 OCR 对365.0行读出 A2 的误差尺度0.05；对461.8行读出 A2/A4 的误差尺度0.04/0.06。现存2014 ENSDF 对应数为0.03与0.02/0.05。原扫描页及1978正文未得，不能认证这是哪一步修订、排印或OCR差异。 | version-discrepancy-candidate | publisher-OCR-versus-evaluated-record | printed p.466 Table 1；ENSDF129056013 lines137/141 | true |
+| GI77-5 | 扫描Table 1确认365.0行 A2=−0.70(5)、A4=+0.16(5)，461.8行 A2=+0.22(4)、A4=+0.08(6)。2014评价误差分别为(0.03,0.05)/(0.02,0.05)。正号与误差差异已视觉核实；差异是否来自1978修订或评价处理仍未确定。 | primary-table-and-version-difference | direct-original-visually-checked | printed p.466 Table1；ENSDF129056013 lines137/141 | true |
 | GI77-6 | Table 2 的365.0行给历史混合比区间约 −0.97至−0.79；2024重分析的大模结果是另一个分析层，不能称作本原始表测量值。 | attributed-derived-result | publisher-original-text | printed p.471 Table 2；同页Table 3为派生相对E2强度 | true |
 | GI77-7 | 作者明确以三轴核芯模型作为一种理论解释，讨论振子模型等替代描述；能谱比较不直接给本任务所需的探测器响应或系数协方差。 | interpretation-and-boundary | publisher-original-text | printed p.465 Introduction; pp.472–475 §4 and conclusion | true |
 | GI77-8 | 作者在讨论末尾明确说已计算混合比与相对B(E2)，但与Tables 2–3的实验派生量符合不佳，因此未给显式比较。能谱的定性符合没有同时闭合电磁预测。 | author-reported-model-limitation | publisher-original-text | printed p.475, final paragraph of §4.2 immediately before §5 | true |
+| GI77-9 | Fig.4模型标注β=0.24、γ=21°、无量纲 \(\widetilde\lambda_F=+1.5\)、Δ=1.0 MeV；caption以最高两单粒子能量定义无量纲Fermi坐标。不能把+1.5直接作为MeV的λ。 | model-input-definition | direct-original-visually-checked | printed p.473 Fig.4 header/caption | true |
 
 ## Competing Interpretations and Limitations
 
@@ -80,16 +83,17 @@ Gizon 1978 偏振论文仍只有本轮题录/访问记录：APS PDF 403、Harves
 中的同母态代数仍为条件检验。共同母态取向、有限接受、参考纯度和坐标约定是
 不同条件；其中任一失效不能都改名为“负 Q4”。
 
-原件 OCR 的误差尺度仅可用于明确标注的版本敏感性计算。若暂采用
-参考误差0.06，二倍边际区间为 −0.04至0.20；在 s4=1、0≤fE2≤1 的
+已核实的1977原表与2014评价分别输入，不能因后者精度更高便默认它是同一次
+拟合的原始误差。采用原表参考误差0.06，二倍边际区间为 −0.04至0.20；
+在 s4=1、0≤fE2≤1 的
 假设下映射的目标上界变为0.1067，与目标二倍区间0.06至0.26相交。
 这是误差尺度改变导致的代数敏感性，不是新的实验置信区间；也表明不能把
 上一版“二倍边际盒不相交”解释为稳健排除。
 
 ## Knowledge Impact and Learning Decision
 
-`revises`：此前“Gizon1977 body unavailable”已被授权 FULL JSON
-全文取代；可视 Table 1 和1978正文仍未取得。数字/符号层保持待核。
+`revises`：Gizon1977全文和关键原表视觉核验均已完成；此前临时OCR尺度
+已升级为原始表格版本。1978正文和误差修订来源仍未取得。
 
 `limits`：[[ba129-rank4-identifiability]] 的算术闭合不构成文献新颖性
 或实验裁决。下一步先完成来源版本与同母态 joint-coefficient 检验，
@@ -110,5 +114,5 @@ Gizon 1978 偏振论文仍只有本轮题录/访问记录：APS PDF 403、Harves
 
 ## Self-audit
 
-正文取得、扫描页缺失和 OCR 风险分别登记。没有把 metadata/首页当全文，
-没有修改原件，没有补实验协方差，没有把 self-audit 写作 human-reviewed。
+首页预览、全文OCR、完整扫描PDF分开登记并保留历史回执。没有修改原件，
+没有补实验协方差，没有把 self-audit 写作 human-reviewed。

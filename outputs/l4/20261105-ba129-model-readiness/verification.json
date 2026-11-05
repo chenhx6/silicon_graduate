@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-11-05T12:53:27.298983+00:00",
+  "status": "checks-passed-with-scientific-boundaries",
+  "paired_model_tests": {
+    "passed": 48,
+    "log_sha256": "5a9f22d6859562ab8dcd35a96eef838c29574df5c31c03fc68d11289563c57dc"
+  },
+  "lint_summary": "SUMMARY pages=1369 wikilinks=12661 hashes=469 errors=0 warnings=618 info=5348",
+  "gates": {
+    "archive_primary": {
+      "ok": true,
+      "failure_count": 0
+    },
+    "archive_precedents": {
+      "ok": true,
+      "failure_count": 0
+    },
+    "boundary": {
+      "ok": true,
+      "failure_count": null
+    },
+    "preflight": {
+      "ok": true,
+      "failure_count": null
+    }
+  },
+  "angular_validation": {
+    "ok": true,
+    "profile_cases": 50,
+    "physical_population_witness_cases": 6
+  },
+  "release_manifest_files_verified": 30,
+  "independent_observable_review_counts": {
+    "energy_starts": 7,
+    "parameter_sets_including_duals": 14,
+    "photon_rows_checked": 84,
+    "mapped_Nambu_state_diagnostics": 140,
+    "signed_diagonal_rows": 140,
+    "transition_phase_pairs": 42
+  },
+  "review_input_hashes_match_current": true,
+  "scope": "No installation tests or changes; unrelated PLAN worktree changes excluded from publication. Tests are not scientific certification."
+}

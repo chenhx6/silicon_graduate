@@ -72,17 +72,19 @@ root and does not classify wobbling, signature partner or tilted precession.
 
 ## New primary source and uncertainty lineage
 
-[[gizon-1977-ba129-angular-distribution-primary]] GI77-1–7 now records
-publisher FULL JSON text covering the original article, whereas the obtained
-PDFs contain only p.464. Table 1 remains visually unverified. OCR error
-scales for target \(A_2\) and reference \(A_2/A_4\) differ from the evaluated
-record; they are a sensitivity scenario, not corrected measurements.
+[[gizon-1977-ba129-angular-distribution-primary]] GI77-5 now has a full
+13-page PDF and a visual Table 1 check. The original errors are
+(0.05,0.05) for the target and (0.04,0.06) for the reference, confirming the
+previous OCR lead. The reason for the smaller evaluation errors remains open.
+The source versions are kept separate and are not independent data samples.
 
-Keeping evaluated means/signs and using the OCR-suggested reference \(A_4\)
-error 0.06 makes the two-margin rank-4 boxes overlap for \(s_4=1\).
-Alternatively, with the evaluated errors, \(s_4=1.125\) already permits
-contact. The earlier fixed-\(s_4=1\) non-overlap therefore does not supply a
-robust experimental rejection.
+With the original reference error 0.06, the two-margin rank-4 boxes overlap
+for s4=1. With evaluated errors, s4=1.125 already permits contact. In the
+stronger four-coefficient check, a nonnegative common substate population at
+chosen delta=-2 reaches a minimum common margin multiplier1.85768 for the
+primary table (3.39629 for the evaluation). Primal and dual LP checks certify
+the mathematical witness. It is not a measured population, confidence level,
+reaction-realizability proof or mode assignment.
 
 ## Joint coefficient-space diagnostic
 
@@ -110,7 +112,7 @@ Free real reference coefficients relax population-positivity constraints.
 With \(s_2=s_4=1\) and chosen diagonal errors, the evaluated case gives
 \(D_{\min}=12.8797\), at diagnostic \(\delta=-1.0270\), and
 \(D_{\rm small}-D_{\rm large}=0.01356\).
-The provisional OCR-scale case gives \(8.2357\), \(-1.2412\) and \(0.46848\).
+The primary-table case gives \(8.2357\), \(-1.2412\) and \(0.46848\).
 These are scenario-specific model diagnostics, not revised experimental roots.
 
 The 50-cell analysis uses two scale scenarios and a \(5\times5\)
@@ -148,12 +150,12 @@ algebra control. `analysis/companion_profile.py` implements the fixed-covariance
 profile without a ratio-Gaussian approximation. Independent standard Wigner
 symbols, direct photon projections for all 14 parent substates, direct GLS,
 grid refinement and invalid-input checks are in `analysis/validate_case.py`.
-The data contract records actual upstream hashes and the OCR sensitivity role.
+The data contract records actual upstream hashes and the separate source-version roles.
 
 ## Next Actions
 
-1. Obtain the visual Table 1 scan and the 1978 coefficient/polarization
-   revision to resolve the uncertainty lineage.
+1. The 1977 scan is obtained; seek the 1978 revision/evaluation record to
+   resolve the uncertainty lineage.
 2. Establish response ratios, selected-parent identity, reference purity and
    covariance before interpreting any inferred root.
 3. Test an independently characterized companion pair or a fully declared
@@ -191,3 +193,5 @@ not pooled with 129Ba.
 - [[ba129-365-mixing-reference-boundary]]
 - [[multipole-mixing-ratio]]
 - [[angular-distribution]]
+
+The physical-model route is maintained separately in [[ba129-model-input-and-holdout-contract]], using transfer strengths and lifetimes without expanding this angular-consistency draft into an omnibus paper.

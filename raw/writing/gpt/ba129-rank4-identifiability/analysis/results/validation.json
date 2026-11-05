@@ -2,6 +2,7 @@
   "ok": true,
   "rows": 2,
   "profile_cases": 50,
+  "physical_population_witness_cases": 6,
   "invalid_inputs_rejected": [
     "duplicate_target",
     "different_parent_id",
@@ -21,11 +22,12 @@
     ],
     "photon_substates_checked": 14,
     "maximum_photon_route_cancellation_error": 3.6637359812630166e-15,
-    "maximum_photon_normalization_error": 3.3306690738754696e-16
+    "maximum_photon_normalization_error": 3.3306690738754696e-16,
+    "maximum_photon_vs_population_vertex_error": 2.6645352591003757e-15
   },
   "upstream_hashes_checked": [
     "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens",
-    "raw/papers/gpt/query/20261105-ba129-primary/gizon1977-full-json.json"
+    "raw/papers/gpt/query/20261105-ba129-model-readiness/gizon1977-main.pdf"
   ],
   "numerical_controls": {
     "maximum_projected_vs_direct_GLS_error": 1.1368683772161603e-12,

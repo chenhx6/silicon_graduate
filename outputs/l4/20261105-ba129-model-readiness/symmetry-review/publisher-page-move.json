@@ -1,0 +1,49 @@
+{
+  "scope": "Only the seven page renders created by this symmetry audit were moved. Archived raw PDFs are unchanged.",
+  "moved_files": [
+    {
+      "from": "outputs/l4/20261105-ba129-model-readiness/symmetry-review/pages/mtv-I-pdf7.png",
+      "to": "tmp/ba129-model-readiness/symmetry-review/pages/mtv-I-pdf7.png",
+      "size_bytes": 92263,
+      "sha256": "69bbf2d123fe20e00c582f74c36f08af34f5054d2a139260575f656f81c27281"
+    },
+    {
+      "from": "outputs/l4/20261105-ba129-model-readiness/symmetry-review/pages/mtv-I-pdf8.png",
+      "to": "tmp/ba129-model-readiness/symmetry-review/pages/mtv-I-pdf8.png",
+      "size_bytes": 88947,
+      "sha256": "d4bce3a3b38ea87d07c2a6b0f5c6bb18de7045229731fbd9b1368aecef5b9e79"
+    },
+    {
+      "from": "outputs/l4/20261105-ba129-model-readiness/symmetry-review/pages/mtv-I-pdf10.png",
+      "to": "tmp/ba129-model-readiness/symmetry-review/pages/mtv-I-pdf10.png",
+      "size_bytes": 105093,
+      "sha256": "302e7005b16d3db045876d0cbb7f725a0520b8c15313eded245fd454f2170fc4"
+    },
+    {
+      "from": "outputs/l4/20261105-ba129-model-readiness/symmetry-review/pages/mtv-I-pdf11.png",
+      "to": "tmp/ba129-model-readiness/symmetry-review/pages/mtv-I-pdf11.png",
+      "size_bytes": 100629,
+      "sha256": "0d8df45c1907cf4a1b740c95a84a9d0b05a26bbe09bf07289f7a43da48a3ae99"
+    },
+    {
+      "from": "outputs/l4/20261105-ba129-model-readiness/symmetry-review/pages/bu98-pdf5.png",
+      "to": "tmp/ba129-model-readiness/symmetry-review/pages/bu98-pdf5.png",
+      "size_bytes": 94156,
+      "sha256": "064f387b491cfd316b8baf8e7e5f042c87ca9c8af962927de7711a709a743c7f"
+    },
+    {
+      "from": "outputs/l4/20261105-ba129-model-readiness/symmetry-review/pages/bu98-pdf10.png",
+      "to": "tmp/ba129-model-readiness/symmetry-review/pages/bu98-pdf10.png",
+      "size_bytes": 146845,
+      "sha256": "e5fe9921fea38484abcdc84bb8f20725148333097725f11a446d8d921a5aee2c"
+    },
+    {
+      "from": "outputs/l4/20261105-ba129-model-readiness/symmetry-review/pages/bu98-pdf11.png",
+      "to": "tmp/ba129-model-readiness/symmetry-review/pages/bu98-pdf11.png",
+      "size_bytes": 94104,
+      "sha256": "5e37ceee961f48f5ecee4ef82c9b8673af9db0bae64e30f12d69f6efaa640e6b"
+    }
+  ],
+  "all_destination_hashes_verified": true,
+  "old_pages_directory_exists": false
+}

@@ -23,13 +23,13 @@ fixture once the manuscript's final license and archive decision is made.
 
 ## Version-sensitive input
 
-`input-contract.json` binds the canonical coefficients to the actual archived
-ENSDF text and its exact line locators. It also binds a separate error-scale
-scenario to publisher FULL JSON of Gizon1977. The latter OCR suggests larger
-margins for three entries. The scan table is still unavailable, so evaluated
-means and signs are deliberately retained and the alternate scales are not
-advertised as corrected primary measurements. The two scenarios are never
-pooled as independent experiments.
+`input-contract.json` binds the evaluated coefficients to the archived ENSDF
+text and exact locators. `ba129_primary1977_coefficients.csv` independently
+transcribes the complete primary PDF (printed p.466 Table 1), including the
+365.0/461.8-keV energies and original errors. The positive A4 signs and error
+scales have been visually checked. The reason for their difference from the
+evaluation remains unresolved; neither version is silently replaced.
+The two versions share historical data and are not pooled as new experiments.
 
 The CSV now carries `parent_id`; loaders reject duplicate rows, different
 parents or spins, unsupported multipole hypotheses, nonfinite numbers and

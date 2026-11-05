@@ -144,7 +144,12 @@ def analyze(article_root: Path) -> dict:
     direct_checks = []
     refinement_checks = []
     for scenario in contract["uncertainty_scenarios"]:
+        version_rows = load_rows(article_root / scenario["dataset_file"], require_reference_nonzero=False)
+        target, reference = version_rows["target_365"], version_rows["reference_462"]
+        y = np.array([target["A2"], target["A4"], reference["A2"], reference["A4"]], dtype=float)
         scales = np.array(scenario["standard_error_scales"], dtype=float)
+        assert np.array_equal(scales, [target["A2_sigma"], target["A4_sigma"],
+                                      reference["A2_sigma"], reference["A4_sigma"]])
         for rho_within in contract["correlation_grid"]:
             for rho_cross in contract["correlation_grid"]:
                 cov = covariance(scales, rho_within, rho_cross)
@@ -186,6 +191,8 @@ def analyze(article_root: Path) -> dict:
         "scope": "conditional coefficient-space nuisance profiling; not an experimental refit",
         "input_sha256": hashlib.sha256(csv_path.read_bytes()).hexdigest(),
         "contract_sha256": hashlib.sha256(contract_path.read_bytes()).hexdigest(),
+        "dataset_sha256": {s["id"]: hashlib.sha256((article_root / s["dataset_file"]).read_bytes()).hexdigest()
+                           for s in contract["uncertainty_scenarios"]},
         "script_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         "runtime": {"python": platform.python_version(), "numpy": np.__version__, "scipy": scipy.__version__},
         "rank2": {
@@ -208,7 +215,7 @@ def analyze(article_root: Path) -> dict:
         },
         "boundary": [
             "covariance is a chosen finite family; no actual covariance inferred",
-            "OCR error-scale scenario keeps evaluated signs and means; it is not a corrected measurement",
+            "primary1977 and evaluated versions are dependent source layers and are not pooled",
             "free reference coefficients relax physical population-positivity constraints",
             "branch distance contrasts have no p-value, probability or confidence interpretation",
             "same-parent state identity does not establish identical postselection or response",

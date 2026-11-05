@@ -1,0 +1,343 @@
+{
+  "schema": "ba129-em-holdout-readiness-v1",
+  "generated_at_utc": "2026-11-05T09:30:48.905303+00:00",
+  "status": "local_source_audit;conditional_model_holdouts;primary_RDDS_audit_pending",
+  "input_sources_read_and_hashed": {
+    "R": {
+      "path": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens",
+      "bytes": 44715,
+      "sha256": "09194d4feed3bbda013c551ce5ba9ecf55a25799e8c46ec22f23685df1c1ef19"
+    },
+    "A": {
+      "path": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056001-201408-15d8e353eb23.ens",
+      "bytes": 75414,
+      "sha256": "15d8e353eb23d55847dc0d0127591fd2fb23e6da63ae98146747aecb233f65f6"
+    },
+    "S": {
+      "path": "knowledge/sources/nndc-2014-129ba-365-coefficient-records.md",
+      "bytes": 8390,
+      "sha256": "ee15d30b0bc9b0a35d2c54f32f4f2bb054aa29fd2e36c36fe5de478608623e6b"
+    },
+    "C": {
+      "path": "raw/papers/2024_Chakraborty et al_Exploring the possibility of wobbling motion in Ba 129.pdf",
+      "bytes": 455176,
+      "sha256": "d5729de577067f8afeab771afb51328989772c68962a938d553bccb50f0c0808"
+    }
+  },
+  "locator_convention": "R/A/S: original 1-based file lines including leading blank; C:Pn:Lnnn: extracted PDF page lines",
+  "evaluation": {
+    "year": 2014,
+    "version": "201408/14NDS",
+    "cutoff": "2014-05-31",
+    "locators": [
+      "R:2-4",
+      "A:2-4"
+    ]
+  },
+  "scope": {
+    "selection": "ENSDF bands A/B/C/D through the 27/2 states shown in Chakraborty2024 Fig.1",
+    "level_count": 17,
+    "branch_count": 33,
+    "ENSDF_to_paper_band": {
+      "A": 1,
+      "D": 2,
+      "B": 3,
+      "C": 4
+    },
+    "band_mapping_exception": "182.04 keV 9/2- is ENSDF B but is the common base drawn below the four sequences; paper band 3 is plotted from 13/2; its paper band field is null",
+    "band_crosswalk_locator": "C:P2 Fig.1; visually inspected local crop",
+    "other_negative_parity_and_higher_spin_states": "outside_this_inventory",
+    "level_id": "task-local identifier based on adopted excitation energy; not an official ENSDF ID",
+    "all_registered_branches_included": true,
+    "branch_completeness_experimentally_established": false
+  },
+  "source_lineage": [
+    {
+      "key": "1992By03",
+      "year": 1992,
+      "reference": "A. Byrne et al., Nucl. Phys. A 548, 131",
+      "observables": "selected E_gamma and RI; single A2/DCO layer",
+      "locators": [
+        "R:5-7,19-26,33",
+        "A:11-13",
+        "C:P5 ref.[25]"
+      ]
+    },
+    {
+      "key": "2000St07",
+      "year": 2000,
+      "reference": "O. Stuch et al., Phys. Rev. C 61, 044325",
+      "observables": "797.4 and 1475.4 keV T1/2 as encoded by ENSDF; RDDS/DDCM",
+      "primary_body_read_here": false,
+      "locators": [
+        "R:10-11,38-39",
+        "A:30",
+        "C:P5 ref.[30]"
+      ]
+    },
+    {
+      "key": "2013Ka27",
+      "year": 2013,
+      "reference": "J. Kaur et al., Phys. Rev. C 87, 064312",
+      "observables": "182 keV isomer gamma(t)/TDPAD; evaluated T1/2 also uses 1992By03",
+      "locators": [
+        "R:12-18,79-83",
+        "A:108-114",
+        "C:P5 ref.[31]"
+      ]
+    },
+    {
+      "key": "1977Gi02;1978Gi04",
+      "years": [
+        1977,
+        1978
+      ],
+      "reference": "J. Gizon et al., Nucl. Phys. A 277, 464 (1977); J. Gizon et al., Phys. Rev. C 17, 596 (1978)",
+      "observables": "paired A2/A4; polarization respectively; not selected RI source",
+      "locators": [
+        "R:8-9,19-32",
+        "C:P5 refs.[26-27]"
+      ]
+    },
+    {
+      "key": "Chakraborty2024",
+      "year": 2024,
+      "reference": "S. Chakraborty et al., Phys. Rev. C 110, 024324",
+      "observables": "reanalysis/band interpretation; no new T1/2 or RI measurements supplied",
+      "locators": [
+        "C:P2 Fig.1 and text",
+        "C:P3",
+        "C:P4"
+      ]
+    }
+  ],
+  "parent_task_context_not_read_or_verified_here": {
+    "path": "raw/papers/gpt/query/20261105-ba129-model-readiness/gizon1977-main.pdf",
+    "parent_reported_sha256": "017e979cea49b19daecc5394a5ca90e460ad0cb2c1a60edaf510e3b7dc446795",
+    "parent_report": "p466 Table1: 365 coefficient errors (.05,.05); 461.8 errors (.04,.06); both A4 positive; 55-degree single-spectrum intensity is not integrated branching",
+    "use": "context only; not used to replace ENSDF coefficients or RI; no primary PDF read by this subtask"
+  },
+  "field_contract": {
+    "csv_empty_cell_and_json_null": "not reported/not computed; never zero",
+    "T_field": "T1/2, not mean lifetime; native ENSDF PS/NS units retained",
+    "tau": "mean_tau = T1/2 / ln(2); uncertainty divided by ln(2); ps conversion explicit",
+    "RI": "relative photon intensity, not absolute decay probability or reduced B(XL)",
+    "ratio_errors": "not computed: common normalization, efficiency and fit covariance unavailable",
+    "CC": "total internal-conversion coefficient alpha; blank does not mean zero; quoted DCC not an independently measured delta",
+    "multipole_mixing": "f_E2 = delta^2/(1+delta^2) within one mixed radiative transition, not a parent branching fraction",
+    "rate_denominator": "D=sum_j RI_j*(1+alpha_j), only if all relevant channels are accounted for",
+    "total_branch": "b_i=RI_i*(1+alpha_i)/D",
+    "photon_probability": "p_gamma_i=RI_i/D",
+    "photon_rate": "lambda_gamma_i=p_gamma_i/mean_tau; M1/E2 split then uses 1/(1+delta^2),delta^2/(1+delta^2)"
+  },
+  "targets_365_521_671": [
+    {
+      "rounded_gamma_label_keV": "365",
+      "actual_gamma_energy_keV": "364.7",
+      "parent_level_id": "129Ba_Ex643p6keV",
+      "parent_energy_keV": "643.6",
+      "Jpi_reaction": "13/2-",
+      "Jpi_adopted": "13/2-",
+      "final_energy_keV": "278.81",
+      "T1_2": null,
+      "mean_tau": null,
+      "absolute_B_readiness": "blocked_missing_parent_lifetime",
+      "RI_reaction": "43.3",
+      "RI_reaction_uncertainty": 1.7,
+      "CC_adopted": 0.0269,
+      "IC_status_adopted": "evaluated_CC_assumed_delta0.5_not_measured_delta",
+      "same_parent_crossover_gamma_keV": "461.6",
+      "photon_RI_link_to_crossover_ratio": 3.936363636363636,
+      "photon_ratio_uncertainty": null,
+      "locators": [
+        "R:132",
+        "A:245",
+        "R:133",
+        "A:247"
+      ]
+    },
+    {
+      "rounded_gamma_label_keV": "521",
+      "actual_gamma_energy_keV": "521.0",
+      "parent_level_id": "129Ba_Ex1318p4keV",
+      "parent_energy_keV": "1318.4",
+      "Jpi_reaction": "17/2-",
+      "Jpi_adopted": "17/2-",
+      "final_energy_keV": "797.4",
+      "T1_2": null,
+      "mean_tau": null,
+      "absolute_B_readiness": "blocked_missing_parent_lifetime",
+      "RI_reaction": "17.4",
+      "RI_reaction_uncertainty": 1.7,
+      "CC_adopted": 0.0103,
+      "IC_status_adopted": "evaluated_CC_assumed_delta0.5_not_measured_delta",
+      "same_parent_crossover_gamma_keV": "674.8",
+      "photon_RI_link_to_crossover_ratio": 1.0609756097560976,
+      "photon_ratio_uncertainty": null,
+      "locators": [
+        "R:195",
+        "A:443",
+        "R:196",
+        "A:445"
+      ]
+    },
+    {
+      "rounded_gamma_label_keV": "671",
+      "actual_gamma_energy_keV": "670.8",
+      "parent_level_id": "129Ba_Ex2146p3keV",
+      "parent_energy_keV": "2146.3",
+      "Jpi_reaction": "21/2-",
+      "Jpi_adopted": "(21/2-)",
+      "final_energy_keV": "1475.4",
+      "T1_2": null,
+      "mean_tau": null,
+      "absolute_B_readiness": "blocked_missing_parent_lifetime",
+      "RI_reaction": "6.4",
+      "RI_reaction_uncertainty": 0.6,
+      "CC_adopted": null,
+      "IC_status_adopted": "missing_CC",
+      "same_parent_crossover_gamma_keV": "827.9",
+      "photon_RI_link_to_crossover_ratio": 0.4671532846715329,
+      "photon_ratio_uncertainty": null,
+      "locators": [
+        "R:255",
+        "A:613",
+        "R:256",
+        "A:615"
+      ]
+    }
+  ],
+  "reaction_adopted_Jpi_differences": [
+    {
+      "energy_keV": "1545.3",
+      "reaction": "(17/2-)",
+      "adopted": "17/2-",
+      "locators": [
+        "R:215",
+        "A:488"
+      ]
+    },
+    {
+      "energy_keV": "2146.3",
+      "reaction": "21/2-",
+      "adopted": "(21/2-)",
+      "locators": [
+        "R:255",
+        "A:613"
+      ]
+    },
+    {
+      "energy_keV": "2281.2",
+      "reaction": "23/2-",
+      "adopted": "(23/2-)",
+      "locators": [
+        "R:262",
+        "A:620"
+      ]
+    },
+    {
+      "energy_keV": "2336.7",
+      "reaction": "21/2-",
+      "adopted": "(21/2-)",
+      "locators": [
+        "R:266",
+        "A:629"
+      ]
+    },
+    {
+      "energy_keV": "2599.6",
+      "reaction": "23/2-",
+      "adopted": "(23/2-)",
+      "locators": [
+        "R:305",
+        "A:677"
+      ]
+    },
+    {
+      "energy_keV": "3094.2",
+      "reaction": "25/2-",
+      "adopted": "(25/2-)",
+      "locators": [
+        "R:367",
+        "A:741"
+      ]
+    },
+    {
+      "energy_keV": "3179.4",
+      "reaction": "27/2-",
+      "adopted": "(27/2-)",
+      "locators": [
+        "R:372",
+        "A:745"
+      ]
+    }
+  ],
+  "reaction_adopted_multipolarity_differences": [
+    {
+      "parent_keV": "2146.3",
+      "gamma_keV": "670.8",
+      "reaction": "(M1+E2)",
+      "adopted": "D+Q",
+      "locators": [
+        "R:256",
+        "A:615"
+      ]
+    }
+  ],
+  "conditional_probability_example": {
+    "parent_keV": 797.4,
+    "target_gamma_keV": 518.6,
+    "status": "calculated_conditional_example_not_an_independent_measurement",
+    "assumptions": [
+      "only_listed_decay_channels",
+      "ENSDF_assumed_delta0.5_for_153.8_keV_CC",
+      "pure_E2_518.6_keV_CC_from_adopted_object"
+    ],
+    "sum_RI_times_1_plus_alpha": 110.95600000000002,
+    "photon_fraction_among_listed_photons": 0.9310986965,
+    "photon_probability_per_parent_decay": 0.9012581563863151,
+    "total_gamma_plus_IC_branch_probability": 0.9092973791412812,
+    "uncertainties": null
+  },
+  "holdout_rules": [
+    "Freeze energy-fit Hamiltonian, state/band mapping and independently chosen EM operators before looking at validation outcomes.",
+    "Two PS lifetimes can validate total decay rates conditionally on complete modeled EM channels; no other PS lifetimes supplied here.",
+    "Use within-parent photon RI ratios as empirical EM holdouts, with multipolarity/efficiency/covariance boundaries retained.",
+    "182.04-keV isomer is E1 to 7/2+; only usable when the model contains that positive-parity state and an E1 operator.",
+    "No absolute B for 365/521/671 without their own parent lifetimes; do not borrow 797.4/1475.4 lifetimes.",
+    "Evaluated BE2W/BE1W, T1/2 and branch-derived rates are dependent representations, not extra independent observations.",
+    "Reaction/adopted RI are the same 1992 lineage with normalization changes; 2024 reanalysis is not a new experiment.",
+    "Do not treat model-selected delta, assumed delta0.5 CC, or 1977 55-degree singles intensities as independent integrated-branch data."
+  ],
+  "checks": {
+    "four_input_hashes_match_and_unchanged_after_extraction": true,
+    "ENSDF_line_counts": {
+      "R": 555,
+      "A": 934
+    },
+    "17_levels_and_33_gammas_crossmatched": true,
+    "photon_ratio_algebraic_degrees_of_freedom_not_independent_observation_count": 16,
+    "adopted_mixed_CC_assuming_delta0p5_count": 10,
+    "adopted_missing_CC_count": 18,
+    "all_selected_MR_and_TI_fields_blank_in_both_objects": true,
+    "all_adopted_RI_are_max100_rescalings_within_last_digit_rounding": true,
+    "max_adopted_RI_rescaling_absolute_rounding_residual": 0.28467153284671554,
+    "three_lifetimes_agree_between_objects": true,
+    "three_target_parent_T_fields_blank_in_both_objects": true,
+    "final_levels_explicit_FL_or_energy_match_within_1keV_plus_recorded_multipolarity_if_needed": true,
+    "unplaced_365.0_keV_R63_excluded": true,
+    "PDF_text_pages_checked": 5,
+    "outside_output_writes_by_script": false,
+    "network_or_get_paper_or_git_mutations_or_subagents": false
+  },
+  "outputs": [
+    "levels.csv",
+    "branches.csv",
+    "holdout_manifest.json",
+    "audit.md",
+    "ensdf-selected-records.txt",
+    "chakraborty2024-extracted.txt",
+    "chakraborty2024-fig1.png",
+    "extract_holdout.py"
+  ]
+}

@@ -1,0 +1,140 @@
+[
+  {
+    "family": "model-fit-C60",
+    "dual": false,
+    "gamma_deg": 43.62013014755471,
+    "lambda_F_MeV": -8.217622752150312,
+    "bare_removal_sum": 2.0261509361691274,
+    "bare_addition_sum": 9.973849063830873,
+    "states_under_2MeV": [
+      {
+        "ordinal": 0,
+        "model_excitation_keV": 278.81,
+        "relative_removal_to_lowest": 1.0
+      },
+      {
+        "ordinal": 1,
+        "model_excitation_keV": 514.841122616716,
+        "relative_removal_to_lowest": 0.05146673711470589
+      },
+      {
+        "ordinal": 2,
+        "model_excitation_keV": 1447.174175095928,
+        "relative_removal_to_lowest": 0.0006313964819960323
+      },
+      {
+        "ordinal": 3,
+        "model_excitation_keV": 1711.8997372300141,
+        "relative_removal_to_lowest": 6.113006949423074e-05
+      }
+    ],
+    "excited_under_2MeV_over_lowest": 0.05215926366619615,
+    "boundary": "Declared core-R0 bare removal operator and model energies; no IBFM induced operator, reaction likelihood, state matching, or absolute experimental spectroscopic factor."
+  },
+  {
+    "family": "model-fit-C60",
+    "dual": true,
+    "gamma_deg": 16.37986985244529,
+    "lambda_F_MeV": 8.217622752150312,
+    "bare_removal_sum": 9.973849063830873,
+    "bare_addition_sum": 2.0261509361691314,
+    "states_under_2MeV": [
+      {
+        "ordinal": 0,
+        "model_excitation_keV": 278.81,
+        "relative_removal_to_lowest": 1.0
+      },
+      {
+        "ordinal": 1,
+        "model_excitation_keV": 514.8411226167218,
+        "relative_removal_to_lowest": 2.8840605766534506
+      },
+      {
+        "ordinal": 2,
+        "model_excitation_keV": 1447.174175095939,
+        "relative_removal_to_lowest": 0.018908094668099302
+      },
+      {
+        "ordinal": 3,
+        "model_excitation_keV": 1711.8997372300173,
+        "relative_removal_to_lowest": 0.005281719176328484
+      }
+    ],
+    "excited_under_2MeV_over_lowest": 2.9082503904978787,
+    "boundary": "Declared core-R0 bare removal operator and model energies; no IBFM induced operator, reaction likelihood, state matching, or absolute experimental spectroscopic factor."
+  },
+  {
+    "family": "model-fit-free-inertias",
+    "dual": false,
+    "gamma_deg": 16.460410908098986,
+    "lambda_F_MeV": -7.552315090013259,
+    "bare_removal_sum": 4.0531147569309125,
+    "bare_addition_sum": 7.946885243069094,
+    "states_under_2MeV": [
+      {
+        "ordinal": 0,
+        "model_excitation_keV": 278.81,
+        "relative_removal_to_lowest": 1.0
+      },
+      {
+        "ordinal": 1,
+        "model_excitation_keV": 540.2397647428692,
+        "relative_removal_to_lowest": 0.0004465963621907216
+      },
+      {
+        "ordinal": 2,
+        "model_excitation_keV": 637.2984463774735,
+        "relative_removal_to_lowest": 0.32547024392913204
+      },
+      {
+        "ordinal": 3,
+        "model_excitation_keV": 1235.702509196869,
+        "relative_removal_to_lowest": 2.724626716882296
+      },
+      {
+        "ordinal": 4,
+        "model_excitation_keV": 1693.739124778419,
+        "relative_removal_to_lowest": 0.2162507160700683
+      }
+    ],
+    "excited_under_2MeV_over_lowest": 3.266794273243687,
+    "boundary": "Declared core-R0 bare removal operator and model energies; no IBFM induced operator, reaction likelihood, state matching, or absolute experimental spectroscopic factor."
+  },
+  {
+    "family": "model-fit-free-inertias",
+    "dual": true,
+    "gamma_deg": 43.539589091901014,
+    "lambda_F_MeV": 7.552315090013259,
+    "bare_removal_sum": 7.9468852430690955,
+    "bare_addition_sum": 4.053114756930907,
+    "states_under_2MeV": [
+      {
+        "ordinal": 0,
+        "model_excitation_keV": 278.81,
+        "relative_removal_to_lowest": 1.0
+      },
+      {
+        "ordinal": 1,
+        "model_excitation_keV": 540.2397647428727,
+        "relative_removal_to_lowest": 0.07493263136984889
+      },
+      {
+        "ordinal": 2,
+        "model_excitation_keV": 637.2984463774807,
+        "relative_removal_to_lowest": 0.15224748725967716
+      },
+      {
+        "ordinal": 3,
+        "model_excitation_keV": 1235.702509196884,
+        "relative_removal_to_lowest": 0.019442291011096527
+      },
+      {
+        "ordinal": 4,
+        "model_excitation_keV": 1693.739124778425,
+        "relative_removal_to_lowest": 0.0753922607430601
+      }
+    ],
+    "excited_under_2MeV_over_lowest": 0.32201467038368264,
+    "boundary": "Declared core-R0 bare removal operator and model energies; no IBFM induced operator, reaction likelihood, state matching, or absolute experimental spectroscopic factor."
+  }
+]

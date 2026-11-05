@@ -5,6 +5,7 @@ From the article directory:
 ```bash
 python3 analysis/rank4_invariant.py --input data/ba129_same_parent_A4.csv --output analysis/results/rank4-invariant.json
 python3 analysis/companion_profile.py
+python3 analysis/physical_population_witness.py
 python3 figures/made/generate_figures.py --results analysis/results/rank4-invariant.json --output figures/rank4_companion_gate.pdf
 python3 figures/made/generate_profile_figure.py
 python3 analysis/validate_case.py
@@ -21,11 +22,17 @@ Optional `--wiki-root /path/to/wiki` checks the raw ENSDF and publisher JSON
 hashes named by `data/input-contract.json`. Those copyrighted/local upstream
 materials are not included in a public reproduction package.
 
-The analysis keeps two distinct error-scale scenarios. The first uses the
-canonical evaluated margins. The second retains the same means/signs and uses
-provisional scales read from publisher OCR; it is not a corrected measurement.
-The unknown covariance is represented only by a finite chosen correlation
-family. Response ratios are fixed to one for these diagnostic runs.
+The analysis keeps two source versions separate: the 2014 evaluated record and
+the visually verified 1977 primary table. Their coefficient means agree, but
+three margins and the reported transition energies differ. They are analyzed
+as alternatives, never pooled as independent experiments. The unknown
+covariance is represented by a finite chosen correlation family. Response
+ratios are fixed to one for those diagnostic runs.
+
+The additional population program minimizes a common literal margin multiplier
+subject to seven nonnegative substate-pair weights summing to one. It checks
+primal feasibility and a dual certificate. It is an existence test under unit
+response, not a measurement of alignment or a calibrated confidence region.
 
 For each mixing angle, reference coefficients are profiled as unrestricted
 real nuisances. The projected-residual quadratic form equals the direct

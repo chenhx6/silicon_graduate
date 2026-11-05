@@ -1,0 +1,274 @@
+{
+  "scope": "literal-box feasibility with a shared nonnegative symmetric parent density",
+  "contract_sha256": "fd7e992d31b310231b1ae90bd4bcc3efa54cc982bcf0af2358b86813b746a874",
+  "script_sha256": "3f58b954bc04320c4dfa2d36153f45678e7ae0ff2f8aff9c58402d52cbfe5272",
+  "reference_vertices_A2_A4": [
+    [
+      0.4395604395604398,
+      0.3846153846153847,
+      0.2747252747252748,
+      0.10989010989010992,
+      -0.10989010989010992,
+      -0.3846153846153847,
+      -0.7142857142857144
+    ],
+    [
+      -0.2157842157842157,
+      -0.12587412587412586,
+      0.02597402597402597,
+      0.1838161838161838,
+      0.2637362637362637,
+      0.15384615384615385,
+      -0.28571428571428564
+    ]
+  ],
+  "response_assumption": "Q2t=Q2r=Q4t=Q4r=1; pure E2 reference; M1/E2 target",
+  "cases": [
+    {
+      "source_version": "evaluated",
+      "dataset_sha256": "047cdd0fa3c98b75b474b22299db3d88322ee99d5c988ae0b2ded8f3b53ea9e0",
+      "delta_chosen": -2.0,
+      "f_E2_chosen": 0.8,
+      "minimum_literal_margin_multiplier": 3.3962926584888646,
+      "inside_two_margin_box": false,
+      "absolute_m_values": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "pair_weights_witness": [
+        0.0,
+        0.13692392511130164,
+        0.8612095569702173,
+        0.0,
+        0.0,
+        0.0,
+        0.001866517918480912
+      ],
+      "predicted_A2t_A4t_A2r_A4r": [
+        -0.598111220245334,
+        -0.009814632924443241,
+        0.2879258531697773,
+        0.004600609183332767
+      ],
+      "scaled_residuals": [
+        3.396292658488864,
+        -3.3962926584888646,
+        3.3962926584888655,
+        -1.5079878163333444
+      ],
+      "dual_objective": 3.396292658488864,
+      "not_a_population_measurement_or_confidence_interval": true
+    },
+    {
+      "source_version": "evaluated",
+      "dataset_sha256": "047cdd0fa3c98b75b474b22299db3d88322ee99d5c988ae0b2ded8f3b53ea9e0",
+      "delta_chosen": -0.88,
+      "f_E2_chosen": 0.436429215509468,
+      "minimum_literal_margin_multiplier": 2.339436032782331,
+      "inside_two_margin_box": false,
+      "absolute_m_values": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "pair_weights_witness": [
+        0.16609013253676785,
+        0.0,
+        0.7607849912874056,
+        0.0,
+        0.0,
+        0.0,
+        0.07312487617582643
+      ],
+      "predicted_A2t_A4t_A2r_A4r": [
+        -0.6298169190165299,
+        0.04302819836088345,
+        0.22978146299150706,
+        -0.036971801639116536
+      ],
+      "scaled_residuals": [
+        2.3394360327823347,
+        -2.3394360327823307,
+        0.4890731495753531,
+        -2.3394360327823307
+      ],
+      "dual_objective": 2.3394360327823307,
+      "not_a_population_measurement_or_confidence_interval": true
+    },
+    {
+      "source_version": "evaluated",
+      "dataset_sha256": "047cdd0fa3c98b75b474b22299db3d88322ee99d5c988ae0b2ded8f3b53ea9e0",
+      "delta_chosen": -0.33,
+      "f_E2_chosen": 0.09820542880331862,
+      "minimum_literal_margin_multiplier": 3.618724709425468,
+      "inside_two_margin_box": false,
+      "absolute_m_values": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "pair_weights_witness": [
+        0.0,
+        0.16060789711542797,
+        0.8393921028845744,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_A2t_A4t_A2r_A4r": [
+        -0.591438258717235,
+        -0.00041534706163827515,
+        0.2923744941885093,
+        0.0015860136248301779
+      ],
+      "scaled_residuals": [
+        3.618724709425499,
+        -3.208306941232766,
+        3.618724709425465,
+        -1.5682797275033966
+      ],
+      "dual_objective": 3.61872470942547,
+      "not_a_population_measurement_or_confidence_interval": true
+    },
+    {
+      "source_version": "primary1977",
+      "dataset_sha256": "1608471ca731e3e667eb83c77de7d672b186fed8283c94e511f4b3443039db7c",
+      "delta_chosen": -2.0,
+      "f_E2_chosen": 0.8,
+      "minimum_literal_margin_multiplier": 1.8576779026217232,
+      "inside_two_margin_box": true,
+      "absolute_m_values": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "pair_weights_witness": [
+        0.2143673019765374,
+        0.0,
+        0.7676351090710949,
+        0.0,
+        0.0,
+        0.0,
+        0.017997588952367465
+      ],
+      "predicted_A2t_A4t_A2r_A4r": [
+        -0.6071161048689138,
+        0.06711610486891387,
+        0.2922607310322527,
+        -0.03146067415730338
+      ],
+      "scaled_residuals": [
+        1.8576779026217238,
+        -1.8576779026217227,
+        1.8065182758063174,
+        -1.857677902621723
+      ],
+      "dual_objective": 1.8576779026217234,
+      "not_a_population_measurement_or_confidence_interval": true
+    },
+    {
+      "source_version": "primary1977",
+      "dataset_sha256": "1608471ca731e3e667eb83c77de7d672b186fed8283c94e511f4b3443039db7c",
+      "delta_chosen": -0.88,
+      "f_E2_chosen": 0.436429215509468,
+      "minimum_literal_margin_multiplier": 2.112223141946974,
+      "inside_two_margin_box": false,
+      "absolute_m_values": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "pair_weights_witness": [
+        0.1854567167648415,
+        0.0,
+        0.7251214997471982,
+        0.0,
+        0.0,
+        0.0,
+        0.08942178348796032
+      ],
+      "predicted_A2t_A4t_A2r_A4r": [
+        -0.5943888429026511,
+        0.05438884290265132,
+        0.21685593667644176,
+        -0.04673338851681842
+      ],
+      "scaled_residuals": [
+        2.112223141946976,
+        -2.1122231419469735,
+        -0.07860158308895596,
+        -2.112223141946974
+      ],
+      "dual_objective": 2.112223141946974,
+      "not_a_population_measurement_or_confidence_interval": true
+    },
+    {
+      "source_version": "primary1977",
+      "dataset_sha256": "1608471ca731e3e667eb83c77de7d672b186fed8283c94e511f4b3443039db7c",
+      "delta_chosen": -0.33,
+      "f_E2_chosen": 0.09820542880331862,
+      "minimum_literal_margin_multiplier": 2.7536538171238796,
+      "inside_two_margin_box": false,
+      "absolute_m_values": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "pair_weights_witness": [
+        0.382077536647262,
+        0.0,
+        0.5575324492892029,
+        0.0,
+        0.0,
+        0.0,
+        0.06039001406353506
+      ],
+      "predicted_A2t_A4t_A2r_A4r": [
+        -0.5623173091438056,
+        0.022317309143806027,
+        0.27797870092297566,
+        -0.08521922902743288
+      ],
+      "scaled_residuals": [
+        2.7536538171238867,
+        -2.753653817123879,
+        1.4494675230743914,
+        -2.7536538171238814
+      ],
+      "dual_objective": 2.7536538171238796,
+      "not_a_population_measurement_or_confidence_interval": true
+    }
+  ],
+  "boundaries": [
+    "Feasible weights are existence witnesses, not estimates of a measured alignment.",
+    "Arbitrary positive diagonal populations need not be reachable by the actual reaction.",
+    "Quoted margins and chosen multipliers have no asserted simultaneous coverage.",
+    "Selected delta hypotheses are not a full root or collective-mode inference."
+  ]
+}

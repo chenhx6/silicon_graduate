@@ -1,0 +1,118 @@
+{
+  "status": "bounded_convention_audit_complete;original_model_replay_not_established",
+  "input_sha256": {
+    "raw/papers/1975_MeyerTerVehn_CollectiveOddANuclei_PartI.pdf": "10cb7aca223dcbccb17ee7aa224a7a1c13fb9f1e6e58a04fcdd8ab1e4b888da9",
+    "raw/papers/gpt/query/20261105-ba129-model-readiness/gizon1977-main.pdf": "017e979cea49b19daecc5394a5ca90e460ad0cb2c1a60edaf510e3b7dc446795",
+    "tmp/ba129-model-readiness/model_probe.py": "0cc41adb271b0d3fe20e8166bfd187831a7d80b71d24e766b673a8180806dc12",
+    "tmp/ba129-model-readiness/model-probe.json": "e7a4a172291c756a7d353387e0be0b6c387f78ea736ced98cf2958b5114e48fd",
+    "system/scripts/day23_prm_basis_rotor.py": "decce8acc99ba22dc54b8fb04ecbc07146c7c53f21fafc121264c08b6dcbaebe"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.5.4"
+  },
+  "source_parameters_fixed": {
+    "j": 5.5,
+    "beta": 0.24,
+    "gamma_deg": 21.0,
+    "gap_MeV": 1.0,
+    "lambda_tilde": 1.5,
+    "strength_coefficient": 206,
+    "inertia_coefficient": 204
+  },
+  "field_inference": "scale=+1 is inferred from Part I p125 Fig4 axial ordering and approximate scale; it is not a silent correction to literal standard-Y2 Eq2.7.",
+  "A130_boundary": "Part I p114 defines an even core of mass A; A130 is a conditional interpretation for a 129Ba hole system. Gizon Fig4 does not print the mass used in (2.52)-(2.53).",
+  "parameter_search": "none; four algebraic field conventions and two signs at A129, plus one source-motivated A130 positive-branch check; no optimization",
+  "comparison_rule": "rank fixed by ascending printed levels at each I; common energy zero is lowest 11/2; no fitted offset, energy scaling, or state cherry-picking",
+  "comparison": [
+    {
+      "case": "literal_standard_Y2",
+      "qp_sign": 1,
+      "nonreference_printed_levels_compared": 14,
+      "RMS_residual_keV": 162.04968557765423,
+      "max_abs_residual_keV": 303.2079708892948,
+      "pass_count_at_printed_integer_rounding_0p5_keV": 0,
+      "is_original_replay": false
+    },
+    {
+      "case": "literal_standard_Y2",
+      "qp_sign": -1,
+      "nonreference_printed_levels_compared": 14,
+      "RMS_residual_keV": 811.2853289153055,
+      "max_abs_residual_keV": 1316.043792846982,
+      "pass_count_at_printed_integer_rounding_0p5_keV": 0,
+      "is_original_replay": false
+    },
+    {
+      "case": "sign_reversed_standard_Y2",
+      "qp_sign": 1,
+      "nonreference_printed_levels_compared": 14,
+      "RMS_residual_keV": 66.01747216376188,
+      "max_abs_residual_keV": 136.7363818738163,
+      "pass_count_at_printed_integer_rounding_0p5_keV": 0,
+      "is_original_replay": false
+    },
+    {
+      "case": "sign_reversed_standard_Y2",
+      "qp_sign": -1,
+      "nonreference_printed_levels_compared": 14,
+      "RMS_residual_keV": 367.6074420941656,
+      "max_abs_residual_keV": 760.2188213611228,
+      "pass_count_at_printed_integer_rounding_0p5_keV": 0,
+      "is_original_replay": false
+    },
+    {
+      "case": "intrinsic_Fig4_normalization",
+      "qp_sign": 1,
+      "nonreference_printed_levels_compared": 14,
+      "RMS_residual_keV": 29.934910838785576,
+      "max_abs_residual_keV": 70.44140750690212,
+      "pass_count_at_printed_integer_rounding_0p5_keV": 0,
+      "is_original_replay": false
+    },
+    {
+      "case": "intrinsic_Fig4_normalization",
+      "qp_sign": -1,
+      "nonreference_printed_levels_compared": 14,
+      "RMS_residual_keV": 598.6844759713342,
+      "max_abs_residual_keV": 1045.7759767203083,
+      "pass_count_at_printed_integer_rounding_0p5_keV": 1,
+      "is_original_replay": false
+    },
+    {
+      "case": "reversed_intrinsic_Fig4_normalization",
+      "qp_sign": 1,
+      "nonreference_printed_levels_compared": 14,
+      "RMS_residual_keV": 223.1320887237541,
+      "max_abs_residual_keV": 442.99472902246316,
+      "pass_count_at_printed_integer_rounding_0p5_keV": 0,
+      "is_original_replay": false
+    },
+    {
+      "case": "reversed_intrinsic_Fig4_normalization",
+      "qp_sign": -1,
+      "nonreference_printed_levels_compared": 14,
+      "RMS_residual_keV": 1269.5377390303743,
+      "max_abs_residual_keV": 2375.0422677091674,
+      "pass_count_at_printed_integer_rounding_0p5_keV": 0,
+      "is_original_replay": false
+    },
+    {
+      "case": "intrinsic_Fig4_normalization_even_core_A130",
+      "qp_sign": 1,
+      "nonreference_printed_levels_compared": 14,
+      "RMS_residual_keV": 7.20068539866475,
+      "max_abs_residual_keV": 16.06642271501005,
+      "pass_count_at_printed_integer_rounding_0p5_keV": 0,
+      "is_original_replay": false
+    }
+  ],
+  "still_missing": [
+    "Unambiguous operator normalization/sign connecting Part I printed (2.7)/(2.52) to its p125 single-particle figure.",
+    "Explicit physical hole/positive-energy branch selection and energy-order prescription connecting (2.31) to Gizon Fig4.",
+    "Mass used in empirical field/inertia prescriptions; unrounded numerical beta, gamma, lambda anchors, and coefficients if exact integer-level reproduction is required.",
+    "Original eigenvector/band-label assignment if a replay of Fig4 transition arrows and (Ktilde,Omegatilde) families is requested."
+  ],
+  "writes_confined_to": "/workspace/wiki/tmp/ba129-model-replay-review",
+  "network_git_get_paper_subagents_used": false
+}

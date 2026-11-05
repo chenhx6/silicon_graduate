@@ -1,0 +1,158 @@
+{
+  "status": "algebra_controls_pass;original_Fig4_replay_not_established",
+  "normal_j_commutator_error": 3.1086244689504383e-15,
+  "anomalous_body_I_commutator_error": 3.1086244689504383e-15,
+  "spherical_rotor_limit": [
+    {
+      "two_I": 7,
+      "dimension": 24,
+      "max_error_MeV": 3.552713678800501e-15
+    },
+    {
+      "two_I": 9,
+      "dimension": 30,
+      "max_error_MeV": 5.329070518200751e-15
+    },
+    {
+      "two_I": 11,
+      "dimension": 36,
+      "max_error_MeV": 5.329070518200751e-15
+    },
+    {
+      "two_I": 13,
+      "dimension": 42,
+      "max_error_MeV": 1.0658141036401503e-14
+    },
+    {
+      "two_I": 19,
+      "dimension": 60,
+      "max_error_MeV": 2.3092638912203256e-14
+    }
+  ],
+  "independent_D2_basis_matches_parent_four_cases": [
+    {
+      "case": "literal_standard_Y2",
+      "qp_sign": 1,
+      "max_difference_keV": 3.376499080331996e-11
+    },
+    {
+      "case": "literal_standard_Y2",
+      "qp_sign": -1,
+      "max_difference_keV": 1.2732925824820995e-11
+    },
+    {
+      "case": "sign_reversed_standard_Y2",
+      "qp_sign": 1,
+      "max_difference_keV": 1.432454155292362e-11
+    },
+    {
+      "case": "sign_reversed_standard_Y2",
+      "qp_sign": -1,
+      "max_difference_keV": 1.318767317570746e-11
+    }
+  ],
+  "BCS_Nambu_Eq2_23_25_diagonalization_error_MeV": 5.329070518200751e-15,
+  "rotor_Eq2_28_to_2_30_positive_block_error_MeV": 8.881784197001252e-16,
+  "offdiagonal_eta_block_identity_error_MeV": 4.440892098500626e-16,
+  "omitted_eta_block_max_entry_MeV_for_I11_2": 1.3233143179868887,
+  "eta_boundary": "Part I explicitly neglects this coupling in (2.30); size is a diagnostic, not a fit correction.",
+  "normalized_Y20_stretched_state_quadrature": -0.24260889634809246,
+  "normalized_Y20_stretched_state_formula": -0.24260889634809235,
+  "axial_field_normalization_controls": [
+    {
+      "Omega_at_gamma0": 0.5,
+      "literal_Eq2_7_standard_Y2_epsilon_div_betaAminus1third_MeV": 31.803820775813563,
+      "PartI_Fig4_scale_inference_epsilon_div_betaAminus1third_MeV": -50.41958041958042
+    },
+    {
+      "Omega_at_gamma0": 1.5,
+      "literal_Eq2_7_standard_Y2_epsilon_div_betaAminus1third_MeV": 26.35173721424552,
+      "PartI_Fig4_scale_inference_epsilon_div_betaAminus1third_MeV": -41.77622377622377
+    },
+    {
+      "Omega_at_gamma0": 2.5,
+      "literal_Eq2_7_standard_Y2_epsilon_div_betaAminus1third_MeV": 15.447570091109444,
+      "PartI_Fig4_scale_inference_epsilon_div_betaAminus1third_MeV": -24.48951048951049
+    },
+    {
+      "Omega_at_gamma0": 3.5,
+      "literal_Eq2_7_standard_Y2_epsilon_div_betaAminus1third_MeV": -0.9086805935946732,
+      "PartI_Fig4_scale_inference_epsilon_div_betaAminus1third_MeV": 1.4405594405594406
+    },
+    {
+      "Omega_at_gamma0": 4.5,
+      "literal_Eq2_7_standard_Y2_epsilon_div_betaAminus1third_MeV": -22.717014839866827,
+      "PartI_Fig4_scale_inference_epsilon_div_betaAminus1third_MeV": 36.01398601398601
+    },
+    {
+      "Omega_at_gamma0": 5.5,
+      "literal_Eq2_7_standard_Y2_epsilon_div_betaAminus1third_MeV": -49.977432647707026,
+      "PartI_Fig4_scale_inference_epsilon_div_betaAminus1third_MeV": 79.23076923076924
+    }
+  ],
+  "cyclic_axis_controls": [
+    {
+      "two_I": 7,
+      "max_gamma_plus_120_spectrum_error_MeV": 2.4868995751603507e-14
+    },
+    {
+      "two_I": 9,
+      "max_gamma_plus_120_spectrum_error_MeV": 6.750155989720952e-14
+    },
+    {
+      "two_I": 11,
+      "max_gamma_plus_120_spectrum_error_MeV": 5.3290705182007514e-14
+    },
+    {
+      "two_I": 13,
+      "max_gamma_plus_120_spectrum_error_MeV": 4.263256414560601e-14
+    },
+    {
+      "two_I": 19,
+      "max_gamma_plus_120_spectrum_error_MeV": 7.105427357601002e-14
+    }
+  ],
+  "particle_hole_complement_controls_in_explicit_matrix_convention": [
+    {
+      "two_I": 7,
+      "positive_subspace_complement_spectrum_error_MeV": 6.039613253960852e-14,
+      "negative_e_subspace_relative_spacings_difference_MeV": 1.5402527123307124,
+      "gamma_complement_deg": 39,
+      "lambda_F_conjugate_MeV": -0.7606032339667146,
+      "lambda_tilde_in_conjugate_top_pair_convention": 2.828394878313675
+    },
+    {
+      "two_I": 9,
+      "positive_subspace_complement_spectrum_error_MeV": 1.0302869668521453e-13,
+      "negative_e_subspace_relative_spacings_difference_MeV": 1.5426113288789303,
+      "gamma_complement_deg": 39,
+      "lambda_F_conjugate_MeV": -0.7606032339667146,
+      "lambda_tilde_in_conjugate_top_pair_convention": 2.828394878313675
+    },
+    {
+      "two_I": 11,
+      "positive_subspace_complement_spectrum_error_MeV": 1.3145040611561853e-13,
+      "negative_e_subspace_relative_spacings_difference_MeV": 1.6537273760616245,
+      "gamma_complement_deg": 39,
+      "lambda_F_conjugate_MeV": -0.7606032339667146,
+      "lambda_tilde_in_conjugate_top_pair_convention": 2.828394878313675
+    },
+    {
+      "two_I": 13,
+      "positive_subspace_complement_spectrum_error_MeV": 1.3500311979441904e-13,
+      "negative_e_subspace_relative_spacings_difference_MeV": 1.2118396471449682,
+      "gamma_complement_deg": 39,
+      "lambda_F_conjugate_MeV": -0.7606032339667146,
+      "lambda_tilde_in_conjugate_top_pair_convention": 2.828394878313675
+    },
+    {
+      "two_I": 19,
+      "positive_subspace_complement_spectrum_error_MeV": 2.1316282072803006e-13,
+      "negative_e_subspace_relative_spacings_difference_MeV": 1.6888584351384637,
+      "gamma_complement_deg": 39,
+      "lambda_F_conjugate_MeV": -0.7606032339667146,
+      "lambda_tilde_in_conjugate_top_pair_convention": 2.828394878313675
+    }
+  ],
+  "input_hashes_unchanged_during_run": true
+}

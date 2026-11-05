@@ -16,11 +16,16 @@ covariance and `s2=s4=1`, the small-minus-large profile-distance contrast is onl
 family. No experimental root, p-value, confidence interval or collective-mode
 assignment is reported.
 
-The original 1977 article's publisher FULL JSON is now available locally, but
-its scanned Table 1 remains unavailable. OCR suggests different error scales
-from the evaluation; these are retained as a separate sensitivity scenario.
-That scenario removes the earlier two-margin rank-4 box non-overlap. The 1978
-full text, original yields, covariance and response calibration remain open.
+The complete 13-page Gizon1977 PDF is now archived and Table 1 has been
+visually checked. Its errors are larger than those in the 2014 evaluation.
+`data/ba129_primary1977_coefficients.csv` preserves the original energies and
+errors separately; the reason for the later uncertainty change remains open.
+The primary and evaluated versions are not independent experiments.
+
+A nonnegative shared-parent population witness at the chosen delta=-2 fits the
+four primary coefficients within 1.85768 quoted margins, compared with 3.39629
+for the evaluated margins, under unit response. These are literal feasibility
+metrics, not confidence levels or estimated population distributions.
 
 ## Reproduce
 

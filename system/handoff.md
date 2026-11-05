@@ -3,17 +3,21 @@ graph-excluded: true
 updated: 2026-11-05
 ---
 
-## Active continuation — 2026-11-05：129Ba 原件取证与条件系数分析
+## Active continuation — 2026-11-05：129Ba 原件与多观测量预测
 
 - **Goal active**：全库审计/学习、A≈130创新调查及可发表单点文章仍是完整目标，尚未完成。不能以可编译稿件或结构检查替代科学闭环。
 - **Belief revision**：此前把129Ba rank4关系称为新方法、最强论文路线过早。Diamond1966 p.1206已给同母态纯跃迁标定思想；−8/3是标准形式主义的具体化。该候选改为exploratory/not-ready。
-- **New primary**：授权Elsevier FULL JSON返回Gizon1977 pp.464–476全文OCR；PDF仍只有首页，Table1扫描未核。OCR误差尺度与ENSDF不同，必须保留版本分离。归档`raw/papers/gpt/query/20261105-ba129-primary/evidence/manifest.json`；新source `knowledge/sources/gizon-1977-ba129-angular-distribution-primary.md`。Gizon1978仍缺全文，访问边界已登记。
-- **Scientific correction**：rank4约束f_E2*s4，未知s4时不识别|delta|，也不识别sign；不同选择的核张量g_k与instrument Q_k分开。较大的OCR误差尺度使二倍margin box相交，不能用旧非相交作稳健拒绝。
-- **New computation**：`analysis/companion_profile.py`在四系数空间profile两个真实reference coefficients；不除以弱A4，也不假定所得reference对应正布居。s2=s4=1、对角covariance下评价误差Dmin=12.879736、诊断delta=-1.026982、small-minus-large=0.013563；OCR-scale情景8.235700/-1.241168/0.468479。50个chosen covariance cells中排序可变，无实验p-value/CI/新delta。
-- **Package**：`raw/writing/gpt/ba129-rank4-identifiability/`现含原数据、input-contract、两个计算脚本、独立验证、JSON及两幅可重绘图；`main.tex`已按反审重写为同母态一致性应用，未宣布新集体模式。报告与原稿反审记录在`outputs/l4/20261105-ba129-rank4-identifiability/`。
-- **Verification**：标准SymPy系数、14磁子态独立光子投影、直接GLS对照、网格细化和错误输入拒绝已实际通过；记录在`analysis/results/validation.json`。新的source/manifest归档门通过。
-- **Next**：核原始Table1视觉页、1978版本和独立控制；确定能否产生超出既有方法的信息增益后再决定是否作为期刊稿。不因摘要数据合同不足停止其他高价值A≈130路线。
-- **Scope**：本轮只修改自己建立的文章/source/project/output及必要index/handoff/log；没有改动其他session的安装/工具文件。发布状态以本轮publication receipt为准。
+- **New primary**：取得Gizon1977完整13页、Bucurescu1998完整18页、Byrne1992完整28页PDF并核读关键表/模型/实验方法，归档`raw/papers/gpt/query/20261105-ba129-model-readiness/manifest.json`。Gizon Table1扫描核验完成；1978误差修订与Stuch2000原寿命文仍未闭合。Meyer-ter-Vehn两原件按既有哈希由tmp恢复raw，未覆盖已有文件。
+- **Angular draft**：1977误差作为真实原表版本单独存CSV；共同非负母态布居LP在delta=-2时的最小margin倍数为1.85768（原表）与3.39629（评价）。它是存在性检验，不是布居测量或置信水平。PDF已重编为5页，50个chosen covariance cases和6个布居检验通过；文章仍exploratory/not-ready。
+- **Model**：新增`paired_single_j_rotor.py`、`paired_single_j_em.py`和`paired_single_j_transfer.py`，明定单j场、固定Δ、正能BCS、D₂及算符。历史Gizon理论图重放仍RMS7.20keV，不能称原程序认证。
+- **Energy result**：10态/9相对能量的描述性定标：irrotational RMS71.9719keV；独立惯量C≤120最佳RMS39.9252keV、另一局部解43.2649keV，均未碰界；λ、γ及惯量仍属模型参数。
+- **EM result**：预先冻结153.8/518.6比定共同尺度，另外5对留出。最佳能量解不能同时描述光子分支；独立惯量最佳解的604.7/701.3纯E2项.97415已大于观测中心比.60833。不据此排除全PRM族或指认另一模式。
+- **Duality/transfer**：原/对偶14组预测均保留；B值相等、加/移除互换的数值残差约1e-13。1975已有等谱和EM对偶先例；裸转移预测可区分参数支，但130Ba真空/占据、有效算符及实验态匹配未闭合，不能选择真实形状。
+- **Approximation review**：最佳独立惯量点I=11/2的舍弃Nambu耦合谱范数1.095091MeV；全映射态的形式混合范数亦未处处很小。它们不是修正后能谱或误差条，物理解释须先处理该近似。
+- **TPSM precedent**：新取得Rouoof DAE68两页全文；PDF卷年2024、INSPIRE出版登记2025，现已分别记录。该文能量比较已有先例，未列数值EM分支；不自动证明本任务EM路线首次。
+- **Durable knowledge**：新`ba129-model-input-and-holdout-contract.md`和`paired-single-j-positive-bcs-rotor.md`；新Bucurescu/Byrne sources；Gizon source/index更新。计算和审查回执在`outputs/l4/20261105-ba129-model-readiness/`。
+- **Next**：核电磁/转移独立审查、舍弃Nambu耦合、能量近似等价参数域与有效算符；比较已有IBFM先例并继续单点创新调查。不要重启已经完成的C120计算，旧句柄94192已结束。
+- **Scope**：本任务文件按显式清单提交；保留PLAN已有修改，不处理其他session的文件或get-paper安装内容。发布状态以本轮publication receipt为准。
 
 ## Active handoff — 2026-11-05：全库审计与 P-ADO 单点论文候选
 

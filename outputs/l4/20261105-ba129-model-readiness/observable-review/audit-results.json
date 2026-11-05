@@ -1,0 +1,216 @@
+{
+  "status": "frozen_predictions_audited;no_core_runner_or_fit_changes",
+  "input_hashes": {
+    "system/scripts/ba129_observable_predictions.py": "b062736d819b04979696e285a8087f0791767bb1ad652a8b7f47462db1e22a7e",
+    "system/scripts/analysis/paired_single_j_rotor.py": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "system/scripts/analysis/paired_single_j_transfer.py": "47e9c6e1ec66cab9adf82f860ede87d593f130c24dfcb204c6c919c3ab5cbc3f",
+    "outputs/l4/20261105-ba129-model-readiness/em-branch-test-contract.json": "6b02a4e996c8288f1d758f123b6bea773b09f9e169c6ac9f1c9c6e1543d6d6df",
+    "outputs/l4/20261105-ba129-model-readiness/model-fit-C60/energy-calibration.json": "5ff728d2ac6c362e36417ad45301c6954750f77b35882a8b9fb75239b12b2f5a",
+    "outputs/l4/20261105-ba129-model-readiness/model-fit-free-inertias/energy-calibration.json": "fe67410f853245b499171c65f712957d8970f2e0ba24b05b84d18857db47fbbb",
+    "outputs/l4/20261105-ba129-model-readiness/model-fit-free-inertias-C120/energy-calibration.json": "3365fe1b6f3dc6eaa990b7ec6e62e1ef1e4dcd91196c0c22e3fc5706f8a3799d",
+    "outputs/l4/20261105-ba129-model-readiness/lifetime/branches.csv": "db0ae0a0626ffbc97388410dc37836ffb11707218bc4ac8ccadcd774c549cb3b",
+    "outputs/l4/20261105-ba129-model-readiness/energy-fit-contract-C60.json": "899ffe8f019284a477cc62d47d50132d2d40690e1e8d744dfcbda8f553cc241c",
+    "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens": "09194d4feed3bbda013c551ce5ba9ecf55a25799e8c46ec22f23685df1c1ef19",
+    "outputs/l4/20261105-ba129-model-readiness/energy-fit-contract-free-inertias.json": "51d6740e34ef056aa888ffb61698744880b3a921cb850ac79123efce2ae324c8",
+    "outputs/l4/20261105-ba129-model-readiness/energy-fit-contract-free-inertias-C120.json": "0d1a85a8aaa70e5939932bcadd72f85f1b3b674c4fbe0282a980bdd4fb6300ca",
+    "outputs/l4/20261105-ba129-model-readiness/observables-v1/observable-predictions.json": "c3016a8985f45bc3889ef84c188505bac1d59fde02cf4747075ab06b2c661472",
+    "raw/papers/1975_MeyerTerVehn_CollectiveOddANuclei_PartI.pdf": "10cb7aca223dcbccb17ee7aa224a7a1c13fb9f1e6e58a04fcdd8ab1e4b888da9"
+  },
+  "input_hashes_unchanged_after_audit": true,
+  "counts": {
+    "energy_starts": 7,
+    "parameter_sets_including_duals": 14,
+    "photon_rows_checked": 84,
+    "mapped_Nambu_state_diagnostics": 140,
+    "signed_diagonal_rows": 140,
+    "transition_phase_pairs": 42
+  },
+  "maximum_absolute_residuals_by_check": {
+    "level_energy_contract_to_ENSDF_keV": 0.0,
+    "branch_parent_ENSDF_keV": 0.0,
+    "gamma_energy_contract_to_ENSDF_MeV": 0.0,
+    "RI_contract_to_ENSDF": 0.0,
+    "RI_contract_to_CSV": 0.0,
+    "reported_ratio_from_RI": 0.0,
+    "energy_RMS_recomputed_keV": 4.298783551348606e-12,
+    "reference_rank1_zero": 0.0,
+    "stored_BQ_target": 0.0,
+    "stored_Bj_target": 0.0,
+    "stored_BQ_reference": 0.0,
+    "a_from_partial_radiative_rates": 1.7763568394002505e-15,
+    "b_from_partial_radiative_rates_per_MeV2": 1.1368683772161603e-13,
+    "anchor_eta_MeV2": 3.469446951953614e-18,
+    "photon_ratio_recomputed": 3.552713678800501e-15,
+    "prediction_over_reported_ratio": 5.329070518200751e-15,
+    "E2_radiative_fraction": 2.220446049250313e-16,
+    "individual_eta_diagnostic_MeV2": 3.637978807091713e-12,
+    "transfer_removal_recomputed": 0.0,
+    "transfer_addition_recomputed": 0.0,
+    "transfer_reported_removal_sum": 0.0,
+    "transfer_reported_addition_sum": 0.0,
+    "transfer_removal_closure": 1.2434497875801753e-14,
+    "transfer_addition_closure": 8.881784197001252e-15,
+    "transfer_total_closure": 1.2434497875801753e-14,
+    "transfer_relative_strengths": 0.0,
+    "transfer_anchor_and_ordinals_keV": 0.0,
+    "transfer_window_ratio": 0.0,
+    "positive_block_from_independent_rotor_MeV": 2.842170943040401e-14,
+    "Nambu_offdiagonal_antiHermitian_MeV": 3.552713678800501e-15,
+    "omitted_block_equals_full_Nambu_residual_MeV": 6.858662943143301e-14,
+    "residual_norm_two_routes_MeV": 1.4210854715202004e-14,
+    "dual_rotation_D2_sector_leakage": 2.0137803309346334e-15,
+    "dual_rotation_unitarity": 1.6653345369377348e-15,
+    "dual_Hamiltonian_covariance_MeV": 1.4210854715202004e-13,
+    "dual_energy_MeV": 1.2789769243681803e-13,
+    "signed_diagonal_Q_is_odd": 2.854105840555121e-12,
+    "signed_mapped_diagonal_Q_is_odd": 5.25135490647699e-13,
+    "dual_collective_quadrupole_operator_covariance": 1.0125652762006204e-14,
+    "dual_collective_quadrupole_B": 3.048811203498758e-13,
+    "dual_particle_j_operator_covariance": 5.952806782695797e-14,
+    "dual_particle_j_B": 2.233679907703845e-11,
+    "dual_selected_target_BQ": 2.040034807748725e-15,
+    "dual_selected_target_Bj": 1.113553693699032e-13,
+    "dual_selected_reference_BQ": 4.0523140398818214e-14,
+    "dual_Q_jstar_product_is_odd": 2.1671553440683056e-13,
+    "dual_normalized_relative_phase_is_odd": 1.1102230246251565e-16,
+    "dual_transfer_addition_removal_exchange": 3.7192471324942744e-14,
+    "dual_transfer_removal_addition_exchange": 7.105427357601002e-14,
+    "dual_omitted_Nambu_residual_norm_MeV": 1.7319479184152442e-14,
+    "C_zero_omitted_block_vanishes_MeV": 5.65868180515801e-17,
+    "Q_jstar_invariant_under_independent_state_rephasing": 3.929121528466733e-14
+  },
+  "duality_state_matching": [
+    {
+      "energy_fit": "outputs/l4/20261105-ba129-model-readiness/model-fit-C60/energy-calibration.json",
+      "start": 0,
+      "minimum_matched_state_overlap": 0.9999999999999989,
+      "minimum_mapped_neighbor_spacing_MeV": 0.027478424012505442
+    },
+    {
+      "energy_fit": "outputs/l4/20261105-ba129-model-readiness/model-fit-C60/energy-calibration.json",
+      "start": 1,
+      "minimum_matched_state_overlap": 0.9999999999999994,
+      "minimum_mapped_neighbor_spacing_MeV": 0.02747756063648321
+    },
+    {
+      "energy_fit": "outputs/l4/20261105-ba129-model-readiness/model-fit-free-inertias-C120/energy-calibration.json",
+      "start": 0,
+      "minimum_matched_state_overlap": 0.9999999999999989,
+      "minimum_mapped_neighbor_spacing_MeV": 0.17975366312083274
+    },
+    {
+      "energy_fit": "outputs/l4/20261105-ba129-model-readiness/model-fit-free-inertias-C120/energy-calibration.json",
+      "start": 1,
+      "minimum_matched_state_overlap": 0.999999999999999,
+      "minimum_mapped_neighbor_spacing_MeV": 0.20292716041816128
+    },
+    {
+      "energy_fit": "outputs/l4/20261105-ba129-model-readiness/model-fit-free-inertias/energy-calibration.json",
+      "start": 0,
+      "minimum_matched_state_overlap": 0.9999999999999988,
+      "minimum_mapped_neighbor_spacing_MeV": 0.2429183941522135
+    },
+    {
+      "energy_fit": "outputs/l4/20261105-ba129-model-readiness/model-fit-free-inertias/energy-calibration.json",
+      "start": 1,
+      "minimum_matched_state_overlap": 0.9999999999999992,
+      "minimum_mapped_neighbor_spacing_MeV": 0.24291840583969204
+    },
+    {
+      "energy_fit": "outputs/l4/20261105-ba129-model-readiness/model-fit-free-inertias/energy-calibration.json",
+      "start": 2,
+      "minimum_matched_state_overlap": 0.9999999999999981,
+      "minimum_mapped_neighbor_spacing_MeV": 0.182925660203904
+    }
+  ],
+  "best_start_Nambu_summaries": {
+    "outputs/l4/20261105-ba129-model-readiness/model-fit-C60/energy-calibration.json": {
+      "residual_range_MeV": [
+        0.051868336742302255,
+        0.5774888220534833
+      ],
+      "formal_mixing_norm_range": [
+        0.0077399033149652295,
+        0.09879257916660636
+      ],
+      "formal_shift_range_MeV": [
+        0.0003821915650615688,
+        0.056328022339896165
+      ],
+      "formal_relative_shift_range_MeV": [
+        -0.010645427309842444,
+        0.04530040346499215
+      ],
+      "formal_relative_shift_RMS_MeV_excluding_anchor": 0.026915597529501813
+    },
+    "outputs/l4/20261105-ba129-model-readiness/model-fit-free-inertias-C120/energy-calibration.json": {
+      "residual_range_MeV": [
+        0.7012268998510266,
+        1.5883776322194088
+      ],
+      "formal_mixing_norm_range": [
+        0.1369752792144618,
+        0.4117286799948718
+      ],
+      "formal_shift_range_MeV": [
+        0.09398176241369327,
+        0.5853061250483889
+      ],
+      "formal_relative_shift_range_MeV": [
+        -0.08653230974090456,
+        0.40479205289379105
+      ],
+      "formal_relative_shift_RMS_MeV_excluding_anchor": 0.2083951370191096
+    },
+    "outputs/l4/20261105-ba129-model-readiness/model-fit-free-inertias/energy-calibration.json": {
+      "residual_range_MeV": [
+        0.7106013597755703,
+        1.6076476273952447
+      ],
+      "formal_mixing_norm_range": [
+        0.15574678555663302,
+        0.6101868919691343
+      ],
+      "formal_shift_range_MeV": [
+        0.10775307802354411,
+        0.7248601035642775
+      ],
+      "formal_relative_shift_range_MeV": [
+        -0.10234692773786416,
+        0.5147600978028692
+      ],
+      "formal_relative_shift_RMS_MeV_excluding_anchor": 0.2669496954107814
+    }
+  },
+  "rate_convention": "w_gamma(E2)=kE E^5 BQ; w_gamma(M1)=kM E^3 Bj; eta_gamma=kM/kE>=0 has MeV^2; same-parent photon ratio=(wEt+wMt)/wEr",
+  "duality_laws": {
+    "parameter_map": "gamma'=60-gamma, lambda'=-lambda, J'=(J1,J3,J2), fixed positive gap",
+    "frame_rotation": "pi about (0,1,1)/sqrt2; O:(x,y,z)->(-x,z,y); R_I=U_I* tensor U_j",
+    "fixed_positive_gap_Nambu_map": "particle/hole swap sigma_x combined with frame rotation",
+    "quadrupole": "S_f^dag Q'_D2 S_i=-Q_D2; signed diagonal Q changes sign",
+    "particle_j": "S_f^dag j'_D2 S_i=+j_D2",
+    "eigenstate_phase_invariant": "Q_fi*j_fi^* is independent of state rephasing, but is ODD under duality; its normalized phase shifts by pi if both amplitudes are nonzero",
+    "even_quantities": "|Q|^2,|j|^2, unit B, photon a/b and anchor eta_gamma"
+  },
+  "Nambu_diagnostic_definition": {
+    "retained": "H+=P^dag(U Hrot U+V Hrot V+E)P",
+    "other_sector": "H-=P^dag(U Hrot U+V Hrot V-E)P; total eigenvalues need not be negative",
+    "omitted_minus_plus_block": "K=P^dag(U Hrot V-V Hrot U)P",
+    "residual": "sigma_n=||K v_n||=||H_full X+ v_n-E_n X+ v_n||",
+    "formal_mixing_norm": "sqrt(sum_m |<m-|K|n+>|^2/(E_n+-E_m-)^2); NOT a probability or controlled estimate when not small",
+    "formal_second_order_shift": "sum_m |<m-|K|n+>|^2/(E_n+-E_m-); diagnostic only, never applied",
+    "warning": "This diagnoses the declared eta-discarding projection; it does not validate a full-Nambu nuclear Hamiltonian or repair photon predictions."
+  },
+  "source_locator": {
+    "raw_file": "raw/papers/1975_MeyerTerVehn_CollectiveOddANuclei_PartI.pdf",
+    "printed_pages": "117 Eqs2.19-2.22;118 Eqs2.28-2.31;119 Eq2.33;120 Eqs2.40-2.41",
+    "publisher_reproductions_local_only": "tmp/ba129-model-readiness/observable-review/"
+  },
+  "review_items": [
+    "No arithmetic error found in a/b, same-parent normalization, actual ordinal selection, or sole-anchor calibration for this frozen dataset.",
+    "The central floors and failed withheld ratios constrain the frozen mapping/model/operator assumptions; they are not a statistical or model-family exclusion.",
+    "EM duality difference is recorded by runner but omitted from its failure condition (runner lines172-182); current data satisfy the symmetry.",
+    "Chronological predeclaration is declared by contract, not independently established by this read-only code/data audit."
+  ]
+}

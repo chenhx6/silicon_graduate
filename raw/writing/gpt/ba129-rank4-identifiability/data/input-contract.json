@@ -1,5 +1,5 @@
 {
-  "contract": "ba129-companion-summary-v2",
+  "contract": "ba129-companion-summary-v3-primary-scan",
   "measurement_vector_order": ["A2_target", "A4_target", "A2_reference", "A4_reference"],
   "canonical_summary": {
     "file": "data/ba129_same_parent_A4.csv",
@@ -12,17 +12,19 @@
   "uncertainty_scenarios": [
     {
       "id": "evaluated",
+      "dataset_file": "data/ba129_same_parent_A4.csv",
       "standard_error_scales": [0.03, 0.05, 0.02, 0.05],
       "role": "CSV quoted margins interpreted as standard errors for a declared Gaussian sensitivity calculation"
     },
     {
-      "id": "primary_ocr_scale_sensitivity",
+      "id": "primary1977",
+      "dataset_file": "data/ba129_primary1977_coefficients.csv",
       "standard_error_scales": [0.05, 0.05, 0.04, 0.06],
-      "role": "provisional error-scale sensitivity only; retain evaluated means and signs; not corrected experimental data",
-      "upstream_raw": "raw/papers/gpt/query/20261105-ba129-primary/gizon1977-full-json.json",
-      "upstream_sha256": "1dd29020347823672adba2ef2f7e7955976236c8d09fe8cf00a12ee83025ef3e",
-      "locator": "/full-text-retrieval-response/originalText; printed p.466 Table 1, 365.0/461.8 rows; zero-based character offsets 9932 and 9967",
-      "visual_table_verification": false
+      "role": "separate primary-publication version, visually transcribed; not pooled with the dependent evaluation",
+      "upstream_raw": "raw/papers/gpt/query/20261105-ba129-model-readiness/gizon1977-main.pdf",
+      "upstream_sha256": "017e979cea49b19daecc5394a5ca90e460ad0cb2c1a60edaf510e3b7dc446795",
+      "locator": "physical PDF p.3 / printed p.466 Table1, rows365.0/461.8",
+      "visual_table_verification": true
     }
   ],
   "shared_selected_parent_verified": false,

@@ -1,0 +1,187 @@
+{
+  "schema": "ba129-energy-calibration-contract-v1",
+  "model_definition": "positive-BCS paired single-j triaxial rotor, hsp=C*Q_j; fixed irrotational inertia family",
+  "source_raw": "raw/papers/gpt/learning-daily/20261016-DAY15-ado-angular-distribution-geometry/nndc-129ba-129056013-201408-09194d4feed3.ens",
+  "source_sha256": "09194d4feed3bbda013c551ce5ba9ecf55a25799e8c46ec22f23685df1c1ef19",
+  "normalized_input_sha256": "c68aefbd613d657d2a3f2dc9845ef1bf1000c91d122fb6b6561255cce744ba5e",
+  "energy_reference_level": "129Ba_Ex278p81keV",
+  "twice_j": 11,
+  "gap_MeV": 1.0,
+  "fit_parameters": {
+    "gamma_deg": [
+      5,
+      55
+    ],
+    "field_strength_MeV": [
+      0.1,
+      30
+    ],
+    "J0_hbar2_per_MeV": [
+      5,
+      60
+    ],
+    "lambda_tilde_top_pair": [
+      -1,
+      5
+    ]
+  },
+  "objective": "unweighted RMS residual of relative energies, in keV; not experimental chi-square or likelihood",
+  "state_matching": "predeclared increasing-energy ordinal at each spin; assumes no lower unobserved state in this selected one-qp comparison; retain as a conditional mapping",
+  "energy_data": [
+    {
+      "level_id": "129Ba_Ex182p04keV",
+      "twice_I": 9,
+      "energy_keV": 182.04,
+      "quoted_error_keV": 0.11,
+      "Jpi_reaction": "9/2-",
+      "Jpi_adopted": "9/2-",
+      "reaction_locator": "R:79",
+      "adopted_locator": "A:108",
+      "band_2024": "",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex278p81keV",
+      "twice_I": 11,
+      "energy_keV": 278.81,
+      "quoted_error_keV": 0.12,
+      "Jpi_reaction": "11/2-",
+      "Jpi_adopted": "11/2-",
+      "reaction_locator": "R:97",
+      "adopted_locator": "A:143",
+      "band_2024": "1",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex643p6keV",
+      "twice_I": 13,
+      "energy_keV": 643.6,
+      "quoted_error_keV": 0.1,
+      "Jpi_reaction": "13/2-",
+      "Jpi_adopted": "13/2-",
+      "reaction_locator": "R:132",
+      "adopted_locator": "A:245",
+      "band_2024": "3",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex797p4keV",
+      "twice_I": 15,
+      "energy_keV": 797.4,
+      "quoted_error_keV": 0.1,
+      "Jpi_reaction": "15/2-",
+      "Jpi_adopted": "15/2-",
+      "reaction_locator": "R:143",
+      "adopted_locator": "A:290",
+      "band_2024": "1",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex883p43keV",
+      "twice_I": 13,
+      "energy_keV": 883.43,
+      "quoted_error_keV": 0.13,
+      "Jpi_reaction": "13/2-",
+      "Jpi_adopted": "13/2-",
+      "reaction_locator": "R:166",
+      "adopted_locator": "A:325",
+      "band_2024": "2",
+      "model_ordinal_assumed": 1
+    },
+    {
+      "level_id": "129Ba_Ex1210p0keV",
+      "twice_I": 15,
+      "energy_keV": 1210.0,
+      "quoted_error_keV": 0.1,
+      "Jpi_reaction": "15/2-",
+      "Jpi_adopted": "15/2-",
+      "reaction_locator": "R:180",
+      "adopted_locator": "A:411",
+      "band_2024": "4",
+      "model_ordinal_assumed": 1
+    },
+    {
+      "level_id": "129Ba_Ex1318p4keV",
+      "twice_I": 17,
+      "energy_keV": 1318.4,
+      "quoted_error_keV": 0.1,
+      "Jpi_reaction": "17/2-",
+      "Jpi_adopted": "17/2-",
+      "reaction_locator": "R:195",
+      "adopted_locator": "A:443",
+      "band_2024": "3",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex1475p4keV",
+      "twice_I": 19,
+      "energy_keV": 1475.4,
+      "quoted_error_keV": 0.1,
+      "Jpi_reaction": "19/2-",
+      "Jpi_adopted": "19/2-",
+      "reaction_locator": "R:206",
+      "adopted_locator": "A:473",
+      "band_2024": "1",
+      "model_ordinal_assumed": 0
+    },
+    {
+      "level_id": "129Ba_Ex1545p3keV",
+      "twice_I": 17,
+      "energy_keV": 1545.3,
+      "quoted_error_keV": 0.2,
+      "Jpi_reaction": "(17/2-)",
+      "Jpi_adopted": "17/2-",
+      "reaction_locator": "R:215",
+      "adopted_locator": "A:488",
+      "band_2024": "2",
+      "model_ordinal_assumed": 1
+    },
+    {
+      "level_id": "129Ba_Ex1845p0keV",
+      "twice_I": 19,
+      "energy_keV": 1845.0,
+      "quoted_error_keV": 0.2,
+      "Jpi_reaction": "19/2-",
+      "Jpi_adopted": "19/2-",
+      "reaction_locator": "R:239",
+      "adopted_locator": "A:558",
+      "band_2024": "4",
+      "model_ordinal_assumed": 1
+    }
+  ],
+  "held_out": [
+    "all photon intensities and electromagnetic strengths",
+    "the two ps lifetime records",
+    "1998 transfer strengths"
+  ],
+  "fixed_input_boundary": "Gap, model space, inertia form and bounds are declared choices; none is an experimental determination. No electromagnetic data used in this fit objective.",
+  "reported_derived_B_ratios_excluded": "Byrne1992 Fig14 uses pure-K/equal-Q model-derived delta and is not an independent measurement.",
+  "initial_points_gamma_C_J0_lambda": [
+    [
+      21.0,
+      9.75,
+      12.0,
+      1.5
+    ],
+    [
+      33.5,
+      9.0,
+      20.0,
+      1.5
+    ],
+    [
+      39.0,
+      9.75,
+      12.0,
+      2.8
+    ],
+    [
+      15.0,
+      15.0,
+      25.0,
+      0.5
+    ]
+  ],
+  "optimizer_max_nfev": 300,
+  "optimizer_tolerance": 1e-09
+}

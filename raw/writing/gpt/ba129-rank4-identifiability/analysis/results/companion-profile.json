@@ -1,8 +1,12 @@
 {
   "scope": "conditional coefficient-space nuisance profiling; not an experimental refit",
   "input_sha256": "047cdd0fa3c98b75b474b22299db3d88322ee99d5c988ae0b2ded8f3b53ea9e0",
-  "contract_sha256": "d614c794f4416a6222018ee4309fd89ccb0b76beb8045199d71e911c90e77560",
-  "script_sha256": "1e3750223183d8cc7745dfc04ada91bd32f7fc28e14ddfd4ae76b901d8e72d4b",
+  "contract_sha256": "fd7e992d31b310231b1ae90bd4bcc3efa54cc982bcf0af2358b86813b746a874",
+  "dataset_sha256": {
+    "evaluated": "047cdd0fa3c98b75b474b22299db3d88322ee99d5c988ae0b2ded8f3b53ea9e0",
+    "primary1977": "1608471ca731e3e667eb83c77de7d672b186fed8283c94e511f4b3443039db7c"
+  },
+  "script_sha256": "db018af90f84af7e162a820b2b4fc45b6004726a1bfa069b6c9c485affc17b7e",
   "runtime": {
     "python": "3.12.3",
     "numpy": "2.5.4",
@@ -1033,7 +1037,7 @@
       "distance_small_minus_large": -0.31446495393653606
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": -0.8,
       "rho_cross_line": -0.8,
       "branches": {
@@ -1073,7 +1077,7 @@
       "distance_small_minus_large": 27.625162884800474
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": -0.8,
       "rho_cross_line": -0.4,
       "branches": {
@@ -1113,7 +1117,7 @@
       "distance_small_minus_large": 9.036140519718325
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": -0.8,
       "rho_cross_line": 0.0,
       "branches": {
@@ -1153,7 +1157,7 @@
       "distance_small_minus_large": 5.98236393291514
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": -0.8,
       "rho_cross_line": 0.4,
       "branches": {
@@ -1193,7 +1197,7 @@
       "distance_small_minus_large": 4.876799982005787
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": -0.8,
       "rho_cross_line": 0.8,
       "branches": {
@@ -1233,7 +1237,7 @@
       "distance_small_minus_large": 3.8956655850695636
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": -0.4,
       "rho_cross_line": -0.8,
       "branches": {
@@ -1273,7 +1277,7 @@
       "distance_small_minus_large": 11.931346899677994
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": -0.4,
       "rho_cross_line": -0.4,
       "branches": {
@@ -1313,7 +1317,7 @@
       "distance_small_minus_large": 2.9984099046446655
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": -0.4,
       "rho_cross_line": 0.0,
       "branches": {
@@ -1353,7 +1357,7 @@
       "distance_small_minus_large": 1.3742359895045952
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": -0.4,
       "rho_cross_line": 0.4,
       "branches": {
@@ -1393,7 +1397,7 @@
       "distance_small_minus_large": 0.8033377729897007
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": -0.4,
       "rho_cross_line": 0.8,
       "branches": {
@@ -1433,7 +1437,7 @@
       "distance_small_minus_large": 0.5365662426383517
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.0,
       "rho_cross_line": -0.8,
       "branches": {
@@ -1473,7 +1477,7 @@
       "distance_small_minus_large": 7.947527571376451
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.0,
       "rho_cross_line": -0.4,
       "branches": {
@@ -1513,7 +1517,7 @@
       "distance_small_minus_large": 1.3827583871251914
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.0,
       "rho_cross_line": 0.0,
       "branches": {
@@ -1553,7 +1557,7 @@
       "distance_small_minus_large": 0.4684787357228295
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.0,
       "rho_cross_line": 0.4,
       "branches": {
@@ -1593,7 +1597,7 @@
       "distance_small_minus_large": 0.21404814542024386
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.0,
       "rho_cross_line": 0.8,
       "branches": {
@@ -1633,7 +1637,7 @@
       "distance_small_minus_large": 0.11662027479866932
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.4,
       "rho_cross_line": -0.8,
       "branches": {
@@ -1673,7 +1677,7 @@
       "distance_small_minus_large": 7.150271183552299
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.4,
       "rho_cross_line": -0.4,
       "branches": {
@@ -1713,7 +1717,7 @@
       "distance_small_minus_large": 0.8032379833224432
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.4,
       "rho_cross_line": 0.0,
       "branches": {
@@ -1753,7 +1757,7 @@
       "distance_small_minus_large": 0.19341736788338793
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.4,
       "rho_cross_line": 0.4,
       "branches": {
@@ -1793,7 +1797,7 @@
       "distance_small_minus_large": 0.06750773006708677
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.4,
       "rho_cross_line": 0.8,
       "branches": {
@@ -1833,7 +1837,7 @@
       "distance_small_minus_large": 0.029236890411519667
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.8,
       "rho_cross_line": -0.8,
       "branches": {
@@ -1873,7 +1877,7 @@
       "distance_small_minus_large": -43.403528194180694
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.8,
       "rho_cross_line": -0.4,
       "branches": {
@@ -1913,7 +1917,7 @@
       "distance_small_minus_large": -7.033572396649916
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.8,
       "rho_cross_line": 0.0,
       "branches": {
@@ -1953,7 +1957,7 @@
       "distance_small_minus_large": -0.014026389445874088
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.8,
       "rho_cross_line": 0.4,
       "branches": {
@@ -1993,7 +1997,7 @@
       "distance_small_minus_large": -0.0008896300416303404
     },
     {
-      "scenario": "primary_ocr_scale_sensitivity",
+      "scenario": "primary1977",
       "rho_within_line": 0.8,
       "rho_cross_line": 0.8,
       "branches": {
@@ -2041,7 +2045,7 @@
   },
   "boundary": [
     "covariance is a chosen finite family; no actual covariance inferred",
-    "OCR error-scale scenario keeps evaluated signs and means; it is not a corrected measurement",
+    "primary1977 and evaluated versions are dependent source layers and are not pooled",
     "free reference coefficients relax physical population-positivity constraints",
     "branch distance contrasts have no p-value, probability or confidence interpretation",
     "same-parent state identity does not establish identical postselection or response"

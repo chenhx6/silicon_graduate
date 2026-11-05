@@ -1,0 +1,25 @@
+{
+  "input": "observables-v1/observable-predictions.json",
+  "input_sha256": "c3016a8985f45bc3889ef84c188505bac1d59fde02cf4747075ab06b2c661472",
+  "script_sha256": "ee926f6d3929a7592f1325003bb449169d4c9810caa305821322096d9fb31950",
+  "selection": "Three distinct energy minima without active bounds. Plot subset chosen after prediction by this energy-bound criterion; all 14 parameter sets remain in input.",
+  "display_boundary": "Model/data central comparison; grey boxes are Cartesian single-margin RI envelopes, not confidence intervals. Transfer panel has model energies only and no experimental matching.",
+  "files": [
+    {
+      "path": "figures/energy_vs_observables.pdf",
+      "sha256": "6f62f645260580c234056ca577d426eca343380f0436cce5e1d9f7bd68b2142e"
+    },
+    {
+      "path": "figures/energy_vs_observables.png",
+      "sha256": "ae3489b002420d56d40674b6d054d6c35ce4ad66d6df4f9c60cf5e251c28f35f"
+    },
+    {
+      "path": "figures/made/data/photon_predictions.csv",
+      "sha256": "72784de49a9865aa8e31ec58c9209f33ead9410a749afdac802370bdac5d7f71"
+    },
+    {
+      "path": "figures/made/data/transfer_predictions.csv",
+      "sha256": "14a4ee47929deb6de6f65575bbea6c9e8726dbb9dd6db625e1999812a28c6496"
+    }
+  ]
+}

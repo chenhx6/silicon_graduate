@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-05T08:27:41.002515+00:00",
+  "generated_at": "2026-11-05T12:31:27.852370+00:00",
   "toolchain": "Tectonic 0.17.0",
   "class": "Springer Nature sn-jnl with iicol and sn-mathphys-num",
   "template_origin": "Byte-identical copies of classes previously archived for the PADO package; no prose from the old A130 omnibus.",
   "pdf": "main.pdf",
-  "pdf_sha256": "853298722faa303881108829be3aef41337539899abae82d76cbfcc648ff6b57",
-  "tex_sha256": "8a9ea6ba24779febe2ec7316b9d64681fa98bc7803737d0748dffe2f9a764ae5",
+  "pdf_sha256": "f039d5d7094bb2a726fbd547086b7ee6b88cdd487e5b573c64ec3572c62a0b10",
+  "tex_sha256": "a2fe7c75a78aa97fd758fde3fa5f3dde5049dc419cd3e361df5821036ee8b8c4",
   "pages": 5,
   "article_status": "exploratory-not-ready",
-  "visual_check": "All five rendered pages inspected in contact sheet after final equation/table repairs; no visible overlap or truncation.",
+  "visual_check": "All five freshly rendered pages inspected in contact sheet; Table1 shows separate primary and evaluated rows, population-witness paragraph fits, no visible overlap or truncation.",
   "overfull_boxes": 0,
   "undefined_references": false,
   "known_warnings": [

@@ -14,7 +14,12 @@ updated: 2026-11-05
 - [[epja-submission-guidelines-20261105]] — EPJ A 投稿页与 Springer Nature LaTeX 支持页的归档核查；仅用于格式、声明、数据/代码可用性和模板 provenance，不是科学证据。
 - [[pado-ionescu-control-feasibility-20261105]] — Ionescu 1981 feeding-aware angular-distribution public-control feasibility audit；作为方法先例和停止边界使用，不与 \(^{67}\)Ga common-\(\rho\) sample 合并。
 - [[ba129-rank4-identifiability]] — \(^{129}\)Ba 同母态角分布一致性、系数空间双阶拟合与协方差敏感性；既有方法的探索性应用，新颖性尚未成立。
-- [[gizon-1977-ba129-angular-distribution-primary]] — Gizon 1977 FULL JSON 正文已取得，扫描表页仍缺；原文 OCR 与2014评价的误差尺度差异须分别保存。
+- [[gizon-1977-ba129-angular-distribution-primary]] — Gizon 1977完整13页PDF已归档，Table1已视觉核验；原始误差与2014评价分开保存，误差修订原因仍待查。
+- [[bucurescu-1998-129ba-neutron-pickup-ibfm]] — 偏振(d,t)转移强度及多壳层IBFM原件；相对归一、有效算符和缺少逐点误差的边界。
+- [[byrne-1992-129ba-bandcrossing-primary]] — 1992γ谱原件、角关联校正强度及模型辅助δ/B比的依赖关系。
+- [[ba129-model-input-and-holdout-contract]] — 能量定标后的实际转移/EM预测；记录固定参数下的留出分支失配与新颖性边界。
+- [[paired-single-j-positive-bcs-rotor]] — 单j正能BCS投影、D₂基底、转移与EM算符的可重放模型合同及解析检查。
+- [[rouoof-dae68-129ba-tpsm]] — DAE68的129Ba TPSM能量比较先例；原件页眉2024、出版登记2025，形变参数规范仍需核对。
 - [[full-library-residual-state-audit-20261105]] — 全库残余模型状态、A≈130 候选创新和 P-ADO/133Ce readiness 审计；区分 screening、model result、实验事实与 paper evidence gate。
 
 ## 核心专著深度吸收与核结构专家级综合资产 (2026-11-02)

@@ -1,0 +1,3 @@
+label,parent_id,transition,Ji_twice,Jf_twice,energy_keV,multipolarity,A2,A2_sigma,A4,A4_sigma,source_locator
+target_365,Gizon1977:13/2_1-,13/2- -> 11/2-,13,11,365.0,M1+E2,-0.70,0.05,0.16,0.05,"Gizon1977 printed p.466 Table1 row365.0; p.469 same-parent placement; visual scan verified"
+reference_462,Gizon1977:13/2_1-,13/2- -> 9/2-,13,9,461.8,E2,0.22,0.04,0.08,0.06,"Gizon1977 printed p.466 Table1 row461.8; p.469 same-parent placement; visual scan verified"
