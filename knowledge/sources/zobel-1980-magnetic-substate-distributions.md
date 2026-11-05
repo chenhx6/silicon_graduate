@@ -116,6 +116,16 @@ Crossref精确书目匹配[High spin states in 67Ga](https://doi.org/10.1016/037
 
 故停止这条原文获取路线，缺失的purity误差/producer/response为何重要已保留：它们决定表中采用δ=0后的α能否代表所声明的核张量，以及多个引用是否共享数据。下一最高信息路线是NNDC/ENSDF 67Ga的公开evaluated/reaction记录核对multipolarity/δ来源；它也不能自动变成独立实验或补当前角fitCov。DAY14继续，Day15仅无学分预习。新增Z80-20 true，旧review范围保持。
 
+### 2026-11-05 primary text obtained
+
+用户随后提供了订阅获取的完整 1979 PDF：
+[[zobel-1979-high-spin-states-67ga]]。原件为 24 页、1,201,324 bytes，
+SHA-256 `69497888ea9e0b25fead2a28800ec2d14a58242ef0d6a9c214e6861f7fbffba5`，
+并已加入同一 query manifest。因而 Z80-20 中“primary 未取得”的**访问边界**
+已由直接原件解除；但其中关于 1979、1980、1983 是否共享 raw acquisition、
+fit logs 或 producer response 的 source-lineage 不确定性仍然保留。新 source
+页的 1979 claims 仍为 Codex self-audit，未提升为 `human-reviewed`。
+
 ### 2026-11-05 companion acquisition recheck
 
 按用户要求重新尝试获取 Ref.9 / 1983 Ref.4 的 1979 primary：
