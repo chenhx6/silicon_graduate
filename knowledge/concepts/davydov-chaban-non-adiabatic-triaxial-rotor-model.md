@@ -54,8 +54,11 @@ A. S. Davydov and A. A. Chaban (Nucl. Phys. 20, 499, 1960; Bohr & Mottelson Vol.
    Tracks the percentage elongation $(p - 1) \times 100\%$ with spin. Higher spins experience greater stretching (typically $1\% - 10\%$).
 2. **Energy Ratio $R_{4/2}$ and $\gamma$-Bandhead Ratio $E(2_2^+) / E(2_1^+)$**:
    Provides a two-dimensional map in $(\gamma, \mu)$ parameter space, distinguishing triaxiality ($\gamma$) from non-adiabatic compressibility ($\mu$).
-3. **Simultaneous Fit to Ground and $\gamma$-Bands**:
-   Unlike the rigid rotor which overestimates $E(4_1^+)$ and $E(6_1^+)$, the Davydov-Chaban model naturally compresses the ground band through $p(J) > 1.0$, achieving excellent agreement with experimental spectra.
+3. **Simultaneous comparison to Ground and $\gamma$-Bands**:
+   Unlike a rigid-rotor reference, the Davydov-Chaban model can compress the
+   ground band through $p(J)>1.0$. Agreement with a selected spectrum is a
+   model comparison and does not by itself establish the model's unique
+   physical mechanism.
 
 ## Supporting Evidence
 
@@ -63,9 +66,13 @@ A. S. Davydov and A. A. Chaban (Nucl. Phys. 20, 499, 1960; Bohr & Mottelson Vol.
    - Ground state $2_1^+$ has $p = 1.0080$ ($0.80\%$ stretching);
    - $\gamma$-bandhead $2_2^+$ is predicted at $706.0\text{ keV}$ (matching experimental $678.8\text{ keV}$ to within $4\%$);
    - Odd-spin $\gamma$-band state $3_1^+$ is predicted at $923.8\text{ keV}$;
-   - High-spin state $4_2^+$ has $p = 1.0875$ ($+8.75\%$ centrifugal stretching), confirming Frauendorf's note on the decisive role of dynamic stretching in Ru wobbling cores.
+   - High-spin state $4_2^+$ has $p = 1.0875$ ($+8.75\%$ centrifugal
+     stretching) in the benchmark calculation, illustrating the dynamic
+     stretching mechanism in the supplied model.
 2. **$^{190}\text{Pt}$ Benchmark ($\gamma = 30.0^\circ, \mu = 0.320$)**:
-   - Accurately reproduces the energy staggering of the $2_2^+$ and $3_1^+$ states in the transitional platinum chain.
+   - Provides a parameterized comparison to the energy staggering of the
+     $2_2^+$ and $3_1^+$ states in the transitional platinum chain; the
+     comparison remains model and input dependent.
 
 ## Counter-evidence and Competing Interpretations
 

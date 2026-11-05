@@ -55,14 +55,19 @@ $$E(J; \theta, \phi) = \frac{(J\sin\theta\cos\phi - j_\pi)^2}{2\mathcal{J}_s(\De
 
 ---
 
-## Canonical Experimental Benchmarks
+## Canonical Source and Model Benchmarks
 
 - **$^{134}\text{Pr}$ Chiral Tripod ($\pi h_{11/2} \otimes \nu h_{11/2}^{-1}$)**:
   - $J_{\text{crit}} = 16.0\ \hbar$ (onset of chiral bifurcation with $\phi = 14.0^\circ$, barrier $= 1.8\text{ keV}$);
-  - At $J = 18.0\ \hbar$, robust aplanar chirality: $\phi = 33.0^\circ$, barrier $= 69.9\text{ keV}$, $\mathcal{V}_{\text{chiral}} = 0.498$;
+  - At $J = 18.0\ \hbar$, the supplied model gives an aplanar
+    configuration with $\phi = 33.0^\circ$, barrier $=69.9\text{ keV}$ and
+    $\mathcal{V}_{\text{chiral}}=0.498$; these are model outputs, not direct
+    measurements;
   - At $J = 22.0\ \hbar$, deep chiral wells with barrier exceeding $500\text{ keV}$.
 - **$^{136}\text{Nd}$ 4-Quasiparticle State**:
-  - Enhanced single-particle alignments ($j_\pi = 8.0, j_\nu = 8.0$) shift the bifurcation threshold to $J_{\text{crit}} \approx 21.0\ \hbar$, confirming the stability of multi-quasiparticle chirality up to high spin.
+  - Enhanced single-particle alignments ($j_\pi = 8.0, j_\nu = 8.0$) shift the
+    model bifurcation threshold to $J_{\text{crit}}\approx21.0\hbar$; this is a
+    conditional stability result for the supplied Hamiltonian.
 
 ---
 

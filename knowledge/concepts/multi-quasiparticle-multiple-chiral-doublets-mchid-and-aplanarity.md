@@ -76,9 +76,17 @@ An experimental candidate pair of bands is verified as a chiral doublet if it sa
   A published candidate/analysis case for 4-quasiparticle M$\chi$D in an
   even-even nucleus; the label remains dependent on the source's band identity,
   lifetimes, transition strengths and competing configurations.
-  - Doublet 1 ($\pi h_{11/2}^2 \otimes \nu h_{11/2}^{-2}$): $\overline{\Delta E} = 47.5\text{ keV}$, $\overline{|\Delta S|} = 0.32\text{ keV}$, $\mathcal{V}_{\text{chiral}} = 0.778$, confidence $= 87.3\%$.
-  - Doublet 2 ($\pi h_{11/2}^2 \otimes \nu [h_{11/2}^{-1} d_{5/2}^{-1}]$): $\overline{\Delta E} = 50.8\text{ keV}$, $\overline{|\Delta S|} = 0.38\text{ keV}$, $\mathcal{V}_{\text{chiral}} = 0.842$, confidence $= 86.3\%$.
-  - Both doublets coexist simultaneously, confirming M$\chi$D.
+  - Doublet 1 ($\pi h_{11/2}^2 \otimes \nu h_{11/2}^{-2}$): the
+    supplied screening fixture gives $\overline{\Delta E}=47.5\text{ keV}$,
+    $\overline{|\Delta S|}=0.32\text{ keV}$ and
+    $\mathcal{V}_{\text{chiral}}=0.778$.
+  - Doublet 2 ($\pi h_{11/2}^2 \otimes \nu [h_{11/2}^{-1}d_{5/2}^{-1}]$):
+    the supplied screening fixture gives $\overline{\Delta E}=50.8\text{ keV}$,
+    $\overline{|\Delta S|}=0.38\text{ keV}$ and
+    $\mathcal{V}_{\text{chiral}}=0.842$.
+  - The fixture is compatible with an M$\chi$D candidate interpretation; it
+    does not define a statistical confidence level or confirm M$\chi$D without
+    source-linked lifetimes, absolute strengths, configurations and response.
 - **$^{133}\text{Ce}$ (Ayangeakaa et al. 2013)**:
   First demonstration of M$\chi$D in an odd-$A$ nucleus (3-qp and 5-qp configurations).
 - **$^{103}\text{Rh}$ (Kuti et al. 2014)**:

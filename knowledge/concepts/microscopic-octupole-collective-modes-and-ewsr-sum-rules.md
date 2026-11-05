@@ -58,7 +58,7 @@ $$\delta E(I) = E(I^-) - \frac{E((I+1)^+) + E((I-1)^+)}{2}$$
 1. **$^{224}\text{Ra}$ (Gaffney et al. Nature 497, 199, 2013)**:
    - Alternating parity band: $E(1^-) = 216\text{ keV}$, $E(3^-) = 290\text{ keV}$, $B(E3) = 38\ \text{W.u.}$;
    - Parity displacement collapses from $173.8\text{ keV}$ ($I=1^-$) to $0.0\text{ keV}$ ($I=9^-$);
-   - Direct Coulomb excitation confirmed $|D_0| \approx 0.10\ e\cdot\text{fm}$ and $\beta_3 \approx 0.11$.
+   - Direct Coulomb excitation reported values compatible with $|D_0| \approx 0.10\ e\cdot\text{fm}$ and the model-dependent estimate $\beta_3 \approx 0.11$; the conversion does not by itself establish a rigid pear-shaped minimum.
 2. **$^{144}\text{Ba}$ (Bucher et al. PRL 116, 112503, 2016)**:
    - Fission product benchmark with strong octupole collectivity: $B(E3; 3^- \to 0^+) = 48\ \text{W.u.}$;
    - Demonstrates octupole collectivity in the neutron-rich $A \sim 140$ mass region.

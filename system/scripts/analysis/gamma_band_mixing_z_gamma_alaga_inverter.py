@@ -164,7 +164,9 @@ def format_text_report(inv_res: Dict[str, Any]) -> str:
         " Methodological Significance:",
         "   - Alaga rule assumes pure K=2; Delta_K=2 Coriolis mixing reduces 0_g/2_g ratio by (1 - 6*z_gamma)^2.",
         "   - In well-deformed rare earths, z_gamma ~ 0.02 - 0.04 reflects harmonic vibration-rotation coupling.",
-        "   - Large z_gamma (> 0.06) directly signals the onset of triaxiality and gamma-softness in A~130.",
+        "   - Large z_gamma (> 0.06) flags a strong band-mixing screening branch "
+        "under the pure-E2, first-order Mikhailov contract; it does not directly "
+        "measure triaxiality or gamma-softness.",
         "=" * 76
     ]
     return "\n".join(lines)

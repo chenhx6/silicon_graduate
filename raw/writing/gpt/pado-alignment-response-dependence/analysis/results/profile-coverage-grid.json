@@ -3,7 +3,7 @@
   "input": "/workspace/wiki/raw/writing/gpt/pado-alignment-response-dependence/data/zobel83_958_table1.csv",
   "input_sha256": "c323f12a7ec31a205e528e5b26db07301d53a2fb6f8f7c3ef2fa65bd7c06eed0",
   "analysis_script": "/workspace/wiki/raw/writing/gpt/pado-alignment-response-dependence/analysis/profile_coverage_grid.py",
-  "analysis_script_sha256": "5b532eb2223d1225f3c434f729f3a2d4c40027e586bff20d1f7533545d0c4627",
+  "analysis_script_sha256": "ee97dd558e4fefc99ed1809418bd26f4d1ebf75bacb98e47c05fecf8ac32255d",
   "seed": 20261108,
   "n_toys_per_cell": 500,
   "true_r_values": [
@@ -434,7 +434,8 @@
   "environment": {
     "python": "3.12.3",
     "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
-    "numpy": "2.5.4"
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
   },
   "interpretation_boundary": [
     "Every toy repeats the same common-rho profile and maximum-row operation used for the observed statistic.",

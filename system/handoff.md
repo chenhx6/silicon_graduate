@@ -8,6 +8,9 @@ updated: 2026-11-05
 - **Current active task**：完成 A≈130 全库审计、创新点筛选和一篇单点论文。goal `01a1a756-e768-7320-bc92-6bff2607f122` 仍 active。
 - **Continuation update 2026-11-05**：完成公开模型/代码与运行时定向审计，并将结果写回 `knowledge/sources/a130-model-runtime-and-public-code-audit-20261105.md`、`knowledge/research-notes/a130-model-runtime-and-code-route-audit-20261105.md` 和 `outputs/l4/20261105-a130-model-runtime-audit/report.md`；新取得材料的 manifest 位于 `raw/papers/gpt/query/20261105-model-runtime-audit/manifest.json`。HFODD 源码端点返回 404、DIRHB 未编译、KSHELL/ArbModel/NPTool 仍受环境或访问边界限制，均保留为未闭合状态。
 - **Paper refinement update 2026-11-05**：根据统计/期刊/核结构只读审查，P-ADO 包新增 profile-preserving pseudo-experiment calibration (`analysis/profile_coverage.py`, seed `20261107`, 1000 toys per true-\(\rho\)); fixed-\(\rho\) grid 扩展为 \(5\times7\)；BIC 改用十个独立 row vector 作为 sample units；正文收紧为 `^{67}Ga` table-level calibration case study，补入 Zobel 1980/Ionescu 1981 lineage 和 common-\(\rho\)/block-diagonal contract。
+- **Full-library residual audit update 2026-11-05**：继续审计 `knowledge/concepts`、`knowledge/models`、`knowledge/methods` 和 `system/scripts/analysis`，收紧 135Pr 旧“11.1 sigma/排除摆动”、signature inversion、gamma-soft/PES、synthetic DSAM/RDDS、Mikhailov \(z_\gamma\)、MχD、3D-TAC/CDFT、g-factor、double-root 和模型 benchmark 的确认性措辞；保留 source facts、模型结果、条件筛查和缺失 response/协方差边界。`knowledge/sources/zobel-1980-magnetic-substate-distributions.md` 新增 1979 primary 获取失败的实际接口回执与 manifest 链接。
+- **Candidate scan update 2026-11-05**：独立创新扫描把 `135Pr` matched-input leave-EM-out holdout 列为最强公开核结构候选，`129Ba` 365-keV single-line closure、`130Ba` gamma-soft adversarial test 和 `135Nd` same-nucleus chiral/TiP control 作为后续候选；`133Ce` readiness 仍为 partial-L4，当前最小闭环是恢复 W1 producer/event lineage、修正 prompt/H/V 时间门并建立 transition ledger。
+- **Capability update 2026-11-05**：当前工作树新增并完成 provenance 的 Wiki-adapted `absorb` 与 `get-paper` skills；两者离线测试分别通过 12/19，未执行外来代码、未写入凭据，作为后续外部材料供应链审计与论文获取入口。
 - **Current remaining gates**：已建立 `pado-zobel-1980-1983-lineage-audit-20261105.md` 和文章 `PUBLIC_RELEASE.md`；仍缺作者/合作信息、永久公共 DOI/许可授权和 paper-level P0/P1 claim admission，因此 goal 保持 active，文章保持 `partial/not-ready`。
 - **Stable pointer**：当前工作在 `main` 上；最新已发布 subject 为 `research: calibrate Ce unified-mode synthesis`。本轮还完成 `research: integrate 135Pr polarization erratum`、`research: calibrate Ce mode evidence matrix`、`research: correct prospectus primary-source branches`、`research: calibrate prospectus collective-mode claims`、`research: deprecate overstrong A130 omnibus draft`、`research: calibrate 135Pr conditional branch claims`、`research: archive 135Pr Bayesian source boundary`、`research: refine profile calibration precision`、`research: add PADO public release manifest`、`research: record PADO lineage and release gates`、`research: harden A130 P-ADO paper and record model audit`、`research: establish A130 paper candidate and audit evidence`、`research: add feeding-mixture control and paper claim ledger`、`research: calibrate alignment coverage across covariance grid`、`research: compare observed discrepancy with calibrated coverage`、`research: refine covariance profile resolution`、`research: compile and inspect EPJA manuscript draft`、`research: audit source covariance boundary and finalize draft` 与 submission-readiness audit，并按精确 `HEAD:main` refspec 发布。后续恢复以 branch + subject 为稳定指针，精确 hash 只写入任务回执。
 - **Completed**：
@@ -22,7 +25,7 @@ updated: 2026-11-05
   - 取得官方 EPJA/APS/Elsevier submission pages 的本地 query manifest；PLB Guide for Authors 当前 runtime 返回 access failure，已如实保留。
   - 完成 HFODD、BIGSTICK、DIRHB、ROOT、Geant4、CSM、IBM、KSHELL、NPTool 和本地 PTRM/TPSM/TAC 路线的可运行性/适用域审计；明确第一篇文章不依赖完整 TPSM/TAC-CDFT/SN100 生产者。
 - **Current primary paper result**：
-  - shared alignment model at `rho=0`: `r0=0.280146`, `AIC=32.0415`, `BIC=33.0372`, `Dmax^2=31.2643`;
+  - shared alignment model at `rho=0`: `r0=0.280146`, `AIC=32.0415`, `BIC=32.3441`, `Dmax^2=31.2643`;
   - family model: `r_alpha=0.288714`, `r_12C=0.275782`, no AIC/BIC support over shared at center contract;
   - energy model slope `0.005280` per 10 MeV, no AIC/BIC support over shared at center contract;
   - minimal direct/cascade mixture negative control: `r_direct=0.195230`, `r_cascade=0.365900`, `weight_direct=0.530370`; AIC/BIC are worse than shared at the center contract;
@@ -45,7 +48,10 @@ updated: 2026-11-05
   - `python3 system/scripts/wiki_boundary_check.py --root .` exit 0;
   - `python3 system/scripts/wiki_lint.py --fail-on error` exit 0, 0 errors, 616 warnings, 5306 claim-needs-review info;
   - `python3 system/scripts/wiki_archive_gate.py check --root . --changed` exit 0, 0 failures;
-  - `python3 system/scripts/analysis/test_analysis_suite.py` exit 0, regression checks passed;
+  - `python3 system/scripts/analysis/test_analysis_suite.py` exit 0, regression checks passed after the residual-state changes;
+  - `python3 -m unittest discover -s system/tests -p 'test_*.py'` exit 0, 635 tests passed;
+  - `python3 -m py_compile` across `system/scripts/analysis/*.py` exit 0; `git diff --check` exit 0;
+  - `.agents/skills/absorb/scripts/test_absorb_inventory.py` exit 0, 12 tests passed; `.agents/skills/get-paper/scripts/test_get_paper.py` exit 0, 19 tests passed;
   - new P-ADO scripts compile with `py_compile`, profile/coverage/figure commands and deterministic output validation rerun successfully;
   - the default LaTeX toolchain was unavailable, so a temporary Tectonic `0.17.0` binary was downloaded under `tmp/` and successfully compiled the Springer Nature draft with the EPJ A-recommended `iicol` option to a six-page A4 `main.pdf`; all pages were rendered and visually checked after converting wide figures/table to full-width floats and splitting the likelihood equation. Underfull layout warnings remain recorded in `analysis/results/compile-record.json`.
 - **Next prompt**：继续 P-ADO paper self-audit：冻结最终 claim-to-locator wording、复核 EPJA Regular Article 门槛和 author/data metadata；同步保持 `133Ce` secondary，直到 response/producer/holdout/data-release gates close。若启动 HFODD/Geant4 计算，先固定版本、输入和独立 companion observable，不把 benchmark 或 scaffold 输出直接写成核结构结论。

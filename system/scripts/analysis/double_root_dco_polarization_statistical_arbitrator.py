@@ -51,7 +51,9 @@ Physics & Statistical Principles:
       Delta chi^2 = chi^2_joint(delta_2) - chi^2_joint(delta_1).
       The exclusion confidence level is:
         CL = erf( sqrt(Delta chi^2 / 2) ) * 100%
-      If Delta chi^2 > 9.0, the spurious root is excluded at > 99.73% (3-sigma) confidence level.
+If Delta chi^2 > 9.0, the alternate root is disfavored at a nominal
+>99.73% (3-sigma) level under the declared independent-error response
+contract; this is not a universal experimental exclusion.
 """
 
 import sys
@@ -401,17 +403,26 @@ def analyze_double_roots(
         elif d_chi2 >= 9.0:
             fav = 1 if c1 < c2 else 2
             excl = 2 if c1 < c2 else 1
-            arbitration["status"] = "resolved_by_3sigma_statistical_exclusion"
+            arbitration["status"] = "declared_chi2_screening_favors_root"
             arbitration["favored_root"] = fav
             arbitration["excluded_root"] = excl
-            arbitration["summary"] = f"Root {excl} rejected at {cl:.2f}% CL (Delta chi^2 = {d_chi2:.2f} >= 9.0, >3-sigma); Root {fav} favored."
+            arbitration["summary"] = (
+                f"Root {excl} is disfavored by the declared independent-error "
+                f"chi2 screening threshold ({cl:.2f}% nominal CL; Delta chi^2 = "
+                f"{d_chi2:.2f} >= 9.0); Root {fav} is favored within this "
+                "response contract. This is not a universal experimental exclusion."
+            )
         elif d_chi2 >= 4.0:
             fav = 1 if c1 < c2 else 2
             excl = 2 if c1 < c2 else 1
-            arbitration["status"] = "strongly_favored_2sigma"
+            arbitration["status"] = "declared_chi2_screening_favors_root_2sigma"
             arbitration["favored_root"] = fav
             arbitration["excluded_root"] = excl
-            arbitration["summary"] = f"Root {fav} favored over Root {excl} at {cl:.2f}% CL (Delta chi^2 = {d_chi2:.2f} >= 4.0, ~2-sigma)."
+            arbitration["summary"] = (
+                f"Root {fav} is favored over Root {excl} by the declared "
+                f"independent-error chi2 screening ({cl:.2f}% nominal CL; "
+                f"Delta chi^2 = {d_chi2:.2f} >= 4.0)."
+            )
         else:
             arbitration["status"] = "unresolved_ambiguity"
             arbitration["summary"] = f"Ambiguity persists (Delta chi^2 = {d_chi2:.2f} < 4.0, CL = {cl:.1f}%). Additional linear polarization or conversion measurement required."

@@ -178,7 +178,10 @@ def format_text_report(summary: Dict[str, Any]) -> str:
     if "plateau_check" in summary:
         pc = summary["plateau_check"]
         lines.append(f" PLATEAU STABILITY AUDIT (Total Drift = {pc['plateau_variation_MeV']} MeV):")
-        lines.append(f"   Plateau Condition Status       : {'CONFIRMED (Stationary against gamma)' if pc['plateau_condition_satisfied'] else 'Drift detected'}")
+        lines.append(
+            "   Plateau Condition Status       : "
+            f"{'PASS (stationary within the supplied gamma scan)' if pc['plateau_condition_satisfied'] else 'Drift detected'}"
+        )
         lines.append("   " + "-" * 56)
         lines.append(f"   {'gamma (MeV)':<14} {'delta_U (MeV)':<18} {'lambda_tilde (MeV)':<18}")
         lines.append("   " + "-" * 56)
@@ -189,7 +192,11 @@ def format_text_report(summary: Dict[str, Any]) -> str:
     lines.append(" Physical Significance:")
     lines.append("   - Separates microscopic quantum shell fluctuations from smooth liquid drop energy.")
     lines.append("   - Explains the ~ -12 MeV shell depression for double magic nuclei (208Pb).")
-    lines.append("   - Plateau condition guarantees mathematical independence from smoothing width gamma.")
+    lines.append(
+        "   - A small drift in this finite scan supports the plateau diagnostic "
+        "for the supplied spectrum; it does not certify a physical PES or "
+        "experimental minimum."
+    )
     lines.append("========================================================================")
     return "\n".join(lines)
 

@@ -8,9 +8,9 @@
   "class_options": "pdflatex,iicol,sn-mathphys-num",
   "pages": 6,
   "page_size": "A4",
-  "pdf_sha256": "2950f55e10d8cc005e114a36362c60960603452d8754f748d44417cb8d90ab83",
+  "pdf_sha256": "baf9e52b861422614367ed51a376ce589c99acc2f2d68b845f7bc21398547ed5",
   "status": "compiled-and-visually-inspected",
   "warnings": "underfull hbox/vbox layout warnings only; no overfull boxes, unresolved citations, fatal errors, clipping, overlap, or figure/table truncation observed",
-  "visual_inspection": "pages 1-6 rendered and checked after the least-favorable coverage sentence was compressed; bibliography remained complete",
-  "compiled_at": "2026-11-05T09:18:21+08:00"
+  "visual_inspection": "pages 1-6 rendered and checked after contract-conditional wording, AI disclosure compression, bibliography compaction and finite-grid terminology",
+  "compiled_at": "2026-11-05T03:39:19+00:00"
 }

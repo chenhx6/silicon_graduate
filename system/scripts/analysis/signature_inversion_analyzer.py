@@ -128,4 +128,8 @@ if __name__ == "__main__":
     print(f"    Has Signature Inversion : {diag['has_inversion']}")
     print(f"    Max Inversion Depth     : {diag['max_inversion_depth_keV']:.1f} keV")
     print(f"    Critical Crossing Spin  : I_inv approx {diag['I_inv']:.1f} hbar")
-    print("  Outcome: Proof of triaxial non-zero gamma deformation and strong p-n interaction!")
+    print(
+        "  Outcome: The supplied benchmark exhibits a signature-inversion "
+        "screening pattern. Triaxiality and p-n residual-interaction effects "
+        "remain competing model explanations requiring nucleus-specific inputs."
+    )

@@ -44,7 +44,7 @@ sources: [book-casten-nuclear-structure-simple-perspective, book-greiner-nuclear
 4. **$\\gamma$ 刚性与 $\\gamma$ 软度的能级交错指数 $S(J)$ 判据**：
    $$S(J) \\equiv \\frac{[E(J) - E(J-1)] - [E(J-1) - E(J-2)]}{E(2_1^+)}$$
    - Davydov-Filippov 刚性三轴核（$\\gamma \\a30^\\circ$）在奇数自旋 $J$ 呈现负交错（$S(J) < 0$），能级按 $2^+, (3^+, 4^+), (5^+, 6^+)$ 成对聚集；
-   - Wilets-Jean / $O(6)$ $\\gamma$ 软核在奇数自旋 $J$ 呈现正交错（$S(J) > 0$），能级按 $(2^+, 3^+), (4^+, 5^+), (6^+, 7^+)$ 成对聚集；构成排他性鉴别代数指纹。
+   - Wilets-Jean / $O(6)$ $\\gamma$ 软核在奇数自旋 $J$ 呈现正交错（$S(J) > 0$），能级按 $(2^+, 3^+), (4^+, 5^+), (6^+, 7^+)$ 成对聚集；这是理想极限下的比较指纹，不是跨核素排他性判据。
 
 ## What It Cannot Establish Alone
 

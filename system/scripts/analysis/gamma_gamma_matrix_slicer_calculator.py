@@ -184,7 +184,11 @@ def format_text_report(summary: Dict[str, Any]) -> str:
     lines.append("-" * 72)
     lines.append(" Physical Significance:")
     lines.append("   - Radford 2D subtraction eliminates Compton-Compton and Compton-peak background.")
-    lines.append("   - Proves mutual coincidence ordering between rotational band members.")
+    lines.append(
+        "   - Supports mutual-coincidence ordering under the supplied "
+        "cascade/background contract; it is not, by itself, proof of a "
+        "rotational-band assignment."
+    )
     lines.append("   - Fundamental engine behind in-beam level scheme construction (escl8r / Radware).")
     lines.append("========================================================================")
     return "\n".join(lines)

@@ -150,4 +150,8 @@ if __name__ == "__main__":
     print(f"  Theoretical R_DCO    : {res['r_dco_theo']:.3f} (Exp: {exp_R_dco:.2f} +/- {exp_R_err:.2f})")
     print(f"  Theoretical Pol P    : {res['p_theo']:+.3f} (Exp: {exp_P:+.2f} +/- {exp_P_err:.2f})")
     print(f"  Joint Chi2           : {res['min_chi2']:.2f}")
-    print("  Outcome: M1 partner solution (delta approx -0.47) firmly selected, wobbling root eliminated!")
+    print(
+        "  Outcome: The supplied DCO/polarization fixture favors an M1-rich "
+        "solution near delta=-0.47 within this response contract; the alternate "
+        "root is not an experimental wobbling exclusion."
+    )

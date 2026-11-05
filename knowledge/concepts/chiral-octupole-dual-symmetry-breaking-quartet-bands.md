@@ -47,7 +47,7 @@ The quartet consists of four intertwined rotational bands sharing identical sing
 ## Canonical Experimental Benchmarks
 
 1. **$^{78}\text{Br}$ Landmark Discovery (Liu et al. PRL 116, 112501, 2016)**:
-   - First unambiguous experimental discovery of chiral-octupole quartet bands in the $A \approx 80$ mass region;
+   - Reported as the first unambiguous experimental discovery of chiral-octupole quartet bands in the $A \approx 80$ mass region; the Wiki retains the authors' interpretation separately from the underlying level, multipolarity, and configuration evidence;
    - Configuration: $\pi g_{9/2} \otimes \nu g_{9/2}$;
    - Spins $I = 8 \dots 12$:
      - Mean positive-parity chiral splitting: $\overline{\Delta E^+} = 64.0\text{ keV}$;

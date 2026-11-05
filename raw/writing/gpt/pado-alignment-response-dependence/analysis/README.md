@@ -62,9 +62,10 @@ BIC uses the ten rows as the independent observational units. The two
 coordinates within each row are represented by the row covariance rather than
 counted as separate independent samples.
 
-The `mixture` model is a deliberately minimal direct/cascade population
-negative control. It linearly mixes two Gaussian-substate alignment predictions;
-it is a sensitivity model, not a validated feeding simulation.
+The two-component response control is a deliberately minimal negative control.
+It linearly mixes two Gaussian-substate alignment predictions; its components
+are descriptive response components, not validated direct/cascade feeding
+fractions or a feeding simulation.
 
 `validate_response_map.py` independently replays the published
 Der Mateosian--Sunyar \(J=23/2,\sigma/J=0.2\) attenuation-table row and checks a
@@ -83,5 +84,6 @@ cross-row dependence.
 
 `profile_coverage_grid.py` repeats the complete profile statistic on a
 five-by-seven \((r_{\rm true},\rho_{\rm true})\) nuisance grid. The reported
-worst-case empirical 95% quantile is a conservative reference only within the
-declared independent-row Gaussian contract.
+maximum empirical grid-cell 95% quantile is a finite-grid reference only within
+the declared independent-row Gaussian contract; it is not a continuous
+least-favorable supremum.

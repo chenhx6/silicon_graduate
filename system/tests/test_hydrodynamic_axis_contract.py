@@ -55,7 +55,7 @@ class HydrodynamicAxisContractTests(unittest.TestCase):
         res = check_greiner_sum_rule(357.0, 901.0, 1258.0)
         self.assertAlmostEqual(res["residual_keV"], 0.0)
         self.assertAlmostEqual(res["relative_discrepancy_pct"], 0.0)
-        self.assertEqual(res["greiner_sum_rule_verdict"], "RIGID_ASYMMETRIC_ROTOR_CONFIRMED")
+        self.assertEqual(res["greiner_sum_rule_verdict"], "RIGID_ASYMMETRIC_ROTOR_SCREENING_PASS")
 
     def test_greiner_branching_ratio_at_30_degrees(self):
         res = davydov_filippov_energies_and_be2(30.0, 100.0)

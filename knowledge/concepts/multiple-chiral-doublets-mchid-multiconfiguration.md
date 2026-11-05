@@ -15,20 +15,20 @@ tags: [triaxiality, chirality, multiple-chiral-doublets, mchid, alignment-separa
 
 ### Phenomenological Definition & Scientific Significance
 
-Multiple Chiral Doublets (M$\chi$D) describe the simultaneous coexistence of two or more pairs of chiral doublet bands (Pair A: Bands 1 & 2; Pair B: Bands 3 & 4) within the *same* atomic nucleus.
+Multiple Chiral Doublets (M$\chi$D) describe the simultaneous coexistence of two or more **candidate** pairs of chiral doublet bands (Pair A: Bands 1 & 2; Pair B: Bands 3 & 4) within the *same* atomic nucleus. The label organizes a band manifold and an interpretation; it is not a model-independent observation by itself.
 
-First predicted by Peng, Meng, and Zhang (PRC 77, 021303(R), 2008) and experimentally established in:
+First predicted by Peng, Meng, and Zhang (PRC 77, 021303(R), 2008). The following papers report band systems that the authors interpret as M$\chi$D candidates:
 - $^{133}\text{Ce}$ (Ayangeakaa et al. PRL 110, 172504, 2013): 1-qp $\nu h_{11/2}^{-1}$ vs. 3-qp $\pi h_{11/2}^2 \otimes \nu h_{11/2}^{-1}$;
 - $^{103}\text{Rh}$ (Kuti et al. PRL 113, 032501, 2014);
 - $^{136}\text{Nd}$ (Petrache et al. PRC 97, 041304(R), 2018): 4-quasiparticle M$\chi$D.
 
-M$\chi$D demonstrates that triaxial geometry and spontaneous chiral symmetry breaking are robust collective phenomena that can be built upon multiple orthogonal intrinsic multi-quasiparticle excitations or distinct triaxial shape minima (Chiral Shape Coexistence, $\chi$SR).
+These cases motivate the question of whether triaxial geometry and chiral symmetry breaking can recur across distinct multi-quasiparticle configurations or shape minima. The papers do not, by band counting alone, establish a universal or model-independent M$\chi$D mechanism.
 
 ---
 
 ## The 4-Fold M$\chi$D Arbitration Gates
 
-To eliminate false positive assignments (such as octupole parity doublets, pseudospin partner bands, or wobbling excitations masquerading as chiral doublets), the microscopic M$\chi$D framework establishes four strict criteria:
+To screen false-positive assignments (such as octupole parity doublets, pseudospin partner bands, or wobbling excitations), this workflow uses four conditional criteria. Their thresholds are inputs to a screening contract, not universal discovery gates:
 
 1. **Gate 1: Twin Band Energy Degeneracy Test**:
    Both candidate doublet pairs must exhibit near-degenerate excitation energies above their respective bifurcation frequencies:
@@ -39,11 +39,12 @@ To eliminate false positive assignments (such as octupole parity doublets, pseud
 3. **Gate 3: Quasiparticle Alignment Separation Test**:
    The experimental Routhian alignments $i_x(\omega) = I_x - (\mathcal{J}_0 \omega + \mathcal{J}_1 \omega^3)$ of the two doublet systems must be distinct and discrete:
    $$\Delta i_x = |\langle i_{x,\text{Pair B}} \rangle - \langle i_{x,\text{Pair A}} \rangle| \ge 1.5 - 3.5\ \hbar$$
-   This proves that Pair B involves additional decoupled quasiparticle pairs (e.g. alignment of a broken pair of $h_{11/2}$ protons $\Delta i_x \approx 3.7\hbar$ in $^{133}\text{Ce}$).
+   A separated alignment is compatible with additional quasiparticle involvement, but does not prove a unique broken-pair configuration.
 4. **Gate 4: Cross-Doublet Branching Suppression**:
    Electromagnetic cross-talk transitions between the two doublet systems (Pair B $\to$ Pair A) must be strongly inhibited:
    $$\frac{I_\gamma(\text{Pair B} \to \text{Pair A})}{I_\gamma(\text{Pair B intra})} \le 0.15$$
-   verifying structural and configuration orthogonality.
+   which would be compatible with structural or configuration separation under the
+   declared gate and efficiency contract; it does not verify orthogonality.
 
 ---
 
@@ -52,7 +53,7 @@ To eliminate false positive assignments (such as octupole parity doublets, pseud
 The Python analysis suite integrates `multiple_chiral_doublets_mchid_discriminator.py`, accessible via CLI:
 
 ```bash
-# 1. Prototype 133Ce MChD discovery (4/4 gates passed, Delta i_x = 3.70 hbar)
+# 1. Prototype 133Ce MChD screening (4/4 conditional gates passed, Delta i_x = 3.70 hbar)
 python3 system/scripts/analysis/nuclear_analyzer.py mchiddis --preset 133Ce_classic_mchid
 
 # 2. 136Nd even-even 4-quasiparticle MChD system
@@ -94,7 +95,7 @@ python3 system/scripts/analysis/nuclear_analyzer.py mchiddis --preset 103Rh_A100
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本 Wiki 将该物理概念作为需要逐对核验的研究框架；模型筛选分数和候选带数量不能替代逐线组态、寿命、偏振、绝对跃迁强度和响应协方差证据。
 
 
 ## Sources

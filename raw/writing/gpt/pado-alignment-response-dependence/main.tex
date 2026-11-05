@@ -7,12 +7,12 @@
 
 \begin{document}
 
-\title[Coverage-calibrated alignment transfer audit]{A coverage-calibrated audit of alignment transfer in oriented-state gamma-ray angular distributions: the public \(^{67}\mathrm{Ga}\) benchmark}
+\title[Contract-conditional alignment transfer audit]{A contract-conditional audit of alignment transfer in oriented-state gamma-ray angular distributions: the public \(^{67}\mathrm{Ga}\) benchmark}
 
 \author*[1]{\fnm{Author information} \sur{to be completed}}\email{corresponding.author@to-be-completed}
 \affil*[1]{\orgname{Affiliation and collaboration information to be completed}}
 
-\abstract{Projectile-alignment directional orientation (P-ADO) analyses can transfer an alignment proxy between reaction conditions when extracting multipole mixing ratios. We study that transfer with the public \(^{67}\mathrm{Ga}\) \(958.0\)-keV \(13/2^+\rightarrow9/2^+\) pure-\(E2\) benchmark of Zobel et al. The ten published \((\alpha_2,\alpha_4)\) pairs are analyzed under an explicitly independent-row Gaussian table contract with fixed quoted marginal errors and a scanned common row correlation \(\rho\). At \(\rho=0\), the shared proxy gives \(r=0.2801\); projectile-family and energy-trend alternatives do not improve the descriptive information criteria, while a separate global convex-mixture control is weakly identified and is not interpreted as a feeding fraction. The observed profile-preserving maximum-row discrepancy is \(22.18\). Repeating the same profile operation in 1000 pseudo-experiments per true-\(\rho\) value gives empirical 95\% quantiles of \(8.47\)--\(8.79\) for true \(\rho=-0.6,0,0.6\). The result is a conditional table-level calibration warning, rather than an experimental p-value or a general invalidation of P-ADO.}
+\abstract{Projectile-alignment directional orientation (P-ADO) analyses can transfer an alignment proxy between reaction conditions when extracting multipole mixing ratios. We study that transfer with the public \(^{67}\mathrm{Ga}\) \(958.0\)-keV \(13/2^+\rightarrow9/2^+\) pure-\(E2\) benchmark of Zobel et al. The ten non-empty published \((\alpha_2,\alpha_4)\) pairs are analyzed under an explicitly independent-row Gaussian table contract with fixed quoted marginal errors and a scanned common row correlation \(\rho\). At \(\rho=0\), the shared proxy gives \(r=0.2801\); projectile-family and energy-trend alternatives do not improve a descriptive fixed-\(\rho\) comparison, while a separate two-component response control is weakly identified and is not interpreted as a feeding fraction. The observed profiled maximum-row discrepancy is \(22.18\). Repeating the same profile operation in 1000 pseudo-experiments per true-\(\rho\) value gives empirical 95\% quantiles of \(8.47\)--\(8.79\) for true \(\rho=-0.6,0,0.6\). The result is a contract-conditional table-level sensitivity study, rather than an experimental p-value or a general invalidation of P-ADO.}
 
 \keywords{nuclear alignment, P-ADO, angular distributions, covariance, coverage, feeding}
 
@@ -28,7 +28,7 @@ We revisit the ten-row \(^{67}\mathrm{Ga}\) table as a controlled, reproducible 
 
 \section{Benchmark and evidence boundary}
 
-The benchmark is the \(958.0\)-keV \(13/2^+\rightarrow9/2^+\) pure-\(E2\) transition in \(^{67}\mathrm{Ga}\). The ten rows contain five \(\alpha\)-induced conditions from 11.3 to 22 MeV and five \(^{12}\mathrm{C}\)-induced conditions from 32 to 48 MeV. The reactions are \(^{64}\mathrm{Zn}(\alpha,p\gamma)^{67}\mathrm{Ga}\) and \(^{57}\mathrm{Fe}(^{12}\mathrm{C},pn\gamma)^{67}\mathrm{Ga}\), respectively \cite{Zobel1983}. The values used here are the published fit coefficients and quoted statistical uncertainties transcribed from Table 1; they are not raw event counts.
+The benchmark is the \(958.0\)-keV \(13/2^+\rightarrow9/2^+\) pure-\(E2\) transition in \(^{67}\mathrm{Ga}\). The ten non-empty rows contain five \(\alpha\)-induced conditions from 11.3 to 22 MeV and five \(^{12}\mathrm{C}\)-induced conditions from 32 to 48 MeV. The 9-MeV entry for this transition is empty in Table 1 and is not imputed. The reactions are \(^{64}\mathrm{Zn}(\alpha,p\gamma)^{67}\mathrm{Ga}\) and \(^{57}\mathrm{Fe}(^{12}\mathrm{C},pn\gamma)^{67}\mathrm{Ga}\), respectively \cite{Zobel1983}. The values used here are the published fit coefficients and quoted statistical uncertainties transcribed from Table 1; they are not raw event counts.
 
 The earlier Zobel study contains related \(^{67}\mathrm{Ga}\) values and is retained
 as a dependent source lineage rather than merged as an independent experiment
@@ -72,7 +72,7 @@ H_{\mathrm{shared}} &: r_i=r_0,\\
 H_{\mathrm{family}} &: r_i=r_\alpha\ \text{or}\ r_{^{12}\mathrm C},\\
 H_{\mathrm{energy}} &: r_i=r_0+r_1(E_i-\bar E)/10.
 \end{align}
-The global convex-mixture control is analyzed separately as a sensitivity model; it
+The two-component response control is analyzed separately as a sensitivity model; it
 uses one common mixture prediction for all rows and has no condition-specific feeding
 weights.
 The Gaussian profile objective is
@@ -114,10 +114,10 @@ At \(\rho=0\), the shared model gives \(r_0=0.2801\). The family model gives
 \(r_\alpha=0.2887\) and \(r_{^{12}\mathrm C}=0.2758\), while the energy model gives
 \(r_0=0.2785\) and \(r_1=0.0053\) per 10 MeV. The energy slope is descriptive only:
 the projectile families occupy disjoint energy ranges in this table. A global
-convex-mixture control lowers the descriptive objective, but its component
+two-component response control lowers the descriptive objective, but its component
 parameters are weakly identified and are not interpreted as direct- or
 cascade-feeding fractions. The extra response parameters do not improve AIC or BIC
-under the fixed \(\rho=0\) contract. Thus the table does not identify a unique
+in this fixed-\(\rho=0\), ten-row descriptive comparison. Thus the table does not identify a unique
 condition-specific or feeding-specific replacement model.
 
 \begin{table*}[t]
@@ -132,7 +132,7 @@ Model & Fitted response & AIC & BIC & \(D_{\max}^2\)\\
 Shared & \(r_0=0.2801\) & 32.04 & 32.34 & 31.26\\
 Family & \(r_\alpha=0.2887;\ r_{12C}=0.2758\) & 32.63 & 33.23 & 36.24\\
 Energy & \(r_0=0.2785;\ r_1=0.0053\) & 32.63 & 33.24 & 26.96\\
-Mixture & \(r_d=0.1952;\ r_c=0.3659;\ w=0.5304\) & 33.56 & 34.47 & 30.71\\
+Two-component response control & \(r_1=0.1952;\ r_2=0.3659;\ w=0.5304\) & 33.56 & 34.47 & 30.71\\
 \bottomrule
 \end{tabular}
 \end{table*}
@@ -188,8 +188,8 @@ after removing each row in turn. The leave-one-row-out values range from
 by a single row in this fixture. Because the number of rows changes, these
 values are not assigned a separate calibrated null distribution.
 
-An expanded \(5\times7\) nuisance grid with 500 complete profile toys per cell
-gave a worst empirical \(q_{0.95}=9.66\), below observed
+An expanded \(5\times7\) finite nuisance grid with 500 complete profile toys per cell
+gave a maximum empirical grid-cell \(q_{0.95}=9.66\), below observed
 \(T_{\mathrm{prof}}=22.18\); this remains a contract-bound reference, not an
 experimental p-value.
 
@@ -217,7 +217,8 @@ relevant calibration for the observed profiled statistic.
 \begin{figure*}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/coverage_grid.pdf}
-\caption{Coverage of the single-row two-dimensional threshold for the maximum
+\caption{Acceptance fraction for the chosen single-row two-dimensional reference
+threshold under the maximum
 over ten rows in a \(5\times7\) fixed-\(\rho\) toy grid. The left panel uses the generating
 correlation in the fit; the right panel forces \(\rho=0\) while varying the
 generating correlation. Values are empirical fractions from 1000 toys per cell.}
@@ -256,9 +257,9 @@ analyses that are later used to identify A\(\approx130\) collective modes.
 \section*{Data availability}
 
 The normalized ten-row benchmark table and all derived analysis outputs are included in
-this local manuscript package. A public release should deposit the normalized CSV,
-scripts, JSON outputs and a version identifier in a repository with a persistent
-archive record. The source paper and its exact locator are recorded in the local
+this local manuscript package. A public release is planned but has not yet been
+assigned a persistent archive identifier or license. The source paper and its exact
+locator are recorded in the local
 evidence record `knowledge/sources/zobel-1983-energy-projectile-alignment.md`; the
 publisher PDF and raw event counts are not redistributed here. The source does not
 provide row-internal or cross-row covariance, and no unavailable raw data are
@@ -266,20 +267,24 @@ claimed to have been reconstructed.
 
 \section*{Code availability}
 
-The profile, fixed-\(\rho\) coverage, profile-preserving calibration and coverage-grid
+The profile, fixed-\(\rho\) sensitivity, profile-preserving calibration and finite-grid
 scripts are included under `analysis/` in this manuscript package. They use Python,
 NumPy and SciPy; the fixed seeds, covariance contract and BIC row-unit convention
 are recorded in the JSON results and README. The response-map validation output
 records the independent finite-\(J\) table replay. The outputs are table-level
-analyses and are not an event-level detector-response reanalysis. Generative AI
-assistance was used locally for literature triage, code review, manuscript
-consistency checks and language editing; the accountable authors must verify all
-claims, locators, declarations, permissions and the final submission version.
+analyses and are not an event-level detector-response reanalysis.
+
+\paragraph{AI-use disclosure.}
+Generative AI assistance was used locally for literature triage, code review,
+manuscript consistency checks and language editing. The accountable authors
+retain responsibility for all claims, locators, declarations, permissions and
+the final submission version.
 Author names, affiliations, corresponding-author details, funding, conflicts and
 contribution roles remain to be completed by the author group.
 
 \small
 \enlargethispage{8\baselineskip}
+\tiny
 \bibliography{references}
 
 \end{document}

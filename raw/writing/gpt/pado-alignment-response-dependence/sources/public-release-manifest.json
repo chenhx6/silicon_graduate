@@ -9,9 +9,15 @@
   "permanent_archive": "not assigned",
   "files": [
     {
+      "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/README.md",
+      "sha256": "f56a8fa0600c723749d6ba22d66e69b8e8bd914549d26df8927761f0b319772c",
+      "size": 4688,
+      "release_role": "candidate-public"
+    },
+    {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/PUBLIC_RELEASE.md",
-      "sha256": "3ed91542ef6dd41af9299573ed6090cef4d0d26600382a35ac6316edec0d93eb",
-      "size": 2667,
+      "sha256": "bed055ff22ae30304006e65ca0837c5deedfa01376fe4d067aef90a5fd01dfff",
+      "size": 2705,
       "release_role": "candidate-public"
     },
     {
@@ -47,8 +53,8 @@
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/profile_coverage_grid.py",
       "release_role": "candidate-public",
-      "sha256": "5b532eb2223d1225f3c434f729f3a2d4c40027e586bff20d1f7533545d0c4627",
-      "size": 6563
+      "sha256": "ee97dd558e4fefc99ed1809418bd26f4d1ebf75bacb98e47c05fecf8ac32255d",
+      "size": 6616
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/alignment-profile.json",
@@ -59,8 +65,8 @@
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/compile-record.json",
       "release_role": "candidate-public",
-      "sha256": "066a556f04adfc3d2f317fc5412a423153e03371e9bfe7a7356bc12924f11b83",
-      "size": 855
+      "sha256": "98c294e35c8ddfd502d4e24ba1d292ae6fc33bbed25ac2ebd1e13609b3398269",
+      "size": 879
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/coverage-grid.json",
@@ -89,8 +95,8 @@
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage-grid.json",
       "release_role": "candidate-public",
-      "sha256": "d799d21099fdfffe20032a386f93c535c66f7f8ff58b8d0cc89086391401636a",
-      "size": 9902
+      "sha256": "fac5aa91040cb8cd0116a537550b8b8394cb4e398725e5642b5cef8d2417df62",
+      "size": 9925
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/analysis/results/profile-coverage-toys.csv",
@@ -136,8 +142,8 @@
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/data/README.md",
-      "sha256": "81b0ae78ec3cc31ac36f95f56401e91c99cbd14b3d619b2e7689521cd1baabd8",
-      "size": 1156,
+      "sha256": "28f46b31d24d17c506ac905a720f71e6b3e201ccdb71dedcf949c05745054a00",
+      "size": 1408,
       "release_role": "candidate-public"
     },
     {
@@ -173,19 +179,19 @@
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/main.pdf",
       "release_role": "candidate-public",
-      "sha256": "2950f55e10d8cc005e114a36362c60960603452d8754f748d44417cb8d90ab83",
-      "size": 162287
+      "sha256": "baf9e52b861422614367ed51a376ce589c99acc2f2d68b845f7bc21398547ed5",
+      "size": 164320
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/main.tex",
-      "sha256": "4b03e1a80fbe795c2799a387250e148089e4ea81a3ac9a3b1e22983c67f03941",
-      "size": 20834,
+      "sha256": "294bc0867931e26caf18ef7da3c1b94c8ee27fec6ed5f9b9c1a14f6ed9ac7971",
+      "size": 21042,
       "release_role": "candidate-public"
     },
     {
       "path": "raw/writing/gpt/pado-alignment-response-dependence/references.bib",
-      "sha256": "0dec6279464ac39d0f20e854c0e5868be18377d9a9d607df621ff21ea456a74e",
-      "size": 2875,
+      "sha256": "7cb3a99a764f29dca62f308b2cf624510e73c4c47073038f7086850df96d8421",
+      "size": 2561,
       "release_role": "candidate-public"
     },
     {
@@ -238,7 +244,7 @@
     "response_map_check": "DA74-6 finite-J replay plus local narrow-width limit",
     "influence_check": "leave-one-row-out descriptive profile",
     "row_covariance_envelope": "uncalibrated row-specific rho_i sensitivity on [-0.8,0.8]",
-    "least_favorable_grid": {
+    "finite_nuisance_grid": {
       "true_r": [
         0.1,
         0.2,
@@ -256,6 +262,7 @@
         0.8
       ],
       "n_toys_per_cell": 500
-    }
+    },
+    "profile_grid_seed": 20261108
   }
 }

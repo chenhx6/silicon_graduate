@@ -20,6 +20,7 @@ The machine-readable file inventory and SHA-256 values are in
 - `analysis/influence_checks.py`
 - `analysis/row_covariance_envelope.py`
 - `analysis/profile_coverage_grid.py`
+- `analysis/README.md`
 - `analysis/validate_outputs.py`
 - `analysis/results/alignment-profile.json`
 - `analysis/results/coverage.json`
@@ -52,7 +53,7 @@ The machine-readable file inventory and SHA-256 values are in
 
 The release must record:
 
-1. the repository commit or permanent archive identifier;
+1. the repository commit or permanent archive identifier, once assigned;
 2. Python, NumPy and SciPy versions;
 3. the exact commands in `analysis/README.md`;
 4. SHA-256 values for the normalized CSV, scripts and JSON outputs;

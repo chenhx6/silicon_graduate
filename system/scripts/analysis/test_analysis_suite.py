@@ -2498,7 +2498,7 @@ def test_double_root_arbitrator():
         P_coeffs=[-0.15, 0.10, 0.55], Q_coeffs=[1.0, 0.45, 0.90],
         P_exp=0.22, sigma_P=0.05
     )
-    assert res["arbitration"]["status"] == "resolved_by_3sigma_statistical_exclusion"
+    assert res["arbitration"]["status"] == "declared_chi2_screening_favors_root"
     print("  ✓ double_root_dco_polarization_statistical_arbitrator passed.")
 
 

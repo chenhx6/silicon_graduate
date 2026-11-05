@@ -97,7 +97,10 @@ def calculate_dsam_f_tau_value(
 ) -> float:
     """
     Calculates theoretical DSAM attenuation factor F(tau) for a given lifetime tau in ps.
-    Uses the validated semi-empirical stopping profile F(tau) = 1 / [ 1 + (tau / alpha_stop)^0.88 ].
+    Uses a declared semi-empirical stopping profile
+    F(tau) = 1 / [ 1 + (tau / alpha_stop)^0.88 ]. The exponent is a
+    parameterized approximation and must be checked against target-specific
+    stopping calculations before experimental use.
     """
     if tau_ps <= 0.0:
         return 1.0

@@ -241,7 +241,10 @@ def format_text_report(output, title="Heavy-Ion Triaxial Fusion Barrier Distribu
     lines.append(f"  V_side (theta=90, phi=90, interm axis):   {cb['V_side_interm_axis_MeV']:.2f} MeV")
     lines.append(f"  Pole-to-Side Barrier Splitting:           Delta V_ps = {cb['barrier_splitting_pole_side_MeV']:.2f} MeV")
     lines.append(f"  Triaxial In-Plane Belly Splitting:        Delta V_tri = {cb['triaxial_belly_splitting_MeV']:.2f} MeV")
-    lines.append(f"  Triaxial Structural Signature:            {'CONFIRMED (Three-barrier structure)' if output['is_triaxial_fingerprint'] else 'Axial or Weak Triaxial'}")
+    lines.append(
+        "  Triaxial Structural Signature:            "
+        f"{'SCREENING PASS (three-barrier structure in this model)' if output['is_triaxial_fingerprint'] else 'Axial or Weak Triaxial'}"
+    )
     lines.append("\n[2] Barrier Distribution Summary:")
     lines.append(f"  Effective Centroid Energy:                <E_barrier> = {output['distribution_centroid_MeV']:.2f} MeV")
     lines.append(f"  Effective FWHM Barrier Width:             FWHM = {output['distribution_fwhm_MeV']:.2f} MeV")

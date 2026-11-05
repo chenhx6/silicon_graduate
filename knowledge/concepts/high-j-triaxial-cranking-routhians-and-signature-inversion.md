@@ -47,7 +47,11 @@ where:
 ## Discriminating Observables
 
 1. **Routhian Alignment $\langle j_x \rangle$ at $\gamma = -30^\circ$**:
-   For $\gamma = -30^\circ$, the lowest Routhian has alignment $\langle j_x \rangle \approx j$ (e.g. $\langle j_x \rangle = 5.47\ \hbar$ for $j=5.5$), confirming that the single-particle angular momentum aligns along the short $s$-axis, establishing the prerequisite geometry for Transverse Wobbling (TW).
+   For $\gamma = -30^\circ$, the lowest Routhian has alignment
+   $\langle j_x \rangle \approx j$ (e.g. $\langle j_x \rangle = 5.47\ \hbar$
+   for $j=5.5$) in this single-$j$ benchmark. This is compatible with
+   short-axis alignment under the supplied convention; it does not establish
+   the prerequisite geometry of a real nucleus or a TW assignment.
 2. **Signature Inversion Crossing Frequency $\hbar\omega_{\text{inv}}$**:
    Experimentally extracted from odd-odd and odd-$A$ rotational bands via $S(I) = [E(I) - E(I-1)] / (2I)$, where the signature staggering phase flips by $180^\circ$.
 3. **Triaxiality $\gamma$ Sensitivity**:
@@ -58,7 +62,9 @@ where:
 1. **$h_{11/2}$ Triaxial Chiral Benchmark ($j = 5.5, \gamma = -30^\circ, \kappa = 3.0\text{ MeV}$)**:
    - Evaluated 12 single-particle Routhians; $[h_{\text{crank}}, \mathcal{R}_x(\pi)] = 0$ verified to machine precision ($< 10^{-14}$).
    - Lowest Routhian at $\hbar\omega = 0.20\text{ MeV}$: $e' = -5.1658\text{ MeV}$, with alignment $\langle j_x \rangle = 5.47\ \hbar$ along the rotation axis.
-   - Lowest signature splitting $\Delta e' = -2182.8\text{ keV} < 0$, verifying signature inversion in the triaxial potential.
+   - Lowest signature splitting $\Delta e' = -2182.8\text{ keV} < 0$, a
+     signature-inversion screening result for the supplied triaxial
+     single-$j$ Hamiltonian.
 2. **$A \sim 130$ Experimental Observables**:
    Signature inversion is reported or reconstructed in candidate bands of
    $^{134}\text{Pr}, ^{128}\text{Cs}$ and $^{106}\text{Ag}$, with crossings near
@@ -75,7 +81,14 @@ where:
 
 ## Our Current Position
 
-In this wiki, high-$j$ intruder single-particle Routhians, triaxial alignments $\langle j_x \rangle$, signature quantum numbers $\alpha = \pm 1/2$, and signature inversion trajectories are calculated using Module 108 (`triaxial_cranking_single_j_routhian_diagram_calculator.py`, CLI subcommand `crank`). The module diagonalizes the exact $(2j+1) \times (2j+1)$ triaxial cranking Hamiltonian, providing the microscopic foundation for both transverse wobbling and nuclear chiral doublets.
+In this wiki, high-$j$ intruder single-particle Routhians, triaxial
+alignments $\langle j_x \rangle$, signature quantum numbers $\alpha=\pm1/2$,
+and signature-inversion trajectories are calculated using Module 108
+(`triaxial_cranking_single_j_routhian_diagram_calculator.py`, CLI subcommand
+`crank`). The module exactly diagonalizes the supplied $(2j+1)\times(2j+1)$
+single-$j$ Hamiltonian; its result is a model benchmark and requires
+nucleus-specific configuration, pairing, residual interaction and experimental
+checks before it can support a TW or chiral assignment.
 
 ## Sources
 

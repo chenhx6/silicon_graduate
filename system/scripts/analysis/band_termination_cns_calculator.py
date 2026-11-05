@@ -189,7 +189,12 @@ def diagnose_smooth_band_termination(q_drop_percent=None, j2_steep_dive=None, e_
         reasons.append("Pronounced minimum cusp observed in E - E_RR trajectory")
 
     if criteria_met >= 2.0:
-        diagnosis = "Confirmed Smooth Band Termination: Collective rotation smoothly extinguished into non-collective oblate state."
+        diagnosis = (
+            "Smooth-band-termination screening pass: the supplied Qt, J^(2), "
+            "and energy-cusp descriptors are jointly compatible with a "
+            "terminating-rotation interpretation; absolute lifetime/Qt and "
+            "configuration evidence are still required."
+        )
         is_termination = True
     elif criteria_met >= 1.0:
         diagnosis = "Candidate Terminating Sequence: Partial alignment indicators present; requires absolute lifetime/Qt measurement."

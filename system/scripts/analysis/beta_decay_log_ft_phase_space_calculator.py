@@ -202,7 +202,7 @@ def verify_superallowed_cvc_vud(
         "V_ud_standard_reference": 0.97373,
         "ckm_first_row_unitarity_sum": round(unitarity_sum, 5),
         "unitarity_deviation": round(unitarity_sum - 1.0, 5),
-        "cvc_hypothesis_status": "CONFIRMED (Ft consistent with universal constant ~ 3072 s)" if abs(Ft - 3072.0) < 20.0 else "Deviation detected"
+        "cvc_hypothesis_status": "CONDITIONAL COMPATIBILITY (Ft near the reference ~3072 s)" if abs(Ft - 3072.0) < 20.0 else "Deviation detected"
     }
 
 

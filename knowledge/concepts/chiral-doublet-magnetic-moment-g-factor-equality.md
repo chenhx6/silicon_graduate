@@ -13,11 +13,11 @@ tags: [chirality, g-factor, magnetic-moments, grodner-theorem, spontaneous-symme
 
 ## Definition
 
-### The Grodner Chiral $g$-Factor Equality Theorem
+### The Grodner Chiral $g$-Factor Equality Relation
 
 A major challenge in high-spin nuclear spectroscopy is that accidental degeneracies (e.g. signature partner bands, shape coexistence, or pseudo-spin doublets) can exhibit near-identical excitation energies ($\Delta E \le 100\text{ keV}$), masquerading as chiral doublet bands.
 
-To establish an unambiguous, smoking-gun test of spontaneous chiral symmetry breaking, E. Grodner et al. (Phys. Rev. Lett. 120, 022502, 2018; CRC 2025 Ch. 7, PDF pp. 156–166) formulated the **Chiral Gyromagnetic Factor ($g$) Equality Theorem**:
+To provide a model-sensitive test of the idealized chiral limit, E. Grodner et al. (Phys. Rev. Lett. 120, 022502, 2018; CRC 2025 Ch. 7, PDF pp. 156–166) discussed a **Chiral Gyromagnetic Factor ($g$) Equality** relation:
 
 ### 1. Quantum Symmetry Principle
 In a genuine chiral nucleus, spontaneous breaking of time-reversal $\mathcal{T}$ and $\mathcal{R}_y(\pi)$ in the body-fixed frame creates degenerate left-handed $|L\rangle$ and right-handed $|R\rangle$ chiral states.
@@ -30,9 +30,9 @@ $$\langle L \mid \hat{\mu} \mid R \rangle = \langle R \mid \hat{\mu} \mid L \ran
 The diagonal expectation values satisfy:
 $$\langle \text{Band 1} \mid \hat{\mu} \mid \text{Band 1} \rangle = \frac{1}{2} \left[ \langle L|\hat{\mu}|L\rangle + \langle R|\hat{\mu}|R\rangle \right] = \langle \text{Band 2} \mid \hat{\mu} \mid \text{Band 2} \rangle$$
 
-**The Fundamental Theorem**:
+**Idealized-model relation**:
 $$g(\text{Band 1}, I) \equiv g(\text{Band 2}, I)$$
-**The $g$-factors of the two partner bands must be identical at every spin $I$ within the chiral regime!**
+The $g$-factors of the two partner bands are equal in this idealized limit over the modeled spin window.
 If an experimental measurement reveals \(g_1(I)\ne g_2(I)\) with a discrepancy
 of at least \(3\sigma\), that result strongly disfavors the idealized equality
 model for the specified spin and response contract. It is not, by itself, a
@@ -59,7 +59,9 @@ $$\chi^2_g = \left( \frac{\Delta g}{\sigma_{\Delta g}} \right)^2, \quad p = \tex
 - $\chi^2_g \le 1.0$: compatible with the equality model under the declared
   independent-error approximation;
 - $1.0 < \chi^2_g \le 4.0$: Compatible within $2\sigma$;
-- $\chi^2_g \ge 9.0$: Chiral hypothesis rejected at $> 99.73\%$ ($3\sigma$) confidence level.
+- $\chi^2_g \ge 9.0$: the equality model is disfavored at the nominal
+  $>99.73\%$ ($3\sigma$) level under the declared independent-error
+  approximation; this is not a model-independent chiral rejection.
 
 ---
 
@@ -75,7 +77,8 @@ $$\chi^2_g = \left( \frac{\Delta g}{\sigma_{\Delta g}} \right)^2, \quad p = \tex
 2. **Spurious Pseudo-Chiral Counterexample**:
    - Experimental doublet with $g_1 = +0.85 \pm 0.04$ and $g_2 = +0.32 \pm 0.05$:
    - $\Delta g = 0.530 \pm 0.064 \implies \chi^2_g = 68.51$ ($8.28\sigma$ discrepancy, $p = 1.26 \times 10^{-16}$);
-   - Decisively eliminates the spurious bands from chiral classification.
+   - Strongly disfavors the equality model for this constructed counterexample;
+     it does not by itself classify the bands.
 
 ---
 
@@ -87,7 +90,7 @@ $$\chi^2_g = \left( \frac{\Delta g}{\sigma_{\Delta g}} \right)^2, \quad p = \tex
 
 ## Our Current Position
 
-本 Wiki 将该物理概念建立于自洽微观动力学与严格实验可观测量之上，作为解析与裁判前沿集体运动模式的标准科学基准。
+本 Wiki 将该关系作为理想化模型的可检验约束；相等结果支持该约束但不能单独建立手征性，不相等结果也需要结合组态、偏振、寿命和响应合同解释。
 
 ## Sources
 

@@ -92,4 +92,8 @@ if __name__ == "__main__":
     print(f"    |E(4_1) - E(2_2)|   : {abs(908.1 - 901.7):.1f} keV (Remarkable O(6) degeneracy!)")
     print(f"    Classified Phase     : {classification['phase_name']}")
     print(f"    Interpretation       : {classification['description']}")
-    print("  Outcome: Firmly establishes 130Ba core as an O(6) gamma-soft nucleus, providing micro-foundation for IBFM phonon-coupling!")
+    print(
+        "  Outcome: The 130Ba ratios are compatible with an O(6)-like/"
+        "gamma-soft screening branch under this simplified IBM diagnostic; "
+        "energy ratios alone do not establish a unique core geometry."
+    )

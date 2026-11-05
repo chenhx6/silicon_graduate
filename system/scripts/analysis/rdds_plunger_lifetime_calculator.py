@@ -197,7 +197,7 @@ def format_text_report(summary: Dict[str, Any]) -> str:
 
     if "exponential_fit" in summary:
         ef = summary["exponential_fit"]
-        lines.append(" EXPONENTIAL DECAY CURVE FIT:")
+        lines.append(f" EXPONENTIAL DECAY CURVE FIT [{summary.get('data_kind', 'unspecified input')}]:")
         lines.append(f"   Sensitive Points Analyzed      : {ef['num_sensitive_points']}")
         lines.append(f"   Recoil Velocity                : {ef['recoil_velocity_um_ps']} um/ps")
         lines.append(f"   Extracted Level Lifetime tau   : {ef['extracted_lifetime_ps']} +/- {ef['lifetime_uncertainty_ps']} ps")
@@ -205,7 +205,10 @@ def format_text_report(summary: Dict[str, Any]) -> str:
 
     if "electromagnetic" in summary:
         em = summary["electromagnetic"]
-        lines.append(" EXTRACTED TRANSITION STRENGTH & COLLECTIVE DEFORMATION:")
+        lines.append(
+            " DERIVED TRANSITION STRENGTH & COLLECTIVE DEFORMATION "
+            f"[{summary.get('data_kind', 'unspecified input')}]:"
+        )
         lines.append(f"   B(E2) Transition Probability   : {em['B_E2_e2_b2']} e^2 b^2 ({em['B_E2_Weisskopf_units']} W.u.)")
         lines.append(f"   Transition Quadrupole Moment Qt: {em['transition_quadrupole_moment_Qt_eb']} e*b")
         lines.append("-" * 72)
@@ -213,7 +216,11 @@ def format_text_report(summary: Dict[str, Any]) -> str:
     lines.append(" Physical Significance:")
     lines.append("   - RDDS/DDCM is an established method for picosecond lifetime studies under a specified input and response contract.")
     lines.append("   - DDCM uses shifted/stopped curve derivatives to reduce sensitivity to feeding delays; the residual systematics require source-specific checks.")
-    lines.append("   - Derived B(E2) can contribute to tests of triaxial wobbling and superdeformation when transition identity, feeding, response and covariance are closed.")
+    lines.append(
+        "   - Derived B(E2) can contribute to tests of triaxial wobbling and "
+        "superdeformation only when transition identity, feeding, response and "
+        "covariance are closed."
+    )
     lines.append("========================================================================")
     return "\n".join(lines)
 
@@ -233,7 +240,12 @@ def main():
     args = parser.parse_args()
 
     kin = calculate_flight_time_and_shifts(50.0, args.beta, args.E0)
-    summary = {"beta_v_over_c": args.beta, "kinematics": kin}
+    summary = {
+        "beta_v_over_c": args.beta,
+        "kinematics": kin,
+        "data_kind": "synthetic_demo" if (args.demo_fit or args.distances is None)
+        else "caller_supplied_summary",
+    }
 
     if args.demo_fit or (args.distances is None):
         # Synthetic plunger scan for tau ~ 15 ps with v = 0.015 c ~ 0.0045 um/ps

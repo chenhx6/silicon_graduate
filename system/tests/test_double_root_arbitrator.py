@@ -57,7 +57,7 @@ class TestDoubleRootArbitrator(unittest.TestCase):
             A_mass=p["A_mass"]
         )
         arb = res["arbitration"]
-        self.assertEqual(arb["status"], "resolved_by_3sigma_statistical_exclusion")
+        self.assertEqual(arb["status"], "declared_chi2_screening_favors_root")
         self.assertEqual(arb["favored_root"], 1)
         self.assertGreater(arb["delta_chi2"], 9.0)
         self.assertGreater(arb["exclusion_confidence_percent"], 99.7)

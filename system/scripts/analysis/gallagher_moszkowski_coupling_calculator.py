@@ -160,7 +160,11 @@ def format_text_report(summary: Dict[str, Any]) -> str:
 
     lines.append(" Physical Significance:")
     lines.append("   - Residual spin-spin force drives parallel intrinsic nucleon spins.")
-    lines.append("   - Establishes ground state spins of odd-odd deformed nuclei.")
+    lines.append(
+        "   - Provides a model-based ground-state-spin screening rule for "
+        "odd-odd deformed nuclei; measured level schemes and configuration "
+        "evidence remain necessary."
+    )
     lines.append("   - K=0 bands exhibit pronounced Newby odd-even energy staggering.")
     lines.append("========================================================================")
     return "\n".join(lines)

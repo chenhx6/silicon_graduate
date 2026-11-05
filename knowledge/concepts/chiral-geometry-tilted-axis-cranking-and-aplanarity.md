@@ -76,7 +76,9 @@ $$\mathcal{V}_{\text{chiral}} = \frac{|\mathbf{j}_p \cdot (\mathbf{R} \times \ma
 
 ### 手征双重带的实验排他性判据（Four-Point Criteria）
 
-为防止将普通的形状共存带或准粒子交叉带误报为手征带，Petrache 2024 与 Frauendorf 确立了刚性四道门准则：
+为减少把普通形状共存带或准粒子交叉带误报为手征带的风险，Petrache 2024
+与 Frauendorf 讨论了一个四类证据框架。它是条件性筛查清单，不是适用于
+所有核素的刚性充分条件：
 
 | 检验准则 | 手征双重带（Chiral Doublet）要求 | 竞争机制假象（Shape Coexistence / Crossing） |
 | :--- | :--- | :--- |

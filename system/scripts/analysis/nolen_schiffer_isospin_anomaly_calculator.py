@@ -159,7 +159,11 @@ def format_text_report(summary: Dict[str, Any]) -> str:
     lines.append(" Physical Significance:")
     lines.append("   - Classical Coulomb force systematically fails to explain mirror displacement.")
     lines.append("   - Requires fundamental Charge-Symmetry-Breaking (CSB) forces (rho0-omega mixing).")
-    lines.append("   - Proves that nuclear forces are not 100% charge-symmetric at the 1% scale.")
+    lines.append(
+        "   - Indicates charge-symmetry-breaking contributions are required "
+        "within the supplied mirror-energy decomposition; the size and mechanism "
+        "remain model dependent."
+    )
     lines.append("========================================================================")
     return "\n".join(lines)
 

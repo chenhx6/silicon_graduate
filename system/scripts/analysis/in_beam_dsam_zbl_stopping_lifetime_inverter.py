@@ -350,14 +350,23 @@ def format_text_report(output, title="In-Beam DSAM Lifetime & Transition Inversi
     lines.append(f"Recoil: {output['recoil_nucleus']} (A={output['Ar']}, Z={output['Zr']}) | Stopper: A={output['As']}, Z={output['Zs']}")
     lines.append(f"Initial Velocity: beta_0 = {output['beta_0']:.4f} (v_0/c) | Stopper Density: {output['stopper_density_g_cm3']:.2f} g/cm^3")
     lines.append("\n[1] Doppler Shift Attenuation Factor Inversion:")
-    lines.append(f"  Experimental F(tau):              {lt['F_experimental']:.3f} +/- {lt['F_uncertainty']:.3f}")
+    lines.append(
+        f"  Input F(tau) [{output['data_kind']}]:     "
+        f"{lt['F_experimental']:.3f} +/- {lt['F_uncertainty']:.3f}"
+    )
     lines.append(f"  Side-Feeding Cascade Delay:       tau_sf     = {lt['side_feeding_tau_ps']:.3f} ps")
     lines.append(f"  Uncorrected Prompt Lifetime:      tau_raw    = {lt['tau_raw_ps']:.3f} ps ({lt['tau_raw_ps']*1000.0:.1f} fs)")
-    lines.append(f"  Inverted Intrinsic Level Lifetime: tau_level  = {lt['tau_level_ps']:.3f} +/- {lt['sigma_tau_ps']:.3f} ps")
+    lines.append(
+        f"  Model-inverted Level Lifetime:      tau_level  = "
+        f"{lt['tau_level_ps']:.3f} +/- {lt['sigma_tau_ps']:.3f} ps"
+    )
     lines.append(f"                                              = {lt['tau_level_fs']:.1f} +/- {lt['sigma_tau_fs']:.1f} fs")
     lines.append("\n[2] Transition Probability & Deformation:")
     lines.append(f"  E_gamma:                          {tp['E_gamma_keV']:.1f} keV (I_i = {tp['spin_initial']:.1f} -> I_f = {tp['spin_initial']-2.0:.1f})")
-    lines.append(f"  B(E2; I -> I-2):                  {tp['B_E2_e2b2']:.4f} e^2 b^2 ({tp['B_E2_W_u']:.1f} W.u.)")
+    lines.append(
+        f"  Derived B(E2) [{output['data_kind']}]:       "
+        f"{tp['B_E2_e2b2']:.4f} e^2 b^2 ({tp['B_E2_W_u']:.1f} W.u.)"
+    )
     lines.append(f"  Intrinsic Quadrupole Moment Q_0:  {tp['intrinsic_quadrupole_moment_Q0_eb']:.2f} e*b")
     lines.append("-" * 78)
     lines.append("Methodology & Evidence Boundary:")

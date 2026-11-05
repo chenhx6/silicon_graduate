@@ -108,4 +108,8 @@ if __name__ == "__main__":
     print(f"    Coupling Matrix V_mix   : {mix['V_mix_keV']:.1f} keV")
     print(f"    Unperturbed Energy Gap  : {mix['unperturbed_gap_keV']:.1f} keV")
     print(f"    Extracted Shapes        : State 1 (beta = {mix['beta1']:.2f}) <-> State 2 (beta = {mix['beta2']:.2f})")
-    print(f"    Deformation Jump        : Delta(beta) = {mix['delta_beta']:+.2f} (Clear proof of shape coexistence!)")
+    print(
+        f"    Deformation Jump        : Delta(beta) = {mix['delta_beta']:+.2f} "
+        "(conditional two-state shape-mixing screening; not a standalone "
+        "shape-coexistence proof)"
+    )

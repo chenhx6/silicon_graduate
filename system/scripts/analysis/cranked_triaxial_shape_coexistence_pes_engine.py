@@ -256,7 +256,10 @@ def format_text_report(output, title="Cranked Triaxial Shape Coexistence PES Eng
     lines.append("=" * 78)
     lines.append(f"Nucleus: {output.get('nucleus', 'Generic')} | Model Type: 2D Phenomenological PES")
     cross_str = f"{output['critical_crossing_frequency_omega_cross_MeV']:.3f} MeV/hbar" if output['has_shape_transition'] else "None (Single Yrast Shape across range)"
-    lines.append(f"Shape Crossing Status:        {'Yrast Shape Transition DETECTED' if output['has_shape_transition'] else 'No Crossing in evaluated range'}")
+    lines.append(
+        "Shape Crossing Status:        "
+        f"{'Model crossing detected in the evaluated range' if output['has_shape_transition'] else 'No crossing in evaluated range'}"
+    )
     lines.append(f"Critical Crossing Frequency:  omega_cross = {cross_str}")
     lines.append("\n[1] Dynamic Evolution of Coexisting Minima vs. Cranking Frequency:")
     lines.append("  omega (MeV)   Min 1 (Triax/Prol)       Min 2 (Oblate)         Delta E (MeV)  Yrast State")
@@ -271,7 +274,11 @@ def format_text_report(output, title="Cranked Triaxial Shape Coexistence PES Eng
     lines.append("Methodology & Evidence Boundary:")
     lines.append("  Rotational Coriolis energy -0.5*J_x*omega^2 preferentially lowers the triaxial")
     lines.append("  minimum because intermediate-axis rotation has the maximal collective moment of inertia.")
-    lines.append("  This demonstrates the mechanism of spin-stabilized triaxiality (e.g. for wobbling/chirality).")
+    lines.append(
+        "  This illustrates a spin-dependent minimum crossing in the supplied "
+        "phenomenological PES; it does not demonstrate a nucleus-specific "
+        "spin-stabilized triaxiality mechanism."
+    )
     lines.append("==============================================================================")
     return "\n".join(lines)
 

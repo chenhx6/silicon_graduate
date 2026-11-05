@@ -18,7 +18,9 @@ import numpy as np
 def calculate_parity_splitting(pos_spins, pos_energies_keV, neg_spins, neg_energies_keV):
     """
     Calculate parity splitting displacement delta_E(I) = E(I-) - 0.5 * [E((I-1)+) + E((I+1)+)].
-    When delta_E(I) -> 0, reflection asymmetry is strongly established.
+    When delta_E(I) -> 0, the supplied parity sequence is compatible with a
+    reflection-asymmetric rotational interpretation; the limit alone does not
+    establish a static octupole shape.
     """
     p_spins = np.array(pos_spins, dtype=float)
     p_energies = np.array(pos_energies_keV, dtype=float)

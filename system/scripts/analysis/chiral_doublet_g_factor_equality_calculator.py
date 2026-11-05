@@ -18,12 +18,13 @@ Physics Formulation:
      |Band 2> = ( |L> - |R> ) / sqrt(2)
    Because the magnetic dipole operator mu_hat is T-odd, the cross-terms vanish identically:
      <Band 1 | mu | Band 1> = <Band 2 | mu | Band 2>
-   Theorem:
-     For a genuine chiral partner band, the gyromagnetic factors g(I) of the two bands
-     must be identical across the entire chiral spin window:
+   Idealized-model implication:
+     In the specified chiral limit, the gyromagnetic factors g(I) of the two bands
+     are equal across the modeled spin window:
        g(Band 1, I) == g(Band 2, I).
-   If g(Band 1) != g(Band 2) with statistical significance > 3-sigma, the candidate
-   bands CANNOT be chiral partners (e.g. they are shape-coexistence or signature partners).
+   A discrepancy larger than the declared threshold disfavors that equality model
+   for the supplied measurements. It is not a model-independent classification
+   of the bands.
 
 2. Microscopic g-Factor in 3D Aplanar Chiral Geometry:
    For odd-odd nuclei with valence proton j_p (short axis) and neutron hole j_n (long axis):
@@ -31,14 +32,17 @@ Physics Formulation:
    where core collective g-factor is g_R ~ Z / A.
 
 3. Statistical Arbitration & Hypothesis Testing:
-   Null Hypothesis H0: g_1 == g_2 (Chiral symmetry established).
+   Null Hypothesis H0: g_1 == g_2 (compatibility with the idealized equality model).
    Test statistic:
      Delta_g = |g_1 - g_2|
      sigma_Delta = sqrt( sigma_1^2 + sigma_2^2 )
      chi2_g = ( Delta_g / sigma_Delta )^2
      p-value = erfc( sqrt(chi2_g / 2.0) )
-   - chi2_g <= 1.0 (p >= 0.317): Conclusive chiral equality;
-   - chi2_g >= 9.0 (p <= 0.0027, > 3-sigma): Decisive rejection of chiral interpretation.
+   - chi2_g <= 1.0 (p >= 0.317): Compatible with the equality model under the
+     declared independent-error approximation;
+   - chi2_g >= 9.0 (p <= 0.0027, > 3-sigma): Equality model disfavored under
+     the declared independent-error approximation; this is not a decisive
+     model-independent rejection of chirality.
 """
 
 import sys
@@ -131,13 +135,13 @@ def arbitrate_chiral_gfactor_equality(g1, sigma1, g2, sigma2):
     sigma_discrepancy = delta_g / sigma_delta
 
     if chi2_val <= 1.0:
-        status = "chiral-equality-compatible"
-        verdict = f"Compatible with the idealized equality model: Delta_g = {delta_g:.3f} +- {sigma_delta:.3f} (chi2 = {chi2_val:.2f}, {sigma_discrepancy:.1f}-sigma, p = {p_val:.3f})."
+        status = "conditional-equality-compatible"
+        verdict = f"Compatible with the idealized equality model under the declared independent-error approximation: Delta_g = {delta_g:.3f} +- {sigma_delta:.3f} (chi2 = {chi2_val:.2f}, {sigma_discrepancy:.1f}-sigma, p = {p_val:.3f})."
     elif chi2_val <= 4.0:
-        status = "chiral_compatible_2sigma"
+        status = "conditional-equality-compatible-2sigma"
         verdict = f"Compatible within 2-sigma: Delta_g = {delta_g:.3f} +- {sigma_delta:.3f} (chi2 = {chi2_val:.2f}, {sigma_discrepancy:.1f}-sigma)."
     elif chi2_val >= 9.0:
-        status = "chiral-equality-model-disfavored"
+        status = "conditional-equality-model-disfavored"
         verdict = f"Strong discrepancy from the idealized equality model: Delta_g = {delta_g:.3f} +- {sigma_delta:.3f} (chi2 = {chi2_val:.2f}, {sigma_discrepancy:.1f}-sigma, p = {p_val:.4e}). Full band classification still requires independent electromagnetic and response evidence."
     else:
         status = "marginal_discrepancy"

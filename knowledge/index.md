@@ -2,7 +2,7 @@
 type: system-index
 graph-excluded: true
 created: 2026-07-01
-updated: 2026-11-01
+updated: 2026-11-05
 ---
 
 # Wiki Index
@@ -11,6 +11,7 @@ updated: 2026-11-01
 
 - [[epja-submission-guidelines-20261105]] — EPJ A 投稿页与 Springer Nature LaTeX 支持页的归档核查；仅用于格式、声明、数据/代码可用性和模板 provenance，不是科学证据。
 - [[pado-ionescu-control-feasibility-20261105]] — Ionescu 1981 feeding-aware angular-distribution public-control feasibility audit；作为方法先例和停止边界使用，不与 \(^{67}\)Ga common-\(\rho\) sample 合并。
+- [[full-library-residual-state-audit-20261105]] — 全库残余模型状态、A≈130 候选创新和 P-ADO/133Ce readiness 审计；区分 screening、model result、实验事实与 paper evidence gate。
 
 ## 核心专著深度吸收与核结构专家级综合资产 (2026-11-02)
 

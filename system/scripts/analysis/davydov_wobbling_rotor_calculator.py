@@ -307,7 +307,7 @@ def check_greiner_sum_rule(E2_1_keV: float, E2_2_keV: float, E3_1_keV: float) ->
     residual_keV = abs(predicted_E3_1 - E3_1_keV)
     rel_discrepancy_pct = (residual_keV / E3_1_keV) * 100.0 if E3_1_keV > 0 else 0.0
 
-    verdict = "RIGID_ASYMMETRIC_ROTOR_CONFIRMED" if rel_discrepancy_pct <= 3.0 else (
+    verdict = "RIGID_ASYMMETRIC_ROTOR_SCREENING_PASS" if rel_discrepancy_pct <= 3.0 else (
         "MODERATE_TRIAXIAL_DEVIATION" if rel_discrepancy_pct <= 10.0 else "GAMMA_SOFT_OR_NON_ROTOR"
     )
 

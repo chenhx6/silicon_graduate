@@ -304,10 +304,10 @@ For each pair, preserve the sequence:
 > checkpoint088审计状态：本节旧“核准/定理/全绿”是待复核草稿；脚本算术通过不认证原文支持或实验结论。已指出的错误按本页checkpoint088修订，未逐条核者不得引用为已验证结果。
 
 
-依据独立审计程序 `system/scripts/day19_chiral_selection_rule_a_audit.py` 的 79 项检验与基准输出 `outputs/learning-daily/20261021-DAY19-rdds-fast-timing-time-response-run-01/chiral-selection-rule-a-result-038.json`，核准了 $\mathcal{A}$ 量子数选择定则的代数构造并彻底消解了文献转述冲突：
-1. **M1 跃迁方向代数确证与转述冲突消解**：通过回转磁比（$g_l - g_R = \pm 0.5$, $g_s^{\text{eff}} - g_R = 2.848 \text{ vs } -2.792$）严格复算质子中子对易算符的对称/反对称分量，证明异 $\mathcal{A}$ 态跃迁对应反对称自旋项（矩阵元 $5.640$），同 $\mathcal{A}$ 态跃迁对应对称自旋项（矩阵元仅 $0.056$，轨道部分严格为零）；由此计算出单粒子有效 $B(M1; \Delta \mathcal{A} \neq 0) / B(M1; \Delta \mathcal{A} = 0) > 1000$（自旋比达 $10143$），以不可辩驳的数值代数证实 Koike 2004 与 Hamamoto 2011 原文“异 $\mathcal{A}$ 跃迁强、同 $\mathcal{A}$ 跃迁弱”的结论完全正确，判定 Wang 2005 博士论文关于“同 A 态强、异 A 态禁止”的转述为源级笔误反转，消除了该方向的长期文献张力；
-2. **带内带间 M1 奇偶交错严格反相定理**：证明在手征双重带中，由于能级沿自旋呈周期为 4 的 $\mathcal{A}$ 序列排布，带内 $\Delta I = 1$ 与带间 $\Delta I = 1$ 的选择定则必然在自旋上呈现严格互补反相：当某自旋处的带内 $M1$ 为强跃迁（$\Delta \mathcal{A} \neq 0$）时，其对应的带间 $M1$ 必然为弱跃迁（$\Delta \mathcal{A} = 0$）；反之亦然。这给出了手征双重带电磁指纹的一维解析根源；
-3. **几何与代数失配失效模式**：严格强调该定则在共面几何下依然守恒，因而相符仅为手征的必要条件而非充分证据；而在 $^{134}\text{Pr}$ 中，因三轴偏角 $\gamma \sim 16^\circ\text{--}20^\circ$ 严重脱离 $\gamma = 90^\circ$ 假定，致使核芯 $E2$ 算符 $\Delta R_3 = 0$ 分量被强烈激活，导致带内 $B(E2)$ 出现 2 倍以上的不对称性并彻底破坏了选择定则。"
+依据独立审计程序 `system/scripts/day19_chiral_selection_rule_a_audit.py` 的 79 项检验与基准输出，本节记录的是**特定 Hamiltonian、组态、算符和输入下的代数控制**，不是实验模式确认：
+1. **M1 跃迁方向代数控制**：在声明的回转磁比和单粒子输入下，异 $\mathcal{A}$ 与同 $\mathcal{A}$ 分量给出不同的矩阵元和强度比；这核对了特定模型的选择规则实现，不能直接替代完整核磁矩或实测跃迁强度。
+2. **带内/带间 M1 交错的条件关系**：在指定的能级排序和 $\mathcal{A}$ 映射下可以得到互补交错；该关系是模型内必要条件之一，不能单独证明手征几何。
+3. **几何与代数失配控制**：把模型从 $\gamma=90^\circ$ 理想极限移开会改变核芯 $E2$ 算符和强度模式；$^{134}\text{Pr}$ 的数值例是条件敏感性检查，不是对真实核几何或选择定则失效的直接测量。
 
 
 ## Day19量化审计：磁转动剪刀机制、反磁转动与手征对称性四路全景判决图谱
@@ -319,7 +319,7 @@ For each pair, preserve the sequence:
 
 | ID | 陈述 | claim_kind | evidence_level | locator | needs_review |
 | --- | --- | --- | --- | --- | --- |
-| CWC-D19-1 | 综合 A≈130 区域高自旋多极跃迁率，确立磁转动（MR）、反磁转动（AMR）、手征转动（Chirality）与常规转动的四路排他性判决矩阵：(1) 磁转动：单副剪刀闭合驱动 $B(M1) \propto \sin^2	heta_s$ 单调衰减 $75\%	ext{--}90\%$（$^{108}	ext{In}$ 暴跌 $4.00$ 倍），$B(E2) \lesssim 0.1\ e^2	ext{b}^2$ 且 $\mathcal{J}^{(2)}/B(E2) > 100$；(2) 反磁转动：双剪刀对称闭合驱动 $B(M1) \equiv 0$，$B(E2) \propto \sin^4	heta_s$ 断崖跌落（$^{106}	ext{Cd}$ 暴跌 $95.6\%$），$\mathcal{J}^{(2)}/B(E2)$ 剧烈发散至 $>1000\ \hbar^2	ext{MeV}^{-1}(e^2	ext{b}^2)^{-1}$；(3) 手征转动：三轴角动量非共面对齐驱动双重带 $B(E2)$ 高度对称（$^{128}	ext{Cs}$ 比值 $1.044$）且不随自旋衰减，带内与带间 $B(M1)$ 呈现严格 $180^\circ$ 反相交错；(4) 带交叉剪刀重开：$^{137}	ext{Pr}$ 中 $B(M1)/B(E2)$ 发生 $3.61$ 倍突降（$z = 3.64\sigma$），对应破对准粒子注入使剪刀叶片重新张开；(5) 伪手征证伪：$^{106}	ext{Ag}$ 表观简并双带因缺乏反相交错且双交叉比值偏离 $7.29$ 倍被彻底证伪为不同准粒子组态能带。 | quantitative-synthesis-and-criterion | derived-and-source-boundary | mr-chiral-amr-discrimination-result-080.json | true |
+| CWC-D19-1 | 该历史工件把 MR、AMR、手征和常规转动的若干模型量放在同一比较表中；表中阈值、比值和 `z` 值都是派生/条件结果，不能升级为四路排他性判决或跨核统一门槛。 | quantitative-synthesis-and-criterion | derived-and-source-boundary | mr-chiral-amr-discrimination-result-080.json | true |
 
 
 ## checkpoint104：时间测量技术对集体模式判别的排他性约束

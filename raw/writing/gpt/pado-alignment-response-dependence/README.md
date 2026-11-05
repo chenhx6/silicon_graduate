@@ -1,4 +1,4 @@
-# A coverage-calibrated audit of alignment transfer in oriented-state gamma-ray angular distributions
+# A contract-conditional audit of alignment transfer in oriented-state gamma-ray angular distributions
 
 This is the primary article work package selected on 2026-11-05.
 
@@ -16,7 +16,7 @@ theory, an event-level reanalysis, or a universal P-ADO rejection.
 
 ## Directory
 
-- `data/`: publication-authorized base table and provenance;
+- `data/`: normalized benchmark table and provenance; redistribution status remains pending author/license review;
 - `analysis/`: model fits, covariance scans, fixed-\(\rho\) sensitivity toys,
   profile-preserving pseudo-experiment calibration, response-map validation and
   leave-one-row-out influence checks;

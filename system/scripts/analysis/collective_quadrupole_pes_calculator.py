@@ -161,11 +161,11 @@ def scan_potential_energy_surface(
     rigidity_ratio = barrier_gamma / E_0_gamma if E_0_gamma > 0 else 0.0
 
     if rigidity_ratio < 0.8:
-        softness_verdict = "Gamma-Soft (Wilets-Jean / O(6) type; quantum wave function spreads in gamma)"
+        softness_verdict = "Gamma-Soft screening branch under the supplied PES and mass parameter"
     elif rigidity_ratio <= 2.0:
-        softness_verdict = "Transitional Gamma-Soft (Moderate barrier, mixed vibrator-rotor)"
+        softness_verdict = "Transitional Gamma-Soft screening branch under the supplied PES"
     else:
-        softness_verdict = "Rigid Triaxial (Stable triaxial minimum, Davydov-Filippov / Wobbling valid)"
+        softness_verdict = "Rigid-triaxial screening branch under the supplied PES; wobbling validity is not established"
 
     return {
         "equilibrium_beta_0": round(opt_beta, 3),
@@ -211,9 +211,16 @@ def format_text_report(summary: Dict[str, Any]) -> str:
     lines.append(f"   Verdict                            : {summary['softness_verdict']}")
     lines.append("-" * 72)
     lines.append(" Physical Significance:")
-    lines.append("   - Solves the longstanding A ~ 130 gamma-rigid vs gamma-soft controversy.")
+    lines.append(
+        "   - Provides a parameterized PES comparison for gamma-soft versus "
+        "rigid-triaxial behavior; it does not solve the A~130 experimental "
+        "controversy without nucleus-specific data and covariance."
+    )
     lines.append("   - If Rigidity Ratio < 1.0, zero-point motion washes out triaxiality.")
-    lines.append("   - Only when Rigidity Ratio > 2.0 can wobbling motion be cleanly isolated.")
+    lines.append(
+        "   - A rigidity ratio above 2.0 is only a model-screening condition; "
+        "wobbling isolation still requires transition-level evidence."
+    )
     lines.append("========================================================================")
     return "\n".join(lines)
 

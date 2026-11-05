@@ -50,8 +50,11 @@ For electric quadrupole ($E2$) transitions from states $I_\gamma$ in the $\gamma
    In well-deformed rare earths, $R_{\text{exp}} \approx 0.50 - 0.55$, demonstrating a systematic $20\% - 30\%$ reduction below the Alaga value $0.700$, yielding $z_\gamma \approx 0.02 - 0.04$.
 2. **Enhancement of the $4_g / 2_g$ Ratio**:
    The transition to $4_g^+$ has $I_g(I_g+1) - I_\gamma(I_\gamma+1) = +14$, predicting an enhancement by $(1 + 14 z_\gamma)^2 \approx 1.6 - 2.0\times$ above the Alaga value $0.050$.
-3. **Onset of $\gamma$-Softness / Triaxiality**:
-   When $z_\gamma > 0.060$ and $h_2 > 10\text{ keV}$, the adiabatic rotor model breaks down, signaling strong $\gamma$-softness or rigid triaxiality.
+3. **Model-screening branch**:
+   When $z_\gamma > 0.060$ and $h_2 > 10\text{ keV}$, the first-order
+   adiabatic rotor expansion indicates stronger band mixing under its stated
+   assumptions. The same ratio can also reflect a rigid-triaxial rotor,
+   configuration mixing, or branching/normalization effects.
 
 ## Supporting Evidence
 
@@ -64,7 +67,9 @@ For electric quadrupole ($E2$) transitions from states $I_\gamma$ in the $\gamma
 2. **$^{130}\text{Ba}$ Transitional $\gamma$-Soft Benchmark**:
    - $E(2_\gamma^+) = 908.1\text{ keV}, E(2_g^+) = 357.4\text{ keV}$;
    - Experimental ratio: $R_{\text{exp}} = 0.320$ ($-54.29\%$ Alaga deviation);
-   - Inverted parameter: $z_\gamma = 0.05398$, $h_2 = 12.14\text{ keV}$, directly quantifying the $\gamma$-softness of the $A \sim 130$ core.
+   - Inverted parameter: $z_\gamma = 0.05398$, $h_2 = 12.14\text{ keV}$; this
+     is a conditional band-mixing estimate, not a direct measurement of the
+     $\gamma$-softness of the $A \sim 130$ core.
 
 ## Counter-evidence and Competing Interpretations
 
@@ -75,7 +80,12 @@ For electric quadrupole ($E2$) transitions from states $I_\gamma$ in the $\gamma
 
 ## Our Current Position
 
-In this wiki, $\gamma$-vibrational band mixing, Mikhailov $z_\gamma$ parameters, and Alaga branching rule deviations are calculated using Module 112 (`gamma_band_mixing_z_gamma_alaga_inverter.py`, CLI subcommand `zgamma`). The module inverts $z_\gamma$ and the coupling matrix element $h_2$ from experimental $\gamma$-to-ground branching ratios, diagnosing the transition from rigid axial rotors to $\gamma$-soft/triaxial cores.
+In this wiki, $\gamma$-vibrational band mixing, Mikhailov $z_\gamma$
+parameters, and Alaga branching-rule deviations are calculated using Module
+112 (`gamma_band_mixing_z_gamma_alaga_inverter.py`, CLI subcommand `zgamma`).
+The module inverts $z_\gamma$ and the coupling matrix element $h_2$ from
+supplied branching ratios under a first-order pure-E2 contract; the output is a
+conditional band-mixing diagnostic rather than a unique core-shape assignment.
 
 ## Sources
 

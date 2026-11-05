@@ -18,6 +18,7 @@ import sys
 from pathlib import Path
 
 import numpy as np
+import scipy
 
 from coverage_check import max_d2
 from profile_alignment_models import alpha_prediction, covariance, read_rows
@@ -148,6 +149,7 @@ def main() -> None:
             "python": sys.version.split()[0],
             "platform": platform.platform(),
             "numpy": np.__version__,
+            "scipy": scipy.__version__,
         },
         "interpretation_boundary": [
             "Every toy repeats the same common-rho profile and maximum-row operation used for the observed statistic.",
