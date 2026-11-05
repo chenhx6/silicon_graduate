@@ -6057,3 +6057,7 @@ raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，�
 - Acquired the two-page DAE68 129Ba TPSM precedent (PDF volume year2024; INSPIRE publication2025). The 1991 IBFM paper remains metadata-only after403/401 responses. Reusable conclusions were written to knowledge sources, model and research-note pages.
 - Rebuilt and visually inspected the five-page angular draft, which remains exploratory/not-ready. Lint errors0; primary/precedent archive gates, boundary, preflight, angular validation and release hashes passed.
 - Publication scope is this task's explicit file list. PLAN and installation/session work are preserved. Full A130 research goal remains active; this checkpoint is not a completed paper or a claim of exhaustive reading.
+
+### Post-commit reconciliation — Ba129 observable checkpoint
+
+`main / research: test Ba129 energy-calibrated observables` was pushed with non-force `HEAD:main`; the 98-file commit exactly matched the scoped inventory. HEAD matched origin/main after push. Existing PLAN changes remain untouched. Exact research hash and verification pointers are in the task publication receipt; full research goal remains active.

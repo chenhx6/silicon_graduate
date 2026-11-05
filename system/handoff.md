@@ -5,6 +5,8 @@ updated: 2026-11-05
 
 ## Active continuation — 2026-11-05：129Ba 原件与多观测量预测
 
+- **Published checkpoint**：`main / research: test Ba129 energy-calibrated observables`已通过精确refspec非force发布；98个提交文件与清单相符，推送后HEAD与origin/main一致，仅保留既有PLAN修改。精确hash在`outputs/l4/20261105-ba129-model-readiness/publication-receipt.json`。后续交接修订指针为`main / docs: reconcile Ba129 observable checkpoint`。
+
 - **Goal active**：全库审计/学习、A≈130创新调查及可发表单点文章仍是完整目标，尚未完成。不能以可编译稿件或结构检查替代科学闭环。
 - **Belief revision**：此前把129Ba rank4关系称为新方法、最强论文路线过早。Diamond1966 p.1206已给同母态纯跃迁标定思想；−8/3是标准形式主义的具体化。该候选改为exploratory/not-ready。
 - **New primary**：取得Gizon1977完整13页、Bucurescu1998完整18页、Byrne1992完整28页PDF并核读关键表/模型/实验方法，归档`raw/papers/gpt/query/20261105-ba129-model-readiness/manifest.json`。Gizon Table1扫描核验完成；1978误差修订与Stuch2000原寿命文仍未闭合。Meyer-ter-Vehn两原件按既有哈希由tmp恢复raw，未覆盖已有文件。

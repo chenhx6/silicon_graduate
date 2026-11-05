@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T12:57:06.756390+00:00",
-  "status": "validated-research-checkpoint-publication-pending",
+  "updated_at": "2026-11-05T13:06:00.733464+00:00",
+  "status": "published-research-checkpoint",
   "goal_status": "active",
   "previous_goal_turn": "progress",
   "protected_unrelated_change": "PLAN.md retained; get-paper untouched",
@@ -31,11 +31,12 @@
   },
   "frozen_em_protocol": "em-branch-test-contract.json: one153.8/518.6yrast ratio calibrates common eta;5other ratios held out; no use of model-derived published B ratios",
   "remaining": [
-    "Complete scoped publication/reconciliation",
     "Assess full Nambu branch tracking and physically constrained fields/core/occupancy",
     "Study energy-near-equivalent parameter-domain predictions under declared operators",
     "Continue A130 innovation investigation; manuscript remains exploratory/not-ready"
   ],
   "predictions": "observables-v1/observable-predictions.json:7 energy starts /14 parameter sets /84 photon ratios; one fixed scale anchor and5 withheld branches; all outputs retained.",
-  "approximation_boundary": "Best C120 I=11/2 discarded Nambu block norm1.095091MeV; not an eigenvalue correction or error bar."
+  "approximation_boundary": "Best C120 I=11/2 discarded Nambu block norm1.095091MeV; not an eigenvalue correction or error bar.",
+  "publication_receipt": "publication-receipt.json",
+  "stable_pointer": "main / research: test Ba129 energy-calibrated observables"
 }

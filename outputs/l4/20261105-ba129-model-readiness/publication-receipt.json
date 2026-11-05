@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-11-05T13:06:00.733464+00:00",
+  "status": "research-checkpoint-published",
+  "goal_status": "active",
+  "research_commit": "8c9ad67e741ad85391b0d0bdb2cede17dde21d93",
+  "research_subject": "research: test Ba129 energy-calibrated observables",
+  "branch": "main",
+  "remote": "origin",
+  "refspec": "HEAD:main",
+  "force": false,
+  "dry_run_passed": true,
+  "push_passed": true,
+  "head_equal_origin_main_after_research_push": true,
+  "committed_file_inventory_matched": true,
+  "research_file_count": 98,
+  "preserved_existing_worktree_changes": [
+    "PLAN.md"
+  ],
+  "publisher_originals_and_installation_content_excluded": true,
+  "scientific_status": "exploratory-not-ready; omitted-coupling and fixed-operator assumptions remain open",
+  "reconciliation_pointer": "main / docs: reconcile Ba129 observable checkpoint"
+}
