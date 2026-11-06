@@ -1,0 +1,185 @@
+\section{Rigid-charge particle--rotor control}\label{app:rigid}
+
+Using standard particle--rotor kinematics \cite{BohrMottelson1975},
+we assemble the unpaired Hamiltonian directly:
+\begin{align}
+H(C)&=\sum_{k=1}^3 A_k R_k^2+C\,1\otimes Q_j(\gamma),\\
+R_k&=I_{k,\mathrm{right}}\otimes1-1\otimes j_k,\nonumber\\
+A_k&=\frac{\hbar^2}{2\mathcal J_k},\quad
+\mathcal J_k=\frac43\mathcal J_0\sin^2(\gamma-2\pi k/3).
+\end{align}
+\begin{equation}
+\begin{aligned}
+Q_j(\gamma)={}&\frac{\cos\gamma}{4j(j+1)}[3j_z^2-j(j+1)1]\\
+&+\frac{\sqrt3\sin\gamma}{4j(j+1)}(j_x^2-j_y^2).
+\end{aligned}
+\end{equation}
+The angular momentum components are dimensionless, in units of $\hbar$;
+$\mathcal J_0=30\,\hbar^2/{\rm MeV}$, $j=11/2$ and
+$\gamma=20^\circ$. The unsorted principal inertias are
+38.79385, 16.52704 and $4.67911\,\hbar^2/{\rm MeV}$.
+The field $Q_j$ is dimensionless; its normalization defines $C$ and
+is distinct from the core-only electric tensor.
+There is no pairing projection or zero-gap approximation.
+
+The right-body representation is
+$I_{\rm right}=(J_x,-J_y,J_z)$, with
+$[I_1,I_2]=-iI_3$; the particle matrices have ordinary commutators.
+The full physical $D_2$ subspace is retained at each
+$I=1/2,\ldots,15/2$. These 216 multiplets exhaust all required
+$7/2$--$15/2$ intermediate states for initial $I=11/2$ quadratic
+and cubic closure. They are not a globally complete infinite-rotor space:
+for an initial $I=15/2$, additional $17/2$ and $19/2$ channels would be required.
+
+Equation~(\ref{eq:rigididentity}) follows from rotation invariance of
+the intrinsic tensor polynomials. Equivalently, its real traceless
+Cartesian tensor has
+$\operatorname{tr}A^2=1$ and
+$\sqrt6\,\operatorname{tr}A^3=\cos3\gamma$ for $\mathcal Q=1$.
+The numerical contractions equal these constants times the identity
+on the 36-dimensional initial-$I=11/2,M=1/2$ coordinate space.
+Independent Euler-angle integration agrees with the product-basis
+matrix elements within $2.8\times10^{-14}$.
+The independent $D_2$ group projector, tensor covariance and Hermiticity
+are checked as well.
+
+At $C=0$, the exact $R_{\rm core}=0$ spectator has zero rotational
+energy and static moment. Its spin fractions equal
+$(2I_f+1)/[5(2j+1)]$. The two core-$R=2$ energies, 0.126795 and
+0.473205 MeV, are recovered independently from a five-dimensional
+integer-spin rotor. A deliberately incorrect body-axis sign violates
+the zero-energy spectator condition, and omission of the $15/2$
+outer sector loses $4/15$ of the initial quadratic closure.
+These checks test different parts of the construction without fitting
+the selected ratio.
+
+For a fixed axial $K=J$ rotor with intrinsic tensor amplitude
+$\mathcal Q=T_{20}^{\rm body}$, the complete moments are
+$q_2=\mathcal Q^2$ and $q_3=\mathcal Q^3$.
+The conventional electric intrinsic quadrupole moment instead satisfies
+$\mathcal Q=\sqrt{5/(16\pi)}Q_0$.
+This control illustrates the regime dependence of Eq.~(\ref{eq:proxy}):
+at $J=11/2$ it gives $10.193^\circ$ despite axial input.
+These controls validate the definitions and implementation; they are not new
+shape theorems or empirical uncertainty estimates.
+
+\section{Conditional charge calibrations}\label{app:calibrated}
+
+For each distinct central $^{136}$Ba $2_1^+$ moment target, the
+boson charge is kept positive and recalibrated to the common
+$B_\uparrow=0.407\,e^2{\rm b}^2$. Its moment determines $\chi'$,
+and $Q_s(^{137}{\rm Ba})=0.78\,e\,{\rm b}$ then determines $e_F$.
+All finite sign-consistent roots are retained; the $^{135}$Ba
+moment is not used. Its boson charge matches the unchanged
+$^{134}$Ba core strength.
+
+\begin{table}[t]
+\caption{All conditional moment-calibration branches at fixed
+Hamiltonians. $t_{136}$, $e_F$ and $Q_s(135)$ are in $e\,{\rm b}$.
+Ratios refer to the lowest $^{135}$Ba $11/2^-$ state.
+Both $|r|>1$ and $z_\infty>1$ imply an undefined real angle.}
+\label{tab:calibrated}
+\centering
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{rrrrrr}
+\toprule
+$t_{136}$ & $\chi'$ & $e_F$ & $Q_s(135)$ & $r$ & $z_\infty$\\
+\midrule
+$-0.19$ & 0.982 & 0.199 & 1.089 & $-0.642$ & 1.030\\
+$+0.01$ & 1.959 & 0.311 & 0.923 & $-1.093$ & 0.850\\
+$+0.02$ & 2.004 & 0.317 & 0.915 & $-1.096$ & 0.840\\
+$+0.07$ & 2.222 & 0.344 & 0.873 & $-1.092$ & 0.792\\
+$+0.25$ & 2.943 & 0.445 & 0.723 & $-0.920$ & 0.640\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The independent E2 parameter $\chi'$ is not restricted here by a
+customary interval for the Hamiltonian parameter $\chi$.
+These are central-value comparisons at a common averaged core
+strength: moment and strength branches may covary, and the 135/137Ba
+moment evaluations share source lineage. No joint confidence region
+or preference for a branch is inferred.
+
+A marginal domain crossing illustrates the separate role of
+state-count truncation. For $^{137}$Ba with the
+$+0.01\,e\,{\rm b}$ core target, $z_5=1.00027$ but
+$z_\infty=0.99484$, so completing that spin channel restores its
+real selected angle. The complete ratio remains $r=-1.08957$.
+This differs from the primary $^{135}$Ba crossing that persists
+after within-spin completion.
+
+\section{Isomer units, mappings and decay completeness}\label{app:isomer}
+
+The experimental parent and daughter are the tentative $(19/2^-)$
+2349.9-keV and $(15/2^-)$ 2229.8-keV levels, respectively.
+Their common anchor is the 661.7-keV $11/2^-$ isomer.
+For every open model branch, the photon rate used is
+\begin{equation}
+\lambda_{\gamma,f}(E2)=1.2239\times10^{13}
+ E_{if}^{5}B(E2;i\to f),
+\end{equation}
+with energy, strength and rate units MeV, $e^2{\rm b}^2$ and s$^{-1}$.
+No unobserved modeled daughter is treated as an experimentally excluded level.
+
+The ordinary downward Weisskopf reference is
+\begin{equation}
+B_{\rm W}(E2)=\frac1{4\pi}\left(\frac35\right)^2
+(1.2A^{1/3})^4\,e^2{\rm fm}^4.
+\end{equation}
+For $A=137$, it equals $0.00419544833\,e^2{\rm b}^2$.
+Thus the reported $0.46(3)$ W.u.\ corresponds to
+$(1.930\pm0.126)\times10^{-3}\,e^2{\rm b}^2$,
+with only the source's quoted margin converted.
+Our downward strength is
+$|R_{15/2,19/2}|^2/20$, while the reverse strength is larger
+by $20/16$. This is different from the $16/12$ factor in
+Eq.~(\ref{eq:staticratio}) and the factor five for a $0\leftrightarrow2$
+core transition.
+
+\begin{table}[t]
+\caption{All four predeclared state pairs for the primary $^{137}$Ba
+operator. Relative energies use the lowest model $11/2$ state as
+zero. The experimental candidate energies on the same reference
+are 1688.2 and 1568.1 keV, respectively. Model-state ordinals
+do not establish experimental identities.}\label{tab:isomerpairs}
+\centering
+\begin{tabular}{crrr}
+\toprule
+$19/2_i\to15/2_f$ & $E_i$ (keV) & $E_f$ (keV) & $B_\downarrow$ (W.u.)\\
+\midrule
+$1\to1$ &2142.484&968.874&22.46885\\
+$1\to2$ &2142.484&2094.159&2.17762\\
+$2\to1$ &3648.848&968.874&0.05585\\
+$2\to2$ &3648.848&2094.159&13.14225\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All seven operators---the primary, core-only and five conditional
+calibrations---were evaluated for every pair.
+The energy-distance mapping was fixed before the E2 evaluation.
+The nearest of the four pairs is $19/2_1\to15/2_2$, whose parent
+and daughter residuals are still +454 and +526 keV. This minimum
+distance is not a certified physical correspondence or a statistical
+chi-square fit.
+The all-open-width test was defined afterward as a separate
+follow-up, without refitting either Hamiltonian or operator.
+The full package retains 28 strengths, 14 parent/operator sums and
+84 open E2 branches.
+
+For the primary operator, the two parent half-life upper bounds
+are $2.69817\times10^{-4}$ and $6.02153\times10^{-5}$ ns.
+With the conditional $t_{136}=+0.07\,e\,{\rm b}$ operator,
+the alternative $1\to2$ strength is 0.42002 W.u.,
+outside the quoted interval $[0.43,0.49]$ W.u.
+Its modeled photon energy is only 48.325 keV.
+The competing $1\to1$ branch has 21.86655 W.u. and accounts for
+99.9981\% of that model's E2 photon rate. These are model rate fractions,
+not measured total branching probabilities.
+
+No experimental photon energy is substituted into a different
+model branch. Missing conversion and non-E2 rates are not assumed
+zero to claim a complete lifetime prediction. Their nonnegativity
+gives the conditional upper bound in Eq.~(\ref{eq:isomerbound});
+it cannot compensate for the fast E2 routes of the unchanged model scheme.

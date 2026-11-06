@@ -1,0 +1,14 @@
+primary 1 half_life_upper_ns 0.0002698172157697463 obs_over_bound 2182959.298277818 dominant_J 15/2 rank 1
+primary 2 half_life_upper_ns 6.0215279728231984e-05 obs_over_bound 9781570.436246714 dominant_J 15/2 rank 2
+core_only_control 1 half_life_upper_ns 0.00027222091995339286 obs_over_bound 2163683.8201150857 dominant_J 15/2 rank 1
+core_only_control 2 half_life_upper_ns 6.045383484377212e-05 obs_over_bound 9742971.666266065 dominant_J 15/2 rank 2
+Q136_minus_019_splus 1 half_life_upper_ns 0.0002719025862291847 obs_over_bound 2166216.9829585077 dominant_J 15/2 rank 1
+Q136_minus_019_splus 2 half_life_upper_ns 7.037604884394556e-05 obs_over_bound 8369324.644895457 dominant_J 15/2 rank 2
+Q136_plus_007_splus 1 half_life_upper_ns 0.0002772638355740477 obs_over_bound 2124330.41900518 dominant_J 15/2 rank 1
+Q136_plus_007_splus 2 half_life_upper_ns 9.240527937239513e-05 obs_over_bound 6374094.683771457 dominant_J 15/2 rank 2
+Q136_plus_001_splus 1 half_life_upper_ns 0.0002760166956609773 obs_over_bound 2133928.886401315 dominant_J 15/2 rank 1
+Q136_plus_001_splus 2 half_life_upper_ns 8.818341041658858e-05 obs_over_bound 6679260.840757873 dominant_J 15/2 rank 2
+Q136_plus_025_splus 1 half_life_upper_ns 0.0002810411363297495 obs_over_bound 2095778.6027057548 dominant_J 15/2 rank 1
+Q136_plus_025_splus 2 half_life_upper_ns 9.787998097124955e-05 obs_over_bound 6017573.707671725 dominant_J 15/2 rank 2
+Q136_plus_002_splus 1 half_life_upper_ns 0.0002762241378207425 obs_over_bound 2132326.3225541697 dominant_J 15/2 rank 1
+Q136_plus_002_splus 2 half_life_upper_ns 8.894687577291946e-05 obs_over_bound 6621930.167662228 dominant_J 15/2 rank 2

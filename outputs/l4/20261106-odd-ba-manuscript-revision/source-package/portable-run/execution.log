@@ -1,0 +1,62 @@
+135 7/2- source 918 kernel 919.361798 delta +1.361798
+135 9/2- source 448 kernel 449.895699 delta +1.895699
+135 11/2- source 0 kernel 0.000000 delta +0.000000
+135 13/2- source 404 kernel 404.585404 delta +0.585404
+135 15/2- source 691 kernel 691.863295 delta +0.863295
+135 17/2- source 1180 kernel 1181.063643 delta +1.063643
+137 7/2- source 1122 kernel 1125.043145 delta +3.043145
+137 9/2- source 414 kernel 417.128165 delta +3.128165
+137 11/2- source 0 kernel 0.000000 delta +0.000000
+137 13/2- source 607 kernel 606.856444 delta -0.143556
+137 15/2- source 968 kernel 968.873920 delta +0.873920
+137 17/2- source 1880 kernel 1880.069173 delta +0.069173
+[
+  {
+    "odd_A": 135,
+    "nonreference_point_count": 5,
+    "RMS_kernel_minus_source_keV": 1.2383440209278411,
+    "max_abs_kernel_minus_source_keV": 1.8956985132309683,
+    "inside_nearest_rounding_sensitivity_count": 0,
+    "inside_one_grid_sensitivity_count": 2,
+    "source_sorted_shown_two_J": [
+      11,
+      13,
+      9,
+      15,
+      7,
+      17
+    ],
+    "kernel_sorted_shown_two_J": [
+      11,
+      13,
+      9,
+      15,
+      7,
+      17
+    ]
+  },
+  {
+    "odd_A": 137,
+    "nonreference_point_count": 5,
+    "RMS_kernel_minus_source_keV": 1.9917467771457564,
+    "max_abs_kernel_minus_source_keV": 3.1281649153208946,
+    "inside_nearest_rounding_sensitivity_count": 2,
+    "inside_one_grid_sensitivity_count": 3,
+    "source_sorted_shown_two_J": [
+      11,
+      9,
+      13,
+      15,
+      7,
+      17
+    ],
+    "kernel_sorted_shown_two_J": [
+      11,
+      9,
+      13,
+      15,
+      7,
+      17
+    ]
+  }
+]

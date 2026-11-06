@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "wiki_lint_exit0": true,
+    "preflight_ok": true,
+    "archive_ok": true,
+    "current_entry_links": true,
+    "package_consistency": true
+  },
+  "paper_pages": 12,
+  "original45_data_files_unchanged": true,
+  "three_independent_replays_passed": true,
+  "full_goal_complete": false,
+  "administratively_submission_ready": false
+}

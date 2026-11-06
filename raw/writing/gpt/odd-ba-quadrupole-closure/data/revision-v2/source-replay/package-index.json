@@ -1,0 +1,196 @@
+{
+  "schema": "source-energy-revision-sidecar-package/1",
+  "assembled_at_utc": "2026-11-06T10:57:25.918780+00:00",
+  "files": [
+    {
+      "path_from_data": "revision-v2/source-replay/REPLAY.md",
+      "sha256": "51af980672d24a0e77c40b6d638ea9e546b5f28f532522373673cde1664c5252",
+      "size_bytes": 8361,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "revision-v2/source-replay/comparison-contract.json",
+      "sha256": "cc3b8cc2f677635593f739cd450fb1c5fdcdac54dcdbe0a94075391a63b9f940",
+      "size_bytes": 5484,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "revision-v2/source-replay/expected/comparison.csv",
+      "sha256": "c4b45e7f105fa9a7c34926526f919f136d339c01a6965354f4545fbbde2db145",
+      "size_bytes": 1914,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "revision-v2/source-replay/expected/comparison.json",
+      "sha256": "0f22294d1ece4b12b3b85a811d1fec8cbd025520dfd71a5439705b5007c7eddd",
+      "size_bytes": 11266,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "revision-v2/source-replay/expected/run-original.json",
+      "sha256": "2a6c60296585b35ecab16e3193306ba9569cf110e20cca9ce8a57ad43271edfb",
+      "size_bytes": 1234,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "revision-v2/source-replay/producers/compare_fixed_chain.py",
+      "sha256": "1858bf76ee46392e52fe0aab9918632f49c52f4c39545d0d01e5b6a8f28eb504",
+      "size_bytes": 8553,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "revision-v2/source-replay/producers/extract_source.py",
+      "sha256": "1cd1b13cd3a545081039c47f0dc98e3a03b6eff3d33f2b88968d27833f512e87",
+      "size_bytes": 12427,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "revision-v2/source-replay/replay_model.py",
+      "sha256": "b0dccd6691b01fdba50639e8b9e3ebda0d7cd3eb3030c35cf59310c5a188d110",
+      "size_bytes": 10376,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "revision-v2/source-replay/source-freeze.json",
+      "sha256": "1b6f11ca17a614717a53f4b405044f5a51c8f7d7ba6f4c06b1833ad833845d9b",
+      "size_bytes": 806,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "revision-v2/source-replay/source-identities.json",
+      "sha256": "1e790786fe8a2336f3563d222d3598483a4247c6be74b003c270915b888f7978",
+      "size_bytes": 5475,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "revision-v2/source-replay/source-points-frozen.csv",
+      "sha256": "d88889bfb81501ba2faab30665d20db565a0e264572999d31a7f269eecc4456a",
+      "size_bytes": 1324,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "revision-v2/source-replay/source-points-frozen.json",
+      "sha256": "bc4dbed2c29f65ae8f9546cd146005efa6dbb64eb08ef23781ede6f907b91d22",
+      "size_bytes": 34182,
+      "role": "new_source_replay_sidecar"
+    },
+    {
+      "path_from_data": "chain-contract.json",
+      "sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+      "size_bytes": 4269,
+      "role": "unchanged_existing_package_dependency"
+    },
+    {
+      "path_from_data": "code/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "size_bytes": 31599,
+      "role": "unchanged_existing_package_dependency"
+    },
+    {
+      "path_from_data": "code/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "size_bytes": 11912,
+      "role": "unchanged_existing_package_dependency"
+    },
+    {
+      "path_from_data": "code/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "size_bytes": 16720,
+      "role": "unchanged_existing_package_dependency"
+    },
+    {
+      "path_from_data": "code/LICENSE",
+      "sha256": "e7beccec3cacfe6943890d3bf79c80b100794f6807e003b284f909ffbafee013",
+      "size_bytes": 1070,
+      "role": "unchanged_existing_package_dependency"
+    }
+  ],
+  "frozen_dependency_mapping": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json",
+      "sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+      "size_bytes": 4269,
+      "package_path_from_data": "chain-contract.json",
+      "model_replay_verification": "present_bytes_verified"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-points-frozen.json",
+      "sha256": "bc4dbed2c29f65ae8f9546cd146005efa6dbb64eb08ef23781ede6f907b91d22",
+      "size_bytes": 34182,
+      "package_path_from_data": "revision-v2/source-replay/source-points-frozen.json",
+      "model_replay_verification": "present_bytes_verified"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-freeze.json",
+      "sha256": "1b6f11ca17a614717a53f4b405044f5a51c8f7d7ba6f4c06b1833ad833845d9b",
+      "size_bytes": 806,
+      "package_path_from_data": "revision-v2/source-replay/source-freeze.json",
+      "model_replay_verification": "present_bytes_verified"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/extract_source.py",
+      "sha256": "1cd1b13cd3a545081039c47f0dc98e3a03b6eff3d33f2b88968d27833f512e87",
+      "size_bytes": 12427,
+      "package_path_from_data": "revision-v2/source-replay/producers/extract_source.py",
+      "model_replay_verification": "present_bytes_verified"
+    },
+    {
+      "path": "system/scripts/ba_quadrupole_closure_study.py",
+      "sha256": "ef446b1aeaa8cdb42f470b62b28dbe3ba214489580dbb15189ba21936ad81d6d",
+      "size_bytes": 15658,
+      "package_path_from_data": null,
+      "model_replay_verification": "historical_hash_recorded_only_not_runtime_input"
+    },
+    {
+      "path": "system/scripts/analysis/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "size_bytes": 31599,
+      "package_path_from_data": "code/single_j_ibfm.py",
+      "model_replay_verification": "present_bytes_verified"
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "size_bytes": 11912,
+      "package_path_from_data": "code/paired_single_j_em.py",
+      "model_replay_verification": "present_bytes_verified"
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "size_bytes": 16720,
+      "package_path_from_data": "code/paired_single_j_rotor.py",
+      "model_replay_verification": "present_bytes_verified"
+    },
+    {
+      "path": "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass γ -soft nuclei with mass A ≈ 130.pdf",
+      "sha256": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+      "size_bytes": 1039399,
+      "package_path_from_data": null,
+      "model_replay_verification": "historical_hash_recorded_only_not_runtime_input"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/nomura2017-v2-source.tar.gz",
+      "sha256": "f7ed6dc746f50f16169d8796e4d12becd8827eaf4ac2ee4d5f1ff9cd04690faf",
+      "size_bytes": 794776,
+      "package_path_from_data": null,
+      "model_replay_verification": "historical_hash_recorded_only_not_runtime_input"
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/arxiv-v2-v4.tex",
+      "sha256": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868",
+      "size_bytes": 64836,
+      "package_path_from_data": null,
+      "model_replay_verification": "historical_hash_recorded_only_not_runtime_input"
+    }
+  ],
+  "self_hash_not_included": true,
+  "main_data_manifest_unchanged": true,
+  "source_freeze_byte_identical": true,
+  "original_producers_byte_identical": true,
+  "paper_fulltext_or_original_figure_included": false,
+  "scientific_parameters_or_algorithms_changed": false,
+  "model_replay_requires_local_raw": false,
+  "source_reextraction_requires_local_raw": true,
+  "scope": "12frozen135/137Ba source-energy points; noEM fit/model variants"
+}

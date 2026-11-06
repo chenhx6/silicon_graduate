@@ -1,0 +1,92 @@
+{
+  "schema": "isomer-verification-inventory/1",
+  "recorded_at_actual_utc": "2026-11-06T11:11:54.195863+00:00",
+  "path_base": "this verification directory",
+  "tested_payload_inventory_sha256": "6e51a52f5155f312221624320eab910ffcf0798b2334d38df63612d00d2ca8c9",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "64de88bb7d52b924ad20295cec968ba0432956f6ef350617805676cc13cea6a7",
+      "size": 3414,
+      "source": "Documentation of the completed replay"
+    },
+    {
+      "path": "comparison.json",
+      "sha256": "7641879d73222cc2ae59a5319c9af75b0463bb019e040cd2f3990bb2e5843e32",
+      "size": 3122,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "receipt.json",
+      "sha256": "061a9f94ae9c9e1275bac585cb1b6924c5d07e0213b28ff9422ab96c1ea38a66",
+      "size": 2850,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "reproduced/decay-width-results.json",
+      "sha256": "4a81187eb8c89c241e4f92e21be977388279176e69f669cc9f1f2b6ae16c7835",
+      "size": 52548,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "reproduced/decay-width-summary.csv",
+      "sha256": "74c31f74b39a5d8bccb11d492e75bab76cf11d76a51dfe5b91f061e736613794",
+      "size": 2707,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "reproduced/energy-mapping-frozen.json",
+      "sha256": "abe87d70d35c41b7743114f87c75afce781d7adfea7981157c4f27d7f424bae2",
+      "size": 2438,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "reproduced/predictions.csv",
+      "sha256": "4ffdf0860859b2bb3d651b3c36ae88e1cd9554bf94d7438c310921c41c281cdc",
+      "size": 11817,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "reproduced/results.json",
+      "sha256": "be43d4ae6adab19c48f2e7113ba12319f75f760df5975d5724b43309e0c503b7",
+      "size": 35400,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "strength-read-boundary.json",
+      "sha256": "a4c068b55f2163e44b4c546a79cd18a07b655bb093d8580231cc12f9a4321d81",
+      "size": 71612,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "strength.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "strength.stdout.log",
+      "sha256": "75ce47646cd6833a5b57b69a628f4645827df85cd50eefb16ba524da527376f9",
+      "size": 2052,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "width-read-boundary.json",
+      "sha256": "2fa3ae045609706208ffa9ffd1cce6942381a302c3b41f6377eebad03712baf5",
+      "size": 72183,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "width.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "source": "Byte-identical copy from the single standalone run"
+    },
+    {
+      "path": "width.stdout.log",
+      "sha256": "5058160f32d56ce236ced9cf83843599b24697fb91d8c05dcabad514d9a82b7c",
+      "size": 1645,
+      "source": "Byte-identical copy from the single standalone run"
+    }
+  ]
+}

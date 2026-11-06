@@ -1,0 +1,285 @@
+{
+  "schema": "bm2-bounded-attribution-audit-v1",
+  "review_date": "2026-11-06",
+  "observed_utc": "2026-11-06T11:10:37.360795+00:00",
+  "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+  "source_before_sha256": "76467f7ce2b471482ee10587148464e5e0abcae0b777eaa5787598ccf54da724",
+  "source_after_sha256": "f8cbaf6b33acfe651971da2722df9428d9d970acc6e19806e6bc7f3a1bcbb05d",
+  "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+  "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+  "preserved_rows_1_to_4": true,
+  "rows": [
+    {
+      "id": "BM2-5",
+      "disposition": "corrected-source-relation",
+      "reason": "Book a2/z2 definitions and effective E2 intensity relation retained; generic gamma-Coriolis mechanism and universal reduction removed.",
+      "superseded_row_not_for_scientific_citation": "| BM2-5 | $\\gamma$ 振动带与基带 Coriolis 混合（Mikhailov 展开）：电四极跃迁矩阵元引入一级摄动修正 $M(E2) = M_0 \\langle I_\\gamma 2 2 -2 \\mid I_g 0 \\rangle [1 + z_\\gamma (I_g(I_g+1) - I_\\gamma(I_\\gamma+1))]$；混合参数 $z_\\gamma$ 与转-振耦合矩阵元 $h_2 = z_\\gamma \\Delta E / \\sqrt{6}$ 解释了实测 $B(E2; 2_\\gamma \\to 0_g)/B(E2; 2_\\gamma \\to 2_g)$ 比值对 Alaga 理论值 $0.700$ 的系统性压低。 | model-result | direct | Vol. II, §4-2, pp. 140–155 | false |",
+      "corrected_row": "| BM2-5 | 原书给出弱带混合下的 Mikhailov E2 强度关系：对 \\(K=2\\to0\\)，\\(B=2M_1^2C_{if}^2(1+a_2\\Delta_{fi})^2\\)，\\(a_2=-M_2/M_1\\)，并另定义 \\(z_2=2a_2/(1-4a_2)\\)。这是带有条件的有效矩阵元关系；相同自旋依赖可由不同耦合贡献产生，不能据此唯一确定混合机制或普遍的强度压低。旧条目把参数和机制混并的表述撤回。 | model-result | direct | §4-4，PDF173／printed151，Eq.4-211后文；PDF181／printed159，Eqs.4-230–4-231；定义及本页推导见下 | false |",
+      "physical_pdf_anchor_pages": [
+        173,
+        181,
+        183
+      ],
+      "printed_folios": [
+        151,
+        159,
+        161
+      ]
+    },
+    {
+      "id": "BM2-6",
+      "disposition": "withdrawn-attribution",
+      "reason": "Quartic beta-stretching equation and multi-band success claim have no established book locator or reproducible task producer; not relabeled as verified model output.",
+      "superseded_row_not_for_scientific_citation": "| BM2-6 | Davydov-Chaban 非绝热三轴转子模型：引入动力学可变性参量 $\\mu$，由一元四次平衡方程 $p^3(p-1) = \\mu^4 \\varepsilon(J, \\gamma)$ 求解离心 $\\beta$ 拉伸比 $p = \\beta/\\beta_0$，成功将刚性 Davydov-Filippov 转子推广至同时解释基态带、$\\gamma$ 振动带头与奇自旋能态间距。 | model-result | direct | Vol. II, §4-2, pp. 175–195 | false |",
+      "corrected_row": "| BM2-6 | **撤回历史原书归属。** 旧条目的 Davydov–Chaban 四次平衡方程、参数定义及“同时成功解释多类能带”结论，未在所引页段建立可核对应，也没有本页可追溯的任务模型输入或验证输出；不再作为 BM-II 的计算结果引用。 | our-inference | none | 原 locator“§4-2, printed175–195”错误：对应 PDF197–217 的 §4-5；本次核 PDF197–198、207、209及既有212–214锚点，未建立该方程归属 | false |",
+      "physical_pdf_anchor_pages": [
+        197,
+        198,
+        207,
+        209
+      ],
+      "printed_folios": [
+        175,
+        176,
+        185,
+        187
+      ]
+    },
+    {
+      "id": "BM2-7",
+      "disposition": "narrowed-source-model",
+      "reason": "Axial particle-rotor Coriolis term, DeltaK=+-1 and K=1/2 expectation-value term retained; general diagonalization/spatial-delocalization assertion removed.",
+      "superseded_row_not_for_scientific_citation": "| BM2-7 | 奇 $A$ 变形核 Coriolis 带混合与签名裂相：通过 Coriolis 相互作用 $H_{\\text{Coriolis}} = -A_{\\text{rot}} [I_+ j_- + I_- j_+]$ 连接 $\\Delta K = \\pm 1$ 的转动带，推导对角解耦项 $\\Delta E_{1/2} = a A_{\\text{rot}} (-1)^{I+1/2}(I+1/2)$，严格证明三对角哈密顿矩阵对角化后波函数向多个 $K$ 分量的空间弥散，微观解释单核子对齐与签名交错。 | model-result | direct | Vol. II, §4-3, pp. 158–175 | false |",
+      "corrected_row": "| BM2-7 | 在原书轴对称粒子–转子模型中，Coriolis 项为 \\(-\\hbar^2(j_+I_-+j_-I_+)/(2\\mathcal J_0)\\)，耦合 \\(\\Delta K=\\pm1\\)；\\(K=1/2\\) 的绝热能量期望值含 \\(a\\hbar^2(-1)^{I+1/2}(I+1/2)/(2\\mathcal J_0)\\)。退耦参数依赖具体内禀轨道。这里保留模型算符及条件，不保留旧条目关于一般三对角对角化“严格证明”空间弥散／顺排的外推。 | model-result | direct | Appendix4A，PDF223–224／printed201–202，Eqs.4A-7–4A-10；PDF272／printed250，Eq.5-46及邻文 | false |",
+      "physical_pdf_anchor_pages": [
+        223,
+        224,
+        225,
+        272
+      ],
+      "printed_folios": [
+        201,
+        202,
+        203,
+        250
+      ]
+    },
+    {
+      "id": "BM2-8",
+      "disposition": "withdrawn-attribution",
+      "reason": "High-spin pure-rotor treatment does not establish the claimed TSD/ND decay-out calculation at the supplied locators.",
+      "superseded_row_not_for_scientific_citation": "| BM2-8 | 三轴超形变（TSD）摆动激发与退激穿透动力学：在非轴对称超形变势阱中，准粒子取向与非主轴转动形成多声子摆动能带；当激发能随自旋降低逼近正常形变（ND）态时，经由 Hill-Wheeler 势垒穿透向密集复合态隧穿（Decayout），阐明超形变带在低自旋区的终止截断机制。 | model-result | direct | Vol. II, §4-5, pp. 190–210 | false |",
+      "corrected_row": "| BM2-8 | **撤回历史 TSD／ND 退激动力学断言。** 已核的 §4-5e 支持 BM2-1–4 所列非轴转子高自旋近似；它不能作为旧条目中特定超形变势阱、Hill–Wheeler 穿透和低自旋退激终止机制的直接来源。本页未建立那项计算的原书 locator 或独立模型来源。 | our-inference | none | 原引 printed190–210／PDF212–232；已核§4-5e及附录锚点不支持该来源归属；未据此声称全书不存在相关势垒讨论 | false |",
+      "physical_pdf_anchor_pages": [
+        212,
+        213,
+        214,
+        222,
+        223,
+        224
+      ],
+      "printed_folios": [
+        190,
+        191,
+        192,
+        200,
+        201,
+        202
+      ]
+    },
+    {
+      "id": "BM2-9",
+      "disposition": "narrowed-source-result",
+      "reason": "Electric multipole expansion retained; proposed inertia correction and universal beta4 sign-to-wobbling stability claim withdrawn.",
+      "superseded_row_not_for_scientific_citation": "| BM2-9 | 三轴核高阶十六极形变（$\\beta_4, \\gamma_4$）对转动惯量与摆动频率的微扰修正：核表面十六极形变使主轴转动惯量引入重整化修正 $\\mathcal{J}_k(\\beta_2, \\gamma, \\beta_4) = \\mathcal{J}_k^{(0)} [1 + \\kappa_4 \\beta_4 \\cos(\\gamma - 2\\pi k/3) + \\mathcal{O}(\\beta_4^2)]$；证明正 $\\beta_4 > 0$ 增强中间轴惯量优势并稳定横向摆动，而负 $\\beta_4 < 0$ 削弱惯量不对称性并加速频率下落，完善了纯四极转子模型的微观多极拓展。 | model-result | direct | Vol. II, §4-2, pp. 135–150; §4-5, pp. 190–215 | false |",
+      "corrected_row": "| BM2-9 | 原书给出电四极／十六极矩对表面多极分量的展开，包含四极分量的二阶贡献。**旧的 \\(\\beta_4\\) 惯量修正式及“其正负必然稳定／破坏横向摆动”的结论撤回**：该电荷多极矩关系没有给出所写惯量模型，也未建立那种普适符号判据。 | model-result | direct | §4-3例题，PDF161／printed139，Eq.4-190；PDF162／printed140讨论十六极矩与轨道／密度，不能替代动力学惯量模型 | false |",
+      "physical_pdf_anchor_pages": [
+        161,
+        162
+      ],
+      "printed_folios": [
+        139,
+        140
+      ]
+    },
+    {
+      "id": "BM2-10",
+      "disposition": "narrowed-source-result",
+      "reason": "Smooth and shell contributions and conditional shape-minimum argument retained; fixed spin and energy-gain claims withdrawn.",
+      "superseded_row_not_for_scientific_citation": "| BM2-10 | 宏观-微观三维 $(\\beta_2, \\gamma, \\beta_4)$ 势能面 Strutinsky 壳修正与高自旋超形变深阱稳定化：将液滴模型形变能与 Strutinsky 单粒子能级平滑壳修正相结合；揭示中重核由于高-$j$ 闯入轨道形成第二势能低谷，在极高自旋（$I \\ge 25 - 40\\ \\hbar$）下由超形变大转动惯量将转动动能压低 $10 - 15\\text{ MeV}$，驱动三轴超形变第二阱在较高温势垒后稳定化存在。 | model-result | direct | Vol. II, §4-2, §6-4, pp. 130–145, 580–615 | false |",
+      "corrected_row": "| BM2-10 | 原书支持将平滑能量与壳结构贡献分开分析，并明确指出：壳能的局部极小是否形成形状异能态，还取决于平滑的整体能量部分。**旧的固定高自旋阈值、固定降能数值及三轴超形变稳定化定量结论撤回**；这些数值和适用核素未由所引原件建立。 | model-result | direct | Ch.6例题，PDF620／printed598“Shell-Structure Effects in Nuclear Energy”；PDF627／printed605的形状异能态条件讨论 | false |",
+      "physical_pdf_anchor_pages": [
+        620,
+        627
+      ],
+      "printed_folios": [
+        598,
+        605
+      ]
+    },
+    {
+      "id": "BM2-11",
+      "disposition": "narrowed-author-interpretation",
+      "reason": "Qualitative tentative pairing-weakening discussion retained; universal sqrt gap, fixed critical spin and uniform second-order transition removed.",
+      "superseded_row_not_for_scientific_citation": "| BM2-11 | Mottelson-Valatin 科里奥利反配对（CAP）与超流态向正常态二级相变：转动科里奥利力向时间反演核子对施加反向力矩，导致单极配对能隙随转动频率单调淬灭 $\\Delta(\\omega) = \\Delta_0 \\sqrt{1 - (\\omega/\\omega_{\\text{crit}})^2}$；证明在临界自旋 $I_{\\text{CAP}} \\approx 30 - 40\\ \\hbar$ 处超流性彻底崩塌，驱动转动惯量从超流流体值向刚体值发生非线性相变跃迁，奠定了高自旋推转模型与摆动惯量演化的微观基础。 | model-result | direct | Vol. II, §4-3, §6-3, pp. 165–178, 540–565 | false |",
+      "corrected_row": "| BM2-11 | 原书讨论随角动量增加配对关联减弱，并把较突发的配对相到正常相转变作为一种可能解释；对当时 \\(A\\sim160\\)、\\(I\\sim20\\) 的谱变化也仅作可能关联。**旧的普适平方根配对隙函数、固定临界自旋及统一二级相变断言撤回**；这些不由该段给出。 | author-interpretation | direct | §4-3a，PDF64／printed42，编号1及其前文的试探性语境；不是旧条目所指 printed165–178／540–565 | false |",
+      "physical_pdf_anchor_pages": [
+        64,
+        65
+      ],
+      "printed_folios": [
+        42,
+        43
+      ]
+    },
+    {
+      "id": "BM2-12",
+      "disposition": "corrected-source-dictionary-plus-audit-derivation",
+      "reason": "epsilon2, mixing amplitude c(I), and h2=epsilon2*DeltaE retained; ratio derived explicitly from book a2/z2 relation and separated from source text.",
+      "superseded_row_not_for_scientific_citation": "| BM2-12 | Davydov-Rostovsky 非绝热三轴转子 $\\beta$ 与 $\\gamma$ 振动带间耦合混合与 Alaga 规则减缩：在 Mikhailov 展开下一级微扰混合基态带与振动带波函数 $|I M, g\\rangle \\approx |g\\rangle - z_\\gamma \\sqrt{(I-1)I(I+1)(I+2)} |\\gamma\\rangle$；推导带间跃迁比 $\\frac{B(E2; 2_\\gamma \\to 0_g)}{B(E2; 2_\\gamma \\to 2_g)} = 0.700 \\cdot [\\frac{1-2z_\\gamma}{1+z_\\gamma}]^2$，精确解释中重变形核实测分支比对 Alaga 理想值 $0.700$ 的 $20\\%-35\\%$ 系统性下偏，反演转-振耦合矩阵元 $h_2 = z_\\gamma \\Delta E / \\sqrt{6}$。 | model-result | direct | Vol. II, §4-2, pp. 140–165 | false |",
+      "corrected_row": "| BM2-12 | 在原书的弱 \\(\\Delta K=2\\) 混合解释中，\\(c(I)=\\epsilon_2[2(I-1)I(I+1)(I+2)]^{1/2}\\)，\\(h_2=\\epsilon_2[E(K=2)-E(K=0)]\\)。\\(\\epsilon_2\\) 不可直接替换成 BM2-5 的 \\(a_2\\) 或 \\(z_2\\)。旧的分支比有理式、普遍压低百分比及参数换算撤回；按书中定义重算的条件比值见本页，明确属于本次代数推论。 | model-result | direct | §4-4，PDF183／printed161，Eqs.4-232–4-235；PDF184／printed162说明不同内禀四极矩及其它耦合的限制 | false |",
+      "physical_pdf_anchor_pages": [
+        181,
+        183,
+        184
+      ],
+      "printed_folios": [
+        159,
+        161,
+        162
+      ]
+    },
+    {
+      "id": "BM2-13",
+      "disposition": "withdrawn-attribution",
+      "reason": "Fixed PES extrema and crossing frequencies lack named nucleus, input deck, output or source locator. A possible toy Routhian is not evidence for those values.",
+      "superseded_row_not_for_scientific_citation": "| BM2-13 | 自洽推转宏观-微观三轴形变共存势能面与转动驱动 Yrast 形状相变：液滴模型形变能与壳修正叠加形成三轴（$\\beta \\approx 0.24, \\gamma \\approx 24^\\circ$）与扁椭（$\\beta \\approx 0.16, \\gamma \\approx 58^\\circ$）竞争极小；转动推转能量项 $-\\frac{1}{2}\\mathcal{J}_x(\\beta, \\gamma)\\omega^2$ 中，三轴形变由于大四极形变与中间轴取向具有显著更大的转动惯量，随转动频率上升在临界频率 $\\omega_{\\\\text{cross}} \\approx 0.20 - 0.30\\\\text{ MeV}/\\hbar$ 处驱动 Yrast 基态由扁椭向三轴发生一级形状相变，为过渡核高自旋区稳定存在摆动运动与手征双带提供微观基石。 | model-result | direct | Vol. II, §4-2, §6-4, pp. 130–150, 580–620 | false |",
+      "corrected_row": "| BM2-13 | **撤回历史定量 PES／交叉频率断言。** 旧条目的两个极小坐标、固定频率区间和相变结论没有明确核素、势能面输入、计算输出或对应原书 locator。其转动项至多可在另行声明条件后作为示意 Routhian 的一部分，不能生成或证实这些数值；本页不将它改包装成已验证的任务结果。 | our-inference | none | 原引“§4-2、§6-4，printed130–150、580–620”未建立该定量归属；本次对既有相关原文锚点核查，未开展新 PES 计算 | false |",
+      "physical_pdf_anchor_pages": [
+        620,
+        627,
+        644
+      ],
+      "printed_folios": [
+        598,
+        605,
+        622
+      ]
+    }
+  ],
+  "images": [
+    {
+      "physical_pdf_page": 161,
+      "printed_folio": 139,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p161.png",
+      "sha256": "8103b36edc60e46954762c07cfc6733aa40af57268617c5da0fc7d61cdc9ca61",
+      "visually_checked_in_this_task": true
+    },
+    {
+      "physical_pdf_page": 162,
+      "printed_folio": 140,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p162.png",
+      "sha256": "b2472af912efa8b60f7c91ac2354f025d926b965b6cfeef7d50ebc5909f5ac28",
+      "visually_checked_in_this_task": false
+    },
+    {
+      "physical_pdf_page": 173,
+      "printed_folio": 151,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p173.png",
+      "sha256": "2ed138abab2e00b3405fcc701dc3378283960ea58e734b730e67f37ac6c08b53",
+      "visually_checked_in_this_task": true
+    },
+    {
+      "physical_pdf_page": 181,
+      "printed_folio": 159,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p181.png",
+      "sha256": "d4e44cdd24fa91d1dafe84e7eb7c32a85de7ac116d65e4e951190a93adcbf3ef",
+      "visually_checked_in_this_task": true
+    },
+    {
+      "physical_pdf_page": 183,
+      "printed_folio": 161,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p183.png",
+      "sha256": "8d90b334dacd410dbde0c0eed88fd33d15ffb8c303168a4992ecb8226d46f13d",
+      "visually_checked_in_this_task": true
+    },
+    {
+      "physical_pdf_page": 198,
+      "printed_folio": 176,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p198.png",
+      "sha256": "e7125fb682337f55bcbcd55aa89fec24143c6e40c33f6a4ee8b6503c0858aa41",
+      "visually_checked_in_this_task": false
+    },
+    {
+      "physical_pdf_page": 222,
+      "printed_folio": 200,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p222.png",
+      "sha256": "300236db299ae72d16f11918512bd3332e85504058b3e0875669e7a28ca04baf",
+      "visually_checked_in_this_task": false
+    },
+    {
+      "physical_pdf_page": 223,
+      "printed_folio": 201,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p223.png",
+      "sha256": "652abb8d7885afa9b7f597fddaa3a7780c96f031bcc32c434671eeba584b6cf2",
+      "visually_checked_in_this_task": true
+    },
+    {
+      "physical_pdf_page": 224,
+      "printed_folio": 202,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p224.png",
+      "sha256": "c7882114d9e699722013ee97b3370d45ea86c5cd0fc16484a1be2859e84f4365",
+      "visually_checked_in_this_task": true
+    },
+    {
+      "physical_pdf_page": 272,
+      "printed_folio": 250,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p272.png",
+      "sha256": "b57ba90db194bdbe4a40084ec7aaf1ea4fc5d1f3f990f1fc047f53ed7c88bdf5",
+      "visually_checked_in_this_task": false
+    },
+    {
+      "physical_pdf_page": 620,
+      "printed_folio": 598,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p620.png",
+      "sha256": "2cc35b708ba30b998e996fa4f4f8f6d53809fd8eaf090f2ee89b8f669d560baa",
+      "visually_checked_in_this_task": false
+    },
+    {
+      "physical_pdf_page": 627,
+      "printed_folio": 605,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p627.png",
+      "sha256": "4e260f8c7a52f41c0ecf7fc1bb0800bcee4f3974eccbb1ab7df2ea49cac8d28e",
+      "visually_checked_in_this_task": true
+    },
+    {
+      "physical_pdf_page": 64,
+      "printed_folio": 42,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p64.png",
+      "sha256": "81270bc73542b64a75f6e2d01b02e2cfb81d5af9ad80ae1d8b4a4acb321af5b4",
+      "visually_checked_in_this_task": true
+    },
+    {
+      "physical_pdf_page": 644,
+      "printed_folio": 622,
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p644.png",
+      "sha256": "cf7cdea89a9d8658ebc28eb875fb8c1031248f69eba6127614537101762a1e41",
+      "visually_checked_in_this_task": false
+    }
+  ],
+  "navigation_only_ranges": {
+    "physical_pdf": [
+      [
+        197,
+        218
+      ],
+      [
+        602,
+        656
+      ]
+    ],
+    "meaning": "Keyword locator search, not full-range reading or new study credit."
+  },
+  "evidence_boundary": "Unsupported means not established by this bounded source attribution audit. No exhaustive whole-book or external literature absence claim. Historical formulas are not certified task models without an independent definition and producer.",
+  "scope": "One source page corrected; all other knowledge, prior receipts, index, raw, PLAN and get-paper untouched; no commit."
+}

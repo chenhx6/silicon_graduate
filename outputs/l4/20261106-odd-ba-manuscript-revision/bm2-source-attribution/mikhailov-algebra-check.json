@@ -1,0 +1,51 @@
+{
+  "scope": "Book Eq4-230 and4-231 parameter dictionary, exact CG algebra only; no isotope or fit.",
+  "source_locators": "Physical PDF181 / printed159, Eqs4-230–4-231; epsilon2/h2 dictionary separately checked on PDF183.",
+  "CG_squared_2K2_to_0K0": "1/5",
+  "CG_squared_2K2_to_2K0": "2/7",
+  "zero_correction_ratio": "7/10",
+  "identity": "R=(7/10)*(1-6*a2)^2=(7/10)*((1-z2)/(1+2*z2))^2; z2=2*a2/(1-4*a2)",
+  "exact_cases": [
+    {
+      "a2": "0",
+      "z2": "0",
+      "ratio": "7/10"
+    },
+    {
+      "a2": "1/1000",
+      "z2": "1/498",
+      "ratio": "1729063/2500000"
+    },
+    {
+      "a2": "-1/1000",
+      "z2": "-1/502",
+      "ratio": "1771063/2500000"
+    },
+    {
+      "a2": "1/100",
+      "z2": "1/48",
+      "ratio": "15463/25000"
+    },
+    {
+      "a2": "-1/100",
+      "z2": "-1/52",
+      "ratio": "19663/25000"
+    },
+    {
+      "a2": "1/20",
+      "z2": "1/8",
+      "ratio": "343/1000"
+    }
+  ],
+  "old_expression_comparison": {
+    "condition": "Identify old z symbol with the book's z2; other parameterizations require an explicit separately verified dictionary.",
+    "a2": "1/100",
+    "z2": "1/48",
+    "correct": "15463/25000",
+    "old_expression": "1058/1715",
+    "equal": false
+  },
+  "boundary": "The ratio is an audit derivation from the book's effective-strength relation, not a newly located printed equation or experimental universal reduction.",
+  "runtime_seconds": 0.0002025740104727447,
+  "passed": true
+}

@@ -50,12 +50,15 @@ A≈130 是当前研究锚点，不是 Wiki 的收录边界。v2 的设计决策
 ## 学术手稿与期刊投稿包 (Scientific Manuscripts & Writing)
 
 - **束流申请与 proposal 初稿**：[`raw/proposal/`](raw/proposal/README.md)，独立于执行任务计划，允许随 Git 提交与推送。
-- **$A \approx 130$ 三轴形变与集体激发模式期刊论文**：[`raw/writing/gpt/a130-triaxial/`](raw/writing/gpt/a130-triaxial/)
-  - [出版级双栏预印本 PDF (`main.pdf`)](raw/writing/gpt/a130-triaxial/main.pdf)
-  - [Physical Review C (RevTeX 4.2) 投稿源码 (`main.tex`)](raw/writing/gpt/a130-triaxial/main.tex)
-  - [防作假实验数据溯源手册 (`DATA_PROVENANCE.md`)](raw/writing/gpt/a130-triaxial/DATA_PROVENANCE.md)
-  - [底层实验与理论数据集 (`data/`)](raw/writing/gpt/a130-triaxial/data/)
-  - [成套插图库 (`figures/`)](raw/writing/gpt/a130-triaxial/figures/)
+- **当前聚焦候选稿：奇 Ba 四极指标的自旋通道重分配**：
+  [`raw/writing/gpt/odd-ba-quadrupole-closure/`](raw/writing/gpt/odd-ba-quadrupole-closure/)。
+  [英文 PDF](raw/writing/gpt/odd-ba-quadrupole-closure/main.pdf)、
+  [LaTeX 源码](raw/writing/gpt/odd-ba-quadrupole-closure/main.tex)和
+  [可复现数据／代码](raw/writing/gpt/odd-ba-quadrupole-closure/data/)均有明确模型与经验边界；
+  具体修订及投稿就绪状态以该目录 README 为准，未提交期刊。
+- **历史综合稿，已撤回为失败案例／素材**：
+  [`raw/writing/gpt/a130-triaxial/`](raw/writing/gpt/a130-triaxial/)。
+  不作为当前论文结构、可靠数值或投稿就绪的依据。
 
 日常主要浏览 `knowledge/`：它是 Wiki 的长期知识大脑，保存 source、实体、方法、模型、project、synthesis 和可复用研究矩阵。六类目录的唯一落点与漂移检查见 [`system/path-contract.md`](system/path-contract.md)。`raw/` 只保存原始材料，`system/` 保存规则与执行交接，`outputs/` 只保存日报、周报、审计、回执、调度状态和 `outputs/plans/` 任务计划书。输出中产生的可复用知识必须同步写入 `knowledge/`，不能只留在日报或计划书里。
 

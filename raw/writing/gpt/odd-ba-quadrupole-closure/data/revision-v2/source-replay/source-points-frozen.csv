@@ -1,0 +1,13 @@
+odd_A,neutron_N,source_legend_label,two_J,plot_grid_energy_keV,recovered_energy_keV,path_index,connecting_path_index,reference_state
+135,79,7/2-,7,918,917.9999526153648,155,151,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)
+135,79,9/2-,9,448,448.0001857927189,161,157,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)
+135,79,11/2-,11,0,0.0,167,163,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)
+135,79,13/2-,13,404,403.9998999865806,173,169,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)
+135,79,15/2-,15,691,690.9998317189938,179,175,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)
+135,79,17/2-,17,1180,1179.9999007357446,185,181,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)
+137,81,7/2-,7,1122,1121.999983705679,156,151,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)
+137,81,9/2-,9,414,414.00011818065076,162,157,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)
+137,81,11/2-,11,0,0.0,168,163,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)
+137,81,13/2-,13,607,606.9997968828588,174,169,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)
+137,81,15/2-,15,968,967.9999198394315,180,175,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)
+137,81,17/2-,17,1880,1879.9998164547733,186,181,lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)

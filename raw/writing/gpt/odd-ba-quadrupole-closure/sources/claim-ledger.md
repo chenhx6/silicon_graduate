@@ -18,6 +18,9 @@ does not establish a claim; direct evidence, applicability and dependence do.
 | C11 | A Qs-only match along the fixed-operator path retains a large angle separation but changes the calculated spectrum. | `data/results/moment-matched.json` and its energy CSV | Conditional calibration; no new global fit or independent static validation |
 | C12 | Calibration to 136/137Ba central moment alternatives can improve unused 135Ba Qs predictions while making full cubic ratios outside-domain. | `data/results/calibrated-operator-predictions.json`; every finite branch retained | Conditional at averaged core Bup; source covariance and physical admissibility remain unresolved |
 | C13 | Vogt2017 assigns a tentative 137Ba 15/2 target, but its measured 589-ns lifetime and 0.46-W.u. strength concern the upper 19/2 transition. | `data/vogt2017-transition-constraints.json`; accepted manuscript Fig.6, TableII, Fig.7, TableIII | Supports target availability, not an absolute experimental Rstat denominator |
+| C14 | At exactly fixed gamma=20° charge geometry, the unpaired rotor has q2=1/q3=.5 while its all-15/2 ratio varies from .322617 to1.026250. | `data/revision-v2/rigid-control/frozen/{protocol.json,proof.md,results.json}`; independent package replay | Supported counterexample for the declared rotor. Does not establish unchanged IBFM or empirical Ba geometry; no new invariant theorem claimed |
+| C15 | Fixed135/137Ba calculation reproduces the ordering of the six displayed negative-parity source series, with maximum nonreference residuals1.896/3.128keV. | `data/revision-v2/source-replay/`; frozen Nomura arXiv-v2 Fig5(c) points and comparison | Energy-only subset. No19/2/higher same-spin source states, author run card, wavefunction or EM certification |
+| C16 | The tested137Ba modeled decay schemes, under two candidate parent identities and seven existing operators, give E2-only half-life upper bounds no larger than .000281041ns, incompatible with589(20)ns under those conditions. | `data/revision-v2/isomer-check/`; all28 strengths,14 sums,84 open E2 branches; Vogt2017 same decay as C13 | Conditional model failure retained in main Discussion. Not a model-independent experimental bound, not all-IBFM exclusion, not direct falsification of the initial11/2 cubic loop |
 
 The internal assessment supports a bounded EPJA model-study contribution,
 subject to the stated scientific limits; this is not an editorial decision.
@@ -29,3 +32,16 @@ parent lifetime or an absolute strength.
 The full library contains separate pairing/rotor and angular-distribution
 investigations. They provide research context, but do not add independent
 support to this manuscript's single claim and are excluded from its main text.
+
+The independent unpaired rigid-charge control in C14 is part of this manuscript
+because it tests the same shape-inference question. It does not import the
+earlier paired/Nambu study as supporting evidence. C13 and C16 share one
+experimental decay lineage; the strength and lifetime are not independent
+likelihood terms. The seven operators in C16 are primary, core-only and the
+five conditional moment calibrations, distinct from the seven-setting family
+used per isotope in the earlier35-case sensitivity analysis.
+
+The Bohr–Mottelson reference denotes the actual World Scientific1998 reissue,
+whose PDF p6 gives Singapore, ISBN9810239807 and the original1975 edition.
+The new reference is for standard particle–rotor kinematics; no unsupported
+historical claim from the Wiki source page is used.

@@ -1,0 +1,82 @@
+{
+  "schema": "137Ba-isomer-manuscript-package-closeout/1",
+  "completed_at_actual_utc": "2026-11-06T11:14:12.725019+00:00",
+  "status": "complete",
+  "package": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check",
+  "standalone_run": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/standalone-copy/run-01",
+  "completed": {
+    "unchanged_original_protocols_producers_and_frozen_references_packaged": true,
+    "original_exact_copy_count": 16,
+    "immutable_replay_payload_file_count": 23,
+    "package_files_including_archive_manifest": 40,
+    "standalone_numerical_producer_executions": {
+      "strength": 1,
+      "width": 1
+    },
+    "numerical_comparison_pass": true,
+    "scientific_counts": {
+      "strength_rows": 28,
+      "width_sums": 14,
+      "open_branches": 84,
+      "energy_mapping_pairs": 4
+    },
+    "compared_floating_fields": 1865,
+    "all_compared_numeric_absolute_differences": 0.0,
+    "csv_byte_equality": {
+      "predictions.csv": true,
+      "decay-width-summary.csv": true
+    },
+    "state_basis_sha256_equal": true,
+    "archive_gate_pass": true,
+    "archive_entries_checked": 39,
+    "forbidden_read_probes_blocked": true,
+    "unexpected_denied_accesses": [],
+    "network_or_nested_process_attempts": [],
+    "original45_and_shared_manifest_unchanged_at_recorded_preservation_check": true,
+    "english_README_inventory_receipts_and_reading_boundaries_present": true
+  },
+  "runtime": {
+    "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "sha256": {
+    "package/inventory.json": "6e51a52f5155f312221624320eab910ffcf0798b2334d38df63612d00d2ca8c9",
+    "package/manifest.json": "aa74f357deaf12e903cd4293c6fa09e382d1b1ffcdd3dc1bd3f249ffdc51befa",
+    "package/verification/inventory.json": "fedc672443129b42a72f2406ae9e83e210ace1aff0c2f6f1b778cf39e411da09",
+    "package/verification/comparison.json": "7641879d73222cc2ae59a5319c9af75b0463bb019e040cd2f3990bb2e5843e32",
+    "package/verification/receipt.json": "061a9f94ae9c9e1275bac585cb1b6924c5d07e0213b28ff9422ab96c1ea38a66",
+    "archive-gate.json": "bc194b8677789137e6a407983125e76e977bd88559256c846d1b135a2341d314",
+    "preservation-check.json": "42ad5859ffb9877eba85c3217320cb8837e52301faff604283bb0c9ae36ad3ac"
+  },
+  "source_boundary": {
+    "external_raw_originals_packaged": [],
+    "external_raw_original_hashes_reverified": [],
+    "historical_declarations_recursively_reverified": false,
+    "meaning": "Actual payload and staged dependency bytes were verified. Embedded PDF/ENSDF/source-page/prior-run declarations remain historical statements; they are not fresh verification of their unbundled originals."
+  },
+  "read_boundary": "Python audit-event allowlist and physical copied layout; includes failed cache-open attempts, not an OS sandbox or exhaustive native-access trace.",
+  "width_hash_prerequisite": "The unchanged width producer hashes an actual frozen historical results.json in a separate layout; regenerated strengths are compared independently. No verifier or protocol was patched.",
+  "scientific_boundary": "Reproduction of frozen mathematical model results only; conditional model-scheme E2-radiative upper half-life bounds, with no certified experimental assignment, full lifetime, source-author model, or publication-readiness claim.",
+  "unfinished_items_within_requested_packaging_scope": [],
+  "not_performed_or_claimed": [
+    "Fresh PDF/ENSDF/raw-original source validation",
+    "Independent refit or operator-root derivation",
+    "Cross-platform numerical certification",
+    "Shared manuscript integration by this task",
+    "Commit or push"
+  ],
+  "concurrent_changes_outside_owned_scope": [
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/main.tex",
+      "baseline_sha256": "9304474da99d27e7faf8d340b15c2e025905b0c1fa293bc3bb342af5da630010",
+      "actual_sha256": "6854a7d52acba910c629024d5eb0f1f00b87ca1a93e58aefd093141dd53a092c",
+      "unchanged": false
+    }
+  ],
+  "writes_limited_to": [
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package"
+  ],
+  "no_commit_performed": true
+}

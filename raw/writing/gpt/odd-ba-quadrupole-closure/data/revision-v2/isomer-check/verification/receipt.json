@@ -1,0 +1,59 @@
+{
+  "schema": "137Ba-isomer-standalone-reproduction/1",
+  "started_at_actual_utc": "2026-11-06T11:08:08.163416+00:00",
+  "finished_at_actual_utc": "2026-11-06T11:08:15.081171+00:00",
+  "pass": true,
+  "payload_inventory_sha256": "6e51a52f5155f312221624320eab910ffcf0798b2334d38df63612d00d2ca8c9",
+  "verified_payload_files": 23,
+  "original_producer_and_protocol_bytes_unchanged": true,
+  "staged_protocol_sha_checks": "Both producers executed their original real-file hash checks. No sha verifier was replaced and no protocol field was rewritten.",
+  "width_base_results_scope": "The width layout supplies the packaged ORIGINAL results.json as the original width protocol's hash prerequisite. Regenerated strengths are independently compared in the strength layout; they are not falsely claimed to have the historical file hash.",
+  "scientific_counts": {
+    "strength_rows": 28,
+    "width_sums": 14,
+    "open_branches": 84,
+    "energy_mapping_pairs": 4
+  },
+  "comparison_sha256": "7641879d73222cc2ae59a5319c9af75b0463bb019e040cd2f3990bb2e5843e32",
+  "generated_products": {
+    "reproduced/energy-mapping-frozen.json": {
+      "sha256": "abe87d70d35c41b7743114f87c75afce781d7adfea7981157c4f27d7f424bae2",
+      "size": 2438
+    },
+    "reproduced/results.json": {
+      "sha256": "be43d4ae6adab19c48f2e7113ba12319f75f760df5975d5724b43309e0c503b7",
+      "size": 35400
+    },
+    "reproduced/predictions.csv": {
+      "sha256": "4ffdf0860859b2bb3d651b3c36ae88e1cd9554bf94d7438c310921c41c281cdc",
+      "size": 11817
+    },
+    "reproduced/decay-width-results.json": {
+      "sha256": "4a81187eb8c89c241e4f92e21be977388279176e69f669cc9f1f2b6ae16c7835",
+      "size": 52548
+    },
+    "reproduced/decay-width-summary.csv": {
+      "sha256": "74c31f74b39a5d8bccb11d492e75bab76cf11d76a51dfe5b91f061e736613794",
+      "size": 2707
+    }
+  },
+  "worker_boundary_reports": {
+    "strength-read-boundary.json": "a4c068b55f2163e44b4c546a79cd18a07b655bb093d8580231cc12f9a4321d81",
+    "width-read-boundary.json": "2fa3ae045609706208ffa9ffd1cce6942381a302c3b41f6377eebad03712baf5"
+  },
+  "runtime": {
+    "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "read_boundary": {
+    "forbidden_read_probe_blocked_in_both_workers": true,
+    "unexpected_denied_accesses": [],
+    "network_or_nested_process_attempts": [],
+    "staged_raw_source_directories_present": false,
+    "external_raw_source_hashes_reverified": [],
+    "scope": "Python-level file audit plus isolated relative layout; not an OS security sandbox"
+  },
+  "payload_unchanged_after_run": true,
+  "interpretation_boundary": "Reproduces frozen mathematical results only. Experimental source claims inside input snapshots are historical declarations, not fresh verification of unbundled PDFs, ENSDF files, pages or prior runs."
+}

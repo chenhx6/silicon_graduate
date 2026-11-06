@@ -1,0 +1,163 @@
+{
+  "status": "frozen-bounded-attribution-audit-complete",
+  "review_date": "2026-11-06",
+  "observed_utc": "2026-11-06T11:14:07.987817+00:00",
+  "modified_knowledge_page": {
+    "path": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "before_sha256": "76467f7ce2b471482ee10587148464e5e0abcae0b777eaa5787598ccf54da724",
+    "after_sha256": "f8cbaf6b33acfe651971da2722df9428d9d970acc6e19806e6bc7f3a1bcbb05d"
+  },
+  "claim_disposition": {
+    "BM2_1_to_4": "preserved byte-for-byte",
+    "corrected_or_narrowed": [
+      "BM2-5",
+      "BM2-7",
+      "BM2-9",
+      "BM2-10",
+      "BM2-11",
+      "BM2-12"
+    ],
+    "withdrawn_positive_claims": [
+      "BM2-6",
+      "BM2-8",
+      "BM2-13"
+    ]
+  },
+  "checks": {
+    "scoped_lint_pages": 1,
+    "claims_checked": 13,
+    "errors": 0,
+    "warnings": 0,
+    "info": 0,
+    "source_raw_hash_checked": 1,
+    "raw_unchanged": true,
+    "first_four_rows_exactly_preserved": true,
+    "git_diff_check_scoped": true,
+    "exact_CG_cases": 6,
+    "algebra_check_passed": true
+  },
+  "archive_gate": {
+    "checked_manifests": [],
+    "checked_sources": [
+      "/workspace/wiki/knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md"
+    ],
+    "failure_count": 0,
+    "failures": [],
+    "ok": true,
+    "scope": "paths"
+  },
+  "scope_boundary": "Only this source page and authorized attribution-output directory written; no other knowledge/index/raw/PLAN/get-paper or derived-model changes; no commit; no new course.",
+  "remaining_unverified": [
+    "Exact external provenance of historical Davydov–Chaban quartic/parameterization.",
+    "An independent source and producer for the claimed TSD/ND decay-out model.",
+    "A specified dynamical inertia model for the historical beta4 sign claims.",
+    "Nucleus-specific inputs, output and source for historical PES coordinates/crossing frequency."
+  ],
+  "remaining_item_treatment": "Withdrawn or narrowed in active source text; absence of bounded support is not a claim of exhaustive nonexistence elsewhere. No relabeling unsupported formulas as verified task models.",
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/baseline.json",
+      "size": 1424,
+      "sha256": "144386fbc26a7fe0589da5024d6e3fc60362717de8c7ba30e652d899d38de8ad"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/check_mikhailov_attribution.py",
+      "size": 2788,
+      "sha256": "aa81c0f47963e8f6de234c575829792baa4868dd38377eb400c6ef07bfa61a42"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/claim-audit.json",
+      "size": 19886,
+      "sha256": "08ea85536986924d8944171b7ea4e83e7f5555d9c288e74332082a95a77c9da4"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p161.png",
+      "size": 210899,
+      "sha256": "8103b36edc60e46954762c07cfc6733aa40af57268617c5da0fc7d61cdc9ca61"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p162.png",
+      "size": 251086,
+      "sha256": "b2472af912efa8b60f7c91ac2354f025d926b965b6cfeef7d50ebc5909f5ac28"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p173.png",
+      "size": 210147,
+      "sha256": "2ed138abab2e00b3405fcc701dc3378283960ea58e734b730e67f37ac6c08b53"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p181.png",
+      "size": 131927,
+      "sha256": "d4e44cdd24fa91d1dafe84e7eb7c32a85de7ac116d65e4e951190a93adcbf3ef"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p183.png",
+      "size": 212165,
+      "sha256": "8d90b334dacd410dbde0c0eed88fd33d15ffb8c303168a4992ecb8226d46f13d"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p198.png",
+      "size": 303477,
+      "sha256": "e7125fb682337f55bcbcd55aa89fec24143c6e40c33f6a4ee8b6503c0858aa41"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p222.png",
+      "size": 249952,
+      "sha256": "300236db299ae72d16f11918512bd3332e85504058b3e0875669e7a28ca04baf"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p223.png",
+      "size": 278568,
+      "sha256": "652abb8d7885afa9b7f597fddaa3a7780c96f031bcc32c434671eeba584b6cf2"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p224.png",
+      "size": 186241,
+      "sha256": "c7882114d9e699722013ee97b3370d45ea86c5cd0fc16484a1be2859e84f4365"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p272.png",
+      "size": 242055,
+      "sha256": "b57ba90db194bdbe4a40084ec7aaf1ea4fc5d1f3f990f1fc047f53ed7c88bdf5"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p620.png",
+      "size": 287040,
+      "sha256": "2cc35b708ba30b998e996fa4f4f8f6d53809fd8eaf090f2ee89b8f669d560baa"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p627.png",
+      "size": 347242,
+      "sha256": "4e260f8c7a52f41c0ecf7fc1bb0800bcee4f3974eccbb1ab7df2ea49cac8d28e"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p64.png",
+      "size": 307191,
+      "sha256": "81270bc73542b64a75f6e2d01b02e2cfb81d5af9ad80ae1d8b4a4acb321af5b4"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/inspection/bm2-p644.png",
+      "size": 369375,
+      "sha256": "cf7cdea89a9d8658ebc28eb875fb8c1031248f69eba6127614537101762a1e41"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/mikhailov-algebra-check.json",
+      "size": 1459,
+      "sha256": "472a79efc0c238d7473d4ab0a651bd0fcb8cdc72731efea6a27d966a9bcd0d33"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/report.md",
+      "size": 5029,
+      "sha256": "9d17eabb10713e3a1aa44c692cad2e2cd8d0efbd64417edd23934d72f8acac9f"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/source-before.snapshot.txt",
+      "size": 9867,
+      "sha256": "76467f7ce2b471482ee10587148464e5e0abcae0b777eaa5787598ccf54da724"
+    }
+  ],
+  "parent_path_reconciliation": {
+    "at_utc": "2026-11-06T11:31:32.836016+00:00",
+    "change": "Renamed the historical source snapshot to .snapshot.txt so it cannot be mistaken for a live knowledge source under outputs. Snapshot bytes and source/raw facts are unchanged. Report pointers and artifact hash of that report refreshed."
+  }
+}

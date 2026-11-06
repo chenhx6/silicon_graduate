@@ -1,0 +1,62 @@
+{
+  "schema": "isomer-standalone-relative-layout/1",
+  "producer_directory": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark",
+  "common_inputs": [
+    {
+      "package_path": "inputs/study.json",
+      "original_relative_path": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json"
+    },
+    {
+      "package_path": "inputs/linear-calibration.json",
+      "original_relative_path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator/linear-calibration.json"
+    },
+    {
+      "package_path": "inputs/vogt2017-readiness.json",
+      "original_relative_path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-readiness.json"
+    },
+    {
+      "package_path": "code/single_j_ibfm.py",
+      "original_relative_path": "system/scripts/analysis/single_j_ibfm.py"
+    },
+    {
+      "package_path": "code/paired_single_j_em.py",
+      "original_relative_path": "system/scripts/analysis/paired_single_j_em.py"
+    },
+    {
+      "package_path": "code/paired_single_j_rotor.py",
+      "original_relative_path": "system/scripts/analysis/paired_single_j_rotor.py"
+    }
+  ],
+  "original_producers": [
+    {
+      "package_path": "producers/run_benchmark.py",
+      "filename": "run_benchmark.py"
+    },
+    {
+      "package_path": "producers/run_decay_widths.py",
+      "filename": "run_decay_widths.py"
+    }
+  ],
+  "stage_inputs": {
+    "strength": [
+      {
+        "package_path": "frozen/protocol.json",
+        "filename": "protocol.json"
+      }
+    ],
+    "width": [
+      {
+        "package_path": "frozen/protocol.json",
+        "filename": "protocol.json"
+      },
+      {
+        "package_path": "frozen/decay-width-protocol.json",
+        "filename": "decay-width-protocol.json"
+      },
+      {
+        "package_path": "frozen/results.json",
+        "filename": "results.json"
+      }
+    ]
+  }
+}

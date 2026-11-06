@@ -1,0 +1,51 @@
+{
+  "checked_at_utc": "2026-11-06T11:21:26.650597+00:00",
+  "pdf_sha256": "8910232b7df3f5d09d3c2c2ea7df8034240b54c35218b9a732478f8aafb47f3d",
+  "pages_expected": 12,
+  "pages_actual": 12,
+  "pages_rendered": 12,
+  "pages_checked": 12,
+  "overfull_hbox": 0,
+  "overfull_vbox": 0,
+  "underfull_hbox": 65,
+  "underfull_vbox": 12,
+  "undefined_references": false,
+  "missing_characters": 0,
+  "visual_occlusion_pairs": 0,
+  "visual_clipped_objects": 0,
+  "visual_outside_safe_area": 0,
+  "inspection": "All12 pages inspected in six two-page rendered sheets. New Fig1 legend moved clear of curves; equation lines split; spurious book-address question marks removed. Underfull narrow-column spacing remains and was visually checked.",
+  "renderer": "PyMuPDF, scale1.6",
+  "page_render_sha256": {
+    "1": "3fbd547510c13bcaaa8a8ea7475a40a2360c6a956d3be9194a0de86d7d1e518d",
+    "2": "5f1375c2af753c60f9c2379605f66f5ae172e2f94d34f43b817af607b78c6b02",
+    "3": "34f0a5d25b0c3942fd73a41226b88894d8f4e7eb10b6d8266add8e288a2b767b",
+    "4": "89fd1426feb98663723054c33e0e7e54c37c60a3f5f663647160a30fb57711de",
+    "5": "af1ea95999c21449aa8b076247f9cff9762575aabaeddb346580003cc2fdad28",
+    "6": "d2f39386f7cd9a0d4508b47f5463284f2e0d71290f3b1ca15fe16c64cbae8c13",
+    "7": "42d1940d5c9b9e94d5d931eeefc7a4dc8dd5dda2b7874d772a49fb68ed63ff16",
+    "8": "099a695ee6dac36dc5b625dc6478e13cb1fb2fdcddad4c572b2464d53729bab4",
+    "9": "bd945ea0124b814d25137903b9f8365365635092e9a60994fd5890614f713fd9",
+    "10": "a0ee830aa66a18d6ba76eca557a4ae8718db8ff81d07b60b4d4e0fef842729c1",
+    "11": "f8a0d3b14a422daf0e4ea87ce63f35b461c95943783eedae5fed30616266fcb4",
+    "12": "c18f0ce0fb451e6d2263f99416be622c11815016f8ef82262f9219ac410ff86c"
+  },
+  "source_sha256": {
+    "main.tex": "034c81d4ba14b049da38e45fd4673e6baa5b9b7f4cbd3f9072f614bb48c01332",
+    "controls.tex": "198eae9812acb32a22b4f80dd11fd2706a9e60f1f3ef58d3732a65e5752439d1",
+    "rigid-control.tex": "1cc044bbf1109602cedd63f963d82bbbc2d79de991903098455f39adf4fb7511",
+    "revision-appendices.tex": "933ea5762c6b2e2b2e92764af776c09197ff290da74401e68da89e34b3c52624",
+    "references.bib": "45950d79e9827804e5232eaa34c4bb39e41870710b2ba442bf14980ce4d4ec1b"
+  },
+  "terminal_blank_line_normalization": {
+    "file": "controls.tex",
+    "before_sha256": "0cba43896dccc037fb41c094cf9a26494492a809e64081eb4740d44845370991",
+    "after_sha256": "198eae9812acb32a22b4f80dd11fd2706a9e60f1f3ef58d3732a65e5752439d1",
+    "all12_page_pixels_identical_after_recompile": true
+  },
+  "final_eof_cleanup_all12_page_pixels_identical": true,
+  "compile_log_normalization": "Trailing line whitespace removed from the copied log only; raw compiler log remains in the temporary build directory.",
+  "other_non_content_warnings": [
+    "Hyperref normalized jumps in appendix bookmark levels."
+  ]
+}

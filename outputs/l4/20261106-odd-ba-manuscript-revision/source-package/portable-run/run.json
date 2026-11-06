@@ -1,0 +1,32 @@
+{
+  "status": "completed_fixed_comparison",
+  "started_at_utc": "2026-11-06T10:57:40.277858+00:00",
+  "finished_at_utc": "2026-11-06T10:57:42.165812+00:00",
+  "elapsed_seconds": 1.887950313044712,
+  "source_json_sha256": "bc4dbed2c29f65ae8f9546cd146005efa6dbb64eb08ef23781ede6f907b91d22",
+  "comparison_contract_sha256": "cc3b8cc2f677635593f739cd450fb1c5fdcdac54dcdbe0a94075391a63b9f940",
+  "driver_sha256": "1858bf76ee46392e52fe0aab9918632f49c52f4c39545d0d01e5b6a8f28eb504",
+  "comparison_json_sha256": "0f22294d1ece4b12b3b85a811d1fec8cbd025520dfd71a5439705b5007c7eddd",
+  "comparison_csv_sha256": "c4b45e7f105fa9a7c34926526f919f136d339c01a6965354f4545fbbde2db145",
+  "source_frozen_before_contract_and_run": true,
+  "native_BLAS": [
+    {
+      "library": "/opt/venv/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
+      "symbol": "scipy_openblas_get_num_threads64_",
+      "threads": 1
+    },
+    {
+      "library": "/opt/venv/lib/python3.12/site-packages/scipy.libs/libscipy_openblas-5f890258.so",
+      "symbol": "scipy_openblas_get_num_threads",
+      "threads": 1
+    }
+  ],
+  "python": "3.12.3",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "no_commit": true,
+  "packaged_numerical_inputs_and_runtime_modules_unchanged": true,
+  "historical_source_originals_reverified": false,
+  "verification_adapter": "source-energy-package-verifier-v1",
+  "adapter_sha256": "b0dccd6691b01fdba50639e8b9e3ebda0d7cd3eb3030c35cf59310c5a188d110"
+}

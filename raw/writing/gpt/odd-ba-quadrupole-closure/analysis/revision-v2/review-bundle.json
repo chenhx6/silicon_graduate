@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-11-06T11:25:56.310941+00:00",
+  "purpose": "Author-review source bundle; authorship placeholders and scientific scope limitations retained; not submitted",
+  "zip_path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/review-source-v2.zip",
+  "zip_sha256": "ced6385ad405a7512a1d3850c7023c905f5f298dd0cdcd29ff9fec314b2b6bd6",
+  "entries": 152,
+  "package_manifest": "data/revision-v2/manifest.json",
+  "no_private_or_publisher_fulltext": true,
+  "template_working_copies": "Same archived official working copies as original candidate"
+}

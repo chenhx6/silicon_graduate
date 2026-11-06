@@ -1,12 +1,15 @@
 # Spin-channel redistribution in quadrupole shape diagnostics of odd barium
 
-**Stage closeout, 2026-11-06:** `main.pdf` is the frozen 10-page candidate
-from the preceding checkpoint. A subsequently completed rigid-charge control
-supports the restricted-proxy mechanism, while a separate \(^{137}\)Ba isomer
-test limits the spectroscopic reach of the declared reconstruction. These
-results have not yet been incorporated into that PDF. The next manuscript
-revision must integrate both; the package is **not currently submission-ready**.
-See [the closeout disposition](analysis/closeout-20261106.md) and the
+**Focused revision, 2026-11-06:** `main.pdf` is now the 12-page revised
+candidate. It integrates the exact rigid-charge control, the 135/137Ba
+source-spectrum comparison and the conditional 137Ba isomer failure.
+Three standalone calculation packages have each been replayed successfully.
+The internal text review found no remaining must-fix scientific wording issue
+within its stated scope. Human authorship/accountability information and
+the final public data/code destination remain unresolved; the manuscript
+has not been submitted and is **not administratively submission-ready**.
+See [the current revision record](analysis/revision-v2/summary.md),
+[the earlier closeout disposition](analysis/closeout-20261106.md) and the
 [Chinese stage report](/workspace/wiki/outputs/l4/20261106-a130-next-evidence/closeout/a130-stage-report-20261106.pdf).
 
 This is a focused English research manuscript prepared in the Springer Nature
@@ -14,7 +17,8 @@ two-column template for an EPJ A candidate. Its single question is how a nearly
 saturated selected spin channel can respond to angular recoupling while carrying
 only part of the complete charge moment.
 
-Read `main.pdf` or edit `main.tex` and `controls.tex`. The numerical inputs,
+Read `main.pdf` or edit `main.tex`, `controls.tex`, `rigid-control.tex` and
+`revision-appendices.tex`. The numerical inputs,
 model results and runnable code are in `data/`; its README gives reproduction
 commands. Figures and their plotting scripts are in `figures/`, with disposable
 plot views under `figures/made/data/`.
@@ -24,6 +28,7 @@ To regenerate the figures without overwriting the supplied versions:
 ```bash
 python3 -B figures/made/plot_primary.py --output-dir /path/to/new-primary-figures
 python3 -B figures/made/plot_coupling.py --output-dir /path/to/new-coupling-figures
+python3 -B figures/made/plot_rigid_control.py --output-dir /path/to/new-rigid-figures
 ```
 
 The main calculation covers the lowest 11/2-negative states of 129–137Ba.
@@ -38,7 +43,13 @@ authors' electromagnetic/invariant figures have not been reproduced, and the
 paper does not claim to correct them. Algebraic quadrupole invariants,
 selected-observable diagnostics and truncation studies are established prior
 work; the proposed contribution is the quantified mechanism in this declared
-odd-Ba family.
+odd-Ba family, now accompanied by an independent fixed-geometry counterexample.
+
+The new [revision data packages](data/revision-v2/README.md) preserve their
+original producers and clearly identify adaptations for standalone replay.
+The original 45-file manifest is unchanged. The preceding 10-page text/PDF
+is retained under `analysis/revision-v2/previous-text/`; it is a historical
+checkpoint, not the current candidate.
 
 The package has completed internal scientific review and targeted rechecks.
 It has not been submitted. Human author

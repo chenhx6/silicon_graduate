@@ -1,0 +1,140 @@
+{
+  "policy": {
+    "energies": {
+      "atol": 1e-10,
+      "rtol": 1e-10
+    },
+    "rates": {
+      "atol": 0.001,
+      "rtol": 1e-10
+    },
+    "half_life_bounds": {
+      "atol": 1e-14,
+      "rtol": 1e-10
+    },
+    "other_floats": {
+      "atol": 1e-12,
+      "rtol": 1e-10
+    }
+  },
+  "strength": {
+    "pass": true,
+    "discrepancies": [],
+    "numeric_maxima": {
+      "other_floats": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 352
+      },
+      "energies": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 172
+      }
+    },
+    "omitted_root_metadata": [
+      "elapsed_seconds",
+      "energy_mapping_record_sha256",
+      "finished_at_utc",
+      "started_at_utc",
+      "state_basis_sha256"
+    ],
+    "state_basis_sha256_equal": true,
+    "basis_hash_boundary": "Exact eigenvector bytes are reported separately; physical-field comparisons include the stored signed RMEs, energies, interference and all strengths."
+  },
+  "energy_mapping": {
+    "pass": true,
+    "discrepancies": [],
+    "numeric_maxima": {
+      "energies": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 24
+      }
+    },
+    "omitted_root_metadata": [
+      "at_utc"
+    ]
+  },
+  "width_and_branches": {
+    "pass": true,
+    "discrepancies": [],
+    "numeric_maxima": {
+      "other_floats": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 323
+      },
+      "rates": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 98
+      },
+      "energies": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 266
+      },
+      "half_life_bounds": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 14
+      }
+    },
+    "omitted_root_metadata": [
+      "finished_at_utc",
+      "started_at_utc"
+    ]
+  },
+  "counts": {
+    "strength_rows": 28,
+    "width_sums": 14,
+    "open_branches": 84,
+    "energy_mapping_pairs": 4
+  },
+  "strength_csv": {
+    "pass": true,
+    "discrepancies": [],
+    "numeric_maxima": {
+      "other_floats": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 336
+      },
+      "energies": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 168
+      }
+    },
+    "omitted_root_metadata": []
+  },
+  "width_csv": {
+    "pass": true,
+    "discrepancies": [],
+    "numeric_maxima": {
+      "other_floats": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 70
+      },
+      "energies": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 14
+      },
+      "half_life_bounds": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 14
+      },
+      "rates": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 14
+      }
+    },
+    "omitted_root_metadata": []
+  },
+  "pass": true
+}

@@ -3,6 +3,19 @@ graph-excluded: true
 updated: 2026-11-06
 ---
 
+## Manuscript revision — 2026-11-06：固定形状控制与异能态限制已整合
+
+- **上一goal turn分类**：progress；已交付并发布14页中文阶段汇报。当前续接按收束主线整合既有结果，没有新核素／参数网格或新研究方向。
+- **当前产物**：`raw/writing/gpt/odd-ba-quadrupole-closure/main.pdf`现为12页；正文3幅核心图，rigid控制在Results首项，条件isomer失败保留Discussion，5分支定标及完整物理约定在附录。旧10页文本/PDF保存在`analysis/revision-v2/previous-text/`。
+- **复现**：`data/revision-v2/`新增rigid/isomer/source三个独立包，原producer/数值输入字节保留并明确适配器边界。rigid20项、isomer28强度/14总和/84分支、source12点均独立重放一致；原45数据文件及主manifest不变。来源图重新提取仍需原PDF，不假称包内可独立核验未打包原件。
+- **审查**：两轮独立文字／科学边界审查无未解决must-fix；最后核实rigid Hamiltonian加号、量纲、算符/波函数表述、IBFM适用范围和书目版本。数值包验证另有真实回执，不以文字审查替代。
+- **Wiki更正**：BM-II source保留BM2-1–4原字节；BM2-5–13中不受原文支持的普适CAP/固定临界自旋、beta4稳定性、PES数值、TSD退激和Mikhailov参数混用等已纠正、收窄或撤回。原件hash不变，未扩展审计其它派生模型。
+- **版式**：12页逐页渲染检查通过，0overfull/未定义引用/缺字；underfull窄栏警告保留实际记录。摘要/引言/Results的论证顺序一致，3主图没有新增独立文章主线。
+- **作者审阅包**：`analysis/revision-v2/review-source-v2.zip`含当前TeX/bbl、3图、数据与代码；不是已提交或署名完备的投稿包。新原件图片和私有iThemba数据均未公开。
+- **未完成边界**：真实Ba形状、刚软性及原作者EM实现未认证；作者/机构/贡献/最终责任声明、永久公开数据代码入口仍需真实信息。全库历史材料学习未完成，goal保持active，不以稿件存在或绿灯宣称全目标达成。
+- **稳定发布指针**：`main / research: integrate rigid-charge control and isomer limits into Ba draft`。精确最终hash/push/提交后核对只写`outputs/l4/20261106-odd-ba-manuscript-revision/publication-final-receipt.local.json`。
+- **文件边界**：只改本goal文件；保留用户PLAN及其它session工作，不检查/测试/修改get-paper。后续按真实证据缺口推进，不重新运行已闭合的同义控制。
+
 ## Stage closeout — 2026-11-06：奇Ba机制、固定形状反例与汇报
 
 - **用户最新指令**：说明当前问题与完成时间，准备收束汇报。本阶段已结束已有并行核查，不开启新方向；总研究goal仍active，不将阶段交付标为全库学习／可发表目标完成。

@@ -1,0 +1,11 @@
+{
+  "exit_code": 1,
+  "error": {
+    "code": "preflight_failed",
+    "message": "path contract failed: KNOWLEDGE_PAGE_IN_OUTPUTS outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/source-before.md: frontmatter type 'source' belongs under knowledge/; keep only a report or receipt in outputs/"
+  },
+  "resolved_by": {
+    "at_utc": "2026-11-06T11:31:32.836016+00:00",
+    "change": "Renamed the historical source snapshot to .snapshot.txt so it cannot be mistaken for a live knowledge source under outputs. Snapshot bytes and source/raw facts are unchanged. Report pointers and artifact hash of that report refreshed."
+  }
+}

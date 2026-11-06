@@ -1,0 +1,266 @@
+{
+  "schema": "rigid-control-portable-inventory-v1",
+  "phase": "inputs-code-documentation-ready-before-independent-replay",
+  "created_at_utc": "2026-11-06T10:57:16.623387+00:00",
+  "path_base": "directory containing this inventory.json",
+  "package_repository_relative": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control",
+  "source_archive": "outputs/l4/20261106-a130-next-evidence/rigid-core-control",
+  "provenance_policy": "Original bytes preserved. Local repository paths are provenance labels only; runtime resolution uses package-relative paths and staged virtual-root paths. This portable inventory is not a shared manuscript manifest.",
+  "files": [
+    {
+      "path": "frozen/checks.json",
+      "sha256": "ee292bd7bcea83526d7873edb90fa9c5c2267a0faecaeb8cfb7222f941da60a3",
+      "size": 5287,
+      "role": "historical-record",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/checks.json",
+        "sha256": "ee292bd7bcea83526d7873edb90fa9c5c2267a0faecaeb8cfb7222f941da60a3"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00"
+    },
+    {
+      "path": "frozen/closeout.json",
+      "sha256": "679d64c3e15a561e8484fad52bb14fa975c3767f77716bf66553677af536d988",
+      "size": 5102,
+      "role": "historical-record",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/closeout.json",
+        "sha256": "679d64c3e15a561e8484fad52bb14fa975c3767f77716bf66553677af536d988"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00"
+    },
+    {
+      "path": "frozen/closeout.md",
+      "sha256": "c0de6e2a8701be280e416c2abdc762ae543749317af580573cb8d0483d286a29",
+      "size": 3624,
+      "role": "historical-record",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/closeout.md",
+        "sha256": "c0de6e2a8701be280e416c2abdc762ae543749317af580573cb8d0483d286a29"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00"
+    },
+    {
+      "path": "frozen/cubic-spin-sectors.csv",
+      "sha256": "96e1be3c2ca9487272882d960525c2ad17f584eea8531fd027153d07c67f9828",
+      "size": 2992,
+      "role": "reference-spin-sectors",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/cubic-spin-sectors.csv",
+        "sha256": "96e1be3c2ca9487272882d960525c2ad17f584eea8531fd027153d07c67f9828"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00"
+    },
+    {
+      "path": "frozen/execution.log",
+      "sha256": "c2d664594d9de061e168c0f9e91fcc485a477f141fe74d28d5cd7e745b495f8f",
+      "size": 4512,
+      "role": "historical-record",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/execution.log",
+        "sha256": "c2d664594d9de061e168c0f9e91fcc485a477f141fe74d28d5cd7e745b495f8f"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00"
+    },
+    {
+      "path": "frozen/proof.md",
+      "sha256": "7707707f1de7c740fa076ded5f0238aaaab313fd0cee81b2bbcfe016b6db0f16",
+      "size": 8242,
+      "role": "historical-record",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/proof.md",
+        "sha256": "7707707f1de7c740fa076ded5f0238aaaab313fd0cee81b2bbcfe016b6db0f16"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00"
+    },
+    {
+      "path": "frozen/protocol.json",
+      "sha256": "40142b140bebfd5f326ffb56081dd4364559df32c59d65882bf7a5a4e694a109",
+      "size": 7812,
+      "role": "frozen-input",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/protocol.json",
+        "sha256": "40142b140bebfd5f326ffb56081dd4364559df32c59d65882bf7a5a4e694a109"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00",
+      "virtual_root_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/protocol.json"
+    },
+    {
+      "path": "frozen/report.md",
+      "sha256": "63e2e6fb4bbc02ab52323e8a7c199903917ec6899992347ebad1584415fcbb76",
+      "size": 9372,
+      "role": "historical-record",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/report.md",
+        "sha256": "63e2e6fb4bbc02ab52323e8a7c199903917ec6899992347ebad1584415fcbb76"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00"
+    },
+    {
+      "path": "frozen/results.json",
+      "sha256": "68c8f78d02a57097b23e00f4e1d45c121454baf9f3a9e30cc1e9fe2ef4282cf8",
+      "size": 52101,
+      "role": "reference-results",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/results.json",
+        "sha256": "68c8f78d02a57097b23e00f4e1d45c121454baf9f3a9e30cc1e9fe2ef4282cf8"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00"
+    },
+    {
+      "path": "frozen/run_control.py",
+      "sha256": "bd90adedf229ce717432756486a37611eea7afa7910aeb849b20fef1dd553647",
+      "size": 27468,
+      "role": "original-producer",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/run_control.py",
+        "sha256": "bd90adedf229ce717432756486a37611eea7afa7910aeb849b20fef1dd553647"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00",
+      "virtual_root_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/run_control.py"
+    },
+    {
+      "path": "frozen/summary.csv",
+      "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34",
+      "size": 5295,
+      "role": "reference-summary",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/summary.csv",
+        "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00"
+    },
+    {
+      "path": "dependencies/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "size": 16720,
+      "role": "frozen-dependency",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "system/scripts/analysis/paired_single_j_rotor.py",
+        "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00",
+      "virtual_root_relative_path": "system/scripts/analysis/paired_single_j_rotor.py"
+    },
+    {
+      "path": "dependencies/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "size": 11912,
+      "role": "frozen-dependency",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "system/scripts/analysis/paired_single_j_em.py",
+        "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00",
+      "virtual_root_relative_path": "system/scripts/analysis/paired_single_j_em.py"
+    },
+    {
+      "path": "dependencies/quadrupole_scalar_invariants.py",
+      "sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "size": 27013,
+      "role": "frozen-dependency",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "system/scripts/analysis/quadrupole_scalar_invariants.py",
+        "sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00",
+      "virtual_root_relative_path": "system/scripts/analysis/quadrupole_scalar_invariants.py"
+    },
+    {
+      "path": "summary.csv",
+      "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34",
+      "size": 5295,
+      "role": "figure-input-and-reference-summary",
+      "source": {
+        "kind": "verbatim-local-copy",
+        "repository_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/summary.csv",
+        "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34"
+      },
+      "copied_at_utc": "2026-11-06T10:53:01.117825+00:00",
+      "same_bytes_as": "frozen/summary.csv"
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "c12561c52020f6f967a63cbf0d6f267e7e03c32d86a7e5b5046f935181da4288",
+      "size": 15833,
+      "role": "new-replay-adapter",
+      "source": {
+        "kind": "new-packaging-artifact",
+        "description": "New adapter for staging, a single original-producer invocation, and numerical comparisons; no scientific producer equations."
+      },
+      "generated_at_utc": "2026-11-06T10:57:16.623387+00:00"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e4523401353860fb79fc4386760956634934896521869943f47b129b7fda4df8",
+      "size": 6810,
+      "role": "new-package-documentation",
+      "source": {
+        "kind": "new-packaging-artifact",
+        "description": "English standalone package instructions, normalization, scope, and provenance."
+      },
+      "generated_at_utc": "2026-11-06T10:57:16.623387+00:00"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "aaf3bc819378c42396b1002b0fd09e4c9bc2c25cefc4ac8772e812a08c3d74bf",
+      "size": 107,
+      "role": "new-environment-record",
+      "source": {
+        "kind": "new-packaging-artifact",
+        "description": "Installed versions used for the packaged replay; no installation executed."
+      },
+      "generated_at_utc": "2026-11-06T10:57:16.623387+00:00"
+    }
+  ],
+  "figure_input": {
+    "path": "summary.csv",
+    "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34",
+    "size": 5295,
+    "byte_identical_archival_duplicate": "frozen/summary.csv"
+  },
+  "tested_environment": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "comparison_design": {
+    "producer_invocations": 1,
+    "C_MeV": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ],
+    "proxy_counts": [
+      1,
+      5,
+      10,
+      "all"
+    ],
+    "atol": 1e-10,
+    "rtol": 1e-10,
+    "compare": "All scientific JSON fields, both CSV tables, five complete-moment results, twenty proxies, and key validation numbers. Only runtime and platform metadata excluded."
+  },
+  "pending_validation_records": [
+    "validation/replay-receipt.json",
+    "validation/comparison-proxies.csv",
+    "validation/execution.log",
+    "validation/inventory-at-replay.json"
+  ]
+}

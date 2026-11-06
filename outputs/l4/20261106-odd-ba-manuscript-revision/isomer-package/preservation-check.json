@@ -1,0 +1,367 @@
+{
+  "checked_at_actual_utc": "2026-11-06T11:11:54.195863+00:00",
+  "original_data_manifest_entry_count": 45,
+  "original45_and_shared_data_manifest_unchanged": true,
+  "frozen_benchmark_inputs_and_producers_unchanged": true,
+  "protected_count": 58,
+  "unchanged_count": 57,
+  "changed_outside_owned_scope": [
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/main.tex",
+      "baseline_sha256": "9304474da99d27e7faf8d340b15c2e025905b0c1fa293bc3bb342af5da630010",
+      "actual_sha256": "6854a7d52acba910c629024d5eb0f1f00b87ca1a93e58aefd093141dd53a092c",
+      "unchanged": false
+    }
+  ],
+  "interpretation": "Shared manuscript files may be concurrently edited by the parent. Changed files outside the two owned directories were neither written nor reverted by this task; only their hashes were checked.",
+  "checks": [
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/README.md",
+      "baseline_sha256": "0b82403276a4bd762bb5ce885123c209b50b331d6119830ae543e4b4d9b2e407",
+      "actual_sha256": "0b82403276a4bd762bb5ce885123c209b50b331d6119830ae543e4b4d9b2e407",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/calibrated-operator-contract.json",
+      "baseline_sha256": "5d49a9ceda150dea250e80eceb1389fdc6b96f6af4307ca2c6c8c2aabb75b6ff",
+      "actual_sha256": "5d49a9ceda150dea250e80eceb1389fdc6b96f6af4307ca2c6c8c2aabb75b6ff",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/chain-contract.json",
+      "baseline_sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+      "actual_sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/LICENSE",
+      "baseline_sha256": "e7beccec3cacfe6943890d3bf79c80b100794f6807e003b284f909ffbafee013",
+      "actual_sha256": "e7beccec3cacfe6943890d3bf79c80b100794f6807e003b284f909ffbafee013",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/calibrated_operator_original.py",
+      "baseline_sha256": "f206481c5abef00e261029de8c790bb32182a7562bfd0ac7b60e898365f955cd",
+      "actual_sha256": "f206481c5abef00e261029de8c790bb32182a7562bfd0ac7b60e898365f955cd",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/coupling_controls_original.py",
+      "baseline_sha256": "df9dacea848d1485c270b6cd4d18754ec59f505e21225e0fdb8817d77b5ef385",
+      "actual_sha256": "df9dacea848d1485c270b6cd4d18754ec59f505e21225e0fdb8817d77b5ef385",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/moment_match_original.py",
+      "baseline_sha256": "e01a26019ec31d191dffb96da2102b1bc129905a013b4d15aebc99340cd5ef2b",
+      "actual_sha256": "e01a26019ec31d191dffb96da2102b1bc129905a013b4d15aebc99340cd5ef2b",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/operator_controls_original.py",
+      "baseline_sha256": "dd0728ed5b9780a9385927be3c3e25f34717bd21bb995c71c3aa83219c94cd33",
+      "actual_sha256": "dd0728ed5b9780a9385927be3c3e25f34717bd21bb995c71c3aa83219c94cd33",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/paired_single_j_em.py",
+      "baseline_sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "actual_sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/paired_single_j_rotor.py",
+      "baseline_sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "actual_sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/quadrupole_path_original.py",
+      "baseline_sha256": "e60832d741e203a40b707f7bd04733389bc82ede92b30da7118cea0f886cd0e0",
+      "actual_sha256": "e60832d741e203a40b707f7bd04733389bc82ede92b30da7118cea0f886cd0e0",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/quadrupole_scalar_invariants.py",
+      "baseline_sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "actual_sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/reproduce_calibrated_operator.py",
+      "baseline_sha256": "01274fe596ee30002b91e617be92e334df74f9e1d5ef6c81e7cdbbe20f06d80c",
+      "actual_sha256": "01274fe596ee30002b91e617be92e334df74f9e1d5ef6c81e7cdbbe20f06d80c",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/reproduce_controls.py",
+      "baseline_sha256": "e414e389e5b46cad94e8ee07d5db781b78a697daa82cd8a197ade9994c7df8b7",
+      "actual_sha256": "e414e389e5b46cad94e8ee07d5db781b78a697daa82cd8a197ade9994c7df8b7",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/single_j_ibfm.py",
+      "baseline_sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "actual_sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/study.py",
+      "baseline_sha256": "3cfdf0751d78e4644b0d5e5659f58ba2e0d1586e1c277da6d2571890b71b0783",
+      "actual_sha256": "3cfdf0751d78e4644b0d5e5659f58ba2e0d1586e1c277da6d2571890b71b0783",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/core-E2-calibration.json",
+      "baseline_sha256": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+      "actual_sha256": "4dfdafe211e675049018f62393192c943544e32b3916151b26161e5b103387d0",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/coupling-protocol.json",
+      "baseline_sha256": "db65e404bf9270b55b587aaadf3e5c9b2dd7e071e906672bb78a8d929c929023",
+      "actual_sha256": "db65e404bf9270b55b587aaadf3e5c9b2dd7e071e906672bb78a8d929c929023",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/moment-match-protocol-original.json",
+      "baseline_sha256": "da644467b47f1bdbfc01daa07245587eb4d730cfce05868e40054237f5e5b32a",
+      "actual_sha256": "da644467b47f1bdbfc01daa07245587eb4d730cfce05868e40054237f5e5b32a",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/moment-match-protocol.json",
+      "baseline_sha256": "6869da3a193fc2a50a69240b0b4049b6854f0375e66cb61ed56f22fb4664fcbf",
+      "actual_sha256": "6869da3a193fc2a50a69240b0b4049b6854f0375e66cb61ed56f22fb4664fcbf",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/old-ensdf-rstat-readiness.json",
+      "baseline_sha256": "22cbf859aedc35f97d9682eeec2ee613ddcb019d5136358eed19f6ed0f4454a8",
+      "actual_sha256": "22cbf859aedc35f97d9682eeec2ee613ddcb019d5136358eed19f6ed0f4454a8",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/operator-sensitivity-contract.json",
+      "baseline_sha256": "688386441deb562b19f7dc5df8b3abeb522976fd9daebf367a4781ca2e53de1e",
+      "actual_sha256": "688386441deb562b19f7dc5df8b3abeb522976fd9daebf367a4781ca2e53de1e",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/quadrupole-path-protocol.json",
+      "baseline_sha256": "12bfe13ab5a832cb153d68af71752dfbe55e418631b02698127ff6186335d4b8",
+      "actual_sha256": "12bfe13ab5a832cb153d68af71752dfbe55e418631b02698127ff6186335d4b8",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/reproduction-prerequisites/chain-core-only-v1.json",
+      "baseline_sha256": "6a530f851325a33845ce8b90a84535723e75eb9e1ff4d1fc2ae574a20eb95f6c",
+      "actual_sha256": "6a530f851325a33845ce8b90a84535723e75eb9e1ff4d1fc2ae574a20eb95f6c",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/reproduction-prerequisites/pilot-assessment.md",
+      "baseline_sha256": "14251f946aff2e814d22c06f58a322afad8533f0b9193ac13a4b028a08d51a50",
+      "actual_sha256": "14251f946aff2e814d22c06f58a322afad8533f0b9193ac13a4b028a08d51a50",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/reproduction-prerequisites/precedent-audit.md",
+      "baseline_sha256": "1a261223beab3ffff0a28d3aa5e54e7e0fb7380c9b858165a79bf290281c0f2a",
+      "actual_sha256": "1a261223beab3ffff0a28d3aa5e54e7e0fb7380c9b858165a79bf290281c0f2a",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/reproduction-prerequisites/run_probe.py",
+      "baseline_sha256": "4cebc4cd466a3a7e89be93a6c3db90921867bf4cc25e6215f28b2b82fbc63097",
+      "actual_sha256": "4cebc4cd466a3a7e89be93a6c3db90921867bf4cc25e6215f28b2b82fbc63097",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/calibrated-chain.json",
+      "baseline_sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+      "actual_sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/calibrated-operator-predictions.csv",
+      "baseline_sha256": "8f0ea8621664ae4d80bd2eca8250604dce9121395b8a1f22defae88c91a99469",
+      "actual_sha256": "8f0ea8621664ae4d80bd2eca8250604dce9121395b8a1f22defae88c91a99469",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/calibrated-operator-predictions.json",
+      "baseline_sha256": "834977b8b37be4201a05126e51c83cd90d1d9aadec29541f7a3e9989fb6bc20f",
+      "actual_sha256": "834977b8b37be4201a05126e51c83cd90d1d9aadec29541f7a3e9989fb6bc20f",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/coupling-controls.csv",
+      "baseline_sha256": "279389665c16f5da73ec601e14aec48c4131991cc21cb917ff1f026dd0a9ef36",
+      "actual_sha256": "279389665c16f5da73ec601e14aec48c4131991cc21cb917ff1f026dd0a9ef36",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/coupling-controls.json",
+      "baseline_sha256": "f19741cedd7e7e29272a2e49fdcce0e3a1fc44a8e522beb540202e3d59828f04",
+      "actual_sha256": "f19741cedd7e7e29272a2e49fdcce0e3a1fc44a8e522beb540202e3d59828f04",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/linear-operator-calibration.json",
+      "baseline_sha256": "6b79dad34a41a726ae9e1014a911fe728026dc51a8010a21ce6af9175374d37c",
+      "actual_sha256": "6b79dad34a41a726ae9e1014a911fe728026dc51a8010a21ce6af9175374d37c",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/moment-matched-energies.csv",
+      "baseline_sha256": "f379bd20ad005c410b380557b1b189e255e9e1fb07aac10208b1552a429cca04",
+      "actual_sha256": "f379bd20ad005c410b380557b1b189e255e9e1fb07aac10208b1552a429cca04",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/moment-matched-roots.json",
+      "baseline_sha256": "1744055715ba8f6f143a3e530f07d1be7827bff624dcb078cf4c5f1fb44fd097",
+      "actual_sha256": "1744055715ba8f6f143a3e530f07d1be7827bff624dcb078cf4c5f1fb44fd097",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/moment-matched.csv",
+      "baseline_sha256": "db902f3aeca20865e92ff02e1c0e51e6d078a743c61983e1de53e58e5a7a7492",
+      "actual_sha256": "db902f3aeca20865e92ff02e1c0e51e6d078a743c61983e1de53e58e5a7a7492",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/moment-matched.json",
+      "baseline_sha256": "43ee036a616db4c76462a013b1b65eec23f50d3a194455f815d4e2ac1162f932",
+      "actual_sha256": "43ee036a616db4c76462a013b1b65eec23f50d3a194455f815d4e2ac1162f932",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/operator-sensitivity.csv",
+      "baseline_sha256": "baa9b5ca720895ac97b36ad07400c52f95153dc242b0571985bce7ad885087f9",
+      "actual_sha256": "baa9b5ca720895ac97b36ad07400c52f95153dc242b0571985bce7ad885087f9",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/operator-sensitivity.json",
+      "baseline_sha256": "d960634a2f8608e8e2365202def792f0fd6b04987fea40b6f331cb3af146792e",
+      "actual_sha256": "d960634a2f8608e8e2365202def792f0fd6b04987fea40b6f331cb3af146792e",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/quadrupole-path.csv",
+      "baseline_sha256": "9b9e17c828433ed337b5d1f8d06ad4daab2da8d6c8ac4e6dc0753e20203ec546",
+      "actual_sha256": "9b9e17c828433ed337b5d1f8d06ad4daab2da8d6c8ac4e6dc0753e20203ec546",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/quadrupole-path.json",
+      "baseline_sha256": "99954dfb5083bb2a145acc6ae47b8e6adf0145576f3f57532f14cb9cf529773a",
+      "actual_sha256": "99954dfb5083bb2a145acc6ae47b8e6adf0145576f3f57532f14cb9cf529773a",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/static-moments.csv",
+      "baseline_sha256": "4ab68901c6de32f6dd1cf846249ddda992a7237a9486c9956acee9e2e2a3e590",
+      "actual_sha256": "4ab68901c6de32f6dd1cf846249ddda992a7237a9486c9956acee9e2e2a3e590",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/results/static-moments.json",
+      "baseline_sha256": "6021c41fe1a067b9a5a2ed835a63dc4ba150922a8ac643e4cfb657a911032afc",
+      "actual_sha256": "6021c41fe1a067b9a5a2ed835a63dc4ba150922a8ac643e4cfb657a911032afc",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/static-moment-constraints.json",
+      "baseline_sha256": "4e86214a5503a0917f336dca70e13840062db151f0dd45994ee66c465111608c",
+      "actual_sha256": "4e86214a5503a0917f336dca70e13840062db151f0dd45994ee66c465111608c",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/vogt2017-transition-constraints.json",
+      "baseline_sha256": "3321870a2bbdd0424eca9eb4e588d0f73577fa816f5ee1072d2e4a22ac1fde43",
+      "actual_sha256": "3321870a2bbdd0424eca9eb4e588d0f73577fa816f5ee1072d2e4a22ac1fde43",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/manifest.json",
+      "baseline_sha256": "6b96b7049d9cf19a45b434d3b96f495d9990e5b9b611211a2826fcac6bcd4bee",
+      "actual_sha256": "6b96b7049d9cf19a45b434d3b96f495d9990e5b9b611211a2826fcac6bcd4bee",
+      "unchanged": true
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/main.tex",
+      "baseline_sha256": "9304474da99d27e7faf8d340b15c2e025905b0c1fa293bc3bb342af5da630010",
+      "actual_sha256": "6854a7d52acba910c629024d5eb0f1f00b87ca1a93e58aefd093141dd53a092c",
+      "unchanged": false
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/README.md",
+      "baseline_sha256": "53285a931a725df0918c0c3194dae3c09371e69dc2fe93e08125b7080fab7bba",
+      "actual_sha256": "53285a931a725df0918c0c3194dae3c09371e69dc2fe93e08125b7080fab7bba",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-protocol.json",
+      "baseline_sha256": "0d275af632774a45150d36925e8bc99ff31566c5b5894e4c90587cee290af9fc",
+      "actual_sha256": "0d275af632774a45150d36925e8bc99ff31566c5b5894e4c90587cee290af9fc",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-results.json",
+      "baseline_sha256": "7adea7bf9da30404ca4db8ee3d849bf9a59037d4d7a05b2e33f913f5877c5039",
+      "actual_sha256": "7adea7bf9da30404ca4db8ee3d849bf9a59037d4d7a05b2e33f913f5877c5039",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-summary.csv",
+      "baseline_sha256": "74c31f74b39a5d8bccb11d492e75bab76cf11d76a51dfe5b91f061e736613794",
+      "actual_sha256": "74c31f74b39a5d8bccb11d492e75bab76cf11d76a51dfe5b91f061e736613794",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/energy-mapping-frozen.json",
+      "baseline_sha256": "57abd9274e345bbb19f6906c54fa87e3b9254d3ffa70c996c2788baec0221aa3",
+      "actual_sha256": "57abd9274e345bbb19f6906c54fa87e3b9254d3ffa70c996c2788baec0221aa3",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/predictions.csv",
+      "baseline_sha256": "4ffdf0860859b2bb3d651b3c36ae88e1cd9554bf94d7438c310921c41c281cdc",
+      "actual_sha256": "4ffdf0860859b2bb3d651b3c36ae88e1cd9554bf94d7438c310921c41c281cdc",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/protocol.json",
+      "baseline_sha256": "d7cfd563d78bd5b2c131d9d3097b8754564fa4b10a81841c4e3078ef3de14d89",
+      "actual_sha256": "d7cfd563d78bd5b2c131d9d3097b8754564fa4b10a81841c4e3078ef3de14d89",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/report.md",
+      "baseline_sha256": "0b3135e9314312779fb2cf37bc4cc9ebb72cda666ae3981ef9dcd85b580857ab",
+      "actual_sha256": "0b3135e9314312779fb2cf37bc4cc9ebb72cda666ae3981ef9dcd85b580857ab",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/results.json",
+      "baseline_sha256": "a5b8f065d68a8a9eb8dfa051dd97b93ac01547be9251d8cd98fef0cd7cddd89c",
+      "actual_sha256": "a5b8f065d68a8a9eb8dfa051dd97b93ac01547be9251d8cd98fef0cd7cddd89c",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_benchmark.py",
+      "baseline_sha256": "7b9e7317bac1b7ae8d927deb38bedf00265dc4b3b87c8c672cf105e1ce5e83d2",
+      "actual_sha256": "7b9e7317bac1b7ae8d927deb38bedf00265dc4b3b87c8c672cf105e1ce5e83d2",
+      "unchanged": true
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_decay_widths.py",
+      "baseline_sha256": "7ac7fb8f511425f62befa1ab8ed26c22480512cac97df541109f2dd9d9e031d3",
+      "actual_sha256": "7ac7fb8f511425f62befa1ab8ed26c22480512cac97df541109f2dd9d9e031d3",
+      "unchanged": true
+    }
+  ]
+}

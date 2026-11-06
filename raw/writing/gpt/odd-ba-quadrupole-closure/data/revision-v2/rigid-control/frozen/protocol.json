@@ -1,0 +1,118 @@
+{
+  "schema": "fixed-shape-exact-unpaired-particle-rotor-control-v1",
+  "frozen_before_hamiltonian_or_proxy_results_at_utc": "2026-11-06T08:30:38.890261+00:00",
+  "status": "local prospective mathematical model control after published odd-Ba checkpoint; not a nuclear fit or a novel theorem",
+  "question": "With intrinsic charge geometry and inertia exactly fixed, can particle-quadrupole coupling change the J+2 restricted proxy while full initial-state quadratic and cubic moments remain geometrically fixed?",
+  "model": {
+    "two_j": 11,
+    "gamma_deg": 20.0,
+    "Qcal": 1.0,
+    "J0_hbar2_per_MeV": 30.0,
+    "inertia_formula": "J_k=(4/3)*J0*sin(gamma-2*pi*k/3)^2, k=1,2,3; existing helper convention, unsorted axes",
+    "inertias_hbar2_per_MeV": [
+      38.79385241571817,
+      16.52703644666137,
+      4.679111137620436
+    ],
+    "C_MeV": [
+      0.0,
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "Hamiltonian": "H=sum_k (I_right,k x 1 - 1 x j_k)^2/(2 J_k) + C*(1 x Q_j(gamma))",
+    "right_body": "I_right=(Jx,-Jy,Jz) with anomalous commutators; particle j has ordinary commutators",
+    "Q_j": "[cos(gamma)*(3*jz^2-j*(j+1)*1)+sqrt(3)*sin(gamma)*(jx^2-jy^2)]/[4*j*(j+1)]",
+    "charge": "q20=cos(gamma), q2,+/-2=sin(gamma)/sqrt(2), q2,+/-1=0; each times fermion identity; Qcal=1",
+    "space": "bare rotor-product |I,K> x |j,Omega>, no pairing, no Nambu doubling or eta projection",
+    "projection": "H_D2=P_I^dagger H_product P_I; EM_RME=V_f^dagger P_f^dagger T_product P_i V_i",
+    "two_I_window": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ],
+    "initial_two_I": 11,
+    "initial_same_I_energy_ordinal": 0,
+    "required_outer_two_I": [
+      7,
+      9,
+      11,
+      13,
+      15
+    ]
+  },
+  "closure_scope": {
+    "registry": "All physical D2 states at each I=1/2..15/2, all their magnetic partners; complete=True means complete only inside this explicitly projected finite window.",
+    "initial_exactness": "For initial I=11/2, rank2 requires only I_a,I_b=7/2..15/2 in closed q2/q3 loops. All their states and middle RMEs are retained. Thus these moments equal infinite-rotor geometry for this initial spin.",
+    "not_claimed": "Global completeness of the infinite rotor, or geometric closure for arbitrary initial spin near the window boundary.",
+    "expected_q2": 1.0,
+    "expected_q3": 0.5000000000000001,
+    "signed_q3_convention": "q3=-sqrt(7/2)*<[Q x Q]^2 dot Q>",
+    "direct_crosscheck": "Build all five lab Q components by Wigner-Eckart in the complete magnetic finite-window representation, without 6j coefficients; contract at M=1/2 and stretched M=11/2.",
+    "operator_identity": "Check initial-I M=1/2 block of QdotQ=1 and normalized cubic=cos(3gamma)*1 in the D2 coordinate basis, before selecting eigenstates."
+  },
+  "predeclared_controls": [
+    "Hermiticity and eigenpair residuals for explicit unpaired H; D2 leakage of H and charge-product RMEs; P^dagger P=1.",
+    "Independently generate physical D2 projector by (1+exp(-i*pi*R1)+exp(-i*pi*R2)+exp(-i*pi*R3))/4 and compare P P^dagger.",
+    "Check ordinary particle and anomalous right-body commutators; wrong-Iy sign as a negative spectator test only.",
+    "At C=0,I=j, analytic R0 vector sum_K|K,Omega=K>/sqrt(2j+1) is in physical D2 space, each Rk annihilates it, ground energy=0 and static Qs=0.",
+    "Spectator R0 E2 spin fractions are (2I_f+1)/(5*(2j+1)) for I_f=7/2..15/2; nonzero strengths terminate only at the two independent even-core R2 eigenenergies.",
+    "Construct independent even-core R2 rotor using ordinary angular momentum matrices and integer D2 group projection, and compare its eigenenergies with all spectator E2-carrying levels.",
+    "Independent Euler-beta Gauss-Legendre integration of Wigner d matrices obtained by exponentiating an independently constructed Jy verifies product lab matrix elements for Ii=11/2 to If=7/2,11/2,15/2 and Ii=If=15/2, mu=0,+1. Check 24 versus48 quadrature nodes. No CG appears inside that numerical integral.",
+    "Numerically verify lab spherical Hermiticity and rank2 covariance; compare direct magnetic contractions, 6j sums, and independent analytic geometry.",
+    "Initial-I operator identities make fixed q2/q3 independent of every Hamiltonian eigenvector, beyond five-point numerical coincidence.",
+    "Consistent deterministic complex rephasing of every multiplet preserves full scalars and n1/n5/n10/all proxies; one C=2 case suffices.",
+    "Explicitly remove the I=15/2 outer channel and show nonzero closure deficit at C=0; separately show high-I boundary lacks global rotor completeness. These are truncation diagnostics, not new production models."
+  ],
+  "proxy_counts": [
+    1,
+    5,
+    10,
+    null
+  ],
+  "diagnostics_per_C": [
+    "actual elapsed runtime, block dimensions, Hermitian/D2/eigenpair checks",
+    "lowest11/2 energy, next same-I gap, adjacent squared overlap and bidirectional best energy-rank matching",
+    "full direct Mhalf and stretched plus6j q2/q3, raw signed ratio and conditional angle",
+    "n1,n5,n10,all J+2 strengths, signed chain, raw proxy ratio, domain status, conditional angle without material clipping",
+    "q2 by spin, static and other-same-I fractions, signed static Qs/same Qcal unit from stretched and RME",
+    "signed cubic ordered spin-pair sums, positive/negative cancellation, initial-state triple",
+    "R^2 expectation and R0 projection as supplemental rotor-state diagnostics, not geometric deformation inputs"
+  ],
+  "tolerances": {
+    "hermiticity_absolute": 1e-10,
+    "D2_leakage_absolute": 1e-10,
+    "eigenpair_absolute": 1e-10,
+    "scalar_geometry_and_closure_absolute": 1e-09,
+    "Euler_integration_absolute": 1e-10,
+    "phase_invariance_absolute": 1e-10,
+    "resolved_gap_warning_MeV": 1e-08,
+    "state_identity": "Report observed best ranks and gaps; no extra grids or forced relabeling."
+  },
+  "outcome_policy": "Keep every C/count outcome including zero strength, out-of-domain proxy, nonmonotonicity, rank changes or failure to exhibit variation. No C/operator choice after observing proxies.",
+  "stop_conditions": [
+    "Frozen helper hash changes",
+    "Unresolved phase, D2 or spectator failure",
+    "Required rank2 channel absent",
+    "Geometry or direct/6j closure fails beyond declared tolerance; investigate only implementation/convention, never tune geometry to satisfy outputs"
+  ],
+  "thread_policy": "OPENBLAS_NUM_THREADS,OMP_NUM_THREADS,MKL_NUM_THREADS,BLIS_NUM_THREADS,NUMEXPR_NUM_THREADS,VECLIB_MAXIMUM_THREADS all1 before imports; PYTHONDONTWRITEBYTECODE=1. Record actual wall runtime; no package/config changes.",
+  "output_boundary": "Only outputs/l4/20261106-a130-next-evidence/rigid-core-control/; compact driver/proof/report/JSON/CSV/checks; no matrices/eigenvectors dumped, no articles, no commits.",
+  "input_sha256": {
+    "system/scripts/analysis/paired_single_j_rotor.py": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "system/scripts/analysis/quadrupole_scalar_invariants.py": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1"
+  },
+  "helper_locators": {
+    "paired_single_j_rotor.py": "L199-222 pure spin/Qj; L234-252 bare D2 embedding; L310-326 inertia definition; right-body Iy convention L352-354",
+    "paired_single_j_em.py": "L5-15 product/Wigner-Eckart convention; L127 CG; L235-249 pure product RME",
+    "quadrupole_scalar_invariants.py": "L18-27 signed6j convention; L296-331 direct contraction; L395-498 finite registry closure/proxy"
+  },
+  "reuse_boundary": "Only pure specified helpers and invariant algebra; paired solve, positive-energy embeddings, Delta=0 and Nambu projections are not called."
+}

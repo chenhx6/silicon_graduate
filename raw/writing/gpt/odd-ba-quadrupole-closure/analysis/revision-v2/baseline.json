@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-11-06T10:51:23.643587+00:00",
+  "scope": "Text and PDF before integrating new controls; original data/manifest.json remains unchanged",
+  "files": [
+    {
+      "paper_path": "main.tex",
+      "snapshot": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/main.tex",
+      "sha256": "0176dc9512ab530b1614fbef526e031a0496bffe3719832729d169af635987db"
+    },
+    {
+      "paper_path": "main.pdf",
+      "snapshot": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/main.pdf",
+      "sha256": "879ce2e1e7564e84d460a25abdb64a3e5ba81973644c8a6a7280b1e18eb535ea"
+    },
+    {
+      "paper_path": "controls.tex",
+      "snapshot": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/controls.tex",
+      "sha256": "ba03a6bbb8fca5292859e9b1dadc256a71db70add8cb71407b2d43de08d8c7f1"
+    },
+    {
+      "paper_path": "references.bib",
+      "snapshot": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/references.bib",
+      "sha256": "cb35fead1daec7baa7795bba5154c3c42a8a789301b5a6799f2d35196fb48312"
+    },
+    {
+      "paper_path": "README.md",
+      "snapshot": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/README.md",
+      "sha256": "53285a931a725df0918c0c3194dae3c09371e69dc2fe93e08125b7080fab7bba"
+    },
+    {
+      "paper_path": "sources/claim-ledger.md",
+      "snapshot": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/sources/claim-ledger.md",
+      "sha256": "d8b087aa1736cb2b44f28db82366bc81220cec4f0243f4b4ce55ac3347a2dca0"
+    }
+  ],
+  "original_data_manifest_sha256": "6b96b7049d9cf19a45b434d3b96f495d9990e5b9b611211a2826fcac6bcd4bee"
+}

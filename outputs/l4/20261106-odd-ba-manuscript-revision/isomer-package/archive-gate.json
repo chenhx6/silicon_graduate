@@ -1,0 +1,10 @@
+{
+  "checked_manifests": [
+    "/workspace/wiki/raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/manifest.json"
+  ],
+  "checked_sources": [],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "system/scripts/wiki_lint.py",
+    "--fail-on",
+    "error"
+  ],
+  "exit_code": 0,
+  "summary": "SUMMARY pages=1386 wikilinks=12747 hashes=479 errors=0 warnings=372 info=5374"
+}

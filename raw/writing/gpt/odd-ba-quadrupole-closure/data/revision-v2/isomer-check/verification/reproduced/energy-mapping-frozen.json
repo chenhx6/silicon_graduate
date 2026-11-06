@@ -1,0 +1,66 @@
+{
+  "at_utc": "2026-11-06T11:08:11.074731+00:00",
+  "frozen_before_any_new_E2_matrix_element": true,
+  "primary_pair": "19half_1_to_15half_1",
+  "energy_nearest_in_declared_four_pairs": "19half_1_to_15half_2",
+  "physical_assignment_certified": false,
+  "is_statistical_chi_square": false,
+  "pairs": [
+    {
+      "pair": "19half_1_to_15half_1",
+      "parent_ordinal": 0,
+      "daughter_ordinal": 0,
+      "parent_state_index": 13,
+      "daughter_state_index": 3,
+      "parent_relative_MeV": 2.142484091205114,
+      "daughter_relative_MeV": 0.9688739204305454,
+      "photon_model_MeV": 1.1736101707745688,
+      "model_decay_direction_positive": true,
+      "parent_energy_residual_keV": 454.284091205114,
+      "daughter_energy_residual_keV": -599.2260795694547,
+      "energy_squared_distance_MeV2": 0.5654459299582347
+    },
+    {
+      "pair": "19half_1_to_15half_2",
+      "parent_ordinal": 0,
+      "daughter_ordinal": 1,
+      "parent_state_index": 13,
+      "daughter_state_index": 11,
+      "parent_relative_MeV": 2.142484091205114,
+      "daughter_relative_MeV": 2.094159042266538,
+      "photon_model_MeV": 0.04832504893857603,
+      "model_decay_direction_positive": true,
+      "parent_energy_residual_keV": 454.284091205114,
+      "daughter_energy_residual_keV": 526.0590422665381,
+      "energy_squared_distance_MeV2": 0.4831121514724437
+    },
+    {
+      "pair": "19half_2_to_15half_1",
+      "parent_ordinal": 1,
+      "daughter_ordinal": 0,
+      "parent_state_index": 33,
+      "daughter_state_index": 3,
+      "parent_relative_MeV": 3.6488482862649114,
+      "daughter_relative_MeV": 0.9688739204305454,
+      "photon_model_MeV": 2.679974365834366,
+      "model_decay_direction_positive": true,
+      "parent_energy_residual_keV": 1960.6482862649113,
+      "daughter_energy_residual_keV": -599.2260795694547,
+      "energy_squared_distance_MeV2": 4.203213596869712
+    },
+    {
+      "pair": "19half_2_to_15half_2",
+      "parent_ordinal": 1,
+      "daughter_ordinal": 1,
+      "parent_state_index": 33,
+      "daughter_state_index": 11,
+      "parent_relative_MeV": 3.6488482862649114,
+      "daughter_relative_MeV": 2.094159042266538,
+      "photon_model_MeV": 1.5546892439983733,
+      "model_decay_direction_positive": true,
+      "parent_energy_residual_keV": 1960.6482862649113,
+      "daughter_energy_residual_keV": 526.0590422665381,
+      "energy_squared_distance_MeV2": 4.120879818383921
+    }
+  ]
+}

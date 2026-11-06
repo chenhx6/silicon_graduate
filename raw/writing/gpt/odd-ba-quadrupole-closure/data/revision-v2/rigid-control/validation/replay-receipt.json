@@ -1,0 +1,703 @@
+{
+  "schema": "rigid-core-independent-packaged-replay-v1",
+  "started_at_utc": "2026-11-06T10:57:40.886995+00:00",
+  "producer_finished_at_utc": "2026-11-06T10:57:43.759423+00:00",
+  "producer_invocation_count": 1,
+  "producer_returncode": 0,
+  "process_wall_seconds_including_import_startup": 2.87240649596788,
+  "package_inventory_snapshot": {
+    "path": "inventory-at-replay.json",
+    "sha256": "bc2e891028e43bbef2a2a670bafee95065b16bddf5bcd1ef1b1b88c44c01ed02"
+  },
+  "adapter_sha256": "c12561c52020f6f967a63cbf0d6f267e7e03c32d86a7e5b5046f935181da4288",
+  "original_producer_sha256": "bd90adedf229ce717432756486a37611eea7afa7910aeb849b20fef1dd553647",
+  "checked_package_files": [
+    {
+      "path": "frozen/checks.json",
+      "sha256": "ee292bd7bcea83526d7873edb90fa9c5c2267a0faecaeb8cfb7222f941da60a3",
+      "size": 5287
+    },
+    {
+      "path": "frozen/closeout.json",
+      "sha256": "679d64c3e15a561e8484fad52bb14fa975c3767f77716bf66553677af536d988",
+      "size": 5102
+    },
+    {
+      "path": "frozen/closeout.md",
+      "sha256": "c0de6e2a8701be280e416c2abdc762ae543749317af580573cb8d0483d286a29",
+      "size": 3624
+    },
+    {
+      "path": "frozen/cubic-spin-sectors.csv",
+      "sha256": "96e1be3c2ca9487272882d960525c2ad17f584eea8531fd027153d07c67f9828",
+      "size": 2992
+    },
+    {
+      "path": "frozen/execution.log",
+      "sha256": "c2d664594d9de061e168c0f9e91fcc485a477f141fe74d28d5cd7e745b495f8f",
+      "size": 4512
+    },
+    {
+      "path": "frozen/proof.md",
+      "sha256": "7707707f1de7c740fa076ded5f0238aaaab313fd0cee81b2bbcfe016b6db0f16",
+      "size": 8242
+    },
+    {
+      "path": "frozen/protocol.json",
+      "sha256": "40142b140bebfd5f326ffb56081dd4364559df32c59d65882bf7a5a4e694a109",
+      "size": 7812
+    },
+    {
+      "path": "frozen/report.md",
+      "sha256": "63e2e6fb4bbc02ab52323e8a7c199903917ec6899992347ebad1584415fcbb76",
+      "size": 9372
+    },
+    {
+      "path": "frozen/results.json",
+      "sha256": "68c8f78d02a57097b23e00f4e1d45c121454baf9f3a9e30cc1e9fe2ef4282cf8",
+      "size": 52101
+    },
+    {
+      "path": "frozen/run_control.py",
+      "sha256": "bd90adedf229ce717432756486a37611eea7afa7910aeb849b20fef1dd553647",
+      "size": 27468
+    },
+    {
+      "path": "frozen/summary.csv",
+      "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34",
+      "size": 5295
+    },
+    {
+      "path": "dependencies/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "size": 16720
+    },
+    {
+      "path": "dependencies/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "size": 11912
+    },
+    {
+      "path": "dependencies/quadrupole_scalar_invariants.py",
+      "sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "size": 27013
+    },
+    {
+      "path": "summary.csv",
+      "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34",
+      "size": 5295
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "c12561c52020f6f967a63cbf0d6f267e7e03c32d86a7e5b5046f935181da4288",
+      "size": 15833
+    },
+    {
+      "path": "README.md",
+      "sha256": "e4523401353860fb79fc4386760956634934896521869943f47b129b7fda4df8",
+      "size": 6810
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "aaf3bc819378c42396b1002b0fd09e4c9bc2c25cefc4ac8772e812a08c3d74bf",
+      "size": 107
+    }
+  ],
+  "staged_runtime_inputs": [
+    {
+      "package_file": "frozen/protocol.json",
+      "virtual_root_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/protocol.json",
+      "sha256": "40142b140bebfd5f326ffb56081dd4364559df32c59d65882bf7a5a4e694a109",
+      "role": "frozen-input"
+    },
+    {
+      "package_file": "frozen/run_control.py",
+      "virtual_root_relative_path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/run_control.py",
+      "sha256": "bd90adedf229ce717432756486a37611eea7afa7910aeb849b20fef1dd553647",
+      "role": "original-producer"
+    },
+    {
+      "package_file": "dependencies/paired_single_j_rotor.py",
+      "virtual_root_relative_path": "system/scripts/analysis/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "role": "frozen-dependency"
+    },
+    {
+      "package_file": "dependencies/paired_single_j_em.py",
+      "virtual_root_relative_path": "system/scripts/analysis/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "role": "frozen-dependency"
+    },
+    {
+      "package_file": "dependencies/quadrupole_scalar_invariants.py",
+      "virtual_root_relative_path": "system/scripts/analysis/quadrupole_scalar_invariants.py",
+      "sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "role": "frozen-dependency"
+    }
+  ],
+  "execution": {
+    "python_isolated_mode": true,
+    "bytecode_writes_disabled": true,
+    "producer_working_directory": "/workspace/wiki/tmp/20261106-odd-ba-rigid-package-replay",
+    "pre_execution_virtual_root_files": [
+      "outputs/l4/20261106-a130-next-evidence/rigid-core-control/protocol.json",
+      "outputs/l4/20261106-a130-next-evidence/rigid-core-control/run_control.py",
+      "system/scripts/analysis/paired_single_j_em.py",
+      "system/scripts/analysis/paired_single_j_rotor.py",
+      "system/scripts/analysis/quadrupole_scalar_invariants.py"
+    ],
+    "command": [
+      "/opt/venv/bin/python3",
+      "-I",
+      "-B",
+      "-u",
+      "/workspace/wiki/tmp/20261106-odd-ba-rigid-package-replay/outputs/l4/20261106-a130-next-evidence/rigid-core-control/run_control.py"
+    ],
+    "external_scientific_inputs_read": [],
+    "data_source": "Package-local files only; source repository paths in metadata are not opened.",
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "BLIS_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "python_version": "3.12.3",
+    "numpy_version": "2.5.4",
+    "scipy_version": "1.18.1"
+  },
+  "comparison_exclusions": [
+    "UTC timestamps",
+    "wall/preflight/per-case elapsed times",
+    "platform-specific loaded BLAS library names and availability of introspection"
+  ],
+  "replay_scope": "Original five C values and twenty proxy/count combinations only; no new grid or adjustment.",
+  "status": "passed",
+  "passed": true,
+  "comparison": {
+    "passed": true,
+    "absolute_tolerance": 1e-10,
+    "relative_tolerance": 1e-10,
+    "numeric_values_checked": 1310,
+    "exact_values_checked": 521,
+    "max_absolute_difference": 0.0,
+    "max_difference_locator": null,
+    "failure_count": 0,
+    "failures": []
+  },
+  "all_twenty_proxy_comparisons": [
+    {
+      "C_MeV": 0.0,
+      "n": 1,
+      "reference_raw_ratio": 0.5785007113181532,
+      "replayed_raw_ratio": 0.5785007113181532,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 18.218280130036437,
+      "replayed_angle_deg": 18.218280130036437,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 0.0,
+      "n": 5,
+      "reference_raw_ratio": 0.32261685116103384,
+      "replayed_raw_ratio": 0.32261685116103384,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 23.726248335539992,
+      "replayed_angle_deg": 23.726248335539992,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 0.0,
+      "n": 10,
+      "reference_raw_ratio": 0.3226168511610339,
+      "replayed_raw_ratio": 0.3226168511610339,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 23.72624833553999,
+      "replayed_angle_deg": 23.72624833553999,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 0.0,
+      "n": "all",
+      "reference_raw_ratio": 0.3226168511610339,
+      "replayed_raw_ratio": 0.3226168511610339,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 23.72624833553999,
+      "replayed_angle_deg": 23.72624833553999,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 1.0,
+      "n": 1,
+      "reference_raw_ratio": 0.8146115015854778,
+      "replayed_raw_ratio": 0.8146115015854778,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 11.817011285916053,
+      "replayed_angle_deg": 11.817011285916053,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 1.0,
+      "n": 5,
+      "reference_raw_ratio": 0.7163700349735335,
+      "replayed_raw_ratio": 0.7163700349735335,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 14.748136234289111,
+      "replayed_angle_deg": 14.748136234289111,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 1.0,
+      "n": 10,
+      "reference_raw_ratio": 0.7171452834778714,
+      "replayed_raw_ratio": 0.7171452834778714,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 14.726903358276209,
+      "replayed_angle_deg": 14.726903358276209,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 1.0,
+      "n": "all",
+      "reference_raw_ratio": 0.7167344069790087,
+      "replayed_raw_ratio": 0.7167344069790087,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 14.738159661811101,
+      "replayed_angle_deg": 14.738159661811101,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 2.0,
+      "n": 1,
+      "reference_raw_ratio": 0.9584178218293936,
+      "replayed_raw_ratio": 0.9584178218293936,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 5.526962373799983,
+      "replayed_angle_deg": 5.526962373799983,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 2.0,
+      "n": 5,
+      "reference_raw_ratio": 0.8535023492202065,
+      "replayed_raw_ratio": 0.8535023492202065,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 10.468442486480443,
+      "replayed_angle_deg": 10.468442486480443,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 2.0,
+      "n": 10,
+      "reference_raw_ratio": 0.8514721235054185,
+      "replayed_raw_ratio": 0.8514721235054185,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 10.542617176595657,
+      "replayed_angle_deg": 10.542617176595657,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 2.0,
+      "n": "all",
+      "reference_raw_ratio": 0.8510961693583255,
+      "replayed_raw_ratio": 0.8510961693583255,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 10.556301431803835,
+      "replayed_angle_deg": 10.556301431803835,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 4.0,
+      "n": 1,
+      "reference_raw_ratio": 1.0784955597540438,
+      "replayed_raw_ratio": 1.0784955597540438,
+      "raw_difference": 0.0,
+      "reference_angle_deg": null,
+      "replayed_angle_deg": null,
+      "reference_domain": "outside_rigid_domain",
+      "replayed_domain": "outside_rigid_domain"
+    },
+    {
+      "C_MeV": 4.0,
+      "n": 5,
+      "reference_raw_ratio": 0.9711194042556129,
+      "replayed_raw_ratio": 0.9711194042556129,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 4.6011908937641115,
+      "replayed_angle_deg": 4.6011908937641115,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 4.0,
+      "n": 10,
+      "reference_raw_ratio": 0.9662644248104755,
+      "replayed_raw_ratio": 0.9662644248104755,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 4.974953073582277,
+      "replayed_angle_deg": 4.974953073582277,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 4.0,
+      "n": "all",
+      "reference_raw_ratio": 0.9662757597888687,
+      "replayed_raw_ratio": 0.9662757597888687,
+      "raw_difference": 0.0,
+      "reference_angle_deg": 4.974112466755522,
+      "replayed_angle_deg": 4.974112466755522,
+      "reference_domain": "within_rigid_domain",
+      "replayed_domain": "within_rigid_domain"
+    },
+    {
+      "C_MeV": 8.0,
+      "n": 1,
+      "reference_raw_ratio": 1.1401187472266396,
+      "replayed_raw_ratio": 1.1401187472266396,
+      "raw_difference": 0.0,
+      "reference_angle_deg": null,
+      "replayed_angle_deg": null,
+      "reference_domain": "outside_rigid_domain",
+      "replayed_domain": "outside_rigid_domain"
+    },
+    {
+      "C_MeV": 8.0,
+      "n": 5,
+      "reference_raw_ratio": 1.0279762706221944,
+      "replayed_raw_ratio": 1.0279762706221944,
+      "raw_difference": 0.0,
+      "reference_angle_deg": null,
+      "replayed_angle_deg": null,
+      "reference_domain": "outside_rigid_domain",
+      "replayed_domain": "outside_rigid_domain"
+    },
+    {
+      "C_MeV": 8.0,
+      "n": 10,
+      "reference_raw_ratio": 1.0262255670208698,
+      "replayed_raw_ratio": 1.0262255670208698,
+      "raw_difference": 0.0,
+      "reference_angle_deg": null,
+      "replayed_angle_deg": null,
+      "reference_domain": "outside_rigid_domain",
+      "replayed_domain": "outside_rigid_domain"
+    },
+    {
+      "C_MeV": 8.0,
+      "n": "all",
+      "reference_raw_ratio": 1.0262502334301442,
+      "replayed_raw_ratio": 1.0262502334301442,
+      "raw_difference": 0.0,
+      "reference_angle_deg": null,
+      "replayed_angle_deg": null,
+      "reference_domain": "outside_rigid_domain",
+      "replayed_domain": "outside_rigid_domain"
+    }
+  ],
+  "five_full_moment_comparisons": [
+    {
+      "C_MeV": 0.0,
+      "q2_reference": 1.0,
+      "q2_replayed": 1.0,
+      "q3_reference": 0.5000000000000001,
+      "q3_replayed": 0.5000000000000001,
+      "q2_difference": 0.0,
+      "q3_difference": 0.0
+    },
+    {
+      "C_MeV": 1.0,
+      "q2_reference": 1.0000000000000007,
+      "q2_replayed": 1.0000000000000007,
+      "q3_reference": 0.49999999999999895,
+      "q3_replayed": 0.49999999999999895,
+      "q2_difference": 0.0,
+      "q3_difference": 0.0
+    },
+    {
+      "C_MeV": 2.0,
+      "q2_reference": 0.999999999999999,
+      "q2_replayed": 0.999999999999999,
+      "q3_reference": 0.49999999999999645,
+      "q3_replayed": 0.49999999999999645,
+      "q2_difference": 0.0,
+      "q3_difference": 0.0
+    },
+    {
+      "C_MeV": 4.0,
+      "q2_reference": 0.9999999999999999,
+      "q2_replayed": 0.9999999999999999,
+      "q3_reference": 0.4999999999999967,
+      "q3_replayed": 0.4999999999999967,
+      "q2_difference": 0.0,
+      "q3_difference": 0.0
+    },
+    {
+      "C_MeV": 8.0,
+      "q2_reference": 0.9999999999999984,
+      "q2_replayed": 0.9999999999999984,
+      "q3_reference": 0.49999999999999933,
+      "q3_replayed": 0.49999999999999933,
+      "q2_difference": 0.0,
+      "q3_difference": 0.0
+    }
+  ],
+  "key_validation_values": {
+    "geometric_operator_identity": {
+      "initial_two_I": 11,
+      "physical_initial_state_dimension": 36,
+      "q2_identity_matrix_max_residual": 5.551115123125783e-16,
+      "q3_cos3gamma_identity_matrix_max_residual": 5.551115123125783e-16,
+      "lab_rank2_covariance_residual": 9.992007221626409e-16,
+      "lab_spherical_Hermiticity_residual": 2.220446049250313e-16,
+      "charge_product_D2_leakage_residual": 4.440892098500626e-16
+    },
+    "Euler_integral_checks": [
+      {
+        "two_Ii": 11,
+        "two_If": 7,
+        "mu": 0,
+        "quadrature_24_vs_48": 1.1046719095020308e-14,
+        "independent_integral_vs_product_WE": 1.6209256159527285e-14
+      },
+      {
+        "two_Ii": 11,
+        "two_If": 7,
+        "mu": 1,
+        "quadrature_24_vs_48": 8.049116928532385e-16,
+        "independent_integral_vs_product_WE": 9.71445146547012e-16
+      },
+      {
+        "two_Ii": 11,
+        "two_If": 11,
+        "mu": 0,
+        "quadrature_24_vs_48": 1.4405143744511406e-14,
+        "independent_integral_vs_product_WE": 2.0816681711721685e-14
+      },
+      {
+        "two_Ii": 11,
+        "two_If": 11,
+        "mu": 1,
+        "quadrature_24_vs_48": 1.0200174038743626e-15,
+        "independent_integral_vs_product_WE": 8.604228440844963e-16
+      },
+      {
+        "two_Ii": 11,
+        "two_If": 15,
+        "mu": 0,
+        "quadrature_24_vs_48": 1.587618925213974e-14,
+        "independent_integral_vs_product_WE": 2.3203661214665772e-14
+      },
+      {
+        "two_Ii": 11,
+        "two_If": 15,
+        "mu": 1,
+        "quadrature_24_vs_48": 1.1934897514720433e-15,
+        "independent_integral_vs_product_WE": 1.1102230246251565e-15
+      },
+      {
+        "two_Ii": 15,
+        "two_If": 15,
+        "mu": 0,
+        "quadrature_24_vs_48": 1.940114735532461e-14,
+        "independent_integral_vs_product_WE": 2.736699755701011e-14
+      },
+      {
+        "two_Ii": 15,
+        "two_If": 15,
+        "mu": 1,
+        "quadrature_24_vs_48": 1.0928757898653885e-15,
+        "independent_integral_vs_product_WE": 8.465450562766819e-16
+      }
+    ],
+    "spectator_R0_checks": {
+      "R0_vector_norm_residual": 2.220446049250313e-16,
+      "R0_D2_membership_residual": 5.551115123125783e-17,
+      "all_Rk_annihilation_residual": 0.0,
+      "R0_Hrot_energy_MeV": -8.012344526598184e-17,
+      "wrong_Iy_sign_R0_energy_MeV": 1.4420814893373046,
+      "lowest_energy_MeV": 2.2733863139581913e-16,
+      "ground_fidelity_to_analytic_R0": 1.0000000000000004,
+      "static_Qs": 3.3276340225702422e-15,
+      "core_R2_eigenenergies_MeV": [
+        0.12679491924311231,
+        0.473205080756888
+      ],
+      "spin_fraction_analytic_max_residual": 5.828670879282072e-16,
+      "all_E2_carrying_levels": [
+        {
+          "two_I": 7,
+          "rank": 0,
+          "energy_MeV": 0.12679491924311237,
+          "q2_strength": 0.12440169358562897,
+          "nearest_core_R2_energy_residual_MeV": 5.551115123125783e-17
+        },
+        {
+          "two_I": 7,
+          "rank": 2,
+          "energy_MeV": 0.47320508075688755,
+          "q2_strength": 0.008931639747704187,
+          "nearest_core_R2_energy_residual_MeV": 4.440892098500626e-16
+        },
+        {
+          "two_I": 9,
+          "rank": 0,
+          "energy_MeV": 0.12679491924311362,
+          "q2_strength": 0.15550211698203623,
+          "nearest_core_R2_energy_residual_MeV": 1.304512053934559e-15
+        },
+        {
+          "two_I": 9,
+          "rank": 2,
+          "energy_MeV": 0.4732050807568879,
+          "q2_strength": 0.011164549684630017,
+          "nearest_core_R2_energy_residual_MeV": 1.1102230246251565e-16
+        },
+        {
+          "two_I": 11,
+          "rank": 1,
+          "energy_MeV": 0.1267949192431123,
+          "q2_strength": 0.18660254037844445,
+          "nearest_core_R2_energy_residual_MeV": 2.7755575615628914e-17
+        },
+        {
+          "two_I": 11,
+          "rank": 3,
+          "energy_MeV": 0.4732050807568887,
+          "q2_strength": 0.013397459621556132,
+          "nearest_core_R2_energy_residual_MeV": 7.216449660063518e-16
+        },
+        {
+          "two_I": 13,
+          "rank": 0,
+          "energy_MeV": 0.12679491924311223,
+          "q2_strength": 0.21770296377485146,
+          "nearest_core_R2_energy_residual_MeV": 8.326672684688674e-17
+        },
+        {
+          "two_I": 13,
+          "rank": 2,
+          "energy_MeV": 0.4732050807568904,
+          "q2_strength": 0.015630369558482068,
+          "nearest_core_R2_energy_residual_MeV": 2.3869795029440866e-15
+        },
+        {
+          "two_I": 15,
+          "rank": 0,
+          "energy_MeV": 0.12679491924311334,
+          "q2_strength": 0.24880338717125813,
+          "nearest_core_R2_energy_residual_MeV": 1.0269562977782698e-15
+        },
+        {
+          "two_I": 15,
+          "rank": 2,
+          "energy_MeV": 0.4732050807568881,
+          "q2_strength": 0.01786327949540836,
+          "nearest_core_R2_energy_residual_MeV": 1.1102230246251565e-16
+        }
+      ],
+      "deliberately_omit_I15half": {
+        "q2_partial": 0.7333333333333335,
+        "missing_q2": 0.2666666666666665,
+        "complete": false
+      }
+    },
+    "high_I_boundary_check": {
+      "two_I": 15,
+      "mean_q2_over_D2_basis_states_in_projected_window": 0.5249999999999998,
+      "geometric_infinite_rotor_q2": 1.0,
+      "boundary": "Missing I=17/2,19/2 outer channels at this initial spin. Window is not globally complete."
+    },
+    "multiplet_rephasing_check": {
+      "C_MeV": 2.0,
+      "q2_difference": 0.0,
+      "q3_difference": 1.1102230246251565e-16,
+      "max_proxy_raw_difference": 3.3306690738754696e-16
+    },
+    "adjacent_state_overlaps": [
+      {
+        "left_C_MeV": 0.0,
+        "right_C_MeV": 1.0,
+        "lowest_to_lowest_squared_fidelity": 0.6476377875739856,
+        "left_lowest_best_right_rank": 0,
+        "right_lowest_best_left_rank": 0,
+        "forward_best_fidelity": 0.6476377875739856,
+        "backward_best_fidelity": 0.6476377875739856,
+        "forward_second_largest_fidelity": 0.2758478979002323
+      },
+      {
+        "left_C_MeV": 1.0,
+        "right_C_MeV": 2.0,
+        "lowest_to_lowest_squared_fidelity": 0.961760698591563,
+        "left_lowest_best_right_rank": 0,
+        "right_lowest_best_left_rank": 0,
+        "forward_best_fidelity": 0.961760698591563,
+        "backward_best_fidelity": 0.961760698591563,
+        "forward_second_largest_fidelity": 0.03579240914320159
+      },
+      {
+        "left_C_MeV": 2.0,
+        "right_C_MeV": 4.0,
+        "lowest_to_lowest_squared_fidelity": 0.9647402646559256,
+        "left_lowest_best_right_rank": 0,
+        "right_lowest_best_left_rank": 0,
+        "forward_best_fidelity": 0.9647402646559256,
+        "backward_best_fidelity": 0.9647402646559256,
+        "forward_second_largest_fidelity": 0.03451943215814468
+      },
+      {
+        "left_C_MeV": 4.0,
+        "right_C_MeV": 8.0,
+        "lowest_to_lowest_squared_fidelity": 0.9780742576807849,
+        "left_lowest_best_right_rank": 0,
+        "right_lowest_best_left_rank": 0,
+        "forward_best_fidelity": 0.9780742576807849,
+        "backward_best_fidelity": 0.9780742576807849,
+        "forward_second_largest_fidelity": 0.016176084822699156
+      }
+    ],
+    "actual_loaded_BLAS_threads": [
+      {
+        "library": "libscipy_openblas64_-f48b354e.so",
+        "symbol": "scipy_openblas_get_num_threads64_",
+        "num_threads": 1
+      },
+      {
+        "library": "libscipy_openblas-5f890258.so",
+        "symbol": "scipy_openblas_get_num_threads",
+        "num_threads": 1
+      }
+    ]
+  },
+  "hard_model_checks_passed": true,
+  "package_bytes_unchanged_after_run": true,
+  "replay_output_files": {
+    "replayed/cubic-spin-sectors.csv": {
+      "sha256": "96e1be3c2ca9487272882d960525c2ad17f584eea8531fd027153d07c67f9828",
+      "size": 2992
+    },
+    "replayed/results.json": {
+      "sha256": "01fbf56ec74f4bc99c39c5bafb23a7e88053cd72f65f1856e504e5a82fef45ab",
+      "size": 52104
+    },
+    "replayed/summary.csv": {
+      "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34",
+      "size": 5295
+    }
+  },
+  "frozen_reference_summary_byte_equal": true,
+  "comparison_completed_at_utc": "2026-11-06T10:57:44.939780+00:00"
+}

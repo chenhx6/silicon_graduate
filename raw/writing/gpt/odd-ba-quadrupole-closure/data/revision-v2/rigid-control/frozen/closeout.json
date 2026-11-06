@@ -1,0 +1,117 @@
+{
+  "schema": "rigid-core-control-closeout-v1",
+  "closed_at_actual_utc": "2026-11-06T10:06:40.680361+00:00",
+  "status": "bounded_control_complete_and_closed_at_user_request",
+  "scope_root_relative": "outputs/l4/20261106-a130-next-evidence/rigid-core-control",
+  "new_work_in_closeout": "read-only hash reconciliation and two new closeout artifacts; no numerical rerun or new research",
+  "frozen_proven_result": {
+    "full_q2": 1.0,
+    "full_q3": 0.5,
+    "intrinsic_gamma_deg": 20.0,
+    "initial_two_I": 11,
+    "C_MeV": [
+      0.0,
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "proxy_all_raw": [
+      0.3226168511610339,
+      0.7167344069790087,
+      0.8510961693583255,
+      0.9662757597888687,
+      1.0262502334301442
+    ],
+    "proxy_all_angle_status": [
+      "within_rigid_domain",
+      "within_rigid_domain",
+      "within_rigid_domain",
+      "within_rigid_domain",
+      "outside_rigid_domain"
+    ],
+    "fixed_geometry_basis": "analytic charge-tensor identities plus initial-spin operator matrix checks",
+    "interpretation": "restricted proxy can vary and leave its real-angle domain at exactly fixed intrinsic charge geometry"
+  },
+  "required_in_scope_work_unfinished": [],
+  "unproved_and_out_of_scope_boundaries": [
+    "No continuous-parameter no-switching theorem; first adjacent squared fidelity .6476377876.",
+    "Finite window is exact for initial11/2 rank2 q2/q3, not globally complete for infinite rotor.",
+    "No inference that the separate IBFM geometry is unchanged; no physical Ba fit or independent experimental validation.",
+    "Parent137Ba experimental benchmark and manuscript integration are not part of this sidecar and were not evaluated here."
+  ],
+  "existing_audit_passed": true,
+  "existing_check_count": 45,
+  "hash_reconciliation": {
+    "prior_artifacts_verified": 9,
+    "frozen_helpers_verified": 3,
+    "all_matched": true
+  },
+  "metrics": {
+    "max_full_geometry_q2_residual": 1.5543122344752192e-15,
+    "max_full_geometry_q3_residual": 3.552713678800501e-15,
+    "max_direct_vs_6j_q2": 6.661338147750939e-16,
+    "max_direct_vs_6j_q3": 3.608224830031759e-15,
+    "max_Qs_direct_vs_RME": 2.220446049250313e-16,
+    "max_H_eigenpair_residual": 5.779522639550588e-14,
+    "actual_main_wall_seconds_including_serialization": 2.5343777799862437,
+    "outside_domain_count": 5,
+    "all_proxy_raw_first_last": [
+      0.3226168511610339,
+      1.0262502334301442
+    ],
+    "closed_form_core_R2_energies_MeV": [
+      0.1267949192431124,
+      0.47320508075688816
+    ],
+    "minimum_adjacent_fidelity": 0.6476377875739856
+  },
+  "frozen_input_sha256": {
+    "system/scripts/analysis/paired_single_j_rotor.py": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "system/scripts/analysis/quadrupole_scalar_invariants.py": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1"
+  },
+  "artifact_manifest_excluding_this_receipt": {
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/checks.json": {
+      "sha256": "ee292bd7bcea83526d7873edb90fa9c5c2267a0faecaeb8cfb7222f941da60a3",
+      "bytes": 5287
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/closeout.md": {
+      "sha256": "c0de6e2a8701be280e416c2abdc762ae543749317af580573cb8d0483d286a29",
+      "bytes": 3624
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/cubic-spin-sectors.csv": {
+      "sha256": "96e1be3c2ca9487272882d960525c2ad17f584eea8531fd027153d07c67f9828",
+      "bytes": 2992
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/execution.log": {
+      "sha256": "c2d664594d9de061e168c0f9e91fcc485a477f141fe74d28d5cd7e745b495f8f",
+      "bytes": 4512
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/proof.md": {
+      "sha256": "7707707f1de7c740fa076ded5f0238aaaab313fd0cee81b2bbcfe016b6db0f16",
+      "bytes": 8242
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/protocol.json": {
+      "sha256": "40142b140bebfd5f326ffb56081dd4364559df32c59d65882bf7a5a4e694a109",
+      "bytes": 7812
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/report.md": {
+      "sha256": "63e2e6fb4bbc02ab52323e8a7c199903917ec6899992347ebad1584415fcbb76",
+      "bytes": 9372
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/results.json": {
+      "sha256": "68c8f78d02a57097b23e00f4e1d45c121454baf9f3a9e30cc1e9fe2ef4282cf8",
+      "bytes": 52101
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/run_control.py": {
+      "sha256": "bd90adedf229ce717432756486a37611eea7afa7910aeb849b20fef1dd553647",
+      "bytes": 27468
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/summary.csv": {
+      "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34",
+      "bytes": 5295
+    }
+  },
+  "preservation": "All pre-existing scope artifacts unchanged; only closeout.md/json added; no shared file writes or commit."
+}

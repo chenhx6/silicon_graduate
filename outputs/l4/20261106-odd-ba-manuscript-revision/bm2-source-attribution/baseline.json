@@ -1,0 +1,15 @@
+{
+  "review_date": "2026-11-06",
+  "observed_utc": "2026-11-06T10:52:06.293630+00:00",
+  "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+  "source_before_sha256": "76467f7ce2b471482ee10587148464e5e0abcae0b777eaa5787598ccf54da724",
+  "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+  "raw_sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+  "preserved_rows_1_to_4": [
+    "| BM2-1 | 固定 I，最大/最小惯量轴分别对应能量极小/极大的简单主轴转动；对称性与 D2 限制仍需保留。 | model-result | direct | §4-5e, PDF 212 / p. 190；PDF 213 / p. 191 | false |",
+    "| BM2-2 | 小振幅展开经玻色正则变换给 ħω=2I√[(A3−A1)(A2−A1)]。 | model-result | direct | PDF 212–213 / pp. 190–191, Eqs. 4-296–4-304 | false |",
+    "| BM2-3 | 近似要求 I²≫⟨I2²+I3²⟩，亦即 I≫(2n+1)(A2+A3−2A1)/[2√((A3−A1)(A2−A1))]。 | model-result | direct | PDF 214 / p. 192, Eqs. 4-306–4-307；已核图像 | false |",
+    "| BM2-4 | 书中后续 E2 算符使用相对主转轴定义的 Q0、Q2 和轴变换。一个无轴定义的“Q0”不能跨公式直接重用。 | model-result | direct | PDF 214 / p. 192, Eq. 4-308 与前段 | false |"
+  ],
+  "scope": "Bounded attribution correction of historical rows BM2-5–13; no new course, whole-book reading, model fit or other-page edits."
+}

@@ -1,0 +1,1033 @@
+{
+  "schema": "nomura2017-source-only-negative-energy-freeze/1",
+  "frozen_at_utc": "2026-11-06T09:33:07.778971+00:00",
+  "frozen_before_kernel_solve_or_spectrum_comparison": true,
+  "prior_exposure_boundary": "Previous operator study exposed these Hamiltonian identities and lowest-11/2 state energies; no newly extracted source point was chosen or changed using a model spectrum.",
+  "source_version": "canonical local PDF is arXiv:1704.07101v2, not a verified journal VoR",
+  "source_files": [
+    {
+      "path": "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass γ -soft nuclei with mass A ≈ 130.pdf",
+      "sha256": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+      "size_bytes": 1039399
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/nomura2017-v2-source.tar.gz",
+      "sha256": "f7ed6dc746f50f16169d8796e4d12becd8827eaf4ac2ee4d5f1ff9cd04690faf",
+      "size_bytes": 794776
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/arxiv-v2-v4.tex",
+      "sha256": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868",
+      "size_bytes": 64836
+    }
+  ],
+  "original_figure_member": {
+    "name": "ba.level.pdf",
+    "sha256": "b6006a11da9e56b14e31f286cedfe339fda90626bba7632fd934cc78ba861ef2",
+    "size_bytes": 29156
+  },
+  "method_reference": {
+    "path": "outputs/l4/20261105-ba129-controlled-pairing/ibfm-case-review/extract_source_points.py",
+    "sha256": "5ca00bef4820324f54018ac910480dfd840752ffb9523688073a267f314989d2",
+    "size_bytes": 10080
+  },
+  "extractor": {
+    "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/extract_source.py",
+    "sha256": "1cd1b13cd3a545081039c47f0dc98e3a03b6eff3d33f2b88968d27833f512e87",
+    "size_bytes": 12427
+  },
+  "pymupdf_version": "1.28.2",
+  "legend_verification": "Original figure and canonical paper p.7 visually checked; theory is panel(c), negative parity; matching marker/color identities fixed without model input.",
+  "selection_scope": "Only N=79 (135Ba) and N=81 (137Ba); all six displayed negative-parity theory series at each N.",
+  "state_identity_boundary": "The negative-parity legend has spin/parity but no ordinal or wavefunction. Its unique series per J is compared to the requested lowest same-J state; no nearest-energy reassignment.",
+  "energy_zero": {
+    "source_observation": "11/2- plotted at zero in both target columns, while positive/negative parities have separate panels.",
+    "comparison_definition": "E(J_1-) - E(11/2_1-) separately in each isotope",
+    "absolute_excitation_from_positive_parity_ground_state_recovered": false,
+    "free_shift_fit_performed": false,
+    "locator": "Fig.5(c); TeX804-809 and853-856"
+  },
+  "precision": {
+    "numeric_extraction_tolerance_keV": 0.002,
+    "observed_plot_grid_keV": 1,
+    "nearest_rounding_sensitivity_half_width_keV": 0.5,
+    "looser_one_grid_sensitivity_half_width_keV": 1.0,
+    "rounding_rule_known": false,
+    "boundary": "These are plot-resolution sensitivities, not author error bars, confidence intervals, or bounds on unprinted Hamiltonian parameter rounding."
+  },
+  "source_evidence": [
+    {
+      "locator": "PDF p.2; TeX200-207",
+      "fact": "NB equals valence fermion pairs; NF=1; proton and neutron bosons not distinguished."
+    },
+    {
+      "locator": "PDF p.3 Table I; TeX301-302",
+      "fact": "134Ba and136Ba core Hamiltonian rows are printed; no NB column."
+    },
+    {
+      "locator": "PDF p.3 Table III; TeX392-393",
+      "fact": "h11/2 occupations for135Ba and137Ba are printed."
+    },
+    {
+      "locator": "PDF p.4 Table V; TeX503-518",
+      "fact": "Negative-parity Gamma,Lambda and monopole rows are printed."
+    },
+    {
+      "locator": "PDF p.4; TeX539-545",
+      "fact": "Authors identify PBOS diagonalization; no executed input deck or eigenvectors in this archive."
+    },
+    {
+      "locator": "PDF p.8; TeX918-927",
+      "fact": "134Ba explicitly called corresponding even-even core of135Ba in the positive-parity E(5/4) discussion."
+    },
+    {
+      "locator": "TeX889-913",
+      "fact": "Detailed Ba135 Fig.9 is positive parity; it supplies no additional negative-parity energies for this audit."
+    }
+  ],
+  "original_figure": {
+    "representation": "original ba.level.pdf member, Fig.5(c)",
+    "page_size_pt": [
+      0.0,
+      0.0,
+      471.2834167480469,
+      391.9140625
+    ],
+    "coordinate_convention": "PDF points, top-left origin, y increases down",
+    "y_ticks": [
+      {
+        "path_index": 197,
+        "label_MeV": 0.0,
+        "y_pt": 349.19195556640625
+      },
+      {
+        "path_index": 199,
+        "label_MeV": 0.5,
+        "y_pt": 308.4564514160156
+      },
+      {
+        "path_index": 201,
+        "label_MeV": 1.0,
+        "y_pt": 267.720947265625
+      },
+      {
+        "path_index": 203,
+        "label_MeV": 1.5,
+        "y_pt": 226.98545837402344
+      },
+      {
+        "path_index": 205,
+        "label_MeV": 2.0,
+        "y_pt": 186.2499542236328
+      }
+    ],
+    "x_ticks": [
+      {
+        "path_index": 187,
+        "label_N": 73,
+        "x_pt": 61.89925765991211
+      },
+      {
+        "path_index": 189,
+        "label_N": 75,
+        "x_pt": 95.04777526855469
+      },
+      {
+        "path_index": 191,
+        "label_N": 77,
+        "x_pt": 128.1962890625
+      },
+      {
+        "path_index": 193,
+        "label_N": 79,
+        "x_pt": 161.3448028564453
+      },
+      {
+        "path_index": 195,
+        "label_N": 81,
+        "x_pt": 194.49331665039062
+      }
+    ],
+    "energy_MeV_equals_intercept_plus_slope_y": {
+      "intercept": 4.286088948077022,
+      "slope": -0.012274306093692159
+    },
+    "N_equals_intercept_plus_slope_x": {
+      "intercept": 69.26533748910381,
+      "slope": 0.06033452826551206
+    },
+    "max_axis_tick_residual_keV": 9.364552377988389e-05,
+    "points": [
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 7,
+        "parity": -1,
+        "source_legend_label": "7/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_left",
+        "fill_rgb": [
+          0.0,
+          0.5,
+          0.0
+        ],
+        "path_index": 155,
+        "connecting_path_index": 151,
+        "marker_anchor_pt": [
+          161.3448028564453,
+          274.4015808105469
+        ],
+        "connecting_vertex_pt": [
+          161.3448028564453,
+          274.4015808105469
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 79.00000005753948,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 917.9999526153648,
+        "plot_grid_energy_keV": 918,
+        "distance_to_1keV_grid_keV": 4.73846351951579e-05,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 9,
+        "parity": -1,
+        "source_legend_label": "9/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_down",
+        "fill_rgb": [
+          0.75,
+          0.75,
+          0.0
+        ],
+        "path_index": 161,
+        "connecting_path_index": 157,
+        "marker_anchor_pt": [
+          161.3448028564453,
+          312.69293212890625
+        ],
+        "connecting_vertex_pt": [
+          161.3448028564453,
+          312.6929626464844
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 79.00000005753948,
+        "marker_line_energy_disagreement_keV": 0.00037458209514441403,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 448.0001857927189,
+        "plot_grid_energy_keV": 448,
+        "distance_to_1keV_grid_keV": 0.00018579271892349425,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 11,
+        "parity": -1,
+        "source_legend_label": "11/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "circle",
+        "fill_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "path_index": 167,
+        "connecting_path_index": 163,
+        "marker_anchor_pt": [
+          161.3448028564453,
+          349.19195556640625
+        ],
+        "connecting_vertex_pt": [
+          161.3448028564453,
+          349.19195556640625
+        ],
+        "anchor_method": "mean of circular Bezier segment starts",
+        "encoded_N": 79.00000005753948,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 0.0,
+        "plot_grid_energy_keV": 0,
+        "distance_to_1keV_grid_keV": 0.0,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 13,
+        "parity": -1,
+        "source_legend_label": "13/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_up",
+        "fill_rgb": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "path_index": 173,
+        "connecting_path_index": 169,
+        "marker_anchor_pt": [
+          161.3448028564453,
+          316.2776794433594
+        ],
+        "connecting_vertex_pt": [
+          161.3448028564453,
+          316.2776794433594
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 79.00000005753948,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 403.9998999865806,
+        "plot_grid_energy_keV": 404,
+        "distance_to_1keV_grid_keV": 0.00010001341939869235,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 15,
+        "parity": -1,
+        "source_legend_label": "15/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "square",
+        "fill_rgb": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "path_index": 179,
+        "connecting_path_index": 175,
+        "marker_anchor_pt": [
+          161.3448028564453,
+          292.8955078125
+        ],
+        "connecting_vertex_pt": [
+          161.3448028564453,
+          292.8955078125
+        ],
+        "anchor_method": "rectangle center",
+        "encoded_N": 79.00000005753948,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 690.9998317189938,
+        "plot_grid_energy_keV": 691,
+        "distance_to_1keV_grid_keV": 0.00016828100615384756,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 17,
+        "parity": -1,
+        "source_legend_label": "17/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "star",
+        "fill_rgb": [
+          0.0,
+          0.75,
+          0.75
+        ],
+        "path_index": 185,
+        "connecting_path_index": 181,
+        "marker_anchor_pt": [
+          161.3448028564453,
+          253.05618286132812
+        ],
+        "connecting_vertex_pt": [
+          161.3448028564453,
+          253.05618286132812
+        ],
+        "anchor_method": "mean of five outer star tips, not bounding-box midpoint",
+        "encoded_N": 79.00000005753948,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": 3.516295772644401,
+        "recovered_energy_keV": 1179.9999007357446,
+        "plot_grid_energy_keV": 1180,
+        "distance_to_1keV_grid_keV": 9.92642553683254e-05,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 7,
+        "parity": -1,
+        "source_legend_label": "7/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_left",
+        "fill_rgb": [
+          0.0,
+          0.5,
+          0.0
+        ],
+        "path_index": 156,
+        "connecting_path_index": 151,
+        "marker_anchor_pt": [
+          194.49331665039062,
+          257.781494140625
+        ],
+        "connecting_vertex_pt": [
+          194.49331665039062,
+          257.781494140625
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 1121.999983705679,
+        "plot_grid_energy_keV": 1122,
+        "distance_to_1keV_grid_keV": 1.629432108529727e-05,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 9,
+        "parity": -1,
+        "source_legend_label": "9/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_down",
+        "fill_rgb": [
+          0.75,
+          0.75,
+          0.0
+        ],
+        "path_index": 162,
+        "connecting_path_index": 157,
+        "marker_anchor_pt": [
+          194.49331665039062,
+          315.46295166015625
+        ],
+        "connecting_vertex_pt": [
+          194.49331665039062,
+          315.46295166015625
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 414.00011818065076,
+        "plot_grid_energy_keV": 414,
+        "distance_to_1keV_grid_keV": 0.00011818065075885897,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 11,
+        "parity": -1,
+        "source_legend_label": "11/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "circle",
+        "fill_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "path_index": 168,
+        "connecting_path_index": 163,
+        "marker_anchor_pt": [
+          194.49331665039062,
+          349.19195556640625
+        ],
+        "connecting_vertex_pt": [
+          194.49331665039062,
+          349.19195556640625
+        ],
+        "anchor_method": "mean of circular Bezier segment starts",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 0.0,
+        "plot_grid_energy_keV": 0,
+        "distance_to_1keV_grid_keV": 0.0,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 13,
+        "parity": -1,
+        "source_legend_label": "13/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_up",
+        "fill_rgb": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "path_index": 174,
+        "connecting_path_index": 169,
+        "marker_anchor_pt": [
+          194.49331665039062,
+          299.73907470703125
+        ],
+        "connecting_vertex_pt": [
+          194.49331665039062,
+          299.73907470703125
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 606.9997968828588,
+        "plot_grid_energy_keV": 607,
+        "distance_to_1keV_grid_keV": 0.0002031171411545074,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 15,
+        "parity": -1,
+        "source_legend_label": "15/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "square",
+        "fill_rgb": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "path_index": 180,
+        "connecting_path_index": 175,
+        "marker_anchor_pt": [
+          194.49331665039062,
+          270.3280334472656
+        ],
+        "connecting_vertex_pt": [
+          194.49331665039062,
+          270.3280334472656
+        ],
+        "anchor_method": "rectangle center",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 967.9999198394315,
+        "plot_grid_energy_keV": 968,
+        "distance_to_1keV_grid_keV": 8.016056847282016e-05,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 17,
+        "parity": -1,
+        "source_legend_label": "17/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "star",
+        "fill_rgb": [
+          0.0,
+          0.75,
+          0.75
+        ],
+        "path_index": 186,
+        "connecting_path_index": 181,
+        "marker_anchor_pt": [
+          194.49331665039062,
+          196.0264892578125
+        ],
+        "connecting_vertex_pt": [
+          194.49331665039062,
+          196.02647399902344
+        ],
+        "anchor_method": "mean of five outer star tips, not bounding-box midpoint",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.00018729104757220702,
+        "bounding_box_energy_bias_keV": 3.516295772644401,
+        "recovered_energy_keV": 1879.9998164547733,
+        "plot_grid_energy_keV": 1880,
+        "distance_to_1keV_grid_keV": 0.00018354522671870654,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      }
+    ]
+  },
+  "canonical_embedded_figure": {
+    "representation": "canonical archived arXiv-v2 paper physical p.7, Fig.5(c)",
+    "page_size_pt": [
+      0.0,
+      0.0,
+      612.0,
+      792.0
+    ],
+    "coordinate_convention": "PDF points, top-left origin, y increases down",
+    "y_ticks": [
+      {
+        "path_index": 197,
+        "label_MeV": 0.0,
+        "y_pt": 383.85565185546875
+      },
+      {
+        "path_index": 199,
+        "label_MeV": 0.5,
+        "y_pt": 362.67236328125
+      },
+      {
+        "path_index": 201,
+        "label_MeV": 1.0,
+        "y_pt": 341.48907470703125
+      },
+      {
+        "path_index": 203,
+        "label_MeV": 1.5,
+        "y_pt": 320.3058166503906
+      },
+      {
+        "path_index": 205,
+        "label_MeV": 2.0,
+        "y_pt": 299.12255859375
+      }
+    ],
+    "x_ticks": [
+      {
+        "path_index": 187,
+        "label_N": 73,
+        "x_pt": 86.18885803222656
+      },
+      {
+        "path_index": 189,
+        "label_N": 75,
+        "x_pt": 103.42674255371094
+      },
+      {
+        "path_index": 191,
+        "label_N": 77,
+        "x_pt": 120.66463470458984
+      },
+      {
+        "path_index": 193,
+        "label_N": 79,
+        "x_pt": 137.90252685546875
+      },
+      {
+        "path_index": 195,
+        "label_N": 81,
+        "x_pt": 155.14041137695312
+      }
+    ],
+    "energy_MeV_equals_intercept_plus_slope_y": {
+      "intercept": 9.06034790137632,
+      "slope": -0.023603528716017882
+    },
+    "N_equals_intercept_plus_slope_x": {
+      "intercept": 63.00006771695816,
+      "slope": 0.11602349203075413
+    },
+    "max_axis_tick_residual_keV": 0.0007203225322882645,
+    "points": [
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 7,
+        "parity": -1,
+        "source_legend_label": "7/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_left",
+        "fill_rgb": [
+          0.0,
+          0.5,
+          0.0
+        ],
+        "path_index": 155,
+        "connecting_path_index": 151,
+        "marker_anchor_pt": [
+          137.90252685546875,
+          344.963134765625
+        ],
+        "connecting_vertex_pt": [
+          137.90252685546875,
+          344.963134765625
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 79.0000004425945,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 918.0006439683428,
+        "plot_grid_energy_keV": 918,
+        "distance_to_1keV_grid_keV": 0.0006439683428425269,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 9,
+        "parity": -1,
+        "source_legend_label": "9/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_down",
+        "fill_rgb": [
+          0.75,
+          0.75,
+          0.0
+        ],
+        "path_index": 161,
+        "connecting_path_index": 157,
+        "marker_anchor_pt": [
+          137.90252685546875,
+          364.87542724609375
+        ],
+        "connecting_vertex_pt": [
+          137.90252685546875,
+          364.87542724609375
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 79.0000004425945,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 448.0002766038513,
+        "plot_grid_energy_keV": 448,
+        "distance_to_1keV_grid_keV": 0.0002766038513186686,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 11,
+        "parity": -1,
+        "source_legend_label": "11/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "circle",
+        "fill_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "path_index": 167,
+        "connecting_path_index": 163,
+        "marker_anchor_pt": [
+          137.90252685546875,
+          383.85565185546875
+        ],
+        "connecting_vertex_pt": [
+          137.90252685546875,
+          383.85565185546875
+        ],
+        "anchor_method": "mean of circular Bezier segment starts",
+        "encoded_N": 79.0000004425945,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 0.0,
+        "plot_grid_energy_keV": 0,
+        "distance_to_1keV_grid_keV": 0.0,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 13,
+        "parity": -1,
+        "source_legend_label": "13/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_up",
+        "fill_rgb": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "path_index": 173,
+        "connecting_path_index": 169,
+        "marker_anchor_pt": [
+          137.90252685546875,
+          366.7395935058594
+        ],
+        "connecting_vertex_pt": [
+          137.90252685546875,
+          366.73956298828125
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 79.0000004425945,
+        "marker_line_energy_disagreement_keV": 0.0007203225316167567,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 403.9993747600423,
+        "plot_grid_energy_keV": 404,
+        "distance_to_1keV_grid_keV": 0.0006252399576851531,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 15,
+        "parity": -1,
+        "source_legend_label": "15/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "square",
+        "fill_rgb": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "path_index": 179,
+        "connecting_path_index": 175,
+        "marker_anchor_pt": [
+          137.90252685546875,
+          354.58038330078125
+        ],
+        "connecting_vertex_pt": [
+          137.90252685546875,
+          354.5803527832031
+        ],
+        "anchor_method": "rectangle center",
+        "encoded_N": 79.0000004425945,
+        "marker_line_energy_disagreement_keV": 0.0007203225316167567,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 690.9996419997011,
+        "plot_grid_energy_keV": 691,
+        "distance_to_1keV_grid_keV": 0.00035800029888832796,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 135,
+        "neutron_N": 79,
+        "two_J": 17,
+        "parity": -1,
+        "source_legend_label": "17/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "star",
+        "fill_rgb": [
+          0.0,
+          0.75,
+          0.75
+        ],
+        "path_index": 185,
+        "connecting_path_index": 181,
+        "marker_anchor_pt": [
+          137.90252685546875,
+          333.8631286621094
+        ],
+        "connecting_vertex_pt": [
+          137.90252685546875,
+          333.86309814453125
+        ],
+        "anchor_method": "mean of five outer star tips, not bounding-box midpoint",
+        "encoded_N": 79.0000004425945,
+        "marker_line_energy_disagreement_keV": 0.0007203225316167567,
+        "bounding_box_energy_bias_keV": 3.516254438087198,
+        "recovered_energy_keV": 1179.999956780648,
+        "plot_grid_energy_keV": 1180,
+        "distance_to_1keV_grid_keV": 4.321935193729587e-05,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 7,
+        "parity": -1,
+        "source_legend_label": "7/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_left",
+        "fill_rgb": [
+          0.0,
+          0.5,
+          0.0
+        ],
+        "path_index": 156,
+        "connecting_path_index": 151,
+        "marker_anchor_pt": [
+          155.14041137695312,
+          336.32037353515625
+        ],
+        "connecting_vertex_pt": [
+          155.14041137695312,
+          336.32037353515625
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 1122.000306857398,
+        "plot_grid_energy_keV": 1122,
+        "distance_to_1keV_grid_keV": 0.00030685739807267964,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 9,
+        "parity": -1,
+        "source_legend_label": "9/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_down",
+        "fill_rgb": [
+          0.75,
+          0.75,
+          0.0
+        ],
+        "path_index": 162,
+        "connecting_path_index": 157,
+        "marker_anchor_pt": [
+          155.14041137695312,
+          366.3158874511719
+        ],
+        "connecting_vertex_pt": [
+          155.14041137695312,
+          366.3158874511719
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 414.00033278901026,
+        "plot_grid_energy_keV": 414,
+        "distance_to_1keV_grid_keV": 0.0003327890102582387,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 11,
+        "parity": -1,
+        "source_legend_label": "11/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "circle",
+        "fill_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "path_index": 168,
+        "connecting_path_index": 163,
+        "marker_anchor_pt": [
+          155.14041137695312,
+          383.85565185546875
+        ],
+        "connecting_vertex_pt": [
+          155.14041137695312,
+          383.85565185546875
+        ],
+        "anchor_method": "mean of circular Bezier segment starts",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 0.0,
+        "plot_grid_energy_keV": 0,
+        "distance_to_1keV_grid_keV": 0.0,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 13,
+        "parity": -1,
+        "source_legend_label": "13/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "triangle_up",
+        "fill_rgb": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "path_index": 174,
+        "connecting_path_index": 169,
+        "marker_anchor_pt": [
+          155.14041137695312,
+          358.1391906738281
+        ],
+        "connecting_vertex_pt": [
+          155.14041137695312,
+          358.13916015625
+        ],
+        "anchor_method": "tip/base midpoint, not triangle centroid",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.0007203225316167567,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 606.999229975214,
+        "plot_grid_energy_keV": 607,
+        "distance_to_1keV_grid_keV": 0.0007700247859929732,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 15,
+        "parity": -1,
+        "source_legend_label": "15/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "square",
+        "fill_rgb": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "path_index": 180,
+        "connecting_path_index": 175,
+        "marker_anchor_pt": [
+          155.14041137695312,
+          342.8448486328125
+        ],
+        "connecting_vertex_pt": [
+          155.14041137695312,
+          342.8448181152344
+        ],
+        "anchor_method": "rectangle center",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.0007203225316167567,
+        "bounding_box_energy_bias_keV": -0.0,
+        "recovered_energy_keV": 967.999671532926,
+        "plot_grid_energy_keV": 968,
+        "distance_to_1keV_grid_keV": 0.0003284670740413276,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      },
+      {
+        "odd_A": 137,
+        "neutron_N": 81,
+        "two_J": 17,
+        "parity": -1,
+        "source_legend_label": "17/2-",
+        "ordinal_printed_in_legend": false,
+        "comparison_state_policy": "lowest kernel eigenstate at this J, fixed before comparison",
+        "marker_kind": "star",
+        "fill_rgb": [
+          0.0,
+          0.75,
+          0.75
+        ],
+        "path_index": 186,
+        "connecting_path_index": 181,
+        "marker_anchor_pt": [
+          155.14041137695312,
+          304.20654296875
+        ],
+        "connecting_vertex_pt": [
+          155.14041137695312,
+          304.20654296875
+        ],
+        "anchor_method": "mean of five outer star tips, not bounding-box midpoint",
+        "encoded_N": 81.0,
+        "marker_line_energy_disagreement_keV": 0.0,
+        "bounding_box_energy_bias_keV": 3.516254438087198,
+        "recovered_energy_keV": 1880.0000288129013,
+        "plot_grid_energy_keV": 1880,
+        "distance_to_1keV_grid_keV": 2.881290129153058e-05,
+        "reference_state": "lowest displayed 11/2- at N=79 or 81; zero in Fig.5(c)"
+      }
+    ]
+  },
+  "max_original_vs_embedded_energy_difference_keV": 0.0006913529780376848,
+  "no_kernel_modules_imported": true,
+  "no_chain_or_prediction_file_read": true
+}

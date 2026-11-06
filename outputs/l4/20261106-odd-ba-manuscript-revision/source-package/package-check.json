@@ -1,0 +1,120 @@
+{
+  "schema": "source-energy-package-closeout-check/1",
+  "checked_at_utc": "2026-11-06T11:00:23.027728+00:00",
+  "status": "passed_bounded_packaging_and_one_isolated_model_comparison",
+  "registered_original_data_payloads_unchanged": 45,
+  "main_data_manifest_unchanged": true,
+  "total_preexisting_data_files_verified_unchanged": 46,
+  "unchanged_source_and_original_producer_copies_verified": 9,
+  "package_file_count": 13,
+  "package_files": [
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/REPLAY.md",
+      "sha256": "51af980672d24a0e77c40b6d638ea9e546b5f28f532522373673cde1664c5252",
+      "size_bytes": 8361
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/comparison-contract.json",
+      "sha256": "cc3b8cc2f677635593f739cd450fb1c5fdcdac54dcdbe0a94075391a63b9f940",
+      "size_bytes": 5484
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/expected/comparison.csv",
+      "sha256": "c4b45e7f105fa9a7c34926526f919f136d339c01a6965354f4545fbbde2db145",
+      "size_bytes": 1914
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/expected/comparison.json",
+      "sha256": "0f22294d1ece4b12b3b85a811d1fec8cbd025520dfd71a5439705b5007c7eddd",
+      "size_bytes": 11266
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/expected/run-original.json",
+      "sha256": "2a6c60296585b35ecab16e3193306ba9569cf110e20cca9ce8a57ad43271edfb",
+      "size_bytes": 1234
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/package-index.json",
+      "sha256": "ab019e1014a8373bbfe3300858ac3daeabc2ce169292a9b004daaa840c357b4f",
+      "size_bytes": 8363
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/producers/compare_fixed_chain.py",
+      "sha256": "1858bf76ee46392e52fe0aab9918632f49c52f4c39545d0d01e5b6a8f28eb504",
+      "size_bytes": 8553
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/producers/extract_source.py",
+      "sha256": "1cd1b13cd3a545081039c47f0dc98e3a03b6eff3d33f2b88968d27833f512e87",
+      "size_bytes": 12427
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/replay_model.py",
+      "sha256": "b0dccd6691b01fdba50639e8b9e3ebda0d7cd3eb3030c35cf59310c5a188d110",
+      "size_bytes": 10376
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-freeze.json",
+      "sha256": "1b6f11ca17a614717a53f4b405044f5a51c8f7d7ba6f4c06b1833ad833845d9b",
+      "size_bytes": 806
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-identities.json",
+      "sha256": "1e790786fe8a2336f3563d222d3598483a4247c6be74b003c270915b888f7978",
+      "size_bytes": 5475
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-points-frozen.csv",
+      "sha256": "d88889bfb81501ba2faab30665d20db565a0e264572999d31a7f269eecc4456a",
+      "size_bytes": 1324
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-points-frozen.json",
+      "sha256": "bc4dbed2c29f65ae8f9546cd146005efa6dbb64eb08ef23781ede6f907b91d22",
+      "size_bytes": 34182
+    }
+  ],
+  "one_isolated_model_replay_executed": true,
+  "comparison_json_byte_identical_to_frozen": true,
+  "comparison_csv_byte_identical_to_frozen": true,
+  "source_points_checked": 12,
+  "comparison_rows_checked": 12,
+  "max_numeric_replay_difference": 0,
+  "max_abs_kernel_minus_source_keV": {
+    "135": 1.8956985132309683,
+    "137": 3.1281649153208946
+  },
+  "source_reextraction_performed": false,
+  "source_reextraction_recipe_status": "syntax_checked_only; requires specified local originals; not run",
+  "raw_originals_read_during_isolated_model_replay": false,
+  "external_wiki_open_attempts_rejected": [],
+  "original_source_freeze_unchanged": true,
+  "fulltext_or_original_figure_included": false,
+  "native_BLAS_thread_counts": [
+    1,
+    1
+  ],
+  "verification_metadata_adaptation": "Original producer unchanged; newrun scopes hash verification to packaged files and distinguishes historical source hashes from source bytes.",
+  "audit_records": [
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/baseline-existing-data.json",
+      "sha256": "ae195fbf415eec7211953ea66aea2be5ac1bb2126c4fdc79d20bde464687abe8"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/verification.json",
+      "sha256": "2760a5852f6703ac1b04e6f89c914b4bda16fe58d175ff9e4ce204984bde4e6b"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/run.json",
+      "sha256": "4ced23e116bb523708f2ee3bb9f55eff0c73a637157f97de665c69a079dd120a"
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/report.md",
+      "sha256": "3666e897e7c928cf3b1e42f0512e4760368bc460ddd43fe3375c2272bee9df39"
+    }
+  ],
+  "main_manifest_main_tex_README_or_knowledge_edits_performed": false,
+  "outputs_manifest_created": false,
+  "no_new_model_EM_or_parameter_fit": true,
+  "no_commit": true
+}

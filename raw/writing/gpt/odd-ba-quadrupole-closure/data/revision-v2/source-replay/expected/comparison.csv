@@ -1,0 +1,13 @@
+odd_A,state,two_J,kernel_ordinal_zero_based,kernel_spectrum_index,source_ordinal_printed,source_locator,source_plot_keV,source_recovered_keV,kernel_relative_keV,kernel_minus_source_plot_keV,inside_nearest_rounding_sensitivity,inside_one_grid_sensitivity,is_fixed_reference
+135,7/2-,7,0,5,False,"arXiv-v2 p7 Fig5(c), N=79, vector path155",918,917.9999526153648,919.3617980937692,1.3617980937691527,False,False,False
+135,9/2-,9,0,2,False,"arXiv-v2 p7 Fig5(c), N=79, vector path161",448,448.0001857927189,449.89569851323097,1.8956985132309683,False,False,False
+135,11/2-,11,0,0,False,"arXiv-v2 p7 Fig5(c), N=79, vector path167",0,0.0,0.0,0.0,True,True,True
+135,13/2-,13,0,1,False,"arXiv-v2 p7 Fig5(c), N=79, vector path173",404,403.9998999865806,404.5854042126624,0.5854042126624108,False,True,False
+135,15/2-,15,0,3,False,"arXiv-v2 p7 Fig5(c), N=79, vector path179",691,690.9998317189938,691.8632951901653,0.8632951901653314,False,True,False
+135,17/2-,17,0,7,False,"arXiv-v2 p7 Fig5(c), N=79, vector path185",1180,1179.9999007357446,1181.0636427934292,1.0636427934291532,False,False,False
+137,7/2-,7,0,5,False,"arXiv-v2 p7 Fig5(c), N=81, vector path156",1122,1121.999983705679,1125.0431447913854,3.04314479138543,False,False,False
+137,9/2-,9,0,1,False,"arXiv-v2 p7 Fig5(c), N=81, vector path162",414,414.00011818065076,417.1281649153209,3.1281649153208946,False,False,False
+137,11/2-,11,0,0,False,"arXiv-v2 p7 Fig5(c), N=81, vector path168",0,0.0,0.0,0.0,True,True,True
+137,13/2-,13,0,2,False,"arXiv-v2 p7 Fig5(c), N=81, vector path174",607,606.9997968828588,606.8564438781982,-0.14355612180179378,True,True,False
+137,15/2-,15,0,3,False,"arXiv-v2 p7 Fig5(c), N=81, vector path180",968,967.9999198394315,968.8739204305455,0.8739204305454678,False,True,False
+137,17/2-,17,0,10,False,"arXiv-v2 p7 Fig5(c), N=81, vector path186",1880,1879.9998164547733,1880.069172852624,0.06917285262397854,True,True,False

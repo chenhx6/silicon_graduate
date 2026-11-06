@@ -1,0 +1,6 @@
+{
+  "energies": {"atol": 1e-10, "rtol": 1e-10},
+  "rates": {"atol": 0.001, "rtol": 1e-10},
+  "half_life_bounds": {"atol": 1e-14, "rtol": 1e-10},
+  "other_floats": {"atol": 1e-12, "rtol": 1e-10}
+}

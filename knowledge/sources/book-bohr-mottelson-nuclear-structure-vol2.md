@@ -3,7 +3,7 @@ type: source
 title: "Bohr–Mottelson Nuclear Structure II：非轴对称转子高自旋近似选段"
 aliases: [BM-II-high-spin-rotor]
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-06
 status: ai-draft
 review_status: unreviewed
 source_type: book
@@ -13,7 +13,7 @@ authors: [Aage Bohr, Ben R. Mottelson]
 year: 1975
 citation_key: "bohr_1975_volume-deformations"
 publisher: "World Scientific reissue of W. A. Benjamin original"
-pages: "772 PDF pages; selected printed pp. 190–192"
+pages: "772 PDF pages; initial printed pp.190–192 plus bounded attribution checks listed below"
 language: en
 canonical_source: "Local PDF, preface to reissue and section 4-5e"
 raw_file: "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf"
@@ -33,7 +33,7 @@ tags: [books, wobbling, high-spin, approximation-validity]
 
 Vol. II 原版 1975；本地为 World Scientific 重印。此记录与 [[book-bohr-mottelson-nuclear-structure]] 的第一卷原件分开登记，避免用第一卷哈希声称已核验第二卷。
 
-本轮读到：前言/目录；§4-5e 印刷 pp. 190–192（PDF 212–214）文字、推导及页面图像。只覆盖高自旋三轴转子近似的开头；未读完 §4-5e 后续 E2 公式、全部例题/附录或整卷。`skimmed` 是全卷的诚实状态，局部公式重建不作整卷 deep-read。
+初始阅读记录为前言／目录及 §4-5e 印刷 pp.190–192（物理 PDF212–214）的文字、推导和页面图像。2026-11-06 另对历史 BM2-5–13 作有界引用归属核查，实际核查页和范围列于 Scope and Reading Depth；这不增加整章或整卷阅读完成声明，`reading_depth` 保持 `skimmed`。
 
 ## Method and Design Logic
 
@@ -49,15 +49,39 @@ Vol. II 原版 1975；本地为 World Scientific 重印。此记录与 [[book-bo
 | BM2-2 | 小振幅展开经玻色正则变换给 ħω=2I√[(A3−A1)(A2−A1)]。 | model-result | direct | PDF 212–213 / pp. 190–191, Eqs. 4-296–4-304 | false |
 | BM2-3 | 近似要求 I²≫⟨I2²+I3²⟩，亦即 I≫(2n+1)(A2+A3−2A1)/[2√((A3−A1)(A2−A1))]。 | model-result | direct | PDF 214 / p. 192, Eqs. 4-306–4-307；已核图像 | false |
 | BM2-4 | 书中后续 E2 算符使用相对主转轴定义的 Q0、Q2 和轴变换。一个无轴定义的“Q0”不能跨公式直接重用。 | model-result | direct | PDF 214 / p. 192, Eq. 4-308 与前段 | false |
-| BM2-5 | $\gamma$ 振动带与基带 Coriolis 混合（Mikhailov 展开）：电四极跃迁矩阵元引入一级摄动修正 $M(E2) = M_0 \langle I_\gamma 2 2 -2 \mid I_g 0 \rangle [1 + z_\gamma (I_g(I_g+1) - I_\gamma(I_\gamma+1))]$；混合参数 $z_\gamma$ 与转-振耦合矩阵元 $h_2 = z_\gamma \Delta E / \sqrt{6}$ 解释了实测 $B(E2; 2_\gamma \to 0_g)/B(E2; 2_\gamma \to 2_g)$ 比值对 Alaga 理论值 $0.700$ 的系统性压低。 | model-result | direct | Vol. II, §4-2, pp. 140–155 | false |
-| BM2-6 | Davydov-Chaban 非绝热三轴转子模型：引入动力学可变性参量 $\mu$，由一元四次平衡方程 $p^3(p-1) = \mu^4 \varepsilon(J, \gamma)$ 求解离心 $\beta$ 拉伸比 $p = \beta/\beta_0$，成功将刚性 Davydov-Filippov 转子推广至同时解释基态带、$\gamma$ 振动带头与奇自旋能态间距。 | model-result | direct | Vol. II, §4-2, pp. 175–195 | false |
-| BM2-7 | 奇 $A$ 变形核 Coriolis 带混合与签名裂相：通过 Coriolis 相互作用 $H_{\text{Coriolis}} = -A_{\text{rot}} [I_+ j_- + I_- j_+]$ 连接 $\Delta K = \pm 1$ 的转动带，推导对角解耦项 $\Delta E_{1/2} = a A_{\text{rot}} (-1)^{I+1/2}(I+1/2)$，严格证明三对角哈密顿矩阵对角化后波函数向多个 $K$ 分量的空间弥散，微观解释单核子对齐与签名交错。 | model-result | direct | Vol. II, §4-3, pp. 158–175 | false |
-| BM2-8 | 三轴超形变（TSD）摆动激发与退激穿透动力学：在非轴对称超形变势阱中，准粒子取向与非主轴转动形成多声子摆动能带；当激发能随自旋降低逼近正常形变（ND）态时，经由 Hill-Wheeler 势垒穿透向密集复合态隧穿（Decayout），阐明超形变带在低自旋区的终止截断机制。 | model-result | direct | Vol. II, §4-5, pp. 190–210 | false |
-| BM2-9 | 三轴核高阶十六极形变（$\beta_4, \gamma_4$）对转动惯量与摆动频率的微扰修正：核表面十六极形变使主轴转动惯量引入重整化修正 $\mathcal{J}_k(\beta_2, \gamma, \beta_4) = \mathcal{J}_k^{(0)} [1 + \kappa_4 \beta_4 \cos(\gamma - 2\pi k/3) + \mathcal{O}(\beta_4^2)]$；证明正 $\beta_4 > 0$ 增强中间轴惯量优势并稳定横向摆动，而负 $\beta_4 < 0$ 削弱惯量不对称性并加速频率下落，完善了纯四极转子模型的微观多极拓展。 | model-result | direct | Vol. II, §4-2, pp. 135–150; §4-5, pp. 190–215 | false |
-| BM2-10 | 宏观-微观三维 $(\beta_2, \gamma, \beta_4)$ 势能面 Strutinsky 壳修正与高自旋超形变深阱稳定化：将液滴模型形变能与 Strutinsky 单粒子能级平滑壳修正相结合；揭示中重核由于高-$j$ 闯入轨道形成第二势能低谷，在极高自旋（$I \ge 25 - 40\ \hbar$）下由超形变大转动惯量将转动动能压低 $10 - 15\text{ MeV}$，驱动三轴超形变第二阱在较高温势垒后稳定化存在。 | model-result | direct | Vol. II, §4-2, §6-4, pp. 130–145, 580–615 | false |
-| BM2-11 | Mottelson-Valatin 科里奥利反配对（CAP）与超流态向正常态二级相变：转动科里奥利力向时间反演核子对施加反向力矩，导致单极配对能隙随转动频率单调淬灭 $\Delta(\omega) = \Delta_0 \sqrt{1 - (\omega/\omega_{\text{crit}})^2}$；证明在临界自旋 $I_{\text{CAP}} \approx 30 - 40\ \hbar$ 处超流性彻底崩塌，驱动转动惯量从超流流体值向刚体值发生非线性相变跃迁，奠定了高自旋推转模型与摆动惯量演化的微观基础。 | model-result | direct | Vol. II, §4-3, §6-3, pp. 165–178, 540–565 | false |
-| BM2-12 | Davydov-Rostovsky 非绝热三轴转子 $\beta$ 与 $\gamma$ 振动带间耦合混合与 Alaga 规则减缩：在 Mikhailov 展开下一级微扰混合基态带与振动带波函数 $|I M, g\rangle \approx |g\rangle - z_\gamma \sqrt{(I-1)I(I+1)(I+2)} |\gamma\rangle$；推导带间跃迁比 $\frac{B(E2; 2_\gamma \to 0_g)}{B(E2; 2_\gamma \to 2_g)} = 0.700 \cdot [\frac{1-2z_\gamma}{1+z_\gamma}]^2$，精确解释中重变形核实测分支比对 Alaga 理想值 $0.700$ 的 $20\%-35\%$ 系统性下偏，反演转-振耦合矩阵元 $h_2 = z_\gamma \Delta E / \sqrt{6}$。 | model-result | direct | Vol. II, §4-2, pp. 140–165 | false |
-| BM2-13 | 自洽推转宏观-微观三轴形变共存势能面与转动驱动 Yrast 形状相变：液滴模型形变能与壳修正叠加形成三轴（$\beta \approx 0.24, \gamma \approx 24^\circ$）与扁椭（$\beta \approx 0.16, \gamma \approx 58^\circ$）竞争极小；转动推转能量项 $-\frac{1}{2}\mathcal{J}_x(\beta, \gamma)\omega^2$ 中，三轴形变由于大四极形变与中间轴取向具有显著更大的转动惯量，随转动频率上升在临界频率 $\omega_{\\text{cross}} \approx 0.20 - 0.30\\text{ MeV}/\hbar$ 处驱动 Yrast 基态由扁椭向三轴发生一级形状相变，为过渡核高自旋区稳定存在摆动运动与手征双带提供微观基石。 | model-result | direct | Vol. II, §4-2, §6-4, pp. 130–150, 580–620 | false |
+| BM2-5 | 原书给出弱带混合下的 Mikhailov E2 强度关系：对 \(K=2\to0\)，\(B=2M_1^2C_{if}^2(1+a_2\Delta_{fi})^2\)，\(a_2=-M_2/M_1\)，并另定义 \(z_2=2a_2/(1-4a_2)\)。这是带有条件的有效矩阵元关系；相同自旋依赖可由不同耦合贡献产生，不能据此唯一确定混合机制或普遍的强度压低。旧条目把参数和机制混并的表述撤回。 | model-result | direct | §4-4，PDF173／printed151，Eq.4-211后文；PDF181／printed159，Eqs.4-230–4-231；定义及本页推导见下 | false |
+| BM2-6 | **撤回历史原书归属。** 旧条目的 Davydov–Chaban 四次平衡方程、参数定义及“同时成功解释多类能带”结论，未在所引页段建立可核对应，也没有本页可追溯的任务模型输入或验证输出；不再作为 BM-II 的计算结果引用。 | our-inference | none | 原 locator“§4-2, printed175–195”错误：对应 PDF197–217 的 §4-5；本次核 PDF197–198、207、209及既有212–214锚点，未建立该方程归属 | false |
+| BM2-7 | 在原书轴对称粒子–转子模型中，Coriolis 项为 \(-\hbar^2(j_+I_-+j_-I_+)/(2\mathcal J_0)\)，耦合 \(\Delta K=\pm1\)；\(K=1/2\) 的绝热能量期望值含 \(a\hbar^2(-1)^{I+1/2}(I+1/2)/(2\mathcal J_0)\)。退耦参数依赖具体内禀轨道。这里保留模型算符及条件，不保留旧条目关于一般三对角对角化“严格证明”空间弥散／顺排的外推。 | model-result | direct | Appendix4A，PDF223–224／printed201–202，Eqs.4A-7–4A-10；PDF272／printed250，Eq.5-46及邻文 | false |
+| BM2-8 | **撤回历史 TSD／ND 退激动力学断言。** 已核的 §4-5e 支持 BM2-1–4 所列非轴转子高自旋近似；它不能作为旧条目中特定超形变势阱、Hill–Wheeler 穿透和低自旋退激终止机制的直接来源。本页未建立那项计算的原书 locator 或独立模型来源。 | our-inference | none | 原引 printed190–210／PDF212–232；已核§4-5e及附录锚点不支持该来源归属；未据此声称全书不存在相关势垒讨论 | false |
+| BM2-9 | 原书给出电四极／十六极矩对表面多极分量的展开，包含四极分量的二阶贡献。**旧的 \(\beta_4\) 惯量修正式及“其正负必然稳定／破坏横向摆动”的结论撤回**：该电荷多极矩关系没有给出所写惯量模型，也未建立那种普适符号判据。 | model-result | direct | §4-3例题，PDF161／printed139，Eq.4-190；PDF162／printed140讨论十六极矩与轨道／密度，不能替代动力学惯量模型 | false |
+| BM2-10 | 原书支持将平滑能量与壳结构贡献分开分析，并明确指出：壳能的局部极小是否形成形状异能态，还取决于平滑的整体能量部分。**旧的固定高自旋阈值、固定降能数值及三轴超形变稳定化定量结论撤回**；这些数值和适用核素未由所引原件建立。 | model-result | direct | Ch.6例题，PDF620／printed598“Shell-Structure Effects in Nuclear Energy”；PDF627／printed605的形状异能态条件讨论 | false |
+| BM2-11 | 原书讨论随角动量增加配对关联减弱，并把较突发的配对相到正常相转变作为一种可能解释；对当时 \(A\sim160\)、\(I\sim20\) 的谱变化也仅作可能关联。**旧的普适平方根配对隙函数、固定临界自旋及统一二级相变断言撤回**；这些不由该段给出。 | author-interpretation | direct | §4-3a，PDF64／printed42，编号1及其前文的试探性语境；不是旧条目所指 printed165–178／540–565 | false |
+| BM2-12 | 在原书的弱 \(\Delta K=2\) 混合解释中，\(c(I)=\epsilon_2[2(I-1)I(I+1)(I+2)]^{1/2}\)，\(h_2=\epsilon_2[E(K=2)-E(K=0)]\)。\(\epsilon_2\) 不可直接替换成 BM2-5 的 \(a_2\) 或 \(z_2\)。旧的分支比有理式、普遍压低百分比及参数换算撤回；按书中定义重算的条件比值见本页，明确属于本次代数推论。 | model-result | direct | §4-4，PDF183／printed161，Eqs.4-232–4-235；PDF184／printed162说明不同内禀四极矩及其它耦合的限制 | false |
+| BM2-13 | **撤回历史定量 PES／交叉频率断言。** 旧条目的两个极小坐标、固定频率区间和相变结论没有明确核素、势能面输入、计算输出或对应原书 locator。其转动项至多可在另行声明条件后作为示意 Routhian 的一部分，不能生成或证实这些数值；本页不将它改包装成已验证的任务结果。 | our-inference | none | 原引“§4-2、§6-4，printed130–150、580–620”未建立该定量归属；本次对既有相关原文锚点核查，未开展新 PES 计算 | false |
+
+### 历史条目更正：参数、来源和可引用边界
+
+2026-11-06 更正 BM2-5–13 的正文内容，BM2-1–4逐字保留。BM2-6、8、13不再提供可用于正向引用的物理断言；其 `evidence_level: none` 指原历史断言没有在本页建立来源，而非证明相应模型在所有文献中均不成立。其它条目只保留上表明确核到的部分；review 标签不能替代这项实质更正。
+
+在 BM2-5 中，\(C_{if}=\langle I_i\,2\,2\,-2\mid I_f\,0\rangle\)，\(\Delta_{fi}=I_f(I_f+1)-I_i(I_i+1)\)。原书实际符号是 \(a_2,z_2,\epsilon_2\)；\(M_1,M_2\) 均为该节 E2 有效矩阵元参数。书中
+
+\[
+a_2=-M_2/M_1,\qquad z_2=\frac{2a_2}{1-4a_2},\qquad
+h_2=\epsilon_2\Delta E
+\]
+
+属于不同定义，不能无来源地换成同一个混合参数。Eq.4-230的强度关系及Eq.4-231的参数转换是原书结果；由它们和标准CG系数，本次推得
+
+\[
+\frac{B(E2;2_{K=2}\to0_{K=0})}
+     {B(E2;2_{K=2}\to2_{K=0})}
+=\frac7{10}(1-6a_2)^2
+=\frac7{10}\left(\frac{1-z_2}{1+2z_2}\right)^2.
+\]
+
+这是在该有效强度关系适用时的代数推论；零混合时回到 \(7/10\)，修正的方向和大小依赖参数，不能给出无条件的压低百分比。将它用于具体 \(\Delta K=2\) 混合机制还需要原书的附加假设；PDF173／printed151明确说明不同耦合贡献可产生相同自旋依赖，PDF183／printed161也区分了相等与不等内禀四极矩的情况。
+
+历史式中的平方根配对隙律、\(\beta_4\) 符号稳定性、离心拉伸四次式和定量PES点，没有由本页建立为原书结果或可复现任务计算。即使其中某种形式可用作特定模型的假设，也必须另给模型定义和来源，不能借 BM-II 引用使其成为事实。本页不开展这种新模型构造。
 
 ## Analytical Reconstruction and Transfer Conditions
 
@@ -76,24 +100,26 @@ P0：公式适用域与轴对应已明确；P1：补读 E2 强度公式后续页
 
 ## Scope and Reading Depth
 
-详见正文对应小节及核对记录。
+Covered scope：保留初始§4-5e物理PDF212–214的已核记录。此次对BM2-5–13只检查既有相关锚点：PDF64–65、161–162、169、172–173、181–184、197–198、207、209、222–225、272、620、626–628、644。关键公式／文字图像复核包括64、161、173、181、183、223–224、627。物理页和印刷页在这些位置相差22。
+
+Not covered：没有通读这些章、整卷或其全部实验例题；对旧引页段所做的关键词定位不是完整阅读。没有查询或验证外部Davydov–Chaban原论文、现代TSD退激文献，也没有新建CAP、惯量或PES数值模型。未查得某项对应仅限本次归属证据，不宣称穷尽全书或文献。
 
 
 ## Summary
 
-详见正文对应小节及核对记录。
+可引用内容限于已核的高自旋非轴转子近似，以及上表收窄后的Mikhailov有效强度关系、条件粒子–转子耦合、电荷多极矩展开、壳结构／平滑能量竞争和作者对配对减弱的有条件讨论。历史的普适配对函数、固定临界值、必然符号效应和未指明核素的PES数值已撤回。
 
 
 ## Competing Interpretations and Limitations
 
-详见正文对应小节及核对记录。
+谱的自旋依赖不唯一确定带混合机制；壳能极小不自动等于总势能极小；电荷多极矩关系不自动给出动力学惯量的符号响应。CAP段落是作者在当时证据下的可能解释，不是通用相变函数。本文的局部原书核对、代数推论和已撤回历史断言分开记录，均不构成目标奇Ba核的实验结构判定。
 
 
 ## Extracted Pages
 
-详见正文对应小节及核对记录。
+本页保留可复用的参数对应和引用边界。此次仅修订当前source页；其它方法页、阅读回执和账本未同步改写。审计旧稿与逐条处置见 `outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/`，其中旧稿仅作撤回追溯，不能作为科学事实源。
 
 
 ## Bibliographic Record
 
-本书完整原著收录于 `book-bohr-mottelson-nuclear-structure-vol2.md` 对应原始路径，哈希与元数据已于前置卡固化。
+A. Bohr and B. R. Mottelson, *Nuclear Structure*, Vol. II: *Nuclear Deformations*，原版1975，本地World Scientific重印PDF。原件路径及SHA-256见frontmatter；本次复核原件哈希不变。所有“printed”与“PDF”定位明确区分，未把原文局部检查描述为全书阅读。

@@ -1,0 +1,283 @@
+{
+  "archive_type": "research-archive-v1",
+  "retrieved_at": "2026-11-06T11:11:54.195863+00:00",
+  "archive_required": true,
+  "acquisition_context": "user-authorized manuscript numerical supplement assembly",
+  "operation": "local exact-copy packaging and frozen-input numerical reproduction; no download",
+  "external_raw_sources_verified": [],
+  "files": [
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/README.md",
+      "sha256": "38328c7398588d0728a965dff30043cb01671a6ac15c9b87f5e76b0ada56f913",
+      "size": 7792,
+      "source": "locally authored for this bounded packaging task",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/LICENSE",
+      "sha256": "e7beccec3cacfe6943890d3bf79c80b100794f6807e003b284f909ffbafee013",
+      "size": 1070,
+      "source": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/LICENSE",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "size": 11912,
+      "source": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/paired_single_j_em.py",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "size": 16720,
+      "source": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/paired_single_j_rotor.py",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "size": 31599,
+      "source": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/single_j_ibfm.py",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/comparison-policy.json",
+      "sha256": "55ddf562fe723034d3baf07e3df5f6d3da461aeb43585fafb1de0d4c1e61b113",
+      "size": 196,
+      "source": "locally authored for this bounded packaging task",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/decay-width-protocol.json",
+      "sha256": "0d275af632774a45150d36925e8bc99ff31566c5b5894e4c90587cee290af9fc",
+      "size": 2225,
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-protocol.json",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/decay-width-results.json",
+      "sha256": "7adea7bf9da30404ca4db8ee3d849bf9a59037d4d7a05b2e33f913f5877c5039",
+      "size": 52548,
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-results.json",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/decay-width-summary.csv",
+      "sha256": "74c31f74b39a5d8bccb11d492e75bab76cf11d76a51dfe5b91f061e736613794",
+      "size": 2707,
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-summary.csv",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/energy-mapping-frozen.json",
+      "sha256": "57abd9274e345bbb19f6906c54fa87e3b9254d3ffa70c996c2788baec0221aa3",
+      "size": 2438,
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/energy-mapping-frozen.json",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/predictions.csv",
+      "sha256": "4ffdf0860859b2bb3d651b3c36ae88e1cd9554bf94d7438c310921c41c281cdc",
+      "size": 11817,
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/predictions.csv",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/protocol.json",
+      "sha256": "d7cfd563d78bd5b2c131d9d3097b8754564fa4b10a81841c4e3078ef3de14d89",
+      "size": 4073,
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/protocol.json",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/results.json",
+      "sha256": "a5b8f065d68a8a9eb8dfa051dd97b93ac01547be9251d8cd98fef0cd7cddd89c",
+      "size": 35401,
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/results.json",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/guarded_worker.py",
+      "sha256": "a147bd9b890d49334b6e5db9e253cf7c12a34ca635d31e7ca91ee1442bcc44d8",
+      "size": 5832,
+      "source": "locally authored for this bounded packaging task",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inputs/linear-calibration.json",
+      "sha256": "6b79dad34a41a726ae9e1014a911fe728026dc51a8010a21ce6af9175374d37c",
+      "size": 14886,
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator/linear-calibration.json",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inputs/study.json",
+      "sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+      "size": 209363,
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inputs/vogt2017-readiness.json",
+      "sha256": "3321870a2bbdd0424eca9eb4e588d0f73577fa816f5ee1072d2e4a22ac1fde43",
+      "size": 15675,
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-readiness.json",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inventory.json",
+      "sha256": "6e51a52f5155f312221624320eab910ffcf0798b2334d38df63612d00d2ca8c9",
+      "size": 10278,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/layout.json",
+      "sha256": "94ca0adb145eeabff9d3f66e947e7b10e6275efbcbea933375e420bd2084bb14",
+      "size": 1902,
+      "source": "locally authored for this bounded packaging task",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/producers/run_benchmark.py",
+      "sha256": "7b9e7317bac1b7ae8d927deb38bedf00265dc4b3b87c8c672cf105e1ce5e83d2",
+      "size": 8324,
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_benchmark.py",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/producers/run_decay_widths.py",
+      "sha256": "7ac7fb8f511425f62befa1ab8ed26c22480512cac97df541109f2dd9d9e031d3",
+      "size": 5980,
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_decay_widths.py",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/reproduce.py",
+      "sha256": "5b3c7b42873de0e6357dac209490b3b3a05ec4048f53c2afc8d40ab88b3eaa70",
+      "size": 15319,
+      "source": "locally authored for this bounded packaging task",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/requirements.txt",
+      "sha256": "983665a6331eda07ab1f4b23ef92d66f4b024c27b360ee0e7420511ef3b28c64",
+      "size": 27,
+      "source": "locally authored for this bounded packaging task",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/source-declarations.json",
+      "sha256": "94f8f13f0d28c1fedc8475456c735b5c8c3aa91a1a8a084239a24c85da857ae7",
+      "size": 58449,
+      "source": "locally authored for this bounded packaging task",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/README.md",
+      "sha256": "64de88bb7d52b924ad20295cec968ba0432956f6ef350617805676cc13cea6a7",
+      "size": 3414,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/comparison.json",
+      "sha256": "7641879d73222cc2ae59a5319c9af75b0463bb019e040cd2f3990bb2e5843e32",
+      "size": 3122,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/inventory.json",
+      "sha256": "fedc672443129b42a72f2406ae9e83e210ace1aff0c2f6f1b778cf39e411da09",
+      "size": 3436,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/receipt.json",
+      "sha256": "061a9f94ae9c9e1275bac585cb1b6924c5d07e0213b28ff9422ab96c1ea38a66",
+      "size": 2850,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/decay-width-results.json",
+      "sha256": "4a81187eb8c89c241e4f92e21be977388279176e69f669cc9f1f2b6ae16c7835",
+      "size": 52548,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/decay-width-summary.csv",
+      "sha256": "74c31f74b39a5d8bccb11d492e75bab76cf11d76a51dfe5b91f061e736613794",
+      "size": 2707,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/energy-mapping-frozen.json",
+      "sha256": "abe87d70d35c41b7743114f87c75afce781d7adfea7981157c4f27d7f424bae2",
+      "size": 2438,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/predictions.csv",
+      "sha256": "4ffdf0860859b2bb3d651b3c36ae88e1cd9554bf94d7438c310921c41c281cdc",
+      "size": 11817,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/results.json",
+      "sha256": "be43d4ae6adab19c48f2e7113ba12319f75f760df5975d5724b43309e0c503b7",
+      "size": 35400,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/strength-read-boundary.json",
+      "sha256": "a4c068b55f2163e44b4c546a79cd18a07b655bb093d8580231cc12f9a4321d81",
+      "size": 71612,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/strength.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/strength.stdout.log",
+      "sha256": "75ce47646cd6833a5b57b69a628f4645827df85cd50eefb16ba524da527376f9",
+      "size": 2052,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/width-read-boundary.json",
+      "sha256": "2fa3ae045609706208ffa9ffd1cce6942381a302c3b41f6377eebad03712baf5",
+      "size": 72183,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/width.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/width.stdout.log",
+      "sha256": "5058160f32d56ce236ced9cf83843599b24697fb91d8c05dcabad514d9a82b7c",
+      "size": 1645,
+      "source": "Locally generated standalone replay inventory or verification record",
+      "access_scope": "local numerical manuscript supplement; no publisher full text"
+    }
+  ]
+}

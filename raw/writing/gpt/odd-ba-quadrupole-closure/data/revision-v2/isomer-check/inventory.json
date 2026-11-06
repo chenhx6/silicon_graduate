@@ -1,0 +1,218 @@
+{
+  "schema": "isomer-standalone-payload-inventory/1",
+  "recorded_at_actual_utc": "2026-11-06T11:07:57.393874+00:00",
+  "archive_required": true,
+  "path_base": "directory containing this inventory",
+  "scope": "Immutable replay payload only; excludes itself and later verification records.",
+  "files": [
+    {
+      "path": "README.md",
+      "role": "new standalone adapter/documentation/provenance",
+      "source": "locally authored for this bounded packaging task",
+      "sha256": "38328c7398588d0728a965dff30043cb01671a6ac15c9b87f5e76b0ada56f913",
+      "size": 7792
+    },
+    {
+      "path": "code/LICENSE",
+      "sha256": "e7beccec3cacfe6943890d3bf79c80b100794f6807e003b284f909ffbafee013",
+      "size": 1070,
+      "role": "unchanged existing numerical-code license",
+      "source": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/LICENSE",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": null,
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:56.386236+00:00"
+    },
+    {
+      "path": "code/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "size": 11912,
+      "role": "numerical module; exact existing article-code copy",
+      "source": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/paired_single_j_em.py",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:56.245785+00:00"
+    },
+    {
+      "path": "code/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "size": 16720,
+      "role": "numerical module; exact existing article-code copy",
+      "source": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/paired_single_j_rotor.py",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:56.305226+00:00"
+    },
+    {
+      "path": "code/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "size": 31599,
+      "role": "numerical module; exact existing article-code copy",
+      "source": "raw/writing/gpt/odd-ba-quadrupole-closure/data/code/single_j_ibfm.py",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:56.175178+00:00"
+    },
+    {
+      "path": "comparison-policy.json",
+      "role": "new standalone adapter/documentation/provenance",
+      "source": "locally authored for this bounded packaging task",
+      "sha256": "55ddf562fe723034d3baf07e3df5f6d3da461aeb43585fafb1de0d4c1e61b113",
+      "size": 196
+    },
+    {
+      "path": "frozen/decay-width-protocol.json",
+      "sha256": "0d275af632774a45150d36925e8bc99ff31566c5b5894e4c90587cee290af9fc",
+      "size": 2225,
+      "role": "unchanged frozen protocol or reference result",
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-protocol.json",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": null,
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:55.818158+00:00"
+    },
+    {
+      "path": "frozen/decay-width-results.json",
+      "sha256": "7adea7bf9da30404ca4db8ee3d849bf9a59037d4d7a05b2e33f913f5877c5039",
+      "size": 52548,
+      "role": "unchanged frozen protocol or reference result",
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-results.json",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": null,
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:55.858959+00:00"
+    },
+    {
+      "path": "frozen/decay-width-summary.csv",
+      "sha256": "74c31f74b39a5d8bccb11d492e75bab76cf11d76a51dfe5b91f061e736613794",
+      "size": 2707,
+      "role": "unchanged frozen protocol or reference result",
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-summary.csv",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": null,
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:55.896453+00:00"
+    },
+    {
+      "path": "frozen/energy-mapping-frozen.json",
+      "sha256": "57abd9274e345bbb19f6906c54fa87e3b9254d3ffa70c996c2788baec0221aa3",
+      "size": 2438,
+      "role": "unchanged frozen protocol or reference result",
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/energy-mapping-frozen.json",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": null,
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:55.587205+00:00"
+    },
+    {
+      "path": "frozen/predictions.csv",
+      "sha256": "4ffdf0860859b2bb3d651b3c36ae88e1cd9554bf94d7438c310921c41c281cdc",
+      "size": 11817,
+      "role": "unchanged frozen protocol or reference result",
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/predictions.csv",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": null,
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:55.772991+00:00"
+    },
+    {
+      "path": "frozen/protocol.json",
+      "sha256": "d7cfd563d78bd5b2c131d9d3097b8754564fa4b10a81841c4e3078ef3de14d89",
+      "size": 4073,
+      "role": "unchanged frozen protocol or reference result",
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/protocol.json",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": null,
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:55.481872+00:00"
+    },
+    {
+      "path": "frozen/results.json",
+      "sha256": "a5b8f065d68a8a9eb8dfa051dd97b93ac01547be9251d8cd98fef0cd7cddd89c",
+      "size": 35401,
+      "role": "unchanged frozen protocol or reference result",
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/results.json",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": null,
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:55.698112+00:00"
+    },
+    {
+      "path": "guarded_worker.py",
+      "role": "new standalone adapter/documentation/provenance",
+      "source": "locally authored for this bounded packaging task",
+      "sha256": "a147bd9b890d49334b6e5db9e253cf7c12a34ca635d31e7ca91ee1442bcc44d8",
+      "size": 5832
+    },
+    {
+      "path": "inputs/linear-calibration.json",
+      "sha256": "6b79dad34a41a726ae9e1014a911fe728026dc51a8010a21ce6af9175374d37c",
+      "size": 14886,
+      "role": "frozen five operator roots; numerically consumed",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-calibrated-operator/linear-calibration.json",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": "6b79dad34a41a726ae9e1014a911fe728026dc51a8010a21ce6af9175374d37c",
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:56.098560+00:00"
+    },
+    {
+      "path": "inputs/study.json",
+      "sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+      "size": 209363,
+      "role": "frozen prior-result snapshot; file-hash prerequisite only",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/shape-closure-v1/study.json",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:56.061353+00:00"
+    },
+    {
+      "path": "inputs/vogt2017-readiness.json",
+      "sha256": "3321870a2bbdd0424eca9eb4e588d0f73577fa816f5ee1072d2e4a22ac1fde43",
+      "size": 15675,
+      "role": "frozen prior-result snapshot; file-hash prerequisite only",
+      "source": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-moment-benchmark/vogt2017-readiness.json",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": "3321870a2bbdd0424eca9eb4e588d0f73577fa816f5ee1072d2e4a22ac1fde43",
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:56.136464+00:00"
+    },
+    {
+      "path": "layout.json",
+      "role": "new standalone adapter/documentation/provenance",
+      "source": "locally authored for this bounded packaging task",
+      "sha256": "94ca0adb145eeabff9d3f66e947e7b10e6275efbcbea933375e420bd2084bb14",
+      "size": 1902
+    },
+    {
+      "path": "producers/run_benchmark.py",
+      "sha256": "7b9e7317bac1b7ae8d927deb38bedf00265dc4b3b87c8c672cf105e1ce5e83d2",
+      "size": 8324,
+      "role": "unchanged original producer",
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_benchmark.py",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": null,
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:55.938047+00:00"
+    },
+    {
+      "path": "producers/run_decay_widths.py",
+      "sha256": "7ac7fb8f511425f62befa1ab8ed26c22480512cac97df541109f2dd9d9e031d3",
+      "size": 5980,
+      "role": "unchanged original producer",
+      "source": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_decay_widths.py",
+      "copy_verified_byte_identical": true,
+      "recorded_protocol_sha256": null,
+      "actual_copy_checked_at_utc": "2026-11-06T11:07:55.974068+00:00"
+    },
+    {
+      "path": "reproduce.py",
+      "role": "new standalone adapter/documentation/provenance",
+      "source": "locally authored for this bounded packaging task",
+      "sha256": "5b3c7b42873de0e6357dac209490b3b3a05ec4048f53c2afc8d40ab88b3eaa70",
+      "size": 15319
+    },
+    {
+      "path": "requirements.txt",
+      "role": "new standalone adapter/documentation/provenance",
+      "source": "locally authored for this bounded packaging task",
+      "sha256": "983665a6331eda07ab1f4b23ef92d66f4b024c27b360ee0e7420511ef3b28c64",
+      "size": 27
+    },
+    {
+      "path": "source-declarations.json",
+      "role": "new standalone adapter/documentation/provenance",
+      "source": "locally authored for this bounded packaging task",
+      "sha256": "94f8f13f0d28c1fedc8475456c735b5c8c3aa91a1a8a084239a24c85da857ae7",
+      "size": 58449
+    }
+  ]
+}

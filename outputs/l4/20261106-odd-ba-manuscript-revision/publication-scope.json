@@ -1,0 +1,1091 @@
+{
+  "stable_pointer": "main / research: integrate rigid-charge control and isomer limits into Ba draft",
+  "paths": [
+    "README.md",
+    "knowledge/research-notes/ba137-isomer-e2-network-validity.md",
+    "knowledge/research-notes/odd-ba-quadrupole-closure-and-spin-channel-redistribution.md",
+    "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/.gitattributes",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/.gitignore",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/baseline.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/check_mikhailov_attribution.py",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/claim-audit.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/mikhailov-algebra-check.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/receipt.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/report.md",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/source-before.snapshot.txt",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/editorial-review/final-review.md",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/editorial-review/pre-revision.md",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/goal-audit.md",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/README.md",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/archive-gate.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/assemble_payload.py",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/assembly-receipt.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/finalize_package.py",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/inventory.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/package-review.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/preservation-baseline.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/preservation-check.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/receipt.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/publication-scope.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/README.md",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/inventory-staged.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/inventory.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/comparison-proxies.csv",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/execution.log",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/inventory-at-replay.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/replay-receipt.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/replayed/cubic-spin-sectors.csv",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/replayed/results.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/replayed/summary.csv",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/baseline-existing-data.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/chain-contract.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/code/LICENSE",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/code/paired_single_j_em.py",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/code/paired_single_j_rotor.py",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/code/single_j_ibfm.py",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/REPLAY.md",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/comparison-contract.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/expected/comparison.csv",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/expected/comparison.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/expected/run-original.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/package-index.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/producers/compare_fixed_chain.py",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/producers/extract_source.py",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/replay_model.py",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/source-freeze.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/source-identities.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/source-points-frozen.csv",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/source-points-frozen.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/package-check.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/comparison.csv",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/comparison.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/execution.log",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/run.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/verification.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/report.md",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/validation/entry-links.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/validation/numerical-replays.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/validation/package-consistency.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/validation/payload-preservation.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/validation/preflight-initial.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/validation/preflight-initial.log",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/validation/preflight.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/validation/preflight.log",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/validation/summary.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/validation/wiki-lint.json",
+    "outputs/l4/20261106-odd-ba-manuscript-revision/validation/wiki-lint.log",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/README.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/closeout-20261106.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/argument-map.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/baseline.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/compile.log",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/latex-check.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/main.bbl",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/README.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/controls.tex",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/main.pdf",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/main.tex",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/references.bib",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/sources/claim-ledger.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/review-bundle.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/review-source-v2.zip",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/summary.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/word-count.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/controls.tex",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/README.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/README.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/LICENSE",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/paired_single_j_em.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/paired_single_j_rotor.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/single_j_ibfm.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/comparison-policy.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/decay-width-protocol.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/decay-width-results.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/decay-width-summary.csv",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/energy-mapping-frozen.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/predictions.csv",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/protocol.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/results.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/guarded_worker.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inputs/linear-calibration.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inputs/study.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inputs/vogt2017-readiness.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inventory.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/layout.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/manifest.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/producers/run_benchmark.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/producers/run_decay_widths.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/reproduce.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/requirements.txt",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/source-declarations.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/README.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/comparison.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/inventory.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/receipt.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/decay-width-results.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/decay-width-summary.csv",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/energy-mapping-frozen.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/predictions.csv",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/results.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/strength-read-boundary.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/strength.stderr.log",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/strength.stdout.log",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/width-read-boundary.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/width.stderr.log",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/width.stdout.log",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/manifest.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/README.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/dependencies/paired_single_j_em.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/dependencies/paired_single_j_rotor.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/dependencies/quadrupole_scalar_invariants.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/checks.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/closeout.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/closeout.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/cubic-spin-sectors.csv",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/execution.log",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/proof.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/protocol.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/report.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/results.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/run_control.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/summary.csv",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/inventory.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/reproduce.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/requirements.txt",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/summary.csv",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/validation/comparison-proxies.csv",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/validation/execution.log",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/validation/inventory-at-replay.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/validation/replay-receipt.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/REPLAY.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/comparison-contract.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/expected/comparison.csv",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/expected/comparison.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/expected/run-original.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/package-index.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/producers/compare_fixed_chain.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/producers/extract_source.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/replay_model.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-freeze.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-identities.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-points-frozen.csv",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-points-frozen.json",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/figures/made/plot_rigid_control.py",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/figures/rigid_charge_control-v1.pdf",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/figures/rigid_charge_control-v1.png",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/main.pdf",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/main.tex",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/references.bib",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/revision-appendices.tex",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/rigid-control.tex",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/sources/claim-ledger.md",
+    "system/handoff.md",
+    "system/log.md"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "7262ef6d319657c40f931ebbdb1d877c5bfbe7d9339397f2d3cb9838cbf20f6a",
+      "size": 8039
+    },
+    {
+      "path": "knowledge/research-notes/ba137-isomer-e2-network-validity.md",
+      "sha256": "6b5e6cf3757d8eb2f7d7c925d0c1f75f9dd00b897a069976b5963c562a3fe484",
+      "size": 9429
+    },
+    {
+      "path": "knowledge/research-notes/odd-ba-quadrupole-closure-and-spin-channel-redistribution.md",
+      "sha256": "cd11cd51da70a01b2b543d0fa9f663d04454af50280e7c315787a7278b8b3004",
+      "size": 22469
+    },
+    {
+      "path": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "sha256": "f8cbaf6b33acfe651971da2722df9428d9d970acc6e19806e6bc7f3a1bcbb05d",
+      "size": 13140
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/.gitattributes",
+      "sha256": "0c9f839f0443870cad7695f9cc7b2cc6fc90bd1545c2fa8aa1126d86cca5c61a",
+      "size": 82
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/.gitignore",
+      "sha256": "06f683deec3c6a695e69fab821a1b770e76c8036bc2ca50191654792d3c26457",
+      "size": 120
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/baseline.json",
+      "sha256": "144386fbc26a7fe0589da5024d6e3fc60362717de8c7ba30e652d899d38de8ad",
+      "size": 1424
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/check_mikhailov_attribution.py",
+      "sha256": "aa81c0f47963e8f6de234c575829792baa4868dd38377eb400c6ef07bfa61a42",
+      "size": 2788
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/claim-audit.json",
+      "sha256": "08ea85536986924d8944171b7ea4e83e7f5555d9c288e74332082a95a77c9da4",
+      "size": 19886
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/mikhailov-algebra-check.json",
+      "sha256": "472a79efc0c238d7473d4ab0a651bd0fcb8cdc72731efea6a27d966a9bcd0d33",
+      "size": 1459
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/receipt.json",
+      "sha256": "5cefc0d74f5f799f449b3843e2105f4e001f5dc843cbc41e4db3ea27dd7fd18c",
+      "size": 7018
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/report.md",
+      "sha256": "9d17eabb10713e3a1aa44c692cad2e2cd8d0efbd64417edd23934d72f8acac9f",
+      "size": 5029
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/bm2-source-attribution/source-before.snapshot.txt",
+      "sha256": "76467f7ce2b471482ee10587148464e5e0abcae0b777eaa5787598ccf54da724",
+      "size": 9867
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/editorial-review/final-review.md",
+      "sha256": "d8277604bef14d080a5c240e271f0b5299129246d3f47721ee750c2344f9c5d2",
+      "size": 10774
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/editorial-review/pre-revision.md",
+      "sha256": "6a8bb7c3c30dfa32055d872822a82d8658c935027163c7dcdf8f2883cc4da5e9",
+      "size": 13473
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/goal-audit.md",
+      "sha256": "adb5ab98486595590e49b74d2938c952eef30a44d6d7c0052f52cb65c9982c3e",
+      "size": 2692
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/README.md",
+      "sha256": "531ac9caa20601b8b45d0c6e82542bbf6ea658c7ec3f21f04887a4a9157cc6cc",
+      "size": 3375
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/archive-gate.json",
+      "sha256": "bc194b8677789137e6a407983125e76e977bd88559256c846d1b135a2341d314",
+      "size": 240
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/assemble_payload.py",
+      "sha256": "1d9fc893ccdc41327699d09bd18093c236fb7d12fae96760d893df8ae4e4cb25",
+      "size": 9839
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/assembly-receipt.json",
+      "sha256": "0235923bfa67af75f1af625add48842b118c56ad7de2e0b31dbf3346aae3a6c4",
+      "size": 495
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/finalize_package.py",
+      "sha256": "bf1118c3b9ba617a24720e696bbc8d947a1fb53ad9328e01d35c4269484239d9",
+      "size": 15953
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/inventory.json",
+      "sha256": "ab095566464525a74ef3e8ea90f879ebe083df4c5bd6e80285191066a7435a8c",
+      "size": 17410
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/package-review.json",
+      "sha256": "a721a5e1cc101dc72c81a4e99a68a843c857ca4803d734d3aad9adca38c166ea",
+      "size": 3173
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/preservation-baseline.json",
+      "sha256": "0c66c0ada31f5ebcb910faa0790af2da1b4d044ed02b56a2fc9326f528ef625a",
+      "size": 9121
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/preservation-check.json",
+      "sha256": "42ad5859ffb9877eba85c3217320cb8837e52301faff604283bb0c9ae36ad3ac",
+      "size": 19102
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/receipt.json",
+      "sha256": "c3857cbcc3013c921b407a04561bae9360df112b244706d200c655d1035f9fcb",
+      "size": 4237
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/README.md",
+      "sha256": "c7aec378fce12250b082220b3b77da830bb0042c33f26ce2f9d35034e4220d12",
+      "size": 6460
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/inventory-staged.json",
+      "sha256": "9f9d355c9a5cb378a20a639f2271a074b04646138391f33bf19aef5049764a5e",
+      "size": 8722
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/inventory.json",
+      "sha256": "2b804e5ec2e674ee1be68f15ada1fd3ee06535698b5319179ec7367a5b40a7e1",
+      "size": 18748
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/comparison-proxies.csv",
+      "sha256": "34c266eb06f0397cf8c64a554b2bd75a2efea1ae0663290b2fa11d3b23bcba4b",
+      "size": 2512
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/execution.log",
+      "sha256": "312d6c6b1d2218a343a29abe24ca2c277d3fc7b6ed4e0c266bb8e961185aaa06",
+      "size": 4515
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/inventory-at-replay.json",
+      "sha256": "bc2e891028e43bbef2a2a670bafee95065b16bddf5bcd1ef1b1b88c44c01ed02",
+      "size": 11090
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/replay-receipt.json",
+      "sha256": "6dd90ad3189710ae0a3d435f273ca321936cbe81b44ba8474f7f078bd2f7b5e0",
+      "size": 23680
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/replayed/cubic-spin-sectors.csv",
+      "sha256": "96e1be3c2ca9487272882d960525c2ad17f584eea8531fd027153d07c67f9828",
+      "size": 2992
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/replayed/results.json",
+      "sha256": "01fbf56ec74f4bc99c39c5bafb23a7e88053cd72f65f1856e504e5a82fef45ab",
+      "size": 52104
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/rigid-package/replay/replayed/summary.csv",
+      "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34",
+      "size": 5295
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/baseline-existing-data.json",
+      "sha256": "ae195fbf415eec7211953ea66aea2be5ac1bb2126c4fdc79d20bde464687abe8",
+      "size": 10221
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/chain-contract.json",
+      "sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+      "size": 4269
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/code/LICENSE",
+      "sha256": "e7beccec3cacfe6943890d3bf79c80b100794f6807e003b284f909ffbafee013",
+      "size": 1070
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/code/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "size": 11912
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/code/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "size": 16720
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/code/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "size": 31599
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/REPLAY.md",
+      "sha256": "51af980672d24a0e77c40b6d638ea9e546b5f28f532522373673cde1664c5252",
+      "size": 8361
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/comparison-contract.json",
+      "sha256": "cc3b8cc2f677635593f739cd450fb1c5fdcdac54dcdbe0a94075391a63b9f940",
+      "size": 5484
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/expected/comparison.csv",
+      "sha256": "c4b45e7f105fa9a7c34926526f919f136d339c01a6965354f4545fbbde2db145",
+      "size": 1914
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/expected/comparison.json",
+      "sha256": "0f22294d1ece4b12b3b85a811d1fec8cbd025520dfd71a5439705b5007c7eddd",
+      "size": 11266
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/expected/run-original.json",
+      "sha256": "2a6c60296585b35ecab16e3193306ba9569cf110e20cca9ce8a57ad43271edfb",
+      "size": 1234
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/package-index.json",
+      "sha256": "ab019e1014a8373bbfe3300858ac3daeabc2ce169292a9b004daaa840c357b4f",
+      "size": 8363
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/producers/compare_fixed_chain.py",
+      "sha256": "1858bf76ee46392e52fe0aab9918632f49c52f4c39545d0d01e5b6a8f28eb504",
+      "size": 8553
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/producers/extract_source.py",
+      "sha256": "1cd1b13cd3a545081039c47f0dc98e3a03b6eff3d33f2b88968d27833f512e87",
+      "size": 12427
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/replay_model.py",
+      "sha256": "b0dccd6691b01fdba50639e8b9e3ebda0d7cd3eb3030c35cf59310c5a188d110",
+      "size": 10376
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/source-freeze.json",
+      "sha256": "1b6f11ca17a614717a53f4b405044f5a51c8f7d7ba6f4c06b1833ad833845d9b",
+      "size": 806
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/source-identities.json",
+      "sha256": "1e790786fe8a2336f3563d222d3598483a4247c6be74b003c270915b888f7978",
+      "size": 5475
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/source-points-frozen.csv",
+      "sha256": "d88889bfb81501ba2faab30665d20db565a0e264572999d31a7f269eecc4456a",
+      "size": 1324
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/isolated-package/data/revision-v2/source-replay/source-points-frozen.json",
+      "sha256": "bc4dbed2c29f65ae8f9546cd146005efa6dbb64eb08ef23781ede6f907b91d22",
+      "size": 34182
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/package-check.json",
+      "sha256": "6544500aea78a4432e220d1072832575b0178477a4dd7b522ced281f368f5cfe",
+      "size": 5438
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/comparison.csv",
+      "sha256": "c4b45e7f105fa9a7c34926526f919f136d339c01a6965354f4545fbbde2db145",
+      "size": 1914
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/comparison.json",
+      "sha256": "0f22294d1ece4b12b3b85a811d1fec8cbd025520dfd71a5439705b5007c7eddd",
+      "size": 11266
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/execution.log",
+      "sha256": "01b1311d1cfa8c6e31846042b2ca06b62151c11649a5c64863a57473e15fc392",
+      "size": 1595
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/run.json",
+      "sha256": "4ced23e116bb523708f2ee3bb9f55eff0c73a637157f97de665c69a079dd120a",
+      "size": 1463
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/portable-run/verification.json",
+      "sha256": "2760a5852f6703ac1b04e6f89c914b4bda16fe58d175ff9e4ce204984bde4e6b",
+      "size": 7387
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/source-package/report.md",
+      "sha256": "3666e897e7c928cf3b1e42f0512e4760368bc460ddd43fe3375c2272bee9df39",
+      "size": 4886
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/validation/entry-links.json",
+      "sha256": "934b6e40d89f76b6405296a95683cbe195a699a742b01abb21dddc46039c5fc2",
+      "size": 189
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/validation/numerical-replays.json",
+      "sha256": "7582a0e28e78412d6a1aef338be69af7ab582599a509133bf72d6950ed736706",
+      "size": 492
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/validation/package-consistency.json",
+      "sha256": "d5a6395420746b9a294330974ec6dd2c02381e677b389bc303ad43270a207672",
+      "size": 300
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/validation/payload-preservation.json",
+      "sha256": "7590f8c09dc5e4713ab17ea22ff3b1875fefd88370769e3a60878dc4629e4f9a",
+      "size": 135
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/validation/preflight-initial.json",
+      "sha256": "f6de4b9afd3dbd738bc44c2eca92becbab20a2a8c8a7a86bc43b47094fa1b9e2",
+      "size": 643
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/validation/preflight-initial.log",
+      "sha256": "ec926db0d01c9888556f4b8d1701ee2ccbe9bf3f1fcf100bc097e56248cfb8fb",
+      "size": 1661
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/validation/preflight.json",
+      "sha256": "eddd3e4910b033c09b5b78fa60bab0e096fb8b549eb28427f704d1ddaae7014a",
+      "size": 261
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/validation/preflight.log",
+      "sha256": "2ed3289213d7398948fd407a50336b1c2843a168c8cadde34e6cb92f5e14bca6",
+      "size": 8994
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/validation/summary.json",
+      "sha256": "e4f5caca28c49c11c23e928fa7133eff570044b70e3cee300d9a5b0a72fa9d15",
+      "size": 351
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/validation/wiki-lint.json",
+      "sha256": "37d46ae70d9602d01cb0552674482af9141f7341c2d1892d13fc601f9e083b57",
+      "size": 214
+    },
+    {
+      "path": "outputs/l4/20261106-odd-ba-manuscript-revision/validation/wiki-lint.log",
+      "sha256": "333bc249dc6f4802075edfb9dde32ec2b6cc3b6c52aaef50389fbbebac4b89f8",
+      "size": 868198
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/README.md",
+      "sha256": "2bc8dd09c393a10e2aa83be90524a4fe4608bfbbd1f58112d023a00affc97c75",
+      "size": 4339
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/closeout-20261106.md",
+      "sha256": "16ff0bf0b8d085f1acadcf5ddc35160a7a8b7ba13e81199ccb81aa583d56f215",
+      "size": 3639
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/argument-map.md",
+      "sha256": "1930e2b38f5c3469a936e5a82315d05b9512b52bf200bd19654a228fa930bda6",
+      "size": 3606
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/baseline.json",
+      "sha256": "58186d95684b533ea92c14c13e33c4c3ff80dfef17921b9241107d6bd907913c",
+      "size": 1747
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/compile.log",
+      "sha256": "cc01e9ccc329f72dd8150d59e1aa5027515048184fdf5c73b069fd7e3627f1dd",
+      "size": 28250
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/latex-check.json",
+      "sha256": "28db5f2d50b46e4498a6a63bcbe17313503787c2d1b67581a1225afc656cbd75",
+      "size": 2817
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/main.bbl",
+      "sha256": "b2934ec14d1c93cf9ce2e9ae29fe82542a364b57313f8f6a1266fb113aebe460",
+      "size": 6917
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/README.md",
+      "sha256": "53285a931a725df0918c0c3194dae3c09371e69dc2fe93e08125b7080fab7bba",
+      "size": 3600
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/controls.tex",
+      "sha256": "ba03a6bbb8fca5292859e9b1dadc256a71db70add8cb71407b2d43de08d8c7f1",
+      "size": 8250
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/main.pdf",
+      "sha256": "879ce2e1e7564e84d460a25abdb64a3e5ba81973644c8a6a7280b1e18eb535ea",
+      "size": 203013
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/main.tex",
+      "sha256": "0176dc9512ab530b1614fbef526e031a0496bffe3719832729d169af635987db",
+      "size": 26087
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/references.bib",
+      "sha256": "cb35fead1daec7baa7795bba5154c3c42a8a789301b5a6799f2d35196fb48312",
+      "size": 3125
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/previous-text/sources/claim-ledger.md",
+      "sha256": "d8b087aa1736cb2b44f28db82366bc81220cec4f0243f4b4ce55ac3347a2dca0",
+      "size": 4410
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/review-bundle.json",
+      "sha256": "98a140f47ce2769b226e0b66b7abf23ec0bead204af31974c14654667708f7a7",
+      "size": 580
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/review-source-v2.zip",
+      "sha256": "ced6385ad405a7512a1d3850c7023c905f5f298dd0cdcd29ff9fec314b2b6bd6",
+      "size": 882650
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/summary.md",
+      "sha256": "f5557efdfcd1a2f323ae7c6f8042a60c2e8b8b6c38ca9b7ec8209cae579370f7",
+      "size": 4282
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/revision-v2/word-count.json",
+      "sha256": "c76abe53deeefe1f050e1a5d1089afc1de08639ca8fa278948791b8819cb70a0",
+      "size": 328
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/controls.tex",
+      "sha256": "198eae9812acb32a22b4f80dd11fd2706a9e60f1f3ef58d3732a65e5752439d1",
+      "size": 4888
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/README.md",
+      "sha256": "f90eb916cff5fc7f3ea97198a4c6c095934a5247afbc95b3b41e13da75e57d57",
+      "size": 2229
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/README.md",
+      "sha256": "38328c7398588d0728a965dff30043cb01671a6ac15c9b87f5e76b0ada56f913",
+      "size": 7792
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/LICENSE",
+      "sha256": "e7beccec3cacfe6943890d3bf79c80b100794f6807e003b284f909ffbafee013",
+      "size": 1070
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "size": 11912
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "size": 16720
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/code/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "size": 31599
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/comparison-policy.json",
+      "sha256": "55ddf562fe723034d3baf07e3df5f6d3da461aeb43585fafb1de0d4c1e61b113",
+      "size": 196
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/decay-width-protocol.json",
+      "sha256": "0d275af632774a45150d36925e8bc99ff31566c5b5894e4c90587cee290af9fc",
+      "size": 2225
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/decay-width-results.json",
+      "sha256": "7adea7bf9da30404ca4db8ee3d849bf9a59037d4d7a05b2e33f913f5877c5039",
+      "size": 52548
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/decay-width-summary.csv",
+      "sha256": "74c31f74b39a5d8bccb11d492e75bab76cf11d76a51dfe5b91f061e736613794",
+      "size": 2707
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/energy-mapping-frozen.json",
+      "sha256": "57abd9274e345bbb19f6906c54fa87e3b9254d3ffa70c996c2788baec0221aa3",
+      "size": 2438
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/predictions.csv",
+      "sha256": "4ffdf0860859b2bb3d651b3c36ae88e1cd9554bf94d7438c310921c41c281cdc",
+      "size": 11817
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/protocol.json",
+      "sha256": "d7cfd563d78bd5b2c131d9d3097b8754564fa4b10a81841c4e3078ef3de14d89",
+      "size": 4073
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/frozen/results.json",
+      "sha256": "a5b8f065d68a8a9eb8dfa051dd97b93ac01547be9251d8cd98fef0cd7cddd89c",
+      "size": 35401
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/guarded_worker.py",
+      "sha256": "a147bd9b890d49334b6e5db9e253cf7c12a34ca635d31e7ca91ee1442bcc44d8",
+      "size": 5832
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inputs/linear-calibration.json",
+      "sha256": "6b79dad34a41a726ae9e1014a911fe728026dc51a8010a21ce6af9175374d37c",
+      "size": 14886
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inputs/study.json",
+      "sha256": "45d3aafb4d02b2bf54620c4fd4356178c814a2a4b1eb5b6d15caa4132985ca0a",
+      "size": 209363
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inputs/vogt2017-readiness.json",
+      "sha256": "3321870a2bbdd0424eca9eb4e588d0f73577fa816f5ee1072d2e4a22ac1fde43",
+      "size": 15675
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/inventory.json",
+      "sha256": "6e51a52f5155f312221624320eab910ffcf0798b2334d38df63612d00d2ca8c9",
+      "size": 10278
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/layout.json",
+      "sha256": "94ca0adb145eeabff9d3f66e947e7b10e6275efbcbea933375e420bd2084bb14",
+      "size": 1902
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/manifest.json",
+      "sha256": "aa74f357deaf12e903cd4293c6fa09e382d1b1ffcdd3dc1bd3f249ffdc51befa",
+      "size": 16286
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/producers/run_benchmark.py",
+      "sha256": "7b9e7317bac1b7ae8d927deb38bedf00265dc4b3b87c8c672cf105e1ce5e83d2",
+      "size": 8324
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/producers/run_decay_widths.py",
+      "sha256": "7ac7fb8f511425f62befa1ab8ed26c22480512cac97df541109f2dd9d9e031d3",
+      "size": 5980
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/reproduce.py",
+      "sha256": "5b3c7b42873de0e6357dac209490b3b3a05ec4048f53c2afc8d40ab88b3eaa70",
+      "size": 15319
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/requirements.txt",
+      "sha256": "983665a6331eda07ab1f4b23ef92d66f4b024c27b360ee0e7420511ef3b28c64",
+      "size": 27
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/source-declarations.json",
+      "sha256": "94f8f13f0d28c1fedc8475456c735b5c8c3aa91a1a8a084239a24c85da857ae7",
+      "size": 58449
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/README.md",
+      "sha256": "64de88bb7d52b924ad20295cec968ba0432956f6ef350617805676cc13cea6a7",
+      "size": 3414
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/comparison.json",
+      "sha256": "7641879d73222cc2ae59a5319c9af75b0463bb019e040cd2f3990bb2e5843e32",
+      "size": 3122
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/inventory.json",
+      "sha256": "fedc672443129b42a72f2406ae9e83e210ace1aff0c2f6f1b778cf39e411da09",
+      "size": 3436
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/receipt.json",
+      "sha256": "061a9f94ae9c9e1275bac585cb1b6924c5d07e0213b28ff9422ab96c1ea38a66",
+      "size": 2850
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/decay-width-results.json",
+      "sha256": "4a81187eb8c89c241e4f92e21be977388279176e69f669cc9f1f2b6ae16c7835",
+      "size": 52548
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/decay-width-summary.csv",
+      "sha256": "74c31f74b39a5d8bccb11d492e75bab76cf11d76a51dfe5b91f061e736613794",
+      "size": 2707
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/energy-mapping-frozen.json",
+      "sha256": "abe87d70d35c41b7743114f87c75afce781d7adfea7981157c4f27d7f424bae2",
+      "size": 2438
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/predictions.csv",
+      "sha256": "4ffdf0860859b2bb3d651b3c36ae88e1cd9554bf94d7438c310921c41c281cdc",
+      "size": 11817
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/reproduced/results.json",
+      "sha256": "be43d4ae6adab19c48f2e7113ba12319f75f760df5975d5724b43309e0c503b7",
+      "size": 35400
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/strength-read-boundary.json",
+      "sha256": "a4c068b55f2163e44b4c546a79cd18a07b655bb093d8580231cc12f9a4321d81",
+      "size": 71612
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/strength.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/strength.stdout.log",
+      "sha256": "75ce47646cd6833a5b57b69a628f4645827df85cd50eefb16ba524da527376f9",
+      "size": 2052
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/width-read-boundary.json",
+      "sha256": "2fa3ae045609706208ffa9ffd1cce6942381a302c3b41f6377eebad03712baf5",
+      "size": 72183
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/width.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check/verification/width.stdout.log",
+      "sha256": "5058160f32d56ce236ced9cf83843599b24697fb91d8c05dcabad514d9a82b7c",
+      "size": 1645
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/manifest.json",
+      "sha256": "30d792c3f57248320f2ec00ad98c109c728c4019802b311726f7cc7130b252dd",
+      "size": 29970
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/README.md",
+      "sha256": "e4523401353860fb79fc4386760956634934896521869943f47b129b7fda4df8",
+      "size": 6810
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/dependencies/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "size": 11912
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/dependencies/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "size": 16720
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/dependencies/quadrupole_scalar_invariants.py",
+      "sha256": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1",
+      "size": 27013
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/checks.json",
+      "sha256": "ee292bd7bcea83526d7873edb90fa9c5c2267a0faecaeb8cfb7222f941da60a3",
+      "size": 5287
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/closeout.json",
+      "sha256": "679d64c3e15a561e8484fad52bb14fa975c3767f77716bf66553677af536d988",
+      "size": 5102
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/closeout.md",
+      "sha256": "c0de6e2a8701be280e416c2abdc762ae543749317af580573cb8d0483d286a29",
+      "size": 3624
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/cubic-spin-sectors.csv",
+      "sha256": "96e1be3c2ca9487272882d960525c2ad17f584eea8531fd027153d07c67f9828",
+      "size": 2992
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/execution.log",
+      "sha256": "c2d664594d9de061e168c0f9e91fcc485a477f141fe74d28d5cd7e745b495f8f",
+      "size": 4512
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/proof.md",
+      "sha256": "7707707f1de7c740fa076ded5f0238aaaab313fd0cee81b2bbcfe016b6db0f16",
+      "size": 8242
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/protocol.json",
+      "sha256": "40142b140bebfd5f326ffb56081dd4364559df32c59d65882bf7a5a4e694a109",
+      "size": 7812
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/report.md",
+      "sha256": "63e2e6fb4bbc02ab52323e8a7c199903917ec6899992347ebad1584415fcbb76",
+      "size": 9372
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/results.json",
+      "sha256": "68c8f78d02a57097b23e00f4e1d45c121454baf9f3a9e30cc1e9fe2ef4282cf8",
+      "size": 52101
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/run_control.py",
+      "sha256": "bd90adedf229ce717432756486a37611eea7afa7910aeb849b20fef1dd553647",
+      "size": 27468
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/frozen/summary.csv",
+      "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34",
+      "size": 5295
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/inventory.json",
+      "sha256": "53dae4717ec0a80571c93e654612d55e0152639afee54879481e0e674bfe962a",
+      "size": 13890
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/reproduce.py",
+      "sha256": "c12561c52020f6f967a63cbf0d6f267e7e03c32d86a7e5b5046f935181da4288",
+      "size": 15833
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/requirements.txt",
+      "sha256": "aaf3bc819378c42396b1002b0fd09e4c9bc2c25cefc4ac8772e812a08c3d74bf",
+      "size": 107
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/summary.csv",
+      "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34",
+      "size": 5295
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/validation/comparison-proxies.csv",
+      "sha256": "34c266eb06f0397cf8c64a554b2bd75a2efea1ae0663290b2fa11d3b23bcba4b",
+      "size": 2512
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/validation/execution.log",
+      "sha256": "312d6c6b1d2218a343a29abe24ca2c277d3fc7b6ed4e0c266bb8e961185aaa06",
+      "size": 4515
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/validation/inventory-at-replay.json",
+      "sha256": "bc2e891028e43bbef2a2a670bafee95065b16bddf5bcd1ef1b1b88c44c01ed02",
+      "size": 11090
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/rigid-control/validation/replay-receipt.json",
+      "sha256": "6dd90ad3189710ae0a3d435f273ca321936cbe81b44ba8474f7f078bd2f7b5e0",
+      "size": 23680
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/REPLAY.md",
+      "sha256": "51af980672d24a0e77c40b6d638ea9e546b5f28f532522373673cde1664c5252",
+      "size": 8361
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/comparison-contract.json",
+      "sha256": "cc3b8cc2f677635593f739cd450fb1c5fdcdac54dcdbe0a94075391a63b9f940",
+      "size": 5484
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/expected/comparison.csv",
+      "sha256": "c4b45e7f105fa9a7c34926526f919f136d339c01a6965354f4545fbbde2db145",
+      "size": 1914
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/expected/comparison.json",
+      "sha256": "0f22294d1ece4b12b3b85a811d1fec8cbd025520dfd71a5439705b5007c7eddd",
+      "size": 11266
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/expected/run-original.json",
+      "sha256": "2a6c60296585b35ecab16e3193306ba9569cf110e20cca9ce8a57ad43271edfb",
+      "size": 1234
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/package-index.json",
+      "sha256": "ab019e1014a8373bbfe3300858ac3daeabc2ce169292a9b004daaa840c357b4f",
+      "size": 8363
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/producers/compare_fixed_chain.py",
+      "sha256": "1858bf76ee46392e52fe0aab9918632f49c52f4c39545d0d01e5b6a8f28eb504",
+      "size": 8553
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/producers/extract_source.py",
+      "sha256": "1cd1b13cd3a545081039c47f0dc98e3a03b6eff3d33f2b88968d27833f512e87",
+      "size": 12427
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/replay_model.py",
+      "sha256": "b0dccd6691b01fdba50639e8b9e3ebda0d7cd3eb3030c35cf59310c5a188d110",
+      "size": 10376
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-freeze.json",
+      "sha256": "1b6f11ca17a614717a53f4b405044f5a51c8f7d7ba6f4c06b1833ad833845d9b",
+      "size": 806
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-identities.json",
+      "sha256": "1e790786fe8a2336f3563d222d3598483a4247c6be74b003c270915b888f7978",
+      "size": 5475
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-points-frozen.csv",
+      "sha256": "d88889bfb81501ba2faab30665d20db565a0e264572999d31a7f269eecc4456a",
+      "size": 1324
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/source-replay/source-points-frozen.json",
+      "sha256": "bc4dbed2c29f65ae8f9546cd146005efa6dbb64eb08ef23781ede6f907b91d22",
+      "size": 34182
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/figures/made/plot_rigid_control.py",
+      "sha256": "f7328ed6f756a2a3470820d352591ee796baae030f2a5abc335f6d75d51d9cf9",
+      "size": 4539
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/figures/rigid_charge_control-v1.pdf",
+      "sha256": "354f91bebe91a75e8f5ac21b155f4802af7727ce98ded6eeb925759d8aa80e74",
+      "size": 20166
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/figures/rigid_charge_control-v1.png",
+      "sha256": "612105c130bc8e853a895508953d646abd6881acf25800195ec75669d5c8cfc5",
+      "size": 103023
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/main.pdf",
+      "sha256": "8910232b7df3f5d09d3c2c2ea7df8034240b54c35218b9a732478f8aafb47f3d",
+      "size": 227340
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/main.tex",
+      "sha256": "034c81d4ba14b049da38e45fd4673e6baa5b9b7f4cbd3f9072f614bb48c01332",
+      "size": 26920
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/references.bib",
+      "sha256": "45950d79e9827804e5232eaa34c4bb39e41870710b2ba442bf14980ce4d4ec1b",
+      "size": 3394
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/revision-appendices.tex",
+      "sha256": "933ea5762c6b2e2b2e92764af776c09197ff290da74401e68da89e34b3c52624",
+      "size": 8301
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/rigid-control.tex",
+      "sha256": "1cc044bbf1109602cedd63f963d82bbbc2d79de991903098455f39adf4fb7511",
+      "size": 3190
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/sources/claim-ledger.md",
+      "sha256": "9bb5cabd3970aab0d35e0e9ccf306b8f14ce85793aa8ec900a7b4cec1ffc9aed",
+      "size": 6497
+    },
+    {
+      "path": "system/handoff.md",
+      "sha256": "c7be8cf6fde48bfcb0ddf659b14d113d16a93641191931710c511942c9cc3ec0",
+      "size": 1142734
+    },
+    {
+      "path": "system/log.md",
+      "sha256": "5117eac679c4f21ba67970968f06a9eede731697a8303a41c4f1c56742c2a689",
+      "size": 886921
+    }
+  ],
+  "self_hash_omitted": "outputs/l4/20261106-odd-ba-manuscript-revision/publication-scope.json",
+  "excluded_existing_user_change": "PLAN.md",
+  "source_book_images_remain_local": true
+}

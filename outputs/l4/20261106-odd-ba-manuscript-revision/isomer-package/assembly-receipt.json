@@ -1,0 +1,10 @@
+{
+  "assembled_at_actual_utc": "2026-11-06T11:08:00.592777+00:00",
+  "package": "raw/writing/gpt/odd-ba-quadrupole-closure/data/revision-v2/isomer-check",
+  "standalone_copy": "outputs/l4/20261106-odd-ba-manuscript-revision/isomer-package/standalone-copy/package",
+  "payload_files": 23,
+  "original_exact_copies": 16,
+  "inventory_sha256": "6e51a52f5155f312221624320eab910ffcf0798b2334d38df63612d00d2ca8c9",
+  "physical_copy_all_hashes_equal": true,
+  "external_raw_originals_reverified": []
+}

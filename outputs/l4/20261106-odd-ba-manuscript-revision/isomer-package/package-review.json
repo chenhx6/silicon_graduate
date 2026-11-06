@@ -1,0 +1,120 @@
+{
+  "reviewed_at_actual_utc": "2026-11-06T11:11:54.195863+00:00",
+  "pass": true,
+  "numerical_producer_executions": {
+    "strength": 1,
+    "width": 1
+  },
+  "scientific_counts": {
+    "strength_rows": 28,
+    "width_sums": 14,
+    "open_branches": 84,
+    "energy_mapping_pairs": 4
+  },
+  "compared_floating_fields": 1865,
+  "numeric_maxima": {
+    "strength": {
+      "other_floats": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 352
+      },
+      "energies": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 172
+      }
+    },
+    "energy_mapping": {
+      "energies": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 24
+      }
+    },
+    "width_and_branches": {
+      "other_floats": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 323
+      },
+      "rates": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 98
+      },
+      "energies": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 266
+      },
+      "half_life_bounds": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 14
+      }
+    },
+    "strength_csv": {
+      "other_floats": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 336
+      },
+      "energies": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 168
+      }
+    },
+    "width_csv": {
+      "other_floats": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 70
+      },
+      "energies": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 14
+      },
+      "half_life_bounds": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 14
+      },
+      "rates": {
+        "maximum_absolute": 0.0,
+        "maximum_relative": 0.0,
+        "comparisons": 14
+      }
+    }
+  },
+  "CSV_byte_equality": {
+    "predictions.csv": true,
+    "decay-width-summary.csv": true
+  },
+  "state_basis_sha256_equal": true,
+  "allowed_access_event_scope_counts": {
+    "strength": {
+      "python-runtime": 409,
+      "run-tree": 14
+    },
+    "width": {
+      "python-runtime": 409,
+      "run-tree": 17
+    }
+  },
+  "file_access_event_boundary": "Audit events include failed cache-open attempts.",
+  "no_unbundled_Wiki_scientific_reads_allowed": true,
+  "external_raw_originals_reverified": [],
+  "payload_inventory_sha256": "6e51a52f5155f312221624320eab910ffcf0798b2334d38df63612d00d2ca8c9",
+  "verification_inventory_sha256": "fedc672443129b42a72f2406ae9e83e210ace1aff0c2f6f1b778cf39e411da09",
+  "archive_manifest_sha256": "aa74f357deaf12e903cd4293c6fa09e382d1b1ffcdd3dc1bd3f249ffdc51befa",
+  "archive_manifest_entries": 39,
+  "package_files_including_manifest": 40,
+  "original45_and_shared_data_manifest_unchanged": true,
+  "concurrent_changes_outside_owned_scope": [
+    "raw/writing/gpt/odd-ba-quadrupole-closure/main.tex"
+  ],
+  "no_commit_performed": true
+}

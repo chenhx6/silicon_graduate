@@ -1,0 +1,28 @@
+{
+  "schema": "137Ba-open-E2-width-upper-half-life-control-v1",
+  "recorded_at_utc": "2026-11-06T08:52:05.117241+00:00",
+  "trigger": "After the primary strength comparison, one alternate mapping/operator gives a near-observed selected B but leaves strong modeled lower-state E2 routes. Test decay completeness explicitly.",
+  "base_protocol_sha256": "d7cfd563d78bd5b2c131d9d3097b8754564fa4b10a81841c4e3078ef3de14d89",
+  "base_results_sha256": "a5b8f065d68a8a9eb8dfa051dd97b93ac01547be9251d8cd98fef0cd7cddd89c",
+  "parameters_or_mappings_refitted": false,
+  "all_same_seven_operators": true,
+  "parents": "lowest two19/2 states; all results retained",
+  "final_states": "Every lower-energy eigenstate of the same full model with allowed E2 spin; include same-spin and adjacent spins as applicable.",
+  "rate_coefficient": {
+    "value": 12239000000000.0,
+    "units": "s^-1 MeV^-5 (e\u00b2b\u00b2)^-1",
+    "attribution": "parent/task-declared standard rate convention, not human-supplied"
+  },
+  "calculation": "lambda_E2_gamma=sum_f C_E2*(E_i_model-E_f_model)^5*B(E2;i->f), summing only positive model photon energies; T1/2<=ln2/lambda_E2_gamma for a state following this modeled decay scheme",
+  "ICC_or_other_multipoles_imputed": false,
+  "observed_half_life_ns": 589.0,
+  "uncertainty_interpretation": "20ns quoted margin not a complete Gaussian likelihood; no model-error p-value",
+  "conditions": [
+    "This is an upper bound within the specified model decay scheme, not a model-independent experimental lifetime bound.",
+    "Experimental comparison remains conditional on matching a modeled19/2 parent to the tentative observed state.",
+    "Missing M1, higher multipoles and internal conversion add nonnegative width; they cannot lengthen the lifetime of this unchanged scheme.",
+    "Unobserved model final states are predictions, not asserted experimental levels or observational upper limits.",
+    "Do not substitute the measured120.1keV energy for every modeled decay or reconstruct the observed strength using absentICC."
+  ],
+  "output": "all14 parent/operator rows, allopen modeledE2branches, strongestbranch, model-only half-life upper bound, ratio to589ns, and conditional E2-only radiative fractions"
+}

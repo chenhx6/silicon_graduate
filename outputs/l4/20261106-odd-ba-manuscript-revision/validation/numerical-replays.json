@@ -1,0 +1,23 @@
+{
+  "rigid": {
+    "passed": true,
+    "receipt": "rigid-package/replay/replay-receipt.json"
+  },
+  "isomer": {
+    "passed": true,
+    "counts": {
+      "strength_rows": 28,
+      "width_sums": 14,
+      "open_branches": 84,
+      "energy_mapping_pairs": 4
+    },
+    "max_abs_difference": 0.0,
+    "receipt": "isomer-package/receipt.json"
+  },
+  "source": {
+    "points": 12,
+    "max_abs_difference": 0,
+    "JSON_CSV_exact": true,
+    "receipt": "source-package/package-check.json"
+  }
+}
