@@ -3,6 +3,21 @@ graph-excluded: true
 updated: 2026-11-06
 ---
 
+## Stage closeout — 2026-11-06：奇Ba机制、固定形状反例与汇报
+
+- **用户最新指令**：说明当前问题与完成时间，准备收束汇报。本阶段已结束已有并行核查，不开启新方向；总研究goal仍active，不将阶段交付标为全库学习／可发表目标完成。
+- **本轮稳定发布指针**：`main / research: close A130 mechanism stage with Chinese report`。实际最终hash、push和post-commit核对只写`outputs/l4/20261106-a130-next-evidence/publication-final-receipt.local.json`。
+- **汇报交付**：`outputs/l4/20261106-a130-next-evidence/closeout/a130-stage-report-20261106.pdf`及同名TeX；12页主体+2页附录，中文16:9，约10–15分钟。`brief.md`、`speaker-notes.md`、`evidence-ledger.md`、`frame-manifest.md`、`layout-check.json`保存摘要、逐页讲稿、来源和检查。
+- **单一主线**：通道内求和收敛不能替代完整电荷矩覆盖；角动量耦合能改变受限形状指标。此前129–137Ba链与135Gamma路径的冻结结果保留，不对其重拟合。
+- **固定形状控制完成**：无配对转子、j11/2、gamma20°，固定电荷张量和惯量；C=0,1,2,4,8MeV，q2=1、q3=.5恒等不变，全48个15/2态的z从.322617到1.026250。45项有界数值/解析检查通过。它不证明IBFM几何不变；长期入口`fixed-shape-particle-rotor-quadrupole-proxy-control.md`。
+- **源谱重放完成**：Nomura arXiv-v2 Fig5(c)135/137各六系列先冻结后比较，排序一致；最大非零参照差1.896/3.128keV。原图无19/2和更高同自旋态，作者运行卡／波函数／EM仍未恢复。长期入口`ba135-ba137-source-energy-replay-boundary.md`。
+- **137Ba条件失败**：7个原有算符×4态对=28强度，7×2母态=14全部开放E2率；主最低对应22.47W.u./1173.6keV，原文.46(3)W.u./120.1keV。最大条件半衰期上界.000281041ns，对比589(20)ns；模型图/态对应为条件，不是实验界、全部IBFM排除或原作者错误。19/2不直接进入11/2三次环。28强度、84分支、14和与单位由独立审查核对。长期入口`ba137-isomer-e2-network-validity.md`。
+- **源单位核查**：ordinary downward W.u.=.00419544833e²b²；反向19/2–15/2因子20/16。保留NNDC两个帮助页的局部箭头／时间倒数问题与BM-I依据，不泛化为评价数据错误。新source已归档门核验。
+- **学习覆盖**：核对四书、33条记录、49包；旧318包在Nov2 Casten独立增补后为328包。新增完整BM-II PDF66–71六页（其中一页旧记录重叠）；声明范围并集不是完成率。不自动核销整章／全书。长期入口`book-reading-coverage-reconciliation-20261106.md`。
+- **文章真实状态**：原10页EPJA候选稿和45文件data包未混入新控制。README及`analysis/closeout-20261106.md`明确当前not-submission-ready；下一轮优先将固定形状反例与异能态限制一起整合，更新随文数据/代码并定向复核。约1–2工作日仅是已有结果整合估计，不是投稿／接收承诺。署名仍占位，实际Ba形状和新颖性仍按直接证据评估。
+- **验证范围**：不重新运行已经闭合的物理生产计算；检查新数据/证据/来源、报告编译与逐页布局、Wiki lint/boundary/archive/preflight及显式Git范围。实际结果见本轮validation与layout记录。
+- **保护边界**：保留用户PLAN修改及其它session文件；不检查、测试、改动或撤销get-paper安装。原件阅读截图留本地，报告图由冻结数值重绘；未发布iThemba私有数据。
+
 ## Active continuation — 2026-11-06：奇Ba完整电荷矩与通道重分配
 
 - **Goal仍active**：全库学习/审计、A≈130创新调查和聚焦可发表文章。可编译草稿和通过数值检查不等于完整目标完成。

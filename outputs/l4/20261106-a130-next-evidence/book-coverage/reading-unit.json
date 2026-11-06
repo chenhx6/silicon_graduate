@@ -1,0 +1,117 @@
+{
+  "schema": "bounded-book-unit-reading-receipt-v1",
+  "review_date": "2026-11-06",
+  "observed_utc": "2026-11-06T09:35:53.199694+00:00",
+  "unit_id": "U-B25-002-E2-20261106",
+  "status": "study-complete",
+  "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+  "raw_sha256_before": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+  "raw_sha256_after": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+  "edition": "Nuclear Structure II,1975, held World Scientific reissue; identity from existing bound source",
+  "original_packet": "Q-B25-002",
+  "physical_interval": [
+    66,
+    71
+  ],
+  "printed_interval": [
+    44,
+    49
+  ],
+  "original_packet_complete": false,
+  "chapter_complete": false,
+  "book_complete": false,
+  "page_accounting": [
+    {
+      "physical_pdf_page": 66,
+      "printed_folio": 44,
+      "whole_page_text_read": true,
+      "page_render_visually_checked": true,
+      "native_text_sha256": "5b4773e43454febaf1bf7c7027fed7d2efac479dedad85f3e73a88ff939c64e3",
+      "render_path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p66.png",
+      "render_sha256": "9e76b8425dcdfdc71bb03e1442f3cf2fdca0d6a4b27552fcf9d2a76ea87bbf53"
+    },
+    {
+      "physical_pdf_page": 67,
+      "printed_folio": 45,
+      "whole_page_text_read": true,
+      "page_render_visually_checked": true,
+      "native_text_sha256": "43accd46c7deadfbe62ecb544866d6bf24021af0aeacb9fc347bfe6b956545d7",
+      "render_path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p67.png",
+      "render_sha256": "9313fb039c04fa230ad8ad26c4029a747eae82cc80e880215dd26d6f0febd0e6"
+    },
+    {
+      "physical_pdf_page": 68,
+      "printed_folio": 46,
+      "whole_page_text_read": true,
+      "page_render_visually_checked": true,
+      "native_text_sha256": "385bbf0f34f597ac8178e1a7c331c9ceb368e4155db6abef0508d87dbd5682d5",
+      "render_path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p68.png",
+      "render_sha256": "f30377172f37c3d390a1d079736444ab90535096a2dd1f2b8eb819fbcbef6641"
+    },
+    {
+      "physical_pdf_page": 69,
+      "printed_folio": 47,
+      "whole_page_text_read": true,
+      "page_render_visually_checked": true,
+      "native_text_sha256": "c69d8a34d94cb7a39b05d3b50ff437b63c669e85ea0385abe036ae4990489c46",
+      "render_path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p69.png",
+      "render_sha256": "c50c93535b9aaddc6dda5ed7453e1bd11a7b60c5d45fbe1b2cead9c20a895b64"
+    },
+    {
+      "physical_pdf_page": 70,
+      "printed_folio": 48,
+      "whole_page_text_read": true,
+      "page_render_visually_checked": true,
+      "native_text_sha256": "9f5ad0cd83c596c707ad2c3b2e15db41b28418627d0d1f1a8d3b08f209f49cbf",
+      "render_path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p70.png",
+      "render_sha256": "6fd1abef5bb4fb36d15dce0181212193ba5769c2114a3ca66d08d2bcf26f67dd"
+    },
+    {
+      "physical_pdf_page": 71,
+      "printed_folio": 49,
+      "whole_page_text_read": true,
+      "page_render_visually_checked": true,
+      "native_text_sha256": "7a155ecc895410eb1f736e002dec79a361a63cbeb490732adcf529481c2e4c48",
+      "render_path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p71.png",
+      "render_sha256": "5c0d33c45e07a901982eb9caf826459ad58af1bee128200a532460c1a1cec388"
+    }
+  ],
+  "objects": "Eqs4-66 through4-73 including4-68a/b; Fig4-5 graph and full caption; footnote5. All objects actually used checked visually.",
+  "context_only": [
+    {
+      "physical_page": 65,
+      "scope": "last prose paragraphs to complete preceding context"
+    },
+    {
+      "physical_page": 72,
+      "scope": "opening paragraph and next subsection title only"
+    }
+  ],
+  "exclusions": "Rest of4-3b, cross-referenced wavefunction appendices, empirical tables4-4/6/8/10 and Figures4-24/25; no automatic reading credit from cross-reference. No stand-alone exercise occurs inside this six-page unit.",
+  "prior_record_overlap": [
+    66
+  ],
+  "new_pages_outside_prior_explicit_interval_records": [
+    67,
+    68,
+    69,
+    70,
+    71
+  ],
+  "recall_and_derivation": "Reconstructed Qs/Q0 limits along fixed-K and K=I sequences, exact CG branch ratio and direction normalization. Algebra program does not read source or model code.",
+  "algebra_result": "outputs/l4/20261106-a130-next-evidence/book-coverage/bm2-unit-algebra.json",
+  "algebra_sha256": "0578d06fe41ed8103d8cd50809e9ca7ae16e6458b0d2ba52b238f402c246d2b9",
+  "durable_knowledge": "knowledge/research-notes/book-reading-coverage-reconciliation-20261106.md",
+  "durable_knowledge_sha256": "086e54b8264906a3dc70566125154ca4b065ab69113ece1f6cf59da1356fa2b1",
+  "next_unit": {
+    "physical_pdf": [
+      72,
+      75
+    ],
+    "printed": [
+      50,
+      53
+    ],
+    "topic": "Generalized E2 intensity relations"
+  }
+}

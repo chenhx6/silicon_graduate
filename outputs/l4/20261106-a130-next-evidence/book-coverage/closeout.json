@@ -1,0 +1,172 @@
+{
+  "review_date": "2026-11-06",
+  "observed_utc": "2026-11-06T09:39:56.665973+00:00",
+  "status": "sidecar-complete; parent goal remains active; original ledger not updated",
+  "knowledge_page": {
+    "path": "knowledge/research-notes/book-reading-coverage-reconciliation-20261106.md",
+    "sha256": "086e54b8264906a3dc70566125154ca4b065ab69113ece1f6cf59da1356fa2b1"
+  },
+  "scoped_lint": {
+    "validator": "wiki_lint.py read_page/validate_page/audit_governance with current lint-config.json",
+    "pages": 1,
+    "type": "research-note",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0,
+    "required_sections": [
+      "Research Trigger",
+      "Grounded Evidence",
+      "Provisional Reasoning",
+      "Assumptions",
+      "Competing Explanations",
+      "Transfer Conditions",
+      "Failure Conditions",
+      "Falsification or Reverse Tests",
+      "Open Questions",
+      "Human Review",
+      "Promotion or Rejection History"
+    ]
+  },
+  "checks": {
+    "raw_target_hashes_verified": 4,
+    "added_file_hashes_verified": 6,
+    "input_snapshot_files_verified": 36,
+    "original_ledger_sha256_unchanged": true,
+    "interval_records": 33,
+    "packet_rows": 49,
+    "packets_from_original_queue": 39,
+    "casten_addendum_packets": 10,
+    "new_complete_unit_pages": 6,
+    "new_unit_renders_verified": 6,
+    "algebra_passed": true,
+    "scripts_parse": true,
+    "knowledge_links_resolve": true
+  },
+  "evidence_boundary": "Declared reading intervals are not completion percentages. Full-chapter receipts remain record-verified declarations. Only one newly assigned six-page unit is awarded study-complete. No chapter, whole book or original 40-page packet is newly closed.",
+  "known_access_or_locator_limits": [
+    "Initial SymPy import unavailable; exact standard-library implementation passed without install.",
+    "Petrache chapter13 printed/PDF offset corrected in sidecar only.",
+    "BM-II particle-vibration equation/page pairings remain unresolved beyond the recorded counterchecks.",
+    "No complete refresh of all original33 raw-file hashes."
+  ],
+  "write_scope": [
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/",
+    "knowledge/research-notes/book-reading-coverage-reconciliation-20261106.md"
+  ],
+  "unchanged_by_this_task": [
+    "original coverage ledger",
+    "raw files",
+    "source cards and other knowledge pages",
+    "index/handoff",
+    "other sessions work"
+  ],
+  "forbidden_work_not_performed": "No get-paper installation or PLAN inspection/modification/testing, no commit.",
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/bm2-unit-algebra.json",
+      "size": 1864,
+      "sha256": "0578d06fe41ed8103d8cd50809e9ca7ae16e6458b0d2ba52b238f402c246d2b9"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/check_bm2_unit.py",
+      "size": 4277,
+      "sha256": "5142d7519eae318bfb9235325d5aa29e2494764951caddd6833a56dd483684d7"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/coverage-reconciliation.json",
+      "size": 74173,
+      "sha256": "3cdc81170fd9a172029cd43e4bff4d0ca14dde2f3b7598cdc960f0e965b06c9f"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p66.png",
+      "size": 260333,
+      "sha256": "9e76b8425dcdfdc71bb03e1442f3cf2fdca0d6a4b27552fcf9d2a76ea87bbf53"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p67.png",
+      "size": 232849,
+      "sha256": "9313fb039c04fa230ad8ad26c4029a747eae82cc80e880215dd26d6f0febd0e6"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p68.png",
+      "size": 311883,
+      "sha256": "f30377172f37c3d390a1d079736444ab90535096a2dd1f2b8eb819fbcbef6641"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p69.png",
+      "size": 267958,
+      "sha256": "c50c93535b9aaddc6dda5ed7453e1bd11a7b60c5d45fbe1b2cead9c20a895b64"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p70.png",
+      "size": 90400,
+      "sha256": "6fd1abef5bb4fb36d15dce0181212193ba5769c2114a3ca66d08d2bcf26f67dd"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/bm2-p71.png",
+      "size": 328109,
+      "sha256": "5c0d33c45e07a901982eb9caf826459ad58af1bee128200a532460c1a1cec388"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/greiner-p164.png",
+      "size": 253031,
+      "sha256": "3cc8cd74bbc4e385c926b0b04dda064149079f93a0a72e41ffb571f7ecce5bb3"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/greiner-p166.png",
+      "size": 173587,
+      "sha256": "0d761364d6b06823fd3db600676ad490dfcf2c7616585b203d85aa668937e3c0"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/greiner-p169.png",
+      "size": 166720,
+      "sha256": "d7f59e99021d696352039fbb8dd9b4b82fbd9c9350e21a67a7e13d2699fd6602"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/greiner-p170.png",
+      "size": 155298,
+      "sha256": "20741847154dda58131d44b08436cb8e13dd847a8785cd32a7c4c034436db340"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/petrache-p259.png",
+      "size": 256688,
+      "sha256": "d4e053b676b309664e1588097864721a41126073c63c501386500a8ca1dd9e3f"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/inspection/petrache-p278.png",
+      "size": 155202,
+      "sha256": "39c099b168b83d4c6414a97340ef3e6ec7b57426c19210cf7b204e99ab3077b2"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/interval-evidence.csv",
+      "size": 12670,
+      "sha256": "811d92e6fecd81c17eddbd963f8eabc8c02270c92ce2d6cc4f750dec25a0d687"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/locator-audit.json",
+      "size": 4375,
+      "sha256": "bcbaf9daef2250894cdedec10a77bd525d95bfa9d0fa14a28640264538b8db4f"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/packet-crosswalk.csv",
+      "size": 5999,
+      "sha256": "5405294eefa6abbcc8cc4036251dcc5026d4e029d24a5c95ff9a1ab72d9fc5ac"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/reading-unit.json",
+      "size": 4921,
+      "sha256": "595df5d9ae761648a29679eb09137a18c3376292010c0ac9023830e58867384b"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/reconcile_coverage.py",
+      "size": 17089,
+      "sha256": "8ab2835e4ab72901b37342570c518b90a2897869fa74439c5e8e16ef4313302c"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/report.md",
+      "size": 4874,
+      "sha256": "91eccd28da97a18056558868c1dc37e75b5ef43639b4fafa20c4248296dc81db"
+    }
+  ],
+  "check_runtime_seconds": 8.967820529011078
+}

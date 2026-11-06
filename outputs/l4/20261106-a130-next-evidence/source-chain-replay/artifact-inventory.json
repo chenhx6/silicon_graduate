@@ -1,0 +1,217 @@
+{
+  "schema": "source-chain-replay-sidecar-manifest/1",
+  "assembled_at_utc": "2026-11-06T09:56:05.797010+00:00",
+  "write_scope": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/",
+  "task_scope": "Source-energy extraction and fixed-kernel comparison for135/137Ba only",
+  "status": "complete_bounded_comparison; exact_author_run_identity_and_empirical_state_mapping_unresolved",
+  "primary_source_version": "canonical archived arXiv1704.07101v2,13pages; no separateVoR comparison",
+  "external_acquisition_performed": false,
+  "source_archive_required": true,
+  "source_archival_basis": "Existing canonical PDF/source archive/TeX verified bySHA256; original figure member copied locally only in the explicitly authorized sidecar.",
+  "read_only_inputs": [
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-chain-contract.json",
+      "sha256": "2183e4828b1395e16847225c9c2d297c09e8ee14980f5dde27f14ff7f419c1cf",
+      "size_bytes": 4269,
+      "role": "read_only_source_or_contract",
+      "verified": true
+    },
+    {
+      "path": "system/scripts/ba_quadrupole_closure_study.py",
+      "sha256": "ef446b1aeaa8cdb42f470b62b28dbe3ba214489580dbb15189ba21936ad81d6d",
+      "size_bytes": 15658,
+      "role": "Qjj_parameter_method_reference_not_executed",
+      "verified": true
+    },
+    {
+      "path": "system/scripts/analysis/single_j_ibfm.py",
+      "sha256": "7fcf2ad9f5feac7d7264336d19a84a91c5524cd6fd8466412cd578e466d0d85a",
+      "size_bytes": 31599,
+      "role": "computational_import_dependency",
+      "verified": true
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_em.py",
+      "sha256": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+      "size_bytes": 11912,
+      "role": "computational_import_dependency",
+      "verified": true
+    },
+    {
+      "path": "system/scripts/analysis/paired_single_j_rotor.py",
+      "sha256": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+      "size_bytes": 16720,
+      "role": "computational_import_dependency",
+      "verified": true
+    },
+    {
+      "path": "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass γ -soft nuclei with mass A ≈ 130.pdf",
+      "sha256": "481e6a9e0f6b01e9c5db5e2b06d9b350dba0638393c7da7f532c3040e9efaea9",
+      "size_bytes": 1039399,
+      "role": "read_only_source_or_contract",
+      "verified": true
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/nomura2017-v2-source.tar.gz",
+      "sha256": "f7ed6dc746f50f16169d8796e4d12becd8827eaf4ac2ee4d5f1ff9cd04690faf",
+      "size_bytes": 794776,
+      "role": "read_only_source_or_contract",
+      "verified": true
+    },
+    {
+      "path": "raw/papers/gpt/query/20261105-nomura2017-input-audit/arxiv-v2-v4.tex",
+      "sha256": "f79b87a4d88539e8a4e4453a2e61272a9f5e108d165a5fd5a3ab4b17b5c5b868",
+      "size_bytes": 64836,
+      "role": "read_only_source_or_contract",
+      "verified": true
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/ibfm-case-review/extract_source_points.py",
+      "sha256": "5ca00bef4820324f54018ac910480dfd840752ffb9523688073a267f314989d2",
+      "size_bytes": 10080,
+      "role": "previous_129_extractor_method_only",
+      "verified": true
+    },
+    {
+      "path": "outputs/l4/20261105-ba129-controlled-pairing/ibfm-case-review/source-points-frozen.json",
+      "sha256": "46b90e618a4c95c377bb61c7f59eb782d05c3f35f4be5418f0dded1d784ac45d",
+      "size_bytes": 18109,
+      "role": "previous_129_source_schema_method_only_no_new_isotope_numbers_taken",
+      "verified": true
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/compare_fixed_chain.py",
+      "sha256": "1858bf76ee46392e52fe0aab9918632f49c52f4c39545d0d01e5b6a8f28eb504",
+      "size_bytes": 8553,
+      "role": "analysis_or_replay_artifact"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/comparison-contract.json",
+      "sha256": "cc3b8cc2f677635593f739cd450fb1c5fdcdac54dcdbe0a94075391a63b9f940",
+      "size_bytes": 5484,
+      "role": "analysis_or_replay_artifact"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/comparison.csv",
+      "sha256": "c4b45e7f105fa9a7c34926526f919f136d339c01a6965354f4545fbbde2db145",
+      "size_bytes": 1914,
+      "role": "analysis_or_replay_artifact"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/comparison.json",
+      "sha256": "0f22294d1ece4b12b3b85a811d1fec8cbd025520dfd71a5439705b5007c7eddd",
+      "size_bytes": 11266,
+      "role": "analysis_or_replay_artifact"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/extract_source.py",
+      "sha256": "1cd1b13cd3a545081039c47f0dc98e3a03b6eff3d33f2b88968d27833f512e87",
+      "size_bytes": 12427,
+      "role": "analysis_or_replay_artifact"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/report.md",
+      "sha256": "9ff1c51b3d7f70f90c015b4528f25d72b58bf11ce89ef1193fd7120d550b6695",
+      "size_bytes": 13488,
+      "role": "analysis_or_replay_artifact"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/run.json",
+      "sha256": "2a6c60296585b35ecab16e3193306ba9569cf110e20cca9ce8a57ad43271edfb",
+      "size_bytes": 1234,
+      "role": "analysis_or_replay_artifact"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-assets/ba.level.pdf",
+      "sha256": "b6006a11da9e56b14e31f286cedfe339fda90626bba7632fd934cc78ba861ef2",
+      "size_bytes": 29156,
+      "role": "local_source_copy_or_rendering"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-assets/ba.level.png",
+      "sha256": "030947f6e401542231daf6b96c3c5ddd50339a7b7c1c7b99e6a999d59fc60ecd",
+      "size_bytes": 186465,
+      "role": "local_source_copy_or_rendering"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-assets/canonical-p7-fig5.png",
+      "sha256": "1cd02b9177a873bdfc36836b6fdc164822fa9b0c532680615716ca0c8bcce836",
+      "size_bytes": 151321,
+      "role": "local_source_copy_or_rendering"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-freeze.json",
+      "sha256": "1b6f11ca17a614717a53f4b405044f5a51c8f7d7ba6f4c06b1833ad833845d9b",
+      "size_bytes": 806,
+      "role": "analysis_or_replay_artifact"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-points-frozen.csv",
+      "sha256": "d88889bfb81501ba2faab30665d20db565a0e264572999d31a7f269eecc4456a",
+      "size_bytes": 1324,
+      "role": "analysis_or_replay_artifact"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-points-frozen.json",
+      "sha256": "bc4dbed2c29f65ae8f9546cd146005efa6dbb64eb08ef23781ede6f907b91d22",
+      "size_bytes": 34182,
+      "role": "analysis_or_replay_artifact"
+    }
+  ],
+  "source_freeze": {
+    "at_utc": "2026-11-06T09:33:07.778971+00:00",
+    "sha256": "bc4dbed2c29f65ae8f9546cd146005efa6dbb64eb08ef23781ede6f907b91d22",
+    "before_kernel_run": true
+  },
+  "comparison_contract_sha256": "cc3b8cc2f677635593f739cd450fb1c5fdcdac54dcdbe0a94075391a63b9f940",
+  "run_sha256": "2a6c60296585b35ecab16e3193306ba9569cf110e20cca9ce8a57ad43271edfb",
+  "validation": {
+    "all_contract_input_hashes_still_match": true,
+    "frozen_source_and_driver_hashes_match": true,
+    "source_and_comparison_CSV_match_JSON": true,
+    "source_points": 12,
+    "compared_points": 12,
+    "original_and_canonical_source_extraction_max_difference_keV": 0.0006913529780376848,
+    "source_grid_max_extraction_residual_keV": 0.0002031171411545074,
+    "original_figure_copy_byte_identical": true,
+    "native_BLAS_threads_verified": 1,
+    "six_state_ordering_matches_in_both_isotopes": true,
+    "all_points_within_one_keV_grid_window": false,
+    "max_absolute_source_difference_keV": {
+      "135": 1.8956985132309683,
+      "137": 3.1281649153208946
+    }
+  },
+  "source_renderings": [
+    {
+      "path": "source-assets/ba.level.png",
+      "source": "source-assets/ba.level.pdf page0",
+      "scale": 3
+    },
+    {
+      "path": "source-assets/canonical-p7-fig5.png",
+      "source": "raw/papers/2017_Nomura et al_Shape-phase transitions in odd-mass γ -soft nuclei with mass A ≈ 130.pdf",
+      "page_zero_based": 6,
+      "clip_pdf_points": [
+        0,
+        0,
+        320,
+        530
+      ],
+      "scale": 2
+    }
+  ],
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pymupdf": "1.28.2"
+  },
+  "no_fits_or_parameter_variants": true,
+  "no_electromagnetic_computations": true,
+  "no_other_session_or_frozen_input_writes": true,
+  "no_commit": true,
+  "inventory_role": "Execution provenance only; external originals remain in their existing raw archives and source pages."
+}

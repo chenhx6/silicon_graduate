@@ -1,0 +1,47 @@
+{
+  "review_date": "2026-11-06",
+  "observed_utc": "2026-11-06T08:46:44.728116+00:00",
+  "scope": "Conditional axial fixed-K rotational algebra; no experimental prediction.",
+  "source": "BM-II physical PDF 66–71 / printed 44–49, Eqs4-66–4-73 and Fig4-5 caption.",
+  "arithmetic": "Python standard-library Fraction and exact integer factorial CG sum",
+  "environment_attempt": "Initial SymPy attempt failed with ModuleNotFoundError; replaced by exact standard-library arithmetic. No package installed.",
+  "Qstatic_over_Q0_fixed_K_high_I": "-1/2",
+  "Qstatic_over_Q0_K_equals_I_high_I": "1",
+  "Qstatic_over_Q0_I2_K0": "-2/7",
+  "Qstatic_Ihalf_Khalf": 0,
+  "Bup_over_Bdown_zero_two": "5",
+  "B42_over_B20_K0": "10/7",
+  "finite_spin_branch_ratio_formula": "2*K^2*(2*I-1)/((I+1)*((I-1)^2-K^2))",
+  "branch_ratio_cases": [
+    {
+      "I": "4",
+      "K": "2",
+      "exact_ratio": "56/25",
+      "decimal_ratio": 2.24
+    },
+    {
+      "I": "6",
+      "K": "2",
+      "exact_ratio": "88/147",
+      "decimal_ratio": 0.5986394557823129
+    },
+    {
+      "I": "20",
+      "K": "2",
+      "exact_ratio": "104/2499",
+      "decimal_ratio": 0.041616646658663464
+    },
+    {
+      "I": "9/2",
+      "K": "3/2",
+      "exact_ratio": "36/55",
+      "decimal_ratio": 0.6545454545454545
+    }
+  ],
+  "I_squared_times_branch_ratio_fixed_K_limit": "4*K^2",
+  "K0_DeltaI1_selection_zero": true,
+  "scratch_correction": "An initial scratch ratio used (I-1) in the final denominator; cancellation of the exact CG formulas gives (I+1), as all four direct CG checks confirm. This was a learner correction, not a source erratum.",
+  "interpretation_boundary": "A vanishing spectroscopic Q for I=0 or 1/2 does not imply a vanishing intrinsic quadrupole moment; fixed-K and K=I are distinct limiting sequences.",
+  "runtime_seconds": 0.0023255330161191523,
+  "passed": true
+}

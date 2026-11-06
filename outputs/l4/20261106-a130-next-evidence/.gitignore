@@ -1,0 +1,9 @@
+# Original-source inspection images stay local; generated report figures are public.
+book-coverage/inspection/
+source-chain-replay/source-assets/
+closeout/build/
+closeout/rendered/
+publication-final-receipt.local.json
+# User-requested report and generated vector figures are owned deliverables.
+!closeout/a130-stage-report-20261106.pdf
+!closeout/figures/*.pdf

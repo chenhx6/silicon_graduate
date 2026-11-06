@@ -40,6 +40,13 @@ tags: [a130, gamma-softness, shape-phase-transition, odd-mass, ibfm, rhb]
 
 Physical Review C 96, 014304 (2017)，DOI `10.1103/PhysRevC.96.014304`。PDF 为 arXiv v2 版，共 13 页；正文至 p.12，p.13 为参考文献。
 
+**2026-11-06来源重放补核：** [[ba135-ba137-source-energy-replay-boundary]]
+从本原件Fig.5(c)和其原始矢量图先冻结135/137Ba各六条负宇称系列，
+再与本任务固定kernel比较。排序一致，去掉共同11/2零点后最大差
+分别1.896与3.128keV；这不是所有点1keV内的精确重放。原图没有19/2
+或更高同自旋态，作者运行卡／波函数／电磁图重放仍未恢复。本条是本任务
+核查结果，不改写原文理论数值或赋予作者新的异能态预测。
+
 ## Scope and Reading Depth
 
 全文精读。重点核对粒子-芯耦合哈密顿量、RHB 到 IBM 的映射、Fig. 1-3 的偶偶芯势能面与谱学演化、Figs. 5-8 的奇 A 能级系统学、Figs. 13-15 与 Eqs. (12)-(15) 的四极形状不变量，以及结论中的模型限制。

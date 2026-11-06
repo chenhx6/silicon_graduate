@@ -1,0 +1,37 @@
+{
+  "status": "bounded_source_unit_audit_complete",
+  "actual_completed_at": "2026-11-06T10:02:18.462666+00:00",
+  "source_page": "knowledge/sources/nndc-e2-weisskopf-direction-and-lifetime-ratio.md",
+  "citation_key": "NNDC2026E2WeisskopfDirectionLifetimeHelp",
+  "ordinary_downward_Wu_e2b2": 0.004195448333253135,
+  "Bdown_e2b2": 0.0019299062332964424,
+  "quoted_margin_e2b2": 0.00012586344999759405,
+  "checks": {
+    "unit_script_exit_code": 0,
+    "lifetime_ratio_controls": 4,
+    "correct_isotope_137Ba": true,
+    "correct_direction_19over2_to_15over2": true,
+    "SI_area_conversion_checked": true,
+    "special_0_to_2_reference_separated": true,
+    "source_schema_checked": true,
+    "citation_and_canonical_keys_unique": true,
+    "archive_gate_exit_code": 0,
+    "archive_gate_failure_count": 0,
+    "source_inputs_hashes_unchanged": 6,
+    "observed_constraint_rows": 1,
+    "T_and_B_counted_independently": false,
+    "lifetime_or_ICC_used_to_rederive_B": false,
+    "model_calculation_or_refit": false
+  },
+  "output_sha256": {
+    "outputs/l4/20261106-a130-next-evidence/isomer-source-review/check_units.py": "a267607e491de18ef971acd062665a38b04f35a828e31a9cc29f4f11a7c37f43",
+    "outputs/l4/20261106-a130-next-evidence/isomer-source-review/unit-audit.json": "ed75cf18279772cb4393f77e795e741a327c03373ce0e638d35fc99a8162da75",
+    "outputs/l4/20261106-a130-next-evidence/isomer-source-review/observed-strength.csv": "6807f6c142f7893c245a30de812d01a4b3325cdfa2df88592386ab73f9089e5d",
+    "outputs/l4/20261106-a130-next-evidence/isomer-source-review/report.md": "b8857cb2ba9d970bd7cd355a7df259894db6ca0c9e322e69f3fc7a8df0fb59a1",
+    "knowledge/sources/nndc-e2-weisskopf-direction-and-lifetime-ratio.md": "7761b53a8b48629e960b8e2d57e27e1fd7a30382db06f486ed24d942404b4c77"
+  },
+  "write_scope": [
+    "outputs/l4/20261106-a130-next-evidence/isomer-source-review/",
+    "knowledge/sources/nndc-e2-weisskopf-direction-and-lifetime-ratio.md"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "checked_manifests": [],
+  "checked_sources": [
+    "/workspace/wiki/knowledge/sources/nndc-e2-weisskopf-direction-and-lifetime-ratio.md",
+    "/workspace/wiki/knowledge/sources/nomura-2017-odd-mass-gamma-soft-shape-transitions.md"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "ok": true,
+  "scope": "paths"
+}

@@ -16,6 +16,15 @@ tags: [a130, ibfm, quadrupole-invariants, collectivity, angular-momentum, reprod
 
 # 奇Ba：一个自旋通道收敛以后还遗漏了什么
 
+**2026-11-06阶段收束更新。** 主结果仍是所声明有限模型中的通道重分配。
+新完成的 [[fixed-shape-particle-rotor-quadrupole-proxy-control]] 在严格固定
+电荷几何下提供独立反例；它不把IBFM路径的近恒定q2提升为固定形状证明。
+[[ba137-isomer-e2-network-validity]]给出另一项有条件的失败：冻结的模型
+衰变图不能兼容指定137Ba异能态对应，不能把单支近似符合当成模型认证。
+[[ba135-ba137-source-energy-replay-boundary]]完成135/137显示的低能理论谱
+重放，最大差1.896/3.128keV；原19/2谱与电磁图仍未恢复。
+10页英文稿是这些补充结果整合前的候选版本，尚需定向修订。
+
 ## Research Trigger
 
 在奇核中，由最低几个 \(J+2\) 态构造的有效形变，可以同时响应总电荷集体性和粒子—芯的角动量重耦合。需要把这两种信息分开，而不是把矩阵元求和已经收敛等同于内禀形状已被确定。
@@ -26,7 +35,7 @@ tags: [a130, ibfm, quadrupole-invariants, collectivity, angular-momentum, reprod
 
 - 原始模型与打印参数：Nomura2017 Eqs.(1)–(8)、Tables I、III、V。单 \(h_{11/2}\) 负宇称空间、玻色子—费米子交换正规排序和电磁算符见 [[single-j-interacting-boson-fermion-model]]。
 - 电荷标定：[[nndc-ba128-136-core-e2-calibration]]；每个偶芯只选择一个第一 \(2^+\) 强度。128Ba 由评价半衰期、实际光子能量和总转换系数求得；其余使用评价 \(B(E2)\uparrow\)。没有把评价寿命与由同一强度派生的量重复计数。
-- 原式和图件重放的实际边界：`outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/report.md`。原作者 EM/invariant 图件尚未重放；能量子集的约1-keV一致不等于电磁生产者认证。
+- 原式和图件重放的实际边界：`outputs/l4/20261105-ba129-controlled-pairing/spin-invariant-source-replay/report.md`。原作者 EM/invariant 图件尚未重放；早期129能量子集的约1-keV一致不等于电磁生产者认证。后续135/137显示谱重放见上述新知识页，几keV残差已分开报告，不能沿用全链“1keV内”的说法。
 - 数学独立复核：同目录 `spin-invariant-algebra/report.md`。Kumar/Cline 矩、Wigner–Eckart 定理和 Racah 求和均为已有理论，不声称新公式。
 - 本任务计算：`system/scripts/ba_quadrupole_closure_study.py`，冻结输入 `spin-invariant-chain-contract.json`，实际输出 `shape-closure-v1/study.json`。这些计算是有限模型空间结果，未产生新实验数据。
 
@@ -296,3 +305,6 @@ Vogt等PRC95,024316（2017-02-15发表）的Fig.6/TableII已给
 - 2026-11-06：35设置算符敏感性否定“越域普遍稳健”的扩展，保留受限/完整差别。
 - 2026-11-06：加入固定交换/单极的Gamma路径及静态矩反检验，结论仍限所声明模型族。
 - 已形成单点英文研究稿；论文贡献与实际核解释继续按直接证据评估，尚未据此标记goal完成。
+- 2026-11-06阶段收束：固定形状反例、源能谱和独立异能态检查均已完成；
+  机制结果保留，真实Ba形状及整体谱学验证不作扩大解释。汇报与稿件状态
+  已更新，新控制及限制的完整文章整合留待下一轮，不改写此前冻结数据。

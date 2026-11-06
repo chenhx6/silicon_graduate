@@ -1,0 +1,142 @@
+{
+  "status": "frozen-for-parent-closeout",
+  "frozen_at_utc": "2026-11-06T10:05:22.356218+00:00",
+  "scope": "Existing book-coverage sidecar and one authorized research-note only. No new reading or research direction.",
+  "verified_existing_output_artifacts": 21,
+  "closeout_sha256": "caf2e0e215c566de7d9a0ad23e3c42b2e796181b585373b15726f57d8c88567f",
+  "knowledge_page": {
+    "path": "knowledge/research-notes/book-reading-coverage-reconciliation-20261106.md",
+    "sha256": "086e54b8264906a3dc70566125154ca4b065ab69113ece1f6cf59da1356fa2b1"
+  },
+  "original_ledger_unchanged": true,
+  "coverage_boundary": "33 record/source declarations mapped to49 target packets. Interval unions are not completed-reading percentages. Prior full-chapter declarations retained as record-verified, with locator and object-coverage limits.",
+  "completed_unit": {
+    "id": "U-B25-002-E2-20261106",
+    "physical_pdf": [
+      66,
+      71
+    ],
+    "printed": [
+      44,
+      49
+    ],
+    "status": "study-complete",
+    "pages": 6,
+    "prior_scope_overlap": [
+      66
+    ],
+    "new_pages_outside_located_prior_ranges": [
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "equations": "4-66 through4-73",
+    "figure": "4-5 including full caption",
+    "original_packet": "Q-B25-002",
+    "whole_original_packet_completed": false,
+    "chapter_or_book_completed": false
+  },
+  "pending_units": [
+    {
+      "book": "BM-II",
+      "pdf": [
+        72,
+        75
+      ],
+      "printed": [
+        50,
+        53
+      ],
+      "packet": "Q-B25-002",
+      "topic": "Continuation of 4-3b: generalized E2 intensity relations and corrections",
+      "status": "No bounded continuous reading receipt located; newly completed unit stops at71"
+    },
+    {
+      "book": "Greiner",
+      "pdf": [
+        170,
+        175
+      ],
+      "printed": [
+        151,
+        156
+      ],
+      "packet": "Q-B10-005",
+      "topic": "6.5.2 quantal Hamiltonian after rotation-vibration classical energy",
+      "status": "PDF170 heading source-checked only; 170–175 not a completed unit"
+    },
+    {
+      "book": "Casten-1990",
+      "pdf": [
+        156,
+        163
+      ],
+      "printed": [
+        141,
+        148
+      ],
+      "packet": "Q-B34-004/Q-B34-005",
+      "topic": "Beginning of Chapter6 collective excitations",
+      "status": "Concept/skill citations exist; no corresponding bounded full-interval reading receipt located"
+    },
+    {
+      "book": "Petrache",
+      "pdf": [
+        247,
+        251
+      ],
+      "printed": [
+        228,
+        232
+      ],
+      "packet": "Q-B02-007",
+      "topic": "Chapter11 IBFFM-2 continuation, particle-core and residual interaction dictionary",
+      "status": "Inside a selected-formula receipt, so needs continuous-unit completion; not asserted never previously inspected"
+    }
+  ],
+  "remaining_audit_limits": [
+    "BM-II particle-vibration receipt equation/page pairings need reconciliation.",
+    "Petrache chapter13 corrected physical-page mapping does not certify all chapter objects.",
+    "Full-chapter declarations require remaining object/recall/exclusion reconciliation before strict completion credit.",
+    "Casten editions/translations are not interchangeable; no complete original-corpus hash refresh was performed."
+  ],
+  "checks_already_passed": {
+    "raw_target_hashes_verified": 4,
+    "added_file_hashes_verified": 6,
+    "input_snapshot_files_verified": 36,
+    "original_ledger_sha256_unchanged": true,
+    "interval_records": 33,
+    "packet_rows": 49,
+    "packets_from_original_queue": 39,
+    "casten_addendum_packets": 10,
+    "new_complete_unit_pages": 6,
+    "new_unit_renders_verified": 6,
+    "algebra_passed": true,
+    "scripts_parse": true,
+    "knowledge_links_resolve": true
+  },
+  "scoped_lint": {
+    "validator": "wiki_lint.py read_page/validate_page/audit_governance with current lint-config.json",
+    "pages": 1,
+    "type": "research-note",
+    "errors": 0,
+    "warnings": 0,
+    "info": 0,
+    "required_sections": [
+      "Research Trigger",
+      "Grounded Evidence",
+      "Provisional Reasoning",
+      "Assumptions",
+      "Competing Explanations",
+      "Transfer Conditions",
+      "Failure Conditions",
+      "Falsification or Reverse Tests",
+      "Open Questions",
+      "Human Review",
+      "Promotion or Rejection History"
+    ]
+  },
+  "next_owner_action": "Parent may integrate the verified delta and bounded reading record; original ledger remains unchanged."
+}

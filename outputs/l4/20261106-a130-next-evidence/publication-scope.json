@@ -1,0 +1,647 @@
+{
+  "stable_pointer": "main / research: close A130 mechanism stage with Chinese report",
+  "paths": [
+    "knowledge/index.md",
+    "knowledge/research-notes/ba135-ba137-source-energy-replay-boundary.md",
+    "knowledge/research-notes/ba137-isomer-e2-network-validity.md",
+    "knowledge/research-notes/book-reading-coverage-reconciliation-20261106.md",
+    "knowledge/research-notes/fixed-shape-particle-rotor-quadrupole-proxy-control.md",
+    "knowledge/research-notes/odd-ba-quadrupole-closure-and-spin-channel-redistribution.md",
+    "knowledge/sources/nndc-e2-weisskopf-direction-and-lifetime-ratio.md",
+    "knowledge/sources/nomura-2017-odd-mass-gamma-soft-shape-transitions.md",
+    "outputs/l4/20261106-a130-next-evidence/.gitattributes",
+    "outputs/l4/20261106-a130-next-evidence/.gitignore",
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/bm2-unit-algebra.json",
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/check_bm2_unit.py",
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/closeout.json",
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/coverage-reconciliation.json",
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/freeze-receipt.json",
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/interval-evidence.csv",
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/locator-audit.json",
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/packet-crosswalk.csv",
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/reading-unit.json",
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/reconcile_coverage.py",
+    "outputs/l4/20261106-a130-next-evidence/book-coverage/report.md",
+    "outputs/l4/20261106-a130-next-evidence/closeout-review/report.md",
+    "outputs/l4/20261106-a130-next-evidence/closeout/README.md",
+    "outputs/l4/20261106-a130-next-evidence/closeout/TODO.md",
+    "outputs/l4/20261106-a130-next-evidence/closeout/a130-stage-report-20261106.pdf",
+    "outputs/l4/20261106-a130-next-evidence/closeout/a130-stage-report-20261106.tex",
+    "outputs/l4/20261106-a130-next-evidence/closeout/a130-stage-report-20261106.txt",
+    "outputs/l4/20261106-a130-next-evidence/closeout/brief.md",
+    "outputs/l4/20261106-a130-next-evidence/closeout/evidence-ledger.md",
+    "outputs/l4/20261106-a130-next-evidence/closeout/figure-inputs.json",
+    "outputs/l4/20261106-a130-next-evidence/closeout/figures/coupling.pdf",
+    "outputs/l4/20261106-a130-next-evidence/closeout/figures/coupling.png",
+    "outputs/l4/20261106-a130-next-evidence/closeout/figures/coverage.pdf",
+    "outputs/l4/20261106-a130-next-evidence/closeout/figures/coverage.png",
+    "outputs/l4/20261106-a130-next-evidence/closeout/figures/lifetimes.pdf",
+    "outputs/l4/20261106-a130-next-evidence/closeout/figures/lifetimes.png",
+    "outputs/l4/20261106-a130-next-evidence/closeout/figures/replay.pdf",
+    "outputs/l4/20261106-a130-next-evidence/closeout/figures/replay.png",
+    "outputs/l4/20261106-a130-next-evidence/closeout/figures/rigid.pdf",
+    "outputs/l4/20261106-a130-next-evidence/closeout/figures/rigid.png",
+    "outputs/l4/20261106-a130-next-evidence/closeout/frame-manifest.md",
+    "outputs/l4/20261106-a130-next-evidence/closeout/layout-check.json",
+    "outputs/l4/20261106-a130-next-evidence/closeout/make_figures.py",
+    "outputs/l4/20261106-a130-next-evidence/closeout/speaker-notes.md",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-protocol.json",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-results.json",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-summary.csv",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/energy-mapping-frozen.json",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/predictions.csv",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/protocol.json",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/report.md",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/results.json",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_benchmark.py",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_decay_widths.py",
+    "outputs/l4/20261106-a130-next-evidence/isomer-review/arithmetic-checks.json",
+    "outputs/l4/20261106-a130-next-evidence/isomer-review/check_arithmetic.py",
+    "outputs/l4/20261106-a130-next-evidence/isomer-review/closeout.json",
+    "outputs/l4/20261106-a130-next-evidence/isomer-review/proposed-updates.md",
+    "outputs/l4/20261106-a130-next-evidence/isomer-review/review.md",
+    "outputs/l4/20261106-a130-next-evidence/isomer-source-review/check_units.py",
+    "outputs/l4/20261106-a130-next-evidence/isomer-source-review/checks.json",
+    "outputs/l4/20261106-a130-next-evidence/isomer-source-review/freeze.json",
+    "outputs/l4/20261106-a130-next-evidence/isomer-source-review/observed-strength.csv",
+    "outputs/l4/20261106-a130-next-evidence/isomer-source-review/report.md",
+    "outputs/l4/20261106-a130-next-evidence/isomer-source-review/unit-audit.json",
+    "outputs/l4/20261106-a130-next-evidence/publication-scope.json",
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/checks.json",
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/closeout.json",
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/closeout.md",
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/cubic-spin-sectors.csv",
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/execution.log",
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/proof.md",
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/protocol.json",
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/report.md",
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/results.json",
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/run_control.py",
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/summary.csv",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/artifact-inventory.json",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/closeout.md",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/compare_fixed_chain.py",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/comparison-contract.json",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/comparison.csv",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/comparison.json",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/extract_source.py",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/report.md",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/run.json",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-freeze.json",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-points-frozen.csv",
+    "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-points-frozen.json",
+    "outputs/l4/20261106-a130-next-evidence/validation/archive.log",
+    "outputs/l4/20261106-a130-next-evidence/validation/artifact-inventory-name-correction.json",
+    "outputs/l4/20261106-a130-next-evidence/validation/boundary.json",
+    "outputs/l4/20261106-a130-next-evidence/validation/boundary.log",
+    "outputs/l4/20261106-a130-next-evidence/validation/data-and-source-checks.json",
+    "outputs/l4/20261106-a130-next-evidence/validation/local-links.json",
+    "outputs/l4/20261106-a130-next-evidence/validation/owned-scope-precheck.json",
+    "outputs/l4/20261106-a130-next-evidence/validation/preflight-initial.json",
+    "outputs/l4/20261106-a130-next-evidence/validation/preflight-initial.log",
+    "outputs/l4/20261106-a130-next-evidence/validation/preflight.json",
+    "outputs/l4/20261106-a130-next-evidence/validation/preflight.log",
+    "outputs/l4/20261106-a130-next-evidence/validation/summary.json",
+    "outputs/l4/20261106-a130-next-evidence/validation/wiki-lint.json",
+    "outputs/l4/20261106-a130-next-evidence/validation/wiki-lint.log",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/README.md",
+    "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/closeout-20261106.md",
+    "system/handoff.md",
+    "system/log.md"
+  ],
+  "files": [
+    {
+      "path": "knowledge/index.md",
+      "size": 283862,
+      "sha256": "3610374c705a6c9156934641feb2bc65e7b082b45865b4bcb3136839478b09d0"
+    },
+    {
+      "path": "knowledge/research-notes/ba135-ba137-source-energy-replay-boundary.md",
+      "size": 12507,
+      "sha256": "134d0a73ce80534d44c21675355b3d233e50066d5ee0ad21a99b529f84d88a50"
+    },
+    {
+      "path": "knowledge/research-notes/ba137-isomer-e2-network-validity.md",
+      "size": 9101,
+      "sha256": "eeeb7dfb3322a81b461612d02e69322f09893bfdb93b4a4313963866472b62b1"
+    },
+    {
+      "path": "knowledge/research-notes/book-reading-coverage-reconciliation-20261106.md",
+      "size": 17535,
+      "sha256": "086e54b8264906a3dc70566125154ca4b065ab69113ece1f6cf59da1356fa2b1"
+    },
+    {
+      "path": "knowledge/research-notes/fixed-shape-particle-rotor-quadrupole-proxy-control.md",
+      "size": 16451,
+      "sha256": "10c1d0d1cb354d5994164142dc48460b96ad4e3539472b2f47c672a6d6b1bba1"
+    },
+    {
+      "path": "knowledge/research-notes/odd-ba-quadrupole-closure-and-spin-channel-redistribution.md",
+      "size": 21803,
+      "sha256": "e2ffdbef5b74802524cade5edfd11deba1c30dfd07d29001c3f59d5f83705053"
+    },
+    {
+      "path": "knowledge/sources/nndc-e2-weisskopf-direction-and-lifetime-ratio.md",
+      "size": 10975,
+      "sha256": "7761b53a8b48629e960b8e2d57e27e1fd7a30382db06f486ed24d942404b4c77"
+    },
+    {
+      "path": "knowledge/sources/nomura-2017-odd-mass-gamma-soft-shape-transitions.md",
+      "size": 10633,
+      "sha256": "4ba9c9532a816a909c95959867e6875d4ce9db6cd89c34424e762823823b35e2"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/.gitattributes",
+      "size": 161,
+      "sha256": "8757c60b78e3a723e6574d17abd15fea7c3a27a764f0c51456d46b1e32bb0ae2"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/.gitignore",
+      "size": 360,
+      "sha256": "8fcfab0e380693fcd2eb45b5feed95bc36d2aa258f246b5101d8c69637c27a1e"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/bm2-unit-algebra.json",
+      "size": 1864,
+      "sha256": "0578d06fe41ed8103d8cd50809e9ca7ae16e6458b0d2ba52b238f402c246d2b9"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/check_bm2_unit.py",
+      "size": 4277,
+      "sha256": "5142d7519eae318bfb9235325d5aa29e2494764951caddd6833a56dd483684d7"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/closeout.json",
+      "size": 7024,
+      "sha256": "caf2e0e215c566de7d9a0ad23e3c42b2e796181b585373b15726f57d8c88567f"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/coverage-reconciliation.json",
+      "size": 74173,
+      "sha256": "3cdc81170fd9a172029cd43e4bff4d0ca14dde2f3b7598cdc960f0e965b06c9f"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/freeze-receipt.json",
+      "size": 4496,
+      "sha256": "731af231e7ce2aee08ab01357ae65ac447e21ea868521fd6b98163ae0be27ea6"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/interval-evidence.csv",
+      "size": 12670,
+      "sha256": "811d92e6fecd81c17eddbd963f8eabc8c02270c92ce2d6cc4f750dec25a0d687"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/locator-audit.json",
+      "size": 4375,
+      "sha256": "bcbaf9daef2250894cdedec10a77bd525d95bfa9d0fa14a28640264538b8db4f"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/packet-crosswalk.csv",
+      "size": 5999,
+      "sha256": "5405294eefa6abbcc8cc4036251dcc5026d4e029d24a5c95ff9a1ab72d9fc5ac"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/reading-unit.json",
+      "size": 4921,
+      "sha256": "595df5d9ae761648a29679eb09137a18c3376292010c0ac9023830e58867384b"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/reconcile_coverage.py",
+      "size": 17089,
+      "sha256": "8ab2835e4ab72901b37342570c518b90a2897869fa74439c5e8e16ef4313302c"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/book-coverage/report.md",
+      "size": 4874,
+      "sha256": "91eccd28da97a18056558868c1dc37e75b5ef43639b4fafa20c4248296dc81db"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout-review/report.md",
+      "size": 5177,
+      "sha256": "97f47043109c186e384ecc35a4724402a00df89c4f3b9adbbc51a6234dfbc3a7"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/README.md",
+      "size": 1379,
+      "sha256": "229eae0835353ec483cc82d54df8a63e6f63acc131d4cb34e070e894382ab270"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/TODO.md",
+      "size": 1076,
+      "sha256": "7ba8b0e91988cbe34cff03f760943c0be97a70cfb22a0aa06cf8bea3f2286368"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/a130-stage-report-20261106.pdf",
+      "size": 238671,
+      "sha256": "d3c3cb293d90de9958083859922a20c7b183b7b251f00f3ff53564869df8894d"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/a130-stage-report-20261106.tex",
+      "size": 14936,
+      "sha256": "656f2b3f82f20aea1551f4455b3446e3ad55a7a2b2184a74500fefe6e6c9a060"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/a130-stage-report-20261106.txt",
+      "size": 9976,
+      "sha256": "64373b5d44f4040297da28437e398875a1aaab5dcbe3b9b6e3716db7ba710dac"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/brief.md",
+      "size": 4361,
+      "sha256": "ca0d0eb468b2104efc6813e07e03ae14c285ada9932464f04cdf6c5708c87a0f"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/evidence-ledger.md",
+      "size": 3298,
+      "sha256": "aff1ed652de5dc7d119de13b1105951bf2241d18d2f7b0db7d3ca15070df91fc"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/figure-inputs.json",
+      "size": 19032,
+      "sha256": "f87c99bcc836e27fed02209a264a5d70a8f519c67e3aec7167701ca5b3ef189b"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/figures/coupling.pdf",
+      "size": 20845,
+      "sha256": "7c35031eed483d3c9b99611fcd1d694dd8a0054773e283f24e9d88b1e65111f4"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/figures/coupling.png",
+      "size": 84166,
+      "sha256": "ce477a7bc78efc0ee78d68d6739de7688d6a37d1fc1ec4f2f453c97356366b18"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/figures/coverage.pdf",
+      "size": 16341,
+      "sha256": "5c96baa0d27eecc28bf5f3d33afd23e62bf7b0bc248377ee2ee531634caedb7b"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/figures/coverage.png",
+      "size": 60667,
+      "sha256": "6614892a5a2e8230a93462f5b307eb6e7ef8d24e8e1a4708c720b0956d96ad16"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/figures/lifetimes.pdf",
+      "size": 20723,
+      "sha256": "db28f2f0372bbbfc7e8668b6e07809b162ff7fd4414f9e5234425b82b651675e"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/figures/lifetimes.png",
+      "size": 71950,
+      "sha256": "f16984f1531d791b53032cc46e2a096eca676a65696865a854d98bd6a148a6c4"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/figures/replay.pdf",
+      "size": 13657,
+      "sha256": "2e1490d972c942d029fc9a9c99991e4eb915d4b1312f95d4b131c47750196739"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/figures/replay.png",
+      "size": 68440,
+      "sha256": "da7c2882a4e254780f0ffa333ef9ce60523bac198a871de6a9fa6abc05d25f88"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/figures/rigid.pdf",
+      "size": 21652,
+      "sha256": "d22ed22dd525f7d47729cd415d512e31d7077a19dab453b80106f150f07c7ef5"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/figures/rigid.png",
+      "size": 96902,
+      "sha256": "567849b998e3a982cba6fcb0ee29beba7d2577bd86d9b6103cc3d9bb51421788"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/frame-manifest.md",
+      "size": 3688,
+      "sha256": "bb055df229f7b2239d8826771ab4f78787add904876b221820172f3f62b15ba3"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/layout-check.json",
+      "size": 6805,
+      "sha256": "86b1c39ad1160bfecdab239a3f7767e8c440cfe5c0fa5364e6e8161159574e34"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/make_figures.py",
+      "size": 7219,
+      "sha256": "923c03df1d54ddac691ed0f907c654ed000c85a01efe4896c7ec46ced3e0d267"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/closeout/speaker-notes.md",
+      "size": 5256,
+      "sha256": "07e7f91b9f232d985db5f26e8a0fc358011a0dfdd18869d5e800c91e7e1ad5ff"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-protocol.json",
+      "size": 2225,
+      "sha256": "0d275af632774a45150d36925e8bc99ff31566c5b5894e4c90587cee290af9fc"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-results.json",
+      "size": 52548,
+      "sha256": "7adea7bf9da30404ca4db8ee3d849bf9a59037d4d7a05b2e33f913f5877c5039"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-summary.csv",
+      "size": 2707,
+      "sha256": "74c31f74b39a5d8bccb11d492e75bab76cf11d76a51dfe5b91f061e736613794"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/energy-mapping-frozen.json",
+      "size": 2438,
+      "sha256": "57abd9274e345bbb19f6906c54fa87e3b9254d3ffa70c996c2788baec0221aa3"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/predictions.csv",
+      "size": 11817,
+      "sha256": "4ffdf0860859b2bb3d651b3c36ae88e1cd9554bf94d7438c310921c41c281cdc"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/protocol.json",
+      "size": 4073,
+      "sha256": "d7cfd563d78bd5b2c131d9d3097b8754564fa4b10a81841c4e3078ef3de14d89"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/report.md",
+      "size": 2014,
+      "sha256": "0b3135e9314312779fb2cf37bc4cc9ebb72cda666ae3981ef9dcd85b580857ab"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/results.json",
+      "size": 35401,
+      "sha256": "a5b8f065d68a8a9eb8dfa051dd97b93ac01547be9251d8cd98fef0cd7cddd89c"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_benchmark.py",
+      "size": 8324,
+      "sha256": "7b9e7317bac1b7ae8d927deb38bedf00265dc4b3b87c8c672cf105e1ce5e83d2"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_decay_widths.py",
+      "size": 5980,
+      "sha256": "7ac7fb8f511425f62befa1ab8ed26c22480512cac97df541109f2dd9d9e031d3"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-review/arithmetic-checks.json",
+      "size": 9051,
+      "sha256": "7c98def8cde81e6df1f3a3e26de5a19834b77879df0d1edac504d098620de05f"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-review/check_arithmetic.py",
+      "size": 7874,
+      "sha256": "51abddae877e29fe5168ba21b029b65554475c51bcdd08bec9855da1b8ba95e3"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-review/closeout.json",
+      "size": 1035,
+      "sha256": "9ea1decba022b6b3f03b0caba4a9e9f33b2a7d3f937ed1492ef4f40c2f5b8cd0"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-review/proposed-updates.md",
+      "size": 3946,
+      "sha256": "98f1402aa1f4f652052239cb46479d477bbcad06000057e9f20779e7ecdebedc"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-review/review.md",
+      "size": 9146,
+      "sha256": "fdb4ff0126778abc5ef83e9b4c4bf62964912e33f73fb075db947a787a224188"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-source-review/check_units.py",
+      "size": 10540,
+      "sha256": "a267607e491de18ef971acd062665a38b04f35a828e31a9cc29f4f11a7c37f43"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-source-review/checks.json",
+      "size": 1961,
+      "sha256": "59f07399b648cb95f69f38f179523133117a90d9074eb9fc9ef4b0e8f867bce7"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-source-review/freeze.json",
+      "size": 5032,
+      "sha256": "0130e31a1ef23b940a6989edfc1deb2935370bd45eed9bd994ebe4d5b18bd2fb"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-source-review/observed-strength.csv",
+      "size": 458,
+      "sha256": "6807f6c142f7893c245a30de812d01a4b3325cdfa2df88592386ab73f9089e5d"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-source-review/report.md",
+      "size": 4558,
+      "sha256": "b8857cb2ba9d970bd7cd355a7df259894db6ca0c9e322e69f3fc7a8df0fb59a1"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/isomer-source-review/unit-audit.json",
+      "size": 5552,
+      "sha256": "ed75cf18279772cb4393f77e795e741a327c03373ce0e638d35fc99a8162da75"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/checks.json",
+      "size": 5287,
+      "sha256": "ee292bd7bcea83526d7873edb90fa9c5c2267a0faecaeb8cfb7222f941da60a3"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/closeout.json",
+      "size": 5102,
+      "sha256": "679d64c3e15a561e8484fad52bb14fa975c3767f77716bf66553677af536d988"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/closeout.md",
+      "size": 3624,
+      "sha256": "c0de6e2a8701be280e416c2abdc762ae543749317af580573cb8d0483d286a29"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/cubic-spin-sectors.csv",
+      "size": 2992,
+      "sha256": "96e1be3c2ca9487272882d960525c2ad17f584eea8531fd027153d07c67f9828"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/execution.log",
+      "size": 4512,
+      "sha256": "c2d664594d9de061e168c0f9e91fcc485a477f141fe74d28d5cd7e745b495f8f"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/proof.md",
+      "size": 8242,
+      "sha256": "7707707f1de7c740fa076ded5f0238aaaab313fd0cee81b2bbcfe016b6db0f16"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/protocol.json",
+      "size": 7812,
+      "sha256": "40142b140bebfd5f326ffb56081dd4364559df32c59d65882bf7a5a4e694a109"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/report.md",
+      "size": 9372,
+      "sha256": "63e2e6fb4bbc02ab52323e8a7c199903917ec6899992347ebad1584415fcbb76"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/results.json",
+      "size": 52101,
+      "sha256": "68c8f78d02a57097b23e00f4e1d45c121454baf9f3a9e30cc1e9fe2ef4282cf8"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/run_control.py",
+      "size": 27468,
+      "sha256": "bd90adedf229ce717432756486a37611eea7afa7910aeb849b20fef1dd553647"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/rigid-core-control/summary.csv",
+      "size": 5295,
+      "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/artifact-inventory.json",
+      "size": 9050,
+      "sha256": "75e11e543812ee1328e5ce634619674ed1ce0602d427449ff18653fd00e43773"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/closeout.md",
+      "size": 3328,
+      "sha256": "352d286da7cbe557bc86047e236d952d948d996b7f6ceb0f0b441a63000f77f9"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/compare_fixed_chain.py",
+      "size": 8553,
+      "sha256": "1858bf76ee46392e52fe0aab9918632f49c52f4c39545d0d01e5b6a8f28eb504"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/comparison-contract.json",
+      "size": 5484,
+      "sha256": "cc3b8cc2f677635593f739cd450fb1c5fdcdac54dcdbe0a94075391a63b9f940"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/comparison.csv",
+      "size": 1914,
+      "sha256": "c4b45e7f105fa9a7c34926526f919f136d339c01a6965354f4545fbbde2db145"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/comparison.json",
+      "size": 11266,
+      "sha256": "0f22294d1ece4b12b3b85a811d1fec8cbd025520dfd71a5439705b5007c7eddd"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/extract_source.py",
+      "size": 12427,
+      "sha256": "1cd1b13cd3a545081039c47f0dc98e3a03b6eff3d33f2b88968d27833f512e87"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/report.md",
+      "size": 13488,
+      "sha256": "9ff1c51b3d7f70f90c015b4528f25d72b58bf11ce89ef1193fd7120d550b6695"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/run.json",
+      "size": 1234,
+      "sha256": "2a6c60296585b35ecab16e3193306ba9569cf110e20cca9ce8a57ad43271edfb"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-freeze.json",
+      "size": 806,
+      "sha256": "1b6f11ca17a614717a53f4b405044f5a51c8f7d7ba6f4c06b1833ad833845d9b"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-points-frozen.csv",
+      "size": 1324,
+      "sha256": "d88889bfb81501ba2faab30665d20db565a0e264572999d31a7f269eecc4456a"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-points-frozen.json",
+      "size": 34182,
+      "sha256": "bc4dbed2c29f65ae8f9546cd146005efa6dbb64eb08ef23781ede6f907b91d22"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/archive.log",
+      "size": 316,
+      "sha256": "3a352d8244496ff3a2acc913e3a44b6d2ad4990fc516970741323b3e03a230ff"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/artifact-inventory-name-correction.json",
+      "size": 762,
+      "sha256": "69ad36d940842f62ddbf9bea02cb82910d936edfef0ac68eece92c8a64329215"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/boundary.json",
+      "size": 205,
+      "sha256": "19110c496a40247a7a2efa0d99e0d403b444623bde4497ec2cd0398105ff5b60"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/boundary.log",
+      "size": 1331,
+      "sha256": "231a7a88757d0f9edb8643ac6f8bc78036f5a8f247cf8e2a614cbc1fc9fc72c5"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/data-and-source-checks.json",
+      "size": 7032,
+      "sha256": "82caf714808b2c695669772ee09704f0aa872b6cb19c4c647c28ac275f2e103f"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/local-links.json",
+      "size": 64,
+      "sha256": "77b149b6d2fdc2968d09d5948ca9818d48b4905a3a4a3a75057c5beb53e2b5ee"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/owned-scope-precheck.json",
+      "size": 6964,
+      "sha256": "fda27a186b162e511b879871861c6bd98b9474b9584d1bfc002987ad40996968"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/preflight-initial.json",
+      "size": 212,
+      "sha256": "0f79c6af9dee60979d0b38ad118e297dd6bce4aff139baaa81f999b879a363ef"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/preflight-initial.log",
+      "size": 8805,
+      "sha256": "def6a0d0670a2e34e3a57dd3b3b86ebef822ca1c9b78acfea17c5f5b21f03741"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/preflight.json",
+      "size": 212,
+      "sha256": "8dcbfb800f4d72296931ed4cd6435baf133422596de14f852c7bf75d7eae0f9b"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/preflight.log",
+      "size": 8799,
+      "sha256": "478dea62bd750c56c8e6fbed4ee22967fee6ab0546dc17c45711a56a3075d18a"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/summary.json",
+      "size": 592,
+      "sha256": "eb2330a2ad6363a0488ead3df838097005bf09b7b57233c1790ee654313aaf5e"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/wiki-lint.json",
+      "size": 297,
+      "sha256": "2b8672a16a92dc3f3370d82516633b1a78f1213fd188a52a0f200225f1724baf"
+    },
+    {
+      "path": "outputs/l4/20261106-a130-next-evidence/validation/wiki-lint.log",
+      "size": 858620,
+      "sha256": "45a7550b1e744f4a8413330e9a1a37d696f3e8b1231821167ed2307be88c8441"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/README.md",
+      "size": 3600,
+      "sha256": "53285a931a725df0918c0c3194dae3c09371e69dc2fe93e08125b7080fab7bba"
+    },
+    {
+      "path": "raw/writing/gpt/odd-ba-quadrupole-closure/analysis/closeout-20261106.md",
+      "size": 3369,
+      "sha256": "6d05addf65a4f55de03bcbd369adc2a43ba1c47941b314e16adf97604b86d319"
+    },
+    {
+      "path": "system/handoff.md",
+      "size": 1140160,
+      "sha256": "01a7caa808cab027930af973e1f607375436b02798afcceef289b215390103f7"
+    },
+    {
+      "path": "system/log.md",
+      "size": 886153,
+      "sha256": "f4ece4661df4046b0c5bc22e569645f25338f89363138a72e2bbb6b2c21a26b5"
+    }
+  ],
+  "self_hash_omitted": "outputs/l4/20261106-a130-next-evidence/publication-scope.json",
+  "excluded_existing_change": "PLAN.md",
+  "original_source_copies_not_staged": true
+}

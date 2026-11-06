@@ -1,0 +1,337 @@
+% Chinese 16:9 group report. Compile with XeLaTeX or the local Tectonic engine.
+% Plot only frozen results: python3 make_figures.py
+\documentclass[UTF8,aspectratio=169,11pt,fontset=none]{ctexbeamer}
+\usepackage{amsmath,amssymb,graphicx,booktabs,tabularx,array,tikz,xcolor}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\setsansfont{DejaVu Sans}
+\setCJKmainfont{WenQuanYi Zen Hei}
+\setCJKsansfont{WenQuanYi Zen Hei}
+\setCJKmonofont{WenQuanYi Zen Hei Mono}
+\definecolor{primary}{HTML}{17365D}
+\definecolor{accent}{HTML}{1F77B4}
+\definecolor{evidence}{HTML}{1E8449}
+\definecolor{warning}{HTML}{C55A11}
+\definecolor{muted}{HTML}{5B6573}
+\definecolor{panel}{HTML}{F4F7FA}
+\setbeamersize{text margin left=.55cm,text margin right=.55cm}
+\setlength{\columnsep}{.25cm}
+\setlength{\emergencystretch}{2em}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\setbeamercolor{normal text}{fg=black!86,bg=white}
+\setbeamercolor{structure}{fg=primary}
+\setbeamercolor{frametitle}{fg=primary,bg=white}
+\setbeamercolor{block title}{fg=primary,bg=panel}
+\setbeamercolor{block body}{fg=black!86,bg=panel}
+\setbeamerfont{frametitle}{size=\large,series=\bfseries}
+\setbeamertemplate{frametitle}{\vskip.12cm\insertframetitle\par\vskip.08cm}
+\setbeamertemplate{footline}{%
+  \hbox{\begin{beamercolorbox}[wd=\paperwidth,ht=2.3ex,dp=.9ex,
+    leftskip=.55cm,rightskip=.55cm]{author in head/foot}%
+    \fontsize{8}{9}\selectfont\color{muted}A$\approx$130 阶段收束\hfill
+    2026-11-06\hfill\insertframenumber/\inserttotalframenumber
+  \end{beamercolorbox}}}
+\newcommand{\source}[1]{\par\vspace{.12cm}{\fontsize{8}{10}\selectfont\color{muted}来源：#1\par}}
+\newcommand{\fig}[1]{\begin{center}
+ \includegraphics[width=.96\linewidth,height=4.25cm,keepaspectratio]{figures/#1.pdf}
+ \end{center}}
+\newcommand{\good}[1]{\textcolor{evidence}{#1}}
+\newcommand{\risk}[1]{\textcolor{warning}{#1}}
+\newcommand{\compact}{\fontsize{10}{13}\selectfont}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\tikzset{
+ state/.style={draw=accent,fill=accent!7,rounded corners=2pt,align=center,
+   text width=2.1cm,minimum height=.8cm,font=\small},
+ arrow/.style={-{Latex[length=2mm]},semithick,draw=primary}
+}
+\title{受限四极指标能否代表核形状？}
+\subtitle{奇质量 Ba 的通道重分配、固定形状对照与实验边界}
+\author{A$\approx$130 核结构研究阶段汇报}
+\date{2026年11月6日}
+\begin{document}
+
+% S01
+\begin{frame}[t]{本阶段收敛到一个问题：形状指标测到了什么？}
+ \vspace{.2cm}
+ {\LARGE\color{primary}受限四极指标与完整电荷矩}\par
+ \vspace{.25cm}
+ {\large 奇质量 Ba 中的角动量耦合、形状换算与证据边界}
+ \vspace{.35cm}
+ \begin{block}{已完成：一个可复现的机制研究}
+  五个奇 Ba 核的固定模型比较；严格固定形状的独立对照；
+  新的 $^{137}$Ba 异能态约束。
+ \end{block}
+ \begin{block}{目前判断}
+  \good{可以进行阶段汇报。}已有 10 页英文 EPJ A 候选稿；
+  \risk{新对照与实验限制尚需整合进修订稿。}
+ \end{block}
+ 全库阅读仍在进行；本次收束不等于全部研究目标完成。
+ \source{E01–E11；报告主体约12分钟；模型结果、实验原文与本任务判断分开标明。}
+\end{frame}
+
+% S02
+\begin{frame}[t]{“一个通道已收敛”没有补齐其它允许自旋}
+ 初态固定为 $J^\pi=11/2^-$，E2 张量允许五个中间自旋：
+ \begin{center}
+ \begin{tikzpicture}
+  \node[state] (a) at (0,0) {$7/2^-$};
+  \node[state] (b) at (2.8,0) {$9/2^-$};
+  \node[state] (c) at (5.6,0) {$11/2^-$};
+  \node[state] (d) at (8.4,0) {$13/2^-$};
+  \node[state,draw=warning,fill=warning!10] (e) at (11.2,0) {$15/2^-$};
+  \node[align=center,font=\small,text=warning] at (11.2,-1)
+   {常用受限量\\仅在此求和};
+  \draw[arrow] (11.2,-.65)--(e.south);
+ \end{tikzpicture}
+ \end{center}
+ \[
+ q_2=\frac{1}{2J+1}\sum_{\text{所有允许态 }a}
+       |\langle a\Vert T(E2)\Vert i\rangle|^2 .
+ \]
+ \begin{block}{检验问题}
+  少数 $15/2$ 态的求和趋于稳定时，它覆盖了多少完整强度？
+  三次矩还遗漏了哪些带符号的通道抵消？
+ \end{block}
+ 受限量仍是旋转标量；把它换成内禀形状需要额外条件。
+ \source{E01、E06；Nomura2017 Eqs.(12)–(15)，arXiv v2 p.11；标准Wigner–Eckart闭合。}
+\end{frame}
+
+% S03
+\begin{frame}[t]{五态几乎穷尽 $15/2$ 通道，却只覆盖完整强度的20–29\%}
+ \fig{coverage}
+ \begin{block}{五个核、同一初态自旋、每个核内部使用同一波函数}
+  $^{129,131,133,135,137}$Ba：五态占所选通道
+  \good{99.59–99.85\%}，占完整 $q_2$ 仅 \risk{20.00–28.90\%}。
+ \end{block}
+ 所谓“完整”限于声明的有限模型空间；本图没有新增实验测量。
+ \source{E01；calibrated-chain.json，cases[*].primary.restricted，max\_states=5。}
+\end{frame}
+
+% S04
+\begin{frame}[t]{$^{135}$Ba 耦合路径主要改变静态份额，总强度变化很小}
+ \fig{coupling}
+ 固定核芯、交换项、单极项和 E2 算符，只改变四极耦合：
+ \[
+ q_2=0.67662\text{–}0.69413\ e^2{\rm b}^2,\qquad
+ f_{\rm static}=0.0091\%\ \longrightarrow\ 33.69\%.
+ \]
+ 相邻态平方重叠 $\ge0.907$，采样同自旋能隙 $\ge0.481$ MeV。
+ \risk{近恒定 $q_2$ 本身不能证明内禀形状固定。}
+ \source{E02；quadrupole-path.json，5个已计算点；连线仅引导阅读，没有补算中间点。}
+\end{frame}
+
+% S05
+\begin{frame}[t]{严格固定 $\gamma=20^\circ$，受限角仍会变化甚至失去实数值}
+ \fig{rigid}
+ \[
+ q_2=1,\qquad q_3=\cos(3\gamma)=\tfrac12
+ \quad\text{对所有归一化态成立。}
+ \]
+ \compact
+ 无配对粒子—转子对照；固定电荷张量与惯量，只变单粒子场强度 $C$。
+ 全部48个 $15/2$ 态纳入后，$z$ 仍由0.32262变到1.02625。
+ \risk{这是独立固定形状反例，不能把其几何属性移植到 IBFM。}
+ \source{E03；protocol/proof/results/checks；独立Euler积分、D$_2$投影、旁观者极限和完整张量检查。}
+\end{frame}
+
+% S06
+\begin{frame}[t]{完整矩闭合，也不保证可定义实数形状角}
+ \compact
+ 固定 $^{135}$Ba Hamiltonian；用 $^{136}$Ba 芯强度及静态矩、
+ $^{137}$Ba 静态矩定标 E2 算符。$^{135}$Ba 的矩未用于选分支。
+ \vspace{.08cm}
+ \begin{center}
+ \renewcommand{\arraystretch}{1.15}
+ \begin{tabularx}{.94\linewidth}{@{}r r r Y@{}}
+ \toprule
+ $Q_s(^{136}{\rm Ba})$/eb & 预测 $Q_s(^{135}{\rm Ba})$/eb &
+ 完整 $r=q_3/q_2^{3/2}$ & 完整角的实数域\\
+ \midrule
+ $-.19$ & 1.089 & $-.642$ & 在域内\\
+ $+.01$ & .923 & $-1.093$ & \risk{越域}\\
+ $+.02$ & .915 & $-1.096$ & \risk{越域}\\
+ $+.07$ & .873 & $-1.092$ & \risk{越域}\\
+ $+.25$ & .723 & $-.920$ & 在域内\\
+ \bottomrule
+ \end{tabularx}
+ \end{center}
+ 部分分支改善 $^{135}$Ba 的 $Q_s=.96(8)$ eb 比较，同时使完整角未定义。
+ \risk{必须保留原始比值，不裁剪到 $[-1,1]$。}\par
+ 固定芯 $B_\uparrow=.407\ e^2{\rm b}^2$ 的中央值比较；B–Q 协方差未知。
+ \source{E07；calibrated-operator-predictions.csv；静态矩评价与分支依赖见对应source页。}
+\end{frame}
+
+% S07
+\begin{frame}[t]{低能理论谱接近原图，完整作者运行仍未恢复}
+ \fig{replay}
+ \compact
+ 两核各六个负宇称系列均对照，$11/2$ 为共同零点；
+ 最大差为 \good{1.896 keV} 与 \good{3.128 keV}，能级顺序一致。
+ \risk{仍缺作者运行输入、波函数与电磁图重放；原图没有 $19/2$ 态。}\par
+ 几 keV 差异尚不能唯一归因于参数精度或实现约定。
+ \source{E04；Nomura2017 arXiv v2 Fig.5(c)；源坐标先冻结，固定核查后比较；差值非实验误差。}
+\end{frame}
+
+% S08
+\begin{frame}[t]{589 ns 寿命属于上游 $19/2$ 态，目标 $15/2$ 强度仍缺}
+ \begin{center}
+ \begin{tikzpicture}[font=\small]
+  \draw[very thick,primary] (0,4.6)--(4.1,4.6);
+  \draw[very thick,primary] (0,2.5)--(4.1,2.5);
+  \draw[very thick,primary] (0,.3)--(4.1,.3);
+  \node[anchor=west] at (4.5,4.6) {$2349.9$ keV \quad $(19/2^-)$};
+  \node[anchor=west,text=warning] at (4.5,4.0) {$T_{1/2}=589(20)$ ns};
+  \node[anchor=west] at (4.5,2.5) {$2229.8$ keV \quad $(15/2^-)$};
+  \node[anchor=west] at (4.5,.3) {$661.7$ keV \quad $11/2^-$};
+  \draw[arrow] (1.2,4.5)--(1.2,2.6);
+  \node[anchor=west,align=left] at (1.5,3.45)
+   {$120.1$ keV\\$B(E2)=.46(3)$ W.u.};
+  \draw[arrow] (1.2,2.4)--(1.2,.4);
+  \node[anchor=west,align=left] at (1.5,1.4)
+   {$1568.2(5)$ keV\\绝对 $B(E2)$ 未给出};
+ \end{tikzpicture}
+ \end{center}
+ \compact
+ 这是文献能级示意，未按能量比例绘制；括号指定保留。
+ 上方寿命与所报强度源于同一衰变，不能作为两项独立观测计权。
+ \source{E05、E09；Vogt2017 accepted稿Fig.6/7、Tables II/III；图中文字1568.1与表值1568.2分开保留。}
+\end{frame}
+
+% S09
+\begin{frame}[t]{当前固定模型的 E2 衰变图不能兼容这项异能态对应}
+ \fig{lifetimes}
+ \compact
+ 主对应给 $B_\downarrow=22.47$ W.u.、模型光子能1173.6 keV；
+ 原文为 .46(3) W.u.、120.1 keV。
+ \par
+ 全开放E2速率给 $T_{1/2}\leq\ln2/\sum\lambda_\gamma(E2)$；
+ 14个情形的最大上界为 $2.811\times10^{-4}$ ns。\par
+ \risk{上界条件是模型能谱、振幅和态对应均成立。}
+ 它不直接检验初态 $11/2$ 的三次闭合环，也不排除整个 IBFM。
+ \source{E08、E09；全部7算符×2母态；用模型能量，未删去强分支，未将IC缺失当成完整寿命预测。}
+\end{frame}
+
+% S10
+\begin{frame}[t]{成立的是模型机制；实际核形状解释需要更强约束}
+ \compact
+ \renewcommand{\arraystretch}{1.25}
+ \begin{center}
+ \begin{tabularx}{.95\linewidth}{@{}P{3.1cm}P{2.1cm}Y@{}}
+ \toprule
+ 主张 & 当前判断 & 依据／限制\\
+ \midrule
+ 通道饱和与完整覆盖不同 & \good{数值已证实} &
+ 五核固定自旋比较；独立直接收缩与6j求和闭合。\\
+ 固定形状下受限量可变 & \good{严格对照支持} &
+ 电荷张量恒等式；全15/2通道仍出现越域。\\
+ Ba 角度变化代表真实形状变化 & \risk{证据不足} &
+ 算符依赖、静态矩偏差、未闭合的直接E2网络。\\
+ 当前模型已验证异能态 & \risk{该对应不相容} &
+ 全开放E2衰变图过快；19/2源谱和真实态对应未认证。\\
+ \bottomrule
+ \end{tabularx}
+ \end{center}
+ \textcolor{primary}{文章主线：角动量通道重分配会改变受限形状指标。}\par
+ 数值求和收敛与内禀形状的可解释性必须分别检查。
+ \source{E01–E09；内部科学判断，不是外部审稿或期刊接收预测。}
+\end{frame}
+
+% S11
+\begin{frame}[t]{全库学习已有可核查增量，仍不能宣称历史材料已读完}
+ \compact
+ \renewcommand{\arraystretch}{1.4}
+ \begin{center}
+ \begin{tabularx}{.95\linewidth}{@{}P{2.0cm}Y Y@{}}
+ \toprule
+ 原件 & 本轮实际核查 & 保留的缺口\\
+ \midrule
+ BM-II & 新完成PDF66–71／印刷44–49，六页逐图逐式 &
+ 其它回执存在公式与页码错配，不能整章核销。\\
+ Greiner & 对账PDF164–169的定向回读 &
+ 技能或模块交付不等于全书阅读。\\
+ Casten 1990 & 独立第一版增补；第10章正文与参考页分开 &
+ 不同版次和译本不能合并计学分。\\
+ Petrache 2025 & 保留全章阅读声明；修正第13章物理页偏移 &
+ 部分章仍是选图／选公式，不能推定连续全读。\\
+ \bottomrule
+ \end{tabularx}
+ \end{center}
+ 2026-11-02盘点基线：33个独立PDF、12,076页、318包；
+ 当日Casten增补后328包。本轮对账33条记录与49包。
+ \risk{记录范围并集不是阅读完成率。}
+ \source{E10；book-reading-coverage-reconciliation-20261106；原318包账本未被自动改成完成。}
+\end{frame}
+
+% S12
+\begin{frame}[t]{现在可以阶段汇报；投稿稿需要一次定向整合修订}
+ \compact
+ \renewcommand{\arraystretch}{1.25}
+ \begin{center}
+ \begin{tabularx}{.95\linewidth}{@{}P{2.7cm}P{3.0cm}Y@{}}
+ \toprule
+ 节点 & 交付物 & 验收标准\\
+ \midrule
+ 2026-11-06收束 & 中文PDF、TeX、讲稿与证据索引 &
+ 当前结果冻结；新限制进入知识页及稿件状态说明。\\
+ 若继续：下一轮约1–2工作日 & 聚焦机制的英文修订稿 &
+ 整合固定形状对照和异能态限制，更新随文包并复核。\\
+ 投稿前再判断 & 完整文章与作者／数据声明 &
+ 新颖性、来源、复现和物理适用范围闭环；不预告接收。\\
+ \bottomrule
+ \end{tabularx}
+ \end{center}
+ \textcolor{primary}{建议：保留这一主线，暂以 EPJ A 为候选定位。}\par
+ 当前不足以承诺 PRC／PLB 或真实核形状的新发现；总 goal 尚未完成。
+ \source{E11；时间为工作量估计，非硬性科研完成或投稿承诺；下一轮优先已有结果整合。}
+\end{frame}
+
+\appendix
+% A01
+\begin{frame}[t]{附录：Weisskopf 单位、跃迁方向与寿命必须统一}
+ \compact
+ \[
+ B_{\rm W}(E2)=\frac{1}{4\pi}\left(\frac35\right)^2
+  (1.2A^{1/3})^4\,e^2{\rm fm}^4 .
+ \]
+ $A=137$：1 W.u. $=0.00419544833\ e^2{\rm b}^2$；
+ .46(3) W.u. $=(1.930\pm.126)\times10^{-3}\ e^2{\rm b}^2$。
+ \vspace{.15cm}
+ \[
+ B(15/2\to19/2)=\frac{20}{16}B(19/2\to15/2),\qquad
+ \lambda_\gamma(E2)=1.2239\times10^{13} E_\gamma^5 B_\downarrow .
+ \]
+ 速率单位s$^{-1}$，$E_\gamma$ 用MeV，$B$ 用$e^2$b$^2$。
+ \begin{block}{不混用两种关系}
+  普通衰变W.u.用于此处的19/2到15/2；偶芯0到2的特殊向上基准含因子5。
+  对同一能量与多极性，$B/B_{\rm W}=T_{\gamma,{\rm W}}/T_\gamma$。
+ \end{block}
+ Vogt强度已含内转换修正。没有用缺失ICC或589ns再次生成“独立强度”。
+ \source{E05、E09；BM-I printed p.382 Eqs.(3C-16)–(3C-18)；NNDC归档文档的箭头／倒数问题单列核验。}
+\end{frame}
+
+% A02
+\begin{frame}[t]{附录：关键证据均可回到原件与冻结计算}
+ \compact
+ \renewcommand{\arraystretch}{1.1}
+ \begin{center}
+ \begin{tabularx}{.96\linewidth}{@{}P{1.6cm}Y P{4.0cm}@{}}
+ \toprule
+ ID & 原件／结果 & 核查内容\\
+ \midrule
+ E01/E02 & calibrated-chain、quadrupole-path & 五核矩、耦合路径\\
+ E03 & rigid-core-control & 固定形状证明与数值\\
+ E04 & Nomura2017 Fig.5(c)＋source-chain-replay & 135/137源谱、重建边界\\
+ E05 & Vogt2017 Fig.6/7、TablesII/III & 态、寿命、E2、来源依赖\\
+ E07 & calibrated-operator-predictions & 五个中央值定标分支\\
+ E08/E09 & isomer-benchmark及两项独立复核 & 28强度、14衰变图、单位\\
+ E10/E11 & book-coverage、文章包、阶段回执 & 学习覆盖与真实就绪状态\\
+ \bottomrule
+ \end{tabularx}
+ \end{center}
+ 完整路径见 \texttt{evidence-ledger.md}；绘图输入与哈希见
+ \texttt{figure-inputs.json}。\par
+ 图件由冻结数值重绘；本报告没有使用或发布 iThemba 私有数据。
+ \source{汇报配套：brief.md、speaker-notes.md、frame-manifest.md、layout-check.json。}
+\end{frame}
+\end{document}

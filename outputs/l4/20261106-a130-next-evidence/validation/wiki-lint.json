@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "system/scripts/wiki_lint.py",
+    "--fail-on",
+    "error"
+  ],
+  "exit_code": 0,
+  "output_log": "outputs/l4/20261106-a130-next-evidence/validation/wiki-lint.log",
+  "summary": "SUMMARY pages=1386 wikilinks=12747 hashes=479 errors=0 warnings=372 info=5374"
+}

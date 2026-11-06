@@ -1,0 +1,20 @@
+{
+  "recorded_at_utc": "2026-11-06T09:33:07.863483+00:00",
+  "source_json": {
+    "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-points-frozen.json",
+    "sha256": "bc4dbed2c29f65ae8f9546cd146005efa6dbb64eb08ef23781ede6f907b91d22",
+    "size_bytes": 34182
+  },
+  "source_csv": {
+    "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/source-points-frozen.csv",
+    "sha256": "d88889bfb81501ba2faab30665d20db565a0e264572999d31a7f269eecc4456a",
+    "size_bytes": 1324
+  },
+  "extractor": {
+    "path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/extract_source.py",
+    "sha256": "1cd1b13cd3a545081039c47f0dc98e3a03b6eff3d33f2b88968d27833f512e87",
+    "size_bytes": 12427
+  },
+  "source_point_count": 12,
+  "kernel_comparison_has_not_run": true
+}

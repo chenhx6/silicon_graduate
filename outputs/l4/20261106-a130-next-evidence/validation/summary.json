@@ -1,0 +1,15 @@
+{
+  "status": "all_required_phase_checks_passed",
+  "wiki_lint": "SUMMARY pages=1386 wikilinks=12747 hashes=479 errors=0 warnings=372 info=5374",
+  "boundary_ok": true,
+  "archive_ok": true,
+  "preflight_ok": true,
+  "frozen_article_file_count": 45,
+  "new_data_checks_passed": true,
+  "local_links_missing": 0,
+  "report_pages": 14,
+  "layout_record": "closeout/layout-check.json",
+  "scientific_goal_complete": false,
+  "submission_ready": false,
+  "scope_correction": "Execution artifact inventory renamed after initial manifest-path failure; no raw evidence or physics result changed."
+}

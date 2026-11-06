@@ -1,0 +1,166 @@
+{
+  "checked_at_utc": "2026-11-06T10:33:23.316934+00:00",
+  "pdf_sha256": "d3c3cb293d90de9958083859922a20c7b183b7b251f00f3ff53564869df8894d",
+  "tex_sha256": "656f2b3f82f20aea1551f4455b3446e3ad55a7a2b2184a74500fefe6e6c9a060",
+  "plot_driver_sha256": "923c03df1d54ddac691ed0f907c654ed000c85a01efe4896c7ec46ced3e0d267",
+  "pages_expected": 14,
+  "pages_actual": 14,
+  "pages_rendered": 14,
+  "pages_checked": 14,
+  "main_pages": 12,
+  "appendix_pages": 2,
+  "page_size_pt": [
+    453.5400085449219,
+    255.1199951171875
+  ],
+  "compiler": "local Tectonic with XeTeX; iterative compilation and automatic reference pass",
+  "compile_exit_code": 0,
+  "overfull_hbox": 0,
+  "overfull_vbox": 0,
+  "underfull": 0,
+  "undefined_references": 0,
+  "missing_characters": 0,
+  "occlusion_pairs": 0,
+  "clipped_objects": 0,
+  "outside_safe_area": 0,
+  "font_observation": {
+    "body_nominal_pt": 11,
+    "table_nominal_pt": 10,
+    "source_nominal_pt": 8,
+    "sampled_min_main_plot_label_pt": 9.35,
+    "mathematical_scripts_are_smaller": true,
+    "CJK_font": "WenQuanYi Zen Hei",
+    "Latin_font": "DejaVu Sans"
+  },
+  "non_layout_notices": [
+    "Compiler reports absolute local font paths; other environments must supply the listed fonts."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "render_sha256": "6ccf32a32b1bb6b8848336a236022469d63291a207b7ff0d0a5569befb18a7c7",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 2,
+      "render_sha256": "961339d0bca1fb2c5e98a994251348f742fdfaf89730a37e5ea4b282502e4080",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 3,
+      "render_sha256": "02a7494603c8c5abbdb76c4f6158a24ba24d3ad66435597464370e5b32218724",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 4,
+      "render_sha256": "c8cc453b190fb1d2c7df535e8459188862350381079872573849071c193ba2c8",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 5,
+      "render_sha256": "c1fa0427380e5aa656e43cc88b1d50e446d000b591232d2eaf79bf0188e7f8d6",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 6,
+      "render_sha256": "1a66f24db5e78b16e6734f00ff361910f3a5da5a5d52826a939d585d295a07b1",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 7,
+      "render_sha256": "9b75e34a6c6ff80b185f5d57f3b2d86347f0d409134e64acec05bc11fbd02a1e",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 8,
+      "render_sha256": "bde245dc731ed3f7ac6d2ad3078d9fd0a0653b558218332c013b20ae2011d9d8",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 9,
+      "render_sha256": "411e5c5895e7693bfd00379b64f6c5e876b3d886959f10b75e58c876276c62b8",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 10,
+      "render_sha256": "5f97051f2f0a1acfa0fe8531777d0138062761b83a661d632f6b7abd9c024aa1",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 11,
+      "render_sha256": "ceb66bb5f6686c9d955c09ff2f09de555fc9a43d1e19ff8f976082701d754978",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 12,
+      "render_sha256": "20707c281d426d56eb11926c7aeee77ceaf081d059d6301badfcae3387a109de",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 13,
+      "render_sha256": "36f5e0e8676dc50492d26a85374063bffba3879ee411698e25afc6ad1d5c968e",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    },
+    {
+      "page": 14,
+      "render_sha256": "9c4d26bba8d81068d4de96843ba1f2c64abb946f8ac30a0a35ec51ad4ee93502",
+      "visual_check": "agent inspected every page via rendered contact sheets; page5 reinspected individually after moving the legend clear of data",
+      "occlusion_pairs": 0,
+      "clipped_objects": 0,
+      "outside_safe_area": 0,
+      "outside_physical_text_boxes": 0
+    }
+  ]
+}

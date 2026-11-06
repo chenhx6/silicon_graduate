@@ -1,0 +1,10 @@
+{
+  "reason": "The file inventories run inputs/outputs and contains no new acquisition; naming it manifest.json triggered the raw archive manifest path contract. Renamed to describe its actual role. Existing raw/source archive obligations remain checked.",
+  "old_path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/manifest.json",
+  "old_sha256": "a3de26b3be18ac21b4a90418799891763c3225e522cbe6f6c8b4b3ec71aa32e5",
+  "new_path": "outputs/l4/20261106-a130-next-evidence/source-chain-replay/artifact-inventory.json",
+  "new_sha256": "75e11e543812ee1328e5ce634619674ed1ce0602d427449ff18653fd00e43773",
+  "scientific_frozen_inputs_changed": false,
+  "links_corrected": true,
+  "missing_closeout_json_reference_replaced_with_existing_records": true
+}

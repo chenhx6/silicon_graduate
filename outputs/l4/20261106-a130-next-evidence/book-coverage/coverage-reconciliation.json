@@ -1,0 +1,1756 @@
+{
+  "schema": "book-coverage-reconciliation-v1",
+  "review_date": "2026-11-06",
+  "observed_utc": "2026-11-06T08:53:32.276744+00:00",
+  "original_ledger": "knowledge/synthesis/book-corpus-coverage-ledger.md",
+  "original_ledger_sha256": "8eb44fa61dc0ef75333b5546bcd9875114cb671830d6d77e18bfa61028cb0fe3",
+  "original_packet_count": 318,
+  "original_pdf_count": 33,
+  "original_page_count": 12076,
+  "casten_addendum_packet_count": 328,
+  "target_identities": {
+    "BM-II": {
+      "baseline_id": "B25",
+      "raw_file": "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf",
+      "sha256": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+      "physical_pages": 772,
+      "size": 46111788,
+      "source_page": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "source_page_snapshot_sha256": "76467f7ce2b471482ee10587148464e5e0abcae0b777eaa5787598ccf54da724",
+      "source_page_updated": "2026-11-02"
+    },
+    "Greiner": {
+      "baseline_id": "B10",
+      "raw_file": "raw/books/Nuclear Models (Walter Greiner, Joachim A. Maruhn) (Z-Library).pdf",
+      "sha256": "db5e43efaa80877822540bf0caae9be93d54d5499c5df89faae69769e6f77091",
+      "physical_pages": 399,
+      "size": 28203157,
+      "source_page": "knowledge/sources/book-greiner-nuclear-models.md",
+      "source_page_snapshot_sha256": "d991ad5a0e843d92a50c59a39f103c4d5560f180cc54557438325d7b3906ced0",
+      "source_page_updated": "2026-11-06"
+    },
+    "Petrache": {
+      "baseline_id": "B02",
+      "raw_file": "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf",
+      "sha256": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+      "physical_pages": 339,
+      "size": 59016077,
+      "source_page": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "source_page_snapshot_sha256": "d5540d56847506fd6f0e1e1b6c0a4ba729da739de077a2a3110eefbf61a0dd49",
+      "source_page_updated": "2026-11-02"
+    },
+    "Casten-1990": {
+      "baseline_id": "B34-added-casten",
+      "raw_file": "raw/books/Nuclear Structure From A Simple Perspective Casten.pdf",
+      "sha256": "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9",
+      "physical_pages": 391,
+      "size": 21071577,
+      "source_page": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "source_page_snapshot_sha256": "cd7e8f13c70a41c82f5a6a2a1d0c3542cfc4b884a00703c3ecebbeec3b2131e1",
+      "source_page_updated": "2026-11-02"
+    }
+  },
+  "current_pdf_path_count": 39,
+  "missing_baseline_paths": [],
+  "additions_since_original_inventory": [
+    {
+      "path": "raw/books/Nuclear Structure From A Simple Perspective Casten.pdf",
+      "sha256": "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9",
+      "size": 21071577,
+      "physical_pages": 391,
+      "credit": "none from file metadata; editions/translations kept distinct"
+    },
+    {
+      "path": "raw/books/Nuclear Structure From A Simple Perspective edition2 Casten.pdf",
+      "sha256": "a016501ba9897abd73c34d366b93bc4435d3e4d2154c3b949b4f541128a7013c",
+      "size": 24879710,
+      "physical_pages": 488,
+      "credit": "none from file metadata; editions/translations kept distinct"
+    },
+    {
+      "path": "raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective.pdf",
+      "sha256": "d41d50c04e85c202632d61cbd8f13164bb8b5c1a239625dbb3c00266bb22335e",
+      "size": 15657827,
+      "physical_pages": 369,
+      "credit": "none from file metadata; editions/translations kept distinct"
+    },
+    {
+      "path": "raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective_A4版.pdf",
+      "sha256": "46420c7df1348520a1bf7dac712f3b51a548101f200c56c4e36b4b4bc677b6ee",
+      "size": 16452260,
+      "physical_pages": 369,
+      "credit": "none from file metadata; editions/translations kept distinct"
+    },
+    {
+      "path": "raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective_中文增订整合本.pdf",
+      "sha256": "c0b134872ae29da37d6efc687f86058be7e04b5929ea6338f07c048a8b1bdd3a",
+      "size": 50715332,
+      "physical_pages": 472,
+      "credit": "none from file metadata; editions/translations kept distinct"
+    },
+    {
+      "path": "raw/books/translations/中译_Nuclear_Structure_From_A_Simple_Perspective_第二版增补卷.pdf",
+      "sha256": "0805224e10031df43302395e3146c00258dbd3dc1bc77e715f1c3e348dc9ad94",
+      "size": 30771896,
+      "physical_pages": 140,
+      "credit": "none from file metadata; editions/translations kept distinct"
+    }
+  ],
+  "inventory_boundary": "Only target raw hashes and added-file metadata/hashes inspected; no full original-corpus hash refresh or automatic edition/translation curriculum merge.",
+  "records": [
+    {
+      "book": "BM-II",
+      "record": "knowledge/sources/book-bohr-mottelson-nuclear-structure-vol2.md",
+      "sha256": "76467f7ce2b471482ee10587148464e5e0abcae0b777eaa5787598ccf54da724",
+      "date": "2026-11-02",
+      "declared_pdf_intervals": [
+        [
+          212,
+          214
+        ]
+      ],
+      "coverage_kind": "selected-pages-source-record",
+      "record_status": "record-verified; current source card is a scoped declaration",
+      "locator": "Scope, PDF212–214 / printed190–192",
+      "source_hash_matches": true,
+      "limitation": "Broad claim-table citations and reading_depth labels are not added as read intervals."
+    },
+    {
+      "book": "BM-II",
+      "record": "outputs/learning-milestones/20261103-bm2-high-spin-asymmetric-rotor.json",
+      "sha256": "3dde1802e4c5496f52ac963d62cc0beb862ac446aa34ad4e91d9cc0f1d2508f5",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          197,
+          197
+        ],
+        [
+          199,
+          199
+        ],
+        [
+          201,
+          201
+        ],
+        [
+          205,
+          205
+        ],
+        [
+          207,
+          207
+        ],
+        [
+          209,
+          209
+        ],
+        [
+          211,
+          218
+        ]
+      ],
+      "coverage_kind": "selected-pages",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Selected Sections 4-5a-e PDF pp. 197, 199, 201, 205, 207, 209, 211-218",
+      "reported_object_locators": [
+        197,
+        199,
+        201,
+        205,
+        207,
+        209,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/bm2-high-spin-asymmetric-rotor-e2-contract.md",
+          "exists": true,
+          "snapshot_sha256": "1806d3dc8e24dad57ed2e45e65661de1c3e1e095791a967b1e955a30322d24e6"
+        },
+        {
+          "path": "knowledge/methods/bm2-asymmetric-rotor-d2-and-transition-contract.md",
+          "exists": true,
+          "snapshot_sha256": "a5caecfc88f128336bb5d28281b09b21ebc835f64bccefabd944f83be4f28a40"
+        }
+      ],
+      "limitation": ""
+    },
+    {
+      "book": "BM-II",
+      "record": "outputs/learning-milestones/20261103-bm2-finite-spin-harmonic-benchmark.json",
+      "sha256": "58310ea3855a71d1f574ad191dbb9be5fadf472db0872d9ee7bec58213b7cdad",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          212,
+          218
+        ]
+      ],
+      "coverage_kind": "selected-section",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Rendered verification of PDF pp. 212-218 / printed pp. 190-196",
+      "reported_object_locators": [
+        "PDF pp. 212-213 / printed pp. 190-191, Eqs. 4-296 to 4-304",
+        "PDF p. 214 / printed p. 192, Eqs. 4-306 to 4-308",
+        "PDF p. 215 / printed p. 193, Eqs. 4-310 to 4-314",
+        "PDF pp. 217-218 / printed pp. 195-196, Eqs. 4-315 to 4-319"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/bm2-finite-spin-harmonic-benchmark.md",
+          "exists": true,
+          "snapshot_sha256": "d25eeaaa09713909fdba05175bd1a28c1c6a7be02f0feb858a763b9540aaf08d"
+        }
+      ],
+      "limitation": ""
+    },
+    {
+      "book": "BM-II",
+      "record": "outputs/learning-milestones/20261103-bm2-particle-rotor-appendix.json",
+      "sha256": "66bfdec561695878092a76ceb409d1515f58e0b636035dc8466805ce265d4d37",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          219,
+          230
+        ]
+      ],
+      "coverage_kind": "selected-pages-in-appendix",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Rendered verification of PDF pp. 219-230 / printed pp. 197-208 selected pages",
+      "reported_object_locators": [
+        "PDF pp. 219-220 / printed pp. 197-198, Fig. 4-34 and Regge continuation",
+        "PDF pp. 221-224 / printed pp. 199-202, Eqs. 4A-1 to 4A-10",
+        "PDF p. 225 / printed p. 203, Eqs. 4A-13 to 4A-15",
+        "PDF pp. 226-229 / printed pp. 204-207, Eqs. 4A-16 to 4A-28",
+        "PDF p. 230 / printed p. 208, Eqs. 4A-29 to 4A-32"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/bm2-particle-rotor-adiabatic-coriolis-contract.md",
+          "exists": true,
+          "snapshot_sha256": "809382e96cf8ce1f80d7ff12ae9b39face85f748fa7968e57277747afac62903"
+        }
+      ],
+      "limitation": ""
+    },
+    {
+      "book": "BM-II",
+      "record": "outputs/learning-milestones/20261103-bm2-deformed-band-m1-e2-contract.json",
+      "sha256": "558e28d754008ca54cca49534e05615f4876caea9f38d279c97dce2236fcc81a",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          76,
+          80
+        ]
+      ],
+      "coverage_kind": "bounded-section-text-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Printed pp.54-58 / physical PDF pp.76-80, full text, equations 4-84 to 4-89, and Tables 4-7 to 4-10",
+      "reported_object_locators": [
+        "PDF p.78 Eq. 4-84 (Magnetic dipole vector decomposition mu = g_R I + (g_K - g_R) K)",
+        "PDF p.78 Eq. 4-85 to 4-87 (Within-band B(M1) reduced transition probability and magnetic decoupling parameter b)",
+        "PDF p.79 Eq. 4-88 (Static magnetic dipole moment mu(I) for K>1/2 and K=1/2)",
+        "PDF p.79 Table 4-7 to 4-10 (Experimental tests of M1 intensity relations in odd-A deformed nuclei)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/bm2-deformed-band-m1-e2-and-gk-gr-contract.md",
+          "exists": true,
+          "snapshot_sha256": "37188685547fec11473b8a97f2270085f520dea834cb6b0986bcfd1e2d13d861"
+        },
+        {
+          "path": "knowledge/concepts/electromagnetic-transition-rates-weisskopf-and-alaga-rules.md",
+          "exists": true,
+          "snapshot_sha256": "bc2d392068e6a31c4578b0eb182138d30e3ae0bc5f1e9755e9c3a08db01816bd"
+        },
+        {
+          "path": "knowledge/concepts/nilsson-magnetic-moments-and-gk-inversion.md",
+          "exists": true,
+          "snapshot_sha256": "14df4acf6d7ece96de662ab7dd0df62f66d23a98d11ff6ca18d40adae87d0dbc"
+        }
+      ],
+      "limitation": ""
+    },
+    {
+      "book": "BM-II",
+      "record": "outputs/learning-milestones/20261103-bm2-rotational-intrinsic-coupling-mikhailov.json",
+      "sha256": "534806e8974aa6db6efbc0b2c9ea75a6333b524a8ac216a8d800225685d27aaf",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          167,
+          196
+        ]
+      ],
+      "coverage_kind": "bounded-section-text-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Printed pp.145-174 / physical PDF pp.167-196, full text, equations 4-190 to 4-237, and Figures 4-28 to 4-30",
+      "reported_object_locators": [
+        "PDF p.169 Eq. 4-200 to 4-203 (Canonical transformation exp(-iS) for band mixing and effective operators)",
+        "PDF p.171 Eq. 4-204 to 4-205 (Delta K=1 Coriolis second-order perturbation and Inglis cranking MOI equivalence)",
+        "PDF p.172 Eq. 4-206 to 4-211 (Delta K=2 gamma-ground effective coupling and Mikhailov E2 matrix element)",
+        "PDF p.175 Eq. 4-216 to 4-220 (Delta K=0 centrifugal stretching and B I^2(I+1)^2 term)",
+        "PDF p.176 Figure 4-28 (175Lu Coriolis-induced E2 and M1 transitions)",
+        "PDF p.181 Figure 4-29 (166Er level scheme and parameters) and Eq. 4-230 to 4-231 (Mikhailov z_gamma parameter)",
+        "PDF p.182 Figure 4-30 (Mikhailov plot for 166Er testing linear intensity relation)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/bm2-rotational-intrinsic-coupling-and-mikhailov-contract.md",
+          "exists": true,
+          "snapshot_sha256": "6a9e7f693fbe50cc5105d24e74e7329a2faa9a3396e9c1070fef46c37fb40321"
+        },
+        {
+          "path": "knowledge/methods/bm2-particle-rotor-adiabatic-coriolis-contract.md",
+          "exists": true,
+          "snapshot_sha256": "809382e96cf8ce1f80d7ff12ae9b39face85f748fa7968e57277747afac62903"
+        },
+        {
+          "path": "knowledge/concepts/electromagnetic-transition-rates-weisskopf-and-alaga-rules.md",
+          "exists": true,
+          "snapshot_sha256": "bc2d392068e6a31c4578b0eb182138d30e3ae0bc5f1e9755e9c3a08db01816bd"
+        }
+      ],
+      "limitation": ""
+    },
+    {
+      "book": "BM-II",
+      "record": "outputs/learning-milestones/20261103-bm2-nilsson-deformed-shell-model-coriolis.json",
+      "sha256": "3b04323b919ca372c8784156ea7879bed8a941a819b56375e8fb3fcfe8c313aa",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          233,
+          260
+        ],
+        [
+          265,
+          277
+        ]
+      ],
+      "coverage_kind": "bounded-section-text-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Printed pp.211-238 and pp.243-255 / physical PDF pp.233-260 and pp.265-277, full text, equations 5-1 to 5-48, and Figures 5-1 to 5-10",
+      "reported_object_locators": [
+        "PDF p.241 Eq. 5-10 (Nilsson model deformed harmonic oscillator Hamiltonian with l.s and l^2 terms)",
+        "PDF p.243-247 Figures 5-1 to 5-5 (Nilsson single-particle level diagrams for protons and neutrons in prolate potentials)",
+        "PDF p.246 Eq. 5-15 (Asymptotic single-particle energy expression in cylindrical basis [N n3 Lambda Omega])",
+        "PDF p.250 Table 5-2 (Expansion of Nilsson wave functions in spherical basis and avoided crossings)",
+        "PDF p.266 (Single-nucleon transfer reaction cross sections and Vergnes-Sheline fingerprint patterns)",
+        "PDF p.272 Eq. 5-46 (Coriolis decoupling parameter a in K=1/2 bands)",
+        "PDF p.273 Eq. 5-47 (Second-order Coriolis contribution to moment of inertia delta A with BCS pairing factors)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/bm2-nilsson-deformed-shell-model-and-coriolis-alignment-contract.md",
+          "exists": true,
+          "snapshot_sha256": "1f57a427f4bd154890798fe72f542cc9b947b5afc85bb9524455258bec67139c"
+        },
+        {
+          "path": "knowledge/concepts/nilsson-deformed-shell-model-dynamics.md",
+          "exists": true,
+          "snapshot_sha256": "9d770a4d2bc25a4521d01ca68bc0f32aa0640692b1343abfaa6fa8b66d837f9d"
+        },
+        {
+          "path": "knowledge/methods/bm2-particle-rotor-adiabatic-coriolis-contract.md",
+          "exists": true,
+          "snapshot_sha256": "809382e96cf8ce1f80d7ff12ae9b39face85f748fa7968e57277747afac62903"
+        }
+      ],
+      "limitation": ""
+    },
+    {
+      "book": "BM-II",
+      "record": "outputs/learning-milestones/20261103-bm2-particle-vibration-coupling-rpa.json",
+      "sha256": "a5d6896ed6aad03e0b832c30a2bdaa97ee8e439b6f6cfcf1410bef56cc3d02f6",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          438,
+          457
+        ]
+      ],
+      "coverage_kind": "bounded-section-text-reported-with-locator-conflict",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Printed pp.416-435 / physical PDF pp.438-457, full text, equations 6-204 to 6-276, and Figures 6-7 to 6-8",
+      "reported_object_locators": [
+        "PDF p.439 Eq. 6-204 to 6-205 (First-order particle-vibration coupling Hamiltonian H')",
+        "PDF p.440 Eq. 6-208 to 6-210 (Spherical tensor matrix elements of particle-vibration coupling)",
+        "PDF p.441 Figure 6-7 (Diagrams illustrating first-order particle-vibration coupling)",
+        "PDF p.443 Eq. 6-215 to 6-216 and Figure 6-8 (Renormalization of single-particle moment and polarizability chi_F)",
+        "PDF p.450 Eq. 6-258 to 6-261 (Phonon-mediated effective two-body interaction and Q.Q force)",
+        "PDF p.456 Eq. 6-276 (Microscopic RPA dispersion relation for self-consistent collective modes)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/bm2-particle-vibration-coupling-and-rpa-contract.md",
+          "exists": true,
+          "snapshot_sha256": "9551d7b82a57cad10cae1fb8826316cc6b81028d9d48381ec3c3b08bf7b1a0b9"
+        },
+        {
+          "path": "knowledge/concepts/quasiparticle-random-phase-approximation-qrpa-dynamics.md",
+          "exists": true,
+          "snapshot_sha256": "a686dc84aabea3370f4528683d94498a58106f76e3a0cdf947e8db64a250292f"
+        },
+        {
+          "path": "knowledge/methods/bm2-collective-vibrations-and-sum-rules-contract.md",
+          "exists": true,
+          "snapshot_sha256": "1d6056c3722c93a9481a615840949f24c637a0fd0f58e5b84c418561361c011d"
+        }
+      ],
+      "limitation": "PDF450 has Eq6-223c/d, not the claimed Eq6-258–261; PDF456 has Eq6-230, not Eq6-276. Do not promote the entire receipt as formula-verified."
+    },
+    {
+      "book": "BM-II",
+      "record": "outputs/learning-milestones/20261103-bm2-collective-vibrations-and-sum-rules.json",
+      "sha256": "1a90b47b792fad04e4dfd3e21ef55b866103ee60479e86e0faf94366b2878503",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          64,
+          66
+        ],
+        [
+          383,
+          437
+        ],
+        [
+          620,
+          656
+        ]
+      ],
+      "coverage_kind": "bounded-sections-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Printed pp.361-398, pp.399-415, pp.42-44, and pp.598-634 / physical PDF pp.383-420, pp.421-437, pp.64-66, and pp.620-656",
+      "reported_object_locators": [
+        "PDF p.64-65 (Mottelson-Valatin 1960 CAP superfluid-to-normal phase transition and rotation alignment)",
+        "PDF p.384-385 Eq. 6-90 and Figure 6-3 (Quadrupole shape oscillations beta and gamma vibrations and two-phonon splitting into K=0 and K=4)",
+        "PDF p.388 Eq. 6-93 to 6-95 (Fissility parameter x and critical limit (Z^2/A)_crit = 49)",
+        "PDF p.421-426 Eq. 6-168 to 6-174 (Double-commutator EWSR sum rule and TRK E1, ISGQR E2, ISGMR E0 expressions)",
+        "PDF p.483-485 Eq. 6-293 to 6-296 (Rotation-vibration coupling and logarithmic derivatives of MOI with respect to beta and gamma)",
+        "PDF p.627 Figure 6-52 (Strutinsky macro-microscopic shell correction energy surface and double-humped fission barrier)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/bm2-collective-vibrations-and-sum-rules-contract.md",
+          "exists": true,
+          "snapshot_sha256": "1d6056c3722c93a9481a615840949f24c637a0fd0f58e5b84c418561361c011d"
+        },
+        {
+          "path": "knowledge/concepts/giant-resonances-and-deformation-splitting.md",
+          "exists": true,
+          "snapshot_sha256": "7ac9f54f5b93d74f918e5a030419c06e7840a8269b0815d120bcb8c8bc878a1a"
+        },
+        {
+          "path": "knowledge/concepts/strutinsky-shell-correction-and-plateau-condition.md",
+          "exists": true,
+          "snapshot_sha256": "1d38072079684f2885d2c95b9dd4b14e1cf813018fc01b241a18f8b67115650d"
+        },
+        {
+          "path": "knowledge/concepts/coriolis-anti-pairing-and-moment-of-inertia-expansion.md",
+          "exists": true,
+          "snapshot_sha256": "4a2cc347e997924b7c3f245d061b9a6c8f8345f61a980d42e6ee0ef6a20a263c"
+        }
+      ],
+      "limitation": "Rendered-page claim PDF483–485 lies outside all declared scope intervals; retain separately as an object-check assertion."
+    },
+    {
+      "book": "Greiner",
+      "record": "knowledge/sources/book-greiner-nuclear-models.md",
+      "sha256": "d991ad5a0e843d92a50c59a39f103c4d5560f180cc54557438325d7b3906ced0",
+      "date": "2026-11-05",
+      "declared_pdf_intervals": [
+        [
+          164,
+          169
+        ]
+      ],
+      "coverage_kind": "selected-pages-source-record",
+      "record_status": "record-verified; current source card is a scoped declaration",
+      "locator": "Current source lines72–76; printed145–150",
+      "source_hash_matches": true,
+      "limitation": "Broad claim-table citations and reading_depth labels are not added as read intervals."
+    },
+    {
+      "book": "Greiner",
+      "record": "outputs/learning-milestones/20261104-greiner-nuclear-models-book-to-skill-closure.json",
+      "sha256": "192d6a41740a34a5805d7368c3c16cb1dfc61a2a9e8c861baff12d23490d09a1",
+      "date": "2026-11-04",
+      "declared_pdf_intervals": [],
+      "coverage_kind": "generated-skill-only",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": null,
+      "reported_object_locators": [],
+      "source_hash_matches": true,
+      "durable_writeback_records": [],
+      "limitation": "Status complete means skill delivery, not reading completion. Zero page credit from this receipt."
+    },
+    {
+      "book": "Casten-1990",
+      "record": "knowledge/sources/book-casten-nuclear-structure-simple-perspective.md",
+      "sha256": "cd7e8f13c70a41c82f5a6a2a1d0c3542cfc4b884a00703c3ecebbeec3b2131e1",
+      "date": "2026-11-02",
+      "declared_pdf_intervals": [
+        [
+          32,
+          42
+        ],
+        [
+          201,
+          245
+        ],
+        [
+          262,
+          285
+        ],
+        [
+          290,
+          335
+        ]
+      ],
+      "coverage_kind": "selected-pages-source-record",
+      "record_status": "record-verified; current source card is a scoped declaration",
+      "locator": "Current source Scope and Reading Depth, numbered selected spans",
+      "source_hash_matches": true,
+      "limitation": "Broad claim-table citations and reading_depth labels are not added as read intervals."
+    },
+    {
+      "book": "Casten-1990",
+      "record": "outputs/learning-milestones/20261102-casten-ch02-ch05-reading.json",
+      "sha256": "d5e35d081493d56bda00e4f1c66af3508f95cfc8f0a42056dc555917d04821ba",
+      "date": "2026-11-02",
+      "declared_pdf_intervals": [
+        [
+          43,
+          59
+        ],
+        [
+          62,
+          153
+        ]
+      ],
+      "coverage_kind": "bounded-review-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": {
+        "ch02": {
+          "physical_pdf": [
+            43,
+            59
+          ],
+          "printed": [
+            28,
+            45
+          ],
+          "status": "bounded-review",
+          "focus": [
+            "separation energies",
+            "magic numbers",
+            "E(2+1)",
+            "R4/2",
+            "B(E2)"
+          ]
+        },
+        "ch03": {
+          "physical_pdf": [
+            62,
+            81
+          ],
+          "printed": [
+            47,
+            66
+          ],
+          "status": "bounded-review",
+          "focus": [
+            "central potential",
+            "l2 term",
+            "spin-orbit",
+            "unique-parity"
+          ]
+        },
+        "ch04": {
+          "physical_pdf": [
+            82,
+            123
+          ],
+          "printed": [
+            67,
+            108
+          ],
+          "status": "bounded-review",
+          "focus": [
+            "delta interaction",
+            "J=0 pairing",
+            "multipole decomposition",
+            "particle-hole"
+          ]
+        },
+        "ch05": {
+          "physical_pdf": [
+            124,
+            153
+          ],
+          "printed": [
+            109,
+            137
+          ],
+          "status": "bounded-review",
+          "focus": [
+            "m-scheme",
+            "CFP",
+            "seniority",
+            "B(E2)",
+            "pairing gap",
+            "ARC"
+          ]
+        }
+      },
+      "reported_object_locators": [],
+      "source_hash_matches": true,
+      "durable_writeback_records": [],
+      "limitation": "Same-day addendum, not evidence that the original ledger already included Casten. End pages59/153 are blank; printed-range endpoints need correction."
+    },
+    {
+      "book": "Casten-1990",
+      "record": "outputs/learning-milestones/20261102-casten-ch07-ch09-reading.json",
+      "sha256": "94f2151ae99cac399d022d6777358d29153e7c54db0a2b2afd4aa7a25b81d37b",
+      "date": "2026-11-02",
+      "declared_pdf_intervals": [
+        [
+          262,
+          285
+        ],
+        [
+          328,
+          347
+        ]
+      ],
+      "coverage_kind": "bounded-review-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": {
+        "ch07": {
+          "physical_pdf": [
+            262,
+            285
+          ],
+          "printed": [
+            247,
+            270
+          ],
+          "status": "bounded-review",
+          "focus": [
+            "Nilsson slopes",
+            "pseudo-crossings",
+            "unique-parity",
+            "asymptotic quantum numbers"
+          ]
+        },
+        "ch09": {
+          "physical_pdf": [
+            328,
+            347
+          ],
+          "printed": [
+            313,
+            331
+          ],
+          "status": "bounded-review",
+          "focus": [
+            "TDA",
+            "RPA",
+            "collective roots",
+            "two-quasiparticle gamma vibration",
+            "octupole/beta systematics"
+          ]
+        }
+      },
+      "reported_object_locators": [],
+      "source_hash_matches": true,
+      "durable_writeback_records": [],
+      "limitation": "PDF347 is blank. Ch7 overlaps the source card; Ch9 overlaps the tail of its Ch8 selected span."
+    },
+    {
+      "book": "Casten-1990",
+      "record": "outputs/learning-milestones/20261103-casten-ch10-experimental-design.json",
+      "sha256": "26ffe5416b9d430a9abb03d493f261437b6dcf6fd40f6c365552ff55950ff144",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          350,
+          385
+        ]
+      ],
+      "coverage_kind": "chapter-scope-reported-with-pagination-correction",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Chapter 10 physical PDF pp. 350-385 / printed pp. 335-363",
+      "reported_object_locators": [
+        "PDF pp. 350-358 / printed pp. 335-344: Coulomb excitation, closest approach, semiclassical/adiabatic parameters, multistep and virtual excitation",
+        "PDF pp. 359-370 / printed pp. 344-356: ARC, completeness and non-observation arguments",
+        "PDF pp. 371-375 / printed pp. 356-361: heavy-ion compound reactions and high-spin states",
+        "PDF pp. 376-385 / printed pp. 361-363: heavy-ion transfer, grazing window and selectivity"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/synthesis/casten-ch10-experimental-design-and-observable-mapping.md",
+          "exists": true,
+          "snapshot_sha256": "8b36d2cba111b46d94cb68c16646e86961afd4ab5282758bdeac4e64e2a7f10f"
+        }
+      ],
+      "limitation": "Chapter body is PDF350–378 / printed335–363; 379/385 blank, 380–384 references. No whole-chapter credit from nominal interval alone."
+    },
+    {
+      "book": "Casten-1990",
+      "record": "outputs/learning-milestones/20261102-casten-book-to-skill-extraction.json",
+      "sha256": "2d1b7ff831943536df306f40b189aa048f9ce63d87389519c99d745b92e03e12",
+      "date": "2026-11-02",
+      "declared_pdf_intervals": [],
+      "coverage_kind": "extraction-and-generated-skill-only",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": null,
+      "reported_object_locators": [],
+      "source_hash_matches": true,
+      "durable_writeback_records": [],
+      "limitation": "Whole-file text extraction and ten skill cards give no reading credit."
+    },
+    {
+      "book": "Petrache",
+      "record": "knowledge/sources/book-petrache-chirality-and-wobbling.md",
+      "sha256": "d5540d56847506fd6f0e1e1b6c0a4ba729da739de077a2a3110eefbf61a0dd49",
+      "date": "2026-11-02",
+      "declared_pdf_intervals": [
+        [
+          43,
+          47
+        ],
+        [
+          56,
+          57
+        ],
+        [
+          118,
+          123
+        ],
+        [
+          244,
+          246
+        ],
+        [
+          258,
+          259
+        ]
+      ],
+      "coverage_kind": "selected-pages-source-record",
+      "record_status": "record-verified; current source card is a scoped declaration",
+      "locator": "Current source explicit actual scope; chapter12 selected pages",
+      "source_hash_matches": true,
+      "limitation": "Broad claim-table citations and reading_depth labels are not added as read intervals."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch1-ch8-closure.json",
+      "sha256": "fc7dd12e6e5cfb6913c009027b58c41f9d2bfcc319f0df3d44b2d2912cb039a5",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          20,
+          42
+        ],
+        [
+          167,
+          203
+        ]
+      ],
+      "coverage_kind": "full-chapter-text-and-figures-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Ch.1 PDF pp.20-42 / printed pp.1-23; Ch.8 PDF pp.167-203 / printed pp.148-184; full text, equations, and figures",
+      "reported_object_locators": [
+        "Ch.1 PDF p.22 Figure 1.1 (134Pr first chiral doublet proposal level scheme)",
+        "Ch.1 PDF p.23 Figure 1.2 (Starosta 2000 N=75 isotones chiral doublet partial level schemes)",
+        "Ch.1 PDF p.31 Figure 1.13 (163Lu TSD2 first wobbling band level scheme)",
+        "Ch.1 PDF p.39 Figure 1.21 (Two-quasiparticle wobbling in 130Ba, 134Ce, 136,138Nd)",
+        "Ch.8 PDF p.180 Figure 8.16 (135Pr yrast and excited bands excitation energies)",
+        "Ch.8 PDF p.181 Figure 8.17 (Phase diagram and separatrices in (u,v) space for 135Pr)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/concepts/coherent-state-model-and-semiclassical-triaxiality.md",
+          "exists": true,
+          "snapshot_sha256": "ef9bb6b995fac5ae8b140eac246dcba853f77a3035abe33176b8640442b23cee"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch2-frauendorf-topological-wobbling.json",
+      "sha256": "40ee7d38a4e13cda381733c529b0970e1a39cdf9e38db0ba39dc6d2144887e73",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          43,
+          80
+        ]
+      ],
+      "coverage_kind": "chapter-text-reported-selected-objects",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Chapter 2 PDF pp.43-80; native text read with rendered verification of core formula/figure pages",
+      "reported_object_locators": [
+        "PDF pp.47-49 / printed pp.28-30, Fig.2.3 and separatrix topology",
+        "PDF pp.53-55 / printed pp.34-36, Eqs.2.18-2.21",
+        "PDF pp.56-58 / printed pp.37-39, 135Pr mixing-ratio controversy",
+        "PDF pp.61-66 / printed pp.42-47, Figs.2.19-2.22 and TW-FM-LW classification",
+        "PDF pp.75-80 / printed pp.56-61, RPA/TPSM/gamma-soft boundary"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/petrache-ch2-frauendorf-topological-wobbling-contract.md",
+          "exists": true,
+          "snapshot_sha256": "ea5358d712e1b959ecbf89f4165437f5c93471f2fc5fba432f6e416b649edc3b"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch3-chiral-geometry-and-selection-boundary.json",
+      "sha256": "59f299210c4d3b40c2e97653547bd879f844857da2575364def6a0b5c7186096",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          81,
+          91
+        ]
+      ],
+      "coverage_kind": "chapter-body-reported-references-excluded",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Chapter 3 body PDF pp.81-91 / printed pp.62-72; PDF pp.92-93 are references",
+      "reported_object_locators": [
+        "PDF pp.81-82 / printed pp.62-63, ideal particle-hole-rotor geometry",
+        "PDF pp.83-85 / printed pp.64-66, Figs.3.2-3.4 and ideal electromagnetic fingerprints",
+        "PDF pp.86-87 / printed pp.67-68, MchiD history and CDFT model figure",
+        "PDF pp.87-90 / printed pp.68-71, TAC/PSM collective coordinates, ChP and pairing",
+        "PDF p.91 / printed p.72, summary and future measurements"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/petrache-ch3-chiral-geometry-and-selection-boundary.md",
+          "exists": true,
+          "snapshot_sha256": "eba2a677cc63916618172f1c52552649faa0e933fe9a2c5a6d969a677d0b38fd"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement. PDF92–93 are explicitly classified as references, not covered as chapter-body text."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch4-tanabe-top-on-top.json",
+      "sha256": "6cccc5e3d84cb00c261342e6ba8c10bdba1a1ea8b5c8db08bc2ca4b13ff50ff0",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          94,
+          109
+        ]
+      ],
+      "coverage_kind": "full-chapter-text-and-figures-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Article pp.75-90 / physical PDF pp.94-109, full chapter text, equations 4.1-4.44, and Figures 4.1-4.10",
+      "reported_object_locators": [
+        "PDF p.99 Figure 4.1 (Comparison of energy levels between four D2 symmetries A, B1, B2, B3 for R<=6 vs exact diagonalization)",
+        "PDF p.100 Figure 4.2 (Rigid MOI core angular momentum alignments as functions of I at gamma=26 deg)",
+        "PDF p.101 Figure 4.3 (Hydrodynamic MOI core angular momentum alignments as functions of I)",
+        "PDF p.102 Figure 4.4 (Alignments between yrast (0,0) even and yrare (1,0) odd for hydrodynamic MOI)",
+        "PDF p.103 Figure 4.5 (B(E2)out/B(E2)in for rigid MOI showing large separation between odd and even I-j)",
+        "PDF p.104 Figure 4.6 (B(E2)out/B(E2)in for hydrodynamic MOI collapsing onto a single curve)",
+        "PDF p.105 Figure 4.7 (B(M1)out/B(E2)in for rigid MOI showing strong suppression of even I-j transitions)",
+        "PDF p.106 Figure 4.8 (B(M1)out/B(E2)in for hydrodynamic MOI showing unphysical large values for even I-j)",
+        "PDF p.107 Figure 4.9 (Comparison of absolute B(M1)out between rigid and hydrodynamic MOI)",
+        "PDF p.109 Figure 4.10 (Theoretical vs experimental energy levels E* - a I(I+1) for 163Lu TSD bands with CAP-corrected MOI)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/tanabe-top-on-top-algebraic-wobbling-contract.md",
+          "exists": true,
+          "snapshot_sha256": "404c0d449df65113e316986d147253da9101bd970537e7321285cdbe5c71d15a"
+        },
+        {
+          "path": "knowledge/methods/bm2-asymmetric-rotor-d2-and-transition-contract.md",
+          "exists": true,
+          "snapshot_sha256": "a5caecfc88f128336bb5d28281b09b21ebc835f64bccefabd944f83be4f28a40"
+        },
+        {
+          "path": "knowledge/concepts/odd-a-wobbling-mode-stability-and-bifurcation.md",
+          "exists": true,
+          "snapshot_sha256": "b84947ac96810ce9308a6ebf3f32172f87c9fd2eb40526832449a33212abd516"
+        },
+        {
+          "path": "knowledge/concepts/davydov-filippov-triaxial-rotor-and-wobbling-dynamics.md",
+          "exists": true,
+          "snapshot_sha256": "f27bd91c7c5e20ebd625d6cf60b43dcc7b98ef361526ab17f82dc65bff3e7f36"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch5-experimental-wobbling-evidence.json",
+      "sha256": "5f6b72b812bb13446f86d109d7dc0b0a599a8ce59e1e80fb1fcf65d0a02e2945",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          110,
+          126
+        ]
+      ],
+      "coverage_kind": "chapter-scope-selected-objects",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Chapter 5 PDF pp.110-126 / printed pp.91-107",
+      "reported_object_locators": [
+        "PDF pp.110-111 / printed pp.91-92, detector statistics and coincidence sensitivity",
+        "PDF pp.119-123 / printed pp.100-104, low-spin mixing-ratio/P-DCO controversy",
+        "PDF pp.123-126 / printed pp.104-107, 130Ba/136Nd medium-spin candidates",
+        "PDF p.126 / printed p.107, standardization and public-data recommendation"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/petrache-ch5-experimental-wobbling-evidence-contract.md",
+          "exists": true,
+          "snapshot_sha256": "633d2c323a26b4c63c02ae1fdc74baf1e7ce8fe9ca1d13f98f04dbdc2c0d860a"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch6-lawrie-model-boundary.json",
+      "sha256": "338292527d57301e8349335e9d1319f6e651989e681edc2c3d04c9c269702e43",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          127,
+          155
+        ]
+      ],
+      "coverage_kind": "page-by-page-chapter-read-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Chapter 6 PDF pp.127-155 / printed pp.108-136, page-by-page text and rendered verification",
+      "reported_object_locators": [
+        "PDF pp.130-135 / printed pp.111-116, Eqs.6.7-6.22",
+        "PDF pp.140-143 / printed pp.121-124, transverse-coupling B(M1) and QTR examples",
+        "PDF pp.146-148 / printed pp.127-129, Table 6.1 and experimental workflow",
+        "PDF p.152 / printed p.133, 135Pr two mixing-ratio branches",
+        "PDF pp.149-151 / printed pp.130-132, 163Lu high-spin equivalence boundary"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/lawrie-tip-wobbling-discrimination.md",
+          "exists": true,
+          "snapshot_sha256": "a13afac5f33155d9824e6fef206f476ad904094aabb93d0a531416e1f61bde9f"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch7-grodner-cs-chiral-transition.json",
+      "sha256": "09a4b50313f1935d61b52b3540d33f47f03ad2794237898b49492fc78ee36843",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          156,
+          166
+        ]
+      ],
+      "coverage_kind": "full-chapter-text-and-figures-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Article pp.137-147 / physical PDF pp.156-166, full chapter text, equations, and Figures 7.1-7.3",
+      "reported_object_locators": [
+        "PDF p.156 title and introduction",
+        "PDF p.158 2x2 mixing picture and energy splitting equations",
+        "PDF p.160 Figure 7.1 (global 9-nucleus experimental energy splitting trends)",
+        "PDF p.163 Figure 7.2 (B(M1) staggering and low-spin asymmetry in 126,128Cs)",
+        "PDF p.164 Figure 7.3 (preliminary plunger RDDS decay curves) and g-factor discussion",
+        "PDF p.165 conclusions and bibliography"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/grodner-cs-chiral-transition-and-selection-rules-contract.md",
+          "exists": true,
+          "snapshot_sha256": "01764c496cd27497176d5e9a39c7a917acaa06b2be44501e3ee135f9fde8ed74"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch9-zhao-tdcdft-chiral-precession.json",
+      "sha256": "2fb440dbe157be121f284521e08bccfd073fc3acae1c76ad7cfeadc839f4534e",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          204,
+          221
+        ]
+      ],
+      "coverage_kind": "full-chapter-text-and-figures-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Article pp.185-202 / physical PDF pp.204-221, full chapter text, equations, and Figures 9.1-9.16",
+      "reported_object_locators": [
+        "PDF p.208 Figure 9.1 (I=19/2h trajectories on energy surface, time evolutions, and Fourier spectral powers)",
+        "PDF p.211 Figure 9.4 (I=25/2h trajectories and spectral powers)",
+        "PDF p.213 Figure 9.6 (I=29/2h softening trajectories) and Figure 9.7 (I=31/2h supercritical bifurcation and double-well tunneling)",
+        "PDF p.214 Figure 9.8 (I=27/2h negative-parity configuration trajectories)",
+        "PDF p.219 Figure 9.15 (I=41/2h trajectories) and Figure 9.16 (135Nd chiral doublet bands excitation energies vs experiment)",
+        "PDF p.220 bibliography"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/zhao-tdcdft-chiral-precession-and-tunneling-contract.md",
+          "exists": true,
+          "snapshot_sha256": "e3f6efccc5c0cb5c2b1323c6aed87fd15a50dbf76e043c4d952fe67e8c0b063a"
+        },
+        {
+          "path": "knowledge/concepts/chiral-vibrational-tunneling-and-double-well-splitting.md",
+          "exists": true,
+          "snapshot_sha256": "ff0f626b34fe3e5b9011821ffcedffcbadfab6d0ea13b22e634ac4f08d2448e0"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch10-chen-cdft-prm-wobbling.json",
+      "sha256": "54adfbd7ad2bb9bc6e149307400ebc10809b598dcefe6c3829e8af5b3973380a",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          222,
+          238
+        ]
+      ],
+      "coverage_kind": "full-chapter-text-and-figures-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Article pp.203-219 / physical PDF pp.222-238, full chapter text, equations, Table 10.1 and Figures 10.1-10.7",
+      "reported_object_locators": [
+        "PDF p.224 Figure 10.1 (chiral and wobbling candidates map) and PRM equations",
+        "PDF p.227 Figure 10.2 (Delta E and B(E2)/B(M1) ratios for Fermi surfaces e1 to e6)",
+        "PDF p.229 Figure 10.3 (Wobbling energies as functions of spin for h11/2 and i13/2 with various beta and gamma)",
+        "PDF p.231 Figure 10.4 (CDFT potential energy curves for N=59 isotones)",
+        "PDF p.232 Figure 10.5 (CDFT triaxial deformation gamma vs beta for N=59 isotones)",
+        "PDF p.233 Figure 10.6 (97Sr and 99Zr PRM vs experiment)",
+        "PDF p.235 Table 10.1 (130Ba CDFT configurations and deformation parameters)",
+        "PDF p.236 Figure 10.7 (Spin coherent state probability distributions P(theta, phi) for 130Ba bands n=0,1,2,3)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/chen-cdft-prm-wobbling-and-fermi-surface-contract.md",
+          "exists": true,
+          "snapshot_sha256": "6ac7977bf7ad63aa271d794be273d541e6967e498bd4b0201034859aed3443fc"
+        },
+        {
+          "path": "knowledge/concepts/odd-a-wobbling-mode-stability-and-bifurcation.md",
+          "exists": true,
+          "snapshot_sha256": "b84947ac96810ce9308a6ebf3f32172f87c9fd2eb40526832449a33212abd516"
+        },
+        {
+          "path": "knowledge/concepts/multiphonon-wobbling-and-anharmonicity-dynamics.md",
+          "exists": true,
+          "snapshot_sha256": "fa88c4d2b6ae613010d91a96a1a1c66d926f111dea0879e4e9987a13fe3ae61a"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch11-ibfm-mixing-ratio.json",
+      "sha256": "c1c987e50ff299df3c3ec90839f550331da5d49e12b828f3e6eea13322311bd8",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          239,
+          255
+        ]
+      ],
+      "coverage_kind": "selected-formula-and-result-pages",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Chapter 11 PDF pp.239-255 / printed pp.220-236, selected formula and result pages",
+      "reported_object_locators": [
+        "PDF pp.239-243 / printed pp.220-224, IBFM-2 Hamiltonian and gamma-soft PES",
+        "PDF pp.244-246 / printed pp.225-227, Eqs.11.10-11.12 and 135Pr/127Xe mixing ratios",
+        "PDF pp.247-255 / printed pp.228-236, IBFFM-2 and odd-odd model boundary"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/petrache-ch11-ibfm-mixing-ratio-contract.md",
+          "exists": true,
+          "snapshot_sha256": "053142d4c2e8b9cf460546199b84218347369bf4c0860ca9a81c50424137a3b5"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch12-sheikh-tpsm-wobbling.json",
+      "sha256": "688e050c7042592a08d6e087955457c0443914f98178b5fe5f6f7680f56d9fc5",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          256,
+          274
+        ]
+      ],
+      "coverage_kind": "full-chapter-text-and-figures-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Article pp.237-255 / physical PDF pp.256-274, full chapter text, equations, Table 12.1 and Figures 12.1-12.14",
+      "reported_object_locators": [
+        "PDF p.261 Equations (12.8)-(12.17) and Table 12.1 (deformation parameters for 15 nuclei)",
+        "PDF p.264 Figures 12.3-12.4 (excitation energies) and Equation (12.18) (wobbling frequency)",
+        "PDF p.267 Figure 12.8 (in-band and inter-band B(E2) vs spin for Lu and Ta isotopes)",
+        "PDF p.268 Figure 12.9 (B(E2) and B(M1) ratios for Lu and Ta isotopes) and short-axis discussion",
+        "PDF p.269 Figure 12.10 (Projected K-configurations with short axis as quantization axis for 163Lu) and Figure 12.11 (ND 10 nuclei energy levels and wobbling frequencies)",
+        "PDF p.271 Figure 12.12 (rotational frequencies) and Figure 12.13 (alignments i_x)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/sheikh-tpsm-wobbling-and-triaxial-projection-contract.md",
+          "exists": true,
+          "snapshot_sha256": "69b9153bd4a922246c3e1120b3d5c02ba67e70209453cc3cfaf2685facecefa7"
+        },
+        {
+          "path": "knowledge/concepts/odd-a-wobbling-mode-stability-and-bifurcation.md",
+          "exists": true,
+          "snapshot_sha256": "b84947ac96810ce9308a6ebf3f32172f87c9fd2eb40526832449a33212abd516"
+        },
+        {
+          "path": "knowledge/concepts/multiphonon-wobbling-and-anharmonicity-dynamics.md",
+          "exists": true,
+          "snapshot_sha256": "fa88c4d2b6ae613010d91a96a1a1c66d926f111dea0879e4e9987a13fe3ae61a"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch13-budaca-spin-dynamics.json",
+      "sha256": "886d9407dd99aa6eb9636d82b3d05d0e58e12fcd7be37f7ce3f7d09fc4cef64a",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          275,
+          291
+        ]
+      ],
+      "coverage_kind": "full-chapter-reported-object-page-conflict",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Article pp.256-272 / physical PDF pp.275-291, full chapter text, equations 13.1-13.32, and Figures 13.1-13.6",
+      "reported_object_locators": [
+        "PDF p.259 Figure 13.1 (xmin/I minima dependence on angular momentum I for gamma=90 and 100 deg with j=0, j'=11/2)",
+        "PDF p.260 Figure 13.2 (xmin/I minima dependence for two quasiparticles j=j'=11/2 with tilting angles)",
+        "PDF p.261 Figure 13.3 (azimuth coordinate phimin dependence on I for gamma=80, 90, 100 deg showing planar to aplanar transition)",
+        "PDF p.264 Figure 13.4 (wobbling energy Delta E for single qp and chiral energy splitting for two qp)",
+        "PDF p.266 Figure 13.5 (wobbling energy and B(M1)out/B(E2)in for 130Ba, 105Pd, and 133La comparison with experiment)",
+        "PDF p.268 Figure 13.6 (energy difference Delta E and B(M1)in/B(E2)in for 138Pm chiral partner bands)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/budaca-spin-dynamics-semiclassical-wobbling-chiral-contract.md",
+          "exists": true,
+          "snapshot_sha256": "c7ac545ea8e721ae4d16befd311ee105a1fe79fece2afb8dd83c94fbc34bfc14"
+        },
+        {
+          "path": "knowledge/concepts/davydov-filippov-triaxial-rotor-and-wobbling-dynamics.md",
+          "exists": true,
+          "snapshot_sha256": "f27bd91c7c5e20ebd625d6cf60b43dcc7b98ef361526ab17f82dc65bff3e7f36"
+        },
+        {
+          "path": "knowledge/concepts/chiral-vibrational-tunneling-and-double-well-splitting.md",
+          "exists": true,
+          "snapshot_sha256": "ff0f626b34fe3e5b9011821ffcedffcbadfab6d0ea13b22e634ac4f08d2448e0"
+        },
+        {
+          "path": "knowledge/concepts/triaxial-wobbling-tilted-precession-and-chiral-geometry.md",
+          "exists": true,
+          "snapshot_sha256": "ef51601bfb9cf6a4d279c4b5d58367fe176ec60fbce2d7459e6b5aee134c0243"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement. Figure13.1–13.6 locators259/260/261/264/266/268 are PRINTED folios; physical pages278/279/280/283/285/287. PDF259 is chapter12."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch14-wang-tpsm-even-even.json",
+      "sha256": "683f5dfdb11c1611f84810b322f39eb0459aaaba2382c27ec5156ab66349408f",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          292,
+          301
+        ]
+      ],
+      "coverage_kind": "full-chapter-text-and-figures-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Article pp.273-282 / physical PDF pp.292-301, full chapter text, equations, and Figures 14.1-14.7",
+      "reported_object_locators": [
+        "PDF p.295 Figure 14.1 (TPSM energy spectra and B(M1)/B(E2) ratios for 136Nd)",
+        "PDF p.296 Figure 14.2 (K-plots for 136Nd bands D1-D5 on s, m, l axes)",
+        "PDF p.297 Figure 14.3 (Azimuthal plots on theta-phi plane for 136Nd bands D1-D5)",
+        "PDF p.298 Figure 14.4 (130Ba wobbling spectra and wobbling energy) and Figure 14.5 (B(E2) and B(M1) ratios)",
+        "PDF p.299 Figure 14.6 (Azimuthal plots for 130Ba n=0, 1) and Figure 14.7 text (K-plots for 130Ba)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/wang-tpsm-even-even-chiral-wobbling-contract.md",
+          "exists": true,
+          "snapshot_sha256": "732fc155377c32713393107513a95e77d23711ab341c355ae12cb6c671df67dd"
+        },
+        {
+          "path": "knowledge/concepts/chiral-geometry-tilted-axis-cranking-and-aplanarity.md",
+          "exists": true,
+          "snapshot_sha256": "717b335b3959835270e6e639c64ea68d76536cadd0fb5a7aefa2b3d4ab129b8e"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch15-qi-a80-chirality.json",
+      "sha256": "47357201d42478c93c0fe1c58f11429b430032e9604bd1becf6da49594b0dcb3",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          302,
+          310
+        ]
+      ],
+      "coverage_kind": "full-chapter-text-and-figures-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Article pp.283-291 / physical PDF pp.302-310, full chapter text, Table 15.1, and Figures 15.1-15.3",
+      "reported_object_locators": [
+        "PDF p.304 Table 15.1 (Total energies, triaxial deformations beta, gamma, and unpaired nucleon configurations for 74,76,78,80,82,84Br)",
+        "PDF p.305 Figure 15.1 (Adiabatic and configuration-fixed constrained triaxial RMF energy surfaces with PK1 for 74,76,78,80,82,84Br)",
+        "PDF p.306 Figure 15.2 (Energy surfaces for 76,78,80,82,84,86Rb showing triaxial minima and candidate states)",
+        "PDF p.307 Figure 15.3 (Excitation energies E(I) - J*I(I+1), staggering parameter S(I), MOI, alignments ix, and B(M1)/B(E2) for candidate chiral doublet bands in 74As, 76,78,80,82Br, 81Kr, and 84Rb)",
+        "PDF p.309-310 bibliography"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/qi-a80-chiral-island-and-chiral-wobbler-contract.md",
+          "exists": true,
+          "snapshot_sha256": "4bde0db328eeb56fa3c6fc68ab47a77db7c9d3dfe1542b5e9f88a3f95df5d9e0"
+        },
+        {
+          "path": "knowledge/concepts/multiple-chiral-doublets-and-chiral-parity-quartets.md",
+          "exists": true,
+          "snapshot_sha256": "ef7b0fa8c5dea145f77fd3275882a2900200243954165011b868f2cb64728ad9"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch16-li-chen-cs-chiral-mchid.json",
+      "sha256": "78585a35a0c9df8d68ae71a07d1e0e43beaa5142828c2f9d5700167ee4d862b7",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          311,
+          322
+        ]
+      ],
+      "coverage_kind": "full-chapter-text-and-figures-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Article pp.292-303 / physical PDF pp.311-322, full chapter text, equations, Table 16.1 and Figures 16.1-16.5",
+      "reported_object_locators": [
+        "PDF p.312 Figure 16.1 (Chiral and MchiD map in A~130)",
+        "PDF p.314 Figure 16.2 (Rotational excitation energies in 120-134Cs by 3DTAC-CDFT)",
+        "PDF p.315 Figure 16.3 (B(M1)/B(E2) ratios vs spin)",
+        "PDF p.316 Figure 16.4 (Polar angle theta and azimuth angle phi vs rotational frequency)",
+        "PDF p.318 Figure 16.5 (Constrained CDFT PES for 125, 127, 129, 131Cs)",
+        "PDF p.319 Table 16.1 (Deformations, configurations, and bandhead energies)"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/li-chen-cs-chiral-evolution-and-mchid-contract.md",
+          "exists": true,
+          "snapshot_sha256": "0e2171598789dcc4547dae68200dfd17fb588ffc746e1f2a6ce887327f8686af"
+        },
+        {
+          "path": "knowledge/concepts/multiple-chiral-doublets-and-chiral-parity-quartets.md",
+          "exists": true,
+          "snapshot_sha256": "ef7b0fa8c5dea145f77fd3275882a2900200243954165011b868f2cb64728ad9"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    },
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch17-zhang-gamma-vibrational-model.json",
+      "sha256": "9ff680dc4b91e5cf6c294a174a988d63fed205cf129d83c2b609769cb9be488e",
+      "date": "2026-11-03",
+      "declared_pdf_intervals": [
+        [
+          323,
+          337
+        ]
+      ],
+      "coverage_kind": "full-chapter-text-and-figures-reported",
+      "record_status": "record-verified: identity and locators audited; not automatic completion",
+      "reported_source_scope": "Article pp.304-318 / physical PDF pp.323-337, full chapter text, equations, and Figures 17.1-17.4",
+      "reported_object_locators": [
+        "PDF p.324 Equations (17.1)-(17.5) and E(5) solution",
+        "PDF p.326 Equations (17.13)-(17.20) X(5) solution and Z(5) introduction",
+        "PDF p.328 Equations (17.33)-(17.41) T(5) solution and Section 17.3 core-particle model",
+        "PDF p.329 Equations (17.43)-(17.47) core Hamiltonian with gamma-stable potential",
+        "PDF p.330 Equations (17.48)-(17.53) adiabatic separation of rotational and vibrational equations",
+        "PDF p.331 Equations (17.54)-(17.62) harmonic gamma-vibrational eigenvalues and electromagnetic formulas",
+        "PDF p.332 Figures 17.1-17.2 (MchiD level pattern and inband B(E2)/B(M1) transitions)",
+        "PDF p.333 Figures 17.3-17.4 (Multiple wobbling bands and wobbling energies/ratios)",
+        "PDF p.334 Section 17.3.1 discussions and Section 17.3.2 odd-odd chiral rotations"
+      ],
+      "source_hash_matches": true,
+      "durable_writeback_records": [
+        {
+          "path": "knowledge/methods/zhang-gamma-vibrational-collective-model-contract.md",
+          "exists": true,
+          "snapshot_sha256": "2467724a345cc8c5f3feba8a036a9b1e341446c9296be508b05e6e91b31ef5fe"
+        },
+        {
+          "path": "knowledge/concepts/collective-quadrupole-pes-and-gamma-softness.md",
+          "exists": true,
+          "snapshot_sha256": "8254d163ddb4d219bb81761b7da1a28566fdc0bcd5df2ac5a035c75740e2cb0e"
+        }
+      ],
+      "limitation": "Chapter-level reading declaration retained; this audit does not newly certify every object, exercise or recall requirement."
+    }
+  ],
+  "summaries": {
+    "BM-II": {
+      "reported_scope_union": [
+        [
+          64,
+          66
+        ],
+        [
+          76,
+          80
+        ],
+        [
+          167,
+          197
+        ],
+        [
+          199,
+          199
+        ],
+        [
+          201,
+          201
+        ],
+        [
+          205,
+          205
+        ],
+        [
+          207,
+          207
+        ],
+        [
+          209,
+          209
+        ],
+        [
+          211,
+          230
+        ],
+        [
+          233,
+          260
+        ],
+        [
+          265,
+          277
+        ],
+        [
+          383,
+          457
+        ],
+        [
+          620,
+          656
+        ]
+      ],
+      "reported_scope_unique_page_count": 217,
+      "reported_scope_overlap_ranges": [
+        [
+          212,
+          218
+        ]
+      ],
+      "reported_scope_overlap_unique_pages": 7,
+      "no_explicit_interval_record_ranges": [
+        [
+          1,
+          63
+        ],
+        [
+          67,
+          75
+        ],
+        [
+          81,
+          166
+        ],
+        [
+          198,
+          198
+        ],
+        [
+          200,
+          200
+        ],
+        [
+          202,
+          204
+        ],
+        [
+          206,
+          206
+        ],
+        [
+          208,
+          208
+        ],
+        [
+          210,
+          210
+        ],
+        [
+          231,
+          232
+        ],
+        [
+          261,
+          264
+        ],
+        [
+          278,
+          382
+        ],
+        [
+          458,
+          619
+        ],
+        [
+          657,
+          772
+        ]
+      ],
+      "meaning": "Record-range accounting only. Selected scopes may include unread pages, references or blanks. Counts are not completed-reading percentages.",
+      "fully_certified_chapters_awarded_by_this_audit": 0
+    },
+    "Greiner": {
+      "reported_scope_union": [
+        [
+          164,
+          169
+        ]
+      ],
+      "reported_scope_unique_page_count": 6,
+      "reported_scope_overlap_ranges": [],
+      "reported_scope_overlap_unique_pages": 0,
+      "no_explicit_interval_record_ranges": [
+        [
+          1,
+          163
+        ],
+        [
+          170,
+          399
+        ]
+      ],
+      "meaning": "Record-range accounting only. Selected scopes may include unread pages, references or blanks. Counts are not completed-reading percentages.",
+      "fully_certified_chapters_awarded_by_this_audit": 0
+    },
+    "Petrache": {
+      "reported_scope_union": [
+        [
+          20,
+          91
+        ],
+        [
+          94,
+          337
+        ]
+      ],
+      "reported_scope_unique_page_count": 316,
+      "reported_scope_overlap_ranges": [
+        [
+          43,
+          47
+        ],
+        [
+          56,
+          57
+        ],
+        [
+          118,
+          123
+        ],
+        [
+          244,
+          246
+        ],
+        [
+          258,
+          259
+        ]
+      ],
+      "reported_scope_overlap_unique_pages": 18,
+      "no_explicit_interval_record_ranges": [
+        [
+          1,
+          19
+        ],
+        [
+          92,
+          93
+        ],
+        [
+          338,
+          339
+        ]
+      ],
+      "meaning": "Record-range accounting only. Selected scopes may include unread pages, references or blanks. Counts are not completed-reading percentages.",
+      "fully_certified_chapters_awarded_by_this_audit": 0
+    },
+    "Casten-1990": {
+      "reported_scope_union": [
+        [
+          32,
+          59
+        ],
+        [
+          62,
+          153
+        ],
+        [
+          201,
+          245
+        ],
+        [
+          262,
+          285
+        ],
+        [
+          290,
+          347
+        ],
+        [
+          350,
+          385
+        ]
+      ],
+      "reported_scope_unique_page_count": 283,
+      "reported_scope_overlap_ranges": [
+        [
+          262,
+          285
+        ],
+        [
+          328,
+          335
+        ]
+      ],
+      "reported_scope_overlap_unique_pages": 32,
+      "no_explicit_interval_record_ranges": [
+        [
+          1,
+          31
+        ],
+        [
+          60,
+          61
+        ],
+        [
+          154,
+          200
+        ],
+        [
+          246,
+          261
+        ],
+        [
+          286,
+          289
+        ],
+        [
+          348,
+          349
+        ],
+        [
+          386,
+          391
+        ]
+      ],
+      "meaning": "Record-range accounting only. Selected scopes may include unread pages, references or blanks. Counts are not completed-reading percentages.",
+      "fully_certified_chapters_awarded_by_this_audit": 0
+    }
+  },
+  "chapter_completion_boundary": "Full-chapter reading receipts are retained as record-verified declarations, distinct from selected checks and generated modules. No new chapter or original packet completion is awarded solely from these records.",
+  "new_completed_unit": {
+    "id": "U-B25-002-E2-20261106",
+    "pdf": [
+      66,
+      71
+    ],
+    "printed": [
+      44,
+      49
+    ],
+    "original_packet": "Q-B25-002",
+    "whole_assigned_interval_read": true,
+    "figures_checked": [
+      "Fig4-5 graph on PDF70 and caption PDF71"
+    ],
+    "equations_checked": "4-66 through4-73; includes4-68a/b",
+    "full_section_or_chapter_complete": false,
+    "overlap_with_existing_declared_ranges": [
+      66
+    ],
+    "new_pages_outside_existing_declared_ranges": [
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "methods": "All six native-text pages read, then all six page renders visually checked; exact algebra and counter-limit check retained separately."
+  },
+  "next_uncredited_units": [
+    {
+      "book": "BM-II",
+      "pdf": [
+        72,
+        75
+      ],
+      "printed": [
+        50,
+        53
+      ],
+      "packet": "Q-B25-002",
+      "topic": "Continuation of 4-3b: generalized E2 intensity relations and corrections",
+      "status": "No bounded continuous reading receipt located; newly completed unit stops at71"
+    },
+    {
+      "book": "Greiner",
+      "pdf": [
+        170,
+        175
+      ],
+      "printed": [
+        151,
+        156
+      ],
+      "packet": "Q-B10-005",
+      "topic": "6.5.2 quantal Hamiltonian after rotation-vibration classical energy",
+      "status": "PDF170 heading source-checked only; 170–175 not a completed unit"
+    },
+    {
+      "book": "Casten-1990",
+      "pdf": [
+        156,
+        163
+      ],
+      "printed": [
+        141,
+        148
+      ],
+      "packet": "Q-B34-004/Q-B34-005",
+      "topic": "Beginning of Chapter6 collective excitations",
+      "status": "Concept/skill citations exist; no corresponding bounded full-interval reading receipt located"
+    },
+    {
+      "book": "Petrache",
+      "pdf": [
+        247,
+        251
+      ],
+      "printed": [
+        228,
+        232
+      ],
+      "packet": "Q-B02-007",
+      "topic": "Chapter11 IBFFM-2 continuation, particle-core and residual interaction dictionary",
+      "status": "Inside a selected-formula receipt, so needs continuous-unit completion; not asserted never previously inspected"
+    }
+  ],
+  "input_snapshot_hashes": {
+    "knowledge/synthesis/book-corpus-coverage-ledger.md": "8eb44fa61dc0ef75333b5546bcd9875114cb671830d6d77e18bfa61028cb0fe3",
+    "outputs/learning-milestones/20261102-book-corpus-inventory.json": "938ce26a597a253e46bacd09b87b5a9b896c2152110b5484e5c93c195d69a279",
+    "outputs/learning-milestones/20261102-casten-book-corpus-addendum.json": "90e86b80554871c68c303f647eb6465904618bf6912bf387fe3ebe5ab633d47b",
+    "raw/books/nuclear structure Ⅱ_Bohr, Mottelson.pdf": "46015a1401bcbdd40d4fd7267a1b066b4aef662050dcf35693e4e3a10a6d417a",
+    "raw/books/Nuclear Models (Walter Greiner, Joachim A. Maruhn) (Z-Library).pdf": "db5e43efaa80877822540bf0caae9be93d54d5499c5df89faae69769e6f77091",
+    "raw/books/Chirality and Wobbling in Atomic Nuclei.pdf": "787c7ae68836d95f4a9022f2c1e07177fefcebc11d752a62919b4b547e3fe7d2",
+    "raw/books/Nuclear Structure From A Simple Perspective Casten.pdf": "9028649fb9fad55d6d624b88ef8bf8487e8462c07596d9a42bd6117552fa3ea9",
+    "outputs/learning-milestones/20261103-bm2-high-spin-asymmetric-rotor.json": "3dde1802e4c5496f52ac963d62cc0beb862ac446aa34ad4e91d9cc0f1d2508f5",
+    "outputs/learning-milestones/20261103-bm2-finite-spin-harmonic-benchmark.json": "58310ea3855a71d1f574ad191dbb9be5fadf472db0872d9ee7bec58213b7cdad",
+    "outputs/learning-milestones/20261103-bm2-particle-rotor-appendix.json": "66bfdec561695878092a76ceb409d1515f58e0b636035dc8466805ce265d4d37",
+    "outputs/learning-milestones/20261103-bm2-deformed-band-m1-e2-contract.json": "558e28d754008ca54cca49534e05615f4876caea9f38d279c97dce2236fcc81a",
+    "outputs/learning-milestones/20261103-bm2-rotational-intrinsic-coupling-mikhailov.json": "534806e8974aa6db6efbc0b2c9ea75a6333b524a8ac216a8d800225685d27aaf",
+    "outputs/learning-milestones/20261103-bm2-nilsson-deformed-shell-model-coriolis.json": "3b04323b919ca372c8784156ea7879bed8a941a819b56375e8fb3fcfe8c313aa",
+    "outputs/learning-milestones/20261103-bm2-particle-vibration-coupling-rpa.json": "a5d6896ed6aad03e0b832c30a2bdaa97ee8e439b6f6cfcf1410bef56cc3d02f6",
+    "outputs/learning-milestones/20261103-bm2-collective-vibrations-and-sum-rules.json": "1a90b47b792fad04e4dfd3e21ef55b866103ee60479e86e0faf94366b2878503",
+    "outputs/learning-milestones/20261104-greiner-nuclear-models-book-to-skill-closure.json": "192d6a41740a34a5805d7368c3c16cb1dfc61a2a9e8c861baff12d23490d09a1",
+    "outputs/learning-milestones/20261102-casten-ch02-ch05-reading.json": "d5e35d081493d56bda00e4f1c66af3508f95cfc8f0a42056dc555917d04821ba",
+    "outputs/learning-milestones/20261102-casten-ch07-ch09-reading.json": "94f2151ae99cac399d022d6777358d29153e7c54db0a2b2afd4aa7a25b81d37b",
+    "outputs/learning-milestones/20261103-casten-ch10-experimental-design.json": "26ffe5416b9d430a9abb03d493f261437b6dcf6fd40f6c365552ff55950ff144",
+    "outputs/learning-milestones/20261102-casten-book-to-skill-extraction.json": "2d1b7ff831943536df306f40b189aa048f9ce63d87389519c99d745b92e03e12",
+    "outputs/learning-milestones/20261103-petrache-ch1-ch8-closure.json": "fc7dd12e6e5cfb6913c009027b58c41f9d2bfcc319f0df3d44b2d2912cb039a5",
+    "outputs/learning-milestones/20261103-petrache-ch2-frauendorf-topological-wobbling.json": "40ee7d38a4e13cda381733c529b0970e1a39cdf9e38db0ba39dc6d2144887e73",
+    "outputs/learning-milestones/20261103-petrache-ch3-chiral-geometry-and-selection-boundary.json": "59f299210c4d3b40c2e97653547bd879f844857da2575364def6a0b5c7186096",
+    "outputs/learning-milestones/20261103-petrache-ch4-tanabe-top-on-top.json": "6cccc5e3d84cb00c261342e6ba8c10bdba1a1ea8b5c8db08bc2ca4b13ff50ff0",
+    "outputs/learning-milestones/20261103-petrache-ch5-experimental-wobbling-evidence.json": "5f6b72b812bb13446f86d109d7dc0b0a599a8ce59e1e80fb1fcf65d0a02e2945",
+    "outputs/learning-milestones/20261103-petrache-ch6-lawrie-model-boundary.json": "338292527d57301e8349335e9d1319f6e651989e681edc2c3d04c9c269702e43",
+    "outputs/learning-milestones/20261103-petrache-ch7-grodner-cs-chiral-transition.json": "09a4b50313f1935d61b52b3540d33f47f03ad2794237898b49492fc78ee36843",
+    "outputs/learning-milestones/20261103-petrache-ch9-zhao-tdcdft-chiral-precession.json": "2fb440dbe157be121f284521e08bccfd073fc3acae1c76ad7cfeadc839f4534e",
+    "outputs/learning-milestones/20261103-petrache-ch10-chen-cdft-prm-wobbling.json": "54adfbd7ad2bb9bc6e149307400ebc10809b598dcefe6c3829e8af5b3973380a",
+    "outputs/learning-milestones/20261103-petrache-ch11-ibfm-mixing-ratio.json": "c1c987e50ff299df3c3ec90839f550331da5d49e12b828f3e6eea13322311bd8",
+    "outputs/learning-milestones/20261103-petrache-ch12-sheikh-tpsm-wobbling.json": "688e050c7042592a08d6e087955457c0443914f98178b5fe5f6f7680f56d9fc5",
+    "outputs/learning-milestones/20261103-petrache-ch13-budaca-spin-dynamics.json": "886d9407dd99aa6eb9636d82b3d05d0e58e12fcd7be37f7ce3f7d09fc4cef64a",
+    "outputs/learning-milestones/20261103-petrache-ch14-wang-tpsm-even-even.json": "683f5dfdb11c1611f84810b322f39eb0459aaaba2382c27ec5156ab66349408f",
+    "outputs/learning-milestones/20261103-petrache-ch15-qi-a80-chirality.json": "47357201d42478c93c0fe1c58f11429b430032e9604bd1becf6da49594b0dcb3",
+    "outputs/learning-milestones/20261103-petrache-ch16-li-chen-cs-chiral-mchid.json": "78585a35a0c9df8d68ae71a07d1e0e43beaa5142828c2f9d5700167ee4d862b7",
+    "outputs/learning-milestones/20261103-petrache-ch17-zhang-gamma-vibrational-model.json": "9ff680dc4b91e5cf6c294a174a988d63fed205cf129d83c2b609769cb9be488e"
+  }
+}

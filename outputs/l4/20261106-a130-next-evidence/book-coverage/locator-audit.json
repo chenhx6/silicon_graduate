@@ -1,0 +1,70 @@
+{
+  "review_date": "2026-11-06",
+  "observed_utc": "2026-11-06T08:57:40.737738+00:00",
+  "scope": "Selected source/locator audit; not a fresh rereading of all receipt intervals",
+  "rows": [
+    {
+      "book": "Petrache",
+      "record": "outputs/learning-milestones/20261103-petrache-ch13-budaca-spin-dynamics.json",
+      "record_sha256": "886d9407dd99aa6eb9636d82b3d05d0e58e12fcd7be37f7ce3f7d09fc4cef64a",
+      "claimed_locator": "rendered_pages: PDF259,260,261,264,266,268 for Fig13.1–13.6",
+      "actual_checked_locator": "Physical PDF278,279,280,283,285,287; printed259,260,261,264,266,268",
+      "status": "locator mismatch; +19 crosswalk verified",
+      "boundary": "Chapter scope275–291 is correct. Object locators used printed folios as PDF pages. Does not prove no chapter text was read."
+    },
+    {
+      "book": "Casten-1990",
+      "record": "outputs/learning-milestones/20261103-casten-ch10-experimental-design.json",
+      "record_sha256": "26ffe5416b9d430a9abb03d493f261437b6dcf6fd40f6c365552ff55950ff144",
+      "claimed_locator": "source.scope physical350–385 / printed335–363",
+      "actual_checked_locator": "Chapter body350–378 / printed335–363;379 and385 blank;380–384 references",
+      "status": "chapter-body versus broader reading-window distinction",
+      "boundary": "Keep the reported reading window, but do not call its36 physical pages36 pages of chapter body."
+    },
+    {
+      "book": "BM-II",
+      "record": "outputs/learning-milestones/20261103-bm2-particle-vibration-coupling-rpa.json",
+      "record_sha256": "a5d6896ed6aad03e0b832c30a2bdaa97ee8e439b6f6cfcf1410bef56cc3d02f6",
+      "claimed_locator": "PDF450 Eq6-258–6-261; PDF456 Eq6-276",
+      "actual_checked_locator": "PDF450 / printed428:6-223c/d; PDF456 / printed434:6-230",
+      "status": "claimed equation/page pairing not corroborated",
+      "boundary": "Recorded scope438–457 retained; formulas are not automatically certified by the receipt."
+    },
+    {
+      "book": "BM-II",
+      "record": "outputs/learning-milestones/20261103-bm2-collective-vibrations-and-sum-rules.json",
+      "record_sha256": "1a90b47b792fad04e4dfd3e21ef55b866103ee60479e86e0faf94366b2878503",
+      "claimed_locator": "source.scope383–437,64–66,620–656; rendered_pages also483–485",
+      "actual_checked_locator": "483–485 are outside every declared scope interval",
+      "status": "internal scope/object-list mismatch",
+      "boundary": "Retain483–485 as separately declared object checks, not a newly implied continuous interval438–619."
+    },
+    {
+      "book": "BM-II",
+      "record": "outputs/learning-milestones/20261103-bm2-high-spin-asymmetric-rotor.json",
+      "record_sha256": "3dde1802e4c5496f52ac963d62cc0beb862ac446aa34ad4e91d9cc0f1d2508f5",
+      "claimed_locator": "selected pages197,199,201,205,207,209,211–218",
+      "actual_checked_locator": "Eqs4-296–4-319 are recorded across212–218; finite-spin receipt repeats212–218",
+      "status": "overlap, not independent new reading",
+      "boundary": "The seven repeated physical pages are deduplicated; benchmark test success is not separate reading credit."
+    },
+    {
+      "book": "Greiner",
+      "record": "outputs/learning-milestones/20261104-greiner-nuclear-models-book-to-skill-closure.json",
+      "record_sha256": "192d6a41740a34a5805d7368c3c16cb1dfc61a2a9e8c861baff12d23490d09a1",
+      "claimed_locator": "status complete; chapter_count6; generated skill files",
+      "actual_checked_locator": "No bounded physical reading interval in this receipt; separate current source records164–169 on2026-11-05",
+      "status": "generated delivery separated from reading",
+      "boundary": "Visual anchor checks: physical164=printed145/6.4.3;166=147/6.5 start;169=150/Exercise6.7;170=151/6.5.2."
+    }
+  ],
+  "new_unit_visual_objects": {
+    "BM-II PDF66": "Eq4-66 and footnote5",
+    "BM-II PDF67": "Eqs4-67,4-68a/b,4-69,4-70",
+    "BM-II PDF68": "Eq4-71; two distinct high-spin limits; empirical examples treated as author summary",
+    "BM-II PDF69": "Eqs4-72/4-73; delta versus beta2 convention",
+    "BM-II PDF70": "Fig4-5 axes A and B(E2)/B(E2)_sp; isotope labels; no points digitized",
+    "BM-II PDF71": "Fig4-5 caption, upward strength and B_W=B_sp/5; source compilation attribution"
+  },
+  "no_chapter_completion_inferred_from_anchor_checks": true
+}

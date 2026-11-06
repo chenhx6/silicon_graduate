@@ -6074,3 +6074,8 @@ raw 未修改。JSON、边界、变动归档与 Git diff check 全数通过，�
 Vogt2017原实验更新137Ba候选态身份，589-ns上游寿命没有被误用为15/2母态寿命。相关source/model/research-note及Greiner/DF/手征宇称表述已回写；完整goal保持active，不宣称全库raw历史全文已读。所有原始出版商PDF留本地，研究文件按显式清单提交，用户PLAN和其它session安装工作不进入本批。
 
 本批稳定指针为`main / research: establish odd-Ba quadrupole redistribution study`。检查、最终精确hash、push结果和post-commit reconciliation以`outputs/l4/20261105-ba129-controlled-pairing/publication-final-receipt.local.json`为准。
+
+
+## 2026-11-06 A130 stage closeout and Chinese report
+
+Actual record UTC: 2026-11-06T10:24:40.867670+00:00. User requested a phase closeout and report. Completed the existing fixed-shape rotor, 135/137 source-energy, isomer source/unit, isomer arithmetic/interpretation, and four-book coverage checks. New durable notes distinguish the exact rigid-charge counterexample from the IBFM application and retain the conditional high-spin decay failure. The 10-page article checkpoint remains unmodified numerically and explicitly requires integration before submission readiness. A Chinese 14-page Beamer report (12 main + 2 appendix), source/data ledger and speaker notes are being finalized under outputs/l4/20261106-a130-next-evidence/closeout. No new research direction, get-paper maintenance, PLAN change or private-data publication. Stable pointer: main / research: close A130 mechanism stage with Chinese report; final publication result is recorded in the task-local receipt. Full research goal remains active.

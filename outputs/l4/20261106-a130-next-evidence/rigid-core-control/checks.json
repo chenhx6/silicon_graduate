@@ -1,0 +1,112 @@
+{
+  "schema": "rigid-core-control-scoped-audit-v1",
+  "at_utc": "2026-11-06T08:44:23.514851+00:00",
+  "passed": true,
+  "check_count": 45,
+  "checks": {
+    "frozen_helper:system/scripts/analysis/paired_single_j_rotor.py": true,
+    "frozen_helper:system/scripts/analysis/paired_single_j_em.py": true,
+    "frozen_helper:system/scripts/analysis/quadrupole_scalar_invariants.py": true,
+    "initial_protocol_unchanged": true,
+    "production_driver_identity": true,
+    "prospective_protocol_precedes_calculation": true,
+    "prespecified_five_C_points": true,
+    "frozen_model_parameters": true,
+    "complete_physical_D2_block_counts": true,
+    "finite_window_dimensions": true,
+    "independent_D2_group_projection": true,
+    "Hamiltonian_Hermitian_and_D2_invariant": true,
+    "right_body_anomalous_commutator": true,
+    "independent_Euler_integral": true,
+    "initial_I_operator_identities": true,
+    "lab_tensor_covariance_Hermiticity_charge_D2": true,
+    "spectator_analytic_R0": true,
+    "spectator_wrong_sign_negative_control_detected": true,
+    "spectator_E2_spin_fraction_and_two_core_energies": true,
+    "independent_core_R2_closed_form_energy": true,
+    "spectator_missing_channel_negative_control": true,
+    "finite_window_boundary_exposed": true,
+    "complex_multiplet_phase_invariance": true,
+    "all_eigenpair_residuals": true,
+    "all_initial_closures_scoped_and_complete": true,
+    "q2_q3_analytic_geometry_all_cases": true,
+    "direct_vs_sixj_both_Ms": true,
+    "static_Qs_direct_vs_RME": true,
+    "spin_quadratic_sums": true,
+    "signed_spinpair_cubic_sums": true,
+    "correct_19_allowed_spinpair_sectors": true,
+    "static_and_other_same_I_partition": true,
+    "all_Jplus2_strength_matches_full_spin_sector": true,
+    "all_prespecified_proxy_counts": true,
+    "proxy_formula_and_angle_domain": true,
+    "resolved_lowest_state_gaps_and_reported_fidelity": true,
+    "reported_best_ranks_are_zero_on_sample": true,
+    "one_thread_env_and_actual_BLAS": true,
+    "all_20_proxy_outcomes_and_95_sector_rows": true,
+    "CSV_JSON_agreement": true,
+    "no_paired_solver_call_in_driver": true,
+    "driver_syntax": true,
+    "document_links_resolve_or_planned_checks_file": true,
+    "owned_text_whitespace": true,
+    "scoped_git_diff_check": true
+  },
+  "metrics": {
+    "max_full_geometry_q2_residual": 1.5543122344752192e-15,
+    "max_full_geometry_q3_residual": 3.552713678800501e-15,
+    "max_direct_vs_6j_q2": 6.661338147750939e-16,
+    "max_direct_vs_6j_q3": 3.608224830031759e-15,
+    "max_Qs_direct_vs_RME": 2.220446049250313e-16,
+    "max_H_eigenpair_residual": 5.779522639550588e-14,
+    "actual_main_wall_seconds_including_serialization": 2.5343777799862437,
+    "outside_domain_count": 5,
+    "all_proxy_raw_first_last": [
+      0.3226168511610339,
+      1.0262502334301442
+    ],
+    "closed_form_core_R2_energies_MeV": [
+      0.1267949192431124,
+      0.47320508075688816
+    ],
+    "minimum_adjacent_fidelity": 0.6476377875739856
+  },
+  "artifact_manifest": {
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/cubic-spin-sectors.csv": {
+      "sha256": "96e1be3c2ca9487272882d960525c2ad17f584eea8531fd027153d07c67f9828",
+      "bytes": 2992
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/execution.log": {
+      "sha256": "c2d664594d9de061e168c0f9e91fcc485a477f141fe74d28d5cd7e745b495f8f",
+      "bytes": 4512
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/proof.md": {
+      "sha256": "7707707f1de7c740fa076ded5f0238aaaab313fd0cee81b2bbcfe016b6db0f16",
+      "bytes": 8242
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/protocol.json": {
+      "sha256": "40142b140bebfd5f326ffb56081dd4364559df32c59d65882bf7a5a4e694a109",
+      "bytes": 7812
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/report.md": {
+      "sha256": "63e2e6fb4bbc02ab52323e8a7c199903917ec6899992347ebad1584415fcbb76",
+      "bytes": 9372
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/results.json": {
+      "sha256": "68c8f78d02a57097b23e00f4e1d45c121454baf9f3a9e30cc1e9fe2ef4282cf8",
+      "bytes": 52101
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/run_control.py": {
+      "sha256": "bd90adedf229ce717432756486a37611eea7afa7910aeb849b20fef1dd553647",
+      "bytes": 27468
+    },
+    "outputs/l4/20261106-a130-next-evidence/rigid-core-control/summary.csv": {
+      "sha256": "6ec8ce0c3e9f29d065c2ba8282f2d5727b967acfeedf81dd893439a2fcacad34",
+      "bytes": 5295
+    }
+  },
+  "input_sha256": {
+    "system/scripts/analysis/paired_single_j_rotor.py": "1d9dd8814892556e7731b41dd2edd98ab83951fca168711fcb5951f8ca647908",
+    "system/scripts/analysis/paired_single_j_em.py": "d574e9efdb11200308d752c2feafeab767fde7bc50df8f4edb8fe31118f60b4b",
+    "system/scripts/analysis/quadrupole_scalar_invariants.py": "76ba9a1eb234e6731f7388ad8b22860c22ed22133787294cc9b0447f1f0c27d1"
+  },
+  "boundary": "Numerical and analytic model-control checks only. No physical nucleus validation, infinite-rotor global completeness, or continuous-parameter state-tracking theorem. Scoped diff does not cover untracked/ignored files; their text whitespace was checked separately. All new writes are inside this owned sidecar."
+}

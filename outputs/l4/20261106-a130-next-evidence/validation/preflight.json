@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "system/scripts/wiki_automation_preflight.py",
+    "--root",
+    "."
+  ],
+  "exit_code": 0,
+  "ok": true,
+  "archive_ok": true,
+  "archive_failure_count": 0,
+  "error": null
+}

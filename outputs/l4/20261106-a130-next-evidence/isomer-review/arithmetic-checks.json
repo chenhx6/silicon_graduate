@@ -1,0 +1,190 @@
+{
+  "checked_at_actual_utc": "2026-11-06T09:59:18.794685+00:00",
+  "scope": "Frozen artifact provenance and arithmetic only; no kernel, fit, source reconstruction or model rerun.",
+  "input_sha256": {
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/protocol.json": "d7cfd563d78bd5b2c131d9d3097b8754564fa4b10a81841c4e3078ef3de14d89",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/results.json": "a5b8f065d68a8a9eb8dfa051dd97b93ac01547be9251d8cd98fef0cd7cddd89c",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/energy-mapping-frozen.json": "57abd9274e345bbb19f6906c54fa87e3b9254d3ffa70c996c2788baec0221aa3",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-protocol.json": "0d275af632774a45150d36925e8bc99ff31566c5b5894e4c90587cee290af9fc",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-results.json": "7adea7bf9da30404ca4db8ee3d849bf9a59037d4d7a05b2e33f913f5877c5039",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/predictions.csv": "4ffdf0860859b2bb3d651b3c36ae88e1cd9554bf94d7438c310921c41c281cdc",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/decay-width-summary.csv": "74c31f74b39a5d8bccb11d492e75bab76cf11d76a51dfe5b91f061e736613794",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_benchmark.py": "7b9e7317bac1b7ae8d927deb38bedf00265dc4b3b87c8c672cf105e1ce5e83d2",
+    "outputs/l4/20261106-a130-next-evidence/isomer-benchmark/run_decay_widths.py": "7ac7fb8f511425f62befa1ab8ed26c22480512cac97df541109f2dd9d9e031d3"
+  },
+  "unit_checks": {
+    "one_downward_E2_Wu_e2fm4": 41.95448333253135,
+    "one_downward_E2_Wu_e2b2": 0.004195448333253135,
+    "RME_initial_denominator": 20,
+    "reverse_RME_denominator": 16,
+    "reverse_up_B_over_down_B": 1.25,
+    "declared_rate_C_MeV_e2b2": 12239000000000.0,
+    "equivalent_C_MeV_e2fm4": 1223900000.0,
+    "equivalent_C_keV_e2b2": 0.012239,
+    "half_life_ns_formula": "ln(2)*1e9 / sum_gamma_rates_s_inverse",
+    "rate_constant_boundary": "Numerical value follows the frozen declared convention; no atomic ICC or observed total lifetime was reconstructed."
+  },
+  "counts": {
+    "strength_rows": 28,
+    "distinct_operators": 7,
+    "parent_ordinals": [
+      0,
+      1
+    ],
+    "width_rows": 14,
+    "stored_open_branches": 84
+  },
+  "maximum_B_relative_error": 0.0,
+  "maximum_reciprocity_ratio_error": 4.6629367034256575e-15,
+  "maximum_branch_rate_relative_error": 0.0,
+  "all_group_sums_half_lives_fractions_and_unit_rescalings_match": true,
+  "energy_mapping": {
+    "at_utc": "2026-11-06T08:45:16.613906+00:00",
+    "frozen_before_any_new_E2_matrix_element": true,
+    "primary_pair": "19half_1_to_15half_1",
+    "energy_nearest_in_declared_four_pairs": "19half_1_to_15half_2",
+    "physical_assignment_certified": false,
+    "is_statistical_chi_square": false,
+    "pairs": [
+      {
+        "pair": "19half_1_to_15half_1",
+        "parent_ordinal": 0,
+        "daughter_ordinal": 0,
+        "parent_state_index": 13,
+        "daughter_state_index": 3,
+        "parent_relative_MeV": 2.142484091205114,
+        "daughter_relative_MeV": 0.9688739204305454,
+        "photon_model_MeV": 1.1736101707745688,
+        "model_decay_direction_positive": true,
+        "parent_energy_residual_keV": 454.284091205114,
+        "daughter_energy_residual_keV": -599.2260795694547,
+        "energy_squared_distance_MeV2": 0.5654459299582347
+      },
+      {
+        "pair": "19half_1_to_15half_2",
+        "parent_ordinal": 0,
+        "daughter_ordinal": 1,
+        "parent_state_index": 13,
+        "daughter_state_index": 11,
+        "parent_relative_MeV": 2.142484091205114,
+        "daughter_relative_MeV": 2.094159042266538,
+        "photon_model_MeV": 0.04832504893857603,
+        "model_decay_direction_positive": true,
+        "parent_energy_residual_keV": 454.284091205114,
+        "daughter_energy_residual_keV": 526.0590422665381,
+        "energy_squared_distance_MeV2": 0.4831121514724437
+      },
+      {
+        "pair": "19half_2_to_15half_1",
+        "parent_ordinal": 1,
+        "daughter_ordinal": 0,
+        "parent_state_index": 33,
+        "daughter_state_index": 3,
+        "parent_relative_MeV": 3.6488482862649114,
+        "daughter_relative_MeV": 0.9688739204305454,
+        "photon_model_MeV": 2.679974365834366,
+        "model_decay_direction_positive": true,
+        "parent_energy_residual_keV": 1960.6482862649113,
+        "daughter_energy_residual_keV": -599.2260795694547,
+        "energy_squared_distance_MeV2": 4.203213596869712
+      },
+      {
+        "pair": "19half_2_to_15half_2",
+        "parent_ordinal": 1,
+        "daughter_ordinal": 1,
+        "parent_state_index": 33,
+        "daughter_state_index": 11,
+        "parent_relative_MeV": 3.6488482862649114,
+        "daughter_relative_MeV": 2.094159042266538,
+        "photon_model_MeV": 1.5546892439983733,
+        "model_decay_direction_positive": true,
+        "parent_energy_residual_keV": 1960.6482862649113,
+        "daughter_energy_residual_keV": 526.0590422665381,
+        "energy_squared_distance_MeV2": 4.120879818383921
+      }
+    ]
+  },
+  "selected_comparisons": [
+    {
+      "operator": "primary",
+      "pair": "19half_1_to_15half_1",
+      "model_Egamma_keV": 1173.6101707745688,
+      "model_Bdown_Wu": 22.46884935273523,
+      "B_ratio_to_observed": 48.845324679859196,
+      "Egamma_ratio_to_observed": 9.771941471894827,
+      "Egamma_fifth_power_factor": 89105.4536739195,
+      "gamma_rate_ratio_to_same_experiment_derived_selected_gamma_rate": 4352384.815448751,
+      "model_selected_branch_gamma_rate_s_inverse": 2568765543304.907,
+      "conditional_fraction_of_model_E2_gamma_sum": 0.999927845482809,
+      "parent_model_upper_half_life_ns": 0.0002698172157697463
+    },
+    {
+      "operator": "primary",
+      "pair": "19half_1_to_15half_2",
+      "model_Egamma_keV": 48.32504893857603,
+      "model_Bdown_Wu": 2.1776211421936043,
+      "B_ratio_to_observed": 4.733959004768705,
+      "Egamma_ratio_to_observed": 0.4023734299631643,
+      "Egamma_fifth_power_factor": 0.010547425719385523,
+      "gamma_rate_ratio_to_same_experiment_derived_selected_gamma_rate": 0.04993108096141413,
+      "model_selected_branch_gamma_rate_s_inverse": 29469.18660739355,
+      "conditional_fraction_of_model_E2_gamma_sum": 1.1471292251355227e-08,
+      "parent_model_upper_half_life_ns": 0.0002698172157697463
+    },
+    {
+      "operator": "Q136_plus_007_splus",
+      "pair": "19half_1_to_15half_2",
+      "model_Egamma_keV": 48.32504893857603,
+      "model_Bdown_Wu": 0.42002440210282804,
+      "B_ratio_to_observed": 0.9130965263104958,
+      "Egamma_ratio_to_observed": 0.4023734299631643,
+      "Egamma_fifth_power_factor": 0.010547425719385523,
+      "gamma_rate_ratio_to_same_experiment_derived_selected_gamma_rate": 0.009630817785888902,
+      "model_selected_branch_gamma_rate_s_inverse": 5684.082159837279,
+      "conditional_fraction_of_model_E2_gamma_sum": 2.2736735653766465e-09,
+      "parent_model_upper_half_life_ns": 0.0002772638355740477
+    },
+    {
+      "operator": "Q136_plus_007_splus",
+      "pair": "19half_1_to_15half_1",
+      "model_Egamma_keV": 1173.6101707745688,
+      "model_Bdown_Wu": 21.866548857350704,
+      "B_ratio_to_observed": 47.535975776849355,
+      "Egamma_ratio_to_observed": 9.771941471894827,
+      "Egamma_fifth_power_factor": 89105.4536739195,
+      "gamma_rate_ratio_to_same_experiment_derived_selected_gamma_rate": 4235714.6874286095,
+      "model_selected_branch_gamma_rate_s_inverse": 2499907154743.4604,
+      "conditional_fraction_of_model_E2_gamma_sum": 0.9999807627338853,
+      "parent_model_upper_half_life_ns": 0.0002772638355740477
+    }
+  ],
+  "conditional_selected_B_check": {
+    "B_Wu": 0.42002440210282804,
+    "quoted_interval_Wu": [
+      0.43000000000000005,
+      0.49
+    ],
+    "inside_quoted_interval": false,
+    "difference_in_units_of_quoted_margin": -1.3325199299057326,
+    "not_a_p_value_or_complete_uncertainty_comparison": true
+  },
+  "largest_model_scheme_upper_half_life_row": {
+    "operator": "Q136_plus_025_splus",
+    "initial_ordinal": 0,
+    "eB_eb": 0.1574939913675675,
+    "eF_eb": 0.44478349843264114,
+    "chi_E": 2.9425996941180594,
+    "open_E2_branch_count": 3,
+    "sum_E2_gamma_rate_s_inverse": 2466354888868.1763,
+    "model_scheme_half_life_upper_bound_ns": 0.0002810411363297495,
+    "observed589ns_over_model_upper_bound": 2095778.6027057548,
+    "dominant_final_two_J": 15,
+    "dominant_final_ordinal": 0,
+    "dominant_photon_model_MeV": 1.1736101707745688,
+    "dominant_E2_only_radiative_fraction": 0.9998839306118383
+  },
+  "observational_dependence": "Quoted B(E2) and 589ns half-life arise from the same experiment; not two independent residuals.",
+  "q3_scope": "For initial J=11/2, both intermediate spins in the cubic loop are 7/2 through 15/2. The 19/2-to-15/2 element is outside that loop.",
+  "Planck_source_replay": "Pending per parent instruction; no fidelity conclusion is drawn.",
+  "frozen_benchmark_files_changed_during_review": []
+}

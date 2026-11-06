@@ -1,5 +1,14 @@
 # Spin-channel redistribution in quadrupole shape diagnostics of odd barium
 
+**Stage closeout, 2026-11-06:** `main.pdf` is the frozen 10-page candidate
+from the preceding checkpoint. A subsequently completed rigid-charge control
+supports the restricted-proxy mechanism, while a separate \(^{137}\)Ba isomer
+test limits the spectroscopic reach of the declared reconstruction. These
+results have not yet been incorporated into that PDF. The next manuscript
+revision must integrate both; the package is **not currently submission-ready**.
+See [the closeout disposition](analysis/closeout-20261106.md) and the
+[Chinese stage report](/workspace/wiki/outputs/l4/20261106-a130-next-evidence/closeout/a130-stage-report-20261106.pdf).
+
 This is a focused English research manuscript prepared in the Springer Nature
 two-column template for an EPJ A candidate. Its single question is how a nearly
 saturated selected spin channel can respond to angular recoupling while carrying

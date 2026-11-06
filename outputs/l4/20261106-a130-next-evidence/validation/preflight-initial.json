@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "system/scripts/wiki_automation_preflight.py",
+    "--root",
+    "."
+  ],
+  "exit_code": 1,
+  "output_log": "outputs/l4/20261106-a130-next-evidence/validation/preflight.log"
+}

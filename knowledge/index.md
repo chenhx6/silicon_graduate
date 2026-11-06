@@ -9,6 +9,11 @@ updated: 2026-11-06
 
 ## 奇Ba四极闭合与受控模型检查（2026-11-06）
 
+- [[fixed-shape-particle-rotor-quadrupole-proxy-control]] — 严格固定20°电荷形状的无配对粒子—转子反例；完整矩不变而全15/2受限角变化／越域。
+- [[ba137-isomer-e2-network-validity]] — 137Ba预定态对应、28个强度与14个完整模型E2衰变图的条件检验；不将单支接近当成整体验证。
+- [[ba135-ba137-source-energy-replay-boundary]] — 原Fig.5(c)六个负宇称系列的冻结重放；135/137最大残差1.896/3.128keV，19/2与电磁作者运行仍未认证。
+- [[nndc-e2-weisskopf-direction-and-lifetime-ratio]] — 普通向下W.u.、0→2特殊参考、20/16反向因子及时间比的局部来源核验。
+- [[book-reading-coverage-reconciliation-20261106]] — 四部专著、33条阅读记录和49分包对账；新增BM-II六页实际单元，范围并集不充当完成率。
 - [[odd-ba-quadrupole-closure-and-spin-channel-redistribution]] — 固定11/2自旋的129–137Ba电荷标定、完整二/三次矩与J+2受限量比较；保留有符号相消、角度越域和算符敏感性。
 - [[nndc-ba128-136-core-e2-calibration]] — 五个偶Ba芯第一2+强度的评价来源、半衰期/平均寿命、上下跃迁方向、替代分支及协方差边界。
 - [[nndc-ba135-ba137-static-e2-constraints]] — 135/137Ba静态矩、136Ba定标分支以及第一15/2→11/2绝对E2分母的实际资料边界。

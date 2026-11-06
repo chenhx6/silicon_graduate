@@ -1,0 +1,115 @@
+{
+  "schema": "Ba137-isomer-source-unit-audit-v1",
+  "actual_checked_at": "2026-11-06T09:03:12.850892+00:00",
+  "observation": {
+    "nucleus": "137Ba",
+    "A": 137,
+    "Z": 56,
+    "initial_two_J": 19,
+    "final_two_J": 15,
+    "spin_parity_labels": "(19/2-)_1 -> (15/2-)_1; parentheses retained from the level scheme",
+    "direction": "downward, 2349.9-keV parent -> 2229.8-keV daughter",
+    "B_E2_down_Wu": 0.46,
+    "quoted_margin_Wu": 0.03,
+    "one_ordinary_down_Wu_e2fm4": 41.95448333253135,
+    "one_ordinary_down_Wu_e2b2": 0.004195448333253135,
+    "B_E2_down_e2b2": 0.0019299062332964424,
+    "quoted_margin_e2b2": 0.00012586344999759405,
+    "B_definition": "abs(<15/2||T(E2)||19/2>)**2 / 20",
+    "T_half_parent_ns": 589.0,
+    "T_half_quoted_margin_ns": 20.0,
+    "T_half_parent_us": 0.589,
+    "T_is_metadata_not_conversion_input": true,
+    "source_B_already_ICC_corrected": true,
+    "numeric_alpha_reported_by_paper": null,
+    "alpha_assumed_or_B_rederived_from_T": false,
+    "evidence_group": "Vogt2017-Ba137-2349p9-to-2229p8-E2",
+    "T_and_B_are_independent_observations": false,
+    "confidence_level_of_quoted_margin": null,
+    "margin_conversion": "Only the reported 0.03 W.u. margin multiplied by the fixed unit; no new uncertainty estimate",
+    "is_15over2_to_11over2_Rstat_first_denominator": false,
+    "source_locator": "Vogt2017 accepted manuscript Table III, PDF p.14/printed p.13; timing Sec.III B/Fig.7, PDF p.9/printed p.8"
+  },
+  "ordinary_reference": {
+    "formula": "BW_down(E2)=(1/(4*pi))*(3/5)^2*(1.2*A^(1/3))^4 e^2 fm^4",
+    "radius_coefficient_fm": 1.2,
+    "coefficient_e2fm4": 0.05940426419916375,
+    "one_barn_in_fm2": 99.99999999999999,
+    "one_barn_squared_in_fm4": 9999.999999999996
+  },
+  "direction_conventions": {
+    "isomer_reverse_Bup_over_Bdown": 1.25,
+    "isomer_reverse": "B(15/2->19/2)=(20/16) B(19/2->15/2), both in the same ordinary units",
+    "special_0_to_2_reference": "5 times the ordinary downward reference; coefficient approximately 0.297",
+    "special_reference_is_used_for_this_isomer": false,
+    "avoid_extra_spin_factor": "Compare an already normalized downward B directly to the converted datum; do not divide by 20 again."
+  },
+  "localized_documentation_findings": [
+    {
+      "source": "raw/papers/gpt/query/20261106-ba137-isomer-validation/nndc-be2-help.html",
+      "lines": [
+        60,
+        70
+      ],
+      "finding": "General downward formula is explicit. The following prose specifies 0+->2+ but its 0.297 expression is labelled with a downward arrow.",
+      "assessment": "0.297 is the rounded fivefold 0->2 reference; its downward-arrow label conflicts with the surrounding context, not an error in the fivefold coefficient."
+    },
+    {
+      "source": "raw/papers/gpt/query/20261106-ba137-isomer-validation/nndc-gamma-help.html",
+      "lines": [
+        178,
+        192
+      ],
+      "finding": "The page names T_gamma a partial half-life, then prints dimensionless B as T_gamma/T_W.",
+      "assessment": "At fixed energy/multipolarity with matched radiative times, B/BW=T_W/T_gamma. The printed reciprocal is a hindrance ratio; the alpha=0 single-branch limit already exposes the reversal.",
+      "scope": "Specific archived help expression; no assertion that ENSDF datasets or NNDC as a whole are invalid."
+    }
+  ],
+  "independent_textbook_locator": {
+    "path": "raw/books/nuclear structure \u2160_Bohr, Mottelson.pdf",
+    "edition": "Bohr and Mottelson, Nuclear Structure I, first edition 1969; local World Scientific 1998 edition",
+    "printed_page": 382,
+    "PDF_page": 401,
+    "equations": [
+      "3C-16",
+      "3C-17",
+      "3C-18"
+    ],
+    "basis": "Radiative rate proportional to E^(2L+1) B; the book's T(E2) is a rate per second, not a half-life.",
+    "inspection": "Local PDF text; no textbook page reproduction written."
+  },
+  "lifetime_ratio_controls": [
+    {
+      "B_over_BW": 0.1,
+      "T_W_over_T_gamma": 0.1,
+      "printed_inverse_T_gamma_over_T_W": 10.0
+    },
+    {
+      "B_over_BW": 0.5,
+      "T_W_over_T_gamma": 0.5,
+      "printed_inverse_T_gamma_over_T_W": 2.0
+    },
+    {
+      "B_over_BW": 2.0,
+      "T_W_over_T_gamma": 2.0,
+      "printed_inverse_T_gamma_over_T_W": 0.5
+    },
+    {
+      "B_over_BW": 10.0,
+      "T_W_over_T_gamma": 10.0,
+      "printed_inverse_T_gamma_over_T_W": 0.1
+    }
+  ],
+  "parent_model_protocol_boundary": "Parent fixes primary ordinal 0/0 and an energy-only alternative before B; this sidecar neither selects states nor calculates any model strength.",
+  "input_sha256": {
+    "raw/papers/gpt/query/20261106-ba137-isomer-validation/manifest.json": "43c4d2616a7d90dd7b380fecb24ff793c718b59ca33237dca9d9eb451fe595ca",
+    "raw/papers/gpt/query/20261106-ba137-isomer-validation/nndc-be2-help.html": "df0058d7fffef7cd92c25aafabb1b3591666129ff0febf7c11b3190d9cd2323c",
+    "raw/papers/gpt/query/20261106-ba137-isomer-validation/nndc-gamma-help.html": "e2b863a873aa062c1c06966a20ed4fa33833ee2703e4f4e1e8a3ee13d78316cb",
+    "raw/papers/gpt/query/20261106-vogt2017-ba137-rstat/manifest.json": "3e777f4bae5e9e2ca7b4a6bd773436d1282bdd64678b117250d512c886f5854f",
+    "raw/papers/gpt/query/20261106-vogt2017-ba137-rstat/vogt2017-accepted.pdf": "5a17b3fdd5c08c4e27284bc59f1d3e6e7ef9821746069057caf8b2745a12680b",
+    "raw/books/nuclear structure \u2160_Bohr, Mottelson.pdf": "a31a158e0aff2ec6734d46f5aea5eb42dbebb82280835774f49350dd6f8c79df"
+  },
+  "inputs_unchanged": true,
+  "new_model_calculation_or_refit": false,
+  "reported_B_converted_using_only_A_and_Wu": true
+}
